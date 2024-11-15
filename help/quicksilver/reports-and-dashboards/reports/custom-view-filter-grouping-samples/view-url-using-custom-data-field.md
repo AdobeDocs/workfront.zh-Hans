@@ -4,17 +4,19 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: '视图：使用自定义数据字段的外部URL'
 description: 您可以使用任务视图中名为“自定义URL”的计算自定义字段来显示指向内部自定义URL的链接。
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e402fed-71ce-438a-8da9-8f8d37550ea8
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 4247f2b437a5627ac4cba5289573eb4f1c18c583
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
 
 # 视图：使用自定义数据字段的外部URL
+
+<!--Audited: 11/2024-->
 
 通过使用&#x200B;**任务视图**&#x200B;中名为“自定义URL”的&#x200B;**计算自定义字段**，您可以显示指向内部自定义URL的链接。
 
@@ -28,6 +30,8 @@ ht-degree: 0%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -35,28 +39,39 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>请求修改视图 </p>
-   <p>计划修改报告</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p> 当前： 
+   <ul>
+   <li>请求修改视图</li> 
+   <li>计划修改报告</li>
+   </ul>
+     </p>
+     <p> 新增： 
+   <ul>
+   <li>修改视图的参与者</li> 
+   <li>用于修改报告的标准</li>
+   </ul>
+     </p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对报告、功能板和日历的访问权限以修改报告</p> <p>编辑对筛选器、视图和分组的访问权限以修改视图</p> <p><b>注释</b>
-
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
-</tr>  
+   <td> <p>编辑对报告、功能板和日历的访问权限以修改报告</p> <p>编辑对筛选器、视图和分组的访问权限以修改视图</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理报表的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>管理报表的权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 创建“自定义URL”计算自定义字段
 
@@ -69,15 +84,7 @@ ht-degree: 0%
 
    CONCAT(&quot;https://`<domain>`.my.workfront.com&quot;，&quot;/&quot;，&quot;task/&quot;，ID，&quot;/overview&quot;)
 
-1. 将“`<domain>`”替换为您的实际域名，不带方括号。
-
-   此
-
-   ```
-   /overview
-   ```
-
-   此URL的部分将链接指向任务左侧面板中的&#x200B;**概述**&#x200B;部分。
+1. 将“`<domain>`”替换为您的实际域名，不带方括号。 此URL的`/overview`部分将链接指向任务左侧面板中的&#x200B;**概述**&#x200B;部分。
 
 1. 创建&#x200B;**计算自定义字段**&#x200B;后，将带有此字段的&#x200B;**自定义表单**&#x200B;附加到Adobe Workfront中要在新视图中显示的多个任务。
 
@@ -94,10 +101,51 @@ ht-degree: 0%
 1. 单击&#x200B;**自定义视图**。
 1. 移除视图中的所有列（第一列除外）。
 1. 单击第一列的标题。
-1. 单击界面右上角的&#x200B;**切换到文本模式**。
-1. 单击&#x200B;**单击以编辑文本**。
-1. 将下面的文本模式粘贴到一列中。\
-   在此示例中，“column.1.” 将“自定义URL”字段中的值显示为任务&#x200B;**概述**&#x200B;的链接。 &#39;列。2.&#39; 显示存储在任务的&#x200B;**URL字段**&#x200B;中的值。
-   <pre>column.0.descriptionkey=name<br>column.0.link.linkproperty.0.name=ID<br>column.0.link.linkproperty.0.valuefield=ID<br>column.0.link.linkproperty.0.valueformat= int<br>column.0.link.lookup=link.view<br>column.0.link.valuefield= objCode<br>column.0.link.valueformat= val<br>column.0.link.linkedname=direct<br>column.0.listsort=string(name)<br>column.string(name){name){name.0.namekey=name.abbr<br>column.0.querysort=name<br>column.0.shortview=false<br>column.0.stretch=100<br>column.0.valuefield=name<br>column.0.valueformat=HTML<br>column.0.width=150<br>column.1.description=Custom URL<br>column.1.link=customDataLabelsAsString(String) url)<br>column.1.linkedname=direct<br>column.1.listsort=customDataLabelsAsString（自定义URL）<br>column.1.name=自定义URL<br>column.1.querysort=URL<br>column.1.short=false<br>column.1.valuefield=自定义URL<br>column.1.valueformat=customDataLabelsAsString<br> column.1.width=150<br>column.2.descriptionkey=url<br>column.2.linkedname=direct<br>column.2.listsort=string(URL)<br>column.2.namekey=url.abbr<br>column.2.querysort=URL<br>column.2.shortview=false<br>column.2.valuefield=URL<br>column.2.valueformat=HTML<br>列2.宽度=150<br><br><br></pre>
+1. 单击&#x200B;**切换到文本模式** > **编辑文本模式**。
+1. 删除&#x200B;**编辑文本模式**&#x200B;框中的文本并将其替换为以下代码：
 
-1. 单击&#x200B;**保存视图**。
+
+   ```
+   column.0.descriptionkey=name
+   column.0.link.linkproperty.0.name=ID
+   column.0.link.linkproperty.0.valuefield=ID
+   column.0.link.linkproperty.0.valueformat= int
+   column.0.link.lookup=link.view
+   column.0.link.valuefield= objCode
+   column.0.link.valueformat= val
+   column.0.linkedname=direct
+   column.0.listsort=string(name)
+   column.0.namekey=name.abbr
+   column.0.querysort=name
+   column.0.shortview=false
+   column.0.stretch=100
+   column.0.valuefield=name
+   column.0.valueformat=HTML
+   column.0.width=150
+   column.1.description=Custom URL
+   column.1.link.isnewwindow=true
+   column.1.link.url=customDataLabelsAsString(Custom URL)
+   column.1.linkedname=direct
+   column.1.listsort=customDataLabelsAsString(Custom URL)
+   column.1.name=Custom URL
+   column.1.querysort=URL
+   column.1.shortview=false
+   column.1.stretch=0
+   column.1.valuefield=Custom URL
+   column.1.valueformat=customDataLabelsAsString
+   column.1.width=150
+   column.2.descriptionkey=url
+   column.2.linkedname=direct
+   column.2.listsort=string(URL)
+   column.2.namekey=url.abbr
+   column.2.querysort=URL
+   column.2.shortview=false
+   column.2.stretch=0
+   column.2.valuefield=URL
+   column.2.valueformat=HTML
+   column.2.width=150
+   ```
+
+   在此示例中，“column.1.” 行将“自定义URL”字段中的值显示为任务&#x200B;**概述**&#x200B;部分的链接；“列。2”。 显示存储在任务的&#x200B;**URL字段**&#x200B;中的值。
+
+1. 单击&#x200B;**完成** > **保存视图**。

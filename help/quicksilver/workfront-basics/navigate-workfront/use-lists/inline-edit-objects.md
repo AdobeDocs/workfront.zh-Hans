@@ -4,16 +4,18 @@ navigation-topic: use-lists
 title: 在 [!DNL Adobe Workfront]的列表中内联编辑项目
 description: 当对象显示在列表或报表中时，您可以内联编辑对象。 编辑列表或报告中显示的对象信息时，对象会立即更新。
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
 
 # 在[!DNL Adobe Workfront]的列表中内联编辑项目
+
+<!--Audited: 11/2024-->
 
 当对象显示在列表或报表中时，您可以内联编辑对象。 编辑列表或报告中显示的对象信息时，对象会立即更新。
 
@@ -24,14 +26,18 @@ ht-degree: 0%
 虽然列表或报表中显示的大多数对象都可以在[!DNL Adobe Workfront]中内联编辑，但存在一些限制，包括：
 
 * 您无法编辑计算字段或[!DNL Workfront]内置的计算字段。
-* 您只能编辑与列表中对象直接关联的字段。 您无法编辑属于与列表中对象关联的对象的字段。\
-   例如，您可以在“任务”报告中编辑任务的状态，但无法在同一报告中编辑与任务关联的项目的名称。 您只能在项目报告中编辑项目名称。
-* 当列表视图未显示默认货币时，您无法内联编辑字段。\
-   有关显示默认货币的信息，请参阅[创建具有唯一汇率的财务数据报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)一文中的[编辑具有唯一货币的报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md#editing-reports-with-unique-currencies)部分。
+* 您只能编辑与列表中对象直接关联的字段。 您无法编辑属于与列表中对象关联的对象的字段。
+
+  例如，您可以在“任务”报告中编辑任务的状态，但无法在同一报告中编辑与任务关联的项目的名称。 您只能在项目报告中编辑项目名称。
+* 当列表视图未显示默认货币时，您无法内联编辑字段。
+
+  有关显示默认货币的信息，请参阅[创建具有唯一汇率的财务数据报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)一文中的[编辑具有唯一货币的报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md#editing-reports-with-unique-currencies)部分。
 * 您无法编辑列表中显示的标志和图标。
 * 您无法内联编辑源自其他报表的报表字段。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -40,25 +46,34 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划*</strong></td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[！UICONTROL Review]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td> 
+    <p>新增：</p>
+   <ul><li><p>参与者或更高版本 </p></li>
+   </ul>
+
+<p>当前：</p>
+   <ul><li><p>请求或更高版本</p></li>
+    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>[！UICONTROL Edit]对列表所在区域的访问权限</p> <p>例如，要在项目中内联编辑任务，您需要[！UICONTROL Edit]项目访问权限。</p> <p>注意：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。<br>有关[!DNL Workfront]管理员如何更改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>[！UICONTROL Edit]对列表所在区域的访问权限</p> <p>例如，要在项目中内联编辑任务，您需要[！UICONTROL Edit]项目访问权限。</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>[！UICONTROL管理]</p> <p>您还必须有权编辑某些字段，例如自定义字段、状态等。</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td role="rowheader">对象权限</td> 
+   <td> <p>[！UICONTROL管理]</p> <p>您还必须有权编辑某些字段，例如自定义字段、状态等。</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 编辑内联对象
 
@@ -72,13 +87,10 @@ ht-degree: 0%
    >
    >如果您有多个页面，则可以使用以下方法查找对象：
    >
-   >   
-   >   
-   >   * **分页**：单击向后和向前箭头可在页面之间导航。\
+   >   * **分页**：单击向后和向前箭头可在页面之间导航。
    >     位于列表的右下角，滚动列表时[!UICONTROL 分页]区域保持粘性。
-   >   * **快速筛选器**：单击筛选器图标或键入Alt+F以打开快速筛选器，然后输入文本以仅显示包含输入文本的项目。\
+   >   * **快速筛选器**：单击筛选器图标或键入Alt+F以打开快速筛选器，然后输入文本以仅显示包含输入文本的项目。
    >     快速筛选器位于列表工具栏中。 有关详细信息，请参阅[将快速筛选器应用到列表](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md)。
-
 
    如果字段可以编辑，这会将字段和列表中显示的所有其他字段转换为可编辑的单元格。
 

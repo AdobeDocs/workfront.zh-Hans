@@ -3,16 +3,18 @@ navigation-topic: use-lists
 title: 修改列表的显示方式
 description: 在 [!DNL Adobe Workfront]中，您可以自定义列表的显示方式。 查看列表的其他用户看不到您的更改。
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
 
 # 修改列表的显示方式
+
+<!--Audited: 11/2024-->
 
 在[!DNL Adobe Workfront]中，您可以自定义列表的显示方式。 查看列表的其他用户看不到您的更改。
 
@@ -32,6 +34,8 @@ ht-degree: 0%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -39,27 +43,36 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划*</strong></td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td> 
+    <p>新增：</p>
+   <ul><li><p>参与者或更高版本 </p></li>
+   </ul>
+
+<p>当前：</p>
+   <ul><li><p>请求或更高版本</p></li>
+    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>[！UICONTROL视图]对列表所在区域的访问权限</p> <p>例如，要修改项目的视图，您需要具有[！UICONTROL视图]的项目访问权限。</p> <p>注意：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。<br>有关[!DNL Workfront]管理员如何更改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>[！UICONTROL视图]对列表所在区域的访问权限</p> <p>例如，要修改项目的视图，您需要具有[！UICONTROL视图]的项目访问权限。</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>[！UICONTROL视图]或应用于列表的视图的更高权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td role="rowheader">对象权限</td> 
+   <td> <p>[！UICONTROL视图]或应用于列表的视图的更高权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-## 修改列表的显示方式
++++
+
+## 修改列表
 
 1. 转到[!DNL Workfront]中要修改的列表。
 
@@ -101,7 +114,8 @@ ht-degree: 0%
 
 1. 要重新排序列表中的列，请将鼠标悬停在列标题上以显示抓手工具，然后单击以将列拖动到要显示的位置。
 
-   列的位置会一直保存，直到您刷新页面为止。\
+   列的位置会一直保存，直到您刷新页面为止。
+
    有关自定义列表中列的宽度和顺序的更多信息，请参阅项目[修改列宽度和顺序](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)。
 
 1. 要调整列表的排序顺序，请单击列标题将其选中，然后在键盘上按住CMD键（在[!DNL Mac]上）或CTRL键（在[!DNL Windows]上），并选择最多2个附加列标题以按它们排序。

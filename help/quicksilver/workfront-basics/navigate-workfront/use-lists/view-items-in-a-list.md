@@ -3,16 +3,18 @@ navigation-topic: use-lists
 title: 开始使用 [!DNL Adobe Workfront]中的列表
 description: 您可以查看 [!DNL Adobe Workfront] 中的对象列表以获取有关这些对象的信息，如它们的开始日期和到期日期、分配给它们的用户以及与它们关联的其他对象。
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
-source-wordcount: '2386'
+source-wordcount: '2284'
 ht-degree: 0%
 
 ---
 
 # 开始使用[!DNL Adobe Workfront]中的列表
+
+<!--Audited: 11/2024-->
 
 您可以查看[!DNL Adobe Workfront]中的对象列表以获取有关这些对象的信息，例如它们的开始日期和到期日期、分配给它们的用户以及与它们关联的其他对象。
 
@@ -29,6 +31,8 @@ ht-degree: 0%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -36,25 +40,64 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划*</strong></td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td> 
+    <p>新增：</p>
+   <ul><li><p>参与者或更高版本 </p></li>
+   </ul>
+
+<p>当前：</p>
+   <ul><li><p>请求或更高版本</p></li>
+    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>[！UICONTROL View]或更高权限访问筛选器、视图、分组</p> <P>对于[！UICONTROL设置]区域中的项目，您需要具有该项目或[！UICONTROL系统管理员]访问级别的管理访问权限。</P> <p>注意：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。<br>有关[!DNL Workfront]管理员如何更改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑对筛选器、视图、分组的访问权限 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>[！UICONTROL视图]或更高权限可访问“共享”</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td>
+   <td role="rowheader">对象权限</td> 
+   <td> <p>查看或拥有共享权限的筛选器、视图或分组的更高权限 </p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+<!--Old access: 
+
+You must have the following access to perform the steps in this article:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td> <p>[!UICONTROL Request] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Access level configurations*</strong></td> 
+   <td> <p>[!UICONTROL View] or higher access to filters, views, groupings</p> <P>For items in the [!UICONTROL Setup] area, you need administrative access for the item or the [!UICONTROL System Administrator] access level.</P> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level.<br>For information on how a [!DNL Workfront] administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
+   <td> <p>[!UICONTROL View] or higher permissions with access to share</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td>
+  </tr> 
+ </tbody> 
+</table>
+
+To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+-->
 
 ## 对象列表
 
@@ -315,19 +358,23 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td><strong>内联编辑</strong> </td> 
-   <td> <p>直接在列表中编辑对象及其信息。</p> <p>有关详细信息，请参阅[!DNL Adobe Workfront]</a>中的列表中的<a href="../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md" class="MCXref xref">内联编辑项。</p> </td> 
+   <td> <p>直接在列表中编辑对象及其信息。</p> <p>有关详细信息，请参阅[!DNL Adobe Workfront]</a>中的列表中的<a href="../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md" class="MCXref xref">内联编辑项。</p> 
+   <p><b>注意：</b></p>
+   <p>无法在分组中进行内联编辑。</p>
+
+</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td><strong>更新为[！UICONTROL摘要]</strong> </td> 
-   <td> <p>使用[！UICONTROL摘要]面板更新项目级别的任务和问题。</p> <p>提示：“摘要”并不适用于所有对象，也不能在“任务”或“问题”报表中使用。</p> <p>有关详细信息，请参阅<a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">摘要概述</a>。</p> </td> 
+   <td> <p>使用[！UICONTROL摘要]面板更新项目级别的任务和问题。</p> <p><b>提示：</b></p> <p>摘要并不适用于所有对象，也不能在“任务”或“问题”报表中使用。</p> <p>有关详细信息，请参阅<a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">摘要概述</a>。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>自定义列表显示</strong> </td> 
-   <td> <p>自定义列表的外观、列排列、项目的排序顺序或显示的项目数。</p> <p>注意：当您注销[!DNL Workfront]或关闭浏览器时，将撤消您对要在页面上显示的项目数所做的更改。 更改也可能会在8小时后还原。</p> <p>有关详细信息，请参阅<a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">修改列表的显示方式</a>。</p> </td> 
+   <td> <p>自定义列表的外观、列排列、项目的排序顺序或显示的项目数。</p> <p><b>注意：</b></p> <p>当您注销[!DNL Workfront]或关闭浏览器时，将还原您对要在页面上显示的项目数所做的更改。 更改也可能会在8小时后还原。</p> <p>有关详细信息，请参阅<a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">修改列表的显示方式</a>。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>快速筛选器</strong> </td> 
-   <td> <p>应用快速筛选器以仅查找对您很重要的项目，以便您可以快速查看、更新或与他人共享这些项目。</p> <p>重要信息：您可以使用快速过滤器查找包含搜索词的项目，无论该项目在您的屏幕上是否可见，或者在您滚动到页面底部之后是否将显示。 使用浏览器的搜索功能时，您只能查找屏幕上已显示的项目。 如果您的列表有多个页面，则快速筛选器只会查找当前页面上的项目。</p> <p>有关详细信息，请参阅<a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">将快速筛选器应用到列表</a>。</p> </td> 
+   <td> <p>应用快速筛选器以仅查找对您很重要的项目，以便您可以快速查看、更新或与他人共享这些项目。</p> <p><b>重要信息：</b></p> <p> 您可以使用快速过滤器查找包含搜索词的项目，无论该项目在屏幕上是否可见，或者滚动到页面底部后是否将显示。 使用浏览器的搜索功能时，您只能查找屏幕上已显示的项目。 如果您的列表有多个页面，则快速筛选器只会查找当前页面上的项目。</p> <p>有关详细信息，请参阅<a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">将快速筛选器应用到列表</a>。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>导出</strong> </td> 
@@ -443,7 +490,7 @@ ht-degree: 0%
   <tr> 
    <td> <img src="assets/summary-panel-icon.png"> </td> 
    <td>[！UICONTROL摘要]</td> 
-   <td> <p>显示或隐藏选定项目的[！UICONTROL摘要]框。</p> <p>这仅适用于任务和问题。</p> <p>有关新[!DNL Adobe Workfront]体验中[！UICONTROL摘要]面板的信息，请参阅<a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">摘要概述</a>。</p> </td> 
+   <td> <p>显示或隐藏选定项目的[！UICONTROL摘要]框。</p> <p>这仅适用于任务和问题。</p> <p>有关[！UICONTROL摘要]面板的信息，请参阅<a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">摘要概述</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/remove-icon---x-in-circle.png"> </td> 
@@ -583,13 +630,6 @@ ht-degree: 0%
 
   ![](assets/updated-list-screen-shot-gray-groupings-350x71.png)
 
-这两种类型的列表都显示在[!DNL Adobe Workfront]中。
-
-[!DNL Adobe Workfront]中的所有列表和报告都已更新，以下列表除外：
-
-* [!UICONTROL 设置]区域中的列表
-* [!UICONTROL 报告]区域中的列表
-
 下表显示了[!DNL Workfront]中旧版列表与更新列表之间的一些差异：
 
 <!--
@@ -604,16 +644,7 @@ ht-degree: 0%
    <td><b>旧版列表</b></td> 
    <td><b>更新的列表</b></td> 
   </tr> 
-  <tr> 
-   <td> <p>旧版字体、列标题、蓝色分组颜色方案</p> </td> 
-   <td> <p>更新了字体、列标题、灰色分组颜色方案</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>较慢的内联编辑</p> </td> 
-   <td> <p>更快的内联编辑</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>默认显示<strong>100</strong>项</p> </td> 
+  <td> <p>默认显示<strong>100</strong>项</p> </td> 
    <td> <p>默认显示<strong>所有</strong>或最多<strong>2000</strong>个项目</p> </td> 
   </tr> 
   <tr> 
@@ -622,7 +653,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>无法使用富文本格式内联编辑自定义字段。</td> 
-   <td> <p>可以将带有格式的自定义字段中的文本配置为允许使用粗体、斜体、下划线、项目符号、编号、超链接和块引号。</p> <p>有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">创建自定义表单/a&gt;。</p> </td> 
+   <td> <p>可以将带有格式的自定义字段中的文本配置为允许使用粗体、斜体、下划线、项目符号、编号、超链接和块引号。</p> <p>有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">创建自定义表单</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>条件格式可以更改列表中链接的文本颜色</td> 

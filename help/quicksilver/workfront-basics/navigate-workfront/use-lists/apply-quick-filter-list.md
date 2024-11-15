@@ -3,20 +3,18 @@ navigation-topic: use-lists
 title: 将快速筛选器应用到列表
 description: 您可以在对象列表中使用快速过滤器，以帮助您仅查找对您很重要的项目，以便快速查看、更新或与他人共享这些项目。
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: 363f7ad1-f4f8-4cb1-a631-ee4e5ea28e5a
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '838'
 ht-degree: 0%
 
 ---
 
 # 将快速筛选器应用到列表
 
-<!--
-{{highlighted-preview}}
--->
+<!--Audited:11/2024-->
 
 您可以在对象列表中使用快速过滤器，以帮助您仅查找对您很重要的项目，以便快速查看、更新或与他人共享这些项目。
 
@@ -35,6 +33,7 @@ ht-degree: 0%
 * [!UICONTROL 报告]区域
 * 文档列表和报告
 * 多个[!UICONTROL 设置]区域
+
   >[!NOTE]
   >
   >快速筛选器在以下设置区域可用： [!UICONTROL 组]、[!UICONTROL 团队]、[!UICONTROL 公司]、[!UICONTROL 计划]、[!UICONTROL 布局模板]和[!UICONTROL 自定义Forms]。
@@ -52,6 +51,8 @@ ht-degree: 0%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -59,25 +60,35 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><b>[!DNL Adobe Workfront] 计划*</b></td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><b>[!DNL Adobe Workfront] 许可证*</b></td> 
-   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td> 
+    <p>新增：</p>
+   <ul><li><p>参与者或更高版本 </p></li>
+   </ul>
+
+<p>当前：</p>
+   <ul><li><p>请求或更高版本</p></li>
+    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><b>访问级别配置*</b></td> 
-   <td> <p>查看列表所在区域的访问权限</p> <p>例如，要将快速过滤器应用于项目，您需要具有项目的[！UICONTROL视图]访问权限。</p> <p>注意：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。<br>有关[!DNL Workfront]管理员如何更改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>查看列表所在区域的访问权限</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><b>对象权限</b></td> 
-   <td> <p>[！UICONTROL视图]</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td role="rowheader">对象权限</td> 
+   <td> <p>列表所在对象的[！UICONTROL View]权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
 
 ## 将快速过滤器应用于列表
 
@@ -109,7 +120,7 @@ ht-degree: 0%
    1. 选择列表中的所有项或多项项，然后单击&#x200B;**[!UICONTROL 编辑]**&#x200B;以批量编辑这些项。
    1. 完成编辑后，单击&#x200B;**[!UICONTROL 保存更改]**。
 
-1. （可选）要导出通过快速筛选器找到的项，请选择列表中的所有项或若干项，然后单击&#x200B;**[!UICONTROL 导出]**。
+1. （可选）要导出快速筛选器找到的项，请选择列表中的所有项或其中的若干项，然后单击&#x200B;**[!UICONTROL 导出]**&#x200B;图标![](assets/export.png)。
 
    ![select_all_projects_with_highlight__1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
 
@@ -118,6 +129,6 @@ ht-degree: 0%
    >仅在快速过滤器搜索中找到的项目导出到所选文件。 如果在导出列表之前未选择任何项目，则会导出完整的未筛选列表。\
    >有关详细信息，请参阅[导出列表](../../../workfront-basics/navigate-workfront/use-lists/export-lists.md)。
 
-1. （可选）要清除筛选的结果，请单击窗口右上角的&#x200B;**[!UICONTROL 快速筛选器]**&#x200B;图标。\
-   或\
-   刷新页面。
+1. （可选）要清除筛选的结果，请单击窗口右上角的&#x200B;**[!UICONTROL 快速筛选器]**图标。
+或
+刷新页面。
