@@ -6,9 +6,9 @@ description: 您可以使用[!UICONTROL Portfolio优化器]根据项目的分数
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 25debc5b-5d7d-453f-ab0a-9bf3fba05693
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,9 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>项目组合的[！UICONTROL Manage]权限</p> <p>Contribute或项目的更高权限</p>  </td> 
+   <td> <p>项目组合的[！UICONTROL Manage]权限</p> <p>Contribute或项目的更高权限</p> 
+   <p>您必须对列表中的所有项目具有管理权限，才能使用<b>设置项目优先级</b>。</p>
+    </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,7 +61,8 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL 优化]**&#x200B;图标。
 
-   ![](assets/optimize-icon-portfolio-optimizer.png)\
+   ![](assets/optimize-icon-portfolio-optimizer.png)
+
    可对项目进行评分的类别显示在[!UICONTROL 优化]图标的左侧。
 
 1. 使用滑动圆，修改以下任一类别的优化：
@@ -78,9 +81,14 @@ ht-degree: 0%
 
 1. 为&#x200B;**[!UICONTROL 得分]**&#x200B;列设置正确的权重后，单击&#x200B;**[!UICONTROL 得分]**&#x200B;列的标题可按此列排序。 得分最高的项目显示在列表顶部。
 
-1. （可选）按优先级拖放项目。\
-   这将更改[!UICONTROL Portfolio优化器]中项目的顺序。
-1. （可选）单击&#x200B;**[!UICONTROL 设置优先级]**&#x200B;以保存项目的新优先级。\
+1. （可选）按优先级拖放项目。
+这将更改[!UICONTROL Portfolio优化器]中项目的顺序。
+1. （可选）单击&#x200B;**[!UICONTROL 设置优先级]**&#x200B;以保存项目的新优先级。
+
+   >[!NOTE]
+   >
+   >   您必须对列表中的所有项目具有管理权限，才能使用&#x200B;**设置项目优先级**。
+
    有关在[!UICONTROL Portfolio优化器]中排定项目优先级的更多信息，请参阅文章[在[!UICONTROL Portfolio优化器]](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)中排定项目优先级。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以保存您的[!UICONTROL Portfolio优化器]。

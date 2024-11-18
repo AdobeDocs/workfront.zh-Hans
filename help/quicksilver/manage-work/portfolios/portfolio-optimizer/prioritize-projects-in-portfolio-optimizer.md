@@ -6,9 +6,9 @@ description: 您可以在Portfolio优化器中排定项目的优先级，以确�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 54e33746-5995-49de-8e21-bf973f0694a6
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '534'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,9 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>项目组合的[！UICONTROL Manage]权限</p> <p>Contribute或项目的更高权限</p>  </td> 
+   <td> <p>项目组合的[！UICONTROL Manage]权限</p> <p>Contribute或项目的更高权限</p> 
+   <p>您必须对列表中的所有项目具有管理权限，才能使用<b>设置项目优先级</b>。</p>
+    </td> 
   </tr> 
  </tbody> 
 </table>

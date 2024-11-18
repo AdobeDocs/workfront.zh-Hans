@@ -7,9 +7,9 @@ description: '[!UICONTROL Portfolio优化器]是用于项目评估和比较的�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: 1fd3b135682c096f1715e5da0455fed12e882582
+source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
 workflow-type: tm+mt
-source-wordcount: '1629'
+source-wordcount: '1649'
 ht-degree: 0%
 
 ---
@@ -168,7 +168,9 @@ ht-degree: 0%
   <tr> 
    <td> <img src="assets/nwe-set-priority-icon.png"> </td> 
    <td>[！UICONTROL设置项目优先级]</td> 
-   <td>当您要根据项目顺序的优先级保存项目顺序时，使用此图标。 </td> 
+   <td><p>当您要根据项目顺序的优先级保存项目顺序时，使用此图标。</p>
+   <p>您必须对列表中的所有项目具有管理权限，才能使用<b>设置项目优先级</b></p>。
+    </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/nwe-optimize-icon-in-optimizer.png"> </td> 
