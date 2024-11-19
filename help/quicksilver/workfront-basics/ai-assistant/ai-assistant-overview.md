@@ -1,17 +1,22 @@
 ---
-title: 'AI助手概述'
+title: AI Assistant概述
 content-type: reference
 description: AI Assistant概述
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
+exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
+source-git-commit: 64ad86e29bf18969f82dbdb54b98ca884d2ec26a
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 0%
+source-wordcount: '711'
+ht-degree: 1%
 
 ---
 
 # AI Assistant概述
+
+<span class="preview">此页面上的信息引用了尚未公开的功能。 它在“预览”环境中为所有客户提供，在“生产”环境中为启用每月发布的客户提供。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 Workfront的AI助手通过提供应用程序内信息和自然语言对话建议，帮助您完成工作。 AI助手可以通过以下方式为您提供更流畅的工作体验
 
@@ -79,13 +84,35 @@ AI助手当前提供以下功能：
 
   有关详细信息，请参阅[从AI助手获取帮助](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)。
 
-* 为计算的自定义字段生成或优化公式。
+<div class="preview">
+
+* 在Workfront中查找特定项目。
+
+  有关详细信息，请参阅[使用AI助手处理项目、任务和问题](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md)。
+
+</div>
+
+* 为已计算的自定义字段生成或优化公式。
 
   >[!NOTE]
   >
   >此功能仅适用于Prime或Ultimate Workfront计划中的组织。
 
   有关详细信息，请参阅[使用AI助手生成或修订计算字段公式](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)。
+
+## AI助手可用的对象类型
+
+如果用户在Workfront中拥有有效权限，则AI Assistant可以查询与以下对象类型关联的数据：
+
+* 项目组合
+* 项目群
+* 项目
+* 任务
+* 问题
+* 自定义表单
+* 用户
+* Workfront Planning记录
+
 
 ## 访问AI助手
 
@@ -113,5 +140,3 @@ AI助手当前提供以下功能：
 1. 输入贵公司中将签署AdobeGen AI协议的人员的姓名和电子邮件地址。
 
    协议将发送给此人签署。 签名并返回后，将为您的组织启用AI助手。
-
-
