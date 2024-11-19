@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 2bbfd449d913a5134c9c36b1ee10567973c56eaa
+source-git-commit: 4ea4d7d8fd16d4c4d7c2fe5f7adb15c2b44b6705
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '292'
 ht-degree: 3%
 
 ---
@@ -59,11 +59,11 @@ ht-degree: 3%
 
 否，当前不支持共享。
 
-## 回滚功能何时可用？
+## 包回滚是否可用？
 
 ### 答案
 
-回滚是重中之重，目前正在开发中。 我们预计将在2024年第3季度或第四季度发布回滚功能。
+软件包回滚可在软件包安装后的24小时内用于最新软件包。
 
 ## 是否可以选择跳过单个组件的升级？ 存在选项“`Use Existing`”、“`Overwrite`”和“`Save with a new Name`”的情况下，是否可以添加`Skip`以跳过单个参数的升级？
 

@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: bff394325882dae7b447c319db9cad8c196340d3
+source-git-commit: 4ea4d7d8fd16d4c4d7c2fe5f7adb15c2b44b6705
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1058'
 ht-degree: 1%
 
 ---
@@ -157,4 +157,10 @@ ht-degree: 1%
   </tr> 
   </tbody> 
 </table>
+
+## 资源
+
+* 有关环境升级的常见问题解答，请参阅[环境升级常见问题解答](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
+* 有关疑难解答建议，请参阅[环境提升疑难解答](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
+
 
