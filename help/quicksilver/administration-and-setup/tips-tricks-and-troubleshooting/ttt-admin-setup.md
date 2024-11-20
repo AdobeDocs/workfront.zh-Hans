@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: e72018b7-5de2-4661-b27d-6da6ece5cc48
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: 806a4c4835e47da4fbbdb28ec0c35c990f70239e
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
@@ -43,3 +43,4 @@ ht-degree: 0%
 * [保存电子邮件标头文件](../../administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md)
 * [共享显示多个权限](../../administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
 * [由于域的DMARC策略，未接受未经身份验证的电子邮件](../../administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
+* [Workfront： ZScalar设置可能会导致性能降低](../../administration-and-setup/tips-tricks-and-troubleshooting/zscalar-affects-performance.md)
