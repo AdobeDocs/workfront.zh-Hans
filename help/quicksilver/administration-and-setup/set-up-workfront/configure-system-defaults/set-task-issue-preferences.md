@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: f8f86eae11e7f175e130d7f0265d92519923402f
 workflow-type: tm+mt
-source-wordcount: '2110'
+source-wordcount: '2107'
 ht-degree: 0%
 
 ---
@@ -64,19 +64,20 @@ Linked to Converting Issues.-->
 
 1. 在左侧面板中，单击&#x200B;**[!UICONTROL 项目首选项]** >**[!UICONTROL 任务和问题].**
 
-1. 在出现的页面上，继续下面列出的五部分之一，配置[!UICONTROL 新任务默认值]、[!UICONTROL 问题]、[!UICONTROL 删除]、[!UICONTROL 实际日期]和[!UICONTROL 访问]的设置：
+1. 在出现的页面上，继续下面列出的六部分之一，配置[!UICONTROL 新任务默认值]、[!UICONTROL 问题]、[!UICONTROL 删除]、[!UICONTROL 实际日期]和[!UICONTROL 访问]的设置：
 
    * [[!UICONTROL 新任务默认值]](#new-task-defaults)
    * [[!UICONTROL 问题]](#issues)
    * [[!UICONTROL 删除]](#deletion)
    * [[!UICONTROL 实际日期]](#actual-dates)
    * [[!UICONTROL 委派]](#delegation)
+   * [[!UICONTROL 访问]](#access)
 
-   <!--
-<li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">处理它</a> </li>
-  —&gt;
+<!--
+  <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>
+-->
 
-* [[!UICONTROL 访问]](#access)
+
 
 ### [!UICONTROL 新任务默认值] {#new-task-defaults}
 
