@@ -8,20 +8,19 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
 workflow-type: tm+mt
-source-wordcount: '2648'
-ht-degree: 2%
+source-wordcount: '2825'
+ht-degree: 1%
 
 ---
 
 # 配置组的项目首选项
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 如果您是组管理员并且Adobe Workfront管理员为系统中的所有组解锁了项目首选项，则可以为组配置该首选项，以影响您的组创建的所有后续项目。
 
@@ -210,12 +209,22 @@ ht-degree: 2%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p><strong>将多个用户分配到任务时，使用</strong>的计划 </p> </td> 
+   <td role="rowheader"> <p><strong>将多个用户分配到任务时，使用……</strong>的计划 </p> </td> 
    <td> <p>如果项目未分配计划，或分配给其任务的用户未分配计划，则Workfront使用系统默认计划计算任务的时间线。</p> <p>如果将多个用户分配给一个项目中的同一任务，并且分配给该任务的用户也分配了计划，则Workfront将使用以下计划：</p> 
     <ul> 
      <li><strong>主要分配</strong>： Workfront使用任务上主要分配的时间表来计算时间表。</li> 
      <li><strong>项目</strong>： Workfront使用项目的计划来计算每项任务的时间表。</li> 
     </ul> <p>有关计划的详细信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">创建计划</a>。</p> </td> 
+  </tr> 
+ <tr> 
+   <td role="rowheader"> <p><span class="preview"><strong>当一个用户被分派到一个任务时，使用……</strong></span>的计划 </p> </td> 
+   <td> <div class="preview"><p>如果项目未分配计划，或分配给其任务的用户未分配计划，则[!DNL Workfront]使用系统默认计划计算任务的时间表。</p>
+
+<p>如果您为项目中的任务分配了一个用户，并且项目和用户都有一个与之关联的计划，则[！UICONTROL Workfront]将使用以下计划：</p> 
+    <ul> 
+     <li><strong>[！UICONTROL用户]</strong>：任务上已分配用户的计划以计算时间线。</li> 
+     <li><strong>[！UICONTROL项目]</strong>：用于计算任务时间线的项目计划。</li> 
+    </ul> <p>有关计划的详细信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">创建计划</a>。</p></div></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>时间线计算 </p> </td> 
@@ -233,19 +242,6 @@ ht-degree: 2%
   </tr> 
  </tbody> 
 </table>
-
-<!--Add this to the table (under the "When multiple users are assigned ..." setting):
-
-When one user is assigned to a task, use the schedule of the...
-
-
-<p>If a project does not have a schedule assigned or if the users assigned to its tasks do not have a Schedule assigned to them, [!DNL Workfront] uses the system default schedule to calculate the timeline of the tasks.</p> <p>If you assign one user to a task in a project and the project has an assigned schedule and the user assigned to the tasks also has a schedule assigned to them, [!UICONTROL Workfront] uses the following schedules:</p> 
-    <ul> 
-     <li><strong>[!UICONTROL User]</strong>: The schedule of the assigned user on the task to calculate timelines.</li> 
-     <li><strong>[!UICONTROL Project]</strong>: The schedule of the project to calculate the timeline of the task.</li> 
-    </ul> <p>For more information about schedules, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Create a schedule</a>.</p>
-
--->
 
 ### 业务案例 {#business-cases}
 
