@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 6bebe5fa42e50f7aa68b4a87069d47b6ef3323b9
+source-git-commit: 5ebb756ba2f054c37d486d7f54a9f86cf8513328
 workflow-type: tm+mt
 source-wordcount: '1223'
 ht-degree: 0%
@@ -136,11 +136,11 @@ IF(
 
      <span class="preview">您可以在错误消息中包含静态URL，以链接到文档或其他有用页面，指导用户如何在规则的限制内修改其操作。</span>
 
-     <span class="preview">在此示例中，“了解详情”将链接到URL。 `"You are not allowed to add a new expense in June.[Learn more](http://url)"` URL必须位于括号中，但不需要使用括号中的链接文本。 您可以显示完整的URL，它将是一个可点击的链接。</span>
+     <span class="preview">在此示例中，“了解详情”将链接到URL。 `"You are not allowed to add a new project in November.[Learn more](http://url)"` URL必须位于括号中，但不需要使用括号中的链接文本。 您可以显示完整的URL，它将是一个可点击的链接。</span>
 
    ![添加业务规则对话框](assets/add-business-rule-dialog-no-ai-button.png)
 
-   此示例是费用的业务规则。 如果本月是六月，则不允许用户创建新费用，并且消息将对此进行说明。
+   此示例是项目的业务规则。 如果当前月份是11月，则不允许用户创建新项目，并且消息将对此进行说明。
 
    有关业务规则的更多示例，请参阅本文中的[业务规则的方案](#scenarios-for-business-rules)。
 
