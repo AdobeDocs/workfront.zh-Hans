@@ -7,18 +7,22 @@ description: 您可以创建您有权访问的任何报表的副本。 您可以
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
 
 # 创建报告副本
 
+<!-- Audited: 11/2024 -->
+
 您可以创建您有权访问的任何报表的副本。 您可以创建自定义报表的精确副本，也可以保存默认报表的新版本。 复制报告后，您成为所复制报告的所有者，该报告显示在“我的报告”部分中。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -32,29 +36,40 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
+   <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>标准</p></li>
+         </ul>
+      <p>当前：</p>
+         <ul>
+         <li><p>计划</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对报告、功能板和日历的访问权限</p> <p>编辑对筛选器、视图、分组的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td> <p>编辑对报告、功能板和日历的访问权限</p> <p>编辑对筛选器、视图、分组的访问权限</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">对象权限</td> 
-   <td> <p>查看报表的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td role="rowheader">对象权限*</td> 
+   <td><p>查看报表的权限</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 创建报告的精确副本
 
-如果要制作您拥有的报告副本，请执行以下操作：
+如果要制作自定义报表的副本，请执行以下操作：
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)。
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 报表]**。
 
-1. 单击&#x200B;**报表**，然后单击&#x200B;**所有报表**。
-1. 打开报表。
+1. 单击&#x200B;**所有报表**，然后打开一个报表。
+
 1. 单击&#x200B;**报告操作**，然后单击&#x200B;**复制**。
 
    >[!TIP]
@@ -62,15 +77,11 @@ ht-degree: 0%
    >如果报告是默认报告，则复制选项不会出现在报告操作菜单中。\
    >有关如何创建默认报表副本的信息，请参阅[创建新版本报表](#create-a-new-version-of-a-report)。
 
-   ![复制报告](assets/nwe-fulllistofreportactions-2022.png)
+   ![复制报告](assets/unshimmed-report-actions-copy.png)
 
-   创建原始报告副本时使用的默认名称为&#x200B;*原始报告的[名称]*&#x200B;副本。 例如，报告“第4季度已完成的任务”将使用“第4季度已完成的任务的副本”作为名称。
+   原始报告的副本是使用原始报告的默认名称&#x200B;_[名称] （副本）_&#x200B;创建的。 例如，报告“第4季度完成的任务”的副本将被命名为“第4季度完成的任务（副本）”。
 
-1. （可选）要重命名报表，请开始键入新名称。
-
-   >[!TIP]
-   >
-   >如果在键入新名称之前取消选择标题，请选择报表标题，删除名称，然后输入新名称。
+1. （可选）要重命名报表，请单击&#x200B;**报表操作**，然后单击&#x200B;**编辑**。 在左上角的文本框中键入新名称，完成后，单击&#x200B;**保存+关闭**。
 
 1. （可选）要与其他用户共享报告的新版本，请单击&#x200B;**报告操作**，然后单击&#x200B;**共享**。
 
@@ -84,9 +95,10 @@ ht-degree: 0%
    要删除原始报告，请执行以下操作：
 
    1. 导航到报表。
+
    1. 单击&#x200B;**报告操作**，然后单击&#x200B;**删除**。
 
-   1. 单击&#x200B;**是，删除**&#x200B;以确认要删除该报表。
+   1. 单击&#x200B;**是，删除**&#x200B;以确认要删除报表。
 
 ## 创建新版本的报表 {#create-a-new-version-of-a-report}
 
@@ -98,7 +110,7 @@ ht-degree: 0%
 1. 单击默认报表的名称以将其打开。
 1. 单击&#x200B;**报告操作**，然后单击&#x200B;**编辑**。
 
-   ![编辑报告](assets/nwe-reportactionsfordefaultreport-2022.png)
+   ![编辑报告](assets/unshimmed-report-actions-default-report.png)
 
 1. 在报告的以下选项卡中进行所需的任何修改：
 
@@ -112,6 +124,6 @@ ht-degree: 0%
 1. 单击&#x200B;**完成**。
 1. 单击&#x200B;**另存为新报告**。
 
-   ![](assets/nwe-save-as-new-report-350x220.png)
+   ![](assets/unshimmed-save-as-new-report.png)
 
 1. （可选）要与其他用户共享报告的新版本，请单击&#x200B;**报告操作**，然后单击&#x200B;**共享**。
