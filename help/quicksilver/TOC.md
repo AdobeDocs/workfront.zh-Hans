@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 347c1484ce24b8aeb3d1e12c35a19afbb937803c
+source-git-commit: f69c974a620d5f39bc4ea18b455476c90cd4908e
 workflow-type: tm+mt
 source-wordcount: '14597'
 ht-degree: 2%
@@ -854,8 +854,8 @@ ht-degree: 2%
       * [防止欺骗并添加SPF记录](administration-and-setup/tips-tricks-and-troubleshooting/prevent-spoofing-add-wf-spf-records.md)
       * [保存电子邮件头文件](administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md)
       * [共享显示多个权限](administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
-      * [未验证的电子邮件不被接受](administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
-        [Workfront： ZScalar设置可能会导致性能降低](administration-and-setup/tips-tricks-and-troubleshooting/zscalar-affects-performance.md)
+      * [未接受未经身份验证的电子邮件](administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
+      * [Workfront： ZScalar设置可能会导致性能降低](administration-and-setup/tips-tricks-and-troubleshooting/zscalar-affects-performance.md)
       * [用户凭据与SAML凭据](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
       * [更新访问级别中的自动升级选项](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
 * Adobe Workfront基础知识{#basics}
