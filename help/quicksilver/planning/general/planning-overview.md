@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
 workflow-type: tm+mt
-source-wordcount: '2108'
+source-wordcount: '2106'
 ht-degree: 1%
 
 ---
@@ -31,8 +31,8 @@ ht-degree: 1%
 >
 >要访问Workfront Planning，您必须具备以下条件：
 >
->* 新的Workfront计划和许可证。 Workfront Planning不适用于旧版Workfront计划或许可证。
->* Workfront Planning的附加许可证。
+>* 新的Workfront包和许可证。 Workfront Planning不适用于旧版Workfront包或许可证。
+>* Workfront计划包。
 >* 您组织的Workfront实例必须载入到AdobeUnified Experience。
 >
 > 有关访问Workfront Planning的完整要求列表，请参阅[Adobe计划访问概述](/help/quicksilver/planning/access/access-overview.md)。

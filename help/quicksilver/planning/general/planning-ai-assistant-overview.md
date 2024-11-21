@@ -6,15 +6,21 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
 
 
 # Adobe Workfront规划AI助手概述
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> 
+-->
 
 {{planning-important-intro}}
 
@@ -59,9 +65,21 @@ ht-degree: 0%
 * 删除记录
 * 恢复您刚刚删除的记录
 
+
+<!-- ## Locate the AI Assistant in Workfront Planning
+
+You can locate the AI Assistant in the following areas of Workfront Planning:
+
+* The main navigation bar, in the upper-right corner of the screen.
+* Inside the details area of a record, after you opened the record in the preview or after you opened the record's page. 
+
+-->
+
 ## 访问规划区的人工智能助理
 
-1. 登录到Workfront，然后转到&#x200B;**计划**&#x200B;区域。
+1. 登录到Workfront，然后单击屏幕右上角的&#x200B;**主菜单**&#x200B;图标![](assets/dots-main-menu.png)或左上角的&#x200B;**主菜单**&#x200B;图标![](assets/lines-main-menu.png)（如果可用）。
+
+。单击&#x200B;**计划**。 此时将打开“规划”区域。
 
 1. 单击&#x200B;**工作区信息卡**。
 
@@ -69,7 +87,7 @@ ht-degree: 0%
 
 1. （可选）单击&#x200B;**记录**&#x200B;以打开记录的&#x200B;**详细信息**&#x200B;页面。
 
-1. 单击全局导航栏中屏幕右上角的&#x200B;**AI助手图标**。
+1. 单击全局导航栏<!--or in the upper-right corner of the record's preview or page.-->屏幕右上角的&#x200B;**AI助手图标**
 
    ![](assets/ai-assistant-icon-highlighted.png)
 
@@ -87,3 +105,6 @@ ht-degree: 0%
    当AI助手处理命令时，将显示一个视觉指示器，设置响应时间的期望值。
 
    收到成功响应后，请按照提供的链接或注意左侧的更改内容。
+
+
+

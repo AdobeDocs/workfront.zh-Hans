@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
 source-wordcount: '1367'
 ht-degree: 2%
@@ -64,7 +64,7 @@ ht-degree: 2%
    </td>
 
 <tr>
-   <td role="rowheader"><p>Adobe Workfront规划计划*</p></td>
+   <td role="rowheader"><p>Adobe Workfront规划包*</p></td>
    <td>
 <p>任何 </p>  
 <p>有关每个Workfront计划中包括的内容的更多信息，请联系您的Workfront客户经理。 </td>
@@ -205,7 +205,8 @@ ht-degree: 2%
    * 任何对工作区具有贡献或更高访问权限的人员
    * 任何知道链接的人
 
-   >[!IMPORTANT]
+   >[!WARNING]
+   >
    >
    >当您选择&#x200B;**具有链接**&#x200B;的任何人时，任何人都可以访问表单并提交新记录，甚至包括您组织外没有Workfront帐户的人员。
 

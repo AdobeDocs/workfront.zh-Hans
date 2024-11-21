@@ -10,7 +10,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
@@ -20,6 +20,13 @@ ht-degree: 0%
 # 时间表概述
 
 <!-- Audited: 1/2024 -->
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  
+
+-->
 
 您可以使用计划定义工作周，并将计划与用户或项目关联。 这允许[!DNL Adobe Workfront]计算时间表和用户可用性。 有关说明，请参阅[创建计划](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
 
@@ -60,6 +67,20 @@ ht-degree: 0%
 >仅当[!UICONTROL 安装程序]的[!UICONTROL 资源管理]区域中的[!UICONTROL 使用计算资源可用性]设置设置为[!UICONTROL 用户计划]时，[!DNL Workfront]才使用用户的计划。 有关[!UICONTROL 使用]计算资源可用性设置如何影响用于资源管理的计划的信息，请参阅[配置资源管理首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)。
 
 存在多个计划时，系统使用计划的顺序为：
+
+<!--Replace the first bullet below with this when the setting releases: 
+* When one user is assigned to a task, the following scenarios exist, depending on what environment you use: 
+
+   * In the Production environment, [!DNL Workfront] uses the user's schedule for calculating the timeline of the task. This also includes the personal time of the user. The schedule of the project is ignored.
+
+      For more information about personal time, see [Configure personal time off](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+
+   * <span class="preview">In the Preview environment, [!DNL Workfront] uses either one of the following schedules, as defined in the [!UICONTROL Project Preferences] area of [!UICONTROL Setup]:</span>
+
+      * <span class="preview">The schedule of the user who is assigned to the task </span>
+      * <span class="preview">The schedule associated with the project.</span>
+
+-->
 
 * 当用户被分配给任务时，[!DNL Workfront]使用用户的计划计算任务的时间表。 这还包括用户的个人时间。 项目的计划将被忽略。
 

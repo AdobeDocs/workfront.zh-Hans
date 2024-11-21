@@ -1,5 +1,5 @@
 ---
-source-git-commit: 400ca2ac10a94ccfa79bef8daf06b924dadac230
+source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
 workflow-type: tm+mt
 source-wordcount: '2648'
 ht-degree: 1%
@@ -276,7 +276,7 @@ ht-degree: 1%
 
    Workfront Planning登录页面将打开。
 
-1. （可选且视情况而定）如果您是Workfront管理员，请单击以下选项卡：
+1. （可选且视情况而定）如果您是Workfront管理员，请单击以下选项卡之一：
 
    * **我的工作区**：显示您创建的工作区。
    * **其他工作区**：显示Workfront Planning中的所有工作区，包括与您共享的工作区。
@@ -291,8 +291,8 @@ ht-degree: 1%
 >
 >要访问Workfront Planning，您必须具备以下条件：
 >
->* 新的Workfront计划和许可证。 Workfront Planning不适用于旧版Workfront计划或许可证。
->* Workfront Planning的附加许可证。
+>* 新的Workfront包和许可证。 Workfront Planning不适用于旧版Workfront包或许可证。
+>* Workfront计划包。
 >* 您组织的Workfront实例必须载入到AdobeUnified Experience。
 >
 > 有关访问Workfront Planning的完整要求列表，请参阅[访问概述](/help/quicksilver/planning/access/access-overview.md)。

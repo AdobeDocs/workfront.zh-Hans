@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
-source-wordcount: '4106'
+source-wordcount: '4129'
 ht-degree: 1%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 1%
 <p>Workfront Planning不适用于旧版Workfront计划</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront规划计划*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront规划包*</p></td> 
    <td> 
 <p>任何 </p> 
 <p>有关每个Workfront计划中包括的内容的更多信息，请联系您的Workfront客户经理。 </p> 
@@ -206,6 +206,9 @@ OLD:
    将鼠标悬停在任何列的标题上，单击字段名称后面的向下箭头，然后单击&#x200B;**向左插入**&#x200B;或&#x200B;**向右插入**&#x200B;以添加新字段。
 1. 在&#x200B;**新字段**&#x200B;选项卡中，搜索&#x200B;**字段类型**&#x200B;框中的字段类型，或从以下字段类型中选择：
 
+   在&#x200B;**新字段**&#x200B;选项卡中，搜索&#x200B;**字段类型**&#x200B;框<!--using any related keyword-->中的字段类型，或从下面列出的字段类型中进行选择。
+
+
    * [单行文本](#single-line-text)
    * [段落](#paragraph)
    * [多选](#multi-select)
@@ -225,6 +228,9 @@ OLD:
    >[!IMPORTANT]
    >
    >    保存字段后，无法更改该字段的字段类型。
+
+   <!--Add this to the IMPORTANT above and make it a NOTE - should do directly to Prod:
+    * You can use any keyword that might be related to any of the field type names. For example, a search for "Budget" will display the Number or Currency field type.-->
 
 1. 继续添加每个字段，如下节所述。
 

@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
 source-wordcount: '1363'
 ht-degree: 0%
@@ -65,7 +65,7 @@ ht-degree: 0%
    </td>
 
 <tr>
-   <td role="rowheader"><p>Adobe Workfront规划计划*</p></td>
+   <td role="rowheader"><p>Adobe Workfront规划包*</p></td>
    <td>
 <p>任何</p>
 <p>有关每个Workfront计划中包括的内容的更多信息，请联系您的Workfront客户经理。 </p>

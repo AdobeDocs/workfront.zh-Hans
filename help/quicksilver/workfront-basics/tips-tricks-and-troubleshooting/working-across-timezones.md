@@ -5,9 +5,9 @@ title: 跨时区工作
 description: 了解 [!DNL Adobe Workfront] 如何使用时区计算对象的时间字段和其他区域（如电子邮件）中的时间可能很有帮助。
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,13 @@ ht-degree: 0%
 # 跨时区工作
 
 <!-- Audited: 2/2024 -->
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+
+-->
 
 了解[!DNL Adobe Workfront]如何使用时区计算以下内容会很有用：
 
@@ -91,20 +98,37 @@ ht-degree: 0%
 
   此计划可能与项目计划不同。 例如，当有人在项目中创建任务，但尚未为其分配任何人员时，该任务将使用项目计划。 当用户被分配给任务时，任务使用该用户的计划。
 
-  如果为任务分配了多个用户，则系统将使用下列选项之一，如系统范围项目首选项中所配置：
+  如果为任务分配了多个用户，则系统将使用下列选项之一，如系统范围或组范围项目首选项中所配置：
 
    * 任务的主要所有者计划的时区
    * 项目计划的时区。
 
-  这可能会导致任务日期发生更改。
+<!--
+   <div class="preview">
 
-  **示例：** EST用户被分配到计划于9:00 AM PST（EST正午）开始的一天任务。 由于EST用户在一天中只剩下2个工作小时，因此任务完成日期会延长约6小时，直至下一个工作日。
+   If one user is assigned to a task, the system uses one of the following, as configured in the system- or group-wide project preferences: 
 
-  有关[!UICONTROL 安装程序]的[!UICONTROL 项目首选项]区域的信息，请参阅[配置系统范围的项目首选项](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
+   * The time zone for the schedule of the task's assignee
+   * The time zone for the schedule of the project.
 
-  有关将计划分配给项目或用户的说明，请参阅[创建计划](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
+   </div>
+-->
 
-  有关计划中配置的时区如何影响[!UICONTROL 工作负载均衡器]中[!UICONTROL 已计划小时数]分配的信息，请参阅[在[!UICONTROL 工作负载均衡器]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)中管理用户分配。
+这可能会导致任务日期发生更改。
+
+>[!BEGINSHADEBOX]
+
+**示例：**
+EST用户被分配到计划于9:00 AM PST（即EST正午）开始的一天任务。 由于EST用户在一天中只剩下2个工作小时，因此任务完成日期会延长约6小时，直至下一个工作日。
+
+
+>[!ENDSHADEBOX]
+
+有关[!UICONTROL 安装程序]的[!UICONTROL 项目首选项]区域的信息，请参阅[配置系统范围的项目首选项](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
+
+有关将计划分配给项目或用户的说明，请参阅[创建计划](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
+
+有关计划中配置的时区如何影响[!UICONTROL 工作负载均衡器]中[!UICONTROL 已计划小时数]分配的信息，请参阅[在[!UICONTROL 工作负载均衡器]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)中管理用户分配。
 
 
 ### 在自定义表单中使用计算的时间字段 {#use-calculated-time-fields-in-a-custom-form}

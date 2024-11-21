@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
 source-wordcount: '1407'
 ht-degree: 1%
@@ -71,7 +71,7 @@ ht-degree: 1%
 <p>Workfront Planning不适用于旧版Workfront计划</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront规划计划*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront规划包*</p></td> 
    <td> 
 <p>任何 </p> 
 <p>有关每个Workfront计划中包括的内容的更多信息，请联系您的Workfront客户经理。 </p> 
@@ -179,7 +179,7 @@ ht-degree: 1%
 * 您可以与其他人共享您创建的视图。 有关信息，请参阅[共享视图](/help/quicksilver/planning/access/share-views.md)。
 * 以下元素对于每个记录视图都是唯一的：
 
-   * 过滤器
+   * 筛选条件
    * 分组
    * 排序
    * 条形图外观（用于时间轴视图）

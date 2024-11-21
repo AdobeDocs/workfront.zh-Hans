@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 82633fcb858273dee360fc44b031fec5a5cdff54
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
 source-wordcount: '2988'
 ht-degree: 1%
@@ -91,7 +91,7 @@ ht-degree: 1%
 <p>Workfront Planning不适用于旧版Workfront计划</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront规划计划*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront规划包*</p></td> 
    <td> 
 <p>任何 </p> 
 <p>有关每个Workfront计划中包括的内容的更多信息，请联系您的Workfront客户经理。 </p> 
