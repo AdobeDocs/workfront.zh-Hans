@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 6bebe5fa42e50f7aa68b4a87069d47b6ef3323b9
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: '1223'
 ht-degree: 0%
 
 ---
 
 # 创建和编辑业务规则
+
+{{preview-fast-release-general}}
 
 业务规则允许您对Workfront对象应用验证，并阻止用户在满足某些条件时创建、编辑或删除对象。 业务规则通过防止可能会损害数据完整性的操作，帮助提高数据质量和运营效率。
 
@@ -131,6 +133,10 @@ IF(
    * “action”是您为规则选择的触发器：创建、编辑或删除对象。
    * 由于对象和操作已定义，因此不要将它们包含在公式中。
    * 当用户触发业务规则时，向用户显示自定义错误消息。 它应就出现什么问题以及如何纠正问题提供明确的说明。
+
+     <span class="preview">您可以在错误消息中包含静态URL，以链接到文档或其他有用页面，指导用户如何在规则的限制内修改其操作。</span>
+
+     <span class="preview">在此示例中，“了解详情”将链接到URL。 `"You are not allowed to add a new expense in June.[Learn more](http://url)"` URL必须位于括号中，但不需要使用括号中的链接文本。 您可以显示完整的URL，它将是一个可点击的链接。</span>
 
    ![添加业务规则对话框](assets/add-business-rule-dialog-no-ai-button.png)
 
