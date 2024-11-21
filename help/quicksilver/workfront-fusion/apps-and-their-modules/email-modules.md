@@ -9,7 +9,7 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案中，可以将电子邮件
 author: Becky
 feature: Workfront Fusion
 exl-id: 384ba60a-d79e-4126-a247-6d67b5154ede
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '2626'
 ht-degree: 0%
@@ -375,7 +375,7 @@ SMAP连接允许您远程访问邮箱，并读取或处理邮箱中的邮件。 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL电子邮件ID (UID)]</p> </td> 
-   <td> <p>输入要标记为已读的电子邮件的电子邮件UID。</p> <p>可以使用[！UICONTROL Email] &gt;[！UICONTROL Watch Email]模块或[！UICONTROL Search Email]模块获取电子邮件的UID。</p> </td> 
+   <td> <p>输入要标记为已读的电子邮件的电子邮件UID 。</p> <p>可以使用[！UICONTROL Email] &gt;[！UICONTROL Watch Email]模块或[！UICONTROL Search Email]模块获取电子邮件的UID。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -398,7 +398,7 @@ SMAP连接允许您远程访问邮箱，并读取或处理邮箱中的邮件。 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL电子邮件ID (UID)]</p> </td> 
-   <td> <p>输入要标记为未读的电子邮件的电子邮件UID。</p> <p>可以使用[！UICONTROL Email] &gt;[！UICONTROL Watch Email]模块或[！UICONTROL Search Email]模块获取电子邮件的UID。</p> </td> 
+   <td> <p>输入要标记为未读的电子邮件的Email UID。</p> <p>可以使用[！UICONTROL Email] &gt;[！UICONTROL Watch Email]模块或[！UICONTROL Search Email]模块获取电子邮件的UID。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -475,7 +475,7 @@ SMAP连接允许您远程访问邮箱，并读取或处理邮箱中的邮件。 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL电子邮件ID (UID)]</p> </td> 
-   <td> <p>输入要删除的电子邮件的电子邮件UID。</p> <p>可以使用[！UICONTROL Email] &gt;[！UICONTROL Watch Email]模块或[！UICONTROL Search Email]模块获取电子邮件的UID。</p> </td> 
+   <td> <p>输入要删除的电子邮件的电子邮件UID 。</p> <p>可以使用[！UICONTROL Email] &gt;[！UICONTROL Watch Email]模块或[！UICONTROL Search Email]模块获取电子邮件的UID。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL消除]</td> 
@@ -539,7 +539,7 @@ SMAP连接允许您远程访问邮箱，并读取或处理邮箱中的邮件。 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL电子邮件ID (UID)]</td> 
-   <td> <p> 输入要检索其详细信息的电子邮件的电子邮件ID (UID)。</p> <p>您可以使用[!DNL Workfront Fusion]的[！UICONTROL Watch Email]模块或[！UICONTROL搜索电子邮件]模块获取电子邮件的UID。</p> </td> 
+   <td> <p> 输入要检索其详细信息的电子邮件的电子邮件ID (UID)。</p> <p>您可以使用[!DNL Workfront Fusion]的[！UICONTROL Watch Email]模块或[！UICONTROL Search Email]模块获取电子邮件的UID。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL最大结果数]</td> 

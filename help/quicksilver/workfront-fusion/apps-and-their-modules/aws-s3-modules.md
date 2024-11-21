@@ -9,9 +9,9 @@ description: ' [!DNL Adobe Workfront Fusion AWS] S3模块允许您对S3存储桶
 author: Becky
 feature: Workfront Fusion
 exl-id: 33623b5d-d9ff-4d41-b938-33378f50539e
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1392'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,25 @@ ht-degree: 0%
 ## 先决条件
 
 要使用[!UICONTROL AWS S3]模块，您必须拥有[!DNL Amazon Web Service]帐户。
+
+## AWS S3 API信息
+
+AWS S3连接器使用以下对象：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">基本URL</td> 
+   <td>https://s3.{{parameters.region}}.amazonaws.com</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API标记</td> 
+   <td>v1.5.21</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 将[!DNL AWS]连接到[!DNL Workfront Fusion] {#connect-aws-to-workfront-fusion}
 

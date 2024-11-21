@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案中，您可以自动使用
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 03bcd0a4-c8ec-4f44-b1e1-b57e79595309
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '1844'
+source-wordcount: '1863'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,29 @@ ht-degree: 0%
 
 * 您必须拥有有效的[!UICONTROL Anaplan]帐户。
 * 您必须先在[!UICONTROL Anaplan]帐户中配置工作区、模型和其他[!DNL Anaplan]对象，然后[!DNL Workfront Fusion]才能与这些对象交互。
+
+## Anaplan API信息
+
+Anaplan连接器使用以下对象：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">基本URL</td> 
+   <td>https://api.anaplan.com/2/0/
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API版本</td> 
+   <td> v2 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API标记</td> 
+   <td>v1.11.5/td&gt; 
+ </tbody> 
+</table>
 
 ## 将[!DNL Anaplan]连接到[!DNL Workfront Fusion] {#connect-anaplan-to-workfront-fusion}
 

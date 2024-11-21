@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案中，您可以自动使用
 author: Becky
 feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
-source-git-commit: a2b9722f3964fccab6e30f2cd79e5ac63f736ba4
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '3673'
+source-wordcount: '3692'
 ht-degree: 0%
 
 ---
@@ -78,6 +78,25 @@ ht-degree: 0%
 在使用[!DNL Adobe Journey Optimizer]连接器之前，必须确保满足以下先决条件：
 
 * 您必须拥有有效的[!DNL Adobe Journey Optimizer]帐户。
+
+## Adobe Journey Optimizer API信息
+
+Adobe Journey Optimizer连接器使用以下对象：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">基本URL</td> 
+   <td>{{connection.url}}</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API标记</td> 
+   <td>v1.7.11</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 创建与Adobe Journey Optimizer的连接
 

@@ -8,7 +8,7 @@ description: 您可以在Adobe Workfront Fusion中使用MIME类型。 多用途I
 author: Becky
 feature: Workfront Fusion
 exl-id: ebbf6ad0-a1d0-47f8-849f-7bba1e0763d3
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%

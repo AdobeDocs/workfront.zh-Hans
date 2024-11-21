@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: d46935bc-4f6c-4502-bd2f-3927f33241e1
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '1582'
+source-wordcount: '1597'
 ht-degree: 1%
 
 ---
@@ -62,6 +62,25 @@ ht-degree: 1%
 ## 先决条件
 
 要使用[!UICONTROL 加宽]模块，您必须具有[!UICONTROL 加宽]帐户。
+
+## 扩展API信息
+
+Widen连接器使用以下方法：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API版本</td> 
+   <td> v2 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API标记</td> 
+   <td>v1.10.11</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 将[!DNL Widen]连接到[!DNL Workfront Fusion] {#connect-widen-to-workfront-fusion}
 

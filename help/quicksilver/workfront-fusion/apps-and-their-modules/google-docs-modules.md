@@ -9,9 +9,9 @@ description: 通过Adobe Workfront Fusion [!DNL Google Docs] 模块，您可以�
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: fbe7d628-d833-43ce-83b8-8e4e6a812fd1
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '4085'
+source-wordcount: '4105'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,29 @@ ht-degree: 0%
 ## 先决条件
 
 要使用[!DNL Google Docs]模块，您必须拥有Google帐户。
+
+## Google文档API信息
+
+Google Docs连接器使用以下对象：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">基本URL</td> 
+   <td> https://docs.googleapis.com/v1</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API版本</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API标记</td> 
+   <td>v1.4.13</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Google Docs]模块及其字段
 

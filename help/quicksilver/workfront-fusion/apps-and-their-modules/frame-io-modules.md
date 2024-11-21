@@ -9,9 +9,9 @@ description: ' [!DNL Adobe Workfront Fusion Frame].io modules enable you to moni
 author: Becky
 feature: Workfront Fusion
 exl-id: 373a86f6-fbba-4914-b08d-a3a035ac0ae4
-source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '2338'
+source-wordcount: '2356'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,29 @@ ht-degree: 0%
 ## 先决条件
 
 要使用[!DNL Frame.io]模块，您必须具有[!DNL Frame.io]帐户
+
+## Frame.io API信息
+
+Frame.io连接器使用以下对象：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">基本URL</td> 
+   <td> https://api.frame.io/v2</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API版本</td> 
+   <td> v2 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API标记</td> 
+   <td>v1.0.76</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 将[!DNL Frame.io]连接到[!UICONTROL Adobe Workfront Fusion]
 
@@ -142,7 +165,7 @@ ht-degree: 0%
 ![](assets/map-toggle-350x74.png)
 
 * [资源](#assets)
-* [注释](#comments)
+* [评论](#comments)
 * [项目](#projects)
 * [其他](#other)
 
@@ -409,7 +432,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-### 注释
+### 评论
 
 * [[!UICONTROL 创建评论]](#create-a-comment)
 * [[!UICONTROL 删除评论]](#delete-a-comment)

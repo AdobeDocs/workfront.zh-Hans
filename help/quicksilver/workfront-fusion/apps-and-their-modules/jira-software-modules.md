@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 6437fe98-2c2b-4b49-97e2-f94b23da93fd
-source-git-commit: 9c76e216cf66f230a12023c349093c45ba2c04a7
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '2087'
+source-wordcount: '2112'
 ht-degree: 1%
 
 ---
@@ -64,6 +64,37 @@ ht-degree: 1%
 ## 先决条件
 
 要使用[!DNL Jira]模块，您必须具有[!DNL Jira]帐户。
+
+## Jira API信息
+
+Jira连接器使用以下对象：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"></td> 
+   <td> Jira Cloud</td> 
+   <td> Jira服务器</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">apiVersion</td> 
+   <td> 2</td> 
+   <td> 2</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">apiVersionAgile</td> 
+   <td> 1.0 </td> 
+   <td> 1.0</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API标记</td> 
+   <td>1.7.29</td> 
+   <td>1.0.19</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 将[!DNL Jira Software]连接到[!DNL Workfront Fusion]
 

@@ -8,7 +8,7 @@ description: ' [!DNL Adobe Workfront Fusion] 数据存储类似于数据库或�
 author: Becky
 feature: Workfront Fusion
 exl-id: 1dc9cb88-d1b9-4a67-91fb-be980cc1ccd1
-source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 0%

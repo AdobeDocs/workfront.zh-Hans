@@ -8,7 +8,7 @@ description: 使用 [!DNL Adobe Workfront Fusion SFTP] 模块可以监视所选�
 author: Becky
 feature: Workfront Fusion
 exl-id: aacc61f8-ffc3-48db-9f54-188685c52067
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '1920'
 ht-degree: 0%

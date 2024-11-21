@@ -8,7 +8,7 @@ description: webhook是由事件触发的HTTP调用。 您可以使用Webhook激
 author: Becky
 feature: Workfront Fusion
 exl-id: 987544a4-5840-40d4-9438-41a000aa22ee
-source-git-commit: 34d7edb6a3f9cb1e818f6c234a8dda88d01c5fc4
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 0%

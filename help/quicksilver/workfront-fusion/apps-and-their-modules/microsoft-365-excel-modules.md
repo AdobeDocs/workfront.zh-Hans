@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案中，您可以自动执行
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 9aa3739d-6800-4eb1-a17f-32fdfd8ed0f2
-source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '2744'
+source-wordcount: '2768'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,29 @@ ht-degree: 0%
 ## 先决条件
 
 要使用[!DNL Microsoft office 365 Excel]，您必须拥有Microsoft帐户。
+
+## Microsoft Office 365 Excel API信息
+
+Microsoft Office 365 Excel连接器使用以下内容：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">基本URL</td> 
+   <td> https://graph.microsoft.com/v1.0</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API版本</td> 
+   <td> v1.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API标记</td> 
+   <td>v2.0.16</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 
 

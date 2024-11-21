@@ -9,9 +9,9 @@ description: Adobe Workfront Fusion Google幻灯片模块允许您创建、更�
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 680a5328-1d50-4434-beda-7a4670a6e458
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '1618'
+source-wordcount: '1638'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,29 @@ ht-degree: 0%
 ## 先决条件
 
 要使用[!DNL Google Slides]模块，您必须具有[!DNL Google]帐户。
+
+## Google幻灯片API信息
+
+Google幻灯片连接器使用以下内容：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">基本URL</td> 
+   <td> https://slides.googleapis.com/v1</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API版本</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API标记</td> 
+   <td>v1.5.9</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Google Slides]模块及其字段
 
@@ -249,7 +272,7 @@ ht-degree: 0%
    <td> <p>添加值：</p> 
     <ul> 
      <li><strong>[！UICONTROL标记]</strong>：输入要在演示文稿中替换的标记。 例如， <code>&#123;&#123;Name&#125;&#125;</code></li> 
-     <li><strong>[！UICONTROL替换的值]</strong>：输入要替换现有标记的值。 例如，如果字符串 <tr><ul><tr><tr><tr><code>&#123;&#123;Name&#125;&#125;/code> in the presentation and the replaced value is Sample, then the <code>&#123;&#123;Name}}</code> will be replaced by <code>Sample</code>.</li> 
+     <li><strong>[！UICONTROL替换的值]</strong>：输入要替换现有标记的值。 例如，如果字符串 <tr><ul><tr><tr><tr><code>&#123;&#123;Name&#125;&#125;/code> in the presentation and the replaced value is Sample, then the <code>&#123;&#123;Name&#125;&#125;</code> will be replaced by <code>Sample</code>.</li> 
     </ul> </td> 
   </tr> 
    

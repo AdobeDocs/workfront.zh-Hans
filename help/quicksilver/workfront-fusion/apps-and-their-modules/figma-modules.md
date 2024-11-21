@@ -9,9 +9,9 @@ description: 使用 [!DNL Adobe Workfront Fusion] Figma模块，您可以检索�
 author: Becky
 feature: Workfront Fusion
 exl-id: d88db592-32d4-4765-952f-9ffb58cf1720
-source-git-commit: df4ac2c7fdf319fd8e2e8383cd395e8826e19df0
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2331'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,29 @@ ht-degree: 0%
 
 要使用[!DNL Figma]模块，您必须具有[!DNL Figma]帐户。
 
+## 图API信息
+
+Figma连接器使用以下对象：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">基本URL</td> 
+   <td> https://api.figma.com/v1</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API版本</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API标记</td> 
+   <td>v1.8.25</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## [!DNL Figma]模块及其字段
 
 配置[!DNL Figma]模块时，[!DNL Workfront Fusion]显示下面列出的字段。 除此以外，可能还会显示其他[!DNL Figma]字段，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
@@ -80,7 +103,7 @@ ht-degree: 0%
 
 ![](assets/map-toggle-350x74.png)
 
-* [注释](#comments)
+* [评论](#comments)
 
 * [项目和文件](#projects-and-files)
 
@@ -89,7 +112,7 @@ ht-degree: 0%
 * [其他](#other)
 
 
-### 注释
+### 评论
 
 * [删除评论](#delete-a-comment)
 

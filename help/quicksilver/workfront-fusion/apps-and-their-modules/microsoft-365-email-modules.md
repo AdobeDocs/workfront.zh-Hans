@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案中，您可以自动执行
 author: Becky
 feature: Workfront Fusion
 exl-id: 29b69e8c-a889-441e-a052-287f1db2052d
-source-git-commit: 74aba3bbb0a6aface10559bf84fe3467c5469714
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '2699'
+source-wordcount: '2723'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,29 @@ ht-degree: 0%
 ## 先决条件
 
 要使用[!DNL Microsoft Office 365 Email]模块，您必须具有[!DNL Microsoft Office 365 Email]帐户。
+
+## Microsoft Office 365电子邮件API信息
+
+Microsoft Office 365电子邮件连接器使用以下内容：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">基本URL</td> 
+   <td> https://graph.microsoft.com/v1.0</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API版本</td> 
+   <td> v1.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API标记</td> 
+   <td>v2.6.5</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 
 

@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案中，您可以自动使用
 author: Becky
 feature: Workfront Fusion
 exl-id: ba5bad6a-3cb3-4024-82f7-d38ee9a8e0b5
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '1744'
+source-wordcount: '1761'
 ht-degree: 1%
 
 ---
@@ -67,6 +67,25 @@ ht-degree: 1%
 
 要使用[!DNL Slack]模块，您必须具有[!DNL Slack]帐户。
 
+## SlackAPI信息
+
+Slack连接器使用以下内容：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">基本URL</td> 
+   <td>{{ifempty(parameters.domain， 'https://slack.com/api/')}}</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API标记</td> 
+   <td>v4.0.15</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## [!DNL Slack]模块及其字段
 
 配置[!DNL Slack]模块时，[!DNL Workfront Fusion]显示下面列出的字段。 除此以外，可能还会显示其他[!DNL Slack]字段，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
@@ -85,7 +104,7 @@ ht-degree: 1%
 * [用户](#users)
 * [提醒](#reminders)
 * [活动](#events)
-* [帐户信息](#profile)
+* [轮廓](#profile)
 * [其他](#other)
 
 ### 消息

@@ -9,9 +9,9 @@ description: 在Adobe Workfront Fusion场景中，您可以自动使用Salesforc
 author: Becky
 feature: Workfront Fusion
 exl-id: 3c8adcd9-fb5f-400d-9edd-6d9fc30cc728
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '2740'
+source-wordcount: '2758'
 ht-degree: 0%
 
 ---
@@ -76,6 +76,29 @@ ht-degree: 0%
 ## 先决条件
 
 要使用[!DNL Salesforce]模块，您必须具有[!DNL Salesforce]帐户。
+
+## Salesforce API信息
+
+Salesforce连接器使用以下对象：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">基本URL</td> 
+   <td> {{connection.instanceUrl}}</td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">API版本</td> 
+   <td> v46.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API标记</td> 
+   <td>v1.15.14</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 关于搜索[!DNL Salesforce]对象
 

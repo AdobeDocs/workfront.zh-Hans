@@ -9,9 +9,9 @@ description: 通过 [!DNL Adobe Workfront Fusion Google Drive] 模块，您可�
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d620c93-d1bf-4451-9f76-1d6fd850cec9
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '2941'
+source-wordcount: '2958'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,29 @@ ht-degree: 0%
 要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
 有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
+
+## Google驱动器API信息
+
+Google驱动器连接器使用以下对象：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">基本URL</td> 
+   <td> https://www.googleapis.com/drive/v3</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API版本</td> 
+   <td> v3 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API标记</td> 
+   <td>v4.1.22</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 
 
@@ -867,13 +890,13 @@ ht-degree: 0%
   <pre>全文包含“ hello world”。全文包含“ hello_world”</pre>
 * 使用包含“\”字符（如“\authors”）的查询搜索文件
   <pre>全文包含'\\authors'</pre>
-* 搜索用户“test@example.org”可写的文件
+* 搜索用户`test@example.org`可写的文件
   <pre>中的“test@example.org” [!DNL writers]</pre>
 * 在`parents`集合中搜索ID `1234567`。 这会查找直接位于ID为`1234567`的文件夹中的所有文件和文件夹。
   <pre>[！UICONTROL父级]中的“1234567”</pre>
 * 在`parents`集合中搜索别名ID `appDataFolder`。 这会查找直接位于[应用程序数据文件夹](https://developers.google.com/drive/api/v2/appdata)下的所有文件和文件夹。
   <pre>父级中的“appDataFolder”</pre>
-* 搜索用户“test@example.org”和“test2@example.org”可写的文件
+* 搜索用户`test@example.org`和`test2@example.org`可写的文件
   <pre>作者中的“test@example.org”和作者中的“test2@example.org”</pre>
 * 搜索垃圾桶中包含“important”文本的文件
   <pre>fullText包含“important”，并且已置入垃圾桶= true</pre>

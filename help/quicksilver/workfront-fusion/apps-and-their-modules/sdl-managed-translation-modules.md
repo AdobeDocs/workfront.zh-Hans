@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案中，您可以将SDL Manag
 author: Becky
 feature: Workfront Fusion
 exl-id: e1ef114f-8ce4-4210-b176-727dc4f5e561
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,25 @@ ht-degree: 0%
 要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
 有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
+
+## SDL Managed Translation API信息
+
+SDL Managed Translation连接器使用以下内容：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">基本URL</td> 
+   <td>https://languagecloud.sdl.com</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API标记</td> 
+   <td>v1.4.26</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL SDL Managed Translation]模块
 

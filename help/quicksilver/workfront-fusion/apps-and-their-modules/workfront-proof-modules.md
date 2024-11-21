@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案中，您可以自动使用
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: 74aba3bbb0a6aface10559bf84fe3467c5469714
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '3160'
+source-wordcount: '3176'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,25 @@ ht-degree: 0%
 要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
 有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
+
+## Workfront Proof信息
+
+Workfront Proof连接器使用以下对象：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API版本</td> 
+   <td> v21.3.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API标记</td> 
+   <td>v1.8.92</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 将[!DNL Workfront Proof]连接到[!DNL Workfront Fusion]
 

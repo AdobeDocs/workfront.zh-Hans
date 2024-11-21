@@ -10,9 +10,9 @@ description: 使用 [!DNL Adobe Workfront Fusion], you can start a scenario base
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: 993d10a93eca28573aaa38e4ce76e5a1b30ec42e
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '1706'
+source-wordcount: '1724'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,21 @@ ht-degree: 0%
 * 您的Adobe Experience Manager技术帐户必须具有写入权限。
 
   有关向Adobe Experience Manager技术帐户添加写入权限的说明，请参阅Adobe Experience Manager文档中的[服务凭据](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials)。
+
+## Adobe Experience Manager Assets API信息
+
+Adobe Experience Manager Assets连接器使用以下对象：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API标记</td> 
+   <td>v1.8.61</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 将[!DNL Adobe Experience Manager Assets]连接到[!DNL Workfront Fusion] {#connect-adobe-experience-manager-assets-to-workfront-fusion}
 

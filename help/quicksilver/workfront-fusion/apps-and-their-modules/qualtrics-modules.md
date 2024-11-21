@@ -9,10 +9,10 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案中，您可以自动执行
 author: Becky
 feature: Workfront Fusion
 exl-id: 146802cd-b863-4c93-b767-50e05892c4de
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 0%
+source-wordcount: '335'
+ht-degree: 1%
 
 ---
 
@@ -66,6 +66,29 @@ ht-degree: 0%
 ## 先决条件
 
 要使用[!DNL Qualtrics]模块，您必须具有[!UICONTROL Qualtrics]帐户。
+
+## Qualtrics API信息
+
+Qualtrics连接器使用以下对象：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">基本URL</td> 
+   <td> https://{{connection.dataCenterCode}}.qualtrics.com/API/v3 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API版本</td> 
+   <td> v3 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API标记</td> 
+   <td>v1.1.1</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 正在将[!DNL Qualtrics]连接到[!DNL Workfront Fusion]
 

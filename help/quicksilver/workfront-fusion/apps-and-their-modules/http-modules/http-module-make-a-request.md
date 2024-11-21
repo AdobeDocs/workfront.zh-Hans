@@ -9,7 +9,7 @@ description: Adobe Workfront Fusion HTTP &amp；gt；发出请求模块是一个
 author: Becky
 feature: Workfront Fusion
 exl-id: 7857c395-ce84-480e-8fa2-065035ac5b95
-source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 0%

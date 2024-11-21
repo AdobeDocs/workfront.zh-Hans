@@ -9,7 +9,7 @@ description: 您可以使用 [!DNL Adobe Workfront Fusion] 连接到Microsoft SQ
 author: Becky
 feature: Workfront Fusion
 exl-id: d79cf00d-a81e-4d88-ac4a-f80b7b5a92b3
-source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '502'
 ht-degree: 0%

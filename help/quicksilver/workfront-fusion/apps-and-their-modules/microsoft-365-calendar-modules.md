@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案中，您可以自动使用
 author: Becky
 feature: Workfront Fusion
 exl-id: 814c285e-c106-458a-a0b1-760677634f4f
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '1999'
+source-wordcount: '2023'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,29 @@ ht-degree: 0%
 
 要使用[!DNL Microsoft Office 365 Calendar]模块，您必须具有[!DNL Microsoft Office 365 Calendar]帐户。
 
+## Microsoft Office 365日历API信息
+
+Microsoft Office 365日历连接器使用以下内容：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">基本URL</td> 
+   <td> https://graph.microsoft.com/v1.0</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API版本</td> 
+   <td> v1.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API标记</td> 
+   <td>v2.0.10</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## 正在将[!DNL Office 365 Calendar]服务连接到[!DNL Workfront Fusion]
 
 有关将[!DNL Office 365 Calendar]帐户连接到[!UICONTROL Workfront Fusion]的说明，请参阅[创建与[!UICONTROL Adobe Workfront Fusion]的连接 — 基本说明](../../workfront-fusion/connections/connect-to-fusion-general.md)
@@ -88,7 +111,7 @@ ht-degree: 0%
 ![](assets/map-toggle-350x74.png)
 
 * [事件](#event)
-* [日历](#calendar)
+* [日程表](#calendar)
 * [其他](#other)
 
 ### 事件
@@ -426,7 +449,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-### 日历
+### 日程表
 
 * [[!UICONTROL 列出日历]](#list-calendars)
 * [[!UICONTROL 获取日历]](#get-a-calendar)

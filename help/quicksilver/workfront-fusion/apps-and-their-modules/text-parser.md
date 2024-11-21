@@ -8,9 +8,9 @@ description: 您可以使用文本解析器工具来解析用于其他 [!DNL Ado
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d71cf64-4f86-42c5-81e7-8fc15333cbd7
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1048'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,21 @@ ht-degree: 0%
 要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
 有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
+
+## 文本分析器API信息
+
+文本解析器连接器使用以下内容：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API标记</td> 
+   <td>v2</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!UICONTROL 文本分析器]模块及其字段
 
@@ -180,7 +195,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[！UICONTROL单行]</td> 
-   <td>启用此选项以确保句点(.) 匹配换行符(<code>\n</code>)。</td> 
+   <td>启用此选项以确保句点(.)与换行符(<code>\n</code>)匹配。</td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL即使模块未返回任何结果，仍继续执行路由]</td> 
@@ -223,7 +238,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[！UICONTROL单行]</td> 
-   <td>启用此选项以确保句点(.) 匹配换行符(<code>\n</code>)。</td> 
+   <td>启用此选项以确保句点(.)与换行符(<code>\n</code>)匹配。</td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL Text] </td> 

@@ -9,10 +9,10 @@ description: 您可以使用Adobe Workfront展示板连接器自动执行Workfro
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
-source-git-commit: 0b7b63df57c9e99fb782c59af55d1165283dd634
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '2631'
-ht-degree: 0%
+source-wordcount: '2647'
+ht-degree: 1%
 
 ---
 
@@ -71,6 +71,21 @@ Adobe Workfront展示板是一种灵活的工具，通过提供对包含列和�
 ## 先决条件
 
 您必须先在Adobe Workfront中配置讨论区，然后才能连接到该讨论区。
+
+## Adobe Workfront展示板API信息
+
+Adobe Workfront主板连接器使用以下内容：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API标记</td> 
+   <td>v1.23.6</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 创建与Workfront展示板的连接
 
@@ -136,7 +151,7 @@ Adobe Workfront展示板是一种灵活的工具，通过提供对包含列和�
 * [展示板](#boards)
 * [列](#columns)
 * [标记](#tags)
-* [注释](#comments)
+* [评论](#comments)
 * [其他](#other)
 
 <!--
@@ -540,7 +555,7 @@ After the webhook is created, you can view the address of the endpoint that even
  </tbody> 
 </table>
 
-### 注释
+### 评论
 
 * [创建评论](#create-a-comment)
 * [阅读信息卡评论](#read-card-comments)

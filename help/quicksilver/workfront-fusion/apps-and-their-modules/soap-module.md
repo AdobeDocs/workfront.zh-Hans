@@ -9,10 +9,10 @@ description: 您可以使用SOAP模块连接到Adobe Workfront Fusion中的SOAP 
 author: Becky
 feature: Workfront Fusion
 exl-id: 752e0766-25f2-4d22-bed5-7c931284258d
-source-git-commit: b820fb8d597205da9f2d0e5e6f5aec1056ec9a45
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '490'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 

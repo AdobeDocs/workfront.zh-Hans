@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案中，您可以自动使用
 author: Becky
 feature: Workfront Fusion
 exl-id: 7f6dace5-ab50-45da-a926-1a8919057f7b
-source-git-commit: 7e7294e52622a6b8164fc69bbb4be576cc113f63
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '2068'
+source-wordcount: '2083'
 ht-degree: 0%
 
 ---
@@ -70,6 +70,25 @@ ht-degree: 0%
 ## 先决条件
 
 要使用[!DNL Marketo]模块，您必须具有[!DNL Marketo]帐户。
+
+## Marketo API信息
+
+Marketo连接器使用以下对象：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API版本</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API标记</td> 
+   <td>v1.14.19</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 将[!DNL Marketo]连接到Workfront Fusion {#connect-marketo-to-workfront-fusion}
 

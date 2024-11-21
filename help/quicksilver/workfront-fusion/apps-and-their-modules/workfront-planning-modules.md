@@ -11,9 +11,9 @@ feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 892fdaf3-935e-4e66-a01c-9e9b6e0daf3e
-source-git-commit: 8cb79a06f46c9a379f7394a6bef14f97d4ff7f98
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1166'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,25 @@ ht-degree: 0%
 要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
 有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
+
+## Adobe Workfront规划API信息
+
+Adobe Workfront Planning连接器使用以下对象：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">基本URL</td> 
+   <td>https://{{connection.host}}/maestro/api/{{common.maestroApiVersion}}/</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API标记</td> 
+   <td>v1.13.7</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 创建与[!DNL Adobe Workfront Planning]的连接
 

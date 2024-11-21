@@ -9,9 +9,9 @@ description: 使用 [!DNL Adobe Workfront Fusion Adobe Creative Cloud] 库模块
 author: Becky
 feature: Workfront Fusion
 exl-id: 8affa34b-803d-48a5-a986-9fbe0cb8c8f5
-source-git-commit: 103a4a7b58048678739d6125c042503458ae3722
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '1338'
+source-wordcount: '1359'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,25 @@ ht-degree: 0%
 ## 先决条件
 
 要使用[!DNL Adobe Creative Cloud Libraries]模块，您必须具有[!UICONTROL Adobe Creative Cloud]帐户。
+
+## Adobe Creative Cloud Libraries API信息
+
+Adobe Creative Cloud Libraries连接器使用以下对象：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">基本URL</td> 
+   <td>https://cc-libraries.adobe.io/api/v1</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API标记</td> 
+   <td>v1.1.7</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!UICONTROL Adobe Creative Cloud Libraries]模块及其字段
 

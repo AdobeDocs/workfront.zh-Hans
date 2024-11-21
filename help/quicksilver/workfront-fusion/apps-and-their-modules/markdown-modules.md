@@ -8,10 +8,10 @@ description: 在 [!DNL Adobe Workfront Fusion] 场景中，您可以使用Markdo
 author: Becky
 feature: Workfront Fusion
 exl-id: 9e810302-4897-494a-9b50-667d87ce9cb7
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '285'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 

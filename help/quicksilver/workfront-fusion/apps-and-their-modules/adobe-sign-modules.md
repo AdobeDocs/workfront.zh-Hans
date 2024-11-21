@@ -9,9 +9,9 @@ description: 使用 [!DNL Adobe Acrobat Sign] 模块，您可以基于 [!DNL Ado
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 01158218-31a6-4c68-a9b7-6a678a8f40c9
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '6636'
+source-wordcount: '6652'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,26 @@ ht-degree: 0%
 要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
 有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
+
+## [!DNL Adobe Acrobat Sign] API信息
+
+Adobe Acrobat Sign连接器使用以下对象：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API版本</td> 
+   <td> v6 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API标记</td> 
+   <td>v1.35.1</td> 
+  </tr>
+ </tbody> 
+</table>
+
 
 ## [!DNL Adobe Acrobat Sign]连接器使用建议
 

@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案中，您可以自动执行
 author: Becky
 feature: Workfront Fusion
 exl-id: f1edefd1-9fe0-48fc-bea2-c3f9facf7363
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '1401'
+source-wordcount: '1415'
 ht-degree: 0%
 
 ---
@@ -67,6 +67,25 @@ ht-degree: 0%
 
 要使用[!DNL Allocadia]模块，您必须具有[!DNL Allocadia]帐户。
 
+## [!DNL Allocadia] API信息
+
+Allocadia连接器使用以下对象：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API版本</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API标记</td> 
+   <td>v1.7.6</td> 
+  </tr>
+ </tbody> 
+</table>
+
 ## 将[!DNL Allocadia]连接到[!DNL Workfront Fusion]
 
 您可以直接从[!DNL Allocadia]模块内部创建与[!DNL Allocadia]帐户的连接。
@@ -104,7 +123,7 @@ ht-degree: 0%
    <td> <p>有关将Allocadia帐户连接到[!DNL Workfront Fusion]的说明，请参阅本文中的<a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">[！UICONTROL Connect Allocadia]到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">筛选</td> 
+   <td role="rowheader">筛选条件</td> 
    <td> <p>选择您希望方案仅观看“新记录”、[！UICONTROL仅更新记录]还是“新记录和更新记录”。</p> </td> 
   </tr> 
   <tr> 

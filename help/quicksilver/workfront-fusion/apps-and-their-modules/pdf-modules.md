@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e0a5736b-dbdb-43c6-83ff-e88a5625a5bf
-source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '3719'
+source-wordcount: '3738'
 ht-degree: 0%
 
 ---
@@ -88,6 +88,25 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
 要创建OAuth服务器到服务器，必须在Adobe开发人员控制台中添加Adobe PDF服务API。 添加API时，选择OAuth服务器到服务器选项。
 
 有关说明，请参阅Adobe开发人员文档中的[使用OAuth将API添加到项目](https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/)。
+
+## Adobe PDF服务API信息
+
+Adobe PDF服务连接器使用以下对象：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">基本URL</td> 
+   <td>https://pdf-services-stage.adobe.io</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API标记</td> 
+   <td>v2.1.4</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 创建与[!DNL Adobe PDF Services]的连接
 

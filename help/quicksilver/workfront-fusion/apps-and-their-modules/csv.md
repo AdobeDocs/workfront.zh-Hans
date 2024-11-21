@@ -8,10 +8,10 @@ description: 通过Adobe Workfront Fusion CSV模块，您可以创建CSV文件�
 author: Becky
 feature: Workfront Fusion
 exl-id: 4e37482a-e84e-4ab2-a48f-7e7bfbecee56
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '995'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 

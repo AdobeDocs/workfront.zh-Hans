@@ -8,9 +8,9 @@ description: ' [!DNL Adobe Workfront Fusion] [!UICONTROL JWT]应用程序提供�
 author: Becky
 feature: Workfront Fusion
 exl-id: 1c09967e-a236-404f-bf3e-9de66118e77b
-source-git-commit: 2fbf38c3c35761c52416966fb6a4ab032190e04b
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,21 @@ ht-degree: 0%
 要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
 有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
+
+## JWT API信息
+
+JWT连接器使用以下内容：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+   <tr> 
+   <td role="rowheader">API标记</td> 
+   <td>v1.1.5</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## JWT模块及其字段
 

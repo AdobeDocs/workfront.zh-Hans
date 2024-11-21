@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案中，您可以自动执行
 author: Becky
 feature: Workfront Fusion
 exl-id: 168e8fce-645d-4108-84b7-46a113c83f41
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '3817'
+source-wordcount: '3837'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,29 @@ ht-degree: 0%
 ## 先决条件
 
 要使用[!DNL Google Calendar]模块，您必须具有[!DNL Google]帐户。
+
+## Google日历API信息
+
+Google Calendar连接器使用以下对象：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">基本URL</td> 
+   <td> https://www.googleapis.com/calendar/v3</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API版本</td> 
+   <td> v3 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API标记</td> 
+   <td>v5.4.5</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Google Calendar]模块及其字段
 

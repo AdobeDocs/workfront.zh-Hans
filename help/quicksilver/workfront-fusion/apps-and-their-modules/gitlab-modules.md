@@ -10,7 +10,7 @@ description: 除了Adobe Workfront许可证之外，Adobe Workfront Fusion还需
 author: Becky
 feature: Workfront Fusion
 exl-id: bf6c1d82-7926-4bf9-8424-e658650ee6b1
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '4070'
 ht-degree: 0%
@@ -996,11 +996,11 @@ ht-degree: 0%
 
 +++
 
-+++要提交的&#x200B;**[!UICONTROL Post注释]**
++++**[!UICONTROL 发布评论以提交]**
 
 此操作模块向提交添加注释。
 
-有关字段的信息，请参阅[!DNL GitLab]文档中的[要提交的Post注释](https://docs.gitlab.com/ee/api/commits.html#post-comment-to-commit)。
+有关字段的信息，请参阅[!DNL GitLab]文档中的[发布要提交的注释](https://docs.gitlab.com/ee/api/commits.html#post-comment-to-commit)。
 
 +++
 

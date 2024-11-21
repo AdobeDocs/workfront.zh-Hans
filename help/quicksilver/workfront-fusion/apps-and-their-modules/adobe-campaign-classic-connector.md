@@ -9,10 +9,10 @@ description: 使用 [!DNL Adobe Campaign] 模块，您可以基于 [!DNL Adobe C
 author: Becky
 feature: Workfront Fusion
 exl-id: 84e8fa35-0c3c-46bd-8886-88c6d8d9e1d5
-source-git-commit: 7decc5cbf4bb2c3d4d1802dec1f369ca061f6b48
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '1434'
-ht-degree: 0%
+source-wordcount: '1448'
+ht-degree: 1%
 
 ---
 
@@ -65,6 +65,21 @@ ht-degree: 0%
 
 * 列入允许列表 列入允许列表有关将IP地址添加到Campaign的说明，请参阅Adobe Campaign文档中的[将IP地址添加到](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/ip-range-allow-listing#adding-ip-addresses-allow-list)。
 * 有关要添加到允许列表的IP地址列表，请参阅[用于访问Adobe Workfront Fusion的IP地址](/help/quicksilver/workfront-fusion/get-started/ip-addresses-for-fusion.md)。
+
+## Adobe Campaign API信息
+
+Adobe Campaign连接器使用以下对象：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API标记</td> 
+   <td>v1.7.22</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 将[!DNL Adobe Campaign]连接到[!DNL Adobe Workfront Fusion]
 

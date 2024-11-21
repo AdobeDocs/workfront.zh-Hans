@@ -9,9 +9,9 @@ description: 通过 [!DNL Adobe Workfront Fusion Google Forms] 模块，您可�
 author: Becky
 feature: Workfront Fusion
 exl-id: 45c86879-bc4e-4134-b63c-02410b9de43b
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1435'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,21 @@ ht-degree: 0%
 ## 先决条件
 
 要使用[!DNL Google Forms]模块，您必须具有[!DNL Google]帐户。
+
+## Google Forms API信息
+
+Google Forms连接器使用以下对象：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API标记</td> 
+   <td>2.0.10</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 从表单创建电子表格
 

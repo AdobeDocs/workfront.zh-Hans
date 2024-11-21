@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案中，您可以自动执行
 author: Becky
 feature: Workfront Fusion
 exl-id: 60630b23-e057-4ecf-a014-6e63b6d69b48
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '5095'
+source-wordcount: '5113'
 ht-degree: 0%
 
 ---
@@ -67,6 +67,29 @@ ht-degree: 0%
 
 要使用[!DNL Trello]模块，您必须具有[!UICONTROL Trello]帐户。
 
+## Trello API信息
+
+Trello连接器使用以下功能：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">基本URL</td> 
+   <td> https://api.trello.com/1</td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">API版本</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API标记</td> 
+   <td>v4.12.37</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## 将[!UICONTROL Trello]连接到[!DNL Workfront Fusion]
 
 有关将[!UICONTROL Trello]帐户连接到[!DNL Workfront Fusion]的说明，请参阅[创建与 [!DNL Adobe Workfront Fusion] 的连接 — 基本说明](../../workfront-fusion/connections/connect-to-fusion-general.md)
@@ -85,7 +108,7 @@ ht-degree: 0%
 * [成员](#members)
 * [核对清单](#checklists)
 * [标签](#labels)
-* [注释](#comments)
+* [评论](#comments)
 
 ### 展示板
 
@@ -1087,7 +1110,7 @@ ht-degree: 0%
 
 +++
 
-### 注释
+### 评论
 
 +++ **[!UICONTROL 观看评论]**
 

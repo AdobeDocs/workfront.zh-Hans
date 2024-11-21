@@ -10,9 +10,9 @@ description: 在Adobe Workfront Fusion方案中，您可以自动使用 [!DNL Wo
 author: Becky
 feature: Workfront Fusion
 exl-id: 535573e0-b6ad-43a2-b7cb-ed32d1dc8d16
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '1030'
 ht-degree: 1%
 
 ---
@@ -71,6 +71,25 @@ ht-degree: 1%
 * 拥有[!DNL Workday]帐户。
 
 * 在[!DNL Workday]中创建OAuth应用程序。 有关说明，请参阅[!DNL Workday]文档。
+
+## Workday API信息
+
+Workday连接器使用以下对象：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">基本URL</td> 
+   <td>https://{{connection.servicesUrl}}/api</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API标记</td> 
+   <td>v1.6.4</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 将[!DNL Workday]连接到[!DNL Workfront Fusion]
 

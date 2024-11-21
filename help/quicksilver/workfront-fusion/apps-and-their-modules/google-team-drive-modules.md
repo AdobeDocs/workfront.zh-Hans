@@ -9,7 +9,7 @@ description: 通过 [!DNL Adobe Workfront Fusion Google Team Drive] 模块，您
 author: Becky
 feature: Workfront Fusion
 exl-id: 8b4c057f-bb98-44d1-9b71-cbeaa402a1c3
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '1297'
 ht-degree: 0%

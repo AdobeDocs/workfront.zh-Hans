@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案中，您可以自动使用
 author: Becky
 feature: Workfront Fusion
 exl-id: e4dc9588-334a-41a3-85d1-996cb819c3fa
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '1661'
+source-wordcount: '1676'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,25 @@ ht-degree: 0%
 ## 先决条件
 
 要使用[!DNL Bynder]模块，您必须具有[!DNL Bynder]帐户。
+
+## Bynder API信息
+
+Bynder连接器使用以下对象：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API版本</td> 
+   <td> v4 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API标记</td> 
+   <td>v1.25.21</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 将[!DNL Bynder]连接到Workfront Fusion  {#connect-bynder-to-workfront-fusion}
 

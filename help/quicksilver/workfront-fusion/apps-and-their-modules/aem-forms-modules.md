@@ -10,9 +10,9 @@ description: 使用 [!DNL Adobe Workfront Fusion], you can start a scenario base
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 107d81f7-ca41-4d76-a6dd-e579886dc2ad
-source-git-commit: 6c7d22bea669586c56acfc23d328d7cc815b04be
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '573'
 ht-degree: 1%
 
 ---
@@ -65,6 +65,21 @@ ht-degree: 1%
 ## 先决条件
 
 * 您必须拥有[!DNL Adobe Experience Manager Forms]帐户才能使用此模块。
+
+## Adobe Experience Manager Assets API信息
+
+Adobe Experience Manager Assets连接器使用以下对象：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API标记</td> 
+   <td>v1.2.27</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 创建与Adobe Experience Manager Forms的连接
 

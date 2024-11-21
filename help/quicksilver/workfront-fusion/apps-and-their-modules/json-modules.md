@@ -8,7 +8,7 @@ description: Adobe Workfront Fusion JSON应用程序提供了用于处理JSON格
 author: Becky
 feature: Workfront Fusion
 exl-id: 60540608-9d2e-4e10-9fb2-5388dda64784
-source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 0%
@@ -88,7 +88,7 @@ ht-degree: 0%
 >       "name" : "Peter",
 >
 >    
->   "ID" : 1
+   "ID" : 1
 >}
 >```
 >
@@ -108,7 +108,7 @@ ht-degree: 0%
 >   },
 >
 >  
-> {
+ {
 >       "name" : "Mike",
 >       "ID" : 2
 >   }
@@ -248,26 +248,25 @@ ht-degree: 0%
 >
 **示例：**
 >
->     ```
->     {
->     
->     "books": [
->     
->     {
->     
->     "id": "ID",
->     
->     "title": "Title",
->     
->     "author": "Author"
->     
->     }
->     
->     ]
->     
->     }
->     
->     ```
+```
+{
+
+"books": [
+
+{
+
+"id": "ID",
+
+"title": "Title",
+
+"author": "Author"
+
+}
+
+]
+
+}
+```
 >
 1. 单击&#x200B;**[!UICONTROL 保存]**。 数据结构中的[!UICONTROL Specification]字段现在包含生成的结构。
 1. 将数据结构的名称更改为更具体的名称，然后单击&#x200B;**[!UICONTROL 保存]**。 与root数组属性对应的字段在JSON模块的设置中显示为可映射字段。

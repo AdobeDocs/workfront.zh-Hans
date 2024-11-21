@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案中，您可以自动执行
 author: Becky
 feature: Workfront Fusion
 exl-id: 13a25c6c-bdf1-467d-bd90-ebd763c59235
-source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '4073'
+source-wordcount: '4091'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,29 @@ ht-degree: 0%
 要使用[!DNL OneDrive]模块，您必须具有[!DNL Microsoft OneDrive]帐户。
 
 
+
+## OneDrive API信息
+
+OneDrive连接器使用以下功能：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">基本URL</td> 
+   <td> https://graph.microsoft.com/v1.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API版本</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API标记</td> 
+   <td>v2.0.10</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 
 ## 正在将[!DNL OneDrive]服务连接到[!DNL Workfront Fusion]

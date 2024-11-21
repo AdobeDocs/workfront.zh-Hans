@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案中，您可以自动使用
 author: Becky
 feature: Workfront Fusion
 exl-id: b362cd8b-06b3-4f4c-b405-a2afc24abddb
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '1604'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,25 @@ ht-degree: 0%
 ## 先决条件
 
 要使用[!DNL ServiceNow]模块，您必须具有[!DNL ServiceNow]帐户。
+
+## ServiceNow API信息
+
+ServiceNow连接器使用以下对象：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">基本URL</td> 
+   <td>https://{{connection.instance}}/api</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API标记</td> 
+   <td>v1.5.13</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 将[!DNL ServiceNow]连接到[!DNL Workfront Fusion]
 

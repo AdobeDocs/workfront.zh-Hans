@@ -9,10 +9,10 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案中，您可以自动执行
 author: Becky
 feature: Workfront Fusion
 exl-id: a0b4352d-a1ce-4459-a58e-71de860b8a90
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 0%
+source-wordcount: '864'
+ht-degree: 1%
 
 ---
 
@@ -66,6 +66,21 @@ ht-degree: 0%
 ## 先决条件
 
 要使用[!DNL Datadog]模块，您必须具有[!DNL Datadog]帐户。
+
+## Datadog API信息
+
+Datadog连接器使用以下对象：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API标记</td> 
+   <td>1.0.11</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 将[!DNL Datadog]连接到[!DNL Workfront Fusion] {#connect-datadog-to-workfront-fusion}
 
@@ -128,10 +143,10 @@ ht-degree: 0%
 
 ### 操作
 
-* [[!UICONTROL Post时序点]](#post-timeseries-points)
+* [[!UICONTROL 发布时序点]](#post-timeseries-points)
 * [[!UICONTROL 进行API调用]](#make-an-api-call)
 
-#### [!UICONTROL Post时序点]
+#### [!UICONTROL 发布时序点]
 
 此模块允许您发布可在[!DNL Datadog]的仪表板上绘制的时间系列数据。
 
