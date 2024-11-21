@@ -5,13 +5,13 @@ title: 使用“我的工作”小组件管理您的工作
 description: “我的工作”小组件将所有已分配的任务、问题和请求显示在一个位置。 在这里，您可以筛选和组织您的工作，记录时间，进行更新，并将工作项标记为完成。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: de782d54a5ab6370b91e7447ed33e5d7511cc50d
+exl-id: e110f0f6-4ecb-419b-a368-c3f802de5920
+source-git-commit: 8880891c0f5fd8fecad6c2f58136d36a943105ae
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 5%
 
 ---
-
 
 # 使用“我的工作”小组件管理您的工作
 
@@ -157,7 +157,7 @@ ht-degree: 5%
 * 添加更新
 * 导航到文档区域以上传文档
 * 查看工作项详细信息和更新自定义字段
-Workfront管理员可以自定义哪些字段显示在布局模板的摘要中。 有关详细信息，请参阅[使用布局模板自定义主页和摘要](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)。
+Workfront管理员可以自定义哪些字段显示在布局模板的摘要中。 有关详细信息，请参阅[使用布局模板自定义摘要面板](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)。
 * 更改工作项状态
 * 查看子任务
 * 记录时间
@@ -190,7 +190,3 @@ Workfront管理员可以自定义哪些字段显示在布局模板的摘要中�
 * 团队请求
 
 有关向新主页添加构件的信息，请参阅主页中的[添加、编辑或删除构件](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)。
-
-
-
-
