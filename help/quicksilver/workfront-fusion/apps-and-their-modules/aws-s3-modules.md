@@ -73,7 +73,7 @@ AWS S3连接器使用以下对象：
  <tbody> 
   <tr> 
    <td role="rowheader">基本URL</td> 
-   <td>https://s3.{{parameters.region}}.amazonaws.com</td> 
+   <td>https://s3.&lbrace;&lbrace;parameter.region&rbrace;&rbrace;.amazonaws.com</td> 
   </tr>
   <tr> 
    <td role="rowheader">API标记</td> 
