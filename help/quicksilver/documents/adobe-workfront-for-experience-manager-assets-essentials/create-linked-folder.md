@@ -7,9 +7,9 @@ description: 在Workfront中，您可以创建与Experience Manager Assets或Ass
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: 96830bad7480a99ca8f318dbd791ebcaceddd01e
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 # 创建与Experience Manager Assets或Assets Essentials链接的文件夹
 
 在Workfront中，您可以创建与Experience Manager Assets或Assets Essentials链接的文件夹。 由于该文件夹已链接，因此添加到该文件夹的任何资源都将自动显示在Workfront和Experience Manger中。 如果资产位于链接的文件夹中，则无需手动发送。
+
+如果从Experience Manager Assets或Assets Essentials内的链接文件夹中删除或移动资源，Workfront会在项目>文档区域中保留该资源的副本。
 
 
 ## 访问要求

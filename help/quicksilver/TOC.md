@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: c34b1573b3a2dce344fcdd60ce5b3114cc095d11
+source-git-commit: 6a881c1d2f7076f1b7f8f98706657851dc6ab454
 workflow-type: tm+mt
 source-wordcount: '14611'
 ht-degree: 2%
@@ -432,7 +432,6 @@ ht-degree: 2%
       * [公告](product-announcements/announcements/announcements.md)
       * [不再支持的功能计划](product-announcements/announcements/feature-removal-timeline.md)
       * [增强的Analytics弃用指南](product-announcements/announcements/enhanced-analytics-deprecation.md)
-      * [旧版主页弃用指南](product-announcements/announcements/legacy-home-deprecation.md)
       * [维护窗口常见问题解答](product-announcements/announcements/maintenance-window-faq.md)
       * [向允许列表添加验证所需的更改](product-announcements/announcements/proofhq-domain-change-workfront.md)
       * [在新版Adobe Workfront Experience中取消订阅公告中心消息](product-announcements/announcements/unsubscribe-from-ac-messages.md)
@@ -1163,6 +1162,7 @@ ht-degree: 2%
       * [检查文档存储限制](documents/managing-documents/check-document-storage.md)
       * [删除文档](documents/managing-documents/delete-documents.md)
       * [粘贴剪贴板中的图像](documents/managing-documents/paste-image-clipboard.md)
+      * [批量编辑文档](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)
       * [Workfront中的AddBuilder文档详细信息](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
    * 组织文档{#organize-documents}
       * [组织文档](documents/organizing-documents/organize-documents.md)

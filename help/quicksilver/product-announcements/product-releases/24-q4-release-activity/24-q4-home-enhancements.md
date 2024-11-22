@@ -4,9 +4,10 @@ description: 2024年第四季度主页增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4b92c4ede61690211dad2cb908c502dbb63d7c34
+exl-id: 9b8ec3eb-5327-4b5b-b7a9-80205b46b5e3
+source-git-commit: 01ea4c72e61cbc808ed76cb18e3f67d893bacf69
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -63,12 +64,18 @@ ht-degree: 0%
 
 * _主页工作区_&#x200B;区域将重命名为&#x200B;_主页_。
 * _主页和摘要_&#x200B;区域将重命名为&#x200B;_摘要面板_。 此区域中的自定义设置仍将应用于新主页中的摘要面板。 有关详细信息，请参阅[使用布局模板自定义主页和摘要](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)。
+* 我们将从“主页”和“摘要”面板中删除以下选项卡：
+   * 项目
+   * 文档
+   * 文档版本
+
+注意：文档和文档版本仅应用于旧版主页。 它们不允许您自定义文档区域中的“摘要”。
 
 **管理审批**
 
 * 您将无法再从主页区域的已提交审批中撤消、提醒或移除用户。 实际上，您可以通过审批本身来管理此操作。
 
-我们鼓励用户开始使用新的主页，在弃用之前，这些主页将继续通过附加功能进行增强。 有关过渡的更多信息，包括有关用户和管理员可以做哪些准备的建议，请参阅[旧版主页弃用指南](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md)。
+我们鼓励用户开始使用新的主页，在弃用之前，这些主页将继续通过附加功能进行增强。
 
 >[!NOTE]
 >
