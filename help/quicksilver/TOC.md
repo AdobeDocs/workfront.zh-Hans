@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 6a881c1d2f7076f1b7f8f98706657851dc6ab454
+source-git-commit: d74bf60a66326c71447679c463de0469cd0de9fa
 workflow-type: tm+mt
-source-wordcount: '14611'
+source-wordcount: '14614'
 ht-degree: 2%
 
 ---
@@ -2119,6 +2119,7 @@ ht-degree: 2%
       * [连接记录](planning/records/connect-records.md)
       * [编辑记录](planning/records/edit-records.md)
       * [删除记录](planning/records/delete-records.md)
+      * [恢复已删除的记录](planning/records/restore-deleted-records.md)
       * [共享记录](planning/records/share-records.md)
       * [重复记录](planning/records/copy-or-duplicate-records.md)
       * [管理记录注释](planning/records/manage-record-comments.md)

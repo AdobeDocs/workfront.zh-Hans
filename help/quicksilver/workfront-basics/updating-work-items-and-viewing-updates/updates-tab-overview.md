@@ -7,9 +7,9 @@ description: 对象的“更新”部分显示用户对对象所做的注释或�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
+source-git-commit: 6327e5625481ce7ff8d744bc6eb50d417cbb4413
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1090'
 ht-degree: 4%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 4%
 * 模板
 * 模板任务
 * 用户
-* 工时表
+* 时间表
 * 团队
 * 目标
 * 迭代
@@ -150,7 +150,7 @@ Depending on what objects you access the commenting experience for, you might fi
    * 项目群
    * 项目组合
    * 用户
-   * 工时表
+   * 时间表
 
 * 以下对象没有“系统活动”选项卡或“全部”选项卡，“注释”选项卡中的体验与所有其他对象的体验相匹配：
 
@@ -237,7 +237,13 @@ The following objects don't record system updates:
    <td>文档 </td> 
    <td>附加文档的对象，项目 </td> 
   </tr> 
-  <tr> 
+ </tr> 
+  <tr data-mc-conditions=""> 
+   <td>校样 </td> 
+   <td>文档 </td> 
+  </tr>
+
+<tr> 
    <td>项目群</td> 
    <td>项目组合</td> 
   </tr> 
@@ -303,7 +309,7 @@ The following objects don't record system updates:
 
    * 用户
    * 故事
-   * 工时表
+   * 时间表
    * 迭代
 
 * 您可以向在团队中查看的更新添加回复。 回复显示在团队的“更新”部分以及它所属对象的更新部分中。

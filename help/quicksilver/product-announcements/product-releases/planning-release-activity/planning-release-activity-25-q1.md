@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
+source-git-commit: 6f91c7c75c4565d5e91264481924daf50d3807ec
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,21 @@ ht-degree: 0%
 <!--remove the general activity mention after First Quarter 2025 is released-->
 
 有关2024年8月28日正式发布后为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+
+## 恢复已删除的记录
+
+>[!NOTE]
+>
+>预览版本： 2024年11月22日；用于快速发布的生产：用于24.12版（2024年12月）；用于季度发布的生产：用于25.1版（2025年1月）
+
+删除记录后，这些记录现在会暂时移到“最近删除”的收件箱中30天。 您可以从记录类型页面访问最近删除的框，它仅包含特定类型的记录。
+
+Workspace管理员可以在删除记录后，从垃圾桶中恢复长达30天的记录。 连接的记录及其字段信息也会恢复。
+
+在此增强功能之前，无法恢复已删除的记录。
+
+有关详细信息，请参阅[恢复已删除的记录](/help/quicksilver/planning/records/records-information.md)。
 
 ## 可在记录详细信息区域找到的Adobe人工智能助手
 

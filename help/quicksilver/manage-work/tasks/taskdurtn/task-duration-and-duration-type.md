@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 06b5d8d7e3f2f3d0ff7ef614861a8898dd9df4eb
+source-git-commit: 6327e5625481ce7ff8d744bc6eb50d417cbb4413
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1647'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,13 @@ ht-degree: 1%
 
 如果任务的实际起始日期和实际完成日期不在项目、主要被分配人或默认计划的计划之内，则任务持续时间为零。
 
-**示例：**&#x200B;如果您的计划从上午9:00开始到中午12:00结束，并且任务计划从下午2:00开始到下午4:00结束，则任务的持续时间为零。
+>[!BEGINSHADEBOX]
+
+**示例**
+如果您的计划从上午9:00开始到中午12:00结束，并且任务计划从下午2:00开始到下午4:00结束，则任务的持续时间为零。
+
+
+>[!ENDSHADEBOX]
 
 以下是计算Adobe Workfront中的持续时间时存在的两种方案：
 
@@ -70,6 +76,14 @@ ht-degree: 1%
 >[!NOTE]
 >
 >当考虑到主要受让人在项目中的休息时间时，任务的计划日期可能会调整，但任务的持续时间保持不变。 有关在计划项目时考虑主要被分配人的空闲时间的信息，请参阅[配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
+
+## 父任务的原始持续时间
+
+任务的原始持续时间是指任务在成为父任务之前的原始持续时间（以分钟为单位）。
+
+当任务成为父任务时，最早子任务的计划开始日期与最后一个子任务的计划完成日期之间的持续时间将累计到父任务，并成为父任务的持续时间。 这将替换原始任务的持续时间。
+
+有关详细信息，请参阅[任务原始持续时间概述和原始计划小时数](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)。
 
 ## 任务持续时间的时间单位
 

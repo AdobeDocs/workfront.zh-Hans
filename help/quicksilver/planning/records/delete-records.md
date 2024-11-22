@@ -1,14 +1,14 @@
 ---
 title: 删除记录
-description: 您可以删除您或其他用户创建的记录。 无法恢复已删除的记录。
+description: 您可以删除您或其他用户创建的记录。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 9b528e751d23b04ae1e495f00e06ffef8aa60156
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '764'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,15 @@ ht-degree: 2%
 
 # 删除记录
 
+<!--take Preview and Production references out at release-->
+
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 {{planning-important-intro}}
 
-您可以删除Adobe Workfront Planning中不再相关的记录。
+您可以删除Adobe Workfront Planning中不再相关的记录。 <span class="preview">删除的记录删除后，您可以在30天内恢复这些记录。 有关恢复已删除记录的信息，请参阅[恢复已删除的记录](/help/quicksilver/planning/records/restore-deleted-records.md)。</span>
 
 ## 访问要求
 
@@ -156,10 +162,9 @@ OLD
 ## 有关删除记录的注意事项
 
 * 您可以删除您或其他用户创建的记录。
-* 无法恢复已删除的记录。<!--the above statements (and in the metadata description) will change with access levels and recycle bin??-->
+* 您无法恢复生产环境中已删除的记录。 <span class="preview">您可以在预览环境中恢复已删除的记录。</span>
 * 如果删除的记录链接到其他记录，则不会删除链接的记录，但也会删除来自已删除记录的信息。
-* 不能批量删除记录。<!--this will probably change-->
-* 您无法从时间线视图中删除记录。
+* 您无法从时间轴或日历视图中删除记录。
 
 ## 删除记录
 
@@ -192,7 +197,10 @@ OLD
 1. 单击记录名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**删除**，再次&#x200B;**删除**&#x200B;以进行确认。
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
-该记录已删除，无法恢复。
+删除记录。
+1. （可选且有条件）如果删除“预览”环境中的记录，请转到记录页面的表视图，单击该视图右上角的&#x200B;**撤消**&#x200B;图标![](assets/undo-icon.png)，然后单击&#x200B;**最近删除的记录**&#x200B;以恢复删除的记录。
+
+有关恢复已删除记录的信息，请参阅[恢复已删除的记录](/help/quicksilver/planning/records/restore-deleted-records.md)。
 
 ### 从记录类型表格视图中删除记录
 
@@ -211,15 +219,22 @@ OLD
 1. 执行下列操作之一：
 
    * 右键单击记录行，然后单击&#x200B;**删除**。
-   * 单击记录名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**删除**
+   * 单击记录名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**删除**。
 
      ![](assets/contextual-menu-for-record-row.png)
 
    * 单击&#x200B;**打开详细信息**&#x200B;图标![](assets/open-details-icon-in-table-name-field.png)打开包含记录详细信息的框，然后单击记录名称右侧的&#x200B;**更多** ![](assets/more-menu.png)，然后&#x200B;**删除**。
 
-   该记录已删除，无法恢复。
+   删除记录。
 
-1. （可选）使用以下键盘快捷键撤消或重做删除记录：
+1. （可选）执行以下操作之一以撤消或重做删除记录：
 
-   * CTRL + Z(Mac为⌘ + Z)可撤消更改
-   * 按CTRL + Shift + Z(对于Mac，按⌘ + Shift + Z)可重做更改
+   * <span class="preview">单击&#x200B;**撤消**&#x200B;图标![](assets/undo-icon.png)，然后单击&#x200B;**最近删除的**&#x200B;以恢复删除的记录。 有关恢复已删除记录的信息，请参阅[恢复已删除的记录](/help/quicksilver/planning/records/restore-deleted-records.md)。</span>
+   * 使用以下键盘快捷键可撤消或重做删除记录：
+
+      * 按CTRL + Z(对于Mac，按⌘ + Z)可撤消删除记录
+      * 按CTRL + Shift + Z(对于Mac，按⌘ + Shift + Z)可重做删除记录
+
+
+
+
