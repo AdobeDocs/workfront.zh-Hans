@@ -9,9 +9,9 @@ description: 通过Adobe Lightroom模块，您可以根据Adobe Lightroom帐户�
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e48bdf18-49f0-436e-9182-16c9da2b3169
-source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '2244'
+source-wordcount: '2255'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,26 @@ ht-degree: 0%
 
 * 您必须拥有有效的[!DNL Adobe Lightroom]帐户。
 
-## 创建与Adobe Lightroom的连接
+## Adobe Lightroom API信息
+
+Adobe Lightroom连接器使用以下对象：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">基本URL</td> 
+   <td>https://lr.adobe.io</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API标记</td> 
+   <td>v1.17.128</td> 
+  </tr>
+ </tbody> 
+ </table>
+
+<!--## Create a connection to Adobe Lightroom-->
 
 
 

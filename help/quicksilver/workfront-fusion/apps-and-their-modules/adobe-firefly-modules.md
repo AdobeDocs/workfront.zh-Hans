@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案中，您可以自动使用
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 1e131c27-571d-4099-9243-69572bdb3f5a
-source-git-commit: 7013302a6ba903b410ed1fa8948a195083004eb9
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,21 @@ ht-degree: 0%
 在使用[!DNL Adobe Firefly]连接器之前，必须确保满足以下先决条件：
 
 * 您必须拥有有效的[!DNL Adobe Firefly]帐户。
+
+## Adobe Campaign API信息
+
+Adobe Campaign连接器使用以下对象：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API标记</td> 
+   <td>v1.4.24</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 创建与[!DNL Adobe Firefly]的连接
 
