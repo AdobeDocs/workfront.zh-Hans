@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: df3885233140c5d0af542c8999226f7934c1329f
+source-git-commit: 2b6f5243de9610947ab6836080379a2293f48a10
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1643'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,7 @@ ht-degree: 0%
 * 允许群集1、2、3、5、7、8和9](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)的[IP地址
 * 允许群集4](#ip-addresses-to-allow-for-cluster-4)的[IP地址
 * 允许群集6](#ip-addresses-to-allow-for-cluster-6)的[IP地址
+* [允许群集10的IP地址](#ip-addresses-to-allow-for-cluster-10)
 * [允许使用测试驱动器的IP地址](#IP%20Addre2)
 * 实施事件订阅时允许的[IP地址](#ip-addresses-to-allow-when-implementing-event-subscriptions)
 * [允许增强身份验证的IP地址](#ip-addresses-to-allow-for-enhanced-authentication)
