@@ -8,9 +8,9 @@ description: 除了Adobe Workfront许可证之外，Adobe Workfront Fusion还需
 author: Becky
 feature: Workfront Fusion
 exl-id: 13d6230d-51f6-4f68-8697-30f8ce6c8599
-source-git-commit: 27158301e491d4ff45ce7987a81f841fb4525b2a
+source-git-commit: f8ea4a1c40cd3fc4664a5a3b1c3a900e874d78b1
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,48 @@ ht-degree: 0%
 [!DNL Adobe Workfront Fusion]的作用是自动化您的流程，以便您能够专注于新任务，而不是重复相同的任务。 它的工作方式是，关联应用程序和服务内外的操作，从而创建一个自动传输和转换数据的方案。 您创建的方案会监视应用程序或服务中的数据，并对这些数据进行处理以提供您想要的结果。
 
 场景由一系列模块组成，这些模块指示应如何在应用程序内转换数据或在应用程序和Web服务之间传输数据。
+
+## 方案元素概述
+
+场景由不同的元素构建。 了解这些元素的术语可使文档更易于使用。
+
+### 方案
+
+**方案**&#x200B;是用户创建的一系列自动步骤，创建这些步骤是为了移动和处理数据。 术语“场景”是指连接步骤的整个组。
+
+![方案](assets/entire-scenario-scenario.png)
+
+### 触发器
+
+方案以&#x200B;**触发器**&#x200B;开头。 触发器会监视新的和更新的数据，并在模块中配置的某些条件适用时启动场景。 触发器可以配置为按计划启动方案（轮询），或者在发生数据更改时启动方案（即时）。
+
+![触发器](assets/scenario-trigger.png)
+
+### 模块
+
+触发器后面跟有许多&#x200B;**模块**。 模块表示执行特定操作的方案中的单一步骤。 模块已配置并链接在一起，以创建方案。
+
+![模块](assets/scenario-module.png)
+
+### 路由
+
+方案可分为&#x200B;**个路由**。 路由是场景的一部分，不一定用于给定的数据捆绑。 路由是使用路由器模块和过滤器设置的。
+
+![路由](assets/scenario-route.png)
+
+### 方案区段
+
+方案区段是方案的一部分，由一系列连接到同一应用程序的连续模块组成。 场景区段通常表示应用程序中的简短工作流。
+
+![方案区段](assets/scenario-segment.png)
+
+### 连接器
+
+连接器是给定应用程序的一组模块。 Workfront Fusion提供了用于许多常见工作应用程序(如Workfront、Salesforce和Jira)的连接器，以及可用于任何Web服务的通用连接器。
+
+![连接器](assets/scenario-connectors.png)
+
+
 
 ## 示例：在[!DNL Adobe Workfront]中自动化进程
 
