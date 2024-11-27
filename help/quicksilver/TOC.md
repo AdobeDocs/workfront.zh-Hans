@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: e91423d1520cc5fbfa6cd5085c3d0c7315d88463
+source-git-commit: 301f8c1b55a91a93616f59e2f530ac51a3696cbf
 workflow-type: tm+mt
 source-wordcount: '14647'
 ht-degree: 2%
@@ -856,7 +856,7 @@ ht-degree: 2%
       * [保存电子邮件头文件](administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md)
       * [共享显示多个权限](administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
       * [未接受未经身份验证的电子邮件](administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
-      * [Workfront： ZScalar设置可能会导致性能降低](administration-and-setup/tips-tricks-and-troubleshooting/zscalar-affects-performance.md)
+      * [Workfront： ZScaler设置可能会导致性能降低](administration-and-setup/tips-tricks-and-troubleshooting/zscaler-affects-performance.md)
       * [用户凭据与SAML凭据](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
       * [更新访问级别中的自动升级选项](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
 * Adobe Workfront基础知识{#basics}
