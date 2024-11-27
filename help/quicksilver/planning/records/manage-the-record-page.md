@@ -6,15 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1631'
 ht-degree: 0%
 
 ---
 
 
 # 管理记录页面布局
+
+<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -249,4 +253,52 @@ ht-degree: 0%
    对于查看记录的所有用户，字段的新位置会在相同类型的所有记录的预览和页面中更新。
 
    自动对记录预览或页面保存布局所做的所有更改。
+
+<span class="preview">
+
+## 将“已连接”视图页面添加到记录的页面
+
+您可以将“已连接”视图页面添加到记录的页面。
+
+您无法将“已连接”视图页面添加到记录的预览区域。
+
+已连接的视图页面在表格视图中显示一个已连接的记录页面。 表格视图是只读的。
+
+您可以为每个连接的记录类型添加一个“连接的视图”页。 <!--edit this when we can remove fields from this page-->
+
+添加“连接的视图”页：
+
+1. 在记录页面视图中，单击记录名称以将其打开，然后单击预览页面右上角的“在新标签中打开”图标![](assets/open-details-in-a-new-tab-icon.png)。
+1. 单击&#x200B;**添加页面** > **连接的视图**。
+1. 添加&#x200B;**页面名称**，然后单击&#x200B;**创建**。
+
+   在新选项卡中向记录页面添加一个附加页面。
+1. 搜索或单击列表中连接的记录或对象类型的名称。
+您选择的记录类型的表格视图会显示，并且连接的记录会显示在表格视图中。
+表格视图是只读的。
+
+   ![](assets/audience-connected-table-view-under-campaign-details-page.png)
+1. （可选）双击选项卡的名称
+
+   或
+
+   将鼠标悬停在该选项卡的名称上，单击&#x200B;**更多** ![](assets/more-menu.png)，然后单击&#x200B;**重命名**&#x200B;以重命名为新的“连接的视图”选项卡。
+1. （可选）使用工具栏中的任何视图元素来管理表格视图。 有关信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)。
+
+</span>
+
+<!--
+## Add a Brief page to a record's page
+
+You can add a Brief page to the record's preview or pages. 
+
+Brief pages contain the same information as the Details tab, in a read-only format. <!--edit this when we can remove fields from this page-->
+
+<!--
+1. From a record's page view, click the name of a record to open its preview or page.
+1. Click **Add page** > **Brief**. 
+1. Add the **Page name**, then click **Create**. 
+-->
+
+
 

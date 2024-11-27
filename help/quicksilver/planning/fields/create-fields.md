@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 88c921b00fcde7dd530e999031e0227201a7cb1a
 workflow-type: tm+mt
-source-wordcount: '4129'
+source-wordcount: '4287'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,9 @@ ht-degree: 1%
 * 通过连接记录类型
 * 通过创建记录类型
 * 通过从模板创建工作区
-  <!--* By importing record types using an Excel or CSV file-->
+* <span class="preview">通过使用Excel或CSV文件导入记录类型</span>
+* <span class="preview">通过导入现有Workfront字段的副本</span>
+
 
 有关Workfront Planning字段的更多信息，请参阅[字段概述](/help/quicksilver/planning/fields/fields-overview.md)。
 
@@ -178,6 +180,8 @@ OLD:
 ## 从头开始创建字段 {#create-fields-from-scratch}
 
 <!--in a table (not sure if this can be done elsewhere?!-->
+
+<!--the first 3 steps are the same as in Import fields from Workfron-->
 
 {{step1-to-planning}}
 
@@ -340,7 +344,7 @@ OLD:
       * **长**：2023年5月16日
       * **欧洲**： 16/05/2023
       * **ISO**： 2023-05-16
-      * **包含时间字段**：如果要包含时间戳，请选择此选项。 默认情况下，该选项处于未选中状态。<!--update this setting name - submitted bug for it to be changed-->
+      * **包含时间**：如果要包含时间戳，请选择此选项。 默认情况下，该选项处于未选中状态。 您不能在字段安全后添加时间。
 
      从以下选项中选择：
 
@@ -467,6 +471,12 @@ OLD:
    ![](assets/description-of-formula-expression.png)
 
    有关支持的表达式的详细信息，请参阅[公式字段概述](/help/quicksilver/planning/fields/formula-fields.md)。
+
+
+   >[!TIP]
+   >
+   ><span class="preview">在编辑或创建公式字段时，您会收到一条警告消息，该消息可能会导致对自身或共享字段的循环引用。 不能保存引用自身或引用计算中所引用项的公式字段。 </span>
+
 
 1. 添加在Workfront Planning中显示的字段名称，以在公式中引用它们。
 
@@ -647,3 +657,21 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 从模板创建工作区时，Adobe Workfront Planning会为记录类型创建字段。
 
 有关信息，请参阅[创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md)。
+
+<div class="preview">
+
+## 从CSV或Excel文件导入记录类型时创建字段
+
+使用CSV或Excel文件导入记录类型时，可以导入字段。
+
+有关信息，请参阅[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)。
+
+## 通过从Workfront导入字段来创建字段
+
+您可以导入现有Workfront字段的副本。 从Workfront导入字段会为Workfront Planning记录类型创建每个字段的副本。
+
+复制字段后，这些字段彼此独立，不会交换信息。
+
+有关信息，请参阅[从Workfront导入字段](/help/quicksilver/planning/fields/import-fields-from-workfront.md)。
+
+</div>

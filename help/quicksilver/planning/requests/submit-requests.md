@@ -6,16 +6,21 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: d7c7b09b033705142b2c658c9d275e63299d3fd0
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 1%
+source-wordcount: '811'
+ht-degree: 0%
 
 ---
+
 
 # 提交Adobe Workfront Planning请求以创建记录
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
+
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -112,17 +117,21 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 
 * 必须以您可以访问链接的方式与链接共享请求表单。 存在以下情况：
 
-   * 如果您拥有Workfront帐户，则该链接仅与内部人员共享，并且您有权访问工作区。 Workfront外部的人员无法访问内部共享的链接。
+   * 如果您拥有Workfront帐户，则该链接仅与内部人员共享，并且您具有工作区的参与权限或更高访问权限。 Workfront外部的人员无法访问内部共享的链接。
    * 如果您没有Workfront帐户，则该链接已与外部人员共享。 Workfront用户还可以访问与外部人员共享的链接。
 
 * 指向表单的链接不得过期。
 
 ## 有关向Workfront Planning提交请求的注意事项
 
-* 如果没有表单的特定链接，您将无法访问Workfront Planning请求的请求表单。
+* 您只能通过表单的特定链接访问Workfront Planning请求的请求表单。
 * 将请求提交到Workfront Planning后无法编辑请求。
-* 每个提交的请求都会为与您使用的表单关联的记录类型创建一个记录。
+* 每个提交的请求都会为与您使用<!--<span class="preview">if the form is not associated with an approval, or if the approval has been granted.</span> -->的表单关联的记录类型创建记录
 * 通过提交请求表单创建的记录无法与通过任何其他方法添加的记录区分开。 有关信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
+* <span class="preview">已提交的请求将显示在Workfront </span>请求区域的已提交分区的“计划”选项卡中。
+
+<!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some incosistency between unified-approvals-service and intake-approvals-flow.-->
+
 
 ## 向Workfront Planning提交请求
 
@@ -132,8 +141,35 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 
    >[!TIP]
    >
-   >   如果Workfront **主题**&#x200B;字段可用，它可能在Workfront Planning中不可见。 我们建议您更新请求中尽可能多的字段，以便在将新记录添加到记录类型时使其可识别。
+   >   如果&#x200B;**主题**&#x200B;字段可用，则在提交请求后，它将不会显示在Workfront Planning中。
+   >
+   >我们建议您更新请求中尽可能多的字段，以便在将新记录添加到Workfront Planning中的记录类型时使其可识别。
 
 1. 单击&#x200B;**提交**。
 
-   您的表单已提交，并且新记录已添加到与表单关联的记录类型。
+   您的表单已提交，并且发生了以下情况：
+
+   * <!--If the request form was not associated with an approval, or <span class="preview">if the approval was granted</span>, a-->新记录将添加到与表单关联的记录类型。
+
+
+   * <!--If the request form was not associated with an approval, the--> <span class="preview">请求已添加到Workfront请求区域的Submitted部分，并且新记录已添加到记录类型页面。</span>
+
+     ![](assets/planning-tab-in-requests.png)
+
+     >[!IMPORTANT]
+     >
+     ><span class="preview">所有有权访问至少一个工作区的用户都可以在“请求”区域中查看“计划”选项卡。 您只能查看您提交的请求。 Workfront管理员可以查看系统中的所有请求。</span> <!--ensure this is correct; asking team in slack-->
+
+   <!--
+   * <span class="preview">If the request form was associated with an approval, the request is temporarily saved to the Planning tab in the Submitted section of the Workfront Requests area. No record is created for the record type associated with the request form.</span>
+
+      <span class="preview">For information, see [Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).</span>  
+   -->
+   <!--
+
+   * <span class="preview">You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.</span> 
+   * <span class="preview">If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request.</span> 
+   -->
+
+
+

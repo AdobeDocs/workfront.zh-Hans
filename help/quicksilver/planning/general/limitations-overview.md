@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '437'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 1%
 <!--check the workfront.com/plans article linked below to see if there is content in there about Planning - after August 28, 2024-->
 
 # Adobe Workfront Planning对象限制概述
+
+<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -40,6 +44,9 @@ Adobe Workfront Planning对实例中可创建的对象数量存在限制。 设�
 | 可通过API为记录类型表导入的文件的大小 | 1.5兆字节 |
 | 发出API请求的速率 | 每分钟200个请求 |
 | 一个用户可以为一个记录类型创建的视图数 | 100 |
+| 可导入以创建记录类型的Excel文件的CSV大小 | 5MB |
+| <span class="preview">在CSV或Excel文件中可导入以创建记录类型的行数</span> | 10,000 |
+| <span class="preview">在CSV或Excel文件中可导入以创建记录类型的列数</span> | 500 |
 
 *我们建议不要拥有太多工作区，因为它们可能会变得难以管理，并且您的工作流可能过于分散。
 
@@ -47,7 +54,7 @@ Adobe Workfront Planning对实例中可创建的对象数量存在限制。 设�
 
 <!--
 ****************KEEP THIS COMMENTED OUT:
-| Size of CSV of Excel file you can import** | 5MB |
+
 **This functionality has been temporarily removed and it will be available at a later date.**********************
 -->
 

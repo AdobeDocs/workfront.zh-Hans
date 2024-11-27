@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
+source-git-commit: e91423d1520cc5fbfa6cd5085c3d0c7315d88463
 workflow-type: tm+mt
-source-wordcount: '14642'
+source-wordcount: '14647'
 ht-degree: 2%
 
 ---
@@ -2105,6 +2105,7 @@ ht-degree: 2%
       * [编辑字段设置](planning/fields/edit-fields.md)
       * [删除字段](planning/fields/delete-fields.md)
       * [公式字段概述](planning/fields/formula-fields.md)
+      * [从Adobe Workfront导入字段](planning/fields/import-fields-from-workfront.md)
       * [主字段概述](planning/fields/primary-field-overview.md)
    * Adobe Workfront计划访问权限{#adobe-workfront-planning-access}
       * [Adobe Workfront Planning访问信息：文章索引](planning/access/access-information.md)

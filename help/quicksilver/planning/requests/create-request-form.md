@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
 workflow-type: tm+mt
-source-wordcount: '1367'
+source-wordcount: '1397'
 ht-degree: 2%
 
 ---
@@ -145,14 +145,18 @@ ht-degree: 2%
    >
    >* 以下类型的字段未显示在预览</span>或生产环境的请求表单<span class="preview">中：
    >
-   >    * 人员（包括“创建者”和“上次修改者”）
+   >    * 创建者和上次修改者
    >    * 公式
-   >    * 创建日期
-   >    * 上次修改日期
-   >    * Workfront对象的已连接字段或查找字段
-   >    * Workfront Planning记录的已连接查找字段
+   >    * 创建日期和上次修改日期
+   >    * Workfront对象的查找字段
+   >    * Workfront Planning已连接记录的查找字段
+   >    * AEM Assets连接的字段
    >* 以下类型的字段不会显示在生产环境的请求表单中。 <span class="preview">它们显示在预览环境中：</span>
    >    * <span class="preview"> Workfront Planning记录&#39;连接的字段</span>
+   >    * <span class="preview">人员</span>
+   >    * <span class="preview">Workfront对象的已连接字段</span>
+   >    * <span class="preview">AEM Assets连接的字段</span>
+
 
 
    * **默认的分区**：这是Workfront应用于请求表单的默认分区界限。 无法重命名或删除默认部分。
@@ -208,7 +212,15 @@ ht-degree: 2%
    >[!WARNING]
    >
    >
-   >当您选择&#x200B;**具有链接**&#x200B;的任何人时，任何人都可以访问表单并提交新记录，甚至包括您组织外没有Workfront帐户的人员。
+   >* 当您选择&#x200B;**具有链接**&#x200B;的任何人时，任何人都可以访问表单并提交新记录，甚至包括您组织外没有Workfront帐户的人员。
+   >
+   > * <span class="preview">不能公开共享包含以下字段类型的表单：</span>
+   >
+   >     * <span class="preview">公式</span>
+   >     * <span class="preview">Workfront或AEM Assets连接</span>
+   >     * <span class="preview">查找字段</span>
+   >     * <span class="preview">人员</span>
+   >
 
 1. （视情况而定）如果您在上一步中选择了&#x200B;**具有链接**&#x200B;的任何人，请从可用日历中选择&#x200B;**链接到期日期**。 链接过期后，用户会收到错误消息，您必须更新链接日期，然后才能再次访问表单。
 

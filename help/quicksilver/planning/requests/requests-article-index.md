@@ -1,22 +1,29 @@
 ---
-title: “Adobe Workfront规划请求：文章索引”
+title: 'Adobe Workfront规划请求：文章索引'
 description: 您可以为每种记录类型创建一个请求表单，与用户共享，用户可以通过填写并提交表单来添加新记录。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+exl-id: 91d9a1b1-c677-4aea-997e-f787eb109be1
+source-git-commit: d7c7b09b033705142b2c658c9d275e63299d3fd0
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront规划请求：文章索引
 
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 您可以为每种记录类型创建一个请求表单，与用户共享，用户可以通过填写并提交表单来添加新记录。
 
 本节包含以下文章：
 
 * [在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)
-* [提交Adobe Workfront规划请求](/help/quicksilver/planning/requests/submit-requests.md)
+* [提交Adobe Workfront计划请求](/help/quicksilver/planning/requests/submit-requests.md)
+  <!--* <span class="preview">[Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md)</span>-->
+  <!--* <span class="preview">[Approve request](/help/quicksilver/planning/requests/approve-request.md)</span>-->

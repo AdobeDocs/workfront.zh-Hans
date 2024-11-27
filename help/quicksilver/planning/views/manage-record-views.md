@@ -6,15 +6,20 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1485'
 ht-degree: 1%
 
 ---
 
 
 # 管理记录视图
+
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 {{planning-important-intro}}
 
@@ -28,7 +33,7 @@ ht-degree: 1%
 
   有关详细信息，请参阅[管理时间线视图](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
 
-* 日历
+* 日程表
 
   有关详细信息，请参阅[管理日历视图](/help/quicksilver/planning/views/manage-the-calendar-view.md)。
 
@@ -218,6 +223,9 @@ ht-degree: 1%
 | 搜索特定记录 | ✓ {\f13 } | ✓ {\f13 } |
 | 与他人共享视图 | ✓ {\f13 } | ✓ {\f13 } | ✓ {\f13 } |
 | 从视图打开记录的页面 | ✓ {\f13 } | ✓ {\f13 } |    |
+| 按年份和季度显示记录 |           | ✓ {\f13 } |    |
+| 按月显示记录 |           | ✓ {\f13 } | ✓ {\f13 } |
+| <span class="preview">按周显示记录</span> |           |               | ✓ {\f13 } |
 
 
 ## 创建或编辑视图 {#create-or-edit-views}
@@ -240,7 +248,7 @@ ht-degree: 1%
 
    * 表
    * 时间线
-   * 日历
+   * 日程表
 
    将使用选定的视图创建新选项卡。
 

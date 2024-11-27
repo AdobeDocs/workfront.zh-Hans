@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 6f91c7c75c4565d5e91264481924daf50d3807ec
+source-git-commit: d27c25e4eedb6b4df67d23b997fdf1222b95da57
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1747'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,115 @@ ht-degree: 0%
 
 有关2024年8月28日正式发布后为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
+
+## 将现有Workfront字段导入Workfront Planning记录类型
+
+>[!NOTE]
+>
+>预览版本： 2024年11月27日；用于快速发布的生产：用于24.12版（2024年12月）；用于季度发布的生产：用于25.1版（2025年1月）
+
+现在，将字段添加到记录类型时，您可以选择导入现有的Workfront自定义或本机字段，并将其与您选择的记录类型相关联。
+
+在此增强功能之前，您必须手动创建所有字段并将它们与记录类型相关联。
+
+目前不支持计算字段。
+
+有关信息，请参阅[从Adobe Workfront导入字段](/help/quicksilver/planning/fields/import-fields-from-workfront.md)
+
+## 通过导入CSV或Excel文件创建记录类型、记录和字段
+
+>[!NOTE]
+>
+>预览版本： 2024年11月27日；用于快速发布的生产：用于24.12版（2024年12月）；用于季度发布的生产：用于25.1版（2025年1月）
+
+您现在可以通过导入CSV或Excel文件来导入新记录类型。
+
+将导入以下信息：
+
+* 工作表或文件的名称作为记录类型名称导入。
+
+* 每列的第一行作为新字段导入。 每个导入的工作表中最多可以有500个字段。
+
+* 每行都作为新记录导入。 每张纸最多可以有10,000条记录。
+
+有关详细信息，请参阅[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)。
+
+## 避免在公式中使用循环引用
+
+>[!NOTE]
+>
+>预览版本： 2024年11月27日；用于快速发布的生产：用于24.12版（2024年12月）；用于季度发布的生产：用于25.1版（2025年1月）
+
+在编辑或创建公式字段（该字段可能会创建对自身或共享字段的循环引用）时，我们引入了警告消息。 不能保存引用自身或引用计算中所引用项的公式字段。
+
+有关信息，请参阅[创建字段](/help/quicksilver/planning/fields/create-fields.md)。
+
+## 将已连接的视图页添加到记录的页，以在表视图中显示已连接的记录
+
+>[!NOTE]
+>
+>预览版本： 2024年11月27日；用于快速发布的生产：用于24.12版（2024年12月）；用于季度发布的生产：用于25.1版（2025年1月）
+
+您可以将页面添加到记录的详细信息区域，以在表格视图中显示连接的记录。 您可以为每个连接的记录添加一个页面。
+
+添加的页面为只读。
+
+有关信息，请参阅[管理记录页布局](/help/quicksilver/planning/records/manage-the-record-page.md)。
+
+## 在请求区域的已提交部分中新增Planning选项卡
+
+>[!NOTE]
+>
+>预览版本： 2024年11月27日；用于快速发布的生产：用于24.12版（2024年12月）；用于季度发布的生产：用于25.1版（2025年1月）
+
+您现在可以在Workfront请求区域的已提交部分找到Workfront规划请求。 提交部分现在显示两个选项卡：在Workfront选项卡上的Workfront中提交的请求，以及在Planning选项卡中使用Workfront Planning请求表单提交的请求。
+
+您必须使用请求表单的链接才能将请求添加到Workfront Planning记录类型。 稍后可以从Workfront的“请求”区域提交Workfront计划请求。
+
+您的组织必须先购买Workfront Planning程序包，然后您才能在“请求”区域使用“计划”选项卡。
+
+有关信息，请参阅[提交Adobe Workfront计划请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。
+
+## 请求表单现在支持其他字段类型
+
+>[!NOTE]
+>
+>预览版本： 2024年11月27日；用于快速发布的生产：用于24.12版（2024年12月）；用于季度发布的生产：用于25.1版（2025年1月）
+
+现在，您可以在Workfront Planning中将以下字段类型添加到记录类型请求表单：
+
+* 人员
+* Workfront连接
+
+在此增强功能之前，无法将这些类型的字段添加到Workfront Planning中的请求表单。
+
+有关信息，请参阅在Adobe Workfront Planning中创建和管理申请表单(/help/quicksilver/planning/requests/create-request-form.md)。
+
+## 限制公开共享包含特定字段类型的请求表单
+
+>[!NOTE]
+>
+>预览版本： 2024年11月27日；用于快速发布的生产：用于24.12版（2024年12月）；用于季度发布的生产：用于25.1版（2025年1月）
+
+如果请求表单包含以下任何字段类型，则不能再公开共享该表单：
+
+* 公式
+* 连接
+* 查找字段
+* 人员
+
+有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
+
+
+## 按周显示日历视图中的记录
+
+>[!NOTE]
+>
+>预览版本： 2024年11月26日；用于快速发布的生产：用于24.12版（2024年12月）；用于季度发布的生产：用于25.1版（2025年1月）
+
+现在，您可以在日历视图中按周显示记录。 在此增强功能之前，您只能按月显示日历视图。
+
+有关信息，请参阅[管理日历视图](/help/quicksilver/planning/views/manage-the-calendar-view.md)。
 
 ## 恢复已删除的记录
 
