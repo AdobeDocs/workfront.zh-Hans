@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: fedea99941b6ecb2114d8236d54ce1af70cec6e4
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '511'
 ht-degree: 2%
 
 ---
@@ -16,11 +16,10 @@ ht-degree: 2%
 
 # 字段概述
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> 
--->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 {{planning-important-intro}}
 
@@ -54,10 +53,12 @@ ht-degree: 2%
 
         有关连接记录类型的详细信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
-     <!--* By importing existing fields from Workfront. 
-            For information, see [Import fields from Adobe Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md).-->
+      * <span class="preview">通过从Workfront导入现有字段。</span>
+        <span class="preview">有关信息，请参阅[从Adobe Workfront导入字段](/help/quicksilver/planning/fields/import-fields-from-workfront.md)。</span>
 
-     <!--* By importing record types using an Excel or CSV file. For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md). -->
+      * <span class="preview">通过使用Excel或CSV文件导入记录类型。</span>
+
+        <span class="preview">有关详细信息，请参阅[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)。</span>
 
    * 自动：
 

@@ -3,9 +3,9 @@ title: 批准请求
 description: 当用户将请求提交到与Adobe Workfront Planning中的批准关联的请求表单时，批准者会收到有关未决批准的通知，并收到电子邮件。 他们必须先批准请求，Workfront Planning才能创建对象。
 hide: true
 hidefromTOC: true
-source-git-commit: a999b805016361bdd101a6cd9c61967284a71014
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '783'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ recommendations: noDisplay, noCatalog
 已提交的请求将显示在Workfront请求区域的已提交部分的“计划”选项卡中，并具有以下请求状态之一：
 
 * **等待审阅**：当没有批准者打开请求对象时，将显示此状态。
-* **审核中**：至少有一个批准者打开请求对象时，状态将更改为&#x200B;**审核中**。
+* **审核中**：至少有一个批准者打开请求对象时，状态将更改为&#x200B;**审核中**。 在所有批准者都批准请求之前，请求的状态保持为&#x200B;**正在审核**。
 * **已批准**：当批准者批准请求对象时，其个人状态将变为
 * **已批准**，但在所有批准者做出决定之前，整体请求对象状态仍为&#x200B;**正在审核**。
 * **已完成**：如果所有批准者都批准该请求对象，则其状态将更改为&#x200B;**已完成**，或者该请求不需要批准。
@@ -152,7 +152,13 @@ recommendations: noDisplay, noCatalog
 
 1. 执行下列操作之一：
 
-   * 从屏幕右上角的Workfront **主菜单** ![](assets/dots-menu.png)或左上角的&#x200B;**主菜单** ![](assets/lines-menu.png)（如果可用），单击&#x200B;**请求** > **已提交** > **计划**，然后单击状态为&#x200B;**正在审核**&#x200B;的请求<!--did they change this to Pending approval; logged  a bug-->。
+   * 如果您有权访问Workfront Planning，请单击屏幕右上角的&#x200B;**主菜单** ![](assets/dots-menu.png)，或单击左上角的&#x200B;**主菜单** ![](assets/lines-menu.png)（如果可用），然后单击&#x200B;**请求** > **已提交** > **Planning**，然后单击状态为&#x200B;**审核中**&#x200B;的请求<!--did they change this to Pending approval; logged  a bug-->。
+
+     >[!TIP]
+     >
+     >    如果您无权访问Workfront Planning，则只能使用通知访问批准请求。
+
+
    * 转到屏幕右上角的&#x200B;**通知**&#x200B;区域，然后单击有关待您审批的请求的通知以打开该请求。
    * 转到电子邮件中的电子邮件通知，通知您有关待审批的请求，然后单击以打开该请求。<!--add the name of the button here, from the email-->
 
@@ -162,5 +168,5 @@ recommendations: noDisplay, noCatalog
 1. （可选）单击请求右上角的&#x200B;**批准**&#x200B;图标![](assets/approvals-icon.png)以查看批准者。
 1. 单击&#x200B;**审核并批准**，然后选择以下选项之一： <!--did they fix the button and removed the &??-->
 
-   * **批准**：批准该请求。 将立即为与请求表单关联的记录类型创建记录。
-   * **拒绝**：拒绝请求。 没有为与请求表单关联的记录类型创建记录。<!--check to see if there is a notification sent to the requestor about it being rejected OR approved??-->
+   * **批准**：这将批准请求。 将立即为与请求表单关联的记录类型创建记录。
+   * **拒绝**：这将拒绝请求。 没有为与请求表单关联的记录类型创建记录。<!--check to see if there is a notification sent to the requestor about it being rejected OR approved??--> <!--checking with PM what happens with the other approvers when one of them is rejecting it: does it ask them to approve it? Deleted the request? -->

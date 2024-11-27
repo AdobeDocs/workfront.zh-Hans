@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: d27c25e4eedb6b4df67d23b997fdf1222b95da57
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
-source-wordcount: '1747'
+source-wordcount: '1769'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
 >
 >预览版本： 2024年11月27日；用于快速发布的生产：用于24.12版（2024年12月）；用于季度发布的生产：用于25.1版（2025年1月）
 
-现在，将字段添加到记录类型时，您可以选择导入现有的Workfront自定义或本机字段，并将其与您选择的记录类型相关联。
+现在，将字段添加到记录类型时，您可以选择导入现有的Workfront自定义或本机字段，并将其与您选择的记录类型相关联。 导入现有字段会在Workfront Planning中创建Workfront字段的副本。 复制的字段与其原始版本无关。
 
 在此增强功能之前，您必须手动创建所有字段并将它们与记录类型相关联。
 
@@ -89,13 +89,16 @@ ht-degree: 0%
 
 有关信息，请参阅[管理记录页布局](/help/quicksilver/planning/records/manage-the-record-page.md)。
 
-## 在请求区域的已提交部分中新增Planning选项卡
+## 在请求区域的已提交部分中新增了Workfront和Planning选项卡
 
 >[!NOTE]
 >
 >预览版本： 2024年11月27日；用于快速发布的生产：用于24.12版（2024年12月）；用于季度发布的生产：用于25.1版（2025年1月）
 
-您现在可以在Workfront请求区域的已提交部分找到Workfront规划请求。 提交部分现在显示两个选项卡：在Workfront选项卡上的Workfront中提交的请求，以及在Planning选项卡中使用Workfront Planning请求表单提交的请求。
+您现在可以在Workfront请求区域的已提交部分找到Workfront规划请求。 “已提交”部分现在显示以下选项卡：
+
+* Workfront：显示在Workfront中提交的请求。
+* 计划：显示使用Workfront Planning请求表单提交的请求。
 
 您必须使用请求表单的链接才能将请求添加到Workfront Planning记录类型。 稍后可以从Workfront的“请求”区域提交Workfront计划请求。
 
@@ -127,7 +130,7 @@ ht-degree: 0%
 如果请求表单包含以下任何字段类型，则不能再公开共享该表单：
 
 * 公式
-* 连接
+* Workfront和AEM Assets连接
 * 查找字段
 * 人员
 

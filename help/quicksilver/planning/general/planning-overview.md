@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
-source-wordcount: '2106'
-ht-degree: 1%
+source-wordcount: '1803'
+ht-degree: 2%
 
 ---
 
@@ -61,57 +61,59 @@ Workfront Planning可以回答类似下面的问题：
 * 全面自定义工作流，从决定组织使用哪些对象类型（或记录类型）到配置这些对象如何相互链接。
 * 链接到来自其他系统的对象类型，为所有进程创建一致的框架。
 
-## 当前可用的Workfront规划功能
+<!--
+## Currently available Workfront Planning features
+(*****for GA just make a list of what features ARE included in Planning and eliminate the last 2 columns; also update the title of this section*****)
 
-<!--for GA just make a list of what features ARE included in Planning and eliminate the last 2 columns; also update the title of this section-->
+(*****at GA: update the link below to the new place for release notes *****)
 
-<!--at GA: update the link below to the new place for release notes-->
+For information about new features and when they are released, see [Adobe Workfront Planning release activity for 2024](/help/quicksilver/planning/general/release-activity.md). 
 
-有关新功能及其发布时间的信息，请参阅[Adobe Workfront 2024年计划发布活动](/help/quicksilver/planning/general/release-activity.md)。
+The following features are currently available in Workfront Planning:
 
-Workfront Planning中目前提供以下功能：
+* Create workspaces             
+* Create record types             
+* Create record custom fields             
+(************ * Import record types and fields using an Excel or CSV file*****)
+          
+* Display records in a table view            
+* Display records in a timeline view            
+* Display records in a calendar view            
+* Filter, sort, and group records in a table view
+* Filter, group, and color code records in the timeline view
+* Filter records in the calendar view 
+* Search for records in the table and timeline views             
+* Connect records that belong to the same workspace  
+* Connect records that belong to different workspaces   
+* Connect Workfront Planning records to Workfront projects, programs, portfolios, companies, groups             
+* Connect Workfront Planning records to Adobe Experience Manager assets          
+    You must have an Adobe Experience Manager Assets license and an integration between AEM Assets and Workfront.
+    For information, see [Adobe Workfront for Experience Manager Assets and Assets Essentials: article index](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md). 
+* View record information in the Details tab
+* View record connections in the Connections tab
+* Customize the layout of a record's page             
+* Share workspaces             
+* Share views             
+* Share views publicly with any external resource, even people who are not Workfront users         
+* Duplicate views             
+* Submit requests to create records            
+* Export record details to Word and PDF.
+* Add comments to records             
+* Receive in-app notifications             
+* Receive email notifications             
+* Add thumbnails and cover pages to records             
+* View the history of changes on a record             
+* Rich Text formatting for Paragraph fields             
+* Access Planning records from Workfront objects             
+* Connect and disconnect Planning records from Workfront objects 
+* Create Planning records by submitting a request form            
+* Workfront Planning public API             
+* Adobe Workfront Planning modules for Adobe Workfront Fusion             
+* Workfront Planning AI Assistant
+* Reporting on Workfront Planning information
+    You can report on Planning information using the Canvas Dashboard. For information, see [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md). 
 
-* 创建工作区
-* 创建记录类型
-* 创建记录自定义字段\
-  <!--* Import record types and fields using an Excel or CSV file-->
-
-* 在表格视图中显示记录
-* 在时间轴视图中显示记录
-* 在日历视图中显示记录
-* 在表视图中筛选、排序和分组记录
-* 时间轴视图中的筛选器、组和颜色代码记录
-* 在日历视图中过滤记录
-* 在表格和时间线视图中搜索记录
-* 连接属于同一工作区的记录
-* 连接属于不同工作区的记录
-* 将Workfront Planning记录连接到Workfront项目、计划、项目组合、公司、组
-* 将Workfront Planning记录连接到Adobe Experience Manager资源\
-  您必须具有Adobe Experience Manager Assets许可证以及AEM Assets与Workfront之间的集成。
-有关信息，请参阅适用于Experience Manager Assets和Assets Essentials的[Adobe Workfront：文章索引](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)。
-* 在“详细信息”选项卡中查看记录信息
-* 在“连接”选项卡中查看记录连接
-* 自定义记录页面的布局
-* 共享工作区
-* 共享视图
-* 与任何外部资源公开共享视图，即使不是Workfront用户也是如此
-* 复制视图
-* 提交请求以创建记录
-* 将记录详细信息导出到Word和PDF。
-* 向记录添加注释
-* 接收应用程序内通知
-* 接收电子邮件通知
-* 将缩略图和封面页添加到记录
-* 查看记录更改的历史记录
-* 段落字段的富文本格式
-* 从Workfront对象访问Planning记录
-* 从Workfront对象连接和断开Planning记录
-* 通过提交请求表单创建Planning记录
-* Workfront规划公共API
-* Adobe Workfront Fusion的Adobe Workfront规划模块
-* Workfront规划AI助手
-* 报告Workfront规划信息
-您可以使用“画布功能板”报告Planning信息。 有关信息，请参阅[画布功能板概述](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)。
+-->
 
 <!--OLD: 
 
@@ -325,7 +327,7 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
 要找到Workfront Planning，请执行以下操作：
 
-1. 登录到Adobe Workfront。
+1. 登录到Workfront。
 
 {{step1-click-main-menu}}
 

@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 6327e5625481ce7ff8d744bc6eb50d417cbb4413
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: '1677'
 ht-degree: 1%
 
 ---
@@ -106,7 +106,14 @@ ht-degree: 1%
 
 {style="table-layout:auto"}
 
-**示例：**&#x200B;如果您要指示任务的持续时间是3天，则应在任务列表的“持续时间”字段中键入“3 ED”。  在编辑任务时，您还可以从可用下拉菜单或任务详细信息部分中选择持续时间单位首选选项。 有关编辑任务的信息，请参阅[编辑任务](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
+>[!BEGINSHADEBOX]
+
+**示例**
+
+如果要指示任务的持续时间是3天经过的时间，应在任务列表的“持续时间”字段中键入“3 ED”。  在编辑任务时，您还可以从可用下拉菜单或任务详细信息部分中选择持续时间单位首选选项。 有关编辑任务的信息，请参阅[编辑任务](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
+
+
+>[!ENDSHADEBOX]
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: stays QS only forever; for the pictures below: make the first one classic at preview time and the second one stays QS always. The second one is yellow >> take out at 21.2 production!!)</p>
@@ -117,8 +124,8 @@ ht-degree: 1%
 在指示任务的持续时间时，请考虑以下事项：
 
 * 占用时间是任务持续时间的时间单位。 该时间是任务的计划开始日期与计划完成日期之间的时间，包括假日、周末和休息时间。 换言之，经过的时间就是行事历的日数。
-* 常规时间会考虑假日、周末和休息时间，并将它们排除在任务的持续时间之外。
-
+* 天数表示系统中定义的工作日，可以在“设置”区域中配置该天数。 在大多数情况下，一天包含8小时。
+* 常规时间（日或工作日）考虑假日、周末和休息时间，并将其排除在任务持续时间之外。
 * 当您以周为单位指定任务的持续时间时，Workfront会根据Workfront管理员在“设置”的“项目首选项”区域中设置的每周典型工作日和每个工作日的典型小时数设置，以天和小时计算持续时间。
 * 在计算以月为单位的持续时间时，Workfront使用4周的默认持续时间来表示一个月。
 

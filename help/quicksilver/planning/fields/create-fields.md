@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 88c921b00fcde7dd530e999031e0227201a7cb1a
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
 source-wordcount: '4287'
 ht-degree: 1%
@@ -668,7 +668,9 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 
 ## 通过从Workfront导入字段来创建字段
 
-您可以导入现有Workfront字段的副本。 从Workfront导入字段会为Workfront Planning记录类型创建每个字段的副本。
+您可以导入现有Workfront字段的副本。
+
+从Workfront导入字段会为Workfront Planning记录类型创建每个字段的副本。
 
 复制字段后，这些字段彼此独立，不会交换信息。
 
