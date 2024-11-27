@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: d74bf60a66326c71447679c463de0469cd0de9fa
+source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
 workflow-type: tm+mt
-source-wordcount: '14614'
+source-wordcount: '14642'
 ht-degree: 2%
 
 ---
@@ -184,6 +184,7 @@ ht-degree: 2%
          * [21.1其他增强功能](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion发布活动{#fusion-release}
          * [Adobe Workfront Fusion发布活动](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Workfront Fusion发行活动： 2024年11月25日开始的周](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-25.md)
          * [Workfront Fusion发行活动： 2024年11月11日开始的周](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-11.md)
          * [Workfront Fusion发布活动： 2024年11月4日开始的周](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-4.md)
          * [Workfront Fusion发行活动： 2024年10月21日起的一周](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-10-21.md)
@@ -1844,6 +1845,7 @@ ht-degree: 2%
       * [资产和文档审查和批准：文章索引](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [文档审批概述](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [文档决策状态概述](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
+      * [创建用于审阅和审批的报告仪表板](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
       * 设置和管理资产和文档审批{#manage-asset-review-and-approval}
          * [设置和管理资产和文档审批：文章索引](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [创建文档审阅或审批请求](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
@@ -2339,6 +2341,7 @@ ht-degree: 2%
       * [Marketo模块](workfront-fusion/apps-and-their-modules/marketo-modules.md)
       * [数学](workfront-fusion/apps-and-their-modules/math-module.md)
       * [Microsoft Dynamics 365模块](workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md)
+      * [Microsoft Dynamics 365课程财务与运营](workfront-fusion/apps-and-their-modules/dynamics-finance-operations-modules.md)
       * [Microsoft Office 365日历](workfront-fusion/apps-and-their-modules/microsoft-365-calendar-modules.md)
       * [Microsoft Office 365电子邮件](workfront-fusion/apps-and-their-modules/microsoft-365-email-modules.md)
       * [Microsoft Office 365 Excel模块](workfront-fusion/apps-and-their-modules/microsoft-365-excel-modules.md)
@@ -2798,6 +2801,7 @@ ht-degree: 2%
       * [代码示例](proofhq-api/general/code-samples.md)
       * [SOAP API常见问题解答](proofhq-api/general/soap-api-faqs.md)
 * [隐藏的测试文档](hidden-test.md)
+* [2025年第一季度发行版概述 — 测试](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/release-overview-test.md)
 
 
 <!--

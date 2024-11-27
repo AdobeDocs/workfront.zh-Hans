@@ -9,7 +9,7 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案中，您可以自动使用
 author: Becky
 feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
 workflow-type: tm+mt
 source-wordcount: '3692'
 ht-degree: 0%
@@ -89,7 +89,7 @@ Adobe Journey Optimizer连接器使用以下对象：
  <tbody> 
   <tr> 
    <td role="rowheader">基本URL</td> 
-   <td>&lbrace;&lbrace;connection.url&rbrace;&rbrace;</td> 
+   <td>{{connection.url}}</td> 
   </tr>
   <tr> 
    <td role="rowheader">API标记</td> 
@@ -128,15 +128,15 @@ Adobe Journey Optimizer连接器使用以下对象：
         </tr>
         <tr>
         <td role="rowheader">[！UICONTROL客户端ID]</td>
-        <td>输入您的[！UICONTROLAdobe] [！UICONTROL客户端ID]。 可在[！UICONTROL Credentials]的 [!DNL Adobe Developer Console]</td>
+        <td>输入您的[！UICONTROLAdobe] [！UICONTROL客户端ID]。 这可以在[!DNL Adobe Developer Console]的[！UICONTROL Credentials]详细信息部分找到。</td>
         </tr>
         <tr>
         <td role="rowheader">[！UICONTROL客户端密钥]</td>
-        <td>输入您的[!DNL Adobe] [！UICONTROL客户端密钥]。 可在[！UICONTROL Credentials]的 [!DNL Adobe Developer Console]</td>
+        <td>输入您的[!DNL Adobe] [！UICONTROL客户端密钥]。 这可以在[!DNL Adobe Developer Console]的[！UICONTROL Credentials]详细信息部分找到。</td>
         </tr>
         <tr>
         <td role="rowheader">[！UICONTROL组织ID]</td>
-        <td>输入您的[!DNL Adobe] [！UICONTROL组织ID]。 可在[！UICONTROL Credentials]的 [!DNL Adobe Developer Console]</td>
+        <td>输入您的[!DNL Adobe] [！UICONTROL组织ID]。 这可以在[!DNL Adobe Developer Console]的[！UICONTROL Credentials]详细信息部分找到。</td>
         </tr>
         <tr>
         <td role="rowheader">[！UICONTROL沙盒名称]</td>

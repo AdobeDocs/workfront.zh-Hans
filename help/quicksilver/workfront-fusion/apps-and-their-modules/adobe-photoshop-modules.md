@@ -9,7 +9,7 @@ description: 借助Adobe Photoshop模块，您可以根据Adobe Photoshop帐户�
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: f20192ea-e363-4fba-8bd2-b1d50443918d
-source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
+source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
 workflow-type: tm+mt
 source-wordcount: '4325'
 ht-degree: 0%
@@ -115,19 +115,19 @@ Adobe Photoshop连接器使用以下对象：
         </tr>
         <tr>
         <td role="rowheader">[！UICONTROL客户端ID]</td>
-        <td>输入您的[！UICONTROLAdobe] [！UICONTROL客户端ID]。 可在[！UICONTROL Credentials]的 [!DNL Adobe Developer Console]</td>
+        <td>输入您的[！UICONTROLAdobe] [！UICONTROL客户端ID]。 这可以在[!DNL Adobe Developer Console]的[！UICONTROL Credentials]详细信息部分找到。</td>
         </tr>
         <tr>
         <td role="rowheader">[！UICONTROL客户端密钥]</td>
-        <td>输入您的[!DNL Adobe] [！UICONTROL客户端密钥]。 可在[！UICONTROL Credentials]的 [!DNL Adobe Developer Console]</td>
+        <td>输入您的[!DNL Adobe] [！UICONTROL客户端密钥]。 这可以在[!DNL Adobe Developer Console]的[！UICONTROL Credentials]详细信息部分找到。</td>
         </tr>
         <tr>
         <td role="rowheader">[！UICONTROL技术帐户ID]</td>
-        <td>输入您的[!DNL Adobe] [！UICONTROL技术帐户ID]。 可在[！UICONTROL Credentials]的 [!DNL Adobe Developer Console]</td>
+        <td>输入您的[!DNL Adobe] [！UICONTROL技术帐户ID]。 这可以在[!DNL Adobe Developer Console]的[！UICONTROL Credentials]详细信息部分找到。</td>
         </tr>
         <tr>
         <td role="rowheader">[！UICONTROL组织ID]</td>
-        <td>输入您的[!DNL Adobe] [！UICONTROL组织ID]。 可在[！UICONTROL Credentials]的 [!DNL Adobe Developer Console]</td>
+        <td>输入您的[!DNL Adobe] [！UICONTROL组织ID]。 这可以在[!DNL Adobe Developer Console]的[！UICONTROL Credentials]详细信息部分找到。</td>
         </tr>
         <tr>
         <td role="rowheader">[！UICONTROL私钥]</td>

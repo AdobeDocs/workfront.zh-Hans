@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案中，您可以自动执行
 author: Becky
 feature: Workfront Fusion
 exl-id: 116df088-20a7-40a8-8880-9f422dc37632
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1733'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >[!DNL Microsoft Dynamics 365]连接器不支持[!DNL Dynamics Finance and Operations]。
+>
+>对于Microsoft Dynamics 365 Finance and Operations模块，请参阅[[!DNL Microsoft Dynamics 365 Finance and Operations modules]](/help/quicksilver/workfront-fusion/apps-and-their-modules/dynamics-finance-operations-modules.md)。
 
 如果需要有关创建方案的说明，请参阅[在 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md)中创建方案。
 
