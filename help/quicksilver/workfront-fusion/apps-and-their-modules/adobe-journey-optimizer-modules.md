@@ -89,7 +89,7 @@ Adobe Journey Optimizer连接器使用以下对象：
  <tbody> 
   <tr> 
    <td role="rowheader">基本URL</td> 
-   <td>{{connection.url}}</td> 
+   <td>&lbrace;&lbrace;connection.url&rbrace;&rbrace;</td> 
   </tr>
   <tr> 
    <td role="rowheader">API标记</td> 
