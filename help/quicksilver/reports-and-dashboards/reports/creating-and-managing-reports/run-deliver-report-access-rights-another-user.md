@@ -6,14 +6,16 @@ description: 默认情况下，用户只能查看他们有权查看的报表中�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1179'
 ht-degree: 0%
 
 ---
 
 # 运行并交付具有其他用户访问权限的报告
+
+<!-- Audited: 11/2024 -->
 
 默认情况下，用户只能查看他们有权查看的报表中的对象。
 
@@ -28,6 +30,8 @@ ht-degree: 0%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -40,20 +44,31 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
+      <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>标准</p></li>
+         </ul>
+      <p>当前：</p>
+         <ul>
+         <li><p>计划</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对报告、功能板和日历的访问权限</p> <p>编辑对筛选器、视图、分组的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td> <p>编辑对报告、功能板和日历的访问权限</p> <p>编辑对筛选器、视图、分组的访问权限</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看报表的权限（查看传送的报表）</p> <p>管理对报告的权限（运行报告）</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>查看报表的权限（查看传送的报表）</p><p>管理对报告的权限（运行报告）</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 显示具有其他用户访问权限的报告
 
@@ -63,7 +78,7 @@ ht-degree: 0%
 
 要运行具有其他用户访问权限的报告，请执行以下操作：
 
-1. 单击Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**报表**。
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 报表]**。
 
 1. 选择要显示的其他用户访问权限的报告。
 1. 单击&#x200B;**报告操作**，然后单击&#x200B;**编辑**。
@@ -71,7 +86,7 @@ ht-degree: 0%
 1. 单击&#x200B;**报表设置**。
 
 1. 在&#x200B;**使用**&#x200B;的访问权限运行此报告字段中，开始键入您希望报告显示的用户名称，然后在列表中看到时将其选定。\
-   ![](assets/qs-access-rights-of-350x251.png)
+   ![](assets/unshimmed-access-rights-of.png)
 
    >[!NOTE]
    >
@@ -101,7 +116,7 @@ ht-degree: 0%
 1. 单击&#x200B;**发送报告**。
 
 1. 在&#x200B;**提交此报告（访问权限为：**）字段中，开始键入您希望报告在电子邮件中发送时显示的用户名称，然后在列表中看到报告时将其选定。 默认名称是正在构建报告的用户的名称。\
-   ![](assets/qs-send-report-access-rights-of-350x446.png)
+   ![](assets/unshimmed-send-report-access-rights-of.png)
 
    >[!NOTE]
    >
@@ -111,8 +126,8 @@ ht-degree: 0%
 
    * HTML
    * PDF
-   * MS Excel
-   * MS Excel (.xlsx)
+   * Excel
+   * Excel (.xlsx)
    * TSV
 
 1. 单击&#x200B;**立即发送**&#x200B;立即发送。\
@@ -138,20 +153,22 @@ ht-degree: 0%
 * 问题报告的“项目名称”或“任务名称”列。
 * 使用文本模式表达式的列，该列引用所有三个对象。 以下是小时报告的示例：
 
-  `displayname=Custom Source`
-
-  `linkedname=opTask`
-
-  `namekey=view.relatedcolumn`
-
-  `namekeyargkey.0=opTask`
-
-  `namekeyargkey.1=name`
-
-  `textmode=true`
-
-  `valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))`
-
-  `valueformat=HTML`
+  ```
+  displayname=Custom Source
+  
+  linkedname=opTask
+  
+  namekey=view.relatedcolumn
+  
+  namekeyargkey.0=opTask
+  
+  namekeyargkey.1=name
+  
+  textmode=true
+  
+  valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))
+  
+  valueformat=HTML
+  ```
 
   有关文本模式视图的信息，请参阅[使用文本模式编辑视图](../text-mode/edit-text-mode-in-view.md)。

@@ -6,14 +6,16 @@ description: 在分配访问级别时，您的Adobe Workfront管理员会授予�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '820'
 ht-degree: 0%
 
 ---
 
 # 在Adobe Workfront中共享报表
+
+<!-- Audited: 11/2024 -->
 
 在分配访问级别时，您的Adobe Workfront管理员会授予用户查看或编辑报告的访问权限。 有关授予对问题的访问权限的详细信息，请参阅[授予对报告、功能板和日历的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)。
 
@@ -27,6 +29,8 @@ ht-degree: 0%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 要共享对象，必须具备以下条件：
 
 <table style="table-layout:auto"> 
@@ -39,20 +43,31 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>审核或更高</p> </td> 
+      <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>浅色或更高</p></li>
+         </ul>
+      <p>当前：</p>
+         <ul>
+         <li><p>审核或更高</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>查看对报告、功能板和日历的访问权</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td> <p>查看对报告、功能板和日历的访问权</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看报表或更高权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>查看报表或更高权限</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 有关共享报表的注意事项
 
@@ -79,7 +94,7 @@ ht-degree: 0%
 
    单击一个报表的名称，然后单击**报表操作>****共享**。
 
-   ![](assets/qs-report-actions-sharing.png)
+   ![](assets/unshimmed-report-actions-sharing.png)
 
 1. 在显示的框中，在&#x200B;**添加人员、团队、角色、组或公司……**&#x200B;字段中，开始键入要与其共享报告的用户、团队、工作角色、组或公司的名称，然后在名称显示时按&#x200B;**Enter**。
 
@@ -91,7 +106,7 @@ ht-degree: 0%
     <tbody> 
      <tr> 
       <td role="rowheader">查看它</td> 
-      <td> <p>允许您的收件人访问，以便在<strong>报告</strong> <img src="assets/reports-in-main-menu.png">区域查看并运行报告。</p> <p>您可以单击<strong>高级设置</strong>，以指定您是否希望用户或用户能够<strong>与系统中的任何人共享</strong>。</p> </td> 
+      <td> <p>允许您的收件人访问，以便在<strong>报告</strong>区域查看并运行报告。</p> <p>您可以单击<strong>高级设置</strong>，以指定您是否希望用户或用户能够<strong>与系统中的任何人共享</strong>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">管理它</td> 
@@ -101,9 +116,15 @@ ht-degree: 0%
    </table>
 
 1. （可选）重复前面的两个步骤向列表中添加其他名称并配置其选项。
-1. （可选）单击共享框右上角的&#x200B;**齿轮**&#x200B;图标![](assets/gear-icon-settings-with-dn-arrow.jpg)，然后选择以下选项之一：
+1. （可选）单击共享框中的&#x200B;**只有受邀的人才能访问**&#x200B;下拉菜单，然后选择以下选项：
 
-   * **将此设为外部用户公开：**&#x200B;选择此选项可生成可与他人共享的URL。 具有URL的任何人都可以访问报表，而无需拥有Adobe Workfront许可证。
+   * **只有受邀人员才能访问**&#x200B;请选择此选项，以便只有被授予报告访问权限的用户才能查看它。
+
+   * **系统中的每个人都可以查看**&#x200B;选择此选项以便Workfront中有权访问报告的所有人都可以查看报告。
+
+1. （可选）单击共享框右上角的&#x200B;**齿轮**&#x200B;图标![](assets/gear-icon-settings-with-dn-arrow.jpg)，然后选择以下选项：
+
+   * **将此设为外部用户公开**&#x200B;选择此选项可生成可与他人共享的URL。 具有URL的任何人都可以访问报表，而无需拥有Adobe Workfront许可证。
 
      >[!CAUTION]
      >
@@ -112,7 +133,5 @@ ht-degree: 0%
      >[!NOTE]
      >
      >如果报告具有提示并且您公开共享它，则通过公共共享链接运行报告的用户将无法使用提示运行报告。 除非他们登录到Workfront并访问报表，然后不使用公共共享链接，否则他们将会看到报表，但不显示应用到的提示。 有关共享带有提示的报告限制的更多信息，请参阅文章[向报告添加提示](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)中的[共享提示报告的限制](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports)部分。
-
-   * **使其在系统范围内可见：**&#x200B;选择此选项以便Workfront中有权访问报告的所有人都可以查看报告。
 
 1. 单击&#x200B;**保存**。

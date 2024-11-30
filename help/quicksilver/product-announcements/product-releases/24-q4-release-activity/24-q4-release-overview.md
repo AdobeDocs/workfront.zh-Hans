@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 8ad2ed8389fdc00649f0853e07d2e83d21ccb385
+source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
 workflow-type: tm+mt
-source-wordcount: '2178'
+source-wordcount: '2187'
 ht-degree: 0%
 
 ---
@@ -469,7 +469,7 @@ ht-degree: 0%
                             <p>适用于所有客户的生产版本：使用24.10版本（2024年10月17日）</p>
                         </li>
                     </ul>
-                    <p><i>仅适用于具有其中一个新Adobe Workfront计划的组织。 Data Connect包含在Ultimate计划中，或者可作为Prime和Select计划的附加产品购买。</i></p>
+                    <p><i>仅适用于具有其中一个新Adobe Workfront计划的组织。 Data Connect包含在Ultimate计划中，并将于2025年上半年作为Prime和Select计划的附加产品提供。</i></p>
                 </td>
             </tr>
         </tbody>

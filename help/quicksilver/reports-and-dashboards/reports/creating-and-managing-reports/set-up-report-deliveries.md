@@ -6,7 +6,7 @@ description: 报表交付概述
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: 8d89bb511ac28905f5f0043cd0cda7d61611fad3
+source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
 workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 报表交付概述
+
+<!-- Audited: 11/2024 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This is linked to the UI in the Send Report box inside the Preview sandbox. If you change title, log bug for Dev to fix the link) </p>
@@ -159,7 +161,7 @@ ht-degree: 0%
 
 有关将Workfront实例品牌化的详细信息，请参阅文章[将Adobe Workfront实例品牌化](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)。
 
-### 格式化 {#formatting}
+### 格式设置 {#formatting}
 
 在发送或计划发送报告时，除非报告具有特殊视图，否则您始终会收到报告的详细信息选项卡。
 

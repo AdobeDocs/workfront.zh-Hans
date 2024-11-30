@@ -6,14 +6,16 @@ description: 计划自动报表提交
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1197'
 ht-degree: 2%
 
 ---
 
 # 计划自动报表提交
+
+<!-- Audited: 11/2024 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: If this stays, fix links which now go to the reference article)</p>
@@ -24,6 +26,8 @@ ht-degree: 2%
 有关详细信息（包括可能影响报表交付的大小限制），请参阅[报表交付概述](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -37,20 +41,31 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
+      <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>标准</p></li>
+         </ul>
+      <p>当前：</p>
+         <ul>
+         <li><p>计划</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对报告、功能板和日历的访问权限</p> <p>编辑对筛选器、视图、分组的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td> <p>编辑对报告、功能板和日历的访问权限</p> <p>编辑对筛选器、视图、分组的访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理报表的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>管理报表的权限</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先决条件
 
@@ -103,7 +118,7 @@ ht-degree: 2%
       <td> <p>开始键入有权访问报告的用户的名称，然后在名称出现在下拉列表中时单击该名称。 将授予接收报表的用户与您在此指定的用户相同级别的报表访问权限。<br>有关详细信息，请参阅<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">以其他用户的访问权限运行并交付报告</a>。</p> <p>注意：此字段不支持通配符。 例如，使用通配符$$User.ID不会通过接收报告的用户的访问权限运行报告。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>格式</p> </td> 
+      <td role="rowheader"> <p>格式化</p> </td> 
       <td> <p>选择所传送报表的格式：</p> 
        <ul> 
         <li> <p>HTML</p> </li> 
@@ -172,13 +187,13 @@ ht-degree: 2%
    1. 在&#x200B;**重复传送**&#x200B;面板中，单击计划的传送，然后单击&#x200B;**删除**。
    1. 单击&#x200B;**删除**&#x200B;以确认。
 
-## 视频演练
+<!--## Video walk-through
 
-请观看以下视频，了解如何计划报表提交。 此视频是在Workfront Classic中录制的。 但是，该内容也适用于新的Workfront体验。
+View the following video to learn how to schedule a report delivery. This video was recorded in Workfront Classic. However, the content also applies to the new Workfront experience.
 
-[![](assets/video-walk-through--350x197.png)](https://workfront-video.wistia.com/medias/45jffmll62)
+[ ![](assets/video-walk-through--350x197.png)](https://workfront-video.wistia.com/medias/45jffmll62)
 
-<!--
+
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Additional information</h2>
 -->
 
