@@ -6,7 +6,7 @@ description: 您可以共享或删除您创建的对象或与您共享对象的�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 56b5791fc2e4f875052692c285f43ff03fe91ea9
+source-git-commit: 05f8dc8770c185720520fc631e19c75b925a70bf
 workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 1%
@@ -166,6 +166,7 @@ Workfront中的权限是分层继承的。 这意味着，如果您授予用户�
 如果您将管理权限授予对象上的用户组，并将查看权限授予该组中同一对象上的单个用户，则该用户将具有通过该对象的组成员资格授予的最高级别的权限（管理）。 
 
 如果要将较低权限授予已属于具有较高权限级别的组织单位（组、团队、工作角色或公司）的用户，则必须从组织单位中删除权限，并单独添加具有较低权限级别的用户。
+
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
