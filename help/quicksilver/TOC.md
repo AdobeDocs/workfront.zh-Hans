@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 301f8c1b55a91a93616f59e2f530ac51a3696cbf
+source-git-commit: 2682c027b2cd248b2674cebe8f0a0b8d1006257b
 workflow-type: tm+mt
-source-wordcount: '14647'
+source-wordcount: '14666'
 ht-degree: 2%
 
 ---
@@ -2240,6 +2240,7 @@ ht-degree: 2%
       * [在Adobe Workfront Fusion中将用户添加到组织](workfront-fusion/organizations/add-user-to-an-organization.md)
       * [在Adobe Workfront Fusion中管理用户](workfront-fusion/organizations/manage-fusion-users.md)
       * [Adobe Workfront Fusion中的组织角色](workfront-fusion/organizations/organization-roles.md)
+      * [在Adobe Workfront Fusion中查看组织的活动日志](/help/quicksilver/workfront-fusion/organizations/view-activity-logs-for-an-org.md)
    * Adobe Workfront Fusion {#scenarios-in-fusion}中的方案
       * [Adobe Workfront Fusion中的场景](workfront-fusion/scenarios/scenarios.md)
       * [Adobe Workfront Fusion场景概述](workfront-fusion/scenarios/scenario-overview.md)
@@ -2258,6 +2259,7 @@ ht-degree: 2%
       * [将过滤器添加到Adobe Workfront Fusion中的方案](workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
       * [使用Adobe Workfront Fusion DevTool调试场景](workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md)
       * [使用AI生成场景区段](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
+      * [在Adobe Workfront Fusion中运行场景评分专家](/help/quicksilver/workfront-fusion/scenarios/run-scenario-scoring.md)
       * Adobe Workfront Fusion场景模板{#fusion-scenario-templates}
          * [方案模板](workfront-fusion/scenarios/templates/fusion-templates.md)
          * [[!DNL Fusion]模板概述](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)
