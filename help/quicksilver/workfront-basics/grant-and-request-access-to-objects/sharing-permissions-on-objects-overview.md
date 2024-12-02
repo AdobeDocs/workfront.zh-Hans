@@ -6,9 +6,9 @@ description: 您可以共享或删除您创建的对象或与您共享对象的�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: e1ac95e8be0f6059700ddacb120b08c7c7b683b1
+source-git-commit: 56b5791fc2e4f875052692c285f43ff03fe91ea9
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1182'
 ht-degree: 1%
 
 ---
@@ -108,6 +108,7 @@ ht-degree: 1%
     <ul> 
      <li><p>查看对象</p></li> 
      <li><p>将文档添加到对象</p></li> 
+     <li><p>将问题添加到对象（如果它是任务或项目）</p></li> 
      <li><p>查看有关对象的财务信息</p></li> 
      <li> <p>共享对象<br></p> <p>当您共享对象时，您可以授予其他用户您仅对对象拥有的相同权限级别，而不是更高的级别。</p> </li> 
     </ul> </td> 
@@ -118,7 +119,6 @@ ht-degree: 1%
     <ul> 
      <li>查看权限包含的所有操作。</li> 
      <li>向其添加费用</li> 
-     <li>向其添加问题（如果它是任务或项目）</li> 
      <li>向其添加任务（如果它是一个项目）</li> 
      <li>编辑其上的自定义Forms</li> 
      <li>记录对象的小时数</li> 
