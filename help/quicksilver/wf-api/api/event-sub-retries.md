@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b698cb60-4cff-4ccc-87d7-74afb5badc49
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: 0325d305c892c23046739feff17d4b1fc11100cc
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -24,45 +24,54 @@ ht-degree: 0%
 
 由于客户将Workfront平台用作其日常知识工作的核心部分，因此Workfront事件订阅框架提供了一种机制，可确保尽可能全面地尝试投放每条消息。
 
-无法投放到客户端点的事件触发出站消息会重新发送，直到投放成功持续长达48小时。 在此期间，重试次数会递减直至投放成功或经过48小时。
+无法投放到客户端点的事件触发出站消息会重新发送，直到投放成功持续长达48小时。 在此期间，重试的频率会递增直至投放成功或进行11次尝试。
+
+这些重试尝试的公式为：
+
+`((2^attempt) - 1) * 84800ms`
+
+第一次重试在1.5分钟后进行，第二次重试在大约5分钟后进行，第11次重试在大约48小时后进行。
 
 客户需要确保将任何使用来自Workfront事件订阅的出站消息的端点设置为在投放成功时返回Workfront的200级响应消息。
 
-## 处理失败的事件触发出站消息
+## 已禁用和冻结的订阅规则
 
-以下流程图显示了使用Workfront事件订阅重新尝试消息投放的策略：
+* 如果订阅URL的失败率超过70%且尝试次数超过100，或者如果连续失败2,000，则订阅URL为&#x200B;**已禁用**
+* 如果订阅URL连续失败超过2,000次，并且上次成功是在72小时之前，或者在任何时间范围内连续失败超过50,000次，则订阅URL为&#x200B;**冻结**。
+* **已禁用**&#x200B;订阅URL将继续每10分钟尝试一次传递，并在成功传递后重新启用。
+* **冻结**&#x200B;订阅URL将永远不会尝试投放，除非通过发出API请求手动启用它。
+
+
+
+<!--
+
+## Handling Failed Event-Triggered Outbound Messages
+
+The following flowchart shows the strategy for reattempting message deliveries with Workfront Event Subscriptions:
 
 ![](assets/event-subscription-circuit-breaker-retries-350x234.png)
 
-以下说明与流程图中描述的步骤相对应：
+The following explanations correspond with the steps depicted in the flowchart:
 
-1. 消息无法投放。
-1. 将记录消息投放失败信息。
+1. Message fails to be delivered. 
+1. Message delivery failure information is logged.
 
-   所有尝试传递消息的失败都将被记录，以便执行调试以确定给定失败或一系列失败的根本原因。
+   All failed attempts to deliver a message are logged so that debugging may be performed to determine the root cause of a given failure or series of failures. 
 
-1. URL失败次数会增加。
-1. 消息尝试计数会增加。
-1. 计算再次尝试投放此消息之前的延迟。
-1. 消息将置于消息重试队列中。
+1. URL failures incremented. 
+1. Message attempt count is incremented. 
+1. Calculate the delay until this message's delivery will be attempted again. 
+1. Message is placed onto the message retry queue.
 
-   如前面的流程图所示，用于处理消息投放重试的消息队列与处理每个消息的初始投放尝试的消息队列是一个单独的队列。 这样，几乎实时的消息流就可以不受任何消息子集失败的阻碍。
+   As shown in the preceding flowchart, the message queue used for processing message delivery retries is a separate queue from the one that processes the initial delivery attempt for each message. This allows the near real-time flow of messages to continue unimpeded by the failure of any subset of messages. 
 
-1. 评估URL电路状态。 出现以下情况之一：
+1. URL circuit status is evaluated. One of the following occurs:
 
-   * 如果电路已打开且此时不允许投放，请在步骤5中重新启动该过程。
-   * 如果电路是半开的，这意味着我们的电路当前是开的，但已经过了足够的时间来允许测试URL，以查看向它交付内容的问题是否已解决。
-   * 如果已达到消息投放尝试限制（重试时间为48小时），则将丢弃消息
+   * If the circuit is open and not allowing deliveries at this time, restart the process at step 5.
+   * If the circuit is half-open, this implies that our circuit is currently open, but enough time has passed to allow testing of the URL to see if the problem with delivering to it has been resolved.
+   * If the message delivery attempt limits have been reached (48 hours of retrying) then the message is dropped
 
-1. 如果URL回路关闭并允许投放，则尝试投放消息。 如果此投放失败，则消息将在步骤1重新启动
+1. If the URL circuit is closed and allowing deliveries, attempt to deliver the message. If this delivery fails, the message will restart at step 1 
 
-1. 如果URL回路关闭并允许投放，则尝试投放消息。 如果此投放失败，则消息将在步骤1重新启动。
-
-   <!--
-   <li value="10" data-mc-conditions="QuicksilverOrClassic.Draft mode">Workfront disables Event Subscriptions when both of the following criteria are met:
-   <ul>
-   <!--
-   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The Event Subscription has failed 1000 delivery attempts consecutively</li>
-   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">48 hours have passed since the last successful delivery</li>
-   </ul></li>
+1. If the URL circuit is closed and allowing deliveries, attempt to deliver the message. If this delivery fails, the message will restart at step 1.
    -->
