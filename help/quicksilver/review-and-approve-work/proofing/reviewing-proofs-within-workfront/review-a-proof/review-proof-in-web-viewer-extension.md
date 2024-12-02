@@ -5,13 +5,13 @@ title: 在Web验证查看器扩展中查看交互式内容
 description: Adobe Workfront审阅工具是一种浏览器扩展，它允许您校对ZIP文件或URL中的交互式内容。
 author: Courtney
 feature: Digital Content and Documents
-source-git-commit: 5650ebfbf115908cbf2b89ffeab0551a4ecacc2d
+exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
+source-git-commit: 9bc1502149d99624d8494aef86e11e18a95f563b
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '495'
 ht-degree: 1%
 
 ---
-
 
 # 使用Adobe Workfront审阅工具审阅交互式内容
 
@@ -23,7 +23,11 @@ Adobe Workfront审阅工具是一个基于Web的浏览器扩展，它允许您�
 * Chrome
 * Edge
 
-对于阻止在iFrame中打开其网站的网站（例如Figma），我们建议使用桌面校对查看器。
+如果您需要查看的内容位于某个网站上，我们建议您使用桌面验证查看器
+
+* 需要SSO身份验证
+* 阻止在iFrame中打开其网站，例如Figma
+
 
 
 ## 将Adobe Workfront审阅工具设为URL和ZIP校样的默认查看器
@@ -69,7 +73,3 @@ Adobe Workfront审阅工具是一个基于Web的浏览器扩展，它允许您�
 >[!IMPORTANT]
 >
 >必须删除旧版Web Viewer扩展才能使用Adobe Workfront审阅工具。
-
-
-
-

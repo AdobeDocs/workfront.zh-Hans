@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: d5f21f3568f72273aa0843a45b17053fc9ebf727
+source-git-commit: 1cb0a3380d21d5fe3fb2eb40c5f19ec64d8bbbb4
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1154'
 ht-degree: 2%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 2%
 
 <table>
 <col style="width: 20%;" />
+<col style="width: 50%;" />
 <tbody>
     <tr>
     <td>面积</td>
@@ -89,7 +90,6 @@ ht-degree: 2%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             已将“移至”图标添加到自定义字段</a></p>
-            [！BADGE In Production for Fast Release ]{type=Positive}
             <p>当自定义表单包含多个具有许多字段的分区时，可能很难通过拖放方式将字段从一个分区移动到另一个分区。 每个字段都添加了“移至”图标，允许您选择字段所在的部分。</p>
         </td>
         <td>2024 年 10 月 29 日</td>
@@ -173,8 +173,6 @@ ht-degree: 2%
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            已将“移至”图标添加到自定义字段</a></p>
-            [！BADGE In Production for Fast Release ]{type=Positive}
             <p>当自定义表单包含多个具有许多字段的分区时，可能很难通过拖放方式将字段从一个分区移动到另一个分区。 每个字段都添加了“移至”图标，允许您选择字段所在的部分。</p>
         </td>
         <td>2024 年 10 月 29 日</td>
