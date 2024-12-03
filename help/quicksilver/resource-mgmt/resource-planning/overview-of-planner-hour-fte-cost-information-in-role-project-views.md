@@ -7,9 +7,9 @@ description: 资源规划者的“项目”和“角色”视图中的小时数�
 author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: c9e77e11fafbf224639289977783e95ccb45a9e2
 workflow-type: tm+mt
-source-wordcount: '2977'
+source-wordcount: '3086'
 ht-degree: 0%
 
 ---
@@ -217,12 +217,6 @@ ht-degree: 0%
 
 使用预算小时数时，请考虑以下事项：
 
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-(Duplicated below ??)
-</MadCap:conditionalText>
--->
-
 * 只有在您具有对资源管理和财务数据的编辑访问权限以及项目的管理财务权限时，才能预算资源。
 
   有关预算资源所需的访问权限的信息，请参阅文章[在Adobe Workfront中预算资源所需的访问权限](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md)。
@@ -232,15 +226,23 @@ ht-degree: 0%
   有关项目和角色选项的更多信息，请参阅本文中资源规划者](#Budget)的项目和角色视图中的[小时概述、FTE和成本信息。
 
 * 您可以为预算小时、FTE或成本的最小时间段是一周。 您不能为一天预算小时数、FTE或成本。
-* 预算小时数平均分配给分配给分配给任务的每个资源的任务持续时间内的每一天。 任务持续时间基于任务计划开始日期和完成日期，包括该时间段内的每个日历日。\
-  在向用户或项目分配预算小时数时，Workfront会考虑用户或项目的计划。 在这种情况下，预算小时数平均分配到任务持续时间内的每一天，周末除外，但包括休假和计划例外。\
+* 预算小时数平均分配给分配给分配给任务的每个资源的任务持续时间内的每一天。 任务持续时间基于任务计划开始日期和完成日期，包括该时间段内的每个日历日。
+
+  在向用户或项目分配预算小时数时，Workfront会考虑用户或项目的计划。 在这种情况下，预算小时数平均分配到任务持续时间内的每一天，周末除外，但包括休假和计划例外。
+
   例如，如果按周显示资源规划者，并且您的任务跨越多周，则每周的预算小时数取决于该周内的天数是任务持续时间的一部分。 周末会从此分发中排除。 在按月或季度显示资源规划者时以及任务跨越多个月或季度时，其工作方式类似。
 
-* 您可以通过选择预算小时数作为新报告的报告对象来报告预算小时数。\
-  有关可以在Workfront中报告哪些对象的信息，请参阅[了解Adobe Workfront中的对象](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)一文中的“报告对象”部分。\
+* 您可以通过选择预算小时数作为新报告的报告对象来报告预算小时数。
+
+  有关可以在Workfront中报告哪些对象的信息，请参阅[了解Adobe Workfront中的对象](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)一文中的“报告对象”部分。
+
   有关生成预算小时数报表的信息，请参阅文章[报告：预算小时数](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md)。
 
 * 之前为以后被停用用户预算的小时数不显示。
+
+  请注意，项目的预算劳力成本仍然包括资源规划者中已停用的用户的预算小时数。
+
+  例如：如果将某个角色分配给两个用户，并且添加了预算小时数（每个用户20小时，合计40小时），然后手动为该角色设置总计，则停用资源规划者中的其中一个用户会导致在计算中不再考虑其小时数（将总计减少到20小时）。 但是，项目预算正确地保留了角色手动设置的总数，因此停用的用户的小时数仍包含在计算中（仍为40小时）。
 
 ### VAR（差异）列 {#the-var-variance-column}
 
