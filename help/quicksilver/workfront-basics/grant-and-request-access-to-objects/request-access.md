@@ -3,17 +3,19 @@ product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: 请求访问对象
 description: 您对Adobe Workfront中对象的可见性取决于您对该类型对象的访问权限以及您对单个对象的权限。
-author: Alina
+author: Becky
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
+source-git-commit: dbdcebe0fae91e7b688cad4fd11bd5aaafe51d3b
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
 
 # 请求访问对象
+
+{{preview-fast-release-general}}
 
 您对Adobe Workfront中对象的可见性取决于您对该类型对象的访问权限以及您对单个对象的权限。
 
@@ -92,14 +94,18 @@ Workfront管理员会配置您对访问级别中某类对象的访问权限。 �
 1. 单击&#x200B;**请求访问**。\
    显示&#x200B;**请求访问**&#x200B;对话框。
 
-1. （视情况而定）如果多个用户具有授予您额外访问权限的相应访问权限，则用户名称旁边会显示一个下拉箭头。
-1. 从下拉列表中选择要接收访问请求的用户。\
+1. （视情况而定）如果多个用户具有授予您额外访问权限的相应访问权限，则用户名称旁边会显示一个下拉箭头。 从下拉列表中选择应接收您的访问请求的用户。
+
    下拉列表中只显示10个用户。 该列表按字母顺序排序。\
    有关此下拉菜单中列出用户顺序的更多信息，请参阅“请求访问”和“请求更多访问”下拉菜单的[层次结构](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus)。
 
 1. 从下拉列表中，选择您请求的访问类型。
 1. （可选）在&#x200B;**P.S.**&#x200B;字段中，为用户指定一个注释，说明您需要额外访问权限的原因。
 
+   <span class="preview">预览环境中的示例图像：</span>
+   ![请求访问对话框](assets/request-access-to-project.png)
+
+   生产环境中的示例图像：
    ![](assets/request-access-dialog-350x314.png)
 
 如果您没有对象的访问级别权限，并且尝试从链接访问该对象，则会显示一个屏幕，通知您联系Workfront管理员。
@@ -115,7 +121,7 @@ Workfront管理员会配置您对访问级别中某类对象的访问权限。 �
 
 1. 单击项目名称右侧的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**请求更多访问权限**。
 
-   ![](assets/request-access-in-project-350x201.png)
+   ![请求更多访问权限](assets/more-menu-request-more-access.png)
 
 1. （视情况而定）如果多个用户具有授予您额外访问权限的相应访问权限，则用户名称旁边会显示一个下拉箭头。
 1. 从下拉列表中选择要接收访问请求的用户。\
@@ -124,7 +130,12 @@ Workfront管理员会配置您对访问级别中某类对象的访问权限。 �
 
 1. 从下拉列表中，选择您请求的访问级别。
 1. （可选）在&#x200B;**P.S.**&#x200B;字段中，指定有关为何需要其他访问权限的注释。
-1. 单击&#x200B;**请求访问**。\
+1. 单击&#x200B;**请求访问**。
+
+   <span class="preview">预览环境中的示例图像：</span>
+   ![请求访问对话框](assets/request-access-to-project.png)
+
+   生产环境中的示例图像：
    ![](assets/request-access-dialog-350x314.png)
 
 ## “请求访问”和“请求更多访问”下拉菜单的层次结构 {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
