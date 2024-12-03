@@ -2,16 +2,14 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: 运行方案得分专家
-description: 管理 [!DNL Adobe Workfront Fusion]中的锁定方案
+title: 在Adobe Workfront Fusion中运行场景评分专家
+description: 场景评分专家可以帮助您确保按照最佳实践的方式配置场景。 它会检查您的方案并提供有关其结构和组织的建议。
 author: Becky
 feature: Workfront Fusion
-hide: true
-hidefromtoc: true
 exl-id: 144c8dbd-a3e9-4267-b3db-0768dac8f384
-source-git-commit: 7bc49dcd8988ef7fd781fb88eba5b03576ca7054
+source-git-commit: 2b455fb2d3892c6bb796aa7ea57a60c861c3d599
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
