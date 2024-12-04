@@ -3,9 +3,9 @@ title: 批准请求
 description: 当用户将请求提交到与Adobe Workfront Planning中的批准关联的请求表单时，批准者会收到有关未决批准的通知，并收到电子邮件。 他们必须先批准请求，Workfront Planning才能创建对象。
 hide: true
 hidefromTOC: true
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: ab78b82db567193f32f6c67880b2b037dc78e849
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '798'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ recommendations: noDisplay, noCatalog
 * **已批准**：当批准者批准请求对象时，其个人状态将变为
 * **已批准**，但在所有批准者做出决定之前，整体请求对象状态仍为&#x200B;**正在审核**。
 * **已完成**：如果所有批准者都批准该请求对象，则其状态将更改为&#x200B;**已完成**，或者该请求不需要批准。
-* **已拒绝**：如果任何审批者拒绝请求对象，则状态将变为&#x200B;**已拒绝**。
+* **已拒绝**：如果任何审批者拒绝请求对象，则状态将变为&#x200B;**已拒绝**。 不创建记录，必须提交新请求才能创建记录。
 
 ## 访问要求
 

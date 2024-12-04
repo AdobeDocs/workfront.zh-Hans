@@ -7,7 +7,7 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 0%
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 有关信息，请参阅[创建字段](/help/quicksilver/planning/fields/create-fields.md)。
 
-## 将已连接的视图页添加到记录的页，以在表视图中显示已连接的记录
+## 将“连接”视图页添加到记录的页，以在表视图中显示连接的记录
 
 >[!NOTE]
 >

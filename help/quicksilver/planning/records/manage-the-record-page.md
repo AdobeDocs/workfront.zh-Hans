@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
+source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
 workflow-type: tm+mt
-source-wordcount: '1631'
+source-wordcount: '1683'
 ht-degree: 0%
 
 ---
@@ -256,23 +256,29 @@ ht-degree: 0%
 
 <span class="preview">
 
-## 将“已连接”视图页面添加到记录的页面
+## 将“连接”视图页面添加到记录的页面
 
-您可以将“已连接”视图页面添加到记录的页面。
+向记录页面添加连接视图时，请考虑以下事项：
 
-您无法将“已连接”视图页面添加到记录的预览区域。
+* 您可以将连接视图页面添加到记录的页面。
 
-已连接的视图页面在表格视图中显示一个已连接的记录页面。 表格视图是只读的。
+* 无法将“连接”视图页面添加到记录的预览区域。
 
-您可以为每个连接的记录类型添加一个“连接的视图”页。 <!--edit this when we can remove fields from this page-->
+* “连接”视图页面在表格视图中显示一个连接的记录页面。 表格视图是只读的。
 
-添加“连接的视图”页：
+* 您可以为每个连接的记录类型添加一个“连接”视图页。 <!--edit this when we can remove fields from this page-->
 
-1. 在记录页面视图中，单击记录名称以将其打开，然后单击预览页面右上角的“在新标签中打开”图标![](assets/open-details-in-a-new-tab-icon.png)。
-1. 单击&#x200B;**添加页面** > **连接的视图**。
-1. 添加&#x200B;**页面名称**，然后单击&#x200B;**创建**。
+* 将“连接”视图页面添加到记录页面后，该页面将从记录的预览区域可见。
 
-   在新选项卡中向记录页面添加一个附加页面。
+添加“连接”视图页：
+
+1. 从记录页面视图中，单击记录名称以将其打开，然后单击预览页面右上角的&#x200B;**在新标签中打开**&#x200B;图标![](assets/open-details-in-a-new-tab-icon.png)。
+1. 单击&#x200B;**添加页面** > **连接视图**。
+
+   ![](assets/add-connection-view-page-modal.png)
+1. 添加&#x200B;**页面名称**，单击&#x200B;**连接视图**，然后单击&#x200B;**创建**。
+
+   新选项卡将添加到记录的页面。
 1. 搜索或单击列表中连接的记录或对象类型的名称。
 您选择的记录类型的表格视图会显示，并且连接的记录会显示在表格视图中。
 表格视图是只读的。
@@ -284,6 +290,7 @@ ht-degree: 0%
 
    将鼠标悬停在该选项卡的名称上，单击&#x200B;**更多** ![](assets/more-menu.png)，然后单击&#x200B;**重命名**&#x200B;以重命名为新的“连接的视图”选项卡。
 1. （可选）使用工具栏中的任何视图元素来管理表格视图。 有关信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)。
+1. （可选）将鼠标悬停在该选项卡的名称上，单击&#x200B;**更多** ![](assets/more-menu.png)，然后单击&#x200B;**删除**&#x200B;以移动到新的“连接的视图”选项卡。
 
 </span>
 
