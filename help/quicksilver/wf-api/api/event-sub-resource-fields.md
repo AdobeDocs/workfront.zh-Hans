@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: d92dc8581bef1f5fdbef7a853ac27ffc3fa7ddbe
+source-git-commit: 6844e1cef741b60f0d2663ddb9bc9038ec88714d
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '757'
 ht-degree: 9%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 9%
 # 事件订阅资源字段
 
 事件订阅资源字段表示事件的触发器，这些事件会导致事件订阅向配置的端点发送出站消息。 编辑资源字段时，会触发UPDATE事件。
+
+请注意，可使用嵌套筛选功能筛选数据。 有关详细信息，请参阅文章事件订阅API中的[使用嵌套筛选器](/help/quicksilver/wf-api/general/event-subs-api.md#using-nested-filters)。
 
 下表列出了可用于事件订阅资源的字段：
 
@@ -33,7 +35,7 @@ ht-degree: 9%
  </thead> 
  <tbody> 
   <tr> 
-   <td>任务</td> 
+   <td>任务分配</td> 
    <td>分配</td> 
    <td>actualWorkCompleted</td> 
   </tr> 
