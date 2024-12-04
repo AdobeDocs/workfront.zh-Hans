@@ -5,12 +5,10 @@ title: 创建审阅和批准仪表板
 description: 您可以在画布功能板中查看审批指标。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-hide: true
-hidefromtoc: true
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
-source-git-commit: 6abe9f371d8121ccbd66a379ad4b25f47417d885
+source-git-commit: 53db0a80026d003250e3b31063fb9a502d2ddce1
 workflow-type: tm+mt
-source-wordcount: '1991'
+source-wordcount: '2054'
 ht-degree: 1%
 
 ---
@@ -48,10 +46,9 @@ ht-degree: 1%
 
 ### 关键绩效指标
 
-<!--
->>[!IMPORTANT]
+>[!IMPORTANT]
 >
->New document approvals data currently refreshes during the evenings in the US Mountain timezone. Real-time updates are planned and coming soon.-->
+>新文档审批数据当前在美国山区时区的晚上刷新。 计划将会推出实时更新。
 
 ![KPI示例](assets/kpi-dashboard.png)
 
@@ -132,6 +129,10 @@ ht-degree: 1%
 
 ### 图表
 
+>[!IMPORTANT]
+>
+>新文档审批数据当前在美国山区时区的晚上刷新。 计划将会推出实时更新。
+
 ![图表示例](assets/chart-dashboard.png)
 
 #### 按决策条形图显示的审批
@@ -178,6 +179,10 @@ ht-degree: 1%
 1. 单击屏幕右上角的&#x200B;**完成**。
 
 ## 使用表格添加详细的审阅和批准信息
+
+>[!IMPORTANT]
+>
+>新文档审批数据当前在美国山区时区的晚上刷新。 计划将会推出实时更新。
 
 ![表示例](assets/table-dashboard.png)
 

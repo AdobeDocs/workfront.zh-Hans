@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 6abcd9afbf57162ff1c2dc362e7979fab6d1d997
+source-git-commit: 7bb56395151d88595d446703d5d689c03b1e0372
 workflow-type: tm+mt
 source-wordcount: '14673'
 ht-degree: 2%
@@ -857,7 +857,7 @@ ht-degree: 2%
       * [保存电子邮件头文件](administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md)
       * [共享显示多个权限](administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
       * [未接受未经身份验证的电子邮件](administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
-      * [Workfront： ZScaler设置可能会导致性能降低](administration-and-setup/tips-tricks-and-troubleshooting/zscaler-affects-performance.md)
+      * [Workfront：ZScaler 设置可能会导致性能下降](administration-and-setup/tips-tricks-and-troubleshooting/zscaler-affects-performance.md)
       * [用户凭据与SAML凭据](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
       * [更新访问级别中的自动升级选项](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
 * Adobe Workfront基础知识{#basics}
@@ -1846,7 +1846,6 @@ ht-degree: 2%
       * [资产和文档审查和批准：文章索引](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [文档审批概述](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [文档决策状态概述](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-      * [创建用于审阅和审批的报告仪表板](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
       * 设置和管理资产和文档审批{#manage-asset-review-and-approval}
          * [设置和管理资产和文档审批：文章索引](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [创建文档审阅或审批请求](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
@@ -1855,6 +1854,7 @@ ht-degree: 2%
          * [创建资产和文档的审批模板](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
          * [一起使用新文档批准和校样](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
          * [上传新文档版本并请求审批](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
+         * [创建用于审阅和审批的报告仪表板](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
       * 审阅和批准资源和文档{#review-and-approve-documents}
          * [审阅和批准文档：文章索引](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
          * [审阅文档](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
