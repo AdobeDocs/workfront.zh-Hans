@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 7a1df83c0dd7ddf7dd6cf41643ba65c5903d6eba
+source-git-commit: a660fa9fedaf05582760029e062abb3d728106bd
 workflow-type: tm+mt
-source-wordcount: '4419'
+source-wordcount: '4383'
 ht-degree: 0%
 
 ---
@@ -26,10 +26,6 @@ Adobe Workfront API的目标是通过引入通过HTTP运行的REST-ful架构来�
 为了确保一致的Workfront按需系统性能，Workfront API限制并发API线程。 此护栏可防止由滥用API调用导致的系统问题。 沙盒环境已达到相同的并发API线程限制，允许客户和合作伙伴在将代码发布到生产环境之前准确测试API调用。
 
 对于生产、预览和测试驱动器环境，最终用户请求的最大URI长度为8892字节，因为它们是通过Workfront CDN (Akamai)路由的。 此限制仅适用于通过CDN路由的URI。
-
->[!NOTE]
->
->此限制不适用于沙盒环境，因为沙盒环境未通过CDN路由。
 
 ### 免责声明
 
@@ -110,14 +106,6 @@ API对每个请求进行身份验证，以确保客户端有权查看或修改�
 ```
 GET /attask/api/v15.0/project/search
 SessionID: abc1234
-```
-
-#### 请求参数身份验证
-
-您可以通过传递名为sessionID的请求参数来进行身份验证，如以下示例所示： 
-
-```
-GET /attask/api/v15.0/project/4c78821c0000d6fa8d5e52f07a1d54d0?sessionID=abc1234
 ```
 
 #### 基于Cookie的身份验证
