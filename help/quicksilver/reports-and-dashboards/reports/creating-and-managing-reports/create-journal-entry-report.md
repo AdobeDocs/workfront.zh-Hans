@@ -5,14 +5,16 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '2742'
+source-wordcount: '2734'
 ht-degree: 3%
 
 ---
 
 # 报告更新区域
+
+<!-- Audited: 11/2024 -->
 
 日志条目报表会从项目、任务、问题和其他对象的更新区域显示系统更新，以前只能通过Adobe Workfront API使用这些更新区域。 虽然这是一个针对特定用例的高级报告，但采用更易于理解的格式后，您可以在Workfront中报告项目活动和系统更新。
 
@@ -45,7 +47,16 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td> <p>新增：标准 </p><p>或 </p><p>当前：计划 </p> </td> 
+      <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>标准</p></li>
+         </ul>
+      <p>当前：</p>
+         <ul>
+         <li><p>计划</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -58,7 +69,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -88,7 +99,7 @@ ht-degree: 3%
  <thead> 
   <tr> 
    <th>字段</th> 
-   <th>说明</th> 
+   <th>解释</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -105,7 +116,7 @@ ht-degree: 3%
      <li> <p>删除</p> </li> 
      <li> <p>摘要</p> </li> 
      <li> <p>编辑</p> </li> 
-     <li> <p>恢复</p> </li> 
+     <li> <p>还原</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -182,7 +193,7 @@ ht-degree: 3%
     <thead> 
      <tr> 
       <th>列</th> 
-      <th>说明</th> 
+      <th>解释</th> 
      </tr> 
     </thead> 
     <tbody> 
@@ -296,7 +307,7 @@ ht-degree: 3%
     <thead> 
      <tr> 
       <th>列</th> 
-      <th>说明</th> 
+      <th>解释</th> 
      </tr> 
     </thead> 
     <tbody> 
@@ -380,7 +391,7 @@ ht-degree: 3%
     <thead> 
      <tr> 
       <th>列</th> 
-      <th>说明</th> 
+      <th>解释</th> 
      </tr> 
     </thead> 
     <tbody> 
@@ -439,7 +450,7 @@ ht-degree: 3%
 
    * **项目ID** > **等于** > **`<project>`**
 
-     ![](assets/qs-custom-form-changes-filter-350x92.png)
+   ![](assets/qs-custom-form-changes-filter-350x92.png)
 
    有关添加筛选器的详细信息，请参阅[筛选器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
@@ -482,7 +493,7 @@ ht-degree: 3%
     <thead> 
      <tr> 
       <th>列</th> 
-      <th>说明</th> 
+      <th>解释</th> 
      </tr> 
     </thead> 
     <tbody> 
@@ -583,7 +594,7 @@ ht-degree: 3%
     <thead> 
      <tr> 
       <th>列</th> 
-      <th>说明</th> 
+      <th>解释</th> 
      </tr> 
     </thead> 
     <tbody> 
@@ -629,7 +640,7 @@ ht-degree: 3%
    * **字段名称** > **等于** > **所有者ID**
    * **项目ID** > **等于** > **`<project name>`**
 
-     ![](assets/qs-owner-changes-filter-350x94.png)
+   ![](assets/qs-owner-changes-filter-350x94.png)
 
    有关添加筛选器的详细信息，请参阅[筛选器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 

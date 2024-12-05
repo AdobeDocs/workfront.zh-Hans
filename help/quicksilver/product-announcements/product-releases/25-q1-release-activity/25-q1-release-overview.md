@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '1610'
+source-wordcount: '1651'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 0%
             <p><b>在以下日期可用：</b></p>
             <ul>
                 <li>预览版本： 2024年11月21日</li>
-                <li>快速发布生产：通过24.12版本（2024年12月）</li>
+                <li>用于快速发布的生产：用于24.12版（2024年12月12日）</li>
                 <li>适用于所有客户的生产版本：使用25.1版本（2025年1月）</li>
             </ul>
         </td>
@@ -80,7 +80,7 @@ ht-degree: 0%
             <p><b>在以下日期可用：</b></p>
             <ul>
                 <li>预览版本： 2024年11月21日</li>
-                <li>快速发布生产：通过24.12版本（2024年12月）</li>
+                <li>用于快速发布的生产：用于24.12版（2024年12月12日）</li>
                 <li>适用于所有客户的生产版本：使用25.1版本（2025年1月）</li>
             </ul>
         </td>
@@ -95,7 +95,7 @@ ht-degree: 0%
             <p><b>在以下日期可用：</b></p>
             <ul>
                 <li>预览版本： 2024年11月21日</li>
-                <li>快速发布生产：通过24.12版本（2024年12月）</li>
+                <li>用于快速发布的生产：用于24.12版（2024年12月12日）</li>
                 <li>适用于所有客户的生产版本：使用25.1版本（2025年1月）</li>
             </ul>
         </td>
@@ -175,7 +175,7 @@ ht-degree: 0%
             <p><b>在以下日期可用：</b></p>
             <ul>
                 <li>预览版本： 2024年11月21日</li>
-                <li>快速发布生产：通过24.12版本（2024年12月）</li>
+                <li>用于快速发布的生产：用于24.12版（2024年12月12日）</li>
                 <li>适用于所有客户的生产版本：使用25.1版本（2025年1月）</li>
             </ul>
         </td>
@@ -212,6 +212,21 @@ ht-degree: 0%
         </td>
         <td>
             <p><span class="bold">发行日期</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            从优先级导航到项目的详细信息页面</a></p>
+            [！BADGE New in Preview ]{type=Negative}
+            <p>您现在可以从优先级工作列表直接导航到Workfront中的项目。</p>
+        </td>
+        <td>
+            <p><b>在以下日期可用：</b></p>
+            <ul>
+                <li>预览版本： 2024年12月5日</li>
+                <li>适用于所有客户的生产版本：使用25.1版本（2025年1月）</li>
+            </ul>
         </td>
     </tr>
     <tr>
@@ -353,7 +368,7 @@ ht-degree: 0%
             <p><b>在以下日期可用：</b></p>
             <ul>
                 <li>预览版本： 2024年11月11日</li>
-                <li>快速发布生产：通过24.12版本（2024年12月）</li>
+                <li>用于快速发布的生产：用于24.12版（2024年12月12日）</li>
                 <li>适用于所有客户的生产版本：使用25.1版本（2025年1月）</li>
             </ul>
         </td>

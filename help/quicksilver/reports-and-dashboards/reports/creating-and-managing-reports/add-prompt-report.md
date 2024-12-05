@@ -6,9 +6,9 @@ description: 过滤器和提示相似，因为它们都会限制您在报告中�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
-source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
+source-git-commit: 93fca2a98a8b9d4370841b10be10ed2ba15283c9
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1363'
 ht-degree: 0%
 
 ---
@@ -172,3 +172,5 @@ ht-degree: 0%
 * 当您计划发送提示报告时，电子邮件附件中的报告会包含未提示的报告数据。 当用户单击电子邮件中的链接以访问报告时，必须首先登录才能查看报告并自行运行提示。
 
   有关计划传送报表的信息，请参阅[计划自动报表传送](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md)。
+
+* 在运行带有基于日期的提示的报告时，将根据浏览器的时区设置过滤报告结果。 这可能导致在出现提示、表示日期处于月份开始或结束的报表中显示的日期范围略有差异。 如果浏览器的时区设置与特定位置绑定，则该位置本地时间的变化（例如遵循夏令时）也将计入为提示报表显示的日期中。 这可能会导致位于相同时区但位置设置不同的用户之间存在轻微的日期范围差异。
