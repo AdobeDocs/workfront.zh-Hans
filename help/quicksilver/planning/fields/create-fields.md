@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: ab78b82db567193f32f6c67880b2b037dc78e849
+source-git-commit: b89f4aa6f779e09d6749e59bdf3d54f0dd9bbf03
 workflow-type: tm+mt
-source-wordcount: '4287'
+source-wordcount: '4370'
 ht-degree: 1%
 
 ---
@@ -210,7 +210,12 @@ OLD:
    将鼠标悬停在任何列的标题上，单击字段名称后面的向下箭头，然后单击&#x200B;**向左插入**&#x200B;或&#x200B;**向右插入**&#x200B;以添加新字段。
 1. 在&#x200B;**新字段**&#x200B;选项卡中，搜索&#x200B;**字段类型**&#x200B;框中的字段类型，或从以下字段类型中选择：
 
-   在&#x200B;**新字段**&#x200B;选项卡中，搜索&#x200B;**字段类型**&#x200B;框<!--using any related keyword-->中的字段类型，或从下面列出的字段类型中进行选择。
+   在&#x200B;**新建字段**&#x200B;选项卡中，使用任何相关关键词搜索&#x200B;**字段类型**&#x200B;框中的字段类型，或从下面列出的字段类型中进行选择。
+
+   >[!TIP]
+   >
+   >    您可以键入“Budget”，并且字段类型“Number”和“Currency”显示在简短列表中。
+
 
 
    * [单行文本](#single-line-text)
@@ -299,15 +304,13 @@ OLD:
 1. （可选）要删除某个选择，请单击其右侧的&#x200B;**x**&#x200B;图标。
 1. 单击某个选项左侧的颜色样本可展开颜色选择器并自定义每个选项的颜色。
 
-   <!--
-    1. <span class="preview">Click **Swatches** to select a predefined color</span>
+1. <span class="preview">单击&#x200B;**色板**&#x200B;以选择预定义的颜色</span>
 
-        <span class="preview">Or</span>
+   <span class="preview">或</span>
 
-        <span class="preview">Click **Custom** to select a custom color using a color picker or a Hex code. 
-        </span>
-    1. <span class="preview:>Click outside the color box to close it. </span>     
-    -->
+   <span class="preview">单击&#x200B;**自定义**以使用拾色器或十六进制代码选择自定义颜色。
+   </span>
+1. 单击颜色框外部以将其关闭。
 1. 单击&#x200B;**创建**。
 
    新的多选字段作为列添加到记录类型，其值可以与记录相关联。
@@ -330,16 +333,13 @@ OLD:
 1. （可选）按所需顺序手动拖放每个选项，或者如果要按字母顺序自动列出选项，请选择&#x200B;**将选项按A到Z排序**&#x200B;选项。<!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. （可选）要删除某个选择，请单击其右侧的&#x200B;**x**&#x200B;图标。
 1. 单击某个选项左侧的颜色样本可展开颜色选择器并自定义每个选项的颜色。
+1. <span class="preview">单击&#x200B;**色板**&#x200B;以选择预定义的颜色</span>
 
-   <!--
-        1. <span class="preview">Click **Swatches** to select a predefined color</span>
+   <span class="preview">或</span>
 
-            <span class="preview">Or</span>
-
-            <span class="preview">Click **Custom** to select a custom color using a color picker or a Hex code. 
-            </span>
-        1. <span class="preview:>Click outside the color box to close it. </span>     
-        -->
+   <span class="preview">单击&#x200B;**自定义**以使用拾色器或十六进制代码选择自定义颜色。
+   </span>
+1. 单击颜色框外部以将其关闭。
 1. 单击&#x200B;**创建**。
 
    新的单选字段作为列添加到记录类型，其值可以与记录相关联。
