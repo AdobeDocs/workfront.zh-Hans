@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 5ebb756ba2f054c37d486d7f54a9f86cf8513328
+source-git-commit: e049ab7d27cf5eced12a43c3a2c08887a7c206ad
 workflow-type: tm+mt
-source-wordcount: '6537'
+source-wordcount: '6524'
 ht-degree: 5%
 
 ---
@@ -750,11 +750,11 @@ The Workfront Mobile app -->
 
    单击&#x200B;**保存并关闭**。
 
-#### 从文档区域将视频小组件添加到自定义表单{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
+#### 从文档区域将图像或视频添加到自定义表单{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
 
 >[!IMPORTANT]
 >
->以这种方式将视频添加到自定义表单时，当用户访问对象上的表单时，只有为自定义表单设置的权限才应用于视频，而不是“文档”区域中为视频设置的权限。
+>以这种方式将视频添加到自定义表单时，当用户访问对象上的表单时，“文档”区域中设置的权限将应用于视频。
 
 1. 转到“文档”区域中的视频并为其生成验证，如[为网站或其他Web内容创建交互式验证](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md)中所述。
 1. 打开证明。
