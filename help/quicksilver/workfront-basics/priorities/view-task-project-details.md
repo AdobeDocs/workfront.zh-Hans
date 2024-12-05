@@ -5,13 +5,13 @@ description: 您可以在优先级工作列表中查看项目和任务详细信�
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 8384c2ce2e83aa07c504c56193b19a557226d15a
+exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
+source-git-commit: 9af607f381ced982d72a19b2a5ce780796747c2e
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '240'
 ht-degree: 1%
 
 ---
-
 
 # 在“优先级”工作列表中查看项目和任务详细信息
 
@@ -67,8 +67,9 @@ ht-degree: 1%
    * 查看和添加项目评论
    * 记录时间
    * 添加文件
+   * <span class="preview">直接转到项目</span>
 
-   ![项目详细信息](assets/project-details.png)
+<!-- ![project details](assets/project-details.png)-->
 
 ## 查看任务详细信息
 
@@ -83,4 +84,4 @@ ht-degree: 1%
    * 添加文件
    * 添加快速链接
 
-   ![任务详细信息](assets/task-details.png)
+   <!-- ![task details](assets/task-details.png)-->
