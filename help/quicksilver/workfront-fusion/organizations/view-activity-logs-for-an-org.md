@@ -8,10 +8,10 @@ description: 您可以查看组织的活动日志，如场景创建或激活。
 author: Becky
 feature: Workfront Fusion
 exl-id: d60dc97d-2da6-44f4-a2ee-bb5e56317695
-source-git-commit: 1694d54c8b2d6ee3707e8e8bcb3b394c1dfa7a48
+source-git-commit: 6f4ba4cde26978305a58cedb9ed606c6032496f1
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 1%
+source-wordcount: '528'
+ht-degree: 0%
 
 ---
 
@@ -47,11 +47,14 @@ ht-degree: 1%
    <p>旧版：任意 </p>
    </td> 
   </tr> 
+   <tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>您必须是Fusion管理员才能使用活动日志。</p></td> 
+  </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
    <td>
-   <p>新： [!DNL Workfront Fusion]包含在Ultimate Workfront计划中。</p> <p>或</p>
-   <p>当前：不可用</p>
+   <p>此功能仅适用于具有Ultimate Workfront计划（包括[!DNL Workfront Fusion]）的组织。 无需购买其他产品。</p>
    </td> 
   </tr>
  </tbody> 
