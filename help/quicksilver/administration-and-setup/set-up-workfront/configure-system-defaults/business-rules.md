@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 5ebb756ba2f054c37d486d7f54a9f86cf8513328
+source-git-commit: d68c4fd39234d8d5131828e2a4642bd9af8ca7d5
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1269'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,10 @@ ht-degree: 0%
 
 有关基于日期的通配符的信息，请参阅[使用基于日期的通配符来泛化报表](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)。
 
-业务规则中还提供了API通配符。 您只能在UI或API中使用`$$ISAPI`来触发规则。
+业务规则中还提供了API通配符。 使用`$$ISAPI`仅在API中触发规则。 使用`!$$ISAPI`仅在用户界面中强制实施规则，并允许用户通过API绕过规则。
+
+* 例如，此规则禁止用户通过API编辑已完成的项目。 如果未使用通配符，则规则将同时阻止用户界面和API中的操作。
+  `IF({status} = "CPL" && $$ISAPI, "You cannot edit completed projects through the API.")`
 
 表达式中使用了`$$BEFORE_STATE`和`$$AFTER_STATE`通配符，以在任何编辑之前和之后访问对象的字段值。
 
