@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: configure-your-user-profile
 title: 创建自定义分区
 description: 默认情况下，您在 [!DNL Workfront] Web应用程序中看到的信息通常显示在左侧面板的部分中。 每个部分包含有关 [!DNL Workfront] 区域或对象的不同信息。
-author: Nolan
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: 1079f85651ec691280e2cccefaa6e48e0b9d89f8
+source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 1%

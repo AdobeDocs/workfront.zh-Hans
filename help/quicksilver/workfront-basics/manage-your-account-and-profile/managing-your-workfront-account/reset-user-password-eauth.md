@@ -3,12 +3,12 @@ product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: 使用增强型身份验证重置用户密码
 description: 为您的 [!DNL Workfront] 环境启用增强身份验证(eAuth)后， [!DNL Workfront] 管理员无法重置其他用户的登录凭据。 这与没有eAuth的 [!DNL Workfront] 环境或启用了单点登录(SSO)的环境不同。
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: 72f955e9-75ff-4ff7-b434-7a2b2d5ee0e8
-source-git-commit: 633c41eeb570402254125f92f3624cad7befd609
+source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 0%

@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: 重置密码
 description: 您可以重置 [!DNL Adobe Workfront] 密码。 作为一项重要的安全措施，我们建议您定期执行这项操作。
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 633c41eeb570402254125f92f3624cad7befd609
+source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%

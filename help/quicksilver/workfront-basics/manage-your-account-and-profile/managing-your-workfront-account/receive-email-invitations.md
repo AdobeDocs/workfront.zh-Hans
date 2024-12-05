@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: 接收电子邮件邀请并创建 [!DNL Adobe Workfront]的密码
 description: 当 [!DNL Workfront] 管理员创建新用户时，新用户可能会收到基于多个因素的邀请电子邮件。
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: a13dbe33-f283-4732-a7f2-5a94a37855f0
-source-git-commit: 0dd5577fc937a98900fab17fb434b70e023385af
+source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 0%
