@@ -7,9 +7,9 @@ description: 从Workfront Proof生成的电子邮件通知会通知协作者最�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 12f1443d69bb9306af29e4ab295f701089cdfb88
 workflow-type: tm+mt
-source-wordcount: '2049'
+source-wordcount: '2063'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 <!--For information about proof settings the [!DNL Workfront] administrator or [!DNL Workfront Proof] administrator can configure, see .-->
 
-1. 单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 个人设置]**。
+1. 单击右上角的个人资料图片，然后单击&#x200B;**[!UICONTROL 个人设置]**。
 
 1. 单击&#x200B;**[!UICONTROL 校对默认值]**&#x200B;选项卡。
 1. 单击&#x200B;**[!UICONTROL 默认电子邮件通知设置]**&#x200B;以展开它。
@@ -163,7 +163,7 @@ ht-degree: 0%
 
 如果您是[!DNL Workfront Proof]管理员，则可以设置帐户中用户的验证默认值。
 
-1. 单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 帐户设置]**。
+1. 单击屏幕顶部的&#x200B;**[!UICONTROL 帐户设置]**。
 
 1. 打开&#x200B;**[!UICONTROL 用户]**&#x200B;选项卡。
 1. 打开用户名右侧的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单![更多_button_small.png](assets/more-button-small.png)。
