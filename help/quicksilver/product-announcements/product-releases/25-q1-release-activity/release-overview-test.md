@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: d9bfe029f99bf4c205686dc7a30598f046977afd
+source-git-commit: 9f77afbb10d51a1bc0d770862a21e158b645da36
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1381'
 ht-degree: 2%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 2%
 
 <table>
 <col style="width: 20%;" />
-<col style="width: 50%;" />
+<col style="width: 75%;" />
 <tbody>
     <tr>
     <td>面积</td>
@@ -247,7 +247,7 @@ ht-degree: 2%
 
 
 <table>
-<col style="width: 50%;" />
+<col style="width: 75%;" />
 <tbody>
     <tr>
         <td>
@@ -263,7 +263,7 @@ ht-degree: 2%
             用于单次分配任务的项目或用户计划的首选项</a></p>
             <p>作为系统或组管理员，您现在有了一个新的首选项，当您为任务分配一个用户，并且项目和用户都关联到时间表时，指示Workfront是否应使用项目或用户的时间表计算项目的时间表。</p>
         </td>
-        <td><p>2024年11月16</p> <p>[！BADGE New in Preview ]{type=Negative}<p></td>
+        <td><p>2024年11月16</p> <p>[！BADGE New]{type=Negative}<p></td>
         <td>2024年12月</td>
         <td>25.1</td>
     </tr>     
@@ -284,8 +284,8 @@ ht-degree: 2%
             <p>当自定义表单包含多个具有许多字段的分区时，可能很难通过拖放方式将字段从一个分区移动到另一个分区。 每个字段都添加了“移至”图标，允许您选择字段所在的部分。</p>
         </td>
         <td>十月29日</td>
-          <td><p>2024年12月</p><p> [！BADGE In Production for Fast Release ]{type=Positive}</p></td>
-        <td>25.1<p> [！BADGE In Production]{type=Positive}</p></td>
+          <td><p>2024年12月</p><p> [！BADGE Production ]{type=Positive}</p></td>
+        <td>25.1<p> [！BADGE Production]{type=Positive}</p></td>
     </tr>
 </tbody>
 </table>
