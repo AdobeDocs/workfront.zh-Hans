@@ -1,14 +1,14 @@
 ---
-title: 'Adobe Workfront规划请求：文章索引'
+title: Adobe Workfront计划请求：文章索引
 description: 您可以为每种记录类型创建一个请求表单，与用户共享，用户可以通过填写并提交表单来添加新记录。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 91d9a1b1-c677-4aea-997e-f787eb109be1
-source-git-commit: d7c7b09b033705142b2c658c9d275e63299d3fd0
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 0%
 本节包含以下文章：
 
 * [在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)
-* [提交Adobe Workfront计划请求](/help/quicksilver/planning/requests/submit-requests.md)
+* [提交Adobe Workfront规划请求](/help/quicksilver/planning/requests/submit-requests.md)
+* [在Adobe Workfront Planning中取消发布请求表单](/help/quicksilver/planning/requests/unpublish-request-form.md)
   <!--* <span class="preview">[Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md)</span>-->
   <!--* <span class="preview">[Approve request](/help/quicksilver/planning/requests/approve-request.md)</span>-->

@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 7bb56395151d88595d446703d5d689c03b1e0372
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '14673'
+source-wordcount: '14681'
 ht-degree: 2%
 
 ---
@@ -2138,6 +2138,7 @@ ht-degree: 2%
       * [Adobe Workfront规划请求：文章索引](planning/requests/requests-article-index.md)
       * [在Adobe Workfront Planning中创建和管理申请表单](planning/requests/create-request-form.md)
       * [提交Adobe Workfront Planning请求以创建记录](planning/requests/submit-requests.md)
+      * [在Adobe Workfront Planning中取消发布请求表单](planning/requests/unpublish-request-form.md)
    * Adobe Workfront Planning视图{#adobe-workfront-planning-views}
       * [视图：文章索引](planning/views/views-information.md)
       * [管理记录视图](planning/views/manage-record-views.md)

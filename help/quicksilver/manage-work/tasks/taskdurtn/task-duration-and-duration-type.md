@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: '1791'
 ht-degree: 1%
 
 ---
@@ -76,14 +76,6 @@ ht-degree: 1%
 >[!NOTE]
 >
 >当考虑到主要受让人在项目中的休息时间时，任务的计划日期可能会调整，但任务的持续时间保持不变。 有关在计划项目时考虑主要被分配人的空闲时间的信息，请参阅[配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
-
-## 父任务的原始持续时间
-
-任务的原始持续时间是指任务在成为父任务之前的原始持续时间（以分钟为单位）。
-
-当任务成为父任务时，最早子任务的计划开始日期与最后一个子任务的计划完成日期之间的持续时间将累计到父任务，并成为父任务的持续时间。 这将替换原始任务的持续时间。
-
-有关详细信息，请参阅[任务原始持续时间概述和原始计划小时数](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)。
 
 ## 任务持续时间的时间单位
 
@@ -181,6 +173,27 @@ ht-degree: 1%
 ## 新任务的持续时间类型
 
 新任务的持续时间类型与系统中设置的持续时间类型匹配。 默认持续时间类型为计算分配。 Workfront管理员或组管理员可以更新系统或与项目关联的组的默认持续时间类型。 有关信息，请参阅[配置系统范围的任务和问题首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
+
+## 父任务的原始持续时间
+
+任务的原始持续时间是指任务在成为父任务之前的原始持续时间（以分钟为单位）。
+
+当任务成为父任务时，最早子任务的计划开始日期与最后一个子任务的计划完成日期之间的持续时间将累计到父任务，并成为父任务的持续时间。 这将替换原始任务的持续时间。
+
+当子级使用经过天数的持续时间单位并且父级使用天数的持续时间单位时，Workfront计算父级任务的持续时间的方式可能存在差异。
+
+请考虑以下事项：
+
+* 持续时间单位“经过天数”表示日历日，该日历日始终由每天24小时组成。
+* 持续时间单位“天数”表示在系统中定义的工作日，并且可以对其进行配置。 在大多数情况下，包括每天8小时。
+* 用于计算父任务持续时间的公式如下：
+
+  `Parent task duration = Planned Completion Date of the child task that is planned to end the latest - Planned Start Date of the child task that starts the earliest`
+
+* 在计算父任务的持续时间时，系统首先按上述公式计算持续时间，然后应用计划。
+
+
+有关详细信息，请参阅[任务原始持续时间概述和原始计划小时数](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)。
 
 ## 更改任务的持续时间类型
 

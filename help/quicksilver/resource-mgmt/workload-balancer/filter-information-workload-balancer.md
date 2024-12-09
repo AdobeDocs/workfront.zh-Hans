@@ -6,9 +6,9 @@ description: 为了高效地查找工作项并专注于您管理的用户或项�
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: fcc4a105f0f49c34fea4bc11f4bf2c6f54cd7769
 workflow-type: tm+mt
-source-wordcount: '2467'
+source-wordcount: '2458'
 ht-degree: 0%
 
 ---
@@ -179,8 +179,6 @@ ht-degree: 0%
 
 1. 单击&#x200B;**新建筛选器。**
 
-   ![](assets/new-filters-empty-panel-workload-balancer-350x460.png)
-
 1. 要创建过滤器，请执行以下操作：
 
    1. 在第一个下拉菜单中选择字段名称，或单击&#x200B;**浏览字段**&#x200B;开始键入默认不显示的字段名称。
@@ -198,7 +196,7 @@ ht-degree: 0%
       >您可以从以下部分中选择字段：
       >
       >* **最近选择**：您最近筛选的字段。
-      >* **建议的字段**：最常用的字段。
+      >* **建议**：最常用的字段。
 
 
    1. 从第二个下拉菜单中选择一个修饰符。 有关Workfront筛选器修饰符的信息，请参阅[筛选器和条件修饰符](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)。
@@ -206,13 +204,13 @@ ht-degree: 0%
 
       >[!NOTE]
       >
-      > 如果要显示特定项目组合中的工作对象，可以应用以下过滤器：“Portfolio名称包含营销。” 这会显示属于名称中包含“营销”的任意项目组合的工作项。
+      > 如果要显示特定项目组合中的工作对象，可以应用以下过滤器：“PortfolioID等于&lt;项目组合的名称>。”
       >
       >![](assets/portfolio-name-filter-statement-wb-350x262.png)
-
-      >[!NOTE]
       >
       >要排除处于“暂挂”状态的项目，必须应用以下过滤器：“项目：状态不等于“暂挂”。 这会阻止保留项目中的工作项显示在工作负载均衡器中。
+      >
+      >![](assets/project-status-filter-statement-wb.png)
 
    1. （可选）单击&#x200B;**删除**&#x200B;图标![](assets/delete.png)以删除筛选条件。
 
@@ -240,8 +238,8 @@ ht-degree: 0%
    >
    >随时单击&#x200B;**取消**&#x200B;将带您返回过滤器构建区域。
 
-1. 选择&#x200B;**无标题的筛选器**，然后输入新筛选器的名称。
-1. 从&#x200B;**图标**&#x200B;下拉菜单中选择新筛选器的图标。
+1. 单击&#x200B;**无标题的筛选器**&#x200B;字段，然后输入新筛选器的名称。
+1. （可选）从&#x200B;**图标**&#x200B;下拉菜单中选择新筛选器的图标。
 
    ![](assets/new-filters-select-icon-expanded-drop-down-wb.png)
 

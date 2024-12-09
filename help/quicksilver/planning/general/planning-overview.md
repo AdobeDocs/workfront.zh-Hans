@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1805'
 ht-degree: 2%
 
 ---
@@ -166,15 +166,15 @@ The following features are currently available in Workfront Planning:
 
 ## 为Workfront实例中的用户启用Workfront Planning
 
-贵组织为Workfront Planning购买许可证后，作为Workfront管理员，您必须确保满足以下要求才能访问Workfront Planning：
+贵组织购买Workfront Planning包后，作为Workfront管理员，您必须确保满足以下要求才能访问Workfront Planning：
 
 * 将需要访问Planning版面模板的用户分配到主菜单中，该模板包括Planning。 有关详细信息，请参阅[使用布局模板自定义主菜单](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)和[将用户分配给布局模板](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)。
 
-* 为用户分配Workfront许可证和Workfront Planning权限，以便在Workfront Planning中按5554hview或创建对象。 有关授予他人访问权限以及允许他人使用Workfront Planning的更多信息，请参阅[Adobe计划访问权限概述](/help/quicksilver/planning/access/access-overview.md)。
+* 为用户分配Workfront许可证和Workfront Planning权限，以便他们能够在Workfront Planning中查看或创建对象。 有关授予他人访问权限以及允许他人使用Workfront Planning的更多信息，请参阅[Adobe计划访问权限概述](/help/quicksilver/planning/access/access-overview.md)。
 
 ## Workfront Planning术语
 
-虽然Workfront Planning是Workfront的一部分，但它附带了专有的概念和术语。 在开始为组织设置Workfront计划之前，请确保您熟悉新概念。
+虽然Workfront Planning是Workfront的一部分，但它附带了专有的概念和术语。 在开始为组织设置Workfront计划之前，请确保您熟悉这些概念。
 
 Workfront Planning的框架是完全可自定义的。 您可以创建所有记录类型、其属性以及与其关联的任何字段，以满足贵组织的确切需求。
 
@@ -189,6 +189,8 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
   有关详细信息，请参阅[创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md)。
 
 * **记录类型**： Workfront Planning中对象类型的名称。
+
+  记录类型填充工作区。
 
   与Workfront中预定义的对象类型不同，在Workfront Planning中，您可以创建自己的对象类型。
 

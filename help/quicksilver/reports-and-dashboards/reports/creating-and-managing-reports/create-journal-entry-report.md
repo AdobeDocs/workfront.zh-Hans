@@ -1,13 +1,13 @@
 ---
-title: 报告更新区域
+title: 更新区域报告
 description: 日志条目报表会从项目、任务、问题和其他对象的更新区域显示系统更新，以前只能通过Adobe Workfront API使用这些更新区域。 虽然这是一个针对特定用例的高级报告，但采用更易于理解的格式后，您可以在Workfront中报告项目活动和系统更新。
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '2734'
+source-wordcount: '2757'
 ht-degree: 3%
 
 ---
@@ -339,7 +339,7 @@ ht-degree: 3%
 1. 在&#x200B;**筛选器**&#x200B;选项卡中，单击&#x200B;**添加筛选器规则**，然后添加以下筛选器：
 
    * **更改类型** > **等于** > **删除**
-   * **项目ID** > **等于** > **`<project>`**
+   * **项目ID** > **等于** > **&lt;项目名称>**
 
      <!--WRITER check link; this png file has spaces
      [![](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
@@ -383,7 +383,7 @@ ht-degree: 3%
 
    加载Report Builder。
 
-1. 在&#x200B;**列（视图）**&#x200B;选项卡中，添加以下列：
+1. 在&#x200B;**列（视图）**&#x200B;选项卡中，确保您已拥有或单击&#x200B;**添加列**&#x200B;以添加以下列：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -446,9 +446,9 @@ ht-degree: 3%
 
      >[!TIP]
      >
-     >若要将此报告限制为特定自定义字段，请添加筛选规则&#x200B;**日志条目字段名称** > **等于** > **`<custom field>`**。
+     >若要将此报告限制为特定自定义字段，请添加筛选规则&#x200B;**日志条目字段名称** > **等于** > **&lt;自定义字段名称>**。
 
-   * **项目ID** > **等于** > **`<project>`**
+   * **项目ID** > **等于** > **&lt;项目>**。
 
    ![](assets/qs-custom-form-changes-filter-350x92.png)
 
@@ -549,7 +549,7 @@ ht-degree: 3%
 1. 在&#x200B;**筛选器**&#x200B;选项卡中，单击&#x200B;**添加筛选器规则**，然后添加以下内容：
 
    * **字段名称** > **等于** > **日期**
-   * **项目ID** > **等于** > **`<project>`**
+   * **项目ID** > **等于** > **&lt;项目名称>**。
 
    ![](assets/qs-planned-completion-date-change-filter-350x91.png)
 
@@ -638,7 +638,7 @@ ht-degree: 3%
 1. 在&#x200B;**筛选器**&#x200B;选项卡中，单击&#x200B;**添加筛选器规则**，然后添加以下内容：
 
    * **字段名称** > **等于** > **所有者ID**
-   * **项目ID** > **等于** > **`<project name>`**
+   * **项目ID** > **等于** > **&lt;项目名称>**。
 
    ![](assets/qs-owner-changes-filter-350x94.png)
 
@@ -662,4 +662,4 @@ ht-degree: 3%
 
 1. 单击&#x200B;**保存+关闭**。
 
-   新报表将被加载。
+   此时将显示新的日记帐分录报表。
