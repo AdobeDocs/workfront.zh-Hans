@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '1314'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 自定义表单显示图标以指示将哪个逻辑应用于某些字段。 表单设计器中字段上的图标指示逻辑应用于该字段。
 
-| 图标 | 表单设计器中的字段上的位置 | 定义 |
+| 图标 | 表单设计器中的字段上的位置 | 条件 |
 |--- |--- |--- |
 | ![目标字段的显示逻辑](assets/display-logic-bottom-left.png) | 左下 | 该字段是用于显示逻辑的目标字段。 如果对表单进行了特定选择，则会显示此字段。 |
 | ![定义显示逻辑图标](assets/display-logic-bottom-right.png) | 右下 | 字段定义显示逻辑。 此字段上的特定选择或值将显示目标字段。 |
@@ -77,6 +77,7 @@ ht-degree: 0%
 * 要在自定义字段、小组件或分区界限中添加显示逻辑，必须在表单上至少一个多选字段（单选按钮、下拉列表或复选框）之前放置。
 有关自定义表单中的自定义字段和小部件的信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 * 无法将跳过逻辑添加到构件或分区界限中。 您只能将其添加到多选字段（单选按钮、下拉列表或复选框）。
+* 无法为多选项字段的选项应用显示或跳过逻辑。 例如，您无法根据其他字段的显示或跳过逻辑来限制下拉列表、复选框组或单选按钮字段的选项显示。
 * 如果自定义字段的以下情况全部属实，则您可以将显示逻辑和跳过逻辑添加到自定义字段中：
 
    * 它是一个多选字段（单选按钮、下拉列表或复选框）

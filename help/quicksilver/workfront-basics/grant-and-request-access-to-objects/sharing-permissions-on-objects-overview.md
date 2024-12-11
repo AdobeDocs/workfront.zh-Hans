@@ -6,9 +6,9 @@ description: 您可以共享或删除您创建的对象或与您共享对象的�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 05f8dc8770c185720520fc631e19c75b925a70bf
+source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: '1289'
 ht-degree: 1%
 
 ---
@@ -89,6 +89,13 @@ ht-degree: 1%
   >
   >* [在Scenario Planner](../../scenario-planner/share-a-plan.md)中共享计划
   >* [在Workfront目标中共享目标](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
+
+* 当您与用户共享对象时，Workfront会向用户发送通知。 启用以下两个设置后，通知将发出：
+
+   * 系统或组管理员已在“设置”区域中启用&#x200B;**与用户**&#x200B;的对象共享和&#x200B;**与团队**&#x200B;的对象共享电子邮件通知。 有关信息，请参阅[为系统中的每个人配置事件通知](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)。
+   * **有人与我共享对象**，**有人与我的团队共享对象**&#x200B;通知已在用户的配置文件页面中启用。 有关信息，请参阅[修改您自己的电子邮件通知](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
+
+  必须先启用系统或组级别的设置，然后才能为用户启用通知设置。
 
 ## 共享限制
 

@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 词汇表列出了 [!DNL Adobe Workfront].
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
 workflow-type: tm+mt
-source-wordcount: '20901'
+source-wordcount: '20875'
 ht-degree: 0%
 
 ---
@@ -1252,12 +1252,9 @@ The designated full time equivalency for users. A full-time user should have 100
    <p>See <i>Resource Pools</i> for updated fields. </p> 
    <p>The Legacy Resource Pool is a collection&nbsp;of job roles associated with a project or a user. The functionality of the Legacy Resource Pools is displayed in the tools available in the Legacy Resource Planning tab of the People area. This is a deprecated field.</p>
     --> </td> 
-  </tr> 
-  <tr> 
-   <td>[！UICONTROL库任务]</td> 
-   <td>单个任务的模板，用于跨应用程序提供[！UICONTROL任务]和[！UICONTROL模板任务]的一致命名。</td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
    <td>[！UICONTROL许可证类型]</td> 
    <td>分配给[！UICONTROL访问级别]的许可证类型。 它是[！UICONTROL Full User]、[！UICONTROL Limited User]或[！UICONTROL Requester]。</td> 
   </tr> 
@@ -2398,7 +2395,7 @@ The designated full time equivalency for users. A full-time user should have 100
    <p>在Workfront Planning中，记录在“记录类型”页面上以以下视图类型之一显示：</p>
    <ul><li>表</li>
    <li>时间线</li>
-   <li>日历</li></ul>
+   <li>日程表</li></ul>
    <p>在Workfront Planning中，视图包括应用于屏幕上记录的筛选器、分组、排序和其他设置。</p> <p>有关信息，请参阅<a href="/help/quicksilver/planning/views/manage-record-views.md">管理记录视图</a>。</p>   
    <p>Workfront Planning需要额外的许可证。</p>
    </td> 
