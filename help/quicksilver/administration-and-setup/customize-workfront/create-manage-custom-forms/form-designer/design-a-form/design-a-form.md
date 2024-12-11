@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d68c4fd39234d8d5131828e2a4642bd9af8ca7d5
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '6522'
+source-wordcount: '6534'
 ht-degree: 5%
 
 ---
@@ -328,7 +328,7 @@ ht-degree: 5%
     </tr>
     <tr> 
      <td role="rowheader">标签</td> 
-     <td> <p>（必需）键入要显示在自定义字段上方的描述性标签。 您可以随时更改标签。</p> <p><b>重要提示</b>：请避免在此标签中使用特殊字符。 它们在报表中无法正确显示。 有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p> </td> 
+     <td> <p>（必需）键入要显示在自定义字段上方的描述性标签。 您可以随时更改标签。</p> <p><b>重要信息</b>： </p> <p>请避免在此标签中使用特殊字符。 它们在报表中无法正确显示。 有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p> </td> 
      <td><ul>
     <li>单选按钮</li>
     <li>复选框组</li>
@@ -411,13 +411,18 @@ ht-degree: 5%
     <li> <p><strong>删除选择</strong>：从字段中删除选择。</p> <p><b>警告</b>：如果当前对象使用此选项，请不要将其从字段中移除。 删除它将会导致历史数据丢失。 相反，选择选项可隐藏它，这会阻止用户将来选择它。</p> </li> 
     </ul> 
      </li> 
-    </ol> </td> 
+    </ol>
+
+   <p><b>注意：</b></p>
+    <p>您可以选择的选项数量没有限制。 </p>    
+    </td> 
     <td><ul>
     <li>单选按钮</li>
     <li>复选框组</li>
     <li>单选下拉菜单</li>
     <li>多选下拉框</li>
-    </ul></td>
+    </ul>
+    </td>
      </tr> 
     </tbody> 
     </table>

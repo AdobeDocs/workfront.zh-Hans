@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 0%
@@ -227,6 +227,6 @@ ht-degree: 0%
 
 ### 编辑日历视图设置
 
-编辑日历视图设置与编辑时间轴视图的设置相同。
+编辑日历视图设置与编辑时间轴视图的设置类似。
 
 有关详细信息，请参阅文章[管理时间线视图](/help/quicksilver/planning/views/manage-the-timeline-view.md)中的“编辑时间线视图设置”部分。

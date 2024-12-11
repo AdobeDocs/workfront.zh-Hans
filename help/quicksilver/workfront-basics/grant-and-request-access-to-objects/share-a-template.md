@@ -6,9 +6,9 @@ description: 作为Adobe Workfront管理员，您可以在分配其访问级别�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '584'
 ht-degree: 2%
 
 ---
@@ -60,6 +60,8 @@ ht-degree: 2%
   有关基于用户对项目的权限管理项目上模板任务和问题的访问权限的信息，请参阅[编辑项目模板](../../manage-work/projects/create-and-manage-templates/edit-templates.md)一文中的[访问](../../manage-work/projects/create-and-manage-templates/edit-templates.md#access)部分。
 
 * Workfront管理员可以指定文档是否应从用户访问级别更高的对象继承权限。 有关限制文档继承权限的详细信息，请参阅[创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
+
+* 您无法单独共享模板任务。 共享模板也会共享模板任务。 从模板共享项目也会共享未来的项目任务。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

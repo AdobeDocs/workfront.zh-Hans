@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
+exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 7%
+source-wordcount: '760'
+ht-degree: 6%
 
 ---
-
 
 <!--add to TOC-->
 
@@ -180,3 +180,8 @@ Workfront Planning不支持所有其他Workfront字段类型。
 1. 单击&#x200B;**+**，然后单击&#x200B;**添加字段**。
 这些字段将添加到表格视图和记录的详细信息页面。
 
+   >[!IMPORTANT]
+   >
+   >    任何记录类型都存在500个字段的限制。 现有字段以及导入的字段属于此限制。
+
+   添加的字段是Workfront字段的副本，不再连接到Workfront中的原始字段。

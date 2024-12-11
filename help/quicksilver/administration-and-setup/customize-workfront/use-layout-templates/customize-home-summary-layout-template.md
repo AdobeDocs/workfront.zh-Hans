@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 8880891c0f5fd8fecad6c2f58136d36a943105ae
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '943'
 ht-degree: 2%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 2%
 
 <!--Audited: 11/2024-->
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 
 您可以使用布局模板配置用户在单击任务或问题时在“摘要”面板中看到的内容。 您使用以下步骤进行的每项配置都会影响摘要面板。 这些自定义不适用于“文档摘要”面板。
@@ -101,7 +101,7 @@ ht-degree: 2%
       <td role="rowheader">项目</td> 
       <td><ul><li><p>在主页中，当用户单击分配给他们的项目审批时，您对此设置的配置会影响审批右侧的区域。</p>
       <p><b>重要信息：</b> </p><p>这是一项已弃用的功能。 您对此区域所做的任何更改都与Workfront已移除的功能相关。 此选项将在以后的维护更新中从Workfront删除。</p></li>
-      <li><span class="preview"><p>此区域已从预览环境中删除。</p></li></span></ul> 
+      </ul> 
       </td> 
      </tr> 
      <tr> 
@@ -109,14 +109,14 @@ ht-degree: 2%
       <td>
      <ul><li><p>在主页中，当用户单击分配给他们的文档审批时，您对此设置的配置会影响审批右侧的区域。</p>
       <p><b>重要信息：</b> </p><p> 这是一项已弃用的功能。 您对此区域所做的任何更改都与Workfront已移除的功能相关。 此选项将在以后的维护更新中从Workfront删除。</p></li>
-      <li><span class="preview"><p>此区域已从预览环境中删除。</p></li></span></ul>
+      </ul>
       </td> 
      </tr> 
      <tr> 
       <td role="rowheader">文档版本</td> 
       <td><ul><li><p>在主页中，当用户单击针对文档的特定版本分配给他们的批准时，您对此设置的配置会影响批准右侧的区域。</p>
       <p><p><b>重要信息：</b></p> 这是一项已弃用的功能。 您对此区域所做的任何更改都与Workfront已移除的功能相关。 此选项将在以后的维护更新中从Workfront删除。</p></li>
-      <li><span class="preview"><p>此区域已从预览环境中删除。</p></li></span></ul>
+      </ul>
       </td> 
      </tr> 
     </tbody> 
@@ -128,15 +128,15 @@ ht-degree: 2%
 
 1. （视情况而定）如果您在上一步中单击了任务或问题，请选择要自定义的任务或问题类别。
 
-   <span class="preview">![](assets/choose-cat-cstmz-nwe-adobe-branding.png)</span>
+   ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
 1. （视情况而定）如果出现&#x200B;**设置主要操作按钮**&#x200B;下拉菜单（如果您在左侧的列表中选择&#x200B;**任务**&#x200B;或&#x200B;**问题**），请单击“摘要”面板中您希望用户在查看任务或问题时可用的主要操作（**完成**&#x200B;或&#x200B;**状态**）。
 
-   <span class="preview">![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)</span>
+   ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
 1. 为所选对象类型添加![](assets/add-item-plus-in-circle-blue.png)或隐藏![](assets/close-or-hide---x.png)字段。
 
-   <span class="preview">![](assets/lt-home-add-hide-fields-adobe-branding.png)</span>
+   ![](assets/lt-home-add-hide-fields-adobe-branding.png)
 
 1. 重复步骤3 - 6以针对任何其他对象类型自定义“摘要”面板。
 1. 单击左下角附近的&#x200B;**全局设置**，然后启用或禁用与“摘要”中的Adobe Workfront对象相关的以下任何选项：
