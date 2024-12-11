@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 29a84e52-0bd3-45c2-a8b8-80bfec894196
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 6409f8fa5072413444545d2d3a80935dc6e04b4c
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 5%
+source-wordcount: '542'
+ht-degree: 4%
 
 ---
 
@@ -22,8 +22,7 @@ ht-degree: 5%
 >[!NOTE]
 >
 >* 组管理员可以从“设置”区域为其管理的组创建团队。 有关详细信息，请参阅[创建和修改组的团队](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md)。
->* 拥有“计划”许可证的用户还可以从“人员”区域创建团队。 有关详细信息，请参阅[创建团队](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md)。
->
+>* 具有Standard或Plan许可证的用户也可以从Teams区域创建团队。 有关详细信息，请参阅[创建团队](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md)。
 
 ## 访问要求
 
@@ -87,7 +86,7 @@ ht-degree: 5%
       <td>键入团队描述。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">日历</td> 
+      <td role="rowheader">日程表</td> 
       <td>为该团队选择将显示哪个日历选项卡。</td> 
      </tr> 
      <tr data-mc-conditions="SnippetConditions-wf-groups.system-level"> 

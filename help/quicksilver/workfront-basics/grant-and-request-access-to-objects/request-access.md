@@ -6,9 +6,9 @@ description: 您对Adobe Workfront中对象的可见性取决于您对该类型�
 author: Becky
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: dbdcebe0fae91e7b688cad4fd11bd5aaafe51d3b
+source-git-commit: 6409f8fa5072413444545d2d3a80935dc6e04b4c
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1398'
 ht-degree: 0%
 
 ---
@@ -108,10 +108,12 @@ Workfront管理员会配置您对访问级别中某类对象的访问权限。 �
    生产环境中的示例图像：
    ![](assets/request-access-dialog-350x314.png)
 
-如果您没有对象的访问级别权限，并且尝试从链接访问该对象，则会显示一个屏幕，通知您联系Workfront管理员。
+<!--
+If you do not have access level rights to an object and you try to access that object from a link, a screen is displayed informing you to contact the Workfront administrator.
 
-例如，如果您没有项目组合访问权限，但是为您提供了项目组合的链接，您会看到以下消息：\
+For example, if you do not have portfolio access, but you were given a link to a portfolio, you would see the following message:  
 ![](assets/permission-request-initial2-350x96.png)
+-->
 
 ### 请求附加访问权限 {#request-additional-access}
 

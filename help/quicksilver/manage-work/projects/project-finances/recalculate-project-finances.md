@@ -3,12 +3,12 @@ title: 重新计算项目财务
 product-area: projects
 navigation-topic: financials
 description: 当项目记录的小时数或用于计算成本和收入的费率发生更改时，在项目上计算财务。
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 69afad9af3f1e703487fdab092bc84457ee00922
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: '1678'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,8 @@ ht-degree: 0%
 
 * 进行更改后，在记录小时数和计算财务信息时，将从那时起使用更新的费率。 更改速率不会影响进行更改之前计算事情的方式。 对于记录的所有现有小时数，使用旧比率计算财务信息。
 * 通过使用“重新计算财务”选项，您可以强制Adobe Workfront以追溯方式使用迄今为止记录的所有小时的新费率。 这强制Workfront根据新的费率信息追溯重新计算所有以前输入的小时数、计划成本和收入。
+
+报表类型项目（财务数据）在加载数据之前不会自动重新计算。 要更新此报表类型中的数据，您必须手动重新计算单个项目的财务。
 
 >[!CAUTION]
 >
