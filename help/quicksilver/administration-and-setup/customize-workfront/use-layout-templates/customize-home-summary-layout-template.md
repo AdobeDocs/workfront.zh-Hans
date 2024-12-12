@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
+source-git-commit: 75aaa531dba8037ed75c0d6baa6d7c69ec4cfefd
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '753'
 ht-degree: 2%
 
 ---
@@ -97,34 +97,38 @@ ht-degree: 2%
       <td role="rowheader">问题</td> 
       <td><p>在问题列表中，此设置会影响用户选择问题，然后单击打开摘要图标<img src="assets/summary-panel-icon.png">时显示在页面右侧的“摘要”面板。</p> </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">项目</td> 
-      <td><ul><li><p>在主页中，当用户单击分配给他们的项目审批时，您对此设置的配置会影响审批右侧的区域。</p>
-      <p><b>重要信息：</b> </p><p>这是一项已弃用的功能。 您对此区域所做的任何更改都与Workfront已移除的功能相关。 此选项将在以后的维护更新中从Workfront删除。</p></li>
+    </tbody> 
+   </table>
+
+<!--These were removed with the new Home: 
+
+<tr> 
+      <td role="rowheader">Projects</td> 
+      <td><ul><li><p>In Home, when a user clicks a project approval assigned to them, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><b>IMPORTANT:</b> </p><p>This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
       </ul> 
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">文档</td> 
+      <td role="rowheader">Documents</td> 
       <td>
-     <ul><li><p>在主页中，当用户单击分配给他们的文档审批时，您对此设置的配置会影响审批右侧的区域。</p>
-      <p><b>重要信息：</b> </p><p> 这是一项已弃用的功能。 您对此区域所做的任何更改都与Workfront已移除的功能相关。 此选项将在以后的维护更新中从Workfront删除。</p></li>
+     <ul><li><p>In Home, when a user clicks a document approval assigned to them, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><b>IMPORTANT:</b> </p><p> This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
       </ul>
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">文档版本</td> 
-      <td><ul><li><p>在主页中，当用户单击针对文档的特定版本分配给他们的批准时，您对此设置的配置会影响批准右侧的区域。</p>
-      <p><p><b>重要信息：</b></p> 这是一项已弃用的功能。 您对此区域所做的任何更改都与Workfront已移除的功能相关。 此选项将在以后的维护更新中从Workfront删除。</p></li>
+      <td role="rowheader">Document Versions</td> 
+      <td><ul><li><p>In Home, when a user clicks an approval assigned to them for a particular version of a document, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><p><b>IMPORTANT:</b></p> This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
       </ul>
       </td> 
-     </tr> 
-    </tbody> 
-   </table>
+     </tr> -->
 
-   >[!IMPORTANT]
-   >
-   >如果任务未分配，则分配到布局模板的用户将看不到摘要中的字段自定义设置。
+
+>[!IMPORTANT]
+>
+>如果任务未分配，则分配到布局模板的用户将看不到摘要中的字段自定义设置。
 
 1. （视情况而定）如果您在上一步中单击了任务或问题，请选择要自定义的任务或问题类别。
 
