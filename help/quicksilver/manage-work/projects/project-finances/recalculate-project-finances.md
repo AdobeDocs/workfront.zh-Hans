@@ -6,7 +6,7 @@ description: 当项目记录的小时数或用于计算成本和收入的费率�
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: 854844b0cb0207085a99403cf8b76573838feb41
+source-git-commit: 946b2697d8988fae252a13d982c9aa6685961d43
 workflow-type: tm+mt
 source-wordcount: '1678'
 ht-degree: 0%
@@ -46,11 +46,11 @@ ht-degree: 0%
  </tbody> 
 </table>
 
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+
 有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
-
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
 ## 在Adobe Workfront中计算财务的注意事项
 
