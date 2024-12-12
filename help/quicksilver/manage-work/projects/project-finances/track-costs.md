@@ -7,7 +7,7 @@ description: 您可以在Adobe Workfront中跟踪项目、任务和问题的成�
 author: Lisa
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: d431ae178a157522e2b5d8d963da7b0623510d28
+source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
 workflow-type: tm+mt
 source-wordcount: '2480'
 ht-degree: 0%

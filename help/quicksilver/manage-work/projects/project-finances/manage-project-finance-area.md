@@ -1,14 +1,14 @@
 ---
 product-area: projects
 navigation-topic: financials
-title: 管理项目财务方面的信息
-description: 管理项目财务方面的信息
-author: Alina
+title: 管理项目财务领域的信息
+description: 您可以通过访问项目详细信息部分的财务区域来查看或编辑项目的财务信息。
+author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: 647788221b4acff1cfd5e0ce14d5b99cf90ceee0
+source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
 workflow-type: tm+mt
-source-wordcount: '1304'
+source-wordcount: '1285'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 2%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -30,26 +32,30 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>审核或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td>
+   <td>
+   <p>新增：浅色或更高</p>
+   <p>或</p>
+   <p>当前：审阅或更高版本</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>查看或更高权限的项目和财务数据</p> <p>编辑对项目和财务数据的访问权限以编辑项目的财务信息</p> <p><b>注释</b></p>
-   <p> 如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>查看或更高权限的项目和财务数据</p> <p>编辑对项目和财务数据的访问权限以编辑项目的财务信息</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看包含查看财务权限的项目或更高版本的权限</p> <p>管理包含管理财务的项目的权限以编辑项目的财务信息</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>查看包含查看财务权限的项目或更高版本的权限</p> <p>管理包含管理财务的项目的权限以编辑项目的财务信息</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 财务领域概览
 

@@ -3,10 +3,10 @@ product-area: projects
 navigation-topic: financials
 title: 改写工作角色开单费率和计算项目收入概览
 description: 当记帐费率乘以项目所花费的小时数时，可以使用记帐费率计算项目收入。 有关记帐费率和收入的更多信息，请参阅记帐和收入概述一文。
-author: Alina, Lisa
+author: Lisa
 feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
-source-git-commit: 1517e3e28fe536a8a72d2802919c8b8819e9ea1a
+source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
 workflow-type: tm+mt
 source-wordcount: '3860'
 ht-degree: 0%

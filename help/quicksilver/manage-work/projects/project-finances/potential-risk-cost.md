@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: 计算潜在风险成本
 description: 项目的潜在风险成本会考虑项目风险的潜在成本及其发生的概率。
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: f4dc1950-efd8-4936-83fd-1280ee465923
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -28,8 +28,8 @@ Potential Risk Cost =SUM(Potential Risk Costs * Risk Probability)
 
 在审查项目的潜在风险成本时，请考虑以下事项：
 
-* 项目的计划风险成本与潜在风险成本相同。 
-* 潜在风险成本未纳入项目的计划成本中。 而是使用它来确定其净值。.
+* 项目的计划风险成本与潜在风险成本相同。
+* 潜在风险成本未纳入项目的计划成本中。 而是使用它来确定其净值。
 
 ## 查找项目的潜在风险成本
 

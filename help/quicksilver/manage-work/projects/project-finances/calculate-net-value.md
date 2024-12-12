@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: 计算净值
 description: 项目的净价值是计算项目的收益并扣除成本后的项目总预期价值。
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 44e3f211-c816-4ee1-aafc-c40fc8732f1a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 1%
@@ -16,11 +16,11 @@ ht-degree: 1%
 
 # 计算净值
 
-项目的净价值是计算项目的收益并扣除成本后的项目总预期价值。 
+项目的净价值是计算项目的收益并扣除成本后的项目总预期价值。
 
 ## 项目净值概览
 
-Adobe Workfront使用以下公式计算项目的净值： 
+Adobe Workfront使用以下公式计算项目的净值：
 
 ```
 Project Net Value = Planned Benefit - Budgeted Cost - Potential Risk Cost

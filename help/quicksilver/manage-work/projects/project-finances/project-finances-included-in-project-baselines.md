@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: 项目基线中包含的项目财务
 description: 基线是给定时刻项目性能的快照。 它们存储有关项目的关键信息，如关键日期、进度、成本和收入值。
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 705156d0-0daa-40bf-a511-144d56316136
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 14%

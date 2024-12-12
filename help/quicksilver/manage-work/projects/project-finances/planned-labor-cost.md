@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: 计算计划劳力成本
 description: 在计划项目工作时，Adobe Workfront会根据角色和用户的每小时成本值计算分配给此工作的角色和用户的计划劳力成本。
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: af053e9a-09dc-4b4d-8ed4-f681ed611a59
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 0%

@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: 计算成本计划绩效指数(CSI)
 description: 成本计划绩效指数(CSI)是一种自动计算，它将成本绩效指数(CPI)和计划绩效指数(SPI)合并为一个平衡成本和计划的一般指标。
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
-source-git-commit: 1cf679376517293f0e0f28b461bd9ecab9283035
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 0%
