@@ -5,13 +5,13 @@ description: 您可以直接从“优先级”创建新任务和问题。
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
+source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 2%
+source-wordcount: '241'
+ht-degree: 3%
 
 ---
-
 
 # 在优先级中创建新任务或问题
 
@@ -69,16 +69,16 @@ ht-degree: 2%
 
 1. 单击右上角的&#x200B;**新建**。
    ![](assets/create-new.png)
+&lt;！ — 生产![](assets/create-new--.png)的新屏幕 — >
 1. 指定以下信息：
 
    | 字段 | 说明 |
    |---------------|-------------|
    | 工作项类型（可选） | 选择是要创建&#x200B;**任务**&#x200B;还是&#x200B;**问题**。 |
    | 名称 | 输入名称。 |
-   | 描述（可选） | 输入说明。 |
+   | 描述（非必要） | 输入说明。 |
    | 项目 | 开始键入项目名称，然后从下拉列表中选择该名称。 |
    | 被分派人（可选） | 将人员分配给工作项。 |
    | 截止日期（可选） | 选择截止日期。 |
 
 1. 单击&#x200B;**创建**。
-

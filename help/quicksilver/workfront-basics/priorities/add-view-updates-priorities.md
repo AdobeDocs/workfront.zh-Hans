@@ -5,13 +5,13 @@ description: 您可以在任务或问题中添加更新，以向他人传达工�
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: a7237746-0a18-408b-b932-8a608fd72eee
+source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 0%
 
 ---
-
 
 # 在优先级中添加和查看注释
 
@@ -65,6 +65,7 @@ ht-degree: 0%
 1. 找到要更新的工作项。
 1. 将鼠标悬停在名称上，然后单击&#x200B;**添加新更新**。
    ![](assets/add-update.png)
+   <!--new screen for prod ![](assets/update-log-upload.png)-->
 1. 开始键入您的评论。
 1. （可选）在&#x200B;**为人员或团队添加标签**&#x200B;框中，开始键入要包含在此评论中的用户或团队的名称或电子邮件，然后当该评论显示在列表中时将其选定。
 1. （可选）使用富文本工具栏中的选项设置文本格式，在评论中添加表情符号、链接或图像以增强内容。

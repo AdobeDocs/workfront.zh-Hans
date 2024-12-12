@@ -5,13 +5,13 @@ description: 您可以从“优先级”工作列表或单个工作项上载文�
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
+source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 0%
 
 ---
-
 
 # 按优先级上传文件
 
@@ -54,6 +54,7 @@ ht-degree: 0%
 
 1. 将鼠标悬停在名称上，然后单击&#x200B;**上传**。
    ![](assets/upload-file.png)
+   <!--new screen for prod ![](assets/update-log-upload.png)-->
 1. （可选）选择一个文件夹。
 1. 拖放文件或按Cmd/Ctrl + V以从剪贴板粘贴
 或

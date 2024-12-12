@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: 9af607f381ced982d72a19b2a5ce780796747c2e
+source-git-commit: cd60710c8002d090bf1ed7a300d3e600d98032b1
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '244'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,8 @@ ht-degree: 1%
    * 添加文件
    * <span class="preview">直接转到项目</span>
 
-<!-- ![project details](assets/project-details.png)-->
+   ![项目详细信息](assets/project-details.png)
+   <!--new screen for prod ![](assets/project-details-new.png)-->
 
 ## 查看任务详细信息
 
@@ -84,4 +85,5 @@ ht-degree: 1%
    * 添加文件
    * 添加快速链接
 
-   <!-- ![task details](assets/task-details.png)-->
+   ![任务详细信息](assets/task-details.png)
+   <!--new screen for prod ![](assets/task-details-new.png)-->

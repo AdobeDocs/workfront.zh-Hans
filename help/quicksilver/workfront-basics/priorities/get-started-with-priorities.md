@@ -5,13 +5,13 @@ description: 优先级是为任务所有者定制的简化、直观的体验。
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 61f4fef12ec53b77feb4adba7b8e4561248be2fd
+exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
+source-git-commit: edc817b305622d704a1543b1e288731fc3bbff33
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '953'
 ht-degree: 3%
 
 ---
-
 
 # 开始使用 [!DNL Priorities]
 
@@ -91,7 +91,6 @@ ht-degree: 3%
 
 在筛选完您的工作后，您可以根据以下条件对项目进行分组
 
-* 无
 * 我的焦点
 * 到期周数
 * 状态
@@ -104,15 +103,16 @@ ht-degree: 3%
 “我的焦点”是工作列表中的一栏，可帮助您排定工作的优先级。 “我的焦点”值是个人的，不会影响项目、任务或问题数据。 您可以使用以下焦点级别：
 
 * 紧急
-* 主要
-* 辅助
+* 高
 * 正常（默认）
+* 低
 
 将焦点级别分配给工作项目后，您可以对列进行排序，以在工作列表顶部显示紧急项目。
 
 有关详细信息，请参阅[优先处理重要工作项](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)。
 
 ![](assets/my-focus-column.png)
+<!-- new screen for prod ![](assets/worklist.png) -->
 
 ### 使用日历视图[!BADGE 即将推出]{type=Informative}
 
@@ -141,6 +141,7 @@ ht-degree: 3%
 有关详细信息，请参阅[在优先级](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md)中添加和查看注释。
 
 ![](assets/new-update.png)
+<!--new screen for prod ![](assets/update-log-upload.png)-->
 
 ### 记录时间
 
@@ -149,6 +150,7 @@ ht-degree: 3%
 有关详细信息，请参阅[在优先级中记录时间](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md)。
 
 ![](assets/log-time.png)
+<!--new screen for prod ![](assets/update-log-upload.png)-->
 
 ### 上载文件
 
@@ -162,6 +164,7 @@ ht-degree: 3%
 有关详细信息，请参阅[上载优先级中的文件](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)。
 
 ![](assets/upload-file.png)
+<!--new screen for prod ![](assets/update-log-upload.png)-->
 
 ### 查看文档[!BADGE 即将推出]{type=Informative}
 
@@ -197,5 +200,3 @@ ht-degree: 3%
 
 * 目前，Workfront管理员无法通过布局模板自定义优先级。
 * 访问“优先级”中的任务是在多个选项卡中进行的。 我们计划在未来添加其他选项卡，如文档、子任务、批准等。 使用&#x200B;**提供反馈**&#x200B;按钮提交反馈时，告知我们需要这些项目。
-
-
