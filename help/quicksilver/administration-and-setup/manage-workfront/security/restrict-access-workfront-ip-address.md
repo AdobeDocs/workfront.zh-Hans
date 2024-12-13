@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: security
-title: 通过IP地址限制对Adobe Workfront的访问
-description: 您可以配置Adobe Workfront 列入允许列表 IP，将对Workfront的访问限制为您指定的45个IP地址或IP地址范围。 这为Workfront应用程序提供了额外的安全层。
+title: 按IP地址限制对Adobe Workfront的访问
+description: 您可以配置Adobe Workfront 列入允许列表 IP，将对Workfront的访问限制为您指定的75个IP地址或IP地址范围。 这为Workfront应用程序提供了额外的安全层。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aed65b42-d534-453a-885d-f922114987bc
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: 937965ad495453e185504d53f9d9c88c3cd7e201
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 2%
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # 按IP地址限制对Adobe Workfront的访问
 
-您可以配置Adobe Workfront 列入允许列表 IP，将对Workfront的访问限制为您指定的45个IP地址或IP地址范围。 这为Workfront应用程序提供了额外的安全层。
+您可以配置Adobe Workfront 列入允许列表 IP，将对Workfront的访问限制为您指定的75个IP地址或IP地址范围。 这为Workfront应用程序提供了额外的安全层。
 
 这些IP地址或IP地址范围应由网络管理员提供。
 
@@ -77,6 +77,6 @@ ht-degree: 2%
 1. 单击&#x200B;**添加IP范围，**，然后指定您希望能够访问Workfront的IP地址或IP地址范围。
 1. （可选）重复上一步以添加其他IP地址或IP地址范围。
 
-   您最多可以添加45个地址或范围。
+   您最多可以添加75个地址或范围。
 
 1. 单击&#x200B;**保存。**

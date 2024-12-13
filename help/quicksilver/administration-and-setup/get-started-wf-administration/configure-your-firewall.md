@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 2b6f5243de9610947ab6836080379a2293f48a10
+source-git-commit: 937965ad495453e185504d53f9d9c88c3cd7e201
 workflow-type: tm+mt
 source-wordcount: '1643'
 ht-degree: 0%
@@ -51,7 +51,7 @@ ht-degree: 0%
 如果您的组织拥有企业计划，您还可以配置两个Workfront 列入允许列表：
 
 * **电子邮件允许列表**：可让您控制用户通过电子邮件发送存储在Workfront中的数据的位置。 有关详细信息，请参阅[配置电子邮件允许列表](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)。
-* **IP 允许列表**：将对Workfront的访问限制为您指定的45个IP地址或IP地址范围，从而为Workfront应用程序提供额外的安全层。 有关详细信息，请参阅[通过IP地址限制对Adobe Workfront的访问](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md)。
+* **IP 允许列表**：将对Workfront的访问限制为您指定的75个IP地址或IP地址范围，从而为Workfront应用程序提供额外的安全层。 有关详细信息，请参阅[通过IP地址限制对Adobe Workfront的访问](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md)。
 
 ## 找到Workfront群集
 

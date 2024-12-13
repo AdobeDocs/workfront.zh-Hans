@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 76b6acc4-c432-47b4-90bf-6e37e970625f
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: 937965ad495453e185504d53f9d9c88c3cd7e201
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ## 其他允许列表
 
-如果贵组织拥有企业计划，则可以配置Adobe Workfront 列入允许列表 IP，将对Workfront的访问权限限制为您指定的45个IP地址或IP地址范围。 这为Workfront应用程序提供了额外的安全层。 有关详细信息，请参阅[通过IP地址限制对Adobe Workfront的访问](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md)。
+如果贵组织拥有企业计划，则可以配置Adobe Workfront 列入允许列表 IP，将对Workfront的访问权限限制为您指定的75个IP地址或IP地址范围。 这为Workfront应用程序提供了额外的安全层。 有关详细信息，请参阅[通过IP地址限制对Adobe Workfront的访问](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md)。
 
 此外，如果您的防火墙或邮件服务器配置为仅允许访问某些供应商，则必须将某些IP地址添加到其IP允许列表。 这将打开环境与Adobe Workfront服务器之间的通信。 有关信息，请参阅[配置防火墙的允许列表](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
 
