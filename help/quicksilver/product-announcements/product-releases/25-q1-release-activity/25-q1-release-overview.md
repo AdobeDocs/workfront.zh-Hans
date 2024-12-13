@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 8b0c40d6fa5898581c50d6257bc2b2f2a4838b06
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1728'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             用于单次分配任务的项目或用户计划的首选项</a></p>
+            [！BADGE In Production for Fast Release ]{type=Positive}
             <p>作为系统或组管理员，您现在有了一个新的首选项，当您为任务分配一个用户，并且项目和用户都关联到时间表时，指示Workfront是否应使用项目或用户的时间表计算项目的时间表。</p>
         </td>
         <td>
@@ -74,6 +75,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             业务规则现在支持超链接</a></p>
+            [！BADGE In Production for Fast Release ]{type=Positive}
             <p>现在，您可以在业务规则的自定义错误消息中包含超链接，以指导用户如何在规则的限制内修改其操作。 静态URL可以链接到对用户有益的文档或其他页面。</p>
         </td>
         <td>
@@ -169,6 +171,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
             一次编辑多个文档</a></p>
+            [！BADGE In Production for Fast Release ]{type=Positive}
             <p>您现在可以一次编辑多个文档。 您可以编辑说明并更新自定义表单。</p>
         </td>
         <td>
@@ -217,8 +220,22 @@ ht-degree: 0%
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            从优先级导航到项目的详细信息页面</a></p>
+            “优先级”工作列表的更新</a></p>
             [！BADGE New in Preview ]{type=Negative}
+            <p>我们更新了“优先级”工作列表，以改进功能并与应用程序的其他领域保持一致。</p>
+        </td>
+        <td>
+            <p><b>在以下日期可用：</b></p>
+            <ul>
+                <li>预览版本： 2024年12月12日</li>
+                <li>适用于所有客户的生产版本：使用25.1版本（2025年1月）</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            从优先级导航到项目的详细信息页面</a></p>
             <p>您现在可以从优先级工作列表直接导航到Workfront中的项目。</p>
         </td>
         <td>
@@ -344,6 +361,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             更新如何管理链接文件夹中移动或删除的资源</a></p>
+            [！BADGE In Production ]{type=Informational}
             <p>在将Adobe Workfront与Experience Manager Assets和Assets Essentials集成使用时，我们更改了处理移动和删除资源的方式：</p>
             <ul>
                 <li>已删除的资源：当在Assets或Assets Essentials中的链接文件夹内删除某个资源时，已删除的资源将保留在项目文档区域中。</li>
@@ -362,6 +380,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             自定义表单中的部分现在可折叠和展开</a></p>
+            [！BADGE In Production for Fast Release ]{type=Positive}
             <p>将具有多个分区的自定义表单附加到对象时，您现在可以折叠和展开表单顶部默认分区以外的所有分区。 管理员也可以在表单设计器中预览表单时查看此功能。</p>
         </td>
         <td>
