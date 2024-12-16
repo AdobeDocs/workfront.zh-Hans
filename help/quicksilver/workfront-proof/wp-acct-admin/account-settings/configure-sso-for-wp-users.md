@@ -7,7 +7,7 @@ description: 如果您拥有Select或Premium计划，则可以提供单点登录
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 52ac1919-1821-424f-89f8-72865b236e4e
-source-git-commit: 007a603ef1df2a02959d7fb623ac784bf5b9cb80
+source-git-commit: 74a877145b55ccc14b4d5aefd1889919a39e1f20
 workflow-type: tm+mt
 source-wordcount: '1225'
 ht-degree: 0%
@@ -59,12 +59,12 @@ ht-degree: 0%
 1. 输入&#x200B;**登录URL** (3)。
 将调用此URL以将用户重定向到您的身份提供程序。
 
-1. 这不是您在浏览器中输入的实际URL，而是端点，它将处理我们发送的信息以显示“登录”屏幕。
+   这不是您在浏览器中输入的实际URL，而是端点，它将处理我们发送的信息以显示“登录”屏幕。
 
-输入&#x200B;**注销URL** (4)。
+1. 输入&#x200B;**注销URL** (4)。
 例如，这是您注销后返回到的URL
 
-**https://www.yourcompany.com/services/logout.asp**
+   **https://www.yourcompany.com/services/logout.asp**
 
 1. 输入&#x200B;**证书指纹** (5)。
 1. SAML身份提供程序提供的SAML证书的SHA1指纹。
