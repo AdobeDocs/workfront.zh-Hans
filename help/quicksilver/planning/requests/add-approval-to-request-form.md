@@ -1,30 +1,19 @@
 ---
-title: 向请求表单添加批准
+title: 在Adobe Workfront Planning中为申请表单添加批准
 description: 您可以在Adobe Workfront Planning请求表单中添加批准流程，以在创建记录之前为每个提交的请求启动批准。
-hide: true
-hidefromTOC: true
-source-git-commit: a999b805016361bdd101a6cd9c61967284a71014
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '766'
 ht-degree: 1%
 
 ---
 
 
-<!--
-
----
-title: Add an Approval to a Request Form
-description: You can add an approval process to an Adobe Workfront Planning request form, to initiate an approval for every submitted request, before it creates a record. 
-feature: Workfront Planning
-role: User, Admin
-author: Alina
-recommendations: noDisplay, noCatalog
----
-
--->
-
-# 向请求表单添加批准
+# 在Adobe Workfront Planning中为申请表单添加批准
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
@@ -127,6 +116,8 @@ recommendations: noDisplay, noCatalog
 
 * 您可以向请求表单添加一个或多个批准者。 您只能添加用户作为批准者。
 * 向请求表单添加多个批准者时，所有批准者都必须接受请求，然后才能在Workfront Planning中创建记录。
+* 如果所有批准者都批准了该请求，则将为与请求表单关联的记录类型创建记录。
+* 如果至少有一个批准者拒绝了请求，并且所有其他批准者都批准了该请求，则会在Workfront中为请求区域创建一个请求，但不会为与请求表单关联的记录类型创建记录。
 * 向请求表单添加审批是可选的。 如果申请表单与批准无关，Workfront Planning会在提交申请后立即创建记录。
 
 ## 向请求表单添加批准
@@ -143,16 +134,31 @@ recommendations: noDisplay, noCatalog
 
    开始键入审批者的姓名，然后当该姓名显示在列表中时将其选定。
 
-   >[!TIP]
+   <!--most of the Note below is duplicated in the Create a request form article-->
+
+   >[!NOTE]
    >
-   >    如果添加多个审批者，则在Workfront Planning创建记录之前，所有审批者都必须审批该请求。
+   >
+   >* 您可以将一个或多个批准者添加到请求表单。
+   >
+   >* 如果添加多个审批者，则在Workfront Planning创建记录之前，所有审批者都必须审批该请求。
+   >
+   >* 如果至少有一位审批者拒绝了请求，则该请求会被拒绝，并且不会创建记录。 该请求将保留在Workfront请求区域的已提交部分的“计划”选项卡中。
+   >
+   >* 在批准或拒绝请求之前，所有批准者都必须做出决定。
+
 
 1. （可选）如果您以前从未共享过该申请表单，请单击&#x200B;**Publish**
 
    或
 
    单击&#x200B;**共享**&#x200B;以共享表单，然后单击&#x200B;**复制链接**。
-1. （可选）用户使用您共享的链接并提交请求后，Workfront Planning会向审批者发送审批通知和电子邮件。
+1. （可选）用户使用您共享的链接并提交请求后，Workfront Planning会向审批者发送审批应用程序内通知和电子邮件。
+
+   >[!NOTE]
+   >
+   >   贵组织的Workfront实例必须载入到AdobeUnified Experience，用户才能接收电子邮件和应用程序内通知。
+
 
    有关批准请求的信息，请参阅[批准请求](/help/quicksilver/planning/requests/approve-request.md)。
 

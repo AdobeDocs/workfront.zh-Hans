@@ -1,33 +1,19 @@
 ---
-title: 批准请求
+title: 在Adobe Workfront Planning中批准请求
 description: 当用户将请求提交到与Adobe Workfront Planning中的批准关联的请求表单时，批准者会收到有关未决批准的通知，并收到电子邮件。 他们必须先批准请求，Workfront Planning才能创建对象。
-hide: true
-hidefromTOC: true
-source-git-commit: ab78b82db567193f32f6c67880b2b037dc78e849
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '945'
 ht-degree: 1%
 
 ---
 
 
-<!--
-
----
-title: Approve a Request
-description: When a user submits a request to a request form associated with an approval in Adobe Workfront Planning, approvers receive a notification and an email about the pending approval. They must approve the request before Workfront Planning creates an object. 
-feature: Workfront Planning
-role: User, Admin
-author: Alina
-recommendations: noDisplay, noCatalog
----
-
--->
-
-
-# 批准请求
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+# 在Adobe Workfront Planning中批准请求
 
 <!--take Preview and Production references at Production time-->
 
@@ -54,9 +40,8 @@ recommendations: noDisplay, noCatalog
 已提交的请求将显示在Workfront请求区域的已提交部分的“计划”选项卡中，并具有以下请求状态之一：
 
 * **等待审阅**：当没有批准者打开请求对象时，将显示此状态。
-* **审核中**：至少有一个批准者打开请求对象时，状态将更改为&#x200B;**审核中**。 在所有批准者都批准请求之前，请求的状态保持为&#x200B;**正在审核**。
-* **已批准**：当批准者批准请求对象时，其个人状态将变为
-* **已批准**，但在所有批准者做出决定之前，整体请求对象状态仍为&#x200B;**正在审核**。
+* **审核中**：当至少有一个批准者打开请求对象时，**待审核中**&#x200B;状态更改为&#x200B;**审核中**。 在所有批准者都批准请求之前，请求的状态保持为&#x200B;**正在审核**。
+* **已批准**：当批准者批准请求对象时，其单个状态将变为&#x200B;**已批准**，但整个请求对象状态将保持&#x200B;**正在审核**，直到所有批准者做出决定。 当所有批准者批准请求时，请求状态将变为&#x200B;**已批准**。
 * **已完成**：如果所有批准者都批准该请求对象，则其状态将更改为&#x200B;**已完成**，或者该请求不需要批准。
 * **已拒绝**：如果任何审批者拒绝请求对象，则状态将变为&#x200B;**已拒绝**。 不创建记录，必须提交新请求才能创建记录。
 
@@ -148,25 +133,39 @@ recommendations: noDisplay, noCatalog
 * 应用程序内通知
 * 电子邮件通知
 
+>[!NOTE]
+>
+>贵组织的Workfront实例必须载入到AdobeUnified Experience，用户才能接收电子邮件和应用程序内通知。
+
 要批准请求，请执行以下操作：
 
 1. 执行下列操作之一：
 
-   * 如果您有权访问Workfront Planning，请单击屏幕右上角的&#x200B;**主菜单** ![](assets/dots-menu.png)，或单击左上角的&#x200B;**主菜单** ![](assets/lines-menu.png)（如果可用），然后单击&#x200B;**请求** > **已提交** > **Planning**，然后单击状态为&#x200B;**审核中**&#x200B;的请求<!--did they change this to Pending approval; logged  a bug-->。
+   * 如果您有权访问Workfront Planning并且可以查看至少一个工作区，请单击屏幕右上角的&#x200B;**主菜单** ![](assets/dots-menu.png)或左上角的&#x200B;**主菜单** ![](assets/lines-menu.png)（如果可用），然后单击&#x200B;**请求** > **已提交** > **Planning**，然后单击状态为&#x200B;**待审阅**&#x200B;或&#x200B;**正在审阅**&#x200B;的请求。
 
      >[!TIP]
      >
-     >    如果您无权访问Workfront Planning，则只能使用通知访问批准请求。
+     >如果您无权访问Workfront Planning，或无权查看任何工作区，则只能使用电子邮件或应用程序内通知访问批准请求。
 
-
-   * 转到屏幕右上角的&#x200B;**通知**&#x200B;区域，然后单击有关待您审批的请求的通知以打开该请求。
-   * 转到电子邮件中的电子邮件通知，通知您有关待审批的请求，然后单击以打开该请求。<!--add the name of the button here, from the email-->
+   * 单击屏幕右上角的&#x200B;**通知**&#x200B;区域图标![](assets/notifications-area-icon-unified-shell.png)，然后单击有关待您审批的请求的通知以打开该请求。
+   * 转到电子邮件中的电子邮件通知，通知您某个请求等待您审批，然后单击&#x200B;**打开请求**&#x200B;以打开该请求。<!--add the name of the button here, from the email-->
 
    请求页面将以只读模式打开。
 
    ![](assets/read-only-reqeust-page-in-review-status.png)
+
 1. （可选）单击请求右上角的&#x200B;**批准**&#x200B;图标![](assets/approvals-icon.png)以查看批准者。
 1. 单击&#x200B;**审核并批准**，然后选择以下选项之一： <!--did they fix the button and removed the &??-->
 
-   * **批准**：这将批准请求。 将立即为与请求表单关联的记录类型创建记录。
-   * **拒绝**：这将拒绝请求。 没有为与请求表单关联的记录类型创建记录。<!--check to see if there is a notification sent to the requestor about it being rejected OR approved??--> <!--checking with PM what happens with the other approvers when one of them is rejecting it: does it ask them to approve it? Deleted the request? -->
+   * **批准**：这将批准请求。 在所有批准者批准请求后，将立即为与请求表单关联的记录类型创建记录。
+   * **拒绝**：这将拒绝请求，即使您是唯一拒绝该请求的审批者。 没有为与请求表单关联的记录类型创建记录。
+
+   当提交请求的请求被批准或拒绝时，提交请求的用户会收到电子邮件和应用内通知。
+
+   请求的状态将更改为以下内容，具体取决于批准决定：
+
+   * **已完成**：请求已被批准。
+   * **已拒绝**：请求被拒绝。
+
+   该请求将保留在Workfront请求区域的已提交部分的“计划”选项卡中。
+

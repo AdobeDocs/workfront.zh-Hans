@@ -6,15 +6,19 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '562'
 ht-degree: 1%
 
 ---
 
 
 # 管理Adobe Workfront Planning通知首选项
+
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -23,6 +27,14 @@ ht-degree: 1%
 * 有人将您添加到记录页面上的评论中
 * 有人请求访问视图或工作区的权限
 * 有人授予您访问视图或工作区<!--I could not test this but Isk confirmed-->的权限
+
+<div class="preview">
+
+* 提交Workfront Planning请求。
+* 某人批准或拒绝了您提交的Workfront Planning请求。
+* 状态将更改为您提交的Workfront Planning请求。
+
+</div>
 
 ## 访问要求
 
@@ -172,7 +184,12 @@ OLD:
 1. Workfront提供以下通知：
 
    * **提及**：当有人在Workfront Planning的评论中为您添加标签时，您会收到通知
-   * **请求**：当有人请求或授予您访问Workfront规划对象的权限时，您会收到通知
+   * **请求**：当有人执行以下操作之一时，您会收到通知：
+
+      * 请求或授予您访问Workfront Planning对象的权限
+      * <span class="preview">您已提交Workfront计划请求</span>
+      * <span class="preview">您提交更改的Workfront规划请求的状态</span>
+      * <span class="preview">请求、授予或拒绝对Workfront规划请求的审批</span>
 
    有关管理通知的详细信息，请参阅[帐户首选项和通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences)。
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: b89f4aa6f779e09d6749e59bdf3d54f0dd9bbf03
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1557'
 ht-degree: 2%
 
 ---
@@ -126,12 +126,12 @@ ht-degree: 2%
    记录类型页面将在您上次访问的视图中打开。 默认情况下，将在表格视图中打开记录类型页面。
 
 1. 单击页眉中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**创建请求表单**。
-1. 更新请求表单的名称。 默认情况下，表单的名称为&#x200B;**无标题的请求表单**。<!--check this; you logged a bug to rename it to this but was it fixed?-->
+1. 更新请求表单的名称。 默认情况下，表单的名称为&#x200B;**无标题表单**。<!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. （可选）为请求表单添加&#x200B;**描述**。
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
-1. 单击&#x200B;**创建**。所选记录类型的请求表单打开<!--<span class="preview"> in the Form tab</span>; add screen shot below with Configuration tab.-->。
+1. 单击&#x200B;**创建**。所选记录类型的请求表单在表单选项卡</span>中打开<span class="preview">。
 
    ![](assets/campaigns-request-form-edit-mode.png)
 
@@ -159,7 +159,12 @@ ht-degree: 2%
 
 
    * **默认的分区**：这是Workfront应用于请求表单的默认分区界限。 无法重命名或删除默认部分。
-   * **主题**&#x200B;字段：将在Workfront中标识该请求的字段。 此功能尚不可用。 “主题”字段的配置和值不可编辑。
+   * **主题**&#x200B;字段：将在Workfront中标识该请求的字段。 此功能在生产环境中尚不可用。 <span class="preview">它在预览环境中可用。</span>“主题”字段的配置和值不可编辑。
+
+     >[!TIP]
+     >
+     >**Subject**&#x200B;字段在请求表单上可见时需要值。 但是，您可以根据需要删除&#x200B;**主题**&#x200B;字段，请求者不会在表单上看到该字段。
+
    * 与记录类型关联的所有字段。
 
      向此记录类型提交请求的每个人均可看到请求表单中包含的字段。
@@ -190,14 +195,19 @@ ht-degree: 2%
 
 1. （可选）单击&#x200B;**预览**&#x200B;以查看当其他用户使用表单提交新记录时，该表单将如何显示给其他用户。
 
-   <!--
-   <div class="preview">
-   1. (Optional) Click the **Configuration** tab, then add at least one user to the **Approvers** field to approve new requests for this record form. 
-      When you associate a request form with approvers, any new request must first be approved by all approvers before it generates a new record. 
-      You can add one or several approvers to a request form. If at least one approver rejects the request, the request is rejected and the record is not created.
-   For more information about adding approvals to request forms, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
-   </div>
-   -->
+1. 
+   <div class="preview">（可选）单击**配置**选项卡，然后向**审批者**字段添加至少一个用户以审批此记录表单的新请求。
+
+   ![](assets/configuration-tab.png)
+
+   <!--below bullet list is duplicated in the Add approval to a request form article-->
+
+   * 将请求表单与批准者关联时，任何新请求都必须首先由所有批准者批准，然后才能生成新记录。
+   * 您可以将一个或多个批准者添加到请求表单。
+   * 如果至少有一位审批者拒绝了请求，则该请求会被拒绝，并且不会创建记录。
+   * 在批准或拒绝请求之前，所有批准者都必须做出决定。
+
+     有关将审批添加到请求表单的详细信息，请参阅[将审批添加到请求表单](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。 </div>
 
 1. （可选）单击标题中表单名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**编辑**&#x200B;以更新表单名称。
 1. 单击&#x200B;**Publish**&#x200B;发布表单并获取其唯一链接。
@@ -231,7 +241,7 @@ ht-degree: 2%
    >     * <span class="preview">人员</span>
    >
 
-1. （视情况而定）如果您在上一步中选择了&#x200B;**具有链接**&#x200B;的任何人，请从可用日历中选择&#x200B;**链接到期日期**。 链接过期后，用户会收到错误消息，您必须更新链接日期，然后才能再次访问表单。
+1. （视情况而定）如果您在上一步中选择了&#x200B;**具有链接**&#x200B;的任何人，请从可用日历中选择&#x200B;**链接到期日期**。 链接过期后，用户会收到错误消息，您必须更新链接日期并生成要共享的新链接，之后用户才能再次访问表单。
 
    您可以选择自当前日期起180天内的将来日期。
 
@@ -241,7 +251,7 @@ ht-degree: 2%
 
    有关使用请求表单链接创建记录的信息，请参阅[提交Adobe Workfront Planning请求](/help/quicksilver/planning/requests/submit-requests.md)。
 
-1. 单击屏幕右下角的&#x200B;**保存**&#x200B;以保存表单。
+1. 单击&#x200B;**表单**&#x200B;选项卡右下角的&#x200B;**保存**&#x200B;以保存表单。
 1. 单击标题中表单名称左侧的向左箭头以关闭表单。
 
    此时将打开记录类型页面。

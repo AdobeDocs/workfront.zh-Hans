@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 93fca2a98a8b9d4370841b10be10ed2ba15283c9
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '1920'
+source-wordcount: '2114'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,42 @@ ht-degree: 0%
 <!--remove the general activity mention after First Quarter 2025 is released-->
 
 有关2024年8月28日正式发布后为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+
+## 为Workfront Planning请求配置批准
+
+>[!NOTE]
+>
+>预览版本： 2024年12月16日；适用于所有客户的生产版本： 2025年1月16日
+
+您现在可以将审批与Workfront Planning请求表单关联。 您只能添加用户作为请求的批准者。 提交请求后，首先会将请求发送给所有批准者，以供其批准，然后再创建记录。
+
+有关信息，请参阅[在Adobe Workfront Planning中为申请表单添加批准](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
+
+
+## 请求提交、审批和状态更改的通知
+
+>[!NOTE]
+>
+>预览版本： 2024年12月16日；适用于所有客户的生产版本： 2025年1月16日
+
+在Workfront Planning中提交请求后，您现在将收到应用程序内消息以及包含以下操作的电子邮件通知：
+
+* 请求者会收到已成功提交请求的通知
+
+* 请求者会收到请求被批准或拒绝的通知
+
+* 审批者会收到通知，告知他们已向其提交请求以供审批。
+
+>[!NOTE]
+>
+>贵组织的Workfront实例必须载入到AdobeUnified Experience，用户才能接收电子邮件和应用程序内通知。
+
+有关提交或批准请求的信息，请参阅以下文章：
+
+* [提交Adobe Workfront Planning请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)
+
+* [在Adobe Workfront规划中批准请求](/help/quicksilver/planning/requests/approve-request.md)。
 
 ## 在查找字段类型时进行智能搜索
 
@@ -138,7 +174,7 @@ ht-degree: 0%
 
 在此增强功能之前，无法将这些类型的字段添加到Workfront Planning中的请求表单。
 
-有关信息，请参阅在Adobe Workfront Planning中创建和管理申请表单(/help/quicksilver/planning/requests/create-request-form.md)。
+有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
 
 ## 限制公开共享包含特定字段类型的请求表单
 
