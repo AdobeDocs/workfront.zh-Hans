@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 4ea4d7d8fd16d4c4d7c2fe5f7adb15c2b44b6705
+source-git-commit: 8fe93796b2bc89352ac2c924d6a5e3bf25551ff0
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 3%
@@ -26,13 +26,13 @@ ht-degree: 3%
 
 当前不支持跨域环境升级。 您必须在同一域中的环境之间升级。
 
-## Adobe业务平台/IMS是否是提升环境的先决条件？
+## Adobe业务平台/IMS是提升环境的先决条件吗？
 
 ### 答案
 
 不可以。环境升级适用于启用了IMS和非IMS的Workfront实例。
 
-## 我们如何确定Workfront实例是在Prime还是Ultimate许可证上？
+## 如何确定我们的Workfront实例是否位于Prime或Ultimate许可证上？
 
 ### 答案
 
@@ -68,7 +68,6 @@ ht-degree: 3%
 ## 是否可以选择跳过单个组件的升级？ 存在选项“`Use Existing`”、“`Overwrite`”和“`Save with a new Name`”的情况下，是否可以添加`Skip`以跳过单个参数的升级？
 
 ### 答案
-
 
 * “使用现有”与“跳过”或忽略部署相同，因为它映射到目标环境中的现有对象，并且不进行任何更改。
 * 要跳过对象，我们建议删除

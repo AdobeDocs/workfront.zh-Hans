@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: e9df34c206dd65ccc2edec00087248eb4ed16f54
+source-git-commit: 8fe93796b2bc89352ac2c924d6a5e3bf25551ff0
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,8 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->如果在为环境升级配置对象时刷新了自定义刷新沙盒，则该配置将在刷新中丢失。 我们建议您不要刷新“自定义刷新沙盒”，除非所有未完成的环境升级对象和包都已成功升级。
+>* 如果在为环境升级配置对象时刷新了自定义刷新沙盒，则该配置将在刷新中丢失。 我们建议您不要刷新“自定义刷新沙盒”，除非所有未完成的环境升级对象和包都已成功升级。
+>* 作为包安装的一部分在目标环境中创建的对象&#x200B;**不**&#x200B;具有与原始环境中的对象相同的ID。 这是因为在创建对象时，系统分配了ID。
 
 ## 访问要求
 
