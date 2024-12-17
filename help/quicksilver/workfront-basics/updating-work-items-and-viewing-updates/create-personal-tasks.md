@@ -2,28 +2,28 @@
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: 创建个人任务
-description: 个人任务是指您发送给用户的临时工作请求，或您在“主页”区域中为自己创建的待办事项。 Workfront将临时工作请求和待办事项保存为个人任务。
+description: 个人任务是指您发送给用户、自己或您在“主页”区域中为自己创建的待办事项的临时工作请求。 Workfront将临时工作请求和待办事项保存为个人任务。
 author: Lisa
 feature: Get Started with Workfront
-source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
+exl-id: b40d6b10-19c7-4e11-a74f-a8af3ebafb65
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
-
 
 # 创建个人任务
 
 <!--Audited: 10/2024-->
 
-个人任务是指您发送给用户的临时工作请求，或您在“主页”区域中为自己创建的待办事项。
+个人任务是指您发送给用户、发送给您自己或您自己添加的临时工作请求。
 
-Workfront将临时工作请求和待办事项保存为个人任务。
+Adobe Workfront将临时工作请求和待办事项保存为个人任务。
 
-默认情况下，Workfront中的所有用户都有一个名为“&lt;他们的全名>‘他们的任务’”的项目。 例如，“里克·库韦克的任务”。
+默认情况下，Workfront中的所有用户都有一个名为“&lt;用户的全名>的任务”的个人项目。 例如，“John Smith的任务”。
 
-此项目不显示在搜索中，而是处于隐藏状态。 所有个人任务都存储在此项目中。
+每个用户的个人项目不会显示在搜索中，而是处于隐藏状态。 所有个人任务都存储在此项目中。
 
 如果需要，您可以将个人任务移动到项目。
 
@@ -33,10 +33,12 @@ Workfront将临时工作请求和待办事项保存为个人任务。
 
   有关信息，请参阅[从主页区域创建工作项和项目](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)。
 
-* 创建发送给其他用户的个人工作请求
-* 为您的用户创建个人工作请求
+* 从用户配置文件页面创建个人工作请求并将其发送给另一个用户
+* 从用户个人资料页面创建个人工作请求并发送给您自己
 
-本文介绍了如何为用户创建个人工作请求。
+本文介绍了如何从用户配置文件页面为用户或您自己创建个人工作请求。
+
+无论您如何添加个人任务，都可以在Workfront的相同区域中找到它们。 有关详细信息，请参阅本文中的[查找个人任务](#locate-personal-tasks)部分。
 
 ## 访问要求
 
@@ -57,9 +59,9 @@ Workfront将临时工作请求和待办事项保存为个人任务。
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront许可证*</strong></td> 
    <td> 
-   <p>当前：计划向其他用户发送请求。 所有用户均可为自己创建工作请求。</p>
    <p>新增：用于向其他用户发送请求的标准。 所有用户均可为自己创建工作请求。</p> 
-   </td> 
+   <p>当前：计划向其他用户发送请求。 所有用户均可为自己创建工作请求。</p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置</strong></td> 
@@ -84,7 +86,7 @@ Workfront将临时工作请求和待办事项保存为个人任务。
    >当某些用户配置您的访问级别时，您的Workfront管理员可能会阻止您查看这些用户。
 
 1. 单击标题中用户名右侧的&#x200B;**更多菜单** ![](assets/more-menu.png)。
-1. 单击&#x200B;**发送工作**请求。
+1. 单击&#x200B;**发送工作请求**。
 显示**向用户发送工作请求**&#x200B;框。
 
    ![](assets/personal-task-box.png)
@@ -98,19 +100,17 @@ Workfront将临时工作请求和待办事项保存为个人任务。
 
 1. 单击&#x200B;**发送请求**&#x200B;以保存工作请求。
 
-   工作请求将作为个人任务保存在Workfront中，并添加到主页区域的待办事项小部件中。
+   工作请求将作为个人任务保存在Workfront中，并添加到用户主页区域的待办事项小部件中。 如果将工作请求发送给您自己，它会显示在“主页”的待办事项小部件中。
 
-   <!--this last step will need to be updated when they fix this functionality and the work requests you create for others actually go to their To do widget instead of yours-->
 
 ## 查找个人任务
 
 您可以在以下区域查找个人任务：
 
-* 主页区域中的待办事项小组件。 有关信息，请参阅[从主页区域创建工作项和项目](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)。
+* 将个人请求发送到的用户主页区域中的待办事项小组件。
 
-* 个人任务报告或列表。 您可以生成个人任务筛选器并将其应用于任务报告或列表。有关信息，请参阅[筛选器：个人任务](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)。
+  有关信息，请参阅[从主页区域创建工作项和项目](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)。
 
+* 个人任务报告或列表。 您可以构建个人任务筛选器并将其应用于任务报告或列表，以仅显示个人任务并排除项目任务。
 
-
-
-
+  有关信息，请参阅[筛选器：个人任务](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)。

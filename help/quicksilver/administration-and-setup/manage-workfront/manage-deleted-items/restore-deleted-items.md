@@ -8,7 +8,7 @@ feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 2%
@@ -75,7 +75,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 * “更新”区域中的评论和回复
 * 审批
-* 分配
+* 任务
 * 自定义表单
 * 队列设置
 * 业务案例，包括记分卡、目标和风险
@@ -137,7 +137,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 * 解析对象
 
-  解析对象是使用选项&#x200B;**保留原始问题并将其解决方案绑定到此** &lt;**项目**&#x200B;或&#x200B;**任务)**>配置的转换问题。 如果删除父项目或任务，则问题不再被标识为解析对象，因为不再有链接将其连接到项目或任务。 如果恢复父项，则不会恢复链接。
+  解析对象是使用选项&#x200B;**保留原始问题并将其解决方案与此** &lt;**（项目**&#x200B;或&#x200B;**任务）**>配置的转换问题。 如果删除父项目或任务，则问题不再被标识为解析对象，因为不再有链接将其连接到项目或任务。 如果恢复父项，则不会恢复链接。
 
   有关Workfront管理员或组管理员如何在转换时配置问题以匹配解决对象的详细信息，请参阅[配置系统范围的任务和问题首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)和[为组配置任务和问题首选项](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)。
 

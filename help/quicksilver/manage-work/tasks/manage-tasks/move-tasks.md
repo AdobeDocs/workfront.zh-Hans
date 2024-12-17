@@ -6,14 +6,23 @@ description: 您可以在Adobe Workfront中将任务移动到其他项目或不�
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1442'
 ht-degree: 2%
 
 ---
 
 # 移动任务
+
+<!--Audited: 12/2024-->
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 您可以在Adobe Workfront中的以下对象之间移动任务：
 
@@ -27,6 +36,8 @@ ht-degree: 2%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的操作：
 
 <table style="table-layout:auto"> 
@@ -34,7 +45,7 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -44,19 +55,19 @@ ht-degree: 2%
 <p>当前计划：工作或更高 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对任务和项目的访问权限</p> <p><b>注释</b>
-
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
-</tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑对任务和项目的访问权限</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理任务的权限</p> <p>具有Contribute或更高权限的项目，且能够添加任务</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>管理任务的权限</p> <p>具有Contribute或更高权限的项目，且能够添加任务</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 移动任务的注意事项
 
@@ -75,6 +86,14 @@ ht-degree: 2%
 默认情况下，以下项目不会随任务一起移动：
 
 * 里程碑
+
+<!--
+<div class="preview">
+
+* Your system or group administrator can prevent you from moving tasks that have logged hours, depending on how they configure the Allow users to move tasks and issues with logged hours preference in the Setup area. For information, see [Configure system-wide task and issue preferences](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md). 
+
+</div>
+-->
 
 ## 在列表中移动任务
 
@@ -100,7 +119,7 @@ ht-degree: 2%
 
    ![](assets/move-task-in-list-nwe-350x119.png)
 
-   此时将显示“移动任务”框
+   显示&#x200B;**移动任务**&#x200B;框
 
 1. 继续移动任务，如本文中[在任务级别](#move-a-task-at-the-task-level)移动任务一节中所述，从步骤4开始。
 
@@ -182,7 +201,7 @@ ht-degree: 2%
    有关任务限制以及任务限制或项目日期如何受到影响的信息，请参阅<a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">任务限制概述</a>并查找特定限制。</p> </td>
    </tr> 
      <tr> 
-      <td role="rowheader">分配</td> 
+      <td role="rowheader">任务</td> 
       <td> <p>将从任务中删除所有分配。 </p> </td> 
      </tr> 
      <tr> 

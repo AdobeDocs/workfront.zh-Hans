@@ -6,14 +6,23 @@ description: 您可以在项目和任务之间移动问题。
 author: Alina
 feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
-source-git-commit: 6c82c585376b41cff0e57b253b6a214fb00309de
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '827'
 ht-degree: 1%
 
 ---
 
 # 移动问题
+
+<!--Audited: 12/2024-->
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 您可以在以下对象之间移动问题：
 
@@ -24,6 +33,8 @@ ht-degree: 1%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -31,25 +42,34 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>请求或更高版本</p> <p>查看或更高许可证以移动项目问题分区中的问题。</p> </td> 
+   <td> <p>新增：</p> 
+   <ul><li>参与者或更高版本</li>
+   <li>轻度或以上可在项目的问题部分中移动问题</li></ul>
+   <p>当前：</p>
+   <ul>
+   <li><p>请求或更高版本</p></li>
+   <li><p>查看或更高许可证以移动项目问题分区中的问题。</p></li></ul>   
+     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对问题的访问权限</p> <p>查看或更高权限的项目和任务</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关访问访问级别中问题的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">授予对问题的访问权限</a>。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。 </p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑对问题的访问权限</p> <p>查看或更高权限的项目和任务</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理问题的权限</p> <p>Contribute对要将问题移动到的项目的权限，以及添加问题的功能。</p> <p> 有关向问题授予权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共享问题</a></p> <p>有关请求其他权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>管理问题的权限</p> <p>Contribute对要将问题移动到的项目的权限，以及添加问题的功能。</td> 
   </tr> 
  </tbody> 
 </table>
 
-*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 有关移动问题的注意事项
 
@@ -58,6 +78,14 @@ ht-degree: 1%
 * **当问题与请求队列关联时：**&#x200B;当您将问题移动到另一个对象并且该问题与请求队列关联时，移动的问题不再与第一个问题源自的原始队列关联。
 * **当文档附加到问题时：**&#x200B;当您将问题移动到另一个对象并且该问题具有附加的文档时，该文档、其版本和验证也移动到新问题。 与文档关联的任何审批都不会移动。
 * **当问题链接到文档或文件夹时：**&#x200B;当您移动具有链接到Google Drive等第三方服务的文档或文件夹的问题时，指向文档的链接将随问题一起移动。
+
+<!--
+<div class="preview">
+
+* Your system or group administrator can prevent you from moving issues that have logged hours, depending on how they configure the Allow users to move tasks and issues with logged hours preference in the Setup area. For information, see [Configure system-wide task and issue preferences](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md). 
+
+</div>
+-->
 
 ## 在列表中移动问题
 
@@ -75,12 +103,6 @@ ht-degree: 1%
    ![](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
 
 1. 继续移动问题，如从步骤2开始的[移动单个问题](#move-a-single-issue)部分中所述。
-
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE: ensure step stays accurate)
-   </MadCap:conditionalText>
-   -->
 
 ## 移动单个问题 {#move-a-single-issue}
 
@@ -126,7 +148,7 @@ ht-degree: 1%
       <td>取消选择此选项可在将问题移动到新位置时，从问题中删除所有信息。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">分配</td> 
+      <td role="rowheader">任务</td> 
       <td>删除分配给问题的用户、工作角色或团队。</td> 
      </tr> 
      <tr> 

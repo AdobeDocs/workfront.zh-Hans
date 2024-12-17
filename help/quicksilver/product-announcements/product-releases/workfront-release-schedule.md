@@ -8,9 +8,9 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Adobe Workfront有两种发布新功能和更新的模型。 贵组织可以选�
 
 通常在美国山区时间晚上8-10点左右（发布日期的前一晚）发布。
 
-通常，“预览”中的功能会在下一个版本中提供给您的生产环境。 但是，在某些情况下，功能在计划版本之外的生产环境中可用。 这些更改至少会在“预览”中保留2周，以便您有足够的时间熟悉这些更改。 这些更改在添加到“预览”中时也会通过“公告中心”进行沟通。
+通常，“预览”中的功能会在下一个版本中提供给您的生产环境。 但是，在某些情况下，功能在计划版本之外的生产环境中可用。 这些更改一般在预览中保留至少2周，以便您有足够的时间熟悉这些更改。
 
 有关季度发布流程和快速发布流程的详细信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。
 

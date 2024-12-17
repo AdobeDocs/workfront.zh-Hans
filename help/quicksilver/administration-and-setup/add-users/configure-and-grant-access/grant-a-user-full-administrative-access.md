@@ -5,14 +5,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '1579'
-ht-degree: 1%
+source-wordcount: '1551'
+ht-degree: 4%
 
 ---
 
 # 授予用户完全管理权限
+
+<!--Audited: 12/2024-->
 
 >[!IMPORTANT]
 >
@@ -47,16 +49,18 @@ ht-degree: 1%
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td>计划</td> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td> <p>新增：标准</p>
+   <p>当前：计划</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>您必须是Workfront管理员。 有关详细信息，请参阅<a href="#" class="MCXref xref selected">授予用户完全管理访问权限</a>。</p> <p><b>注意</b>：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td> <p>您必须是Workfront管理员。 </td> 
   </tr> 
  </tbody> 
 </table>
 
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 +++
 
 ## 向单个用户授予系统管理员的完全访问权限
@@ -64,10 +68,10 @@ ht-degree: 1%
 {{step-1-to-users}}
 
 1. 单击要向其授予管理员权限的用户名。
-1. 单击“更多”菜单![](assets/more-icon.png)，然后单击&#x200B;**编辑**。
+1. 单击用户名右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)，然后单击&#x200B;**编辑**。
 
-1. 在出现的&#x200B;**编辑人员**&#x200B;框中，单击&#x200B;**访问**。
-
+   此时会显示&#x200B;**编辑人员**&#x200B;框。
+1. 单击左侧面板中的&#x200B;**访问**。
 1. 在&#x200B;**访问级别**&#x200B;下拉列表中，选择&#x200B;**系统管理员**&#x200B;访问级别。
 
    根据系统中进行的更改，此访问级别的名称可能已更改。
@@ -78,7 +82,7 @@ ht-degree: 1%
 
 ## Workfront管理员的访问权限与具有管理权限的计划用户的访问权限  {#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights}
 
-以下两个表显示了具有Workfront管理员访问级别的用户的访问权限与具有某些管理权限的计划许可证用户的访问权限之间的区别。
+以下两个表显示了具有Workfront系统管理员访问级别的用户的访问权限与具有某些管理权限的计划许可证用户的访问权限之间的区别。
 
 Workfront管理员可以查看系统中的所有对象（无论对象是由谁创建的）、创建新对象，以及修改或删除现有对象。 用户拥有系统中所有对象的完全访问权限。
 
@@ -108,27 +112,27 @@ Workfront管理员可以查看系统中的所有对象（无论对象是由谁�
   <tr> 
    <td>项目首选项：项目</td> 
    <td>完全访问</td> 
-   <td>无权访问</td> 
+   <td>无访问权限</td> 
   </tr> 
   <tr> 
    <td>项目首选项：任务和问题</td> 
    <td>完全访问</td> 
-   <td>无权访问</td> 
+   <td>无访问权限</td> 
   </tr> 
   <tr> 
    <td>项目首选项：状态</td> 
    <td>完全访问</td> 
-   <td> <p>无权访问</p> </td> 
+   <td> <p>无访问权限</p> </td> 
   </tr> 
   <tr> 
    <td>项目首选项：优先级</td> 
    <td>完全访问</td> 
-   <td>无权访问</td> 
+   <td>无访问权限</td> 
   </tr> 
   <tr> 
    <td>项目首选项：严重程度</td> 
    <td>完全访问</td> 
-   <td>无权访问</td> 
+   <td>无访问权限</td> 
   </tr> 
   <tr> 
    <td>项目首选项：汇率</td> 
@@ -203,12 +207,12 @@ Workfront管理员可以查看系统中的所有对象（无论对象是由谁�
   <tr> 
    <td>时间表和小时数：首选项</td> 
    <td>完全访问</td> 
-   <td>无权访问</td> 
+   <td>无访问权限</td> 
   </tr> 
   <tr> 
    <td>电子邮件：通知：事件通知</td> 
    <td>全部激活/取消激活</td> 
-   <td>无权访问</td> 
+   <td>无访问权限</td> 
   </tr> 
   <tr> 
    <td>电子邮件：通知：提醒通知</td> 
@@ -223,7 +227,7 @@ Workfront管理员可以查看系统中的所有对象（无论对象是由谁�
   <tr> 
    <td>电子邮件：自动提醒</td> 
    <td>完全访问</td> 
-   <td>无权访问</td> 
+   <td>无访问权限</td> 
   </tr> 
   <tr> 
    <td>电子邮件：邀请</td> 
@@ -233,7 +237,7 @@ Workfront管理员可以查看系统中的所有对象（无论对象是由谁�
   <tr> 
    <td>电子邮件：设置</td> 
    <td>完全访问</td> 
-   <td> <p>无权访问</p> </td> 
+   <td> <p>无访问权限</p> </td> 
   </tr> 
   <tr> 
    <td>记分卡</td> 
@@ -243,12 +247,12 @@ Workfront管理员可以查看系统中的所有对象（无论对象是由谁�
   <tr> 
    <td>费用类型</td> 
    <td>完全访问</td> 
-   <td> <p>无权访问</p> </td> 
+   <td> <p>无访问权限</p> </td> 
   </tr> 
   <tr> 
    <td>风险类型</td> 
    <td>完全访问</td> 
-   <td>无权访问</td> 
+   <td>无访问权限</td> 
   </tr> 
   <tr> 
    <td>访问级别</td> 
@@ -283,7 +287,7 @@ Workfront管理员可以查看系统中的所有对象（无论对象是由谁�
   <tr> 
    <td>接口：列表控件</td> 
    <td>完全访问</td> 
-   <td> <p>无权访问</p> </td> 
+   <td> <p>无访问权限</p> </td> 
   </tr> 
   <tr> 
    <td>文档：云提供商</td> 
@@ -293,7 +297,7 @@ Workfront管理员可以查看系统中的所有对象（无论对象是由谁�
   <tr> 
    <td>文档：元数据映射</td> 
    <td>完全访问</td> 
-   <td>无权访问</td> 
+   <td>无访问权限</td> 
   </tr> 
   <tr> 
    <td>文档：SharePoint集成</td> 
@@ -308,37 +312,37 @@ Workfront管理员可以查看系统中的所有对象（无论对象是由谁�
   <tr> 
    <td>系统：品牌</td> 
    <td>完全访问</td> 
-   <td>无权访问</td> 
+   <td>无访问权限</td> 
   </tr> 
   <tr> 
    <td>系统：客户信息</td> 
    <td>完全访问</td> 
-   <td>无权访问</td> 
+   <td>无访问权限</td> 
   </tr> 
   <tr> 
    <td>系统：单点登录(SSO)</td> 
    <td>完全访问</td> 
-   <td>无权访问</td> 
+   <td>无访问权限</td> 
   </tr> 
   <tr> 
    <td>系统：更新SSO的用户</td> 
    <td>完全访问</td> 
-   <td>无权访问</td> 
+   <td>无访问权限</td> 
   </tr> 
   <tr> 
    <td>系统： Kick-Starts</td> 
    <td>完全访问</td> 
-   <td>无权访问</td> 
+   <td>无访问权限</td> 
   </tr> 
   <tr> 
    <td>系统：诊断</td> 
    <td>完全访问</td> 
-   <td>无权访问</td> 
+   <td>无访问权限</td> 
   </tr> 
   <tr> 
    <td>系统：首选项</td> 
    <td>完全访问</td> 
-   <td>无权访问</td> 
+   <td>无访问权限</td> 
   </tr> 
  </tbody> 
 </table>
@@ -408,7 +412,7 @@ Workfront管理员可以查看系统中的所有对象（无论对象是由谁�
    <td>管理他们创建的模板或与他们共享的模板</td> 
   </tr> 
   <tr> 
-   <td>工时表</td> 
+   <td>时间表</td> 
    <td>完全访问</td> 
    <td>完全访问</td> 
   </tr> 

@@ -2,13 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '筛选器：个人任务'
+title: 筛选器：个人任务
 description: 此任务过滤器返回发送给用户的临时工作请求，或者返回用户在其“主页”区域添加的待办事项。 个人任务未连接到项目，但如果需要，可将其移动到项目。
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
+exl-id: 204cfae1-7c57-4223-9e00-ac94e1e2ba3a
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 0%
 
 <!--Audited: 10/2024-->
 
-此任务过滤器返回发送给用户的临时工作请求，或者返回用户在其“主页”区域添加的待办事项。
+此任务过滤器返回发送给用户的临时工作请求，或者返回用户在“主页”区域的待办事项小部件中添加的待办事项。
 
 临时工作请求和待办事项将作为个人任务保存在Adobe Workfront中。
 
-个人任务未连接到项目，但如果需要，可将其移动到项目。
+个人任务未连接到项目，但如果需要，可将其移动到项目。 有关信息，请参阅[创建个人任务](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md)。
 
 ![](assets/personal-tasks-report.png)
 
@@ -75,7 +76,7 @@ ht-degree: 0%
 1. （视情况而定）选择以下筛选条件：
 
    * 从列表筛选器： **任务** > **个人** **Is True**
-   * 从报表筛选器中： **任务** > **个人** > **等于** > **真**。
+   * 从报表筛选器中： **任务** > **个人** > **相等（区分大小写）** > **真**。
 1. 保存过滤器。
 
    该列表仅显示不在任何项目上的个人任务。

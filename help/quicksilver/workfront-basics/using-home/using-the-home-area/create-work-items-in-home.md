@@ -6,16 +6,18 @@ description: 您可以从[!UICONTROL 主页]区域创建工作项和项目。
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '811'
 ht-degree: 2%
 
 ---
 
 # 从主页区域创建工作项和项目
 
-您可以从[!UICONTROL 主页]区域创建工作项和项目。 在家中，您可以
+您可以从[!UICONTROL 主页]区域创建工作项和项目。
+
+在家中，您可以
 
 * 为自己创建个人待办事项
 * 提交请求
@@ -23,6 +25,8 @@ ht-degree: 2%
 * 从模板、空白项目创建项目或导入MS项目。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -52,11 +56,18 @@ ht-degree: 2%
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
++++
+
 ## 创建个人待办事项
 
-您可以在[!UICONTROL 主页]区域创建个人待办事项。 待办事项是您为自己创建的个人任务。
+您可以在[!UICONTROL 主页]区域的待办事项小部件中创建个人待办事项。 待办事项是您为自己创建的个人任务。
 
 您和其他用户可以在个人任务报告中查看您的个人任务。 如果需要，他们可以将这些资源添加到项目中。
+
+>[!TIP]
+>
+>您从用户配置文件页面发送给其他用户或发送给您自己的工作项，也会显示在用户“主页”区域的待办事项小部件中。 有关信息，请参阅[创建个人任务](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md)。
+
 
 要创建待办事项，请执行以下操作：
 
