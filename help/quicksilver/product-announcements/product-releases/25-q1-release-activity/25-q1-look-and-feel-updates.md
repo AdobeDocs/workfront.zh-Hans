@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 8475e93b27f2c47bf8a25ff3283a61830aa129de
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览版本： 2024年11月6日；适用于所有客户的生产版本： 2024年11月6日
+>预览版本：暂时删除的2024年12月12日；重新发布到生产环境（所有客户）： 2024年12月17日
 
 我们已升级Workfront主导航和辅助导航区域以提高性能。 外观更改很小。
 
