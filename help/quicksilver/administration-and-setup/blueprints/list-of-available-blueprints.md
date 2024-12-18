@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 04d41a8c9c8c04f2e7ef308465328ccc57bd3195
 workflow-type: tm+mt
-source-wordcount: '2019'
+source-wordcount: '2017'
 ht-degree: 0%
 
 ---
@@ -80,11 +80,9 @@ ht-degree: 0%
 此Blueprint包含一个[!DNL Workfront]专业服务组织在与人力资源团队开展实施合作期间使用多年的模板，以提示人力资源专家和招聘经理完成必要活动，使新员工的第一天引人注目。
 
 **离线 | 正在离开用户信息板**
-
 此Blueprint包含一个功能板，其中包含13个报告，可帮助您查找、重新分配或以其他方式管理与离开Workfront的用户相关的对象和分配。 您也可以将这些报告用于移动到新角色或组的用户以重新分配其工作。
 
-[!BADGE 新建]{type=negative}**人员管理员信息板**
-
+**人员管理员信息板**
 此Blueprint包含一个包含12个报表的仪表板，使人员经理可以查看其直接下属的工作。
 
 **[!UICONTROL 实施后：新用例转出]**
@@ -138,7 +136,7 @@ ht-degree: 0%
 
 此Blueprint包含一个包含8个报表的功能板，可帮助您实现Workfront的好处。 这些报告旨在帮助您将面向客户的服务转化为可衡量的价值，以便您能够随着时间的推移跟踪这些价值以实现更好的成果。
 
-[!BADGE 新建]{type=negative}**值实现 | 管理合规性工作流信息板**
+**值实现 | 管理合规性工作流信息板**
 
 此Blueprint包含一个包含7个报表的仪表板，可帮助您实现Workfront的价值。 对于日常使用或高度管控的行业，这些省时的报告通过帮助跟踪和管理工作流和法规遵从性需求，推动责任制并随时间改进成果。
 
