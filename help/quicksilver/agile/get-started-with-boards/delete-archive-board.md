@@ -7,9 +7,9 @@ description: 您可以在Workfront中删除或存档展示板。 删除展示板
 author: Lisa
 feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 3e33ba722ff066fd7fec8c7762c63e8c8d3fc4b8
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 # 删除或存档展示板
 
 您可以在[!DNL Workfront]中删除或存档讨论区。 删除展示板会将其从[!DNL Workfront]中永久删除，而存档展示板会保留所有信息卡，并允许稍后恢复它。
+
+只有展示板所有者才能删除展示板。
 
 ## 访问要求
 
@@ -58,7 +60,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >您只能删除已创建的展示板，不能删除已添加到的展示板。
+   >您只能删除已创建或已命名为其所有者的展示板，不能删除已添加为成员的展示板。
 
    ![展示板更多菜单](assets/boards-board-more-menu.png)
 

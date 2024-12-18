@@ -6,16 +6,20 @@ description: 用户必须先作为成员添加到展示板，然后才能查看�
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 7ac846d6224663b4e820ab45379a4ab0611514bb
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
 
 # 在讨论区中添加或删除成员
 
+{{highlighted-preview}}
+
 必须将人员和团队作为成员添加到讨论区，然后才能查看讨论区。
+
+默认情况下，展示板的创建者是所有者。 讨论区所有者是唯一可以在“配置”面板中删除该讨论区或更新其筛选器的人员。 <span class="preview">只有系统管理员或当前讨论区所有者才能更改讨论区所有者。</span>
 
 ## 访问要求
 
@@ -80,3 +84,23 @@ ht-degree: 0%
    >[!NOTE]
    >
    >您无法删除讨论区所有者。
+
+<div class="preview">
+
+## 更改讨论区所有者
+
+>[!NOTE]
+>
+>只有系统管理员或当前讨论区所有者才能更改讨论区所有者。 一个展示板只能有一个所有者。
+
+1. 访问展示板。
+1. 单击讨论区名称旁边的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单![更多菜单](assets/more-icon-spectrum.png)，然后选择&#x200B;**[!UICONTROL 更改讨论区所有者]**。
+1. 在“更改展示板所有者”对话框中，搜索并选择想要成为该所有者的用户。
+
+   您无法搜索已经是讨论区成员的用户。 要使现有成员成为所有者，必须先将其从展示板中移除。 将用户设为展示板所有者，会将其添加到展示板。
+
+   只有用户才能成为讨论区所有者。 团队不能是所有者。
+
+1. 单击&#x200B;[!UICONTROL **更新**]。
+
+</div>
