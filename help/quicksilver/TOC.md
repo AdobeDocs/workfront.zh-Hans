@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 3f10e64745b95e4c7d668d798a6c71469948d617
 workflow-type: tm+mt
-source-wordcount: '14699'
+source-wordcount: '14715'
 ht-degree: 2%
 
 ---
@@ -184,6 +184,7 @@ ht-degree: 2%
          * [21.1其他增强功能](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion发布活动{#fusion-release}
          * [Adobe Workfront Fusion发布活动](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Workfront Fusion发布活动： 2024年12月16日开始的周](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-12-16.md)
          * [Workfront Fusion发布活动： 2024年12月2日开始的周](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-12-2.md)
          * [Workfront Fusion发行活动： 2024年11月25日开始的周](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-25.md)
          * [Workfront Fusion发行活动： 2024年11月11日开始的周](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-11.md)
@@ -2264,6 +2265,7 @@ ht-degree: 2%
       * [使用Adobe Workfront Fusion DevTool调试场景](workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md)
       * [使用AI生成场景区段](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
       * [在Adobe Workfront Fusion中运行场景评分专家](/help/quicksilver/workfront-fusion/scenarios/run-scenario-scoring.md)
+      * [使用cURL添加HTTP模块](/help/quicksilver/workfront-fusion/scenarios/use-curl-create-http.md)
       * Adobe Workfront Fusion场景模板{#fusion-scenario-templates}
          * [方案模板](workfront-fusion/scenarios/templates/fusion-templates.md)
          * [[!DNL Fusion]模板概述](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)
@@ -2342,6 +2344,7 @@ ht-degree: 2%
       * [图像模块](workfront-fusion/apps-and-their-modules/image-module.md)
       * [Jira软件模块](workfront-fusion/apps-and-their-modules/jira-software-modules.md)
       * [JSON 模块](workfront-fusion/apps-and-their-modules/json-modules.md)
+      * [JSONata模块](workfront-fusion/apps-and-their-modules/jsonata-module.md)
       * [JWT模块](workfront-fusion/apps-and-their-modules/jwt-modules.md)
       * [MariaDB模块](workfront-fusion/apps-and-their-modules/mariadb-modules.md)
       * [Markdown模块](workfront-fusion/apps-and-their-modules/markdown-modules.md)

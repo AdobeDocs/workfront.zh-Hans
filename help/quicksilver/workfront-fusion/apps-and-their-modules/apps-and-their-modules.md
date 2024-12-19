@@ -10,9 +10,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: 84246c2720e54e270de217167e88e803a92fdafc
+source-git-commit: 4cc881f4f5a28bd105e6898ad7ffb57c1dafb563
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '233'
 ht-degree: 19%
 
 ---
@@ -87,6 +87,7 @@ ht-degree: 19%
 * [图像模块](../../workfront-fusion/apps-and-their-modules/image-module.md)
 * [[!DNL Jira] 软件模块](../../workfront-fusion/apps-and-their-modules/jira-software-modules.md)
 * [[!UICONTROL JSON]模块](../../workfront-fusion/apps-and-their-modules/json-modules.md)
+* [[!UICONTROL JSONata]模块](../../workfront-fusion/apps-and-their-modules/jsonata-module.md)
 * [[!UICONTROL JWT]模块](../../workfront-fusion/apps-and-their-modules/jwt-modules.md)
 * [[!DNL MariaDB] 模块](../../workfront-fusion/apps-and-their-modules/mariadb-modules.md)
 * [[!UICONTROL 标记]模块](../../workfront-fusion/apps-and-their-modules/markdown-modules.md)
