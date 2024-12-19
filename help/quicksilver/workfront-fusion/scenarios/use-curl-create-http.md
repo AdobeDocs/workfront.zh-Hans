@@ -6,10 +6,11 @@ title: 使用cURL添加HTTP模块
 description: 您可以将cURL请求粘贴到场景中，然后Fusion会创建根据cURL请求配置的HTTP模块。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 4cc881f4f5a28bd105e6898ad7ffb57c1dafb563
+exl-id: 5eac3e87-0dd3-4bad-ae3e-77264329b717
+source-git-commit: 785f39fabcb19233fd1bc79c14222225a3ea72a2
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 0%
+source-wordcount: '283'
+ht-degree: 1%
 
 ---
 
@@ -69,10 +70,6 @@ ht-degree: 0%
 要使用cURL创建HTTP模块，请执行以下操作：
 
 1. 在Fusion之外创建cURL请求的文本，例如在文本编辑器中。
-
-   >[!IMPORTANT]
-   >
-   >如果在Windows计算机上使用Fusion，则cURL请求不得包含换行符。
 1. 将cURL请求复制到剪贴板。
 1. 单击左侧面板中的&#x200B;**[!UICONTROL 方案]**&#x200B;选项卡。
 1. 选择要创建模块的方案。
@@ -89,10 +86,6 @@ ht-degree: 0%
 
 ## 故障排除
 
-如果您的cURL未粘贴到场景中，请检查以下各项：
-
-* 检查您的浏览器设置，确保已启用从剪贴板进行粘贴。
-* 如果您正在运行Windows，请检查cURL请求以确保它不包含换行符。
-
+如果cURL未粘贴到场景中，请检查浏览器设置以确保启用从剪贴板粘贴。
 
 
