@@ -6,9 +6,9 @@ description: 您可以在画布功能板中查看审批指标。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
-source-git-commit: 53db0a80026d003250e3b31063fb9a502d2ddce1
+source-git-commit: 9c86cf877e0d1bbb0c4700dfc362062028496e3c
 workflow-type: tm+mt
-source-wordcount: '2054'
+source-wordcount: '1991'
 ht-degree: 1%
 
 ---
@@ -45,10 +45,6 @@ ht-degree: 1%
 您可以通过KPI和图表查看有关文档审批的高级信息。 深入分析信息当前在Beta版中不可用。
 
 ### 关键绩效指标
-
->[!IMPORTANT]
->
->新文档审批数据当前在美国山区时区的晚上刷新。 计划将会推出实时更新。
 
 ![KPI示例](assets/kpi-dashboard.png)
 
@@ -129,10 +125,6 @@ ht-degree: 1%
 
 ### 图表
 
->[!IMPORTANT]
->
->新文档审批数据当前在美国山区时区的晚上刷新。 计划将会推出实时更新。
-
 ![图表示例](assets/chart-dashboard.png)
 
 #### 按决策条形图显示的审批
@@ -179,10 +171,6 @@ ht-degree: 1%
 1. 单击屏幕右上角的&#x200B;**完成**。
 
 ## 使用表格添加详细的审阅和批准信息
-
->[!IMPORTANT]
->
->新文档审批数据当前在美国山区时区的晚上刷新。 计划将会推出实时更新。
 
 ![表示例](assets/table-dashboard.png)
 

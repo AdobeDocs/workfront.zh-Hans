@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 1f27c7e56681fe8c22141b0a98b3dcdb547366d5
+source-git-commit: 449a8bbdacb77db2f8c697573bc8fa74641522e7
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '929'
 ht-degree: 6%
 
 ---
@@ -172,13 +172,14 @@ ht-degree: 6%
 
 ## 在预览中筛选并按优先级对您的工作进行分组
 
-### 筛选您的工作
+### 使用标准筛选器筛选您的工作
 
 您可以筛选分配给您的任务和问题。
 
 {{step1-to-priorities}}
 
 1. 单击工作列表左上角的&#x200B;**筛选器**。
+1. 单击&#x200B;**标准筛选器**。
 1. 选择一个或多个筛选器以缩小工作项的范围。
    ![](assets/filter-new.png)
 
@@ -243,6 +244,23 @@ ht-degree: 6%
 
 1. （可选）单击&#x200B;**返回默认值**&#x200B;以重置您的选择。
 
+### 使用智能筛选器筛选您的工作
+
+使用自然语言快速筛选筛选工作。
+
+{{step1-to-priorities}}
+
+1. 单击工作列表左上角的&#x200B;**筛选器**。
+1. 单击&#x200B;**智能滤镜**。
+1. 键入您希望如何筛选您的工作。
+
+   您可以键入以下内容
+
+   * 显示迟到任务
+   * 显示我的首要任务
+   * 显示今天到期的工作
+
+
 ### 将您的工作分组
 
 {{step1-to-priorities}}
@@ -261,6 +279,8 @@ ht-degree: 6%
 | 状态 | 此操作按以下状态对项目进行分组：新建、进行中、完成。 <br>注意：目前无法在“优先级”中使用自定义状态。 |
 
 +++
+
+
 
 ### 对您的工作排序
 

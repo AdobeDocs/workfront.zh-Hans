@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: edc817b305622d704a1543b1e288731fc3bbff33
+source-git-commit: c709219fa78ed2742bd9b7286e35c09d1b3927ba
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '1002'
 ht-degree: 3%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 3%
 
 ### 查找使用过滤器的工作
 
-使用筛选器查找最重要的工作。 您可以通过以下方式筛选分配给您的任务和问题：
+使用筛选器查找最重要的工作。 <span class="preview">您可以使用自然语言来查找智能筛选器的工作</span>，也可以使用标准筛选器来查找分配给您的任务和问题：
 
 <table>
   <tbody>
@@ -166,11 +166,6 @@ ht-degree: 3%
 ![](assets/upload-file.png)
 <!--new screen for prod ![](assets/update-log-upload.png)-->
 
-### 查看文档[!BADGE 即将推出]{type=Informative}
-
-“文档”选项卡允许您查看与工作项相关的所有文件。 您将能够按名称、文件类型或人员筛选文档，并按名称和上传日期排序。
-
-您还可以打开文档或验证。
 
 ### 添加快速链接
 
@@ -180,21 +175,33 @@ ht-degree: 3%
 
 有关详细信息，请参阅[在优先级](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)中添加和管理快速链接。
 
-### 审阅并批准资源[!BADGE 即将推出]{type=Informative}
+### 查看文档[!BADGE 在预览中可用]{type=Informative}
 
-审核和批准资产的功能列在“优先级”路线图上。
+“文档”选项卡允许您查看与工作项相关的所有文件。 您将能够按名称、文件类型或人员筛选文档，并按名称和上传日期排序。
 
-目前，我们建议在新主页中使用我的审批和所有审批构件。
+您还可以打开文档或验证。
 
-有关详细信息，请参阅[添加、编辑或删除主页中的小组件](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)。
+### 审阅并批准可在预览]中使用的资源[!BADGE {type=Informative}
+
+从任务或问题的文档选项卡中，您可以
+
+* 创建简单或高级验证
+* 启动验证查看者，以发表评论并做出决策
 
 
 ## 使用[!DNL Catch me up]查看您错过了什么[!BADGE 即将推出]{type=Informative}
 
 使用[!DNL Catch me up]功能查看您错过了哪些内容。 “赶上我们”将在以下时间范围内概述有关您项目的更新、上传的文档、批准和其他显着更改：24小时、3天、7天。
 
+<!--For more information, see Catch up on work in Priorities /help/quicksilver/workfront-basics/priorities/catch-me-up.md.-->
 
 ![](assets/catch-me-up.png)
+
+<!--need new screen for prod-->
+
+## 在详细信息页面[!BADGE 上查看预览]中可用的实时更新{type=Informative}
+
+您可以在任务或问题的详细信息页面上查看实时更新。 您还可以通过实时在线状态指示器查看其他人是否与您同时查看页面。
 
 ## 注意事项
 

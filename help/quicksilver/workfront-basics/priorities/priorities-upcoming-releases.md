@@ -1,12 +1,12 @@
 ---
 navigation-topic: get-started-with-workfront
-title: '优先级：即将发布的版本'
+title: 优先级：即将发布的版本
 description: 查看有关即将发布的优先级版本的信息
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 749f4da8-6ffb-4b23-bf3e-18f195df80c9
-source-git-commit: a6ab22e62fa15c6922d7f749b2df7350f6d7b5a6
+source-git-commit: 220702225d4f7986b93a43ccc4c33160f7463619
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 # 优先级：即将发布的版本
 
 我们很高兴向大家展示我们为“优先任务”所做的工作。 使用Workfront的“优先级”区域中的“反馈”按钮，告诉我们您接下来想要查看的内容！
+
+
 
 <table>
   <tr>
@@ -37,6 +39,25 @@ ht-degree: 0%
 </table>
 
 
+
 >[!IMPORTANT]
 >
 >此表格中列出的项目有计划但不是保证的。
+
+
+
+
+<!--
+
+<table>
+  <tr>
+    <td><strong>Upcoming</strong>
+   <p>More upcoming features will be added soon</p>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Planned</strong>
+<p>More planned features will be added soon</p>
+    </td>
+  </tr>
+</table> -->

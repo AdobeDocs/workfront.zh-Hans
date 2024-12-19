@@ -6,7 +6,7 @@ description: 您可以创建批准模板以简化批准流程。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
-source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
+source-git-commit: a077266bf91beca1fb6a7a841220f11ebd6687ea
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # 创建资产和文档的审批模板
 
-在Workfront设置区域中，具有Standard许可证的用户可以创建可靠的审批模板。 创建后，审批模板可应用于项目、任务或问题的文档区域中的资产。
+在Workfront设置区域中，具有Standard许可证的用户可以创建可重复使用的审批模板。 创建后，审批模板可应用于项目、任务或问题的文档区域中的资产。
 
 >[!IMPORTANT]
 >
@@ -59,7 +59,7 @@ ht-degree: 2%
 
    | 模板名称 | 开始键入此模板的名称。 |
    |----------------------------|---|
-   | **（可选）时间范围** | 以天为单位输入时间范围。 将模板应用于资产后，会从此字段计算审批截止日期。 |
+   | **（可选）时间范围** | 以天为单位输入时间范围。 将模板应用于资产后，将根据此字段计算审批截止日期。 |
    | **添加批准者或审阅者** | 开始键入用户或团队的名称，然后将其指定为审阅者或审批者。 |
 
 1. 单击&#x200B;**保存**。

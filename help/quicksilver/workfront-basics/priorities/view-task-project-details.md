@@ -6,18 +6,18 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: cd60710c8002d090bf1ed7a300d3e600d98032b1
+source-git-commit: 5e33bdb50b2f283606d3a7a74edaec701de60bca
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 1%
+source-wordcount: '395'
+ht-degree: 2%
 
 ---
 
-# 在“优先级”工作列表中查看项目和任务详细信息
+# 在优先级中查看项目和任务详细信息
 
 <span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
-您可以在优先级工作列表中查看项目和任务详细信息。
+您可以在优先级工作列表中查看项目、任务和问题的详细信息。
 
 ## 访问要求
 
@@ -57,7 +57,9 @@ ht-degree: 1%
 
 +++
 
-## 查看项目详细信息
+## 在工作列表侧面板中查看详细信息
+
+### 查看项目详细信息
 
 {{step1-to-priorities}}
 
@@ -72,7 +74,7 @@ ht-degree: 1%
    ![项目详细信息](assets/project-details.png)
    <!--new screen for prod ![](assets/project-details-new.png)-->
 
-## 查看任务详细信息
+### 查看任务详细信息
 
 {{step1-to-priorities}}
 
@@ -80,10 +82,47 @@ ht-degree: 1%
 1. 默认情况下选择任务。 在这里，您可以
    * 查看和编辑项目详细信息和描述
    * 查看和添加项目评论
-   * 查看和添加文档
+   * <span class="preview">查看并添加文档</span>
+   * <span class="preview">创建校对</span>
    * 记录时间
    * 添加文件
    * 添加快速链接
 
    ![任务详细信息](assets/task-details.png)
    <!--new screen for prod ![](assets/task-details-new.png)-->
+
+### 查看问题详细信息
+
+{{step1-to-priorities}}
+
+1. 在工作列表中，将鼠标悬停在工作名称上，然后单击&#x200B;**摘要**&#x200B;图标![打开摘要图标](assets/summary-icon.png)。
+1. 默认情况下，问题处于选中状态。 在这里，您可以
+   * 查看和编辑项目详细信息和描述
+   * 查看和添加项目评论
+* <span class="preview">查看并添加文档</span>
+* <span class="preview">创建校对</span>
+   * 记录时间
+   * 添加文件
+   * 添加快速链接
+
+  <!--new screen for prod ![issue details](assets/issue-details.png)-->
+
+## 在“详细信息”页面上查看详细信息
+
+<span class="preview">您可以在任务或问题的详细信息页面上查看实时更新。 您还可以查看其他人是否与您同时查看该页面以及实时在线状态指示器。</span>
+
+## 查看工作项详细信息
+
+{{step1-to-priorities}}
+
+1. 在工作列表中，单击工作项名称。 在“详细信息”页面上，您可以
+
+* 查看和编辑项目详细信息和描述
+* 查看和添加项目评论
+* <span class="preview">查看并添加文档</span>
+* <span class="preview">创建校对</span>
+* 记录时间
+* 添加文件
+* 添加快速链接
+
+<!-- screenshot for prod-->
