@@ -6,9 +6,9 @@ description: 您可以创建功能板以快速访问Adobe Workfront中的信息�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 008713ef6587041310388c05909ad5f78fb9fa4c
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '499'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--Audited: 01/2024-->
 
-您可以创建功能板以快速访问Adobe Workfront中的信息。 可以将报告、日历和外部页面添加到功能板，以便与他人共享以实现最佳协作。
+您可以创建功能板以快速访问Adobe Workfront中的信息。 最多可以将25个报告、日历和外部页面添加到功能板，您可以与其他人共享这些功能板以实现最佳协作。
 
 要了解有关仪表板的更多信息，请参阅[仪表板入门](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)。
 
@@ -86,7 +86,7 @@ ht-degree: 1%
       <td><p>这是仪表板的名称。</p><p>如果未指定名称，缺省情况下，操控板上第一个报表的名称将变为操控板的名称。</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>描述（可选）</strong></td>
+      <td role="rowheader"><strong>描述（非必要）</strong></td>
       <td>这是仪表板的描述。</td>
      </tr>
     </tbody>

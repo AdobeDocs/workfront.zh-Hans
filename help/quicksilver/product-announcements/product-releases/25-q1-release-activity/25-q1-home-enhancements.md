@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: 8b0c40d6fa5898581c50d6257bc2b2f2a4838b06
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '571'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,58 @@ ht-degree: 1%
 本页介绍了在2025年第一季度版本中对“预览”环境做出的所有主页增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2025年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2025年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
+
+<!--## Catch up on work in Priorities
+
+>[!NOTE]
+>
+>Preview release: December 20, 2024; Production release for all customers: With the 25.1 release (January 2025)
+>
+>_This feature is only available for customers on the Unified Adobe Experience using the AI Assistant._
+
+You can use Catch me up to help reduce the amount of time looking for information on active projects. 
+
+Powered by Workfront's AI Assistant, Catch me up summarizes updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, or 7 days.
+
+For more information, see [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).-->
+
+## 在优先级的“详细信息”页面上实时查看更改
+
+>[!NOTE]
+>
+>预览版本： 2024年12月19日；适用于所有客户的生产版本：使用25.1版本（2025年1月）
+
+您现在可以在任务或问题的详细信息页面上查看实时更新。 您还可以通过实时在线状态指示器查看其他人是否与您同时查看页面。
+
+有关详细信息，请参阅“优先级”工作列表](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)中的[查看项目和任务详细信息。
+
+## 在优先级中上传和查看文档和验证
+
+>[!NOTE]
+>
+>预览版本： 2024年12月19日；适用于所有客户的生产版本：使用25.1版本（2025年1月）
+
+您现在可以与任务和问题的文档和验证进行交互。 在新的“文档”选项卡中，您可以
+
+* 上传文档
+* 创建验证
+* 启动验证查看器
+* 等等
+
+<!--For more information, see [Upload Documents and create proofs in Priorities](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md).-->
+
+## 日历视图现在可在“优先级”中使用
+
+>[!NOTE]
+>
+>预览版本： 2024年12月19日；适用于所有客户的生产版本：使用25.1版本（2025年1月）
+
+使用清晰、直观的月份日历轻松跟踪您的工作。 使用优先级日历，您可以
+
+* 使用筛选器查找您的工作
+* 显示状态和焦点级别等字段
+* 应用颜色以快速确定优先级
+* 等等
 
 ## “优先级”工作列表的更新
 

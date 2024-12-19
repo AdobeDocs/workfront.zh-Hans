@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '2187'
+source-wordcount: '2207'
 ht-degree: 0%
 
 ---
@@ -340,10 +340,8 @@ ht-degree: 0%
                         <li>
                             <p>用于快速发布的生产：使用24.5版本（2024年5月16日）</p>
                         </li>
-                        <li>
-                            <p>适用于所有客户的生产版本：即将宣布</p>
-                        </li>
                     </ul>
+                <p><i>此功能将从2024年12月19日的“预览”版本和25.1版（2025年1月）的快速发布生产版中删除。</i></p>
                 </td>
             </tr>
             <tr>
@@ -360,10 +358,8 @@ ht-degree: 0%
                         <li>
                             <p>用于快速发布的生产：使用24.5版本（2024年5月16日）</p>
                         </li>
-                        <li>
-                            <p>适用于所有客户的生产版本：即将宣布</p>
-                        </li>
                     </ul>
+                <p><i>此功能将从2024年12月19日的“预览”版本和25.1版（2025年1月）的快速发布生产版中删除。</i></p>
                 </td>
             </tr>
         </tbody>
@@ -469,7 +465,7 @@ ht-degree: 0%
                             <p>适用于所有客户的生产版本：使用24.10版本（2024年10月17日）</p>
                         </li>
                     </ul>
-                    <p><i>仅适用于具有其中一个新Adobe Workfront计划的组织。 Data Connect包含在Ultimate计划中，并将于2025年上半年作为Prime和Select计划的附加产品提供。</i></p>
+                    <p><i>仅适用于具有其中一个新Adobe Workfront计划的组织。 Data Connect包含在Ultimate计划中，并将于2025年上半年作为Prime和Select计划的附加组件提供购买。</i></p>
                 </td>
             </tr>
         </tbody>
@@ -523,7 +519,7 @@ ht-degree: 0%
                         <li>提供来自Experience League文档的信息，将说明和参考资料引入Workfront，同时链接到更深入的文档。</li>
                         <li>为已计算的自定义表单字段创建和优化公式，从文本提示生成公式，或在现有公式中查找错误。</li>
                         </ul>
-                        <p>您的Workfront管理员可以为您的组织启用或禁用AI助手。 AI助手适用于Select、Prime和Ultimate计划的实例。</p>
+                        <p>您的Workfront管理员可以为您的组织启用或禁用AI助手。 AI助手适用于具有Select、Prime和Ultimate计划的实例。</p>
                     </td>
                 <td><p><b>在以下日期可用：</b></p>
                     <ul>

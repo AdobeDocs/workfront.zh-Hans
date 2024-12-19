@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: fa24040d-0403-4799-b690-c3d172797115
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,16 @@ ht-degree: 0%
 本页介绍了在2025年第一季度版本中对“预览”环境所做的所有管理员增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2025年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2025年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
+
+## 在记录小时数时阻止移动任务
+
+>[!NOTE]
+>
+>预览版本： 2024年12月19日；适用于所有客户的生产版本：使用25.1版本（2025年1月）
+
+由于移动记录小时数的任务或问题有时会导致合规性或审核问题，因此我们在“设置”的“任务和问题首选项”区域中添加了一个首选项，该首选项允许您阻止用户在记录小时数的情况下移动任务和问题。 在此增强功能之前，用户可以将任务和问题移动到其他项目，即使在这些项目上记录了小时数。
+
+有关信息，请参阅[配置系统范围的任务和问题首选项](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
 
 ## 用于单次分配任务的项目或用户计划的首选项
 

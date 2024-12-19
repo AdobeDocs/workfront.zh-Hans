@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '2240'
+source-wordcount: '2260'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">JumpSeat集成现在可用于新包类型</a></p><p>[！BADGE In Production ]{type=Informational}</p>
-                        <p>现在，使用一种新包类型（即Select、Prime或Ultimate）的帐户可以使用现有的JumpSeat集成。 要启用集成，您必须仍然拥有有效的JumpSeat订阅。</p>
+                        <p>现在，使用其中一个新包类型(即Select、Prime或Ultimate)的帐户可以使用现有的JumpSeat集成。 要启用集成，您必须仍然拥有有效的JumpSeat订阅。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -371,10 +371,8 @@ ht-degree: 0%
                             <li>
                                 <p>用于快速发布的生产：使用24.5版本（2024年5月16日）</p>
                             </li>
-                            <li>
-                                <p>适用于所有客户的生产版本：即将宣布</p>
-                            </li>
                         </ul>
+                    <p><i>此功能将从2024年12月19日的“预览”版本和25.1版（2025年1月）的快速发布生产版中删除。</i></p>
                     </td>
                  </tr>
                  <tr>
@@ -391,10 +389,8 @@ ht-degree: 0%
                             <li>
                                 <p>用于快速发布的生产：使用24.5版本（2024年5月16日）</p>
                             </li>
-                            <li>
-                                <p>适用于所有客户的生产版本：即将宣布</p>
-                            </li>
                         </ul>
+                    <p><i>此功能将从2024年12月19日的“预览”版本和25.1版（2025年1月）的快速发布生产版中删除。</i></p>
                     </td>
                  </tr>
            </tbody>

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 8b0c40d6fa5898581c50d6257bc2b2f2a4838b06
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '1728'
+source-wordcount: '2295'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,14 @@ ht-degree: 0%
 
 ## Adobe Workfront增强功能
 
-* [管理员增强功能](#administrator-enhancements)<!--* [Boards enhancements](#boards-enhancements)-->
+* [管理员增强功能](#administrator-enhancements)
+* [展示板增强功能](#boards-enhancements)
 * [文档管理增强功能](#document-management-enhancements)
 * [主页增强功能](#home-enhancements)
+* [项目增强功能](#project-enhancements)
 * [校对增强功能](#proofing-enhancements)
 * [报表和功能板增强功能](#report-and-dashboard-enhancements)
+* [更新流增强功能](#update-stream-enhancements)
 * [其他增强功能](#other-enhancements)
 
 ### 管理员增强功能
@@ -55,6 +58,20 @@ ht-degree: 0%
             <p><span class="bold">发行日期</span></p>
         </td>
     </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            在记录小时数时阻止移动任务</a></p>
+            <p>由于移动记录小时数的任务或问题有时会导致合规性或审核问题，因此我们在“设置”的“任务和问题首选项”区域中添加了一个首选项，该首选项允许您阻止用户在记录小时数的情况下移动任务和问题。</p>
+        </td>
+        <td>
+            <p><b>在以下日期可用：</b></p>
+            <ul>
+                <li>预览版本： 2024年12月19日</li>
+                <li>适用于所有客户的生产版本：使用25.1版本（2025年1月）</li>
+            </ul>
+        </td>
+    </tr>  
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
@@ -121,7 +138,7 @@ ht-degree: 0%
 </tbody>
 </table>
 
-<!--### Boards enhancements
+### 展示板增强功能
 
 <table>
 <col style="width: 50%;" />
@@ -129,29 +146,29 @@ ht-degree: 0%
 <tbody>
     <tr>
         <td>
-            <p><span class="bold">Feature</span></p>
+            <p><span class="bold">功能</span></p>
         </td>
         <td>
-            <p><span class="bold">Release dates</span></p>
+            <p><span class="bold">发行日期</span></p>
         </td>
     </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Change the owner of a board</a></p>
-            <p>The creator of a board is the owner by default. The board owner is the only person who can delete that board or update its filters in the Configure panel. Functionality has been added to allow Workfront system administrators to change the owner of a board. The current owner of a board can also change the owner of that specific board.</p>
+            更改讨论区的所有者</a></p>
+            <p>默认情况下，展示板的创建者是所有者。 讨论区所有者是唯一可以在“配置”面板中删除该讨论区或更新其筛选器的人员。</p>
+            <p>添加了功能，以允许Workfront系统管理员更改展示板的所有者。 讨论区的当前所有者也可以更改该特定讨论区的所有者。</p>
         </td>
         <td>
-            <p><b>Available on these dates:</b></p>
+            <p><b>在以下日期可用：</b></p>
             <ul>
-                <li>Preview release: October 31, 2024</li>
-                <li>Production for fast release: With the 24.11 release (November 14, 2024)</li>
-                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+                <li>预览版本： 2024年12月18日</li>
+                <li>适用于所有客户的生产版本：使用25.1版本（2025年1月）</li>
             </ul>
         </td>
     </tr>
 </tbody>
-</table>-->
+</table>
 
 ### 文档管理增强功能
 
@@ -217,11 +234,79 @@ ht-degree: 0%
             <p><span class="bold">发行日期</span></p>
         </td>
     </tr>
+    <!--<tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Catch up on work in Priorities</a></p>
+            <p>You can use Catch me up to help reduce the amount of time looking for information on active projects.</p>
+            <p>Powered by Workfront's AI Assistant, Catch me up summarizes updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, or 7 days.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: December 20, 2024</li>
+                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+            </ul>
+        </td>
+    </tr>-->
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            在优先级的“详细信息”页面上实时查看更改</a></p>
+            <p>您现在可以在任务或问题的详细信息页面上查看实时更新。 您还可以通过实时在线状态指示器查看其他人是否与您同时查看页面。</p>
+        </td>
+        <td>
+            <p><b>在以下日期可用：</b></p>
+            <ul>
+                <li>预览版本： 2024年12月19日</li>
+                <li>适用于所有客户的生产版本：使用25.1版本（2025年1月）</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            在优先级中上传和查看文档和验证</a></p>
+            <p>您现在可以与任务和问题的文档和验证进行交互。 在新的“文档”选项卡中，您可以</p>
+            <ul>
+                <li>上传文档</li>
+                <li>创建验证</li>
+                <li>启动验证查看器</li>
+                <li>等等</li>
+            </ul>
+        </td>
+        <td>
+            <p><b>在以下日期可用：</b></p>
+            <ul>
+                <li>预览版本： 2024年12月19日</li>
+                <li>适用于所有客户的生产版本：使用25.1版本（2025年1月）</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            日历视图现在可在“优先级”中使用</a></p>
+            <p>使用清晰、直观的月份日历轻松跟踪您的工作。 使用优先级日历，您可以</p>
+            <ul>
+                <li>使用筛选器查找您的工作</li>
+                <li>显示状态和焦点级别等字段</li>
+                <li>应用颜色以快速确定优先级</li>
+                <li>等等</li>
+            </ul>
+        </td>
+        <td>
+            <p><b>在以下日期可用：</b></p>
+            <ul>
+                <li>预览版本： 2024年12月19日</li>
+                <li>适用于所有客户的生产版本：使用25.1版本（2025年1月）</li>
+            </ul>
+        </td>
+    </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             “优先级”工作列表的更新</a></p>
-            [！BADGE New in Preview ]{type=Negative}
             <p>我们更新了“优先级”工作列表，以改进功能并与应用程序的其他领域保持一致。</p>
         </td>
         <td>
@@ -286,7 +371,38 @@ ht-degree: 0%
 </tbody>
 </table>
 
-## 校对增强功能
+### 项目增强功能
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><span class="bold">功能</span></p>
+        </td>
+        <td>
+            <p><span class="bold">发行日期</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            从快速发布环境的预览和生产中删除了更相关的分配</a></p>
+            <p>自2023年12月起一直在“预览”环境中存在的功能以及自2024年3月起一直在“快速发布”的“生产”环境中存在的功能现已移除。 这些功能在分配任务时添加了更相关的智能分配建议。</p>
+        </td>
+        <td>
+            <p><b>在以下日期可用：</b></p>
+            <ul>
+                <li>预览版本： 2024年12月19日</li>
+                <li>适用于所有客户的生产版本：使用25.1版本（2025年1月）</li>
+            </ul>
+        </td>
+    </tr>
+</tbody>
+</table>
+
+### 校对增强功能
 
 <table>
 <col style="width: 50%;" />
@@ -319,7 +435,7 @@ ht-degree: 0%
 </tbody>
 </table>
 
-## 报表和功能板增强功能
+### 报表和功能板增强功能
 
 <table>
 <col style="width: 50%;" />
@@ -336,6 +452,20 @@ ht-degree: 0%
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            仪表板中最多有25个报告、外部页面或日历</a></p>
+            <p>为了保持仪表板性能，我们实施了可放置在仪表板中的报告、外部页面或日历的总数限制。 创建新仪表板时，最多可以添加25个项目。</p>
+        </td>
+        <td>
+            <p><b>在以下日期可用：</b></p>
+            <ul>
+                <li>预览版本： 2024年12月16日</li>
+                <li>适用于所有客户的生产版本：使用25.1版本（2025年1月）</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
             用于Data Connect的首次读取器帐户创建按钮</a></p>
             [！BADGE In Production ]{type=Informational}
             <p>首次访问Data Connect的管理员现在可以选择通过单击单个按钮来创建新的Snowflake读取器帐户。 该过程需要几分钟才能完成，但无需执行进一步操作。</p>
@@ -345,6 +475,37 @@ ht-degree: 0%
             <ul>
                 <li>预览版本： 2024年11月14日</li>
                 <li><span class="preview">适用于所有客户的生产版本： 2024年11月14日</span></li>
+            </ul>
+        </td>
+    </tr>
+</tbody>
+</table>
+
+### 更新流增强功能
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><span class="bold">功能</span></p>
+        </td>
+        <td>
+            <p><span class="bold">发行日期</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            更新了“主页”和“我的更新”区域中“提及”小组件中的评论体验</a></p>
+            <p>我们正在主页的“提及次数”小组件和“我的更新”区域的提及次数部分中更新评论体验。 现在，在大多数Workfront对象的“更新”区域中，相同的体验也可在我的更新的“提及”小组件和“提及”部分中使用。</p>
+        </td>
+        <td>
+            <p><b>在以下日期可用：</b></p>
+            <ul>
+                <li>预览版本： 2024年12月19日</li>
+                <li>适用于所有客户的生产版本：使用25.1版本（2025年1月）</li>
             </ul>
         </td>
     </tr>
