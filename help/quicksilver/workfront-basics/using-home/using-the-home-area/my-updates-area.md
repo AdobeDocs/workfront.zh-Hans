@@ -6,14 +6,19 @@ description: 您可以使用[!UICONTROL 我的更新]区域快速查看等待您
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 57b6453d4e67e1cb70c4233c1150620867f2e9d1
+source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
 
+
 # 使用[!UICONTROL 我的更新]区域
+
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 
 您可以使用[!UICONTROL 我的更新]区域快速查看等待您决策的审批或您已经包含的对话。
@@ -77,9 +82,13 @@ ht-degree: 0%
 
    分配给您的审批和访问请求列在页面前半部分的&#x200B;**我的更新**&#x200B;下。
 
+   <div class="preview">
+
    ![](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
-1. （可选）滚动到[!UICONTROL 我的更新]区域的底部，然后单击向右箭头以显示其他页面上显示的更多批准。
+   </div>
+
+1. （可选）滚动到&#x200B;[!UICONTROL **我的更新**]&#x200B;区域的底部，然后单击向右箭头以显示其他页面上显示的更多批准。
 
    >[!TIP]
    >
@@ -157,7 +166,14 @@ ht-degree: 0%
    * 使用富文本工具栏设置文本格式，向消息中添加链接、列表、表情符号、引号或图像
    * 添加用户或团队以通知他们您的回复。
 
-     添加完回复后，再次单击&#x200B;**[!UICONTROL 回复]**。
+     有关回复更新的详细信息，请参阅[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
+
+     <span class="preview">添加完回复后，单击&#x200B;**[!UICONTROL 提交]**。</span>
+
+     <div class="preview">
 
      ![](assets/reply-in-the-my-updates-area.png)
+
+     </div>
+
 1. （可选）单击&#x200B;**[!UICONTROL 固定当前页面]**&#x200B;以将[!UICONTROL 我的更新]区域固定到顶部导航。

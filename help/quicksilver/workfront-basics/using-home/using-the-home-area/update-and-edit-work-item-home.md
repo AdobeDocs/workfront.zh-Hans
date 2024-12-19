@@ -6,10 +6,10 @@ description: 您可以在Adobe Workfront的[!UICONTROL 主页]区域查看工作
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 4%
+source-wordcount: '906'
+ht-degree: 6%
 
 ---
 
@@ -17,11 +17,16 @@ ht-degree: 4%
 
 <!--Audited: April 2024-->
 
+
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 您可以在[!DNL Adobe Workfront]的[!UICONTROL 主页]区域查看工作项并将更新添加到该区域。 如果您有权限编辑工作项，您还可以编辑与工作项相关的其他数据。
 
-+++ 展开以查看本文中各项功能的访问要求。
-
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -57,36 +62,57 @@ ht-degree: 4%
 
 +++
 
-## 查看工作项的更新
+<!--not sure if this  from the old UI: we don't have a Work List anymore - should this section come off? 
 
-您可以在[!UICONTROL 工作列表]中查看任何工作项的更新：
+## View updates on a work item
+
+You can view updates on any work item in the [!UICONTROL Work List]:
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **[!UICONTROL Home]**.
+1. In the **[!UICONTROL Work List]** area, select the item where you want to view updates.\
+   Updates are displayed in the right panel.
+
+-->
+
+## 可在主页区域中添加注释或编辑项目的构件概述
+
+您可以在“主页”区域的以下小部件中添加注释：
+
+| 小组件 | 描述 |
+|--------------|---------------------------------------------------------------------------------------------------|
+| 展示板 | 显示您已创建或受邀使用的任何讨论区 |
+| 我的工作 | 显示分配给您的任务和问题 |
+| 我的项目 | 显示您拥有的项目或您参与的项目 |
+| 我的任务 | 显示分配给您的任务 |
+| 我的问题 | 显示分配给您的问题 |
+| 我的请求 | 显示您已提交的所有请求 |
+| 我的审批 | 显示所有待处理、已分配、已委派和已提交的审批 |
+| 提及 | 显示在类似于“我的更新”页面的 Workfront 上的近期评论主题和一个“回复”按钮，通过该按钮可在构件中撰写回复。 |
+
+您可以在“主页”区域中编辑以下小部件中的工作项：
+
+| 小组件 | 描述 |
+|--------------|---------------------------------------------------------------------------------------------------|
+| 展示板 | 显示您已创建或受邀使用的任何讨论区 |
+| 我的工作 | 显示分配给您的任务和问题 |
+| 我的项目 | 显示您拥有的项目或您参与的项目 |
+| 我的任务 | 显示分配给您的任务 |
+| 我的问题 | 显示分配给您的问题 |
+| 我的请求 | 显示您已提交的所有请求 |
+| 我的审批 | 显示所有待处理、已分配、已委派和已提交的审批 |
+
+## 在我的工作小部件中的工作项添加评论
+
+您可以在[!UICONTROL 我的工作]构件中提供任意工作项的更新：
 
 1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![](assets/main-menu-icon.png)或左上角的&#x200B;**主菜单** ![](assets/lines-main-menu.png)（如果可用），然后单击&#x200B;**[!UICONTROL 主页]**。
-1. 在&#x200B;**[!UICONTROL 工作列表]**&#x200B;区域，选择要查看更新的项目。\
-   更新将显示在右侧面板中。
+1. （视情况而定）单击&#x200B;**自定义**&#x200B;以添加&#x200B;[!UICONTROL **我的工作**]&#x200B;小组件。
 
+1. 在&#x200B;[!UICONTROL **我的工作**]&#x200B;构件中查找要更新的工作项。
+1. 将鼠标悬停在名称上，然后单击&#x200B;**添加新更新**&#x200B;图标。
 
-
-## 向工作项添加评论
-
-您可以在[!UICONTROL 工作]列表中提供任何工作项的更新：
-
-1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![](assets/main-menu-icon.png)或左上角的&#x200B;**主菜单** ![](assets/lines-main-menu.png)（如果可用），然后单击&#x200B;**[!UICONTROL 主页]**。
-1. （视情况而定）单击&#x200B;**自定义**&#x200B;以添加以下任何小组件：
-
-   | 构件 | 描述 |
-   |--------------|---------------------------------------------------------------------------------------------------|
-   | 展示板 | 显示您已创建或受邀使用的任何讨论区 |
-   | 我的工作 | 显示分配给您的任务和问题 |
-   | 我的项目 | 显示您拥有的项目或您参与的项目 |
-   | 我的任务 | 显示分配给您的任务 |
-   | 我的问题 | 显示分配给您的问题 |
-   | 我的请求 | 显示您已提交的所有请求 |
-   | 我的审批 | 显示所有待处理、已分配、已委派和已提交的审批 |
-
-1. 找到要更新的工作项。
-1. 将鼠标悬停在名称上，然后单击&#x200B;**添加新更新**。
    ![](assets/add-update-on-widget.png)
+
 1. 开始键入您的评论。
 1. （可选）在&#x200B;**为人员或团队添加标签**&#x200B;框中，开始键入要包含在此评论中的用户或团队的名称或电子邮件，然后当该评论显示在列表中时将其选定。
 1. （可选）使用富文本工具栏中的选项设置文本格式，在评论中添加表情符号、链接或图像以增强内容。
@@ -96,24 +122,40 @@ ht-degree: 4%
    >
    >您只能在提交评论后15分钟内对其进行编辑。 要编辑评论，请单击评论右上角的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**编辑**。
 
-有关添加更新的详细信息，请参阅[将更新添加到工作项](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
+   有关添加更新的详细信息，请参阅[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
+
+
+## 在提及小组件的项中添加评论
+
+1. 将&#x200B;**提及**&#x200B;构件添加到您的主页区域。
+
+1. 找到包含在更新中的项目以及要回复的项目。
+
+1. 单击&#x200B;**回复**。
+
+   <div class="preview">
+
+   ![](assets/reply-to-comment-in-mentions-widget.png)
+
+   </div>
+
+1. 开始键入您的评论。
+1. （可选）在&#x200B;<span class="preview">**标记人员**</span>&#x200B;框中，开始键入要包含在此评论中的用户或团队的名称，然后在此评论显示在列表中时将其选定。
+1. （可选）使用富文本工具栏中的选项设置文本格式，在评论中添加表情符号、链接或图像以增强内容。
+1. <span class="preview">单击&#x200B;**提交**&#x200B;以将评论添加到工作项。</span>
+
+   >[!IMPORTANT]
+   >
+   ><span class="preview">您只能在提交评论后15分钟内对其进行编辑。 要编辑评论，请单击评论右上角的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**编辑**.</span>
+
+   <span class="preview">有关添加更新的详细信息，请参阅[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。</span>
 
 ## 编辑工作项
 
 您可以编辑任何您有权编辑的工作项上的任何字段。
 
 1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![](assets/main-menu-icon.png)或左上角的&#x200B;**主菜单** ![](assets/lines-main-menu.png)（如果可用），然后单击&#x200B;**[!UICONTROL 主页]**。
-1. （视情况而定）单击&#x200B;**自定义**&#x200B;以添加以下任何小组件：
-
-   | 构件 | 描述 |
-   |--------------|---------------------------------------------------------------------------------------------------|
-   | 展示板 | 显示您已创建或受邀使用的任何讨论区 |
-   | 我的工作 | 显示分配给您的任务和问题 |
-   | 我的项目 | 显示您拥有的项目或您参与的项目 |
-   | 我的任务 | 显示分配给您的任务 |
-   | 我的问题 | 显示分配给您的问题 |
-   | 我的请求 | 显示您已提交的所有请求 |
-   | 我的审批 | 显示所有待处理、已分配、已委派和已提交的审批 |
+1. （视情况而定）单击&#x200B;**自定义**&#x200B;以添加&#x200B;**我的工作**&#x200B;小组件。
 
 1. 将鼠标悬停在工作项上，然后单击&#x200B;**摘要**图标。
    ![](assets/open-summary-new-home.png)

@@ -6,9 +6,9 @@ description: 您可以使用智能分配来确定谁是完成工作的最佳用�
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
+<span class="preview">此页面上高亮显示的信息指的是“生产”环境中仅供启用快速版本的客户使用的功能。</span>
 
 <span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
-<span class="preview">有关当前版本的信息，请参阅[2024年第四季度版本概述](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)。</span>
+<span class="preview">对于在2025年1月通过25.1版本启用快速发布的客户，此功能将从生产环境中删除。 有关25.1版本的信息，请参阅[2025年第一季度版本概述](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
 
 您可以使用智能分配来确定谁是完成工作的最佳用户。
 

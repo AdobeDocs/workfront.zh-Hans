@@ -9,14 +9,18 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
 workflow-type: tm+mt
-source-wordcount: '1885'
-ht-degree: 2%
+source-wordcount: '2226'
+ht-degree: 1%
 
 ---
 
 # 配置组的任务和问题首选项
+
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 如果贵组织中的组需要独立于系统级别配置任务或问题首选项的方式对其进行配置，Adobe Workfront管理员可以解锁首选项。 然后，作为组管理员，您可以为组配置首选项，这将影响与组关联的所有任务或问题。
 
@@ -91,10 +95,9 @@ ht-degree: 2%
    * [新任务默认值](#new-task-defaults)
    * [问题](#issues)
    * [删除](#deletion)
-
-   <!--* <span class="preview">[Move](#move)</span>-->
-
+   * <span class="preview">[移动](#move)</span>
    * [实际日期](#actual-dates)
+   * [委派](#delegation)
    * [访问权限](#access)
 
 ### 新任务默认值 {#new-task-defaults}
@@ -181,31 +184,27 @@ ht-degree: 2%
    </table>
 
 
-<!-- *****also replace the & with "and" in the Deletion section
-
 <div class="preview">
 
-### Move
+### 移动
 
 <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Allow users to move tasks and issues with logged hours</td> 
-      <td> <p> Lets you determine whether you allow the move of tasks or issues where hours are logged. This option is selected by default.</p> 
-       <p>Consider the following:</p> 
+      <td role="rowheader">允许用户移动有记录小时数的任务和问题</td> 
+      <td> <p> 使您可确定是否允许将任务或问题移动到记录了小时数的位置。 默认情况下，该选项处于选中状态。</p> 
+       <p>请考虑以下事项：</p> 
         <ul> 
-         <li> When it is selected, you can move tasks and issues that have time logged. The hours also move with the tasks or issues. </li>
-      <li>When you deselect this option, you receive a prohibitive warning when you move a task or issue with logged hours. The warning specifies that the administrator does not allow for tasks or issues with logged hours to be moved. The tasks or issues that have hours logged cannot be moved. </li></ul>
+         <li> 选择该选项后，您可以移动已记录时间的任务和问题。 小时数也会随着任务或问题而移动。 </li>
+      <li>取消选择此选项时，您在移动具有记录小时数的任务或问题时收到禁止性警告。 警告指定管理员不允许移动具有记录小时数的任务或问题。 无法移动记录了小时数的任务或问题。 </li></ul>
       </td> 
      </tr> 
     </tbody> 
    </table>
 
 </div>
-
--->
 
 ### 实际日期 {#actual-dates}
 
@@ -255,6 +254,28 @@ ht-degree: 2%
    This setting can be configured both at the system level and at the Team level. Enabling the Start button for everyone in the system automatically disables the same setting at the Team level.
    If the Work On It setting is enabled, then disabled, tasks and issues function with a Work On It button the way they did before.
    -->
+
+### 委派
+
+启用&#x200B;**[!UICONTROL 允许用户委派他们的任务和问题]**&#x200B;设置允许组中的所有用户将其工作暂时委派给其他人。
+
+启用此设置后，组用户可以看到以下内容：
+
+* [!UICONTROL 主页]区域中的[!UICONTROL 我的工作]、[!UICONTROL 我的任务]或[!UICONTROL 我的问题]小组件中的&#x200B;[!UICONTROL **代理**]&#x200B;链接。 他们可以从此处委派任务和问题分配。
+
+  >[!NOTE]
+  >
+  >  [!UICONTROL **委托审批**]&#x200B;链接始终在[!UICONTROL 主页]区域中启用。
+
+* 指示任务或问题已委派给任务或问题标题中[!UICONTROL 任务和委派]区域中的另一个用户。
+* 表示任务或问题已委派给位于[!UICONTROL 主页]中其[!UICONTROL 我的工作]小部件中的其他用户。
+
+  如果禁用[!UICONTROL 允许用户委派其任务和问题]设置，则当前计划的委派将停止，并且委派的用户将收到一封电子邮件通知，告知委派已停止。
+
+有关将工作委派给其他人的信息，请参阅以下文章：
+
+* [委派工作概述](../../../manage-work/delegate-work/delegate-work-overview.md)
+* [委派任务和问题](../../../manage-work/delegate-work/how-to-delegate-work.md)
 
 ### 访问权限 {#access}
 

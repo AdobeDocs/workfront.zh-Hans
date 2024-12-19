@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
 workflow-type: tm+mt
-source-wordcount: '2107'
+source-wordcount: '2279'
 ht-degree: 0%
 
 ---
@@ -22,12 +22,10 @@ ht-degree: 0%
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 Linked to Converting Issues.-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
--->
 
 作为[!DNL Adobe Workfront]管理员，您可以为任务和问题配置系统范围的首选项。 这些首选项会影响用户在[!DNL Workfront]中创建任务和问题的方式。
 
@@ -76,9 +74,7 @@ Linked to Converting Issues.-->
    * [[!UICONTROL 新任务默认值]](#new-task-defaults)
    * [[!UICONTROL 问题]](#issues)
    * [[!UICONTROL 删除]](#deletion)
-
-   <!--* <span class="preview">[Move](#move)</span>-->
-
+   * <span class="preview">[移动](#move)</span>
    * [[!UICONTROL 实际日期]](#actual-dates)
    * [[!UICONTROL 委派]](#delegation)
    * [[!UICONTROL 访问]](#access)
@@ -173,21 +169,17 @@ Linked to Converting Issues.-->
 
 * 取消选择此选项时，当您删除具有记录小时数的任务或问题时，或者当您删除具有记录其任务或问题的小时数的项目时，会收到禁止性警告。 警告指定管理员不允许删除具有记录小时数的任务或问题。 无法删除为任务和问题记录小时数的任务、问题或项目。
 
-<!--*****also replace the & with "and" in the Deletion section
-
 <div class="preview">
 
-### Move
+### 移动
 
-**[!UICONTROL Allow users to move tasks and issues with logged hours]**: Lets you determine whether you allow the move of tasks or issues where hours are logged. This option is selected by default.
+**[!UICONTROL 允许用户移动具有记录小时数的任务和问题]**：允许您确定是否允许将记录小时数的任务或问题移动到此处。 默认情况下，该选项处于选中状态。
 
-* When it is selected, you can move tasks and issues that have time logged. The hours also move with the tasks or issues. 
+* 选择该选项后，您可以移动已记录时间的任务和问题。 小时数也会随着任务或问题而移动。
 
-* When you deselect this option, you receive a prohibitive warning when you move a task or issue with logged hours. The warning specifies that the administrator does not allow for tasks or issues with logged hours to be moved. The tasks or issues that have hours logged cannot be moved. 
+* 取消选择此选项时，您在移动具有记录小时数的任务或问题时收到禁止性警告。 警告指定管理员不允许移动具有记录小时数的任务或问题。 无法移动记录了小时数的任务或问题。
 
 </div>
-
--->
 
 ### [!UICONTROL 实际日期] {#actual-dates}
 
@@ -216,7 +208,7 @@ Linked to Converting Issues.-->
 
 ### 委派
 
-启用&#x200B;**[!UICONTROL 允许用户委派其任务和问题]**&#x200B;设置允许中的所有用户将其工作暂时委派给其他人。
+启用&#x200B;**[!UICONTROL 允许用户委派他们的任务和问题]**&#x200B;设置允许系统中的所有用户将其工作暂时委派给其他人。
 
 启用此设置后，用户可以看到以下内容：
 

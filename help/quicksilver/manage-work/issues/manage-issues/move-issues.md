@@ -6,9 +6,9 @@ description: 您可以在项目和任务之间移动问题。
 author: Alina
 feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '932'
 ht-degree: 1%
 
 ---
@@ -17,12 +17,9 @@ ht-degree: 1%
 
 <!--Audited: 12/2024-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
--->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 您可以在以下对象之间移动问题：
 
@@ -79,13 +76,11 @@ ht-degree: 1%
 * **当文档附加到问题时：**&#x200B;当您将问题移动到另一个对象并且该问题具有附加的文档时，该文档、其版本和验证也移动到新问题。 与文档关联的任何审批都不会移动。
 * **当问题链接到文档或文件夹时：**&#x200B;当您移动具有链接到Google Drive等第三方服务的文档或文件夹的问题时，指向文档的链接将随问题一起移动。
 
-<!--
 <div class="preview">
 
-* Your system or group administrator can prevent you from moving issues that have logged hours, depending on how they configure the Allow users to move tasks and issues with logged hours preference in the Setup area. For information, see [Configure system-wide task and issue preferences](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md). 
+* 您的系统或组管理员可能会阻止您移动已记录小时数的问题，具体取决于他们如何在“设置”区域中配置“允许用户移动已记录小时数任务和问题”首选项。 有关信息，请参阅[配置系统范围的任务和问题首选项](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
 
 </div>
--->
 
 ## 在列表中移动问题
 
