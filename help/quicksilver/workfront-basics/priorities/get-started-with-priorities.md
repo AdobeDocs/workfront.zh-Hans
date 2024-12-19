@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: c709219fa78ed2742bd9b7286e35c09d1b3927ba
+source-git-commit: b637694c598540343383af15658a069c305f6bbf
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '988'
 ht-degree: 3%
 
 ---
@@ -29,7 +29,8 @@ ht-degree: 3%
 
 ### 查找使用过滤器的工作
 
-使用筛选器查找最重要的工作。 <span class="preview">您可以使用自然语言来查找智能筛选器的工作</span>，也可以使用标准筛选器来查找分配给您的任务和问题：
+使用筛选器查找最重要的工作。 <!--<span class="preview">You can use a natural language to find work with the Smart filter</span>, or -->
+您可以使用标准筛选器查找分配给您的任务和问题：
 
 <table>
   <tbody>
