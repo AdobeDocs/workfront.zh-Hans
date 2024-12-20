@@ -6,14 +6,16 @@ description: 使用工作负载均衡器了解资源的可用性并将工作分�
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '4067'
+source-wordcount: '4070'
 ht-degree: 0%
 
 ---
 
 # 导航工作负载均衡器
+
+<!--Audited: 12/2024-->
 
 使用Adobe Workfront中的工作负载均衡器，根据用户的可用性将工作分配给用户。 本文介绍了如何使用设置和选项来导航工作负载均衡器并显示与您相关的信息。 此处列出的其他文章介绍如何使用工作负载均衡器管理您的资源及其工作分配。
 
@@ -36,7 +38,7 @@ ht-degree: 0%
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
    <td><p>新增：标准</p>
        <p>或</p>
        <p>当前：计划，在资源区域使用工作负载均衡器时；</br>
@@ -60,7 +62,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -229,7 +231,7 @@ ht-degree: 0%
 
 1. 单击“未指定”或“已指定”区域左侧的&#x200B;**向下箭头**&#x200B;以折叠项目名称（在“未指定”区域）和用户名（在“已指定”区域）下的所有项。
 
-1. 在左侧面板和时间轴区域之间拖放&#x200B;**分隔线**&#x200B;以调整左侧面板的大小。
+1. 将鼠标悬停在上方，然后将&#x200B;**分隔线**&#x200B;拖放到左侧面板和时间轴区域之间以调整左侧面板的大小。
 
    ![分隔线](assets/wb-adjust-panel-size.png)
 

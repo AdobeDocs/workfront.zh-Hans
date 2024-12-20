@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: fe41b9209d4034e6685db313c8cbfef9c13eda28
+source-git-commit: 046bbabbfe3944d9fea9008ac60547b602f95f68
 workflow-type: tm+mt
-source-wordcount: '14747'
+source-wordcount: '14757'
 ht-degree: 2%
 
 ---
@@ -918,7 +918,7 @@ ht-degree: 2%
    * 主页 {#home}
       * [主页](workfront-basics/using-home/home.md)
       * 使用主页区域{#use-home-area}
-         * [使用“主页”区域](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
+         * [使用主页区域：文章索引](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
          * [主页入门](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
          * [在新主页中添加、编辑或删除构件](workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
          * [在“主页”区域的工作列表中显示项目](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
@@ -1038,7 +1038,7 @@ ht-degree: 2%
          * [Adobe Workfront移动应用程序的提示、技巧和疑难解答](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)
          * [Adobe Workfront移动应用程序上的错误消息：“您的帐户未启用API。”](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
    * Adobe Workfront基础知识的提示、技巧和疑难解答{#tips-tricks-for-basics}
-      * [Adobe Workfront基础知识的提示、技巧和疑难解答](workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
+      * [Adobe Workfront的提示、技巧和故障排除：文章索引](workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
       * [在Adobe Workfront中查找帮助的快速指南](workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md)
       * [在Adobe Workfront中更改日期格式](workfront-basics/tips-tricks-and-troubleshooting/change-date-format-chrome.md)
       * [联系客户支持](workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)
@@ -1049,7 +1049,8 @@ ht-degree: 2%
       * [Workfront Proof Manager权限疑难解答](workfront-basics/tips-tricks-and-troubleshooting/wp-manager-permissions-troubleshooting.md)
       * [过滤器按钮未显示在页眉中](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
       * [我在处理的项目过滤器包括意外结果](workfront-basics/tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
-      * [多个浏览器选项卡会导致Workfront注销](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
+      * [多个浏览器选项卡会导致Workfront注销](workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
+      * [如何共享对象而不生成通知](workfront-basics/tips-tricks-and-troubleshooting/how-to-share-objects-without-sending-out-notifications.md)
 * 敏捷 {#agile}
    * [敏捷](agile/agile.md)
    * [展示板概述](agile/boards-overview.md)

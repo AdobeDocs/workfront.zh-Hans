@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1476'
 ht-degree: 2%
 
 ---
@@ -33,6 +33,11 @@ ht-degree: 2%
 
    * 在转换过程中，可能会询问您是否要使问题及其解决方案与正在创建的项目或任务保持绑定。
    * 如果您保留问题，则当项目、任务或问题发生任何更改或者Workfront重新计算时间线时，项目或任务的状态和完成百分比会自动更新问题的状态和完成百分比。
+
+  >[!NOTE]
+  >
+  >   在问题状态变为“已关闭”（由于关闭任务或项目）后，无论任务或项目在关闭后更改为什么状态，问题仍为“已关闭”。
+
 
 * 将问题转化为任务或项目时，问题会从分配给问题的用户的“主页”区域移除。
 

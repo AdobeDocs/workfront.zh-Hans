@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1553'
 ht-degree: 2%
 
 ---
@@ -150,13 +150,11 @@ ht-degree: 2%
    >    * 创建日期和上次修改日期
    >    * Workfront对象的查找字段
    >    * Workfront Planning已连接记录的查找字段
-   >    * AEM Assets连接的字段
    >* 以下类型的字段不会显示在生产环境的请求表单中。 <span class="preview">它们显示在预览环境中：</span>
    >    * <span class="preview"> Workfront Planning记录&#39;连接的字段</span>
    >    * <span class="preview">人员</span>
    >    * <span class="preview">Workfront对象的已连接字段</span>
    >    * <span class="preview">AEM Assets连接的字段</span>
-
 
    * **默认的分区**：这是Workfront应用于请求表单的默认分区界限。 无法重命名或删除默认部分。
    * **主题**&#x200B;字段：将在Workfront中标识该请求的字段。 此功能在生产环境中尚不可用。 <span class="preview">它在预览环境中可用。</span>“主题”字段的配置和值不可编辑。

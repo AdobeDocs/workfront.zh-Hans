@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '2114'
+source-wordcount: '2182'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,18 @@ ht-degree: 0%
 
 有关2024年8月28日正式发布后为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
+
+## 现在，请求表单中支持使用Adobe Experience Manager资源的连接字段
+
+>[!NOTE]
+>
+>预览版本： 2024年12月20日；适用于所有客户的生产版本： 2025年1月16日
+
+您现在可以将带AEM Assets的连接字段添加到Workfront Planning的记录类型请求表单中。
+
+在此增强功能之前，无法将这些类型的字段添加到请求表单。
+
+有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
 
 ## 为Workfront Planning请求配置批准
 

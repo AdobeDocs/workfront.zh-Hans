@@ -1,22 +1,24 @@
 ---
 content-type: reference
 navigation-topic: home-navigation-topic
-title: 使用“主页”区域
+title: 使用“主页”区域：“文章”索引
 description: 阅读这些文章，了解如何使用Adobe Workfront中的“主页”区域。
 author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
-source-git-commit: 403fcb01d5a06c257e830724e6e02f0936cc106a
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
 
-# 使用“主页”区域
+# 使用主页区域：文章索引
 
-本节包含以下文章：
+<!--Audited: 12/2024-->
+
+阅读这些文章，了解如何使用Adobe Workfront中的“主页”区域。
 
 * [开始使用[!UICONTROL 主页]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
 * [在新主页中添加、编辑或删除构件](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
