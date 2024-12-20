@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
+source-git-commit: c0411d6384170fa0e802d32b9535c4d7235436b4
 workflow-type: tm+mt
-source-wordcount: '2306'
+source-wordcount: '2380'
 ht-degree: 0%
 
 ---
@@ -234,21 +234,21 @@ ht-degree: 0%
             <p><span class="bold">发行日期</span></p>
         </td>
     </tr>
-    <!--<tr>
+    <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Catch up on work in Priorities</a></p>
-            <p>You can use Catch me up to help reduce the amount of time looking for information on active projects.</p>
-            <p>Powered by Workfront's AI Assistant, Catch me up summarizes updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, or 7 days.</p>
+            在优先级中赶超工作</a></p>
+            <p>您可以使用“跟上”来帮助缩短查找有关活动项目信息的时间。</p>
+            <p>通过Workfront的AI助手，“即时查看”功能会在以下时间范围内对您项目的更新、上传的文档和其他显着更改进行汇总：24小时、3天或7天。</p>
         </td>
         <td>
-            <p><b>Available on these dates:</b></p>
+            <p><b>在以下日期可用：</b></p>
             <ul>
-                <li>Preview release: December 20, 2024</li>
-                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+                <li>预览版本： 2024年12月20日</li>
+                <li>适用于所有客户的生产版本：使用25.1版本（2025年1月）</li>
             </ul>
         </td>
-    </tr>-->
+    </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">

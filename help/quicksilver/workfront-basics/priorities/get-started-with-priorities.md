@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: b637694c598540343383af15658a069c305f6bbf
+source-git-commit: c0411d6384170fa0e802d32b9535c4d7235436b4
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '1000'
 ht-degree: 3%
 
 ---
@@ -115,7 +115,7 @@ ht-degree: 3%
 ![](assets/my-focus-column.png)
 <!-- new screen for prod ![](assets/worklist.png) -->
 
-### 使用日历视图[!BADGE 即将推出]{type=Informative}
+### 使用预览中可用的日历视图[!BADGE ]{type=Informative}
 
 日历视图将提供任务和问题的可视化表示形式。 您将能够在一天、一周或一个月视图之间进行选择。 您也可以使用与工作列表类似的方式筛选项目。
 
@@ -190,11 +190,11 @@ ht-degree: 3%
 * 启动验证查看者，以发表评论并做出决策
 
 
-## 使用[!DNL Catch me up]查看您错过了什么[!BADGE 即将推出]{type=Informative}
+## 使用[!DNL Catch me up]查看您错过了什么[!BADGE 预览中可用]{type=Informative}
 
 使用[!DNL Catch me up]功能查看您错过了哪些内容。 “赶上我们”将在以下时间范围内概述有关您项目的更新、上传的文档、批准和其他显着更改：24小时、3天、7天。
 
-<!--For more information, see Catch up on work in Priorities /help/quicksilver/workfront-basics/priorities/catch-me-up.md.-->
+有关详细信息，请参阅[在优先级中更新工作](/help/quicksilver/workfront-basics/priorities/catch-me-up.md)。
 
 ![](assets/catch-me-up.png)
 
