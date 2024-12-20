@@ -6,7 +6,7 @@ description: 您可以将附加批准者或审阅者添加到已具有待审批�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 0b92e1b80aab05e1deb4651ef41f2a042d697e1e
+source-git-commit: 1fbb5cb2082e6b926930793984bd34a759c7eec7
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 **与校对的差异**
 
-* 文档审批决策按钮在验证查看者中不可用。 可以在文档摘要、Workfront主页构件或文档详情页面中做出决策。
+* 文档审批决策按钮在验证查看器中不可用。 可以在文档摘要、Workfront主页构件或文档详情页面中做出决策。
 * 文档审批参与者显示在文档摘要中，而不是验证工作流选项卡中。
 * 当前报告工具不支持新文档审批。 新主页和画布功能板中提供的所有审批构件提供了有关新文档审批的以下详细信息：
 

@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
+source-git-commit: fe41b9209d4034e6685db313c8cbfef9c13eda28
 workflow-type: tm+mt
-source-wordcount: '14741'
+source-wordcount: '14747'
 ht-degree: 2%
 
 ---
@@ -1850,7 +1850,8 @@ ht-degree: 2%
       * [撤回提交的审批](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
    * 资产和文档审阅和批准{#document-reviews-and-approvals}
       * [资产和文档审查和批准：文章索引](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
-      * [文档审批概述](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
+      * [资产和文档审批概述](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
+      * [新文档审批概述](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [文档决策状态概述](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
       * 设置和管理资产和文档审批{#manage-asset-review-and-approval}
          * [设置和管理资产和文档审批：文章索引](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)

@@ -6,7 +6,7 @@ description: 审批工作
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
-source-git-commit: 216bf9ea9cb58294b42cc41d70ca0ab99b6dc827
+source-git-commit: 7366e3dd37b686a3566ca6d39e28eb6762c6d1ff
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 1%
@@ -168,7 +168,7 @@ ht-degree: 1%
 1. 根据您是要批准或拒绝批准流程，单击&#x200B;**批准**&#x200B;还是&#x200B;**拒绝**。\
    待审批的审批阶段现在已审批，审批流程将移至下一个阶段。 在所有阶段都获得批准后，状态即为“已批准”。
 
-## 直接从文档审批文档 
+## 直接从文档审批文档
 
 1. 转到文档区域，其中包含需要您审批的文档。
 1. 选择文档，然后单击&#x200B;**批准**、**更改**&#x200B;或&#x200B;**拒绝**。\
