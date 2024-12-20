@@ -1,19 +1,19 @@
 ---
 navigation-topic: get-started-with-workfront
-title: 在“优先级”工作列表中查看项目和任务详细信息
+title: 在“优先级”工作列表中查看项目和工作项详细信息
 description: 您可以在优先级工作列表中查看项目和任务详细信息。
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: 5e33bdb50b2f283606d3a7a74edaec701de60bca
+source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 2%
+source-wordcount: '401'
+ht-degree: 1%
 
 ---
 
-# 在优先级中查看项目和任务详细信息
+# 在优先级中查看项目和工作项详细信息
 
 <span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
@@ -80,13 +80,14 @@ ht-degree: 2%
 
 1. 在工作列表中，将鼠标悬停在工作名称上，然后单击&#x200B;**摘要**&#x200B;图标![打开摘要图标](assets/summary-icon.png)。
 1. 默认情况下选择任务。 在这里，您可以
-   * 查看和编辑项目详细信息和描述
+   * 查看并编辑项目和任务的详细信息和描述
    * 查看和添加项目评论
    * <span class="preview">查看并添加文档</span>
    * <span class="preview">创建校对</span>
    * 记录时间
    * 添加文件
    * 添加快速链接
+
 
    ![任务详细信息](assets/task-details.png)
    <!--new screen for prod ![](assets/task-details-new.png)-->
@@ -97,7 +98,7 @@ ht-degree: 2%
 
 1. 在工作列表中，将鼠标悬停在工作名称上，然后单击&#x200B;**摘要**&#x200B;图标![打开摘要图标](assets/summary-icon.png)。
 1. 默认情况下，问题处于选中状态。 在这里，您可以
-   * 查看和编辑项目详细信息和描述
+   * 查看并编辑项目和问题的详细信息和描述
    * 查看和添加项目评论
 * <span class="preview">查看并添加文档</span>
 * <span class="preview">创建校对</span>

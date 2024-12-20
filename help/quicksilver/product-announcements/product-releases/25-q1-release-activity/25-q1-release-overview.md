@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
 workflow-type: tm+mt
-source-wordcount: '2295'
+source-wordcount: '2306'
 ht-degree: 0%
 
 ---
@@ -267,7 +267,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             在优先级中上传和查看文档和验证</a></p>
-            <p>您现在可以与任务和问题的文档和验证进行交互。 在新的“文档”选项卡中，您可以</p>
+            <p>您现在可以与工作列表和日历中任务和问题的文档和验证进行交互。 在新的“文档”选项卡中，您可以</p>
             <ul>
                 <li>上传文档</li>
                 <li>创建验证</li>
@@ -287,11 +287,11 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             日历视图现在可在“优先级”中使用</a></p>
-            <p>使用清晰、直观的月份日历轻松跟踪您的工作。 使用优先级日历，您可以</p>
+            <p>您可以使用清晰可见的月份日历跟踪您的工作。 使用优先级日历，您可以</p>
             <ul>
                 <li>使用筛选器查找您的工作</li>
-                <li>显示状态和焦点级别等字段</li>
-                <li>应用颜色以快速确定优先级</li>
+                <li>应用状态和焦点级别等自定义字段以标识高优先级工作</li>
+                <li>为快速组织应用颜色</li>
                 <li>等等</li>
             </ul>
         </td>

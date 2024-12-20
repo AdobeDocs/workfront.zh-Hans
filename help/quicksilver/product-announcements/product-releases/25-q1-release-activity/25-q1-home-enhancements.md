@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '604'
 ht-degree: 1%
 
 ---
@@ -48,14 +48,14 @@ For more information, see [Catch up on work in Priorities](/help/quicksilver/wor
 >
 >预览版本： 2024年12月19日；适用于所有客户的生产版本：使用25.1版本（2025年1月）
 
-您现在可以与任务和问题的文档和验证进行交互。 在新的“文档”选项卡中，您可以
+您现在可以与工作列表和日历中任务和问题的文档和验证进行交互。 在新的“文档”选项卡中，您可以
 
 * 上传文档
 * 创建验证
 * 启动验证查看器
 * 等等
 
-<!--For more information, see [Upload Documents and create proofs in Priorities](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md).-->
+有关详细信息，请参阅[在优先级](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md)中上传文档和创建验证。
 
 ## 日历视图现在可在“优先级”中使用
 
@@ -63,12 +63,14 @@ For more information, see [Catch up on work in Priorities](/help/quicksilver/wor
 >
 >预览版本： 2024年12月19日；适用于所有客户的生产版本：使用25.1版本（2025年1月）
 
-使用清晰、直观的月份日历轻松跟踪您的工作。 使用优先级日历，您可以
+您现在可以使用清晰的可视日历跟踪您的工作。 使用优先级日历，您可以
 
 * 使用筛选器查找您的工作
-* 显示状态和焦点级别等字段
-* 应用颜色以快速确定优先级
+* 应用状态和焦点级别等自定义字段以标识高优先级工作
+* 为快速组织应用颜色
 * 等等
+
+有关详细信息，请参阅[在优先级日历](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md)中管理您的工作。
 
 ## “优先级”工作列表的更新
 
