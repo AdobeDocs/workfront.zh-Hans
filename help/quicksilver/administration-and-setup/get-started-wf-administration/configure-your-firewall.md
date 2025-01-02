@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 937965ad495453e185504d53f9d9c88c3cd7e201
+source-git-commit: ee4cf80bc69416e3224c895c1f04628432ce2f4c
 workflow-type: tm+mt
-source-wordcount: '1643'
+source-wordcount: '1646'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,6 @@ ht-degree: 0%
 * [允许群集10的IP地址](#ip-addresses-to-allow-for-cluster-10)
 * [允许使用测试驱动器的IP地址](#IP%20Addre2)
 * 实施事件订阅时允许的[IP地址](#ip-addresses-to-allow-when-implementing-event-subscriptions)
-* [允许增强身份验证的IP地址](#ip-addresses-to-allow-for-enhanced-authentication)
 * 要添加[个IP地址以访问Workfront Fusion](#ip-addresses-to-add-for-accessing-workfront-fusion)
 * 要添加以供使用Workfront for Jira的[个IP地址](#ip-addresses-to-add-for-using-workfront-for-jira)
 * [要为Workfront的所有群集添加的URL](#urls-to-add-for-all-clusters-workfront)
@@ -289,70 +288,6 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-### IP地址允许增强型身份验证 {#ip-addresses-to-allow-for-enhanced-authentication}
-
-添加以下IP地址以使用增强型身份验证进行预览或生产。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">如果您的环境位于群集1 、 2 、 3 、 5 、 7 、 8或9</td> 
-   <td> 
-    <ul> 
-     <li>35.167.74.121</li> 
-     <li>35.166.202.113</li> 
-     <li>35.160.3.103</li> 
-     <li>54.183.64.135</li> 
-     <li>54.67.77.38</li> 
-     <li>54.67.15.170</li> 
-     <li>54.183.204.205</li> 
-     <li>35.171.156.124</li> 
-     <li>18.233.90.226</li> 
-     <li>3.211.189.167</li> 
-     <li>18.232.225.224</li> 
-     <li>34.233.19.82</li> 
-     <li>52.204.128.250</li> 
-     <li>3.132.201.78</li> 
-     <li>3.19.44.88</li> 
-     <li>3.20.244.231</li> 
-     <li>54.244.142.219</li> 
-     <li>52.39.217.230</li> 
-     <li>44.241.82.96</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">如果您的环境在群集4上</td> 
-   <td> 
-    <ul> 
-     <li>52.28.56.226</li> 
-     <li>52.28.45.240</li> 
-     <li>52.16.224.164</li> 
-     <li>52.16.193.66</li> 
-     <li>34.253.4.94</li> 
-     <li>52.50.106.250</li> 
-     <li>52.211.56.181</li> 
-     <li>52.213.38.246</li> 
-     <li>52.213.74.69</li> 
-     <li>52.213.216.142</li> 
-     <li>35.156.51.163</li> 
-     <li>35.157.221.52</li> 
-     <li>52.28.184.187</li> 
-     <li>52.28.212.16</li> 
-     <li>52.29.176.99</li> 
-     <li>52.57.230.214</li> 
-     <li>54.76.184.103</li> 
-     <li>52.210.122.50</li> 
-     <li>52.208.95.174</li> 
-     <li>52.30.133.50</li> 
-     <li>54.220.93.204</li> 
-     <li>34.254.76.122</li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
 ### 要添加的用于访问Workfront Fusion的IP地址  {#ip-addresses-to-add-for-accessing-workfront-fusion}
 
 将以下IP地址添加到您的允许列表，以使Workfront Fusion能够访问您的系统。
@@ -394,7 +329,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-此外，如果贵组织使用出站网络过滤，请将以下域添加到您的以使您的允许列表能够访问Workfront Fusion。
+此外，如果贵组织使用出站网络过滤，请将以下域添加到您的以使您的允许列表能够访问Workfront Fusion。 这些URL用于Fusion中的Webhook。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -485,9 +420,12 @@ jira.workfront.com域还必须可从您的公司服务器访问。 此域是必�
 * auth.split.io
 * rum-http-intake.logs.datadoghq.com
 * mfe.static.workfront.com
-* https://app.pendo.io/
-* https://cdn.pendo.io/
+* fonts.gstatic.com
+* dpm.demdex.net
+* storage.googleapis.com
+* *.aptrinsic.com
 * *.static.workfront.com
+
 
   这是一个静态域，其中涵盖了以下所有域。 如果您愿意，可以添加单个域：
 
@@ -496,6 +434,29 @@ jira.workfront.com域还必须可从您的公司服务器访问。 此域是必�
    * mfe-preview-c.static.workfront.com
    * mfe-preview.static.workfront.com
    * mfe-review.static.workfront.com
+
+如果您的组织使用Unified ExperienceAdobe，则它会使用以下域。 这些域包含在`*.adobe.com`中，但可以根据需要添加。
+
+* &lt;您的域>.my.workfront.adobe.com
+* &lt;您的域>.preview.workfront.adobe.com
+* &lt;您的域>.sb01.workfront.adobe.com
+* &lt;您的域>.sb02.workfront.adobe.com
+
+
+对于Workfront Fusion，请添加以下域：
+
+* 对于不在Unified ExperienceAdobe上的组织：
+   * app.workfrontfusion.com (美国AWS)
+   * app-eu.workfrontfusion.com (欧盟AWS)
+   * app-az.workfrontfusion.com (US Azure)
+
+* 对于AdobeUnified Experience上的组织
+（这些域包含在`*.adobe.com`中，但如果需要，可以添加。）
+
+   * fusion.adobe.com
+   * app-eu.fusion.adobe.com
+   * app-az.fusion.adobe.com
+
 
 
 ## 要为Workfront的所有群集添加的URL {#urls-to-add-for-all-clusters-workfront}
