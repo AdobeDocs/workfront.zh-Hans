@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f21f33b3-5e49-4bb0-9eda-7cf4c016361c
-source-git-commit: 66659813798d330bb441b32c692693b54d4cfad6
+source-git-commit: 12bab42ab13935fa284aa334120afcfb602bf412
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1365'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 有关详细信息，请参阅[业务负责人概述](../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md)。
 
-此功能现已包含在Workfront One的第1部分的[管理员基础知识学习路径](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY)中。
+<!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## 管理员的新增功能：将项目组合、项目和公司与组关联
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 有关详细信息，请参阅[组概述](../../../administration-and-setup/manage-groups/groups-overview/groups.md)一文中的“关于将组与对象关联”一节。
 
-此功能现已包含在Workfront One的第1部分的[管理员基础知识学习路径](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY)中。
+<!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## 管理员的新增功能：分配给公司的组的管理员可以管理公司
 
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 有关对公司的管理访问权限的信息，请参阅[授予用户对特定区域的管理访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
 
-此功能现已包含在Workfront One的第1部分的[管理员基础知识学习路径](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY)中。
+<!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## 将“处理此项工作”按钮替换为“开始”按钮
 
@@ -103,7 +103,7 @@ ht-degree: 0%
 
 有关配置此选项的详细信息，请参阅[将处理它按钮替换为开始按钮](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)。
 
-此功能现已包含在Workfront One上的[工作器基础知识学习路径](https://one.workfront.com/s/learningpath3/worker-fundamentals-for-the-new-workfront-experience-20Y0z000000blg8EAA)和[管理员基础知识第1部分学习路径](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY)中。
+<!--This feature is now included in the [Worker Fundamentals learning path](https://one.workfront.com/s/learningpath3/worker-fundamentals-for-the-new-workfront-experience-20Y0z000000blg8EAA) and the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## 允许一个队列主题使用多个草稿
 
@@ -121,7 +121,7 @@ ht-degree: 0%
 
 有关详细信息，请参阅[创建团队](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md)。
 
-此功能现已包含在Workfront One的第1部分的[管理员基础知识学习路径](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY)中。
+<!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## 通过新字段，可报告顶级组及其所有子组的数据
 
