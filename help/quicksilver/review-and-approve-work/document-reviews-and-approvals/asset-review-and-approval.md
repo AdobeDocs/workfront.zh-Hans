@@ -1,19 +1,19 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 资产和文档审批概述
+title: 资产和文档审阅和批准的可用功能
 description: 在Workfront中可供审阅和批准的系统概述。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 9bce16218e002912883994ce2ced6c9d2fce93e7
+exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
+source-git-commit: f2f58e3db7d99043281384cc2f6047fd9254f4fd
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
 
-
-# 资产和文档审批概述
+# 资产和文档审阅和批准的可用功能
 
 Workfront中目前有3种不同的系统可用于资产和文档审阅和批准：
 
@@ -85,4 +85,6 @@ Workfront中目前有3种不同的系统可用于资产和文档审阅和批准�
 
 * 使用基本或自动化工作流
 
-
+<!--
+## Upcoming deprecations
+-->
