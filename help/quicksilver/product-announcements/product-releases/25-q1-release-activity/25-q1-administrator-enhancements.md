@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: fa24040d-0403-4799-b690-c3d172797115
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a7a3272cb7bfa22abfee45211e3154b6e21434b8
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '749'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,34 @@ ht-degree: 0%
 本页介绍了在2025年第一季度版本中对“预览”环境所做的所有管理员增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2025年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2025年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
+
+## 在环境之间比较对象以进行环境升级
+
+>[!NOTE]
+>
+>预览版本： 2024年1月6日；适用于所有客户的生产版本：带有25.1版本（2025年1月）
+
+为了更便于确定环境升级包中应包含哪个对象，我们添加了跨环境比较对象的功能。 现在，您可以选择对象类型和环境。 Workfront会生成该类型对象的列表，包括这些对象是否存在于目标环境中，以及该对象在源环境与目标环境之间是否有差异。 然后，可以直接从此列表将对象添加到资源包。
+
+以前，如果用户希望比较环境之间的对象，则必须手动检查这些对象。
+
+有关详细信息，请参阅[比较环境之间的对象](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md)。
+
+## 更多可用于环境升级的对象
+
+>[!NOTE]
+>
+>预览版本： 2024年1月6日；适用于所有客户的生产版本：带有25.1版本（2025年1月）
+
+为了扩展环境升级功能的功能，我们添加了更多对象。 现在，可以将以下对象添加到环境升级包中：
+
+* 位置
+* 费率卡
+* 任务
+
+以前，这些对象不可用于环境升级。
+
+有关可用于环境升级对象的详细信息，请参阅环境升级概述一文中的[环境升级支持的对象](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion)。
 
 ## 在记录小时数时阻止移动任务
 
