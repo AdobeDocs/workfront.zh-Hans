@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 2e4bcd6400971104e9138fab0faf20d33af32e51
+source-git-commit: 839b53afb9233ef0e36e981b243c8b2593b45f0f
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -105,3 +105,15 @@ ht-degree: 0%
 1. 若要安装包，请单击屏幕右上角的&#x200B;**安装**。
 
    有关安装包的说明，请参阅[安装环境升级包](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)。
+
+## 通过对象比较创建包
+
+可直接通过对象比较创建包。
+
+1. 创建对象比较，如[比较环境之间的对象](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md)中所述。
+1. 在生成的比较中，选择要包含在包中的对象。
+1. 单击屏幕右上角的&#x200B;**创建包**。
+1. 输入包的名称和说明。
+1. 在“创建包”窗口中单击&#x200B;**创建包**。
+
+   将生成资源包。
