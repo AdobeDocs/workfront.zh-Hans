@@ -8,9 +8,9 @@ description: 您可以跨环境比较对象，以确保环境升级包中包含�
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: f476b1f84fcb905537bde0c10d0a322773f6af0f
+source-git-commit: 2ff7a8b0ae3cc1f641c0d7c0b1384548c9603423
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -82,6 +82,12 @@ ht-degree: 0%
 * 第三行显示目标环境中不存在的对象。
 
 >[!ENDSHADEBOX]
+
+要查看特定对象差异，请执行以下操作：
+
+1. 单击该对象行中的放大镜图标![](assets/compare-icon.png)。
+
+   此时将打开一个窗口，其中包含该对象的所有字段。 差异以红色标记。
 
 ## 通过对象比较创建包
 
