@@ -6,10 +6,10 @@ description: 您可以从许多小组件中进行选择，以自定义主页上�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
+source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 14%
+source-wordcount: '818'
+ht-degree: 13%
 
 ---
 
@@ -22,6 +22,11 @@ ht-degree: 14%
 * [我的问题](#my-issues)
 * [我的工作](#my-work)
 * [我的审批](#my-approvals)
+
+>[!IMPORTANT]
+>
+>* 要在主页小组件中显示任务和问题，其父项目必须处于当前状态或等于当前状态。
+>* 项目还必须处于当前状态或等于当前状态才能显示。
 
 ## 我的项目
 

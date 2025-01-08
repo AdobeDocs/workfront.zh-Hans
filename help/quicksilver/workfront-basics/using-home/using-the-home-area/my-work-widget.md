@@ -6,9 +6,9 @@ description: “我的工作”小组件将所有已分配的任务、问题和�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e110f0f6-4ecb-419b-a368-c3f802de5920
-source-git-commit: 8880891c0f5fd8fecad6c2f58136d36a943105ae
+source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '725'
 ht-degree: 5%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 5%
 # 使用“我的工作”小组件管理您的工作
 
 “我的工作”小组件将所有已分配的任务、问题和请求显示在一个位置。 在这里，您可以筛选和组织您的工作，记录时间，进行更新，并将工作项标记为完成。
+
+>[!IMPORTANT]
+>
+>要在“我的工作”小组件中显示任务和问题，其父项目必须处于“当前”状态或等于当前状态。
 
 ## 访问要求
 

@@ -6,7 +6,7 @@ description: 桌面校对查看器是必须安装在本地计算机上的应用�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: 7a8a4709bab58e6b802f578ea47b20babeebeb1b
+source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 0%
@@ -64,7 +64,7 @@ ht-degree: 0%
 1. 执行以下操作之一以下载应用程序：
 
    * 如果您正在使用生产环境，请单击桌面验证查看器的[Mac生产下载。](https://app.proofhq.com/desktopviewer/mac)
-   * 如果您使用的是“预览”环境，请单击桌面验证查看器的[Mac预览下载。](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.39.pkg)
+   * 如果您使用的是“预览”环境，请单击桌面验证查看器的[Mac预览下载。](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.44.pkg)
 
 1. 打开您刚刚下载的文件以开始安装。
 1. 在出现的安装框中，单击“**继续**”，然后单击“**安装**”。
@@ -88,7 +88,7 @@ ht-degree: 0%
 1. 执行以下操作之一以下载应用程序：
 
    * 在生产环境中，单击桌面校对查看器的[Windows生产下载。](https://app.proofhq.com/desktopviewer/windows)
-   * 在“预览”环境中，单击桌面验证查看器的[Windows预览下载](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.39.exe)
+   * 在“预览”环境中，单击桌面验证查看器的[Windows预览下载](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.44.exe)
 
 1. 打开您刚刚下载的文件以开始安装。
 1. 在出现的安装框中，打开刚刚下载的文件以开始安装。

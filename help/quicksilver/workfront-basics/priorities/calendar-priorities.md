@@ -5,13 +5,13 @@ description: 使用清晰可见的日历跟踪您的工作。
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
+exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
+source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '538'
 ht-degree: 4%
 
 ---
-
 
 # 在“优先级”日历中管理您的工作
 
@@ -22,6 +22,11 @@ ht-degree: 4%
 * 使用筛选器查找您的工作
 * 应用状态和焦点级别等自定义字段以标识高优先级工作
 * 为快速组织应用颜色
+
+>[!IMPORTANT]
+>
+>项目必须处于当前状态或等于当前状态的状态，才能显示项目及其子任务和问题。
+
 
 ## 访问要求
 
@@ -154,4 +159,3 @@ ht-degree: 4%
 
 1. 在&#x200B;**颜色**选项卡上，选择您希望工作项显示的方式。 例如，如果选择“项目”，则您的工作项将根据分配给工作列表上的项目的颜色显示。
    ![示例颜色项目](assets/sample-calendar-projects.png)
-
