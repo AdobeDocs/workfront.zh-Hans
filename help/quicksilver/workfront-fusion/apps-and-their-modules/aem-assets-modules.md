@@ -6,20 +6,20 @@ product-area: workfront-integrations
 keywords: 连接器
 navigation-topic: apps-and-their-modules
 title: Adobe Experience Manager Assets模块
-description: 使用 [!DNL Adobe Workfront Fusion], you can start a scenario based on events in your [!DNL Adobe Experience Manager Assets] 帐户的 [!DNL Adobe Experience Manager Assets] 连接器，创建、上传和更新资产，以及复制或移动文件夹和资产。
+description: 使用 [!DNL Adobe Workfront Fusion]的 [!DNL Adobe Experience Manager Assets] 连接器，您可以创建、上传和更新资产，以及复制或移动文件夹和资产。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: a287bc6d7d4755deb19296523d1666f0fcb60526
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1716'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Experience Manager Assets]模块
 
-使用[!DNL Adobe Workfront Fusion]的[!DNL Adobe Experience Manager Assets]连接器，您可以基于[!DNL Adobe Experience Manager Assets]帐户中的事件启动方案，创建、上传和更新资产，以及复制或移动文件夹和资产。
+使用[!DNL Adobe Workfront Fusion]的[!DNL Adobe Experience Manager Assets]连接器，您可以创建、上传和更新资产，以及复制或移动文件夹和资产。
 
 有关Adobe Experience Manager Assets连接器的介绍，请参阅：
 
