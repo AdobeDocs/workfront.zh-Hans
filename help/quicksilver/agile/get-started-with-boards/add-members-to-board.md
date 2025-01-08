@@ -6,9 +6,9 @@ description: 用户必须先作为成员添加到展示板，然后才能查看�
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: 7ac846d6224663b4e820ab45379a4ab0611514bb
+source-git-commit: bf8d566ba9d24310e75d2fbaf523fe5464bb6657
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -92,6 +92,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >只有系统管理员或当前讨论区所有者才能更改讨论区所有者。 一个展示板只能有一个所有者。
+>
+>可以在基本、追溯和Kanban展示板上更改展示板所有者，但不能更改动态展示板。
 
 1. 访问展示板。
 1. 单击讨论区名称旁边的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单![更多菜单](assets/more-icon-spectrum.png)，然后选择&#x200B;**[!UICONTROL 更改讨论区所有者]**。
