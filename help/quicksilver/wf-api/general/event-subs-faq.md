@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 77c07c7c7104d37360cc7630a89dd72836da477c
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,7 @@ ht-degree: 0%
 * 这些事件可能不会像您认为的那样产生。 确保您未对事件应该如何或何时触发以及何时触发做出假设。 例如，您可能认为更新任务中的文档会生成任务更新事件，而会生成文档创建或文档更新事件。
 * 您的订阅可能未按预期进行配置。 您可以在不同的环境中创建事件订阅，并期望它们像其他Workfront数据一样进行传输。 但是，事件订阅数据未配置为复制或提升到其他环境。 确保您向正确的环境发出API请求，并按照预期配置该环境中的订阅。
 * 未收到有效负载，因为未将必需的Workfront 列入允许列表 IP地址添加到防火墙上的。 事件订阅事件仅从少数IP地址发送。 确保目标网络具有从Workfront事件订阅接收负载所需的所有IP异常。
+* 未收到有效负载，因为它超过1 MB。 事件订阅消息或对象不能大于1 MB。
 
 ## 为什么我的消息需要花费过多时间才能到达我的端点？
 

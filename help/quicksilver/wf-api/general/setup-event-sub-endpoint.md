@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1b621b35-6c8b-4f6a-bcba-ed6cbfe83a8c
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 77c07c7c7104d37360cc7630a89dd72836da477c
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -35,3 +35,5 @@ ht-degree: 0%
 
    1. 端点在收到消息时保存消息信息，并立即以200级状态响应。
    1. 在端点响应事件订阅投放请求后，即可处理保存的消息。
+
+* 事件订阅消息或对象不能大于1 MB。
