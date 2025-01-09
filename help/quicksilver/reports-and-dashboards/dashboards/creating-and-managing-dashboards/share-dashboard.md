@@ -6,14 +6,16 @@ description: 在分配访问级别时，您的Adobe Workfront管理员会授予�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 21bd531f-8732-4d6c-b91f-990887285447
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
 
 # 共享功能板
+
+<!-- Audited: 1/2025 -->
 
 在分配访问级别时，您的Adobe Workfront管理员会授予用户查看或编辑功能板的权限。 有关授予对问题的访问权限的详细信息，请参阅[授予对报告、功能板和日历的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)。
 
@@ -27,6 +29,8 @@ ht-degree: 0%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 要共享对象，必须具备以下条件：
 
 <table style="table-layout:auto"> 
@@ -34,25 +38,36 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront计划*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront计划</strong></td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront许可证*</strong></td> 
-   <td> <p>审核或更高</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront许可证</strong></td> 
+    <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>浅色或更高</p></li>
+         </ul>
+      <p>当前：</p>
+         <ul>
+         <li><p>审核或更高</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>查看对报告、功能板和日历的访问权</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td role="rowheader"><strong>访问级别配置</strong></td> 
+   <td> <p>查看对报告、功能板和日历的访问权</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>查看仪表板或更高权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>查看仪表板或更高权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先决条件
 
@@ -83,11 +98,11 @@ ht-degree: 0%
 
    或
 
-   单击一个仪表板的名称，然后单击**仪表板操作>****共享**。
+   单击一个仪表板的名称，然后单击&#x200B;**仪表板操作** > **共享**。
 
-   ![](assets/qs-dashboard-actions-menu-350x318.png)
+   ![](assets/unshimmed-share-dashboard.png)
 
-1. 在&#x200B;**添加人员、团队、角色、组或公司……**&#x200B;字段中，开始键入要与其共享功能板的用户、团队、角色、组或公司的名称，然后在该名称出现在下拉列表中时单击该名称。
-1. （可选）要使系统中的所有用户都可以访问该仪表板，请单击共享对话框右上角的&#x200B;**设置**&#x200B;图标，然后选择&#x200B;**在系统范围内显示此仪表板**。
+1. 在&#x200B;**添加人员、团队、角色、组或公司**&#x200B;字段中，开始键入要与其共享仪表板的用户、团队、角色、组或公司的名称，然后在该名称出现在下拉列表中时单击该名称。
+1. （可选）要使系统中的所有用户均可访问仪表板，请单击“共享”对话框中的&#x200B;**只有受邀的人才能访问**&#x200B;下拉菜单，然后选择&#x200B;**系统中的每个人都可以查看**。
 
 1. 单击&#x200B;**保存**。

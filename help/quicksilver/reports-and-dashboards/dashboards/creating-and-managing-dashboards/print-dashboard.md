@@ -6,14 +6,16 @@ description: 可以将仪表板打印或导出到。PDF文件。 要打印仪表
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 30f3481b-23b6-4dc9-be0d-9cffd5d4dfed
-source-git-commit: efae17458f2aa08ca2286ef5e43c68d1f9334b7b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
 
 # 打印功能板
+
+<!-- Audited: 1/2025 -->
 
 可以将仪表板打印或导出到。PDF文件。 要打印仪表板，您必须具有查看仪表板的权限。
 
@@ -23,6 +25,8 @@ ht-degree: 0%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具备以下条件：
 
 <table style="table-layout:auto"> 
@@ -30,25 +34,36 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront计划*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront计划</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront许可证*</strong></td> 
-   <td> <p>工作或更高</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront许可证</strong></td> 
+      <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>标准</p></li>
+         </ul>
+      <p>当前：</p>
+         <ul>
+         <li><p>工作或更高</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>查看对报告、功能板和日历的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td role="rowheader"><strong>访问级别配置</strong></td> 
+   <td> <p>查看对报告、功能板和日历的访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong>/td&gt; 
-   <td> <p>查看仪表板的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>查看仪表板的权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先决条件
 
@@ -86,7 +101,7 @@ ht-degree: 0%
 1. 转到要打印的仪表板。
 1. 执行以下任一操作：
 
-   * 单击&#x200B;**仪表板操作** > **打印**
+   * 单击&#x200B;**仪表板操作** > **打印预览**
 
    * 按&#x200B;**Ctrl+P**（在Windows上）或&#x200B;**Command+P**(在Mac上)
 

@@ -6,16 +6,16 @@ description: 您可以创建功能板以快速访问Adobe Workfront中的信息�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '484'
 ht-degree: 1%
 
 ---
 
 # 创建功能板
 
-<!--Audited: 01/2024-->
+<!--Audited: 01/2025-->
 
 您可以创建功能板以快速访问Adobe Workfront中的信息。 最多可以将25个报告、日历和外部页面添加到功能板，您可以与其他人共享这些功能板以实现最佳协作。
 
@@ -38,7 +38,7 @@ ht-degree: 1%
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Adobe Workfront许可证*</strong></p> </td> 
+   <td> <p><strong>Adobe Workfront许可证</strong></p> </td> 
    <td> <p>当前：计划 </p>
    或
    <p>新增：标准 </p> </td> 
@@ -54,7 +54,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

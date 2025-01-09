@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 0%
@@ -14,6 +14,7 @@ ht-degree: 0%
 
 # 画布功能板概述
 
+<!-- This page is hidden as it is outdated, delete once full Canvas Dashboard docs are live-->
 <!-- Audited: 12/2023 -->
 
 Canvas Dashboards是当前为功能板开发的一项功能，它提供了在Workfront中构建有效功能板的新选项。 画布功能板将允许报告画布可视化轻松包含到现有报告中，从而提供更大的灵活性和新的布局选项。
@@ -81,6 +82,7 @@ Canvas Dashboards是当前为功能板开发的一项功能，它提供了在Wor
 1. 开始键入您要在&#x200B;**查找报告**&#x200B;字段中显示的报告名称。 当您在列表中看到报告时，单击其名称旁边的&#x200B;**列表报告**&#x200B;或&#x200B;**图表报告**&#x200B;图标，以您选择的格式显示该报告的信息。
 
 >[!WARNING]
+>
 > 虽然添加多个小组件当前可以显示同一报表的信息，但我们建议每个报表只显示一次，因为它会影响功能板性能。
 
 ### 在画布功能板中编辑构件

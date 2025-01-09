@@ -4,9 +4,10 @@ description: 2025年第一季度项目增强功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+exl-id: 998f3508-623e-471b-9ab7-bded5add6b5b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览版本： 2024年12月19日；适用于所有客户的生产版本：使用25.1版本（2025年1月）
+>预览版本： 2024年12月19日；适用于所有客户的生产版本：适用于25.1版本（2025年1月16日）
 
 自2023年12月起一直在“预览”环境中存在的功能以及自2024年3月起一直在“快速发布”的“生产”环境中存在的功能现已移除。 这些功能在分配任务时添加了更相关的智能分配建议。
 

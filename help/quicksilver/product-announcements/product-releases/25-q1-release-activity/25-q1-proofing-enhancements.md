@@ -4,7 +4,8 @@ description: 2025年第一季度校对增强
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+exl-id: 41eff095-ff9b-4791-81c3-758e101b3e88
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 0%
@@ -21,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览版本： 2024年8月30日；适用于所有客户的生产版本： 2024年8月30日。
+>预览版本： 2024年11月7日；适用于所有客户的生产版本： 2024年11月7日。
 
 我们将引入一个新的浏览器扩展Adobe Workfront审阅工具，以取代用于审阅交互式ZIP内容的旧版浏览器扩展。 旧版浏览器扩展将于2025年2月28日删除。
 

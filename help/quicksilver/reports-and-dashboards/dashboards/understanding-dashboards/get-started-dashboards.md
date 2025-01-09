@@ -7,16 +7,16 @@ description: 功能板的用途是提供对信息的快速访问。 您可以在
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
 
 # 仪表板入门
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 1/2025 -->
 
 功能板的用途是提供对来自多个报表信息的快速访问。 首先，您可以收集报告中的信息，然后将多个报告放在功能板上，以便更轻松地访问信息。
 
@@ -38,7 +38,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p><strong>Adobe Workfront许可证</strong></p> </td> 
-   <td> <p>新文档：参与者或更高版本</p><p>或</p><p>当前：审阅或更高版本</p> </td> 
+      <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>参与者或更高版本</p></li>
+         </ul>
+      <p>当前：</p>
+         <ul>
+         <li><p>审核或更高</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
    <td><strong>访问级别</strong> </td> 
@@ -51,7 +60,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

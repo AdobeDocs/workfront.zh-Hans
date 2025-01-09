@@ -6,16 +6,16 @@ description: 您可以将外部网页嵌入到功能板中，以提供对Adobe W
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1011'
 ht-degree: 0%
 
 ---
 
 # 在功能板中嵌入外部网页
 
-<!--Audited: 01/2024-->
+<!--Audited: 01/2025-->
 
 您可以将外部网页嵌入到功能板中，以提供对其他系统或Adobe Workfront中相关信息的访问。
 
@@ -64,10 +64,17 @@ ht-degree: 0%
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront许可证*</strong></td> 
-   <td> <p>当前：计划 </p>
-   或
-   <p>新增：标准 </p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront许可证</strong></td> 
+   <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>标准</p></li>
+         </ul>
+      <p>当前：</p>
+         <ul>
+         <li><p>计划</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置</strong></td> 
@@ -75,12 +82,12 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> </td> 
+   <td> <p>编辑对功能板的访问权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -162,7 +169,7 @@ ht-degree: 0%
 
    将打开&#x200B;**仪表板详细信息**&#x200B;框。
 
-1. 在&#x200B;**仪表板详细信息**&#x200B;框的&#x200B;**选择布局/添加报告/添加日历**&#x200B;区域中，找到要更新的外部页面，将鼠标悬停在其上，然后单击&#x200B;**编辑**&#x200B;图标。\
+1. 在&#x200B;**仪表板详细信息**&#x200B;框的&#x200B;**选择布局/添加报告**&#x200B;区域中，找到要更新的外部页面，将鼠标悬停在其上方，然后单击&#x200B;**编辑**&#x200B;图标。\
    ![](assets/nwe-inline-edit-external-page-350x226.png)
 
 1. 在&#x200B;**编辑外部页面**&#x200B;框中，更新要更改的字段，然后单击&#x200B;**保存**。
@@ -175,7 +182,7 @@ ht-degree: 0%
 
 {{step1-to-reports}}
 
-1. 单击&#x200B;**新建报表** >选择&#x200B;**外部页面**。
+1. 单击&#x200B;**新建报表** >选择&#x200B;**外部节**。
 
    ![](assets/external-page-new-report-in-dropdown-nwe.png)
 
@@ -185,6 +192,5 @@ ht-degree: 0%
 
 1. 单击&#x200B;**保存+关闭**。
 
-   您可以在新的报告中查看与系统中外部页面关联的名称和URL。
+   您可以在新的报表中查看与系统中任何外部页面关联的名称和URL。
 
-   ![](assets/external-page-report-name-url-columns-nwe-350x213.png)

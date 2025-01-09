@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3c0b4797-594c-44d0-b3ad-a64384b6c4a8
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览版本： 2024年12月16日；适用于所有客户的生产版本：使用25.1版本（2025年1月）
+>预览版本： 2024年12月16日；适用于所有客户的生产版本：使用25.1版本（2025年1月16日）
 
 为了保持仪表板性能，我们实施了可放置在仪表板中的报告、外部页面或日历的总数限制。 创建新仪表板时，最多可以添加25个项目。
 

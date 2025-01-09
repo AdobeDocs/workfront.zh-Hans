@@ -4,9 +4,10 @@ description: 2025年第一季度展示板增强功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+exl-id: 8f88e9e4-3f87-48f8-a37b-cca50348daaf
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 0%
 
 默认情况下，展示板的创建者是所有者。 讨论区所有者是唯一可以在“配置”面板中删除该讨论区或更新其筛选器的人员。
 
-添加了功能，以允许Workfront系统管理员更改展示板的所有者。 讨论区的当前所有者也可以更改该特定讨论区的所有者。
+添加了功能，以允许Workfront系统管理员更改展示板的所有者。 讨论区的当前所有者也可以更改该特定讨论区的所有者。 此功能在基本、追溯和Kanban展示板上可用，但不在动态展示板上可用。
 
 以前，如果没有后端的干预，董事会所有者是无法更改的。
 
