@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: 532a7badf236d0d9568bc6c632b7badf3576cce3
 workflow-type: tm+mt
-source-wordcount: '3261'
+source-wordcount: '3273'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ ht-degree: 0%
 -->
 
 作为Adobe Workfront管理员，您可以创建用户并管理现有用户的配置文件。 有关创建用户的信息，请参阅[添加用户](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)。
+
+有关用户更新其个人资料的信息，请参阅[配置我的设置](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)。
 
 ## 访问要求
 
