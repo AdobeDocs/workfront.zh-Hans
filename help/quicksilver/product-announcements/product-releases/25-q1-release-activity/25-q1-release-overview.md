@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: d2e3379e9390f2b419bb2d78b1999c8c2dd7d0d3
+source-git-commit: 11b25decc88146568aad615eb06ef3521f7aa761
 workflow-type: tm+mt
 source-wordcount: '2527'
 ht-degree: 0%
@@ -37,7 +37,7 @@ ht-degree: 0%
 * [管理员增强功能](#administrator-enhancements)
 * [展示板增强功能](#boards-enhancements)
 * [文档管理增强功能](#document-management-enhancements)
-* [主页增强功能](#home-enhancements)
+* [优先级增强](#priorities-enhancements)
 * [项目增强功能](#project-enhancements)
 * [校对增强功能](#proofing-enhancements)
 * [报表和功能板增强功能](#report-and-dashboard-enhancements)
@@ -248,7 +248,7 @@ ht-degree: 0%
 </tbody>
 </table>
 
-### 主页增强功能
+### 优先级增强
 
 <table>
 <col style="width: 50%;" />

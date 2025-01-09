@@ -1,28 +1,26 @@
 ---
 title: 2025年第一季度主页增强功能
-description: 2025年第一季度主页增强功能
+description: 2025年第一季度优先事项改进
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 11b25decc88146568aad615eb06ef3521f7aa761
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '801'
 ht-degree: 0%
 
 ---
 
-# 2025年第一季度主页增强功能
+# 2025年第一季度优先事项改进
 
-本页介绍了在2025年第一季度版本中对“预览”环境做出的所有主页增强。 如上所述，这些增强功能将在“生产”环境中提供。
+本页介绍了在2025年第一季度版本中对“预览”环境所做的所有“优先级”增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2025年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2025年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
 
 ## 优先级增强概述
 
-观看以下视频，从较高的层次了解本季度添加到优先级的新增功能。
-
-[优先级增强概述视频](https://video.tv.adobe.com/v/3442750/){target=_blank}
+>[!VIDEO](https://video.tv.adobe.com/v/3442750/?quality=12&learn=on)
 
 请参阅下面的[优先级增强演示视频](#priorities-enhancements-demo-video)，全面演示此概述中包含的功能。
 
@@ -165,4 +163,6 @@ ht-degree: 0%
 
 观看以下视频，详细演示本季度“优先级”中新增的功能。
 
-[优先级增强演示视频](https://video.tv.adobe.com/v/3442751/){target=_blank}
+>[!VIDEO](https://video.tv.adobe.com/v/3442751/?quality=12&learn=on)
+
+
