@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '2226'
-ht-degree: 1%
+source-wordcount: '2245'
+ht-degree: 2%
 
 ---
 
@@ -198,7 +198,7 @@ ht-degree: 1%
        <p>请考虑以下事项：</p> 
         <ul> 
          <li> 选择该选项后，您可以移动已记录时间的任务和问题。 小时数也会随着任务或问题而移动。 </li>
-      <li>取消选择此选项时，您在移动具有记录小时数的任务或问题时收到禁止性警告。 警告指定管理员不允许移动具有记录小时数的任务或问题。 无法移动记录了小时数的任务或问题。 </li></ul>
+      <li>取消选择此选项时，您在移动具有记录小时数的任务或问题时收到禁止性警告。 警告指定管理员不允许移动具有记录小时数的任务或问题。 无法将具有小时记录的任务或问题移动到其他项目。 即使取消选择此选项，您也可以在同一项目中移动具有记录小时数的任务。  </li></ul>
       </td> 
      </tr> 
     </tbody> 

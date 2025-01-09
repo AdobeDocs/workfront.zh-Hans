@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '975'
 ht-degree: 0%
 
 ---
@@ -149,9 +149,10 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 
    您的表单已提交，并且发生了以下情况：
 
-   * 如果请求表单未与批准关联，或者<span class="preview">如果所有批准者都授予了批准，</span>将向与表单关联的记录类型添加新的记录。
+   * 如果申请表单未与批准关联，则该申请将添加到Workfront申请区域</span>已提交分区的<span class="preview">计划选项卡中，并将新记录添加到与表单关联的记录类型中。
 
-   * 如果申请表单未与批准关联，则<span class="preview">申请将添加到Workfront申请区域已提交分区的Planning选项卡中，并且向记录类型页面中添加新记录。</span>
+   * 如果申请表单与批准关联，则<span class="preview">申请将添加到Workfront申请区域已提交部分的Planning选项卡中。 只有在所有批准者都批准记录类型页面后，才会将新记录添加到该页面。</span>
+     <span class="preview">有关信息，请参阅[向请求表单添加批准](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。</span>
 
      ![](assets/planning-tab-in-requests.png)
 
@@ -159,9 +160,6 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
      >
      ><span class="preview">所有有权访问至少一个工作区的用户都可以在“请求”区域中查看“计划”选项卡。 您只能查看您或其他人提交到您至少拥有查看权限的工作区的请求。 Workfront管理员可以查看提交到系统中任何工作区的所有请求。</span> <!--ensure this is correct; asking team in slack-->
 
-   * <span class="preview">如果申请表与批准关联，申请会暂时保存到Workfront申请区域已提交部分的Planning选项卡。 没有为与请求表单关联的记录类型创建记录。</span>
-
-     <span class="preview">有关信息，请参阅[向请求表单添加批准](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。</span>
    * <span class="preview">您收到应用内通知和电子邮件通知，告知您请求已成功提交或已发送以供审阅。</span>
    * <span class="preview">如果请求表单与批准关联，则批准者会收到应用程序内通知和电子邮件通知，以审查和批准该请求。</span>
 

@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '854'
 ht-degree: 2%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 2%
 队列主题与路由规则配合使用，可自动将传入工作分配给用户、工作角色、团队，或将其置于项目中。 队列主题定义实施路由规则所需的条件。
 
 可以分配给主题组或项目的队列主题的数量没有限制。 队列主题是可报告的对象类型。
+
+创建后，无法将队列主题从一个项目移动到另一个项目。
 
 ## 访问要求
 
@@ -131,7 +133,7 @@ ht-degree: 2%
       <td>选择要与队列主题关联的任何自定义表单。 必须先创建问题的自定义表单，然后才能将问题与队列主题关联。 有关创建自定义表单的信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">创建自定义表单</a>。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>默认批准</strong></td> 
+      <td role="rowheader"><strong>默认审批</strong></td> 
       <td> <p>将审批流程与此队列主题关联。 仅问题批准流程在此下拉菜单中可见。 提交到此队列的所有问题都将与此审批流程相关联。 您的Adobe Workfront管理员必须定义系统级别的批准流程，然后才能将其与队列主题关联。 <span>对审批流程具有管理权限的用户也可以创建特定于组的审批流程。</span>有关创建审批流程的详细信息，请参阅<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">为工作项创建审批流程</a>。<br></p> 
        <div> 
         <p>重要信息：如果项目组发生更改，则附加到现有问题的组特定审批流程会成为一次性审批流程。 有关对项目组的更改或审批流程中的更改如何影响审批设置的详细信息，请参阅<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">组和审批流程更改如何影响分配的审批流程</a>。</p> 

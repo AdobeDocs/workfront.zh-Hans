@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 17a277a5a63a521ec7285e3f5051bfd42fc204bf
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '3657'
+source-wordcount: '3848'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,10 @@ ht-degree: 0%
 
 <!--Audited: 12/2023-->
 
-<!--remove all preview and production references from this article with 23.3 release-->
+<!--remove all preview and production references if any-->
+<!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). 
-
-<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
--->
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。</span>
 
 您可以在Adobe Workfront中记录工作项的时间，以指示您处理这些工作项的小时数。 您还可以记录与工作无关的时间，如假期、病假或会议时间。 您的登录时间显示在您的时间表中。
 
@@ -490,23 +486,74 @@ ht-degree: 0%
 * 小时数
 * 小时数类型
 * 与小时条目关联的工作角色
+* 小时条目的描述
 
-根据您编辑的小时条目类型，可以编辑以下字段：
+根据您编辑的小时条目类型，可在小时列表或报告中编辑以下字段：
 
 * 编辑特定于项目的小时数时：
 
-   * 您可以编辑小时数。
-   * 您只能将小时类型更改为项目特定的类型。
-   * 只有在“设置”中启用了工作角色分配时，才能更改该小时。 有关信息，请参阅[配置工时表和小时首选项](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
+   * 小时数
+   * 小时类型。 您只能将小时类型更改为项目特定的类型。
+   * 工作角色分配。 只有在“设置”中启用了工作角色分配时，才能更改工作角色分配。 有关信息，请参阅[配置工时表和小时首选项](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
+   * 小时条目的描述。
+
+<div class="preview">
+
+![](assets/edit-hour-box-project-hour-type.png)
+
+</div>
 
 * 编辑常规小时数时：
 
-   * 您可以编辑小时数。
-   * 您只能将小时类型更改为常规类型。
-   * 您无法更改工作角色分配的小时数，因为常规小时数无法与角色关联。
+   * 小时数。
+   * 小时类型。 您只能将小时类型更改为常规类型。
+   * 小时条目的描述。
+
+>[!TIP]
+>
+> 您无法更改工作角色分配的小时数，因为常规小时数无法与角色关联。
+
+<!--update the screen shot at production - we should not see the job role field for general hours-->
+
+![](assets/edit-hour-box-general-overhead-hour-type.png)
+
 
 * 当您批量编辑常规和项目特定小时组合时：
 
-   * 您可以编辑小时数。
-   * 您不能更改小时类型，因为常规小时类型不能更改为项目特定的类型，并且项目特定的小时类型不能更改为常规类型。
-   * 您不能更改工作角色分配，因为常规小时数不能与角色关联。
+   * 小时数。
+   * 小时条目的描述。
+
+>[!TIP]
+>
+>* 您不能更改小时类型，因为常规小时类型不能更改为项目特定的类型，并且项目特定的小时类型不能更改为常规类型。
+>* 您不能更改工作角色分配，因为常规小时数不能与角色关联。
+
+
+<!--update the screen shot at production - we should not see the job role and the hour type fields for mixed hour types-->
+
+![](assets/edit-hour-box-mixed-hour-types-in-bulk.png)
+
+要在小时报表或列表中编辑小时类型，请执行以下操作：
+
+1. 转到小时列表或报告。
+1. 单击一个或多个小时条目左侧的框以将其选定。
+1. 单击列表顶部的&#x200B;**编辑图标** ![](assets/edit-icon.png)。
+
+   将打开&#x200B;**编辑小时**&#x200B;或&#x200B;**编辑小时**&#x200B;框。
+1. 更新以下任何可用字段：
+
+   * 小时。 这是必填字段。
+   * 小时类型。 这是必填字段。
+   * 工作角色
+   * 描述
+
+   >[!TIP]
+   >
+   >   并非所有字段都可用，具体取决于与所选小时条目关联的小时类型。
+
+1. 单击&#x200B;**保存<span class="preview">更改</span>**。
+
+   更新小时条目信息。
+如果您选择了多个小时条目并修改了小时字段，则会将相同的小时数分配给所有选定的小时条目。 所有所选小时条目的原始小时数将被新值替换。
+
+

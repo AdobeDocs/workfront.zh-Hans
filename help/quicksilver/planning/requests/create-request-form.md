@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1564'
 ht-degree: 2%
 
 ---
@@ -139,33 +139,40 @@ ht-degree: 2%
 
    * 所选记录类型的表视图中可用的记录字段。<!--they are working on removing the limitation below-->
 
-   >[!IMPORTANT]
-   >
-   > 根据创建请求表单时所用的环境，存在以下情况：
-   >
-   >* 以下类型的字段未显示在预览</span>或生产环境的请求表单<span class="preview">中：
-   >
-   >    * 创建者和上次修改者
-   >    * 公式
-   >    * 创建日期和上次修改日期
-   >    * Workfront对象的查找字段
-   >    * Workfront Planning已连接记录的查找字段
-   >* 以下类型的字段不会显示在生产环境的请求表单中。 <span class="preview">它们显示在预览环境中：</span>
-   >    * <span class="preview"> Workfront Planning记录&#39;连接的字段</span>
-   >    * <span class="preview">人员</span>
-   >    * <span class="preview">Workfront对象的已连接字段</span>
-   >    * <span class="preview">AEM Assets连接的字段</span>
+<!-- when we go to prod, the Preview batch below will become the only batch-->
 
-   * **默认的分区**：这是Workfront应用于请求表单的默认分区界限。 无法重命名或删除默认部分。
-   * **主题**&#x200B;字段：将在Workfront中标识该请求的字段。 此功能在生产环境中尚不可用。 <span class="preview">它在预览环境中可用。</span>“主题”字段的配置和值不可编辑。
+>[!IMPORTANT]
+>
+> 根据创建请求表单时所用的环境，存在以下情况：
+>
+>* 以下类型的字段不会显示在生产环境的请求表单中：
+>
+>    * 创建者和上次修改者
+>    * 创建日期和上次修改日期
+>    * 公式
+>    * 人员
+>    * Workfront连接的字段
+>    * Workfront对象的查找字段
+>    * Workfront Planning记录的已连接字段
+>    * Workfront Planning已连接记录的查找字段
+>    * AEM Assets连接字段
+>* 以下类型的字段未显示在<span class="preview">预览环境的请求表单中：</span>
+>    * <span class="preview">创建者和上次修改者</span>
+>    * <span class="preview">创建日期和上次修改日期</span>
+>    * <span class="preview">公式</span>
+>    * <span class="preview"> Workfront对象的查找字段</span>
+>    * <span class="preview">Workfront Planning已连接记录的查找字段</span>
 
-     >[!TIP]
-     >
-     >**Subject**&#x200B;字段在请求表单上可见时需要值。 但是，您可以根据需要删除&#x200B;**主题**&#x200B;字段，请求者不会在表单上看到该字段。
+* **默认的分区**：这是Workfront应用于请求表单的默认分区界限。 无法重命名或删除默认部分。
+* **主题**&#x200B;字段：将在Workfront中标识该请求的字段。 此功能在生产环境中尚不可用。 <span class="preview">它在预览环境中可用。</span>“主题”字段的配置和值不可编辑。
 
-   * 与记录类型关联的所有字段。
+  >[!TIP]
+  >
+  >**Subject**&#x200B;字段在请求表单上可见时需要值。 但是，您可以根据需要删除&#x200B;**主题**&#x200B;字段，请求者不会在表单上看到该字段。
 
-     向此记录类型提交请求的每个人均可看到请求表单中包含的字段。
+* 与记录类型关联的所有字段。
+
+  向此记录类型提交请求的每个人均可看到请求表单中包含的字段。
 
 1. （可选）将鼠标悬停在要删除的表单上的任何字段上，然后单击&#x200B;**x**&#x200B;图标以删除它们。 它们已添加到表单左侧的&#x200B;**字段**&#x200B;选项卡中。
 
@@ -233,9 +240,7 @@ ht-degree: 2%
    >
    > * <span class="preview">不能公开共享包含以下字段类型的表单：</span>
    >
-   >     * <span class="preview">公式</span>
    >     * <span class="preview">Workfront或AEM Assets连接</span>
-   >     * <span class="preview">查找字段</span>
    >     * <span class="preview">人员</span>
    >
 

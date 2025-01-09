@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!-- Audited: 2/2024 -->
 
-主题组与请求队列相关联。 它们允许您根据请求的性质将请求队列分为多个类别。
+主题组与请求队列相关联。 您可以使用主题组，根据请求的性质将请求队列分为多个类别。
 
 ## 访问要求
 
@@ -64,12 +64,12 @@ ht-degree: 0%
 
 有关如何创建请求队列的详细信息，请参阅[创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
->[!TIP]
->
->* 在一个请求队列中最多可创建10层主题组。
->* 可与主题组关联的队列主题的数量没有限制。
->* 主题组是可报告的对象。
->
+使用主题组时，请考虑以下事项：
+
+* 在一个请求队列中最多可创建10层主题组。
+* 可与主题组关联的队列主题的数量没有限制。
+* 主题组是可报告的对象。
+* 您无法将主题组从一个项目移动到另一个项目。
 
 ## 创建主题组
 
