@@ -5,9 +5,9 @@ description: AI Assistant概述
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: d58088eed3c23652226f5d3f104705ed112c0b9f
+source-git-commit: 47469f684bf3be6c6a9d3c39ba3960ca13e43578
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '741'
 ht-degree: 1%
 
 ---
@@ -100,12 +100,12 @@ AI助手当前提供以下功能：
 
   有关详细信息，请参阅[使用AI助手生成或修订计算字段公式](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)。
 
-<!--<div class="preview">
-* Summarizing updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, 7 days in Priorities.
+<div class="preview">
+*在以下时间范围内总结有关项目的更新、上传文档和其他显着更改：优先级中的24小时、3天、7天。
 
-For more information, see [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
+有关详细信息，请参阅[在优先级中更新工作](/help/quicksilver/workfront-basics/priorities/catch-me-up.md)。
 
-</div>-->
+</div>
 
 ## AI助手可用的对象类型
 
