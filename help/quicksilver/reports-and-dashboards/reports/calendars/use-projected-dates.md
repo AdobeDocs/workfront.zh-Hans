@@ -6,9 +6,9 @@ description: 日历报告是一种动态报告，提供工作的可视化表示�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 39e16f0b-c10d-429e-9eb5-d4847c7e4ed9
-source-git-commit: e5a3024b1657942cd7abdfff76a7a6795127a4f5
+source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '609'
 ht-degree: 1%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 1%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -32,35 +34,39 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[！UICONTROL计划] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
+   <td><p>新增：标准</p>
+       <p>或</p>
+       <p>当前：计划</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>[！UICONTROL ]编辑对[！UICONTROL报告]、[！UICONTROL功能板]和[！UICONTROL日历的访问权限</p> <p>注意：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何修改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>[！UICONTROL编辑]对[！UICONTROL报表]、[！UICONTROL功能板]和[！UICONTROL日历的访问权限</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>[！UICONTROL Manage]对日历报表的访问权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td role="rowheader">对象权限</td> 
+   <td>[！UICONTROL Manage]对日历报表的访问权限</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 设置项目组
 
 您可以选择您希望项目组在日历上显示的方式。
 
-1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 日历]**。
+{{step1-to-calendars}}
 
-1. 选择要向其添加新项目组的日历。\
-   或\
-   单击&#x200B;**[!UICONTROL +新建日历]**&#x200B;并输入日历名称。
+1. 选择要向其添加新项目组的日历。
+或
+单击**[!UICONTROL +新建日历]**&#x200B;并输入日历名称。
 
    >[!NOTE]
    >
@@ -122,7 +128,7 @@ ht-degree: 1%
    * **[!UICONTROL 项目]**
    * **[!UICONTROL 问题]**
 
-1. 根据要添加到日历的对象类型，单击&#x200B;**[!UICONTROL 添加任务]**、**[!UICONTROL 添加项目]**&#x200B;或&#x200B;**[!UICONTROL 添加问题]**。\
+1. 根据要添加到日历的对象类型，单击&#x200B;**[!UICONTROL 添加任务]**、**[!UICONTROL 添加项目]**&#x200B;或&#x200B;**[!UICONTROL 添加问题]**。
    ![为日历](assets/field-name.png)选择对象
 
 1. 在下拉菜单中，开始键入字段名称，然后选择要显示在日历上的对象的字段源（例如，**[!UICONTROL 延迟任务]**）。
