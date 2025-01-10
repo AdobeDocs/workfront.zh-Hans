@@ -7,10 +7,10 @@ description: 在Adobe Workfront中指明何时发生批准的休息时间非常�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: fa5a59c15395f825ad73d889d4d877224a676891
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 1%
+source-wordcount: '428'
+ht-degree: 0%
 
 ---
 
@@ -67,6 +67,13 @@ ht-degree: 1%
 ## 在[!DNL Workfront]中配置个人休息时间
 
 {{step1-click-profile-pic}}
+
+>[!NOTE]
+>
+>如果您在AdobeUnified Experience上，则可以通过单击顶部导航区域中的Adobe帐户菜单（您的配置文件图片），然后选择Workfront配置文件来访问您的Workfront配置文件。
+>
+>![workfront配置文件](assets/aue-profile.png)
+
 
 1. 在左侧面板中，单击&#x200B;**[!UICONTROL 空闲时间]**。
 1. 为您的个人休息时间选择所需的日期。
