@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 11b25decc88146568aad615eb06ef3521f7aa761
+source-git-commit: 5ad96cc98e3bd8556224885940052a4f3d22697f
 workflow-type: tm+mt
-source-wordcount: '2527'
+source-wordcount: '2525'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
             <p><b>在以下日期可用：</b></p>
             <ul>
                 <li>预览版本： 2024年1月6日</li>
-                <li>适用于所有客户的生产版本：使用25.1版本（2025年1月）</li>
+                <li>适用于所有客户的生产版本：使用25.1版本（2025年1月16日）</li>
             </ul>
         </td>
     </tr>
@@ -82,7 +82,7 @@ ht-degree: 0%
             <p><b>在以下日期可用：</b></p>
             <ul>
                 <li>预览版本： 2024年1月6日</li>
-                <li>适用于所有客户的生产版本：使用25.1版本（2025年1月）</li>
+                <li>适用于所有客户的生产版本：使用25.1版本（2025年1月16日）</li>
             </ul>
         </td>
     </tr>  

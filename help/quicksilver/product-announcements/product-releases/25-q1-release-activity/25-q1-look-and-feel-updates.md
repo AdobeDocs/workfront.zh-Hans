@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 5ad96cc98e3bd8556224885940052a4f3d22697f
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,19 @@ ht-degree: 0%
 本页介绍在2025年第一季度发布时间范围内对Adobe Workfront应用程序各个区域的外观和感觉所做的细微更新。
 
 有关2025年第一季度版本的所有可用更改列表，请参阅[2025年第一季度版本概述](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
+
+
+## 用于编辑小时列表或报告中的小时条目的外观更新
+
+>[!NOTE]
+>
+>预览版本： 2025年1月9日；适用于所有客户的生产版本：适用于25.1版本（2025年1月16日）
+
+当从小时列表或报告编辑小时以匹配Workfront其他区域的设计时，我们更新了编辑小时框的外观。
+
+有关信息，请参阅[记录时间](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md)。
+
+
 
 ## 更新了“设置”区域的“云提供商”页面上的体验
 
