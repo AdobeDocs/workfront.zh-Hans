@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: b333ea67bb909ca55306f6474832c275ebad590c
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 18%
+source-wordcount: '410'
+ht-degree: 23%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 18%
         <td>编辑</td>
         <td>编辑</td>
         <td>编辑</td>
-        <td>无权访问</td>
+        <td>无访问权限</td>
     </tr>
     <tr>
         <td>文档</td>
@@ -105,42 +105,42 @@ ht-degree: 18%
         <td>编辑</td>
         <td>查看</td>
         <td>查看</td>
-        <td>无权访问</td>
+        <td>无访问权限</td>
     </tr>
     <tr>
         <td>模板</td>
         <td>编辑</td>
-        <td>无权访问</td>
-        <td>无权访问</td>
-        <td>无权访问</td>
+        <td>无访问权限</td>
+        <td>无访问权限</td>
+        <td>无访问权限</td>
     </tr>
     <tr>
         <td>财务数据</td>
         <td>编辑</td>
-        <td>无权访问</td>
-        <td>无权访问</td>
-        <td>无权访问</td>
+        <td>无访问权限</td>
+        <td>无访问权限</td>
+        <td>无访问权限</td>
     </tr>
     <tr>
         <td>资源管理</td>
         <td>编辑</td>
         <td>查看</td>
-        <td>无权访问</td>
-        <td>无权访问</td>
+        <td>无访问权限</td>
+        <td>无访问权限</td>
     </tr>
     <tr>
         <td>场景计划器</td>
         <td>编辑</td>
         <td>查看</td>
-        <td>无权访问</td>
-        <td>无权访问</td>
+        <td>无访问权限</td>
+        <td>无访问权限</td>
     </tr>
     <tr>
         <td>Workfront Goals</td>
         <td>编辑</td>
         <td>编辑</td>
         <td>编辑</td>
-        <td>无权访问</td>
+        <td>无访问权限</td>
     </tr>
 </table>
 
@@ -148,9 +148,11 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->拥有轻量级许可证或参与者许可证的用户共享功能有限。 有关详细信息，请参阅[许可证概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)。
+>* 拥有轻量级许可证或参与者许可证的用户共享功能有限。 有关详细信息，请参阅[许可证概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)。
 >
->外部用户无法在Workfront中搜索项目。 他们可以查看专门与他们共享的文档和日历。 他们还可以查看与其共享项目的用户。
+>* 外部用户无法在Workfront中搜索项目。 他们可以查看专门与他们共享的文档和日历。 他们还可以查看与其共享项目的用户。
+>
+>* 参与者用户和外部用户看不到在系统范围内共享的内容。  必须明确地与他们共享。
 
 您可以在以下文章中找到有关每个对象和区域的访问级别所允许的详细信息：
 
