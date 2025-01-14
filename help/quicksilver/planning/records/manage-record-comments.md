@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -147,14 +147,14 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >在完成键入并提交评论之前导航离开“评论”部分，即使用户注销并重新登录，该评论仍会在页面中保持草稿模式。 添加到注释的任何图像也会保存在草稿中。 草稿会保存7天，之后将丢弃它们并且无法恢复。 草稿注释仅对输入它们的用户可见。
+   >在完成键入并提交评论之前导航离开“评论”部分，即使用户注销并重新登录，该评论仍会在页面中保持草稿模式。<!--this is no longer possible for records: Any images that are added to the comment are also saved in the draft. Drafts are saved for 7 days after which they are discarded and cannot be recovered. Drafted comments are only visible to the user entering them.-->
 
 1. （可选）要撤消或重做更改，请使用以下快捷键：
    * CTRL + Z(Mac为⌘ + z)可撤消更改
    * 按CTRL + Y(对于Mac，按⌘ + y)可重做更改
 1. （可选且有条件）如果您的Workfront实例是AdobeUnified Experience的一部分，请添加&#x200B;**@**，后跟用户名，以在更新中标记某人。 有关详细信息，请参阅本文中关于评论记录](#considerations-about-commenting-on-a-record)的[注意事项部分。
 
-1. （可选）使用富文本工具栏中的选项设置文本格式，在更新中添加表情符号、链接或图像，以增强内容。
+1. （可选）使用富文本工具栏中的选项设置文本格式、添加表情符号或链接到更新，以增强内容。
 
 1. 继续向记录中添加注释。
 

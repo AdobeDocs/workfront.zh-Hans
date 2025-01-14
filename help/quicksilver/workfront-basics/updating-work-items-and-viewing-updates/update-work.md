@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 1426f806b72d740712eba5e337c8424f8af6c9dc
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '3065'
+source-wordcount: '3104'
 ht-degree: 0%
 
 ---
@@ -382,16 +382,26 @@ You can add updates to the following objects:
    1. 在&#x200B;**要显示的文本**&#x200B;下，键入或粘贴链接文本。
    1. 单击&#x200B;**保存**。
 
-1. （可选）要将图像附加到更新，请执行下列操作之一：
+1. （可选）将图像附加到更新。
+
+   >[!WARNING]
+   >
+   >不能将图像附加到下列对象的更新区域：
+   >
+   >* 目标
+   >* 展示板上的临时信息卡
+   >* Workfront规划中的记录。 有关信息，请参阅[Adobe Workfront规划概述](/help/quicksilver/planning/general/planning-overview.md)
+   >
+
+   要将图像附加到更新，请执行下列操作之一：
 
    * 将图像保存在计算机上，然后将其拖放到新注释区域。
    * 从计算机中复制屏幕快照，然后将其粘贴到评论中。
    * 单击&#x200B;**添加映像**&#x200B;图标![](assets/add-image-mountain-with-plus-icon.png)并浏览到计算机上的映像。
 
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >**重要信息**
    >
    ><!--<span class="preview">You cannot add images to goals or ad-hoc cards on boards.</span> -->
    >
@@ -598,7 +608,7 @@ Workfront对象的“更新”部分显示两种类型的信息：
    * 团队
    * 模板
    * 模板任务
-   * 临时信息卡
+   * 展示板上的临时信息卡
 
 有关用户和系统更新以及它们在Workfront对象更新部分中的显示方式的更多信息，请参阅[更新部分概述](../updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 

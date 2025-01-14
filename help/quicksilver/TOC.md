@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 2b1b167bd3645431399c2eb60e300cd958dfa03a
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '14782'
+source-wordcount: '14784'
 ht-degree: 2%
 
 ---
@@ -867,7 +867,7 @@ ht-degree: 2%
       * [用户凭据与SAML凭据](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
       * [更新访问级别中的自动升级选项](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
 * Adobe Workfront基础知识{#basics}
-   * [Adobe Workfront基础知识](workfront-basics/workfront-basics.md)
+   * [Adobe Workfront基础知识：文章索引](workfront-basics/workfront-basics.md)
    * [Adobe Workfront术语表](workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
    * [Adobe Workfront浏览器要求](workfront-basics/workfront-browser-requirements.md)
    * [Adobe Workfront支持的语言](workfront-basics/supported-languages-in-workfront.md)

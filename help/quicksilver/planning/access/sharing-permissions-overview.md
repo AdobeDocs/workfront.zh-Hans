@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 6%
@@ -38,15 +38,13 @@ ht-degree: 6%
 
    * 您可以与组织内的人员共享工作区。
    * 共享工作区时，也将共享与工作区关联的所有记录类型、记录和字段。
-
-     共享工作区时，视图不共享。 视图将单独共享。
+   * 共享工作区时，视图不共享。 视图将单独共享。
 
 * 视图
 
-   * 您必须向用户（包括系统管理员）授予单独访问视图的权限以及访问工作区的权限。
+   * 您必须向用户（包括系统管理员）授予单独访问视图的权限和访问工作区的权限。
    * 共享视图时，将共享所有视图元素，包括筛选器、分组、排序或设置。
-
-     共享视图时，不会共享该视图中可见的记录。 必须通过共享工作区来共享记录。
+   * 共享视图时，不会共享该视图中可见的记录。 必须通过共享工作区来共享记录。
    * 在为视图生成公共链接时，您可以与组织外部的人员公开共享视图。通过公共链接访问记录页面的人员可以查看所有记录及其字段，包括连接的记录和字段。
 
   有关信息，请参阅[共享视图](/help/quicksilver/planning/access/share-views.md)。
@@ -62,7 +60,7 @@ ht-degree: 6%
 
   有关许可证类型如何影响Workfront Planning权限级别的信息，请参阅[使用Adobe Workfront Planning时的许可证类型概述](/help/quicksilver/planning/access/license-type-overview.md)。
 * 系统管理员可以管理系统中的所有工作区，包括他们未创建的工作区。
-* 其他用户（包括系统管理员）只能访问他们自己创建的或与他们共享的视图。 系统管理员只能获得管理视图的权限。
+* 其他用户（包括系统管理员）只能访问他们自己创建的或与他们共享的视图。 只能向系统管理员授予管理视图的权限。
 * 您可以与他人共享指向工作区或视图的链接。
 
   存在以下情况：
