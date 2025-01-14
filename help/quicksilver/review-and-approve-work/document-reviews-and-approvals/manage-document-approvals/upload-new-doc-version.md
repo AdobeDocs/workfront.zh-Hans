@@ -5,21 +5,24 @@ title: 上传新文档版本并请求审批
 description: 您可以在Adobe Workfront中上传新文档版本并请求其他用户审批。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: cf2a6353df0ea0e3e1c473092dab5f263a98a2fd
+exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
+source-git-commit: 162f63d52c97c6d4894d35565c68eb2858369b53
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
 
-
 # 上传新文档版本并请求审批
 
-如果标记为的文档需要在以前的审阅中工作，则可以将新版本上载到原始文档并开始另一轮审批。
+如果标记为的文档需要在以前的审阅中工作，则可以将新版本上载到原始文档并开始另一轮审批。 上传文档的新版本后，先前版本将被锁定。
 
 如果新版本的文件名与先前版本的文件名不同，则Workfront显示具有新文件名的文档。
 
 当向具有未完成审批的文档中添加新版本时，先前版本的审批显示为“已撤回”。 先前的批准流程将关闭，即使一些参与者尚未做出决定。
+
+如果删除了最新的文档版本，则以前的版本仍保持锁定状态。 如果需要编辑以前的版本，则必须手动解锁该版本。
+
 
 ## 访问要求
 

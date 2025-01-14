@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 5ad96cc98e3bd8556224885940052a4f3d22697f
+source-git-commit: a91ca50cacb1f48d49fd70e9612297438bbddd83
 workflow-type: tm+mt
-source-wordcount: '2525'
+source-wordcount: '2570'
 ht-degree: 0%
 
 ---
@@ -455,6 +455,30 @@ ht-degree: 0%
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+<tr>
+        <td>
+            <p><span class="bold">功能</span></p>
+        </td>
+        <td>
+            <p><span class="bold">发行日期</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            桌面校对查看器升级</a></p>
+            [！BADGE In Production ]{type=Informational}
+            <p>我们使用使用Chromium 130.0.6723.152的最新Electron 33.3.0版本更新了Desktop Viewer。 </p>
+            <p>最新版本： 2.1.44 </p>
+        </td>
+        <td>
+            <p><b>在以下日期可用：</b></p>
+            <ul>
+                <li>预览版本： 2024年1月2日</li>
+                <li><span class="preview">所有客户的生产版本： 2025年1月9日</span></li>
+            </ul>
+        </td>
+    </tr>
     <tr>
         <td>
             <p><span class="bold">功能</span></p>

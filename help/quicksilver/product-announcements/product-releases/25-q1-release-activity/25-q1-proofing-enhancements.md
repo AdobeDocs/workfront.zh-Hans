@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 41eff095-ff9b-4791-81c3-758e101b3e88
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: f5eb5165183986f55919bdf2c59a31c12a1c64fe
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,15 @@ ht-degree: 0%
 本页介绍了2025年第一季度版本对“预览”环境所做的所有验证增强。 这些增强功能将在2025年第一季度发行版的“生产”环境中提供。
 
 有关2025年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2025年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
+
+## 桌面校对查看器升级
+
+我们使用使用Chromium 130.0.6723.152的最新Electron 33.3.0版本更新了Desktop Viewer。
+
+有关安装桌面验证查看器的信息，请参阅[安装桌面验证查看器](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)。
+
+
+最新版本： 2.1.44
 
 ## 测试版中提供了用于交互式审阅的新浏览器扩展
 
