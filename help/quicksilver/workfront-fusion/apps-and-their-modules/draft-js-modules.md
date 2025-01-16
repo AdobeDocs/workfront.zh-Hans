@@ -4,17 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Draft.js模块
-description: 在 [!DNL Adobe Workfront Fusion] 场景中，可以使用Draft.js模块将Draft.js转换为HTML，并将HTML转换为Draft.js。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 8c57f1eb409cd2186fa60a4ba3a7047e9b572871
+exl-id: 5f4634ed-0861-4c21-8cfe-da5a5e633ff8
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '263'
 ht-degree: 1%
 
 ---
 
 # [!UICONTROL Draft.js]模块
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [Draft.js模块](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/draft-js-modules.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 在[!DNL Adobe Workfront Fusion]方案中，您可以使用[!UICONTROL Draft.js]模块将Draft.js转换为HTML，将HTML转换为Draft.js。 您可以将其与Workfront模块结合使用，以向Workfront字段添加富文本或从中读取富文本。
 

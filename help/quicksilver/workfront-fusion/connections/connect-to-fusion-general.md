@@ -4,18 +4,30 @@ product-area: workfront-integrations
 keywords: 连接器
 navigation-topic: connections-annd-webhooks
 title: 创建与 [!DNL Adobe Workfront Fusion] 的连接 — 基本说明
-description: 许多 [!DNL Adobe Workfront Fusion] 连接器在创建连接时不需要自定义配置。 本文介绍了默认连接创建过程。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 6576a515-a1a1-4613-8d04-3c9d36bb1ed9
-source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
 
 # 创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [创建连接 — 基本说明](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/connect-to-fusion-general.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 ## 访问要求
 

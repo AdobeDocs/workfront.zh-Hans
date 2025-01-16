@@ -3,19 +3,31 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: 连接器
 navigation-topic: connections-annd-webhooks
-title: 使用更新的安全措施连接 [!DNL Adobe Workfront Fusion] 到 [!DNL Google Services]
-description: Google最近对用户使用其API的方式引入了限制。 本文介绍了如何将 [!DNL Adobe Workfront Fusion] 连接到Google，并说明了这些更新安全措施。
+title: '使用更新的安全措施连接 [!DNL Adobe Workfront Fusion] 到 [!DNL Google Services] '
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 32dfef7a-7942-4025-8cb9-055d4e28090b
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
 
 # 使用更新的安全措施将[!DNL Adobe Workfront Fusion]连接到[!DNL Google Services]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [使用更新的安全措施将Adobe Workfront Fusion连接到Google Services](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/connect-to-google-with-new-security-measures.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 ## 访问要求
 

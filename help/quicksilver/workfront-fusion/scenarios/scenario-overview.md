@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Adobe Workfront Fusion场景概述
-description: 除了Adobe Workfront许可证之外，Adobe Workfront Fusion还需要Adobe Workfront Fusion许可证。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 13d6230d-51f6-4f68-8697-30f8ce6c8599
-source-git-commit: f8ea4a1c40cd3fc4664a5a3b1c3a900e874d78b1
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '701'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]方案概述
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [方案概述](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 >[!NOTE]
 >

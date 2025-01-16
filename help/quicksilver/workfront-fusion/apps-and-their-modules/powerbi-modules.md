@@ -6,18 +6,30 @@ product-area: workfront-integrations
 keywords: 连接器
 navigation-topic: apps-and-their-modules
 title: Power BI模块
-description: 除了Adobe Workfront许可证之外，Adobe Workfront Fusion还需要Adobe Workfront Fusion许可证。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 01405f5f-6821-4c38-b34c-373922f63004
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '2493'
+source-wordcount: '2551'
 ht-degree: 0%
 
 ---
 
 # [!DNL Power BI]模块
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [Power BI模块](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/powerbi-modules.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 [!DNL Power BI]是一个应用程序，它允许您可视化数据并向利益相关者展示数据。 它可以获取来自各种来源的数据。
 

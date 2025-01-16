@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: 工具
-description: ' [!DNL Adobe Workfront Fusion Tools] 部分包含几个可增强方案的有用模块。'
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 97a68fbc-1272-43fc-b4f2-4c1c9e590741
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '2283'
+source-wordcount: '2344'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL 工具]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [工具](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/tools-modules.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 [!DNL Adobe Workfront Fusion Tools]部分包含几个可以增强方案的有用模块。
 

@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
 title: 将 [!DNL Adobe Workfront Fusion] 连接到使用API令牌授权的Web服务
-description: 某些服务不允许集成解决方案（如 [!DNL Adobe Workfront Fusion] ）创建可在场景中轻松使用的应用程序。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 0feb745a-1ee0-4b29-92ab-14c12a8647d4
-source-git-commit: e61dc6646e221cffb30aad055663dcf8fd3299e2
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '1008'
 ht-degree: 0%
 
 ---
 
 # 将[!DNL Adobe Workfront Fusion]连接到使用API令牌授权的Web服务
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [将Adobe Workfront Fusion连接到使用API令牌授权的Web服务](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/connect-wf-web-service-uses-api-token-auth.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 某些服务不允许集成解决方案（如[!DNL Adobe Workfront Fusion]）创建可在场景中轻松使用的应用程序。
 

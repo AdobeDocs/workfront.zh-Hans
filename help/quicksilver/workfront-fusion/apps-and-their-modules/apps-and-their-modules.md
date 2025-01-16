@@ -5,19 +5,31 @@ product-area: workfront-integrations
 keywords: 连接器
 navigation-topic: workfront-fusion-2-0
 title: 应用程序及其模块
-description: Adobe Workfront Fusion当前为此列表中的应用程序提供专用连接器。 如果您要使用的应用程序不在此列表中，则可以使用HTTP、SOAP或JSON模块连接到该应用程序。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: 5b24a91a9ea5dadb071dfdd88d9f80b2589a1323
+source-git-commit: 3983d811a849c01b3c34b1cd6ee895e5552225a6
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 19%
+source-wordcount: '275'
+ht-degree: 16%
 
 ---
 
 # 应用程序及其模块
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [Fusion应用程序及其模块引用：文章索引](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/apps-and-modules-toc.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 >[!IMPORTANT]
 >

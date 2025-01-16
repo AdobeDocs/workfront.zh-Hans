@@ -2,19 +2,23 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: 'Adobe Workfront Fusion场景示例：连接电子邮件、文本解析器和Google工作表'
-description: 此方案可帮助您创建包含所有电子邮件的日志，并在电子表格中为它们添加标记以供进一步操作。 它使用正则表达式(Regex)作为搜索模式，在电子表格中的两个单独表中捕获电子邮件正文。 第一模式搜索短语，而第二模式搜索相同的短语和电子邮件地址。
+title: Adobe Workfront Fusion场景示例：连接电子邮件、文本解析器和Google工作表
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用。
 author: Becky
 feature: Workfront Fusion
 exl-id: ebcfa3b9-3207-441c-9ce5-9af696c0119d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]方案示例：连接电子邮件、[!UICONTROL 文本分析器]和[!DNL Google Sheets]
+
+>[!IMPORTANT]
+>
+>本文将在不久的将来删除。
 
 此方案可帮助您创建包含所有电子邮件的日志，并在电子表格中为它们添加标记以供进一步操作。 它使用正则表达式(Regex)作为搜索模式，在电子表格中的两个单独表中捕获电子邮件正文。 第一模式搜索短语，而第二模式搜索相同的短语和电子邮件地址。
 

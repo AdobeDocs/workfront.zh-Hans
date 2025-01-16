@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: ' [!DNL Adobe Workfront Fusion]中的方案执行、周期和阶段'
-description: 本文介绍了在 [!DNL Adobe Workfront Fusion] 方案运行时发生的事件，如初始化、操作、提交和回滚。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 5403f476-226d-4268-affc-8e06b1117684
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]中的方案执行、周期和阶段
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [方案执行、周期和阶段](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/scenarios/scenario-execution-cycles-phases.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 [!DNL Adobe Workfront Fusion]是一个事务型系统，类似于关系数据库。 每个场景执行从初始化阶段开始，至少包含一个由操作和提交/回滚阶段组成的周期，并结束于最终确定阶段：
 

@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: 连接器
 navigation-topic: apps-and-their-modules
 title: AWS S3模块
-description: ' [!DNL Adobe Workfront Fusion AWS] S3模块允许您对S3存储桶执行操作。'
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 33623b5d-d9ff-4d41-b938-33378f50539e
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1392'
+source-wordcount: '1455'
 ht-degree: 0%
 
 ---
 
 # AWS S3模块
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [AWS S3模块](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/aws-s3-modules.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 [!DNL Adobe Workfront Fusion AWS] S3模块允许您对S3存储桶执行操作。
 
@@ -73,7 +85,7 @@ AWS S3连接器使用以下对象：
  <tbody> 
   <tr> 
    <td role="rowheader">基本URL</td> 
-   <td>https://s3.&lbrace;&lbrace;parameter.region&rbrace;&rbrace;.amazonaws.com</td> 
+   <td>https://s3.{{parameters.region}}.amazonaws.com</td> 
   </tr>
   <tr> 
    <td role="rowheader">API标记</td> 

@@ -3,18 +3,22 @@ product-area: workfront-navigation
 product-previous: workfront-fusion
 navigation-topic: workfront-fusion-2-0
 title: 在Workfront Fusion中导航到新的UI
-description: Workfront Fusion已更新其UI，供不会通过Adobe Experience Cloud访问Fusion的用户使用。 现在，他们的体验与Adobe Experience Cloud上的Fusion更接近。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 2887a0e2-039e-4e29-823d-82809f217045
-source-git-commit: 5e1508e8e49a5ceb95b1524dbb23a258ab5c4e20
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
 
 # 在Workfront Fusion中导航新体验
+
+>[!IMPORTANT]
+>
+>本文将在不久的将来删除。
 
 对于不通过Adobe Experience Cloud访问Fusion的用户，更新了Workfront Fusion。 新的Fusion UI提供了与其他Adobe产品更加无缝的体验，并将使您的用户顺利过渡到Adobe Experience Cloud。
 

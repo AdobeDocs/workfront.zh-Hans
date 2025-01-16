@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
 title: 在 [!DNL Adobe Workfront Fusion]中处理错误
-description: 当在执行场景期间发生错误时，通常是因为服务因故障而不可用、服务以意外数据响应或输入数据验证失败。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: a08c18a0-1797-4126-827a-1ea7e11d4bad
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
 
 # 在[!DNL Adobe Workfront Fusion]中处理错误
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [添加错误处理](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/configure-error-handling/error-handling.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 当在执行场景期间发生错误时，通常是因为服务因故障而不可用、服务以意外数据响应或输入数据验证失败。
 

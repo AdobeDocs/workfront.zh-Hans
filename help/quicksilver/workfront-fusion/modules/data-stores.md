@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: 数据存储在 [!DNL Adobe Workfront Fusion]中
-description: 数据存储类似于数据库或简单表，可以存储场景中的数据，从而可以在单独的场景或场景运行之间传输数据。 在同步过程中，您可以使用数据存储来存储来自不同系统的新数据。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 00a969175626d27b70d516921097725fdf818799
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1369'
 ht-degree: 1%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]中的数据存储
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [创建和管理数据存储](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/map-data/data-stores.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 数据存储类似于数据库或简单表，可以存储场景中的数据，从而可以在单独的场景或场景运行之间传输数据。 在同步过程中，您可以使用数据存储来存储来自不同系统的新数据。
 
@@ -78,16 +90,16 @@ ht-degree: 1%
 
 <!--If your organization is on the new Workfront plan model (Select, Prime, and Ultimate packages), your total data store size is:-->
 
-如果贵组织使用的是新的Workfront计划模型（Select、Prime和Ultimate包），则贵组织的计划会影响Fusion实例可用的数据存储的大小和数量。
+如果贵组织使用的是新的Workfront计划模型(Select、Prime和Ultimate包)，则贵组织的计划会影响Fusion实例可用的数据存储的大小和数量。
 
-### 最终计划
+### Ultimate计划
 
 Ultimate包上的Fusion实例将接收：
 
 * 100 MB空间
 * 50个数据存储
 
-### 选择并优化计划
+### 选择和Prime计划
 
 Select或Prime包上的Fusion实例将接收：—>
 

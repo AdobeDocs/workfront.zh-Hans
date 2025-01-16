@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: 复制 [!DNL Adobe Workfront Fusion]中的模块或方案
-description: 复制 [!DNL Adobe Workfront Fusion]中的模块或方案
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 24e77a56-d676-4cf1-a801-1c328ffd0c4e
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
 
 # 复制[!DNL Adobe Workfront Fusion]中的模块或方案
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [复制模块或方案](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/add-modules/copy-modules-or-scenarios.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 您可以在[!DNL Adobe Workfront Fusion]中复制模块、模块组或整个方案。 此功能允许您重复使用场景或部分场景，而无需再次构建它们
 

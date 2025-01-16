@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: 使用 [!DNL Adobe Workfront Fusion]中的函数映射项
-description: 映射项时，可以使用函数创建简单或复杂的公式。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: e64d9b1e-8576-43db-ac29-0d386a482fbc
-source-git-commit: d175a3d43f13338661d8b7e1cb79038a36522ff9
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 0%
+source-wordcount: '566'
+ht-degree: 1%
 
 ---
 
 # 使用[!DNL Adobe Workfront Fusion]中的函数映射项
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [使用函数映射项](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/map-data/map-using-functions.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 映射项时，可以使用函数创建简单或复杂的公式。 [!DNL Adobe Workfront Fusion]中可用的函数类似于Excel中的函数以及某些编程语言中的函数：
 

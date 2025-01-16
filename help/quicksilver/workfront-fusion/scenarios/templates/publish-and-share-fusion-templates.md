@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Publish和共享 [!DNL Adobe Workfront Fusion] 模板
-description: 创建模板后，您的模板将可供所有团队成员使用。 如果要与团队外部的人员共享模板，则必须先发布该模板。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: aaa59a1e-aa16-41f5-9f56-ce0615c1b685
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
 
 # Publish和共享[!DNL Adobe Workfront Fusion]模板
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [Publish和共享模板](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-and-manage-templates/publish-and-share-fusion-templates.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 创建模板后，您的模板将可供所有团队成员使用。 如果要与团队外部的人员共享模板，则必须先发布该模板。
 

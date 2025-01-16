@@ -5,13 +5,13 @@ product-area: workfront-integrations;agile-and-teams;user-management
 keywords: 连接器
 navigation-topic: apps-and-their-modules
 title: Google Team Drive模块
-description: 通过 [!DNL Adobe Workfront Fusion Google Team Drive] 模块，您可以在 [!DNL Google Shared] 驱动器中监视、上传、更新、复制、删除或检索文件和创建文件夹。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 8b4c057f-bb98-44d1-9b71-cbeaa402a1c3
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1353'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,18 @@ ht-degree: 0%
 # [!DNL Google Team Drive]模块
 
 通过[!DNL Adobe Workfront Fusion] [!DNL Google Team Drive]模块，您可以在[!DNL Google Shared Drive]中监视、上传、更新、复制、删除或检索文件和创建文件夹。
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [Google团队驱动器模块](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-team-drive-modules.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 要将[!DNL Google Team Drive]与[!DNL Adobe Workfront Fusion]一起使用，需要具有[!DNL Google Workspace]帐户。 如果您没有帐户，则可以在[[!DNL Google Workspace] 注册站点](https://workspace.google.com/business/signup/welcome)创建一个[!DNL Google Workspace]帐户。
 

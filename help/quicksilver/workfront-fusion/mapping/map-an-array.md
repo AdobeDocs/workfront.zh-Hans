@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
 title: 在 [!DNL Adobe] Workfront Fusion中映射数组
-description: 您可以将数组映射到Adobe Workfront Fusion中的模块字段。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 725e0c24-cb4b-46c4-9c00-4f9cc334fbc7
-source-git-commit: f87bc22f4ce70f266a199fcb54c5a74f9e3ba914
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
 
 # 在[!DNL Adobe Workfront Fusion]中映射数组
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [映射数组或数组元素](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/map-data/map-an-array.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 数组是一种特殊类型的项，可以包含以下内容：
 

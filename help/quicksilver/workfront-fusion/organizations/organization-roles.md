@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: ' [!DNL Adobe Workfront Fusion]中的组织角色'
-description: 本文包含有关 [!DNL Adobe] Workfront Fusion中角色的访问权限的信息。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 0370fa9d-6680-4724-a431-8df884ce4f9a
-source-git-commit: cb093fcecd5defd9dbdbb955ad5158d4a794f005
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 1%
+source-wordcount: '593'
+ht-degree: 2%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]中的组织和团队角色
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [组织和团队角色](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/licenses-and-roles/organization-roles.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 本文介绍了[!DNL Workfront Fusion]中不同团队和组织角色可用的访问和功能。
 

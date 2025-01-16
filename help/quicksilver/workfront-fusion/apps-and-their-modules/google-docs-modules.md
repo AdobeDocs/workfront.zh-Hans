@@ -5,18 +5,30 @@ product-area: workfront-integrations;documents
 keywords: 连接器
 navigation-topic: apps-and-their-modules
 title: Google文档模块
-description: 通过Adobe Workfront Fusion [!DNL Google Docs] 模块，您可以在 [!DNL Google Docs] 和 [!DNL Google Docs] （对于 [!DNL Google Workspace] 用户）中监视、创建、编辑和检索文档。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: fbe7d628-d833-43ce-83b8-8e4e6a812fd1
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '4105'
+source-wordcount: '4160'
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Docs]模块
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [Google Docs模块](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-docs-modules.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 通过[!DNL Adobe Workfront Fusion] [!DNL Google Docs]模块，您可以在[!DNL Google Docs]和[!DNL Google Docs]（针对[!DNL Google Workspace]用户）中监视、创建、编辑和检索文档。
 
@@ -69,7 +81,7 @@ ht-degree: 0%
 
 要使用[!DNL Google Docs]模块，您必须拥有Google帐户。
 
-## Google文档API信息
+## Google Docs API信息
 
 Google Docs连接器使用以下对象：
 
@@ -604,7 +616,7 @@ Google Docs连接器使用以下对象：
  </tbody> 
 </table>
 
-**示例：**&#x200B;以下API调用检索Google文档中指定文档的详细信息：
+**示例：**&#x200B;以下API调用检索Google Docs中指定文档的详细信息：
 
 **URL：**
 

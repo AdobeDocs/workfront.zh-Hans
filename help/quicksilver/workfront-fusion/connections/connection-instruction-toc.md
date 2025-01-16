@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: 连接器
 navigation-topic: connections-annd-webhooks
 title: 在 [!DNL Adobe Workfront Fusion]中创建连接
-description: 连接必须遵循它所连接的应用程序或Web服务的API所设置的要求。 因此，设置连接的说明因应用程序或Web服务而异。 本文可帮助您识别并查找有关将 [!DNL Adobe Workfront Fusion] 连接到您选择的应用程序或Web服务的说明。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: fb1a2af4-da58-48ba-85b5-1903d6a3ceda
-source-git-commit: b90343eab40e91c6f5cddeaa960ce9c9c97b1d29
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '523'
 ht-degree: 1%
 
 ---
 
 # 在[!DNL Adobe Workfront Fusion]中创建连接
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [连接到应用程序：文章索引](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/connect-to-apps-toc.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 <!-- Audited: 3/2024-->
 

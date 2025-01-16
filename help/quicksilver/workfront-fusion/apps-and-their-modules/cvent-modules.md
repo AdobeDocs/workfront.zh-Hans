@@ -5,18 +5,30 @@ product-area: workfront-integrations;documents
 keywords: 连接器
 navigation-topic: apps-and-their-modules
 title: Cvent模块
-description: 在 [!DNL Adobe Workfront Fusion] 方案中，您可以自动使用Cvent的工作流，并将其连接到多个第三方应用程序和服务。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: c95b9764-29a5-4d8c-8e6d-68a3969129e0
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1111'
 ht-degree: 1%
 
 ---
 
 # [!DNL Cvent]模块
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [Cvent模块](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/cvent-modules.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 在[!DNL Adobe Workfront Fusion]方案中，您可以自动使用[!DNL Cvent]的工作流，并将其连接到多个第三方应用程序和服务。
 

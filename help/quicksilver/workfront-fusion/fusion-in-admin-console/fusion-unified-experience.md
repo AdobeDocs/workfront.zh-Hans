@@ -3,18 +3,31 @@ product-area: workfront-navigation
 product-previous: workfront-fusion
 navigation-topic: workfront-fusion-2-0
 title: 适用于Workfront Fusion的AdobeUnified Experience
-description: 通过Adobe Experience Cloud访问Workfront Fusion可为您提供管理所有Adobe应用程序的无缝、统一的体验。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: 1e8ea4b1f53a19a5872e39f7671b1b4e047f31d1
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '631'
 ht-degree: 0%
 
 ---
 
 # [!DNL Workfront Fusion]的[!DNL Adobe Unified Experience]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [更改配置文件设置](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/navigate-workfront-fusion/change-profile-settings.html)
+>* [设置团队通知选项](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/set-team-notification-options.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 通过[!DNL Adobe Experience Cloud]访问[!DNL Workfront Fusion]可为您提供管理所有[!DNL Adobe]应用程序的无缝、统一的体验。 单一身份管理为您提供了一个登录位置，无需使用多个URL或登录ID。
 
@@ -108,7 +121,7 @@ ht-degree: 0%
 
 要查看您的通知，请单击屏幕右上角附近的通知图标![通知图标](assets/notifications-icon.png)。 Notifications图标上的红点表示您有未读通知或公告。
 
-有关在Adobe Experience Cloud中配置通知的说明，请参阅Adobe文档中的[通知配置](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/notifications.html?lang=en#:~:text=You%20can%20customize%20how%20you,how%20you%20receive%20your%20notifications.)。
+有关在Adobe Experience Cloud中配置通知的说明，请参阅Adobe文档中的[通知配置](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/notifications.html#:~:text=You%20can%20customize%20how%20you,how%20you%20receive%20your%20notifications.)。
 
 配置时，请注意以下事项：
 

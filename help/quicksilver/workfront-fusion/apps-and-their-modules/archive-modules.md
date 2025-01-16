@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: 存档模块
-description: 在 [!DNL Adobe Workfront Fusion] 方案中，您可以将存档文件（如压缩文件）连接到多个第三方应用程序和服务。 例如，您可以配置一个方案，该方案
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: e29b6d39-3666-4d6d-a178-1983ae9f3aa9
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL 存档]模块
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [存档模块](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/archive-modules.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 在[!DNL Adobe Workfront Fusion]方案中，您可以在方案中使用存档，如压缩文件，从而允许您在自动化或集成中使用它。
 

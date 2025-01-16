@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Adobe Workfront Fusion中的场景执行流程
-description: 本文介绍了场景的执行方式以及数据流通过场景的方式。 它还介绍了可在何处找到有关已处理数据的信息以及如何读取该信息。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 95c6e969-66b4-4b57-9e62-aae0cfb9bf98
-source-git-commit: 75cf9af858e90a640c45b211d36f35b684128c2f
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]中的方案执行流
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [方案执行流程](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/scenarios/scenario-execution-flow.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 本文介绍了场景的执行方式以及数据流通过场景的方式。 它还介绍了可在何处找到有关已处理数据的信息以及如何读取该信息。
 

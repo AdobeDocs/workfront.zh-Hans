@@ -4,18 +4,22 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: fusion-in-admin-console
 title: 基于平台的管理差异(Adobe Workfront Fusion/Adobe业务平台)
-description: 作为Adobe Workfront Fusion管理员，您的管理职责和步骤因贵组织是否已载入到Adobe业务平台而异。 本文列出了必须以不同方式处理的过程，以及指向Workfront Fusion和Adobe Admin Console中进程说明的链接。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 86f8cc24-c1a2-4f47-bd08-39bb0f6b2940
-source-git-commit: 392eee3c7b1aacf92d7877f07a8154924f3926a0
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
 
 # 基于平台的管理差异([!DNL Adobe Workfront Fusion]/[!DNL Adobe Admin Console])
+
+>[!IMPORTANT]
+>
+>本文将在不久的将来删除，因为所有组织都将移至Adobe Admin Console。
 
 如果您的组织已登记到[!DNL Adobe Admin Console]，则您的用户使用[!DNL Adobe Admin Console]来访问[!DNL Adobe Workfront Fusion]。 这意味着：
 

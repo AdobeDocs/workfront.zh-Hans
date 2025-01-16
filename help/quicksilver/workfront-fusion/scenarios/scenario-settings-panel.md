@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Adobe Workfront Fusion中的“方案设置”面板
-description: 本文介绍了在您的 [!DNL Adobe Workfront Fusion] 方案中的[!UICONTROL 方案设置]面板中可用的设置。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 64a7a39a-f450-4eba-b4db-f31dd22aefdc
-source-git-commit: b9914daa1e176d115226019d6ddf02b0953bc4d6
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1266'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]中的方案设置面板
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [配置方案设置](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/configure-scenario-settings/configure-scenario-settings.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 ## 访问要求
 

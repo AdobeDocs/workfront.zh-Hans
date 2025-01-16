@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
 title: 在 [!DNL Adobe Workfront Fusion]中重试错误处理
-description: 在某些情况下，如果失败原因可能会随着时间的推移而推移，则重新执行几次失败模块会很有用。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 1058905c-6c95-4a8c-8956-e1606f1486d9
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
 
 # 在[!DNL Adobe Workfront Fusion]中重试错误处理
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [配置`retry`错误处理解决方法](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/configure-error-handling/retry.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 在某些情况下，如果失败的原因可能会随着时间的推移而推移，则重新执行失败模块会很有用。
 

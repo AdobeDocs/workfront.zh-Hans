@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: workfront-fusion-basics
 title: 删除 [!DNL Adobe Workfront Fusion]中的用户数据
-description: 您可以在 [!DNL Adobe Workfront Fusion] 帐户中存储和删除用户数据。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 4b0a0abe-a913-429b-b02e-809b2e7410af
-source-git-commit: 759472ada4595625e3a02b55c455564e24343743
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
 
 # 删除[!DNL Adobe Workfront Fusion]中的用户数据
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [删除方案元素](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/delete-scenario-elements.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 您可以在[!DNL Adobe Workfront Fusion]帐户中存储和删除以下区域中的用户数据：
 

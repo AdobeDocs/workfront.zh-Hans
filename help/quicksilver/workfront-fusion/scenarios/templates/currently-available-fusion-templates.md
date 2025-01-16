@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: 当前可用的Adobe Workfront Fusion模板
-description: Adobe Workfront Fusion中当前提供以下公共模板。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 3c22860b1a9bdc653a772a48ccfcbb4456b11c8c
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1323'
 ht-degree: 0%
 
 ---
 
 # 当前可用的Adobe Workfront Fusion模板
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [当前可用的Adobe Workfront Fusion模板](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-and-manage-templates/currently-available-fusion-templates.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 Adobe Workfront Fusion中当前提供以下公共模板。
 

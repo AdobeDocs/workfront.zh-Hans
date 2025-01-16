@@ -4,18 +4,32 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Adobe Workfront Fusion中的操作
-description: Adobe Workfront Fusion中的操作是由模块执行的任务。 出于跟踪目的，模块执行的任何成功操作都属于操作。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 34268fb6-e485-42be-b751-3ee79bbf5797
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]中的操作
+
+
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [操作](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/operations-in-workfront-fusion.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 [!DNL Adobe Workfront Fusion]中的操作是由模块执行的任务。 出于跟踪目的，模块执行的任何成功操作都属于操作。
 
@@ -41,7 +55,7 @@ ht-degree: 0%
 
 ## 操作限制
 
-您的组织可能具有每月运营限制。 此计划基于贵组织购买的[!DNL Workfront]计划。 [!UICONTROL Ultimate] [!DNL Workfront]计划提供无限量的操作。
+您的组织可能具有每月运营限制。 此计划基于贵组织购买的[!DNL Workfront]计划。 [!UICONTROL Ultimate] [!DNL Workfront]计划提供了无限量的操作。
 
 如果您的组织存在每月限制，则会在接近限制时通知您。 如果超出限制，[!DNL Workfront]将联系您的组织，以确保您的计划满足您的需求。
 

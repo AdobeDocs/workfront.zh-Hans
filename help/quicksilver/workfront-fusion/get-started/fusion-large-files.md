@@ -3,22 +3,36 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: 在Adobe Workfront Fusion中使用大文件
-description: Workfront和HTTP连接器当前支持大文件。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: e0be458c-a5f4-48e4-a8fb-afd5d072b6ff
-source-git-commit: 4914e6e30d6c4a16de5bd2c91bc6f8e4f208c078
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1163'
 ht-degree: 0%
 
 ---
 
 # 在Adobe Workfront Fusion中使用大文件
 
+
+
 >[!IMPORTANT]
 >
->大文件功能仅供Workfront Ultimate客户使用，并且是分阶段推出的。 到2025年1月，所有具有Workfront Ultimate计划的Fusion组织都将拥有大文件功能。
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [处理大文件](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/scenarios/fusion-large-files.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
+
+>[!IMPORTANT]
+>
+>大文件功能仅适用于Workfront Ultimate客户，是分阶段推出的。 到2025年1月，所有具有Workfront Ultimate计划的Fusion组织都将拥有大文件功能。
 
 Workfront Fusion中现在提供了增强的数据传输功能，支持在场景中处理显着更大的文件。
 

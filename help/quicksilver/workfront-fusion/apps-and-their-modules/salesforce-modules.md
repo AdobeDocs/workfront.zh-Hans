@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: 连接器
 navigation-topic: apps-and-their-modules
 title: Salesforce模块
-description: 在Adobe Workfront Fusion场景中，您可以自动使用Salesforce的工作流，并将其连接到多个第三方应用程序和服务。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 3c8adcd9-fb5f-400d-9edd-6d9fc30cc728
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '2758'
+source-wordcount: '2806'
 ht-degree: 0%
 
 ---
 
 # [!DNL Salesforce]模块
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [Salesforce模块](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 在Adobe Workfront Fusion场景中，您可以自动使用[!DNL Salesforce]的工作流，并将其连接到多个第三方应用程序和服务。
 
@@ -87,7 +99,7 @@ Salesforce连接器使用以下对象：
  <tbody> 
   <tr> 
    <td role="rowheader">基本URL</td> 
-   <td> &lbrace;&lbrace;connection.instanceUrl&rbrace;&rbrace;</td>
+   <td> {{connection.instanceUrl}}</td>
   </tr> 
   <tr> 
    <td role="rowheader">API版本</td> 

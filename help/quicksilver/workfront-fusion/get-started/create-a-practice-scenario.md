@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: 在Adobe Workfront Fusion中创建实践集成场景
-description: 本文介绍了如何使用Adobe Workfront Fusion创建集成场景。 集成方案将不同的应用程序连接在一起，允许您的数据通过不同的应用程序流动。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 643bb1d5-d7bc-402b-8ed1-9ca9a30e4560
-source-git-commit: cb4edb02aad8a0738ea80f058fcc2bc016832ce1
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '2139'
+source-wordcount: '2188'
 ht-degree: 0%
 
 ---
 
 # 在Adobe Workfront Fusion中创建实践集成场景
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [用于创建方案的工作流](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/plan-a-scenario/create-a-scenario-workflow.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 本文介绍了如何使用Adobe Workfront Fusion创建集成场景。 集成方案将不同的应用程序连接在一起，允许您的数据通过不同的应用程序流动。
 

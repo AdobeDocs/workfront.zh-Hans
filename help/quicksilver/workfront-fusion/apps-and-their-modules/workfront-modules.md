@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: 连接器
 navigation-topic: apps-and-their-modules
 title: Adobe Workfront模块
-description: 您可以使用Adobe Workfront Fusion Adobe Workfront连接器在Workfront中自动执行流程。 如果您拥有Workfront Fusion for Work Automation and Integration许可证，则还可以使用它连接到第三方应用程序和服务。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 2682c027b2cd248b2674cebe8f0a0b8d1006257b
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '6797'
+source-wordcount: '6831'
 ht-degree: 2%
 
 ---
 
 # [!DNL Adobe Workfront]模块
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [Adobe Workfront模块](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 您可以使用[!DNL Adobe Workfront Fusion] [!DNL Adobe Workfront]连接器自动执行[!DNL Workfront]中的流程。 如果您拥有[!UICONTROL [!DNL Workfront Fusion]工作自动化和集成]许可证，则还可以使用它连接到第三方应用程序和服务。
 
@@ -1255,7 +1267,7 @@ ht-degree: 2%
    <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
-   <td>迭代</td> 
+   <td>开发周期</td> 
    <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
    <td> </td> 
@@ -1602,7 +1614,7 @@ ht-degree: 2%
    <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
-   <td>迭代</td> 
+   <td>开发周期</td> 
    <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
@@ -1911,7 +1923,7 @@ ht-degree: 2%
    <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
-   <td>迭代</td> 
+   <td>开发周期</td> 
    <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 

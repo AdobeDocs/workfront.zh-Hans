@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;documents
 navigation-topic: apps-and-their-modules
 title: 文本分析器
-description: 您可以使用文本解析器工具来解析用于其他 [!DNL Adobe Workfront Fusion] 方案模块的文本。 文本解析器不需要连接。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d71cf64-4f86-42c5-81e7-8fc15333cbd7
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL 文本分析器]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [文本分析器](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/text-parser.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 您可以使用[!UICONTROL 文本解析器工具]来解析要在其他[!DNL Adobe Workfront Fusion]方案模块中使用的文本。 [!UICONTROL 文本分析器]不需要连接。
 

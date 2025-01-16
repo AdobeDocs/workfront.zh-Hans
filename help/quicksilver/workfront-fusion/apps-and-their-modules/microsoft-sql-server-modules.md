@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: 连接器
 navigation-topic: apps-and-their-modules
 title: Microsoft SQL Server模块
-description: 您可以使用 [!DNL Adobe Workfront Fusion] 连接到Microsoft SQL Server。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: d79cf00d-a81e-4d88-ac4a-f80b7b5a92b3
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
 
 # [!DNL Microsoft SQL Server]模块
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [Microsoft SQL Server模块](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/microsoft-sql-server-modules.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 您可以使用[!DNL Adobe Workfront Fusion]连接到[!UICONTROL Microsoft SQL Server]。
 

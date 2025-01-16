@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;setup
 navigation-topic: connections-annd-webhooks
 title: 从Web服务接收Webhook
-description: 如果某个Web服务当前未在 [!DNL Adobe Workfront Fusion]中作为应用程序实现，但它支持发送Webhook，则可以将此服务添加到使用自定义Webhook模块作为即时触发器的方案中。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: f1a67dbf-c245-4936-9dcc-3fdbfc6ee3b1
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
 
 # 从Web服务接收Webhook
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [为没有连接器的Web服务配置webhook](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/add-modules/receive-a-webhook-from-a-web-service.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 如果Web服务当前未在[!DNL Adobe Workfront Fusion]中作为应用程序实施，但它支持发送Webhook，则可以将服务添加到使用自定义Webhook模块作为即时触发器的方案中。
 

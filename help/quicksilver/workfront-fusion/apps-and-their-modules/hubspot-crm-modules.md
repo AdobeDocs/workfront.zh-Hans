@@ -1,17 +1,29 @@
 ---
 title: HubSpot CRM模块
-description: 通过 [!DNL Adobe Workfront Fusion] HubSpot CRM模块，您可以监视 [!DNL HubSpot CRM] 帐户中的事件、记录、联系人、预约、文件和表单提交，或者创建、检索、更新和删除记录、联系人、预约、事件或文件。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: d58e0c12-a798-495c-8f88-fbf2a532f8a4
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '6411'
+source-wordcount: '6454'
 ht-degree: 0%
 
 ---
 
 # [!DNL HubSpot CRM]模块
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [HubSpot CRM模块](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/hubspot-crm-modules.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 通过[!DNL Adobe Workfront Fusion] [!DNL HubSpot CRM]模块，您可以监视事件、记录、联系人、预约、文件和表单提交，或者创建、检索、更新和删除您[!DNL HubSpot CRM]帐户中的记录、联系人、预约、事件或文件。
 

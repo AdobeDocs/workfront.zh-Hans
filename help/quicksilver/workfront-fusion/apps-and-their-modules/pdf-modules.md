@@ -1,18 +1,30 @@
 ---
 title: Adobe PDF服务
-description: Adobe PDF服务
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e0a5736b-dbdb-43c6-83ff-e88a5625a5bf
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '3738'
+source-wordcount: '3809'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe PDF Services]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [Adobe PDF服务](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/pdf-modules.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 使用[!DNL Adobe Workfront Fusion] [!DNL Adobe PDF Services]，您可以从PDF文件中提取数据，或从您提供的数据生成新的PDF文件。 此外，您可以将各种文件类型转换为PDF，或将PDF转换为其他文件类型。 PDF服务还允许您组合、压缩或读取PDF文件的元数据，以及控制对文件的密码保护。
 

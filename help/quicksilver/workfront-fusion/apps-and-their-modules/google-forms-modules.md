@@ -5,18 +5,30 @@ product-area: workfront-integrations;documents
 keywords: 连接器
 navigation-topic: apps-and-their-modules
 title: Google Forms模块
-description: 通过 [!DNL Adobe Workfront Fusion Google Forms] 模块，您可以在Google Forms上监视、选择、添加、更新或删除响应。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 45c86879-bc4e-4134-b63c-02410b9de43b
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1493'
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Forms]模块
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [Google Forms模块](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-forms-modules.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 [!DNL Adobe Workfront Fusion] [!DNL Google Forms]模块允许您监视、选择、添加、更新或删除您的[!DNL Google Forms]响应。
 

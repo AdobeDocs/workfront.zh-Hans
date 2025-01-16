@@ -2,19 +2,31 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations;setup
 navigation-topic: connections-annd-webhooks
-title: 使用自定义OAuth客户端连接 [!DNL Adobe Workfront Fusion] 到 [!DNL Google Services]
-description: 您可以使用 [!DNL Adobe Workfront Fusion] 使用自定义OAuth客户端连接到 [!DNL Google Services] 。 此过程需要现有的 [!DNL Google] 帐户。
+title: '使用自定义OAuth客户端连接 [!DNL Adobe Workfront Fusion] 到 [!DNL Google Services] '
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 5efc0001-a8cd-4ffc-b074-3536f095727b
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '994'
 ht-degree: 0%
 
 ---
 
 # 使用自定义OAuth客户端将[!DNL Adobe Workfront Fusion]连接到[!DNL Google Services]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [使用自定义OAuth客户端将Adobe Workfront Fusion连接到Google服务](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/connect-fusion-to-google-using-oauth.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 ## 访问要求
 

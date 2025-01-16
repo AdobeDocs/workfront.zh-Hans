@@ -6,18 +6,30 @@ product-area: workfront-integrations
 keywords: 连接器
 navigation-topic: apps-and-their-modules
 title: Microsoft Word Template模块
-description: 在Adobe Workfront Fusion场景中，您可以自动使用Microsoft Word模板的工作流，并将其连接到多个第三方应用程序和服务。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 889b417c-04a9-4dbf-9a34-0dab65f11f03
-source-git-commit: 0b8a4e3864cf9ca2c179a824bdb87977819c9383
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1387'
+source-wordcount: '1436'
 ht-degree: 0%
 
 ---
 
 # [!DNL Microsoft Word Template]模块
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [Microsoft Word模板模块](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/microsoft-word-templates-modules.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 在[!DNL Adobe Workfront Fusion]方案中，您可以自动使用[!DNL Microsoft Word Templates]的工作流，并将其连接到多个第三方应用程序和服务。
 

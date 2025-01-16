@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: 向 [!DNL Adobe] Workfront Fusion中的方案添加筛选器
-description: 在某些情况下，您只需要使用满足特定条件的包。 您可以使用过滤器选择这些包。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 114ab37f-71e0-494e-9f3d-93ff5a9d13ba
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
 
 # 将筛选器添加到[!DNL Adobe Workfront Fusion]中的方案
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [将筛选器添加到方案](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/add-modules/add-a-filter-to-a-scenario.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 在某些情况下，您只需要使用满足特定条件的包。 您可以使用过滤器选择这些包。
 

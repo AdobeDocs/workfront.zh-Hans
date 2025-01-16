@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: 在Adobe Workfront Fusion中创建方案
-description: 以下任务说明如何创建 [!DNL Adobe Workfront Fusion] 方案。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: adf66cfc-ccaf-4b29-9199-c13260695569
-source-git-commit: ee2283ac159ca26ca473cac28ec4bed85d1dea04
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1473'
 ht-degree: 0%
 
 ---
 
 # 在[!DNL Adobe Workfront Fusion]中创建方案
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [用于创建方案的工作流](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/plan-a-scenario/create-a-scenario-workflow.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 以下任务说明如何创建[!DNL Adobe Workfront Fusion]方案。
 

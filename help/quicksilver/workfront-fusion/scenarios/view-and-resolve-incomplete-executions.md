@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: 查看并解决 [!DNL Adobe Workfront Fusion]中未完成的执行
-description: '[!UICONTROL 未完成的执行]文件夹存储由于错误未成功完成的场景执行。 可以手动或自动解决每个存储的不完整执行。'
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 60fcda91-b725-4ada-a42c-5c05720d68c2
-source-git-commit: 53582d36ef2256f6073705ce3eabe8cd61c9b2cc
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '675'
 ht-degree: 5%
 
 ---
 
 # 查看并解决[!DNL Adobe Workfront Fusion]中未完成的执行
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [查看并解决未完成的执行](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/view-and-resolve-incomplete-executions.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 [!UICONTROL 未完成的执行]文件夹存储由于错误未成功完成的场景执行。 可以手动或自动解决每个存储的不完整执行。
 

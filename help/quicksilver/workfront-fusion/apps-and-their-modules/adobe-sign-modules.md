@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: 连接器
 navigation-topic: apps-and-their-modules
 title: Adobe Acrobat Sign模块
-description: 使用 [!DNL Adobe Acrobat Sign] 模块，您可以基于 [!DNL Adobe] Acrobat Sign帐户中的事件启动 [!DNL Adobe Workfront Fusion] 方案，创建、读取或更新协议和其他记录，使用您设置的条件搜索记录以及上传文档。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 01158218-31a6-4c68-a9b7-6a678a8f40c9
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '6652'
+source-wordcount: '6693'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Acrobat Sign]模块
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [Adobe Acrobat Sign模块](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/adobe-sign-modules.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 通过[!DNL Adobe Acrobat Sign]模块，您可以基于[!DNL Adobe Acrobat Sign]帐户中的事件启动[!DNL Adobe Workfront Fusion]方案，创建、读取或更新协议和其他记录，使用您设置的条件搜索记录以及上传文档。
 

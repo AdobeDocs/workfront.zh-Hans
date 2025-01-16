@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: ' [!DNL Adobe Workfront Fusion]中的数据结构'
-description: 数据结构是一个文档，它详细描述了要传输到Adobe Workfront Fusion的数据的格式。 根据此文档，场景编辑器能够确定哪个模块返回或接收哪种类型的数据。 数据结构文档最常用于序列化/解析数据格式，如JSON、XML、CSV等。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 35a7e906-7ca2-433d-87a9-bbb01babffb0
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]中的数据结构
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [创建和管理数据存储](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/map-data/data-stores.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 数据结构是详细说明要传输到[!DNL Adobe Workfront Fusion]的数据格式的文档。 根据此文档，场景编辑器能够确定哪个模块返回或接收哪种类型的数据。 数据结构文档最常用于序列化/解析数据格式，如JSON、XML、CSV等。
 

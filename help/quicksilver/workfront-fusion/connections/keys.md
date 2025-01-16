@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
 title: Adobe Workfront Fusion中的键
-description: ' [!DNL Adobe Workfront Fusion] 中的密钥链将帮助您管理公钥和私钥。 例如，加密程序应用程序使用密钥来加密或解密PGP消息。'
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: a36947aa-c218-4ff0-879c-2041c3cccae0
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 0%
+source-wordcount: '264'
+ht-degree: 1%
 
 ---
 
 # Adobe Workfront Fusion中的键
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [键](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/modules/keys.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 [!DNL Adobe Workfront Fusion]中的密钥链将帮助您管理公钥和私钥。 例如，[!UICONTROL 加密程序]应用使用密钥加密或解密PGP消息。
 

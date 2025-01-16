@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: 在 [!DNL Adobe Workfront Fusion]中创建新模板
-description: 您可以在 [!DNL Adobe] Workfront Fusion中创建新场景模板。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: fdfa509c-30c6-431e-89f3-a4bf50261e8a
-source-git-commit: f3f34e807228b299c0570e63bdf329f4e20e0340
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
 
 # 在[!DNL Adobe Workfront Fusion]中创建新模板
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [创建新模板](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-and-manage-templates/create-new-fusion-templates.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 您可以在[!DNL Adobe] Workfront Fusion中创建新场景模板。
 

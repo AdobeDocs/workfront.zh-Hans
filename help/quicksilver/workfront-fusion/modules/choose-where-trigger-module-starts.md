@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: 选择触发器模块在Adobe Workfront Fusion中的启动位置
-description: 某些触发器模块允许您选择希望开始捆绑包检索的第一个捆绑包。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 5ab7cac4-8d50-4be0-b26b-b832544f18f7
-source-git-commit: 489ed23fe0d7945753b59810ff9da084bd3e92e4
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '443'
 ht-degree: 1%
 
 ---
 
 # 选择触发器模块在[!DNL Adobe Workfront Fusion]中的开始位置
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [选择触发器模块的开始位置](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/add-modules/choose-where-trigger-module-starts.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 某些触发器模块允许您选择希望开始捆绑包检索的第一个捆绑包。
 

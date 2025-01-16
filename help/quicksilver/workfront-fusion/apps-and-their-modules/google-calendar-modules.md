@@ -5,18 +5,30 @@ product-area: workfront-integrations;calendars
 keywords: 连接器
 navigation-topic: apps-and-their-modules
 title: Google日历模块
-description: 在 [!DNL Adobe Workfront Fusion] 方案中，您可以自动执行使用Google Calendar的工作流，并将其连接到多个第三方应用程序和服务。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 168e8fce-645d-4108-84b7-46a113c83f41
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '3837'
+source-wordcount: '3889'
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Calendar]模块
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [Google日历模块](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 在[!DNL Adobe Workfront Fusion]方案中，您可以自动执行使用[!UICONTROL Google Calendar]的工作流，并将其连接到多个第三方应用程序和服务。
 

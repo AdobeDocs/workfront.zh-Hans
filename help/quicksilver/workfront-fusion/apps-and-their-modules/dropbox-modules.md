@@ -5,18 +5,30 @@ product-area: workfront-integrations;documents
 keywords: 连接器
 navigation-topic: apps-and-their-modules
 title: Dropbox模块
-description: 在 [!DNL Adobe Workfront Fusion] 方案中，您可以自动执行使用Dropbox的工作流，并将其连接到多个第三方应用程序和服务。这样，您就可以自动执行Dropbox中的各种活动，如监视、搜索、检索、列出、创建和编辑文件和文件夹。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: a35631d7-40ac-4e7f-9a37-ad3879c0b6a2
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '3230'
+source-wordcount: '3262'
 ht-degree: 0%
 
 ---
 
 # [!DNL Dropbox]模块
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [Dropbox模块](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/dropbox-modules.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 在[!DNL Adobe Workfront Fusion]方案中，您可以自动执行使用[!UICONTROL Dropbox]或[!DNL Dropbox Business]的工作流，还可以将其连接到多个第三方应用程序和服务。这样，您就可以自动执行[!UICONTROL Dropbox]中的文件和文件夹等操作。
 
@@ -314,7 +326,7 @@ Dropbox连接器使用以下内容：
   </tr> 
   <tr> 
    <td>仅显示可下载的文件</td> 
-   <td> <p> 启用此选项可仅返回可下载的文件。 某些类型的文件(如Google文档)不可下载。</p> </td> 
+   <td> <p> 启用此选项可仅返回可下载的文件。 某些类型的文件(如Google Docs)不可下载。</p> </td> 
   </tr> 
   <tr> 
    <td>文件夹 </td> 

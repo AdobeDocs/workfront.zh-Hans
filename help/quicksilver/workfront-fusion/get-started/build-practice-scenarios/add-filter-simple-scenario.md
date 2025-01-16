@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: 将筛选器添加到基本方案
-description: 通过过滤器，您可以确保场景仅在满足某些条件时推进。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: b43355ed-9329-4080-8e61-7177eb580994
-source-git-commit: 1a405d38968922388589ddb3f2979b4e59cd50b8
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 1%
+source-wordcount: '558'
+ht-degree: 0%
 
 ---
 
 # 在[!DNL Adobe Workfront Fusion]中将筛选器添加到基本方案
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [将筛选器添加到基本方案](https://experienceleague.adobe.com/docs/workfront-fusion/using/build-practice-scenarios/add-filter-basic-scenario.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 通过过滤器，您可以确保场景仅在满足某些条件时推进。
 

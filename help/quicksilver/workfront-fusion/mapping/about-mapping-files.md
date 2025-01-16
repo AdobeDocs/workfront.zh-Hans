@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
 title: 关于在 [!DNL Adobe Workfront Fusion]中映射文件
-description: 某些模块具有处理文件的功能。 这些模块可以返回要发送以供进一步处理的输出文件，也可以要求将文件传递给它们以供处理。 这些模块需要相互映射，才能共同处理文件。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 9ed5f176-86d8-4139-b582-c2f58aaed8d4
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 0%
+source-wordcount: '494'
+ht-degree: 1%
 
 ---
 
 # 关于在[!DNL Adobe Workfront Fusion]中映射文件
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [在模块之间映射文件](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/map-data/map-files.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 某些模块具有处理文件的功能。 这些模块可以返回要发送以供进一步处理的输出文件，也可以要求将文件传递给它们以供处理。 这些模块需要相互映射，才能共同处理文件。
 

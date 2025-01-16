@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: 连接器
 navigation-topic: http-modules
 title: HTTP &amp；gt；创建基本授权请求模块
-description: 除了Adobe Workfront许可证之外，Adobe Workfront Fusion还需要Adobe Workfront Fusion许可证。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: df8b53de-1af2-4026-b7dd-ff5133b4aac2
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL HTTP] >[!UICONTROL 发出基本授权请求]模块
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [HTTP >创建基本授权请求模块](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/universal-connectors/http-module-make-a-basic-auth-request.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 此[!DNL Adobe Workfront Fusion]模块允许您配置具有HTTP基本授权的HTTP请求并将其提交到服务器。 接收的HTTP响应随后包含在输出包中。
 

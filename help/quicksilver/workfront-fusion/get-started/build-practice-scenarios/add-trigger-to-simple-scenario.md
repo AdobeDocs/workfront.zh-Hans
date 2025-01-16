@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: 将触发器模块添加到基本场景
-description: 了解如何添加触发器模块，以允许方案定期查找新请求并将它们转化为项目。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 067ee6a1-f4c1-4602-ac39-0283255cced8
-source-git-commit: 7ad3fbcfa5be5074016f399560cca509d81f4714
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
 
 # 将触发器模块添加到基本场景
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [将触发器模块添加到基本方案](https://experienceleague.adobe.com/docs/workfront-fusion/using/build-practice-scenarios/add-trigger-to-basic-scenario.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 触发器模块位于方案的开头。 当给定服务发生更改时，这些模块在特定标准下开始执行场景。 更改可以是创建新记录、删除记录、更新记录等。
 

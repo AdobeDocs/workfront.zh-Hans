@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: 模块类型
-description: “Adobe Workfront Fusion区分了五种类型的模块：操作模块、搜索模块、触发器模块、聚合器和迭代器。 聚合器和迭代器适用于高级方案。”
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 58b4aa76-6c4c-47fc-a42c-c5286da5633a
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '1022'
 ht-degree: 0%
 
 ---
 
 # 模块类型
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [模块概述](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/module-overview.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 A[!UICONTROL Adobe Workfront Fusion]将模块分为五种类型：操作模块、搜索模块、触发器模块、聚合器和迭代器。 聚合器和迭代器适用于高级方案。
 

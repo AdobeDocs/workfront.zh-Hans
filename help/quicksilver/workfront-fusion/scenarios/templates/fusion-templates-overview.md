@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Adobe Workfront Fusion模板概述
-description: Workfront Fusion模板功能允许您创建并使用现有模板作为 [!DNL Workfront Fusion] 方案的起点。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 02c10997-28bd-46b4-bbcc-0c907cdaeb7b
-source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '448'
 ht-degree: 1%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]模板概述
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [查看、编辑和删除模板](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-and-manage-templates/view-edit-and-delete-fusion-templates.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 [!DNL Workfront Fusion]模板功能允许您创建和使用现有模板作为您的[!DNL Workfront Fusion]方案的起点。 模板表示一些常见用例，您可以根据组织和特定用例的需要对这些用例进行配置和修改。
 

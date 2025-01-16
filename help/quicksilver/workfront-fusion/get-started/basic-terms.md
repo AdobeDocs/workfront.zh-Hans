@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Adobe Workfront Fusion中的基本术语
-description: 除了Adobe Workfront许可证之外，Adobe Workfront Fusion还需要Adobe Workfront Fusion许可证。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 2169dc2e-2135-47e0-a615-3de12cd120a9
-source-git-commit: eb39c26b076e89acb8bc4eef1a459b6ef8cd389b
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '917'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]中的基本术语
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [Adobe Workfront Fusion术语表](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/fusion-glossary.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 >[!NOTE]
 >
@@ -67,7 +79,7 @@ ht-degree: 0%
    <td> <p>通过您的方案传输的数据量。 有关详细信息，请参阅[！UICONTROL Adobe Workfront Fusion]</a>中的<a href="../../workfront-fusion/scenarios/scenario-detail.md" class="MCXref xref">方案详细信息。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>过滤器</p> </td> 
+   <td role="rowheader"> <p>筛选条件</p> </td> 
    <td> <p>可在两个模块之间应用的附加功能。 过滤器允许您然后仅使用符合特定条件的包。 您可以应用许多不同的过滤器。 有关详细信息，请参阅<a href="../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md" class="MCXref xref">在[！UICONTROL Adobe Workfront Fusion]</a>中将筛选器添加到方案。</p> </td> 
   </tr> 
   <tr> 

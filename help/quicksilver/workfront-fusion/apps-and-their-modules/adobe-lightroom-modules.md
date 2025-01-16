@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: 连接器
 navigation-topic: apps-and-their-modules
 title: Adobe Lightroom模块
-description: 通过Adobe Lightroom模块，您可以根据Adobe Lightroom帐户中的事件启动Adobe Workfront Fusion方案。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e48bdf18-49f0-436e-9182-16c9da2b3169
-source-git-commit: 6f4ba4cde26978305a58cedb9ed606c6032496f1
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '2370'
+source-wordcount: '2423'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Lightroom]模块
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [Adobe Lightroom模块](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/adobe-lightroom-modules.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 
 在[!DNL Adobe Workfront Fusion]方案中，您可以自动使用[!DNL Adobe Lightroom]的工作流，并将其连接到多个第三方应用程序和服务。

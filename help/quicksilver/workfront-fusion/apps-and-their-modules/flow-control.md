@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Adobe Workfront Fusion中的流量控制
-description: 创建或编辑场景时，您可以配置设置以控制数据流经场景的方式。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 0f315192-c15e-48e8-a5b6-827c300f0e5c
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront Fusion中的流量控制
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [流量控制](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/flow-control.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 创建或编辑场景时，您可以配置设置以控制数据流经场景的方式。
 

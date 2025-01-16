@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: 在 [!DNL Adobe Workfront Fusion]中创建实践自动化方案
-description: 本文介绍了如何使用Adobe Workfront Fusion创建自动化场景。 自动化场景可自动执行Workfront流程，包括数据操作和转换。 本示例将引导您完成创建方案的过程，该方案会搜索项目，然后返回与该项目关联的所有任务。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: f6a6eb28-9b0b-48ea-af11-f55009a01178
-source-git-commit: 8769ed5844e340e007f844370791e93393696819
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1536'
+source-wordcount: '1562'
 ht-degree: 0%
 
 ---
 
 # 在[!DNL Adobe Workfront Fusion]中创建实践自动化方案
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [用于创建方案的工作流](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/plan-a-scenario/create-a-scenario-workflow.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 自动化场景可自动执行Workfront流程，包括数据操作和转换。 本文将引导您完成创建方案的过程，该方案将搜索项目，然后返回与该项目关联的所有任务。
 

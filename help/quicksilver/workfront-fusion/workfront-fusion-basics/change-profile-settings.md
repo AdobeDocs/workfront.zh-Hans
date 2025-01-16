@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: workfront-fusion-basics
 title: 更改 [!DNL Adobe Workfront Fusion]中的配置文件设置
-description: 您可以更改 [!DNL Adobe Workfront Fusion] 帐户配置文件中的信息。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 590c8549-0877-46f4-bf73-174b6b10638c
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
 
 # 更改[!DNL Adobe Workfront Fusion]中的配置文件设置
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [更改配置文件设置](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/navigate-workfront-fusion/change-profile-settings.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 您可以更改[!DNL Adobe Workfront Fusion]帐户配置文件中的信息。
 

@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
 title: 在 [!DNL Adobe Workfront Fusion]中将信息从一个模块映射到另一个模块
-description: 映射是将模块的输出（按项目结构）分配给其他模块的输入字段的过程。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: e8d619e9-6425-4136-ac71-47d979d68a2d
-source-git-commit: 3772223938008e3a54ce0a48aaae1f3edb5bf252
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1628'
 ht-degree: 0%
 
 ---
 
 # 在[!DNL Adobe Workfront Fusion]中将信息从一个模块映射到另一个模块
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [将信息从一个模块映射到另一个模块](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/map-data/map-data-from-one-to-another.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 映射是将模块的输出（按项目结构）分配给其他模块的输入字段的过程。
 
@@ -131,7 +143,7 @@ ht-degree: 0%
 
 有关使用函数映射项目的详细信息，请参阅[使用 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/map-using-functions.md)中的函数映射项目。
 
-## 收藏集
+## 集合
 
 某些项可以包含多种类型的多个值。 这些是收藏集类型项目。
 

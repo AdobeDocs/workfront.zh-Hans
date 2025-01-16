@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: Adobe Workfront Fusion中的聚合器模块
-description: 聚合器模块是一种旨在将多捆数据合并到单个捆绑包中的模块。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: cdc32842-8717-4e05-ab19-2661ee14c12c
-source-git-commit: 948fe5fc249e0dcb04655f015c8e46493159c3ed
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]中的[!UICONTROL 聚合器]模块
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [聚合器模块](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/modules/aggregator-module.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 聚合器模块是一种旨在将多捆数据合并到单个捆绑包中的模块。
 

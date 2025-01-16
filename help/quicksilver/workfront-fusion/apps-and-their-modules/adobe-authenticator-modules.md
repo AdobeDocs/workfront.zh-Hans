@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: 连接器
 navigation-topic: apps-and-their-modules
 title: Adobe Authenticator模块
-description: 借助Adobe Authenticator模块，您可以使用单个连接通过API连接到任何Adobe产品。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 74c943fb-37ad-4d91-8af7-9808ba69992e
-source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1278'
 ht-degree: 1%
 
 ---
 
 # Adobe Authenticator模块
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [Adobe Authenticator模块](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/adobe-authenticator-modules.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 Adobe Authenticator模块允许您通过单个连接连接到任何AdobeAPI。 这允许您更轻松地连接到尚未拥有专用Fusion连接器的Adobe产品。
 
@@ -53,7 +65,7 @@ Adobe Authenticator模块允许您通过单个连接连接到任何AdobeAPI。 �
     <tr>
       <td role="rowheader">产品</td>
       <td>
-   <p>新的Workfront计划：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]计划，则贵组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文中所述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]计划中。</p>
+   <p>新的Workfront计划：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]计划，则贵组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文中描述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]计划中。</p>
    <p>或</p>
    <p>当前Workfront计划：您的组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文中描述的功能。</p>
    </td>

@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
 title: 在Adobe Workfront Fusion中处理抛出错误
-description: 在某些情况下，您可能希望强制停止场景执行，然后进入“回滚”或“提交”阶段，或者停止路由处理，然后将其存储在查看队列中，并在Adobe Workfront Fusion中解决未完成的执行。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 6258bd4d-31a0-4fbb-b1b4-8e9a5a9dbe36
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
 # 在[!DNL Adobe Workfront Fusion]中引发错误处理
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [配置`throw`错误解决方法](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/configure-error-handling/throw.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 在某些情况下，您可能希望强制停止方案执行，然后执行[回滚](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#rollback)或[提交](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#commit)阶段，或者停止路由处理并选择性地将其存储在未完成执行的队列中。
 

@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: 将触发器模块添加到基本场景
-description: 了解如何添加触发器模块，以允许方案定期查找新请求并将它们转化为项目。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: f4588063-024f-4520-986e-45342a6b6777
-source-git-commit: 1196e2d7a6d6750944a7c6209222f07382abfee7
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
 
 # 使用函数在[!DNL Adobe Workfront Fusion]中更新简单方案中的项目
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [使用函数更新基本方案中的项目](https://experienceleague.adobe.com/docs/workfront-fusion/using/build-practice-scenarios/use-function-to-build-practice-scenario.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 更新Workfront工作项是Workfront Fusion的常见用例。 在此示例中，您将使用函数将项目名称更改为大写字母。
 

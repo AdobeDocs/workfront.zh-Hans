@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: Adobe Workfront Fusion中的迭代器模块
-description: 迭代器模块是一种特殊类型的模块，可将数组转换为一系列捆绑包。 每个数组项将作为单独的捆绑包输出。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: d356276d-e5d9-496f-85cd-cb60a8f8f377
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '704'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]中的[!UICONTROL 迭代器]模块
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [迭代器模块](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/modules/iterator-module.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 [!UICONTROL 迭代器]模块是一种特殊类型的模块，可将数组转换为一系列捆绑包。 每个数组项将作为单独的捆绑包输出。
 

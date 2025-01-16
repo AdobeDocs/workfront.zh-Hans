@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: 管理 [!DNL Adobe Workfront Fusion]中的锁定方案
-description: 管理 [!DNL Adobe Workfront Fusion]中的锁定方案
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 5fccf336-d904-43fe-ad4a-c3ce76dbcad0
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
 
 # 在[!DNL Adobe Workfront Fusion]中管理锁定的方案
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [管理锁定的方案](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/view-manage-locked-scenario.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 在某些情况下，某个方案可能会暂时锁定在[!DNL Workfront Fusion]中。 锁定的执行将在2-4小时内自动解锁。 您还可以手动解锁方案。
 

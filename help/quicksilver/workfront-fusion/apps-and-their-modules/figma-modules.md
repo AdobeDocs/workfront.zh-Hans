@@ -5,18 +5,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: 图形模块
-description: 使用 [!DNL Adobe Workfront Fusion] Figma模块，您可以检索注释、文件、文件版本或项目的列表。 您还可以向Figma API发布评论或进行调用。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: d88db592-32d4-4765-952f-9ffb58cf1720
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '2331'
+source-wordcount: '2375'
 ht-degree: 0%
 
 ---
 
 # [!DNL Figma]模块
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [图形模块](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/figma-modules.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 使用[!DNL Adobe Workfront Fusion] [!DNL Figma]模块，您可以检索注释、文件、文件版本或项目的列表。 您还可以向[!DNL Figma] API发布评论或进行调用。
 

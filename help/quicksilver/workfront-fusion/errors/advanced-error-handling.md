@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
 title: ' [!DNL Adobe] Workfront Fusion中的高级错误处理'
-description: 高级错误处理技术包括筛选和嵌套。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 57f43fc2-23ed-44f5-8785-90739329b5ee
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]中的高级错误处理
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [将筛选和嵌套添加到错误处理路由](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/configure-error-handling/advanced-error-handling.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 高级错误处理技术包括筛选和嵌套。
 

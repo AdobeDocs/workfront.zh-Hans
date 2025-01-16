@@ -6,18 +6,30 @@ product-area: workfront-integrations
 keywords: 连接器
 navigation-topic: apps-and-their-modules
 title: Adobe Experience Manager Assets模块
-description: 使用 [!DNL Adobe Workfront Fusion]的 [!DNL Adobe Experience Manager Assets] 连接器，您可以创建、上传和更新资产，以及复制或移动文件夹和资产。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: a287bc6d7d4755deb19296523d1666f0fcb60526
+source-git-commit: 3983d811a849c01b3c34b1cd6ee895e5552225a6
 workflow-type: tm+mt
-source-wordcount: '1716'
+source-wordcount: '1774'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Experience Manager Assets]模块
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [Adobe Experience Manager Assets模块](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/aem-assets-modules.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 使用[!DNL Adobe Workfront Fusion]的[!DNL Adobe Experience Manager Assets]连接器，您可以创建、上传和更新资产，以及复制或移动文件夹和资产。
 

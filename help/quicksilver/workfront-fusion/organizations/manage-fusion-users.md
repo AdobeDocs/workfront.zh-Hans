@@ -4,13 +4,13 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: 管理组织中的 [!DNL Adobe Workfront Fusion] 用户
-description: 管理组织中的 [!DNL Adobe Workfront Fusion] 用户
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: fbb858a6-1230-41b4-892a-4ffeb2711922
-source-git-commit: 5cdc438c6757d438b2c09796cf77e59dc19c45d9
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,19 @@ ht-degree: 0%
 # 管理组织中的[!DNL Adobe Workfront Fusion]用户
 
 [!DNL Adobe Workfront Fusion]管理员可以管理[!DNL Workfront Fusion]内的用户角色。
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可以在以下文章中找到：
+>
+>* [查看或编辑用户角色](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/manage-users-and-teams/view-or-edit-user-roles.html)
+>* [查看或编辑用户详细信息](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/manage-users-and-teams/view-or-edit-user-details.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 <!--
 

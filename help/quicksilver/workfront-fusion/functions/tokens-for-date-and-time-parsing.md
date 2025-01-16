@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: Adobe Workfront Fusion中的日期和时间解析令牌
-description: ' [!DNL Adobe Workfront Fusion mapping] 面板中提供了以下日期和时间解析令牌。'
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: f5a92ccb-cdc6-4f7d-8373-31fd17d314d3
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '352'
 ht-degree: 5%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]中用于日期和时间分析的令牌
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* 日期和时间分析的[令牌](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/mapping-panel/functions/tokens-for-date-and-time-parsing.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 ## 访问要求
 
@@ -202,7 +214,7 @@ ht-degree: 5%
   <tr> 
    <td><code>a A</code> </td> 
    <td><code>am pm</code> </td> 
-   <td> <p> Post或前子午线（请注意，字符a p也被视为有效）</p> </td> 
+   <td> <p> 后子午线或前子午线（请注意，字符a p也被视为有效）</p> </td> 
   </tr> 
   <tr> 
    <td><code>m mm</code> </td> 

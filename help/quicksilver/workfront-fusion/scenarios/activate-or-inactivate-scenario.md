@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: 在 [!DNL Adobe] Workfront Fusion中激活或取消激活方案
-description: 本文介绍了活动方案或停用方案在不同情况下为何有用，以及如何激活或停用方案。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: b3eea763-f0bf-4037-8d73-20d112dc5ac3
-source-git-commit: b1764e443ebb0ad48ca4ae0263d326f4156fb155
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '345'
 ht-degree: 1%
 
 ---
 
 # 在[!DNL Adobe Workfront Fusion]中激活或停用方案
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [激活或停用方案](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/activate-deactivate-scenarios.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 您可以处理处于活动或非活动状态的方案：
 

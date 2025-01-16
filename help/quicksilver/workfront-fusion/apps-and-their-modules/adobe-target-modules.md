@@ -5,18 +5,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Adobe Target模块
-description: 在 [!DNL Adobe Workfront Fusion] 方案中，您可以自动执行使用 [!DNL Adobe Target], as well as connect it to multiple third-party applications and services. [!DNL Adobe Target] 模块的工作流，这些模块允许您创建、读取、更新或删除记录，列出给定类型的所有记录，根据您指定的条件搜索记录，或对 [!DNL Adobe Target] API执行自定义API调用。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '2249'
+source-wordcount: '2281'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Target]模块
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [Adobe Target模块](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/adobe-target-modules.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 在[!DNL Adobe Workfront Fusion]方案中，您可以自动使用[!DNL Adobe Target]的工作流，并将其连接到多个第三方应用程序和服务。 [!DNL Adobe Target]模块允许您创建、读取、更新或删除记录，列出给定类型的所有记录，根据您指定的条件搜索记录，或对[!DNL Adobe Target] API执行自定义API调用。
 

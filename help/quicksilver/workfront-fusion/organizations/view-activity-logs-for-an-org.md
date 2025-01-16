@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: 在Adobe Workfront Fusion中查看组织的活动日志
-description: 您可以查看组织的活动日志，如场景创建或激活。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: d60dc97d-2da6-44f4-a2ee-bb5e56317695
-source-git-commit: 6f4ba4cde26978305a58cedb9ed606c6032496f1
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '589'
 ht-degree: 0%
 
 ---
 
 # 在Adobe Workfront Fusion中查看组织的活动日志
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [查看组织的活动日志](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/view-activity-logs-for-an-org.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 <!--Move to new repo-->
 
@@ -33,7 +45,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 计划</td>
-   <td> <p>新增：Ultimate</p> <p>或</p> <p>当前：不可用</p></td> 
+   <td> <p>新增功能：Ultimate</p> <p>或</p> <p>当前：不可用</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 

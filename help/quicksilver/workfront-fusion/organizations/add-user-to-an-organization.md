@@ -3,18 +3,22 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: 在Adobe Workfront Fusion中将用户添加到组织
-description: 您可以在Adobe Workfront Fusion中将用户添加到组织。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 98248cca-98f5-4eb5-b203-67e261df33f1
-source-git-commit: 5cdc438c6757d438b2c09796cf77e59dc19c45d9
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
 
 # 在Adobe Workfront Fusion中将用户添加到组织或团队
+
+>[!IMPORTANT]
+>
+>本文将在不久的将来删除，因为所有组织都将移至Adobe Admin Console。
 
 >[!IMPORTANT]
 >

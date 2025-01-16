@@ -5,18 +5,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Adobe Creative Cloud库模块
-description: 使用 [!DNL Adobe Workfront Fusion Adobe Creative Cloud] 库模块，您可以在创建或更新元素或库时启动方案。 您还可以上传、检索、存档或列出元素，或调用 [!DNL Adobe Creative Cloud Libraries] API。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 8affa34b-803d-48a5-a986-9fbe0cb8c8f5
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1359'
+source-wordcount: '1401'
 ht-degree: 0%
 
 ---
 
 # Adobe Creative Cloud库模块
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [Adobe Creative Cloud Libraries模块](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/creative-cloud-libraries-modules.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 使用[!DNL Adobe Workfront Fusion] [!DNL Adobe Creative Cloud Libraries]模块，您可以在创建或更新元素或库时启动方案。 您还可以上传、检索、存档或列出元素，或调用[!DNL Adobe Creative Cloud Libraries] API。
 

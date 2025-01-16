@@ -5,18 +5,30 @@ product-area: workfront-integrations;documents
 keywords: 连接器
 navigation-topic: apps-and-their-modules
 title: Google驱动器模块
-description: 通过 [!DNL Adobe Workfront Fusion Google Drive] 模块，您可以监视、搜索、创建、更新、删除和管理 [!DNL Google Drive]中的文件、文件夹或共享驱动器。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d620c93-d1bf-4451-9f76-1d6fd850cec9
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '2958'
+source-wordcount: '3012'
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Drive]模块
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [Google驱动器模块](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-drive-modules.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 通过[!DNL Adobe Workfront Fusion] [!DNL Google Drive]模块，您可以监视、搜索、创建、更新、删除和管理[!DNL Google Drive]中的文件、文件夹或共享驱动器。
 

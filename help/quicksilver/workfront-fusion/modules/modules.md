@@ -4,19 +4,29 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: workfront-fusion-2-0
 title: ' [!DNL Adobe] Workfront Fusion中的模块'
-description: 此处列出的文章描述了 [!DNL Adobe Workfront Fusion]中的特定模块及其功能。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: b50b918c-7c74-442c-a91a-3f313d40d00b
-source-git-commit: 633c41eeb570402254125f92f3624cad7befd609
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]中的模块
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>有关指向新文档的链接，请参阅各篇文章。
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 本节包含以下文章：
 

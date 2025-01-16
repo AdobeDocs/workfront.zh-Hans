@@ -4,21 +4,32 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: workfront-fusion-2-0
 title: Adobe Workfront Fusion错误
-description: 除了Adobe Workfront许可证之外，Adobe Workfront Fusion还需要Adobe Workfront Fusion许可证。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 16205e28-92e3-4c90-afa5-35eb793b239b
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: 4ce5ccc67a1f9cb32e07d956746a7d0d7c7ccbe1
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront Fusion错误
 
->[!NOTE]
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [配置错误处理：项目索引](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/configure-error-handling/config-error-handling-toc.html)
+>* [错误引用：文章索引](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/errors/errors-toc.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 >
 >除[!DNL Adobe Workfront license]外，[!DNL Adobe Workfront Fusion]还需要[!DNL Adobe Workfront Fusion]许可证。
 

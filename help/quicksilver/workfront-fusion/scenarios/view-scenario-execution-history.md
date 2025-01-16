@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: 在Adobe Workfront Fusion中查看方案的历史记录
-description: 您可以显示某个方案的所有运行信息，也可以搜索方案的所有执行以获取特定数据。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: cc2c3f87-34dc-4a06-9f5f-1a7fb10a3b82
-source-git-commit: 2e26c4e4b5f331ed2e609381ef442f45e90c4faa
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
 
 # 在[!DNL Adobe Workfront Fusion]中查看方案的历史记录
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [查看方案的执行历史记录](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/view-scenario-execution-history.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 您可以显示有关场景的事件或执行的信息，也可以搜索场景的所有执行以获取特定数据。
 

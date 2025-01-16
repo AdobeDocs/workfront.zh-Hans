@@ -3,18 +3,31 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Adobe Workfront Fusion Templates管理
-description: 如果您是管理员，则有权查看、修改、重命名、发布、批准和删除其他人创建的模板。 您可以从 [!DNL Adobe Workfront Fusion Administration] 区域的[!UICONTROL 模板]页面执行这些操作。
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 63c14183-0d22-44f3-87e5-c311cfbf5540
-source-git-commit: 2b67b5fb951b5ae7867144c444411ebd1c299e75
+source-git-commit: 8163f9f12bb27bbc8adfde34fc1e1f0f8c8be7f9
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]模板管理
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* [批准或取消批准“公用”选项卡的模板](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/manage-templates-admin/approve-templates.html)
+>* [编辑模板](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/manage-templates-admin/edit-templates.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 如果您是管理员，则有权查看、修改、重命名、发布、批准和删除其他人创建的模板。 您可以从[!DNL Adobe Workfront Fusion Administration]区域的[!UICONTROL 模板]页面执行这些操作。
 

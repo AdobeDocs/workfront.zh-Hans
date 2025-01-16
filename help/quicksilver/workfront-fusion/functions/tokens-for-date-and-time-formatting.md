@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: ' [!DNL Adobe Workfront Fusion]中日期和时间格式的令牌'
-description: ' [!DNL Adobe Workfront Fusion mapping] 面板中提供了以下日期和时间格式令牌。'
+description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用，但包含指向介绍此功能的新文章的链接。
 author: Becky
 feature: Workfront Fusion
 exl-id: 19d0608e-7902-4d09-b71d-e6ae8ed7a6fd
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 5%
+source-wordcount: '437'
+ht-degree: 6%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]中日期和时间格式的令牌
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion文档已移至新位置。
+>
+>本文中的信息现在可在以下文章中找到：
+>
+>* 日期和时间格式的[令牌](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/mapping-panel/functions/tokens-for-date-and-time-formatting.html)
+>
+>请更新任何书签。
+>
+>本文不再更新，不久将会删除。
 
 ## 访问要求
 
@@ -297,12 +309,12 @@ ht-degree: 5%
   <tr> 
    <td><code>A</code></td> 
    <td><code>AM PM </code> </td> 
-   <td> <p>Post或前子午线（大写）</p> </td> 
+   <td> <p>后子午线或前子午线（大写）</p> </td> 
   </tr> 
   <tr> 
    <td><code>a</code> </td> 
    <td><code>am pm </code> </td> 
-   <td> <p> Post或前子午线（小写）</p> </td> 
+   <td> <p> 后子午线或前子午线（小写）</p> </td> 
   </tr> 
   <tr> 
    <td><code>m</code> </td> 
