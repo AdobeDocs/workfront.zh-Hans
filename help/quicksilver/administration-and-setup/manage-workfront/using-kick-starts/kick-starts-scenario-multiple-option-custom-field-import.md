@@ -3,22 +3,20 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: kickstart，kick-start，kickstarts，kick-starts
 navigation-topic: use-kick-starts
-title: “Kick-Starts场景：将多个选项自定义字段导入Workfront”
+title: Kick-Starts方案：将多个选项自定义字段导入Workfront
 description: 您可以使用Kick-Start功能在Adobe Workfront中导入具有多个选项的自定义字段。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 310333b71d2a92d71a0d8caf73ee8609ed6edd83
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '2185'
+source-wordcount: '2155'
 ht-degree: 0%
 
 ---
 
 # Kick-Starts场景：将多个选项自定义字段导入Workfront
-
-{{highlighted-preview}}
 
 您可以使用Kick-Start功能在Adobe Workfront中导入具有多个选项的自定义字段。
 
@@ -90,11 +88,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**要包含的内容**&#x200B;部分中选择&#x200B;**自定义数据**。
 
-   <span class="preview">预览环境中的示例图像：</span>
    ![选择自定义数据](assets/kickstarts-select-existing-data.png)
-
-   生产环境中的示例图像：
-   ![选择自定义数据](assets/existing-custom-data-box-checked-kick-starts.png)
 
 1. 在&#x200B;**下载格式**&#x200B;部分中选择&#x200B;**.xlsx文件**。
 
@@ -130,11 +124,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**下载空白的快速启动电子表格**&#x200B;区域，选中&#x200B;**自定义数据**&#x200B;复选框，然后单击&#x200B;**下载**。
 
-   <span class="preview">预览环境中的示例图像：</span>
    ![选择自定义数据](assets/kickstarts-select-existing-data.png)
-
-   生产环境中的示例图像：
-   ![选择自定义数据](assets/blank-custom-data-option-checked-kick-starts.png)
 
    将空白的快速启动文件下载到您的计算机。
 

@@ -7,16 +7,14 @@ description: 通过Adobe Workfront，您可以快速轻松地将与任何工作�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 82dc1cef02c6724dd0bc5b98d2a8f60a420b72bd
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
 
 # 向其他用户发送私信
-
-{{preview-fast-release-general}}
 
 通过[!DNL Adobe Workfront]，您可以快速、轻松地直接向其他[!DNL Workfront]用户发送与任何工作项无关的消息。 按此部分所述发送的消息将显示在用户配置文件页面的[!UICONTROL 更新]选项卡中，并且对所有用户可见。 有关更新的更多信息，请参阅[更新工作项并查看更新：文章索引](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)。
 
@@ -87,9 +85,7 @@ ht-degree: 0%
 1. 选择要向其发送消息的一个或多个用户，然后单击&#x200B;[!UICONTROL **将更新发送给用户**]。
 1. 在[!UICONTROL 将更新发送给用户]窗口中键入您的消息。
 
-   <span class="preview">预览环境中的示例图像：</span>
-
-   在“将更新发送到用户”窗口<span class="preview">![向用户发送消息](assets/send-message-to-user-dialog-from-user-list.png)</span>
+   在“将更新发送到用户”窗口![向用户发送消息](assets/send-message-to-user-dialog-from-user-list.png)
 
 1. （可选）搜索要在消息中标记的任何其他用户。 您无需标记已在用户列表中选择的用户。
 1. （可选）选择&#x200B;**[!UICONTROL 我的公司私有]**，使此消息仅对您公司的其他用户可见。

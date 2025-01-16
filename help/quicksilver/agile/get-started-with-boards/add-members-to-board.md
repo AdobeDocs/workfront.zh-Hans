@@ -6,7 +6,7 @@ description: 用户必须先作为成员添加到展示板，然后才能查看�
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: bf8d566ba9d24310e75d2fbaf523fe5464bb6657
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 0%
@@ -15,11 +15,9 @@ ht-degree: 0%
 
 # 在讨论区中添加或删除成员
 
-{{highlighted-preview}}
-
 必须将人员和团队作为成员添加到讨论区，然后才能查看讨论区。
 
-默认情况下，展示板的创建者是所有者。 讨论区所有者是唯一可以在“配置”面板中删除该讨论区或更新其筛选器的人员。 <span class="preview">只有系统管理员或当前讨论区所有者才能更改讨论区所有者。</span>
+默认情况下，展示板的创建者是所有者。 讨论区所有者是唯一可以在“配置”面板中删除该讨论区或更新其筛选器的人员。 只有系统管理员或当前讨论区所有者才能更改讨论区所有者。
 
 ## 访问要求
 
@@ -85,8 +83,6 @@ ht-degree: 0%
    >
    >您无法删除讨论区所有者。
 
-<div class="preview">
-
 ## 更改讨论区所有者
 
 >[!NOTE]
@@ -104,5 +100,3 @@ ht-degree: 0%
    只有用户才能成为讨论区所有者。 团队不能是所有者。
 
 1. 单击&#x200B;[!UICONTROL **更新**]。
-
-</div>

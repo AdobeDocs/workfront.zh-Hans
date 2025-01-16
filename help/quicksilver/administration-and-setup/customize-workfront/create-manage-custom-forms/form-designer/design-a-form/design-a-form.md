@@ -8,18 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 75aaa531dba8037ed75c0d6baa6d7c69ec4cfefd
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '6534'
+source-wordcount: '6474'
 ht-degree: 5%
 
 ---
 
 # 创建自定义表单
-
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
-
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 您可以使用Adobe Workfront中的表单设计器设计自定义表单。 您可以将自定义表单附加到不同的Workfront对象，以捕获有关这些对象的数据。
 
@@ -847,8 +843,8 @@ The Workfront Mobile app -->
       <td><p>（必需）选择Workfront原生字段。<p><p>仅表单对象的本机字段可用。 例如，如果表单设计器顶部的“对象类型”列表显示“项目”，则您将能够选择项目的本机字段，但不能选择特定于任务的字段。</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview">添加筛选器</span></td>
-      <td><span class="preview"><p>为参考字段添加过滤器，以限制用户在使用字段时可以选择的项目列表。 </p> <p>例如，您可以限制一个字段，这样只有当用户名满足以下条件时才可以选择用户名：</p> 
+      <td role="rowheader">添加筛选器</td>
+      <td><p>为参考字段添加过滤器，以限制用户在使用字段时可以选择的项目列表。 </p> <p>例如，您可以限制一个字段，这样只有当用户名满足以下条件时才可以选择用户名：</p> 
        <ul>
         <li>它们属于您指定的一个或多个组</li> 
         <li>它们与您指定的角色或职称相关联</li> 
@@ -860,7 +856,7 @@ The Workfront Mobile app -->
         <li>仅当您引用本机预输入字段(如“Portfolio”、“公司”或“所有者”)时，过滤器选项才可用。</li>
         <li>如果您正在编辑现有的自定义表单，将过滤器添加到本机字段不会移除用户已使用该字段添加的任何对象（在过滤器的范围外）。</li> 
         <li>此筛选器在移动设备上不可用。 如果您将过滤器用于本机字段，则该字段将显示在不受过滤器影响的用户移动设备上。</li> 
-        </ul></p></span></td> 
+        </ul></p></td> 
       <td>
      </tr>
      <tr> 
@@ -936,8 +932,6 @@ The Workfront Mobile app -->
    或
 
    单击&#x200B;**保存并关闭**。
-
-<div class="preview">
 
 ### 添加Planning连接字段
 
@@ -1031,8 +1025,6 @@ The Workfront Mobile app -->
    * 从Workfront对象连接或断开记录。
 
    有关详细信息，请参阅[管理来自Workfront对象的记录连接](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
-
-</div>
 
 ## 使用表单设计器组织和预览表单
 

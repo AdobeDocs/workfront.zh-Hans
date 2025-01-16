@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1014'
 ht-degree: 7%
 
 ---
@@ -23,8 +23,6 @@ ht-degree: 7%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
-
-{{highlighted-preview}}
 
 作为Adobe Workfront管理员，您可以使用Kick-Starts数据导出器从Workfront导出数据。 导出后，您可以将其用于其他应用程序。
 
@@ -340,11 +338,7 @@ ht-degree: 7%
 
    在一次导出中，您最多可以选择100个功能板和100个报表。
 
-   <span class="preview">预览环境中的示例图像：</span>
    ![快速启动导出](assets/kickstart-export-spreadsheet-options.png)
-
-   生产环境中的示例图像：
-   ![快速启动导出](assets/kickstart-export-350x381.png)
 
    您可以一次导出多个对象。
 

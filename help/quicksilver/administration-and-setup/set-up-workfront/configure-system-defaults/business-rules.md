@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: a36a74def754d1318d2a82145537f7c0ef3f3bbd
+source-git-commit: 38541313ae1c2b330bf4bad994bee43ee6e84227
 workflow-type: tm+mt
 source-wordcount: '1269'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 ---
 
 # 创建和编辑业务规则
-
-{{preview-fast-release-general}}
 
 业务规则允许您对Workfront对象应用验证，并阻止用户在满足某些条件时创建、编辑或删除对象。 业务规则通过防止可能会损害数据完整性的操作，帮助提高数据质量和运营效率。
 
@@ -137,9 +135,9 @@ IF(
    * 由于对象和操作已定义，因此不要将它们包含在公式中。
    * 当用户触发业务规则时，向用户显示自定义错误消息。 它应就出现什么问题以及如何纠正问题提供明确的说明。
 
-     <span class="preview">您可以在错误消息中包含静态URL，以链接到文档或其他有用页面，指导用户如何在规则的限制内修改其操作。</span>
+     您可以在错误消息中包含静态URL，以链接到文档或其他有用页面，引导用户如何在规则的限制中修改其操作。
 
-     <span class="preview">在此示例中，“了解详情”将链接到URL。 `"You are not allowed to add a new project in November.[Learn more](http://url)"` URL必须位于括号中，但不需要使用括号中的链接文本。 您可以显示完整的URL，它将是一个可点击的链接。</span>
+     在此示例中，“了解详情”将链接到URL。 `"You are not allowed to add a new project in November.[Learn more](http://url)"` URL必须位于括号中，但不需要使用括号中的链接文本。 您可以显示完整URL，它将是可单击的链接。
 
    ![添加业务规则对话框](assets/add-business-rule-dialog-no-ai-button.png)
 
