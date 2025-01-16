@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 31793b0e-444c-492c-b1a2-909a2e97628b
-source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 1%
@@ -31,8 +31,7 @@ ht-degree: 1%
    | **正常** | “正常”表示在“紧急”和“高”优先级项目完成后，您将处理的日常工作项目。 这是任务和问题的默认设置。 |
    | **低** | 低表示不需要立即关注的工作项目，可以延迟到所有优先级较高的工作项目完成之后。 |
 
-   ![](assets/my-focus.png)
-   <!--new screen for prod ![](assets/my-focus-new.png)-->
+   ![](assets/my-focus-new.png)
 
    >[!TIP]
    >

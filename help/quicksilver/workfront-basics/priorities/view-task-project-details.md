@@ -6,16 +6,14 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '406'
 ht-degree: 1%
 
 ---
 
 # 在优先级中查看项目和工作项详细信息
-
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 您可以在优先级工作列表中查看项目、任务和问题的详细信息。
 
@@ -76,8 +74,7 @@ ht-degree: 1%
    * 添加文件
    * <span class="preview">直接转到项目</span>
 
-   ![项目详细信息](assets/project-details.png)
-   <!--new screen for prod ![](assets/project-details-new.png)-->
+   ![项目详细信息](assets/project-details-new.png)
 
 ### 查看任务详细信息
 
@@ -87,35 +84,35 @@ ht-degree: 1%
 1. 默认情况下选择任务。 在这里，您可以
    * 查看并编辑项目和任务的详细信息和描述
    * 查看和添加项目评论
-   * <span class="preview">查看并添加文档</span>
-   * <span class="preview">创建校对</span>
+   * 查看和添加文档
+   * 创建验证
    * 记录时间
    * 添加文件
    * 添加快速链接
 
 
-   ![任务详细信息](assets/task-details.png)
-   <!--new screen for prod ![](assets/task-details-new.png)-->
+   ![任务详细信息](assets/task-details-new.png)
 
 ### 查看问题详细信息
 
 {{step1-to-priorities}}
 
 1. 在工作列表中，将鼠标悬停在工作名称上，然后单击&#x200B;**摘要**&#x200B;图标![打开摘要图标](assets/summary-icon.png)。
+
 1. 默认情况下，问题处于选中状态。 在这里，您可以
    * 查看并编辑项目和问题的详细信息和描述
    * 查看和添加项目评论
-* <span class="preview">查看并添加文档</span>
-* <span class="preview">创建校对</span>
-   * 记录时间
-   * 添加文件
-   * 添加快速链接
+   * 查看和添加文档
+   * 创建验证
+      * 记录时间
+      * 添加文件
+      * 添加快速链接
 
-  <!--new screen for prod ![issue details](assets/issue-details.png)-->
+   ![问题详细信息](assets/issue-details.png)
 
 ## 在“详细信息”页面上查看详细信息
 
-<span class="preview">您可以在任务或问题的详细信息页面上查看实时更新。 您还可以查看其他人是否与您同时查看该页面以及实时在线状态指示器。</span>
+您可以在任务或问题的详细信息页面上查看实时更新。 您还可以通过实时在线状态指示器查看其他人是否与您同时查看页面。
 
 ## 查看工作项详细信息
 
@@ -125,8 +122,8 @@ ht-degree: 1%
 
 * 查看和编辑项目详细信息和描述
 * 查看和添加项目评论
-* <span class="preview">查看并添加文档</span>
-* <span class="preview">创建校对</span>
+* 查看和添加文档
+* 创建验证
 * 记录时间
 * 添加文件
 * 添加快速链接

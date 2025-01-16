@@ -5,17 +5,15 @@ description: 文档
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: a59d092e700f1f661ad8e3cb74b7d96ee2418f41
+exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '498'
 ht-degree: 2%
 
 ---
 
-
 # 在优先级中上传文档并创建验证
-
-<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 您可以在优先级中上传文档并创建验证。
 
@@ -182,6 +180,3 @@ Add new version, open proof, edit, download, move, share, remove
 
 * 添加日期
 * 文件类型
-
-
-

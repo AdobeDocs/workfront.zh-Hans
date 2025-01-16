@@ -5,17 +5,15 @@ description: 关注我
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: ccdbc3402164bba66c08b8b97fdfdd2013ad884e
+exl-id: c3ff90cc-2a9b-472e-ac6c-88b8ec93c8fb
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 5%
+source-wordcount: '180'
+ht-degree: 6%
 
 ---
 
-
 # 在优先级中赶超工作
-
-<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 抓住我 — 由Workfront的AI Assistant提供支持 — 汇总以下时间范围内有关您项目的更新、上传文档和其他显着更改：24小时、3天、7天，这有助于缩短查找有关活动项目信息的时间。
 

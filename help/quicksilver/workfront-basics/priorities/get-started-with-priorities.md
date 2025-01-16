@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: da688217a1240b74667f31d20e086164e1536576
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '999'
 ht-degree: 3%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 3%
 
 ### 查找使用过滤器的工作
 
-使用筛选器查找最重要的工作。 <span class="preview">您可以使用自然语言来查找智能滤镜的工作</span>，或者
+使用筛选器查找最重要的工作。 您可以使用自然语言来查找与智能过滤器配合使用的工作，或者
 您可以使用标准筛选器查找分配给您的任务和问题：
 
 <table>
@@ -112,10 +112,9 @@ ht-degree: 3%
 
 有关详细信息，请参阅[优先处理重要工作项](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)。
 
-![](assets/my-focus-column.png)
-<!-- new screen for prod ![](assets/worklist.png) -->
+![](assets/worklist.png)
 
-### 使用预览中可用的日历视图[!BADGE ]{type=Informative}
+### 使用日历视图
 
 日历视图将提供任务和问题的可视化表示形式。 您将能够在一天、一周或一个月视图之间进行选择。 您也可以使用与工作列表类似的方式筛选项目。
 
@@ -141,8 +140,7 @@ ht-degree: 3%
 
 有关详细信息，请参阅[在优先级](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md)中添加和查看注释。
 
-![](assets/new-update.png)
-<!--new screen for prod ![](assets/update-log-upload.png)-->
+![](assets/update-log-upload.png)
 
 ### 记录时间
 
@@ -150,8 +148,7 @@ ht-degree: 3%
 
 有关详细信息，请参阅[在优先级中记录时间](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md)。
 
-![](assets/log-time.png)
-<!--new screen for prod ![](assets/update-log-upload.png)-->
+![](assets/update-log-upload.png)
 
 ### 上载文件
 
@@ -164,8 +161,7 @@ ht-degree: 3%
 
 有关详细信息，请参阅[上载优先级中的文件](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)。
 
-![](assets/upload-file.png)
-<!--new screen for prod ![](assets/update-log-upload.png)-->
+![](assets/update-log-upload.png)
 
 
 ### 添加快速链接
@@ -176,13 +172,13 @@ ht-degree: 3%
 
 有关详细信息，请参阅[在优先级](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)中添加和管理快速链接。
 
-### 查看文档[!BADGE 在预览中可用]{type=Informative}
+### 查看文档
 
 “文档”选项卡允许您查看与工作项相关的所有文件。 您将能够按名称、文件类型或人员筛选文档，并按名称和上传日期排序。
 
 您还可以打开文档或验证。
 
-### 审阅并批准可在预览]中使用的资源[!BADGE {type=Informative}
+### 审阅和批准资源
 
 从任务或问题的文档选项卡中，您可以
 
@@ -190,7 +186,7 @@ ht-degree: 3%
 * 启动验证查看者，以发表评论并做出决策
 
 
-## 使用[!DNL Catch me up]查看您错过了什么[!BADGE 预览中可用]{type=Informative}
+## 使用[!DNL Catch me up]查看您错过的内容
 
 使用[!DNL Catch me up]功能查看您错过了哪些内容。 “赶上我们”将在以下时间范围内概述有关您项目的更新、上传的文档、批准和其他显着更改：24小时、3天、7天。
 
@@ -200,7 +196,7 @@ ht-degree: 3%
 
 <!--need new screen for prod-->
 
-## 在详细信息页面[!BADGE 上查看预览]中可用的实时更新{type=Informative}
+## 在“详细信息”页面上查看实时更新
 
 您可以在任务或问题的详细信息页面上查看实时更新。 您还可以通过实时在线状态指示器查看其他人是否与您同时查看页面。
 

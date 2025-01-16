@@ -6,16 +6,14 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: abf502f2bbf48c0bd1cc5705d93d928342cd8a3b
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
 
 # 自定义优先级工作列表列
-
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 您可以在优先级中自定义工作列表上的列，以支持您的工作方式。
 
@@ -87,9 +85,7 @@ ht-degree: 0%
 1. 单击&#x200B;**更多**&#x200B;图标![](assets/more-icon.png)，然后选择&#x200B;**重置列宽**。
    ![](assets/columns.png)
 
-<div class="preview">
-
-## 自定义预览中的优先级工作列表列
+## 自定义优先级工作列表列
 
 ### 启用或禁用列
 
@@ -110,6 +106,3 @@ ht-degree: 0%
 >[!NOTE]
 >
 >“名称”列是固定的，无法移动。
-
-
-</div>

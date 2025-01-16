@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 5457f516-c213-4b82-b033-bc8db943a217
-source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%
@@ -60,8 +60,7 @@ ht-degree: 0%
 {{step1-to-priorities}}
 
 1. 将鼠标悬停在名称上，然后单击&#x200B;**记录时间**。
-   ![](assets/log-time.png)
-   <!--new screen for prod ![](assets/update-log-upload.png)-->
+   ![](assets/update-log-upload.png)
 1. 在&#x200B;**小时类型**&#x200B;下拉菜单中，选择相应的小时类型。 可用小时类型取决于在系统、项目和用户级别定义的内容，如定义小时类型和可用性中所述。
 
 1. （视情况而定）如果您的Workfront或组管理员启用了手动将工作角色分配给小时条目设置，请从下拉菜单中选择工作角色。 默认情况下，将显示分配给工作项时指定的角色。 如果您未在该对象上分配角色，则默认显示您的“主要角色”。 如果未分配主角色，则不会显示任何工作角色。
