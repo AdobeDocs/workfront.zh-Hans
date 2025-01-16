@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: d68c4fd39234d8d5131828e2a4642bd9af8ca7d5
+source-git-commit: a36a74def754d1318d2a82145537f7c0ef3f3bbd
 workflow-type: tm+mt
 source-wordcount: '1269'
 ht-degree: 0%
@@ -112,7 +112,7 @@ IF(
 1. 单击&#x200B;**新建业务规则**。
 1. 选择要为其分配业务规则的对象类型，然后单击&#x200B;**继续**。
 
-   ![选择对象](assets/object-for-business-rule2.png)
+   ![选择对象](assets/object-for-business-rule3.png)
 
 1. 键入业务规则的&#x200B;**名称**。
 1. 在&#x200B;**处于活动状态**&#x200B;字段中，选择保存规则时该规则是否应处于活动状态。
