@@ -5,18 +5,14 @@ description: AI Assistant概述
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 47469f684bf3be6c6a9d3c39ba3960ca13e43578
+source-git-commit: 9a588df1ef48b40056c5228c8ff03b5819eb4410
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '693'
 ht-degree: 1%
 
 ---
 
 # AI Assistant概述
-
-<span class="preview">此页面上的信息引用了尚未公开的功能。 它在“预览”环境中为所有客户提供，在“生产”环境中为启用每月发布的客户提供。</span>
-
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 Workfront的AI助手通过提供应用程序内信息和自然语言对话建议，帮助您完成工作。 AI助手可以通过以下方式为您提供更流畅的工作体验
 
@@ -84,13 +80,9 @@ AI助手当前提供以下功能：
 
   有关详细信息，请参阅[从AI助手获取帮助](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)。
 
-<div class="preview">
-
 * 在Workfront中查找特定项目。
 
   有关详细信息，请参阅[使用AI助手处理项目、任务和问题](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md)。
-
-</div>
 
 * 为已计算的自定义字段生成或优化公式。
 
@@ -100,12 +92,10 @@ AI助手当前提供以下功能：
 
   有关详细信息，请参阅[使用AI助手生成或修订计算字段公式](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)。
 
-<div class="preview">
-*在以下时间范围内总结有关项目的更新、上传文档和其他显着更改：优先级中的24小时、3天、7天。
+* 在下列时间范围内总结项目的更新、上传文档和其他显着更改：优先级中的24小时、3天、7天。
 
 有关详细信息，请参阅[在优先级中更新工作](/help/quicksilver/workfront-basics/priorities/catch-me-up.md)。
 
-</div>
 
 ## AI助手可用的对象类型
 
