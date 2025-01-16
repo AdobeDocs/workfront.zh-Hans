@@ -6,9 +6,9 @@ description: 您可以使用[!UICONTROL 我的更新]区域快速查看等待您
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '787'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 使用[!UICONTROL 我的更新]区域
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 您可以使用[!UICONTROL 我的更新]区域快速查看等待您决策的审批或您已经包含的对话。
@@ -82,11 +82,7 @@ ht-degree: 0%
 
    分配给您的审批和访问请求列在页面前半部分的&#x200B;**我的更新**&#x200B;下。
 
-   <div class="preview">
-
    ![](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
-
-   </div>
 
 1. （可选）滚动到&#x200B;[!UICONTROL **我的更新**]&#x200B;区域的底部，然后单击向右箭头以显示其他页面上显示的更多批准。
 
@@ -168,12 +164,8 @@ ht-degree: 0%
 
      有关回复更新的详细信息，请参阅[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
-     <span class="preview">添加完回复后，单击&#x200B;**[!UICONTROL 提交]**。</span>
-
-     <div class="preview">
+     添加完回复后，单击&#x200B;**[!UICONTROL 提交]**。
 
      ![](assets/reply-in-the-my-updates-area.png)
-
-     </div>
 
 1. （可选）单击&#x200B;**[!UICONTROL 固定当前页面]**&#x200B;以将[!UICONTROL 我的更新]区域固定到顶部导航。

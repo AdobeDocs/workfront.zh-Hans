@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 0%
@@ -71,7 +71,7 @@ ht-degree: 0%
    * 共享记录
    * 从Workfront管理Workfront规划记录
 
-* [Adobe Workfront计划请求：文章索引](/help/quicksilver/planning/requests/requests-article-index.md)包含以下信息：
+* [Adobe Workfront Planning请求：文章索引](/help/quicksilver/planning/requests/requests-article-index.md)包含以下信息：
 
    * 如何为记录类型创建请求表单。
    * 用户如何将请求提交到记录类型请求表单并创建记录。

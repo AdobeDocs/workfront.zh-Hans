@@ -9,18 +9,18 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '2245'
+source-wordcount: '2185'
 ht-degree: 2%
 
 ---
 
 # 配置组的任务和问题首选项
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 如果贵组织中的组需要独立于系统级别配置任务或问题首选项的方式对其进行配置，Adobe Workfront管理员可以解锁首选项。 然后，作为组管理员，您可以为组配置首选项，这将影响与组关联的所有任务或问题。
 
@@ -95,7 +95,7 @@ ht-degree: 2%
    * [新任务默认值](#new-task-defaults)
    * [问题](#issues)
    * [删除](#deletion)
-   * <span class="preview">[移动](#move)</span>
+   * [移动](#move)
    * [实际日期](#actual-dates)
    * [委派](#delegation)
    * [访问权限](#access)
@@ -184,8 +184,6 @@ ht-degree: 2%
    </table>
 
 
-<div class="preview">
-
 ### 移动
 
 <table style="table-layout:auto"> 
@@ -203,8 +201,6 @@ ht-degree: 2%
      </tr> 
     </tbody> 
    </table>
-
-</div>
 
 ### 实际日期 {#actual-dates}
 

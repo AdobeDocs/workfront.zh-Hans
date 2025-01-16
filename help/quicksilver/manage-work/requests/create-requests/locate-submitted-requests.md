@@ -8,9 +8,9 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '949'
 ht-degree: 1%
 
 ---
@@ -21,12 +21,19 @@ ht-degree: 1%
 
 您可以找到您或其他人提交的以下类型的请求，或者您已开始但从未完成提交的请求。 您可以在Adobe Workfront的以下区域中找到这些请求：
 
-* **已提交节**：您或其他人提交的所有请求，您至少有权查看。
-* **草稿部分** ：您已开始但从未完成且从未提交的所有请求。 有关草稿请求的更多信息，请参阅[创建和提交Adobe Workfront请求](../../../manage-work/requests/create-requests/create-submit-requests.md)。
+* Workfront中“请求”区域的&#x200B;**Workfront**&#x200B;选项卡：请在以下部分中查找提交到Workfront请求队列的请求：
+   * **已提交节**：您或其他人提交的所有请求，您至少有权查看。
+   * **草稿部分** ：您已开始但从未完成且从未提交的所有请求。 有关草稿请求的更多信息，请参阅[创建和提交Adobe Workfront请求](../../../manage-work/requests/create-requests/create-submit-requests.md)。
 
   >[!TIP]
   >
   >您只能查看自己的草稿请求。
+
+* Workfront中“请求”区域的&#x200B;**计划**&#x200B;选项卡：找到提交到Workfront计划请求表单的请求。 贵组织必须购买Workfront规划包。 有关信息，请参阅以下文章：
+
+   * [在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)
+   * [提交Adobe Workfront Planning请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)
+
 
 ## 访问要求
 
@@ -70,6 +77,7 @@ ht-degree: 1%
 
 {{step1-to-requests}}
 
+1. （视情况而定）如果您的组织购买了Workfront规划包，请单击&#x200B;**Workfront**&#x200B;选项卡以查看Workfront请求。
 1. 单击左侧面板中的&#x200B;**已提交**&#x200B;以查看所有已提交的请求。
 
    您最多可以查看2000个请求，并且这些请求可以显示在多个页面上。
@@ -191,6 +199,12 @@ ht-degree: 1%
    -->
 
 1. 单击&#x200B;**草稿**&#x200B;查看所有草稿的请求。 Workfront会为此文件夹中的每个请求队列保存无限数量的草稿。 为已具有草稿的队列主题输入新请求时，系统将提示您使用现有的草稿。 有关详细信息，请参阅[从草稿创建请求](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)。
+
+1. （可选且有条件）如果贵组织购买了Workfront Planning包，请单击&#x200B;**Planning**&#x200B;选项卡，然后单击左侧面板中的&#x200B;**Submitted**&#x200B;以查看Workfront Planning请求。
+
+   ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+
+   有关信息，请参阅[提交Adobe Workfront计划请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。
 
  
 

@@ -6,9 +6,9 @@ description: 在Adobe Workfront中，计划工作由项目和任务表示。 但
 author: Lisa
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '2300'
+source-wordcount: '2411'
 ht-degree: 1%
 
 ---
@@ -30,11 +30,12 @@ ht-degree: 1%
 在请求队列中创建请求后，您可以将其分配给完成请求，也可以将其转换为任务或项目。\
 有关将问题转化为任务或项目的更多信息，请参阅文章[在Adobe Workfront中转化问题的概述](../../../manage-work/issues/convert-issues/convert-issues.md)。
 
-您可以通过以下方式创建请求：
+您可以通过以下方式创建Workfront请求：
 
 * 从头开始，如本文所述。
 * 来自草稿。 有关信息，请参阅[从草稿创建请求](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)。
 * 从现有请求中，通过复制并提交副本。 有关信息，请参阅[复制并提交请求](../../../manage-work/requests/create-requests/copy-and-submit-requests.md)。
+* 从Workfront Planning请求表单中，在Workfront Planning中创建记录。 贵组织必须购买Workfront规划包。 有关信息，请参阅[提交Adobe Workfront计划请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。
 
 ## 访问要求
 
@@ -342,8 +343,19 @@ Workfront管理员必须创建请求队列的以下组件：
 * 您可以在Workfront与其他应用程序之间构建自定义集成，从而允许您从其他应用程序向Workfront提交请求。\
   有关自定义Workfront集成的更多信息，请参阅文章[Adobe Workfront集成](../../../administration-and-setup/configure-integrations/workfront-integrations-1.md)。
 
-* 如果您已经为Salesforce安装了Workfront应用程序，则可以从Salesforce提交请求。\
+* 如果已安装适用于Salesforce的Workfront应用程序，则可以从Salesforce提交请求。\
   有关使用适用于Salesforce的Workfront应用程序提交来自Salesforce的请求的信息，请参阅文章[从Salesforce对象提交Adobe Workfront请求](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)。
+
+## 使用Workfront Planning请求表单创建请求
+
+您可以使用Workfront Planning请求表单添加请求。 如果请求表单获得批准或不需要批准，添加Workfront Planning请求可能会创建Planning记录。
+
+贵组织必须购买Workfront Planning程序包才能提交Planning请求。
+
+有关信息，请参阅以下文章：
+
+* [在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
+* [提交Adobe Workfront计划请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。
 
 ## 查找已提交的请求
 

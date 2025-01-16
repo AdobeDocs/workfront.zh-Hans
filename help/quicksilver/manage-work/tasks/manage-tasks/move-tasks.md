@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront中将任务移动到其他项目或不�
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1487'
 ht-degree: 2%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 2%
 <!--Audited: 12/2024-->
 
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 您可以在Adobe Workfront中的以下对象之间移动任务：
@@ -72,6 +72,8 @@ ht-degree: 2%
 
 移动任务时，请考虑以下事项：
 
+* 您的系统或组管理员可能会阻止您移动具有记录小时数的任务，具体取决于他们如何在“设置”区域中配置“允许用户移动具有记录小时数的任务和问题”首选项。 有关信息，请参阅[配置系统范围的任务和问题首选项](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
+
 * 当您将任务从一个项目移动到另一个项目时，可能会重新计算任务日期。 重新计算将考虑新项目使用的时间表和项目的时间表来源信息。
 
 * 在移动过程中，您可以选择将一些与任务相关的项目移动到移动的任务。 但是，默认情况下，以下对象会传输到移动的任务：
@@ -82,16 +84,9 @@ ht-degree: 2%
    * 自定义表单和自定义字段信息
    * 子任务
 
-默认情况下，以下项目不会随任务一起移动：
+* 默认情况下，以下项目不会随任务一起移动：
 
-* 里程碑
-
-<div class="preview">
-
-* 您的系统或组管理员可能会阻止您移动具有记录小时数的任务，具体取决于他们如何在“设置”区域中配置“允许用户移动具有记录小时数的任务和问题”首选项。 有关信息，请参阅[配置系统范围的任务和问题首选项](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
-
-</div>
-
+   * 里程碑
 
 ## 在列表中移动任务
 

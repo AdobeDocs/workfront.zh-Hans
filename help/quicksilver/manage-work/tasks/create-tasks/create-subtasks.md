@@ -6,9 +6,9 @@ description: 在Adobe Workfront中，任务可以具有父子关系。 子任务
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您的Workfront或组管理员可能会隐藏环境中的子任务部分。
+>您的Workfront或组管理员可以使用布局模板删除环境中的子任务部分。
 
 1. 转到要创建子任务的项目。
 1. 单击左侧面板中的&#x200B;**任务**&#x200B;部分。

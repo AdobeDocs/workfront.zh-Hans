@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 <!--take Preview and Prod references out when releasing to Prod all-->
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -126,9 +126,9 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 
 * 您只能通过表单的特定链接访问Workfront Planning请求的请求表单。
 * 将请求提交到Workfront Planning后无法编辑请求。
-* 每个提交的请求都会为与您使用<span class="preview">的表单关联的记录类型创建记录（如果该表单未与批准关联，或者该批准已被所有批准者授予）。</span>
+* 如果表单与批准无关，或者所有批准者都授予了批准，则每个提交的请求都会为您使用的表单创建的记录类型创建记录。
 * 通过提交请求表单创建的记录无法与通过任何其他方法添加的记录区分开。 有关信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
-* <span class="preview">已提交的请求将显示在Workfront </span>请求区域的已提交分区的“计划”选项卡中。
+* 已提交的请求将显示在Workfront请求区域的已提交分区的计划选项卡中。
 
 <!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
@@ -149,23 +149,24 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 
    您的表单已提交，并且发生了以下情况：
 
-   * 如果申请表单未与批准关联，则该申请将添加到Workfront申请区域</span>已提交分区的<span class="preview">计划选项卡中，并将新记录添加到与表单关联的记录类型中。
+   * 如果申请表单与批准无关，申请会添加到Workfront申请区域已提交分区的Planning选项卡中，新记录会添加到与表单关联的记录类型中。
 
-   * 如果申请表单与批准关联，则<span class="preview">申请将添加到Workfront申请区域已提交部分的Planning选项卡中。 只有在所有批准者都批准记录类型页面后，才会将新记录添加到该页面。</span>
-     <span class="preview">有关信息，请参阅[向请求表单添加批准](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。</span>
+   * 如果申请表单与批准关联，则该申请会添加到Workfront申请区域已提交部分的Planning选项卡中。 只有在所有批准者都批准记录类型后，才会将新记录添加到该记录类型页面。
+
+     有关信息，请参阅[向请求表单添加批准](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
 
      ![](assets/planning-tab-in-requests.png)
 
      >[!IMPORTANT]
      >
-     ><span class="preview">所有有权访问至少一个工作区的用户都可以在“请求”区域中查看“计划”选项卡。 您只能查看您或其他人提交到您至少拥有查看权限的工作区的请求。 Workfront管理员可以查看提交到系统中任何工作区的所有请求。</span> <!--ensure this is correct; asking team in slack-->
+     >至少有权访问一个工作区的所有用户都可以查看请求区域中的Planning选项卡。 您只能查看您或其他人提交到您至少拥有查看权限的工作区的请求。 Workfront管理员可以查看提交到系统中任何工作区的所有请求。<!--ensure this is correct; asking team in slack-->
 
-   * <span class="preview">您收到应用内通知和电子邮件通知，告知您请求已成功提交或已发送以供审阅。</span>
-   * <span class="preview">如果请求表单与批准关联，则批准者会收到应用程序内通知和电子邮件通知，以审查和批准该请求。</span>
+   * 您会收到应用程序内和电子邮件通知，告知您请求已成功提交或已发送以供审阅。
+   * 如果请求表单与批准关联，则批准者会收到应用程序内和电子邮件通知，以供审阅和批准请求。
 
      >[!NOTE]
      >
-     ><span class="preview">仅当贵组织的Workfront实例已载入到AdobeUnified Experience时，电子邮件和应用内通知才可见。</span>
+     >仅当贵组织的Workfront实例载入到AdobeUnified Experience时，电子邮件和应用程序内通知才可见。
 
 
 

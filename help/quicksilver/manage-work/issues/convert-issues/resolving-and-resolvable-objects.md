@@ -7,9 +7,9 @@ description: 可解析对象是一个问题，其解决方案与解析对象绑�
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '1771'
+source-wordcount: '1778'
 ht-degree: 1%
 
 ---
@@ -126,7 +126,7 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 当问题为任务或项目的可解析对象时，任务状态的更改和项目触发问题状态的更改。 在这种情况下，默认状态的触发方式与自定义状态有所不同。
 
-当项目自定义状态等于默认状态且不会触发问题状态更改时，它不会触发问题的状态更改。
+当项目的自定义状态等于默认状态且不会触发问题状态更改时，项目状态的更改不会触发问题的状态更改。
 
 * [将解析对象的默认状态与可解析对象的默认状态同步](#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object)
 * [将解析对象的自定义状态与可解析对象的自定义状态同步](#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object)

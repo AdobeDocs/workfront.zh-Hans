@@ -6,21 +6,20 @@ description: 您可以在Adobe Workfront的[!UICONTROL 主页]区域查看工作
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 6%
+source-wordcount: '846'
+ht-degree: 7%
 
 ---
 
 # 在[!UICONTROL 主页]区域更新或编辑工作项
 
-<!--Audited: April 2024-->
+<!--Audited: 04/2024-->
 
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
-
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 您可以在[!DNL Adobe Workfront]的[!UICONTROL 主页]区域查看工作项并将更新添加到该区域。 如果您有权限编辑工作项，您还可以编辑与工作项相关的其他数据。
 
@@ -133,22 +132,18 @@ You can view updates on any work item in the [!UICONTROL Work List]:
 
 1. 单击&#x200B;**回复**。
 
-   <div class="preview">
-
    ![](assets/reply-to-comment-in-mentions-widget.png)
 
-   </div>
-
 1. 开始键入您的评论。
-1. （可选）在&#x200B;<span class="preview">**标记人员**</span>&#x200B;框中，开始键入要包含在此评论中的用户或团队的名称，然后在此评论显示在列表中时将其选定。
+1. （可选）在&#x200B;**标记人员**&#x200B;框中，开始键入要包含在此评论中的用户或团队的名称，然后在此评论显示在列表中时将其选定。
 1. （可选）使用富文本工具栏中的选项设置文本格式，在评论中添加表情符号、链接或图像以增强内容。
-1. <span class="preview">单击&#x200B;**提交**&#x200B;以将评论添加到工作项。</span>
+1. 单击&#x200B;**提交**&#x200B;以将评论添加到工作项。
 
    >[!IMPORTANT]
    >
-   ><span class="preview">您只能在提交评论后15分钟内对其进行编辑。 要编辑评论，请单击评论右上角的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**编辑**.</span>
+   >您只能在提交评论后15分钟内对其进行编辑。 要编辑评论，请单击评论右上角的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**编辑**。
 
-   <span class="preview">有关添加更新的详细信息，请参阅[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。</span>
+   有关添加更新的详细信息，请参阅[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
 ## 编辑工作项
 

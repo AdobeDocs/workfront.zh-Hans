@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: '1429'
 ht-degree: 2%
 
 ---
@@ -19,9 +19,11 @@ ht-degree: 2%
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -131,7 +133,7 @@ ht-degree: 2%
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
-1. 单击&#x200B;**创建**。所选记录类型的请求表单在表单选项卡</span>中打开<span class="preview">。
+1. 单击&#x200B;**创建**。此时将在“表单”选项卡中打开选定记录类型的请求表单。
 
    ![](assets/campaigns-request-form-edit-mode.png)
 
@@ -139,40 +141,44 @@ ht-degree: 2%
 
    * 所选记录类型的表视图中可用的记录字段。<!--they are working on removing the limitation below-->
 
-<!-- when we go to prod, the Preview batch below will become the only batch-->
+   <!-- when we go to prod, the Preview batch below will become the only batch-->
 
->[!IMPORTANT]
->
-> 根据创建请求表单时所用的环境，存在以下情况：
->
->* 以下类型的字段不会显示在生产环境的请求表单中：
->
->    * 创建者和上次修改者
->    * 创建日期和上次修改日期
->    * 公式
->    * 人员
->    * Workfront连接的字段
->    * Workfront对象的查找字段
->    * Workfront Planning记录的已连接字段
->    * Workfront Planning已连接记录的查找字段
->    * AEM Assets连接字段
->* 以下类型的字段未显示在<span class="preview">预览环境的请求表单中：</span>
->    * <span class="preview">创建者和上次修改者</span>
->    * <span class="preview">创建日期和上次修改日期</span>
->    * <span class="preview">公式</span>
->    * <span class="preview"> Workfront对象的查找字段</span>
->    * <span class="preview">Workfront Planning已连接记录的查找字段</span>
+   >[!IMPORTANT]
+   >
+   >以下类型的字段不显示在请求表单中：
+   >
+   >* 创建者和上次修改者
+   >* 创建日期和上次修改日期
+   >* 公式
+   >* Workfront对象的查找字段
+   >* Workfront Planning已连接记录的查找字段
+   >
 
-* **默认的分区**：这是Workfront应用于请求表单的默认分区界限。 无法重命名或删除默认部分。
-* **主题**&#x200B;字段：将在Workfront中标识该请求的字段。 此功能在生产环境中尚不可用。 <span class="preview">它在预览环境中可用。</span>“主题”字段的配置和值不可编辑。
+   <!--before release to prod: 
+    > Depending on what environment you use to create a request form, the following scenarios exist:
+   >
+   >* Fields of the following types do not display in the request form in the Production environment: 
+   >
+   >    * Created by and Last modified by
+   >    * Created date and Last modified date
+   >    * Formula
+   >    * People 
+   >    * Workfront connected fields
+   >    * Workfront objects' lookup fields
+   >    * Workfront Planning records' connected fields
+   >    * Workfront Planning connected records' lookup fields
+   >    * AEM Assets connection fields-->
 
-  >[!TIP]
-  >
-  >**Subject**&#x200B;字段在请求表单上可见时需要值。 但是，您可以根据需要删除&#x200B;**主题**&#x200B;字段，请求者不会在表单上看到该字段。
+   * **默认的分区**：这是Workfront应用于请求表单的默认分区界限。 无法重命名或删除默认部分。
+   * **主题**&#x200B;字段：将在Workfront中标识该请求的字段。 “主题”字段的配置和值不可编辑。
 
-* 与记录类型关联的所有字段。
+     >[!TIP]
+     >
+     >**Subject**&#x200B;字段在请求表单上可见时需要值。 但是，如果需要，您可以删除&#x200B;**主题**&#x200B;字段，而请求者在提交请求时将不会在表单上看到该字段。
 
-  向此记录类型提交请求的每个人均可看到请求表单中包含的字段。
+   * 与记录类型关联的所有字段。
+
+     向此记录类型提交请求的每个人均可看到请求表单中包含的字段。
 
 1. （可选）将鼠标悬停在要删除的表单上的任何字段上，然后单击&#x200B;**x**&#x200B;图标以删除它们。 它们已添加到表单左侧的&#x200B;**字段**&#x200B;选项卡中。
 
@@ -194,14 +200,13 @@ ht-degree: 2%
 1. （可选）单击表单左侧的&#x200B;**内容元素**&#x200B;选项卡，然后添加以下任意元素：
 
    * **描述性文本**
-   * **分节符**
+   * **分区界限**
 
    有关生成自定义表单的详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 1. （可选）单击&#x200B;**预览**&#x200B;以查看当其他用户使用表单提交新记录时，该表单将如何显示给其他用户。
 
-1. 
-   <div class="preview">（可选）单击**配置**选项卡，然后向**审批者**字段添加至少一个用户以审批此记录表单的新请求。
+1. （可选）单击&#x200B;**配置**&#x200B;选项卡，然后向&#x200B;**审批者**&#x200B;字段添加至少一个用户以审批此记录表单的新请求。
 
    ![](assets/configuration-tab.png)
 
@@ -212,7 +217,7 @@ ht-degree: 2%
    * 如果至少有一位审批者拒绝了请求，则该请求会被拒绝，并且不会创建记录。
    * 在批准或拒绝请求之前，所有批准者都必须做出决定。
 
-     有关将审批添加到请求表单的详细信息，请参阅[将审批添加到请求表单](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。 </div>
+     有关将审批添加到请求表单的详细信息，请参阅[将审批添加到请求表单](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
 
 1. （可选）单击标题中表单名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**编辑**&#x200B;以更新表单名称。
 1. 单击&#x200B;**Publish**&#x200B;发布表单并获取其唯一链接。
@@ -235,20 +240,19 @@ ht-degree: 2%
 
    >[!WARNING]
    >
-   >
    >* 当您选择&#x200B;**具有链接**&#x200B;的任何人时，任何人都可以访问表单并提交新记录，甚至包括您组织外没有Workfront帐户的人员。
    >
-   > * <span class="preview">不能公开共享包含以下字段类型的表单：</span>
+   > * 不能公开共享包含以下字段类型的表单：
    >
-   >     * <span class="preview">Workfront或AEM Assets连接</span>
-   >     * <span class="preview">人员</span>
+   >     * Workfront或AEM Assets连接
+   >     * 人员
    >
 
 1. （视情况而定）如果您在上一步中选择了&#x200B;**具有链接**&#x200B;的任何人，请从可用日历中选择&#x200B;**链接到期日期**。 链接过期后，用户会收到错误消息，您必须更新链接日期并生成要共享的新链接，之后用户才能再次访问表单。
 
    您可以选择自当前日期起180天内的将来日期。
 
-1. 单击&#x200B;**保存并复制链接**&#x200B;以保存表单的共享详细信息。
+1. 单击&#x200B;**保存并复制链接**&#x200B;以保存表单的共享详细信息。 如果表单之前已保存，请单击&#x200B;**复制链接**。
 
    表单共享选项已保存，并且链接已复制到您的剪贴板。 您现在可以与其他人共享。
 
@@ -260,7 +264,7 @@ ht-degree: 2%
    此时将打开记录类型页面。
 1. （可选）单击标题中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后执行以下操作之一：
    * 单击&#x200B;**更新请求表单**&#x200B;以更改请求表单。
-   * 单击&#x200B;**复制请求表单的链接**&#x200B;以与其他人共享该表单的链接。
+   * 单击&#x200B;**将链接复制到请求表单**&#x200B;以与其他人共享该表单的链接。
 
    >[!TIP]
    >
