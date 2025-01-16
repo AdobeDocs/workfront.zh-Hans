@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1394'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 # 创建记录类型
 
-<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -108,11 +108,11 @@ ht-degree: 1%
 
         有关信息，请参阅[创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md)。
 
-      * <span class="preview">当您使用Excel或CSV文件导入它们时。</span>
+      * 当您使用Excel或CSV文件导入它们时。
 
      >[!TIP]
      >
-     ><span class="preview">当您从Excel或CSV文件导入记录类型时，可能还会导入记录和字段。</span>
+     >从Excel或CSV文件导入记录类型时，还可以导入记录和字段。
 
    * 手动：
 
@@ -147,7 +147,7 @@ ht-degree: 1%
 
    从工作区中，展开现有工作区名称右侧的向下箭头，搜索工作区，然后在工作区显示在列表中时将其选定。
 1. （可选）单击&#x200B;**添加节**&#x200B;以向工作区添加新节。
-1. 单击&#x200B;**添加记录类型**，然后单击&#x200B;<span class="preview">**新建**</span>。
+1. 单击&#x200B;**添加记录类型**，然后单击&#x200B;**新建**。
 
    将打开“添加记录类型”框。
    <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
@@ -207,8 +207,6 @@ ht-degree: 1%
    * [删除记录类型](/help/quicksilver/planning/architecture/delete-record-types.md)
    * [编辑记录类型](/help/quicksilver/planning/architecture/edit-record-types.md)
    * [管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)
-
-<div class="preview">
 
 ## 通过导入Excel或CSV文件创建记录类型
 
@@ -278,6 +276,3 @@ ht-degree: 1%
    您可以开始管理记录类型页面上的字段和记录。
 
    有权访问Workfront Planning的每个人现在可以查看和编辑导入的记录类型及其信息。
-
-</div>
-

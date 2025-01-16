@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1624'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 管理记录页面布局
 
-<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -254,8 +254,6 @@ ht-degree: 0%
 
    自动对记录预览或页面保存布局所做的所有更改。
 
-<span class="preview">
-
 ## 将“连接”视图页面添加到记录的页面
 
 向记录页面添加连接视图时，请考虑以下事项：
@@ -292,7 +290,7 @@ ht-degree: 0%
 1. （可选）使用工具栏中的任何视图元素来管理表格视图。 有关信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)。
 1. （可选）将鼠标悬停在该选项卡的名称上，单击&#x200B;**更多** ![](assets/more-menu.png)，然后单击&#x200B;**删除**&#x200B;以移动到新的“连接的视图”选项卡。
 
-</span>
+
 
 <!--
 ## Add a Brief page to a record's page

@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
 source-wordcount: '6474'
 ht-degree: 5%
@@ -85,7 +85,7 @@ ht-degree: 5%
    * [添加图像、PDF和视频](#add-images-pdfs-and-videos)
    * [添加Workfront本机字段](#add-workfront-native-fields)
    * [添加Adobe XD文件](#add-adobe-xd-files)
-   * <span class="preview">[添加Planning连接字段](#add-planning-connection-fields)</span>
+   * [添加Planning连接字段](#add-planning-connection-fields)
 
 ## 向自定义表单中添加新字段或现有字段
 

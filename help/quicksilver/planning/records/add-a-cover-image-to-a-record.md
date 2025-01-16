@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '709'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # 将封面图像添加到记录
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -148,7 +148,7 @@ ht-degree: 1%
 
    ![](assets/details-page.png)
 
-1. 在记录预览或页面中，单击生产环境中的&#x200B;**添加封面**、<span class="preview">或将鼠标悬停在记录名称上方的空间上，然后单击预览环境中的&#x200B;**添加封面**</span>。
+1. 在记录预览或详细信息页面中，将鼠标悬停在记录名称上方的空格上，然后单击&#x200B;**添加封面**。
 
    或
 
@@ -167,7 +167,7 @@ ht-degree: 1%
 
 1. 单击&#x200B;**使用图像**。
 
-   图像会上载到记录预览或页面顶部，并且更改会自动保存。
+   图像会上载到记录预览或详细信息页面的顶部，并且更改会自动保存。
 
    ![](assets/record-page-with-cover-image.png)
 

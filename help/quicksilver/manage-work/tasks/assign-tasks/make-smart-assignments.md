@@ -6,9 +6,9 @@ description: 您可以使用智能分配来确定谁是完成工作的最佳用�
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -19,17 +19,17 @@ ht-degree: 0%
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
-<span class="preview">此页面上高亮显示的信息指的是“生产”环境中仅供启用快速版本的客户使用的功能。</span>
+<span class="preview">此页面上高亮显示的信息引用了仅在“预览”环境中可用的功能。</span>
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<!--<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">对于在2025年1月通过25.1版本启用快速发布的客户，此功能将从生产环境中删除。 有关25.1版本的信息，请参阅[2025年第一季度版本概述](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
+<span class="preview"> This functionality will be removed from the Production environment for customers who enabled fast release with the 25.1 release in January 2025. For information about the 25.1 release, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md). -->
 
 您可以使用智能分配来确定谁是完成工作的最佳用户。
 
 智能分配是指Adobe Workfront在将工作项分配给资源时向您显示的用户、角色或团队的建议。 Workfront的建议基于确定最适合作业的资源的算法。
 
-<span class="preview">Workfront中有两个单独的算法可计算在任务和问题中工作方式不同的智能分配。</span>
+<!--<span class="preview">There are two separate algorithms in Workfront that calculate smart assignments that work differently for tasks and for issues.</span> -->
 
 有关确定智能分配时使用的条件的详细信息，请参阅[智能分配概述](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md)。
 
@@ -75,24 +75,22 @@ ht-degree: 0%
    * 任务、问题列表或报告
    * 任务或问题标题
    * 任务或问题摘要面板
-   * <span class="preview">新任务</span>或新问题框，因为您向项目中添加了<span class="preview">新任务</span>或问题
    * 工作负载均衡器中的任务或问题
+     <!--* <span class="preview">A New Task</span> or New Issue box, as you add <span class="preview">a new task</span> or issue to a project-->
 
 1. 将光标置于Assignments字段中，并等待两秒钟。
 
-   对于问题，智能分配会显示在以下部分中：
+   <!--For issues, the smart assignments display in the following sections: 
+      * **Users and teams**
+      * **Job roles**
+        ![](assets/smart-assignments-issue-header.png)-->
 
-   * **用户和团队**
-   * **职位角色**
+   智能分配显示在以下部分<!--, depending on which phase of the algorithm's calculation identified the assignments-->中：
 
-   ![](assets/smart-assignments-issue-header.png)
+   <!--* <span class="preview">**Suggested assignments**: Displays assignments identified in the first phase of the task smart assignment algorithm.</span> -->
+   * **用户和团队**、**工作角色**&#x200B;或&#x200B;<span class="preview">**评级卡片工作角色**</span>：<!--Assignments identified in the second phase of the task smart assignment's algorithm calculation.-->
 
-   对于任务，智能分配会根据算法计算的哪个阶段标识了分配，显示在以下部分中：
-
-   * <span class="preview">**建议的分配**：显示任务智能分配算法第一阶段中识别的分配。</span>
-   * **用户和团队**、**工作角色**&#x200B;或&#x200B;<span class="preview">**评级卡片工作角色**</span>：在任务智能分配算法计算的第二阶段中识别的分配。
-
-   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+   ![](assets/smart-assignments-task-list.png)
 
    有关详细信息，请参阅[智能分配概述](../../../manage-work/tasks/assign-tasks/smart-assignments.md)。
 

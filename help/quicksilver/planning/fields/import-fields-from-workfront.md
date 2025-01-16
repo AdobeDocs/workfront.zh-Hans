@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
-source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 6%
+source-wordcount: '701'
+ht-degree: 7%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 6%
 
 # 从Adobe Workfront导入字段
 
-<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -116,11 +116,11 @@ ht-degree: 6%
    * 任务分配
    * 小时
    * 账单记录
-     <!--Available only to Preview, but might not come to Prod:* Rate card-->
+     <!--Available only to Preview, but might not come to Prod:* Rate card - visible in Production but asking PM if it should be hidden-->
    * 费用
-   * 迭代
-     <!--* Non-labor resource-->
-     <!--* Non-labour resource category-->
+   * 开发周期
+     <!--* Non-labor resource - - visible in Production but asking PM if it should be hidden-->
+     <!--* Non-labour resource category - - visible in Production but asking PM if it should be hidden-->
 * 在Workfront Planning中导入Workfront字段后，这些字段可能不会保留其字段类型。
 
   下表显示了Workfront字段类型及其对应的Workfront规划字段类型。

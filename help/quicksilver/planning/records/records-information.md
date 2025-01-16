@@ -1,14 +1,14 @@
 ---
-title: “记录：文章索引”
+title: 记录：文章索引
 description: 在Adobe Workfront Planning中创建记录类型后，可以创建这些类型的单个记录。 以下文章介绍如何在Adobe Workfront Planning中创建和管理记录及其信息。
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: 6327e5625481ce7ff8d744bc6eb50d417cbb4413
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '122'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # 记录：文章索引
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -29,7 +29,7 @@ ht-degree: 1%
 * [创建记录](/help/quicksilver/planning/records/create-records.md)
 * [编辑记录](/help/quicksilver/planning/records/edit-records.md)
 * [删除记录](/help/quicksilver/planning/records/delete-records.md)
-* <span class="preview">[还原已删除的记录](/help/quicksilver/planning/records/restore-deleted-records.md)</span>
+* [恢复已删除的记录](/help/quicksilver/planning/records/restore-deleted-records.md)
 * [共享记录](/help/quicksilver/planning/records/share-records.md)
 * [连接的记录概述](/help/quicksilver/planning/records/connected-records-overview.md)
 * [连接记录](/help/quicksilver/planning/records/connect-records.md)

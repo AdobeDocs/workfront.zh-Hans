@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '872'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 向记录添加缩略图
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -184,11 +184,7 @@ ht-degree: 0%
 
    此时将打开记录的详细信息页面。
 
-1. （视情况而定）在记录预览或页面中，将鼠标悬停在缩略图图像或图标![](assets/record-thumbnail-icon-on-details-page.png)上，然后单击生产环境中的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png) > **编辑缩略图**
-
-   或
-
-   <span class="preview">将鼠标悬停在记录名称上方的空格上，然后单击“预览”环境中的&#x200B;**添加缩略图**&#x200B;或&#x200B;**编辑缩略图**。</span>
+1. （视情况而定）在记录预览或详细信息页面中，将鼠标悬停在缩略图图像或图标![](assets/record-thumbnail-icon-on-details-page.png)上，然后将鼠标悬停在记录名称上方的空格上，然后单击“**添加缩略图**”或“**编辑缩略图**”。
 
    默认情况下，**上传**&#x200B;选项卡会在&#x200B;**记录缩略图**&#x200B;框中打开。
 

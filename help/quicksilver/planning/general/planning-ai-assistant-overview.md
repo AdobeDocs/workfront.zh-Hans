@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Adobe Workfront规划AI助手概述
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
 
 
 {{planning-important-intro}}
@@ -70,7 +70,7 @@ ht-degree: 0%
 您可以在Workfront Planning的以下区域中找到AI助手：
 
 * 屏幕右上角的主导航栏。
-* <span class="preview">在记录的详细信息区域中，在预览中打开记录之后，或在打开记录的页面之后。</span>
+* 在记录的详细信息区域中，在预览中打开记录或打开记录的页面之后。
 
 ## 访问规划区的人工智能助理
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 1. （可选）单击&#x200B;**记录**&#x200B;以打开记录的&#x200B;**详细信息**&#x200B;页面。
 
-1. 单击全局导航栏<span class="preview">屏幕右上角或记录预览或页面右上角的&#x200B;**AI助手图标**。</span>
+1. 单击全局导航栏屏幕右上角或记录预览或页面右上角的&#x200B;**AI助手图标**。
 
    ![](assets/ai-assistant-icon-highlighted.png)
 

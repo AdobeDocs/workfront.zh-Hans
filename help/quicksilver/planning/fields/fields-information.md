@@ -1,12 +1,12 @@
 ---
-title: “字段：文章索引”
+title: 字段：文章索引
 description: 您可以在Adobe Workfront Planning中添加反映组织生命周期的新字段。 字段是记录类型的属性。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d06028d9-9230-4a6c-a227-20618067192c
-source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 * [字段概述](/help/quicksilver/planning/fields/fields-overview.md)
 * [创建字段](/help/quicksilver/planning/fields/create-fields.md)
-  <span class="preview">[从Adobe Workfront导入字段](/help/quicksilver/planning/fields/import-fields-from-workfront.md)</span>
+* [从Adobe Workfront导入字段](/help/quicksilver/planning/fields/import-fields-from-workfront.md)
 * [编辑字段设置](/help/quicksilver/planning/fields/edit-fields.md)
 * [删除字段](/help/quicksilver/planning/fields/delete-fields.md)
 * [公式字段](/help/quicksilver/planning/fields/formula-fields.md)

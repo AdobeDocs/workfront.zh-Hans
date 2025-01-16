@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1791'
+source-wordcount: '1649'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 1%
 
 <!-- Audited: 12/2023 -->
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 任务持续时间是任务的计划完成日期和计划开始日期之间的差值。 “持续时间”表示任务可以完成的时间范围。
 
@@ -41,17 +41,7 @@ ht-degree: 1%
 
 以下是计算Adobe Workfront中的持续时间时存在的两种方案：
 
-* 如果任务分配给一个用户，则根据您使用的环境，存在以下情况：
-
-   * 在生产环境中，Workfront使用以下计划之一，按此确切顺序计算持续时间：
-
-   1. Workfront会考虑用户的计划。
-   1. 如果用户未与计划关联，则Workfront会考虑项目的计划。
-   1. 如果项目未与时间表关联，Workfront会考虑您的系统的默认时间表。 有关计划的信息，请参阅[创建计划](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
-
-<div class="preview">
-
-* 在“预览”环境中：
+* 如果任务分配给一个用户：
 
    1. Workfront会考虑项目计划或分配给任务的用户的计划。
 
@@ -60,8 +50,6 @@ ht-degree: 1%
    1. 如果用户或项目没有计划，Workfront将使用系统默认计划。
 
       这些步骤类似于了解Workfront使用哪个计划计算持续时间后的第一个方案。
-
-</div>
 
 * 如果任务分配给多个用户：
 
