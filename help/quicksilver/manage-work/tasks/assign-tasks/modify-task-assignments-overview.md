@@ -4,10 +4,10 @@ product-area: projects;user-management
 navigation-topic: assign-tasks
 title: 修改任务分配的概览
 description: 您可以将任务分配给用户、团队或工作角色，也可以取消分配任务。 您可以同时分配多个资源，也可以只分配一个资源。 您可以一次分配一个任务，也可以批量分配多个任务。
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: e774f2db-494d-4f93-8727-3c073e5f930b
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
 workflow-type: tm+mt
 source-wordcount: '875'
 ht-degree: 0%

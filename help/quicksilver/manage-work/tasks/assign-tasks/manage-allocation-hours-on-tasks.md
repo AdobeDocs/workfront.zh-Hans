@@ -3,10 +3,10 @@ product-area: projects;user-management
 navigation-topic: assign-tasks
 title: 在任务中管理用户和角色分配小时数
 description: 将用户或角色分配给任务时，会为其分配特定小时数的工作以完成任务。 当任务持续时间类型为简单时，您可以手动修改每个用户或工作角色分配给任务的小时数。
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 830ad0411084844ace1e1e543c3ebefcb558af80
+source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 0%
