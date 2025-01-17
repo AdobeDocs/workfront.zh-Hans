@@ -7,7 +7,7 @@ description: Adobe Workfront Fusion文档已移至新位置。 本文已弃用�
 author: Becky
 feature: Workfront Fusion
 exl-id: 1475a247-47eb-4fe3-98dc-50df242167e7
-source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
+source-git-commit: ac61d25c87185635acf6119299aad6723ce78bbe
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >本文中的信息现在可在以下文章中找到：
 >
->* [将模块更新为新版本](https://experienceleague.corp.adobe.com/docs/workfront-fusion/using/manage-scenarios/update-module-to-new-version.html?lang=en)
+>* [将模块更新为新版本](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/update-module-to-new-version.html?lang=en)
 >
 >请更新任何书签。
 >
