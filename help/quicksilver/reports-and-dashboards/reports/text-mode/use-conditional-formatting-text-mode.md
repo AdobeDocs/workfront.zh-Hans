@@ -6,20 +6,16 @@ description: 在文本模式下使用条件格式
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '1698'
+source-wordcount: '1682'
 ht-degree: 1%
 
 ---
 
 # 在文本模式下使用条件格式
 
-<!--Audited: 01/2024-->
-
-<!--
-(NOTE: Alina: this article might need to be split in its sections. Tony asked that numbers and dates should be in separate articles (??))
--->
+<!--Audited: 01/2025-->
 
 在创建报表元素时，标准界面生成器提供了大量灵活性以满足贵组织的需求。
 
@@ -30,7 +26,7 @@ ht-degree: 1%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
+您必须具备以下条件：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,13 +38,19 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td> <p>新增：标准 </p> 
-   <p>或</p>
-   <p>当前：计划</p> 
-   </td> 
+   <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>标准</p></li>
+         </ul>
+      <p>当前：</p>
+         <ul>
+         <li><p>计划</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
+   <td role="rowheader">访问级别配置</td> 
    <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报告、功能板和日历的访问权限以编辑报告中的视图</p> </td> 
   </tr> 
   <tr> 
@@ -58,10 +60,9 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
-
 
 ## 文本模式中的条件格式
 
@@ -122,126 +123,11 @@ ht-degree: 1%
 
 有关详细信息，请参阅[文本模式报表中的日期格式](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md)。
 
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is drafted and replaced by the article linked above)</p>
-<p>To establish a date format, you must modify the <code>valueformat</code> line of the text mode code in the column.</p>
-<pre>valueformat= [new date format]</pre>
-<p>For example, if you wanted the Projected Completion Date to be displayed as MM/DD/YY the code would look like:</p>
-<pre>valueformat=atDate<br>valuefield=projectedCompletionDate </pre>
-<p>If you wanted to show the Planned Completion Date as <em>Mth, DD, Year</em>, the code would look like:</p>
-<pre>valueformat=mediumAtdate<br>valuefield=plannedCompletionDate</pre>
-<p>You can format dates using the following <code>valueformat</code> text mode values:</p>
-<table style="table-layout:auto">
-<col>
-<col>
-<col>
-<thead>
-<tr>
-<th scope="col"><strong>Format</strong> </th>
-<th scope="col">Example </th>
-<th scope="col"><em><strong>valueformat=</strong></em> </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>MM/DD/YY</td>
-<td>10/11/18</td>
-<td><pre>atDate</pre> </td>
-</tr>
-<tr>
-<td>MM/DD/YY Time</td>
-<td>10/11/18 12:00pm</td>
-<td><pre>longAtDate</pre> </td>
-</tr>
-<tr>
-<td>MM/DD/YY</td>
-<td>10/11/18</td>
-<td><pre>shortAtDate</pre> </td>
-</tr>
-<tr>
-<td>Mth, DD, YR</td>
-<td>Oct, 11, 2018</td>
-<td><pre>mediumAtDate</pre> </td>
-</tr>
-<tr>
-<td>DW, Mth, Day, YR</td>
-<td>Mon, Oct, 11, 2018</td>
-<td><pre>partialAtDate</pre> </td>
-</tr>
-<tr>
-<td>DW, Mth, Day, YR Time</td>
-<td>Mon, Oct, 11, 2018 12:00 pm</td>
-<td><pre>fullAtDate</pre> </td>
-</tr>
-</tbody>
-</table>
-</div>
--->
-
 #### 设置数字格式 {#format-numbers}
 
 您可以设置数字值的格式，以显示最适合您的报告需求的信息。
 
 有关详细信息，请参阅[文本模式报表中的数字、货币和百分比值的格式](../../../reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md)。
-
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>To modify the format of a numeric value, you must edit the <strong>valueformat</strong> line of your column.</p> 
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is drafted and replaced by the article linked above) </p>
-<p>For example, if you wanted to display the Budget column as $1000, the value format line would look like:</p>
-<pre>valueformat=currencyStringCurrencyRounded<br>valuefield=budget</pre>
-<p>You can format numbers using the following values for the <code>valueformat</code> line of your column:</p>
-<table border="2" cellspacing="15" cellpadding="1">
-<col>
-<col>
-<thead>
-<tr>
-<th scope="col"><strong>Example</strong> </th>
-<th scope="col"><em><code>valueformat=</code></em> </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1234</td>
-<td><pre>doubleAsString</pre> or <pre>int</pre></td>
-</tr>
-<tr>
-<td>1,234</td>
-<td><pre>doubleAsInt</pre> </td>
-</tr>
-<tr>
-<td>$1,234</td>
-<td><pre>currencyStringCurrencyRounded</pre> </td>
-</tr>
-<tr>
-<td>1234.56</td>
-<td><pre>doubleAsDouble</pre> </td>
-</tr>
-<tr>
-<td>$1,234.56</td>
-<td><pre>currencyStringCurrency</pre> </td>
-</tr>
-<tr>
-<td>12%</td>
-<td><pre>doubleAsPercentRounded</pre> </td>
-</tr>
-<tr>
-<td>12.34%</td>
-<td><pre>doubleAsPercent</pre> </td>
-</tr>
-<tr>
-<td>(1,234.56)</td>
-<td><pre>doubleAsFinancial</pre> </td>
-</tr>
-<tr>
-<td>(1,234)</td>
-<td><pre>doubleAsFiancialRounded</pre> </td>
-</tr>
-</tbody>
-</table>
-</div>
--->
 
 ### 列规则 {#column-rules}
 
@@ -303,9 +189,10 @@ styledef.case.0.comparison.trueproperty.0.value=03a219
 >* 虽然此语句可以应用于“公司名称”列，但它也可以应用于报表上的任何其他列。 仅当项目具有关联的公司时，才会显示绿色文本。 请记住`[field name]`、`[value]`和`[qualifier]`驱动器，无论条件是否最终显示在列上。
 >* 在使用限定符时，我们建议使用`cicontains`而不是`equal`。 默认情况下，`equal`会查找ID号。 使用`cicontains`限定符，您可以按其名称访问项目。
 
-![](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png)
+![](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png){width="500"}
 
-![](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png)
+
+![](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png){width="400"}
 
 无论文本颜色、对齐方式、字体样式还是背景颜色应用于文本模式，都会使用相同的语句（如上所示）。
 
@@ -410,14 +297,13 @@ styledef.case.0.comparison.truetext=not today
 >
 >以`case.0.`开头的行用于标识文本的使用情况。 以`styledef.case.0.`开头的行是早期的条件格式语句，我们通过`truetext`表达式来标识文本的使用。 确保将`truetext`设置为值，而不是将其留空。
 
-![](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png)
+![](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png){width="500"}
 
-![](assets/screen-shot-2013-08-15-at-3.22.16-pm-350x151.png)
+![](assets/screen-shot-2013-08-15-at-3.22.16-pm-350x151.png){width="400"}
 
 #### 应用行格式 {#apply-row-formats}
 
 如果要将条件应用于整行，请使用以下代码和列代码：
-
 
 ```
 styledef.case.0.comparison.icon=false
@@ -443,7 +329,6 @@ row.0.styledef.case.0.comparison.trueproperty.0.value= [format style]
 row.0.styledef.case.0.comparison.truetext=
 ```
 
-
 #### 应用图像 {#apply-images}
 
 与文本格式类似，图像也可用于在报表中显示信息。 Workfront有许多内置图像，用于在报表设置中传递可视信息。 要在条件格式设置中使用图像，需要以下语句：
@@ -460,7 +345,6 @@ image.case.0.comparison.truetext=
 
 例如，在项目报告上，要构建一个列，在该列中，您会看到不等于今天日期的每一个规划完成日期的皱眉脸。 使用以下文本模式代码将图标添加到列：
 
-
 ```
 image.case.0.comparison.leftmethod=plannedCompletionDate
 image.case.0.comparison.lefttext=plannedCompletionDate
@@ -475,9 +359,9 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 >
 >请注意，语句使用`icon=true`表达式。 此语句与其他条件格式语句的不同之处在于，它不使用`style.def`格式，而是使用唯一的图像格式。
 
-![](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png)
+![](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png){width="500"}
 
-![](assets/screen-shot-2013-08-15-at-3.35.22-pm-1-350x167.png)
+![](assets/screen-shot-2013-08-15-at-3.35.22-pm-1-350x167.png){width="400"}
 
 要使用可用的图像，请应用以下代码和值：
 

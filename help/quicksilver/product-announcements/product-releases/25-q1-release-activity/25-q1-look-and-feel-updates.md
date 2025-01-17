@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: 5ad96cc98e3bd8556224885940052a4f3d22697f
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 0%
@@ -28,7 +28,6 @@ ht-degree: 0%
 当从小时列表或报告编辑小时以匹配Workfront其他区域的设计时，我们更新了编辑小时框的外观。
 
 有关信息，请参阅[记录时间](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md)。
-
 
 
 ## 更新了“设置”区域的“云提供商”页面上的体验

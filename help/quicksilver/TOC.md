@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: d87e7aab75c65796e9d4ef04c46aef295dbd898f
 workflow-type: tm+mt
-source-wordcount: '14784'
+source-wordcount: '14788'
 ht-degree: 2%
 
 ---
@@ -319,6 +319,8 @@ ht-degree: 2%
             * [Adobe Workfront Proof 23.3发布活动： 2023年5月8日开始的一周](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
          * [Workfront Proof发布活动： 2021年5月17日开始的周](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
          * [Workfront Proof发布活动： 2021年11月29日起的一周](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
+      * 接口现代化{#interface-modernization}
+         * [界面现代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)
       * 每季度发布存档{#quarterly-release}
          * [每季发布存档](product-announcements/product-releases/quarterly-release-archive/quarterly-release-archive.md)
          * 20.4版本{#release-20-4}
@@ -1715,7 +1717,7 @@ ht-degree: 2%
          * [文本模式语法概述](reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
          * [使用文本模式编辑视图](reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
          * [使用文本模式编辑筛选器](reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
-         * [编辑分组中的文本模式](reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+         * [使用文本模式编辑分组](reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
          * [在文本模式下使用条件格式](reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md)
          * [设置文本模式报表中的日期格式](reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md)
          * [设置文本模式报表中的数字、货币和百分比值的格式](reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md)

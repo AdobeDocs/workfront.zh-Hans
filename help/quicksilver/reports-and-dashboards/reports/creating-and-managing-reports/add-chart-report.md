@@ -6,7 +6,7 @@ description: 您可以通过添加图表来增强报表。 可以将图表添加
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
 source-wordcount: '2734'
 ht-degree: 0%
@@ -88,7 +88,7 @@ ht-degree: 0%
    >[!TIP]
    >
    >* 您只能在报告结果分组时向报告添加图表。
-   >* 图表不支持文本模式分组。 有关文本模式分组的详细信息，请参阅[在分组中编辑文本模式](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)。
+   >* 图表不支持文本模式分组。 有关文本模式分组的详细信息，请参阅[使用文本模式编辑分组](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)。
    >* 如果添加代表一个度量的单个分组，则除饼图之外的所有图表都会将分组中的每个结果显示为相同的颜色。
 
    有关创建分组的详细信息，请参阅[在Adobe Workfront中创建分组](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md)。

@@ -7,7 +7,7 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
 source-wordcount: '1862'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # 文本模式语法概述
 
-<!--Audited: 12/2023-->
+<!--Audited: 1/2025-->
 
 您可以使用文本模式界面在列表和报告中创建更复杂的视图、筛选器、分组和自定义提示。 通过使用文本模式，您可以访问在标准模式界面中不可用的字段及其属性。
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 ## 有关文本模式语法的注意事项
 
 * 在开始以文本模式构建报表元素之前，您必须了解Adobe Workfront语法。 文本模式的Workfront语法是此应用程序所独有的，并具有您必须熟悉的独特特征。
-* 在报表中开始使用文本模式之前，我们强烈建议您先参加有关高级报表的课程，以便更深入地了解我们的文本模式语言。<!--outdated link: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
+* 在报表中开始使用文本模式之前，我们强烈建议您先参加有关高级报表的课程，以便更深入地了解我们的文本模式语言。
 * 您可以使用标准模式界面自定义视图、筛选器和分组。 但是，您只能使用文本模式构建自定义提示。
 
 ## 以文本模式构建报告元素的常见准则
@@ -44,13 +44,11 @@ ht-degree: 0%
 
   **示例：**&#x200B;您可以在任务视图中显示Portfolio所有者的名称或GUID：
 
-
   `valuefield=project:portfolio:ownerID`
 
   您不能在任务视图中对“Portfolio所有者”进行分组、筛选或提示：
 
   `project:portfolio:ownerID=5808f4bc00790b270a9629dd128e63fa`
-
 
   在这些示例中，Portfolio所有者ID是远离列表对象的三个对象。
 
@@ -90,7 +88,7 @@ ht-degree: 0%
   有关在文本模式下构建视图和分组代码的关键行的信息，请参阅：
 
    * [使用文本模式编辑视图](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
-   * [编辑分组中的文本模式](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+   * [使用文本模式编辑分组](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
 * 过滤器和自定义提示的代码行和语法类似。
 

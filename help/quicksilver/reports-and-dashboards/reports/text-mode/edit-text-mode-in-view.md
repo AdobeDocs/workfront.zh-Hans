@@ -2,24 +2,20 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: 使用文本模式编辑视图
-description: '注意：在文章中添加章节：/Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html ***此外，在文本模式概述文章中起草此区域)'
+description: 注意：请在以下文章中添加一节：/Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html ***此外，请在文本模式概述文章中草稿此区域)
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 1%
+source-wordcount: '455'
+ht-degree: 2%
 
 ---
 
 # 使用文本模式编辑视图
 
-<!--Audited: 01/2024-->
-
-<!--
-<add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html *** Also, draft this area in the Text Mode overview article) </p>
--->
+<!-- Audited: 1/2025 -->
 
 您可以使用文本模式编辑列表或报表中的视图，以访问标准界面中不可用的字段并创建更复杂的视图。
 
@@ -27,23 +23,31 @@ ht-degree: 1%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
+您必须具备以下条件：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>新增：标准 </p>
-   <p>当前：计划 </p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>标准</p></li>
+         </ul>
+      <p>当前：</p>
+         <ul>
+         <li><p>计划</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
+   <td role="rowheader">访问级别配置</td> 
    <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报告、功能板和日历的访问权限以编辑报告中的报告元素</p> </td> 
   </tr> 
   <tr> 
@@ -53,8 +57,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
-有关访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -70,7 +73,7 @@ ht-degree: 1%
 
 ## 在视图中编辑文本模式
 
-使用文本模式编辑视图对于报告和列表是相同的。 从报表或列表访问视图的方式有所不同。
+使用文本模式编辑视图对于报告和列表是相同的。 从报表或列表访问视图的方式有所不同。
 
 >[!TIP]
 >

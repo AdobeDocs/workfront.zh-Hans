@@ -6,16 +6,16 @@ description: 可以将包括货币在内的数值配置为在Adobe Workfront的�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 965f5dcd-4844-4792-9fd0-a47814a325a4
-source-git-commit: 8de9c79f6c62b74a652482ec10bf38fada8c5fc8
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 7%
+source-wordcount: '145'
+ht-degree: 6%
 
 ---
 
 # 设置文本模式报表中的数字、货币和百分比值的格式
 
-<!-- Audited: 2/2024 -->
+<!-- Audited: 1/2025 -->
 
 可以将包括货币在内的数值配置为在Adobe Workfront的报表和列表中以各种格式显示。
 
@@ -34,13 +34,13 @@ valuefield=budget
 
 | 示例 | `valueformat=` |
 |---|---|
-| 1234 | <pre>doubleAsString</pre> <br>或<br><pre>整数</pre> |
-| 1,234 | <pre>doubleAsInt</pre> |
-| $1,234 | <pre>currencyStringCurrencyRounded</pre> |
-| 1234.56 | <pre>doubleAsDouble</pre> |
-| $1,234.56 | <pre>currencyStringCurrency</pre> |
-| 12% | <pre>doubleAsPercentRounded</pre> |
-| 12.34% | <pre>doubleAsPercent</pre> |
-| (1,234.56) | <pre>doubleAsFinancial</pre> |
-| (1,234) | <pre>doubleAsFinancialRounded</pre> |
+| 1234 | `doubleAsString`<br>或<br>`int` |
+| 1,234 | `doubleAsInt` |
+| $1,234 | `currencyStringCurrencyRounded` |
+| 1234.56 | `doubleAsDouble` |
+| $1,234.56 | `currencyStringCurrency` |
+| 12% | `doubleAsPercentRounded` |
+| 12.34% | `doubleAsPercent` |
+| (1,234.56) | `doubleAsFinancial` |
+| (1,234) | `doubleAsFinancialRounded` |
 

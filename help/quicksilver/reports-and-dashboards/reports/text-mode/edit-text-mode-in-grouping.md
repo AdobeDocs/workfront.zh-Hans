@@ -1,23 +1,21 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: 编辑分组中的文本模式
-description: '注意：使所有FVG文章在文本模式下编辑时相同)'
+title: 使用文本模式编辑分组
+description: 注意：使所有FVG文章在文本模式下编辑时相同)
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1520'
 ht-degree: 0%
 
 ---
 
-# 编辑分组中的文本模式
+# 使用文本模式编辑分组
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: make all FVG articles the same for editing in text mode)</p>
--->
+<!-- Audited: 1/2025 -->
 
 您可以使用文本模式编辑列表或报表中的分组，以访问标准界面中不可用的字段，并创建更复杂的分组。
 
@@ -27,32 +25,45 @@ ht-degree: 0%
 
 ## 访问要求
 
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。
+
+您必须具备以下条件：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>标准</p></li>
+         </ul>
+      <p>当前：</p>
+         <ul>
+         <li><p>计划</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报告、功能板和日历的访问权限以编辑报告中的分组</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报告、功能板和日历的访问权限以编辑报告中的分组</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理报告的权限以编辑报告中的分组</p> <p>管理群组权限以对其进行编辑</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>管理报告的权限以编辑报告中的分组</p> <p>管理群组权限以对其进行编辑</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先决条件
 
@@ -64,7 +75,7 @@ ht-degree: 0%
 * [文本模式语法概述](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
 * [自定义视图、筛选器和分组示例：文章索引](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
-## 编辑分组中的文本模式
+## 使用文本模式编辑分组
 
 使用文本模式编辑分组对于报告和列表是相同的。 从报表或列表访问分组的方式有所不同。
 
@@ -83,7 +94,7 @@ ht-degree: 0%
 
       此时将打开分组生成器。
 
-1. 单击&#x200B;**添加分组**&#x200B;以添加分组，然后单击生成器右上角的&#x200B;**切换到文本模式**。
+1. 单击&#x200B;**添加分组**&#x200B;以添加分组，单击生成器右上角的&#x200B;**切换到文本模式**，然后单击&#x200B;**编辑文本模式**。
 
    >[!TIP]
    >

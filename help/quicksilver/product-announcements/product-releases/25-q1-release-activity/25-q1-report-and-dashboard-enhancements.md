@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3c0b4797-594c-44d0-b3ad-a64384b6c4a8
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 0%
+source-wordcount: '324'
+ht-degree: 4%
 
 ---
 
@@ -17,6 +17,31 @@ ht-degree: 0%
 本页介绍了2025年第一季度版本对“预览”环境所做的所有报表和控制面板增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2025年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2025年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
+
+## Data Connect中可用的新实体
+
+>[!NOTE]
+>
+>预览版本： 2025年1月15日；适用于所有客户的生产版本： 2025年1月15日
+
+我们在Data Connect中添加了对以下实体的支持：
+
+* 项目团队用户
+* 项目团队用户角色
+* 可报告预算小时数
+* 报表视图统计计数
+* 资源管理器
+* 丰富文本备注
+
+我们还增加了对以下特定机构实体的支持：
+
+* 企业轮廓
+* 业务规则
+* 位置
+* 非劳动力资源类别
+* 用户位置
+
+有关详细信息，请参阅[Workfront Data Connect数据字典](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)。
 
 ## 仪表板中最多有25个报告、外部页面或日历
 

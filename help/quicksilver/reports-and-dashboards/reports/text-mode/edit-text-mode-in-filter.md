@@ -6,20 +6,16 @@ description: 您可以使用文本模式在列表或报告中编辑过滤器，�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 0%
+source-wordcount: '1042'
+ht-degree: 1%
 
 ---
 
 # 使用文本模式编辑筛选器
 
-<!-- Audited: 01/2024 -->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-fitlers.html; *** Also, draft this area in the Text Mode overview article)</p>
--->
+<!-- Audited: 1/2025 -->
 
 您可以使用文本模式在列表或报告中编辑过滤器，以访问标准界面中不可用的字段，并创建更复杂的过滤器。
 
@@ -29,7 +25,7 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
+您必须具备以下条件：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,9 +37,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td><p>新增：标准</p>
-    <p>或</p>
-    <p>当前：计划</p> </td> 
+   <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>标准</p></li>
+         </ul>
+      <p>当前：</p>
+         <ul>
+         <li><p>计划</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -56,7 +59,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -84,12 +87,20 @@ ht-degree: 0%
 
 1. 执行下列操作之一：
 
-   1. 若要从报表访问筛选器，请转到该报表，然后单击&#x200B;**报表操作** > **编辑** > **筛选器**&#x200B;选项卡。
-   1. 要从列表中访问筛选器，请转到该列表，然后从&#x200B;**筛选器**&#x200B;菜单中，将鼠标悬停在要修改的筛选器上，然后单击&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)。
+   要从列表中访问筛选器，请转到列表并单击&#x200B;**筛选器**&#x200B;图标，然后将鼠标悬停在要修改的&#x200B;**筛选器**&#x200B;侧面板中的筛选器上，然后单击&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)。 **筛选器**&#x200B;侧面板显示您选择的筛选器或旧筛选器生成器打开。
 
-      此时将打开过滤器生成器。
+   或
 
-1. 单击&#x200B;**添加筛选器规则**&#x200B;开始添加筛选条件，然后单击生成器右侧的&#x200B;**文本模式**&#x200B;或&#x200B;**切换到文本模式**。
+   若要从报表访问筛选器，请转到该报表，然后单击&#x200B;**报表操作** > **编辑** > **筛选器**&#x200B;选项卡。
+
+1. 执行下列操作之一：
+
+   如果您在列表上使用&#x200B;**筛选器**&#x200B;侧面板，请单击&#x200B;**文本模式**。
+
+   或
+
+   如果您使用的是旧版筛选器生成器或在报表中，请单击&#x200B;**添加筛选器规则**&#x200B;以开始添加筛选器的条件。 然后，单击生成器右侧的&#x200B;**切换到文本模式**&#x200B;和&#x200B;**编辑文本模式**。
+
 1. 使用文本模式添加过滤器语句。 每个过滤语句可以包含以下行和其他信息：
 
    <table style="table-layout:auto"> 
@@ -175,7 +186,7 @@ ht-degree: 0%
       >`OR:2:plannedCompletionDate=$$TODAY`
       >`OR:2:plannedCompletionDate_Mod=eq`
 
-1. 单击&#x200B;**退出文本模式**&#x200B;或&#x200B;**完成**&#x200B;以保存文本模式更改并继续编辑报表或筛选器。
+1. 单击&#x200B;**应用**&#x200B;或&#x200B;**完成**&#x200B;以保存文本模式更改并继续编辑报告或筛选器。
 1. 单击&#x200B;**保存+关闭**&#x200B;以保存您的报告，或单击&#x200B;**保存筛选器**&#x200B;以将筛选器保存在列表中。
 
 

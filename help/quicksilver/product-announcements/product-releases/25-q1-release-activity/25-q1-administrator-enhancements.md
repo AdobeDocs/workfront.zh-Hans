@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: fa24040d-0403-4799-b690-c3d172797115
-source-git-commit: d2e3379e9390f2b419bb2d78b1999c8c2dd7d0d3
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '834'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,25 @@ ht-degree: 0%
 
 有关2025年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2025年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
 
+## 更多对象现在支持业务规则
+
+>[!NOTE]
+>
+>预览版本： 2025年1月16日；适用于所有客户的生产版本：使用25.1版本（2025年1月）
+>
+>_仅适用于Ultimate计划中的组织。_
+
+您现在可以创建业务规则并将验证应用于以下附加对象：公司、开发周期、非人工资源类别、工作角色、用户、分配、资源库、空闲时间、文档和小时。
+
+业务规则已支持以下对象：项目、任务、请求、Portfolio、程序、费用、记帐记录、组、风险和费率卡。
+
+有关详细信息，请参阅[创建和编辑业务规则](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)。
+
 ## 在环境之间比较对象以进行环境升级
 
 >[!NOTE]
 >
->预览版本： 2024年1月6日；适用于所有客户的生产版本：带有25.1版本（2025年1月）
+>预览版本： 2025年1月6日；适用于所有客户的生产版本：带有25.1版本（2025年1月）
 
 为了更便于确定环境升级包中应包含哪个对象，我们添加了跨环境比较对象的功能。 现在，您可以选择对象类型和环境。 Workfront会生成该类型对象的列表，包括这些对象是否存在于目标环境中，以及该对象在源环境与目标环境之间是否有差异。 然后，可以直接从此列表将对象添加到资源包。
 
@@ -34,7 +48,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览版本： 2024年1月6日；适用于所有客户的生产版本：带有25.1版本（2025年1月）
+>预览版本： 2025年1月6日；适用于所有客户的生产版本：带有25.1版本（2025年1月）
 
 为了扩展环境升级功能的功能，我们添加了更多对象。 现在，可以将以下对象添加到环境升级包中：
 
