@@ -89,7 +89,7 @@ ServiceNow连接器使用以下对象：
  <tbody> 
   <tr> 
    <td role="rowheader">基本URL</td> 
-   <td>https://{{connection.instance}}/api</td> 
+   <td>https://&lbrace;&lbrace;connection.instance&rbrace;&rbrace;/api</td> 
   </tr>
   <tr> 
    <td role="rowheader">API标记</td> 

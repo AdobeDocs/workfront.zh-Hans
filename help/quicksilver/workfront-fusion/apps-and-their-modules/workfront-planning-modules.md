@@ -83,7 +83,7 @@ Adobe Workfront Planning连接器使用以下对象：
  <tbody> 
   <tr> 
    <td role="rowheader">基本URL</td> 
-   <td>https://{{connection.host}}/maestro/api/{{common.maestroApiVersion}}/</td> 
+   <td>https://&lbrace;&lbrace;connection.host&rbrace;&rbrace;/maestro/api/&lbrace;&lbrace;common.maestroApiVersion&rbrace;&rbrace;/</td> 
   </tr>
   <tr> 
    <td role="rowheader">API标记</td> 
