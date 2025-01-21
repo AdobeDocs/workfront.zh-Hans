@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0d9b1725-ed90-45a5-b63c-ff6ccbf3ae75
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >预览版本： 2024年2月13日；用于快速发布的生产：适用于24.5版本（2024年5月16日）。
 >
->_此功能将于2024年12月19日从“预览”版本中删除，并将从25.1（2025年1月）的快速版本生产版本中删除。_
+>_此功能已从“预览”和“快速发布生产”中删除。_
 
 我们在以下区域的“工作总揽”字段中为更相关的智能分配添加了相同的功能：
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 >
 >预览版本： 2023年12月21日；用于快速发布的生产：随24.5版（2024年5月16日）一起发布。
 >
->_此功能将于2024年12月19日从“预览”版本中删除，并将从25.1（2025年1月）的快速版本生产版本中删除。_
+>_此功能已从“预览”和“快速发布生产”中删除。_
 
 我们更改了Workfront用于计算和建议智能任务分配的算法。 新算法适用于Workfront中分配任务的以下区域：任务列表、任务标题中的“任务”区域、“主页”和“摘要”面板。
 

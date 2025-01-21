@@ -7,7 +7,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 6d90f544b73f79b545fbcafbc18d7a653554d75f
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 2%
@@ -44,15 +44,6 @@ ht-degree: 2%
 
 ## 报告和仪表板
 
-### 筛选器和分组的文本模式
-
-**预览版本： 2025年1月9日；生产版本：从2025年1月9日开始**
-
-我们向以下区域添加了新的“编辑文本模式”按钮和编辑模式按钮：
-
-* 旧版筛选器
-* 分组
-
 ### 更新了审批报告并添加了新样式
 
 **预览版本： 2025年1月16日；生产版本：待定**
@@ -64,3 +55,12 @@ ht-degree: 2%
 * 批准流程报告
 
 这些更新包括对该区域的可视化更改。 功能未发生更改。
+
+### 筛选器和分组的文本模式
+
+**预览版本： 2025年1月9日；生产版本：从2025年1月9日开始**
+
+我们向以下区域添加了新的“编辑文本模式”按钮和编辑模式按钮：
+
+* 旧版筛选器
+* 分组

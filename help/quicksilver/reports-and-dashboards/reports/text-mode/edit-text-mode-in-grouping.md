@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: 使用文本模式编辑分组
-description: 注意：使所有FVG文章在文本模式下编辑时相同)
+description: 您可以使用文本模式编辑列表或报表中的分组，以访问标准界面中不可用的字段，并创建更复杂的分组。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
-source-wordcount: '1520'
+source-wordcount: '1537'
 ht-degree: 0%
 
 ---

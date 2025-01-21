@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: 使用文本模式编辑视图
-description: 注意：请在以下文章中添加一节：/Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html ***此外，请在文本模式概述文章中草稿此区域)
+description: 您可以使用文本模式编辑列表或报表中的视图，以访问标准界面中不可用的字段并创建更复杂的视图。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '459'
 ht-degree: 2%
 
 ---
