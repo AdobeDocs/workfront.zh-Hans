@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
-source-git-commit: 77c07c7c7104d37360cc7630a89dd72836da477c
+source-git-commit: 074f78e27d2ab1cb1d1b8216f14557b91d9afd00
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '973'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 ## 我可以对Workfront事件订阅使用哪些不同类型的身份验证？
 
-您可以使用任何使用持有者令牌的身份验证。 订阅的&#x200B;**authToken**&#x200B;字段是一个字符串，它表示用于通过&#x200B;**url**&#x200B;字段中指定的URL进行身份验证的OAuth2持有者令牌。 理论上，只要目标终结点知道如何处理其编码（即&#x200B;**utf-8**），此令牌值可以是任何值。
+您可以使用任何使用持有者令牌的身份验证。 订阅的&#x200B;**authToken**&#x200B;字段是一个字符串，它表示用于通过&#x200B;**url**&#x200B;字段中指定的URL进行身份验证的OAuth2持有者令牌。 理论上，只要目标终结点知道如何处理其编码（即&#x200B;**utf-8**），此令牌值就可以是255个字符以下的任何值。
 
 ## 从“Workfront事件订阅”接收事件有效负载需要多长时间？
 
