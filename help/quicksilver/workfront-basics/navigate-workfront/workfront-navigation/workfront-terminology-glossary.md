@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 词汇表列出了 [!DNL Adobe Workfront].
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '20930'
+source-wordcount: '20931'
 ht-degree: 0%
 
 ---
@@ -2044,7 +2044,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[！UICONTROL Scenario] （在[!DNL Workfront Fusion]中） </td> 
-   <td> <p>场景由一系列步骤（模块）组成，这些步骤（模块）指示如何在应用程序/服务之间传输和转换数据。</p> <p>有关[!DNL Workfront Fusion]中方案的信息，请参阅<a href="../../../workfront-fusion/scenarios/scenario-overview.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]方案概述</a>。</p> </td> 
+   <td> <p>场景由一系列步骤（模块）组成，这些步骤（模块）指示如何在应用程序/服务之间传输和转换数据。</p> <p>有关[!DNL Workfront Fusion]中方案的信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion]方案概述</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL Scenario] （在[!DNL Workfront Scenario Planner]中） </td> 

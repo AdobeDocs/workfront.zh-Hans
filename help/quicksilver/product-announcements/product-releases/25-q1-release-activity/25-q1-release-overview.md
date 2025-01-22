@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '2781'
+source-wordcount: '2782'
 ht-degree: 0%
 
 ---
@@ -720,7 +720,7 @@ The following functionality is soon to be removed from Workfront:
 >
 >当前的Fusion文档集不再更新，不久将会删除。
 
-Workfront Fusion中的新增功能在2025年第一季度发布计划之外以一定节奏在“生产”环境中提供。 有关最新功能的详细信息，请参阅[Adobe Workfront Fusion发行活动](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
+Workfront Fusion中的新增功能在2025年第一季度发布计划之外以一定节奏在“生产”环境中提供。 有关最新功能的详细信息，请参阅[Adobe Workfront Fusion发行活动](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
 
 ### Workfront规划增强功能
 

@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: daf977fe-957a-40ad-a37f-1c164cb4ada3
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '4757'
+source-wordcount: '4758'
 ht-degree: 0%
 
 ---
@@ -365,7 +365,7 @@ For specific release dates and times for each cluster, see the
 
 ## Workfront Fusion增强
 
-Workfront Fusion中的新增功能在22.1版本发行计划之外的生产环境中以一定节奏提供。 有关最新功能的详细信息，请参阅[Adobe Workfront Fusion发行活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
+Workfront Fusion中的新增功能在22.1版本发行计划之外的生产环境中以一定节奏提供。 有关最新功能的详细信息，请参阅[Adobe Workfront Fusion发行活动](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
 
 ## Workfront Scenario Planner增强
 

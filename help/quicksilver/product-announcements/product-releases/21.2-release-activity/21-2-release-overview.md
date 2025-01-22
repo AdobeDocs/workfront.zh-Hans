@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1affe1ae-571e-4026-8ba7-8ce7104e1b89
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '5544'
+source-wordcount: '5545'
 ht-degree: 0%
 
 ---
@@ -442,7 +442,7 @@ Workfront Scenario Planner 21.2版本中的新增功能。 有关这些现在可
 
 ## Workfront Fusion增强
 
-Workfront Fusion中的新增功能在21.2发布计划之外的生产环境中以一定节奏提供。 有关最新功能的详细信息，请参阅[Adobe Workfront Fusion发布活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+Workfront Fusion中的新增功能在21.2发布计划之外的生产环境中以一定节奏提供。 有关最新功能的详细信息，请参阅[Adobe Workfront Fusion发布活动](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 
 ## API版本13
 

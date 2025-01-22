@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1250'
 ht-degree: 0%
 
 ---
@@ -305,7 +305,7 @@ ht-degree: 0%
 
   [!DNL Adobe Workfront Fusion]链接应用和服务内部以及它们之间的操作，以创建自动传输和转换数据的方案。 它具有到许多应用程序的专用连接器，但可以使用公共API连接到任何应用程序。
 
-  有关详细信息，请参阅[[!DNL Adobe Workfront Fusion] 概述](../../workfront-fusion/get-started/workfront-fusion-overview.md)。
+  有关详细信息，请参阅[[!DNL Adobe Workfront Fusion] 概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 * [!DNL Adobe Experience Manager Assets]
 * [!DNL Anaplan] （需要[!DNL Workfront Fusion]）

@@ -7,9 +7,9 @@ description: Adobe Workfront产品的各种功能正在逐步淘汰。 以下是
 author: Luke
 feature: Product Announcements
 exl-id: 119d65c7-2925-4b36-832a-ee06a718ce7e
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '259'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ Adobe Workfront产品的各种功能正在逐步淘汰。 以下是各项功能�
    <td> <p>2020年11月9日不再受支持（从20.4版本开始）</p> <p>—</p> <p>2022年上半年之后从Workfront平台中删除</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>旧版Workfront Fusion</p> <p>Workfront Fusion改进了旧版Workfront Fusion中的体验。</p> <p>有关Workfront Fusion的详细信息，请参阅<a href="../../workfront-fusion/workfront-fusion-2.md" class="MCXref xref">Adobe Workfront Fusion</a>。</p> </td> 
+   <td> <p>旧版Workfront Fusion</p> <p>Workfront Fusion改进了旧版Workfront Fusion中的体验。</p> <p>有关Workfront Fusion的详细信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home">Adobe Workfront Fusion</a>。</p> </td> 
    <td> </td> 
    <td>2021年3月31日从Workfront平台删除</td> 
   </tr> 

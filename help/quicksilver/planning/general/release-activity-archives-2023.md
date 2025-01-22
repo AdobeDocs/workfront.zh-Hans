@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '2983'
+source-wordcount: '2985'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 0%
 >
 >贵组织必须购买Adobe Workfront Fusion才能与Adobe Workfront Planning功能建立连接。
 >
->有关信息，请参阅[Adobe Workfront Fusion概述](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md)。
+>有关信息，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 现在，您可以使用Adobe Workfront Fusion连接到规划功能。 通过新的Fusion连接，您可以：
 
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 * 在规划功能中进行更改时触发方案
 
-有关详细信息，请参阅[Adobe Workfront规划模块](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)。
+有关详细信息，请参阅[Adobe Workfront规划模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)。
 
 ## 2023年12月11日起一周
 

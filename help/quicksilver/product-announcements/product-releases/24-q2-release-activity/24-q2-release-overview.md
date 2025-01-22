@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '2246'
+source-wordcount: '2247'
 ht-degree: 0%
 
 ---
@@ -638,7 +638,7 @@ ht-degree: 0%
 
 ### Workfront Fusion增强
 
-Workfront Fusion中的新增功能在2024年第二季度发布计划之外的“生产”环境中一次提供。 有关最新功能的详细信息，请参阅[Adobe Workfront Fusion发行活动](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
+Workfront Fusion中的新增功能在2024年第二季度发布计划之外的“生产”环境中一次提供。 有关最新功能的详细信息，请参阅[Adobe Workfront Fusion发行活动](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
 
 ### Workfront Scenario Planner增强
 

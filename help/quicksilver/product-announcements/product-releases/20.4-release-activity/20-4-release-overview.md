@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7cf7f6ed-fe85-4c86-bb4b-dd93197338cf
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '3694'
+source-wordcount: '3695'
 ht-degree: 0%
 
 ---
@@ -298,7 +298,7 @@ Workfront Goals 20.4版本中随附的大多数新增功能。 有关预览中�
 
 ## Workfront Fusion增强
 
-Workfront Fusion中的新增功能在20.4发布计划之外的生产环境中以一定节奏提供。 有关最新功能的详细信息，请参阅[Adobe Workfront Fusion发布活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+Workfront Fusion中的新增功能在20.4发布计划之外的生产环境中以一定节奏提供。 有关最新功能的详细信息，请参阅[Adobe Workfront Fusion发布活动](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 
 ## API增强功能
 

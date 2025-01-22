@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '3271'
+source-wordcount: '3272'
 ht-degree: 0%
 
 ---
@@ -666,18 +666,18 @@ ht-degree: 0%
     &lt;td>&lt;p>&lt;b>在以下日期可用：&lt;/b>&lt;/p>
     &lt;ul>
     &lt;li>
-    &lt;p>预览版本：&amp;#160；在整个22.4发布时间范围&lt;br />&lt;/p>
+    &lt;p>预览版本：&amp;#GenStudio for Performance Marketers&amp;-160;在整个22.4发布时间范围&lt;br />&lt;/p>
     &lt;/li>
     &lt;li>
-    &lt;p>生产版本：&amp;#160；TBD&lt;/p>
+    &lt;p>生产版本：&amp;#GenStudio for Performance Marketers&amp;-160;TBD IP&lt;/p>
     &lt;/li>
     &lt;/ul>
     &lt;/td>
     &lt;/tr>
     &lt;tr>
-    &lt;td> 
-    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>扩展的团队说明&lt;/a>&lt;/p>
-    &lt;p>在团队区域，您现在可以通过单击说明在弹出窗口中显示来查看完整的团队说明。 可以在弹出窗口中单击描述中的任何URL，并且您可以单击描述文本对其进行编辑（如果您有权编辑团队设置）。&lt;/p>
+    &lt;td>
+    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>扩展的团队描述&lt;/a>&lt;/p>
+    &lt;p>在团队区域中，您现在可以通过单击描述以弹出窗口显示它来查看完整的团队描述。 可以在弹出窗口中单击描述中的任何URL，并且您可以单击描述文本对其进行编辑（如果您有权编辑团队设置）。&lt;/p>
     &lt;p>以前，在狭窄区域中滚动说明是查看所有内容的唯一方法。&lt;/p>
 <p>对描述的这种增强适用于敏捷和非敏捷团队。</p>
                     </td>
@@ -710,7 +710,7 @@ ht-degree: 0%
 
 ### Workfront Fusion增强
 
-Workfront Fusion中的新增功能在22.4版本发行计划之外的生产环境中以一定节奏提供。 有关最新功能的详细信息，请参阅[Adobe Workfront Fusion发行活动](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
+Workfront Fusion中的新增功能在22.4版本发行计划之外的生产环境中以一定节奏提供。 有关最新功能的详细信息，请参阅[Adobe Workfront Fusion发行活动](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
 
 ### WorkfrontScenario Planner增强功能
 
