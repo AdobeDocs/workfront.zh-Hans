@@ -9,9 +9,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 6e181c07-4419-486f-bde1-ace3db349a72
-source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
+source-git-commit: dee1c75e134309a25ba6c739059048972696f2c1
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,6 @@ ht-degree: 0%
 * [[!DNL Adobe Workfront Fusion]方案示例：连接电子邮件、[!UICONTROL 文本分析器]和 [!DNL Google Sheets]](../../workfront-fusion/scenarios/example-connect-email-text-parser-gsheets.md)
 * [在 [!DNL Adobe Workfront Fusion]中恢复方案版本](../../workfront-fusion/scenarios/restore-a-scenario-version.md)
 * [复制 [!DNL Adobe Workfront Fusion]中的模块或方案](../../workfront-fusion/scenarios/copy-modules-or-scenarios.md)
-* [在 [!DNL Adobe Workfront Fusion] 场景中将模块更新为新版本](../../workfront-fusion/scenarios/update-module-to-new-version.md)
 * [在 [!DNL Adobe Workfront Fusion]中查看和管理锁定的方案](../../workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)
 * [在Adobe Workfront Fusion中运行场景评分专家](/help/quicksilver/workfront-fusion/scenarios/run-scenario-scoring.md)
 * [使用cURL添加HTTP模块](/help/quicksilver/workfront-fusion/scenarios/use-curl-create-http.md)
