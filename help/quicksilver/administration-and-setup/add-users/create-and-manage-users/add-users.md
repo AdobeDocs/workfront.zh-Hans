@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1128'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 >
 >如果贵组织已载入到Adobe Admin Console，则必须通过Adobe Admin Console创建系统管理员。
 >
->有关在Adobe Admin Console中创建系统管理员的说明，请参阅[在Adobe Admin Console中管理系统管理员](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)。
+>有关在Adobe Admin Console中创建系统管理员的说明，请参阅[在Adobe Admin Console中管理用户](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)。
 >
 >已载入Adobe Admin Console的组织中的组管理员可以使用此过程创建用户并提交用户以供管理员审批。
 >

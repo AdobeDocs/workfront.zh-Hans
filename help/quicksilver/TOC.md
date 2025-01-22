@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 502425862ef244449d41d6b6597996005ac859aa
+source-git-commit: 7301371fec85938b79960500769d997b5edb8b63
 workflow-type: tm+mt
-source-wordcount: '12977'
+source-wordcount: '12983'
 ht-degree: 2%
 
 ---
@@ -2054,7 +2054,8 @@ ht-degree: 2%
       * [将封面图像添加到记录](planning/records/add-a-cover-image-to-a-record.md)
       * [管理记录页面布局](planning/records/manage-the-record-page.md)
       * [管理Adobe Workfront对象“计划”部分中的记录](planning/records/manage-records-in-planning-section.md)
-      * [导出记录的详细信息](/help/quicksilver/planning/records/export-the-record-page.md)
+      * [导出记录的详细信息](planning/records/export-the-record-page.md)
+      * [从Workfront Planning创建Workfront对象](planning/records/create-workfront-objects-from-workfront-planning.md)
       * [使用Workfront Planning记录自动化创建对象](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
    * Adobe Workfront计划请求{#adobe-workfront-planning-requests}
       * [Adobe Workfront规划请求：文章索引](planning/requests/requests-article-index.md)

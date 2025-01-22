@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '2928'
+source-wordcount: '2912'
 ht-degree: 1%
 
 ---
@@ -228,7 +228,7 @@ ht-degree: 1%
 
    请注意，**Campaign**&#x200B;链接记录字段在产品记录类型页面中显示您链接到产品的营销活动的名称。 更新促销活动信息会自动更新产品记录类型的促销活动链接记录字段。
 
-### 将Adobe Workfront Planning记录从记录页面的表格视图或详细信息选项卡连接到Workfront对象
+### 将Adobe Workfront Planning记录从表视图或记录的详细信息页面连接到Workfront对象
 
 <!--when we will have more applications to link to from Planning, change the title to something like: Connect Workfront Planning records to objects from other applications-->
 
@@ -264,7 +264,7 @@ ht-degree: 1%
 
 1. （可选）如果找不到要连接的对象并且要添加它，请单击&#x200B;**+添加**&#x200B;以创建和添加新项目或项目组合。
 
-   将没有模板或项目组合的项目连接到Planning记录时，您只能添加这些项目。 您无法添加新程序、组或公司。
+   有关信息，请参阅[从Workfront Planning创建Workfront对象](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 
 1. （可选）单击&#x200B;**查看全部**&#x200B;以显示您至少具有查看权限的所有对象。
 

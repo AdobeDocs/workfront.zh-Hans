@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1550'
 ht-degree: 4%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 4%
 >
 >本页中介绍的过程仅适用于尚未加入该Admin Console的组织。 如果贵组织已载入到Adobe Admin Console，则必须通过Adobe Admin Console执行此操作。
 >
->有关在Adobe Admin Console中授予完全管理员访问权限的说明，请参阅[在Adobe Admin Console中管理系统管理员](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)。
+>有关在Adobe Admin Console中授予完全管理员访问权限的说明，请参阅[在Adobe Admin Console中管理用户](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)。
 >
 >有关因贵组织是否已登记到Adobe Admin Console而不同的过程列表，请参阅[基于平台的管理差异(Adobe Workfront/Adobe业务平台)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
