@@ -6,9 +6,9 @@ description: 您可以将附加批准者或审阅者添加到已具有待审批�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 1fbb5cb2082e6b926930793984bd34a759c7eec7
+source-git-commit: 5027807d93994b9ce9954be461b571379b36c960
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '610'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,9 @@ ht-degree: 1%
 
 * 文档审批决策按钮在验证查看器中不可用。 可以在文档摘要、Workfront主页构件或文档详情页面中做出决策。
 * 文档审批参与者显示在文档摘要中，而不是验证工作流选项卡中。
-* 当前报告工具不支持新文档审批。 新主页和画布功能板中提供的所有审批构件提供了有关新文档审批的以下详细信息：
+* 当前报告工具不支持新文档审批。
+
+  您可以将新的画布功能板（测试版）加入[创建报表仪表板以供审阅和批准](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)，也可以使用新主页和画布功能板中提供的所有批准小组件，其中提供有关新文档批准的以下详细信息：
 
    * 按决策审批
    * 平均审批时间

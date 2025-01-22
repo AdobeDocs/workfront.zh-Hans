@@ -6,9 +6,9 @@ description: 您可以在 [!DNL Experience Manager Assets]中将您的工作与�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 25d250e7be17773117761aa739b8e4804c6fc55a
 workflow-type: tm+mt
-source-wordcount: '1697'
+source-wordcount: '1708'
 ht-degree: 0%
 
 ---
@@ -254,6 +254,8 @@ Adobe Experience Manager集成中提供了以下工作流：
 * [发送到Adobe Experience Manager Assets的Publish资源](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
 
 ### 创建Adobe Experience Manager链接文件夹
+
+每个文件夹树最多可创建100个链接的文件夹。
 
 1. 打开&#x200B;**[!UICONTROL 创建链接文件夹]**。
 1. 输入正在创建的链接文件夹的名称。
