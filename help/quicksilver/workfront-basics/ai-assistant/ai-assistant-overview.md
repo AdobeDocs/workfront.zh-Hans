@@ -5,9 +5,9 @@ description: AI Assistant概述
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 9a588df1ef48b40056c5228c8ff03b5819eb4410
+source-git-commit: b00032517f2bf048c50fbaf22b79c011017980ea
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '701'
 ht-degree: 1%
 
 ---
@@ -66,6 +66,8 @@ Workfront的AI助手通过提供应用程序内信息和自然语言对话建议
 * Workfront Planning AI助手具有与Workfront AI助手不同的功能。
 
   有关Workfront规划中的AI助手的详细信息，请参阅[Adobe Workfront规划AI助手概述](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)。
+
+* AI助手当前只有英文版。
 
 
 ## AI助手中可用的功能
