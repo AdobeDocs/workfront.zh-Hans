@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: 46faf723ea7a8e9dfa02c0f2bed1f5f450976fc8
 workflow-type: tm+mt
-source-wordcount: '2782'
+source-wordcount: '2775'
 ht-degree: 0%
 
 ---
@@ -614,14 +614,13 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">
             更新了“主页”和“我的更新”区域中“提及”小组件中的评论体验</a></p>
-            [！BADGE In Production ]{type=Informational}
             <p>我们正在主页的“提及次数”小组件和“我的更新”区域的提及次数部分中更新评论体验。 现在，在大多数Workfront对象的“更新”区域中，相同的体验也可在我的更新的“提及”小组件和“提及”部分中使用。</p>
         </td>
         <td>
             <p><b>在以下日期可用：</b></p>
             <ul>
                 <li>预览版本： 2024年12月19日</li>
-                <li>适用于所有客户的生产版本：使用25.1版本（2025年1月16日）</li>
+                <li>适用于所有客户的生产版本：即将宣布</li>
             </ul>
         </td>
     </tr>

@@ -7,33 +7,20 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
+source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
 workflow-type: tm+mt
-source-wordcount: '2182'
+source-wordcount: '2112'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront Planning 2025年第一季度发布活动
 
-<!--remove this important intro after the 25.1 release-->
-
->[!IMPORTANT]
->
->本文中的信息介绍Adobe Workfront Planning，它是Adobe Workfront的新产品。
->
->除了Workfront计划之外，您必须购买Workfront计划才能访问和使用Workfront计划功能。
->
->有关访问Workfront Planning的完整要求列表，请参阅[访问概述](/help/quicksilver/planning/access/access-overview.md)。
->有关Workfront规划的概述，请参阅[Adobe Workfront规划概述](/help/quicksilver/planning/general/planning-overview.md)。
-
 本文介绍了在2025年第一季度版本中为Workfront Planning发布的功能。
 
 <!--keep the sentence below for all future quarterly release pages-->
-<!--remove the general activity mention after First Quarter 2025 is released-->
 
-有关2024年8月28日正式发布后为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
-
+有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
 ## 现在，请求表单中支持使用Adobe Experience Manager资源的连接字段
 

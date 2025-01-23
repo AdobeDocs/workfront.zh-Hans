@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 7301371fec85938b79960500769d997b5edb8b63
+source-git-commit: 46faf723ea7a8e9dfa02c0f2bed1f5f450976fc8
 workflow-type: tm+mt
-source-wordcount: '12983'
+source-wordcount: '13008'
 ht-degree: 2%
 
 ---
@@ -19,6 +19,9 @@ ht-degree: 2%
       * [产品版本概述](product-announcements/product-releases/product-releases.md)
       * [Adobe Workfront发布计划和流程](product-announcements/product-releases/workfront-release-schedule.md)
       * [为Adobe Workfront季度版本做准备](product-announcements/product-releases/release-readiness.md)
+      * 2025年第2季度发行{#release-25-q2}
+         * [2025年第2季度发行版概述](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
+         * [2025年第二季度发布时间范围内的其他增强功能](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md)
       * 2025年第1季度版本{#release-25-q1}
          * [2025年第1季度发行版概述](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
          * [2025年第1季度管理员增强功能](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md)
@@ -187,6 +190,7 @@ ht-degree: 2%
          * [21.1其他增强功能](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Planning发布活动{#planning-release-activity}
          * [Adobe Workfront Planning发布活动](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+         * [Adobe Workfront Planning 2025年第二季度发布活动](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
          * [Adobe Workfront Planning 2025年第一季度发布活动](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
          * [Adobe Workfront Planning 2024年第四季度发布活动](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
       * Adobe Workfront Scenario Planner发布活动{#scenario-planner-release}

@@ -3,14 +3,12 @@ title: 界面更新
 description: 本页列出了我们在整个Adobe Workfront中所做的界面更新，这些更新旨在改善用户体验并将其与其他Adobe应用程序相统一。
 author: Nolan
 feature: Product Announcements
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 2%
+source-wordcount: '354'
+ht-degree: 1%
 
 ---
 
@@ -28,7 +26,7 @@ ht-degree: 2%
 
 ### “添加Sharepoint”对话框的界面更新
 
-**预览版本： 2025年1月16日；生产版本：待定**
+**预览版本： 2025年1月16日；生产版本：待宣布**
 
 我们更新了“设置”>“文档”>“Sharepoint集成”中的“添加Sharepoint”对话框，使其设计更加现代化，与Workfront的其他区域一致。
 
@@ -36,7 +34,7 @@ ht-degree: 2%
 
 ### 在设置中更新审批区域的界面
 
-**预览版本： 2025年1月16日；生产版本：待定**
+**预览版本： 2025年1月16日；生产版本：待宣布**
 
 我们更新了设置>流程>审批中的项目、任务和问题审批列表，使其更加现代化，与Workfront的其他部分保持一致。
 
@@ -44,9 +42,19 @@ ht-degree: 2%
 
 ## 报告和仪表板
 
+### 更新了具有新样式的迭代报告
+
+**预览版本： 2025年1月17日；生产版本：待宣布**
+
+我们更新了迭代报告，更新后的设计更加现代化，与Workfront的其他区域一致。
+
+此更新包括对报告的可视化更改。 功能未发生更改。
+
+要创建迭代报告，请转到“报告”>“新建报告”>“迭代”。
+
 ### 更新了审批报告并添加了新样式
 
-**预览版本： 2025年1月16日；生产版本：待定**
+**预览版本： 2025年1月16日；生产版本：待宣布**
 
 我们更新了以下批准报告的界面：
 

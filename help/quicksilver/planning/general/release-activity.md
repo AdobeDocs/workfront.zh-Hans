@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
 workflow-type: tm+mt
-source-wordcount: '7488'
+source-wordcount: '7392'
 ht-degree: 0%
 
 ---
@@ -18,22 +18,9 @@ ht-degree: 0%
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
->[!IMPORTANT]
->
-><span class="preview">本文列出了在2024年8月28日正式发布之前2024年Workfront规划的早期阶段发布的功能。</span>
->
->本文中的信息介绍了Adobe Workfront Planning，它是Adobe Workfront的一项附加功能。
->
->除了Workfront计划之外，您必须购买Workfront计划才能访问和使用Workfront计划功能。
->
->有关访问Workfront Planning的完整要求列表，请参阅[Adobe计划访问概述](/help/quicksilver/planning/access/access-overview.md)。
->有关Workfront规划的概述，请参阅[Adobe Workfront规划概述](/help/quicksilver/planning/general/planning-overview.md)。
->
+本文列出了在2024年8月28日正式发布之前2024年Workfront规划早期阶段发布的功能。
 
-有关Workfront Planning版本的更多信息，另请参阅以下文章：
-
-* 针对2023年Beta版期间发布的功能[Adobe Workfront 2023年规划发布活动](/help/quicksilver/planning/general/release-activity-archives-2023.md)。
-* [Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)当前已发布到Workfront Planning的功能，该功能于2024年8月28日正式发布。
+有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
 ## Workfront Planning发布时间表
 
