@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 9db8ea3f26dd7e8b4c8aa52fb9902832db7a6a5c
 workflow-type: tm+mt
-source-wordcount: '1889'
+source-wordcount: '2007'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # 编辑记录
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -243,6 +243,16 @@ ht-degree: 0%
 
      ![](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
+   <div class="preview">
+
+   * 从外部源复制一个或多个单元格（例如，Excel文件），然后将它们粘贴到以下字段类型之一：
+
+      * Workfront Planning连接字段。
+      * 人员字段。 仅支持具有一个值的字段。
+
+     您无法从外部源复制信息并将其粘贴到任何其他字段类型中，包括Workfront或AEM Assets连接字段。
+   </div>
+
    >[!NOTE]
    >
    >请考虑以下事项：
@@ -254,8 +264,7 @@ ht-degree: 0%
    >* 您不能在记录页面中复制和粘贴字段值。 仅记录类型的表视图支持此功能。
    >* 不能复制和粘贴以下字段类型的字段值：
    >
-   >
-   >    * 通过连接记录类型创建的链接字段（或查找字段）。 您可以复制和粘贴链接的记录字段。 有关详细信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
+   >    * 连接记录类型时创建的查找字段。 您可以复制和粘贴链接的记录字段。 有关详细信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
    >    * 以下类型的字段：“创建者”、“创建日期”、“上次修改者”、“上次修改日期”
 
 1. （可选）使用以下键盘快捷键可撤消或重做编辑或复制和粘贴记录信息：

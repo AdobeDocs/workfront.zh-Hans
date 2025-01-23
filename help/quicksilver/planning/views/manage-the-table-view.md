@@ -6,14 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 9db8ea3f26dd7e8b4c8aa52fb9902832db7a6a5c
 workflow-type: tm+mt
-source-wordcount: '2802'
-ht-degree: 3%
+source-wordcount: '2879'
+ht-degree: 2%
 
 ---
 
 # 管理表视图
+
+<span class="preview">此页面上突出显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -397,13 +401,22 @@ OLD:
 1. （可选）单击&#x200B;**添加条件**&#x200B;以添加其他筛选选项并重复上述步骤。 应用的过滤器数显示在过滤器图标的左侧。
 1. 单击以下运算符以指示连接筛选条件的方式以及应如何应用：
 
-   * **And**：必须满足所有指定的条件。
-   * **或**：必须满足任何指定的条件。 这是默认选项。
+   * **AND**：必须满足所有指定的条件。
+   * **OR**：必须满足任何指定的条件。 这是默认选项。
+
+   <div class="preview">
+
+   1. （可选）在多个条件分组之间添加其他&#x200B;**AND**&#x200B;或&#x200B;**OR**&#x200B;运算符。
+
+      ![](assets/multi-tiered-filters-in-views.png)
+
+   </div>
 
    系统会自动过滤记录列表。 <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
-1. （可选）单击&#x200B;**筛选器**，然后单击&#x200B;**x**&#x200B;图标以删除筛选器。<!--right now you cannot "clear all" for filters, but this might come later-->
+1. （可选）单击&#x200B;**x**&#x200B;图标可删除筛选条件。
+1. （可选）单击&#x200B;**筛选器**&#x200B;以关闭筛选器框。<!--right now you cannot "clear all" for filters, but this might come later-->
 
 ### 添加分组 {#add-groupings}
 
