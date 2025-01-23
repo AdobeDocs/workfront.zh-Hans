@@ -4,9 +4,10 @@ description: 本页介绍了2025年第二季度版本中包含的功能。 这�
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
+source-git-commit: ef390581f250515983ba51fb4b1f9ee53fcff693
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -46,15 +47,15 @@ Workfront版本编号代表了每月和每季度的版本跟踪。 第一个数�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            AI助手现在可以处理项目、任务和问题</a></p>
-            <p>为了更便于在Workfront中管理您的工作项，我们更新了AI助手，以处理项目、任务和问题。 现在，AI助手可以根据您指定的标准找到项目、任务和问题。</p>
+            在Workfront更新信息源中将Adobe Admin Console用户更改表示为“系统”</a></p>
+            <p>现在，当Adobe Admin Console管理员更改Workfront用户的用户信息时，Workfront将这一更改记录在用户更新区域的System activity （系统活动）选项卡中，并归入“System”（系统）。 此联系人为Adobe Admin Console管理员。</p>
         </td>
         <td>
             <p><b>在以下日期可用：</b></p>
             <ul>
-                <li>预览版本： 2024年10月31日</li>
-                <li>用于快速发布的生产：用于24.11版（2024年11月14日）</li>
-                <li>适用于所有客户的生产版本：使用25.1版本（2025年1月16日）</li>
+                <li>预览版本： 2025年1月23日</li>
+                <li>快速发布生产：通过25.2版本（2025年2月）</li>
+                <li>适用于所有客户的生产版本：使用25.4版本（2025年4月）</li>
             </ul>
         </td>
     </tr>
