@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 词汇表列出了 [!DNL Adobe Workfront].
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '20931'
+source-wordcount: '20935'
 ht-degree: 0%
 
 ---
@@ -1168,7 +1168,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>[！UICONTROL日志条目]</p> </td> 
-   <td> <p>可报告的对象，用于告知有关项目、任务、问题和其他对象的[！UICONTROL更新]区域中显示的跟踪字段的系统更新信息。</p> <p>若要了解详细信息，请参阅<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md" class="MCXref xref">有关[！UICONTROL更新]区域</a>的报告。</p> </td> 
+   <td> <p>可报告的对象，用于告知有关项目、任务、问题和其他对象的[！UICONTROL更新]区域中显示的跟踪字段的系统更新信息。</p> <p>若要了解详细信息，请参阅<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md" class="MCXref xref">日志条目报告中的更新区域</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL Kanban标志]</td> 

@@ -1,18 +1,18 @@
 ---
-title: 更新区域报告
+title: 使用日记帐分录报表报告更新区域
 description: 日志条目报表会从项目、任务、问题和其他对象的更新区域显示系统更新，以前只能通过Adobe Workfront API使用这些更新区域。 虽然这是一个针对特定用例的高级报告，但采用更易于理解的格式后，您可以在Workfront中报告项目活动和系统更新。
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '2757'
+source-wordcount: '2767'
 ht-degree: 3%
 
 ---
 
-# 报告更新区域
+# 使用日记帐分录报表报告更新区域
 
 <!-- Audited: 11/2024 -->
 

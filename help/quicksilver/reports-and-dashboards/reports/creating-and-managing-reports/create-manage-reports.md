@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: e3596bd2-4f22-45c8-8cc2-cac08359a093
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 * [创建具有唯一汇率的财务数据报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)
 * [编辑报告设置](../../../reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md)
 * [更改报告的所有者](../../../reports-and-dashboards/reports/creating-and-managing-reports/change-owner-report.md)
-* [更新区域报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)
+* [使用日志条目报告更新区域](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)
 * [创建用户委派报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md)
 
 <!--outdated: For in-depth training on reports, see [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program).-->

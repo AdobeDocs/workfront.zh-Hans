@@ -2,13 +2,13 @@
 content-type: overview;reference
 navigation-topic: workfront-navigation
 title: '[!DNL Adobe Workfront]对象概述'
-description: “您在 [!DNL Adobe Workfront] 中显示的信息由存储在 [!DNL Workfront] 数据库中的对象表示。 对象是驱动 [!DNL Workfront]中信息的驱动因素。 请参阅本文以了解有关这些对象的更多信息。”
+description: 在 [!DNL Adobe Workfront] 中显示的信息由存储在 [!DNL Workfront] 数据库中的对象表示。 对象是驱动 [!DNL Workfront]中信息的驱动因素。 请参阅本文以了解有关这些对象的更多信息。
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 25939493f6ffed31ae1bdaf26d417ce4e5e5c004
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '2419'
+source-wordcount: '2424'
 ht-degree: 1%
 
 ---
@@ -283,7 +283,7 @@ ht-degree: 1%
 * [!UICONTROL 迭代]
 * [!UICONTROL 工作角色]
 * [!UICONTROL 日志条目]
-   * 您可以在[!UICONTROL 更新]对象区域（如任务、项目、问题等）中报告跟踪的系统更新。 有关详细信息，请参阅[有关[!UICONTROL 更新]区域](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)的报告。
+   * 您可以在[!UICONTROL 更新]对象区域（如任务、项目、问题等）中报告跟踪的系统更新。 有关详细信息，请参阅日志条目报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)的[更新区域报告。
 
 * [!UICONTROL 布局模板]
 * [!UICONTROL 里程碑]

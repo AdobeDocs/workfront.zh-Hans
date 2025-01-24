@@ -7,9 +7,9 @@ description: 对象的“更新”部分显示用户对对象所做的注释或�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 6327e5625481ce7ff8d744bc6eb50d417cbb4413
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1095'
 ht-degree: 4%
 
 ---
@@ -267,7 +267,7 @@ The following objects don't record system updates:
    <td>迭代，团队</td> 
   </tr> 
   <tr> 
-   <td>迭代</td> 
+   <td>开发周期</td> 
    <td>团队</td> 
   </tr>
 
@@ -345,4 +345,4 @@ Adobe Workfront管理员和组管理员可以其他用户身份登录，并在Wo
 * 如果在项目过程中优先级发生了更改
 * 如果项目所有者已更改
 
-有关详细信息，请参阅[更新区域报告](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)。
+有关详细信息，请参阅日志条目报告](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)的[更新区域报告。

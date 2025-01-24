@@ -6,9 +6,9 @@ description: 在备注报告中查看所有更新
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您可以构建一个报表，以使用日记条目报表在预览中查看对象的更新。 有关详细信息，请参阅[更新区域报告](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)。
+>您可以构建一个报表，以使用日记条目报表在预览中查看对象的更新。 有关详细信息，请参阅日志条目报告](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)的[更新区域报告。
 
 ## 访问要求
 
