@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 90405d79f605d788331cb7a04ebf354dc4379bf5
 workflow-type: tm+mt
-source-wordcount: '2661'
+source-wordcount: '2693'
 ht-degree: 1%
 
 ---
@@ -246,13 +246,6 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-
-
-
-
-
-
-
 ### [!UICONTROL 业务案例] {#business-cases}
 
 您可以为整个系统内新创建的项目创建业务案例，以提交项目请求。 您可以定义首选项以确定&#x200B;**[!UICONTROL 业务案例]**&#x200B;表单上可见的区域。 我们建议您启用这些选项，以便其他工具(如[!UICONTROL Portfolio优化器])正确更新。 有关每个字段显示内容的详细信息，请参阅[定义业务案例：文章索引](../../../manage-work/projects/define-a-business-case/define-business-case.md)。
@@ -279,11 +272,12 @@ ht-degree: 1%
    <td role="rowheader"> <p>[！UICONTROL将项目标记为“完成”、“废弃”或“未决批准”后，人员还可以]</p> </td> 
    <td> <p>确定组织（或组，如果您正在为组配置项目首选项）的规则，这些规则涉及将项目状态标记为<strong>[！UICONTROL完成]</strong>、<strong>[！UICONTROL废弃]</strong>或为<strong>[！UICONTROL未决批准]</strong>后，项目中任务、问题、文档和其他对象发生的情况。</p> 
     <ul> 
-     <li><strong>[！UICONTROL添加和编辑任务]</strong>允许用户：
+     <li><strong>[！UICONTROL添加和编辑任务：]</strong>允许用户：
       <ul>
-       <li>在项目被标记为[！UICONTROL完成]、[！UICONTROL停止]或为[！UICONTROL未决批准]之后编辑项目中的任务。 这包括添加小时数和更改任务的费用条目。</li>
+       <li><p>在项目被标记为[！UICONTROL完成]、[！UICONTROL停止]或为[！UICONTROL未决批准]之后编辑项目中的任务。</p>
+           <p>注：即使未选择此选项，用户也可以添加和编辑费用条目。 记录小时数具有单独的设置。 要允许或阻止用户记录处于“完成”或“终止”状态的项目的时间，请参阅<a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">配置时间表和小时首选项</a>。</p></li>
        <li>将任务添加到项目。</li>
-      </ul></li> 
+      </ul></li>
      <li><strong>[！UICONTROL添加和编辑问题]</strong>：允许用户：
       <ul>
        <li>将项目标记为[！UICONTROL完成]、[！UICONTROL停止]或[！UICONTROL未决批准后，编辑项目中的问题。</li>
