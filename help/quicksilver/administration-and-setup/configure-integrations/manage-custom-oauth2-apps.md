@@ -8,9 +8,9 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Becky
 exl-id: 158430e5-8857-4bd8-86a6-2ba106b1638c
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: bb81e32263348128b7661db6102ad5ac14e9a434
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,6 @@ ht-degree: 0%
 {{step-1-to-setup}}
 
 1. 在左侧导航面板中，单击&#x200B;**[!UICONTROL 系统]**，然后选择&#x200B;**[!UICONTROL OAuth应用程序]**。
-1. 单击** **。
 1. 将鼠标悬停在应用程序上，单击&#x200B;**[!UICONTROL 删除]** ![](assets/delete.png)（当应用程序出现在最右边时）。
 
 ## 在OAuth2应用程序中管理客户端密钥

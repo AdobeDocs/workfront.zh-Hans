@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
+source-git-commit: bb81e32263348128b7661db6102ad5ac14e9a434
 workflow-type: tm+mt
-source-wordcount: '1749'
+source-wordcount: '1739'
 ht-degree: 0%
 
 ---
@@ -118,11 +118,11 @@ If you are a Workfront Goals customer, Workfront Goals data does not transfer to
 
 1. 如果您只有一个自定义刷新沙盒，请导航到此URL：
 
-   https://companyname.sb01.workfront.com (旧URL:https://cr1.attasksandbox.com/.)
+   `https://companyname.sb01.workfront.com` （旧URL：`https://cr1.attasksandbox.com/`。）
 
    或者，除了上述URL之外，如果您有两个自定义刷新沙盒，则还可以转到以下URL以访问第二个自定义刷新沙盒：
 
-   https://companyname.sb02.workfront.com (旧URL:https://cr2.attasksandbox.com/)
+   `https://companyname.sb02.workfront.com` （旧URL：`https://cr2.attasksandbox.com/`）
 
 1. 在登录屏幕上，使用自定义刷新沙盒凭据登录。
 1. 自定义刷新沙盒凭据与生产凭据相同，除非自自定义刷新沙盒上次刷新后更改了生产凭据。 只有在刷新时才会同步登录。 它们不会自动同步。
@@ -137,15 +137,15 @@ If you are a Workfront Goals customer, Workfront Goals data does not transfer to
 
 1. 如果您只有一个自定义刷新沙盒，请导航到此URL：
 
-   https://companyname.sb01.workfront.com (旧URL:https://cr3.attasksandbox.com)
+   `https://companyname.sb01.workfront.com` （旧URL：`https://cr3.attasksandbox.com`）
 
    或
 
    如果您有两个自定义刷新沙盒，请转到以下任一URL：
 
-   https://companyname.sb01.workfront.com (旧URL:https://cr3.attasksandbox.com)
+   `https://companyname.sb01.workfront.com` （旧URL：`https://cr3.attasksandbox.com`）
 
-   https://companyname.sb02.workfront.com (旧URL:https://cr4.attasksandbox.com)
+   `https://companyname.sb02.workfront.com` （旧URL：`https://cr4.attasksandbox.com`）
 
 1. 在登录屏幕上，使用自定义刷新沙盒凭据登录。
 
