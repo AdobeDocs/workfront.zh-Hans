@@ -6,14 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '784'
 ht-degree: 1%
 
 ---
 
 # 共享工作区
+
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -173,9 +177,13 @@ OLD:
 
    ![](assets/share-button-on-workspace-top-right.png)
 
-1. 在&#x200B;**向**&#x200B;授予工作区访问权限字段中，开始键入用户或组的名称，然后当该名称或组显示在列表中时单击它。
+1. 在&#x200B;**将工作区访问权限授予**&#x200B;字段中，开始键入用户、组、<span class="preview">团队、公司或工作角色的名称</span>，然后当该名称显示在列表中时单击它。
+
+   <div class="preview">
 
    ![](assets/sharing-ui-with-groups.png)
+
+   </div>
 
 1. 从下拉菜单中选择以下权限级别之一：
    * 查看
@@ -221,7 +229,7 @@ OLD:
 {{step1-to-planning}}
 
 1. 打开要删除权限的工作区，然后单击屏幕右上角的&#x200B;**共享**。
-1. 单击用户或组名称右侧的下拉菜单，然后单击“**删除**”。
+1. 单击与您共享工作区的实体名称右侧的下拉菜单，然后单击“**删除**”。
 1. 单击&#x200B;**保存**。
 
-   属于已删除组的用户或用户无权再访问工作区或其对象。
+   被删除的用户不再具有对工作区或其对象的访问权限。

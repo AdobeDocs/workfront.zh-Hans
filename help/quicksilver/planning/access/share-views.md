@@ -6,15 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
 workflow-type: tm+mt
-source-wordcount: '1433'
-ht-degree: 1%
+source-wordcount: '1519'
+ht-degree: 0%
 
 ---
 
 
 # 共享视图
+
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -31,7 +35,7 @@ ht-degree: 1%
 
 您可以与以下实体共享视图：
 
-* 内部，包含Workfront用户和组
+* 在内部，包含Workfront用户、组、<span class="preview">团队、公司和职位角色</span>
 * 公开，使用Workfront之外的用户
 
 <!--
@@ -182,7 +186,7 @@ This article describes how you can share a view with others. For information abo
 
 ## 在内部共享对视图的权限
 
-您可以在Workfront中将您创建的视图或您拥有管理权限的视图与用户或组共享。
+您可以在Workfront中与用户、组、<span class="preview">团队、公司和职位角色</span>共享您创建的视图或您拥有管理权限的视图。
 
 >[!NOTE]
 >
@@ -204,12 +208,16 @@ This article describes how you can share a view with others. For information abo
 
 1. （可选）在&#x200B;**谁有权访问**&#x200B;区域，从以下选项中选择：
 
-   * **只有受邀人员才能访问**：您必须指定要与其共享视图的用户或组。 这是默认选项。
+   * **只有受邀人员才能访问**：您必须指定要与其共享视图的用户、组、<span class="preview">团队、公司或工作角色</span>。 这是默认选项。
    * **工作区中的每个人都可以查看**：所有对工作区具有“查看”或更高权限的用户都可以访问该视图。
 
-1. 在&#x200B;**授予对**&#x200B;字段的查看访问权限，开始键入用户或组的名称，然后在列表中显示该名称或组时单击它。
+1. 在&#x200B;**授予对**&#x200B;字段的查看权限，开始键入用户、组、<span class="preview">团队、公司或工作角色的名称</span>，然后在它显示在列表中时单击它。
+
+   <div class="preview">
 
    ![](assets/sharing-a-view-ui-with-groups.png)
+
+   </div>
 
 1. 从下拉菜单中选择以下权限级别之一：
    * 查看
@@ -308,7 +316,7 @@ This article describes how you can share a view with others. For information abo
 1. 要删除视图的内部共享，请执行以下操作：
 
    1. 确保选中&#x200B;**内部共享**&#x200B;选项卡。
-   1. 找到要删除的用户或组，展开该用户或组名称右侧的权限下拉菜单，然后单击&#x200B;**删除**。
+   1. 查找要删除的用户、组、<span class="preview">团队、公司或工作角色</span>，展开与你共享视图的实体名称右侧的权限下拉菜单，然后单击&#x200B;**删除**。
 
 1. 要删除视图的公共共享，请执行以下操作：
 
