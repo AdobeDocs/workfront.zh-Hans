@@ -5,14 +5,16 @@ description: 作为资源计划的一部分，您可以在构建业务案例时�
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
 
 # 使用资源规划程序在业务案例中预算资源
+
+<!--Audited: 01/2025-->
 
 作为资源计划的一部分，您可以在构建业务案例时，使用项目层资源规划者来预算完成项目中的工作所需的职位角色。
 
@@ -26,37 +28,47 @@ ht-degree: 0%
 
 ## 访问要求
 
-您必须具备以下条件：
+您必须具备以下条件才能执行本文中的步骤：
+
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront计划</a>*</td> 
-   <td> <p>专业或专业以上</p> </td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
+   <td> <p>Prime或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>*</td> 
-   <td> <p>审核或更高</p> <p>重要信息：您必须拥有计划许可证才能修改资源预算信息。 </p> </td> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td> <p>新增：浅色或更高</p>
+   <p>当前：审阅或更高版本</p>
+
+<p><b>重要信息：</b></p> 
+   <p>新建：您必须拥有标准许可证才能修改资源预算信息。 </p> 
+   <p>当前：您必须拥有计划许可证才能修改资源预算信息。 </p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
+   <td role="rowheader">访问级别配置</td> 
    <td> <p>编辑对以下内容的访问权限： </p> 
     <ul> 
      <li> <p>项目</p> </li> 
      <li> <p>资源管理</p> </li> 
      <li> <p>财务数据</p> </li> 
-    </ul> <p>有关预算资源所需的访问权限的信息，另请参阅<a href="../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref">在Adobe Workfront中预算资源所需的访问权限</a>。</p> <p>注意：如果您仍然没有访问权限，请咨询Adobe Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+    </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理项目的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>管理项目的权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先决条件
 

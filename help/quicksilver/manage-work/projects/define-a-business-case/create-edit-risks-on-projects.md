@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: business-case-and-scorecards
-title: 创建和编辑项目风险
+title: 创建和编辑项目的风险
 description: 风险是阻止项目按时完成或在预算内完成的可能事件或因素。 可以在创建项目的业务案例时记录风险，也可以使用“风险”选项卡记录风险。 仅在项目中创建风险。 您不能将风险与任务或问题相关联。
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 8611c7bf8be6405f8ec8462ff2fd0f5998e8a995
+source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1036'
 ht-degree: 0%
 
 ---
 
 # 创建和编辑项目风险
+
+<!--Audited: 01/2025-->
 
 风险是阻止项目按时完成或在预算内完成的可能事件或因素。 可以在创建项目的业务案例时记录风险，也可以使用“风险”选项卡记录风险。 仅在项目中创建风险。 您不能将风险与任务或问题相关联。
 
@@ -27,30 +29,35 @@ ht-degree: 0%
 
 您必须具有以下权限才能执行本文中的步骤：
 
++++ 展开以查看本文中各项功能的访问要求。
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
+   <td> <p>新增：标准 </p>
+   <p>当前：计划 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对项目和财务数据的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑对项目和财务数据的访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p> 管理权限包括管理要为其创建或编辑风险的项目的财务 </p> <p>有关项目权限的详细信息，请参阅文章<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">在Adobe Workfront中共享项目</a>。</p> </td> 
+   <td> <p> 管理权限包括管理要为其创建或编辑风险的项目的财务 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 创建和编辑业务案例中的风险
 

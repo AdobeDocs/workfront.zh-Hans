@@ -6,16 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 9db8ea3f26dd7e8b4c8aa52fb9902832db7a6a5c
+source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 0%
+source-wordcount: '864'
+ht-degree: 1%
 
 ---
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # 从Workfront Planning创建Workfront对象
+
+
+<!-- remove preview and production at release time-->
 
 <span class="preview">此页面上突出显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
@@ -132,7 +135,9 @@ ht-degree: 0%
    * 记录类型的表格视图
    * 记录的详细信息页面或预览框
 
-1. （视情况而定）如果尝试从其他记录的已连接记录字段添加项目时找不到项目，请添加名称，然后单击“**+添加”**。 **+ Add**&#x200B;按钮后跟您连接到的对象类型的名称。 例如，“添加项目”，在向现有营销策划添加新项目时。 “添加”按钮后面还有您键入的项目名称。
+1. （视情况而定）如果尝试从其他记录的已连接记录字段添加项目时找不到项目，请添加名称，然后单击“**+添加”**。 添加按钮后跟您键入的项目名称。
+
+   <!--at production or when the permanent Add button is released to preview, take the first part of the direction above out and say "Click +Add to add a new project"; take this out too: "The Add button is followed by the project name you typed."-->
 
    ![](assets/add-project-when-connecting-it-from-connection-field.png)
 
@@ -158,10 +163,47 @@ ht-degree: 0%
    * 记录类型的表格视图
    * 记录的详细信息页面或预览框
 
-1. （视情况而定）如果在尝试从其他记录的已连接记录字段添加项目组合时找不到项目组合，请添加名称，然后单击“**+添加”**。 **+ Add**&#x200B;按钮后跟您连接到的对象类型的名称。 例如，“添加项目组合”，在向现有营销策划添加新项目组合时。 “添加”按钮后面还有您键入的项目组合名称。
+   <!--at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click +Add to add a new portfolio"; take this out too: "The Add button is followed by the portfolio name you typed."-->
+
+1. （视情况而定）如果尝试从其他记录的已连接记录字段添加项目组合时找不到项目组合，请添加名称，然后单击“**+添加项目组合”**。 “添加”按钮后面还有您键入的项目组合名称。
 
    ![](assets/add-portfolio-when-connecting-it-from-connection-field.png)
 
    将创建项目组合并将其添加到所选记录的连接字段。
 
 1. （可选）在Workfront Planning中单击新项目组合的名称，以在Workfront中打开项目组合页面，并对项目组合进行其他更新。
+
+<!--
+
+<div class="preview">
+
+## Create programs when connecting them with records from Workfront Planning
+
+To create programs as you are connecting them from other records: 
+
+1. Go to a record's details page or to the record type's table and start connecting Workfront Planning records with Workfront portfolios, as described in the article [Connect records](/help/quicksilver/planning/records/connect-records.md). 
+
+    You can connect programs from a connection field in following areas of Workfront Planning:
+
+    * The table view of a record type
+    * The details page or preview box of a record
+
+    ********at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click +Add to add a new program"; take this out too: "The Add button is followed by the program name you typed."***********
+    
+1. (Conditional) If you cannot find a program when trying to add it from the connected record field of another record, add a name, then click **+ Add**. The Add button is followed by the program name you typed. 
+
+    ![](assets/add-wf-program-when-connecting-it-from-connection-field.png)
+
+    The **Create program** box opens.
+
+1. Update the **Program name**. This is a required field.
+1. Choose a **Portfolio** from the drop-down, or start typing the name of a portfolio, then select it when it displays in the list. This is a required field. 
+1. Click **Create**.
+
+    The program is created and added to the connection field of the record you selected. 
+
+1. (Optional) Click the name of the new program from Workfront Planning to open the program's page in Workfront and make additional updates to it. 
+
+</div>
+
+-->
