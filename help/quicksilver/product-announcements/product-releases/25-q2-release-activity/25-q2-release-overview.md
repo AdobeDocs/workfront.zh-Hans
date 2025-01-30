@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: ef390581f250515983ba51fb4b1f9ee53fcff693
+source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,31 @@ Workfront版本编号代表了每月和每季度的版本跟踪。 第一个数�
 
 ## Adobe Workfront增强功能
 
+* [管理员增强功能](#administrator-enhancements)
 * [其他增强功能](#other-enhancements)
+
+### 管理员增强功能
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            在Workfront更新信息源中将Adobe Admin Console用户更改表示为“系统”</a></p>
+            <p>现在，当Adobe Admin Console管理员更改Workfront用户的用户信息时，Workfront将这一更改记录在用户更新区域的System activity （系统活动）选项卡中，并归入“System”（系统）。 此联系人为Adobe Admin Console管理员。</p>
+        </td>
+        <td>
+            <p><b>在以下日期可用：</b></p>
+            <ul>
+                <li>预览版本： 2025年1月30日</li>
+                <li><span class="preview">所有客户的生产版本： 2025年1月30日</span></li>
+            </ul>
+        </td>
+    </tr>                          
+</tbody>
+</table>
 
 ### 其他增强功能
 
@@ -61,18 +85,18 @@ Workfront版本编号代表了每月和每季度的版本跟踪。 第一个数�
     </tr>
     <!--<tr>
         <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">
-            Look-and-feel updates during the First Quarter 2025 timeframe</a></p>
-            <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the First Quarter 2025 timeframe. Review the individual release notes for specific release dates.</p>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">
+            Look-and-feel updates during the Second Quarter 2025 timeframe</a></p>
+            <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the Second Quarter 2025 timeframe. Review the individual release notes for specific release dates.</p>
         </td>
         <td>
             <p><b>Available on these dates:</b></p>
             <ul>
-                <li>Preview release: Throughout the First Quarter 2025 release timeframe</li>
+                <li>Preview release: Throughout the Second Quarter 2025 release timeframe</li>
                 <li><span class="preview">Production release: Review the release notes for specific dates</span></li>
             </ul>
         </td>
-    </tr>-->                            
+    </tr>-->
 </tbody>
 </table>
 
@@ -86,7 +110,7 @@ The following functionality is soon to be removed from Workfront:
 
 ### 界面现代化
 
-我们正在更新整个Adobe Workfront中的界面，以改进用户体验并将其与其他Adobe应用程序相统一。 这些更改将在标准发布计划之外发布。 有关这些更改的列表，请参阅[接口现代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)
+我们正在更新整个Adobe Workfront中的界面，以改进用户体验并将其与其他Adobe应用程序相统一。 这些更改将在标准发布计划之外发布。 有关这些更改的列表，请参阅[接口现代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
 
 ### Workfront Fusion增强
 

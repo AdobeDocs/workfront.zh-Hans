@@ -6,14 +6,16 @@ description: 在报表中引用收藏集
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
 workflow-type: tm+mt
-source-wordcount: '2598'
+source-wordcount: '2539'
 ht-degree: 0%
 
 ---
 
 # 在报表中引用收藏集
+
+<!-- Audited: 1/2025 -->
 
 在Adobe Workfront中构建报表允许您以列表、网格或图表格式显示一组对象、其各自的字段或链接对象。
 
@@ -23,32 +25,41 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
+您必须具备以下条件：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>标准</p></li>
+         </ul>
+      <p>当前：</p>
+         <ul>
+         <li><p>计划</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报告、功能板和日历的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报告、功能板和日历的访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理报表的权限</p> <p>管理对视图、筛选器或分组的权限 </p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>管理报表的权限</p> <p>管理对视图、筛选器或分组的权限 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -128,8 +139,9 @@ Workfront中的对象之间存在以下两个关系：
 
 您可以在收藏集视图中显示有关任务或问题的信息，如名称、日期、主要分派人、完成百分比等。
 
-该视图以列表格式显示任务或问题信息，列表的每一行表示有关任务或问题的信息。 任务或问题及其字段的列表显示在任务或问题所属项目的同一行上。\
-![issue_and_tasks_collections_in_reports.png](assets/issue-and-tasks-collections-in-reports-350x171.png)
+该视图以列表格式显示任务或问题信息，列表的每一行表示有关任务或问题的信息。 任务或问题及其字段的列表显示在任务或问题所属项目的同一行上。
+
+![issue_and_tasks_collections_in_reports.png](assets/issue-and-tasks-collections-in-reports-350x171.png){width=400}
 
 * [在报表视图中添加收藏集列](#add-a-collection-column-in-a-report-view)
 * [在文本模式下了解收藏集视图的行](#understand-the-lines-of-a-collection-view-in-text-mode)
@@ -144,7 +156,8 @@ Workfront中的对象之间存在以下两个关系：
 1. 选择报表的对象。
 1. 从报表中导航出来，使用[API Explorer](../../../wf-api/general/api-explorer.md)确定您为报表选择的对象有哪些收藏集可用。
 
-   有关选择集合对象的更多信息，请参阅本文中的[在API资源管理器](#find-collection-objects-and-their-fields-in-the-api-explorer)中查找集合对象及其字段部分。\
+   有关选择集合对象的更多信息，请参阅本文中的[在API资源管理器](#find-collection-objects-and-their-fields-in-the-api-explorer)中查找集合对象及其字段部分。
+
    记下集合对象的名称。
 
 1. 使用[API Explorer](../../../wf-api/general/api-explorer.md)，转到要显示在集合中的对象的字段列表。
@@ -155,7 +168,7 @@ Workfront中的对象之间存在以下两个关系：
 
 1. 导航回您的报告，在&#x200B;**列（视图）**&#x200B;选项卡中，单击&#x200B;**添加列**。
 1. 单击&#x200B;**切换到文本模式**。
-1. 将鼠标悬停在该对话框上，然后单击&#x200B;**单击以编辑文本**。
+1. 单击&#x200B;**编辑文本模式**。
 1. 在&#x200B;**文本模式**&#x200B;对话框中选择所有文本并将其删除，然后粘贴以下代码（如果您正在引用集合对象的字段）：
 
    ```
@@ -223,7 +236,7 @@ Workfront中的对象之间存在以下两个关系：
 
 1. 项目报表中显示以下列，列出每个项目中的所有任务及其主要受分配人：
 
-   ![](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png)
+   ![](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
 
 1. 单击&#x200B;**保存**。
 1. （可选）继续编辑报表。
@@ -311,7 +324,7 @@ Workfront中的对象之间存在以下两个关系：
 
    记下要在收藏集中显示的字段。
 
-1. 导航回您的报告，在&#x200B;**筛选器**&#x200B;选项卡中，单击&#x200B;**切换到文本模式**。
+1. 导航回您的报告，在&#x200B;**筛选器**&#x200B;选项卡中，单击&#x200B;**切换到文本模式**，然后单击&#x200B;**编辑文本模式**。
 
 1. 在&#x200B;**为报表**&#x200B;设置筛选规则区域中，粘贴以下代码：
 
@@ -337,7 +350,7 @@ Workfront中的对象之间存在以下两个关系：
 
    此报表仅显示至少有一个任务名称包含“营销”字样的项目。
 
-   ![](assets/marketing-only-tasks-in-project-report-nwe-350x309.png)
+   ![](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
 
 1. 要筛选问题的名称，请使用以下代码：
 
@@ -391,7 +404,7 @@ Workfront中的对象之间存在以下两个关系：
    ```
 
 1. （可选）指定是否默认在提示中显示此选项。
-1. 将&#x200B;**收藏集对象名称**&#x200B;替换为您在[API资源管理器](../../../wf-api/general/api-explorer.md)中显示的收藏集对象名称。 此值通常是集合对象名称的多种形式。
+1. 将&#x200B;**收藏集对象名称**&#x200B;替换为您在[API资源管理器](../../../wf-api/general/api-explorer.md)中显示的收藏集对象名称。 此值通常是集合对象名称的多种形式。
 1. 将&#x200B;**收藏集对象字段**&#x200B;替换为收藏集对象字段的名称，该字段显示在[API Explorer](../../../wf-api/general/api-explorer.md)中。
 1. 将&#x200B;**集合对象值**&#x200B;替换为该集合对象在Workfront中显示的值。
 
@@ -399,7 +412,7 @@ Workfront中的对象之间存在以下两个关系：
 
 1. 用有效的修饰符替换修饰符&#x200B;**的**&#x200B;值。
 
-   有关修饰符的列表，请参见  [筛选器和条件修饰符](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)。
+   有关修饰符列表，请参阅[筛选器和条件修饰符](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)。
 
    **示例：**&#x200B;例如，要生成一个带有自定义提示的项目报告，其中您只想显示至少有一个任务分配给特定用户的项目，请使用以下代码：
 
@@ -423,7 +436,7 @@ Workfront中的对象之间存在以下两个关系：
 
    >[!NOTE]
    >
-   >请注意，您必须使用&#x200B;**问题**&#x200B;作为集合对象名称。 API资源管理器  目前不提供问题的收藏集对象名称。
+   >请注意，您必须使用&#x200B;**问题**&#x200B;作为集合对象名称。 API Explorer目前没有为问题提供收藏集对象名称。
 
 1. 单击&#x200B;**完成**。
 1. （可选）继续编辑报表。
