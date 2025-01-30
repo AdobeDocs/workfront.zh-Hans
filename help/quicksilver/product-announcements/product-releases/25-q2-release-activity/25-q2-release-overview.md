@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: a7166f04f5916aebc07d5a5f73fa4f1f74b7a4a8
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -36,10 +36,10 @@ Workfront版本编号代表了每月和每季度的版本跟踪。 第一个数�
 
 ## Adobe Workfront增强功能
 
-* [管理员增强功能](#administrator-enhancements)
+<!--* [Administrator enhancements](#administrator-enhancements)-->
 * [其他增强功能](#other-enhancements)
 
-### 管理员增强功能
+<!--### Administrator enhancements
 
 <table>
 <col style="width: 50%;" />
@@ -48,19 +48,19 @@ Workfront版本编号代表了每月和每季度的版本跟踪。 第一个数�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            在Workfront更新信息源中将Adobe Admin Console用户更改表示为“系统”</a></p>
-            <p>现在，当Adobe Admin Console管理员更改Workfront用户的用户信息时，Workfront将这一更改记录在用户更新区域的System activity （系统活动）选项卡中，并归入“System”（系统）。 此联系人为Adobe Admin Console管理员。</p>
+            Represent Adobe Admin Console user changes as "System" in the Workfront update feed</a></p>
+            <p>Now, when the administrator of the Adobe Admin Console makes a change to the user information of a Workfront user, Workfront records this change in the System activity tab of the user's Updates area as belonging to the "System". This refers to the Adobe Admin Console administrator.</p>
         </td>
         <td>
-            <p><b>在以下日期可用：</b></p>
+            <p><b>Available on these dates:</b></p>
             <ul>
-                <li>预览版本： 2025年1月30日</li>
-                <li><span class="preview">所有客户的生产版本： 2025年1月30日</span></li>
+                <li>Preview release: January 30, 2025</li>
+                <li><span class="preview">Production release for all customers: January 30, 2025</span></li>
             </ul>
         </td>
     </tr>                          
 </tbody>
-</table>
+</table>-->
 
 ### 其他增强功能
 
