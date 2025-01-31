@@ -8,9 +8,9 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: b5b0e5b2-1133-443b-8ef1-cbb1ca377fd6
-source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
+source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
@@ -23,12 +23,12 @@ ht-degree: 0%
 > 
 >* 对于新计划和许可证结构：
 >    
->   * 最终计划
+>   * Ultimate计划
 >        
 >     或
 >        
->   * 适用于Prime或Select Adobe Workfront计划的Adobe Workfront目标的附加许可证。
->       有关详细信息，请参阅[Adobe Workfront定价和打包](https://www.workfront.com/plans)。
+>   * 适用于Prime或选择Adobe Workfront计划的Adobe Workfront目标的附加许可证。
+>      
 >      
 >* 对于当前计划和许可证结构：
 >    

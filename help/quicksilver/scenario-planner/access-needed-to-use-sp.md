@@ -7,9 +7,9 @@ description: Scenario Planner需要独立于Adobe Workfront的许可证和附加
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
+source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '886'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ might need to add information about the permissions to plans/ initiatives if tho
 
    * 对于当前的Workfront计划，您的组织必须同时具备以下两个条件：
 
-      * 您的组织必须购买[!DNL Workfront] [!UICONTROL 业务]或更高版本[!DNL Workfront]计划。 有关[!DNL Workfront]计划的信息，请参阅[Workfront计划](https://www.workfront.com/plans)。
+      * 您的组织必须购买[!DNL Workfront] [!UICONTROL 业务]或更高版本[!DNL Workfront]计划。
 
       * 除了购买[!DNL Workfront]许可证外，您的组织还必须购买[!DNL Workfront Scenario Planner]许可证。 请联系您的[!DNL Workfront]客户代表以了解[!DNL Workfront Scenario Planner]许可证。
 

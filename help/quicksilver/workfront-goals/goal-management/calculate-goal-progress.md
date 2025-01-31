@@ -6,10 +6,10 @@ description: 目标进展受活动、结果或儿童目标等进度指标的驱�
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 0%
+source-wordcount: '827'
+ht-degree: 1%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 * 对于新计划和许可证结构：
 
-   * 最终计划
+   * Ultimate计划
 
      或
 
-     适用于Prime或Select Adobe Workfront计划的Adobe Workfront目标的附加许可证。 有关信息，请参阅[Adobe Workfront计划](https://www.workfront.com/plans)。
+     适用于Prime或选择Adobe Workfront计划的Adobe Workfront目标的附加许可证。
 
 * 对于当前计划和许可证结构：
 

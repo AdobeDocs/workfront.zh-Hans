@@ -1,12 +1,12 @@
 ---
 title: 使用Workfront Planning记录自动化创建Adobe Workfront对象
-description: 您可以在Workfront Planning中配置自动化，以便在激活后在Workfront中创建对象。
+description: 您可以在Adobe Workfront Planning中配置自动化操作，在激活时，可在Workfront中创建对象或Workfront Planning中的记录。 创建的对象和记录会自动连接到现有Planning记录。
 hide: true
 hidefromtoc: true
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1307'
 ht-degree: 3%
 
 ---
@@ -23,13 +23,16 @@ recommendations: noDisplay, noCatalog
 
 -->
 
+<!--add a new section to this article to mention a new way to create objects: help/quicksilver/planning/records/create-records.md-->
+<!-- add a new section to this article to mention a new way to create WF objects from Planning: help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md-->
+
 <!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
 
-您可以在Adobe Workfront Planning中配置自动操作，激活自动操作后，可在Workfront或Workfront Planning中创建对象。
+您可以在Adobe Workfront Planning中配置自动化操作，激活自动化操作后，可在Workfront中创建对象或记录Workfront Planning。 创建的对象或记录会自动链接到从中触发自动化的记录。
 
-您可以在记录的页面中配置和激活自动化。 创建的对象连接到Planning记录，并放置在自动化中指定的字段中。
+您可以在Workfront Planning的记录页面中配置和激活自动化。 创建的连接对象将放置在运行自动化时所用的记录类型的连接字段中。
 
-例如，您可以创建一个接受Workfront Planning营销活动的自动化功能，并在Workfront中创建一个项目以跟踪该营销活动的进度。 该项目将连接到Workfront规划活动。
+例如，您可以创建一个接受Workfront Planning营销活动的自动化功能，并在Workfront中创建一个项目以跟踪该营销活动的进度。 该项目将连接到营销策划上“连接的项目”字段中的Workfront规划营销策划。
 
 有关已连接记录的详细信息，请参阅[已连接记录概述](/help/quicksilver/planning/records/connected-records-overview.md)。
 
@@ -109,12 +112,13 @@ recommendations: noDisplay, noCatalog
 
 ## 有关使用自动化创建对象和记录的注意事项
 
-* 新对象或记录名称与从中创建该对象的记录名称相同。
-* 如果用于的自动化记录已连接了您选择向其中添加新对象的字段中的相同类型的对象，则新对象将添加到连接字段中，而现有对象也保持连接状态。
+* 新对象或记录名称与从中创建该对象的记录名称相同。<!--take this out when they add the field mapping - no longer just the name of the original record-->
+* 新对象不会覆盖同一字段中的现有对象。
+* 该自动化仅在多对多连接类型字段或一对多连接类型字段中创建附加对象。
 
 ## 在Workfront Planning中配置自动化
 
-您必须先在Workfront Planning中配置自动化，然后才能使用它创建对象。
+您必须先在Workfront Planning中为记录类型配置自动化，然后才能使用它创建对象。
 
 {{step1-to-planning}}
 
@@ -128,14 +132,16 @@ recommendations: noDisplay, noCatalog
 1. 单击屏幕右上角的&#x200B;**新建自动化**。 将打开&#x200B;**新自动化**&#x200B;框。
 1. 更新以下字段：
 
-   * 将&#x200B;**无标题的自动化**&#x200B;替换为要显示在自动化按钮上的文本。 使用自动化创建Workfront对象时，用户将单击此按钮。
+   * 将&#x200B;**无标题的自动化**&#x200B;替换为要显示在自动化按钮上的文本。 使用自动化创建Workfront对象或Planning记录时，用户将单击此按钮。
    * **描述**：添加描述以标识自动化的目的。
+1. 单击&#x200B;**保存**。
+自动化详细信息页面将打开。
 
 1. 在自动化的详细信息页面上，更新&#x200B;**触发器**&#x200B;部分中的以下字段：
 
    * **触发器**：选择将触发自动化的操作。 例如，选择&#x200B;**按钮单击**。<!--update this step with a list of all possible triggers; right not only Button click is available-->
 
-1. 更新&#x200B;**操作**&#x200B;部分中的以下字段：
+1. 更新&#x200B;**操作**&#x200B;部分中的以下字段： <!--submitted bugs for these fields - see if they need changing here-->
    * **对象类型**：选择要自动创建的对象。 这是必填字段。
 
      您可以从Workfront Planning记录创建以下对象：
@@ -163,25 +169,26 @@ recommendations: noDisplay, noCatalog
       * **要附加到新组的自定义表单**：选择要附加到新程序的自定义表单。 您必须先创建程序自定义表单，然后才能选择它。
    * **记录**：
       * **连接的记录类型**：选择要创建的记录类型。
-      * **创建记录的已连接字段**：这是将显示新记录的已连接字段。 这是必填字段。
-      * **映射字段**：从创建自动化的记录类型中选择字段，以将其映射到连接的记录类型的字段。
-      * **至连接的记录字段**：从连接的记录中选择与创建自动化记录类型对应的字段。
+      * **创建记录的已连接字段**：这是将显示新记录的已连接字段。 这是必填字段。<!--this might need revision as right now it shows the field on the connected record table where the current record will display; submitted a bug to correct this label-->
+      * **映射字段**
+         * **传输自**：从创建自动化的记录类型中选择字段，以将其映射到连接的记录类型的字段。
+      * **传输到**：从新创建的记录中选择将使用您运行自动化的记录中的信息填充的字段。
+1. （可选且有条件）如果您选择创建记录，请单击&#x200B;**添加字段**&#x200B;以将其他查找字段从一个记录映射到另一个记录。
 1. （可选且有条件）如果您没有Workfront对象类型的连接字段，请单击&#x200B;**创建连接字段**&#x200B;图标![](assets/create-a-connection-field-icon.png)以添加字段。
-1. （可选且有条件）如果您已选择添加记录，请单击&#x200B;**映射字段**&#x200B;区域中的&#x200B;**添加**&#x200B;以添加和映射其他字段，然后选择要&#x200B;**从**&#x200B;转移的字段和要&#x200B;**从**&#x200B;转移的字段以指示原始选定记录的字段应显示在连接记录的哪个字段中。
-1. 单击&#x200B;**保存**。
+1. 单击自动化详细信息页面右上角的&#x200B;**保存**。
 
    自动化显示在自动化列表中，并可用于记录。
 1. （可选）要编辑、禁用或删除自动化，请执行以下操作：
 
-   从自动化列表中，将鼠标悬停在已保存自动化的名称上，然后单击&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后选择以下选项之一：
+   1. 在自动化列表中，将鼠标悬停在已保存自动化的名称上，然后单击&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)。
 
-   * **编辑**：更新有关自动机的信息并配置字段。
-   * **禁用**：自动化将不会作为选项显示在记录的表格视图的工具栏中，用户无法再使用它来创建记录或对象。 若要使其再次可用，请再次单击&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**激活**。
-   * **Delete**：自动化已删除，无法恢复。 使用自动化创建的记录仍与最初选择的记录保持连接。
+   1. 单击&#x200B;**编辑**&#x200B;以更新有关自动机的信息并配置字段。
+   1. 单击&#x200B;**禁用**&#x200B;可从表视图中删除自动化并阻止用户使用它创建记录或对象。 若要使其再次可用，请再次单击&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**激活**。
+   1. 单击&#x200B;**删除**&#x200B;以删除自动化。 无法恢复已删除的自动化。 使用自动化创建的记录仍与最初选择的记录保持连接。
 
-## 使用Workfront Planning自动化功能创建对象
+## 使用Workfront Planning自动化功能创建对象或记录
 
-1. 在Workfront Planning中，打开包含要用于创建Workfront对象的记录的记录类型页面。
+1. 在Workfront Planning中，打开记录类型页面，其中包含要用于创建Workfront对象或Planning记录的记录。
 1. 打开表格视图。
 1. 选择一个或多个记录。
 
@@ -190,7 +197,9 @@ recommendations: noDisplay, noCatalog
 
    ![自动化按钮](assets/automation-custom-button.png)
 
-   新对象将显示在自动按钮的设置中指示的已连接字段中。
+   如果自动化成功创建了对象或记录，则屏幕底部会显示确认消息。
+
+   新对象将显示在自动按钮的设置中指示的已连接字段中。 在查看新对象之前，您可能需要刷新页面。
 
    >[!NOTE]
    >

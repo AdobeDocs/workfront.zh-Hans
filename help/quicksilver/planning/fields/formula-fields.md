@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
+source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 8%
+source-wordcount: '621'
+ht-degree: 7%
 
 ---
 
@@ -181,18 +181,16 @@ OLD:
 
 Adobe Workfront Planning公式字段支持Workfront计算字段中的大多数表达式。
 
-<!-- make the note available when WF releases the expressions listed in it: 
-
 >[!NOTE]
 >
->The following Workfront expressions are not supported for Workfront Planning formula fields: 
+>Workfront Planning公式字段不支持以下Workfront表达式：
 >
 >* SORTASCARRAY
 >* SORTDESCARRAY
 >* ADDHOUR
->* SWITCH
->* FORMAT
--->
+>* 切换
+>* 格式
+
 
 有关Workfront表达式的完整列表，请参阅[计算数据表达式的概述](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)。
 
@@ -211,21 +209,6 @@ Adobe Workfront Planning公式字段支持Workfront计算字段中的大多数�
  </thead> 
  <tbody>
 
-<tr>
-   <td><strong>数组</strong> </td>
-   <td> <p>将字符串转换为数组。分隔符可以是任意字符串。</p>
-   <p>表达式的格式如下所示：</p>
-   <p><code>ARRAY(string1, "delimiter")</code></p>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>ARRAYELEMENT</strong> </td>
-   <td> <p>返回数组中指定数字处的元素。 如果索引超出范围，则返回空。</p>
-   <p>表达式的格式如下所示：</p>
-   <p><code>ARRAYELEMENT(array, number)</code></p>
-   </td>
-  </tr>
-
 <tr> 
    <td><strong>ARRAYJOIN</strong> </td> 
    <td> <p>按分隔符返回连接字符串。</p> <p>表达式的格式如下所示：
@@ -233,14 +216,7 @@ Adobe Workfront Planning公式字段支持Workfront计算字段中的大多数�
 <code>ARRAYJOIN（分隔符，数组）</code>
 </p>
    </td></tr>
-  <tr>
-   <td><strong>ARRAYLENGTH</strong> </td>
-   <td> <p>返回数组中的元素数，格式如下：</p>
-   <p><code>ARRAYLENGTH(array)</code></p>
-   </td>
-  </tr>
-
-<tr> 
+    <tr> 
    <td><strong>ARRAYUNIQUE</strong> </td> 
    <td> <p>返回具有唯一值的数组。</p> <p>表达式的格式如下所示：
 

@@ -6,14 +6,13 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '375'
 ht-degree: 1%
 
 ---
 
-<!--check the workfront.com/plans article linked below to see if there is content in there about Planning - after August 28, 2024-->
 
 # Adobe Workfront Planning对象限制概述
 
@@ -50,7 +49,7 @@ Adobe Workfront Planning对实例中可创建的对象数量存在限制。 设�
 
 *我们建议不要拥有太多工作区，因为它们可能会变得难以管理，并且您的工作流可能过于分散。
 
-有关Workfront Planning定价和包装的信息，请参阅[Adobe Workfront定价和包装](https://business.adobe.com/products/workfront/pricing.html)。
+有关Workfront Planning定价和打包的信息，请联系您的客户经理。
 
 <!--
 ****************KEEP THIS COMMENTED OUT:
