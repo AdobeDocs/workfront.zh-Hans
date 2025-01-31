@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: af7cca08b80dff1baa9a2d9dad421920db008981
+source-git-commit: 31d8528c5e6d31e59492f869a426dc0a5d484edb
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
@@ -83,20 +83,20 @@ Workfront版本编号代表了每月和每季度的版本跟踪。 第一个数�
             </ul>
         </td>
     </tr>
-    <!--<tr>
+    <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">
-            Look-and-feel updates during the Second Quarter 2025 timeframe</a></p>
-            <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the Second Quarter 2025 timeframe. Review the individual release notes for specific release dates.</p>
+            在2025年第二季度期间的外观更新</a></p>
+            <p>在2025年第二季度内，对Adobe Workfront应用程序各个区域的外观和工作方式进行了小幅更新。 查看各个发行说明以了解具体发行日期。</p>
         </td>
         <td>
-            <p><b>Available on these dates:</b></p>
+            <p><b>在以下日期可用：</b></p>
             <ul>
-                <li>Preview release: Throughout the Second Quarter 2025 release timeframe</li>
-                <li><span class="preview">Production release: Review the release notes for specific dates</span></li>
+                <li>预览版本：在整个2025年第二季度发布时间范围内</li>
+                <li><span class="preview">生产版本：查看特定日期的发行说明</span></li>
             </ul>
         </td>
-    </tr>-->
+    </tr>
 </tbody>
 </table>
 

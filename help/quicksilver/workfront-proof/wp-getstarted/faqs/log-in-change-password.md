@@ -8,9 +8,9 @@ description: Workfront Proof管理员可以为“登录”页面设置个性化�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c67d411e-1cea-4a89-94a3-7503c4ce2eb7
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 0de21a39e2a4d2239e89eb2b10e44d9c9aa91a27
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '546'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 登录
 
-1. 转到[登录页面](https://www.proofhq.com/login)(或访问我们的网站[www.proofhq.com](https://www.proofhq.com/))。
+1. 转到[登录页面](https://app.proofhq.com/login)。
 
 1. 单击右上方的[!UICONTROL 登录]按钮。
 1. 输入您的电子邮件地址和密码。\
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 如果忘记了密码，可以向[!DNL Workfront Proof]发送一封重置电子邮件。
 
-1. 转到[登录页面](https://www.proofhq.com/login)(或访问我们的网站[www.proofhq.com](https://www.proofhq.com/))。
+1. 转到[登录页面](https://app.proofhq.com/login)。
 
 1. 单击&#x200B;**[!UICONTROL 忘记密码？]**
 1. 在出现的框中，键入您的电子邮件地址，然后单击&#x200B;**[!UICONTROL 获取链接]**。
