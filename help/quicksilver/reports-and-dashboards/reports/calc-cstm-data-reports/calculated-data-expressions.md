@@ -7,9 +7,9 @@ description: 您可以使用数据表达式在Adobe Workfront中定义计算的�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: b60a1e74d62e9b3945f69dc590f8cc202302c5af
 workflow-type: tm+mt
-source-wordcount: '2165'
+source-wordcount: '2425'
 ht-degree: 0%
 
 ---
@@ -132,6 +132,13 @@ ht-degree: 0%
 <p><code>ADDYEARS(date, number)</code></p> </td> 
   </tr> 
   <tr> 
+   <td><strong>ADDHOUR</strong> </td> 
+   <td> <p>将小时数添加到日期，格式如下：</p>
+
+<p><code>ADDHOUR(date, number)</code></p>
+   <p>注意：Workfront Planning不支持此函数。</p></td> 
+  </tr>
+  <tr> 
    <td><strong>CLEARTIME</strong> </td> 
    <td> <p>清除日期的时间部分，格式如下。 在本例中，日期是工作对象的“输入日期”。</p>
 
@@ -246,7 +253,7 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th>表达式</th> 
-   <th>说明</th> 
+   <th>解释</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -373,11 +380,47 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th>表达式</th> 
-   <th>说明</th> 
+   <th>解释</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
+   <td><strong>数组</strong> </td> 
+   <td> <p>将字符串转换为数组。分隔符可以是任意字符串。</p> 
+   <p>表达式的格式如下所示：</p>
+   <p><code>ARRAY(string1, "delimiter")</code></p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong>ARRAYLENGTH</strong> </td> 
+   <td> <p>返回数组中的元素数，格式如下：</p>
+   <p><code>ARRAYLENGTH(array)</code></p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong>ARRAYELEMENT</strong> </td> 
+   <td> <p>返回数组中指定数字处的元素。 如果索引超出范围，则返回空。</p> 
+   <p>表达式的格式如下所示：</p>
+   <p><code>ARRAYELEMENT(array, number)</code></p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong>SORTASCARRAY</strong> </td> 
+   <td> <p>对数组元素进行升序排序，并将其转换为第一个元素的类型。</p>
+   <p>表达式的格式如下所示：</p>
+   <p><code>SORTASCARRAY(array)</code></p>
+   <p>例如，["-12.6"， -13.0]将变为["-12.6"， "-13"]。</p>
+   <p>注意：Workfront Planning不支持此函数。</p></td> 
+  </tr>
+  <tr> 
+   <td><strong>SORTDESCARRAY</strong> </td> 
+   <td> <p>对数组元素进行降序排序，并将其转换为第一个元素的类型。</p>
+   <p>表达式的格式如下所示：</p>
+   <p><code>SORTDESCARRAY(array)</code></p>
+   <p>例如，["-12.6"， -13.0]将变为["-13"， "-12.6"]。</p>
+   <p>注意：Workfront Planning不支持此函数。</p></td> 
+  </tr>
+  <tr>   
    <td><strong>案例</strong> </td> 
    <td> <p>与其他表达式一起使用，根据索引号从列表中选择值。 </p>
    <p>索引号是返回数值（通常在已知范围内）的字段或函数。</p> 
@@ -413,6 +456,13 @@ ht-degree: 0%
 
 <p><code>ENCODEURL(string)</code></p></td> 
   </tr> 
+  <tr> 
+   <td><strong>格式</strong> </td> 
+   <td><p>返回带格式的文本。颜色选项有$$POSITIVE、$$INFORMATIVE、$$NEGATIVE、$$NOTICE以及其他格式选项有$$BOLD、$$ITALIC、$$UNDERLINE。每个函数只能使用一个颜色选项，并且最多可以使用三个其他格式选项。 如果未指定颜色选项，则应用系统的默认颜色。</p>
+   <p>表达式的格式如下所示：</p>
+   <p><code>FORMAT($$POSITIVE, $$BOLD, $$ITALIC)</code></p>
+   <p>注意：Workfront Planning不支持此函数。</p></td> 
+  </tr>   
   <tr> 
    <td><strong>IF</strong> </td> 
    <td> <p>评估指定的条件，如果为true，则返回trueExpression的值；如果为false，则返回falseExpression的值。</p>
@@ -504,18 +554,16 @@ ht-degree: 0%
    <td> <p>将数字转换为字符串，其格式如下：</p>
 
 <p><code>STRING(number)</code></p> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td><strong>SORTASCSTRING</strong> </td> 
    <td> <p>以升序排序一个字符串列表，格式如下：</p>
-
-<p><code>SORTASCSTRING(string1, string2, ...)</code></p> </td> 
-  </tr> 
+   <p><code>SORTASCSTRING(string1, string2, ...)</code></p> </td> 
+  </tr>
   <tr> 
    <td><strong>SORTDESCSTRING</strong> </td> 
    <td> <p> 以降序排序一个字符串列表，格式如下：</p>
-
-<p><code>SORTDESCSTRING(string1, string2, ...)</code></p> </td> 
+   <p><code>SORTDESCSTRING(string1, string2, ...)</code></p> </td> 
   </tr> 
   <tr> 
    <td><strong>SUBSTR</strong> </td> 
@@ -523,6 +571,13 @@ ht-degree: 0%
 
 <p><code>SUBSTR({string}, number of start position, number of end position)</code></p> </td> 
   </tr> 
+  <tr> 
+   <td><strong>开关</strong> </td> 
+   <td> <p>根据值列表评估表达式，并返回与第一个匹配值对应的结果。</p>
+   <p>表达式格式如下：</p>
+   <p><code>SWITCH(expression, value1, result1, [value2, result2], ...)</code></p>
+   <p>Workfront Planning不支持此函数。</p></td> 
+  </tr>   
   <tr> 
    <td><strong>修剪</strong> </td> 
    <td> <p>删除字符串开头和结尾的空格，格式如下：</p>
