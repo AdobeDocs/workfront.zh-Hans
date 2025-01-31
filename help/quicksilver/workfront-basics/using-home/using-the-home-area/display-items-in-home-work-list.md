@@ -6,10 +6,10 @@ description: 每个构件都包含自己的工作列表。 工作列表显示分
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
+source-git-commit: 107bb601b8d4fd9376657b5cf5840cee5d086613
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 6%
+source-wordcount: '991'
+ht-degree: 4%
 
 ---
 
@@ -59,6 +59,40 @@ ht-degree: 6%
 有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+## 要在工作列表中显示的工作项的要求
+
+有一些内置要求，工作项会针对这些要求显示在某些构件工作列表中。 工作项必须满足这些要求才能显示在以下小部件的工作列表中。
+
+### 我的任务小组件
+
+任务必须符合以下要求才能显示在“我的任务”小部件中：
+
+* 任务状态不等于“完成”。
+* 必须将登录用户分配给任务。
+* 任务状态不等于“已完成”。
+* 任务所属的项目必须处于与当前项目相同的状态。
+
+
+### 我的问题小组件
+
+问题必须符合以下要求才能显示在我的问题小部件中：
+
+* 必须将登录用户分配给问题。
+* 问题状态不等于“完成”。
+* 没有未解析的对象附加到问题。
+* 问题状态不等于“已完成”。
+* 问题所属的项目必须处于等于当前状态。
+
+### 我的团队小组件
+
+团队请求必须符合以下要求才能显示在“我的团队”小部件中：
+
+* 登录用户属于工作项分配到的团队。
+* 工作项状态不等于“完成”。
+* 该工作项没有附加未解决的审批流程。
+* 该工作项不是周期性任务。
+* 工作项所属的项目必须处于等于当前状态。
 
 ## 筛选您的工作
 

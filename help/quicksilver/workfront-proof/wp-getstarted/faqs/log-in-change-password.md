@@ -8,7 +8,7 @@ description: Workfront Proof管理员可以为“登录”页面设置个性化�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c67d411e-1cea-4a89-94a3-7503c4ce2eb7
-source-git-commit: 0de21a39e2a4d2239e89eb2b10e44d9c9aa91a27
+source-git-commit: e842e6714d6fa9c3944f03723f95029af1a85379
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 0%
@@ -22,6 +22,7 @@ ht-degree: 0%
 >本文提及独立产品[!DNL Workfront Proof]中的功能。 有关[!DNL Adobe Workfront]内部校对的信息，请参阅[校对](../../../review-and-approve-work/proofing/proofing.md)。
 
 ## 登录
+
 
 1. 转到[登录页面](https://app.proofhq.com/login)。
 
@@ -45,6 +46,7 @@ ht-degree: 0%
 ## 当您忘记密码时 {#when-you-forget-your-password}
 
 如果忘记了密码，可以向[!DNL Workfront Proof]发送一封重置电子邮件。
+
 
 1. 转到[登录页面](https://app.proofhq.com/login)。
 
