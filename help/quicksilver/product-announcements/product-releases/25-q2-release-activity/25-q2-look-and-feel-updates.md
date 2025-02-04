@@ -4,9 +4,10 @@ description: 在2025年第二季度发布时间范围内的外观更新
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 31d8528c5e6d31e59492f869a426dc0a5d484edb
+exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
+source-git-commit: dcfae507d531e0062bfa9552f6c397be3e8bb007
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '76'
 ht-degree: 0%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 0%
 
 有关2025年第二季度版本的所有可用更改列表，请参阅[2025年第二季度版本概述](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)。
 
-## “共享”对话框的新外观
+<!--## New look and feel for the Share dialog 
 
 >[!NOTE]
 >
->预览版本： 2025年1月30日；用于快速发布的生产：用于25.2版（2025年2月）；用于季度发布的生产：用于25.4版（2025年4月）
+>Preview release: January 30, 2025; Production for fast release: With the 25.2 release (February 2025); Production for quarterly release: With the 25.4 release (April 2025)
 
-我们更新了“共享”对话框的现代设计外观，使其与Workfront的其他部分保持一致。 视觉上有细微的差异，包括：
+We have updated the look and feel of the Share dialog modern design that is consistent with other areas of Workfront. There are slight visual differences including:
 
-* “系统范围可见”选项现在显示“系统中的每个人都可以查看”。 此选项仍可像之前一样运行。
-* 新增了一个图标以访问高级共享设置。
+* The "Visible system-wide" option now displays "Everyone in the system can view". This option still functions as it did previously. 
+* There is a new icon to access advanced share settings.-->

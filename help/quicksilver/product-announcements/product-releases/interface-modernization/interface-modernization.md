@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 99431b88648919c5f4f90228dbedd97cd2efbd65
+source-git-commit: d8a76c9afacde32336fb8de4da531173e323112a
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1134'
 ht-degree: 0%
 
 ---
@@ -109,6 +109,17 @@ ht-degree: 0%
 此更新包括对该区域的可视化更改。 功能未发生更改。
 
 ## 敏捷
+
+## 团队>积压区域的界面更新
+
+**预览版本： 2025年1月23日；生产版本：从2025年2月13日开始的一周开始**
+
+我们更新了团队>积压工作区域，使其设计更加现代化，与Workfront的其他区域保持一致。
+
+此更新包括以下更改：
+
+* 对“故事和问题”选项卡以及“分解故事”对话框的可视增强功能
+* 计划迭代工具的新对话框
 
 ### 小版本列表的界面更新
 
