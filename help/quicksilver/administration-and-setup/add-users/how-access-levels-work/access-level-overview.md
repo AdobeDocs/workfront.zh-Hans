@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: be7377a0c4d933823f65ed09d2b1fc091779f252
 workflow-type: tm+mt
-source-wordcount: '1745'
+source-wordcount: '1741'
 ht-degree: 5%
 
 ---
@@ -87,7 +87,7 @@ Workfront具有5个新的内置访问级别：
 
 以下是标准访问级别中对象可用的最高访问设置：
 
-| Workfront对象类型 | 无权访问 | 查看访问权限 | 编辑访问权限 |
+| Workfront对象类型 | 无访问权限 | 查看访问权限 | 编辑访问权限 |
 |---|---|---|---|
 | 项目 |   |   | ✓ {\f13 } |
 | 任务 |   |   | ✓ {\f13 } |
@@ -117,7 +117,6 @@ Workfront具有5个新的内置访问级别：
 * 查看功能板和报表
 * 跟踪时间并批准工时表
 * 创建和管理问题
-* 在工作中进行更新
 
 具有轻度访问级别的用户：
 
@@ -141,7 +140,7 @@ Workfront具有5个新的内置访问级别：
  <thead> 
   <tr> 
    <th>Workfront对象类型</th> 
-   <th>无权访问</th> 
+   <th>无访问权限</th> 
    <th>查看访问权限</th> 
    <th>编辑访问权限</th> 
   </tr> 
@@ -276,7 +275,7 @@ Workfront具有5个新的内置访问级别：
 
 以下是参与者访问级别中对象的最高访问设置：
 
-| Workfront对象类型 | 无权访问 | 查看访问权限 | 编辑访问权限 |
+| Workfront对象类型 | 无访问权限 | 查看访问权限 | 编辑访问权限 |
 |---|---|---|---|
 | 项目 |   | ✓ {\f13 } |   |
 | 任务 |   | ✓ {\f13 } |   |
@@ -327,7 +326,7 @@ Workfront具有5个新的内置访问级别：
 
 以下是外部用户访问级别中对象可用的最高访问设置。
 
-| Workfront对象类型 | 无权访问 | 查看访问权限 | 编辑访问权限 |
+| Workfront对象类型 | 无访问权限 | 查看访问权限 | 编辑访问权限 |
 |---|---|---|---|
 | 项目 | ✓ {\f13 } |   |   |
 | 任务 | ✓ {\f13 } |   |   |
