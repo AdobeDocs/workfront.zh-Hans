@@ -6,9 +6,9 @@ description: 迭代是Scrum敏捷团队规划工作容量的关键组件。 [!DN
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -48,18 +48,19 @@ ht-degree: 0%
 
 ## 添加迭代
 
-使用[!UICONTROL 添加迭代]功能可快速创建迭代，并在以后添加任务和问题。
+可在列表中添加开发周期以快速创建开发周期，并稍后向其添加任务和问题。
 
 {{step1-to-team}}
 
 1. （可选）单击&#x200B;**[!UICONTROL 切换团队]**&#x200B;图标![切换团队图标](assets/switch-team-icon.png)，然后从下拉菜单中选择新的Scrum团队或在搜索栏中搜索团队。
 
 1. 在&#x200B;**[!UICONTROL 迭代]**&#x200B;选项卡上，单击&#x200B;**[!UICONTROL 添加迭代]**。
-   ![](assets/add-iteration-adobe-350x275.png)
+
+   ![单击“添加迭代”](assets/click-add-iteration.png)
 
 1. 指定以下内容：
 
-   <table style="table-layout:auto"> 
+   <table style="table-layout:auto">
     <col> 
     <col> 
     <tbody> 
@@ -90,7 +91,7 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. 单击&#x200B;**[!UICONTROL 提交]**。 现在您已创建迭代，需要添加故事。 有关详细信息，请参阅[将故事添加到现有迭代](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)。
+1. 单击&#x200B;**[!UICONTROL 添加迭代]**。 现在您已创建迭代，需要添加故事。 有关详细信息，请参阅[将故事添加到现有迭代](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)。
 
 ## 在[!UICONTROL 积压]选项卡上规划迭代
 

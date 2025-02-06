@@ -6,9 +6,9 @@ description: 如果您不再需要敏捷团队的迭代，可将其删除。
 author: Lisa
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '165'
 ht-degree: 1%
 
 ---
@@ -57,4 +57,4 @@ ht-degree: 1%
 1. （可选）单击&#x200B;**[!UICONTROL 切换团队]**&#x200B;图标![切换团队图标](assets/switch-team-icon.png)，然后从下拉菜单中选择新的Scrum团队或在搜索栏中搜索团队。
 
 1. 在左侧面板中，选择&#x200B;**[!UICONTROL 迭代]**。
-1. 选择要删除的迭代，然后单击&#x200B;**[!UICONTROL 删除]**。
+1. 选择要删除的迭代，然后单击&#x200B;[!UICONTROL **删除**]&#x200B;图标![删除图标](assets/delete-icon.png)。
