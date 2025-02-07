@@ -1,0 +1,247 @@
+---
+content-type: api
+navigation-topic: general-api
+title: 事件订阅版本控制
+description: 事件订阅API
+author: Becky
+feature: Workfront API
+role: Developer
+source-git-commit: e93634acdf2a97344f014c28ff9bbf43f1392e53
+workflow-type: tm+mt
+source-wordcount: '1100'
+ht-degree: 0%
+
+---
+
+
+# 事件订阅版本控制
+
+Workfront提供两个版本的活动订阅。 本文介绍了它们之间的区别。
+
+这并非对Workfront API进行了更改，而是对事件订阅功能进行了更改。
+
+升级或降级事件订阅的功能确保在对事件结构做出更改时，现有订阅不会中断，从而允许您测试和升级到新版本，而不会在事件订阅中出现间隙。
+
+>[!IMPORTANT]
+>
+>以下版本将影响事件订阅版本控制：
+>
+>* **25.2版本**（2025年4月10日）：在25.2版本之后创建的所有新订阅都创建为版本2。
+>* **25.3版本**（2025年7月17日）：在25.3版本发布后，订阅无法再降级为版本1。
+
+## 版本1与版本2之间的更改
+
+已对事件订阅版本2进行以下更改
+
+
+### 一般更改
+
+
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th> <p><b>受影响的字段</b></p> </th> 
+   <th> <p><b>版本1（以前的行为）</b></p> </th> 
+   <th> <p><b>版本2（更改）</b></p> </th> 
+   <th> <p><b>修正操作</b></p> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>参数值</p> </td> 
+   <td> <p>对于从包含自定义表单的模板创建的任何对象，先发送<code>CREATE</code>事件，然后发送包含参数值（包括计算字段及其值）的<code>UPDATE</code>。    </p> </td> 
+   <td> <p>只发送<code>CREATE</code>事件，其中包含包含计算字段的参数值。</p> </td> 
+   <td> <p>如果您对<code>UPDATE</code>事件具有一个带参数值（包括计算的自定义字段）的筛选器，并且预期在包含参数值的对象<code>CREATE</code>事件之后收到该筛选器，则您将不再收到该<code>UPDATE</code>事件。 如果要查看对象创建时的参数值，则必须创建一个额外的<code>CREATE</code>订阅。</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>多选类型字段</p> </td> 
+   <td> <p>对于包含多选类型字段更改的任何类型事件，如果该字段仅包含一个值，则它将转换为并以字符串形式发送。 否则，它将作为数组发送。 </p><p>示例：</p><ul><li><code>myMultiSelectField: ["oneValue"]</code> 已转换并作为<code>myMultiSelectField: "oneValue"</code>发送。</li><li><code>myMultiSelectField: ["first", "second"]</code> 作为<code>myMultiSelectField: ["first", "second"]</code>发送。</li></ul> </td> 
+   <td> <p>无论数组中有多少值，它都将作为数组发送。 </p><p>示例：</p><ul><li><code>myMultiSelectField: ["oneValue"]</code> 作为<code>myMultiSelectField: ["oneValue"]</code>发送。</li><li><code>myMultiSelectField: ["first", "second"]</code> 作为<code>myMultiSelectField: ["first", "second"]</code>发送。</li></ul> </td> 
+   <td> <p>如果您有一个预订，该预订在多选字段上具有筛选器，且值为字符串，则必须使用具有值为数组的相同筛选器创建新预订。 </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### 对象特定的更改
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th> <b>对象代码</b> </th> 
+   <th> <b>受影响的字段</b> </th> 
+   <th> <b>版本1（上一个行为）</b></th> 
+   <th> <b>版本2（更改）</b> </th> 
+   <th> <b>修正操作</b> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <th rowspan="1">分配</th> 
+   <td>
+    <ul>
+     <li><code>projectID</code></li>
+     <li><code>taskID</code></li>
+     <li><code>opTaskID</code></li>
+     <li><code>customerID</code></li>
+    </ul> 
+   </td> 
+   <td>更新此对象时，<code>UPDATE</code>事件有时错误地显示受影响的字段从<code>null</code>更改为<code>ID value</code>。</td> 
+   <td>所有<code>UPDATE</code>事件都显示受影响字段的正确值。</td> 
+   <td>无。 如果对受影响的字段应用了过滤器，则只有在这些字段实际发生更改时，而不是任何其他值发生更改时，您才会收到<code>UPDATE</code>事件。
+   </td> 
+  </tr> 
+  <tr> 
+   <th rowspan="2">DOCU</th> 
+   <td>
+    <ul>
+     <li><code>referenceObjID</code></li>
+    </ul> 
+   </td> 
+   <td>在此对象上更新任何参数值时，<code>UPDATE</code>事件错误地显示受影响的字段从<code>null</code>更改为<code>object id</code>。 </td> 
+   <td>所有<code>UPDATE</code>事件都显示受影响字段的正确值。</td> 
+   <td>无。 如果对受影响的字段应用了过滤器，则只有在这些字段实际发生更改时，而不是任何其他值发生更改时，您才会收到<code>UPDATE</code>事件。
+  </tr> 
+  <tr> 
+  <td>
+    <ul>
+     <li><code>groups</code></li>
+    </ul> 
+   </td> 
+   <td>删除文档时，<code>DELETE</code>事件将受影响的字段错误地显示为处于before状态的空数组。    </td> 
+   <td><code>DELETE</code>事件正确显示了处于“之前”状态的受影响字段。</td> 
+   <td>无。 <code>DELETE</code>事件仍将被发送，但现在显示受影响字段的正确数据。 
+</td> 
+  </tr> 
+  <tr> 
+   <th rowspan="1">DOCV</th> 
+  <td>
+    <ul>
+     <li><code>proofDecision</code></li>
+     <li><code>proofName</code></li>
+     <li><code>proofProgress</code></li>
+    </ul> 
+   </td> 
+   <td>更新此对象时，将发送两个<code>UPDATE</code>事件。 第一个事件不包含受影响的字段，而第二个事件包含。</td> 
+   <td>所有字段更新（包括受影响的字段）都仅存在于一个<code>UPDATE</code>事件中，并且不会发送第二个不必要的事件。     </td> 
+   <td>无。 如果对受影响的字段应用了过滤器，则事件将在第一个事件中交付。 
+</td> 
+  </tr> 
+  <tr> 
+   <th rowspan="2">展开</th> 
+  <td>
+    <ul>
+     <li><code>topReferenceObjCode</code></li>
+     <li><code>referenceObjectName</code></li>
+    </ul> 
+   </td> 
+   <td>为费用更新任何参数值时，<code>UPDATE</code>事件错误地显示了topReferenceObjCode从<code>EXPNS</code>更改为<code>PROJ</code>，<code>referenceObjectName</code>从<code>null</code>更改为<code>string value of project name</code>。      </td> 
+   <td>所有<code>UPDATE</code>事件都显示受影响字段的正确值。</td> 
+   <td>无。 如果对受影响的字段应用了过滤器，则只有在这些字段实际发生更改时，而不是任何其他值发生更改时，您才会收到<code>UPDATE</code>事件。
+  </tr> 
+  <tr> 
+  <td>
+    <ul>
+     <li><code>topReferenceObjCode</code></li>
+     <li><code>referenceObjectName</code></li>
+    </ul> 
+   </td> 
+   <td>删除费用对象时，在发送<code>DELETE</code>事件之前发送了<code>UPDATE</code>事件，并将受影响的字段更改为null。    </td> 
+   <td>未发送额外的<code>UPDATE</code>事件。 <code>DELETE</code>事件具有处于“之前”状态的受影响字段的正确值。 </td> 
+   <td>如果您对<code>UPDATE</code>事件中受影响的字段具有过滤器，并且希望在删除对象时收到该过滤器，则您将不再收到该<code>UPDATE</code>事件。 如果您希望在删除对象时看到这些字段，则必须创建其他<code>DELETE</code>订阅。
+</td> 
+  </tr> 
+  <tr> 
+   <th rowspan="1">HOUR</th> 
+  <td>
+    <ul>
+     <li><code>projectID </code></li>
+     <li><code>taskID </code></li>
+     <li><code>roleID</code></li>
+     <li><code>timesheetID</code></li>
+     <li><code>hourTypeID </code></li>
+     <li><code>projectOverheadID</code></li>
+     <li><code>referenceObjID</code></li>
+     <li><code>referenceObjCode</code></li>
+     <li><code>securityRootID</code></li>
+    </ul> 
+   </td> 
+   <td>删除此对象时，<code>DELETE</code>事件将受影响的字段错误地显示为<code>null</code>，其状态为“之前”。 </td> 
+   <td><code>DELETE</code>事件正确显示了处于“之前”状态的受影响字段。</td> 
+   <td>无。 <code>DELETE</code>事件仍会发送，但现在会显示受影响字段的正确数据。 </td> 
+  </tr> 
+  <tr> 
+   <th rowspan="2">OPTASK</th> 
+  <td>
+    <ul>
+     <li><code>rootGroupID</code></li>
+    </ul> 
+   </td> 
+   <td>在此对象上更新任何参数值时，<code>UPDATE</code>事件错误地显示受影响的字段从<code>null</code>更改为<code>ID value</code>。 </td> 
+   <td>所有<code>UPDATE</code>事件都显示受影响字段的正确值。</td> 
+   <td>无。 如果受影响的字段上有筛选器，则仅当该字段实际发生更改时，而不是当任何其他参数值发生更改时，您才会收到<code>UPDATE</code>事件。
+</td> 
+  </tr> 
+  <tr> 
+  <td>
+    <ul>
+     <li><code>resolveProjectID</code></li>
+     <li><code>resolveTaskID</code></li>
+     <li><code>resolvingObjID</code></li>
+    </ul> 
+   </td> 
+   <td>更新此对象时，<code>UPDATE</code>事件有时错误地显示受影响的字段从<code>null</code>更改为<code>ID value</code>。</td> 
+   <td>所有<code>UPDATE</code>事件将显示受影响字段的正确值。    </td> 
+   <td></td> 
+  </tr> 
+  <tr> 
+   <th rowspan="2">项目</th> 
+  <td>
+    <ul>
+     <li><code>rootGroupID</code></li>
+    </ul> 
+   <td>在此对象上更新任何参数值时，<code>UPDATE</code>事件错误地显示受影响的字段从<code>null</code>更改为<code>ID value</code>。 </td> 
+   <td>所有<code>UPDATE</code>事件都显示受影响字段的正确值。</td> 
+   <td>无。 如果受影响的字段上有筛选器，则仅当该字段实际发生更改时，而不是当任何其他参数值发生更改时，您才会收到<code>UPDATE</code>事件。
+  </tr> 
+  <tr> 
+  <td>
+    <ul>
+     <li><code>convertedOpTaskID</code></li>
+    </ul> 
+   </td> 
+   <td>更新此对象时，<code>UPDATE</code>事件有时错误地显示受影响的字段从<code>null</code>更改为<code>ID value</code>。</td> 
+   <td>所有<code>UPDATE</code>事件都显示受影响字段的正确值。</td> 
+   <td>无。 如果受影响的字段上有筛选器，则仅当该字段实际发生更改时，而不是当任何其他参数值发生更改时，您才会收到<code>UPDATE</code>事件。
+  </tr> 
+  <tr> 
+   <th rowspan="2">任务</th> 
+  <td>
+    <ul>
+     <li><code>rootGroupID</code></li>
+    </ul> 
+   </td> 
+   <td>在此对象上更新任何参数值时，<code>UPDATE</code>事件错误地显示受影响的字段从<code>null</code>更改为<code>ID value</code>。 </td> 
+   <td>所有<code>UPDATE</code>事件都显示受影响字段的正确值。</td> 
+   <td>无。 如果受影响的字段上有筛选器，则仅当该字段实际发生更改时，而不是当任何其他参数值发生更改时，您才会收到<code>UPDATE</code>事件。
+  </tr> 
+  <tr> 
+  <td>
+    <ul>
+     <li><code>convertedOpTaskID</code></li>
+    </ul> 
+   </td> 
+   <td>更新此对象时，<code>UPDATE</code>事件有时错误地显示受影响的字段从<code>null</code>更改为<code>ID value</code>。</td> 
+   <td>所有<code>UPDATE</code>事件都显示受影响字段的正确值。</td> 
+   <td>无。 如果受影响的字段上有筛选器，则仅当该字段实际发生更改时，而不是当任何其他参数值发生更改时，您才会收到<code>UPDATE</code>事件。
+ </tbody> 
+</table>
