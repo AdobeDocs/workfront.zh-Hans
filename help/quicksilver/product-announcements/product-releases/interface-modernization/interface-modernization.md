@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: d8a76c9afacde32336fb8de4da531173e323112a
+source-git-commit: 36ec1b2e8bdd499718c1a46d2549b46ddce3b4aa
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,14 @@ ht-degree: 0%
 有关Adobe Workfront的所有其他更改，请参阅[产品版本](/help/quicksilver/product-announcements/product-releases/product-releases.md)。
 
 ## 管理和设置
+
+### “设置”中审批流程设置的界面更新
+
+**预览版本： 2025年2月6日；生产版本：待宣布**
+
+我们更新了“审批设置”对话框，使其设计更加现代化，与Workfront的其他区域保持一致。
+
+要查看设置，请转到设置>首选项>审批>选择页面顶部的设置图标。
 
 ### 在设置>组中更新审批区域的界面
 
@@ -110,7 +118,17 @@ ht-degree: 0%
 
 ## 敏捷
 
-## 团队>积压区域的界面更新
+### 将故事和问题添加到迭代
+
+**预览版本： 2025年2月6日；生产版本：待宣布**
+
+我们更新了添加故事和添加问题对话框，使其采用与Workfront其他区域一致的更加现代的设计。
+
+此更新包括对该区域的可视化更改。 功能未发生更改。
+
+要查看此更改，请转到“团队”>“选择团队”>“迭代”>“选择迭代”，然后单击&#x200B;**新建故事**&#x200B;或&#x200B;**新建问题**。
+
+### 团队>积压区域的界面更新
 
 **预览版本： 2025年1月23日；生产版本：从2025年2月13日开始的一周开始**
 
@@ -123,7 +141,7 @@ ht-degree: 0%
 
 ### 小版本列表的界面更新
 
-**预览版本： 2025年1月23日；生产版本：待宣布**
+**预览版本： 2025年1月23日；生产版本：从2025年2月3日开始的一周开始**
 
 我们更新了“团队”>“迭代”列表，使其设计更加现代化，与Workfront的其他区域保持一致。
 
