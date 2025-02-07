@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 2be211a8-df84-49c3-827f-1215c77159e0
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 0%
    在显示的列表中，您可以看到您管理的组以及它们具有的任何子组。 Adobe Workfront管理员可以查看所有组。
 
 1. 单击要为其创建或修改布局模板的组的名称。
-1. 在左侧面板中，单击&#x200B;**布局模板** ![](assets/layout-templates-icon.png)。
+1. 在左侧面板中，单击&#x200B;**布局模板** ![布局模板图标](assets/layout-templates-icon.png)。
 
 1. 执行以下任一操作：
 

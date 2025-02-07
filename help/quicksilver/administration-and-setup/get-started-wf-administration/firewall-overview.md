@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 5cd1cbd1976d5574668098be53daee780a9cc1fb
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 0%
+source-wordcount: '728'
+ht-degree: 1%
 
 ---
 
@@ -105,10 +105,10 @@ Workfront使用特定的IP地址和域进行Web通信。 必须将这些组件�
 
    您的群集显示在&#x200B;**基本信息**&#x200B;部分的右上角附近。
 
-   ![](assets/locate-cluster.png)
+   ![查找群集](assets/locate-cluster.png)
 
 1. 要查看您的Workfront计划，请选择&#x200B;**许可证**。
 
    您的计划将显示在页面的右上角附近。
 
-   ![](assets/locate-plan.png)
+   ![查找计划](assets/locate-plan.png)

@@ -9,7 +9,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 2375cf5d7ae817340ce9552994d87cb5af9a054b
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
 source-wordcount: '2754'
 ht-degree: 6%
@@ -79,7 +79,7 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
 {{step-1-to-setup}}
 
 <!--
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  -->
+1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).  -->
 
 1. 单击&#x200B;**系统** > **导入数据(Kick-Start)**。
 
@@ -174,9 +174,9 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
       <td> <p> 外部页面</p> <p>首选项 </p> </td> 
      </tr> 
      <tr> 
-      <td>过滤器</td> 
+      <td>筛选条件</td> 
       <td>导出为ZIP文件</td> 
-      <td> <p> 过滤器</p> <p>首选项 </p> </td> 
+      <td> <p> 筛选条件</p> <p>首选项 </p> </td> 
      </tr> 
      <tr> 
       <td>组</td> 
@@ -478,7 +478,7 @@ Kick-Start导入支持以下文件类型：
 
 要将模板电子表格数据导入Workfront，请执行以下操作：
 
-<!--1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).-->
+<!--1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).-->
 
 {{step-1-to-setup}}
 

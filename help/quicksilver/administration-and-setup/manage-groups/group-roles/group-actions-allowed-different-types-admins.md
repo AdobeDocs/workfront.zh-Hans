@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '541'
 ht-degree: 3%
 
 ---
@@ -226,7 +226,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-&#42;在组管理员的访问级别中，必须为&#x200B;**用户**&#x200B;设置选择&#x200B;**编辑**，并在&#x200B;**微调您的设置** ![](assets/gear-icon-in-access-levels.png)下选择&#x200B;**用户管理员（组用户）**。 有关详细信息，请参阅[向用户授予访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)文章中的[配置用户的访问权限，以使用自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit)编辑用户部分。
+&#42;在组管理员的访问级别中，必须为&#x200B;**用户**&#x200B;设置选择&#x200B;**编辑**，并在&#x200B;**微调设置** ![微调设置图标](assets/gear-icon-in-access-levels.png)下选择&#x200B;**用户管理员（组用户）**。 有关详细信息，请参阅[向用户授予访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)文章中的[配置用户的访问权限，以使用自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit)编辑用户部分。
 
 &#42;&#42;在组管理员的访问级别中，必须启用对此操作的访问权限。 有关详细信息，请参阅[授予用户对特定区域的管理访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
 

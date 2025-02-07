@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f643d36-6235-4fd3-b6d3-54fbd03c9b33
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -66,14 +66,14 @@ ht-degree: 0%
 1. 键入自定义季度的名称，如“Fiscal Q1 2021”。
 1. 选择自定义季度的开始和结束日期。
 
-   ![](assets/custom-quarters-nwe.png)
+   ![自定义季度](assets/custom-quarters-nwe.png)
 
 1. （可选）单击&#x200B;**[!UICONTROL 添加自定义季度]**&#x200B;可向系统中添加其他自定义季度。
 1. （可选）创建引用会计季度的报表元素。
 
    **示例：**&#x200B;为[!UICONTROL 项目]列表创建过滤器，并包含引用自定义季度项目的计划完成日期。
 
-   ![](assets/example-of-project-filter-with-custom-quarters.png)
+   ![包含自定义季度的“项目”筛选器](assets/example-of-project-filter-with-custom-quarters.png)
 
    对“本季度”、“下一季度”和“上一季度”的引用将替换为对自定义季度的新引用。
 

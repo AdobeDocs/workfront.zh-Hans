@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1284'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 0%
 >
 >您正在访问的环境的名称（预览），且代码的发行版本会显示在横幅上。 单击&#x200B;**[!UICONTROL 查看新增功能]**&#x200B;以了解有关该版本的信息。
 >
->![](assets/preview-banner-nwe-350x161.png)
+>![预览横幅](assets/preview-banner-nwe-350x161.png)
 
 ## 访问预览沙盒
 

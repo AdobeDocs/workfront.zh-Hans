@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 66c1f049-c7b5-4d6b-9dc2-3c5f527764e9
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -58,14 +58,14 @@ ht-degree: 0%
 
 {{step-1-to-setup}}
 
-1. 在左侧面板中，单击&#x200B;**组** ![](assets/groups-icon.png)。
+1. 在左侧面板中，单击&#x200B;**组** ![组](assets/groups-icon.png)。
 
    在显示的列表中，您可以看到您管理的组以及它们具有的任何子组。 Adobe Workfront管理员可以查看所有组。
 
-1. 如果要导出您管理的整个组组，请单击“导出”图标![](assets/export.png)。
+1. 如果要导出您管理的整个组组，请单击“导出”图标![“导出”图标](assets/export.png)。
 
    或
 
-   要导出您管理的某些组，请选择这些组，然后单击导出图标![](assets/export.png)。
+   要导出您管理的某些组，请选择这些组，然后单击“导出”图标![“导出”图标](assets/export.png)。
 
 1. 为导出的列表选择所需的文件格式。

@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 8fe93796b2bc89352ac2c924d6a5e3bf25551ff0
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '294'
 ht-degree: 3%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 3%
    1. 单击左侧面板中的&#x200B;**系统**
    1. 要查看您的Workfront计划，请选择&#x200B;**许可证**。
 您的计划将显示在页面的右上角附近。
-      ![](assets/locate-plan.png)
+      ![查找计划](assets/locate-plan.png)
 
   或
 * 请联系您的Workfront客户代表。

@@ -10,9 +10,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 7d909976-d3ff-4e60-9158-c3bffe498e6e
-source-git-commit: 321ffac87bd694325dfb05e4019b25479f58684a
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -97,9 +97,9 @@ Workfront管理员通过在“设置”区域中配置默认Frame.io帐户，然
 
 {{step-1-to-users}}
 
-1. 选择一个或多个用户，然后单击&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)。
+1. 选择一个或多个用户，然后单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
 1. 在“访问”部分中，启用“添加到Frame.io中的项目”复选框，然后在下拉菜单中选择&#x200B;**是**。
-   ![](assets/add-to-frame-project.png)
+   ![添加到框架项目](assets/add-to-frame-project.png)
 
    >[!NOTE]
    >

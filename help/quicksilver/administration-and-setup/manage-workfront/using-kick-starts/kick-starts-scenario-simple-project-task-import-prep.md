@@ -3,16 +3,16 @@ user-type: administrator
 product-area: system-administration;projects
 keywords: kickstart，kick-start，kickstarts，kick-starts
 navigation-topic: use-kick-starts
-title: “Kick-Starts方案：简单的项目和任务导入准备”
+title: Kick-Starts方案：简单的项目和任务导入准备
 description: 详细描述使用Kick Start方法导入基本项目和任务时可用的设置和控件。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 9%
+source-wordcount: '1493'
+ht-degree: 8%
 
 ---
 
@@ -277,10 +277,10 @@ ht-degree: 9%
 
 打开您刚刚下载的Workfront.xlsx文件。 转到“项目项目”工作表。
 
-![](assets/im2.png)
+![项目项目集](assets/im2.png)
 除非您已经在Workfront中创建项目，否则它应为空。
 
-![](assets/im10.png)
+![空项目表](assets/im10.png)
 
 设置以下项目字段的值：
 
@@ -305,7 +305,7 @@ ht-degree: 9%
 * **设置其他所需的详细信息。**
 根据需要填写其他详细信息，例如描述或当前状态。 在“组ID”工作表中查找每个项目的组ID，并将其输入各个项目的setGroupID列。 在CMPY公司页上查找项目的公司ID，并将其输入到setCompanyID列中。 在“用户用户”工作表中查找每个项目所有者的用户ID，并将其输入到setOwnerID列中。 在用户用户工作表中查找每个项目发起人的用户ID，并将其输入到setSponsiderID列中。
 
-![](assets/im9.png)
+![设置值](assets/im9.png)
 
 >[!NOTE]
 >
@@ -319,11 +319,11 @@ ht-degree: 9%
 
 除非您已在Workfront中创建任务，否则此工作表应为空。
 
-![](assets/im8.png)
+![任务表](assets/im8.png)
 
-![](assets/im7.png)
+![空任务表](assets/im7.png)
 
-![](assets/im6.png)
+![任务表列](assets/im6.png)
 
 映射任务的最简单方法是一次映射一个项目（尤其是当每个项目中的任务相同时）。 然后，您可以复制第一个项目的任务计划，并对后续项目的任务计划进行细微调整。 其余步骤将假定您仅为实施Workfront项目创建任务。 根据此方案，您将为每个项目导入9个任务，因此请将TRUE输入到isNew列的第3行至第11行中。
 
@@ -364,7 +364,7 @@ ht-degree: 9%
 * 在每个任务的setPercentComplete字段中输入完成百分比的整数表示形式。 此值不应包括百分比符号(%)。
 * 根据需要，为您正在创建的每个Task包括说明和其他详细信息。
 
-  ![](assets/im5.png)
+  ![添加详细信息](assets/im5.png)
 
 * setPlannedStartDate和setTaskConstraint列不用于构建此项目的时间线，因为我们依赖前置任务关系。 您可以为每个任务输入日期。 如果这样做，请确保还在setTaskConstraint列中提供了有效的任务限制。 有关此字段有效值的详细信息，请查看任务约束和相关文章。
 

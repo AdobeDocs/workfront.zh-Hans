@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8f7b0183-6035-4dd4-8e42-fd65485449bf
-source-git-commit: 63c2206905f4ebbc35cb162ae6e895b98b5d20eb
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -73,16 +73,16 @@ ht-degree: 0%
 
 1. 执行以下任一操作：
 
-   * 选择列表中的成员，然后单击“编辑![](assets/edit-icon.png)”以修改该人员的用户配置文件。
+   * 在列表中选择一个成员，然后单击“编辑”![“编辑”图标](assets/edit-icon.png)以修改该人员的用户配置文件。
 
      有关详细信息，请参阅[编辑用户的配置文件](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)或[批量编辑用户配置文件](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md)。
 
-   * 选择列表中的任意数量的成员，然后单击“更新![](assets/comment-icon.png)”以向其用户配置文件添加评论。
+   * 选择列表中的任意数量的成员，然后单击“更新![注释”图标](assets/comment-icon.png)以向他们的用户配置文件添加注释。
 
      一个或多个用户会收到应用程序内通知以及包含您评论的电子邮件通知。 该注释显示在用户配置文件的更新区域。
 
-   * 选择列表中任意数量的成员，然后单击“停用![](assets/deactivate-user.png)”或“激活![](assets/activate-user.png)”。
+   * 选择列表中任意数量的成员，然后单击“停用![停用用户](assets/deactivate-user.png)”或“激活![激活用户](assets/activate-user.png)”。
 
      有关详细信息，请参阅[停用或重新激活用户](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)。
 
-   * 导出![](assets/export.png)成员列表。
+   * 导出![导出](assets/export.png)成员列表。

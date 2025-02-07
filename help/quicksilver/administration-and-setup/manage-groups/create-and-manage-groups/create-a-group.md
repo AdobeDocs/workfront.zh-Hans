@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4a039619-0943-4b5b-ba7a-1ad9b5c11df0
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1652'
+source-wordcount: '1656'
 ht-degree: 3%
 
 ---
@@ -69,7 +69,7 @@ DON'T DELETE, DRAFT, OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH C
 
 {{step-1-to-setup}}
 
-1. 在左侧面板中，单击&#x200B;**组** ![](assets/groups-icon.png)。
+1. 在左侧面板中，单击&#x200B;**组** ![组](assets/groups-icon.png)。
 
 1. 在组列表上方，单击&#x200B;**新建组**。
 
@@ -141,11 +141,11 @@ DON'T DELETE, DRAFT, OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH C
 
 {{step-1-to-setup}}
 
-1. 在左侧面板中，单击&#x200B;**组** ![](assets/groups-icon.png)。
+1. 在左侧面板中，单击&#x200B;**组** ![组](assets/groups-icon.png)。
 
    在显示的列表中，您可以看到您管理的组以及它们具有的任何子组。 Adobe Workfront管理员可以查看所有组。
 
-1. 选择要复制的组，然后单击复制图标![](assets/copy-icon.png)。
+1. 选择要复制的组，然后单击“复制”图标![复制图标](assets/copy-icon.png)。
 1. 在出现的&#x200B;**复制组**&#x200B;框中，为复制的组键入&#x200B;**组名称**。
 
 1. 指定以下信息：

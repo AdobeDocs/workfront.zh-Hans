@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 {{step-1-to-setup}}
 
-1. 在左侧面板中，单击&#x200B;**组** ![](assets/groups-icon.png)。
+1. 在左侧面板中，单击&#x200B;**组** ![组](assets/groups-icon.png)。
 
 1. 单击要为其创建或修改公司的组的名称。
 1. 在左侧面板中，单击&#x200B;**公司**&#x200B;列出与组相关联的公司及其可能具有的任何子组。
@@ -86,8 +86,8 @@ ht-degree: 0%
    >
    >如果您对访问级别的公司具有管理访问权限，则还可以单击列表底部的“添加更多公司” 。 这会添加一行，您可以在其中快速配置新公司。
 
-1. （可选）要编辑或删除公司，请至少选择一个公司，然后使用工具栏按钮编辑![](assets/edit-icon.png)或将其删除![](assets/delete.png)。
+1. （可选）要编辑或删除公司，请至少选择一个公司，然后使用工具栏按钮编辑![编辑图标](assets/edit-icon.png)或删除![删除图标](assets/delete.png)。
 
    有关编辑公司的信息，请参阅文章[创建和编辑公司](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)中的[在Workfront中创建或编辑公司](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront)部分。
 
-1. （可选）要导出公司列表，请单击“导出”图标![](assets/export.png)，然后为导出的列表选择所需的文件格式。
+1. （可选）要导出公司列表，请单击“导出”图标![导出图标](assets/export.png)，然后为导出的列表选择所需的文件格式。

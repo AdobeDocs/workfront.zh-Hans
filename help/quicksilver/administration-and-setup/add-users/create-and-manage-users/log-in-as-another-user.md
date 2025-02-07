@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Some users, such as executives, need to be able to control which administrators 
    >
    >* 如果您是组管理员，则只能以所管理组中的用户身份登录。 此外，必须在您的访问级别中启用“用户管理员（组用户）”权限：
    >   
-   >  ![](assets/group-admin-user.png)
+   >  ![组管理员用户](assets/group-admin-user.png)
    >   
    >  默认情况下禁用此设置。 有关详细信息，请参阅[创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
    >   
@@ -153,7 +153,7 @@ Workfront提供多种机制，用于跟踪和审核管理员以其他用户身�
 ### 查看审核信息 {#view-audit-information}
 
 1. 以Workfront管理员或组管理员身份登录到Workfront。
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**设置**![齿轮设置图标](assets/gear-icon-settings.png)。
 
 1. 单击&#x200B;**登录身份，**，然后单击&#x200B;**访问日志**&#x200B;选项卡。
 

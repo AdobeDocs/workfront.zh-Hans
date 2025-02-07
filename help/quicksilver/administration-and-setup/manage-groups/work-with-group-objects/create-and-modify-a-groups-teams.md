@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51967cd7-962e-4354-a04b-6df4e31e70c6
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1018'
 ht-degree: 3%
 
 ---
@@ -54,10 +54,10 @@ ht-degree: 3%
 
 {{step-1-to-setup}}
 
-1. 在左侧面板中，单击&#x200B;**组** ![](assets/groups-icon.png)。
+1. 在左侧面板中，单击&#x200B;**组** ![组](assets/groups-icon.png)。
 
 1. 单击要为其创建或修改团队的组的名称。
-1. 在左侧面板中，单击&#x200B;**团队** ![](assets/teams.png)列出与组及其可能具有的任何子组关联的团队。
+1. 在左侧面板中，单击&#x200B;**团队** ![团队](assets/teams.png)列出与组及其可能具有的任何子组关联的团队。
 
 1. 执行以下任一操作：
 
@@ -86,7 +86,7 @@ ht-degree: 3%
        <td>键入团队描述。</td> 
        </tr> 
        <tr> 
-       <td role="rowheader">日历</td> 
+       <td role="rowheader">日程表</td> 
        <td>为该团队选择将显示哪个日历选项卡。</td> 
        </tr> 
        <tr> 
@@ -100,7 +100,7 @@ ht-degree: 3%
       </tbody> 
      </table>
 
-   * **编辑团队**：至少选择一个团队，单击&#x200B;****“编辑”图标![](assets/edit-icon.png)，然后使用以下选项对其进行配置：
+   * **编辑团队**：至少选择一个团队，单击&#x200B;****“编辑”图标![“编辑”图标](assets/edit-icon.png)，然后使用以下选项对其进行配置：
 
      <table style="table-layout:auto"> 
       <col> 
@@ -149,5 +149,5 @@ ht-degree: 3%
       </tbody> 
      </table>
 
-   * **删除团队**：至少选择一个团队，然后单击“删除”图标![](assets/delete.png)。
-   * **导出团队列表**：单击&#x200B;**导出**![](assets/export.png)，然后选择导出列表所需的文件格式。
+   * **删除团队**：至少选择一个团队，然后单击“删除”图标![删除图标](assets/delete.png)。
+   * **导出团队列表**：单击&#x200B;**导出**![导出图标](assets/export.png)，然后选择导出列表所需的文件格式。

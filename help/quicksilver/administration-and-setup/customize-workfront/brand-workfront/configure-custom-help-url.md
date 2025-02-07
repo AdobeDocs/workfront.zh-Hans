@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d2b63508-1943-4f9e-888e-8f1bfb54c33e
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '277'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 如果您创建自定义内部帮助站点，其中包含有关贵组织如何使用Workfront的信息，则可以配置主菜单帮助图标以转到该站点。
 
-![](assets/custom-help-button.png)
+![自定义帮助按钮](assets/custom-help-button.png)
 
 这不会影响整个Workfront中的上下文相关帮助链接，这些链接会将用户转到Workfront帮助站点。
 

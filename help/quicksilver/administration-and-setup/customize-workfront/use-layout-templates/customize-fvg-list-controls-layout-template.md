@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 作为Adobe Workfront管理员，您可以使用布局模板来指定在筛选器、视图和分组下拉菜单中显示的列表控件。 这些菜单出现在整个Workfront的上方列表中，例如项目的任务列表：
 
-![](assets/filter-view-grouping-layout-templates.png)
+![筛选器视图分组布局模板](assets/filter-view-grouping-layout-templates.png)
 
 有关布局模板的更多信息，请参阅[创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。
 
@@ -62,25 +62,25 @@ ht-degree: 0%
 ## 自定义筛选器、视图和分组列表控件：
 
 1. 开始处理布局模板，如[创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
-1. 单击&#x200B;**自定义用户看到的内容**&#x200B;下的向下箭头![](assets/down-arrow-blue.png)，然后在显示的下拉菜单中单击&#x200B;**列表**。
+1. 单击&#x200B;**自定义用户看到的内容**&#x200B;下的向下箭头![向下箭头](assets/down-arrow-blue.png)，然后在显示的下拉菜单中单击&#x200B;**列表**。
 
-   ![](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
+   ![自定义用户看到的内容](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
 
-1. 单击&#x200B;**下的向下箭头![](assets/down-arrow-blue.png)选择要自定义的列表**，然后选择要为其自定义筛选器、视图和分组列表控件的Workfront对象类型。
+1. 单击&#x200B;**下的向下箭头![向下箭头](assets/down-arrow-blue.png)选择要自定义的列表**，然后选择要为其自定义筛选器、视图和分组列表控件的Workfront对象的类型。
 
-   ![](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)
+   ![选择要自定义的列表](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)
 
    >[!NOTE]
    >
    >如果您选择项目作为要自定义的列表，然后在筛选部分禁用我所在的项目或我拥有的项目，则用户将无法再看到或无法使用该筛选器：
    >
-   >* 在单击列表上方的过滤器图标![](assets/filter-nwepng.png)时显示的过滤器列表中：
+   >* 在单击列表上方的过滤器图标![过滤器图标](assets/filter-nwepng.png)时显示的过滤器列表中：
    >   
-   >  ![](assets/disable-filters-projects-im-on-or-own.png)
+   >  ![禁用筛选器](assets/disable-filters-projects-im-on-or-own.png)
    >   
    >* 在项目区域标题的标题中：
    >   
-   >  ![](assets/disable-filter-pills.png)
+   >  ![禁用筛选器按钮](assets/disable-filter-pills.png)
 
 1. （可选）如果要更改布局模板的默认筛选器、视图或分组，请将鼠标悬停在筛选器、视图或分组上，然后单击“**设置为默认值**”。
 

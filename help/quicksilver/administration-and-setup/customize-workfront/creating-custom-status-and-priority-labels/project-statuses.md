@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1fc91438-1ead-40d2-b0aa-863c1125c2fb
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Workfront附带9个系统项目状态。 您可以更改这些状态的名称，
 
    此选项卡上列出了Workfront中可用的项目状态。
 
-   ![](assets/project-status.png)
+   ![项目状态](assets/project-status.png)
 
    有关每个内置系统项目状态的详细信息，请参阅[系统项目状态概述](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md)。
 

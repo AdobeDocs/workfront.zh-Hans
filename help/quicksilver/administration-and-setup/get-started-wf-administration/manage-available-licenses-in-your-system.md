@@ -8,9 +8,9 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1216'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >对于新计划，Select计划不允许管理员按主组查看许可证。 您只能看到已使用的许可证的总数。 Prime和Ultimate计划提供设置每个主组的最大许可证数量的功能。
+   >对于新计划，Select计划不允许管理员按主组查看许可证。 您只能看到已使用的许可证的总数。 Prime和Ultimate计划提供设置每个主组的最大许可证数的功能。
 
 ## 查看有关Workfront加载项许可证的信息
 
@@ -186,7 +186,7 @@ If an organization has other paid add-on products, their license information als
 1. 在组的&#x200B;**Max**&#x200B;列中，单击要为其设置最大值的值。
 1. 键入最大数字，然后按Enter键。
 
-   ![](assets/updated-max.png)
+   ![组](assets/updated-max.png)的最大许可证
 
    >[!NOTE]
    >

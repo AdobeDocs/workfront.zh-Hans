@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '919'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 0%
 
    最近添加的名称以蓝色背景显示。 在编辑现有布局模板时，这很有用，因为您可以区分刚刚添加和列表中已存在的名称。
 
-   已分配给其他布局模板的任何用户、工作角色、团队或组的名称右侧将显示一个信息图标![](assets/info-icon.png)。 您可以将鼠标悬停在图标上以查看该布局模板的名称，并决定是否要覆盖现有分配。
+   已分配给其他布局模板的任何用户、工作角色、团队或组的名称右侧将显示一个信息图标![信息图标](assets/info-icon.png)。 您可以将鼠标悬停在图标上以查看该布局模板的名称，并决定是否要覆盖现有分配。
 
 1. 根据需要重复前两个步骤，将布局模板分配给其他用户、工作角色、团队或组。
 

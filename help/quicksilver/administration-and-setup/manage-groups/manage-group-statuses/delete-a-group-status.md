@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 0%
 1. 在左侧面板中，单击&#x200B;**状态**。
 1. 在显示的状态列表中，将鼠标悬停在要删除的状态上，然后在最右边显示&#x200B;**删除**&#x200B;时单击该状态。
 
-   ![](assets/hover-click-delete.jpg)
+   ![删除](assets/hover-click-delete.jpg)
 
 1. 在显示的框中，选择一个状态，为正在使用要删除状态的对象（项目、任务、问题和审批流程）指定替换状态。
 

@@ -8,9 +8,9 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 1. 在左侧面板中，单击&#x200B;**[!UICONTROL 文档]** > **[!UICONTROL 元数据映射]**。
 
-   ![](assets/metadata-mapping.png)
+   ![元数据映射](assets/metadata-mapping.png)
 
 1. 在&#x200B;**[!UICONTROL 选择要映射的Source字段]**&#x200B;框中，开始输入要映射到[!DNL Workfront DAM]的Workfront字段的名称，然后在列表中看到该字段时将其选定。
 1. 在&#x200B;**[!UICONTROL 选择要映射的目标字段]**&#x200B;框中，选择要使用选定[!DNL Workfront]字段中的信息填充的字段。

@@ -6,9 +6,9 @@ navigation-topic: configure-proofing-functionality
 title: 配置是否自动生成验证
 description: 您可以配置在您指定的用户将文档添加到Workfront时，系统是否自动生成验证。 默认情况下禁用此设置。
 author: Courtney
-source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -45,17 +45,17 @@ ht-degree: 0%
 
 ## 配置是否为单个用户自动生成验证
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**用户** ![](assets/users-icon-in-main-menu.png)。
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**用户** ![用户](assets/users-icon-in-main-menu.png)。
 1. 选择具有验证访问权限的用户，然后单击&#x200B;**编辑**。
 1. 在&#x200B;**首选项**&#x200B;部分中，启用或禁用&#x200B;**上传文档时自动生成验证**&#x200B;复选框。
 
-   ![](assets/autogenerate-proofs-350x216.png)
+   ![自动生成验证](assets/autogenerate-proofs-350x216.png)
 
 1. 单击&#x200B;**保存更改**。
 
 ## 配置是否为多个用户自动生成验证
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**用户** ![](assets/users-icon-in-main-menu.png)。
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**用户** ![用户图标](assets/users-icon-in-main-menu.png)。
 1. 选择具有验证访问权限的用户，然后单击&#x200B;**编辑**。
 
    >[!IMPORTANT]
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**首选项**&#x200B;部分中，启用&#x200B;**上传文档时自动生成验证**&#x200B;复选框，然后选择&#x200B;**是**&#x200B;或&#x200B;**否**。
 
-   ![](assets/autogenerate-proofs-bulk-350x285.png)
+   ![批量自动生成验证](assets/autogenerate-proofs-bulk-350x285.png)
 
 1. 单击&#x200B;**保存更改**。
 

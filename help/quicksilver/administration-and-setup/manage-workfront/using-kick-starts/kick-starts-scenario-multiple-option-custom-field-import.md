@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '2155'
+source-wordcount: '2181'
 ht-degree: 0%
 
 ---
@@ -154,7 +154,7 @@ ht-degree: 0%
    >
    >有关Workfront数据库中对象名称的信息，请参阅[API资源管理器](../../../wf-api/general/api-explorer.md)。
    >
-   >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
+   >数据导出中包含的![工作表](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
 
 1. 确保以下信息的格式正确：
@@ -206,7 +206,7 @@ ht-degree: 0%
 
    有关详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
-   ![](assets/parameter-sheet-filled-out-kick-starts.png)
+   ![参数表已填写](assets/parameter-sheet-filled-out-kick-starts.png)
 
 1. 选择&#x200B;**`POPT Parameter Options`**&#x200B;工作表并在以下必填列中添加有关每个自定义字段选项的信息：
 
@@ -228,7 +228,7 @@ ht-degree: 0%
    * **`setLabel`**&#x200B;和**1}列通常包含相同的信息，它们应反映Workfront UI中所需的名称。 `**setValue`选项的值是报表中显示的名称，例如，而标签在附加到对象时显示在自定义表单中。 有关详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
    * **`setIsHidden`** =如果您希望隐藏任何选项，请输入`TRUE`。
 
-   ![](assets/parameter-option-sheet-filled-out-kick-starts.png)
+   ![参数表已填写](assets/parameter-option-sheet-filled-out-kick-starts.png)
 
 
 1. （可选）如果您还想创建一个自定义表单，以便稍后在其中添加新字段，请选择&#x200B;**`CTGY Category`**&#x200B;工作表并更新自定义表单信息的以下必填列：
@@ -239,7 +239,7 @@ ht-degree: 0%
 
    要查找组的`ID`，您可以生成组报告并在视图中添加`ID`字段，或者导航到组并查找组的URL。 组ID将位于组页面的URL中。 例如，如果组的URL是`https://companyName.my.workfront.com/group/575b000800467a6f66e747932c807464/members`，则组ID是`575b000800467a6f66e747932c807464`。
 
-   * **`setCatObjCode` **=这是您希望为其创建表单的对象类型的对象代码。 从以下选项输入代码：
+   * **`setCatObjCode`**=这是您希望为其创建表单的对象类型的对象代码。 从以下选项输入代码：
       * 公司&#x200B;**`CMPY`**
       * 任务&#x200B;**`TASK`**
       * 项目&#x200B;**`PROJ`**
@@ -259,7 +259,7 @@ ht-degree: 0%
 
    * **`setName`** =这是您希望在Workfront界面中显示的自定义表单的名称。
 
-     ![](assets/category-sheet-filled-out-kick-starts.png)
+     已填写![类别表](assets/category-sheet-filled-out-kick-starts.png)
 
 1. 将电子表格另存为.xls或.xlsx文件。 您的Excel电子表格已填写，现在可以导入到Workfront中。
 
@@ -277,11 +277,11 @@ ht-degree: 0%
 1. 在计算机上浏览您准备的Excel电子表格，并在找到时选择它。 当Workfront识别文件时，“上传”按钮变为蓝色。
 1. 单击&#x200B;**上传。**
 
-   ![](assets/kick-start-file-selected-and-upload-blue-button.png)
+   ![选定的文件并上载按钮](assets/kick-start-file-selected-and-upload-blue-button.png)
 
 1. 此时将显示已成功导入的通知。 根据您导入的信息量，此步骤可能需要几秒钟到一分钟的时间。
 
-   ![](assets/kick-start-successful.png)
+   ![启动成功](assets/kick-start-successful.png)
 
    新的自定义字段和表单现在包含在Workfront系统中。 您可以在“设置”的自定义Forms区域中找到它们。
 
@@ -294,7 +294,7 @@ ht-degree: 0%
 
 1. （视情况而定）如果导入失败，您将收到一条错误消息，说明问题所在。 尝试确定问题所在的字段、工作表和行号，并更正Excel文件中的信息，然后再次尝试导入文件。
 
-   ![](assets/kick-start-error.png)
+   ![快速启动错误](assets/kick-start-error.png)
 
 1. （视情况而定）根据错误消息中所述问题的性质，某些信息可能已导入。 必须执行下列操作之一，才能再次导入工作表：
 

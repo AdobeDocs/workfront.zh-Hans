@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
-source-git-commit: 7a2cfddf4683b5b49121bbe3987498297b963ffa
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '2075'
+source-wordcount: '2079'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ ht-degree: 0%
       <td> <p>仅在将审阅者添加到舞台后，可用的决策制定者才会显示在列表中。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">只需一个决定</td> 
+      <td role="rowheader">只需一个决策</td> 
       <td>一旦决策人之一提交决定，该阶段的审查进程即告完成。 有关详细信息，请参阅<a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">在Workfront Proof中配置校对设置</a>。</td> 
      </tr> 
      <tr> 
@@ -209,7 +209,7 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. 在&#x200B;**工作流**&#x200B;部分中，更改任何阶段的名称并展开其设置![](assets/arrow-button.png)以进行任何所需的更改：
+1. 在&#x200B;**工作流**&#x200B;部分中，更改任何阶段的名称并展开其设置![展开按钮](assets/arrow-button.png)以进行任何所需的更改：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -256,7 +256,7 @@ ht-degree: 0%
 
    如果不需要查看关系图，可以单击&#x200B;**隐藏关系图**。
 
-1. 在&#x200B;**共享对象**&#x200B;分区中，如果要删除用户，请单击右侧的“更多![](assets/more-icon.png)”按钮，然后单击“**删除**”。
+1. 在&#x200B;**共享对象**&#x200B;分区中，如果要删除用户，请单击右侧的“更多![更多”图标](assets/more-icon.png)按钮，然后单击&#x200B;**删除**。
 
 ## 创建自动工作流模板组 {#create-automated-workflow-template-groups}
 

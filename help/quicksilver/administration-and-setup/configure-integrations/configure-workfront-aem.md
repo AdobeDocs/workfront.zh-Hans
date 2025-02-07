@@ -1,5 +1,5 @@
 ---
-title: 使用 [!DNL Adobe Experience Manager] 旧连接器配置 [!DNL Workfront]
+title: '使用 [!DNL Adobe Experience Manager] 旧连接器配置 [!DNL Workfront] '
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1875'
+source-wordcount: '1877'
 ht-degree: 0%
 
 ---
@@ -323,7 +323,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL 组]**&#x200B;选项卡。
 
-   ![](assets/groupstab.png)
+   ![组选项卡](assets/groupstab.png)
 
 1. 确保用户至少属于一个访问级别包括[!UICONTROL 创建]和[!UICONTROL 删除]权限的[!DNL Workfront]组。
 

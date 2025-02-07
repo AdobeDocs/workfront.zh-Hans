@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: a1ead3895afaf8b601a9c53e08d41b1cab51cb48
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '2191'
+source-wordcount: '2193'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">Adobe Workfront计划</td> 
    <td><p>系统级或一次性审批流程：任何</p>
-   <p>组级审批流程：Prime或Ultimate</p></td> 
+   <p>组级别审批流程：Prime或Ultimate</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -82,10 +82,10 @@ ht-degree: 1%
 
    或
 
-   如果您正在创建组级审批流程，请单击&#x200B;**组** ![](assets/groups-icon.png)，单击组的名称，然后单击&#x200B;**审批**。
+   如果要创建组级审批流程，请单击&#x200B;**组** ![组图标](assets/groups-icon.png)，单击组的名称，然后单击&#x200B;**审批**。
 
    <!--hidden for the new tab redesign - August 2023: 
-   ![](assets/approvals-area-in-setup-processes.png)
+   ![Approvals area in setup](assets/approvals-area-in-setup-processes.png)
    -->
 
 1. 选择&#x200B;**项目审批**、**任务审批**&#x200B;或&#x200B;**问题审批**&#x200B;选项卡。

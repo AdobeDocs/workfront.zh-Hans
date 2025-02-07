@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '382'
 ht-degree: 12%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 12%
 
 例如，您可以附加一个名为“营销内容研究”的自定义表单来附加至项目，以便项目用户能够请求该项目的营销内容：
 
-![](assets/see-image-details-page.png)
+![详细信息页面](assets/see-image-details-page.png)
 
 ## 如何创建自定义表单
 
@@ -80,7 +80,7 @@ Workfront为每种对象类型提供了许多内置字段。
 * 项目组合
 * 费用
 * 组
-* 迭代
+* 开发周期
 * 账单记录
 
 有关将自定义表单附加到对象的详细信息，请参阅[将自定义表单添加到对象](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)。

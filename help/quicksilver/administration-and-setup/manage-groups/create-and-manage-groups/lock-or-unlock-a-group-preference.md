@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 05c32b6f-52e1-46a7-9011-633713422f3d
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -85,8 +85,8 @@ ht-degree: 0%
 
 1. 在显示的页面上，针对在系统级别解锁的首选项或组上方的组执行以下任一操作：
 
-   * 如果您希望组下的组管理员能够为其组配置首选项，请将其解锁![](assets/unlock-toggle-button.png)。
-   * 如果您希望位于您下方的所有组都使用您的配置进行首选项，请确保该配置已锁定![](assets/lock-toggle-button.png)。
+   * 如果您希望组下的组管理员能够为其组配置首选项，请将其解锁![解锁切换](assets/unlock-toggle-button.png)。
+   * 如果您希望您下方的所有组都使用您的配置进行首选项，请确保该配置已锁定![锁定切换](assets/lock-toggle-button.png)。
 
      >[!IMPORTANT]
      >

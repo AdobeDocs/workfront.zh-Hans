@@ -5,9 +5,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '593'
 ht-degree: 1%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 1%
 
 1. 单击&#x200B;**电子邮件** > **通知**。
 
-   ![](assets/notifications-area-under-setup-emails.png)
+   ![设置电子邮件下的通知区域](assets/notifications-area-under-setup-emails.png)
 
 
 1. 确保&#x200B;**事件通知**&#x200B;选项卡已打开。
@@ -88,7 +88,7 @@ ht-degree: 1%
 
    有关自定义电子邮件通知主题行的详细信息，请参阅[自定义事件通知的电子邮件主题](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)。
 
-1. （可选）如果要解锁电子邮件通知的配置，以便组管理员可以单独为其组配置该配置，请单击通知右侧的按钮![](assets/lock-toggle-button.png)，将其切换到解锁位置![](assets/unlock-toggle-button.png)。
+1. （可选）如果要解锁电子邮件通知的配置，以便组管理员可以单独为其组配置该通知，请单击通知右侧的按钮![锁定切换](assets/lock-toggle-button.png)，将其切换到解锁位置![解锁切换](assets/unlock-toggle-button.png)。
 
    >[!NOTE]
    >

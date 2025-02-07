@@ -8,9 +8,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
-source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '900'
 ht-degree: 2%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 2%
 
 1. 单击&#x200B;**进程** > **审批**。
 
-1. 单击&#x200B;**审批**&#x200B;区域名称旁边的&#x200B;**设置**&#x200B;图标![](assets/gear-icon-settings.png)。
+1. 单击&#x200B;**审批**&#x200B;区域名称旁边的&#x200B;**设置**&#x200B;图标![齿轮设置图标](assets/gear-icon-settings.png)。
 
 1. 在出现的&#x200B;**审批设置**&#x200B;框中，指定以下信息：
 

@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '876'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ Adobe Workfront管理员可确定每个用户应具有的访问权限级别。 �
 当其他用户共享并授予某些对象权限时，用户还可以访问这些对象。
 
 
-![](assets/security-model-hierachy.png)
+![安全模型层次结构](assets/security-model-hierachy.png)
 
 例如，如果您的访问级别表明您可以创建任务，但您获得的特定项目权限不允许您向其中添加任务，则即使您可以在Workfront的其他位置创建任务，也无法向项目添加任务。
 

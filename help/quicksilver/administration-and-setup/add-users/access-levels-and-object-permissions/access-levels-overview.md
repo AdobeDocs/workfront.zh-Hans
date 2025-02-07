@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 外部是一个无酬许可证，主要用于与不使用Workfront的协作者共享文档。
 
-![](assets/access-levels-and-licenses-old.png)
+![旧版访问级别和许可证](assets/access-levels-and-licenses-old.png)
 
 有关与访问级别相关的主题的信息，请参阅以下文章：
 

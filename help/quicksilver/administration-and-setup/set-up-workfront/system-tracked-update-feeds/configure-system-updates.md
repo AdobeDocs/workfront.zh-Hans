@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 7%
+source-wordcount: '899'
+ht-degree: 8%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 7%
 >
 >您最多可以在更新源中跟踪300个内置和自定义字段。 如果您要跟踪最大字段数，并且希望跟踪[!UICONTROL 所有字段]子选项卡中未显示的其他字段，则必须首先删除一些跟踪的字段，才能跟踪新字段。 有关从更新字段中删除字段的更多信息，请参阅[删除不想跟踪的字段](#remove-fields-that-you-don-t-want-tracked)。
 
-1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![](assets/gear-icon-settings.png)。
+1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 设置]**![齿轮设置图标](assets/gear-icon-settings.png)。
 
 1. 在左侧的面板中，单击&#x200B;**[!UICONTROL 界面]** > **[!UICONTROL 更新源]**。
 
@@ -111,7 +111,7 @@ ht-degree: 7%
 
 您可以删除不希望系统在[!DNL Workfront]界面中跟踪特定对象类型的字段。
 
-1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![](assets/gear-icon-settings.png)。
+1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 设置]**![齿轮设置图标](assets/gear-icon-settings.png)。
 
 1. 单击&#x200B;**[!UICONTROL 界面]** > **[!UICONTROL 更新源]**。
 
@@ -198,7 +198,7 @@ ht-degree: 7%
 
 要配置您希望[!DNL Workfront]跟踪哪些操作：
 
-1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![](assets/gear-icon-settings.png)。
+1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 设置]**![齿轮设置图标](assets/gear-icon-settings.png)。
 
 1. 单击&#x200B;**[!UICONTROL 界面]** > **[!UICONTROL 更新源]**。
 

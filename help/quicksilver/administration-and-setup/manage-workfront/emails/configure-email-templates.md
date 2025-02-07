@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '828'
 ht-degree: 3%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 3%
 
 1. 在左侧面板中，单击&#x200B;**电子邮件** > **通知**> **电子邮件模板**。
 
-   ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
+   ![电子邮件模板选项卡](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
 1. 单击&#x200B;**新建电子邮件模板**。
 
@@ -239,7 +239,7 @@ HTML格式可以丰富您的电子邮件模板，如以下部分所示。
 
 这将生成类似于以下内容的电子邮件：
 
-![](assets/project-became-late-email.png)
+![项目变为延迟电子邮件](assets/project-became-late-email.png)
 
 #### 即将开始提醒的任务或问题 {#task-or-issue-about-to-start-reminder-example}
 

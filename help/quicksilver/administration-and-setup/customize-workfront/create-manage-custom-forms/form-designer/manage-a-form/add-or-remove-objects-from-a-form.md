@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
-source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 1. 在表单顶部，单击&#x200B;**对象类型**&#x200B;后面的加号+，然后在显示的菜单中选择所需的类型。 您可以重复此操作，以添加所需数量的对象类型。
 
-   ![](assets/add-new-object.png)
+   ![添加新对象](assets/add-new-object.png)
 
 1. 单击&#x200B;**保存并关闭**。
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 1. 选择要编辑的自定义表单，然后单击![编辑图标](assets/edit-icon2.png)。
 1. 单击要从表单中删除的任何&#x200B;**对象类型**&#x200B;上的X。
 
-   ![](assets/delete-object-types.png)
+   ![删除对象类型](assets/delete-object-types.png)
 
 1. （可选）对要从表单中删除的任何其他对象类型重复上一步骤。
 1. 单击&#x200B;**应用**，然后单击&#x200B;**保存并关闭**。

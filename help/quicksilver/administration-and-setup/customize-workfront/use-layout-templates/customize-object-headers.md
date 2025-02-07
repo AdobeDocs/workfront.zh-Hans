@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >当前可用于项目、任务和问题的自定义对象标题。
 
-![](assets/object-header-fields.png)
+![对象标题字段](assets/object-header-fields.png)
 
 有关创建布局模板的信息，请参阅[创建和管理布局模板](../use-layout-templates/create-and-manage-layout-templates.md)。
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
    <!--(NOTE: make sure the default names of these fields have not changed; otherwise, update screen shot)-->
 
-   ![](assets/object-header-field-x-and-grab-icons-in-lt.png)
+   ![对象标题字段隐藏和移动图标](assets/object-header-field-x-and-grab-icons-in-lt.png)
 
 1. 一个对象的标题中最多可以有五个字段。
 如果已选择五个字段，则必须先移除一个字段，然后才能添加新字段。
@@ -95,7 +95,7 @@ ht-degree: 0%
    >* 将“解决者”字段添加到问题的标题时，如果存在与问题关联的解决对象，则该字段将更改为“解决问题、任务或项目”。
 
 
-   ![](assets/add-field-to-header-in-lt-list.png)
+   ![添加字段到标头](assets/add-field-to-header-in-lt-list.png)
 
 
 1. （可选）拖放以不同顺序添加的字段。

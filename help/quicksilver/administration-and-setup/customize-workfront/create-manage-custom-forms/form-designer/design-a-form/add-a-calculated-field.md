@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 57b76a404b0c965038d48a52a20521883c9f4b53
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '2403'
+source-wordcount: '2422'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 0%
 >
 >更改计算表达式可能导致对象上的字段值过时。 要确保始终在这些字段中查看最新计算，请执行以下操作之一：
 >
->* 在附加的自定义表单中保存已编辑数据的对象后，单击该对象主页上的更多图标![](assets/more-icon.png)，然后重新计算自定义表达式。
+>* 在附加的自定义表单中保存已编辑数据的对象后，单击该对象主页上的“更多”图标![更多图标](assets/more-icon.png)，然后重新计算自定义表达式。
 >* 批量编辑对象时，选择重新计算自定义表达式选项。
 >* 在自定义表单上编辑已计算的自定义字段时，选择更新以前的计算选项。
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 1. 单击屏幕左上角的&#x200B;**字段库**。
 
-   ![](assets/field-library.png)
+   ![字段库](assets/field-library.png)
 
 1. 使用搜索框或展开&#x200B;**计算的**&#x200B;分区以找到所需的计算字段，然后将字段拖动到要在自定义表单中显示的位置。
 
@@ -142,7 +142,7 @@ ht-degree: 0%
 
 1. 在屏幕左侧，找到&#x200B;**已计算**，并将其拖动到画布上的某个部分。
 
-   ![](assets/drag-field-to-section.png)
+   ![将字段拖到节](assets/drag-field-to-section.png)
 
 1. 在屏幕右侧，配置可用于要添加的自定义字段类型的选项：
 
@@ -296,14 +296,14 @@ ht-degree: 0%
       >您可以执行以下任一操作以获得有关计算的帮助：
       > 
       >* 将鼠标悬停在计算中的表达式上可查看说明、如何使用该表达式的示例以及文章[计算数据表达式概述](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)中有关更多信息“了解更多”链接。
-      >  ![](assets/hover-expression-help-text.jpg)
+      >  ![表达式帮助文本](assets/hover-expression-help-text.jpg)
       >* 使用颜色编码标识已添加的组件。 表达式以蓝色显示，字段以绿色显示。
-      >  ![](assets/colors-fields-expressions.jpg)
+      >  字段表达式的![颜色](assets/colors-fields-expressions.jpg)
       >* 查找以粉红色突出显示的计算错误。 您可以将鼠标悬停在突出显示的错误上以显示其原因的简短描述。
-      >  ![](assets/error-help.png)
+      >  ![错误帮助](assets/error-help.png)
       >* 在计算下面的区域中，预览现有Workfront对象的结果。
       ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
-      >  ![](assets/preview-calc.jpg)
+      >  ![预览计算](assets/preview-calc.jpg)
       >* 使用左侧显示的行号在长计算中引用表达式。
 
 +++

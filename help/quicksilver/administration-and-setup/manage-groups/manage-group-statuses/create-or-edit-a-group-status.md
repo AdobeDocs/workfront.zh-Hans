@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1344'
 ht-degree: 1%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 1%
 
 {{step-1-to-setup}}
 
-1. 在左侧面板中，单击&#x200B;**组** ![](assets/groups-icon.png)。
+1. 在左侧面板中，单击&#x200B;**组** ![组](assets/groups-icon.png)。
 
 1. 单击要创建或自定义状态的组的名称。
 1. 在左侧面板中，单击&#x200B;**状态**。
@@ -87,7 +87,7 @@ ht-degree: 1%
 
 1. （视情况而定）如果状态为问题状态，请确保选择&#x200B;**主列表**。
 
-   ![](assets/master-list.png)
+   ![主列表](assets/master-list.png)
 
    有关自定义其他问题类型（错误报告、更改顺序、问题、请求）的信息，请参阅[自定义默认问题类型](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md)。
 
@@ -97,7 +97,7 @@ ht-degree: 1%
 
    要编辑现有状态，请将鼠标悬停在要编辑的状态上，然后单击最右侧显示的&#x200B;**编辑**&#x200B;选项。
 
-   ![](assets/group-statuses-edit.jpg)
+   ![组状态](assets/group-statuses-edit.jpg)
 
    >[!NOTE]
    >仅当满足以下条件时，才能编辑组的状态：
@@ -173,11 +173,11 @@ ht-degree: 1%
 1. 在右上角的框中，删除&#x200B;**系统状态**，开始键入要隐藏状态的组名称，然后在名称出现时单击该名称。
 1. 将鼠标悬停在要从组隐藏的状态上，然后在组出现时单击&#x200B;**编辑**。
 
-   ![](assets/hover-click-edit.jpg)
+   ![编辑状态](assets/hover-click-edit.jpg)
 
 1. 启用显示的&#x200B;**隐藏状态**&#x200B;选项。
 
-   ![](assets/hide-group-status.png)
+   ![隐藏状态](assets/hide-group-status.png)
 
 1. 单击&#x200B;**保存**。
 

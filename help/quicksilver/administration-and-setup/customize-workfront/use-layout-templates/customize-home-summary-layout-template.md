@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 75aaa531dba8037ed75c0d6baa6d7c69ec4cfefd
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '770'
 ht-degree: 2%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 2%
 
 1. 开始处理布局模板，如[创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
 
-1. 单击&#x200B;**自定义用户看到的内容**&#x200B;下的向下箭头![](assets/dropdown-arrow.png)，然后单击&#x200B;**摘要面板**。
+1. 单击&#x200B;**自定义用户看到的内容**&#x200B;下的向下箭头![向下箭头](assets/dropdown-arrow.png)，然后单击&#x200B;**摘要面板**。
 
 1. 在下面显示的列表中，单击要为其定制“摘要”面板的对象类型。
 
@@ -132,15 +132,15 @@ ht-degree: 2%
 
 1. （视情况而定）如果您在上一步中单击了任务或问题，请选择要自定义的任务或问题类别。
 
-   ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
+   ![选择要自定义的类别](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
 1. （视情况而定）如果出现&#x200B;**设置主要操作按钮**&#x200B;下拉菜单（如果您在左侧的列表中选择&#x200B;**任务**&#x200B;或&#x200B;**问题**），请单击“摘要”面板中您希望用户在查看任务或问题时可用的主要操作（**完成**&#x200B;或&#x200B;**状态**）。
 
-   ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
+   ![设置主要操作](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
-1. 为所选对象类型添加![](assets/add-item-plus-in-circle-blue.png)或隐藏![](assets/close-or-hide---x.png)字段。
+1. 为所选对象类型添加![添加项](assets/add-item-plus-in-circle-blue.png)或隐藏![隐藏项](assets/close-or-hide---x.png)字段。
 
-   ![](assets/lt-home-add-hide-fields-adobe-branding.png)
+   ![添加和隐藏字段](assets/lt-home-add-hide-fields-adobe-branding.png)
 
 1. 重复步骤3 - 6以针对任何其他对象类型自定义“摘要”面板。
 1. 单击左下角附近的&#x200B;**全局设置**，然后启用或禁用与“摘要”中的Adobe Workfront对象相关的以下任何选项：

@@ -5,9 +5,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 648a36ce-5793-472f-9fee-9dedf71991ef
-source-git-commit: 6409f8fa5072413444545d2d3a80935dc6e04b4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '598'
 ht-degree: 3%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 3%
 {{step-1-to-setup}}
 
 1. 单击左侧面板中的&#x200B;**团队**。
-1. 选择一个团队，然后单击&#x200B;**编辑** ![](assets/edit-icon.png)。
+1. 选择一个团队，然后单击&#x200B;**编辑** ![编辑图标](assets/edit-icon.png)。
 
 1. 进行以下任何更改：
 

@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
@@ -88,9 +88,9 @@ ht-degree: 0%
 
 1. 选择在其名称后显示&#x200B;**已取消注册**&#x200B;标签的用户。
 
-   ![](assets/unreg-user-qs-350x221.png)
+   ![已取消注册](assets/unreg-user-qs-350x221.png)
 
-1. 单击“更多”图标![](assets/more-icon.png)，然后单击&#x200B;**提醒用户注册**。
+1. 单击“更多”图标![更多图标](assets/more-icon.png)，然后单击&#x200B;**提醒用户注册**。
 
    系统会向新用户发送电子邮件邀请，其中包含他们可用来创建Workfront密码的新链接。
 

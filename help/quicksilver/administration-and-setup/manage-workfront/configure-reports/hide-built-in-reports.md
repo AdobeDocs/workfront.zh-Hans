@@ -8,9 +8,9 @@ feature: System Setup and Administration
 role: Admin
 author: Nolan, Lisa
 exl-id: d48b0dd7-933e-4e91-a2f1-8d64b1c6dbb3
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '194'
 ht-degree: 1%
 
 ---
@@ -60,6 +60,6 @@ Adobe Workfront提供了大量用户可以访问和查看的默认内置报告�
 1. 选择要隐藏内置报告的访问级别，然后单击&#x200B;**编辑**。
 1. 对于&#x200B;**报表**&#x200B;对象，请单击可用的最高级别访问旁边的&#x200B;**设置**&#x200B;图标，然后取消选择&#x200B;**查看内置报表**。
 
-   ![](assets/edit-access-level.png)
+   ![编辑访问级别](assets/edit-access-level.png)
 
 1. 单击&#x200B;**保存**。

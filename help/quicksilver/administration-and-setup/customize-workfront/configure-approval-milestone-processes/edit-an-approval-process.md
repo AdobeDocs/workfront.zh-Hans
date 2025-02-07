@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
-source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1950'
+source-wordcount: '1955'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 1%
 
    如果您正在编辑组级审批流程，请执行以下操作：
 
-   1. 在左侧面板中，单击&#x200B;**组** ![](assets/groups-icon.png)。
+   1. 在左侧面板中，单击&#x200B;**组** ![组图标](assets/groups-icon.png)。
    1. 单击要列出或管理组审批流程的组的名称。
    1. 在左侧面板中，单击&#x200B;**审批**。 您可能需要先单击&#x200B;**显示更多**。
 
@@ -80,7 +80,7 @@ ht-degree: 1%
 
 1. 选择要编辑的审批流程，然后单击列表顶部的&#x200B;**编辑**。 此时将显示编辑审批流程框。
 
-   ![](assets/edit-approval-process-global-area-new.png)
+   ![编辑审批流程](assets/edit-approval-process-global-area-new.png)
 
 1. 在显示的框中指定以下信息：
 

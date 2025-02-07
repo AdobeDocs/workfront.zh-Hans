@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f92eb1f5-fe98-4c7e-8ef7-8ed7134db8d4
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '314'
 ht-degree: 2%
 
 ---
@@ -58,9 +58,9 @@ ht-degree: 2%
 
 {{step-1-to-setup}}
 
-1. 在左侧面板中，单击&#x200B;**组** ![](assets/groups-icon.png)。
+1. 在左侧面板中，单击&#x200B;**组** ![组](assets/groups-icon.png)。
 
-1. 选择要删除的组，然后单击删除图标![](assets/delete.png)。
+1. 选择要删除的组，然后单击“删除”图标![删除](assets/delete.png)。
 
    >[!IMPORTANT]
    >
@@ -68,6 +68,6 @@ ht-degree: 2%
 
 1. 在出现的&#x200B;**删除组**&#x200B;框中，开始键入，然后选择要移动要删除的组的成员、工作项和子组的组的组名。
 
-   您可以确保选择正确的组，方法是将鼠标悬停在该组上，然后单击该组旁边显示的信息图标![](assets/info-icon.png)。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。
+   您可以确保选择正确的组，方法是将鼠标悬停在该组上，然后单击该组旁边显示的信息图标![信息图标](assets/info-icon.png)。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。
 
 1. 单击&#x200B;**删除它们**。

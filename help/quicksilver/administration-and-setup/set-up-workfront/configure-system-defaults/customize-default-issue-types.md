@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: caed65ab-a787-437b-9f5f-b3d4135bb980
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 0%
 * **[!UICONTROL 问题]** [!DNL Workfront]中的对象，用于传达计划外工作、出现的问题或为了继续任务而必须解决的事项。
 * **[!UICONTROL 请求]**&#x200B;一种问题类型，适用于用户在Workfront中发出请求的请求队列。
 
-![](assets/default-issue-types.png)
+![默认问题类型](assets/default-issue-types.png)
 
 ## 自定义问题类型
 
@@ -86,8 +86,8 @@ ht-degree: 0%
 1. 单击&#x200B;**[!UICONTROL 问题]**&#x200B;选项卡。
 1. 执行以下任一操作：
 
-   * 将鼠标悬停在要自定义的问题类型上，单击最右侧显示的[!UICONTROL 编辑]图标![](assets/edit-icon.png)，然后为问题类型键入一个新名称。
+   * 将鼠标悬停在要自定义的问题类型上，单击最右侧显示的[!UICONTROL 编辑]图标![编辑图标](assets/edit-icon.png)，然后为问题类型键入一个新名称。
 
-     ![](assets/customize-issue-type.png)
+     ![自定义问题类型](assets/customize-issue-type.png)
 
    * 单击[!UICONTROL 问题类型]以列出其关联状态，然后将鼠标悬停在其上方时显示的句柄拖放到该类型上，并按照您希望它们在用户问题&#x200B;**[!UICONTROL 状态]**&#x200B;下拉菜单中显示的顺序进行放置。

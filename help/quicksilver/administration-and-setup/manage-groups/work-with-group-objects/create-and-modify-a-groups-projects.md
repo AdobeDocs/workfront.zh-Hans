@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: db90cf52-7c8f-4972-b67f-401657ba9b13
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -62,10 +62,10 @@ ht-degree: 0%
 
 {{step-1-to-setup}}
 
-1. 在左侧面板中，单击&#x200B;**组** ![](assets/groups-icon.png)。
+1. 在左侧面板中，单击&#x200B;**组** ![组](assets/groups-icon.png)。
 
 1. 单击要为其创建、查看或使用项目的组的名称。
-1. 在左侧面板中，单击&#x200B;**项目** ![](assets/projects-in-main-menu.png)可查看与组关联的项目列表。
+1. 在左侧面板中，单击主菜单中的&#x200B;**项目** ![项目](assets/projects-in-main-menu.png)以查看与组关联的项目列表。
 
 1. 执行以下任一操作：
 

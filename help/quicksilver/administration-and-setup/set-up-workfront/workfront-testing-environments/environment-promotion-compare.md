@@ -8,9 +8,10 @@ description: 您可以跨环境比较对象，以确保环境升级包中包含�
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 2ff7a8b0ae3cc1f641c0d7c0b1384548c9603423
+exl-id: 085b0f04-5a9c-49b9-86d7-2363731ee067
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -85,7 +86,7 @@ ht-degree: 0%
 
 要查看特定对象差异，请执行以下操作：
 
-1. 单击该对象行中的放大镜图标![](assets/compare-icon.png)。
+1. 单击该对象行中的放大镜图标![比较图标](assets/compare-icon.png)。
 
    此时将打开一个窗口，其中包含该对象的所有字段。 差异以红色标记。
 

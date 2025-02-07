@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 90405d79f605d788331cb7a04ebf354dc4379bf5
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '2693'
+source-wordcount: '2695'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 1%
 1. 在左侧面板中，单击&#x200B;**[!UICONTROL 项目首选项]** > **[!UICONTROL 项目]**。
 
 1. 在&#x200B;**项目偏好设置**&#x200B;页面上，继续下面列出的四个部分之一，以配置[!UICONTROL 项目状态]、[!UICONTROL 时间线]、[!UICONTROL 商业案例]和[!UICONTROL 死亡后寿命]的偏好设置。
-1. 如果您希望整个组织中的所有组都使用相同的项目首选项，请确保每个首选项都锁定了![](assets/lock-toggle-button.png)（这是默认设置）。
+1. 如果您希望整个组织中的所有组都使用相同的项目首选项，请确保每个首选项均被锁定![锁定切换](assets/lock-toggle-button.png)（这是默认设置）。
 
    >[!IMPORTANT]
    >

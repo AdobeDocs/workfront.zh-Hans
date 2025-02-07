@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6fee45a6-1a55-4351-8b08-88244c742ed5
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '520'
 ht-degree: 6%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 6%
 
 <!--The system version of this snippet mentions a single group because a sysadmin call also reorder statuses there. Group admin version of this article is still needed.-->
 
-![](assets/statuses.png)
+![状态](assets/statuses.png)
 
 >[!NOTE]
 >
@@ -125,7 +125,7 @@ ht-degree: 6%
 1. 在左侧面板中，单击&#x200B;**项目首选项>状态**。
 1. （视情况而定）如果要对组的状态重新排序，请在右上角的框中开始键入组的名称，然后在组出现时单击该名称。
 
-   ![](assets/system-statuses-in-upper-rt-corner-group.jpg)
+   ![系统状态](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
 1. 在显示的状态列表上方，单击&#x200B;**项目**&#x200B;或&#x200B;**任务**&#x200B;选项卡。
 
@@ -137,12 +137,12 @@ ht-degree: 6%
 
 ## 重新排序问题的状态
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**设置**![齿轮设置图标](assets/gear-icon-settings.png)。
 
 1. 单击&#x200B;**项目首选项>状态。**
 1. （视情况而定）如果要对组的状态重新排序，请在右上角的框中开始键入组的名称，然后在组出现时单击该名称。
 
-   ![](assets/issue-statuses-group-name.png)
+   ![组](assets/issue-statuses-group-name.png)的问题状态
 
 1. 单击&#x200B;**问题**&#x200B;选项卡。
 1. （可选）选择问题类型（**错误报告**、**更改顺序**、**问题**&#x200B;或&#x200B;**请求**）。

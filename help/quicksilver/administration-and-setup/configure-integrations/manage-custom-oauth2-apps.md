@@ -8,9 +8,9 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Becky
 exl-id: 158430e5-8857-4bd8-86a6-2ba106b1638c
-source-git-commit: bb81e32263348128b7661db6102ad5ac14e9a434
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 1. 在左侧导航面板中，单击&#x200B;**[!UICONTROL 系统]**，然后选择&#x200B;**[!UICONTROL OAuth应用程序]**。
 1. 单击&#x200B;**[!UICONTROL 创建应用集成]**。
-1. 将鼠标悬停在应用程序上，单击&#x200B;**[!UICONTROL 编辑]** ![](assets/edit-icon.png)（当应用程序出现在最右边时）。
+1. 将鼠标悬停在应用程序上，单击&#x200B;**[!UICONTROL 编辑]** ![编辑图标](assets/edit-icon.png)（当它出现在最右侧时）。
 1. （可选）编辑应用程序的任何详细信息。
 
    有关与OAuth2和JWT应用程序相关的字段，请参阅[为 [!DNL Workfront] 集成创建OAuth2应用程序](../../administration-and-setup/configure-integrations/create-oauth-application.md)。
@@ -87,7 +87,7 @@ ht-degree: 0%
 {{step-1-to-setup}}
 
 1. 在左侧导航面板中，单击&#x200B;**[!UICONTROL 系统]**，然后选择&#x200B;**[!UICONTROL OAuth应用程序]**。
-1. 将鼠标悬停在应用程序上，单击&#x200B;**[!UICONTROL 删除]** ![](assets/delete.png)（当应用程序出现在最右边时）。
+1. 将鼠标悬停在应用程序上，并在应用程序最右侧出现时单击&#x200B;**[!UICONTROL 删除]** ![删除](assets/delete.png)。
 
 ## 在OAuth2应用程序中管理客户端密钥
 
@@ -143,4 +143,4 @@ ht-degree: 0%
 1. 单击&#x200B;**[!UICONTROL 创建应用集成]**。
 1. 将鼠标悬停在应用程序上，单击&#x200B;**[!UICONTROL 编辑]**&#x200B;图标（当它出现在最右侧时）。
 1. 找到要删除的客户端密钥。
-1. 单击客户端密钥旁边的&#x200B;**[!UICONTROL 删除]**&#x200B;图标![](assets/delete.png)。
+1. 单击客户端密钥旁边的&#x200B;**[!UICONTROL 删除]**&#x200B;图标![删除](assets/delete.png)。

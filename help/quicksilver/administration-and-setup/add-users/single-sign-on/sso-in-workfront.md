@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87f1b6c0-6b74-4eac-87cd-899b1c74af25
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Workfront提供了一个集中管理的单点登录(SSO)配置，将Workfront与
 
 联合解决方案允许用户通过在集中式登录门户中输入用户名和密码来登录其所有应用程序。
 
-![](assets/overview-sso-wf-fed-only.png)
+![SSO联合](assets/overview-sso-wf-fed-only.png)
 
 
 ## 配置防火墙

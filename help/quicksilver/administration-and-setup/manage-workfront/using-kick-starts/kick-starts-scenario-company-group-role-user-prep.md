@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: kickstart，kick-start，kickstarts，kick-starts
 navigation-topic: use-kick-starts
-title: “Kick-Starts场景：公司、组、角色和用户的Kick-Starts准备”
+title: 快速启动方案：公司、组、角色和用户快速启动准备
 description: 开始实施Adobe Workfront时，您可以导入客户列表、内部部门、职位角色和用户信息，而不是手动输入数据。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1150'
 ht-degree: 2%
 
 ---
@@ -183,69 +183,69 @@ ht-degree: 2%
 
 1. 转到“CMPY公司”表。
 
-   除非系统中已包含公司，否则它应该为空。![](assets/cmpysheet-350x16.png)
+   除非系统中已包含公司，否则它应该为空。 ![公司表](assets/cmpysheet-350x16.png)
 
-   ![](assets/companyid--1--350x78.png)
+   ![公司ID](assets/companyid--1--350x78.png)
 
 1. 在&#x200B;**isNew**&#x200B;列中指定TRUE。
 1. 对每个要添加的公司重复此操作。 （在本例中，请为第3-6行完成此操作，因为将添加四个公司。）
 
-   ![](assets/cmpyisnew-350x86.png)
+   ![公司是新的](assets/cmpyisnew-350x86.png)
 
 1. 指定唯一ID。
 
    必须为ID列的每一行执行此操作。 创建新记录时，从1开始的整数工作正常。
 
-   ![](assets/cmpyisnew-350x86.png)
+   ![公司是新的](assets/cmpyisnew-350x86.png)
 
 1. 设置名称。
 
    在&#x200B;**setName**&#x200B;列中指定每个客户的名称。
 
-   ![](assets/companyid-350x78.png)
+   ![公司ID](assets/companyid-350x78.png)
 
 1. 转到“组”工作表。
 
    除非您已在Workfront中创建了组，否则此工作表应仅显示为Workfront的每个帐户配置的默认组。
 
-   ![](assets/groupsheet-350x15.png) ![](assets/emptygroupsheet-350x85.png)
+   ![组表](assets/groupsheet-350x15.png) ![空组表](assets/emptygroupsheet-350x85.png)
 
 1. 设置&#x200B;**isNew**&#x200B;列。根据此方案，将导入4个组，因此请为“isNew”列在第4行到第7行中指定TRUE。
 1. 指定唯一ID。
 
    必须为ID列的每一行执行此操作。 创建新记录时，从1开始的整数工作正常。
 
-   ![](assets/groupids-350x85.png)
+   ![组ID](assets/groupids-350x85.png)
 
 1. 设置名称。
 
    在&#x200B;**setName**&#x200B;列中指定每个部门的名称。
 
-   ![](assets/groupnames-350x85.png)
+   ![组名](assets/groupnames-350x85.png)
 
    指定角色信息。 转到“角色”角色表。
 
 1. 除非您已经在帐户中创建或删除了角色，否则此工作表应显示8个使用Workfront的每个帐户配置的角色。
 
-   ![](assets/groupnames-350x85.png)
+   ![组名](assets/groupnames-350x85.png)
 
 1. 设置True语句。
 
    正在导入七个工作角色，请在“isNew”列的行12到18中输入TRUE。
 
-   ![](assets/roleisnew-350x104.png)
+   ![角色是新的](assets/roleisnew-350x104.png)
 
 1. 指定唯一ID。
 
    必须为ID列的每一行执行此操作。 创建新记录时，从1开始的整数工作正常。
 
-   ![](assets/usersheet-350x16.png)
+   ![用户表](assets/usersheet-350x16.png)
 
-   ![](assets/roleisnew--1--350x104.png)
+   ![角色是新的](assets/roleisnew--1--350x104.png)
 
 1. 通过在setName列中键入每个角色来提供其名称。
 
-   ![](assets/roleisnew-350x104.png)
+   ![角色是新的](assets/roleisnew-350x104.png)
 
 1. 根据需要提供其他详细信息。
 
@@ -255,23 +255,23 @@ ht-degree: 2%
 
    除非您已在帐户中创建用户，否则此工作表应仅显示使用Workfront的每个帐户配置的管理员用户。
 
-   ![](assets/rolenames-350x104.png) ![](assets/emptyusersheet-350x52.png)
+   ![角色名称](assets/rolenames-350x104.png) ![空用户表](assets/emptyusersheet-350x52.png)
 
 1. 由于正在导入6个用户，因此在“isNew”列的第4行到第9行中指定TRUE可设置True值。
 
-   ![](assets/userisnew-350x52.png)
+   ![用户是新用户](assets/userisnew-350x52.png)
 
 1. 通过在ID列的每行中指定唯一ID来设置唯一ID。 通常，从1开始的整数适用于新记录。
 
-   ![](assets/userisnew-350x52.png)
+   ![用户是新用户](assets/userisnew-350x52.png)
 
 1. 将每个用户的名称输入到“setFirstName”和“setLastName”列中。
 
-   ![](assets/usernames-350x52.png)
+   ![用户名](assets/usernames-350x52.png)
 
 1. 通过在“setEmail”、“setPassword”和“setUsername”列中指定值来设置详细信息值。
 
-   ![](assets/usercredentials-350x52.png)
+   ![用户凭据](assets/usercredentials-350x52.png)
 
 1. 指定访问级别值。
 
@@ -279,13 +279,13 @@ ht-degree: 2%
 
    对每个用户和访问级别重复此步骤。
 
-   ![](assets/copyalid-350x171.png) ![](assets/pastealid-350x59.png)
+   ![复制访问级别ID](assets/copyalid-350x171.png) ![粘贴访问级别ID](assets/pastealid-350x59.png)
 
 1. 指定主组详细信息。
 
    根据场景，Chris Manning属于营销组。 在“组”工作表上，找到营销组的ID，将其复制到剪贴板中，然后在“用户”工作表上将其粘贴到Chris行上的&#x200B;**setHomeGroupID**&#x200B;列中。&#x200B;AEM对每个用户和组分配重复此步骤。
 
-   ![](assets/copygroupid-1-350x133.png) ![](assets/pastegroupid-350x59.png)
+   ![复制组ID](assets/copygroupid-1-350x133.png) ![粘贴组ID](assets/pastegroupid-350x59.png)
 
 1. 指定公司详细信息。
 
@@ -293,17 +293,17 @@ ht-degree: 2%
 
    对每个用户和组分配重复此步骤。
 
-   ![](assets/companyid--1--350x78.png)
+   ![公司ID](assets/companyid--1--350x78.png)
 
-   ![](assets/pastecompanyid-350x84.png)
+   ![粘贴公司ID](assets/pastecompanyid-350x84.png)
 
 1. 指定工作角色详细信息。
 
    根据设想，克里斯·曼宁将担任业务分析员。 在“角色”工作表上，找到Business Analyst角色的ID，将其复制到剪贴板中，然后在“用户”工作表上将其粘贴到Chris行上的“setRoleID”列中。&#x200B;AEM对每个用户和组分配重复此步骤。
 
-   ![](assets/copyroleid-350x149.png)
+   ![复制角色ID](assets/copyroleid-350x149.png)
 
-   ![](assets/pasteroleid-350x95.png)
+   ![粘贴角色ID](assets/pasteroleid-350x95.png)
 
 1. 根据需要填写其他用户详细信息，然后保存文件。
 1. 导入Excel文件。

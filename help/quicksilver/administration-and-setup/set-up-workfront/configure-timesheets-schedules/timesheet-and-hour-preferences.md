@@ -8,9 +8,9 @@ author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 1. （可选）在&#x200B;**系统时间表和小时首选项**&#x200B;搜索框中，开始键入组的名称，然后当组显示在列表中时将其选定。
 
-   ![](assets/search-for-group-box-in-timesheets-preferences-page.png)
+   ![搜索组框](assets/search-for-group-box-in-timesheets-preferences-page.png)
 
    “时间表和小时首选项”页面会更新为您所选组的首选项。 必须解锁系统级别的首选项才能修改组级别的首选项。 有关详细信息，请参阅本文中[解锁组](#unlock-timesheet-and-hour-preferences-for-groups)的时间表和小时偏好设置。
 
@@ -212,8 +212,8 @@ ht-degree: 0%
 
 1. 执行以下任一操作：
 
-   * 如果您希望组管理员能够为其组配置首选项，请单击&#x200B;**解锁**&#x200B;切换![](assets/unlock-toggle-button.png)以将其解锁。
-   * 如果您希望所有组都使用您的首选项配置，请确保该切换开关已锁定![](assets/locked-preference-toggle.png)（这是默认设置）。
+   * 如果希望组管理员能够为其组配置首选项，请单击&#x200B;**解锁**&#x200B;切换![解锁切换](assets/unlock-toggle-button.png)以解锁该首选项。
+   * 如果您希望所有组都使用您的首选项配置，请确保该切换已锁定![锁定的首选项切换](assets/locked-preference-toggle.png)（这是默认设置）。
 
      >[!IMPORTANT]
      >

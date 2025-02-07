@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 86c120de-16b8-4ca8-a7a1-76ece70c0505
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Add this at end of 2nd-to-last sentence in this^ paragraph when they add the **I
 
    在显示的列表中，您可以看到您管理的组以及它们具有的任何子组。 Adobe Workfront管理员可以查看所有组。
 
-1. 选择组，然后单击“编辑![](assets/edit-icon.png)”、“复制![](assets/copy-icon.png)”或“删除![](assets/delete.png)”图标。
+1. 选择组，然后单击“编辑”![“编辑”图标](assets/edit-icon.png)、“复制”![“复制”图标](assets/copy-icon.png)或“删除”![“删除”图标](assets/delete.png)图标。
 
    如果您需要有关使用显示的框的信息，请参阅以下内容之一：
 

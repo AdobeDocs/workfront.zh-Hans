@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ You must have at least one request type selected. You can select multiple reques
 1. 单击&#x200B;**[!UICONTROL 问题]**&#x200B;选项卡。
 1. 在&#x200B;**[!UICONTROL 问题]**&#x200B;选项卡的顶部，将鼠标悬停在请求类型的名称上，然后单击显示的&#x200B;**[!UICONTROL 编辑]**&#x200B;图标。
 
-   ![](assets/edit-request-type-name-nwe.png)
+   ![编辑请求类型名称](assets/edit-request-type-name-nwe.png)
 
 1. 在出现的框中，键入新名称，然后按&#x200B;**[!UICONTROL Enter]**。
 

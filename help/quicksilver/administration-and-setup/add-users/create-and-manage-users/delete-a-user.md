@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '871'
 ht-degree: 1%
 
 ---
@@ -132,7 +132,7 @@ ht-degree: 1%
 
 {{step-1-to-users}}
 
-1. 至少选择一个要删除的用户，单击“更多”菜单![](assets/more-icon.png)，然后单击&#x200B;**删除**。
+1. 至少选择一个要删除的用户，单击“更多”菜单![更多图标](assets/more-icon.png)，然后单击&#x200B;**删除**。
 1. 在出现的框中，单击&#x200B;**删除**&#x200B;以确认删除。
 
    删除用户的过程将作为后台进程运行，因此您可以在删除一个或多个用户后继续使用Workfront。

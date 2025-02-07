@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8a55d364-962a-4eef-8968-b2233a71cf31
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 0%
    >
    >如果启用选项&#x200B;**允许在iframe中嵌入Workfront**，则选项&#x200B;**在Office 365加载项中允许SAML 2.0身份验证**&#x200B;将变暗并启用。
    >
-   >![](assets/if-you-enable.png)
+   >![允许嵌入选项](assets/if-you-enable.png)
    >
 
 1. 单击&#x200B;**保存**。

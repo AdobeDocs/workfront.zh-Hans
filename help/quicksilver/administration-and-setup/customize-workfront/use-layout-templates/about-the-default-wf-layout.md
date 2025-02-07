@@ -9,16 +9,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: 52877ab16210699019c82e709f288b5f98e7d811
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '627'
 ht-degree: 9%
 
 ---
 
 # 关于默认Adobe Workfront布局
 
-默认布局是主菜单![](assets/main-menu-icon.png)或主菜单![](assets/lines-main-menu.png)（如果可用）、左侧面板、视图、分组和筛选器的布局，Adobe Workfront管理员使用布局模板进行任何更改。
+默认布局是Adobe Workfront管理员使用布局模板进行任何更改之前的主菜单![主菜单图标](assets/main-menu-icon.png)或主菜单![主菜单图标](assets/main-menu-icon.png)（如果可用）的布局、左侧面板以及视图、分组和筛选器的布局。
 
 有关Workfront管理员如何通过为用户分配布局模板来修改用户默认布局的信息，请参阅[将用户分配给布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)。
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51018635-cd9a-402d-a136-c5bec4707cda
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
@@ -66,14 +66,14 @@ ht-degree: 0%
 
 如果自定义状态是问题状态，则必须为其启用所有四种问题类型（错误报告、更改顺序、问题和请求）。 例如，在下面显示的问题状态中，由于未选择“更改单”问题类型，因此不能将“重新打开”状态用作默认状态：
 
-![](assets/all-4-issue-types-enabled.png)
+![所有问题类型已启用](assets/all-4-issue-types-enabled.png)
 
 ## 将自定义状态设置为组的默认状态
 
 {{step-1-to-setup}}
 
-1. 在左侧面板中，单击&#x200B;**组** ![](assets/groups-icon.png)，然后单击要创建或自定义状态的组的名称。
-1. 在左侧面板中，单击&#x200B;**状态** ![](assets/gear-icon-settings.png)。
+1. 在左侧面板中，单击&#x200B;**组** ![组](assets/groups-icon.png)，然后单击要创建或自定义状态的组的名称。
+1. 在左侧面板中，单击&#x200B;**状态** ![齿轮设置图标](assets/gear-icon-settings.png)。
 1. 打开&#x200B;**项目**、**任务**&#x200B;或&#x200B;**问题**&#x200B;选项卡，具体取决于要设置为默认状态的状态类型。
 1. 单击右上角附近的&#x200B;**设置默认状态**。
 1. 在显示的下拉区域中，在要设置默认状态的状态旁边选择要设置的默认状态。
@@ -90,7 +90,7 @@ ht-degree: 0%
    >如果将项目分配给其他组，则项目状态将重新加载并可能发生变化。
 
    1. 转到要在其中使用自定义状态的项目。
-   1. 单击“更多”菜单![](assets/more-icon.png)，然后单击&#x200B;**编辑**。
+   1. 单击“更多”菜单![更多图标](assets/more-icon.png)，然后单击&#x200B;**编辑**。
    1. 在显示的&#x200B;**编辑项目**&#x200B;框中，在&#x200B;**项目关联**&#x200B;下的&#x200B;**组**&#x200B;字段中，选择与自定义状态关联的组。
 
    1. 单击&#x200B;**保存更改**。
@@ -109,4 +109,4 @@ Workfront管理员将自定义状态配置为默认状态后，创建的新组�
 
 如果没有对等类型的可用状态，则状态类型显示为&#x200B;**隐藏**，且不可用于工作项。
 
-![](assets/when-hide-default-status-no-equivalent.png)
+![无可用状态](assets/when-hide-default-status-no-equivalent.png)

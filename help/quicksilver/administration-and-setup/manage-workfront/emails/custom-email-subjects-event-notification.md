@@ -6,9 +6,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '612'
 ht-degree: 4%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 4%
 
 例如，“有人在定向更新中包含我”有两个不同的主题行：第一个主题行用于任务、问题、模板任务和文档（也称为“referenceObject”），第二个主题行用于允许用户进行注释的对象，如项目组合、项目群等（也称为“topReferenceObject”）。
 
-![](assets/Ev-not-mult-subj-lines.png)
+![事件不是多个主题行](assets/Ev-not-mult-subj-lines.png)
 
 如果某个用户包含在关于任务、问题、模板任务或文档的对话中，则会生成包含第一个主题行的电子邮件。 主题行包含“referenceObject：name”，系统定义对象并在主题字段显示适当的名称。 电子邮件主题行将类似于以下内容：“对项目ABC中的任务123的评论”。
 
@@ -96,6 +96,6 @@ ht-degree: 4%
 
 例如，请求将文档添加到问题是一个事件，该事件会触发两个不同的电子邮件：一个用于添加文档时，另一个用于编辑文档时。
 
-![](assets/ev-not-mult-subj-lines-diff-actions.png)
+![事件不同的操作](assets/ev-not-mult-subj-lines-diff-actions.png)
 
 要编辑电子邮件主题行并向任一主题行添加其他字段，请参阅本文中的[自定义事件通知的电子邮件主题行](#customize-email-subject-lines-for-event-notifications)。

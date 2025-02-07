@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1330'
 ht-degree: 2%
 
 ---
@@ -107,7 +107,7 @@ Workfront管理员还有唯一的API密钥。 当应用程序使用管理员API�
    1. 展开&#x200B;**系统**，然后单击&#x200B;**单点登录(SSO)**。
    1. 在&#x200B;**类型**&#x200B;字段中，选择贵组织使用的SSO类型。
    1. 选定类型后，向下滚动并清除&#x200B;**启用**复选框。
-      ![](assets/sysadmin-security-sso-disable-31620-350x320.png)
+      ![启用SSO](assets/sysadmin-security-sso-disable-31620-350x320.png)
    1. 单击&#x200B;**保存**。
 
 
@@ -187,7 +187,7 @@ Workfront管理员还有唯一的API密钥。 当应用程序使用管理员API�
 
 从证书颁发机构获得X.509证书后，需要将其上传到Workfront。
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**设置**![齿轮设置图标](assets/gear-icon-settings.png)。
 
 1. 展开&#x200B;**系统**，然后单击&#x200B;**客户信息**。
 

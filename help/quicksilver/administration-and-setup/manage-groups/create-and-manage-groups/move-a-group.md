@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f5227454-457d-40d3-865c-c2551471d83e
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '260'
 ht-degree: 1%
 
 ---
@@ -64,9 +64,9 @@ ht-degree: 1%
 
 {{step-1-to-setup}}
 
-1. 在左侧面板中，单击&#x200B;**组** ![](assets/groups-icon.png)。
+1. 在左侧面板中，单击&#x200B;**组** ![组](assets/groups-icon.png)。
 
-1. 选择要将组移动到的目标组，然后单击编辑图标![](assets/edit-icon.png)。
+1. 选择要将组移动到的目标组，然后单击“编辑”图标![编辑图标](assets/edit-icon.png)。
 1. 在出现的&#x200B;**编辑群组**&#x200B;框中，在&#x200B;**群成员和群组管理员**&#x200B;下，开始键入要移动的群组的名称，然后在该组出现时单击它。
 1. 单击&#x200B;**保存**。
 

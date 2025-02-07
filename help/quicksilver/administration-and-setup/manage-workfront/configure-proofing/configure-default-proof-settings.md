@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: cfccb120-8759-49f2-8b7b-dabcd57d4fda
-source-git-commit: 5676910e53f1c4f49cab196e42bfbce8704887ca
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '563'
 ht-degree: 7%
 
 ---
@@ -125,15 +125,15 @@ ht-degree: 7%
       >
       >在重命名决策时保留决策的逻辑。 例如，默认决策“被拒绝”可更改为&#x200B;*需要新版本*，但不应将其更改为&#x200B;*发送到打印机*。
 
-      ![](assets/rename-decision-350x109.png)
+      ![重命名决策](assets/rename-decision-350x109.png)
 
    1. **重新排列决策顺序**：按您希望决策框在验证查看器中出现的顺序拖动决策框。
 
-      ![](assets/move-decision-350x110.png)
+      ![移动决策](assets/move-decision-350x110.png)
 
    1. **隐藏决策**：将鼠标悬停在决策框上，然后单击右上角的“隐藏”图标。
 
-      ![](assets/hide-decision-350x109.png)
+      ![隐藏决策](assets/hide-decision-350x109.png)
 
 1. （可选）要返回到Workfront默认值，请单击&#x200B;**还原默认值**。
 1. 单击&#x200B;**保存**。

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9a489e8-0ffe-4f52-bbd9-172e7273048c
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 * 当用户编辑项目时
 
-  ![](assets/change-condition-edit-project.png)
+  编辑项目时![更改完成情况](assets/change-condition-edit-project.png)
 
 * 当用户更改任务或问题的条件时
 
-  ![](assets/change-conditions-list-dropdown-only.png)
+  ![更改列表](assets/change-conditions-list-dropdown-only.png)中的条件
 
 ## 访问要求
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 1. 选择&#x200B;**项目**、**任务**&#x200B;或&#x200B;**问题**&#x200B;选项卡。
 
-1. 拖动![](assets/move-icon---dots.png)条件以更改其顺序。
+1. 拖动![移动图标](assets/move-icon---dots.png)条件以更改其顺序。
 
    新订单会自动保存。
 

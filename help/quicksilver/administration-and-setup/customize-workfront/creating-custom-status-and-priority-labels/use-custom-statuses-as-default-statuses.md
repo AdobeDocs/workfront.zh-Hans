@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5b137cee-e03a-4176-a683-b77f2b27f5ce
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '813'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 如果自定义状态是问题状态，则必须为其启用所有四种问题类型（错误报告、更改顺序、问题和请求）。 例如，在下面显示的问题状态中，由于未选择“更改单”问题类型，因此不能将“重新打开”状态用作默认状态：
 
-![](assets/all-4-issue-types-enabled.png)
+![所有问题类型已启用](assets/all-4-issue-types-enabled.png)
 
 ## 将自定义状态设置为默认状态
 
@@ -101,6 +101,6 @@ ht-degree: 0%
    >如果您正在设置组的自定义状态，并且稍后将项目分配给其他组，则项目状态将重新加载并可能更改。
 
    1. 转到要在其中使用自定义状态的项目。
-   1. 单击“更多”菜单![](assets/more-icon.png)，然后单击&#x200B;**编辑**。
+   1. 单击“更多”菜单![更多图标](assets/more-icon.png)，然后单击&#x200B;**编辑**。
    1. 在显示的&#x200B;**编辑项目**&#x200B;框中，在&#x200B;**项目关联**&#x200B;下的&#x200B;**组**&#x200B;字段中，选择状态所在的组。
    1. 单击&#x200B;**保存更改**。

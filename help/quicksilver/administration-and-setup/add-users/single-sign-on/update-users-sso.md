@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f9c543a-2ae2-4c2c-9c4d-647079263a7e
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '816'
 ht-degree: 1%
 
 ---
@@ -86,13 +86,13 @@ ht-degree: 1%
 
 1. 在报表中选择以下字段：
 
-   | 字段 | 说明 |
+   | 字段 | 解释 |
    |---|---|
    | 名称 | Workfront用户的全名。 |
    | ID | ID是Workfront的字母数字GUID。 |
    | SSO 用户名 | 添加SSO用户名字段以确保导入不会覆盖任何用户名。 如果您的用户尚未针对SSO进行更新，则此字段对于所有用户都应为空。 |
 
-   ![](assets/users-with-sso-username-and-no-sso-access-only-field.png)
+   ![具有SSO用户名但没有访问权限的用户](assets/users-with-sso-username-and-no-sso-access-only-field.png)
 
 1. 保存报表。
 1. 单击报告顶部的&#x200B;**导出**&#x200B;并将报告导出到Excel。
@@ -112,7 +112,7 @@ ht-degree: 1%
    * 第二列必须包含SSO用户名，它显示在您的SSO系统中。
    * 列不得有标题，名称列表顶部不得有任何空行。
 
-     ![](assets/update-users-for-sso-csv-file-for-import.png)
+     ![更新用户CSV](assets/update-users-for-sso-csv-file-for-import.png)
 
 1. 将报表另存为CSV或TSV文件。
 
@@ -145,6 +145,6 @@ ht-degree: 1%
 1. 确保“SSO用户名”列的值与SSO服务器上的SSO用户名匹配。
 1. 如果SSO用户名列为空，请更新用户的SSO用户名。
 
-   ![](assets/users-with-sso-field-updated.png)
+   ![具有SSO字段的用户](assets/users-with-sso-field-updated.png)
 
    有关更新SSO用户的说明，请参阅[更新SSO用户](#update-your-users-for-sso)。

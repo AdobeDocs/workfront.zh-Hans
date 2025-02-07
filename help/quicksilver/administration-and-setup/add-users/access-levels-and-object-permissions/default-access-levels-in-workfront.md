@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1685'
-ht-degree: 5%
+source-wordcount: '1715'
+ht-degree: 6%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 5%
 * 系统管理员
 * 规划器
 * 员工
-* 查看者
+* 审阅者
 * 请求人
 * 外部用户
 
@@ -74,7 +74,7 @@ ht-degree: 5%
 
 具有系统管理员访问权限级别的用户可以在Workfront中执行所有操作。 他们可以查看和编辑所有其他用户在Workfront中输入的所有Workfront对象和信息。
 
-用户还可以完全访问“设置”区域，以便更改系统级别的任何设置。 并且他们可以访问主菜单![](assets/main-menu-icon.png)或主菜单![](assets/lines-main-menu.png)中的所有区域（如果可用）。
+用户还可以完全访问“设置”区域，以便更改系统级别的任何设置。 如果可用，他们可以访问主菜单![主菜单图标](assets/main-menu-icon.png)或主菜单![主菜单图标](assets/main-menu-icon.png)中的所有区域。
 
 有关详细信息，请参阅[授予用户完全管理访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)。
 
@@ -86,13 +86,13 @@ ht-degree: 5%
 * 任何负责规划、创建和管理任务、项目、项目组合和项目群的人员
 * 负责将工作（任务和问题）分配给其他用户的任何人
 * 构建报告以及批准工时表、工作项和文档的用户
-* 需要访问主菜单![](assets/main-menu-icon.png)或主菜单![](assets/lines-main-menu.png)中所有区域的用户（如果可用）
+* 需要访问主菜单![主菜单图标](assets/main-menu-icon.png)或主菜单![主菜单图标](assets/main-menu-icon.png)的所有区域的用户（如果可用）
 
 您可以创建Planner内置访问级别的自定义版本，并确定它允许各种Workfront对象类型的访问量。 有关详细信息，请参阅[创建和修改自定义访问级别](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 以下是可用于规划者访问级别中对象的最高访问设置：
 
-| Workfront对象类型 | 无权访问 | 查看访问权限 | 编辑访问权限 |
+| Workfront对象类型 | 无访问权限 | 查看访问权限 | 编辑访问权限 |
 |---|---|---|---|
 | 项目 |   |   | ✓ {\f13 } |
 | 任务 |   |   | ✓ {\f13 } |
@@ -122,14 +122,14 @@ ht-degree: 5%
 * 可以审批工作和文档，但不能审批工时表
 * 可以访问和共享报告
 * 可以与系统中的其他用户通信
-* 无法访问主菜单![](assets/main-menu-icon.png)或主菜单![](assets/lines-main-menu.png)中的所有区域（如果可用），并且其“用户”区域名为“团队”。 在团队区域中，具有此访问级别的用户只能查看他们所属的团队，以及分配给这些团队的工作。
+* 无法访问主菜单![主菜单图标](assets/main-menu-icon.png)或主菜单![主菜单图标](assets/main-menu-icon.png)（如果可用）中的所有区域，其“用户”区域将命名为“团队”。 在团队区域中，具有此访问级别的用户只能查看他们所属的团队，以及分配给这些团队的工作。
 * 创建对象的能力有限 — 无法创建项目、项目组合、项目群或报告。
 
 您可以创建Worker内置访问级别的自定义版本，并确定它允许各种Workfront对象类型的访问量。 有关详细信息，请参阅[创建和修改自定义访问级别](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 以下是辅助进程访问级别中对象的最高访问设置：
 
-| Workfront对象类型 | 无权访问 | 查看访问权限 | 编辑访问权限 |
+| Workfront对象类型 | 无访问权限 | 查看访问权限 | 编辑访问权限 |
 |---|---|---|---|
 | 项目 |   |   | ✓ （有限：用户只能共享项目、在其中创建任务和问题，以及在已附加到项目的自定义表单中编辑数据。） |
 | 任务 |   |   | ✓ {\f13 } |
@@ -158,7 +158,7 @@ ht-degree: 5%
 具有审阅者访问级别的用户：
 
 * 不能分派工作项或批准工时表
-* 可以访问主菜单![](assets/main-menu-icon.png)或主菜单![](assets/lines-main-menu.png)中的请求和文档区域（如果可用）
+* 可以访问主菜单![主菜单图标](assets/main-menu-icon.png)或主菜单![主菜单图标](assets/main-menu-icon.png)中的请求和文档区域（如果可用）
 * 创建对象的能力有限 — 无法创建项目、项目组合、项目群或报告。
 
 您可以创建Reviewer内置访问级别的自定义版本，并确定它允许各种Workfront对象类型的访问量。 有关详细信息，请参阅[创建和修改自定义访问级别](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
@@ -173,7 +173,7 @@ ht-degree: 5%
  <thead> 
   <tr> 
    <th>Workfront对象类型</th> 
-   <th>无权访问</th> 
+   <th>无访问权限</th> 
    <th>查看访问权限</th> 
    <th>编辑访问权限</th> 
   </tr> 
@@ -285,13 +285,13 @@ ht-degree: 5%
 * 可以上传和批准文档
 * 可以检查他们已提交问题的状态
 * 无法分派至工作项
-* 只能从主菜单![](assets/main-menu-icon.png)中的请求区域或主菜单![](assets/lines-main-menu.png)访问请求（如果可用）。 有关请求队列的详细信息，请参阅[创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
+* 只能从主菜单![主菜单图标](assets/main-menu-icon.png)中的请求区域或主菜单![主菜单图标](assets/main-menu-icon.png)访问请求（如果可用）。 有关请求队列的详细信息，请参阅[创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
 您可以创建请求者内置访问级别的自定义版本，并确定它允许各种Workfront对象类型的访问量。 有关详细信息，请参阅[创建和修改自定义访问级别](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 以下是请求者访问级别中对象的最高访问设置：
 
-| Workfront对象类型 | 无权访问 | 查看访问权限 | 编辑访问权限 |
+| Workfront对象类型 | 无访问权限 | 查看访问权限 | 编辑访问权限 |
 |---|---|---|---|
 | 项目 |   | ✓ （仅限项目详细信息页面） |   |
 | 任务 |   | ✓ Task （只有Task Details页） |   |
@@ -331,7 +331,7 @@ ht-degree: 5%
 
 虽然这些设置在“外部用户”访问级别的访问级别区域中不可见，但具有此访问权限的用户对Workfront对象类型具有下列最高访问权限：
 
-| Workfront对象类型 | 无权访问 | 查看访问权限 | 编辑访问权限 |
+| Workfront对象类型 | 无访问权限 | 查看访问权限 | 编辑访问权限 |
 |---|---|---|---|
 | 项目 | ✓ {\f13 } |   |   |
 | 任务 | ✓ {\f13 } | |   |

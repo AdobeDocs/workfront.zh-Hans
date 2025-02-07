@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
-作为Adobe Workfront管理员，您可以使用布局模板来确定当用户查看任务、问题、文档、项目群或项目组合时单击左侧面板中的“详细信息”图标![](assets/project-details-icon.png)时将显示哪些信息。
+作为Adobe Workfront管理员，您可以使用布局模板来确定当用户查看任务、问题、文档、项目或项目组合时单击左侧面板中的“详细信息”图标![详细信息图标](assets/project-details-icon.png)时显示哪些信息。
 
 <!--
 or billing record
@@ -38,22 +38,22 @@ or billing record
 
 * “创建对象”框，如“创建任务”
 
-  ![](assets/new-task-dialog.png)
+  ![新任务对话框](assets/new-task-dialog.png)
 
 
 * 编辑对象时显示“编辑对象”屏幕，例如“编辑任务”、“编辑问题”和“编辑项目”
 
-  ![](assets/edit-task-screen.png)
+  ![编辑任务屏幕](assets/edit-task-screen.png)
 
 
 * 批量编辑对象时显示“编辑对象”屏幕。 当前支持批量编辑项目。
 
-  ![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
+  ![自定义编辑项目](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
 
 
-* 任务和问题列表的摘要面板![](assets/summary-panel-icon.png)
+* 任务及问题列表的摘要面板![摘要面板](assets/summary-panel-icon.png)
 
-  ![](assets/summary-area.png)
+  ![摘要区域](assets/summary-area.png)
 
   >[!NOTE]
   >
@@ -100,14 +100,14 @@ or billing record
 ## 自定义用户在详细信息视图中看到的内容
 
 1. 开始处理布局模板，如[创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
-1. 单击&#x200B;**自定义用户看到的内容**&#x200B;下的向下箭头![](assets/dropdown-arrow-12x12.png)，然后单击&#x200B;**项目**、**任务**、**问题**、**项目**&#x200B;或&#x200B;**Portfolio。**
+1. 单击&#x200B;**自定义用户看到的内容**&#x200B;下的向下箭头![向下箭头](assets/dropdown-arrow-12x12.png)，然后单击&#x200B;**项目**、**任务**、**问题**、**项目**&#x200B;或&#x200B;**Portfolio。**
 <!--
 , or billing record
 -->
 
 1. 在&#x200B;**详细信息**&#x200B;部分中，执行以下任一操作以自定义用户在“详细信息”视图中看到的内容：
 
-   * 拖动任何节标题![](assets/move-icon---dots.png)以更改其顺序。
+   * 拖动任何节标题![移动图标](assets/move-icon---dots.png)以更改其顺序。
    * 启用或禁用各种区域(如&#x200B;**概述**、**财务**&#x200B;和&#x200B;**自定义Forms**)下的选项以显示或隐藏它们。
 
      如果隐藏其中一个部分中的所有字段，则会隐藏整个部分。

@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '641'
 ht-degree: 2%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 2%
 1. 单击页面右上角附近的&#x200B;**设置术语**。
 1. 执行以下任一操作：
 
-   * 要使用Workfront提供的替代术语，请单击标签旁边的向下箭头![](assets/dropdown-arrow.png)，然后在下拉列表中单击所需的替代标签。
+   * 要使用Workfront提供的替代术语，请单击标签旁边的向下箭头![向下箭头](assets/dropdown-arrow.png)，然后在下拉列表中单击所需的替代标签。
 
      >[!NOTE]
      >

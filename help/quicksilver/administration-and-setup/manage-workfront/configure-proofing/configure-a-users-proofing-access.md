@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 98c90139-f31a-41bc-af0b-577dd8b254e3
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1240'
+source-wordcount: '1242'
 ht-degree: 0%
 
 ---
@@ -135,7 +135,7 @@ ht-degree: 0%
 
 1. 在Workfront中，单击全局导航栏中的Workfront Proof图标以访问Workfront Proof。
 
-   ![](assets/proof-access-proofhq-350x39.png)
+   ![校对图标](assets/proof-access-proofhq-350x39.png)
 
 1. 单击Workfront Proof右上角附近的&#x200B;**帐户设置**，然后单击&#x200B;**设置**&#x200B;选项卡。
 

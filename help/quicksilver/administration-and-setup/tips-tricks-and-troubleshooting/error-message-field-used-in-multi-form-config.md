@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: “错误消息：存在轻微问题。 该字段用于多表单配置”
+title: 错误消息：存在轻微问题。 该字段用于多表单配置
 description: 在自定义表单的计算自定义字段中更改计算时，如果出现一则错误消息，告知您该字段已在多表单配置中使用，则需要将该字段替换为包含要使用的计算的新字段。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 43668525-5572-4d82-8eed-0e320249f296
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1239'
+source-wordcount: '1241'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
 
    **示例：**&#x200B;表单1上的字段1 =是，表单2上的字段2 =是，表单3上的字段3 =是。 这意味着“表单1上存在计算自定义字段”，或者“表单2上存在计算自定义字段”等。
 
-1. 在屏幕右上角的&#x200B;**[!UICONTROL 搜索图标]** ![](assets/search-icon.png)中，单击&#x200B;**[!UICONTROL 高级搜索]**。
+1. 在屏幕右上角的&#x200B;**[!UICONTROL 搜索图标]** ![搜索图标](assets/search-icon.png)中，单击&#x200B;**[!UICONTROL 高级搜索]**。
 1. 单击自定义表单的对象（如问题），单击&#x200B;**[!UICONTROL 筛选结果]**，然后单击&#x200B;**[!UICONTROL 添加筛选器]**。
 1. 开始在&#x200B;**[!UICONTROL 开始键入字段名称]**&#x200B;字段中键入复选框字段的名称，并在该字段显示在列表中时将其选中，然后选择&#x200B;**[!UICONTROL 等于]**&#x200B;并在以下框中键入&#x200B;**[!UICONTROL 是]**（不带引号）。
 

@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 9db8ea3f26dd7e8b4c8aa52fb9902832db7a6a5c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1284'
 ht-degree: 0%
 
 ---
@@ -102,13 +102,13 @@ Adobe管理员可以使用Adobe Admin Console创建Adobe Workfront系统管理�
 
 1. 从[Adobe Admin Console页面](https://adminconsole.adobe.com/)中，选择顶部导航栏中的&#x200B;**产品**&#x200B;选项卡，然后选择&#x200B;**Workfront**。
 
-   <!--![](assets/admin-product-1.png)-->
+   <!--![Admin Console product](assets/admin-product-1.png)-->
 
 1. 在显示的列表中，选择顶部的链接。
 
    这是用户工作的生产实例。
 
-   <!--![](assets/instances-1.png)-->
+   <!--![Admin Console instances](assets/instances-1.png)-->
 
    >[!TIP]
    >
@@ -119,7 +119,7 @@ Adobe管理员可以使用Adobe Admin Console创建Adobe Workfront系统管理�
 
 1. 在显示的列表中选择&#x200B;**产品配置文件**&#x200B;选项卡后，单击Workfront产品配置文件链接的名称。
 
-   ![](assets/prod-profile-1.png)
+   ![产品配置文件](assets/prod-profile-1.png)
 
    此列表包含已分配给您的Workfront生产实例的所有用户。
 
@@ -145,7 +145,7 @@ Adobe管理员可以使用Adobe Admin Console创建Adobe Workfront系统管理�
 1. 选择&#x200B;**添加管理员**。
 1. 在&#x200B;**添加产品配置文件管理员**&#x200B;框中，输入要添加的管理员的电子邮件地址或名称，然后选择&#x200B;**保存**。
 
-   ![](assets/add-admin-1.png)
+   ![添加管理员](assets/add-admin-1.png)
 
    在Workfront中创建系统管理员。
 
@@ -205,7 +205,7 @@ Adobe管理员可以使用Adobe Admin Console创建Adobe Workfront系统管理�
 
 {{step-1-to-users}}
 
-1. 选择用户，然后单击&#x200B;**更多**&#x200B;图标![](assets/more-icon.png)。
+1. 选择用户，然后单击&#x200B;**更多**&#x200B;图标![更多图标](assets/more-icon.png)。
 
 1. 要批准用户，请单击&#x200B;**批准**，然后单击&#x200B;**提交**。
 

@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 413e3051-fcb5-44d7-b6bd-6b05d39935e8
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 1. 单击Workfront界面右上角的&#x200B;**通知**&#x200B;图标，然后单击&#x200B;**所有公告**，以转到“公告”页面。
 
-   ![](assets/announcement-access-350x212.png)
+   ![所有公告](assets/announcement-access-350x212.png)
 
 1. 在&#x200B;**公告**&#x200B;页面上，选择要转发的消息。
 1. 单击&#x200B;**转发**。
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 1. 单击Workfront界面右上角的&#x200B;**通知**&#x200B;图标，然后单击&#x200B;**所有公告**，以转到“公告”页面。
 
-   ![](assets/announcement-access-350x212.png)
+   ![所有公告](assets/announcement-access-350x212.png)
 
 1. 在&#x200B;**公告**&#x200B;页面上，单击&#x200B;**新建公告。**
 

@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 例如，您可以确定用户在查看任务时会在左侧面板中看到以下哪些项目：
 
-![](assets/left-panel-adobe-branding.png)
+![品牌左面板](assets/left-panel-adobe-branding.png)
 
 >[!IMPORTANT]
 >
@@ -70,7 +70,7 @@ ht-degree: 0%
 ## 自定义[!DNL Workfront]中某个区域的左侧面板：
 
 1. 开始处理布局模板，如[创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
-1. 单击&#x200B;**[!UICONTROL 自定义用户看到的内容]**&#x200B;下的向下箭头![](assets/dropdown-arrow.png)，然后单击要自定义其左侧面板的对象类型或[!DNL Workfront]区域的名称。
+1. 单击&#x200B;**[!UICONTROL 自定义用户看到的内容]**&#x200B;下的向下箭头![向下箭头](assets/dropdown-arrow.png)，然后单击要自定义其左侧面板的对象类型或[!DNL Workfront]区域的名称。
 
    下表列出了可自定义其左侧面板的对象类型和[!DNL Workfront]区域：
 
@@ -89,7 +89,7 @@ ht-degree: 0%
      <tr> 
       <td>[！UICONTROL项目]</td> 
       <td>项目的名称</td> 
-      <td>[！UICONTROL任务]、[！UICONTROL项目详细信息]、[！UICONTROL业务案例]、[！UICONTROL更新]、[！UICONTROL文档]、[！UICONTROL问题]、[！UICONTROL风险]、[！UICONTROL批准]、[！UICONTROL基线]、[！UICONTROL记帐费率]、[！UICONTROL记帐记录]、[！UICONTROL trol支出]、[！UICONTROL小时数]、[！UICONTROL工作负载均衡器]、[！UICONTROL人员]、[！UICONTROL利用率]、[！UICONTROL队列详细信息]、[！UICONTROL路由规则]、[！UICONTROL队列主题]、[！UICONTROL主题组]、[！UICONTROL量度]、[！UICONTROL规划]*</td> 
+      <td>[！UICONTROL任务]、[！UICONTROL项目详细信息]、[！UICONTROL业务案例]、[！UICONTROL更新]、[！UICONTROL文档]、[！UICONTROL问题]、[！UICONTROL风险]、[！UICONTROL批准]、[！UICONTROL基线]、[！UICONTROL记帐费率]、[！UICONTROL记帐记录]、[！UICONTROL uicontrol支出]、[！UICONTROL小时数]、[！UICONTROL工作负载均衡器]、[！UICONTROL人员]、[！UICONTROL利用率]、[！UICONTROL队列详细信息]、[！UICONTROL路由规则]、[！UICONTROL队列主题]、[！UICONTROL主题组]、[！UICONTROL量度]、[！UICONTROL规划]*</td> 
      </tr> 
      <tr> 
       <td>[！UICONTROL任务]</td> 
@@ -114,7 +114,7 @@ ht-degree: 0%
      <tr> 
       <td>[！UICONTROL模板]</td> 
       <td>项目模板的名称</td> 
-      <td>[！UICONTROL模板任务]、[！UICONTROL模板详细信息]、[！UICONTROL更新]、[！UICONTROL文档]、[！UICONTROL风险]、[！UICONTROL费用]、[！UICONTROL人员]、[！UICONTROL批准]、[！UICONTROL计费率]、[！UICONTROL队列详细信息]、[！UICONTROL路由规则]、[！UICONTROL trol队列主题]，[！UICONTROL主题组]</td> 
+      <td>[！UICONTROL模板任务]、[！UICONTROL模板详细信息]、[！UICONTROL更新]、[！UICONTROL文档]、[！UICONTROL风险]、[！UICONTROL费用]、[！UICONTROL人员]、[！UICONTROL批准]、[！UICONTROL计费率]、[！UICONTROL队列详细信息]、[！UICONTROL路由规则]、[！UICONTROL uicontrol队列主题]，[！UICONTROL主题组]</td> 
      </tr> 
      <tr> 
       <td>[！UICONTROL模板任务]</td> 
@@ -204,9 +204,9 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL 左侧面板]**&#x200B;列表中，执行以下任一操作来确定在左侧面板中您选择的[!DNL Workfront]区域或对象类型将看到的用户：
 
-   * 单击&#x200B;**显示** ![](assets/add-secondary-nav-item.png)或&#x200B;**隐藏** ![](assets/delete-secondary-nav-item.png)图标以在左侧面板中显示或隐藏部分。 无法隐藏没有&#x200B;**显示**&#x200B;或&#x200B;**隐藏**&#x200B;图标的项目。
+   * 单击&#x200B;**显示** ![显示图标](assets/add-secondary-nav-item.png)或&#x200B;**隐藏** ![隐藏图标](assets/delete-secondary-nav-item.png)以在左侧面板中显示或隐藏部分。 无法隐藏没有&#x200B;**显示**&#x200B;或&#x200B;**隐藏**&#x200B;图标的项目。
 
-   * 拖动项![](assets/move-icon---dots.png)以更改它们在左侧面板上的顺序。
+   * 拖动项目![移动图标](assets/move-icon---dots.png)以更改它们在左侧面板上的顺序。
 
    >[!NOTE]
    >

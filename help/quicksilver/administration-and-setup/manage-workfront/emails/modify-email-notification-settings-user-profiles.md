@@ -9,9 +9,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 1. 展开类别可查看与该类别相关的通知设置。
 
-   如果至少选择一个用户的通知与其他选定用户的通知不匹配，则该通知的类别复选框包含水平线![](assets/straight-line-instead-of-checkmark.jpg)而不是复选标记。
+   如果至少选择一个用户的通知与其他选定用户的通知不匹配，则该通知的类别复选框包含水平线![行而不是复选标记。](assets/straight-line-instead-of-checkmark.jpg)
 
 
 1. 单击您希望用户每天或即时接收的任何通知，或清除您希望用户停止接收的任何通知。
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 1. 如果您选择了通知作为每日摘要发送，请在&#x200B;**电子邮件每日摘要**&#x200B;之后的&#x200B;**通知**&#x200B;分区顶部选择您希望在一天中传送摘要的时间。
 
-   ![](assets/daily-digest-time.png)
+   ![每日摘要时间](assets/daily-digest-time.png)
 
    每日摘要包括在所选时间之前24小时满足通知标准的事件。 用户会收到一封每种通知类型的每日摘要电子邮件。
 

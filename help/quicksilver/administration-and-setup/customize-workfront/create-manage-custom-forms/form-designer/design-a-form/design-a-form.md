@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '6474'
+source-wordcount: '6492'
 ht-degree: 5%
 
 ---
@@ -60,10 +60,10 @@ ht-degree: 5%
 1. 单击&#x200B;**新建自定义表单。**
 1. 选择要将自定义表单附加到的对象类型，然后单击&#x200B;**继续**。
 
-   ![](assets/choose-object-type.jpg)
+   ![选择对象类型](assets/choose-object-type.jpg)
 
 1. 在&#x200B;**需要标题**&#x200B;区域中，键入自定义表单标题。
-1. （可选）如果要向表单添加更多对象类型，以便将其附加到更多对象，请单击&#x200B;**对象类型**&#x200B;后面的&#x200B;**添加**&#x200B;图标![](assets/add-objects-icon.png)，然后在显示的菜单中选择所需的类型。 您可以重复此操作，以添加所需数量的对象类型。
+1. （可选）如果要向表单中添加更多对象类型，以便可以将其附加到更多对象，请单击&#x200B;**对象类型**&#x200B;后面的&#x200B;**添加**&#x200B;图标![添加对象图标](assets/add-objects-icon.png)，然后在显示的菜单中选择所需的类型。 您可以重复此操作，以添加所需数量的对象类型。
 
    也可以单击对象类型上的X将其从表单中删除。
 
@@ -179,7 +179,7 @@ ht-degree: 5%
    * 带格式文本
    * 描述性文本
 
-   ![](assets/drag-field-to-section.png)
+   ![将字段拖到节](assets/drag-field-to-section.png)
 
 1. 在屏幕右侧，配置可用于要添加的自定义字段类型的选项：
 
@@ -464,7 +464,7 @@ ht-degree: 5%
    * 键盘缓冲
    * 日期
 
-   ![](assets/drag-field-to-section.png)
+   ![将字段拖到节](assets/drag-field-to-section.png)
 
 1. 在屏幕右侧，配置可用于要添加的自定义字段类型的选项：
 
@@ -698,7 +698,7 @@ The Workfront Mobile app -->
    * PDF
    * 视频
 
-   ![](assets/drag-field-to-section.png)
+   ![将字段拖到节](assets/drag-field-to-section.png)
 
 1. 键入或编辑构件的以下任意属性：
 

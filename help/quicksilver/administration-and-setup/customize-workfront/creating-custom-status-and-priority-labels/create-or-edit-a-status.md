@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '961'
 ht-degree: 2%
 
 ---
@@ -72,13 +72,13 @@ ht-degree: 2%
 
 1. （视情况而定）如果要创建或编辑用于系统范围的状态，请确保在右上角的框中选择&#x200B;**系统状态**。
 
-   ![](assets/system-statuses-in-upper-rt-corner-new.jpg)
+   ![系统状态](assets/system-statuses-in-upper-rt-corner-new.jpg)
 
    或
 
    如果状态为组或子组，请在右上角开始键入组的名称，然后在该组出现时将其选定。
 
-   ![](assets/system-statuses-in-upper-rt-corner-group.jpg)
+   组](assets/system-statuses-in-upper-rt-corner-group.jpg)的![系统状态
 
 1. 选择要与状态关联的对象类型（**项目**、**任务**&#x200B;或&#x200B;**问题**）的选项卡。
 
@@ -88,7 +88,7 @@ ht-degree: 2%
 
    如果您正在编辑现有状态，请将鼠标悬停在该状态上，然后单击最右侧显示的&#x200B;**编辑**&#x200B;图标。
 
-   ![](assets/custom-status-edit.png)
+   ![编辑自定义状态](assets/custom-status-edit.png)
 
 1. 使用以下选项配置状态：
 

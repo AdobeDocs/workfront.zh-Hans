@@ -9,10 +9,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 0%
+source-wordcount: '390'
+ht-degree: 1%
 
 ---
 
@@ -37,13 +37,13 @@ ht-degree: 0%
 
   有关配置用户更新的详细信息，请参阅[配置用户更新的首选项](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)。
 
-  ![](assets/updates-qs-350x125.png)
+  ![更新](assets/updates-qs-350x125.png)
 
 * **系统更新：**&#x200B;由系统自动进行。 系统更新包括一个简要注释，描述该项发生了什么类型的更改。 系统更新显示在对象的“系统活动”和“更新”部分的“所有”选项卡中。
 
   有关系统更新源以及如何启用它们的详细信息，请参阅[配置系统更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)。
 
-  ![](assets/system-updates-example-unified-stream.png)
+  ![系统更新示例](assets/system-updates-example-unified-stream.png)
 
 
   <!--

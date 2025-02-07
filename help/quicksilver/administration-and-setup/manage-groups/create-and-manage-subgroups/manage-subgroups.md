@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1251'
 ht-degree: 1%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 1%
 
 {{step-1-to-setup}}
 
-1. 在左侧面板中，单击&#x200B;**组** ![](assets/groups-icon.png)。
+1. 在左侧面板中，单击&#x200B;**组** ![组](assets/groups-icon.png)。
 
    在显示的列表中，您可以看到您管理的组以及它们具有的任何子组。 Adobe Workfront管理员可以查看所有组。
 
@@ -153,9 +153,9 @@ ht-degree: 1%
 
 {{step-1-to-setup}}
 
-1. 在左侧面板中，单击&#x200B;**组** ![](assets/groups-icon.png)。
+1. 在左侧面板中，单击&#x200B;**组** ![组](assets/groups-icon.png)。
 
-1. 选择要成为顶级组的组的父组，然后单击编辑图标![](assets/edit-icon.png)。
+1. 选择要成为顶级组的组的父组，然后单击“编辑”图标![编辑图标](assets/edit-icon.png)。
 1. 在出现的&#x200B;**编辑组**&#x200B;框中，在&#x200B;**组成员和管理员**&#x200B;下，开始键入要成为顶级组的子组的名称，然后单击该组出现时其名称右侧的X。
 1. 单击&#x200B;**保存**。
 

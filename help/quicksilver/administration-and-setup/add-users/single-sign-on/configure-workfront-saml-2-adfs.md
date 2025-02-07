@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9bc5987b-6e32-47df-90c8-08ea4b1b7451
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**测试连接**。 如果设置正确，您应该会看到一个类似于以下所示的页面：
 
-   ![](assets/success-saml-2.png)
+   ![SAML 2成功消息](assets/success-saml-2.png)
 
    >[!NOTE]
    >

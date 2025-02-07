@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '639'
 ht-degree: 3%
 
 ---
@@ -98,10 +98,10 @@ ht-degree: 3%
 
      >[!NOTE]
      >
-     >只有具有Plan许可证的用户（在当前许可证模型中）或具有Standard许可证的用户（在新许可证模型中）才可以在主菜单中看到“用户”区域![](assets/users-icon-in-main-menu.png)。
+     >只有具有Plan许可证的用户（在当前许可证模型中）或具有Standard许可证的用户（在新许可证模型中）才可以在主菜单中看到“用户”区域![用户图标](assets/users-icon-in-main-menu.png)。
 
    * 请求
-   * 工时表
+   * 时间表
    * 文档
    * 模板
    * 分析
@@ -123,9 +123,9 @@ ht-degree: 3%
 
 1. 执行以下任一操作：
 
-   * 隐藏![](assets/remove-icon---x-in-circle.png)您不想显示的&#x200B;**活动项**
-   * 显示您想在主菜单上显示的![](assets/add-icon-plus-in-circle.png) **可用项**。
-   * 拖动![](assets/move-icon---dots.png) **活动项**&#x200B;以更改它们在主菜单上的显示顺序。
+   * 隐藏![隐藏图标](assets/remove-icon---x-in-circle.png) **不想显示的活动项**
+   * 显示![显示图标](assets/add-icon-plus-in-circle.png) **可用项**，您想在主菜单上显示这些项。
+   * 拖动![拖动图标](assets/move-icon---dots.png) **活动项**&#x200B;以更改它们在主菜单上的显示顺序。
 
 1. 单击&#x200B;**完成**。
 

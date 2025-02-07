@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 99b81090-8d09-4130-a746-44ed1d76f971
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 
 1. 单击组的名称以打开其页面。
 
-1. 单击组名旁边的“更多”菜单![](assets/more-icon.png)，然后单击&#x200B;**停用**&#x200B;或&#x200B;**重新激活**。
+1. 单击组名旁边的更多菜单![更多图标](assets/more-icon.png)，然后单击&#x200B;**停用**&#x200B;或&#x200B;**重新激活**。
 
    >[!NOTE]
    >
@@ -92,7 +92,7 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 
   有关在此情况下重新激活子组的信息，请参阅本文中的[关于重新激活不活动的父组](#about-reactivating-a-subgroup-below-an-inactive-parent-group)下的子组。
 
-* 当您转到“设置”中的“组”区域时，您只能在列表中看到活动组，因为“活动”是它的默认筛选器![](assets/filter-nwepng.png)。 如果要查看您管理的所有组（包括非活动组），可以使用“全部”筛选器。 或者使用非活动筛选器仅列出非活动筛选器。
+* 当您转到“设置”中的“组”区域时，您只能在列表中看到活动组，因为“活动”是它的默认筛选器![筛选器图标](assets/filter-nwepng.png)。 如果要查看您管理的所有组（包括非活动组），可以使用“全部”筛选器。 或者使用非活动筛选器仅列出非活动筛选器。
 
   有关列表中过滤器的详细信息，请参阅[过滤器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 

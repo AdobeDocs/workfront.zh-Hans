@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: “错误消息：SAML 2.0错误：主要状态代码”
+title: 错误消息： SAML 2.0错误：主要状态代码
 description: 无法成功建立与ADFS的连接。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1ec18638-97b8-4307-9cea-05b28395eaee
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '361'
 ht-degree: 1%
 
 ---
@@ -70,8 +70,8 @@ ht-degree: 1%
 1. 在左侧窗格中选择&#x200B;**[!UICONTROL 信任关系]** > **[!UICONTROL 信赖方信任]**。
 
 1. 右键单击与[!DNL Adobe Workfront]相关的信赖方信任，然后选择&#x200B;**[!UICONTROL 属性]**。
-1. 单击&#x200B;**[!UICONTROL 高级]**&#x200B;选项卡，然后从&#x200B;**[!UICONTROL 安全哈希算法]**&#x200B;下拉菜单中选择&#x200B;**[!UICONTROL SHA-1]**。\
-   ![](assets/1-350x287.png)
+1. 单击&#x200B;**[!UICONTROL 高级]**&#x200B;选项卡，然后从&#x200B;**[!UICONTROL 安全哈希算法]**&#x200B;下拉菜单中选择&#x200B;**[!UICONTROL SHA-1]**。
+   ![SHA-1](assets/1-350x287.png)
 
 ## 原因2： ADFS签名证书即将过期，已被日期重叠的新证书替换
 

@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d523584-dcb8-4aa6-8217-611f22dc1450
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '977'
 ht-degree: 1%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 1%
 
 ### 在经典体验中映射用户属性
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**设置**![齿轮设置图标](assets/gear-icon-settings.png)。
 
 1. 单击&#x200B;**系统** > **单点登录(SSO)**。
 
@@ -85,7 +85,7 @@ ht-degree: 1%
 
 1. 单击&#x200B;**映射用户属性**。
 
-   ![](assets/map-user-attributes.png)
+   ![映射用户属性](assets/map-user-attributes.png)
 
 1. 在显示的选项行中，映射Workfront用户所需的属性。
 
@@ -123,7 +123,7 @@ ht-degree: 1%
    1. 在下拉列表中，选择要使用的属性修饰符。
    1. 在右侧的2个字段中，键入目录属性值以及要替换它的值。
 
-      ![](assets/rule-fields.png)
+      ![规则字段](assets/rule-fields.png)
 
    您可以单击&#x200B;**添加规则**&#x200B;以向属性添加更多规则。
 
@@ -132,7 +132,7 @@ ht-degree: 1%
 
 ### 在Adobe统一体验中映射用户属性
 
-1. 单击Adobe Workfront左上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-left.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+1. 单击Adobe Workfront左上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-left.png)，然后单击&#x200B;**设置**![齿轮设置图标](assets/gear-icon-settings.png)。
 
 1. 单击&#x200B;**系统** > **单点登录(SSO)**。
 

@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '629'
 ht-degree: 3%
 
 ---
@@ -99,7 +99,7 @@ ht-degree: 3%
 
    例如，如果任务在星期五分配，其持续时间为经过的3天，则任务完成日期将设置为星期一（假设星期六和星期日为周末）。 如果任务的持续时间为3天（未经过），则任务完成日期将设置为星期三。
 
-   ![](assets/time-increments-for-automatic-reminder.png)
+   ![时间增量](assets/time-increments-for-automatic-reminder.png)
 
 1. 单击&#x200B;**保存**。
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
    >
    >“Action Type（操作类型）”下拉菜单中的选项因所选的审核日志而异。
 
-   ![](assets/audit-logs.jpg)
+   ![审核日志](assets/audit-logs.jpg)
 
 1. 单击&#x200B;**应用**。
 1. （可选）单击&#x200B;**清除筛选器**&#x200B;以重置对筛选器所做的更改。

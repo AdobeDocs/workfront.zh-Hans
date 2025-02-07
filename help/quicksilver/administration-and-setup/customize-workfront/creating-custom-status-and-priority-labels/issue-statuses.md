@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 9bdaec2f-acdf-4cbf-a308-ebcc861dbb89
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1444'
+source-wordcount: '1446'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**问题**&#x200B;选项卡以查看Workfront中可用的问题状态。
 
-   ![](assets/issue-status.png)
+   ![问题状态](assets/issue-status.png)
 
 ## 系统问题状态
 

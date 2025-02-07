@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: be7377a0c4d933823f65ed09d2b1fc091779f252
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1741'
+source-wordcount: '1744'
 ht-degree: 5%
 
 ---
@@ -386,7 +386,7 @@ Workfront具有5个新的内置访问级别：
 
 用户可以执行的对象活动由其访问级别和授予它们的权限组合定义。
 
-![](assets/security-model-hierachy-copy.png)
+![安全模型层次结构](assets/security-model-hierachy-copy.png)
 
 ### 通过共享对象授予权限
 

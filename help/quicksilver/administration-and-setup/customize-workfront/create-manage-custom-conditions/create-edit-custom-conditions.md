@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '633'
 ht-degree: 2%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 2%
 
    要编辑现有条件，请将鼠标悬停在要编辑的条件上，然后单击最右侧显示的&#x200B;**编辑**&#x200B;图标。
 
-   ![](assets/custom-condition-edit-nwe.jpg)
+   ![自定义完成情况](assets/custom-condition-edit-nwe.jpg)
 
 1. 使用以下选项配置自定义条件：
 
@@ -110,21 +110,21 @@ ht-degree: 2%
    >
    >您可以跨所有三种对象类型标准化条件术语和颜色。 为此，请将条件Name和颜色十六进制代码从一个选项卡（项目、任务、问题）复制到其他两个选项卡上的相应条件。
 
-1. （可选）将![](assets/move-icon---dots.png)任何条件拖到新位置以重新排序列表。
+1. （可选）将![移动图标](assets/move-icon---dots.png)任何条件拖到新位置以重新排序列表。
 
    这会更改条件在项目、任务和问题中的显示顺序：
 
    * 当用户编辑项目时
 
-     ![](assets/change-condition-edit-project.png)
+     编辑项目时![更改完成情况](assets/change-condition-edit-project.png)
 
    * 当用户在“更新”选项卡上更改任务或问题的条件时：
 
-     ![](assets/change-condition-update-comment.png)
+     更新评论时![更改条件](assets/change-condition-update-comment.png)
 
    * 当用户更改列表视图中任务或问题的条件时：
 
-     ![](assets/change-conditions-list-dropdown-only.png)
+     ![更改列表](assets/change-conditions-list-dropdown-only.png)中的条件
 
 1. 单击&#x200B;**保存**。
 

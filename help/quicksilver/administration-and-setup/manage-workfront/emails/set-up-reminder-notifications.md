@@ -5,9 +5,9 @@ author: Alina, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1232'
 ht-degree: 2%
 
 ---
@@ -79,7 +79,7 @@ An example of how this can be used would be helpful here and/or in the section <
 
 1. 单击&#x200B;**电子邮件** > **通知** > **提醒通知**。
 
-   ![](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
+   ![提醒通知选项卡](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
 
 1. 单击&#x200B;**新建提醒通知**。
 
@@ -176,4 +176,4 @@ An example of how this can be used would be helpful here and/or in the section <
 
    在提醒通知中指定的用户会收到一封电子邮件。
 
-![](assets/reminder-test.png)
+![提醒通知测试](assets/reminder-test.png)

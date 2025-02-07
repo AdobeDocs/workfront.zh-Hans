@@ -8,16 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '501'
 ht-degree: 4%
 
 ---
 
 # 使用布局模板自定义固定页面
 
-在布局模板中，您可以将希望用户始终可用的页面固定在Adobe Workfront顶部。 这些页面可以通过主菜单![](assets/main-menu-icon.png)或主菜单![](assets/lines-main-menu.png)（可用时）访问，也可以是功能板。
+在布局模板中，您可以将希望用户始终可用的页面固定在Adobe Workfront顶部。 这些页面可以通过主菜单![主菜单图标](assets/main-menu-icon.png)或主菜单![主菜单图标](assets/main-menu-icon.png)（可用时）访问或功能板访问。
 
 用户自行添加的任何大头针都会显示在您在布局模板中添加的大头针的右侧。
 
@@ -86,7 +86,7 @@ ht-degree: 4%
       * 方案
       * 团队
       * 模板
-      * 工时表
+      * 时间表
       * 用户
       * Blueprint
       * 规划中

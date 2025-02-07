@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '2236'
+source-wordcount: '2238'
 ht-degree: 0%
 
 ---
@@ -300,7 +300,7 @@ I have not had a chance to follow up with customers to verify if this is still a
 
 1. 执行以下任一操作：
 
-   * 如果您希望组下的组管理员能够为其组配置首选项，请将其解锁![](assets/unlock-toggle-button.png)。
+   * 如果您希望组下的组管理员能够为其组配置首选项，请将其解锁![解锁切换](assets/unlock-toggle-button.png)。
    * 如果您希望您的组及其下的所有组使用首选项的配置，请确保该组已锁定（这是默认设置）。
 
      >[!IMPORTANT]
