@@ -7,9 +7,9 @@ description: 从Workfront Proof生成的电子邮件通知会通知协作者最�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: 12f1443d69bb9306af29e4ab295f701089cdfb88
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '2063'
+source-wordcount: '2065'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ ht-degree: 0%
 您可以在批处理操作中更改特定收件人的电子邮件警报。
 
 1. 单击左侧导航面板中的&#x200B;**[!UICONTROL 联系人]**。
-1. 单击收件人的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单![](assets/more-button-small.png)，然后在下拉菜单中单击&#x200B;**[!UICONTROL 查看成员详细信息]**。
+1. 单击收件人的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单![更多菜单](assets/more-button-small.png)，然后在下拉菜单中单击&#x200B;**[!UICONTROL 查看成员详细信息]**。
 
 1. 打开&#x200B;**[!UICONTROL 共享项]**&#x200B;部分。
 1. 选中要更改其电子邮件警报的每个项目左侧的复选框。

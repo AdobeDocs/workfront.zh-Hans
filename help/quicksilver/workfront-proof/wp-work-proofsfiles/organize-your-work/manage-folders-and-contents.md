@@ -7,9 +7,9 @@ description: 将您的项目和验证组织到文件夹中的好处之一，是�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cec385de-f1b9-4e28-8493-987536c04905
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 0%
    * 查看文件夹的&#x200B;**创建者**&#x200B;的名称。
 
 1. （可选）要更改与文件夹中某个项目关联的信息，请单击该项目右侧的&#x200B;**[!UICONTROL 更多]**&#x200B;图标，然后使用显示的任意选项。\
-   ![](assets/more-button-small.png)\
+   ![更多菜单](assets/more-button-small.png)\
    显示的选项取决于项目是验证还是文件。
 
    * **[!UICONTROL 查看校对详细信息]**&#x200B;或&#x200B;**[!UICONTROL 查看文件详细信息]**：打开校对详细信息或文件详细信息页面。 有关详细信息，请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md)中管理文件，或[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)中管理校对详细信息。
@@ -111,9 +111,9 @@ ht-degree: 0%
 1. （可选）单击&#x200B;**[!UICONTROL 活动]**&#x200B;查看在文件夹中按时间顺序执行的所有操作。
 1. （可选）单击&#x200B;**[!UICONTROL 消息]**&#x200B;部分以查看已发送给文件夹中用户的消息。\
    当您将鼠标悬停在消息上时，可以单击右侧的&#x200B;**i**&#x200B;图标以查看完整消息。\
-   ![](assets/messages-1-350x74.png)\
+   ![条消息](assets/messages-1-350x74.png)\
    此时会显示包含完整电子邮件的弹出窗口：\
-   ![](assets/messages-2-350x252.png)
+   ![消息弹出窗口](assets/messages-2-350x252.png)
 
 ## 管理子文件夹
 

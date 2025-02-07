@@ -10,9 +10,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 0%
 * 如果分配给任务的用户没有计划，或任务仅分配给工作角色、团队或未分配，[!DNL Workfront]将项目计划用于时间表计算。
 * 如果分配给任务的用户没有计划，或者任务仅分配给工作角色、团队或未分配，并且项目没有计划，则[!DNL Workfront]使用系统中指定为默认计划的时间表进行时间线计算。
 
-  ![](assets/default-schedule.png)
+  ![默认计划](assets/default-schedule.png)
 
 ## [!DNL Workfront]中的Collaboration跨时区
 

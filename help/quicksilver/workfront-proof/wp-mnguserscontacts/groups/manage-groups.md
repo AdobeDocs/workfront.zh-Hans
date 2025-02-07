@@ -7,9 +7,9 @@ description: 作为 [!DNL Workfront Proof] 管理员，您可以在“组”页�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bb4cfe03-d2c8-47f5-8c5c-de5218935ab5
-source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -41,10 +41,10 @@ ht-degree: 0%
       * 专用组仅对其创建者可见。
       * 删除选定的组。
 
-        ![](assets/trash-button.png)
+        ![删除图标](assets/trash-button.png)
    * 您也可以在每个组上对其各自的&#x200B;**[!UICONTROL 更多]**（三个点）菜单分别执行操作：
 
-     ![](assets/more-button-small.png)
+     ![更多菜单](assets/more-button-small.png)
 
       * 查看组详细信息。
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 1. 选中要添加到组中的联系人姓名旁边的复选框。
 1. 单击&#x200B;**[!UICONTROL 添加到组]**按钮。
-   ![](assets/screenshot-2018-04-06-15-27-17.png)
+   ![添加到组](assets/screenshot-2018-04-06-15-27-17.png)
 出现**[!UICONTROL 添加到组]**&#x200B;对话框。
 
 1. 在&#x200B;**[!UICONTROL 人员]**&#x200B;分区中：

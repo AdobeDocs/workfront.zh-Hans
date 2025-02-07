@@ -7,9 +7,9 @@ description: 如果您对验证具有编辑权限，则可以轻松与其他查�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bc145c50-9ab5-4ee8-9ed7-d307da6b0e8f
-source-git-commit: 178fcf680fbf97e3fa634182f161ba3c73439fe5
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 ## 将审阅人添加到现有校对
 
 1. 在仪表板或任何列表视图中，单击验证右侧的&#x200B;**[!UICONTROL 更多]**&#x200B;按钮。\
-   ![](assets/more-button-small.png)
+   ![更多菜单](assets/more-button-small.png)
 
 1. 在下拉菜单中单击&#x200B;**[!UICONTROL 共享]**。
 1. 在显示的“共享此版本&#x200B;]**”页面中，通过添加审阅人的电子邮件地址来添加审阅人。**[!UICONTROL \

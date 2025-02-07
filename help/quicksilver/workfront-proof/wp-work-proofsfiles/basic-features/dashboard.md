@@ -8,9 +8,9 @@ description: “仪表板”是您登录 [!DNL Workfront Proof] 帐户时看到�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bd0ecc43-4bbf-4caa-924f-6c8935123bf9
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '996'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 3%
 >
 >能否在功能板上查看和使用的菜单和链接取决于您的用户配置文件和权限。
 
-![](assets/dashboard-350x495.png)
+![仪表板](assets/dashboard-350x495.png)
 
 您可以对帐户进行品牌化设置，以显示您自己组织的徽标、颜色、自定义链接等。 有关详细信息，请参阅[品牌化 [!DNL Workfront Proof] 网站](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)。”
 
@@ -49,7 +49,7 @@ ht-degree: 3%
 
 ## 标题菜单
 
-![](assets/header-menu-350x150.png)
+![标题菜单](assets/header-menu-350x150.png)
 
 ### 用户名
 
@@ -97,7 +97,7 @@ ht-degree: 3%
    * 新用户(12)
    * 新组(13)
 
-![](assets/new-proof-350x256.png)
+![新校对](assets/new-proof-350x256.png)
 
 ## 功能板菜单
 
@@ -116,7 +116,7 @@ ht-degree: 3%
 * 创建新标记
 * 管理标记(2)
 
-![](assets/edit-tags-350x204.png)
+![编辑标记](assets/edit-tags-350x204.png)
 
 ## 移动到
 
@@ -126,7 +126,7 @@ ht-degree: 3%
 1. 单击&#x200B;**[!UICONTROL 移至]** (3)并选择相关文件夹(4)。
 1. 单击&#x200B;**[!UICONTROL 保存]** (5)。
 
-   ![](assets/move-to-350x297.png)
+   ![移至](assets/move-to-350x297.png)
 
 ### 更多操作
 
@@ -138,7 +138,7 @@ ht-degree: 3%
 * 取消存档（仅验证）
 * 更改所有者
 
-![](assets/more-actions-350x303.png)
+![更多操作](assets/more-actions-350x303.png)
 
 ### 删除
 
@@ -146,11 +146,11 @@ ht-degree: 3%
 
 1. 选择项目左侧的勾选框，然后单击&#x200B;**[!UICONTROL 删除]** (7)。
 
-![](assets/delete-350x109.png)
+![删除图标](assets/delete-350x109.png)
 
 1. 在出现的确认屏幕中，检查详细信息，然后单击&#x200B;**[!UICONTROL 是]** (8)进行确认。
 
-![](assets/deleteing-items-350x237.png)
+![正在删除项目](assets/deleteing-items-350x237.png)
 
 ### 侧栏
 
@@ -168,7 +168,7 @@ ht-degree: 3%
 * 其他组织的文件夹(10)（可在其中查找其他组织与您共享的项目）
 * 标记(11)
 
-![](assets/sidebar-350x426.png)
+![侧栏](assets/sidebar-350x426.png)
 
 在侧栏帮助页面中对侧栏进行了更详细的描述。
 
@@ -181,7 +181,7 @@ ht-degree: 3%
 * 支持联系人详细信息(3)
 * “不再显示欢迎部分”链接(4)
 
-![](assets/welcome-350x73.png)
+![欢迎](assets/welcome-350x73.png)
 
 ### 概述
 
@@ -197,7 +197,7 @@ ht-degree: 3%
 * 要管理的验证 — 由您拥有并委派给您的活动验证总数
 * 等待决策的验证 — 需要您决策的活动验证总数
 
-  ![](assets/dashboard-overview-350x169.png)
+  ![仪表板概述](assets/dashboard-overview-350x169.png)
 
 在这里，您可以立即看到多少个验证需要您或审阅者立即操作：
 
@@ -237,7 +237,7 @@ ht-degree: 3%
 1. 单击验证名称右侧可用的&#x200B;**[!UICONTROL 操作]**&#x200B;菜单(1)。
 1. 从菜单中选择&#x200B;**[!UICONTROL 查看校对详细信息]** (2)。
 
-![](assets/accessing-the-proof-details-page-recently-accessed-items-350x126.png)
+![最近的项目](assets/accessing-the-proof-details-page-recently-accessed-items-350x126.png)
 
 ### 最近活动
 
@@ -258,4 +258,4 @@ ht-degree: 3%
 1. 单击&#x200B;**[!UICONTROL 操作]**&#x200B;菜单(1)。
 1. 从下拉菜单中选择&#x200B;**[!UICONTROL 查看校对详细信息]** (2)。
 
-   ![](assets/accessing-the-proof-details-page-recent-activity-350x51.png)
+   ![最近的活动](assets/accessing-the-proof-details-page-recent-activity-350x51.png)

@@ -7,9 +7,9 @@ description: 在屏幕顶部的增强分析区域，显示4个关键绩效指标
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 44e43618-9a0b-4585-8659-c1fe055516be
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '524'
 ht-degree: 1%
 
 ---
@@ -29,22 +29,22 @@ ht-degree: 1%
 
 项目已完成KPI显示过滤后时间段内已完成的项目数，以及自上一个时间段以来百分比增加或减少的情况。 在这些数字的下方，您可以看到上一个时间段内完成的项目数量以及上一个时间段内的天数。
 
-![](assets/kpi-projects-completed-350x182.png)
+![个KPI项目已完成](assets/kpi-projects-completed-350x182.png)
 
 ## 按时完成的项目
 
 按时完成的项目KPI显示在筛选的时间期内，按时完成的项目百分比，以及自上一时间段以来该百分比如何增加或减少。 在这些数字下面，您可以看到上一个时间段按时完成项目的百分比，以及上一个时间段内的天数。
 
-![](assets/kpi-projects-completed-on-time-350x180.png)
+![个KPI项目已按时完成](assets/kpi-projects-completed-on-time-350x180.png)
 
 ## 平均 项目持续时间
 
 平均 项目持续时间KPI显示实际结束日期在过滤时段内的项目的平均完成时间（以天、周或年为单位），以及百分比自上一个时段以来增加或减少的方式。 在这些数字下面，您可以看到具有上一时间期实际结束日期的项目平均完成时间量，以及上一时间期中的天数。
 
-![](assets/kpi-avg.-project-duration-350x168.png)
+![KPI平均项目持续时间](assets/kpi-avg.-project-duration-350x168.png)
 
 ## 每个项目平均任务
 
 “每个项目的平均任务KPI”显示在过滤的时间段内分配给项目的平均任务数，以及自上一个时间段以来该百分比如何增加或减少。 在这些数字的下方，您可以看到上一个时段分配给项目的平均任务数以及上一个时段中的天数。
 
-![](assets/kpi-average-tasks-per-project-350x179.png)
+每个项目![KPI平均任务数](assets/kpi-average-tasks-per-project-350x179.png)

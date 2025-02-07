@@ -7,9 +7,9 @@ description: 多个审阅者可以同时审阅一个验证。 查看验证时，
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 4f55af53-0ca8-4f50-b539-b93d13655f0c
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
@@ -32,4 +32,4 @@ ht-degree: 0%
 
 1. （可选）将鼠标悬停在状态指示器上可查看用户的名称。
 
-   ![](assets/proof-presence.png)
+   ![校对存在](assets/proof-presence.png)

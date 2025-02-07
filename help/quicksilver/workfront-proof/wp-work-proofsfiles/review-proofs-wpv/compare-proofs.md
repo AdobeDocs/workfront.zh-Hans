@@ -7,9 +7,9 @@ description: 您可以查看两个校样的并排比较。 这些校对可以是
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d4ec0c53-1451-4475-aa38-2319c6432936
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '949'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 1. 打开具有多个要比较的版本的验证。
 1. 在显示的验证查看器的左上角，单击验证的名称。 然后，在显示的版本列表中，单击要打开和比较的版本旁边的&#x200B;**比较**&#x200B;图标。
 
-   ![](assets/compare-proofs-choose-version-350x115.jpg)
+   ![比较验证选择版本](assets/compare-proofs-choose-version-350x115.jpg)
 
    验证并排显示，较新版本位于左侧。
 

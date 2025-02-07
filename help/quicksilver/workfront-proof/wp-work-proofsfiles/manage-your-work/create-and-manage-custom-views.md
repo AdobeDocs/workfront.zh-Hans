@@ -7,9 +7,9 @@ description: 您可以创建文件和校样的自定义视图，以您希望的�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 7c6f3fdd-f767-4e8d-937a-1c7645aba55b
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '2458'
+source-wordcount: '2472'
 ht-degree: 0%
 
 ---
@@ -46,10 +46,10 @@ ht-degree: 0%
 
    * 要基于现有标准视图创建新的自定义视图：从下拉菜单中，选择要用作新自定义视图基础的现有标准视图。 单击&#x200B;**[!UICONTROL 视图设置]**&#x200B;图标，然后单击&#x200B;**[!UICONTROL 复制]**&#x200B;到新的自定义视图。
 
-   * ![](assets/proof-custom-view-icon.png)
+   * ![自定义视图图标](assets/proof-custom-view-icon.png)
 
    * 要从头开始创建新的自定义视图：单击&#x200B;**[!UICONTROL 新建视图]**&#x200B;图标。
-   * ![](assets/proof-newview.png)
+   * ![新视图](assets/proof-newview.png)
 
 1. 在&#x200B;**[!UICONTROL 详细信息]**&#x200B;部分中，指定以下信息：
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 1. 在&#x200B;**[!UICONTROL 列]**&#x200B;部分中，确定要包含在自定义视图中的列。
 
    1. 单击向右箭头图标。
-   1. ![](assets/proof-view-rightarrow.png)
+   1. ![向右箭头](assets/proof-view-rightarrow.png)
 
    1. 双击选定列的名称。
    1. 您必须至少选择一个列，并且一个列只能添加一次。
@@ -79,7 +79,7 @@ ht-degree: 0%
       <td>自动工作流中活动阶段的名称。</td>  
       </tr>  
       <tr>   
-      <td><strong>注释</strong></td>   
+      <td><strong>评论</strong></td>   
       <td>收到的评论数。</td>
       </tr>  
       <tr>   
@@ -274,10 +274,10 @@ ht-degree: 0%
 
 1. 单击[!UICONTROL 视图]按钮(1)
 1. 从下拉菜单中选择要编辑的视图。\
-   ![](assets/proof-view-edit.png)
+   ![编辑视图](assets/proof-view-edit.png)
 
 1. 单击&#x200B;**[!UICONTROL 查看选项]**&#x200B;按钮，然后单击&#x200B;**[!UICONTROL 编辑视图]**。\
-   ![](assets/proof-view-options.png)\
+   ![查看选项](assets/proof-view-options.png)\
    此时将显示“编辑自定义视图”页。
 
 1. 单击[!UICONTROL 操作]菜单。 (3)\
@@ -312,7 +312,7 @@ ht-degree: 0%
    ![copying_custom_view.png](assets/copying-custom-view-350x258.png)
 
 1. 在复制自定义视图页面中，将填充所有原始设置。 根据您的选择修改自定义视图，然后单击&#x200B;**[!UICONTROL 复制视图]**&#x200B;按钮。 你马上就会被带去新视野。\
-   ![](assets/copy-custom-view-page-350x542.png)
+   ![复制自定义视图](assets/copy-custom-view-page-350x542.png)
 
 ## 共享自定义视图
 

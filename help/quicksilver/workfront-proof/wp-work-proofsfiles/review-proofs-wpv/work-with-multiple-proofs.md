@@ -7,9 +7,9 @@ description: 在 [!DNL Workfront] Proof中，您可以使用文件夹对要一�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1a3dbf0e-ec5b-4bd0-9eee-c1d613a67f53
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -64,4 +64,4 @@ ht-degree: 0%
 
      比较验证时，如果要切换到验证查看者左侧或右侧的新验证，请单击验证上方的[!UICONTROL 比较]按钮。
 
-     ![](assets/mceclip0-350x126.png)
+     ![比较](assets/mceclip0-350x126.png)

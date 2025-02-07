@@ -7,9 +7,9 @@ description: 您无需创建校对即可将文件上传到 [!DNL Workfront Proof
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 88693211-b5f5-4f99-97a9-5c29039f4f01
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 要将文件上传到[!DNL Workfront Proof]，请执行以下操作：
 
 1. 在[!DNL Workfront Proof]的左上角，单击&#x200B;**[!UICONTROL 新建验证]**&#x200B;按钮上的向下箭头，然后在显示的菜单中单击&#x200B;**[!UICONTROL 上传文件]**。\
-   ![](assets/new-proof-button-menu.png)
+   ![新验证按钮](assets/new-proof-button-menu.png)
 
 1. 此时会显示&#x200B;**[!DNL New File]**&#x200B;页面。
 1. 执行以下操作之一以上传或添加您需要验证的内容：

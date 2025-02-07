@@ -7,9 +7,9 @@ description: 在 [!DNL Workfront Proof]中，验证以不同的状态存在。 �
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cd120e53-d6c2-4929-904f-a9f72903f074
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -71,14 +71,14 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL 仪表板]**&#x200B;上，单击要查看或更改其状态的校样旁边的&#x200B;**[!UICONTROL 展开]**&#x200B;箭头。
 
-   ![](assets/screen-shot-2018-05-02-at-11.31.29-am-350x85.png)
+   ![展开](assets/screen-shot-2018-05-02-at-11.31.29-am-350x85.png)
 
    出现&#x200B;**[!UICONTROL 工作流进程]**&#x200B;部分。
 
-   ![](assets/screen-shot-2018-05-02-at-11.33.20-am-350x226.png)
+   ![工作流进程](assets/screen-shot-2018-05-02-at-11.33.20-am-350x226.png)
 
 1. 查看&#x200B;**[!UICONTROL 工作流进程]**&#x200B;中的&#x200B;**[!UICONTROL 状态]**。
 
 1. （可选）要更改状态，请将鼠标悬停在当前&#x200B;**[!UICONTROL 状态]**&#x200B;上并单击下拉菜单，然后选择新状态。
 
-   ![](assets/screen-shot-2018-05-02-at-11.35.30-am.png)
+   ![新状态](assets/screen-shot-2018-05-02-at-11.35.30-am.png)

@@ -7,9 +7,9 @@ description: 您可以查看给定验证的最近活动。 这包括分配给验
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e99f4e8f-eb3f-4575-83fb-97acb8932e25
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. 如果未显示左侧工具栏，请单击验证查看器左上角的&#x200B;**[!UICONTROL 菜单]**&#x200B;图标。
 
-   ![](assets/menu-icon-in-proofing-viewer-350x188.png)
+   ![验证查看器菜单](assets/menu-icon-in-proofing-viewer-350x188.png)
 
 1. 在验证查看器左侧的工具栏中，单击&#x200B;**[!UICONTROL 验证详细信息]**&#x200B;按钮。
 

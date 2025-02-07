@@ -7,9 +7,9 @@ description: 对验证具有编辑权限的查看者可以创建验证的副本�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 7d2db918-ebf0-4c52-9039-54c3eb5515f0
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 1. 转到&#x200B;**[!UICONTROL 视图]**&#x200B;页面中的任意页面，如 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的[管理视图页面上的项目中所述。
 
 1. 打开校样的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单。\
-   ![](assets/more-button-small.png)
+   ![更多菜单](assets/more-button-small.png)
 
 1. 从下拉菜单中选择&#x200B;**[!UICONTROL 复制]**。
 1. 在出现的&#x200B;**[!UICONTROL 复制验证]**&#x200B;页面中，指定您要将副本创建为现有验证的新版本还是新验证。\
@@ -77,7 +77,7 @@ ht-degree: 0%
 1. 转到&#x200B;**[!UICONTROL 视图]**&#x200B;页面中的任意页面，如 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的[管理视图页面上的项目中所述。
 
 1. 打开校样的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单。\
-   ![](assets/more-button-small.png)
+   ![更多菜单](assets/more-button-small.png)
 
 1. 从下拉菜单中选择&#x200B;**[!UICONTROL 查看校对详细信息]**。
 1. 单击&#x200B;**[!UICONTROL 更多]**。\

@@ -7,9 +7,9 @@ description: 工作流面板显示验证的工作流，它显示在验证详情�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 4e6736bb-2859-4309-841b-67ed83dab6a0
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    此时会显示&#x200B;**[!UICONTROL 工作流]**&#x200B;面板。
 
-   ![](assets/workflow-panel-350x115.png)
+   ![工作流面板](assets/workflow-panel-350x115.png)
 
    “工作流”面板的每个部分都显示验证、暂存和审阅者的进度和状态。
 

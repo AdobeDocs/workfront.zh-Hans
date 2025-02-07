@@ -7,9 +7,9 @@ description: 校样详细信息页面允许您管理现有校样。 例如，您
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e9530c2f-03ff-42f5-acbf-afe303e234e3
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -33,10 +33,10 @@ ht-degree: 0%
 ## 从验证查看器打开验证详细信息页面
 
 1. 如果未显示左工具栏，请单击左上角的&#x200B;**[!UICONTROL 菜单]**&#x200B;图标。\
-   ![](assets/menu-icon-in-proofing-viewer-350x188.png)
+   ![验证查看器菜单](assets/menu-icon-in-proofing-viewer-350x188.png)
 
 1. 将鼠标悬停在左侧工具栏上，然后单击&#x200B;**[!UICONTROL 校对详细信息]**。\
-   ![](assets/proof-details-in-proofing-viewer-350x215.png)
+   ![验证查看器详细信息](assets/proof-details-in-proofing-viewer-350x215.png)
 
    >[!NOTE]
    >

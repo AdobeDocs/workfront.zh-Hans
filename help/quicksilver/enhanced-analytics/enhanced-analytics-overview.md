@@ -7,9 +7,9 @@ description: 增强型分析是Adobe Workfront中一款具有预建可视化图�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1204'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 3%
 * 用户在项目期间完成特定操作的频率
 * 项目进度以及项目中的各个任务
 
-![](assets/nwe-full-screen-analytics-350x222.png)
+![分析](assets/nwe-full-screen-analytics-350x222.png)
 
 要查看用例或了解有关管理当前工作和规划增强分析未来工作的更多信息，请参阅[增强分析学习路径](https://one.workfront.com/s/enhanced-analytics-program)。
 
@@ -142,7 +142,7 @@ ht-degree: 3%
  <thead> 
   <tr> 
    <th>文章</th> 
-   <th>说明</th> 
+   <th>解释</th> 
   </tr> 
  </thead> 
  <tbody> 

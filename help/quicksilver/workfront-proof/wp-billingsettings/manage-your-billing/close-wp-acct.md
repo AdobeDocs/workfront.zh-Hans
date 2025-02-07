@@ -7,9 +7,9 @@ description: 完成此部分中的步骤后，您的帐户将立即关闭。 您
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: df19f99b-974d-47ad-87ba-79775cb08a4d
-source-git-commit: 1312e3d5256f28ca0197c73a6c06016d6d7c7e2a
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
    有关计费页面的详细信息，请参阅[校对计费页面 [!DNL Workfront] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
 
-   ![](assets/upgradesdowngrades-billing-settings-350x168.png)
+   ![计费设置](assets/upgradesdowngrades-billing-settings-350x168.png)
 
 1. 单击&#x200B;**[!UICONTROL 关闭帐户]**&#x200B;按钮(3)。
 

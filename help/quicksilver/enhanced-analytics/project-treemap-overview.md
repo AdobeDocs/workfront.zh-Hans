@@ -7,9 +7,9 @@ description: 项目树状图可视化图表是在特定时间范围内工作的�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6216465e-c3bb-4f2f-b71c-766ad0c2ed40
-source-git-commit: 364b668f23f5437e5cca0c4cc4793b17d444fb56
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '854'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 项目树状图可视化图表是在特定时间范围内工作的小时数或天数视图，与其他工作量的大小相比较。 这有助于您了解人员投入到项目中的时间。
 
-![](assets/project-treemap-350x126.png){width="700"}
+![项目树状图](assets/project-treemap-350x126.png){width="700"}
 
 ## 访问要求
 
@@ -71,22 +71,22 @@ ht-degree: 2%
 
 * **较小的浅蓝色框**：具有较少小时或天数的项目显示为浅蓝色的小框。
 
-  ![](assets/project-treemap-smaller-box.png)
+  ![较小的框](assets/project-treemap-smaller-box.png)
 
 * **更大、深蓝色的框**：具有更多小时或天数的项目显示为具有深蓝色的大框。
 
-  ![](assets/project-treemap-larger-box-350x205.png)
+  ![较大的框](assets/project-treemap-larger-box-350x205.png)
 
 * **Medium大小的蓝色框**：介于两个类别之间的项目显示为中等大小的框，深蓝色和浅蓝色之间带有蓝色阴影。 中型盒子有3种可能的蓝色色调。
 
 右侧的图例显示每种蓝色阴影的完成小时数划分信息。 此图例是动态的，可根据数据更新。
 
-![](assets/project-treemap-hours-completed.png)
+![树状图小时已完成](assets/project-treemap-hours-completed.png)
 
 >[!NOTE]
 >
 >如果您按持续时间而不是计划小时数查看项目树状图可视化图表，此图例显示每种蓝色阴影的已工作天数细分。\
->![](assets/project-treemap-days-worked.png)>
+>![树状图工作天数](assets/project-treemap-days-worked.png)>
 
 查看此信息可以帮助您确定：
 
@@ -99,10 +99,10 @@ ht-degree: 2%
 
 ## 查看项目树状图可视化图表
 
-1. 单击主菜单图标![](assets/main-menu-icon-16x12.png)，然后选择&#x200B;**Analytics**。
+1. 单击主菜单图标![主菜单图标](assets/main-menu-icon-16x12.png)，然后选择&#x200B;**Analytics**。
 1. （可选）要使用不同的日期范围，请从日期范围过滤器中选择新的开始日期和结束日期。
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![选择日期范围](assets/filters-select-date-range-350x344.png)
 
    有关使用日期范围过滤器的信息，请参阅[在增强型分析中应用过滤器](../enhanced-analytics/use-enhanced-analytics-filters.md)。
 
@@ -125,7 +125,7 @@ ht-degree: 2%
 
    页面上的所有其他可视化图表将更新以匹配您选择的页面。
 
-   ![](assets/pagination-350x118.png)
+   ![分页](assets/pagination-350x118.png)
 
 1. （可选）将视图从&#x200B;**计划小时数**&#x200B;更改为&#x200B;**持续时间**。
 
@@ -133,7 +133,7 @@ ht-degree: 2%
 
 1. 将鼠标悬停在项目上可查看项目完成情况、计划总小时数、已完成总小时数以及每天在项目上花费的平均小时数。
 
-   ![](assets/project-treemap-project-details-350x404.png)
+   ![树状图项目详细信息](assets/project-treemap-project-details-350x404.png)
 
    >[!NOTE]
    >
@@ -142,11 +142,11 @@ ht-degree: 2%
    >* **计划时间范围**：计划完成项目的天数。
    >* **已工作天数**：在顶部选定的日期范围内完成的每项任务的计划持续时间除以一天中的小时数。
    >   
-   >![](assets/duration-treemap-350x159.png)
+   >![树状图持续时间](assets/duration-treemap-350x159.png)
    >
    >有关持续时间的更多信息，请参阅[增强型分析概述](../enhanced-analytics/enhanced-analytics-overview.md)中的“持续时间视图”部分。
 
-1. （可选）要导出可视化数据，请单击可视化右上角的&#x200B;**导出图标** ![](assets/export.png)，然后选择导出格式：
+1. （可选）要导出可视化数据，请单击可视化右上角的&#x200B;**导出图标** ![导出图标](assets/export.png)，然后选择导出格式：
 
    * **图表(PNG)**
    * **数据表(XSLX)**

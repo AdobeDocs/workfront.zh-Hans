@@ -7,9 +7,9 @@ description: 外部测试计划可视化显示有多少项目（在应用的筛�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c64ed752-151a-40f7-ab18-684e2cd032bc
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '885'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 外部测试计划可视化显示有多少项目（在应用的筛选标准内）正在外部测试，这些项目在整个生命周期中发生了什么条件更改，以及这些项目与其计划的完成截止日期的符合程度。
 
-![](assets/flight-plan-350x132.png)
+![外部测试版计划](assets/flight-plan-350x132.png)
 
 ## 访问要求
 
@@ -67,11 +67,11 @@ ht-degree: 4%
 
 * **计划持续时间**：蓝色水平线表示项目的计划长度，线末端的三角形表示开始日期和结束日期。
 
-  ![](assets/planned-duration-line-350x37.png)
+  ![计划持续时间](assets/planned-duration-line-350x37.png)
 
 * **实际持续时间**：计划持续时间下方的彩色粗线表示项目的实际长度。 线条的颜色根据项目在项目生命周期中的该特定时间的状态而变化。
 
-  ![](assets/actual-duration-line.png)
+  ![实际持续时间](assets/actual-duration-line.png)
 
 * **实际完成情况**：粗的彩色线条还显示不同时刻项目的完成情况。 线的颜色根据项目的条件而变化：
 
@@ -79,7 +79,7 @@ ht-degree: 4%
    * **橙色**：有风险
    * **红色**：存在问题
 
-  ![](assets/actual-condition-color.png)
+  ![实际完成情况](assets/actual-condition-color.png)
 
 通过将鼠标悬停在外部测试计划可视化图表中的项目行上，您可以查看有关项目的计划时间范围、当前项目条件以及（如果适用）自定义条件的信息。 要更深入地了解可能影响持续时间或条件的因素，您可以查看增强分析区域中的其他可视化图表。
 
@@ -95,10 +95,10 @@ ht-degree: 4%
 
 ## 查看外部测试版计划可视化图表
 
-1. 单击&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon-16x12.png)，然后选择&#x200B;**分析**。
+1. 单击&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon-16x12.png)，然后选择&#x200B;**Analytics**。
 1. （可选）要使用不同的日期范围，请从日期范围过滤器中选择新的开始日期和结束日期。
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![选择日期范围](assets/filters-select-date-range-350x344.png)
 
    有关使用日期范围过滤器的信息，请参阅[在增强型分析中应用过滤器](../enhanced-analytics/use-enhanced-analytics-filters.md)。
 
@@ -112,7 +112,7 @@ ht-degree: 4%
 
    所有其他可视化都会更新到相同的日期范围，并创建一个时间范围过滤器。
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![时间范围筛选器](assets/timeframe-filter-350x220.png)
 
 1. （可选）要更改项目的排序方式，请单击外部测试版计划可视化右上角的&#x200B;**排序方式**&#x200B;菜单，然后选择新的排序选项：
 
@@ -127,7 +127,7 @@ ht-degree: 4%
 
    页面上的所有其他可视化图表将更新以匹配您选择的页面。
 
-   ![](assets/pagination-350x118.png)
+   ![分页](assets/pagination-350x118.png)
 
 1. 将鼠标悬停在项目条形图上可查看蓝色日期线以及以下详细信息：
 
@@ -135,9 +135,9 @@ ht-degree: 4%
    * 当前条件
    * 自定义条件（如果适用）
 
-   ![](assets/project-bar-graph-350x143.png)
+   ![项目条形图](assets/project-bar-graph-350x143.png)
 
-1. （可选）要导出可视化数据，请单击可视化右上角的&#x200B;**导出**&#x200B;图标![](assets/export.png)，然后选择导出格式：
+1. （可选）要导出可视化数据，请单击可视化右上角的&#x200B;**导出**&#x200B;图标![导出图标](assets/export.png)，然后选择导出格式：
 
    * **图表(PNG)**
    * **数据表(XSLX)**

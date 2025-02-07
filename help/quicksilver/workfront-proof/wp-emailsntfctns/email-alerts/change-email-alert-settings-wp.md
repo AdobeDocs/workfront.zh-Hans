@@ -7,9 +7,9 @@ description: 您还可以更改您作为审阅人收到的校对的 [!DNL Workfr
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ac24a339-6f9f-4452-a37b-023752447700
-source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 更改校对查看者的电子邮件警报
 
-1. 从任何列表视图中，单击验证右侧的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单。![](assets/more-button-small.png)
+1. 从任何列表视图中，单击验证右侧的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单。 ![更多菜单](assets/more-button-small.png)
 
 1. 单击&#x200B;**[!UICONTROL 查看校对详细信息]**。
 1. 在&#x200B;**[!UICONTROL 验证详细信息]**&#x200B;页面上，打开审阅者的[!UICONTROL 电子邮件警报]下拉菜单，然后选择新设置。
