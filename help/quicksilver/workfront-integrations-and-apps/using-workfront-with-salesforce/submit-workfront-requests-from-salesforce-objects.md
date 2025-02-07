@@ -6,9 +6,9 @@ description: 安装来自 [!DNL Salesforce] 机会和帐户的 [!DNL Salesforce]
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 84f8cb15-4840-4fe1-bf60-93bc4283b564
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '547'
 ht-degree: 2%
 
 ---
@@ -107,8 +107,8 @@ ht-degree: 2%
 1. （可选）单击&#x200B;**[!UICONTROL 转到[!DNL Salesforce]]**&#x200B;以访问问题源自于Workfront以下方面的Opportunity或Account：
 
    * 在问题的[!UICONTROL 详细信息]部分中
-   * 在列表中选择问题时，在“摘要”面板中，在单击列表工具栏中的[!UICONTROL 打开摘要] ![](assets/summary-panel-icon.png)之后。
-   * 在问题标题中，当[!UICONTROL 集成]字段可用时。 您的系统或组管理员必须将[!UICONTROL 集成]字段添加到您的布局模板中，才能查看问题标题中的“转到Salesforce”链接。 有关详细信息，请参阅[使用布局模板自定义对象标头](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)。
+   * 在列表中选择问题时，在“摘要”面板中，单击列表工具栏中的[!UICONTROL 打开摘要] ![摘要面板图标](assets/summary-panel-icon.png)。
+   * 在问题标题中，当[!UICONTROL 集成]字段可用时。 您的系统或组管理员必须将[!UICONTROL 集成]字段添加到您的布局模板，才能在问题标题中查看转到Salesforce链接。 有关详细信息，请参阅[使用布局模板自定义对象标头](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)。
 
    >[!NOTE]
    >

@@ -6,9 +6,9 @@ description: 您可以从Adobe市场安装 [!DNL Adobe Workfront for design and 
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '540'
 ht-degree: 1%
 
 ---
@@ -102,7 +102,7 @@ ht-degree: 1%
    >
    >如果您使用Premiere Pro，则必须打开一个项目才能访问此菜单。
 
-   ![](assets/adobe-workfront-menu.png)
+   ![Workfront菜单](assets/adobe-workfront-menu.png)
 
 
    >[!TIP]
@@ -121,7 +121,7 @@ ht-degree: 1%
    >[!TIP]
    >
    >* 要查找您的域，请打开浏览器，导航到您的[!DNL Workfront]实例，并复制URL的第一部分：\
-   >![](assets/domain-350x50.png)
+   >![查找域](assets/domain-350x50.png)
    >
    > * 如果您的Workfront实例已与Experience Cloud集成，请要求您的管理员为您提供Admin Console中产品> Workfront下的Workfront域。
 

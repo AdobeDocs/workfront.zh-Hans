@@ -7,9 +7,9 @@ description: 在Google Workspace中，打开Adobe [!DNL Workfront] 已发送的�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '477'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 1%
 
 ## 管理来自[!DNL Google Workspace]的[!DNL Adobe Workfront]通知详细信息
 
-1. 如果未显示[!DNL Workfront for Google Workspace]面板，请单击页面最右侧[!DNL Google Workspace]加载项侧边栏中的[!DNL Workfront]图标![](assets/wf-lion-icon.png)。
+1. 如果未显示[!DNL Workfront for Google Workspace]面板，请单击页面最右侧[!DNL Google Workspace]加载项侧边栏中的[!DNL Workfront]图标![Workfront图标](assets/wf-lion-icon.png)。
 1. 在[!DNL Google Workspace]中，打开[!DNL Workfront]通知电子邮件。
 1. 如果显示在面板顶部附近，请单击&#x200B;**[!UICONTROL 查看所有更新]**。
 1. 单击&#x200B;**[!UICONTROL 详细信息]**。

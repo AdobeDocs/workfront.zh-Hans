@@ -2,14 +2,14 @@
 product-area: workfront-integrations;user-management
 keywords: google，doc，文档，工作表，幻灯片
 navigation-topic: workfront-for-g-suite
-title: 登录和注销Google Workspace的 [!DNL Adobe Workfront]
+title: '登录和注销Google Workspace的 [!DNL Adobe Workfront] '
 description: 本文介绍了如何登录或注销 [!DNL Adobe Workfront for] Google Workspace集成。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 8a91f1d9-bc67-4c27-a6c0-2482488c670b
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ## 登录[!DNL Adobe Workfront for Google Workspace]
 
-1. 单击[!DNL Gmail]、[!DNL Google Calendar]或[!DNL Google Drive]最右侧[!DNL Google Workspace]加载项侧边栏中的[!DNL Workfront]图标![](assets/wf-lion-icon.png)。
+1. 单击[!DNL Gmail]、[!DNL Google Calendar]或[!DNL Google Drive]最右侧[!DNL Google Workspace]加载项侧边栏中的[!DNL Workfront]图标![Workfront图标](assets/wf-lion-icon.png)。
 
    如果您刚刚安装了[!DNL Workfront for Google Workspace]加载项，但看不到此图标，请尝试刷新浏览器页面。
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 ## 注销[!DNL Workfront for Google Workspace]
 
-1. 如果未显示[!UICONTROL Workfront for Google Workspace]面板，请单击页面最右侧[!DNL Google Workspace]加载项侧边栏中的[!DNL Workfront]图标![](assets/wf-lion-icon.png)。
+1. 如果未显示[!UICONTROL Workfront for Google Workspace]面板，请单击页面最右侧[!DNL Google Workspace]加载项侧边栏中的[!DNL Workfront]图标![Workfront图标](assets/wf-lion-icon.png)。
 1. 单击[!DNL Workfront for Google Workspace]面板顶部的&#x200B;**[!UICONTROL 更多操作]**&#x200B;图标。
 
 1. 在出现的菜单中单击&#x200B;**[!UICONTROL 注销]**。

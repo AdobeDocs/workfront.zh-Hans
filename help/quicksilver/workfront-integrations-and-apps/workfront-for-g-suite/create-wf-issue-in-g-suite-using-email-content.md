@@ -7,9 +7,9 @@ description: 您可以将 [!DNL Adobe Workfront)] 未生成的外部电子邮件
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7a15f557-67d8-4be8-8538-4bce06536c0a
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -56,10 +56,10 @@ ht-degree: 0%
 
 ## 使用电子邮件内容在[!DNL Google Workspace]中创建[!DNL Adobe Workfront]问题
 
-1. 如果未显示[!UICONTROL Workfront for Google Workspace]面板，请单击页面最右侧[!DNL Google Workspace]加载项侧边栏中的[!DNL Workfront]图标![](assets/wf-lion-icon.png)。
+1. 如果未显示[!UICONTROL Workfront for Google Workspace]面板，请单击页面最右侧[!DNL Google Workspace]加载项侧边栏中的[!DNL Workfront]图标![Workfront图标](assets/wf-lion-icon.png)。
 1. 在[!DNL Google Workspace]中打开电子邮件后，单击[!DNL Workfront for Google Workspace]中的选项以将电子邮件转换为新的[!DNL Workfront]问题。
 
-   ![](assets/convert-email-task-issue-update.png)
+   ![转换电子邮件](assets/convert-email-task-issue-update.png)
 
 1. 如果要将问题附加到父项目，请单击“**[!UICONTROL 项目名称]**”，开始键入要附加问题的项目名称，然后在该项目出现在以下列表中时单击该项目名称。
 1. 进行以下任何更改：
@@ -113,6 +113,6 @@ ht-degree: 0%
 
    * 若要回复&#x200B;**[!UICONTROL 更新]**&#x200B;选项卡上的更新，请单击&#x200B;**[!UICONTROL 回复]**，然后键入您的回复。
 
-     对于上述两个操作，您可以通知特定用户您的评论。 单击&#x200B;**[!UICONTROL 通知]**，开始键入用户的名称，然后在名称出现在下拉列表中时单击该名称。 对要通知的其他用户重复此过程，然后单击&#x200B;**[!UICONTROL Post]**。
+     对于上述两个操作，您可以通知特定用户您的评论。 单击&#x200B;**[!UICONTROL 通知]**，开始键入用户的名称，然后在名称出现在下拉列表中时单击该名称。 对要通知的其他用户重复此过程，然后单击&#x200B;**[!UICONTROL 发布]**。
 
    * 单击&#x200B;**[!UICONTROL 文档]**&#x200B;选项卡以查看与问题一起保存的任何文档。

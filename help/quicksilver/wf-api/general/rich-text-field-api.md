@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 67fc34dc-0722-4419-8254-0371ad5abfc3
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Adobe Workfront中的某些对象允许存储具有富文本格式的文本。 �
 
 具有富文本格式的自定义字段称为&#x200B;**具有富文本格式的字段**，可以具有与其关联的以下值：
 
-![](assets/rich-text-example-350x158.png)
+![富文本示例](assets/rich-text-example-350x158.png)
 
 **示例：**&#x200B;用于检索自定义表单字段&#x200B;**包含富文本字段**&#x200B;的值的基本GET请求：
 
@@ -48,7 +48,7 @@ Adobe Workfront中的某些对象允许存储具有富文本格式的文本。 �
 
 **示例：**&#x200B;在此，自定义字段中的每一行文本映射到数组块中的块元素
 
-![](assets/copy-of-rich-text-mapping-350x159.png)
+![富文本映射](assets/copy-of-rich-text-mapping-350x159.png)
 
 由于每个块元素也是JSON对象，因此每个块由元素组成：**key**、**text**、**type**、**depth**、**inlineStyleRanges**、**entityRanges**&#x200B;和&#x200B;**data**。 其中每个元素均具有以下功能：
 
@@ -61,7 +61,7 @@ Adobe Workfront中的某些对象允许存储具有富文本格式的文本。 �
 
 **示例：**&#x200B;以下是一个inlineStyleRanges数组，它描述了字符级别的每个样式。 在本例中：从索引0 （偏移量： 0）开始的9个字符（长度： 9）应用了样式&#x200B;**粗体**：
 
-![](assets/copy-of-rich-text-mapping-2-350x136.png)
+![富文本映射](assets/copy-of-rich-text-mapping-2-350x136.png)
 
 如果将多种类型的格式应用于单行，则样式将映射到** inlineStyleRanges**数组中的其他元素。
 

@@ -6,9 +6,9 @@ description: 您可以从Adobe市场安装Adobe Workfront for XD插件。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '474'
 ht-degree: 1%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 1%
 
 1. 单击左下角的&#x200B;**插件**&#x200B;图标。
 
-![](assets/xd-plugin-window-350x620.png)
+![XD插件窗口](assets/xd-plugin-window-350x620.png)
 
 1. 在&#x200B;**[!UICONTROL 插件面板]**&#x200B;中，找到&#x200B;**[!UICONTROL 适用于XD的Adobe Workfront]**。
 
@@ -103,7 +103,7 @@ ht-degree: 1%
    >[!TIP]
    >
    >* 要查找您的域，请打开浏览器，导航到您的[!DNL Workfront]实例，并复制URL的第一部分：\
-   >![](assets/domain-350x50.png)
+   >![查找域](assets/domain-350x50.png)
    >
    > * 如果您的Workfront实例已与Experience Cloud集成，请要求您的管理员为您提供Admin Console中产品> Workfront下的Workfront域。
 

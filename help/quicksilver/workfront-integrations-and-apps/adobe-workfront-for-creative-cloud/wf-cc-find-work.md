@@ -6,9 +6,9 @@ description: 在不离开Adobe Creative Cloud应用程序的情况下在Adobe Wo
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4abb3257-5f6a-45f6-933b-f3bfb3728f1c
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
@@ -122,4 +122,4 @@ ht-degree: 0%
 
 您可以使用[!UICONTROL 菜单]图标导航到项目中的父项。
 
-![](assets/go-back-to-work-list-350x314.png)
+![返回工作列表](assets/go-back-to-work-list-350x314.png)

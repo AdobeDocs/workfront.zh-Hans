@@ -7,9 +7,9 @@ title: Adobe Workfront集成方法
 description: 您可以将 [!DNL Adobe Workfront] 与第三方应用程序集成。 这些集成可以扩展 [!DNL Workfront] 的实用工具，并根据贵组织的需求对其进行定制。 您可以使用任意或所有这些集成，具体取决于哪一种集成对给定任务最有用。
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: bf13a7c9-eab3-4ae3-a060-8a422236122d
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '952'
 ht-degree: 0%
 
 ---
@@ -95,6 +95,6 @@ Adobe[!DNL Workfront]管理员可以为您的[!DNL Workfront]实例创建OAuth2�
 >
 >[!DNL Workfront Fusion]中的以下[!DNL Workfront]模块设置为向所选项目添加评论。 执行模块后，该注释将显示在Workfront中的项目更新流中。
 >
->![](assets/fusion-example-comment-350x416.png)
+>![示例：在Fusion中添加注释](assets/fusion-example-comment-350x416.png)
 
 有关[!DNL Workfront Fusion]的详细信息，请参阅[[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home)。

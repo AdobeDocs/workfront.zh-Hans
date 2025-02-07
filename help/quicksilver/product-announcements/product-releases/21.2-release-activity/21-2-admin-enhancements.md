@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 7ae5a04a-a9bc-4a85-8651-2b912f7fd7e4
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1525'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ ht-degree: 0%
 * 每个子页面名称上方的层次结构信息（例如，在单个组的页面上）
 * 现代化的字体样式和大小
 
-  ![](assets/updated-headers-in-setup-02-29-21-350x214.png)
+  ![已在设置中更新标头](assets/updated-headers-in-setup-02-29-21-350x214.png)
 
 有关设置区域的详细信息，请参阅[管理和设置](../../../administration-and-setup/administration-and-setup.md)。
 

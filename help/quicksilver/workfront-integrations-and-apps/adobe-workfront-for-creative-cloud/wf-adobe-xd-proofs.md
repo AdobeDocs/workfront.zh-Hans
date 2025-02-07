@@ -6,9 +6,9 @@ description: 您可以将画板作为验证直接上传到Adobe Workfront以进�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
@@ -64,10 +64,10 @@ ht-degree: 0%
 
 1. 单击右上角的&#x200B;**[!UICONTROL 菜单]**&#x200B;图标，然后选择&#x200B;**[!UICONTROL 工作列表]**。 您还可以使用菜单导航到父对象。
 
-   ![](assets/menu-350x440.png)
+   ![菜单图标](assets/menu-350x440.png)
 
 1. 转到要上载静态校样的工作项。
-1. 单击导航栏中的&#x200B;**[!UICONTROL 文档]**&#x200B;图标![](assets/documents.png)。
+1. 单击导航栏中的&#x200B;**[!UICONTROL 文档]**&#x200B;图标![文档图标](assets/documents.png)。
 
 1. 单击插件底部附近的&#x200B;**[!UICONTROL 新建文件]**。
 1. 选择要上载的画板。
@@ -108,7 +108,7 @@ ht-degree: 0%
 
 1. （可选）在&#x200B;**[!UICONTROL 更新]**&#x200B;区域键入评论。
 
-   ![](assets/proof-approvals-xd-350x396.png)
+   在XD中![校对审批](assets/proof-approvals-xd-350x396.png)
 
 1. 从&#x200B;**[!UICONTROL 资源类型]**&#x200B;下拉菜单中选择导出格式。
 
@@ -117,7 +117,7 @@ ht-degree: 0%
 
 1. （可选）为PDF命名。
 
-   ![](assets/pdf-options.png)
+   ![PDF选项](assets/pdf-options.png)
 
 1. 单击&#x200B;**[!UICONTROL 上传]**。\
    该文档显示在插件和桌面应用程序的[!UICONTROL 文档]区域中。
@@ -149,10 +149,10 @@ ht-degree: 0%
 
 1. 单击右上角的&#x200B;**[!UICONTROL 菜单]**&#x200B;图标，然后选择&#x200B;**[!UICONTROL 工作列表]**。 您还可以使用菜单导航到父对象。
 
-   ![](assets/menu-350x440.png)
+   ![菜单图标](assets/menu-350x440.png)
 
 1. 转到要在其中上载交互式验证的工作项。
-1. 单击导航栏中的&#x200B;**[!UICONTROL 文档]**&#x200B;图标![](assets/documents.png)。
+1. 单击导航栏中的&#x200B;**[!UICONTROL 文档]**&#x200B;图标![文档图标](assets/documents.png)。
 
 1. 单击插件底部附近的&#x200B;**[!UICONTROL 新建文件]**。
 1. 启用&#x200B;**[!UICONTROL 创建验证]**。
@@ -184,10 +184,10 @@ ht-degree: 0%
 
 1. （可选）在&#x200B;**[!UICONTROL 更新]**&#x200B;区域键入评论。
 
-   ![](assets/proof-approvals-xd-350x396.png)
+   在XD中![校对审批](assets/proof-approvals-xd-350x396.png)
 
 1. 在&#x200B;**[!UICONTROL 资产类型]**&#x200B;下拉菜单中，在&#x200B;**共享链接**&#x200B;选项卡下选择您刚刚创建的链接。 有关详细信息，请参阅[为画板创建交互式链接](#create-an-interactive-link-for-your-artboard)。\
-   ![](assets/shared-links-xd-350x870.png)
+   ![在XD中共享链接](assets/shared-links-xd-350x870.png)
 
 1. 单击&#x200B;**[!UICONTROL 上传]**。
 
@@ -203,10 +203,10 @@ ht-degree: 0%
 
 1. 单击右上角的&#x200B;**[!UICONTROL 菜单]**&#x200B;图标，然后选择&#x200B;**[!UICONTROL 工作列表]**。 您还可以使用菜单导航到父对象。
 
-   ![](assets/menu-350x440.png)
+   ![菜单图标](assets/menu-350x440.png)
 
 1. 转到需要上载文档的工作项。
-1. 单击导航栏中的&#x200B;**[!UICONTROL 文档]**&#x200B;图标![](assets/documents.png)。
+1. 单击导航栏中的&#x200B;**[!UICONTROL 文档]**&#x200B;图标![文档图标](assets/documents.png)。
 
 1. 单击插件底部附近的&#x200B;**[!UICONTROL 新版本]**。
 1. 启用&#x200B;**[!UICONTROL 创建验证]**。
@@ -243,17 +243,17 @@ ht-degree: 0%
 
 1. 从&#x200B;**[!UICONTROL 资源类型]**&#x200B;下拉菜单中选择导出格式。
 
-   ![](assets/create-a-proof-xd-350x202.png)
+   ![在XD中创建验证](assets/create-a-proof-xd-350x202.png)
 
 1. （可选）在&#x200B;**[!UICONTROL 更新]**&#x200B;区域键入评论。
 
-   ![](assets/proof-approvals-xd-350x396.png)
+   在XD中![校对审批](assets/proof-approvals-xd-350x396.png)
 
 1. （可选）如果您选择PDF作为资源类型并且选择了多个画板，请选择您要将画板导出为&#x200B;**[!UICONTROL 单个PDF文件]s**&#x200B;还是&#x200B;**M[!UICONTROL 多个PDF文件]**。
 
 1. （可选）为PDF命名。
 
-   ![](assets/pdf-options.png)
+   PDF选项
 
 1. 单击&#x200B;**[!UICONTROL 上传]**。\
    该文档显示在插件和桌面应用程序的[!UICONTROL 文档]区域中。

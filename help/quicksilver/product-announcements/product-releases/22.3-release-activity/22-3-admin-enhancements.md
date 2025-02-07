@@ -6,10 +6,10 @@ draft: false
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4607703a-d70e-432c-9fa2-bd43af5a870e
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 0%
+source-wordcount: '770'
+ht-degree: 1%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 有关更多信息，请参阅以下文章：
 
-* [创建工作项的审批流程](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
+* [为工作项目创建审批流程](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
 
 * [创建或编辑状态](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 ## 从组页面取消激活组
 
-最近，我们添加了取消激活和重新激活组的功能。 为了更快、更轻松地执行该操作，我们将其添加到组的页面。 现在，在单击组名以转到其页面后，您可以选择组名旁边的更多菜单![](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png)，然后选择停用或重新激活。
+最近，我们添加了取消激活和重新激活组的功能。 为了更快、更轻松地执行该操作，我们将其添加到组的页面。 现在，在单击组名以转到其页面后，您可以选择组名旁边的更多菜单![主菜单图标](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png)，然后选择停用或重新激活。
 
 以前，只能使用群组“详细信息”页面上的“处于活动状态”复选框来停用或重新激活群组。
 

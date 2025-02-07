@@ -7,9 +7,9 @@ description: 您可以为Salesforce安装 [!DNL Adobe Workfront] 以允许Salesf
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 65d4cdae-1d34-4a8a-a1c0-706cd41fc75e
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 * 通过单击Workfront中的&#x200B;**[!UICONTROL 转到Salesforce]**&#x200B;链接，您可以直接访问链接到[!DNL Salesforce]的项。
 
-  您无法在[!DNL Workfront]中查看有关[!DNL Salesforce]项的任何信息，但您有一个链接指向来自[!DNL Workfront]的[!UICONTROL Salesforce]项，以便在[!DNL Salesforce]中对其进行查看。
+  您无法在[!DNL Workfront]中查看有关[!DNL Salesforce]项的任何信息，但您有一个链接指向来自[!DNL Workfront]的[!UICONTROL Salesforce]项，以便在[!DNL Salesforce]中查看。
 
   [!UICONTROL 在以下区域显示&#x200B;**转到Salesforce**]&#x200B;链接：
 
@@ -78,7 +78,7 @@ ht-degree: 0%
    * 项目或问题的标头。
 
      您的系统或组管理员必须将[!UICONTROL 集成]字段添加到您的布局模板中，才能查看项目或问题标题中的[!UICONTROL 转到Salesforce]链接。
-   * 在列表中选择问题时，单击列表工具栏中的[!UICONTROL 打开摘要] ![](assets/summary-panel-icon.png)后问题的[!DNL Summary]面板。
+   * 在列表中选择问题时，单击列表工具栏中的[!UICONTROL 打开摘要] ![摘要面板图标](assets/summary-panel-icon.png)后问题的[!DNL Summary]面板。
 
      >[!NOTE]
      >

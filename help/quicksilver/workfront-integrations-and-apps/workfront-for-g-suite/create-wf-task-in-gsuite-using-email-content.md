@@ -7,9 +7,9 @@ description: 您可以将外部电子邮件(非Adobe [!DNL Workfront]生成)转�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 6bbb4301-2791-4d72-bad8-fef63d6e892a
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 ## 使用电子邮件内容在[!DNL Google Workspace]中创建[!DNL Adobe Workfront]任务
 
-1. 如果未显示[!UICONTROL Workfront for Google Workspace]面板，请单击页面最右侧[!DNL Google Workspace]加载项侧边栏中的[!DNL Workfront]图标![](assets/wf-lion-icon.png)。
+1. 如果未显示[!UICONTROL Workfront for Google Workspace]面板，请单击页面最右侧[!DNL Google Workspace]加载项侧边栏中的[!DNL Workfront]图标![Workfront图标](assets/wf-lion-icon.png)。
 1. 在[!DNL Google Workspace]中打开电子邮件后，单击[!DNL Workfront for Google Workspace]中的选项以将电子邮件转换为新的[!DNL Workfront]任务。
 
 1. 选择&#x200B;**[!UICONTROL 新建]**&#x200B;选项以指示该任务将成为项目的一部分，还是独立于项目的个人任务。
@@ -116,7 +116,7 @@ ht-degree: 0%
 
    * 若要回复&#x200B;**[!UICONTROL 更新]**&#x200B;选项卡上的更新，请单击&#x200B;**[!UICONTROL 回复]**，然后键入您的回复。
 
-     对于上述两个操作，您可以通知特定用户您的评论。 单击&#x200B;**[!UICONTROL 通知]**，开始键入用户的名称，然后在名称出现在下拉列表中时单击该名称。 对要通知的其他用户重复此过程，然后单击&#x200B;**[!UICONTROL Post]**。
+     对于上述两个操作，您可以通知特定用户您的评论。 单击&#x200B;**[!UICONTROL 通知]**，开始键入用户的名称，然后在名称出现在下拉列表中时单击该名称。 对要通知的其他用户重复此过程，然后单击&#x200B;**[!UICONTROL 发布]**。
 
    * 单击&#x200B;**[!UICONTROL 文档]**&#x200B;选项卡以查看随任务保存的任何文档。
 

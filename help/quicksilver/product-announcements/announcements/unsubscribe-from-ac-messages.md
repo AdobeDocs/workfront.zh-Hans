@@ -6,9 +6,9 @@ description: 公告中心消息是从Adobe Workfront发送到Workfront客户群�
 author: Luke
 feature: Product Announcements
 exl-id: a9922e91-c58c-4c25-968c-ab70fa8d8916
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -25,16 +25,16 @@ ht-degree: 0%
 
 要取消订阅接收Announcement Center报文，请执行以下操作：
 
-1. 单击Workfront右上角的编号图标![](assets/notifications-icon-jewel.jpg)以打开您的通知列表。
+1. 单击Workfront右上角的编号图标![通知图标](assets/notifications-icon-jewel.jpg)以打开您的通知列表。
 1. 单击列表底部的&#x200B;**所有公告**。
 
    此时会显示&#x200B;**公告**&#x200B;页面，其中列出了您的所有公告。
 
-   ![](assets/announcements-page-qs-350x210.png)
+   ![公告页面](assets/announcements-page-qs-350x210.png)
 
 1. 单击公告页面右上角的&#x200B;**设置**，然后选择&#x200B;**新版本**&#x200B;或&#x200B;**培训**，具体取决于您不想再接收的公告类型。
 
-   ![](assets/announcementcenter-settings-350x187.png)
+   ![公告中心设置](assets/announcementcenter-settings-350x187.png)
 
 1. 单击&#x200B;**保存设置**。
 

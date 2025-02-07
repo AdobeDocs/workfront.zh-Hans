@@ -8,9 +8,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '3620'
+source-wordcount: '3627'
 ht-degree: 2%
 
 ---
@@ -851,10 +851,10 @@ name=Folder B ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
 （发布日期 — 待定）此端点将允许Workfront用户（或可能是自动工作流事件）在外部系统中执行操作。 /customAction端点接受“name”参数，该参数允许webhook提供程序实现多个自定义操作。
 
 webhook提供程序通过在customActions下的/serviceInfo响应中包含操作来向Workfront注册自定义操作。 在设置>文档>自定义集成下设置或刷新webhook提供程序时，Workfront会加载此列表。\
-![](assets/mceclip0-350x262.png)
+![执行自定义操作](assets/mceclip0-350x262.png)
 
 用户可以通过选择“文档操作”下的部分来触发自定义操作\
-![](assets/mceclip1-350x95.png)
+![触发自定义操作](assets/mceclip1-350x95.png)
 
 **URL**
 

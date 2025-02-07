@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f136c08b-63c0-4e1e-a048-09eb84a0ed54
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Adobe Workfront应用程序和面向客户的网站中最突出的领域现已�
 
 若要了解有关新Workfront Experience中新对象标头的更多信息，请参阅[新对象标头](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md)。
 
-![](assets/product-announcement-object-header-350x179.png)
+![对象标头](assets/product-announcement-object-header-350x179.png)
 
 ## 对象状态搜索响应的更新
 

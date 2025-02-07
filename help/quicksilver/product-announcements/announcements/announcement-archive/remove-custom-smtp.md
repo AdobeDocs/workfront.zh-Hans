@@ -6,9 +6,9 @@ description: 在20.3版（计划于2020年8月发布）中，Adobe Workfront将�
 author: Luke
 feature: Product Announcements
 exl-id: 73abd185-81c6-43fc-b8b0-cad14d15b348
-source-git-commit: 9bc394c718becbac2848c2d91ba3202483699b6f
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 要访问此功能，请以系统管理员身份登录并导航到“设置”>“电子邮件”>“设置”。 以下是一个突出显示该功能的屏幕截图：
 
-![](assets/email-server-settings-350x226.png)
+![电子邮件服务器设置](assets/email-server-settings-350x226.png)
 
 此屏幕快照中高亮显示的设置将自动过渡为在20.3版本中使用Workfront邮件服务器选项。
 

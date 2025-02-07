@@ -6,10 +6,10 @@ description: 您可以停留在Adobe Creative Cloud应用程序中，并在Adobe
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 0%
+source-wordcount: '290'
+ht-degree: 1%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 1. 单击右上角的&#x200B;**[!UICONTROL 菜单]**&#x200B;图标，然后选择&#x200B;**[!UICONTROL 工作列表]**。 您还可以使用菜单导航到父对象。
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![返回工作列表](assets/go-back-to-work-list-350x314.png)
 
 1. 从&#x200B;**[!UICONTROL 工作列表]**&#x200B;中，选择要标记为完成的任务或问题。
 1. 单击&#x200B;**[!UICONTROL 完成]**。  如果您是分配给此任务或问题的唯一用户，这将在[!DNL Workfront]中标记项目[!UICONTROL 完成]或[!UICONTROL 已解决]。
@@ -75,6 +75,6 @@ ht-degree: 0%
    >[!NOTE]
    >
    >如果工作项具有前置任务，则完成按钮为灰色，直到这些前置任务被标记为完成。 若要查看[!DNL Workfront]内的前置任务，请单击任务名称。
-   >![](assets/navigate-to-workfront.png)
+   >![导航到Workfront](assets/navigate-to-workfront.png)
 
-<!-- I dont think we need this one ![](assets/complete-work-350x529.png) -->
+<!-- I dont think we need this one ![Complete work](assets/complete-work-350x529.png) -->

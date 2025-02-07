@@ -6,9 +6,9 @@ description: 您可以从Adobe市场安装适用于Photoshop的Adobe Workfront�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '520'
 ht-degree: 1%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 1%
 
 1. 在顶部菜单中，单击&#x200B;**[!UICONTROL 插件]** > **[!UICONTROL 插件面板]**。
 
-   ![](assets/plugins-panel-ps.png)
+   ![插件面板](assets/plugins-panel-ps.png)
 
 1. 在&#x200B;**[!UICONTROL 插件面板]**&#x200B;中，选择&#x200B;**[!UICONTROL 插件]**&#x200B;选项卡，并找到&#x200B;**[!UICONTROL 适用于Adobe Photoshop的Workfront]**。
 
@@ -107,7 +107,7 @@ ht-degree: 1%
    >[!TIP]
    >
    >* 要查找您的域，请打开浏览器，导航到您的[!DNL Workfront]实例，并复制URL的第一部分：\
-   >![](assets/domain-350x50.png)
+   >![查找域](assets/domain-350x50.png)
    >
    > * 如果您的Workfront实例已与Experience Cloud集成，请要求您的管理员为您提供Admin Console中产品> Workfront下的Workfront域。
 

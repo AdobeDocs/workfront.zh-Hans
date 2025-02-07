@@ -6,9 +6,9 @@ description: 您可以将项目作为文档上传，以供快速审查和批准�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d26850d8-9594-4848-b263-6f71e6c52e9b
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -64,10 +64,10 @@ ht-degree: 0%
 
 1. 单击右上角的&#x200B;**[!UICONTROL 菜单]**&#x200B;图标，然后选择&#x200B;**[!UICONTROL 工作列表]**。 您还可以使用菜单导航到父对象。
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![返回工作列表](assets/go-back-to-work-list-350x314.png)
 
 1. 转到要上载文档的工作项。
-1. 单击导航栏中的&#x200B;**[!UICONTROL 文档]**&#x200B;图标![](assets/documents.png)。
+1. 单击导航栏中的&#x200B;**[!UICONTROL 文档]**&#x200B;图标![文档图标](assets/documents.png)。
 
 1. 单击插件底部附近的&#x200B;**[!UICONTROL 新建文件]**。
 1. 从下拉菜单中选择&#x200B;**[!UICONTROL 资源类型]**。

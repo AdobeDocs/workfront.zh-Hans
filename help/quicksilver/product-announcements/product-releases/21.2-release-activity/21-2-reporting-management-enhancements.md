@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1d5f76ef-bea7-4630-8051-454b0d109341
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 有关列表中分配的更多信息，请参阅[分配任务](../../../manage-work/tasks/assign-tasks/assign-tasks.md)或[分配问题](../../../manage-work/issues/manage-issues/assign-issues.md)。
 
-![](assets/assignments-updates-350x193.png)
+![工作分派更新](assets/assignments-updates-350x193.png)
 
 ## 更新列表和报告中的预输入字段的新外观
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 有关更新的列表的信息，请参阅文章[Adobe Workfront中的列表入门](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)中的[更新列表与旧列表之间的差异](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated)部分。
 
-![](assets/typeahead-updates-350x336.png)
+![预输入字段](assets/typeahead-updates-350x336.png)
 
 ## 系统更新报告
 

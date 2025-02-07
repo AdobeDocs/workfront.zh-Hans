@@ -4,9 +4,9 @@ description: 22.2版本中对管理自定义表单进行了以下重要增强。
 author: Luke
 feature: Product Announcements, Custom Forms
 exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
-source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1117'
 ht-degree: 0%
 
 ---
@@ -19,17 +19,17 @@ ht-degree: 0%
 
 您可以在自定义表单中嵌入图像。 这允许您以更具交互性和可视性的方式与自定义表单用户通信。 即将推出其他构件类型。
 
-![](assets/image-in-custom-form.png)
+![自定义表单中的图像](assets/image-in-custom-form.png)
 
 将包含小部件的自定义表单附加到对象后，使用该对象的用户可以在以下区域看到该表单：
 
 * 对象的“详细信息”区域（例如，对于项目，“项目详细信息”区域）&#x200B;。
 
-  ![](assets/see-image-details-page.png)
+  ![映像详细信息](assets/see-image-details-page.png)
 
 * 对象的“编辑”框(如果它具有新的Adobe Workfront Experience外观)（例如，“编辑项目”和“编辑任务”框）&#x200B;。
 
-  ![](assets/image-see-in-edit.png)
+  ![图像编辑](assets/image-see-in-edit.png)
 
 目前，用户无法在以下区域中看到构件：&#x200B;
 
@@ -42,11 +42,11 @@ ht-degree: 0%
 
 您可以将多个对象类型与任何新的自定义表单关联：
 
-![](assets/new-custom-form-object-types.png)
+![自定义表单对象类型](assets/new-custom-form-object-types.png)
 
 或任何现有的自定义表单：
 
-![](assets/add-object-type-existing-form.png)
+![将对象类型添加到表单](assets/add-object-type-existing-form.png)
 
 这允许您创建单个自定义表单，用于项目、任务、问题以及自定义表单支持的任何其他类型的对象。
 
@@ -76,11 +76,11 @@ ht-degree: 0%
 
 “问题”、“任务”、“项目”和“用户”对象类型可用的分区界限权限选项集比所有其他对象类型的权限选项集具有更多的权限选项：“受限编辑”。
 
-![](assets/section-break-permissions-limited-edit.png)
+![分区界限具有有限的编辑](assets/section-break-permissions-limited-edit.png)
 
 可用于所有其他对象类型(“Portfolio”、“文档”、“项目群”、“费用”、“公司”、“开发周期”、“记帐记录”和“组”)的一组分区界限权限不包括“有限编辑”：
 
-![](assets/section-break-permissions-no-limited-edit.png)
+![分区界限，无限制的编辑](assets/section-break-permissions-no-limited-edit.png)
 
 在与来自这两个组的对象类型相关联的自定义表单中，系统使用一组适用于所有对象类型的通用分区界限权限。 特别是，此公用集代替了“有限编辑”权限选项的“编辑”权限选项，而不是使用“有限编辑”权限选项。 “编辑”选项与所有对象类型兼容。
 

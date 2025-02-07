@@ -6,10 +6,10 @@ description: 您可以将画板作为文档上传，以供快速审阅和审批�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 710035f7-339c-457c-b9b0-e51bc0e0061d
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 0%
+source-wordcount: '596'
+ht-degree: 1%
 
 ---
 
@@ -65,10 +65,10 @@ ht-degree: 0%
 
 1. 单击右上角的&#x200B;**[!UICONTROL 菜单]**&#x200B;图标，然后选择&#x200B;**[!UICONTROL 工作列表]**。 您还可以使用菜单导航到父对象。
 
-   ![](assets/menu-350x440.png)
+   ![菜单图标](assets/menu-350x440.png)
 
 1. 转到要上载文档的工作项。
-1. 单击导航栏中的&#x200B;**[!UICONTROL 文档]**&#x200B;图标![](assets/documents.png)。
+1. 单击导航栏中的&#x200B;**[!UICONTROL 文档]**&#x200B;图标![文档图标](assets/documents.png)。
 
 1. 单击插件底部附近的&#x200B;**[!UICONTROL 新建文件]**。
 1. 选择要上载的画板。
@@ -113,10 +113,10 @@ ht-degree: 0%
 
 1. 单击右上角的&#x200B;**[!UICONTROL 菜单]**&#x200B;图标，然后选择&#x200B;**[!UICONTROL 工作列表]**。 您还可以使用菜单导航到父对象。
 
-   ![](assets/menu-350x440.png)
+   ![菜单图标](assets/menu-350x440.png)
 
 1. 转到要上载文档的工作项。
-1. 单击导航栏中的&#x200B;**[!UICONTROL 文档]**&#x200B;图标![](assets/documents.png)。
+1. 单击导航栏中的&#x200B;**[!UICONTROL 文档]**&#x200B;图标![文档图标](assets/documents.png)。
 
 1. 单击要向其添加新版本的文档。
 1. 单击插件底部附近的&#x200B;**[!UICONTROL 新版本]**。

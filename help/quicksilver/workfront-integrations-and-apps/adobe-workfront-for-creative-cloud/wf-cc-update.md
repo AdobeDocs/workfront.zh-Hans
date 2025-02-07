@@ -6,10 +6,10 @@ description: 您可以使用Adobe Workfront插件更新您的工作。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 865beaa8-a585-4bdd-9d04-b5fbdf40748c
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 2%
+source-wordcount: '224'
+ht-degree: 3%
 
 ---
 
@@ -86,11 +86,11 @@ ht-degree: 2%
 
 1. 单击右上角的&#x200B;**[!UICONTROL 菜单]**&#x200B;图标，然后选择&#x200B;**[!UICONTROL 工作列表]**。 您还可以使用菜单导航到父对象。
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![返回工作列表](assets/go-back-to-work-list-350x314.png)
 
 1. 从&#x200B;**[!UICONTROL 工作列表]**&#x200B;中，选择需要向其发布更新的工作项。
 1. 单击导航栏中的&#x200B;**[!UICONTROL 更新]**。\
-   ![](assets/photoshop-update-350x295.png)
+   ![Photoshop更新](assets/photoshop-update-350x295.png)
 
 1. 单击&#x200B;**[!UICONTROL 新更新]**。
 1. 键入您的更新。

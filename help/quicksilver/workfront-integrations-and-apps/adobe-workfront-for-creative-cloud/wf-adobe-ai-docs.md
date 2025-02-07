@@ -6,9 +6,9 @@ description: 您可以将艺术展示板上传为文档，以便快速审阅和�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: faec4197-acc3-47d4-bb7a-cc0664c4e9ea
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -64,17 +64,17 @@ ht-degree: 0%
 
 1. 单击右上角的&#x200B;**[!UICONTROL 菜单]**&#x200B;图标，然后选择&#x200B;**[!UICONTROL 工作列表]**。 您还可以使用菜单导航到父对象。
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![返回工作列表](assets/go-back-to-work-list-350x314.png)
 
 1. 转到要上载文档的工作项。
-1. 单击导航栏中的&#x200B;**[!UICONTROL 文档]**&#x200B;图标![](assets/documents.png)。
+1. 单击导航栏中的&#x200B;**[!UICONTROL 文档]**&#x200B;图标![文档图标](assets/documents.png)。
 
 1. 单击插件底部附近的&#x200B;**[!UICONTROL 新建文件]**。
 1. （可选）在&#x200B;**[!UICONTROL 更新]**&#x200B;区域键入评论。
 1. 从下拉菜单中选择&#x200B;**[!UICONTROL 资源类型]**。
 1. 打开&#x200B;**[!UICONTROL 设置导出文件设置]**&#x200B;对话框，然后根据以上选择的资源类型配置任何所需的导出选项。
 
-   ![](assets/file-export-settings.png)
+   ![文件导出设置](assets/file-export-settings.png)
 1. 单击&#x200B;**[!UICONTROL 上传]**。
 该文档显示在插件和桌面应用程序的[!UICONTROL 文档]区域中。
 

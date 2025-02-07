@@ -6,9 +6,9 @@ description: 您可以自动或手动将 [!DNL Jira] 问题链接到 [!DNL Adobe
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: f2169acfbcbf6a1497bd35de01821a09c7b3d59c
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1231'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 0%
 
    有关访问任务的更多信息，请参阅[授予访问任务的权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)。
 
-1. 转到项目，然后在左侧面板中选择&#x200B;**[!UICONTROL 任务]** ![](assets/tasks-icon-in-left-panel-14x14.png)。
+1. 转到项目，然后在左侧面板中选择&#x200B;**[!UICONTROL 任务]** ![任务图标](assets/tasks-icon-in-left-panel-14x14.png)。
 
 1. 单击&#x200B;**[!UICONTROL 新建任务]**
 

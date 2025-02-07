@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 587d1dff-6ef1-4f97-84b9-32a073481d37
-source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '670'
 ht-degree: 0%
 
 ---
@@ -34,13 +34,13 @@ Workfront每年向所有产品线发布三次新产品功能（版本1、版本2
 
 有关更多信息，请参阅：  [功能在2016年预览中可用](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md)
 
-![](assets/mceclip0-350x218.png)\
+![通过电子邮件管理工作](assets/mceclip0-350x218.png)\
 **使项目按计划进行并编列预算**
 使用新的利用率报告管理您的资源及其利用率，使项目按计划进行并符合预算。 查看每个项目和角色的计划小时数与实际小时数，并定期比较资源和部门。
 
 有关更多信息，请参阅：  [R1预览3](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md)
 
-![](assets/mceclip1-350x169.png)\
+![使项目按计划进行](assets/mceclip1-350x169.png)\
 **自定义术语和通知**
 利用自定义术语功能更改“Portfolio”或“项目”等术语以适合您的首选语言（无论属于哪个行业），从而使Workfront与您的团队更相关。 此外，每个用户现在可以通过调整其摘要频率来自定义他们收到的通知类型。
 
@@ -51,7 +51,7 @@ Workfront每年向所有产品线发布三次新产品功能（版本1、版本2
 
 有关更多信息，请参阅：  [R1预览5](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md)
 
-![](assets/mceclip3-350x122.png)
+![里程碑视图](assets/mceclip3-350x122.png)
 
 **Workfront回收站**
 新的Workfront回收站可帮助您在删除后的30天内恢复项目、任务、问题以及所有相关文档、表单和更新。
@@ -60,13 +60,13 @@ Workfront每年向所有产品线发布三次新产品功能（版本1、版本2
 
 ### PROOFHQ增强功能 {#proofhq-enhancements}
 
-![](assets/mceclip4-350x201.png)\
+![ProofHQ增强功能](assets/mceclip4-350x201.png)\
 **校对搜索和查找**
 ProofHQ中的新搜索功能允许您快速、轻松地直接在查看的验证中搜索和查找单词或短语的所有实例。 这适用于所有基于文本的文档，包括PDF和Microsoft Word文件。
 
 有关更多信息，请参阅：  [R1最终](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md)
 
-![](assets/mceclip5-350x226.png)\
+![校对搜索和查找](assets/mceclip5-350x226.png)\
 **可视化报表和增强自定义视图**
 ProofHQ中的新报告量度允许您跟踪周转时间、延迟百分比、评论数量和首次活动的时间。 新的自定义视图可创建高级过滤器逻辑，以便您在需要时获取准确的数据。
 
@@ -77,7 +77,7 @@ ProofHQ现在允许您先在预览环境中测试新功能，然后再向所有�
 
 ## Workfront DAM增强功能 {#workfront-dam-enhancements}
 
-![](assets/mceclip6-350x195.png)\
+![Workfront DAM增强功能](assets/mceclip6-350x195.png)\
 **DAM嵌入链接**
 对于需要更好地管理、发布数字资产并跟踪其外部平台使用情况的营销团队，嵌入式链接功能可提供在正确时间管理共享正确内容过程所需的控制。
 

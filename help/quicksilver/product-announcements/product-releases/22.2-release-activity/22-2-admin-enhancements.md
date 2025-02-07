@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 55fb0b85-937d-4903-8a64-6f627dd4291f
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '934'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ in January 2022
 
 ## 新的默认访问级别配置
 
-为了更好地满足大多数创建新访问级别的管理员的需求，我们更改了下面列出的“微调您的设置”选项的默认配置。 当您单击“编辑”按钮上的齿轮图标![](assets/gear-icon-in-access-levels.png)时，这些组件会显示。
+为了更好地满足大多数创建新访问级别的管理员的需求，我们更改了下面列出的“微调您的设置”选项的默认配置。 当您单击“编辑”按钮上的齿轮图标![访问级别齿轮图标](assets/gear-icon-in-access-levels.png)时，将显示这些图标。
 
 所有这些更改都会禁用以前默认启用的选项。 如果这不符合贵组织的需求，则可以在设置新访问级别时或稍后随时启用它们。
 
@@ -100,7 +100,7 @@ in January 2022
 
 有关详细信息，请参阅[安装Blueprint](../../../administration-and-setup/blueprints/blueprints-install.md)。
 
-![](assets/blueprints-installation-history-350x95.png)
+![Blueprint安装历史记录](assets/blueprints-installation-history-350x95.png)
 
 ## 在生产环境中安装仅预览的Blueprint时，现在会显示警告
 

@@ -6,9 +6,9 @@ description: 您可以将艺术展示板作为验证直接上传到Adobe Workfro
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -64,10 +64,10 @@ ht-degree: 0%
 
 1. 单击右上角的&#x200B;**[!UICONTROL 菜单]**&#x200B;图标，然后选择&#x200B;**[!UICONTROL 工作列表]**。 您还可以使用菜单导航到父对象。
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![返回工作列表](assets/go-back-to-work-list-350x314.png)
 
 1. 转到要上载校样的工作项。
-1. 单击导航栏中的&#x200B;**[!UICONTROL 文档]**&#x200B;图标![](assets/documents.png)。
+1. 单击导航栏中的&#x200B;**[!UICONTROL 文档]**&#x200B;图标![文档图标](assets/documents.png)。
 1. 单击[!DNL Workfront]面板底部附近的&#x200B;**[!UICONTROL 新建文件]**。
 1. 启用&#x200B;**[!UICONTROL 创建验证]**&#x200B;切换开关。
 1. （可选）在&#x200B;**[!UICONTROL 校对名称]**&#x200B;文本框中键入校对的名称。
@@ -75,14 +75,14 @@ ht-degree: 0%
 1. （可选）添加批准者。
 1. （可选）在&#x200B;**[!UICONTROL 更新]**&#x200B;区域键入评论。
 
-   ![](assets/add-comment.png)
+   ![添加评论](assets/add-comment.png)
 
 1. 从下拉菜单中选择&#x200B;**[!UICONTROL 资源类型]**。
 
 1. （可选）选择&#x200B;**[!UICONTROL 添加外部文件]**&#x200B;以从您的计算机添加文件。
 1. 单击&#x200B;**[!UICONTROL 上传]**，然后根据以上选择的资源类型配置任何所需的导出选项。
 
-   ![](assets/plugin-files-350x307.png)\
+   插件中的![文件](assets/plugin-files-350x307.png)\
    文档出现在[!DNL Photoshop]的[!DNL Workfront]面板的[!UICONTROL 文档]区域和[!DNL Workfront]桌面应用程序中。
 
 
@@ -90,10 +90,10 @@ ht-degree: 0%
 
 1. 单击右上角的&#x200B;**[!UICONTROL 菜单]**&#x200B;图标，然后选择&#x200B;**[!UICONTROL 工作列表]**。 您还可以使用菜单导航到父对象。
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![返回工作列表](assets/go-back-to-work-list-350x314.png)
 
 1. 转到要上载校样的工作项。
-1. 单击导航栏中的&#x200B;**[!UICONTROL 文档]**&#x200B;图标![](assets/documents.png)。
+1. 单击导航栏中的&#x200B;**[!UICONTROL 文档]**&#x200B;图标![文档图标](assets/documents.png)。
 
 1. 单击[!DNL Workfront]面板底部附近的&#x200B;**[!UICONTROL 新建文件]**。
 1. 启用&#x200B;**[!UICONTROL 创建验证]**&#x200B;切换开关。
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 1. （可选）在&#x200B;**[!UICONTROL 更新]**&#x200B;区域键入评论。
 
-   ![](assets/add-comment-automated-approval.png)
+   ![添加评论自动审批](assets/add-comment-automated-approval.png)
 
 1. 从下拉菜单中选择&#x200B;**[!UICONTROL 资源类型]**。
 1. （可选）选择&#x200B;**[!UICONTROL 添加外部文件]**&#x200B;以从您的计算机添加文件。
@@ -123,10 +123,10 @@ ht-degree: 0%
 
 1. 单击右上角的&#x200B;**[!UICONTROL 菜单]**&#x200B;图标，然后选择&#x200B;**[!UICONTROL 工作列表]**。 您还可以使用菜单导航到父对象。
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![返回工作列表](assets/go-back-to-work-list-350x314.png)
 
 1. 转到需要上载文档的工作项。
-1. 单击导航栏中的&#x200B;**[!UICONTROL 文档]**&#x200B;图标![](assets/documents.png)。
+1. 单击导航栏中的&#x200B;**[!UICONTROL 文档]**&#x200B;图标![文档图标](assets/documents.png)。
 
 1. 单击[!DNL Workfront]面板底部附近的&#x200B;**[!UICONTROL 新版本]**。
 1. 启用&#x200B;**[!UICONTROL 创建验证]**&#x200B;切换开关。

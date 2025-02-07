@@ -6,7 +6,7 @@ description: 我们对Adobe Workfront 20.3版（计划于2020年8月发布）中
 author: Luke
 feature: Product Announcements
 exl-id: 9110f04d-b7a9-428b-928c-c4eb746fec3f
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 ## 来自Workfront的出站电子邮件
 
-为了提高电子邮件的成功投放，我们将消除通常标记为垃圾邮件的电子邮件欺骗（请参阅电子邮件欺骗）。 来自Workfront的所有电子邮件都将从notifications@my.workfront.com发送，包括自动警报和用户到用户的通信。 Joan Harris的示例电子邮件在电子邮件的“发件人”区域中如下所示：
+为了提高电子邮件的成功投放，我们将消除通常标记为垃圾邮件的电子邮件欺骗（请参阅电子邮件欺骗）。 来自Workfront的所有电子邮件都将从`notifications@my.workfront.com`发送，包括自动警报和用户到用户的通信。 Joan Harris的示例电子邮件在电子邮件的“发件人”区域中如下所示：
 
-![](assets/noreply.png)
+![示例电子邮件](assets/noreply.png)
 
-*我们强烈建议您联系您的IT团队*，以确保不会阻止来自notifications@my.workfront.com的电子邮件，从而向您的系统发送传入电子邮件。 您还可以参考[配置防火墙的允许列表](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)，了解有关流量和电子邮件来自哪些IP地址的详细信息。
+*我们强烈建议您联系您的IT团队*，以确保不会阻止来自`notifications@my.workfront.com`的电子邮件，从而接收系统发送的电子邮件。 您还可以参考[配置防火墙的允许列表](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)，了解有关流量和电子邮件来自哪些IP地址的详细信息。
 
 ## 通知的入站电子邮件回复（POP回复）
 

@@ -7,9 +7,9 @@ description: 无需离开Google Workspace，即可访问您的 [!DNL Adobe Workf
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -53,26 +53,26 @@ ht-degree: 0%
 ## 从[!DNL Google Workspace]访问[!DNL Workfront] [!UICONTROL 主页]
 
 1. 确保您已登录到[!DNL Workfront]。
-1. 如果未显示[!UICONTROL Workfront for Google Workspace]面板，请单击页面最右侧[!DNL Google Workspace]加载项侧边栏中的[!DNL Workfront]图标![](assets/wf-lion-icon.png)。
+1. 如果未显示[!UICONTROL Workfront for Google Workspace]面板，请单击页面最右侧[!DNL Google Workspace]加载项侧边栏中的[!DNL Workfront]图标![Workfront图标](assets/wf-lion-icon.png)。
 1. 如果您在[!DNL Google Workspace]的[!DNL Workfront]顶部看到向左箭头，请单击该箭头以转到[!UICONTROL 主页]区域。
 
-1. 在&#x200B;**[!UICONTROL 排序依据]**&#x200B;区域中，单击展开箭头![](assets/dropdown-arrow.png)，然后单击选项以指定您希望如何对工作项进行分组，以便找到所需的工作项。
+1. 在&#x200B;**[!UICONTROL 排序依据]**&#x200B;区域中，单击展开箭头![展开箭头](assets/dropdown-arrow.png)，然后单击选项以指定工作项的分组方式，以便找到所需工作项。
 
    当您按&#x200B;**[!UICONTROL 提交日期]**&#x200B;或&#x200B;**[!UICONTROL 计划完成日期]**&#x200B;排序时，最早的工作项位于顶部。
 
    按&#x200B;**[!UICONTROL 项目]**&#x200B;排序时，工作项按其父项目的顺序显示，按字母顺序从A到Z列出。无父项目的工作项显示在&#x200B;**[!UICONTROL 无项目]**&#x200B;下。
 
-1. 单击要查看的分组的展开箭头![](assets/dropdown-arrow.png)。
+1. 单击要查看的分组的展开箭头![展开箭头](assets/dropdown-arrow.png)。
 
    每个组中包含的项目数显示在括号中。 单击[!UICONTROL 展开]箭头时，将显示组中的所有工作项。
 
    工作项如下所示：
 
-   * ![](assets/task-icon.png) **任务**&#x200B;显示父项目名称、任务名称和计划完成日期。
+   * ![任务图标](assets/task-icon.png) **任务**&#x200B;显示父项目名称、任务名称和计划完成日期。
 
-   * ![](assets/issue-icon.png) **问题**&#x200B;显示父项目名称、问题名称和计划完成日期。
+   * ![问题图标](assets/issue-icon.png) **问题**&#x200B;显示父项目名称、问题名称和计划完成日期。
 
-   * ![](assets/document-icon.png) **审批**&#x200B;显示请求者的姓名、文档名称和提交日期。
+   * ![文档图标](assets/document-icon.png) **审批**&#x200B;显示请求者的姓名、文档名称和提交日期。
    * **访问请求**&#x200B;显示请求者的姓名、对象名称和提交日期。 左侧将显示对象类型的图标。
 
 1. 单击工作项上的任意位置可查看其详细信息、更新和文档。

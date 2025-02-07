@@ -7,9 +7,9 @@ description: 您可以使用非Adobe Workfront电子邮件中的信息更新现�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -52,8 +52,8 @@ ht-degree: 0%
 
 ## 使用来自[!DNL Google Workspace]的电子邮件内容更新[!DNL Workfront]项
 
-1. 如果未显示[!UICONTROL Workfront for Google Workspace]面板，请单击页面最右侧的[!DNL Google Workspace]加载项侧边栏中的Workfront图标![](assets/wf-lion-icon.png)。
-1. 在[!DNL Google Workspace]中打开电子邮件后，在[!DNL Google Workspace]面板中单击&#x200B;**[!UICONTROL Post作为新更新]**。
+1. 如果未显示[!UICONTROL Workfront for Google Workspace]面板，请单击页面最右侧的[!DNL Google Workspace]加载项侧边栏中的Workfront图标![Workfront图标](assets/wf-lion-icon.png)。
+1. 在[!DNL Google Workspace]中打开电子邮件后，在[!DNL Google Workspace]面板中单击&#x200B;**[!UICONTROL 作为新更新发布]**。
 1. 在&#x200B;**[!UICONTROL 类型]**&#x200B;下，单击下拉箭头，然后单击要添加更新的对象类型。
 1. 单击“**[!UICONTROL 搜索]**”选项，开始键入要添加更新的对象的名称，然后在项目出现在下面的列表中时选择该项目。
 
@@ -99,6 +99,6 @@ ht-degree: 0%
 
    * 若要回复&#x200B;**[!UICONTROL 更新]**&#x200B;选项卡上的更新，请单击&#x200B;**[!UICONTROL 回复]**，然后键入您的回复。
 
-     对于上述两个选项，您可以单击&#x200B;**[!UICONTROL 通知]**&#x200B;以指定回复的收件人，如步骤5所示。 准备就绪后，单击&#x200B;**[!UICONTROL Post]**&#x200B;以添加更新或回复。
+     对于上述两个选项，您可以单击&#x200B;**[!UICONTROL 通知]**&#x200B;以指定回复的收件人，如步骤5所示。 准备就绪后，单击&#x200B;**[!UICONTROL 帖子]**&#x200B;以添加更新或回复。
 
    * 单击&#x200B;**[!UICONTROL 详细信息]**&#x200B;选项卡以查看新项目、任务或问题的详细信息。

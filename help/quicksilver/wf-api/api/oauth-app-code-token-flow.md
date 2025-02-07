@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
-source-git-commit: e41b0df5ee0ce092f0811b18c57f6865bbb3abee
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ https://<URL of your organization's domain>/integrations/oauth2/authorize?client
 
 ## 设置授权代码流
 
-![](assets/oauth-2-authorization-code-flow.png)
+![OAuth代码流](assets/oauth-2-authorization-code-flow.png)
 
 要使用OAuth2登录用户，请使用以下流程：
 
@@ -93,7 +93,7 @@ https://<URL of your organization's domain>/integrations/oauth2/authorize?client
 
    如果用户已在同一浏览器上登录到Workfront，或者用户已成功登录到Workfront，则用户将被重定向到同意屏幕：
 
-   ![](assets/consent-screen-350x227.png)
+   ![同意屏幕](assets/consent-screen-350x227.png)
 
 1. 如果用户允许访问，页面将被重定向到`redirect_url`。 重定向必须包含以下查询参数：
 
@@ -172,7 +172,7 @@ https://<URL of your organization's domain>/integrations/oauth2/authorize?client
 
 ## 设置刷新访问令牌
 
-![](assets/refresh-access-token-flow-350x142.png)
+![刷新访问令牌流](assets/refresh-access-token-flow-350x142.png)
 
 要刷新access_token，我们再次需要对令牌端点进行“POST”调用。 这次我们发送了不同的表单数据，如下所示：
 
