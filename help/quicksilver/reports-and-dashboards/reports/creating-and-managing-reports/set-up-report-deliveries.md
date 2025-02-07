@@ -6,7 +6,7 @@ description: 报表交付概述
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: a2cb33150ae50b00485f894dc81d7c719524a182
 workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 0%
@@ -43,11 +43,11 @@ ht-degree: 0%
 
 存在几种大小限制，它们会影响报表在Workfront中的显示方式以及它们通过手动导出、已交付报表或通过API导出的方式：
 
-* **5MB文件大小：**&#x200B;任何已计划传送的导出报告的文件大小限制。 如果附加到电子邮件的导出文件大于5MB，则会通过电子邮件发送可下载文件的链接，而不是附加的导出报告。
+* **10MB文件大小：**&#x200B;任何计划传送的导出报告的文件大小限制。 如果附加到电子邮件的导出文件大于5MB，则会通过电子邮件发送可下载文件的链接，而不是附加的导出报告。
 
   >[!NOTE]
   >
-  >大于5MB的Excel .xlsx文件不会生成电子邮件。 您可以手动将报告导出为此格式。 有关导出报告的信息，请参阅[导出数据](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md)。
+  >大于10MB的Excel .xlsx文件不会生成电子邮件。 您可以手动将报告导出为此格式。 有关导出报告的信息，请参阅[导出数据](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md)。
 
 * **50,000行：**&#x200B;报表导出中允许用于.pdf和Tab分隔文件的数据行数。
 
