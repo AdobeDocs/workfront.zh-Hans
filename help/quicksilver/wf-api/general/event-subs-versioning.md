@@ -6,21 +6,23 @@ description: 事件订阅API
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: e93634acdf2a97344f014c28ff9bbf43f1392e53
+exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
+source-git-commit: 0b8c327f5ab541358649474b405b881dac06c1aa
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
-
 
 # 事件订阅版本控制
 
 Workfront提供两个版本的活动订阅。 本文介绍了它们之间的区别。
 
-这并非对Workfront API进行了更改，而是对事件订阅功能进行了更改。
+新版本不是对Workfront API的更改，而是对事件订阅功能的更改。
 
 升级或降级事件订阅的功能确保在对事件结构做出更改时，现有订阅不会中断，从而允许您测试和升级到新版本，而不会在事件订阅中出现间隙。
+
+有关用于升级或降级事件订阅的端点的信息，请参阅事件订阅API一文中的[事件订阅版本控制](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning)。
 
 >[!IMPORTANT]
 >
@@ -35,7 +37,6 @@ Workfront提供两个版本的活动订阅。 本文介绍了它们之间的区�
 
 
 ### 一般更改
-
 
 
 <table style="table-layout:auto"> 
