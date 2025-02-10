@@ -7,14 +7,16 @@ description: 在分配访问级别时，Adobe Workfront管理员可以向您授�
 author: Alina
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: e608cf5bdb0227ea5b8d3109db411e98145aaa38
+source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
 
 # 共享项目
+
+{{highlighted-preview}}
 
 在分配访问级别时，Adobe Workfront管理员可以向您授予查看或编辑程序的权限。 您必须拥有计划许可证才能编辑项目。 有关详细信息，请参阅[授予程序访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md)。
 
@@ -39,6 +41,9 @@ ht-degree: 0%
 * 您只能授予程序的“查看”或“管理”权限。
 
   ![](assets/screen-shot-2014-01-23-at-12.45.15-pm.png)    ![](assets/screen-shot-2014-01-22-at-10.03.43-am-190x167.png)
+
+  在预览中<span class="preview">：
+  ![](assets/program-permissions.png)
 
 * 共享程序时，默认情况下，用户将继承与该程序关联的所有子对象的相同权限。
 

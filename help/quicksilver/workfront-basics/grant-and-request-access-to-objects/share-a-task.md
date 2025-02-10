@@ -6,14 +6,17 @@ description: 当您的Adobe Workfront管理员分配访问级别时，可以授�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '667'
 ht-degree: 2%
 
 ---
 
 # 共享任务
+
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
+
 
 当您的Adobe Workfront管理员分配访问级别时，可以授予您查看或编辑任务的权限。 有关授予任务访问权限的详细信息，请参阅[授予任务访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)。
 
@@ -35,6 +38,10 @@ ht-degree: 2%
    * 管理
    * 参与\
      ![](assets/screen-shot-2014-05-30-at-11.37.24-am-175x192.png) ![](assets/screen-shot-2014-01-23-at-1.12.40-pm-154x258.png) ![](assets/screen-shot-2014-01-22-at-10.53.00-am-182x252.png)
+
+     在预览中<span class="preview">：
+     ![](assets/task-permissons.png)
+  </span>
 
 * 共享任务时，默认情况下，用户将继承与该任务关联的所有子对象的相同权限。 例如，他们对附加到任务的子任务、问题和文档继承相同的权限。\
   有关Workfront中对象层次结构的详细信息，请参阅  [了解Adobe Workfront中的对象](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)。

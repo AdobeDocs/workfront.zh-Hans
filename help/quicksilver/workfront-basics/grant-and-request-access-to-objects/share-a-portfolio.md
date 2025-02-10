@@ -5,14 +5,16 @@ author: Alina
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
 
 # 共享项目组合
+
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 在分配访问级别时，您的Adobe Workfront管理员可以向您授予查看或编辑项目组合的权限。 您必须拥有计划许可证才能编辑项目组合。 有关详细信息，请参阅[授予项目组合](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md)的访问权限。
 
@@ -35,9 +37,12 @@ ht-degree: 0%
 
   ![](assets/screen-shot-2014-01-23-at-12.45.15-pm.png)    ![](assets/screen-shot-2014-01-22-at-10.03.43-am-190x167.png)
 
-* 共享项目组合时，默认情况下，用户将继承与项目组合关联的所有子对象的相同权限。
+  在预览中<span class="preview">：
+  ![](assets/share-portfolio.png)
+</span>
+*当您共享项目组合时，默认情况下，用户将继承与项目组合关联的所有子对象的相同权限。
 
-  有关Workfront中对象层次结构的详细信息，请参阅[了解Adobe Workfront中的对象](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)。
+有关Workfront中对象层次结构的详细信息，请参阅[了解Adobe Workfront中的对象](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)。
 
 * 您可以从Portfolio中删除继承的权限。 有关从对象中删除权限的详细信息，请参阅[从对象中删除权限](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)。
 

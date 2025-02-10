@@ -6,14 +6,16 @@ description: 作为Adobe Workfront管理员，您可以在分配其访问级别�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
+source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '608'
 ht-degree: 2%
 
 ---
 
 # 共享模板
+
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 作为Adobe Workfront管理员，您可以在分配其访问级别时授予用户查看或编辑模板的访问权限。 用户必须具有计划许可证才能访问编辑模板。
 
@@ -40,12 +42,13 @@ ht-degree: 2%
      您可以向模板授予以下权限：
 
       * 查看
-
-        ![](assets/view-on-template-262x221.png)
-
       * 管理
 
-        ![](assets/manage-on-template-225x280.png)
+        ![](assets/view-on-template-262x221.png) ![](assets/manage-on-template-225x280.png)
+
+     在预览中<span class="preview">：
+     ![](assets/template-permissions.png)
+  </span>
 
    * 使用该模板创建的未来项目。 您可以为从模板创建的项目授予与对单个项目相同的权限级别。 
 

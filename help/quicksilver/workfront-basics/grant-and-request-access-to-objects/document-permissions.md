@@ -7,14 +7,16 @@ description: 当分配访问级别时，您的Adobe Workfront管理员会授予�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '640'
 ht-degree: 1%
 
 ---
 
 # 共享文档
+
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 当分配访问级别时，您的Adobe Workfront管理员授予用户查看或编辑文档的访问权限，如[授予对文档的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)中所述。
 
@@ -39,6 +41,10 @@ Workfront管理员授予用户的访问级别允许用户查看或编辑文档�
 
    * 查看
    * 管理
+
+  在预览中<span class="preview">：
+  ![](assets/document-permissions.png)
+</span>
 
 * 您还可以公开或系统范围共享文档。
 
