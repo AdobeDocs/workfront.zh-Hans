@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: 0b8c327f5ab541358649474b405b881dac06c1aa
+source-git-commit: 3e082ddde7cb84fb8bf3b5a23c363fd3b4cfe3d2
 workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Workfront提供两个版本的活动订阅。 本文介绍了它们之间的区�
 
 ## 版本1与版本2之间的更改
 
-已对事件订阅版本2进行以下更改
+已对事件订阅版本2进行以下更改：
 
 
 ### 一般更改
