@@ -1,14 +1,14 @@
 ---
 product-area: workfront-navigation
 navigation-topic: workfront-navigation
-title: Adobe [!DNL Workfront]的统一体验
+title: 适用于 [!DNL Workfront]的Adobe Unified Experience
 description: 通过Adobe Experience Cloud访问 [!DNL Workfront] 可为您提供管理所有Adobe应用程序的无缝、统一的体验。
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -19,12 +19,12 @@ ht-degree: 0%
 
 通过[!DNL Adobe Experience Cloud]访问[!DNL Workfront]可为您提供管理所有[!DNL Adobe]应用程序的无缝、统一的体验。 单一身份管理为您提供了一个登录位置，无需使用多个URL或登录ID。
 
-如果您的组织位于Unified ExperienceAdobe上，则用于访问Workfront的URL将以`experience.adobe.com`开头。
+如果您的组织位于Adobe Unified Experience上，则用于访问Workfront的URL将以`experience.adobe.com`开头。
 
 | URL | Adobe体验 |
 |------------|------------|
 | （公司名称）.my.workfront.com | Workfront体验 |
-| experience.adobe.com | AdobeUnified Experience |
+| experience.adobe.com | Adobe Unified Experience |
 
 ## 访问要求
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 ## 导航[!DNL Workfront]
 
-使用[!DNL Workfront]导航栏左侧的[!UICONTROL 主菜单]图标![](assets/main-menu-icon-left-nav.png)导航到您有权访问的任何页面。 [!UICONTROL 主菜单]中可用的选项依赖于：
+使用[!DNL Workfront]导航栏左侧的[!UICONTROL 主菜单]图标![主菜单图标](assets/main-menu-icon-left-nav.png)导航到您有权访问的任何页面。 [!UICONTROL 主菜单]中可用的选项依赖于：
 
 * **布局模板配置**：要了解[!DNL Workfront]管理员如何从布局模板修改[!UICONTROL 主菜单]，请参阅[使用布局模板自定义[!UICONTROL 主菜单]](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)。
 * **许可证类型**：要了解不同许可证类型的默认配置，请参阅[了解[!UICONTROL 审阅]许可证用户的导航](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)或[了解[!UICONTROL 工作]许可证用户的导航](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)。
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 * 为[!DNL Adobe Experience Cloud]选择&#x200B;**[!UICONTROL 深色主题]**&#x200B;格式。
 * 为[!DNL Adobe Experience Cloud]设置&#x200B;**[!UICONTROL 首选项]**，包括主要语言首选项和次要语言首选项。
-* 访问您的&#x200B;**[!UICONTROL [!DNL Workfront]配置文件]**。 进入配置文件后，单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单![](assets/more-icon.png)并选择&#x200B;**[!UICONTROL 编辑]**。 有关配置文件的详细信息，请参阅[配置我的设置](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)。
+* 访问您的&#x200B;**[!UICONTROL [!DNL Workfront]配置文件]**。 进入配置文件后，单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单![更多](assets/more-icon.png)，然后选择&#x200B;**[!UICONTROL 编辑]**。 有关配置文件的详细信息，请参阅[配置我的设置](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)。
 * **[!UICONTROL 注销]** Adobe Experience Cloud。
 
 ## 管理您的密码
@@ -115,7 +115,7 @@ ht-degree: 0%
 
 如果您的组织使用单独的应用程序管理密码，您将通过该提供商更改您的密码。
 
-如果您的密码由[!DNL Adobe]管理，则可以更改Adobe帐户中的密码。
+如果您的密码由[!DNL Adobe]管理，则可以在Adobe帐户中更改密码。
 
 [请参阅这篇文章以更改您的Adobe密码。](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
 

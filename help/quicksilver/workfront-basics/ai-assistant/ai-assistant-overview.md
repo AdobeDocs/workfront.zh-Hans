@@ -5,9 +5,9 @@ description: AI Assistant概述
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: b00032517f2bf048c50fbaf22b79c011017980ea
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '707'
 ht-degree: 1%
 
 ---
@@ -50,11 +50,11 @@ Workfront的AI助手通过提供应用程序内信息和自然语言对话建议
 要为您的组织启用AI助手，必须应用以下所有的&#x200B;**所有**：
 
 * 您的组织必须已迁移到Adobe IMS (Identity Management System)
-* 必须启用Adobe统一体验
+* 必须启用Adobe Unified Experience
 * 您的组织必须具有Select、Prime或Ultimate Workfront计划
-* Adobe必须具有已签署的AdobeGen AI协议
+* Adobe必须具有已签署的Adobe Gen AI协议
 
-  有关签署协议的更多信息，请参阅本文中的[签署AdobeGen AI协议](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)。
+  有关签署协议的更多信息，请参阅本文中的[签署Adobe Gen AI协议](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)。
 
 ## 关于AI Assistant的注意事项
 
@@ -78,7 +78,7 @@ AI助手当前提供以下功能：
 
   有关详细信息，请参阅[使用AI助手汇总](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)。
 
-* 提供从Adobe Experience League上的Workfront文档中提取的说明或参考信息。
+* 在Adobe Experience League上提供从Workfront文档提取的说明或参考信息。
 
   有关详细信息，请参阅[从AI助手获取帮助](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)。
 
@@ -115,27 +115,27 @@ AI助手当前提供以下功能：
 
 ## 访问AI助手
 
-1. 在任何Workfront页面顶部，单击AI助手图标![](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png)。
+1. 在任何Workfront页面顶部，单击AI助手图标![AI助手图标](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png)。
 1. 在屏幕右侧的面板中键入您的问题或提示。
 
-   如果您无法在此面板中键入，则贵组织没有已签署的AdobeGen AI文件协议。
+   如果您无法在此面板中键入，则表明贵组织没有已签署的Adobe Gen AI文件协议。
 
 1. 如果AI助手未提供您所需的答案，请优化您的提示并重试。
 
-## 签署AdobeGen AI协议
+## 签署Adobe Gen AI协议
 
-如果贵组织在文件中没有已签署的AdobeGen AI协议，则无法为贵组织启用AI助手。
+如果贵组织在文件中没有已签署的Adobe Gen AI协议，则无法为贵组织启用AI助手。
 
-如果用户在AdobeGen AI协议尚未签署时尝试使用AI助手，他们会看到一条消息：
+如果用户在Adobe Gen AI协议未签署时尝试使用AI助手，他们会看到一条消息：
 
 * 用户：将通知用户尚未为其组织启用AI助手，用户可以联系Workfront管理员为其组织请求启用。
-* 管理员：通知管理员没有已签署的AdobeGen AI协议，可以请求发送协议副本以供签署。
+* 管理员：管理员将收到通知，告知他们没有已签署的Adobe Gen AI协议，可以请求发送协议副本以供签署。
 
-要请求AdobeGen AI协议，请执行以下操作：
+要请求Adobe Gen AI协议，请执行以下操作：
 
-1. 作为Workfront管理员，单击AI助手图标![](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png)。
+1. 作为Workfront管理员，单击AI助手图标![AI助手图标](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png)。
 1. 开始在AI助手面板中键入。
-1. 出现AdobeGen AI协议消息时，单击&#x200B;**审阅协议**。
-1. 输入贵公司中将签署AdobeGen AI协议的人员的姓名和电子邮件地址。
+1. 出现Adobe Gen AI协议消息时，单击&#x200B;**审阅协议**。
+1. 输入贵组织内将签署Adobe Gen AI协议的人员的姓名和电子邮件地址。
 
    协议将发送给此人签署。 签名并返回后，将为您的组织启用AI助手。

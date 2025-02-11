@@ -6,9 +6,9 @@ description: 主菜单会随着 [!DNL Adobe Workfront] 管理员分配的访问�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c646b3d2-2eca-47ef-b181-9358cef03ed7
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 * **[!UICONTROL Blueprint]**：检查系统中的现有Blueprint，并请求安装一个（如果[!DNL Workfront]管理员为Blueprint配置了请求队列）。 有关详细信息，请参阅[Blueprint概述](../../../administration-and-setup/blueprints/blueprints-overview.md)。
 
 
-![](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
+![从主菜单访问我的更新](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
 
 ## 自定义您的默认[!UICONTROL 主菜单]
 

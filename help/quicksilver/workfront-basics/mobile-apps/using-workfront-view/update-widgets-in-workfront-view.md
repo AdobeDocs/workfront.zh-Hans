@@ -6,9 +6,9 @@ description: 通过向[!UICONTROL 项目详细信息]屏幕添加小组件，在
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 593dc4a2-20aa-44d3-b819-1d4b160095ed
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '520'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 1%
 1. 点按屏幕中间底部的选项卡。\
    显示[!UICONTROL 小组件]区域。\
    通过从左到右滑动来滚动小组件。\
-   ![](assets/screen-shot-2013-009-11-at-8.25.01-am-350x262.png)
+   ![小组件](assets/screen-shot-2013-009-11-at-8.25.01-am-350x262.png)
 
 1. 拖放构件以自定义项目页面的布局。\
    一次最多可以显示4个小组件。\

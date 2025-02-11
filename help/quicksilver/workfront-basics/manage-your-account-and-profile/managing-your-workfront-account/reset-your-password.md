@@ -6,9 +6,9 @@ description: 您可以重置 [!DNL Adobe Workfront] 密码。 作为一项重要
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
@@ -50,15 +50,15 @@ ht-degree: 0%
 
 ## 在[!DNL Adobe Workfront]中重置密码
 
-1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击配置文件图片旁边的用户名。
+1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击个人资料图片旁边的用户名。
 
    ![打开主菜单并选择您的用户名。](assets/main-menu-options-350x481.png)
 
-1. 单击&#x200B;**[!UICONTROL 更多菜单]** ![](assets/more-icon.png)，然后单击&#x200B;**[!UICONTROL 编辑]**。
+1. 单击&#x200B;**[!UICONTROL 更多菜单]** ![更多图标](assets/more-icon.png)，然后单击&#x200B;**[!UICONTROL 编辑]**。
 
 1. 在显示的&#x200B;**[!UICONTROL 编辑人员]**&#x200B;框中，在&#x200B;**[!UICONTROL 个人信息]**&#x200B;下，单击&#x200B;**[!UICONTROL 重置密码]**。
 
-   ![](assets/edit-person-box-350x196.jpg)
+   ![编辑人员](assets/edit-person-box-350x196.jpg)
 
    如果贵组织已将[!DNL Workfront]与SSO解决方案集成，则当您单击&#x200B;**[!UICONTROL 重置密码]**&#x200B;时，可能会引导您通过SSO系统重置密码。 这会重置您的SSO密码，该密码会影响您登录到组织内的所有其他应用程序。
 

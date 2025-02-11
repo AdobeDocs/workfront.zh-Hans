@@ -6,9 +6,9 @@ description: 您可以通过调整浏览器上的语言首选项以及Adobe Work
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1075'
 ht-degree: 0%
 
 ---
@@ -138,7 +138,7 @@ Workfront中的Web验证查看器支持Workfront支持的大多数语言。
 要更改默认的Workfront电子邮件区域设置，请执行以下操作：
 
 1. 以Workfront管理员身份登录到Workfront。
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
 
 1. 单击&#x200B;**系统** > **客户信息。**
 
@@ -152,7 +152,7 @@ Workfront中的Web验证查看器支持Workfront支持的大多数语言。
 
 >[!NOTE]
 >
->当您的组织使用Unified ExperienceAdobe时，语言首选项存储在您的Adobe配置文件中，并且不使用电子邮件区域设置。 请参阅本文中的[更改Adobe Experience Cloud语言](#change-the-adobe-experience-cloud-language)。
+>当您的组织使用Adobe Unified Experience时，语言首选项存储在您的Adobe配置文件中，并且不使用电子邮件区域设置。 请参阅本文中的[更改Adobe Experience Cloud语言](#change-the-adobe-experience-cloud-language)。
 
 要更改用户电子邮件区域设置，请执行以下操作：
 

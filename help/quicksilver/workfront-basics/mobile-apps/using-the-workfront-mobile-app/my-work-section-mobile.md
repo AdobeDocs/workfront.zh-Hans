@@ -6,10 +6,10 @@ description: '[!UICONTROL 主页]区域的[!UICONTROL 我的工作]部分显示�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 006f6f5e-fe10-4530-a22a-4ab33a4e0da5
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 0%
+source-wordcount: '172'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >移动设备应用程序中的[!UICONTROL 我的工作]与桌面版[!UICONTROL Adobe Workfront]中的[!UICONTROL 我的工作]不同。
 
-![](assets/home-myworksection-338x379.png)
+![我的工作](assets/home-myworksection-338x379.png)
 
 ## 自定义[!UICONTROL 我的工作]部分
 
@@ -36,4 +36,4 @@ ht-degree: 0%
    >
    >[!UICONTROL 任务和问题]菜单项始终显示，您无法隐藏它。
 
-   ![](assets/mobile-settings-338x366.png)
+   ![移动设备设置](assets/mobile-settings-338x366.png)

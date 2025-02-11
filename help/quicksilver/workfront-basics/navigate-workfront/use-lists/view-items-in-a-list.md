@@ -5,9 +5,9 @@ description: 您可以查看 [!DNL Adobe Workfront] 中的对象列表以获取�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '2284'
+source-wordcount: '2290'
 ht-degree: 0%
 
 ---
@@ -123,14 +123,14 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    <td>项目组合列表</td> 
    <td> 
     <ul> 
-     <li> <p>[！UICONTROLPortfolio]</p> </li> 
+     <li> <p>[！UICONTROL项目组合]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>项目列表</td> 
    <td> 
     <ul> 
-     <li> <p>[！UICONTROLPortfolio] &gt;[！UICONTROL选择项目组合] &gt;[！UICONTROL项目]</p> </li> 
+     <li> <p>[！UICONTROL项目组合] &gt;[！UICONTROL选择一个项目组合] &gt;[！UICONTROL项目]</p> </li> 
      <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>[！UICONTROL程序]</p> </li> 
     </ul> </td> 
   </tr> 
@@ -139,8 +139,8 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    <td> 
     <ul> 
      <li> <p>[！UICONTROL项目]</p> </li> 
-     <li> <p>[！UICONTROLPortfolio] &gt;[！UICONTROL选择一个项目组合] &gt;[！UICONTROL项目]</p> </li> 
-     <li> <p>[！UICONTROLPortfolio] &gt;[！UICONTROL选择项目组合] &gt;[！UICONTROL项目] &gt;[！UICONTROL选择项目] &gt;[！UICONTROL项目]</p> </li> 
+     <li> <p>[！UICONTROL项目组合] &gt;[！UICONTROL选择一个项目组合] &gt;[！UICONTROL项目]</p> </li> 
+     <li> <p>[！UICONTROL项目组合] &gt;[！UICONTROL选择项目组合] &gt;[！UICONTROL项目] &gt;[！UICONTROL选择项目] &gt;[！UICONTROL项目]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -194,8 +194,8 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    <td> 
     <ul> 
      <li> <p>[！UICONTROL文档]</p> </li> 
-     <li> <p>[！UICONTROLPortfolio] &gt;[！UICONTROL选择作品集] &gt; [！UICONTROL文档]</p> </li> 
-     <li> <p>[！UICONTROLPortfolio] &gt; [！UICONTROL选择项目组合] &gt;[！UICONTROL项目] &gt;[！UICONTROL选择项目] &gt;[！UICONTROL文档]</p> </li> 
+     <li> <p>[！UICONTROL项目组合] &gt;[！UICONTROL选择一个项目组合] &gt; [！UICONTROL文档]</p> </li> 
+     <li> <p>[！UICONTROL项目组合] &gt; [！UICONTROL选择项目组合] &gt;[！UICONTROL项目] &gt;[！UICONTROL选择项目] &gt;[！UICONTROL文档]</p> </li> 
      <li> <p>[！UICONTROL项目] &gt;[！UICONTROL选择一个项目] &gt;[！UICONTROL文档]</p> </li> 
      <li> <p>[！UICONTROL项目] &gt;[！UICONTROL选择项目] &gt;[！UICONTROL任务] &gt;[！UICONTROL选择任务] &gt; [！UICONTROL文档]</p> </li> 
      <li> <p>[！UICONTROL项目] &gt; [！UICONTROL选择项目&gt; [！UICONTROL问题] &gt;[！UICONTROL选择问题] &gt; [！UICONTROL文档]</p> </li> 
@@ -310,7 +310,7 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
  <thead> 
   <tr> 
    <th><strong>元素</strong></th> 
-   <th><strong>说明</strong></th> 
+   <th><strong>解释</strong></th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -331,7 +331,7 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 默认情况下，这些元素显示在每个列表的顶部。 它们是粘性的，滚动列表时不会移动。 将鼠标悬停在每个元素的图标上以标识它们。
 
-![](assets/nwe-list-elements.png)
+![列出元素](assets/nwe-list-elements.png)
 
 您可以自定义以下区域中的列表元素并将其与其他用户共享：
 
@@ -525,83 +525,83 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
  <tbody> 
   <tr> 
    <td> <p>任何人都可以创建它们</p> </td> 
-   <td>✓ <span>*</span> </td> 
+   <td><span>✓*</span> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>只有[!DNL Workfront]管理员和具有[！UICONTROL计划]许可证的用户才能创建它们</p> </td> 
    <td> </td> 
-   <td>✓ **</td> 
+   <td>✓**</td> 
   </tr> 
   <tr> 
    <td> <p>默认设置可从以下位置获得： [!DNL Workfront]</p> </td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>可在标准模式下自定义</p> </td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>可在文本模式下自定义</p> </td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>您可以与其他用户共享它们</p> </td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>您可以在系统范围内共享它们</p> </td> 
-   <td>✓ {\f13 }</td> 
-   <td> ✓ {\f13 } </td> 
+   <td>✓</td> 
+   <td> ✓ </td> 
   </tr> 
   <tr> 
    <td> <p>您可以在系统外部共享它们</p> </td> 
    <td> </td> 
-   <td>✓ {\f13 } </td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td> <p>您可以导出为.pdf、[!DNL Excel]和Tab分隔格式</p> </td> 
-   <td>✓ {\f13 }</td> 
-   <td> ✓ {\f13 } </td> 
+   <td>✓</td> 
+   <td> ✓ </td> 
   </tr> 
   <tr> 
    <td> <p>您可以计划通过电子邮件发送这些电子邮件</p> </td> 
    <td> </td> 
-   <td>✓ {\f13 } </td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td> <p>您可以添加到布局模板</p> </td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>您可以将其添加到自定义分区 </p> </td> 
    <td> </td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>您可以将它们添加到功能板</p> </td> 
-   <td> ✓ *** </td> 
-   <td>✓ {\f13 }</td> 
+   <td> ✓*** </td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>您可以使用提示来自定义它们显示的内容</p> </td> 
    <td> </td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>您可以在图表中显示它们</p> </td> 
    <td> </td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>您可以内联编辑其中的对象</p> </td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
  </tbody> 
 </table>
@@ -624,11 +624,11 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 * 旧版列表
 
-  ![](assets/legacy-list-screen-shot-blue-groupings-350x101.png)
+  ![蓝色分组](assets/legacy-list-screen-shot-blue-groupings-350x101.png)
 
 * 更新的列表
 
-  ![](assets/updated-list-screen-shot-gray-groupings-350x71.png)
+  ![灰色分组](assets/updated-list-screen-shot-gray-groupings-350x71.png)
 
 下表显示了[!DNL Workfront]中旧版列表与更新列表之间的一些差异：
 

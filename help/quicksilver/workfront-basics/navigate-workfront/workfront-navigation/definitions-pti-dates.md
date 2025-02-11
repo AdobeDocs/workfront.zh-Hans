@@ -6,9 +6,9 @@ description: 本文提供了与 [!DNL Adobe Workfront]中的项目、任务和�
 feature: Get Started with Workfront
 author: Alina
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '2301'
+source-wordcount: '2357'
 ht-degree: 3%
 
 ---
@@ -47,9 +47,9 @@ ht-degree: 3%
 >
 >[!UICONTROL 必须在]任务开始，或者固定日期约束会影响任务的[!UICONTROL 计划开始日期]，而不是[!UICONTROL 实际开始日期]。 这会将[!UICONTROL 计划开始日期]更新为您指定的日期。 [!UICONTROL 实际开始日期]的更新与[!UICONTROL 计划开始日期]无关，如上所述。
 
-![](assets/actual-start-date-on-edit-task-highlighted-nwe-350x251.png)
+![编辑任务的实际开始日期](assets/actual-start-date-on-edit-task-highlighted-nwe-350x251.png)
 
-![](assets/actual-start-date-on-task-details-highlighted-nwe-350x191.png)
+![任务的实际开始日期](assets/actual-start-date-on-task-details-highlighted-nwe-350x191.png)
 
 ## [!UICONTROL 实际完成日期]
 
@@ -68,7 +68,7 @@ ht-degree: 3%
 
 有关详细信息，请参阅项目[!UICONTROL 实际完成日期]](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md)的[概述。
 
-![](assets/actual-completion-date-task-details-highlighted-nwe-350x189.png)
+![实际完成日期详细信息](assets/actual-completion-date-task-details-highlighted-nwe-350x189.png)
 
 ## 审批路径完成日期
 
@@ -152,7 +152,7 @@ ht-degree: 3%
 
 [!UICONTROL 进入日期]不会影响项目、任务或问题的时间线，但它对于跟踪和报告很重要。 创建对象时，[!DNL Workfront]会自动生成[!UICONTROL 输入日期]，您无法手动编辑它。
 
-![](assets/entry-date-in-task-details-highlighted-nwe.png)
+![任务详细信息中的输入日期](assets/entry-date-in-task-details-highlighted-nwe.png)
 
 ## 估计到期日期
 
@@ -184,7 +184,7 @@ ht-degree: 3%
 
 项目的固定结束日期显示在项目的业务案例部分，以及项目列表和报告中。
 
-![](assets/fixed-end-date-business-case-highlight.png)
+![固定结束日期](assets/fixed-end-date-business-case-highlight.png)
 
 ## 固定开始日期
 
@@ -194,7 +194,7 @@ ht-degree: 3%
 
 项目的固定开始日期显示在项目的业务案例部分，以及项目列表和报表中。
 
-![](assets/fixed-start-date-business-case-highlight.png)
+![固定开始日期](assets/fixed-start-date-business-case-highlight.png)
 
 ## 工作交接日期
 
@@ -252,9 +252,9 @@ ht-degree: 3%
 * [设置项目[!UICONTROL 计划完成日期]](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
 * [问题[!UICONTROL 计划完成日期]的概述](../../../manage-work/issues/issue-information/issue-planned-completion-date.md)
 
-![](assets/project-header-planned-completion-date-highlighted-nwe-350x34.png)
+标头](assets/project-header-planned-completion-date-highlighted-nwe-350x34.png)中的![计划竞争日期
 
-![](assets/planned-completion-date-in-task-list-highlighted-nwe-350x183.png)
+![任务列表中的计划完成日期](assets/planned-completion-date-in-task-list-highlighted-nwe-350x183.png)
 
 
 ## 计划的日期对齐
@@ -277,9 +277,9 @@ ht-degree: 3%
 
 有关详细信息，请参阅项目[!UICONTROL 计划开始日期]](../../../manage-work/projects/planning-a-project/project-planned-start-date.md)的[概述。
 
-![](assets/planned-start-date-on-edit-task-highlighted-nwe.png)
+编辑任务的![计划开始日期](assets/planned-start-date-on-edit-task-highlighted-nwe.png)
 
-![](assets/planned-start-date-in-task-list-highlighted-nwe-350x167.png)
+任务列表中的![计划开始日期](assets/planned-start-date-in-task-list-highlighted-nwe-350x167.png)
 
 ## [!UICONTROL 预计完成日期]
 
@@ -289,7 +289,7 @@ ht-degree: 3%
 
 有关详细信息，请参阅项目、任务和问题的[预计完成日期[!UICONTROL 的概述]](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)。
 
-![](assets/projected-completion-date-in-task-details-highlighted-nwe-350x187.png)
+![预计完成日期](assets/projected-completion-date-in-task-details-highlighted-nwe-350x187.png)
 
 ## [!UICONTROL 预计开始日期]
 
@@ -305,7 +305,7 @@ ht-degree: 3%
 
 有关详细信息，请参阅[项目概述[!UICONTROL 预计开始日期]](../../../manage-work/projects/planning-a-project/project-projected-start-date.md)。
 
-![](assets/projected-start-date-in-task-details-highlighted-nwe-350x188.png)
+![预计开始日期](assets/projected-start-date-in-task-details-highlighted-nwe-350x188.png)
 
 <!--## Rejection Date-->
 
@@ -313,11 +313,11 @@ ht-degree: 3%
 
 任务有时可以延迟开始和完成，而不会影响项目的完成日期。
 
-Slack日期显示任务明确影响项目完成日期的确切日期。
+Slack日期显示任务肯定会影响项目完成日期的确切日期。
 
 有关任务的Slack日期的信息，请参阅[任务Slack日期概述](/help/quicksilver/manage-work/tasks/task-information/task-slack-date.md)。
 
-任务Slack日期显示在任务列表和报告中。
+任务Slack日期在任务列表和报告中可见。
 
 ## 开始于
 

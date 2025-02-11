@@ -5,9 +5,9 @@ description: 您可以在对象列表中使用快速过滤器，以帮助您仅�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 363f7ad1-f4f8-4cb1-a631-ee4e5ea28e5a
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 ## 将快速过滤器应用于列表
 
-1. 转到支持快速过滤器的列表或报告，然后单击工具栏中的&#x200B;**[!UICONTROL 快速过滤器]图标** ![](assets/qs-quick-filter-icon.png)。
+1. 转到支持快速筛选的列表或报表，然后单击工具栏中的&#x200B;**[!UICONTROL 快速筛选]图标**![快速筛选图标](assets/qs-quick-filter-icon.png)。
 
    或
 
@@ -120,7 +120,7 @@ ht-degree: 0%
    1. 选择列表中的所有项或多项项，然后单击&#x200B;**[!UICONTROL 编辑]**&#x200B;以批量编辑这些项。
    1. 完成编辑后，单击&#x200B;**[!UICONTROL 保存更改]**。
 
-1. （可选）要导出快速筛选器找到的项，请选择列表中的所有项或其中的若干项，然后单击&#x200B;**[!UICONTROL 导出]**&#x200B;图标![](assets/export.png)。
+1. （可选）要导出快速筛选器找到的项，请选择列表中的所有项或其中的若干项，然后单击&#x200B;**[!UICONTROL 导出]**&#x200B;图标![导出图标](assets/export.png)。
 
    ![select_all_projects_with_highlight__1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
 

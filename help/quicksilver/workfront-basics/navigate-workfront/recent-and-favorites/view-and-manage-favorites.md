@@ -6,9 +6,9 @@ description: 收藏夹菜单允许您快速访问项目。 项目会保留在“
 feature: Get Started with Workfront
 author: Lisa
 exl-id: bf9dc447-751c-4802-9e6a-ecd31538dba4
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 要查看您之前添加为收藏的项目：
 
-1. 单击任何[!DNL Adobe Workfront]页面右上角的&#x200B;**[!UICONTROL 收藏夹]**&#x200B;图标![](assets/favorites-icon.png)。
+1. 单击任何[!DNL Adobe Workfront]页面右上角的&#x200B;**[!UICONTROL 收藏夹]**&#x200B;图标![收藏夹](assets/favorites-icon.png)。
 
 1. 在[!UICONTROL 收藏夹]列表中，单击要查看的项目。
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 ### 将当前项目添加为收藏
 
 1. 转到要添加为收藏的页面。
-1. 单击任何[!DNL Workfront]页面右上角的&#x200B;**[!DNL Favorites]**&#x200B;图标![](assets/favorites-icon.png)，然后单击&#x200B;**[!UICONTROL 添加当前页面]**。
+1. 单击任何[!DNL Workfront]页面右上角的&#x200B;**[!DNL Favorites]**&#x200B;图标![收藏夹](assets/favorites-icon.png)，然后单击&#x200B;**[!UICONTROL 添加当前页面]**。
 
    ![将当前页面添加到收藏夹](assets/add-current-page-favorite-2022-350x147.png)
 
@@ -77,19 +77,19 @@ ht-degree: 0%
 
    或
 
-   单击对象名称右侧的&#x200B;**[!UICONTROL 收藏夹]**&#x200B;图标![](assets/favorites-icon.png)。
+   单击对象名称右侧的&#x200B;**[!UICONTROL 收藏夹]**&#x200B;图标![收藏夹](assets/favorites-icon.png)。
 
    >[!NOTE]
    >
    >如果单击已添加为收藏夹的对象上的&#x200B;**[!UICONTROL 收藏夹]**&#x200B;图标，该对象将从[!UICONTROL 收藏夹]菜单中移除。\
-   >![](assets/nwe-remove-from-favorites-350x52.png)
+   >![从收藏夹中删除](assets/nwe-remove-from-favorites-350x52.png)
 
 ## 从[!UICONTROL 收藏夹]菜单删除项目
 
-1. 单击任何[!DNL Workfront]页面右上角的&#x200B;**[!UICONTROL 收藏夹]**&#x200B;图标![](assets/favorites-icon.png)。
+1. 单击任何[!DNL Workfront]页面右上角的&#x200B;**[!UICONTROL 收藏夹]**&#x200B;图标![收藏夹](assets/favorites-icon.png)。
 
 1. 将鼠标悬停在要删除作为收藏项的项上，然后单击其旁边的&#x200B;**X**。
 
    或
 
-   如果您位于要作为收藏夹移除的页面，请单击对象名称旁边的&#x200B;**[!UICONTROL 收藏夹]**&#x200B;图标![](assets/favorites-icon.png)以将其从“收藏夹”菜单中移除。
+   如果您位于要作为收藏夹移除的页面，请单击对象名称旁边的&#x200B;**[!UICONTROL 收藏夹]**&#x200B;图标![收藏夹](assets/favorites-icon.png)以将其从“收藏夹”菜单中移除。

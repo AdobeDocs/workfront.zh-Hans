@@ -5,9 +5,9 @@ description: 在 [!DNL Adobe Workfront]中，您可以自定义列表的显示�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 1. （可选且有条件）如果要在屏幕上显示特定数量的项，请单击屏幕右下角的&#x200B;**[!UICONTROL Showing]**&#x200B;下拉菜单，然后选择以显示&#x200B;**100**、**250**、**500**、**[!UICONTROL All]**&#x200B;或&#x200B;**2000**&#x200B;项。
 
-   ![](assets/list-number-page-350x119.png)
+   ![列出页面](assets/list-number-page-350x119.png)上的编号
 
    >[!TIP]
    >

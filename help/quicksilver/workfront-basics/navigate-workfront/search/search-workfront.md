@@ -5,9 +5,9 @@ description: 当您无法记住项目的确切位置时，可通过搜索项目�
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '1668'
+source-wordcount: '1690'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 您可以在[!DNL Workfront]内的任何页面的右上角看到[!UICONTROL 搜索]框。
 
-![](assets/search-globalnavigationbar-350x62.png)
+导航栏中的![搜索图标](assets/search-globalnavigationbar-350x62.png)
 
 您必须具有查看对象的权限，才能在搜索中找到该对象。 因此，搜索结果因用户而异。
 
@@ -185,15 +185,15 @@ ht-degree: 1%
 
 要执行基本搜索：
 
-1. 单击页面右上角的放大镜![](assets/search-icon.png)。 您还可以键入&#x200B;**[!UICONTROL ALT + /]**&#x200B;或&#x200B;**[!UICONTROL Option + /]**&#x200B;以打开[!UICONTROL 搜索]菜单。
+1. 单击页面右上角的放大镜![搜索图标](assets/search-icon.png)。 您还可以键入&#x200B;**[!UICONTROL ALT + /]**&#x200B;或&#x200B;**[!UICONTROL Option + /]**&#x200B;以打开[!UICONTROL 搜索]菜单。
 
 1. （可选）要搜索特定对象，请单击&#x200B;**[!UICONTROL 全部]**&#x200B;下拉菜单，然后选择要搜索的对象。
 
-   ![](assets/search-objecttype.png)
+   ![按对象类型搜索](assets/search-objecttype.png)
 
 1. 在&#x200B;**[!UICONTROL 搜索]**&#x200B;框中，开始键入要搜索的信息。\
    有关[!DNL Workfront]中搜索哪些字段的信息，请参阅[了解搜索](#understand-search)。\
-   ![](assets/qs-search-drop-down-highlighted-350x234.png)\
+   ![搜索下拉列表](assets/qs-search-drop-down-highlighted-350x234.png)\
    当您开始在搜索栏中输入内容时，[!DNL Workfront]会根据您的查看历史记录提供推荐，并以蓝色突出显示您正在搜索的关键字。
 
 1. 如果您要查找的项目显示在[!UICONTROL 预输入]菜单中，请单击该项目。
@@ -232,7 +232,7 @@ ht-degree: 1%
 1. 单击任何可用字段以缩短结果列表。\
    您所做的选择以蓝色突出显示，并且您未选择的字段值会隐藏。\
    选择每个新值后，右侧的结果将动态更新。\
-   ![](assets/qs-refine-search-350x175.png)
+   ![优化搜索](assets/qs-refine-search-350x175.png)
 
 1. （可选）单击选定的值以取消选择它们，并再次显示每个字段的所有值。
 
@@ -253,16 +253,16 @@ ht-degree: 1%
 
 要执行高级搜索，请执行以下操作：
 
-1. 在[!DNL Workfront]中任何页面的右上角，单击&#x200B;**[!UICONTROL 搜索]**&#x200B;图标![](assets/search-icon.png)。 将显示[!DNL Search]菜单。
+1. 在[!DNL Workfront]中任何页面的右上角，单击&#x200B;**[!UICONTROL 搜索]**&#x200B;图标![搜索图标](assets/search-icon.png)。 将显示[!DNL Search]菜单。
 
 1. 在[!UICONTROL 搜索]菜单的底部，单击&#x200B;**[!UICONTROL 高级搜索]**。\
-   ![](assets/qs-advanced-search-350x224.png)\
+   ![高级搜索](assets/qs-advanced-search-350x224.png)\
    [!UICONTROL 高级搜索]页面幻灯片从右侧打开，并覆盖上一页的大部分内容。
 
 1. 选择您要搜索的对象类型。\
    默认情况下已选择&#x200B;**[!UICONTROL 项目]**。
 
-   ![](assets/advanced-search-objects-qs-remove-after-prod-release.png)
+   ![高级搜索对象](assets/advanced-search-objects-qs-remove-after-prod-release.png)
 
 1. （可选）在列表顶部的字段中键入关键字。
 1. （可选）单击&#x200B;**[!UICONTROL 筛选结果]**&#x200B;以根据特定字段类型筛选搜索结果，然后从列表中选择一个字段。 如有必要，也为该字段选择一个值。\

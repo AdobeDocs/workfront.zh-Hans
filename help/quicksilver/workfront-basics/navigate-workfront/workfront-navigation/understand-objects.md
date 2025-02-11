@@ -6,9 +6,9 @@ description: 在 [!DNL Adobe Workfront] 中显示的信息由存储在 [!DNL Wor
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '2424'
+source-wordcount: '2508'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 了解如何在[!DNL Workfront]中定义对象非常重要，这样您就可以使用正确的对象来满足组织内的必要需求。
 
-例如，当您计划大量工作时，您需要使用[!UICONTROL 项目]对象来定义该工作。 若要将此工作划分为较小的计划增量，您可以使用[!UICONTROL 任务]对象。 对于少量未计划且可能意外发生的工作，您可以使用Issue对象。 如果要跟踪一组项目的进度以及是否符合预算和时间表，可以在[!UICONTROL Portfolio]和[!UICONTROL 计划]中组织它们。 要定义帮助您解决工作的其他元素，您需要使用存储在[!UICONTROL 项目]、[!UICONTROL 任务]、[!UICONTROL 问题]或[!UICONTROL Portfolio]下的其他对象，如[!UICONTROL 文档]、[!UICONTROL 更新]、[!UICONTROL 小时]、[!UICONTROL 用户]或[!UICONTROL 工作角色]。
+例如，当您计划大量工作时，您需要使用[!UICONTROL 项目]对象来定义该工作。 若要将此工作划分为较小的计划增量，您可以使用[!UICONTROL 任务]对象。 对于少量未计划且可能意外发生的工作，您可以使用Issue对象。 如果要跟踪一组项目的进度以及是否符合预算和时间表，可以在[!UICONTROL 项目组合]和[!UICONTROL 项目]中组织它们。 要定义帮助您解决工作的其他元素，您需要使用存储在[!UICONTROL 项目]、[!UICONTROL 任务]、[!UICONTROL 问题]或[!UICONTROL 项目组合]下的其他对象，如[!UICONTROL 文档]、[!UICONTROL 更新]、[!UICONTROL 小时]、[!UICONTROL 用户]或[!UICONTROL 工作角色]。
 
 [!UICONTROL 报表]和[!UICONTROL 功能板]是另一个对象示例，它们可帮助您直观地整理[!DNL Workfront]中拥有的数据量，以便所有用户都能轻松访问。
 
@@ -41,7 +41,7 @@ ht-degree: 1%
 |---|---|---|
 | [!UICONTROL 项目组合] |  | [!UICONTROL 项目群]，[!UICONTROL 项目]，[!UICONTROL 文档]，[!DNL Notes]，[!UICONTROL 用户] |
 | [!UICONTROL 程序] | [!UICONTROL 项目组合] | [!UICONTROL 项目]，[!UICONTROL 文档]，[!UICONTROL 注释]，[!UICONTROL 用户] |
-| [!UICONTROL 项目] | [!UICONTROL Portfolio]，[!UICONTROL 程序] | [!UICONTROL 任务]，[!UICONTROL 问题]，[!UICONTROL 文档]，[!UICONTROL 备注]，[!UICONTROL 小时]，[!UICONTROL 用户] |
+| [!UICONTROL 项目] | [!UICONTROL 项目组合]，[!UICONTROL 程序] | [!UICONTROL 任务]，[!UICONTROL 问题]，[!UICONTROL 文档]，[!UICONTROL 备注]，[!UICONTROL 小时]，[!UICONTROL 用户] |
 | [!UICONTROL 任务] | [!UICONTROL 项目] | [!UICONTROL 问题]，[!UICONTROL 子任务]，[!UICONTROL 文档]，[!UICONTROL 注释]，[!UICONTROL 小时]，[!UICONTROL 用户] |
 | [!UICONTROL 问题] | [!UICONTROL 任务]，[!UICONTROL 项目] | [!UICONTROL 文档]，[!UICONTROL 备注]，[!UICONTROL 小时]，[!UICONTROL 用户] |
 | [!UICONTROL 仪表板] |  | [!UICONTROL 报告]，外部页面 |
@@ -50,7 +50,7 @@ ht-degree: 1%
 | [!UICONTROL 团队] |  | [!UICONTROL 用户] |
 | [!UICONTROL 用户] | [!UICONTROL 组]，[!UICONTROL 团队]，[!UICONTROL 公司] | [!UICONTROL 职位角色] |
 | [!UICONTROL 公司] |  | [!UICONTROL 用户] |
-| [!UICONTROL 文档] | [!UICONTROL 任务]，[!UICONTROL 问题]，[!UICONTROL 项目]，[!UICONTROL Portfolio]，[!UICONTROL 程序]，[!UICONTROL 用户] |  |
+| [!UICONTROL 文档] | [!UICONTROL 任务]，[!UICONTROL 问题]，[!UICONTROL 项目]，[!UICONTROL 项目组合]，[!UICONTROL 程序]，[!UICONTROL 用户] |  |
 | [!UICONTROL 计划]* |  | [!UICONTROL 个计划] |
 | [!DNL Goals]* |  | [!UICONTROL 个结果]，[!UICONTROL 个活动] |
 
@@ -161,21 +161,21 @@ ht-degree: 1%
 
 | **对象** | **图标** | **可自定义的对象名称** |
 |---|---|---|
-| [!UICONTROL 公司] | ![](assets/company-icon-nwe.png) ， ![](assets/nwe-company-icon-54x54.png) |  |
-| [!UICONTROL 仪表板] | ![](assets/dashboard-icon-nwe.png) ， ![](assets/nwe-dashboards-icon.png) |  |
-| [!UICONTROL 目标] | ![](assets/nwe-goal-icon.png) | ✔ |
-| [!UICONTROL 组] | ![](assets/groups-icon-nwe.png) ， ![](assets/nwe-group-icon.png) |  |
-| [!UICONTROL 问题] | ![](assets/issue-icon-nwe.png) ， ![](assets/nwe-issues-icon.png) | ✔ |
-| [!UICONTROL 工作角色] | ![job_role_icon.png](assets/job-role-icon-52x50.png)，![job_role_icon__1_.png](assets/job-role-icon--1--53x44.png)，![](assets/job-role-nwe-no-color.png)，![](assets/job-role-icon-nwe-color.png) |  |
-| [!UICONTROL 计划] | ![](assets/plan-icon.png)，![](assets/nwe-plan-icon-60x57.png) |  |
-| [!UICONTROL Portfolio] | ![](assets/portfolio-icon-nwe.png) ， ![](assets/nwe-portfolios-icon.png) | ✔ |
-| [!UICONTROL 计划] | ![](assets/program-icon-nwe.png) ， ![](assets/nwe-programs-icon.png) | ✔ |
-| [!UICONTROL 项目] | ![](assets/project-icon-nwe.png) ， ![](assets/nwe-projects-icon.png) | ✔ |
-| [!UICONTROL 报告] | ![](assets/report-icon-nwe.png) ， ![](assets/nwe-reports-icon.png) |  |
-| [!UICONTROL 任务] | ![](assets/task-icon-new.png) ， ![](assets/nwe-tasks-icon.png) | ✔ |
-| [!UICONTROL 团队] | ![](assets/team-icon-nwe.png)，![](assets/team-icon-nwe-color.png)，![](assets/nwe-teams-icon.png) |  |
-| [!UICONTROL 模板] | ![](assets/template-icon-nwe.png) ， ![](assets/nwe-templates-icon.png) |  |
-| [!UICONTROL 用户] | ![](assets/users-icon-gray.png) ， ![](assets/user-icon-blue.png) ， ![](assets/user-icon-initials.png) ， ![](assets/user-avatar.png) ， ![](assets/user-main-menu-area.png) |  |
+| [!UICONTROL 公司] | ![公司图标](assets/company-icon-nwe.png) ，![公司图标蓝色](assets/nwe-company-icon-54x54.png) |  |
+| [!UICONTROL 仪表板] | ![仪表板图标](assets/dashboard-icon-nwe.png)，![仪表板图标](assets/nwe-dashboards-icon.png) |  |
+| [!UICONTROL 目标] | ![目标图标](assets/nwe-goal-icon.png) | ✔ |
+| [!UICONTROL 组] | ![组图标](assets/groups-icon-nwe.png)，![组图标](assets/nwe-group-icon.png) |  |
+| [!UICONTROL 问题] | ![问题图标](assets/issue-icon-nwe.png) ，![问题图标粉红色](assets/nwe-issues-icon.png) | ✔ |
+| [!UICONTROL 工作角色] | ![job_role_icon.png](assets/job-role-icon-52x50.png)，![job_role_icon__1_.png](assets/job-role-icon--1--53x44.png)，![工作角色图标](assets/job-role-nwe-no-color.png)，![工作角色图标颜色](assets/job-role-icon-nwe-color.png) |  |
+| [!UICONTROL 计划] | ![计划图标](assets/plan-icon.png)，![计划图标蓝色](assets/nwe-plan-icon-60x57.png) |  |
+| [!UICONTROL Portfolio] | ![Portfolio](assets/portfolio-icon-nwe.png) ，![Portfolio图标（蓝色）](assets/nwe-portfolios-icon.png) | ✔ |
+| [!UICONTROL 计划] | ![计划图标](assets/program-icon-nwe.png) ，![计划图标](assets/nwe-programs-icon.png) | ✔ |
+| [!UICONTROL 项目] | ![项目图标](assets/project-icon-nwe.png) ，![紫色项目图标](assets/nwe-projects-icon.png) | ✔ |
+| [!UICONTROL 报告] | ![报告图标](assets/report-icon-nwe.png)，![报告图标绿色](assets/nwe-reports-icon.png) |  |
+| [!UICONTROL 任务] | ![任务图标](assets/task-icon-new.png) ，![任务图标绿色](assets/nwe-tasks-icon.png) | ✔ |
+| [!UICONTROL 团队] | ![团队图标](assets/team-icon-nwe.png)，![团队图标循环](assets/team-icon-nwe-color.png)，![团队图标](assets/nwe-teams-icon.png) |  |
+| [!UICONTROL 模板] | ![模板图标](assets/template-icon-nwe.png) ，![模板图标绿色](assets/nwe-templates-icon.png) |  |
+| [!UICONTROL 用户] | ![用户图标灰色](assets/users-icon-gray.png) ，![用户图标蓝色](assets/user-icon-blue.png) ，![带有首字母的用户图标](assets/user-icon-initials.png) ，![头像](assets/user-avatar.png) ，![用户图标主菜单](assets/user-main-menu-area.png) |  |
 
 ## 对象的参考编号
 
@@ -191,18 +191,18 @@ ht-degree: 1%
 
 | **对象** | **基本搜索** | **高级搜索** |
 |---|---|---|
-| [!UICONTROL 项目] | ✓ {\f13 } | ✓ {\f13 } |
-| [!UICONTROL 任务] | ✓ {\f13 } | ✓ {\f13 } |
-| [!UICONTROL 问题] | ✓ {\f13 } | ✓ {\f13 } |
-| [!UICONTROL 报告] | ✓ {\f13 } | ✓ {\f13 } |
-| [!UICONTROL 用户] | ✓ {\f13 } | ✓ {\f13 } |
-| [!UICONTROL 模板] | ✓ {\f13 } | ✓ {\f13 } |
-| [!UICONTROL 文档] | ✓ {\f13 } | ✓ {\f13 } |
-| [!UICONTROL 项目组合] | ✓ {\f13 } | ✓ {\f13 } |
-| [!UICONTROL 程序] | ✓ {\f13 } | ✓ {\f13 } |
-| [!UICONTROL 仪表板] | ✓ {\f13 } | ✓ {\f13 } |
-| [!UICONTROL 公司] | ✓ {\f13 } | ✓ {\f13 } |
-| [!UICONTROL 备注]（或[!UICONTROL 更新]） | ✓ {\f13 } |  |
+| [!UICONTROL 项目] | ✓ | ✓ |
+| [!UICONTROL 任务] | ✓ | ✓ |
+| [!UICONTROL 问题] | ✓ | ✓ |
+| [!UICONTROL 报告] | ✓ | ✓ |
+| [!UICONTROL 用户] | ✓ | ✓ |
+| [!UICONTROL 模板] | ✓ | ✓ |
+| [!UICONTROL 文档] | ✓ | ✓ |
+| [!UICONTROL 项目组合] | ✓ | ✓ |
+| [!UICONTROL 程序] | ✓ | ✓ |
+| [!UICONTROL 仪表板] | ✓ | ✓ |
+| [!UICONTROL 公司] | ✓ | ✓ |
+| [!UICONTROL 备注]（或[!UICONTROL 更新]） | ✓ |  |
 
 有关在[!DNL Workfront]中运行基本和高级搜索的详细信息，请参阅[搜索 [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/search/search-workfront.md)。
 

@@ -6,9 +6,9 @@ description: 当对象显示在列表或报表中时，您可以内联编辑对�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ ht-degree: 0%
 
    如果字段可以编辑，这会将字段和列表中显示的所有其他字段转换为可编辑的单元格。
 
-   ![](assets/nwe-editable-cells-350x131.png)
+   ![可编辑的单元格](assets/nwe-editable-cells-350x131.png)
 
 1. 编辑此单元格中的信息，然后按[!UICONTROL Enter]。
 

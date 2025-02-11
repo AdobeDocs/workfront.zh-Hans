@@ -6,9 +6,9 @@ description: 在 [!DNL Adobe Workfront]中，项被标识为对象。 对象与�
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 94f5a174-21cc-4c10-88ed-89a8014d28f4
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 默认情况下，查看任务或问题时会显示参考编号。  要查看参考编号，请单击左侧面板中的&#x200B;**[!UICONTROL 任务详细信息]**&#x200B;或&#x200B;**[!UICONTROL 问题详细信息]**，然后在概述中找到&#x200B;**[!UICONTROL 基本信息]**&#x200B;部分。
 
-![](assets/reference-number-nwe-350x184.png)
+![参考编号](assets/reference-number-nwe-350x184.png)
 
 ### 查看其他对象的参考编号
 
