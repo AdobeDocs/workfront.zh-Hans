@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 98040582995af736d3716e24c7530dd4cda4d3a6
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '364'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 Adobe Workfront Planning对实例中可创建的对象数量存在限制。 设置对象限制以提高产品性能并增强您对Workfront规划的体验。
 
-下表显示了可在Workfront Planning中创建的对象数限制。 当我们进入开发的下一个阶段时，这些限制可能会发生变化。
+下表显示了可在Workfront Planning中创建的对象数限制。 这些限制可能会有变化。
 
 | Adobe Workfront Planning对象 | 限制 |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
@@ -34,7 +34,7 @@ Adobe Workfront Planning对实例中可创建的对象数量存在限制。 设�
 | 一个工作区的记录类型数 | 1,000（这包括来自所有部分的记录类型以及在使用工作区模板时创建的记录类型） |
 | 一种记录类型的记录数 | 25,000 |
 | 一个工作区的记录数 | 25,000（计划为<br>的客户）500,000（计划为Planning Plus的客户） |
-| Workfront Planning的一个实例的总记录数 | 500,000，适用于计划为<br>200,000的客户且适用于计划为Planning Plus的客户 |
+| Workfront Planning的一个实例的总记录数 | 500,000（计划为<br>200万的客户）适用于计划为Planning Plus的客户 |
 | 一种记录类型或分类的字段数 | 500 |
 | 单行文本字段的字符数 | 1,000个字符 |
 | 段落字段的字符数 | 10,000个字符 |

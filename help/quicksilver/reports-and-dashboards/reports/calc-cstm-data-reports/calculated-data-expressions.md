@@ -7,10 +7,10 @@ description: 您可以使用数据表达式在Adobe Workfront中定义计算的�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: b60a1e74d62e9b3945f69dc590f8cc202302c5af
+source-git-commit: e66d4223b13bcd4813156f147769e7ee99c3f8ef
 workflow-type: tm+mt
 source-wordcount: '2425'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -132,11 +132,11 @@ ht-degree: 0%
 <p><code>ADDYEARS(date, number)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>ADDHOUR</strong> </td> 
+   <td><strong>ADDHOURS</strong> </td> 
    <td> <p>将小时数添加到日期，格式如下：</p>
 
 <p><code>ADDHOUR(date, number)</code></p>
-   <p>注意：Workfront Planning不支持此函数。</p></td> 
+   <p>注意：Workfront Planning不支持此表达式。</p></td> 
   </tr>
   <tr> 
    <td><strong>CLEARTIME</strong> </td> 
@@ -399,7 +399,7 @@ ht-degree: 0%
   </tr>
   <tr> 
    <td><strong>ARRAYELEMENT</strong> </td> 
-   <td> <p>返回数组中指定数字处的元素。 如果索引超出范围，则返回空。</p> 
+   <td> <p>返回数组中指定编号的元素。如果索引超出范围，则返回空号。</p> 
    <p>表达式的格式如下所示：</p>
    <p><code>ARRAYELEMENT(array, number)</code></p> 
    </td> 
@@ -410,7 +410,7 @@ ht-degree: 0%
    <p>表达式的格式如下所示：</p>
    <p><code>SORTASCARRAY(array)</code></p>
    <p>例如，["-12.6"， -13.0]将变为["-12.6"， "-13"]。</p>
-   <p>注意：Workfront Planning不支持此函数。</p></td> 
+   <p>注意：Workfront Planning不支持此表达式。</p></td> 
   </tr>
   <tr> 
    <td><strong>SORTDESCARRAY</strong> </td> 
@@ -418,7 +418,7 @@ ht-degree: 0%
    <p>表达式的格式如下所示：</p>
    <p><code>SORTDESCARRAY(array)</code></p>
    <p>例如，["-12.6"， -13.0]将变为["-13"， "-12.6"]。</p>
-   <p>注意：Workfront Planning不支持此函数。</p></td> 
+   <p>注意：Workfront Planning不支持此表达式。</p></td> 
   </tr>
   <tr>   
    <td><strong>案例</strong> </td> 
@@ -461,7 +461,7 @@ ht-degree: 0%
    <td><p>返回带格式的文本。颜色选项有$$POSITIVE、$$INFORMATIVE、$$NEGATIVE、$$NOTICE以及其他格式选项有$$BOLD、$$ITALIC、$$UNDERLINE。每个函数只能使用一个颜色选项，并且最多可以使用三个其他格式选项。 如果未指定颜色选项，则应用系统的默认颜色。</p>
    <p>表达式的格式如下所示：</p>
    <p><code>FORMAT($$POSITIVE, $$BOLD, $$ITALIC)</code></p>
-   <p>注意：Workfront Planning不支持此函数。</p></td> 
+   <p>注意：Workfront Planning不支持此表达式。</p></td> 
   </tr>   
   <tr> 
    <td><strong>IF</strong> </td> 
@@ -573,10 +573,10 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td><strong>开关</strong> </td> 
-   <td> <p>根据值列表评估表达式，并返回与第一个匹配值对应的结果。</p>
+   <td> <p>根据值列表评估表达式，并返回与第一个匹配值相对应的结果。</p>
    <p>表达式格式如下：</p>
    <p><code>SWITCH(expression, value1, result1, [value2, result2], ...)</code></p>
-   <p>Workfront Planning不支持此函数。</p></td> 
+   <p>Workfront Planning不支持此表达式。</p></td> 
   </tr>   
   <tr> 
    <td><strong>修剪</strong> </td> 
