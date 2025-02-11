@@ -6,9 +6,9 @@ description: 如果您不再需要敏捷团队的迭代，可将其删除。
 author: Lisa
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
-source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
+source-git-commit: 95208e0f396d8eab9a71ca156c616891a7f56f7a
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '189'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 1%
 # 删除迭代
 
 如果您不再需要敏捷团队的迭代，可将其删除。
+
+删除开发周期时，开发周期上的所有故事都会移到积压中。 这些任务和问题也保留在其项目中。
 
 >[!NOTE]
 >

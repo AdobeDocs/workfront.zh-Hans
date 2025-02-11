@@ -6,9 +6,9 @@ description: 迭代是Scrum敏捷团队规划工作容量的关键组件。 [!DN
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
+source-git-commit: 6ae8e48361114e897d0be83ae81f8344074a5ec2
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1063'
 ht-degree: 0%
 
 ---
@@ -156,6 +156,6 @@ ht-degree: 0%
 
 [!UICONTROL 迭代结束日期]减(-) [!UICONTROL 任务持续时间]等于(=) [!UICONTROL 任务计划开始日期]
 
-使用了[!UICONTROL 项目结束日期]，而不是   如果项目开始日期在迭代开始日期之后，而项目结束日期在迭代结束日期之后。
+如果项目开始日期在迭代开始日期之后，而项目结束日期在迭代结束日期之后，则使用[!UICONTROL 项目结束日期]而不是迭代结束日期。
 
 您可以将单个Scrum团队配置为默认使用项目日期，而不是迭代日期。 有关信息，请参阅[配置Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)一文中的[配置将工作项添加到迭代时应用日期的方式](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration)部分。
