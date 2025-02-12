@@ -3,27 +3,27 @@ title: 在现有自定义表单中添加或删除对象类型
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: 您可以使用表单设计器从自定义表单中添加或删除对象类型。
+description: 您可以使用表单设计器向自定义表单添加对象类型或从自定义表单中删除对象类型。
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
 
 # 在现有自定义表单中添加或删除对象类型
 
-您可以使用表单设计器从现有自定义表单中添加或删除对象类型。
+您可以使用表单设计器从现有自定义表单添加或删除对象类型。
 
 ## 访问要求
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具备以下条件才能执行本文中的步骤：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,12 +42,12 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">访问级别配置*</td> 
-   <td><p>对自定义表单的管理访问权限</p></td> 
+   <td><p>管理自定义表单的访问权限</p></td> 
   </tr>  
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中的信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -68,9 +68,9 @@ ht-degree: 0%
 
    在显示的视图中，您可以查看为组织创建的所有自定义表单。 您还可以查看每个表单的创建者、表单使用的对象类型以及表单是否处于活动状态。
 
-1. 选择要向其添加其他对象类型的自定义表单，然后单击![编辑图标](assets/edit-icon2.png)。
+1. 选择要添加其他对象类型的自定义表单，然后单击![编辑图标](assets/edit-icon2.png)。
 
-1. 在表单顶部，单击&#x200B;**对象类型**&#x200B;后面的加号+，然后在显示的菜单中选择所需的类型。 您可以重复此操作，以添加所需数量的对象类型。
+1. 在表单顶部，单击&#x200B;**“对象类型”**&#x200B;后面的加号+，然后在显示的菜单中选择所需的类型。 您可以重复此操作以添加任意数量的对象类型。
 
    ![添加新对象](assets/add-new-object.png)
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 >
 >如果人们已经将自定义表单附加到要删除的类型的对象并向其添加数据，则当您删除表单上的该对象类型时，将会永久删除该数据。 它可能包含用户以后需要的历史信息。
 >
->通常，我们建议最大限度地减少编辑已使用的自定义表单的次数。 没有通知系统来提醒使用自定义表单的人员您的更改。
+>通常，我们建议最大限度地减少编辑已使用的自定义表单的次数。 没有通知系统可提醒使用自定义表单的人员注意您的更改。
 
 要删除对象类型，请执行以下操作：
 

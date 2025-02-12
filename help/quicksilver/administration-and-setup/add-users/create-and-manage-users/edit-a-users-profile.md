@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '3275'
+source-wordcount: '3276'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具备以下条件才能执行本文中的步骤：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -100,7 +100,7 @@ ht-degree: 0%
         <p>如果您是组管理员，并且在访问级别中启用了用户管理员（所有用户）权限，则可以编辑所有用户的&lt;SSO配置&gt;字段。</p> </li> 
         <li><b>作业信息：</b>有关作业的信息，如作业标题（在<b>标题</b>字段中）以及用户负责哪方面的专业知识（在<b>与我谈关于</b>字段中）。</li> 
         <li><p><b>联系信息</b>：用户的电话号码(<b>电话号码，分机</b>和<b>手机号码</b>字段)和地址（在<b>地址、城市、州/省、邮政编码、国家/地区</b>字段中）。</p>
-        <p>如果用户启用了统一用户管理(UUM)或AdobeIdentity Management System (IMS)，则联系人信息部分中的<b>国家/地区</b>字段仅接受国家/地区代码值（例如，US、GB、IN）。</p></li>
+        <p>如果用户启用了统一用户管理(UUM)或Adobe Identity Management System (IMS)，则联系人信息部分中的<b>国家/地区</b>字段仅接受国家/地区代码值（例如，US、GB、IN）。</p></li>
        </ul> </td> 
      </tr> 
      <tr> 
@@ -110,7 +110,7 @@ ht-degree: 0%
       <li> <p><b>时区：</b>用户的时区。</p> <p>有关帮助用户在Workfront中跨时区进行协作的信息，请参阅<a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">跨时区工作</a>。</p> </li>
 
    <li><p><b>电子邮件区域设置</b>：用户首选的电子邮件区域设置。 这会影响从Workfront发往此用户的电子邮件中数字和日期的格式。</p>
-      <p><b>注意：</b>当您的组织使用Unified ExperienceAdobe时，用户的语言首选项将存储在其Adobe配置文件中，并且不使用电子邮件区域设置。 有关访问这些首选项的信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">AdobeWorkfront的Unified Experience</a>。</p></li>
+      <p><b>注意：</b>当您的组织使用Adobe Unified Experience时，用户的语言首选项存储在其Adobe配置文件中，并且不使用电子邮件区域设置。 有关访问这些首选项的信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>。</p></li>
 
    <li><b>接收来自此测试环境的电子邮件</b>：如果要接收来自当前登录环境的电子邮件通知，请选中此选项。
       <p><b>注释</b></p>

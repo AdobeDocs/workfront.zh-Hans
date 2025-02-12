@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b37c34a-d628-4d9b-9688-e4b9f89c666b
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具备以下条件才能执行本文中的步骤：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -69,7 +69,7 @@ Workfront记录以下有关登录系统的用户的信息：
 
   >[!NOTE]
   >
-  >通过Workfront API登录到Workfront仅适用于尚未登记到Adobe业务平台的组织。
+  >通过Workfront API登录到Workfront仅适用于尚未登记到Adobe Business Platform的组织。
 
 ## 在用户列表或报告中显示使用情况信息
 

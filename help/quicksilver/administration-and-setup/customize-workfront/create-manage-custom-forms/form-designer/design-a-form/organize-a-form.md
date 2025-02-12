@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1330'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具备以下条件才能执行本文中的步骤：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -133,15 +133,15 @@ ht-degree: 0%
 
 自定义表单分区界限的“有限编辑”权限仅适用于“项目”、“任务”、“问题”和“用户”对象类型。
 
-在配置了“有限编辑”权限的分区界限的自定义表单中，如果您向表单中添加了其他对象类型(Portfolio、程序、文档、公司、账单记录、小版本、费用或组)之一，则系统会提示您切换到“编辑”权限，该权限与该对象类型和表单上的现有对象类型都兼容。
+在配置了“有限编辑”权限的分区界限的自定义表单中，如果您将其他对象类型(Portfolio、Program、Document、Company、Billing Record、Iteration、Expense或Group)之一添加到表单，系统将提示您切换到“编辑”权限，该权限与该对象类型和表单上的现有对象类型都兼容。
 
 >[!INFO]
 >
 >**示例：**&#x200B;在与Project对象类型关联的自定义表单中，分区界限配置有有限的编辑权限。
 >
->您将Portfolio对象类型添加到表单，这意味着有限编辑权限选项不再可用于表单中的分区界限。
+>您将Portfolio对象类型添加到表单，这意味着有限的编辑权限选项不再可用于表单中的分区界限。
 >
->屏幕消息会提示您切换到“编辑”权限，该权限是与项目对象类型和Portfolio对象类型兼容的最低级别权限。
+>屏幕上会显示一条消息，提示您切换到“编辑”权限，这是与Project对象类型和Portfolio对象类型兼容的最低权限级别。
 
 
 ## 在自定义表单中放置自定义字段和小部件
