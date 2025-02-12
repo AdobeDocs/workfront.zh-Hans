@@ -6,9 +6,9 @@ description: 您可以将资源规划者的任何视图中的信息导出到计�
 author: Lisa
 feature: Resource Management
 exl-id: 07acd28a-5dc0-45b4-bdf2-20abbd5e098c
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '628'
 ht-degree: 4%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 4%
 
    此时将显示“导出选项”对话框。
 
-   ![](assets/rp-export-options-box-350x421.png)
+   ![导出选项](assets/rp-export-options-box-350x421.png)
 
 1. 指定以下信息：\
    **开始日期**：导出的开始日期。 导出的文件包含从一周的第一天开始的分配和可用性信息，其中包含您在此指定的日期。\

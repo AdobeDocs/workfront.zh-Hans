@@ -7,9 +7,9 @@ description: 通过使用Adobe Workfront资源规划者，您可以轻松了解�
 author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: '2652'
 ht-degree: 1%
 
 ---
@@ -24,13 +24,13 @@ ht-degree: 1%
 
 您必须满足充分使用资源规划者所需的先决条件。 有关资源规划者的详细信息，请参阅[资源规划者概述](../../resource-mgmt/resource-planning/get-started-resource-planner.md)。
 
-![](assets/rp-project-view-all-functionality-350x117.png)
+![资源规划程序](assets/rp-project-view-all-functionality-350x117.png)
 
 以下部分概述了资源规划者的所有区域。
 
 ## 项目时间线
 
-![](assets/timeline-calendar-resource-planner-nwe-350x25.png)
+![时间线日历](assets/timeline-calendar-resource-planner-nwe-350x25.png)
 
 
 
@@ -77,7 +77,7 @@ ht-degree: 1%
 
 ## 项目/角色/用户视图选择
 
-![](assets/nwe-project-role-user-view-selection-resource-planner.png)
+![按项目、角色或用户查看](assets/nwe-project-role-user-view-selection-resource-planner.png)
 
 您可以根据您希望信息的显示方式更改资源规划者中的视图。
 
@@ -127,8 +127,8 @@ ht-degree: 1%
    * 可用
    * 计划
    * 已预算
-   * 差异
-   * Net
+   * 变量
+   * 净值
 
      有关详细信息，请参阅使用项目和角色视图的资源规划者中的[预算资源](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)。
 
@@ -150,8 +150,8 @@ ht-degree: 1%
    * 可用
    * 计划
    * 已预算
-   * 差异
-   * Net
+   * 变量
+   * 净值
 
      有关详细信息，请参阅使用项目和角色视图的资源规划者中的[预算资源](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)。
 
@@ -194,7 +194,7 @@ ht-degree: 1%
    * 如果您有权查看项目，但没有权限查看项目中的任何任务或问题，则会显示项目名称，并且任务和问题列在&#x200B;**无法访问的项目**&#x200B;部分下。\
      有关Workfront中权限的更多信息，请参阅[对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
 
-     ![](assets/inaccessible-items-in-rp-with---column-and-red-outline--1--350x187.png)
+     ![不可访问的项](assets/inaccessible-items-in-rp-with---column-and-red-outline--1--350x187.png)
 
    
 
@@ -210,7 +210,7 @@ ht-degree: 1%
 
 ## 项目名称
 
-![](assets/project-name-highlighted-resource-planner-350x445.png)
+![项目名称](assets/project-name-highlighted-resource-planner-350x445.png)
 
 您可以在资源规划者中看到以下项目：
 
@@ -232,13 +232,13 @@ ht-degree: 1%
 
 项目按优先级在资源规划程序中列出，最重要的项目在顶部。 优先级由项目名称前面的数字表示。
 
-![](assets/rp-planner-priority-highlighted-350x186.png)
+![项目计划优先级](assets/rp-planner-priority-highlighted-350x186.png)
 
 您还可以启用相应设置，以便在项目与项目组合关联时，根据项目组合显示项目优先级。 有关在资源规划程序中排列项目优先顺序和显示项目组合优先级的信息，请参阅[在资源规划程序中排列项目优先顺序](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md)。
 
 ## 职位角色名称
 
-![](assets/role-highlighted-resource-planner-350x243.png)
+![工作角色名称](assets/role-highlighted-resource-planner-350x243.png)
 
 资源规划者中列出了以下工作角色类别：
 
@@ -254,7 +254,7 @@ ht-degree: 1%
 
 ## 用户名
 
-![](assets/user-highlighted-resource-planner-350x272.png)
+![用户名](assets/user-highlighted-resource-planner-350x272.png)
 
 资源规划者的“项目”和“角色”视图中列出的用户属于与项目关联的资源池。\
 有关使用用户填充资源池的详细信息，请参阅[将资源池与用户关联](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)。
@@ -310,11 +310,11 @@ ht-degree: 1%
 1. 打开资源规划程序。
 1. 单击&#x200B;**设置**&#x200B;图标。
 
-   ![](assets/rp-settings-icon-edit-1.png)
+   ![资源规划者设置图标](assets/rp-settings-icon-edit-1.png)
 
    此时将显示资源规划者设置框。
 
-   ![](assets/rp-settings-without-actual-hours-350x211.png)
+   ![资源规划者设置](assets/rp-settings-without-actual-hours-350x211.png)
 
 1. 启用&#x200B;**包括来自问题的小时数**&#x200B;设置以显示资源规划者中来自问题的已计划小时数。 默认情况下禁用此设置。
 
@@ -327,7 +327,7 @@ ht-degree: 1%
      >
      >**当问题计划的开始日期和完成日期在项目的时间表之外时，问题的计划小时数根据问题的日期显示。 例如，如果项目时间线在一月到三月之间，但问题的时间线是在八月，则问题的计划小时数将显示在八月时间段中。**
 
-1. （有条件，可选）如果选择了“项目”视图，请启用“显示Portfolio优先级”设置，以根据项目所分配的Portfolio显示项目优先级。 根据其项目组合而定的项目优先级显示在资源规划者优先级旁边。 默认情况下禁用此设置。
+1. （视情况而定，可选）如果您选择了项目视图，请启用显示Portfolio优先级设置，以根据项目所分配的Portfolio显示项目优先级。 根据其项目组合而定的项目优先级显示在资源规划者优先级旁边。 默认情况下禁用此设置。
 
    有关在资源规划程序中排列项目优先顺序的信息，请参阅[在资源规划程序中排列项目优先顺序](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md)。
 
@@ -348,7 +348,7 @@ ht-degree: 1%
 
 ## 导出选项
 
-![](assets/export-button-highlighted-resource-planner-350x92.png)
+![导出按钮](assets/export-button-highlighted-resource-planner-350x92.png)
 
 您可以从资源规划者的任何视图将信息导出到Excel (.xlsx)文件。\
 有关从资源规划者导出信息的信息，请参阅[从资源规划者导出信息](../../resource-mgmt/resource-planning/export-resource-planner.md)。

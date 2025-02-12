@@ -6,9 +6,9 @@ description: 您可以在工作负载均衡器中打开摘要面板，以更新�
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '410'
 ht-degree: 2%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td>Contribute对项目、任务和问题的权限或更高版本</td> 
+   <td>参与项目、任务和问题的权限或更高版本</td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,11 +78,11 @@ ht-degree: 2%
 
    或
 
-   单击&#x200B;**打开摘要**&#x200B;图标![](assets/summary-panel-icon.png)，然后单击任务或问题栏以打开摘要面板。
+   单击&#x200B;**打开摘要**&#x200B;图标![打开摘要图标](assets/summary-panel-icon.png)，然后单击任务或问题栏以打开摘要面板。
 
    或
 
-   单击任务或问题右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)，然后单击&#x200B;**打开摘要**。
+   单击任务或问题右侧的&#x200B;**更多**&#x200B;菜单![更多图标](assets/more-icon.png)，然后单击&#x200B;**打开摘要**。
 
    右侧将打开“摘要”面板。
 
@@ -97,4 +97,4 @@ ht-degree: 2%
    有关使用摘要更新信息的详细信息，请参阅[摘要概述](../../workfront-basics/the-new-workfront-experience/summary-overview.md)。
 
 1. （视情况而定）如果您打开了工作项的任何部分，请单击浏览器的&#x200B;**返回按钮**&#x200B;以返回到工作负载均衡器。
-1. 单击“摘要”右上角的&#x200B;**关闭图标** ![](assets/close-icon.png)以将其关闭。
+1. 单击“摘要”右上角的&#x200B;**关闭图标** ![关闭图标](assets/close-icon.png)以将其关闭。

@@ -6,9 +6,9 @@ description: 您可以使用“项目”和“角色”视图在Adobe Workfront�
 author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '2121'
+source-wordcount: '2127'
 ht-degree: 0%
 
 ---
@@ -160,7 +160,7 @@ ht-degree: 0%
 
 要在****角色视图的资源规划者中分配预算，请执行以下操作：
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)。
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)。
 
 1. 单击&#x200B;**资源**。
 1. 默认显示&#x200B;**规划者**。
@@ -225,7 +225,7 @@ ht-degree: 0%
 
 使用快速链接时，您可以批量为资源分配预算。 快速链接仅可用于“项目”和“角色”视图。
 
-![](assets/rp-project-view-with-automatic-budgeting-options-on-project-350x173.png)
+![自动预算选项](assets/rp-project-view-with-automatic-budgeting-options-on-project-350x173.png)
 
 >[!NOTE]
 >

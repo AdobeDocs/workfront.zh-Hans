@@ -6,9 +6,9 @@ description: 您可以在资源规划者中查看资源的可用性以及项目�
 author: Lisa
 feature: Resource Management
 exl-id: 5b3e52a6-af9b-4e68-8d6e-43a5151a2a2c
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1243'
 ht-degree: 4%
 
 ---
@@ -148,7 +148,7 @@ ht-degree: 4%
 
 1. （视情况而定）如果您选择&#x200B;**自定义**，请指示&#x200B;**自定义显示的量度**&#x200B;框中的选项以设置自定义视图。
 
-   ![](assets/planner-customize-view-box-350x114.png)
+   ![自定义视图框](assets/planner-customize-view-box-350x114.png)
 
 1. 在左侧的&#x200B;**视图类型**&#x200B;列中，选择以下视图之一：
 
@@ -163,8 +163,8 @@ ht-degree: 4%
    | 可用 | ✔ | ✔ | ✔ |
    | 计划 | ✔ | ✔ | ✔ |
    | 已预算 |   | ✔ | ✔ |
-   | 差异 |   | ✔ | ✔ |
-   | Net |   | ✔ | ✔ |
+   | 变量 |   | ✔ | ✔ |
+   | 净值 |   | ✔ | ✔ |
    | 实际 | ✔ |   |   |
    | 差异 | ✔ |   |   |
    | 百分比 | ✔ |   |   |
@@ -189,7 +189,7 @@ ht-degree: 4%
    >
    >您只能有一个自定义视图。
 
-   ![](assets/planner-hours-drop-down-with-custom-and-customize-option-183x281.png)
+   ![规划小时下拉列表](assets/planner-hours-drop-down-with-custom-and-customize-option-183x281.png)
 
 ## 查看用户分配图表
 

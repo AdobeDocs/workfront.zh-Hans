@@ -6,9 +6,9 @@ description: 您可以使用资源规划者管理资源到项目的分配。 您
 author: Lisa
 feature: Resource Management
 exl-id: 0de749df-5af9-4124-8539-06b82dca2ec4
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 默认情况下，将显示Planner。  有关资源规划者中预算资源的信息，请参阅使用项目和角色视图的资源规划者中的预算资源[一文](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)。
 
-![](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
+![资源规划者为默认值](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
 
 1. 单击左侧面板中的&#x200B;**资源池**。
 有关创建资源池的信息，请参阅[创建资源池](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)。
@@ -105,6 +105,6 @@ ht-degree: 0%
    >
    >当项目没有资源池关联时，您只能在业务案例的资源预算区域中添加资源池。 当项目已有资源池时，池中的用户及其工作角色默认显示在资源预算区域。
 
-   ![](assets/resource-budgeting-area-on-project-350x70.png)
+   ![资源预算](assets/resource-budgeting-area-on-project-350x70.png)
 
    有关为一个项目预算资源的信息，请参阅文章[商业案例中的预算资源](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)。

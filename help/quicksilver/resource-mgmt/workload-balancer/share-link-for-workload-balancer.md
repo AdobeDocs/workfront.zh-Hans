@@ -6,9 +6,9 @@ description: 您可以与其他用户共享工作负载均衡器，其他用户�
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: 233e61c011cc87f49d0d4082a20b7790104c96c8
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '697'
 ht-degree: 1%
 
 ---
@@ -123,7 +123,7 @@ ht-degree: 1%
 
      有关在工作负载均衡器中过滤信息的信息，请参阅在工作负载均衡器中[过滤信息](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)。
 
-1. 单击&#x200B;**链接图标** ![](assets/wb-shearable-link-icon-small.png)。
+1. 单击&#x200B;**链接图标** ![链接图标](assets/wb-shearable-link-icon-small.png)。
 
    这会添加指向剪贴板的链接。
 

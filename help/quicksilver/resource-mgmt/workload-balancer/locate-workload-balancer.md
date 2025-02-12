@@ -7,10 +7,10 @@ description: 您可以使用工作负载均衡器来计划工作的资源，或�
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 3d7708e674af716657cc287c9f54a8cf56278da3
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 0%
+source-wordcount: '714'
+ht-degree: 1%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 1. 单击左侧面板中的&#x200B;**工作负载均衡器**。
 
-   ![](assets/nwe-balancer-global.png)
+   ![工作负载平衡器](assets/nwe-balancer-global.png)
 
    默认情况下，工作负载均衡器按资源区域中的信息显示以下内容：
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 1. 单击左侧面板中的&#x200B;**工作负载均衡器**。
 
-   ![](assets/nwe-balancer-team-350x172.png)
+   ![团队的工作负载均衡器](assets/nwe-balancer-team-350x172.png)
 
    默认情况下，团队的工作负载均衡器显示以下信息：
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
    此时将显示项目的工作负载均衡器。
 
-   ![](assets/nwe-balancer-project-350x152.png)
+   ![项目的工作负载均衡器](assets/nwe-balancer-project-350x152.png)
 
    默认情况下，项目的工作负载均衡器按信息显示以下内容：
 

@@ -6,9 +6,9 @@ description: 作为资源管理器，您可以将工作分配给用户，并通�
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '2898'
+source-wordcount: '2909'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>Contribute权限或更高，包括分配您要为其管理分配的任务和问题。 </p> <p>或 </p> <p>管理要为其更新计划小时数和更新分配的任务的权限。 有关在工作负载均衡器中更新已计划小时数的信息，请参阅本文中的<a href="#update-task-planned-hours-when-managing-user-allocations">管理用户分配时更新任务已计划小时数</a>部分。</p> </td> 
+   <td> <p>Contribute权限或更高，包括“分配至要为其管理分配的任务和问题”。 </p> <p>或 </p> <p>管理要为其更新计划小时数和更新分配的任务的权限。 有关在工作负载均衡器中更新已计划小时数的信息，请参阅本文中的<a href="#update-task-planned-hours-when-managing-user-allocations">管理用户分配时更新任务已计划小时数</a>部分。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -191,11 +191,11 @@ ht-degree: 0%
    >
    >您只能修改任务和问题的用户分配。 您无法修改项目的用户分配。
 
-1. （可选）单击&#x200B;**显示分派项**&#x200B;图标![](assets/show-allocations-icon-small.png)以显示所有工作项的分配。
+1. （可选）单击&#x200B;**显示分派项**&#x200B;图标![显示分派项图标](assets/show-allocations-icon-small.png)以显示所有工作项的分配。
 
    任务名称和项目名称会替换为任务或项目的用户分配。
 
-1. （可选）单击&#x200B;**设置**&#x200B;图标![](assets/gear-icon-settings.png)并选择以下任一选项：
+1. （可选）单击&#x200B;**设置**&#x200B;图标![设置图标](assets/gear-icon-settings.png)，然后选择以下任一选项：
 
    1. **包括来自问题的小时数**。 这样，除了任务分派之外，您还能管理问题分派。
    1. **显示已完成的工作**。 它显示在您管理分配的时间线内已完成并计划的项目。
@@ -212,7 +212,7 @@ ht-degree: 0%
       >
       >在“设置”的“资源管理”区域，Workfront管理员可决定在整个系统中使用哪个计划来计算用户的容量。 有关详细信息，请参阅[配置资源管理首选项](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)。
 
-1. 单击工作项的&#x200B;**更多**&#x200B;菜单![](assets/qs-more-menu.png)，然后单击&#x200B;**编辑分配**。
+1. 单击工作项的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/qs-more-menu.png)，然后单击&#x200B;**编辑分配**。
 
    工作项的![更多菜单](assets/more-menu-on-task-wb-nwe.png)
 
@@ -222,11 +222,11 @@ ht-degree: 0%
 
    分配框变为可编辑。
 
-1. 单击每个每日、每周或每月分配的框内，手动更新希望每天、每周或每月为用户分配的小时数或百分比值，然后单击&#x200B;**保存**&#x200B;图标![](assets/checkmark-icon.png)。
+1. 单击每个每日、每周或每月分配的框内，手动更新希望每天、每周或每月为用户分配的小时数或百分比值，然后单击&#x200B;**保存**&#x200B;图标![保存图标](assets/checkmark-icon.png)。
 
    >[!TIP]
    >
-   >单击&#x200B;**取消**&#x200B;图标![](assets/cancel-allocations-wb.png)可删除已调整的分配。
+   >单击&#x200B;**取消**&#x200B;图标![取消图标](assets/cancel-allocations-wb.png)可删除您调整的分配。
 
    ![保存或取消已调整的分配](assets/wb-contouring-with-check-and-x-boxes-350x63.png)
 

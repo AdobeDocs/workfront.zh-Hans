@@ -6,9 +6,9 @@ description: 您可以通过将工作项拖放到正确用户，使用Adobe Work
 author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td>Contribute对项目、任务和问题（包括制定工作）的权限或更高</td> 
+   <td>包含制定工作分派的项目、任务和问题的Contribute权限或更高版本</td> 
   </tr> 
  </tbody> 
 </table>
@@ -76,13 +76,13 @@ ht-degree: 0%
 
    转到&#x200B;**已分配的工作**&#x200B;区域并展开用户的名称以查看分配给他们的工作项（如果要重新分配其项目）。
 
-1. （视情况而定）在项目的工作负载均衡器中，单击&#x200B;**显示所有用户**&#x200B;图标![](assets/show-all-users-icon-project-workload-balancer.png)以显示所有Workfront用户。
+1. （视情况而定）在项目的工作负载均衡器中，单击&#x200B;**显示所有用户**&#x200B;图标![显示所有用户](assets/show-all-users-icon-project-workload-balancer.png)以显示所有Workfront用户。
 
    这会显示您有权查看的所有用户。
 
    同时属于项目团队并已分配到项目项的用户在“已分配工作”区域的名称右侧具有项目图标。
 
-   ![](assets/user-on-the-project-indicator-highlighted-project-workload-balancer.png)
+   ![项目用户](assets/user-on-the-project-indicator-highlighted-project-workload-balancer.png)
 
 
    >[!TIP]
@@ -100,7 +100,7 @@ ht-degree: 0%
    >
    >您悬停在该工作项上的用户的计划小时数将实时更新为每日计划小时数，以指示添加新项目可能会对其总体分配产生的影响。
 
-   ![](assets/drag-drop-item-from-unassigned-to-assigned-wb-nwe-350x152.png)
+   ![将项拖放到已分配项](assets/drag-drop-item-from-unassigned-to-assigned-wb-nwe-350x152.png)
 
 1. 准备就绪后，将所选工作项拖放到与已分配区域中的用户名相同的行中。 已分配项目，并且使用工作项目中的新小时数为用户更新分配的计划小时数。
 
@@ -118,7 +118,7 @@ ht-degree: 0%
 
 
 1. （可选）单击已分配工作区域中的用户名称下的工作项栏，并将其拖放到未分配工作区域上以取消分配。 该项目已从用户取消分配，但仍可能分配给工作角色，在此情况下，该项目会显示在“未分配的工作”区域中。 如果将项目分配给另一个用户，该项目将保留在“已分配工作”区域中，且位于仍被分配的用户名下。
-1. （可选）单击&#x200B;**显示分派图标** ![](assets/show-allocations-icon-small.png)，然后单击&#x200B;**更多菜单** ![](assets/qs-more-menu.png) > **编辑分派**。
+1. （可选）单击&#x200B;**显示分派图标** ![显示分派图标](assets/show-allocations-icon-small.png)，然后单击&#x200B;**更多菜单** ![更多菜单](assets/qs-more-menu.png) > **编辑分派项**。
 
    <!--
    (make sure these are still called this, and that the icon has not changed)

@@ -7,9 +7,9 @@ description: 您可以使用资源计划程序来估计和预算分配给其所�
 author: Lisa
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '2075'
+source-wordcount: '2082'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ ht-degree: 0%
 >如果缺少以下任何先决条件，您可能会发现有关资源分配或可用性的某些信息缺失或具有零值。\
 >有关了解字段为何缺少数据或值为零的详细信息，请将鼠标悬停在这些字段上。
 
-![](assets/no-users-with-this-role-in-the-res-pool-350x57.png)
+![没有具有此角色的用户](assets/no-users-with-this-role-in-the-res-pool-350x57.png)
 
 >[!NOTE]
 >
@@ -187,7 +187,7 @@ ht-degree: 0%
 
 您必须了解Workfront实例如何根据系统中的资源管理首选项计算用户可用性。 Workfront可以使用用户时间表（如其“用户配置文件”页面中所定义）或系统的“默认时间表”来计算用户可用性。
 
-![](assets/resource-management-preferences-section-in-setup-350x89.png)
+![管理首选项](assets/resource-management-preferences-section-in-setup-350x89.png)
 
 Workfront管理员配置您的资源管理首选项。
 

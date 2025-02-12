@@ -6,9 +6,9 @@ description: 项目按优先级在资源规划程序中列出，最重要的项�
 author: Lisa
 feature: Resource Management
 exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1308'
 ht-degree: 1%
 
 ---
@@ -94,7 +94,7 @@ ht-degree: 1%
 1. 转到&#x200B;**资源规划者**。
 
 1. 在项目名称左侧的字段内单击（其中包含数字），然后输入数字以更改Planning优先级，然后按Enter键。\
-   ![](assets/mceclip4.png)\
+   ![更改计划优先级](assets/mceclip4.png)\
    或\
    将鼠标悬停在项目名称上，单击项目名称左侧的指示器，然后将其拖放到正确的位置以更改优先级。
 
@@ -110,21 +110,21 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->您的公司必须具有业务或更高版本的Workfront计划才能在Portfolio优化器中优先考虑项目。
+>您的公司必须具有业务或更高版本的Workfront计划才能在Portfolio Optimizer中优先处理项目。
 >
 >有关Workfront计划的详细信息，请参阅[我们的计划](https://www.workfront.com/plans)。
 >
->有关在Portfolio优化程序中排列项目优先顺序的信息，请参阅[在Portfolio优化程序中排列项目优先顺序](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)。
+>有关在Portfolio Optimizer中排列项目优先顺序的信息，请参阅[在Portfolio Optimizer中排列项目优先顺序](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)。
 
 1. 在&#x200B;**项目视图**&#x200B;中打开&#x200B;**资源规划者**。
 1. 单击&#x200B;**设置**&#x200B;图标。
-1. 启用&#x200B;**显示Portfolio优先级**&#x200B;设置以根据项目所分配的Portfolio显示项目优先级。 根据其项目组合而定的项目优先级显示在资源规划者优先级旁边。 默认情况下禁用此设置。
+1. 启用&#x200B;**显示Portfolio优先级**&#x200B;设置，以根据项目优先级分配给的Portfolio显示项目优先级。 根据其项目组合而定的项目优先级显示在资源规划者优先级旁边。 默认情况下禁用此设置。
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: check screen shot to see if this is accurate still - should say Order, and not Sort:)</p>
    -->
 
-   ![](assets/rp-portfolio-priority-unordered-edit-350x180.png)
+   ![Portfolio优先级](assets/rp-portfolio-priority-unordered-edit-350x180.png)
 
    项目的项目组合优先级仅在资源规划者的项目视图中显示。
 
@@ -136,7 +136,7 @@ ht-degree: 1%
    1. 计划开始日期
    1. 项目名称
 
-   ![](assets/rp-portfolio-priority-ordered-350x198.png)
+   ![Portfolio优先级已排序](assets/rp-portfolio-priority-ordered-350x198.png)
 
 1. 单击&#x200B;**保存**。
 

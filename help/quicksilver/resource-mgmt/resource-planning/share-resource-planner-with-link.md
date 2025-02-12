@@ -6,9 +6,9 @@ description: Adobe Workfront可以为资源规划者的用户视图生成唯一�
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Adobe Workfront可以为资源规划者的用户视图生成唯一的URL，您可将该URL作为外部页面嵌入到仪表板中，或者在新的浏览器选项卡中单独打开它。 在将资源规划者信息与可能无权直接访问资源区域的用户共享时，这非常有用。
 
-![](assets/rp-user-view-with-link-highlight-350x49.png)
+![带有链接的用户视图](assets/rp-user-view-with-link-highlight-350x49.png)
 
 ## 访问要求
 

@@ -6,9 +6,9 @@ description: 为了高效地查找工作项并专注于您管理的用户或项�
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: fcc4a105f0f49c34fea4bc11f4bf2c6f54cd7769
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '2458'
+source-wordcount: '2526'
 ht-degree: 0%
 
 ---
@@ -160,11 +160,11 @@ ht-degree: 0%
 
    有关访问工作负载均衡器的信息，请参阅[导航工作负载均衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
-1. 单击&#x200B;**未分配的工作**&#x200B;或&#x200B;**已分配的工作**&#x200B;区域右上角的&#x200B;**筛选器**&#x200B;图标![](assets/filter-icon.png)。
+1. 单击&#x200B;**未分配的工作**&#x200B;或&#x200B;**已分配的工作**&#x200B;区域的右上角的&#x200B;**筛选器**&#x200B;图标![筛选器图标](assets/filter-icon.png)。
 
    右侧将显示过滤器生成器框。 您为其创建过滤器的区域的名称将显示在框的标题中。
 
-   ![](assets/filters-list-wb-assigned-work-with-filters-listed-nwe-350x377.png)
+   ![筛选器列表](assets/filters-list-wb-assigned-work-with-filters-listed-nwe-350x377.png)
 
 1. （可选且视情况而定）如果您在资源区域访问工作负载均衡器，则预定义的默认过滤器可能已应用于已分配的工作区域。 您可以编辑并保存默认筛选器的副本。
 
@@ -189,7 +189,7 @@ ht-degree: 0%
 
    1. （视情况而定）如果您单击&#x200B;**浏览字段**，请在&#x200B;**搜索**&#x200B;字段中键入字段的名称，并在该字段显示在列表中时将其选定。
 
-      ![](assets/new-filters-search-for-a-field-highlighted-wb-nwe-350x386.png)
+      ![搜索字段](assets/new-filters-search-for-a-field-highlighted-wb-nwe-350x386.png)
 
       >[!TIP]
       >
@@ -204,15 +204,15 @@ ht-degree: 0%
 
       >[!NOTE]
       >
-      > 如果要显示特定项目组合中的工作对象，可以应用以下过滤器：“PortfolioID等于&lt;项目组合的名称>。”
+      > 如果要显示特定项目组合中的工作对象，可以应用以下过滤器：“Portfolio ID等于&lt;项目组合的名称>”。
       >
-      >![](assets/portfolio-name-filter-statement-wb-350x262.png)
+      >![Portfolio名称筛选器语句](assets/portfolio-name-filter-statement-wb-350x262.png)
       >
       >要排除处于“暂挂”状态的项目，必须应用以下过滤器：“项目：状态不等于“暂挂”。 这会阻止保留项目中的工作项显示在工作负载均衡器中。
       >
-      >![](assets/project-status-filter-statement-wb.png)
+      >![项目状态筛选器语句](assets/project-status-filter-statement-wb.png)
 
-   1. （可选）单击&#x200B;**删除**&#x200B;图标![](assets/delete.png)以删除筛选条件。
+   1. （可选）单击&#x200B;**删除**&#x200B;图标![删除图标](assets/delete.png)以删除筛选条件。
 
 1. （可选）单击&#x200B;**添加筛选器**&#x200B;以添加其他筛选器条件，然后重复步骤4中的操作。
 
@@ -232,7 +232,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**另存为新筛选器**&#x200B;以保存筛选器以供将来使用。
 
-   ![](assets/new-filters-save-as-box-unassigned-area-wb-350x467.png)
+   ![筛选器另存为](assets/new-filters-save-as-box-unassigned-area-wb-350x467.png)
 
    >[!TIP]
    >
@@ -241,7 +241,7 @@ ht-degree: 0%
 1. 单击&#x200B;**无标题的筛选器**&#x200B;字段，然后输入新筛选器的名称。
 1. （可选）从&#x200B;**图标**&#x200B;下拉菜单中选择新筛选器的图标。
 
-   ![](assets/new-filters-select-icon-expanded-drop-down-wb.png)
+   ![选择图标](assets/new-filters-select-icon-expanded-drop-down-wb.png)
 
 1. （可选）添加过滤器描述以指示其独特之处。 描述显示在筛选器列表中的筛选器名称下。
 1. 单击&#x200B;**保存**。
@@ -250,9 +250,9 @@ ht-degree: 0%
 
    有关应用已保存过滤器的信息，请参阅本文中的[删除工作负载均衡器中的已保存过滤器](#delete-a-saved-filter-in-the-workload-balancer)部分。
 
-1. （视情况而定）将鼠标悬停在&#x200B;**未分配工作**&#x200B;或&#x200B;**已分配工作**&#x200B;区域的右上角的&#x200B;**过滤器图标** ![](assets/filter-icon.png)上，以显示包含当前应用的过滤器名称或数量的工具提示。
+1. （视情况而定）将鼠标悬停在&#x200B;**未分配的工作**&#x200B;或&#x200B;**已分配的工作**&#x200B;区域的右上角的&#x200B;**过滤器图标** ![过滤器图标](assets/filter-icon.png)上，以显示包含当前应用的过滤器名称或数量的工具提示。
 
-   ![](assets/filter-icon-with-number-and-tooltip-with-name-of-filter-wb-nwe-350x98.png)
+   ![筛选器图标和筛选器的名称](assets/filter-icon-with-number-and-tooltip-with-name-of-filter-wb-nwe-350x98.png)
 
 ## 复制筛选器
 
@@ -262,13 +262,13 @@ ht-degree: 0%
 
    有关访问工作负载均衡器的信息，请参阅[导航工作负载均衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
-1. 单击&#x200B;**未分配的工作**&#x200B;或&#x200B;**已分配的工作**&#x200B;区域右上角的&#x200B;**筛选器**&#x200B;图标![](assets/filter-icon.png)。
+1. 单击&#x200B;**未分配的工作**&#x200B;或&#x200B;**已分配的工作**&#x200B;区域的右上角的&#x200B;**筛选器**&#x200B;图标![筛选器图标](assets/filter-icon.png)。
 
    右侧将显示过滤器生成器框。 您为其创建过滤器的区域的名称将显示在框的标题中。
 
-1. 将鼠标悬停在现有筛选器上，单击&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**复制**。
+1. 将鼠标悬停在现有筛选器上，单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击&#x200B;**复制**。
 
-   ![](assets/filter-more-menu-options-wb.png)
+   ![筛选更多菜单选项](assets/filter-more-menu-options-wb.png)
 
    >[!TIP]
    >
@@ -301,18 +301,18 @@ ht-degree: 0%
 
    有关访问工作负载均衡器的信息，请参阅[导航工作负载均衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
-1. 单击&#x200B;**未分配**&#x200B;或&#x200B;**已分配工作**&#x200B;区域右上角的&#x200B;**过滤器图标** ![](assets/filter-icon.png)。\
+1. 单击&#x200B;**未分配**&#x200B;或&#x200B;**已分配的工作**&#x200B;区域右上角的&#x200B;**过滤器图标** ![过滤器图标](assets/filter-icon.png)。\
    筛选器生成器将显示在右侧。
 
-1. 将鼠标悬停在要编辑的筛选器上，然后单击&#x200B;**编辑** ![](assets/wb-edit-filter-icon.png)。
+1. 将鼠标悬停在要编辑的筛选器上，然后单击&#x200B;**编辑** ![编辑筛选器图标](assets/wb-edit-filter-icon.png)。
 
-   ![](assets/filter-more-menu-options-wb.png)
+   ![筛选更多菜单](assets/filter-more-menu-options-wb.png)
 
 1. 执行下列操作之一：
 
    * 修改任何filter语句
    * 单击&#x200B;**添加筛选器**&#x200B;以添加新的筛选器语句
-   * 单击&#x200B;**删除**&#x200B;图标![](assets/delete.png)可删除现有的筛选器语句。
+   * 单击&#x200B;**删除**&#x200B;图标![删除图标](assets/delete.png)以删除现有的筛选器语句。
 
 1. （可选）单击&#x200B;**应用**。
 
@@ -337,11 +337,11 @@ ht-degree: 0%
 >当您删除与他人共享的过滤器时，该过滤器也会被其他人删除。
 
 1. 转到工作负载均衡器
-1. 单击&#x200B;**未分配的工作**&#x200B;或&#x200B;**已分配的工作**&#x200B;区域右上角的&#x200B;**过滤器图标** ![](assets/filter-icon.png)。\
+1. 单击&#x200B;**未分配的工作**&#x200B;或&#x200B;**已分配的工作**&#x200B;区域右上角的&#x200B;**过滤器图标** ![过滤器图标](assets/filter-icon.png)。\
    右侧将显示过滤器生成器框。
 
-1. 将鼠标悬停在筛选器上，单击&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**删除**。
-   ![](assets/filter-more-menu-options-wb.png)
+1. 将鼠标悬停在筛选器上，然后单击&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**删除**。
+   ![筛选更多菜单](assets/filter-more-menu-options-wb.png)
 
    >[!TIP]
    >
@@ -365,12 +365,12 @@ ht-degree: 0%
 要共享过滤器，请执行以下操作：
 
 1. 转到工作负载均衡器
-1. 单击&#x200B;**未分配的工作**&#x200B;或&#x200B;**已分配的工作**&#x200B;区域右上角的&#x200B;**过滤器图标** ![](assets/filter-icon.png)。\
+1. 单击&#x200B;**未分配的工作**&#x200B;或&#x200B;**已分配的工作**&#x200B;区域右上角的&#x200B;**过滤器图标** ![过滤器图标](assets/filter-icon.png)。\
    右侧将显示过滤器生成器框。
 
-1. 将鼠标悬停在筛选器上，单击&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**共享。**
+1. 将鼠标悬停在筛选器上，然后单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击&#x200B;**共享。**
 
-   ![](assets/filter-more-menu-options-wb.png)
+   ![筛选更多菜单](assets/filter-more-menu-options-wb.png)
 
    >[!TIP]
    >
@@ -388,7 +388,7 @@ ht-degree: 0%
 
 1. （可选）单击实体名称旁边的右箭头以编辑其对筛选器的权限，然后启用&#x200B;**查看**&#x200B;或&#x200B;**管理**&#x200B;选项。
 
-   ![](assets/new-filters-granular-permissions-for-manage-wb-350x107.png)
+   ![筛选器权限](assets/new-filters-granular-permissions-for-manage-wb-350x107.png)
 
 1. （可选）通过执行以下操作之一，启用或禁用实体的其他权限：
 
@@ -404,7 +404,7 @@ ht-degree: 0%
 
    您共享的筛选器显示在筛选器框的&#x200B;**与我共享**&#x200B;区域中。
 
-   ![](assets/new-filters-shared-with-me-area-wb-350x236.png)
+   ![与我共享](assets/new-filters-shared-with-me-area-wb-350x236.png)
 
 <!--   
 
@@ -415,8 +415,8 @@ You can mark a filter as a favorite for quicker access to it.
 The filters that you mark as a favorite do not count towards your system Favorites list. There is no limit for how many filters you can favorite. 
 
 1. Go to the Workload Balancer
-1. Click the **Filter** icon ![](assets/filter-icon.png) in the upper-right corner of the **Unassigned Work** or **Assigned Work** areas. The filter builder box displays on the right. 
-1. Mouse over a filter, then click the **Favorite** ![](assets/favorites-icon-small.png). 
+1. Click the **Filter** icon ![Filter icon](assets/filter-icon.png) in the upper-right corner of the **Unassigned Work** or **Assigned Work** areas. The filter builder box displays on the right. 
+1. Mouse over a filter, then click the **Favorite** ![Favorites icon](assets/favorites-icon-small.png). 
 (NOTE: insert screen shot here with Favorite as part of this menu - same as above ones but with Favorite)
 1. The filter is listed in the **Favorited** section inside the filter panel. 
 1. (Optional) Click the **Favorite** icon again to remove the filter from the list of favorite filters

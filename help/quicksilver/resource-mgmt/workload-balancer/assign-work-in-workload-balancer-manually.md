@@ -7,9 +7,9 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '733'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td>Contribute对项目、任务和问题（包括制定工作）的权限或更高</td> 
+   <td>包含制定工作分派的项目、任务和问题的Contribute权限或更高版本</td> 
   </tr> 
  </tbody> 
 </table>
@@ -77,9 +77,9 @@ ht-degree: 1%
 
    转到&#x200B;**已分配的工作**&#x200B;区域并展开用户的名称以查看分配给他们的工作项（如果要重新分配其项目）。
 
-1. 单击工作项名称左侧的&#x200B;**更多菜单** ![](assets/qs-more-menu.png)，然后单击&#x200B;**将此工作项分配给**。
+1. 单击工作项名称左侧的&#x200B;**更多菜单** ![更多菜单](assets/qs-more-menu.png)，然后单击&#x200B;**将此菜单分配给**。
 
-   ![](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
+   ![将此分配给](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 
    >[!TIP]
    >
@@ -101,7 +101,7 @@ ht-degree: 1%
    > 您必须在访问级别中启用“查看联系信息”设置，用户才能查看用户的电子邮件。 有关信息，请参阅[授予用户访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)。
 
 
-   ![](assets/assignments-box-with-advanced-assignments-delegations-wb.png)
+   ![高级工作](assets/assignments-box-with-advanced-assignments-delegations-wb.png)
 
    >[!TIP]
    >
@@ -130,7 +130,7 @@ ht-degree: 1%
 
      有关创建高级工作分配的更多信息，请参阅[创建高级工作分配](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)。
 
-1. （可选）单击&#x200B;**显示分派图标** ![](assets/show-allocations-icon-small.png)，然后单击&#x200B;**更多菜单** ![](assets/qs-more-menu.png) > **编辑分派**。
+1. （可选）单击&#x200B;**显示分派图标** ![显示分派图标](assets/show-allocations-icon-small.png)，然后单击&#x200B;**更多菜单** ![更多菜单](assets/qs-more-menu.png) > **编辑分派项**。
 
    或
 
