@@ -2,25 +2,25 @@
 content-type: overview
 product-area: portfolios
 navigation-topic: portfolio-optimizer
-title: Portfolio优化器得分概述
-description: 您可以在Portfolio优化程序中找到Portfolio优化程序分数。 它显示在每个项目的[!UICONTROL 得分]列中。 表示项目组合中每个项目的得分。
+title: Portfolio Optimizer得分概述
+description: 您可以在Portfolio Optimizer中找到Portfolio Optimizer得分。 它显示在每个项目的[!UICONTROL 得分]列中。 表示项目组合中每个项目的得分。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 4451b1a3-57ae-4c66-a6a1-a85bd51a1648
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Portfolio优化器]得分概述
+# [!UICONTROL Portfolio Optimizer]得分概述
 
 <!--Audited: 01/2025-->
 
-您可以在[!UICONTROL Portfolio优化器]中找到[!UICONTROL Portfolio优化器]分数。 它显示在每个项目的&#x200B;**[!UICONTROL 得分]**&#x200B;列中。 表示项目组合中每个项目的得分。
+您可以在[!UICONTROL Portfolio Optimizer]中找到[!UICONTROL Portfolio Optimizer]分数。 它显示在每个项目的&#x200B;**[!UICONTROL 得分]**&#x200B;列中。 表示项目组合中每个项目的得分。
 
-有关查找[!UICONTROL Portfolio优化器]的信息，请参阅文章[[!UICONTROL Portfolio优化器]概述](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)。
+有关查找[!UICONTROL Portfolio Optimizer]的信息，请参阅文章[[!UICONTROL Portfolio Optimizer]概述](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)。
 
 有关[!DNL Adobe Workfront]如何使用项目得分和其他项目信息在[!UICONTROL Portfolio优化器]中优化项目的信息，请参阅[在Portfolio优化器中优化项目](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)。
 
@@ -30,21 +30,21 @@ ht-degree: 0%
 
 根据完成记分卡后获得的点数计算项目的对齐分数。 然后，将使用该得分确定项目组合匹配度分数。 一致性分数以百分比显示。
 
-项目的对齐分数显示在[!UICONTROL Portfolio优化程序]的&#x200B;**[!UICONTROL 对齐]**&#x200B;列或[!UICONTROL 业务案例摘要]的[!UICONTROL 对齐]字段中。
+项目的对齐分数显示在[!UICONTROL Portfolio优化器]的&#x200B;**[!UICONTROL 对齐]**&#x200B;列或[!UICONTROL 业务案例摘要]的[!UICONTROL 对齐]字段中。
 
-![](assets/business-case-summary-aligned-field-highlighted.png)
+![业务案例摘要](assets/business-case-summary-aligned-field-highlighted.png)
 
-![](assets/project-alignment-score-portfolio-optimizer-highlighted-350x174.png)
+![项目一致性分数](assets/project-alignment-score-portfolio-optimizer-highlighted-350x174.png)
 
 有关生成项目对齐分数的详细信息，请参阅文章[将记分卡应用于项目并生成对齐分数](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)。
 
-[!UICONTROL 项目组合优化器]得分是在[!UICONTROL 项目组合优化器]中自动计算的Portfolio，可根据它来确定项目的优先级。 项目组合优化程序得分显示为指示符图标，并带有数字，它显示在[!UICONTROL Portfolio优化程序]的&#x200B;**[!UICONTROL 得分]**&#x200B;列中。
+[!UICONTROL 项目组合优化器]得分是在[!UICONTROL Portfolio优化器]中自动计算的排名，可根据它来确定项目的优先级。 项目组合优化器得分显示为指示符图标，并带有数字，它显示在[!UICONTROL Portfolio优化器]的&#x200B;**[!UICONTROL 得分]**&#x200B;列中。
 
 >[!NOTE]
 >
->只有当项目的商业案例完成时，才能在[!UICONTROL Portfolio优化器]中对其评分。 有关完成业务案例的更多信息，请参阅文章[[!UICONTROL 为项目创建业务案例]](../../../manage-work/projects/define-a-business-case/create-business-case.md)。
+>只有当项目的商业案例完成时，才能在[!UICONTROL Portfolio Optimizer]中对其评分。 有关完成业务案例的更多信息，请参阅文章[[!UICONTROL 为项目创建业务案例]](../../../manage-work/projects/define-a-business-case/create-business-case.md)。
 
-![](assets/portfolio-optimizer-project-score-highlighted-350x132.png)
+![项目得分](assets/portfolio-optimizer-project-score-highlighted-350x132.png)
 
 根据以下类别的重要性计算每个项目的得分：
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 * [!UICONTROL 收益风险]
 * [!UICONTROL ROI]
 
-## 计算[!UICONTROL Portfolio优化器]得分
+## 计算[!UICONTROL Portfolio优化器]分数
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This was edited based on this issue, per Anna: https://hub.workfront.com/issue/603d0c58000095ea0bc00ce5e2110693/overview)</p>
@@ -87,7 +87,7 @@ ht-degree: 0%
 * [!UICONTROL 收益风险]
 * [!UICONTROL ROI]
 
-![](assets/optimizer-sliding-value-options-350x77.png)
+![滑动值选项](assets/optimizer-sliding-value-options-350x77.png)
 
 有关如何优化项目组合中的项目的信息，请参阅[在[!UICONTROL Portfolio优化器]](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)中优化项目。
 

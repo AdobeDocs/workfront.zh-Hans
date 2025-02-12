@@ -6,9 +6,9 @@ description: 您可以定义问题的优先级，以指示问题的重要性。
 author: Alina
 feature: Work Management
 exl-id: eff5c9e8-1908-4654-9629-e20c0ce2a225
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '371'
 ht-degree: 2%
 
 ---
@@ -103,7 +103,7 @@ Adobe Workfront管理员可以在Workfront中修改优先级标签，也可以�
 
 1. 单击&#x200B;**基本信息**&#x200B;区域中的&#x200B;**优先级**&#x200B;字段。
 
-   ![](assets/nwe-issue-priority-field-in-details-highlighted-350x126.png)
+   ![问题优先级](assets/nwe-issue-priority-field-in-details-highlighted-350x126.png)
 
 1. 为&#x200B;**优先级**&#x200B;字段选择一个值。
 

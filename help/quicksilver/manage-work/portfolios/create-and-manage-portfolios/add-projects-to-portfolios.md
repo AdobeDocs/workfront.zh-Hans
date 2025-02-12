@@ -6,9 +6,9 @@ description: 我们建议您在启动项目时将项目添加到项目组合。 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别</td> 
-   <td> <p>[！UICONTROL Edit]访问Portfolio</p> <p>[！UICONTROL Edit]对项目的访问权限</p> </td> 
+   <td> <p>[！UICONTROL Edit]访问项目组合</p> <p>[！UICONTROL Edit]对项目的访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 1. 转到项目组合，然后单击左侧面板中的&#x200B;**[!UICONTROL 项目]**。
 
-   ![](assets/qs-portfolio-with-projects-350x90.png)
+   ![Portfolio项目](assets/qs-portfolio-with-projects-350x90.png)
 
 1. 单击&#x200B;**[!UICONTROL 新建项目]**&#x200B;并选择添加项目的方法。
 
@@ -98,11 +98,11 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-   ![](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
+   ![新项目下拉列表](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
 1. （视情况而定）如果您选择添加现有项目，请在&#x200B;**[!UICONTROL 添加项目]**&#x200B;框中开始键入项目名称，然后在项目出现在列表中时单击它们。 您可以一次添加多个项目。
 
-   ![](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
+   ![添加现有项目](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
 
 1. 单击&#x200B;**[!UICONTROL 添加项目]**。
 

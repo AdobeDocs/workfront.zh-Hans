@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1540'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>Contribute或更高权限，能够向任务或创建问题的项目添加问题</p> <p> 有关向问题授予权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共享问题</a></p> <p>有关请求其他权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>Contribute或更高权限，能够将“问题”添加到您创建问题的任务或项目</p> <p> 有关向问题授予权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共享问题</a></p> <p>有关请求其他权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -111,7 +111,7 @@ To create an issue on a task or a project:
 1. (Conditional) If the project creator created Queue Topics or Topic Groups on the project they are added to the new issue form. Specify the **Topic Group** or the **Queue Topic** of your new issue. Topic Groups and Queue Topics have names customized to your environment.  
    For more information about creating Topic Groups, see [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). For more information about creating Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
-   ![](assets/new-issue-screen-when-creating-issue-from-list-project-level-nwe-350x422.png)
+   ![New issue screen](assets/new-issue-screen-when-creating-issue-from-list-project-level-nwe-350x422.png)
 
    * If there is only one Queue Topic set on the project, it is displayed automatically.
    * If the Topic Group does not have any Queue Topics or Topic Groups under it, nothing is available in the Topic Group drop-down.
@@ -163,7 +163,7 @@ Issues can be assigned to multiple users, job roles or to a team. For more infor
 1. 单击问题列表顶部的&#x200B;**新建问题**。
 新问题框随即显示。
 
-   ![](assets/new-issue-box-matches-new-request-ui.png)
+   ![新问题框](assets/new-issue-box-matches-new-request-ui.png)
 
 1. （视情况而定）如果项目创建者在项目中创建了“队列主题”或“主题组”，则它们将被添加到新问题表单中。 指定新问题的&#x200B;**主题组**&#x200B;或&#x200B;**队列主题**。 “主题组”和“队列主题”的名称已根据您的环境定制。\
    有关创建主题组的详细信息，请参阅[创建主题组](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)。 有关创建队列主题的详细信息，请参阅[创建队列主题](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)。
@@ -231,7 +231,7 @@ Issues can be assigned to multiple users, job roles or to a team. For more infor
    >
    >如果在编辑项目框中取消选中允许用户添加问题内联设置，则此选项将灰显。 有关信息，请参阅[编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md)。
 
-   ![](assets/add-more-issues-button-highlighted-issue-list-nwe-350x272.png)
+   ![添加更多问题按钮](assets/add-more-issues-button-highlighted-issue-list-nwe-350x272.png)
 
 1. 在名称字段中开始键入问题的名称，然后继续内联添加有关问题的更多信息。
 

@@ -7,9 +7,9 @@ description: 可解析对象是一个问题，其解决方案与解析对象绑�
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1778'
+source-wordcount: '1788'
 ht-degree: 1%
 
 ---
@@ -79,10 +79,10 @@ The default status of the issue is controlled by the status of the project or ta
 存在以下情况：
 
 * 如果Workfront或组管理员具有&#x200B;**保留原始问题并将其解决方案与任务绑定**、**保留原始问题并将其解决方案与项目绑定**&#x200B;已选中，且&#x200B;**允许在转换期间更改这些设置**&#x200B;未选中，则您将问题转换为任务或项目时无法更改这些设置。\
-  ![](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
+  ![项目首选项问题区域](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
 
 * 如果Workfront或组管理员具有&#x200B;**保留原始问题并将其解决方案与任务绑定**&#x200B;和&#x200B;**保留原始问题并将其解决方案与项目绑定**（已选中或未选中），并且&#x200B;**允许在转换期间更改这些设置**&#x200B;选定项，则您将能够在将问题转换为任务或项目时更改这些设置。\
-  ![](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
+  ![保留问题的选项](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
 
 有关将问题转化为任务和项目的更多信息，请参阅[在Adobe Workfront中转化问题的概述](../../../manage-work/issues/convert-issues/convert-issues.md)。
 
@@ -202,7 +202,7 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 在问题列表中，您可以通过在&#x200B;**状态图标**&#x200B;或&#x200B;**标志**&#x200B;列中查找此图标来识别标记为通过状态图标解析对象的问题：
 
-![](assets/ro1.png)
+![解析对象](assets/ro1.png)
 
 ## 在报告中查看可解析和解析对象信息
 
@@ -225,43 +225,43 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
  <tbody> 
   <tr> 
    <td><strong>具有可解析项</strong>：如果项目或任务具有与其关联的可解析问题，则显示<strong>True</strong>值；否则显示<strong>False</strong>值。</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td><strong>原始问题名称、原始问题输入日期、创建者姓名</strong>：显示原始问题的名称和输入日期，以及在文本模式自定义视图中创建问题的用户的名称。<br>有关为项目或任务报告或列表构建文本模式自定义视图以显示有关原始问题的信息的详细信息，请参阅<a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">视图：在任务或项目列表中显示原始问题信息</a>。<br></td> 
    <td> </td> 
-   <td> ✓ {\f13 }</td> 
-   <td> ✓ {\f13 }</td> 
+   <td> ✓</td> 
+   <td> ✓</td> 
   </tr> 
   <tr> 
    <td> <p><strong>可解析对象：</strong>以文本模式自定义视图为项目、任务报告或列表显示所有可解析对象的列表。</p> <p>有关生成此视图的详细信息，请参阅<a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md" class="MCXref xref">视图：任务或项目报告中的可解析对象</a></p> </td> 
    <td> </td> 
-   <td>✓ {\f13 }</td> 
-   <td> ✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td> ✓</td> 
   </tr> 
   <tr> 
    <td><strong>转换的问题发起人</strong>：显示有关最初记录问题的用户的信息，该用户后来被转换为任务。 </td> 
    <td> </td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td><strong>解决项目</strong>：显示有关解决项目的信息，该信息已从原始问题转换而来，或手动指定为问题的解决对象。</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td><strong>解决任务</strong>：显示有关解决任务的信息，该任务已从原始问题转换而来，或手动指定为问题的解决对象。</td> 
-   <td>✓ {\f13 } </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td><strong>解决问题</strong>：显示有关被手动指定为问题的解决对象的解决问题的信息。</td> 
-   <td> ✓ {\f13 }</td> 
+   <td> ✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 

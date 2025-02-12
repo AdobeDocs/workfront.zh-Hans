@@ -6,9 +6,9 @@ description: Portfolio是争夺相同资源、预算和计划的项目集合。 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '671'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Portfolio是争夺相同资源、预算和计划的项目集合。 Portfolio中的项目非常相似，以至于它们会使用相同的资源池并根据相同的记分卡进行衡量。
 
-您可以使用Portfolio对属于同一产品线、部门、部门、公司或其他业务部门的项目进行分组。
+您可以使用项目组合对属于同一产品线、部门、部门、公司或其他业务部门的项目进行分组。
 
 ## 访问要求
 
@@ -40,7 +40,7 @@ Portfolio是争夺相同资源、预算和计划的项目集合。 Portfolio中�
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[！UICONTROL Edit]对Portfolio的访问权限</p>  </td> 
+   <td> <p>[！UICONTROL Edit]对项目组合的访问权限</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
@@ -57,7 +57,7 @@ Portfolio是争夺相同资源、预算和计划的项目集合。 Portfolio中�
 
 您可以使用以下方法之一在Workfront中创建项目组合：
 
-* 从主菜单的Portfolio区域开始从头开始创建项目组合。 本文介绍了如何从头开始创建项目组合。
+* 从主菜单的项目组合区域开始从头开始创建项目组合。 本文介绍了如何从头开始创建项目组合。
 
 * 使用kick-start导入项目组合。
 
@@ -78,15 +78,15 @@ Portfolio是争夺相同资源、预算和计划的项目集合。 Portfolio中�
 
 {{step1-click-main-menu}}
 
-1. 单击&#x200B;**[!UICONTROL Portfolio]**。
+1. 单击&#x200B;**[!UICONTROL 项目组合]**。
 1. 单击&#x200B;**[!UICONTROL 新建Portfolio]**。
-1. 将&#x200B;**[!UICONTROL 无标题Portfolio]**&#x200B;替换为您要为项目组合指定的名称。
+1. 将&#x200B;**[!UICONTROL 无标题的Portfolio]**&#x200B;替换为您要为项目组合使用的名称。
 
    名称最多可包含255个字符。
 
-1. （可选）单击页面顶部标题中&#x200B;**[!UICONTROL Portfolio管理器]**&#x200B;下的名称，为该项目组合分配其他管理器。
+1. （可选）单击页面顶部标题中&#x200B;**[!UICONTROL Portfolio Manager]**&#x200B;下的名称，为该项目组合分配其他经理。
 
-   ![](assets/portfolio-manager-name-350x51.jpg)
+   ![Portfolio管理器名称](assets/portfolio-manager-name-350x51.jpg)
 
    作为项目组合的创建者，默认情况下您被分配为项目组合经理。
 
@@ -102,8 +102,8 @@ Portfolio是争夺相同资源、预算和计划的项目集合。 Portfolio中�
       <td> <p>键入Portfolio的描述以指示其独特之处。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROLPortfolio管理器]</td> 
-      <td> <p>开始键入要指定为项目组合经理的用户名称，然后当该用户出现在列表中时将其选定。 这与[！UICONTROLPortfolio所有者]相同。 他可以监督项目组合中定义的工作并批准业务案例。</p> <p>重要信息：当您指定某个人作为[！UICONTROLPortfolio管理员]时，该人员会自动获得对项目组合、项目和项目组合中的项目的[！UICONTROL管理]权限。 </p> <p>提示：您还可以更新页面顶部标题中的[！UICONTROLPortfolio管理器]。</p> </td> 
+      <td role="rowheader">[！UICONTROL Portfolio Manager]</td> 
+      <td> <p>开始键入要指定为项目组合经理的用户名称，然后当该用户出现在列表中时将其选定。 这与[！UICONTROL Portfolio Owner]相同。 他可以监督项目组合中定义的工作并批准业务案例。</p> <p>重要信息：当您指定某个用户作为[！UICONTROL Portfolio Manager]时，该用户会自动获得对该项目组合、该项目组合中项目群和项目群的[！UICONTROL Manager]权限。 </p> <p>提示：您还可以更新页面顶部标题中的[！UICONTROL Portfolio Manager]。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">组 </td> 
@@ -125,7 +125,7 @@ Portfolio是争夺相同资源、预算和计划的项目集合。 Portfolio中�
 
 1. （可选）单击左侧面板中的&#x200B;**[!UICONTROL 项目]**，然后单击&#x200B;**[!UICONTROL 添加项目]**&#x200B;以将项目添加到项目组合。
 
-   有关将项目添加到Portfolio的详细信息，请参阅[将项目添加到项目组合](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)。
+   有关将项目添加到Portfolio的更多信息，请参阅[将项目添加到项目组合](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

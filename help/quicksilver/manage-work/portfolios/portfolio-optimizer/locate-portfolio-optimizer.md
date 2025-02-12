@@ -1,21 +1,21 @@
 ---
 product-area: portfolios;projects
 navigation-topic: portfolio-optimizer
-title: 找到Portfolio优化器
-description: 访问项目组合时，您可以找到[!UICONTROL Portfolio优化器]。
+title: 找到Portfolio Optimizer
+description: 访问项目组合时，您可以找到[!UICONTROL Portfolio Optimizer]。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: de9abb4e-0bf2-4673-8be1-3f0f35e17eaf
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
 
 # 找到[!UICONTROL Portfolio优化器]
 
-访问项目组合时，您可以找到[!UICONTROL Portfolio优化器]。
+访问项目组合时，您可以找到[!UICONTROL Portfolio Optimizer]。
 
 ## 访问要求
 
@@ -38,7 +38,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>[！UICONTROL Edit]对Portfolio和项目的访问权限</p>  </td>
+   <td> <p>[！UICONTROL Edit]对项目组合和项目的访问权限</p>  </td>
 </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 ## 找到[!UICONTROL Portfolio优化器]
 
-1. 从&#x200B;**[!UICONTROL 主菜单]**，单击&#x200B;**[!UICONTROL Portfolio]**。
+1. 从&#x200B;**[!UICONTROL 主菜单]**，单击&#x200B;**[!UICONTROL 项目组合]**。
 
    默认情况下，将显示您拥有的项目组合。
 
@@ -61,6 +61,6 @@ ht-degree: 0%
 1. 单击项目组合名称以访问它。
 1. 单击左侧面板中的&#x200B;**[!UICONTROL Portfolio优化]**。
 
-   显示[!UICONTROL Portfolio优化器]。
+   此时将显示[!UICONTROL Portfolio优化器]。
 
-   ![](assets/nwe-portfolio-optimizer-350x83.png)
+   ![Portfolio优化器](assets/nwe-portfolio-optimizer-350x83.png)

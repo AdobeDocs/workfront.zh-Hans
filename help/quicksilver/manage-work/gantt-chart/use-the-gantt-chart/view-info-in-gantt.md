@@ -5,9 +5,9 @@ description: 任务列表甘特图和项目列表甘特图显示有关项目和�
 author: Alina
 feature: Work Management
 exl-id: e6b55699-0831-40d4-a997-6fe3f8828ee1
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '918'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
 您可以直接从以下区域的项目列表中查看项目的任务信息：
 
 * 在[!UICONTROL 项目]区域
-* 在Portfolio内
+* 在Portfolio中
 * 在项目中
 
 要从项目列表中查看项目中的任务，请执行以下操作：
@@ -79,7 +79,7 @@ ht-degree: 0%
 
    此时将显示项目列表。
 
-1. 单击屏幕右上角的&#x200B;**[!UICONTROL 甘特图]**&#x200B;图标![](assets/gantt-icon-nwe.png)。
+1. 单击屏幕右上角的&#x200B;**[!UICONTROL 甘特图]**&#x200B;图标![甘特图](assets/gantt-icon-nwe.png)。
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: images conditioned for classic and nwe) <br></p>
@@ -113,7 +113,7 @@ ht-degree: 0%
 
 1. 在[!UICONTROL 甘特图]中，单击时间范围下拉菜单。
 
-   ![](assets/timeline-options.png)
+   ![时间线选项](assets/timeline-options.png)
 
 1. 从以下可用选项中选择时间范围：
 

@@ -6,9 +6,9 @@ description: 您可以在项目和任务之间移动问题。
 author: Alina
 feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '887'
 ht-degree: 1%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理问题的权限</p> <p>Contribute对要将问题移动到的项目的权限，以及添加问题的功能。</td> 
+   <td> <p>管理问题的权限</p> <p>通过添加问题的功能，向将问题移动到的项目分配权限。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -91,7 +91,7 @@ ht-degree: 1%
 1. 如果您选择转到项目，请单击左侧面板中的&#x200B;**问题**。
 1. 选择要移动的一个或多个问题，然后单击问题列表顶部的&#x200B;**更多菜单**，然后单击&#x200B;**移至**。
 
-   ![](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
+   ![复制并移动到链接](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
 
 1. 继续移动问题，如从步骤2开始的[移动单个问题](#move-a-single-issue)部分中所述。
 
@@ -101,13 +101,13 @@ ht-degree: 1%
 
 ### 移动单个问题
 
-1. 转到要移动的问题，单击问题名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)，然后单击&#x200B;**移至**。
+1. 转到要移动的问题，单击问题名称右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-icon.png)，然后单击&#x200B;**移至**。
 
-   ![](assets/nwe-move-at-issue-level-highlighted-350x579.png)
+   ![在问题级别移动](assets/nwe-move-at-issue-level-highlighted-350x579.png)
 
    显示&#x200B;**移动问题**&#x200B;框。
 
-   ![](assets/move-issue-box-nwe-350x280.png)
+   ![移动问题框](assets/move-issue-box-nwe-350x280.png)
 
 1. 在&#x200B;**选择目标项目**&#x200B;部分中，指定要将问题移动到的项目的名称。 默认显示当前项目的名称。
 
@@ -118,7 +118,7 @@ ht-degree: 1%
 1. （视情况而定）如果您无权将问题移动到项目，请单击&#x200B;**请求访问权限**。
 1. （视情况而定）如果您有权将问题添加到目标项目上的任务之一，请继续移动选定目标项目上的问题而不请求访问权限。
 
-   ![](assets/move-issue-request-access-from-project-nwe-350x118.png)
+   ![移动问题并请求访问权限](assets/move-issue-request-access-from-project-nwe-350x118.png)
 
    >[!TIP]
    >

@@ -6,9 +6,9 @@ description: 您可以复制问题或请求，并将其保存在同一项目或�
 author: Alina
 feature: Work Management
 exl-id: a28adc22-825f-401e-9ed2-efddaa297b8d
-source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1064'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理问题的权限</p> <p>您要将问题复制到其中的项目的Contribute权限，并能够添加问题。</p> <p> 有关向问题授予权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共享问题</a></p> <p>有关请求其他权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>管理问题的权限</p> <p>将权限分配给要将问题复制到的项目，并具有“添加问题”功能。</p> <p> 有关向问题授予权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共享问题</a></p> <p>有关请求其他权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -95,7 +95,7 @@ ht-degree: 1%
 1. 如果您选择转到项目，请单击左侧面板中的&#x200B;**问题**。
 1. 选择要复制的一个或多个问题，然后单击问题列表顶部的&#x200B;**更多菜单**，然后单击&#x200B;**复制到**。
 
-   ![](assets/copy-issue-in-list-nwe-350x169.png)
+   ![复制列表中的问题](assets/copy-issue-in-list-nwe-350x169.png)
 
 1. 继续复制问题，如从步骤2开始的[复制单个问题](#copy-a-single-issue)部分中所述。
 
@@ -109,13 +109,13 @@ ht-degree: 1%
 
 您可以在查看时复制一个问题。
 
-1. 转到要复制的问题，然后单击问题名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)，然后单击&#x200B;**复制**。
+1. 转到要复制的问题，然后单击问题名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-icon.png)，然后&#x200B;**复制**&#x200B;到。
 
-   ![](assets/nwe-copy-at-issue-level-highlighted-350x580.png)
+   ![在问题级别](assets/nwe-copy-at-issue-level-highlighted-350x580.png)复制
 
    显示&#x200B;**复制问题**&#x200B;框。
 
-   ![](assets/copy-issue-box-nwe-350x285.png)
+   ![复制问题框](assets/copy-issue-box-nwe-350x285.png)
 
 1. 在&#x200B;**选择目标项目**&#x200B;部分中，指定要复制问题的项目的名称。 默认显示当前项目的名称。
 
@@ -126,7 +126,7 @@ ht-degree: 1%
 1. （视情况而定）如果您无权将问题复制到项目，请单击&#x200B;**请求访问权限**。
 1. （视情况而定）如果您有权将问题添加到目标项目上的任务之一，请继续将问题复制到选定的目标项目，而不请求访问权限。
 
-   ![](assets/copy-issue-request-access-from-project-nwe-350x125.png)
+   ![复制问题并请求访问权限](assets/copy-issue-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >
@@ -143,7 +143,7 @@ ht-degree: 1%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">分配</td> 
+      <td role="rowheader">任务</td> 
       <td>删除分配给问题的用户、工作角色或团队。</td> 
      </tr> 
      <tr> 

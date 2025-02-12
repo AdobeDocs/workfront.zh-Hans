@@ -6,9 +6,9 @@ description: 在Adobe Workfront中，项目请求显示为状态为[!UICONTROL �
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1acfb885-0da3-495d-ba66-e80e339e90de
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>对Portfolio的[！UICONTROL View]访问权限或更高版本</p> <p>[！UICONTROL Edit]对项目的访问权限</p>  </td> 
+   <td> <p>对项目组合的[！UICONTROL视图]或更高访问权限</p> <p>[！UICONTROL Edit]对项目的访问权限</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
@@ -99,7 +99,7 @@ ht-degree: 0%
 
    * 在&#x200B;**[!UICONTROL 状态]**&#x200B;下拉菜单中，将项目的状态更改为任何其他状态。
 
-     ![](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
+     ![从下拉列表中更改项目状态](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
  
 
  

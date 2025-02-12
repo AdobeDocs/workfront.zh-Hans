@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '2523'
+source-wordcount: '2551'
 ht-degree: 2%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 2%
 </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>Contribute对问题的权限，以便编辑详细信息区域中的以下字段： </p>
+   <td> <p>向问题贡献权限以编辑详细信息区域中的以下字段： </p>
    <ul>
    <li>描述</li>
    <li>状态</li>
@@ -74,7 +74,7 @@ ht-degree: 2%
 1. （可选）单击&#x200B;**任务**，然后单击任务的名称以打开该任务。
 1. 单击左侧面板中的&#x200B;**问题**。
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
+   ![问题图标](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. （可选）要编辑有关问题的有限信息，请单击左侧面板中的&#x200B;**问题详细信息**。
 
@@ -85,9 +85,9 @@ ht-degree: 2%
    要编辑“详细信息”部分中的信息，请执行以下操作：
 
    1. （可选）单击右上角的&#x200B;**全部折叠**&#x200B;图标以折叠所有区域。
-   1. （可选且有条件）折叠区域时，单击每个区域旁边的&#x200B;**向右箭头** ![](assets/right-pointing-arrow.png)以展开要编辑的区域。
+   1. （可选且有条件）当某个区域折叠时，单击每个区域旁边的&#x200B;**向右箭头** ![向右箭头](assets/right-pointing-arrow.png)以展开要编辑的区域。
    1. （可选）要附加自定义表单，请在&#x200B;**添加自定义表单**&#x200B;字段中开始键入表单的名称，然后在表单显示在列表中时将其选中，然后单击&#x200B;**保存更改**。
-   1. （可选）单击&#x200B;**导出**&#x200B;图标![](assets/export.png)以将概述和自定义表单信息导出到PDF文件，然后单击&#x200B;**导出**。 从以下项中选择：
+   1. （可选）单击&#x200B;**导出**&#x200B;图标![导出图标](assets/export.png)以将概述和自定义表单信息导出到PDF文件，然后单击&#x200B;**导出**。 从以下项中选择：
 
       * 选择全部（仅在至少附加一个自定义表单时显示）
       * 概述
@@ -95,7 +95,7 @@ ht-degree: 2%
 
       PDF文件将下载到您的计算机。
 
-      ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![导出问题详细信息](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       有关详细信息，请参阅[导出自定义表单和对象详细信息](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)。
 
@@ -119,7 +119,7 @@ ht-degree: 2%
 
    * [问题名称](#issue-name)
    * [概述](#overview)
-   * [分配](#assignments)
+   * [任务](#assignments)
    * [自定义表单](#Custom%C2%A0F)
    * [设置](#settings)
 
@@ -134,7 +134,7 @@ ht-degree: 2%
 1. 按如上所述开始编辑问题。
 1. 单击&#x200B;**问题名称**。
 
-   ![](assets/issue-name-section-edit-issue-box-nwe-350x127.png)
+   ![问题名称部分](assets/issue-name-section-edit-issue-box-nwe-350x127.png)
 
 1. 更新&#x200B;**问题名称**&#x200B;字段。
 1. 单击&#x200B;**保存**&#x200B;或继续编辑以下部分。
@@ -144,7 +144,7 @@ ht-degree: 2%
 1. 按如上所述开始编辑问题。
 1. 单击&#x200B;**概述**。
 
-   ![](assets/overview-section-edit-issue-box-nwe-350x284.png)
+   ![问题概述部分](assets/overview-section-edit-issue-box-nwe-350x284.png)
 
 1. 更新或查看下表中的任何字段：
 
@@ -266,12 +266,12 @@ ht-degree: 2%
 
 1. 单击&#x200B;**保存**&#x200B;或继续编辑以下部分。
 
-#### 分配 {#assignments}
+#### 任务 {#assignments}
 
 1. 按如上所述开始编辑问题。
 1. 单击左侧面板中的&#x200B;**工作**。
 
-   ![](assets/assignments-section-edit-issue-box-nwe-350x230.png)
+   ![问题分派分区](assets/assignments-section-edit-issue-box-nwe-350x230.png)
 
 1. 单击&#x200B;**搜索人员、角色和团队**，然后开始键入要分配给任务的用户、角色或团队的名称，然后单击该名称，或当该名称显示在列表中时按Enter键。
 
@@ -322,7 +322,7 @@ ht-degree: 2%
 1. 按如上所述开始编辑问题。
 1. 单击&#x200B;**自定义Forms**。
 
-   ![](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
+   ![问题自定义表单分区](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
 
 1. 在&#x200B;**添加自定义表单**&#x200B;字段中，选择要与问题关联的一个或多个自定义表单。 您必须先构建自定义表单，然后才可在此字段中选择它们。 列表中仅显示活动的自定义表单。 有关生成自定义表单的详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。 您最多可以为一个问题添加十个自定义表单。
 
@@ -339,7 +339,7 @@ ht-degree: 2%
 1. 按如上所述开始编辑问题。
 1. 单击&#x200B;**设置**。
 
-   ![](assets/settings-section-edit-issue-box-nwe-350x240.png)
+   ![问题设置图标](assets/settings-section-edit-issue-box-nwe-350x240.png)
 
    更新以下信息：
 
@@ -383,13 +383,13 @@ ht-degree: 2%
 
 您的系统或组管理员可以自定义您在问题标题中看到的字段。 有关信息，请参阅[使用布局模板自定义对象标头](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)。
 
-![](assets/issue-header-350x19.png)
+![问题标头](assets/issue-header-350x19.png)
 
 默认情况下，问题标题中包含以下字段：
 
 * 问题名称
 * 完成百分比
-* 分配
+* 任务
 * 计划完成日期和时间
 * 状态
 * 如果在当前审批流程中将您设置为审批者，则做出审批决策

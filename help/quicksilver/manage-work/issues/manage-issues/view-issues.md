@@ -6,9 +6,9 @@ description: 您可以查看与项目、任务或开发周期关联的问题。
 author: Alina
 feature: Work Management
 exl-id: b6791c8f-b356-4235-8b0e-952e29a88952
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1038'
 ht-degree: 0%
 
 ---
@@ -142,7 +142,7 @@ ht-degree: 0%
 
 要添加显示项目在项目报告中是否有问题的图标，请执行以下操作：
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)。
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)。
 1. 单击&#x200B;**报告** > **新报告** > **项目报告**。
 1. 在&#x200B;**显示在此列**&#x200B;字段中，开始键入&#x200B;**状态图标**，然后当图标出现在列表中时将其选定。
 

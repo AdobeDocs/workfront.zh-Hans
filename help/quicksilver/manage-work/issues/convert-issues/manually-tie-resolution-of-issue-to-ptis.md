@@ -6,9 +6,9 @@ description: 您可以手动将问题的解决方案与项目、任务或问题�
 author: Alina
 feature: Work Management
 exl-id: f57f67cb-60b3-4a95-9963-fa339e542551
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 0%
 1. 导航到其解决方案要与另一个问题的解决方案或任务或项目的解决方案关联的问题。
 1. 单击左侧面板中的&#x200B;**问题详细信息**，然后展开&#x200B;**概述**&#x200B;区域。
 
-   ![](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
+   ![问题详细信息图标](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
 
 1. 单击&#x200B;**解析者**&#x200B;字段，并从以下解析对象类型中选择：
 

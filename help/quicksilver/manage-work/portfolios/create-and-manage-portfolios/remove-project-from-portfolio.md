@@ -6,9 +6,9 @@ description: 您可以从项目组合中删除项目并将其与其他项目组�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 8982097e-76ee-497a-aa7c-74c6fbd3002d
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '230'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别</td> 
-   <td> <p>[！UICONTROL Edit]对项目的访问权限</p> <p>[！UICONTROL Edit]对Portfolio的访问权限</p>  </td> 
+   <td> <p>[！UICONTROL Edit]对项目的访问权限</p> <p>[！UICONTROL Edit]对项目组合的访问权限</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
@@ -59,9 +59,9 @@ ht-degree: 1%
 1. 转到Portfolio并单击左侧面板中的&#x200B;**[!UICONTROL 项目]**。
 1. 选择要删除的项目。 
 
-   ![](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
+   ![删除项目按钮](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
 
 1. 单击&#x200B;**[!UICONTROL 删除项目]**。
-1. 单击&#x200B;**[!UICONTROL 删除]**&#x200B;以从[!DNL Workfront]中删除项目，或单击&#x200B;**[!UICONTROL 从Portfolio]**&#x200B;中删除&#x200B;]****[!UICONTROL &#x200B;以从所选Portfolio中删除项目。
+1. 单击&#x200B;**[!UICONTROL 删除]**&#x200B;以从[!DNL Workfront]中删除项目，或单击&#x200B;**[!UICONTROL 从Portfolio]**&#x200B;中删除&#x200B;]****[!UICONTROL &#x200B;以从所选Portfolio中删除该项目。
 
 1. （可选且有条件）查找您从项目组合中删除的项目，并将其与另一个项目组合关联。 有关将项目与项目组合关联的信息，请参阅[将项目添加到项目组合](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)。

@@ -6,9 +6,9 @@ description: 在项目组合中导航
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[！UICONTROL Edit]对项目和Portfolio的访问权限</p>  </td> 
+   <td> <p>[！UICONTROL Edit]对项目和项目组合的访问权限</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
@@ -60,21 +60,21 @@ ht-degree: 0%
 
 ## 在项目组合中导航
 
-1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)。
+1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](assets/main-menu-icon.png)。
 
-1. 单击[!UICONTROL Portfolio]。
+1. 单击[!UICONTROL 项目组合]。
 1. 从&#x200B;**[!UICONTROL 筛选器]**&#x200B;下拉菜单中，选择以下内容：
 
-   * **[!UICONTROL 我拥有的Portfolio]**：包含您被指定为[!UICONTROL Portfolio经理]的项目组合列表。
+   * **[!UICONTROL 我拥有的项目组合]**：包含您被指定为[!UICONTROL Portfolio经理]的项目组合列表。
    * **[!UICONTROL 所有]**：包含您至少拥有查看权限的所有项目组合。
 
-     有关访问Portfolio的详细信息，请参阅[访问级别概述](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)。
-有关Portfolio权限的详细信息，请参阅[共享项目组合](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)。
+     有关访问项目组合的详细信息，请参阅[访问级别概述](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)。
+有关项目组合权限的详细信息，请参阅[共享项目组合](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)。
 
      要添加新项目组合，请参阅[创建项目组合](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)。
 
 1. 单击项目组合名称以访问它。
-以下项目组合绩效指标显示在项目组合内的[!UICONTROL Portfolio详细信息]区域中：
+以下项目组合绩效指标显示在项目组合内的[!UICONTROL Portfolio详细信息]区域：
 
    * 项目组合是否为[!UICONTROL 准时]
    * 项目组合是否为[!UICONTROL 预算]
@@ -109,17 +109,17 @@ ht-degree: 0%
 
 1. （可选）单击左侧面板中的&#x200B;**[!UICONTROL Portfolio优化]**&#x200B;以优化项目组合的性能。
 
-   ![](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
+   具有项目的![Portfolio优化器](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
    >[!IMPORTANT]
    >
-   >您的公司必须具有[!UICONTROL 业务]或更高版本[!DNL Workfront]计划才能访问[!UICONTROL Portfolio优化器]。
+   >您的公司必须具有[!UICONTROL 业务]或更高版本[!DNL Workfront]计划才能访问[!UICONTROL Portfolio Optimizer]。
 
-   有关使用Portfolio优化器的信息，请参阅Portfolio优化器中的[管理项目](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)部分。
+   有关使用Portfolio优化器的信息，请参阅[Portfolio优化器中的管理项目](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)部分。
 
 1. （可选）单击左侧面板中的&#x200B;**文档**&#x200B;以将文档附加到项目组合。
 1. （可选）单击左侧面板中的&#x200B;**[!UICONTROL 更新]**&#x200B;以向项目组合的更新流添加注释。 有关信息，请参阅[更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
-1. （可选）单击&#x200B;**[!UICONTROL 更多]菜单** ![](assets/qs-more-icon-on-an-object.png)以执行以下操作之一：
+1. （可选）单击&#x200B;**[!UICONTROL 更多]菜单** ![更多菜单](assets/qs-more-icon-on-an-object.png)以执行以下操作之一：
 
    * 停用项目组合。 停用项目组合时，您无法再将其与项目级别的项目关联。
    * 删除项目组合。
@@ -130,4 +130,4 @@ ht-degree: 0%
 
    * 与其他用户共享项目组合。
 
-1. （可选）单击项目组合名称右侧的&#x200B;**星形**&#x200B;图标![](assets/qs-star-icon-favorites-39x38.png)以将项目组合添加到收藏夹列表。
+1. （可选）单击项目组合名称右侧的&#x200B;**星形图标**&#x200B;图标![星形图标](assets/qs-star-icon-favorites-39x38.png)以将项目组合添加到收藏夹列表。

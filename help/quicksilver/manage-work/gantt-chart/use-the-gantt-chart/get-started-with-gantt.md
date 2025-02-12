@@ -6,9 +6,9 @@ description: Adobe Workfront中的甘特图提供了任务或项目列表的时�
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
-source-git-commit: 30eb12a4155b218b001b4d235229fbb0fbe40a45
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -69,9 +69,9 @@ Adobe Workfront中的甘特图提供了任务或项目列表的时间线的可�
    * 任务或模板任务，然后单击左侧面板中的&#x200B;[!UICONTROL **子任务**]。
    * 任务报告
 
-1. 单击任务列表顶部的&#x200B;[!UICONTROL **甘特图**]&#x200B;图标![](assets/gantt-icon-nwe.png)。
+1. 单击任务列表顶部的&#x200B;[!UICONTROL **甘特图**]&#x200B;图标![甘特图](assets/gantt-icon-nwe.png)。
 
-   ![](assets/task-list-gantt.png)
+   ![任务列表甘特图](assets/task-list-gantt.png)
 
    任务列表[!UICONTROL 甘特图]将在任务列表的右侧打开。
 
@@ -114,7 +114,7 @@ Adobe Workfront中的甘特图提供了任务或项目列表的时间线的可�
 
 1. 单击项目列表顶部的&#x200B;[!UICONTROL **甘特图**]&#x200B;图标。
 
-   ![](assets/project-list-gantt.png)
+   ![项目列表甘特图](assets/project-list-gantt.png)
 
    项目列表[!UICONTROL 甘特图]打开。
 

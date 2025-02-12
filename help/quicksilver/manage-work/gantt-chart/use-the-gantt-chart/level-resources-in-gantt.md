@@ -6,9 +6,9 @@ description: 有关如何在甘特图中调配资源的信息。
 author: Alina
 feature: Work Management
 exl-id: ba96c01d-03b8-4728-b5e3-b10d227f51b0
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 0%
 * 前置任务关系将优先于资源均衡。
 * 项目的&#x200B;**[!UICONTROL 资源均衡]**&#x200B;需要设置为&#x200B;**[!UICONTROL 手动]**，才能在[!UICONTROL 甘特图]中调整均衡。 如果您拥有项目的管理权限，则可以通过调整项目的此设置并在&#x200B;**[!UICONTROL 编辑项目]**&#x200B;框中选择“**[!UICONTROL 自动]**”而不是“**[!UICONTROL 手动]**”，让系统自动调配资源。
 
-  ![](assets/resource-leveling-mode-350x177.png)
+  ![资源均衡模式](assets/resource-leveling-mode-350x177.png)
 
 * 作为项目所有者或任务受让人，您可以为任务引入均衡延迟，以表示任务极有可能需要额外的时间。 有关向任务添加均衡延迟的信息，请参阅[更新任务均衡延迟](../../../manage-work/tasks/task-information/task-leveling-delay.md)。
 
@@ -83,7 +83,7 @@ ht-degree: 0%
    >
    >启用[!UICONTROL 自动保存]选项时，无法在[!UICONTROL 甘特图]中调配资源。
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![手动设置已启用](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. 单击&#x200B;**[!UICONTROL 级资源]**&#x200B;下拉菜单。
 

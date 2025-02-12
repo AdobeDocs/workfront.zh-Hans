@@ -6,9 +6,9 @@ description: 在Adobe Workfront中将问题转化为项目
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1957'
+source-wordcount: '1975'
 ht-degree: 1%
 
 ---
@@ -69,12 +69,12 @@ ht-degree: 1%
 1. 转到项目，然后单击左侧面板中的&#x200B;**[!UICONTROL 问题]**。
 1. 在显示的问题列表中，执行以下操作之一：
 
-   * 要将问题转换为空白项目，请单击问题名称，单击问题名称右侧的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单![](assets/more-icon.png)，然后单击&#x200B;**[!UICONTROL 转换为空白项目]**。
+   * 若要将问题转换为空白项目，请单击问题名称，单击问题名称右侧的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单![更多](assets/more-icon.png)，然后单击&#x200B;**[!UICONTROL 转换为空白项目]**。
 
 
      或
 
-     在问题列表中选择问题，单击列表顶部的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单![](assets/more-icon.png)，然后单击&#x200B;**[!UICONTROL 转换为空白项目]**。
+     在问题列表中选择问题，单击列表顶部的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单![更多](assets/more-icon.png)，然后单击&#x200B;**[!UICONTROL 转换为空白项目]**。
 
      >[!IMPORTANT]
      >
@@ -122,7 +122,7 @@ ht-degree: 1%
    * 查看附加到问题的自定义表单。 如果他们也是项目自定义表单，则将转移到新项目。
    * 添加更多自定义表单
    * 确保所有必填字段都包含有效信息。
-   * 通过将自定义表单拖动到![](assets/drag-object-icon.png)所需位置来重新排列它们。
+   * 通过将自定义表单拖动到所需位置![拖动图标](assets/drag-object-icon.png)来重新排列它们。
    * 单击任何您不想转移到项目中的表单右侧的&#x200B;**x**&#x200B;图标。 这会从项目中删除表单。
    * 如有必要，请将自定义表单信息从问题传输到项目。
 
@@ -153,7 +153,7 @@ ht-degree: 1%
 您可以使用模板将问题转化为项目。
 
 1. 转到项目，然后单击左侧面板中的&#x200B;**[!UICONTROL 问题]**。
-1. 在显示的问题列表中，单击问题名称，单击问题名称右侧的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单![](assets/more-icon.png)，然后单击&#x200B;**从模板转换为项目**&#x200B;并开始在&#x200B;**搜索模板**&#x200B;框中键入模板的名称，然后单击模板在列表中显示时的名称。 继续执行步骤3。
+1. 在显示的问题列表中，单击问题名称，单击问题名称右侧的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单![更多菜单](assets/more-icon.png)，然后单击&#x200B;**从模板转换为项目**&#x200B;并开始在&#x200B;**搜索模板**&#x200B;框中键入模板名称，然后单击模板在列表中显示时的名称。 继续执行步骤3。
 
    >[!TIP]
    >
@@ -161,7 +161,7 @@ ht-degree: 1%
 
    此时将显示从模板新建项目框。
 
-   ![](assets/new-project-from-template-small-box-with-template-details-panel-nwe-350x279.png)
+   ![从模板新建项目](assets/new-project-from-template-small-box-with-template-details-panel-nwe-350x279.png)
 
    >[!TIP]
    >
@@ -180,7 +180,7 @@ ht-degree: 1%
    * 模板中所有任务的数量
    * 模板自定义表单的名称
 
-1. （可选）将鼠标悬停在模板名称上并单击&#x200B;**收藏夹**&#x200B;图标![](assets/favorites-icon-small.png)以将其标记为收藏以供将来使用。
+1. （可选）将鼠标悬停在模板名称上并单击&#x200B;**收藏夹**&#x200B;图标![收藏夹](assets/favorites-icon-small.png)以将其标记为收藏以供将来使用。
 
    >[!TIP]
    >
@@ -190,7 +190,7 @@ ht-degree: 1%
 
    将打开[!UICONTROL 转换为项目]框。
 
-   ![](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
+   ![转换为项目](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
 
 1. 如果模板中已填充某个字段，则该字段会在[!UICONTROL 转换为项目]框中预填充。 您可以编辑预填充的值以更好地匹配您的项目。 有关详细信息，请参阅[编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md)。
 
@@ -230,7 +230,7 @@ ht-degree: 1%
       * 查看附加到模板的自定义表单。 他们将转移到新项目。
       * 查看附加到问题的自定义表单。 如果他们也是项目表单，则将转移到项目。
       * 确保所有必填字段都包含有效信息。
-      * 通过将自定义表单拖动到![](assets/drag-object-icon.png)所需位置来重新排列它们。
+      * 通过将自定义表单拖动到所需位置![拖动图标](assets/drag-object-icon.png)来重新排列它们。
       * 单击任何您不想转移到项目中的表单右侧的&#x200B;**x**&#x200B;图标。
       * 如有必要，请将自定义表单信息从问题传输到项目。
 

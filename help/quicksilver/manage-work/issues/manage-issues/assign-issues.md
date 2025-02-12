@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 830ad0411084844ace1e1e543c3ebefcb558af80
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1419'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理问题的权限</p> <p> 查看问题所在项目或任务的权限或更高（在分配一个问题时）</p><p>Contribute对问题所在的项目或任务拥有或更高权限（在分配多个问题时）。</p> </td> 
+   <td> <p>管理问题的权限</p> <p> 查看问题所在项目或任务的权限或更高（在分配一个问题时）</p><p>分配多个问题时，向问题所在的项目或任务分配Contribute权限或更高。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -166,7 +166,7 @@ ht-degree: 0%
 
    * 在&#x200B;**分配给**&#x200B;或&#x200B;**分配的**&#x200B;字段中单击，并开始键入要分配给问题的活动用户的名称，然后当该用户显示在列表中时单击它。
 
-     ![](assets/assigned-to-field-task-list-nwe.png)
+     ![已分配给字段](assets/assigned-to-field-task-list-nwe.png)
 
    * 单击&#x200B;**工作总揽**&#x200B;字段并开始键入要分配给问题的活跃用户、工作角色或活跃团队的名称，然后当它显示在列表中时单击它。
 
@@ -181,7 +181,7 @@ ht-degree: 0%
    >您必须在访问级别中启用“查看联系信息”设置，用户才能查看用户的电子邮件。 有关信息，请参阅[授予用户访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)。
 
 
-1. （视情况而定）在“工作总揽”字段中可见时，单击工作总揽框右上角的&#x200B;**人员图标** ![](assets/teams.png)以打开“高级工作”框并创建高级工作。 有关详细信息，请参阅[创建高级工作](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)。
+1. （视情况而定）在“工作总揽”字段中可见时，单击工作总揽框右上角的&#x200B;**人员图标** ![人员图标](assets/teams.png)以打开“高级工作总揽”框并创建高级工作总揽。 有关详细信息，请参阅[创建高级工作](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)。
 
    >[!TIP]
    >
@@ -193,7 +193,7 @@ ht-degree: 0%
 
 1. 转到要批量分配的问题列表。
 1. 选择列表中的多个问题。
-1. 单击&#x200B;**编辑图标** ![](assets/qs-edit-icon.png)。
+1. 单击&#x200B;**编辑图标** ![编辑图标](assets/qs-edit-icon.png)。
 
    将打开&#x200B;**编辑问题**&#x200B;对话框。
 

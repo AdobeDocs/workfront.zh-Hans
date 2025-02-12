@@ -6,9 +6,9 @@ description: 任务列表甘特图显示有关项目或模板中任务的详细�
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
-source-git-commit: e2f6eada24b4e48bce58189ec16447eda89f4a09
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 0%
 1. 转到要修改的项目。
 1. 单击左侧面板中的&#x200B;**[!UICONTROL 任务]**。
 
-   ![](assets/qs-tasks-area-highlighted-in-the-secondary-nav-350x206.png)
+   ![任务区域](assets/qs-tasks-area-highlighted-in-the-secondary-nav-350x206.png)
 
 1. 单击&#x200B;**[!UICONTROL 甘特图]**&#x200B;图标。
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 1. （可选）单击&#x200B;**[!UICONTROL 计划模式]**&#x200B;图标并选择&#x200B;**[!UICONTROL 手动保存标准]**&#x200B;或&#x200B;**[!UICONTROL 时间线计划]**&#x200B;以手动保存更改。
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![手动设置已启用](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. 将鼠标悬停在任务的时间线上，并将时间线指示器拖至其他日期。
 1. 在到达任务的新正确完成日期时放置指示器。
@@ -103,7 +103,7 @@ ht-degree: 0%
 
 1. （可选）单击&#x200B;**[!UICONTROL 计划模式]**&#x200B;图标并选择&#x200B;**[!UICONTROL 手动保存标准]**&#x200B;或&#x200B;**[!UICONTROL 时间线计划]**&#x200B;以手动保存更改。
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![手动设置已启用](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. 要创建前置任务关系，请单击任务的起点，然后将其拖到任务的终点。
 1. 要删除前置任务关系，请单击连接两个任务的前置任务行以将其选定，然后按键盘上的&#x200B;**[!UICONTROL 删除]**。\
@@ -135,7 +135,7 @@ ht-degree: 0%
 
 1. （可选）单击&#x200B;**[!UICONTROL 计划模式]**&#x200B;图标并选择&#x200B;**[!UICONTROL 手动保存标准]**&#x200B;或&#x200B;**[!UICONTROL 时间线计划]**&#x200B;以手动保存更改。
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![手动设置已启用](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. 将鼠标悬停在任务的中心上，并定位多方向箭头。
 1. 单击任务并将其拖动到所需的日期。

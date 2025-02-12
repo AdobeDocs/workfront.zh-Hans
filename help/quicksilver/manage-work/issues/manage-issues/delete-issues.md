@@ -6,9 +6,9 @@ description: 如果您拥有正确的访问权限，则可以删除Adobe Workfro
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '735'
 ht-degree: 1%
 
 ---
@@ -110,7 +110,7 @@ ht-degree: 1%
 1. 单击&#x200B;**项目**。
 1. 单击包含要删除的问题的项目名称。
 1. 单击左侧面板中的&#x200B;**问题**。
-1. 选择一个问题，然后单击列表顶部的&#x200B;**删除**&#x200B;图标![](assets/delete.png)。
+1. 选择一个问题，然后单击列表顶部的&#x200B;**删除**&#x200B;图标![删除图标](assets/delete.png)。
 
 1. 如果允许删除，请单击&#x200B;**是，删除**。\
    您的Workfront管理员可能不允许删除记录小时数的问题。\
@@ -123,12 +123,12 @@ ht-degree: 1%
 1. 单击包含要删除的问题的项目名称。
 1. 单击左侧面板中的&#x200B;**问题**。
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
+   ![问题图标](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. 单击要删除的问题的名称。
 1. 单击问题名称右侧的&#x200B;**更多**&#x200B;菜单。
 
-   ![](assets/qs-issue-more-menu-highlighted-350x469.png)
+   ![问题更多菜单](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. 单击&#x200B;**删除问题**。
 1. 如果允许删除，请单击&#x200B;**是，删除**。

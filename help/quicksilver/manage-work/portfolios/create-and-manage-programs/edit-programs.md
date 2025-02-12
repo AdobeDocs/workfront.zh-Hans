@@ -6,9 +6,9 @@ description: 您可以编辑已创建的程序的信息，或其他用户已创�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1034'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
    >
    >如果要编辑有关程序的所有信息，请转到步骤4。
 
-   ![](assets/program-details-with-a-custom-form-section-nwe-350x137.png)
+   ![包含自定义表单分区的程序详细信息](assets/program-details-with-a-custom-form-section-nwe-350x137.png)
 
    >[!NOTE]
    >
@@ -81,10 +81,10 @@ ht-degree: 0%
    要编辑[!UICONTROL 详细信息]部分中的信息，请执行以下操作：
 
    1. （可选）单击右上角的&#x200B;**[!UICONTROL 全部折叠]**&#x200B;图标以折叠所有区域。
-   1. （可选且有条件）折叠区域时，单击每个区域旁边的&#x200B;**向右箭头** ![](assets/right-pointing-arrow.png)以展开要编辑的区域。
+   1. （可选且有条件）当某个区域折叠时，单击每个区域旁边的&#x200B;**向右箭头** ![向右箭头](assets/right-pointing-arrow.png)以展开要编辑的区域。
    1. 有关[!UICONTROL 程序详细信息]部分中可见字段的信息，请继续编辑[!UICONTROL 编辑程序]框中的程序，如下所述。
    1. （可选）如果未将自定义表单附加到程序，请在&#x200B;**[!UICONTROL 添加自定义表单]**&#x200B;字段中开始键入表单的名称，将其在列表中显示时选择，然后单击&#x200B;**[!UICONTROL 保存更改]**。
-   1. （可选）单击&#x200B;**[!UICONTROL 导出]**&#x200B;图标![](assets/export.png)以将[!UICONTROL 概述]和自定义表单信息导出到PDF文件，然后单击&#x200B;**[!UICONTROL 导出]**。 从以下项中选择：
+   1. （可选）单击&#x200B;**[!UICONTROL 导出]**&#x200B;图标![导出图标](assets/export.png)以将[!UICONTROL 概述]和自定义表单信息导出到PDF文件，然后单击&#x200B;**[!UICONTROL 导出]**。 从以下项中选择：
 
       * 选择全部（仅在至少附加一个自定义表单时显示）
       * [!UICONTROL 概述]
@@ -92,19 +92,19 @@ ht-degree: 0%
 
       PDF文件将下载到您的计算机。
 
-      ![](assets/export-portfolio-details-box-with-export-button-350x368.png)
+      ![导出项目组合详细信息](assets/export-portfolio-details-box-with-export-button-350x368.png)
 
       有关详细信息，请参阅[导出自定义表单和对象详细信息](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)。
 
 
 1. 要编辑有关一个或多个程序的所有信息，请执行下列操作之一：
 
-   * 单击项目名称旁边的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单![](assets/more-icon.png)，然后&#x200B;**[!UICONTROL 编辑]。**
-   * 转到程序列表，并选择要编辑的一个或多个程序，然后单击列表顶部的&#x200B;**[!UICONTROL 编辑]**&#x200B;图标![](assets/edit-icon.png)。
+   * 单击程序名称旁边的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单![更多菜单](assets/more-icon.png)，然后&#x200B;**[!UICONTROL 编辑]。**
+   * 转到程序列表，并选择要编辑的一个或多个程序，然后单击列表顶部的&#x200B;**[!UICONTROL 编辑]**&#x200B;图标![编辑图标](assets/edit-icon.png)。
 
    此时将显示&#x200B;**[!UICONTROL 编辑程序]**&#x200B;对话框。
 
-   ![](assets/edit-program-box-nwe-350x236.png)
+   ![编辑程序框](assets/edit-program-box-nwe-350x236.png)
 
    所有项目群字段在[!UICONTROL 编辑项目群]框中均可用，并且按左侧面板中列出的区域分组。
 
@@ -177,7 +177,7 @@ ht-degree: 0%
 1. 按如上所述开始编辑程序。
 1. 单击&#x200B;**[!UICONTROL 评论]**。
 
-   ![](assets/comment-box-in-program-edit-box-classic-350x195.png)
+   编辑程序框中的![评论框](assets/comment-box-in-program-edit-box-classic-350x195.png)
 
 1. 在&#x200B;**[!UICONTROL 发布更新到程序]**&#x200B;字段中添加评论。
 1. （可选）单击&#x200B;**[!UICONTROL 人员]**&#x200B;图标以向评论添加用户或团队。

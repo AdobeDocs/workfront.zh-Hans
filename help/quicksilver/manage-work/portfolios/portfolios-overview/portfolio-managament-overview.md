@@ -6,9 +6,9 @@ description: Portfolio或项目Portfolio管理(PPM)是对项目列表进行优�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 26fb28ce-0957-4db6-a275-174b1d149180
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '650'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ Portfolio或项目Portfolio管理(PPM)是对项目列表进行优先级划分和
 
 下图说明了[!DNL Workfront]中PPM流程的高级概述：
 
-![](assets/project-portfolio-management-process-diagram.png)
+![项目组合管理流程](assets/project-portfolio-management-process-diagram.png)
 
 * [项目请求](#project-request)
 * [项目审查](#project-review)
@@ -55,19 +55,19 @@ Portfolio或项目Portfolio管理(PPM)是对项目列表进行优先级划分和
 
 ### 项目请求 {#project-request}
 
-项目Portfolio管理从项目请求开始。 在此阶段，项目所有者会创建项目请求，并将其提交给执行委员会或Portfolio经理进行审阅。 这时，他们完成项目的业务案例，然后提交它进行审批。
+项目Portfolio管理从项目请求开始。 在此阶段，项目所有者会创建项目请求，并将其提交给执行委员会或Portfolio经理进行审核。 这时，他们完成项目的业务案例，然后提交它进行审批。
 
 有关创建业务案例和项目请求的更多信息，请参阅[为项目创建业务案例](../../../manage-work/projects/define-a-business-case/create-business-case.md)。
 
 ### 项目审查 {#project-review}
 
-提交项目请求后，Portfolio经理或执行团队会对其进行审阅，并决定是否批准项目。 如果他们批准项目，则为公司项目Portfolio选择项目。
+提交项目请求后，Portfolio经理或执行团队会对其进行审核，并决定是否批准项目。 如果他们批准该项目，则为公司项目Portfolio选择该项目。
 
 有关项目组合的详细信息，请参阅 [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)中的[Portfolio概述。 有关批准业务案例的详细信息，请参阅[批准业务案例](../../../manage-work/projects/define-a-business-case/approve-business-case.md)。
 
 ### 项目组合的最优化 {#portfolio-optimization}
 
-将所有项目添加到项目组合后，Portfolio经理会根据项目的价值、调整情况以及对组织的效益对它们进行优化和优先排序。
+将所有项目添加到项目组合后，Portfolio Manager会根据其价值、调整情况和对组织的好处对其进行优化和优先排序。
 
 有关项目组合优化的更多信息，请参阅[在Portfolio优化器中优化项目](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)。
 
@@ -75,7 +75,7 @@ Portfolio或项目Portfolio管理(PPM)是对项目列表进行优先级划分和
 
 除了优化项目组合的性能和安排项目的优先级之外，资源管理器还确保为项目分配适当的资源。 他们使用[!DNL Workfront]中提供的资源管理工具来评估资源的可用性和分配。
 
-根据资源的可用性，Portfolio管理员可能需要重新安排项目的优先级。
+根据资源的可用性，Portfolio Manager可能需要重新安排项目的优先级。
 
 有关资源管理的详细信息，请参阅[管理资源](../../../resource-mgmt/manage-resources.md)部分。
 

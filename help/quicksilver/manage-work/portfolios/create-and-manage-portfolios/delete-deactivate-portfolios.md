@@ -2,13 +2,13 @@
 product-area: portfolios
 navigation-topic: create-and-manage-portfolios
 title: 删除和停用项目组合
-description: Portfolio是Adobe Workfront中的项目或项目群的集合。 如果您发现某个项目组合与您的系统无关，则可以将其删除或停用。
+description: 项目组合是Adobe Workfront中的项目或项目群的集合。 如果您发现某个项目组合与您的系统无关，则可以将其删除或停用。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--Audited: 2/2024-->
 
-Portfolio是[!DNL Adobe Workfront]中的项目或项目群的集合。 如果您发现某个项目组合与您的系统无关，则可以将其删除或停用。
+项目组合是[!DNL Adobe Workfront]中的项目或项目群的集合。 如果您发现某个项目组合与您的系统无关，则可以将其删除或停用。
 
 我们建议停用不再需要与未来项目关联的项目组合，而不是删除它，以保留有关当前与项目组合及其项目群关联的项目的历史信息。
 
@@ -42,7 +42,7 @@ Portfolio是[!DNL Adobe Workfront]中的项目或项目群的集合。 如果您
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[！UICONTROL Edit]对项目和Portfolio的访问权限</p>  </td> 
+   <td> <p>[！UICONTROL Edit]对项目和项目组合的访问权限</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
@@ -71,22 +71,22 @@ Portfolio是[!DNL Adobe Workfront]中的项目或项目群的集合。 如果您
 
 ## 取消激活项目组合
 
-当您停用项目组合时，您仍然可以从[!UICONTROL Portfolio]区域访问它，但当用户尝试将其添加到项目组合时，它不再显示在项目组合列表中。
+当您停用项目组合时，您仍然可以从[!UICONTROL 项目组合]区域访问该项目组合，但在用户尝试将其添加到项目组合时，它不再显示在项目组合列表中。
 
 >[!NOTE]
 >
->根据您的[!DNL Workfront]或组管理员配置布局模板的方式，[!UICONTROL Portfolio]区域可能不会显示在[!UICONTROL 主菜单]中。 有关详细信息，请参阅[使用布局模板自定义主菜单](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)。
+>根据您的[!DNL Workfront]或组管理员配置布局模板的方式，[!UICONTROL 项目组合]区域可能不会显示在[!UICONTROL 主菜单]中。 有关详细信息，请参阅[使用布局模板自定义主菜单](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)。
 
 {{step1-click-main-menu}}
 
-1. 单击&#x200B;**[!UICONTROL Portfolio]** 。
+1. 单击&#x200B;**[!UICONTROL 项目组合]** 。
 1. 单击项目组合的名称。
-1. 单击项目组合名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)，然后单击&#x200B;**[!UICONTROL 停用Portfolio]**。
+1. 单击项目组合名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-icon.png)，然后单击&#x200B;**[!UICONTROL 停用Portfolio]**。
 
 ## 删除项目组合
 
 {{step1-click-main-menu}}
 
-1. 单击&#x200B;**[!UICONTROL Portfolio]** 。
-1. 选择项目组合，然后单击&#x200B;**[!UICONTROL 删除]**&#x200B;[!UICONTROL 删除]图标![](assets/delete.png)。
+1. 单击&#x200B;**[!UICONTROL 项目组合]** 。
+1. 选择项目组合，然后单击&#x200B;**[!UICONTROL 删除]**&#x200B;[!UICONTROL 删除]图标![删除图标](assets/delete.png)。
 1. 单击&#x200B;**[!UICONTROL 是，将其删除]**&#x200B;以进行确认。

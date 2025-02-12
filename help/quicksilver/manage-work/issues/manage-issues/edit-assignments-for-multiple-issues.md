@@ -6,9 +6,9 @@ description: 修改列表中多个问题的用户分配
 author: Alina
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '751'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您必须至少具有某个问题的Contribute权限，才能为该问题分配工作。
+>您必须至少具有问题的Contribute权限，才能为该问题分配工作。
 
 ## 访问要求
 
@@ -54,7 +54,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理问题的权限</p> <p>Contribute对问题所在的项目或任务拥有或更高权限（在分配多个问题时）。</p>  </td> 
+   <td> <p>管理问题的权限</p> <p>分配多个问题时，向问题所在的项目或任务分配Contribute权限或更高。</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,13 +102,13 @@ ht-degree: 0%
    1. 开始键入要筛选的用户或角色的名称，然后在名称出现在下拉列表中时单击该名称。
    1. 单击&#x200B;**保存筛选器。**
 
-1. 选择要修改分配的问题，然后单击&#x200B;**编辑**&#x200B;图标![](assets/qs-edit-icon.png)。
+1. 选择要修改分配的问题，然后单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/qs-edit-icon.png)。
 
    此时将显示&#x200B;**编辑问题**。 已编辑的项目显示在页面的左上角。
 
 1. 转到&#x200B;**工作**&#x200B;部分，然后选择&#x200B;**代理人**。
 
-   ![](assets/classic-assignmens-area-on-edit-box-350x119.png)
+   ![工作区域](assets/classic-assignmens-area-on-edit-box-350x119.png)
 
 1. 执行下列操作之一：
 

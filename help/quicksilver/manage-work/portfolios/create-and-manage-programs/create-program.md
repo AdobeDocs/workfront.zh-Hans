@@ -6,9 +6,9 @@ description: 项目群表示共享跨项目边界的共同策略、目标或目�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1228'
+source-wordcount: '1230'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 您可以创建项目群，以便在项目组合变得太大时对其进行整理。
 
-例如，您可以有一个包含营销部门所有项目的“营销财政年度2024”Portfolio。 您可能需要考虑进一步将项目整理到财务季度中，并在“2024年营销财政年度”Portfolio中添加“2024年营销财政季度1-4计划”。
+例如，您可以有一个包含营销部门所有项目的2024年营销财政年度Portfolio。 您可能需要考虑进一步将您的项目整理到财务季度中，并在2024年营销财政年度Portfolio中添加2024年营销财政季度1-4计划。
 
 ## 访问要求
 
@@ -45,7 +45,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[！UICONTROL Edit]对Portfolio和程序的访问权限 </p>  </td> 
+   <td> <p>[！UICONTROL Edit]对项目组合和程序的访问权限 </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
@@ -83,9 +83,9 @@ ht-degree: 0%
       1. 在显示的框中，在&#x200B;**[!UICONTROL 选择Portfolio]**&#x200B;字段中键入现有Portfolio的名称。
       1. 在&#x200B;**[!UICONTROL 名称]**&#x200B;字段中键入新项目的名称。
       1. 单击&#x200B;**[!UICONTROL 保存]**。
-   * 从[!UICONTROL Portfolio]区域创建程序：
+   * 从[!UICONTROL 项目组合]区域创建项目：
 
-      1. 在[!UICONTROL 主菜单]中单击&#x200B;**[!UICONTROL Portfolio]**，然后打开一个项目组合。
+      1. 在[!UICONTROL 主菜单]中单击&#x200B;**[!UICONTROL 项目组合]**，然后打开一个项目组合。
       1. 在左侧面板中，单击&#x200B;**[!UICONTROL 程序]**。
       1. 单击&#x200B;**[!UICONTROL 新建项目]**&#x200B;下拉菜单，然后单击&#x200B;**[!UICONTROL 新建项目]**。
 
@@ -146,7 +146,7 @@ ht-degree: 0%
    有关将项目添加到程序的信息，请参阅[将项目添加到程序](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)。
 
 1. 单击&#x200B;**[!UICONTROL 保存更改]**。
-1. （可选）单击程序名称旁边的&#x200B;**[!UICONTROL 更多菜单]** ![](assets/more-icon.png)，然后单击&#x200B;**[!UICONTROL 停用程序]**。
+1. （可选）单击程序名称旁边的&#x200B;**[!UICONTROL 更多菜单]** ![更多菜单](assets/more-icon.png)，然后单击&#x200B;**[!UICONTROL 停用程序]**。
 
    停用项目群时，当用户尝试将项目群添加到项目时，项目群不再显示在项目群列表中。 您仍然可以从[!UICONTROL 程序]区域访问该程序。
 

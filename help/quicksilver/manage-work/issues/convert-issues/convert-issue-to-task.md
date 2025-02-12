@@ -6,9 +6,9 @@ description: 如果在提交问题后必须完成更多工作才能完成问题�
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1048'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看问题的权限</p> <p>项目的Contribute权限</p> <p>在问题转化后，您可获得该任务的管理权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>查看问题的权限</p> <p>参与项目的权限</p> <p>在问题转化后，您可获得该任务的管理权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,7 +54,7 @@ ht-degree: 0%
 1. 单击要转换的问题，以转到问题的登陆页面。
 1. 单击问题上的&#x200B;[!UICONTROL **更多**]&#x200B;菜单，然后单击&#x200B;[!UICONTROL **转换为任务**]。
 
-   ![](assets/qs-issue-more-menu-highlighted-350x469.png)
+   ![问题更多菜单](assets/qs-issue-more-menu-highlighted-350x469.png)
 
    >[!TIP]
    >
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 1. 更新[!UICONTROL 任务名称]分区中的任务名称。 默认情况下，任务的名称将与原始问题的名称相同。
 
-   ![](assets/convert-to-task-box-nwe.png)
+   ![转换为任务框](assets/convert-to-task-box-nwe.png)
 
 1. 单击&#x200B;[!UICONTROL **目标项目**]，然后开始在&#x200B;[!UICONTROL **目标项目**]&#x200B;字段中键入要将新任务放置到的项目的名称，并在该名称显示在列表中时将其选定。 默认情况下，选择问题的项目。
 
