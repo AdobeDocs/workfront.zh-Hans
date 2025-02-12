@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 7ef4d6c852328ff30e8b8c21398100f2f73e0dea
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ ht-degree: 0%
 1. （可选）若要在回复中包含来自上次更新的文本，请单击要回复的评论右上角的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**引用回复**。 上次更新的文本会显示在输入区域中，以垂直灰色线标记。
 1. 单击&#x200B;**回复**。
 
-   ![](assets/reply-to-update-empty-box.png)
+   ![回复更新空框](assets/reply-to-update-empty-box.png)
 
    您可以在&#x200B;**添加回复……**&#x200B;框的底部看到积极参与对话的用户，然后您可以添加更多内容，或删除不再相关的内容。 这些用户以及订阅了对象的任何用户将在对对象进行更新或回复时收到通知。 您还可以标记更多用户以将其包含在回复中。  若要标记更多用户，请参阅[标记其他用户的更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)。
 
@@ -115,7 +115,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**提交**&#x200B;以保存回复。
 
-1. （可选）单击要回复的评论右上角的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)以了解更多用于管理回复的选项。 有关详细信息，请参阅[更新工作](../updating-work-items-and-viewing-updates/update-work.md)。
+1. （可选）单击要回复的评论右上角的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)以了解更多用于管理回复的选项。 有关详细信息，请参阅[更新工作](../updating-work-items-and-viewing-updates/update-work.md)。
 
 <!--
 ### Reply to an update or reply in the legacy Updates section

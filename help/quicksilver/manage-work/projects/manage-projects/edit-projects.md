@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 0a7bb953e7e02e24857bfb7ff671538e184bda17
 workflow-type: tm+mt
-source-wordcount: '7528'
+source-wordcount: '7694'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,9 @@ ht-degree: 1%
 
 <!--Audited: 07/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 <!--
 <p>***Linked to many articles,</p>
@@ -98,7 +100,7 @@ ht-degree: 1%
 
 1. （可选）单击右上角的&#x200B;**我所在的项目**&#x200B;或&#x200B;**我拥有的项目**&#x200B;以显示您拥有的项目或您属于项目团队的项目。
 
-   ![](assets/projects-on-my-own-buttons-350x302.png)
+   ![我自己的按钮上的项目](assets/projects-on-my-own-buttons-350x302.png)
 
    >[!NOTE]
    >
@@ -108,7 +110,7 @@ ht-degree: 1%
 
 1. （可选）要编辑有关项目的有限信息，请单击左侧面板中的&#x200B;**项目详细信息**。 如果要编辑有关项目的所有信息，请继续执行步骤5。<!--accurate?!-->
 
-   ![](assets/nwe-project-details-expanded-350x298.png)
+   ![项目详细信息已展开](assets/nwe-project-details-expanded-350x298.png)
 
    >[!NOTE]
    >
@@ -116,15 +118,15 @@ ht-degree: 1%
 
    要编辑“详细信息”部分中的信息，请执行以下操作：
 
-   1. （可选）单击右上角的&#x200B;**全部折叠**&#x200B;图标![](assets/collapse-icon.png)以折叠所有区域。
-   1. （可选且有条件）折叠区域时，单击每个区域旁边的&#x200B;**向右箭头** ![](assets/right-pointing-arrow.png)以展开要编辑的区域。
+   1. （可选）单击右上角的&#x200B;**全部折叠**&#x200B;图标![全部折叠图标](assets/collapse-icon.png)以折叠所有区域。
+   1. （可选且有条件）当某个区域折叠时，单击每个区域旁边的&#x200B;**向右箭头** ![向右箭头](assets/right-pointing-arrow.png)以展开要编辑的区域。
    1. 有关在项目详细信息选项卡中编辑信息的更多信息，请参阅以下文章：
 
       * [在项目概述区域管理信息](../../../manage-work/projects/manage-projects/understand-project-overview-area.md)
       * [管理项目财务方面的信息](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
 
    1. （可选）要附加自定义表单，请在&#x200B;**添加自定义表单**&#x200B;字段中开始键入表单的名称，然后在表单显示在列表中时将其选中，然后单击&#x200B;**保存更改**。
-   1. （可选）单击&#x200B;**导出**&#x200B;图标![](assets/export.png)以将概述和自定义表单信息导出到PDF文件，然后单击&#x200B;**导出**。 从以下项中选择：
+   1. （可选）单击&#x200B;**导出**&#x200B;图标![导出图标](assets/export.png)以将概述和自定义表单信息导出到PDF文件，然后单击&#x200B;**导出**。 从以下项中选择：
 
       * 选择全部（仅在至少附加一个自定义表单时显示）
       * 概述
@@ -132,16 +134,16 @@ ht-degree: 1%
 
       PDF文件将下载到您的计算机。
 
-      ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![带有导出按钮的导出问题详细信息选择框](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       有关详细信息，请参阅[导出自定义表单和对象详细信息](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)。
 
    有关在项目详细信息部分中可见的字段的信息，请继续在编辑项目框中编辑项目，如下所述。
-1. 要编辑有关项目的所有信息，请单击项目名称旁边的&#x200B;**更多**&#x200B;菜单![](assets/qs-more-menu.png)，然后单击&#x200B;**编辑**。
+1. 要编辑有关项目的所有信息，请单击项目名称旁边的&#x200B;**更多**&#x200B;菜单![更多](assets/qs-more-menu.png)，然后单击&#x200B;**编辑**。
 
    或
 
-   从项目列表中选择一个或多个项目，然后单击列表顶部的&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)。
+   从项目列表中选择一个或多个项目，然后单击列表顶部的&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
 
    有关批量编辑项目的更多信息，请参阅本文中的[批量编辑项目](#edit-projects-in-bulk)部分。
 
@@ -167,6 +169,9 @@ ht-degree: 1%
    * [任务设置](#task-settings)
    * [问题设置](#issue-settings)
    * [访问权限](#access)
+   * [链接的文件夹](#linked-folders-conditional-availability) （条件可用性）
+     <!--* <span class="preview">[Comment](#comment)</span>-->
+
 
    >[!NOTE]
    >
@@ -177,7 +182,7 @@ ht-degree: 1%
 1. 按如上所述开始编辑项目。
 1. 单击左侧面板中的&#x200B;**项目名称**。
 
-   ![](assets/nwe-project-name-in-edit-project-box-350x125.png)
+   ![编辑项目框中的项目名称区域](assets/nwe-project-name-in-edit-project-box-350x125.png)
 
 1. 更新项目的名称。
 
@@ -188,7 +193,7 @@ ht-degree: 1%
 1. 按如上所述开始编辑项目。
 1. 单击左侧面板中的&#x200B;**概述**。
 
-   ![](assets/nwe-overview-in-edit-project-box-350x172.png)
+   ![项目编辑框中的概述区域](assets/nwe-overview-in-edit-project-box-350x172.png)
 
 1. 更新有关项目的以下信息：
 
@@ -242,14 +247,14 @@ ht-degree: 1%
       </tr> 
       <tr> 
          <td role="rowheader"><strong>项目组合</strong></td> 
-         <td>指示项目所属的Portfolio。 必须先创建一个Portfolio，然后它才会显示在下拉列表中。 只有活动项目组合可以与项目关联。 有关创建项目组合的详细信息，请参阅<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">创建项目组合</a>。
+         <td>指示项目所属的Portfolio。 必须先创建Portfolio，然后它才会显示在下拉列表中。 只有活动项目组合可以与项目关联。 有关创建项目组合的详细信息，请参阅<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">创建项目组合</a>。
          <p><b>注释</b></p>
          <p>您必须具有项目组合的管理权限才能将其添加到项目中或从中删除。</p>
       </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>项目群</strong></td> 
-         <td> <p>如果为项目选择了Portfolio，请为项目指定项目群。 某些Portfolio可能没有程序。 必须先创建项目，然后它才会显示在此下拉列表中。 只有活动的项目群才能与项目关联。 </p> <p>有关创建程序的详细信息，请参阅<a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">创建程序</a>。</p> 
+         <td> <p>如果您为项目选择了Portfolio，请为项目指定项目群。 某些项目组合可能没有程序。 必须先创建项目，然后它才会显示在此下拉列表中。 只有活动的项目群才能与项目关联。 </p> <p>有关创建程序的详细信息，请参阅<a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">创建程序</a>。</p> 
       <p><b>注释</b></p>
          <p>您必须具有项目的管理权限才能在项目中添加或删除项目。</p>   
       </td> 
@@ -334,7 +339,7 @@ ht-degree: 1%
 1. 按如上所述开始编辑项目。
 1. 单击左侧面板中的&#x200B;**自定义Forms**。
 
-   ![](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
+   ![编辑项目框中的自定义表单](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
 
 1. 单击&#x200B;**添加自定义表单**&#x200B;框并从列表中选择一个表单以将其附加到项目。 默认情况下，前40个表单按字母顺序显示。 如果在列表中看不到该表单，请开始键入其名称，然后当表单出现在列表中时将其选定。
 
@@ -369,7 +374,7 @@ ht-degree: 1%
 1. 按如上所述开始编辑项目。
 1. 单击左侧面板中的&#x200B;**财务**。
 
-   ![](assets/nwe-finance-in-edit-project-box-350x183.png)
+   项目编辑框中的![财务区域](assets/nwe-finance-in-edit-project-box-350x183.png)
 
 1. 更新项目的以下财务信息：
 
@@ -399,7 +404,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>计划的收益</strong> </td> 
-      <td> <p>估计项目的计划收益。 这在项目的业务案例和Portfolio优化器中使用。 有关项目计划权益的详细信息，请参阅<a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">项目计划权益概述</a>。 在计算项目净值时，将考虑项目的计划收益。 </p> <p>有关详细信息，请参阅<a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">在Portfolio优化器中管理项目</a> 。<br></p> </td> 
+      <td> <p>估计项目的计划收益。 这在项目的业务案例和Portfolio Optimizer中使用。 有关项目计划权益的详细信息，请参阅<a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">项目计划权益概述</a>。 在计算项目净值时，将考虑项目的计划收益。 </p> <p>有关详细信息，请参阅<a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">在Portfolio Optimizer中管理项目</a> 。<br></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>实际收益</strong> </td> 
@@ -427,7 +432,7 @@ ht-degree: 1%
 1. 按如上所述开始编辑项目。
 1. 单击左侧面板中的&#x200B;**项目设置**。
 
-   ![](assets/nwe-project-settings-in-edit-project-box-350x380.png)
+   ![项目编辑框中的项目设置区域](assets/nwe-project-settings-in-edit-project-box-350x380.png)
 
 1. 更新以下信息：
 
@@ -551,7 +556,7 @@ ht-degree: 1%
 1. 按如上所述开始编辑项目。
 1. 单击左侧面板中的&#x200B;**任务设置**。
 
-   ![](assets/nwe-task-settings-in-edit-project-box-350x211.png)
+   ![编辑项目框中的任务设置](assets/nwe-task-settings-in-edit-project-box-350x211.png)
 
 1. 在&#x200B;**任务默认审批流程**&#x200B;框中，选择将新任务添加到项目时要与所有新任务关联的任务审批流程。
 
@@ -565,7 +570,7 @@ ht-degree: 1%
 1. 在&#x200B;**任务默认自定义Forms**&#x200B;框中，选择将任务添加到项目时要与所有新任务关联的一个或多个自定义表单。 您必须先构建自定义表单，然后才可在此字段中选择它们。 列表中仅显示活动的自定义表单。 有关生成自定义表单的详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。 您最多可以将十个自定义表单与一个任务关联。
 1. （可选）如果要通过使用工作投入而不是计划小时数来启用管理任务投入，请选择&#x200B;**使用工作投入以自动计算任务计划小时数**。
 
-   ![](assets/nwe-work-effort-on-projects-350x182.png)
+   ![在编辑项目框中的工作投入](assets/nwe-work-effort-on-projects-350x182.png)
 
 1. （视情况而定，可选）如果您选择了使用工作投入以自动计算任务已计划小时数，请单击每个工作级别的下拉菜单，并为每个级别选择一个百分比。 以下百分比值为默认值：
 
@@ -590,7 +595,7 @@ ht-degree: 1%
 1. 按如上所述开始编辑项目。
 1. 单击左侧面板中的&#x200B;**问题设置**。
 
-   ![](assets/nwe-issue-settings-in-edit-project-box-350x306.png)
+   ![编辑项目框中的问题设置](assets/nwe-issue-settings-in-edit-project-box-350x306.png)
 
 1. （可选）取消选择&#x200B;**允许用户添加内联问题**&#x200B;选项。 默认情况下，该复选框处于选中状态。
 
@@ -622,7 +627,7 @@ ht-degree: 1%
 1. 按如上所述开始编辑项目。
 1. 单击左侧面板中的&#x200B;**访问**。
 
-   ![](assets/nwe-access-in-edit-project-box-350x262.png)
+   ![访问编辑项目框中的区域](assets/nwe-access-in-edit-project-box-350x262.png)
 
 1. 为项目指定以下&#x200B;**访问**&#x200B;信息：
 
@@ -632,23 +637,23 @@ ht-degree: 1%
     <tbody> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>将某人分派到一个任务时</strong></td> 
-      <td><p>从<strong>查看</strong>、<strong>Contribute、</strong>或<strong>管理</strong>任务访问权限中进行选择。 分配给任务的用户会被自动授予该任务的此访问权限。</p></td> 
+      <td><p>从<strong>视图</strong>、<strong>Contribute、</strong>或<strong>管理</strong>任务访问权限中选择。 分配给任务的用户会被自动授予该任务的此访问权限。</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>还授予对项目的访问权限</strong></td> 
-      <td><p>从<strong>查看</strong>、<strong>Contribute</strong>或<strong>管理</strong>项目访问权限中进行选择。 此外，分配给任务的用户也被自动授予此项目访问权限。<br></p></td> 
+      <td><p>从<strong>查看</strong>、<strong>贡献</strong>或<strong>管理</strong>项目访问权限中选择。 此外，分配给任务的用户也被自动授予此项目访问权限。<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>将某人分派到一个问题时</strong></td> 
-      <td><p>从<strong>查看</strong>、<strong>Contribute、</strong>或<strong>管理</strong>问题访问权限中进行选择。 分配给问题的用户会被自动授予该问题的此访问权限。 有关详细信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共享问题</a>。<br></p></td> 
+      <td><p>从<strong>查看</strong>、<strong>参与，</strong>或<strong>管理</strong>问题访问权限中进行选择。 分配给问题的用户会被自动授予该问题的此访问权限。 有关详细信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共享问题</a>。<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>还授予对项目的访问权限</strong></td> 
-      <td><p>从<strong>查看</strong>、<strong>Contribute</strong>或<strong>管理</strong>项目访问权限中进行选择。 分配给问题的用户也被自动授予此项目访问权限。<br></p></td> 
+      <td><p>从<strong>查看</strong>、<strong>贡献</strong>或<strong>管理</strong>项目访问权限中选择。 分配给问题的用户也被自动授予此项目访问权限。<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>当某人提交请求时：授予他们访问权限</strong></td> 
-      <td><p>从<strong>查看</strong>、<strong>Contribute</strong>或<strong>管理</strong>请求访问权限中进行选择。 当项目还是一个请求队列并且用户向项目提交请求时，他们被授予对所提交请求的此访问权限。 有关将项目设置为请求队列的信息，请参阅<a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">创建请求队列</a>。<br></p></td> 
+      <td><p>从<strong>视图</strong>、<strong>Contribute</strong>或<strong>管理</strong>访问请求中选择。 当项目还是一个请求队列并且用户向项目提交请求时，他们被授予对所提交请求的此访问权限。 有关将项目设置为请求队列的信息，请参阅<a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">创建请求队列</a>。<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>同一公司的人将为所有请求继承相同的访问权限。</strong></td> 
@@ -663,7 +668,7 @@ ht-degree: 1%
 
 1. 单击&#x200B;**保存**。
 
-### 链接的文件夹
+### 链接的文件夹（有条件可用） {#linked-folders}
 
 链接的文件夹功能会自动在Adobe Experience Manager Assets中创建文件夹，并将这些文件夹连接到Workfront。
 
@@ -673,11 +678,28 @@ ht-degree: 1%
 * 贵组织已启用并配置与Adobe Experience Manager的集成
 * 用于创建此项目的模板已启用并配置了链接文件夹。
 
-有关编辑链接文件夹的说明，请参阅在Experience Manager Assets集成中使用工作流一文中的[在项目中编辑工作流值](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project)。
+有关编辑链接文件夹的说明，请参阅[在Experience Manager Assets集成中使用工作流](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)一文中的[在项目中编辑工作流值](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project)。
 
 >[!NOTE]
 >
 >由于链接文件夹是在创建项目时创建的，因此对现有项目上的链接文件夹工作流进行编辑将无效。 在创建项目时按预期编辑这些值。
+
+<!--
+<div class="preview">
+
+### Comment
+
+1. Begin editing your project as described above.
+1. Click **Comment** in the left panel.
+
+   ![project-comment-in-edit-project-box](assets/project-comment-in-edit-project-box.png)
+
+1. Add a comment in the space provided. Workfront adds the comment in the Updates area of the project. For more information about updating work, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. Click **Save**. 
+
+</div>
+
+-->
 
 ## 在项目标题中编辑项目（受限）
 
@@ -685,7 +707,7 @@ ht-degree: 1%
 
 您的系统或组管理员可以自定义您在项目标题中看到的字段。
 
-![](assets/project-header-350x18.png)
+![项目标头](assets/project-header-350x18.png)
 
 默认情况下，项目标题中包含以下字段。
 
@@ -719,21 +741,21 @@ ht-degree: 1%
 
 * 为同一字段选择具有不同值的项目时，该字段在编辑项目框中显示“多个值”指示符。 复选框、单选按钮和切换的字段旁边有一个“多个值”指示器。
 
-  ![](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
+  ![批量编辑项目框中的日期的多值指示器](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
 
 * 除了“多个值”指示符之外，如果所选项目中至少一个项目的选项不同，则具有多个选项的字段会以下列方式之一显示：
 
    * 复选框字段有一行，而不是针对某些已选中但未选中所有选定项目的选项的复选框。
 
-     ![](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
+     批量编辑项目框中的![多个值指示符复选框](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
 
    * 切换类型字段显示灰显，中间为针对某些项目启用的选项进行切换，但并非针对所有选定项目启用该选项。
 
-  ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
+  ![批量编辑项目中高亮显示的多个值](assets/multiple-values-highlighted-bulk-edit-projects.png)
 
    * 如果单选按钮类型的字段已选定某些选项，但并非全部选定，则会将所有单选按钮显示为空白。
 
-     ![](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
+     ![多个值指示器单选按钮批量编辑项目框](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
 
 * 在多选项字段（例如显示为一组切换或复选框的字段）中更新一个选项时，所选项目之间的所有其他选项必须匹配。
 
@@ -748,10 +770,10 @@ ht-degree: 1%
 {{step1-to-projects}}
 
 1. 在列表中选择多个项目。
-1. 单击列表顶部的&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)。
+1. 单击列表顶部的&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
 将打开**编辑项目**&#x200B;对话框。
 
-   ![](assets/edit-projects-in-bulk-modal-unshimmed.png)
+   ![以批量模式编辑项目](assets/edit-projects-in-bulk-modal-unshimmed.png)
 
 根据您的Workfront管理员或组管理员如何修改布局模板，编辑项目框左侧面板中的区域或这些区域中列出的任何字段可能会重新排列或不显示。 有关信息，请参阅[使用布局模板自定义详细信息视图](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)。
 
@@ -765,7 +787,7 @@ ht-degree: 1%
 
    附加到所有选定项目的自定义表单显示在&#x200B;**自定义Forms**&#x200B;区域的&#x200B;**通用**&#x200B;子部分中的自定义表单。
 
-   ![](assets/custom-forms-in-common-unshimmed.png)
+   ![批量编辑项目中通用的自定义表单](assets/custom-forms-in-common-unshimmed.png)
 
    >[!TIP]
    >
@@ -774,7 +796,7 @@ ht-degree: 1%
 1. 在&#x200B;**添加自定义表单**&#x200B;字段中开始键入自定义表单的名称。
 
 
-   ![](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
+   ![Forms已在批量编辑项目中附加指示器](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
 
    已附加到所选项目的自定义表单显示在&#x200B;**添加自定义表单**&#x200B;字段的&#x200B;**附加表单**&#x200B;子部分中。
 
@@ -802,9 +824,10 @@ ht-degree: 1%
 有关编辑“问题设置”区域的详细信息，请参阅本文中的[问题设置](#issue-settings)部分。
 1. 单击&#x200B;**访问**可编辑所有选定项目的访问设置。
 有关编辑“访问”区域的详细信息，请参阅本文中的[访问](#access)部分。
+   <!--1. <span class="preview">Click **Comment**, then add a comment in the space provided. Workfront adds the comment in the **Updates** area of each project. For information about updating work, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).</span>-->
 1. （可选）要删除您在“编辑项目”框中添加的任何信息，请将鼠标悬停在已编辑的字段上，然后单击该字段右上角的&#x200B;**x**&#x200B;放弃图标。
 
-   ![](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
+   批量字段编辑项目的![放弃图标](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
 
 1. （可选）单击&#x200B;**编辑项目**&#x200B;页面底部的&#x200B;**取消**&#x200B;以删除对所有项目所做的所有更改。
 1. 单击&#x200B;**保存**。

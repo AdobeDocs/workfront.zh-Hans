@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 7ef4d6c852328ff30e8b8c21398100f2f73e0dea
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '954'
 ht-degree: 0%
 
 ---
@@ -64,8 +64,8 @@ ht-degree: 0%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>贵组织的Workfront实例必须载入AdobeUnified Experience，才能访问Workfront Planning的所有功能。</p> 
-<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">AdobeWorkfront的Unified Experience</a>。 </p> 
+<p>贵组织的Workfront实例必须载入Adobe Unified Experience，才能访问Workfront Planning的所有功能。</p> 
+<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p> 
    </td> 
    </tr> 
   </tr> 
@@ -116,7 +116,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >   只有已登记使用Unified ExperienceAdobe的客户的用户才会同时收到应用程序内通知和电子邮件通知。 要确定您的公司是否正在使用AdobeUnified Experience，请参阅[AdobeWorkfront的Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+  >   只有已登记使用Adobe Unified Experience的客户的用户才会同时收到应用程序内通知和电子邮件通知。 要确定您的公司是否正在使用Adobe Unified Experience，请参阅[适用于Workfront的Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 * 您可以向记录添加更新，并复查Workfront Planning以下区域的更改历史记录：
 
@@ -143,7 +143,7 @@ ht-degree: 0%
 
 1. 开始在&#x200B;**新建评论**&#x200B;框中输入评论。
 
-   ![](assets/empty-comment-box-on-record.png)
+   ![记录上的评论框为空](assets/empty-comment-box-on-record.png)
 
    >[!TIP]
    >
@@ -152,7 +152,7 @@ ht-degree: 0%
 1. （可选）要撤消或重做更改，请使用以下快捷键：
    * CTRL + Z(Mac为⌘ + z)可撤消更改
    * 按CTRL + Y(对于Mac，按⌘ + y)可重做更改
-1. （可选且有条件）如果您的Workfront实例是AdobeUnified Experience的一部分，请添加&#x200B;**@**，后跟用户名，以在更新中标记某人。 有关详细信息，请参阅本文中关于评论记录](#considerations-about-commenting-on-a-record)的[注意事项部分。
+1. （可选且有条件）如果您的Workfront实例是Adobe Unified Experience的一部分，请添加&#x200B;**@**，后跟用户名，以便在更新中标记某人。 有关详细信息，请参阅本文中关于评论记录](#considerations-about-commenting-on-a-record)的[注意事项部分。
 
 1. （可选）使用富文本工具栏中的选项设置文本格式、添加表情符号或链接到更新，以增强内容。
 
