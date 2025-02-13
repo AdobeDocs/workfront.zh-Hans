@@ -1,21 +1,21 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: 安装并打开Adobe Workfront for XD
-description: 您可以从Adobe市场安装Adobe Workfront for XD插件。
+title: 安装并打开适用于XD的Adobe Workfront
+description: 您可以从Adobe Workfront Marketplace安装适用于XD的Adobe插件。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: a5c4479833243bb5817196a3af8acaa063a16747
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '548'
 ht-degree: 1%
 
 ---
 
 # 安装并打开[!DNL Adobe Workfront for XD]
 
-您可以从Adobe市场安装[!DNL Adobe Workfront for XD]插件。 插件支持以下语言：
+您可以从Adobe Marketplace安装[!DNL Adobe Workfront for XD]插件。 插件支持以下语言：
 
 * 英语
 * 法语
@@ -122,4 +122,20 @@ ht-degree: 1%
 
 1. 单击&#x200B;**[!UICONTROL 允许访问]**&#x200B;完成登录，然后返回[!DNL Adobe XD]查看您的工作。
 
- 
+### 登录错误疑难解答
+
+尝试登录&#x200B;**时显示**“出现错误”错误
+
+
+无法使用以`experience.adobe.com`开头的URL登录到插件。
+
+![登录错误](assets/plugin-log-in-error.png) ![域](assets/incorrect-domain.png)
+
+
+要解决此问题，
+
+1. 卸载并重新安装Adobe Workfront for XD插件以清除域和错误。
+
+1. 输入您的Workfront域。 域必须是`company-name.my.workfront.com`而不是`experience.adobe.com`。
+
+如果您在Adobe Unified Experience上，要查找您的Workfront域，请转到

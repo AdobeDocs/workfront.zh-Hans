@@ -6,9 +6,9 @@ description: 您可以从文档区域预览文档。 这对图像特别有用。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1e12003d-4ea6-4449-9536-05feca793c44
-source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
+source-git-commit: f8ce7b64b117b709328be982339fd28ef4a741a7
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -54,8 +54,20 @@ ht-degree: 0%
 
 ## 预览文档
 
+您可以在Workfront中预览文档。
+
 1. 在文档列表中，将鼠标悬停在包含该文档的行上，然后单击&#x200B;**文档详细信息**。
 1. 在出现的页面上，单击文档的缩略图图像。
 
    * 如果尚未准备文档以供审阅，则它将显示在新的浏览器选项卡中。
    * 如果您已准备文档以供审阅，则验证查看器将打开以显示文档。
+
+下列文件格式无法在预览窗口中显示：
+
+* .mp4
+* .gif
+* .jpeg
+* .png
+* .tiff
+* .plain
+* .pdf

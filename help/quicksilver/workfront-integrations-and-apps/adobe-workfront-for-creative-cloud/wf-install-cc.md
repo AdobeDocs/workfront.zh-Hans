@@ -2,13 +2,13 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: 安装并打开 [!DNL Adobe Workfront for design and video]
-description: 您可以从Adobe市场安装 [!DNL Adobe Workfront for design and video] 。
+description: 您可以从Adobe Marketplace安装 [!DNL Adobe Workfront for design and video] 。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 9473926f1b90f4e76c82b7e5dd15c50a667102df
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '643'
 ht-degree: 1%
 
 ---
@@ -100,7 +100,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >如果您使用Premiere Pro，则必须打开一个项目才能访问此菜单。
+   >如果您使用的是Premiere Pro，则必须打开一个项目才能访问此菜单。
 
    ![Workfront菜单](assets/adobe-workfront-menu.png)
 
@@ -141,3 +141,25 @@ ht-degree: 1%
 1. 单击&#x200B;**[!UICONTROL 允许访问]**&#x200B;以完成登录。
 1. 返回[!DNL Adobe Photoshop]查看您的工作。
 
+### 错误日志疑难解答
+
+尝试登录&#x200B;**时显示**“出现错误”错误
+
+
+无法使用以`experience.adobe.com`开头的URL登录到插件。
+
+![登录错误](assets/plugin-log-in-error.png) ![域](assets/incorrect-domain.png)
+
+
+要解决此问题，
+
+1. 删除存储插件的域的文件夹。
+
+   >[!TIP]
+   >
+   >在Mac上，转到Finder，按&#x200B;**Command+Shift+。**&#x200B;要显示隐藏文件夹，请导航到&#x200B;**/Users//Library/Application Support**，然后删除&#x200B;**Workfront**&#x200B;文件夹。
+
+
+1. 导航回插件，然后输入您的Workfront域。 域必须是`company-name.my.workfront.com`而不是`experience.adobe.com`。
+
+   如果您在Adobe Unified Experience，要[查找您的Workfront域](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md)，请转到“设置”，“客户信息”。
