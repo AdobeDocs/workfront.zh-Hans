@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 6e772ed53cca2fe3756fc15b715693b8b1fbef34
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Adobe Workfront规划AI助手概述
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 
 {{planning-important-intro}}
@@ -45,6 +45,8 @@ ht-degree: 0%
 
 * 您可以使用命令撤消操作。 例如，您可以键入“撤消上次更改”以恢复更改。
 
+* <span class="preview">通过AI助手创建、更新或删除对象时，AI助手显示预期操作并请求确认。 然后，您可以确认或取消操作。</span>
+
 ## 当前可用于AI助手的功能
 
 目前，AI助手可在Workfront的“规划”区域访问以下页面：
@@ -59,7 +61,7 @@ ht-degree: 0%
 * 创建记录。 创建记录后，将显示一个包含指向新记录的链接的ID。 您可以指定要在创建过程中更新的字段，如日期或说明。
 * 根据上传的文档创建记录。 Workfront支持AI助理的以下文档格式：
 
-  .pptx、.pdf、.docx、.xlsx、.ppt、.doc、.txt和大多数图像格式
+  PPTX、PDF、DOCX、XLSX、PPT、DOC、TXT和大多数图像格式
 * 更新您在屏幕上看到的记录的字段
 * 删除记录
 * 恢复您刚刚删除的记录
