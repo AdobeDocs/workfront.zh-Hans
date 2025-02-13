@@ -6,7 +6,7 @@ description: 此集成方案将 [!DNL Adobe Workfront] 项目（营销活动）�
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: e6505ece-21aa-4397-8d68-543bf89d2f00
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: d6fd224fb8a7b8094946814ae905bc0ff6e8223c
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 0%
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 [!DNL Workfront]中必须具有下列内容才能使用此方案：
 
-* [!DNL Workfront]中名为*[!UICONTROL *[!DNL Anaplan]集成]**的用户配置文件，具有系统管理员权限。
+* [!DNL Workfront]中名为&#x200B;**[!DNL Anaplan]集成**&#x200B;的用户配置文件，具有系统管理员权限。
 
   有关在[!DNL Workfront]中创建用户的信息，请参阅[添加用户](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)。
 
