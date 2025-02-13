@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
+source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1583'
 ht-degree: 0%
 
 ---
@@ -81,9 +81,9 @@ This article describes how you can share a view with others. For information abo
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>贵组织的Workfront实例必须载入AdobeUnified Experience，才能访问Workfront Planning的所有功能。</p> 
-<p>您的组织必须载入到AdobeUnified Experience，用户才能从权限请求请求向视图请求和授予权限。 </p>
-<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">AdobeWorkfront的Unified Experience</a>。 </p> 
+<p>贵组织的Workfront实例必须载入Adobe Unified Experience，才能访问Workfront Planning的所有功能。</p> 
+<p>您的组织必须载入到Adobe Unified Experience，用户才能从权限请求请求向视图请求和授予权限。 </p>
+<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p> 
    </td> 
    </tr> 
   </tr> 
@@ -200,9 +200,9 @@ This article describes how you can share a view with others. For information abo
 
    这将打开记录类型页面。
 
-1. 在“视图”选项卡中，将鼠标悬停在要共享的视图上，单击视图名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**共享**。
+1. 在“视图”选项卡中，将鼠标悬停在要共享的视图上，然后单击视图名称右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击&#x200B;**共享**。
 
-   ![](assets/more-menu-for-views-expanded-with-share-option.png)
+   使用共享选项扩展的视图的![更多菜单](assets/more-menu-for-views-expanded-with-share-option.png)
 
    默认情况下应选择&#x200B;**内部共享**&#x200B;选项卡。
 
@@ -211,13 +211,9 @@ This article describes how you can share a view with others. For information abo
    * **只有受邀人员才能访问**：您必须指定要与其共享视图的用户、组、<span class="preview">团队、公司或工作角色</span>。 这是默认选项。
    * **工作区中的每个人都可以查看**：所有对工作区具有“查看”或更高权限的用户都可以访问该视图。
 
-1. 在&#x200B;**授予对**&#x200B;字段的查看权限，开始键入用户、组、<span class="preview">团队、公司或工作角色的名称</span>，然后在它显示在列表中时单击它。
+1. 在&#x200B;**授予此视图的访问权限**&#x200B;字段中，开始键入用户、组、<span class="preview">团队、公司或工作角色的名称</span>，然后当它显示在列表中时单击它。
 
-   <div class="preview">
-
-   ![](assets/sharing-a-view-ui-with-groups.png)
-
-   </div>
+   ![与组共享视图](assets/sharing-a-view-ui-with-groups.png)
 
 1. 从下拉菜单中选择以下权限级别之一：
    * 查看
@@ -230,7 +226,7 @@ This article describes how you can share a view with others. For information abo
 1. 单击&#x200B;**复制链接**&#x200B;以将指向视图的链接复制到剪贴板。
 1. 单击&#x200B;**保存**。
 
-   视图以人员图标![](assets/view-shared-with-others-people-icon.png)更新，表示该视图现在与其他用户共享。
+   视图以人员图标![与他人共享的视图图标](assets/view-shared-with-others-people-icon.png)更新，表示该视图现在与其他用户共享。
 
    >[!TIP]
    >
@@ -255,25 +251,25 @@ This article describes how you can share a view with others. For information abo
 
    这将打开记录类型页面。
 
-1. 在“视图”选项卡中，将鼠标悬停在要共享的视图上，单击视图名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**共享**。
+1. 在“视图”选项卡中，将鼠标悬停在要共享的视图上，然后单击视图名称右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击&#x200B;**共享**。
 
-   ![](assets/more-menu-for-views-expanded-with-share-option.png)
+   使用共享选项扩展的视图的![更多菜单](assets/more-menu-for-views-expanded-with-share-option.png)
 
 1. 单击&#x200B;**公共共享**。
 
-   ![](assets/public-sharing-tab-for-views.png)
+   ![视图的公共共享选项卡](assets/public-sharing-tab-for-views.png)
 
 1. 启用&#x200B;**创建公共链接**&#x200B;设置。
 
    链接将变为可用。 这是一个公共链接。 共享后，拥有该链接的任何人（包括组织外部的人员）都可以访问记录类型页面，并查看该页面上的记录和字段。
 
-1. 单击&#x200B;**复制链接**&#x200B;图标![](assets/copy-link-view.png)以将链接复制到剪贴板。
+1. 单击&#x200B;**复制链接**&#x200B;图标![复制链接视图](assets/copy-link-view.png)以将链接复制到剪贴板。
 
 1. 手动输入日期，或使用&#x200B;**链接到期日期**&#x200B;字段中的日历为公共链接选择到期日期。 在选定日期后，将无法访问记录页面查看。
 
 1. 单击&#x200B;**保存**。
 
-   视图会以全局图标![](assets/public-shared-view-icon-highlighted.png)更新，以指示该视图已公开共享。
+   视图将更新为全局图标![高亮显示的公共共享视图图标](assets/public-shared-view-icon-highlighted.png)，以指示该视图是公共共享的。
 
    >[!TIP]
    >
@@ -289,16 +285,16 @@ This article describes how you can share a view with others. For information abo
 1. （视情况而定）如果您是视图的管理者，则可能会收到其他用户发出的访问以下区域中的视图的请求：
 
    * 应用程序内通知
-     ![](assets/in-app-notification-for-access-request-for-view.png)
+     ![视图访问请求的应用程序内通知](assets/in-app-notification-for-access-request-for-view.png)
    * 电子邮件通知
-     ![](assets/in-app-notification-for-access-request-for-view.png)
+     ![视图访问请求的应用程序内通知](assets/in-app-notification-for-access-request-for-view.png)
 1. （视情况而定）在Workfront的通知区域中，单击应用程序内通知
 或
 在电子邮件通知中，单击**查看所有通知**，然后单击列表中的通知。
 
    显示&#x200B;**待处理访问请求**&#x200B;框。
 
-   ![](assets/notifications-list-approval-box.png)
+   ![通知列表审批框](assets/notifications-list-approval-box.png)
 1. （可选）对于要批准其权限的用户，从用户名右侧的下拉菜单中选择以下选项之一：
    * **视图**
    * **管理**
@@ -312,7 +308,7 @@ This article describes how you can share a view with others. For information abo
 {{step1-to-planning}}
 
 1. 打开要停止共享其视图的工作区，然后单击记录类型卡片。 这将打开记录类型页面。
-1. 将鼠标悬停在要删除共享的视图的选项卡名称上，单击&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**共享**。
+1. 将鼠标悬停在要删除共享的视图的选项卡名称上，单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击&#x200B;**共享**。
 1. 要删除视图的内部共享，请执行以下操作：
 
    1. 确保选中&#x200B;**内部共享**&#x200B;选项卡。

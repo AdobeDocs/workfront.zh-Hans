@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
+source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 使用Adobe Workfront Planning时的许可证类型概述
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 有关Workfront Planning中对象权限的信息，请参阅[Adobe Workfront Planning中的权限共享概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 
-有关访问Workfront Planning的信息，请参阅[AdobePlanning访问概述](/help/quicksilver/planning/access/access-overview.md)。
+有关访问Workfront Planning的信息，请参阅[Adobe Planning访问概述](/help/quicksilver/planning/access/access-overview.md)。
 
 ## Workfront许可证类型与Workfront Planning权限之间的关系
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ### 许可证类型和工作区权限
 
-只有具有Standard许可证的用户才能拥有工作区的Contribute或“管理”权限。 具有所有其他许可证类型的用户都可以拥有查看与其共享的工作区的权限。
+只有具有Standard许可证的用户才能对工作区具有Contribute或Manage权限。 具有所有其他许可证类型的用户都可以拥有查看与其共享的工作区的权限。
 
 系统管理员可以查看系统中的所有工作区，甚至包括他们未创建的工作区。
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 >
 >共享框中有一个指示，当用户拥有较低级别的许可证时，无法向其授予参与工作区或管理工作区的权限，因为这些权限级别灰显。
 >
-><span class="preview">![](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)</span>
+>![参与者用户在工作区中的权限灰显](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
 
 
 ### 许可证类型和查看权限
@@ -87,4 +87,4 @@ ht-degree: 0%
 >
 >共享框中有一个指示，当用户拥有较低级别的许可证时，无法授予用户管理视图的权限，因为这些权限级别灰显。
 >
-><span class="preview">![](assets/permissions-grayed-out-for-light-user.png)</span>
+>![权限在视图共享上对于轻量级用户呈灰显状态](assets/permissions-grayed-out-for-light-user.png)

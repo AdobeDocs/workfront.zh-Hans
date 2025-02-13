@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
+source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '809'
 ht-degree: 1%
 
 ---
@@ -69,9 +69,9 @@ This article describes how you can share a view with others. For information abo
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>贵组织的Workfront实例必须载入AdobeUnified Experience，才能访问Workfront Planning的所有功能。</p>
-<p>您的组织必须登记到AdobeUnified Experience，用户才能通过权限请求向工作区请求和授予权限。 </p> 
-<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">AdobeWorkfront的Unified Experience</a>。 </p> 
+<p>贵组织的Workfront实例必须载入Adobe Unified Experience，才能访问Workfront Planning的所有功能。</p>
+<p>您的组织必须载入到Adobe Unified Experience，用户才能通过权限请求向工作区请求和授予权限。 </p> 
+<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p> 
    </td> 
    </tr> 
   </tr> 
@@ -175,15 +175,11 @@ OLD:
 
 1. 打开要共享的工作区，然后单击屏幕右上角的&#x200B;**共享**。
 
-   ![](assets/share-button-on-workspace-top-right.png)
+   工作区右上方的![共享按钮](assets/share-button-on-workspace-top-right.png)
 
-1. 在&#x200B;**将工作区访问权限授予**&#x200B;字段中，开始键入用户、组、<span class="preview">团队、公司或工作角色的名称</span>，然后当该名称显示在列表中时单击它。
+1. 在&#x200B;**授予此工作区的访问权限**&#x200B;字段中，开始键入用户、组、<span class="preview">团队、公司或工作角色的名称</span>，然后在列表显示该名称时单击它。
 
-   <div class="preview">
-
-   ![](assets/sharing-ui-with-groups.png)
-
-   </div>
+   ![与组共享UI](assets/sharing-ui-with-groups.png)
 
 1. 从下拉菜单中选择以下权限级别之一：
    * 查看
@@ -202,20 +198,20 @@ OLD:
 1. （视情况而定）如果您是工作区的管理员，则可能会收到其他用户发出的访问以下区域中的视图的请求：
 
    * 应用程序内通知
-     ![](assets/in-app-notification-for-access-request.png)
+     ![访问请求的应用程序内通知](assets/in-app-notification-for-access-request.png)
    * 电子邮件通知
-     ![](assets/email-notification-for-access-request.png)
+     ![访问请求的电子邮件通知](assets/email-notification-for-access-request.png)
 1. （视情况而定）在Workfront的通知区域中，单击应用程序内通知
 或
 在电子邮件通知中，单击**查看所有通知**，然后单击列表中的通知。
 
    显示&#x200B;**待处理访问请求**&#x200B;框。
 
-   ![](assets/notifications-list-approval-box.png)
+   ![通知列表审批框](assets/notifications-list-approval-box.png)
 
 1. （可选）对于要批准其权限的用户，从用户名右侧的下拉菜单中选择以下选项之一：
    * **视图**
-   * **Contribute**
+   * **参与**
    * **管理**
 1. 选择要批准或拒绝权限的用户，然后单击&#x200B;**全部批准**&#x200B;或&#x200B;**全部拒绝**。
 1. 单击&#x200B;**待处理访问请求**&#x200B;左侧的左箭头，然后单击&#x200B;**保存**。
