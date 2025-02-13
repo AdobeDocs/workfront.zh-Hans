@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '546'
 ht-degree: 4%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 4%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
+您必须具备以下条件：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,10 +44,17 @@ ht-degree: 4%
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td><p>新增：标准</p>
-  <p> 当前：计划</p>
-   </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>标准</p></li>
+         </ul>
+      <p>当前：</p>
+         <ul>
+         <li><p>计划</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -57,7 +64,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -91,23 +98,28 @@ ht-degree: 4%
       * Blueprint
       * 规划中
 
-   >[!IMPORTANT]
-   >
-   >要查看“方案”、“目标”和“规划”区域，需要额外的许可证。
-   >
-   >* 有关Workfront目标的信息，请参阅[Adobe Workfront目标概述](../../../workfront-goals/goal-management/wf-goals-overview.md)。
-   >
-   >* 有关Workfront Scenario Planner的信息，请参阅[Scenario Planner概述](../../../scenario-planner/scenario-planner-overview.md)。
-   >
-   >* 有关Workfront Planning的信息，请参阅[Adobe Workfront Planning概述](/help/quicksilver/planning/general/planning-overview.md)。
+     >[!IMPORTANT]
+     >
+     >要查看“目标”、“方案”和“规划”区域，需要额外的许可证。
+     >
+     >* 有关Workfront目标的信息，请参阅[Adobe Workfront目标概述](../../../workfront-goals/goal-management/wf-goals-overview.md)。
+     >
+     >* 有关Workfront Scenario Planner的信息，请参阅[Scenario Planner概述](../../../scenario-planner/scenario-planner-overview.md)。
+     >
+     >* 有关Workfront Planning的信息，请参阅[Adobe Workfront Planning概述](/help/quicksilver/planning/general/planning-overview.md)。
 
-   * 单击&#x200B;**添加仪表板**，然后键入描述性&#x200B;**自定义分区标题**&#x200B;并添加仪表板。
+   * 单击&#x200B;**添加仪表板**
+      * 在&#x200B;<!--**Quick link name**-->**自定义名称**&#x200B;字段中键入描述性名称
+      * 在&#x200B;**添加仪表板**&#x200B;字段<!-- dropdown for existing or canvas dashboard, called "Choose a dashboard" now -->中选择仪表板
+      * 单击&#x200B;**添加**。
 
 1. 重复上一步以固定任何其他页面。
 
-1. （可选）要重命名某个图钉，请将鼠标悬停在该图钉上，单击该图钉名称旁边的箭头，然后选择&#x200B;**重命名图钉**。 键入新的pin名称，然后单击复选标记图标或按Enter键。
+1. （可选）若要移动图钉，请将鼠标悬停在该图钉上，然后单击该图钉名称旁边的“更多”菜单图标![更多图标](assets/more-icon.png)，然后单击&#x200B;**向左移动**&#x200B;或&#x200B;**向右移动**&#x200B;以按所选方向移动图钉，或单击&#x200B;**移动到前面**&#x200B;以将图钉移动到最左侧位置。
 
-   单击复选标记或按Enter键后，会出现一个小弹出窗口，持续几秒钟，允许您在保存大头针名称之前撤消更改。
+1. （可选）若要重命名某个图钉，请将鼠标悬停在该图钉上，单击该图钉名称旁边的“更多”菜单图标![更多图标](assets/more-icon.png)，然后单击&#x200B;**重命名图钉**。 输入新名称，然后单击&#x200B;**保存**。
+
+1. （可选）若要删除pin，请将鼠标悬停在pin上，单击pin名称旁边的“更多”菜单图标![更多图标](assets/more-icon.png)，然后单击&#x200B;**删除pin**。
 
 1. 继续自定义布局模板。
 

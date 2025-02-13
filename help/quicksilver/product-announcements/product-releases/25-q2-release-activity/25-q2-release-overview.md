@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: dcfae507d531e0062bfa9552f6c397be3e8bb007
+source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Workfront版本编号代表了每月和每季度的版本跟踪。 第一个数�
 
 | 每月发布 | 季度发布 |
 | ----------------- | ----------------- |
-| <ul><li>25.2（2025年2月）</li><li>25.3（2025年3月）</li><li>25.4（2025年4月）</li></ul> | <ul><li>25.4（2025年4月）</li></ul> |
+| <ul><li>25.2（2025年2月13日）</li><li>25.3（2025年3月）</li><li>25.4（2025年4月）</li></ul> | <ul><li>25.4（2025年4月）</li></ul> |
 
 >[!NOTE]
 >
@@ -37,6 +37,7 @@ Workfront版本编号代表了每月和每季度的版本跟踪。 第一个数�
 ## Adobe Workfront增强功能
 
 * [管理员增强功能](#administrator-enhancements)
+* [项目增强功能](#project-enhancements)
 * [其他增强功能](#other-enhancements)
 
 ### 管理员增强功能
@@ -49,13 +50,39 @@ Workfront版本编号代表了每月和每季度的版本跟踪。 第一个数�
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             添加到计算自定义字段的表达式</a></p>
-            <p>Workfront计算自定义字段中现在提供以下表达式：ARRAY、FORMAT、SWITCH、SORTASCARRAY、SORTDESCARRAY、ARRAYLENGTH、ARRAYELEMENT和ADDHOUR。 每个表达式的定义和示例在计算编辑器中和Experience League上均可用。</p>
+            [！BADGE In Production ]{type=Informational}
+            <p>Workfront计算自定义字段中现在提供以下表达式：ARRAY、FORMAT、SWITCH、SORTASCARRAY、SORTDESCARRAY、ARRAYLENGTH、ARRAYELEMENT和ADDHOUR。 每个表达式的定义和示例在计算编辑器中和Experience League上提供。</p>
         </td>
         <td>
             <p><b>在以下日期可用：</b></p>
             <ul>
                 <li>预览版本： 2025年1月31日</li>
                 <li><span class="preview">所有客户的生产版本： 2025年1月31日</span></li>
+            </ul>
+        </td>
+    </tr>                          
+</tbody>
+</table>
+
+### 项目增强功能
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            在编辑项目框中编辑项目时，向项目添加评论</a></p>
+            [！BADGE New in Preview ]{type=Negative}
+            <p>现在，您可以在编辑项目框中编辑项目时，为项目添加注释。 批量编辑多个项目时，您还可以同时向这些项目添加评论。 在此更新之前，在编辑项目时不存在此功能。</p>
+        </td>
+        <td>
+            <p><b>在以下日期可用：</b></p>
+            <ul>
+                <li>预览版本： 2025年2月13日</li>
+                <li>快速发布生产：使用25.3版本（2025年3月）</li>
+                <li>适用于所有客户的生产版本：使用25.4版本（2025年4月）</li>
             </ul>
         </td>
     </tr>                          
@@ -72,39 +99,44 @@ Workfront版本编号代表了每月和每季度的版本跟踪。 第一个数�
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             在Workfront更新信息源中将Adobe Admin Console用户更改表示为“系统”</a></p>
+            [！BADGE In Production for Fast Release ]{type=Positive}
             <p>现在，当Adobe Admin Console管理员更改Workfront用户的用户信息时，Workfront将这一更改记录在用户更新区域的System activity （系统活动）选项卡中，并归入“System”（系统）。 此联系人为Adobe Admin Console管理员。</p>
         </td>
         <td>
             <p><b>在以下日期可用：</b></p>
             <ul>
                 <li>预览版本： 2025年1月23日</li>
-                <li>快速发布生产：通过25.2版本（2025年2月）</li>
+                <li>快速发布生产：使用25.2版本（2025年2月13日）</li>
                 <li>适用于所有客户的生产版本：使用25.4版本（2025年4月）</li>
             </ul>
         </td>
     </tr>
-    <!--<tr>
+    <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">
-            Look-and-feel updates during the Second Quarter 2025 timeframe</a></p>
-            <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the Second Quarter 2025 timeframe. Review the individual release notes for specific release dates.</p>
+            在2025年第二季度期间的外观更新</a></p>
+            <p>在2025年第二季度内，对Adobe Workfront应用程序各个区域的外观和工作方式进行了小幅更新。 查看各个发行说明以了解具体发行日期。</p>
         </td>
         <td>
-            <p><b>Available on these dates:</b></p>
+            <p><b>在以下日期可用：</b></p>
             <ul>
-                <li>Preview release: Throughout the Second Quarter 2025 release timeframe</li>
-                <li><span class="preview">Production release: Review the release notes for specific dates</span></li>
+                <li>预览版本：在整个2025年第二季度发布时间范围内</li>
+                <li><span class="preview">生产版本：查看特定日期的发行说明</span></li>
             </ul>
         </td>
-    </tr>-->
+    </tr>
 </tbody>
 </table>
 
-<!--
-### Functionality soon to be removed from Workfront
+### 即将从Workfront中删除的功能
 
-The following functionality is soon to be removed from Workfront:
--->
+以下功能即将从Workfront中删除：
+
+#### 我们正在删除项目中的旧版Agile视图
+
+项目中的旧版Agile视图将在2025年3月13日的25.3版本中从Workfront删除。 您仍然能够通过单击展示板图标，在项目的敏捷视图中查看您的任务。
+
+有关使用Agile视图的更多信息，请参阅[在Agile视图下管理项目](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md)。
 
 ## 公告
 
@@ -154,4 +186,4 @@ Workfront Planning中的新增功能已在生产环境中可用。 有关最新�
 
 ### 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[WorkfrontTutorials页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的“新增功能”部分。
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的“新增功能”部分。

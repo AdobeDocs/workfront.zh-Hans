@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,16 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 检查和确认AI助手执行的操作
+
+>[!NOTE]
+>
+>预览版本： 2025年2月13日；用于快速发布的生产版本：使用25.3版本（2025年3月）；用于季度发布的生产版本：使用25.4版本（2025年4月）
+
+为了更便于确保AI助手执行您打算执行的操作，您现在可以在执行操作之前检查和确认这些操作。 现在，当您输入执行创建、更新或删除记录等操作的提示时，AI Assistant会显示它将执行的操作，并要求确认这些操作是否正确。
+
+以前，此确认步骤不可用。
 
 ## 添加到公式字段的函数
 
@@ -48,7 +58,7 @@ For information, see [Edit records](/help/quicksilver/planning/records/edit-reco
 
 >[!NOTE]
 >
->预览版本： 2025年1月30日；用于快速发布的生产：用于25.2版（2025年2月）；用于季度发布的生产：用于25.4版（2025年4月）
+>预览版本： 2025年1月30日；用于快速发布的生产：用于25.2版（2025年2月13日）；用于季度发布的生产：用于25.4版（2025年4月）
 
 您现在可以在Workfront Planning中与团队、职位角色和公司共享视图和工作区。 在此增强功能之前，您可以与用户和组共享视图和工作区。
 
@@ -62,7 +72,7 @@ For information, see [Edit records](/help/quicksilver/planning/records/edit-reco
 
 >[!NOTE]
 >
->预览版本： 2025年1月23日；用于快速发布的生产：用于25.2版（2025年2月）；用于季度发布的生产：用于25.4版（2025年4月）
+>预览版本： 2025年1月23日；用于快速发布的生产：用于25.2版（2025年2月13日）；用于季度发布的生产：用于25.4版（2025年4月）
 
 您现在可以将文本从Workfront外部的源复制并粘贴到Workfront Planning连接的字段或人员类型字段中。 在表视图中编辑记录时，此增强功能可用。  文本必须与现有用户（用于人员类型字段）或现有记录或对象（用于连接的记录）匹配。 您可以复制和粘贴多个字段的多个值，并批量更新记录。
 
@@ -74,7 +84,7 @@ For information, see [Edit records](/help/quicksilver/planning/records/edit-reco
 
 >[!NOTE]
 >
->预览版本： 2025年1月23日；用于快速发布的生产：用于25.2版（2025年2月）；用于季度发布的生产：用于25.4版（2025年4月）
+>预览版本： 2025年1月23日；用于快速发布的生产：用于25.2版（2025年2月13日）；用于季度发布的生产：用于25.4版（2025年4月）
 
 在此版本中，我们更新了Workfront Planning中的过滤器生成器，以允许使用多层过滤器。
 
@@ -92,7 +102,7 @@ For information, see [Edit records](/help/quicksilver/planning/records/edit-reco
 
 >[!NOTE]
 >
->预览版本： 2025年1月22日；用于快速发布的生产：用于25.2版（2025年2月）；用于季度发布的生产：用于25.4版（2025年4月）
+>预览版本： 2025年1月22日；用于快速发布的生产：用于25.2版（2025年2月13日）；用于季度发布的生产：用于25.4版（2025年4月）
 
 您现在可以在将项目连接到现有记录时使用模板创建项目。
 
@@ -106,7 +116,7 @@ For information, see [Edit records](/help/quicksilver/planning/records/edit-reco
 
 >[!NOTE]
 >
->预览版本： 2025年1月22日；用于快速发布的生产：用于25.2版（2025年2月）；用于季度发布的生产：用于25.4版（2025年4月）
+>预览版本： 2025年1月22日；用于快速发布的生产：用于25.2版（2025年2月13日）；用于季度发布的生产：用于25.4版（2025年4月）
 
 为了让您更好地在显示页面的标题上查看记录标题，我们进行了改进，以便为您提供更大的空间，防止重叠，并完美处理截断问题。
 
