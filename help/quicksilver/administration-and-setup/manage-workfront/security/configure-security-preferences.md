@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 222e940432f9cdea2b7da7fefbb429d75a3824d7
+source-git-commit: d4ebdcc942f119dc229e2a3216dbe82b3d701cba
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '951'
 ht-degree: 5%
 
 ---
@@ -104,7 +104,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
         <li>文档<br></li>
         <li>文档请求<br></li>
         <li>文档审批</li>
-        <li>日历</li>
+        <li>日程表</li>
        </ul><p>此选项默认处于启用状态。</p> <p><b>重要信息</b>：如果禁用此选项，则外部用户访问级别在Workfront实例中不可用。 有关详细信息，请参阅<a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">内置访问级别</a>。</p> </td> 
      </tr> 
      <tr> 
@@ -113,11 +113,11 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
      </tr> 
      <tr> 
       <td role="rowheader">在以下时段后自动注销用户：</td> 
-      <td> 可让您指定用户在一段时间不活动后退出Workfront的时间。 默认情况下，用户在8小时不活动后被注销。 <p>此选项还会影响使用单点登录解决方案的Workfront客户。</p> </td> 
+      <td> 可让您指定用户在一段时间不活动后退出Workfront的时间。 默认情况下，用户在8小时不活动后被注销。 <p>此选项还会影响使用单点登录解决方案的Workfront客户。</p> <p>此设置不适用于已迁移到Adobe IMS的组织。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">在以下时段后自动注销移动用户： </td> 
-      <td>可让您指定用户在一段时间不活动后何时注销Workfront应用程序。 默认情况下，用户会在处于非活动状态7天后注销。 <p>此选项还会影响使用单点登录解决方案的Workfront客户。</p></td> 
+      <td>可让您指定用户在一段时间不活动后何时注销Workfront应用程序。 默认情况下，用户会在处于非活动状态7天后注销。 <p>此选项还会影响使用单点登录解决方案的Workfront客户。</p> <p>此设置不适用于已迁移到Adobe IMS的组织。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">自定义帮助 URL</td> 
