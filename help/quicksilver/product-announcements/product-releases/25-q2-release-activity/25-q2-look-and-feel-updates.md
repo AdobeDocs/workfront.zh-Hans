@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: 7b40bd67529e62e7b08ba3076a707ba14edd6824
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 0%
@@ -24,7 +24,9 @@ ht-degree: 0%
 >
 >预览版本： 2025年2月13日；适用于所有客户的生产版本： 2025年2月13日
 
-与添加或共享文档相关的电子邮件在电子邮件正文中将不再具有缩略图图像。 有些客户还会看到旧版任务和问题分配电子邮件，其中仅显示被分配人的头像。
+与添加或共享文档相关的电子邮件在电子邮件正文中将不再具有缩略图图像。
+
+有些客户还会看到旧版任务和问题分配电子邮件，其中仅显示被分配人的头像。
 
 在我们调查电子邮件延迟时，这些更改是暂时的。
 
