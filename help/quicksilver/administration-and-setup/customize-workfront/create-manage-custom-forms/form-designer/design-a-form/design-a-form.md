@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 6a46486b62974f1cc7033b4497d32ab787b05bf2
 workflow-type: tm+mt
 source-wordcount: '6493'
 ht-degree: 5%
@@ -260,7 +260,7 @@ ht-degree: 5%
     <td><ul><li>描述性文本</li></ul></td>
     </tr>
     <tr> 
-      <td role="rowheader">制作一个必填字段</td>
+      <td role="rowheader">设为必填字段</td>
       <td><p>如果希望该字段是用户完成自定义表单所必需的，请选择此选项。</p></td>
     </tr> 
    </table>
@@ -381,7 +381,7 @@ ht-degree: 5%
     </ul></td>
     </tr> 
      <tr> 
-    <td role="rowheader">制作一个必填字段</td> 
+    <td role="rowheader">设为必填字段</td> 
     <td>如果希望该字段是用户完成自定义表单所必需的，请选择此选项。 </td> 
     <td><ul>
     <li>单选按钮</li>
@@ -540,7 +540,7 @@ ht-degree: 5%
       </td>
      </tr>
      <tr> 
-      <td role="rowheader">制作一个必填字段</td> 
+      <td role="rowheader">设为必填字段</td> 
       <td>如果希望该字段是用户完成自定义表单所必需的，请选择此选项。 </td> 
        <td><ul>
     <li>键盘缓冲</li>
@@ -646,7 +646,7 @@ ht-degree: 5%
      </tr>
      </tr>
      <tr> 
-      <td role="rowheader">制作一个必填字段</td>
+      <td role="rowheader">设为必填字段</td>
       <td><p>如果希望该字段是用户完成自定义表单所必需的，请选择此选项。</p></td>
      </tr>       
     </tbody>
@@ -663,7 +663,7 @@ ht-degree: 5%
 >以下项目是对外部API调用的技术限制：
 >
 >* 最大选项数：2000（仅显示返回的JSON中的前2000个唯一选项）
->* 超时： 3秒
+>* 超时：30秒
 >* 重试次数：3
 >* 重试之间的等待持续时间：500毫秒
 >* 预期响应状态： 2xx
@@ -860,7 +860,7 @@ The Workfront Mobile app -->
       <td>
      </tr>
      <tr> 
-      <td role="rowheader">制作一个必填字段</td>
+      <td role="rowheader">设为必填字段</td>
       <td><p>如果希望该字段是用户完成自定义表单所必需的，请选择此选项。</p></td>
      </tr> 
      <tr> 

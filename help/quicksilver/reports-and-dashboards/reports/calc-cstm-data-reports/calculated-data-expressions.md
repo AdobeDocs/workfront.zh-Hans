@@ -7,9 +7,9 @@ description: 您可以使用数据表达式在Adobe Workfront中定义计算的�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: e66d4223b13bcd4813156f147769e7ee99c3f8ef
+source-git-commit: 6a46486b62974f1cc7033b4497d32ab787b05bf2
 workflow-type: tm+mt
-source-wordcount: '2425'
+source-wordcount: '2433'
 ht-degree: 2%
 
 ---
@@ -458,7 +458,8 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td><strong>格式</strong> </td> 
-   <td><p>返回带格式的文本。颜色选项有$$POSITIVE、$$INFORMATIVE、$$NEGATIVE、$$NOTICE以及其他格式选项有$$BOLD、$$ITALIC、$$UNDERLINE。每个函数只能使用一个颜色选项，并且最多可以使用三个其他格式选项。 如果未指定颜色选项，则应用系统的默认颜色。</p>
+   <td><p>返回带格式的文本。 FORMAT只允许使用此处列出的参数选项。</p>
+   <p>颜色选项为$$POSITIVE、$$INFORMATIVE、$$NEGATIVE、$$NOTICE以及其他格式选项为$$BOLD、$$ITALIC、$$UNDERLINE。 只允许一个颜色选项，以及最多三个其他格式选项。 如果未指定颜色选项，则应用系统的默认颜色。</p>
    <p>表达式的格式如下所示：</p>
    <p><code>FORMAT($$POSITIVE, $$BOLD, $$ITALIC)</code></p>
    <p>注意：Workfront Planning不支持此表达式。</p></td> 
