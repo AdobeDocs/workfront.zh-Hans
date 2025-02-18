@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: 2a356b2cc98f8226d2a616cdd907a3aebaeecee0
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 1%
+source-wordcount: '1530'
+ht-degree: 0%
 
 ---
 
@@ -77,7 +77,11 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td role="rowheader">查看它</td> 
-      <td> <p>能够查看和填写对象上的自定义表单。</p> <p><b>注意</b>：对于拥有轻量级和参与者许可证（或工作、查看和请求许可证）的用户，这是可用的最高选项。</p> <p>单击<strong>高级设置</strong>以指定是否允许以下设置：</p> 
+      <td> <p>利用此选项，可查看和填写对象上的自定义表单。 在对象级别，启用<strong>编辑自定义表单</strong>高级设置后，用户还必须至少具有Contribute访问权限。 例如，如果表单附加到项目，则用户必须具有该项目的Contribute访问权限，否则将无法填写表单。</p>
+
+   <p><b>注意</b>：对于拥有轻量级和参与者许可证（或工作、查看和请求许可证）的用户，这是可用的最高选项。</p>
+
+   <p>单击<strong>高级设置</strong>以指定是否允许以下设置：</p> 
        <ul> 
         <li><strong>附加到自定义数据</strong>：能够将自定义表单附加到其拥有管理访问权限的项目、任务和问题</li> 
         <li> <p><strong>共享</strong>：能够与系统中的其他人共享自定义表单</p> <p>拥有简易或参与者许可证（或工作、审核或请求许可证）的用户只能通过API或自定义表单报表共享自定义表单。</p> </li>
@@ -85,7 +89,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">管理它</td> 
-      <td> <p>仅适用于具有Standard或Plan许可证的用户。 </p> <p>除了能够将表单添加到他们有权编辑的对象中，用户还可以完全编辑自定义表单，包括添加、编辑和删除字段。</p> <p>单击<strong>高级设置</strong>以指定是否允许以下设置：</p> 
+      <td> <p>此选项仅适用于拥有标准或计划许可证的用户。 </p> <p>除了能够将表单添加到他们有权编辑的对象中，用户还可以完全编辑自定义表单，包括添加、编辑和删除字段。</p> <p>单击<strong>高级设置</strong>以指定是否允许以下设置：</p> 
        <ul> 
         <li> <p><strong>附加到自定义数据</strong>：能够将自定义表单附加到其拥有管理访问权限的项目、任务和问题</p> </li> 
         <li><strong>删除</strong>：从系统中删除自定义表单</li> 
@@ -127,7 +131,9 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td role="rowheader">查看它</td> 
-      <td> <p>能够查看和填写对象上的自定义表单。</p> <p><b>注意</b>：对于拥有轻量级和参与者许可证（或工作、查看和请求许可证）的用户，这是可用的最高选项。</p> <p>单击<strong>高级设置</strong>以指定是否允许以下设置：</p> 
+      <td> <p>利用此选项，可查看和填写对象上的自定义表单。 在对象级别，启用<strong>编辑自定义表单</strong>高级设置后，用户还必须至少具有Contribute访问权限。 例如，如果表单附加到项目，则用户必须具有该项目的Contribute访问权限，否则将无法填写表单。</p>
+
+   <p><b>注意</b>：对于拥有轻量级和参与者许可证（或工作、查看和请求许可证）的用户，这是可用的最高选项。</p> <p>单击<strong>高级设置</strong>以指定是否允许以下设置：</p> 
        <ul> 
         <li><strong>附加到自定义数据</strong>：能够将自定义表单附加到其拥有管理访问权限的项目、任务和问题</li> 
         <li> <p><strong>共享</strong>：能够与系统中的其他人共享自定义表单</p> <p>拥有简易或参与者许可证（或工作、审核或请求许可证）的用户只能通过API或自定义表单报表共享自定义表单。</p> </li>
@@ -135,7 +141,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">管理它</td> 
-      <td> <p>仅适用于具有Standard或Plan许可证的用户。 </p> <p>除了能够将表单添加到他们有权编辑的对象中，用户还可以完全编辑自定义表单，包括添加、编辑和删除字段。</p> <p>单击<strong>高级设置</strong>以指定是否允许以下设置：</p> 
+      <td> <p>此选项仅适用于具有Standard或Plan许可证的用户。 </p> <p>除了能够将表单添加到他们有权编辑的对象中，用户还可以完全编辑自定义表单，包括添加、编辑和删除字段。</p> <p>单击<strong>高级设置</strong>以指定是否允许以下设置：</p> 
        <ul> 
         <li> <p><strong>附加到自定义数据</strong>：能够将自定义表单附加到其拥有管理访问权限的项目、任务和问题</p> </li> 
         <li><strong>删除</strong>：从系统中删除自定义表单</li> 
