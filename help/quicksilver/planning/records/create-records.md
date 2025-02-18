@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
+source-git-commit: 597d8db034269e673dbe46e8c0f4934bf9509e2f
 workflow-type: tm+mt
-source-wordcount: '1562'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,10 @@ ht-degree: 0%
 * [从外部列表中复制并粘贴记录列表](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [从表视图复制记录](#create-records-by-duplicating-them)
 * [在连接其他记录时创建记录](#create-records-as-you-connect-them)
-* [通过向记录类型提交请求表单来创建它们](#create-records-by-submitting-a-request-form-to-a-record-type)
+* [通过向记录类型提交请求表单来创建记录](#create-records-by-submitting-a-request-form-to-a-record-type)
 * [从CSV或Excel文件导入记录类型时创建记录](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
+
+<!--* <span class="preview">[Create records by using automations](#create-records-by-using-automations)</span>-->
 
 
 有关管理表或时间线视图中的记录的信息，请参阅以下文章：
@@ -78,8 +80,8 @@ ht-degree: 0%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>贵组织的Workfront实例必须载入AdobeUnified Experience，才能访问Workfront Planning的所有功能。</p> 
-<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">AdobeWorkfront的Unified Experience</a>。 </p> 
+<p>贵组织的Workfront实例必须载入Adobe Unified Experience，才能访问Workfront Planning的所有功能。</p> 
+<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p> 
    </td> 
    </tr> 
   </tr> 
@@ -137,9 +139,9 @@ ht-degree: 0%
       * 在表的最后一行中单击&#x200B;**新建记录**
 
       * 在键盘上从表格的任意列或行单击&#x200B;**Shift + Enter**。 这会在您开始的记录下添加一个空行。
-      * 将鼠标悬停在记录的主字段上，单击该字段右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**在上方插入记录**&#x200B;或&#x200B;**在下方插入记录**。
+      * 将鼠标悬停在记录的主字段上，单击该字段右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**在上方插入记录**&#x200B;或&#x200B;**在下方插入记录**。
 
-     ![](assets/adding-a-new-campaign-in-table-row.png)
+     ![在表行中添加新的营销活动](assets/adding-a-new-campaign-in-table-row.png)
 
    * 从任何视图中：
 
@@ -162,14 +164,14 @@ ht-degree: 0%
 
    或
 
-   单击新记录的名称或记录名称左侧的&#x200B;**打开详细信息**&#x200B;图标![](assets/open-details-icon-in-table-name-field.png)。 在表中打开包含记录详细信息的预览。
+   单击新记录的名称或记录名称左侧的&#x200B;**打开详细信息**&#x200B;图标![表名称字段](assets/open-details-icon-in-table-name-field.png)中的打开详细信息图标。 在表中打开包含记录详细信息的预览。
 
    >[!TIP]
    >
    >当名称字段是主字段时，您只能从记录的名称字段访问&#x200B;**打开详细信息**&#x200B;图标。
 
 1. 开始编辑记录预览中的记录信息。 Workfront会自动保存您所做的更改。
-1. （可选）单击记录预览右上角的&#x200B;**在新标签中打开**&#x200B;图标![](assets/open-details-in-a-new-tab-icon.png)以在新标签中打开记录页面。 继续编辑记录页面上的记录。 有关信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
+1. （可选）单击记录预览右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开详细信息](assets/open-details-in-a-new-tab-icon.png)以新标签中打开记录页面。 继续编辑记录页面上的记录。 有关信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
 
 1. （可选）在将新记录或其信息添加到表视图时，使用以下键盘快捷键可撤消或重做添加新记录或其信息：
 
@@ -263,7 +265,7 @@ You can import records from other applications by linking them to existing recor
 
    <!--remove the first part of the step above to say just Click Add when the button will be persistent, for preview and production-->
 
-   ![](assets/add-button-to-create-records-in-context-highlighted.png)
+   ![添加按钮以在突出显示的上下文中创建记录](assets/add-button-to-create-records-in-context-highlighted.png)
 
    将创建记录并将其添加到连接的记录字段。
 
@@ -297,3 +299,17 @@ Workfront用户和组织外部的用户均可向Planning记录类型提交请求
 
 有关信息，请参阅[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)。
 
+<!--
+<div class="preview">
+
+## Create records by using automations
+
+You can configure automations in Workfront Planning that, when activated, create records when triggered from a Planning record. The created records are automatically connected to the records you are triggering the automation from.
+
+You can configure and activate the automation in the record's page in Workfront Planning. The connected record that is created is placed in the connected field of the record type you run the automation from.
+
+For information, see [Create objects using Adobe Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md). 
+
+</div>
+
+-->
