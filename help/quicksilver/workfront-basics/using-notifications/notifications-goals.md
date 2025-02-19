@@ -1,15 +1,15 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: '通知：目标'
-description: '通知：目标'
+title: 通知：目标
+description: 通知：目标
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 3%
+source-wordcount: '569'
+ht-degree: 4%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 3%
 
 下表列出的通知会提醒您有关[!DNL Workfront Goals]中发生的事件，例如有人为您分配目标、结果或活动，或者有人对您拥有的目标、结果或活动进行更新。 有关配置您收到的通知的信息，请参阅[修改您自己的电子邮件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
 
-![](assets/goals-notifications-preferences-350x114.png)
+![通知首选项](assets/goals-notifications-preferences-350x114.png)
 
 >[!NOTE]
 >

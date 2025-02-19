@@ -5,9 +5,9 @@ description: Adobe Workfront会发送有关您分配到的项目或您拥有的�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 5eee62b8-d72e-4263-a0c5-749047bc6812
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '1574'
+source-wordcount: '1603'
 ht-degree: 0%
 
 ---
@@ -75,12 +75,12 @@ ht-degree: 0%
    >
    >要订阅项目，您可以执行以下操作之一：
    >
-   >* 转到要订阅的项目，单击项目名称右侧的&#x200B;**[!UICONTROL 更多]**&#x200B;图标![](assets/qs-more-menu.png)，然后单击&#x200B;**[!UICONTROL 订阅]**。
-   >* 转到项目列表或报告并选择项目，单击列表顶部的&#x200B;**[!UICONTROL 更多]**&#x200B;图标![](assets/qs-more-menu.png)，然后单击&#x200B;**[!UICONTROL 订阅]**。 这仅在项目列表中可用。
+   >* 转到要订阅的项目，单击项目名称右侧的&#x200B;**[!UICONTROL 更多]**&#x200B;图标![更多菜单](assets/qs-more-menu.png)，然后单击&#x200B;**[!UICONTROL 订阅]**。
+   >* 转到项目列表或报告并选择项目，单击列表顶部的&#x200B;**[!UICONTROL 更多]**&#x200B;图标![更多菜单](assets/qs-more-menu.png)，然后单击&#x200B;**[!UICONTROL 订阅]**。 这仅在项目列表中可用。
 
-1. 单击&#x200B;**[!UICONTROL 更多]** ![](assets/more-icon.png)，然后单击&#x200B;**[!UICONTROL 订阅]**。
+1. 单击&#x200B;**[!UICONTROL 更多]** ![更多图标](assets/more-icon.png)，然后单击&#x200B;**[!UICONTROL 订阅]**。
 
-   ![](assets/subscribe-to-a-work-item-350x258.png)
+   ![订阅工作项](assets/subscribe-to-a-work-item-350x258.png)
 
    铃铛上会显示一个复选标记，其旁边的数字会更新，以将您添加到订阅用户的计数。
 
@@ -102,12 +102,12 @@ ht-degree: 0%
    >
    >要取消订阅项目，您可以执行以下操作之一：
    >
-   >* 转到要取消订阅的项目，单击项目名称右侧的&#x200B;**[!UICONTROL 更多]**&#x200B;图标![](assets/qs-more-menu.png)，然后单击&#x200B;**[!UICONTROL 取消订阅]**。
-   >* 转到项目列表或报告并选择项目，单击列表顶部的&#x200B;**[!UICONTROL 更多]**&#x200B;图标![](assets/qs-more-menu.png)，然后单击&#x200B;**[!UICONTROL 取消订阅]**。 这仅在项目列表中可用。
+   >* 转到要取消订阅的项目，单击项目名称右侧的&#x200B;**[!UICONTROL 更多]**&#x200B;图标![更多图标](assets/qs-more-menu.png)，然后&#x200B;**[!UICONTROL 取消订阅]**。
+   >* 转到项目列表或报告并选择项目，单击列表顶部的&#x200B;**[!UICONTROL 更多]**&#x200B;图标![更多图标](assets/qs-more-menu.png)，然后单击&#x200B;**[!UICONTROL 取消订阅]**。 这仅在项目列表中可用。
 
-1. 单击&#x200B;**[!UICONTROL 更多]** ![](assets/more-icon.png)，然后单击&#x200B;**[!UICONTROL 取消订阅]**。
+1. 单击&#x200B;**[!UICONTROL 更多]** ![更多图标](assets/more-icon.png)，然后单击&#x200B;**[!UICONTROL 取消订阅]**。
 
-   ![](assets/unsubscribe-to-a-work-item-350x258.png)
+   ![取消订阅工作项](assets/unsubscribe-to-a-work-item-350x258.png)
 
 1. 您还可以通过单击订阅电子邮件中的[!UICONTROL 取消订阅]链接来取消订阅您订阅的项目。
 
@@ -136,7 +136,7 @@ ht-degree: 0%
    >   
    >* 转到项目列表或报告，然后选择项目。
 
-1. 单击&#x200B;**[!UICONTROL 更多]** ![](assets/more-icon.png)。
+1. 单击&#x200B;**[!UICONTROL 更多]** ![更多图标](assets/more-icon.png)。
 1. 单击&#x200B;**[!UICONTROL 订阅]**&#x200B;链接旁边的数字泡泡。
 1. 在出现的框中，开始在&#x200B;**[!UICONTROL 订阅其他人]**&#x200B;框中键入用户的名称，然后从显示的选项中选择该用户。
 
@@ -159,7 +159,7 @@ ht-degree: 0%
    >   
    >* 转到项目列表或报告，然后选择项目。
 
-1. 单击&#x200B;**[!UICONTROL 更多]** ![](assets/more-icon.png)。
+1. 单击&#x200B;**[!UICONTROL 更多]** ![更多图标](assets/more-icon.png)。
 1. 单击&#x200B;**[!UICONTROL 订阅]**&#x200B;或&#x200B;**[!UICONTROL 取消订阅]**&#x200B;链接旁边的数字泡泡。
 1. 在显示的&#x200B;**[!UICONTROL 订阅者]**&#x200B;页面上，单击要取消订阅的用户名旁边的“X”。
 
@@ -175,7 +175,7 @@ ht-degree: 0%
 
 当有人在您订阅的项目上发布评论后，您会立即收到应用程序内通知。
 
-![](assets/in-app-not---cmmnt-sbscibd-to-350x164.png)
+![应用内通知](assets/in-app-not---cmmnt-sbscibd-to-350x164.png)
 
 有关详细信息，请参阅[查看和管理应用程序内通知](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)。
 

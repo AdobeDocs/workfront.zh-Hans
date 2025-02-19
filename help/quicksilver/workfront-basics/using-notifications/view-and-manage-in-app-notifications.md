@@ -1,13 +1,13 @@
 ---
 navigation-topic: notifications
 title: 查看和管理应用程序内通知
-description: “应用内通知可让您随时了解两类信息：公告通知和工作项通知。 它们可以从Web应用程序和移动应用程序中获取。”
+description: 应用程序内通知可让您随时了解以下两种类型的信息：公告通知和工作项通知。 它们可从Web应用程序和移动应用程序中获取。
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c5da114-33cc-422b-84f4-67bc7fcd67c6
-source-git-commit: 3210474976f435c75c8cfa38e263f9211b9d016d
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '971'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 0%
 >
 >您可以从Web应用程序和移动应用程序中查看所有应用程序内通知。 在移动应用程序中，只有其中的一些通知会作为推送通知发送。 有关移动应用中的通知的更多信息，请参阅iOS的[[!DNL Adobe Workfront] ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)或Android的[[!DNL Adobe Workfront] ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)。
 
-1. 单击[!DNL Workfront]右上角的编号图标![](assets/notifications-icon-jewel.jpg)以打开您的通知列表。
+1. 单击[!DNL Workfront]右上角的编号图标![通知图标](assets/notifications-icon-jewel.jpg)打开您的通知列表。
 
    最近的未读通知显示在编号图标的下方，最近的未读通知显示在顶部。
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
    在每个通知的底部，[!UICONTROL 通知类型]和相应的标识图标显示。 这些功能可帮助您识别所提及的[!DNL Workfront]项目发生的情况，并在您有措施项时提醒您：
 
-   * 公告通知由[!UICONTROL 公告]图标指示。![](assets/announcement.png)
+   * 公告通知由[!UICONTROL 公告]图标指示。 ![公告图标](assets/announcement.png)
 
    * 所有其他通知都由图标表示，这些图标建议它们关联的工作项目类型。
 
@@ -80,21 +80,21 @@ ht-degree: 0%
 
 1. （可选）如果要查看收到通知的日期，请将鼠标悬停在通知右上角的日期或时间指示器上。
 
-   ![](assets/hoveroverdate-350x437.png)
+   ![将鼠标悬停在日期](assets/hoveroverdate-350x437.png)上
 
 1. 单击要查看的通知：
 
    * 如果单击的通知与工作项有关，则会打开关联的[!DNL Workfront]对象，在&#x200B;**[!UICONTROL 更新]**&#x200B;选项卡上显示完整消息。 您可以&#x200B;**[!UICONTROL 启动新的更新区域]**&#x200B;或&#x200B;**[!UICONTROL 键入回复]**。
 
-     ![](assets/object-opens-click-work-ntfctn-qs-350x183.png)
+     ![更新或回复](assets/object-opens-click-work-ntfctn-qs-350x183.png)
 
-   * 如果单击的通知是针对公告![](assets/announcement.png)，则会显示&#x200B;**[!UICONTROL 公告]**&#x200B;页面，其中列出了您的所有公告。 您点击的公告会在左侧选定，并在右侧显示消息。
+   * 如果单击的通知是公告![公告图标](assets/announcement.png)，则会显示&#x200B;**[!UICONTROL 公告]**&#x200B;页面，其中列出了您的所有公告。 您点击的公告会在左侧选定，并在右侧显示消息。
 
-     ![](assets/announcements-page-qs-350x210.png)
+     ![公告页面](assets/announcements-page-qs-350x210.png)
 
 1. （可选）下载通知消息中包含的任何附件，或将所有附件下载为ZIP文件。
 
-   ![](assets/download-attachments-350x106.png)
+   ![下载附件](assets/download-attachments-350x106.png)
 
 ## 确认通知
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 
 要确认通知并从“通知”列表中清除通知，请执行以下操作：
 
-1. 单击[!DNL Workfront]右上角的编号图标![](assets/notifications-icon-jewel.jpg)以打开您的通知列表。
+1. 单击[!DNL Workfront]右上角的编号图标![通知图标](assets/notifications-icon-jewel.jpg)打开您的通知列表。
 1. 执行下列操作之一：
 
    * 单击通知左上角的蓝色圆点。
@@ -123,7 +123,7 @@ ht-degree: 0%
 
 要查看您已确认的通知，请执行以下操作：
 
-1. 单击[!DNL Workfront]右上角的编号图标![](assets/notifications-icon-jewel.jpg)以打开您的通知列表。
+1. 单击[!DNL Workfront]右上角的编号图标![通知图标](assets/notifications-icon-jewel.jpg)打开您的通知列表。
 1. 单击通知列表右下角的&#x200B;**[!UICONTROL 所有通知]**。
 1. 在显示的&#x200B;**[!UICONTROL 通知]**&#x200B;页面上，向下滚动以查看过去的通知。
 1. （可选）要将已确认的通知返回到您的通知列表，请单击通知旁边的蓝色圆圈。
@@ -139,7 +139,7 @@ ht-degree: 0%
 
 ### 删除公告
 
-1. 单击[!DNL Workfront]右上角的编号图标![](assets/notifications-icon-jewel.jpg)以打开您的通知列表。
+1. 单击[!DNL Workfront]右上角的编号图标![通知图标](assets/notifications-icon-jewel.jpg)打开您的通知列表。
 1. 单击&#x200B;**[!UICONTROL 公告]**&#x200B;或&#x200B;**[!UICONTROL 查看所有公告]**。
 
 1. 在显示的&#x200B;**[!DNL Announcements]**&#x200B;页面上，单击左侧列表中要删除的公告，然后单击页面右上角的&#x200B;**[!UICONTROL 删除]**。
@@ -148,7 +148,7 @@ ht-degree: 0%
 
 您可以访问过去30天内删除的通知。
 
-1. 单击[!DNL Workfront]右上角的编号图标![](assets/notifications-icon-jewel.jpg)以打开您的通知列表。
+1. 单击[!DNL Workfront]右上角的编号图标![通知图标](assets/notifications-icon-jewel.jpg)打开您的通知列表。
 1. 单击&#x200B;**[!UICONTROL 公告]**&#x200B;或&#x200B;**[!UICONTROL 查看所有公告]**。
 
 1. 在显示的&#x200B;**[!UICONTROL 公告]**&#x200B;页面中，单击&#x200B;**[!UICONTROL 已删除]**。

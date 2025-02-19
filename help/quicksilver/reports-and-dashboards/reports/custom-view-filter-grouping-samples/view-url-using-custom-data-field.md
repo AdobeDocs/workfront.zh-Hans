@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '视图：使用自定义数据字段的外部URL'
+title: 视图：使用自定义数据字段的外部URL
 description: 您可以使用任务视图中名为“自定义URL”的计算自定义字段来显示指向内部自定义URL的链接。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e402fed-71ce-438a-8da9-8f8d37550ea8
-source-git-commit: 4247f2b437a5627ac4cba5289573eb4f1c18c583
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 以下示例中的任务&#x200B;**视图**&#x200B;显示名为“自定义URL”的&#x200B;**计算自定义字段**&#x200B;作为直接链接，指向任务&#x200B;**详细信息**&#x200B;选项卡中的&#x200B;**概述**&#x200B;子选项卡以及任务的&#x200B;**URL**&#x200B;字段。
 
-![](assets/task-view-with-custom-url-field-quicksilver-350x70.png)
+(assets/task-view-with-custom-url-field-quicksilver-350x70.png)
 
 要自定义此视图，请执行以下操作：
 
