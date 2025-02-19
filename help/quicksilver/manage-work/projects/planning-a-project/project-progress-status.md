@@ -7,9 +7,9 @@ description: Adobe Workfront通过查看项目在时间线中的进度来确定�
 author: Alina
 feature: Work Management
 exl-id: 922ca4cf-c526-4704-9966-de67b0c36a2a
-source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
+source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '390'
 ht-degree: 1%
 
 ---
@@ -32,14 +32,14 @@ Adobe Workfront通过查看项目在时间线中的进度来确定项目的进�
   </tr> 
   <tr> 
    <td>处于风险中</td> 
-   <td> 如果以下<strong>全部</strong>为True，则项目的进度状态为<strong>有风险</strong>：<ul><li>估计完工日期和预计完工日期均在未来</li><li> 预计完成日期和预计完成日期均晚于计划完成日期</li><li> 预计完成日期晚于预计完成日期</li></ul><p> <img src="assets/project-at-risk-progress-status-350x67.png" style="width: 350;height: 67;"> </p> </td> 
+   <td> 如果以下<strong>全部</strong>为True，则项目的进度状态为<strong>有风险</strong>：<ul><li>估计完工日期和预计完工日期均在未来</li><li> 估计完成日期迟于计划完成日期和预计完成日期 </li></ul><p> <img src="assets/project-at-risk-progress-status-350x67.png" style="width: 350;height: 67;"> </p> </td> 
   </tr> 
   <tr> 
    <td>滞后</td> 
    <td> 如果以下<strong>全部</strong>为True，则项目的进度状态为<strong>落后</strong>：<ul><li>估计完工日期和预计完工日期均在未来</li><li> 预计完成日期和预计完成日期均晚于项目的计划完成日期</li><li> 预计完成日期不晚于预计完成日期</li></ul> <p> <img src="assets/project-behind-progress-status-350x67.png" style="width: 350;height: 67;"> </p> </td> 
   </tr> 
   <tr> 
-   <td>延迟</td> 
+   <td>迟到</td> 
    <td> 
      如果以下<strong>任一</strong>为True，则项目的进度状态为<strong>延迟</strong>：<ul><li>项目已完成，且实际完成日期迟于计划完成日期 <p> <img src="assets/project-late-progress-status-350x66.png" style="width: 350;height: 66;"> </p> </li> 
      <li> <p>项目未完成，项目的计划完成日期为过去的日期 <p> <img src="assets/project-late-progress-status-incomplete-status-350x66.png" style="width: 350;height: 66;"> </p> </li> 

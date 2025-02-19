@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 98040582995af736d3716e24c7530dd4cda4d3a6
+source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
 workflow-type: tm+mt
-source-wordcount: '3826'
+source-wordcount: '3824'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>查看您为其记录时间的工作项类型的或更高访问权限 </p> <p>例如，您需要查看问题的访问权限，以记录问题的时间</p> </td> 
+   <td> <p>编辑您记录时间的工作项类型的访问权限 </p> <p>例如，您需要对问题的编辑访问权限，以记录问题的时间</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>您为其记录时间的工作项的Contribute或更高权限，包括“记录小时数”权限</p> </td> 
+   <td> <p>在您为其记录时间的工作项的Contribute或更高权限，包括“记录小时数”权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -420,7 +420,7 @@ ht-degree: 0%
 您必须具备以下所有条件：
 
 * 对时间表和小时数具有管理访问权限的计划许可证。 有关授予对时间表和小时数的管理访问权限的详细信息，请参阅[授予用户对特定区域的管理访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
-* 具有“记录小时数”访问权限的Contribute或更高项目权限。 有关授予项目权限的详细信息，请参阅[在Adobe Workfront中共享项目](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)。
+* 为项目分配或更高权限，并具有对记录小时数的访问权限。 有关授予项目权限的详细信息，请参阅[在Adobe Workfront中共享项目](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)。
 * 如果要直接将时间记录到项目，您的Workfront管理员必须在“设置”区域的&#x200B;**时间表和小时数>首选项**&#x200B;部分中启用直接在项目上记录时间设置。 有关允许用户直接将小时数记录到项目的详细信息，请参阅[配置工时表和小时首选项](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。
 
 要在项目、任务或问题的小时数部分中记录时间，请执行以下操作：

@@ -6,9 +6,9 @@ description: 您可以编辑项目模板以反映项目流程和设置中的更�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
 workflow-type: tm+mt
-source-wordcount: '4720'
+source-wordcount: '4809'
 ht-degree: 2%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 2%
    <td role="rowheader">对象权限</td> 
    <td> 
     <ul> 
-     <li> <p>Contribute有权在模板详细信息选项卡中编辑模板</p> </li> 
+     <li> <p>在模板详细信息选项卡中编辑该模板的参与权限</p> </li> 
      <li> <p>管理在编辑模板框中编辑模板的权限</p> </li> 
    </td> 
   </tr> 
@@ -592,6 +592,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
    * [任务设置](#task-settings)
    * [问题设置](#issue-settings)
    * [访问](#access-preview)
+   * [链接的文件夹](#linked-folders-conditional-availability) （条件可用性）
 
 
 ### 模板名称{#template-name}
@@ -658,11 +659,11 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
    <tr> 
          <td role="rowheader"><strong>项目组合</strong></td> 
-         <td><p>为从此模板创建的项目指定Portfolio。 必须先创建一个Portfolio，然后它才会显示在下拉列表中。 </p><p>只有有效的项目组合会显示在列表中。 有关创建项目组合的详细信息，请参阅<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">创建项目组合</a>。</p></td> 
+         <td><p>为从此模板创建的项目指定Portfolio。 必须先创建Portfolio，然后它才会显示在下拉列表中。 </p><p>只有有效的项目组合会显示在列表中。 有关创建项目组合的详细信息，请参阅<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">创建项目组合</a>。</p></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>项目群</strong></td> 
-         <td><p>如果您为模板选择了Portfolio，请为将来的项目指定<strong>项目</strong>。 某些Portfolio可能没有程序。 必须先创建项目，然后它才会显示在此下拉列表中。 列表中只显示活动程序。</p><p>有关创建程序的详细信息，请参阅<a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">创建程序</a>。</p></td> 
+         <td><p>如果您为模板选择了Portfolio，请为将来的项目指定<strong>项目</strong>。 某些项目组合可能没有程序。 必须先创建项目，然后它才会显示在此下拉列表中。 列表中只显示活动程序。</p><p>有关创建程序的详细信息，请参阅<a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">创建程序</a>。</p></td> 
        </tr>  
        <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
          <td role="rowheader"><strong>组</strong></td> 
@@ -737,7 +738,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
    </tr> 
          <tr> 
          <td role="rowheader"><strong>规划收益</strong></td> 
-         <td><p>指定从此模板创建的项目的计划收益。 计划收益用于项目的业务案例和Portfolio优化器。 </p><p>有关项目计划权益的详细信息，请参阅<a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">项目计划权益概述</a>。 在计算项目净值时，将考虑项目的计划收益。 </p><p>有关使用Portfolio优化器的更多信息，请参阅<a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">在Portfolio优化器中管理项目</a> </p></td> 
+         <td><p>指定从此模板创建的项目的计划收益。 计划收益用于项目的业务案例和Portfolio Optimizer。 </p><p>有关项目计划权益的详细信息，请参阅<a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">项目计划权益概述</a>。 在计算项目净值时，将考虑项目的计划收益。 </p><p>有关使用Portfolio优化器的更多信息，请参阅<a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">在Portfolio优化器中管理项目</a> </p></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>固定成本</strong></td> 
@@ -991,23 +992,23 @@ By editing issue settings, you can prevent users from adding issues inline in th
        <tbody> 
        <tr> 
          <td role="rowheader"><strong>将某人分派到一个任务时</strong> </td> 
-         <td> <p>从<strong>查看</strong>、<strong>Contribute、</strong>或<strong>管理</strong>任务访问权限中进行选择。 分配给任务的用户会被自动授予该任务的此访问权限。 </p> </td> 
+         <td> <p>从<strong>视图</strong>、<strong>Contribute、</strong>或<strong>管理</strong>任务访问权限中选择。 分配给任务的用户会被自动授予该任务的此访问权限。 </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>同时授予对项目的访问权限</strong> </td> 
-         <td> <p> 从<strong>查看</strong>、<strong>Contribute</strong>或<strong>管理</strong>项目访问权限中进行选择。 此外，分配给任务的用户也被自动授予此项目访问权限。 </p> </td> 
+         <td> <p> 从<strong>查看</strong>、<strong>贡献</strong>或<strong>管理</strong>项目访问权限中选择。 此外，分配给任务的用户也被自动授予此项目访问权限。 </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>将某人分派到一个问题时</strong> </td> 
-         <td> <p>从<strong>查看</strong>、<strong>Contribute、</strong>或<strong>管理</strong>问题访问权限中进行选择。 分配给问题的用户会被自动授予该问题的此访问权限。 </p> </td> 
+         <td> <p>从<strong>查看</strong>、<strong>参与，</strong>或<strong>管理</strong>问题访问权限中进行选择。 分配给问题的用户会被自动授予该问题的此访问权限。 </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>同时授予对项目的访问权限</strong> </td> 
-         <td> <p> 从<strong>查看</strong>、<strong>Contribute</strong>或<strong>管理</strong>项目访问权限中进行选择。 分配给问题的用户也被自动授予此项目访问权限。 </p> </td> 
+         <td> <p> 从<strong>查看</strong>、<strong>贡献</strong>或<strong>管理</strong>项目访问权限中选择。 分配给问题的用户也被自动授予此项目访问权限。 </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>当某人提交请求时：授予他们访问权限</strong> </td> 
-         <td> <p> 从<strong>查看</strong>、<strong>Contribute</strong>或<strong>管理</strong>请求访问权限中进行选择。 当他们向项目提交请求时，被授予对他们提交的请求的此访问权限。 有关详细信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共享问题</a>。</p> </td> 
+         <td> <p> 从<strong>视图</strong>、<strong>Contribute</strong>或<strong>管理</strong>访问请求中选择。 当他们向项目提交请求时，被授予对他们提交的请求的此访问权限。 有关详细信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共享问题</a>。</p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>来自同一公司的人员将为所有请求继承相同的权限</strong> </td> 
@@ -1030,6 +1031,23 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
    现在，当您使用此模板创建项目时，所有这些设置都将转移到新项目中。
 
+
+### 链接的文件夹（有条件可用） {#linked-folders}
+
+链接的文件夹功能会自动在Adobe Experience Manager Assets中创建文件夹，并将这些文件夹连接到Workfront。
+
+仅当满足以下所有条件时，才会显示此部分：
+
+* 您的组织已迁移到Adobe Admin Console
+* 贵组织已启用并配置与Adobe Experience Manager的集成
+* 该模板已启用并配置了链接文件夹。
+
+有关编辑链接文件夹的说明，请参阅[在Experience Manager Assets集成中使用工作流](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)一文中的[在项目中编辑工作流值](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project)。
+
+<!--I don't think this note is valid anymore - this note was on Edit project when this section was in that article, by mistake: 
+>[!NOTE]
+>
+>Because linked folders are created when the project is created, editing the linked folder workflow on an existing project is ineffective. Editing these values when creating a project functions as expected.-->
 
 ## 批量编辑模板
 

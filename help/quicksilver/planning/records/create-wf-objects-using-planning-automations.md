@@ -4,9 +4,9 @@ description: 您可以在Adobe Workfront Planning中配置自动化操作，在�
 hide: true
 hidefromtoc: true
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 0a7bb953e7e02e24857bfb7ff671538e184bda17
+source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1458'
 ht-degree: 2%
 
 ---
@@ -34,7 +34,7 @@ recommendations: noDisplay, noCatalog
 
 您可以在Adobe Workfront Planning中配置自动处理，激活自动处理后，可在从Planning记录触发时，在Workfront中创建对象，或在Workfront Planning中创建记录。 创建的对象或记录会自动连接到从中触发自动化的记录。
 
-您可以在Workfront Planning的记录页面中配置和激活自动化。 创建的连接对象将放置在运行自动化时所用的记录类型的连接字段中。
+您可以在Workfront Planning的记录类型页面中配置和激活自动化。 创建的连接对象将放置在运行自动化时所用的记录类型的连接字段中。
 
 例如，您可以创建一个接受Workfront Planning营销活动的自动化功能，并在Workfront中创建一个项目以跟踪该营销活动的进度。 该项目将连接到营销策划上“连接的项目”字段中的Workfront规划营销策划。
 
@@ -116,8 +116,7 @@ recommendations: noDisplay, noCatalog
 
 ## 有关使用自动化创建对象和记录的注意事项
 
-* 对于新Workfront对象，新对象名称与从中创建该对象的记录名称相同。
-* 对于新的Planning记录，您可以指明应该使用哪个原始记录字段来确定新记录的名称。
+* 新对象或记录名称与从中创建该对象的记录名称相同。
 * 新对象或记录不会覆盖同一字段中的现有对象或记录。 为同一记录多次触发相同的自动化操作时，除了之前创建的那些之外，还会将新对象或记录添加到原始记录的同一已连接字段中。
 * 该自动化仅在“多对多连接类型”或“一对多连接类型”字段中添加其他对象。 在所有其他情况下，自动化会创建对象，但不会将其连接到触发自动化的原始记录。
 
@@ -227,7 +226,7 @@ recommendations: noDisplay, noCatalog
 
 You can configure automations in Adobe Workfront Planning that, when activated, create objects in Workfront or records in Workfront Planning when triggered from a Planning record. The created objects or records are automatically connected to the records you are triggering the automation from. 
 
-You can configure and activate the automation in the record's page in Workfront Planning. The connected object that is created is placed in the connected field of the record type you run the automation from. 
+You can configure and activate the automation in the record type's page in Workfront Planning. The connected object that is created is placed in the connected field of the record type you run the automation from. 
 
 For example, you could create an automation that takes a Workfront Planning campaign and creates a project in Workfront to track that campaign's progress. The project would be connected to the Workfront Planning campaign in the Connected Project field on the campaign.
 
@@ -309,10 +308,10 @@ You must have the following access to perform the steps in this article:
 
 ## Considerations about creating objects and records using an automation
 
-* For new Workfront objects, the new object name is the same as the record name from which you create it. 
-* For new Planning records, you can indicate what original record field should be used to determine the new record's name. 
+* The new object or record name is the same as the record name from which you create it. 
 * New objects or records don't override existing ones in the same field. Triggering the same automation multiple times for the same record adds the new objects or records in the same connected field of the original record, in addition to the ones created before. 
-* The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered. 
+
+(************hide this for now: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered. ***************)
 
 ## Configure an automation in Workfront Planning
 
@@ -437,7 +436,7 @@ You must configure an automation for a record type in Workfront Planning before 
 
 ## Use a Workfront Planning automation to create an object or a record
 
-1. In Workfront Planning, open the record type page that contains the automation you want to use to autoamtically create and connect records or objects. 
+1. In Workfront Planning, open the record type page that contains the automation you want to use to automatically create and connect records or objects. 
 1. Open the table view. 
 1. Select one or more records.
    

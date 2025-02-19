@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
 workflow-type: tm+mt
 source-wordcount: '621'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -67,8 +67,8 @@ ht-degree: 7%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>贵组织的Workfront实例必须载入AdobeUnified Experience，才能访问Workfront Planning的所有功能。</p> 
-<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">AdobeWorkfront的Unified Experience</a>。 </p> 
+<p>贵组织的Workfront实例必须载入Adobe Unified Experience，才能访问Workfront Planning的所有功能。</p> 
+<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p> 
    </td> 
    </tr> 
   </tr> 
@@ -185,8 +185,8 @@ Adobe Workfront Planning公式字段支持Workfront计算字段中的大多数�
 >
 >Workfront Planning公式字段不支持以下Workfront表达式：
 >
->* SORTASCARRAY
->* SORTDESCARRAY
+>* 升序排序数组
+>* 降序排序数组
 >* ADDHOUR
 >* 切换
 >* 格式
@@ -230,6 +230,14 @@ Adobe Workfront Planning公式字段支持Workfront计算字段中的大多数�
 <code>{ID}</code>
 </p>
    </td></tr>
+  <!--
+   <tr> 
+   <td><strong>JSONELEMENT</strong> </td> 
+   <td> <p>Returns the data from JSON by the provided JSONPath. If the JSONPath doesn't exist in the JSON, an empty result will be returned. </p> <p>The expression is formatted as follows:
+      <code>JSONELEMENT(JSONString, JSONPathString) </code>
+   </p>
+   </td></tr>
+   -->
 
 <tr> 
    <td><strong>SETTIMEZONE</strong> </td> 

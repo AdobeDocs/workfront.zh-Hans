@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 597d8db034269e673dbe46e8c0f4934bf9509e2f
+source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '854'
+ht-degree: 1%
 
 ---
 
@@ -64,6 +64,7 @@ You can create Adobe Workfront objects from Workfront Planning in the following 
 
 * 记录类型的表格视图
 * 记录的详细信息页面或预览框
+* 记录的“连接”选项卡
 
 有关将Planning记录与Workfront对象连接的信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。
 

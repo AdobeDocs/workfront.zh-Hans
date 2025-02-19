@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
+source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
 workflow-type: tm+mt
-source-wordcount: '7828'
+source-wordcount: '7703'
 ht-degree: 1%
 
 ---
@@ -169,7 +169,6 @@ ht-degree: 1%
    * [任务设置](#task-settings)
    * [问题设置](#issue-settings)
    * [访问权限](#access)
-   * [链接的文件夹](#linked-folders-conditional-availability) （条件可用性）
    * <span class="preview">[评论](#comment)</span>
 
 
@@ -667,22 +666,6 @@ ht-degree: 1%
    </table>
 
 1. 单击&#x200B;**保存**。
-
-### 链接的文件夹（有条件可用） {#linked-folders}
-
-链接的文件夹功能会自动在Adobe Experience Manager Assets中创建文件夹，并将这些文件夹连接到Workfront。
-
-仅当满足以下所有条件时，才会显示此部分：
-
-* 您的组织已迁移到Adobe Admin Console
-* 贵组织已启用并配置与Adobe Experience Manager的集成
-* 用于创建此项目的模板已启用并配置了链接文件夹。
-
-有关编辑链接文件夹的说明，请参阅[在Experience Manager Assets集成中使用工作流](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)一文中的[在项目中编辑工作流值](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project)。
-
->[!NOTE]
->
->由于链接文件夹是在创建项目时创建的，因此对现有项目上的链接文件夹工作流进行编辑将无效。 在创建项目时按预期编辑这些值。
 
 <div class="preview">
 

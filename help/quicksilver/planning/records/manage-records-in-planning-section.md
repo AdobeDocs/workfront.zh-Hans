@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1475'
 ht-degree: 1%
 
 ---
@@ -69,8 +69,8 @@ ht-degree: 1%
 <tr>
    <td role="rowheader"><p>Adobe Workfront平台</p></td>
    <td>
-<p>贵组织的Workfront实例必须载入AdobeUnified Experience，才能访问Workfront Planning的所有功能。</p>
-<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">AdobeWorkfront的Unified Experience</a>。 </p>
+<p>贵组织的Workfront实例必须载入Adobe Unified Experience，才能访问Workfront Planning的所有功能。</p>
+<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p>
    </td>
 
 </tr>
@@ -84,14 +84,14 @@ ht-degree: 1%
   </tr>
   <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
-   <td> <p>查看或更高权限的项目、项目群和Portfolio</p>  
+   <td> <p>查看或更高权限的项目、项目和项目组合</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>对象权限</p></td>
    <td>
    <p>在Workfront中，查看项目、项目组合或项目群的权限或更高的权限</a> </p> 
-   <p>在Workfront Planning中，查看查看工作区权限以查看任何连接的记录，或查看工作区的Contribute或更高权限以连接或断开记录</a> </p>  
+   <p>在Workfront Planning中，查看查看工作区的权限以查看任何连接的记录，或查看工作区的Contribute或更高权限以连接或断开记录</a> </p>  
    <p>系统管理员有权访问所有Workfront Planning工作区，包括他们未创建的工作区</p> 
   </td>
   </tr>
@@ -172,7 +172,10 @@ ht-degree: 1%
    * 记录不再连接到Workfront对象。
    * Workfront对象也将从Workfront Planning中的记录的“已连接”字段中删除。
    * 连接到Planning记录的Workfront查找字段的值也会被删除。
-1. 单击&#x200B;**连接**&#x200B;为连接的记录类型连接更多记录。 有关详细信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。
+1. 单击&#x200B;**连接**&#x200B;为连接的记录类型连接更多记录。
+
+   有关详细信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。
+1. （可选）如果找不到要连接的记录，并且要添加该记录，请单击&#x200B;**+添加**&#x200B;以添加新记录。 有关详细信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)一文中的“连接其他记录时创建记录”一节。
 
    出现以下情况：
 
@@ -204,7 +207,7 @@ ht-degree: 1%
 * 您必须将带有Planning连接自定义字段的自定义表单附加到可从Workfront Planning连接的Workfront对象（如果您具有正确的访问权限）。
 * Workfront Planning记录类型必须首先连接到Workfront对象类型。 有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
 * 只有可以具有Workfront Planning连接的对象，才能从Workfront对象的Planning连接字段中连接或断开记录。
-* 您必须具有Workfront中工作区的Contribute权限，Planning才能从Workfront对象的Planning连接字段连接或断开记录。
+* 您必须拥有Workfront中工作区的Contribute权限，才能从Workfront对象的Planning连接字段中连接或断开记录。
 * 批量编辑Workfront对象时，无法编辑Planning连接字段。
 
 ### 从Planning连接字段类型管理记录连接

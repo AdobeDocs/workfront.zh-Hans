@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 597d8db034269e673dbe46e8c0f4934bf9509e2f
+source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
@@ -256,10 +256,16 @@ You can import records from other applications by linking them to existing recor
 
 要在从其他记录连接记录时创建记录，请执行以下操作：
 
-1. 开始连接Workfront Planning记录，如文章[连接记录](/help/quicksilver/planning/records/connect-records.md)中所述。 您可以在Workfront Planning的以下区域中从连接字段连接记录：
+1. 开始连接Workfront Planning记录，如文章[连接记录](/help/quicksilver/planning/records/connect-records.md)中所述。 您可以从以下区域连接记录：
 
-   * 表格视图
-   * 记录的详细信息页面或预览框
+   * Workfront Planning的以下区域中的连接字段：
+
+      * 表格视图
+      * 记录的详细信息页面或预览框
+
+   * Workfront中项目、项目组合或项目群的“规划”部分中的连接字段。
+
+     有关信息，请参阅[管理来自Workfront对象的记录连接](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
 
 1. （视情况而定）如果尝试从其他记录的已连接记录字段添加记录时找不到该记录，请搜索记录，然后单击“**+添加”**。 **+ Add**&#x200B;按钮后跟您连接到的记录类型的名称。 例如，将品牌添加到现有营销活动时，“添加品牌”。 您键入的名称还遵循“添加”按钮。
 
