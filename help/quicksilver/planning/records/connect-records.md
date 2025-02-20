@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '2956'
+source-wordcount: '3082'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # 连接记录
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -112,7 +112,8 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><p>访问级别配置</p></td> 
-   <td> <p>Adobe Workfront Planning对象没有访问级别控制</p>   
+   <td> <p>Adobe Workfront Planning对象没有访问级别控制</p> 
+   <p>查看要从Workfront链接的对象类型的或更高权限。</p>   
 </td> 
   </tr> 
 <tr> 
@@ -169,7 +170,7 @@ ht-degree: 1%
 1. （可选）通过向表中添加新行，将记录添加到您选择的记录类型。 有关信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
 1. （视情况而定）将选定的记录类型与另一个记录类型连接后，转到记录的已连接字段并在该字段内单击，或单击&#x200B;**连接**&#x200B;以添加记录。
 
-   ![](assets/connect-other-records-smaller-box-in-table-view.png)
+   ![连接表视图中的其他记录](assets/connect-other-records-smaller-box-in-table-view.png)
 
 1. 执行下列操作之一：
 
@@ -182,7 +183,13 @@ ht-degree: 1%
    >
 
 1. （视情况而定）如果在连接记录类型时为“连接”类型选择了“一对多”或“一对一”，并且尝试连接某个记录或已在其他地方连接的对象，您将收到一则警告，指出再次连接该记录或对象会将其从原始连接中删除。 单击&#x200B;**连接**&#x200B;允许删除并连接记录，或单击&#x200B;**取消**&#x200B;返回字段并选择其他记录。
-1. （可选）如果找不到要连接的记录或对象，并且要添加该记录，请单击&#x200B;**+添加**&#x200B;以添加新记录。 有关详细信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)一文中的“连接其他记录时创建记录”一节。
+1. （可选）如果找不到要连接的对象并且要添加该对象，请<span class="preview">单击“**+添加”**</span>
+
+   或
+
+   开始键入对象的名称，然后单击&#x200B;**+添加**&#x200B;以创建并添加该对象。
+
+   有关详细信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)一文中的“连接其他记录时创建记录”一节。
 
    >[!TIP]
    >
@@ -251,7 +258,7 @@ ht-degree: 1%
 
 1. （视情况而定）将选定的记录类型与Workfront对象类型连接后，转到记录上连接的字段，然后单击该字段，或单击&#x200B;**连接**&#x200B;以添加Workfront对象。
 
-   ![](assets/connect-projects-smaller-box-in-table-view.png)
+   ![在表视图中连接项目](assets/connect-projects-smaller-box-in-table-view.png)
 
 1. 执行下列操作之一：
 
@@ -262,7 +269,11 @@ ht-degree: 1%
    >
    >您可以从视图中打开记录的页面，双击链接的记录字段，或单击字段中的&#x200B;**连接**&#x200B;以添加来自连接的对象类型的对象。
 
-1. （可选）如果找不到要连接的对象并且要添加它，请单击&#x200B;**+添加**&#x200B;以创建和添加新项目或项目组合。
+1. （可选）如果找不到要连接的对象并且要添加该对象，请<span class="preview">单击“**+添加”**</span>
+
+   或
+
+   开始键入对象的名称，然后单击&#x200B;**+添加**&#x200B;以创建和添加新项目、项目组合或项目群。
 
    有关信息，请参阅[从Workfront Planning创建Workfront对象](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 
@@ -415,7 +426,7 @@ ht-degree: 1%
 1. （可选）单击&#x200B;**在新标签中打开**&#x200B;图标![](assets/open-details-in-a-new-tab-icon.png)以打开记录的页面。
 1. 单击记录预览或页面中的&#x200B;**连接**&#x200B;选项卡。
 
-   ![](assets/connections-tab-on-record-in-workfront-planning.png)
+   Workfront Planning中记录的![连接选项卡](assets/connections-tab-on-record-in-workfront-planning.png)
 
    链接到选定记录类型的所有记录或对象类型都显示为节。 连接的记录或对象显示在卡片上的记录或对象类型名称下。
 
@@ -428,7 +439,13 @@ ht-degree: 1%
 1. （可选）单击截面左侧的向下箭头以将其折叠。
 
 1. （视情况而定）单击&#x200B;**连接**&#x200B;以添加更多相同类型的记录或对象。
-1. （可选）如果找不到要连接的记录或对象，并且要添加该记录，请单击&#x200B;**+添加**&#x200B;以添加新记录。 有关详细信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)一文中的“连接其他记录时创建记录”一节。
+1. （可选）如果找不到要连接的记录或对象，而您想添加它，请<span class="preview">单击“**+添加”**</span>
+
+   或
+
+   开始键入对象的名称，然后单击&#x200B;**+添加**&#x200B;以创建该对象并将其添加到记录。
+
+   有关详细信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)一文中的“连接其他记录时创建记录”一节。
 1. 按照前面部分中描述的步骤，连接来自Workfront Planning的记录或来自Workfront或Experience Manager Assets的对象。
 记录和对象会立即添加。
 1. （可选）将鼠标悬停在记录或对象的已连接卡片上，然后单击&#x200B;**断开记录**&#x200B;图标![](assets/disconnect-icon-with-tooltip.png)以将其与选定记录断开连接。

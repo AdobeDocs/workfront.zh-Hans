@@ -6,9 +6,9 @@ description: 项目是Adobe Workfront中的一个大型工作单位。 您可以
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1388'
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ ht-degree: 1%
 
   有关使用Kick-Starts导入项目的信息，请参阅[Kick-Starts方案：简单项目和任务导入准备](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md)。
 
-* 从Adobe Workfront Scenario Planner中的场景Publish计划。
+* 从Adobe Workfront Scenario Planner中的方案发布计划。
 
   Scenario Planner需要以下项之一：
 
@@ -129,7 +129,7 @@ ht-degree: 1%
 
   有关访问Workfront Planning的信息，请参阅[访问概述](/help/quicksilver/planning/access/access-overview.md)。
 
-  有关通过将项目添加到记录来创建项目的信息，请参阅[从Workfront Planning创建Workfront对象](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)一文中的“将项目与Workfront Planning中的记录连接时创建项目”一节
+  有关通过将项目添加到记录来创建项目的信息，请参阅将项目与记录连接时[从Workfront Planning创建WorkfrontWorkfront对象一节](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 
 ## 先决条件
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1801'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # 创建记录
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -33,8 +33,7 @@ ht-degree: 0%
 * [在连接其他记录时创建记录](#create-records-as-you-connect-them)
 * [通过向记录类型提交请求表单来创建记录](#create-records-by-submitting-a-request-form-to-a-record-type)
 * [从CSV或Excel文件导入记录类型时创建记录](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
-
-<!--* <span class="preview">[Create records by using automations](#create-records-by-using-automations)</span>-->
+* <span class="preview">[使用自动创建记录](#create-records-by-using-automations)</span>
 
 
 有关管理表或时间线视图中的记录的信息，请参阅以下文章：
@@ -246,7 +245,7 @@ You can import records from other applications by linking them to existing recor
 >
 >在将Workfront项目和项目组合连接到Workfront Planning记录时创建Planning项目和项目组合，与在从其他记录连接它们时创建Planning记录类似。
 >
->有关从Workfront Planning创建Workfront对象的信息，请参阅[从Workfront Planning创建Workfront对象](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)。
+>有关从Workfront Planning创建Workfront对象的信息，请参阅将Workfront对象连接到记录时[从Workfront Planning创建这些对象](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)。
 
 您必须具备以下条件，才能通过从现有记录连接来添加新记录：
 
@@ -267,7 +266,10 @@ You can import records from other applications by linking them to existing recor
 
      有关信息，请参阅[管理来自Workfront对象的记录连接](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
 
-1. （视情况而定）如果尝试从其他记录的已连接记录字段添加记录时找不到该记录，请搜索记录，然后单击“**+添加”**。 **+ Add**&#x200B;按钮后跟您连接到的记录类型的名称。 例如，将品牌添加到现有营销活动时，“添加品牌”。 您键入的名称还遵循“添加”按钮。
+1. （视情况而定）如果在尝试连接时找不到记录，请<span class="preview">单击“**+添加”**</span>
+
+   或
+开始键入名称，然后单击**+添加**。 **+ Add**&#x200B;按钮后跟您连接到的记录类型的名称。 例如，将品牌添加到现有营销活动时，“添加品牌”。 您键入的名称还遵循“添加”按钮。
 
    <!--remove the first part of the step above to say just Click Add when the button will be persistent, for preview and production-->
 
@@ -275,14 +277,12 @@ You can import records from other applications by linking them to existing recor
 
    将创建记录并将其添加到连接的记录字段。
 
-   <!--
-    >[!IMPORTANT]
-    >
-    >* You can create only projects and portfolios in Workfront when connecting them from a record. 
-    >
-    >* You cannot create programs, groups, or companies when connecting them from a record in Workfront Planning. 
-    >
-    >* You cannot create a project from a template when when you create projects by connecting them from a record. You must manually add tasks and project information or a template to the new project after you add it to the record. -->
+   >[!IMPORTANT]
+   >
+   >* 从记录中连接项目、项目组合和项目群时，只能在Workfront中创建它们。
+   >
+   >* 从Workfront Planning中的记录连接组或公司时，无法创建组或公司。
+   > 
 
 1. （可选）转到您创建其记录的记录类型的表格视图。 新记录将显示在视图的最后一行。
 1. （可选）开始在表视图中添加新记录的信息
@@ -305,17 +305,16 @@ Workfront用户和组织外部的用户均可向Planning记录类型提交请求
 
 有关信息，请参阅[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)。
 
-<!--
 <div class="preview">
 
-## Create records by using automations
+## 使用自动化创建记录
 
-You can configure automations in Workfront Planning that, when activated, create records when triggered from a Planning record. The created records are automatically connected to the records you are triggering the automation from.
+您可以在Workfront Planning中配置自动处理，激活自动处理后，创建从Planning记录触发的记录。 创建的记录会自动连接到从中触发自动化的记录。
 
-You can configure and activate the automation in the record's page in Workfront Planning. The connected record that is created is placed in the connected field of the record type you run the automation from.
+您可以在Workfront Planning的记录页面中配置和激活自动化。 创建的连接记录将放置到运行自动化的记录类型的连接字段中。
 
-For information, see [Create objects using Adobe Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md). 
+有关信息，请参阅[使用Adobe Workfront Planning记录自动化创建对象](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)。
 
 </div>
 
--->
+

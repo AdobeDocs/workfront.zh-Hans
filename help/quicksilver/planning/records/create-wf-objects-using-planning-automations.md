@@ -3,10 +3,14 @@ title: 使用Workfront Planning记录自动化创建Adobe Workfront对象
 description: 您可以在Adobe Workfront Planning中配置自动化操作，在激活时，可在Workfront中创建对象或Workfront Planning中的记录。 创建的对象和记录会自动连接到现有Planning记录。 本文介绍如何管理自动化，包括如何编辑、禁用、删除和触发它们以创建对象和记录。
 hide: true
 hidefromtoc: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina, Becky
+recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1800'
 ht-degree: 2%
 
 ---
@@ -14,23 +18,16 @@ ht-degree: 2%
 # 使用Adobe Workfront Planning记录自动化创建对象
 
 <!--add screen shots when UI is finalized AND redo all the steps - some things got changed and moved around-->
-<!--when you make this public, add this to the metadata above (and take the "hide" tags out):
 
-feature: Workfront Planning
-role: User, Admin
-author: Alina, Becky
-recommendations: noDisplay, noCatalog
-
--->
-
+<!--you might need to add something about notifications and emails?!-->
 <!--add a new section to this article to mention a new way to create objects: help/quicksilver/planning/records/create-records.md-->
 <!-- add a new section to this article to mention a new way to create WF objects from Planning: help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md-->
 
 <!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 您可以在Adobe Workfront Planning中配置自动处理，激活自动处理后，可在从Planning记录触发时，在Workfront中创建对象，或在Workfront Planning中创建记录。 创建的对象或记录会自动连接到从中触发自动化的记录。
 
@@ -116,9 +113,10 @@ recommendations: noDisplay, noCatalog
 
 ## 有关使用自动化创建对象和记录的注意事项
 
-* 新对象或记录名称与从中创建该对象的记录名称相同。
-* 新对象或记录不会覆盖同一字段中的现有对象或记录。 为同一记录多次触发相同的自动化操作时，除了之前创建的那些之外，还会将新对象或记录添加到原始记录的同一已连接字段中。
-* 该自动化仅在“多对多连接类型”或“一对多连接类型”字段中添加其他对象。 在所有其他情况下，自动化会创建对象，但不会将其连接到触发自动化的原始记录。
+* 自动化创建的对象或记录的名称与从中创建该对象或记录的记录名称相同。
+* 新对象或记录不会覆盖同一字段中的现有对象或记录。 为同一记录多次触发同一自动化会在原始记录的同一已连接字段中添加新对象或记录，以及之前创建的对象或记录。
+
+<!--hide this for now; they are trying to remove this militation: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered.-->
 
 ## 在Workfront Planning中配置自动化
 
@@ -143,64 +141,107 @@ recommendations: noDisplay, noCatalog
 
 1. 在自动化的详细信息页面上，更新&#x200B;**触发器**&#x200B;部分中的以下字段：
 
-   * **触发器**：选择将触发自动化的操作。 例如，选择&#x200B;**按钮单击**。<!--update this step with a list of all possible triggers; right not only Button click is available-->
+   * **触发器**：选择将触发自动化的操作。 例如，选择&#x200B;**按钮单击**。<!--update this step with a list of all possible triggers; right now only Button click is available-->
 
 1. 更新&#x200B;**操作**&#x200B;部分中的以下字段： <!--submitted bugs for these fields - see if they need changing here-->
-   * **对象类型**：选择要自动创建的对象。 这是必填字段。
+   * **操作**：选择在触发自动操作时希望Workfront执行的操作。 这是必填字段。
+选择以下操作之一：
 
-     您可以从Workfront Planning记录创建以下对象：
-
-      * 项目
-      * 项目组合
-      * 项目群
-      * 组
-      * 记录
+      * 创建组
+      * 创建程序
+      * 创建项目组合
+      * 创建项目
+      * 创建记录
 
      >[!TIP]
      >
-     >保存自动化后，无法再更改此字段中的对象类型。
+     >保存自动化后，无法再更改在此字段中选择的操作。
 
-1. （视情况而定）根据要创建的对象类型，更新以下字段：
+1. （视情况而定）根据您选择的操作，更新以下字段：
 
-
-   * **项目**：
+   * **创建项目**：
       * **创建对象的已连接字段**：这是将显示新项目的已连接字段。 这是必填字段。
-      * **从中创建项目的模板**：选择Workfront将用于创建项目的项目模板。
-   * **Portfolio**：
+      * **项目模板**：选择Workfront将用于创建项目的项目模板。
+   * **创建项目组合**：
       * **创建对象的已连接字段**：这是将显示新项目组合的已连接字段。 这是必填字段。
       * **要附加到新项目组合的自定义表单**：选择要附加到新项目组合的自定义表单。 您必须先创建项目组合自定义表单，然后才能选择它。
-   * **计划**：
+   * **创建程序**：
       * **创建对象的已连接字段**：这是将显示新程序的已连接字段。 这是必填字段。
       * **项目组合**：选择将添加新项目的项目组合。 这是必填字段。
       * **要附加到新程序的自定义表单**：选择要附加到新程序的自定义表单。 您必须先创建程序自定义表单，然后才能选择它。
-   * **组**：
+   * **创建组**：
       * **创建对象的已连接字段**：这是将显示新组的已连接字段。 这是必填字段。
       * **要附加到新组的自定义表单**：选择要附加到新程序的自定义表单。 您必须先创建程序自定义表单，然后才能选择它。
-   * **记录**：
-      * **连接的记录类型**：选择要创建的记录类型。
-      * **创建记录的已连接字段**：这是将显示新记录的已连接字段。 这是必填字段。<!--this might need revision as right now it shows the field on the connected record table where the current record will display; submitted a bug to correct this label-->
+   * **创建记录**：
+      * **记录类型**：选择要创建的记录类型。
+
+     将显示&#x200B;**设置**&#x200B;子部分。 更新&#x200B;**设置**&#x200B;子部分中的以下字段：
+
+      * **将显示当前记录的已连接记录类型上的字段**：这是为将显示当前记录的操作选择的记录类型上的已连接字段。
+
+     例如，如果您正在创建用于连接产品记录的营销活动的自动化，则在使用自动化创建产品后，这是产品记录类型上将显示营销活动的已连接字段。
+
+     这是必填字段。
+
+     <!--submitted a change in functionality and UI text for this - revise??-->
       * **映射字段**
          * **传输自**：从创建自动化的记录类型中选择字段，以将其映射到连接的记录类型的字段。
-      * **传输到**：从新创建的记录中选择将使用您运行自动化的记录中的信息填充的字段。
+         * **传输到**：从新创建的记录中选择将使用您运行自动化的记录中的信息填充的字段。
+
+     >[!TIP]
+     >
+     >原始记录类型中的字段类型必须与新创建的记录类型中的字段类型匹配。
+
 1. （可选且有条件）如果您选择创建记录，请单击&#x200B;**添加字段**&#x200B;以将其他查找字段从一个记录映射到另一个记录。
-1. （可选且有条件）如果您没有Workfront对象类型的连接字段，请单击&#x200B;**创建连接字段**&#x200B;图标![创建连接字段图标](assets/create-a-connection-field-icon.png)以添加字段。
+1. （视情况而定）如果您选择创建记录，并且在&#x200B;**操作**&#x200B;区域中选择的原始记录类型和记录类型之间没有连接字段，请单击当前记录将显示在连接记录类型上的&#x200B;**字段右侧的问号图标**，然后单击&#x200B;**添加**&#x200B;图标![创建连接字段图标](assets/create-a-connection-field-icon.png)以添加连接字段。
+
+   新字段自动为您在&#x200B;**操作**&#x200B;区域中选择的记录类型创建，并命名为&#x200B;**连接的记录**。
+
+   所选记录类型的已连接字段也会在您配置自动化的原始记录类型上创建。
+1. （可选且有条件）如果您选择创建Workfront对象并且没有选定Workfront对象类型的连接字段，请单击&#x200B;**创建&lt; Workfront对象类型名称>的“已连接”字段右侧的问号图标**&#x200B;字段，然后单击&#x200B;**添加**&#x200B;图标![创建连接字段图标](assets/create-a-connection-field-icon.png)以添加连接字段。
+
+   ![](assets/question-mark-icon-to-add-connected-fields-in-automations-with-workfront.png)
 
    新字段自动创建并命名为&#x200B;**连接的&lt; Workfront对象名称>**。 例如，当为记录创建已连接项目组合字段时，将其命名为“已连接项目组合”。
 
 1. 单击自动化详细信息页面右上角的&#x200B;**保存**。
 
    自动化显示在自动化列表中，并可用于记录。
-1. （可选）要编辑、禁用或删除自动化，请执行以下操作：
+
+## 管理现有自动化
+
+{{step1-to-planning}}
+
+1. 单击记录类型卡片，然后单击记录名称。
+
+   此时将打开记录类型页面。
+1. 单击记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**管理自动化**。
+
+   将打开所选记录类型的可用自动化列表。
+
+1. （可选）要编辑、禁用或删除自动化，请执行下列操作之一：
 
    1. 在自动化列表中，将鼠标悬停在已保存自动化的名称上，然后单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)。
 
    1. 单击&#x200B;**编辑**&#x200B;以更新有关自动机的信息并配置字段。
-   1. 单击&#x200B;**禁用**&#x200B;可从表视图中删除自动化并阻止用户使用它创建记录或对象。 若要使其再次可用，请再次单击&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**激活**。
-   1. 单击&#x200B;**删除**&#x200B;以删除自动化。 无法恢复已删除的自动化。 使用自动化创建的记录仍与最初选择的记录保持连接。
+
+      >[!TIP]
+      >
+      >   您无法更改最初为自动化选择的操作。
+
+
+   1. 单击“**禁用**”可从记录的表视图中删除自动化并阻止用户使用它来创建记录或对象。
+
+   已使用禁用的自动化创建的记录仍与最初选择的记录保持连接。
+
+   若要使其再次可用，请再次单击&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**激活**。
+   1. 单击&#x200B;**删除**&#x200B;以删除自动化。 无法恢复已删除的自动化。
+
+   使用已删除的自动化创建的记录仍与最初选择的记录保持连接。
 
 ## 使用Workfront Planning自动化功能创建对象或记录
 
-1. 在Workfront Planning中，打开记录类型页面，其中包含要用于创建Workfront对象或Planning记录的记录。
+1. 在Workfront Planning中，打开记录类型页面，该页面包含要用于自动创建和连接记录或对象的自动化功能。
 1. 打开表格视图。
 1. 选择一个或多个记录。
 
@@ -209,20 +250,21 @@ recommendations: noDisplay, noCatalog
 
    ![自动化按钮](assets/automation-custom-button.png)
 
-   如果自动化成功创建了对象或记录，则屏幕底部会显示确认消息。
+   出现以下情况：
 
-   新对象将显示在自动按钮的设置中指示的已连接字段中。 在查看新对象之前，您可能需要刷新页面。
+   * 如果自动化成功创建了对象或记录，则屏幕底部会显示确认消息。
+
+   * 新对象将显示在自动按钮的设置中指示的已连接字段中。 在查看新对象之前，您可能需要刷新页面。
+
+   * 从中触发自动操作的记录将添加到新记录的已连接字段中。
 
    >[!NOTE]
    >
-   >我们建议检查对象是否已按预期创建和连接。
+   >我们建议检查对象或记录是否按预期创建和连接。
 
 1. （可选）单击已连接字段中的新对象。 “对象”页面随即打开，您可以对新对象进行其他更改。
 
-<!--you might need to add something about notifications and emails?!-->
-
-
-<!--****************************************FUTURE ARTICLE AFTER THE RELEASE TO PREVIEW ON FEBRUARY 20:*****************************************************  
+<!--ORIGINAL AUTOMATION FUNCTIONALITY - BEFORE FEB. 20, 2025
 
 You can configure automations in Adobe Workfront Planning that, when activated, create objects in Workfront or records in Workfront Planning when triggered from a Planning record. The created objects or records are automatically connected to the records you are triggering the automation from. 
 
@@ -309,13 +351,12 @@ You must have the following access to perform the steps in this article:
 ## Considerations about creating objects and records using an automation
 
 * The new object or record name is the same as the record name from which you create it. 
-* New objects or records don't override existing ones in the same field. Triggering the same automation multiple times for the same record adds the new objects or records in the same connected field of the original record, in addition to the ones created before. 
-
-(************hide this for now: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered. ***************)
+* New objects or records don't override existing ones in the same field. Triggering the same automation multiple times for the same records adds the new objects or records in the same connected field of the original record, in addition to the ones created before. 
+* The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered. 
 
 ## Configure an automation in Workfront Planning
 
-You must configure an automation for a record type in Workfront Planning before you can use it to create objects.
+You must configure an automation for a record type in Workfront Planning, before you can use it to create objects.
 
 {{step1-to-planning}}
 
@@ -336,107 +377,64 @@ You must configure an automation for a record type in Workfront Planning before 
 
 1. On the automation's details page, update the following fields in the **Triggers** section: 
 
-   * **Trigger**: Select the action that will trigger the automation. For example, select **Button click**. *************update this step with a list of all possible triggers; right now only Button click is available*********
+   * **Trigger**: Select the action that will trigger the automation. For example, select **Button click**. (********update this step with a list of all possible triggers; right not only Button click is available***********)
 
-1. Update the following fields in the **Actions** section: **********submitted bugs for these fields - see if they need changing here***********
-   * **Actions**: Select the action that you want Workfront to perform when triggering the automation. This is a required field. 
-   Select one of the following actions: 
+1. Update the following fields in the **Actions** section: <********submitted bugs for these fields - see if they need changing here*********)
+   * **Object type**: Select the object that you want the automation to create. This is a required field.
+      
+      You can create the following objects from Workfront Planning records: 
 
-      * Create group
-      * Create program
-      * Create portfolio
-      * Create project
-      * Create record
+      * Project
+      * Portfolio
+      * Program
+      * Group
+      * Record
 
       >[!TIP]
       >
-      >After you saved the automation, you can no longer change the action selected in this field.
+      >After you saved the automation, you can no longer change the object type in this field.
 
-1. (Conditional) Depending on what action you selected, update the following fields:
+1. (Conditional) Depending on what type of object you want to create, update the following fields:
 
-   * **Create project**: 
+
+   * **Project**: 
       * **Connected field where the object is created**: This is the connected field where the new project will display. This is a required field. 
-      * **Project template**: Select a project template that Workfront will use to create the project.  
-   * **Create portfolio**:
+      * **Template from which to create the project**: Select a project template that Workfront will use to create the project.  
+   * **Portfolio**:
       * **Connected field where the object is created**: This is the connected field where the new portfolio will display. This is a required field.
       * **Custom form to attach to the new portfolio**: Select a custom form to attach to the new portfolio. You must create a portfolio custom form before you can select it. 
-   * **Create program**: 
+   * **Program**: 
       * **Connected field where the object is created**: This is the connected field where the new program will display. This is a required field.
       * **Program portfolio**: Select a portfolio where the new program will be added. This is a required field.
       * **Custom form to attach to the new program**: Select a custom form to attach to the new program. You must create a program custom form before you can select it. 
-   * **Create group**:
+   * **Group**:
       * **Connected field where the object is created**: This is the connected field where the new group will display. This is a required field.
       * **Custom form to attach to the new group**: Select a custom form to attach to the new program. You must create a program custom form before you can select it. 
-   * **Create record**: 
-      * **Record type**: Select the record type you want to create. 
-
-      The **Settings** sub-section displays. Update the following fields in the **Settings** sub-section: 
-
-      * **Field on the connected record type where the current record will show**: This is the connected field on the record type selected for the action where the current record will display. 
-      
-      For example, if you are creating an automation for campaigns to connect Product records from, this is the connected field on the Product record type where the campaigns will display, after the products are created using the automation. 
-      
-      This is a required field. 
-      
-      ******submitted a change in functionality and UI text for this - revise?? *******
+   * **Record**: 
+      * **Connected record type**: Select the record type you want to create. 
+      * **Connected field where the record is created**: This is the connected field where the new record will display. This is a required field. (******this might need revision as right now it shows the field on the connected record table where the current record will display; submitted a bug to correct this label*********)
       * **Map fields**
          * **Transfer from**: Select fields from the record type the automation is created for to map them to the fields of the connected record type. 
       * **Transfer to**: Select fields from the newly created record that will populate with information from the record you are running the automation from. 
-
-      >[!TIP]
-      >
-      >The field types from the original record type must match the field types from the newly created record type.
-
 1. (Optional and conditional) If you selected to create a record, click **Add fields** to map additional lookup fields from one record to another.
-1. (Conditional) If you selected to create a record and there are no connection fields between the original record type and the record type selected in the **Actions** area, click the question mark icon to the right of the **Field on the connected record type where the current record will show** field, then click the **Add** icon ![Create a connection field icon](assets/create-a-connection-field-icon.png) to add a connection field. 
-
-   The new field is automatically created for the record type you selected in the **Actions** area, and named **Connected Record**. 
-   
-   A connected field for the selected record type is also created on the original record type from where you are configuring the automation. 
-1. (Optional and conditional) If you selected to create a Workfront object and don't have a connection field for the selected Workfront object type, click the question mark icon to the right of the **Connected field where the < Workfront object type name > is created** field, and click the **Add** icon ![Create a connection field icon](assets/create-a-connection-field-icon.png) to add a connection field. 
-
-   ![](assets/question-mark-icon-to-add-connected-fields-in-automations-with-workfront.png)
+1. (Optional and conditional) If you don't have a connection field for a Workfront object type, click the **Create a connection field** icon ![Create a connection field icon](assets/create-a-connection-field-icon.png) to add a field.
 
    The new field is automatically created and named **Connected < Workfront object name >**. For example, when a portfolio connected field is created for the record, it is named "Connected portfolio." 
 
 1. Click **Save** in the upper-right corner of the automation details page. 
 
    The automation displays on the list of automations, and is available to use in records.
-
-## Manage existing automations
-
-{{step1-to-planning}}
-
-1. Click a record type card, then click the name of a record. 
-
-   The record type page opens. 
-1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name, then click **Manage automations**. 
-
-   The list of available automations for the selected record type opens.
-
-1. (Optional) To edit, disable, or delete an automation, do one of the following:
+1. (Optional) To edit, disable, or delete an automation, do the following:
 
    1. From the list of automations, hover over the name of a saved automation, then click the **More** menu ![More menu](assets/more-menu.png).
 
    1. Click **Edit** to update information about and configure fields on the automation.
-
-      >[!TIP]
-      >
-      >   You cannot change the action you originally selected for an automation. 
-   
-
-   1. Click **Disable** to remove the automation from the record's table view and prevent users from using it to create records or objects. 
-
-   Records that have been created using a disabled automation remain connected to the record originally selected.
-   
-   To make it available again, click the **More** menu ![More menu](assets/more-menu.png) again, then click **Activate**.
-   1. Click **Delete** to delete the automation. A deleted automation cannot be recovered. 
-   
-   Records that have been created using a deleted automation remain connected to the record originally selected.  
+   1. Click **Disable** to remove the automation from the table view and prevent users from using it to create records or objects. To make it available again, click the **More** menu ![More menu](assets/more-menu.png) again, then click **Activate**.
+   1. Click **Delete** to delete the automation. A deleted automation cannot be recovered. Records that have been created using the automation remain connected to the record originally selected.  
 
 ## Use a Workfront Planning automation to create an object or a record
 
-1. In Workfront Planning, open the record type page that contains the automation you want to use to automatically create and connect records or objects. 
+1. In Workfront Planning, open the record type page that contains the records you want to use to create Workfront objects or Planning records. 
 1. Open the table view. 
 1. Select one or more records.
    
@@ -445,20 +443,15 @@ You must configure an automation for a record type in Workfront Planning before 
 
    ![Automation button](assets/automation-custom-button.png)
 
-   The following things occur: 
+   A confirmation message displays at the bottom of the screen, if the automation successfully created an object or a record. 
 
-   * A confirmation message displays at the bottom of the screen, if the automation successfully created an object or a record. 
-
-   * The new object displays in the connected field you indicated in the setup of the automation button. You might need to refresh your page before viewing the new object. 
-
-   * The record you are triggering the automation from is added to the connected field of the new record.
+   The new object displays in the connected field you indicated in the setup of the automation button. You might need to refresh your page before viewing the new object. 
 
    >[!NOTE]
    >
-   >We recommend checking that the objects or records were created and the connected as expected.
+   >We recommend checking that the object was created and connected as expected.
 
 1. (Optional) Click the new object in the connected field. The object page opens and you can make additional changes to the new object. 
 
-***********you might need to add something about notifications and emails?!*************
-
 -->
+

@@ -6,16 +6,16 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '1140'
 ht-degree: 1%
 
 ---
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-# 从Workfront Planning <!--as you connect them to records-->创建Workfront对象
+# 在将Workfront对象连接到记录时，从Workfront Planning创建这些对象
 
 <!-- update the title (and all the links to this article) at preview, to be this: Create Workfront objects from Workfront Planning as you connect them to records-->
 <!-- remove preview and production at release time-->
@@ -26,41 +26,29 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-<!--
-You can create Adobe Workfront objects from Workfront Planning in the following ways: 
+您可以通过以下方式从Workfront Planning创建Adobe Workfront对象：
 
-* As you try to connect Workfront objects from Planning records
+* 从Planning记录连接Workfront对象时
 
-    This article describes how to create Workfront objects from Workfront Planning as you try to connect them from Planning records. 
-* <span class="preview">When you use automations from a record's page.</span> 
+  本文介绍了在从Planning记录连接Workfront对象时，如何从Workfront Planning创建这些对象。
+* <span class="preview">当您从记录页面使用自动处理时。</span>
 
-    For information about creating Workfront objects using automations, see [Create objects using Adobe Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md). 
--->
+  <span class="preview">有关使用自动化创建Workfront对象的信息，请参阅[使用Adobe Workfront Planning记录自动化创建对象](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)。</span>
 
 将Workfront记录与以下Workfront对象类型连接时，您可以从Workfront Planning创建以下Workfront对象类型：
 
 * 项目
 * 项目组合
-  <!--* <span class="preview">Programs</span>-->
+* <span class="preview">程序</span>
 
 >[!IMPORTANT]
 >
->* 从记录中连接项目和项目组合时，只能在Workfront中创建它们。
+>* 从记录连接项目、项目组合和<span class="preview">程序</span>时，只能在Workfront中创建它们。
 >
->* 从Workfront Planning中的记录连接程序、组或公司时，不能创建这些程序、组或公司。
+>* 从Workfront Planning中的记录连接组或公司时，无法创建组或公司。
 >
 
-<!--replace the IMPORTANT above with this when we release programs: 
-
->[!IMPORTANT]
->
->* You can create only projects, portfolios, and <span class="preview">programs</span> in Workfront when connecting them from a record. 
->
->* You cannot create groups or companies when connecting them from a record in Workfront Planning. 
->
--->
-
-您可以在Workfront Planning的以下区域的连接字段中连接项目和项目组合<!--<span class="preview"> and programs </span>-->：
+您可以在Workfront Planning的以下区域的连接字段中连接项目、项目组合、<span class="preview">和程序</span>：
 
 * 记录类型的表格视图
 * 记录的详细信息页面或预览框
@@ -145,7 +133,7 @@ You can create Adobe Workfront objects from Workfront Planning in the following 
 
 您必须具备以下条件，才能通过从现有记录连接项目或项目组合来添加新项目或项目组合：
 
-* 记录类型已连接到Workfront项目或项目组合<!--or <span class="preview">programs</span>-->。 有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
+* 记录类型连接到Workfront项目、项目组合或<span class="preview">项目</span>。 有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
 * 记录。 有关信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
 * Workfront Planning和Workfront中的正确访问和权限，如本文的[访问要求](#access-requirements)部分所述。
 
@@ -155,7 +143,11 @@ You can create Adobe Workfront objects from Workfront Planning in the following 
 
 1. 转到记录的详细信息页面或记录类型的表，然后开始将Workfront Planning记录与Workfront项目连接，如文章[连接记录](/help/quicksilver/planning/records/connect-records.md)中所述。
 
-1. （视情况而定） <!--<span class="preview">Click **Add project**</span> Or Start typing the name of a project, then click **Add project** if you cannot find it.-->如果尝试从其他记录的已连接记录字段添加项目时找不到项目，请添加名称，然后单击&#x200B;**添加项目**。 添加按钮后跟您键入的项目名称。
+1. （视情况而定） <span class="preview">单击&#x200B;**添加项目**</span>
+或
+开始键入项目的名称，如果找不到，请单击**添加项目**。
+
+   如果尝试从其他记录的已连接记录字段添加项目时找不到该项目，请添加名称，然后单击&#x200B;**添加项目**。 添加按钮后跟您键入的项目名称。
 
    <!--at production or when the permanent Add button is released to preview, take the first part of the direction above out and say "Click Add to add a new project"; take this out too: "The Add button is followed by the project name you typed."-->
 
@@ -180,7 +172,11 @@ You can create Adobe Workfront objects from Workfront Planning in the following 
 
    <!--at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click Add to add a new portfolio"; take this out too: "The Add button is followed by the portfolio name you typed."-->
 
-1. （视情况而定） <!--<span class="preview">Click **Add portfolio**</span> Or Start typing the name of a portfolio, then click **Add portfolio** if you cannot find it.-->如果您在尝试从其他记录的已连接记录字段添加项目组合时找不到项目组合，请添加名称，然后单击&#x200B;**添加项目组合**。 “添加”按钮后面还有您键入的项目组合名称。
+1. （视情况而定） <span class="preview">单击&#x200B;**添加项目组合**</span>
+
+   或
+
+   开始键入项目组合的名称，如果找不到，请单击&#x200B;**添加项目组合**。—>如果尝试从其他记录的已连接记录字段添加项目组合时找不到项目组合，请添加名称，然后单击&#x200B;**添加项目组合**。 “添加”按钮后面还有您键入的项目组合名称。
 
    ![从连接字段连接项目组合时添加项目组合](assets/add-portfolio-when-connecting-it-from-connection-field.png)
 
@@ -188,36 +184,33 @@ You can create Adobe Workfront objects from Workfront Planning in the following 
 
 1. （可选）在Workfront Planning中单击新项目组合的名称，以在Workfront中打开项目组合页面，并对项目组合进行其他更新。
 
-<!--
-
 <div class="preview">
 
-## Create programs as you connect them with records from Workfront Planning
+## 在将程序与Workfront Planning中的记录连接时创建程序
 
-To create programs as you are connecting them from Planning records: 
+要在从Planning记录连接程序时创建程序，请执行以下操作：
 
-1. Go to a record's details page or to the record type's table and start connecting Workfront Planning records with Workfront portfolios, as described in the article [Connect records](/help/quicksilver/planning/records/connect-records.md). 
+1. 转到记录的详细信息页面或记录类型的表，然后开始将Workfront Planning记录与Workfront项目组合连接，如文章[连接记录](/help/quicksilver/planning/records/connect-records.md)中所述。
 
-    ******** at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click Add to add a new program"; take this out too: "The Add button is followed by the program name you typed." ***********
-    
-1. Click **Add program** 
+   <!--at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click Add to add a new program"; take this out too: "The Add button is followed by the program name you typed."-->
 
-    Or 
-    
-    Start typing the name of a program, then click **Add program** if you cannot find it. The Add button is followed by the program name you typed. 
+1. 单击&#x200B;**添加程序**
 
-    ![Add Workfront program when connecting it from connection field](assets/add-wf-program-when-connecting-it-from-connection-field.png)
+   或
 
-    The **Create program** box opens.
+   开始键入项目的名称，如果找不到，请单击&#x200B;**添加项目**。 “添加”按钮后跟您键入的程序名。
 
-1. Update the **Program name**. This is a required field.
-1. Choose a **Portfolio** from the drop-down, or start typing the name of a portfolio, then select it when it displays in the list. This is a required field. 
-1. Click **Create**.
+   ![从连接字段连接Workfront程序时添加该程序](assets/add-wf-program-when-connecting-it-from-connection-field.png)
 
-    The program is created and added to the connection field of the record you selected. 
+   将打开&#x200B;**创建程序**&#x200B;框。
 
-1. (Optional) Click the name of the new program from Workfront Planning to open the program's page in Workfront and make additional updates to it. 
+1. 更新&#x200B;**项目名称**。 这是必填字段。
+1. 从下拉列表中选择&#x200B;**Portfolio**，或者开始键入项目组合的名称，然后在此项目组合显示在列表中时将其选定。 这是必填字段。
+1. 单击&#x200B;**创建**。
+
+   将创建项目并将其添加到所选记录的连接字段中。
+
+1. （可选）单击Workfront Planning中新项目的名称，以在Workfront中打开该项目页面，并对其做出其他更新。
 
 </div>
 
--->
