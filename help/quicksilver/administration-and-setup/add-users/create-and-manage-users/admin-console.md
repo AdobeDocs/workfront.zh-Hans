@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: f9dea6c80c0d681e3638c9baf36e6e511693b59c
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1322'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->仅当贵组织的Workfront实例已载入到Adobe业务平台时，本文中的功能才可用。
+>本文中的功能仅在贵组织的Workfront实例已载入到Adobe Business Platform时才可用。
 >
 >有关因贵组织是否已登记到Adobe业务平台而不同的过程列表，请参阅[基于平台的管理差异(Adobe Workfront/Adobe业务平台)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
-Adobe管理员可以使用Adobe Admin Console创建Adobe Workfront系统管理员。 该控制台是管理整个组织的Adobe权利的中心位置。 有关详细信息，请参阅[Admin Console概述](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)。
+Adobe管理员可以使用Adobe Admin Console创建Adobe Workfront系统管理员。 该控制台是管理整个组织中的Adobe权利的中心位置。 有关详细信息，请参阅[Admin Console概述](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)。
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ Adobe管理员可以使用Adobe Admin Console创建Adobe Workfront系统管理�
   </tr> 
   <tr> 
    <td role="rowheader">Adobe管理员权限</td> 
-   <td> <p>您必须是贵组织Adobe产品的产品配置管理员</p> </td> 
+   <td> <p>您必须是贵组织的Adobe产品的产品配置管理员</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,23 +61,23 @@ Adobe管理员可以使用Adobe Admin Console创建Adobe Workfront系统管理�
 
 ## 先决条件
 
-在使用Workfront的Admin Console之前，您应该会收到一封电子邮件，邀请您进入控制台。
+在使用Admin Console for Workfront之前，您应该会收到一封电子邮件，邀请您进入控制台。
 
-1. 如果您是Adobe的新用户，并且已收到一封电子邮件，告知您现在拥有管理贵组织的Adobe软件和服务的管理权限，请单击电子邮件中的按钮以创建Adobe帐户并打开该Admin Console。
+1. 如果您是初次使用Adobe，并且已收到一封电子邮件，告知您现在拥有管理贵组织的Adobe软件和服务的管理权限，请单击电子邮件中的按钮以创建Adobe帐户并打开Admin Console。
 
    或
 
-   如果您已有Adobe帐户，请转到[Adobe Admin Console页面](https://adminconsole.adobe.com/)。
+   如果您已经拥有Adobe帐户，请转到[Adobe Admin Console页面](https://adminconsole.adobe.com/)。
 
 ## 有关Adobe Admin Console的其他详细信息
 
-* Workfront系统管理员可以在Workfront中停用Workfront用户，但这不会停用Admin Console中的用户。
+* Workfront系统管理员可以从Workfront中停用Workfront用户，但这不会在Admin Console中停用该用户。
 
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about deactivating a user in Workfront, see </p>
   -->
 
-* 根据创建用户&#x200B;**主组**&#x200B;的用户确定用户。 这不能从Admin Console内自定义。
+* 根据创建用户&#x200B;**主组**&#x200B;的用户确定用户。 这不能从Admin Console中进行自定义。
 * 只能从Adobe Admin Console中编辑Workfront系统管理员访问级别。
 
   <!--
@@ -97,6 +97,8 @@ Adobe管理员可以使用Adobe Admin Console创建Adobe Workfront系统管理�
   >[!IMPORTANT]
   >
   >请勿对产品配置文件本身进行任何更改。
+
+* Adobe Admin Console管理员可以设置自动分配规则，以自动将Adobe产品分配给组织中的用户。 有关更多信息和说明，请参阅Adobe文档中的[管理自动分配规则](https://helpx.adobe.com/enterprise/using/automatic-assignment-rules.html)。
 
 ## 访问Workfront生产实例的用户和管理区域 {#access-the-user-and-admin-area-for-your-production-instance-of-workfront}
 
@@ -183,9 +185,9 @@ Adobe管理员可以使用Adobe Admin Console创建Adobe Workfront系统管理�
 
    >[!NOTE]
    >
-   >对于新的Adobe用户，Admin Console会发送一封电子邮件，邀请他们完成注册过程。 所有用户都必须完成注册过程才能访问任何Adobe应用程序。
+   >对于新的Adobe用户，Admin Console会发送一封电子邮件，邀请他们完成注册流程。 所有用户都必须完成注册过程才能访问任何Adobe应用程序。
    >
-   >对于现有Adobe用户，用户可能会收到也可能不会收到有关Workfront可用性的电子邮件。 这是由Adobe管理员控制的产品首选项。 您的Adobe管理员可能不是Workfront管理员。
+   >对于现有Adobe用户，用户可能会收到也可能不会收到有关Workfront可用性的电子邮件。 这是由Adobe管理员控制的产品首选项。 您的Adobe管理员可能与Workfront管理员不同。
 
 ### 在Workfront中创建用户并批准他们用于Adobe Admin Console
 
