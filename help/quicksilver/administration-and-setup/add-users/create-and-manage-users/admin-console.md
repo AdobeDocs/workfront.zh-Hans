@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: f9dea6c80c0d681e3638c9baf36e6e511693b59c
+source-git-commit: 0cbce301426ee42bc00f8b0930a13d0d7875e382
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1336'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Adobe管理员可以使用Adobe Admin Console创建Adobe Workfront系统管理�
   >
   >请勿对产品配置文件本身进行任何更改。
 
-* Adobe Admin Console管理员可以设置自动分配规则，以自动将Adobe产品分配给组织中的用户。 有关更多信息和说明，请参阅Adobe文档中的[管理自动分配规则](https://helpx.adobe.com/enterprise/using/automatic-assignment-rules.html)。
+* Adobe Admin Console管理员可以设置自动分配规则，以自动将Adobe产品分配给组织中的用户。 您的组织必须迁移到Adobe Unified Experience才能使用此功能。 有关更多信息和说明，请参阅Adobe文档中的[管理自动分配规则](https://helpx.adobe.com/enterprise/using/automatic-assignment-rules.html)。
 
 ## 访问Workfront生产实例的用户和管理区域 {#access-the-user-and-admin-area-for-your-production-instance-of-workfront}
 
