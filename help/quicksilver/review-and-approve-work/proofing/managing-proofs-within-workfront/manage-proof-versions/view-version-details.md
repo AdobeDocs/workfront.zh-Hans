@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Digital Content and Documents
 exl-id: 360d0f4a-a78c-4c17-b4a1-6d4b811f7bb6
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '363'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 1%
 1. 在文档列表中，将鼠标悬停在包含验证的行上，然后单击&#x200B;**文档详细信息**。
 1. 在“文档详细信息”页面顶部附近，单击名称旁边的下拉菜单，然后单击要查看和管理的版本的名称。
 
-   ![](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
+   ![版本下拉列表](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
 
    除了查看版本的详细信息之外，您还可以对版本进行更改，例如其名称、元数据和验证设置（如果它是文档验证）。
 

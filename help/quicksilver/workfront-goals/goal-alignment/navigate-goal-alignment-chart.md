@@ -6,9 +6,9 @@ description: 使用“目标对齐方式”部分可在流程图中显示整个�
 author: Alina
 feature: Workfront Goals
 exl-id: e79ced31-4680-4af7-b083-3d615c747af8
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '937'
 ht-degree: 1%
 
 ---
@@ -51,8 +51,8 @@ ht-degree: 1%
 <td>
 <p> 新产品要求，为以下项之一： </p>
 <ul>
-<li>Select或Prime Adobe Workfront计划和其他Adobe Workfront Goals许可证。</li>
-<li>默认包含Workfront目标的Ultimate Workfront计划。 </li></ul>
+<li>Select或Prime Adobe Workfront计划和附加Adobe Workfront Goals许可证。</li>
+<li>Ultimate Workfront计划，默认情况下包括Workfront目标。 </li></ul>
 <p>或</p>
 <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
 </tr>
@@ -137,11 +137,11 @@ ht-degree: 1%
 
    与其他目标一致的目标会在目标卡下显示一致的目标数。
 
-   ![](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
+   ![对齐图表箭头](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
 1. 单击目标下方的&#x200B;**向下箭头**&#x200B;图标可进一步展开并查看子目标。
 
-   ![](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
+   ![对齐图表箭头](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
    >[!TIP]
    >
@@ -149,7 +149,7 @@ ht-degree: 1%
 
 1. （视情况而定）如果当前过滤器不包括参与对齐的某些目标，则会显示一条警告消息，指示并非所有目标都会显示。
 
-   ![](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
+   ![已排除父目标](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
 
 1. 单击&#x200B;**显示它们**&#x200B;以显示筛选器当前消除的目标。
 
@@ -158,14 +158,14 @@ ht-degree: 1%
    * 以前通过过滤器消除的已连接目标现在显示在对齐图表中。
    * 右上角的过滤器以黄色列出，表示当前未应用该过滤器。
 
-     ![](assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png)
+     ![黄色筛选器高亮显示](assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png)
 
      重新应用过滤器链接显示在过滤器名称的左侧。
 
 1. （可选）单击&#x200B;**重新应用筛选器**&#x200B;以返回原始结果并显示目标层次结构。
 1. （可选）将鼠标悬停在进度指示器上以了解当天的目标进度在哪里。
 
-   ![](assets/progress-mouse-over-alignment-chart-350x163.png)
+   ![将鼠标悬停在对齐图上](assets/progress-mouse-over-alignment-chart-350x163.png)
 
    将显示以下信息：
 

@@ -6,9 +6,9 @@ description: 您可以查看有关验证如何在审核过程中进展的信息�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 78e81070-ff82-4d82-90a3-6e0cd176b290
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '376'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 验证进度指示对验证完成的工作，从您向收件人发送验证到他们对验证做出决定为止。 进度图标S、O、C和D显示在验证名称旁边，并提供有关验证进度的信息。
 
-![](assets/proof-edit-existing-progress-350x62.png)
+![人编辑现有进度](assets/proof-edit-existing-progress-350x62.png)
 
 <table style="table-layout:auto"> 
  <col> 
@@ -95,7 +95,7 @@ ht-degree: 1%
 
 验证状态显示验证所需的决策的状态。 证明的状态由“最坏情况”参与者决定。 例如，假设对验证有三个决定：两个决定的状态为&#x200B;**已接受**，另一个决定的状态为&#x200B;**已拒绝**。 **已拒绝**&#x200B;的“最坏情况”决策优先于其他决策，证明的整体状态显示为&#x200B;**已拒绝**。 
 
-![](assets/proof-edit-existing-progress-350x62.png)
+![校对编辑现有进度](assets/proof-edit-existing-progress-350x62.png)
 
 标准状态选项如下：
 

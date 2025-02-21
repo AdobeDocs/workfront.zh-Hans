@@ -6,9 +6,9 @@ description: 作为审阅人，您可以预览已提交您审阅的文档。
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 3755eb0d384e7274b88fbeafc2affa85f735efbc
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
@@ -94,5 +94,5 @@ Add once functionality is added
 
 1. （可选）查看文档后，您可以在文档的&#x200B;**更新**&#x200B;部分中为请求者留下评论。 有关评论的更多信息，请参阅[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
-1. （可选）您还可以预览或下载文档的特定版本，方法是向下滚动到“文档摘要”窗格的&#x200B;**版本**&#x200B;部分，然后单击要审阅的版本旁边的“更多”图标![](../assets/more-icon.png)，然后选择&#x200B;**下载**&#x200B;或&#x200B;**预览**。
+1. （可选）您还可以预览或下载文档的特定版本，方法是向下滚动到“文档摘要”窗格的&#x200B;**版本**&#x200B;部分，然后单击要审查的版本旁边的“更多”图标![更多图标](../assets/more-icon.png)，并选择&#x200B;**下载**&#x200B;或&#x200B;**预览**。
 1. 若要记录您已完成审阅，请单击&#x200B;**完成审阅**。

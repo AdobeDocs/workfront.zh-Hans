@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront中请求其他用户批准文档。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: a1a5c2bb9395748c4e0103d10dcf66624238032b
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>查看或拥有对项目、任务、问题、模板、Portfolio、程序、报告、功能板和日历、文档的更高访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td> <p>查看或更高权限的项目、任务、问题、模板、项目组合、程序、报告、功能板和日历、文档</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">对象权限</td> 
@@ -58,7 +58,7 @@ ht-degree: 0%
 ## 从文档页面创建文档审阅或审批请求
 
 1. 将鼠标悬停在文档上，然后单击“文档详细信息”。
-   ![](assets/doc-details.png)
+   ![文档详细信息](assets/doc-details.png)
 
 
 1. 在文档名称附近，在版本下拉菜单中选择要创建批准的文档版本。 默认情况下将选择最新版本。
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 1. 要添加审阅者，请单击&#x200B;**审阅者**&#x200B;复选框，然后开始键入用户或团队名称。
 
-   ![](assets/add-approver-and-deadline.png)
+   ![添加审批者和截止日期](assets/add-approver-and-deadline.png)
 
 1. 重复上一步骤以添加其他批准者或审阅者。
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 1. 向下滚动到“文档摘要”窗格中的&#x200B;**审批**&#x200B;部分，然后单击&#x200B;**添加**。
 
-![](assets/doc-summary-add-approvers.png)
+![在文档摘要中添加批准者](assets/doc-summary-add-approvers.png)
 
 1. （可选）设置审批的截止日期。 用户和团队将在指定截止日期前72小时（即24小时）通过电子邮件接收通知。
 
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 1. 要添加审阅者，请单击&#x200B;**审阅者**&#x200B;复选框，然后开始键入用户或团队名称。
 
-   ![](assets/add-approver-and-deadline.png)
+   ![添加审批者和截止日期](assets/add-approver-and-deadline.png)
 
 1. 重复上一步骤以添加其他批准者或审阅者。
 
@@ -111,5 +111,5 @@ Document approval decisions are not automatically reset when you upload a new ve
 
 1. Scroll down to the **Approvals** section in the Summary, click the More icon, then click Resubmit.
 
-   ![](assets/nwe-resubmit-approval-350x149.png)
+   ![Resubmit approval](assets/nwe-resubmit-approval-350x149.png)
 -->

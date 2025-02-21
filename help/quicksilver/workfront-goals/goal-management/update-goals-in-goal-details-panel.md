@@ -6,9 +6,9 @@ description: 您可以通过访问目标详细信息面板来更新各个目标�
 author: Alina
 feature: Workfront Goals
 exl-id: e9df0d98-05a1-4977-b7f1-426b8f5b3eae
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '642'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 1%
    <td role="rowheader">Adobe Workfront计划*</td> 
    <td> 
    <p>对于新计划和许可证结构：
-  <ul><li>最终计划 </li></ul>
+  <ul><li>Ultimate计划 </li></ul>
    </p>
 <p>对于当前计划和许可证结构： 
 <ul><li> Pro或更高版本 </li>
@@ -60,8 +60,8 @@ ht-degree: 1%
  <td>
  <p> 新产品要求，为以下项之一： </p>
 <ul>
-<li>Select或Prime Adobe Workfront计划和其他Adobe Workfront Goals许可证。</li>
-<li>默认包含Workfront目标的Ultimate Workfront计划。 </li></ul>
+<li>Select或Prime Adobe Workfront计划和附加Adobe Workfront Goals许可证。</li>
+<li>Ultimate Workfront计划，默认情况下包括Workfront目标。 </li></ul>
  <p>或</p>
  <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
@@ -98,7 +98,7 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
 ### Update goals in the Goal Details panel in the Production environment
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -108,7 +108,7 @@ Updating goals in the Goal Details panel differs depending on where you access t
 1. Click the name of a goal in the Goal List, then click the name of a goal.
 
    This opens the Goal Details panel on the right.
-   ![](assets/goal-details-summary-tab-350x294.png)
+   ![Goal details summary](assets/goal-details-summary-tab-350x294.png)
 
    >[!TIP]
    >
@@ -120,7 +120,7 @@ Updating goals in the Goal Details panel differs depending on where you access t
    >The Check-in and Pulse sections have been removed from the Preview environment.
    >
 
-1. On the Summary tab, click the **More icon** ![](assets/more-icon.png), then click any of the following options:
+1. On the Summary tab, click the **More icon** ![More icon](assets/more-icon.png), then click any of the following options:
 
    1. **Edit**. For information about editing goals, see [Edit goals in Adobe Workfront Goals](../../workfront-goals/goal-management/edit-goals.md).
    1. **Copy**. For information about copying goals, see [Copy goals in Adobe Workfront Goals](../../workfront-goals/goal-management/copy-goals.md).
@@ -159,7 +159,7 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
 1. Click the **Updates** tab. Here, you can view goal comments and review the entire editing history of the goal, activities, and results, to understand who changed what and when.
 
-   ![](assets/goal-details-updates-tab-350x280.png)
+   ![Goal details updates](assets/goal-details-updates-tab-350x280.png)
 
 1. (Optional) Deselect any of the following options if you want to not display them in the Updates tab.&nbsp;They are selected by default: 
 
@@ -171,7 +171,7 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
 1. (Optional) Click **Details** under a progress or an editing history update to display additional information about the update.
 
-   ![](assets/update-details-in-updates-tab-expanded-highlighted-350x139.png)
+   ![Details in update tab](assets/update-details-in-updates-tab-expanded-highlighted-350x139.png)
 
 -->
 
@@ -181,9 +181,9 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
    这将打开左侧的&#x200B;**目标详细信息**&#x200B;部分。
 
-   ![](assets/goal-page-unshimmed.png)
+   ![目标页面](assets/goal-page-unshimmed.png)
 
-1. 单击右上角的&#x200B;**编辑图标** ![](assets/edit-icon.png)，然后单击&#x200B;**全部编辑**&#x200B;或&#x200B;**概述**
+1. 单击右上角的&#x200B;**编辑图标** ![编辑图标](assets/edit-icon.png)，然后单击&#x200B;**全部编辑**&#x200B;或&#x200B;**概述**
 
    或
 

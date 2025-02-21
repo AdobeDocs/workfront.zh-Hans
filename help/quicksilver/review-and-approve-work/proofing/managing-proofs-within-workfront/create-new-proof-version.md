@@ -6,9 +6,9 @@ description: 跨工作项的多个版本或修订版本管理反馈可能是一�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1734'
+source-wordcount: '1737'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 0%
   <table>
   <tbody>
   <tr>
-  <td>上传文档时自动生成证明</td>
+  <td>上传文档时自动生成校样</td>
   <td>默认验证设置不会延续。 如果您在用户配置文件中启用了此设置，则在拖放新版本时默认验证设置不会延续。</td>
   </tr>
   <tr>
@@ -105,7 +105,7 @@ ht-degree: 0%
 
    选择列出校对的行，单击&#x200B;**新增** > **版本**，然后单击要用于添加新版本的校对的选项。
 
-   ![](assets/add-new-version-350x185.png)
+   ![添加新版本](assets/add-new-version-350x185.png)
 
 ## 从验证查看者创建新版本的验证(仅限Workfront Proof)
 

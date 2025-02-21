@@ -6,9 +6,9 @@ description: 您可以配置Web验证查看器和桌面验证查看器的设置�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 3993cd67-90a9-4d7e-bbc0-7b9bd1057f54
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1424'
 ht-degree: 0%
 
 ---
@@ -80,13 +80,13 @@ ht-degree: 0%
 1. 通过以下方式之一打开Web验证查看器或桌面验证查看器：
 
    * 如果您在Adobe Workfront中验证，请转到包含要查看的验证的文档列表，将鼠标悬停在文档上，然后单击&#x200B;**打开验证**。
-   * 如果使用Workfront Proof，请单击仪表板或视图列表![](assets/go-to-proof-blue-icon.png)中验证的&#x200B;**转到验证**&#x200B;图标。
+   * 如果您使用Workfront Proof，请单击仪表板或查看列表中验证的&#x200B;**前往验证**&#x200B;图标![前往验证](assets/go-to-proof-blue-icon.png)。
 
 1. 如果未显示左侧工具栏，请单击Web验证查看器左上角的&#x200B;**菜单**&#x200B;图标。
 
-   ![](assets/menu-icon-in-proofing-viewer-350x228.png)
+   ![菜单图标](assets/menu-icon-in-proofing-viewer-350x228.png)
 
-1. 在左侧工具栏中，单击&#x200B;**设置**&#x200B;图标![](assets/settings-icon-in-pv.png)。
+1. 在左侧工具栏中，单击&#x200B;**设置**&#x200B;图标![设置图标](assets/settings-icon-in-pv.png)。
 
 1. 配置以下任何显示的&#x200B;**设置**。
 

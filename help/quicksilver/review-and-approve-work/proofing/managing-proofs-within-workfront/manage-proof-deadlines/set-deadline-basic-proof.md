@@ -7,9 +7,9 @@ description: 基本验证创建后，您可以为其设置单个截止日期。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8e0c6fd3-5506-4b23-b64a-473c4d20b506
-source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '231'
 ht-degree: 2%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 2%
 1. 单击&#x200B;**校对工作流**。
 1. 在&#x200B;**工作流**&#x200B;区域，选择&#x200B;**无截止日期**。
 
-   ![](assets/no-deadline-basic-proof-350x70.png)
+   ![无截止日期](assets/no-deadline-basic-proof-350x70.png)
 
 1. 选择日期并指定时间，然后单击屏幕上的任意位置。
 1. 选择是否要通知审阅人新的截止日期。

@@ -6,9 +6,9 @@ description: 批准流程提供了灵活性，可以为项目、任务和问题�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: b0b83e8a8a2a076ec20691183605e3d25d10129d
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 ## 在“主页”区域查看您提交以供审批的工作 {#review-work-you-submit-for-approval-in-the-home-area}
 
-1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
+1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
 1. （视情况而定）单击&#x200B;**自定义**&#x200B;以添加&#x200B;**我的审批**&#x200B;小组件。
 1. （视情况而定）单击&#x200B;**筛选器**&#x200B;下拉菜单，然后选择&#x200B;**我已提交的审批**&#x200B;以查看您提交的审批。
 
@@ -133,6 +133,6 @@ ht-degree: 0%
 
    “审批”选项卡显示所有过去审批路径和阶段的完整信息。 您可以准确地查看对批准做出决定的用户，或者是否为团队、工作角色或用户设置了批准。
 
-   ![](assets/approvals-tab-expanded-on-issue-nwe-350x320.png)
+   ![审批选项卡已展开](assets/approvals-tab-expanded-on-issue-nwe-350x320.png)
 
    有关创建批准流程的信息，请参阅[为工作项创建批准流程](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)。

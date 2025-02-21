@@ -6,9 +6,9 @@ description: 您可以从任何时段和任何状态编辑现有目标。
 author: Alina
 feature: Workfront Goals
 exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '640'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
    <td role="rowheader">Adobe Workfront计划*</td> 
    <td> 
    <p>对于新计划和许可证结构：
-  <ul><li>最终计划 </li></ul>
+  <ul><li>Ultimate计划 </li></ul>
    </p>
 <p>对于当前计划和许可证结构： 
 <ul><li> Pro或更高版本 </li>
@@ -50,8 +50,8 @@ ht-degree: 1%
  <td>
  <p> 新产品要求，为以下项之一： </p>
 <ul>
-<li>Select或Prime Adobe Workfront计划和其他Adobe Workfront Goals许可证。</li>
-<li>默认包含Workfront目标的Ultimate Workfront计划。 </li></ul>
+<li>Select或Prime Adobe Workfront计划和附加Adobe Workfront Goals许可证。</li>
+<li>Ultimate Workfront计划，默认情况下包括Workfront目标。 </li></ul>
  <p>或</p>
  <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
@@ -104,9 +104,9 @@ Editing goals differs depending on what environment you use.
 ### Edit goals in the Production environment
 
 1. Go to a goal that you want to edit and click the goal name to open the **Goal Details** panel. 
-1. Click the **More icon** ![](assets/more-icon.png), then click **Edit**.
+1. Click the **More icon** ![More icon](assets/more-icon.png), then click **Edit**.
 
-   ![](assets/edit-goal-highlighted.png)
+   ![Edit goal](assets/edit-goal-highlighted.png)
 
 1. Update the name of the goal in the **Goal** field. 
 1. Select a time period when the goal should be completed.
@@ -144,17 +144,17 @@ Editing goals differs depending on what environment you use.
 
 -->
 
-1. 单击&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**目标**。\
+1. 单击&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**目标**。\
    随即会显示目标列表。
 1. 单击目标。\
    此时将显示目标页面。
 
-   ![](assets/goal-page-unshimmed.png)
+   ![目标页面](assets/goal-page-unshimmed.png)
 
 1. 执行以下操作之一以编辑目标的信息：
    * 单击目标标题中显示的字段以更新它们。 标头中的所有字段并非都可以编辑。
-   * 单击目标名称右侧的&#x200B;**更多图标** ![](assets/more-icon.png)，然后单击&#x200B;**编辑**。
-   * 单击左面板中的&#x200B;**目标详细信息**，然后单击右上角的&#x200B;**编辑图标** ![](assets/edit-icon.png)，然后单击&#x200B;**全部编辑**。 开始更新目标详细信息部分中的字段。
+   * 单击目标名称右侧的&#x200B;**更多图标** ![更多图标](assets/more-icon.png)，然后单击&#x200B;**编辑**。
+   * 单击左面板中的&#x200B;**目标详细信息**，然后单击右上角的&#x200B;**编辑图标**![编辑图标](assets/edit-icon.png)，然后单击&#x200B;**全部编辑**。 开始更新目标详细信息部分中的字段。
 
      >[!IMPORTANT]
      >

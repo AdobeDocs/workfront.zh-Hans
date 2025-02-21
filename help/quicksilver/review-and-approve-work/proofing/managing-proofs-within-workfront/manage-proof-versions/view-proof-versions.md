@@ -6,9 +6,9 @@ description: 您可以查看校对的过去版本。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 909b8924-c0f6-47a6-ba30-fbff7c2e0d55
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '298'
 ht-degree: 1%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 1%
 1. 转到文档列表，然后选择验证。
 1. 在“摘要”中，滚动到视图&#x200B;**所有版本**&#x200B;部分。 您可以在此处查看该验证的所有版本。
 
-   ![](assets/copy-of-versions-350x173.png)
+   ![版本的副本](assets/copy-of-versions-350x173.png)
 
 ## 预览以前的验证版本
 
@@ -64,7 +64,7 @@ ht-degree: 1%
 1. 转到文档列表，然后选择验证。
 1. 在摘要中，向下滚动到&#x200B;**版本**，单击&#x200B;**更多**&#x200B;菜单，然后选择&#x200B;**预览**。
 
-   ![](assets/proof-versions-in-summary-350x167.png)
+   摘要![验证版本](assets/proof-versions-in-summary-350x167.png)
 
 ## 查看以前的校对版本
 
@@ -74,4 +74,4 @@ ht-degree: 1%
 1. 找到您需要的证明。
 1. 在摘要中，向下滚动到&#x200B;**版本**，单击&#x200B;**更多**&#x200B;菜单，然后选择&#x200B;**打开校对**。
 
-   ![](assets/proof-versions-in-summary-350x167.png)
+   摘要![验证版本](assets/proof-versions-in-summary-350x167.png)

@@ -6,9 +6,9 @@ description: 您可以在将文档上传到Workfront时为其生成验证。 您
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 609e95fa-1fb3-4cc4-9ee8-403fd2f30e10
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ If a proof fails to generate after following the steps described in the followin
 
 1. 转到要创建新验证的项目、任务或问题。
 1. 单击&#x200B;**文档**&#x200B;选项卡。
-1. 单击左侧面板中的文档![](assets/document-icon.png)。
+1. 单击左侧面板中的文档![文档图标](assets/document-icon.png)。
 1. 单击“新增”****，然后在出现的菜单中单击“校对”****。
 
    >[!TIP]

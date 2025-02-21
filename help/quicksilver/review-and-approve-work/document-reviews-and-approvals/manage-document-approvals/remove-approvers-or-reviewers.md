@@ -6,9 +6,9 @@ description: 您可以从文档中删除单个批准者或审阅者。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6877ee90-9a70-4616-98f4-4b0ff932d79a
-source-git-commit: 850d21fafcf2192600f9011ee936a9bc40f969a4
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>查看或拥有对项目、任务、问题、模板、Portfolio、程序、报告、功能板和日历、文档的更高访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td> <p>查看或更高权限的项目、任务、问题、模板、项目组合、程序、报告、功能板和日历、文档</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 1. 在左窗格中选择&#x200B;**审批**。
 
-1. 将鼠标悬停在要删除的审批者或审阅者的名称上，然后单击其名称后面显示的&#x200B;**删除**&#x200B;图标![](../assets/delete.png)。
+1. 将鼠标悬停在要删除的批准者或审阅者的名称上，然后单击其名称后面显示的&#x200B;**删除**&#x200B;图标![删除图标](../assets/delete.png)。
 
    审批或审阅请求将被删除，审批者会收到通知，告知不再需要其审批。 与审批相关的共享访问权限也会被删除。
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 1. 在版本下拉菜单中选择您要为其删除审批者或审阅者的文档版本。 默认情况下将选择最新版本。
 
-1. 向下滚动到“文档摘要”窗格中的&#x200B;**审批**&#x200B;部分。 将鼠标悬停在要删除的审批者或审阅者的名称上，然后单击其名称后面显示的&#x200B;**删除**&#x200B;图标![](../assets/delete.png)。
+1. 向下滚动到“文档摘要”窗格中的&#x200B;**审批**&#x200B;部分。 将鼠标悬停在要删除的批准者或审阅者的名称上，然后单击其名称后面显示的&#x200B;**删除**&#x200B;图标![删除图标](../assets/delete.png)。
 
    审批或审阅请求将被删除，审批者会收到通知，告知不再需要其审批。 与审批相关的共享访问权限也会被删除。
 

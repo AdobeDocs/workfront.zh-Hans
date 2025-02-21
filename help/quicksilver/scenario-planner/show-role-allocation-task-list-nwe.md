@@ -6,9 +6,9 @@ description: 连接项目和计划后，您可以并排管理其资源分配以�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 77152e46-0b7b-4937-9d16-1a20c2a7fdf1
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -34,8 +34,8 @@ ht-degree: 0%
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 计划*</p> </td> 
    <td> <ul></li>
-   <li><p>新增：Ultimate </p></li>
-   <p>场景规划程序不可用于新的Workfront Select或Workfront Prime计划。 </p>
+   <li><p>新增功能：Ultimate </p></li>
+   <p>Scenario Planner不可用于新的Workfront Select或Workfront Prime计划。 </p>
    <li><p>当前： [！UICONTROL Business]或更高版本</p></ul>
    </td> 
   </tr> 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 1. 转到要在其中查看项目和相关计划的工作角色分配情况的项目。
 1. 单击左侧面板中的&#x200B;**[!UICONTROL 任务]**。
-1. 单击工具栏右上角的&#x200B;**[!UICONTROL 显示角色分配]**&#x200B;图标![](assets/show-role-allocation-icon.png)。
+1. 单击工具栏右上角的&#x200B;**[!UICONTROL 显示角色分配]**&#x200B;图标![显示角色分配](assets/show-role-allocation-icon.png)。
 
    此时将显示[!UICONTROL 角色分配]面板。
 

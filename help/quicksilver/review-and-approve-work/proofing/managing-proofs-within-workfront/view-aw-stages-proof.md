@@ -6,9 +6,9 @@ description: 您可以方便地跟踪使用自动工作流配置的验证的进�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 71df1445-c64c-4de2-a9b8-23bd47898b6d
-source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -69,24 +69,24 @@ ht-degree: 0%
 
    阶段之间的行描述阶段之间的依赖关系。 指向非活动阶段的行将虚线，直到激活阶段。
 
-   您可以将鼠标悬停在图中的某个阶段上以显示其进度。 如果阶段处于非活动状态，并且您具有对阶段的编辑权限，则可以单击“激活阶段”按钮![](assets/activate-stage-btn.png)以启动阶段。 如果舞台处于活动状态并且您具有舞台上的编辑权限，则可以锁定该舞台。 ![](assets/lock-stage-btn.png)有关进度条(S， O， C， D)的详细信息，请参阅  [在Workfront Proof中查看验证的进度和状态](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md)。
+   您可以将鼠标悬停在图中的某个阶段上以显示其进度。 如果舞台处于非活动状态，并且您具有在舞台上的编辑权限，则可以单击“激活舞台”按钮![激活舞台](assets/activate-stage-btn.png)以启动该舞台。 如果舞台处于活动状态并且您具有舞台上的编辑权限，则可以锁定该舞台。 ![锁定阶段](assets/lock-stage-btn.png)有关进度条(S， O， C， D)的详细信息，请参阅  [在Workfront Proof中查看验证的进度和状态](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md)。
 
 ## 查看阶段
 
 1. 在包含该文档的文档列表中，将鼠标悬停在包含该文档的行上，然后单击&#x200B;**校对工作流**。
 1. 在图表上，单击要查看的阶段。
 
-   ![](assets/view-stage-diagram-350x204.png)
+   ![查看阶段图](assets/view-stage-diagram-350x204.png)
 
 1. 要展开舞台的详细信息，请单击其名称下方的侧面箭头。
 
-   ![](assets/stage-details-caret-350x167.png)
+   ![阶段详细信息](assets/stage-details-caret-350x167.png)
 
 ## 查看所有阶段
 
 要查看自动工作流中的所有阶段，请执行以下操作：
 
-1. 单击页面![](assets/change-view-btn.png)顶部的“更改视图”按钮，然后单击&#x200B;**查看所有阶段**。
+1. 单击![更改视图](assets/change-view-btn.png)页面顶部的“更改视图”按钮，然后单击&#x200B;**查看所有阶段**。
 
    自动工作流的所有阶段都列在部分中，但详细信息隐藏。
 
@@ -96,5 +96,5 @@ ht-degree: 0%
 
 要查看自动工作流的所有阶段，并展开其详细信息，请执行以下操作：
 
-1. 单击页面![](assets/change-view-btn.png)顶部的“更改视图”按钮，然后单击&#x200B;**详细查看所有阶段**。
+1. 单击页面![更改视图](assets/change-view-btn.png)顶部的“更改视图”按钮，然后单击&#x200B;**详细查看所有阶段**。
 1. 要查看舞台的详细信息，请单击其名称下方的向下箭头。

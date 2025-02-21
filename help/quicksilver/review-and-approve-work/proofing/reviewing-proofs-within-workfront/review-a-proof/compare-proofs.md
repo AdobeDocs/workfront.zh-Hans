@@ -2,19 +2,19 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
-title: 比较证据
+title: 比较校样
 description: 您可以使用校对查看器比较两个不同的校对或同一校对的两个版本。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 515562f6-ed19-446c-8f8c-4ad5f07e6d11
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '344'
 ht-degree: 2%
 
 ---
 
-# 比较证据
+# 比较校样
 
 您可以使用校对查看器比较两个不同的校对或同一校对的两个版本。
 
@@ -68,13 +68,13 @@ ht-degree: 2%
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">If this button is not visible, ensure that two proofed documents are selected.</p>
    -->
 
-   ![](assets/compare-proofs-select-docs-350x138.jpg)
+   ![比较校样](assets/compare-proofs-select-docs-350x138.jpg)
 
    两个校样在校样查看器中以并排视图显示。 您可以在比较每个文档时对其进行审阅。
 
    通过每个验证上方的单独痕迹导航，可查看并转到与验证关联的工作项：
 
-   ![](assets/compare-proofs-breadcrumbs-350x148.jpg)
+   ![比较校样痕迹导航](assets/compare-proofs-breadcrumbs-350x148.jpg)
 
    有关可用于比较两个校样的工具的信息，请参见  [在验证查看者](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)的[比较验证中使用比较工具](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#using-compare-tools)。
 

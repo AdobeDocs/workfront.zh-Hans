@@ -6,9 +6,9 @@ description: 如果校对所有者或创建者启用了共享，则可以从校�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 20bd2d94-1401-4a38-9042-335d0cb32a3d
-source-git-commit: aaf5beb8692b2fdbb797ba908796d78b4ee8866c
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1511'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 1. 如果未显示左侧图标菜单，请单击验证查看器左上角的&#x200B;**菜单**&#x200B;图标。
 
-   ![](assets/menu-icon-in-proofing-viewer-350x188.png)
+   ![菜单图标](assets/menu-icon-in-proofing-viewer-350x188.png)
 
 1. 在校对查看器的左侧图标菜单中，单击&#x200B;**共享**&#x200B;图标。
 

@@ -6,9 +6,9 @@ description: 如果您被指定为文档的审批者，则可通过多种方式�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: 3755eb0d384e7274b88fbeafc2affa85f735efbc
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 ## 从主页审批文档
 
-1. 单击Adobe Workfront左上角的&#x200B;**主页**&#x200B;图标![](../assets/home-icon-30x29.png)。
+1. 单击Adobe Workfront左上角的&#x200B;**主页**&#x200B;图标![主页图标](../assets/home-icon-30x29.png)。
 
    >[!NOTE]
    >
@@ -66,7 +66,7 @@ ht-degree: 0%
    >
    >* 请将其替换为用于说明贵组织的自定义图像。 在这种情况下，图标的外观将与本文中显示的有所不同。
    >
-   >* 将链接到该页面的页面替换为其他页面。 在这种情况下，请单击页面右上角的&#x200B;**主菜单** ![](../assets/main-menu-icon.png)，然后单击&#x200B;**主页**。
+   >* 将链接到该页面的页面替换为其他页面。 在这种情况下，请单击页面右上角的&#x200B;**主菜单** ![主菜单图标](../assets/main-menu-icon.png)，然后单击&#x200B;**主页**。
 
 1. 单击页面左上角的&#x200B;**筛选器**，并确保已选中&#x200B;**审批**。
 
@@ -103,7 +103,7 @@ ht-degree: 0%
    如果当前所选文档版本具有待定的批准，则页面右上角将显示批准决策按钮；如果文档的其他版本具有待定的批准，则版本下拉菜单将显示一个红点。
 
    <!--
-   ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
+   ![Version dropdown with red dot](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
    -->
 
 1. 单击页面右上角的以下两个批准选项之一：
@@ -127,7 +127,7 @@ ht-degree: 0%
    如果当前所选文档版本有待批准的文档，则批准决策按钮将显示在“文档摘要”窗格的右上角；如果文档的其他版本有待批准的文档，则版本下拉菜单将显示一个红点。
 
    <!--
-   ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
+   ![Version dropdown with red dot](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
    -->
 
 1. 单击“文档摘要”窗格右上角的以下两个审批选项之一：

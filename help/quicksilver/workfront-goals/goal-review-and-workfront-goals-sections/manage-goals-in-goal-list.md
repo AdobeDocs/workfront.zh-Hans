@@ -6,9 +6,9 @@ description: 在您或其他用户创建目标后，可以在“目标列表”�
 author: Alina
 feature: Workfront Goals
 exl-id: 2a2c1240-f796-4cb8-b8a6-2ad5853916b9
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '817'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 2%
    <td role="rowheader">Adobe Workfront计划*</td> 
    <td> 
    <p>对于新计划和许可证结构：
-  <ul><li>最终计划 </li></ul>
+  <ul><li>Ultimate计划 </li></ul>
    </p>
 <p>对于当前计划和许可证结构： 
 <ul><li> Pro或更高版本 </li>
@@ -52,8 +52,8 @@ ht-degree: 2%
  <td>
  <p> 新产品要求，为以下项之一： </p>
 <ul>
-<li>Select或Prime Adobe Workfront计划和其他Adobe Workfront Goals许可证。</li>
-<li>默认包含Workfront目标的Ultimate Workfront计划。 </li></ul>
+<li>Select或Prime Adobe Workfront计划和附加Adobe Workfront Goals许可证。</li>
+<li>Ultimate Workfront计划，默认情况下包括Workfront目标。 </li></ul>
  <p>或</p>
  <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
@@ -101,7 +101,7 @@ ht-degree: 2%
 
 ### Manage the Goal List in the Production environment
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner, then click **Goals**.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **Goals**.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -155,14 +155,14 @@ ht-degree: 2%
 
    An arrow displays to the right of the field by which the list is sorted.
 
-   ![](assets/goal-list-with-goal-expanded-+-result-+-activity-350x117.png)
+   ![Goal list with goal expanded](assets/goal-list-with-goal-expanded-+-result-+-activity-350x117.png)
 
 1. (Optional) Click the field in the column again to sort the same column in a descending order. 
 1. Click the right-pointing arrow to the left of the goal name to expand a goal
 
    Or
 
-   Click the right-pointing arrow ![](assets/right-pointing-arrow.png) in the header of the list to expand all the goals in the list and view additional information about each goal, including any of the following:
+   Click the right-pointing arrow ![Right-pointing arrow](assets/right-pointing-arrow.png) in the header of the list to expand all the goals in the list and view additional information about each goal, including any of the following:
 
    * Results names, owners, and progress
 
@@ -190,12 +190,12 @@ ht-degree: 2%
 
    For more information, see [Print the Goal List in Adobe Workfront Goals](../../workfront-goals/goal-management/print-the-goal-list.md). 
 
-1. Click the **Alignment icon** ![](assets/align-icon.png) next to an aligned to open the goal's card in the Goal Alignment section. For more information, see [Navigate the Goal Alignment section in Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
+1. Click the **Alignment icon** ![Alignment icon](assets/align-icon.png) next to an aligned to open the goal's card in the Goal Alignment section. For more information, see [Navigate the Goal Alignment section in Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
 -->
 
 要管理“目标列表”中的目标，请执行以下操作：
 
-1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**目标**。
+1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**目标**。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -232,7 +232,7 @@ ht-degree: 2%
 
      有关信息，请参阅[在Adobe Workfront目标中计算目标进度](../goal-management/calculate-goal-progress.md)。
 
-1. 单击目标列表右上角的过滤器图标![](assets/filter-icon.png)，并应用过滤器以仅显示对您很重要的目标。
+1. 单击目标列表右上角的过滤器图标![过滤器图标](assets/filter-icon.png)，并应用过滤器以仅显示对您很重要的目标。
 
    有关在Workfront目标中使用过滤器的信息，请参阅[Adobe Workfront目标中的过滤信息](../goal-management/filter-information-wf-goals.md)。
 
@@ -242,10 +242,10 @@ ht-degree: 2%
 1. （可选）再次单击列中的字段以对同一列进行降序排序。
 1. 单击目标的名称以打开目标的页面。
 1. 在列表中选择一个目标，然后单击列表顶部的以下选项之一：
-   * **编辑**&#x200B;图标![](assets/edit-icon.png)以编辑有关目标的信息。 有关信息，请参阅[在Adobe Workfront目标中编辑目标](../goal-management/edit-goals.md)。
-   * **共享**&#x200B;图标![](assets/share-icon.png)以与其他人共享目标。 有关信息，请参阅[在Adobe Workfront目标中共享目标](../workfront-goals-settings/share-a-goal.md)。
-   * **打开对齐方式**&#x200B;图标![](assets/align-icon-unshimmed.png)以打开目标对齐方式区域。 仅当所选目标与其他目标对齐时，才会显示此选项。
-   * **删除**&#x200B;图标![](assets/delete-icon.png)以删除目标，然后单击&#x200B;**删除**&#x200B;以确认。  有关信息，请参阅[删除和停用Adobe Workfront目标中的目标](../goal-management/delete-and-deactivate-goals.md)。
+   * **编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)以编辑有关目标的信息。 有关信息，请参阅[在Adobe Workfront目标中编辑目标](../goal-management/edit-goals.md)。
+   * **共享**&#x200B;图标![共享图标](assets/share-icon.png)以与其他人共享目标。 有关信息，请参阅[在Adobe Workfront目标中共享目标](../workfront-goals-settings/share-a-goal.md)。
+   * **打开对齐方式**&#x200B;图标![打开对齐方式图标](assets/align-icon-unshimmed.png)以打开目标对齐区域。 仅当所选目标与其他目标对齐时，才会显示此选项。
+   * **删除**&#x200B;图标![删除图标](assets/delete-icon.png)以删除目标，然后单击&#x200B;**删除**&#x200B;以确认。  有关信息，请参阅[删除和停用Adobe Workfront目标中的目标](../goal-management/delete-and-deactivate-goals.md)。
 
 
 

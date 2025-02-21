@@ -2,20 +2,20 @@
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
 title: 在Adobe Workfront中打印验证摘要
-description: 您可以打印校样摘要，将其另存为PDF，或导出为针对Adobe Reader优化的XLS文件或PDF文件。
+description: 您可以打印验证摘要，将其另存为PDF，或导出为针对Adobe Reader优化的XLS文件或PDF文件。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 129c8e6b-5c66-445b-a5d0-7b1460aeabd6
-source-git-commit: 918d51e3b832a3104777346cebd54a4830e2d826
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '772'
 ht-degree: 1%
 
 ---
 
 # 在Adobe Workfront中打印验证摘要
 
-您可以打印校样摘要，将其另存为PDF，或导出为针对Adobe Reader优化的XLS文件或PDF文件。
+您可以打印验证摘要，将其另存为PDF，或导出为针对Adobe Reader优化的XLS文件或PDF文件。
 
 ## 访问要求
 
@@ -65,7 +65,7 @@ ht-degree: 1%
 
    或
 
-   在验证查看器中查看验证时，单击左侧工具栏中的&#x200B;**打印**&#x200B;图标![](assets/print-icon-in-pv.png)。 （如果左侧工具栏不可见，请单击验证查看器左上角的菜单图标![](assets/menu-icon-in-pv.png)。）
+   在验证查看器中查看验证时，单击左侧工具栏中的&#x200B;**打印**&#x200B;图标![打印图标](assets/print-icon-in-pv.png)。 （如果左侧工具栏不可见，请单击验证查看器左上角的菜单图标![菜单图标](assets/menu-icon-in-pv.png)。）
 
 1. 使用以下任一选项：
 
@@ -95,7 +95,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">评论过滤条件</td> 
-      <td> <p>您可以使用这些选项的任意组合，在打印或导出为XLS或PDF文件的输出中仅包括某些注释：</p> 
+      <td> <p>您可以使用这些选项的任意组合，在打印或导出为XLS或PDF文件的输出中仅包含某些注释：</p> 
        <ul> 
         <li>您选择的作者（默认）</li> 
         <li>您选择的操作</li> 
@@ -118,7 +118,7 @@ ht-degree: 1%
 
 ## 将验证摘要导出为XLS或PDF
 
-您可以将静态PDF的验证摘要导出为XLS文件或内容文件。 验证导出仅包括验证的内容。
+您可以将静态内容的验证摘要导出为XLS文件或PDF文件。 验证导出仅包括验证的内容。
 
 1. 在包含验证的文档列表中，将鼠标悬停在包含该文档的行上，然后单击&#x200B;**打印摘要**。
 
@@ -126,8 +126,8 @@ ht-degree: 1%
 
 1. 单击页面右上角附近的XLS图标或PDF图标。
 
-   ![](assets/xls-pdf-icons-350x136.png)
+   ![XLS PDF图标](assets/xls-pdf-icons-350x136.png)
 
 当导出的文件准备就绪时，您将收到一封电子邮件，您可以从其中下载文件。
 
-如果将摘要导出为PDF文件，则在PDF阅读器中会出现有关校样的备注。 如果评论具有多个关联的标记，则该评论将在评论列表中多次出现（每个标记出现一次）。
+如果将摘要导出为PDF文件，则PDF阅读器中会显示有关校样的备注。 如果评论具有多个关联的标记，则该评论将在评论列表中多次出现（每个标记出现一次）。

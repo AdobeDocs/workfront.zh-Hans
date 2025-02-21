@@ -6,10 +6,10 @@ description: 您可以手动对齐两个目标，也可以将现有目标的结�
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 16%
+source-wordcount: '649'
+ht-degree: 15%
 
 ---
 
@@ -46,8 +46,8 @@ ht-degree: 16%
  <td>
  <p> 新产品要求，为以下项之一： </p>
 <ul>
-<li>Select或Prime Adobe Workfront计划和其他Adobe Workfront Goals许可证。</li>
-<li>默认包含Workfront目标的Ultimate Workfront计划。 </li></ul>
+<li>Select或Prime Adobe Workfront计划和附加Adobe Workfront Goals许可证。</li>
+<li>Ultimate Workfront计划，默认情况下包括Workfront目标。 </li></ul>
  <p>或</p>
  <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
@@ -109,9 +109,9 @@ ht-degree: 16%
 1. Click the name of the goal to open the **Goal Details** panel.
 1. Expand the **Results** or **Activities** right-pointing arrows to see a list of results or activities for the goal. 
 
-1. Click the **gear icon** ![](assets/settings-gear-icon.png) to the right of the result or activity name that you want to convert, then click **Convert into a Goal**.
+1. Click the **gear icon** ![Gear icon](assets/settings-gear-icon.png) to the right of the result or activity name that you want to convert, then click **Convert into a Goal**.
 
-   ![](assets/convert-to-goal-link-highlighted-350x191.png)
+   ![Convert to goal](assets/convert-to-goal-link-highlighted-350x191.png)
 
 1. (Optional) Remove the name of the original activity or result owner from the **Goal Owner** field and replace it with another user, team, group, or your organization's name. By default, Workfront selects the owner of the result or the activity as the goal owner. 
 1. Click **Convert**. The activity or result displays as an aligned goal in the Goal Details panel of the original goal and the original activity or result is removed from the original goal and transferred to the second goal. By default, the new goal has the same name as the original converted result or activity. 
@@ -120,9 +120,9 @@ ht-degree: 16%
 
 1. 转到具有结果的目标或要转换为目标的活动。
 1. 从目标的页面，单击左侧面板中的&#x200B;**进度指示器**。
-1. 在进度指示器列表中选择一个结果或活动，然后单击进度指示器列表顶部的&#x200B;**转化为目标**&#x200B;图标![](assets/convert-to-goal-icon-unshimmed.png)。 “转换为目标”框打开。
+1. 在进度指示器列表中选择一个结果或活动，然后单击进度指示器列表顶部的&#x200B;**转换为目标**&#x200B;图标![转换为目标](assets/convert-to-goal-icon-unshimmed.png)。 “转换为目标”框打开。
 
-   ![](assets/convert-to-goal-box-unshimmed.png)
+   ![转换为目标框](assets/convert-to-goal-box-unshimmed.png)
 1. 更新以下信息：
    * **目标名称**：默认情况下，新目标与原始结果或活动具有相同的名称。
    * **期间**：默认情况下，新目标的期间为当前季度。 您可以选择&#x200B;**启用自定义日期**&#x200B;设置来为新目标定义自定义时间段。

@@ -6,9 +6,9 @@ description: 连接项目和计划后，您可以并排管理其资源分配以�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: cdc3a1b0-7021-4853-9b51-c3682fd55430
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '816'
 ht-degree: 1%
 
 ---
@@ -34,8 +34,8 @@ ht-degree: 1%
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 计划*</p> </td> 
    <td> <ul></li>
-   <li><p>新增：Ultimate </p></li>
-   <p>场景规划程序不可用于新的Workfront Select或Workfront Prime计划。 </p>
+   <li><p>新增功能：Ultimate </p></li>
+   <p>Scenario Planner不可用于新的Workfront Select或Workfront Prime计划。 </p>
    <li><p>当前： [！UICONTROL Business]或更高版本</p></ul>
    </td> 
   </tr> 
@@ -87,12 +87,12 @@ ht-degree: 1%
 
 1. 执行下列操作之一：
 
-   * 单击&#x200B;**[!UICONTROL 月]**&#x200B;查看按月的工作负载均衡器，单击时间线![](assets/drop-down-next-to-month-month-view-wb.png)中一个月旁边的下拉菜单，然后单击&#x200B;**[!UICONTROL 更多]**。
-   * 单击工具栏右上角的&#x200B;**[!UICONTROL 显示角色分配]**&#x200B;图标![](assets/show-role-allocation-icon.png)。
+   * 单击&#x200B;**[!UICONTROL 月]**&#x200B;查看按月的工作负载均衡器，单击时间线![月](assets/drop-down-next-to-month-month-view-wb.png)旁边下拉菜单中的月旁边的下拉菜单，然后单击&#x200B;**[!UICONTROL 更多]**。
+   * 单击工具栏右上角的&#x200B;**[!UICONTROL 显示角色分配]**&#x200B;图标![显示角色分配](assets/show-role-allocation-icon.png)。
 
    此时将显示[!UICONTROL 角色分配]面板。
 
-   ![](assets/role-allocation-panel-months-collapsed-350x319.png)
+   ![角色分配面板](assets/role-allocation-panel-months-collapsed-350x319.png)
 
    >[!CAUTION]
    >
@@ -162,7 +162,7 @@ ht-degree: 1%
 
 1. （可选）单击下拉图标以在[!UICONTROL 角色分配]面板或[!UICONTROL 工作负载均衡器]的时间线中展开一个月之一。
 
-   ![](assets/month-expanded-highlighted-role-allocation-panel-wb-350x145.png)
+   ![在角色分配面板中展开月份](assets/month-expanded-highlighted-role-allocation-panel-wb-350x145.png)
 
    每个月还会显示[!UICONTROL 项目总计]区域中所显示的相同类型的信息。
 

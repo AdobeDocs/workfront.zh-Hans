@@ -6,9 +6,9 @@ description: 委托审批请求允许您分配另一个用户来审批您的请�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 69c1e99b996025615e96a84bc8e91cbe2ae6ee48
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1194'
+source-wordcount: '1209'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 要将审批委派给其他用户，请执行以下操作：
 
-1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
+1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
 1. （视情况而定）单击&#x200B;**自定义**&#x200B;以添加&#x200B;**我的审批**&#x200B;小组件。
 1. 转到“我的审批”小组件，然后单击&#x200B;**委托我的审批**。
 
@@ -112,7 +112,7 @@ ht-degree: 0%
    >
    >Workfront管理员可以从设置区域禁用审批委托。 如果禁用审批委托，您将不会看到委托审批按钮。
 
-   ![](assets/delegate-approvals-home.png)
+   ![在主页中委托审批](assets/delegate-approvals-home.png)
 
 1. 在“委托我的审批”部分指定以下信息：
 
@@ -144,11 +144,11 @@ ht-degree: 0%
 
 ## 更新或停止审批委托 {#update-or-stop-an-approval-delegation}
 
-1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
+1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
 1. （视情况而定）单击&#x200B;**自定义**&#x200B;以添加&#x200B;**我的审批**&#x200B;小组件。
 
 1. 转到“我的审批”小组件，然后单击&#x200B;**编辑委派**。
-   ![](assets/edit-delegations.png)
+   ![编辑委派](assets/edit-delegations.png)
 <!--
    Or
 
@@ -170,7 +170,7 @@ ht-degree: 0%
 
 要查看委托的审批，请执行以下操作：
 
-1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
+1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
 1. （视情况而定）单击&#x200B;**自定义**&#x200B;以添加&#x200B;**我的审批**&#x200B;小组件。
 1. 在&#x200B;**我的审批**&#x200B;构件中，单击&#x200B;**筛选器**&#x200B;下拉菜单，然后单击&#x200B;**委托审批**。\
    委托给您的所有审批都会显示在列表中。

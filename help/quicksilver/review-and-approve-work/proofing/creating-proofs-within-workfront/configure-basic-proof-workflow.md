@@ -6,9 +6,9 @@ description: 使用基本工作流，您可以让多个审阅人查看验证，�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1853'
+source-wordcount: '1858'
 ht-degree: 1%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 1%
 1. 在“工作流类型”部分中，选择&#x200B;**基本**。
 1. 指定要添加的用户，然后选择验证角色。
 
-   ![](assets/new-proof---roles-350x213.png)
+   ![新验证角色](assets/new-proof---roles-350x213.png)
 
 1. 下表列出了每个角色及其关联的权限。
 
@@ -111,99 +111,99 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td> <p><strong>只读</strong> </p> </td> 
-      <td> <p>✓ {\f13 }</p> </td> 
+      <td> <p>✓</p> </td> 
       <td> <p> </p> </td> 
       <td> <p> </p> </td> 
       <td> <p> </p> </td> 
       <td> <p> </p> </td> 
       <td> <p> </p> </td> 
       <td> </td> 
-      <td>✓ {\f13 }</td> 
+      <td>✓</td> 
       <td> <p> </p> </td> 
-      <td>✓ {\f13 }</td> 
+      <td>✓</td> 
       <td> </td> 
       <td> </td> 
       <td> </td> 
      </tr> 
      <tr> 
       <td> <p><strong>查看者</strong> </p> </td> 
-      <td> <p>✓ {\f13 }</p> </td> 
-      <td> <p>✓ {\f13 }</p> </td> 
-      <td> <p>✓ {\f13 }</p> </td> 
-      <td> <p>✓ {\f13 }</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
       <td> <p> </p> </td> 
       <td> <p> </p> </td> 
       <td> </td> 
-      <td>✓ {\f13 }</td> 
+      <td>✓</td> 
       <td> <p> </p> </td> 
-      <td>✓ {\f13 }</td> 
+      <td>✓</td> 
       <td> </td> 
       <td> </td> 
       <td> </td> 
      </tr> 
      <tr> 
       <td> <p><strong>审批者</strong> </p> </td> 
-      <td> <p>✓ {\f13 }</p> </td> 
+      <td> <p>✓</p> </td> 
       <td> <p> </p> </td> 
       <td> <p> </p> </td> 
       <td> <p> </p> </td> 
-      <td> <p>✓ {\f13 }</p> </td> 
+      <td> <p>✓</p> </td> 
       <td> <p> </p> </td> 
       <td> </td> 
-      <td>✓ {\f13 }</td> 
+      <td>✓</td> 
       <td> <p> </p> </td> 
-      <td>✓ {\f13 }</td> 
+      <td>✓</td> 
       <td> </td> 
-      <td> <p>✓ {\f13 }</p> </td> 
+      <td> <p>✓</p> </td> 
       <td> </td> 
      </tr> 
      <tr> 
       <td> <p><strong>审阅者和批准者</strong> </p> </td> 
-      <td> <p>✓ {\f13 }</p> </td> 
-      <td> <p>✓ {\f13 }</p> </td> 
-      <td> <p>✓ {\f13 }</p> </td> 
-      <td> <p>✓ {\f13 }</p> </td> 
-      <td> <p>✓ {\f13 }</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
       <td> <p> </p> </td> 
       <td> </td> 
-      <td>✓ {\f13 }</td> 
+      <td>✓</td> 
       <td> <p> </p> </td> 
-      <td>✓ {\f13 }</td> 
+      <td>✓</td> 
       <td> </td> 
-      <td> <p>✓ {\f13 }</p> </td> 
+      <td> <p>✓</p> </td> 
       <td> </td> 
      </tr> 
      <tr> 
       <td> <p><strong>作者</strong> </p> </td> 
-      <td> <p>✓ {\f13 }</p> </td> 
-      <td> <p>✓ {\f13 }</p> </td> 
-      <td> <p>✓ {\f13 }</p> </td> 
-      <td> <p>✓ {\f13 }</p> </td> 
-      <td> <p>✓ {\f13 }</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
       <td> <p> </p> </td> 
-      <td>✓ {\f13 }</td> 
-      <td>✓ {\f13 }</td> 
-      <td> <p>✓ {\f13 }</p> </td> 
-      <td>✓ {\f13 }</td> 
-      <td>✓ {\f13 }</td> 
+      <td>✓</td> 
+      <td>✓</td> 
+      <td> <p>✓</p> </td> 
+      <td>✓</td> 
+      <td>✓</td> 
       <td> </td> 
-      <td>✓ {\f13 }</td> 
+      <td>✓</td> 
      </tr> 
      <tr> 
       <td> <p><strong>审阅人</strong> </p> </td> 
-      <td> <p>✓ {\f13 }</p> </td> 
-      <td> <p>✓ {\f13 }</p> </td> 
-      <td> <p>✓ <strong></strong> </p> </td> 
-      <td> <p>✓ {\f13 }</p> </td> 
-      <td> <p>✓ {\f13 }</p> </td> 
-      <td> <p>✓ {\f13 }</p> <p> </p> </td> 
-      <td>✓ {\f13 }</td> 
-      <td>✓ {\f13 }</td> 
-      <td> <p>✓ {\f13 }</p> </td> 
-      <td>✓ {\f13 }</td> 
-      <td>✓ {\f13 }</td> 
-      <td>✓ {\f13 }</td> 
-      <td>✓ {\f13 }</td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p><strong>✓</strong> </p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> <p> </p> </td> 
+      <td>✓</td> 
+      <td>✓</td> 
+      <td> <p>✓</p> </td> 
+      <td>✓</td> 
+      <td>✓</td> 
+      <td>✓</td> 
+      <td>✓</td> 
      </tr> 
     </tbody> 
    </table>
@@ -347,6 +347,6 @@ ht-degree: 1%
 
 1. 生成校对后，单击&#x200B;**打开校对**&#x200B;以启动校对查看器。
 
-   ![](assets/open-proof-350x132.png)
+   ![打开校对](assets/open-proof-350x132.png)
 
    帐户未启用验证的用户仍可以查看文档并对验证进行评论。

@@ -6,9 +6,9 @@ description: 您可以测量校样中的区域。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c44de4f0-654e-4b1e-b3d6-2bd8f1ee9d8a
-source-git-commit: 9d2c65516ca1fc612f5f7ee4ee4453019d836cb3
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '357'
 ht-degree: 1%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 1%
    ![measurement_tool_button.png](assets/measurement-tool-button-350x128.png)
 
 1. （可选）单击&#x200B;**度量标记颜色**&#x200B;以展开颜色选项，然后单击易于在校样上看到的颜色和&#x200B;**不透明度**。\
-   ![](assets/selection-color-350x330.png)
+   ![选择的颜色](assets/selection-color-350x330.png)
 
    缺省测量工具颜色为红色。
 
@@ -70,7 +70,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >“测量单位”选项仅适用于从PDF创建的校样。
+   >度量单位选项仅适用于从PDF创建的验证。
 
 1. 将测量窗口拖动到需要测量的校样区域。
 
@@ -79,7 +79,7 @@ ht-degree: 1%
 1. 拖动测量窗口的角或边以调整其大小。
 1. （可选）如果需要测量区域为精确大小，请键入&#x200B;**选择大小**&#x200B;值。
 1. （可选）如果需要测量某个区域内的特定百分比，请选中计算百分比框。 将出现一个新框，允许您对其进行调整\
-   ![](assets/calculate-percentage-350x230.png)
+   ![计算百分比](assets/calculate-percentage-350x230.png)
 
 1. 单击验证查看器顶部的&#x200B;**测量区域**&#x200B;图标可在完成时关闭该工具。
 

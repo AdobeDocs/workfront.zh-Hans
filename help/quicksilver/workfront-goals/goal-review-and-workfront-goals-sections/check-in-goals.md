@@ -6,9 +6,9 @@ description: 您必须定期审查目标并更新其进度，以确保其不会�
 author: Alina
 feature: Workfront Goals
 exl-id: 5092f508-e52c-4934-a8c1-d0be04ecce13
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '696'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
    <td role="rowheader">Adobe Workfront计划*</td> 
    <td> 
    <p>对于新计划和许可证结构：
-  <ul><li>最终计划 </li></ul>
+  <ul><li>Ultimate计划 </li></ul>
    </p>
 <p>对于当前计划和许可证结构： 
 <ul><li> Pro或更高版本 </li>
@@ -52,8 +52,8 @@ ht-degree: 0%
  <td>
  <p> 新产品要求，为以下项之一： </p>
 <ul>
-<li>Select或Prime Adobe Workfront计划和其他Adobe Workfront Goals许可证。</li>
-<li>默认包含Workfront目标的Ultimate Workfront计划。 </li></ul>
+<li>Select或Prime Adobe Workfront计划和附加Adobe Workfront Goals许可证。</li>
+<li>Ultimate Workfront计划，默认情况下包括Workfront目标。 </li></ul>
  <p>或</p>
  <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
@@ -135,7 +135,7 @@ When you check in on a goal at the goal level, you can update the progress of th
 
 For information about how to update additional information about results and activities, see [Edit results and activities in Adobe Workfront Goals](../../workfront-goals/results-and-activities/edit-results-and-activities.md).
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -160,7 +160,7 @@ For information about how to update additional information about results and act
 
 1. Click **Check in**.
 
-   ![](assets/check-in-link-inside-goal-details-highlighted-350x156.png)
+   ![Check in link](assets/check-in-link-inside-goal-details-highlighted-350x156.png)
 
    The progress of results and activities becomes editable.
 
@@ -197,7 +197,7 @@ You can use the Check-in section to check in on goals when you want to quickly p
 
 When you check in on a goal in the Check-in section, you can update the progress of the results and activities that are assigned only to you. You cannot update the progress of results and activities that are assigned to other users in this section.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -210,11 +210,11 @@ When you check in on a goal in the Check-in section, you can update the progress
 
    (Conditional) If you are in the Goal List, Goal Alignment, or Pulse sections, click the **Check in** button in the upper-right of the screen. This opens the Check-in section.
 
-   ![](assets/check-in-button-highlighted-350x102.png)
+   ![Check in button](assets/check-in-button-highlighted-350x102.png)
 
    Goals display in a list and results and activities are listed under each goal.
 
-   ![](assets/check-in-page-with-show-all-aligned-goals-link-350x178.png)
+   ![Check in page](assets/check-in-page-with-show-all-aligned-goals-link-350x178.png)
 
 1. (Optional) Click **Show all results**, **Show all activities**, or **Show all aligned goals** to the far right of the goal name to display all results, activities, and aligned goals of a goal whose progress you want to update.
 
@@ -244,7 +244,7 @@ When you check in on a goal in the Check-in section, you can update the progress
 
 要更新目标的进度，请执行以下操作：
 
-1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png) > **目标**。
+1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png) > **目标**。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -269,7 +269,7 @@ When you check in on a goal in the Check-in section, you can update the progress
 
 1. 要更新结果或活动的进度，请单击结果或活动的&#x200B;**实际进度**&#x200B;列中的值，并键入一个数字以更新其值，然后按Enter。
 
-   ![](assets/actual-progress-result-updating-highlighted-unshimmed.png)
+   ![实际进度](assets/actual-progress-result-updating-highlighted-unshimmed.png)
 
    进度列中的进度指示器的进度条以及目标标题中的目标的进度会立即更新。
 

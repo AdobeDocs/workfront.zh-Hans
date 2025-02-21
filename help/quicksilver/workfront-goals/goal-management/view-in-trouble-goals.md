@@ -6,9 +6,9 @@ description: 在“Adobe Workfront目标”中，拥有进度条的Oals存在无
 author: Alina
 feature: Workfront Goals
 exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
    <td role="rowheader">Adobe Workfront计划*</td> 
    <td> 
    <p>对于新计划和许可证结构：
-  <ul><li>最终计划 </li></ul>
+  <ul><li>Ultimate计划 </li></ul>
    </p>
 <p>对于当前计划和许可证结构： 
 <ul><li> Pro或更高版本 </li>
@@ -54,8 +54,8 @@ ht-degree: 0%
  <td>
  <p> 新产品要求，为以下项之一： </p>
 <ul>
-<li>Select或Prime Adobe Workfront计划和其他Adobe Workfront Goals许可证。</li>
-<li>默认包含Workfront目标的Ultimate Workfront计划。 </li></ul>
+<li>Select或Prime Adobe Workfront计划和附加Adobe Workfront Goals许可证。</li>
+<li>Ultimate Workfront计划，默认情况下包括Workfront目标。 </li></ul>
  <p>或</p>
  <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 *有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-## Recommendations用于阻止实现有问题的进度的目标
+## 防止目标取得有问题的进展的建议
 
 在目标达到“存在问题”的进度之前，您可以经常监控这些目标，并在目标达到“有风险”的进度时调整其进度。 有风险的目标有陷入麻烦的危险。 有关目标进度的更多信息，请参阅[Adobe Workfront目标中的目标进度和条件概述](../../workfront-goals/goal-management/calculate-goal-progress.md)
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 本文介绍了如何查看目标列表中的目标。
 
-1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png) > **目标**。
+1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png) > **目标**。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -124,7 +124,7 @@ ht-degree: 0%
 
 1. 将鼠标悬停在进度条指示器上可查看实际的进度百分比以及当天的预期值。
 
-   ![](assets/goal-progress-hover-over-detail-unshimmed.png)
+   ![GOal进度悬停详细信息](assets/goal-progress-hover-over-detail-unshimmed.png)
 
 1. （可选）使用过滤器查找属于特定所有者的目标。
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 
    有关更新结果和活动的信息，请参阅[在Adobe Workfront目标中更新目标进度](../goal-review-and-workfront-goals-sections/check-in-goals.md)
 
-   ![](assets/actual-progress-editable-column-in-indicator-list-unshimmed.png)
+   ![实际进度](assets/actual-progress-editable-column-in-indicator-list-unshimmed.png)
 
    >[!NOTE]
    >

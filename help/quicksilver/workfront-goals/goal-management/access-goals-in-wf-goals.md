@@ -6,9 +6,9 @@ description: 本文介绍了如何在Adobe Workfront中找到和管理目标。
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '472'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 1%
    <td role="rowheader">Adobe Workfront计划*</td> 
    <td> 
    <p>对于新计划和许可证结构：
-  <ul><li>最终计划 </li></ul>
+  <ul><li>Ultimate计划 </li></ul>
    </p>
 <p>对于当前计划和许可证结构： 
 <ul><li> Pro或更高版本 </li>
@@ -51,8 +51,8 @@ ht-degree: 1%
  <td>
  <p> 新产品要求，为以下项之一： </p>
 <ul>
-<li>Select或Prime Adobe Workfront计划和其他Adobe Workfront Goals许可证。</li>
-<li>默认包含Workfront目标的Ultimate Workfront计划。 </li></ul>
+<li>Select或Prime Adobe Workfront计划和附加Adobe Workfront Goals许可证。</li>
+<li>Ultimate Workfront计划，默认情况下包括Workfront目标。 </li></ul>
  <p>或</p>
  <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
@@ -85,7 +85,7 @@ ht-degree: 1%
 
 ## 访问Workfront目标
 
-1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**目标**。
+1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**目标**。
 
    <!-- drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -127,7 +127,7 @@ Accessing goals differs depending on what environment you use.
 
 To access an individual goal in the Production environment:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Goals** .
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Goals** .
 
      (!--drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -155,11 +155,11 @@ To access an individual goal in the Production environment:
 
 1. 单击Workfront右上角的&#x200B;**主菜单**&#x200B;图标，然后单击&#x200B;**目标** 。
 默认情况下，将显示“目标列表”。
-   ![](assets/goal-list-unshimmed.png)
+   ![目标列表](assets/goal-list-unshimmed.png)
 1. 单击列表中目标的名称。
 此时将显示目标的页面。
-   ![](assets/goal-page-unshimmed.png)
-1. 单击目标名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)以进一步编辑或共享目标。
+   ![目标页面](assets/goal-page-unshimmed.png)
+1. 单击目标名称右侧的&#x200B;**更多**&#x200B;菜单![更多图标](assets/more-icon.png)以进一步编辑或共享目标。
 1. 单击左侧面板中的&#x200B;**目标详细信息**&#x200B;以编辑有关目标的信息。 有关详细信息，请参阅Adobe Workfront目标](../goal-management/update-goals-in-goal-details-panel.md)的“目标详细信息”部分中的[更新目标。
 
 

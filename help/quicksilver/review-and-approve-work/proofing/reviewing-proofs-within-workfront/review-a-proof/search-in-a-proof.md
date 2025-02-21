@@ -6,9 +6,9 @@ description: 了解如何在验证中快速找到文本。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03f07011-b17b-41ea-b99e-4535f2d143ff
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '232'
 ht-degree: 2%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 2%
 1. 打开要搜索的校对。
 1. 在验证上方的工具栏中，单击&#x200B;**搜索文档**&#x200B;图标。
 
-   ![](assets/search-document-icon-search-in-proof-350x129.png)
+   ![搜索文档](assets/search-document-icon-search-in-proof-350x129.png)
 
 1. 开始键入要搜索的文本。
 

@@ -6,9 +6,9 @@ description: 目标进展受活动、结果或儿童目标等进度指标的驱�
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '833'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Adobe Workfront会根据其进度指示器的进度，自动计算目标进度�
 | 预期完成百分比 | 为了目标能够按时完成，迄今为止应完成的目标数量。 Workfront目标通过查看目标的持续时间和当前时间点来计算此值。 如果按时完成，目标应在当前时间显示此值。 |
 | 进度 | 指示目标是否按计划按时完成，或者目标是否存在风险或无法完成的问题的标签。 |
 
-![](assets/in-trouble-goal-progress-expanded.png)
+![存在问题](assets/in-trouble-goal-progress-expanded.png)
 
 <!--drafted for the redesign: replace the screen shot above with the redesigned one which is white, not black-->
 
@@ -108,7 +108,7 @@ Goal progress percentage = Actual percent complete * 100 / Expected percent comp
 
 下图说明了条件标签与进度百分比之间的关系：
 
-![](assets/progress-status-labels-charted-after-match-with-project-condition-350x147.png)
+![已绘制进度状态标签图表](assets/progress-status-labels-charted-after-match-with-project-condition-350x147.png)
 
 下表列出了目标条件标签以及与每个标签关联的目标进度百分比。
 

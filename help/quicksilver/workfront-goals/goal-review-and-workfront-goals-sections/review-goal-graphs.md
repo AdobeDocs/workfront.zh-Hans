@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront目标的“图形”部分中查看目�
 author: Alina
 feature: Workfront Goals
 exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '987'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
    <td role="rowheader">Adobe Workfront计划*</td> 
    <td> 
    <p>对于新计划和许可证结构：
-  <ul><li>最终计划 </li></ul>
+  <ul><li>Ultimate计划 </li></ul>
    </p>
 <p>对于当前计划和许可证结构： 
 <ul><li> Pro或更高版本 </li>
@@ -56,8 +56,8 @@ ht-degree: 0%
  <td>
  <p> 新产品要求，为以下项之一： </p>
 <ul>
-<li>Select或Prime Adobe Workfront计划和其他Adobe Workfront Goals许可证。</li>
-<li>默认包含Workfront目标的Ultimate Workfront计划。 </li></ul>
+<li>Select或Prime Adobe Workfront计划和附加Adobe Workfront Goals许可证。</li>
+<li>Ultimate Workfront计划，默认情况下包括Workfront目标。 </li></ul>
  <p>或</p>
  <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
@@ -113,7 +113,7 @@ ht-degree: 0%
 
 ## 在图形中查看目标进度
 
-1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png) > **目标**。
+1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png) > **目标**。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 1. 单击左侧面板中的&#x200B;**图形**。
 
-   ![](assets/graphs-in-left-panel.png)
+   左侧面板中的![图形](assets/graphs-in-left-panel.png)
 
    此时将显示“图形”部分。
 
@@ -141,7 +141,7 @@ ht-degree: 0%
 
 1. 查看目标运行状况图表时，请查看下表中的信息。
 
-   ![](assets/gauge-graph-wf-align-350x230.png)
+   ![量规图](assets/gauge-graph-wf-align-350x230.png)
 
    | 目标总数 | 图表底部的数字表示选定时段内所有目标的数量，以及所有选定状态中的目标数量。 |
    |---|---|
@@ -151,7 +151,7 @@ ht-degree: 0%
 
 1. 查看目标进度表时，请查看下表中的信息。
 
-   ![](assets/line-graph-wf-align-350x161.png)
+   ![折线图](assets/line-graph-wf-align-350x161.png)
 
    <table style="table-layout:auto"> 
     <col> 

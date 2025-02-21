@@ -7,9 +7,9 @@ description: 您可以访问目标或单个目标的列表，并从Adobe Workfro
 author: Alina
 feature: Workfront Goals
 exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '699'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 >
 >* 对于新计划和许可证结构：
 >
->   * 最终Workfront计划
+>   * Ultimate Workfront计划
 >    
 >* 对于当前计划和许可证结构：
 >
@@ -56,7 +56,7 @@ Workfront管理员向您授予访问Workfront目标的权限后，您可以查�
 
 有关导航目标列表和管理目标的信息，请参阅Adobe Workfront目标目标列表中的[管理目标](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)。
 
-![](assets/goal-list-unshimmed.png)
+![目标列表](assets/goal-list-unshimmed.png)
 
 使用“目标列表”执行以下操作：
 
@@ -78,7 +78,7 @@ Workfront管理员向您授予访问Workfront目标的权限后，您可以查�
 
 有关使用图形部分的信息，请参阅[查看图形以了解Adobe Workfront目标中的目标进度趋势](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)。
 
-![](assets/graphs-section-unshimmed.png)
+![图形节](assets/graphs-section-unshimmed.png)
 
 使用“图形”部分可以执行以下操作：
 
@@ -97,7 +97,7 @@ Workfront管理员向您授予访问Workfront目标的权限后，您可以查�
 * [通过在Adobe Workfront目标中连接目标来调整目标](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
 * [通过将结果和活动转换为目标来调整目标](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
 
-![](assets/goal-alignment-section-unshimmed.png)
+![目标对齐区域](assets/goal-alignment-section-unshimmed.png)
 
 使用“目标对齐方式”部分可执行以下操作：
 
@@ -118,7 +118,7 @@ You can use the Pulse section to review and request updates to goals that might 
 
 For information about reviewing goals using the Pulse section, see [Review goals in the Adobe Workfront Goals Pulse section](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md).
 
-![](assets/pulse-section-350x141.png)
+![Pulse section](assets/pulse-section-350x141.png)
 
 Use the Pulse section to do the following:
 
@@ -149,7 +149,7 @@ You can use the Check-in section to update active goals and any results and acti
 
 For information about managing goals in the Goal List, see [Manage goals in the Goal List of Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
 
-![](assets/check-in-section-350x143.png)
+![Check in section](assets/check-in-section-350x143.png)
 
 Use the Check-in section to do the following:
 

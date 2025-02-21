@@ -7,9 +7,9 @@ description: 不可以。桌面校对查看器专为实时网站校对和交互�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e5c9f039-2a6e-47be-a125-f0ce23cfaeaa
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 打开交互式校对，并直接从Launch屏幕下载应用程序。
 
-![](assets/mceclip0-350x114.png) 
+![启动屏幕](assets/mceclip0-350x114.png) 
 
 ## 桌面查看器的新版本是否需要我重新安装？
 

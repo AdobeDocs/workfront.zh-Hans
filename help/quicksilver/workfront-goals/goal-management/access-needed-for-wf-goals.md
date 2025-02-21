@@ -7,9 +7,9 @@ description: 在访问Adobe Workfront目标之前，您的Adobe Workfront管理�
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 您的Workfront或组管理员必须为您分配一个布局模板，该模板包括主菜单中的目标区域，以便您能够访问Workfront目标。
 
-![](assets/layout-template-align-highlighted-350x220.png)
+![布局模板](assets/layout-template-align-highlighted-350x220.png)
 
 您的Workfront管理员或组管理员还可以将以下内容添加到您的布局模板中，以便您能够轻松访问Workfront目标：
 

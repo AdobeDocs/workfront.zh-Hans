@@ -7,10 +7,10 @@ description: 在规划公司的长期战略时，您一开始可能没有或想�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 9a79ef81-6271-4cc9-b701-3ba0aeafb324
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 2%
+source-wordcount: '964'
+ht-degree: 1%
 
 ---
 
@@ -31,8 +31,8 @@ ht-degree: 2%
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 计划*</p> </td> 
    <td> <ul></li>
-   <li><p>新增：Ultimate </p></li>
-   <p>场景规划程序不可用于新的Workfront Select或Workfront Prime计划。 </p>
+   <li><p>新增功能：Ultimate </p></li>
+   <p>Scenario Planner不可用于新的Workfront Select或Workfront Prime计划。 </p>
    <li><p>当前： [！UICONTROL Business]或更高版本</p></ul>
    </td> 
   </tr> 
@@ -79,7 +79,7 @@ ht-degree: 2%
 
 1. 单击现有方案旁边的向下箭头，然后单击&#x200B;**[!UICONTROL 复制]**&#x200B;图标。
 
-   ![](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
+   ![复制方案](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
 
    这将创建一个与复制的方案具有相同信息的新方案。 如果它是计划的第二个方案，则自动命名为“[!UICONTROL 方案2]”；如果它是第三个方案，则自动命名为“[!UICONTROL 方案3]”，依此类推。 无法重命名方案。 您可以创建的副本数量没有限制。
 
@@ -116,7 +116,7 @@ ht-degree: 2%
 
    计划的所有现有方案都以并排卡片格式显示。 初始方案始终列在首位，并且是静态的。
 
-   ![](assets/scenario-cards-overlapping-350x166.png)
+   ![名片卡](assets/scenario-cards-overlapping-350x166.png)
 
 1. （可选）向右滚动查看所有方案卡片。
 
@@ -174,7 +174,7 @@ ht-degree: 2%
    >当初始方案与其他方案之间的信息不同时，更改的值旁边会显示一个向上或向下箭头，以指示与初始方案相比，该值会增加或减少。
    >
    >
-   >![](assets/arrows-on-scenario-cards-highlighted-350x70.png)
+   >方案卡上的![箭头](assets/arrows-on-scenario-cards-highlighted-350x70.png)
    >
    >例如，预算、工作角色数量、计划数量可能会从一个方案更改为另一个方案。
 
@@ -188,9 +188,9 @@ ht-degree: 2%
 
    单击说明字段进行更新，然后单击屏幕上的任意位置保存更改。
 
-1. （可选）单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单![](assets/more-icon.png)以&#x200B;**[!UICONTROL 复制]**&#x200B;或&#x200B;**[!UICONTROL 删除]**&#x200B;方案。
+1. （可选）单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单![更多图标](assets/more-icon.png)以&#x200B;**[!UICONTROL 复制]**&#x200B;或&#x200B;**[!UICONTROL 删除]**&#x200B;方案。
 
-   ![](assets/copy-or-delete-scenario-links-from-card-350x109.png)
+   ![复制或删除方案](assets/copy-or-delete-scenario-links-from-card-350x109.png)
 
    当您复制方案时，它会自动显示在信息卡页面上，并根据此模式重命名：“[!UICONTROL 方案] `<next number in order>`”。
 

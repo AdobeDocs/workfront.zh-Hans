@@ -7,9 +7,9 @@ description: 当您共享指向计划的链接时，您可以在Adobe Workfront 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: fa47cb8c-a3ca-4748-b67d-2d8ed34b9b4a
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '511'
 ht-degree: 1%
 
 ---
@@ -29,8 +29,8 @@ ht-degree: 1%
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 计划*</p> </td> 
    <td> <ul></li>
-   <li><p>新增：Ultimate </p></li>
-   <p>场景规划程序不可用于新的Workfront Select或Workfront Prime计划。 </p>
+   <li><p>新增功能：Ultimate </p></li>
+   <p>Scenario Planner不可用于新的Workfront Select或Workfront Prime计划。 </p>
    <li><p>当前： [！UICONTROL Business]或更高版本</p></ul>
    </td> 
   </tr> 
@@ -80,7 +80,7 @@ ht-degree: 1%
 
 1. 单击指向计划的链接。
 
-   ![](assets/request-access-to-plan-350x277.png)
+   ![请求访问计划](assets/request-access-to-plan-350x277.png)
 
 1. 在&#x200B;**[!UICONTROL 请求访问]**&#x200B;下拉菜单中，指示您希望授予的权限级别。 从以下项中选择：
 
@@ -98,11 +98,11 @@ ht-degree: 1%
    会发生以下情况：
 
    * [!DNL Workfront]向计划所有者发送电子邮件通知，以便他们授予所请求的权限。\
-     ![](assets/request-access-to-plan-email-350x156.png)
+     ![请求访问电子邮件通知](assets/request-access-to-plan-email-350x156.png)
 
    * 在计划所有者授予所请求的权限后，如果您的[!DNL Workfront]管理员在您的系统中启用了对象共享到用户通知，并且在您的配置文件中启用了[!UICONTROL 其他人与我共享对象]电子邮件通知，您将收到一封电子邮件，指出已授予权限。
 
-     ![](assets/access-granted-to-plan-email-350x172.png)
+     ![访问权限已授予电子邮件](assets/access-granted-to-plan-email-350x172.png)
 
    * 您还可以从[!UICONTROL 主页]区域和[!DNL Workfront]移动应用程序向计划授予权限。
 

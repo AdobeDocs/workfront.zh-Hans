@@ -7,9 +7,9 @@ description: 作为业务经理，您可以使用Adobe Workfront Scenario Planne
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: df2b895b-8bc1-4a55-b0d7-8a06db420315
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 您可以查看计划的工作角色常规信息，该信息指示可用于计划的工作角色数量以及计划要完成所需的工作角色数量。 您可以在计划标题的[!UICONTROL 工作角色]框中查看此信息。
 
-![](assets/job-role-box-on-plan-not-expanded-fte-350x141.png)
+计划](assets/job-role-box-on-plan-not-expanded-fte-350x141.png)上的![工作角色框
 
 您可以在“工作角色”框中查看以下内容：
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 您可以复查有关计划的财务信息，特别是计划预算、预算的利用方式以及计划的净值。 计划的净值基于其计划的净值。 您可以在计划标题中的[!UICONTROL 财务]和[!UICONTROL 摘要]框中查看此信息。
 
-![](assets/budget-net-value-boxes-on-plan-not-expanded-350x86.png)
+![预算和净值框](assets/budget-net-value-boxes-on-plan-not-expanded-350x86.png)
 
 您可以在计划上的[!UICONTROL 财务]和[!UICONTROL 摘要]框中查看以下内容：
 

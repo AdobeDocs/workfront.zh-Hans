@@ -6,9 +6,9 @@ description: 在验证查看者中评论验证时，您可以标记其他用户�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4efbfdeb-3834-48dd-aa5b-515891bac519
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 0%
 1. 完成评论，然后单击&#x200B;**帖子**。
 1. （视情况而定）如果您为尚未添加到验证的任何人添加标签，请为显示的框中列出的每个用户指定&#x200B;**验证角色**&#x200B;和&#x200B;**电子邮件提醒**&#x200B;设置，然后单击&#x200B;**添加联系人并发布评论**。
 
-   ![](assets/add-people-to-proof-350x220.png)
+   ![将人员添加到校对](assets/add-people-to-proof-350x220.png)
 
    有关验证角色的信息，请参阅。 有关验证电子邮件警报的信息，请参阅[在Workfront Proof中配置电子邮件通知设置](../../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)一文中的部分。
 

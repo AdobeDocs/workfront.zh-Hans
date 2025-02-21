@@ -6,9 +6,9 @@ description: 在创建目标时，Adobe Workfront目标会将其保存为草稿�
 author: Alina
 feature: Workfront Goals
 exl-id: fc556073-fe63-4f13-a313-505ca0ef1f9b
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '501'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 1%
    <td role="rowheader">Adobe Workfront计划*</td> 
    <td> 
    <p>对于新计划和许可证结构：
-  <ul><li>最终计划 </li></ul>
+  <ul><li>Ultimate计划 </li></ul>
    </p>
 <p>对于当前计划和许可证结构： 
 <ul><li> Pro或更高版本 </li>
@@ -59,8 +59,8 @@ ht-degree: 1%
  <td>
  <p> 新产品要求，为以下项之一： </p>
 <ul>
-<li>Select或Prime Adobe Workfront计划和其他Adobe Workfront Goals许可证。</li>
-<li>默认包含Workfront目标的Ultimate Workfront计划。 </li></ul>
+<li>Select或Prime Adobe Workfront计划和附加Adobe Workfront Goals许可证。</li>
+<li>Ultimate Workfront计划，默认情况下包括Workfront目标。 </li></ul>
  <p>或</p>
  <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
@@ -116,8 +116,8 @@ ht-degree: 1%
 
 1. 转到要激活的目标。 此时将打开目标页面。
 
-1. 单击目标名称右侧的&#x200B;**更多**&#x200B;菜单![](../goal-management/assets/more-icon.png)，然后单击&#x200B;**激活**。
+1. 单击目标名称右侧的&#x200B;**更多**&#x200B;菜单![更多图标](../goal-management/assets/more-icon.png)，然后单击&#x200B;**激活**。
 
-   ![](assets/more-menu-on-goal-expanded-with-activate-unshimmed.png)
+   ![更多菜单已展开](assets/more-menu-on-goal-expanded-with-activate-unshimmed.png)
 
    目标状态将更改为“活动”。 您现在可以跟踪目标的进度，目标显示在签入部分中，并且在Workfront目标的图形部分中会被考虑

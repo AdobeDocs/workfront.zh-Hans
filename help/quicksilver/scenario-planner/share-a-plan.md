@@ -7,9 +7,9 @@ description: 您可以将在Adobe Workfront Scenario Planner中创建的计划�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '913'
 ht-degree: 1%
 
 ---
@@ -35,8 +35,8 @@ ht-degree: 1%
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 计划*</p> </td> 
    <td> <ul></li>
-   <li><p>新增：Ultimate </p></li>
-   <p>场景规划程序不可用于新的Workfront Select或Workfront Prime计划。 </p>
+   <li><p>新增功能：Ultimate </p></li>
+   <p>Scenario Planner不可用于新的Workfront Select或Workfront Prime计划。 </p>
    <li><p>当前： [！UICONTROL Business]或更高版本</p></ul>
    </td> 
   </tr> 
@@ -108,57 +108,57 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p>查看计划 </p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>查看计划 </p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td>查看方案</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ <span style="font-weight: normal;"></span> </td> 
+   <td>✓</td> 
+   <td><span style="font-weight: normal;">✓</span> </td> 
   </tr> 
   <tr> 
    <td>查看职位角色</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>查看成本和预算信息*</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 } </td> 
+   <td>✓</td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td>管理成本和预算信息*</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>创建计划</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>创建方案</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>删除计划或方案</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td>复制方案</td> 
-   <td>✓ {\f13 } </td> 
+   <td>✓ </td> 
    <td> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Publish方案**</td> 
-   <td>✓ {\f13 }</td> 
+   <td>发布方案**</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
  </tbody> 
@@ -186,7 +186,7 @@ ht-degree: 1%
    >
    >您可以通过单击在计划标题右上角与计划共享的用户头像来共享计划。
 
-1. （视情况而定）如果您打开了计划，请单击[!UICONTROL 计划]名称右侧的&#x200B;**[!UICONTROL 更多]**&#x200B;图标![](assets/more-icon.png)，然后单击&#x200B;**[!UICONTROL 共享]**
+1. （视情况而定）如果您打开了计划，请单击[!UICONTROL 计划]名称右侧的&#x200B;**[!UICONTROL 更多]**&#x200B;图标![更多图标](assets/more-icon.png)，然后单击&#x200B;**[!UICONTROL 共享]**
 
    或
 

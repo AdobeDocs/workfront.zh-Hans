@@ -6,9 +6,9 @@ description: 您可以搜索、筛选和排序验证评论，以轻松导航对�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03edaa7e-08c3-4ab1-83ab-747694cf1c17
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ ht-degree: 0%
 1. 如果未打开注释区域，请单击右上角的&#x200B;**查看注释**。
 
 1. 单击排序菜单以将其打开。
-1. ![](assets/mceclip3.png)
+1. ![排序菜单](assets/mceclip3.png)
 
 1. 选择以下排序选项之一：
 

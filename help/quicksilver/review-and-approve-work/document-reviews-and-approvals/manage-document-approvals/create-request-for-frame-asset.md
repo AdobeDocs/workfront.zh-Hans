@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: d80d7ea1-698a-4b78-bf65-bad6bbdfc423
-source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ You must have the following access to perform the steps in this article:
 
 1. 向下滚动到&#x200B;**审批**&#x200B;部分，然后单击&#x200B;**添加**。
 
-   ![](assets/doc-summary-add-approvers.png)
+   ![在文档摘要中添加批准者](assets/doc-summary-add-approvers.png)
 
 1. （可选）设置审批的截止日期。 用户和团队将在指定截止日期前72小时（即24小时）通过电子邮件接收通知。
 
@@ -75,14 +75,14 @@ You must have the following access to perform the steps in this article:
 
 1. 要添加审阅者，请单击&#x200B;**审阅者**&#x200B;复选框，然后开始键入用户或团队名称。
 
-   ![](assets/add-approver-and-deadline.png)
+   ![添加审批者和截止日期](assets/add-approver-and-deadline.png)
 
 1. 重复上一步骤以添加其他批准者或审阅者。
 
 ## 从文档详情页面创建审阅或审批请求
 
 1. 将鼠标悬停在文档上，然后单击&#x200B;**文档详细信息**。
-   ![](assets/doc-details.png)
+   ![文档详细信息](assets/doc-details.png)
 
 1. 在文档名称附近，选择要为其创建审批的文档版本。 默认情况下会选择最新版本。
 
@@ -94,7 +94,7 @@ You must have the following access to perform the steps in this article:
 
 1. 要添加审阅者，请单击&#x200B;**审阅者**&#x200B;复选框，然后开始键入用户或团队名称。
 
-   ![](assets/add-approver-and-deadline.png)
+   ![添加审批者和截止日期](assets/add-approver-and-deadline.png)
 
 1. 重复上一步骤以添加其他批准者或审阅者。
 
@@ -110,5 +110,5 @@ Document approval decisions are not automatically reset when you upload a new ve
 
 1. Scroll down to the **Approvals** section in the Summary, click the More icon, then click Resubmit.
 
-   ![](assets/nwe-resubmit-approval-350x149.png)
+   ![Resubmit approval](assets/nwe-resubmit-approval-350x149.png)
 -->

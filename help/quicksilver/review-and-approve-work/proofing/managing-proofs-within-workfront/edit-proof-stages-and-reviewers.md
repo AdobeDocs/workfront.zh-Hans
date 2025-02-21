@@ -6,9 +6,9 @@ description: 了解如何编辑校样阶段和审阅者。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 91549c2d-d7b1-461c-a3c4-ad0032acfb23
-source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '629'
 ht-degree: 1%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 1%
 ## 编辑审阅者详细信息
 
 1. 在Workfront中，将鼠标悬停在验证上，然后单击&#x200B;**验证详细信息**&#x200B;以打开“验证详细信息”页面。
-1. 在&#x200B;**工作流**&#x200B;部分中，单击查看者名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-button-small.png)，然后在显示的下拉菜单中单击&#x200B;**编辑**。
+1. 在&#x200B;**工作流**&#x200B;部分中，单击查看者名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-button-small.png)，然后在显示的下拉菜单中单击&#x200B;**编辑**。
 
 1. 在出现的&#x200B;**编辑审阅者**&#x200B;框中，编辑以下任何详细信息：
 

@@ -6,9 +6,9 @@ description: 在审阅和批准过程中，您可以向验证上的一个或多�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e7d60d6f-b6bd-4082-b50c-e42d4b72c149
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '457'
 ht-degree: 1%
 
 ---
@@ -61,15 +61,15 @@ ht-degree: 1%
 1. 查找包含要向其发送消息的用户的验证文档。
 1. 将鼠标悬停在文档上，然后单击&#x200B;**校对工作流**。
 
-   ![](assets/proof-workflow-doc-list-350x92.png)
+   ![校对工作流](assets/proof-workflow-doc-list-350x92.png)
 
 1. 若要向舞台上的所有用户发送消息，请单击舞台上的&#x200B;**更多**&#x200B;菜单，然后选择&#x200B;**全部发送消息**。
 
-   ![](assets/message-stage-350x122.png)
+   阶段](assets/message-stage-350x122.png)上的![消息
 
 1. 若要向单个用户发送消息，请单击该用户旁边的&#x200B;**更多**&#x200B;菜单，然后选择&#x200B;**消息**。
 
-   ![](assets/message-user-350x121.png)
+   ![消息用户](assets/message-user-350x121.png)
 
 1. 在&#x200B;**消息详细信息**&#x200B;部分中，指定以下信息：
 

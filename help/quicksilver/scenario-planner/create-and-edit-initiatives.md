@@ -6,9 +6,9 @@ description: 使用Adobe Workfront Scenario Planner时，您可以在已创建�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: a811bad0-d3c0-4cba-8b78-d9a14ffc8482
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1637'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,8 @@ ht-degree: 0%
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 计划*</p> </td> 
    <td> <ul></li>
-   <li><p>新增：Ultimate </p></li>
-   <p>场景规划程序不可用于新的Workfront Select或Workfront Prime计划。 </p>
+   <li><p>新增功能：Ultimate </p></li>
+   <p>Scenario Planner不可用于新的Workfront Select或Workfront Prime计划。 </p>
    <li><p>当前： [！UICONTROL Business]或更高版本</p></ul>
    </td> 
   </tr> 
@@ -102,7 +102,7 @@ ht-degree: 0%
 1. （可选）拖动计划栏的结尾以将其持续时间延长到一个多月，并在您希望计划结束月份的位置发布它。
 1. （可选且有条件）如果方案的持续时间短于计划的持续时间，请将方案栏拖放到计划时间线上的不同位置，以将其移动到另一个时间范围。
 
-   ![](assets/move-initiative-back-and-forth-on-the-timeline-350x71.png)
+   ![在时间线上移动计划](assets/move-initiative-back-and-forth-on-the-timeline-350x71.png)
 
    >[!IMPORTANT]
    >
@@ -120,7 +120,7 @@ ht-degree: 0%
 1. （可选）从左向右滚动以查看计划的整个持续时间。
 1. （可选）单击&#x200B;**[!UICONTROL 今天]**&#x200B;指示符行以返回当前日期。
 
-   ![](assets/today-indicator-350x160.png)
+   ![今天指示器](assets/today-indicator-350x160.png)
 
    >[!TIP]
    >
@@ -128,7 +128,7 @@ ht-degree: 0%
 
 1. 单击方案栏。 将在右侧打开计划详细信息面板。
 
-   ![](assets/initiative-details-panel-multiple-months-350x626.png)
+   ![计划详细信息面板](assets/initiative-details-panel-multiple-months-350x626.png)
 
    指定或查看以下信息：
 
@@ -196,7 +196,7 @@ ht-degree: 0%
    >
    >如果您已经定义了计划的职位角色数和预算，并且定义了正在编辑的方案及其上面所有方案的工作角色数和成本，并且它们都超过了您为计划指定的金额，则[!DNL Workfront]可能会发现您没有足够资源完成该方案。 [!DNL Workfront]在尝试实现此计划时将此项目标记为冲突，并将其显示为红色条形。 冲突计划之后的所有计划都以红色背景显示。 您可能需要从资源不足的计划开始调整计划的某些需求。 有关调整冲突计划的信息，请参阅[解决 [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md)中的计划冲突。
 
-1. （可选）将鼠标悬停在工作角色的名称上，然后单击&#x200B;**[!UICONTROL 垃圾桶图标]** ![](assets/delete.png)以将其从计划中删除。
+1. （可选）将鼠标悬停在工作角色的名称上，然后单击&#x200B;**[!UICONTROL 垃圾桶图标]** ![删除图标](assets/delete.png)以将其从计划中删除。
 
 1. （视情况而定）如果您更改了计划，请单击&#x200B;**[!UICONTROL 应用]**。
 

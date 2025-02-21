@@ -7,9 +7,9 @@ description: 结果衡量目标的进度。 如果不将结果、活动或瞄准
 author: Alina
 feature: Workfront Goals
 exl-id: 30e22482-22e2-432d-bb73-7f9a9160aba2
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '593'
 ht-degree: 3%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 3%
    <td role="rowheader">Adobe Workfront计划*</td> 
    <td> 
    <p>对于新计划和许可证结构：
-  <ul><li>最终计划 </li></ul>
+  <ul><li>Ultimate计划 </li></ul>
    </p>
 <p>对于当前计划和许可证结构： 
 <ul><li> Pro或更高版本 </li>
@@ -51,8 +51,8 @@ ht-degree: 3%
  <td>
  <p> 新产品要求，为以下项之一： </p>
 <ul>
-<li>Select或Prime Adobe Workfront计划和其他Adobe Workfront Goals许可证。</li>
-<li>默认包含Workfront目标的Ultimate Workfront计划。 </li></ul>
+<li>Select或Prime Adobe Workfront计划和附加Adobe Workfront Goals许可证。</li>
+<li>Ultimate Workfront计划，默认情况下包括Workfront目标。 </li></ul>
  <p>或</p>
  <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
@@ -102,7 +102,7 @@ Adding results to goals differs depending on which environment you use.
 1. Go to the goal for which you want to add a result and click the name to open the **Goal Details** panel.
 1. Click **Add results**.
 
-   ![](assets/add-result-inside-goal-details-highlighted-350x145.png)
+   ![Add result inside goal](assets/add-result-inside-goal-details-highlighted-350x145.png)
 
 1. Start typing the result you want to achieve in the **Result** field. This is the name of the result and it displays wherever the goal displays. 
 1. (Optional) If you want to set the Result Owner as someone other than yourself, click your name in the **Owner** field and start typing the name of the user that you want to assign as the owner of the result, then click it when it appears in the drop-down list.
@@ -113,7 +113,7 @@ Adding results to goals differs depending on which environment you use.
 
 1. In the Value drop-down menu, select the type of value that you want to measure your success by.
 
-   ![](assets/results-value-initial-target-boxes-350x49.png)
+   ![Results value](assets/results-value-initial-target-boxes-350x49.png)
 
    Select from the following options:
 
@@ -137,7 +137,7 @@ Adding results to goals differs depending on which environment you use.
 
 -->
 
-1. 单击主菜单![](assets/main-menu-icon.png)，然后单击&#x200B;**目标**。
+1. 单击主菜单![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**目标**。
 
 1. 在&#x200B;**目标列表**&#x200B;中，单击目标的名称以打开目标页面。
 1. 单击左侧面板中的&#x200B;**进度指示器**。
@@ -145,7 +145,7 @@ Adding results to goals differs depending on which environment you use.
 
    “新建结果”框打开。
 
-   ![](assets/new-result-box-unshimmed.png)
+   ![新结果框](assets/new-result-box-unshimmed.png)
 
 1. 在&#x200B;**结果名称**&#x200B;字段中输入结果的名称。 这是必填字段。
 1. （可选）如果要将结果分配给其他用户，请从&#x200B;**结果所有者**&#x200B;字段中移除您的名称。 默认情况下，您是所创建活动的所有者。

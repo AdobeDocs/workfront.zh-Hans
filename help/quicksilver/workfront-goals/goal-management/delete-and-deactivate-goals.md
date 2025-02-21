@@ -6,9 +6,9 @@ description: 当您开始处理某个目标时，如果它在您的组织中变�
 author: Alina
 feature: Workfront Goals
 exl-id: 3089adeb-3e56-492a-82fe-536f57079b73
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
    <td role="rowheader">Adobe Workfront计划*</td> 
    <td> 
    <p>对于新计划和许可证结构：
-  <ul><li>最终计划 </li></ul>
+  <ul><li>Ultimate计划 </li></ul>
    </p>
 <p>对于当前计划和许可证结构： 
 <ul><li> Pro或更高版本 </li>
@@ -50,8 +50,8 @@ ht-degree: 0%
  <td>
  <p> 新产品要求，为以下项之一： </p>
 <ul>
-<li>Select或Prime Adobe Workfront计划和其他Adobe Workfront Goals许可证。</li>
-<li>默认包含Workfront目标的Ultimate Workfront计划。 </li></ul>
+<li>Select或Prime Adobe Workfront计划和附加Adobe Workfront Goals许可证。</li>
+<li>Ultimate Workfront计划，默认情况下包括Workfront目标。 </li></ul>
  <p>或</p>
  <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
@@ -122,16 +122,16 @@ Deactivating goals differs depending on which environment you use.
    >
    >You can open goals from any sections of Workfront Goals.
 
-1. Click the **More icon** ![](assets/more-icon.png), then click **Deactivate**.
+1. Click the **More icon** ![More icon](assets/more-icon.png), then click **Deactivate**.
 
-   ![](assets/deactivate-goal-highlighted.png)
+   ![Deactivate goal](assets/deactivate-goal-highlighted.png)
 
    The goal status changes to Inactive. 
 
 1. Click the **X** icon in the upper-right to close Goal Details.
 -->
 
-1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**目标**。
+1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**目标**。
 
    此时将显示目标列表。
 
@@ -146,9 +146,9 @@ Deactivating goals differs depending on which environment you use.
 
    此时将打开目标页面。
 
-   ![](assets/goal-page-unshimmed.png)
+   ![目标页面](assets/goal-page-unshimmed.png)
 
-1. 单击目标名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)，然后单击&#x200B;**停用**。
+1. 单击目标名称右侧的&#x200B;**更多**&#x200B;菜单![更多图标](assets/more-icon.png)，然后单击&#x200B;**停用**。
 
 1. 目标已停用，其状态变为不活动。
 
@@ -179,23 +179,23 @@ Deleting  goals differs depending on which environment you use.
 
    The Goal Details panel opens on the right. 
 
-1. Click the **More icon** ![](assets/more-icon.png), then click **Delete**.
+1. Click the **More icon** ![More icon](assets/more-icon.png), then click **Delete**.
 
-   ![](assets/delete-goal-highlighted.png)
+   ![Delete goal](assets/delete-goal-highlighted.png)
 
 1. Click **Yes, delete**.
 
    The goal is removed from the Goal List and cannot be recovered.
 -->
 
-1. 单击右上角的主菜单图标![](assets/main-menu-icon.png)，然后单击&#x200B;**目标**。
+1. 单击右上角的主菜单图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**目标**。
 
    此时将显示目标列表。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 1. 单击目标的名称。 这将打开目标页面。
-1. 单击目标名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)，然后单击&#x200B;**删除目标**，然后单击&#x200B;**删除**。
+1. 单击目标名称右侧的&#x200B;**更多**&#x200B;菜单![更多图标](assets/more-icon.png)，然后单击&#x200B;**删除目标**，然后单击&#x200B;**删除**。
 
    目标及其活动和结果也会被删除并且无法恢复。 不会删除与一个或多个子目标关联的项目。
 

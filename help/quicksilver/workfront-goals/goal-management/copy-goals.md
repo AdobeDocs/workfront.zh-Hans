@@ -6,9 +6,9 @@ description: 您可以复制Adobe Workfront目标中的目标以创建目标。 
 author: Alina
 feature: Workfront Goals
 exl-id: 690a6030-ee29-4e50-869f-cd014050b364
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '800'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 4%
    <td role="rowheader">Adobe Workfront计划*</td> 
    <td> 
    <p>对于新计划和许可证结构：
-  <ul><li>最终计划 </li></ul>
+  <ul><li>Ultimate计划 </li></ul>
    </p>
 <p>对于当前计划和许可证结构： 
 <ul><li> Pro或更高版本 </li>
@@ -51,8 +51,8 @@ ht-degree: 4%
  <td>
  <p> 新产品要求，为以下项之一： </p>
 <ul>
-<li>Select或Prime Adobe Workfront计划和其他Adobe Workfront Goals许可证。</li>
-<li>默认包含Workfront目标的Ultimate Workfront计划。 </li></ul>
+<li>Select或Prime Adobe Workfront计划和附加Adobe Workfront Goals许可证。</li>
+<li>Ultimate Workfront计划，默认情况下包括Workfront目标。 </li></ul>
  <p>或</p>
  <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
@@ -117,7 +117,7 @@ To copy goals in the Production environment:
 
    This opens the Goal Details panel.
 
-1. Click the **More icon** ![](assets/more-icon.png), then click **Copy**. 
+1. Click the **More icon** ![More icon](assets/more-icon.png), then click **Copy**. 
 
 1. Update any of the following information for the copied goal:
 
@@ -177,9 +177,9 @@ To copy goals in the Production environment:
 -->
 
 
-1. 转到目标并单击&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)，然后单击&#x200B;**复制目标**。
+1. 转到目标并单击&#x200B;**更多**&#x200B;菜单![更多图标](assets/more-icon.png)，然后单击&#x200B;**复制目标**。
 
-   ![](assets/copy-goal-box-unshimmed.png)
+   ![复制目标框](assets/copy-goal-box-unshimmed.png)
 
 1. 为复制的目标更新以下信息：
    * **目标名称**：新目标的名称。 复制目标的默认名称是“&lt;原始目标>的副本”。

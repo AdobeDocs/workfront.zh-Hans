@@ -6,9 +6,9 @@ description: 优先安排各项举措非常重要，因为各项举措按照其�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 45f019de-b29c-477b-8bd1-f32ef21c1015
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '545'
 ht-degree: 1%
 
 ---
@@ -34,8 +34,8 @@ ht-degree: 1%
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 计划*</p> </td> 
    <td> <ul></li>
-   <li><p>新增：Ultimate </p></li>
-   <p>场景规划程序不可用于新的Workfront Select或Workfront Prime计划。 </p>
+   <li><p>新增功能：Ultimate </p></li>
+   <p>Scenario Planner不可用于新的Workfront Select或Workfront Prime计划。 </p>
    <li><p>当前： [！UICONTROL Business]或更高版本</p></ul>
    </td> 
   </tr> 
@@ -92,7 +92,7 @@ ht-degree: 1%
 
      Workfront显示选定计划的数量。
 
-     ![](assets/multi-select-initiative-number.png)
+     ![多选计划编号](assets/multi-select-initiative-number.png)
 
    * 单击计划底部的&#x200B;**[!UICONTROL 优先级]**&#x200B;框，然后从以下选项中进行选择：
 
@@ -100,7 +100,7 @@ ht-degree: 1%
       * **[!UICONTROL 底部]**：将所选计划移动到计划列表的底部。 选定的计划列在计划的最后。
       * **[!UICONTROL 选择一个数字]**：将所选计划移动到您在此处指定的计划之后。
 
-        ![](assets/prioritize-initiatives-expanded-highlighted-350x171.png)
+        ![优先处理计划](assets/prioritize-initiatives-expanded-highlighted-350x171.png)
 
      [!DNL Workfront]会立即将您指示的选定计划放置在其中，并且所有计划的数量会相应地更新。
 

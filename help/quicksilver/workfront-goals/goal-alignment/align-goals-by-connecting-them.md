@@ -6,9 +6,9 @@ description: 如果您是具有个人目标的个人投稿人，则可能需要�
 author: Alina
 feature: Workfront Goals
 exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -60,8 +60,8 @@ ht-degree: 0%
  <td>
  <p> 新产品要求，为以下项之一： </p>
 <ul>
-<li>Select或Prime Adobe Workfront计划和其他Adobe Workfront Goals许可证。</li>
-<li>默认包含Workfront目标的Ultimate Workfront计划。 </li></ul>
+<li>Select或Prime Adobe Workfront计划和附加Adobe Workfront Goals许可证。</li>
+<li>Ultimate Workfront计划，默认情况下包括Workfront目标。 </li></ul>
  <p>或</p>
  <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
@@ -103,7 +103,7 @@ Aligning goals by connecting them differs depending on what environment you use.
 
 1. Click **Align to another goal** in the upper-right corner of the right panel.
 
-   ![](assets/align-to-another-goal-link-highlighted-350x128.png)
+   ![Align to another goal](assets/align-to-another-goal-link-highlighted-350x128.png)
 
 1. Start typing the name of an existing goal or the name of an owner in the **Align to another goal** field, then select it when it appears in the list. Only goals that are from the same or future periods display in the list. 
 1. Click **Save**.
@@ -111,12 +111,12 @@ Aligning goals by connecting them differs depending on what environment you use.
    The goal you started with (Goal 2) is now the child goal of the goal you aligned it with (Goal 1).   
    The aligned goals display connected in the Goal Alignment section with Goal 2 as secondary to Goal 1.
 
-   ![](assets/goal-1-and-2-aligned-cards-350x427.png)
+   ![Aligned cards](assets/goal-1-and-2-aligned-cards-350x427.png)
 
 1. (Optional) To view the goals in the Goal Alignment section, do one of the following:
 
    * Click the Goal Alignment section in the left panel and find the goals by applying the correct filter. For information about filtering information in Workfront Goals, see [Filter information in Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md).
-   * Click the Goal List, Check-in, or Pulse sections in the left panel and find one of the goals, then click the **Alignment icon** ![](assets/align-icon.png) next to the goal name to go directly to the goal in the Goal Alignment section.
+   * Click the Goal List, Check-in, or Pulse sections in the left panel and find one of the goals, then click the **Alignment icon** ![Align icon](assets/align-icon.png) next to the goal name to go directly to the goal in the Goal Alignment section.
 
    For information about the Goal Alignment section, see [Navigate the Goal Alignment section in Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md). 
 
@@ -152,7 +152,7 @@ Aligning goals by connecting them differs depending on what environment you use.
    对齐的目标显示在“目标对齐方式”部分中，目标2作为目标1的次要。
 当子目标的进度更新父目标的进度时，其进度指示器部分将显示子目标。
 
-   ![](assets/goal-1-and-2-aligned-cards-350x427.png)
+   ![对齐的卡片](assets/goal-1-and-2-aligned-cards-350x427.png)
 
 1. （可选）要查看“目标对齐方式”部分中的目标，请转到Workfront的“目标”区域，然后单击左侧面板中的&#x200B;**目标对齐方式**&#x200B;部分。 有关“目标对齐方式”部分的信息，请参阅[导航Adobe Workfront目标中的目标对齐方式部分](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md)。
 

@@ -6,9 +6,9 @@ description: 您可以在审核过程中随时手动锁定和解锁验证。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 39dc8c17-b087-4c7c-be19-3bbe93577966
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '394'
 ht-degree: 1%
 
 ---
@@ -61,13 +61,13 @@ ht-degree: 1%
 
    或
 
-   如果要打开文档早期版本的验证，请在摘要中单击该版本的更多图标![](assets/more-icon.png)，然后单击&#x200B;**打开验证**。
+   如果要打开文档早期版本的验证，请在摘要中单击该版本的“更多”图标![更多图标](assets/more-icon.png)，然后单击&#x200B;**打开验证**。
 
    有关摘要的信息，请参阅[文档摘要概述](../../../../documents/managing-documents/summary-for-documents.md)。
 
-1. 在左侧面板中，单击&#x200B;**锁定**&#x200B;图标![](assets/unlock-proof-icon.png)。
+1. 在左侧面板中，单击&#x200B;**锁定**&#x200B;图标![锁定图标](assets/unlock-proof-icon.png)。
 
-   ![](assets/lock-proof-350x277.png)
+   ![锁定校对](assets/lock-proof-350x277.png)
 
 ## 解锁验证
 
@@ -79,10 +79,10 @@ ht-degree: 1%
 
    或
 
-   如果要打开文档早期版本的验证，请在摘要中单击该版本的更多图标![](assets/more-icon.png)，然后单击&#x200B;**打开验证**。
+   如果要打开文档早期版本的验证，请在摘要中单击该版本的“更多”图标![更多图标](assets/more-icon.png)，然后单击&#x200B;**打开验证**。
 
    有关摘要的信息，请参阅[文档摘要概述](../../../../documents/managing-documents/summary-for-documents.md)。
 
-1. 在左侧面板中，单击&#x200B;**解锁**&#x200B;图标![](assets/unlock-proof-icon.png)，然后单击&#x200B;**是，解锁**。
+1. 在左侧面板中，单击&#x200B;**解锁**&#x200B;图标![解锁图标](assets/unlock-proof-icon.png)，然后单击&#x200B;**是，解锁**。
 
-   ![](assets/copy-of-unlock-proof-350x279.png)
+   ![解锁校对](assets/copy-of-unlock-proof-350x279.png)

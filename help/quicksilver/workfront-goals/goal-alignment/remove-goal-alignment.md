@@ -6,9 +6,9 @@ description: 如果两个目标之间的连接不再合理，则可以取消两�
 author: Alina
 feature: Workfront Goals
 exl-id: a6196356-ca11-4759-9cff-64850a60208e
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '456'
 ht-degree: 1%
 
 ---
@@ -51,8 +51,8 @@ ht-degree: 1%
  <td>
  <p> 新产品要求，为以下项之一： </p>
 <ul>
-<li>Select或Prime Adobe Workfront计划和其他Adobe Workfront Goals许可证。</li>
-<li>默认包含Workfront目标的Ultimate Workfront计划。 </li></ul>
+<li>Select或Prime Adobe Workfront计划和附加Adobe Workfront Goals许可证。</li>
+<li>Ultimate Workfront计划，默认情况下包括Workfront目标。 </li></ul>
  <p>或</p>
  <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
@@ -101,9 +101,9 @@ Removing goal alignment differs depending on which environment you use.
 
 1. Go to a child goal aligned to a parent goal. 
 1. Click the goal name to open the **Goal Details** panel. 
-1. Click the **gear icon** ![](assets/gear-icon-settings.png) next to the parent goal, then click **Remove alignment**.
+1. Click the **gear icon** ![Gear icon](assets/gear-icon-settings.png) next to the parent goal, then click **Remove alignment**.
 
-   ![](assets/edit-remove-alignment-350x88.png)
+   ![Reove alignment](assets/edit-remove-alignment-350x88.png)
 
    The goal becomes a standalone goal and its progress no longer influences the progress of the original parent goal. 
 
@@ -117,9 +117,9 @@ Removing goal alignment differs depending on which environment you use.
 1. 访问Workfront中的&#x200B;**目标**&#x200B;区域，然后单击目标的名称以打开目标的页面。
 1. 从父目标的页面，单击左侧面板中的&#x200B;**进度指示器**。
 
-   ![](assets/remove-goal-alignment-from-list-unshimmed.png)
+   ![重新移动目标对齐方式](assets/remove-goal-alignment-from-list-unshimmed.png)
 
-1. 在&#x200B;**类型：目标**&#x200B;分组中，选择一个目标，然后单击列表顶部的&#x200B;**断开连接**&#x200B;图标![](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png)。
+1. 在&#x200B;**类型：目标**&#x200B;分组中，选择一个目标，然后单击列表顶部的&#x200B;**断开连接**&#x200B;图标![断开连接图标](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png)。
 
    出现“Disconnect（断开连接）”框。
 

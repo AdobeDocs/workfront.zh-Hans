@@ -6,9 +6,9 @@ description: 您可以通过复制现有计划来创建计划。 您可以复制
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 0aadb074-69c3-4229-a01a-7cabdb87e7cb
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '500'
 ht-degree: 1%
 
 ---
@@ -30,8 +30,8 @@ ht-degree: 1%
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 计划*</p> </td> 
    <td> <ul></li>
-   <li><p>新增：Ultimate </p></li>
-   <p>场景规划程序不可用于新的Workfront Select或Workfront Prime计划。 </p>
+   <li><p>新增功能：Ultimate </p></li>
+   <p>Scenario Planner不可用于新的Workfront Select或Workfront Prime计划。 </p>
    <li><p>当前： [！UICONTROL Business]或更高版本</p></ul>
    </td> 
   </tr> 
@@ -102,7 +102,7 @@ ht-degree: 1%
 1. 单击计划的名称以将其打开，然后找到要复制的计划。
 1. 选中要复制的一个或多个计划左侧的框，然后在计划底部显示的菜单中单击&#x200B;**[!UICONTROL 复制]**。
 
-   ![](assets/bottom-manage-initiative-menu-350x45.png)
+   ![复制计划](assets/bottom-manage-initiative-menu-350x45.png)
 
    [!DNL Workfront]立即复制计划并将其放在最后一个选择的计划下。
 

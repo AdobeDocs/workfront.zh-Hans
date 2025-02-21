@@ -6,9 +6,9 @@ description: 您可以删除已创建的计划。 不能删除与您共享的计
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '512'
 ht-degree: 1%
 
 ---
@@ -28,8 +28,8 @@ ht-degree: 1%
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 计划*</p> </td> 
    <td> <ul></li>
-   <li><p>新增：Ultimate </p></li>
-   <p>场景规划程序不可用于新的Workfront Select或Workfront Prime计划。 </p>
+   <li><p>新增功能：Ultimate </p></li>
+   <p>Scenario Planner不可用于新的Workfront Select或Workfront Prime计划。 </p>
    <li><p>当前： [！UICONTROL Business]或更高版本</p></ul>
    </td> 
   </tr> 
@@ -90,7 +90,7 @@ ht-degree: 1%
 此时将显示计划列表。
 
 1. 单击计划的名称以将其打开。
-1. 单击计划名称右侧的&#x200B;**[!UICONTROL 更多菜单]** ![](assets/more-menu.png)，然后单击&#x200B;**[!UICONTROL 删除]** > **[!UICONTROL 是，删除它]**。
+1. 单击计划名称右侧的&#x200B;**[!UICONTROL 更多菜单]** ![更多菜单](assets/more-menu.png)，然后单击&#x200B;**[!UICONTROL 删除]** > **[!UICONTROL 是，删除它]**。
 
    计划将被删除，您将返回到计划列表。
 
@@ -114,7 +114,7 @@ ht-degree: 1%
    默认情况下，将显示初始方案。
 
 1. 单击&#x200B;**[!UICONTROL 比较方案]**。
-1. 从方案卡的右上角，单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**[!UICONTROL 删除]**。
+1. 从方案卡的右上角，单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单![更多](assets/more-menu.png)，然后单击&#x200B;**[!UICONTROL 删除]**。
 
    方案将被删除。
 

@@ -6,9 +6,9 @@ description: 您可以将新文档审批与验证结合使用。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
-source-git-commit: bea547e7a7400798d4544fb4f299f72e18a700be
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Workfront中的新文档批准引入了一组新功能，可帮助您审阅和�
 要分配参与者，请执行以下操作：
 
 1. 选择您上传的文档，然后打开文档摘要。
-   ![](assets/open-doc-summary.png)
+   ![打开文档摘要](assets/open-doc-summary.png)
 
 1. 向下滚动到“审批”部分，然后单击&#x200B;**添加**。
 
@@ -62,7 +62,7 @@ Workfront中的新文档批准引入了一组新功能，可帮助您审阅和�
 
 1. 要添加审阅者，请单击“审阅者”按钮并开始键入用户或团队名称。
 
-   ![](assets/add-approvers.png)
+   ![添加批准者](assets/add-approvers.png)
 
 1. 添加所有审阅人和批准者后，单击&#x200B;**提交请求**。 将通过电子邮件通知参与者。
 
@@ -77,7 +77,7 @@ Workfront中的新文档批准引入了一组新功能，可帮助您审阅和�
 1. 文档上传完成后，选择文档，然后单击&#x200B;**创建验证** > **简单验证**。
 
 1. 再次选择文档，然后打开文档摘要。
-   ![](assets/open-doc-summary.png)
+   ![打开文档摘要](assets/open-doc-summary.png)
 
 1. 向下滚动到“审批”部分，然后单击&#x200B;**添加**。
 
@@ -89,7 +89,7 @@ Workfront中的新文档批准引入了一组新功能，可帮助您审阅和�
 
 1. 要添加审阅者，请单击“审阅者”按钮，然后开始键入用户或团队名称<span class="preview">或从以前的版本中选择审阅者。</span>
 
-   ![](assets/add-approvers.png)
+   ![添加批准者](assets/add-approvers.png)
 
 1. 添加所有审阅人和批准者后，单击&#x200B;**提交请求**。 将通过电子邮件通知参与者。
 

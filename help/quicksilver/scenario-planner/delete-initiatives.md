@@ -6,9 +6,9 @@ description: 您可以删除您创建的计划或他人与您共享的计划中�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 799ca02e-c513-4409-b327-1ce7d8eb19ae
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '518'
 ht-degree: 2%
 
 ---
@@ -28,8 +28,8 @@ ht-degree: 2%
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 计划*</p> </td> 
    <td> <ul></li>
-   <li><p>新增：Ultimate </p></li>
-   <p>场景规划程序不可用于新的Workfront Select或Workfront Prime计划。 </p>
+   <li><p>新增功能：Ultimate </p></li>
+   <p>Scenario Planner不可用于新的Workfront Select或Workfront Prime计划。 </p>
    <li><p>当前： [！UICONTROL Business]或更高版本</p></ul>
    </td> 
   </tr> 
@@ -90,7 +90,7 @@ ht-degree: 2%
 1. 单击计划的名称以将其打开，然后找到要删除的方案。
 1. 执行下列操作之一：
 
-   * 单击计划名称右侧的&#x200B;**[!UICONTROL 更多菜单]** ![](assets/more-menu.png)，然后单击&#x200B;**[!UICONTROL 删除]** > **[!UICONTROL 是，删除它]**。
+   * 单击计划名称右侧的&#x200B;**[!UICONTROL 更多菜单]** ![更多菜单](assets/more-menu.png)，然后单击&#x200B;**[!UICONTROL 删除]** > **[!UICONTROL 是，删除它]**。
 
    * 选中计划左侧的框，然后在计划底部显示的浮动菜单上单击&#x200B;**[!UICONTROL 删除]**，然后单击&#x200B;**[!UICONTROL 是，将其删除]**。
 
@@ -107,7 +107,7 @@ ht-degree: 2%
 1. 单击计划的名称以将其打开，然后找到要删除的方案。
 1. 选中要删除的方案左侧的框，然后在计划底部显示的菜单中单击&#x200B;**[!UICONTROL 删除]**，然后单击&#x200B;**[!UICONTROL 是，删除它们]**。
 
-   ![](assets/bottom-manage-initiative-menu-350x45.png)
+   ![管理计划菜单](assets/bottom-manage-initiative-menu-350x45.png)
 
    计划及其工作角色和成本信息将从计划中删除。
 

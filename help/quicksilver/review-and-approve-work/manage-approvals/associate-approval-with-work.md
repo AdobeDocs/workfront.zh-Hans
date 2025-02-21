@@ -7,9 +7,9 @@ author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1880'
+source-wordcount: '1914'
 ht-degree: 0%
 
 ---
@@ -123,19 +123,19 @@ ht-degree: 0%
 
    您可能需要单击&#x200B;**显示更多**，然后单击&#x200B;**审批**。
 
-   ![](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
+   任务](assets/approvals-section-on-task-highlighted-nwe-350x246.png)上的![审批分区
 
-1. ![](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
+1. ![使用现有审批或创建单次使用审批](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
 
    此时会显示选定的审批流程。
 
 1. 展开&#x200B;**使用现有**&#x200B;下拉菜单，然后选择现有审批流程。
 
-   ![](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
+   ![审批菜单](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
 
    此时会显示选定的审批流程。
 
-   ![](assets/existing-approval-attached-to-task-redesigned-nwe-350x355.png)
+   ![附加到任务的现有审批](assets/existing-approval-attached-to-task-redesigned-nwe-350x355.png)
 
 1. 单击&#x200B;**保存**。
 1. （可选）如果要修改附加到项目的现有批准，请单击“编辑批准流程”。 这会将全局批准流程更改为单次使用批准流程。 有关详细信息，请参阅本文中的[修改用于特定对象](#modify-a-global-approval-process-for-use-on-a-specific-object)的全局审批流程。
@@ -168,7 +168,7 @@ ht-degree: 0%
    >
    >确保在添加批准时单击&#x200B;**保存**。
 
-1. 添加全局审批流程后，单击审批页面右上角的&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)。 此操作可将全局或组级别的审批流程转换为单次使用的审批流程。
+1. 添加全局审批流程后，单击审批页面右上角的&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。 此操作可将全局或组级别的审批流程转换为单次使用的审批流程。
 1. 对现有审批流程进行任何更改。 有关详细信息，请参阅本文中的[将一次性审批流程与项目、任务、问题、模板或模板任务相关联](#associate-a-single-use-approval-process-with-a-project-task-issue-template-or-template-task)部分。
 1. 单击“**保存**”，然后再次单击“**保存**”以确认要将全局审批流程转换为仅在此对象上可用的一次性审批流程。
 
@@ -193,11 +193,11 @@ ht-degree: 0%
 
    您可能需要单击&#x200B;**显示更多** > **审批**。
 
-   ![](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
+   任务](assets/approvals-section-on-task-highlighted-nwe-350x246.png)上的![审批分区
 
 1. 单击&#x200B;**创建一次性**。
 
-   ![](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
+   ![审批菜单](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
 
 1. 完成文章[为工作项创建审批流程](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)中的“为工作项创建系统级别或组级别全局审批流程”一节中的步骤6。
 
@@ -232,12 +232,12 @@ ht-degree: 0%
 
    您可能需要单击&#x200B;**显示更多** > **审批**。
 
-   ![](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
+   任务](assets/approvals-section-on-task-highlighted-nwe-350x246.png)上的![审批分区
 
 1. 根据与项目关联的批准类型，单击“批准”部分右上角的以下图标之一：
 
-   * **全局或组级别审批的“删除**”图标![](assets/remove-icon---x-in-circle.png)。
-   * 针对一次性审批的&#x200B;**删除**&#x200B;图标![](assets/delete.png)。
+   * **全局或组级别审批的“删除”**&#x200B;图标![“删除”图标](assets/remove-icon---x-in-circle.png)。
+   * **一次性审批的“删除”**&#x200B;图标![“删除”图标](assets/delete.png)。
 
 1. 单击&#x200B;**删除**&#x200B;或&#x200B;**删除**&#x200B;确认。
 

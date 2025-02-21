@@ -6,9 +6,9 @@ description: 审批工作
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
-source-git-commit: 7366e3dd37b686a3566ca6d39e28eb6762c6d1ff
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '914'
 ht-degree: 1%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 1%
 
 ## 批准主页区域的工作
 
-1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
+1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
 1. （视情况而定）单击&#x200B;**自定义**&#x200B;以添加&#x200B;**我的审批**&#x200B;小组件。
 1. （视情况而定）单击&#x200B;**筛选器**&#x200B;下拉菜单，然后选择&#x200B;**全部**&#x200B;以查看分配给您的审批和委托给您的审批。
 
@@ -77,7 +77,7 @@ ht-degree: 1%
 
 1. 选择要在其中作出批准决策的项目。
 
-   ![](assets/my-approvals-widget.png)
+   ![我的审批小组件](assets/my-approvals-widget.png)
 
 1. 在右侧面板中作出批准决策时，单击其中一个可用选项。 根据要批准的项目类型，以下选项将显示在页面的右上角：
 
@@ -146,7 +146,7 @@ ht-degree: 1%
 
    有关项目、任务或问题的当前审批流程的审批信息显示在项目的标题中。
 
-   ![](assets/current-approval-process-in-project-header-with-stages-nwe-350x92.png)
+   ![项目标题中的当前审批流程](assets/current-approval-process-in-project-header-with-stages-nwe-350x92.png)
 
    以下批准信息可用：
 
@@ -172,8 +172,8 @@ ht-degree: 1%
 
 1. 转到文档区域，其中包含需要您审批的文档。
 1. 选择文档，然后单击&#x200B;**批准**、**更改**&#x200B;或&#x200B;**拒绝**。\
-   ![](assets/approval-approve-document-350x215.png)\
-   ![](assets/document-approval-350x199.png)
+   ![批准文档](assets/approval-approve-document-350x215.png)\
+   ![文档审批](assets/document-approval-350x199.png)
 
 1. （可选）如果已为文档生成验证，则可以在验证界面中批准文档，如[从验证中批准文档](#approve-a-document-from-a-proof)中所述。
 
@@ -185,7 +185,7 @@ ht-degree: 1%
 1. 执行以下任一操作以查看文档：
 
    * 查看有关文档的元数据。
-   * 如果已创建用于审阅带标记和注释的文档的验证，请单击右上角附近的&#x200B;**打开验证** ![](assets/open-proof-icon-qs.png)并审阅该验证。
+   * 如果已创建用于审阅带标记和注释的文档的验证，请单击右上角附近的&#x200B;**打开验证** ![打开验证](assets/open-proof-icon-qs.png)并审阅该验证。
 
      <!--   
      <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">[Andrzej, does it make sense to leave this here if it's s document approval?&nbsp;Would there never be a proof in that situation?]</span>   

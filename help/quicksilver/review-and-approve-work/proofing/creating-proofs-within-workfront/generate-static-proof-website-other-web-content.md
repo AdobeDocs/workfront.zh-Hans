@@ -2,20 +2,20 @@
 product-area: documents
 navigation-topic: create-proofs-within-workfront
 title: 为网站或其他Web内容创建静态验证
-description: 您可以为Web内容生成新的静态验证或现有静态验证的新版本。 Web内容可能包括带流视频的广告、HTML动画或交互式横幅等，但它将被剪切为多个屏幕截图以便进行静态校样。
+description: 您可以为Web内容生成新的静态验证或现有静态验证的新版本。 Web内容可能包括带流视频的广告、HTML动画或交互式横幅等，但将剪切为多个屏幕快照以实现静态校样。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1c0511f6-c60b-4a81-bfff-55b6f866add6
-source-git-commit: 0a7cdf217d3c8227c569831b16f09c0b1d9c7111
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
 
 # 为网站或其他Web内容创建静态验证
 
-您可以为Web内容生成新的静态验证或现有静态验证的新版本。 Web内容可能包括带流视频的广告、HTML动画或交互式横幅等，但它将被剪切为多个屏幕截图以便进行静态校样。
+您可以为Web内容生成新的静态验证或现有静态验证的新版本。 Web内容可能包括带流视频的广告、HTML动画或交互式横幅等，但将剪切为多个屏幕快照以实现静态校样。
 
 为网站或其他Web内容创建静态验证时，请考虑以下事项：
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
    随后会显示用于配置网站验证的选项。
 
-   ![](assets/interactive-proof-radio-btn-area-350x199.png)
+   ![交互式校对](assets/interactive-proof-radio-btn-area-350x199.png)
 
 1. （可选）如果要将校对名称从网站URL更改为其他名称，请键入&#x200B;**校对名称。**
 1. 确保已选择&#x200B;**捕获屏幕快照**，并使用以下任一选项：

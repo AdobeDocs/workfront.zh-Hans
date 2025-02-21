@@ -6,9 +6,9 @@ description: 如果您的流程比较复杂，或者您经常将内容发送给�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 852f960f-1b57-4a8a-a928-407ad52418e6
-source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1242'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 1%
 
    或
 
-   如果您正在验证查看器中查看验证，请单击左侧面板中的&#x200B;**工作流** ![](assets/workflow-icon-proofing-viewer.png)，然后单击“编辑”图标![](assets/edit-icon-proofing-viewer.png)以打开验证的自动工作流设置。
+   如果您正在验证查看器中查看验证，请单击左侧面板中的&#x200B;**工作流** ![工作流图标](assets/workflow-icon-proofing-viewer.png)，然后单击“编辑”图标![编辑图标](assets/edit-icon-proofing-viewer.png)以打开验证的自动工作流设置。
 
 1. （视情况而定）如果验证当前正在使用基本工作流（不带暂存），请在显示的屏幕中单击&#x200B;**转换为自动工作流**。
 
@@ -135,7 +135,7 @@ ht-degree: 1%
          <td><p>选择阶段上的主要决策者（仅在您将至少一名具有“审批者”或更高验证角色的人员添加到阶段后可用）。 如果选择主要决策者，则在此阶段上禁用<strong>仅需要一个决策</strong>选项。</p></td>
         </tr>
         <tr>
-         <td role="rowheader">只需一个决定</td>
+         <td role="rowheader">只需一个决策</td>
          <td>当决策者做出决策时，结束整个审核过程。<p>如果您在<strong>主要决策者</strong>下拉菜单中指定了用户，则此选项不可用。</p></td>
         </tr>
         <tr>
@@ -155,7 +155,7 @@ ht-degree: 1%
 
    将阶段添加到自动工作流时，屏幕上会出现一个图表来表示这些阶段：
 
-   ![](assets/workflow-diagram-existing-proof-qs-350x215.png)
+   ![工作流程图](assets/workflow-diagram-existing-proof-qs-350x215.png)
 
 1. 完成添加阶段后，单击&#x200B;**完成**。
 

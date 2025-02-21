@@ -7,9 +7,9 @@ description: 了解如何批量编辑验证权限配置文件。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a804a007-7c9f-471e-ad07-8adca6672575
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '259'
 ht-degree: 1%
 
 ---
@@ -63,6 +63,6 @@ ht-degree: 1%
    >
    >根据您的Workfront计划，您可能需要启用&#x200B;**用户可以生成验证**&#x200B;复选框才能显示&#x200B;**验证权限配置文件**&#x200B;菜单。
 
-   ![](assets/proof-permission-profile-350x203.png)
+   ![校对权限配置文件](assets/proof-permission-profile-350x203.png)
 
 1. 单击&#x200B;**保存更改**。

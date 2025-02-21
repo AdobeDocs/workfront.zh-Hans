@@ -6,9 +6,9 @@ description: 您可以查看和回复其他审阅人所做的验证评论。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 32a068ab-0d99-4ab5-a98d-dc3abd953948
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 0%
 在Workfront中，您可以查看校样评论而无需启动校样查看器。
 
 1. 转到包含文档的项目、任务或问题，然后选择&#x200B;**文档**。
-1. 单击包含文档的行，然后单击页面右侧的&#x200B;**摘要**&#x200B;图标![](assets/summary-panel-icon.png)。\
+1. 单击包含文档的行，然后单击页面右侧的&#x200B;**摘要**&#x200B;图标![摘要图标](assets/summary-panel-icon.png)。\
    评论将显示在“文档摘要”的“更新”部分。
 
 ## 将所有评论标记为已读
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 1. 在评论列表上方，单击&#x200B;**更多**&#x200B;图标，然后单击&#x200B;**全部标记为已读**。
 
-1. ![](assets/mceclip8-350x173.png)
+1. ![全部标记为已读](assets/mceclip8-350x173.png)
 
 ## 回复来自校对查看者的校对评论
 

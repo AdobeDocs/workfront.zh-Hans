@@ -6,9 +6,9 @@ description: 您可以撤消以下任何已提交审批的对象。
 author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 exl-id: 33df75f0-47d0-4848-8d9a-203f40d8831c
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1251'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 * 项目
 * 任务
 * 问题
-* 工时表
+* 时间表
 * 文档
 * 访问请求
 
@@ -69,14 +69,14 @@ ht-degree: 1%
 
 要撤消您提交的项目审批，请执行以下操作：
 
-1. 单击Adobe Workfront左上角的&#x200B;**主页**&#x200B;图标![](assets/home-icon-30x29.png)。
+1. 单击Adobe Workfront左上角的&#x200B;**主页**&#x200B;图标![主页图标](assets/home-icon-30x29.png)。
 
    >[!NOTE]
    >
    >您的Workfront管理员可以对环境中的主页图标进行以下更改：
    >
    >* 请将其替换为用于说明贵组织的自定义图像。 在这种情况下，图标的外观将与本文中显示的有所不同。
-   >* 将链接到该页面的页面替换为其他页面。 在这种情况下，请单击页面右上角的&#x200B;**主菜单** ![](assets/main-menu-icon.png)，然后单击&#x200B;**主页**。
+   >* 将链接到该页面的页面替换为其他页面。 在这种情况下，请单击页面右上角的&#x200B;**主菜单** ![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**主页**。
 
 1. 在&#x200B;**工作列表**&#x200B;区域中，导航到我已提交的&#x200B;**审批**&#x200B;分组。
 
@@ -84,7 +84,7 @@ ht-degree: 1%
 
    这将打开工作列表右侧的项目。
 
-   ![](assets/project-pending-approval-phome-nwe-350x106.png)
+   ![未决批准项目](assets/project-pending-approval-phome-nwe-350x106.png)
 
 1. 单击右面板右上角的&#x200B;**撤消**。
 
@@ -100,14 +100,14 @@ ht-degree: 1%
 
 要撤消您提交的任务审批，请执行以下操作：
 
-1. 单击Adobe Workfront左上角的&#x200B;**主页**&#x200B;图标![](assets/home-icon-30x29.png)。
+1. 单击Adobe Workfront左上角的&#x200B;**主页**&#x200B;图标![主页图标](assets/home-icon-30x29.png)。
 
    >[!NOTE]
    >
    >您的Workfront管理员可以对环境中的主页图标进行以下更改：
    >
    >* 请将其替换为用于说明贵组织的自定义图像。 在这种情况下，图标的外观将与本文中显示的有所不同。
-   >* 将链接到该页面的页面替换为其他页面。 在这种情况下，请单击页面右上角的&#x200B;**主菜单** ![](assets/main-menu-icon.png)，然后单击&#x200B;**主页**。
+   >* 将链接到该页面的页面替换为其他页面。 在这种情况下，请单击页面右上角的&#x200B;**主菜单** ![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**主页**。
 
 1. 在&#x200B;**工作列表**&#x200B;区域中，导航到我已提交的&#x200B;**审批**&#x200B;分组。
 
@@ -115,7 +115,7 @@ ht-degree: 1%
 
    这将打开工作列表右侧的任务。
 
-   ![](assets/task-pending-approval-home-nwe-350x97.png)
+   ![未决批准任务](assets/task-pending-approval-home-nwe-350x97.png)
 
 1. 单击右面板右上角的&#x200B;**撤消**。
 
@@ -129,14 +129,14 @@ ht-degree: 1%
 >
 >您可以使用模板将问题的第一个状态与审批流程相关联。 有关创建请求队列的详细信息，请参阅[创建请求队列](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
-1. 单击Adobe Workfront左上角的&#x200B;**主页**&#x200B;图标![](assets/home-icon-30x29.png)。
+1. 单击Adobe Workfront左上角的&#x200B;**主页**&#x200B;图标![主页图标](assets/home-icon-30x29.png)。
 
    >[!NOTE]
    >
    >您的Workfront管理员可以对环境中的主页图标进行以下更改：
    >
    >* 请将其替换为用于说明贵组织的自定义图像。 在这种情况下，图标的外观将与本文中显示的有所不同。
-   >* 将链接到该页面的页面替换为其他页面。 在这种情况下，请单击页面右上角的&#x200B;**主菜单** ![](assets/main-menu-icon.png)，然后单击&#x200B;**主页**。
+   >* 将链接到该页面的页面替换为其他页面。 在这种情况下，请单击页面右上角的&#x200B;**主菜单** ![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**主页**。
 
 1. 在&#x200B;**工作列表**&#x200B;区域中，导航到我已提交的&#x200B;**审批**&#x200B;分组。
 
@@ -144,22 +144,22 @@ ht-degree: 1%
 
    这将打开工作列表右侧的问题。
 
-   ![](assets/issue-pending-approval-home-nwe-350x103.png)
+   ![未决批准问题](assets/issue-pending-approval-home-nwe-350x103.png)
 
 1. 单击右面板右上角的&#x200B;**撤消**。
 
-## 工时表
+## 时间表
 
 当您撤消批准时间表时，时间表会返回到提交以供批准之前所处的状态。
 
-1. 单击Adobe Workfront左上角的&#x200B;**主页**&#x200B;图标![](assets/home-icon-30x29.png)。
+1. 单击Adobe Workfront左上角的&#x200B;**主页**&#x200B;图标![主页图标](assets/home-icon-30x29.png)。
 
    >[!NOTE]
    >
    >您的Workfront管理员可以对环境中的主页图标进行以下更改：
    >
    >* 请将其替换为用于说明贵组织的自定义图像。 在这种情况下，图标的外观将与本文中显示的有所不同。
-   >* 将链接到该页面的页面替换为其他页面。 在这种情况下，请单击页面右上角的&#x200B;**主菜单** ![](assets/main-menu-icon.png)，然后单击&#x200B;**主页**。
+   >* 将链接到该页面的页面替换为其他页面。 在这种情况下，请单击页面右上角的&#x200B;**主菜单** ![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**主页**。
 
 1. 在&#x200B;**工作列表**&#x200B;区域中，导航到我已提交的&#x200B;**审批**&#x200B;分组。
 
@@ -167,7 +167,7 @@ ht-degree: 1%
 
    这将打开工作列表右侧的时间表。
 
-   ![](assets/timesheet-pending-approval-home-nwe-350x157.png)
+   ![待审批工时表](assets/timesheet-pending-approval-home-nwe-350x157.png)
 
 1. 单击右面板右上角的&#x200B;**撤消**。
 
@@ -175,14 +175,14 @@ ht-degree: 1%
 
 要撤消文档审批，您必须从审批中手动删除一个或多个用户。
 
-1. 单击Adobe Workfront左上角的&#x200B;**主页**&#x200B;图标![](assets/home-icon-30x29.png)。
+1. 单击Adobe Workfront左上角的&#x200B;**主页**&#x200B;图标![主页图标](assets/home-icon-30x29.png)。
 
    >[!NOTE]
    >
    >您的Workfront管理员可以对环境中的主页图标进行以下更改：
    >
    >* 请将其替换为用于说明贵组织的自定义图像。 在这种情况下，图标的外观将与本文中显示的有所不同。
-   >* 将链接到该页面的页面替换为其他页面。 在这种情况下，请单击页面右上角的&#x200B;**主菜单** ![](assets/main-menu-icon.png)，然后单击&#x200B;**主页**。
+   >* 将链接到该页面的页面替换为其他页面。 在这种情况下，请单击页面右上角的&#x200B;**主菜单** ![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**主页**。
 
 1. 在&#x200B;**工作列表**&#x200B;区域中，导航到我已提交的&#x200B;**审批**&#x200B;分组。
 
@@ -199,14 +199,14 @@ ht-degree: 1%
 
 ## 访问请求
 
-1. 单击Adobe Workfront左上角的&#x200B;**主页**&#x200B;图标![](assets/home-icon-30x29.png)。
+1. 单击Adobe Workfront左上角的&#x200B;**主页**&#x200B;图标![主页图标](assets/home-icon-30x29.png)。
 
    >[!NOTE]
    >
    >您的Workfront管理员可以对环境中的主页图标进行以下更改：
    >
    >* 请将其替换为用于说明贵组织的自定义图像。 在这种情况下，图标的外观将与本文中显示的有所不同。
-   >* 将链接到该页面的页面替换为其他页面。 在这种情况下，请单击页面右上角的&#x200B;**主菜单** ![](assets/main-menu-icon.png)，然后单击&#x200B;**主页**。
+   >* 将链接到该页面的页面替换为其他页面。 在这种情况下，请单击页面右上角的&#x200B;**主菜单** ![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**主页**。
 
 1. 在&#x200B;**工作列表**&#x200B;区域中，导航到我已提交的&#x200B;**审批**&#x200B;分组。
 
@@ -214,6 +214,6 @@ ht-degree: 1%
 
    这将打开工作列表右侧的访问请求。
 
-   ![](assets/access-request-pending-approval-nwe-350x104.png)
+   ![等待审批的访问请求](assets/access-request-pending-approval-nwe-350x104.png)
 
 1. 单击右面板右上角的&#x200B;**撤消**。

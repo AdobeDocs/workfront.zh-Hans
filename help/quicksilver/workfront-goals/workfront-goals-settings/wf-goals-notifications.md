@@ -7,9 +7,9 @@ description: Adobe Workfront Goals附带了一组预定义事件通知，您可�
 author: Alina
 feature: Workfront Goals
 exl-id: 40f9b9a3-c829-480b-9897-099b68389cd4
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >* 对于新计划和许可证结构：
 >
->   * 最终Workfront计划
+>   * Ultimate Workfront计划
 >    
 >* 对于当前计划和许可证结构：
 >
@@ -140,4 +140,4 @@ A personal goal is a goal where you are designated as the owner.
 
 当由您启用的通知定义的事件发生时，您将收到一封描述该事件的电子邮件。 以下是一封电子邮件示例，用于通知您被指定为新目标的所有者：
 
-![](assets/wf-align-notification-email-350x164.png)
+![目标通知电子邮件](assets/wf-align-notification-email-350x164.png)

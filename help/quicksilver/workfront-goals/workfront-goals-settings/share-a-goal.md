@@ -6,9 +6,9 @@ description: 当您共享目标时，您会将目标的管理权限授予未创�
 author: Alina
 feature: Workfront Goals
 exl-id: 747449cf-9092-4b9f-9add-db2e7d3fab48
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '795'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 4%
    <td role="rowheader">Adobe Workfront计划*</td> 
    <td> 
    <p>对于新计划和许可证结构：
-  <ul><li>最终计划 </li></ul>
+  <ul><li>Ultimate计划 </li></ul>
    </p>
 <p>对于当前计划和许可证结构： 
 <ul><li> Pro或更高版本 </li>
@@ -50,8 +50,8 @@ ht-degree: 4%
  <td>
  <p> 新产品要求，为以下项之一： </p>
 <ul>
-<li>Select或Prime Adobe Workfront计划和其他Adobe Workfront Goals许可证。</li>
-<li>默认包含Workfront目标的Ultimate Workfront计划。 </li></ul>
+<li>Select或Prime Adobe Workfront计划和附加Adobe Workfront Goals许可证。</li>
+<li>Ultimate Workfront计划，默认情况下包括Workfront目标。 </li></ul>
  <p>或</p>
  <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
@@ -117,7 +117,7 @@ ht-degree: 4%
 
 ## 共享目标
 
-1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png) > **目标**。
+1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png) > **目标**。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../workfront-goals-settings/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -128,11 +128,11 @@ ht-degree: 4%
 
 1. 单击目标名称旁边的&#x200B;**更多图标**，然后单击&#x200B;**共享**。
 
-   ![](assets/more-menu-highlighted-goal-details-panel-with-share-link-350x156.png)
+   ![更多菜单](assets/more-menu-highlighted-goal-details-panel-with-share-link-350x156.png)
 
    此时将显示“目标访问”框。
 
-   ![](assets/goal-access-sharing-box-manage-system-wide-deselected-350x400.png)
+   ![目标访问权限](assets/goal-access-sharing-box-manage-system-wide-deselected-350x400.png)
 
 1. 执行下列操作之一：
 
@@ -168,62 +168,62 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td> <p>查看目标</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>查看结果或活动</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td>复制目标* </td> 
-   <td>✓ {\f13 } </td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓ </td> 
+   <td>✓</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>将结果或活动转换为其他目标*</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>查看添加为活动的项目** </td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>编辑目标</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>编辑结果或活动</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>添加目标的结果或活动</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>将项目作为活动关联到目标**</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>删除目标</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>删除结果或活动</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td>从目标断开项目连接</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
  </tbody> 

@@ -8,9 +8,9 @@ description: 您可以将项目连接到目标，以根据项目的实际进度�
 author: Alina
 feature: Workfront Goals
 exl-id: 683c9cd9-6c7b-4d50-b326-b4000c9863e8
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '931'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ THIS MIGHT NEED TO BE RENAMED BECAUSE THERE WILL BE OTHER OBJECTS CONNECTED TO G
    <td role="rowheader">Adobe Workfront计划*</td> 
    <td> 
    <p>对于新计划和许可证结构：
-  <ul><li>最终计划 </li></ul>
+  <ul><li>Ultimate计划 </li></ul>
    </p>
 <p>对于当前计划和许可证结构： 
 <ul><li> Pro或更高版本 </li>
@@ -63,8 +63,8 @@ THIS MIGHT NEED TO BE RENAMED BECAUSE THERE WILL BE OTHER OBJECTS CONNECTED TO G
  <td>
  <p> 新产品要求，为以下项之一： </p>
 <ul>
-<li>Select或Prime Adobe Workfront计划和其他Adobe Workfront Goals许可证。</li>
-<li>默认包含Workfront目标的Ultimate Workfront计划。 </li></ul>
+<li>Select或Prime Adobe Workfront计划和附加Adobe Workfront Goals许可证。</li>
+<li>Ultimate Workfront计划，默认情况下包括Workfront目标。 </li></ul>
  <p>或</p>
  <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
@@ -112,7 +112,7 @@ THIS MIGHT NEED TO BE RENAMED BECAUSE THERE WILL BE OTHER OBJECTS CONNECTED TO G
 
 There is an indication on the goal list that the project no longer updates progress for the goal.
 
-  ![](assets/goal-closed-project-active-warning-goal-list-350x94.png)
+  ![Goal closed](assets/goal-closed-project-active-warning-goal-list-350x94.png)
 -->
 
 * 当您删除附加到目标的项目时，该项目也会从目标中删除。
@@ -124,14 +124,14 @@ There is an indication on the goal list that the project no longer updates progr
 
 ## 将项目添加到目标
 
-1. 单击&#x200B;**主菜单** ![](assets/main-menu-icon.png)(为Shell绘制此菜单：或单击左上角的&#x200B;**主菜单** ![](assets/three-line-main-menu-icon.png)（如果可用）。)，然后单击&#x200B;**目标**。
+1. 单击&#x200B;**主菜单** ![主菜单图标](assets/main-menu-icon.png)(为Shell绘制此菜单：或单击左上角的&#x200B;**主菜单** ![主菜单行](assets/three-line-main-menu-icon.png)（如果可用）。)，然后&#x200B;**目标**。
 1. 从目标列表中，单击目标的名称以打开目标页面。
 1. 单击左侧面板中的&#x200B;**进度指示器**。
 1. 从&#x200B;**新建进度指示器**&#x200B;下拉菜单中，单击&#x200B;**添加现有项目**。
 
    此时会显示将项目添加到目标框。
 1. （可选）通过单击列表右上角的相应图标来更新&#x200B;**视图**、**筛选器**&#x200B;或&#x200B;**分组**，以修改项目列表的显示方式。
-1. （可选）单击&#x200B;**搜索**&#x200B;图标![](assets/search-icon.png)并开始键入项目名称以在列表中快速找到该项目。
+1. （可选）单击&#x200B;**搜索**&#x200B;图标![搜索图标](assets/search-icon.png)并开始键入项目名称以在列表中快速找到该项目。
 1. 选择要添加到目标的项目，然后单击&#x200B;**添加**。
 
    选定项目将添加到目标，并显示在目标页面的&#x200B;**项目**&#x200B;分组下的进度指示器部分。

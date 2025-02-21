@@ -6,9 +6,9 @@ description: 可在注释解决后将其标记为已解决。 您可以重新打
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 89ba3a34-3347-41dc-939e-94d4c1511c31
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '371'
 ht-degree: 1%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 1%
 1. 选择注释。
 1. 单击评论右下角的复选标记图标。 评论的左上角出现绿色复选标记，“线程已解决”标签和消息出现在其下方。 提交评论的用户会收到一封电子邮件通知，告知评论已解决。
 
-   ![](assets/resolve-comment-350x247.png)
+   ![解决评论](assets/resolve-comment-350x247.png)
 
 ## 重新打开已解决的评论
 
@@ -74,4 +74,4 @@ ht-degree: 1%
 1. 选择注释。
 1. 单击评论右下角的绿色复选标记图标（**回复**&#x200B;按钮右侧）。 评论左上角的复选标记消失，并在其下方显示“线程重新打开”标签和消息。 提交评论的用户会收到一封电子邮件通知，告知该评论已重新打开。
 
-   ![](assets/reopen-resolved-comment-350x334.png)
+   ![重新打开已解决的评论](assets/reopen-resolved-comment-350x334.png)

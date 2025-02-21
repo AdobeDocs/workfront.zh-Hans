@@ -6,9 +6,9 @@ description: 您可以下载单个版本或所有版本的验证。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: eb61cc0b-b402-48db-aa88-9a1dea3180d6
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '227'
 ht-degree: 4%
 
 ---
@@ -53,9 +53,9 @@ ht-degree: 4%
 ## 下载单个校对版本
 
 1. 在文档列表中，单击校对。
-1. 在“摘要”中的&#x200B;**版本**&#x200B;下，单击版本右侧的“更多”菜单![](assets/more-icon.png)，然后在出现的下拉列表中单击&#x200B;**下载**。
+1. 在“摘要”中的&#x200B;**版本**&#x200B;下，单击版本右侧的“更多”菜单![更多图标](assets/more-icon.png)，然后在显示的下拉列表中单击&#x200B;**下载**。
 
-   ![](assets/more-versions-350x143.png)
+   ![下载版本](assets/more-versions-350x143.png)
 
 ## 下载验证的所有版本
 

@@ -6,9 +6,9 @@ description: 如果您的流程比较复杂，或者您定期将内容发送给�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: '1838'
 ht-degree: 0%
 
 ---
@@ -139,7 +139,7 @@ ht-degree: 0%
 
       除了选项&#x200B;**创建校对时**、**在特定日期和时间**&#x200B;或&#x200B;**手动**&#x200B;之外，您还可以选择取决于上一步骤中发生情况的选项：
 
-      ![](assets/activate-stage-options-for-stage-2-plus-350x177.png)
+      ![激活阶段选项](assets/activate-stage-options-for-stage-2-plus-350x177.png)
 
    1. 如果您选择了取决于上一步中所发生情况的激活阶段选项，请使用显示的选项来配置激活设置。
 
@@ -149,7 +149,7 @@ ht-degree: 0%
 
    将阶段添加到自动工作流时，屏幕上会出现一个图表来表示这些阶段：
 
-   ![](assets/stages-diagram-350x213.png)
+   ![阶段图表](assets/stages-diagram-350x213.png)
 
 1. 继续[为下面的校对配置电子邮件设置](#configure-email-settings-for-the-proof)。
 
@@ -230,6 +230,6 @@ ht-degree: 0%
 
 1. 生成校对后，单击&#x200B;**打开校对**&#x200B;以启动校对查看器。
 
-   ![](assets/open-proof-350x132.png)
+   ![打开校对](assets/open-proof-350x132.png)
 
    帐户未启用验证的用户仍可以查看文档并对验证[进行评论。](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)

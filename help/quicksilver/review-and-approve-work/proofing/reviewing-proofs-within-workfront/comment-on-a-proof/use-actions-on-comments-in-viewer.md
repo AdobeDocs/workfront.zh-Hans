@@ -6,9 +6,9 @@ description: 您可以使用操作来跟踪验证上每个评论线程上需要�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d1ee871c-ef61-44ca-8287-1093c5e5cb97
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '441'
 ht-degree: 2%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 2%
 
    * 单击评论右下角的标志图标，然后在下拉菜单中单击所需的操作。
 
-     ![](assets/actions-flag-icon-350x198.png)
+     ![操作标记图标](assets/actions-flag-icon-350x198.png)
 
    * 单击&#x200B;**更多**&#x200B;图标（评论上的三个水平点），然后在显示的下拉菜单的下部单击所需的操作。
 

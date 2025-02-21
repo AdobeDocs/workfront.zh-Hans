@@ -6,9 +6,9 @@ description: 您可以使用验证审批报告查看有关您环境中验证的�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f8c924e-7c33-43f3-a9d6-75c56af28527
-source-git-commit: 8a388ffa2d30683c08637a4273f628c553e55fdb
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**新建报告**，然后滚动以选择&#x200B;**校对审批**。
 
-   ![](assets/proof-approval-report.png)
+   ![校对审批报告](assets/proof-approval-report.png)
 
 1. （可选）添加任何其他字段。
 1. 单击&#x200B;**保存+关闭**。

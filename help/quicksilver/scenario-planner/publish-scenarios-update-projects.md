@@ -7,9 +7,9 @@ description: 您可以通过在Adobe Workfront方案规划程序中发布方案�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '1671'
+source-wordcount: '1729'
 ht-degree: 0%
 
 ---
@@ -32,8 +32,8 @@ ht-degree: 0%
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 计划*</p> </td> 
    <td> <ul></li>
-   <li><p>新增：Ultimate </p></li>
-   <p>场景规划程序不可用于新的Workfront Select或Workfront Prime计划。 </p>
+   <li><p>新增功能：Ultimate </p></li>
+   <p>Scenario Planner不可用于新的Workfront Select或Workfront Prime计划。 </p>
    <li><p>当前： [！UICONTROL Business]或更高版本</p></ul>
    </td> 
   </tr> 
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 {{step1-to-scenario-planner}}
 
-1. （可选且有条件）如果要从现有计划发布，请单击计划右上角的&#x200B;**[!UICONTROL 过滤器]**&#x200B;图标![](assets/filter-nwepng.png)，然后选择以下选项之一：
+1. （可选且有条件）如果要从现有计划发布，请单击计划右上角的&#x200B;**[!UICONTROL 筛选器]**&#x200B;图标![筛选器图标](assets/filter-nwepng.png)，然后选择以下选项之一：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -126,9 +126,9 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-   ![](assets/plans-filters-dropdown-options-scenario-planer.png)
+   ![筛选器下拉选项](assets/plans-filters-dropdown-options-scenario-planer.png)
 
-1. （可选）单击&#x200B;**[!UICONTROL 搜索]**&#x200B;图标![](assets/search-icon.png)并开始键入计划的名称以便在列表中快速找到它。
+1. （可选）单击&#x200B;**[!UICONTROL 搜索]**&#x200B;图标![搜索图标](assets/search-icon.png)，然后开始键入计划的名称以在列表中快速找到它。
 1. （视情况而定）要从新计划发布，请创建计划。
 
    有关创建计划的信息，请参阅[在 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md)中创建和编辑计划。
@@ -142,21 +142,21 @@ ht-degree: 0%
    有关创建计划的信息，请参阅[在 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md)中创建和编辑计划。
 
 1. 单击&#x200B;**[!UICONTROL 保存计划]**。
-1. 从&#x200B;**[!UICONTROL 初始方案]**&#x200B;下拉菜单中选择要发布的方案，然后单击右上角的&#x200B;**[!UICONTROL 转到Publish]** ![](assets/go-to-publish-button-icon.png)。
+1. 从&#x200B;**[!UICONTROL 初始方案]**&#x200B;下拉菜单中选择要发布的方案，然后单击&#x200B;**[!UICONTROL 转到发布]**![转到发布](assets/go-to-publish-button-icon.png)（位于右上角）。
 
    或
 
-   单击&#x200B;**[!UICONTROL 比较方案]**，将鼠标悬停在要从中发布的方案卡片上，然后单击&#x200B;**[!UICONTROL 转到Publish]** ![](assets/go-to-publish-button-icon.png)。
+   单击&#x200B;**[!UICONTROL 比较方案]**，将鼠标悬停在要从中发布的方案卡片上，然后单击&#x200B;**[!UICONTROL 转到发布]** ![转到发布](assets/go-to-publish-button-icon.png)。
 
-   此时会显示[!UICONTROL Publish计划]页面，其中包含方案中的所有计划列表。 如果之前已发布任何计划，则项目图标![](assets/project-icon-sp.png)将显示在其名称之后，列表中会填充&#x200B;**[!UICONTROL 上次发布]**&#x200B;日期。
+   此时将显示[!UICONTROL 发布计划]页，其中显示该方案中的所有计划列表。 如果之前已发布任何计划，则项目图标![项目图标](assets/project-icon-sp.png)会显示在计划名称之后，并且列表中会填充&#x200B;**[!UICONTROL 上次发布]**&#x200B;日期。
 
    >[!TIP]
    >
-   >通过导入项目创建的计划在其名称的右侧还会显示项目图标![](assets/project-icon-sp.png)
+   >通过导入项目创建的计划在其名称的右侧还会显示项目图标![项目图标](assets/project-icon-sp.png)
 
-   ![](assets/project-icons-and-last-published-date-in-publish-initiative-page-350x63.png)
+   ![项目图标和上次发布日期](assets/project-icons-and-last-published-date-in-publish-initiative-page-350x63.png)
 
-1. （可选且有条件）如果要从现有计划发布，请单击计划右上角的&#x200B;**[!UICONTROL 过滤器]**&#x200B;图标![](assets/filter-nwepng.png)，然后选择以下选项之一：
+1. （可选且有条件）如果要从现有计划发布，请单击计划右上角的&#x200B;**[!UICONTROL 筛选器]**&#x200B;图标![筛选器图标](assets/filter-nwepng.png)，然后选择以下选项之一：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -177,10 +177,10 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-   ![](assets/initiatives-fitler-in-publishing-screen-scenario-planner.png)
+   ![计划筛选器](assets/initiatives-fitler-in-publishing-screen-scenario-planner.png)
 
-1. （可选）单击&#x200B;**[!UICONTROL 搜索]**&#x200B;图标![](assets/search-icon.png)并开始键入计划的名称以在列表中快速找到它。
-1. 选择一个或多个计划以发布并创建或更新其中的项目，然后单击&#x200B;**[!UICONTROL Publish计划]**。
+1. （可选）单击&#x200B;**[!UICONTROL 搜索]**&#x200B;图标![搜索图标](assets/search-icon.png)，然后开始键入计划名称以在列表中快速找到该计划。
+1. 选择一个或多个计划以发布并从中创建或更新项目，然后单击&#x200B;**[!UICONTROL 发布计划]**。
 
    这将从每个所选计划创建一个新项目，或者如果发布的计划已链接到项目，则更新现有的连接项目。
 
@@ -193,17 +193,17 @@ ht-degree: 0%
    * 如果您发布了一个计划，请单击&#x200B;**[!UICONTROL 查看关联的项目]**&#x200B;以打开根据该计划创建或更新的项目。
    * 如果您发布了多个计划，请单击&#x200B;**[!UICONTROL 查看关联的项目]**&#x200B;以打开从计划发布的项目列表。 默认情况下，[!DNL Workfront]将[!DNL Scenario Planner]项目筛选器应用于项目列表。 最近发布的项目将显示在列表顶部。
 
-     ![](assets/scenario-planner-filter-after-publishing-initiatives-350x81.png)
+     发布计划后的![方案规划器](assets/scenario-planner-filter-after-publishing-initiatives-350x81.png)
 
 1. 转到以下区域查看有关项目的计划信息：
 
    * **[!UICONTROL 更新]部分**：发布更新以指示项目是从计划创建或更新的。 更新包含创建或更新项目的计划名称以及包含该计划的计划的链接名称。 您可以在更新中单击计划的名称以在[!DNL Scenario Planner]中打开该计划。
 
-     ![](assets/update-stream-confirmation-of-publish-on-project-350x65.png)
+     ![更新发布的流确认](assets/update-stream-confirmation-of-publish-on-project-350x65.png)
 
    * **[!UICONTROL 项目详细信息]分区的[!UICONTROL 概述]区域**：在此区域创建了新的[!DNL Scenario Planner]分区，其中包含来自链接计划的信息。
 
-     ![](assets/scenario-planner-on-project-details-350x135.png)
+     ![项目详细信息中的方案规划者](assets/scenario-planner-on-project-details-350x135.png)
 
      以下计划信息发布在[!UICONTROL 项目详细信息]部分的[!DNL Scenario Planner]区域：
 
@@ -257,7 +257,7 @@ ht-degree: 0%
 
      有关详细信息，请参阅[在项目和计划之间协调资源分配概述](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)。
 
-     ![](assets/role-allocation-panel-350x174.png)
+     ![角色分配面板](assets/role-allocation-panel-350x174.png)
 
      对项目日期或资源所做的任何更改不会影响相应的计划或项目上包含计划信息的任何区域。
 
@@ -265,20 +265,20 @@ ht-degree: 0%
 
      有关详细信息，请参阅[!UICONTROL 商业案例]中使用 [!DNL Scenario Planner]](../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的[预算资源。
 
-     ![](assets/sp-in-business-case-selected-350x110.png)
+     ![业务案例中的场景规划器](assets/sp-in-business-case-selected-350x110.png)
 
 1. （可选）发布方案后，在[!DNL Scenario Planner]中查看以下信息：
 
    * 已发布的方案将成为从中发布计划后的第一个方案。
    * 在发布方案至少一次后，您无法从任何其他方案发布。
-   * 从场景中发布至少一个计划后，会从所有其他场景中删除[!UICONTROL 转到Publish]选项。
+   * 从方案中至少发布了一个计划后，会从所有其他方案中移除[!UICONTROL 转到发布]选项。
    * 计划中已发布计划的项目图标旁会显示一个绿色指示器。
 
-     ![](assets/indicator-for-published-initiative-icon-350x119.png)
+     已发布计划的![指示器](assets/indicator-for-published-initiative-icon-350x119.png)
 
    * 绿色“已发布”指示器显示在方案的顶部和方案卡片上，并且方案卡片中会填充已发布字段，以指示已发布的方案中的计划数。
 
-     ![](assets/published-scenario-highlighted-350x632.png)
+     ![已发布的方案](assets/published-scenario-highlighted-350x632.png)
 
      >[!TIP]
      >

@@ -7,9 +7,9 @@ description: 活动衡量目标的进度。 如果没有关联的结果、活动
 author: Alina
 feature: Workfront Goals
 exl-id: 4d6ef324-4b5c-402b-b64d-b1a2a7d2ab57
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '455'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 1%
    <td role="rowheader">Adobe Workfront计划*</td> 
    <td> 
    <p>对于新计划和许可证结构：
-  <ul><li>最终计划 </li></ul>
+  <ul><li>Ultimate计划 </li></ul>
    </p>
 <p>对于当前计划和许可证结构： 
 <ul><li> Pro或更高版本 </li>
@@ -51,8 +51,8 @@ ht-degree: 1%
  <td>
  <p> 新产品要求，为以下项之一： </p>
 <ul>
-<li>Select或Prime Adobe Workfront计划和其他Adobe Workfront Goals许可证。</li>
-<li>默认包含Workfront目标的Ultimate Workfront计划。 </li></ul>
+<li>Select或Prime Adobe Workfront计划和附加Adobe Workfront Goals许可证。</li>
+<li>Ultimate Workfront计划，默认情况下包括Workfront目标。 </li></ul>
  <p>或</p>
  <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
@@ -101,7 +101,7 @@ Adding activities to goals differs depending on which environment you use.
 1. Go to the goal for which you want to add an activity and click the name to open the **Goal Details** panel.
 1. Click **Add activities**.
 
-   ![](assets/add-activity-inside-goal-details-highlighted-350x152.png)
+   ![Add activity inside goal](assets/add-activity-inside-goal-details-highlighted-350x152.png)
 
 1. From the **Activity Type** drop-down menu, select the type of activity you want to associate with your goal.&nbsp;Select **Manual progress bar** or **Project**. Manual progress bar is the default selection. 
 1. (Conditional) Depending on which activity type you selected, do the following:
@@ -144,14 +144,14 @@ Adding activities to goals differs depending on which environment you use.
 -->
 
 
-1. 单击&#x200B;**主菜单** ![](assets/main-menu-icon.png)，然后单击&#x200B;**目标**。
+1. 单击&#x200B;**主菜单** ![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**目标**。
 1. 从目标列表中，单击目标的名称以打开目标的页面。
 1. 单击左侧面板中的&#x200B;**进度指示器**。
 1. 从“新建进度指示器”下拉菜单中，单击&#x200B;**创建活动**。
 
    将打开“新建活动”框。
 
-   ![](assets/new-activity-box-unshimmed.png)
+   ![新活动框](assets/new-activity-box-unshimmed.png)
 
 1. 在活动名称字段中输入活动的名称。 这是必填字段。
 1. （可选）如果要将活动分配给其他用户，请从&#x200B;**活动所有者**&#x200B;字段中移除您的名称。 默认情况下，您是所创建活动的所有者。

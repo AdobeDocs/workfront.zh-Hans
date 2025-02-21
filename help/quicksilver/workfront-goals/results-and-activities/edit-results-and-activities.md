@@ -7,9 +7,9 @@ description: Adobe Workfront管理员向您授予对Adobe Workfront目标的正�
 author: Alina
 feature: Workfront Goals
 exl-id: 922a05f9-2995-4401-a6d2-e5a331270fd3
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '779'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Adobe Workfront管理员向您授予对Adobe Workfront目标的正确访问权�
    <td role="rowheader">Adobe Workfront计划*</td> 
    <td> 
    <p>对于新计划和许可证结构：
-  <ul><li>最终计划 </li></ul>
+  <ul><li>Ultimate计划 </li></ul>
    </p>
 <p>对于当前计划和许可证结构： 
 <ul><li> Pro或更高版本 </li>
@@ -58,8 +58,8 @@ Adobe Workfront管理员向您授予对Adobe Workfront目标的正确访问权�
  <td>
  <p> 新产品要求，为以下项之一： </p>
 <ul>
-<li>Select或Prime Adobe Workfront计划和其他Adobe Workfront Goals许可证。</li>
-<li>默认包含Workfront目标的Ultimate Workfront计划。 </li></ul>
+<li>Select或Prime Adobe Workfront计划和附加Adobe Workfront Goals许可证。</li>
+<li>Ultimate Workfront计划，默认情况下包括Workfront目标。 </li></ul>
  <p>或</p>
  <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
@@ -121,9 +121,9 @@ Editing results differs depending on which environment you use.
 
 1. Go to the goal for which you want to edit a result and click the goal name to open the **Goal Details** panel.
 1. Click **Results**.
-1. Click the **gear icon** ![](assets/settings-gear-icon.png) to the right of the result you want to edit.
+1. Click the **gear icon** ![Gear icon](assets/settings-gear-icon.png) to the right of the result you want to edit.
 
-   ![](assets/results-gear-icon-options-350x85.png)
+   ![Results gear icon](assets/results-gear-icon-options-350x85.png)
 
 1. Click **Edit** to edit the following information:
 
@@ -139,14 +139,14 @@ Editing results differs depending on which environment you use.
 -->
 
 
-1. 单击&#x200B;**主菜单** ![](assets/main-menu-icon.png)，然后单击&#x200B;**目标**。
+1. 单击&#x200B;**主菜单** ![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**目标**。
 1. 从目标列表中，单击目标的名称以打开目标页面。
 1. 单击左侧面板中的&#x200B;**进度指示器**。
-1. 在进度指示器列表中选择一个结果，然后单击&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)。
+1. 在进度指示器列表中选择一个结果，然后单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
 
    “编辑结果”框打开。
 
-   ![](assets/edit-result-box-unshimmed.png)
+   ![编辑结果框](assets/edit-result-box-unshimmed.png)
 
 1. 编辑以下信息：
    * **结果名称**：结果的名称。 使用说明性名称，说明完成目标需要获得的结果。
@@ -170,9 +170,9 @@ Editing activities differs depending on which environment you use.
 
 1. Go to the goal for which you want to edit an activity and click the goal name to open the **Goal Details** panel.
 1. Click **Activities**.
-1. Click the **gear icon** ![](assets/settings-gear-icon.png) to the right of the activity you want to edit .
+1. Click the **gear icon** ![Gear icon](assets/settings-gear-icon.png) to the right of the activity you want to edit .
 
-   ![](assets/activities-gear-icon-options-350x84.png)
+   ![Activities gear icon](assets/activities-gear-icon-options-350x84.png)
 
 1. Click **Edit** to edit the following information:
 
@@ -184,14 +184,14 @@ Editing activities differs depending on which environment you use.
 1. Click **Save**.
 -->
 
-1. 单击&#x200B;**主菜单** ![](assets/main-menu-icon.png)，然后单击&#x200B;**目标**。
+1. 单击&#x200B;**主菜单** ![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**目标**。
 1. 从目标列表中，单击目标的名称以打开目标页面。
 1. 单击左侧面板中的&#x200B;**进度指示器**。
-1. 在进度指示器列表中选择活动，然后单击&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)。
+1. 在“进度指示器”列表中选择活动，然后单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
 
    将打开“编辑活动”框。
 
-   ![](assets/edit-activity-box-unshimmed.png)
+   ![编辑活动框](assets/edit-activity-box-unshimmed.png)
 
 1. 编辑以下信息：
    * **活动名称**：活动的名称。 使用说明性名称，说明应该执行哪些活动以指示目标完成。

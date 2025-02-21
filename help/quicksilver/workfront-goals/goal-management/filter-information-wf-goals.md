@@ -6,9 +6,9 @@ description: 您可以查看自己或其他人在Adobe Workfront目标中添加�
 author: Alina
 feature: Workfront Goals
 exl-id: ec9b6789-fffe-425c-8316-eefe670ad0d6
-source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: '1379'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 2%
    <td role="rowheader">Adobe Workfront计划*</td> 
    <td> 
    <p>对于新计划和许可证结构：
-  <ul><li>最终计划 </li> </ul>
+  <ul><li>Ultimate计划 </li> </ul>
 
 <p>对于当前计划和许可证结构： 
 <ul><li> Pro或更高版本 </li>
@@ -50,8 +50,8 @@ ht-degree: 2%
  <td>
  <p> 新产品要求，为以下项之一： </p>
 <ul>
-<li>Select或Prime Adobe Workfront计划和其他Adobe Workfront Goals许可证。</li>
-<li>默认包含Workfront目标的Ultimate Workfront计划。 </li></ul>
+<li>Select或Prime Adobe Workfront计划和附加Adobe Workfront Goals许可证。</li>
+<li>Ultimate Workfront计划，默认情况下包括Workfront目标。 </li></ul>
  <p>或</p>
  <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
@@ -128,7 +128,7 @@ ht-degree: 2%
 
 1. 单击列表右上角的&#x200B;**筛选器**。
 
-   ![](assets/filter-icon-and-label.png)
+   ![筛选器图标](assets/filter-icon-and-label.png)
 
    默认情况下，Workfront应用&#x200B;**全部**&#x200B;筛选器，该筛选器显示您的系统中的所有目标。
 
@@ -172,7 +172,7 @@ ht-degree: 2%
       </tbody> 
      </table>
 
-   * 将鼠标悬停在筛选器名称上，然后单击筛选器名称旁边的&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)以自定义筛选器并添加特定的用户、团队、组名或组织名称，然后在筛选器出现在列表上时选择筛选器。
+   * 将鼠标悬停在筛选器名称上，然后单击筛选器名称旁边的&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)以自定义筛选器并添加特定用户、团队、组名称或您的组织名称，然后在用户出现在列表时选择它。
 
    * 单击&#x200B;**新建筛选器**&#x200B;以创建新筛选器，然后从以下选项中进行选择以自定义新筛选器：
 
@@ -249,11 +249,11 @@ ht-degree: 2%
 
 1. （可选且有条件）在“目标对齐方式”部分中查看目标时，如果要查看过滤掉的目标，请单击&#x200B;**显示它们**。
 
-   ![](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
+   ![显示过滤项上的链接](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
 
    过滤器名称以黄色列出，表示它被忽略。
 
-   ![](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
+   ![过滤黄色轮廓](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
 
 
 1. （可选且有条件）单击&#x200B;**重新应用筛选器**&#x200B;以应用筛选器并忽略您在上一步中显示的项。

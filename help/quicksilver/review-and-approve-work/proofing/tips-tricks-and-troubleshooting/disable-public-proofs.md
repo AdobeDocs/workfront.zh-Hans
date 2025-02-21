@@ -8,9 +8,9 @@ description: 您可以关闭与公共URL共享验证或基于验证嵌入代码�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 73f08e12-f70d-4347-8a5b-441f94d24590
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 0%
 1. 将鼠标悬停在验证上并选择&#x200B;**文档详细信息** 。
 1. 在左侧面板中，单击&#x200B;**验证查看器设置**，然后禁用&#x200B;**允许通过公共URL或嵌入代码共享验证**&#x200B;复选框。
 
-   ![](assets/proofing-viewer-settings-350x200.png)
+   ![验证查看器设置](assets/proofing-viewer-settings-350x200.png)
 
 1. 单击&#x200B;**保存**。
 
@@ -64,9 +64,9 @@ ht-degree: 0%
 
 您可以在Workfront实例中为个别用户禁用公共验证设置。 您必须拥有管理员的验证权限配置文件才能进行此更改。
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**校对**。
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**验证**。
 1. 单击右上角附近的&#x200B;**帐户设置**。
 1. 单击&#x200B;**用户**&#x200B;选项卡，然后单击用户的名称。
 1. 在&#x200B;**默认验证设置**&#x200B;部分中，禁用&#x200B;**公共共享**&#x200B;复选框。
 
-   ![](assets/default-proof-settings--public-sharing-350x210.png)
+   ![公共共享](assets/default-proof-settings--public-sharing-350x210.png)

@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
-source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Workfront管理员通过在Workfront的“设置”区域添加默认的Frame.io
 
 有关详细信息，请参阅[配置 [!DNL Workfront] 和 [!DNL Frame.io] 集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md)。
 
-![](assets/Frame-enabled-user.png)
+![帧启用的用户](assets/Frame-enabled-user.png)
 
 
 ### 创建与Frame.io连接的项目
@@ -114,7 +114,7 @@ Workfront管理员通过在Workfront的“设置”区域添加默认的Frame.io
   有关详细信息，请参阅[创建审批模板](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
 
 
-![](assets/assign-template.png)
+![分配模板](assets/assign-template.png)
 
 
 #### 访问Frame.io查看器
@@ -123,7 +123,7 @@ Workfront管理员通过在Workfront的“设置”区域添加默认的Frame.io
 
 * Workfront电子邮件通知
 * 新Workfront主页区域中的我的审批小组件
-  ![](assets/awaiting-my-approval.png)
+  ![等待我的审批](assets/awaiting-my-approval.png)
 
 >[!NOTE]
 >
@@ -145,7 +145,7 @@ Workfront管理员通过在Workfront的“设置”区域添加默认的Frame.io
 
 有关Workfront中决策的详细信息，请参阅[文档决策状态概述](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)。
 
-![](assets/frame-viewer-and-decision.png)
+![帧查看器和决策](assets/frame-viewer-and-decision.png)
 
 
 <!-- upload assets directly to workfront to be reviewed in Frame.io/ Will have to send manually at first
@@ -158,4 +158,4 @@ Reviewer/approver needs to go through email to get to frame vier
 项目协调员可以使用以下小组件在Workfront主页区域监控所有正在进行的审批的进度：
 
 * **所有审批**：显示2个图表，其中包含有关平均审批时间和决策的信息，以及未决和超期审批的列表视图。
-  ![](assets/all-approvals.png)
+  ![所有审批](assets/all-approvals.png)

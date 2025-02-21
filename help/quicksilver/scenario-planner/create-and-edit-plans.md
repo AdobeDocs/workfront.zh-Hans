@@ -6,9 +6,9 @@ description: 在优先考虑公司的更高级别战略时，您可在使用Work
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '2397'
+source-wordcount: '2434'
 ht-degree: 0%
 
 ---
@@ -36,8 +36,8 @@ ht-degree: 0%
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 计划*</p> </td> 
    <td> <ul></li>
-   <li><p>新增：Ultimate </p></li>
-   <p>场景规划程序不可用于新的Workfront Select或Workfront Prime计划。 </p>
+   <li><p>新增功能：Ultimate </p></li>
+   <p>Scenario Planner不可用于新的Workfront Select或Workfront Prime计划。 </p>
    <li><p>当前： [！UICONTROL Business]或更高版本</p></ul>
    </td> 
   </tr> 
@@ -89,17 +89,17 @@ ht-degree: 0%
 
 [!DNL Workfront Scenario Planner]中将显示您创建的现有计划列表。
 
-1. （可选）单击计划列表右上角的&#x200B;**[!UICONTROL 筛选器]**&#x200B;图标![](assets/filter-icon-34x37.png)，然后从以下内容中选择：
+1. （可选）单击计划列表右上角的&#x200B;**[!UICONTROL 筛选器]**&#x200B;图标![筛选器图标](assets/filter-icon-34x37.png)，然后从以下内容中选择：
 
-   | 筛选 | 描述 |
+   | 筛选条件 | 描述 |
    |---|---|
    | [!UICONTROL 全部] | 显示您已创建或已与您共享的所有计划。 |
    | [!UICONTROL 我的计划] | 显示您创建的计划。 |
    | [!UICONTROL 与我共享] | 显示与您共享的计划。 |
 
-   ![](assets/plans-filters-dropdown-options-scenario-planer.png)
+   ![计划筛选器下拉列表选项](assets/plans-filters-dropdown-options-scenario-planer.png)
 
-1. （可选）单击&#x200B;**[!UICONTROL 搜索]**&#x200B;图标![](assets/search-icon.png)以键入关键字并在列表中快速找到计划。
+1. （可选）单击&#x200B;**[!UICONTROL 搜索]**&#x200B;图标![搜索图标](assets/search-icon.png)以键入关键字并在列表中快速找到计划。
 
 1. 单击现有计划的名称以对其进行编辑并继续执行步骤7。
 
@@ -115,11 +115,11 @@ ht-degree: 0%
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is the step still accurate)</p>
    -->
 
-   ![](assets/new-plan-button.png)
+   ![新计划按钮](assets/new-plan-button.png)
 
    此时将显示[!UICONTROL 新计划]框。
 
-   ![](assets/new-plan-ui-adding-a-new-plan-350x306.png)
+   ![新计划框](assets/new-plan-ui-adding-a-new-plan-350x306.png)
 
 1. （视情况而定）创建新计划时，请指定以下信息：
 
@@ -172,7 +172,7 @@ ht-degree: 0%
 
 1. （可选）从时间线下拉菜单中选择下表中的一个选项，以更改查看计划时间线的方式。
 
-   ![](assets/month-dropdown-with-all-options.png)
+   ![个月下拉列表](assets/month-dropdown-with-all-options.png)
 
    | 下拉菜单选项 | 描述 |
    |---|---|
@@ -183,7 +183,7 @@ ht-degree: 0%
 1. （可选）从左向右滚动以查看计划的整个持续时间。
 1. （可选）单击&#x200B;**[!UICONTROL Today]**&#x200B;指示符行以返回到当天。
 
-   ![](assets/today-indicator-350x160.png)
+   ![今天指示器](assets/today-indicator-350x160.png)
 
 1. 单击计划标题中的&#x200B;**[!UICONTROL 工作角色]**&#x200B;框可添加可用于执行计划的工作角色。
 
@@ -193,7 +193,7 @@ ht-degree: 0%
    >
    >[!DNL Workfront]用于此计划的角色分配单元（FTE或小时数）显示在框标题的括号中。
 
-   ![](assets/adding-people-to-plan-350x206.png)
+   ![将人员添加到计划](assets/adding-people-to-plan-350x206.png)
 
 1. 单击&#x200B;**[!UICONTROL 开始键入工作角色]**&#x200B;字段并从列表中选择一个角色，或开始键入有效工作角色的名称。
 
@@ -239,12 +239,12 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. （可选）将鼠标悬停在工作角色的名称上或在更新角色信息后单击选项卡，然后单击&#x200B;**[!UICONTROL 垃圾桶图标]** ![](assets/delete.png)以将其从计划中删除。
+1. （可选）将鼠标悬停在工作角色的名称上或在更新角色信息后单击选项卡，然后单击&#x200B;**[!UICONTROL 垃圾桶图标]** ![删除图标](assets/delete.png)以将其从计划中删除。
 1. 单击&#x200B;**[!UICONTROL 工作角色分配]**。
 
    工作角色分配面板将显示方案持续时间中的所有月份。
 
-   ![](assets/job-role-monthly-distribution-box-fte-350x144.png)
+   ![工作角色每月分发](assets/job-role-monthly-distribution-box-fte-350x144.png)
 
 1. 在&#x200B;**[!UICONTROL 开始键入工作角色字段]**&#x200B;中键入工作角色的名称，以将其添加到计划中，然后当该名称出现在列表中时，单击“输入”。 这会将工作角色添加到[!UICONTROL 工作角色]列。
 1. 针对方案的每个月更新或查看以下信息：
@@ -334,13 +334,13 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL 高级]**&#x200B;查看每月预算分配。 年度和每月预算始终为舍入的数字。 当预算金额由于小数而无法平均分配到一年内的所有月份时，年度预算分配下会显示&#x200B;**[!UICONTROL 剩余]**&#x200B;指示符。
 
-   ![](assets/adanced-and-remaining-links-on-plan-budget-350x507.png)
+   ![高级链接和其余链接](assets/adanced-and-remaining-links-on-plan-budget-350x507.png)
 
 1. 手动调整每月预算以清除超出金额。
 
    当所有每月预算金额的总和大于年度预算时，年度预算分配下将显示&#x200B;**[!UICONTROL 超过]**&#x200B;警告指示符。 手动调整每月预算金额，直到它们等于或小于计划的可用预算。
 
-   ![](assets/exceeding-budget-warning-on-plan-350x483.png)
+   ![超出预算警告](assets/exceeding-budget-warning-on-plan-350x483.png)
 
 1. 禁用&#x200B;**[!UICONTROL 包括人员成本]**&#x200B;设置以排除与工作角色相关的成本，不计入计划的整体成本。 固定成本始终计入计划的整体成本。 此设置默认处于启用状态，并影响计划中的所有方案。
 1. 单击[!UICONTROL Financial]框之外的任意位置将其关闭。 您输入的信息将自动保存。
@@ -360,6 +360,6 @@ ht-degree: 0%
 
    您的计划已创建或更新。
 
-1. （可选）单击计划名称右侧的&#x200B;**[!UICONTROL 收藏夹图标]** ![](assets/favorites-icon-small.png)以将计划添加到收藏夹列表。
+1. （可选）单击计划名称右侧的&#x200B;**[!UICONTROL 收藏夹图标]** ![收藏夹图标](assets/favorites-icon-small.png)以将计划添加到收藏夹列表。
 
 1. （可选）复制计划的URL，并将其发送给可能需要审阅或更新该计划的任何其他用户。 他们的访问级别必须至少具有[!UICONTROL 查看]权限才能查看计划。 他们必须具有[!UICONTROL 编辑]权限才能编辑它。 如果他们必须审核计划的财务信息，如预算、成本和工作角色费率信息，则他们还必须有权访问其访问级别的[!UICONTROL 财务数据]。 有关[!DNL Scenario Planner]所需访问权限的信息，请参阅[使用 [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)所需的访问权限。

@@ -6,9 +6,9 @@ description: 您可以将现有项目导入计划。 导入的项目将转换为
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '1690'
+source-wordcount: '1710'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,8 @@ ht-degree: 0%
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 计划*</p> </td> 
    <td> <ul></li>
-   <li><p>新增：Ultimate </p></li>
-   <p>场景规划程序不可用于新的Workfront Select或Workfront Prime计划。 </p>
+   <li><p>新增功能：Ultimate </p></li>
+   <p>Scenario Planner不可用于新的Workfront Select或Workfront Prime计划。 </p>
    <li><p>当前： [！UICONTROL Business]或更高版本</p></ul>
    </td> 
   </tr> 
@@ -118,7 +118,7 @@ ht-degree: 0%
      <ul> 
       <li> <p>如果分配给任务或问题的用户在将其分配标记为[！UICONTROL完成]之后更改了角色，则[!DNL Workfront]会将用户在将分配标记为[！UICONTROL完成]之前履行的角色导入计划。</p> </li> 
       <li> <p>如果分配给任务或问题的用户在项目生命周期内更改了角色，但在导入项目时，他们在任务或问题上的分配未标记为[！UICONTROL完成]，则[!DNL Workfront]将仅导入分配用户的当前角色。 </p> </li> 
-     </ul> <p>有关任务状态的信息，请参阅Adobe[!DNL Workfront]术语的<a href="../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md" class="MCXref xref">词汇表</a>中的“任务状态”。 </p> </p> </td> 
+     </ul> <p>有关分配状态的信息，请参阅Adobe [!DNL Workfront]术语的<a href="../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md" class="MCXref xref">词汇表</a>中的“分配状态”。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td>与分配给任务或问题的工作角色关联的项目[！UICONTROL计划小时数]</td> 
@@ -164,7 +164,7 @@ ht-degree: 0%
 
    此时会显示[!UICONTROL 导入项目]框。 日期包含在计划时间框架中的项目会显示在列表中。
 
-   ![](assets/project-import-ui-projects-selected-350x72.png)
+   ![导入项目](assets/project-import-ui-projects-selected-350x72.png)
 
    >[!TIP]
    >
@@ -174,9 +174,9 @@ ht-degree: 0%
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the status of the projects in the import projects UI might change; right now it's ALL statuses)</p>
    -->
 
-1. （可选）单击&#x200B;**[!UICONTROL 筛选器图标]** ![](assets/filter-nwepng.png)并从列表中选择一个可用的筛选器以减少列表上的项目数。 默认情况下，项目列表按用户当前在项目列表中选定的项目过滤器进行过滤。
+1. （可选）单击&#x200B;**[!UICONTROL 筛选器图标]** ![筛选器图标](assets/filter-nwepng.png)并从列表中选择一个可用的筛选器以减少列表上的项目数。 默认情况下，项目列表按用户当前在项目列表中选定的项目过滤器进行过滤。
 
-1. （可选）单击&#x200B;**[!UICONTROL 搜索图标]** ![](assets/search-icon.png)并添加屏幕上任何字段显示的关键字。 包含搜索词的项目会自动显示在列表中，并且所有项目都处于隐藏状态。
+1. （可选）单击&#x200B;**[!UICONTROL 搜索图标]** ![搜索图标](assets/search-icon.png)，然后添加显示在屏幕上任何字段上的关键字。 包含搜索词的项目会自动显示在列表中，并且所有项目都处于隐藏状态。
 
 1. （视情况而定）单击&#x200B;**[!UICONTROL X图标]**&#x200B;可删除搜索并显示所有项目。
 1. 选择最多100个项目并单击&#x200B;**[!UICONTROL 导入]**。
@@ -185,10 +185,10 @@ ht-degree: 0%
 
    请注意以下事项：
 
-   * 项目图标![](assets/project-icon-sp.png)显示在计划名称的右侧。
+   * 计划名称的右侧将显示一个项目图标![项目图标](assets/project-icon-sp.png)。
    * 如果项目时间线超出计划的持续时间，则计划栏将以左侧（当开始日期早于计划日期时）或右侧（当结束日期晚于计划日期时）的尖角边距结束。
 
-     ![](assets/project-bar-earlier-than-the-plan-start-date-350x39.png)
+     ![项目栏早于开始日期](assets/project-bar-earlier-than-the-plan-start-date-350x39.png)
 
    * 月数和工作角色已更新以匹配项目的月数和工作角色。
 
@@ -198,7 +198,7 @@ ht-degree: 0%
 
 1. 单击表示新计划的栏以打开右侧的计划详细信息面板。
 
-   ![](assets/initiative-duration-with-project-duration-details-panel-350x292.png)
+   ![计划持续时间](assets/initiative-duration-with-project-duration-details-panel-350x292.png)
 
    在&#x200B;**[!UICONTROL 计划持续时间]**&#x200B;区域查看以下信息：
 
@@ -234,4 +234,4 @@ ht-degree: 0%
 1. （可选）要将您对计划所做的更改更新回从中导入计划的项目，请从计划发布该项目。 有关发布计划的信息，请参阅[通过在 [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)中发布计划来更新或创建项目。
 1. （可选）单击项目图标以访问链接的项目。
 
-   ![](assets/project-icon-on-initiative-highlighted-350x49.png)
+   计划](assets/project-icon-on-initiative-highlighted-350x49.png)上的![项目图标

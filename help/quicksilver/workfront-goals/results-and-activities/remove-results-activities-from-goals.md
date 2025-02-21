@@ -7,9 +7,9 @@ description: 如果不再相关，您可以从Adobe Workfront目标中的目标�
 author: Alina
 feature: Workfront Goals
 exl-id: 0e064dbd-6168-47b4-98ab-b5c0481e839e
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '739'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
    <td role="rowheader">Adobe Workfront计划*</td> 
    <td> 
    <p>对于新计划和许可证结构：
-  <ul><li>最终计划 </li></ul>
+  <ul><li>Ultimate计划 </li></ul>
    </p>
 <p>对于当前计划和许可证结构： 
 <ul><li> Pro或更高版本 </li>
@@ -65,8 +65,8 @@ ht-degree: 0%
  <td>
  <p> 新产品要求，为以下项之一： </p>
 <ul>
-<li>Select或Prime Adobe Workfront计划和其他Adobe Workfront Goals许可证。</li>
-<li>默认包含Workfront目标的Ultimate Workfront计划。 </li></ul>
+<li>Select或Prime Adobe Workfront计划和附加Adobe Workfront Goals许可证。</li>
+<li>Ultimate Workfront计划，默认情况下包括Workfront目标。 </li></ul>
  <p>或</p>
  <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
@@ -119,7 +119,7 @@ How you delete results and activities differs depending on the environment you u
 ### Delete results and activities in the Production environment
 
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -132,15 +132,15 @@ How you delete results and activities differs depending on the environment you u
 
 1. Click **Results** to remove results or **Activities** to remove activities. 
 
-1. Click the **gear icon** ![](assets/settings-gear-icon.png) to the right of the result or activity name, then click **Delete** > **Yes, delete**.
+1. Click the **gear icon** ![Gear icon](assets/settings-gear-icon.png) to the right of the result or activity name, then click **Delete** > **Yes, delete**.
 
-   ![](assets/delete-result-goal-details-350x108.png)
+   ![Delete result](assets/delete-result-goal-details-350x108.png)
 
    The result or activity is deleted and cannot be recovered. The percent complete of the goal updates to exclude the deleted activity or result.
 
 -->
 
-1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**目标**。
+1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**目标**。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -152,7 +152,7 @@ How you delete results and activities differs depending on the environment you u
 
 1. 单击左侧面板中的&#x200B;**进度指示器**。
 
-1. 选择结果或活动，然后单击列表顶部的&#x200B;**删除**&#x200B;图标![](assets/delete-icon.png)。
+1. 选择结果或活动，然后单击列表顶部的&#x200B;**删除**&#x200B;图标![删除图标](assets/delete-icon.png)。
 
 1. 单击&#x200B;**删除**&#x200B;以确认删除。 结果或活动被删除，无法恢复。 目标的完成百分比将更新，以排除已删除的活动或结果。
 
@@ -165,7 +165,7 @@ Dsconnecting projects from goals differs depending on the environment you use.
 ### Disconnect projects from goals in the Production environment
 
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -177,9 +177,9 @@ Dsconnecting projects from goals differs depending on the environment you use.
    This opens the Goal Details panel on the right.
 
 1. Click the **right-pointing arrow** to the left of the Activities sections to expand it. 
-1. Click the **gear icon** ![](assets/settings-gear-icon.png) to the right of the project name, then click **Disconnect**.
+1. Click the **gear icon** ![Gear icon](assets/settings-gear-icon.png) to the right of the project name, then click **Disconnect**.
 
-   ![](assets/disconnect-project-goal-details-350x94.png)
+   ![Disconnect](assets/disconnect-project-goal-details-350x94.png)
 
    The project is disconnected from the goal. The percent complete of the goal updates to exclude the percent complete of the disconnected project.
 -->
@@ -196,7 +196,7 @@ Dsconnecting projects from goals differs depending on the environment you use.
 
    这将打开目标页面。
 1. 单击左侧面板中的&#x200B;**进度指示器**。
-1. 选择一个项目，然后单击列表顶部的&#x200B;**断开连接**&#x200B;图标![](assets/disconnect-icon.png)。
+1. 选择一个项目，然后单击列表顶部的&#x200B;**断开连接**&#x200B;图标![断开连接图标](assets/disconnect-icon.png)。
 1. 单击&#x200B;**断开连接**&#x200B;以确认。
 
    项目不再连接到目标。 目标更新的完成百分比，用于排除断开连接的项目。

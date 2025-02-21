@@ -6,9 +6,9 @@ description: 了解如何控制视频验证中的播放。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e1dce216-c41d-447b-b5b0-64b04b4132ff
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '357'
 ht-degree: 1%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 1%
 
 1. 在校对查看器的底部，单击&#x200B;**前进**&#x200B;和&#x200B;**后退**&#x200B;箭头逐帧查看视频。
 
-   ![](assets/frame-.png)
+   ![帧](assets/frame-.png)
 
 ## 更改播放音量
 
@@ -82,7 +82,7 @@ ht-degree: 1%
 
 1. 在校对查看器的右下角，将鼠标悬停在&#x200B;**音量**&#x200B;图标上，然后拖动滑块以选择新的音量。
 
-   ![](assets/phq-viewer-volume.png)
+   ![卷](assets/phq-viewer-volume.png)
 
    或
 

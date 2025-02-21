@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront中上传新文档版本并请求其他�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
-source-git-commit: 162f63d52c97c6d4894d35565c68eb2858369b53
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 1. 向下滚动到“文档摘要”窗格中的&#x200B;**审批**&#x200B;部分，然后单击&#x200B;**添加**。
 
-![](assets/doc-summary-add-approvers.png)
+![在文档摘要中添加批准者](assets/doc-summary-add-approvers.png)
 
 1. （可选）设置审批的截止日期。 用户和团队将在指定截止日期前72小时（即24小时）通过电子邮件接收通知。
 
@@ -89,4 +89,4 @@ ht-degree: 0%
 
 1. 要添加新的批准者和审阅者，请单击&#x200B;**审阅者**&#x200B;或&#x200B;**批准者**，然后开始键入用户或团队。
 
-   ![](assets/add-approver-and-deadline.png)
+   ![添加审批者和截止日期](assets/add-approver-and-deadline.png)

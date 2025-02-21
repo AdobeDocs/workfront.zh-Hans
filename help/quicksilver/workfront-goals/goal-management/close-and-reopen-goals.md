@@ -6,9 +6,9 @@ description: 当您想要指出目标已完成或由于目标已废弃而不再�
 author: Alina
 feature: Workfront Goals
 exl-id: bbb549c1-aea6-4f5e-8a6b-01fc04cf06ef
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '952'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
    <td role="rowheader">Adobe Workfront计划*</td> 
    <td> 
    <p>对于新计划和许可证结构：
-  <ul><li>最终计划 </li></ul>
+  <ul><li>Ultimate计划 </li></ul>
    </p>
 <p>对于当前计划和许可证结构： 
 <ul><li> Pro或更高版本 </li>
@@ -56,8 +56,8 @@ ht-degree: 0%
  <td>
  <p> 新产品要求，为以下项之一： </p>
 <ul>
-<li>Select或Prime Adobe Workfront计划和其他Adobe Workfront Goals许可证。</li>
-<li>默认包含Workfront目标的Ultimate Workfront计划。 </li></ul>
+<li>Select或Prime Adobe Workfront计划和附加Adobe Workfront Goals许可证。</li>
+<li>Ultimate Workfront计划，默认情况下包括Workfront目标。 </li></ul>
  <p>或</p>
  <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
@@ -111,7 +111,7 @@ Closing goals differs depending on what environment you use.
 
 ### Close goals in the Production environment
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -128,7 +128,7 @@ Closing goals differs depending on what environment you use.
 
 1. (Optional and recommended) Click the **Updates** tab and add an update in the **Comment here** field about the reason you are closing the goal, then click **Post**. 
 
-1. Click the **More icon** ![](assets/more-icon.png) to the right of the goal name, then click **Close** > **Close Goal**.
+1. Click the **More icon** ![More icon](assets/more-icon.png) to the right of the goal name, then click **Close** > **Close Goal**.
 
    This closes the goal and saves the current progress on the goal and its results and activities.
 
@@ -137,13 +137,13 @@ Closing goals differs depending on what environment you use.
    >If the goal has contributing goals that are still active, the progress of the goal continues to update based on the progress of the aligned goals.
    >
    >
-   >![](assets/closing-goals-with-active-aligned-goals-warning-350x71.png)   >
+   >![Closing goals with active aligned goals](assets/closing-goals-with-active-aligned-goals-warning-350x71.png)   >
    >
 
 1. (Optional) Modify your filters again to display only closed goals. The goals you closed display on the screen.
 -->
 
-1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png) > **目标**。
+1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png) > **目标**。
 
    此时将打开“目标列表”。
 
@@ -157,17 +157,17 @@ Closing goals differs depending on what environment you use.
 
    此时将打开目标页面。
 
-   ![](assets/goal-page-unshimmed.png)
-1. 单击目标名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)，然后单击&#x200B;**关闭**。
+   ![目标页面](assets/goal-page-unshimmed.png)
+1. 单击目标名称右侧的&#x200B;**更多**&#x200B;菜单![更多图标](assets/more-icon.png)，然后单击&#x200B;**关闭**。
 
    目标关闭，您将收到屏幕右上角的确认消息。
 
-   ![](assets/goal-close-confirmation-with-add-closing-notes-link.png)
+   ![目标关闭确认](assets/goal-close-confirmation-with-add-closing-notes-link.png)
 
 1. （可选）在确认框中，单击&#x200B;**添加关闭注释**&#x200B;以添加有关此目标的注释以及需要关闭该目标的原因。
 1. 添加结束备注，然后单击&#x200B;**添加备注**。
 
-   ![](assets/add-closing-notes-box-unshimmed.png)
+   ![添加结束备注框](assets/add-closing-notes-box-unshimmed.png)
 
    备注显示在目标页面的“目标详细信息”部分的“结束备注”区域。
 
@@ -185,7 +185,7 @@ Reopening goals differs depending on what environment you use.
 
 ### Reopen goals in the Production environment
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -201,7 +201,7 @@ Reopening goals differs depending on what environment you use.
 
    This opens the Goal Details panel on the right. 
 
-1. Click the **More icon** ![](assets/more-icon.png) to the right of the goal name, then click **Reopen** > **Reopen**.
+1. Click the **More icon** ![More icon](assets/more-icon.png) to the right of the goal name, then click **Reopen** > **Reopen**.
 
    This reopens the goal and places it in a status of Active. The progress of the goal is recalculated starting with the current date. 
 
@@ -209,7 +209,7 @@ Reopening goals differs depending on what environment you use.
 
 -->
 
-1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)> **目标**。
+1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)> **目标**。
 
    此时将打开“目标列表”。
 
@@ -222,7 +222,7 @@ Reopening goals differs depending on what environment you use.
 1. 单击已关闭目标的名称。
 
    此时将打开目标页面。
-1. 单击目标名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)，然后&#x200B;**重新打开** > **重新打开**。
+1. 单击目标名称右侧的&#x200B;**更多**&#x200B;菜单![更多图标](assets/more-icon.png)，然后单击&#x200B;**重新打开** > **重新打开**。
 
    出现以下情况：
    * 目标现在处于打开状态，且状态为“活动”。
