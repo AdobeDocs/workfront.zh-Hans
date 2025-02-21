@@ -6,9 +6,9 @@ description: 创建画布功能板后，您可以向其添加报表，这些报�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 840f2e1f-592f-44c1-b2e9-7201e424209a
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 1. 在出现的&#x200B;**添加报告**&#x200B;窗口中，单击要添加到画布信息板中的报告类型下方的&#x200B;**添加**。
 
-1. 根据您选择的报告类型继续设置报告。 有关设置每种报告类型的详细信息，请参阅[画布仪表板报告类型](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)。 如果在完成设置之前关闭该窗口，则仍会向画布功能板添加一个空报表。 您稍后可以通过单击空报告中心的&#x200B;**配置**&#x200B;按钮完成设置。
+1. 根据您选择的报告类型继续设置报告。 <!--For detailed information about setting up each type of report, see [Canvas Dashboard report types](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md).-->如果在完成设置之前关闭窗口，则仍会向画布仪表板添加一个空报告。 您稍后可以通过单击空报告中心的&#x200B;**配置**&#x200B;按钮完成设置。
 
 ## 在画布功能板中移动报表或调整报表大小
 

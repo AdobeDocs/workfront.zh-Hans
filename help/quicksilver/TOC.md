@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: 34fe190983a165a69f9dfbb49f619e84f6216fa8
 workflow-type: tm+mt
-source-wordcount: '13034'
+source-wordcount: '13007'
 ht-degree: 2%
 
 ---
@@ -1487,10 +1487,10 @@ ht-degree: 2%
       * 画布仪表板报告类型{#report-types}
          * [画布功能板报表类型概述](reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
          * [将现有报表添加到画布功能板](reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
-         * [在画布功能板中构建KPI报告](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
-         * [在画布功能板中构建图表报告](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
-         * [在画布功能板中构建表报告](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
-         * [将待处理审批报告添加到画布功能板](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)
+        <!--* [Build a KPI report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
+      * [Build a chart report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
+      * [Build a table report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
+      * [Add a pending approvals report to a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)-->
    * 报告 {#reports}
       * [报告](reports-and-dashboards/reports/reports-overview.md)
       * 报告基本信息{#report-basics}
@@ -2062,7 +2062,7 @@ ht-degree: 2%
       * [管理记录页面布局](planning/records/manage-the-record-page.md)
       * [管理Adobe Workfront对象“计划”部分中的记录](planning/records/manage-records-in-planning-section.md)
       * [导出记录的详细信息](planning/records/export-the-record-page.md)
-      * [从Workfront Planning创建Workfront对象](planning/records/create-workfront-objects-from-workfront-planning.md)
+      * [在将Workfront对象连接到记录时，从Workfront Planning创建这些对象](planning/records/create-workfront-objects-from-workfront-planning.md)
       * [使用Workfront Planning记录自动化创建对象](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
    * Adobe Workfront计划请求{#adobe-workfront-planning-requests}
       * [Adobe Workfront规划请求：文章索引](planning/requests/requests-article-index.md)

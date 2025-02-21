@@ -6,9 +6,9 @@ description: 您可以通过添加或删除项目链接来修改现有日历。 
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -62,9 +62,11 @@ ht-degree: 0%
 
 {{step1-to-calendars}}
 
-1. （可选）要更改日历报表的名称，请单击[!UICONTROL 日历名称]字段，然后进行所需的更改。
+1. （可选）要更改日历报表的名称，请单击[!UICONTROL 日历名称]字段，然后进行所需的更改。 我们建议仅使用UTF-8字符以避免兼容性问题。
+
    ![更改报表名称](assets/titlechange-250x230.png)
-如果您已与其他用户或团队共享日历报告，则修改的日历名称会自动更新其日历视图。
+
+   如果您已与其他用户或团队共享日历报告，则修改的日历名称会自动更新其日历视图。
 
 1. （可选）要将项目添加到日历报表，请执行以下操作：
 

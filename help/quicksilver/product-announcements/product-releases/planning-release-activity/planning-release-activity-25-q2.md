@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '1093'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,56 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 新表达式已添加到公式字段
+
+>[!NOTE]
+>
+>预览版本： 2025年2月20日；适用于所有客户的生产版本： 2025年2月20日
+
+我们已在公式字段中添加了JSONELEMENT表达式。 此表达式通过提供的JSONPath从JSON返回数据。
+
+有关信息，请参阅[公式字段概述](/help/quicksilver/planning/fields/formula-fields.md)。
+
+## 记录的详细信息预览或页面中的实时状态指示器
+
+>[!NOTE]
+>
+>预览版本： 2025年2月20日；用于快速发布的生产：用于25.3版（2025年3月）；用于季度发布的生产：用于25.4版（2025年4月）
+
+为了了解其他用户在使用记录的预览或详细信息页面时编辑了哪些信息，我们为Workfront Planning的此区域引入了实时在线状态指示器。
+
+由其他用户编辑的字段现在将突出显示，并且您将在预览或详细信息页面的右上角看到其他用户的头像。
+
+有关信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
+
+## 增强了在将Workfront对象连接到Planning记录时创建这些对象的功能
+
+>[!NOTE]
+>
+>预览版本： 2025年2月20日；用于快速发布的生产：用于25.3版（2025年3月）；用于季度发布的生产：用于25.4版（2025年4月）
+
+现在，当您将项目、项目组合和程序连接到现有连接字段中的记录时，可以轻松创建它们。
+
+此改进提供了以下功能：
+
+* 在连接到Planning记录、Workfront项目、项目组合或其他Planning记录时显示一个持久的“添加”按钮
+
+* 能够使用连接字段中的持久添加按钮添加程序并将它们与项目组合关联。
+
+有关信息，请参阅[从Workfront Planning创建Workfront对象](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)。
+
+## 配置自动化以根据现有记录创建对象和记录
+
+>[!NOTE]
+>
+>预览版本： 2025年2月20日；用于快速发布的生产：用于25.3版（2025年3月）；用于季度发布的生产：用于25.4版（2025年4月）
+
+作为工作区管理员，您现在可以配置记录类型的自定义自动化，以自动创建连接的Workfront对象或Planning记录。
+
+创建的对象或记录立即连接到配置和触发自动化的记录。
+
+有关信息，请参阅[使用Adobe Workfront Planning记录自动化创建对象](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)。
 
 ## 检查和确认AI助手执行的操作
 
@@ -41,18 +91,6 @@ ht-degree: 0%
 Workfront公式字段中现在提供以下表达式：ARRAY、ARRAYLENGTH、ARRAYELEMENT。 公式编辑器中提供了每个表达式的定义和示例。
 
 有关信息，请参阅[公式字段概述](/help/quicksilver/planning/fields/formula-fields.md)。
-
-<!--## Real-time presence indicators in a record's details preview or page
-
->[!NOTE]
->
->Preview release: January 30, 2025; Production for fast release: With the 25.2 release (February 2025); Production for quarterly release: With the 25.4 release (April 2025)
-
-To understand what information is edited by other users when working in a record's preview or details page, we have introduced real-time presence indicators for this area of Workfront Planning.
-
-The field edited by another user will now be highlighted, and other users' avatars will be visible to you in the upper-right corner of the preview or details page.
-
-For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).-->
 
 ## 与团队、职位角色和公司共享Workfront Planning项目
 

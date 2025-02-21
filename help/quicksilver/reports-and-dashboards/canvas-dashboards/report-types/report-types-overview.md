@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: d593a9d5-6351-48ff-891d-cc1b727188bc
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
@@ -23,10 +23,10 @@ ht-degree: 0%
 您可以将许多不同的报表添加到画布功能板，以不同的方式可视化您的Workfront数据。 可以将以下类型的报表添加到画布功能板：
 
 * 现有报表（使用报告工具创建的报表）
-* 图表报表（包括条形图、柱状图、折线图和饼图）
-* KPI报表
-* 表格报表
-* 待定审批报告
+<!--* Chart reports (includes bar, column, line, and pie charts)
+* KPI reports 
+* Table reports
+* Pending approvals reports-->
 
 有关在画布功能板上添加和排列报表的一般信息，请参阅[在画布功能板上添加、删除或排列报表](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)。 有关添加和格式化特定报表类型的更多详细信息，请参阅下面的文章索引。
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 本节包含以下文章：
 
 * [将现有报表添加到画布功能板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
-* [在画布功能板中构建KPI报告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
-* [在画布功能板中构建图表报告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
-* [在画布功能板中构建表报告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
-* [将待处理审批报告添加到画布功能板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)
+<!--* [Build a KPI report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
+* [Build a chart report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
+* [Build a table report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
+* [Add a pending approvals report to a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)-->

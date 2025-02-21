@@ -6,9 +6,9 @@ description: 您可以直接从报表将报表添加到新的或现有的功能�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 42d5945d-66c5-430b-8a37-dca9c2973716
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!-- Audited: 1/2025 -->
 
-您可以直接从报表将报表添加到新的或现有的功能板。 您还可以将现有报告添加到信息板，如[创建信息板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)中所述。
+您可以直接从报表将报表添加到新的或现有的功能板。 您还可以将现有报告添加到信息板，如[创建信息板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)中所述。 请注意，最多可以将25个报告、日历或外部页面添加到单个功能板。
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 必须先创建报告，然后才能将其添加到功能板。
 
-有关创建报告的信息，请参阅[创建报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)。
+有关创建报告的信息，请参阅[创建报告](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)。
 
 ## 将报告添加到现有信息板
 
