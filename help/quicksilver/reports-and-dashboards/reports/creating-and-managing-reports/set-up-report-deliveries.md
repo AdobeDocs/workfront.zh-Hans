@@ -6,9 +6,9 @@ description: 报表交付概述
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: a2cb33150ae50b00485f894dc81d7c719524a182
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1534'
 ht-degree: 0%
 
 ---
@@ -141,7 +141,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果报告有说明，如果文件格式为PDF或HTML文件，则将其包含在导出的文件中。
+>如果报告有说明，并且文件格式为PDF或HTML文件，则该报告将包含在导出的文件中。
 
 ### 时间戳 {#timestamps}
 
@@ -167,7 +167,7 @@ ht-degree: 0%
 
 如果报表在Web应用程序中具有特殊格式，则在仅针对.pdf和Excel文件交付“详细信息”和“矩阵”选项卡时，应使用特殊格式交付报表。
 
-报告的过滤器、视图或分组不包含在传送的文件中。 仅当以PDF文件形式发送报告时，才会包含报告的描述。
+报告的过滤器、视图或分组不包含在传送的文件中。 仅当以PDF文件形式发送报表时，才会包含报表的描述。
 
 有关以特殊视图接收报告的详细信息，请参阅文章[具有特殊视图的报告](#reports-with-a-special-view)。\
 有关选择报表的默认选项卡以及特殊格式设置的详细信息，请参阅[创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
@@ -189,7 +189,7 @@ ht-degree: 0%
 
 * 报表对象的&#x200B;**筛选器**：使用以下语句在报表列表或报表报表中创建筛选器： *计划报表ID不为空*。\
   这将仅显示在您的列表或报告中安排的报告。\
-  ![](assets/qs-scheduled-report-filter-350x101.png)\
+  ![计划报告筛选器](assets/qs-scheduled-report-filter-350x101.png)\
   有关创建报告的详细信息，请参阅[创建自定义报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。 有关创建报告的信息，请参阅[创建报告活动报告](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)。
 
 <!--

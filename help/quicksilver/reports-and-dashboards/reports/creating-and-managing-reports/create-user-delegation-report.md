@@ -7,9 +7,9 @@ description: 创建用户委派报告
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '333'
 ht-degree: 2%
 
 ---
@@ -83,11 +83,11 @@ ht-degree: 2%
 
 ## 创建用户委派报告
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**报表**。
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**报表**。
 
 1. 单击&#x200B;**新建报告**，然后选择&#x200B;**用户委派**。
 
-   ![](assets/classic-new-report-user-delegation-350x644.png)
+   ![新报告用户委派](assets/classic-new-report-user-delegation-350x644.png)
 
    默认情况下，此报表中显示以下字段：
 

@@ -6,9 +6,9 @@ description: 查看报告使用情况
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 51d9067c-8c55-433e-b560-7da241ef33ae
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1011'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 ## 在报告列表视图中显示报告使用情况信息
 
-1. 单击Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**报表**。
+1. 单击Workfront右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**报表**。
 
 1. 在报表列表中，单击&#x200B;**查看**&#x200B;下拉菜单。
 1. （可选）选择&#x200B;**报告使用情况**&#x200B;视图以显示最常见的报告使用情况信息。\
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 ## 按使用情况信息过滤报表列表 {#filter-a-report-list-by-usage-information}
 
-1. 单击Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**报表**。
+1. 单击Workfront右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**报表**。
 1. 在报表列表中，单击&#x200B;**筛选器**&#x200B;下拉菜单。
 1. 单击&#x200B;**新建筛选器**，然后单击&#x200B;**添加筛选器规则**。
 1. 开始键入以下任何字段，并在这些字段出现在&#x200B;**Report**&#x200B;对象下的列表中时将其选中，以将其添加为新的筛选规则：
@@ -112,7 +112,7 @@ ht-degree: 0%
    * **上次查看日期**：显示上次查看报告的日期
 
 1. 为您的字段选择修饰符，然后在出现提示时指定一个值。\
-   ![](assets/qs-report-usage-filter-statistics-350x150.png)
+   ![报告使用情况过滤器统计数据](assets/qs-report-usage-filter-statistics-350x150.png)
 
 1. 单击&#x200B;**保存筛选器**。\
    这将显示符合您定义的使用情况信息的报告列表。\

@@ -6,9 +6,9 @@ description: 您可以按对象上存在的日期的时间范围过滤报表。 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1024'
 ht-degree: 4%
 
 ---
@@ -70,14 +70,14 @@ ht-degree: 4%
 
 ## 按日期的时间范围筛选报表 {#filter-a-report-by-the-time-frame-of-a-date}
 
-1. 单击&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**报表**。
+1. 单击&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**报表**。
 
 1. 单击&#x200B;**新建报告**，然后选择所需的报告类型。\
    例如，选择&#x200B;**小时报告**。
 
 1. 选择&#x200B;**筛选器**&#x200B;选项卡。
 1. 单击&#x200B;**添加筛选器规则**，然后选择&#x200B;**小时输入日期**。\
-   ![](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
+   ![按时间范围过滤小时报告](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
 
 1. 在下列下拉菜单中，选择以下任一选项：
 

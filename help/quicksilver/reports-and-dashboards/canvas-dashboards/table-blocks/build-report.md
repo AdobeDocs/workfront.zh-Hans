@@ -4,9 +4,9 @@ description: 在报告画布中构建报告
 hidefromtoc: true
 hide: true
 exl-id: eac210d8-0e25-4aae-94f4-b26a81240482
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ ht-degree: 0%
 >
 >当您在报表中构建和编辑块时，会自动保存所有更改。
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**报表**。
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**报表**。
 1. 单击&#x200B;**新建报告**。
 1. 在编辑画布的左上角，键入报表的名称。
 
-   您可以随时更改报表的名称，方法是单击报表名称旁边的&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)。
+   您可以随时更改报表的名称，方法是单击报表名称旁边的&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
 
 1. 从屏幕右侧，将要添加的块拖动到画布上。
 

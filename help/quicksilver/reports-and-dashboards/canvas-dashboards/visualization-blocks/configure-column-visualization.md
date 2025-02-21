@@ -4,9 +4,9 @@ description: 在报告画布中配置列可视化
 hidefromtoc: true
 hide: true
 exl-id: 5a0cdcd4-b44b-4a63-964e-1c570cd9ff77
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '327'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 2%
 
 1. 首先，向报表中添加可视化类型为&#x200B;**列**&#x200B;的可视化块，如[在报表画布](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md)中添加或编辑可视化块中所述。
 
-1. 单击可视化右上角的“编辑可视化”图标![](assets/edit-icon.png)，然后执行以下任一操作。
+1. 单击可视化右上角的“编辑可视化”图标![编辑图标](assets/edit-icon.png)，然后执行以下任一操作。
 
    1. 在&#x200B;**设置**&#x200B;选项卡上：
 

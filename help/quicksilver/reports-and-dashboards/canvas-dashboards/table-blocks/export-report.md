@@ -4,9 +4,9 @@ description: 在报告画布中导出报告
 hidefromtoc: true
 hide: true
 exl-id: bd9e2e6f-338e-4cfc-aee5-6de6ecff4f09
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '183'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 2%
 ## 导出报告
 
 1. 导航到要导出的报告。
-1. 在报表标题中，单击&#x200B;**更多**&#x200B;图标![](assets/more-icon-27x15.png)，单击&#x200B;**导出**，然后选择要创建的文件格式。
+1. 在报表标题中，单击&#x200B;**更多**&#x200B;图标![更多](assets/more-icon-27x15.png)，单击&#x200B;**导出**，然后选择要创建的文件格式。
 
    >[!NOTE]
    >

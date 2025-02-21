@@ -6,9 +6,9 @@ description: 此页面上的信息介绍了仅在“预览”和“自定义刷�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 568360df-bec9-4767-8b5a-32a294d05d47
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 有关从沙盒环境启用电子邮件的信息，请参阅[从预览沙盒环境启用电子邮件投放](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md)。
 
-![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+![从沙盒接收电子邮件选项](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
 在“预览”环境中计划报表交付的过程与在“生产”环境中计划报表的过程相同。 有关计划报表提交的信息，请参阅[报表提交概述](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)。
 
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 有关从预览环境启用电子邮件的信息，请参阅[修改自己的电子邮件通知](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)一文中的[查看和修改电子邮件通知设置](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view)部分。
 
-![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+![从沙盒接收电子邮件选项](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
 在自定义刷新沙盒环境中计划报表的提交与在生产环境中计划报表相同。 有关计划报表提交的信息，请参阅[报表提交概述](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)。
 

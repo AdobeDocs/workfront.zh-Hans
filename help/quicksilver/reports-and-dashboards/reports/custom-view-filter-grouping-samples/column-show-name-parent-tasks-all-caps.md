@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '视图：将父任务的名称显示为全部大写字母'
+title: 视图：将父任务的名称显示为全部大写字母
 description: 您可以将此列添加到任务视图，以所有大写字母显示父级任务的名称。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bb489920-6b17-4689-b432-b0c28bcb5d10
-source-git-commit: a7cdee912e5047f1c8ef224aff6a41eaa3633df6
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 您可以将此列添加到任务视图，以所有大写字母显示父级任务的名称。
 
-![](assets/column-task-with-all-caps-parent-350x112.png)
+父任务全部大写的![列](assets/column-task-with-all-caps-parent-350x112.png)
 
 ## 访问要求
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 要在任务视图中构建此列，请执行以下操作：
 
 1. 转到任务列表。
-1. 从&#x200B;**视图**&#x200B;下拉菜单中，选择一个视图，然后单击&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)。
+1. 从&#x200B;**视图**&#x200B;下拉菜单中，选择一个视图，然后单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
 或\
    从&#x200B;**视图**&#x200B;下拉菜单中，选择&#x200B;**新建视图**。
 

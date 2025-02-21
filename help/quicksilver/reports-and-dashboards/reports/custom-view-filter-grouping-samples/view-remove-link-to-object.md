@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '查看：删除列中对象的链接'
+title: 视图：删除列中对象的链接
 description: 默认情况下，显示在视图链接中的某些对象将指向对象的“详细信息”页面。 例如，显示项目名称的列是指向项目的链接；显示用户名称的列是指向用户配置文件页面的链接。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 08264437-f12d-43fa-8cb4-264806c6479b
-source-git-commit: 17a277a5a63a521ec7285e3f5051bfd42fc204bf
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 0%
 
    或
 
-   单击&#x200B;**编辑图标** ![](assets/edit-icon.png)
+   单击&#x200B;**编辑图标** ![编辑图标](assets/edit-icon.png)
 
    要编辑现有视图，请选择该视图。
 

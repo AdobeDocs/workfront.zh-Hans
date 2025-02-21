@@ -6,9 +6,9 @@ description: 您可以通过添加图表来增强报表。 可以将图表添加
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '2734'
+source-wordcount: '2747'
 ht-degree: 0%
 
 ---
@@ -277,11 +277,11 @@ ht-degree: 0%
 
    例如，如果您在任务报告中选择了&#x200B;**项目名称**，则可以添加&#x200B;**任务状态**&#x200B;作为&#x200B;**气泡颜色**&#x200B;字段。
 
-   ![](assets/bubbles-field-correct-can-select-bubbles-color-example.png)
+   ![任务状态为气泡颜色](assets/bubbles-field-correct-can-select-bubbles-color-example.png)
 
    但是，如果您为&#x200B;**气泡**&#x200B;字段选择了&#x200B;**任务状态**，则无法选择&#x200B;**气泡颜色**&#x200B;字段。 此外，您无法为&#x200B;**气泡颜色**&#x200B;字段选择&#x200B;**项目名称**，即使您为&#x200B;**气泡颜色**&#x200B;字段选择&#x200B;**项目名称**&#x200B;也是如此。
 
-   ![](assets/bubbles-field-wrong-cannot-select-bubbles-color-example.png)
+   ![无法选择气泡颜色](assets/bubbles-field-wrong-cannot-select-bubbles-color-example.png)
 
 1. 单击&#x200B;**保存+关闭**&#x200B;以将更改保存到界面生成器。
 
@@ -304,7 +304,7 @@ ht-degree: 0%
 
 1. 如果此字段可用，请单击&#x200B;**自定义颜色**。\
    将显示“自定义颜色”对话框。\
-   ![](assets/unshimmed-custom-colors-in-charts.png)
+   ![图表中的自定义颜色](assets/unshimmed-custom-colors-in-charts.png)
 
    >[!NOTE]
    >

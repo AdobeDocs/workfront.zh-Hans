@@ -6,9 +6,9 @@ description: 您可以使用Adobe Workfront中的报表来查看或编辑有关�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a444d863-12a8-43d0-ae84-ee24863ad87b
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 要访问已创建、已与您共享或公开共享的报告，请执行以下操作：
 
-1. 从&#x200B;**主菜单** ![](assets/main-menu-icon.png)中，单击&#x200B;**报表**。
+1. 从&#x200B;**主菜单** ![主菜单图标](assets/main-menu-icon.png)中，单击&#x200B;**报表**。
 
 1. 根据要查看的报告，单击以下选项之一：
 
@@ -67,10 +67,10 @@ ht-degree: 0%
 
 ### 为报告创建新文件夹 {#create-a-new-folder-for-reports}
 
-1. 从&#x200B;**主菜单** ![](assets/main-menu-icon.png)中，单击&#x200B;**报表**。
+1. 从&#x200B;**主菜单** ![主菜单图标](assets/main-menu-icon.png)中，单击&#x200B;**报表**。
 
 1. 单击&#x200B;**新建文件夹**&#x200B;图标。\
-   ![](assets/nwe-new-folder-350x346.png)
+   ![新建文件夹图标](assets/nwe-new-folder-350x346.png)
 
 1. 指定新文件夹的名称，然后按Enter键。
 1. 从&#x200B;**我的报表**&#x200B;文件夹，将报表添加到新文件夹。\
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 ### 将报表添加到文件夹 {#add-reports-to-a-folder}
 
-1. 从&#x200B;**主菜单** ![](assets/main-menu-icon.png)中，单击&#x200B;**报表**。
+1. 从&#x200B;**主菜单** ![主菜单图标](assets/main-menu-icon.png)中，单击&#x200B;**报表**。
 
 1. 单击&#x200B;**我的报表**。\
    或\
@@ -94,4 +94,4 @@ ht-degree: 0%
    >
    >您只能将报告从&#x200B;**我的报告**&#x200B;文件夹移到&#x200B;**我的报告**&#x200B;下的其他嵌套文件夹。 不能将报告从或移到&#x200B;**与我共享**&#x200B;或&#x200B;**所有报告**&#x200B;文件夹，也不能将报告移到/移出其他文件夹。
 
-   ![](assets/nwe-drag-report-to-folder-350x292.png)
+   ![将报告拖到文件夹](assets/nwe-drag-report-to-folder-350x292.png)

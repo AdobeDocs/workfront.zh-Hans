@@ -4,9 +4,9 @@ description: 在报告画布中添加或编辑表块
 hidefromtoc: true
 hide: true
 exl-id: d706659c-457f-4da0-a6e7-03ea29cab700
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -21,20 +21,20 @@ ht-degree: 0%
 
 ## 添加或编辑表块
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**报表**。
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**报表**。
 1. 单击&#x200B;**新建报告**。
 
    或
 
-   转到现有报表，单击报表标题中的&#x200B;**更多**&#x200B;图标![](assets/more-icon-27x15.png)，然后单击&#x200B;**编辑**。
+   转到现有报表，单击报表标题中的&#x200B;**更多**&#x200B;图标![更多图标](assets/more-icon-27x15.png)，然后单击&#x200B;**编辑**。
 
 1. 在屏幕右侧的&#x200B;**添加块**&#x200B;下：
 
-   将&#x200B;**表**&#x200B;图标![](assets/table-icon.png)直接拖到画布上所需的位置。
+   将&#x200B;**表**&#x200B;图标![表图标](assets/table-icon.png)直接拖到画布上所需的位置。
 
    或
 
-   双击&#x200B;**表**&#x200B;图标![](assets/table-icon.png)以将表添加到画布顶部。
+   双击&#x200B;**表**&#x200B;图标![表图标](assets/table-icon.png)以将表添加到画布顶部。
 
    >[!TIP]
    >
@@ -42,14 +42,14 @@ ht-degree: 0%
 
 1. 在表标题中单击&#x200B;**无标题的表**，然后键入该表的标题。
 
-   ![](assets/table-name-350x142.png)
+   ![表名](assets/table-name-350x142.png)
 
 1. 单击表块中心的&#x200B;**编辑**&#x200B;以配置表。
 
    >[!NOTE]
    >
-   >如果表已经是画布的一部分（例如在编辑现有报告时），**编辑**&#x200B;按钮不会显示在块的中央。 要编辑该表，请改为单击表标题中的&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)。
-   >![](assets/edit-icon-table-header-350x71.png)
+   >如果表已经是画布的一部分（例如在编辑现有报告时），**编辑**&#x200B;按钮不会显示在块的中央。 要编辑该表，请改为单击表标题中的&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
+   >![在表标题中编辑图标](assets/edit-icon-table-header-350x71.png)
 
 1. 在右侧的&#x200B;**字段**&#x200B;面板中，找到要作为列添加到表中的字段，然后将其拖动到所需位置，或双击该字段以将其添加为表中的最后一列。
 

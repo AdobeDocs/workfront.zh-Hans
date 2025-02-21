@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '分组：编辑分组中的显示名称'
+title: 分组：编辑分组中的显示名称
 description: 可将列表和报告中的分组重命名为用户更熟悉的类型。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 072d3c2b-9ede-4bb9-9a27-dc77ceb732c4
-source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 您可以将分组重命名为用户更熟悉的分组。
 
-例如，将标准Portfolio名称分组应用于项目列表时，分组的名称显示为&#x200B;*Portfolio：名称：`<name of portfolio>`*。
+例如，将标准Portfolio名称分组应用于项目列表时，分组的名称将显示为&#x200B;*Portfolio：名称：`<name of portfolio>`*。
 
-![](assets/grouping-unedited-name-350x167.png)
+![按未编辑的名称分组](assets/grouping-unedited-name-350x167.png)
 
 您可以使用文本模式修改此分组，以显示更易于阅读的名称。
 
-![](assets/grouping-edited-name-350x160.png)
+![按编辑后的名称分组](assets/grouping-edited-name-350x160.png)
 
 ## 访问要求
 
@@ -103,7 +103,7 @@ ht-degree: 0%
      >您还可以将`group.0.name=`和`group.0.displayname=`行保留为空，在这种情况下，分组将显示您作为分组依据的值。
 
 
-     ![](assets/grouping-edited-name-no-name-350x162.png)
+     ![按无名称的已编辑名称分组](assets/grouping-edited-name-no-name-350x162.png)
 
 1. 单击&#x200B;**完成**，然后单击&#x200B;**保存分组**。
 1. （可选）更新分组名称，然后单击&#x200B;**保存分组**。

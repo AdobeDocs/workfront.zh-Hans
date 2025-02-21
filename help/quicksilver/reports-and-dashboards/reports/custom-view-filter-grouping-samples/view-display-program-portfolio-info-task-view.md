@@ -2,25 +2,25 @@
 content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '视图：在任务视图中显示程序和Portfolio信息'
+title: 视图：在任务视图中显示项目群和Portfolio信息
 description: 此任务视图显示与任务项目关联的项目群和Portfolio。 在构建任务视图时，此信息在Report Builder中不可用。 此信息仅在文本模式下可用。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cdd5a1e9-3cbf-4951-b803-fca544b2519a
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
 
-# 视图：在任务视图中显示程序和Portfolio信息
+# 视图：在任务视图中显示项目群和Portfolio信息
 
 此任务视图显示与任务项目关联的项目群和Portfolio。 在构建任务视图时，此信息在Report Builder中不可用。 此信息仅在文本模式下可用。
 
-该视图还提供指向任务列表中的项目、项目群和Portfolio的链接。
+该视图还提供了从任务列表指向项目、项目群和Portfolio的链接。
 
-![](assets/view--program-and-portfolio-350x116.png)
+![查看项目和项目组合](assets/view--program-and-portfolio-350x116.png)
 
 ## 访问要求
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 +++
 
-## 在任务视图中显示程序和Portfolio信息
+## 在任务视图中显示项目群和Portfolio信息
 
 1. 转到任务列表。
 1. 从&#x200B;**视图**&#x200B;下拉菜单中，选择&#x200B;**新建视图**。

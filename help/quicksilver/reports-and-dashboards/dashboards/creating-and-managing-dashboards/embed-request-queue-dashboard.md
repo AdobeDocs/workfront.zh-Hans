@@ -6,9 +6,9 @@ description: 您可以将新请求队列嵌入到功能板中，以便让用户�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1150'
 ht-degree: 1%
 
 ---
@@ -100,7 +100,7 @@ ht-degree: 1%
 
    当在屏幕上显示时，这会复制指向请求队列或队列主题的链接。 用户可以更新请求类型或任何可用的主题组和队列主题。
 
-   ![](assets/share-request-queue-with-share-path-link-embedded-in-dashboard-nwe-350x116.png)
+   ![具有共享路径的请求队列](assets/share-request-queue-with-share-path-link-embedded-in-dashboard-nwe-350x116.png)
 
 ### 获取请求队列的链接以及更改请求类型的功能 {#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type}
 
@@ -121,7 +121,7 @@ ht-degree: 1%
 
    用户可以选择所需的任何主题组或队列主题，也可以选择其他请求类型。
 
-   ![](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
+   ![请求队列URL](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
 
 ### 获取指向无法更改请求类型的请求队列的链接 {#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type}
 
@@ -150,7 +150,7 @@ ht-degree: 1%
 
    用户可以为所选请求类型选择所需的任何主题组或队列主题。 用户无法选择其他请求类型。
 
-   ![](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
+   ![请求队列代码](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
 
 ## 在功能板中嵌入请求队列
 
@@ -164,7 +164,7 @@ ht-degree: 1%
 
 1. 单击&#x200B;**添加外部页面**。
 
-   ![](assets/add-external-page-highlighted---nwe-350x214.png)
+   ![外部页面](assets/add-external-page-highlighted---nwe-350x214.png)
 
 1. 在&#x200B;**添加外部页面**&#x200B;框中，编辑以下字段：
 

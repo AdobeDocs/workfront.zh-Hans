@@ -6,9 +6,9 @@ description: 如果不再需要某个外部页面，您可以从功能板中删�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9e400b8a-bbb8-4d1f-b419-d4a4518c0b2e
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -69,11 +69,11 @@ ht-degree: 0%
 
 1. 单击&#x200B;**仪表板操作**，然后单击&#x200B;**编辑**。
 
-   ![](assets/unshimmed-edit-dashboard.png)
+   ![编辑仪表板](assets/unshimmed-edit-dashboard.png)
 
-1. 在屏幕右侧，找到要删除的外部页面，然后单击&#x200B;**删除**&#x200B;图标![](assets/delete.png)。
+1. 在屏幕右侧，找到要删除的外部页面，然后单击&#x200B;**删除**&#x200B;图标![删除图标](assets/delete.png)。
 
-   ![](assets/delete-external-page-icon-inside-dashboard-nwe-350x284.png)
+   ![删除仪表板中的外部页面图标](assets/delete-external-page-icon-inside-dashboard-nwe-350x284.png)
 
 1. 单击左下角的&#x200B;**保存+关闭**。
 

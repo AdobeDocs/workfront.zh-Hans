@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '视图：合并来自一个共享列中多个列的信息'
+title: 视图：合并一个共享列中多个列的信息
 description: 您可以合并显示在多个单独列中的信息，并将其显示在一个共享列中。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: 8c51f8acbe4cefc2404709d9b52c2fe5ec3c7fca
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1091'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ ht-degree: 0%
 要合并两列不带换行符的数据，请执行以下操作：
 
 1. 转到对象列表。
-1. 从&#x200B;**视图**&#x200B;下拉列表中选择一个视图，然后单击&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)以编辑该视图。
+1. 从&#x200B;**视图**&#x200B;下拉列表中选择一个视图，然后单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)以编辑该视图。
 1. 转到要合并的第一个列，然后单击&#x200B;**切换到文本模式** > **编辑文本模式**。
 1. 将以下文本添加到要合并的第一列：
 
@@ -121,7 +121,7 @@ ht-degree: 0%
    column.3.valueformat=HTML
    ```
 
-   ![](assets/shared-column-no-line-breaks-350x142.png)
+   ![共享不含换行符的列](assets/shared-column-no-line-breaks-350x142.png)
 
 
 1. 单击&#x200B;**完成**，然后单击&#x200B;**保存视图**。
@@ -131,7 +131,7 @@ ht-degree: 0%
 执行以下操作可合并多列数据，以将其显示在一个公用列中，并在每列的值之间使用换行符：
 
 1. 转到对象列表。
-1. 从&#x200B;**视图**&#x200B;下拉列表中选择一个视图，然后单击&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)以编辑该视图。
+1. 从&#x200B;**视图**&#x200B;下拉列表中选择一个视图，然后单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)以编辑该视图。
 1. 在要合并的两列之间添加第三列。
 
    >[!TIP]
@@ -182,6 +182,6 @@ ht-degree: 0%
    column.5.valueformat=HTML 
    ```
 
-   ![](assets/shared-column-with-line-breaks-350x199.png)
+   ![共享带有换行符的列](assets/shared-column-with-line-breaks-350x199.png)
 
 1. 单击&#x200B;**完成**，然后单击&#x200B;**保存视图**。

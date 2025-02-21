@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '筛选器：显示父级任务'
+title: 筛选器：显示父级任务
 description: 您可以应用下面的任务筛选器以显示工作任务。 工作任务是可以独立工作的任务，不是其他任务的父级任务。 在一个示例中，过滤器标识了可能是父任务的子任务。 在这种情况下，他们无法执行任务。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 4c3956e1-59e0-4bf2-8739-8064271d6281
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 可将以下过滤器应用于任务报告，以显示无子代的任务。 他们可以有自己的父母，也可以做其他工作的子女。
 
-1. 从右上角的&#x200B;**主菜单** ![](assets/main-menu-icon.png)或左上角的&#x200B;**主菜单** ![](assets/lines-main-menu.png)（如果可用），单击&#x200B;**报表**。
+1. 从右上角的&#x200B;**主菜单** ![主菜单图标](assets/main-menu-icon.png)或左上角的&#x200B;**主菜单** ![主菜单行](assets/lines-main-menu.png)（如果可用），单击&#x200B;**报表**。
 
 1. 单击&#x200B;**新建报告**。
 1. 选择&#x200B;**任务报告**。
@@ -79,7 +79,7 @@ ht-degree: 0%
 1. 在&#x200B;**开始键入字段名称……**&#x200B;行中，开始键入&#x200B;**子项数**，然后在子项数显示在列表中时单击&#x200B;**任务>>子项数**。
 
 1. 为您的修饰符选择&#x200B;**等于（区分大小写）**，然后为子项数输入&#x200B;**0**。\
-   ![](assets/parent-task-filter-from-the-ui-350x76.png)
+   ![父任务筛选器](assets/parent-task-filter-from-the-ui-350x76.png)
 
    或
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 
 您可以将以下过滤器应用于任务报告，以显示带有父级的任务，即父级任务为子级任务。 但是，这些任务也可能具有自己的子项，因为过滤器不排除其子项。 作为其他任务的父项的子项任务不被视为工作任务。
 
-1. 从右上角的&#x200B;**主菜单** ![](assets/main-menu-icon.png)或左上角的&#x200B;**主菜单** ![](assets/lines-main-menu.png)（如果可用），单击&#x200B;**报表**。
+1. 从右上角的&#x200B;**主菜单** ![主菜单图标](assets/main-menu-icon.png)或左上角的&#x200B;**主菜单** ![主菜单行](assets/lines-main-menu.png)（如果可用），单击&#x200B;**报表**。
 
 1. 单击&#x200B;**新建报告**。
 1. 选择&#x200B;**任务报告**。
@@ -108,7 +108,7 @@ ht-degree: 0%
 1. 在&#x200B;**开始键入字段名称……**&#x200B;行中，开始键入&#x200B;**父项ID**，然后在父项ID显示在列表时选择&#x200B;**任务>>父项ID**。
 1. 为您的修饰符选择&#x200B;**Is Not Blank**。
 
-   ![](assets/filter-parent-id-not-blank-350x100.png)
+   ![父ID不为空](assets/filter-parent-id-not-blank-350x100.png)
 
    或
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
 可将以下过滤器应用于任务报告，以显示独立的工作任务。 这些任务没有父项，也没有自己的子项。
 
-1. 从右上角的&#x200B;**主菜单** ![](assets/main-menu-icon.png)或左上角的&#x200B;**主菜单** ![](assets/lines-main-menu.png)（如果可用），单击&#x200B;**报表**。
+1. 从右上角的&#x200B;**主菜单** ![主菜单图标](assets/main-menu-icon.png)或左上角的&#x200B;**主菜单** ![主菜单行](assets/lines-main-menu.png)（如果可用），单击&#x200B;**报表**。
 
 1. 单击&#x200B;**新建报告**。
 1. 选择&#x200B;**任务报告**。
@@ -136,7 +136,7 @@ ht-degree: 0%
 1. 在&#x200B;**开始键入字段名称……**&#x200B;行开始键入&#x200B;**父ID**，然后从列表中选择&#x200B;**任务>>父ID**。
 1. 为修饰符选择&#x200B;**Is Blank**。
 
-   ![](assets/filter-parent-id-blank-and-zero-children-350x121.png)
+   ![父ID为空且没有子项](assets/filter-parent-id-blank-and-zero-children-350x121.png)
 
    或
 

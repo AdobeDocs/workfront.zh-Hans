@@ -6,9 +6,9 @@ description: 您可以将外部网页嵌入到功能板中，以提供对Adobe W
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1030'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >* 出于安全原因，某些网站不允许您将网页作为iframe嵌入。 如果要嵌入到仪表板中的网页不允许这样做，则该页面不会显示在仪表板中。 但是，您仍然可以通过单击功能板的名称来访问外部页面。\
->![](assets/qs-empty-external-page-report-350x165.png)\
+>![外部页面报告为空](assets/qs-empty-external-page-report-350x165.png)\
 >要允许嵌入您拥有的网站，请与Web管理员合作调整&#x200B;**X-Frame-Options**&#x200B;设置。 有关详细信息，请参阅[X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options)。
 >
 >
@@ -118,7 +118,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**选择布局/添加报告/添加日历**&#x200B;区域下的&#x200B;**添加外部页面**。
 
-   ![](assets/qs-add-external-page-350x239.png)
+   ![添加外部页面](assets/qs-add-external-page-350x239.png)
 
    显示&#x200B;**添加外部页面**&#x200B;框。
 
@@ -132,7 +132,7 @@ ht-degree: 0%
 
       * 指向网页的https（加密）URL。\
         只有使用URL加载的https（加密）页面。\
-        ![](assets/add-external-page-dialog-qs-350x247.png)
+        ![添加外部页面对话框](assets/add-external-page-dialog-qs-350x247.png)
 
       * 包含特定网站会话信息的模板URL。\
         例如：*https://localhost/?session={！$$SESSION}*
@@ -170,10 +170,10 @@ ht-degree: 0%
    将打开&#x200B;**仪表板详细信息**&#x200B;框。
 
 1. 在&#x200B;**仪表板详细信息**&#x200B;框的&#x200B;**选择布局/添加报告**&#x200B;区域中，找到要更新的外部页面，将鼠标悬停在其上方，然后单击&#x200B;**编辑**&#x200B;图标。\
-   ![](assets/nwe-inline-edit-external-page-350x226.png)
+   ![内联编辑外部页面](assets/nwe-inline-edit-external-page-350x226.png)
 
 1. 在&#x200B;**编辑外部页面**&#x200B;框中，更新要更改的字段，然后单击&#x200B;**保存**。
-1. （可选）单击&#x200B;**删除**&#x200B;图标![](assets/delete.png)以从仪表板中删除外部页面。 有关详细信息，请参阅[从功能板中删除外部页面](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)。
+1. （可选）单击&#x200B;**删除**&#x200B;图标![删除图标](assets/delete.png)以从仪表板中删除外部页面。 有关详细信息，请参阅[从功能板中删除外部页面](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)。
 1. 单击&#x200B;**保存+关闭**。
 
 ## 在报表中查看外部页面
@@ -184,7 +184,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**新建报表** >选择&#x200B;**外部节**。
 
-   ![](assets/external-page-new-report-in-dropdown-nwe.png)
+   ![外部节](assets/external-page-new-report-in-dropdown-nwe.png)
 
 1. （可选）更新报表的视图、过滤器或分组选项卡。
 

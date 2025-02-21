@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '报告：预算小时数'
-description: '报告：预算小时数'
+title: 报告：预算小时数
+description: 报告：预算小时数
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '670'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 1%
 >
 >预算小时数通常每小时在Adobe Workfront数据库中更新一次（在不常见情况下，最多可能需要三个小时）。 刷新报告不一定刷新其中的小时信息。 您可以在每个预算小时报表的右上角查看自上次更新以来经过的时间。 仅当自上次更新以来已超过一小时时，刷新报告才会刷新其中的信息。
 >
->![](assets/budgeted-hour-report-time-sync-warning-350x74.png)
+>![预算小时报告时间同步警告](assets/budgeted-hour-report-time-sync-warning-350x74.png)
 
 ## 访问要求
 
@@ -72,7 +72,7 @@ ht-degree: 1%
 
 ## 生成预算小时报告
 
-1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)或左上角的&#x200B;**主菜单**&#x200B;图标![](assets/lines-main-menu.png)（如果可用），然后单击&#x200B;**报表**。
+1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)或左上角的&#x200B;**主菜单**&#x200B;图标![主菜单行](assets/lines-main-menu.png)（如果可用），然后单击&#x200B;**报表**。
 
 1. 单击&#x200B;**新报告** > **更多** > **预算小时数**。
 

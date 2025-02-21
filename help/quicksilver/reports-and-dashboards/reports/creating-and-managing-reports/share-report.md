@@ -6,9 +6,9 @@ description: 在分配访问级别时，您的Adobe Workfront管理员会授予�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '823'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ ht-degree: 0%
 
    * **系统中的每个人都可以查看**&#x200B;选择此选项以便Workfront中有权访问报告的所有人都可以查看报告。
 
-1. （可选）单击共享框右上角的&#x200B;**齿轮**&#x200B;图标![](assets/gear-icon-settings-with-dn-arrow.jpg)，然后选择以下选项：
+1. （可选）单击共享框右上角的&#x200B;**齿轮**&#x200B;图标![齿轮图标设置](assets/gear-icon-settings-with-dn-arrow.jpg)，然后选择以下选项：
 
    * **将此设为外部用户公开**&#x200B;选择此选项可生成可与他人共享的URL。 具有URL的任何人都可以访问报表，而无需拥有Adobe Workfront许可证。
 

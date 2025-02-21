@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Canvas Dashboards是当前为功能板开发的一项功能，它提供了在Wor
 
 1. 单击&#x200B;**自定义用户看到的内容**&#x200B;下拉菜单，然后单击&#x200B;**功能板**。
 
-1. 在下面显示的&#x200B;**左侧面板**&#x200B;列表中，单击&#x200B;**画布功能板**&#x200B;旁边的![](assets/delete-secondary-nav-item.png)图标。 图标将更改为![](assets/add-secondary-nav-item.png)，以显示在功能板左侧面板中。
+1. 在下面显示的&#x200B;**左侧面板**&#x200B;列表中，单击&#x200B;**画布功能板**&#x200B;旁边的![删除辅助导航项](assets/delete-secondary-nav-item.png)图标。 图标将更改为![添加辅助导航项](assets/add-secondary-nav-item.png)，以显示在功能板左侧面板中。
 
 1. 单击屏幕底部的&#x200B;**保存**。
 
@@ -49,7 +49,7 @@ Canvas Dashboards是当前为功能板开发的一项功能，它提供了在Wor
 
 1. 确保在布局模板中启用了画布功能板选项。 有关说明，请参阅&#x200B;**将画布功能板添加到上述功能板菜单**。
 
-1. 单击主菜单图标![](assets/main-menu-icon.png)，然后单击&#x200B;**功能板**。
+1. 单击主菜单图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**功能板**。
 
 1. 在左侧面板中，单击&#x200B;**画布功能板**。
 

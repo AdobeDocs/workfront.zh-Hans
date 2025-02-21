@@ -7,9 +7,9 @@ description: 您只能使用文本模式，在Adobe Workfront报表的多选自�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ ht-degree: 0%
 
    报告中的对象按多选自定义字段的值分组。
 
-   ![](assets/grouping-by-multi-select-field-text-mode-ui-example.png)
+   ![将我的多选字段分组](assets/grouping-by-multi-select-field-text-mode-ui-example.png)
 
    报表分组的名称是多选自定义字段的名称，后跟在该字段中选择的值。
 

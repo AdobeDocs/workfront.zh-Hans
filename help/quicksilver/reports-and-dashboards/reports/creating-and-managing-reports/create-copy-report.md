@@ -7,9 +7,9 @@ description: 您可以创建您有权访问的任何报表的副本。 您可以
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 如果要创建默认报表的副本，请执行以下操作：
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)。
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)。
 
 1. 单击&#x200B;**报表**，然后单击&#x200B;**所有报表**。
 1. 单击默认报表的名称以将其打开。
@@ -124,6 +124,6 @@ ht-degree: 0%
 1. 单击&#x200B;**完成**。
 1. 单击&#x200B;**另存为新报告**。
 
-   ![](assets/unshimmed-save-as-new-report.png)
+   ![另存为新报告](assets/unshimmed-save-as-new-report.png)
 
 1. （可选）要与其他用户共享报告的新版本，请单击&#x200B;**报告操作**，然后单击&#x200B;**共享**。

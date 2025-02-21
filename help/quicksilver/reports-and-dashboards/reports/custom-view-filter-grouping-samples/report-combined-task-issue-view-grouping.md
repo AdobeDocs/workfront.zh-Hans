@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '报告：合并的任务和问题视图和分组'
+title: 报告：合并的任务和问题视图和分组
 description: 此工作项报告同时显示用户已接受在一个报告中处理的任务和问题。 最好与自定义分组结合使用。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6eaae772-229d-44ea-b285-cbaf9e46eade
-source-git-commit: bc99e303047b989b972974b398420a9180e40874
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 要使用此视图生成报表，请执行以下操作：
 
-1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)或左上角的&#x200B;**主菜单**&#x200B;图标![](assets/lines-main-menu.png)（如果可用），然后单击&#x200B;**报表**。
+1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)或左上角的&#x200B;**主菜单**&#x200B;图标![主菜单行](assets/lines-main-menu.png)（如果可用），然后单击&#x200B;**报表**。
 
 1. 从下拉菜单中单击&#x200B;**新建报告** > **更多** > **工作项**。
 

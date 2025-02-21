@@ -4,9 +4,9 @@ description: 在报告画布中构建公式字段
 hidefromtoc: true
 hide: true
 exl-id: 22a2c3d7-39db-4f5d-94f3-222ca3ee0615
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '662'
 ht-degree: 7%
 
 ---
@@ -22,16 +22,16 @@ ht-degree: 7%
 ## 创建公式字段
 
 1. 创建或导航到表块，如[在报表画布](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)中添加或编辑表块中所述。
-1. 在报表的表标题上，单击&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)。
+1. 在报表的表标题上，单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
 
-   ![](assets/edit-icon-table-header-350x71.png)
+   ![在表标题中编辑图标](assets/edit-icon-table-header-350x71.png)
 
    >[!NOTE]
    >
    >如果您刚刚创建了表并且尚未添加任何字段，请改为单击表中心的“编辑”按钮。
 
 1. 单击右侧面板上&#x200B;**字段**&#x200B;列表顶部的&#x200B;**新建+**。
-1. 在打开的新页面中，单击左上角的字段名称旁边的&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)以更改公式字段的名称。
+1. 在打开的新页面中，单击左上角的字段名称旁边的&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)以更改公式字段的名称。
 1. 从左侧面板将&#x200B;**函数**&#x200B;或&#x200B;**字段**&#x200B;拖动到中间的字段生成器，以将其添加到公式字段中。
 
 

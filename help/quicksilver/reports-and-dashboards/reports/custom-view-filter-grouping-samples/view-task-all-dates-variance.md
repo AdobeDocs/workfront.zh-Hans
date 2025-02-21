@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '查看：具有所有日期差异的任务'
+title: 视图：具有所有日期差异的任务
 description: 此任务视图类似于您的Adobe Workfront帐户提供的“所有日期”视图。 此特定视图包含差异列，用于计算日期之间的天数差异。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 20df7cd8-113e-4c0d-b3f5-1def7db968a5
-source-git-commit: 4247f2b437a5627ac4cba5289573eb4f1c18c583
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 有关在视图中使用计算的更多信息，请参阅文本模式的[常见使用概述](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)部分  [文本模式的常见使用概述](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)。
 
-![](assets/view-task-with-all-dates-variance.png)
+![查看包含所有日期的任务](assets/view-task-with-all-dates-variance.png)
 
 ## 访问要求
 

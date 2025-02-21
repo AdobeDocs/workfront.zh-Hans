@@ -6,9 +6,9 @@ description: 您可以复制功能板及其所有内容（报告、日历和外�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a88cc171-2bb1-40f0-a778-8dac7eecb718
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '898'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 功能板]**。
 
-1. 选择要复制的仪表板，然后单击&#x200B;**复制** ![](assets/copy-icon.png)。\
+1. 选择要复制的仪表板，然后单击&#x200B;**复制** ![复制图标](assets/copy-icon.png)。\
    或\
    打开要复制的仪表板，然后单击&#x200B;**仪表板操作** > **复制**。\
    此时将显示“仪表板复制”对话框。 原始仪表板上的所有项目都会显示。

@@ -6,9 +6,9 @@ description: 在报表中引用收藏集
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '2539'
+source-wordcount: '2560'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ Workfront中的对象之间存在以下两个关系：
 
 要在报表视图中添加收藏集列，请执行以下操作：
 
-1. 单击&#x200B;**主**&#x200B;菜单![](assets/main-menu-icon.png)，然后单击&#x200B;**报表**。
+1. 单击&#x200B;**主菜单**&#x200B;菜单![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**报表**。
 1. 单击&#x200B;**新建报告**。
 1. 选择报表的对象。
 1. 从报表中导航出来，使用[API Explorer](../../../wf-api/general/api-explorer.md)确定您为报表选择的对象有哪些收藏集可用。
@@ -236,7 +236,7 @@ Workfront中的对象之间存在以下两个关系：
 
 1. 项目报表中显示以下列，列出每个项目中的所有任务及其主要受分配人：
 
-   ![](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
+   ![具有任务和被分派人集合的项目报告](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
 
 1. 单击&#x200B;**保存**。
 1. （可选）继续编辑报表。
@@ -261,7 +261,7 @@ Workfront中的对象之间存在以下两个关系：
  <tbody> 
   <tr> 
    <td><code>valueformat=HTML</code> </td> 
-   <td> <p>您可以对此行使用各种值，但我们建议集合列表的<code style="font-weight: normal;">valueformat</code>HTML应为<strong>。</strong></p>
+   <td> <p>您可以对此行使用各种值，但我们建议收藏集列表的<code style="font-weight: normal;">valueformat</code>应为<strong>HTML。</strong></p>
    </td> 
   </tr> 
   <tr> 
@@ -309,7 +309,7 @@ Workfront中的对象之间存在以下两个关系：
 
 要在报表过滤器中添加对收藏集的引用，请执行以下操作：
 
-1. 单击&#x200B;**主**&#x200B;菜单![](assets/main-menu-icon.png)，然后单击&#x200B;**报表**。
+1. 单击&#x200B;**主菜单**&#x200B;菜单![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**报表**。
 1. 单击&#x200B;**新建报告**。
 1. 选择报表的对象。
 1. 从报表中导航出来，使用[API Explorer](../../../wf-api/general/api-explorer.md)确定您为报表选择的对象有哪些收藏集可用。
@@ -350,7 +350,7 @@ Workfront中的对象之间存在以下两个关系：
 
    此报表仅显示至少有一个任务名称包含“营销”字样的项目。
 
-   ![](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
+   ![项目中的仅营销任务](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
 
 1. 要筛选问题的名称，请使用以下代码：
 
@@ -386,7 +386,7 @@ Workfront中的对象之间存在以下两个关系：
 
 要在报表的自定义提示中添加对收藏集的引用，请执行以下操作：
 
-1. 单击&#x200B;**主**&#x200B;菜单![](assets/main-menu-icon.png)，然后单击&#x200B;**报表**。
+1. 单击&#x200B;**主菜单**&#x200B;菜单![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**报表**。
 1. 单击&#x200B;**新建报告**。
 1. 选择报表的对象。
 1. 使用集合引用生成筛选器，如本文中报表](#reference-a-collection-in-the-filter-of-a-report)的筛选器中的[引用集合部分所述。

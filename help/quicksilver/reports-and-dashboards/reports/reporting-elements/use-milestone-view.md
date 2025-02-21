@@ -6,9 +6,9 @@ description: 您可以将“里程碑”视图应用于项目列表或报告。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1312'
 ht-degree: 0%
 
 ---
@@ -126,16 +126,16 @@ ht-degree: 0%
 * **任务状态图标：**&#x200B;里程碑视图中的每个项目和任务旁边会显示一个状态图标。
 
    * 准时\
-     ![](assets/gantt-ontime.png)
+     ![准时图标](assets/gantt-ontime.png)
 
    * 滞后\
-     ![](assets/gantt-behind.png)
+     ![隐藏图标](assets/gantt-behind.png)
 
    * 处于风险中\
-     ![](assets/gantt-atrisk.png)
+     ![风险图标](assets/gantt-atrisk.png)
 
    * 迟到\
-     ![](assets/gantt-late.png)
+     ![迟到图标](assets/gantt-late.png)
 
   您可以禁止显示这些状态图标，如本文中[配置里程碑视图](#configure-what-information-displays-in-the-milestone-view)中显示的信息部分所述。\
   有关每种状态类型的更多详细信息，请参阅文章[任务进度状态概述](../../../manage-work/tasks/task-information/task-progress-status.md)。

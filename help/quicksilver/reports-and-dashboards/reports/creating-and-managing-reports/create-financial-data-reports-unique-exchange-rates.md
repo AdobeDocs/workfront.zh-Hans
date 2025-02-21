@@ -6,9 +6,9 @@ description: 如果已在Adobe Workfront中配置了多个汇率，则可以在�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a0837c70-8330-4c38-98dc-8cf2e7e2e4bd
-source-git-commit: 2322415c173919a1fecffabb4b561645d33eea8d
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -117,13 +117,13 @@ ht-degree: 0%
 
 1. 创建两个应用了不同货币的项目。
 
-   ![](assets/qs-currency-350x217.png)
+   ![货币](assets/qs-currency-350x217.png)
 
 1. 记录两个项目的小时数。
 
    有关记录时间的详细信息，请参阅[记录时间](../../../timesheets/create-and-manage-timesheets/log-time.md)。
 
-1. 单击&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**报表**。
+1. 单击&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**报表**。
 1. 单击&#x200B;**新建报告**，然后单击&#x200B;**项目报告**。
 1. 在&#x200B;**列（视图）**&#x200B;选项卡中，添加&#x200B;**实际成本**&#x200B;列，并按&#x200B;**总和**&#x200B;进行汇总。
 
@@ -182,6 +182,6 @@ ht-degree: 0%
 1. 单击&#x200B;**报表设置**。
 1. 单击&#x200B;**默认货币**&#x200B;下拉列表，然后选择&#x200B;**项目的原始货币**。
 
-   ![](assets/qs-report-settings-default-currency-350x370.png)
+   ![默认货币](assets/qs-report-settings-default-currency-350x370.png)
 
 1. 单击&#x200B;**完成**。

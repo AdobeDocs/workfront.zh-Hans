@@ -7,9 +7,9 @@ description: 此任务过滤器返回发送给用户的临时工作请求，或�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 204cfae1-7c57-4223-9e00-ac94e1e2ba3a
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 个人任务未连接到项目，但如果需要，可将其移动到项目。 有关信息，请参阅[创建个人任务](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md)。
 
-![](assets/personal-tasks-report.png)
+![个人任务报告](assets/personal-tasks-report.png)
 
 ## 访问要求
 

@@ -6,9 +6,9 @@ description: 您可以通过创建报告，提供对贵组织在Adobe Workfront�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1828'
+source-wordcount: '1817'
 ht-degree: 1%
 
 ---
@@ -24,41 +24,40 @@ ht-degree: 1%
 
 有关通过复制报告来创建报告的信息，请参阅[创建报告副本](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)。
 
-有关创建和管理报告（包括课程、视频和教程）的更多信息，请参阅Adobe Experience League网站上的“了解”部分。
+有关创建和管理报告（包括课程、视频和教程）的更多信息，请参阅Adobe Experience League网站上的“学习”部分。
 
 ## 访问要求
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
+您必须具备以下条件：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
    <td> <p>新增：标准 </p>
    或
    <p>当前：计划 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对报告、功能板和日历的访问权限</p> <p>编辑对筛选器、视图、分组的访问权限</p> <p><b>注释</b></p>
-   <p> 如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑对报告、功能板和日历的访问权限</p> <p>编辑对筛选器、视图、分组的访问权限</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>您获取对所创建报告的管理权限。</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>您获取对所创建报告的管理权限。</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -72,11 +71,13 @@ ht-degree: 1%
 
    有关可用对象报表的特定信息，请参阅[了解Adobe Workfront中的对象](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)一文中的[对象报表](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects)部分。
 
-   ![](assets/nwe-select-new-report-350x666.png)
+   ![选择新报告](assets/nwe-select-new-report-350x666.png)
 
    >[!TIP]
    >
    >您也可以通过复制现有报告来创建报告。 有关详细信息，请参阅[创建报告副本](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)。
+
+1. （可选）要编辑新报表的标题，请在Report Builder左上角的文本字段中输入所需的报表标题。 我们建议仅使用UTF-8字符以避免兼容性问题。
 
 1. 在Report Builder中，将以下内容添加到报表中：
 
@@ -126,11 +127,11 @@ ht-degree: 1%
 
    或
 
-   要更改现有列，请单击该列，在Report Builder左上角的&#x200B;**在此列字段中显示**&#x200B;区域中单击当前字段右侧的&#x200B;**删除**&#x200B;图标![](assets/remove-column-icon.png)，并开始键入新字段，然后当该字段显示在列表中时单击它。
+   要更改现有列，请单击列，在Report Builder左上角的&#x200B;**在此列字段中显示**&#x200B;区域中单击当前字段右侧的&#x200B;**删除**&#x200B;图标![删除列图标](assets/remove-column-icon.png)，并开始键入新字段，然后当该字段显示在列表中时单击它。
 
    有关您在列中看到的字段的更多信息，请参阅[Adobe Workfront术语词汇表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
 
-   ![](assets/nwe-add-column-typeahead-350x459.png)
+   ![添加列typeahead](assets/nwe-add-column-typeahead-350x459.png)
 
 1. （可选）在&#x200B;**列设置**&#x200B;区域，选择&#x200B;**按此列排序**&#x200B;以按字母降序对列中的值进行升序排序，然后指示列表是否应使用此列作为第一个排序。
 
@@ -202,7 +203,7 @@ ht-degree: 1%
 
    选择&#x200B;**应用现有分组**&#x200B;以在列表中显示现有分组时将其选定。
 
-   ![](assets/nwe-add-grouping-350x230.png)
+   ![添加分组](assets/nwe-add-grouping-350x230.png)
 
 1. 开始键入要作为分组添加的字段。 如果该字段可用，则会填充每个可关联该字段的对象。 单击字段名称以将其添加到该分组。
 1. （可选）您可以通过单击&#x200B;**切换到文本模式**，选择在文本模式下构建分组。 有关使用文本模式的详细信息，请参阅[文本模式概述](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)。
@@ -234,7 +235,7 @@ ht-degree: 1%
    或\
    选择&#x200B;**应用现有筛选器**&#x200B;以使用现有筛选器。
 
-   ![](assets/nwe-add-a-filter-350x93.png)
+   ![添加筛选器](assets/nwe-add-a-filter-350x93.png)
 
 1. 如果您单击&#x200B;**添加筛选器规则**，请开始键入要添加为筛选器的字段。 如果该字段可用，则会填充每个可关联该字段的对象。 单击字段名称以将其添加到该过滤器。\
    使用过滤器修饰符构建您的过滤器。 有关筛选器修饰符的详细信息，请参阅[筛选器和条件修饰符](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)。
@@ -254,7 +255,7 @@ ht-degree: 1%
 1. 开始创建报告，如本文中的[创建报告](#create-a-report)部分所述。
 1. 在Report Builder中，选择&#x200B;**图表**&#x200B;选项卡，然后选择要添加的图表类型。
 
-   ![](assets/nwe-add-a-chart-350x247.png)
+   ![添加图表](assets/nwe-add-a-chart-350x247.png)
 
    有关在报告中构建图表的详细信息，请参阅[将图表添加到报告中](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)。
 

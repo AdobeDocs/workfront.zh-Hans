@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '查看：计算时间和日期差异'
+title: 视图：计算时间和日期差异
 description: 了解如何计算时间和日期差异。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 例如，您可以计算任务的计划完成日期与实际完成日期之间的差值。
 
-![](assets/view-planned-actual-completion-dates-datediff-column-new.png)
+![查看日期差异](assets/view-planned-actual-completion-dates-datediff-column-new.png)
 
 1. 转到任务列表。
 1. 从&#x200B;**视图**&#x200B;下拉菜单中，单击&#x200B;**新建视图**。
@@ -100,7 +100,7 @@ ht-degree: 0%
 有关对象及其父项的列表，请参阅[了解Adobe Workfront中的对象](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)中的“了解对象的相互依赖性和层次结构”部分。\
 例如，您可以计算任务的计划完成日期与其父任务或任务所在项目的计划完成日期之间的差值。
 
-![](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
+![查看计划完成日期差异](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
 
 1. 转到任务列表。
 1. 从&#x200B;**视图**&#x200B;下拉菜单中，单击&#x200B;**新建视图**。

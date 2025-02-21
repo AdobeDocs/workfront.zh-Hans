@@ -6,9 +6,9 @@ description: 您可以在报表的视图、筛选器和分组中引用该对象�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8b0d2e7f-cc92-4f43-a91c-ab2b2d8a1c01
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '967'
 ht-degree: 2%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 2%
 
 例如，您可能将自定义表单应用于包含自定义字段&#x200B;**顾问**&#x200B;的所有项目。 若要创建列出所有项目（Olivia Kim是其中的顾问）的报告，请使用&#x200B;**Project**&#x200B;对象类型作为字段源，并使用&#x200B;**Consultant**&#x200B;作为字段名称。 将筛选器限定符设置为&#x200B;**等于**，然后键入Olivia Kim。
 
-![](assets/qs-consultant-filter-example-350x126.png)
+![顾问筛选器](assets/qs-consultant-filter-example-350x126.png)
 
 有关创建报告的详细信息，请参阅文章[创建自定义报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
@@ -111,13 +111,13 @@ ht-degree: 2%
 1. 按照文章[创建自定义报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)中的说明开始创建报告。
 1. 在&#x200B;**列**&#x200B;选项卡上，展开要引用自定义表单的对象类型，然后单击&#x200B;**类别名称**。\
    例如，要显示与任务关联的所有自定义表单，请展开&#x200B;**任务**&#x200B;字段源，然后单击&#x200B;**类别名称**&#x200B;字段名称。\
-   ![](assets/qs-category-name-column-350x267.png)
+   ![类别名称列](assets/qs-category-name-column-350x267.png)
 
 要仅显示与对象关联的主要自定义表单，请执行以下操作：
 
 1. 按照文章[创建自定义报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)中的说明开始创建报告。
 1. 在&#x200B;**列**&#x200B;选项卡上，展开&#x200B;**类别**&#x200B;字段源，然后单击&#x200B;**名称**&#x200B;字段名称。\
-   ![](assets/qs-category-name-column-2-350x248.png)
+   ![类别名称](assets/qs-category-name-column-2-350x248.png)
 
 ### 在报表过滤器中引用自定义表单 {#reference-custom-forms-in-a-report-filter}
 
@@ -125,7 +125,7 @@ ht-degree: 2%
 
 1. 按照文章[创建自定义报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)中的说明开始创建报告。
 1. 在&#x200B;**筛选器**&#x200B;选项卡上，展开&#x200B;**类别**，然后单击&#x200B;**名称**。\
-   ![](assets/qs-categories-name-filter-350x311.png)
+   ![类别名称筛选器](assets/qs-categories-name-filter-350x311.png)
 
 1. 选择要使用的条件限定符：
 
@@ -150,7 +150,7 @@ ht-degree: 2%
 
 1. 按照文章[创建自定义报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)中的说明开始创建报告。
 1. 在&#x200B;**筛选器**&#x200B;选项卡上，展开&#x200B;**类别**&#x200B;字段源，然后单击&#x200B;**名称**&#x200B;字段名称。\
-   ![](assets/qs-category-name-filter-350x437.png)
+   ![类别名称筛选器](assets/qs-category-name-filter-350x437.png)
 
 1. 选择要使用的条件限定符：
 
@@ -175,4 +175,4 @@ ht-degree: 2%
 
 1. 按照文章[创建自定义报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)中的说明开始创建报告。
 1. 在&#x200B;**分组**&#x200B;选项卡上，展开&#x200B;**类别**，然后单击&#x200B;**名称**。\
-   ![](assets/qs-category-name-grouping-350x373.png)
+   ![类别名称分组](assets/qs-category-name-grouping-350x373.png)

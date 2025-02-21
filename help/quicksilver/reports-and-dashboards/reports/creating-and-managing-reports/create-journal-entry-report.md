@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '2767'
+source-wordcount: '2798'
 ht-degree: 3%
 
 ---
@@ -181,7 +181,7 @@ ht-degree: 3%
 1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**报表**。
 1. 单击&#x200B;**新建报表**，然后选择&#x200B;**日志条目**。
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![选择日志条目](assets/nwe-select-journal-entry-350x273.png)
 
    加载Report Builder。
 
@@ -255,7 +255,7 @@ ht-degree: 3%
 
 1. 在&#x200B;**筛选器**&#x200B;选项卡中，单击&#x200B;**添加筛选器规则**，然后添加筛选器规则&#x200B;**字段名称** > **等于** > **状态**。
 
-   ![](assets/nwe-journal-entry-status-filter-rules-350x90.png)
+   ![日志条目状态筛选器](assets/nwe-journal-entry-status-filter-rules-350x90.png)
 
    >[!TIP]
    >
@@ -295,7 +295,7 @@ ht-degree: 3%
 1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**报表**。
 1. 单击&#x200B;**新建报表**，然后选择&#x200B;**日志条目**。
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![选择日志条目](assets/nwe-select-journal-entry-350x273.png)
 
    加载Report Builder。
 
@@ -342,7 +342,7 @@ ht-degree: 3%
    * **项目ID** > **等于** > **&lt;项目名称>**
 
      <!--WRITER check link; this png file has spaces
-     [![](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
+     [![Task or issue deleted](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
 
    有关添加筛选器的详细信息，请参阅[筛选器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
@@ -379,7 +379,7 @@ ht-degree: 3%
 1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**报表**。
 1. 单击&#x200B;**新建报表**，然后选择&#x200B;**日志条目**。
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![选择日志条目](assets/nwe-select-journal-entry-350x273.png)
 
    加载Report Builder。
 
@@ -450,7 +450,7 @@ ht-degree: 3%
 
    * **项目ID** > **等于** > **&lt;项目>**。
 
-   ![](assets/qs-custom-form-changes-filter-350x92.png)
+   ![自定义表单更改筛选器](assets/qs-custom-form-changes-filter-350x92.png)
 
    有关添加筛选器的详细信息，请参阅[筛选器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
@@ -481,7 +481,7 @@ ht-degree: 3%
 1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**报表**。
 1. 单击&#x200B;**新建报表**，然后选择&#x200B;**日志条目**。
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![选择日志条目](assets/nwe-select-journal-entry-350x273.png)
 
    加载Report Builder。
 
@@ -551,7 +551,7 @@ ht-degree: 3%
    * **字段名称** > **等于** > **日期**
    * **项目ID** > **等于** > **&lt;项目名称>**。
 
-   ![](assets/qs-planned-completion-date-change-filter-350x91.png)
+   ![计划完成日期更改筛选器](assets/qs-planned-completion-date-change-filter-350x91.png)
 
    有关添加筛选器的详细信息，请参阅[筛选器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
@@ -582,7 +582,7 @@ ht-degree: 3%
 1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**报表**。
 1. 单击&#x200B;**新建报表**，然后选择&#x200B;**日志条目**。
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![选择日志条目](assets/nwe-select-journal-entry-350x273.png)
 
    加载Report Builder。
 
@@ -640,7 +640,7 @@ ht-degree: 3%
    * **字段名称** > **等于** > **所有者ID**
    * **项目ID** > **等于** > **&lt;项目名称>**。
 
-   ![](assets/qs-owner-changes-filter-350x94.png)
+   ![所有者更改筛选器](assets/qs-owner-changes-filter-350x94.png)
 
    有关添加筛选器的详细信息，请参阅[筛选器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 

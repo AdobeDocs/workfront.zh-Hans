@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '查看：用户个人休息时间'
-description: '查看：用户个人休息时间'
+title: 查看：用户个人休息时间
+description: 视图：用户个人休息时间
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb
-source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '260'
 ht-degree: 3%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 3%
 
 ## 查看用户个人空闲时间
 
-1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**报告>新建报告**。
+1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**报告>新建报告**。
 1. 从下拉菜单中选择&#x200B;**休息时间**。
 1. 单击&#x200B;**保存+关闭**。
 

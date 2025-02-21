@@ -4,9 +4,9 @@ description: 在报告画布中配置表列
 hidefromtoc: true
 hide: true
 exl-id: ce33888f-344d-4f69-b527-9679340d134b
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1052'
 ht-degree: 2%
 
 ---
@@ -28,10 +28,10 @@ ht-degree: 2%
 
 ## 修改表中的列
 
-1. 转到现有报表，单击报表标题中的&#x200B;**更多菜单**&#x200B;图标![](assets/more-icon.png)，然后选择&#x200B;**编辑**。
-1. 在报表的表标题上，单击&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)。
+1. 转到现有报表，单击报表标题中的&#x200B;**更多菜单**&#x200B;图标![更多图标](assets/more-icon.png)，然后选择&#x200B;**编辑**。
+1. 在报表的表标题上，单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
 
-   ![](assets/edit-icon-table-header-350x71.png)
+   ![在表标题中编辑图标](assets/edit-icon-table-header-350x71.png)
 
    >[!NOTE]
    >

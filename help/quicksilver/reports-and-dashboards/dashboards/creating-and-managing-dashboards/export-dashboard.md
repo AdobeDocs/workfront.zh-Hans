@@ -6,9 +6,9 @@ description: 您可以使用Web浏览器中提供的打印选项将功能板导�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6c8dc5be-6adb-400a-b86a-a7f7e84d0ba7
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '375'
 ht-degree: 6%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 6%
 1. 转到要导出的仪表板。
 1. 单击&#x200B;**仪表板操作**，然后选择&#x200B;**打印预览**。
 
-   ![](assets/dashboard-actions-print-350x254.png)
+   ![仪表板打印预览](assets/dashboard-actions-print-350x254.png)
 
    将打开“打印预览”窗口。
 
@@ -97,7 +97,7 @@ ht-degree: 6%
       <td>Google Chrome</td> 
       <td> 
        <ol> 
-        <li value="1">在<strong>目标</strong>字段中，选择<strong>另存为PDF</strong>，然后修改您要更改的任何其他打印选项。</li> 
+        <li value="1">在<strong>目标</strong>字段中，选择<strong>另存为PDF</strong>，然后修改要更改的任何其他打印选项。</li> 
         <li value="2">单击<strong>保存</strong>。</li> 
         <li value="3">（可选）编辑<strong>文件名</strong>，然后为该文件选择新的文件夹目标。</li> 
         <li value="4">单击<strong>保存</strong>将.pdf文件保存到硬盘驱动器。<br><br></li> 
@@ -107,7 +107,7 @@ ht-degree: 6%
       <td>Internet Explorer、Microsoft Edge和Mozilla Firefox</td> 
       <td> <p>注意：如果您使用的是Internet Explorer版本11，则可能无法在不安装第三方插件的情况下使用“打印到PDF”功能。</p> 
        <ol> 
-        <li value="1">在<strong>打印机</strong>或<strong>选择打印机</strong>字段中，选择<strong>Microsoft打印以PDF</strong>，然后修改要更改的任何其他打印选项。</li> 
+        <li value="1">在<strong>打印机</strong>或<strong>选择打印机</strong>字段中，选择<strong>Microsoft打印到PDF</strong>，然后修改要更改的任何其他打印选项。</li> 
         <li value="2">单击<strong>打印</strong>。</li> 
         <li value="3">输入<strong>文件名</strong></li> 
         <li value="4">（可选）为文件选择新文件夹目标。</li> 

@@ -2,14 +2,14 @@
 content-type: tips-tricks-troubleshooting
 product-area: reporting;user-management
 navigation-topic: tips-tricks-and-troubleshooting-reports
-title: '过滤器：验证审批报告，忽略以前的验证版本'
+title: 过滤器：验证审批报告，以忽略以前的验证版本
 description: 在验证审批报表中，您可以使用当前文档版本过滤器仅包括等待您审批的当前版本的验证。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e844d3ed-75ee-4a0f-a28c-a3d22f203502
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 0%
    <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sarah: Add sub bullets for report creation.</p>
    -->
 
-   要创建您自己的验证审批报告，请单击右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)或左上角的&#x200B;**主菜单**&#x200B;图标![](assets/lines-main-menu.png)（如果可用），然后单击&#x200B;**报告** ![](assets/reports-in-main-menu.png)。
+   要创建您自己的验证审批报告，请单击右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)或左上角的&#x200B;**主菜单**&#x200B;图标![主菜单行](assets/lines-main-menu.png)（如果可用），然后单击&#x200B;**报告**![报告图标](assets/reports-in-main-menu.png)。
 
 1. 单击&#x200B;**新建报告**。 此时将显示对象类型列表。
 1. 单击列表中的&#x200B;**校对审批**。

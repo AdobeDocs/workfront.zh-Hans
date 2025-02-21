@@ -6,7 +6,7 @@ description: 您可以从各种列表、报表、功能板和搜索中导出Adob
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
 source-wordcount: '2247'
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 * 从甘特图导出信息。
 
-  有关导出甘特图的详细信息，请参阅[将甘特图导出到PDF](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)。
+  有关导出甘特图的更多信息，请参阅[将甘特图导出到PDF](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)。
 
 * 从资源规划者导出信息。
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 信息可按下列格式导出：
 
-* PDF（信件横向或纵向、法律、分类帐和A4）
+* PDF（信件横向或纵向、Legal、Ledger和A4）
 * Excel (.xls)
 * Excel (.xlsx)
 * 制表符分隔
@@ -190,7 +190,7 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
    >[!NOTE]
    >
    >To export a Dashboard report, you must have a Plan license.  
-   >![](assets/nwe-dashboard-export-note-350x271.png)
+   >![Export dashboard note](assets/nwe-dashboard-export-note-350x271.png)
    -->
 
    或
@@ -241,25 +241,25 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 * 在项目中导出任务和问题列表时：
 
-   * *The_project_name_Exported_Tasks*(*PDF、Excel、Excel (.xlsx)或Tab分隔格式)*
-   * *The_project_name_Exported_Issues*(*PDF、Excel、Excel (.xlsx)或Tab分隔格式)*
+   * *The_project_name_Exported_Tasks*(*在PDF、Excel、Excel (.xlsx)或Tab分隔格式中)*
+   * *The_project_name_Exported_Issues*(*在PDF、Excel、Excel (.xlsx)或Tab分隔格式中)*
 
 * 导出任务（子任务）中的任务和问题列表时：
 
-   * **The_project_name_the_task_name_Exported_Tasks**(*PDF、Excel、Excel (.xlsx)或Tab分隔格式)*
-   * **The_project_name_the_task_name_Exported_Issues**(*PDF、Excel、Excel (.xlsx)或Tab分隔格式)*
+   * **The_project_name_the_task_name_Exported_Tasks**(*在PDF、Excel、Excel (.xlsx)或Tab分隔格式中)*
+   * **The_project_name_the_task_name_Exported_Issues**(*在PDF、Excel、Excel (.xlsx)或Tab分隔格式中)*
 
-将项目中的任何其他对象列表导出到PDF文件时，所导出文档的文件名将指示所导出的对象类型。\
+将项目中的任何其他对象列表导出到PDF文件时，导出文档的文件名将指示您导出的对象类型。\
 例如，文件名可以是：
 
-* *Exported_Users*，在导出项目(*的PDF、Excel、Excel (.xlsx)或Tab分隔格式)的“人员”选项卡时*
-* *Exported_Risks*，在导出项目(*PDF、Excel、Excel (.xlsx)或Tab分隔格式)的风险列表时*
+* *Exported_Users*，在导出项目(*在PDF、Excel、Excel (.xlsx)或Tab分隔格式中)*&#x200B;的“人员”选项卡时
+* *Exported_Risks*，在导出项目(*在PDF、Excel、Excel (.xlsx)或Tab分隔格式中)*&#x200B;的风险列表时
 
 #### 导出报表的文件名 {#file-names-for-exported-reports}
 
 导出报告时，导出的报告的文件名为：
 
-*The_report_name*(*PDF、Excel、Excel (.xlsx)或Tab分隔格式)*
+*The_report_name*(*在PDF、Excel、Excel (.xlsx)或Tab分隔格式中)*
 
 ### 标题 {#titles}
 
@@ -267,7 +267,7 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 #### 导出列表的标题 {#titles-for-exported-lists}
 
-将项目中的任务和问题列表导出到PDF文件时，所导出文档的标题是以下标题之一：
+将项目中的任务和问题列表导出到PDF文件时，所导出文档的标题为以下标题之一：
 
 * *项目名称 — 导出的任务*
 * *项目名称 — 导出问题*
@@ -303,7 +303,7 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 根据您导出的文档类型，时间戳会显示在不同的位置：
 
-* **PDF：**&#x200B;时间戳显示在每页的页脚和文件名中。
+* **PDF：**&#x200B;时间戳显示在每个页面的页脚和文件名中。
 * **Excel：**&#x200B;时间戳显示在文件名中。
 
 ### 格式设置 {#formatting}

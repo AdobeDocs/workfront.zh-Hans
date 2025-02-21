@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '视图：通过缩进任务显示任务中的父子关系'
+title: 视图：通过缩进任务显示任务中的父子关系
 description: 您可以维护导出任务列表中的父子关系的区别，方法是：向任务列表添加自定义视图，并确保在导出列表之前选择此视图。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 4987501f-a1d9-47cd-bfbe-83acfc225204
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 您可以维护导出任务列表中的父子关系的区别，方法是：向任务列表添加自定义视图，并确保在导出列表之前选择此视图。
 
-![](assets/parent-child-indented-custom-view-350x94.png)
+![父子缩进](assets/parent-child-indented-custom-view-350x94.png)
 
 ## 访问要求
 

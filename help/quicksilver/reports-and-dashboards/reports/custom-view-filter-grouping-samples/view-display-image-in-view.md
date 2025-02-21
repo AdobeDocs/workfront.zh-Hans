@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '视图：显示图像而不是列中的字符串'
+title: 视图：在列中显示图像而不是字符串
 description: 您可以使用文本模式将视图中对象的名称替换为图像。 您还可以添加指向图像的链接，该链接可以打开它替换的对象。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e1e4a993-f05c-4b6e-b00a-e96c9ab4c94f
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >图像以实际分辨率显示，因此请尝试使用小图像。
 
-![](assets/replace-project-name-with-image-and-link-350x125.png)
+![将项目名称替换为图像和链接](assets/replace-project-name-with-image-and-link-350x125.png)
 
 ## 访问要求
 
@@ -86,7 +86,7 @@ ht-degree: 0%
    1. 右键单击并选择&#x200B;**复制图像位置**&#x200B;或&#x200B;**获取链接**，具体取决于您的浏览器。 现在，您拥有该特定图像的URL，并且可以从剪贴板中粘贴该URL。
    1. 确保具有该链接的所有人都有权查看图像，只需转到该链接即可，无需登录即可访问。
 
-1. 转到某个项目，单击该项目名称旁边的&#x200B;**更多**&#x200B;菜单![](assets/more-icon-45x33.png)，然后单击&#x200B;**编辑**。
+1. 转到项目，单击项目名称旁边的&#x200B;**更多**&#x200B;菜单![更多图标](assets/more-icon-45x33.png)，然后单击&#x200B;**编辑**。
 
 1. 在&#x200B;**URL**&#x200B;字段中，添加指向该图像的链接。
 1. 转到项目列表中的项目视图。

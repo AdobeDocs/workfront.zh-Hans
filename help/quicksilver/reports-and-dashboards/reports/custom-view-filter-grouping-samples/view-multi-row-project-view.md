@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '视图：多行项目视图'
+title: 视图：多行项目视图
 description: 了解报表中的多行项目视图。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3c6028c0-2c9f-4f86-aa6c-bf089844bac8
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 * 在项目名称后面的括号中显示项目所有者。
 * 将项目名称显示为指向项目的链接。
 
-![](assets/project-multi-row-stacked-view-350x219.png)
+![具有栈叠视图的项目行](assets/project-multi-row-stacked-view-350x219.png)
 
 ## 访问要求
 

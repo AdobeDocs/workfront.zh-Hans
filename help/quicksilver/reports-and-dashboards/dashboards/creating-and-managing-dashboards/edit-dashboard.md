@@ -6,9 +6,9 @@ description: 功能板的用途是提供对信息的快速访问。 您可以向
 author: Nolan
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '497'
 ht-degree: 1%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 1%
 1. 转到要编辑的信息板。
 1. 单击&#x200B;**仪表板操作**，然后单击&#x200B;**编辑**。
 
-   ![](assets/unshimmed-edit-dashboard.png)
+   ![编辑仪表板](assets/unshimmed-edit-dashboard.png)
 
    >[!TIP]
    >

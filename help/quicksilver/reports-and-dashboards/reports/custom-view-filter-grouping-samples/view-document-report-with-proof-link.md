@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '查看：包含验证链接的文档报告'
-description: '查看：文档报告，带有指向验证的链接'
+title: 查看：包含证明链接的文档报告
+description: 查看：文档报告，带有指向验证的链接
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a38c5e86-9789-41ca-a832-2ee5eb0a570b
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 在此文档视图中，您可以插入指向文档当前版本的验证的链接。
 
-![](assets/view-document-with-proof-link-350x92.png)
+![查看带校对链接的文档](assets/view-document-with-proof-link-350x92.png)
 
 ## 访问要求
 

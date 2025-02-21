@@ -6,9 +6,9 @@ description: 您可以使用文本模式在列表或报告中编辑过滤器，�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1044'
 ht-degree: 1%
 
 ---
@@ -87,7 +87,7 @@ ht-degree: 1%
 
 1. 执行下列操作之一：
 
-   要从列表中访问筛选器，请转到列表并单击&#x200B;**筛选器**&#x200B;图标，然后将鼠标悬停在要修改的&#x200B;**筛选器**&#x200B;侧面板中的筛选器上，然后单击&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)。 **筛选器**&#x200B;侧面板显示您选择的筛选器或旧筛选器生成器打开。
+   要从列表中访问筛选器，请转到列表并单击&#x200B;**筛选器**&#x200B;图标，然后将鼠标悬停在要修改的&#x200B;**筛选器**&#x200B;侧面板中的筛选器上，然后单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。 **筛选器**&#x200B;侧面板显示您选择的筛选器或旧筛选器生成器打开。
 
    或
 

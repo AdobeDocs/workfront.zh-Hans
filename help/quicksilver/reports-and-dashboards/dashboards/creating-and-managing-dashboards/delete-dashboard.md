@@ -6,9 +6,9 @@ description: 如果您不再需要使用功能板，可以将其从Adobe Workfro
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 706a3e16-34d7-49d8-9688-109ce4f95c2f
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 0%
 1. 转到要编辑的信息板。
 1. 单击&#x200B;**仪表板操作**，然后单击&#x200B;**删除**。
 
-   ![](assets/unshimmed-delete-dashboard.png)
+   ![删除仪表板](assets/unshimmed-delete-dashboard.png)
 
 1. 要确认要删除仪表板，请单击&#x200B;**是，删除。**
 仪表板将从Workfront中删除。
@@ -84,9 +84,9 @@ ht-degree: 0%
 要删除多个功能板，请执行以下操作：
 
 1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 功能板]**。
-1. 选择列表中要删除的每个仪表板，然后单击&#x200B;**删除** ![](assets/delete.png)。
+1. 选择列表中要删除的每个仪表板，然后单击&#x200B;**删除** ![删除图标](assets/delete.png)。
 
-   ![](assets/unshimmed-delete-dashboard-list.png)
+   ![删除仪表板](assets/unshimmed-delete-dashboard-list.png)
 
 1. 要确认要删除仪表板，请单击&#x200B;**是，删除。**
 仪表板将从Workfront中删除。

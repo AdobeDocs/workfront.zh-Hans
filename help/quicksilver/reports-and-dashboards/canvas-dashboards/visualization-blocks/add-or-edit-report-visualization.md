@@ -4,9 +4,9 @@ description: 在报表画布中添加或编辑可视化图表块
 hidefromtoc: true
 hide: true
 exl-id: 14750eb1-d0a3-42ea-bd2e-100b633322ff
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '437'
 ht-degree: 1%
 
 ---
@@ -32,12 +32,12 @@ ht-degree: 1%
 >
 >当您在报表中构建和编辑块时，会自动保存所有更改。
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**报表**。
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**报表**。
 1. 单击&#x200B;**新建报告**，然后创建包含数据的表的报告，如[在报告画布中生成报告](../../../reports-and-dashboards/reporting-canvas/manage-reports/build-report.md)和[在报告画布中添加或编辑表块](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)中所述。
 
    或
 
-   在具有包含数据的表的现有报表中，单击报表标题中的&#x200B;**更多菜单**&#x200B;图标![](assets/more-icon.png)，然后选择&#x200B;**编辑**。
+   在具有包含数据的表的现有报表中，单击报表标题中的&#x200B;**更多菜单**&#x200B;图标![更多图标](assets/more-icon.png)，然后选择&#x200B;**编辑**。
 
 1. 在屏幕右侧的&#x200B;**添加块**&#x200B;下：
 
@@ -57,7 +57,7 @@ ht-degree: 1%
 
 1. （视情况而定）如果报表包含多个表，请在显示的&#x200B;**构建可视化图表**&#x200B;框中，选择可视化图表的源表。
 
-   ![](assets/select-table-on-vis-350x155.png)
+   ![选择可视化图表上的表](assets/select-table-on-vis-350x155.png)
 
    >[!NOTE]
    >
@@ -65,7 +65,7 @@ ht-degree: 1%
 
 1. 选择要添加的可视化图表类型。
 
-   ![](assets/select-vis-type-350x205.png)
+   ![选择可视化类型](assets/select-vis-type-350x205.png)
 
    此时将显示可视化图表，表示所选表的数据。
 

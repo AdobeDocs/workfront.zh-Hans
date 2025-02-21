@@ -6,9 +6,9 @@ description: 您可以使用条件格式来比较视图中的2个不同字段，
 author: Nolan
 feature: Reports and Dashboards
 exl-id: da4447ba-6e76-4701-88ee-87a30393bed9
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '469'
 ht-degree: 1%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 1%
 1. 使用在生成器中找到的现有值输入比较条件，并指定条件格式。\
    例如，我们要突出显示实际开始日期晚于（或大于）计划开始日期的任务。 选择“大于”修改量，然后在日期字段中选择实际日期。
 
-   ![](assets/cond-format-1-350x84.png)
+   ![实际开始日期的条件格式](assets/cond-format-1-350x84.png)
 
 1. （可选）如果要将格式应用到整行，请选择&#x200B;**应用到整行**。
 1. 单击&#x200B;**保存**。
@@ -104,7 +104,7 @@ ht-degree: 1%
 
 1. 确保`righttext`行代码与`rightmethod`行代码中的语句匹配。
 
-   ![](assets/cond-format-2-350x171.png)
+   ![条件格式](assets/cond-format-2-350x171.png)
 
 1. 单击&#x200B;**保存**。
 1. 单击&#x200B;**保存+关闭**。

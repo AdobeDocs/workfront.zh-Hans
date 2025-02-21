@@ -7,9 +7,9 @@ description: 在创建有关报表的报表时，您可以标识特定的报表�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3861ac81-d2e4-4dec-b9cd-96eee0b66a38
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 ## 创建有关现有报表的报告 {#create-the-report-about-existing-reports}
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)。
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)。
 1. 单击&#x200B;**报表**，然后单击&#x200B;**新建报表**。
 1. 在&#x200B;**新建报表**&#x200B;下拉菜单中，选择&#x200B;**报表**&#x200B;以创建现有报表的报告。
 

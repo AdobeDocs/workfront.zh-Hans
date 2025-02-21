@@ -7,9 +7,9 @@ description: 只有在您创建捕获多选自定义字段中选定选项的附�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ ht-degree: 0%
 
 1. 将“多选自定义字段”替换为您在Workfront中显示的多选自定义字段的实际名称。
 
-   ![](assets/calculated-multi-select-custom-field-nwe-350x223.png)
+   ![计算的多选自定义字段](assets/calculated-multi-select-custom-field-nwe-350x223.png)
 
 1. （可选）如果多选自定义字段已在此表单上，并且此表单已附加到对象，请启用&#x200B;**应用于现有计算**&#x200B;选项。
 
@@ -140,11 +140,11 @@ ht-degree: 0%
 
 1. （可选）要确保您要按其绘制图表的所有计算字段均填充了值，请从报表的详细信息选项卡中选择包含具有多选自定义字段和计算自定义字段的自定义表单的所有对象，然后单击&#x200B;**编辑**。
 1. （可选且有条件）选择&#x200B;**重新计算自定义表达式**&#x200B;字段，然后单击&#x200B;**保存更改**。\
-   ![](assets/recalculate-custom-expressions-350x259.png)
+   ![重新计算自定义表达式](assets/recalculate-custom-expressions-350x259.png)
 
    >[!NOTE]
    >
-   >此选项已从批量编辑项目中消除。  您仍然可以通过单击项目列表顶部的&#x200B;**更多**&#x200B;图标![](assets/more-icon-45x33.png)，然后&#x200B;**重新计算表达式**&#x200B;来批量重新计算项目的表达式。
+   >此选项已从批量编辑项目中消除。  您仍然可以批量重新计算项目的表达式，方法是单击项目列表顶部的&#x200B;**更多**&#x200B;图标![更多](assets/more-icon-45x33.png)，然后&#x200B;**重新计算表达式**。
 
 1. 转到要在其中添加引用多选自定义字段的计算字段的图表的报表。
 1. 单击&#x200B;**报告操作**，然后单击&#x200B;**编辑**。
@@ -160,4 +160,4 @@ ht-degree: 0%
 
    该报告在图表中显示按计算的多选字段分组的结果。
 
-   ![](assets/chart-multi-select-field-column-chart-example.png)
+   ![图表中的多选字段](assets/chart-multi-select-field-column-chart-example.png)

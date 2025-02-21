@@ -6,9 +6,9 @@ description: 在文本模式下使用条件格式
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1682'
+source-wordcount: '1734'
 ht-degree: 1%
 
 ---
@@ -189,10 +189,10 @@ styledef.case.0.comparison.trueproperty.0.value=03a219
 >* 虽然此语句可以应用于“公司名称”列，但它也可以应用于报表上的任何其他列。 仅当项目具有关联的公司时，才会显示绿色文本。 请记住`[field name]`、`[value]`和`[qualifier]`驱动器，无论条件是否最终显示在列上。
 >* 在使用限定符时，我们建议使用`cicontains`而不是`equal`。 默认情况下，`equal`会查找ID号。 使用`cicontains`限定符，您可以按其名称访问项目。
 
-![](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png){width="500"}
+![文本模式示例](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png){width="500"}
 
 
-![](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png){width="400"}
+![文本模式示例结果](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png){width="400"}
 
 无论文本颜色、对齐方式、字体样式还是背景颜色应用于文本模式，都会使用相同的语句（如上所示）。
 
@@ -297,9 +297,9 @@ styledef.case.0.comparison.truetext=not today
 >
 >以`case.0.`开头的行用于标识文本的使用情况。 以`styledef.case.0.`开头的行是早期的条件格式语句，我们通过`truetext`表达式来标识文本的使用。 确保将`truetext`设置为值，而不是将其留空。
 
-![](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png){width="500"}
+![应用文本示例](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png){width="500"}
 
-![](assets/screen-shot-2013-08-15-at-3.22.16-pm-350x151.png){width="400"}
+![应用文本结果](assets/screen-shot-2013-08-15-at-3.22.16-pm-350x151.png){width="400"}
 
 #### 应用行格式 {#apply-row-formats}
 
@@ -359,30 +359,30 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 >
 >请注意，语句使用`icon=true`表达式。 此语句与其他条件格式语句的不同之处在于，它不使用`style.def`格式，而是使用唯一的图像格式。
 
-![](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png){width="500"}
+![图标文本模式](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png){width="500"}
 
-![](assets/screen-shot-2013-08-15-at-3.35.22-pm-1-350x167.png){width="400"}
+![图标文本模式结果](assets/screen-shot-2013-08-15-at-3.35.22-pm-1-350x167.png){width="400"}
 
 要使用可用的图像，请应用以下代码和值：
 
 | **图标** | **行： image.case.0.comparison.truetext=** |
 |---|---|
-| 皱眉脸![](assets/face-sad.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif` |
-| 快乐的脸![](assets/face-happy.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif` |
-| 蓝色标志![](assets/flag-blue-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_blue.gif` |
-| 绿色标志![](assets/flag-green-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_green.gif` |
-| 红色标志![](assets/flag-red-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_red.gif` |
-| 黄色标志![](assets/flag-yellow-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif` |
-| 黑色圆圈![](assets/dot-black.png) | =`/interface/images/v4_redux/icons/casebuilder/light_black.gif` |
-| 蓝色圆圈![](assets/dot-blue.png) | =`/interface/images/v4_redux/icons/casebuilder/light_blue.gif` |
-| 灰色圆圈![](assets/dot-gray.png) | =`/interface/images/v4_redux/icons/casebuilder/light_grey.gif` |
-| 绿色圆圈![](assets/dot-green.png) | =`/interface/images/v4_redux/icons/casebuilder/light_green.gif` |
-| 橙色圆圈![](assets/dot-orange.png) | =`/interface/images/v4_redux/icons/casebuilder/light_orange.gif` |
-| 粉红色圆圈![](assets/dot-pink.png) | =`/interface/images/v4_redux/icons/casebuilder/light_pink.gif` |
-| 紫色圆圈![](assets/dot-purple.png) | =`/interface/images/v4_redux/icons/casebuilder/light_purple.gif` |
-| 红色圆圈![](assets/dot-red.png) | =`/interface/images/v4_redux/icons/casebuilder/light_red.gif` |
-| 空心圆圈![](assets/dot-white.png) | =`/interface/images/v4_redux/icons/casebuilder/light_white.gif` |
-| 黄色圆圈![](assets/dot-yellow.png) | =`/interface/images/v4_redux/icons/casebuilder/light_yellow.gif` |
+| 皱眉脸![皱眉脸](assets/face-sad.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif` |
+| 快乐的脸![快乐的脸](assets/face-happy.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif` |
+| 蓝色标志![蓝色标志](assets/flag-blue-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_blue.gif` |
+| 绿色标志![绿色标志](assets/flag-green-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_green.gif` |
+| 红色标志![红色标志](assets/flag-red-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_red.gif` |
+| 黄色标志![黄色标志](assets/flag-yellow-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif` |
+| 黑色圆圈![黑色圆圈](assets/dot-black.png) | =`/interface/images/v4_redux/icons/casebuilder/light_black.gif` |
+| 蓝色圆圈![蓝色圆圈](assets/dot-blue.png) | =`/interface/images/v4_redux/icons/casebuilder/light_blue.gif` |
+| 灰色圆圈![灰色圆圈](assets/dot-gray.png) | =`/interface/images/v4_redux/icons/casebuilder/light_grey.gif` |
+| 绿色圆圈![绿色圆圈](assets/dot-green.png) | =`/interface/images/v4_redux/icons/casebuilder/light_green.gif` |
+| 橙色圆圈![橙色圆圈](assets/dot-orange.png) | =`/interface/images/v4_redux/icons/casebuilder/light_orange.gif` |
+| 粉红色圆圈![粉红色圆圈](assets/dot-pink.png) | =`/interface/images/v4_redux/icons/casebuilder/light_pink.gif` |
+| 紫色圆圈![紫色圆圈](assets/dot-purple.png) | =`/interface/images/v4_redux/icons/casebuilder/light_purple.gif` |
+| 红色圆圈![红色圆圈](assets/dot-red.png) | =`/interface/images/v4_redux/icons/casebuilder/light_red.gif` |
+| 白色圆圈![白色圆圈](assets/dot-white.png) | =`/interface/images/v4_redux/icons/casebuilder/light_white.gif` |
+| 黄色圆圈![黄色圆圈](assets/dot-yellow.png) | =`/interface/images/v4_redux/icons/casebuilder/light_yellow.gif` |
 
 {style="table-layout:auto"}
 

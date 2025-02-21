@@ -6,9 +6,9 @@ description: 您可以使用文本模式编辑列表或报表中的分组，以�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1539'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 0%
 1. 执行下列操作之一：
 
    1. 若要从报表访问分组，请转到该报表，然后单击&#x200B;**报表操作** > **编辑** > **分组**&#x200B;选项卡。
-   1. 要从列表中访问分组，请转到该列表，然后从&#x200B;**分组**&#x200B;下拉菜单中，将鼠标悬停在要修改的分组上，然后单击&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)。
+   1. 要从列表中访问分组，请转到该列表，然后从&#x200B;**分组**&#x200B;下拉菜单中，将鼠标悬停在要修改的分组上，然后单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
 
       此时将打开分组生成器。
 

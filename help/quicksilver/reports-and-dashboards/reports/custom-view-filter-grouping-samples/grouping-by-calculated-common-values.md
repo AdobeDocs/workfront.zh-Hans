@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '分组：按分组中所有对象通用的计算值组织列表结果'
+title: 分组：按分组中所有对象通用的计算值组织列表结果
 description: 您可能希望在0-25、26-50、51-75、75-99和100的范围内查看按完成百分比分组的任务。 您可以使用文本模式创建分组以执行此操作。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 93b743ce-7e54-4a96-933b-912e2107a84f
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 您可能希望在0-25、26-50、51-75、75-99和100的范围内查看按完成百分比分组的任务。 您可以使用文本模式创建分组以执行此操作。
 
-![](assets/grouping-calculated-value-column-to-all-objects.png)
+![按计算值分组](assets/grouping-calculated-value-column-to-all-objects.png)
 
 ## 访问要求
 

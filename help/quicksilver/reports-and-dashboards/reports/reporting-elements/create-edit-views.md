@@ -6,9 +6,9 @@ description: 您可以使用视图自定义在屏幕上显示的信息类型。 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1718'
+source-wordcount: '1731'
 ht-degree: 1%
 
 ---
@@ -123,7 +123,7 @@ ht-degree: 1%
          <tbody> 
           <tr> 
            <td role="rowheader"><strong>自定义列标签</strong></td> 
-           <td><p>指定列的自定义标签。 此标签将替换默认标签。</p></td> 
+           <td><p>指定列的自定义标签。 此标签将替换默认标签。 我们建议仅使用UTF-8字符以避免兼容性问题。</p></td> 
           </tr> 
           <tr> 
            <td role="rowheader"><strong>字段格式</strong></td> 
@@ -179,7 +179,7 @@ ht-degree: 1%
       您无法自定义默认的Agile视图。
 
    1. 再次单击&#x200B;**视图**&#x200B;下拉菜单，然后单击&#x200B;**自定义视图**。\
-      ![](assets/view-agile-customize.png)
+      ![自定义视图](assets/view-agile-customize.png)
 
 1. （视情况而定）要新建Agile视图，请单击&#x200B;**新建视图**。\
    此时将显示&#x200B;**自定义Agile视图**&#x200B;对话框。

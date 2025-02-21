@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: “视图：已分配用户的公司和主组”
+title: 视图：已分配用户的公司和主组
 description: 此任务视图显示任务的主要所有者的公司和主组。 这些值在标准界面中不可用，但可通过文本模式访问。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 818c1f3a-4e82-4dc3-af86-4f9dcf5c11a4
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 此任务视图显示任务的主要所有者的公司和主组。 这些值在标准界面中不可用，但可通过文本模式访问。
 
-![](assets/view--assigned-user-s-company-and-home-group-350x80.png)
+![查看已分配用户的公司和主组](assets/view--assigned-user-s-company-and-home-group-350x80.png)
 
 ## 访问要求
 

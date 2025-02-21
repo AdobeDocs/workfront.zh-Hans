@@ -7,9 +7,9 @@ description: 报表常见问题解答
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 0%
 ### 答案
 
 报告或日历可能具有指向已登录用户的通配符筛选器变量。 在这种情况下，报表会根据登录的用户显示信息。 调整筛选器以删除指向已登录用户的通配符。\
-![](assets/qs--user.id-filter-variable-350x79.png)
+![用户ID筛选器变量](assets/qs--user.id-filter-variable-350x79.png)
 
 有关基于用户的通配符筛选器变量概述的完整列表，请参阅[通配符筛选器变量概述](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)。
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 1. 选择&#x200B;**Equal**&#x200B;修饰符。
 1. 在文本框中开始键入&#x200B;*$$USER.ID*，并从显示的下拉列表中选择它。\
    这可确保您看到分配给登录用户的所有任务和问题。 您可以使用特定用户名替换通配符。\
-   ![](assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png)
+   ![分配给我的任务](assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png)
 
 1. 单击&#x200B;**保存+关闭**。
 
@@ -143,7 +143,7 @@ ht-degree: 0%
 * 如果将&#x200B;**视图**&#x200B;应用于这些列表，并且该列表选择了项目默认货币以外的货币，则不会显示链接。 将&#x200B;**视图**&#x200B;更改为&#x200B;**项目的原始货币**，将显示链接，以便您可以将问题和任务添加到项目中。\
   有关更改视图中的货币的详细信息，请参阅[创建具有唯一汇率的财务数据报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)。
 
-![](assets/nwe-project-original-currency-350x229.png)
+![项目货币](assets/nwe-project-original-currency-350x229.png)
 
 ## 我的报表或仪表板中的信息是否会自动刷新？
 

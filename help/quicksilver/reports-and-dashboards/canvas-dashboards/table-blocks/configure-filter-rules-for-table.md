@@ -4,9 +4,9 @@ description: 在报告画布中过滤表
 hidefromtoc: true
 hide: true
 exl-id: 1838b142-d845-4795-b27f-80bfba18e9d4
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -46,19 +46,19 @@ ht-degree: 0%
 
 ## 配置表的过滤规则
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**报表**。
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**报表**。
 
 1. 单击&#x200B;**新建报告**。
 
    或
 
-   转到现有报表，单击报表标题中的&#x200B;**更多菜单**&#x200B;图标![](assets/more-icon.png)，然后选择&#x200B;**编辑**。
+   转到现有报表，单击报表标题中的&#x200B;**更多菜单**&#x200B;图标![更多图标](assets/more-icon.png)，然后选择&#x200B;**编辑**。
 
 1. 要将新表中的行分组，请将表块拖动或双击到画布上。
 
    或
 
-   要对现有表中的行进行分组，请单击表标题中的&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)。
+   要对现有表上的行进行分组，请单击表标题中的&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
 
 1. 在右侧面板中，找到要用于筛选表的字段，然后将其拖到筛选条件部分。
 
