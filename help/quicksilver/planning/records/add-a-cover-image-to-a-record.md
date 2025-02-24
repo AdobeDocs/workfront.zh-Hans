@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
+source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '748'
 ht-degree: 1%
 
 ---
@@ -68,8 +68,8 @@ ht-degree: 1%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>贵组织的Workfront实例必须载入AdobeUnified Experience，才能访问Workfront Planning的所有功能。</p> 
-<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">AdobeWorkfront的Unified Experience</a>。 </p> 
+<p>贵组织的Workfront实例必须载入Adobe Unified Experience，才能访问Workfront Planning的所有功能。</p> 
+<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p> 
    </td> 
    </tr> 
   </tr> 
@@ -136,53 +136,46 @@ ht-degree: 1%
 
    或
 
-   从表格视图中，单击第一列中的&#x200B;**打开详细信息**&#x200B;图标![](assets/open-details-icon-in-table-name-field.png)。
+   从表格视图中，单击第一列中的&#x200B;**打开详细信息**&#x200B;图标![打开详细信息图标](assets/open-details-icon-in-table-name-field.png)。
 
    记录的预览将在视图中打开。
 
-   <!--<div class="preview">
+   ![详细信息预览框](assets/details-box.png)
 
-    ![](assets/details-box.png) 
 
-    </div>-->
-
-1. （可选）单击记录预览右上角的&#x200B;**在新标签中打开**&#x200B;图标![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->以在新标签中打开记录页面。
+1. （可选）单击记录预览右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->以在新标签中打开记录页面。
 
    此时将打开记录页面。
 
-   <!--<div class="preview">
-
-    ![](assets/details-page.png)
-
-    </div>-->
+   ![详细信息页面](assets/details-page.png)
 
 1. 在记录预览或详细信息页面中，将鼠标悬停在记录名称上方的空格上，然后单击&#x200B;**添加封面**。
 
    或
 
-   将鼠标悬停在现有封面图像上，单击&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**上传**。 <!--check the casing here; I logged a bug for this-->
+   将鼠标悬停在现有封面图像上，单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击&#x200B;**上传**。 <!--check the casing here; I logged a bug for this-->
 将在**上传**&#x200B;选项卡中打开&#x200B;**记录封面**&#x200B;框。
 
-   ![](assets/record-cover-box-for-upload.png)
+   ![用于上载的记录封面盒](assets/record-cover-box-for-upload.png)
 
 1. 单击&#x200B;**浏览图像**&#x200B;并浏览计算机上的图片以将其选择并添加。
 
-1. （可选）要在保存图像之前删除图像，请单击&#x200B;**上传新图像**&#x200B;图标![](assets/upload-new-image-icon.png)，然后上传新图像。
+1. （可选）要在保存图像之前删除图像，请单击&#x200B;**上载新图像**&#x200B;图标![上载新图像图标](assets/upload-new-image-icon.png)，然后上载新图像。
 
 1. （可选）单击&#x200B;**图库**&#x200B;选项卡，然后单击图像库中的图像。 无法修改图像库。
 
-   ![](assets/record-cover-box-for-gallery.png)
+   ![收藏馆的封面唱片盒](assets/record-cover-box-for-gallery.png)
 
 1. 单击&#x200B;**使用图像**。
 
    图像会上载到记录预览或详细信息页面的顶部，并且更改会自动保存。
 
-   ![](assets/record-page-with-cover-image.png)
+   ![录制包含封面图像的页面](assets/record-page-with-cover-image.png)
 
-1. （可选）将鼠标悬停在图像上，然后单击封面图像右下角的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后执行以下操作之一：
+1. （可选）将鼠标悬停在图像上，然后单击封面图像右下角的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后执行以下操作之一：
 
    * 如果要替换封面图像，请单击&#x200B;**上传**，然后重复步骤6以上传并保存新图像。
-   * 单击&#x200B;**重新定位**，然后使用&#x200B;**重新定位**&#x200B;工具![](assets/reposition-tool-icon.png)将封面图像置中，然后在完成时单击&#x200B;**保存**。
+   * 单击&#x200B;**重新定位**，然后使用&#x200B;**重新定位**&#x200B;工具![重新定位工具图标](assets/reposition-tool-icon.png)将封面图像置中，然后在完成时单击&#x200B;**保存**。
    * 单击“**移除**”移除封面图像。
 
    Workfront会自动保存您所做的更改。

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1479'
 ht-degree: 2%
 
 ---
@@ -74,8 +74,8 @@ ht-degree: 2%
 <tr>
    <td role="rowheader"><p>Adobe Workfront平台</p></td>
    <td>
-<p>贵组织的Workfront实例必须载入AdobeUnified Experience，才能访问Workfront Planning的所有功能。</p>
-<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">AdobeWorkfront的Unified Experience</a>。 </p>
+<p>贵组织的Workfront实例必须载入Adobe Unified Experience，才能访问Workfront Planning的所有功能。</p>
+<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p>
    </td>
 
 </tr>
@@ -169,7 +169,7 @@ ht-degree: 2%
    >    * Workfront Planning connected records' lookup fields
    >    * AEM Assets connection fields-->
 
-   * **默认的分区**：这是Workfront应用于请求表单的默认分区界限。 无法重命名或删除默认部分。
+   * **默认的分区**：这是Workfront应用于请求表单的默认分区界限。 所有记录字段都显示在&#x200B;**默认部分**&#x200B;区域。
    * **主题**&#x200B;字段：将在Workfront中标识该请求的字段。 “主题”字段的配置和值不可编辑。
 
      >[!TIP]
@@ -183,6 +183,12 @@ ht-degree: 2%
 1. （可选）将鼠标悬停在要删除的表单上的任何字段上，然后单击&#x200B;**x**&#x200B;图标以删除它们。 它们已添加到表单左侧的&#x200B;**字段**&#x200B;选项卡中。
 
    例如，删除&#x200B;**主题**&#x200B;字段，因为此字段在Workfront Planning中不可见。<!--remove this step when we connect intake with the Requests area in Workfront-->
+1. （可选）要从表单中删除&#x200B;**默认节**，请执行以下操作：
+
+   1. 从“默认部分”中删除所有字段。
+   1. 单击&#x200B;**内容元素**&#x200B;并添加新分区，然后为该分区添加名称。
+   1. 向新部分添加字段。
+   1. 单击&#x200B;**x**&#x200B;图标可删除&#x200B;**默认部分**。
 1. 单击任意字段，然后使用表单右侧面板中的控件定义其大小或以下任何信息：
 
    * **标签**：这是显示在请求表单中的字段名称。 这不会更改记录字段的名称。
@@ -220,11 +226,11 @@ ht-degree: 2%
      有关将审批添加到请求表单的详细信息，请参阅[将审批添加到请求表单](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
 
 1. （可选）单击标题中表单名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**编辑**&#x200B;以更新表单名称。
-1. 单击&#x200B;**Publish**&#x200B;发布表单并获取其唯一链接。
+1. 单击&#x200B;**发布**&#x200B;发布表单并获取其唯一链接。
 
    出现以下情况：
 
-   * 已删除&#x200B;**Publish**&#x200B;按钮。
+   * **发布**&#x200B;按钮已删除。
    * **取消发布**&#x200B;按钮已添加到表单中。 单击此按钮将阻止访问表单。
    * **共享**&#x200B;按钮已添加到表单。
 

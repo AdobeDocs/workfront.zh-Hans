@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
+source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
 workflow-type: tm+mt
-source-wordcount: '1624'
+source-wordcount: '1772'
 ht-degree: 0%
 
 ---
@@ -78,8 +78,8 @@ ht-degree: 0%
 <tr>
    <td role="rowheader"><p>Adobe Workfront平台</p></td>
    <td>
-<p>贵组织的Workfront实例必须载入AdobeUnified Experience，才能访问Workfront Planning的所有功能。</p>
-<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">AdobeWorkfront的Unified Experience</a>。 </p>
+<p>贵组织的Workfront实例必须载入Adobe Unified Experience，才能访问Workfront Planning的所有功能。</p>
+<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p>
    </td>
 
 </tr>
@@ -157,29 +157,29 @@ ht-degree: 0%
 
    或
 
-   从表格视图中，单击第一列中的&#x200B;**打开详细信息**&#x200B;图标![](assets/open-details-icon-in-table-name-field.png)。
+   从表格视图中，单击第一列中的&#x200B;**打开详细信息**&#x200B;图标![在表格名称字段](assets/open-details-icon-in-table-name-field.png)中打开详细信息图标。
 
    记录的预览将在视图中打开。
 
    <!--<div class="preview">
 
-    ![](assets/details-box.png)  
+    ![Details box](assets/details-box.png)  
 
     </div>-->
 
-1. （可选）单击记录预览右上角的&#x200B;**在新标签中打开**&#x200B;图标![](assets/open-details-in-a-new-tab-icon.png)以在新标签中打开记录页面。
+1. （可选）单击记录预览右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开详细信息](assets/open-details-in-a-new-tab-icon.png)以在新标签中打开记录页面。
 
    此时将打开记录页面。 默认情况下，将打开“详细信息”选项卡。
 
-   ![](assets/details-page.png)
+   ![详细信息页面](assets/details-page.png)
 
-1. 在记录预览或页面的&#x200B;**详细信息**&#x200B;选项卡中，将鼠标悬停在字段左侧的空格上，然后单击&#x200B;**添加节**&#x200B;图标![](assets/add-section-icon.png)以添加节。
+1. 在记录预览或页面的&#x200B;**详细信息**&#x200B;选项卡中，将鼠标悬停在字段左侧的空格上，然后单击&#x200B;**添加节**&#x200B;图标![添加节图标](assets/add-section-icon.png)以添加节。
 1. 单击该节的名称并用名称替换&#x200B;**无标题节**，然后单击Enter。 在部分下显示的字段自动成为新部分的一部分。
 1. 开始将字段拖放到新部分，如本文中记录预览或详细信息页面](#rearrange-fields-in-the-record-preview-or-details-page)中的[重新排列字段部分所述。
 
-1. （可选）将鼠标悬停在节名称上并单击&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)。
+1. （可选）将鼠标悬停在节名称上，然后单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)。
 
-   ![](assets/more-menu-options-for-section-on-record-page.png)
+   记录页面](assets/more-menu-options-for-section-on-record-page.png)上节的![更多菜单选项
 1. （可选）执行以下操作之一以编辑部分：
 
    * 单击&#x200B;**重命名**&#x200B;以重命名该节
@@ -200,19 +200,19 @@ ht-degree: 0%
 1. 单击区域名称左侧的向下箭头可将其折叠，单击向右箭头可将其展开。
 默认情况下，所有部分都处于扩展状态。
 
-1. （可选）单击节名称左侧的&#x200B;**抓取**&#x200B;图标![](assets/grab-icon.png)，然后将其拖放到所需位置。
+1. （可选）单击节名称左侧的&#x200B;**抓取**&#x200B;图标![抓取图标](assets/grab-icon.png)，然后将其拖放到所需位置。
 
    对于查看记录的所有用户，相同类型的所有记录的预览和页面中的区段新位置都会更新。
 
    对部分和字段顺序的所有更改都将自动保存。
 
-1. （可选）单击&#x200B;**导出**&#x200B;菜单![](assets/export-icon-in-record-details-page.png)以将“详细信息”选项卡导出到Word或PDF文件。 有关详细信息，请参阅[导出记录的详细信息](/help/quicksilver/planning/records/export-the-record-page.md)。
+1. （可选）单击记录详细信息页面](assets/export-icon-in-record-details-page.png)中的&#x200B;**导出**&#x200B;菜单![导出图标，以将“详细信息”选项卡导出到Word或PDF文件。 有关详细信息，请参阅[导出记录的详细信息](/help/quicksilver/planning/records/export-the-record-page.md)。
 
 1. （可选）单击&#x200B;**详细信息**&#x200B;选项卡旁边的&#x200B;**连接**&#x200B;选项卡。 在单击“**连接**”选项卡之前，您可能必须单击“**更多**”。
 
    连接到选定记录的所有记录或对象都显示在记录类型或它们所属应用程序的名称下。
 
-   ![](assets/connections-tab-on-record-in-workfront-planning.png)
+   Workfront Planning中记录的![连接选项卡](assets/connections-tab-on-record-in-workfront-planning.png)
 
 1. （可选）选择“连接”选项卡右上角的&#x200B;**显示所有记录**&#x200B;设置。 所有连接的记录类型都会显示，包括尚未连接任何记录的类型。 默认情况下，此切换处于取消选中状态，并且隐藏没有连接记录的记录类型。
 
@@ -240,27 +240,27 @@ ht-degree: 0%
 
    或
 
-   从表格视图中，单击第一列中的&#x200B;**打开详细信息**&#x200B;图标![](assets/open-details-icon-in-table-name-field.png)。
+   从表格视图中，单击第一列中的&#x200B;**打开详细信息**&#x200B;图标![在表格名称字段](assets/open-details-icon-in-table-name-field.png)中打开详细信息图标。
 
    记录的预览将在视图中打开。
 
    <!--<div class="preview">
 
-    ![](assets/details-box.png) 
+    ![Details box](assets/details-box.png) 
 
     </div>-->
 
-1. （可选）单击记录预览右上角的&#x200B;**在新标签中打开**&#x200B;图标![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->以在新标签中打开记录页面。
+1. （可选）单击记录预览右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签图标中打开详细信息框](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->以在新标签中打开记录页面。
 
    默认情况下将打开记录的&#x200B;**详细信息**&#x200B;选项卡。
 
    <!--<div class="preview">
 
-   ![](assets/details-page.png)
+   ![Details page](assets/details-page.png)
 
    </div>-->
 
-1. 在记录&#x200B;**详细信息**&#x200B;选项卡中，单击字段名称左侧的&#x200B;**抓取**&#x200B;图标![](assets/grab-icon.png)，然后将其拖放到所需位置。<!--You can drag and drop fields to another section. You must have at least one field in a section.-->
+1. 在记录&#x200B;**详细信息**&#x200B;选项卡中，单击字段名称左侧的&#x200B;**抓取**&#x200B;图标![抓取图标](assets/grab-icon.png)，然后将其拖放到所需位置。<!--You can drag and drop fields to another section. You must have at least one field in a section.-->
 
    对于查看记录的所有用户，字段的新位置会在相同类型的所有记录的预览和页面中更新。
 
@@ -268,40 +268,64 @@ ht-degree: 0%
 
 ## 将“连接”视图页面添加到记录的页面
 
+<!--suggested a new name for this type of page: "Connected records details" - check to see if this changed-->
+
 向记录页面添加连接视图时，请考虑以下事项：
 
 * 您可以将连接视图页面添加到记录的页面。
 
 * 无法将“连接”视图页面添加到记录的预览区域。
 
-* “连接”视图页面在表格视图中显示一个连接的记录页面。 表格视图是只读的。
+* “连接”视图页面在表格视图中显示一个连接的记录页面。 表格视图是只读的。<!--more views might be added in the future-->
 
 * 您可以为每个连接的记录类型添加一个“连接”视图页。 <!--edit this when we can remove fields from this page-->
 
-* 将“连接”视图页面添加到记录页面后，该页面将从记录的预览区域可见。
+* 将“连接”视图页面添加到记录页面后，即可在记录的预览区域看到页面选项卡。 您必须转到整页以查看所连接记录的表视图。<!--this might have changed? check and take disclaimer out-->
 
 添加“连接”视图页：
 
-1. 从记录页面视图中，单击记录名称以将其打开，然后单击预览页面右上角的&#x200B;**在新标签中打开**&#x200B;图标![](assets/open-details-in-a-new-tab-icon.png)。
+1. 从记录页面视图中，单击记录名称以将其打开，然后单击预览页面右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开详细信息](assets/open-details-in-a-new-tab-icon.png)。
 1. 单击&#x200B;**添加页面** > **连接视图**。
 
-   ![](assets/add-connection-view-page-modal.png)
+   ![添加连接视图页面模式](assets/add-connection-view-page-modal.png)
 1. 添加&#x200B;**页面名称**，单击&#x200B;**连接视图**，然后单击&#x200B;**创建**。
 
    新选项卡将添加到记录的页面。
 1. 搜索或单击列表中连接的记录或对象类型的名称。
 您选择的记录类型的表格视图会显示，并且连接的记录会显示在表格视图中。
-表格视图是只读的。
+已连接记录的所有字段都显示在已连接记录选项卡的表视图中。
 
-   ![](assets/audience-connected-table-view-under-campaign-details-page.png)
+   <!--<span class="preview">When you access Workfront Planning from the Preview environment, five fields from the connected record display in the connected record's table view by default. Some connection fields display in addition to other fields. All lookup fields are hidden.</span> (*****be more specific about which connected fields show, if Robert responds*******)-->
+
+   表格视图是只读的。
+
+   <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
+
+   在营销活动详细信息下![受众连接的表视图](assets/audience-connected-table-view-under-campaign-details-page.png)
 1. （可选）双击选项卡的名称
 
    或
 
-   将鼠标悬停在该选项卡的名称上，单击&#x200B;**更多** ![](assets/more-menu.png)，然后单击&#x200B;**重命名**&#x200B;以重命名为新的“连接的视图”选项卡。
-1. （可选）使用工具栏中的任何视图元素来管理表格视图。 有关信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)。
-1. （可选）将鼠标悬停在该选项卡的名称上，单击&#x200B;**更多** ![](assets/more-menu.png)，然后单击&#x200B;**删除**&#x200B;以移动到新的“连接的视图”选项卡。
+   将鼠标悬停在该选项卡的名称上，然后单击&#x200B;**更多** ![更多菜单](assets/more-menu.png)，然后单击&#x200B;**重命名**&#x200B;以重命名为新的“连接的视图”选项卡。
+1. （可选）使用工具栏中的以下任意视图元素来管理表格视图
 
+   * 过滤器
+   * 排序
+   * 分组
+
+   <!--Add to the list above some of the capabilities in the note with a preview tag when they are available.-->
+
+   有关信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)。
+
+   >[!NOTE]
+   >
+   >   您无法在已连接记录选项卡的表视图中执行以下任何操作：
+   >
+   >   * 隐藏字段
+   >   * 创建、编辑或删除字段
+   >   * 重新排列字段
+   >
+1. （可选）将鼠标悬停在该选项卡的名称上，单击&#x200B;**更多** ![更多菜单](assets/more-menu.png)，然后单击&#x200B;**删除**&#x200B;以删除到新的“连接的视图”选项卡。
 
 
 <!--

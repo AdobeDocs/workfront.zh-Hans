@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '913'
 ht-degree: 0%
 
 ---
@@ -68,8 +68,8 @@ ht-degree: 0%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>贵组织的Workfront实例必须载入AdobeUnified Experience，才能访问Workfront Planning的所有功能。</p> 
-<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">AdobeWorkfront的Unified Experience</a>。 </p> 
+<p>贵组织的Workfront实例必须载入Adobe Unified Experience，才能访问Workfront Planning的所有功能。</p> 
+<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p> 
    </td> 
    </tr> 
   </tr> 
@@ -132,9 +132,9 @@ ht-degree: 0%
 
    这将打开记录类型页面。
 1. 从&#x200B;**视图**&#x200B;下拉菜单中选择一个表视图。 所选类型的所有记录都会显示在表格中。
-1. 将鼠标悬停在主字段信息上，单击&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**缩略图**。
+1. 将鼠标悬停在主字段信息上，单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击&#x200B;**缩略图**。
 
-   ![](assets/record-more-menu-expanded.png)
+   ![录制更多菜单已展开](assets/record-more-menu-expanded.png)
 
    >[!TIP]
    >
@@ -180,15 +180,15 @@ ht-degree: 0%
 1. 从任何视图中，单击记录以将其打开。
 
    将显示详细信息预览框。
-1. （可选）单击右上角的&#x200B;**在新标签中打开**&#x200B;图标![](assets/open-details-in-a-new-tab-icon.png)。
+1. （可选）单击右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开详细信息](assets/open-details-in-a-new-tab-icon.png)。
 
    此时将打开记录的详细信息页面。
 
-1. （视情况而定）在记录预览或详细信息页面中，将鼠标悬停在缩略图图像或图标![](assets/record-thumbnail-icon-on-details-page.png)上，然后将鼠标悬停在记录名称上方的空格上，然后单击“**添加缩略图**”或“**编辑缩略图**”。
+1. （视情况而定）在记录预览或详细信息页面中，将鼠标悬停在详细信息页面上的缩略图图像或图标![记录缩略图图标](assets/record-thumbnail-icon-on-details-page.png)上，然后将鼠标悬停在记录名称上方的空格上，然后单击&#x200B;**添加缩略图**&#x200B;或&#x200B;**编辑缩略图**。
 
    默认情况下，**上传**&#x200B;选项卡会在&#x200B;**记录缩略图**&#x200B;框中打开。
 
-   ![](assets/record-thumbnail-box-for-upload.png)
+   ![录制用于上载的缩略图框](assets/record-thumbnail-box-for-upload.png)
 
 1. 拖放要作为缩略图添加的文件
 
@@ -197,12 +197,12 @@ ht-degree: 0%
    单击&#x200B;**浏览图像**，然后浏览要添加的图像文件。 文件必须保存在计算机上。
 
 1. （可选）在&#x200B;**记录缩略图**&#x200B;框中上传图像后，使用大小调整工具裁切图像并调整其大小。
-1. （可选）单击&#x200B;**上传新图像**&#x200B;图标![](assets/upload-new-image-icon.png)以上传其他图像。
+1. （可选）单击&#x200B;**上传新图像**&#x200B;图标![上传新图像图标](assets/upload-new-image-icon.png)以上传其他图像。
 1. （可选）单击&#x200B;**图库**&#x200B;选项卡，然后单击图像。 无法修改图像库。
 
-   ![](assets/record-thumbnail-box-for-gallery.png)
+   ![录制图库的缩略图框](assets/record-thumbnail-box-for-gallery.png)
 
-1. （可选）要在保存缩略图之前删除缩略图，请单击图像右侧的&#x200B;**删除**&#x200B;图标![](assets/remove-image-icon.png)。
+1. （可选）要在保存缩略图之前删除缩略图，请单击图像右侧的&#x200B;**删除**&#x200B;图标![删除图像图标](assets/remove-image-icon.png)。
 
 1. 单击&#x200B;**使用图像**将图像添加为缩略图。
 这将关闭**录制缩略图**框。
@@ -212,7 +212,7 @@ ht-degree: 0%
    >
    >   必须启用表格视图中的缩略图字段才能在此视图中显示缩略图。 默认情况下处于禁用状态。
 
-1. （可选）要在保存缩略图后将其删除，请单击任意视图中的记录以打开详细信息页面，然后将鼠标悬停在缩略图图像上，然后单击&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)>**删除**&#x200B;图标![](assets/remove-image-icon.png)。 缩略图图像将被删除。
+1. （可选）要在保存缩略图后将其删除，请单击任意视图中的记录以打开详细信息页面，然后将鼠标悬停在缩略图图像上，然后单击&#x200B;**更多**&#x200B;菜单![更多菜单图标](assets/more-menu.png)> **删除**&#x200B;图标![删除图标](assets/remove-image-icon.png)。 缩略图图像将被删除。
 
 
 
