@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1105'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,14 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->我们建议您取消激活已离开组织的用户，而不是删除他们。 如果删除某个用户，则与该用户相关联的Workfront中的所有历史记录都将丢失。 这包括他们的工作分配、他们与注释、小时、文档以及他们曾经创建的所有其他对象的关联。
+>* 我们建议您取消激活已离开组织的用户，而不是删除他们。 如果删除某个用户，则与该用户相关联的Workfront中的所有历史记录都将丢失。 这包括他们的工作分配、他们与注释、小时、文档以及他们曾经创建的所有其他对象的关联。
 >
->在Workfront中停用用户会移除用户对Workfront和数字校对的许可证。 此外，不能再为用户分配工作。 当用户被停用时，该用户的Workfront许可证和验证许可证将可供其他用户使用。 已停用用户配置文件中的所有其他信息保持不变。
+>   在Workfront中停用用户会移除用户对Workfront和数字校对的许可证。 此外，不能再为用户分配工作。 当用户被停用时，该用户的Workfront许可证和验证许可证将可供其他用户使用。 已停用用户配置文件中的所有其他信息保持不变。
 >
->有关删除和停用用户的影响的更多信息，请参阅[删除用户](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)。
+>   有关删除和停用用户的影响的更多信息，请参阅[删除用户](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)。
+>
+>* 在Workfront中停用用户不会从Adobe Admin Console的Workfront产品配置文件中删除该用户。
+
 
 ## 访问要求
 

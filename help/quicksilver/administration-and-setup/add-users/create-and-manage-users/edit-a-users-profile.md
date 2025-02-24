@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
 workflow-type: tm+mt
-source-wordcount: '3276'
+source-wordcount: '3325'
 ht-degree: 0%
 
 ---
@@ -86,8 +86,8 @@ ht-degree: 0%
       <td> 
        <ul> 
         <li><p><b>名</b></p></li>
-        <li><p><b>姓</b></p></li> 
-        <li> <p><b>电子邮件地址：</b>用户的电子邮件地址也是他们在Workfront中的用户名。 此字段区分大小写，并且必须是唯一的。 如果任何用户尝试在10分钟窗口内添加非唯一电子邮件地址3次，则会显示reCAPTCHA响应。</p> <p> 选择<b>我不是自动机</b>设置，然后才能继续。</p><p>如果您使用电子邮件允许列表并输入不在列表中的电子邮件域，则用户不会收到电子邮件通知。 有关允许列表列入允许列表的详细信息，请参阅<a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md" class="MCXref xref">配置电子邮件</a>。</p> </li> 
+        <li><p><b>姓</b></p><p><b>注意：</b></p><p>在Workfront中编辑用户名不会在Adobe Admin Console中编辑用户名。</p></li> 
+        <li> <p><b>电子邮件地址：</b>用户的电子邮件地址也是他们在Workfront中的用户名。 此字段区分大小写，并且必须是唯一的。 如果任何用户尝试在10分钟窗口内添加非唯一电子邮件地址3次，则会显示reCAPTCHA响应。</p> <p> 选择<b>我不是自动机</b>设置，然后才能继续。</p><p>如果您使用电子邮件允许列表并输入不在列表中的电子邮件域，则用户不会收到电子邮件通知。 有关允许列表列入允许列表的详细信息，请参阅<a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md" class="MCXref xref">配置电子邮件</a>。</p><p>如果贵组织已迁移到Adobe Admin Console，则无法在Workfront中编辑用户的电子邮件地址。 用户的电子邮件地址是在Adobe Admin Console中设置的。 </li> 
         <li> <p><b>重置密码</b>：单击此链接可重置用户的密码。 在重置其他用户的密码之前，必须输入自己的密码。</p> <p>要重置其他用户的密码，您必须是Workfront管理员或组管理员。</p> <p><b>注释</b>：  
           <ul> 
            <li> <p>如果您是组管理员，则只能为您指定为管理员的组中的用户重置密码。 此外，必须在您的访问级别中启用“用户管理员（组用户）”权限：</p> <p> <img src="assets/group-admin-user.png" > </p> <p>默认情况下禁用此设置。 有关详细信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </li> 
