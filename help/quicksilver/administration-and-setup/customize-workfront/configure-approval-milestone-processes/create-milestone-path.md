@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
+source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 3%
+source-wordcount: '700'
+ht-degree: 2%
 
 ---
 
@@ -22,6 +22,10 @@ ht-degree: 3%
 <!--
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
+
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 作为Adobe Workfront管理员，您可以创建里程碑路径，这些路径随后可以应用于系统中的任何项目。 您对此区域中的里程碑路径所做的更改会影响整个Workfront系统。
 
@@ -116,3 +120,38 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
    您的里程碑路径已准备好与项目关联。
 
    有关如何将里程碑路径与项目关联以及将里程碑与任务关联的更多信息，请参阅[将里程碑与任务关联](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)。
+
+
+## 在报告中查看里程碑路径详细信息
+
+您可以在项目报告中查看里程碑路径的详细信息。
+
+必须先将里程碑路径与项目关联，然后才能在项目报告中查看其详细信息。
+
+有关将里程碑路径关联到项目的信息，请参阅[编辑项目](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md)。
+
+{{step1-to-reports}}
+
+1. 单击&#x200B;**新建报告**，然后单击&#x200B;**项目**。
+1. 单击&#x200B;**添加列**。
+1. 在&#x200B;**显示在此列**&#x200B;的区域中，开始输入&#x200B;**里程碑路径**，然后在显示时单击&#x200B;**里程碑路径名称**。
+1. （可选）单击&#x200B;**筛选器**&#x200B;并将以下筛选器添加到报表中： **项目里程碑路径ID不为空**。
+
+   该过滤器可确保只显示与报告中的里程碑路径关联的项目。
+
+1. 单击&#x200B;**保存+关闭**。
+1. 为报告添加名称，然后单击&#x200B;**应用**。
+
+   此时将显示项目报告。 与每个项目关联的里程碑路径将显示在报告的最后一列。
+1. 单击报表最后一列中的里程碑路径的名称。
+
+   此时将显示里程碑路径的详细信息。 还会显示有关每个里程碑的详细信息。
+
+   项目报告中的![里程碑路径详细信息](assets/milestone-details-from-project-report.png)
+
+   <!--replace screen shot above with unshimming and mark it for Preview-->
+
+1. （可选）单击&#x200B;**返回**&#x200B;以返回项目报告。
+
+
+

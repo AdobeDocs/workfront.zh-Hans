@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
+source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
 workflow-type: tm+mt
 source-wordcount: '1772'
 ht-degree: 0%
@@ -295,7 +295,7 @@ ht-degree: 0%
 您选择的记录类型的表格视图会显示，并且连接的记录会显示在表格视图中。
 已连接记录的所有字段都显示在已连接记录选项卡的表视图中。
 
-   <!--<span class="preview">When you access Workfront Planning from the Preview environment, five fields from the connected record display in the connected record's table view by default. Some connection fields display in addition to other fields. All lookup fields are hidden.</span> (*****be more specific about which connected fields show, if Robert responds*******)-->
+   <!--<span class="preview">When you access Workfront Planning from the Preview environment, the first five fields from the connected record table display by default. No lookup fields display by default. -->
 
    表格视图是只读的。
 
@@ -313,7 +313,7 @@ ht-degree: 0%
    * 排序
    * 分组
 
-   <!--Add to the list above some of the capabilities in the note with a preview tag when they are available.-->
+   <!--Add to the list above from the list below - and condition these for Preview only: Hide fields, rearrange fields-->
 
    有关信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)。
 

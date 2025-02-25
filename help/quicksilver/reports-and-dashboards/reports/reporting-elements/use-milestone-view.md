@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: reporting-elements
 title: 使用里程碑视图
-description: 您可以将“里程碑”视图应用于项目列表或报告。
+description: 您可以将“里程碑”视图应用于项目列表或报告。 您可以使用“里程碑”视图查看与您正在查看的项目中的任务关联的所有里程碑。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1360'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,13 @@ ht-degree: 0%
 
 <!-- Audited: 11/2024 -->
 
-您可以将“里程碑”视图应用于项目列表或报告。
+您可以将“里程碑”视图应用于项目列表或报告。 您可以使用“里程碑”视图查看与您正在查看的项目中的任务关联的所有里程碑。
 
-在使用里程碑视图之前，需要配置里程碑，需要向项目添加里程碑路径，并且里程碑需要与任务关联，如文章[创建里程碑路径](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)和[将里程碑与任务关联](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)中所述。
+在使用里程碑视图之前，必须存在以下元素：
+
+* 里程碑路径已配置。 有关信息，请参阅[创建里程碑路径](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)。
+* 需要添加到项目的里程碑路径。 有关信息，请参阅[编辑项目](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md)。
+* 里程碑与任务相关联。 有关信息，请参阅[将里程碑与任务关联](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)。
 
 查看项目列表或项目报告时，里程碑视图可用。 以下各节介绍如何查看和使用里程碑视图。
 
