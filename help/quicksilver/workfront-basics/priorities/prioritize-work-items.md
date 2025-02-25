@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 31793b0e-444c-492c-b1a2-909a2e97628b
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '200'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 1%
 # 优先处理重要工作项目
 
 您可以使用“我的焦点”列来确定您的工作的优先级。 “我的焦点”列是个人价值，不影响为任务或问题设置的优先级。
+
+优先级显示分配给您的工作项。 您看不到分配给您团队的工作项。
 
 ## 使用“我的焦点”列排定您的工作的优先级
 

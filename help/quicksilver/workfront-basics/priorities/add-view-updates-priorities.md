@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: a7237746-0a18-408b-b932-8a608fd72eee
-source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # 在优先级中添加和查看注释
 
 您可以在任务或问题中添加更新，以向他人传达工作项的进度。
+
+优先级显示分配给您的工作项。 您看不到分配给您团队的工作项。
 
 ## 访问要求
 

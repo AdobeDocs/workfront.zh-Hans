@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '1019'
 ht-degree: 3%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 3%
 * 管理和优先处理日常任务：通过整合的导航功能组织您的日常或一周的工作，提高清晰度
 * 更高的工作效率：访问项目上下文并更快速地执行任务，只需较少的点击次数
 * 个性化功能：从专为任务所有者设计的功能中获益
+
+优先级工作列表和日历显示分配给您的工作项。 您看不到分配给您团队的工作项。
 
 ## 查找并组织您的工作
 

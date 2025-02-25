@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # 自定义优先级工作列表列
 
 您可以在优先级中自定义工作列表上的列，以支持您的工作方式。
+
+优先级显示分配给您的工作项。 您看不到分配给您团队的工作项。
 
 >[!NOTE]
 >

@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 223e84eaccbfddb9a798af2528f4d33060bf60f2
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '642'
 ht-degree: 4%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 4%
 # 使用优先级筛选和分组您的工作
 
 您可以使用筛选器查找要查找的工作，然后应用分组以使其保持井井有条。
+
+优先级显示分配给您的工作项。 您无法在优先级工作列表中看到分配给您团队的工作项。
 
 ## 访问要求
 
@@ -129,7 +131,7 @@ ht-degree: 4%
 
 ## 使用智能筛选器筛选您的工作
 
-使用自然语言快速筛选筛选工作。 您的Workfront实例必须位于新的Workfront计划上，并在AdobeUnified Experience中启用。 有关详细信息，请参阅[AdobeWorkfront的Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+使用自然语言快速筛选筛选工作。 您的Workfront实例必须位于新的Workfront计划上，并在Adobe Unified Experience中启用。 有关详细信息，请参阅[适用于Workfront的Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 {{step1-to-priorities}}
 

@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '422'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 1%
 # 在优先级中查看项目和工作项详细信息
 
 您可以在优先级工作列表中查看项目、任务和问题的详细信息。
+
+优先级显示分配给您的工作项。 您看不到分配给您团队的工作项。
 
 >[!IMPORTANT]
 >

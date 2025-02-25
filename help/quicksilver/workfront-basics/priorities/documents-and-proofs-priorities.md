@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '514'
 ht-degree: 2%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 2%
 # 在优先级中上传文档并创建验证
 
 您可以在优先级中上传文档并创建验证。
+
+优先级显示分配给您的工作项。 您看不到分配给您团队的工作项。
 
 ## 访问要求
 

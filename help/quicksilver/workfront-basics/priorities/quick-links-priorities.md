@@ -5,17 +5,19 @@ description: 您可以在“优先级”中保存经常访问的任务或问题�
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: 2d76077d-2913-40b8-9596-4e201d12ec1a
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
 
-
 # 在优先级中添加和管理快速链接
 
 您可以保存经常在任务或问题中访问的链接，并从“优先级”中的“概述”选项卡访问。
+
+优先级显示分配给您的工作项。 您看不到分配给您团队的工作项。
 
 ## 访问要求
 

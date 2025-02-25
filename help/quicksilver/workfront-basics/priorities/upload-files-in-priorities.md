@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # 按优先级上传文件
 
 您可以从“优先级”工作列表或单个工作项上载文件。 从“优先级”上载的文件会显示在工作项的“文档”选项卡中。
+
+优先级显示分配给您的工作项。 您看不到分配给您团队的工作项。
 
 ## 访问要求
 

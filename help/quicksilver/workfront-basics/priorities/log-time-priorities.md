@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 5457f516-c213-4b82-b033-bc8db943a217
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # 在优先级中记录时间
 
 您可以在Adobe Workfront中记录工作项的时间，以指示您处理这些工作项的小时数。 您的登录时间显示在您的时间表中。
+
+优先级显示分配给您的工作项。 您看不到分配给您团队的工作项。
 
 ## 访问要求
 
@@ -44,7 +46,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>您为其记录时间的工作项的Contribute或更高权限，包括“记录小时数”权限</p> </td> 
+   <td> <p>在您为其记录时间的工作项的Contribute或更高权限，包括“记录小时数”权限</p> </td> 
   </tr> 
  </tbody> 
 </table>

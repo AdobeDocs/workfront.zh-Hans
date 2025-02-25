@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
-source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '263'
 ht-degree: 3%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 3%
    <td role="rowheader"><strong>Adobe Workfront许可证*</strong></td> 
    <td> 
    <p>当前：请求或更高请求；问题审查或更高请求；任务的工作或更高请求</p>
-   <p>新：请求的参与者或更高；问题<!--and documents-->的轻度或更高：标准或更高任务</p> 
+   <p>新：请求的参与者或更高；问题和文档的轻度或更高：标准或更高任务</p> 
    </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,7 @@ ht-degree: 3%
 
 ## 在优先级中创建任务或问题
 
-您可以在项目中创建任务或问题。
+您可以在项目中创建任务或问题。 优先级显示分配给您的工作项。 您无法在优先级工作列表中看到分配给您团队的工作项。
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ ht-degree: 3%
 
 1. 单击右上角的&#x200B;**新建**。
    ![](assets/create-new.png)
-&lt;！ — 生产![](assets/create-new--.png)的新屏幕 — >
+生产![](assets/create-new--.png)的新屏幕
 1. 指定以下信息：
 
    | 字段 | 说明 |
