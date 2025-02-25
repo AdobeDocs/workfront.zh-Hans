@@ -1487,10 +1487,12 @@ ht-degree: 2%
       * 画布仪表板报告类型{#report-types}
          * [画布功能板报表类型概述](reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
          * [将现有报表添加到画布功能板](reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
-        <!--* [Build a KPI report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
-      * [Build a chart report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
-      * [Build a table report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
-      * [Add a pending approvals report to a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)-->
+<!--
+         * [Build a KPI report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
+         * [Build a chart report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
+         * [Build a table report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
+         * [Add a pending approvals report to a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)
+-->
    * 报告 {#reports}
       * [报告](reports-and-dashboards/reports/reports-overview.md)
       * 报告基本信息{#report-basics}
