@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
+source-git-commit: 5510f99e9e5c8c4c5f85953e19563f9ab18b0fae
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
@@ -125,10 +125,11 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 ## 有关向Workfront Planning提交请求的注意事项
 
 * 您只能通过表单的特定链接访问Workfront Planning请求的请求表单。
-* 将请求提交到Workfront Planning后无法编辑请求。
-* 如果表单与批准无关，或者所有批准者都授予了批准，则每个提交的请求都会为您使用的表单创建的记录类型创建记录。
+* 将请求提交到Workfront Planning后，无法在Workfront中编辑该请求。
+* 如果表单未与批准关联，或者所有批准者已授予批准，则每个提交的请求都会为与您使用的表单关联的记录类型创建记录。
 * 通过提交请求表单创建的记录无法与通过任何其他方法添加的记录区分开。 有关信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
 * 已提交的请求将显示在Workfront请求区域的已提交分区的计划选项卡中。
+* 在提交表单后，某些字段类型在请求表单或请求详细信息页面中的显示方式存在限制。 有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
 
 <!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
@@ -153,9 +154,14 @@ Submitting requests to Workfront Planning differs depending on what environment 
 
    >[!TIP]
    >
-   >   This setting is available only when your company has purchased a Workfront Planning package. 
+   >This setting is available only when the following are in place:
+   >
+   >* Your company has purchased a Workfront Planning package. 
+   >* Your Workfront instance is onboarded to the Adobe Unified Experience. 
+   >* You have access to view at least one workspace. 
+   >
 
-1. Click **New request**. (********* update scree shot at release ********)
+1. Click **New request**. (********* update screen shot at release ********)
 
    ![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png)
 
@@ -197,16 +203,25 @@ Submitting requests to Workfront Planning differs depending on what environment 
       >
       >The email and in-app notifications are visible only when your organization's instance of Workfront is onboarded to the Adobe Unified Experience.
 
-1. (Optional) Click the **Planning** tab in the Requests area to view your request. 
+1. (Optional) Click the **Planning** tab in the Requests area to view your request, then click the name of the request. 
+
+   The request details page opens. 
+
+   ![Request details page](assets/request-details-page.png)
+
 1. (Conditional) If the request form is not associated with an approval, or if the request has been approved, click the name of the request, then click the name of the record in the **Record** field. 
 
-   The record's page opens. 
+   The record's page opens in Workfront Planning. 
 
    >[!TIP]
    >
    >* If the record name was not added to the request form, the name of the record in the Record field of the request displays as **Untitled**. 
    >
    >* If the request form is associated with an approval, the approval must be granted before you can access the record from the request page. 
+
+1. (Optional) Click the name of the **Record type**. 
+
+   The record type page opens in Workfront Planning. 
 
 </div>
 
@@ -247,16 +262,25 @@ Submitting requests to Workfront Planning differs depending on what environment 
      >
      >仅当贵组织的Workfront实例载入到Adobe Unified Experience时，电子邮件和应用程序内通知才可见。
 
-1. （可选）单击“请求”区域中的&#x200B;**计划**&#x200B;选项卡以查看您的请求。
+1. （可选）单击“请求”区域中的&#x200B;**Planning**&#x200B;选项卡以查看您的请求，然后单击请求的名称。
+
+   此时将打开请求详细信息页面。
+
+   ![请求详细信息页面](assets/request-details-page.png)
+
 1. （视情况而定）如果请求表单未与批准关联，或者请求已获批准，请单击请求的名称，然后单击&#x200B;**记录**&#x200B;字段中的记录名称。
 
-   此时将打开记录的页面。
+   记录页面将在Workfront Planning中打开。
 
    >[!TIP]
    >
    >* 如果记录名称未添加到请求表单，则请求的“记录”字段中记录的名称将显示为&#x200B;**无标题**。
    >
    >* 如果请求表单与批准关联，则必须先获得批准，然后才能从请求页面访问记录。
+
+1. （可选）单击&#x200B;**记录类型**&#x200B;的名称。
+
+   此时将在Workfront Planning中打开记录类型页面。
 
 
 

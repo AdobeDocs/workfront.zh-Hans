@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
+source-git-commit: 5510f99e9e5c8c4c5f85953e19563f9ab18b0fae
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1538'
 ht-degree: 2%
 
 ---
@@ -115,6 +115,49 @@ ht-degree: 2%
 
 +++
 
+## 请求表单中字段和值显示限制
+
+<!--
+
+There are limitations in how certain fields display on the request form and how their values later display on the records or the request details page, after you submit a request. 
+
+For information about submitting requests to create records, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
+
+The following are limitations for how certain fields display in request forms, records created by a request form, or on the request details page: -->
+
+* 您不能向请求表单添加以下类型的字段：
+
+   * 创建者和上次修改者
+   * 创建日期和上次修改日期
+   * 公式。 预览环境中支持公式字段。
+   * Workfront对象的查找字段
+   * Workfront Planning已连接记录的查找字段
+
+<!--at release to Preview, replace the above with this:  
+>
+>Fields of the following types do not display in the request form:
+>* Created by and Last modified by
+>* Created date and Last modified date
+>* Formula. <span class="preview">Formula fields display in request forms in the Preview environment.</span>
+>* Workfront objects' lookup fields
+>* Workfront Planning connected records' lookup fields-->
+
+* 字段格式在请求表单生成器中显示的方式与值在记录或请求详细信息页面中的格式设置之间的差异：
+
+   * “货币”、“数字”和“百分比”字段在表单生成器中显示为单行文本字段类型。
+
+     但是，字段格式将保留，并且这些字段中的数字值将在记录类型和请求详细信息页面中显示为“货币”、“数字”和“百分比”值。
+
+<!--
+* The following describes how some field values display on request forms and the request details pages: 
+
+   * Special formatting for Currency, Number, and Percentage fields is not preserved. For example, the decimal precision is not preserved for these fields' values in these areas.
+   * People field values display as IDs.
+   * Formula fields that don't refer to other fields or calculations don't display any values. For example, a field with a `STRING` formula displays a "N/A" value.
+   * Formula fields that refer to Currency fields display the values without accounting for exchange rates.
+   * The values of Paragraph fields that contain special formatting display a "N/A" value on the request form and they display html tags instead of the formatted text in the request details page.
+-->
+
 ## 为记录类型创建请求表单
 
 {{step1-to-planning}}
@@ -140,34 +183,6 @@ ht-degree: 2%
    默认情况下，请求表单包含以下信息：
 
    * 所选记录类型的表视图中可用的记录字段。<!--they are working on removing the limitation below-->
-
-   <!-- when we go to prod, the Preview batch below will become the only batch-->
-
-   >[!IMPORTANT]
-   >
-   >以下类型的字段不显示在请求表单中：
-   >
-   >* 创建者和上次修改者
-   >* 创建日期和上次修改日期
-   >* 公式
-   >* Workfront对象的查找字段
-   >* Workfront Planning已连接记录的查找字段
-   >
-
-   <!--before release to prod: 
-    > Depending on what environment you use to create a request form, the following scenarios exist:
-   >
-   >* Fields of the following types do not display in the request form in the Production environment: 
-   >
-   >    * Created by and Last modified by
-   >    * Created date and Last modified date
-   >    * Formula
-   >    * People 
-   >    * Workfront connected fields
-   >    * Workfront objects' lookup fields
-   >    * Workfront Planning records' connected fields
-   >    * Workfront Planning connected records' lookup fields
-   >    * AEM Assets connection fields-->
 
    * **默认的分区**：这是Workfront应用于请求表单的默认分区界限。 所有记录字段都显示在&#x200B;**默认部分**&#x200B;区域。
    * **主题**&#x200B;字段：将在Workfront中标识该请求的字段。 “主题”字段的配置和值不可编辑。
@@ -196,12 +211,10 @@ ht-degree: 2%
    * **生成必填字段**：选定后，该字段必须具有值。 否则，无法提交表单。
    * **添加逻辑**：定义必须满足哪些条件才能显示或隐藏字段。
 
-   >[!NOTE]
+   >[!TIP]
    >
    >   选择表单上的字段后，每个字段的字段类型都会显示在右侧面板的顶部。
-   >   
-   >
-   >   “货币”、“数字”和“百分比”字段显示为“单行”文本字段类型。 但是，字段格式将保留，并且这些字段中的值将显示为货币、数字和百分比值。
+   >     
 
 1. （可选）单击表单左侧的&#x200B;**内容元素**&#x200B;选项卡，然后添加以下任意元素：
 
