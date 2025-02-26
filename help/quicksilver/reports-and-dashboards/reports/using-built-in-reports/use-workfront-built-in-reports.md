@@ -6,9 +6,9 @@ description: Adobe Workfront提供了大量可供使用的内置报告。 Workfr
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '2970'
+source-wordcount: '2986'
 ht-degree: 10%
 
 ---
@@ -19,9 +19,7 @@ ht-degree: 10%
 
 Adobe Workfront提供了大量可使用的内置报告。
 
-Workfront管理员可以隐藏内置报告，这样用户就无权访问它们。
-
-有关如何隐藏内置报告的详细信息，请参阅[隐藏内置报告](../../../administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md)。
+Workfront管理员可以隐藏内置报告，这样用户就无权访问它们。 有关如何隐藏内置报告的详细信息，请参阅[隐藏内置报告](../../../administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md)。
 
 ## 访问要求
 
@@ -67,7 +65,7 @@ Workfront管理员可以隐藏内置报告，这样用户就无权访问它们�
 
 ## 内置报告概述 {#overview-of-built-in-reports}
 
-您可以自定义内置报表并将其另存为新报表。 有关自定义内置报表的详细信息，请参阅[创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
+您可以为内置报告创建副本，并将其另存为新报告。 有关创建内置报告副本的详细信息，请参阅[创建报告副本](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)一文中的[创建报告的新版本](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#create-a-new-version-of-a-report)。
 
 以下报表随Workfront包提供。 对于在访问级别中至少拥有内置报告查看权限的所有用户，报表均可用。
 

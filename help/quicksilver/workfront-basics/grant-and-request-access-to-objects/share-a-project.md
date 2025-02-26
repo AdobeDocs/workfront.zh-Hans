@@ -6,9 +6,9 @@ description: 在分配访问级别时，Adobe Workfront管理员可以向您授�
 author: Alina
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '1007'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 在分配访问级别时，Adobe Workfront管理员可以向您授予查看或编辑项目的权限。 有关详细信息，请参阅[授予对项目的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)。
 
-除了授予用户的访问级别之外，您还可以授予他们查看、Contribute或管理您有权共享的特定项目的权限。
+除了授予用户的访问级别之外，您还可以授予他们查看、贡献或管理您有权共享的特定项目的权限。
 
 权限特定于Workfront中的一个项目，并定义您可以对该项目执行的操作。
 
@@ -104,9 +104,9 @@ ht-degree: 2%
 
 ## 不同许可证类型的限制
 
-* 拥有工作人员许可证的用户无权管理项目。 对于工作人员，最高共享权限为Contribute。
-* 拥有请求许可证的用户可以查看项目信息，但他们具有有限的项目访问权限。
-* 当具有查看或Contribute权限的用户也包含在审批流程中时，项目状态的更改会发生异常。 他们可以审批项目，这更改了项目的状态，但状态为要审批或拒绝的预定义状态。
+* 具有轻度许可证及以下许可证（或旧许可证模型的工作许可证及以下许可证）的用户无权管理项目。 对于这些用户，最高共享权限为Contribute。
+* 具有“参与者”许可证（或旧许可证模型的请求许可证）的用户可以查看项目信息，但他们具有有限的项目访问权限。
+* 当具有“查看”或“贡献”权限的用户也包含在审批流程中时，项目状态的更改会发生异常。 他们可以审批项目，这更改了项目的状态，但状态为要审批或拒绝的预定义状态。
 * 为了能够复制项目，用户还必须具有在其访问级别创建项目的权限。
 
 <!--
@@ -144,206 +144,206 @@ The
   <tr> 
    <th> <p><strong>操作</strong> </p> </th> 
    <th> <p><strong>管理</strong> </p> </th> 
-   <th> <p><strong>Contribute</strong> </p> </th> 
+   <th> <p><strong>参与</strong> </p> </th> 
    <th> <p><strong>视图</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> <p>添加自定义表单</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>更新自定义字段</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>添加审批流程</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>批准项目</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>批准小时</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 } </p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓ </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>创建项目</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>添加文档</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>添加问题</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>添加任务</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>复制项目</p> </td> 
    <td> <p> </p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>删除项目</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>修改计划日期</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>共享项目</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>在系统范围内共享</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>查看项目</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>更新/评论</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>更改状态</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>记录小时数</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>编辑分配</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>管理基线</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>管理风险*</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>管理财务*</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>添加/编辑费用*</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>查看财务*</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>附加模板</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>另存为模板</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>添加/编辑业务案例</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>编辑项目详细信息</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>编辑员工</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>导出至 MS 项目</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>重新计算财务/时间表*</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>设置队列属性</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>在列表中批量编辑项目</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 

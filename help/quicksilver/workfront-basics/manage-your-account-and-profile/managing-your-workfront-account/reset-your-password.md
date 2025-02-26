@@ -6,9 +6,9 @@ description: 您可以重置 [!DNL Adobe Workfront] 密码。 作为一项重要
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,9 @@ ht-degree: 0%
 
 ## 访问要求
 
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。
+
+您必须具备以下条件：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,17 +38,28 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证</strong></td> 
+   <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>参与者或更高版本</p></li>
+         </ul>
+      <p>当前：</p>
+         <ul>
+         <li><p>请求或更高版本</p></li>
+         </ul>
+   </td>
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有什么计划或许可证类型，请与[!DNL Workfront]管理员联系。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 在[!DNL Adobe Workfront]中重置密码
 

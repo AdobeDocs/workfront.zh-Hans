@@ -2,12 +2,12 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '筛选器：通过比较两个字段来消除列表中的项'
+title: 筛选器：通过比较两个字段来消除列表中的项
 description: 您可以通过比较列表的两个字段来筛选列表中的项目。 例如，您可以仅显示任务的实际完成日期晚于计划完成日期的任务。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 6a41db8e-1456-4031-bf2a-ca6d4111ad44
-source-git-commit: 4532e08bddf993426e9d4eed6f7f8bd638663188
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 0%
@@ -74,6 +74,9 @@ ht-degree: 0%
 1. 单击&#x200B;**文本模式**。
 1. 在显示的区域中，添加以下代码：
 
-   `actualCompletionDate=FIELD:plannedCompletionDate<br>actualCompletionDate_Mod=gt`
+   ```
+   actualCompletionDate=FIELD:plannedCompletionDate
+   actualCompletionDate_Mod=gt
+   ```
 
 1. 单击&#x200B;**应用** > **另存为新项**。

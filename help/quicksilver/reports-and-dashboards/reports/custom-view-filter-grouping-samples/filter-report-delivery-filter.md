@@ -2,12 +2,12 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '筛选器：显示计划提交的报表'
+title: 筛选器：显示计划提交的报表
 description: 此报表过滤器显示所有计划在Adobe Workfront中自动交付的报表。 最好将其用于标准视图。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 7b937384-80c9-4bc7-94be-5573cf86b35b
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%
@@ -65,8 +65,16 @@ ht-degree: 0%
 要应用此过滤器，请执行以下操作：
 
 1. 转到报告列表。
+
 1. 从&#x200B;**筛选器**&#x200B;下拉菜单中，选择&#x200B;**新建筛选器**。
 
 1. 单击&#x200B;**切换到文本模式**。
-1. 在&#x200B;**为报表**&#x200B;设置筛选规则区域中，复制并粘贴以下代码： `scheduledReportID=0<br>scheduledReportID_Mod=notnull`
+
+1. 在&#x200B;**为报表**&#x200B;设置筛选规则区域中，复制并粘贴以下代码：
+
+   ```
+   scheduledReportID=0
+   scheduledReportID_Mod=notnull
+   ```
+
 1. 单击&#x200B;**保存筛选器**。

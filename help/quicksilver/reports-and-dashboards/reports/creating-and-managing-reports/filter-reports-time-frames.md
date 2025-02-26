@@ -6,9 +6,9 @@ description: 您可以按对象上存在的日期的时间范围过滤报表。 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1027'
 ht-degree: 4%
 
 ---
@@ -129,11 +129,11 @@ ht-degree: 4%
 
 ## 内置时间范围修饰符 {#built-in-time-frame-modifiers}
 
-Adobe Workfront具有内置的时间范围修饰符，您无需定义特定日期即可使用。 
+Adobe Workfront具有内置的时间范围修饰符，您无需定义特定日期即可使用。
 
-这些修饰符可用于过滤器中的任何日期字段或任何报表中的提示。 
+这些修饰符可用于过滤器中的任何日期字段或任何报表中的提示。
 
-有关如何按与日期关联的时间范围过滤报表的更多信息，请参阅  [按日期的时间范围筛选报告](#filter-a-report-by-the-time-frame-of-a-date)。
+有关如何按与日期关联的时间范围筛选报告的更多信息，请参阅以上的[按日期的时间范围筛选报告](#filter-a-report-by-the-time-frame-of-a-date)部分。
 
 例如，如果您正在构建小时报表，并希望显示在特定时间范围内输入的小时，则可以从以下内置时间范围过滤器选项中进行选择：
 

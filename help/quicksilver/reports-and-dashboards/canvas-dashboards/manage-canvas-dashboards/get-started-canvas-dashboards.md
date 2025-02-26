@@ -6,9 +6,9 @@ description: 有关使用画布功能板的基本说明，包括如何导航到�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 43456634-f891-4262-93be-bdb9e7d58c77
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '618'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,11 @@ ht-degree: 0%
 
 ## 先决条件
 
-* 您必须拥有计划许可证（当前许可证）或标准许可证（新许可证）才能创建画布功能板。\
-  有关Workfront许可证类型的信息，请参阅当前许可证的[许可证概述](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)和新许可证的[新许可证概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)。
+* 您的组织必须属于画布功能板封闭测试版。 有关信息，请参阅[画布功能板测试版信息](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)。
 
-* 您的Workfront管理员必须向您授予在访问级别编辑功能板的权限，才能创建或编辑画布功能板。\
-  有关授予功能板编辑访问权限的信息，请参阅[授予对报告、功能板和日历的访问权限](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)。
+* 您必须拥有计划许可证（当前许可证）或标准许可证（新许可证）才能创建画布功能板。 有关Workfront许可证类型的信息，请参阅[许可证概述](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)或[新许可证概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)。
+
+* 要创建或编辑画布功能板，您的Workfront管理员必须向您授予访问级别中功能板的编辑权限。 有关授予编辑访问权限的信息，请参阅[授予对报告、功能板和日历的访问权限](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)。
 
 ## 导航到画布功能板
 
