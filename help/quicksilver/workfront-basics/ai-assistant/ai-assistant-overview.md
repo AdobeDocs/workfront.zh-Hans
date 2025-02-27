@@ -5,9 +5,9 @@ description: AI Assistant概述
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: f496d5170ff087167130a6463e18ea44af50e21f
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '817'
 ht-degree: 1%
 
 ---
@@ -139,3 +139,30 @@ AI助手当前提供以下功能：
 1. 输入贵组织内将签署Adobe Gen AI协议的人员的姓名和电子邮件地址。
 
    协议将发送给此人签署。 签名并返回后，将为您的组织启用AI助手。
+
+## 在AI助手中创建提示的提示
+
+在提示中使用以下关键字，以提供上下文并帮助查找正确的信息。 关键字不区分大小写。
+
+输入提示时，请包含短语`using (keyword)`。
+
+| 关键字 | 效果 |
+|---|---|
+| `workfront` | 与Workfront交互。 |
+| `planning ` | 与Workfront Planning交互。 |
+| `help` | 从Experience League文档返回信息。 |
+| `formula` | 检查并返回用于Planning、设置或自定义表单的公式。 |
+| `health` | 使用项目运行状况顾问检查项目运行状况。 |
+| `summarize` | 汇总项目，例如在上传文件或汇总项目时。 |
+
+>[!NOTE]
+>
+> 并非所有关键字在所有区域都可用。
+>
+>* `formula`关键字仅在Planning、设置和自定义表单生成器中可用。
+>* `planning`关键字仅在Workfront Planning中可用。
+
+
+
+
+
