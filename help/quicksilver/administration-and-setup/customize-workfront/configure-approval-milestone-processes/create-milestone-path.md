@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '779'
 ht-degree: 2%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 2%
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 作为Adobe Workfront管理员，您可以创建里程碑路径，这些路径随后可以应用于系统中的任何项目。 您对此区域中的里程碑路径所做的更改会影响整个Workfront系统。
 
@@ -145,11 +145,19 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
    此时将显示项目报告。 与每个项目关联的里程碑路径将显示在报告的最后一列。
 1. 单击报表最后一列中的里程碑路径的名称。
 
-   此时将显示里程碑路径的详细信息。 还会显示有关每个里程碑的详细信息。
+   此时将显示里程碑路径的详细信息。
+
+   <div class="preview">
 
    项目报告中的![里程碑路径详细信息](assets/milestone-details-from-project-report.png)
 
-   <!--replace screen shot above with unshimming and mark it for Preview-->
+   里程碑路径详细信息页面显示以下信息：
+
+   * 里程碑路径名称、ID和描述
+   * 里程碑路径组
+   * 里程碑名称、描述、颜色和颜色图标
+
+   </div>
 
 1. （可选）单击&#x200B;**返回**&#x200B;以返回项目报告。
 

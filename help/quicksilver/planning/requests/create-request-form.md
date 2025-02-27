@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 5510f99e9e5c8c4c5f85953e19563f9ab18b0fae
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '1538'
-ht-degree: 2%
+source-wordcount: '1868'
+ht-degree: 1%
 
 ---
 
@@ -19,11 +19,10 @@ ht-degree: 2%
 
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
--->
 
 {{planning-important-intro}}
 
@@ -117,46 +116,37 @@ ht-degree: 2%
 
 ## 请求表单中字段和值显示限制
 
-<!--
+提交请求后，某些字段在请求表单中的显示方式以及它们的值以后在记录或请求详细信息页面中的显示方式均存在限制。
 
-There are limitations in how certain fields display on the request form and how their values later display on the records or the request details page, after you submit a request. 
+有关提交Workfront Planning请求的信息，请参阅[提交Adobe Workfront Planning请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。
 
-For information about submitting requests to create records, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
+* 以下是对某些字段在请求表单、请求表单创建的记录或请求详细信息页面中的显示方式的限制：
 
-The following are limitations for how certain fields display in request forms, records created by a request form, or on the request details page: -->
+   * 您不能向请求表单添加以下类型的字段：
 
-* 您不能向请求表单添加以下类型的字段：
+      * 创建者和上次修改者
+      * 创建日期和上次修改日期
+      * 公式。 <span class="preview">预览环境中支持公式字段。</span>
+      * Workfront对象的查找字段
+      * Workfront Planning已连接记录的查找字段
 
-   * 创建者和上次修改者
-   * 创建日期和上次修改日期
-   * 公式。 预览环境中支持公式字段。
-   * Workfront对象的查找字段
-   * Workfront Planning已连接记录的查找字段
-
-<!--at release to Preview, replace the above with this:  
->
->Fields of the following types do not display in the request form:
->* Created by and Last modified by
->* Created date and Last modified date
->* Formula. <span class="preview">Formula fields display in request forms in the Preview environment.</span>
->* Workfront objects' lookup fields
->* Workfront Planning connected records' lookup fields-->
-
-* 字段格式在请求表单生成器中显示的方式与值在记录或请求详细信息页面中的格式设置之间的差异：
+* 以下是在请求表单生成器中显示字段格式的方式，以及在记录或请求详细信息页面中字段值的格式设置方式之间的差异：
 
    * “货币”、“数字”和“百分比”字段在表单生成器中显示为单行文本字段类型。
 
      但是，字段格式将保留，并且这些字段中的数字值将在记录类型和请求详细信息页面中显示为“货币”、“数字”和“百分比”值。
 
-<!--
-* The following describes how some field values display on request forms and the request details pages: 
+<div class="preview">
 
-   * Special formatting for Currency, Number, and Percentage fields is not preserved. For example, the decimal precision is not preserved for these fields' values in these areas.
-   * People field values display as IDs.
-   * Formula fields that don't refer to other fields or calculations don't display any values. For example, a field with a `STRING` formula displays a "N/A" value.
-   * Formula fields that refer to Currency fields display the values without accounting for exchange rates.
-   * The values of Paragraph fields that contain special formatting display a "N/A" value on the request form and they display html tags instead of the formatted text in the request details page.
--->
+* 下面描述了某些字段值如何在请求表单和请求详细信息页面上显示：
+
+   * 不保留货币、数字和百分比字段的特殊格式。 例如，对于这些区域中的这些字段值，不保留小数精度。
+   * 人员字段值显示为ID。
+   * 未引用其他字段或计算的公式字段不显示任何值。 例如，公式为`STRING`的字段显示“N/A”值。
+   * 引用币种字段的公式字段显示值，不考虑汇率。
+   * 包含特殊格式设置的段落字段的值在请求表单上显示“不适用”值，并在请求详细信息页面中显示html标记而不是带格式的文本。
+
+</div>
 
 ## 为记录类型创建请求表单
 
@@ -170,7 +160,7 @@ The following are limitations for how certain fields display in request forms, r
 
    记录类型页面将在您上次访问的视图中打开。 默认情况下，将在表格视图中打开记录类型页面。
 
-1. 单击页眉中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**创建请求表单**。
+1. 单击页眉中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**创建请求表单**。
 1. 更新请求表单的名称。 默认情况下，表单的名称为&#x200B;**无标题表单**。<!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. （可选）为请求表单添加&#x200B;**描述**。
 
@@ -178,7 +168,7 @@ The following are limitations for how certain fields display in request forms, r
 
 1. 单击&#x200B;**创建**。此时将在“表单”选项卡中打开选定记录类型的请求表单。
 
-   ![](assets/campaigns-request-form-edit-mode.png)
+   ![营销活动请求表单编辑模式](assets/campaigns-request-form-edit-mode.png)
 
    默认情况下，请求表单包含以下信息：
 
@@ -197,7 +187,8 @@ The following are limitations for how certain fields display in request forms, r
 
 1. （可选）将鼠标悬停在要删除的表单上的任何字段上，然后单击&#x200B;**x**&#x200B;图标以删除它们。 它们已添加到表单左侧的&#x200B;**字段**&#x200B;选项卡中。
 
-   例如，删除&#x200B;**主题**&#x200B;字段，因为此字段在Workfront Planning中不可见。<!--remove this step when we connect intake with the Requests area in Workfront-->
+   例如，删除&#x200B;**主题**&#x200B;字段，因为此字段在Workfront Planning中不可见。<!--remove this example if this becomes visible in Planning?-->
+
 1. （可选）要从表单中删除&#x200B;**默认节**，请执行以下操作：
 
    1. 从“默认部分”中删除所有字段。
@@ -227,7 +218,7 @@ The following are limitations for how certain fields display in request forms, r
 
 1. （可选）单击&#x200B;**配置**&#x200B;选项卡，然后向&#x200B;**审批者**&#x200B;字段添加至少一个用户以审批此记录表单的新请求。
 
-   ![](assets/configuration-tab.png)
+   ![配置选项卡](assets/configuration-tab.png)
 
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
@@ -238,7 +229,7 @@ The following are limitations for how certain fields display in request forms, r
 
      有关将审批添加到请求表单的详细信息，请参阅[将审批添加到请求表单](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
 
-1. （可选）单击标题中表单名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**编辑**&#x200B;以更新表单名称。
+1. （可选）单击标题中表单名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**编辑**&#x200B;以更新表单名称。
 1. 单击&#x200B;**发布**&#x200B;发布表单并获取其唯一链接。
 
    出现以下情况：
@@ -249,7 +240,7 @@ The following are limitations for how certain fields display in request forms, r
 
 1. 单击&#x200B;**共享**&#x200B;以与他人共享表单。
 
-   ![](assets/share-box-for-request-form.png)
+   ![共享请求表单的框](assets/share-box-for-request-form.png)
 
 1. 从以下选项中进行选择，以指示哪些类型的用户可以访问此表单：
 
@@ -261,7 +252,7 @@ The following are limitations for how certain fields display in request forms, r
    >
    >* 当您选择&#x200B;**具有链接**&#x200B;的任何人时，任何人都可以访问表单并提交新记录，甚至包括您组织外没有Workfront帐户的人员。
    >
-   > * 不能公开共享包含以下字段类型的表单：
+   >* 不能公开共享包含以下字段类型的表单：
    >
    >     * Workfront或AEM Assets连接
    >     * 人员
@@ -271,7 +262,12 @@ The following are limitations for how certain fields display in request forms, r
 
    您可以选择自当前日期起180天内的将来日期。
 
-1. 单击&#x200B;**保存并复制链接**&#x200B;以保存表单的共享详细信息。 如果表单之前已保存，请单击&#x200B;**复制链接**。
+   >[!TIP]
+   >
+   ><span class="preview">共享日期过期后，Workfront的“请求”区域中不再提供该请求表单。</span>
+
+
+1. <span class="preview">（可选）</span>单击&#x200B;**保存并复制链接**&#x200B;以保存表单的共享详细信息。 如果表单之前已保存，请单击&#x200B;**复制链接**。
 
    表单共享选项已保存，并且链接已复制到您的剪贴板。 您现在可以与其他人共享。
 
@@ -281,11 +277,12 @@ The following are limitations for how certain fields display in request forms, r
 1. 单击标题中表单名称左侧的向左箭头以关闭表单。
 
    此时将打开记录类型页面。
-1. （可选）单击标题中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后执行以下操作之一：
+1. （可选）单击标题中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后执行以下操作之一：
    * 单击&#x200B;**更新请求表单**&#x200B;以更改请求表单。
    * 单击&#x200B;**将链接复制到请求表单**&#x200B;以与其他人共享该表单的链接。
+   * <span class= "preview">转到Workfront中的&#x200B;**请求**&#x200B;区域并查找共享表单以提交请求。 有关信息，请参阅[提交Adobe Workfront Planning请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。</span>
 
    >[!TIP]
    >
    >在这种情况下，会显示链接已公开共享。
-   >![](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
+   >![记录类型菜单上的表单的公开共享链接](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)

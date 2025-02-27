@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '3082'
+source-wordcount: '3249'
 ht-degree: 1%
 
 ---
@@ -155,8 +155,9 @@ ht-degree: 1%
 您可以在Workfront Planning记录的以下区域中连接记录：
 
 * 表视图中的已连接记录字段。
-* 在“详细信息”选项卡上的已连接记录字段中，记录的预览或页面。
-* 记录在“连接”选项卡上的预览或页面。
+* 记录的预览框或页面（在“详细信息”选项卡上的已连接记录字段中）。
+* 记录在“连接”选项卡上的预览框或页面。
+* <span class="preview">记录在“连接视图”选项卡上的页面。</span> <!--this needs title edit when they rename the "Connection view" page type-->
 
 ### 从记录的表视图或详细信息区域连接Workfront Planning记录
 
@@ -462,3 +463,25 @@ ht-degree: 1%
 * 您的Workfront或组管理员必须将“规划”部分添加到您的布局模板中的Workfront项目、项目组合和程序。
 
 有关详细信息，请参阅Adobe Workfront对象的“规划”部分中的[管理记录](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
+
+<div class="preview">
+
+## 从记录详细信息页面上的“连接视图”选项卡连接记录
+
+<!--section needs title edit when they rename the "Connection view" page type-->
+
+1. 转到已连接到其他Planning记录类型或来自其他应用程序的对象类型的任何记录类型视图。
+1. 按照前面各小节中描述的步骤，在视图中查找要与其他记录或对象连接的记录。
+1. 单击记录名称。
+
+   预览页面将打开。
+1. 单击&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开详细信息](assets/open-details-in-a-new-tab-icon.png)以打开记录的页面。
+1. 在记录的预览或页面中单击现有的连接视图选项卡。 必须首先创建“连接”视图页。 有关信息，请参阅[管理记录页布局](/help/quicksilver/planning/records/manage-the-record-page.md)。
+
+   在表格视图中将显示连接的记录类型页面。
+1. 单击&#x200B;**连接**&#x200B;添加或删除记录。
+
+   在已连接记录详细信息选项卡中突出显示![连接按钮](assets/connect-button-highlighted-in-connected-record-details-tab.png)
+1. （可选）如果找不到连接的记录，请单击&#x200B;**+添加**&#x200B;以创建并连接它们。
+
+</div>

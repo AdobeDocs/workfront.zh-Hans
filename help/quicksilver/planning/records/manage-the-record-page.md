@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '1772'
+source-wordcount: '1914'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 管理记录页面布局
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上突出显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -161,11 +161,11 @@ ht-degree: 0%
 
    记录的预览将在视图中打开。
 
-   <!--<div class="preview">
+   <div class="preview">
 
-    ![Details box](assets/details-box.png)  
+   ![详细信息框](assets/details-box.png)
 
-    </div>-->
+   </div>
 
 1. （可选）单击记录预览右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开详细信息](assets/open-details-in-a-new-tab-icon.png)以在新标签中打开记录页面。
 
@@ -244,23 +244,29 @@ ht-degree: 0%
 
    记录的预览将在视图中打开。
 
-   <!--<div class="preview">
+   <div class="preview">
 
-    ![Details box](assets/details-box.png) 
+   ![详细信息框](assets/details-box.png)
 
-    </div>-->
+   </div>
 
 1. （可选）单击记录预览右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签图标中打开详细信息框](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->以在新标签中打开记录页面。
 
    默认情况下将打开记录的&#x200B;**详细信息**&#x200B;选项卡。
 
-   <!--<div class="preview">
+   <div class="preview">
 
-   ![Details page](assets/details-page.png)
+   ![详细信息页面](assets/details-page.png)
 
-   </div>-->
+   </div>
 
-1. 在记录&#x200B;**详细信息**&#x200B;选项卡中，单击字段名称左侧的&#x200B;**抓取**&#x200B;图标![抓取图标](assets/grab-icon.png)，然后将其拖放到所需位置。<!--You can drag and drop fields to another section. You must have at least one field in a section.-->
+1. 在记录&#x200B;**详细信息**&#x200B;选项卡中，单击字段名称左侧的&#x200B;**抓取**&#x200B;图标![抓取图标](assets/grab-icon.png)，然后将其拖放到所需位置。
+
+   >[!TIP]
+   >
+   >您可以将字段拖放到另一区域。
+   >在一个部分中，必须至少有一个字段。
+   >
 
    对于查看记录的所有用户，字段的新位置会在相同类型的所有记录的预览和页面中更新。
 
@@ -295,23 +301,29 @@ ht-degree: 0%
 您选择的记录类型的表格视图会显示，并且连接的记录会显示在表格视图中。
 已连接记录的所有字段都显示在已连接记录选项卡的表视图中。
 
-   <!--<span class="preview">When you access Workfront Planning from the Preview environment, the first five fields from the connected record table display by default. No lookup fields display by default. -->
+   <span class="preview">当您从“预览”环境访问Workfront Planning时，默认情况下将显示所连接记录表中的前五个字段。 默认情况下不显示查找字段。</span>
 
    表格视图是只读的。
 
    <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
 
+   <div class="preview">
+
    在营销活动详细信息下![受众连接的表视图](assets/audience-connected-table-view-under-campaign-details-page.png)
+
+   </div>
+
 1. （可选）双击选项卡的名称
 
    或
 
    将鼠标悬停在该选项卡的名称上，然后单击&#x200B;**更多** ![更多菜单](assets/more-menu.png)，然后单击&#x200B;**重命名**&#x200B;以重命名为新的“连接的视图”选项卡。
-1. （可选）使用工具栏中的以下任意视图元素来管理表格视图
+1. （可选）使用工具栏中的以下任意视图元素来管理表格视图：
 
    * 过滤器
    * 排序
    * 分组
+   * <span class="preview">字段，用于显示、隐藏或重新排列字段</span>
 
    <!--Add to the list above from the list below - and condition these for Preview only: Hide fields, rearrange fields-->
 
@@ -321,11 +333,14 @@ ht-degree: 0%
    >
    >   您无法在已连接记录选项卡的表视图中执行以下任何操作：
    >
-   >   * 隐藏字段
+   >   * 隐藏或重新排列字段。 <span class="preview">您可以在预览环境中隐藏和重新排列字段。</span>
    >   * 创建、编辑或删除字段
-   >   * 重新排列字段
    >
-1. （可选）将鼠标悬停在该选项卡的名称上，单击&#x200B;**更多** ![更多菜单](assets/more-menu.png)，然后单击&#x200B;**删除**&#x200B;以删除到新的“连接的视图”选项卡。
+
+1. <span class="preview">单击&#x200B;**连接**&#x200B;添加或删除记录。 有关信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)</span>
+1. （可选）将鼠标悬停在“连接视图”选项卡的名称上，单击&#x200B;**更多** ![更多菜单](assets/more-menu.png)，然后单击&#x200B;**删除**&#x200B;以删除新的“连接视图”选项卡。
+
+
 
 
 <!--

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 5510f99e9e5c8c4c5f85953e19563f9ab18b0fae
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1798'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 <!--take Preview and Prod references out when releasing to Prod all-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -136,98 +136,95 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 
 ## 向Workfront Planning提交请求
 
-<!--
+向Workfront Planning提交请求的方式因您使用的环境而异。
+
 <div class="preview">
 
-Submitting requests to Workfront Planning differs depending on what environment you use. 
-
-### Submit a request to Workfront Planning in the Preview Environment
+### 在预览环境中向Workfront Planning提交请求
 
 >[!NOTE]
 >
->After the monthly releases to Production, the features described in this section are also available in the Production environment for customers who enabled fast releases.
+>在每月发布到生产环境后，生产环境中为启用快速发布的客户也提供了本节中所述的功能。
 
 {{step1-to-requests}}
 
-1. Enable the **Switch to a new experience** setting, in the upper-right corner of he screen. 
-   Enabling this setting makes the Workfront Planning request forms available in the **Requests** area of Workfront.
+1. 启用屏幕右上角的&#x200B;**切换到新体验**设置。
+启用此设置可使Workfront计划请求表单在Workfront的**请求**&#x200B;区域中可用。
 
    >[!TIP]
    >
-   >This setting is available only when the following are in place:
+   >仅当满足以下条件时，此设置才可用：
    >
-   >* Your company has purchased a Workfront Planning package. 
-   >* Your Workfront instance is onboarded to the Adobe Unified Experience. 
-   >* You have access to view at least one workspace. 
+   >* 您的公司已购买Workfront规划包。
+   >* 您的Workfront实例已载入到Adobe Unified Experience。
+   >* 您有权查看至少一个工作区。
    >
 
-1. Click **New request**. (********* update screen shot at release ********)
+1. 单击&#x200B;**新请求**。
 
-   ![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png)
+   ![具有统一的Workfront和Planning卡的新请求框](assets/new-request-box-with-unified-workfront-and-planning-cards.png)
 
-   The New request area opens with the following information: 
+   打开&#x200B;**新请求**&#x200B;框，其中包含以下信息：
 
-   * The 6 most recently accessed Workfront request queues and Planning request forms display in the Recent section. 
-   * 50 additional Workfront request queues and Planning request forms display in alphabetical order in the **All request forms** section. You can search for a request queue that does not display by default. 
+   * 最近访问的6个Workfront请求队列和Planning请求表单将显示在“最近”部分中。
+   * 另外50个Workfront请求队列和计划请求表单按字母顺序显示在&#x200B;**所有请求表单**&#x200B;部分中。 您可以搜索默认不显示的请求队列。
 
-1. Do one of the following:
+1. 执行下列操作之一：
 
-   * Click the card for one of the Planning request forms in the Recent or All request forms sections
-   * Start typing the name of a Planning request form in the search box, then click the card when it displays in the list. 
+   * 单击最近或所有请求表单部分中某个Planning请求表单的卡
+   * 在搜索框中开始键入Planning请求表单的名称，然后在列表中显示该卡时单击该卡。
 
-   The request form opens.
+   此时将打开请求表单。
 
-1. Update the fields available in the request form. Fields with a red asterisk are required. 
-1. Click **Submit**.
-    
-   The request form closes and you return to the **Requests** area. 
+1. 更新请求表单中可用的字段。 带有红色星号的字段为必填字段。
+1. 单击&#x200B;**提交**。
 
-   Your form is submitted and the following things occur:
+   请求表单关闭，您将返回&#x200B;**请求**&#x200B;区域。
 
-   * If the request form was not associated with an approval, the request is added to the Planning tab of the Submitted section of the Workfront Requests area and a new record is added to the record type associated with the form.
-   
-   * If the request form was associated with an approval, the request is added to the Planning tab of the Submitted section of the Workfront Requests area. A new record is added to the record type page only after all the approvers have approved it.
-   
-      For information, see [Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+   您的表单已提交，并且发生了以下情况：
 
-      ![](assets/requests-area-with-toggle-for-unified-workflow-planning-tab-open.png)
+   * 如果申请表单与批准无关，申请会添加到Workfront申请区域已提交分区的Planning选项卡中，新记录会添加到与表单关联的记录类型中。
 
-      >[!IMPORTANT]
-      >
-      >All users who have access to at least one workspace can view the Planning tab in the Requests area. You can view only the requests submitted by you or anyone else to the workspaces that you have at least permissions to View. Workfront administrators can view all requests submitted to any workspace in the system. (******** ensure this is correct; asking team in slack **************)
+   * 如果申请表单与批准关联，则该申请会添加到Workfront申请区域已提交部分的Planning选项卡中。 只有在所有批准者都批准记录类型后，才会将新记录添加到该记录类型页面。
 
-   * You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.
-   * If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request.
+     有关信息，请参阅[向请求表单添加批准](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
 
-      >[!NOTE]
-      >
-      >The email and in-app notifications are visible only when your organization's instance of Workfront is onboarded to the Adobe Unified Experience.
+     ![带有统一工作流计划选项卡切换的“请求”区域](assets/requests-area-with-toggle-for-unified-workflow-planning-tab-open.png)
 
-1. (Optional) Click the **Planning** tab in the Requests area to view your request, then click the name of the request. 
+     >[!IMPORTANT]
+     >
+     >至少有权访问一个工作区的所有用户都可以查看请求区域中的Planning选项卡。 您只能查看您或其他人提交到您至少拥有查看权限的工作区的请求。 Workfront管理员可以查看提交到系统中任何工作区的所有请求。
 
-   The request details page opens. 
+   * 您会收到应用程序内和电子邮件通知，告知您请求已成功提交或已发送以供审阅。
+   * 如果请求表单与批准关联，则批准者会收到应用程序内和电子邮件通知，以供审阅和批准请求。
 
-   ![Request details page](assets/request-details-page.png)
+     >[!NOTE]
+     >
+     >仅当贵组织的Workfront实例载入到Adobe Unified Experience时，电子邮件和应用程序内通知才可见。
 
-1. (Conditional) If the request form is not associated with an approval, or if the request has been approved, click the name of the request, then click the name of the record in the **Record** field. 
+1. （可选）单击“请求”区域中的&#x200B;**Planning**&#x200B;选项卡以查看您的请求，然后单击请求的名称。
 
-   The record's page opens in Workfront Planning. 
+   此时将打开请求详细信息页面。
+
+   ![请求详细信息页面](assets/request-details-page.png)
+
+1. （视情况而定）如果请求表单未与批准关联，或者请求已获批准，请单击请求的名称，然后单击&#x200B;**记录**&#x200B;字段中的记录名称。
+
+   记录页面将在Workfront Planning中打开。
 
    >[!TIP]
    >
-   >* If the record name was not added to the request form, the name of the record in the Record field of the request displays as **Untitled**. 
+   >* 如果记录名称未添加到请求表单，则请求的“记录”字段中记录的名称将显示为&#x200B;**无标题**。
    >
-   >* If the request form is associated with an approval, the approval must be granted before you can access the record from the request page. 
+   >* 如果请求表单与批准关联，则必须先获得批准，然后才能从请求页面访问记录。
 
-1. (Optional) Click the name of the **Record type**. 
+1. （可选）单击&#x200B;**记录类型**&#x200B;的名称。
 
-   The record type page opens in Workfront Planning. 
+   此时将在Workfront Planning中打开记录类型页面。
 
 </div>
 
-### Submit a request to Workfront Planning in the Production environment
-
--->
+### 在生产环境中向Workfront Planning提交请求
 
 1. 从Workfront Planning记录类型转到与您共享的链接。
 
@@ -249,7 +246,7 @@ Submitting requests to Workfront Planning differs depending on what environment 
 
      有关信息，请参阅[向请求表单添加批准](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
 
-     ![](assets/planning-tab-in-requests.png)
+     请求中的![计划选项卡](assets/planning-tab-in-requests.png)
 
      >[!IMPORTANT]
      >

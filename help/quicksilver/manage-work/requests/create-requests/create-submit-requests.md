@@ -6,9 +6,9 @@ description: 在Adobe Workfront中，计划工作由项目和任务表示。 但
 author: Lisa
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '2411'
+source-wordcount: '2740'
 ht-degree: 1%
 
 ---
@@ -25,6 +25,10 @@ ht-degree: 1%
 </div>
 -->
 
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 在Adobe Workfront中，计划工作由项目和任务表示。 但是，您可能是在这样一种环境中工作：随时都可能以请求形式进行非计划工作。 Workfront通过使用请求队列提供了一个工作流来适应这种类型的环境。
 
 在请求队列中创建请求后，您可以将其分配给完成请求，也可以将其转换为任务或项目。\
@@ -35,7 +39,14 @@ ht-degree: 1%
 * 从头开始，如本文所述。
 * 来自草稿。 有关信息，请参阅[从草稿创建请求](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)。
 * 从现有请求中，通过复制并提交副本。 有关信息，请参阅[复制并提交请求](../../../manage-work/requests/create-requests/copy-and-submit-requests.md)。
-* 从Workfront Planning请求表单中，在Workfront Planning中创建记录。 贵组织必须购买Workfront规划包。 有关信息，请参阅[提交Adobe Workfront计划请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。
+
+您可以从头开始创建Workfront Planning请求，以按以下方式在Workfront Planning中创建记录：
+
+* 从链接到Workfront Planning请求表单。
+
+* 从Workfront请求区域中的Workfront Planning请求表单中<span class="preview">。</span>
+
+  贵组织必须购买Workfront规划包。 有关信息，请参阅[提交Adobe Workfront计划请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。
 
 ## 访问要求
 
@@ -113,6 +124,15 @@ Workfront管理员必须创建请求队列的以下组件：
 
 {{step1-to-requests}}
 
+1. <span class="preview"> （可选且视情况而定）如果以下内容适用于您的组织和Workfront实例，请选择屏幕右上角的&#x200B;**切换到新体验**&#x200B;设置： </span>
+
+   * <span class="preview">您的组织已购买Workfront包</span>
+   * <span class="preview">您的组织已载入Adobe Unified Experience。
+   * <span class="preview">您的管理员已授予您访问Workfront Planning的权限</span>
+   * <span class="preview">您至少拥有Workfront规划工作区的查看权限</span>
+
+   有关详细信息，请参阅[提交Adobe Workfront计划请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)
+
 1. 单击页面右上角的&#x200B;**新建请求**。
 
    >[!TIP]
@@ -120,7 +140,19 @@ Workfront管理员必须创建请求队列的以下组件：
    >* 您可以从请求区域的任何部分访问新请求选项。
    >* 当您无权创建问题时，新请求选项将灰显。
 
-1. （视情况而定）单击&#x200B;**请求类型**&#x200B;字段并执行以下操作之一：
+   将打开&#x200B;**新请求**&#x200B;框。
+
+1. <span class="preview">（视情况而定）如果您切换到包含Workfront Planning的新体验，则&#x200B;**新请求**&#x200B;框显示以下内容：</span>
+
+   * <span class="preview">最近访问的6个Workfront请求队列和Planning请求表单将显示在“最近”部分中。</span>
+   * <span class="preview">另外50个Workfront请求队列和计划请求表单按字母顺序显示在&#x200B;**所有请求表单**&#x200B;部分。 您可以搜索默认不显示的请求队列。</span>
+
+   ![具有统一工作流程的新请求框，用于计划请求](assets/new-request-box-with-unified-workflow-for-planning-requests.png)
+
+   <span class="preview">单击某个Workfront请求队列信息卡，或搜索一个信息卡，然后在信息卡显示在列表中时单击它。</span>
+1. （视情况而定） <span class="preview">如果您切换到包含Workfront Planning的新体验，请选择您的主题组和队列主题并继续更新表单</span>
+
+   否则，请单击&#x200B;**请求类型**&#x200B;字段并执行以下操作之一：
 
    * 从&#x200B;**最近使用的路径**&#x200B;部分，选择您最近用来打开请求队列的路径。 路径包括请求队列、主题组和最近提交的队列主题。 默认显示最后三条路径。
 
@@ -301,6 +333,8 @@ Workfront管理员必须创建请求队列的以下组件：
 
    提交请求时，草稿将自动删除且无法恢复。
 
+   已提交的请求列在请求区域的&#x200B;**已提交**&#x200B;部分中。 <span class="preview">如果您使用的是包含Workfront Planning的新体验，则Workfront提交的请求将显示在请求区域的&#x200B;**Workfront**&#x200B;选项卡中。</span>
+
    有关处理传入请求的信息，请参阅文章[管理工作和团队请求](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)。
 
    有关查找已提交或草拟的请求的信息，另请参阅[查找已提交的请求](../../../manage-work/requests/create-requests/locate-submitted-requests.md)。
@@ -317,7 +351,7 @@ Workfront管理员必须创建请求队列的以下组件：
 
 >[!NOTE]
 >
->请求进入Workfront时，HTML格式会被去除，但签名和现有的回复线程内容不会被去除，并会显示在请求描述中。
+>请求进入Workfront时，HTML格式会被去除，但签名和现有的回复线程内容不会被去除并显示在请求描述中。
 
 有关如何启用请求队列以通过电子邮件接收请求的信息，请参阅[启用用户将问题通过电子邮件发送到请求队列项目](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md)。
 
@@ -348,7 +382,7 @@ Workfront管理员必须创建请求队列的以下组件：
 
 ## 使用Workfront Planning请求表单创建请求
 
-您可以使用Workfront Planning请求表单添加请求。 如果请求表单获得批准或不需要批准，添加Workfront Planning请求可能会创建Planning记录。
+您可以使用Planning请求表单添加Workfront Planning请求。 如果请求表单获得批准或不需要批准，添加Workfront Planning请求可能会创建Planning记录。
 
 贵组织必须购买Workfront Planning程序包才能提交Planning请求。
 
