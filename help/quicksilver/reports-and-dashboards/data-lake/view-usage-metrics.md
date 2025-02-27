@@ -6,10 +6,11 @@ title: 查看Workfront Data Connect使用情况量度
 description: 使用Workfront Data Connect Metrics选项卡，您可以根据每月使用的计算小时数和执行的查询数查看组织的使用量度。
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
+exl-id: 29185bd1-e058-4b42-a508-53406fb9ddd2
+source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 1%
+source-wordcount: '334'
+ht-degree: 0%
 
 ---
 
@@ -33,17 +34,17 @@ ht-degree: 1%
     <ul>
         <li>Ultimate</li> 
     </ul>    
-   <p>可作为以下计划的附加组件购买：</p> 
+   <!--<p>Can be purchased as an add-on to the following plans:</p> 
     <ul>
-        <li>选择</li> 
+        <li>Select</li> 
         <li>Prime</li>
-    </ul> 
+    </ul>--> 
     <p>Workfront Data Connect不适用于旧版Workfront计划。</p> 
    </td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td>计划</td> 
+   <td><p>计划</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 

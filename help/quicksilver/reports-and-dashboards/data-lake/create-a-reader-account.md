@@ -2,21 +2,21 @@
 content-type: reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: 创建用于Snowflake的读取器帐户
+title: 为Snowflake创建读取器帐户
 description: 要访问Data Connect数据，您必须首先创建一个Snowflake读取器帐户。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
+source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
 
-# 创建用于Snowflake的Reader帐户或连接
+# 为Snowflake创建Reader帐户或连接
 
-要访问Data Connect数据，您必须首先为组织创建一个Snowflake读取器（或服务）帐户，然后为要访问Data Connect的每个用户或工具创建一个新连接。
+要访问Data Connect数据，您必须首先为贵组织创建Snowflake读取器（或服务）帐户，然后为要访问Data Connect的每个用户或工具创建新连接。
 
 创建连接后，您可以在&#x200B;**现有连接**&#x200B;选项卡下的&#x200B;**Data Connect**&#x200B;页面（**主菜单** > **设置** > **系统** > **Data Connect**）上单击该连接，找到其关联的URL和用户名。
 
@@ -38,17 +38,17 @@ ht-degree: 0%
     <ul>
         <li>Ultimate</li> 
     </ul>    
-   <p>可作为以下计划的附加组件购买：</p> 
+   <!--<p>Can be purchased as an add-on to the following plans:</p> 
     <ul>
-        <li>选择</li> 
+        <li>Select</li> 
         <li>Prime</li>
-    </ul> 
+    </ul>--> 
     <p>Workfront Data Connect不适用于旧版Workfront计划。</p> 
-   </td> </td> 
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td>计划</td> 
+   <td><p>计划</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 ## 创建读者帐户
 
-在开始创建连接之前，必须为您的组织创建一个新的Snowflake读取器帐户。
+在开始创建连接之前，必须为您的组织创建新的Snowflake读取器帐户。
 
 >[!IMPORTANT]
 >
@@ -75,11 +75,11 @@ ht-degree: 0%
 
 1. 在左侧面板中，单击&#x200B;**系统** > **数据连接**。
 
-1. 单击&#x200B;**创建Reader帐户**&#x200B;按钮开始创建组织的读者帐户。 该过程是自动的，但可能需要几分钟才能完成。
+1. 单击&#x200B;**创建Reader帐户**&#x200B;按钮开始创建贵组织的读者帐户。 该过程是自动的，但可能需要几分钟才能完成。
 
 1. 完成后，将显示一个对话框窗口，说明您的阅读器帐户现在处于活动状态。 刷新浏览器页面以获得对&#x200B;**新建连接**&#x200B;按钮的访问权限。
 
-![Reader帐户已创建对话框](/help/quicksilver/reports-and-dashboards/data-lake/assets/data-connect-reader-account-created.png)
+![Reader帐户创建的对话框](/help/quicksilver/reports-and-dashboards/data-lake/assets/data-connect-reader-account-created.png)
 
 ## 创建连接
 
@@ -93,7 +93,7 @@ ht-degree: 0%
 
    ![创建新连接](/help/quicksilver/reports-and-dashboards/data-lake/assets/new-reader-connection.png) {width="500"}
 
-1. 将生成&#x200B;**默认密码**&#x200B;以及可通过Snowflake查看您的数据的URL。 您需要将密码与您选择用于首次Snowflake的用户名结合使用，因此请确保同时记录该密码和URL。 选中声明已完成此操作的框，然后单击&#x200B;**关闭**。
+1. 将生成&#x200B;**默认密码**&#x200B;以及可通过Snowflake查看您的数据的URL。 您需要将密码与您选择用于首次登录Snowflake的用户名结合使用，因此请确保同时记录该密码和URL。 选中声明已完成此操作的框，然后单击&#x200B;**关闭**。
 
    ![默认帐户密码](/help/quicksilver/reports-and-dashboards/data-lake/assets/default-password-reader-account.png) {width="500"}
 
@@ -103,7 +103,7 @@ ht-degree: 0%
 
    ![重置Snowflake密码](/help/quicksilver/reports-and-dashboards/data-lake/assets/reset-snowflake-password.png) {width="300"}
 
-1. 您现在可以使用用户名和新密码在Snowflake或您选择的业务可视化工具中访问Data Connect数据湖。
+1. 您现在可以使用用户名和新密码访问Snowflake中的Data Connect数据湖或您选择的业务可视化工具。
 
 ## 撤销读取者帐户
 

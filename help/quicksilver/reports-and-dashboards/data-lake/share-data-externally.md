@@ -7,9 +7,9 @@ description: Workfront Data Connect允许您将组织的Workfront数据与商业
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
+source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '595'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Workfront Data Connect允许您将组织的Workfront数据与商业智能工具�
 | 端口 | `443` |
 | 数据库 | `WORKFRONT` |
 | 仓库 | `READER_WH` |
-| 模式 | `WF` |
+| 架构 | `WF` |
 | 角色 | `READER_ROLE` |
 | 用户名 | 创建连接时选择的用户名(可在Workfront中的&#x200B;**Data Connect**&#x200B;页面上找到*) |
 | 密码 | 首次Snowflake登录时选择的密码* |
@@ -55,19 +55,19 @@ Workfront Data Connect允许您将组织的Workfront数据与商业智能工具�
    <td role="rowheader">Adobe Workfront计划</td> 
    <td><p>包括在以下计划中：</p>
     <ul>
-        <li>Ultimate</li> 
+        <li><p>Ultimate</p></li> 
     </ul>    
-   <p>可作为以下计划的附加组件购买：</p> 
+   <!--<p>Can be purchased as an add-on to the following plans:</p> 
     <ul>
-        <li>选择</li> 
+        <li>Select</li> 
         <li>Prime</li>
-    </ul> 
+    </ul>--> 
     <p>Workfront Data Connect不适用于旧版Workfront计划。</p> 
    </td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td>计划</td> 
+   <td><p>计划</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
