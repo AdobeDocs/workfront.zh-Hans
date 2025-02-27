@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
+source-git-commit: 22a293cf4ded2c24c58f3948c1e7b41fa1055e3f
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1481'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,62 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 在浏览器选项卡名称中显示Workfront Planning请求的详细信息页的记录名称
+
+>[!NOTE]
+>
+>预览版本： 2025年2月27日；用于快速发布的生产版本：使用25.3版本（2025年3月）；用于季度发布的生产版本：使用25.4版本（2025年4月）
+
+我们更新了Workfront Planning请求详细信息页面在浏览器中的显示方式。 现在，请求创建的记录的名称显示为浏览器选项卡名称。 在此增强功能之前，浏览器选项卡显示“Workfront”。
+
+## Workfront和Planning的统一请求工作流
+
+>[!NOTE]
+>
+>预览版本： 2025年2月27日；用于快速发布的生产版本：使用25.3版本（2025年3月）；用于季度发布的生产版本：使用25.4版本（2025年4月）
+
+您现在可以在主菜单的请求区域中提交Workfront和Workfront Planning请求。
+
+此更新现在提供以下功能：
+
+* 通过“新建请求”按钮旁边的新切换，可在请求区域中启用此体验。 取消选择切换后，您只能提交Workfront请求。
+
+* 在一个统一的可搜索区域中，您可以找到Workfront请求队列和Workfront Planning请求表单。
+
+* 最近6个请求首先显示在统一的可搜索区域中。
+
+有关详细信息，请参阅[提交Adobe Workfront计划请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。
+
+## 请求表单现在支持公式字段
+
+>[!NOTE]
+>
+>预览版本： 2025年2月27日；用于快速发布的生产版本：使用25.3版本（2025年3月）；用于季度发布的生产版本：使用25.4版本（2025年4月）
+
+您现在可以在Workfront Planning中将公式字段添加到记录类型请求表单。
+
+在此增强功能之前，无法将这些类型的字段添加到请求表单。
+
+有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
+
+## 更新了记录的“连接”视图页面
+
+>[!NOTE]
+>
+>预览版本： 2025年2月27日；用于快速发布的生产版本：使用25.3版本（2025年3月）；用于季度发布的生产版本：使用25.4版本（2025年4月）
+
+我们更新了记录页面的“连接”视图，使其具有以下功能：
+
+* 默认情况下，表视图中仅显示连接的记录的前5个字段。 在此更新之前，显示所有字段。
+
+* 您现在可以隐藏所连接记录的表格视图中的列。
+
+* 您可以使用表格工具栏中的字段图标重新排列列。
+
+* 您可以连接和断开记录。
+
+有关详细信息，请参阅[管理记录页布局](/help/quicksilver/planning/records/manage-the-record-page.md)。
 
 ## 新表达式已添加到公式字段
 
