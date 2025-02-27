@@ -6,14 +6,16 @@ description: 您可以删除自己拥有的日历或其他人与您共享的日�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 6208442e-21af-4cd1-ad55-52215bd4d959
-source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
+source-git-commit: 041e812d0663304b4bd51134020209d3a67e1423
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
 
 # 删除日历报告
+
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 您可以删除自己拥有的日历或其他人与您共享的日历。 删除后，与您共享日历的用户将无法访问该日历。
 
@@ -56,8 +58,21 @@ ht-degree: 0%
 
 +++
 
-## 删除日历报告
+## 删除生产中的日历报告
 
 1. 转到要删除的日历。
 1. 在&#x200B;**[!UICONTROL 日历]**&#x200B;工具栏上，单击&#x200B;**[!UICONTROL 日历操作]**，然后从下拉列表中选择&#x200B;**[!UICONTROL 删除]**。
 1. 单击&#x200B;**[!UICONTROL 是，将其删除]**。
+
+<div class="preview">
+
+## 在预览中删除日历报告
+
+1. 转到要删除的日历。
+1. 单击“日历”下拉菜单旁边的&#x200B;**更多**菜单。
+   ![日历更多菜单](assets/more-menu-calendar.png)
+
+1. 从下拉列表中选择&#x200B;**[!UICONTROL 删除]**。
+1. 单击&#x200B;**[!UICONTROL 删除]**。
+
+</div>

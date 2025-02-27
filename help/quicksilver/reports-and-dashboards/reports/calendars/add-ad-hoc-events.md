@@ -6,14 +6,16 @@ description: 您可以将临时事件添加到日历。 临时事件只是作为
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 4145119e-ef2c-4f0d-89e7-86669ca5b127
-source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
+source-git-commit: 041e812d0663304b4bd51134020209d3a67e1423
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 1%
+source-wordcount: '373'
+ht-degree: 0%
 
 ---
 
 # 将临时事件添加到日历报表
+
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 您可以将临时事件添加到日历。 临时事件只是作为日历中的提醒，与项目、任务或问题无关。
 
@@ -54,7 +56,7 @@ ht-degree: 1%
 
 +++
 
-## 将临时事件添加到日历报表
+## 将临时事件添加到生产中的日历报表
 
 1. 在日历中，转到要添加临时活动的日期，然后单击活动的[!UICONTROL 开始]日期。
 1. 输入事件名称，并根据需要选择事件的颜色。
@@ -72,3 +74,16 @@ ht-degree: 1%
 
    1. 单击日历上的事件可打开该事件的详细信息页面。
    1. 单击垃圾桶图标，然后单击&#x200B;**[!UICONTROL 是，删除]**。
+
+<div class="preview">
+
+## 在预览中将临时事件添加到日历报表
+
+1. 转到要将临时事件添加到的日历。
+1. 单击日历顶部的&#x200B;**添加**。
+1. 在右侧的侧面板中，**Name**&#x200B;该事件。
+1. 选择事件的颜色。
+1. 选择事件是否应跨越多天。
+1. 使用“日历”图标输入或选择日期。
+
+</div>
