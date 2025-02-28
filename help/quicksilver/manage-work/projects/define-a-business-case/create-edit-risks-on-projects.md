@@ -6,9 +6,9 @@ description: 风险是阻止项目按时完成或在预算内完成的可能事�
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1037'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 0%
 
    * **缓解成本**：指示为防止风险发生而必须实施的缓解计划的成本。
 
-   ![](assets/crp1-350x117.png)
+   ![风险](assets/crp1-350x117.png)
 
 1. （可选）单击&#x200B;**添加其他风险**&#x200B;以添加其他风险。
 1. 单击&#x200B;**保存**。
