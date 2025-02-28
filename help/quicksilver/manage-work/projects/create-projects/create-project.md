@@ -6,9 +6,9 @@ description: 项目是Adobe Workfront中的一个大型工作单位。 您可以
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1390'
 ht-degree: 1%
 
 ---
@@ -204,7 +204,7 @@ ht-degree: 1%
 
    有关将任务添加到项目的详细信息，请参阅[在项目中创建任务](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)。
 
-1. 通过单击项目名称旁边的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**编辑** ![](assets/qs-edit-icon.png)来编辑项目详细信息。
+1. 通过单击项目名称旁边的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**编辑** ![编辑图标](assets/qs-edit-icon.png)来编辑项目详细信息。
 
    将打开&#x200B;**编辑项目**&#x200B;对话框。
 
