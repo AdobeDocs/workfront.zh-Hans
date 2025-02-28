@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 03f95d2d6397850fd53e79fd37c2de56e94a04cd
 workflow-type: tm+mt
 source-wordcount: '1270'
 ht-degree: 0%
@@ -75,7 +75,10 @@ ht-degree: 0%
 业务规则中还提供了API通配符。 使用`$$ISAPI`仅在API中触发规则。 使用`!$$ISAPI`仅在用户界面中强制实施规则，并允许用户通过API绕过规则。
 
 * 例如，此规则禁止用户通过API编辑已完成的项目。 如果未使用通配符，则规则将同时阻止用户界面和API中的操作。
-  `IF({status} = "CPL" && $$ISAPI, "You cannot edit completed projects through the API.")`
+
+  ```
+  IF({status} = "CPL" && $$ISAPI, "You cannot edit completed projects through the API.")
+  ```
 
 表达式中使用了`$$BEFORE_STATE`和`$$AFTER_STATE`通配符，以在任何编辑之前和之后访问对象的字段值。
 
@@ -85,8 +88,17 @@ ht-degree: 0%
 
 一些简单的业务规则方案包括：
 
-* 用户无法在2月的最后一周添加新费用。 此公式可以表示为：`IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
-* 用户无法编辑处于完成状态的项目的项目名称。 此公式可以表示为：`IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")`
+* 用户无法在2月的最后一周添加新费用。 该公式可表述为：
+
+  ```
+  IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")
+  ```
+
+* 用户无法编辑处于完成状态的项目的项目名称。 该公式可表述为：
+
+  ```
+  IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")
+  ```
 
 具有嵌套IF语句的情形是：
 
