@@ -6,9 +6,9 @@ description: 您可以将模板任务复制或移动到同一模板或其他模�
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '2128'
+source-wordcount: '2140'
 ht-degree: 3%
 
 ---
@@ -87,9 +87,9 @@ ht-degree: 3%
 1. 执行下列操作之一：
    * 单击模板任务的名称以将其打开。
    * 在列表中选择一个或多个模板任务。
-1. （视情况而定）单击模板任务列表顶部或模板任务名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)（如果您打开了任务），然后单击&#x200B;**复制到**&#x200B;或&#x200B;**复制**（具体取决于您访问“复制”选项的位置）。
+1. （视情况而定）单击模板任务列表顶部或模板任务名称右侧的&#x200B;**更多**&#x200B;菜单![更多图标](assets/more-icon.png)（如果您已打开任务），然后单击&#x200B;**复制到**&#x200B;或&#x200B;**复制**（具体取决于您从何处访问“复制”选项）。
 此时将打开“复制模板任务”框。
-   ![](assets/copy-template-task-box-unshimmed.png)
+   ![Copu模板任务框](assets/copy-template-task-box-unshimmed.png)
 1. （可选）重命名&#x200B;**模板任务名称**&#x200B;字段中的模板任务。
 
    >[!TIP]
@@ -140,7 +140,7 @@ ht-degree: 3%
      </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">分配</td> 
+      <td role="rowheader">任务</td> 
       <td> <p>将从模板任务中删除所有工作分配。 </p> </td> 
      </tr> 
      <tr> 
@@ -210,9 +210,9 @@ ht-degree: 3%
 1. 执行下列操作之一：
    * 单击模板任务的名称以将其打开。
    * 在列表中选择一个或多个模板任务。
-1. （视情况而定）单击模板任务列表顶部或模板任务名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)（如果您已打开该任务），然后单击&#x200B;**移动到**&#x200B;或&#x200B;**移动**（取决于您访问“移动”选项的位置）。
+1. （视情况而定）单击模板任务列表顶部或模板任务名称右侧的&#x200B;**更多**&#x200B;菜单![更多图标](assets/more-icon.png)（如果您已打开该任务），然后单击&#x200B;**移动到**&#x200B;或&#x200B;**移动**（取决于您从何处访问“移动”选项）。
 将打开“移动模板任务”框。
-   ![](assets/move-template-task-box-unshimmed.png)
+   ![移动模板任务框](assets/move-template-task-box-unshimmed.png)
 
 1. （可选）重命名&#x200B;**模板任务名称**&#x200B;字段中的模板任务。
 
@@ -266,7 +266,7 @@ ht-degree: 3%
    </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">分配</td> 
+      <td role="rowheader">任务</td> 
       <td> <p>将从模板任务中删除所有工作分配。 </p> </td> 
      </tr> 
      <tr> 
