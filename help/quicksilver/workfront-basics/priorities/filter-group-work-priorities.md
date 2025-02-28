@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 116b9823818ac6103641c2e6ce283dfb47282851
+source-git-commit: c362c62855c71022c4bc6b3abc22ba4ea83b1b24
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '652'
 ht-degree: 4%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 4%
 1. 单击工作列表左上角的&#x200B;**筛选器**。
 1. 单击&#x200B;**标准筛选器**。
 1. 选择一个或多个筛选器以缩小工作项的范围。
-   ![](assets/filter-new.png)
+   ![筛选器](assets/filter-new.png)
 
 +++展开以查看有关可用筛选器的详细信息
 <table>
@@ -157,7 +157,7 @@ ht-degree: 4%
 
 1. 单击工作列表左上角的&#x200B;**组**。
 1. 选择一个组以组织您的工作列表
-   ![](assets/groups-new.png)
+   ![组](assets/groups-new.png)
 
 +++展开以查看有关可用组的详细信息
 
@@ -184,7 +184,7 @@ ht-degree: 4%
 
 若要对群内的工作进行排序，请打开&#x200B;**群**&#x200B;并单击&#x200B;**升序排序**&#x200B;或&#x200B;**降序排序**。
 
-![](assets/sort-in-groups.png)
+![按组排序](assets/sort-in-groups.png)
 
 ### 对列排序
 
@@ -196,4 +196,4 @@ ht-degree: 4%
 
 若要展开或折叠所有组节，请打开&#x200B;**组**，然后单击&#x200B;**全部展开**&#x200B;或&#x200B;**全部折叠**。
 
-![](assets/expand-collapse-groups.png)
+![展开或折叠组](assets/expand-collapse-groups.png)
