@@ -6,9 +6,9 @@ description: 作为项目经理，您可以将项目配置为使用Adobe Workfro
 author: Lisa
 feature: Work Management
 exl-id: c496fe92-5c17-41a5-972b-1c063643bde3
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 0%
 1. 单击左侧面板中的&#x200B;**项目详细信息**，然后转到&#x200B;**财务**&#x200B;区域。
 1. 单击&#x200B;**货币**&#x200B;字段中的&#x200B;**添加**，然后选择要用作项目默认货币的货币。 显示Workfront管理员为Workfront实例设置的所有货币。
 
-   ![](assets/currency-on-project-expanded-nwe.png)
+   项目](assets/currency-on-project-expanded-nwe.png)上的![货币
 
 1. （视情况而定）如果您选择的货币不是为Workfront系统设置的默认货币，请指定所选货币的汇率，因为该汇率与系统中设置为基础货币的货币相关。
 1. 单击&#x200B;**保存更改**。
