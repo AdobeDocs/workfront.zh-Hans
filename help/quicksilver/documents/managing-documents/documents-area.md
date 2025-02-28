@@ -7,9 +7,9 @@ description: 在文档区域中，您可以组织、管理和查看上载到Adob
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
-source-git-commit: 8bf345be3632061b89d239697077fd42c9d9cfd6
+source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 在文档区域中，您可以组织、管理和查看上载到Adobe Workfront的文档的元数据。 您还可以看到验证决定。
 
-![](assets/documents-area-v2-350x199.png)
+![文档区域](assets/documents-area-v2-350x199.png)
 
 文档区域有两种类型。 两者的特性和功能相同：
 
-* **项目、项目组合、项目、任务或问题中的文档区域：**&#x200B;列出您有权访问特定项目、任务或问题的所有文档。 要访问此区域，请在查看项目、任务或问题时单击左侧面板中的&#x200B;**文档** ![](assets/document-icon-12x14.png)。
+* **项目、项目组合、项目、任务或问题中的文档区域：**&#x200B;列出您有权访问特定项目、任务或问题的所有文档。 要访问此区域，请在查看项目、任务或问题时单击左侧面板中的&#x200B;**文档** ![文档图标](assets/document-icon-12x14.png)。
 
-* **全局文档区域：**&#x200B;列出您在Workfront中有权访问的所有文档。 要访问此区域，请在主菜单![](assets/main-menu-icon.png)中单击&#x200B;**文档** ![](assets/document-icon.png)。
+* **全局文档区域：**&#x200B;列出您在Workfront中有权访问的所有文档。 要访问此区域，请在主菜单![主菜单图标](assets/main-menu-icon.png)中单击&#x200B;**文档** ![文档图标](assets/document-icon.png)。
 
 有关将文档上传到Workfront的信息，请参阅[将文档从您的文件系统添加到Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)。
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 当您需要有关文档的所有信息时，可以单击详细信息标题转到完整的文档详细信息区域。
 
-![](assets/documents-area-v2-350x199.png)
+![文档区域](assets/documents-area-v2-350x199.png)
 
 有关摘要的信息，请参阅[文档摘要概述](../../documents/managing-documents/summary-for-documents.md)。
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 做出验证决策后，该决策将显示在文档列表中。
 
-![](assets/proof-decision---doc-list-350x168.png)
+![文档列表中的校对决定](assets/proof-decision---doc-list-350x168.png)
 
 ## 文件夹
 
