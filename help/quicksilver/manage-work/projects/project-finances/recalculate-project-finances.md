@@ -6,9 +6,9 @@ description: 当项目记录的小时数或用于计算成本和收入的费率�
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1633'
 ht-degree: 0%
 
 ---
@@ -149,15 +149,15 @@ ht-degree: 0%
 
 您可以在批量编辑财务时重新计算它们。 有关信息，请参阅本文中的[手动批量重新计算财务](#manually-recalculate-finances-in-bulk)部分。
 
-1. 转到要重新计算财务的项目，然后单击项目名称右侧的&#x200B;**更多**&#x200B;图标![](assets/qs-more-icon-on-an-object.png)。
+1. 转到要重新计算财务的项目，然后单击项目名称右侧的&#x200B;**更多**&#x200B;图标![更多菜单](assets/qs-more-icon-on-an-object.png)。
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![更多项目级别下拉列表](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    或
 
-   转到项目列表或报告并选择一个或多个项目，然后单击列表顶部的&#x200B;**更多**&#x200B;图标![](assets/qs-more-icon-on-an-object.png)。
+   转到项目列表或报告并选择一个或多个项目，然后单击列表顶部的&#x200B;**更多**&#x200B;图标![更多菜单](assets/qs-more-icon-on-an-object.png)。
 
-   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![重新计算表达式](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
@@ -181,9 +181,9 @@ ht-degree: 0%
 要手动重新计算多个项目的财务，请执行以下操作：
 
 1. 转到项目列表。
-1. 在列表中选择多个项目，然后单击列表顶部的&#x200B;**更多**&#x200B;图标![](assets/qs-more-icon-on-an-object.png)。
+1. 选择列表中的多个项目，然后单击列表顶部的&#x200B;**更多**&#x200B;图标![更多菜单](assets/qs-more-icon-on-an-object.png)。
 
-   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![重新计算表达式](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
@@ -207,4 +207,4 @@ ht-degree: 0%
 >
 >当您更改项目状态时，只会重新计算计划值。
 
-您还可以在项目级别的&#x200B;**更多**&#x200B;菜单![](assets/qs-more-menu.png)下手动重新计算财务，方法是单击&#x200B;**重新计算财务**。
+您还可以在项目级别的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/qs-more-menu.png)下手动重新计算财务，方法是单击&#x200B;**重新计算财务**。
