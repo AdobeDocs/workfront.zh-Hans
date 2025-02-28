@@ -6,9 +6,9 @@ description: 可以将文档组织到文件夹中。 您可以在个人文档区
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 1. 单击右侧面板上方的查看选项可更改文档的显示方式。
 
-   ![](assets/screenshot-2016-07-07-12.46.54.png)
+   ![文档视图选项](assets/screenshot-2016-07-07-12.46.54.png)
 
 ## 创建文件夹和子文件夹
 
