@@ -6,9 +6,9 @@ description: 您可以将Adobe Workfront项目导出到Microsoft项目。
 author: Alina
 feature: Work Management
 exl-id: 3f0f3644-a763-4b72-a93a-85af8626b5b3
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -88,15 +88,15 @@ ht-degree: 0%
 
 您可以从项目页面、项目列表或报表中从Workfront导出项目。
 
-1. 转到要导出的项目，然后单击项目名称右侧的&#x200B;**更多**&#x200B;图标![](assets/qs-more-menu.png)
+1. 转到要导出的项目，然后单击项目名称右侧的&#x200B;**更多**&#x200B;图标![更多菜单](assets/qs-more-menu.png)
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![更多下拉列表](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    或
 
-   转到项目列表或报告并选择项目，然后单击列表顶部的“更多”图标![](assets/qs-more-menu.png)。
+   转到项目列表或报告并选择项目，然后单击列表顶部的“更多”图标![更多菜单](assets/qs-more-menu.png)。
 
-   ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![更多菜单已展开](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
 1. 单击&#x200B;**导出MS项目**。
 
