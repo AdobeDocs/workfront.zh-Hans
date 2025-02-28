@@ -6,9 +6,9 @@ description: 您可以将项目从Microsoft项目导入Adobe Workfront，并在�
 author: Alina
 feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '512'
 ht-degree: 1%
 
 ---
@@ -98,14 +98,14 @@ You must have the following access to perform the steps in this article:
 1. 登录到Workfront。
 1. 执行下列操作之一：
 
-   * 单击Workfront右上角的&#x200B;**主菜单** ![](assets/main-menu-icon.png)，或单击左上角的&#x200B;**主菜单** ![](assets/lines-main-menu.png)（如果可用），单击&#x200B;**项目**，然后展开&#x200B;**新建项目**。
+   * 单击Workfront右上角的&#x200B;**主菜单** ![主菜单图标](assets/main-menu-icon.png)，或单击左上角的&#x200B;**主菜单** ![主菜单行](assets/lines-main-menu.png)。如果可用，请单击&#x200B;**项目**，然后展开&#x200B;**新建项目**。
    * 转到项目组合，然后展开&#x200B;**新建项目**。
    * 转到项目群，然后展开&#x200B;**新建项目**。
    * 如果您是组管理员，则还可以在所管理组的项目部分中创建项目。 有关详细信息，请参阅[创建和修改组的项目](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)。
 
 1. 选择&#x200B;**导入MS项目**&#x200B;选项。
 
-   ![](assets/new-project-dropdown-nwe-350x358.png)
+   ![新项目下拉列表](assets/new-project-dropdown-nwe-350x358.png)
 
 1. 单击&#x200B;**选择“文件”**，然后浏览计算机上从Microsoft项目导出的.xml文件。
 1. 导入选定的文件。
