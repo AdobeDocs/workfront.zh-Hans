@@ -7,9 +7,9 @@ description: 创建模板后，可以编辑有关模板任务的信息。 在使
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '2406'
+source-wordcount: '2420'
 ht-degree: 3%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">对象权限 </td> 
-   <td> <p>管理模板的权限。 </p> <p>“模板”任务的Contribute或更高权限。</p> </td> 
+   <td> <p>管理模板的权限。 </p> <p>模板任务的Contribute或更高权限。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,8 +82,8 @@ ht-degree: 3%
 1. 单击列表中的模板任务的名称以打开该模板任务。
 1. （可选）要批量编辑多个模板任务，请选择多个模板任务，然后单击模板列表顶部的&#x200B;**编辑**。
 1. （视情况而定）要编辑有关模板任务的有限信息，请单击左侧面板中的&#x200B;**模板任务详细信息**，然后转到“详细信息”部分的各个区域以编辑每个区域的信息。
-1. （可选）单击&#x200B;**全部折叠**&#x200B;图标![](assets/collapse-all-icon.png)以折叠所有区域。
-1. 若要编辑“详细信息”部分中的信息，请单击&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)，然后从以下任何区域进行选择，或单击&#x200B;**全部编辑**&#x200B;以编辑所有区域的信息：
+1. （可选）单击&#x200B;**全部折叠**&#x200B;图标![全部折叠图标](assets/collapse-all-icon.png)以折叠所有区域。
+1. 若要编辑“详细信息”部分中的信息，请单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)，然后从以下任何区域进行选择，或单击&#x200B;**全部编辑**&#x200B;以编辑所有区域的信息：
 
    * 概述
    * 自定义表单
@@ -96,7 +96,7 @@ ht-degree: 3%
    >
    >有关详细信息区域中显示的所有字段的信息，请继续使用“编辑模板任务”框编辑所有字段，如下所述。
 
-1. （视情况而定）要编辑有关模板任务的所有信息，请单击模板任务名称旁边的&#x200B;**更多**&#x200B;菜单![](assets/qs-more-icon-on-an-object.png)，然后单击&#x200B;**编辑**。
+1. （视情况而定）要编辑有关模板任务的所有信息，请单击模板任务名称旁边的&#x200B;**更多**&#x200B;菜单![更多图标](assets/qs-more-icon-on-an-object.png)，然后单击&#x200B;**编辑**。
 
    此时会显示&#x200B;**编辑模板任务**&#x200B;框。
 
@@ -104,14 +104,14 @@ ht-degree: 3%
    >
    >您还可以在列表中选择模板任务，然后单击“编辑”以打开“编辑模板任务”框。
 
-   ![](assets/edit-template-tasks-box-classic-350x356.png)
+   ![编辑模板任务](assets/edit-template-tasks-box-classic-350x356.png)
 
 1. 请考虑在以下任意部分中指定信息：
 
    * [概述](#overview)
    * [财务](#finance)
    * [设置](#settings)
-   * [分配](#assignments)
+   * [任务](#assignments)
    * [自定义表单](#custom-forms)
    * [评论](#comment)
 
@@ -268,7 +268,7 @@ ht-degree: 3%
 1. 按如上所述开始编辑模板任务。
 1. 单击&#x200B;**设置**。
 
-   ![](assets/edit-template-tasks-settings-classic-350x231.png)
+   ![编辑模板任务设置](assets/edit-template-tasks-settings-classic-350x231.png)
 
 1. 更新以下任一项：
 
@@ -323,7 +323,7 @@ ht-degree: 3%
 
    单击&#x200B;**保存更改**。
 
-### 分配 {#assignments}
+### 任务 {#assignments}
 
 1. 按如上所述开始编辑模板任务。
 1. 单击&#x200B;**分配**。
