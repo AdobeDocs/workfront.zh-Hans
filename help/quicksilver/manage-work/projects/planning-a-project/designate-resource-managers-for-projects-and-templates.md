@@ -6,9 +6,9 @@ description: 您可以为项目指定资源管理器，以指明谁负责管理�
 author: Alina
 feature: Work Management
 exl-id: ae2a89e7-8049-4ee6-9b28-ce247d3f2a6f
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
@@ -167,7 +167,7 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
 
 ## 为模板指定资源管理器
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)。
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)。
 
 1. 单击&#x200B;**模板**。
 
