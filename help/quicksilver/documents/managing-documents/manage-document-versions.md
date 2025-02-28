@@ -6,9 +6,9 @@ description: 您可以在Workfront中管理文档的多个版本。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 477153e4-847b-46ec-8107-72a7399c3767
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
@@ -64,15 +64,15 @@ ht-degree: 0%
 
 1. 在“文档详细信息”页面顶部附近，单击名称旁边的下拉菜单，然后单击要查看和管理的版本的名称。
 
-   ![](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
+   文档详细信息中的![版本下拉列表](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
 
    除了查看版本的详细信息之外，您还可以对版本进行更改，例如其名称、元数据和验证设置（如果它是文档验证）。
 
 ## 下载单个文档版本
 
-1. 在“摘要”中的&#x200B;**版本**&#x200B;下，单击版本右侧的“更多”菜单![](assets/more-icon.png)，然后在出现的下拉列表中单击&#x200B;**下载**。
+1. 在“摘要”中的&#x200B;**版本**&#x200B;下，单击版本右侧的“更多”菜单![“更多”菜单](assets/more-icon.png)，然后在出现的下拉列表中单击&#x200B;**“下载”**。
 
-   ![](assets/more-versions-350x143.png)
+   ![下载单个文档](assets/more-versions-350x143.png)
 
 ## 下载文档的所有版本
 
@@ -105,4 +105,4 @@ ht-degree: 0%
 
    如果文档链接到外部源，则该链接会被删除，并且无法再通过Workfront访问文档。
 
-   ![](assets/more-versions-350x143.png)
+   ![删除文档版本](assets/more-versions-350x143.png)
