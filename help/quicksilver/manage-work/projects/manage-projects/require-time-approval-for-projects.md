@@ -6,9 +6,9 @@ description: 项目需要批准时间
 author: Alina
 feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
      <li>您是具有上述指定访问权限的项目所有者。 在这种情况下，如果存在以下条件之一，您可以执行以下操作： 
       <ul>
        <li>如果您拥有项目的管理权限，则可以批准或拒绝任何其他用户登录项目的小时数。</li>
-       <li> 如果您拥有项目的Contribute或查看权限，则只能批准或拒绝您或报告您的任何其他用户记录的小时数。<br></li>
+       <li> 如果您对项目具有“参与”或“查看”权限，则只能批准或拒绝由您或任何其他报告您的用户记录的小时数。<br></li>
       </ul></li> 
      <li>您拥有对时间表和小时数的管理访问权限的计划许可证。 在本例中：
       <ul>
@@ -80,7 +80,7 @@ ht-degree: 0%
 要要求项目经理审批项目小时，请执行以下操作：
 
 1. 转到要请求批准小时数的项目。
-1. 单击项目名称右侧的&#x200B;**更多**&#x200B;图标![](assets/more-icon.png)，然后单击&#x200B;**编辑**。\
+1. 单击项目名称右侧的&#x200B;**更多**&#x200B;图标![更多图标](assets/more-icon.png)，然后单击&#x200B;**编辑**。\
    此时将显示编辑项目对话框。
 
 1. 在&#x200B;**项目设置**&#x200B;部分中，选择&#x200B;**需要时间来批准此项目**。
