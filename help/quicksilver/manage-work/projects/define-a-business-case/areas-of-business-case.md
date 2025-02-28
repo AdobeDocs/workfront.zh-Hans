@@ -6,9 +6,9 @@ description: 本文介绍了项目的业务案例的方面。
 author: Alina
 feature: Work Management
 exl-id: 0646e4f0-e8fb-48f2-b533-358229543081
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '1607'
 ht-degree: 2%
 
 ---
@@ -51,11 +51,11 @@ Workfront管理员无法配置业务案例的&#x200B;**项目信息**&#x200B;区
 
   考虑添加项目所有者以外的其他人员作为项目的发起人。 发起人接收业务案例的批准。 
 
-* **Portfolio**：为项目指定Portfolio。 您必须先创建Portfolio并将其置于&#x200B;**活动**&#x200B;状态，然后才能在此下拉菜单中进行选择。
+* **Portfolio**：为项目指定Portfolio。 您必须先创建Portfolio并将其置于&#x200B;**活动**&#x200B;状态，然后才能在此下拉菜单中选择它。
 
   有关项目组合的详细信息，请参阅Adobe Workfront中的[Portfolio概述](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)。
 
-  有关创建Portfolio的详细信息，请参阅[创建项目组合](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)。
+  有关创建项目组合的详细信息，请参阅[创建项目组合](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)。
 
 * **计划收益**：估算完成此项目后贵组织计划的货币收益。 它可以是任意数量的货币，并且必须是正值。 例如$10,000。
 * **状态**：默认情况下，项目请求的状态设置为&#x200B;**想法**。
@@ -81,7 +81,7 @@ Workfront管理员无法配置业务案例的&#x200B;**项目信息**&#x200B;区
 >
 >您可以为组织创建未与项目的单个业务案例关联的战略目标。 您必须有权访问Adobe Workfront目标才能创建战略目标。 然后，您可以将他们与其业务案例之外的项目联系起来。 有关使用Workfront目标创建目标的信息，请参阅[Adobe Workfront目标概述](../../../workfront-goals/goal-management/wf-goals-overview.md)。
 
-对于要在Portfolio优化器中接收得分的项目，可自行选择定义目标。 本节是业务案例中唯一的可选部分。 必须先完成业务案例的所有其他部分，然后才能在Portfolio优化程序中对项目进行评分。 您可以在创建目标时指定目标的优先级。
+对于要在Portfolio优化器中接收分数的项目，可自行选择定义目标。 本节是业务案例中唯一的可选部分。 必须先完成业务案例的所有其他部分，然后才能在Portfolio Optimizer中为项目评分。 您可以在创建目标时指定目标的优先级。
 
 有关目标的更多信息，请参阅  [创建业务案例目标](../../../manage-work/projects/define-a-business-case/create-business-case-goals.md)。
 
@@ -115,7 +115,7 @@ Workfront管理员可以设置自定义费用类型。
 
 有关业务案例中项目预算资源的详细信息，请参阅业务案例中的[预算资源](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)。
 
-![](assets/business-case-sp-selected-with-choose-button-350x121.png)
+![业务案例资源预算](assets/business-case-sp-selected-with-choose-button-350x121.png)
 
 查看业务案例的资源预算编制部分时，请考虑以下事项：
 
@@ -125,7 +125,7 @@ Workfront管理员可以设置自定义费用类型。
 
      有关信息，请参阅使用资源规划程序](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md)的业务案例中的[预算资源。
 
-   * Scenario Planner ，如果您的公司已为AdobeScenario Planner购买附加许可证
+   * Scenario Planner ，如果您的公司已为Adobe Scenario Planner购买附加许可证
 
      有关详细信息，请参阅使用场景规划器](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的业务案例中的[预算资源。
 
@@ -149,7 +149,7 @@ Workfront管理员可以设置自定义费用类型。
 
 ## 风险
 
-风险是可能会阻止项目按时或按预算完成的因素。 定义这些因素对于Portfolio经理或项目发起人做出有教育意义的项目审批决定非常重要。 默认情况下，此区域在业务案例中处于启用状态，但Workfront管理员可能选择不显示该区域。
+风险是可能会阻止项目按时或按预算完成的因素。 定义这些因素对于Portfolio经理或项目发起人做出有根据的项目审批决定非常重要。 默认情况下，此区域在业务案例中处于启用状态，但Workfront管理员可能选择不显示该区域。
 
 您可以将潜在成本与正在定义的风险关联，以防发生风险。 项目的风险成本会影响项目的净值。 
 
