@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: 116b9823818ac6103641c2e6ce283dfb47282851
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '643'
 ht-degree: 4%
 
 ---
@@ -131,7 +131,11 @@ ht-degree: 4%
 
 ## 使用智能筛选器筛选您的工作
 
-使用自然语言快速筛选筛选工作。 您的Workfront实例必须位于新的Workfront计划上，并在Adobe Unified Experience中启用。 有关详细信息，请参阅[适用于Workfront的Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+使用自然语言快速筛选筛选工作。
+
+>[!NOTE]
+>
+>此功能仅适用于使用AI Assistant的Unified Adobe Experience客户。 有关AI助手的详细信息，请参阅[AI助手概述](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)。
 
 {{step1-to-priorities}}
 
