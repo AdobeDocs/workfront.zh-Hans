@@ -6,9 +6,9 @@ description: 每个构件都包含自己的工作列表。 工作列表显示分
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: 0bd250b323a4e8e83d7ce8b42d0446c3879d7e6b
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '1016'
 ht-degree: 4%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>您需要处理的任务和问题的Contribute权限或更高版本</p>  </td> 
+   <td> <p>Contribute权限或更高权限可为您需要处理的任务和问题提供内容</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -104,7 +104,7 @@ ht-degree: 4%
 
 要筛选您的工作，请执行以下操作：
 
-1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
+1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
 1. （视情况而定）单击&#x200B;**自定义**&#x200B;以添加以下任何小组件：
 
    | 小组件 | 描述 |
@@ -117,12 +117,12 @@ ht-degree: 4%
    | 我的请求 | 显示您已提交的所有请求 |
    | 我的审批 | 显示所有待处理、已分配、已委派和已提交的审批 |
 
-1. 单击小组件工作列表右上角的&#x200B;**筛选器**&#x200B;图标![](assets/filter-nwepng.png)。
+1. 单击小组件工作列表右上角的&#x200B;**筛选器**&#x200B;图标![筛选器图标](assets/filter-nwepng.png)。
 1. 选择一个&#x200B;**建议的**筛选器或您已创建的筛选器。
 有关建议筛选器的详细信息，请参阅[主页小组件筛选器概述](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)。
 1. （可选）打开&#x200B;**栈栈筛选器**&#x200B;以选择多个筛选器选项。
 
-   ![](assets/my-task-filter-open.png)
+   ![我的任务筛选器打开](assets/my-task-filter-open.png)
 
 
 ## 将您的工作分组
@@ -131,7 +131,7 @@ ht-degree: 4%
 
 要对您的工作列表进行分组，请执行以下操作：
 
-1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
+1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
 1. （视情况而定）单击&#x200B;**自定义**&#x200B;以添加以下任何小组件：
 
    | 小组件 | 描述 |
@@ -144,16 +144,16 @@ ht-degree: 4%
    | 我的请求 | 显示您已提交的所有请求 |
    | 我的审批 | 显示所有待处理、已分配、已委派和已提交的审批 |
 
-1. 单击小组件工作列表右上角的&#x200B;**组**&#x200B;图标![](assets/group-icon.png)。
+1. 单击小组件工作列表右上角的&#x200B;**组**&#x200B;图标![组图标](assets/group-icon.png)。
 1. 选择一个&#x200B;**建议的**分组或您创建的分组。
-   ![](assets/grouping-expanded.png)
+   ![分组已展开](assets/grouping-expanded.png)
 
 
 ## 自定义工作列表列
 
 您可以选择在构件工作列表中显示的列：
 
-1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
+1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
 1. （视情况而定）单击&#x200B;**自定义**&#x200B;以添加以下任何小组件：
 
    | 小组件 | 描述 |
@@ -166,10 +166,10 @@ ht-degree: 4%
    | 我的请求 | 显示您已提交的所有请求 |
    | 我的审批 | 显示所有待处理、已分配、已委派和已提交的审批 |
 
-1. 单击小组件工作列表右上角的&#x200B;**列**&#x200B;图标![](assets/column-icon.png)。
+1. 单击小组件工作列表右上角的&#x200B;**列**&#x200B;图标![列图标](assets/column-icon.png)。
 1. 根据您的偏好设置打开或关闭列。
-1. （可选）单击&#x200B;**拖动**&#x200B;图标![](assets/drag-icon.png)以重新排序列。
-   ![](assets/columns-expanded.png)
+1. （可选）单击&#x200B;**拖动**&#x200B;图标![拖动图标](assets/drag-icon.png)以重新排序列。
+   ![列已展开](assets/columns-expanded.png)
 
 
 ## 查看延迟项目
