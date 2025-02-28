@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,6 @@ Workfront版本编号代表了每月和每季度的版本跟踪。 第一个数�
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
             在编辑项目框中编辑项目时，向项目添加评论</a></p>
-            [！BADGE New in Preview ]{type=Negative}
             <p>现在，您可以在编辑项目框中编辑项目时，为项目添加注释。 批量编辑多个项目时，您还可以同时向这些项目添加评论。 在此更新之前，在编辑项目时不存在此功能。</p>
         </td>
         <td>
