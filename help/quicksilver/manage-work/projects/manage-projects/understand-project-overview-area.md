@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1453'
 ht-degree: 3%
 
 ---
@@ -63,13 +63,13 @@ ht-degree: 3%
 
    或
 
-   单击“详细信息”部分右上角的&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)，然后单击&#x200B;**概述**。 这将打开概述区域以进行编辑。
+   单击“详细信息”部分右上角的&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)，然后单击&#x200B;**概述**。 这将打开概述区域以进行编辑。
 
    >[!NOTE]
    >
    >根据Workfront管理员配置布局模板的方式，概述部分可能不会列在首位，在这种情况下，它会折叠。 有关信息，请参阅[使用布局模板自定义详细信息视图](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)。
 
-1. （视情况而定）如果某个项目上有特定字段需要更新，但未显示在此部分中，请单击项目名称旁边的&#x200B;**更多菜单** ![](assets/more-icon.png)，然后单击&#x200B;**编辑**&#x200B;以查看更多项目字段。
+1. （视情况而定）如果某个项目上有特定字段需要更新，但未显示在此部分中，请单击项目名称旁边的&#x200B;**更多菜单** ![更多图标](assets/more-icon.png)，然后单击&#x200B;**编辑**&#x200B;以查看更多项目字段。
 
    有关编辑项目的详细信息，请参阅[编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md)。
 
