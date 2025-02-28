@@ -6,9 +6,9 @@ description: 您可以与用户共享模板，或者通过在模板级别使用�
 author: Alina
 feature: Work Management
 exl-id: 99c6b241-a2c9-4b6c-b605-177bbbc3f21a
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '787'
 ht-degree: 2%
 
 ---
@@ -62,10 +62,10 @@ ht-degree: 2%
 
 要共享模板：
 
-1. 从&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)中，单击&#x200B;**模板**。
+1. 从&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)中，单击&#x200B;**模板**。
 
 1. 执行下列操作之一：\
-   单击模板名称以将其打开，然后单击&#x200B;**更多**&#x200B;菜单![](assets/qs-more-icon-on-an-object.png)，然后单击&#x200B;**模板共享**。
+   单击模板名称以将其打开，然后单击&#x200B;**更多**&#x200B;菜单![更多图标](assets/qs-more-icon-on-an-object.png)，然后单击&#x200B;**模板共享**。
 
    或
 
@@ -100,7 +100,7 @@ ht-degree: 2%
 要与用户共享从模板创建的未来项目，请执行以下操作：
 
 1. 执行下列操作之一：\
-   单击模板名称以将其打开，然后单击&#x200B;**更多**&#x200B;菜单![](assets/qs-more-icon-on-an-object.png)，然后单击&#x200B;**模板共享**。
+   单击模板名称以将其打开，然后单击&#x200B;**更多**&#x200B;菜单![更多图标](assets/qs-more-icon-on-an-object.png)，然后单击&#x200B;**模板共享**。
 
    ![从模板共享项目](assets/project-sharing-on-template-nwe-2022-350x172.png)
 
@@ -119,7 +119,7 @@ ht-degree: 2%
    * **无访问权限**：您可以指定哪些用户无权访问模板。\
      仅当从模板批量共享项目时，此选项才可用。 
    * **视图**：具有这些权限的用户可以查看从模板创建的项目。
-   * **Contribute**：具有这些权限的用户可以参与使用该模板创建的项目 
+   * **Contribute**：具有这些权限的用户可以参与从模板创建的项目 
    * **管理**：具有这些权限的用户可以管理或删除从此模板创建的项目。
 
 1. （可选）单击&#x200B;**选项**&#x200B;图标以使项目在系统范围内可用。
