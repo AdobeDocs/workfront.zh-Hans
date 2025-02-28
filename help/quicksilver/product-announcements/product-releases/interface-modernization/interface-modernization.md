@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 491a32e677b913c71396316d365fc1f18750124e
+source-git-commit: 116b9823818ac6103641c2e6ce283dfb47282851
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1473'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ ht-degree: 0%
 
 ### 将故事和问题添加到迭代
 
-**预览版本： 2025年2月6日；生产版本：待宣布**
+**预览版本： 2025年2月6日；生产版本：从2025年2月13日开始的一周开始**
 
 我们更新了添加故事和添加问题对话框，使其采用与Workfront其他区域一致的更加现代的设计。
 
