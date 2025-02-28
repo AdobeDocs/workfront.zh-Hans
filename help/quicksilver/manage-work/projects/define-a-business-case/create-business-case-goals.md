@@ -1,20 +1,20 @@
 ---
 navigation-topic: business-case-and-scorecards
 title: 创建业务案例目标
-description: 在创建业务案例的过程中，您可以创建一组目标以定义项目目标。 业务案例目标用于告知Portfolio经理或项目发起人完成项目的目的。
+description: 在创建业务案例的过程中，您可以创建一组目标以定义项目目标。 业务案例目标用于向Portfolio经理或项目发起人传达完成项目的目的。
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '494'
 ht-degree: 1%
 
 ---
 
 # 创建业务案例目标
 
-在创建业务案例的过程中，您可以创建一组目标以定义项目目标。 业务案例目标用于告知Portfolio经理或项目发起人完成项目的目的。
+在创建业务案例的过程中，您可以创建一组目标以定义项目目标。 业务案例目标用于向Portfolio经理或项目发起人传达完成项目的目的。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: below snippet: NWE only, not classic)</p>
@@ -31,9 +31,9 @@ ht-degree: 1%
 
 * 目标不是项目的业务案例中的强制部分。
 
-  即使未定义业务案例的“目标”部分，项目也可以在Portfolio优化器中接收要优先处理的得分。
+  即使未定义业务案例的目标部分，项目也可以在Portfolio Optimizer中接收要优先处理的得分。
 
-  有关Portfolio优化程序得分的详细信息，请参阅[将记分卡应用于项目并生成一致性分数](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)。
+  有关Portfolio Optimizer分数的详细信息，请参阅[将记分卡应用于项目并生成一致性分数](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)。
 
 * 您无法报告业务案例目标。
 
@@ -75,7 +75,7 @@ ht-degree: 1%
 
    此时将显示业务案例。
 
-   ![](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
+   ![商业案例信息](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
 
 1. 在&#x200B;**目标**&#x200B;部分中，单击&#x200B;**编辑目标**。
 
@@ -88,7 +88,7 @@ ht-degree: 1%
    * 低
    * 最低
 
-     ![](assets/g1-350x76.png)
+     重要性(assets/g1-350x76.png)
 
      您无法自定义目标的重要性级别。
 
