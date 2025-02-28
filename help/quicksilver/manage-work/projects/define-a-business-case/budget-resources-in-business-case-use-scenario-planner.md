@@ -5,9 +5,9 @@ description: 作为资源计划的一部分，您可以在构建业务案例时�
 author: Alina
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
@@ -120,11 +120,11 @@ ht-degree: 0%
 
    * 如果您刚刚从Scenario Planner发布信息，请在&#x200B;**中选择方案计划器。选择用于计算项目预算劳力成本的小时**&#x200B;字段（位于资源预算区域），然后单击&#x200B;**选择**。
 
-     ![](assets/business-case-sp-selected-with-choose-button-350x121.png)
+     使用“选择”按钮的资源规划者中的![业务案例](assets/business-case-sp-selected-with-choose-button-350x121.png)
 
    * 如果之前已为该项目的预算资源选择了资源规划者，请单击&#x200B;**更改** > **方案规划者** > **选择**。
 
-     ![](assets/business-case-rp-selected-change-option-to-switch-to-sp-highlighted-350x37.png)
+     在Scenario Planner中使用“选择”按钮![业务案例](assets/business-case-rp-selected-change-option-to-switch-to-sp-highlighted-350x37.png)
 
      Workfront使用链接计划中的所需工作角色小时数计算项目的预算劳力成本和预算小时数。 这是推荐的选项。 成本以项目的货币显示在业务案例中。
 
