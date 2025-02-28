@@ -5,9 +5,9 @@ description: 您可以使用业务案例来请求项目，并定义项目的目�
 author: Alina
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -54,13 +54,13 @@ ht-degree: 0%
 
   有关业务案例领域的信息，请参阅文章[业务案例领域概述](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)。
 
-* 如果希望项目在Portfolio优化器中获得分数，则必须完成业务案例的所有区域，但“目标”区域除外。 完成目标区域是可选的。 项目在Portfolio优化器中会获得一个分数，即使此区域未完成。
+* 如果希望项目在Portfolio优化器中获得分数，则必须完成业务案例的所有区域，但“目标”区域除外。 完成目标区域是可选的。 即使此区域未完成，项目也会在Portfolio Optimizer中获得一个分数。
 
-  有关使用记分卡和Portfolio优化器的信息，请参阅文章[将记分卡应用于项目并生成一致性分数](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)。
+  有关使用记分卡和Portfolio Optimizer的信息，请参阅文章[将记分卡应用于项目并生成一致性分数](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)。
 
 ## 创建业务案例
 
-1. 单击&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**项目**。
+1. 单击&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**项目**。
 1. 单击&#x200B;**新建项目**&#x200B;并选择&#x200B;**请求项目**。\
    默认情况下，项目处于&#x200B;**想法**&#x200B;状态。
 
@@ -69,7 +69,7 @@ ht-degree: 0%
    >如果在您的Workfront实例中删除了“想法”状态，则项目会置于新项目的默认状态，如项目偏好设置区域中所定义。 有关设置项目首选项的信息，请参阅[配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
 
 1. 指定项目的名称，然后按Enter键。
-1. （可选）单击&#x200B;**更多**&#x200B;图标![](assets/qs-more-icon-on-an-object.png)，然后单击&#x200B;**附加模板**&#x200B;以创建项目的工作划分结构。
+1. （可选）单击&#x200B;**更多**&#x200B;图标![更多图标](assets/qs-more-icon-on-an-object.png)，然后单击&#x200B;**附加模板**&#x200B;以创建项目的工作划分结构。
 
    或
 
