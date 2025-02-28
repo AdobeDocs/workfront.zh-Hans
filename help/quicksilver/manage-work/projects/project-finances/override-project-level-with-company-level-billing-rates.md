@@ -6,9 +6,9 @@ description: 用公司级别的记帐费率覆盖项目级别的记帐费率
 author: Lisa
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 0%
 当用户手动重新计算项目财务时，将应用对公司级别记帐费率的任何更改。 历史收入计算也会被覆盖，除非将它们标记为已记帐。
 
 1. 转到项目。
-1. 单击标题中项目名称旁边的&#x200B;**更多**&#x200B;菜单![](assets/qs-more-icon-on-an-object.png)，然后单击&#x200B;**编辑**。
+1. 单击标题中项目名称旁边的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/qs-more-icon-on-an-object.png)，然后单击&#x200B;**编辑**。
 1. 在&#x200B;**财务**&#x200B;部分中，启用&#x200B;**允许公司级别的记帐费率以覆盖项目级别的记帐费率**。
 
    >[!CAUTION]
@@ -103,4 +103,4 @@ ht-degree: 0%
    * 单个项目：
 
       1. 转到为其启用了公司级别记帐费率覆盖的项目。
-      1. 单击标题中项目名称旁边的&#x200B;**更多**&#x200B;菜单![](assets/qs-more-icon-on-an-object.png)，然后单击&#x200B;**重新计算财务**。
+      1. 单击标题中项目名称旁边的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/qs-more-icon-on-an-object.png)，然后单击&#x200B;**重新计算财务**。
