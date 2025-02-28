@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1041'
 ht-degree: 3%
 
 ---
@@ -114,7 +114,7 @@ ht-degree: 3%
 
 有关详细信息，请参阅[优先处理重要工作项](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)。
 
-![](assets/worklist.png)
+![工作列表](assets/worklist.png)
 
 ### 使用日历视图
 
@@ -142,7 +142,7 @@ ht-degree: 3%
 
 有关详细信息，请参阅[在优先级](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md)中添加和查看注释。
 
-![](assets/update-log-upload.png)
+![更新、记录时间和上传](assets/update-log-upload.png)
 
 ### 记录时间
 
@@ -150,7 +150,7 @@ ht-degree: 3%
 
 有关详细信息，请参阅[在优先级中记录时间](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md)。
 
-![](assets/update-log-upload.png)
+![更新、记录时间和上传](assets/update-log-upload.png)
 
 ### 上载文件
 
@@ -163,14 +163,14 @@ ht-degree: 3%
 
 有关详细信息，请参阅[上载优先级中的文件](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)。
 
-![](assets/update-log-upload.png)
+![更新、记录时间和上传](assets/update-log-upload.png)
 
 
 ### 添加快速链接
 
 您可以将常用链接嵌入到工作项的详细信息页面中。 利用快速链接，可快速访问或复制链接。
 
-![](assets/quick-links.png)
+![快速链接](assets/quick-links.png)
 
 有关详细信息，请参阅[在优先级](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)中添加和管理快速链接。
 
@@ -194,7 +194,7 @@ ht-degree: 3%
 
 有关详细信息，请参阅[在优先级中更新工作](/help/quicksilver/workfront-basics/priorities/catch-me-up.md)。
 
-![](assets/catch-me-up.png)
+![赶上我](assets/catch-me-up.png)
 
 <!--need new screen for prod-->
 
