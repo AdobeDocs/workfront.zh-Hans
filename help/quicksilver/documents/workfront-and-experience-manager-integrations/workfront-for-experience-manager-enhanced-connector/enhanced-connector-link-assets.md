@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 35c80f6a-419b-4237-8139-f59ab7bbd5c7
-source-git-commit: dd8718b00a310bee6caa13db7644b86174b476f4
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 0%
+source-wordcount: '591'
+ht-degree: 1%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 1. 选择所需的资源。
 
-   ![](assets/select-an-asset.png)
+   ![选择资源](assets/select-an-asset.png)
 
 1. 单击&#x200B;**链接**。
 
@@ -103,7 +103,7 @@ ht-degree: 0%
 
 1. 选择所需的文件夹。
 
-   ![](assets/select-a-folder.png)
+   ![选择文件夹](assets/select-a-folder.png)
 
 1. 单击&#x200B;**链接**。
 
@@ -127,6 +127,6 @@ ht-degree: 0%
 
 1. 选择所需的资源。
 
-   ![](assets/select-an-asset.png)
+   ![选择资源](assets/select-an-asset.png)
 
 1. 单击&#x200B;**链接**。
