@@ -6,9 +6,9 @@ description: 您可以在“模板”区域中创建和删除模板。 在构建
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '574'
 ht-degree: 2%
 
 ---
@@ -102,7 +102,7 @@ ht-degree: 2%
    >
    >不能直接从该甘特图编辑任务。
 
-1. 若要向新模板添加信息，请单击&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)，然后单击&#x200B;**编辑**。
+1. 若要向新模板添加信息，请单击&#x200B;**更多**&#x200B;菜单![更多图标](assets/more-icon.png)，然后单击&#x200B;**编辑**。
 
    有关编辑模板的信息，请参阅[编辑项目模板](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)。
 
