@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront中将文档添加到多个区域中的�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 8687e92ffed08e87fcb8c22816fd86bafa7f9e7a
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '769'
 ht-degree: 1%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 1%
 1. 转到要添加新文档的项目、任务或问题。
 1. 单击&#x200B;**文档**&#x200B;选项卡，然后单击&#x200B;**新增**&#x200B;下拉菜单。
 
-   ![](assets/add-new-doc.png)
+   ![添加新文档](assets/add-new-doc.png)
 
 1. 根据要添加的文档类型，执行以下任一操作：
 
