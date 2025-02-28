@@ -6,9 +6,9 @@ description: 如果项目与组关联，则您可以将系统级别状态以及�
 author: Alina
 feature: Work Management
 exl-id: 7564ab6a-8ddf-4e76-8e45-d59f9cf8d38b
-source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Alina, I moved this out of an admin article about statuses (Create and customize
 当您更新项目的组时，任务、问题或项目的状态可用的选项将更改为匹配组。
 
 1. 转至项目或创建新项目，如[创建项目](../../../manage-work/projects/create-projects/create-project.md)中所述。
-1. 单击&#x200B;**更多**&#x200B;图标![](assets/more-icon.png)，然后单击&#x200B;**编辑**。
+1. 单击&#x200B;**更多**&#x200B;图标![更多图标](assets/more-icon.png)，然后单击&#x200B;**编辑**。
 
 1. 在显示的&#x200B;**编辑项目**&#x200B;框中（靠近&#x200B;**概述**&#x200B;部分的底部），从&#x200B;**组**&#x200B;下拉菜单中选择组。
 
