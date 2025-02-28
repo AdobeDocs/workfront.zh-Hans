@@ -6,9 +6,9 @@ description: 您可以删除上传的文档。 如果您被授予特定文档的
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1a4c4849-bca1-4ae3-9111-d0ed4dacca14
-source-git-commit: 060557085c6941fab4ca8df22641679199f5c55b
+source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 1. 转到包含文档的项目、任务或问题，然后选择&#x200B;**文档**。
 1. 查找所需的文档。
 
-1. 单击文档区域上方的&#x200B;**删除**&#x200B;图标![](assets/delete.png)。
+1. 单击文档区域上方的&#x200B;**删除**&#x200B;图标![删除图标](assets/delete.png)。
 
 1. 在出现的框中，单击&#x200B;**是，删除**&#x200B;以进行确认。
 
