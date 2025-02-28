@@ -6,9 +6,9 @@ description: 您可以使用Workfront扩展将您在Adobe Illustrator和Adobe In
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 40945eac-e8de-42af-b6ba-f3082c208e02
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '3087'
+source-wordcount: '3107'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->我们正在将适用于Illustrator的Workfront扩展替换为[已更新的Creative Cloud插件](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)，并将InDesign插件替换为。 自2022年末开始，将不再支持此扩展，并且此扩展将按原样可用。
+>我们正在使用[更新的Workfront插件](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)来替换Illustrator和InDesign的Creative Cloud扩展。 自2022年末开始，将不再支持此扩展，并且此扩展将按原样可用。
 
 您可以使用Workfront扩展将您在Adobe Illustrator和Adobe InDesign中保存并创建的数字内容导出到Workfront。 这加快了文档审阅和批准过程。
 
@@ -72,15 +72,15 @@ ht-degree: 0%
 
 ## 从Illustrator或InDesign登录Workfront扩展 {#log-in-to-workfront-extension-from-illustrator-or-indesign}
 
-当您从某个受支持的Adobe应用程序登录到Workfront时，您已登录到所有受支持的Adobe应用程序。
+当您从某个受支持的Workfront应用程序登录到Adobe时，您已登录到所有受支持的Adobe应用程序。
 
-1. 转到要在其中使用Workfront扩展的Adobe应用程序。
+1. 转到要在其中使用Adobe扩展的Workfront应用程序。
 
    有关每个支持的应用程序支持的格式列表，请参阅本文中的[支持的导出文件格式](#supported-exported-file-formats)。
 
 1. 单击&#x200B;**窗口** > **扩展** > Workfront。
 
-1. （可选）将Workfront面板拖动到您希望Adobe应用程序中显示该面板的位置。
+1. （可选）将Workfront面板拖到您希望它在Adobe应用程序中显示的位置。
 1. 按照提示登录Workfront。
 
    >[!NOTE]
@@ -101,7 +101,7 @@ ht-degree: 0%
 * 您的访问级别必须允许将文档上传到Workfront。 有关详细信息，请参阅[授予对文档的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)。
 * 您必须具有将文档上传到所需项目的权限。 有关详细信息，请参阅[对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
 * 文件会上载到您选择的Workfront对象的“文档”区域。
-* 无法从Adobe Creative Cloud应用程序将文档导出到主菜单![](assets/main-menu-icon.png)中的文档区域。
+* 无法从Adobe Creative Cloud应用程序将文档导出到主菜单![主菜单图标](assets/main-menu-icon.png)中的文档区域。
 
 以下各节将说明以下内容：
 
@@ -135,7 +135,7 @@ ht-degree: 0%
 
 1. （可选）为文件键入新名称。
 
-   ![](assets/rename-file-uploading.png)
+   ![重命名文件](assets/rename-file-uploading.png)
 
 1. 单击&#x200B;**上传**。
 
@@ -165,7 +165,7 @@ ht-degree: 0%
 1. （视情况而定）如果要上载文件的工作项具有文档文件夹，请在&#x200B;**单击以选择文档文件夹**&#x200B;字段中选择文档文件夹，然后单击&#x200B;**选择**。
 1. （可选）要重命名文档，请单击文档名称并键入新名称。
 
-   ![](assets/rename-doc-exporting.png)
+   导出时![重命名文档](assets/rename-doc-exporting.png)
 
 1. 单击&#x200B;**导出**。
 
@@ -181,7 +181,7 @@ ht-degree: 0%
 
 ### 从Illustrator或InDesign上传文件的新版本 {#upload-a-new-version-of-a-file-from-illustrator-or-indesign}
 
-1. 如果要将正在支持的Adobe应用程序中处理的文件导出为Workfront中文件的新版本，请在Adobe应用程序中打开该文件。
+1. 如果要将在支持的Adobe应用程序中处理的文件导出为Workfront中文件的新版本，请在Adobe应用程序中打开该文件。
 1. 如果未显示Workfront扩展，请单击&#x200B;**窗口** > **扩展** > **Workfront**。
 
    如果项目处于当前状态，则会显示分配给您的工作项列表。 如果未显示列表，请登录到Workfront。
@@ -211,7 +211,7 @@ ht-degree: 0%
    >默认情况下，Workfront中的文档名称会被填充，且无法编辑。 它也不会更改您上传或导出为新版本的文件名称。
    >
    >
-   >![](assets/doc-name-cant-be-changed.png)
+   >![无法更改文档名称](assets/doc-name-cant-be-changed.png)
 
 ## 对Illustrator或InDesign中的Workfront文档进行评论 {#comment-on-a-workfront-document-from-illustrator-or-indesign}
 
@@ -243,21 +243,21 @@ ht-degree: 0%
 
 ## 从Illustrator或InDesign请求文档审批
 
-您可以直接从Adobe应用程序中请求Workfront文档审批。
+您可以直接从Workfront应用程序请求审批Adobe文档。
 
 您可以从以下实体请求文档审批：
 
 * Workfront用户
 * 没有Workfront帐户的外部用户
 
-您可以通过以下方式从Adobe申请请求批准文档：
+您可以通过以下方式，从Adobe应用程序请求审批文档：
 
 * 通过将审批者附加到文档。
 * 通过在文档中添加注释，在添加注释时通知用户，并将用户作为批准者附加到文档。
 
-  有关在评论文档时请求审批的信息，请参阅本文中[来自Illustrator或InDesign的Workfront文档评论](#comment-on-a-workfront-document-from-illustrator-or-indesign)部分。
+  有关在评论文档时请求批准的信息，请参阅本文中[来自Illustrator或InDesign的Workfront文档的评论](#comment-on-a-workfront-document-from-illustrator-or-indesign)部分。
 
-要从Adobe申请请求批准单据，请执行以下操作：
+要从Adobe应用程序中请求批准文档，请执行以下操作：
 
 1. 打开一个受支持的Adobe应用程序。
 1. 如果未显示Workfront扩展，请单击&#x200B;**窗口** > **扩展** > **Workfront**。
@@ -276,7 +276,7 @@ ht-degree: 0%
 
    * 键入审批者的名称，然后在列表中显示该名称时将其选定。
 
-     ![](assets/adobe-cc-adding-a-doc-approver-350x189.png)
+     ![添加文档审批者](assets/adobe-cc-adding-a-doc-approver-350x189.png)
 
    * 键入外部用户的电子邮件地址。
 
@@ -289,7 +289,7 @@ ht-degree: 0%
 
 ## 从Illustrator或InDesign生成验证 {#generate-a-proof-from-illustrator-or-indesign}
 
-如果贵组织使用自动工作流模板，则无需离开该应用程序，即可为在Adobe应用程序中创建的文档生成验证。 有关创建验证的信息，请参阅[创建验证](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)。 有关自动化工作流模板的信息，请参阅[自动化工作流概述](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)中的[自动化工作流模板](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate)。
+如果您的组织使用自动工作流模板，则无需离开应用程序，即可为您在Adobe应用程序中创建的文档生成验证。 有关创建验证的信息，请参阅[创建验证](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)。 有关自动化工作流模板的信息，请参阅[自动化工作流概述](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)中的[自动化工作流模板](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate)。
 
 1. 打开一个受支持的Adobe应用程序。
 1. 如果未显示Workfront扩展，请单击&#x200B;**窗口** > **扩展** > Workfront。
@@ -325,7 +325,7 @@ ht-degree: 0%
 
    您可以查看验证创建过程的进度。 警报在生成完成后显示。 您可以打开您在其中创建验证的任务，该任务会在此处列出。
 
-## 在不离开Illustrator或InDesign的情况下上传新版本的验证
+## 无需离开Illustrator或InDesign即可上传新版本的验证
 
 1. 单击具有校对的现有文档，然后单击右下角的&#x200B;**选择**。
 1. 单击&#x200B;**作为新验证版本**&#x200B;上载以启用它。
@@ -348,9 +348,9 @@ ht-degree: 0%
 
 ## 注销Workfront扩展
 
-1. 在Adobe应用程序中，单击&#x200B;**窗口** > **扩展** > **Workfront**。
+1. 从Adobe应用程序中，单击&#x200B;**窗口** > **扩展** > **Workfront**。
 
-1. 单击面板右上角的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)。
+1. 单击面板右上角的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)。
 
 1. （可选）单击&#x200B;**反馈**&#x200B;以打开简短的调查并向Workfront发送您有关Workfront for Adobe Creative Cloud的反馈。
 1. 单击&#x200B;**注销**。\
@@ -363,17 +363,17 @@ ht-degree: 0%
 
 ### Adobe InDesign支持的导出文件格式  {#supported-exported-file-formats-for-adobe-indesign}
 
-Workfront支持将文件从InDesign导出到Workfront的以下文件格式：
+Workfront支持以下文件格式，可将文件从InDesign导出到Workfront：
 
 * EPS — 封装的PostScript
-* ePub — 固定版面电子出版物
-* ePub — 可重播的电子出版物&#42;
-* HTML- HyperText标记语言
-* IDML -InDesign标记语言&#42;
+* ePub — 固定布局电子出版物
+* ePub — 可重新刷新的电子出版物&#42;
+* HTML — 超文本标记语言
+* IDML - InDesign标记语言&#42;
 * JPG、JPEG — 联合摄影专家组
-* PDF-Adobe可移植文档文件
+* PDF - Adobe可移植文档文件
 * PNG — 可移植网络图形
-* SWF-Flash Player&#42;
+* SWF - Flash Player &#42;
 * XML — 可扩展标记语言&#42;
 
 &#42;启用&#x200B;**上传新校对**&#x200B;时，此文件格式不可用(有关此选项的信息，请参阅本文中的[从Illustrator或InDesign生成校对](#generate-a-proof-from-illustrator-or-indesign))。 如果在启用&#x200B;**上传新校对**&#x200B;之前已选择此文件格式，则系统会将文件格式更改为PDF。 您可以从列表中选择不同的格式。
@@ -385,8 +385,8 @@ Workfront支持以下文件格式，可将文件从Illustrator导出到Workfront
 * DWG - AutoCAD绘图，AutoCAD交换文件&#42;
 * JPG、JPEG — 联合摄影专家组
 * PNG — 可移植网络图形
-* PSD- Photoshop文档
-* SWF-Flash Player&#42;
+* PSD - Photoshop文档
+* SWF - Flash Player &#42;
 * TIFF — 标记图像文件格式
 
 &#42;启用&#x200B;**上传新校对**&#x200B;时，此文件格式不可用(有关此选项的信息，请参阅本文中的[从Illustrator或InDesign生成校对](#generate-a-proof-from-illustrator-or-indesign))。 如果在启用&#x200B;**上传新校对**&#x200B;之前已选择此文件格式，则系统会将文件格式更改为PNG。 您可以从列表中选择不同的格式。
