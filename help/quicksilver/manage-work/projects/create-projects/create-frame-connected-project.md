@@ -8,9 +8,9 @@ feature: Work Management
 hide: true
 hidefromtoc: true
 exl-id: 230d8e62-a3c9-4e38-9b26-5ba1c4f56391
-source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1180'
 ht-degree: 1%
 
 ---
@@ -95,7 +95,7 @@ Frame.io中的项目由连接到Workfront组的团队组织。 我们建议使�
 
 继续下一部分。
 
-![](assets/template-group.png)
+![模板组](assets/template-group.png)
 
 ### 添加任务并分配启用了Frame.io的用户
 
@@ -105,7 +105,7 @@ Frame.io中的项目由连接到Workfront组的团队组织。 我们建议使�
    或
 
    单击&#x200B;**新建模板任务**以一次添加一个任务并配置其他设置。
-   ![](assets/add-tasks-to-template.png)
+   ![将任务添加到模板](assets/add-tasks-to-template.png)
 1. 添加任务名称。
 1. 在&#x200B;**工作**&#x200B;区域，分配用户或团队。 如果单独或在团队中分配启用了Frame.io的用户，则会授予他们访问Frame.io项目的协作者权限，并通过电子邮件通知他们有关Frame.io项目中的任务的信息。 从该电子邮件中，他们可以加入Frame.io项目并开始工作。
 1. 根据需要重复步骤1和2。
@@ -133,7 +133,7 @@ Workfront具有强大的项目管理功能。 我们建议使用[编辑项目模
 1. 单击&#x200B;**从模板新建项目**。
 1. 使用搜索框，开始键入所需模板的名称。
 1. 选择模板名称，然后单击&#x200B;**使用模板**。
-   ![](assets/find-your-template.png)
+   ![查找您的模板](assets/find-your-template.png)
 1. 根据需要调整任何项目设置，然后单击&#x200B;**创建项目**。
 1. 在左侧面板中，单击&#x200B;**文档**。
 1. 使用单向同步文件夹可自动与Frame.io共享创意素材。 [!BADGE 即将推出]{type=Informative}
@@ -176,7 +176,7 @@ Workfront具有强大的项目管理功能。 我们建议使用[编辑项目模
    或
 
    单击&#x200B;**新建任务**以一次添加一个任务并配置其他设置。
-   ![](assets/add-project-tasks.png)
+   ![新任务](assets/add-project-tasks.png)
 1. 添加任务名称。
 1. 在&#x200B;**工作**&#x200B;区域，分配用户或团队。 如果单独或在团队中分配启用了Frame.io的用户，则会授予他们访问Frame.io项目的协作者权限，并通过电子邮件通知他们有关Frame.io项目中的任务的信息。 从该电子邮件中，他们可以加入Frame.io项目并开始工作。
 1. 根据需要重复步骤1和2。
