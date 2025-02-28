@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 5457f516-c213-4b82-b033-bc8db943a217
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
@@ -62,14 +62,14 @@ ht-degree: 0%
 {{step1-to-priorities}}
 
 1. 将鼠标悬停在名称上，然后单击&#x200B;**记录时间**。
-   ![](assets/update-log-upload.png)
+   ![更新、记录时间和上传](assets/update-log-upload.png)
 1. 在&#x200B;**小时类型**&#x200B;下拉菜单中，选择相应的小时类型。 可用小时类型取决于在系统、项目和用户级别定义的内容，如定义小时类型和可用性中所述。
 
 1. （视情况而定）如果您的Workfront或组管理员启用了手动将工作角色分配给小时条目设置，请从下拉菜单中选择工作角色。 默认情况下，将显示分配给工作项时指定的角色。 如果您未在该对象上分配角色，则默认显示您的“主要角色”。 如果未分配主角色，则不会显示任何工作角色。
 
 1. 输入要记录的时间，然后单击&#x200B;**记录时间**。
 
-   ![](assets/log-time-dialog.png)
+   ![记录时间](assets/log-time-dialog.png)
 
 ## 在工作项中记录时间
 
@@ -84,4 +84,4 @@ ht-degree: 0%
 
 1. 输入要记录的时间，然后单击&#x200B;**记录时间**。
 
-   ![](assets/log-time-dialog.png)
+   ![记录时间](assets/log-time-dialog.png)
