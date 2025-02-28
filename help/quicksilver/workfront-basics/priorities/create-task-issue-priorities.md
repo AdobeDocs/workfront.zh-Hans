@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '268'
 ht-degree: 3%
 
 ---
@@ -68,8 +68,8 @@ ht-degree: 3%
 {{step1-to-priorities}}
 
 1. 单击右上角的&#x200B;**新建**。
-   ![](assets/create-new.png)
-生产![](assets/create-new--.png)的新屏幕
+   ![新建](assets/create-new.png)
+prod ![的新屏幕新建（生产）](assets/create-new--.png)
 1. 指定以下信息：
 
    | 字段 | 说明 |
