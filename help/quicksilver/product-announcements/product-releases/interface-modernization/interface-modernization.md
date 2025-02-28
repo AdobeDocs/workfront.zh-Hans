@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 946b7d2ed2d45c3622706a0d0336b3261c22a2ad
+source-git-commit: 491a32e677b913c71396316d365fc1f18750124e
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1471'
 ht-degree: 0%
 
 ---
@@ -187,7 +187,7 @@ ht-degree: 0%
 
 ### 文档审批区域的界面更新
 
-**预览版本： 2025年2月13日；生产版本：待宣布**
+**预览版本： 2025年2月13日；生产版本：从2025年2月27日开始的一周开始**
 
 我们更新了文档上的批准区域，更新后的设计更加现代化，与Workfront的其他区域一致。
 
