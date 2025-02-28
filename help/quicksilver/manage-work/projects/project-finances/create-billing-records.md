@@ -5,9 +5,9 @@ description: 除了设置收入和跟踪费用外，您还可以在项目上创�
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '1896'
+source-wordcount: '1898'
 ht-degree: 0%
 
 ---
@@ -241,7 +241,7 @@ ht-degree: 0%
 
    或
 
-   单击右上角的&#x200B;**编辑图标** ![](assets/edit-icon.png)，然后编辑任何可用字段中的信息。
+   单击右上角的&#x200B;**编辑图标** ![编辑图标](assets/edit-icon.png)，然后编辑任何可用字段中的信息。
 
    更新以下内容：
 
