@@ -6,9 +6,9 @@ description: Adobe Workfront审阅工具是一种浏览器扩展，它允许您�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
-source-git-commit: 9bc1502149d99624d8494aef86e11e18a95f563b
+source-git-commit: 91f2dd12a91889c2cd1c2c01c93402e161684665
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '496'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,7 @@ Adobe Workfront审阅工具是一个基于Web的浏览器扩展，它允许您�
 * Firefox
 * Chrome
 * Edge
+* Safari
 
 如果您需要查看的内容位于某个网站上，我们建议您使用桌面验证查看器
 
