@@ -6,9 +6,9 @@ description: 您可以将模板用作在Adobe Workfront中创建项目的框架�
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 0%
    <td role="rowheader">访问级别</td> 
    <td> <p>编辑对项目和模板的访问权限</p>
 
-<p>编辑对“Portfolio和程序”的访问权限(如果使用的模板包含Portfolio和程序)</p>
+<p>编辑对项目组合和项目的访问权限(如果使用的模板包含Portfolio和项目)</p>
 
 </td> 
   </tr> 
@@ -97,13 +97,13 @@ ht-degree: 0%
 
      >[!TIP]
      >
-     >使用项目组合中的模板创建项目时，新项目的“Portfolio”字段会更新，以显示您选择从中创建项目的项目组合。 如果已指定，这会覆盖模板上的Portfolio字段。
+     >使用项目组合中的模板创建项目时，新项目的Portfolio字段会更新，以显示您选择从中创建项目的项目组合。 如果已指定，这会覆盖模板上的Portfolio字段。
 
    * 转到项目群，然后展开&#x200B;**新建项目**。
 
      >[!TIP]
      >
-     >使用项目群中的模板创建项目时，新项目的“项目群”字段会更新以显示您选择从中创建项目的项目群。 模板的Portfolio字段将更新，以显示您选择从中创建项目的项目群的项目组合。 如果已指定，这将覆盖模板中的“程序”和“Portfolio”字段。
+     >使用项目群中的模板创建项目时，新项目的“项目群”字段会更新以显示您选择从中创建项目的项目群。 模板的Portfolio字段将更新，以显示您选择从中创建项目的项目的项目的项目组合。 如果已指定，这会覆盖模板中的“程序”和“Portfolio”字段。
 
    * 如果您是组管理员，则还可以在所管理组的项目部分中创建项目。 有关详细信息，请参阅[创建和修改组的项目](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)。
 
@@ -137,7 +137,7 @@ ht-degree: 0%
       * 模板中所有任务的数量
       * 模板自定义表单的名称
 
-   1. （可选）将鼠标悬停在左窗格中的模板名称上，然后单击&#x200B;**收藏夹** **图标** ![](assets/favorites-icon-small.png)以将其标记为收藏以供将来使用。
+   1. （可选）将鼠标悬停在左窗格中的模板名称上，然后单击&#x200B;**收藏夹** **图标** ![收藏夹图标](assets/favorites-icon-small.png)以将其标记为收藏以供将来使用。
 
       或
 
@@ -175,7 +175,7 @@ ht-degree: 0%
 {{step1-to-templates}}
 
 1. 单击要使用的模板的名称。
-1. 单击&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)，然后单击&#x200B;**创建项目**。
+1. 单击&#x200B;**更多**&#x200B;菜单![更多图标](assets/more-icon.png)，然后单击&#x200B;**创建项目**。
 
    ![从模板创建项目](assets/project-sharing-on-template.png)
 
