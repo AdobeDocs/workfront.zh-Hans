@@ -6,9 +6,9 @@ description: 作为项目经理，您可以通过更新项目的“条件类型�
 author: Alina
 feature: Work Management
 exl-id: e6b99c48-5ccc-4956-8465-6f22f14468ef
-source-git-commit: 097cad00835f3fb415c06c93dcf11325736c5250
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '382'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 1%
    <td role="rowheader">对象权限</td> 
    <td> 
     <ul> 
-     <li> <p>Contribute授予项目在项目详细信息区域编辑完成情况类型的权限 </p> </li> 
+     <li> <p>向项目分配权限以在项目详细信息区域编辑条件类型 </p> </li> 
      <li> <p>管理项目的权限以编辑编辑项目框中的条件类型</p> </li> 
     </ul> <p> 有关项目权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">在Adobe Workfront中共享项目</a>。</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
@@ -55,7 +55,7 @@ ht-degree: 1%
 1. 转到要更新完成情况类型的项目。
 1. 执行下列操作之一：
 
-   * 单击项目名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/qs-more-menu.png)，然后单击&#x200B;**编辑**。
+   * 单击项目名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/qs-more-menu.png)，然后单击&#x200B;**编辑**。
    * 单击左侧面板中的&#x200B;**项目详细信息**。
 
    ![](assets/update-condition-type-nwe-350x108.png)
