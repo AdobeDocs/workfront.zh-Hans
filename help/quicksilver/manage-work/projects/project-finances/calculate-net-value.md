@@ -7,9 +7,9 @@ description: 项目的净价值是计算项目的收益并扣除成本后的项�
 author: Lisa
 feature: Work Management
 exl-id: 44e3f211-c816-4ee1-aafc-c40fc8732f1a
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '402'
 ht-degree: 1%
 
 ---
@@ -48,15 +48,15 @@ Project Net Value = Planned Benefit - Budgeted Cost - Potential Risk Cost
 * 在商业案例的摘要区域 \
   有关“业务案例摘要”区域的详细信息，请参阅[为项目创建业务案例](../../../manage-work/projects/define-a-business-case/create-business-case.md)[为项目创建业务案例](../../../manage-work/projects/define-a-business-case/create-business-case.md)一文中的“了解业务案例摘要”一节。
 
-  ![](assets/net-value-on-business-case-summary-highlighted-350x444.png)
+  业务案例中的![净值](assets/net-value-on-business-case-summary-highlighted-350x444.png)
 
-* 在Portfolio优化器中（如果项目与项目组合关联）
+* 在Portfolio Optimizer中（如果项目与项目组合关联）
 
   >[!TIP]
   >
   >所有项目净值的合计是项目组合的净值。
 
-  有关Portfolio优化程序的详细信息，请参阅[Portfolio优化程序概述](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)。
+  有关Portfolio Optimizer的更多信息，请参阅[Portfolio Optimizer概述](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)。
 
 * 在以下列表和报告的“项目净值”字段中：
 
