@@ -6,9 +6,9 @@ description: 您可以对时间表、时间表中包含的工作项以及您记�
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 * 在时间表上
 * 在小时条目上
 * 单个项目，如任务或问题
+
+您可以在备注报告中显示来自时间表或单个小时条目的更新。 有关信息，请参阅[在笔记报告中查看所有更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)。
 
 ## 访问要求
 
@@ -73,7 +75,7 @@ ht-degree: 0%
 1. 单击时间表右上角的&#x200B;**显示评论**。
 注释显示在记录小时条目和注释的项目下。
 
-   ![](assets/comments-expanded-under-tasks-redesigned-timesheet.png)
+   ![评论在重新设计的任务时间表下展开](assets/comments-expanded-under-tasks-redesigned-timesheet.png)
 
 
 ## 在时间表上发表评论 {#make-comments-on-a-timesheet}
@@ -86,7 +88,7 @@ ht-degree: 0%
 
 您可以对时间表进行一般性评论。 对整个时间表进行注释与对其他对象进行注释类似。
 
-1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)或左上角的&#x200B;**主菜单**&#x200B;图标![](assets/lines-main-menu.png)或Workfront（如果可用）。
+1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)或左上角的&#x200B;**主菜单**&#x200B;图标![行主菜单](assets/lines-main-menu.png)或Workfront（如果可用）。
 
 1. 单击&#x200B;**时间表**。
 1. 转到要在其中发表评论的时间表。
@@ -113,7 +115,7 @@ ht-degree: 0%
 
 ### 对工时表中的单个小时条目进行评论 {#comment-on-an-individual-hour-entry-in-a-timesheet}
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)。
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)。
 
 1. 单击&#x200B;**时间表**。
 1. 转到要在其中发表评论的时间表，然后单击左侧面板中的&#x200B;**时间表**。
@@ -128,11 +130,11 @@ ht-degree: 0%
 
    * 键入新评论并单击&#x200B;**完成**。
    * 编辑现有评论并单击&#x200B;**完成**，或单击&#x200B;**取消**&#x200B;以放弃更改。
-   * 单击&#x200B;**删除**&#x200B;图标![](assets/delete.png)可删除已保存的评论。
+   * 单击&#x200B;**删除**&#x200B;图标![删除图标](assets/delete.png)可删除已保存的评论。
 
      小时条目框的右上角出现一个蓝色标记，表示存在与时间条目一起记录的注释。
 
-   ![](assets/commment-button-on-hour-log-redesigned-timesheet.png)
+   小时日志上的![评论按钮重新设计了时间表](assets/commment-button-on-hour-log-redesigned-timesheet.png)
 
    >[!TIP]
    >
@@ -152,7 +154,7 @@ ht-degree: 0%
 
 您只能对时间表中的任务和问题进行评论。 您无法评论项目或常规时间。
 
-1. 单击Adobe Workfront右上角的&#x200B;[!UICONTROL **主菜单**]&#x200B;图标![](assets/main-menu-icon.png)。
+1. 单击Adobe Workfront右上角的&#x200B;[!UICONTROL **主菜单**]&#x200B;图标![主菜单图标](assets/main-menu-icon.png)。
 1. 单击&#x200B;[!UICONTROL **时间表**]。
 1. 转到要在其中发表评论的时间表，然后在左侧面板中单击&#x200B;[!UICONTROL **时间表**]。
 1. 单击任务或问题的行，然后单击&#x200B;[!UICONTROL **打开摘要**]。

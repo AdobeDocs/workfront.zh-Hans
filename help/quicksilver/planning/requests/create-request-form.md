@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '1868'
+source-wordcount: '1869'
 ht-degree: 1%
 
 ---
@@ -280,6 +280,9 @@ ht-degree: 1%
 1. （可选）单击标题中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后执行以下操作之一：
    * 单击&#x200B;**更新请求表单**&#x200B;以更改请求表单。
    * 单击&#x200B;**将链接复制到请求表单**&#x200B;以与其他人共享该表单的链接。
+
+   或
+
    * <span class= "preview">转到Workfront中的&#x200B;**请求**&#x200B;区域并查找共享表单以提交请求。 有关信息，请参阅[提交Adobe Workfront Planning请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。</span>
 
    >[!TIP]

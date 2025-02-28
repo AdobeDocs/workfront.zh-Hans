@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '2303'
+source-wordcount: '2344'
 ht-degree: 1%
 
 ---
@@ -83,8 +83,8 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>贵组织的Workfront实例必须载入AdobeUnified Experience，才能访问Workfront Planning的所有功能。</p> 
-<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">AdobeWorkfront的Unified Experience</a>。 </p> 
+<p>贵组织的Workfront实例必须载入Adobe Unified Experience，才能访问Workfront Planning的所有功能。</p> 
+<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p> 
    </td> 
    </tr> 
   </tr> 
@@ -201,20 +201,22 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
      >如果所选工作区中没有其他记录类型，则不会显示工作区部分。
 
 
-   * 另一个工作区中配置为从其他工作区连接的记录类型。 有关信息，请参阅[编辑记录类型](/help/quicksilver/planning/architecture/edit-record-types.md)。
-
-     ![](assets/new-connection-allow-multiple-records-box.png)
+   * 另一个工作区中配置为从其他工作区连接的记录类型。
 
      >[!TIP]
      >
-     >如果没有配置为从其他工作区连接的记录类型，则不会显示工作区部分。
+     >必须在&#x200B;**编辑记录类型**&#x200B;框的&#x200B;**高级设置**&#x200B;选项卡中为记录类型启用&#x200B;**从其他工作区连接**设置，才能从其他工作区访问记录类型。 如果没有配置为从其他工作区连接的记录类型，则不会显示工作区部分。
+     > ![编辑记录类型框高级设置选项卡](assets/edit-record-type-box-advanced-settings-tab.png)
 
+     有关信息，请参阅[编辑记录类型](/help/quicksilver/planning/architecture/edit-record-types.md)。
+
+     ![](assets/new-connection-allow-multiple-records-box.png)
 
    * 来自&#x200B;**Workfront对象类型**&#x200B;部分的&#x200B;**项目、Portfolio、项目群、公司**&#x200B;或&#x200B;**组**。
 
      ![](assets/workfront-project-connection-selection.png)
 
-   * 来自&#x200B;**Adobe应用程序**&#x200B;部分的&#x200B;**Experience Manager Assets**。
+   * 来自&#x200B;**Experience Manager Assets应用程序**&#x200B;部分的&#x200B;**Adobe**。
 
      ![](assets/aem-assets-connection-selection.png)
 

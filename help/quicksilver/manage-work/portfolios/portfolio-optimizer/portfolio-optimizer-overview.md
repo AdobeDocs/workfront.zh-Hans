@@ -7,9 +7,9 @@ description: '[!UICONTROL Portfolio优化器]是用于项目评估和比较的�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1647'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[！UICONTROL剩余]</td> 
-   <td> <p>项目组合内所有项目的所有[！UICONTROL预算成本]之后的剩余预算已从项目组合预算中减去。</p> <p>使用以下公式计算[！UICONTROL Portfolio剩余预算]：</p> <p><em>[！UICONTROL Portfolio剩余预算] = [！UICONTROL Portfolio总预算] — 所有Portfolio项目的总[！UICONTROL预算成本]</em> </p> <p>项目组合中所有项目的总预算成本[！UICONTROL]显示在预算字段下的指标栏中。 </p> <p>有关跟踪项目成本的更多信息，请参阅<a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">跟踪成本</a>。</p> </td> 
+   <td> <p>项目组合内所有项目的[！UICONTROL总成本]之后的剩余预算已从项目组合预算中减去。</p> <p>使用以下公式计算[！UICONTROL Portfolio剩余预算]：</p> <p><em>[！UICONTROL Portfolio剩余预算] = [！UICONTROL Portfolio总预算] — 所有Portfolio项目的总[！UICONTROL预算成本]</em> </p> <p>项目组合预算是Portfolio Optimizer的“预算”字段中的一个手动条目。 </p> <p>有关跟踪项目成本的更多信息，请参阅<a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">跟踪成本</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL总成本]</td> 

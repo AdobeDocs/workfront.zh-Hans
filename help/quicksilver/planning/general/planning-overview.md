@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '1806'
+source-wordcount: '1811'
 ht-degree: 2%
 
 ---
@@ -29,13 +29,13 @@ ht-degree: 2%
 >
 >本文中的信息介绍了Adobe Workfront Planning，它是Adobe Workfront的一项附加功能。
 >
->要访问Workfront Planning，您必须具备以下条件：
+>要完全访问Workfront Planning中的所有功能，您必须具备以下条件：
 >
 >* 新的Workfront包和许可证。 Workfront Planning不适用于旧版Workfront包或许可证。
 >* Workfront计划包。
->* 您组织的Workfront实例必须载入到AdobeUnified Experience。
+>* 您组织的Workfront实例必须载入到Adobe Unified Experience。
 >
-> 有关访问Workfront Planning的完整要求列表，请参阅[Adobe计划访问概述](/help/quicksilver/planning/access/access-overview.md)。
+> 有关访问Workfront Planning的完整要求列表，请参阅[Adobe Planning访问概述](/help/quicksilver/planning/access/access-overview.md)。
 > 
 
 本文包含有关Workfront Planning的一般信息。
@@ -170,7 +170,7 @@ The following features are currently available in Workfront Planning:
 
 * 将需要访问Planning版面模板的用户分配到主菜单中，该模板包括Planning。 有关详细信息，请参阅[使用布局模板自定义主菜单](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)和[将用户分配给布局模板](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)。
 
-* 为用户分配Workfront许可证和Workfront Planning权限，以便他们能够在Workfront Planning中查看或创建对象。 有关授予他人访问权限以及允许他人使用Workfront Planning的更多信息，请参阅[Adobe计划访问权限概述](/help/quicksilver/planning/access/access-overview.md)。
+* 为用户分配Workfront许可证和Workfront Planning权限，以便他们能够在Workfront Planning中查看或创建对象。 有关授予他人访问权限以及允许他人使用Workfront Planning的更多信息，请参阅[Adobe Planning访问概述](/help/quicksilver/planning/access/access-overview.md)。
 
 ## Workfront Planning术语
 
@@ -272,7 +272,7 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
    * 记录类型和Workfront项目、项目群、项目组合、公司或组对象类型。
    * 记录类型和Adobe Experience Manager资源或文件夹。
 
-     您必须拥有Adobe Experience Manager许可证才能将记录类型与Experience Manager对象链接到一起。
+     您必须具有Adobe Experience Manager许可证才能将记录类型与Experience Manager对象链接到一起。
 
      ![](assets/new-connection-tab-with-workfront-aem-options.png)
 
@@ -325,7 +325,7 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
 ## 找到Adobe Workfront Planning
 
-要找到Adobe计划，请确保贵组织已获得Workfront Planning的访问权限，且您的系统或组管理员已将Planning区域添加到主菜单。 有关信息，请参阅[Adobe计划访问概述](/help/quicksilver/planning/access/access-overview.md)。
+要找到Adobe Planning，请确保贵组织已获得Workfront Planning的访问权限，且您的系统或组管理员已将Planning区域添加到主菜单。 有关信息，请参阅[Adobe计划访问概述](/help/quicksilver/planning/access/access-overview.md)。
 
 要找到Workfront Planning，请执行以下操作：
 
