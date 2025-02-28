@@ -6,9 +6,9 @@ description: 您可以在开始处理项目之前请求批准该项目。 我们
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '530'
 ht-degree: 2%
 
 ---
@@ -70,14 +70,14 @@ ht-degree: 2%
 
 1. 执行下列操作之一：
 
-   * 单击右上角的&#x200B;**主菜单** ![](assets/main-menu-icon.png)或左上角的&#x200B;**主菜单** ![](assets/lines-main-menu.png)（如果可用），单击&#x200B;**项目**，然后展开&#x200B;**新建项目**。
+   * 单击右上角的&#x200B;**主菜单** ![主菜单图标](assets/main-menu-icon.png)，或左上角的&#x200B;**主菜单** ![主菜单行](assets/lines-main-menu.png)。如果可用，请单击&#x200B;**项目**，然后展开&#x200B;**新建项目**。
    * 转到项目组合，然后展开&#x200B;**新建项目**。
    * 转到项目群，然后展开&#x200B;**新建项目**。
    * 如果您是组管理员，则还可以在所管理组的项目部分中创建项目。 有关详细信息，请参阅[创建和修改组的项目](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)。
 
 1. 单击&#x200B;**请求项目**。
 
-   ![](assets/new-project-dropdown-nwe-350x358.png)
+   ![新项目下拉列表](assets/new-project-dropdown-nwe-350x358.png)
 
 1. 执行下列操作之一：
 
