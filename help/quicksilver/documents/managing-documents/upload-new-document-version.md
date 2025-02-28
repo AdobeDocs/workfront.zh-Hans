@@ -6,9 +6,9 @@ description: 您可以添加先前上载到Adobe Workfront的文档的新版本�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d475e0f0-112e-4d4e-b666-6e0af3ea7702
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 0%
 1. 转到文档上传所在的文档区域。
 1. 从桌面或单独的浏览器选项卡中，将文档的新版本拖动到Workfront中现有版本的上方。
 
-   ![](assets/drag-drop-doc-qs-350x145.png)
+   ![拖放文档版本](assets/drag-drop-doc-qs-350x145.png)
 
    拖动新版本时，您可以将鼠标悬停在Workfront文档文件夹上以将其打开。 然后，可以通过将文件拖动到屏幕的顶部或底部来上下滚动。
 
@@ -80,6 +80,6 @@ ht-degree: 0%
 1. 选择要添加新版本的文档。
 1. 单击&#x200B;**新增** > **版本**。
 
-   ![](assets/add-new-version-350x185.png)
+   ![添加新版本](assets/add-new-version-350x185.png)
 
 1. 选择要上载的文档类型，然后按照提示操作。
