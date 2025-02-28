@@ -5,9 +5,9 @@ description: 自定义Forms用于收集未显示在现有Adobe Workfront字段�
 author: Alina
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -73,9 +73,9 @@ ht-degree: 0%
 
 1. 在&#x200B;**自定义表单**&#x200B;分区中，从下拉菜单中选择要附加的自定义表单。
 
-   ![](assets/custom-forms-drop-down-menu.png)
+   ![自定义表单下拉列表](assets/custom-forms-drop-down-menu.png)
 
 1. （可选）选择&#x200B;**编辑自定义表单**。\
-   ![](assets/acf1-350x122.png)
+   ![编辑自定义表单](assets/acf1-350x122.png)
 
 1. （可选）在自定义表单的字段中指定信息，然后单击&#x200B;**保存** 。
