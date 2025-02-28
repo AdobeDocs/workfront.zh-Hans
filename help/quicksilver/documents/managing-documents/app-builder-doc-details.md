@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: 04259d63523050d5bd43e5e776c21237e5a5cfe4
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1357'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 1. 在“用户”部分中，单击&#x200B;**开发人员** > **添加开发人员**。
 
-   ![](assets/manage-users-admin-console.png)
+   ![在Admin Console中管理开发人员](assets/manage-users-admin-console.png)
 
    >[!NOTE]
    >
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 1. 将必要的产品添加到开发人员配置文件，然后单击&#x200B;**保存**。
 
-![](assets/add-developer.png)
+![添加开发人员](assets/add-developer.png)
 
 ## 获取对AppBuilder的访问权限
 
@@ -72,7 +72,7 @@ ht-degree: 0%
    >
    >如果没有看到此选项，则表明您在Admin Console中的配置有误，并且无权访问App Builder目录。 仅当您有权访问AppBuilder时，才会显示此选项。
 
-   ![](assets/create-from-template.png)
+   ![从模板创建项目](assets/create-from-template.png)
 
 1. 选择&#x200B;**App Builder**。
 
@@ -87,9 +87,9 @@ ht-degree: 0%
 
 1. 单击&#x200B;**保存**。
 
-## AdobeIO (aio) CLI
+## Adobe IO (aio) CLI
 
-Adobe提供了一个开源CLI ，可用于帮助创建App Builder应用程序。 可以在此处找到文档： [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli)以及AdobeApp Builder说明[https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/getting_started/first_app/)。
+Adobe提供了一个开源CLI，可用于帮助创建App Builder应用程序。 可以在此处找到文档： [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli)以及Adobe App Builder说明[https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/getting_started/first_app/)。
 
 1. 安装
    1. 要安装该工具，（确保您首先在节点v18上）运行： `npm install -g @adobe/aio-cli `。
@@ -102,20 +102,20 @@ Adobe提供了一个开源CLI ，可用于帮助创建App Builder应用程序。
 
 1. 配置选择
    1. 继续从提供的选项中选择您的组织和项目。\
-      ![](assets/select-org.png)
-      ![](assets/select-project.png)
+      ![选择组织](assets/select-org.png)
+      ![选择项目](assets/select-project.png)
 
 1. 模板选择和设置
    1. 浏览所有可用的模板，并为您的项目选择&#x200B;**@adobe/aem-cf-editor-ui-ext-tpl**模板。
-      ![](assets/search-template.png)
-      ![](assets/select-template.png)
+      ![搜索模板](assets/search-template.png)
+      ![选择模板](assets/select-template.png)
 
 1. 定义扩展
    1. 命名扩展。
    1. 提供扩展功能的描述性摘要。
    1. 选择要开始的初始版本号。
    1. 选择&#x200B;**我已完成**以确认完成。
-      ![](assets/define-extension.png)
+      ![定义扩展](assets/define-extension.png)
 
 1. 导航到您的项目文件夹
    1. 访问src文件夹
@@ -308,7 +308,7 @@ Adobe提供了一个开源CLI ，可用于帮助创建App Builder应用程序。
           export default Review;
       ```
 
-## Publish应用程序
+## 发布应用程序
 
 >[!IMPORTANT]
 >
@@ -326,12 +326,12 @@ Adobe提供了一个开源CLI ，可用于帮助创建App Builder应用程序。
 1. 查找用于创建AppBuilder应用程序的项目。
 
 1. 选择生产Workspace。
-   ![](assets/find-application.png)
+   ![选择生产工作区](assets/find-application.png)
 
 1. 提交隐私审查申请（您会收到我们未发布到App Exchange Marketplace的警告，没有问题）。
 
 1. 填写表单（标题、描述、图标和审阅人注释）。
-   ![](assets/submission-details.png)
+   ![填写私人审阅表单](assets/submission-details.png)
 
 >[!IMPORTANT]
 >
@@ -344,7 +344,7 @@ Adobe提供了一个开源CLI ，可用于帮助创建App Builder应用程序。
 1. 单击&#x200B;**管理** > **Experience Cloud应用程序**。 您应该会看到提交的应用程序，其中包含用于批准/拒绝的选项。
 批准后，发布的应用程序扩展应会在您的Workfront环境中自动加载。
 
-   ![](assets/approve-submission.png)
+   ![已批准的提交](assets/approve-submission.png)
 
 ## 其他帮助
 
