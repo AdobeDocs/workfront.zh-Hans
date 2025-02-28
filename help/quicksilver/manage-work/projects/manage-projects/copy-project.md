@@ -7,9 +7,9 @@ author: Alina
 feature: Projects, Work Management
 role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '776'
 ht-degree: 4%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 4%
 >* 模板
 >* 风险
 >* 队列设置信息
->* Portfolio和计划
+>* Portfolio和程序
 >* 记分卡
 >* 任务默认信息(任务默认审批流程、任务默认自定义Forms)
 >
@@ -112,15 +112,15 @@ ht-degree: 4%
 
 要复制项目，请执行以下操作：
 
-1. 转到要复制的项目，然后单击项目名称右侧的&#x200B;**更多**&#x200B;图标![](assets/qs-more-menu.png)
+1. 转到要复制的项目，然后单击项目名称右侧的&#x200B;**更多**&#x200B;图标![更多菜单](assets/qs-more-menu.png)
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![更多下拉列表](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    或
 
-   转到项目列表或报告并选择项目，然后单击列表顶部的&#x200B;**更多**&#x200B;图标![](assets/qs-more-menu.png)。
+   转到项目列表或报告并选择项目，然后单击列表顶部的&#x200B;**更多**&#x200B;图标![更多菜单](assets/qs-more-menu.png)。
 
-   ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![更多菜单已展开](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
 1. 单击&#x200B;**复制**。
 
@@ -128,7 +128,7 @@ ht-degree: 4%
 
    默认情况下，新名称为`<Original project name>`的&#x200B;**副本。**
 
-   ![](assets/copy-project-box-nwe-350x276.png)
+   ![复制项目框](assets/copy-project-box-nwe-350x276.png)
 
 1. 为新项目选择&#x200B;**状态**。
 
@@ -148,7 +148,7 @@ ht-degree: 4%
    取消选择<strong>全选</strong>将取消选择所有项。 </p> </td>
    </tr> 
      <tr> 
-      <td role="rowheader">分配</td> 
+      <td role="rowheader">任务</td> 
       <td>删除所有项目和任务分配</td> 
      </tr> 
      <tr> 
