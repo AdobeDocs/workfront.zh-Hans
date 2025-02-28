@@ -6,10 +6,10 @@ description: 您可以在Adobe Workfront的[!UICONTROL 主页]区域查看工作
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 7%
+source-wordcount: '869'
+ht-degree: 6%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>您需要处理的任务和问题的Contribute权限或更高版本</p> </td> 
+   <td> <p>Contribute权限或更高权限可为您需要处理的任务和问题提供内容</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,7 +67,7 @@ ht-degree: 7%
 
 You can view updates on any work item in the [!UICONTROL Work List]:
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** ![Main Menu lines icon](assets/lines-main-menu.png) in the upper-left corner, if available, then click **[!UICONTROL Home]**.
 1. In the **[!UICONTROL Work List]** area, select the item where you want to view updates.\
    Updates are displayed in the right panel.
 
@@ -104,13 +104,13 @@ You can view updates on any work item in the [!UICONTROL Work List]:
 
 您可以在[!UICONTROL 我的工作]构件中提供任意工作项的更新：
 
-1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![](assets/main-menu-icon.png)或左上角的&#x200B;**主菜单** ![](assets/lines-main-menu.png)（如果可用），然后单击&#x200B;**[!UICONTROL 主页]**。
+1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![主菜单图标](assets/main-menu-icon.png)或左上角的&#x200B;**主菜单** ![主菜单行图标](assets/lines-main-menu.png)（如果可用），然后单击&#x200B;**[!UICONTROL 主页]**。
 1. （视情况而定）单击&#x200B;**自定义**&#x200B;以添加&#x200B;[!UICONTROL **我的工作**]&#x200B;小组件。
 
 1. 在&#x200B;[!UICONTROL **我的工作**]&#x200B;构件中查找要更新的工作项。
 1. 将鼠标悬停在名称上，然后单击&#x200B;**添加新更新**&#x200B;图标。
 
-   ![](assets/add-update-on-widget.png)
+   ![添加小部件更新](assets/add-update-on-widget.png)
 
 1. 开始键入您的评论。
 1. （可选）在&#x200B;**为人员或团队添加标签**&#x200B;框中，开始键入要包含在此评论中的用户或团队的名称或电子邮件，然后当该评论显示在列表中时将其选定。
@@ -132,7 +132,7 @@ You can view updates on any work item in the [!UICONTROL Work List]:
 
 1. 单击&#x200B;**回复**。
 
-   ![](assets/reply-to-comment-in-mentions-widget.png)
+   ![回复注释](assets/reply-to-comment-in-mentions-widget.png)
 
 1. 开始键入您的评论。
 1. （可选）在&#x200B;**标记人员**&#x200B;框中，开始键入要包含在此评论中的用户或团队的名称，然后在此评论显示在列表中时将其选定。
@@ -149,11 +149,11 @@ You can view updates on any work item in the [!UICONTROL Work List]:
 
 您可以编辑任何您有权编辑的工作项上的任何字段。
 
-1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![](assets/main-menu-icon.png)或左上角的&#x200B;**主菜单** ![](assets/lines-main-menu.png)（如果可用），然后单击&#x200B;**[!UICONTROL 主页]**。
+1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![主菜单图标](assets/main-menu-icon.png)或左上角的&#x200B;**主菜单** ![主菜单行图标](assets/lines-main-menu.png)（如果可用），然后单击&#x200B;**[!UICONTROL 主页]**。
 1. （视情况而定）单击&#x200B;**自定义**&#x200B;以添加&#x200B;**我的工作**&#x200B;小组件。
 
 1. 将鼠标悬停在工作项上，然后单击&#x200B;**摘要**图标。
-   ![](assets/open-summary-new-home.png)
+   ![打开摘要](assets/open-summary-new-home.png)
 
 1. 在“摘要”面板中，将鼠标悬停在要编辑的字段上。
 如果您有权编辑该字段，则当您将鼠标悬停在该字段上时，该字段会高亮显示。
