@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: a7237746-0a18-408b-b932-8a608fd72eee
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -66,8 +66,8 @@ ht-degree: 0%
 
 1. 找到要更新的工作项。
 1. 将鼠标悬停在名称上，然后单击&#x200B;**添加新更新**。
-   ![](assets/add-update.png)
-   <!--new screen for prod ![](assets/update-log-upload.png)-->
+   ![添加新更新](assets/add-update.png)
+   <!--new screen for prod ![Update](assets/update-log-upload.png)-->
 1. 开始键入您的评论。
 1. （可选）在&#x200B;**为人员或团队添加标签**&#x200B;框中，开始键入要包含在此评论中的用户或团队的名称或电子邮件，然后当该评论显示在列表中时将其选定。
 1. （可选）使用富文本工具栏中的选项设置文本格式，在评论中添加表情符号、链接或图像以增强内容。
@@ -90,7 +90,7 @@ ht-degree: 0%
 1. （可选）使用&#x200B;**注释**&#x200B;选项卡更新其他人对该工作项所做的更新。
 1. （可选）使用&#x200B;**系统活动**&#x200B;选项卡查看与工作项相关的系统活动。
 1. （可选）要添加评论，请转到&#x200B;**评论**&#x200B;选项卡并开始在“新建评论”框中键入。 完成后，单击&#x200B;**提交**。
-   ![](assets/updates-area-in-overview.png)
+   ![更新区域](assets/updates-area-in-overview.png)
 
 ## 回复评论
 
@@ -101,7 +101,7 @@ ht-degree: 0%
 1. 单击工作项名称以打开&#x200B;**概述**&#x200B;页面。
 1. 在屏幕右下角找到&#x200B;**更新**&#x200B;区域。
 1. 在&#x200B;**评论**&#x200B;选项卡上，找到要回复的评论，然后单击&#x200B;**回复**。
-1. （视情况而定）如果要回复以将邮件内容纳入回复，请单击邮件正文旁边的&#x200B;**更多**&#x200B;菜单图标![](assets/more-icon.png)，然后选择&#x200B;**引用回复**。
+1. （视情况而定）如果要回复以将邮件内容纳入回复，请单击邮件正文旁的&#x200B;**更多**&#x200B;菜单图标![更多菜单](assets/more-icon.png)，然后选择&#x200B;**引用回复**。
 
 1. 键入您的回复，然后单击&#x200B;**提交**。
 
@@ -109,4 +109,4 @@ ht-degree: 0%
    >
    >您只能在提交评论后15分钟内对其进行编辑。 要编辑注释，请单击注释右上角的更多菜单，然后单击编辑。
 
-   ![](assets/reply-to-comment.png)
+   ![回复评论](assets/reply-to-comment.png)
