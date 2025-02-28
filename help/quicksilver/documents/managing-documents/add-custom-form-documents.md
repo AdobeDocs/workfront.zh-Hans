@@ -6,9 +6,9 @@ description: 您可以将自定义表单添加到文档或文档版本，以捕�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '334'
 ht-degree: 1%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 1%
 1. 转到包含文档的项目、任务或问题，然后选择&#x200B;**文档**。
 1. 查找所需的文档。
 
-1. 单击&#x200B;**摘要**&#x200B;图标![](assets/summary-panel-icon.png)，然后找到&#x200B;**详细信息**&#x200B;部分。
+1. 单击&#x200B;**摘要**&#x200B;图标![摘要图标](assets/summary-panel-icon.png)，然后查找&#x200B;**详细信息**&#x200B;部分。
 1. 在&#x200B;**添加自定义表单**&#x200B;框中，开始键入并选择自定义表单。 表单会自动保存到文档。
 
    >[!NOTE]
@@ -73,8 +73,8 @@ ht-degree: 1%
 1. 转到包含文档的项目、任务或问题，然后选择&#x200B;**文档**。
 1. 查找所需的文档。
 
-1. 单击&#x200B;**摘要**&#x200B;图标![](assets/summary-panel-icon.png)，然后在顶部附近找到&#x200B;**详细信息**&#x200B;部分。
+1. 单击&#x200B;**摘要**&#x200B;图标![摘要图标](assets/summary-panel-icon.png)，然后在顶部附近找到&#x200B;**详细信息**&#x200B;部分。
 1. 单击右上角的&#x200B;**编辑**，然后展开所需的表单。
 1. 进行所需的更改，然后单击&#x200B;**保存**。
 
-   ![](assets/edit-custom-form-350x265.png)
+   ![编辑自定义表单](assets/edit-custom-form-350x265.png)
