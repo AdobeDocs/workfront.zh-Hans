@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 2d76077d-2913-40b8-9596-4e201d12ec1a
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 0%
 1. 在&#x200B;**快速链接**&#x200B;部分中，单击&#x200B;**添加链接**。
 1. 将URL粘贴到&#x200B;**添加链接**&#x200B;框中。
 1. 单击&#x200B;**保存**。
-   ![](assets/add-link.png)
+   ![添加链接](assets/add-link.png)
 
 ## 将快速链接复制到剪贴板
 
@@ -73,8 +73,8 @@ ht-degree: 0%
 
 1. 单击工作项名称以打开“概述”页面。
 1. 在&#x200B;**快速链接**&#x200B;部分中，找到要复制的链接。
-1. 单击复制图标![](assets/copy-icon.png)。
-   ![](assets/copy-link.png)
+1. 单击复制图标![复制图标](assets/copy-icon.png)。
+   ![复制链接](assets/copy-link.png)
 
 ## 打开快速链接
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 1. 单击工作项名称以打开“概述”页面。
 1. 在&#x200B;**快速链接**&#x200B;部分中，找到要打开的链接。
 1. 单击链接。 该链接将在新选项卡中打开。
-   ![](assets/open-link.png)
+   ![打开链接](assets/open-link.png)
 
 ## 删除快速链接
 
@@ -91,5 +91,5 @@ ht-degree: 0%
 
 1. 单击工作项名称以打开“概述”页面。
 1. 单击屏幕右上角的&#x200B;**编辑详细信息**。
-   ![](assets/edit-details.png)
-1. 查找要删除的链接，然后单击“删除”图标![](assets/delete-icon.png)。
+   ![编辑详细信息](assets/edit-details.png)
+1. 查找要删除的链接，然后单击“删除”图标![删除图标](assets/delete-icon.png)。
