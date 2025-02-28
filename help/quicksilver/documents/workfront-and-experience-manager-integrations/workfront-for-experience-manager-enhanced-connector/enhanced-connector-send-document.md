@@ -6,10 +6,10 @@ description: 您可以将文档从Workfront发送到Experience Manager Assets。
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: d687d2db-28e0-45e8-9d60-8419921f02e9
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 0%
+source-wordcount: '457'
+ht-degree: 1%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 0%
    >
    >可以为此集成选择任何名称，因此它可能没有特别提及Experience Manager Assets。
 
-   ![](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![发送至](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. 选择要将资源放置到的位置，然后单击&#x200B;**选择文件夹**。
 1. 找到所需目标后，单击&#x200B;**保存**。
@@ -87,6 +87,6 @@ ht-degree: 0%
    >
    >可以为此集成选择任何名称，因此它可能没有特别提及Experience Manager Assets。
 
-   ![](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![发送至](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. 单击&#x200B;**保存**。 新版本将保存在与先前版本相同的位置。
