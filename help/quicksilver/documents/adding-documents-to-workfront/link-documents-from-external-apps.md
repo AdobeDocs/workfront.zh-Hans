@@ -6,9 +6,9 @@ description: 您可以从外部源将文档和文件夹链接到Adobe Workfront�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: fde2ad9a8ef1b7f659f8f52c157726d0562b972a
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '2608'
+source-wordcount: '2620'
 ht-degree: 0%
 
 ---
@@ -114,12 +114,12 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dropbox根据文件路径存储文档。 因此，如果移动、重命名或删除了从Dropbox链接的文件，则该文件在Workfront中将变为无法访问状态。
+>Dropbox根据文件路径存储文档。 因此，如果移动、重命名或删除了从Dropbox链接的文件，则该文件将在Workfront中变得不可访问。
 
 1. 转到Workfront中您想要获取文档的&#x200B;**文档**&#x200B;区域。
 1. 单击“新建”****，然后单击要将文档链接到Workfront的外部文档提供商。
 
-   例如，若要链接来自Dropbox的文档，请单击&#x200B;**来自Dropbox**。
+   例如，要链接来自Dropbox的文档，请单击&#x200B;**来自Dropbox**。
 
    您已经授权的外部提供程序将显示在列表顶部。
 
@@ -140,7 +140,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >从Workfront DAM链接文档时，Workfront DAM客户可以查看缩略图。 可能还会为Workfront DAM客户显示其他服务(如Dropbox和盒子)的缩略图。 但是，不支持在Workfront中查看Workfront DAM以外的服务的缩略图，并且在从SharePoint或Google Drive链接文档时从不显示缩略图。
+   >从Workfront DAM链接文档时，Workfront DAM客户可以查看缩略图。 可能还会为Workfront DAM客户显示其他服务(如Dropbox和Box)的缩略图。 但是，不支持在Workfront中查看Workfront DAM以外的服务的缩略图，并且在从SharePoint或Google Drive链接文档时从不显示缩略图。
 
 1. 单击&#x200B;**链接**。
 
@@ -163,7 +163,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**新增** > **版本**，然后单击外部文档提供程序。
 
-   例如，若要从Dropbox链接文档的新版本，请单击&#x200B;**从Dropbox**。
+   例如，要从Dropbox链接文档的新版本，请单击&#x200B;**从Dropbox**。
 
    您已经授权的外部提供程序将显示在列表顶部。
 
@@ -184,7 +184,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >从Workfront DAM链接文档时，Workfront DAM客户可以查看缩略图。 可能还会为Workfront DAM客户显示其他服务(如Dropbox和盒子)的缩略图。 但是，不支持在Workfront中查看Workfront DAM以外的服务的缩略图，并且在从SharePoint或Google Drive链接文档时从不显示缩略图。
+   >从Workfront DAM链接文档时，Workfront DAM客户可以查看缩略图。 可能还会为Workfront DAM客户显示其他服务(如Dropbox和Box)的缩略图。 但是，不支持在Workfront中查看Workfront DAM以外的服务的缩略图，并且在从SharePoint或Google Drive链接文档时从不显示缩略图。
 
 1. 单击&#x200B;**链接**。
 
@@ -248,7 +248,7 @@ ht-degree: 0%
 1. 选择在Workfront中上传的文档。
 1. 单击&#x200B;**更多** >**发送至**，然后选择要存储链接文档的云提供商。
 
-   您还可以使用“文档详细信息”页面上的“更多”菜单![](assets/more-icon.png)来执行此操作。
+   您还可以使用“文档详细信息”页面上的“更多”菜单![“更多”菜单](assets/more-icon.png)来执行此操作。
 
 1. 在提供程序的应用程序中选择要存储文档的文件夹。
 
@@ -278,7 +278,7 @@ ht-degree: 0%
 
 ### 链接一个或多个外部文件夹 {#link-one-or-more-external-folders}
 
-1. 转到Workfront中您希望文件夹所在的区域，然后单击左侧面板中的&#x200B;**文档** ![](assets/document-icon.png)。
+1. 转到Workfront中您希望文件夹所在的区域，然后单击左侧面板中的&#x200B;**文档** ![文档图标](assets/document-icon.png)。
 
 1. 单击“新建”****，然后单击要将文件夹链接到Workfront的外部文档提供商。
 1. （视情况而定）如果尚未授权外部服务，请为外部提供程序指定登录凭据，然后单击&#x200B;**登录**。
@@ -301,9 +301,9 @@ ht-degree: 0%
 
    在Workfront中，云提供商的徽标显示在文件夹旁边，表示该文件夹已链接到外部云提供商。
 
-1. （可选）要重命名文件夹，以使Workfront中的文件夹名称不同于外部文档应用程序中的文件夹名称，请在&#x200B;**文件夹**&#x200B;分区中选择文件夹，单击文件夹名称旁边显示的“更多”菜单![](assets/more-icon.png)，然后单击&#x200B;**重命名**。
+1. （可选）要重命名文件夹，以使Workfront中的文件夹名称不同于外部文档应用程序中的文件夹名称，请在&#x200B;**文件夹**&#x200B;分区中选择文件夹，单击文件夹名称旁边显示的“更多”菜单![更多菜单](assets/more-icon.png)，然后单击&#x200B;**重命名**。
 
-   ![](assets/documents-folderlink-rename-nwe-350x154.png)
+   ![重命名文件夹](assets/documents-folderlink-rename-nwe-350x154.png)
 
 这不会重命名外部应用程序中的文件夹。
 
@@ -317,7 +317,7 @@ ht-degree: 0%
 
    要将现有文件夹拖到现有的链接文件夹中，请转到要放置子文件夹的“文档”区域，然后将其拖到链接文件夹中。
 
-   ![](assets/documents-link-folder-move-nwe-350x113.png)
+   ![拖到链接的文件夹中](assets/documents-link-folder-move-nwe-350x113.png)
 
    >[!NOTE]
    >
@@ -363,4 +363,4 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->请勿在Workfront中重命名链接到Dropbox的文档；这样做会导致Workfront中的文件无法访问。 相反，请以Dropbox重命名文件，然后重新同步该文件。
+>请勿在Workfront中重命名链接到Dropbox的文档；这样做会导致Workfront中的文件无法访问。 请改为在Dropbox中重命名文件，然后重新同步该文件。
