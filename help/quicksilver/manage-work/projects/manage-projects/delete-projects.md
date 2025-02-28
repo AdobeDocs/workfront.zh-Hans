@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '895'
 ht-degree: 1%
 
 ---
@@ -135,7 +135,7 @@ ht-degree: 1%
 您可以从项目列表中删除项目。
 
 1. 转到项目列表或项目报告。
-1. 选择要删除的一个或多个项目，然后单击列表顶部的&#x200B;**删除**&#x200B;图标![](assets/delete-icon.png)。
+1. 选择要删除的一个或多个项目，然后单击列表顶部的&#x200B;**删除**&#x200B;图标![删除图标](assets/delete-icon.png)。
 
 1. 单击&#x200B;**是，删除它**&#x200B;以确认删除。
 
@@ -144,9 +144,9 @@ ht-degree: 1%
 ## 在项目级别删除项目
 
 1. 转到要删除的项目。
-1. 单击项目名称右侧的&#x200B;**更多**&#x200B;图标![](assets/qs-more-menu.png)，然后单击&#x200B;**删除项目**。
+1. 单击项目名称右侧的&#x200B;**更多**&#x200B;图标![更多菜单](assets/qs-more-menu.png)，然后单击&#x200B;**删除项目**。
 
-   ![](assets/more-icon-expanded-delete-project-highlighted.png)
+   ![更多菜单已展开](assets/more-icon-expanded-delete-project-highlighted.png)
 
 1. 单击&#x200B;**是，将其删除**。
 
