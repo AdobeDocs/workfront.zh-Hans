@@ -6,9 +6,9 @@ description: 当工作任务和问题分配给您时，它们会列在我的工�
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 79826743-eeb9-4849-b46f-cc3f086e3194
-source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>您需要处理的任务和问题的Contribute权限或更高版本</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>Contribute权限或更高权限可为您需要处理的任务和问题提供内容</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,10 +63,10 @@ ht-degree: 0%
 
 要查看我的工作小部件中的工作项，请执行以下操作：
 
-1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
+1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
 1. （视情况而定）单击&#x200B;**自定义**&#x200B;以添加&#x200B;**我的工作**&#x200B;小组件。
 
-1. 单击小组件工作列表左上角的&#x200B;**筛选器**&#x200B;图标![](assets/filter-nwepng.png)。
+1. 单击小组件工作列表左上角的&#x200B;**筛选器**&#x200B;图标![筛选器图标](assets/filter-nwepng.png)。
 
 1. 单击以下任一选项或两个选项执行任务：
 
@@ -89,12 +89,12 @@ ht-degree: 0%
 
 要访问团队请求，请执行以下操作：
 
-1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
+1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
 1. （视情况而定）单击&#x200B;**自定义**&#x200B;以添加&#x200B;**团队请求**&#x200B;小组件。
 
    该构件在团队分组下显示团队请求。 **[!UICONTROL 团队请求]**&#x200B;构件显示并显示分配给您所在任何团队的所有请求。 有关处理团队请求的更多信息，请参阅[管理工作和团队请求](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)。
 
-   ![](assets/team-request-widget.png)
+   ![团队请求小组件](assets/team-request-widget.png)
 
 ## 在我的工作小部件中处理工作项
 
@@ -102,13 +102,13 @@ ht-degree: 0%
 
 处理工作项：
 
-1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
+1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
 1. （视情况而定）单击&#x200B;**自定义**&#x200B;以添加&#x200B;**我的工作**&#x200B;小组件。
 
 1. 在小部件的&#x200B;**[!UICONTROL 工作列表]**&#x200B;区域中，选择要处理的请求，然后单击&#x200B;**[!UICONTROL 处理该请求]**。
 1. 将鼠标悬停在工作项上，然后单击&#x200B;**摘要**&#x200B;图标以查看有关该工作项的信息。
 
-   ![](assets/open-summary-new-home.png)
+   ![打开摘要](assets/open-summary-new-home.png)
 
 
 ## 删除工作项
@@ -117,20 +117,20 @@ ht-degree: 0%
 
 要删除工作项，请执行以下操作：
 
-1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
+1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
 1. （视情况而定）单击&#x200B;**自定义**&#x200B;以添加&#x200B;**我的工作**&#x200B;小组件。
 
 1. 在小部件工作列表中，将鼠标悬停在工作项上，然后单击&#x200B;**摘要**图标以查看有关该工作项的信息。
-   ![](assets/open-summary-new-home.png)
+   ![打开摘要](assets/open-summary-new-home.png)
 1. 在&#x200B;**工作**分区中，删除您的姓名。
-   ![](assets/remove-assignment.png)
+   ![删除分配](assets/remove-assignment.png)
 
 
 
 <!--
 ## Reassign a request
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. In the **[!UICONTROL Work List]** area, select the request you want to reassign.
 
 1. Click on the **[!UICONTROL Assignments]** widget and remove yourself from the request, then type the name of the user you want to reassign the request to.
@@ -148,7 +148,7 @@ ht-degree: 0%
 
 You can reply to a request to further clarify the request or to propose a new date.
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. In the **[!UICONTROL Work List]** area, select the request you want to reply to.
 1. Locate the individual who assigned the request to you.
 
