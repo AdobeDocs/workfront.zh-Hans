@@ -6,9 +6,9 @@ description: 我们建议您停用不再使用的模板，而不是删除它们�
 author: Alina
 feature: Work Management
 exl-id: 41e0979c-f8ef-4a07-8848-e4ee8cc212c5
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -67,6 +67,6 @@ ht-degree: 0%
 
    或
 
-   单击模板名称以访问模板，然后单击&#x200B;**更多**&#x200B;菜单![](assets/qs-more-icon-on-an-object.png)，然后单击&#x200B;**删除模板>是，删除模板**。
+   单击模板名称以访问模板，然后单击&#x200B;**更多**&#x200B;菜单![更多图标](assets/qs-more-icon-on-an-object.png)，然后单击&#x200B;**删除模板>是，删除模板**。
 
    模板不再可用于与项目关联。
