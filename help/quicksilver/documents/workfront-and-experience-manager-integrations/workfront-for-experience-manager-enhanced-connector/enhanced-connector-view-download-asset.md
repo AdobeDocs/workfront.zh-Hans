@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront中查看或下载从Experience Manager 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4516ddf7-b39d-4bd7-8e59-4b3bdad5b643
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -62,4 +62,4 @@ ht-degree: 0%
 1. 从文档列表中，选择文档。
 1. 在右侧的文档摘要中，将鼠标悬停在顶部的缩略图上，然后选择&#x200B;**预览**&#x200B;或&#x200B;**下载**。
 
-   ![](assets/view-or-download-enhanced-connector-350x123.png)
+   ![预览或下载](assets/view-or-download-enhanced-connector-350x123.png)
