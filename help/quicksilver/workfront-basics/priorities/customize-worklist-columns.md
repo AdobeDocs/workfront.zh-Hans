@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
 {{step1-to-priorities}}
 
 1. 单击屏幕右侧的&#x200B;**列**。
-   ![](assets/columns.png)
+   ![列](assets/columns.png)
 1. 使用切换启用或禁用工作列表中的列。
 
 ### 对列重新排序
@@ -77,15 +77,15 @@ ht-degree: 0%
 
 1. 单击屏幕右侧的&#x200B;**列**。
 1. 单击&#x200B;**拖动**图标并将列移动到所需的位置。 自动移动列会更新工作列表。
-   ![](assets/reorder-columns.png)
+   ![对列重新排序](assets/reorder-columns.png)
 
 ### 重置列宽
 
 {{step1-to-priorities}}
 
 1. 单击屏幕右侧的&#x200B;**列**。
-1. 单击&#x200B;**更多**&#x200B;图标![](assets/more-icon.png)，然后选择&#x200B;**重置列宽**。
-   ![](assets/columns.png)
+1. 单击&#x200B;**更多**&#x200B;图标![更多图标](assets/more-icon.png)，然后选择&#x200B;**重置列宽**。
+   ![列](assets/columns.png)
 
 ## 自定义优先级工作列表列
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 {{step1-to-priorities}}
 
 1. 单击屏幕左侧的&#x200B;**列**。
-   ![](assets/columns-new.png)
+   ![列](assets/columns-new.png)
 1. 使用切换启用或禁用工作列表中的列。
 
 ### 对列重新排序
@@ -103,7 +103,7 @@ ht-degree: 0%
 
 1. 单击屏幕左侧的&#x200B;**列**。
 1. 单击&#x200B;**拖动**图标并将列移动到所需的位置。 自动移动列会更新工作列表。
-   ![](assets/reorder-columns-new.png)
+   ![对列重新排序](assets/reorder-columns-new.png)
 
 >[!NOTE]
 >
