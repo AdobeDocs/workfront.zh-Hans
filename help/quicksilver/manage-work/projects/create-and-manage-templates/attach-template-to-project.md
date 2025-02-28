@@ -6,9 +6,9 @@ description: 您可以在项目的初始创建阶段或创建项目后，将模�
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
@@ -77,15 +77,15 @@ ht-degree: 0%
 
 您可以从项目页面、项目列表或报表将模板附加到Workfront中的项目。
 
-1. 转到要附加模板的项目，然后单击项目名称右侧的&#x200B;**更多**&#x200B;图标![](assets/qs-more-icon-on-an-object.png)
+1. 转到要附加模板的项目，然后单击项目名称右侧的&#x200B;**更多**&#x200B;图标![更多](assets/qs-more-icon-on-an-object.png)
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![更多下拉列表](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    或
 
-   转到项目列表或报告并选择项目，然后单击列表顶部的&#x200B;**更多**&#x200B;图标![](assets/qs-more-icon-on-an-object.png)。
+   转到项目列表或报告并选择项目，然后单击列表顶部的&#x200B;**更多**&#x200B;图标![更多图标](assets/qs-more-icon-on-an-object.png)。
 
-   ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![更多菜单已展开](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
 
 1. 单击&#x200B;**附加模板**。
@@ -106,16 +106,16 @@ ht-degree: 0%
    * 任务总数
    * 附加的自定义表单的名称
 
-   ![](assets/attach-template-box-template-preview-area-nwe-350x282.png)
+   ![附加模板框](assets/attach-template-box-template-preview-area-nwe-350x282.png)
 
-1. （可选）单击模板名称左侧的&#x200B;**收藏夹**&#x200B;图标![](assets/favorites-icon-small.png)以将其标记为收藏。 这会移动收藏夹列表中的模板。
+1. （可选）单击模板名称左侧的&#x200B;**收藏夹**&#x200B;图标![收藏夹图标](assets/favorites-icon-small.png)以将其标记为收藏。 这会移动收藏夹列表中的模板。
 
-   ![](assets/favorites-icon-on-template-list-in-attach-template-box-nwe-350x79.png)
+   模板列表上的![收藏夹图标](assets/favorites-icon-on-template-list-in-attach-template-box-nwe-350x79.png)
 
-1. （可选）再次单击&#x200B;**收藏夹**&#x200B;图标![](assets/favorites-icon-selected.png)以将其从收藏夹列表中删除。
+1. （可选）再次单击&#x200B;**收藏夹**&#x200B;图标![收藏夹图标](assets/favorites-icon-selected.png)以将其从收藏夹列表中删除。
 1. 单击&#x200B;**自定义并附加**。
 
-   ![](assets/attach-template-large-box-nwe-350x262.png)
+   ![附加模板](assets/attach-template-large-box-nwe-350x262.png)
 
 1. 在附加模板之前更新以下部分的信息（或随时单击&#x200B;**附加模板**）：
 
@@ -193,6 +193,6 @@ ht-degree: 0%
 1. 单击左侧面板中的&#x200B;**项目详细信息**。
 1. 在&#x200B;**项目关系**&#x200B;下的&#x200B;**概述**&#x200B;部分底部的&#x200B;**模板**&#x200B;字段中查找附加到项目的模板的名称。
 
-   ![](assets/nwe-template-info-on-project-350x356.png)
+   ![项目上的模板信息](assets/nwe-template-info-on-project-350x356.png)
 
 
