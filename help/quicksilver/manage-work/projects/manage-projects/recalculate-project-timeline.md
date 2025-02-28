@@ -6,9 +6,9 @@ description: 重新计算时间表使经理能够了解与项目相关的不同�
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1064'
 ht-degree: 0%
 
 ---
@@ -174,13 +174,13 @@ If the timeline of a project is longer than 15 years, the automatic recalculatio
 
 您可以在Workfront中从项目页面、项目列表或报表重新计算项目的时间表。
 
-1. 转到要重新计算时间线的项目，然后单击项目名称左侧的&#x200B;**更多**&#x200B;图标![](assets/qs-more-menu.png)
+1. 转到要重新计算时间线的项目，然后单击项目名称左侧的&#x200B;**更多**&#x200B;图标![更多菜单](assets/qs-more-menu.png)
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![更多下拉列表](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    或
 
-   转到项目列表或报告并选择一个或多个项目，然后单击列表顶部的&#x200B;**更多**&#x200B;图标![](assets/qs-more-menu.png)。
+   转到项目列表或报告并选择一个或多个项目，然后单击列表顶部的&#x200B;**更多**&#x200B;图标![更多菜单](assets/qs-more-menu.png)。
 
    ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
