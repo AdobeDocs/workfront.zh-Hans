@@ -7,9 +7,9 @@ description: 有几种方法可以将优先级用于项目，并且它们不会�
 author: Alina
 feature: Work Management
 exl-id: b1e0b6c5-f2a7-455b-836b-6c0ead85e3ad
-source-git-commit: b08edd8dd7c339dffdba4c9ff5aa0a365229e794
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '663'
 ht-degree: 1%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 1%
 
 * **Portfolio优化程序中的项目优先级**（如果项目与项目组合关联）：
 
-  有关Portfolio优化程序中的项目优先级的更多信息，请参阅[在Portfolio优化程序中确定项目优先顺序](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)一文。
+  有关Portfolio Optimizer中项目优先级的更多信息，请参阅文章[在Portfolio Optimizer中排定项目优先级](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)。
 
 * **资源规划者中项目的优先级**：您可以手动设置资源规划者中项目的优先级，以指示哪些项目应首先接收资源。
 
@@ -104,7 +104,7 @@ ht-degree: 1%
 
   有关在Workfront中创建优先级的详细信息，请参阅文章[创建和自定义优先级](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md)。
 
-* 在更新项目的“优先级”字段时，此优先级不会转移到Portfolio优化程序或资源规划程序。 项目的“优先级”字段只是一个手动标记，您可以将该标记放置到项目上，以向其他用户指示其重要性。
+* 当您更新项目的“优先级”字段时，此优先级未转移到Portfolio优化程序或资源规划者。 项目的“优先级”字段只是一个手动标记，您可以将该标记放置到项目上，以向其他用户指示其重要性。
 * 项目的优先级值主要用于报告目的。
 
   例如，在项目筛选器中使用此字段时，您可以搜索优先级值为紧急的所有项目。
@@ -119,7 +119,7 @@ ht-degree: 1%
 
 1. 转到要更新其优先级的项目。
 1. 单击左侧面板中的&#x200B;**项目详细信息**。
-1. 单击项目详细信息区域右上角的&#x200B;**编辑**&#x200B;图标![](assets/qs-edit-icon.png)，然后单击&#x200B;**概述**。
+1. 单击项目详细信息区域右上角的&#x200B;**编辑**&#x200B;图标![编辑图标](assets/qs-edit-icon.png)，然后单击&#x200B;**概述**。
 
 1. 在&#x200B;**优先级**&#x200B;字段中，从以下选项中选择：
 
