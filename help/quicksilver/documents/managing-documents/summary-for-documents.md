@@ -7,10 +7,10 @@ description: 利用“摘要”，可直接与文档列表中的重要信息交�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 3%
+source-wordcount: '418'
+ht-degree: 2%
 
 ---
 
@@ -56,11 +56,11 @@ ht-degree: 3%
 ## 打开摘要视图
 
 1. 转到&#x200B;**文档**&#x200B;区域并在列表中选择一个项目。
-1. 单击&#x200B;**打开摘要图标** ![](assets/qs-summary-in-new-toolbar-small.png)。
+1. 单击&#x200B;**打开摘要图标** ![打开摘要图标](assets/qs-summary-in-new-toolbar-small.png)。
 
    打开“摘要”后，在单击其它文档时，它保持打开状态，直到手动关闭它为止。
 
-   ![](assets/summary-details-350x585.png)
+   ![摘要详细信息](assets/summary-details-350x585.png)
 
 ## 详细信息
 
@@ -69,19 +69,19 @@ ht-degree: 3%
 * [概述](#overview)
 * [自定义表单](#custom-forms)
 
-![](assets/copy-of-doc-summary-details-section-350x404.png)
+![文档摘要详细信息](assets/copy-of-doc-summary-details-section-350x404.png)
 
 ### 概述 {#overview}
 
 展开概述部分以查看或下载图像缩略图、打开验证、更新基本描述、签出文档等。
 
-![](assets/copy-of-doc-summary-with-overview-350x560.png)
+![文档摘要概述](assets/copy-of-doc-summary-with-overview-350x560.png)
 
 ### 自定义表单 {#custom-forms}
 
 使用自定义Forms部分添加、编辑或查看与文档关联的任何自定义表单。 开始键入自定义表单的名称以将其添加到文档。 有关详细信息，请参阅[在文档中添加或编辑自定义表单](../../documents/managing-documents/add-custom-form-documents.md)。
 
-![](assets/add-custom-form-doc-summary-350x265.png)
+![在文档摘要中添加自定义表单](assets/add-custom-form-doc-summary-350x265.png)
 
 ## 更新
 
@@ -98,7 +98,7 @@ ht-degree: 3%
 * [审批工作](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [请求文件审批](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+![文档摘要审批](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## 版本
 
@@ -110,4 +110,4 @@ ht-degree: 3%
 * 转到文档详细信息
 * 删除验证或文档
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+![文档摘要版本](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
