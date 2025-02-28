@@ -6,9 +6,9 @@ description: 您可以编辑项目模板以反映项目流程和设置中的更�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '4809'
+source-wordcount: '4854'
 ht-degree: 2%
 
 ---
@@ -71,7 +71,7 @@ Editing a template differs depending on what environment you choose.
 
 1. Go to the template you want to edit.
 1. (Conditional) To edit limited information about the template,  click **Template Details** in the left panel, then go to the areas listed in the left panel to edit information for each area. 
-1. To edit information in the Details section, click the **Edit** icon ![](assets/edit-icon.png), then select from any of the areas below, or click **Edit all** to edit information in all areas:
+1. To edit information in the Details section, click the **Edit** icon ![Edit icon](assets/edit-icon.png), then select from any of the areas below, or click **Edit all** to edit information in all areas:
 
    * Overview
    * Custom Forms
@@ -84,7 +84,7 @@ Editing a template differs depending on what environment you choose.
    >
    >For information about all fields that display in the Details area, continue with editing all fields using the Edit Template box below.
 
-1. (Conditional) To edit all information about the template, click the **More** menu ![](assets/qs-more-icon-on-an-object.png) next to the name of the template, then click **Edit**.
+1. (Conditional) To edit all information about the template, click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png) next to the name of the template, then click **Edit**.
 
    The **Edit Template** box opens. The sections in this box contain the same fields available in  the Template Details section .
 
@@ -105,7 +105,7 @@ Editing a template differs depending on what environment you choose.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Overview**.
 
-   ![](assets/edit-template-overview-with-tasks-and-issues-350x210.png)
+   ![Edit template overview](assets/edit-template-overview-with-tasks-and-issues-350x210.png)
 
 1. Update the following fields:
 
@@ -204,7 +204,7 @@ Editing a template differs depending on what environment you choose.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Finance**.
 
-   ![](assets/edit-template-finance-with-tasks-and-issues-350x259.png)
+   ![Edit template finance](assets/edit-template-finance-with-tasks-and-issues-350x259.png)
 
 1. Update the following fields:
 
@@ -250,7 +250,7 @@ Editing a template differs depending on what environment you choose.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Portfolio**.
 
-   ![](assets/edit-template-portfolio-with-tasks-and-issues-350x228.png)
+   ![Edit template portfolio](assets/edit-template-portfolio-with-tasks-and-issues-350x228.png)
 
 1. Update the following fields:
 
@@ -283,7 +283,7 @@ Editing a template differs depending on what environment you choose.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Settings**.
 
-   ![](assets/edit-template-settings-with-tasks-and-issues-350x336.png)
+   ![Edit template settings](assets/edit-template-settings-with-tasks-and-issues-350x336.png)
 
 1. Update the following fields: 
 
@@ -411,7 +411,7 @@ Editing a template differs depending on what environment you choose.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Access**.
 
-   ![](assets/edit-template-access-with-tasks-and-issues-350x241.png)
+   ![Edit template access](assets/edit-template-access-with-tasks-and-issues-350x241.png)
 
    The Access you specify for your template will become the Access of users associated with the project when the template is used to create a project.
 
@@ -488,7 +488,7 @@ For information about how these settings affect creating new tasks, see [Create 
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Tasks**.
 
-   ![](assets/edit-template-with-tasks-and-issue-sections-350x144.png)
+   ![Edit template tasks](assets/edit-template-with-tasks-and-issue-sections-350x144.png)
 
 1. In the **Task Default Approval Process** box, select the Approval Process you want to associate with all new tasks when you add them to a project created from this template. You must create an Approval Process for tasks before you can associate it with tasks. Only active approval processes display in the list. For more information about creating Approval Processes, see [Creating Approval Processes](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 1. In the **Task Default Custom Forms** box, select the custom form or forms that you want to associate with all new tasks when you add them to a project created from this template. You must build the custom forms before they are available to select in this field. Only active custom forms display in the list. You can associate up to ten custom forms with a task.
@@ -516,7 +516,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Issues**.
 
-   ![](assets/edit-template-box-with-issues-nwe-350x171.png)
+   ![Edit template issues](assets/edit-template-box-with-issues-nwe-350x171.png)
 
 1. (Optional) Deselect the **Allow users to add issues inline** option. It is enabled by default.
 
@@ -565,7 +565,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 1. 转到要编辑的模板。
 1. （视情况而定）要编辑有关模板的有限信息，请单击左侧面板中的&#x200B;**模板详细信息**，然后转到左侧面板中列出的区域以编辑每个区域的信息。
-1. 若要编辑“详细信息”部分中的信息，请单击&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)，然后从以下任何区域进行选择，或单击&#x200B;**全部编辑**&#x200B;以编辑所有区域的信息：
+1. 若要编辑“详细信息”部分中的信息，请单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)，然后从以下任何区域进行选择，或单击&#x200B;**全部编辑**&#x200B;以编辑所有区域的信息：
 
    * 概述
    * 自定义表单
@@ -578,7 +578,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
    >
    >有关详细信息区域中显示的所有字段的信息，请使用下面的编辑模板框继续编辑所有字段。
 
-1. （视情况而定）要编辑有关模板的所有信息，请单击模板名称旁边的&#x200B;**更多**&#x200B;菜单![](assets/qs-more-icon-on-an-object.png)，然后单击&#x200B;**编辑**。
+1. （视情况而定）要编辑有关模板的所有信息，请单击模板名称旁边的&#x200B;**更多**&#x200B;菜单![更多图标](assets/qs-more-icon-on-an-object.png)，然后单击&#x200B;**编辑**。
 
    将打开&#x200B;**编辑模板**&#x200B;框。 此框中的部分包含与“模板详细信息”部分相同的字段。
 
@@ -612,7 +612,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. 如上所述，开始编辑模板。
 1. 在&#x200B;**编辑模板**&#x200B;框中，单击&#x200B;**概述**。
 
-   ![](assets/edit-template-box-overview-section.png)
+   ![编辑模板框](assets/edit-template-box-overview-section.png)
 
 1. 更新以下字段：
 
@@ -710,7 +710,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. 如上所述，开始编辑模板。
 1. 在&#x200B;**编辑模板**&#x200B;框中，单击&#x200B;**财务**。
 
-   ![](assets/edit-template-box-finance-section.png)
+   ![编辑模板框财务](assets/edit-template-box-finance-section.png)
 
 1. 更新以下字段：
 
@@ -766,7 +766,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. 如上所述，开始编辑模板。
 1. 在&#x200B;**编辑模板**&#x200B;框中，单击&#x200B;**自定义Forms**。
 
-   ![](assets/edit-template-box-custom-forms-section.png)
+   ![编辑模板框自定义表单](assets/edit-template-box-custom-forms-section.png)
 
    已附加到模板的自定义表单的名称将显示在左侧面板中。
 
@@ -793,7 +793,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. 如上所述，开始编辑模板。
 1. 在&#x200B;**编辑模板**&#x200B;框中，单击&#x200B;**项目设置**。
 
-   ![](assets/edit-template-box-project-settings-section.png)
+   ![编辑模板框设置](assets/edit-template-box-project-settings-section.png)
 
 1. 更新以下字段：
 
@@ -925,7 +925,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. 如上所述，开始编辑模板。
 1. 在&#x200B;**编辑模板**&#x200B;框中，单击&#x200B;**任务设置**。
 
-   ![](assets/edit-template-box-tax-settings-section.png)
+   ![编辑模板框任务设置](assets/edit-template-box-tax-settings-section.png)
 
 1. 在&#x200B;**任务默认审批流程**&#x200B;框中，选择将新任务添加到从此模板创建的项目时要与所有新任务关联的审批流程。 您必须先为任务创建批准流程，然后才能将其与任务关联。 列表中仅显示有效的审批流程。 有关创建批准流程的详细信息，请参阅[创建批准流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)。
 1. 在&#x200B;**任务默认自定义Forms**&#x200B;框中，选择当您将新任务添加到从此模板创建的项目时要与所有新任务关联的一个或多个自定义表单。 您必须先构建自定义表单，然后才可在此字段中选择它们。 列表中仅显示活动的自定义表单。 有关生成自定义表单的详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。 您最多可以将十个自定义表单与一个任务关联。
@@ -953,7 +953,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. 如上所述，开始编辑模板。
 1. 在&#x200B;**编辑模板**&#x200B;框中，单击&#x200B;**问题设置**。
 
-   ![](assets/edit-template-box-issue-settings-section.png)
+   ![编辑模板框问题设置](assets/edit-template-box-issue-settings-section.png)
 
 1. （可选）取消选择&#x200B;**允许用户添加内联问题**&#x200B;选项。 默认情况下处于启用状态。
 
@@ -980,7 +980,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. 如上所述，开始编辑模板。
 1. 在&#x200B;**编辑模板**&#x200B;框中，单击&#x200B;**访问**。
 
-   ![](assets/edit-template-box-access-section.png)
+   ![编辑模板框访问权限](assets/edit-template-box-access-section.png)
 
    使用模板创建项目时，您为模板指定的访问权限将成为与项目关联的用户的访问权限。
 
@@ -1055,7 +1055,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 要批量编辑模板，请执行以下操作：
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)。
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)。
 
 1. 单击&#x200B;**模板**。
 1. 在列表中选择多个模板。
@@ -1063,7 +1063,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
    将打开&#x200B;**编辑模板**&#x200B;对话框。
 
-   ![](assets/edit-templates-in-bulk-box-nwe-350x327.png)
+   ![编辑模板](assets/edit-templates-in-bulk-box-nwe-350x327.png)
 
 1. 单击左侧的部分可编辑所有选定的模板。
 
@@ -1130,12 +1130,12 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 要停用模板，请执行以下操作：
 
-1. 转到活动模板，然后单击模板名称旁边的&#x200B;**更多** ![](assets/qs-more-icon-on-an-object.png)菜单，然后单击&#x200B;**停用**。
+1. 转到活动模板，然后单击模板名称旁边的&#x200B;**更多** ![更多图标](assets/qs-more-icon-on-an-object.png)菜单，然后单击&#x200B;**停用**。
 
-   ![](assets/deactivate-template-link-in-more-menu.png)
+   ![停用模板](assets/deactivate-template-link-in-more-menu.png)
 
    该模板不再处于活动状态，用户无法再找到它来从中创建项目。
-1. （可选）要激活模板，请单击模板名称旁边的&#x200B;**更多** ![](assets/qs-more-icon-on-an-object.png)菜单，然后单击&#x200B;**激活**。
+1. （可选）要激活模板，请单击模板名称旁边的&#x200B;**更多** ![更多图标](assets/qs-more-icon-on-an-object.png)菜单，然后单击&#x200B;**激活**。
 
    该模板现在处于活动状态，可附加到项目或用于创建项目。
 
