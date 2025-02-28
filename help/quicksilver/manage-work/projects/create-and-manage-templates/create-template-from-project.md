@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '493'
 ht-degree: 1%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 1%
 ## 从项目创建模板
 
 1. 转到要另存为模板的项目。
-1. 单击&#x200B;**更多**&#x200B;菜单![](assets/qs-more-icon-on-an-object.png)，然后单击&#x200B;**另存为模板**。
+1. 单击&#x200B;**更多**&#x200B;菜单![更多图标](assets/qs-more-icon-on-an-object.png)，然后单击&#x200B;**另存为模板**。
 1. 为模板指定以下信息：
 
    <table style="table-layout:auto"> 
@@ -94,17 +94,17 @@ ht-degree: 1%
 
 1. 单击&#x200B;**管理Forms**&#x200B;以删除或重新排序表单。 有关如何删除模板上的自定义表单并重新排序的信息，请参阅[自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)。
 
-   ![](assets/save-as-template-first-step-350x159.png)
+   ![第一步](assets/save-as-template-first-step-350x159.png)另存为模板
 
 1. 单击&#x200B;**下一步。**
 1. 在&#x200B;**选项**&#x200B;部分中，选中要从模板中清除的任何信息旁边的复选框。
 
-   ![](assets/save-as-template-options-step-350x109.png)
+   ![另存为模板选项](assets/save-as-template-options-step-350x109.png)
 
 1. 单击&#x200B;**下一步。**
 1. 在&#x200B;**排除**&#x200B;部分中，选择要从项目中排除的任何任务。
 
-   ![](assets/save-as-template-exclude-350x205.png)
+   ![另存为模板排除](assets/save-as-template-exclude-350x205.png)
 
 1. 单击&#x200B;**完成并保存模板。**
 
