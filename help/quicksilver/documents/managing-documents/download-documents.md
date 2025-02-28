@@ -6,9 +6,9 @@ description: 您可以单独或批量从Adobe Workfront下载文档。 可从Wor
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 083c604a-b2ca-4279-a90d-b103e3575dad
-source-git-commit: 060557085c6941fab4ca8df22641679199f5c55b
+source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 1. 转到包含文档的项目、任务或问题，然后选择&#x200B;**文档**。
 1. 查找所需的文档。
 
-1. 单击&#x200B;**下载选定项**&#x200B;图标![](assets/download-icon.png)。
+1. 单击&#x200B;**下载选定项**&#x200B;图标![下载选定项](assets/download-icon.png)。
 
 ## 同时下载多个文档
 
@@ -69,6 +69,6 @@ ht-degree: 0%
    >无法批量下载从Box、Dropbox、Google Drive等链接到Workfront的文档。
 
 1. （可选）从文件夹列表中选择包含要下载的文档的文件夹。
-1. 单击下载选定内容图标![](assets/download-icon.png)。
+1. 单击“下载选定项”图标![“下载选定项”图标](assets/download-icon.png)。
 
    文件夹将下载为.zip文件，并且限制为4GB。
