@@ -5,9 +5,9 @@ description: 在完成并提交项目请求的商业论证后，必须批准该�
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 0%
 * 您必须手动转到需要业务案例批准的单个项目，以查看它们正在等待批准。 没有Workfront通知机制可提醒某人必须批准项目的业务案例。
 * 您可以通过构建项目报告或访问与项目组合相关联的项目来查找等待业务案例审批的项目。
 
-  有关Portfolio的详细信息，请参阅Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)中的文章[Portfolio概述。
+  有关项目组合的详细信息，请参阅文章[Adobe Workfront中的Portfolio概述](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)。
 
 ## 通过构建项目报告审批业务案例
 
@@ -106,7 +106,7 @@ ht-degree: 0%
    Project Portfolio Owner ID Equals $$USER. ID
    ```
 
-   显示您被指定为“Portfolio管理器”的位置。
+   以显示您指定为Portfolio Manager的位置。
 
 1. 单击&#x200B;**保存+关闭**。
 
@@ -116,7 +116,7 @@ ht-degree: 0%
 1. 单击左侧面板中的&#x200B;**业务案例**。
 1. 在业务案例摘要区域单击&#x200B;**批准**&#x200B;或&#x200B;**拒绝**&#x200B;以批准或拒绝业务案例。
 
-   ![](assets/business-case-summary-with-rp-information--1-.png)
+   ![商业案例](assets/business-case-summary-with-rp-information--1-.png)
 
    如果业务案例获得批准，项目状态将更改为&#x200B;**已批准**。
 
