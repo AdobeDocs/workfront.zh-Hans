@@ -7,9 +7,9 @@ description: 在Adobe Workfront中，项目、任务和问题具有实际开始�
 author: Alina
 feature: Work Management
 exl-id: 4357b072-24f6-4f89-b624-f066f8af0722
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 要在项目的详细信息部分找到实际开始日期，请执行以下操作：
 
-1. 单击Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**项目**。
+1. 单击Workfront右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**项目**。
 1. 单击要查看其实际开始日期的项目。
 1. 单击左侧面板中的&#x200B;**项目详细信息**，然后转到&#x200B;**概述**&#x200B;部分。
 
