@@ -6,9 +6,9 @@ description: 对于项目费用和任务相关费用，创建和管理费用的�
 author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td>具有Contribute或更高项目权限以及查看或管理财务的权限</td> 
+   <td>拥有项目参与权限或更高权限以及查看或管理财务的权限</td> 
   </tr> 
  </tbody> 
 </table>
@@ -74,7 +74,7 @@ ht-degree: 0%
    * **实际金额：**&#x200B;费用实际成本的金额。\
      这会影响项目的实际成本。
 
-   * **计划日期：**&#x200B;预计费用发生的日期。 您可以使用&#x200B;*mm/dd/yy*&#x200B;格式在字段中键入日期，也可以单击日历图标  ![](assets/calendar-icon.png)并动态选择日期。
+   * **计划日期：**&#x200B;预计费用发生的日期。 您可以使用&#x200B;*mm/dd/yy*&#x200B;格式在字段中键入日期，也可以单击日历图标  ![日历图标](assets/calendar-icon.png)并动态选择日期。
 
    * **支付日期：**&#x200B;支付费用的日期。
    * **可记帐：**&#x200B;如果要对此费用记帐，请选择此选项。 创建开票记录时，将费用归类为可开票很重要。
