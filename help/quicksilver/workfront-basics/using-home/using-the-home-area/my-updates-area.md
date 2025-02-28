@@ -6,9 +6,9 @@ description: 您可以使用[!UICONTROL 我的更新]区域快速查看等待您
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '823'
 ht-degree: 0%
 
 ---
@@ -76,13 +76,13 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL 主菜单]**&#x200B;中单击&#x200B;**[!UICONTROL 我的更新]**。
 
-   ![](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
+   ![主菜单中的我的更新](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
 
    [!UICONTROL 我的更新]区域打开。
 
    分配给您的审批和访问请求列在页面前半部分的&#x200B;**我的更新**&#x200B;下。
 
-   ![](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
+   ![我的更新提及审阅者](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
 1. （可选）滚动到&#x200B;[!UICONTROL **我的更新**]&#x200B;区域的底部，然后单击向右箭头以显示其他页面上显示的更多批准。
 
@@ -90,9 +90,9 @@ ht-degree: 0%
    >
    >默认情况下，将显示前五个审批或访问请求。 其余的审批将显示在其他页面上。 您在[!UICONTROL 我的更新]区域最多可以显示2000个批准。
 
-   ![](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
+   我的更新![分页](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
 
-1. （可选）展开&#x200B;**[!UICONTROL 我的更新]**&#x200B;部分右上角的&#x200B;**[!UICONTROL 筛选器]**&#x200B;下拉菜单![](assets/filter-nwepng.png)，然后从以下内容中选择：
+1. （可选）展开&#x200B;**[!UICONTROL 我的更新]**&#x200B;部分的右上角的&#x200B;**[!UICONTROL 筛选器]**&#x200B;下拉菜单![筛选器图标](assets/filter-nwepng.png)，然后从以下内容中选择：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -117,13 +117,13 @@ ht-degree: 0%
 
 1. 要在批准之前批准或拒绝项目或建议对文档的更改，请执行以下操作：
 
-   1. （可选）单击批准决定（**[!UICONTROL 批准]**，**[!UICONTROL 更改]**，**[!UICONTROL 拒绝]**）旁边的&#x200B;**下拉列表**&#x200B;图标![](assets/down-arrow-blue.png)并添加评论，然后单击&#x200B;**[!UICONTROL 添加]**。
+   1. （可选）单击批准决定（**[!UICONTROL 批准]**，**[!UICONTROL 更改]**，**[!UICONTROL 拒绝]**）旁边的&#x200B;**下拉列表**&#x200B;图标![下拉列表图标](assets/down-arrow-blue.png)并添加评论，然后单击&#x200B;**[!UICONTROL 添加]**。
 
       或
 
       如果您不想输入评论，请单击&#x200B;**[!UICONTROL 跳过]**。
 
-      ![](assets/approval-decision-buttons-in-my-updates-with-comment-box-nwe-350x183.png)
+      ![带有评论框的批准决策按钮](assets/approval-decision-buttons-in-my-updates-with-comment-box-nwe-350x183.png)
 
       >[!NOTE]
       >
@@ -136,7 +136,7 @@ ht-degree: 0%
       >如果不想向决策添加评论，可以单击&#x200B;**[!UICONTROL 批准]**、**[!UICONTROL 拒绝]**&#x200B;或&#x200B;**[!UICONTROL 更改]**&#x200B;按钮，并立即授予批准决策。
       >
       >
-      >![](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)
+      >![审批决策按钮](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)
       >
       >有关批准工作的详细信息，请参阅[批准工作](../../../review-and-approve-work/manage-approvals/approving-work.md)。
 
@@ -146,7 +146,7 @@ ht-degree: 0%
 
    展开&#x200B;**[!UICONTROL 更改访问权限]**&#x200B;下拉菜单以在授予访问权限之前修改请求的访问权限。
 
-   ![](assets/grant-access-button-in-my-updates-nwe-350x224.png)
+   ![更改访问按钮](assets/grant-access-button-in-my-updates-nwe-350x224.png)
 
 1. （可选）单击&#x200B;**[!UICONTROL 忽略]**&#x200B;以从审批列表中清除访问请求而不授予它。
 1. 如果您在一段时间内无法做出审批决策，请单击&#x200B;**[!UICONTROL 委托我的审批]**&#x200B;以委托您提交的审批。 有关委托审批的详细信息，请参阅[委托审批请求](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md)。
@@ -166,6 +166,6 @@ ht-degree: 0%
 
      添加完回复后，单击&#x200B;**[!UICONTROL 提交]**。
 
-     ![](assets/reply-in-the-my-updates-area.png)
+     ![在“我的更新”区域回复](assets/reply-in-the-my-updates-area.png)
 
 1. （可选）单击&#x200B;**[!UICONTROL 固定当前页面]**&#x200B;以将[!UICONTROL 我的更新]区域固定到顶部导航。
