@@ -6,9 +6,9 @@ description: 您可以签出文档以防止其他用户删除它或上载它的�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 15d9ea43-1cee-4cb1-9365-4374a291c090
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -77,9 +77,9 @@ ht-degree: 0%
 
    有关添加文档的信息，请参阅[将文档从您的文件系统添加到Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)。
 
-1. 单击&#x200B;**签出**&#x200B;图标![](assets/check-out-25x23.png)。
+1. 单击&#x200B;**签出**&#x200B;图标![签出图标](assets/check-out-25x23.png)。
 
-1. 文档名称的右侧将显示一个锁图标![](assets/lock-icon-locked-qs.png)。 注销Workfront后，文档将保持签出状态。
+1. 文档名称的右侧将显示一个锁定图标![锁定图标](assets/lock-icon-locked-qs.png)。 注销Workfront后，文档将保持签出状态。
 1. 只有签出文档的用户或Workfront管理员才能签入文档。
 
 ## 管理已签出的文档
@@ -103,6 +103,6 @@ ht-degree: 0%
 
 1. 转到存储文档的区域，然后选择文档。 
 
-   文档名称的右侧将显示一个锁图标![](assets/lock-icon-locked-qs.png)。
+   文档名称的右侧将显示一个锁定图标![锁定图标](assets/lock-icon-locked-qs.png)。
 
-1. 单击&#x200B;**签入**&#x200B;图标![](assets/check-in-25x22.png)。
+1. 单击&#x200B;**签入**&#x200B;图标![签入图标](assets/check-in-25x22.png)。
