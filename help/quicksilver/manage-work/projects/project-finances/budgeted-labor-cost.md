@@ -7,9 +7,9 @@ description: 了解项目的预算劳力成本和预算小时数
 author: Lisa
 feature: Work Management
 exl-id: 01020bbb-7cf9-4461-b0b6-dcbbc537c616
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1140'
 ht-degree: 0%
 
 ---
@@ -76,11 +76,11 @@ Workfront使用项目上工作角色的预算劳力成本计算项目的预算�
 
 * [!UICONTROL **预算劳力成本**]：业务案例的资源预算区域，位于其各自的角色下。
 
-  ![](assets/budgeted-labor-cost-for-users-in-business-case-highlighted-350x73.png)
+  ![业务案例中的预算劳力成本](assets/budgeted-labor-cost-for-users-in-business-case-highlighted-350x73.png)
 
 * [!UICONTROL **BDG**]：资源规划者，在按成本查看“项目”和“角色”视图中的信息时。
 
-  ![](assets/budgeted-labor-cost-for-users-in-rp-project-view-cost--highlighted-350x115.png)
+  ![资源计划中的预算劳力成本](assets/budgeted-labor-cost-for-users-in-rp-project-view-cost--highlighted-350x115.png)
 
 如果用户满足以下要求，则显示在业务案例的“资源预算”区域中其各自的角色下，或者显示在资源规划者中：
 
