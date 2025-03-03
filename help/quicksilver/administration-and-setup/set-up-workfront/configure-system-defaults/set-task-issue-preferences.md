@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 3f2cc191c316d107f16a12160cb126203b05387c
 workflow-type: tm+mt
-source-wordcount: '2238'
+source-wordcount: '2251'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,8 @@ Linked to Converting Issues.-->
     </tr> 
     <tr> 
     <td role="rowheader">[！UICONTROL收入类型]</td> 
-    <td> <p>计算任务的计划和实际收入预估。 当<strong>[！UICONTROL收入类型]</strong>设置为<strong>[！UICONTROL不可记帐]</strong>时，计划的小时数和记录的实际小时数不会为任务生成收入估计值，并且任务上的工作不会对项目级别的收入做出贡献。</p> </td> 
+    <td> <p>计算任务的计划和实际收入预估。 当<strong>[！UICONTROL收入类型]</strong>设置为<strong>[！UICONTROL不可记帐]</strong>时，计划的小时数和记录的实际小时数不会为任务生成收入估计值，并且任务上的工作不会对项目级别的收入做出贡献。</p>
+         <p>有关不同收入类型的信息，请参阅<a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md">账单和收入概览</a>。</p></td> 
     </tr> 
     <tr> 
     <td role="rowheader">[！UICONTROL成本类型]</td> 
