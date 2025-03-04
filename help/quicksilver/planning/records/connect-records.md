@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
+source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
 workflow-type: tm+mt
-source-wordcount: '3249'
+source-wordcount: '3332'
 ht-degree: 1%
 
 ---
@@ -200,13 +200,13 @@ ht-degree: 1%
    >或
    >单击&#x200B;**连接记录**（如果字段为空）以从连接的记录或对象类型添加记录。
    >
-   >![](assets/connect-records-from-record-page-field.png)
+   >![从记录页字段连接记录](assets/connect-records-from-record-page-field.png)
 
 1. （可选）单击&#x200B;**查看全部**&#x200B;以显示所有记录。
 
 1. （视情况而定）如果您在上一步中单击了&#x200B;**查看所有**，则会显示&#x200B;**连接对象**&#x200B;框。
 
-   ![](assets/connected-objects-table-for-records.png)
+   ![记录的已连接对象表](assets/connected-objects-table-for-records.png)
 
 1. 在搜索框中开始键入记录的名称，然后当它显示在列表中时将其选定
 
@@ -282,7 +282,7 @@ ht-degree: 1%
 
    如果您在上一步中单击了&#x200B;**查看所有**，则会显示&#x200B;**连接对象**&#x200B;框。
 
-   ![](assets/connect-objects-box-to-select-projects.png)
+   ![连接对象框以选择项目](assets/connect-objects-box-to-select-projects.png)
 
 1. 开始在搜索框中键入Workfront对象的名称，然后当该对象显示在列表中时将其选定
 
@@ -359,7 +359,7 @@ ht-degree: 1%
 
    此时会显示&#x200B;**选择Assets**&#x200B;框。<!--we might change this to Connect assets-->
 
-   ![](assets/select-assets-box-for-aem-record-connections.png)
+   ![为AEM记录连接选择资源框](assets/select-assets-box-for-aem-record-connections.png)
 
 1. 单击可选择以下某些类型的资产：
 
@@ -389,7 +389,7 @@ ht-degree: 1%
 
 1. （可选）转到您链接到Experience Manager Assets的记录类型，然后单击链接记录字段中的资源名称。 资源的Experience Manager详细信息会显示在弹出窗口中。
 
-   ![](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
+   ![包含AEM详细信息和缩略图的资源弹出窗口](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
 
    为图像文件显示以下字段：
 
@@ -403,7 +403,7 @@ ht-degree: 1%
    * 创建日期
    * 修改日期
 
-1. （可选）要在Experience Manager中打开Experience Manager资源记录页面，请转到要链接到的记录的记录类型页面，在链接的记录字段中单击资源的名称以打开弹出窗口，然后单击&#x200B;**在AEM中打开**&#x200B;图标![](assets/open-asset-icon.png)以打开该资源。
+1. （可选）要在Experience Manager中打开Experience Manager资源记录页面，请转到要链接到的记录的记录类型页面，在链接的记录字段中单击资源的名称以打开弹出窗口，然后单击&#x200B;**在AEM中打开**&#x200B;图标![在AEM中打开资源图标](assets/open-asset-icon.png)以打开该资源。
 
    此操作将在Adobe Experience Manager Assets中打开Experience Manager资源。
 
@@ -424,7 +424,7 @@ ht-degree: 1%
 1. 单击记录名称。
 
    预览页面将打开。
-1. （可选）单击&#x200B;**在新标签中打开**&#x200B;图标![](assets/open-details-in-a-new-tab-icon.png)以打开记录的页面。
+1. （可选）单击&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开详细信息](assets/open-details-in-a-new-tab-icon.png)以打开记录的页面。
 1. 单击记录预览或页面中的&#x200B;**连接**&#x200B;选项卡。
 
    Workfront Planning中记录的![连接选项卡](assets/connections-tab-on-record-in-workfront-planning.png)
@@ -449,24 +449,15 @@ ht-degree: 1%
    有关详细信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)一文中的“连接其他记录时创建记录”一节。
 1. 按照前面部分中描述的步骤，连接来自Workfront Planning的记录或来自Workfront或Experience Manager Assets的对象。
 记录和对象会立即添加。
-1. （可选）将鼠标悬停在记录或对象的已连接卡片上，然后单击&#x200B;**断开记录**&#x200B;图标![](assets/disconnect-icon-with-tooltip.png)以将其与选定记录断开连接。
+1. （可选）将鼠标悬停在已连接的记录卡或对象上，然后单击&#x200B;**断开连接记录**&#x200B;图标![断开连接记录](assets/disconnect-icon-with-tooltip.png)以将其与选定记录断开连接。
 
-   ![](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
+   ![连接选项卡上带有工具提示的断开连接记录图标](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
 
    该记录会立即与Workfront Planning的所有区域或其可能显示为已连接的其他应用程序断开连接。 所有查找字段值也会被删除。
 
-## 从Workfront对象连接记录
-
-要从Workfront对象连接Workfront Planning记录，您必须具备以下条件：
-
-* 在Workfront Planning中建立的记录类型与Workfront对象类型之间的连接。
-* 您的Workfront或组管理员必须将“规划”部分添加到您的布局模板中的Workfront项目、项目组合和程序。
-
-有关详细信息，请参阅Adobe Workfront对象的“规划”部分中的[管理记录](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
-
 <div class="preview">
 
-## 从记录详细信息页面上的“连接视图”选项卡连接记录
+### 从记录详细信息页面上的“连接视图”选项卡连接记录
 
 <!--section needs title edit when they rename the "Connection view" page type-->
 
@@ -485,3 +476,22 @@ ht-degree: 1%
 1. （可选）如果找不到连接的记录，请单击&#x200B;**+添加**&#x200B;以创建并连接它们。
 
 </div>
+
+## 从Workfront对象连接记录
+
+要从Workfront对象连接Workfront Planning记录，您必须具备以下条件：
+
+* 在Workfront Planning中建立的记录类型与Workfront对象类型之间的连接。
+* 您的Workfront或组管理员必须将以下任意对象添加到Workfront对象类型：
+
+   * 布局模板中Workfront项目、项目组合和程序的“规划”部分。
+
+   * Planning将自定义字段连接到以下对象之一的自定义表单：
+
+      * 项目
+      * 项目组合
+      * 项目群
+      * 组
+      * 公司
+
+  有关详细信息，请参阅Adobe Workfront对象的“规划”部分中的[管理记录](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。

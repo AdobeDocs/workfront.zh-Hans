@@ -1,14 +1,14 @@
 ---
-title: “架构：文章索引”
+title: 架构：文章索引
 description: 以下文章介绍如何配置Adobe Workfront Planning的架构。 作为此配置的一部分，您将了解如何创建工作区、记录类型和自定义字段以映射您要在Workfront Planning中管理的工作流。
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
+source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,7 @@ ht-degree: 0%
 * [工作区模板列表](/help/quicksilver/planning/architecture/workspace-templates.md)
 * [记录类型概述](/help/quicksilver/planning/architecture/overview-of-record-types.md)
 * [创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)
+* [通过从CSV或Excel文件导入信息创建记录类型](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md)
 * [编辑记录类型](/help/quicksilver/planning/architecture/edit-record-types.md)
 * [连接的记录类型概述](/help/quicksilver/planning/architecture/connect-record-types-overview.md)
 * [连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)

@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
+source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
 workflow-type: tm+mt
 source-wordcount: '1801'
 ht-degree: 0%
@@ -33,6 +33,7 @@ ht-degree: 0%
 * [在连接其他记录时创建记录](#create-records-as-you-connect-them)
 * [通过向记录类型提交请求表单来创建记录](#create-records-by-submitting-a-request-form-to-a-record-type)
 * [从CSV或Excel文件导入记录类型时创建记录](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
+<!--* <Span class="preview">[Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md)</span> -->
 * <span class="preview">[使用自动创建记录](#create-records-by-using-automations)</span>
 
 
@@ -304,6 +305,19 @@ Workfront用户和组织外部的用户均可向Planning记录类型提交请求
 在使用CSV或Excel文件导入记录类型时，可以导入记录。
 
 有关信息，请参阅[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)。
+
+<!--
+<div class="preview">
+
+## Create records when importing records from a CSV or Excel file
+
+You can import records for existing record types when you import information from a CSV or Excel file. 
+
+For information, see [Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md). 
+
+</div> 
+
+-->
 
 <div class="preview">
 

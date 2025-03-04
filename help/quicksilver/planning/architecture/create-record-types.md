@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '996'
 ht-degree: 1%
 
 ---
@@ -66,8 +66,8 @@ ht-degree: 1%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>贵组织的Workfront实例必须载入AdobeUnified Experience，才能访问Workfront Planning的所有功能。</p> 
-<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">AdobeWorkfront的Unified Experience</a>。 </p> 
+<p>贵组织的Workfront实例必须载入Adobe Unified Experience，才能访问Workfront Planning的所有功能。</p> 
+<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p> 
    </td> 
    </tr> 
   </tr> 
@@ -98,7 +98,6 @@ ht-degree: 1%
 
 +++
 
-
 ## 有关创建记录类型的注意事项
 
 * 您可以通过以下方式在工作区中创建记录类型：
@@ -108,11 +107,11 @@ ht-degree: 1%
 
         有关信息，请参阅[创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md)。
 
-      * 当您使用Excel或CSV文件导入它们时。
+      * 当您使用CSV或Excel文件导入这些文件时。
 
      >[!TIP]
      >
-     >从Excel或CSV文件导入记录类型时，还可以导入记录和字段。
+     >从CSV或Excel文件导入记录类型时，还可以导入记录和字段。
 
    * 手动：
 
@@ -152,7 +151,7 @@ ht-degree: 1%
    将打开“添加记录类型”框。
    <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
 
-   ![](assets/add-record-type-box-with-appearance-options.png)
+   ![添加具有外观选项的记录类型框](assets/add-record-type-box-with-appearance-options.png)
 
 1. 更新以下信息：
 
@@ -167,12 +166,12 @@ ht-degree: 1%
    记录类型信息卡会添加到部分和您选择的工作区。
 记录类型的描述将显示在信息卡上。
 
-   ![](assets/record-type-card-with-description.png)
+   ![带有说明的记录类型信息卡](assets/record-type-card-with-description.png)
 
-1. （可选）将鼠标悬停在记录类型卡片上，单击右上角的&#x200B;**更多**&#x200B;图标![](assets/more-menu.png)，然后单击&#x200B;**编辑**&#x200B;以修改有关记录类型的信息。
+1. （可选）将鼠标悬停在记录类型卡片上，单击右上角的&#x200B;**更多**&#x200B;图标![更多菜单](assets/more-menu.png)，然后单击&#x200B;**编辑**&#x200B;以修改有关记录类型的信息。
 1. （可选）单击记录类型卡以打开记录类型页面。
 
-   ![](assets/operational-record-type-blank.png)
+   ![操作记录类型为空](assets/operational-record-type-blank.png)
 
    默认情况下，记录类型页面显示在表视图中。 表的列是与新记录类型关联的字段。 每一行都是您必须添加的唯一记录。
 
@@ -188,7 +187,7 @@ ht-degree: 1%
 
    或
 
-   单击记录类型名称右侧的&#x200B;**更多**&#x200B;图标![](assets/more-menu.png)，然后单击&#x200B;**编辑**&#x200B;以重命名它或更改有关它的信息。 有关详细信息，请参阅[编辑记录类型](/help/quicksilver/planning/architecture/edit-record-types.md)。
+   单击记录类型名称右侧的&#x200B;**更多**&#x200B;图标![更多菜单](assets/more-menu.png)，然后单击&#x200B;**编辑**&#x200B;以重命名它或更改有关它的信息。 有关详细信息，请参阅[编辑记录类型](/help/quicksilver/planning/architecture/edit-record-types.md)。
 
 1. （可选）单击&#x200B;**+新记录**&#x200B;以添加所选记录类型的记录。 有关详细信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
 1. （可选）单击表右上角的&#x200B;**+**&#x200B;图标以向记录类型添加更多字段。
@@ -208,71 +207,14 @@ ht-degree: 1%
    * [编辑记录类型](/help/quicksilver/planning/architecture/edit-record-types.md)
    * [管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)
 
-## 通过导入Excel或CSV文件创建记录类型
+## 通过从CSV或Excel文件导入信息创建记录类型
 
-使用Excel或CSV文件导入记录类型时，请考虑以下事项：
+从CSV或Excel文件导入信息时，可以导入以下内容：
 
-* Excel文件的每一页都变为记录类型。 工作表的名称将成为记录类型的名称。
-* 如果只有一个工作表，或者导入CSV文件，则文件的名称将成为记录类型的名称。
-* 每个工作表的列标题将成为与每个记录类型关联的字段。
-* 字段对于其各自的记录类型是唯一的。
-* 每个工作表中的每一行都成为与其各自记录类型相关联的唯一记录。
-* Excel文件的每一页不应超过以下内容：
-   * 10,000行
-   * 500列
-* Excel文件不应大于5MB。
-* 不支持空工作表。
+* 记录类型
+* 记录
+* 记录字段
 
-要使用Excel或CSV文件导入记录类型，请执行以下操作：
+有关详细信息，请参阅[通过从CSV或Excel文件导入信息来创建记录类型](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md)。
 
-{{step1-to-planning}}
 
-1. 单击要在其中创建记录类型的工作区，
-
-   或
-
-   从工作区中，展开现有工作区名称右侧的向下箭头，搜索工作区，然后在工作区显示在列表中时将其选定。
-1. 单击&#x200B;**添加记录类型**。
-1. 单击&#x200B;**来自文件**。
-1. 拖放以前保存在您计算机上的Excel或CSV文件，或单击&#x200B;**选择CSV或Excel文件**&#x200B;以浏览一个。
-1. 单击&#x200B;**预览和编辑**。
-
-   显示&#x200B;**预览和编辑**&#x200B;框并显示以下信息：
-
-   * 工作表或未来记录类型的名称显示在左侧面板中。 默认情况下，Workfront Planning会为每个新记录类型选择一个图标和一种颜色。
-   * 选择第一个工作表或记录类型，并且与其关联的字段的名称显示为列标题。 默认情况下，会选择每个字段的类型。
-   * 每一行表示一个新记录。 只有前10条记录会显示在“预览和编辑”框中。
-
-   ![](assets/preview-and-edit-box.png)
-
-1. （可选）单击左侧面板中每个页面的名称以查看其中包含的信息。
-
-   >[!NOTE]
-   >
-   >不支持空的页面，这些页面将呈灰显状态。
-
-1. （可选）从左侧面板中取消选择不想导入的工作表。
-
-   ![](assets/select-sheets-to-import-drop-down-with-unselected.png)
-
-   取消选择的工作表显示有灰色背景。
-
-1. （可选）单击列标题右侧的向下箭头，以执行以下操作之一：
-
-   * 重命名其中一个字段
-   * 更改&#x200B;**字段类型**
-   * 更新字段&#x200B;**描述**
-
-1. （视情况而定）更新字段相关信息后，单击&#x200B;**保存**。
-
-1. 准备导入文件时，请单击&#x200B;**导入**。
-
-   以下信息导入到Workfront Planning中：
-
-   * 新记录类型
-   * 与每个记录类型关联的新字段
-   * 与每个记录类型关联的新记录
-
-   您可以开始管理记录类型页面上的字段和记录。
-
-   有权访问Workfront Planning的每个人现在可以查看和编辑导入的记录类型及其信息。
