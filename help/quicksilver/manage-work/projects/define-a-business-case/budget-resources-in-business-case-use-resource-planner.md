@@ -5,9 +5,9 @@ description: 作为资源计划的一部分，您可以在构建业务案例时�
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
+source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -108,11 +108,11 @@ ht-degree: 0%
 
    * 在&#x200B;**中选择资源规划者选择要用于计算项目预算劳力成本的小时数**&#x200B;字段，然后单击&#x200B;**选择>编辑资源预算**。
 
-     ![](assets/business-case-rp-selected-with-choose-button-350x120.png)
+     资源规划者中的![业务案例](assets/business-case-rp-selected-with-choose-button-350x120.png)
 
    * 如果为项目选择了方案规划者来预算资源，请单击&#x200B;**更改** > **编辑资源预算**。
 
-     ![](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)
+     Scenario Planner中的![业务案例](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)
 
    它使用项目的预算小时数来计算项目的预算劳力成本。
 

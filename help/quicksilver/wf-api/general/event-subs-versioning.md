@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: 3e082ddde7cb84fb8bf3b5a23c363fd3b4cfe3d2
+source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1192'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,9 @@ Workfront提供两个版本的活动订阅。 本文介绍了它们之间的区�
 
 升级或降级事件订阅的功能确保在对事件结构做出更改时，现有订阅不会中断，从而允许您测试和升级到新版本，而不会在事件订阅中出现间隙。
 
+
+将事件订阅升级或降级到另一个版本时，您在版本更改后的五分钟内，会收到每个事件交付的重复事件。 重复项包括事件订阅版本1和版本2中的一个。 这可确保不会因更改事件订阅版本而错过任何事件。
+
 有关用于升级或降级事件订阅的端点的信息，请参阅事件订阅API一文中的[事件订阅版本控制](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning)。
 
 >[!IMPORTANT]
@@ -30,6 +33,7 @@ Workfront提供两个版本的活动订阅。 本文介绍了它们之间的区�
 >
 >* **25.2版本**（2025年4月10日）：在25.2版本之后创建的所有新订阅都创建为版本2。
 >* **25.3版本**（2025年7月17日）：在25.3版本发布后，订阅无法再降级为版本1。
+>* **2025年9月1日**：所有剩余版本1订阅迁移到版本2。
 
 ## 版本1与版本2之间的更改
 

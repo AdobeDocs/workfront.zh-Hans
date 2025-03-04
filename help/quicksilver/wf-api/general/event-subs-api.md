@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 193a1ecafb5dd919a2fa760ce5ab2a9903881900
+source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
 workflow-type: tm+mt
-source-wordcount: '2362'
+source-wordcount: '2407'
 ht-degree: 3%
 
 ---
@@ -350,6 +350,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
     "id": "750a636c-5628-48f5-ba26-26b7ce537ac2",
     "date_created": "2024-04-11T17:10:10.305981",
     "date_modified": "2024-04-11T17:10:10.305981",
+    "version": "v2",
+    "dateVersionUpdated": "2025-01-15T04:04:04.407945"
     "customerId": "504f9640000013401be513579fbebffa",
     "objId": null,
     "objCode": "PROJ",
@@ -422,6 +424,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
     "id": "750a636c-5628-48f5-ba26-26b7ce537ac2",
     "date_created": "2024-04-11T17:10:10.305981",
     "date_modified": "2024-04-11T17:10:10.305981",
+    "version": "v2",
+    "dateVersionUpdated": "2025-01-15T04:04:04.407945"
     "customerId": "504f9640000013401be513579fbebffa",
     "objId": null,
     "objCode": "PROJ",
@@ -449,6 +453,10 @@ Workfront提供两个版本的活动订阅。
 有关事件订阅版本控制的详细信息，包括版本和重要日期之间的具体差异，请参阅[事件订阅版本控制](/help/quicksilver/wf-api/general/event-subs-versioning.md)。
 
 ### 单个订阅版本更改
+
+>[!NOTE]
+>
+>将事件订阅升级或降级到另一个版本时，您在版本更改后的五分钟内，会收到每个事件交付的重复事件。 重复项包括事件订阅版本1和版本2中的一个。 这可确保不会因更改事件订阅版本而错过任何事件。
 
 更改单个订阅的版本的请求语法为：
 
