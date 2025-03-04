@@ -6,9 +6,9 @@ description: 智能文件夹用于管理项目、任务或问题之外的文档�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 62dfc6b9-72a4-4dd5-acd7-42269cd99b1b
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 3695c5bb566434d70907bfecf775ccd12b9208f4
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -70,9 +70,6 @@ ht-degree: 0%
 1. 转到包含要编辑的智能文件夹的&#x200B;**文档**&#x200B;区域。
 1. 在&#x200B;**文件夹**&#x200B;列中，单击要编辑的智能文件夹旁边的&#x200B;**更多**&#x200B;图标![更多菜单](assets/more-icon.png)。
 1. 单击&#x200B;**编辑**。
-
-   将显示&#x200B;**编辑智能文件夹**&#x200B;对话框。\
-   ![编辑智能文件夹](assets/screen-shot-2013-08-14-at-8.42.04-am-350x167.png)
 
 1. 进行更改，然后单击&#x200B;**保存文件夹**。
 

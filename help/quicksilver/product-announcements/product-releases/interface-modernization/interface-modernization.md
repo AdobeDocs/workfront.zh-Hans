@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 2d38448bf7da12b8f896d444d560f746e0e9798f
+source-git-commit: 3695c5bb566434d70907bfecf775ccd12b9208f4
 workflow-type: tm+mt
-source-wordcount: '1526'
+source-wordcount: '1586'
 ht-degree: 0%
 
 ---
@@ -200,6 +200,14 @@ ht-degree: 0%
 我们更新了文档上的批准区域，更新后的设计更加现代化，与Workfront的其他区域一致。
 
 要查看此更改，请转到文档>单击文档详细信息>审批。
+
+### “智能文件夹编辑”对话框的界面更新
+
+**预览版本： 2025年1月27日；生产版本：从2025年2月3日开始的一周开始**
+
+我们使用与Workfront其他区域一致的更现代的设计更新了“智能文件夹”编辑对话框。
+
+要查看此更改，请转到文档>单击智能过滤器名称旁边的更多菜单>单击编辑。
 
 ## 报告和仪表板
 
