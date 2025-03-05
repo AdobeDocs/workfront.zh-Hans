@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '7392'
+source-wordcount: '7388'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您的组织必须登记到AdobeUnified Experience，用户才能通过权限请求向视图或工作区请求和授予权限。
+>您的组织必须载入到Adobe Unified Experience，用户才能通过权限请求向视图或工作区请求和授予权限。
 
 
 有关信息，请参阅[请求对视图或工作区的权限](/help/quicksilver/planning/access/request-permissions.md)。
@@ -135,7 +135,7 @@ ht-degree: 0%
 * 根据配置方式，请求表单可能会显示记录类型的所有字段，但以下类型的字段除外：
 
    * 人员
-   * 连接的字段(包括与Experience Manager资源的连接)
+   * 连接的字段(包括与Experience Manager Assets的连接)
    * 连接的查找字段
    * 公式
 
@@ -268,7 +268,7 @@ ht-degree: 0%
 
 * Workfront Planning记录
 * 没有模板的Workfront项目
-* WorkfrontPortfolio
+* Workfront项目组合
 
 将其他连接的Workfront对象或Experience Manager资源连接到记录时，您无法创建这些对象。
 
@@ -563,7 +563,7 @@ AI Assistant当前处于测试阶段，可供某些客户使用。 请联系您�
 
 预览：待定
 
-我们已经更改了哪些类型的用户可以完全访问工作区。 现在，只有Standard或Plan许可的用户可以拥有工作区的“管理”权限。 记录类型、记录和字段的访问权限从工作区继承。 所有其他用户仅具有对工作区及其对象类型的查看访问权限。 在此更新之前，轻量级和工作级许可的用户可以接收工作区的Contribute权限。
+我们已经更改了哪些类型的用户可以完全访问工作区。 现在，只有Standard或Plan许可的用户可以拥有工作区的“管理”权限。 记录类型、记录和字段的访问权限从工作区继承。 所有其他用户仅具有对工作区及其对象类型的查看访问权限。 在此更新之前，轻量级和工作级许可的用户可以接收对工作区的Contribute权限。
 
 有关详细信息，请参阅使用Adobe Workfront Planning时的[许可证类型概述](/help/quicksilver/planning/access/license-type-overview.md)。
 
@@ -715,7 +715,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 * 打开详细信息预览框或页面，以查看有关连接的记录的更多信息
 
-有关信息，请参阅Adobe Workfront对象的“规划”部分中的[管理记录](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
+有关信息，请参阅[管理来自Workfront对象的记录连接](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
 
 ## 2024年5月13日起一周
 
@@ -800,7 +800,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 预览：待定
 
-如果您是Adobe统一体验客户，并且某人将您添加到记录页面上的评论中，您会收到一个应用程序内通知和一个关于该评论的电子邮件通知。 您可以在Adobe Experience Cloud配置文件的首选项区域中管理通知首选项。 有关详细信息，请参阅[帐户首选项和通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences)。
+如果您是Adobe Unified Experience客户，并且某人将您添加到记录页面上的评论中，则您会收到一个应用程序内通知和一个关于该评论的电子邮件通知。 您可以在Adobe Experience Cloud配置文件的首选项区域中管理通知首选项。 有关详细信息，请参阅[帐户首选项和通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences)。
 
 有关Workfront计划通知的更多信息，请参阅[Adobe Workfront计划通知：文章索引](/help/quicksilver/planning/notifications/notifications-information.md)。
 
@@ -1101,7 +1101,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 * 拥有计划许可证（或新许可证模型中的标准许可证）的用户可以创建和管理工作区、记录类型和记录。
 
-* 拥有工作许可证（或新许可证模型中的光源）的用户可以查看和贡献与其共享的工作区，以及该工作区的记录类型和记录。  工作（或轻量）许可证用户还可以在具有Contribute访问权限的工作区中创建、编辑和删除记录。
+* 拥有工作许可证（或新许可证模型中的光源）的用户可以查看和贡献与其共享的工作区，以及该工作区的记录类型和记录。  工作（或轻度）许可证用户还可以在具有Contribute访问权限的工作区中创建、编辑和删除记录。
 
 * 具有“审阅”或“请求者”许可证（在新许可证模型中为“参与者”）的用户只能查看与其共享的工作区，以及这些工作区的记录类型和记录。 他们无法创建、编辑或删除记录类型或记录。
 
@@ -1237,7 +1237,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 * 查看：用户可以查看与其共享的工作区。 他们还可以从共享工作区查看记录类型和记录。
 
-* Contribute：用户可以在与其共享的工作区中创建、编辑或删除记录。  他们无法创建或编辑与其共享的记录类型或工作区。
+* 参与：用户可以在与其共享的工作区中创建、编辑或删除记录。  他们无法创建或编辑与其共享的记录类型或工作区。
 
 * 管理：用户可以创建、编辑和删除工作区、记录类型、记录以及与其共享的工作区中的字段。
 
@@ -1246,7 +1246,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 * 视图：用户可以从记录类型页面的“视图”下拉菜单中选择视图。
 * 管理：用户可以编辑、共享和删除视图。
 
-有关详细信息，请参阅[Adobe计划访问概述](/help/quicksilver/planning/access/access-overview.md)和[Adobe Workfront计划功能中权限共享概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
+有关详细信息，请参阅[Adobe Planning访问概述](/help/quicksilver/planning/access/access-overview.md)和[Adobe Workfront Planning功能中权限共享概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 
 ### 新建公式字段类型
 

@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: f6484489f4726b606cc9840beed77ec8ab48a518
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '364'
+ht-degree: 1%
 
 ---
 
@@ -44,7 +44,7 @@ Adobe Workfront Planning对实例中可创建的对象数量存在限制。 设�
 | 发出API请求的速率 | 每分钟200个请求 |
 | 一个用户可以为一个记录类型创建的视图数 | 100 |
 | 可导入以创建记录类型的Excel文件的CSV大小 | 5MB |
-| 在CSV或Excel文件中可导入以创建记录类型的行数 | 10,000 |
+| 在CSV或Excel文件中可导入以创建记录类型的行数 | 25,000 |
 | 在CSV或Excel文件中可导入以创建记录类型的列数 | 500 |
 
 *我们建议不要拥有太多工作区，因为它们可能会变得难以管理，并且您的工作流可能过于分散。

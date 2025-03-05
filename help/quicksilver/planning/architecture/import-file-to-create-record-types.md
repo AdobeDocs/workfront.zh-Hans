@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
+exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 1%
 
 ---
-
 
 # 通过从CSV或Excel文件导入信息创建记录类型
 
@@ -101,7 +101,7 @@ ht-degree: 1%
 * 字段对于其各自的记录类型是唯一的。
 * 每个工作表中的每一行都成为与其各自记录类型相关联的唯一记录。
 * Excel文件的每一页不应超过以下内容：
-   * 10,000行
+   * 25,000行
    * 500列
 * 文件不应大于5MB。
 * 不支持空工作表。

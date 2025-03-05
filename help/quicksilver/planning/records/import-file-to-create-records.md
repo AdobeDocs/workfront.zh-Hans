@@ -3,13 +3,13 @@ title: 通过从CSV或Excel文件导入信息创建记录
 description: 记录是记录类型的单个实例，记录类型是Adobe Workfront Planning的对象类型。 在Workfront Planning中，您可以通过从CSV或Excel文件导入信息来创建记录。
 hide: true
 hidefromtoc: true
-source-git-commit: 9f17fcab210768923e866d2f1596f40ddf8a558e
+exl-id: 940945df-391c-4672-9d9d-180d5028509b
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 1%
+source-wordcount: '985'
+ht-degree: 0%
 
 ---
-
 
 <!-- add the following in the metadata when live:
 
@@ -82,12 +82,12 @@ recommendations: noDisplay, noCatalog-->
   <tr> 
    <td role="rowheader"><p>访问级别配置</p></td> 
    <td> <p>Adobe Workfront Planning没有访问级别控制</p> 
-   <p>在将记录连接到要创建的对象类型（项目和项目组合）时，在Workfront中编辑对这些对象的访问权限。 </p>  
+   <p>在将记录连接到要创建的对象类型（项目、项目和项目组合）时，在Workfront中编辑对这些对象的访问权限。 </p>  
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
-   <td> <p>管理要向其中添加记录的工作区的权限。 </p>  
+   <td> <p>为要向其添加记录的工作区提供或更高权限。 </p>  
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>
    <p>管理Workfront对象（项目组合）的权限以添加子对象（项目）。</p>
    </td> 
@@ -103,23 +103,23 @@ recommendations: noDisplay, noCatalog-->
 
 +++
 
-## 关于使用Excel或CSV文件导入记录类型的注意事项
+## 关于使用Excel或CSV文件导入记录的注意事项
 
 * 每个工作表中的列标题将成为与记录关联的字段。
 * 每个工作表中的每一行都成为关联的唯一记录。
 * 如果Excel文件包含多个工作表，则只导入导入导入过程中所选择的一个工作表中的信息。
 * 文件不应超过以下内容：
-   * 10,000行
+   * 25,000行
    * 500列
 * 文件不应大于5MB。
 * 不支持空工作表。
 * 以下类型的字段不受支持，无法映射到导入工作表中的字段：
-   * 已连接记录或已连接Workfront对象的查找字段
+   * 已连接记录的连接和查找字段<!--or connected Workfront objects-->
    * 公式字段
    * 创建日期，创建者
    * 上次修改日期，上次修改人
    * 人员
-* 如果导入了多选或单选字段，并且该字段与Planning中的类似字段相比，具有更多选项，则在导入期间会创建附加选项。
+   * 如果导入了多选或单选字段，并且该字段与Planning中的类似字段相比，具有更多选项，则在导入期间会创建附加选项。 只有对工作区具有“管理”权限的用户才能导入新选项。
 
 ## 通过导入CSV或Excel文件创建记录
 
@@ -144,11 +144,16 @@ recommendations: noDisplay, noCatalog-->
 
    每一行表示一个新记录。 只有前10条记录会显示在“预览和编辑”框中。
 
-1. （可选）选择屏幕左下角的&#x200B;**创建缺少的选项**。 启用后，将添加缺少的单选和多选字段选项。
+1. （可选且有条件）如果您具有工作区的管理权限，请选择屏幕左下角的&#x200B;**创建缺少的选项**。 启用后，将添加缺少的单选和多选字段选项。
 
-   例如，如果选定的记录类型具有单选的“状态”字段，其中包含“新建”、“进行中”和“已关闭”选项，并且从文件导入的“状态”字段也具有“暂挂状态”选项，则还会添加“暂挂”状态选项
+>[!NOTE]
+>
+>例如，如果选定的记录类型具有单选的“状态”字段，该字段具有选项“新建”、“进行中”和“已关闭”，并且从文件导入的“状态”字段也具有“暂挂状态”选项，则还会添加“暂挂”状态选项。
+>
+>如果您没有工作区的管理权限，则可以导入记录，但不会创建其他选项。 而是在“将Planning字段映射到列标题”框的右上角收到以下消息： **将不添加连接、单选或多选字段中不存在的选项**。
 
-   <!--when we add connected records and the info icon in the tool changes, also add those items to this step-->
+
+    &lt;！ — 当我们添加连接的记录并且工具更改中的信息图标时，也将这些项目添加到此步骤 — >
 
 1. 单击&#x200B;**导入**。
 

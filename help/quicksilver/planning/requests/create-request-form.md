@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '1869'
+source-wordcount: '1865'
 ht-degree: 1%
 
 ---
@@ -144,7 +144,7 @@ ht-degree: 1%
    * 人员字段值显示为ID。
    * 未引用其他字段或计算的公式字段不显示任何值。 例如，公式为`STRING`的字段显示“N/A”值。
    * 引用币种字段的公式字段显示值，不考虑汇率。
-   * 包含特殊格式设置的段落字段的值在请求表单上显示“不适用”值，并在请求详细信息页面中显示html标记而不是带格式的文本。
+   * “段落”字段的值在请求表单上显示“不适用”值，并且在请求详细信息页面中显示html标记而不是带格式的文本。
 
 </div>
 
