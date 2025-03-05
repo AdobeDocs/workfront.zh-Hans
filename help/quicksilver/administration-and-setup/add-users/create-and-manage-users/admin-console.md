@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
+source-git-commit: 47aa463406c2807a375297f296b3e81eca1285bb
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1533'
 ht-degree: 0%
 
 ---
@@ -223,10 +223,18 @@ Adobe管理员可以使用Adobe Admin Console创建Adobe Workfront系统管理�
    被拒绝的用户会自动从Workfront中删除。
 
 
+## 在Adobe Admin Console中编辑现有用户
 
+您可以在Adobe Admin Console中编辑以下用户详细信息：
 
+* 用户组以及与用户关联的产品
+* 管理权限
+* 国家/地区
 
+有关在Adobe Admin Console中编辑单个用户的信息，请参阅Adobe文档中的单独管理用户一文中的[编辑用户详细信息](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#edit-user-details)。
 
+有关在Adobe Admin Console中批量编辑用户的信息，请参阅
+在Adobe的“管理多个用户”一文中，[编辑用户详细信息](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html#edit-user-details)。
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>&nbsp;</p>

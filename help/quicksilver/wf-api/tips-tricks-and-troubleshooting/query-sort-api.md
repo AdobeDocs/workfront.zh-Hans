@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: f001adb8-6295-4646-b9f1-78244a8c44a6
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 5936982217adc6cfcaf9e400bfff67a1496d3a78
 workflow-type: tm+mt
 source-wordcount: '60'
 ht-degree: 0%
@@ -23,6 +23,10 @@ ht-degree: 0%
 &entryDate_Sort=asc
 ```
 
-例如，如果要按任务计划开始日期排序，请删除`entryDate`并将其替换为`plannedCompletionDate`。
+例如，如果要按任务计划完成日期排序，请删除`entryDate`并将其替换为`plannedCompletionDate`。
+
+```
+&plannedCompletionDate_Sort=asc
+```
 
 这适用于Adobe Workfront中的大多数字段。
