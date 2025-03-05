@@ -7,9 +7,9 @@ description: 您可以使用工作负载均衡器来计划工作的资源，或�
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
+source-git-commit: 496420d1c74b7c29d0fb2ff7109ea8478680d117
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '724'
 ht-degree: 1%
 
 ---
@@ -97,6 +97,8 @@ ht-degree: 1%
      在“已分配的工作”区域显示用户时，我们建议使用过滤器。 有关详细信息，请参阅工作负载均衡器](../workload-balancer/filter-information-workload-balancer.md)中的[过滤器信息。
 
 ### 访问团队的工作负载均衡器
+
+有关Workfront中团队的更多信息，请参阅[团队概述](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/teams-overview.md)。
 
 {{step1-to-team}}
 
