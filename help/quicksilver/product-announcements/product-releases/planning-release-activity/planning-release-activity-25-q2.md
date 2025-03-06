@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: 22a293cf4ded2c24c58f3948c1e7b41fa1055e3f
+source-git-commit: b03ac1037e03a70c7e685f5e6e53ce86755868c7
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1660'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,29 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 将已连接记录的查找字段添加到Workfront自定义表单中的Planning连接字段
+
+>[!NOTE]
+>
+>预览：2025年3月6日；快速发布生产：2025年3月13日；面向所有客户的生产：2025年4月10日
+
+为了从Workfront对象轻松访问连接记录中的所有信息，我们已将连接记录的查找字段添加到Workfront中的Planning连接字段。
+
+在Planning连接自定义字段中，您最多可以为连接到Workfront对象的记录添加七个查找字段。 作为此改进的一部分，您现在可以在Workfront对象的自定义表单中，以易于阅读的表格式显示连接的记录及其字段。
+
+有关信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+
+## 使用CSV或Excel文件导入记录
+
+>[!NOTE]
+>
+>预览版本： 2025年3月6日；面向所有客户的生产： 2025年4月10日
+
+您现在可以从记录类型的页面中使用CSV或Excel电子表格导入记录。
+在此增强功能之前，您只能在创建记录类型时导入记录。 通过此更新，您可以将记录导入现有记录类型。
+
+有关信息，请参阅[通过从CSV或Excel文件导入信息创建记录](/help/quicksilver/planning/records/import-file-to-create-records.md)。
 
 ## 在浏览器选项卡名称中显示Workfront Planning请求的详细信息页的记录名称
 

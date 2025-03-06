@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
+source-git-commit: 7dba8033919f015bed4d9e1f8c7581c94f9fff4c
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,29 @@ Workfront版本编号代表了每月和每季度的版本跟踪。 第一个数�
 </tbody>
 </table>
 
+### 文档管理增强功能
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            在文档报告中一次编辑多个文档 </a></p>
+            <p>您现在可以在文档报告中一次编辑多个文档。 您可以编辑说明并更新自定义表单。</p>
+        </td>
+        <td>
+            <p><b>在以下日期可用：</b></p>
+            <ul>
+                <li>预览版本： 2025年2月6日</li>
+                <li><span class="preview">适用于所有客户的生产版本： 2025年3月13日</span></li>
+            </ul>
+        </td>
+    </tr>                          
+</tbody>
+</table>
+
 ### 项目增强功能
 
 <table>
@@ -94,6 +117,20 @@ Workfront版本编号代表了每月和每季度的版本跟踪。 第一个数�
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            升级到具有版本升级端点的新事件订阅版本</a></p>
+            [！BADGE In Production ]{type=Informational}
+            <p>Workfront现在提供各个版本的事件订阅。 新版本不是对Workfront API的更改，而是对事件订阅功能的更改。 您可以将事件订阅切换到新版本，而不会在事件订阅中创建间隙</p>
+        </td>
+        <td>
+            <p><b>在以下日期可用：</b></p>
+            <ul>
+                <li><span class="preview">适用于所有客户的生产版本：2025年3月6日</span></li>
+            </ul>
+        </td>
+    </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
