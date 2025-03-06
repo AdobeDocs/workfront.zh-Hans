@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 4072e71dc0ba76871e17da7718ed4b77a3cdbda6
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,6 @@ ht-degree: 0%
 # 创建高级工作
 
 <!-- Audited: 07/2024-->
-
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
-
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
-<span class="preview">有关当前版本的信息，请参阅[2024年第四季度版本概述](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)。</span>
 
 您可以使用“高级工作”管理任务或问题工作。
 
@@ -72,7 +66,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>Contribute或任务或问题的更高权限</p>  </td> 
+   <td> <p>为任务或问题提供或更高权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,7 +96,7 @@ ht-degree: 0%
 
    <span class="preview">![单击高级](assets/assignments-box-in-task-header.png)</span>
 
-1. 在&#x200B;**搜索人员、角色和团队**&#x200B;字段中，开始键入用户、角色或团队的名称，然后在名称出现在下拉列表中时单击该名称。
+1. 在&#x200B;**搜索人员、角色和团队**&#x200B;字段中，开始键入用户、角色或团队的名称，然后在该名称出现在下拉列表中时单击该名称。
 
    >[!NOTE]
    >
@@ -140,10 +134,6 @@ ht-degree: 0%
      >根据您的Workfront管理员或组管理员如何设置项目首选项，当您有多个用户分配到任务时，Workfront可能会使用任务所有者的时间表计算任务的时间表。 有关多个任务被分配人的信息，请参阅文章[分配任务](../../../manage-work/tasks/assign-tasks/assign-tasks.md)中的“将多个用户分配给任务”部分。
 
    * **分派工作** ：当任务的工期类型为简单时，指定每个用户或工作角色应分配给任务的小时数。 每个用户的所有已分配小时数的总和等于“分配”列底部&#x200B;**已计划小时数**&#x200B;字段中的数字。 在所有其它情况下，指定您希望被分派人解决任务或问题所花费的时间（或分配）百分比。
-
-     <!--   
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: make sure this is right in the new UI for both classic and QS???)</p>   
-     -->
 
      >[!TIP]
      >   
