@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
-source-wordcount: '1858'
+source-wordcount: '1846'
 ht-degree: 0%
 
 ---
@@ -32,8 +32,7 @@ ht-degree: 0%
 * [从表视图复制记录](#create-records-by-duplicating-them)
 * [在连接其他记录时创建记录](#create-records-as-you-connect-them)
 * [通过向记录类型提交请求表单来创建记录](#create-records-by-submitting-a-request-form-to-a-record-type)
-* [从CSV或Excel文件导入记录类型时创建记录](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
-* <Span class="preview">[通过从CSV或Excel文件导入信息创建记录](/help/quicksilver/planning/records/import-file-to-create-records.md)</span>
+* <span class="preview">[通过从CSV或Excel文件导入信息创建记录](#create-records-by-importing-records-from-a-csv-or-excel-file)</span>
 * <span class="preview">[使用自动创建记录](#create-records-by-using-automations)</span>
 
 有关管理表或时间线视图中的记录的信息，请参阅以下文章：
@@ -305,7 +304,7 @@ Workfront用户和组织外部的用户均可向Planning记录类型提交请求
 
 <div class="preview">
 
-## 从CSV或Excel文件导入记录时创建记录
+## 通过从CSV或Excel文件导入记录来创建记录
 
 从CSV或Excel文件导入信息时，您可以导入现有记录类型的记录。
 

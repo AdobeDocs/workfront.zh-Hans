@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1800'
 ht-degree: 1%
 
 ---
@@ -207,7 +207,7 @@ ht-degree: 1%
 * 将Planning记录连接到Workfront对象后，Planning连接字段将以下列方式显示在Workfront对象的自定义表单中：
 
    * 如果仅选择所连接记录的主字段，且连接允许链接多个记录，则Planning连接字段将显示为具有多个值的字段。 有关信息，请参阅[连接记录类型概述](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
-   * <span class="preview">如果从连接的记录中选择了任何其他查找字段，则Planning连接字段将显示为表格。 最多可以为Planning连接字段选择7个字段。 表格视图是只读的。 </span>
+   * <span class="preview">如果Workfront或组管理员从自定义表单上的连接记录中添加了其他查找字段，则Planning连接字段将显示为表格。 最多可以为Planning连接字段选择7个字段。 表格视图是只读的。 </span>
 
 * 您只能将一个记录类型与一个Planning连接字段相关联。 表单中的Planning连接字段数量没有限制。
 * 您必须对对象、记录和Workfront Planning具有正确的访问和权限，才能将带有Planning连接自定义字段的自定义表单附加到Workfront对象。

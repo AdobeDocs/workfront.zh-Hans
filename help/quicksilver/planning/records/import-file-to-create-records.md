@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 0%
@@ -148,9 +148,6 @@ ht-degree: 0%
    >
    >如果您没有工作区的管理权限，则可以导入记录，但不会创建其他选项。 而是在“将Planning字段映射到列标题”框的右上角收到以下消息： **将不添加连接、单选或多选字段中不存在的选项**。
 
-
-   <!--when we add connected records and the info icon in the tool changes, also add those items to this step and to the NOTE-->
-
 1. 单击&#x200B;**导入**。
 
    以下信息导入到Workfront Planning中：
@@ -162,3 +159,5 @@ ht-degree: 0%
    您可以在记录类型页面中开始管理字段和记录。
 
    有权访问Workfront Planning和工作区的每个人都现在可以查看和编辑导入的记录及其信息。
+
+   <!--when we add connected records and the info icon in the tool changes, also add those items to the Import step and to the NOTE above it-->
