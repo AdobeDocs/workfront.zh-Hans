@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0639cb37-212c-46d5-bfe0-b524efc085d3
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: f9ebf647c7672a9d471288806cf596d103007613
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,7 @@ ht-degree: 0%
 
 您现在可以一次编辑多个文档。 您可以编辑说明并更新自定义表单。
 
-<!--For more information, see [Edit documents in bulk](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md).-->
-
->[!IMPORTANT]
->
->下面列出的功能属于分阶段发布，仅适用于特定客户。
+有关详细信息，请参阅[批量编辑文档](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)。
 
 ## 可用于文档版本审批的新提取状态
 
