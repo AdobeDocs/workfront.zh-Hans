@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '1811'
+source-wordcount: '1818'
 ht-degree: 2%
 
 ---
@@ -277,9 +277,9 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
      ![](assets/new-connection-tab-with-workfront-aem-options.png)
 
 
-  在记录类型之间建立连接后，可以将这些类型的单个记录彼此连接。 记录之间的连接显示为链接记录字段。
+  在记录类型之间建立连接后，可以将这些类型的单个记录或对象彼此连接。 记录之间的连接显示为已连接的记录字段或连接。
 
-* **链接的字段**（或查找字段）：在两个记录类型之间建立连接并将单个记录链接在一起后，可以在要连接的记录上引用链接的记录的字段。
+* **查找字段**（或链接字段）：在两个记录类型之间建立连接并将单个记录连接在一起后，可以从要连接的记录中引用已连接记录的字段。
 
   例如，如果将Campaign记录类型与Workfront Project对象类型连接，则可以在营销活动记录中显示已连接项目的“预算”字段。
 

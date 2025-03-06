@@ -8,21 +8,19 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '6493'
+source-wordcount: '6615'
 ht-degree: 5%
 
 ---
 
 # 创建自定义表单
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
--->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 您可以使用Adobe Workfront中的表单设计器设计自定义表单。 您可以将自定义表单附加到不同的Workfront对象，以捕获有关这些对象的数据。
 
@@ -1009,19 +1007,14 @@ The Workfront Mobile app -->
       <td role="rowheader">连接字段</td> 
       <td><p>（必需）选择要在Workfront对象上显示的选定Planning记录类型与Workfront对象类型之间的连接字段。 </p> <p> <b>注释</b></p><p>同一对象和记录类型之间可以有多个连接字段，但只能选择一个字段。</p>  </td> 
      </tr>
-    </tbody> 
+
+<tr> 
+      <td role="rowheader"><span class="preview">记录类型字段</span></td> 
+      <td><p><span class="preview">（可选）从连接的记录类型中选择最多7个查找字段以在自定义表单中显示。 默认情况下，主字段处于选中状态，无法编辑。 </span></p> <span class="preview"><p> 您选择的已连接记录的字段显示在自定义表单的表视图中。 将表单附加到Workfront对象时，表格视图为只读。 </span></p>  
+    <img src="assets/planning-connections-field-with-table-on-form-preview.png"></td> 
+     </tr>
+      </tbody> 
    </table>
-
-
-   <!--
-
-    Add this to the table - one more row at the bottom at release time: 
-
-    <span class="preview">Record type fields</span>
-      
-    <p><span class="preview">(Optional) Select up to 7 lookup fields from the connected record type to display in the custom form. The primary field is selected by default and cannot be edited. </span></p> <span class="preview"><p> The connected record's fields that you select display in the table view on the custom form. The records that will later display on the selected Workfront objects' custom form will not be editable in the table view of the custom form.</span></p>  
-    <img src="assets/planning-connections-field-with-table-on-form-preview.png">
-    -->
 
 1. （可选）重复上述步骤以添加任何其他字段。
 

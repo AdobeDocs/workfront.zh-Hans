@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '757'
 ht-degree: 1%
 
 ---
@@ -158,4 +158,4 @@ ht-degree: 1%
 
    您可以开始管理记录类型页面上的字段和记录。
 
-   有权访问Workfront Planning的每个人现在可以查看和编辑导入的记录类型及其信息。
+   有权访问Workfront Planning和工作区的每个人都现在可以查看和编辑导入的记录类型及其信息。

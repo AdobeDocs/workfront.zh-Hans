@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '1804'
+source-wordcount: '1858'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 * [在连接其他记录时创建记录](#create-records-as-you-connect-them)
 * [通过向记录类型提交请求表单来创建记录](#create-records-by-submitting-a-request-form-to-a-record-type)
 * [从CSV或Excel文件导入记录类型时创建记录](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
-<!--* <Span class="preview">[Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md)</span> -->
+* <Span class="preview">[通过从CSV或Excel文件导入信息创建记录](/help/quicksilver/planning/records/import-file-to-create-records.md)</span>
 * <span class="preview">[使用自动创建记录](#create-records-by-using-automations)</span>
 
 有关管理表或时间线视图中的记录的信息，请参阅以下文章：
@@ -271,8 +271,6 @@ You can import records from other applications by linking them to existing recor
    或
 开始键入名称，然后单击**+添加**。 **+ Add**&#x200B;按钮后跟您连接到的记录类型的名称。 例如，将品牌添加到现有营销活动时，“添加品牌”。 您键入的名称还遵循“添加”按钮。
 
-   <!--remove the first part of the step above to say just Click Add when the button will be persistent, for preview and production-->
-
    ![添加按钮以在突出显示的上下文中创建记录](assets/add-button-to-create-records-in-context-highlighted.png)
 
    将创建记录并将其添加到连接的记录字段。
@@ -305,18 +303,15 @@ Workfront用户和组织外部的用户均可向Planning记录类型提交请求
 
 有关信息，请参阅[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)。
 
-<!--
 <div class="preview">
 
-## Create records when importing records from a CSV or Excel file
+## 从CSV或Excel文件导入记录时创建记录
 
-You can import records for existing record types when you import information from a CSV or Excel file. 
+从CSV或Excel文件导入信息时，您可以导入现有记录类型的记录。
 
-For information, see [Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md). 
+有关信息，请参阅[通过从CSV或Excel文件导入信息创建记录](/help/quicksilver/planning/records/import-file-to-create-records.md)。
 
-</div> 
-
--->
+</div>
 
 <div class="preview">
 

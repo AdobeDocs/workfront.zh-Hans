@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1793'
 ht-degree: 1%
 
 ---
@@ -18,22 +18,16 @@ ht-degree: 1%
 
 # 管理来自Workfront对象的记录连接
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
 您可以在Workfront中将与它们连接的对象的以下区域显示Workfront Planning记录：
 
 * Workfront对象的Planning部分：显示连接到对象的所有记录类型及其各自的连接记录。
-* Planning连接自定义字段：显示一个记录类型及其各自的连接记录。
-
-<!--replace the last sentence above with this: 
-
-Displays one record type, its respective connected records, <span class="preview">and up to 7 lookup fields of the connected records.</span>
-
--->
+* Planning连接自定义字段：显示一个记录类型、其各自的连接记录、<span class="preview">以及连接记录的最多7个查找字段。</span>
 
 ## 访问要求
 
@@ -210,12 +204,11 @@ Displays one record type, its respective connected records, <span class="preview
 
 当您从Workfront对象的Planning连接字段查看Workfront Planning记录时，请考虑以下事项：
 
-<!--
-* A Planning connection field displays in the following ways on a Workfront object's custom form, after Planning records are connected to the Workfront object:
+* 将Planning记录连接到Workfront对象后，Planning连接字段将以下列方式显示在Workfront对象的自定义表单中：
 
-   * If only the primary field of the connected record is selected, as a field with multiple values, if the connection allows for multiple records to be linked. For information, see [Connect record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
-   * <span class="preview">If any additional lookup fields from the connected record are selected, the Planning connection field displays as a table. Up to 7 fields can be selected for the Planning connection field. The table view is read-only.  </span>
--->
+   * 如果仅选择所连接记录的主字段，且连接允许链接多个记录，则Planning连接字段将显示为具有多个值的字段。 有关信息，请参阅[连接记录类型概述](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
+   * <span class="preview">如果从连接的记录中选择了任何其他查找字段，则Planning连接字段将显示为表格。 最多可以为Planning连接字段选择7个字段。 表格视图是只读的。 </span>
+
 * 您只能将一个记录类型与一个Planning连接字段相关联。 表单中的Planning连接字段数量没有限制。
 * 您必须对对象、记录和Workfront Planning具有正确的访问和权限，才能将带有Planning连接自定义字段的自定义表单附加到Workfront对象。
 * 您必须拥有Workfront中工作区的Contribute权限，才能从Workfront对象的Planning连接字段中连接或断开记录。
@@ -264,13 +257,13 @@ Displays one record type, its respective connected records, <span class="preview
    * 记录会立即连接到Workfront对象，并显示在Workfront对象的Planning连接字段和Planning部分中。
    * Workfront对象将添加到Workfront Planning记录的已连接字段中。
    * 连接到Planning记录的Workfront查找字段的值会在Workfront Planning中填充。
-   <!--* <span class="preview">If any record lookup fields were added when the custom form was set up, the record's lookup fields populate automatically in a table view. The table view in the Planning connection field is read-only</span>
-   
-      ![](assets/planning-connection-field-with-table-on-project-details-custom-form.png)-->
+   * <span class="preview">如果您的Workfront或组管理员在创建自定义表单时添加了记录查找字段，则记录的查找字段会自动填充到表视图中。 Planning连接字段中的表视图为只读</span>
 
-1. （可选）在Planning连接字段中单击记录<!--<span class="preview">or hover the name of the record in the table, then click the **Open record** icon ![Open record icon on Planning connection custom form](assets/open-record-icon-on-planning-connection-custom-form.png)</span>-->的名称，以在Workfront Planning中将其打开。
+     ![](assets/planning-connection-field-with-table-on-project-details-custom-form.png)
+
+1. （可选）单击Planning连接自定义表单中的记录名称<span class="preview">或将光标悬停在表中的记录名称上，然后在Planning连接字段中单击&#x200B;**打开记录**&#x200B;图标![打开记录图标](assets/open-record-icon-on-planning-connection-custom-form.png)</span>以在Workfront Planning中打开该记录。
 将打开Workfront Planning记录详细信息预览框。
-您可以查看或编辑有关记录的信息，或单击**在新标签中打开**&#x200B;图标![在新标签中打开记录](assets/open-details-in-a-new-tab-icon.png)以打开记录详细信息页面。
+1. 查看或编辑有关记录的信息，或单击&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开记录](assets/open-details-in-a-new-tab-icon.png)以打开记录详细信息页面。
 
 1. （可选）从Workfront中的自定义表单中，单击记录上的&#x200B;**删除**&#x200B;图标![](assets/remove-icon.png)以将其从Planning连接字段中删除，并将其与Workfront对象断开连接。
 Workfront对象与Planning记录断开连接，并且从Workfront中删除所有查找信息。
