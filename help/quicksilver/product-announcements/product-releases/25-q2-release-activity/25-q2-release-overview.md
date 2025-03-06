@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 7dba8033919f015bed4d9e1f8c7581c94f9fff4c
+source-git-commit: cbadf0a758369bf9835b5804a036fddbc37dbb51
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1079'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,7 @@ Workfront版本编号代表了每月和每季度的版本跟踪。 第一个数�
 ## Adobe Workfront增强功能
 
 * [管理员增强功能](#administrator-enhancements)
+* [文档管理增强功能](#document-management-enhancements)
 * [项目增强功能](#project-enhancements)
 * [其他增强功能](#other-enhancements)
 
