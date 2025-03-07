@@ -7,9 +7,9 @@ description: 在Workfront中，您可以创建与Experience Manager Assets或Ass
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: 84760d5fe301bd0a44879490fb030bd29821bd41
+source-git-commit: e9c6a01e80d34bc873c9a06ae0782dc65afb2445
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
   <tr>
    <td><strong>产品</strong>
    </td>
-   <td>您必须具有Experience Manager Assetsas a Cloud Service或Assets Essentials，并且您必须作为用户添加到产品中。
+   <td>您必须安装了Experience Manager Assets as a Cloud Service或Assets Essentials，并且您必须作为用户添加到产品中。
    </td>
   </tr>
   <tr>
@@ -68,14 +68,19 @@ ht-degree: 0%
 
 开始之前，
 
-* 您的Workfront管理员必须配置Experience Manager集成。 有关详细信息，请参阅[配置Experience Manager Assetsas a Cloud Service集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)或[配置Experience Manager Assets Essentials集成](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)。
+* 您的Workfront管理员必须配置Experience Manager集成。 有关详细信息，请参阅[配置Experience Manager Assets as a Cloud Service集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)或[配置Experience Manager Assets Essentials集成](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)。
 
 
 ## 创建链接文件夹
 
 会在Workfront管理员设置集成时指定的位置创建链接的文件夹。 每个集成只能有一个文件夹位置用于链接的文件夹。
 
-链接文件夹的名称会根据与其关联的Portfolio、项目群、项目自动创建，且无法更改。 如果项目未与Portfolio或项目群关联，则链接的文件夹将显示项目名称和创建日期。
+链接文件夹的名称会根据与其关联的Portfolio、项目群和项目自动创建，且无法更改。 如果项目未与Portfolio或项目群关联，则链接的文件夹将显示项目名称和创建日期。
+
+>[!NOTE]
+>
+>无法在链接的文件夹内创建新文档或验证版本。
+
 
 要创建链接文件夹，请执行以下操作：
 

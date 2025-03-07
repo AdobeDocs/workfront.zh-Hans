@@ -7,14 +7,19 @@ description: 外部测试计划可视化显示有多少项目（在应用的筛�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c64ed752-151a-40f7-ab18-684e2cd032bc
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '927'
 ht-degree: 4%
 
 ---
 
 # 在增强型分析中查看外部测试版计划可视化图表
+
+>[!IMPORTANT]
+>
+>增强型分析将于5月26日这一周从Workfront中删除。 Workfront Data Connect是一种新的替代解决方案，可用于复制您当前使用的任何Enhanced Analytics可视化图表。 <br>有关详细信息，请参阅[Enhanced Analytics弃用](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)指南。
+
 
 外部测试计划可视化显示有多少项目（在应用的筛选标准内）正在外部测试，这些项目在整个生命周期中发生了什么条件更改，以及这些项目与其计划的完成截止日期的符合程度。
 

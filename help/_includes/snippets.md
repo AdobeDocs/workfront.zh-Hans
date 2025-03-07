@@ -1,5 +1,5 @@
 ---
-source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
+source-git-commit: affff16630379333465c118734babf7a239af272
 workflow-type: tm+mt
 source-wordcount: '2648'
 ht-degree: 1%
@@ -94,7 +94,7 @@ ht-degree: 1%
 >
 >本页中介绍的过程仅适用于尚未载入Adobe Admin Console的组织。
 >
->如果贵组织已登记到Adobe Admin Console，请参阅[基于平台的管理差异(Adobe Workfront/Adobe业务平台)](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
+>如果贵组织已登记到Adobe Admin Console，请参阅[基于平台的管理差异(Adobe Workfront/Adobe Business Platform)](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
 ## 第1步 — 转至用户 {#step-1-to-users}
 
@@ -172,7 +172,7 @@ ht-degree: 1%
 您必须为您正在使用的 Adobe Creative Cloud 应用程序安装正确的插件：
 * 对于Photoshop，请参阅[安装适用于Photoshop的Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * 对于XD，请参阅[安装适用于XD的Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
-* 有关InDesign、Illustrator、Premiere Pro和After Effects的信息，请参阅[安装Adobe Workfront以进行设计和视频](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
+* 对于InDesign、Illustrator、Premiere Pro和After Effects，请参阅[安装Adobe Workfront以进行设计和视频](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
 
 ## CC应用程序列表 {#cc-app-list}
 
@@ -293,7 +293,7 @@ ht-degree: 1%
 >
 >* 新的Workfront包和许可证。 Workfront Planning不适用于旧版Workfront包或许可证。
 >* Workfront计划包。
->* 您组织的Workfront实例必须载入到AdobeUnified Experience。
+>* 您组织的Workfront实例必须载入到Adobe Unified Experience。
 >
 > 有关访问Workfront Planning的完整要求列表，请参阅[访问概述](/help/quicksilver/planning/access/access-overview.md)。
 > 
@@ -315,9 +315,9 @@ ht-degree: 1%
 
 <!-- Manage Work -->
 
-## 步骤1 — 转到Portfolio- {#step1-to-portfolios}
+## 步骤1 — 转到项目组合 —  {#step1-to-portfolios}
 
-1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL Portfolio]**。
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 项目组合]**。
 
 ## 步骤1 — 转到程序 —  {#step1-to-programs}
 
@@ -495,3 +495,5 @@ For each snippets, create a head 2 section and add an anchor, such as
 In any .md file, add {{classic-note}} where you want that shared snippet content to appear.
 
 -->
+
+

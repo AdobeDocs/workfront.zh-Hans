@@ -6,14 +6,19 @@ description: Adobe Workfront的“增强分析”区域中的过滤器可帮助�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '1486'
+source-wordcount: '1528'
 ht-degree: 0%
 
 ---
 
 # 在增强的分析中应用过滤器
+
+>[!IMPORTANT]
+>
+>增强型分析将于5月26日这一周从Workfront中删除。 Workfront Data Connect是一种新的替代解决方案，可用于复制您当前使用的任何Enhanced Analytics可视化图表。 <br>有关详细信息，请参阅[Enhanced Analytics弃用](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)指南。
+
 
 <!-- Audited: 12/2023 -->
 
@@ -52,7 +57,7 @@ Adobe Workfront的“增强分析”区域中的过滤器可帮助您将注意�
   </tr>
   <tr> 
    <td>访问级别配置</td> 
-   <td> <p>查看对项目的访问权限</p> <p>您还必须具有“任务”、“Portfolio”和“用户”的“查看”权限才能查看特定项目字段筛选器选项。</p> <p>注意：如果在“编辑访问级别”对话框的<strong>设置其他限制</strong>部分中选择了限制，在应用筛选器后，您可能无法看到筛选器或“增强分析”页面上的所有信息。</p> </td> 
+   <td> <p>查看对项目的访问权限</p> <p>您还必须具有“任务”、“项目组合”和“用户”的“查看”权限才能查看特定项目字段筛选选项。</p> <p>注意：如果在“编辑访问级别”对话框的<strong>设置其他限制</strong>部分中选择了限制，在应用筛选器后，您可能无法看到筛选器或“增强分析”页面上的所有信息。</p> </td> 
   </tr> 
   <tr> 
    <td> <p>对象权限 </p> </td> 

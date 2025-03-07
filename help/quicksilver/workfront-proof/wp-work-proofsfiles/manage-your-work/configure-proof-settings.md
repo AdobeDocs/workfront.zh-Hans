@@ -7,7 +7,7 @@ description: 您可以在验证中配置正在创建或编辑的验证。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ca379054-4737-4796-a812-f2ec38b437ba
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: 5635906462cf838c3ca162cb47b16f157e6a66f6
 workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 1%
@@ -113,11 +113,12 @@ ht-degree: 1%
 
 如果对验证启用了订阅，则以下字段将变为活动状态：
 
-* **[!UICONTROL 需要订阅者验证]** — 订阅者必须单击电子邮件中的链接才能访问验证\
+* **[!UICONTROL 订阅者角色]** — 这是将分配给所有订阅校对的审阅人的默认校对角色。
+* **[!UICONTROL 订阅者的电子邮件警报设置]** — 这是将分配给所有订阅校对的审阅人的默认电子邮件警报。
+* **[!UICONTROL 需要通过电子邮件链接访问校对]** — 订阅者必须单击电子邮件中的链接才能访问校对\
    选择此选项意味着订阅者将无法立即访问验证，但会通过电子邮件获得指向验证的链接。 订阅者验证的目的是确保用户输入的电子邮件地址正确无误。
 
-* **[!UICONTROL 新订阅者的默认角色]** — 这是将分配给订阅了验证的所有审阅人的默认验证角色。
-* **[!UICONTROL 新订阅者的默认电子邮件警报]** — 这是将分配给所有订阅了验证的审阅人的默认电子邮件警报。
+
 
 另请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md)中订阅验证
 

@@ -5,9 +5,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: e9c6a01e80d34bc873c9a06ae0782dc65afb2445
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '571'
 ht-degree: 1%
 
 ---
@@ -90,8 +90,6 @@ ht-degree: 1%
 
 1. （可选）如果要解锁电子邮件通知的配置，以便组管理员可以单独为其组配置该通知，请单击通知右侧的按钮![锁定切换](assets/lock-toggle-button.png)，将其切换到解锁位置![解锁切换](assets/unlock-toggle-button.png)。
 
-   >[!NOTE]
-   >
-   >此功能最初仅作为分阶段推广的一部分提供给群集4上的客户。 此后不久将可供其他集群使用。 本文将在出现这种情况时进行更新。
-
    有关详细信息，请参阅[解锁或锁定所有组的事件通知配置](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)。
+
+用户可以在其用户配置文件中自定义这些通知的频率。

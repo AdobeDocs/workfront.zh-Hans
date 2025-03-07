@@ -7,14 +7,19 @@ description: 增强型分析是Adobe Workfront中一款具有预建可视化图�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1246'
 ht-degree: 3%
 
 ---
 
 # 增强的分析概述
+
+>[!IMPORTANT]
+>
+>增强型分析将于5月26日这一周从Workfront中删除。 Workfront Data Connect是一种新的替代解决方案，可用于复制您当前使用的任何Enhanced Analytics可视化图表。 <br>有关详细信息，请参阅[Enhanced Analytics弃用](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)指南。
+
 
 增强型分析是Adobe Workfront中一款具有预建可视化图表的强大工具，允许您查看项目数据并识别计划和完成趋势。 对您项目的这种深入了解有助于您管理当前的工作，使您能够更准确地规划未来的工作。
 

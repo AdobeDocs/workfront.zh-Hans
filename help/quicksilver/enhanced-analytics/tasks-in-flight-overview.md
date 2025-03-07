@@ -7,14 +7,19 @@ description: 外部测试版中的任务可视化图表显示某个项目正在�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cc738450-362a-49e8-836f-611fa82057b5
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '791'
 ht-degree: 4%
 
 ---
 
 # 在Enhanced Analytics中查看外部测试版中的任务可视化图表
+
+>[!IMPORTANT]
+>
+>增强型分析将于5月26日这一周从Workfront中删除。 Workfront Data Connect是一种新的替代解决方案，可用于复制您当前使用的任何Enhanced Analytics可视化图表。 <br>有关详细信息，请参阅[Enhanced Analytics弃用](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)指南。
+
 
 外部测试版中的任务可视化图表显示某个项目正在执行的任务数（在应用的筛选标准内）、每个任务完成的百分比以及任务的进度如何。
 

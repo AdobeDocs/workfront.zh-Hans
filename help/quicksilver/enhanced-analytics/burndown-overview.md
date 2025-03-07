@@ -7,14 +7,19 @@ description: 燃尽可视化图表显示特定项目在一段时间内的燃尽�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e67c92d5-b309-406b-b6f0-4d414d0e7dcc
-source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
 
 # 在增强型分析中查看燃尽可视化图表
+
+>[!IMPORTANT]
+>
+>增强型分析将于5月26日这一周从Workfront中删除。 Workfront Data Connect是一种新的替代解决方案，可用于复制您当前使用的任何Enhanced Analytics可视化图表。 <br>有关详细信息，请参阅[Enhanced Analytics弃用](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)指南。
+
 
 <!-- Audited: 12/2023 -->
 
