@@ -12,7 +12,7 @@ exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
 source-git-commit: bb6240523f327080f19ac5a3546f6ed37356f34c
 workflow-type: tm+mt
 source-wordcount: '43'
-ht-degree: 0%
+ht-degree: 67%
 
 ---
 
@@ -23,6 +23,6 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="wf_document_approvals_ai_supported_files"
 >title="不支持的文件类型"
->abstract="此AI审阅者不支持所选的文件类型。 上载支持的文件类型，或删除AI审阅者以提交请求。"
+>abstract="此 AI 审核器不支持所选的文件类型。 上传支持的文件类型，或移除 AI 审核器以提交请求。"
 
 UI中的此链接
