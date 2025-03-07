@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: f9bf60fc39cc7cd26e242e7cc782ece060cc5471
+source-git-commit: 3e48bebde0171c13b4168d7eb5d693b07cb9e396
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 6%
@@ -221,3 +221,6 @@ ht-degree: 6%
 之后，如果您为用户禁用工作角色的管理访问权限，则用户仍可看到工作角色，因为编辑角色计费和成本费率设置仍处于启用状态。
 
 如果发生这种情况，并且您需要删除用户查看工作角色的访问权限，则需要禁用用户的“编辑角色计费和成本费率”权限设置。 有关说明，请参阅[授予对财务数据的访问权限](grant-access-financial.md)。
+
+
+
