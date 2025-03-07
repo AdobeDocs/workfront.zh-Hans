@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: cee44cb281dbbf5bfecd599e63b556208749ca6c
+source-git-commit: 1e372089de40c49cd99c0b0d95a614f6e6c4a997
 workflow-type: tm+mt
-source-wordcount: '13042'
+source-wordcount: '13061'
 ht-degree: 2%
 
 ---
@@ -1702,6 +1702,13 @@ ht-degree: 2%
       * [Workfront Data Connect数据字典](reports-and-dashboards/data-lake/data-dictionary.md)
       * [Workfront Data Connect查询示例](reports-and-dashboards/data-lake/basic-query-examples.md)
       * [查看Workfront Data Connect使用情况量度](reports-and-dashboards/data-lake/view-usage-metrics.md)
+      * [增强的Analytics查询]{#enhanced-analytics-queries}
+         * [增强的Analytics查询](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/enhanced-analytics-queries.md)
+         * [KPI查询](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
+         * [外部测试版计划查询](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
+         * [项目活动查询](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
+         * [项目树状图查询](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
+         * [人员查询](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/people-queries.md)
 * 管理资源 {#manage-resources}
    * [管理资源](resource-mgmt/manage-resources.md)
    * 资源管理 {#resource-management}
