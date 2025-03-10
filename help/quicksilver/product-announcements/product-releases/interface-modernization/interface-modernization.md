@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3695c5bb566434d70907bfecf775ccd12b9208f4
+source-git-commit: b4747df73cedfb512fb54f912a5370cbb3a4c6a7
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1589'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 我们更新了设置>组>审批中的项目、任务和问题审批列表，使其更加现代化，与Workfront的其他区域一致。
 
-要查看此更改，请转到“设置”>“组”>“审批”。
+要查看此更改，请转到“设置”>“组”>“选择组”>“审批”。
 
 此更新包括对该区域的可视化更改。 功能未发生更改。
 
