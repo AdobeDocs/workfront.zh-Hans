@@ -9,13 +9,13 @@ feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 77d93919a84b2c3b098d1b5e6796af6b37b51034
+exl-id: b7155160-4537-4919-bebf-72056b181bb6
+source-git-commit: bd39c5794c55e27a876da185e67bf8c654a003b2
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 1%
+source-wordcount: '178'
+ht-degree: 0%
 
 ---
-
 
 # 项目活动查询
 
@@ -35,3 +35,191 @@ ht-degree: 1%
    1. [建立与Workfront数据连接的连接](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
 
 建立连接后，即可使用本文档中的查询提取和可视化数据。
+
+## 项目用户的登录事件
+
+显示分配给项目、在给定日期登录的人员数量。
+
+```
+WITH userlogins as ( 
+    SELECT 
+        userid, 
+        lastlogindate 
+    FROM ( 
+        SELECT 
+            userid, 
+            lastlogindate, 
+            lag(lastlogindate, 1, '1990-01-01') OVER (PARTITION BY userid ORDER BY begin_effective_timestamp) as previous_login 
+        FROM users_event 
+    ) 
+    WHERE lastlogindate != previous_login 
+) 
+ 
+SELECT 
+    tds.projectid, 
+    ads.calendardate, 
+    count(1) 
+FROM assignments_daily_history ads 
+    INNER JOIN tasks_daily_history tds ON ads.taskid = tds.taskid AND tds.calendardate = ads.calendardate 
+    INNER JOIN userlogins ul ON ads.assignedtoid = ul.userid and TO_DATE(ul.lastlogindate) = ads.calendardate 
+GROUP BY tds.projectid, ads.calendardate
+```
+
+### Projects用户的登录事件：深入分析
+
+```
+WITH userlogins as ( 
+    SELECT 
+        userid, 
+        lastlogindate 
+    FROM ( 
+        SELECT 
+            userid, 
+            lastlogindate, 
+            lag(lastlogindate, 1, '1990-01-01') OVER (PARTITION BY userid ORDER BY begin_effective_timestamp) as previous_login 
+        FROM users_event 
+    ) 
+    WHERE lastlogindate != previous_login 
+) 
+
+SELECT 
+    tds.projectid, 
+    ul.userid, 
+    ads.calendardate, 
+    count(1) 
+FROM assignments_daily_history ads 
+INNER JOIN tasks_daily_history tds ON ads.taskid = tds.taskid AND tds.calendardate = ads.calendardate 
+INNER JOIN userlogins ul ON ads.assignedtoid = ul.userid AND TO_DATE(ul.lastlogindate) = ads.calendardate 
+group by tds.projectid, ul.userid, ads.calendardate
+ 
+```
+
+## 项目用户的任务状态更改事件
+
+显示在给定日期更改项目任务状态的人员数。
+
+```
+WITH task_status_changes as (  
+    SELECT 
+        taskid, 
+        status, 
+        begin_effective_timestamp  
+    FROM (  
+        SELECT 
+            taskid, 
+            status, 
+            begin_effective_timestamp, 
+            lag(status, 1, 'NOSTATUS') OVER (PARTITION BY taskid ORDER BY begin_effective_timestamp) as previous_status 
+        FROM tasks_event 
+        WHERE status != 'CPL' 
+    )  
+    WHERE status != previous_status  
+)  
+ 
+SELECT 
+    tds.projectid, 
+    count(tds.status), 
+    ads.calendardate 
+FROM assignments_daily_history ads 
+    INNER JOIN tasks_daily_history tds ON ads.taskid = tds.taskid AND tds.calendardate = ads.calendardate 
+    INNER JOIN task_status_changes tsc ON tsc.taskid = ads.taskid AND tsc.taskid = tds.taskid and TO_DATE(tsc.begin_effective_timestamp) = tds.calendardate 
+GROUP BY tds.projectid, ads.calendardate
+```
+
+### 项目用户的任务状态更改事件：深入分析
+
+```
+WITH task_status_changes as (  
+    SELECT 
+        taskid, 
+        status, 
+        lastupdatedbyid, 
+        begin_effective_timestamp  
+    FROM (  
+        SELECT 
+            taskid, 
+            status, 
+            begin_effective_timestamp, 
+            lastupdatedbyid, 
+            lag(status, 1, 'NOSTATUS') OVER (PARTITION BY taskid ORDER BY begin_effective_timestamp) as previous_status  
+        FROM tasks_event  
+        WHERE status != 'CPL'  
+    )  
+    WHERE status != previous_status  
+)  
+ 
+SELECT 
+    tds.projectid, 
+    tsc.lastupdatedbyid, 
+    count(tcs.status), 
+    ads.calendardate 
+FROM assignments_daily_history ads 
+    INNER JOIN tasks_daily_history tds ON ads.taskid = tds.taskid AND tds.calendardate = ads.calendardate 
+    INNER JOIN task_status_changes tsc ON tsc.taskid = ads.taskid AND tsc.taskid = tds.taskid AND TO_DATE(tsc.begin_effective_timestamp) = tds.calendardate 
+GROUP BY tds.projectid, tsc.lastupdatedbyid, ads.calendardate
+```
+
+## 项目用户的任务完成事件
+
+显示在给定日期完成项目任务的人员数。
+
+```
+WITH task_status_changes as (  
+    SELECT 
+        taskid, 
+        status, 
+        begin_effective_timestamp  
+    FROM (  
+        SELECT 
+            taskid, 
+            status, 
+            begin_effective_timestamp, 
+            lag(status, 1, 'NOSTATUS') OVER (PARTITION BY taskid ORDER BY begin_effective_timestamp) as previous_status  
+        FROM tasks_event  
+        WHERE status = 'CPL'  
+    )  
+    WHERE status != previous_status  
+) 
+ 
+SELECT 
+    tds.projectid, 
+    count(tds.status), 
+    ads.calendardate 
+FROM assignments_daily_history ads 
+    INNER JOIN tasks_daily_history tds ON ads.taskid = tds.taskid and tds.calendardate = ads.calendardate 
+    INNER JOIN task_status_changes tsc ON tsc.taskid = ads.taskid and tsc.taskid = tds.taskid and TO_DATE(tsc.begin_effective_timestamp) = tds.calendardate 
+GROUP BY tds.projectid, ads.calendardate
+```
+
+### 项目用户的任务完成事件：深入分析
+
+```
+WITH task_status_changes as (  
+    SELECT 
+        taskid, 
+        status, 
+        lastupdatedbyid, 
+        begin_effective_timestamp  
+    FROM (  
+        SELECT 
+            taskid, 
+            status, 
+            begin_effective_timestamp, 
+            lastupdatedbyid, 
+            lag(status, 1, 'NOSTATUS') OVER (PARTITION BY taskid ORDER BY begin_effective_timestamp) as previous_status  
+        FROM tasks_event  
+        WHERE status = 'CPL'  
+    )  
+    WHERE status != previous_status  
+)  
+ 
+SELECT 
+    tds.projectid, 
+    tsc.lastupdatedbyid, 
+    count(tsc.status), 
+    ads.calendardate 
+FROM assignments_daily_history ads 
+    INNER JOIN tasks_daily_history tds ON ads.taskid = tds.taskid AND tds.calendardate = ads.calendardate 
+    INNER JOIN task_status_changes tsc ON tsc.taskid = ads.taskid AND tsc.taskid = tds.taskid AND TO_DATE(tsc.begin_effective_timestamp) = tds.calendardate 
+GROUP BY tds.projectid, tsc.lastupdatedbyid, ads.calendardate
+```
