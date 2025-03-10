@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: b4747df73cedfb512fb54f912a5370cbb3a4c6a7
+source-git-commit: 1a0902c7c6e1b7f647564e448daf74748d9cb3db
 workflow-type: tm+mt
-source-wordcount: '1589'
+source-wordcount: '1634'
 ht-degree: 0%
 
 ---
@@ -141,6 +141,14 @@ ht-degree: 0%
 此更新包括对该区域的可视化更改。 功能未发生更改。
 
 ## 敏捷
+
+### 团队请求的界面更新
+
+**预览版本： 2025年3月6日；生产版本：待宣布**
+
+我们更新了“团队请求”页面，使其设计更加现代化，与Workfront的其他区域保持一致。
+
+要查看此更改，请转到“团队”>“选择一个团队”>“团队请求”。
 
 ### 迭代的界面更新概述页面
 

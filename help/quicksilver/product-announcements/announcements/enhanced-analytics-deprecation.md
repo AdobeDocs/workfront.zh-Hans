@@ -6,9 +6,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0de6119d-6a47-41f2-87da-2c6752ca436b
-source-git-commit: 6d0074438b4711198fd94105544efe39665a785e
+source-git-commit: 905aaaa5d300bc71058dd6ee2d568c8fc1229570
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -43,21 +43,21 @@ Data Connect包含在新的Ultimate计划<!--, and can be purchased as an add-on
 
 ### 复制增强的Analytics可视化图表
 
-除了许多新的可视化图表选项外，您还可以使用Workfront Data Connect复制您认为最有价值的增强Analytics可视化图表。 随着我们越来越接近弃用，我们将添加特定的查询示例，这些查询示例将Enhanced Analytics可视化图表复制到[Workfront Data Connect示例查询](/help/quicksilver/reports-and-dashboards/data-lake/basic-query-examples.md)页面。
+除了许多新的可视化图表选项外，您还可以使用Workfront Data Connect复制您认为最有价值的增强Analytics可视化图表。
 
-<!--Use the queries in the articles below to create data visualizations similar to those in Enhanced Analytics:
-
-
-* [KPI queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
-
-Coming soon:
-
-* Flight plan queries
-* Project activities queries
-* Project treemap queries
-* People queries
+使用下面文章中的查询来创建类似于增强型分析中的数据可视化图表：
 
 
+* [KPI查询](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
+
+即将推出：
+
+* 外部测试版计划查询
+* 项目活动查询
+* 项目树状图查询
+* 人员查询
+
+<!--
 * [Flight plan queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
 * [Project activities queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
 * [Project treemap queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md) 
