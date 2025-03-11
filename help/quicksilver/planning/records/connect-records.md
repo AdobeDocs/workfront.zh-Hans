@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '3330'
+source-wordcount: '3327'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 1%
 
 ## 访问要求
 
-+++ 展开以查看Workfront Planning的访问要求。
++++ 展开以查看访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -118,8 +118,8 @@ ht-degree: 1%
   </tr> 
 <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
-   <td>   <p>向工作区提供或更高权限以连接记录 </p>  
-   <p>查看工作区或更高权限，以查看与其他应用程序中的对象和字段的所有连接，无论您对其他应用程序的访问权限如何。 </p>
+   <td>   <p>向工作区<!--<span class="preview">and record type</span>-->贡献或更高权限以连接记录 </p>  
+   <p>查看工作区<!--<span class="preview">and record type</span>-->的权限或更高的权限，以查看与其他应用程序中的对象和字段的所有连接，无论您对其他应用程序的访问权限如何。 </p>
    <p>查看要从Workfront或Experience Manager Assets链接的对象或授予对这些对象的更高权限。 </p>
    <p>系统管理员有权访问所有工作区，包括他们未创建的工作区。</p> </td> 
   </tr> 

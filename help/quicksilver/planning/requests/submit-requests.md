@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '1798'
 ht-degree: 0%
@@ -90,7 +90,7 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 <tr>
    <td role="rowheader"><p>对象权限</p></td>
    <td>
-   <p>查看工作区或更高权限(如果您是Workfront用户)</p> 
+   <p>查看工作区<!--<span class="preview">and record type</span>-->或更高权限(如果您是Workfront用户)</p> 
   </td>
   </tr>
 <tr>

@@ -1,0 +1,226 @@
+---
+title: 共享记录类型
+description: 在使用Adobe Workfront Planning时，您可以与其他人共享记录类型以确保协作。
+hide: true
+hidefromtoc: true
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+workflow-type: tm+mt
+source-wordcount: '1186'
+ht-degree: 0%
+
+---
+
+
+<!-- add these to metadata on release:
+
+author: Alina
+feature: Workfront Planning
+role: User, Admin
+recommendations: noDisplay, noCatalog-->
+
+# 共享记录类型
+
+<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
+{{planning-important-intro}}
+
+在Adobe Workfront Planning中处理记录时，您可以与其他人共享记录类型以确保协作。
+
+>[!IMPORTANT]
+>
+>* 向工作区授予权限可为用户提供与工作区中记录类型相同的权限。
+>* 向记录类型授予权限可能会授予用户较小的权限，而不是他们已在工作区中拥有的较高权限。
+> 有关详细信息，请参阅本文中的[共享记录类型时的注意事项](#considerations-when-sharing-record-types)部分。
+
+## 访问要求
+
++++ 展开以查看访问要求。
+
+<!--at GA, check that the Workfront plans article linked below has Planning info-->
+
+您必须具有以下权限才能执行本文中的步骤：
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> 产品</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront规划<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront计划*</p></td> 
+   <td> 
+<p>以下任意Workfront计划：</p> 
+<ul><li>选择</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning不适用于旧版Workfront计划</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront规划包*</p></td> 
+   <td> 
+<p>任何 </p> 
+<p>有关每个Workfront计划中包括的内容的更多信息，请联系您的Workfront客户经理。 </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront平台</p></td> 
+   <td> 
+<p>贵组织的Workfront实例必须载入Adobe Unified Experience，才能访问Workfront Planning的所有功能。</p> 
+<p>您的组织必须载入到Adobe Unified Experience，用户才能从权限请求请求向视图请求和授予权限。 </p>
+<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront许可证*</p></td> 
+   <td><p> 标准</p>
+   <p>Workfront计划不适用于旧版Workfront许可证</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>访问级别配置</p></td> 
+   <td> <p>Adobe Workfront Planning没有访问级别控制</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>对象权限</p></td> 
+   <td>  <p>管理记录类型的权限</p>  
+   <p>只有对工作区具有管理权限的用户才能共享对记录类型的管理权限</p></td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>布局模板</p></td> 
+   <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+*有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+## 共享记录类型时的注意事项
+
+* 有关在Workfront Planning中共享对象的一般信息，另请参阅[在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
+* 您可以在内部与以下实体共享记录类型：
+
+   * Workfront用户、组、团队、公司和职位角色
+* 您无法与Workfront之外的用户从外部共享记录类型。
+* 用户会自动从工作区继承记录类型权限。
+* 手动时，您可以将记录类型的查看权限授予用户，也可以从工作区中删除继承的权限。
+
+* 添加到记录类型且没有工作区权限的用户将自动添加到具有查看权限的工作区共享。
+
+  要向没有工作区权限高于记录类型查看权限的用户授予记录类型的工作区权限，您必须先与他们共享工作区。 如果仅共享记录类型，则他们只能获得该记录类型的“查看”权限，并且他们还将被添加到具有“查看”权限的工作区。 授予他们记录类型的权限时，共享框中会显示已添加到工作区的权限。
+
+* 您无法授予某人比他们在工作区中更高的记录类型权限。
+
+  例如，您无法向某人授予工作区的“查看”权限以及记录类型的“管理”权限。
+
+
+## 共享记录类型的权限
+
+您可以在Workfront Planning中将您创建的记录类型或您拥有管理权限的记录类型与用户、组、团队、公司和职位角色共享。
+
+{{step1-to-planning}}
+
+1. 打开要共享其记录类型的工作区，然后单击记录类型卡片。
+
+   这将打开记录类型页面。
+
+1. 从任何视图的选项卡中，单击记录类型右上角的&#x200B;**共享**。
+
+   将打开&#x200B;**共享**&#x200B;框。
+
+   ![具有继承权限的记录类型的权限：](assets/permissions-for-record-types-with-inherited-permissions-on.png)
+
+1. （可选）在&#x200B;**有权访问**&#x200B;的区域中，从以下选项中选择： <!--the Only invited people is supposed to be removed - rewrite this - according to Vahan-->
+
+   * **只有受邀人员才能访问**：您必须指定要与其共享视图的用户、组、团队、公司或工作角色。
+   * **工作区中的所有人都可以查看**：所有对该工作区具有“查看”或更高权限的用户都可以访问该视图。 这是默认选项。
+
+1. （可选）展开&#x200B;**继承的权限**&#x200B;选项以查看从工作区继承权限的用户、团队、组、公司或工作角色。
+
+   >[!TIP]
+   >
+   >您无法从继承的权限列表中删除单个实体。
+
+1. （可选且视情况而定）如果要与特定实体共享记录类型，并授予他们与工作区已存在的记录类型不同的访问权限，请执行以下操作：
+
+   1. 关闭继承权限。
+   1. 在&#x200B;**授予对此记录类型的访问权限**字段中，添加要向其授予不同权限级别的用户、团队、组、公司或工作角色。
+1.选择权限级别。
+
+   >[!IMPORTANT]
+   >
+   >* 您永远不能授予用户在记录类型上比他们在工作区上更大的权限。
+   >* 如果用户具有工作区的“管理”权限，则不能将较低的“管理”权限授予记录类型。
+   >* 如果用户具有工作区的“贡献”权限，则可以授予他们较少的记录类型权限。
+   > 有关详细信息，请参阅[在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
+
+1. 要向没有工作区访问权限的用户授予查看记录类型的权限，请在&#x200B;**授予此视图**&#x200B;的访问权限字段中，开始键入用户、组、团队、公司或工作角色的名称，然后当它显示在列表中时单击它。
+
+   您选择的实体已添加到记录类型中，并添加到具有&#x200B;**查看**&#x200B;权限的工作区。
+
+   系统管理员始终获得记录与其共享的类型的管理权限，并且有迹象表明用户是系统管理员。
+
+1. 单击&#x200B;**复制链接**&#x200B;以将指向记录类型的链接复制到剪贴板。
+1. 单击&#x200B;**保存**。
+
+   记录类型现在已与其他用户共享。
+
+1. 与他人共享复制的链接。 接收链接的用户必须是活动用户并登录到Workfront才能访问记录类型页面并在选定视图中显示该页面。
+
+<!-- This is not working yet: *************************** edit this before publishing, because this was not tested with record types - this section came from sharing views *******************: 
+
+## Grant permissions to a record type from a permission request
+
+Users who access a link to a record type to which they do not have permissions can request permissions to the record type. All users with Manage permissions to the view receive the permission request and can grant or deny the permissions. 
+
+1. (Conditional) If you are are the manager of a view, you might receive a request from another user to access the view in the following areas:
+   
+   * An in-app notification
+      ![In-app notification for access request for view](assets/in-app-notification-for-access-request-for-view.png)
+   * An email notification
+      ![In-app notification for access request for view](assets/in-app-notification-for-access-request-for-view.png)
+1. (Conditional) From the notification area in Workfront, click the in-app notification
+   Or
+   From the email notification, click **View all notifications**, then click the notification in the list.
+
+   The **Pending access requests** box displays. 
+
+      ![Notifications list approval box](assets/notifications-list-approval-box.png)
+1. (Optional) For the user whose permissions you want to approve, select one of the following options from the drop-down menu to the right of the user's name: 
+   * **View**
+   * **Manage**
+1. Select the user for whom you want to approve or deny the permission, then click **Approve all** or **Deny all**. 
+1. Click the left-pointing arrow to the left of **Pending access requests**, then click **Save**.
+
+   If you approved the request, the users are added to the sharing box of the view. The user requesting the permission receives an email confirmation that their request was approved. <!--will they also get an in-app notification??-->
+
+## 删除对记录类型的权限
+
+{{step1-to-planning}}
+
+1. 打开要停止共享其记录类型的工作区，然后单击记录类型信息卡。 这将打开记录类型页面。
+
+1. 从任何视图的选项卡中，单击记录类型右上角的&#x200B;**共享**。
+
+   将打开&#x200B;**共享**&#x200B;框。
+1. 查找要删除其权限的用户、组、团队、公司或工作角色，展开其名称右侧的权限下拉菜单，然后单击“**删除**”。<!--check the screen shot below - the UI text for View might not be accurate-->
+
+   ![删除记录类型共享下拉列表上的选项](assets/remove-option-on-record-type-sharing-drop-down.png)
+
+1. 单击&#x200B;**保存**。
+
+   人员不再具有对记录类型的访问权限。 他们仍可以拥有工作区的权限，除非您也从工作区权限中删除他们。
+
+   对于已从访问视图中删除的用户，不会通知他们不再具有此访问权限。

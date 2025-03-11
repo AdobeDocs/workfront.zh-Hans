@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 您的Adobe Workfront许可证类型可与Adobe Workfront Planning权限配合使用，以提供以下访问权限：
 
-* 查看、提供或管理工作区
+* 查看、参与或管理工作区<!--<span class="preview">or record types</span>-->
 * 查看或管理视图。
 
 有关Workfront Planning中对象权限的信息，请参阅[Adobe Workfront Planning中的权限共享概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
@@ -39,9 +39,20 @@ ht-degree: 0%
 
 除了用户拥有的工作区权限之外，还必须向用户授予单独的视图权限，以便用户能够访问和管理视图。
 
+
+<div class="preview">
+
+使用记录类型权限时，请考虑以下事项：
+
+* 用户自动从工作区继承记录类型权限。
+* 当用户具有工作区的管理权限时，他们对记录类型的访问权限不能降低。
+* 用户对于记录类型的权限不能超过其对于该记录类型所属的工作区的权限。
+
+</div>
+
 | Adobe Workfront许可证类型* | Adobe Workfront Planning中允许的最高权限 |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 标准 | <p>用户可以管理工作区和视图。 他们可以创建、编辑或删除工作区、记录类型、记录、字段和视图。</p> <br> <p>系统管理员对所有工作区具有管理权限，包括他们未创建的工作区。</p> |
+| 标准 | <p>用户可以管理工作区<span class="preview">、记录类型、</span>和视图。 他们可以创建、编辑或删除工作区、记录类型、记录、字段和视图。</p> <br> <p>系统管理员对所有工作区具有管理权限，包括他们未创建的工作区。</p> |
 | 浅色或参与者 | <p>用户可以查看与其共享的工作区，以及这些工作区的记录类型、记录和字段。</p> <br> <p>用户可以查看与其共享的视图，但不能创建自己的视图。 </p><br> <p>用户无法创建、编辑或删除工作区、记录类型、记录或字段。</p> |
 
 *Workfront Planning不适用于旧版Workfront许可证。
@@ -60,9 +71,11 @@ ht-degree: 0%
 
 ### 许可证类型和工作区权限
 
-只有具有Standard许可证的用户才能对工作区具有Contribute或Manage权限。 具有所有其他许可证类型的用户都可以拥有查看与其共享的工作区的权限。
+只有拥有标准许可证的用户才能对工作区<span class="preview">和记录类型</span>具有Contribute或Manage权限。 具有所有其他许可证类型的用户可以拥有对工作区<span class="preview">的查看权限以及与他们共享的记录类型</span>。
 
 系统管理员可以查看系统中的所有工作区，甚至包括他们未创建的工作区。
+
+<!--does the shot below need to be replaced for record types??-->
 
 >[!INFO]
 >

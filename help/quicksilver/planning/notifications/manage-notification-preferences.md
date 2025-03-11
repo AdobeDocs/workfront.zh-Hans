@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '499'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## 访问要求
 
-+++ 展开以查看Workfront Planning的访问要求。
++++ 展开以查看访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -69,9 +69,9 @@ ht-degree: 1%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>您组织的Workfront实例必须载入到AdobeUnified Experience。</p> 
-<p>仅当您的组织登记到AdobeUnified Experience后，您组织中的用户才会从Workfront Planning接收通知。 </p>
-<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">AdobeWorkfront的Unified Experience</a>。 </p> 
+<p>您组织的Workfront实例必须载入到Adobe Unified Experience。</p> 
+<p>仅当您的组织登记到Workfront Unified Experience时，您组织中的用户才会从Adobe Planning接收通知。 </p>
+<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p> 
    </td> 
    </tr> 
   </tr> 

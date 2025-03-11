@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1422'
 ht-degree: 1%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 ## 访问要求
 
-+++ 展开以查看Workfront Planning的访问要求。
++++ 展开以查看访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -84,8 +84,8 @@ ht-degree: 1%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>贵组织的Workfront实例必须载入AdobeUnified Experience，才能访问Workfront Planning的所有功能。</p> 
-<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">AdobeWorkfront的Unified Experience</a>。 </p> 
+<p>贵组织的Workfront实例必须载入Adobe Unified Experience，才能访问Workfront Planning的所有功能。</p> 
+<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p> 
    </td> 
    </tr> 
   </tr> 
@@ -206,26 +206,26 @@ ht-degree: 1%
 
 | 功能 | 表格视图 | 时间线视图 | 日历视图 |
 |-----------------------------------------------------------------------|------------|---------------|--------------|
-| 在列表或表中显示记录 | ✓ {\f13 } |              | |
-| 默认情况下，将所有字段显示为表中的列 | ✓ {\f13 } |              |    |
-| 隐藏或显示字段（或列） | ✓ {\f13 } |               |    |
-| 编辑每个记录的字段值 | ✓ {\f13 } |               |             |
-| 将记录添加为视图中的新行 | ✓ {\f13 } |               |        |
-| 在视图中添加字段作为新列 | ✓ {\f13 } |               |         |
-| 从外部列表中复制行并将其粘贴到表中 | ✓ {\f13 } |               |          |
-| 在时间轴中显示记录 |            | ✓ {\f13 } |             |
-| 筛选记录 | ✓ {\f13 } | ✓ {\f13 } | ✓ {\f13 } |
-| 显示日历中的记录 |           |              | ✓ {\f13 } |
-| 组记录 | ✓ {\f13 } | ✓ {\f13 } |
-| 排序记录 | ✓ {\f13 } |              |
-| 颜色代码记录 |           | ✓ {\f13 } | ✓ {\f13 } |
-| 颜色代码分组 |           | ✓ {\f13 } |
-| 搜索特定记录 | ✓ {\f13 } | ✓ {\f13 } |
-| 与他人共享视图 | ✓ {\f13 } | ✓ {\f13 } | ✓ {\f13 } |
-| 从视图打开记录的页面 | ✓ {\f13 } | ✓ {\f13 } |    |
-| 按年份和季度显示记录 |           | ✓ {\f13 } |    |
-| 按月显示记录 |           | ✓ {\f13 } | ✓ {\f13 } |
-| 按周显示记录 |           |               | ✓ {\f13 } |
+| 在列表或表中显示记录 | ✓ |              | |
+| 默认情况下，将所有字段显示为表中的列 | ✓ |              |    |
+| 隐藏或显示字段（或列） | ✓ |               |    |
+| 编辑每个记录的字段值 | ✓ |               |             |
+| 将记录添加为视图中的新行 | ✓ |               |        |
+| 在视图中添加字段作为新列 | ✓ |               |         |
+| 从外部列表中复制行并将其粘贴到表中 | ✓ |               |          |
+| 在时间轴中显示记录 |            | ✓ |             |
+| 筛选记录 | ✓ | ✓ | ✓ |
+| 显示日历中的记录 |           |              | ✓ |
+| 组记录 | ✓ | ✓ |
+| 排序记录 | ✓ |              |
+| 颜色代码记录 |           | ✓ | ✓ |
+| 颜色代码分组 |           | ✓ |
+| 搜索特定记录 | ✓ | ✓ |
+| 与他人共享视图 | ✓ | ✓ | ✓ |
+| 从视图打开记录的页面 | ✓ | ✓ |    |
+| 按年份和季度显示记录 |           | ✓ |    |
+| 按月显示记录 |           | ✓ | ✓ |
+| 按周显示记录 |           |               | ✓ |
 
 
 ## 创建或编辑视图 {#create-or-edit-views}

@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '1865'
 ht-degree: 1%
@@ -95,7 +95,7 @@ ht-degree: 1%
    <td role="rowheader"><p>对象权限</p></td>
    <td>
    <ul>
-   <li><p>管理工作区的权限</p></li>
+   <li><p>管理工作区<!--<span class="preview">and record type</span>-->的权限 </p></li>
     <li><p>系统管理员可以管理他们未创建的工作区。 </p></li>
     </ul>
    <p>有关共享Workfront Planning对象权限的信息，请参阅  

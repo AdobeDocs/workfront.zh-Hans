@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: fe3127ab-3f59-46a0-a747-9e9e1582265b
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 1%
@@ -15,6 +15,10 @@ ht-degree: 1%
 
 
 # 主字段概述
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -49,4 +53,4 @@ ht-degree: 1%
 * 更改表格视图中的主字段会影响选择它的所有其他用户的视图。
 * 更改表视图中的主字段将影响该记录类型的所有表视图。
 * 主字段中列出的值始终以超链接方式链接到记录的页面。
-* 如果您拥有工作区的Contribute或更高权限，则可以编辑主字段（公式字段除外）的值。 公式是自动更新的计算。
+* 如果您对工作区<!--<span class="preview">and record type</span>-->具有Contribute或更高权限，则可以编辑主字段（公式字段除外）的值。 公式是自动更新的计算。

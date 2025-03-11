@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '510'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 1%
 <!--should this move to the Access folder when we have sharing for ALL the objects???-->
 
 # 共享记录
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -28,13 +32,28 @@ ht-degree: 1%
 
 * 在记录类型的表视图中查看记录时，复制指向记录页面的链接。
 
-* 通过共享工作区，您可以与其他用户共享工作区中的所有记录。 有关详细信息，请参阅[共享工作区](/help/quicksilver/planning/access/share-workspaces.md)。
+* 通过共享工作区<!--<span class="preview">and record type</span>--> ，您可以与其他用户共享工作区中的所有记录。 有关详细信息，请参阅[共享工作区](/help/quicksilver/planning/access/share-workspaces.md)。
+
+<!-- replace the last sentence above with this: 
+
+For more information see the following articles:
+
+* [Share a workspace](/help/quicksilver/planning/access/share-workspaces.md)
+
+
+<div class="preview">
+
+* [Share a record type](/help/quicksilver/planning/access/share-record-types.md)
+
+</div>
+
+-->
 
 本文介绍了如何从记录类型的表视图中复制指向记录页面的链接。
 
 ## 访问要求
 
-+++ 展开以查看Workfront Planning的访问要求。
++++ 展开以查看访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -88,8 +107,8 @@ ht-degree: 1%
   </tr> 
 <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
-   <td>  <p>使用链接查看或更高的工作区权限以共享记录 </p>
-   <p>管理共享记录的工作区的权限该记录所属的工作区 </p>
+   <td>  <p>使用链接查看工作区共享<!--<span class="preview">and record type</span>-->记录或更高权限 </p>
+   <p>管理工作区<!--<span class="preview">and record type</span>-->的权限以共享工作区中的记录 </p>
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>  </td> 
   </tr> 
 <tr> 

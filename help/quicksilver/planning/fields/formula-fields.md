@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '648'
 ht-degree: 7%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 7%
 
 ## 访问要求
 
-+++ 展开以查看Workfront Planning的访问要求。
++++ 展开以查看访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -85,7 +85,7 @@ ht-degree: 7%
   </tr> 
 <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
-   <td>   <p>管理工作区</a>的权限 </p>  
+   <td>   <p>管理工作区<!--<span class="preview">and record type</span>--> </a>的权限 </p>  
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p> </td> 
   </tr> 
 <tr> 
@@ -185,10 +185,10 @@ Adobe Workfront Planning公式字段支持Workfront计算字段中的大多数�
 >
 >Workfront Planning公式字段不支持以下Workfront表达式：
 >
->* 升序排序数组
->* 降序排序数组
+>* SORTASCARRAY
+>* SORTDESCARRAY
 >* ADDHOUR
->* 切换
+>* SWITCH
 >* 格式
 
 

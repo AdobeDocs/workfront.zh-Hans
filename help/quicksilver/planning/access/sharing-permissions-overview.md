@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '922'
 ht-degree: 6%
 
 ---
@@ -18,17 +18,17 @@ ht-degree: 6%
 
 # 在Adobe Workfront Planning中共享权限概述
 
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
+
+
 {{planning-important-intro}}
 
 您可以共享或删除Adobe Workfront Planning工作区或视图的权限。
 
 本文介绍了Workfront Planning对象的权限级别。
-
-有关如何共享工作区或视图的信息，请参阅以下文章：
-
-* [共享工作区](/help/quicksilver/planning/access/share-workspaces.md)
-
-* [共享视图](/help/quicksilver/planning/access/share-views.md)
 
 ## 可在Adobe Workfront Planning中共享的对象
 
@@ -40,6 +40,22 @@ ht-degree: 6%
    * 共享工作区时，也将共享与工作区关联的所有记录类型、记录和字段。
    * 共享工作区时，视图不共享。 视图将单独共享。
 
+  有关详细信息，请参阅[共享工作区](/help/quicksilver/planning/access/share-workspaces.md)
+
+<!--
+<div class="preview">
+
+* Record types
+
+    * You can share record types with people inside your organization.
+    * The level of permissions granted for the workspace displays as Inherited permissions for the record type. 
+    * You cannot share a workspace with a higher permission level than the user has on the workspace. 
+
+    For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md). 
+
+</div>
+-->
+
 * 视图
 
    * 您必须向用户（包括系统管理员）授予单独访问视图的权限和访问工作区的权限。
@@ -47,12 +63,20 @@ ht-degree: 6%
    * 共享视图时，不会共享该视图中可见的记录。 必须通过共享工作区来共享记录。
    * 在为视图生成公共链接时，您可以与组织外部的人员公开共享视图。通过公共链接访问记录页面的人员可以查看所有记录及其字段，包括连接的记录和字段。
 
-  有关信息，请参阅[共享视图](/help/quicksilver/planning/access/share-views.md)。
+  有关详细信息，请参阅[共享视图](/help/quicksilver/planning/access/share-views.md)。
 
 在内部，您可以与以下Workfront实体共享工作区或视图：
 
 * 用户
 * 组
+
+<div class="preview">
+
+* 团队
+* 公司
+* 工作角色
+
+</div>
 
 ## 关于在Adobe Workfront Planning中共享对象的注意事项
 
@@ -78,7 +102,7 @@ ht-degree: 6%
 >
 >并非所有用户都可以具有下述权限级别。 用户的个人许可证确定他们可针对Workfront Planning对象接收的权限级别。
 >
->只有Standard（或Plan）许可证用户可以拥有Contribute或工作区的“管理”权限以及视图的“管理”权限。
+>只有标准（或计划）许可证用户可以拥有工作区的“贡献”或“管理”权限以及视图的“管理”权限。
 > 
 >具有所有其他许可证类型的用户都可以拥有对工作区和视图的查看权限。
 >
@@ -98,24 +122,45 @@ ht-degree: 6%
 
 |        | 管理 | 参与 | 查看 |
 |--------|--------|------------|-------|
-| 编辑 | ✓ {\f13 } |            |       |
-| 共享 | ✓ {\f13 } |            |       |
-| 删除 | ✓ {\f13 } |            |       |
-| 查看 | ✓ {\f13 } | ✓ {\f13 } | ✓ {\f13 } |
+| 编辑 | ✓ |            |       |
+| 共享 | ✓ |            |       |
+| 删除 | ✓ |            |       |
+| 查看 | ✓ | ✓ | ✓ |
 
 ### 记录类型权限
 
-向工作区授予权限时，将继承记录类型权限。
+<!--In the Production environment,--> 向工作区授予权限时，始终会继承记录类型权限。
 
 以下是记录类型的权限级别：
 
 
 |        | 管理 | 参与 | 查看 |
 |--------|--------|------------|-------|
-| 创建 | ✓ {\f13 } |            |       |
-| 删除 | ✓ {\f13 } |            |       |
-| 编辑 | ✓ {\f13 } |            |       |
-| 查看 | ✓ {\f13 } | ✓ {\f13 } | ✓ {\f13 } |
+| 创建 | ✓ |            |       |
+| 删除 | ✓ |            |       |
+| 编辑 | ✓ |            |       |
+| 查看 | ✓ | ✓ | ✓ |
+
+<!--
+
+<div class="preview">
+
+In the Preview environment, Record Type permissions are inherited when you grant permissions to the workspace. 
+
+You can remove inherited permissions from the record type, but you can never grant higher permissions for the record type than users have on the workspace. 
+
+The following scenarios exist: 
+
+|   Workspace permissions     | Automatic inherited permissions for a Record Type |Possible Record Type permissions when Inherited permissions are turned off (granted manually)| 
+|--------|--------|-------------|
+| Manage |   Manage    |   Manage, No permissions           | 
+| Contribute |     Contribute |  Contribute, View, No permissions        |
+| View   |  View     |      View, No permissions        |     
+
+
+</div>
+
+-->
 
 ### 记录权限
 
@@ -126,10 +171,10 @@ ht-degree: 6%
 
 |        | 管理 | 参与 | 查看 |
 |--------|--------|------------|-------|
-| 创建 | ✓ {\f13 } | ✓ {\f13 } |       |
-| 删除 | ✓ {\f13 } | ✓ {\f13 } |       |
-| 编辑 | ✓ {\f13 } | ✓ {\f13 } |       |
-| 查看 | ✓ {\f13 } | ✓ {\f13 } | ✓ {\f13 } |
+| 创建 | ✓ | ✓ |       |
+| 删除 | ✓ | ✓ |       |
+| 编辑 | ✓ | ✓ |       |
+| 查看 | ✓ | ✓ | ✓ |
 
 ### 字段权限
 
@@ -138,10 +183,10 @@ ht-degree: 6%
 
 |        | 管理 | 参与 | 查看 |
 |--------|--------|------------|-------|
-| 创建 | ✓ {\f13 } |            |       |
-| 删除 | ✓ {\f13 } |            |       |
-| 编辑 | ✓ {\f13 } |            |       |
-| 查看 | ✓ {\f13 } | ✓ {\f13 } | ✓ {\f13 } |
+| 创建 | ✓ |            |       |
+| 删除 | ✓ |            |       |
+| 编辑 | ✓ |            |       |
+| 查看 | ✓ | ✓ | ✓ |
 
 
 ### 查看权限
@@ -163,16 +208,16 @@ ht-degree: 6%
 
 | 内部共享 | 管理（只有受邀人员才能访问） | 查看（只有受邀人员才能访问） | 工作区中的每个人都可以查看* |
 |--------|--------|-------|------------------------------|
-| 编辑 | ✓ {\f13 } |       |                            |
-| 删除 | ✓ {\f13 } |       |                            |
-| 共享 | ✓ {\f13 } |       |                           |
-| 查看 | ✓ {\f13 } | ✓ {\f13 } | ✓ {\f13 } |
-| 应用 | ✓ {\f13 } | ✓ {\f13 } | ✓ {\f13 } |
+| 编辑 | ✓ |       |                            |
+| 删除 | ✓ |       |                            |
+| 共享 | ✓ |       |                           |
+| 查看 | ✓ | ✓ | ✓ |
+| 应用 | ✓ | ✓ | ✓ |
 
 | 公开共享 | 查看 |
 |--------|-------|
-| 查看 | ✓ {\f13 } |
-| 应用 | ✓ {\f13 } |
+| 查看 | ✓ |
+| 应用 | ✓ |
 
 *用户必须具有工作区的“查看”或更高权限才能获得此查看访问权限。
 

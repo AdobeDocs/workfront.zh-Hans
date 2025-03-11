@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 0%
@@ -41,8 +41,8 @@ ht-degree: 0%
 
   在原始记录或对象上更新查找字段的值后，会自动填充您要链接的Workfront Planning记录。
 
-* 有权访问Workfront Planning and View或拥有工作区更高权限的每个人，都可以查看您在记录之间或记录与其他应用程序的对象之间建立的连接。 他们可以查看连接的记录和对象，无论他们在您连接的应用程序中的权限如何。
-* 如果您对连接记录所在的工作区具有管理权限，则可以查看和编辑其他人的连接。
+* 有权访问Workfront Planning and View或对工作区<!--<span class="preview">and record type</span>-->拥有更高权限的每个人均可查看您在记录之间或记录与其他应用程序的对象之间建立的连接。 他们可以查看连接的记录和对象，无论他们在您连接的应用程序中的权限如何。
+* 如果您对连接记录所在的工作区<!--<span class="preview">and record type</span>-->具有管理权限，则可以查看和编辑其他人的连接。
 * 您可以将一个记录连接到另一个应用程序的一个或多个对象。具体取决于您在连接记录类型时选择的连接类型。 有关详细信息，请参阅文章[连接的记录类型概述](/help/quicksilver/planning/architecture/connect-record-types-overview.md)中的“连接类型”部分。
 
 ## 可连接记录的区域

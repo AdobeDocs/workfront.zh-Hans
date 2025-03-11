@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1797'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 ## 访问要求
 
-+++ 展开以查看Workfront Planning的访问要求。
++++ 展开以查看访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -92,7 +92,11 @@ ht-degree: 1%
    <td role="rowheader"><p>对象权限</p></td>
    <td>
    <p>在Workfront中，查看项目、项目组合或项目群的权限或更高的权限</a> </p> 
-   <p>在Workfront Planning中，查看查看工作区的权限以查看任何连接的记录，或查看工作区的Contribute或更高权限以连接或断开记录</a> </p>  
+   <p>在Workfront规划中：
+   <ul><li>
+   查看工作区<!--<span class="preview">and record type</span>-->的权限以查看任何连接的记录 </li>
+   或
+   <li> 向工作区<!--<span class="preview">and record type</span>-->分配或更高权限以连接或断开记录</a></li></ul> </p>  
    <p>系统管理员有权访问所有Workfront Planning工作区，包括他们未创建的工作区</p> 
   </td>
   </tr>

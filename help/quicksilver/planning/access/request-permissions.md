@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->仅当您的组织已载入到AdobeUnified Experience时，本文中描述的功能才可用。
+>仅当您的组织登记到Adobe Unified Experience后，本文中描述的功能才可用。
 >
->有关详细信息，请参阅[AdobeWorkfront的Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+>有关详细信息，请参阅[适用于Workfront的Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 
 当有人与您共享指向您无权访问的视图或工作区的链接时，您可以请求对视图或工作区的权限。
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 ## 访问要求
 
-+++ 展开以查看Workfront Planning的访问要求。
++++ 展开以查看访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -72,10 +72,10 @@ ht-degree: 0%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>贵组织的Workfront实例必须载入AdobeUnified Experience，才能访问Workfront Planning的所有功能。</p> 
+<p>贵组织的Workfront实例必须载入Adobe Unified Experience，才能访问Workfront Planning的所有功能。</p> 
 <p><b>重要</b></p>
-<p>只有当您的组织登记到AdobeUnified Experience时，您组织中的用户才能请求查看和工作区的权限。 </p>
-<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">AdobeWorkfront的Unified Experience</a>。 </p> 
+<p>只有当您的组织登记到Adobe Unified Experience时，您组织中的用户才能请求查看和工作区的权限。 </p>
+<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p> 
    </td> 
    </tr> 
   </tr> 
@@ -94,7 +94,7 @@ ht-degree: 0%
    <td role="rowheader"><p>对象权限</p></td> 
    <td>  <p>在授予您的权限请求后，您将获得以下权限：</p>
    <ul><li><p>查看或管理视图</p></li>
-   <li><p>“查看”、“Contribute”或“管理”工作区</p></li></ul>  
+   <li><p>查看、贡献或管理工作区</p></li></ul>  
    <p>只有对工作区和视图具有管理权限的用户才能公开共享视图。</p></td> 
   </tr> 
 <tr> 
