@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 4072e71dc0ba76871e17da7718ed4b77a3cdbda6
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1132'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,8 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
+您必须具有以下权限才能执行本文中的步骤：
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -56,7 +58,7 @@ ht-degree: 0%
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
    <td> <p>新增：标准</p>
     <p>当前：工作或更高</p> </td> 
   </tr> 
@@ -71,7 +73,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -83,18 +85,17 @@ ht-degree: 0%
    >[!TIP]
    >
    >如果有两个或更多人员被分配，您可以直接在任务或问题列表中进行高级分配。 单击与任务或问题位于同一行的&#x200B;**工作总揽**&#x200B;字段内，然后单击&#x200B;**人员图标**&#x200B;以打开“高级工作总揽”窗口。 跳至步骤5以继续创建高级工作。\
-   >![](assets/nwe-advanced-assignments-350x55.png)
-   >
+   >![单击“人员”图标](assets/nwe-advanced-assignments-350x55.png)
 
 1. 单击任务或问题标题中&#x200B;**工作**&#x200B;字段中的&#x200B;**分配给**
 
    或
 
-   如果任务或问题已分配，则单击分配的名称。
+   如果任务或问题已分配，请单击其中一个已分配名称。
 
 1. 单击&#x200B;**高级**。
 
-   <span class="preview">![单击高级](assets/assignments-box-in-task-header.png)</span>
+   ![单击高级](assets/assignments-box-in-task-header.png)
 
 1. 在&#x200B;**搜索人员、角色和团队**&#x200B;字段中，开始键入用户、角色或团队的名称，然后在该名称出现在下拉列表中时单击该名称。
 
@@ -102,7 +103,7 @@ ht-degree: 0%
    >
    >如果用户名包含特殊字符，则必须在搜索字段中包含特殊字符。
 
-1. （可选）继续在&#x200B;**搜索人员、角色或团队**&#x200B;框中添加被分配人，以将多个资源添加到任务或问题。
+1. （可选）继续在&#x200B;**搜索人员、角色和团队**&#x200B;框中添加被分配人，以将多个资源添加到任务或问题。
 
    >[!TIP]
    >
@@ -114,11 +115,10 @@ ht-degree: 0%
    >您必须在访问级别中启用“查看联系信息”设置，用户才能查看用户的电子邮件。 有关信息，请参阅[授予用户访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)。
    >
    >
-   >* 如果在停用用户、工作角色或团队之前已分配用户、工作角色或团队，则它们仍会分配给工作项。 在这种情况下，我们建议执行以下操作：
+   >* 如果在停用用户、工作角色或团队之前已分配用户、工作角色或团队，则仍将其分配给工作项目。 在这种情况下，我们建议执行以下操作：
    >   
    >   * 将工作项重新分配给活动资源。
    >   * 将已停用团队中的用户与活动团队关联，并将工作项重新分配给活动团队。
-   >
 
    <!-- SHOULD BE THIRD BULLET POINT IN TIP TABLE WHEN THIS FEATURE IS RELEASED 
     * <span class="preview">When adding a job role assignment, you can search for the job role or location. Select the System/Default Job Role to use the default billing rate for the assignment, or select a Rate Card Job Role to override the rate at the assignment level. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
@@ -133,7 +133,7 @@ ht-degree: 0%
      >
      >根据您的Workfront管理员或组管理员如何设置项目首选项，当您有多个用户分配到任务时，Workfront可能会使用任务所有者的时间表计算任务的时间表。 有关多个任务被分配人的信息，请参阅文章[分配任务](../../../manage-work/tasks/assign-tasks/assign-tasks.md)中的“将多个用户分配给任务”部分。
 
-   * **分派工作** ：当任务的工期类型为简单时，指定每个用户或工作角色应分配给任务的小时数。 每个用户的所有已分配小时数的总和等于“分配”列底部&#x200B;**已计划小时数**&#x200B;字段中的数字。 在所有其它情况下，指定您希望被分派人解决任务或问题所花费的时间（或分配）百分比。
+   * **分派工作**：当任务的持续时间类型为“简单”时，指定每个用户或工作角色应分配给该任务的小时数。 每个用户的所有已分配小时数的总和等于“分配”列底部&#x200B;**已计划小时数**&#x200B;字段中的数字。 在所有其它情况下，指定您希望被分派人解决任务或问题所花费的时间（或分配）百分比。
 
      >[!TIP]
      >   
@@ -141,7 +141,7 @@ ht-degree: 0%
      >   * 您无法手动修改问题的分配分配。
      >   * 您无法手动修改分配给任务的团队的分配。
 
-   * **被分派人的角色：**&#x200B;选择用户在完成此分派时应使用的角色。  默认情况下，将显示用户的主要角色。 单击被分配人的角色框以选择另一个角色。  在将任务或问题首先分配给角色，然后添加可以履行该角色的用户作为第二次分配时，将为可以履行已分配给任务和问题的角色的用户过滤建议用户列表。
+   * **被分派人的角色：**&#x200B;选择用户在完成此分派时应使用的角色。  默认情况下，将显示用户的主要角色。 单击&#x200B;**被分派人的角色**&#x200B;框以选择其他角色。 在将任务或问题首先分配给角色，然后添加可以履行该角色的用户作为第二次分配时，将为可以履行已分配给任务和问题的角色的用户过滤建议用户列表。
 
      ![被分派人的角色](assets/advanced-assignments-select-role.png)
 
@@ -160,6 +160,5 @@ ht-degree: 0%
      有关详细信息，请参阅[任务持续时间和持续时间类型概述](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)。 批量编辑分配信息时，会出现一个类似的对话框，用于分配用户、小时、分配和任务所有者。
 
    * **计划小时数**：当持续时间类型为计算分配或简单时，更新计划小时数。 因此，每个资源的分配百分比或小时数会平均分配。 当持续时间类型为计算工作或投入比驱动时，Workfront会计算已计划小时数。 有关详细信息，请参阅[任务持续时间和持续时间类型概述](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)。
-
 
 1. 单击&#x200B;**保存**。

@@ -7,9 +7,9 @@ description: 在管理任务和问题分配时，您可以使用智能分配来�
 author: Lisa
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
@@ -51,23 +51,23 @@ ht-degree: 0%
 
 * “工作总揽”列中的问题列表或报告
 
-  ![](assets/smart-assignments-issue-list.png)
+  ![问题列表分配列](assets/smart-assignments-issue-list.png)
 
 * “工作总揽”列中的任务列表或报告
 
-  ![](assets/smart-assignments-task-list.png)
+  ![任务列表分配列](assets/smart-assignments-task-list.png)
 
 * “工作总揽”字段中的任务标题
 
-  ![](assets/smart-assignments-task-header-nwe-350x302.png)
+  ![任务标题分配字段](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * 任务字段中的问题标题
 
-  ![](assets/smart-assignments-issue-header.png)
+  ![问题标题分配字段](assets/smart-assignments-issue-header.png)
 
 * 任务或问题任务区域中的摘要面板
 
-  ![](assets/issue-assignments-summary-panel.png)
+  ![摘要面板工作区域](assets/issue-assignments-summary-panel.png)
 
 <!--* The Assignments field in the New Task box, when adding a task to a project
 
@@ -81,8 +81,7 @@ ht-degree: 0%
 
 * 分配任务或问题时位于已分配此区域的工作负载均衡器
 
-  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
-
+  ![工作负载均衡器分配区域](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 ## 智能分配条件
 
@@ -153,7 +152,7 @@ Workfront计算任务的智能分配的方式与计算问题的方式相同。
 >
 >The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. For information, see the section [First phase of smart assignment calculation for tasks](#first-phase-of-smart-assignment-calculation-for-tasks) in this article. The following criteria always applies for issues, by default. -->
 
-![](assets/smart-assignments-issue-header.png)
+![智能分配示例](assets/smart-assignments-issue-header.png)
 
 根据以下条件的组合，在智能分配下拉列表中推荐用户（按照从高到低的顺序列出）：
 
