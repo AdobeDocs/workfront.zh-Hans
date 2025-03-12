@@ -7,9 +7,9 @@ author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: e02a593ddca923067eb61f838a7ade17e7fc3652
 workflow-type: tm+mt
-source-wordcount: '1914'
+source-wordcount: '1917'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,9 @@ ht-degree: 0%
 
 您可以将全局审批流程与工作项（项目、任务、问题、模板、模板任务）关联。
 
-全局审批流程必须可用于与工作项关联的组或系统中的所有组。
+您可以访问任何全局审批流程，只要该流程与您所属的组或系统中的所有组共享。
+
+<!--The global approval process must be available to the group associated with the work item or to all groups in the system.-->
 
 >[!NOTE]
 >

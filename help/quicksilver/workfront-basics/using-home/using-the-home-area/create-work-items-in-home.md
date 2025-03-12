@@ -6,9 +6,9 @@ description: 您可以从[!UICONTROL 主页]区域创建工作项和项目。
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: e02a593ddca923067eb61f838a7ade17e7fc3652
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '842'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,6 @@ ht-degree: 2%
 
 在家中，您可以
 
-* 为自己创建个人待办事项
 * 提交请求
 * 将任务和问题添加到特定项目
 * 从模板、空白项目创建项目或导入MS项目。

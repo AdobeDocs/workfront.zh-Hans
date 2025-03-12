@@ -6,9 +6,9 @@ description: 您可以调整燃尽图表的大小或折叠该图表，以调整�
 author: Lisa
 feature: Agile
 exl-id: ad7ea883-987a-4278-8d24-7c1dd4e542a3
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 1. 转至包含要调整大小的燃尽图表的迭代。
 1. 将鼠标悬停在燃尽图表的底线上，然后将该图表拖动到所需的大小。
-   ![](assets/burndown-resize.png)
+   ![调整燃尽图表的大小](assets/burndown-resize.png)
 
 ## 折叠燃尽图
 

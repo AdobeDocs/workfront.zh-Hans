@@ -7,9 +7,9 @@ description: 燃尽图以可视化形式呈现故事在迭代或项目中的进�
 author: Lisa
 feature: Agile
 exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -31,31 +31,31 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-dottedblue.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-dottedblue.png" alt="理想的燃尽率开始"> </td> 
    <td> <p>基于迭代开始时间的理想燃尽率。</p> <p>如果迭代的范围从不更改（小时或点从不添加或删除），则不显示此行。</p> <p>此线条在休息日完成工作时显示为平坦。 有关详细信息，请参阅<a title="使用敏捷燃尽图" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">休息日如何影响燃尽图</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-solidblue.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-solidblue.png" alt="故事或任务的理想燃尽率"> </td> 
    <td> <p>基于当前情景或任务的理想燃尽率。</p> <p>在迭代开始后，向迭代添加小时或点或从迭代中删除点时，当前理想燃尽率（实心蓝线）不同于原始理想燃尽率（虚蓝线）。</p> <p>此线条在休息日完成工作时显示为平坦。</p> <p>有关详细信息，请参阅<a title="使用敏捷燃尽图" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">休息日如何影响燃尽图</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-red.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-red.png" alt="实际燃尽率（红色）"> </td> 
    <td> <p>当燃尽率小于理想值（每天剩余的点数或小时数多于理想燃尽计算）时，实际燃尽率以红色显示。</p> <p>以下公式用于计算实际燃尽率：</p> <p>[SUM（正在进行的工作的点或小时值*完成百分比）+已完成工作的点或小时值]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-green.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-green.png" alt="实际燃尽率（绿色）"> </td> 
    <td> <p>当燃尽率等于或高于理想值（等于或低于理想燃尽计算的每天剩余点数）时，实际燃尽率以绿色显示。</p> <p>以下公式用于计算实际燃尽率：</p> <p>[SUM（正在进行的工作的点或小时值*完成百分比）+已完成工作的点或小时值]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="范围更改"> </td> 
    <td> <p>范围更改（在迭代中添加或删除小时或点）。</p> <p>范围更改始终在白天中间显示为垂直线。 此外，如果发生范围更改，则会在任何一天的中间显示一个蓝色圆点。</p> <p>燃尽图的垂直轴显示故事点或小时。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="日期范围中的更改"> </td> 
    <td> <p>日期范围的更改（迭代持续时间增加或减少）。</p> <p>在迭代持续时间发生更改的任何一天的中间会显示一个蓝色圆点。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="工作用绿点烧毁"> </td> 
    <td> <p>每当工作燃尽时，实际燃尽率上都会显示一个绿色或红色圆点。 （当当当天的实际燃尽率为红色时，圆点为红色；当当当天的实际燃尽率为绿色时，圆点为绿色。）</p> <p>出现以下任何情况时，工作都会被烧毁：</p> 
     <ul> 
      <li> [！UICONTROL完成百分比]在文章中会增加。<br>[！UICONTROL完成百分比]在以下情况下增加： 

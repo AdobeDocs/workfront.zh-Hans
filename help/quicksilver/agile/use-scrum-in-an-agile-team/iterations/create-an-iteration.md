@@ -6,9 +6,9 @@ description: 迭代是Scrum敏捷团队规划工作容量的关键组件。 [!DN
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: 6ae8e48361114e897d0be83ae81f8344074a5ec2
+source-git-commit: 6fb0870b919baf49e17d48586b2a9661e5cb4b94
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,14 @@ ht-degree: 0%
 
 1. （可选）单击&#x200B;**[!UICONTROL 切换团队]**&#x200B;图标![切换团队图标](assets/switch-team-icon.png)，然后从下拉菜单中选择新的Scrum团队或在搜索栏中搜索团队。
 
-1. 在左侧面板上选择&#x200B;**[!UICONTROL 积压]**。 然后，单击&#x200B;**[!UICONTROL 计划迭代]**。
+1. 在左侧面板上选择&#x200B;**[!UICONTROL 积压]**。
+
+1. 在&#x200B;**故事**&#x200B;或&#x200B;**问题**&#x200B;选项卡上，至少选择一个工作项，然后单击&#x200B;**[!UICONTROL 计划迭代]**。
+
+>[!NOTE]
+>
+> 在“积压”选项卡上规划迭代时，无法在“故事”或“问题”选项卡之间切换。 创建开发周期后，您可以添加现有故事或问题。 有关详细信息，请参阅[将故事从积压工作移动到迭代或讨论区](/help/quicksilver/agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or-board)。
+
 
 1. 指定以下信息：
 

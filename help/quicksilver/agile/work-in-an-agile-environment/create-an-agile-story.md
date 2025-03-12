@@ -6,7 +6,7 @@ description: 您可以通过各种方式在迭代上创建敏捷故事。 创建
 author: Lisa
 feature: Agile
 exl-id: d16ee940-3551-44da-8fe6-093f4fcac070
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 9a363dc0c591985c7ae8edb4a511fd648b486f1c
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 0%
@@ -65,7 +65,7 @@ ht-degree: 0%
    1. 在左侧面板中，选择&#x200B;**[!UICONTROL 迭代]**&#x200B;以选择特定迭代，或选择&#x200B;**[!UICONTROL 当前迭代]**。
    1. 单击要在其中创建文章的特定迭代的名称。
 
-   ![将新故事添加到迭代](assets/iteration-add-story.png)
+   ![将新故事添加到迭代](assets/iteration-stories-list.png)
 
 1. 单击&#x200B;**[!UICONTROL 新建故事]。**
 1. 指定以下信息：

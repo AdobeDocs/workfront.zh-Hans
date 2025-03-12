@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 1a0902c7c6e1b7f647564e448daf74748d9cb3db
+source-git-commit: 3ea3acc79a0f2d9c61b4ca7fff68855a9a7b1de7
 workflow-type: tm+mt
-source-wordcount: '1634'
+source-wordcount: '1706'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 0%
 有关Adobe Workfront的所有其他更改，请参阅[产品版本](/help/quicksilver/product-announcements/product-releases/product-releases.md)。
 
 ## 管理和设置
+
++++展开以查看管理和设置界面更新
 
 ### 公告中心的界面更新
 
@@ -140,7 +142,11 @@ ht-degree: 0%
 
 此更新包括对该区域的可视化更改。 功能未发生更改。
 
++++
+
 ## 敏捷
+
++++展开以查看Agile界面更新
 
 ### 团队请求的界面更新
 
@@ -177,7 +183,8 @@ ht-degree: 0%
 此更新包括以下更改：
 
 * 对“故事和问题”选项卡以及“分解故事”对话框的可视增强功能
-* 计划迭代工具的新对话框
+* 计划迭代工具的新对话框。 您必须选择一个故事或问题才能显示计划迭代按钮。
+* 规划迭代时，您无法再在“故事和问题”选项卡之间切换。 创建迭代后，即可从“积压”选项卡添加故事或问题。
 
 ### 小版本列表的界面更新
 
@@ -199,7 +206,11 @@ ht-degree: 0%
 
 要查看此更改，请转到“团队”>“选择团队”>“积压”，然后单击&#x200B;**新建故事**&#x200B;或&#x200B;**新建问题**。
 
++++
+
 ## 文档
+
++++展开以查看文档界面更新
 
 ### 文档审批区域的界面更新
 
@@ -217,7 +228,11 @@ ht-degree: 0%
 
 要查看此更改，请转到文档>单击智能过滤器名称旁边的更多菜单>单击编辑。
 
++++
+
 ## 报告和仪表板
+
++++展开以查看报表和功能板界面更新
 
 ### 更新了团队报告并增加了新样式
 
@@ -271,3 +286,5 @@ ht-degree: 0%
 
 * 旧版筛选器
 * 分组
+
++++

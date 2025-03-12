@@ -6,9 +6,9 @@ description: Scrum展示板故事的默认颜色关联因故事板位于开发�
 author: Lisa
 feature: Agile
 exl-id: 8e351505-73d1-4c8f-b369-53c965b88c95
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -59,8 +59,8 @@ ht-degree: 0%
 1. 在左侧面板中，选择&#x200B;**[!UICONTROL 迭代]**&#x200B;以选择特定迭代，或选择&#x200B;**[!UICONTROL 当前迭代]**。
 1. 将鼠标悬停在故事拼贴顶部的彩色横幅上。
 
-   ![](assets/agile-story-color1-nwe-350x140.png)
+   ![故事卡](assets/agile-story-color1-nwe-350x140.png)
 
 1. 单击&#x200B;**[!UICONTROL 更改颜色]**，然后选择所需的颜色。
 
-   ![](assets/agile-story-color2-nwe-350x138.png)
+   ![选择颜色](assets/agile-story-color2-nwe-350x138.png)

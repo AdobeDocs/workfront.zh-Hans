@@ -8,9 +8,9 @@ description: 作为Workfront Proof管理员，您可以配置Workfront Proof以�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 6210f20e-073a-45c8-9b71-212a124648e8
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+source-git-commit: aa0cd55db1bb70f74fb7157ed0aeb484d7598c0b
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
@@ -24,5 +24,3 @@ ht-degree: 0%
 作为[!DNL Workfront Proof]管理员，您可以将[!DNL Workfront Proof]配置为与[!DNL Basecamp]、[!DNL Basecamp Classic]、[!DNL NetSuite]和[!DNL Workfront]集成。
 
 建立用于集成的一般连接后，每个用户都可以通过“个人设置”页面上提供的[!UICONTROL 集成]选项卡来设置自己的个人连接。
-
-有关详细信息和说明，请参阅[集成文章](https://support.workfront.com/hc/en-us/categories/115000588707-Integrations)。

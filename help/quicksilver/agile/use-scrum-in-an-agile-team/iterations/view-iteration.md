@@ -6,7 +6,7 @@ description: 您可以查看给定团队的所有小版本，也可以查看单�
 author: Lisa
 feature: Agile
 exl-id: 1ee14c40-8047-4885-96f0-cddfc2617028
-source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
+source-git-commit: 556a2b89f2e380d3a0725f0d53251d3e1e3c7ca7
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -64,4 +64,4 @@ ht-degree: 0%
 1. （可选）单击要查看的特定小版本的名称。
 将显示迭代故事。
 
-   迭代中的![[!UICONTROL 故事]](assets/iteration-stories-list-NWE.png)
+   迭代中的![[!UICONTROL 故事]](assets/iteration-stories-list.png)

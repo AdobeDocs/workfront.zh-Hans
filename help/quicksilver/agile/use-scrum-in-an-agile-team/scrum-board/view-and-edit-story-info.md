@@ -6,9 +6,9 @@ description: 在Kanban展示板上查看故事拼贴时，某些信息可用于�
 author: Lisa
 feature: Agile
 exl-id: 88d156ea-0913-425e-b3eb-6ae81d2d2336
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -33,38 +33,38 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>带有直接指向任务或问题的链接的故事名称</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>带有直接指向项目的链接的项目名称<br>当在开发周期上使用敏捷视图时，此链接仅显示在故事中（父任务而非子任务）；当在项目上使用敏捷视图时，不显示此链接。</p> </td> 
-   <td>✓ {\f13 } </td> 
+   <td>✓ </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>文章的完成点数或小时数以及分配给文章的点数或小时数<br>这些数字用于计算并显示每个文章的[！UICONTROL完成百分比]。</p> </td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>每个故事和问题的[！UICONTROL完成百分比]。<br>迭代的[！UICONTROL完成百分比]是根据每个故事的[！UICONTROL完成百分比]计算的。</p> <p>更新故事或问题的[！UICONTROL完成百分比]时，您可以选择介于0和100之间的任意数字。</p> </td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>故事被分派到的用户</p> </td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>图块的颜色或类别</p> </td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>可能已通过修改Agile视图而添加到Agile视图的任何其他字段（包括自定义字段），如[！UICONTROL Adobe Workfront]</a>中的<a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">视图概述中的“创建和自定义[！UICONTROL Agile]视图”中所述。</p> </td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
  </tbody> 
 </table>
@@ -109,7 +109,7 @@ ht-degree: 0%
 1. 转到[!UICONTROL Scrum]敏捷故事板。
 1. 展开[!UICONTROL 文章]拼贴以查看与文章关联的所有字段。
 
-   ![](assets/agile-storycard-scrum-2021-350x333.png)
+   ![故事卡](assets/agile-storycard-scrum-2021-350x333.png)
 
 1. （可选）要编辑字段，请单击该字段，然后进行任何更改。
 
