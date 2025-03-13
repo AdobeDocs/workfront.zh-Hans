@@ -5,16 +5,16 @@ author: Alina
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 4dc32da0-9680-4b7f-a959-d4a0652618c5
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: c21029e098f6b4f51f8698155e2b8a2e789c8bfc
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '594'
 ht-degree: 1%
 
 ---
 
 # 导出自定义表单和对象详细信息
 
-您可以将对象的“详细信息”部分中的“概述”和自定义表单信息导出到PDF文件。 然后，您可以打印该PDF或将其与其他用户共享。
+您可以将对象的“概述”和“自定义表单”信息从“详细信息”部分导出到PDF文件。 然后，您可以打印或与其他用户共享PDF。
 
 以下对象支持此功能：
 
@@ -97,14 +97,10 @@ ht-degree: 1%
    >
    >可能存在以下情况：
    >
-   >   
-   >   
    >   * 当您的组或Workfront管理员取消选择概述区域中的所有字段并且对象附加了自定义表单时，概述部分不显示。
    >   * 当您的组或Workfront管理员取消选择概述区域中的所有字段，并且对象没有附加自定义表单时，导出下拉菜单不可见。
    >   * 当对象未附加自定义表单时，您只能导出概述区域。
-   >   * 逻辑落后且在表单上不可见的自定义字段不导出。 有关向自定义表单添加逻辑的信息，请参阅[向表单添加显示逻辑和跳过逻辑](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)。
-   >   
-   >
+   >   * 逻辑落后且在表单上不可见的自定义字段不导出。 有关将逻辑添加到自定义表单的信息，请参阅[将逻辑规则添加到自定义表单和字段](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)。
 
    将生成一个PDF文件并下载到您的计算机。 PDF文件包含以下信息：
 
