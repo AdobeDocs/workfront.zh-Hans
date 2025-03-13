@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '944'
 ht-degree: 6%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 6%
 
 ## 可在Adobe Workfront Planning中共享的对象
 
-您可以共享以下对象：
+您可以在Workfront Planning中手动共享以下对象：
 
 * Workspace
 
@@ -49,7 +49,7 @@ ht-degree: 6%
 
     * You can share record types with people inside your organization.
     * The level of permissions granted for the workspace displays as Inherited permissions for the record type. 
-    * You cannot share a workspace with a higher permission level than the user has on the workspace. 
+    * You cannot share a record type with a higher permission level than the user has on the workspace. 
 
     For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md). 
 
@@ -77,6 +77,8 @@ ht-degree: 6%
 * 工作角色
 
 </div>
+
+<span class="preview">当您与他人共享工作区和记录类型时，记录类型中的权限级别会自动继承到与其关联的记录和字段。</span>
 
 ## 关于在Adobe Workfront Planning中共享对象的注意事项
 
@@ -129,7 +131,7 @@ ht-degree: 6%
 
 ### 记录类型权限
 
-<!--In the Production environment,--> 向工作区授予权限时，始终会继承记录类型权限。
+<!--In the Production environment,--> 向工作区授予权限时，记录类型权限是<!--always-->继承的。
 
 以下是记录类型的权限级别：
 
@@ -145,18 +147,17 @@ ht-degree: 6%
 
 <div class="preview">
 
-In the Preview environment, Record Type permissions are inherited when you grant permissions to the workspace. 
+In the Preview environment, you can remove the record type's inherited permissions received from the workspace. 
 
-You can remove inherited permissions from the record type, but you can never grant higher permissions for the record type than users have on the workspace. 
+You can give users different permissions on the record type than they have on the workspace. However, you can never grant higher permissions for the record type than users have on the workspace. 
 
 The following scenarios exist: 
 
 |   Workspace permissions     | Automatic inherited permissions for a Record Type |Possible Record Type permissions when Inherited permissions are turned off (granted manually)| 
 |--------|--------|-------------|
-| Manage |   Manage    |   Manage, No permissions           | 
-| Contribute |     Contribute |  Contribute, View, No permissions        |
-| View   |  View     |      View, No permissions        |     
-
+| Manage |   Manage    |   Manage, Remove permissions           | 
+| Contribute |     Contribute |  Contribute, View, Remove permissions        |
+| View   |  View     |      View, Remove permissions        |     
 
 </div>
 
@@ -164,7 +165,7 @@ The following scenarios exist:
 
 ### 记录权限
 
-向工作区授予权限时，将继承记录权限。
+记录权限继承自<!--<span class="preview">the record type</span>, when you grant permissions to -->工作区<!-- and <span class="preview">the record type</span>-->。
 
 以下是记录的权限级别：
 
@@ -178,7 +179,8 @@ The following scenarios exist:
 
 ### 字段权限
 
-向工作区授予权限时，将继承字段权限。
+字段权限继承自<!--<span class="preview">the record type</span>, when you grant permissions to -->工作区<!--and <span class="preview">the record type</span>-->。
+
 以下权限是指字段本身，而不是与每个字段关联的值。 要编辑字段值，您必须具有编辑记录的权限。
 
 |        | 管理 | 参与 | 查看 |

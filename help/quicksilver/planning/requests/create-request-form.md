@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '1865'
+source-wordcount: '2084'
 ht-degree: 1%
 
 ---
@@ -160,7 +160,7 @@ ht-degree: 1%
 
    记录类型页面将在您上次访问的视图中打开。 默认情况下，将在表格视图中打开记录类型页面。
 
-1. 单击页眉中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**创建请求表单**。
+1. 单击页眉中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**创建请求表单** <span class="preview">或&#x200B;**管理请求表单**（如果您已经拥有表单并且想要创建其他表单）</span>。
 1. 更新请求表单的名称。 默认情况下，表单的名称为&#x200B;**无标题表单**。<!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. （可选）为请求表单添加&#x200B;**描述**。
 
@@ -258,7 +258,14 @@ ht-degree: 1%
    >     * 人员
    >
 
-1. （视情况而定）如果您在上一步中选择了&#x200B;**具有链接**&#x200B;的任何人，请从可用日历中选择&#x200B;**链接到期日期**。 链接过期后，用户会收到错误消息，您必须更新链接日期并生成要共享的新链接，之后用户才能再次访问表单。
+1. （视情况而定）如果您在上一步中选择了&#x200B;**具有链接**&#x200B;的任何人，请从可用日历中选择&#x200B;**链接到期日期**。<!--take out this tip when we release to production as in multiple forms this is no longer happening-->
+
+   >[!TIP]
+   >
+   >在这种情况下，会显示链接已公开共享。
+   >![记录类型菜单上的表单的公开共享链接](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
+
+   链接过期后，用户会收到错误消息，您必须更新链接日期并生成要共享的新链接，之后用户才能再次访问表单。
 
    您可以选择自当前日期起180天内的将来日期。
 
@@ -274,18 +281,31 @@ ht-degree: 1%
    有关使用请求表单链接创建记录的信息，请参阅[提交Adobe Workfront Planning请求](/help/quicksilver/planning/requests/submit-requests.md)。
 
 1. 单击&#x200B;**表单**&#x200B;选项卡右下角的&#x200B;**保存**&#x200B;以保存表单。
+
 1. 单击标题中表单名称左侧的向左箭头以关闭表单。
 
-   此时将打开记录类型页面。
-1. （可选）单击标题中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后执行以下操作之一：
+   <span class="preview">将打开&#x200B;**请求表单**&#x200B;表视图，该表单已添加到其中。</span>
+
+1. <span class="preview">（可选）将鼠标悬停在表视图中的请求表单名称上，然后单击表单名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击以下选项之一：</span>
+
+   * <span class="preview">**编辑表单**：单击此项可进一步编辑表单上的信息。</span>
+   * <span class="preview"> **取消发布**：单击此项可取消发布将表单从Workfront的“请求”区域删除的表单。</span>
+   * <span class="preview">**共享**：单击此项可修改谁有权访问该表单。</span>
+   * <span class="preview">**复制链接**：单击此项可快速复制请求表单的链接，而无需打开表单。</span>
+   * <span class="preview">**删除**：单击此项可删除表单。 使用该表单添加的所有请求和记录都不会被删除。 无法恢复表单。</span>
+
+   来自请求表单列表的请求表单上的![更多菜单](assets/more-menu-on-request-form-from-request-forms-list.png)
+
+
+1. <span class= "preview">单击标题中&#x200B;**请求表单**&#x200B;左侧的左箭头以关闭请求表单表。   </span>
+
+   <span class= "preview">记录类型页面打开。</span>
+1. （可选且有条件）在生产环境中，单击标题中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后执行以下操作之一：
    * 单击&#x200B;**更新请求表单**&#x200B;以更改请求表单。
    * 单击&#x200B;**将链接复制到请求表单**&#x200B;以与其他人共享该表单的链接。
 
-   或
+1. <span class="preview">（可选且有条件）在“预览”环境中，单击标题中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**管理请求表单**。</span>
 
-   * <span class= "preview">转到Workfront中的&#x200B;**请求**&#x200B;区域并查找共享表单以提交请求。 有关信息，请参阅[提交Adobe Workfront Planning请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。</span>
-
-   >[!TIP]
-   >
-   >在这种情况下，会显示链接已公开共享。
-   >![记录类型菜单上的表单的公开共享链接](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
+   <span class="preview">这将打开请求表单表格视图。</span>
+1. <span class="preview">单击请求表单以打开并编辑它。</span>
+1. <span class= "preview">（可选）转到Workfront中的&#x200B;**请求**&#x200B;区域并查找共享表单以提交请求。 有关信息，请参阅[提交Adobe Workfront Planning请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。</span>

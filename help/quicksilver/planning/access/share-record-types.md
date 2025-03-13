@@ -3,13 +3,13 @@ title: 共享记录类型
 description: 在使用Adobe Workfront Planning时，您可以与其他人共享记录类型以确保协作。
 hide: true
 hidefromtoc: true
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+exl-id: bf49db73-09f1-417e-836b-16c6062740d4
+source-git-commit: 5005493bb98b63f4c463f424be43a9d422744846
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1188'
 ht-degree: 0%
 
 ---
-
 
 <!-- add these to metadata on release:
 
@@ -30,8 +30,9 @@ recommendations: noDisplay, noCatalog-->
 
 >[!IMPORTANT]
 >
->* 向工作区授予权限可为用户提供与工作区中记录类型相同的权限。
->* 向记录类型授予权限可能会授予用户较小的权限，而不是他们已在工作区中拥有的较高权限。
+>* 默认情况下，向工作区授予权限会向用户提供工作区中记录类型的相同权限。
+>* 您可以调整单个记录类型的权限。
+>* 您不能授予用户比他们拥有的工作区访问权限更高的记录类型访问权限。
 > 有关详细信息，请参阅本文中的[共享记录类型时的注意事项](#considerations-when-sharing-record-types)部分。
 
 ## 访问要求
@@ -117,7 +118,7 @@ recommendations: noDisplay, noCatalog-->
 * 用户会自动从工作区继承记录类型权限。
 * 手动时，您可以将记录类型的查看权限授予用户，也可以从工作区中删除继承的权限。
 
-* 添加到记录类型且没有工作区权限的用户将自动添加到具有查看权限的工作区共享。
+* 添加到记录类型共享框且没有工作区权限的用户将自动添加到具有查看权限的工作区共享。
 
   要向没有工作区权限高于记录类型查看权限的用户授予记录类型的工作区权限，您必须先与他们共享工作区。 如果仅共享记录类型，则他们只能获得该记录类型的“查看”权限，并且他们还将被添加到具有“查看”权限的工作区。 授予他们记录类型的权限时，共享框中会显示已添加到工作区的权限。
 
@@ -128,7 +129,7 @@ recommendations: noDisplay, noCatalog-->
 
 ## 共享记录类型的权限
 
-您可以在Workfront Planning中将您创建的记录类型或您拥有管理权限的记录类型与用户、组、团队、公司和职位角色共享。
+如果您具有工作区的管理权限，则可以调整对工作区的各个记录类型的权限。
 
 {{step1-to-planning}}
 
@@ -145,7 +146,7 @@ recommendations: noDisplay, noCatalog-->
 1. （可选）在&#x200B;**有权访问**&#x200B;的区域中，从以下选项中选择： <!--the Only invited people is supposed to be removed - rewrite this - according to Vahan-->
 
    * **只有受邀人员才能访问**：您必须指定要与其共享视图的用户、组、团队、公司或工作角色。
-   * **工作区中的所有人都可以查看**：所有对该工作区具有“查看”或更高权限的用户都可以访问该视图。 这是默认选项。
+   * **工作区中的所有人都可以查看**：所有对该工作区具有“查看”或更高权限的用户都可以访问该视图。 这是默认选项。<!--rewrite this based on what Lilit says in the proof: At this point, once the inherited permissions are disabled, everyone in the workspace except workspace managers will have View permission to the record type because the "Everyone in the workspace can view"  setting cannot be changed. -->
 
 1. （可选）展开&#x200B;**继承的权限**&#x200B;选项以查看从工作区继承权限的用户、团队、组、公司或工作角色。
 
@@ -156,8 +157,8 @@ recommendations: noDisplay, noCatalog-->
 1. （可选且视情况而定）如果要与特定实体共享记录类型，并授予他们与工作区已存在的记录类型不同的访问权限，请执行以下操作：
 
    1. 关闭继承权限。
-   1. 在&#x200B;**授予对此记录类型的访问权限**字段中，添加要向其授予不同权限级别的用户、团队、组、公司或工作角色。
-1.选择权限级别。
+   1. 在&#x200B;**授予对此记录类型的访问权限**&#x200B;字段中，添加要向其授予不同权限级别的用户、团队、组、公司或工作角色。
+   1. 选择权限级别。
 
    >[!IMPORTANT]
    >
@@ -207,6 +208,8 @@ Users who access a link to a record type to which they do not have permissions c
    If you approved the request, the users are added to the sharing box of the view. The user requesting the permission receives an email confirmation that their request was approved. <!--will they also get an in-app notification??-->
 
 ## 删除对记录类型的权限
+
+<!-- take this section out - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
 
 {{step1-to-planning}}
 

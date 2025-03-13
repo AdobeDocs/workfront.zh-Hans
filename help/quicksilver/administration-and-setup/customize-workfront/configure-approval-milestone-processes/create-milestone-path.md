@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '875'
 ht-degree: 2%
 
 ---
@@ -45,7 +45,7 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td>计划</td> 
+   <td>规划</td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -115,26 +115,28 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
    </table>
 
 1. 单击&#x200B;**添加里程碑**&#x200B;并根据需要继续添加里程碑，直到路径完成。
+
 1. 单击&#x200B;**创建里程碑路径**&#x200B;以保存更改。
 
    您的里程碑路径已准备好与项目关联。
 
    有关如何将里程碑路径与项目关联以及将里程碑与任务关联的更多信息，请参阅[将里程碑与任务关联](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)。
 
-<!--
-1. <span class="preview">(Optional) Click the **Export** icon ![Export icon](assets/export-icon.png), then select from the following formats to export the milestone path list to a file: </span>
+
+1. <span class="preview">（可选）单击&#x200B;**导出**&#x200B;图标![导出图标](assets/export-icon.png)，然后从以下格式中选择以将里程碑路径列表导出到文件： </span>
 
    * PDF
    * Excel
    * Excel (xlsx)
-   * Tab Delimited
-1. <span class="preview">(Optional) Select a milestone in the milestone list, then click the **Edit** icon ![Edit icon](assets/edit-icon.png) to edit milestone information. </span>
-1. <span class="preview">(Optional) Select a milestone in the milestone list, then click the **Delete** icon ![Delete icon](assets/delete-icon.png) to delete it. </span>
-1. <span class="preview">Click **Yes, Delete it**. </span>
-   <span class="preview">The milestone is deleted and cannot be recovered. Any project information associated with the milestone and any task information associated with the milestone paths is also deleted. </span>
+   * 制表符分隔
 
-   </div>
--->
+1. <span class="preview">（可选）在里程碑列表中选择一个里程碑，然后单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)以编辑里程碑信息。</span>
+1. <span class="preview">（可选）在里程碑列表中选择一个里程碑，然后单击&#x200B;**删除**&#x200B;图标![删除图标](assets/delete-icon.png)将其删除。</span>
+1. <span class="preview">单击&#x200B;**是，删除**。</span>
+   <span class="preview">该里程碑已被删除，无法恢复。 与里程碑关联的任何项目信息以及与里程碑路径关联的任何任务信息也会被删除。</span>
+
+
+<div class="preview">
 
 ## 在报告中查看里程碑路径详细信息
 
@@ -171,9 +173,8 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
    * 里程碑路径组
    * 里程碑名称、描述、颜色和颜色图标
 
-   </div>
-
 1. （可选）单击&#x200B;**返回**&#x200B;以返回项目报告。
 
+</div>
 
 

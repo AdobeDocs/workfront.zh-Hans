@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '1844'
+source-wordcount: '2411'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,8 @@ ht-degree: 0%
 
 您可以通过执行以下操作之一来创建记录：
 
-* [从表视图的记录类型页面添加记录](#create-records-by-adding-them-to-a-record-type-in-a-record-type-table)
+* [通过从记录类型表视图内联添加记录来创建记录](#create-records-by-adding-them-inline-from-the-record-type-table-view)
+* <span class="preview">[使用任何记录类型视图中的“新建记录”或“请求记录”按钮创建记录](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)</span>
 * [从外部列表中复制并粘贴记录列表](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [从表视图复制记录](#create-records-by-duplicating-them)
 * [在连接其他记录时创建记录](#create-records-as-you-connect-them)
@@ -97,7 +98,8 @@ ht-degree: 0%
   </tr> 
 <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
-   <td> <p>为要添加记录的工作区<!--<span class="preview">and record type</span>-->贡献或更高权限。 </p>  
+   <td> <p>为要添加记录的工作区<!--<span class="preview">and record type</span>-->贡献或更高权限。 </p>
+   <p><span class="preview">查看工作区<!--<span class="preview">and record type</span>-->或更高权限，以使用记录页面上的“请求记录”按钮创建记录</span></p>
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>
    <p>管理Workfront对象（项目组合）的权限以添加子对象（项目）。</p>
    </td> 
@@ -113,9 +115,9 @@ ht-degree: 0%
 
 +++
 
-## 通过将记录添加到记录类型表中的记录类型来创建记录
+## 通过从记录类型表视图内联添加记录来创建记录
 
-您可以在记录类型页面的表格视图中创建记录。
+您可以在记录类型页面的表格视图中创建记录，因为您是内联添加记录的。
 
 有关编辑记录信息的信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
 
@@ -128,27 +130,28 @@ ht-degree: 0%
 1. 单击记录类型卡片。 有关创建记录类型的信息，请参阅[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)。
 
    记录类型页面将在您上次访问的视图中打开。 默认情况下，将在表格视图中打开记录类型页面。
-所选类型的所有记录都将显示在视图中。
+所选类型的记录将显示在视图中。
 
-1. （视情况而定）根据显示的视图，执行以下操作之一：
+1. （视情况而定）从表格视图中，执行以下操作之一：
 
-   * 从表格视图中：
+   * 在表的最后一行中单击&#x200B;**新建记录**
 
-      * 在表的最后一行中单击&#x200B;**新建记录**
+   * 在键盘上从表格的任意列或行单击&#x200B;**Shift + Enter**。 这会在您开始的记录下添加一个空行。
+   * 将鼠标悬停在记录的主字段上，单击该字段右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**在上方插入记录**&#x200B;或&#x200B;**在下方插入记录**。
 
-      * 在键盘上从表格的任意列或行单击&#x200B;**Shift + Enter**。 这会在您开始的记录下添加一个空行。
-      * 将鼠标悬停在记录的主字段上，单击该字段右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**在上方插入记录**&#x200B;或&#x200B;**在下方插入记录**。
+   ![在表行中添加新的营销活动](assets/adding-a-new-campaign-in-table-row.png)
 
-     ![在表行中添加新的营销活动](assets/adding-a-new-campaign-in-table-row.png)
+   Workfront会自动将缩略图上传到每条新记录。 您可以稍后修改这些图像。 有关信息，请参阅[将封面图像添加到记录](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)。
 
-   * 从任何视图中：
+   新记录将添加到表中。
 
-      * 单击页面右上角的&#x200B;**新建记录**。 记录预览框打开。
+1. 单击新记录的主要字段
 
-     Workfront会自动将缩略图和封面图像上传到每张新记录。 您可以稍后修改这些图像。 有关信息，请参阅以下文章：
+   或
 
-      * [将封面图像添加到记录](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
-      * [向记录添加缩略图](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
+   单击记录名称左侧的&#x200B;**打开详细信息**&#x200B;图标![表名称字段中的打开详细信息图标](assets/open-details-icon-in-table-name-field.png)。
+
+   预览框在表中打开。
 
 1. 开始在您在预览框中看到的字段中键入有关新记录的信息。
 
@@ -158,23 +161,94 @@ ht-degree: 0%
    >
    >  * 引用其他记录类型或计算字段的字段为只读字段。
 
-1. （视情况而定）在表中添加记录时，继续添加每行的信息，然后在键盘上单击&#x200B;**Enter**&#x200B;以保存更改。
+1. （视情况而定）在表中添加记录时，在打开记录的预览框之前，继续添加每行的信息，然后在键盘上单击&#x200B;**Enter**&#x200B;以保存更改。
 
    或
 
-   单击新记录的名称或记录名称左侧的&#x200B;**打开详细信息**&#x200B;图标![表名称字段](assets/open-details-icon-in-table-name-field.png)中的打开详细信息图标。 在表中打开包含记录详细信息的预览。
+   单击新记录名称或记录名称左侧的&#x200B;**打开详细信息**&#x200B;图标![在表名称字段中打开详细信息图标](assets/open-details-icon-in-table-name-field.png)以打开预览框并在详细信息区域编辑记录信息。
 
    >[!TIP]
    >
    >当名称字段是主字段时，您只能从记录的名称字段访问&#x200B;**打开详细信息**&#x200B;图标。
 
-1. 开始编辑记录预览中的记录信息。 Workfront会自动保存您所做的更改。
-1. （可选）单击记录预览右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开详细信息](assets/open-details-in-a-new-tab-icon.png)以新标签中打开记录页面。 继续编辑记录页面上的记录。 有关信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
+1. （可选）在记录的预览框中，单击&#x200B;**在新标签中打开**&#x200B;图标![在右上角的新标签中打开详细信息](assets/open-details-in-a-new-tab-icon.png)以新标签中打开记录的页面。 继续编辑记录页面上的记录。 有关信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
 
-1. （可选）在将新记录或其信息添加到表视图时，使用以下键盘快捷键可撤消或重做添加新记录或其信息：
+   Workfront会自动保存您所做的更改。
+
+1. （可选）关闭预览框或单击记录名称左侧的返回箭头（如果打开了记录的页面）。
+
+1. （可选）在表视图中添加新记录或其信息时，请使用以下键盘快捷键撤消或重做添加新记录或其信息：
 
    * CTRL + Z(Mac为⌘ + Z)可撤消更改
    * 按CTRL + Shift + Z(对于Mac，按⌘ + Shift + Z)可重做更改
+
+<div class="preview">
+
+## 使用任何记录类型视图中的“新建记录”或“请求记录”按钮创建记录
+
+对工作区<!--<span class="preview">and record type</span>-->具有查看权限的用户只能使用记录类型页面上的“请求记录”按钮来创建记录。
+
+对工作区<!--<span class="preview">and record type</span>-->具有Contribute和“管理”权限的用户可以使用记录类型页面上的“新建记录”按钮创建记录。
+<!--did the permissions to record types get released?? if not, take the record type reference here out; AND else-where in this article, including access requirements table-->
+
+>[!IMPORTANT]
+>
+>工作区管理员必须为记录类型创建请求表单，以便具有查看权限的用户使用请求表单添加记录。 否则，查看权限用户无法创建记录。
+
+{{step1-to-planning}}
+
+1. 单击要在其中添加记录的工作区。
+
+   工作区将打开，记录类型显示为卡片。
+
+1. 单击记录类型卡片。 有关创建记录类型的信息，请参阅[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)。
+
+   记录类型页面将在您上次访问的视图中打开。 默认情况下，将在表格视图中打开记录类型页面。
+所选类型的所有记录都将显示在视图中。
+
+1. 从任何视图中，根据工作区<!--<span class="preview">and record type</span>-->权限，单击屏幕右上角的以下内容：
+
+   * 如果您对工作区<!--<span class="preview">and record type</span>-->具有Contribute或更高权限，请单击&#x200B;**新建记录**
+
+     或
+
+   * 如果您对工作区<!--<span class="preview">and record type</span>-->具有查看权限，请单击&#x200B;**请求记录**。
+
+1. （视情况而定）如果您单击&#x200B;**新记录**，请执行以下操作：
+
+   1. 单击以下方法之一创建记录，然后单击&#x200B;**继续**：
+
+      * **手动添加**。 记录的预览框打开。\
+        添加有关记录的信息，如从第6步开始，通过从本文中的记录类型表视图](#create-records-by-adding-them-inline-from-the-record-type-table-view)节内联添加记录来创建记录[中所述。<!--insure this stays accurate-->
+      * **从文件上载**
+添加记录，如文章[中所述。通过从CSV或Excel文件导入信息创建记录](/help/quicksilver/planning/records/import-file-to-create-records.md)，从步骤6开始。<!--ensure this stays accurate-->
+      * **提交请求**
+此时将打开记录类型的请求表单。
+
+        工作区管理员必须创建请求表单，以便能够使用请求表单添加记录。
+
+        >[!TIP]
+        >
+        >某些记录类型可能具有多个表单。 单击一个以将其打开。
+
+        按照文章[提交Adobe Workfront Planning请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)中的说明添加记录，从步骤6开始。<!--ensure this stays accurate-->
+
+      ![](assets/three-ways-to-create-records-choice-modal.png)
+
+1. （视情况而定）如果您单击&#x200B;**请求记录**，请执行以下操作：
+
+   1. （视情况而定）如果记录类型有多个请求表单，请单击其中一个以选择它。
+   2. 从第6步开始，按照文章[提交Adobe Workfront Planning请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)中所述，继续在表单中添加信息以创建记录。<!--ensure this stays accurate-->
+
+1. （视情况而定）审查新记录。
+
+   根据您选择添加记录的方式，可能会出现以下情况：
+
+   * 新记录将添加到记录类型，除非您选择使用具有审批流程的请求表单添加记录。 在创建记录之前，必须由所有批准者进行批准。
+   * 如果您使用CSV或Excel电子表格添加记录，则向记录类型添加多个记录。
+   * 如果您通过提交请求表单来添加请求，则新请求会添加到Workfront请求区域的Planning选项卡中。
+
+</div>
 
 <!-- this is not possible anymore: 
 
