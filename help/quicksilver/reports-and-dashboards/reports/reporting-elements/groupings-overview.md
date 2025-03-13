@@ -7,9 +7,9 @@ description: 您可以添加分组来管理报告和列表中的信息布局。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: d050372e-c4a0-4c49-b220-5b35334ab8d0
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 69dec186cdb8a6d29853703edb41073282cdd447
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '813'
 ht-degree: 0%
 
 ---
@@ -64,13 +64,17 @@ ht-degree: 0%
 
 您可以通过汇总报告每列中的值来汇总分组行中报告显示的数据。 有关汇总分组中列数据的更多信息，请参阅Adobe Workfront中的[视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)。
 
+
 >[!NOTE]
 >
 >在分组中聚合以下字段的值时，以下例外适用于父对象（例如，父任务）：
 >
->* 除“实际小时数”（例如，“计划/实际劳力成本”、“计划/实际费用成本”、“计划/实际成本”、“计划小时数”）之外的所有数字和货币字段仅汇总子任务和独立任务的值。 它们不会聚合父任务的值或父任务的父值。
->* 实际小时数聚合主父级任务和独立任务的值；它们不会聚合父级任务或子级任务的父级任务的数量。
+>* 除“实际小时数”之外的所有数字、货币和日期字段，仅聚合子任务和独立任务的值。 它们不会聚合父任务的值或父任务的父值。 在仅包含父任务的列表中对数字、货币和日期字段进行聚合时，不会在分组栏中显示聚合值。
+>
+>* 实际小时数聚合主父任务和独立任务的值；它们不会聚合子任务的数量或父任务的父任务的数量。<!--Examples of Actual hours include Planned/Actual Labor Cost, Planned/Actual Expense Cost, Planned/Actual Cost, and Planned Hours.-->
+>
 >* 数字和货币值的自定义数据字段汇总所有任务：父任务、子任务、父任务的父任务和独立任务。
+
 
 ### 按分组排序 {#sort-by-a-grouping}
 
@@ -84,3 +88,13 @@ ht-degree: 0%
 * **如果分组已与您共享并且您将其删除**，则仅为您删除该分组。 最初创建该分组的用户及其共享的任何其他用户仍有权访问该分组。
 
 有关删除分组的信息，请参阅文章[删除筛选器、视图和分组](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)。
+
+
+<!--Original note
+
+The following exceptions apply for parent objects (for example, parent tasks) when you are aggregating values for the following fields in groupings:
+All the number and currency fields except Actual Hours (for example, Planned/ Actual Labor Cost, Planned/ Actual Expense Cost, Planned/ Actual Cost, Planned Hours) aggregate only the values for the children tasks, and standalone tasks. They do not aggregate the values for the parent tasks or parents of parents.
+Actual Hours aggregate the values for the main parent and the standalone tasks; they do not aggregate the numbers for the parents of parent tasks or the children tasks.
+Custom data fields for number and currency values aggregate all tasks: parents, children, parents of parents, and standalone tasks.
+
+-->

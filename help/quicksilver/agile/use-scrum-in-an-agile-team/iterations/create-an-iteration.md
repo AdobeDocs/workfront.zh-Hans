@@ -6,9 +6,9 @@ description: 迭代是Scrum敏捷团队规划工作容量的关键组件。 [!DN
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: 6fb0870b919baf49e17d48586b2a9661e5cb4b94
+source-git-commit: e24c97e78b210fc385052b573fe69d092b521a90
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1036'
 ht-degree: 0%
 
 ---
@@ -103,11 +103,11 @@ ht-degree: 0%
 
 1. 在左侧面板上选择&#x200B;**[!UICONTROL 积压]**。
 
-1. 在&#x200B;**故事**&#x200B;或&#x200B;**问题**&#x200B;选项卡上，至少选择一个工作项，然后单击&#x200B;**[!UICONTROL 计划迭代]**。
+1. 在&#x200B;**故事**&#x200B;或&#x200B;**问题**&#x200B;选项卡上，选择要添加到开发周期的工作项，然后单击&#x200B;**[!UICONTROL 计划开发周期]**。
 
 >[!NOTE]
 >
-> 在“积压”选项卡上规划迭代时，无法在“故事”或“问题”选项卡之间切换。 创建开发周期后，您可以添加现有故事或问题。 有关详细信息，请参阅[将故事从积压工作移动到迭代或讨论区](/help/quicksilver/agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or-board)。
+> 在“积压”选项卡上规划迭代时，无法在“故事”或“问题”选项卡之间切换或添加其他任务。 创建开发周期后，您可以添加现有故事或问题。 有关详细信息，请参阅下面的“积压”选项卡](#add-tasks-or-issues-to-an-existing-iteration-on-the-backlog-tab)上的[将任务或问题添加到现有迭代。
 
 
 1. 指定以下信息：
@@ -143,19 +143,20 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. （可选）选择故事以立即将其添加到开发周期，或者您可以跳过此步骤并在以后将故事添加到开发周期。 积压工作顶部的故事优先级别更高。 当故事符合容量要求时，它们会以绿色突出显示；否则，它们会以红色突出显示。
-您可以将任务和问题添加到单个迭代：
+1. 单击&#x200B;**[!UICONTROL 保存]。**&#x200B;已创建迭代。
 
-   * **要将任务添加到迭代：**&#x200B;在&#x200B;**[!UICONTROL 积压]**&#x200B;选项卡上，确保选中&#x200B;**[!UICONTROL 故事]**&#x200B;选项卡（查看积压时默认选择此选项卡）。 选择要添加到开发周期的故事。
+## 将任务或问题添加到积压工作选项卡上的现有迭代
 
-     将任务添加到迭代时，任务的开始日期将按照[[!UICONTROL 了解]中所述计算任务开始日期的方式添加到迭代](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration)中。
+1. 在&#x200B;**积压**&#x200B;选项卡中，单击&#x200B;**故事**&#x200B;或&#x200B;**问题**&#x200B;选项卡。
 
-   * **要将问题添加到迭代：**&#x200B;在&#x200B;**[!UICONTROL 积压]**&#x200B;选项卡上，单击&#x200B;**[!UICONTROL 问题]**&#x200B;选项卡。 选择要添加到开发周期的问题。
+1. 选择要添加到开发周期的故事或问题。 积压工作顶部的故事优先级别更高。
 
-1. 单击&#x200B;**[!UICONTROL 保存]。**
-将创建迭代。
+   ![移动工作项](assets/move-to-iteration.png)
 
-1. （可选）要将故事添加到现有迭代，请参阅[将故事添加到现有迭代](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)。
+   >[!NOTE]
+   >
+   >  将任务添加到迭代时，任务的开始日期将按照[[!UICONTROL 了解]中所述计算任务开始日期的方式添加到迭代](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration)中。
+
 
 ## 了解将任务添加到开发周期后如何计算任务开始日期 {#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration}
 
