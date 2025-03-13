@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
+source-git-commit: e5878d3b591e65f4ece2a79248e03940976580de
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1935'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,31 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 通过记录类型设置和管理多个请求表单
+
+>[!NOTE]
+>
+>预览：2025年3月13日；面向所有客户的生产：2025年4月10日
+
+为了帮助您为来自贵组织不同领域的利益相关者自定义请求表单，我们现在引进了为记录类型创建和管理多个请求表单的功能。 在此增强功能之前，您只能为一个记录类型创建一个表单。
+
+使用不同表单提交的所有请求都可以创建选定记录类型的记录。 您现在可以为同一记录类型设置多个请求表单。 这些表单列在记录类型上的新请求表单表格视图中。 管理请求表单时，您现在可以从记录类型的请求表单列表中编辑、发布、共享、复制或删除请求表单。
+
+有关详细信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
+
+## 轻松访问记录类型页面上发布的请求表单
+
+>[!NOTE]
+>
+>预览：2025年3月13日；面向所有客户的生产：2025年4月10日
+
+您现在可以从记录类型页面右上角的新记录按钮访问请求表单。 对于具有工作区查看权限的用户，新记录显示为请求记录按钮。
+
+除了能够手动创建记录以及通过导入CSV或Excel文件之外，您现在还可以从记录类型页面中的请求表单创建记录。
+在此改进之前，您只能使用请求表单，通过指向表单的直接链接或从Workfront的请求区域创建记录。
+
+有关信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
 
 ## 在Workfront自定义表单的Planning连接字段中添加来自已连接记录的查找字段
 

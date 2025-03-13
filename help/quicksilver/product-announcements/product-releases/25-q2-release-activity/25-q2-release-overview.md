@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: cbadf0a758369bf9835b5804a036fddbc37dbb51
+source-git-commit: a86b91ee323e9efdca33655eaaac805a019cbb1c
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1158'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Workfront版本编号代表了每月和每季度的版本跟踪。 第一个数�
 
 | 每月发布 | 季度发布 |
 | ----------------- | ----------------- |
-| <ul><li>25.2（2025年2月13日）</li><li>25.3（2025年3月）</li><li>25.4（2025年4月）</li></ul> | <ul><li>25.4（2025年4月）</li></ul> |
+| <ul><li>25.2（2025年2月13日）</li><li>25.3（2025年3月13日）</li><li>25.4（2025年4月10日）</li></ul> | <ul><li>25.4（2025年4月10日）</li></ul> |
 
 >[!NOTE]
 >
@@ -47,6 +47,21 @@ Workfront版本编号代表了每月和每季度的版本跟踪。 第一个数�
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            自定义表单逻辑的增强功能</a></p>
+            <p>自定义表单逻辑生成器的界面已更新，为您提供了更大的空间来创建逻辑规则。 此新设计可以更轻松地适应将来可能添加的其他逻辑类型。</p><p>除了当前的显示和跳过逻辑选项外，还可以使用验证逻辑。</p>
+        </td>
+        <td>
+            <p><b>在以下日期可用：</b></p>
+            <ul>
+                <li>预览版本： 2025年1月31日</li>
+                <li><span class="preview">所有客户的生产版本： 2025年1月31日</span></li>
+            </ul>
+        </td>
+    </tr>                          
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
@@ -74,7 +89,7 @@ Workfront版本编号代表了每月和每季度的版本跟踪。 第一个数�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            在文档报告中一次编辑多个文档 </a></p>
+            在文档报告中一次编辑多个文档 </a></p>[！BADGE In Production ]{type=Informational}
             <p>您现在可以在文档报告中一次编辑多个文档。 您可以编辑说明并更新自定义表单。</p>
         </td>
         <td>
@@ -97,7 +112,7 @@ Workfront版本编号代表了每月和每季度的版本跟踪。 第一个数�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            在编辑项目框中编辑项目时，向项目添加评论</a></p>
+            在编辑项目框</a>[！BADGE In production for Fast Release]{type=Positive}中编辑项目时，向项目添加评论</p>
             <p>现在，您可以在编辑项目框中编辑项目时，为项目添加注释。 批量编辑多个项目时，您还可以同时向这些项目添加评论。 在此更新之前，在编辑项目时不存在此功能。</p>
         </td>
         <td>
