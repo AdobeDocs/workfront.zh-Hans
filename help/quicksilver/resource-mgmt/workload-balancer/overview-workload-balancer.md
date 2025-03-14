@@ -7,14 +7,19 @@ description: 项目经理通过创建任务来计划项目工作之后，以及�
 author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: 233e61c011cc87f49d0d4082a20b7790104c96c8
+source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1194'
 ht-degree: 0%
 
 ---
 
-# 工作负载均衡器概述
+# 工作负载均衡器概述 {#workload-balancer-overview}
+
+>[!CONTEXTUALHELP]
+>id="wf-resourcing-workload-balancer"
+>title="工作负载均衡器"
+>abstract="项目所有者和团队经理可以使用工作负载均衡器将工作项分配给用户。"
 
 <!--
 <p>(NOTE: this is linked from the UI for the Workload Balancer page. DO NOT CHANGE TITLE OR LINK) </p>
@@ -30,7 +35,7 @@ ht-degree: 0%
 
 本文介绍了工作负载均衡器的常规用途以及如何设置项目和资源以成功使用它的一些最佳实践。
 
-要查看工作负载均衡器的视频教程，请转到[WorkfrontTutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)页面。 在左侧菜单中，选择&#x200B;**管理资源** > **工作负载均衡器**，然后选择教程。
+要查看工作负载均衡器的视频教程，请转到[Workfront教程](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)页面。 在左侧菜单中，选择&#x200B;**管理资源** > **工作负载均衡器**，然后选择教程。
 
 ## 找到工作负载均衡器
 

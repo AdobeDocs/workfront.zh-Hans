@@ -7,14 +7,19 @@ description: 您可以使用资源计划程序来估计和预算分配给其所�
 author: Lisa
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
 workflow-type: tm+mt
-source-wordcount: '2082'
+source-wordcount: '2113'
 ht-degree: 0%
 
 ---
 
-# 资源规划者概述
+# 资源规划者概述 {#resource-planner-overview}
+
+>[!CONTEXTUALHELP]
+>id="wf-resourcing-planner"
+>title="资源规划程序"
+>abstract="您可以使用资源计划员来估计和预算分配给其所分配项目的资源，并预测其将来工作的可用性。"
 
 <!-- Audited: 12/2023 -->
 
