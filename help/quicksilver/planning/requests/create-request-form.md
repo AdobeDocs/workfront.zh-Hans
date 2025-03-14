@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: 7c39f54677be746ce6305124026df7df598b3da2
 workflow-type: tm+mt
-source-wordcount: '2084'
+source-wordcount: '2121'
 ht-degree: 1%
 
 ---
@@ -161,6 +161,7 @@ ht-degree: 1%
    记录类型页面将在您上次访问的视图中打开。 默认情况下，将在表格视图中打开记录类型页面。
 
 1. 单击页眉中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**创建请求表单** <span class="preview">或&#x200B;**管理请求表单**（如果您已经拥有表单并且想要创建其他表单）</span>。
+1. <span class="preview">（视情况而定）如果要添加其他表单，请单击&#x200B;**新建请求表单**</span>。
 1. 更新请求表单的名称。 默认情况下，表单的名称为&#x200B;**无标题表单**。<!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. （可选）为请求表单添加&#x200B;**描述**。
 
@@ -271,7 +272,7 @@ ht-degree: 1%
 
    >[!TIP]
    >
-   ><span class="preview">共享日期过期后，Workfront的“请求”区域中不再提供该请求表单。</span>
+   ><span class="preview">共享日期过期后，Workfront的“请求”区域中不再提供该请求表单，并且无法再访问与其他用户共享的链接。</span>
 
 
 1. <span class="preview">（可选）</span>单击&#x200B;**保存并复制链接**&#x200B;以保存表单的共享详细信息。 如果表单之前已保存，请单击&#x200B;**复制链接**。
@@ -300,12 +301,20 @@ ht-degree: 1%
 1. <span class= "preview">单击标题中&#x200B;**请求表单**&#x200B;左侧的左箭头以关闭请求表单表。   </span>
 
    <span class= "preview">记录类型页面打开。</span>
-1. （可选且有条件）在生产环境中，单击标题中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后执行以下操作之一：
-   * 单击&#x200B;**更新请求表单**&#x200B;以更改请求表单。
-   * 单击&#x200B;**将链接复制到请求表单**&#x200B;以与其他人共享该表单的链接。
+1. （可选且视情况而定）要编辑现有表单，请根据您使用的环境执行以下操作之一：
 
-1. <span class="preview">（可选且有条件）在“预览”环境中，单击标题中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**管理请求表单**。</span>
+   * 在生产环境中：
 
-   <span class="preview">这将打开请求表单表格视图。</span>
-1. <span class="preview">单击请求表单以打开并编辑它。</span>
-1. <span class= "preview">（可选）转到Workfront中的&#x200B;**请求**&#x200B;区域并查找共享表单以提交请求。 有关信息，请参阅[提交Adobe Workfront Planning请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。</span>
+      1. 单击标题中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后执行以下操作之一：
+
+      1. 单击&#x200B;**更新请求表单**&#x200B;以更改请求表单。
+      1. 单击&#x200B;**将链接复制到请求表单**&#x200B;以与其他人共享该表单的链接。
+
+   * <span class="preview">从预览环境：
+
+      1. 单击标题中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**管理请求表单**。</span>
+
+         <span class="preview">这将打开请求表单表格视图。</span>
+
+      1. <span class="preview">单击请求表单以打开并编辑它。</span>
+      1. <span class= "preview">（可选）转到Workfront中的&#x200B;**请求**&#x200B;区域并查找共享表单以提交请求。 有关信息，请参阅[提交Adobe Workfront Planning请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。</span>
