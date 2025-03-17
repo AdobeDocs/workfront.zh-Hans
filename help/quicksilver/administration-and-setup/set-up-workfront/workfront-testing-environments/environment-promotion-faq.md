@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: b8d5abc996a3902a8ab8cdce9a8f8d92d4736db1
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 3%
@@ -70,5 +70,4 @@ ht-degree: 3%
 ### 答案
 
 * “使用现有”与“跳过”或忽略部署相同，因为它映射到目标环境中的现有对象，并且不进行任何更改。
-* 要跳过对象，我们建议删除
-不想从升级包或直接从源环境安装的任何对象。 移除对象后，重新装配包。
+* 要跳过对象，我们建议从升级包中或直接从源环境中删除您不希望安装的任何对象。 移除对象后，重新装配包。
