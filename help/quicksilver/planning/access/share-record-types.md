@@ -4,9 +4,9 @@ description: 在使用Adobe Workfront Planning时，您可以与其他人共享�
 hide: true
 hidefromtoc: true
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 5005493bb98b63f4c463f424be43a9d422744846
+source-git-commit: 3cbcc2dd2efb457f5f0c4213110af54230a23eb0
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,10 @@ recommendations: noDisplay, noCatalog-->
 >[!IMPORTANT]
 >
 >* 默认情况下，向工作区授予权限会向用户提供工作区中记录类型的相同权限。
->* 您可以调整单个记录类型的权限。
->* 您不能授予用户比他们拥有的工作区访问权限更高的记录类型访问权限。
+>* 此外，您可以调整单个记录类型的权限。
+>* 但是，您不能向人员授予比他们对工作区具有的权限更高的记录类型权限。
+>* 具有工作区的“管理”权限的用户始终保持对工作区中所有记录类型的“管理”访问权限。 无法降低其对记录类型的权限，即使已关闭继承权限也是如此。
+> 
 > 有关详细信息，请参阅本文中的[共享记录类型时的注意事项](#considerations-when-sharing-record-types)部分。
 
 ## 访问要求
@@ -111,21 +113,28 @@ recommendations: noDisplay, noCatalog-->
 ## 共享记录类型时的注意事项
 
 * 有关在Workfront Planning中共享对象的一般信息，另请参阅[在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
+
+* 目前，当您共享记录类型时，可以实现以下目标：
+   * 当您首次与用户共享记录类型并且他们没有任何工作区权限时，向用户提供工作区的查看权限。
+
+     这还为他们提供了对工作区中所有记录类型的查看权限。
+
+     授予他们记录类型的权限时，共享框中会显示已添加到工作区的权限。
+   * 关闭继承权限时，使记录类型仅对工作区中的每个人（工作区管理员除外）可见。
+
+     具有工作区的“管理”权限的用户始终对记录类型具有“管理”权限，即使您关闭记录类型的“继承”权限也是如此。
+  <!-- checking with Lilit - this doesn't make much sense: * Add people with Contribute permission to the workspace, who will retain Contribute permission to the record type. This way, only the selected people can manage records in the record type, while others can only view them. -->
+   * 降低人们对记录类型的权限。 您无法根据某人在工作区中的权限来增加其对记录类型的权限。
+
+     例如，如果某人拥有工作区的“Contribute”权限，则您可以将其权限更改为要查看的特定记录类型。 但是，如果他们具有工作区的查看权限，则无法向他们授予对任何记录类型的Contribute权限。
+
+* 无法删除工作区中人员的记录类型的访问权限。 每个人都至少具有查看权限。
+
 * 您可以在内部与以下实体共享记录类型：
 
    * Workfront用户、组、团队、公司和职位角色
 * 您无法与Workfront之外的用户从外部共享记录类型。
-* 用户会自动从工作区继承记录类型权限。
-* 手动时，您可以将记录类型的查看权限授予用户，也可以从工作区中删除继承的权限。
-
-* 添加到记录类型共享框且没有工作区权限的用户将自动添加到具有查看权限的工作区共享。
-
-  要向没有工作区权限高于记录类型查看权限的用户授予记录类型的工作区权限，您必须先与他们共享工作区。 如果仅共享记录类型，则他们只能获得该记录类型的“查看”权限，并且他们还将被添加到具有“查看”权限的工作区。 授予他们记录类型的权限时，共享框中会显示已添加到工作区的权限。
-
-* 您无法授予某人比他们在工作区中更高的记录类型权限。
-
-  例如，您无法向某人授予工作区的“查看”权限以及记录类型的“管理”权限。
-
+* 要向没有工作区权限高于查看权限的用户授予记录类型的权限，您必须首先以高于查看的权限与他们共享工作区。
 
 ## 共享记录类型的权限
 
@@ -154,16 +163,23 @@ recommendations: noDisplay, noCatalog-->
    >
    >您无法从继承的权限列表中删除单个实体。
 
+
 1. （可选且视情况而定）如果要与特定实体共享记录类型，并授予他们与工作区已存在的记录类型不同的访问权限，请执行以下操作：
 
-   1. 关闭继承权限。
+1. **关闭**&#x200B;继承权限。
+
+   >[!TIP]
+   >
+   >Workspace管理员继续拥有记录类型的管理权限。
+
    1. 在&#x200B;**授予对此记录类型的访问权限**&#x200B;字段中，添加要向其授予不同权限级别的用户、团队、组、公司或工作角色。
    1. 选择权限级别。
+
 
    >[!IMPORTANT]
    >
    >* 您永远不能授予用户在记录类型上比他们在工作区上更大的权限。
-   >* 如果用户具有工作区的“管理”权限，则不能将较低的“管理”权限授予记录类型。
+   >* 您不能授予比“管理”更小的用户记录类型权限（如果他们具有工作区的管理权限）。
    >* 如果用户具有工作区的“贡献”权限，则可以授予他们较少的记录类型权限。
    > 有关详细信息，请参阅[在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 
@@ -224,6 +240,6 @@ Users who access a link to a record type to which they do not have permissions c
 
 1. 单击&#x200B;**保存**。
 
-   人员不再具有对记录类型的访问权限。 他们仍可以拥有工作区的权限，除非您也从工作区权限中删除他们。
+   人员不再具有对记录类型的访问权限。 他们仍可以拥有工作区的权限，除非您还将他们从工作区权限中删除。
 
    对于已从访问视图中删除的用户，不会通知他们不再具有此访问权限。

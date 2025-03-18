@@ -2,14 +2,14 @@
 product-area: projects
 navigation-topic: plan-a-project
 title: 计划项目概述
-description: 计划项目概述
+description: 了解什么是项目，如何建立项目的范围和结构，以及计划、时间表以及开始和完成日期等关键概念。
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 3cbcc2dd2efb457f5f0c4213110af54230a23eb0
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1414'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 < see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
 -->
 
-项目是Adobe Workfront中的一个大型工作项。 您可以将项目划分为较小工作项的任务，如任务。 任务可以分配给负责完成任务的用户或团队。 当所有用户完成其任务时，项目也会完成。
+项目是Adobe Workfront中的一个大型工作项。 您可以将项目划分为较小工作项的任务。 任务可以分配给负责完成任务的用户或团队。 当所有用户完成其任务时，项目也会完成。
 
 除了在项目中计划任务外，计划项目时还会涉及许多其他详细信息。 从确定经济影响到考虑资源的可获得性，有许多项目要素需要引起注意。
 
