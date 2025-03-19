@@ -4,7 +4,7 @@ description: 在使用Adobe Workfront Planning时，您可以与其他人共享�
 hide: true
 hidefromtoc: true
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 08c9eb508861d585d8f76de5bb523132f3be371f
+source-git-commit: 4df268c9b5a99991bee3f1862c83fe0079d162c1
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 0%
@@ -17,6 +17,8 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog-->
+
+<!-- take the Remove permissions section out, at the end - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
 
 # 共享记录类型
 
@@ -196,6 +198,25 @@ recommendations: noDisplay, noCatalog-->
 
 1. 与他人共享复制的链接。 接收链接的用户必须是活动用户并登录到Workfront才能访问记录类型页面并在选定视图中显示该页面。
 
+## 删除对记录类型的权限
+
+{{step1-to-planning}}
+
+1. 打开要停止共享其记录类型的工作区，然后单击记录类型信息卡。 这将打开记录类型页面。
+
+1. 从任何视图的选项卡中，单击记录类型右上角的&#x200B;**共享**。
+
+   将打开&#x200B;**共享**&#x200B;框。
+1. 查找要删除其权限的用户、组、团队、公司或工作角色，展开其名称右侧的权限下拉菜单，然后单击“**删除**”。<!--check the screen shot below - the UI text for View might not be accurate-->
+
+   ![删除记录类型共享下拉列表上的选项](assets/remove-option-on-record-type-sharing-drop-down.png)
+
+1. 单击&#x200B;**保存**。
+
+   人员不再具有对记录类型的访问权限。 他们仍可以拥有工作区的权限，除非您还将他们从工作区权限中删除。
+
+   对于已从访问视图中删除的用户，不会通知他们不再具有此访问权限。
+
 <!-- This is not working yet: *************************** edit this before publishing, because this was not tested with record types - this section came from sharing views *******************: 
 
 ## Grant permissions to a record type from a permission request
@@ -222,25 +243,4 @@ Users who access a link to a record type to which they do not have permissions c
 1. Click the left-pointing arrow to the left of **Pending access requests**, then click **Save**.
 
    If you approved the request, the users are added to the sharing box of the view. The user requesting the permission receives an email confirmation that their request was approved. <!--will they also get an in-app notification??-->
-
-## 删除对记录类型的权限
-
-<!-- take this section out - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
-
-{{step1-to-planning}}
-
-1. 打开要停止共享其记录类型的工作区，然后单击记录类型信息卡。 这将打开记录类型页面。
-
-1. 从任何视图的选项卡中，单击记录类型右上角的&#x200B;**共享**。
-
-   将打开&#x200B;**共享**&#x200B;框。
-1. 查找要删除其权限的用户、组、团队、公司或工作角色，展开其名称右侧的权限下拉菜单，然后单击“**删除**”。<!--check the screen shot below - the UI text for View might not be accurate-->
-
-   ![删除记录类型共享下拉列表上的选项](assets/remove-option-on-record-type-sharing-drop-down.png)
-
-1. 单击&#x200B;**保存**。
-
-   人员不再具有对记录类型的访问权限。 他们仍可以拥有工作区的权限，除非您还将他们从工作区权限中删除。
-
-   对于已从访问视图中删除的用户，不会通知他们不再具有此访问权限。
 

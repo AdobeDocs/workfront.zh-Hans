@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 7c39f54677be746ce6305124026df7df598b3da2
+source-git-commit: 4df268c9b5a99991bee3f1862c83fe0079d162c1
 workflow-type: tm+mt
 source-wordcount: '2121'
 ht-degree: 1%
@@ -134,7 +134,7 @@ ht-degree: 1%
 
    * “货币”、“数字”和“百分比”字段在表单生成器中显示为单行文本字段类型。
 
-     但是，字段格式将保留，并且这些字段中的数字值将在记录类型和请求详细信息页面中显示为“货币”、“数字”和“百分比”值。
+     但是，字段格式将保留，并且字段值将在提交请求后、记录类型和请求详细信息页面中显示为货币、数字和百分比。
 
 <div class="preview">
 

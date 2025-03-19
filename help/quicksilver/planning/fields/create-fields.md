@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 4df268c9b5a99991bee3f1862c83fe0079d162c1
 workflow-type: tm+mt
-source-wordcount: '4333'
+source-wordcount: '4611'
 ht-degree: 1%
 
 ---
@@ -232,6 +232,7 @@ OLD:
    * [创建日期](#created-date)
    * [上次修改者](#last-modified-by)
    * [上次修改日期](#last-modified-date)
+     <!--* [Object](#object-field-type)-->
 
    >[!IMPORTANT]
    >
@@ -248,7 +249,7 @@ OLD:
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**单行文本**&#x200B;字段类型。
 
-   ![](assets/single-line-text-field-type.png)
+   ![单行文本字段类型](assets/single-line-text-field-type.png)
 
 1. 在&#x200B;**新建字段**&#x200B;选项卡中添加以下信息：
    * **名称**：字段类型的名称，它将显示在表或记录的详细信息页面中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -273,7 +274,7 @@ OLD:
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**段落**&#x200B;字段类型。
 
-   ![](assets/paragraph-field-type.png)
+   ![段落字段类型](assets/paragraph-field-type.png)
 
 
 1. 在&#x200B;**新建字段**&#x200B;选项卡中添加以下信息：
@@ -290,7 +291,7 @@ OLD:
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**多选**&#x200B;字段类型。
 
-   ![](assets/multi-select-field-type.png)
+   ![多选字段类型](assets/multi-select-field-type.png)
 
 
 1. 在&#x200B;**新建字段**&#x200B;选项卡中添加以下信息：
@@ -319,7 +320,7 @@ OLD:
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**单选**&#x200B;字段类型。
 
-   ![](assets/single-select-field-type.png)
+   ![单选字段类型](assets/single-select-field-type.png)
 
 
 1. 在&#x200B;**新建字段**&#x200B;选项卡中添加以下信息：
@@ -348,7 +349,7 @@ OLD:
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**日期**&#x200B;字段类型。
 
-   ![](assets/date-field-type.png)
+   ![日期字段类型](assets/date-field-type.png)
 
 
 1. 在&#x200B;**新建字段**&#x200B;选项卡中添加以下信息：
@@ -377,9 +378,17 @@ OLD:
 
 数字字段类型以数字格式捕获信息。
 
+>[!TIP]
+>
+>数字字段在请求表单生成器中显示为单行文本字段类型。
+>
+>但是，字段格式将保留，并且这些字段的值将在提交请求后、记录类型和请求详细信息页面中显示为数字。
+>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
+
+
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**数字**&#x200B;字段类型。
 
-   ![](assets/number-field-type.png)
+   ![数字字段类型](assets/number-field-type.png)
 1. 在&#x200B;**新建字段**&#x200B;选项卡中添加以下信息：
 
    * **名称**：字段类型的名称，它将显示在表或记录页中。
@@ -399,9 +408,17 @@ OLD:
 
 百分比字段类型以数字格式捕获信息，后跟百分比符号。
 
+>[!TIP]
+>
+>百分比字段在请求表单生成器中显示为单行文本字段类型。
+>
+>但是，字段格式将保留，并且这些字段的值将在提交请求后、记录类型和请求详细信息页面中显示为百分比。
+>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
+
+
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**百分比**&#x200B;字段类型。
 
-   ![](assets/percentage-field-type.png)
+   ![百分比字段类型](assets/percentage-field-type.png)
 
 1. 在&#x200B;**新建字段**&#x200B;选项卡中添加以下信息：
    * **名称**：字段类型的名称，它将显示在表或记录页中。
@@ -431,9 +448,16 @@ OLD:
 
 货币字段类型以数字格式捕获信息，该格式前面带有货币符号。
 
+>[!TIP]
+>
+>货币字段在请求表单生成器中显示为单行文本字段类型。
+>
+>但是，字段格式将保留，并且这些字段的值将在提交请求后、记录类型和请求详细信息页面中显示为货币。
+>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
+
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**货币**&#x200B;字段类型。
 
-   ![](assets/currency-field-type.png)
+   ![货币字段类型](assets/currency-field-type.png)
 
 1. 在&#x200B;**新建字段**&#x200B;选项卡中添加以下信息：
    * **名称**：字段类型的名称，它将显示在表或记录页中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -456,7 +480,7 @@ OLD:
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**复选框**&#x200B;字段类型。
 
-   ![](assets/checkbox-field-type.png)
+   ![复选框字段类型](assets/checkbox-field-type.png)
 
 1. 在&#x200B;**新建字段**&#x200B;选项卡中添加以下信息：
    * **名称**：字段类型的名称，它将显示在表或记录页中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -473,7 +497,7 @@ OLD:
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**公式**&#x200B;字段类型。
 
-   ![](assets/new-formula-field-with-list-of-expressions.png)
+   ![带有表达式列表的新公式字段](assets/new-formula-field-with-list-of-expressions.png)
 
 1. 在&#x200B;**新建字段**&#x200B;选项卡中添加以下信息：
 
@@ -483,7 +507,7 @@ OLD:
 
 1. 单击所选表达式以显示定义并查看其格式。
 
-   ![](assets/description-of-formula-expression.png)
+   ![公式表达式的描述](assets/description-of-formula-expression.png)
 
    有关支持的表达式的详细信息，请参阅[公式字段概述](/help/quicksilver/planning/fields/formula-fields.md)。
 
@@ -501,7 +525,7 @@ OLD:
    >
    >* 您可以引用与当前记录类型相距最多4个字段（和对象）的字段。 例如，如果要为活动记录类型(1)创建公式字段，且活动连接到与Workfront项目(3)连接的活动记录类型(2)，则可以在为活动记录类型创建的公式中引用项目的预算字段(4)。
    >
-   >![](assets/formula-example-project-budget-four-fields-removed.png)
+   >![公式示例项目预算四个字段已移除](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. 在&#x200B;**格式**&#x200B;字段中，从以下选项中进行选择，以标识公式类型字段中显示的结果的格式：
@@ -516,7 +540,7 @@ OLD:
      >
      >我们建议为显示数组的字段使用标记。 在这种情况下，每个数组成员都显示为单独的标记。
 
-     ![](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
+     ![选定标记且突出显示的公式字段格式列表](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
 
    * **日期**：公式字段的结果显示为日期。
 
@@ -536,11 +560,15 @@ OLD:
 
 >[!TIP]
 >
->在“人员”字段中添加用户名称时，该字段中将显示该用户的名称及其主要工作角色。
+>* 在“人员”字段中添加用户名称时，该字段中将显示该用户的名称及其主要工作角色。
+>
+>* 人员字段在请求表单生成器中显示为引用（或连接）字段类型。
+>
+>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**人员**&#x200B;字段类型。
 
-   ![](assets/people-field-type.png)
+   ![人员字段类型](assets/people-field-type.png)
 
 1. 在&#x200B;**新建字段**&#x200B;选项卡中添加以下信息：
    * **名称**：字段类型的名称，它将显示在表或记录页中。
@@ -561,7 +589,7 @@ OLD:
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**创建者**&#x200B;字段类型。
 
-   ![](assets/created-by-field-type.png)
+   ![由字段类型创建](assets/created-by-field-type.png)
 
 1. 在&#x200B;**新建字段**&#x200B;选项卡中添加以下信息：
 
@@ -579,7 +607,7 @@ OLD:
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**创建日期**&#x200B;字段类型。
 
-   ![](assets/created-date-field-type.png)
+   ![创建日期字段类型](assets/created-date-field-type.png)
 
    <!--check the image above - added bug fix for UI text changes-->
 
@@ -612,7 +640,7 @@ OLD:
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**上次修改者**&#x200B;字段类型。
 
-   ![](assets/last-modified-by-field-type.png)
+   ![上次修改者字段类型](assets/last-modified-by-field-type.png)
 
 1. 在&#x200B;**新建字段**&#x200B;选项卡中添加以下信息：
 
@@ -630,7 +658,7 @@ OLD:
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**创建日期**&#x200B;字段类型。
 
-   ![](assets/last-modified-date-field-type.png)
+   ![上次修改日期字段类型](assets/last-modified-date-field-type.png)
 
    <!--check the image above - added bug fix for UI text changes-->
 
@@ -656,6 +684,52 @@ OLD:
 1. 单击&#x200B;**创建**。
 
    新的“上次修改日期 — 类型”字段作为列添加到记录类型中，其值预填充有上次修改记录的日期（或日期和时间）。
+
+<!--
+
+## Object field type
+
+You can use the Object field type when you need to store several fields that might include several pieces of information. For example, you can store the source, code, error message, or details of an object in one field. In this case, instead of having several separate single-line text fields for that, you can use an Object field to store all information in one place. 
+
+For example, when using an Object-type field, you can store the following type of information: 
+
+```
+"{
+""source"": ""string"",
+""code"": ""string"",
+""subCode"": ""string"",
+""message"": ""string"",
+""details"": ""string""
+}"
+
+```
+
+You can also store an array of values in one field and you would rather rely on user input for each element of the array, instead of using a multi-select field type for the same purpose. For example, you can store information in the following format: 
+
+`["EMEA", "APAC"] `
+
+Consider the following when using Object-type fields:
+
+* In addition to strings and arrays, you can store other value formats like HTML.
+* There is no format validation for this field. 
+* Object-type fields have a limit of 10,000 characters.
+
+Create an Object field: 
+
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Created date** field type.
+
+    ![Object field type](assets/object-field-type.png)
+
+1. Add the following information in the **New field** tab:
+
+     * **Name**: The name of the field type, as it will appear in a table or the record page. (***********this might change and they might prepopulate it with "Created date"********)
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
+
+1. Click **Create**.
+
+    The new Object-type field is added as a column to the record type.
+
+-->
 
 ## 通过连接记录类型创建字段
 
