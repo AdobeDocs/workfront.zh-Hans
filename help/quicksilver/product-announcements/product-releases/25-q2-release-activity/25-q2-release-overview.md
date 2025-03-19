@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 3e9323b42037eec496cf5d1b000f5b91be998e1f
+source-git-commit: b115018560d37fd5d2741086b15b6c844ddf2505
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1226'
 ht-degree: 0%
 
 ---
@@ -189,6 +189,12 @@ Workfront版本编号代表了每月和每季度的版本跟踪。 第一个数�
 项目中的旧版Agile视图将在2025年3月13日的25.3版本中从Workfront删除。 您仍然能够通过单击展示板图标，在项目的敏捷视图中查看您的任务。
 
 有关使用Agile视图的更多信息，请参阅[在Agile视图下管理项目](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md)。
+
+#### 弃用增强的Analytics
+
+由于使用率低且不断下降，我们已决定在2025年5月25日这一周弃用增强型分析产品。
+我们建议考虑将我们的Data Connect产品作为替代产品。 Data Connect允许您使用首选的业务智能工具构建类似的可自定义可视化图表。
+有关此弃用的更多信息，请参阅[增强型Analytics弃用指南](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)。
 
 ## 公告
 
