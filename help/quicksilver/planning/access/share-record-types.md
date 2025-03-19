@@ -4,7 +4,7 @@ description: 在使用Adobe Workfront Planning时，您可以与其他人共享�
 hide: true
 hidefromtoc: true
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 3cbcc2dd2efb457f5f0c4213110af54230a23eb0
+source-git-commit: 08c9eb508861d585d8f76de5bb523132f3be371f
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 0%
@@ -243,3 +243,4 @@ Users who access a link to a record type to which they do not have permissions c
    人员不再具有对记录类型的访问权限。 他们仍可以拥有工作区的权限，除非您还将他们从工作区权限中删除。
 
    对于已从访问视图中删除的用户，不会通知他们不再具有此访问权限。
+
