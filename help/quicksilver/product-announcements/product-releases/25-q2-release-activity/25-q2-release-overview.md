@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: b115018560d37fd5d2741086b15b6c844ddf2505
+source-git-commit: eb51a0b5f726105d7d25a358fc3546f7a2f27d89
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1272'
 ht-degree: 0%
 
 ---
@@ -86,6 +86,21 @@ Workfront版本编号代表了每月和每季度的版本跟踪。 第一个数�
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            桌面校对查看器更新 </a></p>[！BADGE In Production ]{type=Informational}
+            <p>桌面校对查看器已更新至版本2.1.45。此更新允许查看器使用
+            <ul><li>电子版本35</li><li>Chromium版本134</li><ul></p>
+        </td>
+        <td>
+            <p><b>在以下日期可用：</b></p>
+            <ul>
+                <li>预览版本： 2025年3月20日</li>
+                <li><span class="preview">适用于所有客户的生产版本： 2025年3月20日</span></li>
+            </ul>
+        </td>
+    </tr>                          
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
