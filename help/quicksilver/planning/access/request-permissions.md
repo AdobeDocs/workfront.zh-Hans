@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 0%
+source-wordcount: '625'
+ht-degree: 1%
 
 ---
 
@@ -98,7 +98,7 @@ ht-degree: 0%
    <p>只有对工作区和视图具有管理权限的用户才能公开共享视图。</p></td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>布局模板</p></td> 
+   <td role="rowheader"><p>版面模板</p></td> 
    <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> </td> 
   </tr> 
 </tbody> 
@@ -118,7 +118,7 @@ ht-degree: 0%
 
    显示&#x200B;**您没有访问权限**&#x200B;页面，通知您无权访问视图或工作区。
 
-   ![](assets/request-access-to-view.png)
+   ![请求查看权限](assets/request-access-to-view.png)
 
 1. （视情况而定）如果共享的链接用于您有权访问的工作区的视图，请单击&#x200B;**用现有视图打开**。 如果您有权访问工作区，则记录类型页面将在默认视图中打开。
 
@@ -126,8 +126,8 @@ ht-degree: 0%
 
    所有具有查看或工作区管理权限的用户都会收到以下访问请求通知：
    * 应用程序内通知
-     ![](assets/in-app-notification-for-access-request.png)
+     ![访问请求的应用程序内通知](assets/in-app-notification-for-access-request.png)
    * 电子邮件通知
-     ![](assets/email-notification-for-access-request.png)
+     ![访问请求的电子邮件通知](assets/email-notification-for-access-request.png)
 
 1. （视情况而定）当视图或工作区经理授予您查看或工作区的权限时，您会收到电子邮件通知和应用程序内通知，其中包含已授予权限的确认。<!--check this - I was not able to test this, but Isk confirmed.-->

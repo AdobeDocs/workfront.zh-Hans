@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 1%
+source-wordcount: '628'
+ht-degree: 2%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 1%
    <td>   <p>您将获得所创建工作区的管理权限。 </p> </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>布局模板</p></td> 
+   <td role="rowheader"><p>版面模板</p></td> 
    <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> </td> 
   </tr> 
 </tbody> 
@@ -176,7 +176,7 @@ For more information about access requirements, see [Access requirements in Work
 
    指示与每个模板关联的操作记录类型、分类以及字段数。
 
-   ![](assets/previewing-a-workspace-template.png)
+   ![预览工作区模板](assets/previewing-a-workspace-template.png)
 
    有关Workfront Planning工作区模板的信息，请参阅[工作区模板列表](/help/quicksilver/planning/architecture/workspace-templates.md)。
 
@@ -201,7 +201,7 @@ For more information about access requirements, see [Access requirements in Work
 
    或
 
-   将鼠标悬停在节名称上，单击&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**重命名**&#x200B;以重命名节。
+   将鼠标悬停在节名称上，然后单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击&#x200B;**重命名**&#x200B;以重命名节。
 
    >[!TIP]
    >

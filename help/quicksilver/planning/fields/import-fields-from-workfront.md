@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '709'
 ht-degree: 7%
 
 ---
@@ -87,7 +87,7 @@ ht-degree: 7%
    <p>系统管理员有权访问所有工作区，包括他们未创建的工作区。</p> </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>布局模板</p></td> 
+   <td role="rowheader"><p>版面模板</p></td> 
    <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> </td> 
   </tr> 
 </tbody> 
@@ -169,11 +169,11 @@ Workfront Planning不支持所有其他Workfront字段类型。
    将鼠标悬停在任何列的标题上，单击字段名称后面的向下箭头，然后单击&#x200B;**向左插入**&#x200B;或&#x200B;**向右插入**&#x200B;以添加新字段。
 1. 单击&#x200B;**新建字段**&#x200B;选项卡右下角的&#x200B;**添加现有**。<!--check UI - did they change this??-->
 
-   ![](assets/add-existing-fields-from-workfront-modal.png)
+   ![从Workfront模式中添加现有字段](assets/add-existing-fields-from-workfront-modal.png)
 
 1. 在搜索区域中开始键入现有Workfront字段的名称，然后在列表中显示&#x200B;**+**&#x200B;时单击该名称。
 1. （可选）键入其他字段，然后在列表中显示&#x200B;**+**&#x200B;时单击该字段。
-1. （可选）单击&#x200B;**筛选器**&#x200B;图标![](assets/filters-in-import-fields-icon.png)，然后更新以下一个或两个字段：
+1. （可选）单击&#x200B;**筛选器**&#x200B;图标![导入字段中的筛选器图标](assets/filters-in-import-fields-icon.png)，然后更新以下一个或两个字段：
 
    * 对象类型：选择要导入其字段的Workfront对象类型。
    * 自定义表单：从Workfront中选择一个或多个自定义表单。 您可以选择自定义表单，而无需先选择对象类型。

@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 0%
+source-wordcount: '733'
+ht-degree: 1%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 0%
    <td>  <p>管理对工作区的权限 </p>   </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>布局模板</p></td> 
+   <td role="rowheader"><p>版面模板</p></td> 
    <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> </td> 
   </tr> 
 </tbody> 
@@ -166,14 +166,14 @@ For more information about access requirements, see [Access requirements in Work
 1. （可选） ClicK **显示更少**&#x200B;以限制屏幕上显示的工作区数。
 1. 要编辑工作区，请执行下列操作之一：
 
-   * 将鼠标悬停在工作区信息卡上，然后单击该信息卡右上角的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)
+   * 将鼠标悬停在工作区信息卡上，然后单击该信息卡右上角的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)
 或
-   * 单击工作区卡以打开工作区，然后单击工作区名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)。
+   * 单击工作区卡以打开工作区，然后单击工作区名称右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)。
 1. 单击&#x200B;**编辑**。
 
    此时会显示&#x200B;**编辑工作区**&#x200B;框。
 
-   ![](assets/edit-workspace-box.png)
+   ![编辑工作区框](assets/edit-workspace-box.png)
 
 1. 在&#x200B;**编辑工作区**&#x200B;框中更新以下信息：
 
@@ -186,16 +186,16 @@ For more information about access requirements, see [Access requirements in Work
 1. （可选）要添加新工作区部分，请执行以下操作之一：
 
    * 单击工作区底部的&#x200B;**添加部分**。
-   * 将鼠标悬停在节名称上，然后单击&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**添加节上方**&#x200B;或&#x200B;**添加节下方**。
+   * 将鼠标悬停在节名称上，然后单击&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**添加节上面**&#x200B;或&#x200B;**添加节下面**。
 
 1. （可选）要更改节的位置，请执行下列操作之一：
 
-   * 将鼠标悬停在区域名称上并单击&#x200B;**抓取**&#x200B;图标![](assets/grab-icon.png)，然后将其拖放到右侧位置。
-   * 将鼠标悬停在节名称上并单击&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**上移**&#x200B;或&#x200B;**下移**。 部分在工作区中向上或向下移动。
+   * 将鼠标悬停在区域名称上，单击&#x200B;**抓取**&#x200B;图标![抓取图标](assets/grab-icon.png)，然后将其拖放到右侧位置。
+   * 将鼠标悬停在节名称上，然后单击&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**上移**&#x200B;或&#x200B;**下移**。 部分在工作区中向上或向下移动。
 
 1. （可选）要删除工作区部分，请执行以下操作：
 
-   1. 将鼠标悬停在节名称上，单击&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**删除**。<!--add screen shot when UI is final?-->
+   1. 将鼠标悬停在节名称上，然后单击&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**删除**。<!--add screen shot when UI is final?-->
    1. 选择新分区以将所有记录类型移动到该分区，然后单击&#x200B;**删除**。<!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
 
       所有记录类型都将移到选择部分，并删除该部分。
@@ -204,17 +204,17 @@ For more information about access requirements, see [Access requirements in Work
 
    有关信息，请参阅[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)。
 
-1. （可选）将鼠标悬停在记录类型卡片上，单击右上角的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**编辑**&#x200B;以修改记录类型的外观。
+1. （可选）将鼠标悬停在记录类型卡片上，单击右上角的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击&#x200B;**编辑**&#x200B;以修改记录类型的外观。
 
    有关信息，请参阅[编辑记录类型](/help/quicksilver/planning/architecture/edit-record-types.md)。
 
-1. （可选）将鼠标悬停在记录类型卡片上，单击右上角的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**删除**&#x200B;以删除记录类型。
+1. （可选）将鼠标悬停在记录类型卡片上，单击右上角的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击&#x200B;**删除**&#x200B;以删除记录类型。
 
    有关信息，请参阅[删除记录类型](/help/quicksilver/planning/architecture/delete-record-types.md)。
 
 1. （可选）按一下记录类型卡以将其拖放到新位置。 您可以将记录类型从一个工作区区域拖放到另一个工作区区域。
 
-   ![](assets/drag-and-drop-record-types-in-a-workspace.png)
+   ![在工作区中拖放记录类型](assets/drag-and-drop-record-types-in-a-workspace.png)
 
 1. （可选）单击工作区右上角的&#x200B;**共享**&#x200B;以与他人共享工作区。
 

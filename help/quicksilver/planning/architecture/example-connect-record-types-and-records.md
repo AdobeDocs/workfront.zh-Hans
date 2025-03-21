@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '1957'
+source-wordcount: '2047'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >从其他工作区连接记录或连接Experience Manager资源时，**连接类型**&#x200B;选项不可用。 有关详细信息，请参阅[连接的记录类型概述](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
+     >从不同工作区连接记录或连接Experience Manager资源时，**连接类型**&#x200B;选项不可用。 有关详细信息，请参阅[连接的记录类型概述](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
 
    * **记录外观**：从以下选项中选择：
       * **名称和图像**：显示已连接记录的名称和缩略图或图标。 默认情况下，该选项处于选中状态。
@@ -61,11 +61,11 @@ ht-degree: 0%
       * **图像**：仅显示已连接记录的缩略图或图标。
    * **选择查找字段**：如果您保留选中此选项，则下一步将打开&#x200B;**添加查找字段**&#x200B;框，允许您链接产品字段和促销活动记录类型。 您可以单击&#x200B;**跳过**&#x200B;跳过此步骤并稍后添加产品字段。
 
-     ![](assets/new-connection-with-product-record-type.png)
+     ![与产品记录类型的新连接](assets/new-connection-with-product-record-type.png)
 
 1. （视情况而定）如果您在上一步中选择了&#x200B;**选择查找字段选项**，请从与&#x200B;**产品**&#x200B;记录类型关联的字段列表中单击&#x200B;**预算**&#x200B;字段的&#x200B;**+**&#x200B;图标，然后单击&#x200B;**添加字段**。 这将创建一个名为&#x200B;**Budget（来自产品信息）**&#x200B;的字段，该字段是链接字段的名称。 此字段中将显示促销活动记录的“产品预算”相关信息。
 
-   ![](assets/add-fields-for-budget-field-for-connector-with-record-type.png)
+   ![为记录类型的连接添加预算字段字段](assets/add-fields-for-budget-field-for-connector-with-record-type.png)
 
    >[!TIP]
    >
@@ -84,17 +84,17 @@ ht-degree: 0%
 
       * **促销活动**：这表示产品记录类型已从促销活动记录类型链接。
 
-     ![](assets/example-campaign-information-relationship-fields-from-product-record-table.png)
+     ![产品记录表中的促销活动信息关系字段示例](assets/example-campaign-information-relationship-fields-from-product-record-table.png)
 
    >[!TIP]
    >
-   >    链接的记录字段前面有关系图标![](assets/relationship-field-icon.png)。
+   >    链接的记录字段前面有关系图标![关系字段图标](assets/relationship-field-icon.png)。
 
 1. 从&#x200B;**Campaign**&#x200B;记录类型表格视图中，通过在Campaign记录类型页面的表格中添加新行来创建营销活动。
 
 1. 在新营销活动的&#x200B;**产品信息**&#x200B;列中双击。
 
-   ![](assets/connect-other-records-smaller-box-in-table-view.png)
+   ![连接表视图中的其他较小的框](assets/connect-other-records-smaller-box-in-table-view.png)
 
 1. 执行下列操作之一：
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 1. （视情况而定）如果您在上一步中单击了&#x200B;**查看所有**，则会显示&#x200B;**连接对象**&#x200B;框。
 
-   ![](assets/connected-objects-table-for-records.png)
+   ![记录的已连接对象表](assets/connected-objects-table-for-records.png)
 
 1. 在搜索框中开始键入产品名称，然后当它显示在列表中时将其选定
 
@@ -120,7 +120,7 @@ ht-degree: 0%
    * 使用所选产品填充促销活动记录的&#x200B;**产品信息**&#x200B;字段。
    * **预算（来自产品信息）**&#x200B;字段将使用每个所选产品的预算值填充，或使用所选产品的所有预算的总和（如果您为聚合器选择了SUM）填充。
 
-   ![](assets/example-product-information-and-budget-relationship-fields-for-campaign-record-table.png)
+   ![促销活动记录表的产品信息和预算关系字段示例](assets/example-product-information-and-budget-relationship-fields-for-campaign-record-table.png)
 
    >[!TIP]
    >
@@ -159,7 +159,7 @@ ht-degree: 0%
    * **仅链接符合此条件的对象**：从&#x200B;**自定义表单**&#x200B;下拉菜单中选择自定义表单。 只有与指定表单关联的项目才可连接到营销策划。 您可以选择多个表单。
    * **选择查找字段**：如果您保留选中此选项，则下一步将打开&#x200B;**添加查找字段**&#x200B;框，允许您链接具有Campaign记录类型的Project字段。 您可以单击&#x200B;**跳过**&#x200B;跳过此步骤并稍后添加项目字段。
 
-   ![](assets/new-connection-tab-with-workfront-option.png)
+   ![使用Workfront选项新建连接选项卡](assets/new-connection-tab-with-workfront-option.png)
 
 1. （视情况而定）如果您在上一步中选择了&#x200B;**选择查找字段选项**，请从与&#x200B;**项目**&#x200B;对象类型关联的字段列表中单击&#x200B;**计划收入**&#x200B;字段的&#x200B;**+**&#x200B;图标，然后单击&#x200B;**添加字段**。 这将创建一个名为&#x200B;**计划收入（来自项目信息）**&#x200B;的字段，该字段是链接字段的名称。 项目计划收入字段中的任何信息将自动显示在此字段中的促销活动记录。
 
@@ -169,7 +169,7 @@ ht-degree: 0%
    >
    > 如果选择&#x200B;**None**，而不是&#x200B;**SUM**，则会显示各个计划收入，并以逗号分隔。
 
-   ![](assets/add-planned-revenue-project-field-to-new-connection.png)
+   ![将计划收入项目字段添加到新连接](assets/add-planned-revenue-project-field-to-new-connection.png)
 
    这将生成以下字段：
 
@@ -180,13 +180,13 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >    链接对象字段前面有关系图标![](assets/relationship-field-icon.png)。
+   >    链接对象字段前面有关系图标![关系字段图标](assets/relationship-field-icon.png)。
 
 1. 从&#x200B;**Campaign**&#x200B;记录类型表视图中，通过在表中添加新行来创建营销活动。
 
 1. 在新营销活动的“项目信息**”列内双击。
 
-   ![](assets/connect-projects-smaller-box-in-table.png)
+   ![连接表](assets/connect-projects-smaller-box-in-table.png)中较小的框
 
 1. 执行下列操作之一：
 
@@ -196,7 +196,7 @@ ht-degree: 0%
 
 1. （视情况而定）如果您在上一步中单击了&#x200B;**查看所有**，则会显示&#x200B;**连接对象**&#x200B;框。
 
-   ![](assets/connect-projects-larger-box.png)
+   ![连接更大的项目](assets/connect-projects-larger-box.png)
 
 1. 在搜索框中开始键入项目的名称，然后当该项目显示在列表中时将其选定
 
@@ -214,7 +214,7 @@ ht-degree: 0%
       * **项目信息**&#x200B;字段将使用所选项目填充Campaign记录。
       * **计划收入（来自产品信息）**&#x200B;字段将使用每个所选产品的预算值填充。 这是只读字段。
 
-   ![](assets/project-linked-field-and-planned-revenue-in-campaign-table-highlighted.png)
+   突出显示![营销活动表中的项目链接字段和计划收入](assets/project-linked-field-and-planned-revenue-in-campaign-table-highlighted.png)
 
    >[!TIP]
    >

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '1518'
+source-wordcount: '1541'
 ht-degree: 1%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 1%
      >
      >对工作区具有“查看”权限或更高权限的每个人都可以查看查找字段中的信息，无论他们在链接对象类型应用程序中的权限或访问级别，或者他们在其他工作区中的权限如何。
 
-     链接的记录字段前面有关系图标![](assets/relationship-field-icon.png)。
+     链接的记录字段前面有关系图标![关系字段图标](assets/relationship-field-icon.png)。
 
      链接的字段前面有标识该字段类型的图标。 例如，链接（或查找）字段前面有图标，指示字段是数字、段落或日期。
 
@@ -118,7 +118,7 @@ ht-degree: 1%
 
 ### 多对多连接类型
 
-![](assets/many-to-many-connection-picker.png)
+![多对多连接选取器](assets/many-to-many-connection-picker.png)
 
 在记录类型之间创建多对多连接时，可在连接字段从两种记录类型中选择多个记录。
 
@@ -130,7 +130,7 @@ ht-degree: 1%
 
 ### 一对多连接类型
 
-![](assets/one-to-many-connection-picker.png)
+![一对多连接选取器](assets/one-to-many-connection-picker.png)
 
 
 在记录类型之间创建一对多连接时，您可以在当前记录类型的连接字段中选择多个记录，但您连接到的记录类型中对应的连接字段将只允许选择一个记录。 在第二个记录类型上自动创建的已连接记录字段自动设置为多对一关系类型。
@@ -143,7 +143,7 @@ ht-degree: 1%
 
 ### 多对一连接类型
 
-![](assets/many-to-one-connection-picker.png)
+![多个连接选择器](assets/many-to-one-connection-picker.png)
 
 
 在记录类型之间创建多对一连接时，您随后可以将当前记录类型中的每条记录与所连接记录类型中的一条记录连接。 在第二个记录类型上自动创建的已连接记录字段自动设置为一对多关系类型。
@@ -156,7 +156,7 @@ ht-degree: 1%
 
 ### 一对一连接类型
 
-![](assets/one-to-one-connection-picker.png)
+![一对一连接选取器](assets/one-to-one-connection-picker.png)
 
 在记录类型之间创建一对一连接时，在这两种记录类型中，您只能将每条记录与另一记录类型中的一个记录连接。
 

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '2341'
+source-wordcount: '2407'
 ht-degree: 1%
 
 ---
@@ -105,7 +105,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    <p>系统管理员有权访问所有工作区，包括他们未创建的工作区。</p></td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>布局模板</p></td> 
+   <td role="rowheader"><p>版面模板</p></td> 
    <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域 </p> </td> 
   </tr> 
 </tbody> 
@@ -187,13 +187,13 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 1. 单击记录类型的卡以打开记录类型页面。
 1. 单击表格视图右上角的&#x200B;**+**&#x200B;图标，然后单击“**新建连接**”选项卡。
 
-   ![](assets/new-connection-tab-with-workfront-aem-options.png)
+   ![使用Workfront AEM选项新建连接选项卡](assets/new-connection-tab-with-workfront-aem-options.png)
 
 1. 在&#x200B;**记录类型**&#x200B;字段中，搜索记录类型，或选择以下选项之一：
 
    * 当前工作区中的其他记录类型
 
-     ![](assets/many-to-many-connection-picker.png)
+     ![多对多连接选取器](assets/many-to-many-connection-picker.png)
 
      >[!TIP]
      >
@@ -210,15 +210,15 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      有关信息，请参阅[编辑记录类型](/help/quicksilver/planning/architecture/edit-record-types.md)。
 
-     ![](assets/new-connection-allow-multiple-records-box.png)
+     ![新连接以允许多个记录框](assets/new-connection-allow-multiple-records-box.png)
 
    * 来自&#x200B;**Workfront对象类型**&#x200B;部分的&#x200B;**项目、Portfolio、项目群、公司**&#x200B;或&#x200B;**组**。
 
-     ![](assets/workfront-project-connection-selection.png)
+     ![Workfront项目连接选择](assets/workfront-project-connection-selection.png)
 
    * 来自&#x200B;**Experience Manager Assets应用程序**&#x200B;部分的&#x200B;**Adobe**。
 
-     ![](assets/aem-assets-connection-selection.png)
+     ![AEM Assets连接选择](assets/aem-assets-connection-selection.png)
 
 1. 更新以下信息：
 
@@ -233,7 +233,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      仅当从两个不同的工作区连接记录或连接记录和Adobe Experience Manager资源对象时，此选项才可用。
 
-     ![](assets/new-connection-allow-multiple-records-box.png)
+     ![新连接以允许多个记录框](assets/new-connection-allow-multiple-records-box.png)
 
    * **连接类型**：选择下列选项之一，以指示他们可以连接多少条记录，也可以连接多少条记录：
 
@@ -244,7 +244,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      仅当连接来自同一工作区的记录或记录和Workfront对象类型时，此选项才可用。
 
-     ![](assets/many-to-many-connection-picker.png)
+     ![多对多连接选取器](assets/many-to-many-connection-picker.png)
 
      有关连接类型的详细信息，请参阅[连接的记录类型概述](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
 
@@ -303,7 +303,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    单击&#x200B;**-**&#x200B;图标可从&#x200B;**选定字段**&#x200B;区域移除字段
 
-   ![](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
+   ![为另一个记录类型框添加查找字段](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
 
    链接记录或对象后，连接的字段的值会自动填充。
 
@@ -328,7 +328,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    >
    >    如果希望字段可用作时间轴和日历视图的开始日期和结束日期，则在添加查找日期字段时必须选择一个聚合器值。 例如，您可以为查找日期字段选择MAX或MIN汇总。
 
-   ![](assets/aggregator-drop-down-for-number-linked-field.png)
+   链接的数字字段](assets/aggregator-drop-down-for-number-linked-field.png)的![聚合器下拉列表
 
    >[!NOTE]
    >
@@ -358,7 +358,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    >* **唯一**： $100,000
    >
 
-1. （可选）使用&#x200B;**搜索**&#x200B;图标![](assets/search-icon.png)搜索字段。
+1. （可选）使用&#x200B;**搜索**&#x200B;图标![搜索图标](assets/search-icon.png)搜索字段。
 
 1. 单击&#x200B;**添加字段**&#x200B;以保存更改。
 
@@ -385,7 +385,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    * **编辑字段**：更新该字段的&#x200B;**名称**&#x200B;和&#x200B;**描述**&#x200B;信息。
    * **编辑查找字段**：添加或删除链接记录的任何字段。
 
-   ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
+   ![编辑表列](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)中的字段和查找字段下拉菜单
 
    要添加或移除查找字段，请按照上述步骤16-17中的说明操作。<!--ensure these step numbers stay accurate-->
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '714'
 ht-degree: 2%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 2%
    <p>只有系统管理员才能启用记录类型以从其他工作区连接</p> </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>布局模板</p></td> 
+   <td role="rowheader"><p>版面模板</p></td> 
    <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> </td> 
   </tr> 
 </tbody> 
@@ -159,15 +159,15 @@ OLD:
    此时会打开工作区页面，并显示记录类型。
 1. 执行下列操作之一：
 
-   * 将鼠标悬停在记录类型的卡片上，单击记录类型卡片右上角的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**编辑**
+   * 将鼠标悬停在记录类型的卡片上，然后单击记录类型卡片右上角的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击&#x200B;**编辑**
 或
-   * 单击记录类型卡以打开记录类型页面，单击记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**编辑**。
+   * 单击记录类型卡以打开记录类型页面，单击记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击&#x200B;**编辑**。
 
-   ![](assets/more-menu-options-from-record-type-card.png)
+   ![记录类型卡片中的更多菜单选项](assets/more-menu-options-from-record-type-card.png)
 
 1. 在&#x200B;**编辑记录类型**&#x200B;框中，**外观**&#x200B;选项卡默认打开。
 
-   ![](assets/edit-record-type-box-appearance-tab.png)
+   ![编辑记录类型框外观选项卡](assets/edit-record-type-box-appearance-tab.png)
 
    在&#x200B;**外观**&#x200B;选项卡中更新以下信息：
 
@@ -179,7 +179,7 @@ OLD:
 
 1. （视情况而定）如果您是系统管理员，请单击&#x200B;**编辑记录类型**&#x200B;框中的&#x200B;**高级设置**&#x200B;选项卡。
 
-   ![](assets/edit-record-type-box-advanced-settings-tab.png)
+   ![编辑记录类型框高级设置选项卡](assets/edit-record-type-box-advanced-settings-tab.png)
 
 1. （视情况而定）作为系统管理员，在&#x200B;**高级设置**&#x200B;选项卡中更新以下信息：
 
@@ -189,10 +189,10 @@ OLD:
 
 1. 单击&#x200B;**保存**。
 
-   工作区上的记录类型卡片在右上角显示一个连接图标![](assets/connect-from-other-workspaces-icon.png)，表示现在可以从其他工作区访问该记录。
+   工作区上的记录类型卡片在右上角显示一个连接图标![从其他工作区连接图标](assets/connect-from-other-workspaces-icon.png)，表示现在可以从其他工作区访问该记录。
 
 1. （可选）单击工作区区域中的记录类型卡以打开记录类型的页面，然后重命名标题中的记录类型。
 
 1. （可选）要编辑其他记录类型，请从记录类型页面中，展开记录类型名称右侧的向下箭头，搜索记录类型，然后在记录类型显示在列表中时将其选定。
 
-   ![](assets/record-type-drop-down-on-record-type-page-with-search-box.png)
+   带有搜索框的记录类型页面上的![记录类型下拉列表](assets/record-type-drop-down-on-record-type-page-with-search-box.png)

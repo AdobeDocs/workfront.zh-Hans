@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 425c3d3afb892ac83a10bbd36efb4c7d9712c4dc
+exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
-
 
 # 工作区概述
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 工作区是组织单位使用的记录类型的集合，它表示该单位的工作生命周期和流程。 您可以在Adobe Workfront Planning中完全自定义工作区。
 
 
-![](assets/workspaces-landing-page-admin-account.png)
+![工作区登陆页面管理员帐户](assets/workspaces-landing-page-admin-account.png)
 
 ## 有关工作区的注意事项
 
@@ -56,6 +56,3 @@ ht-degree: 0%
 <!--make this live with the GA: * There is no limit for how many workspaces you can create in your environment. However, we recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.-->
 
 * 在Workfront Planning的实例中，您可以创建的工作区对象数量存在限制。 有关信息，请参阅[Adobe Workfront Planning对象限制概述](/help/quicksilver/planning/general/limitations-overview.md)。
-
-
-

@@ -6,9 +6,9 @@ description: 您可以编辑项目模板以反映项目流程和设置中的更�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '4854'
+source-wordcount: '4877'
 ht-degree: 2%
 
 ---
@@ -975,7 +975,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
    单击&#x200B;**保存**。
 
-### 访问权限 {#access-preview}
+### 访问 {#access-preview}
 
 1. 如上所述，开始编辑模板。
 1. 在&#x200B;**编辑模板**&#x200B;框中，单击&#x200B;**访问**。
@@ -1106,9 +1106,16 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
   有关添加费用的详细信息，请参阅[管理项目费用](../../../manage-work/projects/project-finances/manage-project-expenses.md)。
 
+* 队列详细信息
+
+  有关将队列详细信息添加到项目或模板的信息，请参阅[创建请求队列](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
+
 * 主题组和队列主题
 
-  有关将主题组和队列主题添加到项目或模板的详细信息，请参阅[创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
+  有关将主题组和队列主题添加到项目或模板的信息，请参阅以下文章：
+
+   * [创建主题组](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
+   * [创建队列主题](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
 
 您可以将以下项目添加到模板中的任务：
 

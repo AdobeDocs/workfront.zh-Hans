@@ -8,20 +8,24 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '2551'
+source-wordcount: '2522'
 ht-degree: 2%
 
 ---
 
 # 编辑问题
 
+<!--Audited: 03/2025-->
+
 您可以编辑有关您创建的问题或其他用户创建的问题（如果他们与您共享问题）的信息。
 
 您可以编辑单个问题，也可以在列表中编辑问题。 有关编辑列表中的问题的信息，请参阅[编辑列表中的问题](../../../manage-work/issues/manage-issues/edit-issues-in-a-list.md)。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -30,19 +34,21 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>请求或更高版本</p> <p>查看或更高许可证以编辑任务或项目问题部分中的问题</p> </td> 
+   <td> <p>新许可证：</p>
+   <ul><li>参与者或更高版本</li>
+   <li>浅色或更高版本以编辑任务或项目的问题分区中的问题</li></ul>
+   <p>当前许可证：</p>
+  <ul><li>请求或更高版本</li> <li>查看或更高版本以编辑任务或项目的问题部分中的问题</li></ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别*</td> 
-   <td> <p>编辑对问题的访问权限</p> <p><b>注释</b>
-
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关访问访问级别中问题的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">授予对问题的访问权限</a>。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。 </p> </td>
-</tr> 
+   <td role="rowheader">访问级别</td> 
+   <td> <p>编辑对问题的访问权限</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
    <td> <p>向问题贡献权限以编辑详细信息区域中的以下字段： </p>
@@ -56,7 +62,9 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 编辑问题时的限制
 
@@ -254,14 +262,9 @@ ht-degree: 2%
       <tr> 
       <td role="rowheader">这个问题已经解决</td> 
       <td>在您访问的问题得到解决后完成的问题链接名称。  </td> 
-     </tr>
-
-
-   </tbody> 
+     </tr> 
+    </tbody> 
    </table>
-
-
-
 
 
 1. 单击&#x200B;**保存**&#x200B;或继续编辑以下部分。
