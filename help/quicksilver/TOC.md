@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 92efd05bc97e2e957825cbe7a5ca6d43ca795d6b
+source-git-commit: 8d8282e095c902c0e6b2f51585ac0d4ac9b1e177
 workflow-type: tm+mt
-source-wordcount: '13071'
+source-wordcount: '13099'
 ht-degree: 2%
 
 ---
@@ -1710,6 +1710,10 @@ ht-degree: 2%
          * [项目活动查询](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
          * [项目树状图查询](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
          * [按团队查询的活动](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
+      * Data Connect{#troubleshooting-data-connect}的提示、技巧和疑难解答
+         * [Data Connect的提示、技巧和疑难解答](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/tips-tricks-troubleshooting-data-connect.md)
+         * [Tableau Desktop无法建立连接](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-load-data.md)
+         * [Power BI工具无法使用提供的密码进行连接](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-connect-with-provided-password.md)
 * 管理资源 {#manage-resources}
    * [管理资源](resource-mgmt/manage-resources.md)
    * 资源管理 {#resource-management}
