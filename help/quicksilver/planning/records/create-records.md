@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '2411'
+source-wordcount: '2418'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ ht-degree: 0%
    </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>布局模板</p></td> 
+   <td role="rowheader"><p>版面模板</p></td> 
    <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域 </p> </td> 
   </tr> 
 </tbody> 
@@ -233,7 +233,7 @@ ht-degree: 0%
 
         按照文章[提交Adobe Workfront Planning请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)中的说明添加记录，从步骤6开始。<!--ensure this stays accurate-->
 
-      ![](assets/three-ways-to-create-records-choice-modal.png)
+      ![创建记录选择模式的三种方法](assets/three-ways-to-create-records-choice-modal.png)
 
 1. （视情况而定）如果您单击&#x200B;**请求记录**，请执行以下操作：
 

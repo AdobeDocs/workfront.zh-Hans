@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: 6e772ed53cca2fe3756fc15b715693b8b1fbef34
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '780'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 ## 访问规划区的人工智能助理
 
-1. 登录到Workfront，然后单击屏幕右上角的&#x200B;**主菜单**&#x200B;图标![](assets/dots-main-menu.png)或左上角的&#x200B;**主菜单**&#x200B;图标![](assets/lines-main-menu.png)（如果可用）。
+1. 登录到Workfront，然后单击屏幕右上角的&#x200B;**主菜单**&#x200B;图标![圆点主菜单](assets/dots-main-menu.png)或左上角的&#x200B;**主菜单**&#x200B;图标![行主菜单](assets/lines-main-menu.png)（如果可用）。
 
 。单击&#x200B;**计划**。 此时将打开“规划”区域。
 
@@ -88,11 +88,11 @@ ht-degree: 0%
 
 1. 单击全局导航栏屏幕右上角或记录预览或页面右上角的&#x200B;**AI助手图标**。
 
-   ![](assets/ai-assistant-icon-highlighted.png)
+   ![AI助手图标](assets/ai-assistant-icon-highlighted.png)
 
 1. 在提供的空白处，开始输入AI Assistant的命令，然后在完成后单击Enter。
 
-   ![](assets/ai-assistant-panel-with-empty-command-box.png)
+   带有空命令框的![AI助手面板](assets/ai-assistant-panel-with-empty-command-box.png)
 
    例如，您可以键入以下内容之一：
 

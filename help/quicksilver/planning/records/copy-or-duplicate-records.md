@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2fed8c96-0c9c-4662-a9c4-66dae507ff2a
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '605'
 ht-degree: 2%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 2%
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p> </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>布局模板</p></td> 
+   <td role="rowheader"><p>版面模板</p></td> 
    <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> </td> 
   </tr> 
 </tbody> 
@@ -175,13 +175,13 @@ OLD:
 
 1. 执行下列操作之一：
 
-   * 将鼠标悬停在记录名称上，然后单击与记录名称内联的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**复制**&#x200B;图标![](assets/duplicate-icon-gray.png) 。
+   * 将鼠标悬停在记录名称上，然后单击与记录名称内联的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**复制**&#x200B;图标![灰色复制图标](assets/duplicate-icon-gray.png) 。
 
-     ![](assets/more-menu-from-record-in-table-view.png)
+     表格视图中记录的![更多菜单](assets/more-menu-from-record-in-table-view.png)
 
-   * 选择一个记录，然后单击页面底部工具栏中的&#x200B;**复制**&#x200B;图标![](assets/duplicate-icon-white-and-blue.png)。
+   * 选择记录，然后单击页面底部工具栏中的&#x200B;**复制**&#x200B;图标![白色和蓝色复制图标](assets/duplicate-icon-white-and-blue.png)。
 
-     ![](assets/duplicate-icon-in-toolbar-in-table-view.png)
+     ![表格视图中工具栏中的图标重复](assets/duplicate-icon-in-toolbar-in-table-view.png)
 
    在原始记录下创建具有相同名称的相同记录。 新记录的所有字段均填充有与原始记录相同的信息。
 

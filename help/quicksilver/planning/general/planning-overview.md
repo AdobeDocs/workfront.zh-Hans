@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '1818'
+source-wordcount: '1878'
 ht-degree: 2%
 
 ---
@@ -184,7 +184,7 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
 * **Workspace**：定义特定组织的运营生命周期的记录类型集合。 工作区是组织单位的工作框架。
 
-  ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
+  ![具有记录类型分类的营销工作区打开页面](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
   有关详细信息，请参阅[创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md)。
 
@@ -202,7 +202,7 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
 * **记录**：记录类型的实例。
 
-  ![](assets/records-highlighted-in-campaign-record-type-list.png)
+  ![在营销活动记录类型列表中突出显示的记录](assets/records-highlighted-in-campaign-record-type-list.png)
 
   将记录类型添加到工作区后，您可以开始在该记录类型的页面上添加该类型的记录。
 
@@ -212,7 +212,7 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
 * **Workspace模板**：您可以使用预定义的模板创建工作区。 您可以使用模板中的预定义记录类型和字段，也可以添加自己的类型和字段。
 
-  ![](assets/workspaces-page-with-templates-thumbnails.png)
+  ![带有模板缩略图的工作区页面](assets/workspaces-page-with-templates-thumbnails.png)
 
   Adobe Workfront Planning包含以下模板：
 
@@ -226,7 +226,7 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
 * **字段**：字段是可以添加到记录类型的属性。 字段包含有关记录类型的信息。<!--check the shot below, "Connection" needs to be in lowercase-->
 
-  ![](assets/drop-down-list-of-record-fields.png)
+  ![记录字段的下拉列表](assets/drop-down-list-of-record-fields.png)
 
   有关记录字段的注意事项：
 
@@ -274,7 +274,7 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
      您必须具有Adobe Experience Manager许可证才能将记录类型与Experience Manager对象链接到一起。
 
-     ![](assets/new-connection-tab-with-workfront-aem-options.png)
+     ![使用Workfront AEM选项新建连接选项卡](assets/new-connection-tab-with-workfront-aem-options.png)
 
 
   在记录类型之间建立连接后，可以将这些类型的单个记录或对象彼此连接。 记录之间的连接显示为已连接的记录字段或连接。
@@ -283,7 +283,7 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
   例如，如果将Campaign记录类型与Workfront Project对象类型连接，则可以在营销活动记录中显示已连接项目的“预算”字段。
 
-  ![](assets/add-lookup-fields-modal.png)
+  ![添加查找字段框](assets/add-lookup-fields-modal.png)
 
   >[!TIP]
   >
@@ -303,7 +303,7 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
 * **视图**：记录以不同类型的视图显示在各自记录类型页面下。
 
-  ![](assets/view-types-drop-down-from-record-type-list.png)
+  ![记录类型列表中的查看类型下拉列表](assets/view-types-drop-down-from-record-type-list.png)
 
   视图包含特定视图类型的个性化设置，如字段列表（列）、记录列表（行）、其顺序（排序）、应用或适用的过滤器和分组。
 
@@ -311,14 +311,14 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
    * **表视图**：以表格式显示记录及其字段，包括连接和查找字段。 表的行是单独的记录，列是记录字段。 表格视图是默认视图。
 
-     ![](assets/table-view-example.png)
+     ![表视图示例](assets/table-view-example.png)
 
    * **时间线视图**：在时间线中显示至少有两个日期类型字段的记录。 您最多可以在时间轴视图中显示5个连接的记录类型及其记录。
 
-     ![](assets/grouping-applied-in-timeline-view.png)
+     ![在时间轴视图中应用分组](assets/grouping-applied-in-timeline-view.png)
 
    * **日历视图**：以日历格式显示至少有两个日期类型字段的记录。
-     ![](assets/calendar-view-example.png)
+     ![日历视图示例](assets/calendar-view-example.png)
 
 
 有关详细信息，请参阅[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)。
@@ -333,11 +333,11 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
 {{step1-click-main-menu}}
 
-1. 单击&#x200B;**计划** ![](assets/planning-icon.png)。
+1. 单击&#x200B;**Planning** ![Planning图标](assets/planning-icon.png)。
 
    Workfront Planning主页将打开。
 
-   ![](assets/planning-landing-page-admin.png)
+   ![计划登陆页面管理员](assets/planning-landing-page-admin.png)
 
    >[!TIP]
    >

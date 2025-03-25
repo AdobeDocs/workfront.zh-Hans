@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '781'
 ht-degree: 1%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 1%
    <p>查看对视图的权限以临时更改视图设置</p> </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>布局模板</p></td> 
+   <td role="rowheader"><p>版面模板</p></td> 
    <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> </td> 
   </tr> 
 </tbody> 
@@ -173,7 +173,7 @@ ht-degree: 1%
 1. 转到要查看其日历的记录类型页面。
 1. 创建日历视图，如[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)一文中所述。
 
-   ![](assets/calendar-view-example.png)
+   ![日历视图示例](assets/calendar-view-example.png)
 
    与您选择的记录类型关联的记录在日历中显示为条形。 栏的颜色与记录图标的颜色匹配。
 

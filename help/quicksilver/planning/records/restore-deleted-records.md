@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8b6df633-eb05-4d3e-bfe6-76cedabdb76d
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '479'
 ht-degree: 1%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 1%
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p> </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>布局模板</p></td> 
+   <td role="rowheader"><p>版面模板</p></td> 
    <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> </td> 
   </tr> 
 </tbody> 
@@ -109,11 +109,11 @@ ht-degree: 1%
 ## 恢复已删除的记录
 
 1. 转到已删除记录的记录类型页面。
-1. 单击任何记录类型页面视图右上角的&#x200B;**撤消**&#x200B;图标![](assets/undo-icon.png)，然后单击&#x200B;**最近删除的**。
+1. 单击任何记录类型页面视图右上角的&#x200B;**撤消**&#x200B;图标![撤消图标](assets/undo-icon.png)，然后单击&#x200B;**最近删除的**。
 
    此时会显示&#x200B;**最近删除的**&#x200B;框。
 
-   ![](assets/recently-deleted-box.png)
+   ![最近删除的框](assets/recently-deleted-box.png)
 
 1. 选择要删除的记录，然后单击&#x200B;**还原** > **还原**。 您可以选择多个记录。
 

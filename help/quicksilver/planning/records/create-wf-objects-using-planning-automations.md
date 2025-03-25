@@ -8,9 +8,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1811'
 ht-degree: 2%
 
 ---
@@ -100,7 +100,7 @@ ht-degree: 2%
    </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>布局模板</p></td> 
+   <td role="rowheader"><p>版面模板</p></td> 
    <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域 </p> </td> 
   </tr> 
 </tbody> 
@@ -200,7 +200,7 @@ ht-degree: 2%
    所选记录类型的已连接字段也会在您配置自动化的原始记录类型上创建。
 1. （可选且有条件）如果您选择创建Workfront对象并且没有选定Workfront对象类型的连接字段，请单击&#x200B;**创建&lt; Workfront对象类型名称>的“已连接”字段右侧的问号图标**&#x200B;字段，然后单击&#x200B;**添加**&#x200B;图标![创建连接字段图标](assets/create-a-connection-field-icon.png)以添加连接字段。
 
-   ![](assets/question-mark-icon-to-add-connected-fields-in-automations-with-workfront.png)
+   ![问号图标以使用Workfront在自动化中添加连接的字段](assets/question-mark-icon-to-add-connected-fields-in-automations-with-workfront.png)
 
    新字段自动创建并命名为&#x200B;**连接的&lt; Workfront对象名称>**。 例如，当为记录创建已连接项目组合字段时，将其命名为“已连接项目组合”。
 

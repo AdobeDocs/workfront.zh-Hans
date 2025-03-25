@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '665'
 ht-degree: 1%
 
 ---
@@ -97,7 +97,7 @@ ht-degree: 1%
   </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>布局模板</p></td>
+   <td role="rowheader"><p>版面模板</p></td>
    <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p>  
 </td>
   </tr>
@@ -124,7 +124,7 @@ ht-degree: 1%
 
    记录类型页面将在您上次访问的视图中打开。 默认情况下，将在表格视图中打开记录类型页面。
 
-1. 单击页眉中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**更新请求表单**。
+1. 单击页眉中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**更新请求表单**。
 1. 单击屏幕右上角的&#x200B;**共享**，然后更新共享选项。 有关详细信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
 1. （可选）如果您更改了请求表单的共享方式，并且要通过新链接将其共享给新的人员组，请单击&#x200B;**复制链接**。
 
@@ -142,10 +142,10 @@ ht-degree: 1%
 
    记录类型页面将在您上次访问的视图中打开。 默认情况下，将在表格视图中打开记录类型页面。
 
-1. 单击页眉中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**更新请求表单**。
+1. 单击页眉中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**更新请求表单**。
 1. 单击右上角的&#x200B;**取消发布**。
 
-   ![](assets/unpublish-button-highlighted.png)
+   ![取消发布按钮突出显示](assets/unpublish-button-highlighted.png)
 
    屏幕底部会显示一条确认消息，通知您表单已取消发布。
 

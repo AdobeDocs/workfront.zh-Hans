@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '491'
 ht-degree: 1%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 1%
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p> </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>布局模板</p></td> 
+   <td role="rowheader"><p>版面模板</p></td> 
    <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> </td> 
   </tr> 
 </tbody> 
@@ -118,11 +118,11 @@ ht-degree: 1%
 
    记录的预览框打开。
 
-1. （可选）单击&#x200B;**在新标签中打开**&#x200B;图标![](assets/open-details-in-a-new-tab-icon.png)以打开记录的页面。
+1. （可选）单击&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开详细信息](assets/open-details-in-a-new-tab-icon.png)以打开记录的页面。
 
 1. 选择&#x200B;**详细信息**&#x200B;选项卡。 默认情况下，“详细信息”选项卡应处于打开状态。
 
-1. 在预览或记录页面中单击&#x200B;**导出**&#x200B;菜单![](assets/export-icon-in-record-details-page.png)，然后单击以下任一项：
+1. 在预览或记录页面中单击&#x200B;**导出**&#x200B;菜单![记录详细信息页面](assets/export-icon-in-record-details-page.png)中的导出图标，然后单击以下操作之一：
 
    * **Microsoft Word**
    * **Adobe PDF**
@@ -131,7 +131,7 @@ ht-degree: 1%
 
    导出的文件的名称是记录的“Primary”字段。
 
-   ![](assets/exported-word-file.png)
+   ![已导出Word文件](assets/exported-word-file.png)
 
    >[!NOTE]
    >

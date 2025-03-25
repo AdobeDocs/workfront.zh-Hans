@@ -6,9 +6,9 @@ description: 您可以在项目的“角色分配”面板中查看分配给项�
 author: Alina
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '482'
 ht-degree: 1%
 
 ---
@@ -107,11 +107,11 @@ ht-degree: 1%
    * **任务**
    * **工作负载平衡器**
 
-1. 单击&#x200B;**显示角色分配**&#x200B;图标![](assets/show-role-allocation-icon.png)。
+1. 单击&#x200B;**显示角色分配**&#x200B;图标![显示角色分配图标](assets/show-role-allocation-icon.png)。
 
    此时将显示“角色分配”面板。
 
-   ![](assets/role-allocation-panel-planned-hours-only-350x316.png)
+   ![仅具有计划小时数的角色分配面板](assets/role-allocation-panel-planned-hours-only-350x316.png)
 
 1. 查看&#x200B;**角色分配**&#x200B;面板中的以下信息：
 

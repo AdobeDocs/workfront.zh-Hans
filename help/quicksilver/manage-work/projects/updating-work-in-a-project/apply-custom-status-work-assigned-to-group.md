@@ -6,9 +6,9 @@ description: 如果项目与组关联，则您可以将系统级别状态以及�
 author: Alina
 feature: Work Management
 exl-id: 7564ab6a-8ddf-4e76-8e45-d59f9cf8d38b
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Alina, I moved this out of an admin article about statuses (Create and customize
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
+   <td> <p>规划 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
@@ -103,7 +103,7 @@ Alina, I moved this out of an admin article about statuses (Create and customize
    >如果在&#x200B;**组**&#x200B;下拉菜单中选择其他组，则&#x200B;**状态**&#x200B;菜单中的自定义状态会自动更改以与新组关联。
    >
    >
-   >![](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)   >
+   >![状态下拉列表已展开为项目](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)的自定义状态   >
    >
 
 1. 选择项目的状态。 您创建并应用于该组的自定义状态将显示在列表中。

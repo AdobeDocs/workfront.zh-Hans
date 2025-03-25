@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ ht-degree: 0%
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p> </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>布局模板</p></td> 
+   <td role="rowheader"><p>版面模板</p></td> 
    <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> </td> 
   </tr> 
 </tbody> 
@@ -147,7 +147,7 @@ ht-degree: 0%
 
    记录的&#x200B;**详细信息**&#x200B;页面打开。 默认情况下，“注释”区域会在右侧面板中打开。
 
-1. （视情况而定）如果默认情况下未打开右侧面板，请单击右上角的&#x200B;**显示评论** ![](assets/show-comments-icon.png)图标以打开“评论”部分。
+1. （视情况而定）如果默认情况下未打开右侧面板，请单击右上角的&#x200B;**显示评论** ![显示评论图标](assets/show-comments-icon.png)图标以打开“评论”部分。
 
 1. 开始在&#x200B;**新建评论**&#x200B;框中输入评论。
 
@@ -173,8 +173,8 @@ ht-degree: 0%
 
    有关更新对象(包括Workfront Planning记录)的详细信息，请参阅[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
-1. （可选）单击评论右上角的&#x200B;**更多**&#x200B;图标![](assets/more-menu.png)，然后单击&#x200B;**删除**&#x200B;以删除评论。
-1. （可选）单击&#x200B;**隐藏评论**&#x200B;图标![](assets/hide-comments-icon.png)以关闭右侧面板。
+1. （可选）单击评论右上角的&#x200B;**更多**&#x200B;图标![更多菜单](assets/more-menu.png)，然后单击&#x200B;**删除**&#x200B;以删除评论。
+1. （可选）单击&#x200B;**隐藏评论**&#x200B;图标![隐藏评论图标](assets/hide-comments-icon.png)以关闭右侧面板。
 
 <!--
       >[!TIP]
@@ -183,9 +183,9 @@ ht-degree: 0%
       >
       >The indicator displays only after the comment was submitted on the item, and not when the comment is still composed. 
       >
-      >![](assets/new-line-indicator-comments.png)
+      >![New line indicator in comments](assets/new-line-indicator-comments.png)
 1. Click **Submit** to add the update to the record. 
-1. (Optional) To edit a comment, click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the comment, then click **Edit**.
+1. (Optional) To edit a comment, click the **More** menu ![More menu](assets/more-menu.png) in the upper-right corner of the comment, then click **Edit**.
    >[!IMPORTANT]
    >
    >You can edit your comment only within 15 minutes from submitting it.  
@@ -194,15 +194,15 @@ ht-degree: 0%
       >
       >Comments from the current year do not display the year in the date stamp. Hovering over a timestamp displays the full date, including the year.
 1. (Optional and conditional) To search for an existing comment, start typing a keyword in the search box in the upper-right corner of the **Comments** area.     
-   ![](assets/search-box-for-comments-area.png)
+   ![Search box for comments](assets/search-box-for-comments-area.png)
 1. (Optional) Click **Reply** or start typing a comment in the **Add reply ...** area, to reply to an existing comment, then follow steps 4-8 above. (**************accurate??***********)
 1. (Conditional and optional) If other users have added comments that display outside of the visible area in the Comments section while you were adding your comments, click **View** inside the **new comments banner** at the bottom of the screen  to display these comments.
-   ![](assets/new-comments-banner-on-record.png)
+   ![New comments banner on record](assets/new-comments-banner-on-record.png)
 
     Additional comments display at the bottom of the screen.
 1. (Optional) Click the **Like** icon to like an update or acknowledge that you read it. The icon updates with the number of likes.
 1. (Conditional and optional) If you included additional people in your comment, click the avatars of the users included in the update to display a list of users that the comment is shared with. 
-1. (Optional) Click the **More** icon ![](assets/more-menu.png) in the upper-right corner of the comment and click one of the following options, to copy a information from a comment: 
+1. (Optional) Click the **More** icon ![More menu](assets/more-menu.png) in the upper-right corner of the comment and click one of the following options, to copy a information from a comment: 
     * **Copy link**: This copies a link to the comment to your clipboard.
     * **Copy body text**: This copies the text of the comment to your clipboard.
     * **Quote reply**: This copies the content of your comment into a new reply. Images are not included in the copied reply. 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '737'
 ht-degree: 2%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 2%
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p> </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>布局模板</p></td> 
+   <td role="rowheader"><p>版面模板</p></td> 
    <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> </td> 
   </tr> 
 </tbody> 
@@ -124,18 +124,18 @@ ht-degree: 2%
 1. 执行下列操作之一：
 
    * 在“表”视图中，单击记录的名称。
-   * 在“表”视图中，将鼠标悬停在记录名称上，单击&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**查看**
+   * 在“表”视图中，将鼠标悬停在记录名称上，然后单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击&#x200B;**查看**
 
-     ![](assets/contextual-menu-for-record-row.png)
+     ![记录行的上下文菜单](assets/contextual-menu-for-record-row.png)
    * 在“时间轴”视图中，单击记录栏。
 
    此时将打开记录页面。
 
-1. 单击记录名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**删除**，再次&#x200B;**删除**&#x200B;以进行确认。
+1. 单击记录名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**删除**，再次&#x200B;**删除**&#x200B;以进行确认。
 
-   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
+   ![记录详细信息页面中的更多菜单选项](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 删除记录。
-1. （可选且有条件）如果删除“预览”环境中的记录，请转到记录页面的表视图，单击该视图右上角的&#x200B;**撤消**&#x200B;图标![](assets/undo-icon.png)，然后单击&#x200B;**最近删除的记录**&#x200B;以恢复删除的记录。
+1. （可选且有条件）如果删除“预览”环境中的记录，请转到记录页面的表格视图，单击该视图右上角的&#x200B;**撤消**&#x200B;图标![撤消图标](assets/undo-icon.png)，然后单击&#x200B;**最近删除的记录**&#x200B;以恢复已删除的记录。
 
 有关恢复已删除记录的信息，请参阅[恢复已删除的记录](/help/quicksilver/planning/records/restore-deleted-records.md)。
 
@@ -156,17 +156,17 @@ ht-degree: 2%
 1. 执行下列操作之一：
 
    * 右键单击记录行，然后单击&#x200B;**删除**。
-   * 单击记录名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**删除**。
+   * 单击记录名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**删除**。
 
-     ![](assets/contextual-menu-for-record-row.png)
+     ![记录行的上下文菜单](assets/contextual-menu-for-record-row.png)
 
-   * 单击&#x200B;**打开详细信息**&#x200B;图标![](assets/open-details-icon-in-table-name-field.png)打开包含记录详细信息的框，然后单击记录名称右侧的&#x200B;**更多** ![](assets/more-menu.png)，然后&#x200B;**删除**。
+   * 单击&#x200B;**打开详细信息**&#x200B;图标![在表名称字段中打开详细信息图标](assets/open-details-icon-in-table-name-field.png)以打开包含记录详细信息的框，然后单击记录名称右侧的&#x200B;**更多** ![更多菜单](assets/more-menu.png)，然后&#x200B;**删除**。
 
    删除记录。
 
 1. （可选）执行以下操作之一以撤消或重做删除记录：
 
-   * 单击&#x200B;**撤消**&#x200B;图标![](assets/undo-icon.png)，然后单击&#x200B;**最近删除的**&#x200B;以恢复删除的记录。 有关恢复已删除记录的信息，请参阅[恢复已删除的记录](/help/quicksilver/planning/records/restore-deleted-records.md)。
+   * 单击&#x200B;**撤消**&#x200B;图标![撤消图标](assets/undo-icon.png)，然后单击&#x200B;**最近删除的记录**&#x200B;以恢复删除的记录。 有关恢复已删除记录的信息，请参阅[恢复已删除的记录](/help/quicksilver/planning/records/restore-deleted-records.md)。
    * 使用以下键盘快捷键可撤消或重做删除记录：
 
       * 按CTRL + Z(对于Mac，按⌘ + Z)可撤消删除记录

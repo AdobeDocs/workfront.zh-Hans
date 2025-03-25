@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 0%
+source-wordcount: '662'
+ht-degree: 1%
 
 ---
 
@@ -92,7 +92,7 @@ ht-degree: 0%
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p> </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>布局模板</p></td> 
+   <td role="rowheader"><p>版面模板</p></td> 
    <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> </td> 
   </tr> 
 </tbody> 
@@ -163,7 +163,7 @@ OLD:
 
 1. （视情况而定，可选）当有人在记录中的评论中为您添加标签后，转到通知您标签和评论的电子邮件通知。 电子邮件的发件人为Adobe Experience Cloud。
 
-   ![](assets/email-notification-example.png)
+   ![电子邮件通知示例](assets/email-notification-example.png)
 
 1. （可选）单击电子邮件内&#x200B;**Workfront**&#x200B;框中的消息。
 
@@ -195,6 +195,6 @@ OLD:
 
 1. （可选）单击&#x200B;**打开请求**。 该操作将在Workfront Planning中打开请求。
 
-1. 单击屏幕右上角的&#x200B;**通知**&#x200B;图标![](assets/notifications-area-icon-unified-shell.png)以访问&#x200B;**通知**&#x200B;页面。
+1. 单击屏幕右上角的&#x200B;**通知**&#x200B;图标![通知区域图标Unified Shell](assets/notifications-area-icon-unified-shell.png)以访问&#x200B;**通知**&#x200B;页面。
 
    有关管理Workfront Planning通知的信息，请参阅[管理Adobe Workfront Planning通知首选项](/help/quicksilver/planning/notifications/manage-notification-preferences.md)。

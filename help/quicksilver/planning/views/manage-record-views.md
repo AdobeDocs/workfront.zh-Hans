@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1459'
 ht-degree: 1%
 
 ---
@@ -106,7 +106,7 @@ ht-degree: 1%
    <p>查看对视图的权限以临时更改视图设置</p> </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>布局模板</p></td> 
+   <td role="rowheader"><p>版面模板</p></td> 
    <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> </td> 
   </tr> 
 </tbody> 
@@ -252,7 +252,7 @@ ht-degree: 1%
 
    将使用选定的视图创建新选项卡。
 
-   根据屏幕的宽度，**更多**&#x200B;菜单![](assets/more-menu.png)中可能会显示其他视图。
+   根据屏幕的宽度，**更多**&#x200B;菜单![更多](assets/more-menu.png)中可能会显示其他视图。
 
 
 >[!TIP]
@@ -264,7 +264,7 @@ ht-degree: 1%
 >否则，“时间轴”和“日历”选项将灰显。
 >
 
-![](assets/view-types-drop-down-from-record-type-list.png)
+![记录类型列表中的查看类型下拉列表](assets/view-types-drop-down-from-record-type-list.png)
 
 1. （视情况而定）创建时间线或日历视图时，单击&#x200B;**下一步**。
 
@@ -285,10 +285,10 @@ ht-degree: 1%
 1. 单击&#x200B;**创建**。
 
    该视图将显示为新选项卡。 视图会按照其创建或与您共享时的时间顺序显示。
-1. （可选）单击最后一个视图旁边的&#x200B;**更多**&#x200B;菜单![](assets/more-caret-down-icon-views.png)以显示所选记录类型的所有视图。
+1. （可选）单击最后一个视图旁边的&#x200B;**更多**&#x200B;菜单![更多向下插入符号图标视图](assets/more-caret-down-icon-views.png)以显示所选记录类型的所有视图。
 
    其他视图显示在最后一个视图选项卡之后的&#x200B;**更多**&#x200B;菜单下。 **更多**&#x200B;菜单旁边的数字显示其他视图的数量。
-1. （可选）要在创建视图后重命名视图，请单击“视图”下拉菜单，然后单击&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png) > **重命名**&#x200B;以更新视图名称
+1. （可选）要在创建视图后重命名视图，请单击“视图”下拉菜单，然后单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png) > **重命名**&#x200B;以更新视图名称
 
    或
 
@@ -315,7 +315,7 @@ ht-degree: 1%
 
    默认情况下，所选类型的所有记录都会显示在表格视图中。
 
-1. 将鼠标悬停在视图选项卡中的某个视图名称上，单击视图名称左侧的&#x200B;**更多** ![](assets/more-menu.png)，然后单击&#x200B;**删除**。
+1. 将鼠标悬停在视图选项卡中的某个视图名称上，然后单击视图名称左侧的&#x200B;**更多** ![更多菜单](assets/more-menu.png)，然后单击&#x200B;**删除**。
 首先，您可能需要单击最后一个选项卡左侧的**更多**&#x200B;以查找要删除的视图。
 
 1. 单击&#x200B;**删除**&#x200B;以确认。<!--ensure there is not another saving step here?!-->
@@ -345,9 +345,9 @@ ht-degree: 1%
    此时将打开记录类型页面。
 默认情况下，所选类型的所有记录都会显示在表格视图中。
 
-1. 将鼠标悬停在要复制的视图的选项卡上，单击视图名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**复制**。
+1. 将鼠标悬停在要复制的视图的选项卡上，单击视图名称右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击&#x200B;**复制**。
 
-   ![](assets/view-more-menu-with-duplicate-option.png)
+   ![查看包含重复选项的更多菜单](assets/view-more-menu-with-duplicate-option.png)
 
 
    视图重复，新视图的名称遵循以下模式： `Original view's name (Copy)`。 新的视图选项卡将显示在所有视图选项卡的末尾。
@@ -362,13 +362,13 @@ ht-degree: 1%
 1. （视情况而定）如果同时有其他用户编辑所选类型的记录，则其头像将显示在视图的右上角。
 1. 单击头像旁边的下拉菜单，然后选择&#x200B;**显示协作者**&#x200B;切换开关。 默认情况下，该切换处于选中状态。
 
-   ![](assets/show-collaborators-toggle-selected.png)
+   ![显示协作者切换选定项](assets/show-collaborators-toggle-selected.png)
 
 1. （视情况而定）打开表格视图，另一个人正在主动编辑的字段会以对应于表格视图中其头像轮廓的颜色突出显示。
 
    如果头像的高亮颜色为灰色，则用户在30秒前停止了主动编辑记录。
 
-   ![](assets/real-time-indicator-table-field-and-avatar-connection.png)
+   ![实时指示器表字段和头像连接](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
    >[!TIP]
    >

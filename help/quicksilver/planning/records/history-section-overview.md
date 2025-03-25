@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 3%
+source-wordcount: '661'
+ht-degree: 4%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 3%
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p> </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>布局模板</p></td> 
+   <td role="rowheader"><p>版面模板</p></td> 
    <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> </td> 
   </tr> 
 </tbody> 
@@ -114,14 +114,14 @@ ht-degree: 3%
 1. 从任何视图中，单击记录的名称。
 
    此时将打开记录的页面。 默认情况下，“注释”区域会在右侧面板中打开。
-1. 单击&#x200B;**显示历史记录**&#x200B;图标![](assets/show-history-icon.png)。 对记录字段所做的所有更改都将显示在右侧面板中，从最近的更改开始。
-1. （可选）单击&#x200B;**隐藏历史记录**&#x200B;图标![](assets/hide-history-icon.png)以关闭右侧面板。
+1. 单击&#x200B;**显示历史记录**&#x200B;图标![显示历史记录图标](assets/show-history-icon.png)。 对记录字段所做的所有更改都将显示在右侧面板中，从最近的更改开始。
+1. （可选）单击&#x200B;**隐藏历史记录**&#x200B;图标![隐藏历史记录图标](assets/hide-history-icon.png)以关闭右侧面板。
 
 ## 有关“历史记录”部分的注意事项
 
 您可以在记录页面的右侧面板的“历史记录”部分中查看对记录字段所做的更改。
 
-![](assets/history-area-in-comments.png)
+评论中的![历史记录区域](assets/history-area-in-comments.png)
 
 * Workfront Planning会在“历史记录”部分中记录以下信息：
 

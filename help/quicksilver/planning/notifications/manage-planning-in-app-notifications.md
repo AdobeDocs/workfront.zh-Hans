@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '440'
 ht-degree: 1%
 
 ---
@@ -87,7 +87,7 @@ ht-degree: 1%
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>  </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>布局模板</p></td> 
+   <td role="rowheader"><p>版面模板</p></td> 
    <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> </td> 
   </tr> 
 </tbody> 
@@ -160,9 +160,9 @@ OLD:
 
 ## 当有人在评论中标记您时管理应用程序内通知
 
-1. （视情况而定）当有人在记录中标记您后，转到Adobe Experience Cloud中的应用程序内&#x200B;**通知**&#x200B;图标![](assets/experience-cloud-notifications-icon.png)。
+1. （视情况而定）当有人在记录中标记您后，转到Adobe Experience Cloud中的应用程序内&#x200B;**通知**&#x200B;图标![Experience Cloud通知图标](assets/experience-cloud-notifications-icon.png)。
 
-   ![](assets/in-app-notification-example.png)
+   ![应用内通知示例](assets/in-app-notification-example.png)
 
 1. 单击通知。
 

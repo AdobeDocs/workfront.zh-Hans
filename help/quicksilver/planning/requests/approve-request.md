@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '906'
 ht-degree: 1%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 1%
   </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>布局模板</p></td>
+   <td role="rowheader"><p>版面模板</p></td>
    <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p>  
 </td>
   </tr>
@@ -141,20 +141,20 @@ ht-degree: 1%
 
 1. 执行下列操作之一：
 
-   * 如果您有权访问Workfront Planning并且可以查看至少一个工作区，请单击屏幕右上角的&#x200B;**主菜单** ![](assets/dots-menu.png)或左上角的&#x200B;**主菜单** ![](assets/lines-menu.png)（如果可用），然后单击&#x200B;**请求** > **已提交** > **Planning**，然后单击状态为&#x200B;**待审阅**&#x200B;或&#x200B;**正在审阅**&#x200B;的请求。
+   * 如果您有权访问Workfront Planning并且可以查看至少一个工作区，请单击屏幕右上角的&#x200B;**主菜单** ![圆点主菜单](assets/dots-menu.png)，或单击左上角的&#x200B;**主菜单** ![行主菜单](assets/lines-menu.png)（如果可用），然后单击&#x200B;**请求** > **已提交** > **Planning**，然后单击状态为&#x200B;**待审核**&#x200B;或&#x200B;**审核中**&#x200B;的请求。
 
      >[!TIP]
      >
      >如果您无权访问Workfront Planning，或无权查看任何工作区，则只能使用电子邮件或应用程序内通知访问批准请求。
 
-   * 单击屏幕右上角的&#x200B;**通知**&#x200B;区域图标![](assets/notifications-area-icon-unified-shell.png)，然后单击有关待您审批的请求的通知以打开该请求。
+   * 单击屏幕右上角的Unified Shell中的&#x200B;**通知**&#x200B;区域图标![通知区域图标](assets/notifications-area-icon-unified-shell.png)，然后单击有关待您审批的请求的通知以打开请求。
    * 转到电子邮件中的电子邮件通知，通知您某个请求等待您审批，然后单击&#x200B;**打开请求**&#x200B;以打开该请求。<!--add the name of the button here, from the email-->
 
    请求页面将以只读模式打开。
 
-   ![](assets/read-only-reqeust-page-in-review-status.png)
+   ![处于审核状态的只读请求页面](assets/read-only-reqeust-page-in-review-status.png)
 
-1. （可选）单击请求右上角的&#x200B;**批准**&#x200B;图标![](assets/approvals-icon.png)以查看批准者。
+1. （可选）单击请求右上角的&#x200B;**批准**&#x200B;图标![批准图标](assets/approvals-icon.png)以查看批准者。
 1. 单击&#x200B;**审核并批准**，然后选择以下选项之一： <!--did they fix the button and removed the &??-->
 
    * **批准**：这将批准请求。 在所有批准者批准请求后，将立即为与请求表单关联的记录类型创建记录。

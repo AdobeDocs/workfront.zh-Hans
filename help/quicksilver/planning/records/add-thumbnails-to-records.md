@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
 source-wordcount: '912'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 0%
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p> </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>布局模板</p></td> 
+   <td role="rowheader"><p>版面模板</p></td> 
    <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> </td> 
   </tr> 
 </tbody> 
@@ -145,7 +145,7 @@ ht-degree: 0%
    有关上载缩略图的更多信息，请参阅本文中从步骤6开始的[从详细信息页面](#add-a-thumbnail-to-a-record-from-the-details-page)将缩略图添加到记录部分。<!--see if this is accurate-->
 
 <!--
-   ![](assets/record-thumbnail-box-for-upload.png) 
+   ![Record thumbnail box for upload](assets/record-thumbnail-box-for-upload.png) 
 
   *****update screen shot with correct casing****
 
@@ -155,11 +155,11 @@ ht-degree: 0%
    
    Click **Browse images**, then browse for an image file to add. The file must be saved on your computer. 
 1. (Optional) After the image uploads in the **Record thumbnail** box, use the sizing tool to crop and resize the image.
-1. (Optional) Click the **Upload new image** icon ![](assets/upload-new-image-icon.png) to upload another image. 
-1. (Optional) To remove a thumbnail before it is saved, click  **Remove uploaded image** icon ![](assets/remove-image-icon.png) to the right of the image. 
+1. (Optional) Click the **Upload new image** icon ![Upload new image icon](assets/upload-new-image-icon.png) to upload another image. 
+1. (Optional) To remove a thumbnail before it is saved, click  **Remove uploaded image** icon ![Remove image icon](assets/remove-image-icon.png) to the right of the image. 
 1. (Optional) Click the **Gallery** tab, then click an image. The gallery of images cannot be modified.
 
-   ![](assets/record-thumbnail-box-for-gallery.png)
+   ![Record thumbnail box for gallery](assets/record-thumbnail-box-for-gallery.png)
 1. Click **Use image** to add the image as a thumbnail. 
    This closes the **Record thumbnail** box.
    The thumbnail displays in areas of Workfront Planning where the record displays. 
@@ -168,7 +168,7 @@ ht-degree: 0%
    >
    >   You must enable the Thumbnail field in the table view to display thumbnails in this view. It is disabled by default.
 
-1. (Optional) To remove the thumbnail after it is saved, hover over the primary field and click the **More** menu ![](assets/more-menu.png)> **Thumbnail** > the **Remove** icon ![](assets/remove-image-icon.png), then click **Save changes**. -->
+1. (Optional) To remove the thumbnail after it is saved, hover over the primary field and click the **More** menu ![More menu](assets/more-menu.png)> **Thumbnail** > the **Remove** icon ![Remove image icon](assets/remove-image-icon.png), then click **Save changes**. -->
 
 ### 从详细信息页面向记录添加缩略图
 
@@ -226,9 +226,9 @@ ht-degree: 0%
 
    This opens the record type page. 
 1. Select a table view from the **View** drop-down menu. All records of the type you selected display in a table. 
-1. Hover over the primary field information, click the **More** menu ![](assets/more-menu.png), then click **Thumbnail**. 
+1. Hover over the primary field information, click the **More** menu ![More menu](assets/more-menu.png), then click **Thumbnail**. 
 
-   ![](assets/record-more-menu-expanded.png)
+   ![Record more menu expanded](assets/record-more-menu-expanded.png)
 
       >[!TIP]
       >
@@ -237,7 +237,7 @@ ht-degree: 0%
    The **Record thumbnail** box opens.
 
 (*************** update the screenshot below*************)
-   ![](assets/record-thumbnail-box-for-upload.png) 
+   ![Record thumbnail box for upload](assets/record-thumbnail-box-for-upload.png) 
 
 1. Click the **Generate** tab, and type a prompt describing the type of image you want to add in the space provided. 
 1. Click **Generate**. 
@@ -247,7 +247,7 @@ ht-degree: 0%
 1. Click an image to select it, then click **Use image**. 
 
    The Record thumbnail box closes and the thumbnail is attached to the record. All users who can view the records can now see the selected thumbnail. 
-1. (Optional) Click the **More** menu ![](assets/more-menu.png) to the right of the record name in the table view, then click **Thumbnail**. 
+1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record name in the table view, then click **Thumbnail**. 
 
    The generated image opens in the **Upload** tab where you can modify or remove it, as described in the section [Upload a thumbnail to a record](#upload-a-thumbnail-to-a-record) in this article. 
 -->

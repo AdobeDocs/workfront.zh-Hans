@@ -5,9 +5,9 @@ author: Alina
 draft: Probably
 feature: Work Management
 exl-id: be262d72-f4e4-4426-a6bc-23499667fc97
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '625'
 ht-degree: 1%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 1%
 
 ### 答案
 
-这是由于Portfolio状态为不活动所导致。 要更改Portfolio的状态，请执行以下操作：
+这是由Portfolio状态为不活动导致的。 要更改Portfolio的状态，请执行以下操作：
 
 1. 单击&#x200B;**Portfolio详细信息>概述**。
 1. 将&#x200B;**状态**&#x200B;更改为&#x200B;**活动。**
@@ -99,6 +99,6 @@ ht-degree: 1%
 
 Adobe Workfront管理员限制您仅查看您所属的您的访问级别中的公司、组和团队。 您正在寻找的团队不是您所属的团队之一。
 
-![](assets/view-only-team-groups-companies-they-belong-to-350x141.png)
+![仅查看他们属于的团队、组和公司](assets/view-only-team-groups-companies-they-belong-to-350x141.png)
 
 有关允许用户查看系统中所有团队的信息，请参阅[创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。

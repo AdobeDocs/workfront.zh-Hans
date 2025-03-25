@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '1837'
 ht-degree: 1%
 
 ---
@@ -101,7 +101,7 @@ ht-degree: 1%
   </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>布局模板</p></td>
+   <td role="rowheader"><p>版面模板</p></td>
    <td> <p>要查看Workfront对象的Planning区域或Planning区域，必须为包括Workfront管理员在内的所有用户分配一个布局模板，该布局模板包括主菜单中的Planning区域以及项目、项目组合和程序的Planning区域。 </p> 有关详细信息，请参阅<a href="/help/quicksilver/planning/access/access-overview.md">Adobe计划访问概述</a>。 </p>  </p>  
 </td>
   </tr>
@@ -166,12 +166,12 @@ ht-degree: 1%
       * 在Workfront Planning中显示的已连接记录字段的名称。
    * 记录显示在各自的工作区和记录类型下。
 
-   ![](assets/planning-section-on-project.png)
+   项目](assets/planning-section-on-project.png)的![计划部分
 
 1. （可选）单击“显示所有连接”****&#x200B;可显示所有连接的记录类型，包括未连接记录的记录类型。 默认情况下，不显示没有连接记录的记录类型。
 1. 单击记录卡以显示有关记录的更多信息。 此时将显示记录预览框。
 1. （可选）开始修改记录预览框中的字段。 您的更改会自动保存。
-1. （可选）单击预览框右上角的&#x200B;**在新标签中打开**&#x200B;图标![](assets/open-details-in-a-new-tab-icon.png)以打开记录的详细信息页面。 此时将在Workfront Planning中打开记录的详细信息页面。
+1. （可选）单击预览框右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开详细信息](assets/open-details-in-a-new-tab-icon.png)以打开记录的详细信息页面。 此时将在Workfront Planning中打开记录的详细信息页面。
 1. （可选）将鼠标悬停在记录卡片上，单击断开连接记录图标&#x200B;**-**，然后单击&#x200B;**断开连接**。
 出现以下情况：
    * 记录不再连接到Workfront对象。
@@ -242,7 +242,7 @@ ht-degree: 1%
 
 1. 单击字段内部以添加连接的记录，然后单击字段内部的向下箭头，以从列表中选择记录。
 
-   ![](assets/planning-connection-field-on-project-with-record-list-open.png)
+   ![在记录列表打开的项目上规划连接字段](assets/planning-connection-field-on-project-with-record-list-open.png)
 
    >[!TIP]
    >
@@ -252,7 +252,7 @@ ht-degree: 1%
    >
    >有迹象表明字段的对象与您选择的对象不匹配。
    >
-   >![](assets/warning-unsupported-object-planning-connection-field-on-form.png)
+   >![警告表单](assets/warning-unsupported-object-planning-connection-field-on-form.png)上不支持的对象Planning连接字段
 
 1. 单击列表外部以将其关闭。
 
@@ -263,13 +263,13 @@ ht-degree: 1%
    * 连接到Planning记录的Workfront查找字段的值会在Workfront Planning中填充。
    * <span class="preview">如果您的Workfront或组管理员在创建自定义表单时添加了记录查找字段，则记录的查找字段会自动填充到表视图中。 Planning连接字段中的表视图为只读</span>
 
-     ![](assets/planning-connection-field-with-table-on-project-details-custom-form.png)
+     ![项目详细信息自定义表单上具有表的Planning连接字段](assets/planning-connection-field-with-table-on-project-details-custom-form.png)
 
 1. （可选）单击Planning连接自定义表单中的记录名称<span class="preview">或将光标悬停在表中的记录名称上，然后在Planning连接字段中单击&#x200B;**打开记录**&#x200B;图标![打开记录图标](assets/open-record-icon-on-planning-connection-custom-form.png)</span>以在Workfront Planning中打开该记录。
 将打开Workfront Planning记录详细信息预览框。
 1. 查看或编辑有关记录的信息，或单击&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开记录](assets/open-details-in-a-new-tab-icon.png)以打开记录详细信息页面。
 
-1. （可选）从Workfront中的自定义表单中，单击记录上的&#x200B;**删除**&#x200B;图标![](assets/remove-icon.png)以将其从Planning连接字段中删除，并将其与Workfront对象断开连接。
+1. （可选）从Workfront中的自定义表单中，单击记录上的&#x200B;**删除**&#x200B;图标![删除图标](assets/remove-icon.png)以将其从Planning连接字段中删除，并将其与Workfront对象断开连接。
 Workfront对象与Planning记录断开连接，并且从Workfront中删除所有查找信息。
 
 1. 单击&#x200B;**保存更改**&#x200B;以保存自定义表单以及您对Workfront对象所做的任何其他更改。

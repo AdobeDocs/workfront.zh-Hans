@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '2876'
-ht-degree: 2%
+source-wordcount: '2932'
+ht-degree: 3%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 2%
    <p>查看对视图的权限以临时更改视图设置</p> </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>布局模板</p></td> 
+   <td role="rowheader"><p>版面模板</p></td> 
    <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> </td> 
   </tr> 
 </tbody> 
@@ -171,7 +171,7 @@ OLD:
 
 1. 创建表视图，如文章[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)中所述。
 
-   ![](assets/table-view-example.png)
+   ![表视图示例](assets/table-view-example.png)
 
 1. （可选）单击&#x200B;**行高**，然后从以下选项中进行选择以修改表行的高度：
    * 短
@@ -209,7 +209,7 @@ OLD:
 
    * 单击表格工具栏中的&#x200B;**字段**，然后按所需顺序拖放这些字段，然后单击&#x200B;**字段可见性和顺序**&#x200B;框外部以将其关闭。
 
-     ![](assets/fields-setting-table-view-toolbar-expanded.png)
+     ![字段设置表视图工具栏已展开](assets/fields-setting-table-view-toolbar-expanded.png)
 
 
      >[!TIP]
@@ -224,7 +224,7 @@ OLD:
 
 1. （可选）将鼠标悬停在表第一列中任何未显示的字段的列标题中的字段名称上，单击字段名称右侧的向下箭头，然后单击“**设置为主字段**”。
 
-   ![](assets/set-as-primary-field-option-table-view.png)
+   ![在表视图中设置为主字段选项](assets/set-as-primary-field-option-table-view.png)
 
 1. 单击&#x200B;**设置字段**&#x200B;以确认。
 
@@ -253,9 +253,9 @@ OLD:
 
 1. 执行以下操作可快速查找与关键字匹配的记录：
 
-   1. 单击&#x200B;**搜索**&#x200B;图标![](assets/search-icon.png)并开始键入与屏幕上显示的记录的任何字段相关联的关键字。 正确匹配的数量显示在搜索项目旁边，具有正确匹配的字段会高亮显示。
+   1. 单击&#x200B;**搜索**&#x200B;图标![搜索图标](assets/search-icon.png)并开始键入与屏幕上显示的记录的任何字段相关联的关键字。 正确匹配的数量显示在搜索项目旁边，具有正确匹配的字段会高亮显示。
 
-      ![](assets/search-box-with-results-blue-outline-table-view.png)
+      ![在表视图中具有结果蓝色轮廓的搜索框](assets/search-box-with-results-blue-outline-table-view.png)
 
       您可以使用屏幕上可见的任何单词或特殊字符。
 
@@ -284,7 +284,7 @@ OLD:
 
    有关信息，请参阅[将缩略图添加到记录](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
 
-1. （可选）选择一行中的一个或多个记录，然后将&#x200B;**句柄**&#x200B;图标![](assets/handle-icon.png)拖放到记录左侧以重新排列行。
+1. （可选）选择一行中的一个或多个记录，然后将&#x200B;**句柄**&#x200B;图标![句柄图标](assets/handle-icon.png)拖放到记录左侧以重新排列行。
 
    >[!NOTE]
    >
@@ -394,7 +394,7 @@ OLD:
 
    * 为所选字段选择值。
 
-   ![](assets/filter-ui-table-view.png)
+   ![筛选器UI表视图](assets/filter-ui-table-view.png)
 
    您可以添加的筛选条件数量没有限制。
 
@@ -408,7 +408,7 @@ OLD:
 
    1. （可选）在多个条件分组之间添加其他&#x200B;**AND**&#x200B;或&#x200B;**OR**&#x200B;运算符。
 
-      ![](assets/multi-tiered-filters-in-views.png)
+      ![视图中的多层筛选器](assets/multi-tiered-filters-in-views.png)
 
    </div>
 
@@ -446,7 +446,7 @@ OLD:
 1. 为记录类型创建时间线视图，如[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)一文中所述。
 1. 单击表视图右上角的&#x200B;**分组**。
 
-   ![](assets/grouping-ui-table-view-with-linked-fields.png)
+   ![将带有链接字段的UI表视图分组](assets/grouping-ui-table-view-with-linked-fields.png)
 
 1. 单击其中一个建议的字段，或单击&#x200B;**选择其他字段**，搜索其他字段，然后在列表显示该字段时单击它。
 
@@ -456,7 +456,7 @@ OLD:
 
    为分组选择的字段数将显示在分组图标旁边。
 
-   ![](assets/grouping-applied-in-table-view.png)
+   ![分组应用于表视图](assets/grouping-applied-in-table-view.png)
 
 1. （可选）在&#x200B;**按**&#x200B;对记录进行分组框中，单击为分组选择的字段右侧的&#x200B;**x**&#x200B;图标以删除该分组
 
@@ -499,7 +499,7 @@ OLD:
 要对<!--ungrouped (add this when sorting for groupings will be available-->记录进行排序，请执行以下操作：
 
 1. 创建表视图，如文章[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)中所述。
-1. 单击表右上角的&#x200B;**排序**&#x200B;图标![](assets/sort-icon.png)
+1. 单击表右上角的&#x200B;**排序**&#x200B;图标![排序图标](assets/sort-icon.png)
 
    或
 
@@ -523,7 +523,7 @@ OLD:
 
 1. 单击&#x200B;**记录排序依据**&#x200B;框外部以将其关闭。
 
-   ![](assets/sorting-in-table-view.png)
+   ![在表视图中排序](assets/sorting-in-table-view.png)
 
    表格中显示的信息根据您选择的标准排序。
 

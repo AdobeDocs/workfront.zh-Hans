@@ -6,9 +6,9 @@ description: 在Adobe Workfront中创建项目时，您自动被设置为项目�
 author: Alina
 feature: Work Management
 exl-id: 10421cab-237a-49a5-bb5b-5be510dc4c46
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ ht-degree: 0%
 
    项目所有者在项目标题和项目详细信息区域中更新。
 
-   ![](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
+   突出显示![项目利益相关者所有者](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
 
 ## 更新项目的项目发起人
 
@@ -131,4 +131,4 @@ ht-degree: 0%
 
    项目发起人更新项目详细信息区域。
 
-   ![](assets/project-stakeholders-sponsor-highlighted-nwe-350x147.png)
+   突出显示![项目利益相关者发起人](assets/project-stakeholders-sponsor-highlighted-nwe-350x147.png)

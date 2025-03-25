@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '2149'
+source-wordcount: '2246'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 0%
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>  </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>布局模板</p></td> 
+   <td role="rowheader"><p>版面模板</p></td> 
    <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> </td> 
   </tr> 
 </tbody> 
@@ -208,7 +208,7 @@ ht-degree: 0%
    与所选记录类型关联的记录将显示在表格视图中。
 1. 单击记录行内部以开始编辑有关内联记录的信息。
 
-   ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
+   ![使用格式化表格视图编辑记录段落字段](assets/edit-record-paragraph-field-with-formatting-table-view.png)
 
    >[!TIP]
    >
@@ -226,7 +226,7 @@ ht-degree: 0%
    * 添加项目符号列表
    * 添加编号列表
 
-   ![](assets/rich-text-toolbar-on-paragraph-field.png)
+   ![段落字段上的富文本工具栏](assets/rich-text-toolbar-on-paragraph-field.png)
 
 1. （可选）双击连接的记录字段以将连接的记录或对象添加到另一记录。 有关详细信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。
 1. 按键盘上的&#x200B;**Enter**&#x200B;键或单击行外以保存更改。 更改将自动保存。 **已保存**&#x200B;指示器短暂显示在表格视图的右上角，表示已保存更改。
@@ -240,7 +240,7 @@ ht-degree: 0%
    * 复制一个单元格中的信息，然后选择多个单元格并将相同的信息粘贴到多个单元格中。 您可以选择多个单元格，并将相同的信息粘贴到相邻行和列的多个单元格中。
    * 选择包含要复制信息的现有单元格的右下角，然后将其拖放到要粘贴相同信息的相邻单元格中。 所有单元格都必须包含相同类型的信息。
 
-     ![](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
+     ![在表视图中用于复制粘贴的可拖动右下角](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
    <div class="preview">
 
@@ -293,11 +293,11 @@ ht-degree: 0%
 
    或
 
-   从表格视图中，单击第一列中的&#x200B;**打开详细信息**&#x200B;图标![](assets/open-details-icon-in-table-name-field.png)。 记录的预览将在视图中打开。
+   从表格视图中，单击第一列中的&#x200B;**打开详细信息**&#x200B;图标![在表格名称字段](assets/open-details-icon-in-table-name-field.png)中打开详细信息图标。 记录的预览将在视图中打开。
 
    <div class="preview">
 
-   ![](assets/details-box.png)
+   ![详细信息框](assets/details-box.png)
 
    </div>
 
@@ -316,11 +316,11 @@ ht-degree: 0%
 
 1. （可选）单击&#x200B;**添加封面**&#x200B;以将封面图像添加到记录。 有关详细信息，请参阅[将封面图像添加到记录](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)。
 
-1. （可选）将鼠标悬停在缩略图图标上，然后单击&#x200B;**更多** ![](assets/more-menu.png) > **编辑缩略图**&#x200B;以添加缩略图图像。 有关信息，请参阅[将缩略图添加到记录](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
+1. （可选）将鼠标悬停在缩略图图标上，然后单击&#x200B;**更多** ![更多菜单](assets/more-menu.png) > **编辑缩略图**&#x200B;以添加缩略图图像。 有关信息，请参阅[将缩略图添加到记录](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
 
    Workfront会自动保存您所做的更改。
 
-1. <span class="preview"> （可选）单击记录预览框右上角的&#x200B;**实时指示器** ![](assets/real-time-indicator-icon.png)，然后启用&#x200B;**显示协作者**&#x200B;设置以实时突出显示其他人正在编辑的字段。
+1. <span class="preview"> （可选）单击记录预览框右上角的&#x200B;**实时指示器** ![实时指示器图标](assets/real-time-indicator-icon.png)，然后启用&#x200B;**显示协作者**&#x200B;设置以实时突出显示其他人正在编辑的字段。
 
    此区域显示同时访问记录的所有用户的名称和头像。
 
@@ -328,13 +328,13 @@ ht-degree: 0%
 
    <div class="preview">
 
-   ![](assets/real-time-indicator-expanded-record-preview-box.png)
+   ![实时指示器扩展记录预览框](assets/real-time-indicator-expanded-record-preview-box.png)
 
    </div>
 
-1. （可选）单击&#x200B;**导出**&#x200B;菜单![](assets/export-icon-in-record-details-page.png)以导出记录的详细信息。 有关信息，请参阅[导出记录的详细信息](/help/quicksilver/planning/records/export-the-record-page.md)。
+1. （可选）单击记录详细信息页面](assets/export-icon-in-record-details-page.png)中的&#x200B;**导出**&#x200B;菜单![导出图标以导出记录详细信息。 有关信息，请参阅[导出记录的详细信息](/help/quicksilver/planning/records/export-the-record-page.md)。
 
-1. （可选）单击记录预览右上角的&#x200B;**在新标签中打开**&#x200B;图标![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->以在新标签中打开记录页面。 继续编辑记录，如本文中[从记录的页面](#edit-a-record-from-the-records-page)部分编辑记录中所述。
+1. （可选）单击记录预览右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开详细信息](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->以在新标签中打开记录页面。 继续编辑记录，如本文中[从记录的页面](#edit-a-record-from-the-records-page)部分编辑记录中所述。
 
 ### 从记录的页面编辑记录
 
@@ -350,15 +350,15 @@ ht-degree: 0%
 
 1. 执行下列操作之一：
 
-   * 从任何视图中访问记录的预览，如本文中在视图](#edit-a-record-from-the-records-preview-in-a-view)中从记录的预览编辑记录[部分中所述的那样，然后单击记录预览右上角的&#x200B;**在新标签中打开**&#x200B;图标![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->以在新标签中打开记录的页面。
+   * 从任何视图中，访问记录的预览，如本文中[从记录的预览中编辑记录](#edit-a-record-from-the-records-preview-in-a-view)部分中所述，然后单击记录预览右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开详细信息](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->以在新标签中打开记录的页面。
 
-   * 在&#x200B;**表**&#x200B;视图中，将鼠标悬停在记录名称上，单击&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**查看**
+   * 在&#x200B;**表**&#x200B;视图中，将鼠标悬停在记录名称上，然后单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击&#x200B;**查看**
 
-     ![](assets/contextual-menu-for-record-row.png)
+     ![记录行的上下文菜单](assets/contextual-menu-for-record-row.png)
 
      此时将打开记录页面。
 
-     ![](assets/details-page.png)
+     ![详细信息页面](assets/details-page.png)
 
 1. （可选）单击记录标题右侧的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**重命名**。 这将更新显示为记录标题的字段。
 
@@ -378,17 +378,17 @@ ht-degree: 0%
 
    或
 
-   将鼠标悬停在现有封面图像上，然后单击&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png) > **上传**&#x200B;以添加新的封面图像来记录。
+   将鼠标悬停在现有封面图像上，然后单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png) > **上传**&#x200B;以添加新的封面图像来记录。
 
    有关详细信息，请参阅[将封面图像添加到记录](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)。
 
-1. （可选）将鼠标悬停在现有缩略图或&#x200B;**缩略图图标** ![](assets/record-thumbnail-icon-on-details-page.png)上，然后单击&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png) > **编辑缩略图**&#x200B;以添加记录的缩略图。
+1. （可选）将鼠标悬停在现有缩略图上，或悬停在详细信息页面上的&#x200B;**缩略图图标** ![记录缩略图图标](assets/record-thumbnail-icon-on-details-page.png)上，然后单击&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png) > **编辑缩略图**&#x200B;以添加记录的缩略图。
 
    有关详细信息，请参阅[将缩略图添加到记录](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
 
    Workfront会自动保存您所做的更改。
 
-1. <span class="preview"> （可选）单击记录页面右上角的&#x200B;**实时指示器** ![](assets/real-time-indicator-icon.png)，然后启用&#x200B;**显示协作者**&#x200B;设置以实时突出显示其他人正在编辑的字段。
+1. <span class="preview"> （可选）单击记录页面右上角的&#x200B;**实时指示器** ![实时指示器图标](assets/real-time-indicator-icon.png)，然后启用&#x200B;**显示协作者**&#x200B;设置以实时突出显示其他人正在编辑的字段。
 
    此区域显示同时访问记录的所有用户的名称和头像。
 
@@ -396,11 +396,11 @@ ht-degree: 0%
 
    <div class="preview">
 
-   ![](assets/real-time-indicator-expanded-record-preview-box.png)
+   ![实时指示器扩展记录预览框](assets/real-time-indicator-expanded-record-preview-box.png)
 
    </div>
 
-1. （可选）单击&#x200B;**导出**&#x200B;菜单![](assets/export-icon-in-record-details-page.png)以导出记录的详细信息。 有关信息，请参阅[导出记录的详细信息](/help/quicksilver/planning/records/export-the-record-page.md)。
+1. （可选）单击记录详细信息页面](assets/export-icon-in-record-details-page.png)中的&#x200B;**导出**&#x200B;菜单![导出图标以导出记录详细信息。 有关信息，请参阅[导出记录的详细信息](/help/quicksilver/planning/records/export-the-record-page.md)。
 
 
 ## 在Planning部分中编辑来自Workfront对象的记录

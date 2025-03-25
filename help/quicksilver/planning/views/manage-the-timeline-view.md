@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '2635'
+source-wordcount: '2692'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 0%
    <p>查看对视图的权限以临时更改视图设置</p> </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>布局模板</p></td> 
+   <td role="rowheader"><p>版面模板</p></td> 
    <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> </td> 
   </tr> 
 </tbody> 
@@ -176,7 +176,7 @@ ht-degree: 0%
 1. 转到要查看其时间线的记录类型页面。
 1. 创建时间线视图，如[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)一文中所述。
 
-   ![](assets/timeline-view-example.png)
+   ![时间线视图示例](assets/timeline-view-example.png)
 
    与所选记录类型关联的记录在时间轴中显示为条形，默认情况下，这些记录按其开始日期的时间顺序排序。
 
@@ -205,9 +205,9 @@ ht-degree: 0%
 
 1. 执行以下操作可快速查找与关键字匹配的记录：
 
-   1. 单击&#x200B;**搜索**&#x200B;图标![](assets/search-icon.png)并开始键入与屏幕上显示的记录的任何字段相关联的关键字。 正确匹配的数量显示在搜索项目旁边，具有正确匹配的记录会高亮显示。
+   1. 单击&#x200B;**搜索**&#x200B;图标![搜索图标](assets/search-icon.png)并开始键入与屏幕上显示的记录的任何字段相关联的关键字。 正确匹配的数量显示在搜索项目旁边，具有正确匹配的记录会高亮显示。
 
-      ![](assets/search-box-and-results-timeline-view.png)
+      ![搜索框和结果时间线视图](assets/search-box-and-results-timeline-view.png)
 
       您可以使用屏幕上可见的任何单词或特殊字符。
 
@@ -281,7 +281,7 @@ ht-degree: 0%
 1. 为记录类型创建时间线视图，如[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)一文中所述。
 1. 单击时间轴视图右上角的&#x200B;**分组**。
 
-   ![](assets/grouping-ui-timeline-view-with-linked-fields.png)
+   ![使用链接字段分组UI时间线视图](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
 1. 单击其中一个建议的字段，或单击&#x200B;**选择其他字段**，搜索其他字段，然后在列表显示该字段时单击它。
 
@@ -295,7 +295,7 @@ ht-degree: 0%
 
    <!-- update screen shot with view redesign-->
 
-   ![](assets/grouping-applied-in-timeline-view.png)
+   ![分组适用于时间线视图](assets/grouping-applied-in-timeline-view.png)
 
 1. （可选）在&#x200B;**按**&#x200B;对记录进行分组框中，单击为分组选择的字段右侧的&#x200B;**x**&#x200B;图标以删除该分组
 
@@ -347,11 +347,11 @@ this is not possible right now; if this is the same functionality as the table v
 
    右侧将显示时间轴上栏的外观。
 
-   ![](assets/record-details-panel-timeline-settings-with-preview.png)
+   ![带有预览的记录详细信息面板时间线设置](assets/record-details-panel-timeline-settings-with-preview.png)
 
 1. 单击左侧面板中的&#x200B;**颜色**，以自定义时间轴中记录和分组的颜色。
 
-   ![](assets/color-tab-timeline-view.png)
+   ![颜色选项卡时间线视图](assets/color-tab-timeline-view.png)
 
 1. （视情况而定，可选）如果向时间轴视图添加了分组，请从以下选项中进行选择，以在&#x200B;**设置分组颜色**&#x200B;部分中设置分组的颜色：
 
@@ -382,7 +382,7 @@ this is not possible right now; if this is the same functionality as the table v
 
 1. （视情况而定）如果您为记录颜色选择了&#x200B;**字段值**，请从&#x200B;**将记录颜色与**&#x200B;下拉菜单中选择一个字段。
 
-   ![](assets/field-selector-drop-down-menu-timeline-view.png)
+   时间线视图中的![字段选择器下拉菜单](assets/field-selector-drop-down-menu-timeline-view.png)
 
    下拉菜单中仅显示具有颜色编码选项的字段。
 
@@ -424,7 +424,7 @@ this is not possible right now; if this is the same functionality as the table v
 1. （视情况而定）如果您在标准模式下查看时间线视图，请单击&#x200B;**划分**。
 1. 展开&#x200B;**选择链接记录类型**&#x200B;框并选择连接的记录类型。<!--add a new screen shot - submitted a bug to remove the "the"-->
 
-   ![](assets/breakdown-picker-and-button-on-timeline.png)
+   时间线视图上的![划分选取器和按钮](assets/breakdown-picker-and-button-on-timeline.png)
 
    >[!TIP]
    >
@@ -439,7 +439,7 @@ this is not possible right now; if this is the same functionality as the table v
    如果所选记录与其他记录连接，则时间轴中的选定记录栏上将显示一个向右箭头。
 1. 单击向右箭头展开记录类型，显示为“connections（连接）”。
 
-   ![](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
+   在时间线视图中![按项目细分的营销活动](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
 
 1. （可选）重复上述步骤以添加更多连接的记录。
 

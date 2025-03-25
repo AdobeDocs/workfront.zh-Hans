@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '513'
 ht-degree: 1%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 1%
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p> </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>布局模板</p></td> 
+   <td role="rowheader"><p>版面模板</p></td> 
    <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> </td> 
   </tr> 
 </tbody> 
@@ -169,13 +169,13 @@ OLD:
 ## 管理通知首选项
 
 1. 使用您的Adobe Experience Cloud凭据登录Workfront 。
-1. 单击屏幕右上角的&#x200B;**帐户菜单**&#x200B;图标![](assets/account-menu-icon-on-experience-cloud.png)，然后单击&#x200B;**首选项**。
+1. 单击屏幕右上角的Experience Cloud](assets/account-menu-icon-on-experience-cloud.png)上的&#x200B;**帐户菜单**&#x200B;图标![帐户菜单图标，然后单击&#x200B;**首选项**。
 1. 在&#x200B;**通知**&#x200B;部分下，单击&#x200B;**Workfront**。
 1. 选择要接收的通知。
 或
 取消选择要停止接收的通知。
 
-   ![](assets/adobe-experience-cloud-notifications-panel-for-workfront-planning.png)
+   适用于Workfront Planning的![Adobe Experience Cloud通知面板](assets/adobe-experience-cloud-notifications-panel-for-workfront-planning.png)
 1. Workfront提供以下通知：
 
    * **提及**：当有人在Workfront Planning的评论中为您添加标签时，您会收到通知
