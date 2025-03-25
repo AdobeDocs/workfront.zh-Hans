@@ -6,9 +6,9 @@ description: 当有验证分配给您审批时，它将显示在移动设备应�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 4ab8dfd0-0a1f-425d-9e05-8e8134ce930a
-source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
+source-git-commit: 234fc6b7b5acb0914744831066cb88a965e54048
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >无法在移动设备应用程序中打开视频校样。
+   >视频验证只能在iOS移动设备应用程序中打开。 此功能尚不可用于Android。
 
 1. 查看文档校对。
 1. （可选）选择文档右上角的![[!UICONTROL 单页图标]](assets/mobile-proofpagingicon1-25x36.png)，以将单页视图更改为连续视图。 选择![[!UICONTROL 连续页面图标]](assets/mobile-proofpagingicon2-25x25.png)以更改回单页面视图。
