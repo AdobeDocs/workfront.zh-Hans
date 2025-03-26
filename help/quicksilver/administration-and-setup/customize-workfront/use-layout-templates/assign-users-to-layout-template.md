@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
 description: 作为Adobe Workfront管理员，您可以将已创建的布局模板分配给需要使用该布局模板的任何用户、工作角色、团队或组。
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 69cd1eafd7798861a4868fe0d68707ab5ba9106c
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '879'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
    <td><p>新增：标准</p>
   <p> 当前：计划</p>
    </td> 
@@ -57,7 +57,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -110,8 +110,8 @@ ht-degree: 0%
 
 ## 分配给布局模板的大量用户
 
-如果您编辑分配给2000多个用户的布局模板并对其进行更改，则布局模板上仅保留前2000个用户，并且您将看到所做的更改。 布局模板将从所有其他模板中删除。
-
+<!--If you edit a layout template which is assigned to more than 2000 users and make changes to it, only the first 2000 users will be retained on the layout template and will see the changes you made. The layout template is removed from all others.
+-->
 如果要为布局模板分配超过2000个用户，我们建议您执行以下操作之一：
 
 * 将用户组织到组或团队中，并将布局模板分配给这些组或团队。 有关详细信息，请参阅[创建组](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)和[创建和管理团队](../../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)。

@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 69cd1eafd7798861a4868fe0d68707ab5ba9106c
 workflow-type: tm+mt
-source-wordcount: '2754'
+source-wordcount: '2776'
 ht-degree: 6%
 
 ---
@@ -361,6 +361,10 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
    * 如果您需要在自定义字段中添加多个数据值（如单选按钮、复选框或列表），请使用首选项选项卡中列出的垂直条自定义数据分隔符“|”来分隔这些值。
 
      **示例：**&#x200B;在DE：Departments列下键入A|D以填充自定义表单中的部门A和部门D。
+
+     >[!NOTE]
+     >
+     >仅使用分隔符“|”分隔自定义字段值。 您无法在任何其他电子表格列（包括&#x200B;**setCategoryID**）中使用它。
 
 ### 包括日期  {#include-dates}
 
