@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 3%
+source-wordcount: '658'
+ht-degree: 2%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 3%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 Adobe Workfront具有许多默认风险类型，您可以在计划阶段与项目关联，以在批准任何工作之前确定潜在障碍。
 
@@ -93,7 +93,9 @@ Adobe Workfront具有许多默认风险类型，您可以在计划阶段与项�
 1. 选择要编辑的风险类型。
 1. 单击&#x200B;**[!UICONTROL 编辑]**&#x200B;图标![编辑图标](assets/edit-icon.png)。
 
-   将打开&#x200B;[!UICONTROL **编辑风险类型**]&#x200B;框。<!--add screen shot-->
+   <span class="preview">将打开&#x200B;[!UICONTROL **编辑风险类型**]&#x200B;框。</span>
+
+   ![编辑风险类型框](assets/edit-risk-type-box.png)
 
    >[!TIP]
    >
@@ -126,11 +128,18 @@ Adobe Workfront具有许多默认风险类型，您可以在计划阶段与项�
 {{step-1-to-setup}}
 
 1. 单击&#x200B;**[!UICONTROL 风险类型]**。
+
 1. 单击&#x200B;**[!UICONTROL 新建风险类型]**&#x200B;以打开&#x200B;[!UICONTROL **新建风险类型**]&#x200B;框
 
    或
 
-   单击风险类型列表左下角的&#x200B;[!UICONTROL **添加更多风险类型**]&#x200B;以内联添加风险类型。<!--add screen shot-->
+   单击风险类型列表左下角的&#x200B;[!UICONTROL **添加更多风险类型**]&#x200B;以内联添加风险类型。
+
+   <span class="preview">将打开&#x200B;**新风险类型**&#x200B;框。<span>
+
+   ![新风险类型框](assets/new-risk-type-box.png)
+
+
 1. 为风险类型添加&#x200B;**[!UICONTROL Name]**（必需）和&#x200B;**[!UICONTROL Description]**（可选）。
 
    **[!UICONTROL Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**&#x200B;字段的字符限制为50个字符。

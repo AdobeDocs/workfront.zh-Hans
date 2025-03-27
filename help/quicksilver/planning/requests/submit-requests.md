@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
 workflow-type: tm+mt
-source-wordcount: '1828'
+source-wordcount: '1878'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,10 @@ ht-degree: 0%
 
 您可以从以下区域提交Workfront Planning请求：
 
-* 从Workfront的请求区域，或者通过指向请求表单的直接链接。 本文介绍了如何提交请求，以从Workfront的“请求”区域或共享链接向记录类型添加新记录。
+* 从Workfront的请求区域。
+* 从已共享请求表单的直接链接。
+
+  本文介绍了如何提交请求，以从Workfront的“请求”区域或共享链接向记录类型添加新记录。
 * <span class="preview">从记录类型页面添加或请求新记录时。 有关信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。</span>
 
 Workfront用户和外部用户可以向Planning记录类型提交请求并创建记录。<!--double check on the external users-->
@@ -97,7 +100,7 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
   </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>布局模板</p></td>
+   <td role="rowheader"><p>版面模板</p></td>
    <td> <p>要访问Workfront中的Planning区域，必须为您分配一个布局模板，该模板包括主菜单中的Planning区域。 </p>
    <p> 但是，向Workfront Planning提交请求不需要访问“规划”区域。 </p>  
 </td>
@@ -212,6 +215,8 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
      >
      >仅当贵组织的Workfront实例载入到Adobe Unified Experience时，电子邮件和应用程序内通知才可见。
 
+   1. （可选）在确认消息中单击&#x200B;**查看您的请求**&#x200B;以打开该请求，或单击&#x200B;**X**&#x200B;图标以关闭确认。
+
 1. （可选）单击“请求”区域中的&#x200B;**Planning**&#x200B;选项卡以查看您的请求，然后单击请求的名称。
 
    此时将打开请求详细信息页面。
@@ -269,7 +274,13 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
      >
      >仅当贵组织的Workfront实例载入到Adobe Unified Experience时，电子邮件和应用程序内通知才可见。
 
-1. （可选）单击“请求”区域中的&#x200B;**Planning**&#x200B;选项卡以查看您的请求，然后单击请求的名称。
+1. <span class="preview">（可选）单击&#x200B;**查看您的请求**&#x200B;以在Workfront中打开该请求。</span>
+
+   或
+
+   <span class="preview">单击[提交其他请求](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request)以打开请求表单并添加新请求。</span>
+
+1. （可选）单击&#x200B;**主菜单** > **请求** > **计划**&#x200B;选项卡以查看您的请求，然后单击请求的名称。
 
    此时将打开请求详细信息页面。
 

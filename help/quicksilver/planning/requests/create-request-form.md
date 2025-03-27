@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 4df268c9b5a99991bee3f1862c83fe0079d162c1
+source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
 workflow-type: tm+mt
-source-wordcount: '2121'
+source-wordcount: '2184'
 ht-degree: 1%
 
 ---
@@ -103,7 +103,7 @@ ht-degree: 1%
   </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>布局模板</p></td>
+   <td role="rowheader"><p>版面模板</p></td>
    <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p>  
 </td>
   </tr>
@@ -178,9 +178,11 @@ ht-degree: 1%
    * **默认的分区**：这是Workfront应用于请求表单的默认分区界限。 所有记录字段都显示在&#x200B;**默认部分**&#x200B;区域。
    * **主题**&#x200B;字段：将在Workfront中标识该请求的字段。 “主题”字段的配置和值不可编辑。
 
-     >[!TIP]
+     >[!NOTE]
      >
-     >**Subject**&#x200B;字段在请求表单上可见时需要值。 但是，如果需要，您可以删除&#x200B;**主题**&#x200B;字段，而请求者在提交请求时将不会在表单上看到该字段。
+     >* **Subject**&#x200B;字段在请求表单上可见时需要值。 但是，如果需要，您可以删除&#x200B;**主题**&#x200B;字段，而请求者在提交请求时将不会在表单上看到该字段。
+     >* 当请求表单中缺少“主题”字段，但未来记录的名称具有“名称”字段时，将自动为请求名称分配与创建的记录相同的名称。
+     >* 当请求表单中缺少“主题”和“名称”字段时，请求使用以下模式命名： `< Record name > request form < Entry date of the request >`；记录名为&#x200B;**无标题**。
 
    * 与记录类型关联的所有字段。
 
