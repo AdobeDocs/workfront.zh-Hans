@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: ff4a9b317bd75b298a7a39814b4ae265c92c6d2a
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 4%
@@ -16,6 +16,8 @@ ht-degree: 4%
 ---
 
 # 创建自定义费用类型
+
+{{highlighted-preview}}
 
 <!--**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -55,9 +57,9 @@ ht-degree: 4%
 
 +++
 
-## 默认费用类型
+## Default expense types
 
-无法删除或编辑默认位于[!DNL Workfront]中的费用类型，包括以下内容：
+The default expense types in [!DNL Workfront] that cannot be deleted or edited include the following:
 
 * [!UICONTROL Advertising]
 * [!UICONTROL 咨询]
@@ -72,7 +74,7 @@ ht-degree: 4%
 
 1. 单击&#x200B;**[!UICONTROL 费用类型]**。
 1. 单击&#x200B;**[!UICONTROL 新建费用类型]**。
-1. 在显示的&#x200B;**[!UICONTROL 新费用类型]**&#x200B;框中，指定以下信息：
+1. 在&#x200B;**[!UICONTROL 新建费用类型]**&#x200B;对话框中，指定以下信息：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -84,11 +86,11 @@ ht-degree: 4%
      </tr> 
      <tr> 
       <td role="rowheader">[！UICONTROL描述]</td> 
-      <td>指定费用的描述。</td> 
+      <td>Specify a description for the expense.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL计算单位]</td> 
-      <td> <p>从下拉列表中选择费用类型的度量单位。</p> <p>可使用以下测量单位：</p> 
+      <td role="rowheader">[!UICONTROL Calculated Unit]</td> 
+      <td> <p>Select the unit of measurement for your expense type from the drop-down list.</p> <p>The following unit of measurements are available:</p> 
        <ul> 
         <li>英里</li> 
         <li>千米</li> 
@@ -101,24 +103,26 @@ ht-degree: 4%
      </tr> 
      <tr> 
       <td role="rowheader">费率</td> 
-      <td> <p>指定单价。 这是一个货币格式字段，它表示在<strong>[！UICONTROL计算单位]</strong>字段中建立的每个单位的成本。 </p> <p>比率可以包含小数点后最多4个数字的数值。 例如，1.0375</p> </td> 
+      <td> <p>指定单价。 这是一个货币格式字段，它表示在<strong>[！UICONTROL计算单位]</strong>字段中建立的每个单位的成本。 </p> <p>比率可以包含小数点后最多4个数字的数值。 For example, 1.0375</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 单击&#x200B;**[!UICONTROL 创建费用类型]**。\
-   费用类型现在可供用户将其与他们在项目和任务中的费用相关联。
+1. 单击&#x200B;**创建费用类型** <span class="preview">或&#x200B;**[!UICONTROL 保存]**。</span>
 
-## 修改自定义费用类型
+   The expense type is now available for users to associate it with their expenses on projects and tasks.
+
+## Modify custom expense types
 
 {{step-1-to-setup}}
 
 1. 单击&#x200B;**[!UICONTROL 费用类型]**。
-1. 选择要修改的支出类型，然后单击&#x200B;**[!UICONTROL 编辑]**。
+1. Select the expense type that you want to modify, then click **[!UICONTROL Edit]**.
 
-   此时将显示&#x200B;**[!UICONTROL 编辑费用类型]**&#x200B;对话框。
+   The **[!UICONTROL Edit Expense Type]** dialog box appears.
 
-1. 进行所需的更改，然后单击&#x200B;**[!UICONTROL 保存更改]**。\
-   费用类型现在可供用户将其与他们在项目和任务中的费用相关联。
+1. Make your desired changes, then click **Save Changes** <span class="preview">or **[!UICONTROL Save]**.</span>
 
-有关如何使用费用以及它们如何影响项目成本的更多信息，请参阅文章[管理项目费用](../../../manage-work/projects/project-finances/manage-project-expenses.md)。
+   The expense type is now available for users to associate it with their expenses on projects and tasks.
+
+For more information about how to use expenses and how they can affect the cost of a project, see the article [Manage project expenses](../../../manage-work/projects/project-finances/manage-project-expenses.md).
