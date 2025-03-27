@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: c362c62855c71022c4bc6b3abc22ba4ea83b1b24
+source-git-commit: fbe5373ebe1c73db656384da8a339d0983215e4e
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '651'
 ht-degree: 4%
 
 ---
@@ -93,8 +93,9 @@ ht-degree: 4%
       <td>未就绪</td>
       <td>显示具有
        <ul>
-      <li>未完成的前置任务或阻止处理项目的任务限制</li>
+      <li>未完成的前置任务或阻止处理项目的任务限制</li></ul>
       <p>或</p>
+      <ul>
       <li>超过两周后的计划开始日期</li>
       </ul>
        </td>
@@ -131,7 +132,7 @@ ht-degree: 4%
 
 ## 使用智能筛选器筛选您的工作
 
-使用自然语言快速筛选筛选工作。
+使用自然语言快速筛选工作。
 
 >[!NOTE]
 >
@@ -143,7 +144,7 @@ ht-degree: 4%
 1. 单击&#x200B;**智能滤镜**。
 1. 键入您希望如何筛选您的工作。
 
-   您可以键入以下内容
+   您可以键入如下内容：
 
    * 显示迟到任务
    * 显示我的首要任务
