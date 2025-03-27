@@ -6,7 +6,8 @@ description: Adobe Workfront于2022年4月6日发布了API版本19。 API版本1
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 13910328903744aa9bf619e8b4c376520c21b89e
+exl-id: 84909dea-7ce1-4ad3-90f5-9dbdb354eaa4
+source-git-commit: 1c1f9f46ea25ffa7d01c1a762b0478a5edb3339e
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 0%
@@ -388,7 +389,7 @@ Parameter对象是一个自定义字段。
             <ul>
             <li>Adobe XD (ADOBEXD)</li>
             <li>图像(IMAGE)</li>
-            <li>PDF(PDF)</li>
+            <li>PDF (PDF)</li>
             <li>视频（视频）</li>
             <li>外部查找(EXTRNL)</li>
             <li>多选外部查找(MULTEXTRNL)</li>
@@ -437,7 +438,7 @@ Parameter对象是一个自定义字段。
 
 ### 记分卡问题 {#scorecardquestion}
 
-ScoreCardQuestion对象表示已添加到记分卡的问题。 这些问题通常由Portfolio经理决定，这些问题的答案让经理能够了解项目与项目组合目标的符合程度。
+ScoreCardQuestion对象表示已添加到记分卡的问题。 这些问题通常由Portfolio经理决定，这些问题的答案让经理能够了解项目与项目组合目标的对齐情况。
 
 <table>
   <tbody>
@@ -448,7 +449,7 @@ ScoreCardQuestion对象表示已添加到记分卡的问题。 这些问题通�
             <ul>
             <li>Adobe XD (ADOBEXD)</li>
             <li>图像(IMAGE)</li>
-            <li>PDF(PDF)</li>
+            <li>PDF (PDF)</li>
             <li>视频（视频）</li>
             <li>外部查找(EXTRNL)</li>
             <li>多选外部查找(MULTEXTRNL)</li>
@@ -522,5 +523,3 @@ TemplateAssignment对象添加了标志&#x200B;**DATA_EXTENDIBLE**。
       </td>
   </tbody>
 </table>
-
-

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: ece8b2b248c8dd4e27465fbacb1319a7e0fbac11
+source-git-commit: 9b1514ac84692703aa1938c306ff5680d7c9f74f
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,62 @@ ht-degree: 0%
 本页介绍在2025年第二季度发布时间范围内对Adobe Workfront应用程序各个区域的外观和感觉所做的细微更新。
 
 有关2025年第二季度版本的所有可用更改列表，请参阅[2025年第二季度版本概述](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)。
+
+<!--
+
+## Updated experience in the Access Levels area in Setup
+
+>[!NOTE]
+>
+>Preview release: March 27, 2025; Production release for all customers: With the 25.4 release (April 10, 2025)
+
+To enhance performance, we've made some visual updates to the Access Levels area in Setup.
+
+A small functionality change has been applied to the Access Levels list. To copy, edit, or delete an access level, select the level and click the appropriate icon.
+
+-->
+
+## 费用类型对话框的外观更新
+
+>[!NOTE]
+>
+>预览版本： 2025年3月27日；适用于所有客户的生产版本：使用25.4版本（2025年4月10日）
+
+我们更新了在设置区域添加和编辑费用类型的对话框的外观，以匹配Workfront其他区域的设计。
+
+有关信息，请参阅[创建自定义费用类型](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)。
+
+## 编辑风险类型框的外观更新
+
+>[!NOTE]
+>
+>预览版本： 2025年3月27日；适用于所有客户的生产版本：使用25.4版本（2025年4月10日）
+
+当您在Workfront的“设置”区域中更新现有风险类型时，我们更新了“编辑风险类型”框的外观。 现在，新设计与Workfront的其他部分相匹配。
+
+有关信息，请参阅[编辑和创建风险类型](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)。
+
+## 新风险类型框的外观更新
+
+>[!NOTE]
+>
+>预览版本： 2025年3月27日；适用于所有客户的生产版本：使用25.4版本（2025年4月10日）
+
+当您在Workfront的“设置”区域中添加新的风险类型时，我们更新了“新风险类型”框的外观。 现在，新设计与Workfront的其他部分相匹配。
+
+有关信息，请参阅[编辑和创建风险类型](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)。
+
+## 项目队列详细信息区域的外观更新
+
+>[!NOTE]
+>
+>预览版本： 2025年3月27日；适用于所有客户的生产版本：使用25.4版本（2025年4月10日）
+
+我们更新了项目中队列详细信息区域的外观，以匹配Workfront其他区域的设计。
+
+通过此更新，模板的“队列详细信息”区域的外观未发生更改。
+
+有关信息，请参阅[创建请求队列](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
 ## 头像不再显示在某些电子邮件通知中
 
@@ -35,27 +91,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览版本： 2025年3月6日；适用于所有客户的生产版本： 2025年4月10日
+>预览版本： 2025年3月6日；面向所有客户的生产版本：随25.4版一起发布（2025年4月10日）
 
 我们更新了“设置”区域中“里程碑路径”列表的外观，以匹配Workfront其他区域的设计。
 
 有关信息，请参阅[创建里程碑路径](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)。
-
-## Workfront日历的外观更新
-
->[!NOTE]
->
->预览版本： 2025年2月27日；适用于所有客户的生产版本：使用25.4版本（2025年4月10日）
-
-我们更新了Workfront日历的外观和风格，使其采用与Workfront其他区域一致的现代化设计。 与当前Workfront日历相比，功能稍有不同，包括：
-
-* 如何将临时项目添加到日历
-* 如何创建和重命名日历
-* 日历操作已移至日历名称旁边的更多菜单
-* 用于查看日历信息的新侧面板
-* 等等
-
-有关详细信息，请参阅[日历](/help/quicksilver/reports-and-dashboards/reports/calendars/calendars.md)文章。
 
 ## 项目视图中项目里程碑路径的更新视图
 

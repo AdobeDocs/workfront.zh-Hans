@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: e5878d3b591e65f4ece2a79248e03940976580de
+source-git-commit: e8751b8e33ce99d56f816f12b065482c4deb7fbd
 workflow-type: tm+mt
-source-wordcount: '1935'
+source-wordcount: '2166'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,45 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 提交新请求后查看该请求的链接
+
+>[!NOTE]
+>
+>预览：2025年3月27日；面向所有客户的生产：2025年4月10日
+
+现在，您可以在从以下区域提交新请求后立即打开该请求：
+
+* 从共享链接访问请求表单后
+* “新建记录”或“请求记录”按钮中的记录类型页面
+* 主菜单中的请求区域
+
+有关信息，请参阅[提交Adobe Workfront计划请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。
+
+## 使用自动从一个记录中创建多个对象
+
+>[!NOTE]
+>
+>预览：2025年3月27日；面向所有客户的生产：2025年4月10日
+
+在Workfront Planning中使用自动化时，您现在可以从同一Workfront Planning记录创建多个项目。 您可以创建多个项目，并在触发一个自动化时，根据单选或多选字段的值来创建每个项目。 您只能使用此功能来创建项目。  您不能在Planning中触发任何其他更改或创建任何其他类型的对象。
+
+
+在此增强功能之前，每次触发为项目配置的自动化时，您只能创建一个项目。
+
+有关信息，请参阅[使用Adobe Workfront Planning记录自动化创建对象](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)。
+
+## 重命名查找字段
+
+>[!NOTE]
+>
+>预览：2025年3月27日；面向所有客户的生产：2025年4月10日
+
+现在，在将查找字段添加到已连接记录的表后，您可以更新这些字段的信息。
+
+在此增强功能之前，您无法编辑现有的查找字段。
+
+有关信息，请参阅[编辑字段](/help/quicksilver/planning/fields/edit-fields.md)。
 
 ## 通过记录类型设置和管理多个请求表单
 
