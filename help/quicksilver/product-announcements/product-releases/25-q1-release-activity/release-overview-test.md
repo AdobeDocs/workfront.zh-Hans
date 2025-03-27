@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: 4ab8fede74c9e2ec5d374b0766445a2c23430777
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '534'
 ht-degree: 2%
 
 ---
@@ -36,18 +36,12 @@ ht-degree: 2%
 ## Workfront增强功能
 
 
-* [管理员增强功能](#administrator-enhancements)<!--* [Boards enhancements](#boards-enhancements)-->
-* [文档管理增强功能](#document-management-enhancements)
+* [管理员增强功能](#administrator-enhancements)
 
 ### 管理员增强功能
 
-<table>
-  <colgroup>
-    <col style="width: 55%;" />
-    <col style="width: 15%;" />
-    <col style="width: 15%;" />
-    <col style="width: 15%;" />
-  </colgroup>
+每月发布：11月14日、12月12日。 1月15 | 季度发布：1月
+<table style="table-layout:auto">
   <tbody>
     <tr>
         <td>
@@ -66,7 +60,7 @@ ht-degree: 2%
         </td>
         <td>2024年11月21日</td>
         <td>2024年12月</td>
-        <td>25.1</td>
+        <td>雅努阿尔2024 (25.1)</td>
     </tr>     
     <tr>
         <td>
@@ -83,86 +77,16 @@ ht-degree: 2%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             现在可对本机预输入字段进行筛选</a></p>
-            <p>当您将本地字段引用添加到自定义表单并且它引用预输入字段(例如Portfolio、公司或所有者)时，筛选器选项现在可用。 该过滤器允许您限制用户在使用该字段时可以选择的对象。 此自定义筛选器的工作方式与自定义预输入字段上的筛选器的工作方式相同，使用文本模式定义筛选器。</p>
+            <p>当您将本地字段引用添加到自定义表单并且它引用预输入字段时(例如Portfolio、公司或所有者)，筛选器选项现在可用。 该过滤器允许您限制用户在使用该字段时可以选择的对象。 此自定义筛选器的工作方式与自定义预输入字段上的筛选器的工作方式相同，使用文本模式定义筛选器。</p>
         </td>
         <td>11月21日</td>
-        <td>25.12</td>
+        <td>十二月</td>
         <td>25.1</td>
     </tr>
   </tbody>
 </table>
 
 
-### 文档管理增强功能
-
-<table>
-  <colgroup>
-    <col style="width: 55%;" />
-    <col style="width: 15%;" />
-    <col style="width: 15%;" />
-    <col style="width: 15%;" />
-  </colgroup>
-  <tbody>
-    <tr>
-        <td>
-            <p><span class="bold">功能</span></p>
-        </td>
-        <td>预览</td>
-        <td>快速发布</td>
-        <td>每季度</td>
-    </tr>
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            用于单次分配任务的项目或用户计划的首选项</a></p>
-            <p>作为系统或组管理员，您现在有了一个新的首选项，当您为任务分配一个用户，并且项目和用户都关联到时间表时，指示Workfront是否应使用项目或用户的时间表计算项目的时间表。</p>
-        </td>
-        <td><p>2024年11月16</p> <p>[！BADGE New]{type=Negative}<p></td>
-        <td><p>24.12</p></td>
-        <td><p>25.1</p></td>
-    </tr>     
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            业务规则现在支持超链接</a></p>
-            <p>现在，您可以在业务规则的自定义错误消息中包含超链接，以指导用户如何在规则的限制内修改其操作。 静态URL可以链接到对用户有益的文档或其他页面。</p>
-        </td>
-        <td><p>11月14日</p> </td>
-        <td><p>2024年12月</p> <p> [！可用徽章]{type=Positive}</p></td>
-        <td><p>25.1</p> </td>
-    </tr>    
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            已将“移至”图标添加到自定义字段</a></p>
-            <p>当自定义表单包含多个具有许多字段的分区时，可能很难通过拖放方式将字段从一个分区移动到另一个分区。 每个字段都添加了“移至”图标，允许您选择字段所在的部分。</p>
-        </td>
-        <td><p>十二月5日</p></td>
-          <td><p>12月15日</p><p> [！可用徽章]{type=Positive}</p></td>
-        <td><p>12月15日</p> <p> [！可用徽章]{type=Positive}</p> <p>[！BADGE Out-of-cycle ]{type=Caution}</p></td>
-    </tr>
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            已将“移至”图标添加到自定义字段</a></p>
-            <p>当自定义表单包含多个具有许多字段的分区时，可能很难通过拖放方式将字段从一个分区移动到另一个分区。 每个字段都添加了“移至”图标，允许您选择字段所在的部分。</p>
-        </td>
-        <td><p>十二月5日</p><p>[！BADGE Out-of-cycle ]{type=Caution}</p></td>
-          <td><p>12月15日</p><p> [！可用徽章]{type=Positive}</p></td>
-        <td><p>12月15日</p> <p> [！可用徽章]{type=Positive}</p></td>
-    </tr>
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            已将“移至”图标添加到自定义字段</a></p>
-            <p>当自定义表单包含多个具有许多字段的分区时，可能很难通过拖放方式将字段从一个分区移动到另一个分区。 每个字段都添加了“移至”图标，允许您选择字段所在的部分。</p>
-        </td>
-        <td><p>十一月1日</p></td>
-          <td><p>24.11</p><p> [！可用徽章]{type=Positive}</p></td>
-        <td><p>25.1</p> <p> [！可用徽章]{type=Positive}</p></td>
-    </tr>
-  </tbody>
-</table>
 
 <!--
 ### Functionality soon to be removed from Workfront
@@ -196,4 +120,4 @@ The following functionality is soon to be removed from Workfront:
 
 ### 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[WorkfrontTutorials页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的“新增功能”部分。
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的“新增功能”部分。
