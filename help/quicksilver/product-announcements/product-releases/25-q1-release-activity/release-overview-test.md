@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: 4ab8fede74c9e2ec5d374b0766445a2c23430777
+source-git-commit: 8e90b7c3bcc75be75ccec7ae5ee8e0d88b190426
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '541'
 ht-degree: 2%
 
 ---
@@ -40,7 +40,6 @@ ht-degree: 2%
 
 ### 管理员增强功能
 
-每月发布：11月14日、12月12日。 1月15 | 季度发布：1月
 <table style="table-layout:auto">
   <tbody>
     <tr>
@@ -60,7 +59,7 @@ ht-degree: 2%
         </td>
         <td>2024年11月21日</td>
         <td>2024年12月</td>
-        <td>雅努阿尔2024 (25.1)</td>
+        <td>雅努阿尔2024</td>
     </tr>     
     <tr>
         <td>
@@ -88,11 +87,13 @@ ht-degree: 2%
 
 
 
-<!--
-### Functionality soon to be removed from Workfront
 
-The following functionality is soon to be removed from Workfront:
--->
+### 即将从Workfront中删除的功能
+
+以下功能即将从Workfront中删除：
+
+* 增强分析
+
 
 ## 其他区域的发行说明
 
