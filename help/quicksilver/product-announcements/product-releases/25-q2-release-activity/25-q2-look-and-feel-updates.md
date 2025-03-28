@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 9b1514ac84692703aa1938c306ff5680d7c9f74f
+source-git-commit: 69f9797b5427a5dd72b7b8531cd5aa41013b3d5d
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -18,19 +18,16 @@ ht-degree: 0%
 
 有关2025年第二季度版本的所有可用更改列表，请参阅[2025年第二季度版本概述](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)。
 
-<!--
-
-## Updated experience in the Access Levels area in Setup
+## 更新了“设置”中“访问级别”区域的体验
 
 >[!NOTE]
 >
->Preview release: March 27, 2025; Production release for all customers: With the 25.4 release (April 10, 2025)
+>预览版本： 2025年3月27日；适用于所有客户的生产版本：使用25.4版本（2025年4月10日）
 
-To enhance performance, we've made some visual updates to the Access Levels area in Setup.
+为了提高性能，我们对“设置”中的“访问级别”区域进行了一些可视化更新。
 
-A small functionality change has been applied to the Access Levels list. To copy, edit, or delete an access level, select the level and click the appropriate icon.
+对访问级别列表进行了小幅功能更改。 要复制、编辑或删除访问级别，请选择该级别，然后单击相应的图标。
 
--->
 
 ## 费用类型对话框的外观更新
 
