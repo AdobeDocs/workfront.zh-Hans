@@ -9,7 +9,7 @@ exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
 source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
 workflow-type: tm+mt
 source-wordcount: '7283'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="wf-resourcing-utilization"
 >title="利用率报告"
->abstract="利用率报表允许您在单个报表中查看项目、项目群或项目组合的进度、成本或收入。 您还可以比较收入和成本。"
+>abstract="利用率报告允许您在单个报告中查看项目、程序或项目组合的进度、成本或收入。您还可以比较收入与成本。"
 
 <!-- Audited: 01/2024 -->
 
@@ -113,7 +113,7 @@ ht-degree: 0%
 
 ## 利用率报表概览 {#overview-of-the-utilization-report}
 
-利用率报表允许您在单个报表中查看项目、项目群或项目组合的进度、成本或收入。 您还可以比较收入和成本。
+利用率报告允许您在单个报告中查看项目、程序或项目组合的进度、成本或收入。您还可以比较收入与成本。
 
 您可以在“资源”区域中查看“利用率”报告，以显示多个项目之间的利用率；或者在一个项目级别查看报告，以显示与该项目关联的单个资源（工作角色和用户）的利用率。
 
@@ -418,7 +418,7 @@ ht-degree: 0%
 </tr> 
   <tr> 
    <td scope="col"> <p scope="col">查看收入与成本时<strong>列标题（实际）</strong> </p>  </td> 
-   <td scope="col"><p><strong>功能</strong></p></td> 
+   <td scope="col"><p><strong>函数</strong></p></td> 
   </tr> 
   <tr> 
    <td scope="col"><strong>实际成本</strong> </td> 

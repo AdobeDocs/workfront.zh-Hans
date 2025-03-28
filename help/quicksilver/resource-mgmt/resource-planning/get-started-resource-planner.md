@@ -10,16 +10,16 @@ exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
 source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
 workflow-type: tm+mt
 source-wordcount: '2113'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 资源规划者概述 {#resource-planner-overview}
+# 资源规划程序概述 {#resource-planner-overview}
 
 >[!CONTEXTUALHELP]
 >id="wf-resourcing-planner"
 >title="资源规划程序"
->abstract="您可以使用资源计划员来估计和预算分配给其所分配项目的资源，并预测其将来工作的可用性。"
+>abstract="您可以使用资源规划程序对分配给指定项目的资源进行估算和预算，并预测这些资源在未来工作中的可用性。"
 
 <!-- Audited: 12/2023 -->
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 有关Adobe Workfront中资源规划的一般概述，请参阅文章[资源规划入门](../../resource-mgmt/resource-planning/get-started-resource-planning.md)。
 
-## 资源规划者概述
+## 资源规划程序概述
 
 您可以使用资源规划者轻松地了解用户和工作角色的可用性，以及完成项目工作所需的计划时间。 然后，您可以决定如何根据用户可用时间将用户及其工作角色分配给他们分配到的项目。
 
