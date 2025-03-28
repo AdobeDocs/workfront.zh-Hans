@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 3e48bebde0171c13b4168d7eb5d693b07cb9e396
+source-git-commit: 674c46b699ba445abba06bec3e4da4a710c60d63
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1521'
 ht-degree: 6%
 
 ---
@@ -66,11 +66,21 @@ ht-degree: 6%
 {{step-1-to-setup}}
 
 1. 单击左侧面板中的&#x200B;**访问级别**。
-1. 选择要复制和自定义的访问级别，然后单击&#x200B;**复制**。
+1. 
+   * 在生产环境中：
+选择要复制和自定义的访问级别，然后单击**复制**。
 
-   或
+     或
 
-   如果您正在编辑现有的访问级别（您之前复制过的），请单击其名称。
+     如果您正在编辑现有的访问级别（您之前复制过的），请单击其名称。
+
+   * 在预览环境中<span class="preview">：</span>
+
+     <span class="preview">选择要复制和自定义的访问级别，然后单击&#x200B;**复制**&#x200B;图标![复制图标](assets/copy-icon.png)。</span>
+
+     <span class="preview">或</span>
+
+     <span class="preview">如果您正在编辑现有的访问级别，请通过单击该访问级别左侧的框选择访问级别，然后单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。</span>
 
 1. 在显示的框中，执行以下任一操作以开始配置自定义访问级别：
 
