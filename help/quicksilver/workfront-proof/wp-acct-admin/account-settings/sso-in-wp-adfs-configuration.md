@@ -2,12 +2,12 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: account-settings-workfront-proof
-title: '单点登录 [!DNL Workfront Proof]： AD FS配置'
+title: ' [!DNL Workfront Proof]中的单点登录： AD FS配置'
 description: 如果您是AD服务器上的管理员，则可以安装和配置AD FS。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 670422e9-5db8-4f06-baf8-1f9ce83873fe
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+source-git-commit: 690b0817dfe4ff200982ffe8d67ad93e563e30ac
 workflow-type: tm+mt
 source-wordcount: '928'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 安装和配置AD FS
 
-1. 将[AD FS 2.0](http://www.microsoft.com/en-us/download/details.aspx?id=10909)下载到您的计算机。
+1. 将Microsoft AD FS 2.0下载到计算机。
 1. 打开下载的AdfsSetup.exe文件以启动ADFS （Active Directory联合身份验证服务）安装向导。
 1. 在“服务器角色”屏幕上，选择其中一个选项（至少需要一个联合服务器）。
 1. 如果不希望向Internet公开AD服务器上的IIS（对于HTTP和HTTPS，端口分别为80和443），可以先在防火墙后面设置联合服务器，然后构建第二个联合服务器代理，将请求通过防火墙传递到联合服务器。
@@ -69,7 +69,7 @@ https://*&lt;adfs.your-company.com>*/adfs/ls/？wa=wsignout1.0
    1. 在“端点”下，单击[!UICONTROL 添加和条目]，详细信息如下：
 
       * 端点类型= SAML注销
-      * 绑定=POST
+      * 绑定= POST
       * URL = https://*&lt;adfs.your-company.com*>/adfs/ls/？wa=wsignout1.0
       * 在AD FS中配置信赖方信任（见下文）后，可以完成此步骤。
    1. 在&#x200B;**[!UICONTROL 证书指纹]**&#x200B;框中，输入证书中的数据。
