@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 4b5248f667648543263073022ae10336fb022f97
 workflow-type: tm+mt
 source-wordcount: '961'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader"><p>访问级别配置</p></td> 
    <td> <p>Adobe Workfront Planning没有访问级别控制</p> 
-   <p>在将记录连接到要创建的对象类型（项目、项目和项目组合）时，在Workfront中编辑对这些对象的访问权限。 </p>  
+   <p>在Workfront中编辑您想要创建的对象类型（项目、项目和项目组合）的访问权限，以便将它们与新记录连接起来  </p>  
 </td> 
   </tr> 
 <tr> 
@@ -89,7 +89,7 @@ ht-degree: 0%
    </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>布局模板</p></td> 
+   <td role="rowheader"><p>版面模板</p></td> 
    <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域 </p> </td> 
   </tr> 
 </tbody> 

@@ -6,10 +6,10 @@ description: 通知：目标
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+source-git-commit: 585a65c497211c84cffafeeaa5016218fd66acd2
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 4%
+source-wordcount: '436'
+ht-degree: 2%
 
 ---
 
@@ -97,15 +97,19 @@ ht-degree: 4%
    <td> <p>留下评论的人员的姓名</p> <p>目标的周期 </p> <p>目标的名称</p> <p>评论的文本</p> <p>打开[！UICONTROL目标详细信息]面板的<strong>[！UICONTROL在Web应用程序中打开]</strong>按钮</p> <p>允许您管理通知的<strong>[！UICONTROL更改通知设置]</strong>按钮。</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>有人赞了我的“目标”评论</strong></td> 
-   <td> <p>喜欢评论的人员姓名</p> <p>目标的周期 </p> <p>目标的名称</p> <p>评论的文本 </p> <p>打开[！UICONTROL目标详细信息]面板的<strong>[！UICONTROL在Web应用程序中打开]</strong>按钮</p> <p>允许您管理通知的<strong>[！UICONTROL更改通知设置]</strong>按钮。</p> </td> 
+  </tbody> 
+</table>
+
+<!--these were removed at some point: 
+
+   <td><strong>Someone liked my comment on a Goal</strong></td> 
+   <td> <p>The name of the person who liked the comment</p> <p>The Period of the goal </p> <p>The name of the goal</p> <p>The text of the comment </p> <p>The <strong>[!UICONTROL Open in web app]</strong> button which opens the [!UICONTROL Goal Details] panel</p> <p>The <strong>[!UICONTROL Change Notifications Settings]</strong> button which allows you to manage your notifications.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>有人赞了我的“目标”更新</strong></td> 
-   <td> <p>当有人喜欢您对目标发表的评论或者您更新目标上的结果或活动的进度时，您会收到一封电子邮件。 </p> <p>喜欢此更新的人员的姓名</p> <p>目标的周期 </p> <p>目标的名称</p> <p>打开[！UICONTROL目标详细信息]面板的<strong>[！UICONTROL在Web应用程序中打开]</strong>按钮</p> <p>允许您管理通知的<strong>[！UICONTROL更改通知设置]</strong>按钮。</p> </td> 
+   <td><strong>Someone liked an update on my Goal</strong></td> 
+   <td> <p>You receive an email when someone likes a comment you made on a goal or when you update the progress of your results or activities on the goal. </p> <p>The name of the person who liked the update</p> <p>The Period of the goal </p> <p>The name of the goal</p> <p>The <strong>[!UICONTROL Open in web app]</strong> button which opens the [!UICONTROL Goal Details] panel</p> <p>The <strong>[!UICONTROL Change Notifications Settings]</strong> button which allows you to manage your notifications.</p> </td> 
   </tr> 
- </tbody> 
-</table>
+ -->
 
 <!--
 NOTE FOR NAME OF GOAL IN LAST TABLE CELL: check this. Is this true? Didn't triggger when this was written; add anything else? Maybe the type of the update is mentioned?!

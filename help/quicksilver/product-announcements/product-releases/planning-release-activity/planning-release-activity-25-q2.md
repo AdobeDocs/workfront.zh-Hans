@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: e8751b8e33ce99d56f816f12b065482c4deb7fbd
+source-git-commit: 4b5248f667648543263073022ae10336fb022f97
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2208'
 ht-degree: 0%
 
 ---
@@ -28,11 +28,14 @@ ht-degree: 0%
 >
 >预览：2025年3月27日；面向所有客户的生产：2025年4月10日
 
-现在，您可以在从以下区域提交新请求后立即打开该请求：
+我们对您访问在Workfront Planning中提交的请求的方式进行了改进。
+我们添加了“查看您的请求”链接，您可以使用该链接导航到您刚刚提交的请求的详细信息页面。
 
-* 从共享链接访问请求表单后
-* “新建记录”或“请求记录”按钮中的记录类型页面
-* 主菜单中的请求区域
+在提交来自以下区域的请求后，即可使用新链接：
+
+* 通过共享链接
+* 通过记录类型页面上的“新建记录”或“请求记录”按钮
+* 在启用提交请求的新体验后，从请求区域。
 
 有关信息，请参阅[提交Adobe Workfront计划请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。
 

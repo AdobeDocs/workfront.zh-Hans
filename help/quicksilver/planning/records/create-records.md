@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 4b5248f667648543263073022ae10336fb022f97
 workflow-type: tm+mt
-source-wordcount: '2418'
+source-wordcount: '2419'
 ht-degree: 0%
 
 ---
@@ -206,7 +206,7 @@ ht-degree: 0%
    记录类型页面将在您上次访问的视图中打开。 默认情况下，将在表格视图中打开记录类型页面。
 所选类型的所有记录都将显示在视图中。
 
-1. 从任何视图中，根据工作区<!--<span class="preview">and record type</span>-->权限，单击屏幕右上角的以下内容：
+1. （视情况而定）在任意视图中，根据工作区<!--<span class="preview">and record type</span>-->权限，单击屏幕右上角的以下内容：
 
    * 如果您对工作区<!--<span class="preview">and record type</span>-->具有Contribute或更高权限，请单击&#x200B;**新建记录**
 

@@ -1,14 +1,12 @@
 ---
 title: 使用Workfront Planning记录自动化创建Adobe Workfront对象
 description: 您可以在Adobe Workfront Planning中配置自动化操作，在激活时，可在Workfront中创建对象或Workfront Planning中的记录。 创建的对象和记录会自动连接到现有Planning记录。 本文介绍如何管理自动化，包括如何编辑、禁用、删除和触发它们以创建对象和记录。
-hide: true
-hidefromtoc: true
 feature: Workfront Planning
 role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 89b2e3547387397279cce751dd7c84d8174532b5
+source-git-commit: 585a65c497211c84cffafeeaa5016218fd66acd2
 workflow-type: tm+mt
 source-wordcount: '2197'
 ht-degree: 2%
