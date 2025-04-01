@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
+source-git-commit: cdd7c0ef619e4cb75be82ba936f07bc3ce6dc745
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1252'
 ht-degree: 0%
 
 ---
@@ -250,3 +250,10 @@ Workfront提供两个版本的活动订阅。 本文介绍了它们之间的区�
    <td>无。 如果受影响的字段上有筛选器，则仅当该字段实际发生更改时，而不是当任何其他参数值发生更改时，您才会收到<code>UPDATE</code>事件。
  </tbody> 
 </table>
+
+
+## 在Workfront Fusion场景中更新事件订阅版本
+
+Workfront Fusion使用事件订阅来监视Workfront中的更改以触发场景。 您可以使用Workfront >更新事件有效负载版本模块，更新Fusion直接在场景中使用的事件订阅版本。
+
+有关使用此模块的说明，请参阅Workfront Fusion文档中的[Workfront模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules)。
