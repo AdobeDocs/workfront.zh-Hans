@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: e8751b8e33ce99d56f816f12b065482c4deb7fbd
+source-git-commit: db709d801e3e80be8fbbc184e41d0ae70b983fb6
 workflow-type: tm+mt
-source-wordcount: '13107'
+source-wordcount: '13110'
 ht-degree: 2%
 
 ---
@@ -1703,6 +1703,7 @@ ht-degree: 2%
       * [为Snowflake创建Reader帐户或连接](reports-and-dashboards/data-lake/create-a-reader-account.md)
       * [建立与Workfront数据连接的连接](reports-and-dashboards/data-lake/share-data-externally.md)
       * [Workfront Data Connect数据字典](reports-and-dashboards/data-lake/data-dictionary.md)
+      * [数据字典测试](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
       * [Workfront Data Connect查询示例](reports-and-dashboards/data-lake/basic-query-examples.md)
       * [查看Workfront Data Connect使用情况量度](reports-and-dashboards/data-lake/view-usage-metrics.md)
       * 增强的Analytics查询{#enhanced-analytics-queries}
