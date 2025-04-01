@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '2522'
+source-wordcount: '2556'
 ht-degree: 2%
 
 ---
@@ -243,15 +243,15 @@ ht-degree: 2%
       <td role="rowheader">问题解决者</td> 
       <td> <p>这显示问题是否由其他对象解决。 您可以从下拉菜单中选择此问题是由任务、项目还是其他问题解决，然后开始键入将解决此问题的任务、项目或问题的名称。 当它出现在列表中时将其选中。</p>
 
-   <b>注释</b>
+   <b>备注</b>
 
-   当您选择对象以解决问题时，问题状态将链接到解决对象的状态，并且无法在该问题上更改。 有关解析对象的详细信息，请参阅<a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">解析和可解析对象概述</a>。
+   <ul><li>当您选择对象以解决问题时，问题状态将链接到解决对象的状态，并且无法在该问题上更改。 有关解析对象的详细信息，请参阅<a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">解析和可解析对象概述</a>。</li>
 
-   <b>提示</b>
+   <li>当您连接要由另一个任务、问题或项目解决的问题时，问题中的任何信息都不会传输到解决对象（在“解决者”字段中列出的任务、问题或项目）。 </li>
 
-   当您的系统或组管理员将“解决者”字段添加到问题自定义标题时，当存在与问题关联的解决对象时，该字段将更改为“解决问题”、“解决任务”或“解决项目”。
+   <li>当您的系统或组管理员将“解决者”字段添加到问题自定义标题时，当存在与问题关联的解决对象时，该字段将更改为“解决问题”、“解决任务”或“解决项目”。
 
-   当此字段显示在问题标题中时，您无法对其进行编辑。 有关自定义问题标题的详细信息，请参阅<a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md">使用布局模板自定义对象标题</a>
+   当此字段显示在问题标题中时，您无法对其进行编辑。 有关自定义问题标题的详细信息，请参阅<a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md">使用布局模板自定义对象标题</a></li></ul>
    </td> 
      </tr>
 

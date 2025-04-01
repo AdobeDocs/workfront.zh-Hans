@@ -6,16 +6,16 @@ description: 您可以向可在Adobe Workfront目标中查看的所有目标添�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 0%
+source-wordcount: '297'
+ht-degree: 1%
 
 ---
 
 # 在Adobe Workfront目标中管理目标注释
 
-<!--Audited: 01/2024-->
+<!--Audited for P&P only: 04/2025-->
 
 <!--consider retiring this article when goals and all objects are in parity and we remove the legacy commenting from the system. From then on, there is just ONE way to comment and that will be documented in the Update Work article-->
 
@@ -63,9 +63,9 @@ After the monthly releases to Production, the same features are also available i
  <tr>
  <td role="rowheader">产品*</td>
  <td>
- <p> 新产品要求：如果您拥有Select或Prime Adobe Workfront计划，则还必须购买额外的Adobe Workfront Goals许可证。 Workfront目标包含在Ultimate Workfront计划中。</p>
+ <p> 新产品要求：Workfront</p>
  或
- <p>当前产品要求：您必须为Adobe Workfront目标购买附加许可证，才能访问本文中所述的功能。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
+ <p>当前产品要求：除了Workfront许可证之外，您必须为Adobe Workfront Goals购买许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader">访问级别配置</td>
@@ -81,7 +81,7 @@ After the monthly releases to Production, the same features are also available i
   </div> </td>
  </tr>
  <tr>
-   <td role="rowheader"><p>布局模板</p></td>
+   <td role="rowheader"><p>版面模板</p></td>
    <td> <p>必须为包括Workfront管理员在内的所有用户分配一个布局模板，该模板应包括主菜单中的目标区域。 </p>  
 </td>
   </tr>

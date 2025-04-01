@@ -6,33 +6,34 @@ description: 目标进展受活动、结果或儿童目标等进度指标的驱�
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 1%
+source-wordcount: '817'
+ht-degree: 0%
 
 ---
 
 # Adobe Workfront目标中的目标进度和条件概述
 
-您的组织必须具备以下条件才能使用本文中所述的功能：
+<!--Audited for P&P only: 4/2025-->
 
-* 对于新计划和许可证结构：
-
-   * Ultimate计划
-
-     或
-
-     适用于Prime或选择Adobe Workfront计划的Adobe Workfront目标的附加许可证。
-
-* 对于当前计划和许可证结构：
-
-   * Pro或更高版本
-   * 除了Adobe Workfront许可证之外，还提供了Workfront目标许可证。
-
-请联系您的Workfront客户经理，了解有关Workfront Goals许可证的信息。
-
-有关访问Workfront目标的更多信息，请参阅[使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)。
+>[!IMPORTANT]
+>
+>您的组织必须具备以下条件才能使用本文中所述的功能：
+>
+>
+>* 对于新计划和许可证结构：
+>
+>   * Ultimate计划
+>    
+>* 对于当前计划和许可证结构：
+>
+>   * Pro或更高版本
+>   * 除了Adobe Workfront许可证之外，还提供了Workfront目标许可证。
+>
+> 请联系您的Workfront客户经理，了解有关Workfront Goals许可证的信息。
+>
+>有关访问Workfront目标的更多信息，请参阅[使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)。
 
 Adobe Workfront会根据其进度指示器的进度，自动计算目标进度。
 
@@ -40,7 +41,7 @@ Adobe Workfront会根据其进度指示器的进度，自动计算目标进度�
 
 激活目标后，Workfront目标将开始计算其进度和条件，并在您将鼠标悬停在进度字段上时显示以下指标：
 
-| 指示器 | 指示器描述 |
+| 指标 | 指示器描述 |
 |---|---|
 | 实际完成百分比 | 目前为止实际完成了多少目标。 Workfront目标通过平均与目标关联的所有进度指示器的完成百分比来计算此值。 |
 | 预期完成百分比 | 为了目标能够按时完成，迄今为止应完成的目标数量。 Workfront目标通过查看目标的持续时间和当前时间点来计算此值。 如果按时完成，目标应在当前时间显示此值。 |

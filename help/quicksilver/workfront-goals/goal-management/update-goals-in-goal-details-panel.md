@@ -1,24 +1,21 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: 在Adobe Workfront目标的“目标详细信息”面板中更新目标
+title: 在Adobe Workfront目标的“目标详细信息”部分中更新目标
 description: 您可以通过访问目标详细信息面板来更新各个目标的信息。
 author: Alina
 feature: Workfront Goals
 exl-id: e9df0d98-05a1-4977-b7f1-426b8f5b3eae
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '630'
 ht-degree: 1%
 
 ---
 
 # 在Adobe Workfront目标的“目标详细信息”部分中更新目标
 
-<!--drafted for the goal redesign:
-- change the title for Production to Update goals in the Goal details section in Adobe Workfront Goals. 
-- update the description in the metadata above
--->
+<!--Audited for P&P only: 4/2025-->
 
 您可以通过访问目标详细信息面板来更新各个目标的信息。
 
@@ -26,8 +23,9 @@ ht-degree: 1%
 >
 >您无法更新状态为“已关闭”的目标。
 
-
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具备以下条件：
 
@@ -58,12 +56,9 @@ ht-degree: 1%
  <tr>
  <td role="rowheader">产品*</td>
  <td>
- <p> 新产品要求，为以下项之一： </p>
-<ul>
-<li>Select或Prime Adobe Workfront计划和附加Adobe Workfront Goals许可证。</li>
-<li>Ultimate Workfront计划，默认情况下包括Workfront目标。 </li></ul>
- <p>或</p>
- <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
+  <p> 新产品要求：Workfront</p>
+  或
+  <p>当前产品要求：除了Workfront许可证之外，您必须为Adobe Workfront Goals购买许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader">访问级别*</td>
@@ -79,7 +74,7 @@ ht-degree: 1%
   </div> </td>
  </tr>
  <tr>
-   <td role="rowheader"><p>布局模板</p></td>
+   <td role="rowheader"><p>版面模板</p></td>
    <td> <p>必须为包括Workfront管理员在内的所有用户分配一个布局模板，该模板应包括主菜单中的目标区域。 </p>  
 </td>
   </tr>
@@ -87,6 +82,8 @@ ht-degree: 1%
 </table>
 
 *有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 更新目标详细信息部分中的目标
 

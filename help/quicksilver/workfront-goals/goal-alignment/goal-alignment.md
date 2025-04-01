@@ -2,20 +2,22 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: 请查看以下文章，了解如何在Workfront目标中调整目标。
-description: 请在以下文章中了解如何在Adobe Workfront中调整目标。
+title: Adobe Workfront目标中的目标对齐方式：文章索引
+description: 确保企业从任何级别的所有目标都相互协调并与总体战略保持一致，这是组织取得成功的重要一步。 请在以下文章中了解如何在Adobe Workfront中调整目标。
 author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: b5b0e5b2-1133-443b-8ef1-cbb1ca377fd6
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront目标中的目标对齐方式
+# Adobe Workfront目标中的目标对齐方式：文章索引
+
+<!--Audited P&P only: 4/2025-->
 
 >[!NOTE]
 >
@@ -24,11 +26,6 @@ ht-degree: 0%
 >* 对于新计划和许可证结构：
 >    
 >   * Ultimate计划
->        
->     或
->        
->   * 适用于Prime或选择Adobe Workfront计划的Adobe Workfront目标的附加许可证。
->      
 >      
 >* 对于当前计划和许可证结构：
 >    

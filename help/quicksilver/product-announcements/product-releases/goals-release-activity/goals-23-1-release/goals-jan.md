@@ -7,9 +7,9 @@ description: 本页介绍了在Adobe Workfront目标的23.1版本中对“预览
 author: Courtney
 feature: Product Announcements, Workfront Goals
 exl-id: 30a8d125-f84c-4e1a-8e4c-d76da326c2ef
-source-git-commit: ebc729ad0300d54d294be275773d9ffc13128c83
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,6 @@ ht-degree: 0%
 >
 >通过此更新，我们删除了“目标”区域中的“检入”和“脉冲”部分。
 
-有关Workfront目标的更多信息，请参阅Workfront文档的[Workfront目标](/help/quicksilver/workfront-goals/workfront-goals.md)区域中提供的文章。
+有关Workfront目标的更多信息，请参阅Workfront文档的[Adobe Workfront目标：文章索引](/help/quicksilver/workfront-goals/workfront-goals.md)区域中提供的文章。
 
 [观看此功能的视频演示](https://video.tv.adobe.com/v/3413327/){target=_blank}

@@ -7,9 +7,9 @@ description: 您必须将结果、活动或一致的目标添加到目标才能�
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >* 对于新计划和许可证结构：
 >
->   * 最终Workfront计划
+>   * Ultimate Workfront计划
 >    
 >* 对于当前计划和许可证结构：
 >
@@ -49,7 +49,7 @@ ht-degree: 0%
 >
 > 一个目标不能包含超过1000个活动、结果、项目或一致的目标。</span>
 
-本文概述了各项活动和成果。 有关对齐目标的信息，请参阅Adobe Workfront目标中的[目标对齐方式](../../workfront-goals/goal-alignment/goal-alignment.md)。 有关将项目连接到目标的信息，请参阅[在Adobe Workfront目标中添加项目](../results-and-activities/connect-projects-to-goals-overview.md)。
+本文概述了各项活动和成果。 有关对齐目标的信息，请参阅[Adobe Workfront目标中的目标对齐方式：文章索引](../../workfront-goals/goal-alignment/goal-alignment.md)。 有关将项目连接到目标的信息，请参阅[在Adobe Workfront目标中添加项目](../results-and-activities/connect-projects-to-goals-overview.md)。
 
 ## 结果概述
 

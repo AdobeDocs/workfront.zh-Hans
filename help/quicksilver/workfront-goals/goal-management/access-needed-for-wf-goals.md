@@ -3,23 +3,22 @@ content-type: reference
 product-previous: workfront-goals
 navigation-topic: goal-management
 title: 使用Workfront Goals的要求
-description: 在访问Adobe Workfront目标之前，您的Adobe Workfront管理员必须确保满足某些条件。
+description: 在访问Adobe Workfront目标之前，您的Adobe Workfront管理员必须确保满足某些条件。 在本篇文章中，了解访问Workfront目标的访问权限、权限和布局要求。
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---
 
 # 使用Workfront Goals的要求
 
-在访问Adobe Workfront目标之前，您的Adobe Workfront管理员必须确保满足所有以下条件：
+<!--Audited P&P only: 04/2025-->
 
-<!--drafted for P&P - replace the first bullet with this one when licensing changes: 
-* Your company must purchase the correct Adobe Worfront plan or Adobe Workfront Goal license. For information, see the section [Obtain Workfront Goals organization access](#obtain-workfront-goals-organization-access)in this article.-->
+在访问Adobe Workfront目标之前，您的Adobe Workfront管理员必须确保满足所有以下条件：
 
 * 您的组织必须购买Workfront Goals的正确许可证。 有关信息，请参阅本文中的[获取Workfront目标组织访问权限](#obtain-workfront-goals-organization-access)部分。
 
@@ -48,9 +47,9 @@ ht-degree: 0%
 
 根据贵公司当前使用的Workfront计划，存在以下情况：
 
-* 如果贵公司有新的Workfront计划，则必须有Ultimate Workfront计划。 Workfront目标仅包含在此计划中。
+* **新的Workfront计划**：您必须拥有Ultimate Workfront计划。 Workfront目标仅包含在此计划中。
 
-* 如果贵公司当前采用Workfront计划，则除了Workfront许可证外，贵组织还必须购买其他许可证，以便您的用户能够访问Workfront目标。
+* **当前的Workfront计划**：您的组织必须在Workfront许可证之外购买其他许可证。
 
   在您的组织购买附加许可证后，Workfront将为您的帐户启用Workfront目标。 有关为Workfront Goals购买许可证的信息，请联系您的Workfront客户经理。
 
@@ -60,15 +59,15 @@ ht-degree: 0%
 
 根据贵公司当前使用的Workfront计划，存在以下情况：
 
-* 如果贵公司具有新的访问级别模型，则Workfront管理员必须向您授予以下Workfront许可证类型之一才能访问Workfront目标：
+* **新的访问级别模型**：您的Workfront管理员必须向您授予下列其中一种Workfront许可证类型才能访问Workfront目标：
 
    * 投稿人
    * 轻量
    * 标准
 
-* 如果贵公司具有当前的访问级别模型，则Workfront管理员必须向您授予以下Workfront许可证类型之一才能访问Workfront目标：
+* **当前访问级别模型**：您的Workfront管理员必须向您授予下列其中一种Workfront许可证类型才能访问Workfront目标：
 
-   * 计划
+   * 规划
    * 工作
    * 评论
    * 请求

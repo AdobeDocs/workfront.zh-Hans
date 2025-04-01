@@ -7,7 +7,7 @@ description: 目标状态指示目标是否处于活动状态且当前正在记�
 author: Alina
 feature: Workfront Goals
 exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
 source-wordcount: '818'
 ht-degree: 4%
@@ -16,13 +16,15 @@ ht-degree: 4%
 
 # Adobe Workfront目标中的目标状态概述
 
+<!--Audited: 4/2025-->
+
 >[!IMPORTANT]
 >
 >您的组织必须具备以下条件才能使用本文中所述的功能：
 >
 >* 对于新计划和许可证结构：
 >
->   * 最终Workfront计划
+>   * Ultimate Workfront计划
 >    
 >* 对于当前计划和许可证结构：
 >

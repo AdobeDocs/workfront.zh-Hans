@@ -6,14 +6,16 @@ description: 如果两个目标之间的连接不再合理，则可以取消两�
 author: Alina
 feature: Workfront Goals
 exl-id: a6196356-ca11-4759-9cff-64850a60208e
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 1%
+source-wordcount: '475'
+ht-degree: 2%
 
 ---
 
 # 在Adobe Workfront目标中移除目标对齐方式
+
+<!--Audited P&P only: 4/2025-->
 
 如果两个目标之间的连接不再合理，则可以取消两个目标之间的对齐。
 
@@ -24,6 +26,8 @@ ht-degree: 1%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具备以下条件：
 
 <table style="table-layout:auto">
@@ -33,11 +37,15 @@ ht-degree: 1%
 </col>
 <tbody>
  <tr>
- <td role="rowheader">Adobe Workfront计划</td>
- <td>
- <p>任何</p>
-
-</td>
+ <td role="rowheader">Adobe Workfront计划*</td>
+ <td> 
+   <p>对于新计划和许可证结构：
+  <ul><li>Ultimate计划 </li></ul>
+   </p>
+<p>对于当前计划和许可证结构： 
+<ul><li> Pro或更高版本 </li>
+  <li>除了Adobe Workfront许可证之外，还提供了Workfront目标许可证。</li></ul></p>
+   </td> 
  </tr>
  <tr>
  <td role="rowheader">Adobe Workfront许可证*</td>
@@ -49,12 +57,9 @@ ht-degree: 1%
  <tr>
  <td role="rowheader">产品*</td>
  <td>
- <p> 新产品要求，为以下项之一： </p>
-<ul>
-<li>Select或Prime Adobe Workfront计划和附加Adobe Workfront Goals许可证。</li>
-<li>Ultimate Workfront计划，默认情况下包括Workfront目标。 </li></ul>
- <p>或</p>
- <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
+   <p> 新产品要求：Workfront</p>
+   或
+   <p>当前产品要求：除了Workfront许可证之外，您必须为Adobe Workfront Goals购买许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader">访问级别</td>
@@ -68,7 +73,7 @@ ht-degree: 1%
   <p>有关共享目标的信息，请参阅<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目标中共享目标</a>。 </p>
   </td>
  </tr>
-   <td role="rowheader"><p>布局模板</p></td>
+   <td role="rowheader"><p>版面模板</p></td>
    <td> <p>必须为包括Workfront管理员在内的所有用户分配一个布局模板，该模板应包括主菜单中的目标区域。 </p>  
 </td>
   </tr>
@@ -76,6 +81,8 @@ ht-degree: 1%
 </table>
 
 *有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先决条件
 

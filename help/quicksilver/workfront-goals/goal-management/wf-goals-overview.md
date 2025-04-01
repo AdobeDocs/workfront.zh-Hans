@@ -7,7 +7,7 @@ description: Workfront目标将战略与工作执行和交付联系起来，帮�
 author: Alina
 feature: Workfront Goals
 exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%
@@ -16,13 +16,15 @@ ht-degree: 0%
 
 # Adobe Workfront目标概述
 
+<!--Audited: 4/2025-->
+
 >[!IMPORTANT]
 >
 >您的组织必须具备以下条件才能使用本文中所述的功能：
 >
 >* 对于新计划和许可证结构：
 >
->   * 最终Workfront计划
+>   * Ultimate Workfront计划
 >    
 >* 对于当前计划和许可证结构：
 >

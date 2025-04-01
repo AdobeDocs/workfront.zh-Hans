@@ -7,7 +7,7 @@ description: 目标协调确保组织中的每个人在将目标相互协调并�
 author: Alina
 feature: Workfront Goals
 exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 1%
@@ -16,13 +16,15 @@ ht-degree: 1%
 
 # Adobe Workfront目标中的目标对齐概述
 
+<!--Audited P&P only: 4/2025-->
+
 >[!IMPORTANT]
 >
 >您的组织必须具备以下条件才能使用本文中所述的功能：
 >
 >* 对于新计划和许可证结构：
 >
->   * 最终Workfront计划
+>   * Ultimate Workfront计划
 >    
 >* 对于当前计划和许可证结构：
 >

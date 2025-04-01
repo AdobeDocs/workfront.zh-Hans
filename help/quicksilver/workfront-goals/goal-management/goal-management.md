@@ -2,20 +2,22 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: Adobe Workfront目标中的目标管理
-description: 请查看以下文章，了解从何处开始使用Workfront目标、使用目标的重要性、如何创建、编辑、注释和管理目标以及如何过滤和打印目标信息
+title: Adobe Workfront目标中的目标管理：文章索引
+description: 请查看以下文章，了解从何处开始使用Workfront目标、使用目标的重要性、如何创建、编辑、注释和管理目标以及如何过滤和打印目标信息。
 author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: cba07613-9912-4929-bda4-50f503faa3e1
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront目标中的目标管理
+# Adobe Workfront目标中的目标管理：文章索引
+
+<!--Audited: 4/2025-->
 
 >[!IMPORTANT]
 >
@@ -23,7 +25,7 @@ ht-degree: 0%
 >
 >* 对于新计划和许可证结构*：
 >
->   * 最终计划
+>   * Ultimate计划
 >    
 >* 对于当前计划和许可证结构：
 >
@@ -32,10 +34,10 @@ ht-degree: 0%
 >
 >*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 >
-
-请联系您的Workfront客户经理，了解有关Workfront Goals许可证的信息。
-
-有关访问Workfront目标的更多信息，请参阅[使用Workfront目标的要求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
+>
+>请联系您的Workfront客户经理，了解有关Workfront Goals许可证的信息。
+>
+>有关访问Workfront目标的更多信息，请参阅[使用Workfront目标的要求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
 
 请查看以下文章，了解从何处开始使用Workfront目标、使用目标的重要性、如何创建、编辑、注释和管理目标以及如何过滤和打印目标信息：
 

@@ -1,11 +1,10 @@
 ---
-title: Adobe Workfront Goals入门
+title: Adobe Workfront Goals快速入门
 description: Workfront目标将战略与工作执行和交付联系起来，帮助您定义、传达和实现战略成果。
 author: Alina
-draft: Probably
 feature: Workfront Goals
 exl-id: 9daa074e-94ce-4825-a058-722e53dbce51
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
 source-wordcount: '1374'
 ht-degree: 1%
@@ -14,13 +13,15 @@ ht-degree: 1%
 
 # Adobe Workfront Goals入门
 
+<!--Audited for P&P only: 4/2025-->
+
 >[!IMPORTANT]
 >
 >您的组织必须具备以下条件才能使用本文中所述的功能：
 >
 >* 对于新计划和许可证结构：
 >
->   * 最终Workfront计划
+>   * Ultimate Workfront计划
 >    
 >* 对于当前计划和许可证结构：
 >
