@@ -2,14 +2,14 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: 编辑任务
-description: 您可以编辑有关已创建、拥有Contribute或“管理”权限的任务的信息。 本文介绍了如何搜索、查找和编辑任务（如果您有相应的权限）。
+description: 您可以编辑有关已创建、具有Contribute或Manage权限的任务的信息。 本文介绍了如何搜索、查找和编辑任务（如果您有相应的权限）。
 author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
 workflow-type: tm+mt
-source-wordcount: '3681'
+source-wordcount: '3706'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 3%
 -->
 
 
-您可以编辑有关已创建、拥有Contribute或“管理”权限的任务的信息。
+您可以编辑有关已创建、具有Contribute或Manage权限的任务的信息。
 
 ## 访问要求
 
@@ -54,7 +54,7 @@ ht-degree: 3%
    <td role="rowheader">对象权限</td> 
    <td> 
     <ul> 
-     <li> <p>Contribute对任务的权限，以便在任务详细信息区域编辑以下信息： </p>
+     <li> <p>向任务分配权限以在任务详细信息区域编辑以下信息： </p>
      <ul>
      <li>描述</li>
      <li>状态</li>
@@ -63,7 +63,7 @@ ht-degree: 3%
      <li> <p>管理任务的权限以编辑详细信息区域和编辑任务框中的所有信息</p> </li> 
     </ul> 
     <ul> 
-     <li> <p>Contribute或项目的更高权限</p> </li> 
+     <li> <p>为项目分配或更高权限</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -82,7 +82,7 @@ ht-degree: 3%
 * 更新任务会触发处于当前状态的项目的通知。 为避免分配给任务的用户混淆，当项目处于当前状态时，应尽可能限制编辑任务。
 * 您无法编辑批准流程中的任务。 您只能为批准流程中的任务记录时间或更新状态。
 
-  ![](assets/edit-task-in-approval-process-nwe-350x148.png)
+  ![使用审批流程编辑任务](assets/edit-task-in-approval-process-nwe-350x148.png)
 
 * 只有当Workfront管理员或组管理员在项目偏好设置区域中启用此功能时，您才能编辑文档并将其添加到状态为“完成”、“废弃”或“未决批准”的项目中的任务。 有关设置项目首选项的信息，请参阅[配置系统范围项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
 
@@ -90,7 +90,7 @@ ht-degree: 3%
 
    * 记录时间
    * 编辑现有费用
-   * 附加自定义表单
+   * 附加一个自定义表单
 
 * 其他用户必须先刷新其页面，然后才能查看您对任务所做的更新。
 
@@ -223,8 +223,11 @@ ht-degree: 3%
       <td role="rowheader">状态</td> 
       <td> <p>选择任务的状态，以指示任务处于哪个开发阶段。</p> <p><b>提示</b>
 
-   您可以在任务标题中更新任务状态。 </p> </td>
-   </tr> 
+   您可以在任务标题中更新任务状态。 </p>
+
+   <p>您的Workfront或组管理员可以自定义任务状态的名称。 有关信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md">创建或编辑状态</a>。 
+      </td> 
+     </tr> 
      <tr> 
       <td role="rowheader">优先级</td> 
       <td> <p>这是一个可视标志，可用于安排任务的优先级。 </p> <p>从以下选项中选择： </p> 
@@ -321,7 +324,7 @@ ht-degree: 3%
 
 1. 单击&#x200B;**保存**&#x200B;或继续以下部分。
 
-### 分配 {#assignments}
+### 任务 {#assignments}
 
 1. 按如上所述开始编辑任务。
 1. 单击左侧面板中的&#x200B;**工作**。
@@ -619,7 +622,7 @@ ht-degree: 3%
 
 * 任务名称
 * 完成百分比
-* 分配
+* 任务
 * 规划完成日期
 
   >[!CAUTION]

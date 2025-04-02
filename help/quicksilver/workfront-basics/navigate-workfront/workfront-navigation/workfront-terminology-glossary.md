@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 词汇表列出了 [!DNL Adobe Workfront].
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
 workflow-type: tm+mt
-source-wordcount: '20935'
+source-wordcount: '20999'
 ht-degree: 0%
 
 ---
@@ -259,7 +259,7 @@ ht-degree: 0%
    <td> <p>标记为对客户可记帐的费用。 这可以是计划费用或实际费用。</p> <p>“计划可开单费用成本”和“实际可开单费用成本”字段可供您添加到视图和报表中。 它们不会显示在项目或任务详细信息页面上。</p>
    <p>您可以在下列类型的报表中找到这些字段：</p>
    <ul>
-   <li>基线</li>
+   <li>基准</li>
    <li>模板</li>
    <li>项目 (财务数据)</li>
    </ul>
@@ -299,8 +299,18 @@ ht-degree: 0%
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> If the project is&nbsp;added to the Capacity Planner and included in the budget calculation, the value is <i>Included and Calculated</i>. </li>
      --> 
     </ul> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td>[！UICONTROL划分]</td> 
+   <td> <p>在Workfront Planning中，您可以使用划分功能在记录的时间线视图中显示连接的记录。 </p>
+   <p>按连接划分记录允许您查看其他连接记录的时间表，并了解它们可能会如何影响记录的性能和截止日期。 </p>
+   <p>连接的记录以嵌套方式显示在各自的记录下。 </p>
+   <p>有关信息，请参阅<a href="/help/quicksilver/planning/views/manage-the-timeline-view.md">管理时间线视图</a>。 </p>
+   </td> 
+    </tr>
+
+<tr> 
    <td>[！UICONTROL预算完成日期]</td> 
    <td> <p>这是已弃用的字段。 此字段可能显示的任何信息都与[!DNL Workfront]已删除的功能相关。 无法更新此字段。 </p>
    <p> 此字段在[！UICONTROL项目]报告和列表中仍然可见。</p>  </td> 
@@ -513,7 +523,7 @@ ht-degree: 0%
      <li>[！UICONTROL项目]</li> 
      <li>[！UICONTROL任务]</li> 
      <li>[！UICONTROL问题]</li> 
-     <li>[！UICONTROLPortfolio]</li> 
+     <li>[！UICONTROL Portfolio]</li> 
      <li>[！UICONTROL文档]</li> 
      <li>[！UICONTROL费用]</li> 
      <li>[！UICONTROL项目]</li> 
@@ -528,7 +538,7 @@ ht-degree: 0%
      <li>[！UICONTROL项目]</li> 
      <li>[！UICONTROL任务]<br></li> 
      <li>[！UICONTROL问题]<br></li> 
-     <li>[！UICONTROLPortfolio]<br></li> 
+     <li>[！UICONTROL Portfolio]<br></li> 
      <li>[！UICONTROL文档]<br></li> 
      <li>[！UICONTROL费用]<br></li> 
      <li>[！UICONTROL项目]<br></li> 
@@ -721,7 +731,7 @@ ht-degree: 0%
      <li>[！UICONTROL Issues]</li> 
      <li>[！UICONTROL文档]</li> 
      <li>[！UICONTROL费用]</li> 
-     <li>[！UICONTROLPortfolio]</li> 
+     <li>[！UICONTROL项目组合]</li> 
      <li>[！UICONTROL程序]</li> 
      <li>[！UICONTROL迭代]</li> 
     </ul> </td> 
@@ -1116,7 +1126,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[！UICONTROL计划上次发布日期]</td> 
-   <td> <p>[！UICONTROL Initiative]、[！UICONTROL Initiative Job Role]和[！UICONTROL Project]报告中的字段，显示上次将计划计划计划发布到项目的日期。 您可以发布计划以创建项目或更新链接到计划的项目。</p> <p>[!DNL Scenario Planner]需要额外的许可证。 有关[!DNL Workfront Scenario Planner]的信息，请参阅<a href="../../../scenario-planner/scenario-planner-overview.md">[!DNL Scenario Planner]概述</a>。 </p> <p><span>有关发布计划的信息，请参阅</span><a href="../../../scenario-planner/publish-scenarios-update-projects.md">在[!DNL Workfront Scenario Planner]</a>中创建和更新项目的Publish方案。 除非您的公司购买了[!DNL Workfront Scenario Planner]许可证，否则此字段在您的[!DNL Workfront]实例中不可见。</p> </td> 
+   <td> <p>[！UICONTROL Initiative]、[！UICONTROL Initiative Job Role]和[！UICONTROL Project]报告中的字段，显示上次将计划计划计划发布到项目的日期。 您可以发布计划以创建项目或更新链接到计划的项目。</p> <p>[!DNL Scenario Planner]需要额外的许可证。 有关[!DNL Workfront Scenario Planner]的信息，请参阅<a href="../../../scenario-planner/scenario-planner-overview.md">[!DNL Scenario Planner]概述</a>。 </p> <p><span>有关发布计划的信息，请参阅</span><a href="../../../scenario-planner/publish-scenarios-update-projects.md">发布方案以在[!DNL Workfront Scenario Planner]</a>中创建和更新项目。 除非您的公司购买了[!DNL Workfront Scenario Planner]许可证，否则此字段在您的[!DNL Workfront]实例中不可见。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL内联搜索]</td> 
@@ -1175,7 +1185,7 @@ The designated full time equivalency for users. A full-time user should have 100
    <td> <p>在[！UICONTROL Task]报告或[！UICONTROL Issue]报告中，[！UICONTROL Kanban Flag]字段显示对[！UICONTROL Kanban Board]上的文章设置的标志状态。 可能的值包括[！UICONTROL On Track]、[！UICONTROL Ready To Pull]和[！UICONTROL Is Blocked]。</p> <p>有关在[！UICONTROL Kanban故事板上的故事上设置标记状态的更多信息，请参阅  文章<a href="../../../agile/use-kanban-in-an-agile-team/use-flags-on-stories.md" class="MCXref xref">在[！UICONTROL Kanban展示板上的故事上使用标志]</a>。</p> </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
-   <td>关键绩效指标</td> 
+   <td>KPI</td> 
    <td>可衡量的价值，表明一家公司在多大程度上有效地实现了关键业务目标。</td> 
   </tr> 
   <tr> 
@@ -1365,7 +1375,7 @@ The designated full time equivalency for users. A full-time user should have 100
    <td> <p>客户未标记为可记帐的费用。 这可以是计划费用或实际费用。</p> <p>“计划不可开单费用成本”和“实际不可开单费用成本”字段可供您添加到视图和报表中。 它们不会显示在项目或任务详细信息页面上。</p>
    <p>您可以在下列类型的报表中找到这些字段：</p>
    <ul>
-   <li>基线</li>
+   <li>基准</li>
    <li>模板</li>
    <li>项目 (财务数据)</li>
    </ul>
@@ -1395,7 +1405,7 @@ The designated full time equivalency for users. A full-time user should have 100
    <td>[！UICONTROL对象]</td> 
    <td> <p>您在[!DNL Adobe Workfront]中显示的信息由存储在[!DNL Workfront]数据库中的对象表示。 对象是Workfront中信息的驱动因素。 对象的一些示例包括：</p> 
     <ul> 
-     <li>[！UICONTROLPortfolio]</li> 
+     <li>[！UICONTROL项目组合]</li> 
      <li>[！UICONTROL程序]</li> 
      <li>[！UICONTROL项目]</li> 
      <li>[！UICONTROL任务]</li> 
@@ -1539,7 +1549,7 @@ The designated full time equivalency for users. A full-time user should have 100
      <li>[！UICONTROL项目]</li> 
      <li>[！UICONTROL任务]</li> 
      <li>[！UICONTROL Issues]</li> 
-     <li>[！UICONTROLPortfolio]</li> 
+     <li>[！UICONTROL项目组合]</li> 
      <li>[！UICONTROL程序]</li> 
      <li>[！UICONTROL报表]</li> 
      <li>[！UICONTROL功能板]</li> 
@@ -1662,20 +1672,20 @@ The designated full time equivalency for users. A full-time user should have 100
    <td>门户或功能板中最多包含三个门户部分的选项卡。</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
-   <td>[！UICONTROLPortfolio]</td> 
-   <td> <p>具有统一特性的项目集合。 这些项目通常会争夺相同的资源、预算或时限。 您可以将Portfolio划分为项目群，并在将项目群添加到Portfolio之前将其与项目群关联。</p> <p>有关项目组合的详细信息，请参阅[!DNL Adobe Workfront]</a>中的<a href="../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md">Portfolio概述。</p> 
+   <td>[！UICONTROL Portfolio]</td> 
+   <td> <p>具有统一特性的项目集合。 这些项目通常会争夺相同的资源、预算或时限。 您可以将项目组合划分为项目群，并在将项目群添加到Portfolio之前将项目群与项目群关联。</p> <p>有关项目组合的详细信息，请参阅[!DNL Adobe Workfront]</a>中的<a href="../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md">Portfolio概述。</p> 
    </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
-   <td>[！UICONTROLPortfolio管理]</td> 
+   <td>[！UICONTROL Portfolio Management]</td> 
    <td>一个实践领域，侧重于管理一个集合或相关的方案和项目工作。</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
-   <td>[！UICONTROLPortfolio优化器]</td> 
+   <td>[！UICONTROL Portfolio Optimizer]</td> 
    <td>一个[!DNL Workfront]工具，用于帮助评估和排定项目组合中的项目优先级。</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
-   <td>[！UICONTROLPortfolio所有者]</td> 
+   <td>[！UICONTROL Portfolio Owner]</td> 
    <td>负责项目组合优先级和预算的利益相关者。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -2095,8 +2105,8 @@ The designated full time equivalency for users. A full-time user should have 100
    <td>允许其他用户在[!DNL Workfront]中查看或编辑特定项目的操作。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROLSlack日期]</td> 
-   <td>在任务视图或报表中，[！UICONTROLSlack日期]显示任务绝对会影响项目[！UICONTROL完成日期]的确切日期。 有关任务的[！UICONTROLSlack日期]的信息，请参阅<a href="../../../manage-work/tasks/task-information/task-slack-date.md" class="MCXref xref">任务Slack日期概述</a>。</td> 
+   <td>[！UICONTROL Slack日期]</td> 
+   <td>在任务视图或报表中，[！UICONTROL Slack日期]显示任务明确影响项目[！UICONTROL完成日期]的确切日期。 有关任务的[！UICONTROL Slack日期]的信息，请参阅<a href="../../../manage-work/tasks/task-information/task-slack-date.md" class="MCXref xref">任务Slack日期概述</a>。</td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL智能分配]</td> 

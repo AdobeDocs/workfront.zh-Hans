@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
 workflow-type: tm+mt
-source-wordcount: '2692'
+source-wordcount: '2684'
 ht-degree: 0%
 
 ---
@@ -394,7 +394,7 @@ this is not possible right now; if this is the same functionality as the table v
 
    这些记录将按照您选择的规范显示在时间轴视图中。
 
-### 使用“划分”功能可在时间轴视图中显示连接的记录
+### 在时间轴视图中划分连接的记录
 
 使用“划分”功能，可以在记录的时间线视图中显示连接的记录。 按连接划分记录允许您查看其他连接记录的时间表，并了解它们可能会如何影响记录的性能和截止日期。
 
@@ -418,7 +418,7 @@ this is not possible right now; if this is the same functionality as the table v
 * 要在时间轴视图中显示的记录类型的开始日期和结束日期必须按时间顺序排列。 例如，如果记录的开始日期为1月31日，结束日期为1月1日，则它不会显示在时间线视图中。 有关详细信息，请参阅本文中的[管理时间线视图](#manage-a-timeline-view)部分。
 * 您可以在记录的划分中包含5种记录类型的限制。
 
-#### 在时间轴视图中划分连接的记录
+#### 划分连接的记录
 
 1. 为记录类型创建时间线视图，如[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)一文中所述。
 1. （视情况而定）如果您在标准模式下查看时间线视图，请单击&#x200B;**划分**。
