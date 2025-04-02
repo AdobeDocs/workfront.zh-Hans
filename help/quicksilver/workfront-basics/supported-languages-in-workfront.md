@@ -6,16 +6,18 @@ description: 您可以通过调整浏览器上的语言首选项以及Adobe Work
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: 0ae0e2d3c4e47a1f7344acf18068bba9cbbab597
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1159'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront支持的语言
 
-您可以通过调整浏览器上的语言偏好设置（如果不是在IMS上）或Adobe Workfront配置文件语言偏好设置（如果是在IMS上）以及Workfront中的默认电子邮件区域设置，来更改显示来自Workfront的Adobe Experience Cloud和电子邮件的语言。
+您可以更改显示来自Workfront的Adobe Workfront和电子邮件的语言，方法是调整浏览器上的语言首选项(如果贵组织尚未迁移到Adobe Admin Console)、Adobe Experience Cloud配置文件语言首选项(如果位于Adobe Admin Console)以及Workfront中的默认电子邮件区域设置。
+
+要更改您显示Workfront的语言，请参阅本文中的[更改语言](#change-the-language)。
 
 每次Workfront更新时，Workfront术语都会针对支持的语言进行更新。
 
@@ -32,7 +34,7 @@ Workfront支持以下语言：
 * 中文 — 简体(zh-CN)
 * 繁体中文(zh-TW)
 
-如果您的组织未在IMS上，则用于查看浏览器中Workfront的语言由浏览器语言设置控制，或者如果您的组织未在IMS上，则由您的Adobe Experience Cloud配置文件语言控制。 在任一情况下，请确保选择支持的语言列表中列出的语言。
+如果您的组织不在Workfront上，则在浏览器中查看Adobe Admin Console时使用的语言由浏览器语言设置控制，或者如果组织在Adobe Admin Console上，则由Adobe Experience Cloud配置文件语言控制。 在任一情况下，请确保选择支持的语言列表中列出的语言。
 
 要以任何受支持的语言显示传出电子邮件，请在Workfront中修改用户电子邮件区域设置或客户信息设置。\
 您必须是Workfront管理员才能修改客户信息设置。\
@@ -97,11 +99,18 @@ Workfront中的Web验证查看器支持Workfront支持的大多数语言。
 
 您可以通过修改以下设置来更改查看Workfront的语言和传出电子邮件的语言：
 
-* 浏览器上的语言（适用于不在IMS上的用户）
-* AEM配置文件的主要和辅助语言（适用于IMS上的用户）
+* 浏览器上的语言(适用于不在Adobe Admin Console上的用户)
+* AEM配置文件的主要和次要语言(适用于Adobe Admin Console上的用户)
 * Workfront帐户中的客户信息和用户电子邮件区域设置。
 
 要查看所选语言的所有可用翻译，应将Workfront区域设置和浏览器区域设置设置为相同的语言。
+
+要确定您的组织是否已迁移到Adobe Admin Console，请检查用于查看Workfront的URL。
+
+| URL | Adobe体验 |
+|---|---|
+| （公司名称）.my.workfront.com | 未迁移到Adobe Admin Console |
+| experience.adobe.com | 已迁移到Adobe Admin Console |
 
 * [更改浏览器语言](#change-the-browser-language)
 * [更改Adobe Experience Cloud语言](#change-the-adobe-experience-cloud-language)
@@ -109,7 +118,7 @@ Workfront中的Web验证查看器支持Workfront支持的大多数语言。
 
 ### 更改浏览器语言 {#change-the-browser-language}
 
-如果您的组织不在IMS上，则在更改浏览器语言时，您的Workfront界面将以该语言显示。\
+如果贵组织尚未迁移到Adobe Admin Console，则在更改浏览器语言时，您的Workfront界面将以该语言显示。\
 有关Workfront支持哪些语言的更多信息，请参阅[Adobe Workfront支持的语言](#supported-languages)。
 
 必须根据个别用户更改浏览器语言。
@@ -118,7 +127,7 @@ Workfront中的Web验证查看器支持Workfront支持的大多数语言。
 
 ### 更改Adobe Experience Cloud语言
 
-如果贵组织使用IMS，则Adobe Experience Cloud配置文件语言将决定Workfront中显示的语言。
+如果贵组织已迁移到Adobe Admin Console，则Adobe Experience Cloud配置文件语言将决定Workfront中显示的语言。
 
 1. 单击Adobe Experience Cloud工具栏最右端的配置文件图片，然后单击&#x200B;**首选项**。 Adobe Experience Cloud工具栏位于Workfront主工具栏的正上方。
 
