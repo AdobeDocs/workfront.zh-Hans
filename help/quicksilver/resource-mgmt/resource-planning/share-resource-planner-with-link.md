@@ -6,9 +6,9 @@ description: Adobe Workfront可以为资源规划者的用户视图生成唯一�
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: af0f1b9baef20c5910b13a52207531887a8524c5
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,6 @@ Adobe Workfront可以为资源规划者的用户视图生成唯一的URL，您�
 
 +++
 
-
 为资源规划者的用户视图生成唯一URL时，请考虑以下事项：
 
 * 您只能获取用户视图的唯一URL。 项目视图或角色视图中不存在用于生成URL的选项。
@@ -80,18 +79,18 @@ Adobe Workfront可以为资源规划者的用户视图生成唯一的URL，您�
    * 季度
 
 1. （可选）选择要按&#x200B;**FTE**&#x200B;还是&#x200B;**Hours**&#x200B;查看信息。\
-   ![RP_hours_or_fte_in_user_view.png](assets/rp-hours-or-fte-in-user-view.png)
+   ![选择FTE或小时](assets/rp-hours-or-fte-in-user-view.png)
 
 1. （可选）将过滤器应用于资源规划者。\
    有关应用筛选器的信息，请参阅[资源规划者中的筛选器信息](../../resource-mgmt/resource-planning/filter-resource-planner.md) 。
 
 1. 单击&#x200B;**超链接**&#x200B;图标。\
-   ![RP_Storm_generate_URL_with_copy_URL_link.png](assets/rp-storm-generate-url-with-copy-url-link-350x182.png)
+   ![超链接图标和URL](assets/rp-generate-url-from-link-icon.png)
 
 1. 单击&#x200B;**复制URL**。\
    这会将“用户视图”中资源规划者的唯一URL复制到剪贴板。
 
-1. （可选）执行以下操作之一：  
+1. （可选）执行以下操作之一：
 
    * 将URL粘贴到另一个应用程序以发送给另一个用户。\
      用户必须登录到Workfront才能在“用户”视图中查看资源规划者。
@@ -114,4 +113,4 @@ Adobe Workfront可以为资源规划者的用户视图生成唯一的URL，您�
    有关将功能板添加到布局模板的信息，请参阅[创建和管理布局模板](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) 。\
    有关共享功能板的信息，请参阅[共享功能板](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md) 。\
    查看共享URL时，用户可以查看最初应用于资源规划者的设置的信息。 用户必须登录到Workfront才能查看共享URL。\
-   ![user_view_dashoard_from_unique_url.png](assets/user-view-dashoard-from-unique-url-350x85.png)
+   ![显示有资源规划者的示例仪表板](assets/user-view-dashoard-from-unique-url-350x85.png)
