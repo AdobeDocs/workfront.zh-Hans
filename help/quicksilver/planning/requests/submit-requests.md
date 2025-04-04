@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
+source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
 workflow-type: tm+mt
-source-wordcount: '1878'
+source-wordcount: '1892'
 ht-degree: 0%
 
 ---
@@ -214,6 +214,8 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
      >[!NOTE]
      >
      >仅当贵组织的Workfront实例载入到Adobe Unified Experience时，电子邮件和应用程序内通知才可见。
+     >
+     >电子邮件确认或审批通知中有一个指向请求的链接。
 
    1. （可选）在确认消息中单击&#x200B;**查看您的请求**&#x200B;以打开该请求，或单击&#x200B;**X**&#x200B;图标以关闭确认。
 

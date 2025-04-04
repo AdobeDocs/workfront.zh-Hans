@@ -2,19 +2,21 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: 目标审查和Adobe Workfront目标部分
+title: 目标审查和Adobe Workfront目标部分：文章索引
 description: 请在以下文章中了解如何查看目标以及可以在Adobe Workfront中管理目标的部分。
 author: Alina
 feature: Workfront Goals
 exl-id: 81f531f7-3390-4f85-9a96-480f4e84295e
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
 
-# 目标审查和Adobe Workfront目标部分
+# 目标审查和Adobe Workfront目标部分：文章索引
+
+<!--Audited: 4/2025-->
 
 >[!IMPORTANT]
 >
@@ -22,7 +24,7 @@ ht-degree: 0%
 >
 >* 对于新计划和许可证结构：
 >
->   * 最终Workfront计划
+>   * Ultimate Workfront计划
 >    
 >* 对于当前计划和许可证结构：
 >

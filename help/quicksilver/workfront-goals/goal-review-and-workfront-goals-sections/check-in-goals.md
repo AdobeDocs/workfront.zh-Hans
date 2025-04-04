@@ -6,20 +6,24 @@ description: 您必须定期审查目标并更新其进度，以确保其不会�
 author: Alina
 feature: Workfront Goals
 exl-id: 5092f508-e52c-4934-a8c1-d0be04ecce13
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 0%
+source-wordcount: '684'
+ht-degree: 1%
 
 ---
 
 # 在Adobe Workfront目标中更新目标进度
+
+<!-- Audited for P&P only: 4/2025-->
 
 您必须定期审查目标并更新其进度，以确保其不会落后或面临无法实现的危险。
 
 <!--And: take this last sentence ^^ out when you update this for goal redesign production.-->
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具备以下条件：
 
@@ -50,12 +54,9 @@ ht-degree: 0%
  <tr>
  <td role="rowheader">产品*</td>
  <td>
- <p> 新产品要求，为以下项之一： </p>
-<ul>
-<li>Select或Prime Adobe Workfront计划和附加Adobe Workfront Goals许可证。</li>
-<li>Ultimate Workfront计划，默认情况下包括Workfront目标。 </li></ul>
- <p>或</p>
- <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
+   <p> 新产品要求：Workfront</p>
+   或
+   <p>当前产品要求：除了Workfront许可证之外，您必须为Adobe Workfront Goals购买许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader">访问级别</td>
@@ -71,7 +72,7 @@ ht-degree: 0%
   </div> </td>
  </tr>
 <tr>
-   <td role="rowheader"><p>布局模板</p></td>
+   <td role="rowheader"><p>版面模板</p></td>
    <td> <p>必须为包括Workfront管理员在内的所有用户分配一个布局模板，该模板应包括主菜单中的目标区域。 </p>  
 </td>
   </tr>
@@ -79,6 +80,8 @@ ht-degree: 0%
 </table>
 
 *有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先决条件
 

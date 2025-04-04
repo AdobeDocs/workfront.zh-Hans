@@ -1,21 +1,21 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-review-and-sections
-title: 查看图表以了解Adobe Workfront目标中的目标进度趋势
+title: 查看图形以了解Adobe Workfront目标中的目标进度趋势
 description: 您可以在Adobe Workfront目标的“图形”部分中查看目标的总体运行状况及其及时进度趋势。 此部分中的图表不会细分每个目标的进度，而是为您提供指定时间段内所有目标进度状态及其时间进度趋势的整体快照。
 author: Alina
 feature: Workfront Goals
 exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
 
 # 查看图表以了解Adobe Workfront目标中的目标进度趋势
 
-<!-- drafted mostly for P&P release-->
+<!--Audited for P&P only: 4/2025-->
 
 您可以在Adobe Workfront目标的“图形”部分中查看目标的总体运行状况及其及时进度趋势。 此部分中的图表不会细分每个目标的进度，而是为您提供指定时间段内所有目标进度状态及其时间进度趋势的整体快照。
 
@@ -25,7 +25,9 @@ ht-degree: 0%
 
 ## 访问要求
 
-您必须具有以下权限才能执行本文中所述的操作：
++++ 展开以查看本文中各项功能的访问要求。
+
+您必须具备以下条件：
 
 <table style="table-layout:auto">
 <col>
@@ -42,7 +44,7 @@ ht-degree: 0%
 <p>对于当前计划和许可证结构： 
 <ul><li> Pro或更高版本 </li>
   <li>除了Adobe Workfront许可证之外，还提供了Workfront目标许可证。</li></ul></p>
-   </td> 
+   </td>  
   </tr>
  <tr>
  <td role="rowheader">Adobe Workfront许可证*</td>
@@ -54,12 +56,9 @@ ht-degree: 0%
  <tr>
  <td role="rowheader">产品*</td>
  <td>
- <p> 新产品要求，为以下项之一： </p>
-<ul>
-<li>Select或Prime Adobe Workfront计划和附加Adobe Workfront Goals许可证。</li>
-<li>Ultimate Workfront计划，默认情况下包括Workfront目标。 </li></ul>
- <p>或</p>
- <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
+    <p> 新产品要求：Workfront</p>
+    或
+    <p>当前产品要求：除了Workfront许可证之外，您必须为Adobe Workfront Goals购买许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader"><p>访问级别</p></td>
@@ -75,7 +74,7 @@ ht-degree: 0%
   </div> </td>
  </tr>
  <tr>
-   <td role="rowheader"><p>布局模板</p></td>
+   <td role="rowheader"><p>版面模板</p></td>
    <td> <p>必须为包括Workfront管理员在内的所有用户分配一个布局模板，该模板应包括主菜单中的目标区域。 </p>  
 </td>
   </tr>
@@ -83,6 +82,8 @@ ht-degree: 0%
 </table>
 
 *有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## Workfront目标中的图形类型
 
