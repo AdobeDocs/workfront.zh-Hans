@@ -8,14 +8,16 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: fedb0328450896d212081715df4cde7644b169bc
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
 
 # 设置项目计划完成日期
+
+<!-- Audited: 4/2025 -->
 
 项目的计划完成日期是项目设置为完成的日期。
 
@@ -56,6 +58,8 @@ ht-degree: 0%
 </table>
 -->
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -63,15 +67,22 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td><p>
+   新增：标准
+
+或
+
+当前：计划 </p>
+
+</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
+   <td role="rowheader">访问级别配置</td> 
    <td> <p>编辑对项目的访问权限</p> <p><b>注释</b>
 
 如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
@@ -83,7 +94,9 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 手动设置项目的计划完成日期
 
@@ -96,15 +109,17 @@ ht-degree: 0%
 
 要从完成日期计划项目，请执行以下操作：
 
-1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**项目**。
+{{step1-to-projects}}
 
-1. 单击&#x200B;**新建项目**，然后单击&#x200B;**新建项目**。
+1. 单击&#x200B;**新建项目**，然后从出现的下拉列表中选择&#x200B;**新建项目**。
 
    有关创建项目的详细信息，请参阅文章[创建项目](../../../manage-work/projects/create-projects/create-project.md)。
 
-1. 在左面板中选择&#x200B;**项目详细信息**，然后单击右上角的&#x200B;**编辑项目**&#x200B;图标。
+1. 在左侧面板中选择&#x200B;**项目详细信息**。
 
-1. 在&#x200B;**计划模式**&#x200B;字段中，选择&#x200B;**完成日期**。
+1. 单击右上角的&#x200B;**编辑项目**&#x200B;图标![编辑图标](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png)，然后在显示的下拉列表中选择&#x200B;**概述**。
+
+1. 在&#x200B;**项目日期**&#x200B;部分中，单击&#x200B;**计划模式**&#x200B;字段，然后选择&#x200B;**完成日期**。
 
 1. 指定项目的&#x200B;**计划完成日期**。
 1. 单击&#x200B;**保存更改**。
@@ -117,15 +132,17 @@ ht-degree: 0%
 
 要从开始日期计划项目，请执行以下操作：
 
-1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**项目**。
+{{step1-to-projects}}
 
-1. 单击&#x200B;**新建项目**，然后单击&#x200B;**新建项目**。
+1. 单击&#x200B;**新建项目**，然后从出现的下拉列表中选择&#x200B;**新建项目**。
 
    有关创建项目的详细信息，请参阅文章[创建项目](../../../manage-work/projects/create-projects/create-project.md)。
 
-1. 在左面板中选择&#x200B;**项目详细信息**，然后单击右上角的&#x200B;**编辑项目**&#x200B;图标。
+1. 在左侧面板中选择&#x200B;**项目详细信息**。
 
-1. 在&#x200B;**计划模式**&#x200B;字段中，选择&#x200B;**开始日期**。
+1. 单击右上角的&#x200B;**编辑项目**&#x200B;图标![编辑图标](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png)，然后在显示的下拉列表中选择&#x200B;**概述**。
+
+1. 在&#x200B;**项目日期**&#x200B;部分中，单击&#x200B;**计划模式**&#x200B;字段，然后选择&#x200B;**开始日期**。
 
 1. 指定项目的&#x200B;**计划开始日期**。
 1. 单击&#x200B;**保存更改**。

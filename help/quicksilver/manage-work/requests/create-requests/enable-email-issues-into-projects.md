@@ -3,17 +3,19 @@ product-area: requests
 navigation-topic: create-requests
 title: 允许用户通过电子邮件将问题发送到请求队列项目
 description: 您可以配置项目以允许用户通过电子邮件将问题添加到项目。
-author: LIsa
+author: Alina, Courtney
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: fedb0328450896d212081715df4cde7644b169bc
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '790'
 ht-degree: 0%
 
 ---
 
 # 允许用户通过电子邮件将问题发送到请求队列项目
+
+<!-- Audited: 4/2025 -->
 
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
@@ -55,9 +57,7 @@ ht-degree: 0%
 
 ## 先决条件
 
-配置项目需要以下先决条件，以允许用户通过电子邮件将问题添加到项目。
-
-在启用此功能之前，必须满足以下条件：
+配置项目需要满足以下条件，才能允许用户通过电子邮件将问题添加到项目：
 
 * 通过电子邮件将问题发送到此帐户的用户必须是具有Workfront许可证的活动用户。
 * 通过电子邮件将问题发送到此帐户的用户必须具有项目的“添加问题”权限。
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 1. 转到要启用以通过电子邮件接收问题的项目。
 1. 单击左侧面板中的&#x200B;**队列详细信息**。 您可能需要先单击&#x200B;**显示更多**。
-1. 在&#x200B;**队列类型**&#x200B;区域，选择&#x200B;**Publish作为帮助请求队列**。
+1. 在&#x200B;**队列类型**&#x200B;区域，选择&#x200B;**发布作为帮助请求队列**。
 
 1. 向下滚动到&#x200B;**电子邮件队列设置**&#x200B;区域，然后选择&#x200B;**启用通过电子邮件接收请求**。
 
