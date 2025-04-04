@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 0ae0e2d3c4e47a1f7344acf18068bba9cbbab597
+source-git-commit: 993b066ecefb4b345c59289d6c6466ef0416d620
 workflow-type: tm+mt
-source-wordcount: '1628'
+source-wordcount: '1640'
 ht-degree: 0%
 
 ---
@@ -298,9 +298,11 @@ Workfront版本编号代表了每月和每季度的版本跟踪。 第一个数�
 
 #### 我们正在删除项目中的旧版Agile视图
 
-项目中的旧版Agile视图将在2025年3月13日的25.3版本中从Workfront删除。 您仍然能够通过单击展示板图标，在项目的敏捷视图中查看您的任务。
+项目中的旧版Agile视图将在2025年3月13日的25.3版本中从Workfront删除。 您仍然能够通过单击展示板图标，在项目的敏捷视图中查看您的任务。 现有的旧版Agile工具仍然在团队区域可用。
 
-有关使用Agile视图的更多信息，请参阅[在Agile视图下管理项目](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md)。
+下图显示了将被删除的旧版Agile选项：
+![旧版Agile视图链接](assets/project-agile-board-view.png)
+
 
 #### 弃用增强的Analytics
 
