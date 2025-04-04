@@ -6,16 +6,22 @@ description: 所有非付费Workfront许可证的验证和文档决策都受到�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: cc3930f01d5e2162d7c778d061a08f937877c3c0
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 3%
+source-wordcount: '259'
+ht-degree: 5%
 
 ---
 
 # 非付费用户的有限文档和验证决策概述
 
-对于新计划上的所有未付费Workfront许可证，验证和文档决策受到限制。 有关详细信息，请参阅[新许可证概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)。
+对于新计划上的所有未付费Workfront许可证，验证和文档决策受到限制。 当您被指定为文档或验证的审批者时，您必须决定推进审阅和审批流程。
+
+以下决策选项计入每月限制：
+
+* 批准
+* 批准（附加更改）
+* 需要工作
 
 每月按用户重置限制。 每个许可证的决定限制因您采用的计划而异：
 
@@ -53,7 +59,7 @@ ht-degree: 3%
    </td>
   </tr>
   <tr>
-   <td><strong>旗舰版</strong> 
+   <td><strong>Ultimate</strong> 
    </td>
    <td>7 
    </td>
@@ -61,6 +67,8 @@ ht-degree: 3%
    </td>
   </tr>
 </table>
+
+有关详细信息，请参阅[新许可证概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)。
 
 ## 外部用户
 
