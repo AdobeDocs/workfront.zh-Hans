@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3ea3acc79a0f2d9c61b4ca7fff68855a9a7b1de7
+source-git-commit: 80cb8ffa0495c7d163de8fb99dba84e6442aa938
 workflow-type: tm+mt
-source-wordcount: '1706'
+source-wordcount: '1774'
 ht-degree: 0%
 
 ---
@@ -212,11 +212,23 @@ ht-degree: 0%
 
 +++展开以查看文档界面更新
 
+### 外部文档共享页面的界面更新
+
+**预览版本： 2025年4月3日；生产版本：从2025年4月10日开始的一周开始**
+
+我们更新了外部用户在与他们共享文档时看到的页面。 在此页面中，外部用户可以
+
+* 下载文档
+* 作出批准决定
+* 打开验证查看器
+
+此更新包括更现代的设计，该设计与Workfront的其他区域一致。
+
 ### 文档审批区域的界面更新
 
 **预览版本： 2025年2月13日；生产版本：从2025年2月27日开始的一周开始**
 
-我们更新了文档上的批准区域，更新后的设计更加现代化，与Workfront的其他区域一致。
+我们更新了文档上的批准区域，使其设计更加现代化，与Workfront的其他区域保持一致。
 
 要查看此更改，请转到文档>单击文档详细信息>审批。
 
