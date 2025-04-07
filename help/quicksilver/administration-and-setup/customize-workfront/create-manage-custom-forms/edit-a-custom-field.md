@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 16c1cb48fcbd771cbc5e01c53c43009be64a9d8c
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 您可以直接从Workfront中的字段区域添加新的自定义字段或构件，而无需打开自定义表单来创建字段。
 
 您还可以编辑在自定义表单中使用的自定义字段、分区界限或小组件的属性。 这些资源包括项目的标签、名称、说明等。
+
+如果从自定义表单中删除自定义字段，则它仍然存在于添加到的所有其他表单中，并且您可以在表单或“字段”区域中编辑它。 有关删除字段的信息，请参阅[从系统中删除自定义字段或小组件](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)。
 
 有关自定义表单中的自定义字段和小部件的信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
@@ -80,3 +82,4 @@ ht-degree: 0%
    有关详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 1. 完成后，单击&#x200B;**编辑**。
+
