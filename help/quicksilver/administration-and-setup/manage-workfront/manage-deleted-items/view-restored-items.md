@@ -8,9 +8,9 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 0c0fc9df-23eb-4a2b-a5b0-6dbd742e8238
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 1d18b58d1ac47159f301589315883f28dfa58694
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '206'
 ht-degree: 1%
 
 ---
@@ -66,8 +66,8 @@ ht-degree: 1%
 
    默认情况下，项目按恢复日期排序。
 
-1. 根据还原的项类型，单击&#x200B;**项目**、**任务**、**问题**&#x200B;或&#x200B;**文档**&#x200B;选项卡。
+1. 根据还原的项类型，单击&#x200B;**项目**、**任务**、**问题**、**文档**&#x200B;或&#x200B;**模板**&#x200B;选项卡。
 
 1. 单击要查看的项目的链接名称。
 
-   显示项目、任务、问题或文档。
+   显示项目、任务、问题、文档或模板。
