@@ -6,9 +6,9 @@ description: 在Workfront中可供审阅和批准的系统概述。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: f2f58e3db7d99043281384cc2f6047fd9254f4fd
+source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,13 @@ Workfront中目前有3种不同的系统可用于资产和文档审阅和批准�
 
 * [旧文档审批](#legacy-document-approvals)
 
-* [新文档审批](#new-document-approvals)
+* [统一审批](#new-document-approvals)
 
 * [验证审批](#proof-approvals)
 
 ## 旧文档审批
 
-旧文档审批将于2025年从Workfront中删除。 新的文档审批系统旨在替换旧版文档审批。
+旧文档审批将于2025年从Workfront中删除。 统一审批系统旨在替换旧版文档审批。
 
 可用于旧文档审批的主要功能：
 
@@ -36,13 +36,13 @@ Workfront中目前有3种不同的系统可用于资产和文档审阅和批准�
 
 有关详细信息，请参阅[旧文档审批](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md#document-approval-processes)。
 
-## 新文档审批
+## 统一审批
 
-新文档审批是对旧审批系统的重新设计。 目前，该解决方案限时发布，旨在为需要全面利益相关者参与和特定版本文档审批的企业提供实用而有效的解决方案。
+统一审批是对旧版审批系统的重新设计。 目前，该解决方案限时发布，旨在为需要全面利益相关者参与和特定版本文档审批的企业提供实用而有效的解决方案。
 
-有关新文档审批的更多详细信息，请参阅[新文档审批概述](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)。
+有关统一审批的详细信息，请参阅[统一审批概述](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)。
 
-可用于新文档审批的主要功能：
+可用于统一审批的主要功能：
 
 * 将用户和团队添加为批准者和审阅者
 
@@ -51,11 +51,11 @@ Workfront中目前有3种不同的系统可用于资产和文档审阅和批准�
 * 创建和使用模板
 
 * 在校对查看器中审阅和评论
-有关使用验证查看器的详细信息，请参阅[一起使用新文档批准和验证](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)。
+有关使用验证查看器的详细信息，请参阅[将统一审批和验证一起使用](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)。
 
 * 在Workfront主页构件中查看供您审批的多个关键绩效指标
 
-* 使用当前处于测试状态的画布功能板查看有关新文档审批的报告详细信息
+* 使用当前处于测试状态的画布功能板查看有关统一审批的报告详细信息
 有关报告的详细信息，请参阅[创建报告仪表板以供审阅和批准](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)。
 
 * 在验证查看者[!BADGE 中做出决定]{type=Informative}

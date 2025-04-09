@@ -6,10 +6,10 @@ description: 所有非付费Workfront许可证的验证和文档决策都受到�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
-source-git-commit: cc3930f01d5e2162d7c778d061a08f937877c3c0
+source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 5%
+source-wordcount: '286'
+ht-degree: 8%
 
 ---
 
@@ -17,11 +17,47 @@ ht-degree: 5%
 
 对于新计划上的所有未付费Workfront许可证，验证和文档决策受到限制。 当您被指定为文档或验证的审批者时，您必须决定推进审阅和审批流程。
 
-以下决策选项计入每月限制：
+以下决策类型计入月度限制：
 
-* 批准
-* 批准（附加更改）
-* 需要工作
+<table>
+  <tr>
+
+<td><strong>旧文档审批</strong> 
+   </td>
+   <td><strong>统一批准</strong> 
+   </td>
+   <td><strong>校对审批</strong> 
+   </td>
+  </tr>
+  <tr>
+   <td>
+   <ul>
+   <li>批准</li>
+    <li>批准（附加更改）</li>
+     <li>拒绝</li>
+   </ul>
+   </td>
+   <td>
+      <ul>
+   <li>批准</li>
+    <li>批准（附加更改）</li>
+     <li>需要工作</li>
+   </ul>
+   </td>
+   <td>
+      <ul>
+   <li>批准</li>
+    <li>批准（附加更改）</li>
+     <li>所需的更改</li>
+   </ul>
+   <p><strong>注意</strong>：验证审批可以具有自定义决策标签</p>
+  </tr>
+  </tr>
+</table>
+
+
+
+## 限制
 
 每月按用户重置限制。 每个许可证的决定限制因您采用的计划而异：
 

@@ -6,9 +6,9 @@ description: 审批工作
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '913'
 ht-degree: 1%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 1%
    <table>
    <tr>
       <td>
-      <p><strong>访问权限</strong></p>
+      <p><strong>访问</strong></p>
       </td>
       <td>
       <p><strong>工作项</strong></p>
@@ -122,7 +122,7 @@ ht-degree: 1%
          <ul>
          <li>完成我的审阅</li>
          </ul>
-      此列中的选项仅适用于新文档审批。 旧文档审批与工作项审批显示相同。 
+      此列中的选项仅适用于统一审批。 旧文档审批与工作项审批显示相同。 
       </td>
       <td>
          <ul>
