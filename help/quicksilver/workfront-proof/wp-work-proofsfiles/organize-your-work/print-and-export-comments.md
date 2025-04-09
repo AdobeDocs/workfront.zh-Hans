@@ -7,9 +7,9 @@ description: 可在Workfront Proof中访问“评论”摘要。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
-source-git-commit: 1443551b605dac6e53531c5d445b89517384fe11
+source-git-commit: e72fe6861b26caa2f9e3ff64e36b871528619f5a
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,8 @@ ht-degree: 0%
 
 1. 单击&#x200B;**更多**&#x200B;按钮，然后选择&#x200B;**导出到Excel**。
 
-   ![导出到Excel选项](assets/Export-to-excel-option.png)
+   <!--
+   ![Export to Excel option](assets/export-to-excel-option.png) -->
 
 ## 导出到PDF
 
