@@ -7,9 +7,9 @@ description: 可在Workfront Proof中访问“评论”摘要。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 1443551b605dac6e53531c5d445b89517384fe11
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,15 @@ ht-degree: 0%
 
 ![PV_print_all_comm.png](assets/pv-print-all-comm-350x158.png)
 
+要访问校样查看器，请单击校样详细信息页面中的&#x200B;**前往校样**&#x200B;按钮。
+
 ### 校对详细信息页面 {#the-proof-details-page}
 
-您可以通过单击校对详细信息页面上的&#x200B;**[!UICONTROL 打印]**&#x200B;图标来打印校对的评论摘要。
+您可以通过单击校样详细信息页面上的&#x200B;**[!UICONTROL 打印]**&#x200B;图标来打印校样评论摘要。
 
 ![proof_details_page.png](assets/proof-details-page-350x231.png)
+
+要访问特定校样的校样详细信息页面，请从列表视图中单击校样的名称。
 
 ### [!DNL Proof]操作菜单 {#the-proof-actions-menu}
 
@@ -51,7 +55,7 @@ ht-degree: 0%
 
    ![List_view.png](assets/list-view-350x155.png)
 
-   在“注释”摘要页面上，您可以选择以下打印选项：
+   在“注释”摘要页面上，从以下打印选项中选择：
 
    * 缩略图视图(1)
    * 完整页面查看(2)
@@ -63,7 +67,7 @@ ht-degree: 0%
 
 ### 缩略图视图
 
-缩略图视图按顺序显示每个评论，以及每个评论的完整主题。 您还可以对注释进行排序，并查看每个添加了标记的注释的缩略图。
+缩略图视图按每个注释的完整线程的顺序显示每个注释。 您还可以对注释进行排序，并查看每个添加了标记的注释的缩略图。
 
 要打印缩略图视图，请单击页面右上角的&#x200B;**[!UICONTROL 打印机]**&#x200B;图标，然后选择以下选项之一：
 
@@ -74,7 +78,7 @@ ht-degree: 0%
 
 ### 全页视图
 
-全页视图按顺序显示每个页面，同时显示该页面上的评论以及一个用于指示评论标记在页面上的位置的pin。
+全页视图按顺序显示每个页面，其中包含该页面上的评论以及一个用于指示评论所在位置的pin。
 
 要打印整页视图，请单击页面右上角的&#x200B;**[!UICONTROL 打印机]**&#x200B;图标。
 
@@ -82,30 +86,28 @@ ht-degree: 0%
 
 ## 导出[!DNL Excel]摘要
 
-要下载[!DNL Excel]摘要：
+要从验证操作菜单中导出[!DNL Excel]摘要：
 
-1. 打开验证右侧的验证操作菜单，然后单击&#x200B;**[!UICONTROL [!DNL Excel]摘要]**。 (1)\
-   ![Excel_summary.png](assets/excel-summary-350x450.png)
+1. 单击验证右侧的&#x200B;**操作**&#x200B;图标，然后选择&#x200B;**[!UICONTROL [!DNL Excel]摘要]**。
+   ![导出Excel摘要](assets/excel-summary-option.png)
 
 要从校对详细信息页面下载[!DNL Excel]摘要，请执行以下操作：
 
-1. 单击“导出到&#x200B;**[!DNL Excel]**”图标。 (2)
+1. 单击&#x200B;**更多**&#x200B;按钮，然后选择&#x200B;**导出到Excel**。
 
-   ![Export_to_excel.png](assets/export-to-excel-350x185.png)
+   ![导出到Excel选项](assets/Export-to-excel-option.png)
 
 ## 导出到PDF
 
-要将验证以及所有标记和注释导出到PDF，请执行以下步骤：
-
-1. 转到屏幕左侧的&#x200B;**[!UICONTROL 视图]**。
-1. 单击内联校样的&#x200B;**[!UICONTROL 更多]**&#x200B;图标，然后单击&#x200B;**[!UICONTROL 打印评论]**。
-
-1. 单击页面右上角的导出到PDF图标。
-
-   当PDF准备就绪时，您将收到一封包含下载链接的电子邮件。
-
-所有注释都将显示在PDF读取器中。 如果评论具有多个关联的标记，则该评论将在评论列表中多次出现（每个标记出现一次）。
+导出到PDF文件时，所有注释都将显示在PDF阅读器中。 如果评论具有多个关联的标记，则该评论将在评论列表中多次出现（每个标记出现一次）。
 
 >[!IMPORTANT]
 >
->导出到PDF功能仅适用于静态文件。
+>导出到PDF函数仅适用于静态文件。
+
+要将验证及其标记和注释导出到PDF，请执行以下操作：
+
+1. 在屏幕左侧，单击&#x200B;**[!UICONTROL 视图]**。
+1. 单击与特定校样一致的&#x200B;**[!UICONTROL 更多]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 打印评论]**。
+
+1. 在页面的右上角，单击&#x200B;**导出到PDF**&#x200B;按钮。 PDF将开始下载，下载完成后通过电子邮件发送给您。
