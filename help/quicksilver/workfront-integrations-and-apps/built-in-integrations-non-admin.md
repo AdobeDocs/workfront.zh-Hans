@@ -7,9 +7,9 @@ description: 您可以将 [!DNL Adobe Workfront] 与第三方应用程序集成�
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 502e3fae874df91d4699867dcd25812659a3ffdf
+source-git-commit: 436eb2ef32363aa28593e74f7464dcd6837b2095
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '539'
 ht-degree: 3%
 
 ---
@@ -120,7 +120,7 @@ Workfront中目前提供以下内置集成。
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p> </td> 
+   <td role="rowheader"> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p><b>注意</b>：从2025年7月1日起，Microsoft将移除对Classic Teams桌面应用程序的支持。 因此，一旦Classic Teams桌面应用程序不再可用，则将不支持与Microsoft Teams的Workfront集成。 </p> </td> 
    <td> 
     <ul> 
      <li>在[!DNL Microsoft Teams]中获取[!DNL Workfront]通知 </li> 
@@ -150,7 +150,7 @@ Workfront中目前提供以下内置集成。
    <td> 
     <ul> 
      <li>在[!DNL Slack]中接收[!DNL Workfront]通知 </li> 
-     <li>在Slack中管理审批 </li> 
+     <li>在Slack中管理批准 </li> 
      <li>从[!DNL Slack]创建[!DNL Workfront]任务和问题 </li> 
      <li>从Slack将注释发布到项目或任务</li> 
     </ul> </td> 

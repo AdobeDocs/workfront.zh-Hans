@@ -6,9 +6,9 @@ description: 您可以从 [!DNL Adobe Workfront] 接收有关需要批准的项�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
 workflow-type: tm+mt
-source-wordcount: '1355'
+source-wordcount: '1374'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe WorkfrontMicrosoft Teams集成当前仅支持ClassicMicrosoft Teams体验。
+>自2025年7月1日起，Microsoft将移除对Classic Teams桌面应用程序的支持。 因此，在Classic Teams桌面应用程序不再可用后，将不支持与Microsoft Teams的Workfront集成。
 
 您可以从[!DNL Adobe Workfront]接收有关您需要审批的项目、已给予您的分配或您关联项目的注释和更改的通知。
 
@@ -143,48 +143,48 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">您需要审批一个项目</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td role="rowheader">您需要批准任务</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td role="rowheader">您需要审批问题</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td role="rowheader">您需要审批文档</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td role="rowheader">您需要批准对对象的访问权限</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td role="rowheader">您需要审批工时表</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -194,8 +194,8 @@ ht-degree: 0%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td role="rowheader">您的工时表已被拒绝</td> 
@@ -219,7 +219,7 @@ ht-degree: 0%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td role="rowheader">您请求的文档审批请求已审批，但有更改</td> 
@@ -227,7 +227,7 @@ ht-degree: 0%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td role="rowheader">您请求的文档审批请求被拒绝</td> 
@@ -235,7 +235,7 @@ ht-degree: 0%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td role="rowheader">您的工时表已审批</td> 
@@ -276,27 +276,27 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">您被分派至一个任务</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td role="rowheader">您被分配到问题</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td role="rowheader">您分配到其中的团队会收到任务的工作请求</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td role="rowheader">您分配到的一个团队会收到问题的工作请求</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
  </tbody> 
 </table>
@@ -325,42 +325,42 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">您的请求上已张贴了一个评论</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td role="rowheader">回复已发布在您的工作请求中</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td role="rowheader">某人备注您所在的跟帖</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td role="rowheader">某人备注您的工作项之一</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td role="rowheader">某人备注您批准的工时表</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">评论会添加到您的用户配置文件页面上，或通过批量编辑多个用户的方式进行添加</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">您的一项更新中添加了一个评论</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">您的时间表中添加了评论</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
  </tbody> 
@@ -390,18 +390,18 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">您订阅的任务、问题或项目已更新</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td role="rowheader">有人将您列入定向更新</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td role="rowheader">有人将您的团队包含在[！UICONTROL定向更新]中</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
  </tbody> 
 </table>
@@ -427,8 +427,8 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">当任务的截止日期改变时，向被分派的用户发送电子邮件</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
  </tbody> 
 </table>

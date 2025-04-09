@@ -6,9 +6,9 @@ description: 您可以在 [!DNL Microsoft Teams] 的任何 [!DNL Adobe Workfront
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 71d83723-daea-4b7b-8e5b-cfcf414611fe
-source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
+source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe WorkfrontMicrosoft Teams集成当前仅支持ClassicMicrosoft Teams体验。
+>自2025年7月1日起，Microsoft将移除对Classic Teams桌面应用程序的支持。 因此，在Classic Teams桌面应用程序不再可用后，将不支持与Microsoft Teams的Workfront集成。
 
 您可以在[!DNL Microsoft Teams]的任何[!DNL Adobe Workfront]渠道中搜索[!DNL Workfront]个项目，并与团队成员共享这些项目。
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 * 团队所有者已为您的团队安装和配置[!DNL Workfront for Microsoft Teams]。
 * 您已从[!UICONTROL Microsoft Teams]登录[!DNL Workfront]。
 
-有关为Microsoft Teams]安装[!UICONTROL Workfront以及从[!DNL Microsoft Teams]登录到[!UICONTROL Workfront]的信息，请参阅[为Microsoft Teams安装Adobe Workfront](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)。
+有关安装适用于Microsoft Teams的[!UICONTROL Workfront]以及从[!DNL Microsoft Teams]登录到[!UICONTROL Workfront]的信息，请参阅[安装适用于Microsoft Teams的Adobe Workfront](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)。
 
 >[!NOTE]
 >

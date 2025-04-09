@@ -7,9 +7,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 436eb2ef32363aa28593e74f7464dcd6837b2095
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1233'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ ht-degree: 0%
 * 内部新闻稿
 * 电子邮件
 * 公告中心消息（从[!DNL Workfront]转发或由您创建）
-* 协作工具（如[!DNL Slack]或[!DNL Microsoft Teams]）的公告
+* 有关协作工具（如[!DNL Slack]）的公告
 * 内部网络研讨会或培训
 
 您可以选择在[!DNL Workfront]资源（如文档、发行说明和培训）与更适合您组织需求和工作流程的信息之间取得平衡。 向用户展示新功能如何改进其工作或节省时间和精力，将帮助您的用户接受这些更改，但您可以通过使用已通过[!DNL Workfront]提供的演示或文档来节省时间。

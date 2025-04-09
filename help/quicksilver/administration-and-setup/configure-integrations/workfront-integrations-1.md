@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 436eb2ef32363aa28593e74f7464dcd6837b2095
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1287'
 ht-degree: 0%
 
 ---
@@ -112,7 +112,7 @@ ht-degree: 0%
       <li>跨组织ID将多个Experience Manager Assets存储库顺利连接到一个Workfront环境，或将多个Workfront环境顺利连接到一个Experience Manager Assets存储库</li></ul>
      <p>有关信息和说明，请参阅<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref">Adobe Experience Manager Assets集成概述</a></p> 
      </td>
-   <td><ul><li>Workfront必须位于分配了组织ID的Admin Console中。</li><li>Workfront和Experience Manger Assets或Assets Essentials必须作为产品分配给配置集成的用户。</li></ul></td>   <td> </td> 
+   <td><ul><li>Workfront必须位于具有分配的组织ID的Admin Console中。</li><li>Workfront和Experience Manger Assets或Assets Essentials必须作为产品分配给配置集成的用户。</li></ul></td>   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Box]</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
@@ -229,7 +229,7 @@ ht-degree: 0%
      <li>搜索[!DNL Workfront]项目、任务和问题 </li> 
      <li>创建[!DNL Workfront]个人任务 </li> 
      <li>提交[!DNL Workfront]请求 </li> 
-    </ul> <p>有关详细信息，请参阅<a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">[!DNL Adobe Workfront for Microsoft Teams]：文章索引</a>。</p> </td> 
+    </ul> <p>有关详细信息，请参阅<a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">[!DNL Adobe Workfront for Microsoft Teams]：文章索引</a>。</p><p><b>注意</b>：从2025年7月1日起，Microsoft将移除对Classic Teams桌面应用程序的支持。 因此，一旦Classic Teams桌面应用程序不再可用，则将不支持与Microsoft Teams的Workfront集成。 </p></td> 
    <td> 
     <ul> 
      <li>如果多个团队想要使用该集成，贵组织中的每个团队都必须安装该集成</li> 
@@ -310,7 +310,7 @@ ht-degree: 0%
 * [!DNL Adobe Experience Manager Assets]
 * [!DNL Anaplan] （需要[!DNL Workfront Fusion]）
 
-Workfront与Experience Manager Assets或Assets Essentials之间的集成使组织可以将工作与数字资源管理内在地联系起来，提升内容速度，缩短产品上市时间。
+Workfront与Experience Manager Assets或Assets Essentials之间的集成使组织可以将工作和数字资源管理内在地联系起来，提升内容速度，缩短产品上市时间。
 
 有关详细信息，请参阅[Adobe Workfront for Experience Manager Assets集成概述](../../documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)。
 
