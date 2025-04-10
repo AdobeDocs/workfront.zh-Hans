@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 75ff6f954c1a53a36d64c4f428097fe9a0c4b053
+source-git-commit: a980fe7f2c632f9badcbbaf3abf2e6c2824e448f
 workflow-type: tm+mt
-source-wordcount: '1722'
+source-wordcount: '1653'
 ht-degree: 0%
 
 ---
@@ -88,20 +88,20 @@ Workfront版本编号代表了每月和每季度的版本跟踪。 第一个数�
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
-    <tr>
+<!--    <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            验证查看者中可用的新文档审批决策按钮</a></p>
-            <p>新文档审批决策按钮现在显示在验证查看者中。 现在，当您创建简单验证，然后从文档摘要添加审批者和审阅者时，他们可以直接在验证查看者中做出决策。</p>
+            New document approval decision buttons available in proofing viewer</a></p>
+            <p>The new document approval decision buttons now appear in the proofing viewer. Now, when you create a simple proof and then add approvers and reviewers from the Document summary, they can make their decision directly inside the proofing viewer.</p>
         </td>
         <td>
-            <p><b>在以下日期可用：</b></p>
+            <p><b>Available on these dates:</b></p>
             <ul>
-                <li>预览版本： 2025年4月9日</li>
-                <li>面向有限客户的生产版本：使用25.4版本（2025年4月）</li>
+                <li>Preview release: April 9, 2025</li>
+                <li>Production release for a limited set of customers: With the 25.4 release (April 2025)</li>
             </ul>
         </td>
-    </tr>                        
+    </tr>   -->                     
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
