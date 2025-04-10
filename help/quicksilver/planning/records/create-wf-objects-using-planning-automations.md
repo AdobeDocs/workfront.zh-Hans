@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 585a65c497211c84cffafeeaa5016218fd66acd2
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '2197'
+source-wordcount: '2138'
 ht-degree: 2%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 2%
 
 <!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
 
-<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 您可以在Adobe Workfront Planning中配置自动处理，激活自动处理后，可在从Planning记录触发时，在Workfront中创建对象，或在Workfront Planning中创建记录。 创建的对象或记录会自动连接到从中触发自动化的记录。
 
@@ -37,7 +37,7 @@ ht-degree: 2%
 
 您可以在Workfront Planning中使用自动化创建以下内容：
 
-* 一个<span class="preview">或多个</span>项目
+* 一个或多个项目
 * 组
 * 程序
 * 项目组合
@@ -123,15 +123,11 @@ ht-degree: 2%
 
 * 自动化创建的对象或记录的名称与创建单个对象时从中创建该对象的记录名称相同。
 
-<div class="preview">
-
 * 创建多个项目时，会根据以下模式自动命名它们：
 
   `[ Name of the record ] Name of the field choice`
 
   有关详细信息，请参阅本文中的[使用Workfront Planning自动化创建对象或记录](#use-a-workfront-planning-automation-to-create-an-object-or-a-record)部分。
-
-</div>
 
 * 新对象或记录不会覆盖同一字段中的现有对象或记录。 为同一记录多次触发同一自动化会在原始记录的同一已连接字段中添加新对象或记录，以及之前创建的对象或记录。
 
@@ -166,8 +162,8 @@ ht-degree: 2%
    * **操作**：选择在触发自动操作时希望Workfront执行的操作。 这是必填字段。
 选择以下操作之一：
 
-      * <span class="preview">创建多个项目</span>
-      * <span class="preview">创建单个项目</span>
+      * 创建多个项目
+      * 创建单个项目
       * 创建项目
       * 创建记录
       * 创建程序
@@ -180,11 +176,9 @@ ht-degree: 2%
 
 1. （视情况而定）根据您选择的操作，更新以下字段：
 
-   * **创建<span class="preview">单个</span>项目**： <!--replace to the left: Create a single project-->
+   * **创建单个项目**： <!--replace to the left: Create a single project-->
       * **创建项目的已连接字段**：这是将显示新项目的已连接字段。 这是必填字段。
       * **项目模板**：选择Workfront将用于创建项目的项目模板。
-
-   <div class="preview">
 
    * 创建多个项目：
       * **创建项目的已连接字段**：这是将显示新项目的已连接字段。 这是必填字段。
@@ -197,8 +191,6 @@ ht-degree: 2%
 
       * **使用相同的模板**：选择此选项可针对每个新项目使用相同的模板。 如果取消选择该选项，请为每个字段选择一个&#x200B;**项目模板**。
       * **项目模板**：如果您选择了&#x200B;**使用同一模板**&#x200B;选项，请选择Workfront将用于创建项目的项目模板。
-
-   </div>
 
    * **创建项目组合**：
       * **在其中创建项目组合的已连接字段**：这是将显示新项目组合的已连接字段。 这是必填字段。
@@ -311,15 +303,11 @@ ht-degree: 2%
 
    * 新对象显示在自动按钮设置中指示的已连接字段中。 在查看新对象之前，您可能需要刷新页面。 新对象与原始记录具有相同的名称。
 
-   <div class="preview">
-
    * 如果根据多选或单选字段选项创建了多个项目，则将按照以下模式自动命名项目：
 
      `[ Name of the record ] Name of the field choice`
 
      例如，如果名为`Summer breeze`的营销活动通过`EMEA`的字段选择生成了项目，则该项目名为`[ Summer breeze ] EMEA`。
-
-   </div>
 
    * 从中触发自动操作的记录将添加到新记录的已连接字段中。
 

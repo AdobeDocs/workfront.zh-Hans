@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4b5248f667648543263073022ae10336fb022f97
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '2419'
+source-wordcount: '2359'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # 创建记录
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -28,13 +28,13 @@ ht-degree: 0%
 您可以通过执行以下操作之一来创建记录：
 
 * [通过从记录类型表视图内联添加记录来创建记录](#create-records-by-adding-them-inline-from-the-record-type-table-view)
-* <span class="preview">[使用任何记录类型视图中的“新建记录”或“请求记录”按钮创建记录](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)</span>
+* [使用任何记录类型视图中的“新建记录”或“请求记录”按钮创建记录](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
 * [从外部列表中复制并粘贴记录列表](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [从表视图复制记录](#create-records-by-duplicating-them)
 * [在连接其他记录时创建记录](#create-records-as-you-connect-them)
 * [通过向记录类型提交请求表单来创建记录](#create-records-by-submitting-a-request-form-to-a-record-type)
-* <span class="preview">[通过从CSV或Excel文件导入信息创建记录](#create-records-by-importing-records-from-a-csv-or-excel-file)</span>
-* <span class="preview">[使用自动创建记录](#create-records-by-using-automations)</span>
+* [通过从CSV或Excel文件导入信息创建记录](#create-records-by-importing-records-from-a-csv-or-excel-file)
+* [使用自动化创建记录](#create-records-by-using-automations)
 
 有关管理表或时间线视图中的记录的信息，请参阅以下文章：
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
    <td> <p>为要添加记录的工作区<!--<span class="preview">and record type</span>-->贡献或更高权限。 </p>
-   <p><span class="preview">查看工作区<!--<span class="preview">and record type</span>-->或更高权限，以使用记录页面上的“请求记录”按钮创建记录</span></p>
+   <p>查看工作区<!--<span class="preview">and record type</span>-->或更高权限，以使用记录页面上的“请求记录”按钮创建记录</p>
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>
    <p>管理Workfront对象（项目组合）的权限以添加子对象（项目）。</p>
    </td> 
@@ -182,8 +182,6 @@ ht-degree: 0%
    * CTRL + Z(Mac为⌘ + Z)可撤消更改
    * 按CTRL + Shift + Z(对于Mac，按⌘ + Shift + Z)可重做更改
 
-<div class="preview">
-
 ## 使用任何记录类型视图中的“新建记录”或“请求记录”按钮创建记录
 
 对工作区<!--<span class="preview">and record type</span>-->具有查看权限的用户只能使用记录类型页面上的“请求记录”按钮来创建记录。
@@ -247,8 +245,6 @@ ht-degree: 0%
    * 新记录将添加到记录类型，除非您选择使用具有审批流程的请求表单添加记录。 在创建记录之前，必须由所有批准者进行批准。
    * 如果您使用CSV或Excel电子表格添加记录，则向记录类型添加多个记录。
    * 如果您通过提交请求表单来添加请求，则新请求会添加到Workfront请求区域的Planning选项卡中。
-
-</div>
 
 <!-- this is not possible anymore: 
 
@@ -339,7 +335,7 @@ You can import records from other applications by linking them to existing recor
 
      有关信息，请参阅[管理来自Workfront对象的记录连接](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
 
-1. （视情况而定）如果在尝试连接时找不到记录，请<span class="preview">单击“**+添加”**</span>
+1. （视情况而定）如果在尝试连接时找不到记录，请单击&#x200B;**+添加**
 
    或
 开始键入名称，然后单击**+添加**。 **+ Add**&#x200B;按钮后跟您连接到的记录类型的名称。 例如，将品牌添加到现有营销活动时，“添加品牌”。 您键入的名称还遵循“添加”按钮。
@@ -376,17 +372,11 @@ Workfront用户和组织外部的用户均可向Planning记录类型提交请求
 
 有关信息，请参阅[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)。
 
-<div class="preview">
-
 ## 通过从CSV或Excel文件导入记录来创建记录
 
 从CSV或Excel文件导入信息时，您可以导入现有记录类型的记录。
 
 有关信息，请参阅[通过从CSV或Excel文件导入信息创建记录](/help/quicksilver/planning/records/import-file-to-create-records.md)。
-
-</div>
-
-<div class="preview">
 
 ## 使用自动化创建记录
 
@@ -396,6 +386,5 @@ Workfront用户和组织外部的用户均可向Planning记录类型提交请求
 
 有关信息，请参阅[使用Adobe Workfront Planning记录自动化创建对象](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)。
 
-</div>
 
 

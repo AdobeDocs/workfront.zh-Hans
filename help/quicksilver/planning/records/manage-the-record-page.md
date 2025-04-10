@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '1913'
+source-wordcount: '1853'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 管理记录页面布局
 
-<span class="preview">此页面上突出显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -104,7 +104,7 @@ ht-degree: 0%
   </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>布局模板</p></td>
+   <td role="rowheader"><p>版面模板</p></td>
    <td> <p>必须为包括Workfront管理员在内的所有用户分配一个布局模板，该布局模板包括主菜单的“规划”区域以及项目、项目组合和项目群的“规划”区域。 </p> 有关详细信息，请参阅<a href="/help/quicksilver/planning/access/access-overview.md">Adobe计划访问概述</a>。 </p>  </p>  
 </td>
   </tr>
@@ -161,11 +161,7 @@ ht-degree: 0%
 
    记录的预览将在视图中打开。
 
-   <div class="preview">
-
    ![详细信息框](assets/details-box.png)
-
-   </div>
 
 1. （可选）单击记录预览右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开详细信息](assets/open-details-in-a-new-tab-icon.png)以在新标签中打开记录页面。
 
@@ -244,21 +240,13 @@ ht-degree: 0%
 
    记录的预览将在视图中打开。
 
-   <div class="preview">
-
    ![详细信息框](assets/details-box.png)
-
-   </div>
 
 1. （可选）单击记录预览右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签图标中打开详细信息框](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->以在新标签中打开记录页面。
 
    默认情况下将打开记录的&#x200B;**详细信息**&#x200B;选项卡。
 
-   <div class="preview">
-
    ![详细信息页面](assets/details-page.png)
-
-   </div>
 
 1. 在记录&#x200B;**详细信息**&#x200B;选项卡中，单击字段名称左侧的&#x200B;**抓取**&#x200B;图标![抓取图标](assets/grab-icon.png)，然后将其拖放到所需位置。
 
@@ -301,17 +289,13 @@ ht-degree: 0%
 您选择的记录类型的表格视图会显示，并且连接的记录会显示在表格视图中。
 已连接记录的所有字段都显示在已连接记录选项卡的表视图中。
 
-   <span class="preview">当您从“预览”环境访问Workfront Planning时，默认情况下将显示所连接记录表中的前五个字段。 默认情况下不显示查找字段。</span>
+   当您从“预览”环境访问Workfront Planning时，默认情况下会显示所连接记录表中的前五个字段。 默认情况下不显示查找字段。0
 
    表格视图是只读的。
 
    <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
 
-   <div class="preview">
-
    在营销活动详细信息下![受众连接的表视图](assets/audience-connected-table-view-under-campaign-details-page.png)
-
-   </div>
 
 1. （可选）双击选项卡的名称
 
@@ -323,7 +307,7 @@ ht-degree: 0%
    * 过滤器
    * 排序
    * 分组
-   * <span class="preview">字段，用于显示、隐藏或重新排列字段</span>
+   * 字段，用于显示、隐藏或重新排列字段
 
    <!--Add to the list above from the list below - and condition these for Preview only: Hide fields, rearrange fields-->
 
@@ -333,11 +317,11 @@ ht-degree: 0%
    >
    >   您无法在已连接记录选项卡的表视图中执行以下任何操作：
    >
-   >   * 隐藏或重新排列字段。 <span class="preview">您可以在预览环境中隐藏和重新排列字段。</span>
+   >   * 隐藏或重新排列字段。 您可以在“预览”环境中隐藏和重新排列字段。
    >   * 创建、编辑或删除字段
    >
 
-1. <span class="preview">单击&#x200B;**连接**&#x200B;添加或删除记录。 有关信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)</span>
+1. 单击&#x200B;**连接**&#x200B;添加或删除记录。 有关信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)
 1. （可选）将鼠标悬停在“连接视图”选项卡的名称上，单击&#x200B;**更多** ![更多菜单](assets/more-menu.png)，然后单击&#x200B;**删除**&#x200B;以删除新的“连接视图”选项卡。
 
 

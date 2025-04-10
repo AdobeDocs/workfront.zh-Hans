@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '6615'
+source-wordcount: '6555'
 ht-degree: 5%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 5%
 # 创建自定义表单
 
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 您可以使用Adobe Workfront中的表单设计器设计自定义表单。 您可以将自定义表单附加到不同的Workfront对象，以捕获有关这些对象的数据。
 
@@ -1009,8 +1009,8 @@ The Workfront Mobile app -->
      </tr>
 
 <tr> 
-      <td role="rowheader"><span class="preview">记录类型字段</span></td> 
-      <td><p><span class="preview">（可选）从连接的记录类型中选择最多7个查找字段以在自定义表单中显示。 默认情况下，主字段处于选中状态，无法编辑。 </span></p> <span class="preview"><p> 您选择的已连接记录的字段显示在自定义表单的表视图中。 将表单附加到Workfront对象时，表格视图为只读。 </span></p>  
+      <td role="rowheader">记录类型字段</td> 
+      <td><p>（可选）从连接的记录类型中选择最多7个查找字段以在自定义表单中显示。 默认情况下，主字段处于选中状态，无法编辑。 </p> <p> 您选择的已连接记录的字段显示在自定义表单的表视图中。 将表单附加到Workfront对象时，表格视图为只读。 </p>  
     <img src="assets/planning-connections-field-with-table-on-form-preview.png"></td> 
      </tr>
       </tbody> 

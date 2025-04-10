@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '2184'
+source-wordcount: '2046'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 1%
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -126,7 +126,7 @@ ht-degree: 1%
 
       * 创建者和上次修改者
       * 创建日期和上次修改日期
-      * 公式。 <span class="preview">预览环境中支持公式字段。</span>
+      * 公式。<!--Formula fields are supported in the Preview environment.-->
       * Workfront对象的查找字段
       * Workfront Planning已连接记录的查找字段
 
@@ -136,8 +136,6 @@ ht-degree: 1%
 
      但是，字段格式将保留，并且字段值将在提交请求后、记录类型和请求详细信息页面中显示为货币、数字和百分比。
 
-<div class="preview">
-
 * 下面描述了某些字段值如何在请求表单和请求详细信息页面上显示：
 
    * 不保留货币、数字和百分比字段的特殊格式。 例如，对于这些区域中的这些字段值，不保留小数精度。
@@ -145,8 +143,6 @@ ht-degree: 1%
    * 未引用其他字段或计算的公式字段不显示任何值。 例如，公式为`STRING`的字段显示“N/A”值。
    * 引用币种字段的公式字段显示值，不考虑汇率。
    * “段落”字段的值在请求表单上显示“不适用”值，并且在请求详细信息页面中显示html标记而不是带格式的文本。
-
-</div>
 
 ## 为记录类型创建请求表单
 
@@ -160,8 +156,8 @@ ht-degree: 1%
 
    记录类型页面将在您上次访问的视图中打开。 默认情况下，将在表格视图中打开记录类型页面。
 
-1. 单击页眉中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**创建请求表单** <span class="preview">或&#x200B;**管理请求表单**（如果您已经拥有表单并且想要创建其他表单）</span>。
-1. <span class="preview">（视情况而定）如果要添加其他表单，请单击&#x200B;**新建请求表单**</span>。
+1. 单击页眉中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**创建请求表单**&#x200B;或&#x200B;**管理请求表单**（如果已拥有表单且要创建其他表单）。
+1. （视情况而定）如果要添加其他表单，请单击&#x200B;**新建请求表单**。
 1. 更新请求表单的名称。 默认情况下，表单的名称为&#x200B;**无标题表单**。<!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. （可选）为请求表单添加&#x200B;**描述**。
 
@@ -274,10 +270,10 @@ ht-degree: 1%
 
    >[!TIP]
    >
-   ><span class="preview">共享日期过期后，Workfront的“请求”区域中不再提供该请求表单，并且无法再访问与其他用户共享的链接。</span>
+   >共享日期过期后，请求表单在Workfront的请求区域中不再可用，并且与其他用户共享的链接也不再可访问。
 
 
-1. <span class="preview">（可选）</span>单击&#x200B;**保存并复制链接**&#x200B;以保存表单的共享详细信息。 如果表单之前已保存，请单击&#x200B;**复制链接**。
+1. （可选）单击&#x200B;**保存并复制链接**&#x200B;以保存表单的共享详细信息。 如果表单之前已保存，请单击&#x200B;**复制链接**。
 
    表单共享选项已保存，并且链接已复制到您的剪贴板。 您现在可以与其他人共享。
 
@@ -287,36 +283,34 @@ ht-degree: 1%
 
 1. 单击标题中表单名称左侧的向左箭头以关闭表单。
 
-   <span class="preview">将打开&#x200B;**请求表单**&#x200B;表视图，该表单已添加到其中。</span>
+   将打开&#x200B;**请求表单**&#x200B;表格视图，并将表单添加到其中。
 
-1. <span class="preview">（可选）将鼠标悬停在表视图中的请求表单名称上，然后单击表单名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击以下选项之一：</span>
+1. （可选）将鼠标悬停在表视图中请求表单的名称上，然后单击表单名称右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击以下任一项：
 
-   * <span class="preview">**编辑表单**：单击此项可进一步编辑表单上的信息。</span>
-   * <span class="preview"> **取消发布**：单击此项可取消发布将表单从Workfront的“请求”区域删除的表单。</span>
-   * <span class="preview">**共享**：单击此项可修改谁有权访问该表单。</span>
-   * <span class="preview">**复制链接**：单击此项可快速复制请求表单的链接，而无需打开表单。</span>
-   * <span class="preview">**删除**：单击此项可删除表单。 使用该表单添加的所有请求和记录都不会被删除。 无法恢复表单。</span>
+   * **编辑表单**：单击此项可进一步编辑表单上的信息。
+   * **取消发布**：单击此项可取消发布将表单从Workfront的“请求”区域删除的表单。
+   * **共享**：单击此项可修改谁有权访问该表单。
+   * **复制链接**：单击此项可快速复制请求表单的链接，而无需打开表单。
+   * **删除**：单击此项可删除表单。 使用该表单添加的所有请求和记录都不会被删除。 无法恢复表单。
 
    来自请求表单列表的请求表单上的![更多菜单](assets/more-menu-on-request-form-from-request-forms-list.png)
 
 
-1. <span class= "preview">单击标题中&#x200B;**请求表单**&#x200B;左侧的左箭头以关闭请求表单表。   </span>
+1. 单击标题中&#x200B;**请求表单**&#x200B;左侧的左箭头以关闭请求表单表。
 
-   <span class= "preview">记录类型页面打开。</span>
-1. （可选且视情况而定）要编辑现有表单，请根据您使用的环境执行以下操作之一：
+   此时将打开记录类型页面。
+1. （可选且视情况而定）要编辑现有表单，请执行以下操作：
 
-   * 在生产环境中：
+   1. 单击标题中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**管理请求表单**。</span>
 
-      1. 单击标题中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后执行以下操作之一：
+      这将打开请求表单表格视图。
 
-      1. 单击&#x200B;**更新请求表单**&#x200B;以更改请求表单。
-      1. 单击&#x200B;**将链接复制到请求表单**&#x200B;以与其他人共享该表单的链接。
+   1. 单击请求表单以打开并编辑它。
+   1. （可选）转到Workfront中的&#x200B;**请求**&#x200B;区域并找到共享表单以提交请求。 有关信息，请参阅[提交Adobe Workfront计划请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。
 
-   * <span class="preview">从预览环境：
-
-      1. 单击标题中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**管理请求表单**。</span>
-
-         <span class="preview">这将打开请求表单表格视图。</span>
-
-      1. <span class="preview">单击请求表单以打开并编辑它。</span>
-      1. <span class= "preview">（可选）转到Workfront中的&#x200B;**请求**&#x200B;区域并查找共享表单以提交请求。 有关信息，请参阅[提交Adobe Workfront Planning请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。</span>
+<!--   * From the Production environment:
+   
+      1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the header, then do one of the following: 
+   
+      1. Click **Update request form** to make any changes to the request form.
+      1. Click **Copy link to request form**  to share the link to the form with others.-->

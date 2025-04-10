@@ -6,19 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '1600'
-ht-degree: 0%
+source-wordcount: '1540'
+ht-degree: 1%
 
 ---
 
 
 # 共享视图
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 您可以与以下实体共享视图：
 
-* 在内部，包含Workfront用户、组、<span class="preview">团队、公司和职位角色</span>
+* 在内部，包含Workfront用户、组、团队、公司和职位角色
 * 公开，使用Workfront之外的用户
 
 <!--
@@ -104,7 +104,7 @@ This article describes how you can share a view with others. For information abo
    <p>只有对工作区具有管理权限的用户才能公开共享视图。</p></td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>布局模板</p></td> 
+   <td role="rowheader"><p>版面模板</p></td> 
    <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> </td> 
   </tr> 
 </tbody> 
@@ -129,7 +129,7 @@ This article describes how you can share a view with others. For information abo
 
 ## 在内部共享对视图的权限
 
-您可以在Workfront Planning中与用户、组、<span class="preview">团队、公司和职位角色</span>共享您创建的视图或您拥有管理权限的视图。
+您可以在Workfront Planning中将您创建的视图或您拥有管理权限的视图与用户、组、团队、公司和职位角色共享。
 
 >[!NOTE]
 >
@@ -151,10 +151,10 @@ This article describes how you can share a view with others. For information abo
 
 1. （可选）在&#x200B;**谁有权访问**&#x200B;区域，从以下选项中选择：
 
-   * **只有受邀人员才能访问**：您必须指定要与其共享视图的用户、组、<span class="preview">团队、公司或工作角色</span>。 这是默认选项。
+   * **只有受邀人员才能访问**：您必须指定要与其共享视图的用户、组、团队、公司或工作角色。 这是默认选项。
    * **工作区中的每个人都可以查看**：所有对工作区具有“查看”或更高权限的用户都可以访问该视图。
 
-1. 在&#x200B;**授予此视图的访问权限**&#x200B;字段中，开始键入用户、组、<span class="preview">团队、公司或工作角色的名称</span>，然后当它显示在列表中时单击它。
+1. 在&#x200B;**授予此视图的访问权限**&#x200B;字段中，开始键入用户、组、团队、公司或工作角色的名称，然后在列表显示该名称时单击该名称。
 
    ![与组共享视图](assets/sharing-a-view-ui-with-groups.png)
 
@@ -255,7 +255,7 @@ This article describes how you can share a view with others. For information abo
 1. 要删除视图的内部共享，请执行以下操作：
 
    1. 确保选中&#x200B;**内部共享**&#x200B;选项卡。
-   1. 查找要删除的用户、组、<span class="preview">团队、公司或工作角色</span>，展开与你共享视图的实体名称右侧的权限下拉菜单，然后单击&#x200B;**删除**。
+   1. 查找要删除的用户、组、团队、公司或工作角色，展开权限下拉菜单（位于与你共享视图的实体名称的右侧），然后单击&#x200B;**删除**。
 
 1. 要删除视图的公共共享，请执行以下操作：
 

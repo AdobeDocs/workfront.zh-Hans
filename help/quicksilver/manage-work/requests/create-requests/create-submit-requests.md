@@ -6,9 +6,9 @@ description: 在Adobe Workfront中，计划工作由项目和任务表示。 但
 author: Lisa
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '2740'
+source-wordcount: '2680'
 ht-degree: 1%
 
 ---
@@ -25,9 +25,9 @@ ht-degree: 1%
 </div>
 -->
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 在Adobe Workfront中，计划工作由项目和任务表示。 但是，您可能是在这样一种环境中工作：随时都可能以请求形式进行非计划工作。 Workfront通过使用请求队列提供了一个工作流来适应这种类型的环境。
 
@@ -44,7 +44,7 @@ ht-degree: 1%
 
 * 从链接到Workfront Planning请求表单。
 
-* 从Workfront请求区域中的Workfront Planning请求表单中<span class="preview">。</span>
+* 从Workfront请求区域中的Workfront计划请求表单。
 
   贵组织必须购买Workfront规划包。 有关信息，请参阅[提交Adobe Workfront计划请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。
 
@@ -124,12 +124,12 @@ Workfront管理员必须创建请求队列的以下组件：
 
 {{step1-to-requests}}
 
-1. <span class="preview"> （可选且视情况而定）如果以下内容适用于您的组织和Workfront实例，请选择屏幕右上角的&#x200B;**切换到新体验**&#x200B;设置： </span>
+1. （可选且视情况而定）如果以下各项适用于您的组织和Workfront实例，请选择屏幕右上角的&#x200B;**切换到新体验**&#x200B;设置：
 
-   * <span class="preview">您的组织已购买Workfront包</span>
-   * <span class="preview">您的组织已载入Adobe Unified Experience。
-   * <span class="preview">您的管理员已授予您访问Workfront Planning的权限</span>
-   * <span class="preview">您至少拥有Workfront规划工作区的查看权限</span>
+   * 您的组织已购买Workfront包
+   * 您的组织已载入到Adobe Unified Experience。
+   * 您的管理员已向您授予Workfront Planning的访问权限
+   * 您至少具有Workfront规划工作区的查看权限
 
    有关详细信息，请参阅[提交Adobe Workfront计划请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)
 
@@ -142,15 +142,15 @@ Workfront管理员必须创建请求队列的以下组件：
 
    将打开&#x200B;**新请求**&#x200B;框。
 
-1. <span class="preview">（视情况而定）如果您切换到包含Workfront Planning的新体验，则&#x200B;**新请求**&#x200B;框显示以下内容：</span>
+1. （视情况而定）如果您切换到包含Workfront Planning的新体验，则&#x200B;**新请求**&#x200B;框会显示以下内容：</span>
 
-   * <span class="preview">最近访问的6个Workfront请求队列和Planning请求表单将显示在“最近”部分中。</span>
-   * <span class="preview">另外50个Workfront请求队列和计划请求表单按字母顺序显示在&#x200B;**所有请求表单**&#x200B;部分。 您可以搜索默认不显示的请求队列。</span>
+   * 最近访问的6个Workfront请求队列和Planning请求表单将显示在“最近”部分中。
+   * 另外50个Workfront请求队列和计划请求表单按字母顺序显示在&#x200B;**所有请求表单**&#x200B;部分中。 您可以搜索默认不显示的请求队列。
 
    ![具有统一工作流程的新请求框，用于计划请求](assets/new-request-box-with-unified-workflow-for-planning-requests.png)
 
-   <span class="preview">单击某个Workfront请求队列信息卡，或搜索一个信息卡，然后在信息卡显示在列表中时单击它。</span>
-1. （视情况而定） <span class="preview">如果您切换到包含Workfront Planning的新体验，请选择您的主题组和队列主题并继续更新表单</span>
+   单击某个Workfront请求队列卡片，或搜索卡片，然后在列表中显示该卡片时单击它。
+1. （视情况而定）如果切换到包含Workfront Planning的新体验，请选择主题组和队列主题，然后继续更新表单。
 
    否则，请单击&#x200B;**请求类型**&#x200B;字段并执行以下操作之一：
 
@@ -333,7 +333,7 @@ Workfront管理员必须创建请求队列的以下组件：
 
    提交请求时，草稿将自动删除且无法恢复。
 
-   已提交的请求列在请求区域的&#x200B;**已提交**&#x200B;部分中。 <span class="preview">如果您使用的是包含Workfront Planning的新体验，则Workfront提交的请求将显示在请求区域的&#x200B;**Workfront**&#x200B;选项卡中。</span>
+   已提交的请求列在请求区域的&#x200B;**已提交**&#x200B;部分中。 如果您使用包含Workfront Planning的新体验，则Workfront提交的请求将显示在请求区域的&#x200B;**Workfront**&#x200B;选项卡中。
 
    有关处理传入请求的信息，请参阅文章[管理工作和团队请求](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)。
 

@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 2%
+source-wordcount: '815'
+ht-degree: 3%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 2%
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 作为Adobe Workfront管理员，您可以创建里程碑路径，这些路径随后可以应用于系统中的任何项目。 您对此区域中的里程碑路径所做的更改会影响整个Workfront系统。
 
@@ -123,20 +123,18 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
    有关如何将里程碑路径与项目关联以及将里程碑与任务关联的更多信息，请参阅[将里程碑与任务关联](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)。
 
 
-1. <span class="preview">（可选）单击&#x200B;**导出**&#x200B;图标![导出图标](assets/export-icon.png)，然后从以下格式中选择以将里程碑路径列表导出到文件： </span>
+1. （可选）单击&#x200B;**导出**&#x200B;图标![导出图标](assets/export-icon.png)，然后从以下格式中选择以将里程碑路径列表导出到文件：
 
    * PDF
    * Excel
    * Excel (xlsx)
    * 制表符分隔
 
-1. <span class="preview">（可选）在里程碑列表中选择一个里程碑，然后单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)以编辑里程碑信息。</span>
-1. <span class="preview">（可选）在里程碑列表中选择一个里程碑，然后单击&#x200B;**删除**&#x200B;图标![删除图标](assets/delete-icon.png)将其删除。</span>
-1. <span class="preview">单击&#x200B;**是，删除**。</span>
-   <span class="preview">该里程碑已被删除，无法恢复。 与里程碑关联的任何项目信息以及与里程碑路径关联的任何任务信息也会被删除。</span>
+1. （可选）在里程碑列表中选择一个里程碑，然后单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)以编辑里程碑信息。
+1. （可选）在里程碑列表中选择一个里程碑，然后单击&#x200B;**删除**&#x200B;图标![删除图标](assets/delete-icon.png)将其删除。
+1. 单击&#x200B;**是，将其删除**。
+该里程碑已被删除并且无法恢复。 与里程碑关联的任何项目信息以及与里程碑路径关联的任何任务信息也会被删除。
 
-
-<div class="preview">
 
 ## 在报告中查看里程碑路径详细信息
 
@@ -163,8 +161,6 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
 
    此时将显示里程碑路径的详细信息。
 
-   <div class="preview">
-
    项目报告中的![里程碑路径详细信息](assets/milestone-details-from-project-report.png)
 
    里程碑路径详细信息页面显示以下信息：
@@ -175,6 +171,5 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
 
 1. （可选）单击&#x200B;**返回**&#x200B;以返回项目报告。
 
-</div>
 
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
+source-git-commit: e49f1b3d9de3984ed798e20a0a0f03f9d4060115
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '718'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # 编辑字段设置
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -121,8 +121,7 @@ ht-degree: 1%
   >
   >不会通知其他用户字段配置已更改。
 
-* 在生产环境中，无法编辑现有的查找字段。
-  <span class="preview">在“预览”环境中，您可以从连接的记录中编辑现有查找字段。</span>
+* 您可以从连接的记录中编辑现有查找字段。
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 

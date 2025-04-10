@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '825'
 ht-degree: 1%
 
 ---
 
 # 共享工作区
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -91,7 +91,7 @@ This article describes how you can share a view with others. For information abo
    <td>  <p>管理工作区的权限</p>  </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>布局模板</p></td> 
+   <td role="rowheader"><p>版面模板</p></td> 
    <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> </td> 
   </tr> 
 </tbody> 
@@ -104,7 +104,7 @@ This article describes how you can share a view with others. For information abo
 ## 有关共享工作区的注意事项
 
 * 有关在Workfront Planning中共享对象的一般信息，另请参阅[在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
-* 您可以与组织内的用户、<span class="preview">团队、角色、组或公司</span>共享工作区。
+* 您可以与组织内的用户、团队、角色、组或公司共享工作区。
 * 您无法与组织外部的用户共享工作区。
 * 共享工作区时，也将共享与工作区关联的所有记录类型、记录和字段。
 * 共享工作区时，视图不共享。 您必须单独共享视图。
@@ -133,7 +133,7 @@ This article describes how you can share a view with others. For information abo
 
    工作区右上方的![共享按钮](assets/share-button-on-workspace-top-right.png)
 
-1. 在&#x200B;**授予此工作区的访问权限**&#x200B;字段中，开始键入用户、组、<span class="preview">团队、公司或工作角色的名称</span>，然后在列表显示该名称时单击它。
+1. 在&#x200B;**授予此工作区的访问权限**&#x200B;字段中，开始键入用户、组、团队、公司或工作角色的名称，然后在列表显示该名称时单击该名称。
 
    ![与组共享UI](assets/sharing-ui-with-groups.png)
 

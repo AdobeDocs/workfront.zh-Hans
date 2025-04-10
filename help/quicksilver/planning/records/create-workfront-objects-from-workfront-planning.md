@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '1138'
-ht-degree: 1%
+source-wordcount: '1078'
+ht-degree: 2%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 1%
 <!-- update the title (and all the links to this article) at preview, to be this: Create Workfront objects from Workfront Planning as you connect them to records-->
 <!-- remove preview and production at release time-->
 
-<span class="preview">此页面上突出显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -31,24 +31,24 @@ ht-degree: 1%
 * 从Planning记录连接Workfront对象时
 
   本文介绍了在从Planning记录连接Workfront对象时，如何从Workfront Planning创建这些对象。
-* <span class="preview">当您从记录页面使用自动处理时。</span>
+* 当您从记录的页面使用自动化时。
 
-  <span class="preview">有关使用自动化创建Workfront对象的信息，请参阅[使用Adobe Workfront Planning记录自动化创建对象](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)。</span>
+  有关使用自动化创建Workfront对象的信息，请参阅[使用Adobe Workfront Planning记录自动化创建对象](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)。
 
 将Workfront记录与以下Workfront对象类型连接时，您可以从Workfront Planning创建以下Workfront对象类型：
 
 * 项目
 * 项目组合
-* <span class="preview">程序</span>
+* 项目群
 
 >[!IMPORTANT]
 >
->* 从记录连接项目、项目组合和<span class="preview">程序</span>时，只能在Workfront中创建它们。
+>* 从记录中连接项目、项目组合和项目群时，只能在Workfront中创建它们。
 >
 >* 从Workfront Planning中的记录连接组或公司时，无法创建组或公司。
 >
 
-您可以在Workfront Planning的以下区域的连接字段中连接项目、项目组合、<span class="preview">和程序</span>：
+您可以在Workfront Planning的以下区域的连接字段中连接项目、项目组合和程序：
 
 * 记录类型的表格视图
 * 记录的详细信息页面或预览框
@@ -119,7 +119,7 @@ ht-degree: 1%
    </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>布局模板</p></td> 
+   <td role="rowheader"><p>版面模板</p></td> 
    <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域 </p> </td> 
   </tr> 
 </tbody> 
@@ -133,7 +133,7 @@ ht-degree: 1%
 
 您必须具备以下条件，才能通过从现有记录连接项目或项目组合来添加新项目或项目组合：
 
-* 记录类型连接到Workfront项目、项目组合或<span class="preview">项目</span>。 有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
+* 记录连接到Workfront项目、项目组合或项目的类型。 有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
 * 记录。 有关信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
 * Workfront Planning和Workfront中的正确访问和权限，如本文的[访问要求](#access-requirements)部分所述。
 
@@ -143,7 +143,7 @@ ht-degree: 1%
 
 1. 转到记录的详细信息页面或记录类型的表，然后开始将Workfront Planning记录与Workfront项目连接，如文章[连接记录](/help/quicksilver/planning/records/connect-records.md)中所述。
 
-1. （视情况而定） <span class="preview">单击&#x200B;**添加项目**</span>
+1. （视情况而定）单击&#x200B;**添加项目**
 或
 开始键入项目的名称，如果找不到，请单击**添加项目**。
 
@@ -153,12 +153,12 @@ ht-degree: 1%
 
    ![从连接字段连接项目时添加项目](assets/add-project-when-connecting-it-from-connection-field.png)
 
-   <span class="preview">将打开&#x200B;**创建项目**&#x200B;框。</span>
+   将打开&#x200B;**创建项目**&#x200B;框。
 
-1. <span class="preview">（可选）更新&#x200B;**项目名称**。 默认情况下，从记录中连接项目时，将按照您作为搜索项添加的内容来命名项目。</span>
-1. <span class="preview">（可选）选择&#x200B;**项目模板**。 如果不选择模板，Workfront将创建一个不含任务的空白项目。</span>
-1. <span class="preview">单击&#x200B;**创建**。</span>
-1. <span class="preview">（视情况而定）如果您选择从模板创建项目，请按照文章[使用模板创建项目](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md)中的步骤完成添加项目。</span>
+1. （可选）更新&#x200B;**项目名称**。 默认情况下，从记录中连接项目时，将按照您作为搜索项添加的内容来命名项目。
+1. （可选）选择&#x200B;**项目模板**。 如果不选择模板，Workfront将创建一个不含任务的空白项目。
+1. 单击&#x200B;**创建**。
+1. （视情况而定）如果您选择从模板创建项目，请按照文章[使用模板创建项目](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md)中的步骤完成添加项目。
 
    将创建新项目并将其添加到所选记录的已连接字段中。
 
@@ -172,7 +172,7 @@ ht-degree: 1%
 
    <!--at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click Add to add a new portfolio"; take this out too: "The Add button is followed by the portfolio name you typed."-->
 
-1. （视情况而定） <span class="preview">单击&#x200B;**添加项目组合**</span>
+1. （视情况而定）单击&#x200B;**添加项目组合**
 
    或
 
@@ -183,8 +183,6 @@ ht-degree: 1%
    将创建项目组合并将其添加到所选记录的连接字段。
 
 1. （可选）在Workfront Planning中单击新项目组合的名称，以在Workfront中打开项目组合页面，并对项目组合进行其他更新。
-
-<div class="preview">
 
 ## 在将程序与Workfront Planning中的记录连接时创建程序
 
@@ -211,6 +209,4 @@ ht-degree: 1%
    将创建项目并将其添加到所选记录的连接字段中。
 
 1. （可选）单击Workfront Planning中新项目的名称，以在Workfront中打开该项目页面，并对其做出其他更新。
-
-</div>
 

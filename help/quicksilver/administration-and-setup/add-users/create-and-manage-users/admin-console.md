@@ -5,18 +5,18 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 47aa463406c2807a375297f296b3e81eca1285bb
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1473'
 ht-degree: 0%
 
 ---
 
 # 在Adobe Admin Console中管理用户
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 >[!IMPORTANT]
 >
@@ -33,7 +33,7 @@ Adobe管理员可以使用Adobe Admin Console创建Adobe Workfront系统管理�
 >   在Adobe Admin Console中创建用户后，您可以在Workfront中配置用户信息，例如分配角色、组、团队和访问级别。
 >* **如果您的组织不使用单点登录(SSO)**，则可以直接在Workfront中添加非系统管理员用户。 您可以在Adobe Admin Console中添加用户，但通过在Workfront中添加用户，您可以在创建用户时设置其访问级别，这可以节省您的时间。
 
-<span class="preview">从Admin Console更改用户配置文件时，更新将添加到Workfront中该用户的“系统活动”选项卡中。 更新显示为“System”（系统）。 这是指Adobe Admin Console管理员，而不是Workfront主管理员。</span>
+从Admin Console更改用户配置文件时，更新将添加到Workfront中用户的系统活动选项卡中。 更新显示为“System”（系统）。 这是指Adobe Admin Console管理员，而非Workfront主管理员。
 
 ## 访问要求
 

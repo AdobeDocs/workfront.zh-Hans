@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '7703'
+source-wordcount: '7643'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 <!--Audited: 07/2024-->
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 <!--
 <p>***Linked to many articles,</p>
@@ -168,8 +168,8 @@ ht-degree: 1%
    * [项目设置](#project-settings)
    * [任务设置](#task-settings)
    * [问题设置](#issue-settings)
-   * [访问权限](#access)
-   * <span class="preview">[评论](#comment)</span>
+   * [访问](#access)
+   * [评论](#comment)
 
 
    >[!NOTE]
@@ -621,7 +621,7 @@ ht-degree: 1%
 
    单击&#x200B;**保存**。
 
-### 访问权限 {#access}
+### 访问 {#access}
 
 1. 按如上所述开始编辑项目。
 1. 单击左侧面板中的&#x200B;**访问**。
@@ -667,7 +667,6 @@ ht-degree: 1%
 
 1. 单击&#x200B;**保存**。
 
-<div class="preview">
 
 ### 评论
 
@@ -679,7 +678,6 @@ ht-degree: 1%
 1. 在提供的空间中添加评论。 Workfront在项目的更新区域中添加注释。 有关更新工作的详细信息，请参阅[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 1. 单击&#x200B;**保存**。
 
-</div>
 
 ## 在项目标题中编辑项目（受限）
 
@@ -804,7 +802,7 @@ ht-degree: 1%
 有关编辑“问题设置”区域的详细信息，请参阅本文中的[问题设置](#issue-settings)部分。
 1. 单击&#x200B;**访问**可编辑所有选定项目的访问设置。
 有关编辑“访问”区域的详细信息，请参阅本文中的[访问](#access)部分。
-1. <span class="preview">单击&#x200B;**评论**，然后在提供的空间中添加评论。 Workfront在每个项目的&#x200B;**更新**&#x200B;区域中添加注释。 有关更新工作的信息，请参阅[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。</span>
+1. 单击&#x200B;**评论**，然后在提供的空间中添加评论。 Workfront在每个项目的&#x200B;**更新**&#x200B;区域中添加注释。 有关更新工作的信息，请参阅[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 1. （可选）要删除您在“编辑项目”框中添加的任何信息，请将鼠标悬停在已编辑的字段上，然后单击该字段右上角的&#x200B;**x**&#x200B;放弃图标。
 
    批量字段编辑项目的![放弃图标](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)

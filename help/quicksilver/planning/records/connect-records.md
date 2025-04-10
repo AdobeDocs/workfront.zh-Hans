@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '3327'
+source-wordcount: '3267'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # 连接记录
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  -->
 
 {{planning-important-intro}}
 
@@ -124,7 +124,7 @@ ht-degree: 1%
    <p>系统管理员有权访问所有工作区，包括他们未创建的工作区。</p> </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>布局模板</p></td> 
+   <td role="rowheader"><p>版面模板</p></td> 
    <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域 </p> </td> 
   </tr> 
 </tbody> 
@@ -157,7 +157,7 @@ ht-degree: 1%
 * 表视图中的已连接记录字段。
 * 记录的预览框或页面（在“详细信息”选项卡上的已连接记录字段中）。
 * 记录在“连接”选项卡上的预览框或页面。
-* <span class="preview">记录在“连接视图”选项卡上的页面。</span> <!--this needs title edit when they rename the "Connection view" page type-->
+* 记录在“连接视图”选项卡上的页面。<!--this needs title edit when they rename the "Connection view" page type-->
 
 ### 从记录的表视图或详细信息区域连接Workfront Planning记录
 
@@ -184,7 +184,7 @@ ht-degree: 1%
    >
 
 1. （视情况而定）如果在连接记录类型时为“连接”类型选择了“一对多”或“一对一”，并且尝试连接某个记录或已在其他地方连接的对象，您将收到一则警告，指出再次连接该记录或对象会将其从原始连接中删除。 单击&#x200B;**连接**&#x200B;允许删除并连接记录，或单击&#x200B;**取消**&#x200B;返回字段并选择其他记录。
-1. （可选）如果找不到要连接的对象并且要添加该对象，请<span class="preview">单击“**+添加”**</span>
+1. （可选）如果找不到要连接的对象并且要添加该对象，请单击&#x200B;**+添加**
 
    或
 
@@ -270,7 +270,7 @@ ht-degree: 1%
    >
    >您可以从视图中打开记录的页面，双击链接的记录字段，或单击字段中的&#x200B;**连接**&#x200B;以添加来自连接的对象类型的对象。
 
-1. （可选）如果找不到要连接的对象并且要添加该对象，请<span class="preview">单击“**+添加”**</span>
+1. （可选）如果找不到要连接的对象并且要添加该对象，请单击&#x200B;**+添加**
 
    或
 
@@ -440,7 +440,7 @@ ht-degree: 1%
 1. （可选）单击截面左侧的向下箭头以将其折叠。
 
 1. （视情况而定）单击&#x200B;**连接**&#x200B;以添加更多相同类型的记录或对象。
-1. （可选）如果找不到要连接的记录或对象，而您想添加它，请<span class="preview">单击“**+添加”**</span>
+1. （可选）如果找不到要连接的记录或对象，并且要添加它，请单击“**+添加”**
 
    或
 
@@ -454,8 +454,6 @@ ht-degree: 1%
    ![连接选项卡上带有工具提示的断开连接记录图标](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
 
    该记录会立即与Workfront Planning的所有区域或其可能显示为已连接的其他应用程序断开连接。 所有查找字段值也会被删除。
-
-<div class="preview">
 
 ### 从记录详细信息页面上的“连接视图”选项卡连接记录
 
@@ -474,8 +472,6 @@ ht-degree: 1%
 
    在已连接记录详细信息选项卡中突出显示![连接按钮](assets/connect-button-highlighted-in-connected-record-details-tab.png)
 1. （可选）如果找不到连接的记录，请单击&#x200B;**+添加**&#x200B;以创建并连接它们。
-
-</div>
 
 ## 从Workfront对象连接记录
 

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '2246'
+source-wordcount: '2186'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 编辑记录
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -242,7 +242,6 @@ ht-degree: 0%
 
      ![在表视图中用于复制粘贴的可拖动右下角](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
-   <div class="preview">
 
    * 从外部源复制一个或多个单元格（例如，Excel文件），然后将它们粘贴到以下字段类型之一：
 
@@ -250,7 +249,6 @@ ht-degree: 0%
       * 人员字段。 仅支持具有一个值的字段。
 
      您无法从外部源复制信息并将其粘贴到任何其他字段类型中，包括Workfront或AEM Assets连接字段。
-   </div>
 
    >[!NOTE]
    >
@@ -295,11 +293,7 @@ ht-degree: 0%
 
    从表格视图中，单击第一列中的&#x200B;**打开详细信息**&#x200B;图标![在表格名称字段](assets/open-details-icon-in-table-name-field.png)中打开详细信息图标。 记录的预览将在视图中打开。
 
-   <div class="preview">
-
    ![详细信息框](assets/details-box.png)
-
-   </div>
 
 1. （可选）单击记录标题右侧的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**重命名**。 这将更新显示为记录标题的字段。
 
@@ -320,17 +314,13 @@ ht-degree: 0%
 
    Workfront会自动保存您所做的更改。
 
-1. <span class="preview"> （可选）单击记录预览框右上角的&#x200B;**实时指示器** ![实时指示器图标](assets/real-time-indicator-icon.png)，然后启用&#x200B;**显示协作者**&#x200B;设置以实时突出显示其他人正在编辑的字段。
+1. （可选）单击记录预览框右上角的&#x200B;**实时指示器** ![实时指示器图标](assets/real-time-indicator-icon.png)，然后启用&#x200B;**显示协作者**&#x200B;设置以实时突出显示其他人正在编辑的字段。
 
    此区域显示同时访问记录的所有用户的名称和头像。
 
-   禁用该设置时，头像和名称将列在实时指示器区域中，并且正在编辑的字段不会突出显示。</span>
-
-   <div class="preview">
+   禁用该设置时，头像和名称将列在实时指示器区域中，并且正在编辑的字段不会突出显示。
 
    ![实时指示器扩展记录预览框](assets/real-time-indicator-expanded-record-preview-box.png)
-
-   </div>
 
 1. （可选）单击记录详细信息页面](assets/export-icon-in-record-details-page.png)中的&#x200B;**导出**&#x200B;菜单![导出图标以导出记录详细信息。 有关信息，请参阅[导出记录的详细信息](/help/quicksilver/planning/records/export-the-record-page.md)。
 
@@ -388,17 +378,13 @@ ht-degree: 0%
 
    Workfront会自动保存您所做的更改。
 
-1. <span class="preview"> （可选）单击记录页面右上角的&#x200B;**实时指示器** ![实时指示器图标](assets/real-time-indicator-icon.png)，然后启用&#x200B;**显示协作者**&#x200B;设置以实时突出显示其他人正在编辑的字段。
+1. （可选）单击记录页面右上角的&#x200B;**实时指示器** ![实时指示器图标](assets/real-time-indicator-icon.png)，然后启用&#x200B;**显示协作者**&#x200B;设置以实时突出显示其他人正在编辑的字段。
 
    此区域显示同时访问记录的所有用户的名称和头像。
 
-   禁用该设置时，头像和名称将列在实时指示器区域中，并且正在编辑的字段不会突出显示。</span>
-
-   <div class="preview">
+   禁用该设置时，头像和名称将列在实时指示器区域中，并且正在编辑的字段不会突出显示。
 
    ![实时指示器扩展记录预览框](assets/real-time-indicator-expanded-record-preview-box.png)
-
-   </div>
 
 1. （可选）单击记录详细信息页面](assets/export-icon-in-record-details-page.png)中的&#x200B;**导出**&#x200B;菜单![导出图标以导出记录详细信息。 有关信息，请参阅[导出记录的详细信息](/help/quicksilver/planning/records/export-the-record-page.md)。
 

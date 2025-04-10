@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
 
 # 连接的记录概述
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span> -->
 
 {{planning-important-intro}}
 
@@ -54,11 +54,11 @@ ht-degree: 0%
    * Planning中记录类型的表视图中的已连接记录字段。
    * 在“详细信息”选项卡上的已连接记录字段中，记录的预览或页面。
    * 记录在“连接”选项卡上的预览或页面。
-   * <span class="preview">已连接记录的“连接”视图选项卡中的记录页面。</span>
+   * 已连接记录的“连接”视图选项卡中的记录页面。
 
 * 您可以在Workfront的以下区域中将Workfront对象连接到Workfront Planning记录：
 
    * Workfront对象的“规划”部分。
-   * <span class="preview">Workfront对象的自定义表单上的Planning连接字段。</span>
+   * Workfront对象的自定义表单上的Planning连接字段。
 
-  有关信息，请参阅[管理来自Workfront对象的记录连接](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
+  有关信息，请参阅[管理来自Workfront对象的记录连接](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。

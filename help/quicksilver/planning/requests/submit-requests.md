@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '1892'
+source-wordcount: '1816'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 <!--take Preview and Prod references out when releasing to Prod all-->
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 * 从已共享请求表单的直接链接。
 
   本文介绍了如何提交请求，以从Workfront的“请求”区域或共享链接向记录类型添加新记录。
-* <span class="preview">从记录类型页面添加或请求新记录时。 有关信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。</span>
+* 在记录类型页面中添加或请求新记录时。 有关信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
 
 Workfront用户和外部用户可以向Planning记录类型提交请求并创建记录。<!--double check on the external users-->
 
@@ -128,7 +128,7 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 
    * 在内部，该表单必须与对工作区具有查看或更高权限的用户共享。
 
-     Workfront用户可以从链接<span class="preview">访问表单，或者在Workfront的“请求”区域中查找请求表单。</span>
+     Workfront用户可以通过链接访问表单，或在Workfront的请求区域找到请求表单。
 
    * 如果您没有Workfront帐户，则会与外部人员共享指向该表单的链接。
 
@@ -150,8 +150,6 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 
 <!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
-
-<div class="preview">
 
 ## 在Workfront的请求区域将请求提交到Workfront规划
 
@@ -239,8 +237,6 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 
    此时将在Workfront Planning中打开记录类型页面。
 
-</div>
-
 ## 通过共享链接将请求提交到Workfront Planning的请求表单
 
 1. 从Workfront Planning记录类型转到与您共享的链接。
@@ -276,11 +272,11 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
      >
      >仅当贵组织的Workfront实例载入到Adobe Unified Experience时，电子邮件和应用程序内通知才可见。
 
-1. <span class="preview">（可选）单击&#x200B;**查看您的请求**&#x200B;以在Workfront中打开该请求。</span>
+1. （可选）单击&#x200B;**查看您的请求**&#x200B;以在Workfront中打开该请求。
 
-   或
+   <!--Or-->
 
-   <span class="preview">单击[提交其他请求](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request)以打开请求表单并添加新请求。</span>
+   <!--Click [Submit another request](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) to open the request form and add a new request.-->
 
 1. （可选）单击&#x200B;**主菜单** > **请求** > **计划**&#x200B;选项卡以查看您的请求，然后单击请求的名称。
 
