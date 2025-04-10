@@ -6,9 +6,9 @@ description: 利用过滤器和条件修饰符，可构建过滤器并建立用�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: b2b17c34fe4887e291e69facf76f5071bca43b06
 workflow-type: tm+mt
-source-wordcount: '1566'
+source-wordcount: '1565'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 有关了解文本模式的详细信息，请参阅[文本模式概述](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)。
 
-有关内置时间范围修饰符的列表，请参阅文章[按时间范围筛选报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md)。
+有关内置时间范围修饰符的列表，请参阅文章[按时间范围筛选报表](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md)。
 
 您可以在过滤器和条件格式语句中使用以下条件修饰符：
 

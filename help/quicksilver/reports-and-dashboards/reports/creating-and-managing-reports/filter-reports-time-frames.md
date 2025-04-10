@@ -2,22 +2,22 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: 按时间范围筛选报表
-description: 您可以按对象上存在的日期的时间范围过滤报表。 例如，您可以为输入小时数的特定时间范围过滤小时报告。
-author: Nolan
+description: 您可以按对象中存在的日期的时间范围过滤报表。 例如，您可以为输入小时数的特定时间范围过滤小时报告。
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
+source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '965'
 ht-degree: 4%
 
 ---
 
 # 按时间范围筛选报表
 
-<!-- Audited: 11/2024 -->
+<!-- Audited: 4/2025 -->
 
-您可以按对象上存在的日期的时间范围过滤报表。 例如，您可以为输入小时数的特定时间范围过滤小时报告。
+您可以按对象中存在的日期的时间范围过滤报表。 例如，您可以为输入小时数的特定时间范围过滤小时报告。
 
 ## 访问要求
 
@@ -30,25 +30,20 @@ ht-degree: 4%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
       <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>标准</p></li>
-         </ul>
-      <p>当前：</p>
-         <ul>
-         <li><p>计划</p></li>
-         </ul>
+      <p>新增：标准</p>
+       <p> 或</p>
+      <p>当前：计划</p>
    </td>
 
 </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
+   <td role="rowheader">访问级别配置</td> 
    <td> <p>编辑对报告、功能板和日历的访问权限</p> <p>编辑对筛选器、视图、分组的访问权限</p></td> 
   </tr> 
   <tr> 
@@ -58,7 +53,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -68,18 +63,20 @@ ht-degree: 4%
 
 有关创建报告的详细信息，请参阅[创建报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)。
 
-## 按日期的时间范围筛选报表 {#filter-a-report-by-the-time-frame-of-a-date}
+## 按日期的时间范围过滤报表 {#filter-a-report-by-the-timeframe-of-a-date}
 
-1. 单击&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**报表**。
+{{step1-to-reports}}
 
-1. 单击&#x200B;**新建报告**，然后选择所需的报告类型。\
-   例如，选择&#x200B;**小时报告**。
+1. 单击左上角的&#x200B;**新建报告**，然后选择要创建的报告类型。
 
-1. 选择&#x200B;**筛选器**&#x200B;选项卡。
-1. 单击&#x200B;**添加筛选器规则**，然后选择&#x200B;**小时输入日期**。\
+1. 在&#x200B;**新报表**&#x200B;页面上，选择&#x200B;**筛选器**&#x200B;选项卡。
+
+1. 单击&#x200B;**添加筛选器规则**，然后单击&#x200B;**选择字段**。
+
+1. 在&#x200B;**选择字段**&#x200B;对话框中，选择&#x200B;**小时**，然后选择&#x200B;**输入日期**。
    ![按时间范围过滤小时报告](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
 
-1. 在下列下拉菜单中，选择以下任一选项：
+1. 在显示的下拉菜单中，选择以下选项之一：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -88,54 +85,58 @@ ht-degree: 4%
      <tr> 
       <td role="rowheader">等于</td> 
       <td>选择此修改量后，请指定输入小时数的日期。</td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">不等于</td> 
-      <td>选择此修改量后，请指定输入小时数的日期，以便将此日期从报表中排除。 报表显示在指定日期以外的所有日期记录的小时数。</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">空</td> 
-      <td>选择此修改量可仅显示缺少输入日期的小时。</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">非空</td> 
-      <td>选择此修改量可仅显示输入日期具有值的小时。</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">介于</td> 
-      <td>选择此修改量后，请指定输入小时数的日期范围。 此报表显示指定日期之间输入的小时数。</td> 
-     </tr> 
-     <tr> 
+      <td>选择此修改量后，请指定输入小时数的日期，以将此日期从报表中排除。 报表显示在指定日期以外的所有日期记录的小时数。</td> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">小于</td> 
-      <td>选择此修改量后，请指定输入小时数的日期。 此报表显示在指定日期之前输入但不包括指定日期的小时数。</td> 
-     </tr> 
-     <tr> 
+      <td>选择此修改量后，请指定输入小时数的日期。 该报告显示在指定日期（不包括指定日期）之前输入的小时数。</td> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">小于和等于</td> 
       <td>选择此修改量后，请指定输入小时数的日期。 此报表显示在指定日期（包括指定日期）之前输入的小时数。</td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">大于</td> 
-      <td>选择此修改量后，请指定输入小时数的日期。 该报告显示在指定日期之后输入的小时数，不包括指定日期。</td> 
-     </tr> 
-     <tr> 
+      <td>选择此修改量后，请指定输入小时数的日期。 报表显示在指定日期（不包括指定日期）后输入的小时数。</td> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">大于或等于</td> 
-      <td> <p>选择此修改量后，请指定输入小时数的日期。 报表显示在指定日期（包括指定日期）之后输入的小时数。</p> <p>选择任何内置时间范围修饰符，如<a href="#built-in-time-frame-modifiers" class="MCXref xref">内置时间范围修饰符</a>中所述。</p> </td> 
-     </tr> 
-    </tbody> 
+      <td> 选择此修改量后，请指定输入小时数的日期。 报表显示在指定日期（包括指定日期）之后输入的小时数。 </td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">介于</td> 
+      <td>选择此修改量后，请指定输入小时数的日期范围。 此报表显示指定日期之间输入的小时数。</td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">空</td> 
+      <td>选择此修改量可仅显示缺少输入日期的小时。</td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">非空</td> 
+      <td>选择此修改量可仅显示输入日期具有值的小时。</td> 
+     </tr>
+
+   </tbody> 
    </table>
 
-1. 这些修饰符可用于过滤器中的任何日期字段或任何报表中的提示。
 1. 单击&#x200B;**保存+关闭**。
 
-## 内置时间范围修饰符 {#built-in-time-frame-modifiers}
+## 内置时间范围修饰符 {#built-in-timeframe-modifiers}
 
-Adobe Workfront具有内置的时间范围修饰符，您无需定义特定日期即可使用。
+Adobe Workfront具有内置的时间范围修饰符，您无需定义特定日期即可使用。 这些修饰符可用于过滤器中的任何日期字段或任何报表中的提示。
 
-这些修饰符可用于过滤器中的任何日期字段或任何报表中的提示。
-
-有关如何按与日期关联的时间范围筛选报告的更多信息，请参阅以上的[按日期的时间范围筛选报告](#filter-a-report-by-the-time-frame-of-a-date)部分。
-
-例如，如果您正在构建小时报表，并希望显示在特定时间范围内输入的小时，则可以从以下内置时间范围过滤器选项中进行选择：
+例如，如果您正在构建小时报表，并希望显示在特定时间范围内输入的小时数，则可以从以下内置时间范围过滤器选项中进行选择：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -197,7 +198,7 @@ Adobe Workfront具有内置的时间范围修饰符，您无需定义特定日�
   </tr> 
   <tr> 
    <td role="rowheader">去年</td> 
-   <td> <p>显示输入日期为上一年中的日期的小时数，其中上一年从1月1日开始，到本年度之前一年的12月31日结束。</p> <p>注：会计年度没有内置时间期。 您可以创建一个报表，并使用在组织中定义的会计年度日期范围的自定义修改量按日期筛选信息。 如果要当场选择财政年度的时间范围，则应当使用提示而不是过滤器。 </p> </td> 
+   <td> <p>显示输入日期为上一年中的日期的小时数，其中上一年从1月1日开始，到本年度之前一年的12月31日结束。</p> <p>注：会计年度没有内置时间期。 您可以创建一个报表，并使用在组织中定义的会计年度日期范围的自定义修改量按日期筛选信息。 如果要当场为某个财政年度选择时间范围，则应当使用提示而不是过滤器。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

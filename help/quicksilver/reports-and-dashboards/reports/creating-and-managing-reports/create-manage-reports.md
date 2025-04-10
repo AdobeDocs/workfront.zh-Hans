@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: e3596bd2-4f22-45c8-8cc2-cac08359a093
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: b2b17c34fe4887e291e69facf76f5071bca43b06
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 * [运行报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-report.md)
 * [创建矩阵报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)
 * [创建报告副本](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)
-* [按时间范围筛选报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md)
+* [按时间范围筛选报表](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md)
 * [向报告添加提示](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 * [向报告添加图表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)
 * [报告传送概述](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)
