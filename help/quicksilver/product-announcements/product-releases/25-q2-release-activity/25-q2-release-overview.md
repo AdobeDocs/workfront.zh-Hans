@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 993b066ecefb4b345c59289d6c6466ef0416d620
+source-git-commit: bb7f627f7ee2fdf15ba84919bf67f6c8fbb682dd
 workflow-type: tm+mt
-source-wordcount: '1640'
+source-wordcount: '1713'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Workfront版本编号代表了每月和每季度的版本跟踪。 第一个数�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            自定义表单逻辑的增强功能</a></p>
+            自定义表单逻辑的增强功能</a></p><p>[！BADGE In Production ]{type=Informational}</p>
             <p>自定义表单逻辑生成器的界面已更新，为您提供了更大的空间来创建逻辑规则。 此新设计可以更轻松地适应将来可能添加的其他逻辑类型。</p><p>除了当前的显示和跳过逻辑选项外，还可以使用验证逻辑。</p>
         </td>
         <td>
@@ -88,20 +88,20 @@ Workfront版本编号代表了每月和每季度的版本跟踪。 第一个数�
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
-<!--    <tr>
+    <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            New document approval decision buttons available in proofing viewer</a></p>
-            <p>The new document approval decision buttons now appear in the proofing viewer. Now, when you create a simple proof and then add approvers and reviewers from the Document summary, they can make their decision directly inside the proofing viewer.</p>
+            验证查看者中可用的新文档审批决策按钮</a></p>
+            <p>新文档审批决策按钮现在显示在验证查看者中。 现在，当您创建简单验证，然后从文档摘要添加审批者和审阅者时，他们可以直接在验证查看者中做出决策。</p>
         </td>
         <td>
-            <p><b>Available on these dates:</b></p>
+            <p><b>在以下日期可用：</b></p>
             <ul>
-                <li>Preview release: March 27, 2025</li>
-                <li>Production release for all customers: With the 25.4 release (April 2025)</li>
+                <li>预览版本： 2025年4月9日</li>
+                <li>面向有限客户的生产版本：使用25.4版本（2025年4月）</li>
             </ul>
         </td>
-    </tr>    -->                      
+    </tr>                        
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
@@ -143,7 +143,7 @@ Workfront版本编号代表了每月和每季度的版本跟踪。 第一个数�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            增强移动应用程序中的验证(仅限iOS)</a>[！BADGE In Production ]{type=Informational}</p>
+            移动应用程序中的验证增强功能(仅限iOS)</a><p>[！BADGE In Production ]{type=Informational}</p></p>
             <p>Adobe Workfront移动应用程序中的验证功能有几项增强：
             <ul>
             <li>现在，您可以通过已与您共享的链接，从移动电子邮件应用程序打开验证文件。 以前，电子邮件中的链接不受支持，您必须从Workfront移动应用程序访问校样。</li>
@@ -175,7 +175,7 @@ Workfront版本编号代表了每月和每季度的版本跟踪。 第一个数�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            在编辑项目框</a>[！BADGE In production for Fast Release]{type=Positive}中编辑项目时，向项目添加评论</p>
+            在编辑项目框中编辑项目时，向项目添加评论</a><p>[！BADGE In Production ]{type=Informational}</p>
             <p>现在，您可以在编辑项目框中编辑项目时，为项目添加注释。 批量编辑多个项目时，您还可以同时向这些项目添加评论。 在此更新之前，在编辑项目时不存在此功能。</p>
         </td>
         <td>
@@ -199,7 +199,7 @@ Workfront版本编号代表了每月和每季度的版本跟踪。 第一个数�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Data Connect</a>[！BADGE In Production ]{type=Informational}中现在提供文档审批和决策数据</p>
+            Data Connect中现在提供文档审批和决策数据</a><p>[！BADGE In Production ]{type=Informational}</p>
             <p>您现在可以在Data Connect中访问用于文档审批和决策的数据。 此数据集将文档审批与Workfront验证功能以及在Workfront文档上发生的Frame.io审批联系起来。 您现在将能够通过BI可视化图表说明周期时间、周期数以及时间表对延迟批准的影响。</p>
         </td>
         <td>
@@ -212,7 +212,7 @@ Workfront版本编号代表了每月和每季度的版本跟踪。 第一个数�
     </tr>                          
     <tr>
         <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront日历的更新</a></p>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront日历的更新</a></p><p>[！BADGE In Production ]{type=Informational}</p>
             <p>我们更新了Workfront日历的外观和风格，使其采用与Workfront其他区域一致的现代化设计。 与当前Workfront日历相比，功能稍有不同，包括：
             <ul>
             <li>如何将临时项目添加到日历</li>
@@ -255,9 +255,7 @@ Workfront版本编号代表了每月和每季度的版本跟踪。 第一个数�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            在Workfront更新信息源中将Adobe Admin Console用户更改表示为“系统”</a></p>
-            [！BADGE In Production for Fast Release ]{type=Positive}
-            <p>现在，当Adobe Admin Console管理员更改Workfront用户的用户信息时，Workfront将这一更改记录在用户更新区域的System activity （系统活动）选项卡中，并归入“System”（系统）。 此联系人为Adobe Admin Console管理员。</p>
+            在Workfront更新信息源中将Adobe Admin Console用户更改表示为“系统”</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>现在，当Adobe Admin Console管理员更改Workfront用户的用户信息时，Workfront将这一更改记录在用户更新区域的System activity （系统活动）选项卡中，并归入“System”（系统）。 此联系人为Adobe Admin Console管理员。</p>
         </td>
         <td>
             <p><b>在以下日期可用：</b></p>
