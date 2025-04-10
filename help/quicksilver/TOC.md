@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: b0a8e5277003eb3189bc7c0a26367fada05d58de
+source-git-commit: 43e58f4495cc970b1d0f49dd4ce38fd8b1ef61e4
 workflow-type: tm+mt
 source-wordcount: '13116'
 ht-degree: 2%
@@ -13,13 +13,13 @@ ht-degree: 2%
 # Workfront 指南 {#using}
 
 * [Workfront文档](home.md)
-* 产品公告
+* 产品公告 {#product-announcements}
    * [产品公告](product-announcements/product-announcements.md)
-   * 产品版本
+   * 产品版本 {#product-releases}
       * [产品版本概述](product-announcements/product-releases/product-releases.md)
       * [Adobe Workfront发布计划和流程](product-announcements/product-releases/workfront-release-schedule.md)
       * [为Adobe Workfront季度版本做准备](product-announcements/product-releases/release-readiness.md)
-      * 2025年第二季度发布
+      * 2025年第二季度发布 {#release-25-q2}
          * [2025年第2季度发行版概述](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
          * [2025年第2季度管理员增强功能](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md)
          * [2025年第2季度文档管理增强功能](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md)
@@ -28,7 +28,7 @@ ht-degree: 2%
          * [2025年第2季度报告增强功能](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md)
          * [2025年第二季度发布时间范围内的其他增强功能](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md)
          * [在2025年第2季度发布时间范围内的外观更新](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md)
-      * 2025年第一季度发行
+      * 2025年第一季度发行 {#release-25-q1}
          * [2025年第1季度发行版概述](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
          * [2025年第1季度管理员增强功能](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md)
          * [2025年第1季度主板增强功能](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md)
@@ -40,7 +40,7 @@ ht-degree: 2%
          * [2025年第1季度更新流增强](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-update-stream-enhancements.md)
          * [2025年第一季度发布时间范围内的其他增强功能](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md)
          * [在2025年第1季度发布时间范围内的外观更新](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md)
-      * 2024年第四季度发行
+      * 2024年第四季度发行 {#release-24-q4}
          * [2024年第4季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
          * [2024年第4季度管理员增强功能](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md)
          * [2024年第4季度文档管理增强功能](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md)
@@ -51,7 +51,7 @@ ht-degree: 2%
          * [2024年第4季度报告和功能板增强功能](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-report-and-dashboard-enhancements.md)
          * [2024年第四季度发布时间框架内的其他增强功能](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md)
          * [在2024年第4季度发布时间范围内的外观更新](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-look-and-feel-updates.md)
-      * 2024年第三季度发行
+      * 2024年第三季度发行 {#release-24-q3}
          * [2024年第三季度发行概述](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
          * [2024年第3季度管理员增强功能](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md)
          * [2024年第3季度财务管理增强功能](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md)
@@ -61,7 +61,7 @@ ht-degree: 2%
          * [2024年第3季度资源管理增强功能](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md)
          * [2024年第3季度发布时间范围内的其他增强功能](product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md)
          * [在2024年第3季度发布时间范围内的外观更新](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md)
-      * 2024年第二季度发布
+      * 2024年第二季度发布 {#release-24-q2}
          * [2024年第2季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
          * [2024年第2季度管理员增强功能](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md)
          * [2024年第2季度文档管理增强功能](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md)
@@ -71,7 +71,7 @@ ht-degree: 2%
          * [2024年第2季度资源管理增强功能](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md)
          * [2024年第2季度更新流增强](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md)
          * [在2024年第2季度发布时间范围内的外观更新](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md)
-      * 2024年第一季度发行
+      * 2024年第一季度发行 {#release-24-q1}
          * [2024年第1季度发行版概述](product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
          * [2024年第1季度管理员增强功能](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md)
          * [2024年第1季度文档管理增强功能](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md)
@@ -80,7 +80,7 @@ ht-degree: 2%
          * [2024年第1季度集成增强功能](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md)
          * [2024年第1季度项目增强功能](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md)
          * [2024年第1季度更新流和通知增强功能](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md)
-      * 2023年第四季度发行
+      * 2023年第四季度发行 {#release-23-q4}
          * [2023年第4季度发行版概述](product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)
          * [2023年第4季度管理员增强功能](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md)
          * [2023年第4季度主板增强功能](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md)
@@ -90,7 +90,7 @@ ht-degree: 2%
          * [2023年第4季度项目增强功能](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md)
          * [2023年第4季度其他增强功能](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md)
          * [在2023年第4季度发布时间范围内的外观更新](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md)
-      * 23.3版本
+      * 23.3版本 {#release-23-3}
          * [23.3发行版概述](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)
          * [23.3管理员增强功能](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md)
          * [23.3 Agile增强功能](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md)
@@ -100,7 +100,7 @@ ht-degree: 2%
          * [23.3移动设备增强功能](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-mobile-enhancements.md)
          * [23.3其他增强功能](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md)
          * [在23.3版本发布时间范围内的外观更新](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
-      * 23.2发行版
+      * 23.2发行版 {#release-23-2}
          * [23.2版本概述](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [23.2管理员增强功能](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
          * [23.2 Agile增强功能](product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md)
@@ -110,14 +110,14 @@ ht-degree: 2%
          * [23.2移动设备增强功能](product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md)
          * [23.2其他增强功能](product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md)
          * [在23.2版本发布时间范围内的外观更新](product-announcements/product-releases/23.2-release-activity/23-2-look-and-feel.md)
-      * 23.1发行版
+      * 23.1发行版 {#release-23-1}
          * [23.1发行版概述](product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md)
          * [23.1增强项目和资源管理](product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md)
          * [23.1 Agile增强功能](product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md)
          * [23.1移动设备增强功能](product-announcements/product-releases/23.1-release-activity/23-1-mobile-enhancements.md)
          * [23.1其他增强功能](product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md)
          * [23.1发布时间范围内的外观更新](product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md)
-      * 22.4版本
+      * 22.4版本 {#release-22-4}
          * [22.4发行版概述](product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md)
          * [22.4管理员增强功能](product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md)
          * [22.4项目增强功能](product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md)
@@ -125,7 +125,7 @@ ht-degree: 2%
          * [22.4资源管理增强功能](product-announcements/product-releases/22.4-release-activity/22-4-resource-management-enhancements.md)
          * [22.4其他增强功能](product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md)
          * [22.4外观更新](product-announcements/product-releases/22.4-release-activity/22-4-look-and-feel-updates.md)
-      * 22.3版本
+      * 22.3版本 {#release-22-3}
          * [22.3发行版概述](product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)
          * [22.3管理员增强功能](product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md)
          * [22.3集成增强功能](product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md)
@@ -134,8 +134,8 @@ ht-degree: 2%
          * [22.3项目增强功能](product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md)
          * [22.3资源管理增强功能](product-announcements/product-releases/22.3-release-activity/22-3-resource-management-enhancements.md)
          * [22.3报告增强功能](product-announcements/product-releases/22.3-release-activity/22-3-reporting-enhancements.md)
-         * [在22.3版发布时间范围内观赏更新](product-announcements/product-releases/22.3-release-activity/22-3-look-and-feel-updates.md)
-      * 22.2发行版
+         * [在22.3版本发布时间范围内的外观更新](product-announcements/product-releases/22.3-release-activity/22-3-look-and-feel-updates.md)
+      * 22.2发行版 {#release-22-2}
          * [22.2发行版概述](product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md)
          * [22.2管理员增强功能](product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md)
          * [22.2项目增强功能](product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md)
@@ -145,8 +145,8 @@ ht-degree: 2%
          * [22.2集成增强](product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md)
          * [22.2其他增强功能](product-announcements/product-releases/22.2-release-activity/22-2-other-enhancements.md)
          * [在22.2版本发布时间范围内的外观更新](product-announcements/product-releases/22.2-release-activity/22-2-look-and-feel-updates.md)
-      * 22.1版本
-         * [22.1版本概述](product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md)
+      * 22.1版本 {#release-22-1}
+         * [22.1发行版概述](product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md)
          * [22.1管理员增强功能](product-announcements/product-releases/22.1-release-activity/22-1-admin-enhancements.md)
          * [22.1项目增强功能](product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md)
          * [22.1资源管理增强功能](product-announcements/product-releases/22.1-release-activity/22-1-resource-mgt-enhancements.md)
@@ -154,7 +154,7 @@ ht-degree: 2%
          * [22.1校对增强功能](product-announcements/product-releases/22.1-release-activity/22-1-proofing-enhancements.md)
          * [22.1其他增强功能](product-announcements/product-releases/22.1-release-activity/22-1-other-enhancements.md)
          * [22.1移动设备增强功能](product-announcements/product-releases/22.1-release-activity/22-1-mobile-enhancements.md)
-      * 21.4版本
+      * 21.4版本 {#release-21-4}
          * [21.4版本概述](product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md)
          * [21.4管理员增强功能](product-announcements/product-releases/21.4-release-activity/21-4-admin-enhancements.md)
          * [21.4 Agile增强功能](product-announcements/product-releases/21.4-release-activity/21-4-agile-enhancements.md)
@@ -166,7 +166,7 @@ ht-degree: 2%
          * [21.4集成增强功能](product-announcements/product-releases/21.4-release-activity/21-4-integration-enhancements.md)
          * [21.4移动设备增强功能](product-announcements/product-releases/21.4-release-activity/21-4-mobile-enhancements.md)
          * [21.4其他增强功能](product-announcements/product-releases/21.4-release-activity/21-4-other-enhancements.md)
-      * 21.3版本
+      * 21.3版本 {#release-21-3}
          * [21.3版本概述](product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md)
          * [21.3管理员增强功能](product-announcements/product-releases/21.3-release-activity/21-3-admin-enhancements.md)
          * [21.3项目增强功能](product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md)
@@ -174,7 +174,7 @@ ht-degree: 2%
          * [21.3请求增强功能](product-announcements/product-releases/21.3-release-activity/21-3-requests-enhancements.md)
          * [21.3校对增强功能](product-announcements/product-releases/21.3-release-activity/21-3-proofing-enhancements.md)
          * [21.3其他增强功能](product-announcements/product-releases/21.3-release-activity/21-3-other-enhancements.md)
-      * 21.2版本
+      * 21.2版本 {#release-21-2}
          * [21.2发行版概述](product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md)
          * [21.2管理员增强功能](product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md)
          * [21.2项目增强功能](product-announcements/product-releases/21.2-release-activity/21-2-project-enhancements.md)
@@ -185,7 +185,7 @@ ht-degree: 2%
          * [21.2集成增强](product-announcements/product-releases/21.2-release-activity/21-2-integration-enhancements.md)
          * [21.2其他增强功能](product-announcements/product-releases/21.2-release-activity/21-2-other-enhancements.md)
          * [21.2移动设备增强功能](product-announcements/product-releases/21.2-release-activity/21-2-mobile-enhancements.md)
-      * 21.1发行版
+      * 21.1发行版 {#release-21-1}
          * [21.1发行版概述](product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md)
          * [21.1管理员增强功能](product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md)
          * [21.1资源管理增强功能](product-announcements/product-releases/21.1-release-activity/21-1-resource-mgt-enhancements.md)
@@ -194,35 +194,35 @@ ht-degree: 2%
          * [21.1集成增强](product-announcements/product-releases/21.1-release-activity/21-1-integration-enhancements.md)
          * [21.1移动设备增强功能](product-announcements/product-releases/21.1-release-activity/21-1-mobile-enhancements.md)
          * [21.1其他增强功能](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
-      * Adobe Workfront Planning发布活动
+      * Adobe Workfront Planning发布活动{#planning-release-activity}
          * [Adobe Workfront Planning发布活动](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
          * [Adobe Workfront Planning 2025年第二季度发布活动](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
          * [Adobe Workfront Planning 2025年第一季度发布活动](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
          * [Adobe Workfront Planning 2024年第四季度发布活动](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
-      * Adobe Workfront Scenario Planner发布活动
+      * Adobe Workfront Scenario Planner发布活动 {#scenario-planner-release}
          * [Adobe Workfront Scenario Planner发布活动](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
          * [带有21.3版本的Adobe Workfront Scenario Planner](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
          * [带有21.2版本的Adobe Workfront Scenario Planner](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-2.md)
          * [带有21.1版本的Adobe Workfront Scenario Planner](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-1.md)
          * [Workfront Scenario Planner的20.4版本 — 2020年10月14日](product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-4.md)
          * [Workfront Scenario Planner的20.3版本 — 2020年8月14日](product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-3.md)
-      * Adobe Workfront目标发布活动
+      * Adobe Workfront目标发布活动 {#goals-release}
          * [Adobe Workfront目标发布活动](product-announcements/product-releases/goals-release-activity/goals-release-activity.md)
-         * 23.3版本中的目标
+         * 23.3版本中的目标 {#goals-23-3}
             * [Adobe Workfront 23.3版本的目标](product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-release.md)
             * [Adobe Workfront Goals 23.3发布活动： 2023年5月1日起的一周](product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-may-5.md)
-         * 23.2版本中的目标
+         * 23.2版本中的目标 {#goals-23-2}
             * [Adobe Workfront 23.2版本的目标](product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md)
             * [Adobe Workfront Goals 23.2发布活动：2023年3月20日起的一周](product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-march.md)
-         * 23.1版本中的目标
+         * 23.1版本中的目标 {#goals-23-1}
             * [Adobe Workfront 23.1版本的目标](product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-23-1-release.md)
             * [Adobe Workfront Goals 23.1发布活动：2023年12月5日起的一周](product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-jan.md)
-         * 21.2版本中的目标
+         * 21.2版本中的目标 {#goals-21-2}
             * [Adobe Workfront 21.2版本的目标](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md)
             * [Adobe Workfront Goals 21.2发布活动： 2021年4月19日起的一周](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-apr-19.md)
             * [Adobe Workfront Goals 21.2发布活动： 2021年4月5日开始的周](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-apr-5.md)
             * [Adobe Workfront目标21.2发布活动： 2021年2月15日开始的周](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-feb-15.md)
-         * 21.1版本中的目标
+         * 21.1版本中的目标 {#goals-21-1}
             * [Adobe Workfront 21.1版本的目标](product-announcements/product-releases/goals-release-activity/goals-release-21-1.md)
             * [Adobe Workfront Goals 21.1发布活动： 2021年1月11日起的一周](product-announcements/product-releases/goals-release-activity/goals-21.1-release/goals-jan-11.md)
             * [Adobe Workfront Goals 21.1发布活动：2020年12月14日起的一周](product-announcements/product-releases/goals-release-activity/goals-21.1-release/goals-dec-14.md)
@@ -230,19 +230,19 @@ ht-degree: 2%
             * [Adobe Workfront Goals 21.1发布活动：2020年11月16日起的一周](product-announcements/product-releases/goals-release-activity/goals-21.1-release/goals-nov-16.md)
          * [Workfront 20.4版本的目标](product-announcements/product-releases/goals-release-activity/goals-release-20-4.md)
          * [Workfront 20.3版本的目标 — 2020年8月14日](product-announcements/product-releases/goals-release-activity/goals-release-20-3.md)
-      * Workfront Proof发布活动
-         * 23.3版本的验证
+      * Workfront Proof发布活动 {#proof-release}
+         * 23.3版本的验证 {#proof-23-3-release}
             * [23.3版的Adobe Workfront Proof](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md)
             * [Adobe Workfront Proof 23.3发布活动： 2023年7月17日起的一周](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md)
             * [Adobe Workfront Proof 23.3发布活动： 2023年6月5日开始的这一周](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md)
             * [Adobe Workfront Proof 23.3发布活动： 2023年5月8日开始的一周](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
          * [Workfront Proof发布活动： 2021年5月17日开始的周](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
          * [Workfront Proof发布活动： 2021年11月29日起的一周](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
-      * 界面现代化
+      * 界面现代化 {#interface-modernization}
          * [界面现代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)
-      * 每季发布存档
+      * 每季发布存档 {#quarterly-release}
          * [每季发布存档](product-announcements/product-releases/quarterly-release-archive/quarterly-release-archive.md)
-         * 20.4版本
+         * 20.4版本 {#release-20-4}
             * [20.4版本概述](product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md)
             * [20.4项目管理方面的改进](product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md)
             * [20. 4 Analytics增强功能](product-announcements/product-releases/20.4-release-activity/20-4-analytics-enhancements.md)
@@ -250,7 +250,7 @@ ht-degree: 2%
             * [20.4验证增强功能](product-announcements/product-releases/20.4-release-activity/20-4-proof-enhancements.md)
             * [20.4移动和集成增强功能](product-announcements/product-releases/20.4-release-activity/20-4-mobile-enhancements.md)
             * [20.4其他增强功能](product-announcements/product-releases/20.4-release-activity/20-4-other-enhancements.md)
-         * 20.3版本
+         * 20.3版本 {#release-20-3}
             * [20.3发行版概述](product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md)
             * [20.3资源管理增强功能](product-announcements/product-releases/20.3-release-activity/20-3-resource-management-enhancements.md)
             * [20.3 Analytics增强](product-announcements/product-releases/20.3-release-activity/20-3-analytics-enhancements.md)
@@ -259,14 +259,14 @@ ht-degree: 2%
             * [20.3 Agile增强功能](product-announcements/product-releases/20.3-release-activity/20-3-agile-enhancements.md)
             * [20.3集成和移动增强功能](product-announcements/product-releases/20.3-release-activity/20-3-mobile-enhancements.md)
             * [20.3其他增强功能](product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md)
-         * 20.2发行版
+         * 20.2发行版 {#release-20-2}
             * [2020.2版概述](product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md)
             * [2020.2移动增强功能](product-announcements/product-releases/2020.2.-release-activity/2020-2-mobile-enhancements.md)
             * [2020.2其他增强功能](product-announcements/product-releases/2020.2.-release-activity/2020-2-other-enhancements.md)
             * [2020.2项目增强功能](product-announcements/product-releases/2020.2.-release-activity/2020-2-project-enhancements.md)
             * [2020.2校对增强功能](product-announcements/product-releases/2020.2.-release-activity/2020-2-proofing-enhancements.md)
             * [2020.2资源管理增强功能：工作负载均衡器](product-announcements/product-releases/2020.2.-release-activity/2020-2-resource-management.md)
-         * 20.1版本
+         * 20.1版本 {#release-20-1}
             * [2020.1版概述](product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md)
             * [2020.1列表增强功能](product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md)
             * [2020.1移动增强功能](product-announcements/product-releases/2020.1-release-activity/2020-1-mobile-enhancements.md)
@@ -275,20 +275,20 @@ ht-degree: 2%
             * [2020.1校对增强功能](product-announcements/product-releases/2020.1-release-activity/2020-1-proofing-enhancements.md)
             * [2020.1资源管理增强功能](product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md)
             * [2020.1版之前发布到生产环境的其他Workfront Classic功能](product-announcements/product-releases/2020.1-release-activity/prior-to-2020-1.md)
-         * 2019.4发行版
+         * 2019.4发行版 {#release-19-4}
             * [2019.4发行版概述](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md)
             * [2019.4列表增强功能](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md)
             * [2019.4移动设备增强功能](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md)
             * [2019.4年其他增强功能](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-other-enhancements.md)
             * [2019.4资源管理增强功能](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-resource-management-enhancements.md)
             * [2019.4版本之前发布到生产环境的其他Workfront Classic功能](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/other-workfront-classic-features-prior-to-19-4.md)
-         * 2019.3发行版
+         * 2019.3发行版 {#release-19-3}
             * [2019.3发布活动概述](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md)
             * [2019.3资源规划改进](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-resource-planning-enhancements.md)
             * [2019.3主页增强功能](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-home-enhancements.md)
             * [2019.3集成和移动增强功能](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md)
             * [2019.3项目增强功能](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-project-enhancements.md)
-         * 2019.2发行版
+         * 2019.2发行版 {#release-19-2}
             * [2019.2发布活动概述](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md)
             * [2019.2管理员增强功能](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-administrator-enhancements.md)
             * [2019.2 Agile增强功能](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-agile-enhancements.md)
@@ -296,14 +296,14 @@ ht-degree: 2%
             * [2019.2项目增强功能](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-project-enhancements.md)
             * [2019.2校对增强功能](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-proofing-enhancements.md)
             * [2019.2资源管理增强功能](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-resource-management-enhancements.md)
-         * 2019.1发行版
+         * 2019.1发行版 {#release-19-1}
             * [2019.1版活动](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity.md)
             * [2019.1发布活动概述](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md)
             * [2019.1移动和集成增强功能](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-mbl-intgrtn-enhncmnts.md)
             * [2019.1项目增强功能](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-project-enhancements.md)
             * [2019.1校对增强功能](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-proofing-enhancements.md)
             * [2019.1资源管理增强功能](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-rsrc-mngmnt-enhncmnts.md)
-         * 2018.3发行版
+         * 2018.3发行版 {#release-18-3}
             * [2018.3版活动](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity.md)
             * [2018.3发布活动概述](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md)
             * [2018.3 Beta 1发行版活动](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-1-release-activity.md)
@@ -312,7 +312,7 @@ ht-degree: 2%
             * [2018.3 Beta 4发行版活动](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-4-release-activity.md)
             * [2018.3 Beta 5发行版活动](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md)
             * [2018.3Beta决赛](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md)
-         * 2018.2发行版
+         * 2018.2发行版 {#release-18-2}
             * [2018.2版活动](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity.md)
             * [2018.2发布活动概述](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md)
             * [2018.2 Beta 1发行版活动](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md)
@@ -321,7 +321,7 @@ ht-degree: 2%
             * [2018.2 Beta 4发行版活动](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md)
             * [2018.2 Beta 5发行版活动](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md)
             * [2018.2 Beta最终发行版活动](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md)
-         * 2018.1发行版
+         * 2018.1发行版 {#release-18-1}
             * [2018.1版活动](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity.md)
             * [2018.1发布活动概述](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md)
             * [2018.1 Beta 1发行版活动](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-1-release-activity.md)
@@ -329,7 +329,7 @@ ht-degree: 2%
             * [2018.1 Beta 3发行版活动](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-3-release-activity.md)
             * [2018.1 Beta 4发行版活动](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-4-release-activity.md)
             * [2018.1 Beta最终发行版活动](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-final-release-activity.md)
-         * 2017.3发行版
+         * 2017.3发行版 {#release-17-3}
             * [2017.3版活动](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity.md)
             * [2017.3发布活动概述](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md)
             * [2017.3 Beta 1发行版活动](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md)
@@ -338,15 +338,15 @@ ht-degree: 2%
             * [2017.3 Beta 4发行版活动](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md)
             * [2017.3 Beta最终发行版活动](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md)
             * [2017.3版本网络研讨会](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-webinars.md)
-         * 2017.2发行版
+         * 2017.2版 {#release-17-2}
             * [2017.2版活动](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity.md)
             * [2017.2发布活动概述](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md)
             * [2017.2 Beta 1发行版活动](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-1-release-activity.md)
             * [2017.2 Beta 2发行版活动](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-2-release-activity.md)
             * [2017.2 Beta 3发行版活动](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-3-release-activity.md)
             * [2017.2Beta决赛](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md)
-            * [2017.2版网络研讨会](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-webinars.md)
-         * Workfront R1版本
+            * [2017.2版本网络研讨会](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-webinars.md)
+         * Workfront R1版本 {#r1-release}
             * [Workfront R1版本](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/workfront-r1-release.md)
             * [R1发布活动概述](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md)
             * [2016年预览版中提供的功能](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md)
@@ -356,14 +356,14 @@ ht-degree: 2%
             * [R1预览4](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md)
             * [R1预览5](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md)
             * [R1发布网络研讨会](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-webinars.md)
-   * 公告
+   * 公告 {#announcements}
       * [公告](product-announcements/announcements/announcements.md)
       * [不再支持的功能计划](product-announcements/announcements/feature-removal-timeline.md)
       * [增强的Analytics弃用指南](product-announcements/announcements/enhanced-analytics-deprecation.md)
       * [维护窗口常见问题解答](product-announcements/announcements/maintenance-window-faq.md)
       * [向允许列表添加验证所需的更改](product-announcements/announcements/proofhq-domain-change-workfront.md)
       * [在新版Adobe Workfront Experience中取消订阅公告中心消息](product-announcements/announcements/unsubscribe-from-ac-messages.md)
-      * 公告存档
+      * 公告存档 {#announcement-archive}
          * [公告存档](product-announcements/announcements/announcement-archive/announcement-archive.md)
          * [自定义表单增强功能](product-announcements/announcements/announcement-archive/custom-form-enhancements.md)
          * [更新了适用于iOS和Android的移动应用程序（2017年8月初）](product-announcements/announcements/announcement-archive/updated-mobile-app.md)
@@ -375,20 +375,20 @@ ht-degree: 2%
          * [电子邮件欺骗和POP回复删除](product-announcements/announcements/announcement-archive/email-spoofing-pop-reply-message.md)
          * [列入允许列表群集1、2和3上的客户必须更新任何IP块，以防止阻塞Adobe Workfront服务](product-announcements/announcements/announcement-archive/clusters-1-3-update-whitelist.md)
          * [删除自定义SMTP作为传出电子邮件选项](product-announcements/announcements/announcement-archive/remove-custom-smtp.md)
-   * Beta项目
+   * Beta项目 {#beta}
       * [Beta项目](product-announcements/betas/betas.md)
-      * Canvas Dashboards测试版
+      * Canvas Dashboards测试版 {#canvas-dashboards-beta}
          * [Canvas功能板测试版信息](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
          * [报告画布测试版概述](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
          * [Canvas Dashboards测试版：发布活动](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
-      * 新的评论体验测试版
+      * 新的评论体验测试版 {#new-commenting-experience-beta}
          * [新增评论测试版体验信息](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
          * [新的评论体验](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
          * [新的评论体验发布活动](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
          * [新的评论体验常见问题解答](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
-* 管理和设置
+* 管理和设置 {#administration-and-setup}
    * [管理和设置：文章索引](administration-and-setup/administration-and-setup.md)
-   * 管理入门
+   * 管理入门 {#get-started-administration}
       * [管理入门：文章索引](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
       * [定义Adobe Workfront实施目标概述](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
       * [管理系统中的可用许可证](administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
@@ -399,9 +399,9 @@ ht-degree: 2%
       * [发送公告](administration-and-setup/get-started-wf-administration/view-send-announcements.md)
       * [浏览器要求](administration-and-setup/get-started-wf-administration/workfront-browser-requirements.md)
       * [基于平台的差异](administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
-   * 设置Workfront
+   * 设置Workfront {#set-up-wf}
       * [设置](administration-and-setup/set-up-workfront/set-up-workfront.md)
-      * 配置系统默认值
+      * 配置系统默认值 {#configure-system-defaults}
          * [配置默认值](administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
          * [配置项目首选项](administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)
          * [配置任务和问题首选项](administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)
@@ -419,14 +419,14 @@ ht-degree: 2%
          * [创建和编辑业务规则](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
          * [配置位置](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
          * [管理费率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)
-      * 配置时间表和工时表首选项
+      * 配置时间表和工时表首选项 {#configure-timesheets-schedules}
          * [配置时间表和工时表首选项](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
          * [时间表概述](administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)
          * [配置日志时间类型](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-users-log-time-in-hrs-or-days.md)
          * [时间表和小时首选项](administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
          * [管理小时类型](administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md)
          * [创建计划](administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
-      * 组织设置
+      * 组织设置 {#organization-setup}
          * [组织设置](administration-and-setup/set-up-workfront/organizational-setup/organizational-setup.md)
          * [管理公司](administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)
          * [管理公司成员资格](administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
@@ -436,12 +436,12 @@ ht-degree: 2%
          * [删除职位角色](administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md)
          * [取消激活工作角色](administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)
          * [覆盖工作角色记帐费率](administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)
-      * 系统跟踪的更新馈送
+      * 系统跟踪的更新馈送 {#system-tracked-updates}
          * [系统跟踪更新](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md)
          * [系统跟踪更新](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)
          * [配置系统更新](administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)
          * [配置用户更新的首选项](administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)
-      * Adobe Workfront测试环境
+      * Adobe Workfront测试环境 {#testing-environments}
          * [测试环境](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-testing-environments.md)
          * [预览Sandbox环境](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
          * [自定义刷新沙盒环境](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
@@ -454,9 +454,9 @@ ht-degree: 2%
          * [环境提升常见问题解答](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
          * [环境提升疑难解答](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
 
-   * 用户管理
+   * 用户管理 {#add-users}
       * [用户管理：文章索引](administration-and-setup/add-users/add-users.md)
-      * 创建和管理用户
+      * 创建和管理用户 {#create-manage-users}
          * [创建和管理用户：文章索引](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
          * [添加用户](administration-and-setup/add-users/create-and-manage-users/add-users.md)
          * [导入用户](administration-and-setup/add-users/create-and-manage-users/import-users.md)
@@ -474,7 +474,7 @@ ht-degree: 2%
          * [查看和导出审核日志](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
          * [查看用户登录信息](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
          * [在Adobe Admin Console中管理用户](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
-      * 新访问级别的工作方式
+      * 新访问级别的工作方式 {#access-levels}
          * [新访问级别的工作方式](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
          * [新访问级别概述](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
          * [新许可证概述](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
@@ -483,7 +483,7 @@ ht-degree: 2%
          * [对新许可计划上的非付费用户禁用自动升级选项](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
          * [比较不同许可证模型的功能](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/comparing-old-and-new-license-models.md)
          * [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
-      * 访问级别的工作方式
+      * 访问级别的工作方式 {#legacy-access-levels}
          * [访问级别的工作方式](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
          * [访问概述](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
          * [许可证概述](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
@@ -493,7 +493,7 @@ ht-degree: 2%
          * [可配置每种对象类型的访问权限](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
          * [内置访问级别](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
          * [列出用户的访问级别和许可证](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
-      * 配置对Workfront的访问权限
+      * 配置对Workfront的访问权限 {#configure-access}
          * [配置访问权限](administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
          * [创建或修改自定义访问级别](administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)
          * [授予管理访问权限](administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)
@@ -513,7 +513,7 @@ ht-degree: 2%
          * [授予对Scenario Planner的访问权限](administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
          * [授予对资源管理的访问权限](administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
          * [授予对Workfront目标的访问权限](administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
-      * Workfront中的单点登录
+      * Workfront中的单点登录 {#sso}
          * [单点登录：文章索引](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
          * [单点登录概述](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
          * [更新用户以进行单点登录](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
@@ -522,17 +522,17 @@ ht-degree: 2%
          * [使用ADFS使用SAML 2.0配置Adobe Workfront](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
          * [为Workfront和SAML 2.0启用Outlook](administration-and-setup/add-users/single-sign-on/enable-outlook-for-use-w-wf-and-saml-2.md)
          * [取消激活单点登录](administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
-      * 创建和管理团队
+      * 创建和管理团队 {#create-manage-teams}
          * [管理团队](administration-and-setup/add-users/create-and-manage-teams/create-and-manage-teams.md)
          * [创建团队](administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)
          * [编辑团队的设置](administration-and-setup/add-users/create-and-manage-teams/edit-team-settings-from-setup.md)
-   * 自定义Adobe Workfront
+   * 自定义Adobe Workfront {#customize}
       * [自定义Workfront](administration-and-setup/customize-workfront/customize-workfront.md)
-      * Adobe Workfront中的自定义品牌策略
+      * Adobe Workfront中的自定义品牌策略 {#custom-branding}
          * [自定义品牌](administration-and-setup/customize-workfront/brand-workfront/brand-workfront.md)
          * [品牌化您的实例](administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)
          * [配置自定义帮助 URL](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
-      * 布局模板
+      * 布局模板 {#layout-templates}
          * [布局模板](administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)
          * [默认Workfront布局](administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
          * [创建和管理布局模板](administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)
@@ -552,10 +552,10 @@ ht-degree: 2%
          * [将用户分配给布局模板](administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
          * [复制布局模板](administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
          * [使用API调用删除经典布局模板](administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
-      * 自定义表单
+      * 自定义表单 {#custom-forms}
          * [自定义表单：文章索引](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
          * [自定义表单概述](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
-         * 设计自定义表单
+         * 设计自定义表单 {#design-a-form}
             * [设计表单：文章索引](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form-toc.md)
             * [创建自定义表单](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
             * [从副本创建表单](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
@@ -563,13 +563,13 @@ ht-degree: 2%
             * [向自定义表单和字段添加逻辑规则](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
             * [自定义表单中的外部查找字段示例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
             * [组织和预览表单](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
-         * 管理自定义表单
+         * 管理自定义表单 {#manage-custom-forms}
             * [管理自定义表单和字段：文章索引](administration-and-setup/customize-workfront/create-manage-custom-forms/manage-custom-forms-toc.md)
             * [在现有自定义表单中添加或删除对象类型](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md)
             * [重命名自定义表单](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/rename-a-custom-form.md)
             * [为表单中的自定义字段和小部件配置共享](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md)
             * [共享自定义表单](administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
-            * [访问共享自定义字段](administration-and-setup/customize-workfront/create-manage-custom-forms/access-for-a-shared-custom-form-you-want-to-use.md)
+            * [访问共享的自定义字段](administration-and-setup/customize-workfront/create-manage-custom-forms/access-for-a-shared-custom-form-you-want-to-use.md)
             * [停用或重新激活自定义表单](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md)
             * [在报表中引用自定义表单](administration-and-setup/customize-workfront/create-manage-custom-forms/reference-custom-forms-in-report.md)
             * [查看使用自定义字段或小部件的报表](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)
@@ -579,7 +579,7 @@ ht-degree: 2%
             * [从系统中删除自定义字段或构件](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
             * [删除自定义表单](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
             * [API中的富文本字段存储](administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)
-      * 状态和优先级标签
+      * 状态和优先级标签 {#statuses-priority-labels}
          * [创建自定义状态和优先级标签](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md)
          * [状态概述](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)
          * [列出所有项目状态](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
@@ -595,23 +595,23 @@ ht-degree: 2%
          * [使用特定状态列出待处理对象](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/list-objects-pending-approval-certain-status.md)
          * [创建并自定义优先级](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md)
          * [创建和自定义问题严重程度](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md)
-      * 批准流程和里程碑页面
+      * 批准流程和里程碑页面 {#approvals-milestones}
          * [批准流程和里程碑路径](administration-and-setup/customize-workfront/configure-approval-milestone-processes/config-approval-milestone-paths.md)
          * [创建审批流程](administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
          * [编辑审批流程](administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md)
          * [全局审批流程设置](administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)
          * [更改如何影响分配的审批流程](administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md)
          * [创建里程碑路径](administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)
-      * 创建和管理自定义条件
+      * 创建和管理自定义条件 {#custom-conditions}
          * [自定义条件](administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)
          * [创建或编辑条件](administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)
          * [更改条件的显示顺序](administration-and-setup/customize-workfront/create-manage-custom-conditions/change-display-order-of-conditions.md)
          * [将条件设置为项目的默认值](administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md)
          * [将条件设置为任务和问题的默认值](administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md)
          * [删除自定义完成情况](administration-and-setup/customize-workfront/create-manage-custom-conditions/delete-custom-conditions.md)
-   * 管理Adobe Workfront
+   * 管理Adobe Workfront {#manage-wf}
       * [管理Workfront](administration-and-setup/manage-workfront/manage-workfront.md)
-      * 配置校对功能
+      * 配置校对功能 {#configure-proofing}
          * [配置校对](administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
          * [校样设置](administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)
          * [Workfront与Workfront Proof之间的用户同步](administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md)
@@ -623,10 +623,10 @@ ht-degree: 2%
          * [配置用户的验证访问权限](administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md)
          * [校对共享](administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md)
          * [自动化工作流模板](administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md)
-      * 配置报表
+      * 配置报表 {#configure-reports}
          * [配置报表](administration-and-setup/manage-workfront/configure-reports/configure-reports.md)
          * [隐藏报表](administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md)
-      * 电子邮件
+      * 电子邮件 {#emails}
          * [电子邮件](administration-and-setup/manage-workfront/emails/emails.md)
          * [电子邮件通知：文章索引](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
          * [配置事件通知](administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
@@ -639,7 +639,7 @@ ht-degree: 2%
          * [电子邮件模板](administration-and-setup/manage-workfront/emails/configure-email-templates.md)
          * [Workfront的电子邮件](administration-and-setup/manage-workfront/emails/allow-emails-from-wf-app.md)
          * [向新用户发送电子邮件邀请](administration-and-setup/manage-workfront/emails/manage-email-invitations.md)
-      * 安全性
+      * 安全性 {#security}
          * [安全性](administration-and-setup/manage-workfront/security/security.md)
          * [配置系统偏好设置](administration-and-setup/manage-workfront/security/configure-security-preferences.md)
          * [用于验证的密码](administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
@@ -653,19 +653,19 @@ ht-degree: 2%
          * [隐私政策](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
          * [增强型身份验证概述](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
          * [使用增强型身份验证时更新IDP中的SAML 2.0元数据](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
-      * 汇率
+      * 汇率 {#exchange-rates}
          * [汇率](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
          * [设置汇率](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
-      * 管理已删除的项目
+      * 管理已删除的项目 {#manage-deleted-items}
          * [管理已删除的项目](administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md)
          * [还原已删除的项目](administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)
          * [查看已恢复的项目](administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
          * [已删除的对象如何影响小时数](administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
          * [恢复单个子对象](administration-and-setup/manage-workfront/manage-deleted-items/restoring-individual-child-objects.md)
-      * 诊断
+      * 诊断 {#diagnostics}
          * [诊断](administration-and-setup/manage-workfront/run-diagnostics/diagnostics.md)
          * [使用诊断功能触发自动化](administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md)
-      * Kick-Starts
+      * Kick-Starts {#kick-starts}
          * [Kick-Starts](administration-and-setup/manage-workfront/using-kick-starts/kick-starts.md)
          * [通过Kick-Starts导出Workfront数据](administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)
          * [使用快速启动模板导入数据](administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)
@@ -674,14 +674,14 @@ ht-degree: 2%
          * [Kick-Starts场景：将多个选项自定义字段导入Workfront](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-multiple-option-custom-field-import.md)
          * [Kick-Starts方案：对象导入](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md)
          * [Kick-Starts常见问题解答](administration-and-setup/manage-workfront/using-kick-starts/frequently-asked-questions-about-kick-starts.md)
-   * 管理组
+   * 管理组 {#manage-groups}
       * [管理组](administration-and-setup/manage-groups/manage-groups.md)
-      * 组
+      * 组 {#groups}
          * [组：文章索引](administration-and-setup/manage-groups/groups-overview/groups-overview.md)
          * [组概述](administration-and-setup/manage-groups/groups-overview/groups.md)
          * [子组概述](administration-and-setup/manage-groups/groups-overview/subgroups.md)
          * [主组概述](administration-and-setup/manage-groups/groups-overview/home-groups.md)
-      * 创建和管理组
+      * 创建和管理组 {#create-manage-groups}
          * [创建和管理组](administration-and-setup/manage-groups/create-and-manage-groups/create-and-manage-groups.md)
          * [创建组](administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)
          * [管理组](administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md)
@@ -698,18 +698,18 @@ ht-degree: 2%
          * [停用或重新激活组](administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)
          * [删除组](administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
          * [导出组列表](administration-and-setup/manage-groups/create-and-manage-groups/export-a-list-of-groups.md)
-      * 创建和管理子组
+      * 创建和管理子组 {#create-manage-subgroups}
          * [创建和管理子组](administration-and-setup/manage-groups/create-and-manage-subgroups/create-and-manage-subgroups.md)
          * [创建子组](administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md)
          * [管理子组](administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)
          * [查看和管理子组成员](administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md)
-      * 组角色
+      * 组角色 {#group-roles}
          * [组角色](administration-and-setup/manage-groups/group-roles/group-roles.md)
          * [组管理员](administration-and-setup/manage-groups/group-roles/group-administrators.md)
          * [分配组管理员](administration-and-setup/manage-groups/group-roles/assign-user-as-group-administrator.md)
          * [组管理员权能](administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md)
          * [业务负责人概述](administration-and-setup/manage-groups/group-roles/business-leader-overview.md)
-      * 管理组状态
+      * 管理组状态 {#group-statuses}
          * [管理组状态](administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md)
          * [创建或编辑组状态](administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)
          * [重新排序组状态](administration-and-setup/manage-groups/manage-group-statuses/reorder-group-statuses-from-groups-area.md)
@@ -719,7 +719,7 @@ ht-degree: 2%
          * [删除组状态](administration-and-setup/manage-groups/manage-group-statuses/delete-a-group-status.md)
          * [移动和删除的组状态](administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-in-group-moved-or-deleted.md)
          * [移动和复制的组状态](administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-on-a-task-or-issue-that-is-moved-or-copied.md)
-      * 使用组的对象
+      * 使用组的对象 {#group-objects}
          * [管理组对象](administration-and-setup/manage-groups/work-with-group-objects/work-with-a-groups-objects.md)
          * [管理组公司](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-companies.md)
          * [管理组布局模板](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)
@@ -733,7 +733,7 @@ ht-degree: 2%
          * [管理组项目模板](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)
          * [管理组的已删除项目](administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-deleted-objects.md)
          * [管理组的已恢复项目](administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md)
-   * 配置集成
+   * 配置集成 {#configure-integrations}
       * [配置集成](administration-and-setup/configure-integrations/workfront-integrations.md)
       * [Adobe Workfront集成](administration-and-setup/configure-integrations/workfront-integrations-1.md)
       * [配置Experience Manager Assets as a Cloud Service集成](administration-and-setup/configure-integrations/configure-aacs-integration.md)
@@ -749,7 +749,7 @@ ht-degree: 2%
       * [为Workfront集成创建OAuth2应用程序](administration-and-setup/configure-integrations/create-oauth-application.md)
       * [查看和管理自定义OAuth2应用程序](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
       * [配置 JumpSeat 集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
-   * Blueprint
+   * Blueprint {#blueprints}
       * [Blueprint](administration-and-setup/blueprints/blueprints.md)
       * [Blueprint概述](administration-and-setup/blueprints/blueprints-overview.md)
       * [配置对Blueprint的访问权限](administration-and-setup/blueprints/configure-access-to-blueprints.md)
@@ -757,14 +757,14 @@ ht-degree: 2%
       * [配置Blueprint](administration-and-setup/blueprints/configure-template-package.md)
       * [安装Blueprint后要执行的操作](administration-and-setup/blueprints/best-next-actions-after-install.md)
       * [可用Blueprint的列表](administration-and-setup/blueprints/list-of-available-blueprints.md)
-   * Adobe Admin Console中的管理
+   * Adobe Admin Console中的管理 {#admin-in-admin-console}
       * [Adobe Admin Console中的Workfront管理](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
       * [准备Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
       * [了解Workfront迁移到Adobe Admin Console](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
-   * 管理和设置的提示、技巧和疑难解答
+   * 管理和设置的提示、技巧和疑难解答 {#admin-setup-tips}
       * [提示、技巧和疑难解答](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
       * [组管理员必须比其管理的组管理员拥有更高的访问权限](administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)
-      * [活动和已停用对象](administration-and-setup/tips-tricks-and-troubleshooting/acitve-and-deactivated-objects.md)
+      * [活动对象和取消激活的对象](administration-and-setup/tips-tricks-and-troubleshooting/acitve-and-deactivated-objects.md)
       * [ADFS注销URL不起作用](administration-and-setup/tips-tricks-and-troubleshooting/adfs-logout-url-doesnt-work.md)
       * [管理和设置常见问题解答](administration-and-setup/tips-tricks-and-troubleshooting/admin-and-setup-faq.md)
       * [自动提醒与提醒通知](administration-and-setup/tips-tricks-and-troubleshooting/auto-reminders-vs-reminder-notifications.md)
@@ -787,22 +787,22 @@ ht-degree: 2%
       * [Workfront：ZScaler 设置可能会导致性能下降](administration-and-setup/tips-tricks-and-troubleshooting/zscaler-affects-performance.md)
       * [用户凭据与SAML凭据](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
       * [更新访问级别中的自动升级选项](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
-* Adobe Workfront基础知识
+* Adobe Workfront基础知识 {#basics}
    * [Adobe Workfront基础知识：文章索引](workfront-basics/workfront-basics.md)
    * [Adobe Workfront术语表](workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
    * [Adobe Workfront浏览器要求](workfront-basics/workfront-browser-requirements.md)
    * [Adobe Workfront支持的语言](workfront-basics/supported-languages-in-workfront.md)
-   * 导航Adobe Workfront
+   * 导航Adobe Workfront {#navigate}
       * [导航Adobe Workfront：文章索引](workfront-basics/navigate-workfront/navigate-workfront.md)
-      * Adobe Workfront搜索
+      * Adobe Workfront搜索 {#search}
          * [Adobe Workfront搜索](workfront-basics/navigate-workfront/search/search.md)
          * [搜索Adobe Workfront](workfront-basics/navigate-workfront/search/search-workfront.md)
          * [使用对象的参考编号](workfront-basics/navigate-workfront/search/reference-number-of-objects.md)
-      * Adobe Workfront中的最近和收藏夹
-         * [Adobe Workfront中的最近和收藏夹](workfront-basics/navigate-workfront/recent-and-favorites/recent-and-favorites.md)
+      * Adobe Workfront中的最近访问和收藏夹 {#recents-and-favorites}
+         * [Adobe Workfront中的最近访问和收藏夹](workfront-basics/navigate-workfront/recent-and-favorites/recent-and-favorites.md)
          * [查看和管理收藏夹](workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md)
          * [查看最近项目](workfront-basics/navigate-workfront/recent-and-favorites/view-recent-items.md)
-      * Adobe Workfront中的列表
+      * Adobe Workfront中的列表 {#lists-in-adobe-workfront}
          * [Adobe Workfront中的列表](workfront-basics/navigate-workfront/use-lists/lists.md)
          * [开始使用Adobe Workfront中的列表](workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)
          * [将快速筛选器应用到列表](workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md)
@@ -823,7 +823,7 @@ ht-degree: 2%
       * [了解工作许可证用户的导航](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
       * [了解审阅许可证用户的导航](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
       * [Workfront中的项目、任务和问题日期概述](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
-   * 优先次序
+   * 优先次序 {#priorities}
       * [优先级：文章索引](workfront-basics/priorities/priorities-toc.md)
       * [优先级：即将发布的版本](workfront-basics/priorities/priorities-upcoming-releases.md)
       * [优先级入门](workfront-basics/priorities/get-started-with-priorities.md)
@@ -839,9 +839,9 @@ ht-degree: 2%
       * [在优先级中赶超工作](/help/quicksilver/workfront-basics/priorities/catch-me-up.md)
       * [在优先级中上传文档并创建验证](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md)
       * [在“优先级”日历中管理您的工作](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md)
-   * 主页
+   * 主页 {#home}
       * [主页](workfront-basics/using-home/home.md)
-      * 使用“主页”区域
+      * 使用“主页”区域 {#use-home-area}
          * [使用主页区域：文章索引](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
          * [主页入门](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
          * [在新主页中添加、编辑或删除构件](workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
@@ -855,7 +855,7 @@ ht-degree: 2%
          * [在主页区域的工作项上记录时间](workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
          * [在“主页”区域将项目标记为“完成”](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
          * [使用“我的更新”区域](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
-   * AI 助手
+   * AI 助手 {#ai-assistant}
       * [AI 助手](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
       * [AI Assistant概述](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)
       * [使用AI助手汇总](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
@@ -863,7 +863,7 @@ ht-degree: 2%
       * [使用AI助手修订计算字段公式](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)
       * [使用AI助手处理项目、任务和问题](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md)
       * [启用或禁用AI助手](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
-   * 更新工作项并查看更新
+   * 更新工作项并查看更新 {#update-work-items-view-updates}
       * [更新工作项并查看更新：文章索引](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
       * [更新部分概述](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
       * [更新工作](workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
@@ -875,13 +875,13 @@ ht-degree: 2%
       * [在备注报告中查看所有更新](workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
       * [处理此项工作并完成按钮概述](workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
       * [使用AI助手汇总更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/summarize-updates-ai-assistant.md)
-   * 使用自定义表单
+   * 使用自定义表单 {#work-with-custom-forms}
       * [使用自定义表单](workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
       * [向对象添加自定义表单](workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
       * [编辑自定义表单字段中的信息](workfront-basics/work-with-custom-forms/edit-custom-forms.md)
       * [导出自定义表单和对象详细信息](workfront-basics/work-with-custom-forms/export-custom-forms-details.md)
       * [管理附加到对象的自定义表单](workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
-   * 使用通知
+   * 使用通知 {#use-notifications}
       * [使用通知：文章索引](workfront-basics/using-notifications/use-notifications.md)
       * [通知概述](workfront-basics/using-notifications/wf-notifications.md)
       * [修改您自己的电子邮件通知](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
@@ -902,7 +902,7 @@ ht-degree: 2%
       * [通知：有关分配给我的工作的信息](workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md)
       * [通知：其他信息](workfront-basics/using-notifications/notifications-misc-information.md)
       * [通知：我已发出的请求](workfront-basics/using-notifications/notifications-requests-i-have-made.md)
-   * 向对象授予权限并请求权限
+   * 向对象授予权限并请求权限 {#grant-request-object-permissions}
       * [向对象授予权限并请求权限](workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
       * [对象权限共享概述](workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
       * [授予对“主页”区域中对象的访问权限](workfront-basics/grant-and-request-access-to-objects/grant-access-home.md)
@@ -920,13 +920,13 @@ ht-degree: 2%
       * [共享文档文件夹](workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)
       * [共享报告、功能板和日历](workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)
       * [从对象中删除权限](workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
-   * 管理您的帐户和配置文件
+   * 管理您的帐户和配置文件 {#manage-account-profile}
       * [管理您的帐户和个人资料](workfront-basics/manage-your-account-and-profile/manage-your-account-and-profile.md)
-      * 配置您的用户配置文件
+      * 配置您的用户配置文件 {#configure-user-profile}
          * [配置您的用户配置文件](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-user-profile.md)
          * [配置我的设置](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)
          * [配置个人休息时间](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)
-      * 管理您的Adobe Workfront帐户
+      * 管理您的Adobe Workfront帐户 {#manage-workfront-account}
          * [管理您的Adobe Workfront帐户](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
          * [登录到Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)
          * [注销Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-out-of-workfront.md)
@@ -934,9 +934,9 @@ ht-degree: 2%
          * [接收电子邮件邀请并创建Adobe Workfront密码](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
          * [在 [!DNL Adobe Workfront] 中创建帐户作为外部用户](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
          * [重置密码](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md)
-   * 移动应用程序
+   * 移动应用程序 {#mobile-apps}
       * [移动应用程序](workfront-basics/mobile-apps/mobile-apps.md)
-      * 使用Adobe Workfront移动应用程序
+      * 使用Adobe Workfront移动应用程序 {#use-workfront-mobile-app}
          * [使用Adobe Workfront移动应用程序](workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)
          * [适用于Android的Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
          * [成为Android Beta测试员](workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
@@ -952,34 +952,34 @@ ht-degree: 2%
          * [适用于移动设备管理(MDM)的Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
          * [为MobileIron配置Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
          * [Adobe Workfront移动设备应用程序中的审批](workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
-      * 使用Adobe Workfront视图
+      * 使用Adobe Workfront视图 {#use-workfront-view}
          * [使用Adobe Workfront视图](workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)
          * [开始使用Adobe Workfront视图](workfront-basics/mobile-apps/using-workfront-view/get-started-with-workfront-view.md)
          * [在Adobe Workfront视图中显示项目](workfront-basics/mobile-apps/using-workfront-view/display-projects-in-wokrfont-view.md)
          * [在Adobe Workfront视图中筛选项目列表](workfront-basics/mobile-apps/using-workfront-view/filter-project-lists-in-workfront-view.md)
          * [更新项目详细信息视图中的小组件](workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)
          * [在Adobe Workfront视图中添加更新](workfront-basics/mobile-apps/using-workfront-view/add-updates-in-workfront-view.md)
-      * Adobe Workfront移动应用程序的提示、技巧和疑难解答
+      * Adobe Workfront移动应用程序的提示、技巧和疑难解答 {#tips-tricks-for-mobile-apps}
          * [Adobe Workfront移动应用程序的提示、技巧和疑难解答](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)
          * [Adobe Workfront移动应用程序上的错误消息：“您的帐户未启用API。”](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
-   * Adobe Workfront基础知识的提示、技巧和疑难解答
+   * Adobe Workfront基础知识的提示、技巧和故障排除 {#tips-tricks-for-basics}
       * [Adobe Workfront的提示、技巧和故障排除：文章索引](workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
       * [在Adobe Workfront中查找帮助的快速指南](workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md)
       * [在Adobe Workfront中更改日期格式](workfront-basics/tips-tricks-and-troubleshooting/change-date-format-chrome.md)
       * [联系客户支持](workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)
       * [Adobe Workfront社区](workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md)
-      * [Adobe Workfront状态网站](workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)
+      * [Adobe Workfront Status站点](workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)
       * [创新实验室](workfront-basics/tips-tricks-and-troubleshooting/idea-exchange.md)
       * [跨时区工作](workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md)
       * [Workfront Proof Manager权限疑难解答](workfront-basics/tips-tricks-and-troubleshooting/wp-manager-permissions-troubleshooting.md)
-      * [过滤器按钮未显示在页眉中](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
+      * [筛选按钮不显示在页眉中](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
       * [我在处理的项目过滤器包括意外结果](workfront-basics/tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
       * [多个浏览器选项卡会导致Workfront注销](workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
       * [如何共享对象而不生成通知](workfront-basics/tips-tricks-and-troubleshooting/how-to-share-objects-without-sending-out-notifications.md)
-* 敏捷
+* 敏捷 {#agile}
    * [敏捷](agile/agile.md)
    * [展示板概述](agile/boards-overview.md)
-   * Adobe Workfront中的讨论区入门
+   * Adobe Workfront中的讨论区入门 {#boards-in-workfront}
       * [讨论区入门：文章索引](agile/get-started-with-boards/get-started-with-boards.md)
       * [Workfront展示板视频演示](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
       * [展示板早期功能选择加入](agile/get-started-with-boards/boards-early-feature-opt-in.md)
@@ -1000,25 +1000,25 @@ ht-degree: 2%
       * [在展示板中过滤和搜索](agile/get-started-with-boards/filter-search-in-board.md)
       * [添加标记](agile/get-started-with-boards/add-tags.md)
       * [讨论区电子邮件通知和首选项](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)
-   * 在展示板中使用敏捷规划工具
+   * 在展示板中使用敏捷规划工具 {#agile-planning-boards}
       * [Agile规划工具概述](agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
       * [管理展示板上的正在进行的工作(WIP)限制](agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)
       * [将引入列添加到展示板](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
-      * [在展示板上使用组](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
-      * [配置信息卡减少](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
-      * [将敏捷团队Kanban卡迁移到Workfront展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
+      * [在讨论区中使用组](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
+      * [配置卡衰减](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
+      * [将Agile团队看板卡迁移到Workfront讨论区](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
       * [管理工作流](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
       * [使用信息卡列表](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
       * [在工作流中创建迭代](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
       * [在工作流展示板上配置积压](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md)
       * [查看迭代量度](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
    * [Agile概述](agile/agile-overview.md)
-   * Adobe Workfront中的Agile入门
+   * Adobe Workfront中的Agile入门 {#agile-in-workfront}
       * [Adobe Workfront中的Agile入门](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
       * [创建敏捷团队](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
       * [配置Kanban](agile/get-started-with-agile-in-workfront/configure-kanban.md)
       * [配置Scrum](agile/get-started-with-agile-in-workfront/configure-scrum.md)
-   * 敏捷团队中的Kanban
+   * 敏捷团队中的Kanban {#kanban}
       * [敏捷团队中的Kanban](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
       * [Kanban概述](agile/use-kanban-in-an-agile-team/kanban-overview.md)
       * [将子任务添加到Kanban展示板上的现有故事](agile/use-kanban-in-an-agile-team/add-a-subtask-to-an-existing-story.md)
@@ -1033,16 +1033,16 @@ ht-degree: 2%
       * [在Kanban展示板上的故事上使用标志](agile/use-kanban-in-an-agile-team/use-flags-on-stories.md)
       * [将积压添加到Kanban板](agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)
       * [从Kanban展示板中删除故事](agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md)
-   * 敏捷团队中的Scrum
+   * 敏捷团队中的Scrum {#scrum}
       * [敏捷团队中的Scrum](agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
-      * 燃尽
+      * 燃尽 {#burndown}
          * [燃尽](agile/use-scrum-in-an-agile-team/burndown/burndown.md)
          * [敏捷燃尽图概述](agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)
          * [迭代完成状态概述](agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md)
          * [调整燃尽图的大小并折叠该图表](agile/use-scrum-in-an-agile-team/burndown/resize-collapse-burndown-chart.md)
          * [同步燃尽图中的数据](agile/use-scrum-in-an-agile-team/burndown/sync-the-burndown-chart.md)
          * [将备用组计划用于燃尽图](agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)
-      * 迭代
+      * 迭代 {#iterations}
          * [迭代](agile/use-scrum-in-an-agile-team/iterations/iterations.md)
          * [迭代概述](agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)
          * [创建迭代](agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md)
@@ -1050,7 +1050,7 @@ ht-degree: 2%
          * [将故事添加到现有迭代](agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)
          * [查看迭代](agile/use-scrum-in-an-agile-team/iterations/view-iteration.md)
          * [删除迭代](agile/use-scrum-in-an-agile-team/iterations/delete-iteration.md)
-      * Scrum展示板
+      * Scrum展示板 {#scrum-board}
          * [Scrum展示板](agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md)
          * [Scrum展示板概述](agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md)
          * [将子任务添加到Scrum展示板上的现有故事](agile/use-scrum-in-an-agile-team/scrum-board/add-a-subtask-to-an-existing-story-scrum.md)
@@ -1062,23 +1062,23 @@ ht-degree: 2%
          * [管理Scrum展示板上的故事和问题](agile/use-scrum-in-an-agile-team/scrum-board/manage-scrum-board.md)
          * [在Scrum展示板上更新故事和子任务的状态](agile/use-scrum-in-an-agile-team/scrum-board/update-status-of-stories-and-subtasks.md)
          * [在Scrum展示板上查看和编辑故事信息](agile/use-scrum-in-an-agile-team/scrum-board/view-and-edit-story-info.md)
-   * 在敏捷环境中工作
+   * 在敏捷环境中工作 {#work-in-agile-environment}
       * [在敏捷环境中工作](agile/work-in-an-agile-environment/work-in-an-agile-environment.md)
       * [创建敏捷故事](agile/work-in-an-agile-environment/create-an-agile-story.md)
       * [管理Agile积压](agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
       * [移动敏捷故事](agile/work-in-an-agile-environment/move-an-agile-story.md)
-   * 敏捷提示、技巧和疑难解答
+   * 敏捷提示、技巧和疑难解答 {#tips-tricks-agile}
       * [敏捷提示、技巧和疑难解答](agile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-agile.md)
       * [自定义状态未显示在敏捷故事板上](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
-* 文档
+* 文档 {#documents}
    * [文档：文章索引](documents/documents-overview.md)
-   * 向Adobe Workfront添加新文档
+   * 向Adobe Workfront添加新文档 {#add-new-documents-to-workfront}
       * [向Adobe Workfront添加新文档](documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
       * [将文档从您的文件系统添加到Adobe Workfront](documents/adding-documents-to-workfront/add-documents-from-file-system.md)
       * [链接来自外部应用程序的文档](documents/adding-documents-to-workfront/link-documents-from-external-apps.md)
       * [删除Adobe Workfront和外部文档存储提供商之间的链接](documents/adding-documents-to-workfront/remove-links-between-wf-and-doc-apps.md)
       * [请求文档](documents/adding-documents-to-workfront/request-a-document.md)
-   * 管理文档
+   * 管理文档 {#manage-documents}
       * [管理文档](documents/managing-documents/manage-documents.md)
       * [“文档”区域](documents/managing-documents/documents-area.md)
       * [文档详情概述](documents/managing-documents/document-details-overview.md)
@@ -1099,13 +1099,13 @@ ht-degree: 2%
       * [粘贴剪贴板中的图像](documents/managing-documents/paste-image-clipboard.md)
       * [批量编辑文档](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)
       * [Workfront中的AddBuilder文档详细信息](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
-   * 组织文档
+   * 组织文档 {#organize-documents}
       * [组织文档](documents/organizing-documents/organize-documents.md)
       * [创建文档文件夹](documents/organizing-documents/create-documents-folder.md)
       * [创建和管理智能文件夹](documents/organizing-documents/create-manage-smart-folders.md)
-   * Workfront和Experience Manager Assets集成
+   * Workfront和Experience Manager Assets集成 {#wf-aem-integrations}
       * [Workfront和Experience Manager Assets集成](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
-      * Workfront for Experience Manager增强型连接器
+      * Workfront for Experience Manager增强型连接器 {#wf-aem-enhanced-connector}
          * [Workfront for Experience Manager增强型连接器](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md)
          * [Workfront for Experience Manager增强型连接器概述](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md)
          * [Workfront for Experience Manager增强型连接器元数据概述](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-metadata-overview.md)
@@ -1113,7 +1113,7 @@ ht-degree: 2%
          * [使用增强型连接器发送文档](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-send-document.md)
          * [验证具有增强连接器的链接资产](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
          * [查看或下载具有增强型连接器的链接资产](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-view-download-asset.md)
-      * 适用于Experience Manager Assets和Assets Essentials的Adobe Workfront
+      * 适用于Experience Manager Assets和Assets Essentials的Adobe Workfront {#wf-aem-essentials}
          * [适用于Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
          * [Adobe Experience Manager Assets集成概述](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
          * [从Experience Manager Assets Essentials链接资源和文件夹](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
@@ -1126,18 +1126,18 @@ ht-degree: 2%
          * [在Experience Manager Assets Essentials集成中使用工作流](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
          * [使用Workfront Fusion将Workfront问题转换为包含Adobe Experience Manager工作流的项目](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-fusion-to-create-project-with-workflows.md)
          * [Adobe Experience Manager集成疑难解答](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
-   * 从旧版或增强型连接器迁移
+   * 从旧版或增强型连接器迁移 {#migrate-from-legacy-enhanced-connectors}
       * [从旧版或增强型连接器迁移](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
       * [从旧版或增强型连接器迁移到Workfront，以便实现Adobe Experience Manager as a Cloud Service集成](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
       * [从旧连接器迁移到增强连接器](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-to-enhanced.md)
       * [使用Adobe Experience Manager旧版连接器卸载Workfront](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md)
       * [使用Adobe Experience Manager增强型连接器卸载Workfront](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md)
       * [迁移链接的文件夹和文档](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/workfront-document-link-updates.md)
-* 管理工作
+* 管理工作 {#manage-work}
    * [管理工作](manage-work/manage-work.md)
-   * 项目
+   * 项目 {#projects}
       * [项目：文章索引](manage-work/projects/projects-overview.md)
-      * 计划项目
+      * 计划项目 {#plan-a-project}
          * [计划项目：文章索引](manage-work/projects/planning-a-project/plan-project-overview.md)
          * [计划项目概述](manage-work/projects/planning-a-project/plan-project.md)
          * [确定项目中的工作分解结构](manage-work/projects/planning-a-project/determine-project-work-breakdown-structure.md)
@@ -1158,14 +1158,14 @@ ht-degree: 2%
          * [项目、任务和问题的预计完成日期概述](manage-work/projects/planning-a-project/project-projected-completion-date.md)
          * [项目进度状态概述](manage-work/projects/planning-a-project/project-progress-status.md)
          * [项目预计开始日期概览](manage-work/projects/planning-a-project/project-projected-start-date.md)
-      * 创建项目
+      * 创建项目 {#create-projects}
          * [创建项目：文章索引](manage-work/projects/create-projects/create-projects-overview.md)
          * [创建项目](manage-work/projects/create-projects/create-project.md)
          * [请求项目](manage-work/projects/create-projects/request-project.md)
          * [使用模板创建项目](manage-work/projects/create-projects/create-project-from-template.md)
          * [从Microsoft项目导入项目](manage-work/projects/create-projects/import-project-from-ms-project.md)
          * [创建项目基线](manage-work/projects/create-projects/create-baselines.md)
-      * 更新项目工作
+      * 更新项目工作 {#update-work-on-a-project}
          * [更新项目工作：文章索引](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
          * [将状态应用于与组关联的工作](manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
          * [更新任务状态](manage-work/projects/updating-work-in-a-project/update-task-status.md)
@@ -1176,7 +1176,7 @@ ht-degree: 2%
          * [提交日期和计划完成日期之间的交互](manage-work/projects/updating-work-in-a-project/interactions-between-commit-and-planned-completion-dates.md)
          * [任务和问题的更新条件](manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md)
          * [更新项目完成情况](manage-work/projects/updating-work-in-a-project/update-condition-on-project.md)
-      * 管理项目
+      * 管理项目 {#manage-projects}
          * [管理项目：文章索引](manage-work/projects/manage-projects/manage-projects-overview.md)
          * [编辑项目](manage-work/projects/manage-projects/edit-projects.md)
          * [复制项目](manage-work/projects/manage-projects/copy-project.md)
@@ -1199,7 +1199,7 @@ ht-degree: 2%
          * [项目指标概述](manage-work/projects/manage-projects/project-metrics.md)
          * [项目限制概述](manage-work/projects/manage-projects/project-maximums.md)
          * [使用AI助手汇总更新](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
-      * 创建和管理项目模板
+      * 创建和管理项目模板 {#create-and-manage-project-templates}
          * [创建和管理项目模板：文章索引](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
          * [项目模板概述](manage-work/projects/create-and-manage-templates/project-template-overview.md)
          * [创建项目模板](manage-work/projects/create-and-manage-templates/create-template.md)
@@ -1216,12 +1216,12 @@ ht-degree: 2%
          * [从项目中删除模板信息](manage-work/projects/create-and-manage-templates/remove-template-from-project.md)
          * [模板中的开始天数和完成天数概览](manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)
          * [将模板附加到项目的概述](manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
-      * 定义业务案例
+      * 定义业务案例 {#define-business-case}
          * [定义业务案例：文章索引](manage-work/projects/define-a-business-case/define-business-case.md)
          * [业务案例的领域概述](manage-work/projects/define-a-business-case/areas-of-business-case.md)
          * [为项目创建业务案例](manage-work/projects/define-a-business-case/create-business-case.md)
          * [批准业务案例](manage-work/projects/define-a-business-case/approve-business-case.md)
-         * [业务案例财务字段概览](manage-work/projects/define-a-business-case/business-case-finances.md)
+         * [业务案例财务字段概述](manage-work/projects/define-a-business-case/business-case-finances.md)
          * [创建业务案例目标](manage-work/projects/define-a-business-case/create-business-case-goals.md)
          * [业务案例中的预算资源](manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)
          * [使用资源规划程序在业务案例中预算资源](manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md)
@@ -1230,13 +1230,13 @@ ht-degree: 2%
          * [将自定义表单附加到业务案例](manage-work/projects/define-a-business-case/attach-custom-form-to-business-case.md)
          * [创建和编辑项目风险](manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)
          * [导出项目的业务案例](manage-work/projects/define-a-business-case/export-business-case.md)
-      * 项目财务
+      * 项目财务 {#project-finances}
          * [项目财务：文章索引](manage-work/projects/project-finances/project-finances-overview.md)
          * [项目财务字段](manage-work/projects/project-finances/project-finances-overview-1.md)
          * [重新计算项目财务](manage-work/projects/project-finances/recalculate-project-finances.md)
          * [项目基线中包含的项目财务](manage-work/projects/project-finances/project-finances-included-in-project-baselines.md)
          * [管理项目财务方面的信息](manage-work/projects/project-finances/manage-project-finance-area.md)
-         * [更改项目币种](manage-work/projects/project-finances/change-project-currency.md)
+         * [更改项目货币](manage-work/projects/project-finances/change-project-currency.md)
          * [跟踪成本](manage-work/projects/project-finances/track-costs.md)
          * [管理项目支出](manage-work/projects/project-finances/manage-project-expenses.md)
          * [开单和收入概览](manage-work/projects/project-finances/billing-and-revenue-overview.md)
@@ -1259,15 +1259,15 @@ ht-degree: 2%
          * [计算计划工作的预算成本(BCWS)](manage-work/projects/project-finances/calculate-bcws.md)
          * [了解项目的预算劳力成本和预算小时数](manage-work/projects/project-finances/budgeted-labor-cost.md)
          * [计算计划劳力成本](manage-work/projects/project-finances/planned-labor-cost.md)
-      * 项目的提示、技巧和疑难解答
+      * 项目的提示、技巧和疑难解答 {#tips-tricks-troubleshooting-for-projects}
          * [提示、技巧和疑难解答：文章索引](manage-work/projects/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-for-projects.md)
          * [项目常见问题解答](manage-work/projects/tips-tricks-and-troubleshooting/projects-faqs.md)
          * [项目状态不会从完成更改为当前](manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md)
          * [计算示例 — 以任务汇总的形式计算EAC](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-by-rolling-up-from-tasks-example.md)
          * [计算示例 — 在项目级别计算EAC](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-at-project-level-example.md)
-   * 任务
+   * 任务 {#tasks}
       * [任务：文章索引](manage-work/tasks/tasks-overview.md)
-      * 任务信息
+      * 任务信息 {#task-information}
          * [任务信息](manage-work/tasks/task-information/task-information.md)
          * [任务概述](manage-work/tasks/task-information/tasks-overview.md)
          * [查看实际小时数](manage-work/tasks/task-information/actual-hours.md)
@@ -1288,13 +1288,13 @@ ht-degree: 2%
          * [预计日期和预计日期概览](manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
          * [任务原始持续时间和原始计划小时数概览](manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
          * [任务计划持续时间和持续时间之间的差异](manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
-      * 创建任务
+      * 创建任务 {#create-tasks}
          * [创建任务：文章索引](manage-work/tasks/create-tasks/create-tasks-overview-1.md)
          * [创建任务概述](manage-work/tasks/create-tasks/create-tasks-overview.md)
          * [在项目中创建任务](manage-work/tasks/create-tasks/create-tasks-in-project.md)
          * [创建子任务](manage-work/tasks/create-tasks/create-subtasks.md)
          * [创建周期性任务](manage-work/tasks/create-tasks/create-recurring-tasks.md)
-      * 分配任务
+      * 分配任务 {#assign-tasks}
          * [分配任务](manage-work/tasks/assign-tasks/assign-tasks-1.md)
          * [分配任务](manage-work/tasks/assign-tasks/assign-tasks.md)
          * [创建高级工作](manage-work/tasks/assign-tasks/create-advanced-assignments.md)
@@ -1304,7 +1304,7 @@ ht-degree: 2%
          * [管理任务的用户或角色分配百分比](manage-work/tasks/assign-tasks/manage-allocation-percentage-on-tasks.md)
          * [在任务中管理用户和角色分配小时数](manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md)
          * [进行智能分配](manage-work/tasks/assign-tasks/make-smart-assignments.md)
-      * 管理任务
+      * 管理任务 {#manage-tasks}
          * [管理任务](manage-work/tasks/manage-tasks/manage-tasks.md)
          * [编辑任务](manage-work/tasks/manage-tasks/edit-tasks.md)
          * [编辑列表中的任务](manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)
@@ -1318,7 +1318,7 @@ ht-degree: 2%
          * [项目关键路径概述](manage-work/tasks/manage-tasks/critical-path.md)
          * [将里程碑与任务关联](manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)
          * [将任务转换为项目](manage-work/tasks/manage-tasks/convert-task-to-project.md)
-      * 任务限制
+      * 任务限制 {#task-constraints}
          * [任务约束：文章索引](manage-work/tasks/task-constraints/task-constraints.md)
          * [任务限制概述](manage-work/tasks/task-constraints/task-constraint-overview.md)
          * [任务限制概述：开始时间不晚于](manage-work/tasks/task-constraints/start-no-later-than.md)
@@ -1333,7 +1333,7 @@ ht-degree: 2%
          * [任务限制概述：尽快](manage-work/tasks/task-constraints/as-soon-as-possible.md)
          * [任务限制概览：尽可能迟](manage-work/tasks/task-constraints/as-late-as-possible.md)
          * [更新任务的任务限制](manage-work/tasks/task-constraints/update-task-constraint-of-task.md)
-      * 任务持续时间和持续时间类型
+      * 任务持续时间和持续时间类型 {#task-duration-and-duration-types}
          * [任务持续时间和持续时间类型：文章索引](manage-work/tasks/taskdurtn/task-duration-duration-type.md)
          * [任务工期和工期类型概览](manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
          * [持续时间类型概览：计算分配](manage-work/tasks/taskdurtn/calculated-assignment.md)
@@ -1343,7 +1343,7 @@ ht-degree: 2%
          * [更新任务的持续时间类型](manage-work/tasks/taskdurtn/update-duration-type-of-task.md)
          * [使用简单持续时间类型更新任务的已计划小时数和持续时间](manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md)
          * [Adobe Workfront和Microsoft项目中的持续时间类型](manage-work/tasks/taskdurtn/workfront-ms-project-duration-types.md)
-      * 使用任务前置任务
+      * 使用任务前置任务 {#use-task-predecessors}
          * [使用任务前置任务](manage-work/tasks/use-prdcssrs/use-task-predecessors.md)
          * [前置任务概述](manage-work/tasks/use-prdcssrs/predecessors-overview.md)
          * [在任务列表上创建前置任务关系](manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md)
@@ -1354,13 +1354,13 @@ ht-degree: 2%
          * [强制前置任务](manage-work/tasks/use-prdcssrs/enforced-predecessors.md)
          * [滞后类型概述](manage-work/tasks/use-prdcssrs/lag-types.md)
          * [任务依赖性循环概述](manage-work/tasks/use-prdcssrs/dependency-loop-overview.md)
-      * 任务的提示、技巧和疑难解答
+      * 任务的提示、技巧和疑难解答 {#tips-tricks-and-troubleshooting-for-tasks}
          * [任务的提示、技巧和疑难解答](manage-work/tasks/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-tasks.md)
          * [任务常见问题解答](manage-work/tasks/tips-tricks-and-troubleshooting/tasks-faqs.md)
          * [预计持续时间与计划持续时间不匹配](manage-work/tasks/tips-tricks-and-troubleshooting/projected-and-planned-durations-dont-match.md)
-   * 问题
+   * 问题 {#issues}
       * [问题](manage-work/issues/issues-overview.md)
-      * 转换问题
+      * 转换问题 {#convert-issues}
          * [转换问题](manage-work/issues/convert-issues/convert-issues-overview.md)
          * [在Adobe Workfront中转化问题概述](manage-work/issues/convert-issues/convert-issues.md)
          * [在Adobe Workfront中将问题转化为项目](manage-work/issues/convert-issues/convert-issue-to-project.md)
@@ -1368,14 +1368,14 @@ ht-degree: 2%
          * [解析和可解析对象概述](manage-work/issues/convert-issues/resolving-and-resolvable-objects.md)
          * [将问题与其解析对象取消链接](manage-work/issues/convert-issues/unlink-issues-from-resolvable-objects.md)
          * [手动将问题的解决绑定到其他问题、任务或项目](manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md)
-      * 问题信息
+      * 问题信息 {#issue-information}
          * [问题信息](manage-work/issues/issue-information/issue-info-overview.md)
          * [问题持续时间概述](manage-work/issues/issue-information/issue-duration.md)
          * [更新问题优先级](manage-work/issues/issue-information/update-issue-priority.md)
          * [更新问题严重性](manage-work/issues/issue-information/update-issue-severity.md)
          * [问题计划完成日期概述](manage-work/issues/issue-information/issue-planned-completion-date.md)
          * [在引用问题时使用“opTask”和“issue”](manage-work/issues/issue-information/use-optask-instead-of-issue.md)
-      * 管理问题
+      * 管理问题 {#manage-issues}
          * [管理问题](manage-work/issues/manage-issues/manage-issues-overview.md)
          * [创建问题](manage-work/issues/manage-issues/create-issues.md)
          * [分配问题](manage-work/issues/manage-issues/assign-issues.md)
@@ -1388,10 +1388,10 @@ ht-degree: 2%
          * [修改问题分配的概述](manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
          * [修改列表中多个问题的用户分配](manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
          * [自动将问题状态从等待反馈更新为进行中](manage-work/issues/manage-issues/turn-issue-status-from-awf-to-inp-automatically.md)
-   * 甘特图
-      * 甘特图
+   * 甘特图 {#the-gantt-chart}
+      * 甘特图 {#the-gantt-chart}
       * [甘特图](manage-work/gantt-chart/the-gantt-chart.md)
-      * 甘特图概述
+      * 甘特图概述 {#gantt-chart-overview}
          * [甘特图概述](manage-work/gantt-chart/use-the-gantt-chart/gantt-chart-overview.md)
          * [甘特图入门](manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md)
          * [配置信息在甘特图上的显示方式](manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md)
@@ -1399,14 +1399,14 @@ ht-degree: 2%
          * [更新任务列表甘特图中的信息](manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)
          * [甘特图中的均衡资源](manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md)
          * [将甘特图导出到PDF](manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)
-   * 组合管理
+   * 组合管理 {#portfolio-management}
       * [组合管理](manage-work/portfolios/portfolio-management-overview.md)
-      * Adobe Workfront中的Portfolio概述
+      * Adobe Workfront中的Portfolio概述 {#portfolio-overview-in-adobe-workfront}
          * [项目组合](manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
          * [在项目组合中导航](manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
          * [Portfolio管理概述](manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
          * [Adobe Workfront中的Portfolio概述](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
-      * 创建和管理项目组合
+      * 创建和管理项目组合 {#create-and-manage-portfolios}
          * [创建和管理项目组合](manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
          * [创建项目组合](manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
          * [删除和停用项目组合](manage-work/portfolios/create-and-manage-portfolios/delete-deactivate-portfolios.md)
@@ -1414,7 +1414,7 @@ ht-degree: 2%
          * [将项目添加到项目组合](manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
          * [从项目组合中删除项目](manage-work/portfolios/create-and-manage-portfolios/remove-project-from-portfolio.md)
          * [审核请求的项目](manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md)
-      * 创建和管理程序
+      * 创建和管理程序 {#create-and-manage-programs}
          * [ [!DNL Adobe Workfront]中的项目概述](manage-work/portfolios/create-and-manage-programs/programs-overview.md)
          * [创建和管理程序](manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
          * [创建项目](manage-work/portfolios/create-and-manage-programs/create-program.md)
@@ -1422,25 +1422,25 @@ ht-degree: 2%
          * [将现有项目群添加到项目组合](manage-work/portfolios/create-and-manage-programs/move-program.md)
          * [将项目添加到项目群](manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
          * [从项目群中删除项目](manage-work/portfolios/create-and-manage-programs/remove-project-from-program.md)
-      * 在Portfolio Optimizer管理项目
+      * 在Portfolio Optimizer管理项目 {#manage-projects-in-portfolio-optimizer}
          * [在Portfolio Optimizer管理项目](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
          * [Portfolio Optimizer概述](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
          * [找到Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md)
          * [Portfolio Optimizer得分概述](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)
          * [在Portfolio Optimizer中排定项目优先级](manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)
-         * [在Portfolio Optimizer中优化项目](manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)
+         * [在“Portfolio优化器”中优化项目](manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)
          * [计算投资组合中净值的风险](manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md)
-   * 请求
+   * 请求 {#requests}
       * [请求](manage-work/requests/requests-overview.md)
-      * 创建和管理请求队列
+      * 创建和管理请求队列 {#create-and-manage-request-queues}
          * [创建和管理请求队列](manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md)
          * [创建请求队列](manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
-         * [提供对请求队列的访问权限](manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md)
+         * [提供对请求队列的访问](manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md)
          * [创建主题组](manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
          * [创建队列主题](manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
          * [创建路由规则](manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
          * [定义项目的请求类型](manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)
-      * 创建请求
+      * 创建请求 {#create-requests}
          * [创建请求](manage-work/requests/create-requests/create-requests.md)
          * [创建并提交请求](manage-work/requests/create-requests/create-submit-requests.md)
          * [从草稿创建请求](manage-work/requests/create-requests/create-requests-from-drafts.md)
@@ -1449,13 +1449,13 @@ ht-degree: 2%
          * [共享请求队列的链接](manage-work/requests/create-requests/share-link-to-request-queue.md)
          * [删除请求草稿](manage-work/requests/create-requests/delete-request-draft.md)
          * [复制并提交请求](manage-work/requests/create-requests/copy-and-submit-requests.md)
-   * 委派工作
+   * 委派工作 {#delegate-work}
       * [委派工作](manage-work/delegate-work/delegate-work.md)
       * [委派任务和问题概述](manage-work/delegate-work/delegate-work-overview.md)
       * [委派任务和问题](manage-work/delegate-work/how-to-delegate-work.md)
-* 团队和组
+* 团队和组 {#teams-groups}
    * [团队和组](people-teams-and-groups/people-teams-and-groups.md)
-   * 创建和管理团队
+   * 创建和管理团队 {#create-manage-teams}
       * [创建和管理团队](people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)
       * [团队概述](people-teams-and-groups/create-and-manage-teams/teams-overview.md)
       * [创建团队](people-teams-and-groups/create-and-manage-teams/create-a-team.md)
@@ -1466,39 +1466,39 @@ ht-degree: 2%
       * [为任务配置完成按钮](people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
       * [配置问题的完成按钮](people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
       * [将“处理此项工作”按钮替换为“开始”按钮](people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)
-   * 直接与他人合作
+   * 直接与他人合作 {#work-with-others}
       * [直接与他人合作](people-teams-and-groups/work-directly-with-others/work-directly-with-others.md)
       * [向其他用户发送私信](people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md)
       * [查看组织图](people-teams-and-groups/work-directly-with-others/view-the-org-chart.md)
-   * 与组和团队合作
+   * 与组和团队合作 {#work-with-groups-teams}
       * [与组和团队合作](people-teams-and-groups/work-with-groups-and-teams/work-with-groups-and-teams.md)
       * [Adobe Workfront中的组与团队](people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)
-   * 处理团队请求
+   * 处理团队请求 {#work-with-team-requests}
       * [处理团队请求](people-teams-and-groups/work-with-team-requests/work-with-team-requests.md)
       * [团队请求概述](people-teams-and-groups/work-with-team-requests/team-requests-overview.md)
       * [管理工作和团队请求](people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)
-   * 适用于团队和组的提示、技巧和疑难解答
+   * 适用于团队和组的提示、技巧和疑难解答 {#tips-tricks-people-teams-groups}
       * [适用于团队和组的提示、技巧和疑难解答](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
       * [用户名已被使用](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
-* 报告
+* 报告 {#reporting}
    * [报告和仪表板：文章索引](reports-and-dashboards/reports-and-dashboards-overview.md)
-   * 画布仪表板
+   * 画布仪表板 {#canvas-dashboards}
       * [画布仪表板](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
-      * 管理画布功能板
+      * 管理画布功能板 {#manage-canvas-dashboards}
          * [管理画布功能板](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
          * [Canvas功能板入门](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
          * [在画布功能板中添加、删除或排列报表](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
          * [共享画布功能板](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
-      * 画布功能板报表类型
+      * 画布功能板报表类型 {#report-types}
          * [画布功能板报表类型概述](reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
          * [将现有报表添加到画布功能板](reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
-   * 报告
+   * 报告 {#reports}
       * [报告](reports-and-dashboards/reports/reports-overview.md)
-      * 报告基础知识
-         * [Reporting basics: article index](reports-and-dashboards/reports/reporting/reporting-basics.md)
+      * 报告基础知识 {#report-basics}
+         * [报表基础知识：文章索引](reports-and-dashboards/reports/reporting/reporting-basics.md)
          * [报告入门](reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
          * [将默认报表另存为新报表](reports-and-dashboards/reports/reporting/save-default-reports-new-reports.md)
-      * 报表元素
+      * 报表元素 {#report-elements}
          * [报表元素概述](reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
          * [报表元素：筛选器、视图和分组](reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
          * [过滤器概述](reports-and-dashboards/reports/reporting-elements/filters-overview.md)
@@ -1517,12 +1517,12 @@ ht-degree: 2%
          * [删除过滤器、视图和分组](reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
          * [使用里程碑视图](reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)
          * [修改列宽和顺序](reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
-      * 使用内置报告
+      * 使用内置报告 {#built-in-reports}
          * [使用内置报告](reports-and-dashboards/reports/using-built-in-reports/use-built-in-reports.md)
          * [视图中的内置状态图标](reports-and-dashboards/reports/using-built-in-reports/built-in-status-icons-views.md)
          * [使用Adobe Workfront内置报告](reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
          * [资源利用率报表概览](reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)
-      * 创建和管理报告
+      * 创建和管理报告 {#create-manage-reports}
          * [创建和管理报告](reports-and-dashboards/reports/creating-and-managing-reports/create-manage-reports.md)
          * [创建报告](reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)
          * [创建自定义报表](reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)
@@ -1544,7 +1544,7 @@ ht-degree: 2%
          * [更改报告的所有者](reports-and-dashboards/reports/creating-and-managing-reports/change-owner-report.md)
          * [使用日记帐分录报表报告更新区域](reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)
          * [创建用户委派报告](reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md)
-      * 报表中计算的自定义数据
+      * 报表中计算的自定义数据 {#calculated-custom-data}
          * [报表中计算的自定义数据](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
          * [计算数据表达式概述](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)
          * [计算的自定义字段与计算的列](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md)
@@ -1553,7 +1553,7 @@ ht-degree: 2%
          * [计算自定义字段示例：在问题自定义表单上显示问题创建者的经理](reports-and-dashboards/reports/calc-cstm-data-reports/custom-field-manager-issue-creator-on-issue-form.md)
          * [计算自定义字段示例：在自定义表单中显示状态时间戳](reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md)
          * [计算自定义字段示例：显示字段的编辑历史记录](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md)
-      * 自定义视图、筛选器和分组示例
+      * 自定义视图、筛选器和分组示例 {#custom-view-samples}
          * [自定义视图、筛选器和分组示例：文章索引](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
          * [报告或列表：显示与对象关联的用户](reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
          * [筛选器：显示不完整的跨项目前置任务](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
@@ -1627,7 +1627,7 @@ ht-degree: 2%
          * [视图：用户工作角色占FTE可用性的百分比](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-job-role-percentage-fte-availability.md)
          * [查看：用户个人休息时间](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-personal-time-off.md)
          * [按多选自定义字段绘制报表图表](reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md)
-      * 文本模式资源
+      * 文本模式资源 {#text-mode}
          * [文本模式资源：文章索引](reports-and-dashboards/reports/text-mode/text-mode-resources.md)
          * [文本模式概述](reports-and-dashboards/reports/text-mode/understand-text-mode.md)
          * [文本模式的常见用途概述](reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
@@ -1642,13 +1642,13 @@ ht-degree: 2%
          * [在报表中引用收藏集](reports-and-dashboards/reports/text-mode/reference-collections-report.md)
          * [在文本模式过滤器中创建“OR”语句](reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md)
          * [使用EXISTS语句创建复杂的文本模式筛选器](reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
-      * 报表使用情况概述
+      * 报表使用情况概述 {#report-usage-overview}
          * [报表使用情况概述](reports-and-dashboards/reports/report-usage/report-usage-overview.md)
          * [访问和组织报告](reports-and-dashboards/reports/report-usage/access-organize-reports.md)
          * [创建报告活动报告](reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)
          * [了解如何在功能板上组织报表](reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)
          * [查看报告使用情况](reports-and-dashboards/reports/report-usage/view-report-usage.md)
-      * 日程表
+      * 日程表 {#calendars}
          * [日程表：文章索引](reports-and-dashboards/reports/calendars/calendars.md)
          * [日历报表概述](reports-and-dashboards/reports/calendars/calendar-reports-overview.md)
          * [在日历报告中使用自定义日期字段](reports-and-dashboards/reports/calendars/use-custom-dates.md)
@@ -1659,21 +1659,21 @@ ht-degree: 2%
          * [编辑现有日历报告](reports-and-dashboards/reports/calendars/edit-an-existing-calendar-report.md)
          * [删除日历报告](reports-and-dashboards/reports/calendars/delete-a-calendar-report.md)
          * [复制日历报告](reports-and-dashboards/reports/calendars/copy-a-calendar-report.md)
-         * [将临时事件添加到日历报告](reports-and-dashboards/reports/calendars/add-ad-hoc-events.md)
-      * 报告的提示、技巧和疑难解答
+         * [将临时事件添加到日历报表](reports-and-dashboards/reports/calendars/add-ad-hoc-events.md)
+      * 报告的提示、技巧和疑难解答 {#troubleshooting-tips-tricks-reports}
          * [报告的提示、技巧和疑难解答](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/tips-troubleshooting-reports.md)
          * [报表常见问题解答](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)
          * [日历上的错误消息：“此日历具有已停用用户的查看权限。”](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-message-calendar.md)
          * [运行报告时的错误消息：“您当前未登录。”](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-running-report.md)
          * [内联编辑日期班次日历显示在框外](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/date-edits-shift-calendar.md)
          * [共享列中的数据不会显示在功能板报表中](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/shared-columns-not-displayed-in-report-dashboard.md)
-   * 仪表板
+   * 仪表板 {#dashboards}
       * [仪表板](reports-and-dashboards/dashboards/dashboards-overview.md)
-      * 了解仪表板
+      * 了解仪表板 {#understand-dashboards}
          * [了解仪表板](reports-and-dashboards/dashboards/understanding-dashboards/understand-dashboards.md)
          * [仪表板入门](reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)
          * [了解报告在功能板上的显示方式](reports-and-dashboards/dashboards/understanding-dashboards/understand-how-reports-display-dashboard.md)
-      * 创建和管理报告面板
+      * 创建和管理报告面板 {#create-dashboards}
          * [创建和管理报告面板](reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md)
          * [创建功能板](reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)
          * [将报表添加到功能板](reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
@@ -1687,7 +1687,7 @@ ht-degree: 2%
          * [共享功能板](reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
          * [从功能板中删除外部页面](reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
          * [画布功能板概述](reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
-   * 已优化的分析
+   * 已优化的分析 {#enhanced-analytics}
       * [已优化的分析](enhanced-analytics/enhanced-analytics.md)
       * [增强的分析概述](enhanced-analytics/enhanced-analytics-overview.md)
       * [在增强的分析中应用过滤器](enhanced-analytics/use-enhanced-analytics-filters.md)
@@ -1698,7 +1698,7 @@ ht-degree: 2%
       * [在增强型分析中查看项目活动可视化](enhanced-analytics/project-activity-overview.md)
       * [在增强型分析中查看项目树状图可视化图表](enhanced-analytics/project-treemap-overview.md)
       * [在增强型分析中查看按团队分类的活动可视化图表](enhanced-analytics/activity-by-team-overview.md)
-   * Workfront数据连接
+   * Workfront数据连接 {#data-lake}
       * [Workfront Data Connect概述](reports-and-dashboards/data-lake/data-lake-overview.md)
       * [为Snowflake创建Reader帐户或连接](reports-and-dashboards/data-lake/create-a-reader-account.md)
       * [建立与Workfront数据连接的连接](reports-and-dashboards/data-lake/share-data-externally.md)
@@ -1706,25 +1706,25 @@ ht-degree: 2%
       * [数据字典测试](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
       * [Workfront Data Connect查询示例](reports-and-dashboards/data-lake/basic-query-examples.md)
       * [查看Workfront Data Connect使用情况量度](reports-and-dashboards/data-lake/view-usage-metrics.md)
-      * 增强的Analytics查询
+      * 增强的Analytics查询{#enhanced-analytics-queries}
          * [增强的Analytics查询](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/enhanced-analytics-queries.md)
          * [KPI查询](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
          * [外部测试版计划查询](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
          * [项目活动查询](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
          * [项目树状图查询](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
          * [按团队查询的活动](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
-      * Data Connect的提示、技巧和疑难解答
+      * Data Connect的提示、技巧和疑难解答{#troubleshooting-data-connect}
          * [Data Connect的提示、技巧和疑难解答](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/tips-tricks-troubleshooting-data-connect.md)
          * [Tableau Desktop无法建立连接](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-load-data.md)
          * [Power BI工具无法使用提供的密码进行连接](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-connect-with-provided-password.md)
-* 管理资源
+* 管理资源 {#manage-resources}
    * [管理资源](resource-mgmt/manage-resources.md)
-   * 资源管理
+   * 资源管理 {#resource-management}
       * [资源管理](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
       * [资源管理入门](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
-   * Adobe Workfront中的资源规划
+   * Adobe Workfront中的资源规划 {#resource-planning-in-adobe-workfront}
       * [资源计划：文章索引](resource-mgmt/resource-planning/resource-planning-overview.md)
-      * 资源池
+      * 资源池 {#resource-pools}
          * [资源池](resource-mgmt/resource-planning/resource-pools/resource-pools.md)
          * [资源池概述](resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
          * [创建资源池](resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
@@ -1749,10 +1749,10 @@ ht-degree: 2%
       * [从资源规划者导出信息](resource-mgmt/resource-planning/export-resource-planner.md)
       * [资源规划者预算小时数报告](resource-mgmt/resource-planning/report-on-budgeted-hours.md)
       * [资源规划者显示限制](resource-mgmt/resource-planning/resource-planner-display-limitations.md)
-   * 资源利用率
+   * 资源利用率 {#resource-utilization}
       * [资源利用率](resource-mgmt/resource-utilization/resource-utilization.md)
       * [查看资源利用率信息](resource-mgmt/resource-utilization/view-utilization-information.md)
-   * 工作负载均衡器
+   * 工作负载均衡器 {#the-workload-balancer}
       * [工作负载均衡器：文章索引](resource-mgmt/workload-balancer/workload-balancer.md)
       * [工作负载均衡器概述](resource-mgmt/workload-balancer/overview-workload-balancer.md)
       * [在工作负载均衡器中管理资源所需的访问权限](resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)
@@ -1767,11 +1767,11 @@ ht-degree: 2%
       * [导航工作负载均衡器](resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
       * [使用链接共享工作负载均衡器](resource-mgmt/workload-balancer/share-link-for-workload-balancer.md)
       * [使用摘要更新工作负载均衡器中的工作项](resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
-* 审阅和批准工作
+* 审阅和批准工作 {#review-and-approve-work}
    * [审阅和批准工作](review-and-approve-work/review-and-approve-work.md)
    * [Alpha计划 — 文档审批](review-and-approve-work/Documents/doc-approvals-alpha.md)
    * [非付费用户的有限文档和验证决策概述](review-and-approve-work/proof-doc-decision-limits.md)
-   * 工作审批
+   * 工作审批 {#work-approvals}
       * [工作审批](review-and-approve-work/manage-approvals/manage-approvals.md)
       * [审批流程概述](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
       * [请求文件审批](review-and-approve-work/manage-approvals/request-document-approvals.md)
@@ -1783,27 +1783,27 @@ ht-degree: 2%
       * [委托审批请求](review-and-approve-work/manage-approvals/delegate-approval-requests.md)
       * [将新的或现有的审批流程与工作关联](review-and-approve-work/manage-approvals/associate-approval-with-work.md)
       * [撤回提交的审批](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
-   * 资产和文档审阅和批准
+   * 资产和文档审阅和批准 {#document-reviews-and-approvals}
       * [资产和文档审查和批准：文章索引](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [资产和文档审阅和批准的可用功能](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
       * [统一审批概述](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [文档决策状态概述](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-      * 设置和管理资产和文档审批
+      * 设置和管理资产和文档审批 {#manage-asset-review-and-approval}
          * [设置和管理资产和文档审批：文章索引](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [创建文档审阅或审批请求](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [向资产或文档添加其他审阅人或审批人](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [从资产或文档中删除审批者或审阅者](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
          * [创建资产和文档的审批模板](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
-         * [将统一审批和校对结合使用](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
+         * [将统一审批和验证结合使用](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
          * [上传新文档版本并请求审批](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
          * [创建用于审阅和审批的报告仪表板](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
-      * 审阅和批准资源和文档
+      * 审阅和批准资源和文档 {#review-and-approve-documents}
          * [审阅和批准文档：文章索引](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
          * [审阅文档](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [批准文档](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
-   * 校对
+   * 校对 {#proofing}
       * [验证：文章索引](review-and-approve-work/proofing/proofing.md)
-      * 校样概述
+      * 校样概述 {#proofing-overview}
          * [验证概述：文章索引](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
          * [校对权限配置文件概述](review-and-approve-work/proofing/proofing-overview/permission-profiles.md)
          * [验证角色概述](review-and-approve-work/proofing/proofing-overview/proof-roles.md)
@@ -1816,7 +1816,7 @@ ht-degree: 2%
          * [校对安全性概述](review-and-approve-work/proofing/proofing-overview/proof-security-overview.md)
          * [校对进度和状态概述](review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md)
          * [Web验证查看器和桌面验证查看器的区别概述](review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
-      * 创建验证
+      * 创建验证 {#create-proofs}
          * [创建验证：文章索引](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
          * [配置个人校对默认值](review-and-approve-work/proofing/creating-proofs-within-workfront/set-proof-defaults.md)
          * [创建多页验证](review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)
@@ -1826,9 +1826,9 @@ ht-degree: 2%
          * [为文档创建验证](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md)
          * [使用基本工作流创建高级验证](review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
          * [使用自动化工作流创建高级验证](review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
-      * 在Adobe Workfront中管理验证
+      * 在Adobe Workfront中管理验证 {#manage-proofs-in-workfront}
          * [在Adobe Workfront中管理验证：文章索引](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
-         * 管理校样
+         * 管理校样 {#manage-proofs}
             * [管理校样：文章索引](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs/manage-proofs.md)
             * [编辑校对设置](review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md)
             * [在Adobe Workfront中打印验证摘要](review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)
@@ -1837,44 +1837,44 @@ ht-degree: 2%
             * [在Adobe Workfront中查看有关验证的活动](review-and-approve-work/proofing/managing-proofs-within-workfront/view-activity-on-proof-in-wf.md)
             * [使用验证审批报告](review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
             * [从Adobe Workfront访问Workfront Proof](review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)
-         * 管理验证版本
+         * 管理验证版本 {#manage-proof-versions}
             * [管理校对版本：文章索引](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
             * [创建新版本的验证](review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md)
             * [查看校对版本](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-proof-versions.md)
             * [查看和管理校对版本详细信息](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-version-details.md)
             * [下载校对版本](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/download-versions.md)
-         * 管理校对查看者
+         * 管理校对查看者 {#manage-proof-reviewers}
             * [管理校对审阅人：文章索引](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-reviewers/manage-proof-reviewers.md)
             * [配置验证的访问和订阅设置](review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
             * [在Adobe Workfront中共享验证](review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
             * [向审核者发送有关验证的电子邮件](review-and-approve-work/proofing/managing-proofs-within-workfront/send-email-messages-to-users-proof.md)
-         * 管理校对通知
+         * 管理校对通知 {#manage-proof-notifications}
             * [管理验证通知：文章索引](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-notifications/manage-proof-notifications.md)
             * [管理验证评论和决策的通知](review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
-         * 管理校对截止日期
+         * 管理校对截止日期 {#manage-proof-deadlines}
             * [管理校对截止日期：文章索引](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/manage-proof-deadlines.md)
             * [设置现有基本验证的截止日期](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-deadline-basic-proof.md)
             * [添加、编辑或删除阶段的截止日期](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/add-edit-delete-deadline.md)
             * [设置单个审阅人截止日期](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-individual-deadlines.md)
             * [删除单个审阅人截止日期](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/remove-individual-deadlines.md)
-         * 管理自动验证
-            * [管理自动验证：文章索引](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-automated-proofs/manage-automated-proofs.md)
-            * [在验证上查看自动化工作流暂存](review-and-approve-work/proofing/managing-proofs-within-workfront/view-aw-stages-proof.md)
-            * [查看验证上的活动阶段](review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md)
-            * [为现有验证创建或编辑自动工作流](review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
+         * 管理自动验证 {#manage-automated-proofs}
+            * [管理自动校样：文章索引](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-automated-proofs/manage-automated-proofs.md)
+            * [在校样上查看自动化工作流阶段](review-and-approve-work/proofing/managing-proofs-within-workfront/view-aw-stages-proof.md)
+            * [在校样上查看活动阶段](review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md)
+            * [创建或编辑现有证明的自动工作流](review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
             * [编辑校样阶段和审阅者](review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-stages-and-reviewers.md)
             * [将基本工作流转换为验证上的自动工作流](review-and-approve-work/proofing/managing-proofs-within-workfront/convert-basic-automatic-workflow.md)
             * [将阶段和用户添加到验证上的自动工作流](review-and-approve-work/proofing/managing-proofs-within-workfront/add-stages-users-to-automated-workflow-proof.md)
-      * 使用桌面校对查看器
+      * 使用桌面校对查看器 {#use-the-desktop-proofing-viewer}
          * [使用桌面校对查看器：文章索引](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/use-desktop-proofing-viewer.md)
          * [安装桌面校对查看器](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)
          * [更新桌面校对查看器](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)
          * [在桌面验证查看器中打开验证](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md)
          * [在桌面校对查看器中查看非交互式内容](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/review-non-interactive-content-in-desktop-proofing-viewer.md)
          * [常见问题解答 — 桌面校对查看器](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/faq-desktop-proofing-viewer.md)
-      * 在Adobe Workfront中查看校样
+      * 在Adobe Workfront中查看校样 {#review-proofs-in-workfront}
          * [在Adobe Workfront中查看验证：文章索引](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
-         * 审查验证
+         * 审查验证 {#review-a-proof}
             * [查看验证：文章索引](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
             * [在验证中查看内容](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-a-proof.md)
             * [测量验证中的区域](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/measure-an-area-proof.md)
@@ -1886,13 +1886,13 @@ ht-degree: 2%
             * [比较校样](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/compare-proofs.md)
             * [在验证查看器中下载验证](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/download-a-proof-in-viewer.md)
             * [验证查看器中的键盘快捷键](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)
-            * [在Web校样查看器中设置交互式内容校样](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md)
-            * [从校样查看器共享校样](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)
-            * [在校样查看器中查看以前的校样版本](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-previous-version.md)
+            * [在Web验证查看器中设置交互式内容验证](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md)
+            * [从验证查看者共享验证](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)
+            * [在验证查看器中查看以前的验证版本](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-previous-version.md)
             * [在验证查看器中更改交互式验证分辨率](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)
             * [配置校对查看器设置](review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)
             * [使用Adobe Workfront审阅工具审阅交互式内容](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md)
-         * 对验证进行评论
+         * 对验证进行评论 {#comment-on-a-proof}
             * [对验证的评论：文章索引](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
             * [对验证进行评论](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md)
             * [查看并回复验证评论](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md)
@@ -1901,13 +1901,13 @@ ht-degree: 2%
             * [解决验证评论](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/resolve-proof-comments.md)
             * [删除校对评论](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/delete-proof-comment.md)
             * [对验证评论使用操作](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md)
-            * [标记用户以共享证明](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md)
-         * 对验证做出决定
+            * [标记要共享验证的用户](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md)
+         * 对验证做出决定 {#make-decision-on-proof}
             * [对验证做出决定：文章索引](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decision-on-proof.md)
             * [审批验证](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/approve-proof.md)
             * [在验证查看者中做出验证决策](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)
             * [更改有关验证的现有决策](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/change-existing-decision.md)
-      * Adobe Workfront中校对的提示、技巧和疑难解答
+      * Adobe Workfront中校对的提示、技巧和疑难解答 {#ttt-proofing-in-workfront}
          * [Adobe Workfront中校对的提示、技巧和疑难解答：文章索引](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-proofing.md)
          * [在Adobe Workfront中列出具有验证许可证的用户](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/report-which-users-have-proofing-license-in-wf.md)
          * [批量编辑校对权限配置文件字段](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
@@ -1915,16 +1915,16 @@ ht-degree: 2%
          * [常见问题解答：Adobe Workfront中的验证 — 美国迁移到EMEA](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
          * [上载后文档名称已更改并包含无效字符](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
          * [校对带有嵌入视频的PowerPoint](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
-   * 审批的提示、技巧和疑难解答
+   * 审批的提示、技巧和疑难解答 {#ttt-approvals}
       * [审批的提示、技巧和疑难解答：文章索引](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [查看所有用户的验证和文档决策数](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
-* 时间表
+* 时间表 {#timesheets}
    * [时间表：文章索引](timesheets/timesheets-all.md)
-   * 工时表详细信息
+   * 工时表详细信息 {#details}
       * [工时表详细信息：文章索引](timesheets/timesheets/timesheets.md)
       * [工时表概述](timesheets/timesheets/timesheets-overview.md)
       * [工时表布局概述](timesheets/timesheets/timesheet-layout.md)
-   * 创建和管理工时表
+   * 创建和管理工时表 {#create-and-manage-timesheets-in-adobe-workfront}
       * [创建和管理时间表：文章索引](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
       * [创建、编辑和分配时间表配置文件](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
       * [定义小时类型和可用性](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
@@ -1939,16 +1939,16 @@ ht-degree: 2%
       * [删除Adobe Workfront中的工时表](timesheets/create-and-manage-timesheets/delete-timesheets.md)
       * [手动生成工时表](timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
       * [导出时间表列表](timesheets/create-and-manage-timesheets/export-timesheets.md)
-   * 配置时间的记录方式
+   * 配置时间的记录方式 {#configure-timesheet-preferences}
       * [配置时间的记录方式：文章索引](timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
       * [配置时间是以小时还是天为单位记录](timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)
-   * 时间表的提示、技巧和疑难解答
+   * 时间表的提示、技巧和疑难解答 {#tips-tricks-troubleshooting-for-timesheets}
       * [提示、技巧和疑难解答：文章索引](timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)
       * [更正工时表的工作周开始日期](timesheets/tips-tricks-and-troubleshooting/correct-start-day-of-work-week.md)
       * [在利率变化时，防止“重新计算财务”操作影响历史小时数](timesheets/tips-tricks-and-troubleshooting/prevent-recalculate-finance-action.md)
       * [使用Adobe Workfront API跟踪小时记录](timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)
       * [无法记录未来日期的时间](timesheets/tips-tricks-and-troubleshooting/unable-to-log-time-future-dates.md)
-* Adobe Workfront Scenario Planner
+* Adobe Workfront Scenario Planner {#scenario-planner}
    * [Adobe Workfront Scenario Planner](scenario-planner/scenario-planning.md)
    * [Scenario Planner入门](scenario-planner/get-started-with-scenario-planning.md)
    * [Scenario Planner概述](scenario-planner/scenario-planner-overview.md)
@@ -1970,10 +1970,10 @@ ht-degree: 2%
    * [在Scenario Planner中共享计划](scenario-planner/share-a-plan.md)
    * [在任务列表中显示项目和计划的角色分配](scenario-planner/show-role-allocation-task-list-nwe.md)
    * [在工作负载均衡器显示项目和计划的角色分配](scenario-planner/show-role-allocation-workload-balancer.md)
-* Adobe Workfront目标
+* Adobe Workfront目标 {#adobe-workfront-goals}
    * [Adobe Workfront目标：文章索引](workfront-goals/workfront-goals.md)
    * [Adobe Workfront目标概述](workfront-goals/goal-management/wf-goals-overview.md)
-   * Adobe Workfront目标中的目标管理
+   * Adobe Workfront目标中的目标管理 {#goal-management}
       * [Adobe Workfront目标中的目标管理：文章索引](workfront-goals/goal-management/goal-management.md)
       * [Adobe Workfront Goals入门](workfront-goals/goal-management/getting-started-with-wf-goals.md)
       * [在Adobe Workfront目标中访问和打开目标](workfront-goals/goal-management/access-goals-in-wf-goals.md)
@@ -1990,20 +1990,20 @@ ht-degree: 2%
       * [在Adobe Workfront目标中管理目标注释](workfront-goals/goal-management/manage-goal-comments.md)
       * [在Adobe Workfront目标的“目标详细信息”部分中更新目标](workfront-goals/goal-management/update-goals-in-goal-details-panel.md)
       * [查看Adobe Workfront目标中的有问题的目标](workfront-goals/goal-management/view-in-trouble-goals.md)
-   * Adobe Workfront目标中的目标对齐方式
+   * Adobe Workfront目标中的目标对齐方式 {#goal-alignment}
       * [Adobe Workfront目标中的目标对齐方式：文章索引](workfront-goals/goal-alignment/goal-alignment.md)
       * [通过在Adobe Workfront目标中连接目标来调整目标](workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
       * [通过将结果和活动转换为目标来调整目标](workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
       * [Adobe Workfront目标中的目标对齐概述](workfront-goals/goal-alignment/goal-alignment-overview.md)
       * [在Adobe Workfront目标中的目标对齐部分中进行导航](workfront-goals/goal-alignment/navigate-goal-alignment-chart.md)
       * [在Adobe Workfront目标中移除目标对齐方式](workfront-goals/goal-alignment/remove-goal-alignment.md)
-   * 目标审查和Adobe Workfront目标部分
+   * 目标审查和Adobe Workfront目标部分 {#goal-review-and-adobe-workfront-goals-sections}
       * [目标审查和Adobe Workfront目标部分](workfront-goals/goal-review-and-workfront-goals-sections/goal-review-wf-goals-sections.md)
       * [Adobe Workfront目标部分概述](workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)
       * [在Adobe Workfront目标中更新目标进度](workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
       * [在Adobe Workfront目标的目标列表中管理目标](workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)
       * [查看图表以了解Adobe Workfront目标中的目标进度趋势](workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)
-   * Adobe Workfront目标中的结果和活动
+   * Adobe Workfront目标中的结果和活动 {#results-activities-adobe-workfront-goals}
       * [Adobe Workfront目标中的结果和活动](workfront-goals/results-and-activities/results-and-activities.md)
       * [将活动添加到Adobe Workfront目标中的目标](workfront-goals/results-and-activities/add-activities-to-goals.md)
       * [将结果添加到Adobe Workfront目标中的目标](workfront-goals/results-and-activities/add-results-to-goals.md)
@@ -2011,14 +2011,14 @@ ht-degree: 2%
       * [在Adobe Workfront目标中编辑结果和活动](workfront-goals/results-and-activities/edit-results-and-activities.md)
       * [Adobe Workfront目标中的结果和活动入门](workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
       * [从Adobe Workfront目标中的目标删除进度指示器](workfront-goals/results-and-activities/remove-results-activities-from-goals.md)
-   * Adobe Workfront目标设置
+   * Adobe Workfront目标设置 {#adobe-workfront-goal-settings}
       * [Adobe Workfront目标设置](workfront-goals/workfront-goals-settings/wf-goals-settings.md)
       * [自定义Adobe Workfront目标术语](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)
       * [在Workfront目标中共享目标](workfront-goals/workfront-goals-settings/share-a-goal.md)
       * [启用Adobe Workfront Goals通知](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
-* Adobe Workfront规划
+* Adobe Workfront规划 {#adobe-workfront-planning}
    * [Adobe Workfront规划：文章索引](planning/planning-information.md)
-   * Adobe Workfront规划一般信息
+   * Adobe Workfront规划一般信息 {#adobe-workfront-planning-general-information}
       * [Adobe Workfront规划一般信息：文章索引](planning/general/planning-general-article-index.md)
       * [Adobe Workfront规划概述](planning/general/planning-overview.md)
       * [Adobe Workfront规划最佳实践](planning/general/planning-best-practices.md)
@@ -2027,7 +2027,7 @@ ht-degree: 2%
       * [Adobe Workfront 2024年计划发布活动](planning/general/release-activity.md)
       * [Adobe Workfront 2023年计划发布活动](planning/general/release-activity-archives-2023.md)
       * [Adobe Workfront Planning对象限制概述](planning/general/limitations-overview.md)
-   * Adobe Workfront规划架构
+   * Adobe Workfront规划架构 {#adobe-workfront-planning-architecture}
       * [架构：文章索引](planning/architecture/architecture-information.md)
       * [工作区概述](planning/architecture/workspaces-overview.md)
       * [创建工作区](planning/architecture/create-workspaces.md)
@@ -2042,7 +2042,7 @@ ht-degree: 2%
       * [删除记录类型](planning/architecture/delete-record-types.md)
       * [连接记录类型和记录的示例](planning/architecture/example-connect-record-types-and-records.md)
       * [工作区模板列表](planning/architecture/workspace-templates.md)
-   * Adobe Workfront规划字段
+   * Adobe Workfront规划字段 {#adobe-workfront-planning-fields}
       * [字段：文章索引](planning/fields/fields-information.md)
       * [字段概述](planning/fields/fields-overview.md)
       * [创建字段](planning/fields/create-fields.md)
@@ -2051,7 +2051,7 @@ ht-degree: 2%
       * [公式字段概述](planning/fields/formula-fields.md)
       * [从Adobe Workfront导入字段](planning/fields/import-fields-from-workfront.md)
       * [主字段概述](planning/fields/primary-field-overview.md)
-   * Adobe Workfront Planning访问权限
+   * Adobe Workfront Planning访问权限 {#adobe-workfront-planning-access}
       * [Adobe Workfront Planning访问信息：文章索引](planning/access/access-information.md)
       * [Adobe Workfront Planning访问概述](planning/access/access-overview.md)
       * [Adobe Workfront Planning中的共享权限概述](planning/access/sharing-permissions-overview.md)
@@ -2060,7 +2060,7 @@ ht-degree: 2%
       * [共享记录类型](planning/access/share-record-types.md)
       * [共享视图](planning/access/share-views.md)
       * [请求对视图或工作区的权限](planning/access/request-permissions.md)
-   * Adobe Workfront Planning记录
+   * Adobe Workfront Planning记录 {#adobe-workfront-planning-records}
       * [记录：文章索引](planning/records/records-information.md)
       * [创建记录](planning/records/create-records.md)
       * [通过从CSV或Excel文件导入信息创建记录](planning/records/import-file-to-create-records.md)
@@ -2080,36 +2080,36 @@ ht-degree: 2%
       * [导出记录的详细信息](planning/records/export-the-record-page.md)
       * [在将Workfront对象连接到记录时，从Workfront Planning创建这些对象](planning/records/create-workfront-objects-from-workfront-planning.md)
       * [使用Workfront Planning记录自动化创建对象](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
-   * Adobe Workfront规划请求
+   * Adobe Workfront规划请求 {#adobe-workfront-planning-requests}
       * [Adobe Workfront规划请求：文章索引](planning/requests/requests-article-index.md)
       * [在Adobe Workfront Planning中创建和管理申请表单](planning/requests/create-request-form.md)
       * [提交Adobe Workfront Planning请求以创建记录](planning/requests/submit-requests.md)
       * [在Adobe Workfront Planning中取消发布请求表单](planning/requests/unpublish-request-form.md)
       * [在Adobe Workfront Planning中为申请表单添加批准](planning/requests/add-approval-to-request-form.md)
       * [在Adobe Workfront Planning中批准请求](planning/requests/approve-request.md)
-   * Adobe Workfront Planning视图
+   * Adobe Workfront Planning视图 {#adobe-workfront-planning-views}
       * [视图：文章索引](planning/views/views-information.md)
       * [管理记录视图](planning/views/manage-record-views.md)
       * [管理表视图](planning/views/manage-the-table-view.md)
       * [管理时间线视图](planning/views/manage-the-timeline-view.md)
       * [管理日历视图](planning/views/manage-the-calendar-view.md)
-   * Adobe Workfront计划通知
-      * [Adobe Workfront计划通知：文章索引](planning/notifications/notifications-information.md)
+   * Adobe Workfront计划通知 {#adobe-workfront-planning-notifications}
+      * [Adobe Workfront规划通知：文章索引](planning/notifications/notifications-information.md)
       * [管理Adobe Workfront Planning通知首选项](planning/notifications/manage-notification-preferences.md)
       * [管理Adobe Workfront Planning电子邮件通知](planning/notifications/manage-planning-email-notifications.md)
       * [管理Adobe Workfront Planning应用程序内通知](planning/notifications/manage-planning-in-app-notifications.md)
-* Adobe Workfront集成
+* Adobe Workfront集成 {#adobe-workfront-integrations}
    * [Adobe Workfront集成](workfront-integrations-and-apps/workfront-integrations.md)
    * [Adobe Workfront内置集成概述](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
    * [Adobe Workfront集成方法](workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
-   * 适用于Creative Cloud的Adobe Workfront
+   * Adobe WorkfrontCreative Cloud版 {#workfront-for-creative-cloud}
       * [适用于Creative Cloud的Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
-      * 安装适用于Creative Cloud应用程序的Adobe Workfront插件
+      * 安装适用于Creative Cloud应用程序的Adobe Workfront插件 {#install-wf-cc}
          * [安装适用于Creative Cloud应用程序的Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
          * [安装并打开适用于Photoshop的Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
          * [安装并打开适用于XD的Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
          * [安装并打开 [!DNL Adobe Workfront for design and video]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
-      * 使用适用于Creative Cloud应用程序的Adobe Workfront插件管理工作
+      * 使用适用于Creative Cloud应用程序的Adobe Workfront插件管理工作 {#manage-wf-cc}
          * [使用适用于Creative Cloud应用程序的Adobe Workfront插件管理工作](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
          * [使用Adobe Workfront插件查找您的工作](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md)
          * [使用Adobe Workfront插件查看工作项信息](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-view-work-info.md)
@@ -2117,7 +2117,7 @@ ht-degree: 2%
          * [使用Adobe Workfront插件将工作项标记为完成](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [使用Adobe Workfront插件记录时间](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
          * [管理来自Adobe Creative Cloud的 [!DNL Adobe Workfront] 通知](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
-      * 使用适用于Creative Cloud应用程序的Adobe Workfront插件上传文档和验证
+      * 使用适用于Creative Cloud应用程序的Adobe Workfront插件上传文档和验证 {#upload-docs-proofs-wf-cc}
          * [将文档和验证从 [!DNL Adobe Workfront plugin] 上载到 [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [使用适用于Creative Cloud应用程序的Adobe Workfront插件上传文档和验证](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
          * [从Photoshop上传校样](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
@@ -2128,16 +2128,16 @@ ht-degree: 2%
          * [从InDesign上传文档](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
          * [从 [!DNL Illustrator]上载校样](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
          * [从 [!DNL Illustrator]上载文档](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
-      * 适用于Illustrator和InDesign的Workfront扩展
+      * 适用于Illustrator和InDesign的Workfront扩展 {#workfront-for-illustrator-indesign}
          * [使用适用于Illustrator和InDesign的Workfront扩展](documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)
-   * 适用于Jira的Adobe Workfront
+   * 适用于Jira的Adobe Workfront {#workfront-for-jira}
       * [适用于Jira的Adobe Workfront](workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md)
       * [安装适用于Jira的Adobe Workfront](workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md)
       * [为Jira配置Adobe Workfront](workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)
       * [Adobe Workfront和Jira之间的链接项目](workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md)
       * [更新Jira和Adobe Workfront之间的链接项](workfront-integrations-and-apps/use-workfront-with-jira/update-linked-items-between-jira-wf.md)
       * [查看Jira活动日志](workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md)
-   * 适用于Google的Adobe Workfront Workspace
+   * 适用于Google的Adobe Workfront Workspace {#workfront-for-g-suite}
       * [适用于Google的Adobe Workfront Workspace](workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md)
       * [安装适用于Google Workspace的Adobe Workfront](workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
       * [适用于Google Workspace的Workfront中的隐私和权限](workfront-integrations-and-apps/workfront-for-g-suite/privacy-and-permissions-in-g-suite.md)
@@ -2153,7 +2153,7 @@ ht-degree: 2%
       * [使用电子邮件内容在Google Workspace中创建Adobe Workfront任务](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-task-in-gsuite-using-email-content.md)
       * [使用电子邮件内容在Google Workspace中创建Adobe Workfront问题](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)
       * [使用电子邮件内容从G Suite更新Adobe Workfront项目](workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
-   * 适用于Outlook的Adobe Workfront
+   * 适用于Outlook的Adobe Workfront {#workfront-for-outlook}
       * [适用于Outlook的Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
       * [设置适用于Outlook的Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
       * 适用于Outlook的Workfront的[权限级别](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
@@ -2165,7 +2165,7 @@ ht-degree: 2%
       * [查看有关适用于Outlook的Adobe Workfront的其他信息并注销](workfront-integrations-and-apps/using-workfront-with-outlook/view-additional-infor-wf-outlook-and-log-out.md)
       * [启用Outlook for Office以用于Adobe Workfront和SAML 2.0](workfront-integrations-and-apps/using-workfront-with-outlook/enable-outlook-for-office-for-use-with-wf-and-saml-2.md)
       * [疑难解答：使用Workfront for Outlook时出现outlookIdentityToken错误](workfront-integrations-and-apps/using-workfront-with-outlook/troubleshooting-outlookidentitytoken-error.md)
-   * 适用于Microsoft Teams的Adobe Workfront
+   * 适用于Microsoft Teams的Adobe Workfront {#workfront-for-microsoft-teams}
       * [[!DNL Adobe Workfront for Microsoft Teams]：文章索引](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
       * [Microsoft Teams的Adobe Workfront概述](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
       * [安装适用于Microsoft Teams的Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)
@@ -2174,14 +2174,14 @@ ht-degree: 2%
       * [从Microsoft Teams创建Adobe Workfront任务](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md)
       * [从Microsoft Teams提交Adobe Workfront请求](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/submit-workfront-requests-from-ms-teams.md)
       * [在Microsoft Teams中管理Adobe Workfront通知](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md)
-   * 适用于Salesforce的Adobe Workfront
+   * 适用于Salesforce的Adobe Workfront {#workfront-for-salesforce}
       * [适用于Salesforce的Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md)
       * [适用于Salesforce的Adobe Workfront概述](workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce-overview.md)
       * [安装适用于Salesforce的Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)
       * [为Salesforce用户配置Adobe Workfront部分](workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)
       * [从Salesforce对象提交Adobe Workfront请求](workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)
       * [从Salesforce对象创建Adobe Workfront项目](workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md)
-   * 适用于Slack的Adobe Workfront
+   * 适用于Slack的Adobe Workfront {#workfront-for-slack}
       * [适用于Slack的Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md)
       * [为Slack配置Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)
       * [从Slack访问收藏夹和最近项目](workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md)
@@ -2192,7 +2192,7 @@ ht-degree: 2%
       * [从Slack访问Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)
       * [发布Slack评论作为更新](workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
       * [在Slack中接收Adobe Workfront通知](workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)
-   * Adobe Workfront与Anaplan
+   * Adobe Workfront与Anaplan {#workfront-with-anaplan}
       * [Adobe Workfront与Anaplan](workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md)
       * [Adobe Workfront与Anaplan集成常见问题解答](workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration-faq.md)
       * [将Adobe Workfront项目更新发送到Anaplan列表项](workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
@@ -2202,51 +2202,51 @@ ht-degree: 2%
       * [将Anaplan预算分配应用于Adobe Workfront项目](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
       * [根据Adobe Workfront营销活动请求创建Anaplan列表项](workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
       * [将Anaplan预算分配应用于Adobe Workfront活动请求或活动项目](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
-* Workfront 验证
+* Workfront 验证 {#workfront-proof}
    * [Workfront Proof：文章索引](workfront-proof/workfront-proof.md)
-   * Workfront Proof入门
+   * Workfront Proof入门 {#get-started-wf-proof}
       * [Workfront Proof快速入门](workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
-      * 工作流示例
+      * 工作流示例 {#workflow-examples}
          * [工作流示例](workfront-proof/wp-getstarted/workflow-examples/workflow-examples.md)
          * [Workfront Proof中的基本校对流程](workfront-proof/wp-getstarted/workflow-examples/basic-proof-process.md)
          * [Workfront Proof中的内部审查，然后外部审查](workfront-proof/wp-getstarted/workflow-examples/internal-external-review.md)
          * [在Workfront Proof中使用设计人员和项目经理](workfront-proof/wp-getstarted/workflow-examples/work-designers-project-managers.md)
          * [在Workfront Proof与自由职业者合作](workfront-proof/wp-getstarted/workflow-examples/work-freelancers.md)
-      * Workfront Proof中的个人设置
+      * Workfront Proof中的个人设置 {#personal-settings-in-wf-proof}
          * [Workfront Proof中的个人设置](workfront-proof/wp-getstarted/personal-settings/personal-settings.md)
          * [在Workfront Proof中指定临时验证所有者](workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md)
          * [集成 — 用户设置](workfront-proof/wp-getstarted/personal-settings/integrations-user-setup.md)
-      * Workfront Proof中的系统信息
+      * Workfront Proof中的系统信息 {#system-info-wf-proof}
          * [Workfront Proof中的系统信息](workfront-proof/wp-getstarted/system-information/system-information.md)
          * [预览Sandbox测试环境 — Workfront Proof](workfront-proof/wp-getstarted/system-information/preview-sandbox.md)
          * [Workfront Proof中的语言设置](workfront-proof/wp-getstarted/system-information/language-settings.md)
          * [Workfront Proof中的编解码器](workfront-proof/wp-getstarted/system-information/codecs.md)
-      * Workfront Proof常见问题解答
+      * Workfront Proof常见问题解答 {#wf-proof-faq}
          * [Workfront Proof — 常见问题解答](workfront-proof/wp-getstarted/faqs/faqs.md)
          * [常见问题解答 — 创建和共享验证和文件](workfront-proof/wp-getstarted/faqs/faq-create-share-proofs-files.md)
          * [常见问题解答 — 查看验证](workfront-proof/wp-getstarted/faqs/faq-review-proofs.md)
          * [常见问题解答 — Workfront Proof帐户](workfront-proof/wp-getstarted/faqs/faq-wp-account.md)
          * [登录并更改Workfront Proof的密码和电子邮件](workfront-proof/wp-getstarted/faqs/log-in-change-password.md)
          * [在Workfront Proof中设置时区](workfront-proof/wp-getstarted/faqs/set-timezones-in-wp.md)
-   * 在Workfront Proof中使用验证和文件
+   * 在Workfront Proof中使用验证和文件 {#work-with-proofs-in-wf-proof}
       * [在Workfront Proof中使用验证和文件](workfront-proof/wp-work-proofsfiles/wp-work-proofs-files.md)
-      * Workfront Proof中的自动工作流
+      * Workfront Proof中的自动工作流 {#automated-workflow-in-wf-proof}
          * [Workfront Proof中的自动工作流](workfront-proof/wp-work-proofsfiles/automated-workflow/automated-workflow.md)
          * [在Workfront Proof中设置使用自动工作流的验证](workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md)
          * [在Workfront Proof中管理使用自动工作流配置的验证](workfront-proof/wp-work-proofsfiles/automated-workflow/manage-proof-configured-auto-workflow.md)
-      * Workfront Proof中的基本功能
+      * Workfront Proof中的基本功能 {#basic-features-in-wf-proof}
          * [Workfront Proof中的基本功能](workfront-proof/wp-work-proofsfiles/basic-features/basic-features.md)
          * [Workfront Proof中的功能板](workfront-proof/wp-work-proofsfiles/basic-features/dashboard.md)
          * [Workfront Proof中的“视图”选项卡上的“页面布局”](workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md)
          * [搜索Workfront Proof](workfront-proof/wp-work-proofsfiles/basic-features/search.md)
          * [了解Workfront Proof活动审核记录](workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)
-      * 创建验证和文件
+      * 创建验证和文件 {#create-proofs-and-files}
          * [创建验证和文件](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/create-proofs-and-files.md)
          * [将文件和Web内容上传到Workfront Proof](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md)
          * [在Workfront Proof中生成验证](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
          * [在Workfront Proof中复制验证](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md)
          * [拖放区域](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md)
-      * 管理您的工作
+      * 管理您的工作 {#manage-your-work}
          * [管理您的工作](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-your-work.md)
          * [在Workfront Proof中管理文件](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md)
          * [在Workfront Proof中管理“查看次数”页面上的项目](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)
@@ -2260,7 +2260,7 @@ ht-degree: 2%
          * [删除Workfront Proof中的验证](workfront-proof/wp-work-proofsfiles/manage-your-work/delete-proof.md)
          * [在Workfront Proof中还原并清空垃圾桶](workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)
          * [在Workfront Proof中运行报表](workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md)
-      * 组织您的工作
+      * 组织您的工作 {#organize-your-work}
          * [组织您的工作](workfront-proof/wp-work-proofsfiles/organize-your-work/organize-your-work.md)
          * [Workfront Proof中的文件夹](workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md)
          * [在Workfront Proof中创建文件夹](workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md)
@@ -2272,11 +2272,11 @@ ht-degree: 2%
          * [Workfront Proof中的存档](workfront-proof/wp-work-proofsfiles/organize-your-work/archive.md)
          * [备份Workfront Proof数据](workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md)
          * [在Workfront Proof中打印和导出注释](workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md)
-      * 在桌面校对查看器中查看校对
+      * 在桌面校对查看器中查看校对 {#review-proofs-in-viewer}
          * [在桌面校对查看器中查看校对](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/review-proofs-in-desktop-proofing-viewer.md)
          * [了解桌面校对查看器](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)
          * [配置如何在桌面验证查看器中打开超链接](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/configure-how-hyperlinks-open.md)
-      * 在Web验证查看器中查看验证
+      * 在Web验证查看器中查看验证 {#review-proofs-web-proofing-viewer}
          * [在Web验证查看器中查看验证](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proofs-in-wpv.md)
          * [在Workfront Proof中打开验证](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/open-proof.md)
          * [在验证查看器中查看工作流](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-workflow.md)
@@ -2288,7 +2288,7 @@ ht-degree: 2%
          * [在验证查看器中下载验证](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/download-proof.md)
          * [Workfront Proof验证查看器中的键盘快捷键](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
          * [已删除旧版验证查看器](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/lpv-removed.md)
-      * 共享验证和文件
+      * 共享验证和文件 {#share-proofs-and-files}
          * [共享验证和文件](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proofs-and-files.md)
          * [在Workfront Proof中共享验证](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)
          * [在Workfront Proof中共享验证链接](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof-links.md)
@@ -2299,9 +2299,9 @@ ht-degree: 2%
          * [在Workfront Proof中创建迷你校对](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/create-mini-proof.md)
          * [嵌入Mini验证](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/embed-mini-proof.md)
          * [在Workfront Proof中管理验证角色](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)
-   * Workfront Proof帐户管理
+   * Workfront Proof帐户管理 {#wf-proof-account-admin}
       * [Workfront Proof帐户管理](workfront-proof/wp-acct-admin/wp-account-admin.md)
-      * Workfront Proof中的帐户设置
+      * Workfront Proof中的帐户设置 {#account-settings-in-wf-proof}
          * [Workfront Proof中的帐户设置](workfront-proof/wp-acct-admin/account-settings/account-settings.md)
          * [管理Workfront Proof用户](workfront-proof/wp-acct-admin/account-settings/manage-wp-users.md)
          * [在Workfront Proof中配置用户的验证权限配置文件](workfront-proof/wp-acct-admin/account-settings/config-user-pref-in-wp.md)
@@ -2309,132 +2309,132 @@ ht-degree: 2%
          * [为Workfront Proof用户配置单点登录](workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
          * [Workfront Proof中的单点登录：AD FS配置](workfront-proof/wp-acct-admin/account-settings/sso-in-wp-adfs-configuration.md)
          * [Workfront Proof中的验证权限配置文件](workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)
-         * [在Workfront Proof中配置审批决策选项](workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md)
+         * [在Workfront Proof中配置批准决策选项](workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md)
          * [在Workfront Proof中创建和管理自定义字段](workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md)
-         * [在Workfront Proof中配置dropzone](workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)
+         * [在Workfront Proof中配置拖放区域](workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)
          * [Workfront Proof中集成的帐户设置](workfront-proof/wp-acct-admin/account-settings/integrations-account-setup.md)
          * [在Workfront Proof中查看身份验证日志](workfront-proof/wp-acct-admin/account-settings/view-auth-logs-in-wp.md)
          * [查看和编辑贵组织的Workfront Proof帐户详细信息](workfront-proof/wp-acct-admin/account-settings/view-edit-org-wp-acct-details.md)
          * [查看贵组织的Workfront Proof管理员帐户历史记录](workfront-proof/wp-acct-admin/account-settings/view-org-wp-acct-history.md)
          * [检查您的Workfront Proof存储](workfront-proof/wp-acct-admin/account-settings/check-workfront-proof-storage.md)
          * [在Workfront Proof中请求新的数据备份](workfront-proof/wp-acct-admin/account-settings/request-new-data-backup-in-wp.md)
-      * 品牌推广Workfront Proof
+      * 品牌推广Workfront Proof {#branding-wf-proof}
          * [品牌推广Workfront Proof](workfront-proof/wp-acct-admin/branding/branding.md)
          * [品牌化Workfront Proof网站](workfront-proof/wp-acct-admin/branding/brand-wp-site.md)
          * [打造Workfront Proof网站 — 高级](workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md)
-      * 管理安全性
+      * 管理安全性 {#manage-security}
          * [管理安全性](workfront-proof/wp-acct-admin/managing-security/manage-security.md)
          * [Workfront Proof中的验证安全性](workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md)
          * [Workfront Proof中的单点登录](workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)
          * [了解Workfront Proof中的电子签名](workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md)
-      * Workfront Proof中的合作伙伴帐户
+      * Workfront Proof中的合作伙伴帐户 {#partner-accounts-in-wf-proof}
          * [Workfront Proof中的合作伙伴帐户](workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md)
          * [管理Workfront Proof帐户之间的合作关系](workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md)
          * [与Workfront Proof中的合作伙伴共享项目](workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md)
-      * Workfront Proof中的附属帐户
+      * Workfront Proof中的附属帐户 {#satellite-accounts-in-wf-proof}
          * [Workfront Proof中的附属帐户](workfront-proof/wp-acct-admin/satellite-accounts/satellite-accounts.md)
          * [Workfront Proof中的附属帐户](workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)
          * [在Workfront Proof中配置附属帐户](workfront-proof/wp-acct-admin/satellite-accounts/configure-sat-acct-in-wp.md)
          * [在Workfront Proof中管理附属帐户](workfront-proof/wp-acct-admin/satellite-accounts/manage-sat-acct-in-wp.md)
-      * Workfront Proof帐户管理的提示、技巧和疑难解答
+      * Workfront Proof帐户管理的提示、技巧和疑难解答 {#ttt-wf-proof-account-admin}
          * [Workfront Proof帐户管理的提示、技巧和疑难解答](workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting.md)
          * [常见问题解答： Workfront Proof — 美国迁移到EMEA](workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/faq-wp-us-to-emea-mig.md)
-   * Workfront Proof计费设置
+   * Workfront Proof计费设置 {#wf-proof-billing-settings}
       * [Workfront Proof计费设置](workfront-proof/wp-billingsettings/wp-billing-settings.md)
-      * 管理您的帐单
+      * 管理您的帐单 {#manage-billing}
          * [管理您的帐单](workfront-proof/wp-billingsettings/manage-your-billing/manage-your-billing.md)
          * [Workfront Proof账单页面](workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
          * [在Workfront Proof中选择支付方式](workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)
          * [下载Workfront Proof发票](workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
          * [关闭您的Workfront Proof帐户](workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)
-   * 校对通知和提醒
+   * 校对通知和提醒 {#proof-notifications-and-reminders}
       * [校对通知和提醒](workfront-proof/wp-emailsntfctns/wp-emails-and-notifications.md)
-      * 避免垃圾邮件过滤器
+      * 避免垃圾邮件过滤器 {#avoid-spam-filters}
          * [避免垃圾邮件过滤器](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/avoid-spam-filters.md)
          * [为常见电子邮件客户端配置垃圾邮件设置](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-spam-settings-clients.md)
          * [配置Workfront Proof电子邮件以避免垃圾邮件过滤器](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md)
          * [Workfront Proof SPF记录](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/wp-spf-records.md)
-      * 向审阅人发送消息
+      * 向审阅人发送消息 {#send-messages-to-reviewers}
          * [向审阅人发送消息](workfront-proof/wp-emailsntfctns/messaging-reviewers/send-messages-to-reviewers.md)
          * [提醒查看者有关Workfront Proof中的分配的信息](workfront-proof/wp-emailsntfctns/messaging-reviewers/remind-reviewer-assignments-wp.md)
          * [向验证上的审阅人发送提醒消息](workfront-proof/wp-emailsntfctns/messaging-reviewers/send-reminder-to-proof-reviewers.md)
-      * 校对通知和提醒
+      * 校对通知和提醒 {#proof-notifications-and-reminders}
          * [校对通知和提醒](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-notifications-and-reminders.md)
          * [延迟验证电子邮件](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/late-proof-email.md)
          * [新验证电子邮件](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md)
          * [新版本电子邮件](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-version-email.md)
          * [校对已发送电子邮件](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)
-   * 电子邮件警报
+   * 电子邮件警报 {#email-alerts}
       * [电子邮件警报](workfront-proof/wp-emailsntfctns/email-alerts/email-alerts.md)
       * [在Workfront Proof中配置电子邮件通知设置](workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)
       * [在Workfront Proof中更改验证的电子邮件警报设置](workfront-proof/wp-emailsntfctns/email-alerts/change-email-alert-settings-wp.md)
-   * 在Workfront Proof中管理用户和联系人
+   * 在Workfront Proof中管理用户和联系人 {#managing-users-in-wf-proof}
       * [在Workfront Proof中管理用户和联系人](workfront-proof/wp-mnguserscontacts/manage-user-contacts.md)
-      * 用户
+      * 用户 {#users}
          * [用户](workfront-proof/wp-mnguserscontacts/users/users.md)
          * [使用Workfront Proof创建用户](workfront-proof/wp-mnguserscontacts/users/create-users.md)
          * [使用Workfront Proof配置用户信息](workfront-proof/wp-mnguserscontacts/users/configure-user-info.md)
          * [使用Workfront Proof创建和管理自定义配置文件](workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md)
          * [使用Workfront Proof在帐户之间移动用户](workfront-proof/wp-mnguserscontacts/users/move-users-between-accounts.md)
-      * 组
+      * 组 {#groups}
          * [组](workfront-proof/wp-mnguserscontacts/groups/groups.md)
          * [将组添加到验证](workfront-proof/wp-mnguserscontacts/groups/add-groups.md)
          * [使用Workfront Proof创建验证组](workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md)
          * [使用Workfront Proof使组成为私有组](workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md)
          * [使用Workfront Proof管理群组](workfront-proof/wp-mnguserscontacts/groups/manage-groups.md)
-      * 联系人
+      * 联系人 {#contacts}
          * [联系人](workfront-proof/wp-mnguserscontacts/contacts/contacts.md)
          * [向Workfront Proof添加访客](workfront-proof/wp-mnguserscontacts/contacts/add-guest.md)
          * [在Workfront Proof中管理您的联系人](workfront-proof/wp-mnguserscontacts/contacts/manage-contacts.md)
          * [了解Workfront Proof中的用户、成员和来宾](workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md)
-      * 面向Workfront Proof用户和联系人的提示、技巧和疑难解答
+      * 面向Workfront Proof用户和联系人的提示、技巧和疑难解答 {#ttt-wf-proof-users-and-contacts}
          * [面向Workfront Proof用户和联系人的提示、技巧和疑难解答](workfront-proof/wp-mnguserscontacts/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wfproof.md)
          * [批量编辑用户的其他组](workfront-proof/wp-mnguserscontacts/tips-tricks-and-troubleshooting/bulk-edit-users-other-groups.md)
-   * Workfront Proof mobile
+   * Workfront Proof mobile {#wf-proof-mobile}
       * [Workfront Proof mobile](workfront-proof/wp-mobile/wp-mobile.md)
-      * Workfront Proof移动应用程序
+      * Workfront Proof移动应用程序 {#wf-proof-mobile-apps}
          * [Workfront Proof移动应用程序](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
          * [Workfront Proof移动应用程序](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
          * [适用于平板电脑的Workfront Proof移动设备应用程序](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md)
-      * Workfront Proof移动应用程序的提示、技巧和疑难解答
+      * Workfront Proof移动应用程序的提示、技巧和疑难解答 {#ttt-wf-proof-mobile-apps}
          * [Workfront Proof移动应用程序的提示、技巧和疑难解答](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wp-mobile.md)
          * [无法登录Workfront Proof移动应用程序](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/unable-to-log-in.md)
-   * Workfront Proof技术园地
+   * Workfront Proof技术园地 {#wf-proof-tech-corner}
       * [Workfront Proof技术园地](workfront-proof/wp-tech-corner/tech-corner.md)
-      * 校对类型
+      * 校对类型 {#proof-types}
          * [校对类型](workfront-proof/wp-tech-corner/proof-types/proof-types.md)
          * [使用Workfront Proof创建静态网站验证](workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md)
-      * Workfront Proof中的故障排除
+      * Workfront Proof中的故障排除 {#troubleshooting-wf-proof}
          * [Workfront Proof中的故障排除](workfront-proof/wp-tech-corner/troubleshooting/troubleshooting.md)
          * [疑难解答 — Mac上的验证查看器中的界面字体损坏](workfront-proof/wp-tech-corner/troubleshooting/corrupted-interface-font-pv-mac.md)
          * [了解缓存和Cookie如何影响Workfront Proof](workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
          * [Workfront Proof中的速度问题](workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
          * [疑难解答 — Workfront Proof验证查看器](workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)
-   * Workfront Proof集成
+   * Workfront Proof集成 {#wf-proof-integrations}
       * [Workfront Proof集成](workfront-proof/wp-integrations/wp-integrations.md)
-      * WORKFRONT PROOF API
+      * WORKFRONT PROOF API {#wf-proof-api}
          * [WORKFRONT PROOF API](workfront-proof/wp-integrations/api/wp-api.md)
          * [WORKFRONT PROOF API](workfront-proof/wp-integrations/api/workfront-proof-api.md)
-      * Box
+      * Box {#box}
          * [Box](workfront-proof/wp-integrations/box/box.md)
          * [Workfront Proof与Box集成简介](workfront-proof/wp-integrations/box/introduction-to-box.md)
          * [通过您的Box帐户创建验证](workfront-proof/wp-integrations/box/create-proof-box-account.md)
          * [将盒文件夹与Workfront Proof同步](workfront-proof/wp-integrations/box/sycn-box-folder.md)
          * [在框中查看校对的原始文件](workfront-proof/wp-integrations/box/view-proof-original-file-box.md)
-      * 基本扫描
+      * 基本扫描 {#basecamp}
          * [基本扫描](workfront-proof/wp-integrations/basecamp/basecamp.md)
          * [将验证添加到基础模板项目](workfront-proof/wp-integrations/basecamp/add-proof-to-basecamp-project.md)
          * [将Workfront Proof与Basecamp集成](workfront-proof/wp-integrations/basecamp/integrate-workfront-proof-with-basecamp.md)
          * [在Basecamp中查看验证](workfront-proof/wp-integrations/basecamp/review-proof-basecamp.md)
          * [了解Basecamp与Workfront Proof的集成](workfront-proof/wp-integrations/basecamp/basecamp-integration-overview.md)
-      * Basecamp Classic
+      * Basecamp Classic {#basecamp-classic}
          * [Basecamp Classic](workfront-proof/wp-integrations/basecamp-classic/basecamp-classic.md)
          * [将验证添加到Basecamp Classic项目](workfront-proof/wp-integrations/basecamp-classic/add-proof-basecamp-classic.md)
          * [将Workfront Proof与Basecamp Classic集成](workfront-proof/wp-integrations/basecamp-classic/integrate-workfront-proof-basecamp-classic.md)
          * [在Basecamp Classic中查看验证](workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md)
-* ADOBE WORKFRONT API
+* ADOBE WORKFRONT API {#adobe-workfront-api}
    * [WORKFRONT API](wf-api/workfront-api.md)
-   * API说明
+   * API说明 {#api-notes}
       * [API说明](wf-api/api/api.md)
       * [通过API上传文件](wf-api/api/uploading-files-api.md)
       * [结束对JSONP的支持](wf-api/api/ending-support-jsonp.md)
@@ -2468,7 +2468,7 @@ ht-degree: 2%
       * [API版本8的更新](wf-api/api/new-api-version-8-updates.md)
       * [API版本7中的新增功能](wf-api/api/new-api-version-7.md)
       * [API版本6中的新增功能](wf-api/api/new-api-version-6.md)
-   * API常规信息
+   * API常规信息 {#api-general-information}
       * [API常规信息](wf-api/general/api-general.md)
       * [API 基础知识](wf-api/general/api-basics.md)
       * [API 资源管理器](wf-api/general/api-explorer.md)
@@ -2477,7 +2477,7 @@ ht-degree: 2%
       * [API示例脚本](wf-api/general/api-example-scripts.md)
       * [使用API同步程序和服务的数据](wf-api/general/api-sync-data.md)
       * [通过API停用用户](wf-api/general/deactivate-user-api.md)
-   * 活动订阅
+   * 活动订阅 {#event-subscriptions}
       * [活动订阅](wf-api/api/event-subscriptions.md)
       * [事件订阅API](wf-api/general/event-subs-api.md)
       * [事件订阅最佳实践](wf-api/general/event-sub-best-practice.md)
@@ -2486,7 +2486,7 @@ ht-degree: 2%
       * [事件订阅版本控制](/help/quicksilver/wf-api/general/event-subs-versioning.md)
       * [事件订阅的出站消息格式](wf-api/api/message-format-event-subs.md)
       * [常见问题解答 — 活动订阅](wf-api/general/event-subs-faq.md)
-   * 文档Webhooks API
+   * 文档Webhooks API {#document-webhooks-api}
       * [文档Webhooks API文章](wf-api/doc-wbhks-api/document-webhooks-api.md)
       * [Webhooks概述](wf-api/doc-wbhks-api/webhooks-overview.md)
       * [注册Webhook集成](wf-api/doc-wbhks-api/register-webhook-integration.md)
@@ -2506,24 +2506,24 @@ ht-degree: 2%
       * [文档Webhooks API](wf-api/doc-wbhks-api/docu-webhook-api.md)
       * [测试Webhook连接](wf-api/doc-wbhks-api/test-webhook-connections.md)
       * [文档Webhooks错误处理](wf-api/doc-wbhks-api/docu-webhooks-errors.md)
-   * Workfront对象描述
+   * Workfront对象描述 {#workfrtont-object-descriptions}
       * [Workfront对象描述](wf-api/wf-objects/workfront-objects.md)
       * [类别](wf-api/wf-objects/category.md)
-   * Adobe Workfront API的提示、技巧和疑难解答
+   * Adobe Workfront API的提示、技巧和疑难解答 {#tips-troubleshooting-apis}
       * [Adobe Workfront API的提示、技巧和疑难解答](wf-api/tips-tricks-and-troubleshooting/tips-troubleshoot-api.md)
       * [Adobe Workfront API调用的域格式](wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md)
       * [API错误：“远程服务器返回了一个错误：(400)错误请求”](wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
       * [大型分页搜索期间返回的重复项](wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
       * [在API中对查询结果进行排序](wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)
       * [更新到emailAddr不会更新用户名](wf-api/tips-tricks-and-troubleshooting/update-email-addr-and-username.md)
-      * [通过Adobe Workfront API创建验证时添加高级验证选项](wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md)
+      * [通过Adobe Workfront API创建证明时添加高级证明选项](wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md)
       * [OPTASK copyIssue的选项配置](wf-api/tips-tricks-and-troubleshooting/copyissue-options.md)
       * [在货币为null（未分配）时检索项目的货币信息](wf-api/tips-tricks-and-troubleshooting/retrieve-currency-when-null.md)
-      * [不支持使用API添加链接的文件夹](wf-api/tips-tricks-and-troubleshooting/linked-folders-for-docu-not-supported.md)
-      * [文档moveToFolder操作无效](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/error-using-movetofolder.md)
-* ProofHQ API
+      * [不支持使用API添加链接文件夹](wf-api/tips-tricks-and-troubleshooting/linked-folders-for-docu-not-supported.md)
+      * [文档移动至文件夹操作不起作用](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/error-using-movetofolder.md)
+* ProofHQ API {#proofhqpapi}
    * [ProofHQ API](proofhq-api/proofhq-api.md)
-   * 常规
+   * 常规 {#general}
       * [常规](proofhq-api/general/general.md)
       * [概述](proofhq-api/general/overview.md)
       * [代码示例](proofhq-api/general/code-samples.md)
