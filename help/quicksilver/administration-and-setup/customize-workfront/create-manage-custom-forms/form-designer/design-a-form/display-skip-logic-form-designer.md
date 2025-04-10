@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 64deb1b0b3ba52f869ca38e2a26288d461070f82
+source-git-commit: f94ad0f289064f243aadb08226bd5e53357f650d
 workflow-type: tm+mt
-source-wordcount: '1744'
+source-wordcount: '1680'
 ht-degree: 0%
 
 ---
 
 # 向自定义表单和字段添加逻辑规则
-
-{{highlighted-preview}}
 
 利用逻辑规则，可进一步自定义表单上的字段。
 
@@ -115,13 +113,7 @@ ht-degree: 0%
 1. 选择逻辑生成器上的&#x200B;**显示**&#x200B;选项卡。
 1. 单击&#x200B;**添加显示规则**。
 
-   <span class="preview">预览环境中的示例图像：</span>
-
    ![显示逻辑生成器](assets/simple-display-logic1-val-only-in-menu.png)
-
-   生产环境中的示例图像：
-
-   ![显示逻辑生成器](assets/custom-form-logic-builder-display-blank.png)
 
 1. 执行以下步骤，在生成器中创建逻辑语句。
 
@@ -130,17 +122,11 @@ ht-degree: 0%
    1. 第三个选项是&#x200B;**已选择**&#x200B;或&#x200B;**未选择**。 选择&#x200B;**已选定**&#x200B;表示在选择该值时，将显示目标字段。 选择&#x200B;**未选择**&#x200B;表示在定义字段中选择任何其他值时，将显示目标字段。
    1. 要将&#x200B;**And**&#x200B;规则添加到逻辑语句中，请在刚刚创建的规则下单击&#x200B;**添加规则**。 按照相同的提示构建规则。 必须满足所有和规则才能显示目标字段。
 
-      <span class="preview">预览环境中的示例图像：</span>
-
       ![显示逻辑生成器](assets/simple-display-logic2.png)
-
-      生产环境中的示例图像：
-
-      ![显示逻辑生成器](assets/custom-form-logic-builder-display1.png)
 
    1. 要将&#x200B;**Or**&#x200B;规则添加到逻辑语句中，请单击逻辑生成器底部附近的&#x200B;**添加规则**。 然后，单击Or区域中的&#x200B;**添加规则**，并按照相同的提示生成规则。 满足一个Or规则时，将显示目标字段。
 
-1. 完成生成逻辑语句后，单击&#x200B;**保存** <span class="preview">或&#x200B;**应用**</span>。
+1. 完成生成逻辑语句后，单击&#x200B;**应用**。
 
    显示逻辑图标将添加到表单设计器的目标字段和定义字段中。
 
@@ -212,14 +198,7 @@ Using the following condition, the Sold KPI field only becomes visible when the 
 1. 选择逻辑生成器上的&#x200B;**跳过**&#x200B;选项卡。
 1. 单击&#x200B;**添加跳过规则**。
 
-
-   <span class="preview">预览环境中的示例图像：</span>
-
    ![跳过逻辑生成器](assets/skip-logic1-val-only-in-menu.png)
-
-   生产环境中的示例图像：
-
-   ![跳过逻辑生成器](assets/custom-form-logic-builder-skip-blank.png)
 
 1. 执行以下步骤，在生成器中创建逻辑语句。
 
@@ -228,21 +207,13 @@ Using the following condition, the Sold KPI field only becomes visible when the 
    1. 第二个选项是&#x200B;**已选择**&#x200B;或&#x200B;**未选择**。 选择&#x200B;**选定**&#x200B;意味着在选择该值时，将显示目标字段并跳过其中的字段。 选择&#x200B;**未选择**&#x200B;表示在定义字段中选择任何其他值时，将显示目标字段并跳过其中的字段。
    1. 第三个选项是目标字段，或跳至的位置。 选择字段名称或&#x200B;**表单**&#x200B;的结尾。 您可能需要先单击“空”一词，然后再选择一个选项。
 
-      <span class="preview">预览环境中的示例图像：</span>
-
       ![跳过逻辑生成器](assets/skip-logic2.png)
-
-      生产环境中的示例图像：
-
-      ![跳过逻辑生成器](assets/custom-form-logic-builder-skip1.png)
 
    1. 要将&#x200B;**Or**&#x200B;规则添加到逻辑语句中，请单击逻辑生成器底部附近的&#x200B;**添加规则**。 然后，根据相同的提示选择相应的选项来构建规则。 当满足一个&#x200B;**或**&#x200B;规则时，将显示目标字段。
 
-1. 完成生成逻辑语句后，单击&#x200B;**保存** <span class="preview">或&#x200B;**应用**</span>。
+1. 完成生成逻辑语句后，单击&#x200B;**应用**。
 
    跳过逻辑图标会添加到表单设计器的目标字段和定义字段中。
-
-<div class="preview">
 
 ## 向自定义表单添加验证逻辑
 
@@ -250,7 +221,7 @@ Using the following condition, the Sold KPI field only becomes visible when the 
 
 如果用户填写自定义表单时，如果应用了逻辑的字段满足定义的验证条件，则该字段会高亮显示并显示错误消息。
 
-您可以将验证逻辑应用于以下字段类型：单行文本、段落、单选下拉列表、多选下拉列表、外部查找、单选按钮、复选框组和预输入。
+您可以将验证逻辑应用于以下字段类型：单行文本、段落、单选下拉列表、多选下拉列表、外部查找、预输入、日期、复选框组和单选按钮。
 
 ### 示例
 
@@ -287,14 +258,14 @@ IF({DE:Budget Field} < 0,
 
    该逻辑将应用于表单设计器中的字段。
 
-</div>
-
 <!--
 <div class="preview">
 
 ## Add formatting logic to a custom form
 
-Formatting logic highlights a field value when it meets the defined conditions. You can apply formatting logic to all field types, and it will work on multiple fields at once.
+Formatting logic highlights a field value when it meets the defined conditions. The applied formatting will work on multiple fields at once.
+
+You can apply formatting logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, typeahead, calculated, date, checkbox group, and radio buttons.
 
 Formatting applied to custom forms is separate from formatting applied to lists and reports. For information on report formatting, see [Use conditional formatting in views](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
