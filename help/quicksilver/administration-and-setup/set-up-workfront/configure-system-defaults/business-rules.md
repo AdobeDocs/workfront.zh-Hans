@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 03f95d2d6397850fd53e79fd37c2de56e94a04cd
+source-git-commit: 34f7f35875f063a77d33ee63c33e69721dc70c03
 workflow-type: tm+mt
-source-wordcount: '1270'
-ht-degree: 0%
+source-wordcount: '1308'
+ht-degree: 2%
 
 ---
 
@@ -124,7 +124,29 @@ IF(
 
    ![选择对象](assets/object-for-business-rule3.png)
 
-1. 键入业务规则的&#x200B;**名称**。
+   您可以将业务规则应用于以下对象：
+
+   * 项目
+   * 任务
+   * 问题/请求
+   * 项目组合
+   * 文档
+   * 项目群
+   * 费用
+   * 用户
+   * 公司
+   * 开发周期
+   * 账单记录
+   * 组
+   * 风险
+   * 任务分配
+   * 工作角色
+   * 资源池
+   * 休息时间
+   * 小时
+   * 模板
+
+1. 在规则生成器对话框中键入业务规则的&#x200B;**名称**。
 1. 在&#x200B;**处于活动状态**&#x200B;字段中，选择保存规则时该规则是否应处于活动状态。
 
    如果您选择&#x200B;**否**，则规则将保存为非活动，您可以稍后激活它。
