@@ -6,9 +6,9 @@ description: 在分配访问级别时，您的Adobe Workfront管理员会授予�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '692'
 ht-degree: 2%
 
 ---
@@ -34,15 +34,8 @@ ht-degree: 2%
 * 您可以向问题授予以下权限： 
 
    * 查看
-
-     ![view_on_issue.png](assets/view-on-issue-221x216.png)
-
+   * 参与
    * 管理
-
-     ![manage_on_issues.png](assets/manage-on-issues-179x199.png)
-
-   * 参与\
-     ![contribute_on_issue.png](assets/contribute-on-issue-156x205.png)
 
 * 当您共享问题时，所有附加到问题的文档都会继承相同的权限。
 
@@ -134,7 +127,7 @@ ht-degree: 2%
 
 ## 问题权限
 
-下表显示了在允许用户查看、Contribute或管理问题时您可以授予用户哪些权限：
+下表显示在允许用户查看、贡献或管理问题时您可以授予用户的权限：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -145,110 +138,110 @@ ht-degree: 2%
   <tr> 
    <td><strong>操作</strong> </td> 
    <td><strong>管理</strong> </td> 
-   <td><strong>Contribute</strong> </td> 
+   <td><strong>参与</strong> </td> 
    <td><strong>视图</strong> </td> 
   </tr> 
   <tr> 
    <td> <p>添加问题</p> </td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>删除 </td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>附上自定义表单</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>编辑自定义字段</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>批准问题</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>添加审批流程</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>添加文档</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>复制问题*</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>移动问题</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>记录小时数</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>转换为项目*</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>接受分配</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>更新/评论</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>修改计划日期</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>制定工作</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>共享</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>在系统范围内共享</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
   </tr> 
  </tbody> 
 </table>

@@ -6,7 +6,7 @@ description: 当您的Adobe Workfront管理员分配访问级别时，可以授�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 2%
@@ -33,9 +33,7 @@ ht-degree: 2%
 
    * 查看
    * 管理
-   * 参与\
-     ![](assets/screen-shot-2014-05-30-at-11.37.24-am-175x192.png) ![](assets/screen-shot-2014-01-23-at-1.12.40-pm-154x258.png) ![](assets/screen-shot-2014-01-22-at-10.53.00-am-182x252.png)
-
+   * 参与
 * 共享任务时，默认情况下，用户将继承与该任务关联的所有子对象的相同权限。 例如，他们对附加到任务的子任务、问题和文档继承相同的权限。\
   有关Workfront中对象层次结构的详细信息，请参阅  [了解Adobe Workfront中的对象](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)。
 
@@ -65,7 +63,7 @@ ht-degree: 2%
 
 ## 任务权限
 
-下表显示了在允许用户查看、Contribute或管理任务时您可以授予用户哪些权限：
+下表显示了允许用户查看、参与或管理任务时，您可以授予用户哪些权限：
 
 <table border="2" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -76,160 +74,160 @@ ht-degree: 2%
   <tr> 
    <th><strong>操作</strong> </th> 
    <th><strong>管理</strong> </th> 
-   <th><strong>Contribute</strong> </th> 
+   <th><strong>参与</strong> </th> 
    <th><strong>视图</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td scope="row">添加任务</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">添加前置任务</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">添加问题</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td scope="row">删除任务</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row"> <p>常规任务编辑<br></p> </td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">更改任务状态</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">编辑任务限制</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">查看任务</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td scope="row">添加文档</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td scope="row">复制任务*</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td scope="row">移动任务*</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">记录小时数</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">修改计划日期</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">接受分配</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">进行分配</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">附上自定义表单</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">编辑自定义字段</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">创建批准流程</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">批准任务</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td scope="row">编辑财务*</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">添加/编辑费用</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">查看财务状况</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td scope="row">更新/评论</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td scope="row">共享</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td scope="row">在系统范围内共享</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
   </tr> 
  </tbody> 
 </table>

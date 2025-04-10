@@ -5,7 +5,7 @@ author: Alina
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%
@@ -31,35 +31,33 @@ ht-degree: 0%
 * 默认情况下，项目组合的创建者拥有对项目组合的管理权限。
 * 您可以单独共享一个项目组合，也可以同时共享多个项目组合。 共享项目组合与在Workfront中共享其他对象相同。 有关信息，请参阅[共享对象](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
 
-* 您只能授予对Portfolio的“查看”或“管理”权限。
+* 您只能授予项目组合的“查看”或“管理”权限。
+</span>
+*当您共享项目组合时，默认情况下，用户将继承与项目组合关联的所有子对象的相同权限。
 
-  ![](assets/screen-shot-2014-01-23-at-12.45.15-pm.png)    ![](assets/screen-shot-2014-01-22-at-10.03.43-am-190x167.png)
-
-* 共享项目组合时，默认情况下，用户将继承与项目组合关联的所有子对象的相同权限。
-
-  有关Workfront中对象层次结构的详细信息，请参阅[了解Adobe Workfront中的对象](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)。
+有关Workfront中对象层次结构的详细信息，请参阅[了解Adobe Workfront中的对象](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)。
 
 * 您可以从Portfolio中删除继承的权限。 有关从对象中删除权限的详细信息，请参阅[从对象中删除权限](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)。
 
 ## Portfolio权限
 
-下表显示了允许用户查看或管理Portfolio时，您可以授予用户哪些权限：
+下表显示在允许用户查看或管理Portfolio时，您可以授予用户哪些权限：
 
 | **操作** | **管理** | **视图** |
 |---|---|---|
-| 编辑Portfolio详细信息 | ✓ {\f13 } |   |
-| 查看Portfolio | ✓ {\f13 } | ✓ {\f13 } |
-| 删除Portfolio | ✓ {\f13 } |   |
-| 附加自定义表单 | ✓ {\f13 } |   |
-| 编辑自定义字段 | ✓ {\f13 } |   |
-| 添加或删除程序&#42; | ✓ {\f13 } |   |
-| 添加或删除项目&#42; | ✓ {\f13 } |   |
-| 批准项目 | ✓ {\f13 } |   |
-| Portfolio优化&#42; | ✓ {\f13 } |   |
-| 添加文档文件夹&#42; | ✓ {\f13 } | ✓ {\f13 } |
-| 添加文档 | ✓ {\f13 } | ✓ {\f13 } |
-| 更新/评论 | ✓ {\f13 } | ✓ {\f13 } |
-| 共享 | ✓ {\f13 } | ✓ {\f13 } |
-| 在系统范围内共享 |   | ✓ {\f13 } |
+| 编辑Portfolio详细信息 | ✓ |   |
+| 查看Portfolio | ✓ | ✓ |
+| 删除Portfolio | ✓ |   |
+| 附加自定义表单 | ✓ |   |
+| 编辑自定义字段 | ✓ |   |
+| 添加或删除程序&#42; | ✓ |   |
+| 添加或删除项目&#42; | ✓ |   |
+| 批准项目 | ✓ |   |
+| Portfolio优化&#42; | ✓ |   |
+| 添加文档文件夹&#42; | ✓ | ✓ |
+| 添加文档 | ✓ | ✓ |
+| 更新/评论 | ✓ | ✓ |
+| 共享 | ✓ | ✓ |
+| 在系统范围内共享 |   | ✓ |
 
 *这些权限由其他对象（如项目、项目群、文档）的访问级别和权限控制。

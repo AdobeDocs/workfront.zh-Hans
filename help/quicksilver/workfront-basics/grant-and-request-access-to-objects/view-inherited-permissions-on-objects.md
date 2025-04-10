@@ -6,9 +6,9 @@ description: 在分配访问级别时，Adobe Workfront管理员可以向您授�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7025f097-ea99-41bf-965e-617b0f532ff7
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 871117ddb06af6d37448c683a259ccc7e708930c
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,8 @@ ht-degree: 0%
 </table>
 -->
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具备以下条件：
 
 <table style="table-layout:auto"> 
@@ -81,6 +83,8 @@ ht-degree: 0%
 </table>
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+
++++
 
 ## 查看对象的继承权限
 

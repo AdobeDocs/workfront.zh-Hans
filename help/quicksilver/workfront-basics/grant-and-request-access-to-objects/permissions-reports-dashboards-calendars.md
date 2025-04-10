@@ -7,7 +7,7 @@ description: 当用户分配访问级别时，您的Adobe Workfront管理员会�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2dac54b-6506-41b0-a7f2-6fafab12c2d1
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 0%
@@ -54,12 +54,7 @@ ht-degree: 0%
 * 您可以向报表、功能板和日历授予以下权限：
 
    * 查看
-
-     ![](assets/screen-shot-2014-01-22-at-10.19.55-am.png)
-
    * 管理
-
-     ![](assets/screen-shot-2014-01-22-at-10.20.13-am.png)
 
 * 共享功能板时，用户默认对功能板上的所有报告、日历和外部页面具有查看权限。
 * 具有“请求”许可证的用户无法查看系统范围的报告。 如果请求者需要查看报告，则必须单独与请求者共享报告。

@@ -6,9 +6,9 @@ description: 在分配访问级别时，Adobe Workfront管理员可以向您授�
 author: Alina
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '990'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 2%
 
 * 默认情况下，项目的创建者具有管理项目的权限，并被指定为项目所有者。 如果项目分配给其他所有者，则该用户也具有管理项目的权限。 当项目创建者（或所有者）与其他用户共享项目时，他们将特定权限授予这些用户，以控制他们在项目上工作时可以执行的操作。
 
-  但是，如果项目所有者没有Planner许可证，他们将没有管理项目的完全访问权限。 只有拥有计划许可证的用户才有权管理项目。 有关详细信息，请参阅[访问级别和权限如何协同工作](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)。
+  但是，如果项目所有者没有“计划”或“标准”许可证，则他们不具有管理项目的完全访问权限。 只有拥有Plan或Standard许可证的用户才有权管理项目。 有关详细信息，请参阅[访问级别和权限如何协同工作](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)。
 
 * 您可以单独共享项目，也可以一次共享多个项目。 共享项目与共享其他对象相同。 有关在Workfront中共享项目的详细信息，请参阅[共享对象](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
 * 您可以向项目授予以下权限：
@@ -37,8 +37,6 @@ ht-degree: 2%
    * 查看
    * 管理
    * 参与
-
-     ![](assets/view-on-projects-190x207.png) ![](assets/contribute-on-projects-159x243.png) ![](assets/manage-on-projects-178x230.png)
 
 * 共享项目时，除非另有指定，否则所有任务、问题和文档都将继承相同的权限。
 
@@ -104,8 +102,8 @@ ht-degree: 2%
 
 ## 不同许可证类型的限制
 
-* 具有轻度许可证及以下许可证（或旧许可证模型的工作许可证及以下许可证）的用户无权管理项目。 对于这些用户，最高共享权限为Contribute。
-* 具有“参与者”许可证（或旧许可证模型的请求许可证）的用户可以查看项目信息，但他们具有有限的项目访问权限。
+* 拥有工作人员许可证的用户无权管理项目。 对于工作人员，最高共享权限为Contribute。
+* 拥有请求许可证的用户可以查看项目信息，但他们具有有限的项目访问权限。
 * 当具有“查看”或“贡献”权限的用户也包含在审批流程中时，项目状态的更改会发生异常。 他们可以审批项目，这更改了项目的状态，但状态为要审批或拒绝的预定义状态。
 * 为了能够复制项目，用户还必须具有在其访问级别创建项目的权限。
 

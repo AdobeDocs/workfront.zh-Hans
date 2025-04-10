@@ -7,7 +7,7 @@ description: 在分配访问级别时，Adobe Workfront管理员可以向您授�
 author: Alina
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: 851e946fd4e9b0da725185227f9ed24334eafb86
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -15,6 +15,7 @@ ht-degree: 0%
 ---
 
 # 共享项目
+
 
 在分配访问级别时，Adobe Workfront管理员可以向您授予查看或编辑程序的权限。 您必须拥有计划许可证才能编辑项目。 有关详细信息，请参阅[授予程序访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md)。
 
@@ -36,9 +37,7 @@ ht-degree: 0%
 
   有关在Workfront中共享项目的详细信息，请参阅[共享对象](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
 
-* 您只能授予程序的“查看”或“管理”权限。
-
-  ![](assets/screen-shot-2014-01-23-at-12.45.15-pm.png)    ![](assets/screen-shot-2014-01-22-at-10.03.43-am-190x167.png)
+* 您只能授予对程序的“查看”或“管理”权限：
 
 * 共享程序时，默认情况下，用户将继承与该程序关联的所有子对象的相同权限。
 
@@ -52,17 +51,19 @@ ht-degree: 0%
 
 | **操作** | **管理** | **视图** |
 |---|---|---|
-| 编辑项目详细信息 | ✓ {\f13 } |   |
-| 查看项目群 | ✓ {\f13 } | ✓ {\f13 } |
-| 删除项目 | ✓ {\f13 } |   |
-| 附加自定义表单 | ✓ {\f13 } |   |
-| 编辑自定义字段 | ✓ {\f13 } |   |
-| 添加或删除项目&#42; | ✓ {\f13 } |   |
-| 批准项目 | ✓ {\f13 } |   |
-| 添加文档文件夹&#42; | ✓ {\f13 } | ✓ {\f13 } |
-| 添加文档 | ✓ {\f13 } | ✓ {\f13 } |
-| 添加更新/评论 | ✓ {\f13 } | ✓ {\f13 } |
-| 共享 | ✓ {\f13 } | ✓ {\f13 } |
-| 在系统范围内共享 |   | ✓ {\f13 } |
+| 编辑项目详细信息 | ✓ |   |
+| 查看项目群 | ✓ | ✓ |
+| 删除项目 | ✓ |   |
+| 附加自定义表单 | ✓ |   |
+| 编辑自定义字段 | ✓ |   |
+| 添加或删除项目&#42; | ✓ |   |
+| 批准项目 | ✓ |   |
+| 添加文档文件夹&#42; | ✓ | ✓ |
+| 添加文档 | ✓ | ✓ |
+| 添加更新/评论 | ✓ | ✓ |
+| 共享 | ✓ | ✓ |
+| 在系统范围内共享 |   | ✓ |
 
-*这些权限由访问级别和其他对象（如项目）的权限控制。 
+*这些权限由访问级别和其他对象（如项目）的权限控制。
+
+

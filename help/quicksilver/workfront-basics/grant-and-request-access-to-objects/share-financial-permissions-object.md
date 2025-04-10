@@ -6,16 +6,14 @@ description: 在分配访问级别时，Adobe Workfront管理员可以向您授�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
 
 # 共享对象的财务权限
-
-{{highlighted-preview}}
 
 在分配访问级别时，Adobe Workfront管理员可以向您授予查看或编辑财务数据的权限。 有关详细信息，请参阅[授予对财务数据的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)。
 
@@ -54,6 +52,8 @@ ht-degree: 0%
  </tbody> 
 </table>
 -->
+
++++ 展开以查看本文中各项功能的访问要求。
 要共享对象的财务数据信息，必须具备以下条件：
 
 <table style="table-layout:auto"> 
@@ -66,7 +66,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
+   <td> <p>规划 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
@@ -81,11 +81,13 @@ ht-degree: 0%
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
++++
+
 ## 共享对象并授予财务权限
 
 向对象授予财务权限时，请考虑以下事项：
 
-* 您可以向项目、任务、问题、<span class="preview">和费率卡</span>授予财务权限。
+* 您可以向项目、任务和问题授予财务权限。
 * 权限可以继承：如果您拥有项目的“查看财务”权限，则您会自动继承项目上任务和问题的“查看财务”权限。
 
 要授予对象的财务权限，请执行以下操作：
@@ -102,10 +104,8 @@ ht-degree: 0%
 1. 如果所选名称的右侧出现下拉菜单，请单击以下可用选项之一：
 
    * **查看它**
-   * **Contribute加入其中**
+   * **参与其中**
    * **管理它**
-
-     ![](assets/12.png)      ![](assets/13.png) ![](assets/14.png)
 
 1. 在同一下拉菜单中，单击&#x200B;**高级设置**，然后执行以下操作之一：
 
@@ -116,7 +116,7 @@ ht-degree: 0%
 
 ## 所有共享级别的财务权限
 
-下表显示授予用户查看、Contribute或管理对象权限后获得的财务权限： 
+下表显示了用户在授予他们查看权限、参与权限或管理对象权限时获得的财务权限： 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -127,64 +127,52 @@ ht-degree: 0%
   <tr> 
    <th><strong>操作</strong> </th> 
    <th><strong>管理</strong> </th> 
-   <th><strong>Contribute</strong> </th> 
+   <th><strong>参与</strong> </th> 
    <th><strong>视图</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td>管理开票记录</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> <p> </p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>管理/查看角色计费和成本率</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>管理/查看用户计费和成本率</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>查看财务状况</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td> ✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> ✓</td> 
   </tr> 
-  <tr> 
-   <td><span class="preview">管理费率卡</span></td> 
-   <td>✓ {\f13 }</td> 
-   <td> <p> </p> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td><span class="preview">查看费率卡</span></td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td> ✓ {\f13 }</td> 
-  </tr>
   <tr> 
    <td>在资源计划工具中按成本查看信息</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>资源规划工具中的预算资源*</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>在资源计划工具中查看资源*</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> <p>✓</p> </td> 
   </tr> 
  </tbody> 
 </table>

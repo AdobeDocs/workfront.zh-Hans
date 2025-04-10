@@ -6,7 +6,7 @@ description: 作为Adobe Workfront管理员，您可以在分配其访问级别�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 2%
@@ -40,12 +40,7 @@ ht-degree: 2%
      您可以向模板授予以下权限：
 
       * 查看
-
-        ![](assets/view-on-template-262x221.png)
-
       * 管理
-
-        ![](assets/manage-on-template-225x280.png)
 
    * 使用该模板创建的未来项目。 您可以为从模板创建的项目授予与对单个项目相同的权限级别。 
 
@@ -124,38 +119,38 @@ You can share an object only with active users, teams,
  <tbody> 
   <tr> 
    <td>复制</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>删除</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>编辑模板详细信息</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>查看模板</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>共享</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>在系统范围内共享</td> 
    <td> </td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>添加文档</p> <p>提示：有时候，人们在将文档添加到项目模板时以为自己正在将文档添加到项目中。 通过禁用此设置，可以为收件人阻止这种情况。</p> </td> 
    <td> </td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
   </tr> 
  </tbody> 
 </table>

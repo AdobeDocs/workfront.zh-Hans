@@ -6,9 +6,9 @@ description: 在分配访问级别时，您的Adobe Workfront管理员会授予�
 author: Alina, Nolan
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: 311398231719fb8a29a6bf2ddf1eeafb58e4f39f
+source-git-commit: 8b524f7cd7e1bfedbaa1e993cbf4b3b805344b7c
 workflow-type: tm+mt
-source-wordcount: '1922'
+source-wordcount: '1909'
 ht-degree: 0%
 
 ---
@@ -193,9 +193,7 @@ ht-degree: 0%
 
    ![](assets/share-a-document-350x160.png)
 
-1. 在&#x200B;**授予&lt;对象名称>对**&#x200B;的访问权限字段中，开始键入要与其共享对象的用户、团队、角色、组或公司的名称，然后在该名称出现在下拉列表中时单击该名称。
-
-   ![](assets/portfolio-access-box.png)
+1. 在&#x200B;**授予[对象名称]对**&#x200B;的访问权限字段中，开始输入要与其共享该对象的用户、团队、角色、组或公司的名称，然后在该名称出现在下拉列表中时单击该名称。
 
    >[!TIP]
    >
@@ -205,7 +203,7 @@ ht-degree: 0%
 
 1. （可选）对要授予对象访问权限的每个用户、团队、角色或组重复步骤3。
 
-1. 通过单击下拉菜单，然后选择要授予的权限级别，指定您在步骤3中添加的每个用户、团队、角色、组或公司的权限。
+1. 指定您在步骤3中添加的每个用户、团队、角色、组或公司的权限。
 
    要从对象中删除权限，请参阅[从对象中删除权限](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)。
 
@@ -218,24 +216,24 @@ ht-degree: 0%
      >
      >Workfront管理员或对象创建者可以从这些实体中删除权限。
 
-     ![](assets/view-manage-sharing-options-for-portfolio-or-document.png)
+1. （可选）单击您授予的权限级别旁边的高级选项图标，以配置对象的特定权限。
 
-1. （可选）单击&#x200B;**高级设置**&#x200B;配置对象的特定权限。
+   ![](assets/new-share-advanced-permissions-dropdown.png)
 
    “查看”和“管理”权限具有不同的高级选项，具体取决于所选对象。\
    有关权限级别的详细信息，请参阅[对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
 
-1. （可选）要使此对象对系统中的所有用户都可用，请单击&#x200B;**齿轮**&#x200B;图标![](assets/gear-icon-settings-with-dn-arrow.jpg)，然后在下拉菜单中单击&#x200B;**使此对象在系统范围内可见**。
+1. （可选）要使此对象对系统中的所有用户都可用，请单击&#x200B;**谁具有访问权限**&#x200B;下拉菜单，然后选择&#x200B;**系统中的每个人都可以查看**。
 
    所有用户都可以根据您设置的权限查看对象。
 
-1. （可选）要使对象公开，请单击&#x200B;**将此对象公开给外部用户**。
+1. （可选）若要使对象公开，请单击齿轮图标，然后启用&#x200B;**将此对象公开给外部用户**。
 
    >[!TIP]
    >
    >此选项并非对所有对象都可用。
 
-   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png){width="350"}
+   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png)
 
 1. （视情况而定）如果将对象公开给外部用户，请单击&#x200B;**复制链接**，然后将该链接分发给外部用户。
 
@@ -261,7 +259,6 @@ ht-degree: 0%
 
 1. 在&#x200B;**编辑&lt;对象名称>访问**&#x200B;框中，开始键入要与其共享对象的用户、团队、角色、组或公司的名称，然后当名称出现在下拉列表中时单击该名称。
 
-   ![](assets/list-share-add-people.png){width="350"}
 
    >[!TIP]
    >
@@ -273,11 +270,10 @@ ht-degree: 0%
 
 1. （可选）对要授予对象访问权限的每个用户、团队、角色或组重复步骤3。
 
-1. 通过单击用户名称右侧的下拉菜单，然后选择要授予的权限级别，指定您在步骤3中添加的每个用户、团队、角色、组或公司的权限。
+1. 指定您在步骤中添加的每个用户、团队、角色、组或公司的权限。
 
    要从对象中删除权限，请参阅[从对象中删除权限](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)。
 
-   ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)
 
    可以使用以下选项：
 
@@ -299,12 +295,12 @@ ht-degree: 0%
      >
      >Workfront管理员或对象创建者可以从这些实体中删除权限。
 
-1. （可选）单击&#x200B;**高级设置**&#x200B;配置对象的特定权限。
+1. （可选）单击您授予的权限级别旁边的高级选项图标，以配置对象的特定权限。
+
+   ![](assets/new-share-advanced-permissions-dropdown.png)
 
    “查看”、“管理”和“参与”都具有不同的高级选项，具体取决于所选对象。\
    有关权限级别的详细信息，请参阅[对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
-
-   ![](assets/screen-shot-2013-12-04-at-1.14.11-pm.png)
 
 1. （可选）要使此对象对系统中的所有用户都可用，请单击&#x200B;**齿轮**&#x200B;图标![](assets/gear-icon-settings-with-dn-arrow.jpg)，然后在下拉菜单中单击&#x200B;**使此对象在系统范围内可见**。
 
