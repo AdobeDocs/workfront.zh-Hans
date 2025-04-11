@@ -8,9 +8,9 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 04bdfbdf1fa05082fe12c2ab239e861a6db4ee6e
+source-git-commit: 5ff071a6e0af93f5280225355edad1d0dde42b3f
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1125'
 ht-degree: 1%
 
 ---
@@ -246,3 +246,8 @@ ht-degree: 1%
 1. 单击&#x200B;**[!UICONTROL 删除]**。
 
    这些字段将从元数据映射中删除，并且其中包含的信息不会随上载的文档一起传输到[!DNL Workfront DAM]。
+
+
+## 限制
+
+* Google Drive文档集成支持从Google Drive的“我的驱动器”区域添加文件夹和图像。 无法从共享驱动器添加文件夹或映像。 了解有关[Google共享驱动器](https://support.google.com/a/users/answer/7212025?hl=en)的更多信息。
