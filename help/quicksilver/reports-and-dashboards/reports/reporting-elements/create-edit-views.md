@@ -6,9 +6,9 @@ description: 您可以使用视图自定义在屏幕上显示的信息类型。 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 4ab3915651e664d97c368a6b650b0d0cb0a1593c
 workflow-type: tm+mt
-source-wordcount: '1731'
+source-wordcount: '1713'
 ht-degree: 1%
 
 ---
@@ -89,31 +89,46 @@ ht-degree: 1%
    * 通过单击&#x200B;**添加列**&#x200B;来添加列，开始键入要添加的列的名称，然后在它出现在下拉列表中时单击它。
    * 通过将列标题拖动到新位置来调整列的显示顺序。
 
-      * （可选）在&#x200B;**列设置**&#x200B;区域中，单击&#x200B;**按**&#x200B;汇总此列，然后选择用于汇总信息的可用选项之一。 选择此选项时，列中的信息将按报表的分组进行汇总。\
-        对于日期字段，您可以通过以下选项汇总值：
+   * 在&#x200B;**列设置**&#x200B;区域中，单击&#x200B;**按**&#x200B;汇总此列，然后选择您希望数据在列中显示的方式：
 
-         * 最大
-         * 最小
+     <table style="table-layout:auto"> 
+         <col> 
+         <col> 
+         <tbody> 
+          <tr> 
+           <td role="rowheader"><strong>日期字段</strong></td> 
+           <td><ul>
+           <li>最大</li>
+         <li>最小</li>
+           </ul></td> 
+          </tr> 
+          <tr>
+           <td role="rowheader"><strong>货币字段</strong></td> 
+           <td><ul>
+           <li>计数</li>
+         <li>总和</li>
+           <li>平均</li>
+         <li>最大值</li>
+           <li>最小</li>
+         </ul></td> 
+          </tr> 
+         <tr>
+           <td role="rowheader"><strong>字符串和布尔字段</strong></td> 
+           <td><ul><li>计数</li></ul>
+           <p>注意：Workfront通常不建议按计数汇总布尔字段，因为该值将始终为true/false。</p></td> 
+          </tr> 
+         </tbody> 
+        </table>
 
-        对于数字和币种字段，您可以按以下选项汇总值：
-
-         * 计数
-         * 总和
-         * 平均
-         * 最大
-         * 最小
-
-        >[!NOTE]
-        >
-        >在分组中聚合以下字段的值时，以下例外适用于父对象（例如，父任务）：
-        >   
-        >   * 除“实际小时数”（例如，“计划/实际劳力成本”、“计划/实际费用成本”、“计划/实际成本”、“计划小时数”）之外的所有数字和货币字段仅汇总子任务和独立任务的值。 它们不会聚合父任务的值或父任务的父值。
-        >   * 实际小时数聚合主父级任务和独立任务的值；它们不会聚合父级任务或子级任务的父级任务的数量。
-        >   * 数字和货币值的自定义数据字段汇总所有任务：父任务、子任务、父任务的父任务和独立任务。
-        >   
-        >
-
-        有关在报表中使用分组的更多信息，请参阅Adobe Workfront中的[分组概述](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)一文。
+     >[!NOTE]
+     >
+     >在分组中汇总以下字段的值时，以下例外适用于父对象（例如，父任务）：
+     >   
+     > * 除“实际小时数”（例如，“计划/实际劳力成本”、“计划/实际费用成本”、“计划/实际成本”、“计划小时数”）之外的所有数字和货币字段仅汇总子任务和独立任务的值。 它们不会聚合父任务的值或父任务的父值。
+     > * 实际小时数聚合主父级任务和独立任务的值；它们不会聚合父级任务或子级任务的父级任务的数量。
+     > * 数字和货币值的自定义数据字段汇总所有任务：父任务、子任务、父任务的父任务和独立任务。
+     >
+     >有关在报表中使用分组的更多信息，请参阅Adobe Workfront中的[分组概述](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)一文。
 
       * （可选）单击&#x200B;**高级选项**&#x200B;为列指定以下信息：
 

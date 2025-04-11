@@ -8,16 +8,14 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: e8badce6-86f5-416c-a238-f9b7f19cdd2d
-source-git-commit: f9ebf647c7672a9d471288806cf596d103007613
+source-git-commit: 486b672a67c62b86f3306c9375a286895c2fae01
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
 
 # 批量编辑文档
-
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 您可以一次编辑多个文档中的描述、添加自定义表单和编辑自定义表单。
 
@@ -97,7 +95,6 @@ ht-degree: 0%
     </table>
 1. 单击&#x200B;**保存**。
 
-<span class="preview">
 
 ## 在文档报告中批量编辑文档
 
@@ -125,5 +122,3 @@ ht-degree: 0%
     </tr>
     </table>
 1. 单击&#x200B;**保存**。
-
-</span>
