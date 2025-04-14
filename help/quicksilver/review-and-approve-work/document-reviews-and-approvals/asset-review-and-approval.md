@@ -6,9 +6,9 @@ description: 在Workfront中可供审阅和批准的系统概述。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
+source-git-commit: 97821d0fa97e8ba18e63b7e4156e06563e148a3d
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ Workfront中目前有3种不同的系统可用于资产和文档审阅和批准�
 * 在校对查看器中审阅和评论
 * 在验证查看者中做出决策
 * 创建具有旧版报表的审批报表
+* 在主页区域的“我的审批”小组件中访问审批请求
 
 有关详细信息，请参阅[旧文档审批](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md#document-approval-processes)。
 
@@ -62,6 +63,8 @@ Workfront中目前有3种不同的系统可用于资产和文档审阅和批准�
 
 * 创建多个阶段审批[!BADGE 即将推出]{type=Informative}
 
+* 访问查看和批准请求（位于主页区域的“我的审批”小部件中）
+
 
 ## 验证审批
 
@@ -84,6 +87,8 @@ Workfront中目前有3种不同的系统可用于资产和文档审阅和批准�
 * 创建多个阶段审批
 
 * 使用基本或自动化工作流
+
+* 在主页区域的“我的审批”小组件中访问审批请求
 
 <!--
 ## Upcoming deprecations
