@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 6f69425c811042f9f3e13f3631ba734f8fdcb95f
 workflow-type: tm+mt
-source-wordcount: '1318'
+source-wordcount: '1378'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 自定义表单中的外部查找字段调用外部API，并在下拉字段中作为选项返回值。 使用自定义表单附加到的对象的用户可以从下拉菜单中选择一个或多个选项。
 
-本文提供了使用外部查找字段调用Workfront或公共API的相同实例的示例。 您还可以使用外部查找与外部系统（如Jira、Salesforce或ServiceNow）通信。
+本文提供了使用外部查找字段调用Workfront或公共API的相同实例的示例。 您还可以使用外部查找与外部系统(如Jira、Salesforce或ServiceNow)进行通信。
 
 有关将外部查找字段添加到自定义表单以及外部查找组件的其他定义的详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ### 在外部查找中使用本机Workfront字段值
 
-此示例说明如何调用Workfront API，并将现有“状态查询”字段中的数据引入外部查找字段。
+此示例演示了如何调用Workfront API并在外部查找字段中填充项目列表，该字段使用“状态查询”自定义字段的值以及通过$$QUERY的搜索词按状态进行过滤。
 
 1. 打开自定义表单。
 1. 在屏幕左侧，找到&#x200B;**外部查找**&#x200B;并将其拖动到画布上的某个部分。
@@ -37,17 +37,17 @@ ht-degree: 0%
 1. 为字段选择&#x200B;**格式**。
 1. 在&#x200B;**基本API URL**&#x200B;字段中输入API调用。
 
-   * 要引用自定义表单所在的相同Workfront实例，请将$$HOST用于URL。
-   * 要根据查询其他字段来筛选结果，请添加$$QUERY。
+   * 使用$$HOST引用自定义表单所在的相同Workfront实例。
+   * 使用$$QUERY根据用户输入动态筛选结果。
 
-   **示例**
-   `$$HOST/attask/api/v15.0/project/search?status={DE:StatusQuery}&$$QUERY`
+   **示例API调用**
+   `$$HOST/attask/api/v15.0/project/search?status={DE:Status Query}&description=$$QUERY`
 
-1. 查看&#x200B;**依赖项**，了解此查找字段在API中引用的字段。
+1. 查看API调用中引用的字段的&#x200B;**依赖项**。
 
-   依赖项字段可以是对象详细信息页面中存在的任何自定义或本机字段。
+   依赖项字段可以是对象上可用的任何自定义或本机字段。 例如，当您为组创建包含外部查找字段的自定义表单时，依赖项字段可以包含组上可用的任何字段。
 
-   在此示例中，`{DE:StatusQuery}`将替换为StatusQuery自定义字段的值。
+   在此示例中，`{DE:Status Query}`将被当前组的“状态查询”自定义字段的值动态替换。 因此，将表单附加到组A时，`{DE:Status Query}`将替换为该组在“状态查询”字段中设置的值。
 
 1. 选择&#x200B;**HTTP方法**。
 
