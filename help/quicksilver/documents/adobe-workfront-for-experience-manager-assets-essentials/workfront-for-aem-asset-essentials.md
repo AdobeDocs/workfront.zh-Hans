@@ -2,26 +2,28 @@
 content-type: reference
 product-area: documents;workfront-integrations
 navigation-topic: documents-navigation-topic
-title: “Adobe Workfront for Experience Manager Assets Essentials：文章索引”
-description: 适用于Experience Manager Assets Essentials的Adobe Workfront
+title: Adobe Workfront for Experience Manager Assets Essentials：文章索引
+description: Adobe Workfront for Experience Manager Assets Essentials文章索引
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 8aad1efc-1a91-441a-8bb8-0ce9429492c6
-source-git-commit: c46ea3c15139b190187726eed5ddb49135052e16
+source-git-commit: 5d818b2e3c3314c6af076df46f7f806214f97bab
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
 
 # 适用于Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引
 
+<!-- Audited: 4/2025 -->
+
 * [Adobe Experience Manager Assets集成概述](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
-* [从Experience Manager Assets或Assets Essentials链接资源和文件夹](../../documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
+* 从Experience Manager Assets或Assets Essentials [链接资源和文件夹](../../documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
 * [查看Experience Manager Assets或Assets Essentials的映射元数据](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/view-asset-metadata.md)
 * [将文档发送到Experience Manager Assets或Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
-* [校对Experience Manager Assets或Assets Essentials的链接资源](../../documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
+* [校对链接的Experience Manager Assets或Assets Essentials资源](../../documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
 * [查看或下载从Experience Manager Assets或Assets Essentials链接的资源](../../documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
 * [创建与Experience Manager Assets或Assets Essentials链接的文件夹](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
 * [在Experience Manager Assets Essentials集成中使用工作流](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)

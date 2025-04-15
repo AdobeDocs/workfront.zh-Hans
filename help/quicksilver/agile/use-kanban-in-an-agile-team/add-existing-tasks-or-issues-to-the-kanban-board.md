@@ -6,7 +6,7 @@ description: 如果您拥有项目的“管理”访问权限，则可以向Kanb
 author: Courtney
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
+source-git-commit: 2ce454f6f6e883090fe69c953d89c2d3eef7ce5b
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 0%
@@ -67,6 +67,7 @@ ht-degree: 0%
    >如果为任务或问题分配了多个团队，则工作项只能显示在一个团队的[!DNL kanban]讨论区上。
 1. 单击&#x200B;**添加**。
 
+
 ## 从报告添加现有任务或问题
 
 要从报告将任务或问题添加到[!UICONTROL Kanban]展示板，请执行以下操作：
@@ -84,13 +85,14 @@ ht-degree: 0%
 1. 单击&#x200B;**添加**。
 
 
+
 ## 从功能板添加现有任务或问题
 
 要从仪表板将任务或问题添加到[!UICONTROL Kanban]展示板，请执行以下操作：
 
 {{step1-to-dashboards}}
 
-1. 选择包含要添加到Kanban板的工作项的仪表板。
+1. 选择包含要添加到Kanban展示板的工作项的展示板。
 1. 选择要添加的一个或多个工作项。
 1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;图标![更多图标](assets/more-icon.png)，然后选择&#x200B;**添加到Kanban展示板**。 将打开&#x200B;[!UICONTROL **添加到**]&#x200B;对话框。
 1. 在&#x200B;**Kanban展示板**&#x200B;字段中，键入Kanban团队的名称，然后从下拉列表中选择该团队。
@@ -98,4 +100,5 @@ ht-degree: 0%
    >[!NOTE]
    >
    >如果为任务或问题分配了多个团队，则工作项只能显示在一个团队的[!DNL kanban]讨论区上。
+
 1. 单击&#x200B;**添加**。
