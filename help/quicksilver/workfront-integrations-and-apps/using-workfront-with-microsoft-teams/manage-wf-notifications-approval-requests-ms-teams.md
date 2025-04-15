@@ -6,18 +6,22 @@ description: 您可以从 [!DNL Adobe Workfront] 接收有关需要批准的项�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
+source-git-commit: 69fdb5c23bb501fc81e4ef3c3ab7c94e78e69d29
 workflow-type: tm+mt
-source-wordcount: '1374'
+source-wordcount: '1338'
 ht-degree: 0%
 
 ---
 
 # 在[!DNL Microsoft Teams]中管理[!DNL Adobe Workfront]通知
 
+<!--
+
 >[!NOTE]
 >
->自2025年7月1日起，Microsoft将移除对Classic Teams桌面应用程序的支持。 因此，在Classic Teams桌面应用程序不再可用后，将不支持与Microsoft Teams的Workfront集成。
+>As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
+
+-->
 
 您可以从[!DNL Adobe Workfront]接收有关您需要审批的项目、已给予您的分配或您关联项目的注释和更改的通知。
 

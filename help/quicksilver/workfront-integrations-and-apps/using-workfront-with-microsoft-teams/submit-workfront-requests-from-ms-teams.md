@@ -6,18 +6,22 @@ description: 在团队所有者安装适用于Microsoft Teams的Adobe Workfront�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5975d773-eae6-44ae-8296-2013504da3a8
-source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
+source-git-commit: 69fdb5c23bb501fc81e4ef3c3ab7c94e78e69d29
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
 
 # 提交来自[!DNL Microsoft]团队的[!DNL Adobe Workfront]请求
 
+<!--
+
 >[!NOTE]
 >
->自2025年7月1日起，Microsoft将移除对Classic Teams桌面应用程序的支持。 因此，在Classic Teams桌面应用程序不再可用后，将不支持与Microsoft Teams的Workfront集成。
+>As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
+
+-->
 
 在团队所有者安装[!DNL Adobe Workfront for Microsoft Teams]后，您可以从您的[!DNL Microsoft Teams]帐户提交[!DNL Workfront]请求。 为此，您必须拥有有权提交请求的Workfront帐户。 有关安装[!DNL Workfront for Microsoft Teams]的信息，请参阅[正在安装 [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)。
 

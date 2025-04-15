@@ -6,9 +6,9 @@ description: 您可以在 [!DNL Microsoft Teams] 中访问 [!DNL Adobe Workfront
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
-source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
+source-git-commit: 69fdb5c23bb501fc81e4ef3c3ab7c94e78e69d29
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '449'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,13 @@ ht-degree: 1%
 
 <!--Audited: 01/2024-->
 
+<!--
+
 >[!NOTE]
 >
->自2025年7月1日起，Microsoft将移除对Classic Teams桌面应用程序的支持。 因此，在Classic Teams桌面应用程序不再可用后，将不支持与Microsoft Teams的Workfront集成。
+>As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
+
+-->
 
 您可以通过在[!DNL Workfront]机器人渠道或任何其他团队渠道中键入命令，从[!DNL Microsoft Teams]访问[!DNL Adobe Workfront]并在[!DNL Workfront]中执行多个操作。
 
