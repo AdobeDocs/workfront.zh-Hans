@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront中查看您创建或与您共享的日�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: eebece1ba576d9c654ac0fd9763ae646ce3be5a5
+source-git-commit: 3e5fdb157a6ff29daf964b505d3a0bf4f9842e88
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -82,8 +82,6 @@ ht-degree: 0%
    * **[!UICONTROL 周]**：显示日历的一周
    * **[!UICONTROL 甘特图]**：显示日历的连续视图
 
-     ![[!UICONTROL 甘特图]日历报告](assets/gantt-calendar-report.png)
-
      通过向下或横向滚动，您可以在[!UICONTROL 甘特图]视图中查看更多事件。 在为视图填充数据时，将显示一个加载符号。
 
    >[!NOTE]
@@ -118,16 +116,5 @@ ht-degree: 0%
 
 您可以在日历中查看当前和过去事件的详细信息。
 
-1. 转到要了解其详细信息的事件，然后单击该事件。
-此时将打开事件的详细信息页面。
-   ![calendar_report_EventDetails.png](assets/calendar-report-eventdetails-350x145.png)
-
-1. （可选）要查看有关对象的其他详细信息，请执行以下操作：
-
-   1. 将鼠标悬停在项目、任务或问题名称上。
-
-      将打开对象的详细信息页面。
-      ![additional_object_details_-_calendar_report.png](assets/additional-object-details---calendar-report-350x131.png)
-
-   1. （可选）要打开关联的项目、任务或问题，请单击对象的标题。
-   1. （可选）要关闭所有打开的详细信息页面，请单击事件详细信息页面之外的任意位置。
+1. 转到要了解其详细信息的事件，然后单击该事件。 详细信息会在右侧的面板中打开。
+1. （可选）要打开关联的项目、任务或问题，请单击对象的标题。
