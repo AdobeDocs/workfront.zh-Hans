@@ -1,13 +1,13 @@
 ---
 title: 界面更新
 description: 本页列出了我们在Adobe Workfront中所做的界面更新，这些更新旨在改善用户体验并将其与其他Adobe应用程序相统一。
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 80cb8ffa0495c7d163de8fb99dba84e6442aa938
+source-git-commit: 3761217587419fa8b7ff42e425cc277ee36fe957
 workflow-type: tm+mt
-source-wordcount: '1774'
+source-wordcount: '1817'
 ht-degree: 0%
 
 ---
@@ -211,6 +211,12 @@ ht-degree: 0%
 ## 文档
 
 +++展开以查看文档界面更新
+
+### 请求文档时界面更新
+
+**预览版本： 2025年4月3日；生产版本：从2025年4月10日开始的一周开始**
+
+我们更新了用于向其他用户请求文档的对话框，该对话框的设计更加现代化，与Workfront的其他区域一致。
 
 ### 外部文档共享页面的界面更新
 
