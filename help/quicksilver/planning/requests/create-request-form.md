@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 594504c6a7acc9341471371ca279379042a45457
 workflow-type: tm+mt
-source-wordcount: '2046'
+source-wordcount: '2020'
 ht-degree: 1%
 
 ---
@@ -26,9 +26,7 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-您可以创建请求表单，并将其与Adobe Workfront Planning中的记录类型相关联。 然后，您可以与其他内部或外部用户共享指向该页面的链接。
-
-具有表单链接的用户可以更新表单上的字段值，并通过提交来添加新记录。
+您可以创建请求表单，并将其与Adobe Workfront Planning中的记录类型相关联。 然后，您可以与他人共享该表单，其他人也可以提交创建记录的请求。
 
 本文介绍了工作区管理员如何创建与记录类型关联的请求表单。
 
@@ -126,7 +124,7 @@ ht-degree: 1%
 
       * 创建者和上次修改者
       * 创建日期和上次修改日期
-      * 公式。<!--Formula fields are supported in the Preview environment.-->
+      * 公式
       * Workfront对象的查找字段
       * Workfront Planning已连接记录的查找字段
 
@@ -257,12 +255,7 @@ ht-degree: 1%
    >     * 人员
    >
 
-1. （视情况而定）如果您在上一步中选择了&#x200B;**具有链接**&#x200B;的任何人，请从可用日历中选择&#x200B;**链接到期日期**。<!--take out this tip when we release to production as in multiple forms this is no longer happening-->
-
-   >[!TIP]
-   >
-   >在这种情况下，会显示链接已公开共享。
-   >![记录类型菜单上的表单的公开共享链接](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
+1. （视情况而定）如果您在上一步中选择了&#x200B;**具有链接**&#x200B;的任何人，请从可用日历中选择&#x200B;**链接到期日期**。
 
    链接过期后，用户会收到错误消息，您必须更新链接日期并生成要共享的新链接，之后用户才能再次访问表单。
 
@@ -299,18 +292,10 @@ ht-degree: 1%
 1. 单击标题中&#x200B;**请求表单**&#x200B;左侧的左箭头以关闭请求表单表。
 
    此时将打开记录类型页面。
-1. （可选且视情况而定）要编辑现有表单，请执行以下操作：
+1. （可选且有条件）单击标题中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后执行以下操作之一：
 
-   1. 单击标题中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**管理请求表单**。</span>
+   1. 单击&#x200B;**更新请求表单**&#x200B;以对该请求表单进行任何更改，然后单击请求表单以打开并编辑它。
+   1. 单击&#x200B;**将链接复制到请求表单**&#x200B;以与其他人共享该表单的链接。
 
-      这将打开请求表单表格视图。
+1. （可选）转到Workfront中的&#x200B;**请求**&#x200B;区域并找到共享表单以提交请求。 有关信息，请参阅[提交Adobe Workfront计划请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。
 
-   1. 单击请求表单以打开并编辑它。
-   1. （可选）转到Workfront中的&#x200B;**请求**&#x200B;区域并找到共享表单以提交请求。 有关信息，请参阅[提交Adobe Workfront计划请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。
-
-<!--   * From the Production environment:
-   
-      1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the header, then do one of the following: 
-   
-      1. Click **Update request form** to make any changes to the request form.
-      1. Click **Copy link to request form**  to share the link to the form with others.-->

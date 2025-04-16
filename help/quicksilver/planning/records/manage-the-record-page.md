@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 594504c6a7acc9341471371ca279379042a45457
 workflow-type: tm+mt
-source-wordcount: '1853'
+source-wordcount: '1809'
 ht-degree: 0%
 
 ---
@@ -270,9 +270,7 @@ ht-degree: 0%
 
 * 无法将“连接”视图页面添加到记录的预览区域。
 
-* “连接”视图页面在表格视图中显示一个连接的记录页面。 表格视图是只读的。<!--more views might be added in the future-->
-
-* 您可以为每个连接的记录类型添加一个“连接”视图页。 <!--edit this when we can remove fields from this page-->
+* “连接”视图页面在表视图中显示一个连接的记录类型页面。
 
 * 将“连接”视图页面添加到记录页面后，即可在记录的预览区域看到页面选项卡。 您必须转到整页以查看所连接记录的表视图。<!--this might have changed? check and take disclaimer out-->
 
@@ -289,7 +287,7 @@ ht-degree: 0%
 您选择的记录类型的表格视图会显示，并且连接的记录会显示在表格视图中。
 已连接记录的所有字段都显示在已连接记录选项卡的表视图中。
 
-   当您从“预览”环境访问Workfront Planning时，默认情况下会显示所连接记录表中的前五个字段。 默认情况下不显示查找字段。0
+   默认情况下，将显示连接的记录表中的前五个字段。 默认情况下，不显示查找字段。
 
    表格视图是只读的。
 
@@ -309,16 +307,11 @@ ht-degree: 0%
    * 分组
    * 字段，用于显示、隐藏或重新排列字段
 
-   <!--Add to the list above from the list below - and condition these for Preview only: Hide fields, rearrange fields-->
-
    有关信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)。
 
    >[!NOTE]
    >
-   >   您无法在已连接记录选项卡的表视图中执行以下任何操作：
-   >
-   >   * 隐藏或重新排列字段。 您可以在“预览”环境中隐藏和重新排列字段。
-   >   * 创建、编辑或删除字段
+   >   不能在已连接记录选项卡的表视图中创建、编辑或删除字段。
    >
 
 1. 单击&#x200B;**连接**&#x200B;添加或删除记录。 有关信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)

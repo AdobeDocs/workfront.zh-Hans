@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 594504c6a7acc9341471371ca279379042a45457
 workflow-type: tm+mt
-source-wordcount: '1816'
+source-wordcount: '1791'
 ht-degree: 0%
 
 ---
@@ -152,10 +152,6 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 
 
 ## 在Workfront的请求区域将请求提交到Workfront规划
-
->[!NOTE]
->
->在每月发布到生产环境后，生产环境中为启用快速发布的客户也提供了本节中所述的功能。
 
 {{step1-to-requests}}
 
