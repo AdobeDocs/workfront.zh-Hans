@@ -5,18 +5,36 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 0d746db3b3665b288b4724c346a02d3f459fc365
+source-git-commit: 35cfdba7c206e8acb76648737588aa07120d2bbe
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
 
 # 在2025年第二季度发布时间范围内的外观更新
 
-本页介绍在2025年第二季度发布时间范围内对Adobe Workfront应用程序各个方面的外观和感觉所做的细微更新。
+本页介绍在2025年第二季度发布时间范围内对Adobe Workfront应用程序各个区域的外观和感觉所做的细微更新。
 
-有关2025年第二季度版本中所有可用更改的列表，请参阅[2025年第二季度版本概述](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)。
+有关2025年第二季度版本的所有可用更改列表，请参阅[2025年第二季度版本概述](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)。
+
+## 更新了具有新样式的报表
+
+>[!NOTE]
+>
+>面向所有客户的预览和生产： 2025年4月9日
+
+我们更新了多个报表的外观，以便与Workfront其他区域的设计相匹配。
+
+此更新包括对以下报告的列表和工具栏的可视更改。 功能未发生更改。
+
+* 参数
+* 参数组
+* 自定义表单
+* 休息时间
+
+有关信息，请参阅[创建自定义报表](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
+
 
 ## Google Drive文档集成对话框的外观更新
 
@@ -49,14 +67,14 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览版本：2025年3月27日；适用于所有客户的生产版本：带25.4版本（2025年4月10日）
+>预览版本： 2025年3月27日；适用于所有客户的生产版本：使用25.4版本（2025年4月10日）
 
-为了提高性能，我们对“设置”中的“访问级别”区域进行了一些视觉更新。
+为了提高性能，我们对“设置”中的“访问级别”区域进行了一些可视化更新。
 
-对“访问级别”列表应用了一个小的功能更改。 要复制、编辑或删除访问级别，请选择该级别，然后单击相应的图标。
+对访问级别列表进行了小幅功能更改。 要复制、编辑或删除访问级别，请选择该级别，然后单击相应的图标。
 
 
-## 对“费用类型”对话框的外观更新
+## 费用类型对话框的外观更新
 
 >[!NOTE]
 >
@@ -70,9 +88,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览版本：2025年3月27日；适用于所有客户的生产版本：带25.4版本（2025年4月10日）
+>预览版本： 2025年3月27日；适用于所有客户的生产版本：使用25.4版本（2025年4月10日）
 
-当您在Workfront的“设置”区域中更新现有风险类型时，我们已更新“编辑风险类型”框的外观。 现在，新设计与Workfront的其他区域相匹配。
+当您在Workfront的“设置”区域中更新现有风险类型时，我们更新了“编辑风险类型”框的外观。 现在，新设计与Workfront的其他部分相匹配。
 
 有关信息，请参阅[编辑和创建风险类型](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)。
 
@@ -98,24 +116,24 @@ ht-degree: 0%
 
 有关信息，请参阅[创建请求队列](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
-## 某些电子邮件通知中不再显示头像
+## 头像不再显示在某些电子邮件通知中
 
 >[!NOTE]
 >
->预览版本：2025年3月13日；面向所有客户的生产版本：2025年3月13日
+>预览版本： 2025年3月13日；适用于所有客户的生产版本： 2025年3月13日
 
 
-以下电子邮件通知中将不再显示头像：
+头像将不再显示在以下电子邮件通知中：
 
 * 所有通信事件通知
-* 新分配通知
+* 新分派通知
 * 所有前置任务完成通知
 
 ## 里程碑路径列表的外观更新
 
 >[!NOTE]
 >
->预览版本：2025年3月6日；面向所有客户的生产版本：带25.4版本（2025年4月10日）
+>预览版本： 2025年3月6日；面向所有客户的生产版本：随25.4版一起发布（2025年4月10日）
 
 我们更新了“设置”区域中“里程碑路径”列表的外观，以匹配Workfront其他区域的设计。
 
@@ -137,11 +155,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览版本：2025年2月13日；面向所有客户的生产版本：2025年2月13日
+>预览版本： 2025年2月13日；适用于所有客户的生产版本： 2025年2月13日
 
-与添加或共享文档相关的电子邮件将在电子邮件正文中不再包含缩略图图像。
+与添加或共享文档相关的电子邮件在电子邮件正文中将不再具有缩略图图像。
 
-某些客户还会看到旧版任务和问题分配电子邮件，其中仅显示任务接受者的头像。
+有些客户还会看到旧版任务和问题分配电子邮件，其中仅显示被分配人的头像。
 
 在我们调查电子邮件延迟时，这些更改是暂时的。
 
@@ -156,4 +174,4 @@ ht-degree: 0%
 * “系统范围可见”选项现在显示“系统中的每个人都可以查看”。 此选项仍可像之前一样运行。
 * 新增了一个图标以访问高级共享设置。
 
-有关在何处找到“共享”对话框的详细信息，请参阅[授予和请求对象权限](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
+有关在何处查找“共享”对话框的详细信息，请参阅[授予和请求对象权限](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
