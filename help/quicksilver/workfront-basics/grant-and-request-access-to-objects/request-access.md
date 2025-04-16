@@ -6,14 +6,16 @@ description: 您对Adobe Workfront中对象的可见性取决于您对该类型�
 author: Becky
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: 18b96a6d57dc358bfe52e813bc98d8eb19f37dba
 workflow-type: tm+mt
-source-wordcount: '1380'
-ht-degree: 0%
+source-wordcount: '1338'
+ht-degree: 1%
 
 ---
 
 # 请求访问对象
+
+<!-- Audited: 4/2025 -->
 
 您对Adobe Workfront中对象的可见性取决于您对该类型对象的访问权限以及您对单个对象的权限。
 
@@ -28,11 +30,9 @@ ht-degree: 0%
 
 Workfront管理员会配置您对访问级别中某类对象的访问权限。 有关详细信息，请参阅[访问级别和权限如何协同工作](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)。
 
-如果您需要拥有Workfront中特定对象的权限，则可以请求对这些对象的访问权限。 您可以请求在Workfront中附加访问（或权限），而不是向Workfront管理员或对象所有者发送电子邮件来解释您的需求。
+如果您需要拥有Workfront中特定对象的权限，则可以请求对这些对象的访问权限。 您可以请求Workfront中的其他访问（或权限），而不是向Workfront管理员或对象所有者发送电子邮件来解释您的需求。
 
-如果有人与您共享指向对象的链接，则您可以请求对对象的初始访问权限，或者您可以请求对您至少查看过的对象的附加访问权限。
-
-例如，您可能具有某个项目的查看权限，但您需要将任务添加到该项目。 在这种情况下，您可以请求项目的Contribute权限。
+如果有人与您共享指向对象的链接，您可以请求对对象的初始访问权限，或者您可以请求对您已具有查看权限的对象进行附加访问权限。 例如，您可能具有某个项目的查看权限，但您需要将任务添加到该项目。 在这种情况下，您可以请求项目的Contribute权限。
 
 ## 访问要求
 
@@ -49,8 +49,9 @@ Workfront管理员会配置您对访问级别中某类对象的访问权限。 �
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
    <td> <p>新增：标准</p> 
+   <p>或</p>
    <p>当前：工作或更高</p> 
    </td> 
   </tr> 
@@ -61,16 +62,16 @@ Workfront管理员会配置您对访问级别中某类对象的访问权限。 �
  </tbody> 
 </table>
 
-*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
 ## 了解标准共享规则
 
-以下标准共享规则在您的Workfront系统中设置为默认选项后，会自动生效。
+以下标准共享规则是Workfront系统中的默认选项，会自动生效：
 
-* 分配给任务或问题的用户具有其Contribute访问权限。
-* 项目、Portfolio和项目群经理对其拥有的对象具有管理访问权限。
+* 分配给任务或问题的用户具有任务或问题的Contribute访问权限。
+* 项目、Portfolio和项目群经理对自己拥有的对象具有管理访问权限。
 * 对话中包含的用户对对话发生的对象具有查看访问权限。
 * 分配为批准者的用户对等待批准的对象具有查看权限。
 * 共享功能板时，该功能板上的所有报告也将以相同的访问权限共享给相同的用户。
@@ -85,22 +86,22 @@ Workfront管理员会配置您对访问级别中某类对象的访问权限。 �
 
 ### 请求初始访问  {#request-initial-access}
 
-如果您还不能访问某个对象，而您是通过链接导航到该对象的，则会显示一个屏幕，通知您无权查看该信息。
+如果您还不能访问某个对象，而要从链接导航到该对象，则会显示一个屏幕，通知您无权查看该信息。
 
 要请求对对象的初始访问权限，请执行以下操作：
 
-1. 单击&#x200B;**请求访问**。\
-   显示&#x200B;**请求访问**&#x200B;对话框。
+1. 单击&#x200B;**请求访问**。 显示&#x200B;**请求访问**&#x200B;对话框。
 
-1. （视情况而定）如果多个用户具有授予您额外访问权限的相应访问权限，则用户名称旁边会显示一个下拉箭头。 从下拉列表中选择应接收您的访问请求的用户。
+1. （视情况而定）如果多个用户具有授予您额外访问权限的相应访问权限，则用户名称旁边会显示一个下拉箭头。 从下拉列表中选择将收到访问请求的用户。
 
-   下拉列表中只显示10个用户。 该列表按字母顺序排序。\
-   有关此下拉菜单中列出用户顺序的更多信息，请参阅“请求访问”和“请求更多访问”下拉菜单的[层次结构](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus)。
+   下拉列表中只显示10个用户，该列表按字母顺序排序。 有关此下拉菜单中列出用户顺序的更多信息，请参阅“请求访问”和“请求更多访问”下拉菜单的[层次结构](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus)。
 
 1. 从下拉列表中，选择您请求的访问类型。
-1. （可选）在&#x200B;**P.S.**&#x200B;字段中，为用户指定一个注释，说明您需要额外访问权限的原因。
+1. （可选）在&#x200B;**P.S.**&#x200B;字段中，输入有关为何需要其他访问权限的注释。
 
    ![请求访问对话框](assets/request-access-to-project.png)
+
+1. 单击&#x200B;**请求访问**。
 
 <!--
 If you do not have access level rights to an object and you try to access that object from a link, a screen is displayed informing you to contact the Workfront administrator.
@@ -119,34 +120,31 @@ For example, if you do not have portfolio access, but you were given a link to a
 
    ![请求更多访问权限](assets/more-menu-request-more-access.png)
 
-1. （视情况而定）如果多个用户具有授予您额外访问权限的相应访问权限，则用户名称旁边会显示一个下拉箭头。
-1. 从下拉列表中选择要接收访问请求的用户。\
-   下拉列表中只显示10个用户。 该列表按字母顺序排序。\
-   有关此下拉菜单中列出用户顺序的更多信息，请参阅“请求访问”和“请求更多访问”下拉菜单的[层次结构](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus)。
+1. （视情况而定）如果多个用户具有授予您额外访问权限的相应访问权限，则用户名称旁边会显示一个下拉箭头。 从下拉列表中选择将收到访问请求的用户。
+
+   下拉列表中只显示10个用户，该列表按字母顺序排序。 有关此下拉菜单中列出用户顺序的更多信息，请参阅“请求访问”和“请求更多访问”下拉菜单的[层次结构](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus)。
 
 1. 从下拉列表中，选择您请求的访问级别。
-1. （可选）在&#x200B;**P.S.**&#x200B;字段中，指定有关为何需要其他访问权限的注释。
-1. 单击&#x200B;**请求访问**。
+1. （可选）在&#x200B;**P.S.**&#x200B;字段中，输入有关为何需要其他访问权限的注释。
 
-   “预览”环境中的示例图像：
    ![请求访问对话框](assets/request-access-to-project.png)
 
-## “请求访问”和“请求更多访问”下拉菜单的层次结构 {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
+1. 单击&#x200B;**请求访问**。
+
+## 请求访问和请求更多访问下拉菜单的层次结构 {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
 
 * [了解“请求访问”和“请求更多访问”下拉菜单中列出的用户层次结构](#understand-the-hierarchy-of-users-listed-in-the-request-access-and-request-more-access-drop-down-menus)
 * [了解对象的所有者](#understand-the-owner-of-an-object)
 
 ### 了解“请求访问”和“请求更多访问”下拉菜单中列出的用户层次结构 {#understand-the-hierarchy-of-users-listed-in-the-request-access-and-request-more-access-drop-down-menus}
 
-在填充对象的“请求访问”或“请求更多访问”列表时，Workfront会选择最多十个在共享对象方面充当不同角色的用户列表，如下所述。 这些用户可以向请求该对象的用户授予对该对象的访问权限。\
-然后，生成的列表将按其名称的字母升序排序。\
-Workfront在“请求访问”和“请求更多访问”列表中最多显示10个用户。
+在填充对象的“请求访问”或“请求更多访问”列表时，Workfront会选择最多10个用户的列表，这些用户履行各种职责，可以为请求访问的用户授予对象访问权限。 随后，生成的列表将按其名称的字母升序排序。
 
-“请求访问”或“请求更多访问”下拉菜单中的用户顺序由以下规则指定：
+请求访问或请求更多访问下拉列表中的用户顺序由以下规则决定：
 
 * 列表中的第一个用户是对象“所有者”，如[了解对象的所有者](#understand-the-owner-of-an-object)中所述。
 * 随后，该列表将填充单独共享该对象的用户。 它们按字母顺序列出。
-* 然后，该列表中进一步填充了通过与团队、组或公司共享而获得所需访问权限的用户。 它们按字母顺序列出。
+* 随后，该列表中还会进一步填充用户，这些用户可通过与其团队、组或公司共享来获取所需的访问权限。 它们按字母顺序列出。
 * 如果列表为空，则会添加Workfront管理员，以便始终有可向其请求访问权限的人员。 它们按字母顺序列出。
 * 列表中的每个用户都必须具有所请求的对象访问权限和共享对象的权限。
 
@@ -178,7 +176,7 @@ Workfront在“请求访问”和“请求更多访问”列表中最多显示10
   </tr> 
   <tr> 
    <td>项目组合</td> 
-   <td>所有者是Portfolio所有者。 <p>他们可能与项目组合创建者不同。 </p></td> 
+   <td>该所有者是Portfolio所有者。 <p>他们可能与项目组合创建者不同。 </p></td> 
   </tr> 
   <tr> 
    <td>文档</td> 
@@ -186,7 +184,7 @@ Workfront在“请求访问”和“请求更多访问”列表中最多显示10
   </tr> 
   <tr> 
    <td>报告和仪表板</td> 
-   <td>所有者是创建者、报告或仪表板。 </td> 
+   <td>所有者是报告或仪表板的创建者。 </td> 
   </tr> 
   <tr> 
    <td>日程表</td> 
