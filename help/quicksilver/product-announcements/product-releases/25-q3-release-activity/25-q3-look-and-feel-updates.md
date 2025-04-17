@@ -4,9 +4,7 @@ description: 在2025年第三季度发布时间范围内的外观更新
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: 131a4443564def1437c9b26d1e29e65fcc78d069
+source-git-commit: 20faacf09266c455a29a04db59a4d39f825f0c2d
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 5%
@@ -62,6 +60,3 @@ ht-degree: 5%
 当您从公司报表中删除公司时，我们更新了“删除公司”框的外观。 现在，新设计与Workfront的其他部分相匹配。
 
 通过此更新，“设置”区域中“公司”页面上“删除公司”框的外观没有变化。
-
-
-
