@@ -4,11 +4,10 @@ description: 2025年第三季度项目增强功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: 16f0caf4bdf80ef7b95e8ab51bf9f75aa3b81b3f
+exl-id: 4829d487-7041-447f-9a68-fb1acf467734
+source-git-commit: d616fcdafee137adcdd6fe88616a18c01ed969f3
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -28,7 +27,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览版本： 2025年4月10日；适用于所有客户的生产版本： 2025年4月17日
+>* 预览版本： 2025年4月10日；适用于所有客户的生产版本： 2025年4月17日
+>
+>* 此功能当前不适用于Adobe Unified Experience上的用户。
 
 新文档审批决策按钮现在显示在验证查看者中。 现在，当您创建简单验证，然后从文档摘要添加审批者和审阅者时，他们可以直接在验证查看者中做出决策。
 
