@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '731'
 ht-degree: 1%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 1%
 
 <!--should this move to the Access folder when we have sharing for ALL the objects???-->
 
+<!--take out preview and production references at release-->
+
 # 共享记录
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
-
-<!--take out preview and production references at release-->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -34,22 +34,17 @@ ht-degree: 1%
 
 * 在记录类型的表视图中查看记录时，复制指向记录页面的链接。
 
-* 通过共享工作区<!--<span class="preview">and record type</span>--> ，您可以与其他用户共享工作区中的所有记录。 有关详细信息，请参阅[共享工作区](/help/quicksilver/planning/access/share-workspaces.md)。
+* 通过共享工作区<span class="preview">和记录类型，您可以与其他用户共享工作区中的所有记录。</span>
 
-<!-- replace the last sentence above with this: 
+  有关更多信息，请参阅以下文章：
 
-For more information see the following articles:
+   * [共享工作区](/help/quicksilver/planning/access/share-workspaces.md)
 
-* [Share a workspace](/help/quicksilver/planning/access/share-workspaces.md)
+  <div class="preview">
 
+   * [共享记录类型](/help/quicksilver/planning/access/share-record-types.md)
 
-<div class="preview">
-
-* [Share a record type](/help/quicksilver/planning/access/share-record-types.md)
-
-</div>
-
--->
+  </div>
 
 本文介绍了如何从记录类型的表视图中复制指向记录页面的链接。
 
@@ -109,8 +104,8 @@ For more information see the following articles:
   </tr> 
 <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
-   <td>  <p>使用链接查看工作区共享<!--<span class="preview">and record type</span>-->记录或更高权限 </p>
-   <p>管理工作区<!--<span class="preview">and record type</span>-->的权限以共享工作区中的记录 </p>
+   <td>  <p>查看工作区<span class="preview">和记录要共享的类型</span>的权限或更高的权限   使用链接的记录 </p>
+   <p>管理工作区<span class="preview">和记录类型</span>的权限以共享工作区中的记录 </p>
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>  </td> 
   </tr> 
 <tr> 
@@ -220,26 +215,23 @@ For more information see the following articles:
 有关详细信息，请参阅[共享工作区](/help/quicksilver/planning/access/share-workspaces.md)。
 
 
-<!--
 <div class="preview">
 
-## Share all records in a record type by sharing the record type
+## 通过共享记录类型共享记录类型中的所有记录
 
-In the Production environment, records inherit permissions from the workspace. 
+在生产环境中，记录从工作区继承权限。
 
-In the Preview environment, records inherit permissions from the record type. 
+在“预览”环境中，记录从记录类型继承权限。
 
-By default, record types inherit permissions from the workspace. 
+默认情况下，记录类型从工作区继承权限。
 
-However, you can do any of the following:
+但是，您可以执行以下任一操作：
 
-* Turn off inherited permissions from the workspace on a record type. This removes permissions from the records. 
-* Manually grant permissions to users to a record type, even when they have no permissions to the workspace. This automatically gives them View permissions to the workspace. This grants permissions to users to the records. 
+* 禁用从工作区继承的记录类型权限。 这将删除对记录的更高权限，但保留对工作区、记录类型和记录的查看权限。
+* 手动将权限授予记录类型的用户，即使他们无权访问工作区。 这将自动授予他们查看工作区的权限。 这将授予用户对记录的权限。
 
-Only users with Manage permissions to a workspace can share its record types and records with others. 
+只有对工作区具有管理权限的用户才能与其他人共享其记录类型和记录。
 
-For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md). 
+有关详细信息，请参阅[共享记录类型](/help/quicksilver/planning/access/share-record-types.md)。
 
 </div>
-
--->

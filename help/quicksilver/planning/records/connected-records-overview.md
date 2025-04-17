@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
 
 # 连接的记录概述
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span> -->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -41,8 +41,8 @@ ht-degree: 0%
 
   在原始记录或对象上更新查找字段的值后，会自动填充您要链接的Workfront Planning记录。
 
-* 有权访问Workfront Planning and View或对工作区<!--<span class="preview">and record type</span>-->拥有更高权限的每个人均可查看您在记录之间或记录与其他应用程序的对象之间建立的连接。 他们可以查看连接的记录和对象，无论他们在您连接的应用程序中的权限如何。
-* 如果您对连接记录所在的工作区<!--<span class="preview">and record type</span>-->具有管理权限，则可以查看和编辑其他人的连接。
+* 有权访问Workfront Planning and View或对Workspace <span class="preview">和记录类型</span>具有更高权限的每个人都可以查看您在记录之间或记录与其他应用程序的对象之间建立的连接。 他们可以查看连接的记录和对象，无论他们在您连接的应用程序中的权限如何。
+* 如果您对工作区<span class="preview">和所连接记录所在的记录类型</span>具有管理权限，则可以查看和编辑其他人的连接。
 * 您可以将一个记录连接到另一个应用程序的一个或多个对象。具体取决于您在连接记录类型时选择的连接类型。 有关详细信息，请参阅文章[连接的记录类型概述](/help/quicksilver/planning/architecture/connect-record-types-overview.md)中的“连接类型”部分。
 
 ## 可连接记录的区域

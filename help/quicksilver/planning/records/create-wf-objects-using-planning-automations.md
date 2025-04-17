@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '2138'
+source-wordcount: '2202'
 ht-degree: 2%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 2%
 
 <!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 您可以在Adobe Workfront Planning中配置自动处理，激活自动处理后，可在从Planning记录触发时，在Workfront中创建对象，或在Workfront Planning中创建记录。 创建的对象或记录会自动连接到从中触发自动化的记录。
 
@@ -102,7 +102,7 @@ ht-degree: 2%
 <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
    <td> <p>管理工作区权限以创建自动化。 </p>
-   <p>为要使用现有自动创建对象的工作区<!--<span class="preview">and to the record type</span>-->分配或更高权限。 </p>  
+   <p>向工作区<span class="preview">和要使用现有自动创建对象的记录类型</span>分配或更高权限。 </p>  
    <p>管理Workfront对象（项目组合）的权限以添加子对象（项目群或项目）。</p>
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>
    </td> 
@@ -131,7 +131,7 @@ ht-degree: 2%
 
 * 新对象或记录不会覆盖同一字段中的现有对象或记录。 为同一记录多次触发同一自动化会在原始记录的同一已连接字段中添加新对象或记录，以及之前创建的对象或记录。
 
-<!--hide this for now; they are trying to remove this militation: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered.-->
+<!--hide this for now; they are trying to remove this limitation: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered.-->
 
 ## 在Workfront Planning中配置自动化
 

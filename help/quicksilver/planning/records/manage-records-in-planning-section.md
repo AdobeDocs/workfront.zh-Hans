@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '1777'
+source-wordcount: '1863'
 ht-degree: 1%
 
 ---
@@ -18,16 +18,16 @@ ht-degree: 1%
 
 # 管理来自Workfront对象的记录连接
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
 您可以在Workfront中将与它们连接的对象的以下区域显示Workfront Planning记录：
 
 * Workfront对象的Planning部分：显示连接到对象的所有记录类型及其各自的连接记录。
-* Planning连接自定义字段：显示一个记录类型、其各自的连接记录、<span class="preview">以及连接记录的最多7个查找字段。</span>
+* Planning连接自定义字段：显示一个记录类型、其各自的连接记录以及连接记录的最多7个查找字段。
 
 ## 访问要求
 
@@ -94,9 +94,9 @@ ht-degree: 1%
    <p>在Workfront中，查看项目、项目组合或项目群的权限或更高的权限</a> </p> 
    <p>在Workfront规划中：
    <ul><li>
-   查看工作区<!--<span class="preview">and record type</span>-->的权限以查看任何连接的记录 </li>
+   查看工作区<span class="preview">和记录类型</span>的权限以查看任何连接的记录 </li>
    或
-   <li> 向工作区<!--<span class="preview">and record type</span>-->分配或更高权限以连接或断开记录</a></li></ul> </p>  
+   <li> 向工作区<span class="preview">和记录类型</span>提供或更高权限以连接或断开记录</a></li></ul> </p>  
    <p>系统管理员有权访问所有Workfront Planning工作区，包括他们未创建的工作区</p> 
   </td>
   </tr>
@@ -211,7 +211,7 @@ ht-degree: 1%
 * 将Planning记录连接到Workfront对象后，Planning连接字段将以下列方式显示在Workfront对象的自定义表单中：
 
    * 如果仅选择所连接记录的主字段，且连接允许链接多个记录，则Planning连接字段将显示为具有多个值的字段。 有关信息，请参阅[连接记录类型概述](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
-   * <span class="preview">如果Workfront或组管理员从自定义表单上的连接记录中添加了其他查找字段，则Planning连接字段将显示为表格。 最多可以为Planning连接字段选择7个字段。 表格视图是只读的。 </span>
+   * 如果您的Workfront或组管理员从自定义表单上的连接记录中添加了其他查找字段，则Planning连接字段将显示为表格。 最多可以为Planning连接字段选择7个字段。 表格视图是只读的。
 
 * 您只能将一个记录类型与一个Planning连接字段相关联。 表单中的Planning连接字段数量没有限制。
 * 您必须对对象、记录和Workfront Planning具有正确的访问和权限，才能将带有Planning连接自定义字段的自定义表单附加到Workfront对象。
@@ -261,11 +261,16 @@ ht-degree: 1%
    * 记录会立即连接到Workfront对象，并显示在Workfront对象的Planning连接字段和Planning部分中。
    * Workfront对象将添加到Workfront Planning记录的已连接字段中。
    * 连接到Planning记录的Workfront查找字段的值会在Workfront Planning中填充。
-   * <span class="preview">如果您的Workfront或组管理员在创建自定义表单时添加了记录查找字段，则记录的查找字段会自动填充到表视图中。 Planning连接字段中的表视图为只读</span>
+   * 如果您的Workfront或组管理员在创建自定义表单时添加了记录查找字段，则记录的查找字段会在表视图中自动填充。 Planning连接字段中的表视图为只读。
 
      ![项目详细信息自定义表单上具有表的Planning连接字段](assets/planning-connection-field-with-table-on-project-details-custom-form.png)
 
-1. （可选）单击Planning连接自定义表单中的记录名称<span class="preview">或将光标悬停在表中的记录名称上，然后在Planning连接字段中单击&#x200B;**打开记录**&#x200B;图标![打开记录图标](assets/open-record-icon-on-planning-connection-custom-form.png)</span>以在Workfront Planning中打开该记录。
+     >[!NOTE]
+     >
+     >只有在自定义表单的Planning连接字段中添加了查找字段后，才会显示表格视图。
+
+
+1. （可选）在Planning连接字段中，单击记录名称或将鼠标悬停在表中记录名称上，然后单击Planning连接自定义表单上的&#x200B;**打开记录**&#x200B;图标![打开记录图标](assets/open-record-icon-on-planning-connection-custom-form.png)以在Workfront Planning中将其打开。
 将打开Workfront Planning记录详细信息预览框。
 1. 查看或编辑有关记录的信息，或单击&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开记录](assets/open-details-in-a-new-tab-icon.png)以打开记录详细信息页面。
 

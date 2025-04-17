@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '969'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 1%
 
 <!-- do you need to add that only workspace owners can view the Submitted/ Planning tab?? - asking team in slack-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -105,7 +105,7 @@ ht-degree: 1%
    <td role="rowheader"><p>对象权限</p></td>
    <td>
    <ul>
-   <li><p>管理工作区<!--<span class="preview">and record type</span>-->的权限 </p></li>
+   <li><p>管理工作区<span class="preview">和记录类型</span>的权限 </p></li>
     <li><p>系统管理员可以管理他们未创建的工作区。 </p></li>
     </ul>
    <p>有关共享Workfront Planning对象权限的信息，请参阅  
@@ -155,7 +155,7 @@ ht-degree: 1%
    ![处于审核状态的只读请求页面](assets/read-only-reqeust-page-in-review-status.png)
 
 1. （可选）单击请求右上角的&#x200B;**批准**&#x200B;图标![批准图标](assets/approvals-icon.png)以查看批准者。
-1. 单击&#x200B;**审核并批准**，然后选择以下选项之一： <!--did they fix the button and removed the &??-->
+1. 单击&#x200B;**审核并批准**，然后选择以下选项之一：
 
    * **批准**：这将批准请求。 在所有批准者批准请求后，将立即为与请求表单关联的记录类型创建记录。
    * **拒绝**：这将拒绝请求，即使您是唯一拒绝该请求的审批者。 没有为与请求表单关联的记录类型创建记录。

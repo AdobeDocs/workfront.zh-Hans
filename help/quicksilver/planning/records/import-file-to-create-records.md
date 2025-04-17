@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '972'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # 通过从CSV或Excel文件导入信息创建记录
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -83,7 +83,7 @@ ht-degree: 1%
   </tr> 
 <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
-   <td> <p>为要添加记录的工作区<!--and record type-->贡献或更高权限。 </p>  
+   <td> <p>向要添加记录的工作区<span class="preview">和记录类型</span>贡献或更高权限。 </p>  
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>
    <p>管理Workfront对象（项目组合）的权限以添加子对象（项目）。</p>
    </td> 
@@ -128,6 +128,8 @@ ht-degree: 1%
    从工作区中，展开现有工作区名称右侧的向下箭头，搜索工作区，然后在工作区显示在列表中时将其选定。
 1. 单击要导入记录的记录类型卡。
 1. 单击屏幕右上角的&#x200B;**新建记录**。
+
+   ![选择添加记录的方式三个按钮框](assets/choose-way-to-add-records-three-button-box.png)
 1. 单击&#x200B;**从文件**&#x200B;上载，然后单击&#x200B;**继续**。<!--add screen shot when all three buttons are added - with the Submit a request button-->
 1. 拖放以前保存在您计算机上的Excel或CSV文件，或单击&#x200B;**选择CSV或Excel文件**&#x200B;以浏览一个。
 1. 单击&#x200B;**预览和编辑**。

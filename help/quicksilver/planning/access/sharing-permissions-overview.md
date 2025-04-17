@@ -6,15 +6,17 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 6%
+source-wordcount: '1122'
+ht-degree: 5%
 
 ---
 
 
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
+
+<!--remove the Prod and Preview references when we release to Prod-->
 
 # 在Adobe Workfront Planning中共享权限概述
 
@@ -69,14 +71,9 @@ ht-degree: 6%
 
 * 用户
 * 组
-
-<div class="preview">
-
 * 团队
 * 公司
 * 工作角色
-
-</div>
 
 <span class="preview">当您与他人共享工作区和记录类型时，记录类型中的权限级别会自动继承到与其关联的记录和字段。</span>
 
@@ -131,7 +128,7 @@ ht-degree: 6%
 
 ### 记录类型权限
 
-<!--In the Production environment,--> 向工作区授予权限时，记录类型权限是<!--always-->继承的。
+在生产环境中，当您向工作区授予权限时，将始终继承记录类型权限。
 
 以下是记录类型的权限级别：
 
@@ -143,29 +140,35 @@ ht-degree: 6%
 | 编辑 | ✓ |            |       |
 | 查看 | ✓ | ✓ | ✓ |
 
-<!--
-
 <div class="preview">
 
-In the Preview environment, you can remove the record type's inherited permissions received from the workspace. 
+在“预览”环境中，您可以移除从工作区接收的记录类型的继承权限。
 
-You can give users different permissions on the record type than they have on the workspace. However, you can never grant higher permissions for the record type than users have on the workspace. 
+您可以授予用户在记录类型上比他们在工作区上更低的权限。
 
-The following scenarios exist: 
+但是，您不能执行以下操作：
 
-|   Workspace permissions     | Automatic inherited permissions for a Record Type |Possible Record Type permissions when Inherited permissions are turned off (granted manually)| 
+* 授予记录类型比用户在工作区上更高的权限。
+* 为工作区经理提供较低记录类型权限。
+* 通过从记录类型权限中删除用户，删除对记录类型或工作区的查看权限。
+
+存在以下情况：
+
+| Workspace权限 | 记录类型的自动继承权限 | 关闭继承权限时可能的记录类型权限（手动授予） |
 |--------|--------|-------------|
-| Manage |   Manage    |   Manage, Remove permissions           | 
-| Contribute |     Contribute |  Contribute, View, Remove permissions        |
-| View   |  View     |      View, Remove permissions        |     
+| 管理 | 管理 | 管理，删除权限* |
+| 参与 | 参与 | Contribute、View、Remove权限* |
+| 查看 | 查看 | 查看，删除权限* |
+
+>[!NOTE]
+>
+>*当您从记录类型中删除权限时，用户仍保留对工作区和所有记录类型的“查看”权限，除非您从工作区中删除其权限。
 
 </div>
 
--->
-
 ### 记录权限
 
-记录权限继承自<!--<span class="preview">the record type</span>, when you grant permissions to -->工作区<!-- and <span class="preview">the record type</span>-->。
+向工作区和<span class="preview">记录类型</span>授予权限时，记录权限继承自<span class="preview">记录类型</span>。
 
 以下是记录的权限级别：
 
@@ -179,7 +182,7 @@ The following scenarios exist:
 
 ### 字段权限
 
-字段权限继承自<!--<span class="preview">the record type</span>, when you grant permissions to -->工作区<!--and <span class="preview">the record type</span>-->。
+向工作区和<span class="preview">记录类型</span>授予权限时，字段权限继承自<span class="preview">记录类型</span>。
 
 以下权限是指字段本身，而不是与每个字段关联的值。 要编辑字段值，您必须具有编辑记录的权限。
 

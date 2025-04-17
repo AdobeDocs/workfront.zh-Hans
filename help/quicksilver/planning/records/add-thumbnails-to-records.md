@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '975'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # 向记录添加缩略图
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 
 {{planning-important-intro}}
@@ -86,7 +86,7 @@ ht-degree: 1%
   </tr> 
 <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
-   <td>   <p>为工作区<!--<span class="preview">and record type</span>-->贡献或更高权限  </p>  
+   <td>   <p>向工作区<span class="preview">和记录类型</span>贡献或更高权限  </p>  
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p> </td> 
   </tr> 
 <tr> 
@@ -213,8 +213,6 @@ ht-degree: 1%
    >   必须启用表格视图中的缩略图字段才能在此视图中显示缩略图。 默认情况下处于禁用状态。
 
 1. （可选）要在保存缩略图后将其删除，请单击任意视图中的记录以打开详细信息页面，然后将鼠标悬停在缩略图图像上，然后单击&#x200B;**更多**&#x200B;菜单![更多菜单图标](assets/more-menu.png)> **删除**&#x200B;图标![删除图标](assets/remove-image-icon.png)。 缩略图图像将被删除。
-
-
 
 
 <!--
