@@ -6,9 +6,9 @@ description: 您可以在画布功能板中查看审批指标。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
-source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
+source-git-commit: 0aeef516c8e3b94edee6fc177766be032241965f
 workflow-type: tm+mt
-source-wordcount: '1987'
+source-wordcount: '1991'
 ht-degree: 1%
 
 ---
@@ -199,19 +199,19 @@ ht-degree: 1%
     </tr>
     <tr>
     <td><strong>截止日期</strong></td>
-    <td>文档&gt;审批阶段&gt;截止日期</td>
+    <td>文档审批&gt;审批阶段&gt;截止日期</td>
     </tr>
     <tr>
     <td><strong>请求者</strong></td>
-    <td>文档&gt;审批阶段&gt;审批阶段参与者* &gt;请求者&gt;在搜索框中键入_Name_。</td>
+    <td>文档审批&gt;审批阶段&gt;审批阶段参与者* &gt;请求者&gt;在搜索框中键入_Name_。</td>
     </tr>
      <tr>
     <td><strong>请求的日期</strong></td>
-    <td>文档&gt;审批阶段&gt;审批阶段参与者* &gt;创建于</td>
+    <td>文档审批&gt;审批阶段&gt;审批阶段参与者* &gt;创建于</td>
     </tr>
      <tr>
     <td><strong>审批者</strong></td>
-    <td>文档&gt;审批阶段&gt;审批阶段参与者* &gt;参与者用户&gt;在搜索框中键入_Name_。</td>
+    <td>文档审批&gt;审批阶段&gt;审批阶段参与者* &gt;参与者用户&gt;在搜索框中键入_Name_。</td>
     </tr>
     <table>
 

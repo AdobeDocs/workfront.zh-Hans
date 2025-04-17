@@ -6,7 +6,7 @@ description: 在创建验证后，您可以随时编辑验证设置。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee30ce2c-e3dc-4863-a69b-cbc1b8747362
-source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
+source-git-commit: a036a99c13d80a2ba2305ebcdc799ad6e5b62b39
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 7%
@@ -73,12 +73,7 @@ ht-degree: 7%
      </tr> 
      <tr> 
       <td role="rowheader">要求对决策进行电子签名</td> 
-      <td> <p>您可以要求任何对证明做出决定的审阅人的电子签名。 当审核者作出决定时，将出现一条提示，要求他们输入电子邮件和密码并确认其决定。 <!--
-         <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-          For more information, see 
-          <a href="../../../workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md" class="MCXref xref">Understanding electronic signatures in Workfront Proof</a>
-         </MadCap:conditionalText>
-        --></p> </td> 
+      <td> <p>您可以要求任何对证明做出决定的审阅人的电子签名。 当审核者作出决定时，将出现一条提示，要求他们输入电子邮件和密码并确认其决定。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">作出所有必需的决策时锁定验证</td> 

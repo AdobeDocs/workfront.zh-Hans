@@ -1,14 +1,14 @@
 ---
-title: “Adobe Workfront中校对的提示、技巧和疑难解答：文章索引”
+title: Adobe Workfront中校对的提示、技巧和疑难解答：文章索引
 description: Adobe Workfront中校对的提示、技巧和疑难解答
 author: Courtney
 draft: Probably
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 83e2f884-b396-444e-9533-864fd78880f2
-source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
+source-git-commit: 5c97fc71eb9516407cf57517d9e817abf4335343
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -23,3 +23,4 @@ ht-degree: 0%
 * [常见问题解答：Adobe Workfront中的验证 — 美国迁移到EMEA](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
 * [上载后文档名称已更改并包含无效字符](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
 * [校对带有嵌入视频的PowerPoint](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
+* [将交互式验证添加为新版本时，无法下载或预览验证版本](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
