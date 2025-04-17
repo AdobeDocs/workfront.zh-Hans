@@ -6,7 +6,7 @@ description: 如果您拥有项目的“管理”访问权限，则可以向Kanb
 author: Courtney
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: 2ce454f6f6e883090fe69c953d89c2d3eef7ce5b
+source-git-commit: bf79bc8fd3e25ff1bae404700ca27973a8b2307d
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 0%
@@ -65,6 +65,7 @@ ht-degree: 0%
    >[!NOTE]
    >
    >如果为任务或问题分配了多个团队，则工作项只能显示在一个团队的[!DNL kanban]讨论区上。
+
 1. 单击&#x200B;**添加**。
 
 
@@ -82,6 +83,7 @@ ht-degree: 0%
    >[!NOTE]
    >
    >如果为任务或问题分配了多个团队，则工作项只能显示在一个团队的[!DNL kanban]讨论区上。
+
 1. 单击&#x200B;**添加**。
 
 
