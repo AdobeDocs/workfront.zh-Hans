@@ -5,18 +5,14 @@ description: 您可以使用“摘要”此功能快速摘要工作项和文档�
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
-source-git-commit: c91a0cd0987b810cc5fb3f52199dccc64bf4d0a1
+source-git-commit: 1b11eb212f8eb980361cfd22a07ac17be71d4472
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 0%
+source-wordcount: '185'
+ht-degree: 1%
 
 ---
 
 # 使用AI助手处理项目、任务和问题
-
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它在“预览”环境中为所有客户提供，在“生产”环境中为启用每月发布的客户提供。</span>
-
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 
 AI助手可以帮助您在Workfront中查找项目、任务和问题。
