@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 词汇表列出了 [!DNL Adobe Workfront].
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
+source-git-commit: 3a86ce4878304cee749fa298a39f03a46083a7b4
 workflow-type: tm+mt
-source-wordcount: '20999'
+source-wordcount: '21023'
 ht-degree: 0%
 
 ---
@@ -1099,6 +1099,10 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[！UICONTROL ID]</td> 
    <td> <p>ID是与[!DNL Workfront]中每个对象关联的字母数字指示符。 它唯一标识[!DNL Workfront]数据库中的每个对象。 您可以查看报表中任何对象的ID或每个对象的列表。 </p> <p><b>提示</b></p>   <p>您还可以在对象页面的URL中查看ID。 例如，当您访问[！UICONTROL项目详细信息]页面时，项目的ID可能类似于以下URL中列出的数字：</p> <p><code>https://&lt;your domain>.my.workfront.com/project/<b>5e29c8010027d8eb334762d4fff3ffca</b>/overview</code> </p> </p> </td> 
+  </tr> 
+  <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
+   <td>[！UICONTROL IMS]</td> 
+   <td>Identity Management系统。 Adobe IMS要求您通过Adobe登录Workfront，而不是使用Workfront用户名和密码。</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[！UICONTROL个人目标]</td> 
