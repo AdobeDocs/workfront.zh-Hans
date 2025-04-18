@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
+source-git-commit: 4bdd4510a5ff7faf8f497299eac0a10f4fe7fbc2
 workflow-type: tm+mt
 source-wordcount: '1875'
 ht-degree: 0%
@@ -202,7 +202,7 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
      >
      >至少有权访问一个工作区的所有用户都可以查看请求区域中的Planning选项卡。 您只能查看您或其他人提交到您至少拥有查看权限的工作区的请求。 Workfront管理员可以查看提交到系统中任何工作区的所有请求。
 
-   * 该请求仅对所有者、审批者以及至少具有工作区<!--and people with Manage access to the request type (asking Rafael about this, because not sure how one would give Manage access to the request type??)-->查看权限的用户可见。
+   * 该请求仅对所有者、审批者和至少具有工作区查看权限的人员可见。
 
    * 您会收到应用程序内和电子邮件通知，告知您请求已成功提交或已发送以供审阅。
    * 如果请求表单与批准关联，则批准者会收到应用程序内和电子邮件通知，以供审阅和批准请求。
