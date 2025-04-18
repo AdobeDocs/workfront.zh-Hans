@@ -6,9 +6,9 @@ description: 作为审阅人，您可以预览已提交您审阅的文档。
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
+source-git-commit: da00226448e0969cec57bf9d525686129d53430e
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -76,15 +76,15 @@ Add once functionality is added
 1. （可选）查看文档后，您可以在文档的&#x200B;**更新**&#x200B;部分中为请求者留下评论。 有关评论的更多信息，请参阅[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 1. 若要记录您已完成审阅，请单击&#x200B;**完成审阅**。
 
-## 从“文档摘要”窗格中复查文档
+## 从文档摘要面板中审阅文档
 
 1. 转到包含文档的项目、任务或问题，然后选择&#x200B;**文档**。
 
-1. 单击所需的文档，此时将打开“文档摘要”窗格。
+1. 单击所需的文档，此时将打开“文档摘要”面板。
 
 1. 在版本下拉列表中选择要查看的文档版本。 默认情况下将选择最新版本。
 
-1. 将鼠标悬停在“文档摘要”窗格顶部的&#x200B;**详细信息**&#x200B;部分中文档的预览上。 然后，执行以下任一操作：
+1. 将鼠标悬停在“文档摘要”面板顶部&#x200B;**详细信息**&#x200B;部分中文档的预览上。 然后，执行以下任一操作：
 
    单击&#x200B;**预览**&#x200B;可在新窗口中打开文档的只读版本。
 
@@ -94,5 +94,18 @@ Add once functionality is added
 
 1. （可选）查看文档后，您可以在文档的&#x200B;**更新**&#x200B;部分中为请求者留下评论。 有关评论的更多信息，请参阅[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
-1. （可选）您还可以预览或下载文档的特定版本，方法是向下滚动到“文档摘要”窗格的&#x200B;**版本**&#x200B;部分，然后单击要审查的版本旁边的“更多”图标![更多图标](../assets/more-icon.png)，并选择&#x200B;**下载**&#x200B;或&#x200B;**预览**。
+1. （可选）您还可以预览或下载文档的特定版本，方法是向下滚动到“文档摘要”面板的&#x200B;**版本**&#x200B;部分，然后单击要审阅的版本旁边的“更多”图标![更多图标](../assets/more-icon.png)，然后选择&#x200B;**下载**&#x200B;或&#x200B;**预览**。
 1. 若要记录您已完成审阅，请单击&#x200B;**完成审阅**。
+
+## 从校样查看器中查看文档
+
+要复查文档，请执行以下操作：
+
+1. 转到审阅电子邮件通知，然后单击&#x200B;**转到审阅**。
+
+1. 进入Workfront后，单击&#x200B;**前往校对**。
+
+1. 查看内容，并添加任何注释或标记。 有关如何使用验证查看器的更多信息，请参阅[在Adobe Workfront中查看验证：文章索引](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)。
+
+1. 若要记录您已完成审阅，请单击&#x200B;**完成审阅**。
+
