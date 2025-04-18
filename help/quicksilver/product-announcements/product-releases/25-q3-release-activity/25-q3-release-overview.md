@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 94cc3fc02e5ac499684056f21e84956a00d00334
+source-git-commit: 70dce5fb7848f137a264e28e012234870e8d8eb5
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 2%
@@ -110,7 +110,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## 其他区域的发行说明
 
 * [Adobe Workfront Fusion发布活动](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
-* [Adobe Workfront计划2025年第一季度发布活动](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)。
+* [Adobe Workfront计划2025年第三季度发布活动](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)。
 
 在这个版本中，以下内容暂无更新：
 
