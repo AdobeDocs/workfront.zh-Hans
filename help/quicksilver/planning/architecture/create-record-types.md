@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: c0a7603ed461d903f4d0b0f6788c17d58f20c328
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '1098'
 ht-degree: 1%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 1%
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>  </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>布局模板</p></td> 
+   <td role="rowheader"><p>版面模板</p></td> 
    <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> </td> 
   </tr> 
 </tbody> 
@@ -146,20 +146,30 @@ ht-degree: 1%
 
    从工作区中，展开现有工作区名称右侧的向下箭头，搜索工作区，然后在工作区显示在列表中时将其选定。
 1. （可选）单击&#x200B;**添加节**&#x200B;以向工作区添加新节。
-1. 单击&#x200B;**添加记录类型**，然后单击&#x200B;**新建**。
+1. 单击&#x200B;**添加记录类型**，然后单击&#x200B;**手动添加**。
 
    将打开“添加记录类型”框。
    <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
 
    ![添加具有外观选项的记录类型框](assets/add-record-type-box-with-appearance-options.png)
 
-1. 更新以下信息：
+1. 在&#x200B;**外观**&#x200B;选项卡上更新以下信息：
 
    * 将“无标题记录类型”替换为您未来记录类型的名称。<!--did they bring back the field label here and did they rename it to "Name"-->
    * **描述**：添加有关记录类型的详细信息。
    * 为与记录类型关联的图标选择颜色和形状。 执行以下操作：
       * 选择用于标识新记录类型的颜色。 这是记录类型图标的颜色。 默认情况下选中“灰色”。
       * 从列表中选择一个图标，或开始键入图标的名称以描述其表示的内容，然后在显示时选择它。 这是记录类型的图标。 默认情况下，会选择一个文件图标。
+
+1. （可选且有条件）如果您是系统管理员，请单击&#x200B;**高级设置**&#x200B;并在&#x200B;**连接范围**&#x200B;部分中更新以下信息： <!--the info here is duplicated in the Edit record types article-->
+
+   * 启用&#x200B;**从其他工作区连接**&#x200B;设置。 启用后，记录类型可访问，并可从其他工作区连接。
+   * 选择可以访问记录类型的工作区。 从以下选项中进行选择：
+
+      * **系统范围**：用户可以从其拥有管理权限的所有工作区连接到此记录类型。
+      * **特定工作区**：添加工作区管理员可以连接到此记录类型的工作区的名称。
+
+   ![在“高级设置”选项卡上创建“记录类型”框](assets/create-record-type-box-advanced-settings-tab.png)
 
 1. 单击&#x200B;**创建**。
 

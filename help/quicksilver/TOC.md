@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: ea4efcb1566d8d2f35487e158a4f445e6c5a32f7
+source-git-commit: c0a7603ed461d903f4d0b0f6788c17d58f20c328
 workflow-type: tm+mt
-source-wordcount: '13159'
+source-wordcount: '13163'
 ht-degree: 2%
 
 ---
@@ -2040,6 +2040,7 @@ ht-degree: 2%
       * [记录类型概述](planning/architecture/overview-of-record-types.md)
       * [创建记录类型](planning/architecture/create-record-types.md)
       * [通过从CSV或Excel文件导入信息创建记录类型](planning/architecture/import-file-to-create-record-types.md)
+      * [全局创建记录类型](planning/architecture/create-record-types-globally.md)
       * [连接记录类型概述](planning/architecture/connect-record-types-overview.md)
       * [连接记录类型](planning/architecture/connect-record-types.md)
       * [编辑记录类型](planning/architecture/edit-record-types.md)
