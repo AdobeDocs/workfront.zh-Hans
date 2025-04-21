@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 436eb2ef32363aa28593e74f7464dcd6837b2095
+source-git-commit: 33d5e67ffe3e28d0d667a82d881f274107d1d04a
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1280'
 ht-degree: 0%
 
 ---
@@ -315,8 +315,6 @@ Workfront与Experience Manager Assets或Assets Essentials之间的集成使组�
 有关详细信息，请参阅[Adobe Workfront for Experience Manager Assets集成概述](../../documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)。
 
 ## 合作伙伴集成
-
-[!DNL Workfront]有许多合作伙伴集成，丰富了您的[!DNL Workfront]体验。
 
 Workfront拥有许多合作伙伴集成，这些集成丰富了您的Workfront体验。 现有合作伙伴产品的示例包括与Claravine、RWS Group等的集成。
 
