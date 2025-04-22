@@ -7,9 +7,9 @@ description: 本页包含有关Workfront Data Connect中数据的结构和内容
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 8aa03e16daa7c82342741b3db7b805941508c896
+source-git-commit: 44342db0a473eac70212d08cedf9ac0f571cda0b
 workflow-type: tm+mt
-source-wordcount: '7843'
+source-wordcount: '8129'
 ht-degree: 7%
 
 ---
@@ -215,8 +215,8 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
       </thead>
       <tbody>
         <tr>
-            <td>审批路径</td>
-            <td>审批路径</td>
+            <td>批准路径</td>
+            <td>批准路径</td>
             <td>ARVPTH</td>
             <td>审批</td>
             <td>APPROVALPATHS_CURRENT<br>APPROVALPATHS_DAILY_HISTORY<br>APPROVALPATHS_EVENT</td>
@@ -1894,6 +1894,235 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
     </tbody>
 </table>
 
+### 文档审批（新）
+
+有限的客户可用性
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront实体名称</th>
+            <th>界面引用</th>
+            <th>API参考</th>
+            <th>API标签</th>
+            <th>数据湖视图</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>文档审批</td>
+            <td>审批</td>
+            <td>不适用</td>
+            <td>不适用</td>
+            <td>APPROVAL_CURRENT<br>APPROVAL_DAILY_HISTORY<br>APPROVAL_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主/外键</th>
+            <th>类型</th>
+            <th>相关表</th>
+            <th>相关字段</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td class="key">批准</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>注意：这也是与审批关联的DOCUMENTVERSION对象的ID。</td>
+        </tr>
+        <tr>
+             <td class="key">ASSETID</td>
+             <td>FK</td>
+             <td>变量，基于ASSETTYPE</td>
+             <td>ASSETTYPE字段中标识的对象的主键/ID</td>
+        </tr>
+        <tr>
+             <td class="key">CREATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>用户ID</td>
+        </tr>
+        <tr>
+             <td class="key">EAUTHTENANTID</td>
+             <td>-</td>
+             <td colspan="2">不是关系；用于内部应用目的</td>
+        </tr>
+        <tr>
+             <td class="key">PRODUCTID</td>
+             <td>-</td>
+             <td colspan="2">不是关系；用于内部应用目的</td>
+        </tr>
+        <tr>
+             <td class="key">REALCREATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>用户ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 文档审批阶段（新）
+
+有限的客户可用性
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront实体名称</th>
+            <th>界面引用</th>
+            <th>API参考</th>
+            <th>API标签</th>
+            <th>数据湖视图</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>文档审批阶段</td>
+            <td>审批阶段</td>
+            <td>不适用</td>
+            <td>不适用</td>
+            <td>APPROVAL_STAGE_CURRENT<br>APPROVAL_STAGE_DAILY_HISTORY<br>APPROVAL_STAGE_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主/外键</th>
+            <th>类型</th>
+            <th>相关表</th>
+            <th>相关字段</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td class="key">批准</td>
+             <td>FK</td>
+             <td>APPROVAL_CURRENT</td>
+             <td>批准</td>
+        </tr>
+        <tr>
+             <td class="key">批准ID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td class="key">CREATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>用户ID</td>
+        </tr>
+        <tr>
+             <td class="key">对象ID</td>
+             <td class="type">FK</td>
+             <td class="relatedtable">变量，基于OBJCODE</td>
+             <td>OBJCODE字段中标识的对象的主键/ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 文档审批阶段参与者（新）
+
+有限的客户可用性
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront实体名称</th>
+            <th>界面引用</th>
+            <th>API参考</th>
+            <th>API标签</th>
+            <th>数据湖视图</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>文档审批阶段参与者</td>
+            <td>批准决策</td>
+            <td>不适用</td>
+            <td>不适用</td>
+            <td>APPROVAL_STAGE_PARTICIPANT_CURRENT<br>APPROVAL_STAGE_PARTICIPANT_DAILY_HISTORY<br>APPROVAL_STAGE_PARTICIPANT_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主/外键</th>
+            <th>类型</th>
+            <th>相关表</th>
+            <th>相关字段</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td class="key">批准</td>
+             <td>FK</td>
+             <td>APPROVAL_CURRENT</td>
+             <td>批准</td>
+        </tr>
+        <tr>
+             <td class="key">APPROVALSTAGEPARTICIPANTID/td&gt;
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td class="key">ASSETID</td>
+             <td>FK</td>
+             <td>变量，基于ASSETTYPE</td>
+             <td>ASSETTYPE字段中标识的对象的主键/ID</td>
+        </tr>
+        <tr>
+             <td class="key">DECISIONUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>用户ID</td>
+        </tr>
+        <tr>
+             <td class="key">对象ID</td>
+             <td class="type">FK</td>
+             <td class="relatedtable">变量，基于OBJCODE</td>
+             <td>OBJCODE字段中标识的对象的主键/ID</td>
+        </tr>
+        <tr>
+             <td class="key">PARTICIPANTID</td>
+             <td>FK</td>
+             <td class="relatedtable">变量，基于PARTICIPANTTYPE</td>
+             <td>PARTICIPANTTYPE字段中标识的对象的主键/ID</td>
+        </tr>
+        <tr>
+             <td class="key">REALREQUESTORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>用户ID</td>
+        </tr>
+        <tr>
+             <td class="key">REALUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>用户ID</td>
+        </tr>
+        <tr>
+             <td class="key">REQUESTORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>用户ID</td>
+        </tr>
+        <tr>
+             <td class="key">STAGEID</td>
+             <td>FK</td>
+             <td>APPROVAL_STAGE_CURRENT</td>
+             <td>STAGEID</td>
+        </tr>
+    </tbody>
+</table>
+
 ### 文档文件夹
 
 <table>
@@ -2711,7 +2940,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
              <td>TASKID</td>
         </tr>
         <tr>
-             <td>时间轴ID</td>
+             <td>时间表ID</td>
              <td>FK</td>
              <td>TIMESHEETS_CURRENT</td>
              <td>时间表ID</td>
@@ -4859,10 +5088,10 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
              <td colspan="2">不是关系；用于内部应用目的</td>
         </tr>
         <tr>
-             <td>茶多糖</td>
+             <td>TEAMID</td>
              <td>FK</td>
              <td>团队当前</td>
-             <td>茶多糖</td>
+             <td>TEAMID</td>
         </tr>
         <tr>
              <td>TEMPLATEID</td>
@@ -5764,7 +5993,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
              <td>GROUPID</td>
         </tr>
         <tr>
-             <td>计划ID</td>
+             <td>SCHEDULEID</td>
              <td>PK</td>
              <td>-</td>
              <td>-</td>
@@ -6462,7 +6691,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
       </thead>
       <tbody>
         <tr>
-            <td>模板任务分配</td>
+            <td>模板任务分派</td>
             <td>模板分派</td>
             <td>任务</td>
             <td>模板分派</td>

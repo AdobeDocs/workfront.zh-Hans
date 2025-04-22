@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3761217587419fa8b7ff42e425cc277ee36fe957
+source-git-commit: 7d8a7e59465920c3cca831db70fe48d485d324a9
 workflow-type: tm+mt
-source-wordcount: '1817'
+source-wordcount: '1911'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,19 @@ ht-degree: 0%
 >在大多数情况下，每个更新首先发布到“预览”环境，然后在生产环境中从列出的生产发布日期开始为不断增长的客户子集逐步启用。
 
 有关Adobe Workfront的所有其他更改，请参阅[产品版本](/help/quicksilver/product-announcements/product-releases/product-releases.md)。
+
+## Workfront导航和搜索
+
+### 高级搜索的界面更新
+
+**预览版本： 4月17日；生产版本：即将宣布**
+
+我们更新了“高级搜索”区域，进行了以下更改：
+
+* 添加了新的“完全搜索”选项卡。 在此选项卡上，您可以按类型、输入者、输入日期、类别和上次更新者进行搜索。
+* 高级搜索选项卡上的过滤器略有不同。 现在，未预填充过滤器。 您必须将其打开并从头开始构建过滤器。 如果页面已刷新，则不会保留过滤器。
+
+有关详细信息，请参阅[搜索 [!DNL Adobe Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/search/search-workfront.md)。
 
 ## 管理和设置
 
