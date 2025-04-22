@@ -6,7 +6,7 @@ description: 您可以与其他用户共享日历，也可以公开显示该日�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
-source-git-commit: 041e812d0663304b4bd51134020209d3a67e1423
+source-git-commit: 14b78ee4dc441ca84b891b2f021d959fcf357fdd
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 0%
@@ -78,11 +78,15 @@ ht-degree: 0%
    * **[!UICONTROL 查看]：**&#x200B;用户可以查看和共享日历。
 
      ![共享具有查看访问权限的日历](assets/calendar-share-view-permissions-350x249.png)
-     <!--![Share calendar with view access](assets/view-calendar.png)-->
+
+     <!--
+      ![Share calendar with view access](assets/view-calendar.png)
+      -->
 
    * **[!UICONTROL 管理]：**&#x200B;用户拥有日历的完全访问权限，但缺少在访问级别授予的管理权限以及所有查看权限。
 
      ![通过“管理”访问权限共享日历](assets/calendar-share-manage-permissions-350x241.png)
+
      <!--![Share calendar with manage access](assets/manage-calendar.png)-->
 
      >[!NOTE]
