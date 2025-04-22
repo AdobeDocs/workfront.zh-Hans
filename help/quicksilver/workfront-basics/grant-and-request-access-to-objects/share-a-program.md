@@ -7,7 +7,7 @@ description: 在分配访问级别时，Adobe Workfront管理员可以向您授�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
+source-git-commit: eb4bf18407562b88bf0c946c905b202e5b62a5fe
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 0%
@@ -114,7 +114,7 @@ ht-degree: 0%
 
    ![已配置高级权限选项](assets/advanced-options-icon.png)
 
-1. （可选）要关闭程序子对象的继承权限，请单击&#x200B;**使用**&#x200B;继承权限&#x200B;**内联**&#x200B;关闭。
+1. （可选）要关闭程序子对象的继承权限，请单击&#x200B;**关闭**&#x200B;与&#x200B;**继承权限**&#x200B;内联。
 
 1. （可选）要使用链接快速共享程序，请单击&#x200B;**复制链接**，然后将其转发给收件人。
 
