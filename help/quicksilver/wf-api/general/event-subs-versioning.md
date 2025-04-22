@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: 82694183c32938905f1f8542c430d3c453274cb6
+source-git-commit: a5769e57a9fe28b816e7fb4474ec4a67f837f530
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1275'
 ht-degree: 0%
 
 ---
@@ -58,16 +58,16 @@ Workfront提供两个版本的活动订阅。 本文介绍了它们之间的区�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>参数值</p> </td> 
-   <td> <p>对于从包含自定义表单的模板创建的任何对象，先发送<code>CREATE</code>事件，然后发送包含参数值（包括计算字段及其值）的<code>UPDATE</code>。    </p> </td> 
+   <td> <p>计算参数值</p> </td> 
+   <td> <p>从模板创建的任何对象，如果包含具有计算参数值的自定义表单，则将发送<code>CREATE</code>事件，然后随参数值（包括计算字段及其值）发送<code>UPDATE</code>。 </p> </td> 
    <td> <p>当从包含具有已计算参数值的自定义表单的模板创建对象时，将只发送<code>CREATE</code>事件，并将包含包括已计算字段的参数值。</p> </td> 
-   <td> <p>如果您订阅了 <tr><ul><ul><code>UPDATE<code> events and are expecting to receive an <code>UPDATE</code> event after an object is created with calculated parameter values, you will no longer receive that <code>UPDATE</code> event. If you wish to see calculated parameter values on object creation, you must create an additional <code>CREATE</code> subscription.</p> </td> 
+   <td> <p>如果您订阅了<code>UPDATE</code>个事件，并希望在使用计算的参数值创建对象后接收<code>UPDATE</code>事件，则您将不再接收该<code>UPDATE</code>事件。 如果您希望在创建对象时查看计算参数值，则必须创建其他<code>CREATE</code>订阅。</p> </td> 
   </tr> 
-   
-   <td> <p>Multi-Select type fields</p> </td> 
-   <td> <p>For any type of event that contains a change on a multi-select type field, if the field only contained one value it would be converted to and sent as a string. Otherwise it would be sent as an array. </p><p>Examples:</p><li><code>myMultiSelectField: ["oneValue"]</code> is converted and sent as <code>myMultiSelectField: "oneValue"</code>.</li><li><code>myMultiSelectField: ["first", "second"]</code> is sent as <code>myMultiSelectField: ["first", "second"]</code>.</li></ul> </td> 
-   <td> <p>Regardless of how many values are in the array, it will be sent as an array. </p><p>Examples:</p><li><code>myMultiSelectField: ["oneValue"]</code> is sent as <code>myMultiSelectField: ["oneValue"]</code>.</li><li><code>myMultiSelectField: ["first", "second"]</code> is sent as <code>myMultiSelectField: ["first", "second"]</code>.</li></ul> </td> 
-   <td> <p>If you have a subscription with a filter on a multi-select field, and the value as a string, you must create a new subscription with the same filter that has the value as an array. </p> </td> 
+  <tr> 
+   <td> <p>多选类型字段</p> </td> 
+   <td> <p>对于包含多选类型字段更改的任何类型事件，如果该字段仅包含一个值，则它将转换为并以字符串形式发送。 否则，它将作为数组发送。 </p><p>示例：</p><ul><li><code>myMultiSelectField: ["oneValue"]</code> 已转换并作为<code>myMultiSelectField: "oneValue"</code>发送。</li><li><code>myMultiSelectField: ["first", "second"]</code> 作为<code>myMultiSelectField: ["first", "second"]</code>发送。</li></ul> </td> 
+   <td> <p>无论数组中有多少值，它都将作为数组发送。 </p><p>示例：</p><ul><li><code>myMultiSelectField: ["oneValue"]</code> 作为<code>myMultiSelectField: ["oneValue"]</code>发送。</li><li><code>myMultiSelectField: ["first", "second"]</code> 作为<code>myMultiSelectField: ["first", "second"]</code>发送。</li></ul> </td> 
+   <td> <p>如果您有一个预订，该预订在多选字段上具有筛选器，且值为字符串，则必须使用具有值为数组的相同筛选器创建新预订。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
