@@ -3,13 +3,13 @@ title: 共享任务
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 description: 当您的Adobe Workfront管理员分配访问级别时，可以授予您查看或编辑任务的权限。 有关授予任务访问权限的详细信息，请参阅授予任务访问权限。
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
+source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 2%
+source-wordcount: '1201'
+ht-degree: 1%
 
 ---
 
@@ -21,11 +21,48 @@ ht-degree: 2%
 
 权限特定于Workfront中的一个项目，并定义您可以对该项目执行的操作。
 
+
+## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
+
+要共享对象，必须具备以下条件：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront计划</td> 
+   <td> <p>任何 </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p>新增：标准</p> 
+   或
+   <p>当前：工作或更高</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>查看对要共享对象的访问权限或更高版本</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">对象权限</td> 
+   <td> <p>查看要共享对象的权限或更高</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
 ## 共享任务时的注意事项
 
 除了下面的注意事项外，另请参阅[对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
 
-* 默认情况下，任务的创建者具有管理权限。
+* 默认情况下，任务的创建者具有其“管理”权限。
 * 您可以单独共享任务，也可以一次批量共享多个任务。\
   共享任务与共享其他对象相同。 有关在Workfront中共享项目的详细信息，请参阅[共享对象](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
 
@@ -46,9 +83,7 @@ ht-degree: 2%
 
 您可以通过以下方式共享任务：
 
-* 手动逐个或批量执行。 手动共享任务与在Workfront中共享任何其他对象类似。
-
-  有关在Workfront中共享对象的更多信息，请参阅  [共享对象](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
+* 手动逐个或批量执行。
 
 * 通过执行以下操作，自动执行：
 
@@ -60,6 +95,76 @@ ht-degree: 2%
   >[!TIP]
   >
   >如果您未指定在将用户分配给项目中的任务时希望用户具有哪些任务权限，则默认情况下，这些用户将获得他们在项目中的相同权限。
+
+## 共享任务
+
+1. 导航到要共享的任务。
+
+1. 单击任务名称右侧的&#x200B;**共享**。 将打开&#x200B;**共享[任务名称]**&#x200B;对话框。
+
+   ![共享任务按钮](assets/share-task-button.png)
+
+1. 在&#x200B;**将任务访问权限授予**&#x200B;字段中，开始键入要与其共享任务的用户、团队、角色、组或公司的名称，然后在名称出现在下拉列表中时单击该名称。
+
+   >[!TIP]
+   >
+   >您只能与活动用户、团队、角色或公司共享任务。
+
+
+1. （可选）选择&#x200B;**具有访问权限**&#x200B;下拉列表并选择任务的访问级别：
+
+   * **只有受邀人员才能访问：**&#x200B;只有受邀参与该任务的用户才能访问它（默认）。
+   * **系统中的每个人都可以查看**：系统中所有用户都可以查看任务，而无需邀请。
+
+1. 单击用户名右侧的下拉列表，然后选择他们对于此任务的权限级别：
+
+   * **查看**：用户可以查看和共享任务。
+   * **Contribute**：用户可以进行更新、记录信息、进行细微编辑和共享任务（还包括所有查看权限）。
+   * **管理**：用户具有任务的完全访问权限，但没有管理权限，这些权限是在访问级别授予的（还包括所有“查看”和“贡献”权限）。
+
+1. （可选）单击您授予的权限级别旁边的高级选项图标，以配置任务的特定权限。
+
+   ![已配置高级权限选项](assets/advanced-permission-options.png)
+
+1. （可选）要关闭任务子对象的继承权限，请单击&#x200B;**使用**&#x200B;继承权限&#x200B;**内联**&#x200B;关闭。
+
+1. （可选）要使用链接快速共享任务，请单击&#x200B;**复制链接**，然后将其转发给收件人。
+
+1. 单击&#x200B;**保存**。
+
+
+## 批量共享任务
+
+1. 导航到包含要共享的任务的项目。
+
+1. 在项目页面的&#x200B;**任务**&#x200B;选项卡中，选中要共享的每个任务左侧的框，然后单击页面顶部的&#x200B;**共享**&#x200B;图标![共享](assets/share-icon.png)。 这将打开共享模式窗口。
+
+   ![批量共享任务](assets/bulk-share-tasks.png)
+
+1. 在&#x200B;**将任务访问权限授予**&#x200B;字段中，开始键入要与其共享任务的用户、团队、角色、组或公司的名称，然后在名称出现在下拉列表中时单击该名称。
+
+   >[!TIP]
+   >
+   >您只能与活动用户、团队、角色或公司共享任务。
+
+
+1. （可选）选择&#x200B;**具有访问权限**&#x200B;下拉列表并选择任务的访问级别：
+
+   * **只有受邀人员才能访问：**&#x200B;只有受邀参与任务的用户才能访问这些任务（默认）。
+   * **系统中的每个人都可以查看**：系统中的所有用户都可以查看任务，而无需邀请。
+
+
+1. 单击用户名右侧的下拉列表，并为任务选择其权限级别：
+
+   * **查看**：用户可以查看和共享任务。
+   * **Contribute**：用户可以进行更新、记录信息、进行细微编辑和共享任务（还包括所有查看权限）。
+   * **管理**：用户拥有对无管理权限任务的完全访问权限，这些权限在访问级别被授予（还包括所有“查看”和“贡献”权限）。
+
+1. （可选）单击您授予的权限级别旁边的高级选项图标，以配置任务的特定权限。
+
+   ![已配置高级权限选项](assets/advanced-permission-options.png)
+
+1. 单击&#x200B;**保存**。
 
 ## 任务权限
 

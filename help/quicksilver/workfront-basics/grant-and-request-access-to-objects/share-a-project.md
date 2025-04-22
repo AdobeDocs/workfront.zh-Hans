@@ -1,19 +1,19 @@
 ---
-title: 在Adobe Workfront中共享项目
+title: 共享项目
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 description: 在分配访问级别时，Adobe Workfront管理员可以向您授予查看或编辑项目的权限。 有关更多信息，请参阅授予对项目的访问权限。
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
+source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '1579'
 ht-degree: 2%
 
 ---
 
-# 在Adobe Workfront中共享项目
+# 共享项目
 
 <!-- Audited: 1/2024 -->
 
@@ -22,6 +22,43 @@ ht-degree: 2%
 除了授予用户的访问级别之外，您还可以授予他们查看、贡献或管理您有权共享的特定项目的权限。
 
 权限特定于Workfront中的一个项目，并定义您可以对该项目执行的操作。
+
+
+## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
+
+要共享对象，必须具备以下条件：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront计划</td> 
+   <td> <p>任何 </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p>新增：标准</p> 
+   或
+   <p>当前：工作或更高</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>查看对要共享对象的访问权限或更高版本</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">对象权限</td> 
+   <td> <p>查看要共享对象的权限或更高</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 有关共享项目的注意事项
 
@@ -46,6 +83,13 @@ ht-degree: 2%
 
 * 您可以从项目中删除继承的权限，以便子对象不会继承它们。 有关从对象中删除继承权限的详细信息，请参阅[从对象中删除权限](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)。
 
+## 不同许可证类型的限制
+
+* 拥有工作人员许可证的用户无权管理项目。 对于工作人员，最高共享权限为Contribute。
+* 拥有请求许可证的用户可以查看项目信息，但他们具有有限的项目访问权限。
+* 当具有“查看”或“贡献”权限的用户也包含在审批流程中时，项目状态的更改会发生异常。 他们可以审批项目，这更改了项目的状态，但状态为要审批或拒绝的预定义状态。
+* 为了能够复制项目，用户还必须具有在其访问级别创建项目的权限。
+
 ## 共享项目的方法 {#ways-to-share-a-project}
 
 您可以通过以下方式共享项目：
@@ -56,22 +100,15 @@ ht-degree: 2%
      有关将用户添加到项目团队的更多信息，请参阅[项目团队概述](../../manage-work/projects/planning-a-project/project-team-overview.md)中的“将用户添加到项目团队”部分。
    * 使用&#x200B;**共享**&#x200B;选项时单独或批量共享项目。
 
-     共享项目与共享Adobe Workfront中的所有其他对象类似。
-
-     有关在Workfront中共享对象的信息，请参阅[共享对象](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
-
-* 通过执行以下操作之一，自动执行：
+* 通过执行以下操作之一来自动执行：
 
    * 将项目置于已与其他人共享的&#x200B;**Portfolio**&#x200B;或&#x200B;**计划**&#x200B;中。 用户将获得与项目组合或项目群相同的项目权限。\
      有关将项目添加到&#x200B;**Portfolio**&#x200B;的信息，请参阅[将项目添加到项目组合](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)。\
      有关将项目添加到&#x200B;**程序**&#x200B;的信息，请参阅[将项目添加到程序](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)。
-
-     有关查看对象的继承权限的信息，请参阅[查看对象的继承权限](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)。
+有关查看对象的继承权限的信息，请参阅[查看对象的继承权限](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)。
 
    * 在用于创建项目的模板上向项目共享添加实体。 有关从模板共享项目的信息，请参阅[共享模板](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)。
    * 定义项目访问模板。
-
-     要定义项目访问模板，请参阅[共享对象](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
 
      >[!TIP]
      >
@@ -100,12 +137,87 @@ ht-degree: 2%
 </ol>
 -->
 
-## 不同许可证类型的限制
+## 共享项目
 
-* 拥有工作人员许可证的用户无权管理项目。 对于工作人员，最高共享权限为Contribute。
-* 拥有请求许可证的用户可以查看项目信息，但他们具有有限的项目访问权限。
-* 当具有“查看”或“贡献”权限的用户也包含在审批流程中时，项目状态的更改会发生异常。 他们可以审批项目，这更改了项目的状态，但状态为要审批或拒绝的预定义状态。
-* 为了能够复制项目，用户还必须具有在其访问级别创建项目的权限。
+{{step1-to-projects}}
+
+1. 在&#x200B;**项目**&#x200B;页面上，从列表中选择要共享的项目。 此时将打开项目页面。
+
+1. 单击项目名称右侧的&#x200B;**共享**。 将打开&#x200B;**共享[项目名称]**&#x200B;对话框。
+
+   ![共享项目按钮](assets/share-project.png)
+
+1. 在&#x200B;**将项目访问权限授予**&#x200B;字段中，开始键入要与其共享项目的用户、团队、角色、组或公司的名称，然后在该名称出现在下拉列表中时单击该名称。
+
+   >[!TIP]
+   >
+   >您只能与活动用户、团队、角色或公司共享项目。
+
+
+1. （可选）选择&#x200B;**具有访问权限**&#x200B;下拉列表并选择项目的访问级别：
+
+   * **只有受邀人员才能访问：**&#x200B;只有受邀参与项目的用户才能访问项目（默认）。
+   * **系统中的每个人都可以查看**：系统中的所有用户都可以查看项目，而无需邀请。
+
+1. （可选）要将所选的项目访问设置自动应用于所有新项目，请单击&#x200B;**齿轮**&#x200B;图标![选择齿轮图标](assets/gear-icon.png)，然后选中与&#x200B;**设置为我的项目访问模板**&#x200B;内联的框。
+
+   >[!NOTE]
+   >
+   >项目访问模板将覆盖由访问级别的Workfront管理员授予您的共享默认值。\
+   >有关在访问级别中指定项目共享默认值的详细信息，请参阅[授予项目访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
+
+   <!--
+   >this note also appears in Understanding Project Permissions-->
+
+
+1. 单击用户名右侧的下拉列表，然后选择他们对于此项目的权限级别：
+
+
+   * **查看**：用户可以查看和共享项目。
+   * **Contribute**：用户可以进行更新、记录信息、进行细微编辑和共享项目（还包括所有查看权限）。
+   * **管理**：用户具有项目的完全访问权限，但没有管理权限，这些权限是在访问级别授予的（还包括所有“查看”和“贡献”权限）。
+
+1. （可选）单击您授予的权限级别旁边的高级选项图标以配置项目的特定权限。
+
+   ![已配置高级权限选项](assets/advanced-permission-options.png)
+
+1. （可选）要使用链接快速共享项目，请单击&#x200B;**复制链接**，然后将其转发给收件人。
+
+1. 单击&#x200B;**保存**。
+
+## 批量共享项目
+
+{{step1-to-projects}}
+
+1. 在&#x200B;**项目**&#x200B;页面上，选中要共享的每个项目左侧的框，然后单击页面顶部的&#x200B;**共享**&#x200B;图标![共享](assets/share-icon.png)。 这将打开共享模式窗口。
+
+   ![批量共享项目](assets/bulk-share-icon.png)
+
+1. 在&#x200B;**将项目访问权限授予**&#x200B;字段中，开始键入要与其共享项目的用户、团队、角色、组或公司的名称，然后在该名称出现在下拉列表中时单击该名称。
+
+   >[!TIP]
+   >
+   >您只能与活动用户、团队、角色或公司共享项目。
+
+
+1. （可选）选择&#x200B;**具有访问权限**&#x200B;下拉列表并选择项目的访问级别：
+
+   * **只有受邀人员才能访问：**&#x200B;只有受邀参与项目的用户才能访问它们（默认）。
+   * **系统中的每个人都可以查看**：系统中的所有用户都可以查看项目，而无需邀请。
+
+
+1. 单击用户名右侧的下拉列表，然后选择他们对项目的权限级别：
+
+   * **查看**：用户可以查看和共享项目。
+   * **Contribute**：用户可以进行更新、记录信息、进行细微编辑和共享项目（还包括所有查看权限）。
+   * **管理**：用户拥有对项目的完全访问权限，但没有管理权限，这些权限是在访问级别授予的（还包括所有“查看”和“贡献”权限）。
+
+1. （可选）单击您已授予的权限级别旁边的高级选项图标以配置项目的特定权限。
+
+   ![已配置高级权限选项](assets/advanced-permission-options.png)
+
+1. 单击&#x200B;**保存**。
+
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

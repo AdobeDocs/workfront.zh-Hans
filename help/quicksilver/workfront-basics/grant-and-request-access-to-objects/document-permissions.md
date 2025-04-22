@@ -4,12 +4,12 @@ content-type: reference
 product-area: user-management
 navigation-topic: grant-and-request-access-to-objects
 description: 当分配访问级别时，您的Adobe Workfront管理员会授予用户查看或编辑文档的访问权限，如授予对文档的访问权限中所述。
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '1025'
 ht-degree: 1%
 
 ---
@@ -25,6 +25,42 @@ Workfront管理员授予用户的访问级别允许用户查看或编辑文档�
 默认情况下，将文档上传到Workfront的用户具有文档的管理权限。
 
 有关共享整个文档文件夹的信息，请参阅[共享文档文件夹](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)。
+
+## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
+
+要共享对象，必须具备以下条件：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront计划</td> 
+   <td> <p>任何 </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p>新增：标准</p> 
+   或
+   <p>当前：工作或更高</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>查看对要共享对象的访问权限或更高版本</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">对象权限</td> 
+   <td> <p>查看要共享对象的权限或更高</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 有关共享文档的注意事项
 
@@ -58,6 +94,52 @@ Workfront管理员授予用户的访问级别允许用户查看或编辑文档�
 
 * 附加的文档仅从其附加的对象继承权限。 如果在对象上创建文件夹并将文档移动到该文件夹中，它会继承该文件夹的权限。 但是，如果您在父对象或祖父对象上创建文件夹，并将文档移动到该文件夹中，则它不会继承该文件夹的权限。
 
+## 共享文档
+
+{{step1-to-documents}}
+
+1. 在&#x200B;**文档**&#x200B;页面上，将鼠标悬停在要共享的文档上，然后单击显示的&#x200B;**文档详细信息**&#x200B;链接。 **文档详细信息**&#x200B;页面打开。
+
+   ![文档详细信息链接](assets/document-details-link.png)
+
+1. 单击文档名称右侧的&#x200B;**更多**&#x200B;图标![更多图标](assets/more-icon.png)，然后单击&#x200B;**共享**。 将打开&#x200B;**共享[文档名称]**&#x200B;对话框。
+
+   ![共享文档](assets/share-a-document-350x160.png)
+
+1. 在&#x200B;**将文档访问权限授予**&#x200B;字段中，开始键入要与其共享该文档的用户、团队、角色、组或公司的名称，然后在该名称出现在下拉列表中时单击该名称。
+
+   >[!TIP]
+   >
+   >您只能与活动用户、团队、角色或公司共享文档。
+
+
+1. （可选）选择&#x200B;**具有访问权限**&#x200B;下拉列表并选择文档的访问级别：
+
+   * **只有受邀人员才能访问：**&#x200B;只有受邀访问文档的用户才能访问文档（默认）。
+   * **系统中的每个人都可以查看**：系统中的所有用户都可以查看文档，而无需邀请。
+
+1. （可选）若要将文档设为公用，请单击齿轮图标![选择齿轮图标](assets/gear-icon.png)，然后单击与&#x200B;**同行的框以将此文件设为外部用户公用**。 **复制公共链接**&#x200B;按钮显示在对话框底部。
+
+1. 单击用户名右侧的下拉菜单并为该文档选择其权限级别：
+
+   * **查看**：用户可以查看和共享文档。
+   * **管理**：用户拥有程序的完全访问权限，但没有管理权限，这些权限是在访问级别授予的（还包括所有查看权限）。
+
+1. （可选）单击您授予的权限级别旁边的高级选项图标，以配置程序的特定权限。
+
+   ![已配置高级权限选项](assets/advanced-options-icon.png)
+
+1. （可选）要关闭文档子对象的继承权限，请单击&#x200B;**使用**&#x200B;继承权限&#x200B;**内联**。
+
+1. （视情况而定）要复制允许您与外部用户共享文档的公共链接，请单击&#x200B;**复制公共链接**。
+
+   >[!CAUTION]
+   >
+   >建议在与外部用户共享包含机密信息的文档时务必谨慎。 这样，他们便可以查看信息，而无需成为Workfront用户或您组织的一部分。
+
+1. 单击&#x200B;**保存**。
+
+
 ## 文档权限
 
 下表显示了允许用户查看或管理文档时，您可以授予用户哪些权限：
@@ -76,137 +158,137 @@ Workfront管理员授予用户的访问级别允许用户查看或编辑文档�
  <tbody> 
   <tr> 
    <td scope="row">创建</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">编辑文档详细信息</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">删除*</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">下载</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td scope="row">结帐</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">添加审批者</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">批准文档</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td scope="row">附上自定义表单</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">编辑自定义字段</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">移动到（对象）</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">发送至（集成）</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">更新/评论</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td scope="row">上传新版本</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">删除版本</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">查看文档</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td scope="row">预览</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td scope="row">校对**</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td scope="row">生成校对**</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">移除校对**</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">共享*</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td scope="row">共享系统范围*</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">公开共享文档*</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">与外部电子邮件地址共享</td> 
    <td> </td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td scope="row">添加/删除</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td scope="row">重命名</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">链接（与集成）</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td scope="row">取消链接（与集成）</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
  </tbody> 

@@ -2,20 +2,20 @@
 content-type: reference
 product-area: user-management
 navigation-topic: get-started-with-workfront
-title: 向对象授予权限并请求权限
+title: 向对象授予权限并请求权限：文章索引
 description: 查看这些文章，了解如何向Workfront中的对象授予和请求权限。
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: b7b3de2c-8537-49c5-8674-a7a0f3691db3
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 0%
+source-wordcount: '176'
+ht-degree: 1%
 
 ---
 
-# 向对象授予权限并请求权限
+# 向对象授予权限并请求权限：文章索引
 
 本节包含以下有关如何向对象授予权限和请求权限的文章：
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 * [请求访问对象](../../workfront-basics/grant-and-request-access-to-objects/request-access.md)
 * [查看对象的继承权限](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)
 * [从对象中删除权限](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
-* [在Adobe Workfront中共享项目](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
+* [共享项目](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
 * [共享任务](../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md)
 * [共享问题](../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
 * [共享模板](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)
