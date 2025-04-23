@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 7d8a7e59465920c3cca831db70fe48d485d324a9
+source-git-commit: 4536b0f15b208d96e7d823504574f879ed3dee2b
 workflow-type: tm+mt
-source-wordcount: '1911'
+source-wordcount: '1958'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,12 @@ ht-degree: 0%
 * 高级搜索选项卡上的过滤器略有不同。 现在，未预填充过滤器。 您必须将其打开并从头开始构建过滤器。 如果页面已刷新，则不会保留过滤器。
 
 有关详细信息，请参阅[搜索 [!DNL Adobe Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/search/search-workfront.md)。
+
+### 用于授予您的Workfront帐户支持访问权限的界面更新
+
+**预览版本： 4月24日；生产版本：即将宣布**
+
+我们更新了您用于授予对Workfront帐户的支持访问权限的页面，更新后的设计更加现代化，与Workfront的其他区域一致。
 
 ## 管理和设置
 
