@@ -4,11 +4,11 @@ product-area: requests
 navigation-topic: requests-navigation-topic
 title: 创建请求
 description: 在Adobe Workfront中，请求和问题可以互换。 您可以创建请求，方法是：在Workfront中提交请求，在另一个应用程序中提交请求，或者将请求通过电子邮件发送到设置为请求队列的项目。
-author: Lisa
+author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: de161674-5b61-4853-a16a-c70db10a1c95
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%

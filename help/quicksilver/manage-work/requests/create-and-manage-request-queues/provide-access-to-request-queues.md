@@ -3,10 +3,10 @@ product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
 title: 提供对请求队列的访问权限
 description: 提供对请求队列的访问权限时，您可以确定组织中的哪些人可以在Adobe Workfront的请求区域查看请求队列。
-author: Lisa
+author: Alina
 feature: Work Management
 exl-id: eb88c32a-f8b8-42d3-9a3a-72c62fd1dc3a
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%
@@ -73,7 +73,7 @@ ht-degree: 0%
    >只有状态为“当前”的项目才会显示在“请求”区域中。
 
 1. 单击左侧面板中的&#x200B;**队列详细信息**。 您可能需要单击&#x200B;**显示更多**，然后单击&#x200B;**队列详细信息**。
-1. 选择&#x200B;**Publish作为帮助请求队列**&#x200B;以将项目指定为请求队列。
+1. 选择&#x200B;**发布为帮助请求队列**&#x200B;以将项目指定为请求队列。
 1. 从以下选项中选择：
 
    * **任何人**：任何用户都可以查看请求并将其添加到请求队列。

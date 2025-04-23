@@ -3,10 +3,10 @@ product-area: requests
 navigation-topic: create-requests
 title: 创建并提交请求
 description: 在Adobe Workfront中，计划工作由项目和任务表示。 但是，您可能是在这样的环境中工作：随时都可能收到以随机请求形式出现的计划外工作。 Workfront通过使用请求队列提供了一个工作流来适应这种类型的环境。
-author: Lisa
+author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
 workflow-type: tm+mt
 source-wordcount: '2680'
 ht-degree: 1%
