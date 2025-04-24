@@ -6,9 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 16f0caf4bdf80ef7b95e8ab51bf9f75aa3b81b3f
+exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
+source-git-commit: a92261330ddf289217057c83fa9360776a8628b8
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
@@ -20,6 +21,18 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 在标准时间线视图中截断长记录名称的新设置
+
+>[!NOTE]
+>
+>* 预览： 2025年4月23日
+>* 生产快速发布： 2025年5月15日
+>* 适用于所有客户的生产： 2025年7月17日
+
+现在，您可以在时间轴视图的“设置”框的“条形图样式”选项卡中启用设置，以在标准视图中显示较长记录名称时截断这些名称。 默认情况下，该设置处于禁用状态，仅当您在“标准”模式下显示时间轴视图时才能启用。
+
+有关信息，请参阅[管理时间线视图](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
 
 ## 共享记录类型的权限
 
