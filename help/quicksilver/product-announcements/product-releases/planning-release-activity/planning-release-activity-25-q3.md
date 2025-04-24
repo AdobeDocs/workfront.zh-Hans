@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: a92261330ddf289217057c83fa9360776a8628b8
+source-git-commit: 881eea5b527532227a40483d2cd2edeba84dc30f
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 >* 生产快速发布： 2025年5月15日
 >* 适用于所有客户的生产： 2025年7月17日
 
-现在，您可以在时间轴视图的“设置”框的“条形图样式”选项卡中启用设置，以在标准视图中显示较长记录名称时截断这些名称。 默认情况下，该设置处于禁用状态，仅当您在“标准”模式下显示时间轴视图时才能启用。
+现在，您可以在时间轴视图的“设置”框的“条形图样式”选项卡中启用设置，以在标准视图中显示较长记录名称时截断这些名称。 默认情况下，该设置处于禁用状态，仅当您在“标准”模式下显示时间轴视图时才能启用。 由于禁用此设置，默认情况下，记录栏上的信息显示为展开状态。 在此增强功能之前，默认情况下，记录栏上的信息被截断。
 
 有关信息，请参阅[管理时间线视图](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
 
