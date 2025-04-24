@@ -6,16 +6,15 @@ description: 您可以与其他用户共享日历，也可以公开显示该日�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
-source-git-commit: 14b78ee4dc441ca84b891b2f021d959fcf357fdd
+source-git-commit: 0606dab832753543ceef4b5b505413967176aec4
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
 
 # 共享日历报告
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 您可以与其他用户共享日历，也可以公开显示该日历，从而允许没有[!DNL Adobe Workfront]许可证的用户查看该日历。
 
@@ -65,10 +64,8 @@ ht-degree: 0%
 要在[!DNL Workfront]内共享日历，请执行以下操作：
 
 1. 转到要共享的日历。
-1. <span class="preview">在预览中，单击日历名称旁边的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**共享**。
-   ![日历更多菜单](assets/more-menu-calendar.png)</span>
-1. 单击&#x200B;**[!UICONTROL 日历操作]**，然后单击&#x200B;**[!UICONTROL 共享]**。
-
+1. 单击日历名称旁边的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**共享**。
+   ![日历更多菜单](assets/more-menu-calendar.png)
 1. 在&#x200B;**[!UICONTROL 将日历访问权限授予]**&#x200B;字段中，开始键入要共享日历的用户、团队、角色、组或公司的名称，然后单击该名称以将其显示在下拉列表中。\
    要了解有关设置权限的信息，请参阅[对象权限共享概述](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
 
@@ -77,17 +74,11 @@ ht-degree: 0%
 
    * **[!UICONTROL 查看]：**&#x200B;用户可以查看和共享日历。
 
-     ![共享具有查看访问权限的日历](assets/calendar-share-view-permissions-350x249.png)
-
-     <!--
-      ![Share calendar with view access](assets/view-calendar.png)
-      -->
+     ![共享具有查看访问权限的日历](assets/view-calendar.png)
 
    * **[!UICONTROL 管理]：**&#x200B;用户拥有日历的完全访问权限，但缺少在访问级别授予的管理权限以及所有查看权限。
 
-     ![通过“管理”访问权限共享日历](assets/calendar-share-manage-permissions-350x241.png)
-
-     <!--![Share calendar with manage access](assets/manage-calendar.png)-->
+     ![共享具有管理访问权限的日历](assets/manage-calendar.png)
 
      >[!NOTE]
      >
@@ -108,12 +99,9 @@ ht-degree: 0%
 
 1. 转到要共享的日历。
 1. 单击&#x200B;**[!UICONTROL 日历操作]**，然后单击&#x200B;**[!UICONTROL 共享]**。
-1. <span class="preview">在预览中，单击日历名称旁边的&#x200B;**更多**菜单。
-   ![日历更多菜单](assets/more-menu-calendar.png)</span>
-
-1. 单击齿轮图标，然后单击&#x200B;**[!UICONTROL 将此设为外部用户公开]**。
-1. 单击&#x200B;**[!UICONTROL 复制链接]**。
-1. <span class="preview">在预览中，单击&#x200B;**复制公共链接**。</span>
+1. 单击日历名称旁边的&#x200B;**更多**菜单。
+   ![日历更多菜单](assets/more-menu-calendar.png)
+单击**复制公共链接**。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 ## 使用专用链接共享日历
@@ -121,10 +109,8 @@ ht-degree: 0%
 您可以与[!DNL Workfront]用户共享专用日历链接。 用户在使用链接时需要登录才能查看日历。
 
 1. 转到要共享的日历。
-1. <span class="preview">在预览中，单击日历名称旁边的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 获取可共享链接]**。
-   ![日历更多菜单](assets/more-menu-calendar.png)</span>
-1. 单击&#x200B;**[!UICONTROL 日历操作]**，然后单击&#x200B;**[!UICONTROL 获取可共享链接]**。
-1. 单击&#x200B;**[!UICONTROL 复制链接]**。
+1. 单击日历名称旁边的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 获取可共享链接]**。
+   ![日历更多菜单](assets/more-menu-calendar.png)
 
    >[!NOTE]
    >

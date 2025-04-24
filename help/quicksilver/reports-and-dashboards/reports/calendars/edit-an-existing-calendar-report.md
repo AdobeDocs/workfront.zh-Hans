@@ -6,16 +6,14 @@ description: 您可以通过添加或删除项目链接来修改现有日历。 
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-source-git-commit: c8f4d8e460ed9247ca5d89c9a711ecb1ec5ed1e9
+source-git-commit: 5c0278607faf65b58abeb9b813e403f97032a965
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
 
 # 编辑现有日历报告
-
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 您可以通过添加或删除项目链接来修改现有日历。 您还可以修改与日历报告关联的日历分组。
 
@@ -60,45 +58,12 @@ ht-degree: 0%
 
 +++
 
-## 在生产环境中编辑现有日历报告
+
+## 编辑现有日历报告
 
 {{step1-to-calendars}}
 
-1. （可选）要更改日历报表的名称，请单击[!UICONTROL 日历名称]字段，然后进行所需的更改。 我们建议仅使用UTF-8字符以避免兼容性问题。
-
-   ![更改报表名称](assets/titlechange-250x230.png)
-
-   如果您已与其他用户或团队共享日历报告，则修改的日历名称会自动更新其日历视图。
-
-1. （可选）要将项目添加到日历报表，请执行以下操作：
-
-   1. 单击&#x200B;**[!UICONTROL 添加到日历]。**
-   1. 在&#x200B;**[!UICONTROL 项目名称]**&#x200B;字段中，开始键入要添加日历事件的项目名称，然后单击该名称以将其显示在下拉列表中。
-
-      ![选择项目名称](assets/calendar-project-name.png)
-项目及其关联任务和问题中的项将添加到日历报告中。
-
-1. （可选）要添加日历分组或修改现有日历分组，请执行以下操作：
-
-   1. 将鼠标悬停在项目名称上，单击项目名称旁边的下拉箭头，然后单击&#x200B;**[!UICONTROL 编辑]**。
-
-      ![编辑日历分组](assets/editcalendergroup-350x126.png)
-
-   1. 选择项目分组方式：
-
-      * [在日历报告中使用[!UICONTROL 计划日期]](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
-      * [在日历报告中使用[!UICONTROL 预计日期]](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
-      * [在日历报告中使用自定义日期字段](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
-
-
-<div class="preview">
-
-## 在预览中编辑现有日历报告
-
-{{step1-to-calendars}}
-
-1. （可选）要更改日历报告的名称，请单击&#x200B;**更多**&#x200B;菜单，然后选择&#x200B;**编辑**。
-   ![更多菜单](assets/new-more-menu-calendar.png)
+1. （可选）要更改日历报告的名称，请单击日历下拉菜单旁边的&#x200B;**重命名**。
 如果您已与其他用户或团队共享日历报告，则修改的日历名称会自动更新其日历视图。
 
 1. （可选）要将项目添加到日历报表，请执行以下操作：
@@ -110,7 +75,7 @@ ht-degree: 0%
 
 1. （可选）要添加日历分组或修改现有日历分组，请执行以下操作：
    1. 单击项目名称旁边的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**编辑**。
-      ![在日历中编辑项目](assets/edit-project-in-calendar.png)e
+      ![在日历中编辑项目](assets/edit-project-in-calendar.png)
 
    1. 选择项目分组方式：
 
@@ -118,5 +83,3 @@ ht-degree: 0%
       * [在日历报告中使用[!UICONTROL 预计日期]](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
       * [在日历报告中使用自定义日期字段](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
 
-
-      </div>
