@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-source-git-commit: 5d818b2e3c3314c6af076df46f7f806214f97bab
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
-source-wordcount: '1869'
+source-wordcount: '1868'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ ht-degree: 0%
 1. 在屏幕右侧，选择&#x200B;**[!UICONTROL 添加ACE]**&#x200B;以创建新条目。
 1. 在{&#x200B;0}添加新条目&#x200B;]**窗口&#x200B;中，选中**[!UICONTROL &#x200B;路径&#x200B;]**字段中的复选框图标，&#x200B;然后选择文件夹： */conf***[!UICONTROL 
 1. 在&#x200B;**权限**&#x200B;字段中，输入： *jcr：read*
-1. 选择右上角的&#x200B;**[!UICONTROL 添加]**&#x200B;。
+1. 选择右上角的&#x200B;**添加**。
 1. （可选）重复上述步骤以创建更多条目。
 
 ### 将AEM与[!DNL Workfront]集成 {#integrate-aem-with-workfront}

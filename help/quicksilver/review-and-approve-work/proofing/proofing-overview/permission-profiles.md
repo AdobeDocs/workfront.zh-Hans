@@ -8,7 +8,7 @@ description: 验证权限配置文件确定用户在您帐户的所有验证中�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fb6faa48-d97b-4b7b-83ae-fe39d40b3963
-source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 1%
@@ -44,7 +44,7 @@ ht-degree: 1%
 
 下表显示每个验证权限配置文件的可用权限。
 
-<table>
+<table style="table-layout:auto">
   <tr>
    <td colspan="1" ><strong></strong>
    </td>
@@ -116,7 +116,7 @@ ht-degree: 1%
    </td>
   </tr>
   <tr>
-   <td>管理器
+   <td>管理员
    </td>
    <td>x
    </td>
@@ -213,7 +213,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-### 管理器
+### 管理员
 
 经理具有以下权限：
 

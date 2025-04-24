@@ -6,7 +6,7 @@ description: 在分配访问级别时，Adobe Workfront管理员可以向您授�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: eb4bf18407562b88bf0c946c905b202e5b62a5fe
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
 source-wordcount: '1579'
 ht-degree: 2%

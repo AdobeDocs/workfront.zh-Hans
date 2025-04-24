@@ -5,14 +5,16 @@ description: 您可以固定最重要的工作 [!DNL Adobe Workfront] 以提高�
 feature: Get Started with Workfront
 author: Courtney
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-source-git-commit: b3fe63f7a332f50c7bac3bedee5db3bbbabd2b42
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '423'
 ht-degree: 1%
 
 ---
 
 # 固定页面以自定义工作区
+
+<!-- Audited: 4/2025 -->
 
 您可以将最重要的工作固定在[!DNL Adobe Workfront]中，以提高可见性、改善组织并加快访问速度。 固定页面始终可从Workfront中任何页面的顶部访问。
 
@@ -53,6 +55,8 @@ ht-degree: 1%
 1. 导航到要固定的页面。 这可以是任何工作项，如项目、任务、请求队列等。
 
 1. 在页面的左上角，单击&#x200B;**[!UICONTROL 固定当前页面]**。 现在可从[!DNL Workfront]中任何页面的顶部访问固定页面。
+
+   ![固定当前页面](assets/pin-current-page-button.png)
 
 ## 访问固定页面
 

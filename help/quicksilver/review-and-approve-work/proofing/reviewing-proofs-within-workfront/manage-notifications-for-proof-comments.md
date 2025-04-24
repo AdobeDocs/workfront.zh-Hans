@@ -6,7 +6,7 @@ description: 处理验证时，无论您是Adobe Workfront用户还是外部协�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c38e005c-8984-4e99-9527-94a0a6b1071d
-source-git-commit: b3fe63f7a332f50c7bac3bedee5db3bbbabd2b42
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # 管理验证评论和决策的通知
+
+<!-- Audited: 4/2025 -->
 
 处理验证时，无论您是Adobe Workfront用户还是外部协作者，都可以指定您想要接收哪些有关对验证所做的评论和决策的电子邮件通知。 有关详细信息，请参阅[校对评论和决策概述](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md)的通知。
 
