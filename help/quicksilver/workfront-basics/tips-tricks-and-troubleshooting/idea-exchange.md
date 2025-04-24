@@ -5,9 +5,9 @@ title: 创新实验室
 description: '[!UICONTROL 创新实验室]使经过身份验证的用户能够提交、投票并与其他客户讨论想法。'
 feature: Get Started with Workfront
 exl-id: 4775ece1-2841-4acc-b3f0-66cd2783669f
-source-git-commit: 813b97ee0979e29a90293d9ddaba12a33c99f64d
+source-git-commit: 3583368918cf9eb4c64faeda4730e2be08375aed
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -47,4 +47,4 @@ ht-degree: 0%
 * **[!UICONTROL 已交付]：**&#x200B;已创建并交付解决方案。 将不再提供进一步的更新，并将禁用评论。
 * **[!UICONTROL 已存档]**：达到18个月标记（从提交日期起）且分数少于300的创意将被存档。
 
-若要开始使用或了解更多信息，请登录[workfront.com/customer](https://www.workfront.com/customer)上的创新实验室。
+若要开始使用或了解详细信息，请登录[创新实验室](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)。
