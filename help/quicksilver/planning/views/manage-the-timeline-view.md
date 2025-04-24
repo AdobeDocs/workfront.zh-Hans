@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
 workflow-type: tm+mt
-source-wordcount: '2863'
+source-wordcount: '2860'
 ht-degree: 0%
 
 ---
@@ -94,6 +94,14 @@ ht-degree: 0%
 *有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--replace the layout template info in the table with this at release: 
+
+
+<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
+<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
+
+-->
 
 ## 管理时间线视图 {#manage-a-timeline-view}
 
@@ -303,7 +311,7 @@ this is not possible right now; if this is the same functionality as the table v
    >
    >* <span class="preview">在紧凑模式下显示时间轴视图时，截断栏详细信息设置不可用，在日历视图中不可用。</span>
    >
-   >* <span class="preview">如果划分时间线视图以在时间线中显示连接的对象，则“截断栏详细信息”设置仅适用于主记录类型。 它不适用于连接的记录栏。</span>
+   >* <span class="preview">如果划分时间线视图以显示连接的对象，则“截断栏详细信息”设置仅适用于主记录类型。 它不适用于连接的记录栏。</span>
 
 
 1. 单击左侧面板中的&#x200B;**颜色**，以自定义时间轴中记录和分组的颜色。

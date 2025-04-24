@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
 workflow-type: tm+mt
-source-wordcount: '1872'
+source-wordcount: '2034'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,6 @@ ht-degree: 0%
 +++
 
 <!--replace the layout template info in the table with this at release: 
-
 
 <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
 <p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
@@ -268,42 +267,75 @@ ht-degree: 0%
 
    自动对记录预览或页面保存布局所做的所有更改。
 
-## 将“连接”视图页面添加到记录的页面
+## 将“连接”视图选项卡添加到记录的页面
 
-<!--suggested a new name for this type of page: "Connected records details" - check to see if this changed-->
+<!--suggested a new name for this type of page: "Connected records page" - check to see if this changed, and update this everywhere in this section-->
+
+通过将“连接”视图页面类型的选项卡添加到记录，可以查看已连接记录或对象的信息。 来自已连接记录的信息以只读表格视图显示。
+
+&lt;！ — 在版本中将上面的最后一句替换为：
+
+在生产环境中，来自连接的记录或对象的信息以只读表格视图显示。
+
+<Span class="preview">在“预览”环境中，可以在表视图中编辑来自连接记录的信息。 来自从其他应用程序连接的对象的信息在表视图中不可编辑。</span> —>
 
 向记录页面添加连接视图时，请考虑以下事项：
 
-* 您可以将连接视图页面添加到记录的页面。
+* 将记录或对象类型连接到记录类型后，可以将“连接”视图页面添加到记录页面。
 
 * 无法将“连接”视图页面添加到记录的预览区域。
 
-* “连接”视图页面在表视图中显示一个连接的记录类型页面。
+* “连接”视图页面在表格视图中显示一个连接的记录类型页面或来自另一个应用程序的连接的对象类型。
 
 * 将“连接”视图页面添加到记录页面后，即可在记录的预览区域看到页面选项卡。 您必须转到整页以查看所连接记录的表视图。<!--this might have changed? check and take disclaimer out-->
 
 添加“连接”视图页：
 
 1. 从记录页面视图中，单击记录名称以将其打开，然后单击预览页面右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开详细信息](assets/open-details-in-a-new-tab-icon.png)。
-1. 单击&#x200B;**添加页面** > **连接视图**。
+1. 单击&#x200B;**添加页面**。
 
    ![添加连接视图页面模式](assets/add-connection-view-page-modal.png)
 1. 添加&#x200B;**页面名称**，单击&#x200B;**连接视图**，然后单击&#x200B;**创建**。
 
    新选项卡将添加到记录的页面。
-1. 搜索或单击列表中连接的记录或对象类型的名称。
-您选择的记录类型的表格视图会显示，并且连接的记录会显示在表格视图中。
+1. 在列表中搜索或单击连接的记录或对象类型的名称。
+所选记录类型的表格视图将显示在新页面中，连接的记录将显示在表格视图中。
 已连接记录的所有字段都显示在已连接记录选项卡的表视图中。
 
    默认情况下，将显示连接的记录表中的前五个字段。 默认情况下，不显示查找字段。
-
-   表格视图是只读的。
 
    <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
 
    在营销活动详细信息下![受众连接的表视图](assets/audience-connected-table-view-under-campaign-details-page.png)
 
-1. （可选）双击选项卡的名称
+1. （可选）在连接的记录的表视图中，执行以下任一操作：
+
+   * 单击记录名称。 这将在新选项卡中打开记录页面。<!--<span class="preview">In the Preview environment, this opens the record's preview page.</span>-->
+   * 单击&#x200B;**连接**以连接更多记录，然后单击连接框外部以关闭它。 新记录将自动添加到表中。
+     <!--* <span class="preview">Edit any information from the connected records inside the table view. </span>-->
+
+   <!--<div class="preview">
+
+   * Hover over a connected record's name, then click the **More** menu ![More menu](assets/more-menu.png), then click one of the following options: 
+      * View 
+      * Copy link
+      * Edit thumbnail
+      * Duplicate
+      * Insert record above or below
+      * Delete 
+   * Select one of the records, then click one of the following options in the blue bar at the bottom of the screen: 
+      * View
+      * Copy link
+      * Edit thumbnail
+      * Duplicate
+      * Delete. Delete is the only option available when you select more than one record. 
+
+      For information about editing records in the table view, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
+
+   </div>-->
+
+
+1. （可选）双击“连接视图”选项卡的名称
 
    或
 
@@ -323,7 +355,7 @@ ht-degree: 0%
    >
 
 1. 单击&#x200B;**连接**&#x200B;添加或删除记录。 有关信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)
-1. （可选）将鼠标悬停在“连接视图”选项卡的名称上，单击&#x200B;**更多** ![更多菜单](assets/more-menu.png)，然后单击&#x200B;**删除**&#x200B;以删除新的“连接视图”选项卡。
+1. （可选）将鼠标悬停在“连接”视图选项卡的名称上，单击&#x200B;**更多** ![更多菜单](assets/more-menu.png)，然后单击&#x200B;**删除**&#x200B;以删除选项卡。
 
 
 
