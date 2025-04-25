@@ -6,9 +6,9 @@ description: 跨工作项的多个版本或修订版本管理反馈可能是一�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
+source-git-commit: daa46f0e2a5f656d048260d4a714ed02f01cdbbf
 workflow-type: tm+mt
-source-wordcount: '1523'
+source-wordcount: '1521'
 ht-degree: 0%
 
 ---
@@ -225,4 +225,4 @@ If the creator or owner of&nbsp;&nbsp;the proof has
 如果您的个人设置中未保存默认主题和消息，则新版本页面上将显示以下内容：
 
 * 如果您使用标准电子邮件（例如无自定义主题/消息）通知查看者以前的验证版本，则默认情况下将在新版本页面上选择通过电子邮件通知人员选项。 要添加自定义消息，请单击链接。
-* 如果您没有通过电子邮件通知审阅人以前的验证版本（例如没有标准或自定义电子邮件），则默认情况下，“新版本”页面不会包含任何消息。 要通知审阅者新版本，请单击发送消息链接。 然后，您可以通过单击“添加自定义消息”链接来添加自定义主题和消息。
+* 如果您未将以前的校样版本通知给审阅人（例如没有标准或自定义电子邮件），则默认情况下，“新版本”页面不会包含任何消息。 要通知审阅者新版本，请单击发送消息链接。 然后，您可以通过单击“添加自定义消息”链接来添加自定义主题和消息。
