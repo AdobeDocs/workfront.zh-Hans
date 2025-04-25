@@ -5,7 +5,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 6e4135fc6f0431c8222ce48c18a0b5c4c6f0dbed
 workflow-type: tm+mt
 source-wordcount: '1473'
 ht-degree: 0%
@@ -53,7 +53,7 @@ Adobe管理员可以使用Adobe Admin Console创建Adobe Workfront系统管理�
   </tr> 
   <tr> 
    <td role="rowheader">Adobe管理员权限</td> 
-   <td> <p>您必须是贵组织的Adobe产品的产品配置管理员</p> </td> 
+   <td> <p>您必须是贵组织的Adobe产品的产品配置文件管理员</p> </td> 
   </tr> 
  </tbody> 
 </table>
