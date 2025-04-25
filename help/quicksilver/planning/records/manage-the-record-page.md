@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
+source-git-commit: 8fcc6c75811080f3ee152849a149542be8ae820c
 workflow-type: tm+mt
-source-wordcount: '2034'
+source-wordcount: '1974'
 ht-degree: 0%
 
 ---
@@ -273,11 +273,11 @@ ht-degree: 0%
 
 通过将“连接”视图页面类型的选项卡添加到记录，可以查看已连接记录或对象的信息。 来自已连接记录的信息以只读表格视图显示。
 
-&lt;！ — 在版本中将上面的最后一句替换为：
+<!--replace the last sentence above with this at release:
 
-在生产环境中，来自连接的记录或对象的信息以只读表格视图显示。
+In the Production environment, the information from the connected records or objects displays in a read-only table view. 
 
-<Span class="preview">在“预览”环境中，可以在表视图中编辑来自连接记录的信息。 来自从其他应用程序连接的对象的信息在表视图中不可编辑。</span> —>
+<Span class="preview">In the Preview environment, the information from the connected records can be edited in the table view. The information from the objects connected from another application is not editable in the table view.</span> -->
 
 向记录页面添加连接视图时，请考虑以下事项：
 
