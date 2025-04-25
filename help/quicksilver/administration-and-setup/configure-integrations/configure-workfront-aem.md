@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
+source-git-commit: 51dfd1ff1ad0f5847db42cfc1d5f9b5f907f672d
 workflow-type: tm+mt
 source-wordcount: '1868'
 ht-degree: 0%
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 在安装[!UICONTROL AEM Assets]的[!DNL Workfront]连接器之前，请确保满足以下先决条件：
 
-* [!UICONTROL AEM Assets]已安装和配置，版本6.5或更高版本。 有关安装[!UICONTROL AEM Assets]的信息，请参阅[[!DNL Adobe Experience Manager] 文档](https://experienceleague.adobe.com/docs/experience-manager.html)。
+* [!UICONTROL AEM Assets]已安装和配置，版本6.5或更高版本。 有关安装[!UICONTROL AEM Assets]的信息，请参阅[[!DNL Adobe Experience Manager] 文档](https://experienceleague.adobe.com/en/docs/experience-manager)。
 * （视情况而定）如果防火墙规则不允许按预期发送流量，请将群集的IP地址和/或域添加到列入允许列表中。 有关详细信息，请参阅[配置防火墙的允许列表](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
 
 ## 安装[!DNL Workfront for AEM Assets]连接器包 {#install-the-workfront-for-aem-assets-connector-package}
