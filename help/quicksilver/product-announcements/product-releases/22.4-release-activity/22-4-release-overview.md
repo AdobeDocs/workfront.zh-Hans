@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3272'
 ht-degree: 0%
@@ -61,8 +61,8 @@ ht-degree: 0%
     </ul>  </td>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">迁移到Adobe统一体验</a> </p>
-                        <p>如果您的组织已载入到Adobe Admin Console，则您的Workfront实例将迁移到Adobe22.4版的Unified Experience。</p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">迁移到Adobe Unified Experience</a> </p>
+                        <p>如果贵组织已登记到Adobe Admin Console，则您的Workfront实例将迁移到Adobe Unified Experience 22.4版。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                      <p>
@@ -604,8 +604,8 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        用于InDesign</a>的<a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront <span style="color: #ff0000;">生产中的新内容！</span> </p>
-                        <p>此插件现在可以在InDesign中安装。 它允许您访问工作项详细信息，与更新区域中的同事协作，以及提交校样以供全部查看，而无需离开XD。 立即转到Adobe Creative Cloud Marketplace以下载插件。 </p>
+                        适用于InDesign的<a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront</a> <span style="color: #ff0000;">生产中的新增功能！</span> </p>
+                        <p>此插件现在可以在InDesign中安装。 它允许您访问工作项详细信息，在更新区域与同事协作，以及在不离开XD的情况下提交验证以供全部审阅。 立即转到Adobe Creative Cloud Marketplace以下载插件。 </p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -623,7 +623,7 @@ ht-degree: 0%
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">将对象元数据与本机Experience Manager Assets集成同步</a> </p>
                         <p>现在，Workfront项目组合、计划、项目、任务、问题和文档字段在Workfront中更改时会自动更新。</p>
-                        <p>要允许对象元数据自动同步，您必须在设置&gt;Experience Manager集成中为集成启用同步对象元数据切换开关。</p>
+                        <p>要允许对象元数据自动同步，您必须在设置&gt; Experience Manager集成中为集成启用同步对象元数据切换开关。</p>
                         <p>以前，只有项目字段会自动更新。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -734,7 +734,7 @@ Workfront Fusion中的新增功能在22.4版本发行计划之外的生产环境
 
 ### Workfront 维护更新
 
-有关22.3版本期间所做的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
+有关22.3版本期间所做的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)。
 
 ### 22.4版本网络研讨会
 
@@ -742,7 +742,7 @@ Workfront Fusion中的新增功能在22.4版本发行计划之外的生产环境
 
 ### 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[培训版本更新页面](https://one.workfront.com/s/training-release-updates)。
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[培训版本更新页面](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)。
 
 ### 即将从22.4版本中删除的功能
 

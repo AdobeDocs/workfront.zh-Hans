@@ -6,7 +6,7 @@ description: 您可以从外部源将文档和文件夹链接到Adobe Workfront�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2620'
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Workfront 验证 </td> 
-   <td>您可以使最初在Workfront Proof中创建的验证在Workfront中可用。 对于当前许可证，需要Pro Workfront计划或更高版本才能使用此功能。 对于新许可证，所有计划都包含此功能。 有关各种可用计划的详细信息，请参阅<a href="https://www.workfront.com/plans">Workfront计划</a>。</td> 
+   <td>您可以使最初在Workfront Proof中创建的验证在Workfront中可用。 对于当前许可证，需要Pro Workfront计划或更高版本才能使用此功能。 对于新许可证，所有计划都包含此功能。 有关各种可用计划的详细信息，请参阅<a href="https://business.adobe.com/products/workfront/pricing.html">Workfront计划</a>。</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
@@ -51,7 +51,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">其他文档提供程序（通过自定义文档集成）</td> 
-   <td> <p class="workfront_plans">对于当前许可证，需要Pro Workfront计划或更高版本才能使用此功能。 对于新许可证，所有计划都包含此功能。 有关各种可用计划的详细信息，请参阅<a href="https://www.workfront.com/plans">Workfront计划</a>。</p> </td>
+   <td> <p class="workfront_plans">对于当前许可证，需要Pro Workfront计划或更高版本才能使用此功能。 对于新许可证，所有计划都包含此功能。 有关各种可用计划的详细信息，请参阅<a href="https://business.adobe.com/products/workfront/pricing.html">Workfront计划</a>。</p> </td>
   </tr> 
  </tbody> 
 </table>

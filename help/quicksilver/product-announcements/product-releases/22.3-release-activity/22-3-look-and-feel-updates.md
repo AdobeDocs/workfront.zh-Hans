@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7f85bc50-52c7-4fe8-9f0f-489eaf19b441
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 14%
@@ -43,6 +43,6 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->此更改已于2022年5月23日在生产环境中更新。 有关详细信息，请参阅2022年5月26日的[维护更新](https://one.workfront.com/s/article/Maintenance-Update-on-May-26-2022)。
+>此更改已于2022年5月23日在生产环境中更新。 有关详细信息，请参阅2022年5月26日的[维护更新](https://experienceleague.adobe.com/en/docs/workfront/using/home)。
 
 我们在所有可用痕迹导航的区域更新了痕迹导航分隔符。 现在，痕迹导航中的对象由竖线 (|) 分隔。在此更新之前，它们由正斜杠 (/) 分隔。

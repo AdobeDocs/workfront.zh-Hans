@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7cf7f6ed-fe85-4c86-bb4b-dd93197338cf
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3695'
 ht-degree: 0%
@@ -245,7 +245,7 @@ ht-degree: 0%
    <td> <p><strong>发布日期和环境</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-mobile-enhancements.md#added" class="MCXref xref" xrefformat="{para}">已在Microsoft Teams通知</a>中添加功能 </p> <p>为了让您更轻松地通过Microsoft Teams使用Workfront，我们为从Workfront发送的Microsoft Teams通知添加了新功能。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-mobile-enhancements.md#added" class="MCXref xref" xrefformat="{para}">在Microsoft Teams通知中添加了功能</a> </p> <p>为了让您更轻松地通过Microsoft Teams使用Workfront，我们为从Workfront发送的Microsoft Teams通知添加了新功能。</p> </td> 
    <td><strong>在以下日期可用：</strong> <p>Beta预览版本：待定</p> <p>生产版本：随20.4版本<strong>一起发布（推迟到2020年12月或2021年初）</strong></p> <p><strong>在以下环境中可用：</strong> </p> <p>新的Adobe Workfront体验 </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -310,7 +310,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-有关新增功能和更新的信息，请参阅[API版本12](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FWF_API%2FAPI%2Fnew-api-version-12.htm)中的新增功能。
+有关新增功能和更新的信息，请参阅[API版本12](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12)中的新增功能。
 
 有关API版本的更多信息，请参阅[API版本控制和支持计划](../../../wf-api/api/api-version-support-schedule.md)
 
@@ -334,11 +334,11 @@ This section will be updated with more information prior to the 20.4 release bei
 
 ### Flash弃用 {#flash-deprecation}
 
-2020年底，Adobe和所有主要浏览器都最终确定了弃用的AdobeFlash技术，这意味着这些工具将停止运行。
+2020年底，Adobe和所有主要浏览器都最终决定弃用Adobe Flash技术，这意味着这些工具将停止运行。
 
 Workfront旨在通过提供一套不依赖Flash的新解决方案，帮助您转向较新的技术。 有关每个特定基于Flash的工具的替换解决方案的更多信息，请参阅以下文章： [在Adobe Workfront中替换基于Flash的工具](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)。
 
-所有基于Flash的工具将于2020年11月19日从所有产品中删除。 我们建议您开始使用新工具，并在之后停用Flash工具，以提高实例的安全性。 如果您希望我们在11月19日之前禁用Flash工具，您可以联系客户支持。
+所有基于闪存的工具将于2020年11月19日从所有产品中删除。 我们建议您开始使用新工具，并在之后停用Flash工具，以提高实例的安全性。 如果您希望我们在11月19日之前禁用Flash工具，您可以联系客户支持。
 
 ### 20.4版本网络研讨会 {#20-4-release-webinar}
 
@@ -348,7 +348,7 @@ Workfront 20.4发布网络研讨会将于2020年10月28日星期三上午11:00�
 
 从2020年5月20日开始，Workfront每周开始在预览环境中提供一次功能。 在此更改之前，通常每两周向预览环境发布一次功能。
 
-有关详细信息，请参阅[在Workfront中更改预览版本节奏常见问题解答](https://one.workfront.com/s/article/Change-in-Workfront-Preview-release-cadence)
+有关详细信息，请参阅[在Workfront中更改预览版本节奏常见问题解答](https://experienceleague.adobe.com/en/docs/workfront/using/home)
 
 ### 访问Workfront所需的其他域的允许列表 {#allowlist-of-additional-domains-required-for-accessing-workfront}
 
@@ -363,4 +363,4 @@ Workfront 20.4发布网络研讨会将于2020年10月28日星期三上午11:00�
 
 借助Workfront One，您可以从Workfront中发现最重要的内容、资源和新闻 — 全部放在一个地方，只需登录一次。 我们统一了Experience、Community和Training站点，让您能够更轻松地找到您所寻找的内容。
 
-[进一步了解Workfront One](https://www.workfront.com/campaigns/workfront-one)。
+[进一步了解Workfront One](https://business.adobe.com/products/workfront.html)。

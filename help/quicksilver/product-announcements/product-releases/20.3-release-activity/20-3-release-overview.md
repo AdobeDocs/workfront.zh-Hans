@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d25fda7-8116-42ba-961b-12aed4678614
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3829'
 ht-degree: 0%
@@ -118,7 +118,7 @@ For specific release dates and times for each cluster, see the
 >
 >您的组织必须具备以下条件才能使用本文中所述的功能：
 >
->* Pro或更高版本[Adobe Workfront计划](https://www.workfront.com/plans)。
+>* Pro或更高版本[Adobe Workfront计划](https://business.adobe.com/products/workfront/pricing.html)。
 >* 除了Adobe Workfront许可证之外，还提供了Workfront目标许可证。
 >
 >  请联系您的Workfront客户经理，了解有关Workfront Goals许可证的信息。
@@ -154,7 +154,7 @@ For specific release dates and times for each cluster, see the
 &gt; <col> 
 &gt; <tbody> 
 &gt;  <tr> 
-&gt;   <td role="rowheader"> <p><a href="https://www.workfront.com/plans" target="_blank">Workfront计划</a>*</p> </td> 
+&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Workfront计划</a>*</p> </td> 
 &gt;   <td>业务或更高</td> 
 &gt;  </tr> 
 &gt;  <tr> 
@@ -284,7 +284,7 @@ For specific release dates and times for each cluster, see the
    <td><strong>在以下日期可用：</strong> <p>Beta预览版本： 2020年7月2日</p> <p>生产版本：随20.3版提供</p> <p><strong>在以下环境中可用：</strong> </p> <p>新的Adobe Workfront体验 </p> <p>Adobe Workfront Classic（适用于某些列表，但不受支持）</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-project-management-enhancements.md#updated" class="MCXref xref">更新了多个全局标头的外观</a> </p> <p>项目、Portfolio、项目和模板的全球区域现在有一个更新的标题，可以更好地利用屏幕上的空间。 此更新为您使用的需要关注的信息提供了更多空间。 </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-project-management-enhancements.md#updated" class="MCXref xref">更新了多个全局标头的外观</a> </p> <p>项目、项目组合、项目和模板的全局区域现在有一个更新的标题，可以更好地利用屏幕上的空间。 此更新为您使用的需要关注的信息提供了更多空间。 </p> </td> 
    <td><strong>在以下日期可用：</strong> <p>Beta预览版本： 2020年6月19日</p> <p>生产版本：随20.3版提供</p> <p><strong>在以下环境中可用：</strong> </p> <p>新的Adobe Workfront体验 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -391,7 +391,7 @@ For specific release dates and times for each cluster, see the
    <td> <p><strong>在以下日期可用：</strong> </p> <p>Beta预览版本： 2020年7月9日</p> <p>生产版本：从20.3版本开始分阶段推出，到2020年9月1日可供所有客户使用。</p> <p><strong>在以下环境中可用：</strong> </p> <p>新的Adobe Workfront体验 </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#domainke" class="MCXref xref">DomainKeys Indified Mail (DKIM)现在包含在传出的Workfront电子邮件中</a> </p> <p>所有传出电子邮件都将包含电子邮件身份验证技术(DKIM)。 最终用户看不到此DKIM签名，但允许在服务器级别进行验证，并强化我们现有的身份验证框架。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#domainke" class="MCXref xref">DomainKeys Indified Mail (DKIM)现在包含在传出的Workfront电子邮件中</a> </p> <p>所有传出电子邮件都将包含电子邮件身份验证技术(DKIM)。 此DKIM签名对最终用户不可见，但允许在服务器级别进行验证，并强化我们现有的身份验证框架。</p> </td> 
    <td><strong>在以下日期可用：</strong> <p>Beta预览版本： 2020年7月29日</p> <p>生产版本：从20.3版本开始分阶段推出，到2020年9月1日可供所有客户使用。</p> <p><strong>在以下环境中可用：</strong> </p> <p>新的Adobe Workfront体验 </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -435,7 +435,7 @@ API版本11随2020.1版发布。 有关新增功能和更新的信息，请参�
 
 从2020年5月20日开始，Workfront每周开始在预览环境中提供一次功能。 在此更改之前，通常每两周向预览环境发布一次功能。
 
-有关详细信息，请参阅[在Workfront中更改预览版本节奏常见问题解答](https://one.workfront.com/s/article/Change-in-Workfront-Preview-release-cadence)
+有关详细信息，请参阅[在Workfront中更改预览版本节奏常见问题解答](https://experienceleague.adobe.com/en/docs/workfront/using/home)
 
 ### 访问Workfront所需的其他域的允许列表 {#allowlist-of-additional-domains-required-for-accessing-workfront}
 
@@ -450,11 +450,11 @@ API版本11随2020.1版发布。 有关新增功能和更新的信息，请参�
 
 借助Workfront One，您可以从Workfront中发现最重要的内容、资源和新闻 — 全部放在一个地方，只需登录一次。 我们统一了Experience、Community和Training站点，让您能够更轻松地找到您所寻找的内容。
 
-[进一步了解Workfront One](https://www.workfront.com/campaigns/workfront-one)。
+[进一步了解Workfront One](https://business.adobe.com/products/workfront.html)。
 
 ### 20.3版本网络研讨会 {#20-3-release-webinar}
 
-在[此处](https://one.workfront.com/s/managed-content-event/20-3-product-release-webinar-20Y0z000000bmRJEAY)查看20.3产品发布网络研讨会。
+在[此处](https://experienceleague.adobe.com/en/docs/workfront/using/home)查看20.3产品发布网络研讨会。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

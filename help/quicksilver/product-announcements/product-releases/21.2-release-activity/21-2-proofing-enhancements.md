@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements, Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 1f82c397-5cb6-4adc-bb84-f5b1e1ed9d5e
-source-git-commit: ea1248f7b5227bbab222b3616ff4222122964358
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 有关校对决定的详细信息，请参阅[文档区域](../../../documents/managing-documents/documents-area.md)。
 
-此功能现已包含在Workfront One上的新Workfront Experience](https://one.workfront.com/s/learningpath3/manage-proofs-and-versions-in-the-new-workfront-experience-MCPBYNLTQSS5H4NG7C27IPCVR5YA)学习路径的[管理验证和版本中。
+此功能现已包含在Workfront One上的新Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)学习路径的[管理验证和版本中。
 
 ## 验证审批报告的新字段
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 这些字段不是默认报表的一部分。 如果您想查看这些幻灯片，则需要添加这些幻灯片。
 
-此功能现已包含在Workfront One上的[验证系统设置第2部分：工作流管理](https://one.workfront.com/s/learningpath3/proof-system-setups-part-2-workflow-management-MCKUF6NTIJ6BGMXHBCXXX6NN53EA)学习路径中。
+此功能现已包含在Workfront One上的[验证系统设置第2部分：工作流管理](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)学习路径中。
 
 ## 生成新版本时结转现有验证工作流
 

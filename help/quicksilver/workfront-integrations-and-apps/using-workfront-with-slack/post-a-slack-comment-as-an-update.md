@@ -1,12 +1,12 @@
 ---
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
-title: 将Slack评论发布为更新
+title: 发布Slack评论作为更新
 description: 您可以在Adobe Workfront中将Slack注释作为特定项目、任务或问题的更新进行添加。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 18b22f2c-2490-41e2-afb9-0551f9579973
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront]计划]</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront]计划]</a>*</td> 
    <td> <p>[！UICONTROL Pro]或更高版本</p> </td> 
   </tr> 
  </tbody> 
@@ -64,4 +64,4 @@ ht-degree: 0%
 
    当评论源自[!DNL Slack]时，评论在[!DNL Workfront]中显示消息“[!UICONTROL 发帖自[!DNL Slack]]”。
 
-   从Slack](assets/slack-update-posted-from-slack-350x112.png)发布了![更新
+   从Slack发布了![更新](assets/slack-update-posted-from-slack-350x112.png)

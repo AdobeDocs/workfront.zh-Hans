@@ -6,7 +6,7 @@ description: 没有正确的访问权限或权限，您可能无法在工作负�
 author: Lisa
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 0%
@@ -50,7 +50,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-有关Workfront计划的信息，请参阅[我们的计划](https://www.workfront.com/plans)。
+有关Workfront计划的信息，请参阅[我们的计划](https://business.adobe.com/products/workfront/pricing.html)。
 
 有关可以在Workfront中定位工作负载均衡器的信息，请参阅[定位工作负载均衡器](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)。
 
@@ -104,7 +104,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p> 要管理其工作分配的项目的Contribute或更高权限，包括进行工作分配的权限。 </p> <p>有关项目权限的信息，请参阅文章<a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">在Adobe Workfront中共享项目</a>。</p></td>
+   <td> <p> 要管理其工作分配的项目的Contribute或更高权限，包括创建工作分配的权限。 </p> <p>有关项目权限的信息，请参阅文章<a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">在Adobe Workfront中共享项目</a>。</p></td>
   </tr> 
  </tbody> 
 </table>

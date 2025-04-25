@@ -6,7 +6,7 @@ description: 主页可帮助您管理工作。 您可以自定义此灵活空间
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 1347911f2d0c03874c759f02b207e3fa93ca5bb4
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1015'
 ht-degree: 4%
@@ -105,7 +105,7 @@ Adobe Workfront中的新“主页”体验旨在改进当前的“主页”体�
         <td><b>默认构件</b></td>
     </tr>
     <tr>
-        <td>计划</td>
+        <td>规划</td>
         <td>我的项目、提及内容、待办事项</td>
     </tr>
     <tr>

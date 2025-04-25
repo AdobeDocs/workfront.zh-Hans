@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1b621b35-6c8b-4f6a-bcba-ed6cbfe83a8c
-source-git-commit: 77c07c7c7104d37360cc7630a89dd72836da477c
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 使用Adobe Workfront事件订阅消息的服务端点必须满足以下基本要求，以确保正确发送和接收消息：
 
-* 服务终结点必须接受HTTPPOST请求。 HTTPPOST是在所有事件订阅消息（包括验证消息）投放中使用的请求方法。
+* 服务终结点必须接受HTTP POST请求。 HTTP POST是在所有事件订阅消息（包括验证消息）投放中使用的请求方法。
 
 * 为了让事件订阅投放系统确认消息已成功接收，端点必须返回所有传入消息的200级HTTP状态（例如，200 OK或202）。
 

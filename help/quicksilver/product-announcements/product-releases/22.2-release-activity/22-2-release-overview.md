@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e490a955-b2cb-4b9b-9794-12ff2a2c2338
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3974'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.2发行版概述
 
-本页介绍了22.2版本中包含的功能。 新增的Adobe Workfront Experience中提供了列出的所有功能。 Adobe Workfront Classic中还提供了某些功能；但是，[Workfront Classic将于2022年3月停产](https://one.workfront.com/s/new-workfront-experience)，此后不久将于2022年7月结束Workfront Classic的生命周期。
+本页介绍了22.2版本中包含的功能。 新增的Adobe Workfront Experience中提供了列出的所有功能。 Adobe Workfront Classic中还提供了某些功能；但是，[Workfront Classic将于2022年3月停产](https://experienceleague.adobe.com/en/docs/workfront/using/home)，此后不久将于2022年7月结束Workfront Classic的生命周期。
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -123,7 +123,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>在以下环境中可用：</strong> </p> 
     <ul> 
      <li> <p>新的Adobe Workfront体验 </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic将于2022年3月停产</a>，之后不久将于2022年7月终止Workfront Classic的生命周期。)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic将于2022年3月停产</a>，之后不久将于2022年7月终止Workfront Classic的生命周期。)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -291,7 +291,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>在以下环境中可用：</strong> </p> 
     <ul> 
      <li> <p>新的Adobe Workfront体验 </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic将于2022年3月停产</a>，之后不久将于2022年7月终止Workfront Classic的生命周期。)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic将于2022年3月停产</a>，之后不久将于2022年7月终止Workfront Classic的生命周期。)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -303,7 +303,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>在以下环境中可用：</strong> </p> 
     <ul> 
      <li> <p>新的Adobe Workfront体验 </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic将于2022年3月停产</a>，之后不久将于2022年7月终止Workfront Classic的生命周期。)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic将于2022年3月停产</a>，之后不久将于2022年7月终止Workfront Classic的生命周期。)</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -357,7 +357,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>在以下环境中可用：</strong> </p> 
     <ul> 
      <li> <p>新的Adobe Workfront体验 </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic将于2022年3月停产</a>，之后不久将于2022年7月终止Workfront Classic的生命周期。)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic将于2022年3月停产</a>，之后不久将于2022年7月终止Workfront Classic的生命周期。)</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -440,7 +440,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><strong>发布日期和环境</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md#adobe" class="MCXref xref" xrefformat="{para}">与Anaplan集成的Adobe Workfront现已可用</a> </p> <p>为了让您更灵活地了解Workfront项目的财务方面，Workfront现在可以与您的Anaplan帐户集成。 通过将Workfront对象链接到Anaplan对象，您可以自动更新这两个帐户之间的信息，确保这两个帐户中的信息都是最新且相同的。 </p> <p>您还可以根据Workfront中的操作在Anaplan中触发自动流程（反之亦然）。</p> <p>例如，您可以在Anaplan中创建营销策划，然后创建链接到该营销策划的Workfront项目或项目。 在Workfront中跟踪的任何成本都可以上传回Anaplan以审查营销活动效果。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md#adobe" class="MCXref xref" xrefformat="{para}">与Anaplan集成的Adobe Workfront现已可用</a> </p> <p>为了让您在Workfront项目的财务方面拥有更大的灵活性和insight，Workfront现在可与您的Anaplan帐户集成。 通过将Workfront对象链接到Anaplan对象，您可以自动更新这两个帐户之间的信息，确保这两个帐户中的信息都是最新且相同的。 </p> <p>您还可以根据Workfront中的操作在Anaplan中触发自动流程（反之亦然）。</p> <p>例如，您可以在Anaplan中创建营销策划，然后创建链接到该营销策划的Workfront项目或项目。 在Workfront中跟踪的任何成本都可以上传回Anaplan以审查营销活动效果。</p> </td> 
    <td><strong>在以下日期可用：</strong> 
     <ul> 
      <li> <p>预览版本： 2022年3月10日<br></p> </li> 
@@ -451,9 +451,9 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md#workfron" class="MCXref xref" xrefformat="{para}">用于Experience Manager增强型连接器更新的Workfront</a> </p> <p>Workfront for Experience Manager增强型连接器现在包含以下更新：</p> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md#workfron" class="MCXref xref" xrefformat="{para}">Workfront for Experience Manager增强型连接器更新</a> </p> <p>Workfront for Experience Manager增强型连接器现在包含以下更新：</p> 
     <ul> 
-     <li> <p>现在，即使存在多个项目链接文件夹配置，您也可以在Adobe Workfront和Adobe Experience Manager Assetsas a Cloud Service之间创建链接文件夹。</p> </li> 
+     <li> <p>现在，即使存在多个项目链接文件夹配置，您仍可以在Adobe Workfront和Adobe Experience Manager Assets as a Cloud Service之间创建链接文件夹。</p> </li> 
      <li> <p>添加了对事件订阅分页的支持</p> </li> 
      <li> <p>添加了对AEM 6.4.x的支持</p> </li> 
      <li> <p>添加了对代理环境的支持</p> </li> 
@@ -552,7 +552,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-other-enhancements.md#enhancem" class="MCXref xref" xrefformat="{para}">对顶部导航栏的增强</a> </p> <p>我们对Adobe Workfront顶部导航栏进行了几项增强。</p> 
     <ul> 
      <li> <p>“收藏夹”和“最近访问”在顶部导航栏中有单独的图标。 每个页面仍显示相同的内容（已标记为收藏的页面和最近访问的页面），您可以继续以相同方式添加和删除收藏的页面。</p> </li> 
-     <li> <p>针脚和主菜单的外观和感觉已更新为Adobe设计标准，包括色彩和字体。 在主菜单中添加和删除大头针以及您有权访问的区域的方式没有改变。</p> </li> 
+     <li> <p>大头针和主菜单的外观和感觉已更新为Adobe设计标准，包括颜色和字体。 在主菜单中添加和删除大头针以及您有权访问的区域的方式没有改变。</p> </li> 
      <li> <p>顶部导航栏右侧的图标进行了重新排序，以便更加直观。 图标顺序为：帮助链接、通知、收藏夹、最近访问、搜索、主菜单。</p> </li> 
     </ul> </td> 
    <td><strong>在以下日期可用：</strong> 
@@ -620,7 +620,7 @@ Workfront Fusion中的新增功能在22.2发布计划之外的生产环境中以
 
 ## Workfront 维护更新
 
-有关22.2版本期间所做的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
+有关22.2版本期间所做的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)。
 
 ## 22.2版本网络研讨会
 
@@ -653,7 +653,7 @@ was presented on January 12, 2022. You can view the webinar recording on the
 
 ## 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[培训版本更新页面](https://one.workfront.com/s/training-release-updates)。
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[培训版本更新页面](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)。
 
 ## 不再支持的功能
 

@@ -6,7 +6,7 @@ description: 虽然用户可以上传到您的Workfront实例的单个文件的�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Workfront计划</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Workfront计划</a>*</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -53,4 +53,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此限制不适用于您从任何其他第三方服务提供商(SharePoint、Google Drive、Webdam、Box、Dropbox、任何其他文档资产管理提供商)链接到Workfront的文档。
+>此限制不适用于您从任何其他第三方服务提供商(SharePoint、Google Drive、Webdam、Box、Dropbox和任何其他文档资产管理提供商)链接到Workfront的文档。

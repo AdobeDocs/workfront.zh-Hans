@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2770'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 发布网络研讨会
 
-为了代替发布网络研讨会，我们邀请您注册Adobe Summit以观看以下Workfront讲座：
+为了代替发布网络研讨会，我们邀请您注册Adobe Summit以观看以下Workfront会议：
 
 [有影响力的体验：从2023年3月21日的内容创建到Personalization](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982243928001D5Z9)，了解创建、管理和个性化内容的新方式，并以更高的效率提供有影响力的体验。 此会话将为虚拟受众进行实时流式传输。
 
@@ -516,8 +516,8 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">刚开始使用Workfront的Creative Cloud插件</a>
-                        <p>我们已将以下更改添加到Workfront中的Creative Cloud插件：
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">刚开始使用Workfront for Creative Cloud插件</a>
+                        <p>我们已将以下更改添加到Workfront for Creative Cloud插件：
                         <ul>
                         <li>现在，当任务具有前置任务时，插件会通知您</li>
                         <li>韩语现在是受支持的语言</li>
@@ -553,8 +553,8 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">新客户已登记到Adobe统一体验</a></p>
-                        <p>AdobeUnified Experience包括：
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">登记到Adobe Unified Experience的新客户</a></p>
+                        <p>Adobe Unified Experience包括：
                         <ul>
                         <li>通过Adobe Experience Cloud对所有Adobe应用程序进行单点登录</li>
                         <li>用于在Workfront组织和环境之间切换的“组织切换器”</li>
@@ -592,7 +592,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">将画板导出为XD的Adobe Workfront中的单个PDF或多个PDF文件</span></a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">将画板导出为XD的单个PDFPDF或多个Adobe Workfront文件</span></a>
                         <p>在Adobe Workfront for XD插件中，您现在可以选择将画板导出为单个PDF文件或多个PDF文件。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -653,11 +653,11 @@ API版本16将随22.3版一起发布。 对于API版本16，我们修改了一�
 
 ### Workfront 维护更新
 
-有关23.2版本期间所做的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
+有关23.2版本期间所做的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)。
 
 ### 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[WorkfrontTutorials页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的“新增功能”部分。
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)的“新增功能”部分。
 
 ### 即将从Workfront中删除的功能
 

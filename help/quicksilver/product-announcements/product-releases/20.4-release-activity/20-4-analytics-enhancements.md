@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39e09278-afce-4e9b-857c-f18453081f9d
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
@@ -29,4 +29,4 @@ ht-degree: 0%
 
 以前，增强型分析区域将您可以查看的项目数量限制为50个。
 
-此功能现已包含在Workfront One的[Enhanced Analytics，第1部分学习路径](https://one.workfront.com/s/learningpath2/enhanced-analytics-part-1-overview-20Y0z000000bmgOEAQ)中。
+此功能现已包含在Workfront One的[Enhanced Analytics，第1部分学习路径](https://experienceleague.adobe.com/en/docs/workfront/using/home)中。

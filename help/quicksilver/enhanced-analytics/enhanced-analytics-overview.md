@@ -3,11 +3,11 @@ title: 增强的分析概述
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-description: 增强型分析是Adobe Workfront中一款具有预建可视化图表的强大工具，允许您查看项目数据并识别计划和完成趋势。 对您项目的这种深入了解有助于您管理当前的工作，使您能够更准确地规划未来的工作。
+description: 增强型分析是Adobe Workfront中一款具有预建可视化图表的强大工具，允许您查看项目数据并识别计划和完成趋势。 将此insight纳入您的项目有助于您管理当前工作，使您能够更准确地规划未来工作。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 3%
@@ -21,7 +21,7 @@ ht-degree: 3%
 >增强型分析将于5月26日这一周从Workfront中删除。 Workfront Data Connect是一种新的替代解决方案，可用于复制您当前使用的任何Enhanced Analytics可视化图表。 <br>有关详细信息，请参阅[Enhanced Analytics弃用](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)指南。
 
 
-增强型分析是Adobe Workfront中一款具有预建可视化图表的强大工具，允许您查看项目数据并识别计划和完成趋势。 对您项目的这种深入了解有助于您管理当前的工作，使您能够更准确地规划未来的工作。
+增强型分析是Adobe Workfront中一款具有预建可视化图表的强大工具，允许您查看项目数据并识别计划和完成趋势。 将此insight纳入您的项目有助于您管理当前工作，使您能够更准确地规划未来工作。
 
 增强的分析功能可以帮助您识别：
 
@@ -34,7 +34,7 @@ ht-degree: 3%
 
 ![分析](assets/nwe-full-screen-analytics-350x222.png)
 
-要查看用例或了解有关管理当前工作和规划增强分析未来工作的更多信息，请参阅[增强分析学习路径](https://one.workfront.com/s/enhanced-analytics-program)。
+要查看用例或了解有关管理当前工作和规划增强分析未来工作的更多信息，请参阅[增强分析学习路径](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)。
 
 ## 先决条件
 
@@ -42,11 +42,11 @@ ht-degree: 3%
 
 * 拥有业务或企业计划。
 
-  有关详细信息，请参阅[Workfront计划](https://www.workfront.com/plans)。
+  有关详细信息，请参阅[Workfront计划](https://business.adobe.com/products/workfront/pricing.html)。
 
 * 让您的Workfront管理员将增强型分析添加到您的布局模板。
 
-  有关详细信息，请参阅[增强型分析：将分析添加到布局模板](https://one.workfront.com/s/managed-content-videos/enhanced-analytics-adding-analytics-to-layout-templates-MCH7URDSIXRREHHHF7TRTYYP2LTE)。
+  有关详细信息，请参阅[增强型分析：将分析添加到布局模板](https://experienceleague.adobe.com/en/docs/workfront/using/home)。
 
 要查看有关项目和任务的信息，您必须：
 
@@ -139,7 +139,7 @@ ht-degree: 3%
 
 ## 增强的分析视图和功能
 
-要详细了解Enhanced Analytics中特定功能的详细信息、可完成哪些操作以获得进一步的见解，以及可从该数据中学到什么，请参阅以下文章：
+要详细了解Enhanced Analytics中特定功能的详细信息、可完成以进一步获取insight的操作，以及可从这些数据中学到什么，请参阅以下文章：
 
 <table style="table-layout:auto"> 
  <col> 

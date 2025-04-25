@@ -2,11 +2,11 @@
 product-area: workfront-integrations
 navigation-topic: workfront-for-slack
 title: 从 [!DNL Slack]访问您的收藏夹和最近项目
-description: 安装并配置 [!DNL Adobe Workfront] 用于Slack后，您可以查看Workfront收藏夹和最近项目，并从Slack中访问任一列表中的项目。
+description: 为Slack安装并配置 [!DNL Adobe Workfront] 后，您可以查看Workfront收藏夹和最近项目，并从Slack的任意列表中访问项目。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4bf62192-66fe-42a7-b8c0-23b7bdef45e8
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront]计划]</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront]计划]</a>*</td> 
    <td> <p>[！UICONTROL Pro]或更高版本</p> </td> 
   </tr> 
  </tbody> 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ## 从[!DNL Slack]访问您最近的项目列表
 
-1. 登录到您的[!DNL Slack]实例，然后从Slack登录到[!DNL Workfront]。\
+1. 从Slack登录到[!DNL Slack]实例并登录到[!DNL Workfront]。\
    有关从[!DNL Slack]登录到[!DNL Workfront]的详细信息，请参阅[访问 [!DNL Adobe Workfront] 从 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)中的“从[!DNL Slack]登录到[!DNL Workfront]”部分。
 
 1. 从任何渠道开始在[!UICONTROL 消息]字段中键入以下命令： `/workfront recent`

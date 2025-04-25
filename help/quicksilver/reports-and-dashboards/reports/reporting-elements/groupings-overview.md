@@ -7,7 +7,7 @@ description: 您可以添加分组来管理报告和列表中的信息布局。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: d050372e-c4a0-4c49-b220-5b35334ab8d0
-source-git-commit: 69dec186cdb8a6d29853703edb41073282cdd447
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 0%

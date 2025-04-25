@@ -9,7 +9,7 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 9%
@@ -48,7 +48,7 @@ ht-degree: 9%
     <th class="tg-0lax"><span style="font-weight:bold">面积</span></th>
     <th class="tg-0lax"><span style="font-weight:bold">左侧面板项目</span></th>
     <th class="tg-0lax"><span style="font-weight:bold">系统管理员</span></th>
-    <th class="tg-0lax"><span style="font-weight:bold">规划器</span></th>
+    <th class="tg-0lax"><span style="font-weight:bold">规划者</span></th>
     <th class="tg-0lax"><span style="font-weight:bold">员工</span></th>
     <th class="tg-1wig">审阅者</th>
     <th class="tg-1wig">请求人</th>

@@ -7,7 +7,7 @@ description: 外部测试计划可视化显示有多少项目（在应用的筛�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c64ed752-151a-40f7-ab18-684e2cd032bc
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '927'
 ht-degree: 4%
@@ -34,7 +34,7 @@ ht-degree: 4%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront计划</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Adobe Workfront计划</a>*</td> 
    <td> <p>业务或更高</p> </td> 
   </tr> 
   <tr> 
@@ -149,6 +149,6 @@ ht-degree: 4%
 
 1. 要查看更多项目信息，请单击可视化图表上的项目以打开Flight中的燃尽和任务可视化图表。
 
-   这些可视化图表可以帮助您更深入地了解导致项目偏离正轨的原因。 它们还可以让您轻松签入正在进行的项目。\
+   这些可视化图表可以帮助您更深入地了解insight是什么导致项目偏离轨道。 它们还可以让您轻松签入正在进行的项目。\
    有关燃尽可视化图表的详细信息，请参阅[在增强型分析中查看燃尽可视化图表](../enhanced-analytics/burndown-overview.md)。 有关外部测试版中任务的更多信息，请参阅[在增强型分析中查看外部测试版中的任务](../enhanced-analytics/tasks-in-flight-overview.md)。
 

@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1729'
 ht-degree: 0%
@@ -131,7 +131,7 @@ ht-degree: 0%
 
 请求以下权限：
 
-| 访问权限 | 原因 |
+| 访问 | 原因 |
 |---|---|
 | 拥有对文件的完全访问权限 | 允许[!DNL Workfront]访问用户的文件以链接资产。 当文档从[!DNL Workfront]发送到[!DNL SharePoint]时，[!DNL Workfront]需要访问权限才能创建资产。 |
 | 读取所有网站集中的项目 | 允许[!DNL Workfront]读取资产以启用用户导航。 |
@@ -497,7 +497,7 @@ This can be caused by a number of things, originating in either [!DNL Workfront]
       
 -->
 
-### 问题：我无法访问[!DNL SharePoint]中以前链接的文件夹和文档。{#problem-i-cannot-access-previously-linked-folders-and-documents-in-sharepoint}
+### 问题：我无法访问[!DNL SharePoint]中以前链接的文件夹和文档。 {#problem-i-cannot-access-previously-linked-folders-and-documents-in-sharepoint}
 
 解决方案：
 

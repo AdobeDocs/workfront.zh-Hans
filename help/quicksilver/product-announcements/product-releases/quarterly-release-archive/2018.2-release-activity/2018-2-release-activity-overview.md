@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91e79c87-9c70-4050-9a3f-236eff0be41d
-source-git-commit: b9dd01ee0e8732bf7e2fec68a7682fc17271e19e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 0%
@@ -54,7 +54,7 @@ ht-degree: 0%
 * [支持Google团队驱动器](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#support-for-google-team-drives) 
 * [甘特图的新导出限制](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#new-export-limit-for-the-gantt-chart) 
 * [在项目列表中的甘特图上查看跨项目前置任务关系](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#view-cross-project-predecessor-relationshipts-in-the-gantt)
-* [使用Portfolio优化程序中的预算成本计算Portfolio财务](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#use-budgeted-cost-in-the-portfolio-optimizer)
+* [在Portfolio Optimizer中使用预算成本计算Portfolio财务状况](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#use-budgeted-cost-in-the-portfolio-optimizer)
 * [在甘特图中修改任务日期](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md#modify-task-dates-in-the-gantt-chart)
 * [从“更新”选项卡访问项目甘特图](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md#access-the-project-gantt-chart-from-the-updates-tab)
 * [新项目列表体验](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md#new-project-list-expeirence)
@@ -97,9 +97,9 @@ ht-degree: 0%
 
 ### 集成增强功能
 
-* 针对Salesforce的[Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#workfront-for-salesforce)即将推出！
+* Salesforce的[Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#workfront-for-salesforce)即将推出！
 
-* [WorkfrontSlack改进](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#workfront-for-slack-improvements)新！ (在Beta决赛中)
+* [Workfront的Slack改进功能](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#workfront-for-slack-improvements)新增功能！ (在Beta决赛中)
 
 ### API增强功能
 
@@ -146,7 +146,7 @@ ht-degree: 0%
 ## 公告 {#announcements}
 
 * [TLS支持即将结束](#tls-support-is-ending)
-* [Flash应用程序移除](#flash-application-removal)
+* 正在删除[Flash应用程序](#flash-application-removal)
 * [Microsoft Outlook加载项支持即将结束](#microsoft-outlook-add-in-support-is-ending)
 * [删除旧API版本](#removing-old-api-versions)
 
@@ -158,7 +158,7 @@ ht-degree: 0%
 
 ### Flash应用程序删除 {#flash-application-removal}
 
-所有依赖于Flash技术的功能都将在2018.3版本中从Workfront删除，并替换为新的解决方案。
+所有依赖于Flash技术的功能都将在2018.3版本中从Workfront中删除，并替换为新的解决方案。
 
 此功能包括：
 
@@ -166,9 +166,9 @@ ht-degree: 0%
 
   有关详细信息，请参阅[在甘特图中查看信息](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)。
 
-* Portfolio优化程序将被新的Portfolio优化程序替换
+* Portfolio Optimizer将被新的Portfolio Optimizer替换
 
-  有关详细信息，请参阅[Portfolio优化程序概述](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)。
+  有关详细信息，请参阅[Portfolio优化器概述](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)。
 
 * 能力规划者将替换为新的资源规划者
 
@@ -215,7 +215,7 @@ ht-degree: 0%
 
 使用以下资源了解有关Workfront for Outlook的更多信息并开始使用：
 
-* [网站和视频](https://www.workfront.com/integrations/outlook) 
+* [网站和视频](https://business.adobe.com/products/workfront/integrations.html) 
 * [将Workfront与Outlook结合使用](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)（帮助文章）
 
 ### 删除旧API版本 {#removing-old-api-versions}

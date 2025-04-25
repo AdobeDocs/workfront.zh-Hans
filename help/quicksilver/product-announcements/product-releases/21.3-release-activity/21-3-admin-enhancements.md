@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 18f8f5ac-48a3-45fe-9bf0-12b4b402f85f
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Blueprint提供了基本构建块，帮助您创建随增长而增长的工作�
 
 有关详细信息，请参阅[Blueprint概述](../../../administration-and-setup/blueprints/blueprints-overview.md)。
 
-此功能现已包含在Workfront One上的新Workfront Experience](https://one.workfront.com/s/learningpath4/project-templates-in-the-new-workfront-experience-MCGLS7GRNLDZDFPF6AEOGIDZFDG4)学习路径的[项目模板中。
+此功能现已包含在Workfront One上的新Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)学习路径的[项目模板中。
 
 ## 组管理员的新增功能：创建和管理任何级别组的状态
 

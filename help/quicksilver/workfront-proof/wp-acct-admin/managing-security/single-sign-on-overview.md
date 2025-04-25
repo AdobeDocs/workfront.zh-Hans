@@ -8,7 +8,7 @@ description: 单点登录(SSO)允许您的用户使用您组织的现有用户�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb1f6883-6209-4a55-b181-67af4b496ca0
-source-git-commit: 405523606094d4f8553b0aee544d71c2b7f97d86
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >本文提及独立产品[!DNL Workfront Proof]中的功能。 有关[!DNL Adobe Workfront]内部校对的信息，请参阅[校对](../../../review-and-approve-work/proofing/proofing.md)。
 
-需要[!UICONTROL Enterprise] [!DNL Workfront]计划才能使用此功能。 有关各种可用计划的详细信息，请参阅[Workfront计划](https://www.workfront.com/plans)。
+需要[!UICONTROL Enterprise] [!DNL Workfront]计划才能使用此功能。 有关各种可用计划的详细信息，请参阅[Workfront计划](https://business.adobe.com/products/workfront/pricing.html)。
 
 单点登录(SSO)允许您的用户使用您组织的现有用户名和密码登录[!DNL Workfront Proof]。
 

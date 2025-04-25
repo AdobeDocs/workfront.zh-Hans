@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bfc7ce9e-b715-47b7-bab7-2e3540d0da3e
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3221'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.3发行版概述
 
-本页介绍了22.3版本中包含的功能。 新增的Adobe Workfront Experience中提供了列出的所有功能。 Adobe Workfront Classic中还提供了某些功能；但是，[Workfront Classic将于2022年3月停产](https://one.workfront.com/s/new-workfront-experience)，此后不久将于2022年7月结束Workfront Classic的生命周期。
+本页介绍了22.3版本中包含的功能。 新增的Adobe Workfront Experience中提供了列出的所有功能。 Adobe Workfront Classic中还提供了某些功能；但是，[Workfront Classic将于2022年3月停产](https://experienceleague.adobe.com/en/docs/workfront/using/home)，此后不久将于2022年7月结束Workfront Classic的生命周期。
 
 这些增强功能已在2022年7月11日这一周的生产环境中提供。
 
@@ -85,7 +85,7 @@ ht-degree: 0%
   </tr>
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">将PDF文件添加到自定义表单
-</a></p></p> <p>我们将继续帮助您通过可添加的新资产小组件（如图像和视频）使自定义表单更可视化、信息化。 现在，您可以将指向PDF文件的链接添加到自定义表单。 将表单附加到对象后，使用该对象的用户可以从表单中查看该PDF并与之交互。</p>
+</a></p></p> <p>我们将继续帮助您通过可添加的新资产小组件（如图像和视频）使自定义表单更可视化、信息化。 现在，您可以将指向PDF文件的链接添加到自定义表单。 将表单附加到对象后，使用该对象的用户可以从表单中查看和与PDF交互。</p>
    </td> 
     <td> <p><b>在以下日期可用：</b> </p> 
     <ul> 
@@ -240,7 +240,7 @@ ht-degree: 0%
     </ul> <p><strong>在以下环境中可用：</strong> </p> 
     <ul> 
      <li> <p>新的Adobe Workfront体验 </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic于2022年3月停产</a>，随后于2022年7月终止Workfront Classic的生命周期。)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic于2022年3月停产</a>，随后于2022年7月终止Workfront Classic的生命周期。)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -278,7 +278,7 @@ ht-degree: 0%
     </ul> <p><strong>在以下环境中可用：</strong> </p> 
     <ul> 
      <li> <p>新的Adobe Workfront体验 </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic于2022年3月停产</a>，随后于2022年7月终止Workfront Classic的生命周期。)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic于2022年3月停产</a>，随后于2022年7月终止Workfront Classic的生命周期。)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -290,7 +290,7 @@ ht-degree: 0%
     </ul> <p><strong>在以下环境中可用：</strong> </p> 
     <ul> 
      <li> <p>新的Adobe Workfront体验 </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic将于2022年3月停产</a>，之后不久将于2022年7月终止Workfront Classic的生命周期。)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic将于2022年3月停产</a>，之后不久将于2022年7月终止Workfront Classic的生命周期。)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr>
@@ -376,7 +376,7 @@ ht-degree: 0%
    <td> <p><strong>发布日期和环境</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>用于Experience Manager Assets的<a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront集成</a> </p> <p>我们很高兴地宣布，Adobe Workfront Experience Manager Assets集成现已可供Cloud Service。</p>
+   <td> <p>用于Experience Manager Assets的<a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront集成</a> </p> <p>我们很高兴地宣布，Adobe Workfront Experience Manager Assets集成现已可用于Cloud Service。</p>
    <p>我们还为Cloud Service和Assets Essentials引入了新功能。</p> </td> 
    <td> <p><b>在以下日期可用：</b> </p> 
     <ul> 
@@ -388,7 +388,7 @@ ht-degree: 0%
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">将多个文件合并到Creative Cloud插件的单个验证中</a> </p> <p>您现在可以上传包含您在Adobe Workfront中为Creative Cloud插件创建的内容的外部文件，以在Workfront中创建多文件校样。 外部文件在Workfront中显示为其他验证页面。 借助此增强功能，我们还更新了验证创建体验的外观。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">在Creative Cloud插件中将多个文件合并到一个验证中</a> </p> <p>您现在可以上传包含您在Adobe Workfront for Creative Cloud插件中创建的内容的外部文件，以在Workfront中创建多文件校样。 外部文件在Workfront中显示为其他验证页面。 借助此增强功能，我们还更新了验证创建体验的外观。</p> </td> 
    <td> <p><b>在以下日期可用：</b> </p> 
     <ul> 
      <li> <p>预览版本：不适用<br></p> </li> 
@@ -534,7 +534,7 @@ Workfront Fusion中的新增功能在22.3版本发行计划之外的生产环境
 
 ## Workfront 维护更新
 
-有关22.3版本期间所做的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
+有关22.3版本期间所做的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)。
 
 ## 22.3版本网络研讨会
 
@@ -565,7 +565,7 @@ was presented on January 12, 2022. You can view the webinar recording on the
 
 ## 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[培训版本更新页面](https://one.workfront.com/s/training-release-updates)。
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[培训版本更新页面](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)。
 
 ## 不再支持的功能
 

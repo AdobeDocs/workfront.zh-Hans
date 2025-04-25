@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f21f33b3-5e49-4bb0-9eda-7cf4c016361c
-source-git-commit: 12bab42ab13935fa284aa334120afcfb602bf412
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 0%
@@ -138,5 +138,5 @@ ht-degree: 0%
 
 放弃已保存的草稿时，您现在可以在通知您将删除草稿的确认消息上单击取消。 这样，您就不会丢失草稿，以防您改变放弃草稿的想法。
 
-此功能仅在新的Workfront Experience中可用。 有关信息，请参阅[创建和提交Workfront请求](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FManage_work%2FRequests%2FCreate_Requests%2Fcreate-submit-requests.html)。
+此功能仅在新的Workfront Experience中可用。 有关信息，请参阅[创建和提交Workfront请求](https://experienceleague.adobe.com/en/docs/workfront/using/home)。
 

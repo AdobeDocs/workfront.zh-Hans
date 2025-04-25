@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aa6cfba2-d1df-4d7c-975b-2ae0e63b6d85
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 0%
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 有关我们为什么要进行此更改的详细信息，请参阅[新的Adobe Workfront托管系统使用21.1](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md)替换请求队列的POP电子邮件。
 
-此功能现已包含在Workfront One上的新Workfront Experience](https://one.workfront.com/s/learningpath4/queue-management-MCYCJRWK36QZBP7PGMNDMSPRN3LE)学习路径的[队列管理中。
+此功能现已包含在Workfront One上的新Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)学习路径的[队列管理中。
 
 ## 限制工时表上的小时编辑
 

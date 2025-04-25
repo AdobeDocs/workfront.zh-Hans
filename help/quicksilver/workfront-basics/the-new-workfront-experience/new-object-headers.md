@@ -6,7 +6,7 @@ description: 查看对象标题时，可以一目了然地查看 [!DNL Adobe Wor
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3697'
 ht-degree: 0%
@@ -254,8 +254,8 @@ The following headers are available in Home:
  </thead> 
  <tbody> 
   <tr> 
-   <td role="rowheader">包含Portfolio名称的痕迹导航</td> 
-   <td> <p>您可以从[！UICONTROL Program]的标头访问[！UICONTROLPortfolio]。 单击父对象的名称将打开该父对象。</p> <p>有关详细信息，请参阅<a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">痕迹导航概述</a>。</p> </td> 
+   <td role="rowheader">Portfolio名称的痕迹导航</td> 
+   <td> <p>您可以从[！UICONTROL Program]的标头访问[！UICONTROL Portfolio]。 单击父对象的名称将打开该父对象。</p> <p>有关详细信息，请参阅<a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">痕迹导航概述</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象图标 </td> 
@@ -314,7 +314,7 @@ The following headers are available in Home:
  <tbody> 
   <tr> 
    <td role="rowheader">对象图标 </td> 
-   <td> <p>项目组合名称的左侧将显示蓝色的[！UICONTROLPortfolio]图标<img src="assets/nwe-portfolios-icon.png">。</p> </td> 
+   <td> <p>项目组合名称的左侧将显示蓝色的[！UICONTROL Portfolio]图标<img src="assets/nwe-portfolios-icon.png">。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">项目组合的名称</td> 
@@ -322,19 +322,19 @@ The following headers are available in Home:
   </tr> 
   <tr> 
    <td role="rowheader">对象类型的名称</td> 
-   <td> <p>如果项目组合标记为活动，则标题中的项目组合名称上方将显示文本“[！UICONTROLPORTFOLIO]”。</p> </td> 
+   <td> <p>如果项目组合标记为活动，则标题中的项目组合名称上方会显示文本“[！UICONTROL PORTFOLIO]”。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">激活状态</td> 
-   <td> <p>如果项目组合已停用，则标题中的项目组合名称上方会显示文本“[！UICONTROLPORTFOLIO已停用]”。</p> </td> 
+   <td> <p>如果项目组合已停用，则标题中的项目组合名称上方会显示文本“[！UICONTROL PORTFOLIO DEACTIVATED]”。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">项目组合的操作区域</td> 
    <td> <p>在项目组合名称的旁边，将显示[！UICONTROL actions]区域。</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROLPortfolio管理器]</td> 
-   <td>您可以在标题中编辑[！UICONTROLPortfolio管理器]。 这与[！UICONTROLPortfolio所有者]相同。</td> 
+   <td role="rowheader">[！UICONTROL Portfolio Manager]</td> 
+   <td>您可以在标题中编辑[！UICONTROL Portfolio Manager] 。 这与[！UICONTROL Portfolio Owner]相同。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL On Time]</td> 
@@ -850,8 +850,8 @@ The following headers are available in Home:
    <td>有权查看或管理计划的用户显示在标题的右上角。 将鼠标悬停在个人资料图片上会显示他们的姓名。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL转到Publish]</td> 
-   <td>单击[！UICONTROL转到Publish]后，您可以在查看的方案中创建或更新链接到方案的项目。</td> 
+   <td role="rowheader">[！UICONTROL转至发布]</td> 
+   <td>单击[！UICONTROL转到发布]后，您可以在查看的方案中创建或更新链接到方案的项目。</td> 
   </tr> 
  </tbody> 
 </table>

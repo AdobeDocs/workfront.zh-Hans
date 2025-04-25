@@ -7,7 +7,7 @@ description: 如果您拥有Select或Premium计划，则可以提供单点登录
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 52ac1919-1821-424f-89f8-72865b236e4e
-source-git-commit: 74a877145b55ccc14b4d5aefd1889919a39e1f20
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1225'
 ht-degree: 0%
@@ -94,7 +94,7 @@ ht-degree: 0%
 在此，您将有两种配置方法(5)：
 
 1. **继承：** SSO，配置取自您的中心帐户。
-如果用户通过**默认登录页面** ([https://www.proofhq.com/login](https://www.proofhq.com/login))访问[!DNL Workfront Proof]，则将有&#x200B;**两个级别的授权**：首先要求用户使用[!DNL Workfront Proof]访问数据（电子邮件和密码）登录；然后通过SSO窗口将该用户传输到SSO登录页面。
+如果用户通过**默认登录页面** ([https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html))访问[!DNL Workfront Proof]，则将有&#x200B;**两个级别的授权**：首先要求用户使用[!DNL Workfront Proof]访问数据（电子邮件和密码）登录；然后通过SSO窗口将该用户传输到SSO登录页面。
 因此，启用SSO服务后，我们建议通过您自己的[!DNL Workfront Proof]子域/域登录。
 
    >[!NOTE]
@@ -143,7 +143,7 @@ ht-degree: 0%
 启用单点登录后，您的子域登录URL(例如yourcompany.proofhq.com/login)将显示一个传输屏幕(2)，该屏幕会直接将您带到SSO登录页面。
    ![SSO_login_page.png](assets/sso-login-page-350x164.png)
 
-1. 如果用户通过页面&#x200B;**([https://www.proofhq.com/login](https://www.proofhq.com/login))中的**&#x200B;默认日志访问[!DNL Workfront Proof]，将有&#x200B;**两个级别的授权**。 首先要求用户使用[!DNL Workfront Proof]访问数据（电子邮件和密码）登录。 然后，通过SSO窗口(2)将用户传送到SSO登录页。\
+1. 如果用户通过页面&#x200B;**([https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html))中的**&#x200B;默认日志访问[!DNL Workfront Proof]，将有&#x200B;**两个级别的授权**。 首先要求用户使用[!DNL Workfront Proof]访问数据（电子邮件和密码）登录。 然后，通过SSO窗口(2)将用户传送到SSO登录页。\
    因此，启用SSO服务后，我们建议通过您自己的[!DNL Workfront Proof]子域/域登录。
 
 1. 目前，当您的Workfront Proof帐户上启用了单点登录时，您将无法使用这些凭据登录到iPhone应用程序。

@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 46faf723ea7a8e9dfa02c0f2bed1f5f450976fc8
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2775'
 ht-degree: 0%
@@ -155,7 +155,7 @@ ht-degree: 0%
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             现在可对本机预输入字段进行筛选</a></p>
             [！BADGE In Production ]{type=Informational}
-            <p>当您将本地字段引用添加到自定义表单并且它引用预输入字段(例如Portfolio、公司或所有者)时，筛选器选项现在可用。 该过滤器允许您限制用户在使用该字段时可以选择的对象。 此自定义筛选器的工作方式与自定义预输入字段上的筛选器的工作方式相同，使用文本模式定义筛选器。</p>
+            <p>当您将本地字段引用添加到自定义表单并且它引用预输入字段时(例如Portfolio、公司或所有者)，筛选器选项现在可用。 该过滤器允许您限制用户在使用该字段时可以选择的对象。 此自定义筛选器的工作方式与自定义预输入字段上的筛选器的工作方式相同，使用文本模式定义筛选器。</p>
         </td>
         <td>
             <p><b>在以下日期可用：</b></p>
@@ -638,9 +638,9 @@ ht-degree: 0%
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             更新如何管理链接文件夹中移动或删除的资源</a></p>
             [！BADGE In Production ]{type=Informational}
-            <p>在将Adobe Workfront与Experience Manager Assets和Assets Essentials集成使用时，我们更改了处理移动和删除资源的方式：</p>
+            <p>当使用与Experience Manager Assets和Assets Essentials的Adobe Workfront集成时，我们更改了移动和删除资源的处理方式：</p>
             <ul>
-                <li>已删除的资源：当在Assets或Assets Essentials中的链接文件夹内删除某个资源时，已删除的资源将保留在项目文档区域中。</li>
+                <li>已删除资源：当在Assets或Assets Essentials中的链接文件夹内删除资源时，已删除的资源将保留在项目文档区域中。</li>
                 <li>移动资源：当资源移到Assets或Assets Essentials中的链接文件夹之外时，移动的资源将保留在项目文档区域中。</li>
             </ul>
         </td>
@@ -747,8 +747,8 @@ Workfront Planning中的新增功能已在生产环境中可用。 有关最新�
 
 ### Workfront 维护更新
 
-有关2025年第一季度版本中所做维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
+有关2025年第一季度版本中所做维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)。
 
 ### 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[WorkfrontTutorials页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的“新增功能”部分。
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)的“新增功能”部分。

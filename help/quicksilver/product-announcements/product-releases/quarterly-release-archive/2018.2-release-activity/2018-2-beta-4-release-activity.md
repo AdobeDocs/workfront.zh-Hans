@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4b54b9e6-d1bf-4802-9d6c-9c3d3b6a6583
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1705'
 ht-degree: 0%
@@ -145,7 +145,7 @@ ht-degree: 0%
 
 有关将资源规划者数据导出到Excel的更多信息，请参阅[资源规划者导航概述](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md)中的“导出选项”部分。
 
-要参与我们当前针对资源规划者的测试版计划，请参阅[资源规划者绩效Beta。](http://community.workfront.com/discussions/community-home/digestviewer/viewthread?GroupId=457&amp;MessageKey=8b018ed9-97a2-4f9d-a93b-01a7b09b6350&amp;CommunityKey=0425cafc-f0ec-47fc-be20-a21dc073d520&amp;tab=digestviewer&amp;ReturnUrl=%2fdiscussions%2fcommunity-home%2fdigestviewer%3fCommunityKey%3d0425cafc-f0ec-47fc-be20-a21dc073d520)
+要参与我们当前针对资源规划者的测试版计划，请参阅[资源规划者绩效Beta。](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)
 
 ## 系统设置：外部页面中的会话信息 {#system-setting-session-information-in-external-pages}
 

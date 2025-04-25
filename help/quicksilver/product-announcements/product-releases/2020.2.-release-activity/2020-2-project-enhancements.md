@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 150bc838-d6a5-445a-af77-62c4ed74dd1b
-source-git-commit: 99aac8d1621370f901704f58affd9e3e18497c4e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 为确保新项目始终具有状态，即使管理员隐藏或解锁为新项目配置的状态，系统现在也会将状态列表中的第一个状态分配给所有新项目，直到您再次为新项目配置新状态为止。
 
-有关设置所有新项目状态的首选项的信息，请参阅[配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)(或者，如果您使用的是Adobe Workfront Classic，请参阅[设置项目首选项](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298))。
+有关设置所有新项目状态的首选项的信息，请参阅[配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)(或者，如果您使用的是Adobe Workfront Classic，请参阅[设置项目首选项](https://experienceleague.adobe.com/en/docs/workfront/using/home))。
 
 **在以下环境中可用：**
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 * 如果为选项（如“每个工作日的典型小时数”）键入无效数字，则在单击“保存”后，将立即显示警告消息，而不是显示警告消息。
 * 选项标签与Workfront中其他位置的相应界面文本匹配，例如详细信息区域和报表。
 
-有关“项目首选项”区域的信息，请参阅[配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)(或者如果您使用的是Adobe Workfront Classic，请参阅[设置项目首选项](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298))。
+有关“项目首选项”区域的信息，请参阅[配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)(或者如果您使用的是Adobe Workfront Classic，请参阅[设置项目首选项](https://experienceleague.adobe.com/en/docs/workfront/using/home))。
 
 **在以下环境中可用：**
 
@@ -68,11 +68,11 @@ ht-degree: 0%
 
 在此更改之前，任务限制始终会尽快更改为。
 
-有关移动任务的信息，请参阅[移动任务](../../../manage-work/tasks/manage-tasks/move-tasks.md)(或者如果您使用的是Adobe Workfront Classic，请参阅[移动任务](https://one.workfront.com/s/article/Moving-Tasks-2081996259))。
+有关移动任务的信息，请参阅[移动任务](../../../manage-work/tasks/manage-tasks/move-tasks.md)(或者如果您使用的是Adobe Workfront Classic，请参阅[移动任务](https://experienceleague.adobe.com/en/docs/workfront/using/home))。
 
-有关复制任务的信息，请参阅[复制和复制任务](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)(或者，如果您使用的是Adobe Workfront Classic，请参阅[复制和复制任务](https://one.workfront.com/s/article/Copy-and-Duplicate-Tasks-218695605))。
+有关复制任务的信息，请参阅[复制和复制任务](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)(或者，如果您使用的是Adobe Workfront Classic，请参阅[复制和复制任务](https://experienceleague.adobe.com/en/docs/workfront/using/home))。
 
-有关所有任务限制的概述，请参阅[任务限制概述](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (或者，如果您使用的是Adobe Workfront Classic，请参阅[任务限制概述](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848))。
+有关所有任务限制的概述，请参阅[任务限制概述](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (或者，如果您使用的是Adobe Workfront Classic，请参阅[任务限制概述](https://experienceleague.adobe.com/en/docs/workfront/using/home))。
 
 **在以下环境中可用：**
 

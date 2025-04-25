@@ -1,19 +1,19 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: 配置[!UICONTROL Experience Manager Assetsas a Cloud Service]集成
+title: 配置[!UICONTROL Experience Manager Assets as a Cloud Service]集成
 description: 您可以在 [!DNL Experience Manager Assets]中将您的工作与您的内容连接起来。
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 25d250e7be17773117761aa739b8e4804c6fc55a
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1708'
 ht-degree: 0%
 
 ---
 
-# 配置[!UICONTROL Experience Manager Assetsas a Cloud Service]集成
+# 配置[!UICONTROL Experience Manager Assets as a Cloud Service]集成
 
 <!-- Audited: 1/2024 -->
 
@@ -121,7 +121,7 @@ ht-degree: 0%
 
 要配置元数据字段，请执行以下操作：
 
-1. 在[!DNL Experience Manager Assets]中配置元数据架构，如[配置Adobe [!DNL Workfront] 和 [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en)之间的资源元数据映射中所述。
+1. 在[!DNL Experience Manager Assets]中配置元数据架构，如[配置Adobe [!DNL Workfront] 和 [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)之间的资源元数据映射中所述。
 
 
 1. 在Workfront中配置自定义表单字段。 [!DNL Workfront]有许多您可以使用的内置自定义字段。 但是，您也可以创建自己的自定义字段，如[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)中所述。
@@ -151,7 +151,7 @@ ht-degree: 0%
 
 在Experience Manager Assets中创建标记后，这些标记将显示在元数据部分的标记下拉列表下。 要将字段链接到标记，请在元数据映射区域的Experience Manager Assets字段下拉列表中选择`xcm:keywords`。
 
-有关Experience Manager Assets中的标记（包括如何创建和管理标记）的更多信息，请参阅[管理标记](https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html)。
+有关Experience Manager Assets中的标记（包括如何创建和管理标记）的更多信息，请参阅[管理标记](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags)。
 
 **Experience Manager Assets自定义元数据架构字段**
 
@@ -251,7 +251,7 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 Adobe Experience Manager集成中提供了以下工作流：
 
 * [创建Adobe Experience Manager链接文件夹](#create-adobe-experience-manager-linked-folders)
-* [发送到Adobe Experience Manager Assets的Publish资源](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
+* [发布发送到Adobe Experience Manager Assets的资源](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
 
 ### 创建Adobe Experience Manager链接文件夹
 
@@ -282,7 +282,7 @@ Adobe Experience Manager集成中提供了以下工作流：
    1. （可选）要删除文件夹，请选择该文件夹，然后单击&#x200B;**删除文件夹**&#x200B;图标![删除文件夹](assets/delete-folder.png)。
 1. （视情况而定）要添加另一个文件夹树，请单击&#x200B;**+添加文件夹树**，然后执行步骤5中的步骤。
 
-1. 单击&#x200B;**[!UICONTROL 保存]**，或转到本文中发送到Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)的[Publish资源部分。
+1. 单击&#x200B;**[!UICONTROL 保存]**，或转到本文中发送到Adobe Experience Manager Assets的[发布资源](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)部分。
 
 >[!NOTE]
 >
@@ -291,9 +291,9 @@ Adobe Experience Manager集成中提供了以下工作流：
 >* 如果未提供文件夹树，则根文件夹将变为链接的文件夹。
 
 
-### 发送到Adobe Experience Manager Assets的Publish资源
+### 发布发送到Adobe Experience Manager Assets的资源
 
-1. 自动打开&#x200B;**[!UICONTROL Publish资源]**。
+1. 打开&#x200B;**[!UICONTROL 自动发布资源]**。
 1. 选中要发布发送到Adobe Experience Manager资源的资源的位置旁边的框。 您可以启用任一选项或同时启用两个选项。
 1. （视情况而定）如果已启用Brand Portal选项，请选择要发布资源的Brand Portal 。
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;或转到本文中的[设置链接文件夹（可选）](#set-up-linked-folders-optional)部分。

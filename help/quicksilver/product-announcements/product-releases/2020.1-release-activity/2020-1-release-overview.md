@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4162cfb7-d5e1-4152-857a-fc4a6eb09cd7
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2566'
 ht-degree: 0%
@@ -286,9 +286,9 @@ ht-degree: 0%
    <td> <p>Beta预览版本： 2020年3月10日</p> <p>生产版本：对于2020.1版本<span style="color: #ff0000;">（从版本中删除）</span></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#the" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">FlashPortfolio优化器已被删除</a><!--
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#the" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">已删除Flash Portfolio Optimizer</a><!--
       <a href="https://experience.workfront.com/s/article/2020-1-Other-enhancements-1407923545?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">The Flash Portfolio Optimizer has been removed</a>
-     --> </p> <p>我们已移除所有客户在Workfront ClassicPortfolio中新旧版本（基于Flash的）Optimizer之间进行切换的功能。 旧版Portfolio优化器是一个已弃用的功能，现在新的工具可提供相同的功能。</p> </td> 
+     --> </p> <p>我们已从面向所有客户的Workfront Classic环境中删除了在新旧版（基于Flash的）Portfolio Optimizer之间进行切换的功能。 旧版Portfolio Optimizer是一个已弃用的功能，现在新的工具可提供相同的功能。</p> </td> 
    <td> <p>Beta预览版本： 2020年2月27日</p> <p>生产版本：适用于2020.1版本</p> </td> 
   </tr> 
   <tr> 
@@ -343,7 +343,7 @@ API版本11随2020.1版发布。 有关新增功能和更新的信息，请参�
 * [第1季度产品路线图网络研讨会](#q1-product-roadmap-webinar)
 * [要删除的各种单点登录选项](#various-single-sign-on-options-to-be-removed)
 * [TLS 1.0和1.1支持即将结束](#tls-1-0-and-1-1-support-is-ending)
-* [Flash应用程序移除](#flash-application-removal)
+* [Flash应用程序删除](#flash-application-removal)
 
 ### 将其他域添加到访问Workfront所需的允许列表 {#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront}
 
@@ -358,7 +358,7 @@ API版本11随2020.1版发布。 有关新增功能和更新的信息，请参�
 
 借助Workfront One，您可以从Workfront中发现最重要的内容、资源和新闻 — 全部放在一个地方，只需登录一次。 我们统一了Experience、Community和Training站点，让您能够更轻松地找到您所寻找的内容。
 
-[进一步了解Workfront One](https://www.workfront.com/campaigns/workfront-one)。
+[进一步了解Workfront One](https://business.adobe.com/products/workfront.html)。
 
 ### 2020.1版网络研讨会 {#2020-1-release-webinar}
 
@@ -435,11 +435,11 @@ and watch the recording on demand
 
 有关详细信息，请参阅Adobe Workfront](../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md)中需要的[TLS 1.2。
 
-### Flash应用程序移除 {#flash-application-removal}
+### Flash应用程序删除 {#flash-application-removal}
 
-自2018.3版发布以来，Workfront中删除了所有依赖于Flash技术的功能，并用新解决方案替换了这些功能。
+自2018.3版发布以来，Workfront中删除了所有依赖于Flash技术的功能，并替换为新的解决方案。
 
-有关旧版Flash工具及其替代的详细信息，请参阅[在Adobe Workfront中替换基于Flash的工具](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)。
+有关旧版Flash工具及其替代的详细信息，请参阅[在Adobe Workfront中替代基于Flash的工具](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)。
 
 <!--
 <a href="https://experience.workfront.com/s/article/Replacement-of-Flash-Based-Tools-in-Workfront-194935493" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">

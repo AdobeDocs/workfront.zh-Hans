@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1357'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 组织需要与其客户经理合作才能购买AppBuilder。 具体操作过程尚不清楚，因为我们不需要为POC执行此操作。
 
 如果要测试AppBuilder集成，您可以在此处请求您的IMS组织的免费试用：
-[https://developer.adobe.com/app-builder/trial/#](https://developer.adobe.com/app-builder/trial/#)
+[https://developer.adobe.com/app-builder/docs/overview/getting_access/#](https://developer.adobe.com/app-builder/docs/overview/getting_access/#)
 
 我的印象是，尽管这是30天的免费试用，但在此时间之后，他们实际上不会停用此试用。
 

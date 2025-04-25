@@ -8,7 +8,7 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Adobe Workfront有两种发布新功能和更新的模型。 贵组织可以选�
 
 ### 维护更新
 
-每周，“生产”环境中都会提供针对Adobe Workfront产品的问题修复。 请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)页面以查看最近修复的内容。
+每周，“生产”环境中都会提供针对Adobe Workfront产品的问题修复。 请参阅[Workfront维护更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)页面以查看最近修复的内容。
 
 ## 从计划版本中删除的功能
 

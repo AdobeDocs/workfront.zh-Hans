@@ -4,7 +4,7 @@ title: 访问Adobe Workfront帮助
 description: Workfront提供了多种多样的内容，以帮助您找到与Workfront提供的各种产品中的功能相关问题的答案。
 feature: Get Started with Workfront
 exl-id: 41b81083-771e-46de-85a3-31ed52d29917
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
@@ -38,13 +38,13 @@ ht-degree: 0%
 
 &#42;要了解您拥有什么计划或许可证类型，请与[!DNL Workfront]管理员联系。
 
-## 访问Experience League上的[!DNL Adobe Workfront]文档
+## 在Experience League上访问[!DNL Adobe Workfront]文档
 
-1. 转到 [!DNL Experience League]](https://experienceleague.adobe.com/docs/workfront/using/home.html?lang=en)上的[[!DNL Adobe Workfront] 文档页面。
+1. 转到 [!DNL Experience League]](https://experienceleague.adobe.com/en/docs/workfront/using/home)上的[[!DNL Adobe Workfront] 文档页面。
 
 除了搜索帮助文档之外，您还可以从Experience League访问以下[!DNL Workfront]资源：
 
-* WorkfrontTutorials：有关详细信息，请参阅[[!DNL Workfront] Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=en)。
+* Workfront教程：有关详细信息，请参阅[[!DNL Workfront] 教程](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)。
 
 * [!UICONTROL 创新实验室]：有关详细信息，请参阅[创新实验室](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas)。
 * [!UICONTROL [!DNL Workfront]社区]：有关详细信息，请参阅[The [！UICONTROL [!DNL Adobe Workfront] 社区]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)

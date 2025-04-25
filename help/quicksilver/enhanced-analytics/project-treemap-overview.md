@@ -7,7 +7,7 @@ description: 项目树状图可视化图表是在特定时间范围内工作的�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6216465e-c3bb-4f2f-b71c-766ad0c2ed40
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 2%
@@ -38,7 +38,7 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront计划</a></td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Adobe Workfront计划</a></td> 
    <td> <p>业务或更高</p> </td> 
   </tr> 
   <tr> 
@@ -156,7 +156,7 @@ ht-degree: 2%
    * **图表(PNG)**
    * **数据表(XSLX)**
 
-1. 单击某个项目可打开“燃尽”和“外部测试版中的任务”可视化图表，以更深入地了解任务和小时（或天数）对项目大小有何影响。
+1. 单击某个项目可打开“燃尽”和“飞行中的任务”可视化图表，从而更深入地了解任务和小时（或天数）对项目大小有何影响insight。
 
 有关燃尽可视化图表的详细信息，请参阅[在增强型分析中查看燃尽可视化图表](../enhanced-analytics/burndown-overview.md)。 有关外部测试版中任务的更多信息，请参阅[在增强型分析中查看外部测试版中的任务](../enhanced-analytics/tasks-in-flight-overview.md)。
 

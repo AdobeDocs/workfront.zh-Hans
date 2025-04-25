@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2799'
 ht-degree: 0%
@@ -421,7 +421,7 @@ ht-degree: 0%
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">从Workfront查看和管理WorkfrontCreative Cloud插件通知</a></p> 
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">从Workfront查看并管理Workfront插件的Creative Cloud通知</a></p> 
                         <p>为了让您更轻松地接收所需的通知，我们让您能够在不离开Adobe Creative Cloud的情况下查看和管理Workfront通知。 现在，您可以直接从Creative Cloud应用程序的Workfront插件窗口中查看通知，以及访问与这些通知相关的工作项和注释。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -486,7 +486,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">将Workfront字段映射到自定义Experience Manager Assets元数据字段</a></p>
-                        <p>通过本机集成，您现在可以将本机字段和内置的Workfront字段映射到Experience Manager Assetsas a Cloud Service中的自定义元数据架构字段。</p>
+                        <p>通过本机集成，您现在可以将本机字段和内置的Workfront字段映射到Experience Manager Assets as a Cloud Service中的自定义元数据架构字段。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -501,7 +501,7 @@ ht-degree: 0%
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">使用Adobe Workfront为Creative Cloud调整自动验证工作流模板设置</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">使用适用于Creative Cloud的Adobe Workfront调整自动验证工作流模板设置</a></p>
                         <p>您现在可以直接在Creative Cloud中调整现有的自动工作流模板设置。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -768,11 +768,11 @@ Workfront Goals将在23.3版本发布时间范围内发布的新功能。 有关
 
 ### Workfront 维护更新
 
-有关22.3版本期间所做的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
+有关22.3版本期间所做的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)。
 
 ### 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[WorkfrontTutorials页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的“新增功能”部分。
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)的“新增功能”部分。
 
 ### 即将从Workfront中删除的功能
 

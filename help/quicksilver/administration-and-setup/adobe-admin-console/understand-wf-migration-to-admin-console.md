@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 54d855e6-c387-458c-9cd3-f32318c8ae02
-source-git-commit: 633c41eeb570402254125f92f3624cad7befd609
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Adobe正在改变您管理Adobe Workfront用户的方式，从而提高您和贵
 
 * **产品配置文件管理员(Workfront系统管理员)**&#x200B;管理组织中哪些用户有权访问Workfront。
 
-* **用户将使用Adobe身份登录。**&#x200B;在Adobe将现有用户迁移到Adobe Admin Console后，用户将使用其新的Adobe身份(Adobe ID或AdobeFederated ID(SSO))登录到其Workfront实例。
+* **用户将使用Adobe标识登录。**&#x200B;在Adobe将现有用户迁移到Adobe Admin Console后，用户将使用其新的Adobe身份(Adobe ID或Adobe Federated ID (SSO))登录到其Workfront实例。
 
 * **在Workfront应用程序本身中管理所有其他功能的方式没有变化**，包括功能、用户角色、工作区、功能和行为的管理。
 
@@ -45,14 +45,14 @@ Adobe将首先将Workfront实例迁移到Adobe Admin Console，然后使用已�
 Workfront迁移到Adobe Admin Console后，系统管理员将收到一封电子邮件。 此时，系统管理员可能需要在用户迁移开始&#x200B;**前完成一些必需的步骤**，以最大程度地减少对Workfront用户的影响。
 
 * **如果您的Workfront用户当前使用SSO登录**，您必须在Adobe Admin Console上设置SSO，以便您的用户可以继续使用SSO登录。 如果您的Workfront用户当前未使用SSO，但希望在Adobe Admin Console上对其进行设置，则可以在迁移历程的此阶段进行设置。
-* **如果您已在Adobe Admin Console中管理其他Adobe产品**，则Adobe可能会征求您的同意，以自动将用户迁移到现有控制台。 单击电子邮件中的&#x200B;**开始**&#x200B;按钮以导航到同意页面。
+* **如果您已在Adobe Admin Console中管理其他Adobe产品**，Adobe可能会征求您的同意，以自动将用户迁移到现有控制台。 单击电子邮件中的&#x200B;**开始**&#x200B;按钮以导航到同意页面。
 * **如果您之前删除了请求者许可证类型**，则它将被添加到您的系统中。 不会将任何用户分配给此许可证类型，但在Workfront和Adobe Admin Console之间同步时需要此许可证。 您无需对请求者许可证类型执行任何操作。
 
 用户管理目前没有变化。 Workfront管理员将继续管理Workfront中的用户，并且在用户迁移完成之前，用户将继续使用其Workfront ID或SSO登录。
 
 ### 计划用户迁移
 
-系统管理员完成上一部分中概述的先决条件后，Adobe将自动计划用户迁移30天（在这些先决条件完成后），并将与Workfront产品配置文件管理员(Workfront系统管理员)沟通以管理用户迁移。
+系统管理员完成上一部分中概述的先决条件后，Adobe将自动计划用户迁移30天，并且还将与Workfront产品配置文件管理员(Workfront系统管理员)沟通以管理用户迁移。
 
 Workfront产品配置文件管理员(Workfront系统管理员)将：
 
@@ -69,9 +69,9 @@ Workfront产品配置文件管理员(Workfront系统管理员)将：
 
 作为Workfront产品配置文件管理员(Workfront系统管理员)，负责确保所有用户为迁移日期做好准备。
 
-* 通过通知所有用户以下信息，让他们为即将迁移到Adobe身份做好准备：
+* 通过通知所有用户以下信息，让他们为即将迁移到Adobe Identity做好准备：
 
-   * 在用户迁移时，他们将收到Adobe的电子邮件，通知他们对Workfront登录方式所做的更改。 将邀请用户接受首次使用Adobe身份进行登录的邀请，方法是使用现有Adobe ID登录，或使用同一电子邮件地址设置一个新帐户。
+   * 在用户迁移时，他们将收到Adobe的电子邮件，通知他们对Workfront登录方式所做的更改。 将邀请用户接受首次使用Adobe身份登录的邀请，方法是使用现有Adobe ID登录，或使用同一电子邮件地址设置一个新帐户。
 
 ### 迁移日期待完成的任务
 
@@ -85,13 +85,13 @@ Workfront产品配置文件管理员(Workfront系统管理员)将：
 
 
 
-* **在迁移用户时，Adobe将向其发送一封电子邮件，通知他们登录Workfront的方式发生了更改。**&#x200B;用户将被邀请接受首次使用Adobe身份进行登录的邀请，方法是使用现有Adobe ID登录，或使用同一电子邮件地址设置新的Adobe ID。
+* **在迁移用户时，用户将收到Adobe的电子邮件，通知他们登录Workfront的方式发生了更改。**&#x200B;用户将被邀请接受首次使用Adobe身份进行登录的邀请，方法是使用现有Adobe ID登录，或使用同一电子邮件地址设置新的Adobe ID。
 
   有关如何使用Adobe ID登录Workfront的信息，请参阅[登录Adobe Experience Cloud](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md#log-in-to-adobe-experience-cloud)。
 
 ### 用户迁移完成
 
-在迁移所有管理员和用户后，Adobe将通过电子邮件通知所有系统管理员和产品配置文件管理员(Workfront系统管理员)。 此时，该实例的所有Workfront用户都将使用Adobe身份登录到Workfront。 Workfront系统管理员和产品配置文件管理员(Workfront系统管理员)可以在Adobe Admin Console中管理用户访问权限。 如果客户没有在Administrator Console中使用某种形式的目录同步，则他们可能会继续在Workfront应用程序中管理对Workfront的访问。
+迁移所有管理员和用户后，Adobe将通过电子邮件通知所有系统管理员和产品配置文件管理员(Workfront系统管理员)。 此时，该实例的所有Workfront用户都将使用Adobe身份登录到Workfront。 Workfront系统管理员和产品配置文件管理员(Workfront系统管理员)可以在Adobe Admin Console中管理用户访问权限。 如果客户没有在Administrator Console中使用某种形式的目录同步，则他们可能会继续在Workfront应用程序中管理对Workfront的访问。
 
 ## 获取支持
 

@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 0%
@@ -281,7 +281,7 @@ ht-degree: 0%
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Experience Manager Assets Essentials中的映射元数据现在使用<code>xcm:keywords</code>，而不是<code>dc:subject</code></a></p><p>[！BADGE In Production ]{type=Informational}</p><p>我们更新了Experience Manager Assets Essentials集成，以匹配Experience Manager Assetsas a Cloud Service集成中的体验。 现在，当在Experience Manager Assets中将多个单行文本字段映射到单个字段时，两个服务都使用<code>xcm:keywords</code>字段。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Experience Manager Assets Essentials中的映射元数据现在使用<code>xcm:keywords</code>，而不是<code>dc:subject</code></a></p><p>[！BADGE In Production ]{type=Informational}</p><p>我们更新了Experience Manager Assets Essentials集成，以匹配Experience Manager Assets as a Cloud Service集成中的体验。 现在，当在Experience Manager Assets中将多个单行文本字段映射到单个字段时，两个服务都使用<code>xcm:keywords</code>字段。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -482,8 +482,8 @@ Workfront Fusion中的新增功能在2023年第一季度发布计划之外以一
 
 ### Workfront 维护更新
 
-有关2024年第一季度发布的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
+有关2024年第一季度发布的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)。
 
 ### 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[WorkfrontTutorials页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的“新增功能”部分。
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)的“新增功能”部分。

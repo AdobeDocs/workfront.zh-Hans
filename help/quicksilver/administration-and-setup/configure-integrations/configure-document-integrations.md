@@ -8,7 +8,7 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 5ff071a6e0af93f5280225355edad1d0dde42b3f
+source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
 workflow-type: tm+mt
 source-wordcount: '1125'
 ht-degree: 1%
@@ -74,7 +74,7 @@ ht-degree: 1%
 
 * [!DNL Workfront Proof]
 
-  从[!DNL Workfront Proof]链接校对允许您在[!DNL Workfront]内提供原本在[!DNL Workfront Proof]内创建的校对。 对于当前计划，需要[!UICONTROL Pro] [!DNL Workfront]计划或更高版本才能使用此功能。 对于新计划，此功能可用于所有计划。 有关各种可用计划的详细信息，请参阅[Workfront计划](https://www.workfront.com/plans)。
+  从[!DNL Workfront Proof]链接校对允许您在[!DNL Workfront]内提供原本在[!DNL Workfront Proof]内创建的校对。 对于当前计划，需要[!UICONTROL Pro] [!DNL Workfront]计划或更高版本才能使用此功能。 对于新计划，此功能可用于所有计划。 有关各种可用计划的详细信息，请参阅[Workfront计划](https://business.adobe.com/products/workfront/pricing.html)。
 
 * [!DNL Microsoft SharePoint]
 
@@ -97,7 +97,7 @@ ht-degree: 1%
 
 * 其他文档提供程序（通过自定义文档集成）。
 
-  对于当前计划，需要[!UICONTROL Pro] [!DNL Workfront]计划或更高版本才能使用此功能。 对于新计划，此功能可用于所有计划。 有关各种可用计划的详细信息，请参阅[Workfront计划](https://www.workfront.com/plans)。
+  对于当前计划，需要[!UICONTROL Pro] [!DNL Workfront]计划或更高版本才能使用此功能。 对于新计划，此功能可用于所有计划。 有关各种可用计划的详细信息，请参阅[Workfront计划](https://business.adobe.com/products/workfront/pricing.html)。
 
 此外，您还可以通过第三方DAM集成来增强[!DNL Workfront]文档体验。 管理员必须启用这些功能，用户才能将服务链接到其[!DNL Workfront]帐户。
 

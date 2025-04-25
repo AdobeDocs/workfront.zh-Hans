@@ -1,12 +1,12 @@
 ---
 product-area: workfront-navigation
 navigation-topic: workfront-navigation
-title: Adobe统一Experience常见问题解答
+title: Adobe Unified Experience常见问题
 description: ' [!DNL Workfront] 和Adobe Experience Cloud的一些功能不同，在将 [!DNL Workfront] 实例迁移到统一体验时，您可能会遇到一些问题。'
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: 68a5bfe5d85ac530ac14faf2a6a5cccf602e6c8c
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1385'
 ht-degree: 0%
@@ -40,14 +40,14 @@ ht-degree: 0%
 
 ## 常见问题解答
 
-### 如何确定我使用的是AdobeUnified Experience还是Adobe Workfront？
+### 如何确定我使用的是Adobe Unified Experience还是Adobe Workfront？
 
-要确定您的组织是否位于Unified ExperienceAdobe上，请检查用于访问Workfront的URL。
+要确定您的组织是否位于Adobe Unified Experience上，请检查用于访问Workfront的URL。
 
 | URL | Adobe体验 |
 |------------|------------|
 | （公司名称）.my.workfront.com | Workfront体验 |
-| experience.adobe.com | AdobeUnified Experience |
+| experience.adobe.com | Adobe Unified Experience |
 
 ### 如何了解有关[!DNL Adobe Admin Console]的更多信息？
 
@@ -61,9 +61,9 @@ ht-degree: 0%
 
 将与现有客户联系以安排迁移。 迁移团队支持同事将引导客户完成该过程，提出[!DNL Admin Console]设置的建议，并提供所需的文档链接以使迁移尽可能简单和轻松。
 
-* [[!DNL Adobe Workfront] 支持概述](https://experienceleague.adobe.com/docs/customer-one/using/workfront/overview.html)
-* [[!DNL Workfront Admin Console] 信息](https://experienceleague.adobe.com/docs/customer-one/using/workfront/landing.html)
-* [[!DNL Adobe Business Platform] 和 [!DNL Admin Console] 常见问题解答](https://experienceleague.adobe.com/docs/customer-one/using/workfront/faq.html)
+* [[!DNL Adobe Workfront] 支持概述](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/overview)
+* [[!DNL Workfront Admin Console] 信息](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/landing)
+* [[!DNL Adobe Business Platform] 和 [!DNL Admin Console] 常见问题解答](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/faq)
 
 ### 对于已为Federated ID启用此选项与设置[!DNL Workfront] SSO不同的公司，您如何处理[!DNL Adobe Admin Console]？
 

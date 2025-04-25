@@ -7,7 +7,7 @@ description: 项目活动可视化图表显示在特定时间范围内发生的�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9ef52be8-48d0-4f83-a214-dd32e794c73e
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 8%
@@ -39,7 +39,7 @@ ht-degree: 8%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Workfront计划</a></td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Workfront计划</a></td> 
    <td> <p>业务或更高</p> </td> 
   </tr> 
   <tr> 

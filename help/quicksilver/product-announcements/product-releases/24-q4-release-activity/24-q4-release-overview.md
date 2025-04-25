@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2194'
 ht-degree: 0%
@@ -98,7 +98,7 @@ ht-degree: 0%
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">布局模板中现在提供了“全选”选项</a></p>
                     [！BADGE In Production ]{type=Informational}
-                    <p>为了帮助您更轻松地使用布局模板显示和隐藏字段，在布局模板的“详细信息”视图的“概述”和“财务”区域添加了“全选”复选框。 当您在“自定义用户查看内容”下选择了“项目”、“任务”、“问题”、“Portfolio”或“程序”时，此选项可用。</p>
+                    <p>为了帮助您更轻松地使用布局模板显示和隐藏字段，在布局模板的“详细信息”视图的“概述”和“财务”区域添加了“全选”复选框。 当您在“自定义用户查看内容”下选择了项目、任务、问题、Portfolio或项目群时，此选项可用。</p>
                 </td>
                 <td><p><b>在以下日期可用：</b></p>
                     <ul>
@@ -511,7 +511,7 @@ ht-degree: 0%
             </tr>
             <tr>
                 <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront中可用的AdobeAI助手</a></p>
+                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe AI助手在Workfront中可用</a></p>
                     [！BADGE In Production ]{type=Informational}
                     <p>为了更便于您完成工作，我们已在Workfront中添加Adobe的AI助手。 AI Assistant可帮助您：</p>
                     <ul>
@@ -591,8 +591,8 @@ Workfront Planning中的新增功能已在生产环境中可用。 有关最新�
 
 ### Workfront 维护更新
 
-有关2024年第四季度版本中所做维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
+有关2024年第四季度版本中所做维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)。
 
 ### 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[WorkfrontTutorials页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的“新增功能”部分。
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)的“新增功能”部分。

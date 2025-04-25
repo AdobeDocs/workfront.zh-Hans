@@ -6,7 +6,7 @@ description: 默认情况下，用户只能查看他们有权查看的报表中�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 0%
@@ -51,7 +51,7 @@ ht-degree: 0%
          </ul>
       <p>当前：</p>
          <ul>
-         <li><p>计划</p></li>
+         <li><p>规划</p></li>
          </ul>
    </td>
   </tr> 

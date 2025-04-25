@@ -6,7 +6,7 @@ description: 将您的工作与Experience Manager Assets Essentials中的内容�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 1%
@@ -86,7 +86,7 @@ ht-degree: 1%
    <tr>
       <td><strong>导航URL</strong>
       </td>
-      <td>系统会自动填充导航URL。 此URL用于从主菜单链接到贵组织的Assets Essentials实例，以便快速访问。
+      <td>系统会自动填充导航URL。 此URL用于从主菜单链接到组织的Assets Essentials实例以进行快速访问。
       </td>
    </tr>
    <tr>
@@ -94,7 +94,7 @@ ht-degree: 1%
       <strong>Experience Manager Assets存储库</strong>
       </td>
       <td>
-      系统会自动填充与您的Experience ManagerID关联的组织存储库。
+      系统会自动填充与您的组织ID关联的Experience Manager存储库。
       </td>
    </tr>
    </table>
@@ -111,7 +111,7 @@ ht-degree: 1%
 
 在开始之前，您必须
 
-* 在Experience Manager Assets Essentials中配置元数据架构，如[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en)中所述。
+* 在Experience Manager Assets Essentials中配置元数据架构，如[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)中所述。
 * （可选）在Workfront中配置自定义表单字段。 Workfront提供了许多内置自定义字段。 但是，您也可以创建自己的自定义字段。 有关详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ## 支持的Workfront和Experience Manager Assets字段

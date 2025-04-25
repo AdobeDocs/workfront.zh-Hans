@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3affee76-347e-4610-b255-4b1bb4414c5d
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3659'
 ht-degree: 0%
@@ -337,7 +337,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-有关新增功能和更新的信息，请参阅[API版本12](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FWF_API%2FAPI%2Fnew-api-version-12.htm)中的新增功能。
+有关新增功能和更新的信息，请参阅[API版本12](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12)中的新增功能。
 
 有关API版本的更多信息，请参阅[API版本控制和支持计划](../../../wf-api/api/api-version-support-schedule.md)
 
@@ -386,7 +386,7 @@ This section will be updated with more information prior to the 20.4 release bei
 
 ### Flash弃用 {#flash-deprecation}
 
-所有基于Flash的工具已于2020年11月19日从所有产品中删除。
+2020年11月19日，从所有产品中删除了所有基于闪存的工具。
 
 有关每个特定基于Flash的工具的替换解决方案的更多信息，请参阅以下文章： [在Adobe Workfront中替换基于Flash的工具](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)。
 
@@ -398,10 +398,10 @@ Workfront 21.1版本网络研讨会将于2月3日上午11:00（东部夏令时�
 
 从2020年5月20日开始，Workfront每周开始在预览环境中提供一次功能。 在此更改之前，通常每两周向预览环境发布一次功能。
 
-有关详细信息，请参阅[在Workfront中更改预览版本节奏常见问题解答](https://one.workfront.com/s/article/Change-in-Workfront-Preview-release-cadence)
+有关详细信息，请参阅[在Workfront中更改预览版本节奏常见问题解答](https://experienceleague.adobe.com/en/docs/workfront/using/home)
 
 ### Workfront One {#workfront-one}
 
 借助Workfront One，您可以从Workfront中发现最重要的内容、资源和新闻 — 全部放在一个地方，只需登录一次。 我们统一了Experience、Community和Training站点，让您能够更轻松地找到您所寻找的内容。
 
-[进一步了解Workfront One](https://www.workfront.com/campaigns/workfront-one)。
+[进一步了解Workfront One](https://business.adobe.com/products/workfront.html)。

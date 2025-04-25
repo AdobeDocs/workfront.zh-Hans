@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 5e841349-7d76-4ab9-9625-a0c53111bf35
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
@@ -29,7 +29,7 @@ in January 2022
 
 ## Adobe Workfront与Anaplan集成现已可用
 
-为了让您更灵活地了解Workfront项目的财务方面，Workfront现在可以与您的Anaplan帐户集成。 通过将Workfront对象链接到Anaplan对象，您可以自动更新这两个帐户之间的信息，确保这两个帐户中的信息都是最新且相同的。 您还可以根据Workfront中的操作在Anaplan中触发自动流程（反之亦然）。
+为了让您在Workfront项目的财务方面拥有更大的灵活性和insight，Workfront现在可与您的Anaplan帐户集成。 通过将Workfront对象链接到Anaplan对象，您可以自动更新这两个帐户之间的信息，确保这两个帐户中的信息都是最新且相同的。 您还可以根据Workfront中的操作在Anaplan中触发自动流程（反之亦然）。
 
 例如，您可以在Anaplan中创建营销策划，然后创建链接到该营销策划的Workfront项目或项目。 在Workfront中跟踪的任何成本都可以上传回Anaplan以审查营销活动效果。
 
@@ -41,27 +41,27 @@ in January 2022
 
 有关详细信息，请参阅带有Anaplan的[Adobe Workfront](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md)。
 
-## 用于Experience Manager增强型连接器更新的Workfront
+## Workfront for Experience Manager增强型连接器更新
 
 Workfront for Experience Manager增强型连接器现在包含以下更新：
 
-* 现在，即使存在多个项目链接文件夹配置，您也可以在Adobe Workfront和Adobe Experience Manager Assetsas a Cloud Service之间创建链接文件夹。
+* 现在，即使存在多个项目链接文件夹配置，您仍可以在Adobe Workfront和Adobe Experience Manager Assets as a Cloud Service之间创建链接文件夹。
 * 添加了对事件订阅分页的支持
 * 添加了对AEM 6.4.x的支持
 * 添加了对代理环境的支持
 * 基于合作伙伴和客户反馈的多项错误修复
 
-有关详细信息，请参阅[Workfront的Experience Manager增强型连接器概述](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md)。
+有关详细信息，请参阅[Workfront for Experience Manager增强型连接器概述](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md)。
 
 >[!NOTE]
 >
->此连接器的部署和配置需要经过认证的合作伙伴。 有关详细信息，请参阅[为Experience Manager增强型连接器安装Workfront](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install.html?lang=en#)。
+>此连接器的部署和配置需要经过认证的合作伙伴。 有关详细信息，请参阅[安装Workfront for Experience Manager增强型连接器](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install)。
 
 ## Adobe Creative Cloud集成现在使用OAuth2
 
 为了提高安全性和跨集成实现更一致的体验，我们更新了Adobe Creative Cloud集成，以使用OAuth2身份验证（一种行业标准对用户进行身份验证的方式）。 现在，当您的用户登录时，他们可以看到集成有权访问的特定操作和区域，并且可以允许访问。 之后，他们无需频繁登录。
 
-有关详细信息，请参阅[使用Workfront Extension for Illustrator和InDesign](../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)。
+有关详细信息，请参阅[使用适用于Illustrator和InDesign的Workfront扩展](../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)。
 
 ## 查看自定义OAuth2或JWT集成的客户端密钥的详细信息
 

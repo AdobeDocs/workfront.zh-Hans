@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ae95f1e-5241-465d-8cf1-2d4353077b6a
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 在移动设备应用程序和Web上使用Workfront时，为了使体验更加一致，在新的或现有的布局模板中对左侧面板辅助导航所做的任何自定义都会自动反映在移动设备应用程序中。
 
-要了解有关自定义左侧面板的更多信息，请参阅[在新的Workfront体验中使用布局模板自定义左侧面板](https://one.workfront.com/s/article/Customize-the-left-panel-using-a-Layout-Template-in-the-new-Workfront-experience-354734188)。
+要了解有关自定义左侧面板的更多信息，请参阅[在新的Workfront体验中使用布局模板自定义左侧面板](https://experienceleague.adobe.com/en/docs/workfront/using/home)。
 
 ## 为移动应用程序上的更新点赞
 

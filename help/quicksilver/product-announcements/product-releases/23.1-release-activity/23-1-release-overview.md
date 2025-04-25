@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 0%
@@ -361,9 +361,9 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">在Adobe Workfront中添加Illustrator以用于设计和视频插件</a><span style="color: #ff0000;"> New in Production！</span></p>
-                        <p>我们很高兴地宣布我们扩展Adobe Workfront以将InDesign插件包括Adobe Illustrator。</p>
+                        <p>我们很高兴地宣布在InDesign的Adobe Workfront插件中扩展Adobe Illustrator。</p>
                         <p>更新的插件“Adobe Workfront for design and video”现在将支持Illustrator、InDesign、Premiere Pro和After Effects。  </p>
-                        <p>此插件允许您访问工作项详细信息，与更新区域中的同事协作，以及无需离开喜爱的Creative Cloud应用程序即可全天记录。</p>
+                        <p>通过此插件，您可以访问工作项详细信息，与更新区域中的同事协作，以及无需离开喜爱的Creative Cloud应用程序即可全时记录。</p>
                         <p>管理员还可以使用Admin Console中的插件创建包，并以托管或自管理方式部署到用户。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -421,9 +421,9 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">为设计和视频引入Adobe Workfront</a></p>
-                        <p>我们很高兴地宣布，我们将Adobe Workfront的InDesign插件扩展到包括Adobe Premiere Pro和After Effects。 该插件将重命名为Adobe Workfront以用于设计和视频。</p>
-                        <p>更新的插件“Adobe Workfront for design and video”现在将支持InDesign、Premiere Pro和After Effects，Illustrator不久之后也将提供支持。</p>
-                        <p>此插件允许您访问工作项详细信息，与更新区域中的同事协作，以及无需离开喜爱的Creative Cloud应用程序即可全天记录。 </p>
+                        <p>我们很高兴地宣布我们为InDesign扩展Adobe Workfront插件，以包含Adobe Premiere Pro和After Effects。 该插件将重命名为Adobe Workfront以用于设计和视频。</p>
+                        <p>更新的插件“Adobe Workfront for design and video”现在将支持InDesign、Premiere Pro和After Effects，Illustrator很快也将提供支持。</p>
+                        <p>通过此插件，您可以访问工作项详细信息，与更新区域中的同事协作，以及无需离开喜爱的Creative Cloud应用程序即可全时记录。 </p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -454,9 +454,9 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">如何访问Workfront帮助，面向Adobe统一体验中的客户</a></p>
-                        <p>如果您的组织已载入到Adobe Admin Console和AdobeWorkfront的Unified Experience ，则Workfront导航栏将不再包含“帮助”链接。</p>
-                        <p>您可以在Adobe Experience League上通过Workfront导航栏左侧的主菜单或顶部导航区域中的问号图标访问Workfront帮助。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">如何访问Workfront帮助，面向Adobe统一体验的客户</a></p>
+                        <p>如果您的组织已载入到Adobe Admin Console和Adobe Unified Experience for Workfront，则Workfront导航栏将不再包含“帮助”链接。</p>
+                        <p>您可以从Adobe Experience League导航栏左侧的主菜单或顶部导航区域中的问号图标来访问Workfront上的Workfront帮助。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                      <p>
@@ -466,7 +466,7 @@ ht-degree: 0%
                                 <p>预览版本： 2022年10月27日<br /></p>
                             </li>
                             <li>
-                                <p>生产版本： 2022年11月3日<span style="color: #ff0000;">此功能仅适用于已登记到Workfront的Unified ExperienceAdobe的客户。</span></p>
+                                <p>生产版本： 2022年11月3日<span style="color: #ff0000;">此功能仅适用于已载入到Workfront的Adobe Unified Experience的客户。</span></p>
                             </li>
                         </ul>
                     </td>
@@ -524,11 +524,11 @@ Workfront Goals 23.1版本中的新增功能即将发布到目标版本中。 �
 
 ### Workfront 维护更新
 
-有关22.3版本期间所做的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
+有关22.3版本期间所做的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)。
 
 ### 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[WorkfrontTutorials页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的“新增功能”部分。
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)的“新增功能”部分。
 
 ### 即将从Workfront中删除的功能
 
@@ -553,9 +553,9 @@ Workfront Goals 23.1版本中的新增功能即将发布到目标版本中。 �
 
 #### 适用于Illustrator和InDesign的&#x200B;**Workfront扩展**
 
-我们正在使用更新的Creative Cloud插件替换Illustrator和InDesign的[Workfront扩展](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)。 从2022年末开始，此扩展将不再可用于在Adobe Exchange中安装。
+我们正在将适用于Illustrator和InDesign的[Workfront扩展](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)替换为更新的Creative Cloud插件。 从2022年末开始，此扩展将不再可用于在Adobe Exchange中安装。
 
-此扩展中的功能以及几个增强功能在更新的Adobe Workfront的Creative Cloud插件中提供：
+此扩展中的功能以及几项增强功能在更新的Adobe Workfront for Creative Cloud插件中提供：
 * [适用于Photoshop的Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * [适用于XD的Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
 * [Adobe Workfront设计和视频](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)

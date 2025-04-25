@@ -7,7 +7,7 @@ description: 在屏幕顶部的增强分析区域，显示4个关键绩效指标
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 44e43618-9a0b-4585-8659-c1fe055516be
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 
 使用此功能需要业务计划或更高版本。\
-有关各种可用计划的详细信息，请参阅[Adobe Workfront计划](https://www.workfront.com/plans)。
+有关各种可用计划的详细信息，请参阅[Adobe Workfront计划](https://business.adobe.com/products/workfront/pricing.html)。
 
 在屏幕顶部的增强分析区域，显示4个关键绩效指标(KPI)。 通过这些量度，您可以快速了解项目所需时间、项目规模以及在特定时间段内完成的项目数量。 这些数字不限于为该页上的可视化图表显示的最大50个项目。 此数据基于应用于任何设置的筛选器的所有项目，如果您更改选定的日期范围或任何筛选器，这些数字会进行调整。
 

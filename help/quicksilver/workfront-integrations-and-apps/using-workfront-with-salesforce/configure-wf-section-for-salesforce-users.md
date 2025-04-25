@@ -2,11 +2,11 @@
 product-area: workfront-integrations;setup;user-management
 navigation-topic: workfront-for-salesforce
 title: 为 [!DNL Salesforce] 个用户配置 [!DNL Adobe Workfront] 部分
-description: 在以 [!DNL Workfront] 管理员身份安装Salesforce的 [!DNL Adobe Workfront] 后，您可以将其添加到用户在Salesforce中的Opportunity和Account页面布局的新分区中，以使其对用户可用。
+description: 在安装 [!DNL Adobe Workfront] 以管理员 [!DNL Workfront] 身份使用Salesforce后，您可以通过将其添加到Salesforce中Opportunity和Account页面布局的新分区中，使其对用户可用。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 81481813-74db-4408-8c85-c3b5b844f932
-source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 1%
@@ -15,10 +15,10 @@ ht-degree: 1%
 
 # 为[!DNL Salesforce]用户配置[!DNL Adobe Workfront]部分
 
-需要[!UICONTROL Pro] [!DNL Workfront]计划才能使用此功能。 有关各种可用计划的详细信息，请参阅[[!DNL Workfront] 计划。](https://www.workfront.com/plans)
+需要[!UICONTROL Pro] [!DNL Workfront]计划才能使用此功能。 有关各种可用计划的详细信息，请参阅[[!DNL Workfront] 计划。](https://business.adobe.com/products/workfront/pricing.html)
 
 在以[!DNL Workfront]管理员身份安装[!DNL Salesforce]的[!DNL Adobe Workfront]后，您可以通过将其添加到用户的[!UICONTROL Opportunity]和[!UICONTROL Account]的新分区中，使其可供用户使用
-[!UICONTROL Salesforce]中的页面布局。
+[!UICONTROL Salesforce]中的版面。
 
 有关安装[!DNL Workfront for Salesforce]的信息，请参阅[安装 [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)。
 

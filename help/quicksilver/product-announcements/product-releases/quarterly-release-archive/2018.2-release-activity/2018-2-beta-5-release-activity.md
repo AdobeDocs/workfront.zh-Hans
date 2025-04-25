@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0a8602aa-34c8-44d0-a102-9497d106f806
-source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3158'
 ht-degree: 1%
@@ -155,7 +155,7 @@ ht-degree: 1%
 
 有关调整列表中列重新排序大小的信息，请参阅[修改列宽和顺序](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)。
 
-要参加我们的测试版测试计划以改进当前列表，请参阅[新列表研究。](http://community.workfront.com/discussions/community-home/digestviewer/viewthread?GroupId=457&amp;MessageKey=6b135c15-33dd-4fa2-8bc3-7cd7f7740c57&amp;CommunityKey=0425cafc-f0ec-47fc-be20-a21dc073d520&amp;tab=digestviewer&amp;ReturnUrl=%2fdiscussions%2fcommunity-home%2fdigestviewer%3fCommunityKey%3d0425cafc-f0ec-47fc-be20-a21dc073d520) （需要登录）
+要参加我们的测试版测试计划以改进当前列表，请参阅[新列表研究。](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront) （需要登录）
 
 ## 图标对新项目列表的支持 {#icon-support-for-the-new-project-lists}
 
@@ -238,7 +238,7 @@ ht-degree: 1%
 
 * 校样
 * 只是文档
-* 链接选项(从Dropbox、从Google Drive等)
+* 链接选项(来自Dropbox、来自Google Drive，等等)
 * 从剪贴板粘贴（这是添加版本时的新选项）
 
 有关详细信息，请参阅[将文档从文件系统添加到Adobe Workfront](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)一文中的[将文档从文件系统添加到Adobe Workfront](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)。
