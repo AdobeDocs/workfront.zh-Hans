@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f4c1f2170d826b4b6f1e8189e1fecc1edb6e0d97
 workflow-type: tm+mt
-source-wordcount: '3272'
+source-wordcount: '3231'
 ht-degree: 0%
 
 ---
@@ -661,24 +661,23 @@ ht-degree: 0%
                         <p>通过Workfront营销活动，可将不同项目组合和项目群中的项目整理到一个新的工作容器中。
 营销活动在22.3版本中于2022年7月发布到预览测试版。</p>
 <p>此新容器将在未来版本中改进，以连接当前在单独思洛存储器中管理的工作对象。</p>
-
-    &lt;/td>
-    &lt;td>&lt;p>&lt;b>在以下日期可用：&lt;/b>&lt;/p>
-    &lt;ul>
-    &lt;li>
-    &lt;p>预览版本：&amp;#GenStudio for Performance Marketers&amp;-160;在整个22.4发布时间范围&lt;br />&lt;/p>
-    &lt;/li>
-    &lt;li>
-    &lt;p>生产版本：&amp;#GenStudio for Performance Marketers&amp;-160;TBD IP&lt;/p>
-    &lt;/li>
-    &lt;/ul>
-    &lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>扩展的团队描述&lt;/a>&lt;/p>
-    &lt;p>在团队区域中，您现在可以通过单击描述以弹出窗口显示它来查看完整的团队描述。 可以在弹出窗口中单击描述中的任何URL，并且您可以单击描述文本对其进行编辑（如果您有权编辑团队设置）。&lt;/p>
-    &lt;p>以前，在狭窄区域中滚动说明是查看所有内容的唯一方法。&lt;/p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本：在整个22.4版本发布时间范围内<br /></p>
+                            </li>
+                            <li>
+                                <p>生产版本：待定</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">扩展的团队描述</a></p>
+                        <p>在团队区域，您现在可以通过单击描述来查看完整的团队描述，并在弹出窗口中显示描述。 可以在弹出窗口中单击描述中的任何URL，并且您可以单击描述文本对其进行编辑（如果您有权编辑团队设置）。</p>
+                        <p>以前，在狭窄区域中滚动描述是查看所有内容的唯一方法。</p>
 <p>对描述的这种增强适用于敏捷和非敏捷团队。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
