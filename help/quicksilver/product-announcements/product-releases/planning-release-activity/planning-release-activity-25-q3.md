@@ -7,7 +7,7 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 711810c00ba8657230dbda558629613be2b35d9b
+source-git-commit: 036846cc84e53b090276f7b853372e4e0050c316
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 0%
@@ -103,3 +103,5 @@ ht-degree: 0%
 * 您可以禁用记录类型的继承权限，使其对工作区中的所有用户都为只读。 之后，您可以添加个人、团队、组、公司或角色，并向他们授予记录类型的Contribute权限。
 
 有关详细信息，请参阅[共享记录类型](/help/quicksilver/planning/access/share-record-types.md)。
+
+
