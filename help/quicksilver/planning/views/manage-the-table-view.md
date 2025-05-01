@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '2872'
-ht-degree: 3%
+source-wordcount: '3205'
+ht-degree: 2%
 
 ---
 
 # 管理表视图
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上突出显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -86,7 +86,8 @@ ht-degree: 3%
   </tr> 
 <tr> 
    <td role="rowheader"><p>版面模板</p></td> 
-   <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> </td> 
+   <td> <p>在生产环境中，必须将所有用户（包括系统管理员）分配到包含Planning区域的布局模板。</p>
+<p><span class="preview">在预览环境中，标准用户和系统管理员默认启用Planning区域。</span></p></td> 
   </tr> 
 </tbody> 
 </table>
@@ -95,13 +96,7 @@ ht-degree: 3%
 
 +++
 
-<!--replace the layout template info in the table with this at release: 
 
-
-<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
-
--->
 
 ## 使用表视图编辑记录
 
@@ -117,9 +112,11 @@ ht-degree: 3%
 
 要管理表视图，请执行以下操作：
 
-1. 创建表视图，如文章[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)中所述。
+1. <span class="preview">创建表视图，如文章[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)中所述。</span>
 
-   ![表视图示例](assets/table-view-example.png)
+   <span class="preview">![表视图示例](assets/table-view-example.png)
+
+   </span>
 
 1. （可选）单击&#x200B;**行高**，然后从以下选项中进行选择以修改表行的高度：
    * 短
@@ -130,14 +127,17 @@ ht-degree: 3%
    * [列（或字段）](#add-columns-or-fields)
    * [行（或记录）](#add-rows-or-records)
    * [过滤器](#add-filters)
-   * [分组](#add-groupings)
    * [排序](#add-a-sort)
-   * [启用实时在线状态指示器](#enable-the-real-time-presence-indicator)
+   * [分组](#add-groupings)
+   * <span class="preview">[行颜色](#add-row-colors)</span>
+   * [实时在线状态指示器](#enable-the-real-time-presence-indicator)
 
 
 ### 添加列（或字段） {#add-columns}
 
-表格视图的列标题显示与视图中记录关联的字段。 表格视图中显示的相同字段也会显示在记录的详细信息部分中。 有关详细信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
+表格视图的列标题显示与视图中记录关联的字段。 表格视图中显示的字段也会显示在记录的“详细信息”部分中。
+
+有关详细信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
 
 <!--this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.-->
 
@@ -362,55 +362,6 @@ ht-degree: 3%
 1. （可选）单击&#x200B;**x**&#x200B;图标可删除筛选条件。
 1. （可选）单击&#x200B;**筛选器**&#x200B;以关闭筛选器框。<!--right now you cannot "clear all" for filters, but this might come later-->
 
-### 添加分组 {#add-groupings}
-
-<!--this section exists in the timeline view too, but the display is slightly different, so I kept both steps; consider updating both sections if any updates to groupings are introduced-->
-
-将分组应用于视图时，您可以按类似的信息对记录进行分组。
-
-在表格视图中添加分组与向时间轴视图添加分组类似。
-
-请考虑以下事项：
-
-* 可以在表格视图和时间线视图中应用分组。 表格视图的分组独立于相同记录类型的时间线视图中的分组。
-* 您可以在视图中应用3个级别的分组。 这些记录按您选择的分组顺序分组。
-&lt;！—*在使用API时，您最多可以应用4个级别的分组。  — 现在查看此项 — >
-* 这些分组对于您选择的视图是唯一的。 同一记录类型的两个表视图可以应用不同的分组。 查看同一表格视图的两个用户会看到当前应用的相同分组。
-* 不能为表视图命名您构建的分组。
-* 删除分组会将其从与您访问相同记录类型以及显示与您相同视图的任何人中删除。
-* 您可以编辑分组下列出的记录。
-* 您可以按连接的记录字段或查找字段分组。
-* 当按查找字段对具有多个值（尚未由聚合器汇总）的字段进行分组时，记录将按字段值的每个唯一组合进行分组。
-* 您可以引用与当前记录类型相距最多4级的字段。 例如，如果要为活动记录类型创建分组，并且活动连接到产品记录类型，而产品记录类型连接到营销活动记录类型，而营销活动记录类型又连接到Workfront项目，则可以在为活动记录类型创建的分组中引用项目的状态。
-<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
-<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
-
-要添加分组，请执行以下操作：
-
-1. 为记录类型创建时间线视图，如[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)一文中所述。
-1. 单击表视图右上角的&#x200B;**分组**。
-
-   ![将带有链接字段的UI表视图分组](assets/grouping-ui-table-view-with-linked-fields.png)
-
-1. 单击其中一个建议的字段，或单击&#x200B;**选择其他字段**，搜索其他字段，然后在列表显示该字段时单击它。
-
-   该分组将自动应用于表，并且记录显示在分组分离行下。
-
-1. （可选）单击&#x200B;**添加条件**&#x200B;并重复上述步骤以添加最多3个分组。
-
-   为分组选择的字段数将显示在分组图标旁边。
-
-   ![分组应用于表视图](assets/grouping-applied-in-table-view.png)
-
-1. （可选）在&#x200B;**按**&#x200B;对记录进行分组框中，单击为分组选择的字段右侧的&#x200B;**x**&#x200B;图标以删除该分组
-
-   或
-
-   单击&#x200B;**全部清除**&#x200B;可删除所有字段。
-
-1. 单击&#x200B;**按**&#x200B;分组记录框外部以将其关闭。
-1. （可选）单击任何分组末尾的&#x200B;**+新记录**&#x200B;以添加新记录，然后刷新页面以将新记录添加到相应的分组。<!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
-
 ### 添加排序 {#sort-information}
 
 通过应用排序，您可以按指定顺序组织信息。
@@ -473,6 +424,56 @@ ht-degree: 3%
 
    为排序选择的字段显示一个排序图标，后跟一个数字，指示应用排序的顺序。
 
+### 添加分组 {#add-groupings}
+
+<!--this section exists in the timeline view too, but the display is slightly different, so I kept both steps; consider updating both sections if any updates to groupings are introduced-->
+
+将分组应用于视图时，您可以按类似的信息对记录进行分组。
+
+在表格视图中添加分组与向时间轴视图添加分组类似。
+
+请考虑以下事项：
+
+* 可以在表格视图和时间线视图中应用分组。 表格视图的分组独立于相同记录类型的时间线视图中的分组。
+* 您可以在视图中应用3个级别的分组。 这些记录按您选择的分组顺序分组。
+&lt;！—*在使用API时，您最多可以应用4个级别的分组。  — 现在查看此项 — >
+* 这些分组对于您选择的视图是唯一的。 同一记录类型的两个表视图可以应用不同的分组。 查看同一表格视图的两个用户会看到当前应用的相同分组。
+* 不能为表视图命名您构建的分组。
+* 删除分组会将其从与您访问相同记录类型以及显示与您相同视图的任何人中删除。
+* 您可以编辑分组下列出的记录。
+* 您可以按连接的记录字段或查找字段分组。
+* 当按查找字段对具有多个值（尚未由聚合器汇总）的字段进行分组时，记录将按字段值的每个唯一组合进行分组。
+* 您可以引用与当前记录类型相距最多4级的字段。 例如，如果要为活动记录类型创建分组，并且活动连接到产品记录类型，而产品记录类型连接到营销活动记录类型，而营销活动记录类型又连接到Workfront项目，则可以在为活动记录类型创建的分组中引用项目的状态。
+<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
+<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
+
+要添加分组，请执行以下操作：
+
+1. 为记录类型创建时间线视图，如[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)一文中所述。
+1. 单击表视图右上角的&#x200B;**分组**。
+
+   ![将带有链接字段的UI表视图分组](assets/grouping-ui-table-view-with-linked-fields.png)
+
+1. 单击其中一个建议的字段，或单击&#x200B;**选择其他字段**，搜索其他字段，然后在列表显示该字段时单击它。
+
+   该分组将自动应用于表，并且记录显示在分组分离行下。
+
+1. （可选）单击&#x200B;**添加条件**&#x200B;并重复上述步骤以添加最多3个分组。
+
+   为分组选择的字段数将显示在分组图标旁边。
+
+   ![分组应用于表视图](assets/grouping-applied-in-table-view.png)
+
+1. （可选）在&#x200B;**按**&#x200B;对记录进行分组框中，单击为分组选择的字段右侧的&#x200B;**x**&#x200B;图标以删除该分组
+
+   或
+
+   单击&#x200B;**全部清除**&#x200B;可删除所有字段。
+
+1. 单击&#x200B;**按**&#x200B;分组记录框外部以将其关闭。
+1. （可选）单击任何分组末尾的&#x200B;**+新记录**&#x200B;以添加新记录，然后刷新页面以将新记录添加到相应的分组。<!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
+
+
 <!-- this is not available yet: 
 
 To sort grouped records: 
@@ -481,6 +482,42 @@ To sort grouped records:
 1. ************************* add steps here for sorting grouped records****************
 
 -->
+
+<div class="preview">
+
+### 添加行颜色
+
+1. （可选）单击&#x200B;**行颜色**&#x200B;以定义条件并选择为表行配置不同的颜色。
+
+1. 单击&#x200B;**添加颜色**，然后&#x200B;**选择要确定其值的字段**。
+
+   例如，要以绿色显示状态为“活动”的促销活动，请选择&#x200B;**状态**，然后为字段选择修饰符和值。
+
+   ![已选中“活动”状态且默认颜色选择的“行颜色”框](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
+
+1. 单击所选条件左上角的拾色器下拉菜单，选取条件的颜色，然后单击拾色器框外部将其关闭。
+
+   ![行颜色框中的下拉拾色器菜单突出显示](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
+
+1. （可选）单击&#x200B;**添加条件**&#x200B;以向第一组条件添加更多字段和值
+
+   或
+
+   单击&#x200B;**添加颜色**&#x200B;以添加一组新的条件并标识新的颜色。
+
+   例如，您可以通过定义一组新条件，以黄色显示处于Planning状态的促销活动。
+
+   ![具有“活动”和“规划”状态自定义颜色的行颜色框](assets/row-colors-box-with-active-and-planning-status-custom-colors.png)
+
+1. （可选）打开“行颜色”框右上角的&#x200B;**应用到整行**&#x200B;设置。 满足条件的整行会自动以选定的颜色显示。
+
+   >[!TIP]
+   >
+   >如果“应用到整行”设置处于关闭状态，则只有“主”字段的左侧显示具有选定颜色的窄颜色指示器。 默认情况下，该设置处于关闭状态。
+
+1. 单击&#x200B;**行颜色**&#x200B;框外部以将其关闭。 颜色会自动应用。
+
+</div>
 
 ### 启用实时在线状态指示器
 

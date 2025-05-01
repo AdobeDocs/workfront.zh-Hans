@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '3333'
+source-wordcount: '3359'
 ht-degree: 1%
 
 ---
@@ -125,7 +125,8 @@ ht-degree: 1%
   </tr> 
 <tr> 
    <td role="rowheader"><p>版面模板</p></td> 
-   <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域 </p> </td> 
+   <td> <p>在生产环境中，必须将所有用户（包括系统管理员）分配到包含Planning区域的布局模板。</p>
+<p><span class="preview">在预览环境中，标准用户和系统管理员默认启用Planning区域。</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -133,14 +134,6 @@ ht-degree: 1%
 *有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
-
-<!--replace the layout template info in the table with this at release: 
-
-
-<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
-
--->
 
 ## 连接记录的注意事项
 
@@ -165,7 +158,7 @@ ht-degree: 1%
 * 表视图中的已连接记录字段。
 * 记录的预览框或页面（在“详细信息”选项卡上的已连接记录字段中）。
 * 记录在“连接”选项卡上的预览框或页面。
-* 记录在“连接视图”选项卡上的页面。<!--this needs title edit when they rename the "Connection view" page type-->
+* <span class="preview">连接的记录页面</span>选项卡上的记录页面。
 
 ### 从记录的表视图或详细信息区域连接Workfront Planning记录
 
@@ -463,9 +456,8 @@ ht-degree: 1%
 
    该记录会立即与Workfront Planning的所有区域或其可能显示为已连接的其他应用程序断开连接。 所有查找字段值也会被删除。
 
-### 从记录详细信息页面上的“连接视图”选项卡连接记录
+### 从记录的<span class="preview">连接的记录页面</span>连接记录
 
-<!--section needs title edit when they rename the "Connection view" page type-->
 
 1. 转到已连接到其他Planning记录类型或来自其他应用程序的对象类型的任何记录类型视图。
 1. 按照前面各小节中描述的步骤，在视图中查找要与其他记录或对象连接的记录。
@@ -473,9 +465,11 @@ ht-degree: 1%
 
    预览页面将打开。
 1. 单击&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开详细信息](assets/open-details-in-a-new-tab-icon.png)以打开记录的页面。
-1. 在记录的预览或页面中单击现有的连接视图选项卡。 必须首先创建“连接”视图页。 有关信息，请参阅[管理记录页布局](/help/quicksilver/planning/records/manage-the-record-page.md)。
+1. 单击记录页面中现有的<span class="preview">连接的记录页面</span>选项卡。 您必须首先创建<span class="preview">连接的记录页</span>。 有关信息，请参阅[管理记录页布局](/help/quicksilver/planning/records/manage-the-record-page.md)。
 
    在表格视图中将显示连接的记录类型页面。
+
+   表格中将显示所有类型连接的记录。
 1. 单击&#x200B;**连接**&#x200B;添加或删除记录。
 
    在已连接记录详细信息选项卡中突出显示![连接按钮](assets/connect-button-highlighted-in-connected-record-details-tab.png)

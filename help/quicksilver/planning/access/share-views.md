@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1564'
 ht-degree: 1%
 
 ---
@@ -160,6 +160,12 @@ This article describes how you can share a view with others. For information abo
 1. （可选）在&#x200B;**谁有权访问**&#x200B;区域，从以下选项中选择：
 
    * **只有受邀人员才能访问**：您必须指定要与其共享视图的用户、组、团队、公司或工作角色。 这是默认选项。
+
+     >[!NOTE]
+     >
+     >   In addition to teams, groups, companies, and job roles, you can share only with users that have been added to the Adobe Admin Console.
+
+
    * **工作区中的每个人都可以查看**：所有对工作区具有“查看”或更高权限的用户都可以访问该视图。
 
 1. 在&#x200B;**授予此视图的访问权限**&#x200B;字段中，开始键入用户、组、团队、公司或工作角色的名称，然后在列表显示该名称时单击该名称。

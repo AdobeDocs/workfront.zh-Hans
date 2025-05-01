@@ -6,7 +6,7 @@ description: 您可以在Adobe Workfront的[!UICONTROL 主页]区域查看工作
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 6%
@@ -132,7 +132,7 @@ You can view updates on any work item in the [!UICONTROL Work List]:
 
 1. 单击&#x200B;**回复**。
 
-   ![回复注释](assets/reply-to-comment-in-mentions-widget.png)
+   ![回复评论](assets/reply-to-comment-in-mentions-widget.png)
 
 1. 开始键入您的评论。
 1. （可选）在&#x200B;**标记人员**&#x200B;框中，开始键入要包含在此评论中的用户或团队的名称，然后在此评论显示在列表中时将其选定。

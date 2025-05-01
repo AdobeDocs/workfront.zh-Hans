@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
    * Planning中记录类型的表视图中的已连接记录字段。
    * 在“详细信息”选项卡上的已连接记录字段中，记录的预览或页面。
    * 记录在“连接”选项卡上的预览或页面。
-   * 已连接记录的“连接”视图选项卡中的记录页面。
+   * The record&#39;s page in a <span class="preview">Connected records page</span> tab of a connected record.
 
 * 您可以在Workfront的以下区域中将Workfront对象连接到Workfront Planning记录：
 

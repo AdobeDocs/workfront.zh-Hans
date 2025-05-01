@@ -6,24 +6,21 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '3104'
+source-wordcount: '3234'
 ht-degree: 0%
 
 ---
 
 # 更新工作
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 4/2025 -->
 
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>  (*****for all customers or in Production for customers who enabled fast releases-->
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<!--<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
--->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 <!--info for April 11: hide the "Important" box below-->
 
@@ -88,8 +85,8 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront许可证*</strong></td> 
    <td> 
+   <p>新文档：问题和文档的参与者或更高版本：所有其他对象的轻量级或更高版本</p>
    <p>当前：对问题和文档的请求或更高版本；对所有其他对象的审阅或更高版本</p>
-   <p>新文档：问题和文档的参与者或更高版本：所有其他对象的轻量级或更高版本</p> 
    </td> 
   </tr> 
   <tr> 
@@ -244,9 +241,11 @@ You can add updates to the following objects:
 1. 单击左侧面板中的&#x200B;**更新**。
 默认情况下已选中**评论**&#x200B;选项卡。
 
-1. 开始在&#x200B;**新建评论**&#x200B;框中输入评论。
+1. 
+   <div class="preview">开始在**新建注释**框中输入注释。
 
    ![新评论框](assets/comment-box-all-tabs.png)
+   </div>
 
    >[!TIP]
    >
@@ -256,7 +255,7 @@ You can add updates to the following objects:
    * CTRL + Z(Mac为⌘ + z)可撤消更改
    * 按CTRL + Y(对于Mac，按⌘ + y)可重做更改
 
-1. （可选）在&#x200B;**为人员或团队添加标签**&#x200B;区域，开始键入要包含在此评论中的用户或团队的名称或电子邮件，然后当该评论显示在列表中时将其选定。
+1. <span class="preview">（可选）在&#x200B;**为人员或团队添加标签**&#x200B;区域，开始键入要包含在此评论中的用户或团队的名称或电子邮件，或者在列表中显示时将其选定。</span>
 1. （可选）使用富文本工具栏中的选项设置文本格式，在更新中添加表情符号、链接或图像，以增强内容。 有关详细信息，请参阅本文中的[在Workfront更新中使用富文本](#use-rich-text-in-a-workfront-update)部分。
 
    >[!TIP]
@@ -266,10 +265,10 @@ You can add updates to the following objects:
    >指示符仅在提交项目的评论之后显示，而不会在评论仍在撰写时显示。
    >
    >“新”指示符仅在输入新更新的用户以及当前输入更新的用户都使用新注释体验时显示。
-   >![](assets/real-time-new-red-indicator-unified-commenting.png)
+   >![实时新红色指示器](assets/real-time-new-red-indicator-unified-commenting.png)
 
 1. 单击&#x200B;**提交**&#x200B;以将更新添加到Workfront对象。
-1. （可选）要编辑评论，请单击评论右上角的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**编辑**。
+1. （可选）要编辑评论，请单击评论右上角的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击&#x200B;**编辑**。
 
    >[!IMPORTANT]
    >
@@ -281,7 +280,7 @@ You can add updates to the following objects:
    >
    >当前年份的注释不会在日期戳中显示年份。 将鼠标悬停在时间戳上会显示完整日期，包括年份。
 
-   ![](assets/edited-tag-on-comment-unified-commenting.png)
+   ![已编辑评论上的指示器](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
@@ -293,14 +292,14 @@ You can add updates to the following objects:
 
 1. （视情况而定，可选）如果您在添加评论时，其他用户在“更新”部分的可见区域之外添加了显示的评论，请单击屏幕底部的蓝色&#x200B;**新评论横幅**&#x200B;中的&#x200B;**查看**&#x200B;以显示这些评论。
 
-   ![](assets/blue-new-comments-banner-with-view-button.png)
+   ![带有按钮的蓝色新评论横幅](assets/blue-new-comments-banner-with-view-button.png)
 
    屏幕底部会显示其他注释。
 
-1. （可选）单击&#x200B;**类似**&#x200B;图标![](assets/like-icon.png)。 图标会随喜欢的数量而更新。
+1. （可选）单击&#x200B;**赞**&#x200B;图标![赞图标](assets/like-icon.png)。 图标会随喜欢的数量而更新。
 1. （有条件，可选）如果在注释中包括了其他人员，请单击更新中包括的成员数，以显示与所输入的注释共享的实体列表。
 
-   ![](assets/members-icons-expanded-unshimmed.png)
+   已展开![个成员图标](assets/members-icons-expanded-unshimmed.png)
 
    >[!TIP]
    >
@@ -328,16 +327,16 @@ You can add updates to the following objects:
 1. 转到Workfront对象的&#x200B;**更新**&#x200B;区域，打开&#x200B;**评论**&#x200B;选项卡并开始键入评论。
 1. （可选）若要向评论添加富文本格式，请在键入时使用&#x200B;**富文本**&#x200B;工具栏上的任何属性。
 
-   ![](assets/rich-text-toolbar.png)
+   ![富文本工具栏](assets/rich-text-toolbar.png)
 
    | **属性** | **工具栏按钮** | **Mac快捷键** | **Windows快捷键** |
    |---|---|---|---|
-   | 粗体 | ![](assets/mceclip10.png) | ⌘+b | Ctrl+B |
-   | 斜体 | ![mceclip9.png](assets/mceclip9.png) | ⌘+i | Ctrl+I |
-   | 下划线 | ![mceclip8.png](assets/mceclip8.png) | ⌘+u | Ctrl+U |
-   | 超链接 | ![mceclip7.png](assets/mceclip7.png) | <br>打开“添加链接”框： ⌘+K</br> <br>要在所选文本上粘贴链接： ⌘+V</br> | <br>打开“添加链接”框： Ctrl+K</br> <br>要在所选文本上粘贴链接： Ctrl+V</br> |
-   | 项目符号列表 | ![mceclip6.png](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
-   | 编号列表 | ![mceclip5.png](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
+   | 粗体 | ![粗体图标](assets/mceclip10.png) | ⌘+b | Ctrl+B |
+   | 斜体 | ![斜体图标](assets/mceclip9.png) | ⌘+i | Ctrl+I |
+   | 下划线 | ![为图标](assets/mceclip8.png)加下划线 | ⌘+u | Ctrl+U |
+   | 超链接 | ![超链接图标](assets/mceclip7.png) | <br>打开“添加链接”框： ⌘+K</br> <br>要在所选文本上粘贴链接： ⌘+V</br> | <br>打开“添加链接”框： Ctrl+K</br> <br>要在所选文本上粘贴链接： Ctrl+V</br> |
+   | 项目符号列表 | ![项目符号列表图标](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
+   | 编号列表 | ![编号列表图标](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
 
    <!--| Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |<br>Ctrl+Shift+9</br> <br>This is not available in the new commenting experience. </br> |-->
 
@@ -361,7 +360,7 @@ You can add updates to the following objects:
 
    <!--![](assets/block-quote-marked-350x144.png)-->
 
-1. （可选）单击&#x200B;**表情符号**&#x200B;图标![](assets/emoji-icon.png)以将表情符号添加到更新中。
+1. （可选）单击&#x200B;**表情符号**&#x200B;图标![表情符号图标](assets/emoji-icon.png)以将表情符号添加到更新中。
 
    >[!NOTE]
    >
@@ -375,7 +374,7 @@ You can add updates to the following objects:
 1. （可选）要添加指向其他信息源的URL链接，请执行以下操作：
 
    1. 在更新中要插入链接的位置单击。
-   1. 在&#x200B;**富文本**&#x200B;工具栏上，单击&#x200B;**超链接**&#x200B;图标![](assets/link-icon.png)。
+   1. 在&#x200B;**富文本**&#x200B;工具栏上，单击&#x200B;**超链接**&#x200B;图标![超链接图标](assets/link-icon.png)。
 
    1. 在&#x200B;**创建链接**&#x200B;框的&#x200B;**URL**&#x200B;下，键入或粘贴要链接到的源的URL。
 
@@ -397,7 +396,7 @@ You can add updates to the following objects:
 
    * 将图像保存在计算机上，然后将其拖放到新注释区域。
    * 从计算机中复制屏幕快照，然后将其粘贴到评论中。
-   * 单击&#x200B;**添加映像**&#x200B;图标![](assets/add-image-mountain-with-plus-icon.png)并浏览到计算机上的映像。
+   * 单击&#x200B;**添加图像**&#x200B;图标![添加带加号的图像山](assets/add-image-mountain-with-plus-icon.png)并浏览计算机上的图像。
 
 
    >[!IMPORTANT]
@@ -418,8 +417,8 @@ You can add updates to the following objects:
 
 1. （可选）要在现有更新中查看图像，请执行下列操作之一：
 
-   * 单击图像缩略图上的&#x200B;**预览**&#x200B;图标![](assets/previewimageicon-31x31.png)以在新的浏览器选项卡中打开全尺寸图像。
-   * 单击图像缩略图上的&#x200B;**下载**&#x200B;图标![](assets/downloadimageicon.png)以下载图像。
+   * 单击图像缩略图上的&#x200B;**预览**&#x200B;图标![预览图标](assets/previewimageicon-31x31.png)以在新的浏览器选项卡中打开全尺寸图像。
+   * 单击图像缩略图上的&#x200B;**下载**&#x200B;图标![下载图标](assets/downloadimageicon.png)以下载图像。
 
 1. 单击&#x200B;**提交**&#x200B;以添加您的评论。
 
@@ -460,11 +459,26 @@ You can add updates to the following objects:
 
 通过执行以下操作之一，可以从现有注释中复制信息：
 
+* [引用回复](#quote-reply)
 * [复制链接](#copy-link)
 * [复制正文文本](#copy-body-text)
-* [引用回复](#quote-reply)
 
-![](assets/copy-comment-ways-from-more-menu-on-comment.png)
+
+![以各种方式复制评论](assets/copy-comment-ways-from-more-menu-on-comment.png)
+
+#### 引用回复
+
+Quote reply选项将原始备注作为块备注复制到新回复中。
+
+1. 转到要复制的评论或回复。
+1. 单击&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**引用回复**。
+
+   将打开一个新注释框，引用回复将包括在新注释中，并标记为块引用。
+
+   提交前![阻止引用高亮显示中间注释](assets/block-quote-highlighted-mid-comment-before-submit.png)
+
+
+1. 继续添加更新，然后单击&#x200B;**提交**&#x200B;添加评论。
 
 #### 复制指向评论的链接
 
@@ -489,19 +503,7 @@ You can add updates to the following objects:
 1. 转到要复制的评论或回复。
 1. 单击&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**复制正文文本**。
 
-#### 引用回复
 
-Quote reply选项将原始备注作为块备注复制到新回复中。
-
-1. 转到要复制的评论或回复。
-1. 单击&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**引用回复**。
-
-   将打开一个新注释框，引用回复将包括在新注释中，并标记为块引用。
-
-   ![](assets/block-quote-highlighted-mid-comment-before-submit.png)
-
-
-1. 继续添加更新，然后单击&#x200B;**提交**&#x200B;添加评论。
 
 <!--info for April 11: hide the entire section below - notice that there are several sub-sub sections below this main section - hide them all, all the way up to "Delete an update"-->
 
@@ -574,7 +576,7 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 1. 转到要删除的评论或回复。
 1. 单击要删除的评论或回复旁边的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**删除**。
 
-   ![](assets/update-stream-comment-menu-marked-350x152.png)
+   ![更新流评论更多菜单](assets/update-stream-comment-menu-marked-350x152.png)
 
 1. 在显示的消息中，单击&#x200B;**删除**。
 
@@ -584,7 +586,7 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 
    当您删除的评论具有与其关联的回复时，将显示删除评论的指示以及删除评论的用户的名称。
 
-   ![](assets/removed-comment-indicator-new-experience.png)
+   ![已删除评论标识符](assets/removed-comment-indicator-new-experience.png)
 
    已删除的评论将立即从Workfront中删除。 使用更新分区的用户会看到评论被其他用户实时删除。
 
@@ -595,11 +597,11 @@ Workfront对象的“更新”部分显示两种类型的信息：
 
 * **用户更新：**&#x200B;用户更新是您和您系统中的其他用户输入的评论。 用户更新将显示在“更新”部分的“注释”和“所有”选项卡中。
 
-  ![](assets/user-update-cl-350x277.png)
+  ![用户更新](assets/user-update-cl-350x277.png)
 
 * **系统更新：**&#x200B;系统更新记录删除任务或问题、添加或删除文档版本、附加或删除审批请求以及对对象所做的任何编辑或更改。 系统更新显示在“System Activity（系统活动）”和“Updates（更新）”部分的“All（所有）”选项卡中。
 
-  ![](assets/system-updates-cl-350x277.png)
+  ![系统更新](assets/system-updates-cl-350x277.png)
 
   Workfront管理员可以确定系统更新中跟踪的内容，如[系统跟踪更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)中所述。 您还可以过滤掉系统更新或活动，以便只看到所有对象的用户更新。
 

@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 8fcc6c75811080f3ee152849a149542be8ae820c
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '1974'
-ht-degree: 0%
+source-wordcount: '2258'
+ht-degree: 1%
 
 ---
 
@@ -105,7 +105,8 @@ ht-degree: 0%
   </tr>
 <tr>
    <td role="rowheader"><p>版面模板</p></td>
-   <td> <p>必须为包括Workfront管理员在内的所有用户分配一个布局模板，该布局模板包括主菜单的“规划”区域以及项目、项目组合和项目群的“规划”区域。 </p> 有关详细信息，请参阅<a href="/help/quicksilver/planning/access/access-overview.md">Adobe计划访问概述</a>。 </p>  </p>  
+   <td> <p>在生产环境中，必须将所有用户（包括系统管理员）分配到包含Planning区域的布局模板。</p>
+<p><span class="preview">在预览环境中，标准用户和系统管理员默认启用Planning区域。</span></p>  
 </td>
   </tr>
  </tbody>
@@ -115,12 +116,6 @@ ht-degree: 0%
 
 +++
 
-<!--replace the layout template info in the table with this at release: 
-
-<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
-
--->
 
 ## 有关编辑记录页面的注意事项
 
@@ -267,35 +262,48 @@ ht-degree: 0%
 
    自动对记录预览或页面保存布局所做的所有更改。
 
-## 将“连接”视图选项卡添加到记录的页面
+## 将<span class="preview">连接的记录页</span>添加到记录
 
-<!--suggested a new name for this type of page: "Connected records page" - check to see if this changed, and update this everywhere in this section-->
+通过将<span class="preview">连接的记录页面</span>的选项卡添加到记录，您可以查看来自连接的记录或对象的信息。
 
-通过将“连接”视图页面类型的选项卡添加到记录，可以查看已连接记录或对象的信息。 来自已连接记录的信息以只读表格视图显示。
+在生产环境中，来自连接的记录或对象的信息以只读表格视图显示。
 
-<!--replace the last sentence above with this at release:
+<span class="preview">在“预览”环境中，可以在表视图中编辑来自连接记录的信息。 来自从其他应用程序连接的对象的信息在表视图中不可编辑。</span>
 
-In the Production environment, the information from the connected records or objects displays in a read-only table view. 
+将<span class="preview">连接的记录页面</span>添加到记录时，请考虑以下事项：
 
-<Span class="preview">In the Preview environment, the information from the connected records can be edited in the table view. The information from the objects connected from another application is not editable in the table view.</span> -->
+* 在将记录或对象类型从记录类型的表视图连接到记录类型后，您可以将<span class="preview">连接的记录页</span>添加到记录。
 
-向记录页面添加连接视图时，请考虑以下事项：
+* 您无法将<span class="preview">连接的记录页面</span>添加到记录的预览区域。
 
-* 将记录或对象类型连接到记录类型后，可以将“连接”视图页面添加到记录页面。
+* <span class="preview">连接的记录页</span>在表视图中仅显示一个对象或记录类型中的连接对象或记录。 该页不会在表视图中显示该类型的所有记录。
 
-* 无法将“连接”视图页面添加到记录的预览区域。
+* After you add a <span class="preview">Connected records page</span> to a record, the page tab is visible from the record&#39;s preview area, but it is blank. 您必须转到整页以查看所连接记录的表视图。<!--this might have changed? check and take disclaimer out-->
 
-* “连接”视图页面在表格视图中显示一个连接的记录类型页面或来自另一个应用程序的连接的对象类型。
+* You can add <span class="preview">Connected records pages</span> for the following connected record or object types:
 
-* 将“连接”视图页面添加到记录页面后，即可在记录的预览区域看到页面选项卡。 您必须转到整页以查看所连接记录的表视图。<!--this might have changed? check and take disclaimer out-->
+   * Workfront Planning record types
+   * Workfront projects, programs, portfolios, groups, or companies. You can view the connected Workfront objects even when you do not have permissions to access them in Workfront.
 
-添加“连接”视图页：
+  >[!NOTE]
+  >
+  >   无法为连接的AEM Assets记录添加<span class="preview">连接的记录页</span>。
+
+
+添加<span class="preview">连接的记录页</span>：
 
 1. 从记录页面视图中，单击记录名称以将其打开，然后单击预览页面右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开详细信息](assets/open-details-in-a-new-tab-icon.png)。
 1. 单击&#x200B;**添加页面**。
 
-   ![添加连接视图页面模式](assets/add-connection-view-page-modal.png)
-1. 添加&#x200B;**页面名称**，单击&#x200B;**连接视图**，然后单击&#x200B;**创建**。
+   <div class="preview">
+
+   将打开&#x200B;**创建页面**&#x200B;框。
+
+   ![添加连接的记录页面模式](assets/add-connection-view-page-modal.png)
+
+   </div>
+
+1. 添加&#x200B;**页面名称**，单击&#x200B;**<span class="preview">连接的记录页面</span>**，然后单击&#x200B;**创建**。
 
    新选项卡将添加到记录的页面。
 1. 在列表中搜索或单击连接的记录或对象类型的名称。
@@ -310,32 +318,37 @@ In the Production environment, the information from the connected records or obj
 
 1. （可选）在连接的记录的表视图中，执行以下任一操作：
 
-   * 单击记录名称。 这将在新选项卡中打开记录页面。<!--<span class="preview">In the Preview environment, this opens the record's preview page.</span>-->
-   * 单击&#x200B;**连接**以连接更多记录，然后单击连接框外部以关闭它。 新记录将自动添加到表中。
-     <!--* <span class="preview">Edit any information from the connected records inside the table view. </span>-->
+   * 单击记录名称。 这将在新选项卡中打开记录页面。
 
-   <!--<div class="preview">
+     <span class="preview">In the Preview environment, this opens the record&#39;s preview page. Click the **Open in a new tab** icon ![Open in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner to open the connected record&#39;s page.</span>
 
-   * Hover over a connected record's name, then click the **More** menu ![More menu](assets/more-menu.png), then click one of the following options: 
-      * View 
-      * Copy link
-      * Edit thumbnail
-      * Duplicate
-      * Insert record above or below
-      * Delete 
-   * Select one of the records, then click one of the following options in the blue bar at the bottom of the screen: 
-      * View
-      * Copy link
-      * Edit thumbnail
-      * Duplicate
-      * Delete. Delete is the only option available when you select more than one record. 
+   * 单击&#x200B;**连接**&#x200B;以连接更多记录，然后单击连接框外部以关闭它。 新记录将自动添加到表中。
+   * <span class="preview">Edit any information from the connected records inside the table view. </span>
 
-      For information about editing records in the table view, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
+   <div class="preview">
 
-   </div>-->
+   * Hover over a connected record&#39;s name, then click the **More** menu ![More menu](assets/more-menu.png), then click one of the following options:
+      * 查看
+      * 复制链接
+      * 编辑缩略图
+      * 复制
+      * 在上方或下方插入记录
+      * 删除
+   * 选择其中一个记录，然后单击屏幕底部蓝色栏中的以下选项之一：
+      * 查看
+      * 复制链接
+      * 编辑缩略图
+      * 复制
+      * 删除。 删除是选择多个记录时唯一可用的选项。
+
+     有关编辑表视图中的记录的信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
+
+   * 在“连接的记录”页上的表中内联编辑任何记录。 Workfront对象以只读表格视图显示，您无法对其进行编辑。
+
+   </div>
 
 
-1. （可选）双击“连接视图”选项卡的名称
+1. （可选）双击<span class="preview">连接的记录页</span>选项卡的名称
 
    或
 
@@ -355,7 +368,7 @@ In the Production environment, the information from the connected records or obj
    >
 
 1. 单击&#x200B;**连接**&#x200B;添加或删除记录。 有关信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)
-1. （可选）将鼠标悬停在“连接”视图选项卡的名称上，单击&#x200B;**更多** ![更多菜单](assets/more-menu.png)，然后单击&#x200B;**删除**&#x200B;以删除选项卡。
+1. （可选）将鼠标悬停在<span class="preview">连接的记录页</span>选项卡的名称上，单击&#x200B;**更多** ![更多菜单](assets/more-menu.png)，然后单击&#x200B;**删除**&#x200B;以删除选项卡。
 
 
 

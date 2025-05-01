@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '918'
 ht-degree: 1%
 
 ---
@@ -113,6 +113,7 @@ This article describes how you can share a view with others. For information abo
 
 * 有关在Workfront Planning中共享对象的一般信息，另请参阅[在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 * 您可以与组织内的用户、团队、角色、组或公司共享工作区。
+* In addition to teams, groups, companies, and job roles, you can share only with users that have been added to the Adobe Admin Console.
 * 您无法与组织外部的用户共享工作区。
 * 共享工作区时，也将共享与工作区关联的所有记录类型、记录和字段。
 * 共享工作区时，视图不共享。 您必须单独共享视图。

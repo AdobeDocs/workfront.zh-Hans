@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1499'
 ht-degree: 0%
 
 ---
@@ -185,6 +185,7 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
+   >* 除了团队、组、公司和职位角色之外，您只能与已添加到Adobe Admin Console的用户共享。
    >* 您永远不能授予用户在记录类型上比他们在工作区上更大的权限。
    >* 您不能授予比“管理”更小的用户记录类型权限（如果他们具有工作区的管理权限）。
    >* 如果用户具有工作区的“贡献”权限，则可以授予他们较少的记录类型权限。
