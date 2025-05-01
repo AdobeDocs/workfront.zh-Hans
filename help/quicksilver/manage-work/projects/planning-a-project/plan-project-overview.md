@@ -2,12 +2,12 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: “计划项目：文章索引”
+title: 计划项目：文章索引
 description: 以下文章包含有关项目、项目团队以及如何规划项目的信息。
 author: Alina
 feature: Work Management
 exl-id: 67fddb92-4b8a-4628-9b50-a10a806e49d1
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: b38c98ec79617a78c76510bcb109da2ff83247af
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # 计划项目：文章索引
+
+<!-- Audited: 4/2025 -->
 
 有关项目信息、项目团队以及如何规划项目的信息，请参阅以下文章：
 

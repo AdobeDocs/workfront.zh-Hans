@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: b36cfdc4587bc440867a6a84b9460eaeaf4daf88
+source-git-commit: ab3e1a354ec897797a455d6e25c7bf292a337a9d
 workflow-type: tm+mt
-source-wordcount: '13178'
+source-wordcount: '13174'
 ht-degree: 2%
 
 ---
@@ -1226,7 +1226,7 @@ ht-degree: 2%
          * [将模板附加到项目的概述](manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
       * 定义业务案例 {#define-business-case}
          * [定义业务案例：文章索引](manage-work/projects/define-a-business-case/define-business-case.md)
-         * [业务案例的领域概述](manage-work/projects/define-a-business-case/areas-of-business-case.md)
+         * [业务案例领域概述](manage-work/projects/define-a-business-case/areas-of-business-case.md)
          * [为项目创建业务案例](manage-work/projects/define-a-business-case/create-business-case.md)
          * [批准业务案例](manage-work/projects/define-a-business-case/approve-business-case.md)
          * [业务案例财务字段概述](manage-work/projects/define-a-business-case/business-case-finances.md)

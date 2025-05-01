@@ -6,14 +6,16 @@ description: 您可以将项目从Microsoft项目导入Adobe Workfront，并在�
 author: Alina
 feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: b38c98ec79617a78c76510bcb109da2ff83247af
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '523'
 ht-degree: 1%
 
 ---
 
 # 从Microsoft项目导入项目
+
+<!-- Audited: 4/2025 -->
 
 您可以将项目从Microsoft项目导入Adobe Workfront，并在一个应用程序内管理所有项目。 每次从Microsoft项目导入项目时，都会在Workfront中创建一个新项目。
 
@@ -36,10 +38,10 @@ ht-degree: 1%
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>新许可证： Standard </p> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p>新增：标准 </p> 
    或
-   <p>当前许可证：计划 </p>
+   <p>当前：计划 </p>
    </td> 
   </tr> 
   <tr> 
@@ -53,7 +55,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -90,9 +92,9 @@ You must have the following access to perform the steps in this article:
 
 ## 从MS Project创建项目
 
-您可以从主菜单的项目区域创建项目，也可以从项目组合或项目群的项目区域创建项目。
+您可以从&#x200B;**主菜单**&#x200B;的&#x200B;**项目**&#x200B;区域创建项目，也可以从项目组合或项目群的&#x200B;**项目**&#x200B;区域创建项目。
 
-1. 转到Microsoft项目，然后在Workfront中打开要从中导入的项目。
+1. 登录到Microsoft项目，然后在Workfront中打开要从中导入的项目。
 1. 单击&#x200B;**文件**，然后单击&#x200B;**另存为**&#x200B;以将项目另存为.xml文件。
 
 1. 登录到Workfront。
@@ -101,16 +103,14 @@ You must have the following access to perform the steps in this article:
    * 单击Workfront右上角的&#x200B;**主菜单** ![主菜单图标](assets/main-menu-icon.png)，或单击左上角的&#x200B;**主菜单** ![主菜单行](assets/lines-main-menu.png)。如果可用，请单击&#x200B;**项目**，然后展开&#x200B;**新建项目**。
    * 转到项目组合，然后展开&#x200B;**新建项目**。
    * 转到项目群，然后展开&#x200B;**新建项目**。
-   * 如果您是组管理员，则还可以在所管理组的项目部分中创建项目。 有关详细信息，请参阅[创建和修改组的项目](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)。
+   * 如果您是组管理员，则可以在您管理的组的&#x200B;**项目**&#x200B;分区中创建项目。 有关详细信息，请参阅[创建和修改组的项目](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)。
 
-1. 选择&#x200B;**导入MS项目**&#x200B;选项。
+1. 单击&#x200B;**导入MS项目**。 出现&#x200B;**导入MS文件**&#x200B;对话框。
 
-   ![新项目下拉列表](assets/new-project-dropdown-nwe-350x358.png)
+   ![新项目下拉列表](assets/import-ms-project-option.png)
 
 1. 单击&#x200B;**选择“文件”**，然后浏览计算机上从Microsoft项目导出的.xml文件。
-1. 导入选定的文件。
-
-   Workfront将开始导入过程，并根据从Microsoft项目导出的文件创建新项目。
+1. 导入选定的文件。 Workfront将开始导入过程，并根据从Microsoft项目导出的文件创建新项目。
 
    导入过程完成后，您将被定向到新的项目页面，该页面会显示已成功完成导入的确认信息。
 
@@ -120,4 +120,7 @@ You must have the following access to perform the steps in this article:
 
 1. （可选）继续在Workfront中编辑项目。 有关编辑项目的信息，请参阅[编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md)。
 
-   通过模板创建的新项目的状态与您的Workfront管理员在项目偏好设置区域中定义的状态相对应，或与组管理员在组项目偏好设置区域中定义的状态相对应。 有关配置项目首选项的信息，请参阅[配置系统范围项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
+
+   >[!NOTE]
+   >
+   >从模板创建的新项目的状态与Workfront管理员在&#x200B;**项目偏好设置**&#x200B;区域定义的状态或组管理员在&#x200B;**组项目偏好设置**&#x200B;区域定义的状态相对应。 有关配置项目首选项的信息，请参阅[配置系统范围项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。

@@ -5,16 +5,18 @@ description: 在创建业务案例的过程中，您可以创建一组目标以�
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: b38c98ec79617a78c76510bcb109da2ff83247af
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '504'
 ht-degree: 1%
 
 ---
 
 # 创建业务案例目标
 
-在创建业务案例的过程中，您可以创建一组目标以定义项目目标。 业务案例目标用于向Portfolio经理或项目发起人传达完成项目的目的。
+<!-- Audited: 4/2025 -->
+
+在创建业务案例的过程中，您可以创建一组目标以定义项目目标。 这些目标用于将完成项目的目的传达给Portfolio经理或项目发起人。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: below snippet: NWE only, not classic)</p>
@@ -26,18 +28,20 @@ ht-degree: 1%
 
 在为项目创建业务案例目标时，请考虑以下事项：
 
-* 业务案例目标是特定于项目的。 您无法将目标从一个项目复制到另一个项目，也不能在系统级别建立目标。 它们必须在每个项目的级别定义。
-* 您的Adobe Workfront管理员或组管理员必须启用项目的“目标”部分，然后才能将其显示在项目的业务案例中。 有关为项目启用业务案例字段的信息，请参阅[配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
+* 业务案例目标是特定于项目的。 您无法将目标从一个项目复制到另一个项目或在系统级别建立目标；必须在每个项目的级别定义目标。
+* 您的Adobe Workfront管理员或组管理员必须启用项目的“目标”部分，才能将其显示在业务案例中。 有关为项目启用业务案例字段的信息，请参阅[配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
 
-* 目标不是项目的业务案例中的强制部分。
+* 目标不是项目业务案例中的强制部分。
 
-  即使未定义业务案例的目标部分，项目也可以在Portfolio Optimizer中接收要优先处理的得分。
+  即使未定义“目标”部分，项目也可以在Portfolio优化器中接收要优先处理的得分。
 
   有关Portfolio Optimizer分数的详细信息，请参阅[将记分卡应用于项目并生成一致性分数](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)。
 
 * 您无法报告业务案例目标。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -48,15 +52,19 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>专业或专业以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td>
+   <td> 
+   <p>新增：标准</p> 
+   <p>或</p>
+   <p>当前：计划 </p> 
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
+   <td role="rowheader">访问级别配置</td> 
    <td> <p>编辑对项目的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -66,21 +74,24 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 向项目的业务案例添加目标
 
-1. 转到要为其定义业务案例目标的项目。
-1. 单击左侧面板中的&#x200B;**业务案例。**
+{{step1-to-projects}}
 
-   此时将显示业务案例。
+1. 在项目列表中，选择要为其定义业务案例目标的项目。
+1. 在左侧面板中，单击&#x200B;**业务案例**。 将显示&#x200B;**业务案例**&#x200B;部分。
 
    ![商业案例信息](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
 
 1. 在&#x200B;**目标**&#x200B;部分中，单击&#x200B;**编辑目标**。
 
-1. 指定您的目标。
-在**重要性**&#x200B;下拉菜单中，选择重要性级别：
+1. 在第一个字段中，输入目标描述。
+
+1. 在&#x200B;**重要性**&#x200B;下拉菜单中，为此目标选择重要性级别（或优先级）：
 
    * 最高
    * 高
@@ -88,9 +99,12 @@ ht-degree: 1%
    * 低
    * 最低
 
-     重要性(assets/g1-350x76.png)
+     ![重要性](assets/g1-350x76.png)
 
-     您无法自定义目标的重要性级别。
+     >[!NOTE]
+     >
+     >您无法自定义目标的重要性级别。
 
-1. （可选）要添加另一个目标，请单击“添加另一个目标”****&#x200B;并重复步骤5和步骤6。
+1. （可选）要添加另一个目标，请单击“添加另一个目标”****&#x200B;并重复步骤5-6。
+
 1. 单击&#x200B;**保存**。
