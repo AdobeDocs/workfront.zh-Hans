@@ -6,9 +6,9 @@ description: 在报表中引用收藏集
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 6bd9dc626befc4dfa4054760e7ec7d677f6da6e5
 workflow-type: tm+mt
-source-wordcount: '2560'
+source-wordcount: '2615'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
          </ul>
       <p>当前：</p>
          <ul>
-         <li><p>计划</p></li>
+         <li><p>规划</p></li>
          </ul>
    </td>
   </tr> 
@@ -236,7 +236,7 @@ Workfront中的对象之间存在以下两个关系：
 
 1. 项目报表中显示以下列，列出每个项目中的所有任务及其主要受分配人：
 
-   ![具有任务和被分派人集合的项目报告](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
+   ![包含任务和被分派人集合的项目报告](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
 
 1. 单击&#x200B;**保存**。
 1. （可选）继续编辑报表。
@@ -306,6 +306,15 @@ Workfront中的对象之间存在以下两个关系：
 您可以引用报表过滤器中的对象集合，以过滤与报表对象关联的对象的属性。
 
 例如，可通过在过滤器语句中使用对项目上任务或问题属性的引用，来过滤项目报告中的任务或问题信息。
+
+>[!NOTE]
+>
+>应用于包含多个值的字段（例如项目中的注释集合）时，过滤器会按以下方式确定包含项：
+>
+>* 如果集合中的所有项目都包含指定的值，则从结果中排除整个记录。
+>* 如果集合中至少有一个项目不包含指定的值，则记录将保留在结果中。
+
+
 
 要在报表过滤器中添加对收藏集的引用，请执行以下操作：
 

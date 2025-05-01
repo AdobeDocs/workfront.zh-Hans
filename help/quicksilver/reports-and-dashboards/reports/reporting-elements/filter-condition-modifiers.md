@@ -6,9 +6,9 @@ description: 利用过滤器和条件修饰符，可构建过滤器并建立用�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: b2b17c34fe4887e291e69facf76f5071bca43b06
+source-git-commit: 6bd9dc626befc4dfa4054760e7ec7d677f6da6e5
 workflow-type: tm+mt
-source-wordcount: '1565'
+source-wordcount: '1593'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,12 @@ ht-degree: 0%
   <tr valign="top"> 
    <td> <p><strong>不包含</strong> </p> </td> 
    <td> <p><strong>cinotcontains</strong> </p> </td> 
-   <td> <p>这是<strong>notcontains</strong>的<i>不区分大小写</i>版本。</p><p>此修饰符用于筛选缺少指定值的项目。</p> <p>例如，<code>does not contain inf</code>捕获名称中没有<code>Inf</code>或<code>inf</code>的任何内容。</p> <p>注意： <span>如果正在过滤的字段有多个选项，则会过滤出包含指定选项、指定选项和任何其他选项的结果。</span> </p> </td> 
+   <td> <p>这是<strong>notcontains</strong>的<i>不区分大小写</i>版本。</p><p>此修饰符用于筛选缺少指定值的项目。</p> <p>例如，<code>does not contain inf</code>捕获名称中没有<code>Inf</code>或<code>inf</code>的任何内容。</p> <p>注意：当应用于包含多个值的字段（例如项目中的注释集合）时，过滤器会按如下方式确定排除项：
+<ul>
+    <li>如果收藏集中的所有项目都包含指定文本，则从结果中排除整个记录。</li>
+    <li>如果集合中至少有一个项目不包含指定的文本，则记录将保留在结果中。</li>
+</ul>
+ </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> </td> 
