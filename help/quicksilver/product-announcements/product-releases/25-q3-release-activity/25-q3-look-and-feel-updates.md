@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
-source-git-commit: f47c1ad2c3c5d82e62efa1a8920bc0aac59af26e
+source-git-commit: bd6a9c2de25aa1088a0348df4ec5154d81d7a385
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 5%
+source-wordcount: '552'
+ht-degree: 3%
 
 ---
 
@@ -17,6 +17,33 @@ ht-degree: 5%
 本页介绍在2025年第三季度发布时间范围内对Adobe Workfront应用程序各个区域的外观和感觉所做的细微更新。
 
 有关2025年第三季度版本的所有可用更改列表，请参阅[2025年第三季度版本概述](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)。
+
+## 评论的更多菜单选项的外观更新
+
+>[!NOTE]
+>
+>预览版本： 2025年4月17日；适用于所有客户的生产版本： 2025年4月17日
+
+我们更新了所有对象的“更新”部分中评论的“更多”菜单中可用选项的外观。
+
+此更新包括以下更改：
+
+* 重新排列了操作，以便将类似的功能分组在一起。
+* 插入分隔线以明确分隔每个组。
+* 以红色显示删除操作以将其突出显示。
+
+有关信息，请参阅[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
+
+
+## 里程碑路径报表的外观更新
+
+>[!NOTE]
+>
+>预览版本： 2025年4月30日；适用于所有客户的生产版本： 2025年4月30日
+
+我们更新了里程碑路径报表的外观，以使其与Workfront其他区域的设计相匹配。
+
+有关信息，请参阅[创建自定义报表](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
 ## 最近恢复项目的外观更新
 

@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 27107a4c2f694e9e8725d074058b008972116924
+source-git-commit: b36cfdc4587bc440867a6a84b9460eaeaf4daf88
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '593'
 ht-degree: 2%
 
 ---
@@ -41,6 +41,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Adobe Workfront增强功能
 
 * [文档管理增强功能](#document-management-enhancements)
+* [更新和通知增强功能]
 * [其他增强功能](#other-enhancements)
 
 ### 文档管理增强功能
@@ -62,6 +63,52 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>2025年4月10日</td>
         <td>2025年4月17日</td>
         <td>2025年4月17日</td>
+    </tr>     
+  </tbody>
+</table>
+
+### 报表增强功能
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td><strong>功能</strong>
+        </td>
+        <td><strong>预览</strong></td>
+        <td><strong>快速发布</strong></td>
+        <td><strong>每季度</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">筛选</a>时，用户通配符不再返回值为null的结果<p></p>
+            <p>我们更新了用户通配符行为，以在筛选报告时排除null值。 此更改有助于过滤器生成更准确的结果，而不是返回没有正确配置用户（空结果）的结果。 </p>
+        </td>
+        <td>2025年4月30日</td>
+        <td>2025年5月15日</td>
+        <td>2025年7月17日</td>
+    </tr>     
+  </tbody>
+</table>
+
+### 更新和通知增强功能
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td><strong>功能</strong>
+        </td>
+        <td><strong>预览</strong></td>
+        <td><strong>快速发布</strong></td>
+        <td><strong>每季度</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-update-and-notification-enhancements.md" class="MCXref xref" xrefformat="{para}">将人员添加到评论时修改了体验</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+            <p>为了改进性能，我们在向评论添加人员时引入了一种改进的体验。 现在，在将用户或团队添加到评论后，“为人员或团队加标签”链接在“评论”框中持续存在。 </p>
+        </td>
+        <td>2025年4月30日</td>
+        <td>（分阶段推出）：2025年5月8日至5月15日</td>
+        <td>（分阶段推出）：2025年5月8日至5月15日</td>
     </tr>     
   </tbody>
 </table>
