@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
-source-wordcount: '1875'
+source-wordcount: '1914'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开以查看访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -101,8 +101,14 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
   </tr>
 <tr>
    <td role="rowheader"><p>版面模板</p></td>
-   <td> <p>要访问Workfront中的Planning区域，必须为您分配一个布局模板，该模板包括主菜单中的Planning区域。 </p>
-   <p> 但是，向Workfront Planning提交请求不需要访问“规划”区域。 </p>  
+   <td> <p>要访问Workfront中的Planning区域，您必须具有以下布局模板配置： </p>
+<ul>
+<li><p>在生产环境中，必须将所有用户（包括系统管理员）分配到包含Planning的布局模板。</p></li>
+<li><div class="preview">
+<p> 在“预览”环境中，必须为具有轻度或参与者许可证的用户分配包含Planning的布局模板。
+   <p>默认情况下，标准用户和系统管理员已启用Planning区域。</p></div></li></ul>
+
+<p> 但是，向Workfront Planning提交请求不需要访问“规划”区域。 </p>  
 </td>
   </tr>
  </tbody>
@@ -112,20 +118,6 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 
 +++
 
-<!--replace the layout template info in the table with this at release: 
-
-<div class="preview">
-<p> Users with a Light or Contributor license must be assigned a layout template that includes the Planning option  in the following areas:</p>
-   <ul><li>Main Menu</li>
-   <li>Left panel of projects, portfolios, and programs</li>
-   <li>Landing page</li>
-   <li>Pins</li></ul>
-   <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Create and manage layout templates</a>.</p>
-   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div>
-   <p><b>NOTE</b></p>
-   <p>In the Production environment, all users including the System administrators must be assigned to a layout template that includes the Planning areas.</p>
-
--->
 
 ## 先决条件
 

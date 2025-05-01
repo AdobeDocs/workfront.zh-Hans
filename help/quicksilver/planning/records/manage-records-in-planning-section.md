@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
-source-wordcount: '1863'
+source-wordcount: '1847'
 ht-degree: 1%
 
 ---
@@ -102,7 +102,8 @@ ht-degree: 1%
   </tr>
 <tr>
    <td role="rowheader"><p>版面模板</p></td>
-   <td> <p>要查看Workfront对象的Planning区域或Planning区域，必须为包括Workfront管理员在内的所有用户分配一个布局模板，该布局模板包括主菜单中的Planning区域以及项目、项目组合和程序的Planning区域。 </p> 有关详细信息，请参阅<a href="/help/quicksilver/planning/access/access-overview.md">Adobe计划访问概述</a>。 </p>  </p>  
+   <td> <p>在生产环境中，必须将所有用户（包括系统管理员）分配到包含Planning的布局模板。</p>
+<p><span class="preview">在“预览”环境中，标准用户和系统管理员默认启用Planning。</span></p>  </p>  
 </td>
   </tr>
  </tbody>
@@ -112,13 +113,6 @@ ht-degree: 1%
 
 +++
 
-<!--replace the layout template info in the table with this at release: 
-
-
-<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
-
--->
 
 ## 管理“计划”部分中的记录
 

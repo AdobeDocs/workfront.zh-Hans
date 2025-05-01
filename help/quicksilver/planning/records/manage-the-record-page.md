@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
-source-wordcount: '2258'
+source-wordcount: '2254'
 ht-degree: 1%
 
 ---
@@ -105,8 +105,8 @@ ht-degree: 1%
   </tr>
 <tr>
    <td role="rowheader"><p>版面模板</p></td>
-   <td> <p>在生产环境中，必须将所有用户（包括系统管理员）分配到包含Planning区域的布局模板。</p>
-<p><span class="preview">在预览环境中，标准用户和系统管理员默认启用Planning区域。</span></p>  
+   <td> <p>在生产环境中，必须将所有用户（包括系统管理员）分配到包含Planning的布局模板。</p>
+<p><span class="preview">在“预览”环境中，标准用户和系统管理员默认启用Planning。</span></p>  
 </td>
   </tr>
  </tbody>
@@ -278,12 +278,12 @@ ht-degree: 1%
 
 * <span class="preview">连接的记录页</span>在表视图中仅显示一个对象或记录类型中的连接对象或记录。 该页不会在表视图中显示该类型的所有记录。
 
-* After you add a <span class="preview">Connected records page</span> to a record, the page tab is visible from the record&#39;s preview area, but it is blank. 您必须转到整页以查看所连接记录的表视图。<!--this might have changed? check and take disclaimer out-->
+* 将<span class="preview">连接的记录页面</span>添加到记录后，该页面选项卡在记录的预览区域可见，但为空白。 您必须转到整页以查看所连接记录的表视图。<!--this might have changed? check and take disclaimer out-->
 
-* You can add <span class="preview">Connected records pages</span> for the following connected record or object types:
+* 您可以为以下连接的记录或对象类型添加<span class="preview">连接的记录页</span>：
 
-   * Workfront Planning record types
-   * Workfront projects, programs, portfolios, groups, or companies. You can view the connected Workfront objects even when you do not have permissions to access them in Workfront.
+   * Workfront Planning记录类型
+   * Workfront项目、项目、项目组合、组或公司。 您可以查看连接的Workfront对象，即使您无权在Workfront中访问它们。
 
   >[!NOTE]
   >
@@ -320,14 +320,14 @@ ht-degree: 1%
 
    * 单击记录名称。 这将在新选项卡中打开记录页面。
 
-     <span class="preview">In the Preview environment, this opens the record&#39;s preview page. Click the **Open in a new tab** icon ![Open in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner to open the connected record&#39;s page.</span>
+     <span class="preview">在“预览”环境中，这将打开记录的预览页面。 单击右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开](assets/open-details-in-a-new-tab-icon.png)以打开连接的记录的页面。</span>
 
    * 单击&#x200B;**连接**&#x200B;以连接更多记录，然后单击连接框外部以关闭它。 新记录将自动添加到表中。
-   * <span class="preview">Edit any information from the connected records inside the table view. </span>
+   * <span class="preview">编辑表视图中连接记录的任何信息。</span>
 
    <div class="preview">
 
-   * Hover over a connected record&#39;s name, then click the **More** menu ![More menu](assets/more-menu.png), then click one of the following options:
+   * 将鼠标悬停在已连接记录的名称上，然后单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击以下选项之一：
       * 查看
       * 复制链接
       * 编辑缩略图

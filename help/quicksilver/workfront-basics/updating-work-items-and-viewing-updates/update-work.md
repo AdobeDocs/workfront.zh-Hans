@@ -6,7 +6,7 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: c06f25de917474ffae9a7de3a00033fdf9c84b58
 workflow-type: tm+mt
 source-wordcount: '3234'
 ht-degree: 0%
@@ -241,11 +241,9 @@ You can add updates to the following objects:
 1. 单击左侧面板中的&#x200B;**更新**。
 默认情况下已选中**评论**&#x200B;选项卡。
 
-1. 
-   <div class="preview">开始在**新建注释**框中输入注释。
+1. <span class="preview">开始在&#x200B;**新评论**&#x200B;框中输入评论。</span>
 
-   ![新评论框](assets/comment-box-all-tabs.png)
-   </div>
+   <span class="preview">![新评论框](assets/comment-box-all-tabs.png)</span>
 
    >[!TIP]
    >

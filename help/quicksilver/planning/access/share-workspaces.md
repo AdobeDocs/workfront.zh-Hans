@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '936'
 ht-degree: 1%
 
 ---
@@ -92,7 +92,8 @@ This article describes how you can share a view with others. For information abo
   </tr> 
 <tr> 
    <td role="rowheader"><p>版面模板</p></td> 
-   <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> </td> 
+   <td> <p>在生产环境中，必须将所有用户（包括系统管理员）分配到包含Planning区域的布局模板。</p>
+<p><span class="preview">在预览环境中，标准用户和系统管理员默认启用Planning区域。</span></p></td> 
   </tr> 
 </tbody> 
 </table>
@@ -101,19 +102,11 @@ This article describes how you can share a view with others. For information abo
 
 +++
 
-<!--replace the layout template info in the table with this at release: 
-
-
-<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
-
--->
-
 ## 有关共享工作区的注意事项
 
 * 有关在Workfront Planning中共享对象的一般信息，另请参阅[在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 * 您可以与组织内的用户、团队、角色、组或公司共享工作区。
-* In addition to teams, groups, companies, and job roles, you can share only with users that have been added to the Adobe Admin Console.
+* 除了团队、组、公司和职位角色之外，您只能与已添加到Adobe Admin Console的用户共享。
 * 您无法与组织外部的用户共享工作区。
 * 共享工作区时，也将共享与工作区关联的所有记录类型、记录和字段。
 * 共享工作区时，视图不共享。 您必须单独共享视图。
