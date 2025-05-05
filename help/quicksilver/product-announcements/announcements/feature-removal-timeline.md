@@ -44,7 +44,7 @@ Adobe Workfront产品的各种功能正在逐步淘汰。 以下是各项功能�
    <td> <p>2020年11月9日不再受支持（从20.4版本开始）</p> <p>—</p> <p>2022年上半年之后从Workfront平台中删除</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>旧版Workfront Fusion</p> <p>Workfront Fusion改进了旧版Workfront Fusion中的体验。</p> <p>有关Workfront Fusion的详细信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home">Adobe Workfront Fusion</a>。</p> </td> 
+   <td> <p>旧版Workfront Fusion</p> <p>Workfront Fusion改进了旧版Workfront Fusion中的体验。</p> <p>有关Workfront Fusion的详细信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/home">Adobe Workfront Fusion</a>。</p> </td> 
    <td> </td> 
    <td>2021年3月31日从Workfront平台删除</td> 
   </tr> 

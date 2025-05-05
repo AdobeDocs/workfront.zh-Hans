@@ -50,7 +50,7 @@ ht-degree: 1%
   </tr> -->
   <tr> 
    <td role="rowheader">产品</td> 
-   <td><p>除了[!DNL Workfront]许可证，您还必须具有[!DNL Adobe Creative Cloud]许可证。</p><p>有关详细信息，请参阅<a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloud支持政策</a>。</p></td> 
+   <td><p>除了[!DNL Workfront]许可证，您还必须具有[!DNL Adobe Creative Cloud]许可证。</p><p>有关详细信息，请参阅<a href="https://helpx.adobe.com/cn/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloud支持政策</a>。</p></td> 
   </tr> 
  </tbody> 
 </table>

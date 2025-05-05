@@ -23,4 +23,4 @@ ht-degree: 0%
 * 视图中的[内置状态图标](../../../reports-and-dashboards/reports/using-built-in-reports/built-in-status-icons-views.md)
 * [使用Adobe Workfront内置报告](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
 * [资源利用率报告概述](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)
-* 新Workfront体验的[基本报告创建计划](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)
+* 新Workfront体验的[基本报告创建计划](https://experienceleague.adobe.com/zh-hans/docs/workfront-learn/tutorials-workfront/home)

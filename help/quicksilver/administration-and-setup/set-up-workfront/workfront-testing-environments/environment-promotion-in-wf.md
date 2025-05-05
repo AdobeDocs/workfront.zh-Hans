@@ -153,7 +153,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>ASSEMBLY_FAILED</td> 
-   <td><p>如果ASSEMBLY阶段失败，则升级包会自动处于此状态。</p><p>要将软件包返回到ASSEMBLY阶段，必须再次触发装配过程。</p><p>有关汇编包的详细信息，请参阅创建或编辑环境升级包一文中的<a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">编辑或汇编现有包</a>部分。</td> 
+   <td><p>如果ASSEMBLY阶段失败，则升级包会自动处于此状态。</p><p>要将软件包返回到ASSEMBLY阶段，必须再次触发装配过程。</p><p>有关汇编包的详细信息，请参阅创建或编辑环境升级包一文中的<a href="https://experienceleague.adobe.com/zh-hans/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">编辑或汇编现有包</a>部分。</td> 
   </tr> 
   </tbody> 
 </table>

@@ -47,7 +47,7 @@ ht-degree: 0%
 
 有关我们为什么要进行此更改的详细信息，请参阅[新的Adobe Workfront托管系统使用21.1](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md)替换请求队列的POP电子邮件。
 
-此功能现已包含在Workfront One上的新Workfront Experience[&#128279;](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)学习路径的队列管理中。
+此功能现已包含在Workfront One上的新Workfront Experience[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/workfront-learn/tutorials-workfront/home)学习路径的队列管理中。
 
 ## 限制工时表上的小时编辑
 

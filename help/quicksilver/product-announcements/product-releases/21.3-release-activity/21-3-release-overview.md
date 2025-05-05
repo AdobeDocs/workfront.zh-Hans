@@ -249,7 +249,7 @@ Workfront Scenario Planner的21.3版本即将提供新功能。 有关这些现�
 
 ## Workfront Fusion增强
 
-Workfront Fusion中的新增功能在21.3版本发行计划之外的生产环境中以一定节奏提供。 有关最新功能的详细信息，请参阅[Adobe Workfront Fusion发行活动](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
+Workfront Fusion中的新增功能在21.3版本发行计划之外的生产环境中以一定节奏提供。 有关最新功能的详细信息，请参阅[Adobe Workfront Fusion发行活动](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
 
 ## Workfront Proof增强功能
 

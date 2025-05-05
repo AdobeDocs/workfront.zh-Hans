@@ -744,7 +744,7 @@ ht-degree: 0%
 
 ### Workfront Fusion增强
 
-Workfront Fusion中的新增功能在23.3版本发行计划之外的生产环境中以不同节奏提供。 有关最新功能的详细信息，请参阅[Adobe Workfront Fusion发行活动](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
+Workfront Fusion中的新增功能在23.3版本发行计划之外的生产环境中以不同节奏提供。 有关最新功能的详细信息，请参阅[Adobe Workfront Fusion发行活动](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
 
 ### Workfront Scenario Planner增强
 
@@ -768,11 +768,11 @@ Workfront Goals将在23.3版本发布时间范围内发布的新功能。 有关
 
 ### Workfront 维护更新
 
-有关22.3版本期间所做的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)。
+有关22.3版本期间所做的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/zh-hans/docs/workfront-known-issues/releases/current-updates)。
 
 ### 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)的“新增功能”部分。
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/zh-hans/docs/workfront-learn/tutorials-workfront/home)的“新增功能”部分。
 
 ### 即将从Workfront中删除的功能
 

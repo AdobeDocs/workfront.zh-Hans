@@ -55,7 +55,7 @@ Workfront for Experience Manager增强型连接器现在包含以下更新：
 
 >[!NOTE]
 >
->此连接器的部署和配置需要经过认证的合作伙伴。 有关详细信息，请参阅[安装Workfront for Experience Manager增强型连接器](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install)。
+>此连接器的部署和配置需要经过认证的合作伙伴。 有关详细信息，请参阅[安装Workfront for Experience Manager增强型连接器](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install)。
 
 ## Adobe Creative Cloud集成现在使用OAuth2
 

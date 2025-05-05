@@ -325,7 +325,7 @@ Workfront Scenario Planner 21.1版本中的新增功能。 有关这些现在可
 
 ## Workfront Fusion增强
 
-Workfront Fusion中的新增功能在21.1发布计划之外的生产环境中以一定节奏提供。 有关最新功能的详细信息，请参阅[Adobe Workfront Fusion发布活动](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+Workfront Fusion中的新增功能在21.1发布计划之外的生产环境中以一定节奏提供。 有关最新功能的详细信息，请参阅[Adobe Workfront Fusion发布活动](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 
 ## API增强功能
 
@@ -337,7 +337,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-有关新增功能和更新的信息，请参阅[API版本12](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12)中的新增功能。
+有关新增功能和更新的信息，请参阅[API版本12](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12)中的新增功能。
 
 有关API版本的更多信息，请参阅[API版本控制和支持计划](../../../wf-api/api/api-version-support-schedule.md)
 
@@ -398,7 +398,7 @@ Workfront 21.1版本网络研讨会将于2月3日上午11:00（东部夏令时�
 
 从2020年5月20日开始，Workfront每周开始在预览环境中提供一次功能。 在此更改之前，通常每两周向预览环境发布一次功能。
 
-有关详细信息，请参阅[在Workfront中更改预览版本节奏常见问题解答](https://experienceleague.adobe.com/en/docs/workfront/using/home)
+有关详细信息，请参阅[在Workfront中更改预览版本节奏常见问题解答](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home)
 
 ### Workfront One {#workfront-one}
 

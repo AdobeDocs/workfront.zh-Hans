@@ -29,7 +29,7 @@ ht-degree: 1%
 
 有关详细信息，请参阅[创建周期性任务](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md)。
 
-此功能现已包含在新Workfront Experience的[规划者基础知识部分，第2部分：在Workfront One上规划项目](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)学习路径。
+此功能现已包含在新Workfront Experience的[规划者基础知识部分，第2部分：在Workfront One上规划项目](https://experienceleague.adobe.com/zh-hans/docs/workfront-learn/tutorials-workfront/home)学习路径。
 
 ## 项目标题中可用的新按钮
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 为了让您快速筛选“项目”页面上的项目列表，标题中有两个新按钮，允许您快速应用我所在的项目或我拥有的项目过滤器。
 
-此功能现已包含在新Workfront Experience的[规划者基础知识部分，第1部分：在Workfront One中创建项目](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)学习路径。
+此功能现已包含在新Workfront Experience的[规划者基础知识部分，第1部分：在Workfront One中创建项目](https://experienceleague.adobe.com/zh-hans/docs/workfront-learn/tutorials-workfront/home)学习路径。
 
 ## 从Scrum展示板移动或删除故事或问题
 
@@ -133,9 +133,9 @@ ht-degree: 1%
 
 以前，在Workfront Classic中，文本格式仅在项目、任务和小时列表中可见。
 
-有关在自定义字段中设置文本格式的信息，请参阅[创建自定义表单](https://experienceleague.adobe.com/en/docs/workfront/using/home)。
+有关在自定义字段中设置文本格式的信息，请参阅[创建自定义表单](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home)。
 
-有关在列表中显示信息的信息，请参阅[开始使用列表](https://experienceleague.adobe.com/en/docs/workfront/using/home)。
+有关在列表中显示信息的信息，请参阅[开始使用列表](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home)。
 
 ## 新建编辑任务框
 

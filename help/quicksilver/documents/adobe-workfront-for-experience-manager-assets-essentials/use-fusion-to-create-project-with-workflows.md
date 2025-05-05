@@ -93,7 +93,7 @@ ht-degree: 0%
 1. 将&#x200B;**Workfront** > **杂项操作**&#x200B;模块添加到您的方案。
 1. 在&#x200B;**连接**&#x200B;字段中，选择连接到此模块将使用的帐户的Workfront连接。
 
-   有关创建连接的说明，请参阅Workfront模块一文中的[连接 [!DNL Workfront] 到 [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)。
+   有关创建连接的说明，请参阅Workfront模块一文中的[连接 [!DNL Workfront] 到 [!DNL Workfront Fusion]](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)。
 
    有关创建客户端ID和客户端密钥的说明，您将需要创建连接，请参阅本文中的[创建OAuth应用程序](#create-an-oauth-application)。
 
@@ -175,4 +175,4 @@ ht-degree: 0%
 
 在Fusion中配置模块的连接时，您将使用此客户端ID和客户端密钥。
 
-有关创建连接的说明，请参阅Workfront模块一文中的[连接 [!DNL Workfront] 到 [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)。
+有关创建连接的说明，请参阅Workfront模块一文中的[连接 [!DNL Workfront] 到 [!DNL Workfront Fusion]](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)。

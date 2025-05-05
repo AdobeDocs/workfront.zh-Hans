@@ -55,9 +55,9 @@ ht-degree: 0%
 * 为对象（项目、任务或问题）创建一次性审批流程，并将其基于与处理该对象的组相关联的状态。 这包括与该组关联的任何自定义状态。
 * 创建一个全局审批流程，使其仅适用于该组或系统中的每个人。
 
-对于具有审批流程管理访问权限的用户，有关配置审批流程的信息，请参阅[为工作项创建审批流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)(或者如果您使用的是Adobe Workfront Classic，请参阅[创建审批流程](https://experienceleague.adobe.com/en/docs/workfront/using/home))。
+对于具有审批流程管理访问权限的用户，有关配置审批流程的信息，请参阅[为工作项创建审批流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)(或者如果您使用的是Adobe Workfront Classic，请参阅[创建审批流程](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home))。
 
-对于用户，有关将审批流程与工作项关联的信息，请参阅[将新的或现有的审批流程与工作关联](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)(或者，如果您使用的是Adobe Workfront Classic，请参阅[将新的或现有的审批流程与工作关联](https://experienceleague.adobe.com/en/docs/workfront/using/home))。
+对于用户，有关将审批流程与工作项关联的信息，请参阅[将新的或现有的审批流程与工作关联](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)(或者，如果您使用的是Adobe Workfront Classic，请参阅[将新的或现有的审批流程与工作关联](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home))。
 
 **在以下环境中可用：**
 

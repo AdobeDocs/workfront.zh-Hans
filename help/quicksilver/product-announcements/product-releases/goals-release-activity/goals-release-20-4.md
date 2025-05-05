@@ -47,7 +47,7 @@ ht-degree: 0%
 >
 >**生产可用性：**（20.4版本）
 
-此功能现已包含在Workfront One上的[Workfront目标学习路径](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)中。
+此功能现已包含在Workfront One上的[Workfront目标学习路径](https://experienceleague.adobe.com/zh-hans/docs/workfront-learn/tutorials-workfront/home)中。
 
 ## Workfront目标的访问控制
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 >
 >**生产可用性：**（20.4版本）
 
-此功能现已包含在Workfront One上的[Workfront目标学习路径](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)中。
+此功能现已包含在Workfront One上的[Workfront目标学习路径](https://experienceleague.adobe.com/zh-hans/docs/workfront-learn/tutorials-workfront/home)中。
 
 ## Workfront目标可用性改进
 
@@ -82,4 +82,4 @@ ht-degree: 0%
 >
 >**生产可用性：**（20.4版本）
 
-此功能现已包含在Workfront One上的[Workfront目标学习路径](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)中。
+此功能现已包含在Workfront One上的[Workfront目标学习路径](https://experienceleague.adobe.com/zh-hans/docs/workfront-learn/tutorials-workfront/home)中。

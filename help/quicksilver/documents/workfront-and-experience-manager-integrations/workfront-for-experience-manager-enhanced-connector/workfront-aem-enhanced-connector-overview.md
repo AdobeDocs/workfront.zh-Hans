@@ -41,15 +41,15 @@ Workfront for Experience Manager增强型连接器现在使您能够：
 ## 先决条件和支持的平台
 
 * Adobe Workfront
-* [Adobe Experience Manager as a Cloud Service Assets](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-cloud-service.html)
-* 内部部署[Adobe Experience Manager 6.5 Assets](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-on-premise.html)
-* [Adobe Experience Manager 6.5 Assets as a Managed Service](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-managed-services.html)
+* [Adobe Experience Manager as a Cloud Service Assets](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-experience-manager-cloud-service.html)
+* 内部部署[Adobe Experience Manager 6.5 Assets](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-experience-manager-on-premise.html)
+* [Adobe Experience Manager 6.5 Assets as a Managed Service](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-experience-manager-managed-services.html)
 * Adobe Experience Manager Assets内部部署
 * Adobe Experience Manager Assets as a Managed Service
 
 ## 快速入门
 
-1. **安装并配置连接器**。 使用认证合作伙伴或Adobe Professional Services ，安装和配置Workfront for Experience Manager增强型连接器，以整理、标准化流程、建立治理并简化从创建到交付的资源生命周期。 在Adobe Experience Manager 6.5[&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/integrations/workfront-integrations)中安装[或在Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install)中安装。
+1. **安装并配置连接器**。 使用认证合作伙伴或Adobe Professional Services ，安装和配置Workfront for Experience Manager增强型连接器，以整理、标准化流程、建立治理并简化从创建到交付的资源生命周期。 在Adobe Experience Manager 6.5[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/integrations/workfront-integrations)中安装[或在Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install)中安装。
 1. **使用连接器**。 查看增强型连接器在Experience Manager Assets中自动生成项目链接文件夹、映射到Experience Manager Assets和文件夹的Workfront元数据、双向元数据同步等实际操作的功能。 有关详细信息，请参阅[Workfront for Experience Manager增强型连接器](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md)。
 
 ## 更多此类内容

@@ -26,7 +26,7 @@ Workfront最近为全新一代Workfront Fusion收购了一些技术，这是一�
 
 以前的Workfront Fusion客户可以期待在Workfront Fusion 2.0中获得更大的功能、速度、可用性和可预测性。我们正在将当前Workfront Fusion客户迁移到Workfront Fusion 2.0。有关更多详细信息，请联系您的帐户管理员。
 
-有关详细信息，请参阅[Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home)。
+有关详细信息，请参阅[Adobe Workfront Fusion](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/home)。
 
 ## 适用于MobileIron的Workfront简介
 

@@ -43,6 +43,6 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->此更改已于2022年5月23日在生产环境中更新。 有关详细信息，请参阅2022年5月26日的[维护更新](https://experienceleague.adobe.com/en/docs/workfront/using/home)。
+>此更改已于2022年5月23日在生产环境中更新。 有关详细信息，请参阅2022年5月26日的[维护更新](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home)。
 
 我们在所有可用痕迹导航的区域更新了痕迹导航分隔符。 现在，痕迹导航中的对象由竖线 (|) 分隔。在此更新之前，它们由正斜杠 (/) 分隔。

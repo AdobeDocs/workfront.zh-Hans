@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.2发行版概述
 
-本页介绍了22.2版本中包含的功能。 新增的Adobe Workfront Experience中提供了列出的所有功能。 Adobe Workfront Classic中还提供了某些功能；但是，[Workfront Classic将于2022年3月停产](https://experienceleague.adobe.com/en/docs/workfront/using/home)，此后不久将于2022年7月结束Workfront Classic的生命周期。
+本页介绍了22.2版本中包含的功能。 新增的Adobe Workfront Experience中提供了列出的所有功能。 Adobe Workfront Classic中还提供了某些功能；但是，[Workfront Classic将于2022年3月停产](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home)，此后不久将于2022年7月结束Workfront Classic的生命周期。
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -123,7 +123,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>在以下环境中可用：</strong> </p> 
     <ul> 
      <li> <p>新的Adobe Workfront体验 </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic将于2022年3月停产</a>，之后不久将于2022年7月终止Workfront Classic的生命周期。)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home" target="_blank">Workfront Classic将于2022年3月停产</a>，之后不久将于2022年7月终止Workfront Classic的生命周期。)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -291,7 +291,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>在以下环境中可用：</strong> </p> 
     <ul> 
      <li> <p>新的Adobe Workfront体验 </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic将于2022年3月停产</a>，之后不久将于2022年7月终止Workfront Classic的生命周期。)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home" target="_blank">Workfront Classic将于2022年3月停产</a>，之后不久将于2022年7月终止Workfront Classic的生命周期。)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -303,7 +303,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>在以下环境中可用：</strong> </p> 
     <ul> 
      <li> <p>新的Adobe Workfront体验 </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic将于2022年3月停产</a>，之后不久将于2022年7月终止Workfront Classic的生命周期。)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home" target="_blank">Workfront Classic将于2022年3月停产</a>，之后不久将于2022年7月终止Workfront Classic的生命周期。)</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -357,7 +357,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>在以下环境中可用：</strong> </p> 
     <ul> 
      <li> <p>新的Adobe Workfront体验 </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic将于2022年3月停产</a>，之后不久将于2022年7月终止Workfront Classic的生命周期。)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home" target="_blank">Workfront Classic将于2022年3月停产</a>，之后不久将于2022年7月终止Workfront Classic的生命周期。)</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -584,7 +584,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
 
 ## Workfront Fusion增强
 
-Workfront Fusion中的新增功能在22.2发布计划之外的生产环境中以一定节奏提供。 有关最新功能的详细信息，请参阅[Adobe Workfront Fusion发行活动](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
+Workfront Fusion中的新增功能在22.2发布计划之外的生产环境中以一定节奏提供。 有关最新功能的详细信息，请参阅[Adobe Workfront Fusion发行活动](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
 
 ## Workfront Scenario Planner增强
 
@@ -620,7 +620,7 @@ Workfront Fusion中的新增功能在22.2发布计划之外的生产环境中以
 
 ## Workfront 维护更新
 
-有关22.2版本期间所做的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)。
+有关22.2版本期间所做的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/zh-hans/docs/workfront-known-issues/releases/current-updates)。
 
 ## 22.2版本网络研讨会
 
@@ -653,7 +653,7 @@ was presented on January 12, 2022. You can view the webinar recording on the
 
 ## 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[培训版本更新页面](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)。
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[培训版本更新页面](https://experienceleague.adobe.com/zh-hans/docs/workfront-learn/tutorials-workfront/home)。
 
 ## 不再支持的功能
 

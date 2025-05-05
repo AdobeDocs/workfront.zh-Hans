@@ -72,7 +72,7 @@ ht-degree: 0%
 
 以前，在实际日期不可用时，您只能通过计划的预计日期管理日历。
 
-有关详细信息，请参阅[在日历报告中使用自定义日期字段](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (或者如果您使用的是Workfront Classic，请参阅[在日历报告中使用自定义日期字段](https://experienceleague.adobe.com/en/docs/workfront/using/home))。
+有关详细信息，请参阅[在日历报告中使用自定义日期字段](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (或者如果您使用的是Workfront Classic，请参阅[在日历报告中使用自定义日期字段](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home))。
 
 ## 电子邮件更改
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 **入站电子邮件POP回复更改：**&#x200B;系统管理员将无法再为通知的传入电子邮件回复配置自定义POP电子邮件服务器。
 
-有关详细信息，请参阅[电子邮件欺骗和POP回复电子邮件更改](https://experienceleague.adobe.com/en/docs/workfront/using/home)。
+有关详细信息，请参阅[电子邮件欺骗和POP回复电子邮件更改](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home)。
 
 ## DomainKeys Identified Mail (DKIM)现在包含在传出的Workfront电子邮件中
 

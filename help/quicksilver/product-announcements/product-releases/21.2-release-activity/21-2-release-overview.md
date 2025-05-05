@@ -442,7 +442,7 @@ Workfront Scenario Planner 21.2版本中的新增功能。 有关这些现在可
 
 ## Workfront Fusion增强
 
-Workfront Fusion中的新增功能在21.2发布计划之外的生产环境中以一定节奏提供。 有关最新功能的详细信息，请参阅[Adobe Workfront Fusion发布活动](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+Workfront Fusion中的新增功能在21.2发布计划之外的生产环境中以一定节奏提供。 有关最新功能的详细信息，请参阅[Adobe Workfront Fusion发布活动](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 
 ## API版本13
 

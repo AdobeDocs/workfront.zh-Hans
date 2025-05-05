@@ -50,7 +50,7 @@ ht-degree: 0%
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
-&#42;&#42;有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)
+&#42;&#42;有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)
 
 ## 触发事件
 

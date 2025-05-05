@@ -40,7 +40,7 @@ Adobe Workfront有两种发布新功能和更新的模型。 贵组织可以选�
 
 ### 维护更新
 
-每周，“生产”环境中都会提供针对Adobe Workfront产品的问题修复。 请参阅[Workfront维护更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)页面以查看最近修复的内容。
+每周，“生产”环境中都会提供针对Adobe Workfront产品的问题修复。 请参阅[Workfront维护更新](https://experienceleague.adobe.com/zh-hans/docs/workfront-known-issues/releases/current-updates)页面以查看最近修复的内容。
 
 ## 从计划版本中删除的功能
 

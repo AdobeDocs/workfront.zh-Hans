@@ -35,7 +35,7 @@ ht-degree: 1%
 
 本文介绍了工作负载均衡器的常规用途以及如何设置项目和资源以成功使用它的一些最佳实践。
 
-要查看工作负载均衡器的视频教程，请转到[Workfront教程](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)页面。 在左侧菜单中，选择&#x200B;**管理资源** > **工作负载均衡器**，然后选择教程。
+要查看工作负载均衡器的视频教程，请转到[Workfront教程](https://experienceleague.adobe.com/zh-hans/docs/workfront-learn/tutorials-workfront/home)页面。 在左侧菜单中，选择&#x200B;**管理资源** > **工作负载均衡器**，然后选择教程。
 
 ## 找到工作负载均衡器
 

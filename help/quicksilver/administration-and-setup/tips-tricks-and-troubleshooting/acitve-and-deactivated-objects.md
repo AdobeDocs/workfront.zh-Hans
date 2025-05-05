@@ -104,7 +104,7 @@ ht-degree: 2%
 >
 >如果您的组织已载入[!DNL Adobe Business Platform]，则必须通过[!UICONTROL Adobe Admin Console]取消激活用户。
 >
->有关在[!UICONTROL Adobe Admin Console]中停用用户的说明，请参阅[单独管理用户](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)一文中的“删除用户”一节，或联系您的[!UICONTROL Adobe Admin Console]管理员。
+>有关在[!UICONTROL Adobe Admin Console]中停用用户的说明，请参阅[单独管理用户](https://helpx.adobe.com/cn/enterprise/using/manage-users-individually.html)一文中的“删除用户”一节，或联系您的[!UICONTROL Adobe Admin Console]管理员。
 >
 >有关因贵组织是否已登记到[!DNL Adobe Business Platform]而不同的过程列表，请参阅[基于平台的管理差异(Adobe Workfront/Adobe业务平台)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 

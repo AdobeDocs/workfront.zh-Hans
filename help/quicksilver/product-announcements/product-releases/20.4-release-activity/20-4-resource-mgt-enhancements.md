@@ -32,7 +32,7 @@ ht-degree: 0%
 
 有关工作投入的信息，请参阅[工作投入概述](../../../manage-work/tasks/task-information/work-effort.md)。
 
-此功能现已包含在Workfront One上的[规划基础知识第2部分学习路径](https://experienceleague.adobe.com/en/docs/workfront/using/home)中。
+此功能现已包含在Workfront One上的[规划基础知识第2部分学习路径](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home)中。
 
 ## 工作负载均衡器中工作项的基于项目状态的颜色
 

@@ -435,7 +435,7 @@ API版本11随2020.1版发布。 有关新增功能和更新的信息，请参�
 
 从2020年5月20日开始，Workfront每周开始在预览环境中提供一次功能。 在此更改之前，通常每两周向预览环境发布一次功能。
 
-有关详细信息，请参阅[在Workfront中更改预览版本节奏常见问题解答](https://experienceleague.adobe.com/en/docs/workfront/using/home)
+有关详细信息，请参阅[在Workfront中更改预览版本节奏常见问题解答](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home)
 
 ### 访问Workfront所需的其他域的允许列表 {#allowlist-of-additional-domains-required-for-accessing-workfront}
 
@@ -454,7 +454,7 @@ API版本11随2020.1版发布。 有关新增功能和更新的信息，请参�
 
 ### 20.3版本网络研讨会 {#20-3-release-webinar}
 
-在[此处](https://experienceleague.adobe.com/en/docs/workfront/using/home)查看20.3产品发布网络研讨会。
+在[此处](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home)查看20.3产品发布网络研讨会。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

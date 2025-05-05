@@ -25,7 +25,7 @@ ht-degree: 0%
 
 在移动设备应用程序和Web上使用Workfront时，为了使体验更加一致，在新的或现有的布局模板中对左侧面板辅助导航所做的任何自定义都会自动反映在移动设备应用程序中。
 
-要了解有关自定义左侧面板的更多信息，请参阅[在新的Workfront体验中使用布局模板自定义左侧面板](https://experienceleague.adobe.com/en/docs/workfront/using/home)。
+要了解有关自定义左侧面板的更多信息，请参阅[在新的Workfront体验中使用布局模板自定义左侧面板](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home)。
 
 ## 为移动应用程序上的更新点赞
 

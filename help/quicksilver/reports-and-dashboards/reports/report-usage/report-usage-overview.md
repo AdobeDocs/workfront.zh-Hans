@@ -19,7 +19,7 @@ ht-degree: 0%
 
 本节包含以下文章：
 
-* 新Workfront体验的[基本报告创建计划](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)
+* 新Workfront体验的[基本报告创建计划](https://experienceleague.adobe.com/zh-hans/docs/workfront-learn/tutorials-workfront/home)
 * [访问和组织报告](../../../reports-and-dashboards/reports/report-usage/access-organize-reports.md)
 * [创建报告活动报告](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)
 * [了解如何在仪表板上组织报告](../../../reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)

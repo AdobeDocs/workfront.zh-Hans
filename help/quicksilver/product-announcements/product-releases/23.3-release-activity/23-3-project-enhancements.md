@@ -29,10 +29,10 @@ ht-degree: 0%
 * 直接从“我的更新”和“主页”做出批准决策
 * 为特定文档版本创建批准
 
-有关使用新文档审批的详细信息，请参阅[新文档审批概述](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview)。
+有关使用新文档审批的详细信息，请参阅[新文档审批概述](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview)。
 
 ## “新建共享”按钮
 
 已从项目、任务和问题的更多菜单中提取共享选项，以使共享更直观。 现在，新的共享按钮显示在对象名称旁边，紧靠更多菜单之前。 共享文档、项目组合和项目群保持不变。
 
-有关共享对象的详细信息，请参阅[共享对象](https://experienceleague.adobe.com/en/docs/workfront/using/basics/grant-request-object-permissions/share-an-object)。
+有关共享对象的详细信息，请参阅[共享对象](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/basics/grant-request-object-permissions/share-an-object)。

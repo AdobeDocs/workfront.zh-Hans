@@ -514,7 +514,7 @@ Task对象表示作为实现最终目标（完成项目）的步骤而必须执�
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>这些操作支持在系统范围内共享筛选器、视图和分组的功能。</p><p>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">使筛选器、视图或分组对所有用户都可用</a>。</p>
+            <p>这些操作支持在系统范围内共享筛选器、视图和分组的功能。</p><p>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">使筛选器、视图或分组对所有用户都可用</a>。</p>
          </li>
         </ul>
       </td>
@@ -538,7 +538,7 @@ Task对象表示作为实现最终目标（完成项目）的步骤而必须执�
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>这些操作支持在系统范围内共享筛选器、视图和分组的功能。</p><p>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">使筛选器、视图或分组对所有用户都可用</a>。</p>
+            <p>这些操作支持在系统范围内共享筛选器、视图和分组的功能。</p><p>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">使筛选器、视图或分组对所有用户都可用</a>。</p>
          </li>
         </ul>
       </td>
@@ -579,7 +579,7 @@ Task对象表示作为实现最终目标（完成项目）的步骤而必须执�
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>这些操作支持在系统范围内共享筛选器、视图和分组的功能。</p><p>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">使筛选器、视图或分组对所有用户都可用</a>。</p>
+            <p>这些操作支持在系统范围内共享筛选器、视图和分组的功能。</p><p>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">使筛选器、视图或分组对所有用户都可用</a>。</p>
          </li>
         </ul>
       </td>

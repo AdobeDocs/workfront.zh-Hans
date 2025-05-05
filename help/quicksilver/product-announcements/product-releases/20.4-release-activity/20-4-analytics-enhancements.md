@@ -29,4 +29,4 @@ ht-degree: 0%
 
 以前，增强型分析区域将您可以查看的项目数量限制为50个。
 
-此功能现已包含在Workfront One的[Enhanced Analytics，第1部分学习路径](https://experienceleague.adobe.com/en/docs/workfront/using/home)中。
+此功能现已包含在Workfront One的[Enhanced Analytics，第1部分学习路径](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home)中。

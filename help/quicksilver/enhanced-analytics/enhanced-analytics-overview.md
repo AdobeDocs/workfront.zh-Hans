@@ -34,7 +34,7 @@ ht-degree: 3%
 
 ![分析](assets/nwe-full-screen-analytics-350x222.png)
 
-要查看用例或了解有关管理当前工作和规划增强分析未来工作的更多信息，请参阅[增强分析学习路径](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)。
+要查看用例或了解有关管理当前工作和规划增强分析未来工作的更多信息，请参阅[增强分析学习路径](https://experienceleague.adobe.com/zh-hans/docs/workfront-learn/tutorials-workfront/home)。
 
 ## 先决条件
 
@@ -46,7 +46,7 @@ ht-degree: 3%
 
 * 让您的Workfront管理员将增强型分析添加到您的布局模板。
 
-  有关详细信息，请参阅[增强型分析：将分析添加到布局模板](https://experienceleague.adobe.com/en/docs/workfront/using/home)。
+  有关详细信息，请参阅[增强型分析：将分析添加到布局模板](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home)。
 
 要查看有关项目和任务的信息，您必须：
 

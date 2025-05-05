@@ -30,8 +30,8 @@ ht-degree: 0%
 
 从外部应用程序中删除链接的文档或文件夹时，该文档或文件夹将保留在Workfront系统中，直到您也从Workfront中删除它为止。
 
-* 要从Adobe Experience Manager as a Cloud Service中删除资源，请参阅Adobe Experience Manager as a Cloud Service文档中的[删除资源](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#delete-assets)。
-* 要从Adobe Experience Manager Assets Essentials中删除资源，请参阅Adobe Experience Manager Assets Essentials文档中的[删除资源或文件夹](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/add-delete#delete-assets)。
+* 要从Adobe Experience Manager as a Cloud Service中删除资源，请参阅Adobe Experience Manager as a Cloud Service文档中的[删除资源](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#delete-assets)。
+* 要从Adobe Experience Manager Assets Essentials中删除资源，请参阅Adobe Experience Manager Assets Essentials文档中的[删除资源或文件夹](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-assets-essentials/help/add-delete#delete-assets)。
 
 
 

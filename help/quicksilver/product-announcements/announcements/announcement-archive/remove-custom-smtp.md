@@ -25,4 +25,4 @@ ht-degree: 0%
 
 如果您已配置自定义SMTP邮件服务器，**我们强烈建议您联系IT团队**，以确保不会阻止来自notifications@my.workfront.com的电子邮件接收系统电子邮件。 您还可以参考配置防火墙，了解有关流量和电子邮件来自哪些IP地址的详细信息。
 
-如果您有任何其他问题或顾虑，请联系[Workfront支持团队](https://experienceleague.adobe.com/?support-tab=home#support)。
+如果您有任何其他问题或顾虑，请联系[Workfront支持团队](https://experienceleague.adobe.com/zh-hans?support-tab=home#support)。

@@ -44,4 +44,4 @@ ht-degree: 4%
 
 通过[!DNL Adobe Admin Console]创建包。
 
-有关创建这些包的说明，请参阅Adobe Admin Console文档中的[托管包](https://helpx.adobe.com/enterprise/using/create-nul-packages.html#managed-packages)。
+有关创建这些包的说明，请参阅Adobe Admin Console文档中的[托管包](https://helpx.adobe.com/cn/enterprise/using/create-nul-packages.html#managed-packages)。

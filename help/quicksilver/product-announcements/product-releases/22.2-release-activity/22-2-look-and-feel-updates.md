@@ -55,7 +55,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->功能板中这些相同报告的工具栏也在2022年3月3日通过每周[维护更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)在生产环境中更新。
+>功能板中这些相同报告的工具栏也在2022年3月3日通过每周[维护更新](https://experienceleague.adobe.com/zh-hans/docs/workfront-known-issues/releases/current-updates)在生产环境中更新。
 
 * 项目报表
 * 任务报告

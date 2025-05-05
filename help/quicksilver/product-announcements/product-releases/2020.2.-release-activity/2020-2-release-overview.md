@@ -267,7 +267,7 @@ API版本11随2020.1版发布。 有关新增功能和更新的信息，请参�
 
 从2020年5月20日开始，Workfront将每周开始在“预览”环境中提供相应功能。 在此更改之前，通常每两周向预览环境发布一次功能。
 
-有关详细信息，请参阅[在Workfront中更改预览版本节奏常见问题解答](https://experienceleague.adobe.com/en/docs/workfront/using/home)
+有关详细信息，请参阅[在Workfront中更改预览版本节奏常见问题解答](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home)
 
 ### 将其他域添加到访问Workfront所需的允许列表 {#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront}
 

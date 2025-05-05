@@ -36,7 +36,7 @@ ht-degree: 0%
 
 有关详细信息，请参阅[审核日志](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)。
 
-此功能现已包含在新Workfront Experience的[管理员基础知识部分，第2部分：项目设置](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Workfront One学习路径中。
+此功能现已包含在新Workfront Experience的[管理员基础知识部分，第2部分：项目设置](https://experienceleague.adobe.com/zh-hans/docs/workfront-learn/tutorials-workfront/home) Workfront One学习路径中。
 
 ## 对于组管理员：改进了移动子组的控件并更新了工具栏
 
@@ -137,7 +137,7 @@ ht-degree: 0%
 
 有关详细信息，请参阅[使用布局模板自定义筛选器、视图和分组](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)。
 
-此功能现已包含在Workfront One上的新Workfront Experience第3部分：控制和界面体验[&#128279;](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)学习路径的管理员基础知识中。
+此功能现已包含在Workfront One上的新Workfront Experience第3部分：控制和界面体验[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/workfront-learn/tutorials-workfront/home)学习路径的管理员基础知识中。
 
 ## 管理员的新增功能：轻松列出当前使用自定义字段的报告
 

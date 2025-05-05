@@ -33,7 +33,7 @@ ht-degree: 0%
 
 有关校对决定的详细信息，请参阅[文档区域](../../../documents/managing-documents/documents-area.md)。
 
-此功能现已包含在Workfront One上的新Workfront Experience[&#128279;](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)学习路径的管理验证和版本中。
+此功能现已包含在Workfront One上的新Workfront Experience[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/workfront-learn/tutorials-workfront/home)学习路径的管理验证和版本中。
 
 ## 验证审批报告的新字段
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 这些字段不是默认报表的一部分。 如果您想查看这些幻灯片，则需要添加这些幻灯片。
 
-此功能现已包含在Workfront One上的[验证系统设置第2部分：工作流管理](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)学习路径中。
+此功能现已包含在Workfront One上的[验证系统设置第2部分：工作流管理](https://experienceleague.adobe.com/zh-hans/docs/workfront-learn/tutorials-workfront/home)学习路径中。
 
 ## 生成新版本时结转现有验证工作流
 

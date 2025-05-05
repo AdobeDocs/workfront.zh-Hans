@@ -709,7 +709,7 @@ ht-degree: 0%
 
 ### Workfront Fusion增强
 
-Workfront Fusion中的新增功能在22.4版本发行计划之外的生产环境中以一定节奏提供。 有关最新功能的详细信息，请参阅[Adobe Workfront Fusion发行活动](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
+Workfront Fusion中的新增功能在22.4版本发行计划之外的生产环境中以一定节奏提供。 有关最新功能的详细信息，请参阅[Adobe Workfront Fusion发行活动](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
 
 ### WorkfrontScenario Planner增强功能
 
@@ -733,7 +733,7 @@ Workfront Fusion中的新增功能在22.4版本发行计划之外的生产环境
 
 ### Workfront 维护更新
 
-有关22.3版本期间所做的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)。
+有关22.3版本期间所做的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/zh-hans/docs/workfront-known-issues/releases/current-updates)。
 
 ### 22.4版本网络研讨会
 
@@ -741,7 +741,7 @@ Workfront Fusion中的新增功能在22.4版本发行计划之外的生产环境
 
 ### 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[培训版本更新页面](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)。
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[培训版本更新页面](https://experienceleague.adobe.com/zh-hans/docs/workfront-learn/tutorials-workfront/home)。
 
 ### 即将从22.4版本中删除的功能
 

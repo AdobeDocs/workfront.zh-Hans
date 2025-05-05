@@ -27,5 +27,5 @@ ht-degree: 0%
 
 将Workfront IP地址添加到Adobe Cloud Manager 列入允许列表。
 
-* 有关将IP地址添加到Adobe Cloud Manager的说明，请参阅Adobe Experience Manager文档中的[IP允许列表简介](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/ip-allow-lists/introduction)。
+* 有关将IP地址添加到Adobe Cloud Manager的说明，请参阅Adobe Experience Manager文档中的[IP允许列表简介](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/ip-allow-lists/introduction)。
 * 有关要添加到Workfront的列入允许列表 IP地址列表，请参阅[配置防火墙](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
