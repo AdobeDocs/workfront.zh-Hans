@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: ab3e1a354ec897797a455d6e25c7bf292a337a9d
+source-git-commit: 38e9a626e9bf172cacbee8688d6303224301e785
 workflow-type: tm+mt
-source-wordcount: '13174'
+source-wordcount: '13180'
 ht-degree: 2%
 
 ---
@@ -2461,6 +2461,7 @@ ht-degree: 2%
       * [使用JWT流配置和使用贵组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程配置和使用您组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-pkce-flow.md)
       * [弃用API — 内部](wf-api/api/deprecation-api-internal.md)
+      * [API版本20](wf-api/api/new-api-version-20.md)中的新增功能
       * [API版本19](wf-api/api/new-api-version-19.md)中的新增功能
       * [API版本18中的新增功能](wf-api/api/new-api-version-18.md)
       * [API版本17中的新增功能](wf-api/api/new-api-version-17.md)
