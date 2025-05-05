@@ -98,6 +98,6 @@ SPI = (Total Planned Hours x % Complete) / Planned Hours Scheduled to Date*
 
    1. 单击左侧面板中的&#x200B;**任务详细信息**，然后查看&#x200B;**财务**&#x200B;区域。
 
-      项目](assets/spi-on-project-nwe.png)上的![SPI
+      项目![&#128279;](assets/spi-on-project-nwe.png)上的SPI
 
 1. 查找&#x200B;**CPI/ SPI/ CSI**&#x200B;字段。

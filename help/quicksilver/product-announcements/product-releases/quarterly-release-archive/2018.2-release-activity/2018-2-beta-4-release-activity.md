@@ -26,11 +26,11 @@ ht-degree: 0%
 
 2018.2 Beta 4版本包含适用于Workfront管理员和其他用户的增强功能：
 
-管理员的&#x200B;****
+管理员的&#x200B;**&#x200B;**
 
 * [系统设置：外部页面中的会话信息](#system-setting-session-information-in-external-pages)
 
-所有用户&#x200B;****
+所有用户&#x200B;**&#x200B;**
 
 * Kanban展示板上的[正在工作(WIP)限制增强功能](#work-in-progress-wip-limit-enhancements-on-the-kanban-board)
 * [改进了配置Agile团队状态的界面](#improved-interface-for-configuring-statuses-for-an-agile-team)

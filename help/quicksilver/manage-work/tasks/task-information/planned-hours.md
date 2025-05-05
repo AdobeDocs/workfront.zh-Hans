@@ -44,7 +44,7 @@ ht-degree: 0%
 
 任务的计划小时数表示估计任务的实际工时可能花费的时间。 默认情况下，Workfront会平均分配每个任务持续时间内每天的计划小时总数。 每日已计划小时数将成为任务的每日分配数。 如果将任务分配给多个资源，则默认情况下，每个资源分配的每日小时数相等。
 
-使用工作负载均衡器，您可以修改分配给任务的用户的每日分配。 当任务持续时间类型为简单时，这还可以更新任务的已计划小时数。 有关详细信息，请参阅在工作负载均衡器](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)中的管理用户分派一文[中的“管理用户分派时更新任务已计划小时数”部分。
+使用工作负载均衡器，您可以修改分配给任务的用户的每日分配。 当任务持续时间类型为简单时，这还可以更新任务的已计划小时数。 有关详细信息，请参阅在工作负载均衡器[&#128279;](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)中的管理用户分派一文中的“管理用户分派时更新任务已计划小时数”部分。
 
 当任务包含子任务时，父任务的计划小时数是任何子任务上所有计划小时数的总和。 您无法更新父任务的已计划小时数。
 
@@ -178,7 +178,7 @@ The daily hour amount represents one of the following:
 >
 >工作负载均衡器中的每日分配调整影响资源规划者中任务和问题的每周分配。
 
-每个对象的计划小时数因应用于资源规划者的视图而异。 有关详细信息，请参阅资源规划者](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)的项目和角色视图中的[小时概述、FTE和成本信息。
+每个对象的计划小时数因应用于资源规划者的视图而异。 有关详细信息，请参阅资源规划者[&#128279;](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)的项目和角色视图中的小时概述、FTE和成本信息。
 
 任务和问题的每周计划小时数表示以下值之一：
 

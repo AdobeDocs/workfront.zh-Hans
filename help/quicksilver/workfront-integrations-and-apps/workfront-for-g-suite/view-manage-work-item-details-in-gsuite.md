@@ -36,7 +36,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[！UICONTROL工作]，[！UICONTROL计划]</p> </td> 
+   <td> <p>[!UICONTROL 工作]，[!UICONTROL 计划]</p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -53,7 +53,7 @@ ht-degree: 0%
 ## 在[!DNL Google Workspace]中查看和管理工作项详细信息
 
 1. 如果未显示[!UICONTROL Workfront for Google Workspace]面板，请单击页面最右侧[!DNL Google Workspace]加载项侧边栏中的[!DNL Workfront]图标![Workfront图标](assets/wf-lion-icon.png)。
-1. 按照 [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)的[访问 [!DNL Adobe Workfront] [!UICONTROL 主页]内容中的说明，转到[!DNL Google Workspace]中的[!DNL Workfront]任务或问题。
+1. 按照 [!DNL Google Workspace][&#128279;](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)的访问 [!DNL Adobe Workfront] [!UICONTROL 主页]内容中的说明，转到[!DNL Google Workspace]中的[!DNL Workfront]任务或问题。
 
    当您选择任务或问题时，**[!UICONTROL 详细信息]**&#x200B;选项卡处于打开状态。 **[!UICONTROL 详细信息]**&#x200B;选项卡上方的区域显示父对象的名称、任务或问题的名称，以及[!UICONTROL 到期日期]（如果它是任务）或[!UICONTROL 优先级日期]（如果它是问题）。
 
@@ -82,4 +82,4 @@ ht-degree: 0%
 1. （可选）单击&#x200B;**[!UICONTROL 在[!DNL Workfront]]**&#x200B;中查看以转到[!DNL Workfront]中的当前工作项。
 
 * 有关在[!DNL Workfront for Google Workspace]中使用[!UICONTROL 更新]选项卡的信息，请参阅[从 [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)更新 [!DNL Adobe Workfront] 对象。
-* 有关在[!DNL Workfront for Google Workspace]中使用[!UICONTROL 文档]选项卡的信息，请参阅[从[！DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)查看和管理文档。
+* 有关在[!DNL Workfront for Google Workspace]中使用[!UICONTROL 文档]选项卡的信息，请参阅[从[!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)查看和管理文档。

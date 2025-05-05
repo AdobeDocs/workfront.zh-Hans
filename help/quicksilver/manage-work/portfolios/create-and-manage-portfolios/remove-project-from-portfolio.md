@@ -36,16 +36,16 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
    <td> <p>新增：标准</p>
-   <p>当前： [！UICONTROL计划] </p> </td> 
+   <p>当前： [!UICONTROL 计划] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别</td> 
-   <td> <p>[！UICONTROL Edit]对项目的访问权限</p> <p>[！UICONTROL Edit]对项目组合的访问权限</p>  </td> 
+   <td> <p>[!UICONTROL Edit]对项目的访问权限</p> <p>[!UICONTROL Edit]对项目组合的访问权限</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>项目组合和项目的[！UICONTROL Manage]权限以移除项目</p>
-   <p>[！UICONTROL Manage]具有对项目的[！UICONTROL Delete]访问权限，可从项目组合中删除这些项目</p> </td> 
+   <td> <p>项目组合和项目的[!UICONTROL Manage]权限以移除项目</p>
+   <p>[!UICONTROL Manage]具有对项目的[!UICONTROL Delete]访问权限，可从项目组合中删除这些项目</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,6 +62,6 @@ ht-degree: 1%
    ![删除项目按钮](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
 
 1. 单击&#x200B;**[!UICONTROL 删除项目]**。
-1. 单击&#x200B;**[!UICONTROL 删除]**&#x200B;以从[!DNL Workfront]中删除项目，或单击&#x200B;**[!UICONTROL 从Portfolio]**&#x200B;中删除&#x200B;]****[!UICONTROL &#x200B;以从所选Portfolio中删除该项目。
+1. 单击&#x200B;**[!UICONTROL 删除]**&#x200B;以从[!DNL Workfront]中删除项目，或单击&#x200B;**[!UICONTROL 从Portfolio]**&#x200B;中删除&#x200B;**&#x200B;**&#x200B;以从所选Portfolio中删除该项目。
 
 1. （可选且有条件）查找您从项目组合中删除的项目，并将其与另一个项目组合关联。 有关将项目与项目组合关联的信息，请参阅[将项目添加到项目组合](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)。

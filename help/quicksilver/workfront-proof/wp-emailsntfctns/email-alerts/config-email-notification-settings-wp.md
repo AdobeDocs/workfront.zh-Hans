@@ -50,7 +50,7 @@ ht-degree: 0%
 
 具有[!UICONTROL 管理员]或[!UICONTROL 计费管理员]配置文件的用户还可以在“帐户”设置中为帐户中的其他用户设置验证默认值。
 
-有关配置文件的信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[验证权限配置文件。
+有关配置文件的信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的验证权限配置文件。
 
 ## 访问要求
 
@@ -91,32 +91,32 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL所有活动]</td> 
-      <td>每次验证上发生任何活动（如新评论、回复或决策）时，[！UICONTROL Workfront]都会向查看者发送电子邮件。 <p>这是管理校对流程的人员的最佳选项，因为它允许他们查看活动发生的情况。 </p><p>用户不会收到有关其活动的电子邮件警报。</p></td> 
+      <td role="rowheader">[!UICONTROL 所有活动]</td> 
+      <td>每次验证上发生任何活动（如新评论、回复或决策）时，[!UICONTROL Workfront]都会向查看者发送电子邮件。 <p>这是管理校对流程的人员的最佳选项，因为它允许他们查看活动发生的情况。 </p><p>用户不会收到有关其活动的电子邮件警报。</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL回复我的评论]</td> 
+      <td role="rowheader">[!UICONTROL 回复我的评论]</td> 
       <td>只有当某人明确回复其评论时，才会向审阅人发送电子邮件（这不包括他们自己对评论的回复）。 这意味着如果验证中的某人发表新评论，则不会通知查看者。<p>建议向验证上的客户使用此设置，以便他们不会收到有关验证的任何其他评论的通知，并且只会在回复他们自己的评论时收到通知。</p><p>虽然具有此电子邮件警报设置的查看者不会收到有关其他新评论的通知，但他们仍然可以在验证查看器中查看有关验证的所有评论。</p><p>有关评论的信息，请参阅<a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">查看和回复校对评论</a>。</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL决策]</td> 
+      <td role="rowheader">[!UICONTROL 决策]</td> 
       <td>[!DNL Workfront] 仅当有人作出决定时向审阅人发送电子邮件。<p>这对于管理审批流程的人员（如项目经理）非常有用，他们需要监控验证进度并查看哪些用户做出了决定。</p><p>除非您在提交决策时选择了电子邮件确认选项，否则不会通知您自己的决策。</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL最终决定]</td> 
+      <td role="rowheader">[!UICONTROL 最终决定]</td> 
       <td>[!DNL Workfront] 当验证的最后一位审批者做出决定时会发送电子邮件。<p>此警报通常由设计人员使用，他们通常不需要参加实际的审核讨论。 当做出最终决定时，设计人员会收到通知，然后可以对任何必要的更改执行操作。</p><p>此警报对于需要仅在审核流程完成后才收到通知的部门领导也很有用。</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL小时摘要]</td> 
+      <td role="rowheader">[!UICONTROL 小时摘要]</td> 
       <td>[!DNL Workfront] 每小时向查看者发送一封电子邮件，其中包含该小时发生的所有评论、回复和决策的摘要。<p>仅当过去一小时内发生除您自己的活动以外的活动时，才会发送电子邮件。 </p><p>此警报非常适合用于查看项目概述。</p><p>此摘要的示例用例是高级查看者，他需要项目概述，但不需要立即收到有关验证中所有活动的通知。</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL每日摘要]</td> 
+      <td role="rowheader">[!UICONTROL 每日摘要]</td> 
       <td>[!DNL Workfront] 仅当您有其他活动时，才会发送一封电子邮件，其中包含列出的所有评论、回复和决策。<p>此警报非常适合用于查看项目摘要，而不会在一天之内出现多次更新。</p><p>此摘要的示例用例是一个部门领导，他想要监控项目的整体进度。</p><p>有关详细信息，请参阅<a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">管理证明评论和决策的通知</a>。</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[！UICONTROL无电子邮件]</td> 
-      <td>[!DNL Workfront] 不发送任何电子邮件警报。<br>这对于仅供参考而添加到验证中且不需要收到任何更改通知的人员非常有用。<p>系统默认值为[！UICONTROL Daily summary] （也称为[！UICONTROL未设置]）。 如果您或您的审阅人没有进行任何其他更改，则您的所有验证均具有此设置。</p></td> 
+      <td role="rowheader">[!UICONTROL 无电子邮件]</td> 
+      <td>[!DNL Workfront] 不发送任何电子邮件警报。<br>这对于仅供参考而添加到验证中且不需要收到任何更改通知的人员非常有用。<p>系统默认值为[!UICONTROL Daily summary] （也称为[!UICONTROL 未设置]）。 如果您或您的审阅人没有进行任何其他更改，则您的所有验证均具有此设置。</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -128,13 +128,13 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL验证就绪时电子邮件确认]</td> 
-      <td>指定在创建验证时是否要接收[！UICONTROL Proof maked]电子邮件。 有关详细信息，请参阅<a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md" class="MCXref xref">已做出[！UICONTROL校对]电子邮件</a></td> 
+      <td role="rowheader">[!UICONTROL 验证就绪时电子邮件确认]</td> 
+      <td>指定在创建验证时是否要接收[!UICONTROL Proof maked]电子邮件。 有关详细信息，请参阅<a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md" class="MCXref xref">已做出[!UICONTROL 校对]电子邮件</a></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL发送给我的电子邮件格式] </td> 
+      <td role="rowheader">[!UICONTROL 发送给我的电子邮件格式] </td> 
       <td> <p>在HTML样式电子邮件和纯文本电子邮件之间进行选择。 </p> <p><b>注释</b></p>
-      <p>校对默认设置被校对级别的设置覆盖。 但是，如果在[！UICONTROL帐户]设置中为整个帐户禁用了验证电子邮件通知，那么即使未在验证中选择[！UICONTROL禁用的电子邮件警报]，也不会向协作者发送电子邮件警报。<br></p> </td> 
+      <p>校对默认设置被校对级别的设置覆盖。 但是，如果在[!UICONTROL 帐户]设置中为整个帐户禁用了验证电子邮件通知，那么即使未在验证中选择[!UICONTROL 禁用的电子邮件警报]，也不会向协作者发送电子邮件警报。<br></p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -185,32 +185,32 @@ ht-degree: 0%
     <col>
     <tbody>
      <tr>
-      <td role="rowheader">[！UICONTROL所有活动]</td>
+      <td role="rowheader">[!UICONTROL 所有活动]</td>
       <td>[!DNL Workfront] 每次在验证上发生任何活动（如新评论、回复或决策）时，向查看者发送电子邮件。 <p>这是管理校对流程的人员的最佳选项，因为它允许他们查看活动发生的情况。 </p><p>用户不会收到有关其活动的电子邮件警报。</p></td>
      </tr>
      <tr>
-      <td role="rowheader">[！UICONTROL回复我的评论]</td>
+      <td role="rowheader">[!UICONTROL 回复我的评论]</td>
       <td>只有当某人明确回复其评论时，才会向审阅人发送电子邮件（这不包括他们自己对评论的回复）。 这意味着如果验证中的某人发表新评论，则不会通知查看者。<p>建议向验证上的客户使用此设置，以便他们不会收到有关验证的任何其他评论的通知，并且只会在回复他们自己的评论时收到通知。</p><p>虽然具有此电子邮件警报设置的查看者不会收到有关其他新评论的通知，但他们仍然可以在验证查看器中查看有关验证的所有评论。</p><p>有关评论的信息，请参阅<a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">查看和回复校对评论</a>。</p></td>
      </tr>
      <tr>
-      <td role="rowheader">[！UICONTROL决策]</td>
+      <td role="rowheader">[!UICONTROL 决策]</td>
       <td>[!DNL Workfront] 仅当有人作出决定时向审阅人发送电子邮件。<p>这对于管理审批流程的人员（如项目经理）非常有用，他们需要监控验证进度并查看哪些用户做出了决定。</p><p>除非您在提交决策时选择了电子邮件确认选项，否则不会通知您自己的决策。</p></td>
      </tr>
      <tr>
-      <td role="rowheader">[！UICONTROL最终决定]</td>
+      <td role="rowheader">[!UICONTROL 最终决定]</td>
       <td>[!DNL Workfront] 当验证的最后一位审批者做出决定时会发送电子邮件。<p>此警报通常由设计人员使用，他们通常不需要参加实际的审核讨论。 当做出最终决定时，设计人员会收到通知，然后可以对任何必要的更改执行操作。</p><p>此警报对于需要仅在审核流程完成后才收到通知的部门领导也很有用。</p></td>
      </tr>
      <tr>
-      <td role="rowheader">[！UICONTROL小时摘要]</td>
+      <td role="rowheader">[!UICONTROL 小时摘要]</td>
       <td>[!DNL Workfront] 每小时向查看者发送一封电子邮件，其中包含该小时发生的所有评论、回复和决策的摘要。<p>仅当过去一小时内发生除您自己的活动以外的活动时，才会发送电子邮件。 </p><p>此警报非常适合用于查看项目概述。</p><p>此摘要的示例用例是高级查看者，他需要项目概述，但不需要立即收到有关验证中所有活动的通知。</p></td>
      </tr>
      <tr>
-      <td role="rowheader">[！UICONTROL每日摘要]</td>
+      <td role="rowheader">[!UICONTROL 每日摘要]</td>
       <td>[!DNL Workfront] 仅当您有其他活动时，才会发送一封电子邮件，其中包含列出的所有评论、回复和决策。<p>此警报非常适合用于查看项目摘要，而不会在一天之内出现多次更新。</p><p>此摘要的示例用例是一个部门领导，他想要监控项目的整体进度。</p><p>有关详细信息，请参阅<a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">管理证明评论和决策的通知</a>。</p></td>
      </tr>
      <tr data-mc-conditions="">
-      <td role="rowheader">[！UICONTROL无电子邮件]</td>
-      <td>[!DNL Workfront] 不发送任何电子邮件警报。<br>这对于仅供参考而添加到验证中且不需要收到任何更改通知的人员非常有用。<p>系统默认值为[！UICONTROL Daily summary] （也称为[！UICONTROL未设置]）。 如果您或您的审阅人没有进行任何其他更改，则您的所有验证均具有此设置。</p></td>
+      <td role="rowheader">[!UICONTROL 无电子邮件]</td>
+      <td>[!DNL Workfront] 不发送任何电子邮件警报。<br>这对于仅供参考而添加到验证中且不需要收到任何更改通知的人员非常有用。<p>系统默认值为[!UICONTROL Daily summary] （也称为[!UICONTROL 未设置]）。 如果您或您的审阅人没有进行任何其他更改，则您的所有验证均具有此设置。</p></td>
      </tr>
     </tbody>
    </table>
@@ -222,12 +222,12 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL验证就绪时电子邮件确认]</td> 
-      <td>指定在创建验证时是否要接收[！UICONTROL Proof maked]电子邮件。 有关详细信息，请参阅<a href="https://support.workfront.com/hc/en-us/article">已做出[！UICONTROL校对]电子邮件。</a></td> 
+      <td role="rowheader">[!UICONTROL 验证就绪时电子邮件确认]</td> 
+      <td>指定在创建验证时是否要接收[!UICONTROL Proof maked]电子邮件。 有关详细信息，请参阅<a href="https://support.workfront.com/hc/en-us/article">已做出[!UICONTROL 校对]电子邮件。</a></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL发送给我的电子邮件格式] </td> 
-      <td> <p>在HTML样式电子邮件和纯文本电子邮件之间进行选择。 </p> <p><b>注释</b></p> <p>校对默认设置被校对级别的设置覆盖。 但是，如果在[！UICONTROL帐户]设置中为整个帐户禁用了验证电子邮件通知，那么即使未在验证中选择[！UICONTROL禁用的电子邮件警报]，也不会向协作者发送电子邮件警报。<br></p> </td> 
+      <td role="rowheader">[!UICONTROL 发送给我的电子邮件格式] </td> 
+      <td> <p>在HTML样式电子邮件和纯文本电子邮件之间进行选择。 </p> <p><b>注释</b></p> <p>校对默认设置被校对级别的设置覆盖。 但是，如果在[!UICONTROL 帐户]设置中为整个帐户禁用了验证电子邮件通知，那么即使未在验证中选择[!UICONTROL 禁用的电子邮件警报]，也不会向协作者发送电子邮件警报。<br></p> </td> 
      </tr> 
     </tbody> 
    </table>

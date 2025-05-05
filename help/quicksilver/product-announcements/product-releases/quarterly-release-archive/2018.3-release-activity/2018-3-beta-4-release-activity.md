@@ -22,11 +22,11 @@ ht-degree: 0%
 
 2018.3 Beta 4版本包含面向Workfront管理员和其他用户的增强功能：
 
-管理员的&#x200B;****
+管理员的&#x200B;**&#x200B;**
 
 * [以组管理员身份更新用户配置文件中的报告结构](#update-reporting-structure-in-the-user-profile-as-a-group-administrator) 
 
-所有用户&#x200B;****
+所有用户&#x200B;**&#x200B;**
 
 * [从资源规划者导出更多信息](#export-more-information-from-the-resource-planner)
 * [任务列表改进](#task-list-improvements)已从版本中删除

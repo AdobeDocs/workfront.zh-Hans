@@ -36,7 +36,7 @@ ht-degree: 2%
 >
 >* 通常，已解锁的首选项会无限期地保持解锁状态。 如果Workfront管理员将其重新锁定，则系统设置将再次生效，并且组管理员所做的首选项设置将丢失。
 >* 为与项目关联的组设置的首选项优先于为创建项目的用户的主组设置的首选项。
->* 某些组级首选项会影响您为组创建的项目模板。 有关详细信息，请参阅文章[创建和修改组的项目模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)中的“组”区域](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view)中的[查看、使用和创建组的模板。
+>* 某些组级首选项会影响您为组创建的项目模板。 有关详细信息，请参阅文章[创建和修改组的项目模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)中的“组”区域[&#128279;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view)中的查看、使用和创建组的模板。
 >
 >* Workfront管理员在系统级别解锁首选项后，您可以对其进行配置，然后将其锁定，以确保您的组及其子组中的每个人都使用相同的配置。 此功能与Workfront管理员为系统中的每个人配置和锁定首选项的功能相同。 有关详细信息，请参阅[锁定或解锁子组的项目、任务或问题偏好设置](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md)。
 >
@@ -86,7 +86,7 @@ ht-degree: 2%
 
 1. 单击要为其配置解锁任务和问题首选项的组的名称。
 1. 在显示的组页面上，在左侧面板中，单击&#x200B;**任务和问题偏好设置**。
-1. 在显示的页面上，继续执行以下步骤所列5个部分之一，配置“新任务默认值”、“问题”、“删除”、“实际日期”和“访问”区域的设置，然后单击“保存”****。
+1. 在显示的页面上，继续执行以下步骤所列5个部分之一，配置“新任务默认值”、“问题”、“删除”、“实际日期”和“访问”区域的设置，然后单击“保存”**&#x200B;**。
 
    如果您将鼠标悬停在锁定图标![锁定图标](assets/lock-toggle-button-dimmed.png)上需要配置的首选项，并显示工具提示以告知您已锁定，则可以要求Workfront管理员为组织中的所有组解锁该首选项。
 

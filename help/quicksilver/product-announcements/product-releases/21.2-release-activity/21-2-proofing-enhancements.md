@@ -33,7 +33,7 @@ ht-degree: 0%
 
 有关校对决定的详细信息，请参阅[文档区域](../../../documents/managing-documents/documents-area.md)。
 
-此功能现已包含在Workfront One上的新Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)学习路径的[管理验证和版本中。
+此功能现已包含在Workfront One上的新Workfront Experience[&#128279;](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)学习路径的管理验证和版本中。
 
 ## 验证审批报告的新字段
 

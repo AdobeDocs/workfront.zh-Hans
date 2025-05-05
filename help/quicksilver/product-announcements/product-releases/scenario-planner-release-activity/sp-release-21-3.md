@@ -28,7 +28,7 @@ Adobe Workfront Scenario Planner仅在新的Adobe Workfront Experience中可用�
 
 这仅在新的Adobe Workfront Experience中提供，适用于已购买Adobe Workfront Scenario Planner许可证的客户。
 
-有关详细信息，请参阅使用场景规划器](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的业务案例中的[预算资源。
+有关详细信息，请参阅使用场景规划器[&#128279;](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的业务案例中的预算资源。
 
 ## 在布局模板中为场景规划者和目标创建图钉和登陆页面
 

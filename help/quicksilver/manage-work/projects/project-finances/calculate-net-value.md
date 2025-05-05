@@ -46,7 +46,7 @@ Project Net Value = Planned Benefit - Budgeted Cost - Potential Risk Cost
 您可以在Workfront的以下区域找到项目的净值：
 
 * 在商业案例的摘要区域 \
-  有关“业务案例摘要”区域的详细信息，请参阅[为项目创建业务案例](../../../manage-work/projects/define-a-business-case/create-business-case.md)[为项目创建业务案例](../../../manage-work/projects/define-a-business-case/create-business-case.md)一文中的“了解业务案例摘要”一节。
+  有关“业务案例摘要”区域的详细信息，请参阅[为项目创建业务案例](../../../manage-work/projects/define-a-business-case/create-business-case.md) [为项目创建业务案例](../../../manage-work/projects/define-a-business-case/create-business-case.md)一文中的“了解业务案例摘要”一节。
 
   业务案例中的![净值](assets/net-value-on-business-case-summary-highlighted-350x444.png)
 

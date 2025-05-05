@@ -43,7 +43,7 @@ ht-degree: 0%
 1. 单击对话框下方的&#x200B;**[!UICONTROL 添加]**。 该地址已添加到您的联系人列表中。
 1. 对于第二个“[!UICONTROL 来自]”地址，请重复步骤2-4。
 
-或者，为两个[!DNL Workfront Proof] &quot;[!UICONTROL  from]&quot;地址中的每一个创建电子邮件过滤器：
+或者，为两个[!DNL Workfront Proof] &quot;[!UICONTROL &#x200B; from]&quot;地址中的每一个创建电子邮件过滤器：
 
 1. 单击任何Gmail页面顶部的&#x200B;**[!UICONTROL 搜索]**&#x200B;按钮旁边的&#x200B;**[!UICONTROL 创建过滤器]**。
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 1. 单击任何Gmail页面顶部的[!UICONTROL 搜索]按钮旁边的&#x200B;**[!UICONTROL 创建过滤器]**。
 1. 单击[!UICONTROL 创建筛选器]对话框底部的&#x200B;**[!UICONTROL 显示当前筛选器]**。 现有过滤器按字段（自）以及名称或地址列在设置页面上。
-1. 如果现有[!DNL Workfront Proof]地址]筛选器的[!UICONTROL 执行此操作为[!UICONTROL 删除它]，请单击&#x200B;**[!UICONTROL 编辑]**。
+1. 如果现有[!DNL Workfront Proof]地址筛选器的执行此操作为[!UICONTROL 删除它]，请单击&#x200B;**[!UICONTROL 编辑]**。
 1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;按钮。
 1. 取消选择&#x200B;**[!UICONTROL 删除它]**&#x200B;选项，然后选择&#x200B;**[!UICONTROL 从不将其发送给垃圾邮件]**。
 
@@ -144,7 +144,7 @@ ht-degree: 0%
 1. 如果此文件夹中存在任何[!DNL Workfront Proof]电子邮件，请打开每封电子邮件并单击&#x200B;**[!UICONTROL 非垃圾邮件]**&#x200B;链接。
 1. 您现在会在收件箱中找到这[!DNL Workfront Proof]封电子邮件。
 
-要检查[!UICONTROL 阻止的发件人]列表中是否存在[!DNL Workfront Proof]个]地址中的[!UICONTROL ：
+要检查[!UICONTROL 阻止的发件人]列表中是否存在[!DNL Workfront Proof]个地址中的：
 
 1. 单击邮箱页面右上角的&#x200B;**[!UICONTROL 选项]**。
 1. 单击&#x200B;**[!UICONTROL 更多选项]**。
@@ -196,7 +196,7 @@ ht-degree: 0%
 在此部分中：
 
 * 将两个[!DNL Workfront Proof] &quot;[!UICONTROL from]&quot;地址添加到您的[!DNL Aol] [!UICONTROL 通讯簿]
-* 从[!DNL Aol] [!UICONTROL 垃圾邮件]筛选器的[!DNL Aol] [!UICONTROL 垃圾邮件]文件夹中删除任何现有[!DNL Workfront Proof]电子邮件，并从]地址中删除任何[!DNL Workfront Proof]“[!UICONTROL ”地址
+* 从[!DNL Aol] [!UICONTROL 垃圾邮件]筛选器的[!DNL Aol] [!UICONTROL 垃圾邮件]文件夹中删除任何现有[!DNL Workfront Proof]电子邮件，并从地址中删除任何[!DNL Workfront Proof]“”地址
 
 ### 对于新[!DNL Workfront Proof]电子邮件
 

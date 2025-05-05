@@ -107,73 +107,73 @@ ht-degree: 0%
    <table style="table-layout:auto"> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[！UICONTROL名称]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL 名称]</strong></td> 
       <td>更改名称也会更改连接的[!DNL Workfront]对象上的名称。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[！UICONTROL描述]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL 描述]</strong></td> 
       <td>更改描述也会更改连接的[!DNL Workfront]对象上的描述。 您可以在描述中添加URL，保存信息卡后，这些URL将成为可单击的链接。</td> 
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL列]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 列]</strong></td>
       <td>选择卡片的列。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL状态]</strong></td>
-      <td><p>选择卡的状态。 默认值为[！UICONTROL New]、[！UICONTROL In Progress]和[！UICONTROL Complete]，但也可以使用为[!DNL Workfront]中的项目定义的任何自定义状态。</p>
+      <td role="rowheader"><strong>[!UICONTROL 状态]</strong></td>
+      <td><p>选择卡的状态。 默认值为[!UICONTROL New]、[!UICONTROL In Progress]和[!UICONTROL Complete]，但也可以使用为[!DNL Workfront]中的项目定义的任何自定义状态。</p>
       <p>如果您启用了列策略来更新字段值，则更改信息卡上的状态会自动将信息卡移动到相应的列。 有关详细信息，请参阅文章<a href="/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md" class="MCXref xref">管理展示板列</a>中的“定义列设置和策略”。</p>
-      <p>如果单击信息卡顶部的<strong>[！UICONTROL标记完成]</strong>，状态将自动变为“完成”。</p></td>
+      <p>如果单击信息卡顶部的<strong>[!UICONTROL 标记完成]</strong>，状态将自动变为“完成”。</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL计划完成]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 计划完成]</strong></td>
       <td>更改此日期也会更改连接的[!DNL Workfront]对象上的规划完成日期。</td>
      </tr>
       <tr>
-      <td role="rowheader"><strong>[！UICONTROL估计]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 估计]</strong></td>
       <td><p>完成信息卡的小时数。</p><p>更改估计也会更改连接的[!DNL Workfront]对象上的故事点值。</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL分配]</strong></td>
-      <td><p>要为该信息卡分配更多人员或团队，请单击<strong>[！UICONTROL添加分配]</strong>，然后在搜索字段中开始键入名称。 然后，当它显示在结果列表中时将其选中。 您可以同时添加个人和团队。 一个已连接的信息卡上只允许一个团队分配。</p>
+      <td role="rowheader"><strong>[!UICONTROL 分配]</strong></td>
+      <td><p>要为该信息卡分配更多人员或团队，请单击<strong>[!UICONTROL 添加分配]</strong>，然后在搜索字段中开始键入名称。 然后，当它显示在结果列表中时将其选中。 您可以同时添加个人和团队。 一个已连接的信息卡上只允许一个团队分配。</p>
       <p>您选择的任何被分配者也会被分配到[!DNL Workfront]中的任务或问题。</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL标记]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 标记]</strong></td>
       <td><p>搜索并选择卡片的标记。</p>
       <p>有关创建新标记的信息，请参阅<a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">添加标记</a>。</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL自定义字段]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 自定义字段]</strong></td>
       <td><p>您添加的任何自定义字段都会显示在此区域中。</p>
       <p>有关详细信息，请参阅<a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">自定义卡片上显示的字段</a>。</p></td>
      </tr>
      <tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL Subtask]</strong></td>
-      <td><p>此部分将显示任务的任何现有子任务。 单击<strong>[！UICONTROL添加子任务]</strong>以添加新子任务。</p>
+      <td role="rowheader"><strong>[!UICONTROL Subtask]</strong></td>
+      <td><p>此部分将显示任务的任何现有子任务。 单击<strong>[!UICONTROL 添加子任务]</strong>以添加新子任务。</p>
       <p>部分顶部的计数器显示已完成的子任务数和子任务总数。</p>
       <p>有关子任务的详细信息，请参阅<a href="/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md">管理展示板上的子任务</a>。</p></td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[！UICONTROL核对清单]</strong></td>
-      <td><p>单击<strong>[！UICONTROL添加清单项目]</strong>。 然后，键入项目的标题并按Enter。 系统会自动添加另一个项目。 继续输入标题以添加更多项目。</p>
+      <td role="rowheader"><strong>[!UICONTROL 核对清单]</strong></td>
+      <td><p>单击<strong>[!UICONTROL 添加清单项目]</strong>。 然后，键入项目的标题并按Enter。 系统会自动添加另一个项目。 继续输入标题以添加更多项目。</p>
       <p>清单顶部的计数器显示已完成项目的数量和项目总数。</p> <p>有关清单项目的详细信息，请参阅<a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">管理卡片上的清单项目</a>。</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL文档]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 文档]</strong></td>
       <td>对于现有文档，将鼠标悬停在文档缩略图上，然后单击<strong>预览</strong>以在浏览器中查看文件，或者单击<strong>下载</strong>将文件下载到您的计算机。 有关新文档，请参阅<a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">添加信息卡上的文档</a>。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL小时]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 小时]</strong></td>
       <td>请参阅下面的“在连接的卡上记录小时数”。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL Comments]</strong></td>
-      <td><p>单击<strong>[！UICONTROL新建评论]</strong>字段并键入您的评论。 使用格式设置工具设置文本的格式。 要标记人员或团队，请使用评论区域底部的搜索框。 用户不必是讨论区的成员。 已连接信息卡上已标记的用户将收到电子邮件通知。</p><p>单击<strong>[！UICONTROL Submit]</strong>以将评论添加到卡片。</p>
+      <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
+      <td><p>单击<strong>[!UICONTROL 新建评论]</strong>字段并键入您的评论。 使用格式设置工具设置文本的格式。 要标记人员或团队，请使用评论区域底部的搜索框。 用户不必是讨论区的成员。 已连接信息卡上已标记的用户将收到电子邮件通知。</p><p>单击<strong>[!UICONTROL Submit]</strong>以将评论添加到卡片。</p>
       <p>有关评论的更多信息，请参阅<a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">更新工作</a>。</p></td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[！UICONTROL系统活动]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL 系统活动]</strong></td> 
       <td><p>如果您将<strong>系统活动</strong>启用为卡片分区，则该活动将显示在此区域中。</p> <p>有关详细信息，请参阅<a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">自定义卡上显示的字段</a>和<a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md">系统跟踪的更新</a>。</p></td>
      </tr>     
     </tbody> 
@@ -181,7 +181,7 @@ ht-degree: 0%
 
    使用左侧导航面板在信息卡详细信息中的字段部分之间移动。
 
-1. 单击&#x200B;**[!UICONTROL 关闭]**返回讨论区。
+1. 单击&#x200B;**[!UICONTROL 关闭]**&#x200B;返回讨论区。
 卡片上将显示连接的对象、任务接受者、标记、截止日期、清单计数器、估计小时数和状态。
 
    ![卡已添加到展示板](assets/boards-connected-card-details-110922.png)
@@ -215,7 +215,7 @@ ht-degree: 0%
    >[!NOTE]
    >
    >* 搜索结果中只有您拥有权限的对象可用。
-   >* 当您按&#x200B;**[!UICONTROL 我拥有的项目]**&#x200B;或我参与的项目&#x200B;]**进行筛选时，不包括相当于[!UICONTROL 完成]、[!UICONTROL 终止]或[!UICONTROL 已拒绝]状态的项目。**[!UICONTROL &#x200B;您仍然可以使用&#x200B;**[!UICONTROL 所有]**&#x200B;筛选器搜索这些项目。
+   >* 当您按&#x200B;**[!UICONTROL 我拥有的项目]**&#x200B;或我参与的项目&#x200B;**进行筛选时，不包括相当于[!UICONTROL 完成]、[!UICONTROL 终止]或[!UICONTROL 已拒绝]状态的项目。**&#x200B;您仍然可以使用&#x200B;**[!UICONTROL 所有]**&#x200B;筛选器搜索这些项目。
 
 1. 单击&#x200B;**[!UICONTROL 连接]**。
 

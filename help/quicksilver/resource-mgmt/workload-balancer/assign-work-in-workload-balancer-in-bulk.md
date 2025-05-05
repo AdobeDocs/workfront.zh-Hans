@@ -219,7 +219,7 @@ ht-degree: 1%
 
 * 如果将指定的用户分配给已完成的工作项，则该用户仍会分配给这些工作项。
 
-有关用户和工作角色分配的更多信息，请参阅在工作负载均衡器](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中分配工作的概述[。
+有关用户和工作角色分配的更多信息，请参阅在工作负载均衡器[&#128279;](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中分配工作的概述。
 
 要从选定项目中的工作项取消分配用户，或为其分配的选定任务或问题取消分配用户，请执行以下操作：
 

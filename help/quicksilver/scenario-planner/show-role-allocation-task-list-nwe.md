@@ -36,13 +36,13 @@ ht-degree: 0%
    <td> <ul></li>
    <li><p>新增功能：Ultimate </p></li>
    <p>Scenario Planner不可用于新的Workfront Select或Workfront Prime计划。 </p>
-   <li><p>当前： [！UICONTROL Business]或更高版本</p></ul>
+   <li><p>当前： [!UICONTROL Business]或更高版本</p></ul>
    </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 许可证*</p> </td> 
    <td> <p>新增：浅色或更高</p> 
-   <p>当前： [！UICONTROL Review]或更高版本</p> </td> 
+   <p>当前： [!UICONTROL Review]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td>产品* </td> 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 如果贵公司已购买[!DNL Workfront Scenario Planner]许可证，则可以在项目的[!UICONTROL 任务]部分中协调计划与链接到该计划的项目之间的资源分配。
 
-1. （视情况而定）项目必须使用本文的任务列表](#show-role-allocation-for-projects-and-initiatives-in-the-task-list)中的[显示项目和计划的角色分配节中所述的方法之一连接到计划。
+1. （视情况而定）项目必须使用本文的任务列表[&#128279;](#show-role-allocation-for-projects-and-initiatives-in-the-task-list)中的显示项目和计划的角色分配节中所述的方法之一连接到计划。
 
    >[!IMPORTANT]
    >
@@ -94,7 +94,7 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL Job Role]</td> 
+      <td role="rowheader">[!UICONTROL Job Role]</td> 
       <td> <p>与以下任何一项关联的工作角色的名称：</p> 
        <ul> 
         <li> <p>项目中的任务</p> </li> 
@@ -103,16 +103,16 @@ ht-degree: 0%
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL计划小时数]</td> 
+      <td role="rowheader">[!UICONTROL 计划小时数]</td> 
       <td>计划总持续时间内与计划上每个工作角色关联的所需小时数。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL已计划小时数]</td> 
+      <td role="rowheader">[!UICONTROL 已计划小时数]</td> 
       <td>在项目总持续时间内，与项目任务或问题中的每个工作角色关联的已计划小时数。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL变量]</td> 
-      <td> <p>计划所需的小时数与项目工作相关的计划小时数之间的差额。 [!DNL Workfront]使用以下公式计算[！UICONTROL方差]：</p> <p><code>Role Allocation Variance = Initiative Hours - Planned Hours</code> </p> <p>当计划的资源时间超过计划所需的小时数时，[！UICONTROL差异]为负数并显示为红色。 这意味着您的资源被过度分配。 </p> </td> 
+      <td role="rowheader">[!UICONTROL 变量]</td> 
+      <td> <p>计划所需的小时数与项目工作相关的计划小时数之间的差额。 [!DNL Workfront]使用以下公式计算[!UICONTROL 方差]：</p> <p><code>Role Allocation Variance = Initiative Hours - Planned Hours</code> </p> <p>当计划的资源时间超过计划所需的小时数时，[!UICONTROL 差异]为负数并显示为红色。 这意味着您的资源被过度分配。 </p> </td> 
      </tr> 
     </tbody> 
    </table>

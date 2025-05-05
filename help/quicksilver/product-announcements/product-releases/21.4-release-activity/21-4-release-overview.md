@@ -449,7 +449,7 @@ Workfront Scenario Planner版本21.4即将推出新功能。 有关这些现在�
 
 ## 21.4版本网络研讨会
 
-Workfront 21.4版本网络研讨会于2021年9月23日举行。 您可以从Workfront One](https://one.workfront.com/s/event)上的[活动页面查看网络研讨会录像。
+Workfront 21.4版本网络研讨会于2021年9月23日举行。 您可以从Workfront One[&#128279;](https://one.workfront.com/s/event)上的活动页面查看网络研讨会录像。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

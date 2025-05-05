@@ -32,13 +32,13 @@ ht-degree: 1%
    <td> <ul></li>
    <li><p>新增功能：Ultimate </p></li>
    <p>Scenario Planner不可用于新的Workfront Select或Workfront Prime计划。 </p>
-   <li><p>当前： [！UICONTROL Business]或更高版本</p></ul>
+   <li><p>当前： [!UICONTROL Business]或更高版本</p></ul>
    </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 许可证*</p> </td> 
    <td> <p>新增：浅色或更高</p> 
-   <p>当前： [！UICONTROL Review]或更高版本</p> </td> 
+   <p>当前： [!UICONTROL Review]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td>产品* </td> 
@@ -50,11 +50,11 @@ ht-degree: 1%
   </tr> 
   <tr data-mc-conditions=""> 
    <td>访问级别 </td> 
-   <td> <p>[！UICONTROL Edit]访问 [!DNL Scenario Planner]</p> </td> 
+   <td> <p>[!UICONTROL Edit]访问 [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>对象权限 </p> </td> 
-   <td> <p>[！UICONTROL Manage]对计划的权限</p> <p>有关请求对计划的附加访问权限的信息，请参阅<a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中请求对计划的访问权限。</p> </td> 
+   <td> <p>[!UICONTROL Manage]对计划的权限</p> <p>有关请求对计划的附加访问权限的信息，请参阅<a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中请求对计划的访问权限。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -106,7 +106,7 @@ ht-degree: 1%
 
    [!DNL Workfront]立即复制计划并将其放在最后一个选择的计划下。
 
-   所复制计划的名称为] `<Name of original initiative>`*的*[!UICONTROL &#x200B;副本。
+   所复制计划的名称为 `<Name of original initiative>`*的*&#x200B;副本。
 
    >[!NOTE]
    >

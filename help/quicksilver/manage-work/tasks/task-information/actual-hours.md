@@ -141,7 +141,7 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 
 * 资源规划者。
 
-  有关在资源规划程序中查看实际小时数的信息，请参阅在使用用户视图](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)时查看资源规划程序中的可用小时、计划小时和实际小时数或FTE [。
+  有关在资源规划程序中查看实际小时数的信息，请参阅在使用用户视图[&#128279;](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)时查看资源规划程序中的可用小时、计划小时和实际小时数或FTE 。
 
 ## 记录时间
 

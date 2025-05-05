@@ -80,7 +80,7 @@ CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MO
 
       **#**&#x200B;列中的数字显示前置任务编号。 例如，“6”表示项目中的第六个任务。
 
-      任务](assets/predecessors-area-with-task-header.png)的![前置任务部分
+      任务![&#128279;](assets/predecessors-area-with-task-header.png)的前置任务部分
 
 * 转到您正在处理的项目并执行以下操作：
 

@@ -110,7 +110,7 @@ ht-degree: 1%
   有关在资源规划者中过滤信息的详细信息，请参阅资源规划者中的[过滤信息](../../resource-mgmt/resource-planning/filter-resource-planner.md)。
 
 * 为了提高性能，您显示或可以从“项目视图”中导出的项数量是有限的。\
-  有关在项目视图中查看资源规划者时限制的更多信息，请参阅[资源规划者显示限制](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)文章中项目视图](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md#project-view-limits)部分的[限制。
+  有关在项目视图中查看资源规划者时限制的更多信息，请参阅[资源规划者显示限制](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)文章中项目视图[&#128279;](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md#project-view-limits)部分的限制。
 
 * 项目按其在项目视图中的优先级顺序列出。\
   有关资源规划者中项目优先级的详细信息，请参阅本文中的[项目规划优先级](#project-planning-priority)部分。
@@ -139,7 +139,7 @@ ht-degree: 1%
 * 您必须至少具有资源管理的查看访问权限和项目的查看权限，才能查看与这些项目关联的角色。
 * 您可以展开每个角色以显示项目列表，展开每个项目以显示可在项目中履行这些角色的用户列表。
 * 为了提高性能，您显示或可以从“角色视图”中导出的项目数量是有限的。\
-  有关在角色视图中查看资源规划者时限制的更多信息，请参阅[资源规划者显示限制](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)中角色视图](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md#role-view-limits)部分的[限制。
+  有关在角色视图中查看资源规划者时限制的更多信息，请参阅[资源规划者显示限制](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)中角色视图[&#128279;](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md#role-view-limits)部分的限制。
 
 * 项目在工作角色下列出，其优先顺序与项目视图中所列的顺序相同。
 * 应用此视图后，项目小时数、FTE或成本将合计到角色小时数、FTE或成本。\
@@ -173,7 +173,7 @@ ht-degree: 1%
   有关在资源规划者中过滤信息的更多信息，请参阅[在资源规划者中过滤信息](../../resource-mgmt/resource-planning/filter-resource-planner.md) 。
 
 * 为了提高性能，您显示或可从“用户视图”中导出的项目数量是有限的。\
-  有关在用户视图中查看资源规划器时的限制的更多信息，请参阅[资源规划器显示限制](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)中用户视图](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md#user-view-limits)部分的[限制。
+  有关在用户视图中查看资源规划器时的限制的更多信息，请参阅[资源规划器显示限制](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)中用户视图[&#128279;](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md#user-view-limits)部分的限制。
 
 * 项目按照与项目视图中所列顺序相同的优先级在用户名称下列出。\
   有关资源规划者中项目优先级的详细信息，请参阅本文中的[项目规划优先级](#project-planning-priority)部分。

@@ -32,4 +32,4 @@ ht-degree: 0%
 
 移动应用程序现在也支持展示板收藏集，允许移动用户从其移动设备展示板列表中查看在桌面版本中他们有权访问的任何收藏集。
 
-有关详细信息，请参阅移动设备](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)的[[!DNL Adobe Workfront] [!UICONTROL 讨论区]。
+有关详细信息，请参阅移动设备[&#128279;](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)的[!DNL Adobe Workfront] [!UICONTROL 讨论区]。

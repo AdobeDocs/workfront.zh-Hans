@@ -40,7 +40,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[！UICONTROL工作]，[！UICONTROL计划]</p> </td> 
+   <td> <p>[!UICONTROL 工作]，[!UICONTROL 计划]</p> </td> 
   </tr> 
   </tbody> 
 </table>
@@ -76,23 +76,23 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td>任务或问题</td> 
-      <td><strong>[！UICONTROL批准]</strong>它，<strong>[！UICONTROL拒绝]</strong>它，<strong>[！UICONTROL授予]</strong>访问权限，<strong>[！UICONTROL忽略]</strong>访问它的请求，<strong>[！UICONTROL处理它]</strong>，或单击某个选项以指示您使用它<strong>[！UICONTROL完成]</strong></td> 
+      <td><strong>[!UICONTROL 批准]</strong>它，<strong>[!UICONTROL 拒绝]</strong>它，<strong>[!UICONTROL 授予]</strong>访问权限，<strong>[!UICONTROL 忽略]</strong>访问它的请求，<strong>[!UICONTROL 处理它]</strong>，或单击某个选项以指示您使用它<strong>[!UICONTROL 完成]</strong></td> 
      </tr> 
      <tr> 
       <td>项目</td> 
-      <td><strong>[！UICONTROL批准]</strong>它，<strong>[！UICONTROL拒绝]</strong>它，<strong>[！UICONTROL授予]</strong>对它的访问权限，或<strong>[！UICONTROL忽略]</strong>对它的访问请求</td> 
+      <td><strong>[!UICONTROL 批准]</strong>它，<strong>[!UICONTROL 拒绝]</strong>它，<strong>[!UICONTROL 授予]</strong>对它的访问权限，或<strong>[!UICONTROL 忽略]</strong>对它的访问请求</td> 
      </tr> 
      <tr> 
       <td>文档</td> 
-      <td><strong>[！UICONTROL批准]</strong>它，<strong>[！UICONTROL拒绝]</strong>它，<strong>[！UICONTROL授予]</strong>对它的访问权限，或<strong>[！UICONTROL忽略]</strong>对它的访问请求</td> 
+      <td><strong>[!UICONTROL 批准]</strong>它，<strong>[!UICONTROL 拒绝]</strong>它，<strong>[!UICONTROL 授予]</strong>对它的访问权限，或<strong>[!UICONTROL 忽略]</strong>对它的访问请求</td> 
      </tr> 
      <tr> 
       <td>更新 </td> 
-      <td> <p>查看项目更新完整列表的任何部分，以便您拥有<strong>[！UICONTROL Post]</strong>新更新或<strong>[！UICONTROL回复]</strong>所需的上下文。 您可以单击<strong>[！UICONTROL Notify]</strong>以提醒特定用户您的回复。 </p> <p>有关详细信息，请参阅<a href="../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md" class="MCXref xref">回复来自[!DNL Google Workspace]</a>的[!DNL Adobe Workfront]更新通知。</p> </td> 
+      <td> <p>查看项目更新完整列表的任何部分，以便您拥有<strong>[!UICONTROL Post]</strong>新更新或<strong>[!UICONTROL 回复]</strong>所需的上下文。 您可以单击<strong>[!UICONTROL Notify]</strong>以提醒特定用户您的回复。 </p> <p>有关详细信息，请参阅<a href="../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md" class="MCXref xref">回复来自[!DNL Google Workspace]</a>的[!DNL Adobe Workfront]更新通知。</p> </td> 
      </tr> 
      <tr> 
       <td>审批请求</td> 
-      <td><strong>[！UICONTROL Approve]</strong>或<strong>[！UICONTROL Reject]</strong> （您可以通过单击其他选项改变主意）、下载、查看其所有者或查看其参考编号</td> 
+      <td><strong>[!UICONTROL Approve]</strong>或<strong>[!UICONTROL Reject]</strong> （您可以通过单击其他选项改变主意）、下载、查看其所有者或查看其参考编号</td> 
      </tr> 
      <tr> 
       <td>项目状态的更改</td> 

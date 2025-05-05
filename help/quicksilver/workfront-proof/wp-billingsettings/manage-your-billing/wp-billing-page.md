@@ -99,7 +99,7 @@ ht-degree: 0%
 
 ### [!UICONTROL 使用情况警告]
 
-当您的帐户到达以下地址时，将通过电子邮件通知您帐户中设置为账单联系人(1)的 [!DNL Workfront] Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[[!UICONTROL 验证权限配置文件]：
+当您的帐户到达以下地址时，将通过电子邮件通知您帐户中设置为账单联系人(1)的 [!DNL Workfront] Proof[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[!UICONTROL 验证权限配置文件]：
 
 * 存储容量的75%和98%
 * 75%，然后100%证明限制

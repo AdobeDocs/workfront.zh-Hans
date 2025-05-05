@@ -41,7 +41,7 @@ ht-degree: 3%
 >
 >[!UICONTROL 实际开始日期]可能与项目、任务或问题的[!UICONTROL 计划开始日期]不匹配，因为用户可能在其计划日期之前或之后开始工作。
 
-有关详细信息，请参阅项目[!UICONTROL 实际开始日期]](../../../manage-work/projects/planning-a-project/project-actual-start-date.md)的[概述。
+有关详细信息，请参阅项目[!UICONTROL 实际开始日期][&#128279;](../../../manage-work/projects/planning-a-project/project-actual-start-date.md)的概述。
 
 >[!NOTE]
 >
@@ -66,7 +66,7 @@ ht-degree: 3%
 >
 >[!UICONTROL 实际完成日期]可能与[!UICONTROL 计划完成日期]不匹配。
 
-有关详细信息，请参阅项目[!UICONTROL 实际完成日期]](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md)的[概述。
+有关详细信息，请参阅项目[!UICONTROL 实际完成日期][&#128279;](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md)的概述。
 
 ![实际完成日期详细信息](assets/actual-completion-date-task-details-highlighted-nwe-350x189.png)
 
@@ -252,7 +252,7 @@ ht-degree: 3%
 * [设置项目[!UICONTROL 计划完成日期]](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
 * [问题[!UICONTROL 计划完成日期]的概述](../../../manage-work/issues/issue-information/issue-planned-completion-date.md)
 
-标头](assets/project-header-planned-completion-date-highlighted-nwe-350x34.png)中的![计划竞争日期
+标头![&#128279;](assets/project-header-planned-completion-date-highlighted-nwe-350x34.png)中的计划竞争日期
 
 ![任务列表中的计划完成日期](assets/planned-completion-date-in-task-list-highlighted-nwe-350x183.png)
 
@@ -275,7 +275,7 @@ ht-degree: 3%
 
 根据[!UICONTROL 任务限制]，您可能无法编辑任务的[!UICONTROL 计划开始日期]。 根据项目的[!UICONTROL 计划模式]，您可能无法编辑项目的[!UICONTROL 计划开始日期]。
 
-有关详细信息，请参阅项目[!UICONTROL 计划开始日期]](../../../manage-work/projects/planning-a-project/project-planned-start-date.md)的[概述。
+有关详细信息，请参阅项目[!UICONTROL 计划开始日期][&#128279;](../../../manage-work/projects/planning-a-project/project-planned-start-date.md)的概述。
 
 编辑任务的![计划开始日期](assets/planned-start-date-on-edit-task-highlighted-nwe.png)
 

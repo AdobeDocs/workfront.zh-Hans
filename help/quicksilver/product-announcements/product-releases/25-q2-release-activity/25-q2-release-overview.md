@@ -53,7 +53,7 @@ Workfront版本编号代表了每月和每季度的版本跟踪。 第一个数�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            自定义表单逻辑的增强功能</a></p><p>[！BADGE In Production ]{type=Informational}</p>
+            自定义表单逻辑的增强功能</a></p><p>[!BADGE In Production &#x200B;]{type=Informational}</p>
             <p>自定义表单逻辑生成器的界面已更新，为您提供了更大的空间来创建逻辑规则。 此新设计可以更轻松地适应将来可能添加的其他逻辑类型。</p><p>除了当前的显示和跳过逻辑选项外，还可以使用验证逻辑。</p>
         </td>
         <td>
@@ -68,7 +68,7 @@ Workfront版本编号代表了每月和每季度的版本跟踪。 第一个数�
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             添加到计算自定义字段的表达式</a></p>
-            [！BADGE In Production ]{type=Informational}
+            [!BADGE In Production &#x200B;]{type=Informational}
             <p>Workfront计算自定义字段中现在提供以下表达式：ARRAY、FORMAT、SWITCH、SORTASCARRAY、SORTDESCARRAY、ARRAYLENGTH、ARRAYELEMENT和ADDHOUR。 每个表达式的定义和示例在计算编辑器中和Experience League上提供。</p>
         </td>
         <td>
@@ -105,7 +105,7 @@ Workfront版本编号代表了每月和每季度的版本跟踪。 第一个数�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            桌面校对查看器更新 </a></p>[！BADGE In Production ]{type=Informational}
+            桌面校对查看器更新 </a></p>[!BADGE In Production &#x200B;]{type=Informational}
             <p>桌面校对查看器已更新至版本2.1.45。此更新允许查看器使用
             <ul><li>电子版本35</li><li>Chromium版本134</li><ul></p>
         </td>
@@ -120,7 +120,7 @@ Workfront版本编号代表了每月和每季度的版本跟踪。 第一个数�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            在文档报告中一次编辑多个文档 </a></p>[！BADGE In Production ]{type=Informational}
+            在文档报告中一次编辑多个文档 </a></p>[!BADGE In Production &#x200B;]{type=Informational}
             <p>您现在可以在文档报告中一次编辑多个文档。 您可以编辑说明并更新自定义表单。</p>
         </td>
         <td>
@@ -143,7 +143,7 @@ Workfront版本编号代表了每月和每季度的版本跟踪。 第一个数�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            移动应用程序中的验证增强功能(仅限iOS)</a><p>[！BADGE In Production ]{type=Informational}</p></p>
+            移动应用程序中的验证增强功能(仅限iOS)</a><p>[!BADGE In Production &#x200B;]{type=Informational}</p></p>
             <p>Adobe Workfront移动应用程序中的验证功能有几项增强：
             <ul>
             <li>现在，您可以通过已与您共享的链接，从移动电子邮件应用程序打开验证文件。 以前，电子邮件中的链接不受支持，您必须从Workfront移动应用程序访问校样。</li>
@@ -175,7 +175,7 @@ Workfront版本编号代表了每月和每季度的版本跟踪。 第一个数�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            在编辑项目框中编辑项目时，向项目添加评论</a><p>[！BADGE In Production ]{type=Informational}</p>
+            在编辑项目框中编辑项目时，向项目添加评论</a><p>[!BADGE In Production &#x200B;]{type=Informational}</p>
             <p>现在，您可以在编辑项目框中编辑项目时，为项目添加注释。 批量编辑多个项目时，您还可以同时向这些项目添加评论。 在此更新之前，在编辑项目时不存在此功能。</p>
         </td>
         <td>
@@ -199,7 +199,7 @@ Workfront版本编号代表了每月和每季度的版本跟踪。 第一个数�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Data Connect中现在提供文档审批和决策数据</a><p>[！BADGE In Production ]{type=Informational}</p>
+            Data Connect中现在提供文档审批和决策数据</a><p>[!BADGE In Production &#x200B;]{type=Informational}</p>
             <p>您现在可以在Data Connect中访问用于文档审批和决策的数据。 此数据集将文档审批与Workfront验证功能以及在Workfront文档上发生的Frame.io审批联系起来。 您现在将能够通过BI可视化图表说明周期时间、周期数以及时间表对延迟批准的影响。</p>
         </td>
         <td>
@@ -212,7 +212,7 @@ Workfront版本编号代表了每月和每季度的版本跟踪。 第一个数�
     </tr>                          
     <tr>
         <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront日历的更新</a></p><p>[！BADGE In Production ]{type=Informational}</p>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront日历的更新</a></p><p>[!BADGE In Production &#x200B;]{type=Informational}</p>
             <p>我们更新了Workfront日历的外观和风格，使其采用与Workfront其他区域一致的现代化设计。 与当前Workfront日历相比，功能稍有不同，包括：
             <ul>
             <li>如何将临时项目添加到日历</li>
@@ -242,7 +242,7 @@ Workfront版本编号代表了每月和每季度的版本跟踪。 第一个数�
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             升级到具有版本升级端点的新事件订阅版本</a></p>
-            [！BADGE In Production ]{type=Informational}
+            [!BADGE In Production &#x200B;]{type=Informational}
             <p>Workfront现在提供各个版本的事件订阅。 新版本不是对Workfront API的更改，而是对事件订阅功能的更改。 您可以将事件订阅切换到新版本，而不会在事件订阅中创建间隙</p>
         </td>
         <td>
@@ -255,7 +255,7 @@ Workfront版本编号代表了每月和每季度的版本跟踪。 第一个数�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            在Workfront更新信息源中将Adobe Admin Console用户更改表示为“系统”</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>现在，当Adobe Admin Console管理员更改Workfront用户的用户信息时，Workfront将这一更改记录在用户更新区域的System activity （系统活动）选项卡中，并归入“System”（系统）。 此联系人为Adobe Admin Console管理员。</p>
+            在Workfront更新信息源中将Adobe Admin Console用户更改表示为“系统”</a></p><p>[!BADGE In Production &#x200B;]{type=Informational}</p><p>现在，当Adobe Admin Console管理员更改Workfront用户的用户信息时，Workfront将这一更改记录在用户更新区域的System activity （系统活动）选项卡中，并归入“System”（系统）。 此联系人为Adobe Admin Console管理员。</p>
         </td>
         <td>
             <p><b>在以下日期可用：</b></p>

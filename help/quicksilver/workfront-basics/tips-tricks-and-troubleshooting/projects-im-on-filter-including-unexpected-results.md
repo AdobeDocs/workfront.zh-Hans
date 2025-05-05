@@ -29,11 +29,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe[!DNL Workfront]许可证</strong></td> 
-   <td> <p>[！UICONTROL计划] </p> </td> 
+   <td> <p>[!UICONTROL 计划] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置</strong></td> 
-   <td> <p>[！UICONTROL系统管理员]</p> </td> 
+   <td> <p>[!UICONTROL 系统管理员]</p> </td> 
   </tr> 
  </tbody> 
 </table>

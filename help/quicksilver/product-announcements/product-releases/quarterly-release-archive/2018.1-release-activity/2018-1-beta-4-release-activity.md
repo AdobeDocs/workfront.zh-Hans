@@ -26,11 +26,11 @@ ht-degree: 0%
 
 2018.1 Beta 4版本包含面向Workfront管理员和其他用户的增强功能：
 
-管理员的&#x200B;****
+管理员的&#x200B;**&#x200B;**
 
 * [由组管理员管理的计划](#schedules-managed-by-group-administrators)
 
-所有用户&#x200B;****
+所有用户&#x200B;**&#x200B;**
 
 * Workfront中的[验证改进](#proofing-improvements-within-workfront)
 * 在Workfront Proof中创建[验证 — 改进了用户体验和其他功能](#proof-creation-in-workfront-proof-improved-user-experience-and-additional-functionality)

@@ -31,15 +31,15 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
-   <td> <p>[！UICONTROL Pro]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[！UICONTROL计划]，[！UICONTROL工作]</p> </td> 
+   <td> <p>[!UICONTROL 计划]，[!UICONTROL 工作]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 许可证**</td> 
-   <td> <p>[！UICONTROL Workfront Fusion for Work Automation and Integration] </p> </td> 
+   <td> <p>[!UICONTROL Workfront Fusion for Work Automation and Integration] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
-&#42;&#42;有关[!DNL  Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)
+&#42;&#42;有关[!DNL &#x200B; Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)
 
 ## 触发事件
 
@@ -81,19 +81,19 @@ ht-degree: 0%
    </thead> 
    <tbody> 
     <tr> 
-     <td role="rowheader">[！UICONTROL预算请求类型]</td> 
-     <td> <p>[！UICONTROL下拉列表]</p> <p>选项：</p> 
+     <td role="rowheader">[!UICONTROL 预算请求类型]</td> 
+     <td> <p>[!UICONTROL 下拉列表]</p> <p>选项：</p> 
       <ul> 
-       <li> <p>[！UICONTROL资金调整]</p> </li> 
-       <li> <p>[！UICONTROL初始融资]</p> </li> 
+       <li> <p>[!UICONTROL 资金调整]</p> </li> 
+       <li> <p>[!UICONTROL 初始融资]</p> </li> 
       </ul> </td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL Requested Labor Funds]</td> 
+     <td role="rowheader">[!UICONTROL Requested Labor Funds]</td> 
      <td> </td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL申请费用基金]</td> 
+     <td role="rowheader">[!UICONTROL 申请费用基金]</td> 
      <td> </td> 
     </tr> 
    </tbody> 
@@ -119,24 +119,24 @@ ht-degree: 0%
    </thead> 
    <tbody> 
     <tr> 
-     <td role="rowheader">[！UICONTROL上市日期]</td> 
-     <td>[！UICONTROL日期] </td> 
+     <td role="rowheader">[!UICONTROL 上市日期]</td> 
+     <td>[!UICONTROL 日期] </td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL市场结束日期]</td> 
-     <td>[！UICONTROL日期]</td> 
+     <td role="rowheader">[!UICONTROL 市场结束日期]</td> 
+     <td>[!UICONTROL 日期]</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL营销活动概述]</td> 
-     <td>[！UICONTROL富文本字段]</td> 
+     <td role="rowheader">[!UICONTROL 营销活动概述]</td> 
+     <td>[!UICONTROL 富文本字段]</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL Key Message]</td> 
-     <td>[！UICONTROL富文本字段]</td> 
+     <td role="rowheader">[!UICONTROL Key Message]</td> 
+     <td>[!UICONTROL 富文本字段]</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL目标受众]</td> 
-     <td> <p>[！UICONTROL下拉列表]</p> <p>包含适合您的流程的选项。</p> </td> 
+     <td role="rowheader">[!UICONTROL 目标受众]</td> 
+     <td> <p>[!UICONTROL 下拉列表]</p> <p>包含适合您的流程的选项。</p> </td> 
     </tr> 
    </tbody> 
   </table>

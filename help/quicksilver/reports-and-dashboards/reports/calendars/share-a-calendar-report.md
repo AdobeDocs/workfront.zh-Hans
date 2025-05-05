@@ -42,11 +42,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[！UICONTROL View]或更高版本的[！UICONTROL Reports]、[！UICONTROL Dashboards]和[！UICONTROL Calendars]访问权限</p></td> 
+   <td> <p>[!UICONTROL View]或更高版本的[!UICONTROL Reports]、[!UICONTROL Dashboards]和[!UICONTROL Calendars]访问权限</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td>[！UICONTROL视图]或日历报表的更高权限，有权共享</td> 
+   <td>[!UICONTROL 视图]或日历报表的更高权限，有权共享</td> 
   </tr> 
  </tbody> 
 </table>
@@ -99,9 +99,9 @@ ht-degree: 0%
 
 1. 转到要共享的日历。
 1. 单击&#x200B;**[!UICONTROL 日历操作]**，然后单击&#x200B;**[!UICONTROL 共享]**。
-1. 单击日历名称旁边的&#x200B;**更多**菜单。
+1. 单击日历名称旁边的&#x200B;**更多**&#x200B;菜单。
    ![日历更多菜单](assets/more-menu-calendar.png)
-单击**复制公共链接**。
+单击&#x200B;**复制公共链接**。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 ## 使用专用链接共享日历

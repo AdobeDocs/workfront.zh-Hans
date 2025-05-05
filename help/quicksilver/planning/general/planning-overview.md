@@ -323,6 +323,7 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
      ![在时间轴视图中应用分组](assets/grouping-applied-in-timeline-view.png)
 
    * **日历视图**：以日历格式显示至少有两个日期类型字段的记录。
+
      ![日历视图示例](assets/calendar-view-example.png)
 
 

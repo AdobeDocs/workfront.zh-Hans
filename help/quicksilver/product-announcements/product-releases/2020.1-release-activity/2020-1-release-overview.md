@@ -433,7 +433,7 @@ and watch the recording on demand
 
 为了提供最佳安全性，Workfront要求所有使用TLS 1.1或更早版本的集成和Web流量都升级到使用TLS 1.2。在“预览”环境中，TLS 1.0已禁用。
 
-有关详细信息，请参阅Adobe Workfront](../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md)中需要的[TLS 1.2。
+有关详细信息，请参阅Adobe Workfront[&#128279;](../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md)中需要的TLS 1.2。
 
 ### Flash应用程序删除 {#flash-application-removal}
 

@@ -26,11 +26,11 @@ ht-degree: 0%
 
 2017.3 Beta 4版本包含面向Workfront管理员和其他用户的增强功能：
 
-管理员的&#x200B;****
+管理员的&#x200B;**&#x200B;**
 
 * [在设置区域新建资源管理首选项区域](#new-resource-management-preferences-area-in-the-setup-area)
 
-所有用户&#x200B;****
+所有用户&#x200B;**&#x200B;**
 
 * [重复的任务](#duplicate-tasks)
 * 在计划资源时[自动执行分配](#automate-assignments-when-scheduling-resources)

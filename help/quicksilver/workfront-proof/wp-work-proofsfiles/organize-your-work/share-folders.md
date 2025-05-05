@@ -74,7 +74,7 @@ ht-degree: 0%
 
 1. 单击您收到的通知电子邮件中的链接。
 1. 登录 [!DNL Workfront Proof]。\
-     [!DNL  Workfront Proof]显示文件夹详细信息页面。 有关详细信息，请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md)中管理文件夹及其内容。
+     [!DNL &#x200B; Workfront Proof]显示文件夹详细信息页面。 有关详细信息，请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md)中管理文件夹及其内容。
 
 ## 关于共享子文件夹
 

@@ -37,9 +37,9 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>新文档： [！UICONTROL Light]或更高版本</p> 
+   <td> <p>新文档： [!UICONTROL Light]或更高版本</p> 
    或
-   <p>当前： [！UICONTROL Review]或更高版本</p> </td> 
+   <p>当前： [!UICONTROL Review]或更高版本</p> </td> 
   </tr>
  </tbody> 
 </table>

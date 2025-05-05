@@ -136,7 +136,7 @@ ht-degree: 1%
 
    双击每日或每周分配，以修改将用户分配给工作项的时间量。
 
-   有关在工作负载均衡器中修改用户分配的信息，请参阅在工作负载均衡器](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)中管理用户分配一文[中的“修改用户分配”一节。
+   有关在工作负载均衡器中修改用户分配的信息，请参阅在工作负载均衡器[&#128279;](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)中管理用户分配一文中的“修改用户分配”一节。
 
    有关使用工作负载均衡器从工作项中删除分配的信息，请参阅工作负载均衡器中的[取消分配工作](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md)。
 

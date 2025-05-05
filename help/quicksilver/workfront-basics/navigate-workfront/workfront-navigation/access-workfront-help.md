@@ -31,7 +31,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Request]或更高版本</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -40,14 +40,14 @@ ht-degree: 0%
 
 ## 在Experience League上访问[!DNL Adobe Workfront]文档
 
-1. 转到 [!DNL Experience League]](https://experienceleague.adobe.com/en/docs/workfront/using/home)上的[[!DNL Adobe Workfront] 文档页面。
+1. 转到 [!DNL Experience League][&#128279;](https://experienceleague.adobe.com/en/docs/workfront/using/home)上的[!DNL Adobe Workfront] 文档页面。
 
 除了搜索帮助文档之外，您还可以从Experience League访问以下[!DNL Workfront]资源：
 
 * Workfront教程：有关详细信息，请参阅[[!DNL Workfront] 教程](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)。
 
 * [!UICONTROL 创新实验室]：有关详细信息，请参阅[创新实验室](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas)。
-* [!UICONTROL [!DNL Workfront]社区]：有关详细信息，请参阅[The [！UICONTROL [!DNL Adobe Workfront] 社区]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)
+* [!UICONTROL [!DNL Workfront]社区]：有关详细信息，请参阅[The [!UICONTROL [!DNL Adobe Workfront] 社区]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)
 
 ## 从[!DNL Workfront]内部访问帮助
 

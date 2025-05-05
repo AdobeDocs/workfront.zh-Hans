@@ -32,7 +32,7 @@ ht-degree: 0%
 
 有关在项目中使用展示板的信息，请参阅[在Agile视图中管理项目](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md)。
 
-您还可以在移动应用程序中访问展示板。 有关信息，请参阅移动设备](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)的[[!DNL Adobe Workfront] [!UICONTROL 讨论区]。
+您还可以在移动应用程序中访问展示板。 有关信息，请参阅移动设备[&#128279;](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)的[!DNL Adobe Workfront] [!UICONTROL 讨论区]。
 
 有关展示板功能的视频演练，请参阅[[!DNL Adobe Workfront] [!UICONTROL 展示板]视频演示](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)。
 

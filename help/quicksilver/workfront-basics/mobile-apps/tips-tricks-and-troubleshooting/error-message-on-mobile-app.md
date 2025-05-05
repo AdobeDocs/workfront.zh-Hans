@@ -34,7 +34,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置</strong></td> 
-   <td> <p>[！UICONTROL系统管理员] </p> </td> 
+   <td> <p>[!UICONTROL 系统管理员] </p> </td> 
   </tr> 
  </tbody> 
 </table>

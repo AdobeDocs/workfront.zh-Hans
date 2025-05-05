@@ -37,9 +37,9 @@ WIP限制只是一个视觉上的警告，不会限制您的团队在每个状�
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>新文档： [！UICONTROL Standard]</p> 
+   <td> <p>新文档： [!UICONTROL Standard]</p> 
    或
-   <p>当前： [！UICONTROL Work]或更高版本</p> </td> 
+   <p>当前： [!UICONTROL Work]或更高版本</p> </td> 
   </tr>
  </tbody> 
 </table>

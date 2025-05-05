@@ -39,14 +39,14 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>新文档： [！UICONTROL Standard]</p>
+   <td><p>新文档： [!UICONTROL Standard]</p>
    或
-   <p>当前： [！UICONTROL计划]</p>
+   <p>当前： [!UICONTROL 计划]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[！UICONTROL系统管理员]</td>
+   <td>[!UICONTROL 系统管理员]</td>
   </tr>
  </tbody> 
 </table>
@@ -79,15 +79,15 @@ ht-degree: 4%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL名称]</td> 
+      <td role="rowheader">[!UICONTROL 名称]</td> 
       <td>指定支出的名称。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL描述]</td> 
+      <td role="rowheader">[!UICONTROL 描述]</td> 
       <td>指定费用的描述。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL计算单位]</td> 
+      <td role="rowheader">[!UICONTROL 计算单位]</td> 
       <td> <p>从下拉列表中选择费用类型的度量单位。</p> <p>可使用以下测量单位：</p> 
        <ul> 
         <li>英里</li> 
@@ -101,7 +101,7 @@ ht-degree: 4%
      </tr> 
      <tr> 
       <td role="rowheader">费率</td> 
-      <td> <p>指定单价。 这是一个货币格式字段，它表示在<strong>[！UICONTROL计算单位]</strong>字段中建立的每个单位的成本。 </p> <p>比率可以包含小数点后最多4个数字的数值。 例如，1.0375</p> </td> 
+      <td> <p>指定单价。 这是一个货币格式字段，它表示在<strong>[!UICONTROL 计算单位]</strong>字段中建立的每个单位的成本。 </p> <p>比率可以包含小数点后最多4个数字的数值。 例如，1.0375</p> </td> 
      </tr> 
     </tbody> 
    </table>

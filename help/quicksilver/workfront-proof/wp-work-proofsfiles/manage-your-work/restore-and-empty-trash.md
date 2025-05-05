@@ -38,7 +38,7 @@ Workfront Proof不限制垃圾桶中的验证、文件和文件夹的数量。
 
 ## 清空垃圾桶
 
-如果您是管理员或账单管理员，则可以清空垃圾桶。 有关权限的信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[验证权限配置文件。
+如果您是管理员或账单管理员，则可以清空垃圾桶。 有关权限的信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的验证权限配置文件。
 
 1. 单击左侧边栏中的&#x200B;**[!UICONTROL 垃圾桶]**。
 1. 单击&#x200B;**[!UICONTROL 清空垃圾桶]**。

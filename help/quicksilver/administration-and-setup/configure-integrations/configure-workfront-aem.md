@@ -126,7 +126,7 @@ ht-degree: 0%
 1. 在AEM中，转到&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 安全性]** > **[!UICONTROL 权限]**。
 1. 在左上角，从下拉菜单中选择&#x200B;**[!UICONTROL 用户]**&#x200B;，然后在&#x200B;**[!UICONTROL 搜索]**&#x200B;字段中输入&#x200B;*[!UICONTROL workfront-service{3&#x200B;}。]*&#x200B;选择[!UICONTROL workfront-service]用户。
 1. 在屏幕右侧，选择&#x200B;**[!UICONTROL 添加ACE]**&#x200B;以创建新条目。
-1. 在{&#x200B;0}添加新条目&#x200B;]**窗口&#x200B;中，选中**[!UICONTROL &#x200B;路径&#x200B;]**字段中的复选框图标，&#x200B;然后选择文件夹： */conf***[!UICONTROL 
+1. 在{&#x200B;0}添加新条目&#x200B;**窗口&#x200B;中，选中**&#x200B;[!UICONTROL &#x200B;路径&#x200B;]&#x200B;**字段中的复选框图标，&#x200B;然后选择文件夹： */conf***
 1. 在&#x200B;**权限**&#x200B;字段中，输入： *jcr：read*
 1. 选择右上角的&#x200B;**添加**。
 1. （可选）重复上述步骤以创建更多条目。
@@ -143,7 +143,7 @@ ht-degree: 0%
 
       例如，[!DNL https]：//`<account>`.my.workfront.com，其中`<account>`是您用于与AEM集成的帐户。
 
-   1. 在{&#x200B;0}基本文件夹&#x200B;]**字段中，选中复选框图标。**[!UICONTROL 
+   1. 在{&#x200B;0}基本文件夹&#x200B;**字段中，选中复选框图标。**
    1. 在下拉菜单中，选择链接到[!DNL Workfront]对象的文档的存储路径。
    1. 在显示的AEM模式窗口中，将包含连接到[!DNL Workfront]对象的文档的文件夹路径置于之后。 选择文件夹，然后按右上角的&#x200B;**[!UICONTROL &#x200B;选择]**。
 
@@ -244,7 +244,7 @@ ht-degree: 0%
 
 ## 配置[!DNL Workfront]以与[!DNL AEM assets]集成 {#configure-workfront-to-integrate-with-aem-assets}
 
-在安装[!UICONTROL Workfront for AEM Assets]连接器(如[安装[!UICONTROL Workfront for AEM Assets]连接器包](#install-the-workfront-for-aem-assets-connector-package)中所述)并配置[!UICONTROL AEM Assets]&#x200B;(如[配置[!UICONTROL  AEM Assets]以与 [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront)集成)之后，您需要配置[!DNL Workfront]以链接介于[!DNL Workfront]和[!DNL AEM Assets]之间的文档。
+在安装[!UICONTROL Workfront for AEM Assets]连接器(如[安装[!UICONTROL Workfront for AEM Assets]连接器包](#install-the-workfront-for-aem-assets-connector-package)中所述)并配置[!UICONTROL AEM Assets]&#x200B;(如[配置[!UICONTROL &#x200B; AEM Assets]以与 [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront)集成)之后，您需要配置[!DNL Workfront]以链接介于[!DNL Workfront]和[!DNL AEM Assets]之间的文档。
 
 1. 以管理员身份登录到Workfront。
 
@@ -269,7 +269,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL 身份验证类型]**&#x200B;下拉菜单中，选择&#x200B;**[!UICONTROL ApiKey].**
 
-1. 在{&#x200B;0}API密钥&#x200B;]**框中，粘贴您配置[!UICONTROL AEM Assets]时复制的AEM API密钥。**[!UICONTROL 
+1. 在{&#x200B;0}API密钥&#x200B;**框中，粘贴您配置[!UICONTROL AEM Assets]时复制的AEM API密钥。**
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 1. （可选）确保集成标记为[!UICONTROL 活动]。\
    ![aem_custom_integration_active.png](assets/aem-custom-integration-active-350x81.png)
@@ -289,7 +289,7 @@ ht-degree: 0%
 ### 在[!DNL AEM assets]中设置用户 {#set-up-users-in-aem-assets}
 
 1. 以Workfront管理员身份登录到[!DNL AEM Assets]。
-1. 单击&#x200B;**[!UICONTROL 工具]** > **{3&#x200B;}{&#x200B;4}安全性]** > **[!UICONTROL 用户]**。****[!UICONTROL 
+1. 单击&#x200B;**[!UICONTROL 工具]** > **{3&#x200B;}{&#x200B;4}安全性** > **[!UICONTROL 用户]**。**&#x200B;**
 
 1. （视情况而定）如果用户在AEM中没有用户配置文件，请创建AEM用户配置文件。
 

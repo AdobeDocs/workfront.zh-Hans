@@ -89,7 +89,7 @@ ht-degree: 1%
      >[!NOTE]
      >
      >如果您停用用户并且无法再查看与用户相关的报告或仪表板，则可能需要更新&#x200B;**使用**&#x200B;的访问权限运行此报告。\
-     >要了解更多信息，请参阅[为什么无法访问已停用用户所拥有的报告？[报告常见问题解答](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)文章的](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why)部分。
+     >要了解更多信息，请参阅[&#128279;](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why)为什么无法访问已停用用户所拥有的报告？[报告常见问题解答](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)文章的部分。
 
    * 文档
    * 更新
@@ -112,7 +112,7 @@ ht-degree: 1%
      >[!NOTE]
      >
      >您还将失去对包含与已删除用户关联的功能板的自定义部分的访问权限。\
-     >若要了解更多信息，请参阅[如何访问包含已删除用户所拥有报表的仪表板？[报告常见问题解答](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)文章的](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how)部分。
+     >若要了解更多信息，请参阅[&#128279;](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how)如何访问包含已删除用户所拥有报表的仪表板？[报告常见问题解答](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)文章的部分。
 
    * 更新
    * 小时

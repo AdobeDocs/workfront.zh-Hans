@@ -45,11 +45,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[！UICONTROL编辑]对[！UICONTROL报表]、[！UICONTROL功能板]和[！UICONTROL日历的访问权限</p></td> 
+   <td> <p>[!UICONTROL 编辑]对[!UICONTROL 报表]、[!UICONTROL 功能板]和&lbrack;！UICONTROL日历的访问权限</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td>[！UICONTROL Manage]对日历报表的访问权限</td> 
+   <td>[!UICONTROL Manage]对日历报表的访问权限</td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,11 +70,13 @@ ht-degree: 0%
    1. 单击&#x200B;**[!UICONTROL 添加到日历]。**
    1. 开始键入要添加日历事件的项目名称，然后单击该名称以将其显示在下拉列表中。
    1. 单击&#x200B;**添加**。
+
       ![将项目添加到日历](assets/add-a-calendar-project.png)
 
 
 1. （可选）要添加日历分组或修改现有日历分组，请执行以下操作：
    1. 单击项目名称旁边的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**编辑**。
+
       ![在日历中编辑项目](assets/edit-project-in-calendar.png)
 
    1. 选择项目分组方式：

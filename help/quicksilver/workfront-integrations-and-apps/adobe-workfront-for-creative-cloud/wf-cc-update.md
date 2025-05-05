@@ -45,7 +45,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>[！UICONTROL视图]对要更新的对象的访问权限。 </p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>[!UICONTROL 视图]对要更新的对象的访问权限。 </p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>

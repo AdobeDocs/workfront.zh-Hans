@@ -75,7 +75,7 @@ ht-degree: 0%
 1. （可选）启用&#x200B;**自动设置用户** (7)。
 启用此选项后，将自动为没有自己的[!DNL Workfront Proof]配置文件但将使用其单点登录凭据访问您的[!DNL Workfront Proof]帐户的用户创建用户帐户。 仅当您的帐户尚未达到用户限制时，才会执行此操作。
 
-1. 默认情况下，新设置的用户将分配有Manager配置文件权限。 如果您需要更多信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校对权限配置文件。
+1. 默认情况下，新设置的用户将分配有Manager配置文件权限。 如果您需要更多信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校对权限配置文件。
 
 ![启用_SSO_SAML_2.0.png](assets/enable-sso-saml-2.0-350x236.png)
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 在此，您将有两种配置方法(5)：
 
 1. **继承：** SSO，配置取自您的中心帐户。
-如果用户通过**默认登录页面** ([https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html))访问[!DNL Workfront Proof]，则将有&#x200B;**两个级别的授权**：首先要求用户使用[!DNL Workfront Proof]访问数据（电子邮件和密码）登录；然后通过SSO窗口将该用户传输到SSO登录页面。
+如果用户通过&#x200B;**默认登录页面** ([https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html))访问[!DNL Workfront Proof]，则将有&#x200B;**两个级别的授权**：首先要求用户使用[!DNL Workfront Proof]访问数据（电子邮件和密码）登录；然后通过SSO窗口将该用户传输到SSO登录页面。
 因此，启用SSO服务后，我们建议通过您自己的[!DNL Workfront Proof]子域/域登录。
 
    >[!NOTE]

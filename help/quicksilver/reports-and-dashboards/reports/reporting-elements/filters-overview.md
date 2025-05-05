@@ -89,7 +89,7 @@ Workfront中有多种类型的过滤器。 所有筛选器都可达到限制屏�
 
 * 工作负载均衡器
 
-  有关信息，请参阅工作负载均衡器](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)中的[过滤器信息。
+  有关信息，请参阅工作负载均衡器[&#128279;](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)中的过滤器信息。
 
 * 分析区域
 

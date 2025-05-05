@@ -109,7 +109,7 @@ ht-degree: 0%
 有关信息，请参阅[还原并清空 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)中的垃圾桶。
 
 * 管理权限配置文件
-有关信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[验证权限配置文件。
+有关信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的验证权限配置文件。
 
 * 查看Analytics
 
@@ -136,10 +136,10 @@ ht-degree: 0%
    有关详细信息，请参阅[管理权限](#administrative-permissions)。
 
 1. 单击&#x200B;**[!UICONTROL 创建]**。
-新配置文件现在可在**[!UICONTROL 用户]**&#x200B;选项卡上使用。
+新配置文件现在可在&#x200B;**[!UICONTROL 用户]**&#x200B;选项卡上使用。
 
 1. （可选）将新配置文件分配给新的和现有的用户帐户。
-有关详细信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校对权限配置文件。
+有关详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校对权限配置文件。
 
 ## 启用和禁用配置文件 {#enabling-and-disabling-a-profile}
 
@@ -147,7 +147,7 @@ ht-degree: 0%
 
 1. 选择要启用或禁用的配置文件。
 或
-要同时启用或禁用多个配置文件，请手动选择配置文件，或选择**[!UICONTROL 名称]**以选择所有自定义配置文件。
+要同时启用或禁用多个配置文件，请手动选择配置文件，或选择&#x200B;**[!UICONTROL 名称]**&#x200B;以选择所有自定义配置文件。
    ![Screenshot_2018-04-06_12-31-53.png](assets/screenshot-2018-04-06-12-31-53.png)
 
 1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;下拉菜单，然后单击以下任一选项，具体取决于您是要启用或禁用配置文件：

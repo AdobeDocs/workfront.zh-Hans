@@ -63,7 +63,7 @@ Portfolio或项目Portfolio管理(PPM)是对项目列表进行优先级划分和
 
 提交项目请求后，Portfolio经理或执行团队会对其进行审核，并决定是否批准项目。 如果他们批准该项目，则为公司项目Portfolio选择该项目。
 
-有关项目组合的详细信息，请参阅 [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)中的[Portfolio概述。 有关批准业务案例的详细信息，请参阅[批准业务案例](../../../manage-work/projects/define-a-business-case/approve-business-case.md)。
+有关项目组合的详细信息，请参阅 [!DNL Adobe Workfront][&#128279;](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)中的Portfolio概述。 有关批准业务案例的详细信息，请参阅[批准业务案例](../../../manage-work/projects/define-a-business-case/approve-business-case.md)。
 
 ### 项目组合的最优化 {#portfolio-optimization}
 

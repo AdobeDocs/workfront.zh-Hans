@@ -112,7 +112,7 @@ ht-degree: 1%
 ## 管理通知首选项
 
 1. 使用您的Adobe Experience Cloud凭据登录Workfront 。
-1. 单击屏幕右上角的Experience Cloud](assets/account-menu-icon-on-experience-cloud.png)上的&#x200B;**帐户菜单**&#x200B;图标![帐户菜单图标，然后单击&#x200B;**首选项**。
+1. 单击屏幕右上角的Experience Cloud![&#128279;](assets/account-menu-icon-on-experience-cloud.png)上的&#x200B;**帐户菜单**&#x200B;图标帐户菜单图标，然后单击&#x200B;**首选项**。
 1. 在&#x200B;**通知**&#x200B;部分下，单击&#x200B;**Workfront**。
 1. 选择要接收的通知。
 或

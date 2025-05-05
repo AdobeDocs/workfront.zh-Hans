@@ -48,7 +48,7 @@ ht-degree: 0%
 
 在此增强功能之前，Workfront仅使用预算小时数计算净值。 净值显示可用小时数和预算或计划小时数、FTE或成本之间的差异。 在计算净值时，预算小时数仍然是默认设置。
 
-有关信息，请参阅资源规划者](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)的项目和角色视图中的[小时概述、FTE和成本信息。
+有关信息，请参阅资源规划者[&#128279;](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)的项目和角色视图中的小时概述、FTE和成本信息。
 
 ## 工作负载均衡器中的12周查看
 
@@ -62,4 +62,4 @@ ht-degree: 0%
 
 在此增强功能之前，当将工作角色过滤器应用于未分配区域时，工作负载均衡器显示与分配给工作角色的工作项关联的所有小时数。
 
-有关在工作负载均衡器中过滤信息的信息，请参阅在工作负载均衡器中管理过滤器[](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)。
+有关在工作负载均衡器中过滤信息的信息，请参阅在工作负载均衡器中管理过滤器[&#128279;](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)。

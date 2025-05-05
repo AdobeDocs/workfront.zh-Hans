@@ -41,12 +41,12 @@ ht-degree: 4%
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证</strong></td> 
    <td> <p>当前：参与</p>
    <p>或</p> 
-   <p>新：[！UICONTROL Light]或更高版本<p> 
+   <p>新：[!UICONTROL Light]或更高版本<p> 
   </td> 
   </tr> </ul>
   <tr> 
    <td role="rowheader"><strong>访问级别配置</strong></td> 
-   <td> <p>[！UICONTROL视图]或更高的项目、任务、问题和文档访问权限</p> </td> 
+   <td> <p>[!UICONTROL 视图]或更高的项目、任务、问题和文档访问权限</p> </td> 
   </tr>  
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 

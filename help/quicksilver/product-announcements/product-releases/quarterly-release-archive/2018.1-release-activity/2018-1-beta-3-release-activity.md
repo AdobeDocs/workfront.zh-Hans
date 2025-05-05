@@ -26,11 +26,11 @@ ht-degree: 0%
 
 2018.1 Beta 3版本包含面向Workfront管理员和其他用户的增强功能：
 
-管理员的&#x200B;****
+管理员的&#x200B;**&#x200B;**
 
 * [组管理员改进](#group-administrator-improvements)
 
-所有用户&#x200B;****
+所有用户&#x200B;**&#x200B;**
 
 * [HTML5验证查看器改进](#html5-proofing-viewer-improvements)
 * Workfront中的[验证改进](#proofing-improvements-within-workfront)

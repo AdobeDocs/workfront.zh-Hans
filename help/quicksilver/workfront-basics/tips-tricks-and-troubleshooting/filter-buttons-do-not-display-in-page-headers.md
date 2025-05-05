@@ -29,11 +29,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe[!DNL Workfront]许可证</strong></td> 
-   <td> <p>[！UICONTROL计划] </p> </td> 
+   <td> <p>[!UICONTROL 计划] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置</strong></td> 
-   <td> <p>[！UICONTROL系统管理员]</p> </td> 
+   <td> <p>[!UICONTROL 系统管理员]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,19 +51,19 @@ ht-degree: 1%
    <td><strong>筛选器按钮</strong></td> 
   </tr> 
   <tr> 
-   <td> <p>[！UICONTROL项目] </p> </td> 
+   <td> <p>[!UICONTROL 项目] </p> </td> 
    <td> 
     <ul> 
-     <li> <p>[！UICONTROL我参与的项目]</p> </li> 
-     <li> <p>[！UICONTROL我拥有的项目]</p> </li> 
+     <li> <p>[!UICONTROL 我参与的项目]</p> </li> 
+     <li> <p>[!UICONTROL 我拥有的项目]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><span>[！UICONTROL时间表]</span> </td> 
+   <td><span>[!UICONTROL 时间表]</span> </td> 
    <td> 
     <ul> 
-     <li> <p><span>[！UICONTROL我的工时表批准]</span> </p> </li> 
-     <li> <p><span>[！UICONTROL我的时间表]</span> </p> </li> 
+     <li> <p><span>[!UICONTROL 我的工时表批准]</span> </p> </li> 
+     <li> <p><span>[!UICONTROL 我的时间表]</span> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -86,7 +86,7 @@ ht-degree: 1%
 
    1. 访问布局模板。
    1. 在&#x200B;**[!UICONTROL 自定义用户看到的内容]**&#x200B;下选择&#x200B;**[!UICONTROL 列表]**。
-   1. 在&#x200B;**[!UICONTROL 下选择**[!UICONTROL &#x200B;项目&#x200B;]**或**[!UICONTROL &#x200B;时间表&#x200B;]**选择要自定义的列表]**。
+   1. 在&#x200B;**[!UICONTROL 下选择**&#x200B;[!UICONTROL &#x200B;项目&#x200B;]&#x200B;**或**&#x200B;[!UICONTROL &#x200B;时间表&#x200B;]&#x200B;**选择要自定义的列表]**。
    1. 在&#x200B;**[!UICONTROL 筛选器]**&#x200B;部分中，验证是否选择了我所在的&#x200B;**[!UICONTROL 项目]**、**[!UICONTROL 我拥有的项目]**（项目）和&#x200B;**[!UICONTROL 我的工时表批准]**&#x200B;和&#x200B;**[!UICONTROL 我的工时表]**（时间表）。
    1. 单击&#x200B;**[!UICONTROL 保存]**。
 

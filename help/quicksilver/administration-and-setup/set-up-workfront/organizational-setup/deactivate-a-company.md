@@ -29,31 +29,31 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!DNL Workfront] 计划</p> </td> 
-   <td><p>当前： [！UICONTROL团队]或更高版本</p>
+   <td><p>当前： [!UICONTROL 团队]或更高版本</p>
    <p>或</p>
    <p>新建：任何</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!DNL Adobe Workfront] 许可证</p> </td> 
-   <td><p>当前： [！UICONTROL计划]</p>
+   <td><p>当前： [!UICONTROL 计划]</p>
    <p>或</p>
-   <p>新文档： [！UICONTROL Standard]</p>
+   <p>新文档： [!UICONTROL Standard]</p>
    </td> 
   </tr>
   <tr data-mc-conditions=""> 
    <td role="rowheader"><strong>访问级别配置</strong> </td> 
    <td> <p>下列选项之一：</p> 
     <ul> 
-     <li> <p>[！UICONTROL系统管理员]访问级别，允许您编辑系统中的任何公司。</p> </li> 
+     <li> <p>[!UICONTROL 系统管理员]访问级别，允许您编辑系统中的任何公司。</p> </li> 
      <li> <p>管理公司的管理权限，允许您编辑系统中的任何公司。</p> </li> 
     </ul> <p><b>注释</b>：  
      <ul> 
       <li> <p>您还可以管理与您被分配为组管理员的任何组关联的公司。</p> </li> 
       <li> <p>若要在[!DNL Workfront]系统中添加和删除用户，您必须具备以下任一项：</p> 
        <ul> 
-        <li> <p>[！UICONTROL系统管理员]访问级别。</p> </li> 
-        <li> <p>在访问级别中，必须为[！UICONTROL用户]设置选择[！UICONTROL编辑] 。 此外，对于[！UICONTROL用户]设置，在[！UICONTROL微调设置] <img src="assets/gear-icon-in-access-levels.png">下，必须启用[！UICONTROL创建]选项以及两个[！UICONTROL用户管理]选项中的至少一个。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>如果您使用[！UICONTROL用户管理员（组用户）]选项，您必须是用户所属组的组管理员。</p> </li> 
+        <li> <p>[!UICONTROL 系统管理员]访问级别。</p> </li> 
+        <li> <p>在访问级别中，必须为[!UICONTROL 用户]设置选择[!UICONTROL 编辑] 。 此外，对于[!UICONTROL 用户]设置，在[!UICONTROL 微调设置] <img src="assets/gear-icon-in-access-levels.png">下，必须启用[!UICONTROL 创建]选项以及两个[!UICONTROL 用户管理]选项中的至少一个。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>如果您使用[!UICONTROL 用户管理员（组用户）]选项，您必须是用户所属组的组管理员。</p> </li> 
        </ul>
        </li> 
      </ul> </p> </td> 

@@ -40,7 +40,7 @@ Workfront Proof允许您查看报表，以便跟踪团队的工作进度和效�
 
 ### 用户先决条件 {#user-prerequisites}
 
-报表信息仅适用于对您帐户中的所有验证具有完全访问权限的用户（即 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中至少有[个验证权限配置文件的用户）。
+报表信息仅适用于对您帐户中的所有验证具有完全访问权限的用户（即 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中至少有个验证权限配置文件的用户）。
 
 在此面板中，您可以
 

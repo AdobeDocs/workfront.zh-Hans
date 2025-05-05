@@ -41,7 +41,7 @@ ht-degree: 0%
 要创建自定义视图，请执行以下操作：
 
 1. 转到&#x200B;**[!UICONTROL 视图]**&#x200B;页面。
-1. 有关视图的详细信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的[管理视图页面上的项目。
+1. 有关视图的详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的管理视图页面上的项目。
 1. 根据您是要从头开始创建新的自定义视图，还是要基于现有的标准视图创建新的自定义视图，执行以下任一操作：
 
    * 要基于现有标准视图创建新的自定义视图：从下拉菜单中，选择要用作新自定义视图基础的现有标准视图。 单击&#x200B;**[!UICONTROL 视图设置]**&#x200B;图标，然后单击&#x200B;**[!UICONTROL 复制]**&#x200B;到新的自定义视图。
@@ -95,7 +95,7 @@ ht-degree: 0%
       <td>创建项目的用户。</td>
       </tr>
       <tr>
-      <td><strong>[！UICONTROL日期已添加到验证]</strong></td>
+      <td><strong>[!UICONTROL 日期已添加到验证]</strong></td>
       <td>将您添加到证明的日期。 </td>
       </tr>
       <tr>
@@ -107,7 +107,7 @@ ht-degree: 0%
       <td>在预期数量之外给出的决定的数量（例如0个，1个，1个，等等）</td>
       </tr>
       <tr>
-      <td><strong>[！UICONTROL下载]</strong></td>
+      <td><strong>[!UICONTROL 下载]</strong></td>
       <td>下载原始文件的次数。</td>
       </tr>
       <tr>
@@ -263,14 +263,14 @@ ht-degree: 0%
    * 如果您此时选择不与其他用户共享您的视图，则以后可以通过编辑自定义视图来实现这一点。
 
 1. 单击&#x200B;**[!UICONTROL 创建]**。
-1. 自定义视图将显示并出现在[!DNL Views]页面上。 有关查看次数的详细信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中 [!DNL Views] 页上的[管理项目。
+1. 自定义视图将显示并出现在[!DNL Views]页面上。 有关查看次数的详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中 [!DNL Views] 页上的管理项目。
 
 ## 编辑自定义视图
 
 您可以轻松编辑自定义视图。 要编辑自定义视图，请执行以下操作：
 
 1. 转到&#x200B;**[!UICONTROL 视图]**&#x200B;页面。\
-   有关视图的详细信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的[管理视图页面上的项目。
+   有关视图的详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的管理视图页面上的项目。
 
 1. 单击[!UICONTROL 视图]按钮(1)
 1. 从下拉菜单中选择要编辑的视图。\
@@ -301,7 +301,7 @@ ht-degree: 0%
 要复制自定义视图，请执行以下操作：
 
 1. 转到&#x200B;**[!UICONTROL 视图]**&#x200B;页面。\
-   有关视图的详细信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的[管理视图页面上的项目。
+   有关视图的详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的管理视图页面上的项目。
 
 1. 单击&#x200B;**[!UICONTROL 视图]**&#x200B;按钮。 (1)
 1. 从列表中选择您的自定义视图。 (2)
@@ -321,7 +321,7 @@ ht-degree: 0%
 要与其他用户共享自定义视图，请执行以下操作：
 
 1. 转到&#x200B;**[!UICONTROL 视图]**&#x200B;页面。\
-   有关视图的详细信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的[管理视图页面上的项目。
+   有关视图的详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的管理视图页面上的项目。
 
 1. 单击&#x200B;**[!UICONTROL 视图]**&#x200B;按钮(1)
 1. 从列表中选择自定义视图(2)
@@ -339,7 +339,7 @@ ht-degree: 0%
 要将数据从自定义视图导出到CSV文件，请执行以下操作：
 
 1. 转到&#x200B;**[!UICONTROL 视图]**&#x200B;页面。\
-   有关视图的详细信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的[管理视图页面上的项目。
+   有关视图的详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的管理视图页面上的项目。
 
 1. 单击&#x200B;**[!UICONTROL 视图]**&#x200B;按钮。 (1)
 1. 从列表中选择自定义视图。 (2)
@@ -359,7 +359,7 @@ ht-degree: 0%
 您可以轻松删除自定义视图。 为此，请执行以下操作：
 
 1. 转到&#x200B;**[!UICONTROL 视图]**&#x200B;页面。\
-   有关视图的详细信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的[管理视图页面上的项目。
+   有关视图的详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的管理视图页面上的项目。
 
 1. 单击&#x200B;**[!UICONTROL 视图]**&#x200B;按钮。
 1. 从列表中选择自定义视图

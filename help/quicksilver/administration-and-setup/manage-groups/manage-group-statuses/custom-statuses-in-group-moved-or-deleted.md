@@ -80,6 +80,6 @@ ht-degree: 0%
 >* 组B版本状态的名称将覆盖组A版本的名称。
 >* 如果在删除某个组A中的某个人将该状态应用于该组，则该对象的状态名称将更新为组B使用的状态名称。
 >
->有关状态键的信息，请参阅本文中[创建或编辑自定义状态](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md#create)[创建或编辑组的状态](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md#create)下的表。
+>有关状态键的信息，请参阅本文中[创建或编辑自定义状态](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md#create) [创建或编辑组的状态](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md#create)下的表。
 >
 >有关删除组的信息，请参阅[删除组](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)。

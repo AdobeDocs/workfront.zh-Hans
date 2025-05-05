@@ -43,7 +43,7 @@ ht-degree: 0%
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
    <td> <p>新文档：参与者或更高版本 </p>
         <p>或</p> 
-        <p>当前： [！UICONTROL Request]或更高版本 </p></td> 
+        <p>当前： [!UICONTROL Request]或更高版本 </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -174,11 +174,11 @@ ht-degree: 0%
 
    1. 从下拉列表中选择标记。 只有已在[!UICONTROL 标记管理器]中创建的标记才可供选择。 有关添加新标记的信息，请参阅[添加标记](/help/quicksilver/agile/get-started-with-boards/add-tags.md)。
 
-      列](assets/boards-column-tags.png)的![标记
+      列![&#128279;](assets/boards-column-tags.png)的标记
 
 1. 启用&#x200B;**[!UICONTROL 工作进行中限制]**&#x200B;策略以限制可以添加到列中的卡片数量。 然后，在&#x200B;**[!UICONTROL 设置限制]**&#x200B;字段中键入限制数。
 
-   列](assets/boards-wip-limit-in-column.png)的![WIP限制
+   列![&#128279;](assets/boards-wip-limit-in-column.png)的WIP限制
 
    有关详细信息，请参阅[在展示板上管理正在进行的工作(WIP)限制](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)。
 

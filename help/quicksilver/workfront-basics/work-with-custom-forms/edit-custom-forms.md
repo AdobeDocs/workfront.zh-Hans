@@ -105,7 +105,7 @@ ht-degree: 0%
 
    修改页面上的依赖字段时，自定义表单上的计算字段会实时动态重新计算。 您可以在不保存表单的情况下查看新的计算字段值，但在保存更改之前，该值不会实际应用于表单和对象。 这适用于默认表单以及自定义表单中的计算字段。
 
-   当您与列表中的其他对象一起批量编辑对象时，也可以手动更新该对象的所有计算自定义字段。 有关说明，请参阅在编辑本文中的对象](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects)时，重新计算列表中多个对象的所有计算自定义字段[。
+   当您与列表中的其他对象一起批量编辑对象时，也可以手动更新该对象的所有计算自定义字段。 有关说明，请参阅在编辑本文中的对象[&#128279;](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects)时，重新计算列表中多个对象的所有计算自定义字段。
 
 ## 重新计算对象的所有已计算自定义字段  {#recalculate-all-calculated-custom-fields-for-an-object}
 

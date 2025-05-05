@@ -35,9 +35,9 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>新文档： [！UICONTROL Standard]</p> 
+   <td> <p>新文档： [!UICONTROL Standard]</p> 
    或
-   <p>当前： [！UICONTROL Work]或更高版本</p> </td> 
+   <p>当前： [!UICONTROL Work]或更高版本</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -59,4 +59,4 @@ ht-degree: 0%
 
 与敏捷迭代不同，在敏捷视图中查看项目时，无法更改故事顺序。 要修改项目的文章顺序，必须在标准视图中查看项目。
 
-有关如何更改项目视图的信息，请参阅[!UICONTROL Agile]视图](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)中的[[!UICONTROL 管理项目]。 选择标准视图，而不是选择Agile视图。
+有关如何更改项目视图的信息，请参阅[!UICONTROL Agile]视图[&#128279;](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)中的[!UICONTROL 管理项目]。 选择标准视图，而不是选择Agile视图。

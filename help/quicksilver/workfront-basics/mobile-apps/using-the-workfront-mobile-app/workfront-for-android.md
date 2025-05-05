@@ -32,9 +32,9 @@ ht-degree: 2%
    <td> 
     <ul> 
      <li>开始处理任务和问题</li> 
-     <li>将任务和问题标记为[！UICONTROL完成]</li> 
+     <li>将任务和问题标记为[!UICONTROL 完成]</li> 
      <li>重新分配任务和问题</li> 
-     <li>更改[！UICONTROL提交日期]</li> 
+     <li>更改[!UICONTROL 提交日期]</li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -48,7 +48,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-有关详细信息，请参阅移动设备应用程序](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md)中的[[!UICONTROL 主页]区域小组件](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md)和[[!UICONTROL 我的工作]部分。
+有关详细信息，请参阅移动设备应用程序[&#128279;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md)中的[[!UICONTROL 主页]区域小组件](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md)和[!UICONTROL 我的工作]部分。
 
 ![主页区域](assets/mobile-home-area.png)
 
@@ -58,7 +58,7 @@ ht-degree: 2%
 
 ![讨论区区域](assets/mobile-all-boards-displayed.png)
 
-有关详细信息，请参阅移动设备](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)的[[!DNL Adobe Workfront] [!UICONTROL 讨论区]。
+有关详细信息，请参阅移动设备[&#128279;](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)的[!DNL Adobe Workfront] [!UICONTROL 讨论区]。
 
 ## [!UICONTROL 项目]
 
@@ -73,7 +73,7 @@ ht-degree: 2%
     <ul> 
      <li>更新项目状态</li> 
      <li>查看重要项目详细信息</li> 
-     <li>[！UICONTROL Updates]区域中的Post</li> 
+     <li>[!UICONTROL Updates]区域中的Post</li> 
      <li>将任务、问题和请求转换为项目</li> 
     </ul> </td> 
    <td> 
@@ -113,7 +113,7 @@ ht-degree: 2%
  </tbody>
 </table>
 
-有关审批的详细信息，请参阅 [!DNL Adobe Workfront] 移动设备应用程序](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)中的[审批。
+有关审批的详细信息，请参阅 [!DNL Adobe Workfront] 移动设备应用程序[&#128279;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)中的审批。
 
 有关审阅和批准校样的信息，请参阅[在 [!DNL Adobe Workfront] 移动设备应用程序](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)中审阅和作出校样决定。
 

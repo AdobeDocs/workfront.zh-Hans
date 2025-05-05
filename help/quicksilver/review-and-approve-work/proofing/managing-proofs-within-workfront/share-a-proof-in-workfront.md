@@ -174,4 +174,4 @@ ht-degree: 0%
 
 当用户将您添加到验证并使用自动工作流授予审批者角色或查看者和审批者角色时，审批请求显示在主页区域的“我的审批”小部件中。 然后，您可以直接从Workfront查看验证并做出批准决定。
 
-有关如何通过“我的审批”构件做出审批决策的信息，请参阅[从主页区域审批工作](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area)或[在[审批工作](../../../review-and-approve-work/manage-approvals/approving-work.md)中审批工作](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area)。
+有关如何通过“我的审批”构件做出审批决策的信息，请参阅[从主页区域审批工作](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area)或[&#128279;](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area)在[审批工作](../../../review-and-approve-work/manage-approvals/approving-work.md)中审批工作。

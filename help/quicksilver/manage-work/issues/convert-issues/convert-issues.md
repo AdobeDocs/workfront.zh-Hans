@@ -43,7 +43,7 @@ ht-degree: 2%
 
 * 转化问题时，原始问题的权限不会转移到转化后的对象（任务或项目）。
 
-* 使用模板将问题转化为项目时，模板中的大多数信息会传输到新项目。 但是，问题中的某些信息也可以传输到新项目。 有关详细信息，请参阅本文中的使用模板](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template)将问题转化为项目时[项目字段概述。
+* 使用模板将问题转化为项目时，模板中的大多数信息会传输到新项目。 但是，问题中的某些信息也可以传输到新项目。 有关详细信息，请参阅本文中的使用模板[&#128279;](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template)将问题转化为项目时项目字段概述。
 * 在转化问题时，并非所有文档或其信息都会移动到问题转化到的新对象。 在转换附加了文档或文档链接的问题时，包括以下项：
 
    * 文档

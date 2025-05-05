@@ -52,7 +52,7 @@ ht-degree: 0%
 
 要查看对象的参考编号，您可以创建一个自定义视图，或修改现有视图，并将[!UICONTROL 参考编号]字段添加到视图中的列。 例如，您可以修改[!UICONTROL 项目]视图以显示所有项目的参考编号。
 
-有关如何创建或修改视图的信息，请参阅 [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)中的[视图概述。
+有关如何创建或修改视图的信息，请参阅 [!DNL Adobe Workfront][&#128279;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)中的视图概述。
 
 ### 在报表中查看参考编号
 

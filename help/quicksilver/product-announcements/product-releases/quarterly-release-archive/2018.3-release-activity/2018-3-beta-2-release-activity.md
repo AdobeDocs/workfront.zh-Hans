@@ -26,11 +26,11 @@ ht-degree: 0%
 
 2018.3 Beta 2版本包含面向Workfront管理员和其他用户的增强功能：
 
-管理员的&#x200B;****
+管理员的&#x200B;**&#x200B;**
 
 * [以组管理员身份更新用户配置文件中的电子邮件地址](#update-the-email-address-in-the-user-profile-as-a-group-administrator)
 
-所有用户&#x200B;****
+所有用户&#x200B;**&#x200B;**
 
 * [在主页区域查看委托给我的审批](#view-approvals-delegated-to-me-in-the-home-area)
 * [导出资源规划者中给定期间的数据](#export-data-for-a-given-period-in-the-resource-planner)

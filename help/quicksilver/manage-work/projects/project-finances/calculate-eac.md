@@ -140,4 +140,4 @@ EAC = EAC Labor + EAC Expense
 
    EAC值显示在&#x200B;**完工估算**&#x200B;字段中。
 
-   项目](assets/eac-highlighted-on-project-350x112.png)上的![EAC
+   项目![&#128279;](assets/eac-highlighted-on-project-350x112.png)上的EAC

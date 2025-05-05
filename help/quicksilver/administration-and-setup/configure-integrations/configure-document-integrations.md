@@ -45,9 +45,9 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>新文档： [！UICONTROL Standard]</p>
+   <td><p>新文档： [!UICONTROL Standard]</p>
        <p>或</p>
-       <p>当前： [！UICONTROL计划]</p></td>
+       <p>当前： [!UICONTROL 计划]</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -138,19 +138,19 @@ ht-degree: 1%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL名称]</td> 
+      <td role="rowheader">[!UICONTROL 名称]</td> 
       <td>自定义集成的名称。 这是用户在Workfront中使用集成时看到的名称。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL基本API URL] </td> 
+      <td role="rowheader">[!UICONTROL 基本API URL] </td> 
       <td>API调用的基本HTTP或安全HTTP URL。 例如， <code>https://&lt;documentprovider&gt;.com/api/v2</code></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL身份验证类型]</td> 
+      <td role="rowheader">[!UICONTROL 身份验证类型]</td> 
       <td> <p>对自定义集成进行授权的API调用时要使用的身份验证方法。</p> 
        <ul> 
-        <li>如果选择<strong>[！UICONTROL OAuth]</strong>，请继续执行步骤5。</li> 
-        <li>如果选择<strong>[！UICONTROL ApiKey]</strong>，请继续执行步骤6。</li> 
+        <li>如果选择<strong>[!UICONTROL OAuth]</strong>，请继续执行步骤5。</li> 
+        <li>如果选择<strong>[!UICONTROL ApiKey]</strong>，请继续执行步骤6。</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -163,23 +163,23 @@ ht-degree: 1%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL身份验证URL]</td> 
+      <td role="rowheader">[!UICONTROL 身份验证URL]</td> 
       <td>用于用户身份验证的完整URL。 在OAuth配置过程中，[!DNL Workfront]将用户导航到此地址。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL令牌端点URL]</td> 
+      <td role="rowheader">[!UICONTROL 令牌端点URL]</td> 
       <td>用于检索 OAuth 令牌的完整 API URL。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL客户端ID]</td> 
+      <td role="rowheader">[!UICONTROL 客户端ID]</td> 
       <td>此集成的OAut客户端ID。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL客户端密钥]</td> 
+      <td role="rowheader">[!UICONTROL 客户端密钥]</td> 
       <td>此集成的OAut客户端密钥</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL请求参数]</td> 
+      <td role="rowheader">[!UICONTROL 请求参数]</td> 
       <td> <p>输入要附加到每个API调用的查询字符串的可选值。 例如，access_type=offline。</p> <p>要添加多个请求参数，请单击<strong>+添加请求参数</strong>。</p> </td> 
      </tr> 
     </tbody> 

@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ## 账单管理员 {#billing-administrator}
 
-帐单管理员有权访问 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) and [The [!DNL Workfront Proof] 帐单页面](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)中的[帐户设置，并具有以下权限：
+帐单管理员有权访问 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) and [The [!DNL Workfront Proof] 帐单页面](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)中的帐户设置，并具有以下权限：
 
 ![复选标记](assets/cleaner2.png)可以生成校样、上载文件和创建文件夹。 有关详细信息，请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)中生成验证、[将文件和Web内容上传到 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md)以及[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md)中创建文件夹。
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 ![复选标记](assets/cleaner2.png)可以访问帐单页面并编辑帐单详细信息。 有关详细信息，请参阅[帐单页面 [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
 
-![复选标记](assets/cleaner2.png)可以访问“帐户设置”页并编辑帐户详细信息。 有关详细信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的[帐户设置。
+![复选标记](assets/cleaner2.png)可以访问“帐户设置”页并编辑帐户详细信息。 有关详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的帐户设置。
 
 ![复选标记](assets/cleaner2.png)可以清空垃圾桶。 有关详细信息，请参阅[还原并清空 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)中的垃圾桶。
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 ![红色X](assets/no2.png)无法删除其他用户的专用文件夹。 有关详细信息，请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)中管理文件夹。
 
-有关帐户设置的信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的[帐户设置。
+有关帐户设置的信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的帐户设置。
 
 有关计费的信息，请参阅[计费页面 [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
 
@@ -116,7 +116,7 @@ ht-degree: 0%
 
 ![复选标记](assets/cleaner2.png)可以设置为拖放区域所有者。 有关详细信息，请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)中配置拖放区域。
 
-![复选标记](assets/cleaner2.png)可以访问“帐户设置”页并编辑帐户详细信息。 有关详细信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的[帐户设置。
+![复选标记](assets/cleaner2.png)可以访问“帐户设置”页并编辑帐户详细信息。 有关详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的帐户设置。
 
 ![复选标记](assets/cleaner2.png)可以清空垃圾桶。 有关详细信息，请参阅[还原并清空 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)中的垃圾桶。
 
@@ -158,9 +158,9 @@ ht-degree: 0%
 
 ![红色X](assets/no2.png)无法编辑校对回复。
 
-![红色X](assets/no2.png)无法删除其他用户的专用文件夹。 有关详细信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md)中的[文件夹。
+![红色X](assets/no2.png)无法删除其他用户的专用文件夹。 有关详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md)中的文件夹。
 
-![红色X](assets/no2.png)无法访问帐单页面或帐户设置。 有关详细信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的[帐单页面 [!DNL Workfront Proof] 和[帐户设置。](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+![红色X](assets/no2.png)无法访问帐单页面或帐户设置。 有关详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的帐单页面 [!DNL Workfront Proof] 和[帐户设置。](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 
 ![红色X](assets/no2.png)无法添加、编辑或删除用户。
 
@@ -186,7 +186,7 @@ ht-degree: 0%
 
 ![红色X](assets/no2.png)无法删除其他用户的公用文件夹。 有关详细信息，请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)中管理文件夹。
 
-![红色X](assets/no2.png)无法访问帐单页面或帐户设置。 有关详细信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的[帐单页面 [!DNL Workfront Proof] 和[帐户设置。](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+![红色X](assets/no2.png)无法访问帐单页面或帐户设置。 有关详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的帐单页面 [!DNL Workfront Proof] 和[帐户设置。](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 
 无法将![红色X](assets/no2.png)设置为拖放区域所有者。 有关详细信息，请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)中配置拖放区域。
 
@@ -214,7 +214,7 @@ ht-degree: 0%
 
 ![红色X](assets/no2.png)无法删除组织中创建的任何项目。
 
-![红色X](assets/no2.png)无法访问帐单页面或帐户设置。 有关详细信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的[帐单页面 [!DNL Workfront Proof] 和[帐户设置。](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+![红色X](assets/no2.png)无法访问帐单页面或帐户设置。 有关详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的帐单页面 [!DNL Workfront Proof] 和[帐户设置。](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 
 无法将![红色X](assets/no2.png)设置为拖放区域所有者。 有关详细信息，请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)中配置拖放区域。
 
@@ -252,7 +252,7 @@ ht-degree: 0%
 
 ![红色X](assets/no2.png)无法删除组织中创建的任何项目。
 
-![红色X](assets/no2.png)无法访问帐单页面或帐户设置。 有关详细信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的[帐单页面 [!DNL Workfront Proof] 和[帐户设置。](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+![红色X](assets/no2.png)无法访问帐单页面或帐户设置。 有关详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的帐单页面 [!DNL Workfront Proof] 和[帐户设置。](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 
 无法将![红色X](assets/no2.png)设置为拖放区域所有者。 有关详细信息，请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)中配置拖放区域。
 

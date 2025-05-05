@@ -44,7 +44,7 @@ ht-degree: 0%
 
 1. （视情况而定）执行以下操作之一：
 
-   * 如果您要将校对添加到文件夹，请转到[!UICONTROL 校对详细信息]页面，如 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)中的[[!UICONTROL 管理校对详细信息]中所述
+   * 如果您要将校对添加到文件夹，请转到[!UICONTROL 校对详细信息]页面，如 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)中的[!UICONTROL 管理校对详细信息]中所述
    * 如果要将文件添加到文件夹，请按照[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md)中管理文件中的说明转到“文件详细信息”页面。
 
 1. 单击文件或校对所在的&#x200B;**文件夹**&#x200B;的名称，然后单击要移动它的文件夹的名称。\
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 1. （视情况而定）执行以下操作之一：
 
-   * 如果您要将校对移出文件夹，请按照 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)中[[!UICONTROL 管理校对详细信息]中的说明转到[!UICONTROL 校对详细信息]页面
+   * 如果您要将校对移出文件夹，请按照 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)中[!UICONTROL 管理校对详细信息]中的说明转到[!UICONTROL 校对详细信息]页面
 
      或\
       如果要将文件移出文件夹，请按照[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md)中管理文件中的说明转到“文件详细信息”页面。
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您不是文件的创建者或所有者，则可用选项将取决于您在 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的用户[验证权限配置文件。
+>如果您不是文件的创建者或所有者，则可用选项将取决于您在 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的用户验证权限配置文件。
 
 1. 在左侧导航菜单中的&#x200B;**[!UICONTROL 文件夹]**&#x200B;选项卡中，单击任意文件夹以打开[!UICONTROL 文件夹详细信息]页面。
 1. 如果文件夹仅包含存档的验证，则页面顶部将以黄色显示一条消息。 如果单击邮件中的链接，文件夹视图将更改为[!UICONTROL 存档的校样]视图。
@@ -106,7 +106,7 @@ ht-degree: 0%
    文件夹的所有者和创建者始终显示在此列表中，并且不可移除。 如果用户接管了文件夹的所有权，它们会自动显示并且不可移除。\
    您可以与个人用户和合作伙伴公司共享文件夹。 如果文件夹与合作伙伴公司共享，则可以通过单击将鼠标悬停在该行上时显示的[!UICONTROL 信息]图标来查看收件人的完整列表。 有关详细信息，请参阅[合作伙伴帐户。](https://support.workfront.com/hc/en-us/sections/115000912107-Partner-accounts)
 
-1. （可选）编辑经理对专用文件夹的权限，方法是单击文件夹&#x200B;]**上**[!UICONTROL &#x200B;允许，然后指定您希望此人是否能够创建、编辑和删除该文件夹中的项目。 **注意**&#x200B;此选项仅适用于与添加到专用文件夹的文件夹所有者来自同一帐户的管理员。 主管、管理员和账单管理员对帐户中的所有文件夹具有编辑权限，观察者无法创建任何项目。 有关权限的信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[验证权限配置文件。
+1. （可选）编辑经理对专用文件夹的权限，方法是单击文件夹&#x200B;&rbrack;**上**&#x200B;[[!UICONTROL &#x200B;允许，然后指定您希望此人是否能够创建、编辑和删除该文件夹中的项目。 **注意**&#x200B;此选项仅适用于与添加到专用文件夹的文件夹所有者来自同一帐户的管理员。 主管、管理员和账单管理员对帐户中的所有文件夹具有编辑权限，观察者无法创建任何项目。 有关权限的信息，请参阅 [!DNL Workfront Proof]]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的&lbrack;验证权限配置文件。
 
 1. （可选）单击&#x200B;**[!UICONTROL 活动]**&#x200B;查看在文件夹中按时间顺序执行的所有操作。
 1. （可选）单击&#x200B;**[!UICONTROL 消息]**&#x200B;部分以查看已发送给文件夹中用户的消息。\

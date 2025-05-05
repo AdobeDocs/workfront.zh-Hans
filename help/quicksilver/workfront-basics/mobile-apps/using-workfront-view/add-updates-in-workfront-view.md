@@ -36,7 +36,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[！UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Review]或更高版本</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 1. 从[!UICONTROL Workfront视图]的主页中，点按项目以访问它。
 1. （可选）将&#x200B;**[!UICONTROL 更新]**&#x200B;构件添加到视图。\
-   有关将构件添加到项目视图的详细信息，请参阅[!UICONTROL 项目详细信息]视图](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)中的[更新构件。
+   有关将构件添加到项目视图的详细信息，请参阅[!UICONTROL 项目详细信息]视图[&#128279;](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)中的更新构件。
 
 1. 点按&#x200B;**[!UICONTROL 更新]**&#x200B;构件中更新的&#x200B;**[!UICONTROL 更新]**&#x200B;图标（右下方）或（视情况而定）**[+]**&#x200B;图标。\
    ![[!DNL workfront_view_updates_icon].png](assets/workfront-view-updates-icon-315x196.png)

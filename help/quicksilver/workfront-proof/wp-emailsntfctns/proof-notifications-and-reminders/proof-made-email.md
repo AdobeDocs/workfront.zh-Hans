@@ -51,7 +51,7 @@ ht-degree: 0%
 
 ## 正在禁用[!UICONTROL 校对]电子邮件
 
-1. 单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 个人设置]**，打开&#x200B;**[!UICONTROL 验证默认值]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 验证就绪时电子邮件确认旁边的**[!UICONTROL &#x200B;禁用&#x200B;]**]**。
+1. 单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 个人设置]**，打开&#x200B;**[!UICONTROL 验证默认值]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 验证就绪时电子邮件确认旁边的**&#x200B;[!UICONTROL &#x200B;禁用&#x200B;]&#x200B;**]**。
 
 1. ![Proof_Made_-_proofing_defaults.png](assets/proof-made---proofing-defaults-350x103.png)
 

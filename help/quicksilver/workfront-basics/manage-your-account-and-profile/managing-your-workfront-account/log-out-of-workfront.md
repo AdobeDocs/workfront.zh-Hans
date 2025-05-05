@@ -31,7 +31,7 @@ ht-degree: 0%
 >
 >此页面上描述的过程仅适用于尚未载入[!DNL Adobe Experience Cloud]的组织。
 >
-> 如果贵组织已登记到[!DNL Adobe Experience Cloud]，您将通过单击顶部导航中的配置文件图片并从菜单中选择“[!UICONTROL **注销**]”来注销。 有关详细信息，请参阅 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)的[[!DNL Adobe Unified Experience] 。
+> 如果贵组织已登记到[!DNL Adobe Experience Cloud]，您将通过单击顶部导航中的配置文件图片并从菜单中选择“[!UICONTROL **注销**]”来注销。 有关详细信息，请参阅 [!DNL Workfront][&#128279;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)的[!DNL Adobe Unified Experience] 。
 
 ## 访问要求
 
@@ -49,7 +49,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Request]或更高版本</p> </td> 
   </tr> 
  </tbody> 
 </table>

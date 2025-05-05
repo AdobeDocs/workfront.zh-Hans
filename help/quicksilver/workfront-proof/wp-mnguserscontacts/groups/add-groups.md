@@ -42,5 +42,5 @@ ht-degree: 0%
 有关详细信息，请参阅<a href="../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md" class="MCXref xref">在[!DNL Workfront Proof]</a>中管理验证角色，以及<a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md" class="MCXref xref">在[!DNL Workfront Proof]</a>中配置电子邮件通知设置。
 1. （可选）将鼠标悬停在用户信息上并单击&#x200B;**[!UICONTROL X]**，从验证中删除组成员。
 或
-通过单击**[!UICONTROL 删除所有]**&#x200B;从验证中删除所有成员。
+通过单击&#x200B;**[!UICONTROL 删除所有]**&#x200B;从验证中删除所有成员。
 1. 按照<a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md" class="MCXref xref">在[!DNL Workfront Proof]</a>中生成验证中的说明继续创建验证  或<a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md" class="MCXref xref">在[!DNL Workfront Proof]</a>中复制校样。 

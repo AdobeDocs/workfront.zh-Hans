@@ -41,13 +41,13 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>新文档： [！UICONTROL Standard]</p> 
+   <td> <p>新文档： [!UICONTROL Standard]</p> 
    或
-   <p>当前： [！UICONTROL Work]或更高版本</p> </td> 
+   <p>当前： [!UICONTROL Work]或更高版本</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">对象权限</td> 
-   <td>[！UICONTROL Contribute]或[！UICONTROL Manage]对子任务所在任务的访问权限 </td> 
+   <td>[!UICONTROL Contribute]或[!UICONTROL Manage]对子任务所在任务的访问权限 </td> 
   </tr>
  </tbody> 
 </table>
@@ -85,28 +85,28 @@ ht-degree: 0%
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL子任务名称]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 子任务名称]</strong></td>
       <td> 指定子任务的名称。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL描述]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 描述]</strong></td>
       <td>指定子任务的描述。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL估计]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 估计]</strong></td>
       <td>指定子任务的估计值。<br><p>创建估计时，请牢记以下事项：</p>
        <ul>
-        <li>如果您的敏捷团队配置为以点为单位估计故事，则默认情况下，1点等于8小时。 预计值将在故事中添加为[！UICONTROL计划小时数]。</li>
+        <li>如果您的敏捷团队配置为以点为单位估计故事，则默认情况下，1点等于8小时。 预计值将在故事中添加为[!UICONTROL 计划小时数]。</li>
         <li>所有子任务的组合估计值确定父故事的估计值。 有关详细信息，请参阅<a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/update-status-of-stories-and-subtasks.md" class="MCXref xref">在Scrum展示板上更新故事和子任务的状态</a>。</li>
-        <li>创建新子任务时，已设置[！UICONTROL估计]字段。 如果重置子任务上的预计，则您将重置父文章上的预计（因为父文章是其所有子任务的总和）。</li>
+        <li>创建新子任务时，已设置[!UICONTROL 估计]字段。 如果重置子任务上的预计，则您将重置父文章上的预计（因为父文章是其所有子任务的总和）。</li>
        </ul><br></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL已计划小时数]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 已计划小时数]</strong></td>
       <td> （仅在项目中可用）指定任务的计划小时数。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL赋值]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 赋值]</strong></td>
       <td>开始键入要为其分配子任务的团队名称，然后在子任务出现在下拉列表中时单击它。</td>
      </tr>
     </tbody>

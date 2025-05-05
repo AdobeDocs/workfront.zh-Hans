@@ -32,6 +32,6 @@ ht-degree: 0%
 
 1. 在仪表板上，单击&#x200B;**[!UICONTROL 新建校对]**&#x200B;旁边的向下箭头，然后单击&#x200B;**[!UICONTROL 新建来宾]**。
 
-1. 如果您有观察者配置文件，您将无法添加新联系人。 有关详细信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校对权限配置文件。
+1. 如果您有观察者配置文件，您将无法添加新联系人。 有关详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校对权限配置文件。
 1. 键入来宾的信息，然后单击&#x200B;**[!UICONTROL 创建]**。 您可以为新来宾选择默认验证角色和权限。 随后将此人添加到验证时，他们将获得此角色和警报，但是当他们添加到验证时，可以在新验证页面中更改这些角色。
-有关详细信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[验证权限配置文件，以及 [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)中的[配置电子邮件通知设置。
+有关详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[验证权限配置文件，以及 [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)中的配置电子邮件通知设置。

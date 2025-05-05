@@ -45,7 +45,7 @@ Workfront使用内置条件“进展顺利”作为任务的默认条件，使�
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[！UICONTROL系统管理员]</td>
+   <td>[!UICONTROL 系统管理员]</td>
   </tr> 
  </tbody> 
 </table>

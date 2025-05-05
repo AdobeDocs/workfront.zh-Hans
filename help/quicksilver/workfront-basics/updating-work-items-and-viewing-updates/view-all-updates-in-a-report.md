@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您可以构建一个报表，以使用日记条目报表在预览中查看对象的更新。 有关详细信息，请参阅日志条目报告](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)的[更新区域报告。
+>您可以构建一个报表，以使用日记条目报表在预览中查看对象的更新。 有关详细信息，请参阅日志条目报告[&#128279;](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)的更新区域报告。
 
 ## 访问要求
 

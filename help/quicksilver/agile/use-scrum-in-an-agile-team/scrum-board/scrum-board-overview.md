@@ -42,7 +42,7 @@ ht-degree: 0%
 
 * **任务状态：**&#x200B;根据文章所处的状态列，指示文章在迭代或项目中的进度。
 
-  通过修改Agile视图，可以为项目自定义任务状态，如[!UICONTROL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)的[视图概述中的[创建或自定义Agile视图](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view)中所述。
+  通过修改Agile视图，可以为项目自定义任务状态，如[!UICONTROL Adobe Workfront][&#128279;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)的视图概述中的[创建或自定义Agile视图](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view)中所述。
 
 * **泳道：**&#x200B;当父故事及其子任务显示在故事板上时，将专门为故事及其子任务创建泳道。 这提供了一种视觉区别，以便更好地查看故事的子任务在整个故事板中的进度。
 

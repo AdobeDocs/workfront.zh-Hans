@@ -180,7 +180,7 @@ ht-degree: 1%
    >
    >与组共享会将筛选器、视图或分组的权限授予该组的成员和所有子组的成员。
 
-   **要与系统中的所有用户共享：**&#x200B;请单击“设置”图标&#x200B;****，然后单击“在系统范围内可见”图标&#x200B;****。\
+   **要与系统中的所有用户共享：**&#x200B;请单击“设置”图标&#x200B;**&#x200B;**，然后单击“在系统范围内可见”图标&#x200B;**&#x200B;**。\
    管理员必须选择“共享系统范围”选项才能使用此选项。 有关详细信息，请参阅文章[创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)和[共享报告、功能板和日历](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)。
 
 1. （视情况而定）如果要与个人用户、团队、角色、组或公司共享，请单击下拉菜单以定义要授予的访问权限级别。

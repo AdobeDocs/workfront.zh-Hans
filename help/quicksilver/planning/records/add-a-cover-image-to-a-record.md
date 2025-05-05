@@ -154,7 +154,7 @@ ht-degree: 1%
    或
 
    将鼠标悬停在现有封面图像上，单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击&#x200B;**上传**。 <!--check the casing here; I logged a bug for this-->
-将在**上传**&#x200B;选项卡中打开&#x200B;**记录封面**&#x200B;框。
+将在&#x200B;**上传**&#x200B;选项卡中打开&#x200B;**记录封面**&#x200B;框。
 
    ![用于上载的记录封面盒](assets/record-cover-box-for-upload.png)
 

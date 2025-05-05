@@ -49,7 +49,7 @@ ht-degree: 1%
 
 您可以从静态文件、音频文件、视频文件和URL创建验证（请参阅）。
 
-要在帐户中创建验证，您需要是具有正确权限配置文件的用户（请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[[!UICONTROL 验证权限配置文件]）。
+要在帐户中创建验证，您需要是具有正确权限配置文件的用户（请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[!UICONTROL 验证权限配置文件]）。
 
 如果同时上载多个文件，您将创建多个校样，这些校样可以使用一封电子邮件发送给同一审阅人组。 如果您的组织具有[!UICONTROL Enterprise]或[!UICONTROL Unlimited]帐户，您可以将文件合并到单个验证中（请参阅[创建多页验证](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)）。
 

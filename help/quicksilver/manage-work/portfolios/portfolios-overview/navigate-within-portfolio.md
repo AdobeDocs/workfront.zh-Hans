@@ -21,7 +21,7 @@ ht-degree: 0%
 
 在[!DNL Adobe Workfront]中，项目组合表示争夺相同资源、预算、计划和优先级的项目集合。 项目组合的主要目的是帮助执行人员和项目经理选择从事为组织带来最大利益的项目。
 
-有关项目组合的详细信息，请参阅 [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)中的[Portfolio概述。
+有关项目组合的详细信息，请参阅 [!DNL Adobe Workfront][&#128279;](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)中的Portfolio概述。
 
 ## 访问要求
 
@@ -40,16 +40,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>新文档： [！UICONTROL Standard] </p>
-   <p>当前： [！UICONTROL计划] </p> </td> 
+   <td> <p>新文档： [!UICONTROL Standard] </p>
+   <p>当前： [!UICONTROL 计划] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[！UICONTROL Edit]对项目和项目组合的访问权限</p>  </td> 
+   <td> <p>[!UICONTROL Edit]对项目和项目组合的访问权限</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>项目组合的[！UICONTROL Manage]权限</p> <p>查看项目或更高权限</p>  </td> 
+   <td> <p>项目组合的[!UICONTROL Manage]权限</p> <p>查看项目或更高权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,7 +102,7 @@ ht-degree: 0%
      有关创建筛选器的更多信息，请参阅[筛选器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
 
-1. 单击左侧面板中的&#x200B;**[!UICONTROL 程序]**可在项目组合中创建程序或管理现有程序。
+1. 单击左侧面板中的&#x200B;**[!UICONTROL 程序]**&#x200B;可在项目组合中创建程序或管理现有程序。
 有关程序的信息，请参阅[创建和管理程序](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)部分。
 
 1. （可选）展开左侧面板中的&#x200B;**[!UICONTROL Portfolio详细信息]**&#x200B;区域，然后单击&#x200B;**[!UICONTROL 概述]**&#x200B;或&#x200B;**[!UICONTROL 自定义Forms]**&#x200B;以编辑有关项目组合的信息。

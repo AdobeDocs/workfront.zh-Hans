@@ -19,7 +19,7 @@ ht-degree: 0%
 
 您可以在验证中添加注释并经历修订过程，然后再做出最终决定。 有关评论的信息，请参阅[对 [!DNL iOS]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-ios.md)中验证的评论或[对 [!DNL Android]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-android.md)中验证的评论。
 
-您查看和批准验证的权限与[!DNL Adobe Workfront]中的相同。 有关校对功能的信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校对权限配置文件。
+您查看和批准验证的权限与[!DNL Adobe Workfront]中的相同。 有关校对功能的信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校对权限配置文件。
 
 ## 打开并查看验证
 
@@ -89,15 +89,15 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[！UICONTROL已批准]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL 已批准]</strong></td> 
       <td>验证已准备好进入工作流的下一个阶段。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[！UICONTROL已批准更改]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL 已批准更改]</strong></td> 
       <td> <p>验证需要做一些更改，但在修订移动到工作流的下一个阶段之前，您不需要查看修订版。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[！UICONTROL已拒绝]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL 已拒绝]</strong></td> 
       <td>校对被拒绝，无法在工作流中前进。</td> 
      </tr> 
     </tbody> 

@@ -33,16 +33,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>新文档： [！UICONTROL Standard] </p>
-   <p>当前： [！UICONTROL计划] </p> </td> 
+   <td> <p>新文档： [!UICONTROL Standard] </p>
+   <p>当前： [!UICONTROL 计划] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>[！UICONTROL Edit]对项目和项目组合的访问权限</p> </td> 
+   <td> <p>[!UICONTROL Edit]对项目和项目组合的访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>项目组合的[！UICONTROL Manage]权限</p> <p>为项目分配或更高权限</p> 
+   <td> <p>项目组合的[!UICONTROL Manage]权限</p> <p>为项目分配或更高权限</p> 
    <p>您必须对列表中的所有项目具有管理权限，才能使用<b>设置项目优先级</b>。</p>
     </td> 
   </tr> 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
    这会更新&#x200B;**[!UICONTROL 得分]**&#x200B;列中每个项目的[!UICONTROL 得分]值。
 
-   有关[!UICONTROL Portfolio Optimizer]分数的信息，请参阅[Portfolio Optimizer]分数](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)的概述。[!UICONTROL 
+   有关[!UICONTROL Portfolio Optimizer]分数的信息，请参阅[Portfolio Optimizer]分数(../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)的概述。
 
 1. 为&#x200B;**[!UICONTROL 得分]**&#x200B;列设置正确的权重后，单击&#x200B;**[!UICONTROL 得分]**&#x200B;列的标题可按此列排序。 得分最高的项目显示在列表顶部。
 

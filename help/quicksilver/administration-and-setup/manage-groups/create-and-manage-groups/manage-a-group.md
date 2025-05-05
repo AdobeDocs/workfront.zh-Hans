@@ -95,7 +95,7 @@ Add this at end of 2nd-to-last sentence in this^ paragraph when they add the **I
 
    * **编辑**：[查看和管理组的详细信息](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)
 
-   * **复制**： [通过复制项目[创建组](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)中的现有组或子组](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group)创建顶级组
+   * **复制**： [&#128279;](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group)通过复制项目[创建组](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)中的现有组或子组创建顶级组
 
    * **删除**： [删除组](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
 

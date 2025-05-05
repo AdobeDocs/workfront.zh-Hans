@@ -28,7 +28,7 @@ Adobe Workfront中的某些对象允许存储具有富文本格式的文本。 �
 **示例：**&#x200B;用于检索自定义表单字段&#x200B;**包含富文本字段**&#x200B;的值的基本GET请求：
 
 <!-- [Copy](javascript:void(0);) -->
-<pre><OBJ Code><OBJ ID><OBJ Code><OBJ ID></pre> 
+<pre>&lt;OBJ Code>&lt;OBJ ID>&lt;OBJ Code>&lt;OBJ ID></pre> 
 
 **示例：**&#x200B;此请求将返回在&#x200B;**parameterValue** **DE：Field with rich text**&#x200B;中存储的JSON中包含RTF的&#x200B;**Field**&#x200B;的值
 
@@ -63,7 +63,7 @@ Adobe Workfront中的某些对象允许存储具有富文本格式的文本。 �
 
 ![富文本映射](assets/copy-of-rich-text-mapping-2-350x136.png)
 
-如果将多种类型的格式应用于单行，则样式将映射到** inlineStyleRanges**数组中的其他元素。
+如果将多种类型的格式应用于单行，则样式将映射到 **&#x200B; inlineStyleRanges**&#x200B;数组中的其他元素。
 
 **示例：**&#x200B;下面是存储包含混合格式的文本行时块的外观：**粗体文本和斜体**
 
@@ -118,4 +118,4 @@ Adobe Workfront中的某些对象允许存储具有富文本格式的文本。 �
 1. 使用上面列出的JSON上的&#x200B;**stringify**&#x200B;方法发出&#x200B;**PUT**&#x200B;请求并发送更新
 
    <!-- [Copy](javascript:void(0);) -->
-   <pre><OBJ Code><OBJ ID></pre>
+   <pre>&lt;OBJ Code>&lt;OBJ ID></pre>

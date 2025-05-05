@@ -42,7 +42,7 @@ ht-degree: 15%
 
 如果公共文件夹归经理所有，则经理可以删除根文件夹和任何子文件夹。
 
-有关详细信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校对权限配置文件。
+有关详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校对权限配置文件。
 
 ## 专用文件夹
 
@@ -65,7 +65,7 @@ ht-degree: 15%
 
 您可以在“新建文件夹”页面上为每个人单独设置此项，并在“文件夹详细信息”页面的“共享对象”部分中对其进行更改。 有关详细信息，请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md)中创建文件夹，以及[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md)中管理文件夹及其内容。
 
-如果与或观察者共享专用文件夹，则他们将对该文件夹中的所有项目具有只读访问权限。 有关详细信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[验证权限配置文件和 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md)中的[共享文件夹。
+如果与或观察者共享专用文件夹，则他们将对该文件夹中的所有项目具有只读访问权限。 有关详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[验证权限配置文件和 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md)中的共享文件夹。
 
 >[!NOTE]
 >

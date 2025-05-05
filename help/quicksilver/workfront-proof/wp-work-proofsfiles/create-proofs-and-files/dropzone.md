@@ -120,6 +120,6 @@ Workfront会向您（提交者）发送一封完整的提交电子邮件，要�
 * 展开/折叠验证摘要(8)
 * 选择验证(9)
 
-页面布局、排序和筛选选项与[!DNL Views]列表中的选项相同。 有关详细信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中查看页面上的[管理项目。
+页面布局、排序和筛选选项与[!DNL Views]列表中的选项相同。 有关详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中查看页面上的管理项目。
 
 ![New_Dropzone_design__Feb_2013_.jpg](assets/new-dropzone-design--feb-2013--350x224.jpg)

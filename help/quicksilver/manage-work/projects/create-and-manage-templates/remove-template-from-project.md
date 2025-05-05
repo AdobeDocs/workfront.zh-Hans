@@ -88,4 +88,4 @@ ht-degree: 1%
 
      有关创建视图的信息，请参阅Adobe Workfront中的[视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)。
 
-1. 选择步骤2中标识为从模板创建的所有任务，然后单击&#x200B;**删除图标****>是，删除**。 有关详细信息，请参阅[删除任务](../../../manage-work/tasks/manage-tasks/delete-tasks.md)。
+1. 选择步骤2中标识为从模板创建的所有任务，然后单击&#x200B;**删除图标**&#x200B;**>是，删除**。 有关详细信息，请参阅[删除任务](../../../manage-work/tasks/manage-tasks/delete-tasks.md)。

@@ -41,7 +41,7 @@ ht-degree: 0%
 
 在此更改之前，您只能在任务列表或任务级别更改任务日期。
 
-有关详细信息，请参阅任务列表甘特图](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)中的[更新信息。
+有关详细信息，请参阅任务列表甘特图[&#128279;](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)中的更新信息。
 
 ## 从更新选项卡访问项目甘特图 {#access-the-project-gantt-chart-from-the-updates-tab}
 

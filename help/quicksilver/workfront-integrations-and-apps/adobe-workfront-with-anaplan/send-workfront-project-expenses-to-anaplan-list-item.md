@@ -31,11 +31,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
-   <td> <p>[！UICONTROL Pro]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[！UICONTROL计划]，[！UICONTROL工作]</p> </td> 
+   <td> <p>[!UICONTROL 计划]，[!UICONTROL 工作]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 许可证**</td> 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 [!DNL Workfront]中必须具有下列内容才能使用此方案：
 
-* [!DNL Workfront]中名为*[!UICONTROL *[!DNL Anaplan]集成]**的用户配置文件，具有系统管理员权限。
+* [!DNL Workfront]中名为&#x200B;*[!UICONTROL *[!DNL Anaplan]集成]**的用户配置文件，具有系统管理员权限。
 
   有关在[!DNL Workfront]中创建用户的信息，请参阅[添加用户](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)。
 
@@ -177,27 +177,27 @@ ht-degree: 0%
     </thead> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL [!DNL Anaplan] Workspace ID]</td> 
+      <td role="rowheader">[!UICONTROL [!DNL Anaplan] Workspace ID]</td> 
       <td>您要用于此方案的[!DNL Anaplan]帐户中的工作区ID。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL [!DNL Anaplan]模型ID] </td> 
+      <td role="rowheader">[!UICONTROL [!DNL Anaplan]模型ID] </td> 
       <td>[!DNL Anaplan]帐户中的模型ID以及要用于此方案的选定工作区。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL营销活动列表名称]</td> 
+      <td role="rowheader">[!UICONTROL 营销活动列表名称]</td> 
       <td>[!DNL Anaplan]帐户中的列表名称，以及要用于此方案的选定工作区和模型。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL文件名：实际费用导入]</td> 
+      <td role="rowheader">[!UICONTROL 文件名：实际费用导入]</td> 
       <td> <p>将接收项目实际费用数据的文件的名称。</p> <p> （示例：WorkfrontUpdateLinkedProjects_ActExpenses.csv） </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL文件名：计划费用导入]</td> 
+      <td role="rowheader">[!UICONTROL 文件名：计划费用导入]</td> 
       <td> <p>将接收项目计划费用数据的文件的名称。</p> <p> （示例：WorkfrontUpdateLinkedProjects_PlannedExpenses.csv） </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL进程名称：项目更新导入]</td> 
+      <td role="rowheader">[!UICONTROL 进程名称：项目更新导入]</td> 
       <td> <p>将执行项目费用数据导入的进程的名称。</p> <p>（示例： WF Int — 加载项目费用）</p> </td> 
      </tr> 
     </tbody> 

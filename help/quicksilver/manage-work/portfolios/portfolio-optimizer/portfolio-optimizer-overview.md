@@ -77,24 +77,24 @@ ht-degree: 0%
  </thead> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL On Time]</td> 
-   <td> <p>项目组合中被认为是[！UICONTROL按时]的项目所占的百分比。 这可以从项目组合内的任何选项卡中看到。</p> <p>如果项目<strong>[！UICONTROL条件]</strong>是<strong>[！UICONTROL On Target]</strong>，则项目被视为[！UICONTROL On Time]。 <br>有关[！UICONTROL项目条件的更多信息，请参阅文章<a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">项目条件和条件类型概述</a>。</p> <p>使用以下公式计算<strong>[！UICONTROL On Time]</strong>百分比：</p> <p><em>[！UICONTROL On Time Portfolio Percentage] = [！UICONTROL On Time]项目数/处于[！UICONTROL Current]或[！UICONTROL Approved]状态的项目总数</em> </p> </td> 
+   <td>[!UICONTROL On Time]</td> 
+   <td> <p>项目组合中被认为是[!UICONTROL 按时]的项目所占的百分比。 这可以从项目组合内的任何选项卡中看到。</p> <p>如果项目<strong>[!UICONTROL 条件]</strong>是<strong>[!UICONTROL On Target]</strong>，则项目被视为[!UICONTROL On Time]。 <br>有关&lbrack;！UICONTROL项目条件的更多信息，请参阅文章<a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">项目条件和条件类型概述</a>。</p> <p>使用以下公式计算<strong>[!UICONTROL On Time]</strong>百分比：</p> <p><em>[!UICONTROL On Time Portfolio Percentage] = [!UICONTROL On Time]项目数/处于[!UICONTROL Current]或[!UICONTROL Approved]状态的项目总数</em> </p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL On Budget]</td> 
-   <td> <p>项目组合中被认为是[！UICONTROL按预算]的项目的百分比。 这可以从[！UICONTROL项目组合]中的任何选项卡中看到。</p> <p>当项目未超出其预定义的预算时，项目为<strong>[！UICONTROL On Budget]</strong>。 <br>有关项目预算的详细信息，请参阅项目财务区域</a>中的文章<a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">[！UICONTROL Manage]信息。</p> <p>使用以下公式计算[！UICONTROL On Budget]百分比：</p> <p><em>[！UICONTROL On Budget Portfolio Percentage] = [！UICONTROL On Budget]项目数/ [！UICONTROL Current]或[！UICONTROL Approved]状态下的项目总数</em><em></em> </p> </td> 
+   <td>[!UICONTROL On Budget]</td> 
+   <td> <p>项目组合中被认为是[!UICONTROL 按预算]的项目的百分比。 这可以从[!UICONTROL 项目组合]中的任何选项卡中看到。</p> <p>当项目未超出其预定义的预算时，项目为<strong>[!UICONTROL On Budget]</strong>。 <br>有关项目预算的详细信息，请参阅项目财务区域</a>中的文章<a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">[!UICONTROL Manage]信息。</p> <p>使用以下公式计算[!UICONTROL On Budget]百分比：</p> <p><em>[!UICONTROL On Budget Portfolio Percentage] = [!UICONTROL On Budget]项目数/ [!UICONTROL Current]或[!UICONTROL Approved]状态下的项目总数</em><em></em> </p> </td> 
   </tr> 
   <tr> 
    <td>ROI（针对项目组合）</td> 
-   <td> <p>项目组合的[！UICONTROL投资回报率] (ROI)的计算方法是：考虑[！UICONTROL Portfolio]的[！UICONTROL收益]合计和项目的[！UICONTROL预算成本]合计。 这可以从项目组合内的任何选项卡中看到。</p> <p>Portfolio ROI值使用以下公式计算：</p> <p><em>Portfolio ROI = （[！UICONTROL总收益] - [！UICONTROL总预算成本]）/[！UICONTROL总成本] * 100</em> </p> <p>有关如何计算项目ROI的更多信息，请参阅文章<a href="../../../manage-work/projects/project-finances/calculate-roi.md" class="MCXref xref">计算投资回报率(ROI)</a>。</p> </td> 
+   <td> <p>项目组合的[!UICONTROL 投资回报率] (ROI)的计算方法是：考虑[!UICONTROL Portfolio]的[!UICONTROL 收益]合计和项目的[!UICONTROL 预算成本]合计。 这可以从项目组合内的任何选项卡中看到。</p> <p>Portfolio ROI值使用以下公式计算：</p> <p><em>Portfolio ROI = （[!UICONTROL 总收益] - [!UICONTROL 总预算成本]）/[!UICONTROL 总成本] * 100</em> </p> <p>有关如何计算项目ROI的更多信息，请参阅文章<a href="../../../manage-work/projects/project-finances/calculate-roi.md" class="MCXref xref">计算投资回报率(ROI)</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL Aligned]或[！UICONTROL Alignment Score] </td> 
-   <td> <p>所有[！UICONTROL项目对齐分数]值的平均值，该值是在完成项目[！UICONTROL Business Case]中的[！UICONTROL Scorecard]之后计算的。 每个项目的对齐方式得分都列在[！UICONTROL Portfolio Optimizer]的[！UICONTROL Alignment]列中。 这可以从项目组合内的任何选项卡中看到。</p> <p>有关为项目生成一致性分数的详细信息，请参阅文章<a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">将记分卡应用于项目并生成一致性分数</a>。</p> </td> 
+   <td>[!UICONTROL Aligned]或[!UICONTROL Alignment Score] </td> 
+   <td> <p>所有[!UICONTROL 项目对齐分数]值的平均值，该值是在完成项目[!UICONTROL Business Case]中的[!UICONTROL Scorecard]之后计算的。 每个项目的对齐方式得分都列在[!UICONTROL Portfolio Optimizer]的[!UICONTROL Alignment]列中。 这可以从项目组合内的任何选项卡中看到。</p> <p>有关为项目生成一致性分数的详细信息，请参阅文章<a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">将记分卡应用于项目并生成一致性分数</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL净值]</td> 
-   <td> <p>项目组合中所有项目的所有[！UICONTROL净值]的总和。 这可以从项目组合内的任何选项卡中看到。</p> <p>有关如何为项目计算[！UICONTROL净值]的详细信息，请参阅文章<a href="../../../manage-work/projects/project-finances/calculate-net-value.md" class="MCXref xref">计算净值</a>。</p> </td> 
+   <td>[!UICONTROL 净值]</td> 
+   <td> <p>项目组合中所有项目的所有[!UICONTROL 净值]的总和。 这可以从项目组合内的任何选项卡中看到。</p> <p>有关如何为项目计算[!UICONTROL 净值]的详细信息，请参阅文章<a href="../../../manage-work/projects/project-finances/calculate-net-value.md" class="MCXref xref">计算净值</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -114,37 +114,37 @@ ht-degree: 0%
  </thead> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL项目数]</td> 
+   <td>[!UICONTROL 项目数]</td> 
    <td> <p>项目组合中的活动项目总数。 项目组合中被视为活动的项目可以处于以下任意状态：</p> 
     <ul> 
-     <li>[！UICONTROL当前版本]</li> 
-     <li>[！UICONTROL规划]</li> 
-     <li>[！UICONTROL已批准]</li> 
+     <li>[!UICONTROL 当前版本]</li> 
+     <li>[!UICONTROL 规划]</li> 
+     <li>[!UICONTROL 已批准]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL预算]</td> 
+   <td>[!UICONTROL 预算]</td> 
    <td>您可以手动更新此字段以指示整个项目组合的总预算。 此预算用于项目组合内的所有项目。 </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL剩余]</td> 
-   <td> <p>项目组合内所有项目的[！UICONTROL总成本]之后的剩余预算已从项目组合预算中减去。</p> <p>使用以下公式计算[！UICONTROL Portfolio剩余预算]：</p> <p><em>[！UICONTROL Portfolio剩余预算] = [！UICONTROL Portfolio总预算] — 所有Portfolio项目的总[！UICONTROL预算成本]</em> </p> <p>项目组合预算是Portfolio Optimizer的“预算”字段中的一个手动条目。 </p> <p>有关跟踪项目成本的更多信息，请参阅<a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">跟踪成本</a>。</p> </td> 
+   <td>[!UICONTROL 剩余]</td> 
+   <td> <p>项目组合内所有项目的[!UICONTROL 总成本]之后的剩余预算已从项目组合预算中减去。</p> <p>使用以下公式计算[!UICONTROL Portfolio剩余预算]：</p> <p><em>[!UICONTROL Portfolio剩余预算] = [!UICONTROL Portfolio总预算] — 所有Portfolio项目的总[!UICONTROL 预算成本]</em> </p> <p>项目组合预算是Portfolio Optimizer的“预算”字段中的一个手动条目。 </p> <p>有关跟踪项目成本的更多信息，请参阅<a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">跟踪成本</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL总成本]</td> 
-   <td> <p>在[！UICONTROL Portfolio Optimizer]中显示的所有项目的成本总和。 每个项目的成本与项目的[！UICONTROL预算成本]相同，因为它显示在[！UICONTROL业务案例摘要]中。 </p> <p>有关[！UICONTROL Business Case]中项目财务字段的更多信息，请参阅<a href="../../../manage-work/projects/define-a-business-case/create-business-case.md" class="MCXref xref">为项目创建业务案例</a>一文中的“了解业务案例中的财务字段”一节。</p> </td> 
+   <td>[!UICONTROL 总成本]</td> 
+   <td> <p>在[!UICONTROL Portfolio Optimizer]中显示的所有项目的成本总和。 每个项目的成本与项目的[!UICONTROL 预算成本]相同，因为它显示在[!UICONTROL 业务案例摘要]中。 </p> <p>有关[!UICONTROL Business Case]中项目财务字段的更多信息，请参阅<a href="../../../manage-work/projects/define-a-business-case/create-business-case.md" class="MCXref xref">为项目创建业务案例</a>一文中的“了解业务案例中的财务字段”一节。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL风险] </td> 
-   <td> <p>项目组合中所有项目的所有[！UICONTROL潜在风险成本]的总和。 每个项目的[！UICONTROL潜在风险成本]都列在[！UICONTROL Portfolio Optimizer]的[！UICONTROL风险]列中。 </p> <p>有关计算项目风险的详细信息，请参阅文章<a href="../../../manage-work/projects/project-finances/potential-risk-cost.md" class="MCXref xref">计算潜在风险成本</a>。</p> </td> 
+   <td>[!UICONTROL 风险] </td> 
+   <td> <p>项目组合中所有项目的所有[!UICONTROL 潜在风险成本]的总和。 每个项目的[!UICONTROL 潜在风险成本]都列在[!UICONTROL Portfolio Optimizer]的[!UICONTROL 风险]列中。 </p> <p>有关计算项目风险的详细信息，请参阅文章<a href="../../../manage-work/projects/project-finances/potential-risk-cost.md" class="MCXref xref">计算潜在风险成本</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL优点]</td> 
-   <td> <p>项目组合中所有项目的所有[！UICONTROL计划收益]值的总和。 每个项目的计划权益值都列在[！UICONTROL Portfolio Optimizer]的[！UICONTROL Benefit]列中。 </p> <p>有关项目的[！UICONTROL计划收益]的详细信息，请参阅文章<a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">项目计划收益概述</a>。</p> </td> 
+   <td>[!UICONTROL 优点]</td> 
+   <td> <p>项目组合中所有项目的所有[!UICONTROL 计划收益]值的总和。 每个项目的计划权益值都列在[!UICONTROL Portfolio Optimizer]的[!UICONTROL Benefit]列中。 </p> <p>有关项目的[!UICONTROL 计划收益]的详细信息，请参阅文章<a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">项目计划收益概述</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL净值风险]指示器</td> 
-   <td> <p>测量由[！UICONTROL潜在风险]值，同时考虑项目组合中所有项目提供的[！UICONTROL净值]。 为了在产品组合内实现最高效率，您需要看到[！UICONTROL风险]指示器低而[！UICONTROL净值]指示器高。 </p> <p>有关计算[！UICONTROL净值的风险的更多信息，请参阅文章<a href="../../../manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md" class="MCXref xref">计算投资组合中净值的风险</a>。</p> </td> 
+   <td>[!UICONTROL 净值风险]指示器</td> 
+   <td> <p>测量由[!UICONTROL 潜在风险]值，同时考虑项目组合中所有项目提供的[!UICONTROL 净值]。 为了在产品组合内实现最高效率，您需要看到[!UICONTROL 风险]指示器低而[!UICONTROL 净值]指示器高。 </p> <p>有关计算&lbrack;！UICONTROL净值的风险的更多信息，请参阅文章<a href="../../../manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md" class="MCXref xref">计算投资组合中净值的风险</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -167,47 +167,47 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <img src="assets/nwe-set-priority-icon.png"> </td> 
-   <td>[！UICONTROL设置项目优先级]</td> 
+   <td>[!UICONTROL 设置项目优先级]</td> 
    <td><p>当您要根据项目顺序的优先级保存项目顺序时，使用此图标。</p>
    <p>您必须对列表中的所有项目具有管理权限，才能使用<b>设置项目优先级</b></p>。
     </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/nwe-optimize-icon-in-optimizer.png"> </td> 
-   <td>[！UICONTROL优化项目组合]</td> 
+   <td>[!UICONTROL 优化项目组合]</td> 
    <td>使用此图标可根据项目的以下财务值优化项目组合：
     <ul>
-     <li>[！UICONTROL成本]</li>
-     <li>[！UICONTROL对齐方式]</li>
-     <li>[！UICONTROL值]</li>
-     <li>[！UICONTROL收益风险]</li>
-     <li>[！UICONTROL ROI]</li>
-    </ul><p>有关优化项目组合的详细信息，请参阅文章<a href="../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md" class="MCXref xref">在[！UICONTROL Portfolio Optimizer中优化项目]</a>。</p></td> 
+     <li>[!UICONTROL 成本]</li>
+     <li>[!UICONTROL 对齐方式]</li>
+     <li>[!UICONTROL 值]</li>
+     <li>[!UICONTROL 收益风险]</li>
+     <li>[!UICONTROL ROI]</li>
+    </ul><p>有关优化项目组合的详细信息，请参阅文章<a href="../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md" class="MCXref xref">在[!UICONTROL Portfolio Optimizer中优化项目]</a>。</p></td> 
   </tr> 
   <tr> 
    <td> <img src="assets/nwe-undo-redo-icons-optimizer.png"> </td> 
-   <td>[！UICONTROL撤消]/[！UICONTROL重做]图标</td> 
-   <td>使用这些图标可在保存之前取消或重做您对[！UICONTROL Portfolio Optimizer]所做的更改。</td> 
+   <td>[!UICONTROL 撤消]/[!UICONTROL 重做]图标</td> 
+   <td>使用这些图标可在保存之前取消或重做您对[!UICONTROL Portfolio Optimizer]所做的更改。</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/hide-show-unselected-portfolio-optimizer-142x74.png" alt="hide_show_unselected_portfolio_optimizer.png" style="width: 142;height: 74;"> </td> 
-   <td>[！UICONTROL Show]/[！UICONTROL Hide]未勾选的项目</td> 
+   <td>[!UICONTROL Show]/[!UICONTROL Hide]未勾选的项目</td> 
    <td>使用这些图标可显示或隐藏项目组合中您未勾选的项目。</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/nwe-export-optimizer-icon-350x173.png" style="width: 350;height: 173;"> </td> 
-   <td>[！UICONTROL Export] </td> 
-   <td> <p>使用此图标可导出[！UICONTROL Portfolio Optimizer]的[！UICONTROL项目优先级]区域中的数据。 可将其导出为以下格式：</p> 
+   <td>[!UICONTROL Export] </td> 
+   <td> <p>使用此图标可导出[!UICONTROL Portfolio Optimizer]的[!UICONTROL 项目优先级]区域中的数据。 可将其导出为以下格式：</p> 
     <ul> 
      <li>PDF</li> 
      <li>[!DNL Excel]</li> 
-     <li>[！UICONTROL选项卡]已分隔</li> 
+     <li>[!UICONTROL 选项卡]已分隔</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/preferences-portfolio-optimizer.png" alt="preferences_portfolio_optimizer.png"> </td> 
-   <td>[！UICONTROL首选项]</td> 
-   <td> <p>使用此图标可修改[！UICONTROL Portfolio Optimizer]的列中显示的项目字段，或根据其状态修改您在[！UICONTROL Optimizer]中显示的项目。 </p> <p>提示：  
+   <td>[!UICONTROL 首选项]</td> 
+   <td> <p>使用此图标可修改[!UICONTROL Portfolio Optimizer]的列中显示的项目字段，或根据其状态修改您在[!UICONTROL Optimizer]中显示的项目。 </p> <p>提示：  
      <ul> 
       <li> <p>并非所有[!DNL Workfront]标准字段都可在列中添加。 </p> </li> 
      </ul> 

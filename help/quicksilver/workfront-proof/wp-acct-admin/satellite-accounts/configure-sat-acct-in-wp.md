@@ -20,9 +20,9 @@ ht-degree: 0%
 >
 >本文提及独立产品[!DNL Workfront Proof]中的功能。 有关[!DNL Adobe Workfront]内部校对的信息，请参阅[校对](../../../review-and-approve-work/proofing/proofing.md)。
 
-附属帐户是您从自己的[!DNL Workfront Proof]帐户中配置并管理的付费帐户。 有关详细信息，请参阅 [!DNL Workfront] Proof](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)中的[附属帐户。
+附属帐户是您从自己的[!DNL Workfront Proof]帐户中配置并管理的付费帐户。 有关详细信息，请参阅 [!DNL Workfront] Proof[&#128279;](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)中的附属帐户。
 
-任何账单管理员都可以创建附属帐户。 有关计费管理员的信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[[!UICONTROL 证明权限配置文件]。
+任何账单管理员都可以创建附属帐户。 有关计费管理员的信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[!UICONTROL 证明权限配置文件]。
 
 >[!NOTE]
 >

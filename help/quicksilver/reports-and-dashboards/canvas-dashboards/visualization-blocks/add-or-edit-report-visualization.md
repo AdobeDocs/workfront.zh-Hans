@@ -41,15 +41,15 @@ ht-degree: 1%
 
 1. 在屏幕右侧的&#x200B;**添加块**&#x200B;下：
 
-   将&#x200B;**可视化**&#x200B;图标****直接拖到画布上所需的位置。
+   将&#x200B;**可视化**&#x200B;图标&#x200B;**&#x200B;**&#x200B;直接拖到画布上所需的位置。
 
    或
 
-   双击&#x200B;**可视化图表**&#x200B;图标****以向画布顶部添加可视化图表。
+   双击&#x200B;**可视化图表**&#x200B;图标&#x200B;**&#x200B;**&#x200B;以向画布顶部添加可视化图表。
 
    或
 
-   选择画布上现有表顶部的&#x200B;**可视化**&#x200B;图标****。
+   选择画布上现有表顶部的&#x200B;**可视化**&#x200B;图标&#x200B;**&#x200B;**。
 
    >[!TIP]
    >
@@ -61,7 +61,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >如果您选择&#x200B;**+添加新表**，则会在可视化图表块下方创建一个新表块。 您必须先使用数据填充表，然后才能为其添加可视化。 有关创建和编辑表的详细信息，请参阅[[在报告画布中添加或编辑表块](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
+   >如果您选择&#x200B;**+添加新表**，则会在可视化图表块下方创建一个新表块。 您必须先使用数据填充表，然后才能为其添加可视化。 有关创建和编辑表的详细信息，请参阅[&#128279;](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md) [在报告画布中添加或编辑表块](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
 
 1. 选择要添加的可视化图表类型。
 

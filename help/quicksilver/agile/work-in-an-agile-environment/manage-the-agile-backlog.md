@@ -44,13 +44,13 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>新文档： [！UICONTROL Standard]</p> 
+   <td> <p>新文档： [!UICONTROL Standard]</p> 
    或
-   <p>当前： [！UICONTROL Work]或更高版本</p> </td> 
+   <p>当前： [!UICONTROL Work]或更高版本</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td>[！UICONTROL Manage]对文章所在项目的访问权限 </td> 
+   <td>[!UICONTROL Manage]对文章所在项目的访问权限 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -139,31 +139,31 @@ ht-degree: 0%
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL文章名称]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 文章名称]</strong></td>
       <td> 键入故事的名称。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL描述]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 描述]</strong></td>
       <td>（可选）键入文章的描述。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL就绪]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 就绪]</strong></td>
       <td> 选择文章是否准备好添加到开发周期。 此设置仅供参考。 可以将故事添加到开发周期，而不管此设置的状态如何。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL估计]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 估计]</strong></td>
       <td>指定文章的分值或每小时估计值。 估计值会影响燃尽图。 仅当每个故事都包含准确的估计值时，迭代的燃尽图才准确。 （如果提供点估计值，则必须在团队设置中指定每个点表示的小时数。）</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL父项目]</strong></td>
-      <td>开始键入将在其中创建此文章的项目名称，然后在名称出现在下拉列表中时单击该名称。<br>项目的状态必须设置为[！UICONTROL当前]。 如果项目的状态不是[！UICONTROL当前]，则它不会显示在下拉菜单中。</td>
+      <td role="rowheader"><strong>[!UICONTROL 父项目]</strong></td>
+      <td>开始键入将在其中创建此文章的项目名称，然后在名称出现在下拉列表中时单击该名称。<br>项目的状态必须设置为[!UICONTROL 当前]。 如果项目的状态不是[!UICONTROL 当前]，则它不会显示在下拉菜单中。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL父任务]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 父任务]</strong></td>
       <td>（可选）开始键入此文章从属的父任务的名称，然后在名称出现在下拉列表中时单击该名称。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL自定义Forms]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 自定义Forms]</strong></td>
       <td> （可选）选择要添加到此文章的任何自定义表单。</td>
      </tr>
     </tbody>

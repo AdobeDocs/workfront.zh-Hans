@@ -33,11 +33,11 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
-   <td> <p>[！UICONTROL Pro]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Request]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>产品</strong></td> 
@@ -45,7 +45,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>[！UICONTROL View]对[!DNL Goals]或更高版本的访问权限</p> <p>注意：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何更改访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td> <p>[!UICONTROL View]对[!DNL Goals]或更高版本的访问权限</p> <p>注意：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何更改访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Object permissions</td> 
@@ -86,15 +86,15 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td><strong>有人已将“结果”/“活动”分派给我</strong></td> 
-   <td> <p>将结果或活动分配给您的人员的姓名</p> <p>结果或活动的目标时段</p> <p>结果或活动的名称</p> <p>打开[！UICONTROL目标详细信息]面板的<strong>[！UICONTROL在Web应用程序中打开]</strong>按钮</p> <p>允许您管理通知的<strong>[！UICONTROL更改通知设置]</strong>按钮。</p> </td> 
+   <td> <p>将结果或活动分配给您的人员的姓名</p> <p>结果或活动的目标时段</p> <p>结果或活动的名称</p> <p>打开[!UICONTROL 目标详细信息]面板的<strong>[!UICONTROL 在Web应用程序中打开]</strong>按钮</p> <p>允许您管理通知的<strong>[!UICONTROL 更改通知设置]</strong>按钮。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>有人为我创建了新的个人目标</strong> </td> 
-   <td> <p>分配目标的人员的姓名</p> <p>目标的周期</p> <p>目标的名称</p> <p>打开[！UICONTROL目标详细信息]面板的<strong>[！UICONTROL在Web应用程序中打开]</strong>按钮</p> <p>允许您管理通知的<strong>[！UICONTROL更改通知设置]</strong>按钮。</p> </td> 
+   <td> <p>分配目标的人员的姓名</p> <p>目标的周期</p> <p>目标的名称</p> <p>打开[!UICONTROL 目标详细信息]面板的<strong>[!UICONTROL 在Web应用程序中打开]</strong>按钮</p> <p>允许您管理通知的<strong>[!UICONTROL 更改通知设置]</strong>按钮。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>有人在我的“目标”中留言了</strong></td> 
-   <td> <p>留下评论的人员的姓名</p> <p>目标的周期 </p> <p>目标的名称</p> <p>评论的文本</p> <p>打开[！UICONTROL目标详细信息]面板的<strong>[！UICONTROL在Web应用程序中打开]</strong>按钮</p> <p>允许您管理通知的<strong>[！UICONTROL更改通知设置]</strong>按钮。</p> </td> 
+   <td> <p>留下评论的人员的姓名</p> <p>目标的周期 </p> <p>目标的名称</p> <p>评论的文本</p> <p>打开[!UICONTROL 目标详细信息]面板的<strong>[!UICONTROL 在Web应用程序中打开]</strong>按钮</p> <p>允许您管理通知的<strong>[!UICONTROL 更改通知设置]</strong>按钮。</p> </td> 
   </tr> 
   <tr> 
   </tbody> 

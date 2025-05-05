@@ -31,7 +31,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >我们建议使用适用于Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)的新[Adobe Workfront插件。
+  >我们建议使用适用于Photoshop[&#128279;](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)的新Adobe Workfront插件。
 
 ## 访问要求
 

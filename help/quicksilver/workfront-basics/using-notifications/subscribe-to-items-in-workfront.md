@@ -43,20 +43,20 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[！UICONTROL Adobe Workfront]计划*</strong></td> 
+   <td role="rowheader"><strong>[!UICONTROL Adobe Workfront]计划*</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Request]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>如果[!DNL Workfront]管理员已启用<strong>[！UICONTROL仅查看访问级别中已包含在对话]</strong>中的更新，则无法订阅[!DNL Workfront]中的项目。</p> <p>注意：如果您仍然没有访问权限，请咨询您的[！UICONTROL Workfront]管理员，了解他们是否对您的访问级别设置了其他限制。 有关[！UICONTROL Workfront]管理员如何更改访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td> <p>如果[!DNL Workfront]管理员已启用<strong>[!UICONTROL 仅查看访问级别中已包含在对话]</strong>中的更新，则无法订阅[!DNL Workfront]中的项目。</p> <p>注意：如果您仍然没有访问权限，请咨询您的[!UICONTROL Workfront]管理员，了解他们是否对您的访问级别设置了其他限制。 有关[!UICONTROL Workfront]管理员如何更改访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>[！UICONTROL视图]对项目、任务或问题（要订阅的）的访问权限或更高版本</p> <p>[！UICONTROL Manage]对项目、任务或问题的[！UICONTROL Share]访问权限和权限（订阅其他项目、任务或问题）</p> </td> 
+   <td> <p>[!UICONTROL 视图]对项目、任务或问题（要订阅的）的访问权限或更高版本</p> <p>[!UICONTROL Manage]对项目、任务或问题的[!UICONTROL Share]访问权限和权限（订阅其他项目、任务或问题）</p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -19,7 +19,7 @@ ht-degree: 0%
 
 如果项目的完成情况类型设置为“进度状态”而不是“手动”，Adobe Workfront会在项目进行时自动显示三个内置默认完成情况之一（“准时”、“处于风险中”或“存在问题”），如[项目完成情况和完成情况类型概述](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md)中所述。
 
-项目标头](assets/condition-in-project-header-nwe.png)中的![完成情况
+项目标头![&#128279;](assets/condition-in-project-header-nwe.png)中的完成情况
 
 您可以将自定义条件设置为默认条件，而不是使用这三个内置的默认条件。 例如，您可以更改“按目标”默认条件，使其在所有项目中均显示为跟踪良好。
 
@@ -47,7 +47,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[！UICONTROL系统管理员]</td>
+   <td>[!UICONTROL 系统管理员]</td>
   </tr> 
  </tbody> 
 </table>

@@ -51,11 +51,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>[！UICONTROL Edit]对项目和项目组合的访问权限</p></td> 
+   <td> <p>[!UICONTROL Edit]对项目和项目组合的访问权限</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>项目组合的[！UICONTROL Manage]权限</p> <p>为项目分配或更高权限</p> 
+   <td> <p>项目组合的[!UICONTROL Manage]权限</p> <p>为项目分配或更高权限</p> 
    <p>您必须对列表中的所有项目具有管理权限，才能使用<b>设置项目优先级</b>。</p>
     </td> 
   </tr> 

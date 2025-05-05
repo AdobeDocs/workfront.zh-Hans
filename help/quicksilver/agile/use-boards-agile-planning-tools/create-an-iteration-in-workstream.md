@@ -39,9 +39,9 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
    <td> 
-   <p>新文档： [！UICONTROL Contributor]或更高版本</p> 
+   <p>新文档： [!UICONTROL Contributor]或更高版本</p> 
    <p>或</p>
-   <p>当前： [！UICONTROL Request]或更高版本</p>
+   <p>当前： [!UICONTROL Request]或更高版本</p>
    </td> 
   </tr> 
  </tbody> 
@@ -67,15 +67,15 @@ ht-degree: 0%
    <table style="table-layout:auto"> 
     <tbody> 
      <tr> 
-      <td><strong>[！UICONTROL迭代名称]</strong></td> 
+      <td><strong>[!UICONTROL 迭代名称]</strong></td> 
       <td>迭代的名称，如“Sprint 1”。</td> 
      </tr> 
      <tr> 
-      <td><strong>[！UICONTROL迭代长度]</strong></td> 
+      <td><strong>[!UICONTROL 迭代长度]</strong></td> 
       <td>迭代的长度，以天、周或月为单位。</td> 
      </tr>
      <tr> 
-      <td><strong>[！UICONTROL开始日期]</strong></td> 
+      <td><strong>[!UICONTROL 开始日期]</strong></td> 
       <td>迭代开始的日期。 根据迭代长度自动输入结束日期。</td> 
      </tr> 
     </tbody> 

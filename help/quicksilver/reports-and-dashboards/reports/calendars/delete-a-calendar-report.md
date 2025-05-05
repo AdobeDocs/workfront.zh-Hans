@@ -43,11 +43,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[！UICONTROL编辑]对[！UICONTROL报表]、[！UICONTROL功能板]和[！UICONTROL日历的访问权限</p></td> 
+   <td> <p>[!UICONTROL 编辑]对[!UICONTROL 报表]、[!UICONTROL 功能板]和&lbrack;！UICONTROL日历的访问权限</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td>[！UICONTROL Manage]对日历报表的访问权限，以及删除日历报表的权限</td> 
+   <td>[!UICONTROL Manage]对日历报表的访问权限，以及删除日历报表的权限</td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,7 +60,7 @@ ht-degree: 0%
 ## 删除日历报告
 
 1. 转到要删除的日历。
-1. 单击“日历”下拉菜单旁边的&#x200B;**更多**菜单。
+1. 单击“日历”下拉菜单旁边的&#x200B;**更多**&#x200B;菜单。
    ![日历更多菜单](assets/more-menu-calendar.png)
 
 1. 从下拉列表中选择&#x200B;**[!UICONTROL 删除]**。

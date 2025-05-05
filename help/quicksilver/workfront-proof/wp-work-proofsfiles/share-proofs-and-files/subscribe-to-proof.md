@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在用户可以订阅验证之前，必须启用其订阅设置（请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)中配置验证设置 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)中的[配置验证设置部分）。
+>在用户可以订阅验证之前，必须启用其订阅设置（请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)中配置验证设置 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)中的配置验证设置部分）。
 
 要订阅验证，请执行以下操作：
 

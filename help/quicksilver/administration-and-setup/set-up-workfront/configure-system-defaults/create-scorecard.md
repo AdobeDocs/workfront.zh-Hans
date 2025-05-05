@@ -39,16 +39,16 @@ Portfolio经理通常会定义记分卡问题和答案，以确保它们在项�
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
-   <td> <p>当前： [！UICONTROL Business]或更高版本</p> 
+   <td> <p>当前： [!UICONTROL Business]或更高版本</p> 
    或
-   <p>新文档： [！UICONTROL Prime]或更高版本</p>
+   <p>新文档： [!UICONTROL Prime]或更高版本</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>当前： [！UICONTROL计划]</p>
+   <td><p>当前： [!UICONTROL 计划]</p>
    或
-   <p>新文档： [！UICONTROL Standard]</p>
+   <p>新文档： [!UICONTROL Standard]</p>
    </td> 
   </tr> 
  </tbody> 
@@ -75,21 +75,21 @@ Portfolio经理通常会定义记分卡问题和答案，以确保它们在项�
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL Question]</td> 
+      <td role="rowheader">[!UICONTROL Question]</td> 
       <td>键入要包含在记分卡中的问题。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL点]</td> 
+      <td role="rowheader">[!UICONTROL 点]</td> 
       <td>键入此问题的最大分数。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL负点]</td> 
+      <td role="rowheader">[!UICONTROL 负点]</td> 
       <td>选择此选项以指示[!DNL Workfront]应减去总可能分数。 无法将负分添加到记分卡的最大可能点数。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL显示类型]</td> 
-      <td>如果要显示记分卡中的数字字段，且用户可以指定介于0-100之间的任何值，请选择<strong>[！UICONTROL Value(0-100)]</strong>。<p>或者，选择<strong>[！UICONTROL下拉列表]</strong>或<strong>[！UICONTROL单选按钮]</strong>，以创建用户可以使用该控件指定的答案。 单击<strong>[！UICONTROL添加答案]</strong>，然后为该答案键入以百分比表示的<strong>[！UICONTROL值]</strong>（如果已完成）。 如果选择100%，则完全达到为该问题分配的点数。 如果要指明此答案仅包含分配给此问题的总点数的一部分，请选择一个较低的百分比值。 例如，如果问题的值是10点，而您希望此答案携带其中5点，则选择50%作为值。</p>
-      <p>如果要指定此答案为默认答案，请选择<strong>[！UICONTROL默认值]</strong>。</strong></p>
+      <td role="rowheader">[!UICONTROL 显示类型]</td> 
+      <td>如果要显示记分卡中的数字字段，且用户可以指定介于0-100之间的任何值，请选择<strong>[!UICONTROL Value(0-100)]</strong>。<p>或者，选择<strong>[!UICONTROL 下拉列表]</strong>或<strong>[!UICONTROL 单选按钮]</strong>，以创建用户可以使用该控件指定的答案。 单击<strong>[!UICONTROL 添加答案]</strong>，然后为该答案键入以百分比表示的<strong>[!UICONTROL 值]</strong>（如果已完成）。 如果选择100%，则完全达到为该问题分配的点数。 如果要指明此答案仅包含分配给此问题的总点数的一部分，请选择一个较低的百分比值。 例如，如果问题的值是10点，而您希望此答案携带其中5点，则选择50%作为值。</p>
+      <p>如果要指定此答案为默认答案，请选择<strong>[!UICONTROL 默认值]</strong>。</strong></p>
      </tr> 
     </tbody> 
    </table>

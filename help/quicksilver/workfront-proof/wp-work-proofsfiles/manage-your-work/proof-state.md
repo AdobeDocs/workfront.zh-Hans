@@ -47,7 +47,7 @@ ht-degree: 0%
 
 任何对验证具有“编辑”权限的用户都可以将其解锁。
 
-有关权限的详细信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[验证权限配置文件。
+有关权限的详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的验证权限配置文件。
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 ## 查看和更改验证状态
 
-有关查看处于特定状态的所有验证列表（如查看所有活动或锁定的验证）的信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中查看页面上的[管理项目一文中的[管理查看页面上的项目 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)。
+有关查看处于特定状态的所有验证列表（如查看所有活动或锁定的验证）的信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中查看页面上的管理项目一文中的[管理查看页面上的项目 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)。
 
 1. 访问您的[!DNL Workfront Proof]仪表板。
 

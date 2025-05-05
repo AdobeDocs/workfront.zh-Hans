@@ -41,9 +41,9 @@ ht-degree: 1%
 
 有关如何查找已提交请求的信息，请参阅[查找已提交的请求](../../../manage-work/requests/create-requests/locate-submitted-requests.md)。
 
-此功能现已包含在Workfront One上的新Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)学习路径的[Collaborator基础知识中。
+此功能现已包含在Workfront One上的新Workfront Experience[&#128279;](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)学习路径的Collaborator基础知识中。
 
-此功能现已包含在Workfront One上的新Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/request-queues/understand-request-queues)学习路径的[请求中。
+此功能现已包含在Workfront One上的新Workfront Experience[&#128279;](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/request-queues/understand-request-queues)学习路径的请求中。
 
 ## 从新请求页面中移除的字段
 

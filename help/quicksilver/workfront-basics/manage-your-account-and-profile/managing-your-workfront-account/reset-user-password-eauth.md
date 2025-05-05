@@ -35,7 +35,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[！UICONTROL计划]</p> </td> 
+   <td> <p>[!UICONTROL 计划]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置*</strong></td> 

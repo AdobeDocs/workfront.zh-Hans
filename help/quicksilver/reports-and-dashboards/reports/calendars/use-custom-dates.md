@@ -45,11 +45,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[！UICONTROL编辑]对[！UICONTROL报表]、[！UICONTROL功能板]和[！UICONTROL日历的访问权限</p></td> 
+   <td> <p>[!UICONTROL 编辑]对[!UICONTROL 报表]、[!UICONTROL 功能板]和&lbrack;！UICONTROL日历的访问权限</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td>[！UICONTROL Manage]对日历报表的访问权限</td> 
+   <td>[!UICONTROL Manage]对日历报表的访问权限</td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,7 +71,7 @@ ht-degree: 1%
 
 1. 选择要添加新项目组的日历，单击“更多”菜单，然后单击&#x200B;**编辑**。
 或
-单击**[!UICONTROL +新日历]**，输入项目名称，然后单击&#x200B;**[!UICONTROL 添加高级项目]**。
+单击&#x200B;**[!UICONTROL +新日历]**，输入项目名称，然后单击&#x200B;**[!UICONTROL 添加高级项目]**。
 
    >[!NOTE]
    >
@@ -84,27 +84,27 @@ ht-degree: 1%
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL命名这组项目]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 命名这组项目]</strong></td>
       <td>键入项目组的名称。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL颜色]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 颜色]</strong></td>
       <td>选择项目组的颜色。 所有项目均以选定的颜色显示在日历报表中。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL日期字段]</strong></td>
-      <td>选择<strong>[！UICONTROL自定义日期]</strong>。<br></td>
+      <td role="rowheader"><strong>[!UICONTROL 日期字段]</strong></td>
+      <td>选择<strong>[!UICONTROL 自定义日期]</strong>。<br></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL在日历上，显示]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 在日历上，显示]</strong></td>
       <td><p>选择日期的显示方式：</p>
        <ul>
-        <li><strong>[！UICONTROL Single Date]</strong>：日历在单个日期显示对象。</li>
-        <li><strong>[！UICONTROL Duration] （开始到结束）</strong>：日历显示跨天对象。<br><p>注意：如果选择<strong>[！UICONTROL Duration]</strong>，则指定的结束日期必须晚于开始日期，否则日历上不会显示该项目。</p></li>
+        <li><strong>[!UICONTROL Single Date]</strong>：日历在单个日期显示对象。</li>
+        <li><strong>[!UICONTROL Duration] （开始到结束）</strong>：日历显示跨天对象。<br><p>注意：如果选择<strong>[!UICONTROL Duration]</strong>，则指定的结束日期必须晚于开始日期，否则日历上不会显示该项目。</p></li>
        </ul></td>
      </tr>
      <tr data-mc-conditions="">
-      <td role="rowheader"><strong>[！UICONTROL自定义日期]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 自定义日期]</strong></td>
       <td><p>输入附加到要跟踪的对象上的自定义日期名称。</p><p><strong>注意：</strong>为避免性能问题，自定义日期名称的搜索限制为50个结果。</td>
      </tr>
     </tbody>

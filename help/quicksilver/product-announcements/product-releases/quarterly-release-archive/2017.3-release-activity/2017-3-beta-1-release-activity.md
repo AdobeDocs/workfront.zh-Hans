@@ -40,7 +40,7 @@ ht-degree: 0%
 * 复制任务和问题时[清除自定义数据选项](#clear-custom-data-option-when-copying-tasks-and-issues)
 * [直接从模板创建项目](#create-a-project-directly-from-a-template)
 * 订阅对象的[应用程序内通知](#in-app-notification-for-subscribed-objects)
-* @Tagging0}当前在预览环境中不可用](#tagging-currently-not-available-in-the-preview-environment)[
+* @Tagging0&rbrace;当前在预览环境中不可用[&#128279;](#tagging-currently-not-available-in-the-preview-environment)
 * [在项目的利用率报告中包括用户分配信息](#include-user-allocation-information-in-the-utilization-report-on-a-project)
 
 ## 资源计划改进 {#resource-scheduling-improvements}

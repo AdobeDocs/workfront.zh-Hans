@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ### 更新模板任务持续时间和工作估计 {#update-template-task-duration-and-effort-estimates}
 
-模板中的每个任务都包含计划持续时间和计划工作估计。 这些估计值作为这些活动的持续时间和逗留时间的起点。 但是，贵组织的能力、技能和步调各不相同。 您应该查看每个任务的预计持续时间和工作量，以调整它以反映贵组织的需求。 有关信息，请参阅[!UICONTROL 任务详细信息概述]区域](../../manage-work/tasks/manage-tasks/task-information-in-overview.md)中的[管理任务信息。
+模板中的每个任务都包含计划持续时间和计划工作估计。 这些估计值作为这些活动的持续时间和逗留时间的起点。 但是，贵组织的能力、技能和步调各不相同。 您应该查看每个任务的预计持续时间和工作量，以调整它以反映贵组织的需求。 有关信息，请参阅[!UICONTROL 任务详细信息概述]区域[&#128279;](../../manage-work/tasks/manage-tasks/task-information-in-overview.md)中的管理任务信息。
 
 ### 关联里程碑路径和里程碑 {#associate-a-milestone-path-and-milestones}
 

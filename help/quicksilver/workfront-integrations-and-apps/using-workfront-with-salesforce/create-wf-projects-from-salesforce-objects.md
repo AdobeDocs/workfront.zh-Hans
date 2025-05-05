@@ -27,11 +27,11 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
-   <td> <p>[！UICONTROL Pro]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[！UICONTROL计划]</p> </td> 
+   <td> <p>[!UICONTROL 计划]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -149,7 +149,7 @@ ht-degree: 4%
       >项目仅在[!UICONTROL Opportunity]上更新阶段时创建。 为更新暂存字段时指定的每个产品创建一个唯一项目，而不是为添加到[!UICONTROL Opportunities]中的产品创建唯一项目。
 
 1. （可选）单击&#x200B;**[!UICONTROL 新建触发器]**。
-1. （可选）从&#x200B;**[!UICONTROL [!DNL Salesforce]对象]**下拉菜单中，选择**帐户
+1. （可选）从&#x200B;**[!UICONTROL [!DNL Salesforce]对象]**&#x200B;下拉菜单中，选择**帐户
 **。
 
    这是必填字段。
@@ -158,7 +158,7 @@ ht-degree: 4%
    1. 从&#x200B;**[!UICONTROL 类型]**&#x200B;下拉菜单中选择&#x200B;**[!UICONTROL 类型]**。
 
       当有任何**帐户时
-**被指定为[!DNL Salesforce]中此处指定的&#x200B;**[!UICONTROL 类型]**，在[!DNL Workfront]中创建了&#x200B;**[!UICONTROL 项目]**。
+**被指定为[!DNL Salesforce]中此处指定的&#x200B;**&#x200B;[!UICONTROL 类型]&#x200B;**，在[!DNL Workfront]中创建了&#x200B;**&#x200B;[!UICONTROL 项目]**。
 
       这是必填字段。
 

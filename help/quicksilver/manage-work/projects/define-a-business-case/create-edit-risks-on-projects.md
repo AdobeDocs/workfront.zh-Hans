@@ -102,7 +102,7 @@ ht-degree: 0%
 1. 转到要为其创建风险的项目。
 1. 单击左侧面板中的&#x200B;**风险**。
 
-   任务](assets/risks-section-on-project-2022.png)的![风险部分
+   任务![&#128279;](assets/risks-section-on-project-2022.png)的风险部分
 
 1. 单击&#x200B;**开始添加风险**&#x200B;并通过内联编辑其信息来创建风险。
 

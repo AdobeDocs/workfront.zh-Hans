@@ -43,15 +43,15 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[！UICONTROL计划] </p> </td> 
+   <td> <p>[!UICONTROL 计划] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>[！UICONTROL Edit]对项目和任务的访问权限</p> <p>注意：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何修改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td> <p>[!UICONTROL Edit]对项目和任务的访问权限</p> <p>注意：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何修改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>[！UICONTROL Manage]对项目和任务的访问权限 </p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>[!UICONTROL Manage]对项目和任务的访问权限 </p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -212,7 +212,7 @@ ht-degree: 0%
 
 您可以使用任务列表[!UICONTROL 甘特图]来均衡资源。
 
-有关[!UICONTROL 甘特图]中资源均衡的信息，请参阅[!UICONTROL 甘特图]](../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md)中的[级别资源。
+有关[!UICONTROL 甘特图]中资源均衡的信息，请参阅[!UICONTROL 甘特图][&#128279;](../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md)中的级别资源。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

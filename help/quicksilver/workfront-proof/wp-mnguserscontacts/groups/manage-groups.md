@@ -66,10 +66,10 @@ ht-degree: 0%
 
 ## 筛选组
 
-1. 单击列标题最右侧的&#x200B;**[!UICONTROL 筛选器]**图标以显示列标题下面的筛选选项。
+1. 单击列标题最右侧的&#x200B;**[!UICONTROL 筛选器]**&#x200B;图标以显示列标题下面的筛选选项。
    ![Group_page-Filter_icon_and_options.png](assets/group-page-filter-icon-and-options-350x134.png)
 
-1. 从下拉菜单中选择[!UICONTROL 筛选选项]，并在每个列标题下方的筛选框中键入相应的内容，然后再次单击&#x200B;**[!UICONTROL 筛选器]**图标以应用这些选项。
+1. 从下拉菜单中选择[!UICONTROL 筛选选项]，并在每个列标题下方的筛选框中键入相应的内容，然后再次单击&#x200B;**[!UICONTROL 筛选器]**&#x200B;图标以应用这些选项。
 或\
    选择组名称中的第一个字母。
    ![Groups_page-filtering_by_letter.png](assets/groups-page-filtering-by-letter-350x245.png)
@@ -101,9 +101,9 @@ ht-degree: 0%
 1. 单击左侧导航面板中的&#x200B;**[!UICONTROL 联系人]**&#x200B;以转到&#x200B;**[!UICONTROL 联系人]**&#x200B;页面。
 
 1. 选中要添加到组中的联系人姓名旁边的复选框。
-1. 单击&#x200B;**[!UICONTROL 添加到组]**按钮。
+1. 单击&#x200B;**[!UICONTROL 添加到组]**&#x200B;按钮。
    ![添加到组](assets/screenshot-2018-04-06-15-27-17.png)
-出现**[!UICONTROL 添加到组]**&#x200B;对话框。
+出现&#x200B;**[!UICONTROL 添加到组]**&#x200B;对话框。
 
 1. 在&#x200B;**[!UICONTROL 人员]**&#x200B;分区中：
 

@@ -22,7 +22,7 @@ ht-degree: 0%
 
 对验证具有编辑权限的用户可以将其删除。
 
-有关编辑权限的详细信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[验证权限配置文件和 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中的[管理验证角色
+有关编辑权限的详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[验证权限配置文件和 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中的管理验证角色
 
 当您在帐户中删除验证（或任何其他项，如文件或文件夹）时，[!DNL Workfront Proof]会将其移至垃圾桶。 可以轻松还原垃圾桶中的项目。
 

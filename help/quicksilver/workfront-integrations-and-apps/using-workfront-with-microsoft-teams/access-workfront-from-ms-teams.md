@@ -56,8 +56,8 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>新文档： [！UICONTROL Standard]</p>
-   <p>当前： [！UICONTROL工作]，[！UICONTROL计划]</p> </td> 
+   <td> <p>新文档： [!UICONTROL Standard]</p>
+   <p>当前： [!UICONTROL 工作]，[!UICONTROL 计划]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -86,7 +86,7 @@ ht-degree: 1%
 
 1. 开始键入项目、任务或问题的名称。
 
-   有关搜索项的信息，请参阅[在 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)的 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) in the article [Search for and share [!DNL Adobe Workfront] 项中搜索和共享 [!DNL Adobe Workfront] 项。
+   有关搜索项的信息，请参阅[在 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)的 [!DNL Microsoft Teams][&#128279;](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) in the article Search for and share [!DNL Adobe Workfront] 项中搜索和共享 [!DNL Adobe Workfront] 项。
 
 1. 单击&#x200B;**[!UICONTROL 在此处键入您的问题]**&#x200B;字段。
 
@@ -110,7 +110,7 @@ ht-degree: 1%
 
 1. 单击&#x200B;**[!UICONTROL 搜索]**&#x200B;以搜索项目、任务或问题。
 
-   有关搜索项的信息，请参阅 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)文章中的 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) section in the [Search for and share [!DNL Adobe Workfront] 项中的[搜索和共享 [!DNL Adobe Workfront] 项。
+   有关搜索项的信息，请参阅 [!DNL Microsoft Teams][&#128279;](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)文章中的 [!DNL Microsoft Teams][&#128279;](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) section in the Search for and share [!DNL Adobe Workfront] 项中的搜索和共享 [!DNL Adobe Workfront] 项。
 
 1. 键入以下任意命令以在Workfront中执行这些操作。\
    命令不区分大小写：

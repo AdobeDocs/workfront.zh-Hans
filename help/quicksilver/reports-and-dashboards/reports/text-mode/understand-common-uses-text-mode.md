@@ -86,7 +86,7 @@ ht-degree: 0%
 * [筛选器：当状态与不同的组相关联时，按同名状态显示项目](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-same-name-statuses-from-different-groups.md)
 * [筛选器：通过比较两个字段](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-items-by-comparing-two-fields.md)来消除列表中的项
 * [使用EXISTS语句创建复杂文本模式筛选器](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)文章中的部分[跨对象层次结构中多个级别的文本模式筛选器示例](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md#examples)
-* [部分[使用EXISTS语句创建复杂文本模式筛选器](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)中的缺失对象创建复杂文本模式筛选器](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md#missing-object-filters)
+* [&#128279;](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md#missing-object-filters)部分[使用EXISTS语句创建复杂文本模式筛选器](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)中的缺失对象创建复杂文本模式筛选器
 
 ## 在分组中使用文本模式 {#use-text-mode-in-groupings}
 

@@ -52,7 +52,7 @@ ht-degree: 0%
 
 “配置文件详细信息”页面允许您修改为自定义配置文件启用的权限，复制配置文件，删除配置文件，以及查看配置文件所分配到的用户列表。
 
-有关您可以在此页面上执行的操作的详细信息，请参阅“使用 [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md)创建和管理自定义配置文件”[。
+有关您可以在此页面上执行的操作的详细信息，请参阅“使用 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md)创建和管理自定义配置文件”。
 
 * [访问“概要文件详细资料”页](#accessing-the-profile-details-page)
 * [查看已分配配置文件的用户列表](#viewing-the-list-of-users-with-a-profile-assigned)

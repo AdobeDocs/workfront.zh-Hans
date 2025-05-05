@@ -34,7 +34,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[！UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Review]或更高版本</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,13 +66,13 @@ ht-degree: 0%
 1. 从[!DNL Workfront]视图的主页中，点按列表中的任何项目以查看项目详细信息。\
    项目信息显示在屏幕上可用的小部件中。\
    一次最多可以显示四个小组件，并且您可以移除这些小组件并将其添加到每个项目，以查看有关项目的不同信息。\
-   有关将构件添加到[!UICONTROL 项目详细信息]视图的详细信息，请参阅[!UICONTROL 项目详细信息]视图](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)中的[更新构件。
+   有关将构件添加到[!UICONTROL 项目详细信息]视图的详细信息，请参阅[!UICONTROL 项目详细信息]视图[&#128279;](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)中的更新构件。
 
 ## 在[!DNL Workfront View]中浏览项目
 
 1. 点按[!DNL Workfront View]应用程序中项目列表中的项目名称。\
    有关项目的信息会显示在上传到屏幕上的小组件中。\
-   有关将构件添加到[!UICONTROL 项目详细信息]视图的详细信息，请参阅[!UICONTROL 项目详细信息]视图](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)中的[更新构件。
+   有关将构件添加到[!UICONTROL 项目详细信息]视图的详细信息，请参阅[!UICONTROL 项目详细信息]视图[&#128279;](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)中的更新构件。
 
 1. 从右向左轻扫以在列表中显示以下项目。\
    滚动每个项目时，将显示相同的构件。\

@@ -58,17 +58,17 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Adobe Workfront]计划</td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront]计划</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>新文档： [！UICONTROL Standard]</p>
-   <p>当前： [！UICONTROL计划]</p></td> 
+   <td> <p>新文档： [!UICONTROL Standard]</p>
+   <p>当前： [!UICONTROL 计划]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别</td> 
-   <td>[！UICONTROL系统管理员]</td>
+   <td>[!UICONTROL 系统管理员]</td>
   </tr> 
  </tbody> 
 </table>
@@ -108,19 +108,19 @@ Workfront附带一组内置小时类型。 这些小时类型无法编辑，也�
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL名称]</td> 
+      <td role="rowheader">[!UICONTROL 名称]</td> 
       <td>为您的新小时键入一个易于在系统中识别的名称。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL描述]</td> 
+      <td role="rowheader">[!UICONTROL 描述]</td> 
       <td>添加对小时类型的描述。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL作用域]</td> 
-      <td> <p>通过在下拉菜单中选择正确的范围来定义小时类型是常规小时类型还是特定于项目的小时类型。</p> <p>常规小时类型仅在时间表中可见，且不能与项目、任务或问题相关联。</p> <p><b>重要信息</b>：如果您有一个自定义小时类型，该类型是[！UICONTROL项目特定的]，然后您将其更改为[！UICONTROL常规]，则所有现有的任务、问题和项目小时数都将设置为它们的系统默认类型。</p> </td> 
+      <td role="rowheader">[!UICONTROL 作用域]</td> 
+      <td> <p>通过在下拉菜单中选择正确的范围来定义小时类型是常规小时类型还是特定于项目的小时类型。</p> <p>常规小时类型仅在时间表中可见，且不能与项目、任务或问题相关联。</p> <p><b>重要信息</b>：如果您有一个自定义小时类型，该类型是[!UICONTROL 项目特定的]，然后您将其更改为[!UICONTROL 常规]，则所有现有的任务、问题和项目小时数都将设置为它们的系统默认类型。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL计为收入]</td> 
+      <td role="rowheader">[!UICONTROL 计为收入]</td> 
       <td><p>如果您希望与此小时类型关联的小时条目影响您的收入计算，请选择此选项。</p>
       <p>病假和休假时间不能计为收入。</p>
       <p><b>注释</b></p>

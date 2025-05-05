@@ -86,7 +86,7 @@ ht-degree: 0%
 * 当您将任务从一个项目复制到另一个项目，并且目标项目的任务具有不同的默认设置时，复制的任务将保留原始项目的默认设置，除非在复制过程中清除这些设置。
 * 在同一项目上复制任务时，自定义表单和审批流程将转移到复制任务。
 
-  有关复制和复制任务的信息，请参阅[[复制和复制任务](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)。
+  有关复制和复制任务的信息，请参阅[&#128279;](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) [复制和复制任务](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)。
 
 * 当您将任务移动到另一个项目时，默认任务设置保存在原始项目的任务上，而不管新项目的任务默认设置如何。
 

@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. 单击[!DNL Workfront Proof]窗口右上角的&#x200B;**[!UICONTROL 设置]**，然后从下拉菜单中选择&#x200B;**[!UICONTROL 帐户设置]**。
 
-1. 在显示的[!UICONTROL 帐户设置]页面上，确保&#x200B;**[!UICONTROL 详细信息]**选项卡已打开。
+1. 在显示的[!UICONTROL 帐户设置]页面上，确保&#x200B;**[!UICONTROL 详细信息]**&#x200B;选项卡已打开。
 您可以在此选项卡上查看以下部分：
 
 ## 编辑帐户详细信息

@@ -37,13 +37,13 @@ ht-degree: 1%
    <td> <ul></li>
    <li><p>新增功能：Ultimate </p></li>
    <p>Scenario Planner不可用于新的Workfront Select或Workfront Prime计划。 </p>
-   <li><p>当前： [！UICONTROL Business]或更高版本</p></ul>
+   <li><p>当前： [!UICONTROL Business]或更高版本</p></ul>
    </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 许可证*</p> </td> 
    <td> <p>新增：浅色或更高</p> 
-   <p>当前： [！UICONTROL Review]或更高版本</p> </td> 
+   <p>当前： [!UICONTROL Review]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td>产品* </td> 
@@ -55,11 +55,11 @@ ht-degree: 1%
   </tr> 
   <tr data-mc-conditions=""> 
    <td>访问级别 </td> 
-   <td> <p>[！UICONTROL Edit]访问 [!DNL Scenario Planner]</p> </td> 
+   <td> <p>[!UICONTROL Edit]访问 [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>对象权限 </p> </td> 
-   <td> <p>[！UICONTROL Manage]对计划的权限</p> <p>有关请求对计划的附加访问权限的信息，请参阅<a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中请求对计划的访问权限。</p> </td> 
+   <td> <p>[!UICONTROL Manage]对计划的权限</p> <p>有关请求对计划的附加访问权限的信息，请参阅<a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中请求对计划的访问权限。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -101,8 +101,8 @@ ht-degree: 1%
  <thead> 
   <tr> 
    <th> <p><strong>操作</strong> </p> </th> 
-   <th> <p><strong>[！UICONTROL管理]</strong> </p> </th> 
-   <th> <p><strong>[！UICONTROL视图]</strong> </p> </th> 
+   <th> <p><strong>[!UICONTROL 管理]</strong> </p> </th> 
+   <th> <p><strong>[!UICONTROL 视图]</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -206,11 +206,11 @@ ht-degree: 1%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL视图]</td> 
+      <td role="rowheader">[!UICONTROL 视图]</td> 
       <td>与共享计划的用户将有权查看计划。 他们无法编辑有关计划的信息、添加计划、方案或发布方案。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL管理]</td> 
+      <td role="rowheader">[!UICONTROL 管理]</td> 
       <td> <p>您共享计划的用户具有管理计划的权限，其中包括编辑信息、添加计划、方案和发布计划。 </p> </td> 
      </tr> 
     </tbody> 

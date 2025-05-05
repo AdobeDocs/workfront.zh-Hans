@@ -26,11 +26,11 @@ ht-degree: 2%
 
 2018.1 Beta 2版本包含面向Workfront管理员和其他用户的增强功能：
 
-管理员的&#x200B;****
+管理员的&#x200B;**&#x200B;**
 
 * [用户和布局模板的组管理](#group-administration-for-users-and-layout-templates)
 
-所有用户&#x200B;****
+所有用户&#x200B;**&#x200B;**
 
 * [系统范围宽屏显示器](#system-wide-widescreen-display)
 * [在甘特图上调整时间线快照的大小](#resize-timeline-snapshot-on-the-gantt-chart)

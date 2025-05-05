@@ -106,14 +106,15 @@ Workfront管理员还有唯一的API密钥。 当应用程序使用管理员API�
 
    1. 展开&#x200B;**系统**，然后单击&#x200B;**单点登录(SSO)**。
    1. 在&#x200B;**类型**&#x200B;字段中，选择贵组织使用的SSO类型。
-   1. 选定类型后，向下滚动并清除&#x200B;**启用**复选框。
+   1. 选定类型后，向下滚动并清除&#x200B;**启用**&#x200B;复选框。
+
       ![启用SSO](assets/sysadmin-security-sso-disable-31620-350x320.png)
    1. 单击&#x200B;**保存**。
 
 
 1. 在浏览器的地址栏中，输入以下API调用：
 
-   `<domain>`**.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**用户名**&amp;password=**密码**&amp;method=PUT
+   `<domain>`**.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**&#x200B;用户名&#x200B;**&amp;password=**&#x200B;密码**&amp;method=PUT
 
    将`<domain>`替换为您的Workfront域名，并将用户名和密码替换为用户的Workfront凭据。
 
@@ -159,7 +160,7 @@ Workfront管理员还有唯一的API密钥。 当应用程序使用管理员API�
 
 1. 展开&#x200B;**系统**，然后单击&#x200B;**客户信息**。
 
-1. 在&#x200B;**API密钥设置**&#x200B;区域中，单击&#x200B;**删除所有API密钥**，然后单击&#x200B;**删除****全部**。
+1. 在&#x200B;**API密钥设置**&#x200B;区域中，单击&#x200B;**删除所有API密钥**，然后单击&#x200B;**删除**&#x200B;**全部**。
 
 ## 使用X.509证书限制API登录
 

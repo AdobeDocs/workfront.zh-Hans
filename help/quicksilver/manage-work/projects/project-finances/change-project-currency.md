@@ -75,7 +75,7 @@ ht-degree: 0%
 1. 单击左侧面板中的&#x200B;**项目详细信息**，然后转到&#x200B;**财务**&#x200B;区域。
 1. 单击&#x200B;**货币**&#x200B;字段中的&#x200B;**添加**，然后选择要用作项目默认货币的货币。 显示Workfront管理员为Workfront实例设置的所有货币。
 
-   项目](assets/currency-on-project-expanded-nwe.png)上的![货币
+   项目![&#128279;](assets/currency-on-project-expanded-nwe.png)上的货币
 
 1. （视情况而定）如果您选择的货币不是为Workfront系统设置的默认货币，请指定所选货币的汇率，因为该汇率与系统中设置为基础货币的货币相关。
 1. 单击&#x200B;**保存更改**。

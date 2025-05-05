@@ -32,7 +32,7 @@ ht-degree: 0%
 1. 单击左侧导航侧边栏中的&#x200B;**[!UICONTROL 联系人]**。
 1. 单击要作为排序依据的列标题。
 或
-从“联系人”页面右上角的**[!UICONTROL 排序]**&#x200B;菜单中选择一个选项。
+从“联系人”页面右上角的&#x200B;**[!UICONTROL 排序]**&#x200B;菜单中选择一个选项。
 
 1. ![Contacts_page-Sort_menu.png](assets/contacts-page-sort-menu.png)
 

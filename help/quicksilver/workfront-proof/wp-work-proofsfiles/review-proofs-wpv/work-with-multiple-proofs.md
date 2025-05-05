@@ -22,7 +22,7 @@ ht-degree: 0%
 
 在[!DNL Workfront Proof]中，您可以使用文件夹对要一起处理的验证或希望审阅人一起处理的验证进行分组。 当您或其他查看者打开其中一个校样，启动校样查看者时，文件夹中的所有校样也在此处可用。 无需离开验证查看器，即可查看其他验证、对它们进行排序和搜索并将它们相互比较。
 
-有关文件夹的一般信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md)中的[文件夹。
+有关文件夹的一般信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md)中的文件夹。
 
 >[!NOTE]
 >

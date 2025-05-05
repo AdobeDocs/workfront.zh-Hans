@@ -51,7 +51,7 @@ ht-degree: 0%
 
 ![internal_external_-_option_B.png](assets/internal_external_-_option_B.png)
 
-1. **创建新校对** — 设计人员在[!DNL Workfront Proof]中创建新校对并与内部审阅人共享。 设计者使项目经理成为校对的所有者，或者赋予他在校对上[!UICONTROL 作者]的角色（请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中的[管理校对角色）。
+1. **创建新校对** — 设计人员在[!DNL Workfront Proof]中创建新校对并与内部审阅人共享。 设计者使项目经理成为校对的所有者，或者赋予他在校对上[!UICONTROL 作者]的角色（请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中的管理校对角色）。
 
 1. **内部审核** — 项目经理和其他同事审核证明。 有关详细信息，请参阅[在Web验证查看器中查看验证](https://support.workfront.com/hc/en-us/sections/115000275214-Reviewing-Proofs-in-the-Web-Proofing-Viewer)和[在桌面验证查看器中查看验证。](https://support.workfront.com/hc/en-us/sections/360000686434-Reviewing-Proofs-in-the-Desktop-Proofing-Viewer)
 

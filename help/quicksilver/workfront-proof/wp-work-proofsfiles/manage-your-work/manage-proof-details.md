@@ -46,7 +46,7 @@ ht-degree: 0%
 
 ## 验证详情页面上的信息和选项
 
-您可以在验证详细信息页面上找到以下信息。 如果您有对验证的编辑权限，则可以编辑其中的一些详细信息。 [!DNL Workfront Proof]自动保存您所做的更改。 有关详细信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[验证权限配置文件和 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中的[管理验证角色。
+您可以在验证详细信息页面上找到以下信息。 如果您有对验证的编辑权限，则可以编辑其中的一些详细信息。 [!DNL Workfront Proof]自动保存您所做的更改。 有关详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[验证权限配置文件和 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中的管理验证角色。
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ ht-degree: 0%
 
    * **文件名**：对于合并的校样，您可以&#x200B;**[!UICONTROL 单击查看]**&#x200B;校样中包含的文件列表。
 
-   * **所有者：**&#x200B;证明的所有者。 您可以在此处为验证选择其他所有者。 有关详细信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校对权限配置文件。
+   * **所有者：**&#x200B;证明的所有者。 您可以在此处为验证选择其他所有者。 有关详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校对权限配置文件。
 
    * **已委派：**&#x200B;如果启用了“外出”功能，将显示验证的已委派所有者。 有关详细信息，请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md)中指定临时校对所有者。
 
@@ -101,11 +101,11 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >您必须具有对验证的编辑权限才能编辑验证阶段和审阅者的详细信息。 有关详细信息，请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中管理验证角色，以及在 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中管理[验证权限配置文件。
+     >您必须具有对验证的编辑权限才能编辑验证阶段和审阅者的详细信息。 有关详细信息，请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中管理验证角色，以及在 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中管理验证权限配置文件。
 
    * **[!UICONTROL 更多共享选项]**&#x200B;部分：允许您启用校对URL和嵌入代码。 如果您使用Basecamp与[!DNL Workfront]校对集成，则本节还允许您将该校对添加到[!DNL Basecamp]项目，更改添加该校对的项目（单击&#x200B;**[!UICONTROL 编辑]**），以及访问Basecamp中的校对（单击提供的链接）。
 
-   * **[!UICONTROL 设置]**&#x200B;部分：允许您按照 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)中[[!UICONTROL 配置校对]设置中的说明更改设置。
+   * **[!UICONTROL 设置]**&#x200B;部分：允许您按照 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)中[!UICONTROL 配置校对]设置中的说明更改设置。
 
    * **[!UICONTROL 活动]**&#x200B;部分：按时间顺序显示对验证执行的所有操作的列表，提供验证的审核跟踪。 这包括验证上任何最近活动的日期和详细信息。 与[!UICONTROL 消息]部分一起，[!UICONTROL 活动]部分提供了校对审核过程的完整概述，这对于负责审批过程的项目经理尤其有用。
    * **[!UICONTROL 消息]**&#x200B;部分：列出验证的所有电子邮件活动的详细信息。 有关详细信息，请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)中配置电子邮件通知设置。

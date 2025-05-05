@@ -49,7 +49,7 @@ ht-degree: 1%
 
 默认状态显示创建新用户时默认为新用户启用哪些通知（每天、即时或同时启用两者）。
 
-有关事件通知的完整列表，以及有关如何在系统级别、组级别或用户级别启用和配置这些通知的信息，请参阅 [!DNL Adobe Workfront]](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)中提供的[事件通知。
+有关事件通知的完整列表，以及有关如何在系统级别、组级别或用户级别启用和配置这些通知的信息，请参阅 [!DNL Adobe Workfront][&#128279;](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)中提供的事件通知。
 
 有关如何选择要接收哪些事件通知的信息，请参阅[修改您自己的电子邮件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
 

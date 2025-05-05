@@ -25,7 +25,7 @@ ht-degree: 0%
 
 在此增强功能之前，您只能通过单击任务或问题的更多菜单，然后使用分配选项来分配项目。 现在，分配给用户的计划小时数在拖动任务时实时更新。
 
-有关在工作负载均衡器中分配工作项的信息，请参阅在工作负载均衡器中分配工作的概述[](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)。
+有关在工作负载均衡器中分配工作项的信息，请参阅在工作负载均衡器中分配工作的概述[&#128279;](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)。
 
 ## 工作负载均衡器的新默认选项
 

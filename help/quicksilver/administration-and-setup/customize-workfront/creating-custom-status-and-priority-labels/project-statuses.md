@@ -50,7 +50,7 @@ Workfront附带9个系统项目状态。 您可以更改这些状态的名称，
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[！UICONTROL系统管理员]</td>
+   <td>[!UICONTROL 系统管理员]</td>
   </tr> 
  </tbody> 
 </table>

@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ## 资源规划者筛选器概览
 
-为了最大程度地减少资源规划者中显示的信息量，Adobe Workfront提供了一个具有预配置标准的默认过滤器。 有关默认筛选器的信息，请参阅本文中的资源规划者](#overview-of-the-default-filter-in-the-resource-planner)中默认筛选器的概述[部分。
+为了最大程度地减少资源规划者中显示的信息量，Adobe Workfront提供了一个具有预配置标准的默认过滤器。 有关默认筛选器的信息，请参阅本文中的资源规划者[&#128279;](#overview-of-the-default-filter-in-the-resource-planner)中默认筛选器的概述部分。
 
 您还可以构建自定义的过滤器。 有关在资源规划者中自定义筛选器的信息，请参阅本文中的[创建资源规划者筛选器](#create-resource-planner-filters)部分。
 
@@ -125,10 +125,10 @@ ht-degree: 0%
 
 默认情况下，首次访问资源规划者时应用<strong>默认筛选器</strong>。<br>有关默认筛选器的更多信息，请参阅本文的资源规划者</a>中的默认筛选器的<a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">概述部分。
 
-1. 在的左上角，单击&#x200B;**筛选器**图标。
+1. 在的左上角，单击&#x200B;**筛选器**&#x200B;图标。
    ![filter_icon.png](assets/filter-icon.png)
 或
-展开**筛选器**&#x200B;下拉菜单，然后单击&#x200B;**添加新筛选器**。
+展开&#x200B;**筛选器**&#x200B;下拉菜单，然后单击&#x200B;**添加新筛选器**。
    ![筛选器下拉列表](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
 
 1. 要使用内置标准构建过滤器，请指定以下任意字段：
@@ -269,7 +269,7 @@ ht-degree: 0%
 
 您可以删除不再需要的过滤器。 您不能删除默认筛选器。
 
-有关默认筛选器的信息，请参阅本文的资源规划者](#overview-of-the-default-filter-in-the-resource-planner)中的默认筛选器的[概述部分。
+有关默认筛选器的信息，请参阅本文的资源规划者[&#128279;](#overview-of-the-default-filter-in-the-resource-planner)中的默认筛选器的概述部分。
 
 删除过滤器时，将删除所有有权访问资源规划者的Workfront用户的过滤器。 在删除过滤器之前，请确保您要删除的过滤器不再由在资源规划者中工作的任何其他人员使用。 无法恢复已删除的筛选器。
 
@@ -294,7 +294,7 @@ ht-degree: 0%
 >
 >所有用户(包括Workfront管理员)都只能访问已构建或已与其共享的过滤器。 您可以与特定用户共享过滤器，以使过滤器可用于所有资源规划者用户。
 
-有关默认筛选器的信息，请参阅本文的资源规划者](#overview-of-the-default-filter-in-the-resource-planner)中的默认筛选器的[概述部分。
+有关默认筛选器的信息，请参阅本文的资源规划者[&#128279;](#overview-of-the-default-filter-in-the-resource-planner)中的默认筛选器的概述部分。
 
 有关复制筛选器的信息，请参阅本文中的[复制筛选器](#duplicate-a-filter)部分。
 

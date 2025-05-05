@@ -48,7 +48,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 帐户设置]**，然后打开&#x200B;**[!UICONTROL 单点登录]**&#x200B;选项卡。
 
-1. 在&#x200B;**SSO URL**框中，粘贴您的实体ID。
+1. 在&#x200B;**SSO URL**&#x200B;框中，粘贴您的实体ID。
 以下是实体ID的一个示例：
 http://*&lt;adfs.your-company.com>*/adfs/services/trust
 可以在联合元数据XML文件中找到您的实体ID。
@@ -61,7 +61,7 @@ http://*&lt;adfs.your-company.com>*/adfs/services/trust
 1. 此链接可以位于联合元数据XML文件中。
    ![ProofHQ_configuration_03.png](assets/proofhq-configuration-03-350x90.png)
 
-1. 在&#x200B;**[!UICONTROL 注销URL]**框中，输入链接并保存。
+1. 在&#x200B;**[!UICONTROL 注销URL]**&#x200B;框中，输入链接并保存。
 以下是注销URL的示例：
 https://*&lt;adfs.your-company.com>*/adfs/ls/？wa=wsignout1.0
 

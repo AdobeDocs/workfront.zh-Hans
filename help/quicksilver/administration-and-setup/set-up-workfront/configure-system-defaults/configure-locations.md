@@ -37,14 +37,14 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>新文档： [！UICONTROL Standard]</p>
+   <td><p>新文档： [!UICONTROL Standard]</p>
    或
-   <p>当前： [！UICONTROL计划]</p>
+   <p>当前： [!UICONTROL 计划]</p>
    </td> 
   </tr>  
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[！UICONTROL系统管理员]</td>
+   <td>[!UICONTROL 系统管理员]</td>
   </tr> 
  </tbody> 
 </table>

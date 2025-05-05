@@ -90,7 +90,7 @@ ht-degree: 1%
    * 指定任务的任何父对象的权限：项目、项目群或项目组合。 任务从其父对象继承权限。 有关查看对象的继承权限的信息，请参阅[查看对象的继承权限](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)。
    * 在用于创建任务所在项目的模板上，将实体添加到项目共享。 有关从模板共享项目的信息，请参阅[共享模板](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)。
 
-   * 在编辑项目时，指定项目中所有任务的权限。 有关基于用户对项目的权限管理项目上任务的访问权限的信息，请参阅[编辑项目](../../manage-work/projects/manage-projects/edit-projects.md)一文中的[](../../manage-work/projects/manage-projects/edit-projects.md#access)部分。
+   * 在编辑项目时，指定项目中所有任务的权限。 有关基于用户对项目的权限管理项目上任务的访问权限的信息，请参阅[编辑项目](../../manage-work/projects/manage-projects/edit-projects.md)一文中的[&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access)部分。
 
   >[!TIP]
   >

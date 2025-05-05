@@ -137,7 +137,7 @@ ht-degree: 0%
 
 有关详细信息，请参阅[使用布局模板自定义筛选器、视图和分组](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)。
 
-此功能现已包含在Workfront One上的新Workfront Experience第3部分：控制和界面体验](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)学习路径的[管理员基础知识中。
+此功能现已包含在Workfront One上的新Workfront Experience第3部分：控制和界面体验[&#128279;](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)学习路径的管理员基础知识中。
 
 ## 管理员的新增功能：轻松列出当前使用自定义字段的报告
 

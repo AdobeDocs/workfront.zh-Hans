@@ -63,7 +63,7 @@ ht-degree: 0%
 ### 主页区域（已更新我的工作）
 
 * 主页区域中的[日历视图](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#calendar-view-in-the-home-area) 
-* 主页](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#additional-updates-to-the-left-panel-in-home)中的工作列表（左侧面板）的[其他更新 
+* 主页[&#128279;](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#additional-updates-to-the-left-panel-in-home)中的工作列表（左侧面板）的其他更新 
 * [主页区域已更新工作列表（左面板）](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#updated-work-list-in-the-home-area) 
 * [直接从主页区域编辑字段](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#edit-fields-directly-from-the-home-area)
 
@@ -154,7 +154,7 @@ ht-degree: 0%
 
 为了提供最佳安全性，Workfront要求将使用TLS 1.0或更早版本的所有集成和Web流量升级为使用TLS 1.1或更高版本。
 
-有关详细信息，请参阅Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md)中需要的[TLS 1.2。
+有关详细信息，请参阅Adobe Workfront[&#128279;](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md)中需要的TLS 1.2。
 
 ### Flash应用程序删除 {#flash-application-removal}
 

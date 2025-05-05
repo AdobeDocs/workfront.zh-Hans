@@ -34,7 +34,7 @@ ht-degree: 0%
 * 经理只能为其项目创建和编辑标记。
 * 观察者可以应用或编辑项目上的标记，但他们可以查看其他用户应用至项目的标记，并且可以在“个人”设置中查看“标记”选项卡。
 
-有关这些配置文件和权限的详细信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[验证权限配置文件。
+有关这些配置文件和权限的详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的验证权限配置文件。
 
 ## 创建、编辑或删除帐户中的标记
 

@@ -56,11 +56,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[！UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Review]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td>[！UICONTROL Reviewer]或更高版本</td> 
+   <td>[!UICONTROL Reviewer]或更高版本</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 

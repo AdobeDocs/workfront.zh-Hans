@@ -345,4 +345,4 @@ Adobe Workfront管理员和组管理员可以其他用户身份登录，并在Wo
 * 如果在项目过程中优先级发生了更改
 * 如果项目所有者已更改
 
-有关详细信息，请参阅日志条目报告](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)的[更新区域报告。
+有关详细信息，请参阅日志条目报告[&#128279;](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)的更新区域报告。

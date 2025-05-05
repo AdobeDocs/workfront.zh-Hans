@@ -45,7 +45,7 @@ ht-degree: 0%
 
 要使工作负载均衡器中的信息与您相关，您现在可以为工作负载均衡器的未分配工作和已分配工作区域创建过滤器，并保存它们以供将来使用。 然后，您可以编辑保存的版本以进行细微更改，而不是从头开始使用新筛选器。
 
-有关在工作负载均衡器中过滤的信息，请参阅在工作负载均衡器中管理过滤器[](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)
+有关在工作负载均衡器中过滤的信息，请参阅在工作负载均衡器中管理过滤器[&#128279;](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">

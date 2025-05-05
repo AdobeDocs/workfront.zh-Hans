@@ -67,7 +67,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">显示逻辑和跳过逻辑现在可用于表单设计器预览模式</a></p><p>[！BADGE In Production ]{type=Informational}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">显示逻辑和跳过逻辑现在可用于表单设计器预览模式</a></p><p>[!BADGE In Production &#x200B;]{type=Informational}</p>
                         <p>Beta版自定义表单设计器现在允许您在预览模式下测试显示逻辑和跳过逻辑。 以前，即使应用了逻辑，预览中也显示所有字段。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -83,7 +83,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">公司和用户现在支持高级自定义表单字段</a></p><p>[！BADGE In Production ]{type=Informational}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">公司和用户现在支持高级自定义表单字段</a></p><p>[!BADGE In Production &#x200B;]{type=Informational}</p>
                         <p>向公司或用户附加自定义表单时，现在可以使用高级自定义表单功能，例如外部查找字段和Workfront本机字段。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -99,7 +99,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">JumpSeat集成现在可用于新包类型</a></p><p>[！BADGE In Production ]{type=Informational}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">JumpSeat集成现在可用于新包类型</a></p><p>[!BADGE In Production &#x200B;]{type=Informational}</p>
                         <p>现在，使用其中一个新包类型(即Select、Prime或Ultimate)的帐户可以使用现有的JumpSeat集成。 要启用集成，您必须仍然拥有有效的JumpSeat订阅。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -118,7 +118,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        表单设计器Beta版中提供了<a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront本机字段</a></p><p>[！BADGE In Production ]{type=Informational}</p>
+                        表单设计器Beta版中提供了<a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront本机字段</a></p><p>[!BADGE In Production &#x200B;]{type=Informational}</p>
                         <p>Workfront本机字段现在可供您添加到自定义表单中。 利用此新字段类型，可按逻辑方式整理数据并将其呈现给用户，而无需在自定义字段中重新创建现有数据。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -138,7 +138,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">属性映射现在可用于已迁移到Adobe IMS的组织</a></p>
-                        <p>[！BADGE In Production ]{type=Informational}</p><p>Workfront系统管理员现在可以为已迁移到Adobe IMS的组织设置用户属性映射。 这允许用户信息从组织的SSO（单点登录）提供商传递到Workfront，因此用户数据不必同时输入到Workfront和SSO提供商中。</p>
+                        <p>[!BADGE In Production &#x200B;]{type=Informational}</p><p>Workfront系统管理员现在可以为已迁移到Adobe IMS的组织设置用户属性映射。 这允许用户信息从组织的SSO（单点登录）提供商传递到Workfront，因此用户数据不必同时输入到Workfront和SSO提供商中。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -153,7 +153,7 @@ ht-degree: 0%
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">跳过逻辑和显示逻辑现在可在表单设计器Beta版中使用</a></p><p>[！BADGE In Production ]{type=Informational}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">跳过逻辑和显示逻辑现在可在表单设计器Beta版中使用</a></p><p>[!BADGE In Production &#x200B;]{type=Informational}</p>
                         <p>现在，您可以在表单设计器测试版中编辑现有显示和跳过逻辑，并向自定义表单添加新逻辑。 易于使用的逻辑生成器可帮助您根据表单中的选择定义要显示或跳过的字段。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -195,7 +195,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">向文档审阅和审批添加截止日期</a></p><p>[！BADGE In Production ]{type=Informational}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">向文档审阅和审批添加截止日期</a></p><p>[!BADGE In Production &#x200B;]{type=Informational}</p>
                         <p>您现在可以为被分派审阅或审批文档的用户或团队指定截止日期。 查看者和批准者在指定截止日期前72小时和之后24小时收到电子邮件通知。 截止日期还反映在新“主页”区域的审批构件中。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -211,7 +211,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">创建并使用审批模板</a></p><p>[！BADGE In Production ]{type=Informational}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">创建并使用审批模板</a></p><p>[!BADGE In Production &#x200B;]{type=Informational}</p>
                         <p>您现在可以在“设置”区域创建批准模板，以简化审阅和批准流程。 批准模板允许您通过以下方式使审阅和批准流程更可重复
                         <ul>
                             <li>
@@ -236,7 +236,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">一次性查看有关所有审批的信息</a></p><p>[！BADGE In Production ]{type=Informational}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">一次性查看有关所有审批的信息</a></p><p>[!BADGE In Production &#x200B;]{type=Informational}</p>
                         <p>为帮助您管理和分析批准请求概览，我们在“所有批准”构件中添加了以下关键绩效指标：
                         <ul>
                             <li>
@@ -286,7 +286,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">使用布局模板添加到新主页的管理员控件中的列选项</a></p><p>[！BADGE In Production ]{type=Informational}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">使用布局模板添加到新主页的管理员控件中的列选项</a></p><p>[!BADGE In Production &#x200B;]{type=Informational}</p>
                         <p>管理员现在可以使用布局模板自定义在特定新主页小组件中用户可以使用的列。 选项包括隐藏或显示默认列以及将现有字段添加为新列。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -324,7 +324,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">在Adobe Experience Manager集成中增强了自动文件夹创建工作流</a></p><p>[！BADGE In Production ]{type=Informational}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">在Adobe Experience Manager集成中增强了自动文件夹创建工作流</a></p><p>[!BADGE In Production &#x200B;]{type=Informational}</p>
                         <p>为了确保您的Adobe Experience Manager文件夹更准确地反映您的需求，我们对Adobe Experience Manager链接文件夹工作流进行了一些更新。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -360,7 +360,7 @@ ht-degree: 0%
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">更多相关工作分配已添加到新任务工作流</a></p>
-                        <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
+                        <p>[!BADGE In Production for Fast Release &#x200B;]{type=Positive}</p>
                         <p>在将任务添加到项目和项目任务列表时，我们已在“新建任务”框的“工作总揽”字段中添加了相同的功能，用于更相关的智能分配。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -378,7 +378,7 @@ ht-degree: 0%
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">更多相关的智能分配</a></p>
-                        <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
+                        <p>[!BADGE In Production for Fast Release &#x200B;]{type=Positive}</p>
                         <p>我们更改了Workfront用于计算和建议智能任务分配的算法。 新算法适用于Workfront中分配任务的以下区域：任务列表、任务标题中的“任务”区域、“主页”和“摘要”面板。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -414,7 +414,7 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        工作负载均衡器中手动调整分配的<a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">指示器</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>为了在工作负载均衡器中更清楚地说明手动调整或分布，手动调整的小时分配现在显示一个铅笔图标。</p>
+                        工作负载均衡器中手动调整分配的<a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">指示器</a></p><p>[!BADGE In Production &#x200B;]{type=Informational}</p><p>为了在工作负载均衡器中更清楚地说明手动调整或分布，手动调整的小时分配现在显示一个铅笔图标。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -451,7 +451,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新评论体验已添加到迭代</a></p><p>[！BADGE In Production ]{type=Informational}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新评论体验已添加到迭代</a></p><p>[!BADGE In Production &#x200B;]{type=Informational}</p>
                         <p>为了在整个应用程序中为您提供一致的体验，我们为迭代添加了新的评论体验。 </p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -477,7 +477,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">已删除对旧评论区域的访问权限</a></p><p>[！BADGE In Production ]{type=Informational}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">已删除对旧评论区域的访问权限</a></p><p>[!BADGE In Production &#x200B;]{type=Informational}</p>
                         <p>我们已在项目、任务、问题和文档的更新区域移除了“新注释”切换开关。 新注释现在是这些对象的默认和唯一选项。 进行此更改后，您将无法再恢复为旧版评论体验。 此外，我们还删除了用户配置文件上的“更新状态显示完成百分比”设置。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -493,7 +493,7 @@ ht-degree: 0%
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新的主页小组件的快速操作中现在有新的评论流</a></p><p>[！BADGE In Production ]{type=Informational}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新的主页小组件的快速操作中现在有新的评论流</a></p><p>[!BADGE In Production &#x200B;]{type=Informational}</p>
                         <p>现在，我们在新主页的“我的工作”、“我的项目”、“我的任务”和“我的问题”小组件中的“添加新更新”快速操作按钮中添加了新评论功能。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -512,7 +512,7 @@ ht-degree: 0%
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新评论体验中可用的其他评论者信息</a></p><p>[！BADGE In Production ]{type=Informational}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新评论体验中可用的其他评论者信息</a></p><p>[!BADGE In Production &#x200B;]{type=Informational}</p>
                         <p>我们在新的评论体验中做出了以下改进：</p>
                         <ul>
                             <li>
@@ -539,7 +539,7 @@ ht-degree: 0%
                 </tr>  
                 <tr>
                     <td>
-                        新评论体验上的<a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">系统活动选项卡支持只读评论</a></p><p>[！BADGE In Production ]{type=Informational}</p>
+                        新评论体验上的<a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">系统活动选项卡支持只读评论</a></p><p>[!BADGE In Production &#x200B;]{type=Informational}</p>
                         <p>对旧版注释体验中的系统活动记录所做的注释现在以只读形式填充到新注释体验的“系统活动”选项卡中。 您无法回复新评论体验中的系统活动记录。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -558,7 +558,7 @@ ht-degree: 0%
                 </tr> 
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新的更新流选项卡，用于捕获评论和系统活动条目</a></p><p>[！BADGE In Production ]{type=Informational}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新的更新流选项卡，用于捕获评论和系统活动条目</a></p><p>[!BADGE In Production &#x200B;]{type=Informational}</p>
                         <p>为了让您按时间顺序查看注释和系统活动日志，我们将在所有对象的“更新”区域引入第三个选项卡。 “全部”选项卡在一个具有凝聚力的流中捕获用户评论和系统活动评论。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -577,7 +577,7 @@ ht-degree: 0%
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">摘要面板中现在有新的评论流</a></p><p>[！BADGE In Production ]{type=Informational}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">摘要面板中现在有新的评论流</a></p><p>[!BADGE In Production &#x200B;]{type=Informational}</p>
                         <p>我们现在为任务和问题列表的“摘要”面板添加了新的注释功能。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -615,7 +615,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">在2024年第二季度期间的外观更新</a></p><p>[！BADGE In Production ]{type=Informational}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">在2024年第二季度期间的外观更新</a></p><p>[!BADGE In Production &#x200B;]{type=Informational}</p>
                         <p>在2024年第二季度内，对Adobe Workfront应用程序各个区域的外观和工作方式进行了小幅更新。 查看各个发行说明以了解具体发行日期。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>

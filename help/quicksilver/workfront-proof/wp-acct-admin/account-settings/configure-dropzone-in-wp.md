@@ -34,7 +34,7 @@ ht-degree: 0%
      >
      >不再支持通过电子邮件发送到dropzones。
 
-   * **[!UICONTROL 拖放区域所有者]**：设置或编辑拖放区域所有者。 这是将在向Dropzone提交新内容时收到通知的人员。 要设置为拖放区域所有者，用户必须是主管、管理员、账单管理员或帐户创建者。 有关详细信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校对权限配置文件。
+   * **[!UICONTROL 拖放区域所有者]**：设置或编辑拖放区域所有者。 这是将在向Dropzone提交新内容时收到通知的人员。 要设置为拖放区域所有者，用户必须是主管、管理员、账单管理员或帐户创建者。 有关详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校对权限配置文件。
 
    * **[!UICONTROL 创建者的默认角色]**：所有提交者都将作为默认角色添加到验证。
    * **[!UICONTROL 所有创建者的电子邮件通知]**：在此处为验证创建者（提交者）设置电子邮件警报首选项。 有关可用的不同警报设置的信息，请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)中配置电子邮件通知设置。

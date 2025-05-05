@@ -173,11 +173,11 @@ ht-degree: 1%
 
 1. 在记录预览或页面的&#x200B;**详细信息**&#x200B;选项卡中，将鼠标悬停在字段左侧的空格上，然后单击&#x200B;**添加节**&#x200B;图标![添加节图标](assets/add-section-icon.png)以添加节。
 1. 单击该节的名称并用名称替换&#x200B;**无标题节**，然后单击Enter。 在部分下显示的字段自动成为新部分的一部分。
-1. 开始将字段拖放到新部分，如本文中记录预览或详细信息页面](#rearrange-fields-in-the-record-preview-or-details-page)中的[重新排列字段部分所述。
+1. 开始将字段拖放到新部分，如本文中记录预览或详细信息页面[&#128279;](#rearrange-fields-in-the-record-preview-or-details-page)中的重新排列字段部分所述。
 
 1. （可选）将鼠标悬停在节名称上，然后单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)。
 
-   记录页面](assets/more-menu-options-for-section-on-record-page.png)上节的![更多菜单选项
+   记录页面![&#128279;](assets/more-menu-options-for-section-on-record-page.png)上节的更多菜单选项
 1. （可选）执行以下操作之一以编辑部分：
 
    * 单击&#x200B;**重命名**&#x200B;以重命名该节
@@ -190,7 +190,7 @@ ht-degree: 1%
 
      或
 
-     单击&#x200B;**下移**以将节下移一个位置。
+     单击&#x200B;**下移**&#x200B;以将节下移一个位置。
 部分中的所有字段都会随部分一起移动。
 
    * 单击&#x200B;**删除**&#x200B;以删除该节。 该部分已被删除，无法恢复。 访问此类型记录的所有用户将不再查看已删除的分区。
@@ -204,7 +204,7 @@ ht-degree: 1%
 
    对部分和字段顺序的所有更改都将自动保存。
 
-1. （可选）单击记录详细信息页面](assets/export-icon-in-record-details-page.png)中的&#x200B;**导出**&#x200B;菜单![导出图标，以将“详细信息”选项卡导出到Word或PDF文件。 有关详细信息，请参阅[导出记录的详细信息](/help/quicksilver/planning/records/export-the-record-page.md)。
+1. （可选）单击记录详细信息页面![&#128279;](assets/export-icon-in-record-details-page.png)中的&#x200B;**导出**&#x200B;菜单导出图标，以将“详细信息”选项卡导出到Word或PDF文件。 有关详细信息，请参阅[导出记录的详细信息](/help/quicksilver/planning/records/export-the-record-page.md)。
 
 1. （可选）单击&#x200B;**详细信息**&#x200B;选项卡旁边的&#x200B;**连接**&#x200B;选项卡。 在单击“**连接**”选项卡之前，您可能必须单击“**更多**”。
 

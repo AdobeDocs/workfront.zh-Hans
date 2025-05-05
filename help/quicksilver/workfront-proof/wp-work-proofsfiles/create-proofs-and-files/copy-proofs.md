@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >本文提及独立产品[!DNL Workfront Proof]中的功能。 有关[!DNL Adobe Workfront]内部校对的信息，请参阅[校对](../../../review-and-approve-work/proofing/proofing.md)。
 
-对验证具有编辑权限的查看者可以创建验证的副本，作为现有验证的新版本或新验证。 (有关更多信息，请参阅。 有关编辑权限的信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[验证权限配置文件。)
+对验证具有编辑权限的查看者可以创建验证的副本，作为现有验证的新版本或新验证。 (有关更多信息，请参阅。 有关编辑权限的信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的验证权限配置文件。)
 
 原始校对中的审阅人会自动显示在[!UICONTROL 复制校对]页面的[!UICONTROL 共享]部分中，但可以将其删除。 如果删除了审核者，其注释将保留。
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 复制验证
 
-1. 转到&#x200B;**[!UICONTROL 视图]**&#x200B;页面中的任意页面，如 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的[管理视图页面上的项目中所述。
+1. 转到&#x200B;**[!UICONTROL 视图]**&#x200B;页面中的任意页面，如 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的管理视图页面上的项目中所述。
 
 1. 打开校样的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单。\
    ![更多菜单](assets/more-button-small.png)
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 * **文件夹详细信息页面**。 有关详细信息，请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md)中管理文件夹及其内容。
 
-* **任何列表视图页面**。 有关详细信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的“查看次数”页面上的[管理项目。
+* **任何列表视图页面**。 有关详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的“查看次数”页面上的管理项目。
 
 ## 为新验证复制现有验证设置
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 要为新验证复制现有验证设置，请执行以下操作：
 
-1. 转到&#x200B;**[!UICONTROL 视图]**&#x200B;页面中的任意页面，如 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的[管理视图页面上的项目中所述。
+1. 转到&#x200B;**[!UICONTROL 视图]**&#x200B;页面中的任意页面，如 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的管理视图页面上的项目中所述。
 
 1. 打开校样的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单。\
    ![更多菜单](assets/more-button-small.png)

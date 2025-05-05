@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->所有收件人必须在[!DNL Workfront]中拥有查看校样的访问权限。 有关许可证和访问级别的信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[验证权限配置文件。
+>所有收件人必须在[!DNL Workfront]中拥有查看校样的访问权限。 有关许可证和访问级别的信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的验证权限配置文件。
 
 ## 共享证明
 

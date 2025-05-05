@@ -23,7 +23,7 @@ ht-degree: 0%
 
 此插件现在可以在InDesign中安装。 它允许您访问工作项详细信息，与更新区域中的同事协作，以及提交校样以供全部查看，而无需离开XD。 立即转到Adobe Creative Cloud Marketplace以下载插件。
 
-有关该插件的详细信息，请参阅 [!DNL Creative Cloud] 应用程序](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)的[[!DNL Adobe Workfront] 插件。
+有关该插件的详细信息，请参阅 [!DNL Creative Cloud] 应用程序[&#128279;](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)的[!DNL Adobe Workfront] 插件。
 
 [立即下载Adobe Workfront以便在商城中进行InDesign](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign)。
 

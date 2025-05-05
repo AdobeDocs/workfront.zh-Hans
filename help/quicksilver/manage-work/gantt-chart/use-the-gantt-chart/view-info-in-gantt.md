@@ -30,17 +30,17 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证概述*</td> 
-   <td> <p>[！UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Review]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>[！UICONTROL视图]或更高权限访问项目和任务</p> <p><b>注释</b>
+   <td> <p>[!UICONTROL 视图]或更高权限访问项目和任务</p> <p><b>注释</b>
 
 如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何修改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>[！UICONTROL视图]或更高版本的项目访问权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>[!UICONTROL 视图]或更高版本的项目访问权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 在项目列表[!UICONTROL 甘特图]中，不在[!UICONTROL 关键路径]上的任务显示为浅蓝色水平线。 位于项目[!UICONTROL 关键路径]上的任务显示为红色水平线。
 
-有关[!UICONTROL 关键路径]上任务的更多信息，请参阅项目[!UICONTROL 关键路径]](../../../manage-work/tasks/manage-tasks/critical-path.md)的[概述。
+有关[!UICONTROL 关键路径]上任务的更多信息，请参阅项目[!UICONTROL 关键路径][&#128279;](../../../manage-work/tasks/manage-tasks/critical-path.md)的概述。
 
 ## 查看项目列表[!UICONTROL 甘特图]中的任务信息
 
@@ -156,7 +156,7 @@ ht-degree: 0%
    应用到列表的分组将反映在[!UICONTROL 甘特图]中。\
    有关应用分组的信息，请参阅Adobe Workfront中的[分组概述](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)。
 
-视图未反映在[!UICONTROL 甘特图]上。 但是，在导出[!UICONTROL 甘特图](如[将[!UICONTROL 甘特图]导出到PDF](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)中所述)时，除[!UICONTROL 甘特图]外，还将导出任务列表，并将当前视图应用于该列表。
+视图未反映在[!UICONTROL 甘特图]上。 但是，在导出[!UICONTROL 甘特图] (如[将[!UICONTROL 甘特图]导出到PDF](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)中所述)时，除[!UICONTROL 甘特图]外，还将导出任务列表，并将当前视图应用于该列表。
 
 ## 配置显示选项
 

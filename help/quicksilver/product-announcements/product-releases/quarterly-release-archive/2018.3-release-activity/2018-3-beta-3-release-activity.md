@@ -26,11 +26,11 @@ ht-degree: 0%
 
 2018.3 Beta 3版本包含面向Workfront管理员和其他用户的增强功能：
 
-管理员的&#x200B;****
+管理员的&#x200B;**&#x200B;**
 
 * [以组管理员身份更新用户配置文件中的角色](#update-roles-in-the-user-profile-as-a-group-administrator)
 
-所有用户&#x200B;****
+所有用户&#x200B;**&#x200B;**
 
 * [主页区域现在为默认值](#home-area-is-now-the-default)
 * [优先处理您在家的工作](#prioritize-your-work-in-home)

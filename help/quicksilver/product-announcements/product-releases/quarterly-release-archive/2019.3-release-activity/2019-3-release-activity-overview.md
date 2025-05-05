@@ -152,7 +152,7 @@ ht-degree: 1%
 
   为了让您和您的公司更安全Workfront移动应用程序，用户将在处于不活动状态8分钟后自动注销。
 
-* [在移动应用程序中按无效项目筛选](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#filter)[在移动应用程序中按无效项目筛选](https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880)
+* [在移动应用程序中按无效项目筛选](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#filter) [在移动应用程序中按无效项目筛选](https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880)
 
   我们在移动应用程序的“项目”选项卡上添加了“停止的项目”作为过滤器选项。
 

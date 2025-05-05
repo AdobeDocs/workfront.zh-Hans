@@ -65,7 +65,7 @@ ht-degree: 0%
    ![Proof_loading_page_setup.png](assets/proof-loading-page-setup-350x159.png)
 
 1. 从下拉菜单中选择&#x200B;**[!UICONTROL 品牌推广图像]**。
-如果选择**[!UICONTROL 禁用]**，则验证加载页面上会显示[!DNL Workfront Proof]徽标
+如果选择&#x200B;**[!UICONTROL 禁用]**，则验证加载页面上会显示[!DNL Workfront Proof]徽标
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。 (3)
 

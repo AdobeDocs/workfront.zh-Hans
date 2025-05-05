@@ -78,9 +78,7 @@ ht-degree: 0%
      >     例如，如果您有一个与状态为“进行中”的任务审批关联，则当审批被授予时，任务会自动将其状态更改为“进行中”。 它不能自动将其状态更改为“已完成”或任何其他与批准无关联的状态。
      >   
      >   
-     >
-
-   * 与审批流程关联的实体可以是用户、工作角色或团队。 用户最终负责接受或拒绝批准。 您可以将审批分配给在项目上履行特定职责的用户。 例如，您可以将审批分配给项目所有者或发起人。 有关详细信息，请参阅[为工作项创建批准流程](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)。
+     >* 与审批流程关联的实体可以是用户、工作角色或团队。 用户最终负责接受或拒绝批准。 您可以将审批分配给在项目上履行特定职责的用户。 例如，您可以将审批分配给项目所有者或发起人。 有关详细信息，请参阅[为工作项创建批准流程](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)。
 
      存在以下情况：
 

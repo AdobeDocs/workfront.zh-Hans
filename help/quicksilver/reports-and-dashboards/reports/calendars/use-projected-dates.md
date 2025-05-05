@@ -45,11 +45,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[！UICONTROL编辑]对[！UICONTROL报表]、[！UICONTROL功能板]和[！UICONTROL日历的访问权限</p></td> 
+   <td> <p>[!UICONTROL 编辑]对[!UICONTROL 报表]、[!UICONTROL 功能板]和&lbrack;！UICONTROL日历的访问权限</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td>[！UICONTROL Manage]对日历报表的访问权限</td> 
+   <td>[!UICONTROL Manage]对日历报表的访问权限</td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,7 +66,7 @@ ht-degree: 1%
 
 1. 选择要添加新项目组的日历，单击“更多”菜单，然后单击&#x200B;**编辑**。
 或
-单击**[!UICONTROL +新日历]**，输入项目名称，然后单击&#x200B;**[!UICONTROL 添加高级项目]**。
+单击&#x200B;**[!UICONTROL +新日历]**，输入项目名称，然后单击&#x200B;**[!UICONTROL 添加高级项目]**。
 
    >[!NOTE]
    >
@@ -81,33 +81,33 @@ ht-degree: 1%
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL命名这组项目]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 命名这组项目]</strong></td>
       <td>键入项目组的名称。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL颜色]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 颜色]</strong></td>
       <td>选择项目组的颜色。 所有项目均以选定的颜色显示在日历报表中。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL日期字段]</strong></td>
-      <td><p>选择<strong>[！UICONTROL预计日期]</strong>。 有关预计日期的详细信息，请参阅 </p>
+      <td role="rowheader"><strong>[!UICONTROL 日期字段]</strong></td>
+      <td><p>选择<strong>[!UICONTROL 预计日期]</strong>。 有关预计日期的详细信息，请参阅 </p>
        <ul>
         <li><a href="../../../manage-work/projects/planning-a-project/project-projected-start-date.md" class="MCXref xref">项目预计开始日期概览</a></li>
         <li><a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">项目、任务和问题的预计完成日期概述</a><br></li>
        </ul></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL在日历上，显示]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 在日历上，显示]</strong></td>
       <td><p>选择日期的显示方式：</p>
        <ul>
-        <li><strong>[！UICONTROL仅开始日期]</strong>：日历在单个日期显示对象。</li>
-        <li><strong>[！UICONTROL仅结束日期]</strong>：日历在单个日期显示对象。</li>
-        <li><strong>[！UICONTROL Duration] （开始到结束）</strong>：日历显示跨天对象。</li>
+        <li><strong>[!UICONTROL 仅开始日期]</strong>：日历在单个日期显示对象。</li>
+        <li><strong>[!UICONTROL 仅结束日期]</strong>：日历在单个日期显示对象。</li>
+        <li><strong>[!UICONTROL Duration] （开始到结束）</strong>：日历显示跨天对象。</li>
        </ul></td>
      </tr>
      <tr data-mc-conditions="">
-      <td role="rowheader"><strong>[！UICONTROL在可用时切换到实际日期]</strong></td>
-      <td><p>当日期可用时，日历会自动切换到实际日期。 <br>选择<strong>[！UICONTROL是]</strong>或<strong>[！UICONTROL否]</strong>以切换到实际日期（可用时）。 有关实际日期的详细信息，请参阅</p>
+      <td role="rowheader"><strong>[!UICONTROL 在可用时切换到实际日期]</strong></td>
+      <td><p>当日期可用时，日历会自动切换到实际日期。 <br>选择<strong>[!UICONTROL 是]</strong>或<strong>[!UICONTROL 否]</strong>以切换到实际日期（可用时）。 有关实际日期的详细信息，请参阅</p>
        <ul>
         <li><a href="../../../manage-work/projects/planning-a-project/project-actual-start-date.md" class="MCXref xref">项目实际开始日期概览 </a></li>
         <li><a href="../../../manage-work/projects/planning-a-project/project-actual-completion-date.md" class="MCXref xref">项目实际完成日期概览 </a></li>

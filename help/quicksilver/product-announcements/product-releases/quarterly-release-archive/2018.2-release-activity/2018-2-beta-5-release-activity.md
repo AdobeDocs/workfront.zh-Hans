@@ -26,15 +26,15 @@ ht-degree: 1%
 
 2018.2 Beta 5版本包含适用于Workfront管理员和其他用户的增强功能：
 
-管理员的&#x200B;****
+管理员的&#x200B;**&#x200B;**
 
 * [使用审核日志查看用户触发的更改](#view-user-triggered-changes-with-audit-logs)
 * [以组管理员身份查看许可证信息](#view-license-information-as-a-group-administrator)
 
-所有用户&#x200B;****
+所有用户&#x200B;**&#x200B;**
 
 * 主页区域中的[日历视图](#calendar-view-in-the-home-area)
-* 主页](#additional-updates-to-the-work-list-left-panel-in-home)中的工作列表（左侧面板）的[其他更新
+* 主页[&#128279;](#additional-updates-to-the-work-list-left-panel-in-home)中的工作列表（左侧面板）的其他更新
 * [为自动资源计划配置工作角色限制](#configure-job-role-limits-for-automated-resource-scheduling)
 * 资源规划者中的[项目和角色视图改进](#project-and-role-view-improvements-in-the-resource-planner)
 * [调整项目列表的列宽](#resize-column-widths-for-project-lists)
@@ -220,7 +220,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->在以下视频中，问题集合的示例文本模式不正确。 报表](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)中的[引用收藏集中提供了正确的示例文本模式。
+>在以下视频中，问题集合的示例文本模式不正确。 报表[&#128279;](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)中的引用收藏集中提供了正确的示例文本模式。
 
 ## 在Workfront中添加新文档版本时，新增更强大的版本菜单 {#new-more-robust-version-menu-when-adding-new-document-versions-in-workfront}
 

@@ -125,7 +125,7 @@ ht-degree: 0%
 
 * **完成百分比：**&#x200B;显示每个任务和项目的完成百分比。\
   您可以禁用显示完成百分比，如本文中[配置里程碑视图](#configure-what-information-displays-in-the-milestone-view)中显示的信息部分所述。\
-  您可以直接从“里程碑”视图中调整完成百分比，如本文中“里程碑”视图](#adjust-percent-complete-for-tasks-in-the-milestone-view)中任务的[调整完成百分比部分所述。
+  您可以直接从“里程碑”视图中调整完成百分比，如本文中“里程碑”视图[&#128279;](#adjust-percent-complete-for-tasks-in-the-milestone-view)中任务的调整完成百分比部分所述。
 
 * **任务状态图标：**&#x200B;里程碑视图中的每个项目和任务旁边会显示一个状态图标。
 

@@ -125,7 +125,7 @@ ht-degree: 0%
 
    您可能需要单击&#x200B;**显示更多**，然后单击&#x200B;**审批**。
 
-   任务](assets/approvals-section-on-task-highlighted-nwe-350x246.png)上的![审批分区
+   任务![&#128279;](assets/approvals-section-on-task-highlighted-nwe-350x246.png)上的审批分区
 
 1. ![使用现有审批或创建单次使用审批](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
 
@@ -195,7 +195,7 @@ ht-degree: 0%
 
    您可能需要单击&#x200B;**显示更多** > **审批**。
 
-   任务](assets/approvals-section-on-task-highlighted-nwe-350x246.png)上的![审批分区
+   任务![&#128279;](assets/approvals-section-on-task-highlighted-nwe-350x246.png)上的审批分区
 
 1. 单击&#x200B;**创建一次性**。
 
@@ -234,7 +234,7 @@ ht-degree: 0%
 
    您可能需要单击&#x200B;**显示更多** > **审批**。
 
-   任务](assets/approvals-section-on-task-highlighted-nwe-350x246.png)上的![审批分区
+   任务![&#128279;](assets/approvals-section-on-task-highlighted-nwe-350x246.png)上的审批分区
 
 1. 根据与项目关联的批准类型，单击“批准”部分右上角的以下图标之一：
 

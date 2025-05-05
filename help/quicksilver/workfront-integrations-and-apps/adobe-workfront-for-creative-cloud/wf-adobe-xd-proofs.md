@@ -29,11 +29,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
-   <td> <p>当前计划： [！UICONTROL Pro]或更高版本</p> <p>或</p> <p>旧版计划： [！UICONTROL Premium]</p> <p>有关验证不同规划的访问权限的更多信息，请参阅。</p> </td> 
+   <td> <p>当前计划： [!UICONTROL Pro]或更高版本</p> <p>或</p> <p>旧版计划： [!UICONTROL Premium]</p> <p>有关验证不同规划的访问权限的更多信息，请参阅。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>当前计划： [！UICONTROL Work]或[！UICONTROL Proof]</p> <p>旧版计划：任意（您必须为用户启用验证）</p> </td> 
+   <td> <p>当前计划： [!UICONTROL Work]或[!UICONTROL Proof]</p> <p>旧版计划：任意（您必须为用户启用验证）</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
@@ -41,11 +41,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">校样权限配置文件 </td> 
-   <td>[！UICONTROL Manager]或更高版本</td> 
+   <td>[!UICONTROL Manager]或更高版本</td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>编辑对[！UICONTROL文档]的访问权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>编辑对[!UICONTROL 文档]的访问权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -88,17 +88,17 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL Basic]： </td> 
+      <td role="rowheader">[!UICONTROL Basic]： </td> 
       <td> <p>基本审批流程是临时性的，可以根据需要包括不同的审阅人： </p> 
        <ul> 
         <li> <p>（可选）将<strong>审批者</strong>添加到框中。</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL Automated]</td> 
+      <td role="rowheader">[!UICONTROL Automated]</td> 
       <td> <p>自动批准流程由管理员预先构建，并包括特定的审阅人和阶段。 有关详细信息，请参阅<a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">自动化工作流概述</a>。</p> 
        <ul> 
-        <li> <p>从下拉菜单中选择一个[！UICONTROL工作流模板]。</p> </li> 
+        <li> <p>从下拉菜单中选择一个[!UICONTROL 工作流模板]。</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -164,17 +164,17 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL Basic]： </td> 
+      <td role="rowheader">[!UICONTROL Basic]： </td> 
       <td> <p>基本审批流程是临时性的，可以根据需要包括不同的审阅人： </p> 
        <ul> 
         <li> <p>（可选）将<strong>审批者</strong>添加到框中。</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL Automated]</td> 
+      <td role="rowheader">[!UICONTROL Automated]</td> 
       <td> <p>自动批准流程由管理员预先构建，并包括特定的审阅人和阶段。 有关详细信息，请参阅<a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">自动化工作流概述</a>。</p> 
        <ul> 
-        <li> <p>从下拉菜单中选择一个[！UICONTROL工作流模板]。</p> </li> 
+        <li> <p>从下拉菜单中选择一个[!UICONTROL 工作流模板]。</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -223,17 +223,17 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL Basic]： </td> 
+      <td role="rowheader">[!UICONTROL Basic]： </td> 
       <td> <p>基本审批流程是临时性的，可以根据需要包括不同的审阅人： </p> 
        <ul> 
         <li> <p>（可选）将<strong>审批者</strong>添加到框中。</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL Automated]</td> 
+      <td role="rowheader">[!UICONTROL Automated]</td> 
       <td> <p>自动批准流程由管理员预先构建，并包括特定的审阅人和阶段。 有关详细信息，请参阅<a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">自动化工作流概述</a>。</p> 
        <ul> 
-        <li> <p>从下拉菜单中选择一个[！UICONTROL工作流模板]。</p> </li> 
+        <li> <p>从下拉菜单中选择一个[!UICONTROL 工作流模板]。</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 

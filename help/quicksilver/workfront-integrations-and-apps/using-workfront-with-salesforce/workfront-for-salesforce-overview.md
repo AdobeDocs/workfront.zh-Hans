@@ -35,11 +35,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
-   <td> <p>[！UICONTROL Pro]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[！UICONTROL计划]</p> </td> 
+   <td> <p>[!UICONTROL 计划]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 * 在Opportunity或Account中从[!DNL Salesforce]手动创建新[!DNL Workfront]请求。
 
-  有关从[!DNL Salesforce]创建[!DNL Workfront]请求的更多信息，请参阅从 [!DNL Salesforce] 对象提交 [!DNL Adobe Workfront] 请求](../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)。[
+  有关从[!DNL Salesforce]创建[!DNL Workfront]请求的更多信息，请参阅从 [!DNL Salesforce] 对象提交 [!DNL Adobe Workfront] 请求[&#128279;](../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)。
 
 * 当[!DNL Salesforce]中满足某些条件时，在[!DNL Workfront]中自动触发项目创建。 您的[!DNL Salesforce]系统管理员必须配置触发器以从[!DNL Salesforce]创建项目。
 

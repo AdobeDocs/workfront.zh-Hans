@@ -26,11 +26,11 @@ ht-degree: 0%
 
 2017.3 Beta 2版本包含面向Workfront管理员和其他用户的增强功能：
 
-管理员的&#x200B;****
+管理员的&#x200B;**&#x200B;**
 
 * [通过Stage Activation (Workfront Proof)限制对工作流的访问](#restrict-access-to-workflows-by-stage-activation-workfront-proof)
 
-所有用户&#x200B;****
+所有用户&#x200B;**&#x200B;**
 
 * 用于更改视图的[资源规划者选项](#resource-planner-option-to-change-the-view)
 * [在项目的使用情况报告中筛选内容](#filter-content-within-a-utilization-report-on-a-project)

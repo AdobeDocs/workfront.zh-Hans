@@ -31,7 +31,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[！UICONTROL工作]，[！UICONTROL计划]</p> </td> 
+   <td> <p>[!UICONTROL 工作]，[!UICONTROL 计划]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,7 +63,7 @@ ht-degree: 0%
 1. 单击&#x200B;**[!UICONTROL 添加]**。\
    任务已添加到主页区域中的[!UICONTROL 工作列表]，但没有提交日期。
 
-1. （可选）单击“在Workfront中查看”****&#x200B;以在新选项卡中显示[!DNL Workfront]应用程序中的任务。
+1. （可选）单击“在Workfront中查看”**&#x200B;**&#x200B;以在新选项卡中显示[!DNL Workfront]应用程序中的任务。
 
 1. （可选）导航回[!DNL Outlook]，然后选择原始电子邮件。\
    在[!DNL Workfront]加载项面板顶部，注意包含链接的确认，表明电子邮件已作为任务添加到Workfront。 该链接包含转换日期。\

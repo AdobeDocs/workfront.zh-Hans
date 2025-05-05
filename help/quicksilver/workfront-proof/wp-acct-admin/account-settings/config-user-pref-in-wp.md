@@ -22,7 +22,7 @@ ht-degree: 0%
 
 作为[!DNL Workfront]管理员或[!DNL Workfront Proof]管理员，您可以通过为用户分配用户配置文件来授予用户权限。 执行此操作时，用户可以使用这些权限来验证系统中的所有校样。
 
-有关校对权限配置文件的信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校对权限配置文件。
+有关校对权限配置文件的信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校对权限配置文件。
 
 >[!NOTE]
 >

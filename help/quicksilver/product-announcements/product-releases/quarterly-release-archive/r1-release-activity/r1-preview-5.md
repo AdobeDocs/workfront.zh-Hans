@@ -36,7 +36,7 @@ ht-degree: 13%
 
 现在，当您将全局批准流程与对象关联时，可以修改现有的全局批准流程。 您所做的修改仅适用于关联该对象的审批流程。
 
-有关详细信息，请参阅[将新的或现有的审批流程与工作相关联[{将新的或现有的审批流程与工作相关联](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)
+有关详细信息，请参阅[&#128279;](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)将新的或现有的审批流程与工作相关联[&lbrace;将新的或现有的审批流程与工作相关联](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)
 
 ## 配置报告以默认显示新的甘特图
 

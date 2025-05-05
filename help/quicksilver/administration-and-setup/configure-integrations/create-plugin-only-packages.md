@@ -15,11 +15,11 @@ ht-degree: 4%
 
 ---
 
-# 在[!DNL Adobe Admin Console]中为您的用户创建[!DNL Creative Cloud]]程序包的[!UICONTROL [!DNL Adobe Workfront]
+# 在[!DNL Adobe Admin Console]中为您的用户创建[!DNL Creative Cloud]程序包的[!DNL Adobe Workfront]
 
-[!DNL Adobe Admin Console]管理员可以创建仅用于插件的轻量级包。 通过分发这些预配置的包，管理员可以确保用户拥有这些插件，而无需依赖用户自行查找插件。 我们建议使用这些轻量级插件将[!DNL Creative Cloud]]插件的[!UICONTROL [!DNL Adobe Workfront]分发给贵组织中的用户。
+[!DNL Adobe Admin Console]管理员可以创建仅用于插件的轻量级包。 通过分发这些预配置的包，管理员可以确保用户拥有这些插件，而无需依赖用户自行查找插件。 我们建议使用这些轻量级插件将[!DNL Creative Cloud]插件的[!DNL Adobe Workfront]分发给贵组织中的用户。
 
-[!DNL Creative Cloud]]插件的以下[!UICONTROL [!DNL Adobe Workfront]可用：
+[!DNL Creative Cloud]插件的以下[!DNL Adobe Workfront]可用：
 
 * Photoshop的[!DNL Adobe Workfront]
 * 用于XD的[!DNL Adobe Workfront]
@@ -30,7 +30,7 @@ ht-degree: 4%
    * Premiere Pro
    * After Effects
 
-您的用户可以将[!DNL Creative Cloud]]插件的[!UICONTROL [!DNL Adobe Workfront]用于
+您的用户可以将[!DNL Creative Cloud]插件的[!DNL Adobe Workfront]用于
 
 * 记录时间
 * 启动审阅和批准流程
@@ -38,9 +38,9 @@ ht-degree: 4%
 * 查看项目和任务
 * 等等
 
-有关[!DNL Creative Cloud]]插件的[!UICONTROL [!DNL Adobe Workfront]的详细信息，请参阅 [!DNL Creative Cloud] 应用程序](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)的[[!DNL Adobe Workfront] 插件。
+有关[!DNL Creative Cloud]&rbrack;插件的[[!UICONTROL [!DNL Adobe Workfront]的详细信息，请参阅 [!DNL Creative Cloud] 应用程序]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)的&lbrack;[!DNL Adobe Workfront] 插件。
 
-## 为[!DNL Creative Cloud]]插件的[!UICONTROL [!DNL Adobe Workfront]创建包
+## 为[!DNL Creative Cloud]插件的[!DNL Adobe Workfront]创建包
 
 通过[!DNL Adobe Admin Console]创建包。
 

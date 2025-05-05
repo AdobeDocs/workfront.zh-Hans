@@ -79,7 +79,7 @@ ht-degree: 4%
 
 ## 按许可证类型访问资源管理
 
-有关每个访问级别中的用户可以执行哪些资源管理操作的信息，请参阅适用于每个对象类型](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)的[功能一文中的[资源管理](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#resource)部分。
+有关每个访问级别中的用户可以执行哪些资源管理操作的信息，请参阅适用于每个对象类型[&#128279;](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)的功能一文中的[资源管理](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#resource)部分。
 
 ## 访问共享的问题
 

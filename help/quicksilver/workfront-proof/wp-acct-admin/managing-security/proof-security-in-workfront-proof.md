@@ -55,4 +55,4 @@ ht-degree: 0%
 
 保存在个人设置中的设置将应用于您创建的所有验证，但在创建新验证或修改验证时，这些设置可能会被覆盖，如[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)中管理验证详细信息。
 
-您可以通过修改个人校样设置来禁用文件下载，如[在[!DNL  Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)中配置校样设置中所述。
+您可以通过修改个人校样设置来禁用文件下载，如[在[!DNL &#x200B; Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)中配置校样设置中所述。

@@ -30,7 +30,7 @@ ht-degree: 5%
 * [禁用文档集成](../../administration-and-setup/configure-integrations/disable-document-integrations.md)
 * [配置 [!DNL SharePoint] 集成](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
 * [设置元数据映射](../../administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
-* [在 [!DNL Adobe Admin Console]中为您的用户创建 [!DNL Creative Cloud]] 程序包的[！UICONTROL [!DNL Adobe Workfront] ](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
+* [在 [!DNL Adobe Admin Console]中为您的用户创建 [!DNL Creative Cloud]] 程序包的[[!UICONTROL [!DNL Adobe Workfront] &#x200B;]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../administration-and-setup/configure-integrations/create-oauth-application.md" class="MCXref xref" xrefformat="{para}">Create OAuth2 applications for Workfront integrations</a> </li>

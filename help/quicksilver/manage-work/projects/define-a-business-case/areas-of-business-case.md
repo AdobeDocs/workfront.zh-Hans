@@ -122,11 +122,11 @@ Workfront管理员可以设置自定义费用类型。
 
    * 资源规划者
 
-     有关信息，请参阅使用资源规划程序](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md)的业务案例中的[预算资源。
+     有关信息，请参阅使用资源规划程序[&#128279;](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md)的业务案例中的预算资源。
 
    * 场景规划器
 
-     有关详细信息，请参阅使用场景规划器](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的业务案例中的[预算资源。
+     有关详细信息，请参阅使用场景规划器[&#128279;](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的业务案例中的预算资源。
 
      Scenario Planner仅在新的Adobe Workfront Experience中可用，并且需要额外的许可证。 有关Workfront Scenario Planner的信息，请参阅[Scenario Planner概述](../../../scenario-planner/scenario-planner-overview.md)。
 

@@ -50,7 +50,7 @@ ht-degree: 0%
 
 有关创建新请求的信息，请参阅[创建和提交Adobe Workfront请求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)。
 
-此功能现已包含在Workfront One上的新Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)学习路径的[Collaborator基础知识中。
+此功能现已包含在Workfront One上的新Workfront Experience[&#128279;](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)学习路径的Collaborator基础知识中。
 
 ## 改进了请求工作流
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 * 现在，当您导航离开页面时，会保留按任一列对已提交的请求列表进行排序。 有关详细信息，请参阅[查找已提交的请求](../../../manage-work/requests/create-requests/locate-submitted-requests.md)。
 * 现在，创建新请求时，提交和取消按钮位于新请求表单的底部。 有关详细信息，请参阅[创建并提交Workfront请求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)。
 
-此功能现已包含在Workfront One上的新Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)学习路径的[Collaborator基础知识中。
+此功能现已包含在Workfront One上的新Workfront Experience[&#128279;](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)学习路径的Collaborator基础知识中。
 
 ## 在请求区域的已提交部分中打开摘要面板
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 有关提交的请求的信息，请参阅[查找提交的请求](../../../manage-work/requests/create-requests/locate-submitted-requests.md)。
 
-此功能现已包含在Workfront One上的新Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)学习路径的[Collaborator基础知识中。
+此功能现已包含在Workfront One上的新Workfront Experience[&#128279;](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)学习路径的Collaborator基础知识中。
 
 ## 重新显示新请求表单中已移除的新问题字段
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 有关提交请求的信息，请参阅[创建并提交Workfront请求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)。
 
-此功能现已包含在Workfront One上的新Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)学习路径的[Collaborator基础知识中。
+此功能现已包含在Workfront One上的新Workfront Experience[&#128279;](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)学习路径的Collaborator基础知识中。
 
 ## 提交请求时共享指向请求队列的链接
 
@@ -118,4 +118,4 @@ ht-degree: 0%
 
 有关提交请求时共享请求队列链接的信息，请参阅[共享请求队列链接](../../../manage-work/requests/create-requests/share-link-to-request-queue.md)。
 
-此功能现已包含在Workfront One上的新Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)学习路径的[Collaborator基础知识中。
+此功能现已包含在Workfront One上的新Workfront Experience[&#128279;](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)学习路径的Collaborator基础知识中。
