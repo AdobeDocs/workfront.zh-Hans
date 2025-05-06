@@ -87,7 +87,7 @@ ht-degree: 0%
 
 1. 输入&#x200B;**延迟**&#x200B;金额。
 
-   有关信息，请参阅{&#x200B;0}滞后类型概述](../../../manage-work/tasks/use-prdcssrs/lag-types.md)。[
+   有关信息，请参阅{&#x200B;0}滞后类型概述[&#128279;](../../../manage-work/tasks/use-prdcssrs/lag-types.md)。
 
    ![添加前置任务对话框](assets/add-predecessor-dialog-box.png)
 
