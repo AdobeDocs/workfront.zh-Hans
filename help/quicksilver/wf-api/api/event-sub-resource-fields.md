@@ -183,7 +183,7 @@ ht-degree: 9%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>workPerDate <p>[！BADGE已删除]{type=negative tooltip="此字段已于2023年10月26日删除。"}</span></td> 
+   <td>workPerDate <p>[!BADGE 已删除]{type=negative tooltip="此字段已于2023年10月26日删除。"}</span></td> 
   </tr> 
   <tr> 
    <td> </td> 
