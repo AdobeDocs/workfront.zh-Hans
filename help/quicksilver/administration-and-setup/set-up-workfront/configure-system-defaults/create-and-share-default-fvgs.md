@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 32eb825c-ba50-4820-a659-adc924a6ae52
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
 workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 1%
@@ -41,15 +41,15 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>新文档： [!UICONTROL Standard]</p>
+   <td><p>新文档： [！UICONTROL Standard]</p>
    或
-   <p>当前： [!UICONTROL 计划]</p>
+   <p>当前： [！UICONTROL计划]</p>
    </td> 
   </tr>
   <tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td>
+   <td>[！UICONTROL系统管理员]</td>
   </tr> 
  </tbody> 
 </table>
@@ -66,7 +66,7 @@ ht-degree: 1%
 
    * 单击&#x200B;**[!UICONTROL 接口]** > **[!UICONTROL 筛选器]**。
 
-   * 单击&#x200B;**[!UICONTROL 接口] >** **[!UICONTROL 视图]**。
+   * 单击&#x200B;**[!UICONTROL 界面]** > **[!UICONTROL 视图]**。
 
    * 单击&#x200B;**[!UICONTROL 接口]** > **[!UICONTROL 分组]**。
 
@@ -81,7 +81,7 @@ ht-degree: 1%
    有关可用选项的信息，请参阅以下文章之一：
 
    * [筛选器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-   * 在[!UICONTROL Adobe Workfront][&#128279;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)中查看概述
+   * 在[!UICONTROL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)中[查看概述
    * [[!UICONTROL Adobe Workfront]中的分组概述](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
 1. 单击左下角附近的&#x200B;**[!UICONTROL 保存]**。

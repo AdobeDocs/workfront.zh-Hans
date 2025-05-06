@@ -2,20 +2,22 @@
 product-area: projects
 navigation-topic: use-predecessors
 title: 使用前置任务区域创建前置任务关系
-description: 您可以使用前置任务（或只是前置任务）来链接依赖其他任务启动或完成的任务。 例如，在发出邀请（前置任务）之前，您不希望主持某方（依赖任务）。
+description: 您可以使用前置任务（或只是前置任务）来链接依赖其他任务启动或完成的任务。
 author: Alina
 feature: Work Management
 exl-id: 68774286-da24-409a-bbd8-eb18dfe75063
-source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
+source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
 
 # 使用前置任务区域创建前置任务关系
 
-您可以使用前置任务（或只是前置任务）来链接依赖其他任务启动或完成的任务。 例如，在发出邀请（前置任务）之前，您不希望主持某方（依赖任务）。
+<!-- Audited: 5/2025 -->
+
+您可以使用前置任务（或只是前置任务）来链接依赖其他任务启动或完成的任务。 例如，在发送邀请（前置任务）之前，您不希望主持某方（依赖任务）。
 
 本文介绍如何使用任务中的“前置任务”选项卡设置前置任务。
 
@@ -31,6 +33,8 @@ ht-degree: 0%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -38,15 +42,18 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> 
+   <p>新增：标准 </p>
+   <p>或 </p>
+   <p>当前：计划 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
+   <td role="rowheader">访问级别配置</td> 
    <td> <p>编辑对任务和项目的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -56,33 +63,36 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 为任务创建前置任务
 
-1. 转到要指定为依赖任务的任务，然后单击左侧面板中的&#x200B;**前置任务**。
+1. 导航到要指定为从属任务的任务。
 
-   您可能需要单击&#x200B;**显示更多**，然后单击&#x200B;**前置任务**。
+1. 在左侧面板中，单击&#x200B;**前置任务**。
 
-1. 单击&#x200B;**+添加前置任务**。
-1. （可选）要添加跨项目前置任务，请将&#x200B;**父项目**&#x200B;字段中的项目名称替换为另一个项目，然后键入要用作前置任务的任务名称。
+1. 在&#x200B;**前置任务**&#x200B;部分中，单击&#x200B;**+添加前置任务**。 将打开&#x200B;**添加前置任务**&#x200B;对话框。
 
-   有关添加跨项目前置任务的信息，请参阅[创建跨项目前置任务](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md)。
+1. （可选）要添加跨项目前置任务，请将&#x200B;**父项目**&#x200B;字段中的项目名称替换为其他项目。
 
-1. 键入要指定为前置任务的一个或多个任务的名称。
+   有关信息，请参阅[创建跨项目前置任务](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md)。
 
-   ![](assets/add-predecessor-box-nwe-350x465.png)
+1. 在&#x200B;**任务**&#x200B;字段中，键入要指定为前置任务的一个或多个任务的名称，然后在它们出现在下拉列表时将其选定。
 
 1. 选择&#x200B;**依赖关系类型**。
 
-   有关任务依赖关系类型的信息，请参阅[任务依赖关系类型概述](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)。
+   有关信息，请参阅[任务依赖关系类型概述](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)。
 
-1. 指定&#x200B;**延迟**&#x200B;天数。
+1. 输入&#x200B;**延迟**&#x200B;金额。
 
-   有关Lag类型的信息，请参阅&#x200B;[Lag类型概述](../../../manage-work/tasks/use-prdcssrs/lag-types.md)。
+   有关信息，请参阅{&#x200B;0}滞后类型概述](../../../manage-work/tasks/use-prdcssrs/lag-types.md)。[
 
-1. 如果要强制两个任务之间的前置任务关系，请选择&#x200B;**强制**。
+   ![添加前置任务对话框](assets/add-predecessor-dialog-box.png)
 
-   有关强制前置任务的信息，请参阅[强制前置任务](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md)。
+1. 如果要强制两个任务之间的前置任务关系，请选中&#x200B;**强制**&#x200B;复选框。
+
+   有关信息，请参阅[强制执行前置任务](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md)。
 
 1. 单击&#x200B;**保存**。
