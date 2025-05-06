@@ -31,7 +31,7 @@ ht-degree: 0%
 
 有关复制项目的信息，请参阅[复制项目](../../../manage-work/projects/manage-projects/copy-project.md)。
 
-此功能现已包含在新Workfront Experience第1部分：用户组织](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)学习路径的[管理员基础知识中Workfront One。
+此功能现已包含在新Workfront Experience第1部分：用户组织[&#128279;](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)学习路径的管理员基础知识中Workfront One。
 
 ## 在对象的自定义表单中，选择多选下拉字段中的所有项目
 
@@ -75,7 +75,7 @@ Adobe Workfront管理员现在可以通过解锁各个任务和问题偏好设�
 
 有关可以为程序和项目组合配置的访问设置的信息，请参阅[可配置的每个对象类型对功能的访问](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)。
 
-此功能现已包含在新Workfront Experience第1部分：用户组织](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)学习路径的[管理员基础知识中Workfront One。
+此功能现已包含在新Workfront Experience第1部分：用户组织[&#128279;](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)学习路径的管理员基础知识中Workfront One。
 
 ## 在自定义表单中编辑信息时，选中系列中的所有复选框
 
@@ -108,7 +108,7 @@ Adobe Workfront管理员现在可以通过解锁各个任务和问题偏好设�
 
 有关详细信息，请参阅[子组概述](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md)一文中的[子组的组管理员](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md#for)部分。
 
-此功能现已包含在新Workfront Experience第1部分：用户组织](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)学习路径的[管理员基础知识中Workfront One。
+此功能现已包含在新Workfront Experience第1部分：用户组织[&#128279;](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)学习路径的管理员基础知识中Workfront One。
 
 ## 为组配置事件通知
 
