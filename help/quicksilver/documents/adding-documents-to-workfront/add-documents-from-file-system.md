@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront中将文档添加到多个区域中的�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
+source-git-commit: a69193eb7a98949222f71561b44d8fecea4dd496
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '763'
 ht-degree: 1%
 
 ---
@@ -123,7 +123,7 @@ Workfront站点通过以下方式防止病毒和其他恶意内容通过文档�
 
 如果启用了文档扫描，则在上传时扫描小于25 MB的文件。 不会扫描超过25 MB的文件。
 
-如果Workfront检测到损坏的文档，Workfront将停止上传过程，并出现一条消息，指示文件已损坏。 此外，当Workfront检测到潜在的恶意内容并计划删除文件时，您会收到电子邮件通知。
+如果Workfront检测到损坏的文档，则会显示一条消息，指示文件已损坏。 此外，当Workfront检测到潜在的恶意内容并计划删除文件时，您会收到电子邮件通知。
 
 损坏的文件会在检测到后的24小时内删除，除非手动删除。 如果删除损坏的文件，Workfront会将此操作作为更新进行跟踪。 如果您允许Workfront删除它，则不会记录任何更新。
 
