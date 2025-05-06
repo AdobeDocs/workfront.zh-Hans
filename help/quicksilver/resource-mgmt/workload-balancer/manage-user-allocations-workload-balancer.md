@@ -6,14 +6,14 @@ description: 作为资源管理器，您可以将工作分配给用户，并通�
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
+source-git-commit: d588380201aa8bcc9e358d516b7e52ed5f60b78d
 workflow-type: tm+mt
-source-wordcount: '2909'
+source-wordcount: '2886'
 ht-degree: 0%
 
 ---
 
-# 管理工作负载均衡器中的用户分配
+# 在工作负载平衡器中管理用户分配
 
 <!-- Audited: 01/2024 -->
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->工作负载均衡器仅显示每个用户每个工作项最多1000个已计划小时数，以及项目持续时间最多1000天。 达到1000小时或1000天限制后，工作负载均衡器中的分配显示为零。 我们建议将任务分为较小的子任务，以适应较多的计划小时数或持续时间超过1000天。
+>工作负载均衡器仅显示项目持续时间的<!--up to 1000 Planned Hours per work item per user, and-->天到1000天。 达到1000天的限制后，工作负载均衡器中的分配显示为零。 我们建议将持续时间超过1000天的任务划分到较小的子任务<!--to accommodate a larger number of Planned Hours or-->中。
 
 在工作负载均衡器中找到任务或问题的每日、每周或每月分配时，请考虑以下事项：
 
@@ -175,7 +175,7 @@ ht-degree: 0%
 
 作为向用户分配工作的一部分，您可以修改工作负载均衡器中的用户分配，以确保不会过度分配用户分配，或确保资源之间的小时数准确平衡。 有关识别用户是否过度分配的信息，请参阅本文中的[用户分配概述](#user-allocation-overview)部分。
 
-1. 确保您已将任务和问题分配给用户。 有关在工作负载均衡器中将工作分配给用户的信息，请参阅在工作负载均衡器[&#128279;](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中分配工作的概述。
+1. 确保您已将任务和问题分配给用户。 有关在工作负载均衡器中将工作分配给用户的信息，请参阅在工作负载均衡器](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中分配工作的概述[。
 1. 转到工作负载均衡器。
 1. （可选）单击&#x200B;**周**&#x200B;或&#x200B;**月**&#x200B;以管理用户的每周或每月分配。
 
