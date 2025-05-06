@@ -2,22 +2,22 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: 导出数据
-description: 您可以从各种列表、报表、功能板和搜索中导出Adobe Workfront数据。
+description: 您可以从列表、报表、功能板和搜索中导出Adobe Workfront数据。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
 workflow-type: tm+mt
-source-wordcount: '2247'
+source-wordcount: '2264'
 ht-degree: 0%
 
 ---
 
 # 导出数据
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 5/2025 -->
 
-您可以从各种列表、报表、功能板和搜索中导出Adobe Workfront数据。
+您可以从列表、报表、功能板和搜索中导出Adobe Workfront数据。
 
 导出数据的一些原因包括：
 
@@ -97,14 +97,14 @@ ht-degree: 0%
 
 信息可按下列格式导出：
 
-* PDF（信件横向或纵向、Legal、Ledger和A4）
-* Excel (.xls)
+* PDF（横向或纵向）
+* Excel
 * Excel (.xlsx)
 * 制表符分隔
 
 >[!NOTE]
 >
->仪表板只能打印或导出为.pdf文件。
+>功能板只能打印或导出到PDF文件。
 
 ### 导出限制 {#export-limits}
 
@@ -115,10 +115,10 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 关于报表在Workfront中的显示方式以及通过手动导出、已交付报表或通过API导出报表的方式，有一些限制。
 
 * **50,000个单元格：**&#x200B;报表导出中允许Excel文件的最大单元格数。
-* **50,000行：**&#x200B;报表导出中允许用于.pdf和Tab分隔文件的数据行数。
+* **50,000行：**&#x200B;报表导出中允许用于PDF和Tab分隔文件的数据行数。
 
-   * 对于Excel .xls文件，此限制为&#x200B;**65,000行**。
-   * 对于Excel .xlsx文件，此限制为&#x200B;**100,000行**。
+   * 对于Excel文件，此限制为&#x200B;**65,000行**。
+   * 对于Excel(.xlsx)文件，此限制为&#x200B;**100,000行**。
    * 这些限制不包括列标题以及报告中分组的行。 例如，如果报表中有6个分组，且有50,000行数据，则导出的文件将有50,000行。
 
   >[!IMPORTANT]
@@ -153,7 +153,7 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
      有关导出项目的利用率信息的详细信息，请参阅[资源利用率报告概览](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project)。
 
 * **10MB文件大小：**&#x200B;任何计划传送的导出报告的文件大小限制。 如果附加到电子邮件的导出文件大于5MB，则会通过电子邮件发送可下载文件的链接，而不是附加的导出报告。
-* **65,530个超链接：**&#x200B;这是Excel对包含65,530个以上超链接的文档施加的限制。 手动导出这些文档或在送达报表中发送它们时，无法打开它们。 请注意，一个Excel文档可能只有200行数据，但如果文档中有超过65,530个链接，则该文档不会打开。 此限制仅存在于Excel文件中，而不存在于其他支持的格式中。 
+* **65,530个超链接：**&#x200B;这是Excel对包含65,530个以上超链接的文档施加的限制。 手动导出这些文档或在送达报表中发送它们时，无法打开它们。 请注意，一个Excel文档可能只有200行数据，但如果文档中有超过65,530个链接，则该文档不会打开。 此限制仅存在于Excel文件中，而不存在于其他支持的格式中。
 * **256列**：这是Excel对包含超过256列的文档施加的限制。 这些文档无法手动导出，也不能在已送达的报告中发送。 此限制仅存在于Excel文件中，而不存在于其他支持的格式中。
 
   >[!IMPORTANT]
@@ -175,7 +175,7 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 ### 从报表或列表导出数据 {#export-data-from-a-report-or-list}
 
 1. 转到要导出的报告或列表。
-1. 选择要导出的项目。 （选择单个项目只会导出您选择的项目。）
+1. 选择要导出的项目。 选择单个项目仅导出您选择的项目。
 
    例如，在项目中，选择要导出的任务。
 
@@ -197,30 +197,24 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
    单击&#x200B;**导出**&#x200B;图标![导出图标](assets/export-icon-nwe.png)，然后选择格式。
 
-   可用于导出PDF的选项取决于Workfront用户设置中的区域设置：
+   可用于导出PDF的选项取决于Workfront用户设置中的电子邮件区域设置：
 
-   * 北美洲 — 信件（默认）、法律、分类帐、A4
+   * 北美 — 信纸 — 横向、信纸 — 纵向、其他尺寸
 
-     <!--   
-     <img src="assets/north-america.jpg" alt="" data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     -->
-
-   * 北美以外的所有地点 — A3、A4（默认）、信件、法律、分类帐
-
-     <!--   
-     <img src="assets/everywhere-else.jpg" alt="" data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     -->
+   * 北美以外的所有位置 — A4 — 横向、A4 — 纵向、其他尺寸
 
 1. （视情况而定）根据您使用的操作系统，您可以选择打开或保存文件。 使用关联的应用程序打开文件，或将其保存到硬盘驱动器。
-1. 继续[使用导出的文档](#use-the-exported-document)。
+1. 若要了解信息在导出文件中的显示方式，请继续阅读本文中的[使用导出的文档](#use-the-exported-document)一节。
 
 ### 从功能板导出数据 {#export-data-from-a-dashboard}
 
-您可以从仪表板打印信息，也可以将其导出为.pdf文件。
+您可以从功能板打印信息，也可以将其导出为PDF文件。
 
 有关从仪表板导出数据的详细信息，请参阅[导出仪表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md)。
 
 ## 使用导出的文档 {#use-the-exported-document}
+
+以下各节介绍信息在导出文件中的显示方式：
 
 * [文件名](#file-names)
 * [标题](#titles)
@@ -308,11 +302,11 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 ### 格式设置 {#formatting}
 
-将项目导出为.pdf时，任何子任务都显示为缩进到其父任务中。 导出的列表不会折叠任何父级任务。
+在将项目导出到PDF时，任何子任务都会显示为缩进到其父任务中。 导出的列表不会折叠任何父级任务。
 
 在发送或计划发送报告时，除非报告具有特殊视图，否则您始终会收到报告的默认选项卡。
 
-如果您的报表在Web应用程序中具有特殊格式，则在交付“详细信息”和“矩阵”选项卡时，报表应具有特殊格式，仅适用于.pdf和Excel文件。
+如果您的报表在Web应用程序中具有特殊格式，则在交付“详细信息”和“矩阵”选项卡时，应该使用特殊格式交付报表，并且仅适用于PDF和Excel文件。
 
 >[!NOTE]
 >
@@ -322,11 +316,11 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 ### 链接 {#links}
 
-链接可以指向Workfront中支持链接的任何对象。 将Workfront中的列表导出为.pdf时，原始文档中存在的任何受支持的链接在导出的文档中保持活动状态。
+链接可以指向Workfront中支持链接的任何对象。 将Workfront中的列表导出到PDF时，原始文档中存在的任何受支持的链接在导出的文档中保持活动状态。
 
 >[!TIP]
 >
->如果自定义字段列的行`valueformat=HTML`以文本模式显示，并且链接值未显示在导出的.pdf文件中，则需要在文本模式下向列输入其他代码行。
+>如果自定义字段列的行`valueformat=HTML`以文本模式显示，并且链接值未显示在导出的PDF文件中，则需要在文本模式下向列输入其他代码行。
 >
 >例如，如果您有一个名为“打开第1季度项目”的包含链接的自定义字段，则需要添加以下代码：
 >
@@ -343,7 +337,7 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 >
 >如果您的组织已登记到Adobe Experience Cloud，则品牌推广不可用。
 
-如果您的Workfront管理员为全局导航栏的Workfront实例添加了自定义品牌，则导出的.pdf文件还将包含您的个性化徽标。
+如果您的Workfront管理员为全局导航栏的Workfront实例添加了自定义品牌，则导出的PDF文件还将包含您的个性化徽标。
 
 以任何其他格式导出的数据无法用您的徽标进行个性化。
 

@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 38e9a626e9bf172cacbee8688d6303224301e785
+source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
 workflow-type: tm+mt
-source-wordcount: '13180'
+source-wordcount: '13185'
 ht-degree: 2%
 
 ---
@@ -2089,6 +2089,7 @@ ht-degree: 2%
       * [管理来自Workfront对象的记录连接](planning/records/manage-records-in-planning-section.md)
       * [导出记录的详细信息](planning/records/export-the-record-page.md)
       * [在将Workfront对象连接到记录时，从Workfront Planning创建这些对象](planning/records/create-workfront-objects-from-workfront-planning.md)
+      * [配置Adobe Workfront Planning自动化](planning/records/configure-automations-to-create-records.md)
       * [使用Workfront Planning记录自动化创建对象](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
    * Adobe Workfront规划请求 {#adobe-workfront-planning-requests}
       * [Adobe Workfront规划请求：文章索引](planning/requests/requests-article-index.md)
@@ -2166,7 +2167,7 @@ ht-degree: 2%
    * 适用于Outlook的Adobe Workfront {#workfront-for-outlook}
       * [适用于Outlook的Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
       * [设置适用于Outlook的Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
-      * [适用于Outlook的Workfront的权限级别](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
+      * 适用于Outlook的Workfront的[权限级别](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
       * [回复Outlook的评论](workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md)
       * [通过Outlook电子邮件更新现有对象](workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md)
       * [将Outlook电子邮件作为任务或问题添加到项目](workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md)
@@ -2461,8 +2462,8 @@ ht-degree: 2%
       * [使用JWT流配置和使用贵组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程配置和使用您组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-pkce-flow.md)
       * [弃用API — 内部](wf-api/api/deprecation-api-internal.md)
-      * [API版本20中的新增功能](wf-api/api/new-api-version-20.md)
-      * [API版本19中的新增功能](wf-api/api/new-api-version-19.md)
+      * [API版本20](wf-api/api/new-api-version-20.md)中的新增功能
+      * [API版本19](wf-api/api/new-api-version-19.md)中的新增功能
       * [API版本18中的新增功能](wf-api/api/new-api-version-18.md)
       * [API版本17中的新增功能](wf-api/api/new-api-version-17.md)
       * [API版本16中的新增功能](wf-api/api/new-api-version-16.md)

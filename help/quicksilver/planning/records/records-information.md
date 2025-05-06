@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: 594504c6a7acc9341471371ca279379042a45457
+source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '158'
 ht-degree: 1%
 
 ---
@@ -29,6 +29,7 @@ ht-degree: 1%
 * [创建记录](/help/quicksilver/planning/records/create-records.md)
 * [通过从CSV或Excel文件导入信息创建记录](/help/quicksilver/planning/records/import-file-to-create-records.md)
 * [在将Workfront对象连接到记录时，从Workfront Planning创建这些对象](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+* [配置Adobe Workfront Planning自动化](/help/quicksilver/planning/records/configure-automations-to-create-records.md)
 * [使用Adobe Workfront Planning记录自动化创建对象](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
 * [编辑记录](/help/quicksilver/planning/records/edit-records.md)
 * [删除记录](/help/quicksilver/planning/records/delete-records.md)
