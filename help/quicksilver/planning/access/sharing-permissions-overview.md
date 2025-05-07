@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: 3550d7addcc0bb790f15d141d9470e0b75f940a6
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1227'
 ht-degree: 5%
 
 ---
@@ -44,19 +44,18 @@ ht-degree: 5%
 
   有关详细信息，请参阅[共享工作区](/help/quicksilver/planning/access/share-workspaces.md)
 
-<!--
 <div class="preview">
 
-* Record types
+* 记录类型
 
-    * You can share record types with people inside your organization.
-    * The level of permissions granted for the workspace displays as Inherited permissions for the record type. 
-    * You cannot share a record type with a higher permission level than the user has on the workspace. 
+   * 您可以与组织内部人员共享记录类型。
+   * 授予工作区的权限级别显示为记录类型的继承权限。
+   * 您无法以高于用户在工作区中的权限级别共享记录类型。
 
-    For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md). 
+  有关详细信息，请参阅[共享记录类型](/help/quicksilver/planning/access/share-record-types.md)。
 
 </div>
--->
+
 
 * 视图
 
@@ -67,7 +66,7 @@ ht-degree: 5%
 
   有关详细信息，请参阅[共享视图](/help/quicksilver/planning/access/share-views.md)。
 
-在内部，您可以与以下Workfront实体共享工作区或视图：
+在内部，您可以与以下Workfront实体共享工作区、视图、<span class="preview">或记录类型</span>：
 
 * 用户
 * 组
@@ -76,6 +75,11 @@ ht-degree: 5%
 * 工作角色
 
 <span class="preview">当您与他人共享工作区和记录类型时，记录类型中的权限级别会自动继承到与其关联的记录和字段。</span>
+
+>[!IMPORTANT]
+>
+>如果您组织的Workfront实例已载入到Adobe Unified Experience，则必须将要与共享Planning对象的用户添加到Adobe Admin Console。 您无法与尚未添加到Adobe Admin Console的Workfront用户共享Planning对象。
+
 
 ## 关于在Adobe Workfront Planning中共享对象的注意事项
 

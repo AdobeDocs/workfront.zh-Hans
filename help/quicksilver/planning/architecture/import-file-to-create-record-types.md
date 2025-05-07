@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '881'
 ht-degree: 1%
 
 ---
@@ -108,7 +108,12 @@ ht-degree: 1%
 * 文件不应大于5MB。
 * 不支持空工作表。
 * 以下类型的字段不受支持，无法映射到导入工作表中的字段：
-   * 已连接记录的连接和查找字段<!--or connected Workfront objects-->
+
+   * <!--In the Production environment,--> 与Planning记录或Workfront和AEM Assets对象的连接字段
+
+     <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
+
+   * 从连接的Planning记录或Workfront和AEM Assets对象查找字段
    * 公式字段
    * 创建日期，创建者
    * 上次修改日期，上次修改人

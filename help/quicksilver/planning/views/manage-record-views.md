@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1537'
 ht-degree: 1%
 
 ---
@@ -103,7 +103,7 @@ ht-degree: 1%
 <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
    <td>   <p>管理视图的权限</p>  
-   <p>查看对视图的权限以临时更改视图设置</p> </td> 
+   <p>查看对视图的权限以临时更改视图设置或复制它</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>版面模板</p></td> 
@@ -258,7 +258,7 @@ ht-degree: 1%
    默认情况下，所选类型的所有记录都会显示在表格视图中。
 
 1. 将鼠标悬停在视图选项卡中的某个视图名称上，然后单击视图名称左侧的&#x200B;**更多** ![更多菜单](assets/more-menu.png)，然后单击&#x200B;**删除**。
-首先，您可能需要单击最后一个选项卡左侧的&#x200B;**更多**&#x200B;以查找要删除的视图。
+首先，您可能需要单击最后一个选项卡左侧的**更多**&#x200B;以查找要删除的视图。
 
 1. 单击&#x200B;**删除**&#x200B;以确认。<!--ensure there is not another saving step here?!-->
 

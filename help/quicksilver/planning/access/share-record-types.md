@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 3550d7addcc0bb790f15d141d9470e0b75f940a6
 workflow-type: tm+mt
-source-wordcount: '1517'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 0%
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
 <p>贵组织的Workfront实例必须载入Adobe Unified Experience，才能访问Workfront Planning的所有功能。</p> 
-<p>您的组织必须载入到Adobe Unified Experience，用户才能从权限请求请求向视图请求和授予权限。 </p>
+<p>必须将用户添加到Adobe Admin Console才能获得Workfront Planning视图的权限。</p>
 <p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p> 
    </td> 
    </tr> 
@@ -199,7 +199,7 @@ ht-degree: 0%
 
 ## 删除对记录类型的权限
 
-您可以从记录类型中删除用户的权限。 但是，他们至少将保留对工作区的查看访问权限，这将为他们授予至少查看记录类型的权限。 如果您希望他们无权访问工作区中的记录类型，则必须从工作区中删除他们的访问权限。
+您可以从记录类型中删除用户的权限。 但是，他们至少将保留对工作区的查看权限，这也会为他们提供对记录类型的查看权限。 如果您希望他们无权访问工作区中的记录类型，则必须从工作区中删除他们的访问权限。
 
 {{step1-to-planning}}
 

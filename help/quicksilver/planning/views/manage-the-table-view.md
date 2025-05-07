@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
 workflow-type: tm+mt
-source-wordcount: '3205'
+source-wordcount: '3497'
 ht-degree: 2%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 2%
 <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
    <td>   <p>管理视图的权限</p>  
-   <p>查看对视图的权限以临时更改视图设置</p> </td> 
+   <p>查看对视图的权限以临时更改视图设置或复制它 <!--<span class="preview">or to export the view</span>--></p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>版面模板</p></td> 
@@ -509,9 +509,11 @@ To sort grouped records:
 
 1. （可选）打开“行颜色”框右上角的&#x200B;**应用到整行**&#x200B;设置。 满足条件的整行会自动以选定的颜色显示。
 
-   >[!TIP]
+   >[!NOTE]
    >
-   >如果“应用到整行”设置处于关闭状态，则只有“主”字段的左侧显示具有选定颜色的窄颜色指示器。 默认情况下，该设置处于关闭状态。
+   >* 如果“应用到整行”设置处于关闭状态，则只有“主”字段的左侧显示具有选定颜色的窄颜色指示器。 默认情况下，该设置处于关闭状态。
+   >
+   >* 在表格视图中选择了至少一个分组时，不能将行颜色应用到整行。
 
 1. 单击&#x200B;**行颜色**&#x200B;框外部以将其关闭。 颜色会自动应用。
 
@@ -525,3 +527,49 @@ To sort grouped records:
 
 有关详细信息，请参阅文章[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)中的“启用实时显示状态指示器”部分。
 
+<div class="preview">
+
+## 导出表格视图
+
+您可以将表格视图中的信息导出为CSV或Excel文件。
+
+导出表视图时，请考虑以下事项：
+
+* 导出到Excel文件中的信息将保留应用于Workfront Planning中的表格视图的筛选器、分组和排序。 分组在CSV文件中不可见。
+
+* 导出的文件不支持缩略图和自定义行颜色。
+
+* 仅导出在Workfront界面中可见的字段。 隐藏字段不导出。
+
+要从表格视图或记录类型导出信息，请执行以下操作：
+
+1. 转到记录类型页面，然后单击表格视图选项卡。
+1. 将鼠标悬停在表视图选项卡的名称上，然后单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)。
+1. 单击&#x200B;**导出**，然后选择以下格式之一：
+
+   * Excel
+   * CSV
+
+   >[!IMPORTANT]
+   >
+   >当在屏幕上显示不同的视图时，不能从表格视图导出信息。 要访问“更多”菜单中的“导出”选项，必须显示要导出的表格视图。
+
+   文件已下载到您的计算机。
+
+1. （可选）转到计算机上的下载文件夹并找到下载的文件。
+
+   导出文件的名称遵循以下格式：
+
+   `Name of the view - name of the record type`
+
+   例如，促销活动记录类型的表视图会生成一个名为`Table view - Campaigns`的文件。
+
+   文件显示以下信息：
+
+   * 在Excel文件中，列标题以黑色突出显示
+   * 在Workfront界面中可见的所有字段，均按相同的标准进行排序和过滤
+   * 分组将保留在Excel文件中
+
+   您现在可以与其他人共享导出的文件，或将其附加到任何通信。
+
+</div>
