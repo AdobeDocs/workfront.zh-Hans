@@ -4,9 +4,10 @@ description: 2025年第二季度报表增强功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: afd73cab145c1f1b73c06ee093de92a28f10bea4
+exl-id: 50639b81-d4d0-4702-98ba-2d5ec29575dc
+source-git-commit: f9de87b7b874910cb986cbf6d57e998afe602bb8
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -37,6 +38,7 @@ ht-degree: 0%
 * 如何创建和重命名日历
 * 日历操作已移至日历名称旁边的更多菜单
 * 用于查看日历信息的新侧面板
+* 您无法再隐藏周末
 * 等等
 
 有关详细信息，请参阅[日历](/help/quicksilver/reports-and-dashboards/reports/calendars/calendars.md)文章。

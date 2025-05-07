@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: d072b8e9c657e970c12f75a304f63e04d0512505
+source-git-commit: f9de87b7b874910cb986cbf6d57e998afe602bb8
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,25 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >此页面上列出的功能属于分阶段发布，仅适用于特定客户。
+
+## 必须单独添加链接的Google文件夹中的Assets才能在Workfront中显示
+
+>[!NOTE]
+>
+>* 预览版本： 2025年5月31日；适用于所有客户的生产版本： 2025年5月31日
+
+Google正在为访问Google Drive的第三方应用程序[加强安全控制](https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps)，要求应用程序采用每个用户的同意模型。 因此，单个资源必须一次链接一个资源才能在Workfront中可见。 有关详细信息，请参阅[配置文档集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md)。
+
+保持不变的关键功能：
+
+* 在Google驱动器模式中搜索和筛选资源和文件夹
+* 从Google Drive将资源链接到Workfront对象
+* 通过文档页面上的“收件人”下拉列表，将资源上传到Google驱动器
+* 查看并访问用户的“我的驱动器”区域中的文件夹结构
+* 将资源的新版本从Google驱动器链接到Workfront中的现有文档
+* 将文件夹从Google驱动器链接到Workfront对象
+* 通过将文档拖放到链接文件夹中，将资源上传到Google驱动器
+* 在Workfront中创建新的Google Drive文档
 
 
 ## 验证查看者中可用的新文档审批决策按钮

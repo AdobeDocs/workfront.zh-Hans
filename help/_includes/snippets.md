@@ -1,5 +1,5 @@
 ---
-source-git-commit: affff16630379333465c118734babf7a239af272
+source-git-commit: cbb434ff7c8f614b6ca3f657f01945306d26068c
 workflow-type: tm+mt
 source-wordcount: '2648'
 ht-degree: 1%
@@ -55,7 +55,7 @@ ht-degree: 1%
 >
 >此页面上描述的过程仅适用于尚未载入[!DNL Adobe Experience Cloud]的组织。
 >
-> 如果贵组织已登记到[!DNL Adobe Experience Cloud]，请参阅 [!DNL Workfront][&#128279;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)的[!DNL Adobe Unified Experience] 。
+> 如果贵组织已登记到[!DNL Adobe Experience Cloud]，请参阅 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)的[[!DNL Adobe Unified Experience] 。
 
 ## 第1步 — 仅单击主菜单 {#step1-click-main-menu}
 
@@ -360,8 +360,8 @@ ht-degree: 1%
 ## 最新DPV版本 {#latest-version}
 
 **最新版本**：
-* Mac：截至2025年1月2日，2.1.44
-* Windows：2025年1月2日的2.1.44
+* Mac：截至2025年5月7日2.1.48
+* Windows：2025年7月5日的2.1.48
 
 <!-- Release -->
 
