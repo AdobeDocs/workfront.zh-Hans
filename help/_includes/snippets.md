@@ -55,7 +55,7 @@ ht-degree: 1%
 >
 >此页面上描述的过程仅适用于尚未载入[!DNL Adobe Experience Cloud]的组织。
 >
-> 如果贵组织已登记到[!DNL Adobe Experience Cloud]，请参阅 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)的[[!DNL Adobe Unified Experience] 。
+> 如果贵组织已登记到[!DNL Adobe Experience Cloud]，请参阅 [!DNL Workfront][&#128279;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)的[!DNL Adobe Unified Experience] 。
 
 ## 第1步 — 仅单击主菜单 {#step1-click-main-menu}
 
