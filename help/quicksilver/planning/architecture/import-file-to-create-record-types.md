@@ -109,7 +109,7 @@ ht-degree: 1%
 * 不支持空工作表。
 * 以下类型的字段不受支持，无法映射到导入工作表中的字段：
 
-   * <!--In the Production environment,--> 与Planning记录或Workfront和AEM Assets对象的连接字段
+   * &#x200B;<!--In the Production environment,--> 与Planning记录或Workfront和AEM Assets对象的连接字段
 
      <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
 
