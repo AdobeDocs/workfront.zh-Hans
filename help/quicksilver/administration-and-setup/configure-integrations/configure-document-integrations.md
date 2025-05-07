@@ -8,9 +8,9 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: ec0e2be036ce1298e285ce85cdeddae97cd1f144
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1199'
 ht-degree: 1%
 
 ---
@@ -45,9 +45,9 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>新文档： [!UICONTROL Standard]</p>
+   <td><p>新文档： [！UICONTROL Standard]</p>
        <p>或</p>
-       <p>当前： [!UICONTROL 计划]</p></td>
+       <p>当前： [！UICONTROL计划]</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -138,19 +138,19 @@ ht-degree: 1%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 名称]</td> 
+      <td role="rowheader">[！UICONTROL名称]</td> 
       <td>自定义集成的名称。 这是用户在Workfront中使用集成时看到的名称。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 基本API URL] </td> 
+      <td role="rowheader">[！UICONTROL基本API URL] </td> 
       <td>API调用的基本HTTP或安全HTTP URL。 例如， <code>https://&lt;documentprovider&gt;.com/api/v2</code></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 身份验证类型]</td> 
+      <td role="rowheader">[！UICONTROL身份验证类型]</td> 
       <td> <p>对自定义集成进行授权的API调用时要使用的身份验证方法。</p> 
        <ul> 
-        <li>如果选择<strong>[!UICONTROL OAuth]</strong>，请继续执行步骤5。</li> 
-        <li>如果选择<strong>[!UICONTROL ApiKey]</strong>，请继续执行步骤6。</li> 
+        <li>如果选择<strong>[！UICONTROL OAuth]</strong>，请继续执行步骤5。</li> 
+        <li>如果选择<strong>[！UICONTROL ApiKey]</strong>，请继续执行步骤6。</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -163,23 +163,23 @@ ht-degree: 1%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 身份验证URL]</td> 
+      <td role="rowheader">[！UICONTROL身份验证URL]</td> 
       <td>用于用户身份验证的完整URL。 在OAuth配置过程中，[!DNL Workfront]将用户导航到此地址。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 令牌端点URL]</td> 
+      <td role="rowheader">[！UICONTROL令牌端点URL]</td> 
       <td>用于检索 OAuth 令牌的完整 API URL。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 客户端ID]</td> 
+      <td role="rowheader">[！UICONTROL客户端ID]</td> 
       <td>此集成的OAut客户端ID。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 客户端密钥]</td> 
+      <td role="rowheader">[！UICONTROL客户端密钥]</td> 
       <td>此集成的OAut客户端密钥</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 请求参数]</td> 
+      <td role="rowheader">[！UICONTROL请求参数]</td> 
       <td> <p>输入要附加到每个API调用的查询字符串的可选值。 例如，access_type=offline。</p> <p>要添加多个请求参数，请单击<strong>+添加请求参数</strong>。</p> </td> 
      </tr> 
     </tbody> 
@@ -250,4 +250,12 @@ ht-degree: 1%
 
 ## 限制
 
-* Google Drive文档集成支持从Google Drive的“我的驱动器”区域添加文件夹和图像。 无法从共享驱动器添加文件夹或映像。 了解有关[Google共享驱动器](https://support.google.com/a/users/answer/7212025?hl=en)的更多信息。
+### Google Drive集成
+
+* 将链接的文件夹添加到Workfront时，不再自动添加该文件夹中的文件。
+   * 您可以将Google文件夹添加到Workfront而不包含这些文件，然后将单个文件添加到Workfront。 这些文件将自动添加到Workfront的Google文件夹中。
+或
+   * 您可以在Workfront中创建“文档”文件夹，然后选择Google文件夹中的所有文件并将其添加到Workfront文件夹。
+
+
+* Google Drive文档集成支持从Google Drive的“我的驱动器”区域添加文件。 无法从共享驱动器添加文件夹或映像。 了解有关[Google共享驱动器](https://support.google.com/a/users/answer/7212025?hl=en)的更多信息。
