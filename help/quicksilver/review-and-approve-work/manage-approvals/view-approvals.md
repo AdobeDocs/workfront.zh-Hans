@@ -6,9 +6,9 @@ description: 批准流程提供了灵活性，可以为项目、任务和问题�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '794'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 0%
 * 在“主页”区域
 
    * 所有等待您审批的项目、任务、问题、时间表、文档和访问权限都将显示在主页区域的“我的审批”小组件中。
-   * 当您选择我已提交的审批过滤器选项时，您自己提交的审批也会显示在主页区域的我的审批小部件中。 有关详细信息，请参阅本文中“主页”区域[&#128279;](#review-work-you-submit-for-approval-in-the-home-area)部分中的审核您提交供审批的工作。
+   * 当您选择我已提交的审批过滤器选项时，您自己提交的审批也会显示在主页区域的我的审批小部件中。 有关详细信息，请参阅本文中“主页”区域](#review-work-you-submit-for-approval-in-the-home-area)部分中的[审核您提交供审批的工作。
    * 当关联的项目、任务或问题标记为“已解决”、“已搁置”、“已关闭”或“已取消”时，审批将从“主页”区域的“我的审批”构件中删除。
 
   有关使用主页的信息，请参阅[主页入门](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)。
@@ -129,7 +129,7 @@ ht-degree: 0%
 要查看任务或问题在审批流程中的当前状态，请执行以下操作：
 
 1. 转到与审批关联的项目、任务或问题。
-1. 在左侧面板中，单击&#x200B;**审批**。 您可能需要先单击&#x200B;**显示更多**。
+1. 在左侧面板中，单击&#x200B;**审批**。
 
    “审批”选项卡显示所有过去审批路径和阶段的完整信息。 您可以准确地查看对批准做出决定的用户，或者是否为团队、工作角色或用户设置了批准。
 

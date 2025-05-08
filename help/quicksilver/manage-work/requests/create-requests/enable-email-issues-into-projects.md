@@ -6,9 +6,9 @@ description: 您可以配置项目以允许用户通过电子邮件将问题添�
 author: Alina, Courtney
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: fedb0328450896d212081715df4cde7644b169bc
+source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '782'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 0%
 >我们建议，您设置为通过电子邮件接收请求的项目不应有多个队列主题。 如果提交的请求针对不同的资源或项目，则在提交请求后应手动路由或移动它们。
 
 1. 转到要启用以通过电子邮件接收问题的项目。
-1. 单击左侧面板中的&#x200B;**队列详细信息**。 您可能需要先单击&#x200B;**显示更多**。
+1. 单击左侧面板中的&#x200B;**队列详细信息**。
 1. 在&#x200B;**队列类型**&#x200B;区域，选择&#x200B;**发布作为帮助请求队列**。
 
 1. 向下滚动到&#x200B;**电子邮件队列设置**&#x200B;区域，然后选择&#x200B;**启用通过电子邮件接收请求**。
