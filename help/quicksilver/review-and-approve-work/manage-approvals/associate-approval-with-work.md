@@ -123,7 +123,7 @@ ht-degree: 0%
 1. 转到要关联审批流程的工作项。
 1. 单击左侧面板中的&#x200B;**审批**。
 
-   任务](assets/approvals-section-on-task-highlighted-nwe-350x246.png)上的![审批分区
+   任务![&#128279;](assets/approvals-section-on-task-highlighted-nwe-350x246.png)上的审批分区
 
 1. ![使用现有审批或创建单次使用审批](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
 
@@ -191,7 +191,7 @@ ht-degree: 0%
 1. 转到要关联审批流程的项目、任务、问题、模板或模板任务。
 1. 单击左侧面板中的&#x200B;**审批**。
 
-   任务](assets/approvals-section-on-task-highlighted-nwe-350x246.png)上的![审批分区
+   任务![&#128279;](assets/approvals-section-on-task-highlighted-nwe-350x246.png)上的审批分区
 
 1. 单击&#x200B;**创建一次性**。
 
@@ -228,7 +228,7 @@ ht-degree: 0%
 1. 转到要移除先前添加的审批流程的项目、任务、问题、模板或模板任务。
 1. 单击左侧面板中的&#x200B;**审批**。
 
-   任务](assets/approvals-section-on-task-highlighted-nwe-350x246.png)上的![审批分区
+   任务![&#128279;](assets/approvals-section-on-task-highlighted-nwe-350x246.png)上的审批分区
 
 1. 根据与项目关联的批准类型，单击“批准”部分右上角的以下图标之一：
 
