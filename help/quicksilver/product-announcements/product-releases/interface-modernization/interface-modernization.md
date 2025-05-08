@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 7de63fbe2df6aa5f173b8e5647097e3f8aabc08c
+source-git-commit: 73df51a476695a3af11911da850ce4049c95aa06
 workflow-type: tm+mt
-source-wordcount: '2140'
+source-wordcount: '2204'
 ht-degree: 0%
 
 ---
@@ -277,11 +277,21 @@ ht-degree: 0%
 
 ## 报告和仪表板
 
-+++展开以查看报表和功能板界面更新
+### 更新了“访问级别”报告并设置了新样式
+
+**预览版本：待定；生产版本：从2025年2月6日这一周开始**
+
+我们更新了访问级别报表，更新后的设计更加现代化，与Workfront的其他区域保持一致。
+
+此更新包括对报告的可视化更改。 功能未发生更改。
+
+要创建团队报表，请转到“报表”>“新建报表”>“访问级别”。
+
++++展开以查看更多报表和功能板界面更新
 
 ### 更新了团队报告并增加了新样式
 
-**预览版本： 2025年1月30日；从2025年2月6日这一周开始**
+**预览版本： 2025年1月30日；生产版本：从2025年2月6日开始的一周开始**
 
 我们更新了团队报告，更新后的设计更加现代化，与Workfront的其他区域一致。
 
