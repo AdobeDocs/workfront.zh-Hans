@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 78300d47d9a892a07816d94c448c7b957f11f14f
+source-git-commit: 7de63fbe2df6aa5f173b8e5647097e3f8aabc08c
 workflow-type: tm+mt
-source-wordcount: '2138'
+source-wordcount: '2140'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ### 公告中心的界面更新
 
-**预览版本： 2025年2月27日；待宣布**
+**预览版本： 2025年2月27日；从2025年3月6日的一周开始**
 
 我们更新了公告中心，采用与Workfront其他区域一致的更加现代化的设计。
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 ### “设置”中审批流程设置的界面更新
 
-**预览版本： 2025年2月6日；生产版本：待宣布**
+**预览版本： 2025年2月6日；生产版本：从2025年2月13日开始的一周开始**
 
 我们更新了“审批设置”对话框，使其设计更加现代化，与Workfront的其他区域保持一致。
 
@@ -177,7 +177,7 @@ ht-degree: 0%
 
 ### 团队请求的界面更新
 
-**预览版本： 2025年3月6日；生产版本：待宣布**
+**预览版本： 2025年3月6日；生产版本： 2025年3月13日**
 
 我们更新了“团队请求”页面，使其设计更加现代化，与Workfront的其他区域保持一致。
 

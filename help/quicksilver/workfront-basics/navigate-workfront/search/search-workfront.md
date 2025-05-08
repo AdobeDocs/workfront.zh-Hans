@@ -5,9 +5,9 @@ description: 当您无法记住项目的确切位置时，可通过搜索项目�
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: b04d09d1244a7d7abef8aaddb62dbdf7124bfde8
 workflow-type: tm+mt
-source-wordcount: '1690'
+source-wordcount: '1673'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>[!UICONTROL View]对对象类型的访问权限 </p> <p>注意：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何修改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p></td> 
+   <td> <p>[！UICONTROL View]对对象类型的访问权限 </p> <p>注意：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何修改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
@@ -89,7 +89,7 @@ ht-degree: 1%
 
   有关[!DNL Workfront]中基本搜索的详细信息，请参阅本文中的[基本搜索](#basic-search)。
 
-* **[!UICONTROL 高级搜索]**：在[!UICONTROL 高级搜索]中，您可以设置筛选条件来搜索基本搜索中不可用的字段。 因此，[!UICONTROL 高级搜索]允许您搜索对象中的任何字段。
+* **[!UICONTROL 高级搜索]**：在[!UICONTROL 高级搜索]中，您可以设置筛选条件以搜索基本搜索中不可用的字段。 因此，[!UICONTROL 高级搜索]允许您搜索对象中的任何字段。
 
   有关[!UICONTROL 高级搜索]的详细信息，请参阅本文中的[高级搜索](#advanced-search)。
 
@@ -136,7 +136,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>包括或</td> 
-   <td> <p>通过“OR”连接单词（不带引号）可让您仅查找与[!UICONTROL 搜索]框中至少一个单词匹配的对象。 这些词可以按任意顺序输入。<br>例如，搜索“Marketing OR Demo”（不带引号）将查找具有以下名称的对象：</p> 
+   <td> <p>通过“OR”连接单词（不带引号）可让您仅查找与[！UICONTROL搜索]框中至少一个单词匹配的对象。 这些词可以按任意顺序输入。<br>例如，搜索“Marketing OR Demo”（不带引号）将查找具有以下名称的对象：</p> 
     <ul> 
      <li> 市场分析演示</li> 
      <li>1月市场分析演示</li> 
@@ -146,7 +146,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>包含和</td> 
-   <td> <p>通过“AND”连接单词（不带引号）可让您仅查找与[!UICONTROL 搜索]框中的所有单词匹配的对象。 这些词可以按任意顺序输入。<br>例如，搜索“Marketing AND Demo”（不带引号）将查找具有以下名称的对象：</p> 
+   <td> <p>通过“AND”连接单词（不带引号）可让您仅查找与[！UICONTROL搜索]框中的所有单词匹配的对象。 这些词可以按任意顺序输入。<br>例如，搜索“Marketing AND Demo”（不带引号）将查找具有以下名称的对象：</p> 
     <ul> 
      <li>营销演示</li> 
      <li>演示营销</li> 
@@ -165,7 +165,7 @@ ht-degree: 1%
 
 ### 基本搜索
 
-基本搜索允许您搜索系统中所有对象的关键字，或一次只搜索一个对象（如项目）的关键字。 [!DNL Workfront]然后在几个特定字段中搜索这些关键字。 然后，您可以根据[!DNL Workfront]选择的其他对象特定字段来优化搜索结果。
+基本搜索允许您搜索系统中所有对象的关键字，或一次只搜索一个对象（如项目）。 [!DNL Workfront]然后在几个特定字段中搜索这些关键字。 然后，您可以根据[!DNL Workfront]选择的其他对象特定字段来优化搜索结果。
 
 有关在基本搜索中搜索的特定字段的列表，请参阅本文中的[可供搜索的字段](#fields-available-for-search)。
 
@@ -183,7 +183,7 @@ ht-degree: 1%
 * 跨系统中的所有对象（常规搜索）。
 * 一次只在一个对象上（对象特定的搜索）。
 
-要执行基本搜索：
+执行基本搜索：
 
 1. 单击页面右上角的放大镜![搜索图标](assets/search-icon.png)。 您还可以键入&#x200B;**[!UICONTROL ALT + /]**&#x200B;或&#x200B;**[!UICONTROL Option + /]**&#x200B;以打开[!UICONTROL 搜索]菜单。
 
@@ -191,9 +191,10 @@ ht-degree: 1%
 
    ![按对象类型搜索](assets/search-objecttype.png)
 
-1. 在&#x200B;**[!UICONTROL 搜索]**&#x200B;框中，开始键入要搜索的信息。\
-   有关[!DNL Workfront]中搜索哪些字段的信息，请参阅[了解搜索](#understand-search)。\
-   ![搜索下拉列表](assets/qs-search-drop-down-highlighted-350x234.png)\
+1. 在&#x200B;**[!UICONTROL 搜索]**框中，开始键入要搜索的信息。
+有关[!DNL Workfront]中搜索哪些字段的信息，请参阅[了解搜索](#understand-search)。
+   ![搜索下拉列表](assets/qs-search-drop-down-highlighted-350x234.png)
+
    当您开始在搜索栏中输入内容时，[!DNL Workfront]会根据您的查看历史记录提供推荐，并以蓝色突出显示您正在搜索的关键字。
 
 1. 如果您要查找的项目显示在[!UICONTROL 预输入]菜单中，请单击该项目。
@@ -227,18 +228,19 @@ ht-degree: 1%
 要优化搜索，请执行以下操作：
 
 1. （视情况而定）如果执行常规搜索，请在结果左上角的对象列表中选择要搜索的对象。
-1. 在结果左侧的工具栏中，找到可用于搜索中显示的对象的字段。\
-   每个字段的值按计数排序，每个字段最多显示10个值。
-1. 单击任何可用字段以缩短结果列表。\
-   您所做的选择以蓝色突出显示，并且您未选择的字段值会隐藏。\
-   选择每个新值后，右侧的结果将动态更新。\
-   ![优化搜索](assets/qs-refine-search-350x175.png)
+1. 在结果左侧的工具栏中，找到可用于搜索中显示的对象的字段。
+每个字段的值按计数排序，每个字段最多显示10个值。
+1. 单击任何可用字段以缩短结果列表。
+您所做的选择以蓝色突出显示，并且您未选择的字段值会隐藏。
+选择每个新值后，右侧的结果将动态更新。
+
+   ![基本搜索选项卡](assets/basic-search.png)
 
 1. （可选）单击选定的值以取消选择它们，并再次显示每个字段的所有值。
 
 ### [!UICONTROL 高级搜索]
 
-[!UICONTROL 高级搜索]允许您使用基本搜索不可用的字段和筛选器进行搜索。 例如，您可以搜索具有特定优先级或文档所有者名称的项目。
+[!UICONTROL 高级搜索]允许您使用对基本搜索不可用的字段和过滤器进行搜索。 例如，您可以搜索具有特定优先级或文档所有者名称的项目。
 
 >[!NOTE]
 >
@@ -260,14 +262,12 @@ ht-degree: 1%
    [!UICONTROL 高级搜索]页面幻灯片从右侧打开，并覆盖上一页的大部分内容。
 
 1. 选择您要搜索的对象类型。\
-   默认情况下已选择&#x200B;**[!UICONTROL 项目]**。
+   默认情况下已选择&#x200B;**[!UICONTROL 任务]**。
 
-   ![高级搜索对象](assets/advanced-search-objects-qs-remove-after-prod-release.png)
+   ![高级搜索对象](assets/advanced-search.png)
 
 1. （可选）在列表顶部的字段中键入关键字。
-1. （可选）单击&#x200B;**[!UICONTROL 筛选结果]**&#x200B;以根据特定字段类型筛选搜索结果，然后从列表中选择一个字段。 如有必要，也为该字段选择一个值。\
-   或\
-   添加新筛选器。
+1. （可选）切换&#x200B;**[!UICONTROL 筛选结果]**&#x200B;以生成筛选器来优化您的搜索。 完成后单击&#x200B;**应用**。
 
 1. 单击&#x200B;**[!UICONTROL 搜索]**。\
    与您的搜索匹配的项列表显示在[!UICONTROL 高级搜索]工具栏的右侧。
