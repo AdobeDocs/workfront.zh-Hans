@@ -7,9 +7,9 @@ description: 在文档区域中，您可以组织、管理和查看上载到Adob
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
-source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
+source-git-commit: d231bc962bddf44daad6e10c5652d1ff46554f8a
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 # “文档”区域
 
 在文档区域中，您可以组织、管理和查看上载到Adobe Workfront的文档的元数据。 您还可以看到验证决定。
+
+添加到单独任务和问题的文档全部在项目>文档区域可用。
 
 ![文档区域](assets/documents-area-v2-350x199.png)
 
