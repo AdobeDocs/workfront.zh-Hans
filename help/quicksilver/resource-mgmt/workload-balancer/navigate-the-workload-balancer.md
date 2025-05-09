@@ -21,7 +21,7 @@ ht-degree: 0%
 
 工作负载均衡器在Adobe Workfront的多个区域中可用。 在所有区域导航都类似。
 
-有关工作负载均衡器位置的更多信息，请参阅[找到工作负载均衡器](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer)。
+有关工作负载均衡器位置的更多信息，请参阅[找到工作负载均衡器](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer)。
 
 ## 访问要求
 
@@ -106,8 +106,8 @@ ht-degree: 0%
 
 有关使用工作负载均衡器管理资源的信息，另请参阅以下文章：
 
-* [在工作负载均衡器中分配工作的概述](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [在工作负载均衡器中管理用户分配](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
+* [在工作负载均衡器中分配工作的概述](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [在工作负载均衡器中管理用户分配](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 
 ## 在资源区域为多个项目导航工作负载均衡器
