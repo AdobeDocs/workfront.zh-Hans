@@ -81,7 +81,7 @@ ht-degree: 0%
   >* 分配给用户的工作项和工作角色（其中工作角色被选为该项的主要被分配人）显示在“未分配的工作”区域中。
   >* 分配给多个用户的工作项显示在“已分配的工作”区域的所有已分配用户名下。
 
-  有关详细信息，请参阅工作负载均衡器](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中的分配工作的[概述中的“工作负载均衡器中的分配区域”。
+  有关详细信息，请参阅工作负载均衡器[&#128279;](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中的分配工作的概述中的“工作负载均衡器中的分配区域”。
 
 * 当项目在某个时间段内没有任务时，该项目级别的栏在该时间段为空白。
 
@@ -137,7 +137,7 @@ ht-degree: 0%
       * 应用过滤器后，会显示分配给角色、团队或未分配的工作项（任务和问题）。
 默认情况下，“未分配工作”区域不显示任何工作项。 我们建议使用过滤器来显示本区域为您提供的相关信息。
 
-        有关使用过滤器的信息，请参阅工作负载均衡器](../workload-balancer/filter-information-workload-balancer.md)中的[过滤器信息。
+        有关使用过滤器的信息，请参阅工作负载均衡器[&#128279;](../workload-balancer/filter-information-workload-balancer.md)中的过滤器信息。
 
       * 仅当您启用“按项目分组”设置时，才会显示项目。 有关信息，请参阅本文中的[自定义视图](#customize-the-view)部分。
 
@@ -212,7 +212,7 @@ ht-degree: 0%
 
 1. （可选且推荐）使用“未分配”和“已分配的工作”区域中的筛选器以仅显示与您相关的工作项或用户。
 
-   有关详细信息，请参阅工作负载均衡器](../workload-balancer/filter-information-workload-balancer.md)中的[过滤器信息。
+   有关详细信息，请参阅工作负载均衡器[&#128279;](../workload-balancer/filter-information-workload-balancer.md)中的过滤器信息。
 
    默认情况下，蓝色条表示项目和任务的时间线，栗色条表示问题。
 
@@ -415,7 +415,7 @@ ht-degree: 0%
    * 在&#x200B;**未分配的工作**&#x200B;区域：分配给团队或团队和工作角色且未分配给用户的工作项。
    * 在&#x200B;**已分配工作**&#x200B;区域：分配给用户的工作项显示在用户名下。
 
-1. 继续导航团队的工作负载均衡器，如本文的资源区域](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area)部分中的[导航多个项目的工作负载均衡器中所述。
+1. 继续导航团队的工作负载均衡器，如本文的资源区域[&#128279;](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area)部分中的导航多个项目的工作负载均衡器中所述。
 
 ## 在单个项目的工作负载均衡器中导航
 
@@ -433,7 +433,7 @@ ht-degree: 0%
 
    我们建议使用过滤器来仅显示对您重要的用户。
 
-   例如，您可以考虑仅显示属于您的团队或组的用户。 有关详细信息，请参阅工作负载均衡器](../workload-balancer/filter-information-workload-balancer.md)中的[过滤器信息。
+   例如，您可以考虑仅显示属于您的团队或组的用户。 有关详细信息，请参阅工作负载均衡器[&#128279;](../workload-balancer/filter-information-workload-balancer.md)中的过滤器信息。
 
 1. （可选）在分配的工作区域中单击&#x200B;**筛选器**&#x200B;图标![筛选器图标](assets/filter-icon.png)，然后从筛选器面板的&#x200B;**建议**&#x200B;区域中选择&#x200B;**此项目的工作项**&#x200B;选项。 默认情况下，此筛选器处于取消选中状态。
 

@@ -106,7 +106,7 @@ ht-degree: 3%
       </tbody> 
      </table>
 
-   * **编辑团队**：至少选择一个团队，单击&#x200B;****“编辑”图标![“编辑”图标](assets/edit-icon.png)，然后使用以下选项对其进行配置：
+   * **编辑团队**：至少选择一个团队，单击&#x200B;**&#x200B;**“编辑”图标![“编辑”图标](assets/edit-icon.png)，然后使用以下选项对其进行配置：
 
      <table style="table-layout:auto"> 
       <col> 

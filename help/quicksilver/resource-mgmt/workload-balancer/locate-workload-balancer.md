@@ -94,7 +94,7 @@ ht-degree: 1%
    * **未分配的工作**：没有未分配的工作项。
    * **已分配的工作**：系统中的所有活动用户。
 
-     在“已分配的工作”区域显示用户时，我们建议使用过滤器。 有关详细信息，请参阅工作负载均衡器](../workload-balancer/filter-information-workload-balancer.md)中的[过滤器信息。
+     在“已分配的工作”区域显示用户时，我们建议使用过滤器。 有关详细信息，请参阅工作负载均衡器[&#128279;](../workload-balancer/filter-information-workload-balancer.md)中的过滤器信息。
 
 ### 访问团队的工作负载均衡器
 
