@@ -116,7 +116,7 @@ drafted for P&P:
 1. 转到项目。
 1. 在左侧面板中，单击&#x200B;**基线**。
 
-   项目](assets/baselines-section-on-project-with-header.png)中的![基线部分
+   项目![&#128279;](assets/baselines-section-on-project-with-header.png)中的基线部分
 
 1. 单击&#x200B;**新建基线。**
 1. 指定基线的名称。
