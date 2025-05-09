@@ -6,9 +6,9 @@ description: 作为项目经理，您可以指定特定项目上工作角色的�
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 0%
 要覆盖项目的记帐费率，请执行以下操作：
 
 1. 转到要覆盖其记帐费率的项目。
-1. 单击左侧面板中的&#x200B;**记帐费率**。 您可能需要先单击&#x200B;**显示更多**。
+1. 单击左侧面板中的&#x200B;**记帐费率**。
 1. 单击&#x200B;**添加记帐费率** > **新记帐费率**。
 
    将打开“新建记帐费率”框。

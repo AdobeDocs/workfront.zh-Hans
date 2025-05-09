@@ -5,9 +5,9 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: 97c33c5a-e42d-4015-841f-69dc44a0599d
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 0%
 ## 将费率卡附加到项目
 
 1. 转到项目。
-1. 单击左侧面板中的&#x200B;**记帐费率**。 您可能需要先单击&#x200B;**显示更多**。
+1. 单击左侧面板中的&#x200B;**记帐费率**。
 1. 单击&#x200B;**添加记帐费率>附加费率卡**。
 
    将打开“附加费率卡”页。 有关详细信息，请参阅[管理费率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)。

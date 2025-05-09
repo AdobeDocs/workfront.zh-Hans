@@ -7,9 +7,9 @@ description: 您可以使用工作负载均衡器来计划工作的资源，或�
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '714'
 ht-degree: 1%
 
 ---
@@ -94,7 +94,7 @@ ht-degree: 1%
    * **未分配的工作**：没有未分配的工作项。
    * **已分配的工作**：系统中的所有活动用户。
 
-     在“已分配的工作”区域显示用户时，我们建议使用过滤器。 有关详细信息，请参阅工作负载均衡器[&#128279;](../workload-balancer/filter-information-workload-balancer.md)中的过滤器信息。
+     在“已分配的工作”区域显示用户时，我们建议使用过滤器。 有关详细信息，请参阅工作负载均衡器](../workload-balancer/filter-information-workload-balancer.md)中的[过滤器信息。
 
 ### 访问团队的工作负载均衡器
 
@@ -122,7 +122,7 @@ ht-degree: 1%
 {{step1-to-projects}}
 
 1. 单击项目名称以打开项目页面。
-1. 单击左侧面板中的&#x200B;**工作负载均衡器**。 您可能需要单击&#x200B;**显示更多**，然后单击&#x200B;**工作负载均衡器**。
+1. 单击左侧面板中的&#x200B;**工作负载均衡器**。
 
    此时将显示项目的工作负载均衡器。
 
