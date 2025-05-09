@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 3550d7addcc0bb790f15d141d9470e0b75f940a6
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1105'
 ht-degree: 2%
 
 ---
@@ -108,7 +108,7 @@ ht-degree: 2%
   <tr> 
    <td role="rowheader"><p>访问级别配置</p></td> 
    <td> <p>Adobe Workfront Planning没有访问级别控制</p> 
-   <p>在将记录连接到要创建的对象类型（项目、项目和项目组合）时，在Workfront中编辑对这些对象的访问权限。 </p>  
+   <p>编辑访问权限，访问权限：在Workfront中为要创建的对象类型（项目、项目组合、项目群）创建对象。 </p>  
 </td> 
   </tr> 
 <tr> 
@@ -146,7 +146,7 @@ ht-degree: 2%
 
 1. （视情况而定）单击&#x200B;**添加项目**
 或
-开始键入项目的名称，如果找不到，请单击&#x200B;**添加项目**。 添加按钮后跟您键入的项目名称。
+开始键入项目的名称，如果找不到，请单击**添加项目**。 添加按钮后跟您键入的项目名称。
 
    ![从连接字段连接项目时添加项目](assets/add-project-when-connecting-it-from-connection-field.png)
 

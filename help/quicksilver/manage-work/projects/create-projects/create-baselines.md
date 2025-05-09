@@ -6,9 +6,9 @@ description: 基线是项目快照，表示初始项目计划中包含的关键�
 author: Alina
 feature: Work Management
 exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -116,11 +116,7 @@ drafted for P&P:
 1. 转到项目。
 1. 在左侧面板中，单击&#x200B;**基线**。
 
-   或
-
-   单击&#x200B;**显示更多**，然后单击&#x200B;**基线**。
-
-   项目![&#128279;](assets/baselines-section-on-project-with-header.png)中的基线部分
+   项目](assets/baselines-section-on-project-with-header.png)中的![基线部分
 
 1. 单击&#x200B;**新建基线。**
 1. 指定基线的名称。

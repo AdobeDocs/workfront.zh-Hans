@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 0%
 1. 转到您作为帮助请求队列发布的项目。\
    有关将项目发布为帮助请求队列的详细信息，请参阅[创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
-1. 单击左侧面板中的&#x200B;**主题组**。 您可能需要单击&#x200B;**显示更多**，然后单击&#x200B;**主题组**。
+1. 单击左侧面板中的&#x200B;**主题组**。
 1. 单击&#x200B;**新建主题组**。
 
    ![](assets/new-topic-group-box-nwe-350x306.png)

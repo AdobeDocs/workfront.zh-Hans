@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
+   <td> <p>规划 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
@@ -121,7 +121,7 @@ ht-degree: 0%
 
 1. 转到要添加用户的项目。
 
-1. 单击左侧面板中的&#x200B;**人员**。 您可能需要先单击&#x200B;**显示更多**。
+1. 单击左侧面板中的&#x200B;**人员**。
 
 1. 单击&#x200B;**添加用户**。
 

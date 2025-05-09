@@ -6,9 +6,9 @@ description: 当用户不再参与完成项目工作时，您可以从项目中�
 author: Alina
 feature: Work Management
 exl-id: 3a75c78d-faed-41cd-a0a4-59504bb981af
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
+   <td> <p>规划 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 1. 转到要删除用户的项目。
 
-1. 单击左侧面板中的&#x200B;**人员**，然后选择要删除的用户。 您可能需要单击&#x200B;**显示更多**，然后单击&#x200B;**人员**。
+1. 单击左侧面板中的&#x200B;**人员**，然后选择要删除的用户。
 
 1. 单击用户列表顶部的&#x200B;**删除**&#x200B;图标![删除项](assets/remove-icon---x-in-circle.png)。
 

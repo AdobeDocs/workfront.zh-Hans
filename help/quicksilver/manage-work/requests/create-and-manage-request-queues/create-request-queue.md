@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '2855'
+source-wordcount: '2845'
 ht-degree: 2%
 
 ---
@@ -139,7 +139,7 @@ To create a Request Queue:
 
 1. Go to the project that you want to set up as a Request Queue.
 1. (Optional) Click **Project Details** in the left panel and add a **Description** to the project in the **Overview** area. This information displays on all new requests.
-1. Click **Queue Details** in the left panel. You might need to click **Show More**, then **Queue Details**.
+1. Click **Queue Details** in the left panel. 
 
    This opens the Queue Details section.
 
@@ -339,7 +339,7 @@ To create a Request Queue:
 
 1. 转到要设置为请求队列的项目。
 1. （可选）单击左侧面板中的&#x200B;**项目详细信息**，然后向&#x200B;**概述**&#x200B;区域中的项目添加&#x200B;**描述**。 此信息将显示在所有新请求中。
-1. 单击左侧面板中的&#x200B;**队列详细信息**。 您可能需要单击&#x200B;**显示更多**，然后单击&#x200B;**队列详细信息**。
+1. 单击左侧面板中的&#x200B;**队列详细信息**。
 
    这将打开队列详细信息部分。
 

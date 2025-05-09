@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '844'
 ht-degree: 2%
 
 ---
@@ -108,7 +108,7 @@ ht-degree: 2%
 
    有关创建主题组的信息，请参阅[创建主题组](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)。
 
-1. 单击左侧面板中的&#x200B;**队列主题**。 您可能需要单击&#x200B;**显示更多**，然后单击&#x200B;**队列主题**。
+1. 单击左侧面板中的&#x200B;**队列主题**。
 1. 单击&#x200B;**新建队列主题**。
 1. 在&#x200B;**新建队列主题**&#x200B;窗体中，输入以下内容：
 

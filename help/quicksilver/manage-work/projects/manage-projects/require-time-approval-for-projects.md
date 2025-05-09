@@ -6,9 +6,9 @@ description: 项目需要批准时间
 author: Alina
 feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 0%
 要批准或拒绝项目的小时数，请执行以下操作：
 
 1. 转到项目。
-1. 单击左侧面板中的&#x200B;**小时**&#x200B;区域。 此区域可能位于&#x200B;**显示更多**&#x200B;区域下。
+1. 单击左侧面板中的&#x200B;**小时**&#x200B;区域。
 
 1. 为问题、任务和项目显示记录的小时数，其状态应为&#x200B;**已提交**。\
    单击小时条目左侧的框以选择要批准的小时。

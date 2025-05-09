@@ -6,9 +6,9 @@ description: 前置任务是指其他任务需要完成才能执行的任务。 
 author: Alina
 feature: Work Management
 exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
-source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 0%
 ## 在任务级别强制前置任务
 
 1. 转至要强制其前置任务的后续任务。
-1. 单击左侧面板中的&#x200B;**前置任务**，然后单击&#x200B;**添加前置任务**。 您可能需要单击&#x200B;**显示更多**，然后单击&#x200B;**前置任务**。
+1. 单击左侧面板中的&#x200B;**前置任务**，然后单击&#x200B;**添加前置任务**。
 1. （视情况而定）如果要添加跨项目前置任务，请在&#x200B;**父项目**&#x200B;字段中移除项目的名称，并将其替换为其他项目。
 1. 在&#x200B;**任务**&#x200B;字段中指定前置任务的名称。
 1. 指定这两个任务之间的&#x200B;**依赖关系类型**。
