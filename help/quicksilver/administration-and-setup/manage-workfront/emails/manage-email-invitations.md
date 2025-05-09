@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: 管理发送给新用户的电子邮件邀请
 description: 作为Adobe Workfront管理员，您可以使用电子邮件邀请将用户添加到Workfront并通知他们已添加。
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: dccbd5a036e1b148bc8f3e41fac3a67babe6dc9a
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->本页中介绍的过程仅适用于尚未加入该Admin Console的组织。 如果贵组织已载入到Adobe Admin Console，则必须通过Adobe Admin Console执行此操作。
+>本页中介绍的过程仅适用于尚未载入Admin Console的组织。 如果贵组织已载入到Adobe Admin Console，则必须通过Adobe Admin Console执行此操作。
 >
 >有关因贵组织是否已登记到Adobe Admin Console而不同的过程列表，请参阅[基于平台的管理差异(Adobe Workfront/Adobe业务平台)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td>计划</td> 
+   <td>规划</td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 +++
 
-## 生成电子邮件邀请 {#generate-email-invitations}
+## 向现有的未注册用户重新发送电子邮件邀请
 
 在以下情况下会生成电子邮件邀请：
 
@@ -82,7 +82,7 @@ ht-degree: 0%
   >
   >如果在创建用户时取消选中&#x200B;**向此人发送电子邮件邀请**&#x200B;框，则无法手动生成电子邮件邀请。 仅当创建帐户时已发送原始电子邮件邀请的用户才可以手动重新发送电子邮件邀请。 有关创建新用户的详细信息，请参阅[添加用户](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)。
 
-要手动生成发送给现有未注册用户的电子邮件邀请，请执行以下操作：
+要手动向现有未注册用户重新发送电子邮件邀请，请执行以下操作：
 
 {{step-1-to-users}}
 
@@ -98,7 +98,7 @@ ht-degree: 0%
    >
    >如果贵组织已登记到Admin Console，并通过Workfront添加用户，则无法向新用户发送电子邮件邀请。
    >
-   >新的Adobe用户将添加到Admin Console，Admin Console会发送电子邮件邀请他们完成注册流程。 所有用户都必须完成注册过程才能访问任何Adobe系统。
+   >新的Adobe用户将添加到Admin Console，并且Admin Console会发送一封电子邮件邀请他们完成注册流程。 所有用户都必须完成注册过程才能访问任何Adobe系统。
    >
    >对于现有Adobe用户，用户可能会收到也可能不会收到有关Workfront可用性的电子邮件。 这是由Adobe管理员控制的产品首选项。
 
