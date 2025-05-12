@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: c02c5173626857b279b20ebe2784f8d81b1a1fcc
+source-git-commit: ad6d983524e19e60e0c884faed2990d9fa6549d7
 workflow-type: tm+mt
-source-wordcount: '13189'
+source-wordcount: '13194'
 ht-degree: 2%
 
 ---
@@ -409,7 +409,7 @@ ht-degree: 2%
    * 设置Workfront {#set-up-wf}
       * [设置](administration-and-setup/set-up-workfront/set-up-workfront.md)
       * 配置系统默认值 {#configure-system-defaults}
-         * [配置默认值](administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
+         * [配置系统默认值：文章索引](administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
          * [配置项目首选项](administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)
          * [配置任务和问题首选项](administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)
          * [锁定组的项目偏好设置](administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md)
@@ -1462,7 +1462,7 @@ ht-degree: 2%
       * [委派任务和问题概述](manage-work/delegate-work/delegate-work-overview.md)
       * [委派任务和问题](manage-work/delegate-work/how-to-delegate-work.md)
 * 团队和组 {#teams-groups}
-   * [团队和组](people-teams-and-groups/people-teams-and-groups.md)
+   * [团队和组：文章索引](people-teams-and-groups/people-teams-and-groups.md)
    * 创建和管理团队 {#create-manage-teams}
       * [创建和管理团队](people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)
       * [团队概述](people-teams-and-groups/create-and-manage-teams/teams-overview.md)
@@ -2167,7 +2167,7 @@ ht-degree: 2%
    * 适用于Outlook的Adobe Workfront {#workfront-for-outlook}
       * [适用于Outlook的Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
       * [设置适用于Outlook的Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
-      * [适用于Outlook的Workfront的权限级别](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
+      * 适用于Outlook的Workfront的[权限级别](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
       * [回复Outlook的评论](workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md)
       * [通过Outlook电子邮件更新现有对象](workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md)
       * [将Outlook电子邮件作为任务或问题添加到项目](workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md)
@@ -2462,8 +2462,8 @@ ht-degree: 2%
       * [使用JWT流配置和使用贵组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程配置和使用您组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-pkce-flow.md)
       * [弃用API — 内部](wf-api/api/deprecation-api-internal.md)
-      * [API版本20中的新增功能](wf-api/api/new-api-version-20.md)
-      * [API版本19中的新增功能](wf-api/api/new-api-version-19.md)
+      * [API版本20](wf-api/api/new-api-version-20.md)中的新增功能
+      * [API版本19](wf-api/api/new-api-version-19.md)中的新增功能
       * [API版本18中的新增功能](wf-api/api/new-api-version-18.md)
       * [API版本17中的新增功能](wf-api/api/new-api-version-17.md)
       * [API版本16中的新增功能](wf-api/api/new-api-version-16.md)

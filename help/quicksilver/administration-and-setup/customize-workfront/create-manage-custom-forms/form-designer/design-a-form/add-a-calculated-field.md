@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 0c2a54406ceb690e638cdc0376a3dc01a7c2df76
 workflow-type: tm+mt
-source-wordcount: '2422'
+source-wordcount: '2434'
 ht-degree: 0%
 
 ---
 
 # 将计算字段添加到表单
+
+<!-- Audited: 5/2025 -->
 
 您可以添加计算自定义字段，在自定义表单附加到对象时，该字段使用现有数据生成新数据。
 
@@ -77,7 +79,7 @@ ht-degree: 0%
 
 您可以在属于不同对象的自定义表单上使用相同的计算自定义字段。 例如，您可以使用为任务自定义表单上的项目自定义表单创建的“利润”计算字段。
 
-使用现有的已计算自定义字段时，计算不会转移到新表单中。 您必须在新自定义表单的同一字段中再次添加计算。
+使用现有的已计算自定义字段时，计算不会转移到新表单中。 您必须在新自定义表单的同一字段上再次添加计算。
 
 在新表单上，您还可以对同一字段进行不同的计算。 将计算自定义字段的名称保持相同可确保命名惯例的一致性和连贯性。
 
@@ -93,15 +95,15 @@ ht-degree: 0%
 
 {{step-1-to-setup}}
 
-1. 单击左侧面板中的&#x200B;**自定义Forms**。
+1. 在左侧面板中，单击&#x200B;**自定义Forms**，然后单击&#x200B;**Forms**。
 
    <!-- >[!TIP]
     >
     >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
-1. 单击&#x200B;**新建自定义表单。**
-1. 选择要将自定义表单附加到的对象类型，然后单击&#x200B;**继续**。
+1. 单击&#x200B;**新建自定义表单**。
 
+1. 在&#x200B;**新建自定义表单**&#x200B;对话框中，选择要将自定义表单附加到的对象类型，然后单击&#x200B;**继续**。
 1. 单击屏幕左上角的&#x200B;**字段库**。
 
    ![字段库](assets/field-library.png)
@@ -127,18 +129,19 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->在创建新的计算自定义字段之前，请确定要包含的现有字段，以便确保在Workfront中存在计算所需的数据。
+>在创建新的计算自定义字段之前，请确定要包含的现有字段，以便您确保计算所需的数据存在于Workfront中。
 
 {{step-1-to-setup}}
 
-1. 单击左侧面板中的&#x200B;**自定义Forms**。
+1. 在左侧面板中，单击&#x200B;**自定义Forms**，然后单击&#x200B;**Forms**。
+
+1. 单击&#x200B;**新建自定义表单**。
 
    <!-- >[!TIP]
     >
     >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
-1. 单击&#x200B;**新建自定义表单。**
-1. 选择要将自定义表单附加到的对象类型，然后单击&#x200B;**继续**。
+1. 在&#x200B;**新建自定义表单**&#x200B;对话框中，选择要将自定义表单附加到的对象类型，然后单击&#x200B;**继续**。
 
 1. 在屏幕左侧，找到&#x200B;**已计算**，并将其拖动到画布上的某个部分。
 
@@ -166,9 +169,9 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">格式化</td> 
-      <td> <p>您希望存储和显示字段结果的格式。</p> <p>如果该字段将用于数学计算，请始终使用<strong>数字</strong>或<strong>货币</strong>格式。 选择“数字”或“货币”时，系统会自动截断以0开头的数字。</p> 
-      <p><b>重要信息</b>：在选择格式之前，请考虑新字段的正确格式。 保存自定义表单后，无法编辑格式字段。 此外，选择错误的格式可能会影响报告和列表分组中的未来计算和汇总值。</p>
-      <p><strong>注意：</strong>货币格式的计算字段不应包含引号。 （例如，使用800.00而不是“800.00”。） 由于货币类型的语言格式存在细微差异，使用引号可能会导致意外后果。</p></td>
+      <td> <p>您希望存储和显示字段结果的格式。</p> <p>如果该字段将用于数学计算，请始终使用<strong>数字</strong>或<strong>货币</strong>格式。 选择<strong>数字</strong>或<strong>货币</strong>时，系统会自动截断以0开头的数字。</p> 
+      <p><b>重要信息</b>：在选择格式之前，请考虑新字段的正确格式。 保存自定义表单后无法编辑格式字段。 此外，选择错误的格式可能会影响报告和列表分组中的未来计算和汇总值。</p>
+      <p><strong>注意</strong>：采用<strong>货币</strong>格式的计算字段不应包含引号。 （例如，使用800.00而不是“800.00”。） 由于货币类型的语言格式存在细微差异，使用引号可能会导致意外后果。</p></td>
      </tr> 
     </tbody> 
    </table>
@@ -217,7 +220,7 @@ ht-degree: 0%
 
         在计算自定义字段中引用相关对象时，必须使用句点分隔对象名称和属性。
 
-        例如，在任务类型自定义表单中，要在计算自定义字段中显示Portfolio所有者的名称，应键入以下内容：
+        例如，在任务类型自定义表单中，要在计算自定义字段中显示“Portfolio所有者”的名称，应键入以下内容：
 
         `{project}.{porfolio}.{owner}`
 
@@ -295,7 +298,7 @@ ht-degree: 0%
       >
       >您可以执行以下任一操作以获得有关计算的帮助：
       > 
-      >* 将鼠标悬停在计算中的表达式上可查看说明、如何使用该表达式的示例以及文章[计算数据表达式概述](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)中有关更多信息“了解更多”链接。
+      >* 将鼠标悬停在计算中的表达式上可查看说明、如何使用该表达式的示例，以及文章[计算数据表达式概述](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)中有关更多信息&#x200B;**了解更多**链接。
       >  ![表达式帮助文本](assets/hover-expression-help-text.jpg)
       >* 使用颜色编码标识已添加的组件。 表达式以蓝色显示，字段以绿色显示。
       >  字段表达式的![颜色](assets/colors-fields-expressions.jpg)
