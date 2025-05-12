@@ -7,7 +7,7 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 036846cc84e53b090276f7b853372e4e0050c316
+source-git-commit: b81164511776efed53d3f41b4ac1cbf0c035c741
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 0%
@@ -88,7 +88,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 预览： 2025年4月17日
->* 生产快速发布： 2025年5月15日
+>* 生产快速发布： 2025年6月12日
 >* 适用于所有客户的生产： 2025年7月17日
 
 为了更好地控制谁可以查看或管理每种记录类型中的记录，并确保只有授权人员才能根据其角色和职责管理每种记录类型的信息，我们在记录类型级别引入了权限。
