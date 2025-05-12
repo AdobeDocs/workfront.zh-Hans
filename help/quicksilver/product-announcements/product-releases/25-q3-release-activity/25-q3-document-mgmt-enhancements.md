@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: f9de87b7b874910cb986cbf6d57e998afe602bb8
+source-git-commit: d0a82c1ae306edb4f63c961120bb1df4613ace7e
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,14 @@ ht-degree: 0%
 
 有关2025年第三季度发布周期中此时可用的所有更改列表，请参阅[2025年第三季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)。
 
->[!IMPORTANT]
->
->此页面上列出的功能属于分阶段发布，仅适用于特定客户。
+## 桌面校对查看器更新
+
+桌面校对查看器已更新至版本2.1.48。
+
+此更新是一个问题修复，旨在保持桌面查看器与Mac操作系统兼容。 电子降为34.4.0，Chromium降为132。
+
+此更新适用于Mac和Windows。
+
 
 ## 必须单独添加链接的Google文件夹中的Assets才能在Workfront中显示
 
@@ -43,6 +48,10 @@ Google正在为访问Google Drive的第三方应用程序[加强安全控制](ht
 
 
 ## 验证查看者中可用的新文档审批决策按钮
+
+>[!IMPORTANT]
+>
+>此功能属于分阶段发布，仅适用于特定客户。
 
 >[!NOTE]
 >

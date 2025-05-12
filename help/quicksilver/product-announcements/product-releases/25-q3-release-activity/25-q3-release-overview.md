@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: b81164511776efed53d3f41b4ac1cbf0c035c741
+source-git-commit: d0a82c1ae306edb4f63c961120bb1df4613ace7e
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '758'
 ht-degree: 1%
 
 ---
@@ -56,9 +56,18 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>快速发布</strong></td>
         <td><strong>每季度</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">桌面验证查看器更新</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+            <p>此更新是一个问题修复，旨在保持桌面查看器与Mac操作系统兼容。 电子降为34.4.0，Chromium降为132。</p>
+        </td>
+        <td>2025年5月7日</td>
+        <td>2025年5月7日</td>
+        <td>2025年5月7日</td>
+    </tr> 
       <tr>
         <td>
-            必须单独添加链接的Google文件夹中的<a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Assets才能在Workfront中显示</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+            必须单独添加链接的Google文件夹中的<a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Assets才能在Workfront中显示</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
             <p>Google正在<a href="https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps">增强安全控制</a>
             对于访问Google Drive的第三方应用程序，要求应用程序采用每个用户的同意模型。 因此，单个资源必须一次链接一个资源才能在Workfront中可见。 请参阅<a href="/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md">配置文档集成</a>
              以了解更多信息。 </p>
@@ -69,7 +78,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>  
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">验证查看者中可用的新文档审批决策按钮</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">验证查看者中可用的新文档审批决策按钮</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
             <p>新文档审批决策按钮现在显示在验证查看者中。 现在，当您创建简单验证，然后从文档摘要添加审批者和审阅者时，他们可以直接在验证查看者中做出决策。</p>
         </td>
         <td>2025年4月10日</td>
@@ -115,7 +124,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-update-and-notification-enhancements.md" class="MCXref xref" xrefformat="{para}">将人员添加到评论时修改了体验</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-update-and-notification-enhancements.md" class="MCXref xref" xrefformat="{para}">将人员添加到评论时修改了体验</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
             <p>为了改进性能，我们在向评论添加人员时引入了一种改进的体验。 现在，在将用户或团队添加到评论后，“为人员或团队加标签”链接在“评论”框中持续存在。 </p>
         </td>
         <td>2025年4月30日</td>
@@ -170,7 +179,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion增强
 
-Workfront Fusion中的新增功能在标准发布计划之外的生产环境中提供。 有关最新功能的详细信息，请参阅[Adobe Workfront Fusion发行活动](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
+Workfront Fusion中的新增功能在标准发布计划之外的生产环境中提供。 有关最新功能的详细信息，请参阅[Adobe Workfront Fusion发行活动](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
 
 ### Workfront规划增强功能
 
@@ -192,11 +201,11 @@ Workfront API版本20于2024年5月4日发布。 对于API版本20，我们修�
 
 ### Workfront 维护更新
 
-有关2025年第一季度版本中所做维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hans)。
+有关2025年第一季度版本中所做维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
 
 ### 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hans)的“新增功能”部分。
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的“新增功能”部分。
 
 
 
