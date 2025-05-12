@@ -298,7 +298,7 @@ ht-degree: 0%
       >
       >您可以执行以下任一操作以获得有关计算的帮助：
       > 
-      >* 将鼠标悬停在计算中的表达式上可查看说明、如何使用该表达式的示例，以及文章[计算数据表达式概述](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)中有关更多信息&#x200B;**了解更多**链接。
+      >* 将鼠标悬停在计算中的表达式上可查看说明、如何使用该表达式的示例，以及文章[计算数据表达式概述](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)中有关更多信息&#x200B;**了解更多**&#x200B;链接。
       >  ![表达式帮助文本](assets/hover-expression-help-text.jpg)
       >* 使用颜色编码标识已添加的组件。 表达式以蓝色显示，字段以绿色显示。
       >  字段表达式的![颜色](assets/colors-fields-expressions.jpg)
