@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: f94ad0f289064f243aadb08226bd5e53357f650d
+source-git-commit: b3a4945cf2db1ba11b42742f0da685b32a6d0dd9
 workflow-type: tm+mt
-source-wordcount: '1680'
+source-wordcount: '1694'
 ht-degree: 0%
 
 ---
@@ -237,6 +237,8 @@ IF({DE:Budget Field} < 0,
 另一个简单示例是，电话号码字段必须包含特定的有效位数。
 
 基于其他字段进行验证的另一个示例是会议室大小（小、中或大）字段和会议出席者人数的单独字段。 每个房间大小的人员数会写入验证公式中。 如果用户输入的与会者人数太多，则显示错误消息。
+
+有关验证逻辑的其他示例，请参阅[自定义表单中的高级逻辑示例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/advanced-logic-examples.md)。
 
 ### 定义验证逻辑
 

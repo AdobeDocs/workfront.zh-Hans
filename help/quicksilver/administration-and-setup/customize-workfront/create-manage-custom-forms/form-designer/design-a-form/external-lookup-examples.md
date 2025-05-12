@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 6f69425c811042f9f3e13f3631ba734f8fdcb95f
+source-git-commit: b3a4945cf2db1ba11b42742f0da685b32a6d0dd9
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1438'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,38 @@ ht-degree: 0%
 本文提供了使用外部查找字段调用Workfront或公共API的相同实例的示例。 您还可以使用外部查找与外部系统(如Jira、Salesforce或ServiceNow)进行通信。
 
 有关将外部查找字段添加到自定义表单以及外部查找组件的其他定义的详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+
+## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
+
+您必须具有以下权限才能执行本文中的步骤：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront计划 </td> 
+   <td>任何</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td>
+   <p>新增：标准</p>
+   <p>或</p>
+   <p>当前：计划</p></td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">访问级别配置</td> 
+   <td>对自定义表单的管理访问权限 </td> 
+  </tr>  
+ </tbody> 
+</table>
+
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 为同一Workfront实例设置外部查找字段
 
@@ -117,7 +149,7 @@ Workfront Planning API中提供了一个端点，用于通过Get方法按记录�
 * **HTTP方法：** Get
 * **JSON路径：** `$.records[*].data.{fieldID}`
 
-  **{fieldID}**&#x200B;是要在最终用户自定义表单的外部查找搜索结果中显示的字段。
+  **{fieldID}**&#x200B;是要在最终用户自定义表单上的外部查找搜索结果中显示的字段。
 
 有关详细信息，请参阅[Workfront计划API](/help/quicksilver/planning/general/planning-api-basics.md)。
 
@@ -184,18 +216,18 @@ Workfront Planning API中提供了一个端点，用于通过Get方法按记录�
 
 创建外部查找还有许多其他用例。
 
-**用例：**&#x200B;替换预输入字段，因为它们可能导致报告问题。
+**用例：**替换预输入字段，因为它们可能导致报告问题。
 **解决方案：**&#x200B;使用对系统中现有对象的API调用。
 
 模板的基本API URL示例，用于替换预输入字段：
 `$$HOST/attask/api/v17.0/tmpl/search?isActive=true&name_Sort=asc`
 
-**用例：**&#x200B;创建包含更多功能的下拉字段（例如，外部eokup字段中有换行符）。
+**用例：**创建包含更多功能的下拉字段（例如，外部eokup字段中有换行符）。
 **解决方案：**&#x200B;使用对系统中现有对象的API调用，或者创建新对象并使用对此对象的API调用。
 
-**用例：**&#x200B;为用户定义在自定义表单区域外维护他们自己的字段的方法。 设置“外部查找”字段，您可以将用户提供给组成该字段的对象。 此选项适合高维护性字段和团队。
+**用例：**为用户定义在自定义表单区域外维护他们自己的字段的方法。 设置“外部查找”字段，您可以将用户提供给组成该字段的对象。 此选项适合高维护性字段和团队。
 **解决方案：**&#x200B;创建新对象并使用对此对象的API调用。
 
-**用例：**&#x200B;与Workfront之外的对象集成。 例如，访问另一个系统以获取每个用户的名称，而不是被限制在预输入字段中。
+**用例：**与Workfront之外的对象集成。 例如，访问另一个系统以获取每个用户的名称，而不是被限制在预输入字段中。
 **解决方案：** Webhook/Fusion自动化以连接到其他系统。
 
