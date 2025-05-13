@@ -8,9 +8,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 1397702a6b50953e7abcfe491b95aeb8b981df5b
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '879'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td>计划</td> 
+   <td>规划</td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
@@ -70,7 +70,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader">对于包含角色的审批流程，要求审批者加入项目团队</td> 
-      <td> <p>当审批流程包含角色时，如果不需要审批者加入项目团队，请选择此选项。 将审批决策分配给工作角色时，只有拥有项目中的相关角色的用户才能看到审批。 如果启用此设置，则任何具有该工作角色的用户都将收到审批请求，无论他们是否属于项目团队。 有关编辑用户的项目角色的信息，请参阅<a href="../../../manage-work/projects/planning-a-project/manage-project-team.md" class="MCXref xref">管理项目团队</a>。 </p> 
+      <td> <p>当审批流程包含角色时，如果不需要审批者加入项目团队，请选择此选项。 任何具有该工作角色的用户都会收到审批请求，无论他们是否属于项目团队，但不会自动授予他们访问项目的权限。 有关编辑用户的项目角色的信息，请参阅<a href="../../../manage-work/projects/planning-a-project/manage-project-team.md" class="MCXref xref">管理项目团队</a>。 </p> 
       <p><b>提示</b>：当您将审批分配给角色并且选项<b>审批者不需要位于项目团队中（对于包含角色的审批流程）</b>被禁用，但项目团队中没有与审批中的角色匹配的角色时，审批被重新分配给项目所有者。 </p> </td> 
      </tr> 
      <tr> 
@@ -88,7 +88,7 @@ ht-degree: 2%
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">允许用户撤消刚创建、等待批准的请求</td> 
+      <td role="rowheader">允许用户撤消刚创建、等待审批的请求</td> 
       <td> <p>选择此选项可配置用户是否可以撤回其第一个状态的问题或待批准的请求。 通过配置请求队列，您可以将问题或请求的第一个状态与批准流程相关联。 </p> 
       <p>有关请求队列的详细信息，请参阅<a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">创建请求队列</a>。</p> 
       <p>执行下列操作之一：</p> 
