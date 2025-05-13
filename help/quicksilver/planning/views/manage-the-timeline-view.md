@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
 workflow-type: tm+mt
-source-wordcount: '2878'
+source-wordcount: '2946'
 ht-degree: 0%
 
 ---
@@ -171,7 +171,7 @@ ht-degree: 0%
 
 1. （可选）单击&#x200B;**划分**&#x200B;以在时间轴上显示连接的记录。
 
-   有关信息，请参阅[使用划分功能在时间线视图中显示连接的记录](#break-down-connected-records-in-the-timeline-view)部分
+   有关信息，请参阅本文中的[使用划分功能在时间线视图](#break-down-connected-records-in-the-timeline-view)中显示连接的记录。
 
 ### 添加过滤器
 
@@ -266,15 +266,22 @@ this is not possible right now; if this is the same functionality as the table v
 
 1. 为记录类型创建时间线视图，如[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)一文中所述。
 1. 单击&#x200B;**设置**。
-1. 单击左侧面板中的&#x200B;**日期和时间**，然后选择要显示在时间轴上的&#x200B;**开始日期**&#x200B;和&#x200B;**结束日期**。 您可以选择默认的“开始”和“结束”日期，也可以选择任何可用的日期字段。 表示记录的条形图从您为开始日期指定的日期开始，结束日期对应于结束日期。
+1. 单击左侧面板中的&#x200B;**日期和时间**，然后选择要显示在时间轴上的&#x200B;**开始日期**&#x200B;和&#x200B;**结束日期**。 您可以选择默认的“开始”和“结束”日期，也可以选择任何可用的日期字段。
+
+   表示记录的条形图从您为开始日期指定的日期开始，结束日期对应于结束日期。
 
    >[!NOTE]
    >
-   >对于开始日期或结束日期没有值或者开始日期晚于结束日期的记录，不会显示在时间轴视图中。
+   >* 对于开始日期或结束日期没有值或者开始日期晚于结束日期的记录，不会显示在时间轴视图中。
+   >
+   >* 如果使用“细分”选项显示附加记录，则起始日期和终止日期是主记录的起始日期和终止日期。 您无法在此区域为连接的记录选择开始日期和结束日期。
 
 1. 单击左侧面板中的&#x200B;**栏样式**&#x200B;以指示要在记录栏上显示的信息。
 
-   默认情况下会选择记录的主字段（或标题），如在记录的表格视图中定义的那样。<!--adjust this when the primary field is released??-->
+   <!--<span class="preview">You can define the bar style of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
+
+   默认情况下会选择记录的主字段（或标题），如在记录的表格视图中定义的那样。
+   <!--adjust this when the primary field is released??-->
 
 1. （可选且视情况而定）如果您将缩略图添加到记录，请选择“缩略图”选项以在记录栏中显示与记录关联的图像。
 
@@ -306,10 +313,13 @@ this is not possible right now; if this is the same functionality as the table v
    >
    >* <span class="preview">如果划分时间线视图以显示连接的对象，则“截断栏详细信息”设置仅适用于主记录类型。 它不适用于连接的记录栏。</span>
 
+   <!--take out the last bullet in the Tip above when we release the additional records in breakdown formatting-->
 
 1. 单击左侧面板中的&#x200B;**颜色**，以自定义时间轴中记录和分组的颜色。
 
    ![颜色选项卡时间线视图](assets/color-tab-timeline-view.png)
+
+   <!--<span class="preview">You can define the color of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
 
 1. （视情况而定，可选）如果向时间轴视图添加了分组，请从以下选项中进行选择，以在&#x200B;**设置分组颜色**&#x200B;部分中设置分组的颜色：
 
@@ -348,9 +358,13 @@ this is not possible right now; if this is the same functionality as the table v
 
    如果对于所选的记录类型没有带颜色编码选项的字段，则此选项将灰显。
 
+   <!--1. <span class="preview">(Optional) If you are using the Breakdown option, repeat the steps starting with step 4 for each connected record displayed in the timeline. </span>-->
+
 1. 单击&#x200B;**保存**。
 
    这些记录将按照您选择的规范显示在时间轴视图中。
+
+
 
 ### 在时间轴视图中划分连接的记录
 
@@ -359,6 +373,7 @@ this is not possible right now; if this is the same functionality as the table v
 #### 使用划分功能时的注意事项
 
 * 可以在时间轴视图的选定记录类型的记录下显示连接的记录或对象。
+* 仅当在“标准”模式下查看记录时，才可以在时间轴视图中显示连接的记录。 在时间轴视图的紧凑模式下，不能使用划分选项。
 * 使用“划分”功能，可在时间轴视图中显示以下内容：
    * 连接到所选记录类型的Workfront Planning记录。
    * 连接到所选记录类型的Workfront对象类型或Experience Manager资源。

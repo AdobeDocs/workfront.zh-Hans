@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1508'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 1%
 
 * [创建和编辑视图](#create-or-edit-record-views)
 * [删除视图](#delete-views)
-* [复制视图](#duplicate-views)
+* [复制视图](#duplicate-a-view)
 * [在视图中启用实时状态指示器](#enable-the-real-time-presence-indicator-in-a-view)
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
@@ -258,7 +258,7 @@ ht-degree: 1%
    默认情况下，所选类型的所有记录都会显示在表格视图中。
 
 1. 将鼠标悬停在视图选项卡中的某个视图名称上，然后单击视图名称左侧的&#x200B;**更多** ![更多菜单](assets/more-menu.png)，然后单击&#x200B;**删除**。
-首先，您可能需要单击最后一个选项卡左侧的&#x200B;**更多**&#x200B;以查找要删除的视图。
+首先，您可能需要单击最后一个选项卡左侧的**更多**&#x200B;以查找要删除的视图。
 
 1. 单击&#x200B;**删除**&#x200B;以确认。<!--ensure there is not another saving step here?!-->
 
