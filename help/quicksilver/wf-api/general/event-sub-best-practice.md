@@ -46,7 +46,7 @@ ht-degree: 0%
 
 要创建、查询或删除事件订阅，您的Workfront用户需要：
 
-* **系统管理员**的访问级别
+* **系统管理员**&#x200B;的访问级别
 要了解更多信息，请参阅[授予用户完全管理访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)或[授予用户对特定区域的管理访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
 
 * 需要`sessionID`标头才能使用事件订阅API
