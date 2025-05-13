@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 73df51a476695a3af11911da850ce4049c95aa06
+source-git-commit: 454877e742420c3bc289adf6b2cb1d692fc4fe95
 workflow-type: tm+mt
-source-wordcount: '2204'
+source-wordcount: '2355'
 ht-degree: 0%
 
 ---
@@ -32,12 +32,13 @@ ht-degree: 0%
 
 * 添加了新的“完全搜索”选项卡。 在此选项卡上，您可以按类型、输入者、输入日期、类别和上次更新者进行搜索。
 * 高级搜索选项卡上的过滤器略有不同。 现在，未预填充过滤器。 您必须将其打开并从头开始构建过滤器。 如果页面已刷新，则不会保留过滤器。
+* “Advanced Search（高级搜索）”现在为全屏。 您必须离开页面而不是关闭对话框。
 
 有关详细信息，请参阅[搜索 [!DNL Adobe Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/search/search-workfront.md)。
 
 ### 用于授予您的Workfront帐户支持访问权限的界面更新
 
-**预览版本： 4月24日；生产版本：即将宣布**
+**预览版本： 4月24日；生产版本：从2024年5月1日的一周开始**
 
 我们更新了您用于授予对Workfront帐户的支持访问权限的页面，更新后的设计更加现代化，与Workfront的其他区域一致。
 
@@ -237,7 +238,13 @@ ht-degree: 0%
 
 ## 文档
 
-+++展开以查看文档界面更新
+### 与外部电子邮件地址共享文档
+
+**预览版本： 2025年5月15日；生产版本：待宣布**
+
+我们更新了“共享”对话框，以允许用户使用电子邮件地址与外部用户共享文档。 由于界面现代化工作，此功能暂时不可用。
+
++++展开以查看更多“文档”界面更新
 
 ### 请求文档时界面更新
 
@@ -345,6 +352,22 @@ ht-degree: 0%
 +++
 
 ## 用户
+
+### 更新了登录页面的外观
+
+**预览版本： 2024年5月15日；生产版本：待宣布**
+
+我们更新了登录页面，更新后的设计更加现代化，与Workfront的其他部分保持一致。
+
+### 更新了重置密码页面的外观
+
+**预览版本： 2024年5月15日；生产版本：待宣布**
+
+我们更新了“重置密码”屏幕，使其设计更加现代化，与Workfront的其他部分保持一致。 此更新包括对以下页面的更新：
+
+* 密码即将过期
+* 密码已过期
+* 临时密码
 
 ### 更新了外部用户的文档共享页面
 
