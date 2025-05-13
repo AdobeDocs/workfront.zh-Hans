@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: a5769e57a9fe28b816e7fb4474ec4a67f837f530
+source-git-commit: 19e0b792bc49ede0504af479952fdbdf384dc73c
 workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Workfront提供两个版本的活动订阅。 本文介绍了它们之间的区�
 >
 >* **25.2版本**（2025年4月10日）：在25.2版本之后创建的所有新订阅都创建为版本2。
 >* **25.3版本**（2025年7月17日）：在25.3版本发布后，订阅无法再降级为版本1。
->* **2025年9月1日**：所有剩余版本1订阅迁移到版本2。
+>* **2026年1月15日**：所有剩余版本1订阅迁移到版本2。
 
 ## 版本1与版本2之间的更改
 
@@ -256,4 +256,4 @@ Workfront提供两个版本的活动订阅。 本文介绍了它们之间的区�
 
 Workfront Fusion使用事件订阅来监视Workfront中的更改以触发场景。 您可以使用Workfront >更新事件有效负载版本模块，更新Fusion直接在场景中使用的事件订阅版本。
 
-有关使用此模块的说明，请参阅Workfront Fusion文档中的[Workfront模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules)。
+有关使用此模块的说明，请参阅Workfront Fusion文档中的[Workfront模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules)。

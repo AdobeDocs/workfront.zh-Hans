@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 19e0b792bc49ede0504af479952fdbdf384dc73c
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -42,15 +42,13 @@ ht-degree: 0%
 
 列入允许列表要通过防火墙接收事件订阅负载，必须将IP地址添加到按全局区域进行的IP地址。 若要了解详细信息，请参阅[事件订阅API](../../wf-api/general/event-subs-api.md)。
 
-## 拥有正确的访问级别和API密钥
+## 拥有正确的访问级别和身份验证
 
 要创建、查询或删除事件订阅，您的Workfront用户需要：
 
-* **系统管理员**&#x200B;的访问级别
+* **系统管理员**的访问级别
 要了解更多信息，请参阅[授予用户完全管理访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)或[授予用户对特定区域的管理访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
 
-* API密钥
+* 需要`sessionID`标头才能使用事件订阅API
 
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To learn more, see .</p>
-  -->
+  有关详细信息，请参阅[API基础知识](api-basics.md)中的[身份验证](api-basics.md#authentication)。
