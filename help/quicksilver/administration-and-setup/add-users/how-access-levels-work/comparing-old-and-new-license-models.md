@@ -33,23 +33,23 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th> </th> 
-   <th colspan="5">[！UICONTROL旧版]</th> 
+   <th colspan="5">[!UICONTROL 旧版]</th> 
    <!--<th>[!UICONTROL Requestor]</th> 
    <th>[!UICONTROL External]</th> -->
-   <th colspan="3">[！UICONTROL新建]</th> 
+   <th colspan="3">[!UICONTROL 新建]</th> 
    </tr> 
  </thead> 
  <thead> 
   <tr> 
    <th> </th> 
-   <th>[！UICONTROL Planner]</th> 
-   <th>[！UICONTROL Worker]</th> 
-   <th>[！UICONTROL Reviewer]</th> 
-  <th>[！UICONTROL请求者]</th> 
-   <th>[！UICONTROL External]</th>
-   <th>[！UICONTROL标准版]</th> 
-   <th>[！UICONTROL Light]</th> 
-   <th>[！UICONTROL参与者]</th> 
+   <th>[!UICONTROL Planner]</th> 
+   <th>[!UICONTROL Worker]</th> 
+   <th>[!UICONTROL Reviewer]</th> 
+  <th>[!UICONTROL 请求者]</th> 
+   <th>[!UICONTROL External]</th>
+   <th>[!UICONTROL 标准版]</th> 
+   <th>[!UICONTROL Light]</th> 
+   <th>[!UICONTROL 参与者]</th> 
   </tr> 
  </thead> 
  <tbody> 
