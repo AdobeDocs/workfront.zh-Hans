@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 101a0ce2-dfa6-44ea-a197-22bc85ef50f5
-source-git-commit: dd6ff5927aaa4f8f2d41d0f2950d98ea32517ff9
+source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -33,341 +33,341 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th> </th> 
-   <th colspan="5">[!UICONTROL 旧版]</th> 
+   <th colspan="5">[！UICONTROL旧版]</th> 
    <!--<th>[!UICONTROL Requestor]</th> 
    <th>[!UICONTROL External]</th> -->
-   <th colspan="3">[!UICONTROL 新建]</th> 
+   <th colspan="3">[！UICONTROL新建]</th> 
    </tr> 
  </thead> 
  <thead> 
   <tr> 
    <th> </th> 
-   <th>[!UICONTROL Planner]</th> 
-   <th>[!UICONTROL Worker]</th> 
-   <th>[!UICONTROL Reviewer]</th> 
-  <th>[!UICONTROL 请求者]</th> 
-   <th>[!UICONTROL External]</th>
-   <th>[!UICONTROL 标准版]</th> 
-   <th>[!UICONTROL Light]</th> 
-   <th>[!UICONTROL 参与者]</th> 
+   <th>[！UICONTROL Planner]</th> 
+   <th>[！UICONTROL Worker]</th> 
+   <th>[！UICONTROL Reviewer]</th> 
+  <th>[！UICONTROL请求者]</th> 
+   <th>[！UICONTROL External]</th>
+   <th>[！UICONTROL标准版]</th> 
+   <th>[！UICONTROL Light]</th> 
+   <th>[！UICONTROL参与者]</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td>查看和查看内容（验证和文档）</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-  <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  <td>✓</td> 
    <td></td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>下载文档</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>查看动态、集成的日历</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td>
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td>
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
    <tr> 
    <td>访问展示板</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td>
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>审阅和批准工作任务和问题</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td>
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>查看报告和仪表板</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td>
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>查看资源管理和能力计划报告</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td>
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>提交请求</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td>
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>跟踪进度并协作处理工作和请求</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td>
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>查看项目和文档详细信息</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td>
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>接收工作分派通知</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
    <td></td>
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>审阅和批准项目</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td>
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>通过移动应用程序查看工作</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td>
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>查看项目计划和时间线</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td>
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>查看项目组合和程序</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td>
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td> 
   </tr> 
   <tr> 
    <td>无限制的内容决策（验证和文档）</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td>
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td> 
   </tr> 
   <tr> 
    <td>跟踪时间并提交工时表</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td>
-   <td>✓ {\f13 }</td> 
-   <td></td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td> 
   </tr> 
   <tr> 
    <td>批准工时表</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
    <td></td> 
    <td></td>
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td> 
   </tr> 
    <td>创建工作任务</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
    <td></td> 
    <td></td>
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
   </tr> 
   <tr> 
    <td>完成分配的工作任务</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
    <td></td>
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
   </tr> 
   <tr> 
    <td>创建和管理项目</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
    <td></td> 
    <td></td>
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
   </tr> 
   <tr> 
    <td>创建和管理请求队列</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
    <td></td> 
    <td></td>
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
   </tr> 
   <tr> 
    <td>创建自动审批工作流</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
    <td></td> 
    <td></td>
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
   </tr> 
   <tr> 
    <td>创建自定义表单</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
    <td></td> 
    <td></td>
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
   </tr> 
   <tr> 
    <td>创建模板</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
    <td></td> 
    <td></td>
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
   </tr> 
   <tr> 
    <td>管理项目组合和程序</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
    <td></td> 
    <td></td>
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
   </tr> 
   <tr> 
    <td>使用资源管理和能力规划</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
    <td></td> 
    <td></td>
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
   </tr> 
   <tr> 
    <td>创建和分发报告和仪表板</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
    <td></td> 
    <td></td>
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
   </tr> 
   <tr> 
    <td>生成数字验证</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
    <td></td>
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
   </tr> 

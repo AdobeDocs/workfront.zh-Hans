@@ -1,14 +1,14 @@
 ---
 title: 管理记录视图
-description: 使用Adobe Workfront Planning时，您可以在表、时间轴或日历视图中显示记录。 本文介绍了如何创建视图以及编辑或删除现有视图。
+description: 使用Adobe Workfront Planning时，您可以在表、时间轴或日历视图中显示记录。 本文介绍了如何创建视图和编辑现有视图。
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
+source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1161'
 ht-degree: 1%
 
 ---
@@ -40,10 +40,14 @@ ht-degree: 1%
 本文介绍了有关记录视图的以下信息：
 
 * [创建和编辑视图](#create-or-edit-record-views)
-* [删除视图](#delete-views)
-* [复制视图](#duplicate-a-view)
 * [在视图中启用实时状态指示器](#enable-the-real-time-presence-indicator-in-a-view)
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
+
+有关管理Workfront Planning记录视图的更多信息，另请参阅以下文章：
+
+* [删除记录视图](/help/quicksilver/planning/views/delete-record-views.md)
+* [复制记录视图](/help/quicksilver/planning/views/duplicate-record-views.md)
+* [共享视图](/help/quicksilver/planning/access/share-views.md)
 
 
 ## 访问要求
@@ -123,21 +127,17 @@ ht-degree: 1%
 * 您创建的视图仅对您以及与您共享这些视图的用户可见。
 * 当您修改或删除视图时，将会修改该视图，并删除具有该视图权限的所有用户。
 * 每个用户最多可创建100个视图。 您可以为记录类型显示100多个视图，但一个用户只能创建100个视图。
-* 您可以与其他人共享您创建的视图。 有关信息，请参阅[共享视图](/help/quicksilver/planning/access/share-views.md)。
-* 以下元素对于每个记录视图都是唯一的：
+* 虽然某些视图元素可以应用于同一记录的多个视图，但它们对每个记录视图都是唯一的：
 
    * 筛选条件
-   * 分组
-   * 排序
-   * 条形图外观（用于时间轴视图）
+   * 分组（针对表格和时间线视图）
+   * 条形图外观（用于时间轴和日历视图）
 
-  <!-- some of these are not available in all of the views - edit above-->
+  例如，在表格视图中创建筛选器时，筛选器结果仅在选定视图（表格视图）中可见，而不在与记录类型关联的所有视图中可见。
 
-  例如，在表格视图中创建筛选器时，筛选器结果仅在选定视图中可见，而不在与记录类型关联的所有视图中可见。
-
-  >[!NOTE]
+  >[!TIP]
   >
-  > 某些视图元素可能并非对所有视图都可用。
+  >某些视图元素并非对所有视图都可用。
 
 
 ## 记录视图之间的异同
@@ -160,7 +160,7 @@ ht-degree: 1%
 | 显示日历中的记录 |           |              | ✓ |
 | 组记录 | ✓ | ✓ |
 | 排序记录 | ✓ |              |
-| 颜色代码记录 |           | ✓ | ✓ |
+| <span class="preview">颜色代码记录</span> | <span class="preview">✓</span> | ✓ | ✓ |
 | 颜色代码分组 |           | ✓ |
 | 搜索特定记录 | ✓ | ✓ |
 | 与他人共享视图 | ✓ | ✓ | ✓ |
@@ -242,76 +242,18 @@ ht-degree: 1%
    * [管理时间线视图](/help/quicksilver/planning/views/manage-the-timeline-view.md)
    * [管理日历视图](/help/quicksilver/planning/views/manage-the-calendar-view.md)
 
-
-## 删除视图
-
-{{step1-to-planning}}
-
-1. 单击工作区的卡片。
-
-   工作区将打开，记录类型显示为卡片。
-
-1. 单击记录类型卡片。
-
-   此时将打开记录类型页面。
-
-   默认情况下，所选类型的所有记录都会显示在表格视图中。
-
-1. 将鼠标悬停在视图选项卡中的某个视图名称上，然后单击视图名称左侧的&#x200B;**更多** ![更多菜单](assets/more-menu.png)，然后单击&#x200B;**删除**。
-首先，您可能需要单击最后一个选项卡左侧的&#x200B;**更多**&#x200B;以查找要删除的视图。
-
-1. 单击&#x200B;**删除**&#x200B;以确认。<!--ensure there is not another saving step here?!-->
-
-   所有有权访问记录区域的用户都将删除该视图，并且无法恢复它。
-
-<!--## Add a view as a favorite - this is not possible yet-->
-
-<!--not possible yet - August 30, 2023: -->
-
-## 复制视图
-
-如果要保留视图的多个版本，并在这些版本之间进行细微更改，则可以复制视图。
-
-复制视图会创建现有视图的相同副本。
-
-原始视图的共享权限不会转移到复制的视图。
-
-{{step1-to-planning}}
-
-1. 单击工作区的卡片。
-
-   工作区将打开，记录类型显示为卡片。
-
-1. 单击记录类型卡片。
-
-   此时将打开记录类型页面。
-默认情况下，所选类型的所有记录都会显示在表格视图中。
-
-1. 将鼠标悬停在要复制的视图的选项卡上，单击视图名称右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击&#x200B;**复制**。
-
-   ![查看包含重复选项的更多菜单](assets/view-more-menu-with-duplicate-option.png)
-
-
-   视图重复，新视图的名称遵循以下模式： `Original view's name (Copy)`。 新的视图选项卡将显示在所有视图选项卡的末尾。
-
 ## 在视图中启用实时显示状态指示器
+
+您可以按照视图中的实时状态指示器，查看其他用户是否与您同时编辑记录。
 
 默认情况下，与编辑记录信息的其他用户头像将显示在所有记录视图的右上角。
 
 显示表格视图时，还可以查看查看查看记录时其他用户正在编辑的字段。
 
-1. 转到记录类型页面并打开任意视图。
-1. （视情况而定）如果同时有其他用户编辑所选类型的记录，则其头像将显示在视图的右上角。
-1. 单击头像旁边的下拉菜单，然后选择&#x200B;**显示协作者**&#x200B;切换开关。 默认情况下，该切换处于选中状态。
+有关详细信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)。
 
-   ![显示协作者切换选定项](assets/show-collaborators-toggle-selected.png)
 
-1. （视情况而定）打开表格视图，另一个人正在主动编辑的字段会以对应于表格视图中其头像轮廓的颜色突出显示。
 
-   如果头像的高亮颜色为灰色，则用户在30秒前停止了主动编辑记录。
+<!--## Add a view as a favorite - this is not possible yet-->
 
-   ![实时指示器表字段和头像连接](assets/real-time-indicator-table-field-and-avatar-connection.png)
-
-   >[!TIP]
-   >
-   >您可以从任何视图中选择&#x200B;**显示协作者**&#x200B;切换开关。 他人当前编辑的字段仅在表格视图中列出。
+<!--not possible yet - August 30, 2023: -->

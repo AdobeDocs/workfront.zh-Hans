@@ -1,14 +1,14 @@
 ---
 title: 管理表视图
-description: 访问Adobe Workfront Planning中的记录类型页面时，您可以在表格视图中显示记录及其字段。 本文介绍了如何创建表视图，以及如何编辑或删除现有表视图。
+description: 访问Adobe Workfront Planning中的记录类型页面时，您可以在表格视图中显示记录及其字段。 本文介绍了如何创建或编辑表格视图编辑，以及如何启用视图的实时显示指示器，或者如何将其导出到CSV或Excel文件。
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
+source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
 workflow-type: tm+mt
-source-wordcount: '3229'
+source-wordcount: '3395'
 ht-degree: 2%
 
 ---
@@ -24,6 +24,12 @@ ht-degree: 2%
 访问Adobe Workfront Planning中的记录类型页面时，您可以在表格视图中显示记录及其字段。
 
 有关记录视图以及如何管理它们的信息，请参阅[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)。
+
+本文介绍了以下信息：
+
+* [在表格视图中创建或编辑列和行](#manage-a-table-view)
+* [为表视图启用实时状态指示器](#enable-the-real-time-presence-indicator)
+  <!--* <span class="preview">[Export a table view to a CSV or Excel file](#export-the-table-view)</span>-->
 
 ## 访问要求
 
@@ -525,7 +531,21 @@ To sort grouped records:
 
 显示表格视图时，还可以查看查看查看记录时其他用户正在编辑的字段。
 
-有关详细信息，请参阅文章[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)中的“启用实时显示状态指示器”部分。
+1. 转到记录类型页面并打开任意视图。
+1. （视情况而定）如果同时有其他用户编辑所选类型的记录，则其头像将显示在视图的右上角。
+1. 单击头像旁边的下拉菜单，然后选择&#x200B;**显示协作者**&#x200B;切换开关。 默认情况下，该切换处于选中状态。
+
+   ![显示协作者切换选定项](assets/show-collaborators-toggle-selected.png)
+
+1. （视情况而定）打开表格视图，另一个人正在主动编辑的字段会以对应于表格视图中其头像轮廓的颜色突出显示。
+
+   如果头像的高亮颜色为灰色，则用户在30秒前停止了主动编辑记录。
+
+   ![实时指示器表字段和头像连接](assets/real-time-indicator-table-field-and-avatar-connection.png)
+
+   >[!TIP]
+   >
+   >您可以从任何视图中选择&#x200B;**显示协作者**&#x200B;切换开关。 他人当前编辑的字段仅在表格视图中列出。
 
 <!--<div class="preview">
 
