@@ -6,9 +6,10 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: b2ab4ca5aab65966d3833b0e6d58a563e70694e0
+exl-id: c0bf438f-f496-420a-b3b6-b958c8a70d3f
+source-git-commit: 1d2761d50176ea5ddf7649f31da8423fd60a6fe6
 workflow-type: tm+mt
-source-wordcount: '3354'
+source-wordcount: '3365'
 ht-degree: 1%
 
 ---
@@ -554,7 +555,9 @@ ht-degree: 1%
 
 +++
 
-### 更新和评论
+### 更新和注释
+
++++展开以查看第二季度进行的“更新和评论”界面更新
 
 ### 评论的更多菜单选项的外观更新
 
@@ -569,3 +572,5 @@ ht-degree: 1%
 * 以红色显示删除操作以将其突出显示。
 
 有关信息，请参阅[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
+
++++
