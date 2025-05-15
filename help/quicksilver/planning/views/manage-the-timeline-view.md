@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '2946'
+source-wordcount: '3060'
 ht-degree: 0%
 
 ---
@@ -97,8 +97,6 @@ ht-degree: 0%
 +++
 
 ## 管理时间线视图 {#manage-a-timeline-view}
-
-<!--insert screen shot of timeline view-->
 
 创建时间线视图时，所选记录类型的所有记录都按时间顺序显示在时间线中。
 
@@ -278,7 +276,7 @@ this is not possible right now; if this is the same functionality as the table v
 
 1. 单击左侧面板中的&#x200B;**栏样式**&#x200B;以指示要在记录栏上显示的信息。
 
-   <!--<span class="preview">You can define the bar style of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
+   <span class="preview">在“标准”视图中使用“划分”选项时，您可以定义主记录以及连接记录的条形样式。</span>
 
    默认情况下会选择记录的主字段（或标题），如在记录的表格视图中定义的那样。
    <!--adjust this when the primary field is released??-->
@@ -309,17 +307,14 @@ this is not possible right now; if this is the same functionality as the table v
 
    >[!TIP]
    >
-   >* <span class="preview">在紧凑模式下显示时间轴视图时，截断栏详细信息设置不可用，在日历视图中不可用。</span>
+   ><span class="preview">在紧凑模式下显示时间轴视图时，截断栏详细信息设置不可用，在日历视图中不可用。</span>
    >
-   >* <span class="preview">如果划分时间线视图以显示连接的对象，则“截断栏详细信息”设置仅适用于主记录类型。 它不适用于连接的记录栏。</span>
-
-   <!--take out the last bullet in the Tip above when we release the additional records in breakdown formatting-->
 
 1. 单击左侧面板中的&#x200B;**颜色**，以自定义时间轴中记录和分组的颜色。
 
    ![颜色选项卡时间线视图](assets/color-tab-timeline-view.png)
 
-   <!--<span class="preview">You can define the color of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
+   <span class="preview">在“标准”视图中使用“划分”选项时，您可以定义主记录的颜色以及连接的记录的颜色。</span>
 
 1. （视情况而定，可选）如果向时间轴视图添加了分组，请从以下选项中进行选择，以在&#x200B;**设置分组颜色**&#x200B;部分中设置分组的颜色：
 
@@ -358,7 +353,7 @@ this is not possible right now; if this is the same functionality as the table v
 
    如果对于所选的记录类型没有带颜色编码选项的字段，则此选项将灰显。
 
-   <!--1. <span class="preview">(Optional) If you are using the Breakdown option, repeat the steps starting with step 4 for each connected record displayed in the timeline. </span>-->
+   1. <span class="preview">（可选）如果您使用“划分”选项，请为时间轴中显示的每个连接记录重复从步骤4开始的步骤。</span>
 
 1. 单击&#x200B;**保存**。
 
@@ -410,9 +405,18 @@ this is not possible right now; if this is the same functionality as the table v
    >    开始和结束日期必须是连续的。 如果结束日期早于开始日期，则时间轴中不会显示任何记录。
 
    如果所选记录与其他记录连接，则时间轴中的选定记录栏上将显示一个向右箭头。
-1. 单击向右箭头展开记录类型，显示为“connections（连接）”。
+1. 单击向右箭头可展开记录类型并显示其连接。
 
    在时间线视图中![按项目细分的营销活动](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
+
+   >[!IMPORTANT]
+   >
+   >    当您在划分中显示多个连接的记录时，它们不是按层级顺序排列的。
+   >
+   >例如，如果您查看的是营销策划的时间表，您在划分中添加了产品，然后又添加了“项目”，则“项目”不一定首先与“产品”关联。
+   >
+   >产品和项目群都必须连接到营销策划，才能显示为划分选项的选项，您可以按任意顺序将它们添加到划分。
+
 
 1. （可选）重复上述步骤以添加更多连接的记录。
 

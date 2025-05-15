@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '1007'
 ht-degree: 1%
 
 ---
@@ -109,9 +109,11 @@ ht-degree: 1%
 * 不支持空工作表。
 * 以下类型的字段不受支持，无法映射到导入工作表中的字段：
 
-   * &#x200B;<!--In the Production environment,--> 与Planning记录或Workfront和AEM Assets对象的连接字段
+   * 连接字段，具体取决于您使用的环境：
 
-     <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
+      * 在生产环境中，无法映射到Planning记录或Workfront和AEM Assets对象的连接字段
+
+      * <span class="preview">在“预览”环境中，可以将连接字段映射并导入到Planning记录。 无法将字段映射到Workfront和AEM Assets。</span>
 
    * 从连接的Planning记录或Workfront和AEM Assets对象查找字段
    * 公式字段
@@ -129,8 +131,8 @@ ht-degree: 1%
 
    从工作区中，展开现有工作区名称右侧的向下箭头，搜索工作区，然后在工作区显示在列表中时将其选定。
 1. 单击&#x200B;**添加记录类型**。
-1. 单击&#x200B;**来自文件**。
-1. 拖放以前保存在您计算机上的Excel或CSV文件，或单击&#x200B;**选择CSV或Excel文件**&#x200B;以浏览一个。
+1. 单击&#x200B;**从文件**&#x200B;上载。
+1. 拖放以前保存在您计算机上的Excel或CSV文件，或单击&#x200B;**选择CSV或Excel文件**&#x200B;以浏览该文件，然后选择该文件。
 1. 单击&#x200B;**预览和编辑**。
 
    显示&#x200B;**预览和编辑**&#x200B;框并显示以下信息：
@@ -153,11 +155,21 @@ ht-degree: 1%
 
    取消选择的工作表显示有灰色背景。
 
-1. （可选）单击列标题右侧的向下箭头，以执行以下操作之一：
+1. （可选）单击列标题右侧的向下箭头，在&#x200B;**字段**&#x200B;选项卡</span>中执行以下操作之一： <span class="preview">
+
+   记录类型映射导入框上的<span class="preview">![字段选项卡](assets/field-tab-on-record-type-import-mapping-box.png)</span>
 
    * 重命名其中一个字段
    * 更改&#x200B;**字段类型**
    * 更新字段&#x200B;**描述**
+
+1. <span class="preview">（可选）单击&#x200B;**连接**&#x200B;选项卡以将列中的信息映射到来自其他记录类型的已连接字段。</span>
+
+   <span class="preview">![记录类型导入映射框上的“连接”选项卡](assets/connection-tab-on-record-type-import-mapping-box.png)</span>
+
+   >[!TIP]
+   >
+   ><span class="preview">您只能映射到Workfront Planning连接记录中的字段。 您无法从Workfront或AEM Assets连接映射到字段。 有关详细信息，请参阅本文中的[有关使用Excel或CSV文件导入记录类型的注意事项](#considerations-about-importing-record-types-using-an-excel-or-csv-file)部分。</span>
 
 1. （视情况而定）更新字段相关信息后，单击&#x200B;**保存**。
 

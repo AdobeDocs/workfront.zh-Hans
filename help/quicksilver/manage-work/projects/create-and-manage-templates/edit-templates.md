@@ -6,9 +6,9 @@ description: 您可以编辑项目模板以反映项目流程和设置中的更�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '4877'
+source-wordcount: '4881'
 ht-degree: 2%
 
 ---
@@ -1100,7 +1100,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 * 记帐费率
 
-  有关覆盖项目记帐费率的详细信息，请参阅[覆盖工作角色记帐费率和计算项目收入的概述](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)。
+  为模板添加记帐费率与为项目添加记帐费率类似。 有关详细信息，请参阅[覆盖项目级别的工作角色记帐费率](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)。
 
 * 费用
 

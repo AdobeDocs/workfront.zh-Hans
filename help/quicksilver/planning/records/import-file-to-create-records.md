@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1065'
 ht-degree: 1%
 
 ---
@@ -113,9 +113,11 @@ ht-degree: 1%
 * 不支持空工作表。
 * 以下类型的字段不受支持，无法映射到导入工作表中的字段：
 
-   * &#x200B;<!--In the Production environment,--> 与Planning记录或Workfront和AEM Assets对象的连接字段
+   * 连接字段，具体取决于您使用的环境：
 
-     <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
+      * 在生产环境中，无法映射到Planning记录或Workfront和AEM Assets对象的连接字段
+
+      * <span class="preview">在“预览”环境中，可以将连接字段映射并导入到Planning记录。 无法将字段映射到Workfront和AEM Assets。</span>
 
    * 从连接的Planning记录或Workfront和AEM Assets对象查找字段
    * 公式字段
@@ -148,6 +150,11 @@ ht-degree: 1%
    导入记录时![将Planning字段映射到列](assets/map-planning-fields-to-columns-when-importing-records.png)
 
    每一行表示一个新记录。 只有前10条记录会显示在“预览和编辑”框中。
+
+   >[!TIP]
+   >
+   >并非所有字段类型都受支持。 有关详细信息，请参阅本文中关于使用Excel或CSV文件导入记录的[注意事项](#considerations-about-importing-records-using-an-excel-or-csv-file)部分。
+
 
 1. （可选且有条件）如果您具有工作区的管理权限，请选择屏幕左下角的&#x200B;**创建缺少的选项**。 启用后，将添加缺少的单选和多选字段选项。
 

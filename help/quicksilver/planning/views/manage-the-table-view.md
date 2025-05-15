@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '3395'
+source-wordcount: '3680'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 2%
 
 * [在表格视图中创建或编辑列和行](#manage-a-table-view)
 * [为表视图启用实时状态指示器](#enable-the-real-time-presence-indicator)
-  <!--* <span class="preview">[Export a table view to a CSV or Excel file](#export-the-table-view)</span>-->
+* <span class="preview">[将表视图导出为CSV或Excel文件](#export-the-table-view)</span>
 
 ## 访问要求
 
@@ -88,7 +88,7 @@ ht-degree: 2%
 <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
    <td>   <p>管理视图的权限</p>  
-   <p>查看对视图的权限以临时更改视图设置或复制它 <!--<span class="preview">or to export the view</span>--></p> </td> 
+   <p>查看视图的权限以临时更改视图设置、复制、<span class="preview">或导出它</span></p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>版面模板</p></td> 
@@ -109,8 +109,6 @@ ht-degree: 2%
 有关编辑表视图中的记录的详细信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
 
 ## 管理表视图 {#manage-a-table-view}
-
-<!--insert screen shot of table view-->
 
 创建表视图时，选定类型的所有记录都会显示在表中。 每一行是一个唯一记录，每一列是一个记录字段。 默认情况下，显示所有字段和所有记录。
 
@@ -547,51 +545,52 @@ To sort grouped records:
    >
    >您可以从任何视图中选择&#x200B;**显示协作者**&#x200B;切换开关。 他人当前编辑的字段仅在表格视图中列出。
 
-<!--<div class="preview">
+<div class="preview">
 
-## Export the table view
+## 导出表格视图
 
-You can export information in the table view to a CSV or an Excel file. 
+您可以将表格视图中的信息导出为CSV或Excel文件。
 
-Consider the following when exporting the table view:
+导出表视图时，请考虑以下事项：
 
-* The information exported to an Excel file preserves the filters, groupings, and sorts applied to the table view in Workfront Planning. Groupings are not visible in the CSV file.
+* 导出到Excel文件中的信息将保留应用于Workfront Planning中的表格视图的筛选器、分组和排序。 分组在CSV文件中不可见。
 
-* Thumbnails and custom row colors are not supported in exported files.  
+* 导出的文件不支持缩略图和自定义行颜色。
 
-* Only fields made visible in the Workfront interface are exported. Hidden fields are not exported.
+* 仅导出在Workfront界面中可见的字段。 隐藏字段不导出。
 
-To export information from the table view or a record type:
+要从表格视图或记录类型导出信息，请执行以下操作：
 
-1. Go to a record type page and click a table view tab. 
-1. Hover over the table view tab's name, then click the **More** menu ![More menu](assets/more-menu.png).
-1. Click **Export**, then select one of the following formats:
+1. 转到记录类型页面，然后单击表格视图选项卡。
+1. 将鼠标悬停在表视图选项卡的名称上，然后单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)。
 
-    * Excel
-    * CSV
+   视图上的![更多菜单](assets/view-more-menu-with-duplicate-option.png)
+1. 单击&#x200B;**导出**，然后选择以下格式之一：
 
-    >[!IMPORTANT]
-    >
-    >You cannot export information from the table view when you display a different view on the screen. You must display the table view that you want to export in order to access the Export option in the More menu. 
+   * Excel
+   * CSV
 
-    The file is downloaded to your computer. 
+   >[!IMPORTANT]
+   >
+   >当在屏幕上显示不同的视图时，不能从表格视图导出信息。 要访问“更多”菜单中的“导出”选项，必须显示要导出的表格视图。
 
-1. (Optional) Go to the downloads folder on your computer and find the downloaded file. 
+   文件已下载到您的计算机。
 
-    The name of the exported file follows the following format: 
+1. （可选）转到计算机上的下载文件夹并找到下载的文件。
 
-    `Name of the view - name of the record type`
+   导出文件的名称遵循以下格式：
 
-    For example, a table view for the Campaigns record type generates a file named `Table view - Campaigns`.
+   `Name of the view - name of the record type`
 
-    The file displays the following information: 
-    
-    * The column headers are highlighted in black, in the Excel file
-    * All the fields visible in the Workfront interface, sorted and filtered by the same criteria
-    * Groupings are preserved in the Excel file
+   例如，促销活动记录类型的表视图会生成一个名为`Table view - Campaigns`的文件。
 
-    You can now share the exported files with others, or attach them to any communication. 
-    
- </div>   
+   文件显示以下信息：
 
- -->
+   * 在Excel文件中，列标题以黑色突出显示
+   * 在Workfront界面中可见的所有字段，均按相同的标准进行排序和过滤
+   * 分组将保留在Excel文件中
+
+   您现在可以与其他人共享导出的文件，或将其附加到任何通信。
+
+</div>
+

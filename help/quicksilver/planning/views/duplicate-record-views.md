@@ -5,13 +5,13 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+exl-id: 441a53d1-ad39-41b7-93fe-2ae1836476c9
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 1%
 
 ---
-
 
 # 复制记录视图
 
@@ -114,9 +114,9 @@ ht-degree: 1%
    此时将打开记录类型页面。
 默认情况下，所选类型的所有记录都会显示在表格视图中。
 
-1. 将鼠标悬停在要复制的视图的选项卡上，单击视图名称右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击&#x200B;**复制**。
+1. <span class="preview">将鼠标悬停在要复制的视图的选项卡上，单击视图名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**复制**。</span>
 
-   ![在记录视图上查看更多菜单](assets/view-more-menu-with-duplicate-option.png)
+   <span class="preview">![在记录视图上查看更多菜单](assets/view-more-menu-with-duplicate-option.png)</span>
 
 
    视图重复，新视图的名称遵循以下模式： `Original view's name (Copy)`。 新的视图选项卡将显示在所有视图选项卡的末尾。

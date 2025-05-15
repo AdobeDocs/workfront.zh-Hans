@@ -5,13 +5,13 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '440'
 ht-degree: 2%
 
 ---
-
 
 # 删除记录视图
 
@@ -111,11 +111,14 @@ ht-degree: 2%
 
    默认情况下，所选类型的所有记录都会显示在表格视图中。
 
-1. 将鼠标悬停在视图选项卡中的某个视图名称上，然后单击视图名称左侧的&#x200B;**更多** ![更多菜单](assets/more-menu.png)，然后单击&#x200B;**删除**。
+1. <span class="preview">将鼠标悬停在视图选项卡中的某个视图名称上，然后单击视图名称左侧的&#x200B;**更多** ![更多菜单](assets/more-menu.png)，然后单击&#x200B;**删除**。</span>
 
-   首先，您可能需要单击最后一个选项卡左侧的&#x200B;**更多**&#x200B;以查找要删除的视图。
+   <span class="preview">![在记录视图上查看更多菜单](assets/view-more-menu-with-duplicate-option.png)</span>
 
-   ![在记录视图上查看更多菜单](assets/view-more-menu-with-duplicate-option.png)
+   >[!TIP]
+   >
+   >您可能需要单击最后一个选项卡右侧的&#x200B;**更多**&#x200B;以查找要删除的视图。
+
 
 1. 单击&#x200B;**删除**&#x200B;以确认。<!--ensure there is not another saving step here?!-->
 

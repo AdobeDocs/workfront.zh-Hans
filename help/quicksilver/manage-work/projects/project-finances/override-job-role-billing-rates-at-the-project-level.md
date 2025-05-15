@@ -6,9 +6,9 @@ description: 作为项目经理，您可以指定特定项目上工作角色的�
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,8 @@ ht-degree: 0%
 
 * 多次，为特定日期范围选择多个新费率。\
   在每个指定的日期范围内可以使用不同的费率。
+
+* 您可以将新记帐费率添加到项目模板，当从该模板创建项目时，这些费率将成为项目记帐费率。 有关编辑模板的信息，请参阅[编辑项目模板](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md)。
 
 >[!TIP]
 >
