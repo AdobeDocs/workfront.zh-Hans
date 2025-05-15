@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
-source-git-commit: 564d9b6ba81093caf7ac897ef785120f3bc85d07
+source-git-commit: 93a904811ccc48d320c8d2646c095017baf13900
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '700'
 ht-degree: 3%
 
 ---
@@ -23,6 +23,44 @@ ht-degree: 3%
 ## 界面现代化
 
 我们正在更新整个Adobe Workfront中的界面，以改进用户体验并将其与其他Adobe应用程序相统一。 这些更改将在标准发布计划之外发布。 有关这些更改的列表，请参阅[接口现代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+
+<!--
+
+## Look-and-feel-updates to a group's recently restored items
+
+>[!NOTE]
+>
+>Preview release: May 15, 2025; Production release for all customers: May 15, 2025
+
+We have updated the look and feel of the recently restored items for groups, to match the design of other areas of Workfront. No functionality has changed for recently restored group projects, tasks, requests, documents, or templates.
+
+To view this change, go to Setup > Groups > Select name of group > Recently Restored.
+
+For information, see [View and manage a group's recently restored items](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md).
+
+-->
+
+## “设置”中“诊断”页面的外观更新
+
+>[!NOTE]
+>
+>预览版本： 2025年5月15日；适用于所有客户的生产版本： 2025年5月15日
+
+我们更新了“设置”区域中“诊断”页面的外观，以与Workfront其他区域的设计相匹配。
+
+要查看此更改，请转到“设置”>“系统”>“诊断”。
+
+有关信息，请参阅[使用诊断来触发自动化进程](/help/quicksilver/administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md)。
+
+## 向模板添加计费率时的外观更新
+
+>[!NOTE]
+>
+>预览版本： 2025年5月15日；适用于所有客户的生产版本： 2025年5月15日
+
+在向模板添加计费率时，我们更新了界面，以匹配应用程序的其他部分。
+
+此更新未引入任何功能更改。
 
 ## 评论的更多菜单选项的外观更新
 

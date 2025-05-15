@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: b81164511776efed53d3f41b4ac1cbf0c035c741
+source-git-commit: a39ba047fc4c1e422f3bea8bd9266b9197219900
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,61 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 更新时间轴视图设置，以定义在使用划分选项时连接记录栏的外观
+
+>[!NOTE]
+>
+>* 预览： 2025年5月15日
+>* 生产快速发布： 2025年6月12日
+>* 适用于所有客户的生产： 2025年7月17日
+
+您现在可以为划分中的记录设置时间轴视图中记录栏外观的格式。 您可以更新这些记录栏的以下设置：
+
+* 栏样式
+* 颜色
+
+在此增强功能之前，您只能格式化在时间轴视图中显示的主记录栏，并且不能格式化所连接记录的栏。\
+ 
+有关信息，请参阅[管理时间线视图](/help/quicksilver/planning/views/manage-the-timeline-view.md)。  
+
+## 将表格视图导出为CSV或Excel文件 
+
+>[!NOTE]
+>
+>* 预览： 2025年5月15日
+>* 生产快速发布： 2025年6月12日
+>* 适用于所有客户的生产： 2025年7月17日
+
+我们为Workfront Planning添加了一项新功能，通过该功能，您可以将表视图中的可见信息导出为CSV或Excel文件。  
+
+从表视图导出信息时，请考虑以下事项：  
+
+* 导出的信息会考虑应用于Workfront Planning中的表格视图的筛选器、分组和排序。
+* 导出的文件不支持缩略图和自定义行颜色。  
+* 仅导出在Workfront界面中可见的字段。 隐藏字段不导出。  
+
+有关详细信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)。 
+
+## 使用CSV或Excel文件导入记录时，现在支持Workfront Planning连接的字段
+
+>[!NOTE]
+>
+>* 预览： 2025年5月15日
+>* 生产快速发布： 2025年6月12日
+>* 适用于所有客户的生产： 2025年7月17日
+
+使用CSV或Excel文件将记录添加到记录类型时，现在可以填充已连接字段的值。  仅支持连接的Planning记录字段。 不支持显示与其他应用程序连接的字段。
+
+导入CSV和Excel文件以创建记录类型和现有记录类型的记录时，支持此更改。
+
+在此增强功能之前，在导入记录时无法填充连接字段。
+
+有关信息，请参阅以下文章：
+
+* [通过从CSV或Excel文件导入信息创建记录](/help/quicksilver/planning/records/import-file-to-create-records.md)。
+
+* [通过从CSV或Excel文件导入信息来创建记录类型](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md)。
 
 ## 在记录的“连接的记录”页面中进行内联编辑
 
