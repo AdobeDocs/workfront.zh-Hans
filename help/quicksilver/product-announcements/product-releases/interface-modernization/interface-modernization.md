@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 0525dc9025f43491a5413726600df0dbb9e45b94
+source-git-commit: e94d7f40accd80d631765405752a03bf3a0363f1
 workflow-type: tm+mt
-source-wordcount: '3539'
+source-wordcount: '3691'
 ht-degree: 1%
 
 ---
@@ -82,8 +82,28 @@ ht-degree: 1%
 
 我们更新了您用于授予对Workfront帐户的支持访问权限的页面，更新后的设计更加现代化，与Workfront的其他区域一致。
 
+## 报告和仪表板
+
+### Workfront功能板中不再支持包含/tile或/qstile的URL
+
+**预览版本： 5月13日；生产版本：即将宣布**
+
+如果您在仪表板上有一个外部页面，该页面的Workfront URL包含`/tile`或`/qstile`，则不会再加载该页面。
+
+将`/tile`或`/qstile`添加到Workfront URL后，浏览器可以加载不受支持的经典体验页面，这些页面已在2022年7月被弃用。
+
+我们建议替换URL以转到支持的页面，或从功能板中删除外部页面。
+
 
 ## 用户
+
+### 新用户注册页面的界面更新
+
+**预览版本： 2024年5月15日；生产版本：待宣布**
+
+我们更新了新用户注册页面，更新后的设计更加现代化，与Workfront的其他部分保持一致。
+
+用户无法再选择在此页面上上传照片。 但是，一旦他们登录到Workfront，就可以在其用户配置文件中上传照片。
 
 ### 更新了登录页面的外观
 
@@ -122,7 +142,6 @@ ht-degree: 1%
 **预览版本： 2024年4月24日；生产版本：从2024年5月8日开始的一周开始**
 
 我们更新了许可协议页面，使其设计更加现代化，与Workfront的其他部分保持一致。
-
 
 
 ## 第2季度进行的界面更新
