@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: d0ec729a510b78a7ce417356ac9250a485308f0b
 workflow-type: tm+mt
 source-wordcount: '3060'
 ht-degree: 0%
@@ -276,7 +276,7 @@ this is not possible right now; if this is the same functionality as the table v
 
 1. 单击左侧面板中的&#x200B;**栏样式**&#x200B;以指示要在记录栏上显示的信息。
 
-   <span class="preview">在“标准”视图中使用“划分”选项时，您可以定义主记录以及连接记录的条形样式。</span>
+   在“标准”视图中使用“划分”选项时，您可以定义主记录<span class="preview">的条形样式，也可以定义连接的记录</span>的条形样式。
 
    默认情况下会选择记录的主字段（或标题），如在记录的表格视图中定义的那样。
    <!--adjust this when the primary field is released??-->
@@ -314,7 +314,7 @@ this is not possible right now; if this is the same functionality as the table v
 
    ![颜色选项卡时间线视图](assets/color-tab-timeline-view.png)
 
-   <span class="preview">在“标准”视图中使用“划分”选项时，您可以定义主记录的颜色以及连接的记录的颜色。</span>
+   在“标准”视图中使用“划分”选项时，您可以定义主记录<span class="preview">以及连接的记录</span>的颜色。
 
 1. （视情况而定，可选）如果向时间轴视图添加了分组，请从以下选项中进行选择，以在&#x200B;**设置分组颜色**&#x200B;部分中设置分组的颜色：
 

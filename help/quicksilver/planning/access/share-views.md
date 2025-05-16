@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: d0ec729a510b78a7ce417356ac9250a485308f0b
 workflow-type: tm+mt
 source-wordcount: '1657'
 ht-degree: 1%
@@ -202,9 +202,9 @@ This article describes how you can share a view with others. For information abo
 
    这将打开记录类型页面。
 
-1. 在“视图”选项卡中，将鼠标悬停在要共享的视图上，然后单击视图名称右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击&#x200B;**共享**。
+1. <span class="preview">在“视图”选项卡中，将鼠标悬停在要共享的视图上，然后单击视图名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**共享**。</span>
 
-   使用共享选项扩展的视图的![更多菜单](assets/more-menu-for-views-expanded-with-share-option.png)
+   使用共享选项扩展的视图的<span class="preview">![更多菜单](assets/more-menu-for-views-expanded-with-share-option.png)</span>
 
 1. 单击&#x200B;**公共共享**。
 
@@ -236,14 +236,12 @@ This article describes how you can share a view with others. For information abo
 1. （视情况而定）如果您是视图的管理者，则可能会收到其他用户发出的访问以下区域中的视图的请求：
 
    * 应用程序内通知
-
      ![视图访问请求的应用程序内通知](assets/in-app-notification-for-access-request-for-view.png)
    * 电子邮件通知
-
      ![视图访问请求的应用程序内通知](assets/in-app-notification-for-access-request-for-view.png)
 1. （视情况而定）在Workfront的通知区域中，单击应用程序内通知
 或
-在电子邮件通知中，单击&#x200B;**查看所有通知**，然后单击列表中的通知。
+在电子邮件通知中，单击**查看所有通知**，然后单击列表中的通知。
 
    显示&#x200B;**待处理访问请求**&#x200B;框。
 
