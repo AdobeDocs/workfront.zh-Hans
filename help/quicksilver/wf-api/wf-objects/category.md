@@ -1,21 +1,23 @@
 ---
 content-type: api
 navigation-topic: workfront-objects
-title: 当APIModel INTERNAL不支持字段projectid (OpTask)类别时
-description: 当APIModel INTERNAL不支持字段projectid (OpTask)时
+title: 类别
+description: 可用于Category对象的字段表，其中包含它们的说明和值类型。
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 24c900ee-a8f1-458e-a18b-c098c6314e0c
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 25%
+source-wordcount: '281'
+ht-degree: 27%
 
 ---
 
 
 # 类别
+
+<!-- Audited: 5/2025 -->
 
 字段类：“java.lang.IllegalArgumentException”，\
 消息：“APIModel INTERNAL不支持字段projectid (OpTask)”
@@ -90,7 +92,7 @@ ht-degree: 25%
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;extRefID&quot;}"><strong>extRefID</strong> </td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;External Reference ID&quot;}">外部参考 ID</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">字符串</td> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;User Editable Field inteded to be used a link to an external object&quot;}">用户可编辑字段要用作指向外部对象的链接</td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;User Editable Field inteded to be used a link to an external object&quot;}">用户可编辑字段，用于链接外部对象</td> 
    <td> </td> 
    <td> <p><span class="dtEdit">可编辑</span> </p> </td> 
   </tr> 
@@ -139,23 +141,23 @@ ht-degree: 25%
 
 ## 引用
 
-| 名称 | 标签 | 类型 | 键入对象代码 | URL |
-|---|---|---|---|---|
-| 客户 | 客户 | 客户 | 客户 | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| 输入者 | 输入者 | 用户 | 用户 | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| 组 | 组 | 组 | 组 | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| 上次更新者 | lastUpdatedBy | 用户 | 用户 | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
+| 名称 | 标签 | 类型 | 键入对象代码 |
+|---|---|---|---|
+| 客户 | 客户 | 客户 | 客户 |
+| 输入者 | 输入者 | 用户 | 用户 |
+| 组 | 组 | 组 | 组 |
+| 上次更新者 | lastUpdatedBy | 用户 | 用户 |
 
 
-## 收藏集
+## 集合
 
-| 名称 | 标签 | 类型 | 键入对象代码 | URL |
-|---|---|---|---|---|
-| 访问规则 | accessRules | 访问规则 | ACSRUL | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| 类别访问规则 | categoryAccessRules | 类别访问规则 | 灾祸 | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| 类别级联规则 | categoryCascadeRules | 类别级联规则 | CTCSRL | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| 类别参数 | categoryparameters | 类别参数 | CTGYPA | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| 其他组 | 其他组 | 组 | 组 | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
+| 名称 | 标签 | 类型 | 键入对象代码 |
+|---|---|---|---|
+| 访问规则 | accessRules | 访问规则 | ACSRUL |
+| 类别访问规则 | categoryAccessRules | 类别访问规则 | 灾祸 |
+| 类别级联规则 | categoryCascadeRules | 类别级联规则 | CTCSRL |
+| 类别参数 | categoryparameters | 类别参数 | CTGYPA |
+| 其他组 | 其他组 | 组 | 组 |
 
 
 ## 操作

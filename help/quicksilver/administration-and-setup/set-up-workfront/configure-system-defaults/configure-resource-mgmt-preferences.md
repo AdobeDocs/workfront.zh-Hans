@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
 
 # 配置[!UICONTROL 资源管理]首选项
+
+<!-- Audited: 5/2025 -->
 
 <!--Linked to lots of articles for resource planning and LINKED TO CONTEXT SENSITIVE HELP - DO NOT CHANGE OR REMOVE!</p>
 Edit the first part, once they add more settings in the Res Management Preferences - right now, only the FTE calculation is the
@@ -34,19 +36,19 @@ Edit the first part, once they add more settings in the Res Management Preferenc
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>新文档： [!UICONTROL Standard]</p>
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td><p>新增：标准</p>
    或
-   <p>当前： [!UICONTROL 计划]</p>
+   <p>当前：计划</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td>
+   <td>系统管理员</td>
   </tr> 
  </tbody> 
 </table>
@@ -59,11 +61,11 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 
 在计算用户的容量时，Workfront会考虑以下信息：
 
-* 计划的小时数，如用户的计划或Workfront系统的[!UICONTROL 默认计划]中所定义
-* [!UICONTROL 计划] [!UICONTROL 异常] （根据使用哪个[!UICONTROL 计划]，它可以是用户计划的异常，也可以是与[!DNL Workfront] [!UICONTROL 默认计划]关联的异常）
-* 用户空闲时间
+* 计划的小时数，如用户的计划或Workfront系统的默认计划中定义。
+* 计划例外(根据使用的计划，它可以是用户计划的例外，也可以是与Workfront默认计划关联的例外)。
+* 用户的休息时间。
 * 用户或[!DNL Workfront]系统的等效全职([!UICONTROL FTE])值。 按照计划中的定义，当用户全职工作时，[!UICONTROL FTE]等于1。
-* [!UICONTROL 工作时间]的值，指用户用于项目相关工作的时间。 这不包括额外的时间，如会议和培训。 当用户按照[!UICONTROL FTE]或计划指示的整个时间可用于工作时，[!UICONTROL 工作时间]等于1，这意味着他们不会花费任何时间在会议或培训等与项目无关的工作上。
+* 用户的[!UICONTROL 工作时间]值，该值表示用户用于项目相关工作的时间。 这不包括额外的时间，如会议和培训。 当用户按照[!UICONTROL FTE]或计划指示的整个时间可用于工作时，[!UICONTROL 工作时间]等于1，这意味着他们不会花费任何时间在会议或培训等与项目无关的工作上。
 
 
 有关[!DNL Workfront]中计划和计划资源的信息，请参阅[资源管理入门](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)。
@@ -80,13 +82,11 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 1. 单击&#x200B;**[!UICONTROL 资源管理]**。
 1. 选择下列方法之一以计算[!DNL Workfront]中用户的可用性：
 
-   * **默认计划**： [!DNL Workfront]使用系统的默认计划和用户的单个FTE在资源管理工具中计算用户的可用小时数。
+   * **默认计划**： [!DNL Workfront]使用系统的默认计划和用户的个人FTE在资源管理工具中计算用户的可用小时数。
 
-     有关计划的详细信息，请参阅[创建计划](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
+     有关详细信息，请参阅[创建计划](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)和[编辑用户配置文件](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
-     有关查找用户[!UICONTROL FTE]值的详细信息，请参阅[编辑用户配置文件](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
-
-     当Workfront管理员选择[!UICONTROL 默认计划]时，Workfront使用以下公式计算用户的可用小时数：
+     选择此选项后，Workfront使用以下公式计算用户的可用小时数：
 
 
      `User Available Hours = [([!UICONTROL Default Schedule] Hours - [!UICONTROL Exceptions]) * [!UICONTROL FTE] - Time off hours] * [!UICONTROL Work Time]`
@@ -94,7 +94,7 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 
      >[!INFO]
      >
-     >例如，如果默认计划为一周40小时，用户档案中的FTE为0.5，用户一天有1小时的空闲时间，且用户档案中的[!UICONTROL 工作时间]为0.5，则用户每周有9.5小时的实际项目工作时间。
+     >例如，如果默认计划为一周40小时，用户配置文件中的FTE为0.5，用户一天有1小时的空闲时间，用户配置文件中的[!UICONTROL 工作时间]为0.5，并且用户每周有9.5小时的实际项目工作时间。
      >
      >如果用户在一天中有1小时的空闲时间，则其可用小时数计算如下：
      >
@@ -132,11 +132,9 @@ Edit the first part, once they add more settings in the Res Management Preferenc
       </div></li>      
       -->
 
-   * **用户的计划**： [!DNL Workfront]使用用户的计划以及系统的[!UICONTROL 默认计划]计算资源管理工具中用户的可用[!UICONTROL FTE]值。 可用小时数仅根据用户的计划计算。 已忽略用户的[!UICONTROL FTE]的值。 这是默认设置。
+   * **用户的计划**： [!DNL Workfront]使用用户的计划以及系统的[!UICONTROL 默认计划]计算资源管理工具中用户的可用[!UICONTROL FTE]值。 可用小时数仅根据用户的计划计算，并且忽略用户的[!UICONTROL FTE]的值。 这是默认设置。
 
-     有关计划的详细信息，请参阅[创建计划](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
-
-     有关用户[!UICONTROL 计划]的详细信息，请参阅[编辑用户配置文件](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
+     有关详细信息，请参阅[创建计划](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)和[编辑用户配置文件](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
      >[!NOTE]
      >
@@ -156,7 +154,7 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 
      >[!INFO]
      >
-     >例如，如果[!UICONTROL 默认计划]是一周40小时，用户的计划是一周30小时，用户的[!UICONTROL 工作时间]为0.5，用户的[!UICONTROL FTE]为0.35。
+     >例如，如果[!UICONTROL 默认计划]是一周40小时，用户的计划是一周30小时，用户的[!UICONTROL 工作时间]是0.5，用户的[!UICONTROL FTE]是0.35。
      >
      >如果用户一天有2小时的休息时间，其每周可用时间[!UICONTROL FTE]的计算如下：
      >
