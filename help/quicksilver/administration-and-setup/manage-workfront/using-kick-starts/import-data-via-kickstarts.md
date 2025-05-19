@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 69cd1eafd7798861a4868fe0d68707ab5ba9106c
+source-git-commit: 4c80802c8e0084aa9e7be350caefc8929c9c4e2b
 workflow-type: tm+mt
-source-wordcount: '2776'
+source-wordcount: '2785'
 ht-degree: 6%
 
 ---
@@ -53,7 +53,7 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -104,7 +104,7 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
     </thead> 
     <tbody> 
      <tr> 
-      <td scope="col"> <p>仪表板</p> <p>系统中的所有仪表板都可以导出。 在一次导出中，最多可以选择100个特定仪表板。</p> </td> 
+      <td scope="col"> <p>仪表板</p> <p>系统中所有公开共享的报告面板都可以导出。 无法在系统范围内导出非共享功能板。 在一次导出中，最多可以选择100个特定仪表板。</p> </td> 
       <td scope="col">导出为ZIP文件</td> 
       <td scope="col"> <p>参数</p> <p>说明文本</p><p>参数选项</p> <p>参数组</p> <p>类别参数</p> <p>类别</p> <p>报告</p> <p>门户选项卡部分</p> <p>仪表板</p> <p>首选项</p> </td> 
      </tr> 

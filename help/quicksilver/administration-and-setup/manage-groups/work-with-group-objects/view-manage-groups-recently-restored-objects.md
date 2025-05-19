@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: 查看和管理组最近恢复的项目
-description: 当您查看在“组”区域中管理的组时，可以查看、筛选、分组并恢复其最近恢复的工作项、文档和模板。
+description: 查看在组区域管理的组时，您可以查看、筛选、分组和恢复最近恢复的工作项、文档和模板。
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8ec06363-080e-4f1d-8a50-fc14f06ad323
-source-git-commit: 96b9939131beebd9c1968cb5c287d75295c68c5b
+source-git-commit: 379772f6bd1ed9448e6fd5feee956a931f65f69e
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '333'
 ht-degree: 1%
 
 ---
@@ -79,19 +79,8 @@ ht-degree: 1%
 
    每个选项卡都列出了属于当前组或其子组且在过去30天内恢复的相应对象类型项目。
 
-1. 完成以下任一操作：
+1. （可选）要导出选项卡上的整个对象列表，请单击&#x200B;**导出**&#x200B;图标。 ![导出图标](assets/export-icon.png)。
+1. （可选）使用筛选器、视图或分组更改列表中的信息显示。
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader"> <p>导出选项卡上的整个对象列表</p> </td> 
-      <td> <p>单击<strong>导出</strong>。</p> </td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
-      <td role="rowheader"> <p>更改列表中的信息显示</p> </td> 
-      <td> <p>在列表右上角，使用<strong>筛选器</strong>根据您提供的条件定义显示的内容。 使用<strong>视图</strong>定义哪些字段显示为列。 使用<strong>分组</strong>将项目分组为类别。</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+   有关详细信息，请参阅[报表元素概述](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)。
+

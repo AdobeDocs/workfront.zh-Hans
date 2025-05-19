@@ -8,7 +8,7 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 9243ee60-006b-4628-bde7-5b037dde7511
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 379772f6bd1ed9448e6fd5feee956a931f65f69e
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 9%
@@ -47,7 +47,7 @@ ht-degree: 9%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td>
+   <td>[！UICONTROL系统管理员]</td>
   </tr> 
  </tbody> 
 </table>
@@ -81,20 +81,18 @@ ht-degree: 9%
      </tr> 
      <tr> 
       <td role="rowheader">检查所有 POP 帐户</td> 
-      <td> <p>检查已发送到链接到Workfront的POP帐户的新电子邮件。 </p> <!--
-        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about Workfront and POP account integrations, see and <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.</p>
-       --> </td> 
+      <td>检查已发送到链接到Workfront的POP帐户的新电子邮件。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">重新计算时间线</td> 
       <td> <p>重新计算Workfront中所有处于当前状态的项目的时间表。 </p> <p>有关自动或手动计算项目时间表（一次一个项目）的详细信息，请参阅<a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">重新计算项目时间表</a>。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">恢复默认客户报告</td> 
+      <td role="rowheader">还原默认客户报告</td> 
       <td>恢复最初随Workfront一起提供的默认报告，以便所有用户在<strong>报告</strong>部分中都可以看到这些报告。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">生成工时表</td> 
+      <td role="rowheader">生成时间表</td> 
       <td>根据用户的周期性时间表配置文件为用户生成时间表。 仅当时间表配置文件在分配给用户后发生了显着更改时，并且任何当前和未来时间表被删除后，才需要运行此选项。</td> 
      </tr> 
     </tbody> 

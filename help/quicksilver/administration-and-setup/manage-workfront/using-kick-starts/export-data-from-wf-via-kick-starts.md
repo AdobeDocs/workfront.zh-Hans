@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: 4c80802c8e0084aa9e7be350caefc8929c9c4e2b
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1043'
 ht-degree: 7%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td>
+   <td>[！UICONTROL系统管理员]</td>
   </tr> 
  </tbody> 
 </table>
@@ -167,6 +167,10 @@ ht-degree: 7%
      </tr> 
     </tbody> 
    </table>
+
+   >[!NOTE]
+   >
+   >如果&#x200B;**仪表板**&#x200B;选项不可用，则意味着您的系统中没有任何在系统范围内共享的仪表板。 无法导出专用仪表板。
 
 1. 单击&#x200B;**更多选项**&#x200B;查看对象的完整列表。
 
@@ -330,7 +334,7 @@ ht-degree: 7%
 
    导出的快速启动文件将作为Excel文件或下载到您的计算机上。 包含多个Excel和属性文件的zip文件。 每个Excel文件都是工作表的集合，其中每个工作表表示与所选对象相关联的字段。 有一个与每次导出关联的&#x200B;**属性**&#x200B;表。
 
-   **仪表板**&#x200B;和&#x200B;**报告**&#x200B;选项允许您选择特定的仪表板和报告以包含在下载中。 您只能导出在系统范围内共享的仪表板。
+   **仪表板**&#x200B;和&#x200B;**报告**&#x200B;选项允许您选择特定的仪表板和报告以包含在下载中。 对于功能板，您只能导出在系统范围内共享的功能板。
 
    无法导出矩阵报表。 有关矩阵报表的详细信息，请参阅[创建矩阵报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)。
 
