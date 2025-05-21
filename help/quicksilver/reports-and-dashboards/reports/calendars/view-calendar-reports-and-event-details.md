@@ -41,11 +41,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[！UICONTROL View]或更高版本的[！UICONTROL Reports]、[！UICONTROL Dashboards]和[！UICONTROL Calendars]访问权限</p></td> 
+   <td> <p>[!UICONTROL View]或更高版本的[!UICONTROL Reports]、[!UICONTROL Dashboards]和[!UICONTROL Calendars]访问权限</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td>[！UICONTROL视图]或日历报表的更高权限</td> 
+   <td>[!UICONTROL 视图]或日历报表的更高权限</td> 
   </tr> 
  </tbody> 
 </table>
@@ -74,7 +74,7 @@ ht-degree: 0%
 
      要了解如何共享日历，请参阅[[!UICONTROL 共享日历]报告](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)。
 
-1. （视情况而定）单击&#x200B;**[!UICONTROL 查看]**下拉列表，然后选择要查看的日历持续时间。
+1. （视情况而定）单击&#x200B;**[!UICONTROL 查看]**&#x200B;下拉列表，然后选择要查看的日历持续时间。
    ![日历持续时间](assets/view-menu-calendar-report-350x189.png)
 您可以从以下日历报表视图中进行选择：
 
