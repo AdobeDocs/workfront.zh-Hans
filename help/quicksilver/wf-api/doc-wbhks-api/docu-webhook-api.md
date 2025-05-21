@@ -3,14 +3,14 @@ content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
 title: 文档Webhooks API
-description: 文档Webhooks API
+description: Adobe Workfront Document Webhooks定义了一组API端点，Workfront通过这些API端点向外部文档提供商发出授权的API调用。 这允许任何人为任何文档存储提供商创建中间件插件。
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
 workflow-type: tm+mt
-source-wordcount: '3627'
+source-wordcount: '3649'
 ht-degree: 2%
 
 ---
@@ -18,9 +18,11 @@ ht-degree: 2%
 
 # 文档Webhooks API
 
+<!-- Audited: 5/2025 -->
+
 Adobe Workfront Document Webhooks定义了一组API端点，Workfront通过这些API端点向外部文档提供商发出授权的API调用。 这允许任何人为任何文档存储提供商创建中间件插件。
 
-基于webhook的集成的用户体验将与现有文档集成的用户体验类似，例如Google Drive、Box和Dropbox。 例如，Workfront用户将能够执行以下操作：
+基于webhook的集成的用户体验将与现有文档集成的用户体验类似，如Google Drive、Box和Dropbox。 例如，Workfront用户将能够执行以下操作：
 
 * 导航外部文档提供程序的文件夹结构
 * 搜索文件
@@ -34,7 +36,7 @@ Adobe Workfront Document Webhooks定义了一组API端点，Workfront通过这�
 
 ## 注册Webhook集成
 
-Workfront管理员可以通过导航到Workfront中的设置>文档>自定义集成，为其公司添加自定义webhook集成。 在“设置”的“自定义集成”页面中，管理员可以查看现有文档Webhook集成的列表。 在此页面中，可以添加、编辑、启用和禁用集成。 要添加集成，请单击“添加集成”按钮。
+Workfront管理员可以通过导航到Workfront中的设置>文档>自定义集成，为其公司添加自定义webhook集成。 在“设置”的“自定义集成”页面中，管理员可以查看现有文档Webhook集成的列表。 在此页面中，可以添加、编辑、启用和禁用集成。 要添加集成，请单击添加集成按钮。
 
 ### 可用字段
 
@@ -56,27 +58,27 @@ Workfront管理员可以通过导航到Workfront中的设置>文档>自定义集
   </tr> 
   <tr> 
    <td>基本 API URL</td> 
-   <td> <p>回调API的位置。 调用外部系统时，Workfront只需将端点名称附加到此地址即可。 例如，如果管理员输入基本API URL " https://www.mycompany.com/api/v1 "，Workfront将使用以下URL获取文档的元数据：https://www.mycompany.com/api/v1/metadata?id=1234。</p> </td> 
+   <td> <p>回调API的位置。 调用外部系统时，Workfront会将端点名称附加到此地址。 例如，如果管理员输入基本API URL " https://www.mycompany.com/api/v1 "，Workfront将使用以下URL获取文档的元数据：https://www.mycompany.com/api/v1/metadata?id=1234。</p> </td> 
   </tr> 
   <tr> 
    <td>请求参数</td> 
-   <td> <p>要附加到每个 API 调用的查询字符串的可选值。例如，access_type=offline。</p> <p> </p> </td> 
+   <td> <p>要附加到每个 API 调用的查询字符串的可选值。例如，access_type=offline。</p> </td> 
   </tr> 
   <tr> 
    <td>身份验证类型</td> 
-   <td>OAuth2或ApiKey</td> 
+   <td>OAuth2或ApiKey。</td> 
   </tr> 
   <tr> 
    <td>身份验证 URL</td> 
-   <td> <p>（仅限OAuth2）用于用户身份验证的完整URL。 在OAuth配置过程中，Workfront会将用户导航到此地址。 注意：Workfront会将“state”参数附加到查询字符串中。 提供程序必须通过将它附加到Workfront重定向URI来将它传递回Workfront。</p> </td> 
+   <td> <p>（仅限OAuth2）用于用户身份验证的完整URL。 在OAuth配置过程中，Workfront会将用户导航到此地址。 <br><br>注意： Workfront将向查询字符串附加“state”参数。 提供程序必须通过将它附加到Workfront重定向URI来将它传递回Workfront。</p> </td> 
   </tr> 
   <tr> 
    <td>令牌端点 URL</td> 
-   <td> <p>（仅限OAuth2）用于检索OAuth2令牌的完整API URL。 它由webhook提供程序或外部文档提供程序托管</p> <p> </p> </td> 
+   <td> <p>（仅限OAuth2）用于检索OAuth2令牌的完整API URL。 它由webhook提供程序或外部文档提供程序托管。</p> </td> 
   </tr> 
   <tr> 
    <td>客户端 ID</td> 
-   <td>（仅限OAuth2）此集成的OAuth2客户端ID</td> 
+   <td>（仅限OAuth2）此集成的OAuth2客户端ID。</td> 
   </tr> 
   <tr> 
    <td>客户端密码</td> 
@@ -84,11 +86,11 @@ Workfront管理员可以通过导航到Workfront中的设置>文档>自定义集
   </tr> 
   <tr> 
    <td>Workfront 重定向 URI</td> 
-   <td>  <p>（仅限OAuth2）这是只读字段，由Workfront生成。 此值用于将该集成注册到外部文档提供商。 注意：如上所述，对于身份验证URL，提供程序必须在执行重定向时将“state”参数及其值附加到查询字符串。</p></td> 
+   <td> <p>（仅限OAuth2）这是只读字段，由Workfront生成。 此值用于将该集成注册到外部文档提供商。 <br><br>注意：如上文所述对于身份验证URL，提供程序必须在执行重定向时将“state”参数及其值附加到查询字符串。</p></td> 
   </tr> 
   <tr> 
    <td>ApiKey</td> 
-   <td>  <p>（仅限ApiKey）用于向webhook提供程序进行授权的API调用。 webhook提供程序发布的API密钥。</p></td> 
+   <td>  <p>（仅限ApiKey）用于向webhook提供程序进行授权的API调用。 API密钥由webhook提供程序颁发。</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -101,14 +103,12 @@ Workfront文档webhook支持两种不同的身份验证形式：OAuth2和ApiKey�
 
 ### OAuth2
 
-OAuth2允许Workfront代表用户向webhook提供程序发出授权的API调用。 在执行此操作之前，用户必须将其外部文档提供商帐户连接到Workfront并授予Workfront
+OAuth2允许Workfront代表用户向webhook提供程序发出授权的API调用。 在执行此操作之前，用户必须将其外部文档提供商帐户连接到Workfront并授予Workfront访问权限以代表他们执行操作。 此握手过程仅针对每个用户发生一次。 以下是它的工作方式：
 
-代表他们行事的权限。 此握手过程仅针对每个用户发生一次。 以下是它的工作方式：
-
-1. 用户开始将webhook集成连接到其帐户。 目前，可通过单击“添加文档”下拉列表>“添加服务”>自定义集成名称来完成此操作。
-1. Workfront会为用户导航身份验证URL，这可能会提示用户登录到外部文档提供商。 此页面由webhook提供程序或外部文档管理系统托管。 在执行此操作时，Workfront会向身份验证URL添加“state”参数。 必须在以下步骤中，通过将相同的值附加到Workfront返回URI，将此值传递回Workfront。
+1. 用户开始将webhook集成连接到其帐户。 目前，这是通过单击添加文档下拉列表>添加服务>自定义集成名称来完成的。
+1. Workfront将用户导航到身份验证URL，这会提示用户登录到外部文档提供商。 此页面由webhook提供程序或外部文档管理系统托管。 在执行此操作时，Workfront会向身份验证URL添加“state”参数。 必须在以下步骤中，通过将相同的值附加到Workfront返回URI，将此值传递回Workfront。
 1. 登录到外部系统后（或者如果用户已登录），用户将被带到“身份验证”页面，该页面解释Workfront正在请求访问权限以代表用户执行一组操作。
-1. 如果用户单击“允许”按钮，浏览器将重定向到Workfront重定向URI ，并将“code=`<code>`”添加到查询字符串。 根据OAuth2规范，此令牌的生命周期短。 查询字符串还必须具有以下“state=`<sent_by_workfront>`”。
+1. 如果用户单击“允许”按钮，浏览器将重定向到Workfront重定向URI ，并将“code=`<code>`”添加到查询字符串。 根据OAuth2规范，此令牌的生命周期短。 查询字符串还必须具有下列内容：“state=`<sent_by_workfront>`”。
 1. Workfront处理此请求，并使用授权代码对令牌端点URL进行API调用。
 1. 令牌端点URL返回刷新令牌和访问令牌。
 1. Workfront存储这些令牌并完全为此用户预配webhook集成。
@@ -140,13 +140,13 @@ Webhook提供程序可以使用用户名来应用特定于用户的权限。 当
 
 ### 添加请求标头（可选）
 
-除了使用OAuth2令牌或ApiKey进行身份验证之外，Workfront还可以为每个API调用向webhook提供程序发送一组预定义的标头。 Workfront管理员可以在注册或编辑Webook集成时进行此设置，如上面的部分所述。 请参阅注册Webhook集成。
+除了使用OAuth2令牌或ApiKey进行身份验证之外，Workfront还可以为每个API调用向webhook提供程序发送一组预定义的标头。 Workfront管理员可以在注册或编辑Webook集成时设置此项，如上面的部分所述。
 
 例如，这可用于基本身份验证。 为此，Workfront管理员将在自定义集成对话框中添加以下请求标头信息：
 
    授权基本QWxhZGRpbjpvcGVuIHNlc2FtZQ==
 
-其中，QWxhZGRpbjpvcGVuIHNlc2FtZQ==是“username：password”的base-64编码字符串。 请参阅基本身份验证。 如果添加了此标头，Workfront将会在HTTP请求标头中传递此标头，以及其他请求标头：
+其中，QWxhZGRpbjpvcGVuIHNlc2FtZQ==是“username：password”的base-64编码字符串。 请参阅基本身份验证。 如果添加了此标头，Workfront将会在HTTP请求标头中传递此标头以及其他请求标头：
 
 ```
 ­­­­­­­­­­­­­­­­­­­­­­­­­­-------------------------------
@@ -168,7 +168,7 @@ Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ== ­­­­­­­­­­­­­­­
 
 返回经过身份验证的用户的OAuth2刷新令牌和访问令牌。 当用户设置文档提供商时，将调用一次。 随后进行调用以获取更新的访问令牌。
 
-HTTP请求POST/any/url
+HTTP请求POST /any/url
 
 该URL是可配置的，并且对应于自定义集成设置页面上的令牌端点URL值。
 
@@ -181,7 +181,7 @@ HTTP请求POST/any/url
  <thead> 
   <tr> 
    <th>名称</th> 
-   <th>必填</th> 
+   <th>必选</th> 
    <th>描述</th> 
   </tr> 
  </thead> 
@@ -194,7 +194,7 @@ HTTP请求POST/any/url
   <tr> 
    <td>代码</td> 
    <td>根据</td> 
-   <td> <p>用户单击“Grant”按钮后发送到Workfront的授权代码。 仅当授权类型为“authorization_code”时才需要此项。 授权码应为短期，通常在10分钟或更短时间内过期。</p> </td> 
+   <td> <p>用户单击“授权”按钮后发送到Workfront的授权代码。 仅当授权类型为“authorization_code”时才需要此项。 授权码应为短期，通常在10分钟或更短时间内过期。</p> </td> 
   </tr> 
   <tr> 
    <td>refresh_token</td> 
@@ -277,7 +277,7 @@ client_secret=6asdf7a7a9a4af
 
 **URL**
 
-/metadata？id=[文档或文件夹ID]GET
+GET /metadata？id=[文档或文件夹ID]
 
 **查询参数**
 
@@ -317,12 +317,12 @@ client_secret=6asdf7a7a9a4af
   <tr> 
    <td>标题 </td> 
    <td>字符串 </td> 
-   <td>文档或文件夹的名称</td> 
+   <td>文档或文件夹的名称。</td> 
   </tr> 
   <tr> 
    <td>种类 </td> 
    <td>字符串 </td> 
-   <td>指定此项是文件还是文件夹（“文件”还是“文件夹”）</td> 
+   <td>指定此项是文件还是文件夹（“文件”还是“文件夹”）。</td> 
   </tr> 
   <tr> 
    <td>id</td> 
@@ -342,22 +342,22 @@ client_secret=6asdf7a7a9a4af
   <tr> 
    <td>mimeType</td> 
    <td>字符串 </td> 
-   <td>文件的MIME类型。 (可选)</td> 
+   <td>（可选）文件的MIME类型。</td> 
   </tr> 
   <tr> 
    <td>dateModified</td> 
    <td>字符串 </td> 
-   <td>上次修改此文件的时间（格式为RFC 3339时间戳）</td> 
+   <td>上次修改此文件的时间（格式为RFC 3339时间戳）。</td> 
   </tr> 
   <tr> 
    <td>大小</td> 
    <td>长</td> 
-   <td>  文件的大小（以字节为单位）。 (可选)</td> 
+   <td>（可选）文件的大小（以字节为单位）。</td> 
   </tr> 
   <tr> 
    <td>只读</td> 
    <td>布尔型</td> 
-   <td>  <p> 指示此文件或文件夹对于经过身份验证的用户是否为只读的。(可选)</p><p> </p></td> 
+   <td><p> （可选）指示此文件或文件夹对于经过身份验证的用户是否为只读的。</p><p> </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -381,7 +381,7 @@ client_secret=6asdf7a7a9a4af
 
 >[!NOTE]
 >
->所有API调用中的错误处理都应保持一致。 有关详细信息，请参阅下面的“错误处理”部分。
+>所有API调用中的错误处理都应保持一致。 有关详细信息，请参阅下面的错误处理部分。
 
 ### 获取文件夹中的项目列表
 
@@ -389,7 +389,7 @@ client_secret=6asdf7a7a9a4af
 
 **URL**
 
-GET/files
+GET /files
 
 **查询参数**
 
@@ -440,7 +440,7 @@ GET/files
 
 **URL**
 
-GET/search
+GET /search
 
 **查询参数**
 
@@ -460,7 +460,7 @@ GET/search
   </tr> 
   <tr> 
    <td>parentId</td> 
-   <td> <p>（可选）从中执行搜索的文件夹ID。 注意：这是Workfront中未来功能的占位符。 目前，Workfront不传递此参数。 </p> </td> 
+   <td> <p>（可选）从中执行搜索的文件夹ID。 <br><br>注意：这是Workfront中未来功能的占位符。 目前，Workfront不传递此参数。 </p> </td> 
   </tr> 
   </tbody> 
 </table>
@@ -471,7 +471,7 @@ GET/search
 
 **响应**
 
-JSON，其中包含与查询匹配的文件和文件夹的元数据列表。 构成“匹配”的内容由webhook提供程序决定。 理想情况下，应该进行全文搜索。 执行基于文件名的搜索也可正常工作。
+JSON，其中包含与查询匹配的文件和文件夹的元数据列表。 构成“匹配”的内容由webhook提供程序决定。 理想情况下，它应该执行全文或基于文件名的搜索。
 
 **示例：** `https://www.acme.com/api/search?query=test-query`
 
@@ -486,11 +486,11 @@ JSON，其中包含与查询匹配的文件和文件夹的元数据列表。 构
 
 ### 获取文档的内容
 
-返回文档的原始字节
+返回文档的原始字节。
 
 **URL**
 
-GET/下载
+GET /download
 
 **查询参数**
 
@@ -525,14 +525,14 @@ GET/下载
 
 **URL**
 
-GET/thumbnail
+GET /thumbnail
 
 **查询参数**
 
 | 名称  | 描述 |
 |---|---|
 | id  | 文档ID |
-| 大小  |  缩略图的宽度 |
+| 大小  | 缩略图的宽度。 |
 
 {style="table-layout:auto"}
 
@@ -546,13 +546,13 @@ GET/thumbnail
 
 ### 上传文件 — 第1部分，共2部分
 
-将文件上传到文档存储提供程序是一个两步过程，需要两个单独的API端点。 Workfront通过调用/uploadInit开始上传过程。 此端点返回一个文档ID，然后在上传文档字节时将其传递到/upload。 根据基础文档存储系统，可能需要创建一个长度为零的文档，然后稍后更新该文档的内容。
+将文件上传到文档存储提供程序是一个两步过程，它需要2个单独的API端点。 Workfront通过调用/uploadInit开始上传过程。 此端点返回文档ID，然后在上传文档字节时将其传递到/upload。 根据基础文档存储系统，可能需要创建一个长度为零的文档，然后稍后更新该文档的内容。
 
-添加到此规范版本1.1中的文档ID和文档版本ID可用于从Workfront中检索额外信息。 例如，如果文档管理系统需要有关文档的额外信息，webhook实施代码可以使用文档ID使用Workfront的RESTful API检索该信息。 好的做法是，这些信息可能来自文档上的自定义数据字段，并且包含任务、问题或项目。
+添加到此规范版本1.1中的文档ID和文档版本ID可用于从Workfront中检索额外信息。 例如，如果文档管理系统需要有关文档的额外信息，webhook实施代码可以使用文档ID使用Workfront的RESTful API检索该信息。 好的做法是，这些信息可能来自文档及其包含的任务、问题或项目上的自定义数据字段。
 
 **URL**
 
-POST/uploadInit
+POST /uploadInit
 
 **查询参数**
 
@@ -572,15 +572,15 @@ POST/uploadInit
   </tr> 
   <tr> 
    <td>文件名 </td> 
-   <td>文档的名称</td> 
+   <td>文档的名称。</td> 
   </tr> 
   <tr> 
    <td>documentId</td> 
-   <td> <p>Workfront文档ID（1.1版中添加）</p> <p> </p> </td> 
+   <td> <p>Workfront文档ID（在1.1版本中添加）。</p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td>documentVersionId </td> 
-   <td>Workfront文档版本ID（在版本1.1中添加）</td> 
+   <td>Workfront文档版本ID（在版本1.1中添加）。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -603,7 +603,7 @@ POST/uploadInit
 
 **URL**
 
-PUT/upload
+PUT /upload
 
 **查询参数**
 
@@ -650,7 +650,7 @@ PUT/upload
 
 **URL**
 
-GET/serviceInfo
+GET /serviceInfo
 
 查询参数
 
@@ -658,7 +658,7 @@ GET/serviceInfo
 
 **响应**
 
-包含有关此服务的信息的JSON
+包含有关此服务的信息的JSON。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -720,14 +720,14 @@ GET/serviceInfo
 （在1.2版中添加）在给定目录中创建文件夹。
 URL
 
-POST/createFolder
+发布/createFolder
 
 **查询参数**
 
 | 名称  | 描述 |
 |---|---|
-| parentId  | 应在其中创建文件夹的文件夹ID |
-| name  | 新文件夹的名称 |
+| parentId  | 应在其中创建文件夹的文件夹ID。 |
+| name  | 新文件夹的名称。 |
 
 {style="table-layout:auto"}
 
@@ -768,20 +768,20 @@ name=New Folder ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
 
 URL
 
-PUT/delete
+PUT /delete
 
 **查询参数**
 
 | 名称  | 描述 |
 |---|---|
-| documentId  | 要删除的文档ID |
-| folderId  |  要删除的文件夹ID |
+| documentId  | 要删除的文档ID。 |
+| folderId  | 要删除的文件夹ID。 |
 
 {style="table-layout:auto"}
 
 响应JSON字符串，指示成功或失败，如下面的错误处理部分中所述。
 
-**示例：** PUThttps://www.acme.com/api/delete id=1234
+**示例：** PUT https://www.acme.com/api/delete id=1234
 
 返回
 
@@ -806,14 +806,14 @@ PUT/delete
 
 URL
 
-PUT/rename
+PUT /rename
 
 **查询参数**
 
 | 名称  | 描述 |
 |---|---|
-| id | 要重命名的文档或文件夹ID |
-| name  | 文档或文件夹的新名称 |
+| id | 要重命名的文档或文件夹ID。 |
+| name  | 文档或文件夹的新名称。 |
 
 {style="table-layout:auto"}
 
@@ -853,12 +853,12 @@ name=Folder B ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
 webhook提供程序通过在customActions下的/serviceInfo响应中包含操作来向Workfront注册自定义操作。 在设置>文档>自定义集成下设置或刷新webhook提供程序时，Workfront会加载此列表。\
 ![执行自定义操作](assets/mceclip0-350x262.png)
 
-用户可以通过选择“文档操作”下的部分来触发自定义操作\
+用户可以通过选择“文档操作”下的部分来触发自定义操作。\
 ![触发自定义操作](assets/mceclip1-350x95.png)
 
 **URL**
 
-GET/customAction
+GET /customAction
 
 **查询参数**
 
@@ -882,7 +882,7 @@ GET/customAction
   </tr>
   <tr>
    <td>documentVersionId </td>
-   <td> 正在对其执行操作的Workfront文档版本ID。</td>
+   <td>正在对其执行操作的Workfront文档版本ID。</td>
   </tr>
  </tbody>
 </table>
@@ -933,9 +933,9 @@ GET/customAction
 
 要运行这些测试，您需要满足以下条件：
 
-* 启用了高级文档管理(ADM)的Workfront帐户
-* 此帐户中拥有系统管理员权限的Workfront用户
-* Workfront可以访问其HTTP端点的文档Webhook实例
+* 启用了高级文档管理(ADM)的Workfront帐户。
+* 此帐户的Workfront用户，具有系统管理员权限。
+* Workfront可以访问其HTTP端点的文档Webhook实例。
 
 这些测试还假定您已经在Workfront中的“设置”>“文档”>“自定义集成”下注册了Document Webhook实例。
 
@@ -944,7 +944,7 @@ GET/customAction
 测试基于OAuth的Webhook提供程序的身份验证URL和令牌端点URL。
 
 1. 在Workfront中，单击顶部导航栏中的“文档”链接，转到“文档”主页面。
-1. 单击添加文档下拉列表，然后在添加服务下选择您的文档Webhook服务。
+1. 单击添加文档下拉列表，然后在添加服务下选择文档Webhook服务。
 1. （仅限OAuth服务）完成上一步后，您将在弹出窗口中看到服务的OAuth2身份验证页面加载。 （注意：系统可能会提示您先登录服务。） 在身份验证页面中，通过单击信任或允许按钮授予Workfront对用户帐户访问权限。
 1. 验证您的服务是否已添加到添加文档下拉列表中。 如果您最初没有看到该页面，请尝试刷新浏览器。
 
@@ -954,29 +954,29 @@ GET/customAction
 1. 在“添加文档”下选择文档Webhook服务。
 1. 在该模式中，导航浏览文件夹结构。
 1. 验证您是否能够正确导航文件夹结构。
-1. 选择文档并将其链接到Workfront
+1. 选择文档并将其链接到Workfront中。
 
 ### 测试3：导航到内容管理系统中的文档
 
-测试以下端点： /metadata （尤其是viewLink）
+测试以下端点： /metadata （尤其是viewLink）。
 
-1. 将文档链接到Workfront
+1. 将文档链接到Workfront。
 1. 选择文档并单击“打开”链接。
 1. 验证文档是否在新选项卡中打开。
 
 ### 测试4：导航到内容管理系统中的文档（登录）
 
-测试以下端点： /metadata （尤其是viewLink）
+测试以下端点： /metadata （尤其是viewLink）。
 
 1. 确保您已从内容管理系统注销。
 1. 将文档链接到Workfront。
 1. 选择文档并单击“打开”链接。
 1. 验证内容管理系统的登录屏幕是否在新选项卡中加载。
-1. 登录并验证您是否已转到文档
+1. 登录并验证您是否已转到文档。
 
 ### 测试5：从内容管理系统下载文档
 
-测试以下端点： /metadata（尤其是downloadLink）
+测试以下端点： /metadata（尤其是downloadLink）。
 
 1. 将文档链接到Workfront。
 1. 选择文档并单击“下载”链接。
@@ -996,8 +996,8 @@ GET/customAction
 测试以下端点： /files、/uploadInit、/upload
 
 1. 在Workfront中，单击顶部导航栏中的“文档”链接，转到“文档”主页面。
-1. 将文档从计算机上传到Workfront
-1. 转到文档详情页面
+1. 将文档从计算机上传到Workfront。
+1. 转到文档详情页面。
 1. 从“文档操作”下拉列表中，选择“发送到……”下的Document Webhook服务
 1. 转到所需的目标文件夹，然后单击保存按钮。
 1. 验证文档是否已上传到内容管理系统中的正确位置。
@@ -1023,8 +1023,8 @@ GET/customAction
 
 测试以下端点：令牌端点URL
 
-1. 为用户预配Document Webhook服务
-1. 通过1 )等待用户访问令牌超时或2)在外部系统中手动使其失效，来使其失效。
+1. 为用户预配Document Webhook服务。
+1. 通过等待用户的访问令牌超时或在外部系统中手动使其失效，来使其失效。
 1. 在Workfront中刷新访问令牌。 例如，您可以将文档链接到Workfront中来执行此操作。 如果您能够导航到文档并进行链接，则您将知道访问令牌已成功刷新。
 
 >[!NOTE]

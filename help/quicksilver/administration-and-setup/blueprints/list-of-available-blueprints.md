@@ -8,14 +8,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 04d41a8c9c8c04f2e7ef308465328ccc57bd3195
+source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2057'
 ht-degree: 0%
 
 ---
 
 # 可用Blueprint的列表
+
+<!-- Audited: 5/2025 -->
 
 系统管理员可以安装以下[!DNL Adobe Workfront] Blueprint。 有关Blueprint的详细信息，请参阅[Blueprint概述](/help/quicksilver/administration-and-setup/blueprints/blueprints-overview.md)。
 
@@ -50,7 +52,7 @@ ht-degree: 0%
 此Blueprint包含一个[!DNL Workfront]专业服务组织多年来在与公司IT团队开展实施合作期间使用的模板，用于管理员工转调到新角色时必须执行的各种活动。 此模板减少了员工调动完成而没有IT监督时存在的安全风险。 它还消除了系统访问权限未授予以履行员工新职责的职责时浪费的时间，这些时间是毫无意义的。
 
 **[!UICONTROL 月末营业关闭]**
-此Blueprint包含一个[!DNL Workfront]专业服务组织在实施与财务团队互动期间使用多年的模板，用于组织月末帐簿结算。 该模板提供了每月必须完成的常见活动清单，以便准确报告并提升业务健康状况。
+此Blueprint包含一个[!DNL Workfront]专业服务组织多年来在与财务团队开展实施工作时用于组织月末帐簿结算的模板。 该模板提供了每月必须完成的常见活动清单，以便准确报告并提升业务健康状况。
 
 **[!UICONTROL 财务组织设置]**
 此Blueprint包含要扩展到财务部门的组织结构的配置。
@@ -77,10 +79,13 @@ ht-degree: 0%
 此Blueprint包含一个[!DNL Workfront professional services]组织在与人力资源团队开展实施合作期间使用多年的模板，以帮助新员工跟踪其入门培训活动。
 
 **[!UICONTROL 新员工准备]**
-此Blueprint包含一个[!DNL Workfront]专业服务组织在与人力资源团队开展实施合作期间使用多年的模板，以提示人力资源专家和招聘经理完成必要活动，使新员工的第一天引人注目。
+此Blueprint包含一个[!DNL Workfront]专业服务组织在与人力资源团队开展实施合作期间使用多年的模板，以提示人力资源专家和招聘经理完成员工第一天的基本活动。
 
 **离线 | 正在离开用户信息板**
 此Blueprint包含一个功能板，其中包含13个报告，可帮助您查找、重新分配或以其他方式管理与离开Workfront的用户相关的对象和分配。 您也可以将这些报告用于移动到新角色或组的用户以重新分配其工作。
+
+**合作伙伴启用： GenStudio Foundation包**
+合作伙伴支持： GenStudio Foundation包旨在促进GenStudio基础环境的无缝提升。 它包括有效运行引导营所需的所有组件。
 
 **人员管理员信息板**
 此Blueprint包含一个包含12个报表的仪表板，使人员经理可以查看其直接下属的工作。
@@ -95,10 +100,10 @@ ht-degree: 0%
 [!UICONTROL Print Asset Production]程序包包含用于组织标准打印生产流程的工作的模板。 此软件包旨在作为管理Workfront中的打印资源创建的入口点。 使用此包为打印内容创建创建基础，然后对其进行自定义以满足其他创意过程对打印材料的需求。
 
 **[!UICONTROL 打印：直邮资产生产]**
-此[!UICONTROL 打印：直邮资产生产] Blueprint为打印宣传品生产流程组织工作。 此Blueprint旨在作为Workfront中管理打印宣传资料（特别是直邮）的入口点。
+[!UICONTROL Print： Direct Mail Asset Production] Blueprint为打印宣传品生产流程组织工作。 此Blueprint旨在作为Workfront中管理打印宣传资料（特别是直邮）的入口点。
 
 **[!UICONTROL 打印：直邮内容创建和营销活动执行]**
-此[!UICONTROL 打印：直邮内容创建和执行] Blueprint为打印宣传品制作流程组织工作。 此Blueprint旨在作为Workfront中管理打印宣传资料（特别是直邮）的入口点。 此模板是唯一的，因为它还包含独立于其他营销活动打印资产和执行直邮营销活动的任务。
+[!UICONTROL Print： Direct Mail Content Creation and Execution] Blueprint为打印宣传品制作流程组织工作。 此Blueprint旨在作为Workfront中管理打印宣传资料（特别是直邮）的入口点。 此模板是唯一的，因为它还包含独立于其他营销活动打印资产和执行直邮营销活动的任务。
 
 **[!UICONTROL Professional Services组织设置]**
 此Blueprint包含组织结构的配置，以扩展到Professional Services用例。
@@ -107,8 +112,7 @@ ht-degree: 0%
 此Blueprint为内部招聘资源定义了一个核对清单，用于帮助业务利益相关者跟踪人数请求的进度。 它旨在支持受管成熟度级别。
 
 **资源管理准备**
-
-使用此项目模板和用户报告可确保您具有生成准确资源管理数据所需的正确设置和信息。
+使用此Blueprint可确保您具有生成准确资源管理数据所需的正确设置和信息。
 
 **[!UICONTROL 风险控制自我评估：关键风险缓解计划]**
 [!UICONTROL 风险控制自我评估] (RSCA)定义了一个流程，用于识别风险并衡量您为减轻这些风险而实施的控制。 此模板可为您确定评估新风险、确保实施适当的控制以及确保您知道如何衡量和记录控制的有效性的过程。
@@ -120,10 +124,10 @@ ht-degree: 0%
 [!UICONTROL 社交资产生产]包包含一个模板，该模板可组织创建社交项目的工作。 该模板为团队的原始社交资产创建提供了一个精益流程，该流程依赖于标准工序来定义工作方式，并且仅使用项目来排列工作的优先顺序并跟踪进度。
 
 **[!UICONTROL 社交资源生产] （托管）**
-[!UICONTROL 社交资产生产]包包含一个模板，该模板可组织创建社交项目的工作。 此资源包旨在作为管理Workfront中的社交资源创建的入口点。 使用此资源包通过对其进行自定义以满足其他创意过程对社交内容的需求，为所有社交内容创建流程奠定基础。
+[!UICONTROL 社交资产生产]包包含一个模板，该模板可组织创建社交项目的工作。 它旨在作为管理Workfront中的社交资源创建的入口点。 使用此资源包通过对其进行自定义以满足其他创意过程对社交内容的需求，为所有社交内容创建流程奠定基础。
 
 **[!UICONTROL 软件实施/应用程序开发]**
-此Blueprint包含一个[!DNL Workfront]专业服务组织在与IT团队开展实施合作期间使用多年的模板，用于组织安装第三方解决方案或创建内部实用程序和应用程序的工作。
+此Blueprint包含一个[!DNL Workfront]专业服务组织在与IT团队开展实施合作期间使用多年的模板，用于在安装第三方解决方案时组织工作或创建内部实用程序和应用程序。
 
 **[!UICONTROL 系统管理员维护仪表板]**
 此Blueprint包含单个仪表板，可帮助系统管理员定期维护和清除系统中可能随时间积累的杂乱内容。
@@ -142,7 +146,7 @@ ht-degree: 0%
 
 **值实现 | 审阅并批准仪表板**
 
-此Blueprint包含一个包含7个报表的功能板，可帮助您实现Workfront的价值。 这些报告可帮助您将审核和批准工作的价值转化为可衡量的好处，您可以随着时间的推移跟踪这些好处以实现更好的成果。
+此Blueprint包含一个包含7个报表的仪表板，可帮助您实现Workfront的价值。 这些报告可帮助您将审核和批准工作的价值转化为可衡量的好处，您可以随着时间的推移跟踪这些好处以实现更好的成果。
 
 **[!UICONTROL 视频资产生产] （集成）**
 
@@ -153,7 +157,11 @@ ht-degree: 0%
 
 **[!UICONTROL [!DNL Workfront]通信和启动模板]**
 
-此Blueprint包含单个模板，该模板可组织[!DNL Workfront]客户需要完成的工作以便出色地推出[!DNL Workfront]应用程序。
+此Blueprint包含单个模板，该模板可组织[!DNL Workfront]客户为其[!DNL Workfront]应用程序转出所需的工作。
+
+**面向新用户的Workfront培训**
+
+此Blueprint包含3个项目模板，以便在在Workfront中启用用户时用作培训核对清单。
 
 **[!DNL Workfront Usage Dashboard]**
 此Blueprint包含一个包含11个报表的仪表板，可帮助系统管理员和治理团队了解其配置是否按预期使用。

@@ -7,7 +7,7 @@ description: 通过使用Adobe Workfront资源规划者，您可以轻松了解�
 author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
+source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
 workflow-type: tm+mt
 source-wordcount: '2424'
 ht-degree: 2%
@@ -103,7 +103,7 @@ Adobe Workfront资源规划者帮助您轻松了解资源的可用性以及完�
 
 * 您可以查看自己有权查看的项目。
 * 在首次访问资源规划者时，您可以看到按默认筛选条件筛选的项目。\
-  有关详细信息，请参阅资源规划者[&#128279;](../../resource-mgmt/resource-planning/filter-resource-planner.md)中的筛选信息。
+  有关详细信息，请参阅资源规划者](../../resource-mgmt/resource-planning/filter-resource-planner.md)中的[筛选信息。
 
 * 为了提高性能，您显示或可从“项目视图”中导出的项数会受到限制。\
   有关详细信息，请参阅[资源规划者显示限制](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)文章中“项目视图”部分的限制。
@@ -160,7 +160,7 @@ Adobe Workfront资源规划者帮助您轻松了解资源的可用性以及完�
 
 * 您可以看到您有权查看的所有用户，最多有2,000个处于活动状态且至少已登录Adobe Workfront一次的用户。 按团队、工作角色或池筛选用户列表，以查看仅与这些实体关联的用户。
 * 如果已按项目筛选用户列表，则只有与已筛选项目关联的用户才能展开并显示小时信息。\
-  有关详细信息，请参阅资源规划者[&#128279;](../../resource-mgmt/resource-planning/filter-resource-planner.md)中的筛选信息。
+  有关详细信息，请参阅资源规划者](../../resource-mgmt/resource-planning/filter-resource-planner.md)中的[筛选信息。
 
 * 为了提高性能，您显示或可从“用户视图”中导出的项目数会受到限制。\
   有关详细信息，请参阅[资源规划者显示限制](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)中“用户视图”部分的限制。
@@ -207,7 +207,7 @@ Adobe Workfront资源规划者帮助您轻松了解资源的可用性以及完�
 
 * 受应用于资源规划者的过滤器限制的项目。
 
-  有关详细信息，请参阅资源规划者[&#128279;](../../resource-mgmt/resource-planning/filter-resource-planner.md)中的筛选信息。
+  有关详细信息，请参阅资源规划者](../../resource-mgmt/resource-planning/filter-resource-planner.md)中的[筛选信息。
 
   >[!NOTE]
   >
@@ -249,7 +249,6 @@ Adobe Workfront资源规划者帮助您轻松了解资源的可用性以及完�
 
    * 辅助工作角色在其用户配置文件中具有FTE可用性百分比的有效数字。
    * 如果用户被分配到这些角色中的任务。
-
 有关工作角色FTE可用性百分比的更多信息，请参阅[编辑用户配置文件](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) 。
 
 ## 无角色和用户部分
