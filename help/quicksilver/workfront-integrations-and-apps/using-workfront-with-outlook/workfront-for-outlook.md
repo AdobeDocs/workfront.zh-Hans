@@ -2,20 +2,22 @@
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
-title: 适用于Outlook的Adobe Workfront
+title: 适用于Outlook的Adobe Workfront：文章索引
 description: Adobe Workfront Fusion提供了与Outlook的集成。 本文链接到安装和配置此集成的说明，以及如何在日常工作中使用它。
 author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: c374416e-9680-4725-ab2d-256dff6f03b1
-source-git-commit: 77cc1acde87b2ada96117daa06e98ba38e64fa8a
+source-git-commit: a411c1ddf0c6d19dc7f6e181cceeebba5504530c
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront for Outlook]
+# [!DNL Adobe Workfront for Outlook: article index]
+
+<!-- Audited: 5/2025 -->
 
 本节包含以下文章：
 

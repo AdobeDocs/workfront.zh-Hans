@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
+source-git-commit: 65ff6054842312a79fd0b254d2c68af0e367ec97
 workflow-type: tm+mt
-source-wordcount: '13210'
+source-wordcount: '13214'
 ht-degree: 2%
 
 ---
@@ -2146,7 +2146,7 @@ ht-degree: 2%
       * 适用于Illustrator和InDesign的Workfront扩展 {#workfront-for-illustrator-indesign}
          * [使用适用于Illustrator和InDesign的Workfront扩展](documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)
    * 适用于Jira的Adobe Workfront {#workfront-for-jira}
-      * [适用于Jira的Adobe Workfront](workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md)
+      * [适用于Jira的Adobe Workfront：文章索引](workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md)
       * [安装适用于Jira的Adobe Workfront](workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md)
       * [为Jira配置Adobe Workfront](workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)
       * [Adobe Workfront和Jira之间的链接项目](workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md)
@@ -2169,9 +2169,9 @@ ht-degree: 2%
       * [使用电子邮件内容在Google Workspace中创建Adobe Workfront问题](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)
       * [使用电子邮件内容从G Suite更新Adobe Workfront项目](workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
    * 适用于Outlook的Adobe Workfront {#workfront-for-outlook}
-      * [适用于Outlook的Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
+      * [适用于Outlook的Adobe Workfront：文章索引](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
       * [设置适用于Outlook的Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
-      * [适用于Outlook的Workfront的权限级别](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
+      * 适用于Outlook的Workfront的[权限级别](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
       * [回复Outlook的评论](workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md)
       * [通过Outlook电子邮件更新现有对象](workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md)
       * [将Outlook电子邮件作为任务或问题添加到项目](workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md)
@@ -2466,8 +2466,8 @@ ht-degree: 2%
       * [使用JWT流配置和使用贵组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程配置和使用您组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-pkce-flow.md)
       * [弃用API — 内部](wf-api/api/deprecation-api-internal.md)
-      * [API版本20中的新增功能](wf-api/api/new-api-version-20.md)
-      * [API版本19中的新增功能](wf-api/api/new-api-version-19.md)
+      * [API版本20](wf-api/api/new-api-version-20.md)中的新增功能
+      * [API版本19](wf-api/api/new-api-version-19.md)中的新增功能
       * [API版本18中的新增功能](wf-api/api/new-api-version-18.md)
       * [API版本17中的新增功能](wf-api/api/new-api-version-17.md)
       * [API版本16中的新增功能](wf-api/api/new-api-version-16.md)

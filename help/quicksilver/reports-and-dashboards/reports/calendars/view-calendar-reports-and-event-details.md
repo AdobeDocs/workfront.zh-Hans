@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront中查看您创建或与您共享的日�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: 83b425998de978fef4998f407960a2489e1320b4
+source-git-commit: a411c1ddf0c6d19dc7f6e181cceeebba5504530c
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -41,11 +41,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[!UICONTROL View]或更高版本的[!UICONTROL Reports]、[!UICONTROL Dashboards]和[!UICONTROL Calendars]访问权限</p></td> 
+   <td> <p>[！UICONTROL View]或更高版本的[！UICONTROL Reports]、[！UICONTROL Dashboards]和[！UICONTROL Calendars]访问权限</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td>[!UICONTROL 视图]或日历报表的更高权限</td> 
+   <td>[！UICONTROL视图]或日历报表的更高权限</td> 
   </tr> 
  </tbody> 
 </table>
@@ -74,7 +74,7 @@ ht-degree: 0%
 
      要了解如何共享日历，请参阅[[!UICONTROL 共享日历]报告](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)。
 
-1. （视情况而定）单击&#x200B;**[!UICONTROL 查看]**&#x200B;下拉列表，然后选择要查看的日历持续时间。
+1. （视情况而定）单击&#x200B;**[!UICONTROL 查看]**下拉列表，然后选择要查看的日历持续时间。
    ![日历持续时间](assets/view-menu-calendar-report-350x189.png)
 您可以从以下日历报表视图中进行选择：
 
@@ -82,31 +82,26 @@ ht-degree: 0%
    * **[!UICONTROL 周]**：显示日历的一周
    * **[!UICONTROL 甘特图]**：显示日历的连续视图
 
-     通过向下或横向滚动，您可以在[!UICONTROL 甘特图]视图中查看更多事件。 在为视图填充数据时，将显示一个加载符号。
+     通过向下或横向滚动，您可以在&#x200B;**甘特图**&#x200B;视图中查看更多事件。 在为视图填充数据时，将显示一个加载符号。
 
    >[!NOTE]
    >
-   >在[!UICONTROL 月]和[!UICONTROL 周]视图中，当前或未来的事件（包括跨越多天的事件，只要它们包含今天或未来的某天即可）具有与项目或日历分组中的颜色对应的阴影。 过去的事件具有更浅的阴影以表示它们不再是最新，但您仍然可以选择和查看这些事件。
+   >在&#x200B;**月**&#x200B;和&#x200B;**周**&#x200B;视图中，当前或未来的事件（包括跨越多天的事件，只要它们包含今天或未来的某天即可）具有与项目或日历分组中的颜色对应的阴影。 过去的事件具有更浅的阴影以表示它们不再是最新，但您仍然可以选择和查看这些事件。
 
-1. （可选）如果您在[!UICONTROL 月]或[!UICONTROL 周]查看中查看日历，则可以使用以下选项更改日历视图：
+1. （可选）如果您在&#x200B;**月**&#x200B;或&#x200B;**周**&#x200B;查看中查看日历，则可以使用以下选项更改日历视图：
 
-<!--   * To include or exclude weekends:
-
+   <!--   * To include or exclude weekends:
       1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.-->
 
-* 要快速更改显示的日期，请执行以下操作：
+   * 要快速更改显示的日期，请执行以下操作：
 
-   1. 在&#x200B;**[!UICONTROL 日历]**&#x200B;工具栏上，单击日期指示器的左箭头在日历中向后移动，或者单击右箭头向前移动。
+      1. 在&#x200B;**[!UICONTROL 日历]**&#x200B;工具栏上，单击日期指示器的左箭头在日历中向后移动，或者单击右箭头向前移动。
 
-      ![单击箭头以更改日期](assets/click-arrows-to-change-dates-calendar-report.png)\
-      显示的日期会根据当前日历视图按间隔进行调整。 例如，如果您在[!UICONTROL 周]视图中查看日历，则根据您选择的箭头，日历显示一周前或一周后。
+         ![单击箭头以更改日期](assets/click-arrows-to-change-dates-calendar-report.png)
 
-   1. （可选）要返回到当前日期，请单击&#x200B;[!UICONTROL **今天**]。
+         显示的日期会根据当前日历视图按间隔进行调整。 例如，如果您在&#x200B;**周**&#x200B;视图中查看日历，则根据您选择的箭头，日历显示一周前或一周后。
 
-
-1. （可选）要以全屏方式查看日历，请单击&#x200B;**[!UICONTROL 日历]**&#x200B;工具栏右侧的全屏箭头。
-   ![单击箭头以更改日期](assets/click-arrows-to-change-dates-calendar-report.png)\
-   按Esc返回到日历的正常视图。
+      1. （可选）要返回到当前日期，请单击&#x200B;[!UICONTROL **今天**]。
 
 1. （可选）要隐藏链接到日历的项目或日历分组事件，请在项目列表中清除该项目或日历分组。
    ![隐藏事件](assets/hide-events-for-project-or-cal-grouping.png)
