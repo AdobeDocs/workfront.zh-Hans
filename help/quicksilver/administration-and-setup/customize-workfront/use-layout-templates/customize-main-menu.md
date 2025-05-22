@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 7640016921e421d2aec0ab1aadc0edd304125feb
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '686'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 3%
 >
 >用户看到的主菜单选项取决于其许可证类型以及在访问级别中配置的设置。 某些将使用此布局模板的用户可能无法看到您在此处选择的所有选项。 有关详细信息，请参阅[访问级别和权限如何协同工作](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)和[可配置的每种对象类型功能访问权限](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)。
 >
->如果您的组织已载入Adobe Workfront Unified Experience，则您可能会在主菜单中看到其他选项。 有关信息，请参阅[AdobeWorkfront的Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+>如果您的组织已载入Adobe Workfront Unified Experience，则您可能会在主菜单中看到其他选项。 有关信息，请参阅[适用于Workfront的Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 有关创建布局模板的信息，请参阅[创建和管理布局模板](../use-layout-templates/create-and-manage-layout-templates.md)。
 
@@ -47,7 +47,9 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront计划</strong></td> 
-   <td>任何</td> 
+   <td><p>任何</p>
+
+<p>将自定义应用程序添加到主菜单仅适用于获得Adobe App Builder许可的组织。</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront许可证*</strong></td> 
@@ -120,6 +122,12 @@ ht-degree: 3%
      >[!NOTE]
      >
      >Planning需要额外的许可证。 有关Workfront规划的信息，请参阅[Adobe Workfront规划概述](/help/quicksilver/planning/general/planning-overview.md)
+      * 自定义应用程序
+
+     >[!NOTE]
+     >
+     > 自定义应用程序必须单独创建，然后才能作为主菜单选项使用。 有关详细信息，请参阅[使用Adobe App Builder为Workfront创建自定义应用程序](/help/quicksilver/app-builder/app-builder.md)。
+
 
 1. 执行以下任一操作：
 
