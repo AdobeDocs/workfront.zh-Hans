@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: e94d7f40accd80d631765405752a03bf3a0363f1
+source-git-commit: 3c1961f649298eda4e76830ca39c23fc4dadb407
 workflow-type: tm+mt
-source-wordcount: '3691'
+source-wordcount: '3938'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,14 @@ ht-degree: 1%
 
 
 ## 管理和设置
+
+### 新记分卡和复制记分卡框的新外观
+
+**预览版本： 2025年5月22日；生产版本： 2025年5月29日**
+
+我们更新了新记分卡和复制记分卡框的外观，以便与应用程序其他区域中的设计相匹配。 在Workfront的“设置”区域中创建或复制记分卡时，您可以查看更新的设计。
+
+有关信息，请参阅[创建记分卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)。
 
 ### 对组最近恢复的项目进行界面更新
 
@@ -81,6 +89,41 @@ ht-degree: 1%
 **预览版本： 4月24日；生产版本：从2024年5月1日的一周开始**
 
 我们更新了您用于授予对Workfront帐户的支持访问权限的页面，更新后的设计更加现代化，与Workfront的其他区域一致。
+
+## 项目
+
+## 项目或模板的新增风险框和编辑风险框的外观更新
+
+**预览版本： 2025年5月22日；生产版本： 2025年5月29日**
+
+在风险部分中添加风险或编辑项目或模板时，我们更新了“新风险”和“编辑风险”框的外观。 现在，这些盒子的设计与Workfront的其他区域相匹配。
+
+有关信息，请参阅[创建和编辑项目中的风险](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create-and-edit-risks-on-projects)。
+
+### “复制模板”框的外观变化
+
+**预览版本： 2025年5月22日；生产版本： 2025年5月22日**
+
+我们更新了“复制模板”框的外观，使其与Workfront其他区域的设计相匹配。
+
+有关信息，请参阅[复制项目模板](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md)。
+
+### 将对象添加到程序和项目组合时，外观和感觉更新
+
+**预览版本： 2025年5月22日；生产版本： 2025年5月29日**
+
+在执行以下操作时，我们更新了添加框的界面：
+
+* 将项目添加到项目群
+* 将项目添加到项目组合
+* 将项目群添加到项目组合
+
+有关信息，请参阅以下文章：
+
+* [将现有项目群添加到项目组合](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/move-program.md)
+* [将项目添加到项目组合](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
+* [将项目添加到项目群](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
+
 
 ## 报告和仪表板
 
@@ -151,7 +194,15 @@ ht-degree: 1%
 
 +++展开以查看第二季度进行的管理和设置界面更新
 
-### 在设置中更新资源管理区域的界面
+### 最近恢复项目的界面更新
+
+**预览版本： 2025年4月23日；生产版本： 2025年4月23日**
+
+我们更新了最近恢复的“设置”区域中的项目外观，以匹配Workfront其他区域的设计。 最近恢复的项目、任务、请求、文档或模板的功能未发生更改。
+
+要查看此更改，请转到“设置”>“回收站”>“最近恢复”。
+
+有关信息，请参阅[查看已还原的项目](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)。###界面更新到安装程序的资源管理区域
 
 **预览版本： 2025年4月17日；从2025年4月17日这一周开始**
 
@@ -159,7 +210,7 @@ ht-degree: 1%
 
 有关信息，请参阅[配置资源管理首选项](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)。
 
-## 界面更新了设置中的里程碑路径列表
+### 界面更新了设置中的里程碑路径列表
 
 **预览版本： 2025年3月6日；从2025年4月10日这一周开始**
 
@@ -167,7 +218,7 @@ ht-degree: 1%
 
 有关信息，请参阅[创建里程碑路径](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)。
 
-## 界面更新至“设置”中的“编辑风险类型”框
+### 界面更新至“设置”中的“编辑风险类型”框
 
 **预览版本： 2025年3月27日；从2025年4月10日这一周开始**
 
@@ -483,16 +534,6 @@ ht-degree: 1%
 
 有关信息，请参阅[创建自定义报表](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
-### 最近恢复项目的界面更新
-
-**预览版本： 2025年4月23日；生产版本： 2025年4月23日**
-
-我们更新了最近恢复的“设置”区域中的项目外观，以匹配Workfront其他区域的设计。 最近恢复的项目、任务、请求、文档或模板的功能未发生更改。
-
-要查看此更改，请转到“设置”>“回收站”>“最近恢复”。
-
-有关信息，请参阅[查看已还原的项目](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)。
-
 ### 更新了公司报告中删除公司框的界面
 
 **预览版本： 2025年4月17日；生产版本： 2025年4月17日**
@@ -620,3 +661,8 @@ ht-degree: 1%
 * 以红色显示删除操作以将其突出显示。
 
 有关信息，请参阅[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
+
+
+
+
+

@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: a39ba047fc4c1e422f3bea8bd9266b9197219900
+source-git-commit: 870e4130daf9924bf85b59eb09f7d548b8152096
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,23 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 在时间轴视图中以紧凑模式划分记录时的新体验
+
+>[!NOTE]
+>
+>* 预览： 2025年5月22日
+>* 生产快速发布： 2025年6月12日
+>* 适用于所有客户的生产： 2025年7月17日
+
+我们更改了在时间轴视图中划分记录时的体验，并且您应用了紧凑视图。
+通过新的更新，当您在“紧凑”模式下定义划分对象并显示时间轴时，在完成划分条件的配置后，系统会提示您将视图切换为“标准”。
+
+在此增强功能之前，在紧凑模式下显示时间轴视图时，无法定义划分条件。
+
+在此升级中，“标准”选项是默认选项。 在此之前，默认模式为紧凑模式。
+
+有关信息，请参阅[管理时间线视图](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
 
 ## 更新时间轴视图设置，以定义在使用划分选项时连接记录栏的外观
 
