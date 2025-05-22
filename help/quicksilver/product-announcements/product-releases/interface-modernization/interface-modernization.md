@@ -1,11 +1,11 @@
 ---
-title: 界面更新
+title: 界面现代化
 description: 本页列出了我们在Adobe Workfront中所做的界面更新，这些更新旨在改善用户体验并将其与其他Adobe应用程序相统一。
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3c1961f649298eda4e76830ca39c23fc4dadb407
+source-git-commit: da7151e210bc779beb963e53a2beed5b5280f494
 workflow-type: tm+mt
 source-wordcount: '3938'
 ht-degree: 1%
