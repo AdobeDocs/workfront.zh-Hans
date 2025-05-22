@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1181'
 ht-degree: 1%
 
 ---
@@ -221,9 +221,13 @@ ht-degree: 1%
 
 1. （视情况而定）为将在时间轴或日历视图中显示的记录选择&#x200B;**开始**&#x200B;和&#x200B;**结束日期**。
 
-   >[!TIP]
+   >[!NOTE]
    >
-   >    您可以从记录日期字段中选择，或从连接的记录或对象类型中选择查找日期字段。 当您选择查找字段作为时间轴和日历视图的开始和结束日期时，必须为日期字段(MAX或MIN)使用聚合器。 有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
+   >    您可以从记录日期字段中选择，或从连接的记录或对象类型中选择查找日期字段。
+   >
+   >在连接记录类型时选择查找字段时，必须为日期字段使用聚合(MAX或MIN)。 仅添加聚合器允许您使用连接的日期作为时间轴和日历视图的开始和结束日期。
+   >
+   >有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
 1. 单击&#x200B;**创建**。
 

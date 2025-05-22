@@ -6,9 +6,9 @@ description: 除了从头开始创建项目模板之外，您还可以复制现�
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
+source-git-commit: 1926500c76e4f9cfdac829f8d9f0cdfa6231e31d
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '329'
 ht-degree: 2%
 
 ---
@@ -74,7 +74,6 @@ ht-degree: 2%
 
 ## 复制模板
 
-
 <!--ensure steps and casing on the fields and buttons is accurate with unshim-->
 
 1. 转到要复制的模板。
@@ -82,11 +81,11 @@ ht-degree: 2%
 
    将打开&#x200B;**复制模板**&#x200B;框。
 
-   <!--![Copy template box](assets/copy-template-box.png)-->
+   ![复制模板框](assets/copy-template-box.png)
 
 1. 在&#x200B;**新模板名称**&#x200B;字段中指定模板的名称。
 
-   默认情况下，新名称为`Copy of Original template name`。
+   默认情况下，Workfront会按照以下格式设置新名称： `Copy of Original template name`。
 
 1. 如果要将所有任务和模板分配从原始模板传送到新模板，请选择&#x200B;**保留任务和模板上的用户分配**&#x200B;选项。 模板任务分配，以及模板所有者和发起人都会转移到复制的模板。
 1. 单击&#x200B;**保存**&#x200B;以创建模板副本。

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: d0ec729a510b78a7ce417356ac9250a485308f0b
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '3060'
+source-wordcount: '3152'
 ht-degree: 0%
 
 ---
@@ -139,13 +139,8 @@ ht-degree: 0%
       * 年
       * 季度
       * 月
-1. 单击&#x200B;**切换到标准**&#x200B;视图以单独行<!--check to see if they updated the name of the setting here-->显示记录
-
-   或
-
-   单击&#x200B;**切换到紧凑视图**&#x200B;可显示日期不相交的记录。<!--check to see if they updated the name of the setting here-->
-
-   默认情况下，记录显示在“压缩”视图中。
+1. （可选）单击&#x200B;**切换到紧凑视图**&#x200B;可显示日期在同一行上不相交的记录。<!--check to see if they updated the name of the setting here-->
+1. （视情况而定）如果将模式更改为&#x200B;**紧凑**，请单击&#x200B;**切换到标准**&#x200B;视图以单独行显示记录。 <span class="preview">默认选项为&#x200B;**Standard**。</span>  <!--check to see if they updated the name of the setting here-->
 
 1. 执行以下操作可快速查找与关键字匹配的记录：
 
@@ -353,7 +348,7 @@ this is not possible right now; if this is the same functionality as the table v
 
    如果对于所选的记录类型没有带颜色编码选项的字段，则此选项将灰显。
 
-   1. <span class="preview">（可选）如果您使用“划分”选项，请为时间轴中显示的每个连接记录重复从步骤4开始的步骤。</span>
+1. <span class="preview">（可选）如果您使用“划分”选项，请为时间轴中显示的每个连接记录重复从步骤4开始的步骤。</span>
 
 1. 单击&#x200B;**保存**。
 
@@ -389,7 +384,7 @@ this is not possible right now; if this is the same functionality as the table v
 #### 划分连接的记录
 
 1. 为记录类型创建时间线视图，如[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)一文中所述。
-1. （视情况而定）如果您在标准模式下查看时间线视图，请单击&#x200B;**划分**。
+1. 在&#x200B;**标准**&#x200B;或&#x200B;<span class="preview">**紧凑**&#x200B;模式中，单击时间轴视图右上角的&#x200B;**划分**</span>。
 1. 展开&#x200B;**选择链接记录类型**&#x200B;框并选择连接的记录类型。<!--add a new screen shot - submitted a bug to remove the "the"-->
 
    时间线视图上的![划分选取器和按钮](assets/breakdown-picker-and-button-on-timeline.png)
@@ -417,7 +412,15 @@ this is not possible right now; if this is the same functionality as the table v
    >
    >产品和项目群都必须连接到营销策划，才能显示为划分选项的选项，您可以按任意顺序将它们添加到划分。
 
+1. <span class="preview">（视情况而定）如果您正在以紧凑模式查看时间线，请单击&#x200B;**切换视图**。 划分在&#x200B;**紧凑**&#x200B;模式下不可见。</span>
 
+   >[!TIP]
+   >
+   ><span class="preview">选择&#x200B;**在**&#x200B;切换到标准视图中不再显示此信息&#x200B;**？**&#x200B;框，然后切换视图。</span>
+   >
+   ><span class="preview">只有当前浏览器才记得此首选项。 如果您更改浏览器或计算机，则必须再次选择此首选项。</span>
+   >
+   >在将视图切换为“标准”并在视图中显示连接的记录后，不能恢复为“紧凑”模式。
 1. （可选）重复上述步骤以添加更多连接的记录。
 
 

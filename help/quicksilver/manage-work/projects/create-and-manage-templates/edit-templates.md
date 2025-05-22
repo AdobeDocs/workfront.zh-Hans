@@ -6,9 +6,9 @@ description: 您可以编辑项目模板以反映项目流程和设置中的更�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '4881'
+source-wordcount: '4870'
 ht-degree: 2%
 
 ---
@@ -649,7 +649,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
          </td> 
          </tr> 
        <tr> 
-         <td role="rowheader"><strong>排程模式</strong></td> 
+         <td role="rowheader"><strong>计划模式</strong></td> 
          <td><p>指定使用此模板的项目是从<strong>开始日期</strong>开始计划，还是从<strong>完成日期</strong>开始计划。 此选择确定使用此模板的项目中未来任务的计划日期。 </p><p>从以下项中选择： </p> 
        <ul> 
        <li><p><strong>从开始日期开始计划</strong>：模板的开始日期实际上是开始日期。 从开始日期开始计划模板时，Adobe Workfront会根据所有模板任务的持续时间计算模板的完成日期。 模板的开始日期将成为将来项目的计划开始日期。</p></li> 
@@ -690,7 +690,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
          </ul></td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>模板提供方</strong></td> 
+         <td role="rowheader"><strong>模板赞助者</strong></td> 
          <td><p>将模板添加到项目后，在此字段中指定的用户会成为项目发起人。 此用户已添加到项目团队，并自动获得项目的查看权限。 指定为模板发起人的用户必须是Workfront活动用户。 </p></td> 
        </tr> 
        <tr> 
@@ -1092,7 +1092,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 * 文档
 * 风险
 
-  有关创建风险的更多信息，请参阅文章[创建和编辑项目风险](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)中的[创建和编辑项目风险](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create)部分。
+  有关创建风险的更多信息，请参阅[创建和编辑项目中的风险](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)。
 
 * 审批流程
 

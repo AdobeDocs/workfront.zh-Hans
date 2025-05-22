@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+source-git-commit: 1926500c76e4f9cfdac829f8d9f0cdfa6231e31d
 workflow-type: tm+mt
-source-wordcount: '3819'
+source-wordcount: '3818'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开以查看访问要求。
 
 您必须具有以下权限才能执行本文中的步骤并记录项目特定的小时数：
 
@@ -41,7 +41,9 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>新增：在项目、任务、问题或时间表上的常规小时数上记录小时数的较短或更高</p>
+   <td> <p>新增：</p>
+   <ul><li> 在任务、问题或时间表上记录常规小时数的精简或更高</li>
+   <li>用于记录项目小时数的标准</li></ul>
 
 <p>当前： 
    <ul><li>查看或更高版本以在时间表中记录常规小时数</li>
@@ -140,9 +142,9 @@ ht-degree: 0%
 
 1. （视情况而定）如果一次添加50个或更多项目，则会显示一条确认消息，其中显示添加到时间表的项目数。
 
-   单击&#x200B;**全部添加**&#x200B;以添加所有项
+   单击&#x200B;**全部添加**以添加所有项
 或
-单击&#x200B;**取消**&#x200B;停止添加选定项，然后单击&#x200B;**取消**&#x200B;关闭项列表。
+单击**取消**&#x200B;停止添加选定项，然后单击&#x200B;**取消**&#x200B;关闭项列表。
 
    任务和问题列在项目的名称下。
 
