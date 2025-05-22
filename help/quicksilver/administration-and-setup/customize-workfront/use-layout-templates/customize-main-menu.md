@@ -122,7 +122,7 @@ ht-degree: 3%
      >[!NOTE]
      >
      >Planning需要额外的许可证。 有关Workfront规划的信息，请参阅[Adobe Workfront规划概述](/help/quicksilver/planning/general/planning-overview.md)
-      * 自定义应用程序
+     > * 自定义应用程序
 
      >[!NOTE]
      >
