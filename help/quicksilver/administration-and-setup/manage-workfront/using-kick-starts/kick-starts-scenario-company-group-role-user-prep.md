@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: a8faf4aa1a0a1b60f61c0c981c3be1b0d9d033a4
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1218'
 ht-degree: 2%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,8 +70,8 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td valign="top"> <p>Acme， Co</p> <p>Workfront公司</p> <p><em>您的公司</em> </p> <p>XYZ公司</p> </td> 
-   <td valign="top"> <p valign="top" rowspan="7">财务</p> <p valign="top" rowspan="7">IT </p> <p valign="top" rowspan="7">营销 </p> <p valign="top" rowspan="7">销售</p> </td> 
-   <td valign="top"> <p valign="top">业务分析师</p> <p valign="top">Controller Creative</p> <p valign="top">设计者</p> <p valign="top">资源管理器</p> <p valign="top">Scrum Master</p> <p valign="top">技术作者</p> <p valign="top">Web开发人员</p> </td> 
+   <td valign="top"> <p valign="top" rowspan="7">财务</p> <p valign="top" rowspan="7">IT </p> <p valign="top" rowspan="7">营销 </p> <p valign="top" rowspan="7">销售额</p> </td> 
+   <td valign="top"> <p valign="top">业务分析师</p> <p valign="top">Creative控制器</p> <p valign="top">设计者</p> <p valign="top">资源管理器</p> <p valign="top">Scrum Master</p> <p valign="top">技术作者</p> <p valign="top">Web开发人员</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -117,7 +117,7 @@ ht-degree: 2%
 | **密码** | 更新我 |
 | **访问** | 技术支持 |
 | **公司** | &lt;*您的公司>* |
-| **主组** | 销售 |
+| **主组** | 销售额 |
 | **工作角色** | 销售代表 |
 
 {style="table-layout:auto"}
@@ -309,3 +309,13 @@ ht-degree: 2%
 1. 导入Excel文件。
 
    按照[使用快速启动模板](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)将数据导入Adobe Workfront中提供的说明进行操作。
+
+
+
+>[!NOTE]
+>
+>导入到Workfront的用户创建时处于已停用和待审批状态。
+> 
+>如果贵组织已迁移到Adobe Admin Console，并且用户在几分钟内没有转变为“已停用”和“未决批准”状态，则您可以将该批用户直接添加到Adobe Admin Console。
+>
+>有关说明，请参阅[管理多个用户 | 在Adobe文档中批量CSV上传](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html)。
