@@ -106,7 +106,7 @@ ht-degree: 0%
 
 1. 转到您要更新任务完成百分比的任何区域。
 
-   有关信息，请参阅本文中您可以更新任务](#areas-where-you-can-update-the-percent-complete-of-a-task)的完成百分比的[区域部分。
+   有关信息，请参阅本文中您可以更新任务[&#128279;](#areas-where-you-can-update-the-percent-complete-of-a-task)的完成百分比的区域部分。
 
 1. 找到要更新其完成百分比的任务的&#x200B;**完成百分比**&#x200B;字段。
 

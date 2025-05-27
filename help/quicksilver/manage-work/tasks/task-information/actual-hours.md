@@ -131,7 +131,7 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 
 * 资源规划者。
 
-  有关信息，在使用用户视图](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)时，请参阅资源规划者中的[查看可用、计划和实际小时数或FTE。
+  有关信息，在使用用户视图[&#128279;](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)时，请参阅资源规划者中的查看可用、计划和实际小时数或FTE。
 
 
 ### Workfront数据库、API和自定义数据中的实际小时数
