@@ -7,14 +7,16 @@ description: 报表常见问题解答
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1494'
 ht-degree: 0%
 
 ---
 
 # 报表常见问题解答
+
+<!--Audited: 05/2025-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: ***This is the ONE anchor article for all FAQs about Reporting. Add a new FAQ in the TOC at the top first, then add the answer as a section at the bottom.)</p>
@@ -23,6 +25,8 @@ ht-degree: 0%
 以下是有关报表的常见问题解答。
 
 ## 访问要求
+
++++ 展开以查看访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -33,39 +37,51 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划、工作</p> </td> 
+   <td><p>新增：标准</p> 
+   <p>当前：工作或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对报告、功能板和日历的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑对报告、功能板和日历的访问权限</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理报表的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>管理报表的权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 为什么我的小时差自定义计算没有在列中显示正确结果？
 
-在项目报告上，我有一个从计划小时数(4)减去实际小时数(2)的计算。 结果是120，而它应该是2。\
+<!--this section is linked from the Actual Hours article for Tasks in the Task Information folder; edit the links or do not delete or change this section-->
+
+在项目报表中，我有一个计算从计划小时数减去实际小时数。得到的结果不正确。
+
+<!--this changed with this issue in May 2025; Actual Hours changed from actualWorkRequired to actualWorkRequiredDouble: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/68108e860000120e90a79cb82e5811c2/updates : On a project report I have a calculation that subtracts Actual Hours (2) from Planned Hours (4). The result I am getting is 120 when it should be 2.  -->
+
+
 我的计算是：
-<pre>valueexpression=SUB(workRequired，actualWorkRequired)</pre>
+
+`valueexpression=SUB(workRequired,actualWorkRequiredDouble)`
 
 ### 答案
 
-在Workfront中使用小时数的字段以分钟为单位存储。 在计算中使用字段时，结果将以分钟为单位。 要获得以小时为单位的结果，必须将计算结果除以60。
+在Workfront中，大多数使用小时数的字段都以分钟为单位存储。 在计算中使用这些字段时，结果通常以分钟为单位。 要获得以小时为单位的结果，必须将计算结果或所引用的字段除以60。
+
+例如，计划小时数以分钟为单位存储，而实际小时数以小时为单位存储。 因此，您必须将计划小时数从分钟转换为小时。
 
 正确的计算方法是：
 
-<pre>valueexpression=SUB(workRequired，actualWorkRequired)/60</pre>
+`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
 
 ## 为什么报表中我的每个图表元素的值都没有显示在图表上？
 
@@ -175,7 +191,7 @@ ht-degree: 0%
 
 ### 答案
 
-有时，报告的所有者也是在报告上的&#x200B;**Run this report with Access Rights of：**&#x200B;字段中指定的用户。 如果停用具有&#x200B;**用户访问权限的**&#x200B;运行此报告，则与其共享报告的用户不再显示该报告。 发生这种情况时，您可以将&#x200B;**Run this Report with the Access Rights of：** blank保留为空或在字段中输入活动用户，以使报告可再次访问。
+有时，报告的所有者也是在报告上的&#x200B;**Run this report with Access Rights of：**&#x200B;字段中指定的用户。 如果停用具有&#x200B;**用户访问权限的**&#x200B;运行此报告，则与其共享报告的用户不再显示该报告。 发生这种情况时，您可以将&#x200B;**Run this Report with the Access Rights of：** blank保留为空或在字段中输入活动用户，以使报告可再次访问。
 
 要了解有关&#x200B;**使用**&#x200B;字段的访问权限运行此报告的详细信息，请参阅[使用其他用户的访问权限运行并交付报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md)。 有关识别已停用用户拥有的所有报表的信息，请参阅[创建报表活动报表](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)。
 

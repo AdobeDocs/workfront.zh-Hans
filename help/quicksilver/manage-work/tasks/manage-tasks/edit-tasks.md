@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '3706'
+source-wordcount: '3721'
 ht-degree: 3%
 
 ---
@@ -622,12 +622,14 @@ ht-degree: 3%
 
 * 任务名称
 * 完成百分比
+
+  有关信息，请参阅[查看和更新任务的完成百分比](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md)。
 * 任务
 * 规划完成日期
 
   >[!CAUTION]
   >
-  >某些任务约束和其他依赖关系可能会阻止您编辑此字段。 有关任务限制的信息，请参阅[任务限制概述](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)。
+  >某些任务限制和其他依赖关系可能会阻止您编辑任务的规划完成日期。 有关任务限制的信息，请参阅[任务限制概述](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)。
 
 * 状态
 * 如果在当前审批流程中将您设置为审批者，则做出审批决策

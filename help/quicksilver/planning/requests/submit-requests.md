@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
 source-wordcount: '1914'
 ht-degree: 0%
@@ -162,8 +162,8 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 
 {{step1-to-requests}}
 
-1. 启用屏幕右上角的&#x200B;**切换到新体验**&#x200B;设置。
-启用此设置可使Workfront计划请求表单在Workfront的&#x200B;**请求**&#x200B;区域中可用。
+1. 启用屏幕右上角的&#x200B;**切换到新体验**设置。
+启用此设置可使Workfront计划请求表单在Workfront的**请求**&#x200B;区域中可用。
 
    >[!TIP]
    >
@@ -220,13 +220,44 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
      >
      >电子邮件确认或审批通知中有一个指向请求的链接。
 
-   1. （可选）在确认消息中单击&#x200B;**查看您的请求**&#x200B;以打开该请求，或单击&#x200B;**X**&#x200B;图标以关闭确认。
+1. （可选）在确认消息中单击&#x200B;**查看您的请求**&#x200B;以打开该请求，或单击&#x200B;**X**&#x200B;图标以关闭确认。
 
-1. （可选）单击“请求”区域中的&#x200B;**Planning**&#x200B;选项卡以查看您的请求，然后单击请求的名称。
+1. （可选）单击&#x200B;**请求**&#x200B;区域中的&#x200B;**计划**&#x200B;选项卡以查看您的请求，然后单击请求的名称。
 
    此时将打开请求详细信息页面。
 
    ![请求详细信息页面](assets/request-details-page.png)
+
+   <!--replace the step directly above with this when we release filters and columns: 
+      1. (Optional) Click the **Planning** tab in the **Requests** area to view your requests. 
+         All the requests you have access to view that were submitted to a Planning request form display in a list. 
+      1. (Optional) Do any of the following:
+         <div class="preview">
+         * Click **Filters** and start adding conditions for what requests you want to view in the Planning tab. 
+                     ![Editing filters in the Planning requests tab](assets/filters-editing-box-in-requests-planning-tab.png)
+            You can filter by any of the following fields:  
+            * **Workspace**: The workspace the request form is associated with.
+            * **Record type**: The record type the request form is associated with.
+            * **Entry date**: The date when the request was submitted.
+            * **Request form**: The name of the request form used to submit the request.
+            * **Status**: The status of the request.
+            * **Entered by**: The name of the user who added the request. If the request was added with someone outside of Workfront, the **Entered by** field shows `N/A`.
+            You can have multiple filters joined by either And or Or.  
+            The request list is filtered automatically, as you add the filter conditions. 
+         * Click **Columns** and hide, show, or rearrange the columns in the request list. 
+            >[!TIP]
+            >
+            >You cannot add any more columns. 
+            >
+            >You cannot display the **Subject** field.
+                     ![](assets/columns-editing-box-in-requests-planning-tab.png)
+
+      1. Click the name of a request in the list. 
+   The request details page opens. 
+   ![Request details page](assets/request-details-page.png)             
+      </div>
+      -->
+
 
 1. （视情况而定）如果请求表单未与批准关联，或者请求已获批准，请单击请求的名称，然后单击&#x200B;**记录**&#x200B;字段中的记录名称。
 

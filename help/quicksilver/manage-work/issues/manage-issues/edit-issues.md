@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '2556'
+source-wordcount: '2566'
 ht-degree: 2%
 
 ---
@@ -188,8 +188,8 @@ ht-degree: 2%
        <ul> 
         <li> <p style="font-weight: bold;">轻微</p> </li> 
         <li> <p style="font-weight: bold;">导致混淆</p> </li> 
-        <li> <p style="font-weight: bold;">有变通方案的问题</p> </li> 
-        <li> <p style="font-weight: bold;">没有变通方案的问题</p> </li> 
+        <li> <p style="font-weight: bold;">有变通方案的错误</p> </li> 
+        <li> <p style="font-weight: bold;">没有变通方案的错误</p> </li> 
         <li> <p style="font-weight: bold;">致命错误</p> </li> 
        </ul> <p>根据您的Workfront管理员选择的项目偏好设置，严重性名称可能有所不同。 有关编辑严重程度的更多信息，请参阅<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md" class="MCXref xref">创建或自定义问题严重程度</a>。</p> </td> 
      </tr> 
@@ -392,6 +392,8 @@ ht-degree: 2%
 
 * 问题名称
 * 完成百分比
+
+  有关信息，请参阅[查看和更新任务的完成百分比](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md)。
 * 任务
 * 计划完成日期和时间
 * 状态
