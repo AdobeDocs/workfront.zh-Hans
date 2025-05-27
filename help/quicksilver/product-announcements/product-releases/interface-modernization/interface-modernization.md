@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: da7151e210bc779beb963e53a2beed5b5280f494
+source-git-commit: 616d729b0a42446e11805579febac4e26489b13f
 workflow-type: tm+mt
-source-wordcount: '3938'
+source-wordcount: '3990'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,14 @@ ht-degree: 1%
 
 
 ## 管理和设置
+
+### “设置”中“访问日志”选项卡的界面更新
+
+**预览版本： 2025年5月21日；生产版本： 2025年5月29日**
+
+我们更新了“访问日志”选项卡，使其设计更加现代化，与Workfront的其他区域保持一致。
+
+要查看此更改，请转到屏幕顶部的“设置”>“登录身份”>“选择访问日志”。
 
 ### 新记分卡和复制记分卡框的新外观
 
@@ -66,7 +74,7 @@ ht-degree: 1%
 
 ### 与外部电子邮件地址共享文档
 
-**预览版本： 2025年5月15日；生产版本：待宣布**
+**预览版本： 2025年5月15日；生产版本： 2025年5月21日**
 
 我们更新了“共享”对话框，以允许用户使用电子邮件地址与外部用户共享文档。 由于界面现代化工作，此功能暂时不可用。
 
