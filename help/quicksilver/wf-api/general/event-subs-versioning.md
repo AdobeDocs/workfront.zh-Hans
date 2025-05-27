@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: e4ff9c9c44c75518e75b14209a18586363cdf4f5
+source-git-commit: f34f48d974db200d9ce1815c805885707ab27f6d
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1288'
 ht-degree: 0%
 
 ---
@@ -255,4 +255,6 @@ Workfront提供两个版本的活动订阅。 本文介绍了它们之间的区�
 
 Workfront Fusion使用事件订阅来监视Workfront中的更改以触发场景。 您可以使用Workfront >更新事件有效负载版本模块，更新Fusion直接在场景中使用的事件订阅版本。
 
-有关使用此模块的说明，请参阅Workfront Fusion文档中的[Workfront模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules)。
+有关使用此模块的说明，请参阅Workfront Fusion文档中的[Workfront模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules)。
+
+有关在事件订阅升级期间保留Workfront Fusion方案的资源（包括网络研讨会录像），请参阅[在事件订阅V2升级期间保留Fusion方案](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182)。
