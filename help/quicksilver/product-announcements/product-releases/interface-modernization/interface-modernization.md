@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 616d729b0a42446e11805579febac4e26489b13f
+source-git-commit: f8b660859269694f13410e4bc6894d6677cd04a2
 workflow-type: tm+mt
-source-wordcount: '3990'
+source-wordcount: '3995'
 ht-degree: 1%
 
 ---
@@ -150,7 +150,7 @@ ht-degree: 1%
 
 ### 新用户注册页面的界面更新
 
-**预览版本： 2024年5月15日；生产版本：待宣布**
+**预览版本： 2024年5月12日；生产版本： 2025年5月19日**
 
 我们更新了新用户注册页面，更新后的设计更加现代化，与Workfront的其他部分保持一致。
 
@@ -158,13 +158,15 @@ ht-degree: 1%
 
 ### 更新了登录页面的外观
 
-**预览版本： 2024年5月15日；生产版本：待宣布**
+**预览版本： 2024年5月12日；生产版本： 2025年5月19日**
 
 我们更新了登录页面，更新后的设计更加现代化，与Workfront的其他部分保持一致。
 
+进行此更改后，登录页面将不再支持自定义品牌策略。
+
 ### 更新了重置密码页面的外观
 
-**预览版本： 2024年5月15日；生产版本：待宣布**
+**预览版本： 2024年5月12日；生产版本： 2025年5月19日**
 
 我们更新了“重置密码”屏幕，使其设计更加现代化，与Workfront的其他部分保持一致。 此更新包括对以下页面的更新：
 
