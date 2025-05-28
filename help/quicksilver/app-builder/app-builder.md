@@ -4,9 +4,9 @@ description: 由Adobe App Builder提供支持的Workfront UI扩展允许客户�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: e27cf74c94167e918bb6426b99bf7e47139cbade
+source-git-commit: a4e715d5212c3c166ce6ed995b327eb2b7198123
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1693'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Workfront UI扩展提供了几项主要优势：
 
 * 启用了IMS的Workfront帐户
 * 具有节点v18和npm的开发计算机
+* App Builder许可证
 
 ## 访问Adobe App Builder
 
@@ -69,8 +70,6 @@ Workfront UI扩展提供了几项主要优势：
 ### 访问App Builder
 
 组织必须与其客户经理合作才能购买App Builder。
-
-要测试AppBuilder集成，您可以在此处请求您的IMS组织的免费试用： https://developer.adobe.com/app-builder/trial/#
 
 如果AppBuilder配置正确，则在创建新项目时，您应该会看到从模板创建项目。
 
@@ -132,7 +131,7 @@ GitHub和Adobe Developer网站上提供了其他说明：
 
 1. 选择“我已完成”以确认完成。 正在从模板生成代码。
    正在生成![](assets/6-generation-in-process.png)
-1. 等待您看到应用程序初始化已完成的消息。 然后，您可以在IDE中打开该项目（建议使用VSCode）并访问src文件夹。
+1. 等待您看到应用程序初始化已完成的消息。 然后，您可以在IDE中打开该项目（建议使用Visual Studio代码）并访问src文件夹。
 
    有关项目中文件夹和文件的详细信息，请参阅[Adobe开发人员网站](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#5-anatomy-of-an-appbuilder-application)。
 
@@ -153,13 +152,13 @@ GitHub和Adobe Developer网站上提供了其他说明：
 在ExtensionRegistration函数中，您应该会看到以下代码。 此代码由模板为您创建。 可以添加此代码以创建其他菜单项。 请务必替换ID和URL。
 
     “
-    mainMenu： &lbrace;
+    mainMenu： {
     
-    getItems() &lbrace;
+    getItems() {
     
-    return &lbrack;
+    return [
     
-    &lbrace;
+    {
     
     id： &#39;main-menu-label&#39;，
     
@@ -169,13 +168,13 @@ GitHub和Adobe Developer网站上提供了其他说明：
     
     icon： icon1，
     
-    &rbrace;，
+    }，
     
-    &rbrack;；
+    ]；
     
     ，
     
-    &rbrace;
+    }
     “
 ”
 1. 添加以下代码片段：
