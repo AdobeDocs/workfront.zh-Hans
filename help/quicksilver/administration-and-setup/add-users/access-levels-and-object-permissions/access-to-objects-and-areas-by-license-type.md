@@ -9,25 +9,31 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 20%
+source-wordcount: '456'
+ht-degree: 24%
 
 ---
 
 # 按许可证类型访问对象和区域
 
+<!-- Audited: 5/2025 -->
+
 下表告诉您每个Adobe Workfront许可证对Workfront中的对象和区域允许的最高访问级别（编辑或查看）。
 
-* **查看**：用户可以查看和共享项目。
-* **编辑**：用户可以创建、编辑、删除和共享项目。
+* 视图：用户可以查看和共享项目。
+* 编辑：用户可以创建、编辑、删除和共享项目。
 
   >[!NOTE]
   >
-  >当其他用户共享对象时，共享者可以指定权限来限制他们编辑该对象的能力。 有关详细信息，请参阅[对象权限共享概述](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
+  >当其他用户共享对象时，共享者可以指定权限来限制他们编辑该对象的能力。 有关新许可证类型的详细信息，请参阅[对象权限共享概述](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
 
-|   | 计划 | 工作 | 评论 | 请求 | 外部的 |
+  >[!NOTE]
+  >
+  >本文包含有关旧版许可证类型的对象访问的信息。 有关新许可证类型的信息，请参阅[新访问级别概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)和[新许可证概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)。
+
+|   | 规划 | 工作 | 评论 | 请求 | 外部的 |
 |---|---|---|---|---|---|
 | 项目 | 编辑 | 编辑（没有“创建”权限） | 查看 | 查看（仅详细信息页面） | 无访问权限 |
 | 任务 | 编辑 | 编辑 | 查看 | 查看 | 查看 |
@@ -35,21 +41,21 @@ ht-degree: 20%
 | 项目组合 | 编辑 | 查看 | 查看 | 无访问权限 | 无访问权限 |
 | 项目群 | 编辑 | 查看 | 查看 | 无访问权限 | 无访问权限 |
 | 报告、功能板和日历 | 编辑 | 查看 | 查看 | 查看&#42; | 查看（仅用于日历，无共享权限） |
-| 过滤器、视图和分组 | 编辑 | 编辑 | 编辑 | 编辑 | 无权访问 |
+| 过滤器、视图和分组 | 编辑 | 编辑 | 编辑 | 编辑 | 无访问权限 |
 | 文档 | 编辑 | 编辑 | 编辑 | 编辑 | 查看（无共享权限） |
 | 用户 | 编辑 | 查看 | 查看 | 查看 | 查看 |
-| 团队 | 编辑 | 编辑 | 查看 | 查看 | 无权访问 |
-| 模板 | 编辑 | 无权访问 | 无权访问 | 无权访问 | 无权访问 |
-| 财务数据 | 编辑 | 查看（仅项目详细信息中的财务区域） | 查看 | 无权访问 | 无权访问 |
-| 资源管理 | 编辑 | 查看 | 查看 | 无权访问 | 无权访问 |
-| 场景计划器 | 编辑 | 编辑 | 编辑 | 无权访问 | 无权访问 |
-| Workfront Goals | 编辑 | 编辑 | 编辑 | 编辑 | 无权访问 |
+| 团队 | 编辑 | 编辑 | 查看 | 查看 | 无访问权限 |
+| 模板 | 编辑 | 无访问权限 | 无访问权限 | 无访问权限 | 无访问权限 |
+| 财务数据 | 编辑 | 查看（仅项目详细信息中的财务区域） | 查看 | 无访问权限 | 无访问权限 |
+| 资源管理 | 编辑 | 查看 | 查看 | 无访问权限 | 无访问权限 |
+| 场景计划器 | 编辑 | 编辑 | 编辑 | 无访问权限 | 无访问权限 |
+| Workfront Goals | 编辑 | 编辑 | 编辑 | 编辑 | 无访问权限 |
 
 &#42;拥有请求许可证的用户只能查看与其共享的报告、功能板和日历。
 
 >[!NOTE]
 >
->具有“审阅”许可证或“请求”许可证的用户共享功能有限。 有关详细信息，请参阅[Adobe Workfront许可证概述](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)。
+>具有“审阅”许可证或“请求”许可证的用户共享功能有限。 有关详细信息，请参阅[许可证概述](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)。
 >
 >外部用户无法在Workfront中搜索项目。 他们可以查看专门与他们共享的文档和日历。 他们还可以查看与其共享项目的用户。
 

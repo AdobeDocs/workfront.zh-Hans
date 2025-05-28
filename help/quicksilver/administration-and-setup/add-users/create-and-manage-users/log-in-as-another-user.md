@@ -8,16 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 6068c9c53568d3ebec9fae294bfee1cbd365714b
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '738'
 ht-degree: 0%
 
 ---
 
 # 以其他用户身份登录。
 
-<!--Audited: April, 2024-->
+<!--Audited: 5/2025-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all users only in the Preview environment.</span> -->
 
@@ -25,9 +25,7 @@ ht-degree: 0%
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. Also linked to other articles: Creating and Managing Groups, etc.</p>
 -->
 
-作为Adobe Workfront管理员，有时您可能需要代表其他用户访问Workfront。
-
-或者，作为组管理员，您可能需要代表您管理组的成员用户访问Workfront。
+作为Adobe Workfront管理员，有时您可能需要代表其他用户访问Workfront。 或者，作为组管理员，您可能需要代表您管理组的成员用户访问Workfront。
 
 例如，如果任务在休假用户执行某项操作之前无法进度，您可以以该用户身份登录并执行该操作。
 
@@ -44,7 +42,7 @@ Some users, such as executives, need to be able to control which administrators 
 >
 >由于文档集成可能会连接到个人专用文件，因此管理员在以其他用户身份登录时无法访问文档集成。
 >
->有关文档集成的详细信息，请参阅[配置文档集成](../../../administration-and-setup/configure-integrations/configure-document-integrations.md)
+>有关文档集成的详细信息，请参阅[配置文档集成](../../../administration-and-setup/configure-integrations/configure-document-integrations.md)。
 
 ## 访问要求
 
@@ -68,8 +66,8 @@ Some users, such as executives, need to be able to control which administrators 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>使用“系统管理员”访问级别，您可以作为任何人都登录。</p> <p>如果访问级别中的<b>用户</b>设置配置为<b>编辑</b>访问权限，并且在<b>微调设置</b><img src="assets/gear-icon-in-access-levels.png">下启用了<b>创建</b>和两个<b>用户管理员</b>选项中的至少一个，那么借助“标准”或“规划者”访问级别，您可以以许可证级别较低的用户身份登录。 </p> 
-   <p><b>注意</b>：在这两个选项中，如果启用了<b>用户管理员（组用户）</b>，则您必须是该用户所属组的组管理员。</p></td>
+   <td> <p>使用“系统管理员”访问级别，您可以作为任何人都登录。</p> <p>使用标准或Planner访问级别，如果访问级别中的用户设置配置为编辑访问权限，并且在“微调”设置<img src="assets/gear-icon-in-access-levels.png">下启用了创建以及至少两个用户管理员选项中的至少一个，则您可以作为较低许可证级别的用户登录。 </p> 
+   <p>注意：如果启用“用户管理员（组用户）”，则您必须是该用户所属的组的组管理员。</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -96,15 +94,14 @@ Some users, such as executives, need to be able to control which administrators 
 
 1. 在左侧面板中，单击&#x200B;**登录身份**。
 
-1. 在&#x200B;**登录身份**&#x200B;选项卡的&#x200B;**用户**&#x200B;框中，开始键入用户的名称，然后在该名称出现在下拉列表中时单击该名称。
+1. 在&#x200B;**登录身份**&#x200B;选项卡的&#x200B;**开始键入名称……**&#x200B;框中，开始键入用户的名称，然后在名称出现在下拉列表中时单击该名称。
 
-   用户必须具有在Workfront中定义的访问级别。 您无法以无权登录的用户身份登录Workfront系统。
 
    >[!NOTE]
-   >
-   >组管理员只能以他们管理的组的成员用户身份登录。 他们无法以Workfront管理员身份登录。
+   >* 您选择的用户必须具有Workfront中定义的访问级别。 您无法以无权登录的用户身份登录Workfront系统。
+   >* 组管理员只能以他们管理的组的成员用户身份登录。 他们无法以Workfront管理员身份登录。
 
-1. 单击&#x200B;**登录。**
+1. 单击&#x200B;**登录**。 您以其他用户身份登录，屏幕顶部会显示一条通知来指示此信息。
 
    <!--
    <p> Might come in a future story:</p>
@@ -131,15 +128,15 @@ Some users, such as executives, need to be able to control which administrators 
    </div>
    -->
 
-   当您以其他用户身份登录时，屏幕顶部会显示一条通知来指示此情况。
 
-1. 以用户身份执行必要的操作后，单击&#x200B;**注销。**
+
+1. 以用户身份执行了必要的操作后，单击屏幕顶部的&#x200B;**注销**。
 
 ## 在管理员以其他用户身份登录时跟踪和审核活动
 
 Workfront提供多种机制，用于跟踪和审核管理员以其他用户身份登录时发生的活动。
 
-以其他用户身份登录时，该用户的最后登录日期会被修改为系统或组管理员以该用户身份登录的日期。
+以其他用户身份登录时，该用户的最后登录日期将修改为系统或组管理员以该用户身份登录的日期。
 
 * [查看项目指示器](#view-indicators-on-items)
 * [查看审核信息](#view-audit-information)
@@ -153,14 +150,17 @@ Workfront提供多种机制，用于跟踪和审核管理员以其他用户身�
 ### 查看审核信息 {#view-audit-information}
 
 1. 以Workfront管理员或组管理员身份登录到Workfront。
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**设置**![齿轮设置图标](assets/gear-icon-settings.png)。
+   {{step-1-to-setup}}
+   <!--1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).-->
 
-1. 单击&#x200B;**登录身份，**，然后单击&#x200B;**访问日志**&#x200B;选项卡。
+1. 在左侧面板中，单击&#x200B;**登录身份**，然后单击&#x200B;**访问日志**&#x200B;选项卡。
 
-   每当系统或组管理员以其他用户身份登录到Workfront时，该事件即被记录到审核记录中。 此外，当管理员以其他用户身份登录时，发生的任何可审核操作都会记录到审核跟踪中。
+   >[!NOTE]
+   >
+   >每当系统或组管理员以其他用户身份登录到Workfront时，该事件即被记录到审核记录中。 此外，当管理员以其他用户身份登录时，发生的任何可审核操作都会记录到审核跟踪中。
 
 1. （可选）您可以通过以下方式筛选审计跟踪中显示的结果：
 
    * 按已登录的用户
    * 按已登录的用户
-   * 按日期
+   * 按日期和时间

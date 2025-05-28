@@ -3,14 +3,14 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: administration-and-setup
-title: “用户管理：文章索引”
+title: 用户管理：文章索引
 description: 您可以通过从头开始创建单个用户或复制现有用户，在Adobe Workfront中添加用户。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 92b02c31-7e77-4b27-9b17-d7803df2ba2d
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # 用户管理：文章索引
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 5/2025 -->
 
 您可以在Workfront中创建和管理用户。
 
