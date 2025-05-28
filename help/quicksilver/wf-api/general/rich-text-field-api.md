@@ -30,7 +30,7 @@ Adobe Workfront中的某些对象允许存储具有富文本格式的文本。 �
 示例：用于检索富文本自定义表单字段字段值的基本GET请求：
 
 <!-- [Copy](javascript:void(0);) -->
-<pre><OBJ Code><OBJ ID><OBJ Code><OBJ ID></pre> 
+<pre>&lt;OBJ Code>&lt;OBJ ID>&lt;OBJ Code>&lt;OBJ ID></pre> 
 
 示例：此请求将返回JSON中富文本字段的值，该富文本字段存储在parameterValue DE：Field中
 
@@ -120,4 +120,4 @@ Adobe Workfront中的某些对象允许存储具有富文本格式的文本。 �
 1. 使用上面概述的JSON上的stringify方法发出PUT请求并发送更新。
 
    <!-- [Copy](javascript:void(0);) -->
-   <pre><OBJ Code><OBJ ID></pre>
+   <pre>&lt;OBJ Code>&lt;OBJ ID></pre>
