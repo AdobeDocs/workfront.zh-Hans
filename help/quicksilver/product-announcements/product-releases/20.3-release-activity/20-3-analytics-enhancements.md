@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ca388df9-234f-4115-b399-f3f0a379f3d8
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -34,5 +34,4 @@ Workfront中现在提供了增强的分析功能。 此功能为您提供了所�
 
 除了可以获得的见解之外，您还可以完成针对任务的操作，例如更新状态、请求更新、将任务分配给某个人等。 — 直接从Enhanced Analytics区域。
 
-有关详细信息，请参阅[增强分析概述](../../../enhanced-analytics/enhanced-analytics-overview.md)。
 

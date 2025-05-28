@@ -7,9 +7,9 @@ description: 主菜单会随着 [!DNL Adobe Workfront] 管理员分配的访问�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -45,8 +45,6 @@ ht-degree: 0%
 * **[!UICONTROL 文档]**：您可以在此处上传文档或查看与您共享的文档。 有关信息，请参阅[文档](../../../documents/documents-overview.md)。
 
 * **[!UICONTROL 资源]**：您可以在资源计划工具中查看资源分配，并在此处查看资源池。 有关信息，请参阅[管理资源](../../../resource-mgmt/manage-resources.md)。
-
-* **[!UICONTROL Analytics]**：查看项目数据并识别计划和完成趋势。 此区域显示您有权查看的项目的洞察信息。 有关详细信息，请参阅[增强分析概述](../../../enhanced-analytics/enhanced-analytics-overview.md)。
 
 * **[!UICONTROL 讨论区]**：使用共享讨论区，该讨论区包含反映要完成的工作的列和卡片，从而灵活地与团队成员协作。 有关信息，请参阅[讨论区入门：文章索引](../../../agile/get-started-with-boards/get-started-with-boards.md)。
 

@@ -4,12 +4,12 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: 过滤器概述
 description: 您可以使用Adobe Workfront中的过滤器来减少您在列表、报告或其他区域屏幕上显示的信息量。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '1821'
+source-wordcount: '1811'
 ht-degree: 1%
 
 ---
@@ -89,11 +89,7 @@ Workfront中有多种类型的过滤器。 所有筛选器都可达到限制屏�
 
 * 工作负载均衡器
 
-  有关信息，请参阅工作负载均衡器[&#128279;](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)中的过滤器信息。
-
-* 分析区域
-
-  有关信息，请参阅[在增强型分析中应用筛选器](../../../enhanced-analytics/use-enhanced-analytics-filters.md)。
+  有关信息，请参阅工作负载均衡器](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)中的[过滤器信息。
 
 * Blueprint区域
 
@@ -189,7 +185,7 @@ Workfront中有多种类型的过滤器。 所有筛选器都可达到限制屏�
   </tr> 
   <tr> 
    <td><strong>字段</strong></td> 
-   <td> <p>过滤对象的属性。 </p> <p>例如，您可以按“Portfolio名称”或“项目所有者”进行筛选。 在这些情况下，“名称”和“所有者”是Portfolio和项目对象的字段。 </p> </td> 
+   <td> <p>过滤对象的属性。 </p> <p>例如，您可以按“Portfolio名称”或“项目所有者”进行筛选。 在这些情况下，名称和所有者是Portfolio和项目对象的字段。 </p> </td> 
   </tr> 
   <tr> 
    <td><strong>值</strong></td> 
@@ -227,7 +223,7 @@ Workfront具有两个过滤器运算符来连接每个过滤器语句：
 >[!INFO]
 >
 >**示例：**
->您可以筛选完成百分比为100%的项目。 在这种情况下，您可以在以下filter语句中使用“equal”修饰符：
+>>您可以筛选完成百分比为100%的项目。 在这种情况下，您可以在以下filter语句中使用“equal”修饰符：
 >
 >`Project: Percent Complete Equal(Case Sensitive) 100`
 

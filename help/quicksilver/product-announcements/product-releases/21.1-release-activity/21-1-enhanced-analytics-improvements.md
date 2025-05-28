@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 886fe974-7813-425c-b5cf-f6bca21a888b
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '267'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,6 @@ ht-degree: 2%
 
 在默认布局模板中，Analytics区域现在默认处于启用状态，这意味着分配到此布局模板的用户现在可以在Adobe Workfront Classic的全局导航栏中看到Analytics区域，并在新的Adobe Workfront Experience中看到主菜单。
 
-要了解有关增强型分析的更多信息，请参阅[增强型分析概述](../../../enhanced-analytics/enhanced-analytics-overview.md)。
 
 ## 增强的分析适用于所有群集
 
@@ -37,7 +36,6 @@ ht-degree: 2%
 
 以前，增强分析不可用于Google Cloud Platform，因此群集6上的客户无法访问分析区域。 现在，群集6上的商业和企业客户可以访问Analytics区域。
 
-要了解有关增强型分析的更多信息，请参阅[增强型分析概述](../../../enhanced-analytics/enhanced-analytics-overview.md)。
 
 ## “人员”页面现在可用于所有聚类
 
@@ -49,4 +47,4 @@ ht-degree: 2%
 
 此页面以前在Workfront Classic的20.3版本和所有其他群集的新Workfront Experience中均可用。
 
-要了解有关“人员”页面中可用图表的更多信息，请参阅[增强型分析概述](../../../enhanced-analytics/enhanced-analytics-overview.md)。
+

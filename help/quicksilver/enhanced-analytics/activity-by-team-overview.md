@@ -7,9 +7,9 @@ description: “按团队分类的活动”可视化图表显示在特定时间�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c4f9886c-ce76-43a8-bd43-cb64fff27e79
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 2a6e767036ae702f6c19dc71cdb11dae8e9e37ea
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '766'
 ht-degree: 6%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->增强型分析将于5月26日这一周从Workfront中删除。 Workfront Data Connect是一种新的替代解决方案，可用于复制您当前使用的任何Enhanced Analytics可视化图表。 <br>有关详细信息，请参阅[Enhanced Analytics弃用](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)指南。
+>增强型分析已于5月27日从Workfront中删除。 Workfront Data Connect是一种新的替代解决方案，可用于复制您当前使用的任何Enhanced Analytics可视化图表。 <br>有关详细信息，请参阅[Enhanced Analytics弃用](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)指南。
 
 
 

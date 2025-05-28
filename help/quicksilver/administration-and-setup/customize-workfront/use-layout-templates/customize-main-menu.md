@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 7640016921e421d2aec0ab1aadc0edd304125feb
+source-git-commit: bb0c3139be903e34fd01be055010673764fe9787
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '682'
 ht-degree: 3%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 3%
 <!--Audited: 01/2024-->
 
 作为Adobe Workfront管理员或组管理员，您可以使用布局模板配置用户在Workfront中打开主菜单时看到的选项。
-
-![主菜单选项](assets/main-menu-with-blueprints-no-branding.png)
 
 >[!NOTE]
 >
@@ -106,7 +104,6 @@ ht-degree: 3%
    * 时间表
    * 文档
    * 模板
-   * 分析
    * 校对
    * 目标
 
@@ -122,7 +119,7 @@ ht-degree: 3%
      >[!NOTE]
      >
      >Planning需要额外的许可证。 有关Workfront规划的信息，请参阅[Adobe Workfront规划概述](/help/quicksilver/planning/general/planning-overview.md)
-     > * 自定义应用程序
+      * 自定义应用程序
 
      >[!NOTE]
      >

@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '2798'
+source-wordcount: '2771'
 ht-degree: 3%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 3%
          </ul>
       <p>当前：</p>
          <ul>
-         <li><p>计划</p></li>
+         <li><p>规划</p></li>
          </ul>
    </td> 
   </tr> 
@@ -168,15 +168,6 @@ ht-degree: 3%
 如果要查看项目的运行状况，还可以使用项目&#x200B;**条件**&#x200B;字段将报告设置为显示此相同信息。
 
 此信息可用于帮助进行审核以及说明您和您的组织的计划情况。
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;for tip below: When analytics adds the status option, update this note to say "these entries (status or condition changes)")</p>
--->
-
->[!TIP]
->
->如果要比较条件更改之间的天数差异，您可以使用增强型分析。\
->要了解有关增强型分析的更多信息，请参阅[增强型分析概述](../../../enhanced-analytics/enhanced-analytics-overview.md)。
 
 1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**报表**。
 1. 单击&#x200B;**新建报表**，然后选择&#x200B;**日志条目**。

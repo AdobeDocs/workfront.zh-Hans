@@ -6,9 +6,9 @@ description: 主菜单会随着 [!DNL Adobe Workfront] 管理员分配的访问�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c646b3d2-2eca-47ef-b181-9358cef03ed7
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,6 @@ ht-degree: 0%
 
 * **[!UICONTROL 请求]**：您可以提交和查看您或您公司其他用户在此区域提交的请求。
 * **[!UICONTROL 文档]**：您可以在此处上传文档或查看与您共享的文档。
-* **[!UICONTROL Analytics]**：查看项目数据并识别计划和完成趋势。 此区域显示您有权查看的项目的洞察信息。 有关详细信息，请参阅[增强分析概述](../../../enhanced-analytics/enhanced-analytics-overview.md)。
-
 * **[!UICONTROL Blueprint]**：检查系统中的现有Blueprint，并请求安装一个（如果[!DNL Workfront]管理员为Blueprint配置了请求队列）。 有关详细信息，请参阅[Blueprint概述](../../../administration-and-setup/blueprints/blueprints-overview.md)。
 
 

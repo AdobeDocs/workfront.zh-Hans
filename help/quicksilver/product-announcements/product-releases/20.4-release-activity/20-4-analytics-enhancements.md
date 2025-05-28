@@ -1,19 +1,19 @@
 ---
-title: 20. 4 Analytics增强功能
-description: 20. 4 Analytics增强功能
+title: ​20. 4 Analytics增强功能
+description: ​20. 4 Analytics增强功能
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39e09278-afce-4e9b-857c-f18453081f9d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
 
-# 20. 4 Analytics增强功能
+# &#x200B;20. 4 Analytics增强功能
 
 本页介绍了20.4版本对“预览”环境所做的所有Analytics增强。 这些增强功能将在2020年11月9日这一周的“生产”环境中提供。
 
@@ -28,5 +28,3 @@ ht-degree: 0%
 * 现在，每个图表都有一个“排序依据”菜单，允许您按字母顺序、计划开始日期或计划完成日期进行排序。
 
 以前，增强型分析区域将您可以查看的项目数量限制为50个。
-
-此功能现已包含在Workfront One的[Enhanced Analytics，第1部分学习路径](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home)中。

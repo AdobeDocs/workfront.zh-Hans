@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: 在布局模板中，您可以将希望用户始终可用的页面固定在Adobe Workfront顶部。 这些页面可以通过主菜单或功能板访问。
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: 76797ce2afb6a6a929531f02ed3a3b3f75240602
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '545'
 ht-degree: 4%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 4%
          </ul>
       <p>当前：</p>
          <ul>
-         <li><p>计划</p></li>
+         <li><p>规划</p></li>
          </ul>
    </td>
   </tr> 
@@ -77,7 +77,6 @@ ht-degree: 4%
 
    * 从以下区域中选择：
 
-      * 分析
       * 日程表
       * 仪表板
       * 文档

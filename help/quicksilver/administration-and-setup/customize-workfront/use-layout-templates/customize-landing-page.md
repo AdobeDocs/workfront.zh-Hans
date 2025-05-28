@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: 作为Workfront管理员，您可以使用布局模板指定用户每次登录到Workfront时要查看的区域。
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 76797ce2afb6a6a929531f02ed3a3b3f75240602
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '414'
 ht-degree: 5%
 
 ---
@@ -73,7 +73,6 @@ ht-degree: 5%
 
    从以下区域进行选择，或添加自定义功能板：
 
-   * 分析
    * 日程表
    * 仪表板
    * 文档
@@ -89,7 +88,7 @@ ht-degree: 5%
    * 方案
    * 团队
    * 模板
-   * 工时表
+   * 时间表
    * 用户
    * Blueprint
    * 规划中

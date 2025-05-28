@@ -7,9 +7,9 @@ description: 增强型分析是Adobe Workfront中一款具有预建可视化图�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 2a6e767036ae702f6c19dc71cdb11dae8e9e37ea
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1243'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->增强型分析将于5月26日这一周从Workfront中删除。 Workfront Data Connect是一种新的替代解决方案，可用于复制您当前使用的任何Enhanced Analytics可视化图表。 <br>有关详细信息，请参阅[Enhanced Analytics弃用](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)指南。
+>增强型分析已于5月27日从Workfront中删除。 Workfront Data Connect是一种新的替代解决方案，可用于复制您当前使用的任何Enhanced Analytics可视化图表。 <br>有关详细信息，请参阅[Enhanced Analytics弃用](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)指南。
 
 
 增强型分析是Adobe Workfront中一款具有预建可视化图表的强大工具，允许您查看项目数据并识别计划和完成趋势。 将此insight纳入您的项目有助于您管理当前工作，使您能够更准确地规划未来工作。
@@ -34,7 +34,7 @@ ht-degree: 3%
 
 ![分析](assets/nwe-full-screen-analytics-350x222.png)
 
-要查看用例或了解有关管理当前工作和规划增强分析未来工作的更多信息，请参阅[增强分析学习路径](https://experienceleague.adobe.com/zh-hans/docs/workfront-learn/tutorials-workfront/home)。
+要查看用例或了解有关管理当前工作和规划增强分析未来工作的更多信息，请参阅[增强分析学习路径](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)。
 
 ## 先决条件
 
@@ -46,7 +46,7 @@ ht-degree: 3%
 
 * 让您的Workfront管理员将增强型分析添加到您的布局模板。
 
-  有关详细信息，请参阅[增强型分析：将分析添加到布局模板](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home)。
+  有关详细信息，请参阅[增强型分析：将分析添加到布局模板](https://experienceleague.adobe.com/en/docs/workfront/using/home)。
 
 要查看有关项目和任务的信息，您必须：
 
