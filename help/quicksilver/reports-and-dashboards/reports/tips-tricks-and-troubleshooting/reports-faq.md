@@ -7,9 +7,9 @@ description: 报表常见问题解答
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: d68189272bd3f78de2d57b8393b44b698fa5db13
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1504'
 ht-degree: 0%
 
 ---
@@ -71,17 +71,27 @@ ht-degree: 0%
 
 我的计算是：
 
-`valueexpression=SUB(workRequired,actualWorkRequiredDouble)`
+`valueexpression=SUB(workRequired,actualWorkRequired)`
 
 ### 答案
 
 在Workfront中，大多数使用小时数的字段都以分钟为单位存储。 在计算中使用这些字段时，结果通常以分钟为单位。 要获得以小时为单位的结果，必须将计算结果或所引用的字段除以60。
 
-例如，计划小时数以分钟为单位存储，而实际小时数以小时为单位存储。 因此，您必须将计划小时数从分钟转换为小时。
+<!--For example, Planned Hours are stored in minutes, while Actual Hours are stored in hours. As a result, you must convert Planned Hours from minutes to hours. -->
 
 正确的计算方法是：
 
-`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+`valueexpression=SUB(workRequired,actualWorkRequired)/60`
+
+>[!NOTE]
+>
+>如果您引用API调用中的实际小时数，请将`actualWorkRequiredDouble`用于valuefield。 API中的实际小时数以小时数存储。 计划小时数以分钟为单位存储。
+>
+>API调用中的正确计算是：
+>>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+
+
+<!--when the actualWorkRequiredDouble is released to custom data in Workfront and not just the API, update the calculation above to this: `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`; and take the note out -->
 
 ## 为什么报表中我的每个图表元素的值都没有显示在图表上？
 

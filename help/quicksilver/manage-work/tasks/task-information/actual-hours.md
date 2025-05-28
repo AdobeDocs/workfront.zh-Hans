@@ -7,9 +7,9 @@ description: 您在Adobe Workfront中登录工作项的小时数被视为实际�
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: d68189272bd3f78de2d57b8393b44b698fa5db13
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
@@ -131,10 +131,10 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 
 * 资源规划者。
 
-  有关信息，在使用用户视图[&#128279;](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)时，请参阅资源规划者中的查看可用、计划和实际小时数或FTE。
+  有关信息，在使用用户视图](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)时，请参阅资源规划者中的[查看可用、计划和实际小时数或FTE。
 
 
-### Workfront数据库、API和自定义数据中的实际小时数
+### Workfront <!--database and the--> API <!--, and custom data-->中的实际小时数
 
 <!--this section was added as a result to this issue: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/6810910e0001b932e0948336208e76f2/overview-->
 
@@ -142,9 +142,14 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 
 在API调用或计算的自定义字段或列中访问这些字段时，您必须考虑从分钟到小时的转换。
 
-但是，实际小时数存储在Workfront数据库中的小时数。
+根据您访问实际小时数的方式，可以将它们存储在数据库中的以下字段和单位中：
 
-您必须对API调用中的实际小时数或Workfront中的计算自定义字段或列使用以下值字段名称： `actualWorkRequiredDouble`。
+* 在API中：实际小时数的`valuefield`是`actualWorkRequiredDouble`，以小时数存储。
+* 在Workfront界面（计算的自定义字段和列）中：实际小时数的`valuefield`是`actualWorkRequired`，以分钟为单位存储。
+
+<!--Change the above with this when we fix this for the Workfront UI: 
+
+You must use the following valuefield name for Actual Hours in API calls or calculated custom fields or columns in Workfront: `actualWorkRequiredDouble`. -->
 
 有关在计算列或字段中使用实际小时数的信息，请参阅[报告常见问题解答](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)。
 
