@@ -42,4 +42,4 @@ ht-degree: 3%
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../enhanced-analytics/trend-views-overview.md" class="MCXref xref" xrefformat="{para}">Trend views overview</a> </li>
   -->
 
-有关增强型分析的深入培训，请参阅[增强型分析学习路径](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)。
+有关增强型分析的深入培训，请参阅[增强型分析学习路径](https://experienceleague.adobe.com/zh-hans/docs/workfront-learn/tutorials-workfront/home)。
