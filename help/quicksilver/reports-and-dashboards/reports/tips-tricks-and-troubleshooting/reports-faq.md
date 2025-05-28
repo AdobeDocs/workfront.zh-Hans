@@ -88,7 +88,7 @@ ht-degree: 0%
 >如果您引用API调用中的实际小时数，请将`actualWorkRequiredDouble`用于valuefield。 API中的实际小时数以小时数存储。 计划小时数以分钟为单位存储。
 >
 >API调用中的正确计算是：
->>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+>&#x200B;>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
 
 
 <!--when the actualWorkRequiredDouble is released to custom data in Workfront and not just the API, update the calculation above to this: `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`; and take the note out -->
