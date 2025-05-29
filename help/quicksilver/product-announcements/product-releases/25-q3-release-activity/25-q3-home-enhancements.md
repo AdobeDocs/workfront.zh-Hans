@@ -4,11 +4,10 @@ description: 2025年第三季度主页增强功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: fe2e7c5ad5d2d2f32d66f5dfd3e1fd69eca8ca92
+exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
+source-git-commit: 75a8990a3bb75a0f8177b10d5e42bd6b4211f7f1
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
@@ -21,7 +20,12 @@ ht-degree: 0%
 
 ## 我的审批构件现在按截止日期自动排序
 
+>[!NOTE]
+>
+>* 预览： 2025年5月29日
+>* 生产快速发布： 2025年6月12日
+>* 适用于所有客户的生产： 2025年7月17日
+
 我们更新了主页中的我的审批构件，以默认按截止日期（降序）排序。 这允许最紧急的批准显示在列表顶部。
 
 以前，构件按输入日期排序，这使得确定优先级具有挑战性。
-

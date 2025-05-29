@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 870e4130daf9924bf85b59eb09f7d548b8152096
+source-git-commit: 686db6004d1a64279080ab3ba311c172a6a24d1f
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,30 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 在请求区域的Planning选项卡中添加了筛选器、列和其他字段
+
+>[!NOTE]
+>
+>* 预览： 2025年5月29日
+>* 生产快速发布： 2025年6月12日
+>* 适用于所有客户的生产： 2025年7月17日
+
+我们已将以下功能添加到请求区域的计划选项卡中的请求列表：
+
+* 输入者列表示添加请求的人员
+* 用于限制您在Planning选项卡上查看的请求数的过滤器。 可按以下项筛选列表：
+
+   * 请求表单源自的Workspace
+   * 与请求表单关联的记录类型
+   * 请求的输入日期
+   * 请求表单的名称
+   * 请求的状态
+   * 输入请求的人员的姓名。
+
+* 列控制查看或隐藏Planning请求列表中的字段（或列）。
+
+有关信息，请参阅[提交Adobe Workfront计划请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。
 
 ## 在时间轴视图中以紧凑模式划分记录时的新体验
 
@@ -126,7 +150,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >此更改将对具有系统管理员和标准许可证的所有新用户和现有用户可见。
->分配到布局模板的现有用户将继续根据布局模板中定义的设置查看所有内容。
+>>分配到布局模板的现有用户将继续根据布局模板中定义的设置查看所有内容。
 
 有关信息，请参阅[Adobe Workfront规划概述](/help/quicksilver/planning/access/access-overview.md)。
 

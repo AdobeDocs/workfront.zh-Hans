@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: c8222e177d7e1ab9f62f5a520a2a941ca87cc27a
+source-git-commit: e73986702dac81d698f59caca76f6c7239ddeef8
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 预览版本： 2025年5月31日；适用于所有客户的生产版本： 2025年5月31日
+>* 预览版本： 2025年6月2日；适用于所有客户的生产版本： 2025年6月2日
 
 Google正在为访问Google Drive的第三方应用程序[加强安全控制](https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps)，要求应用程序采用每个用户的同意模型。 因此，单个资源必须一次链接一个资源才能在Workfront中可见。 有关详细信息，请参阅[配置文档集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md)。
 
