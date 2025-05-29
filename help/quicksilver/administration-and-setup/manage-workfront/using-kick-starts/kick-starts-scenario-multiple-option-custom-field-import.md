@@ -63,7 +63,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[！UICONTROL系统管理员]</td> 
+   <td>[!UICONTROL 系统管理员]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -152,7 +152,7 @@ ht-degree: 0%
    >
    >必须使用Workfront数据库支持的格式编写对象名称及其属性。
    >
-   >有关这些对象含义的信息，请参阅 [!DNL Adobe Workfront] 术语](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)的[术语表。
+   >有关这些对象含义的信息，请参阅 [!DNL Adobe Workfront] 术语[&#128279;](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)的术语表。
    >
    >有关Workfront数据库中对象名称的信息，请参阅[API资源管理器](../../../wf-api/general/api-explorer.md)。
    >
@@ -169,7 +169,7 @@ ht-degree: 0%
      >
      >某些列虽然不是粗体的，但还是需要它们的。 例如，`isNew`和`ID`列不是粗体，但它们是必填字段。
 
-1. 选择**0}工作表并在以下必填列中添加有关新自定义字段的信息：`**PARAM Parameter`
+1. 选择&#x200B;**0&rbrace;工作表并在以下必填列中添加有关新自定义字段的信息：`**&#x200B;PARAM Parameter`
 
    * **`isNew`** =在此列中为每个代表新自定义字段的行输入&#x200B;**`TRUE`**。 这表示该字段是新字段，在Workfront中不存在。
 
@@ -225,9 +225,9 @@ ht-degree: 0%
      >
      >每个字段只能有一个默认选项。
 
-   * **`setParameterID`** =与&#x200B;_品牌_&#x200B;自定义字段对应的选项的&#x200B;**`setParameterID`**&#x200B;为1，与&#x200B;_媒体_&#x200B;对应的选项的**`setParameterID`**为2。 `PARAM`和`POPT`工作表相互交叉引用，以指示哪些选项属于哪个自定义字段。
+   * **`setParameterID`** =与&#x200B;_品牌_&#x200B;自定义字段对应的选项的&#x200B;**`setParameterID`**&#x200B;为1，与&#x200B;_媒体_&#x200B;对应的选项的&#x200B;**`setParameterID`**&#x200B;为2。 `PARAM`和`POPT`工作表相互交叉引用，以指示哪些选项属于哪个自定义字段。
    * **`setDisplayOrder`**=显示顺序列指示选项在自定义字段中的显示顺序。 您可以从1开始并按升序继续所有选项，无论它们属于哪个字段。 这里的重要事项是为每个选项设置唯一的数字。
-   * **`setLabel`**&#x200B;和**1}列通常包含相同的信息，它们应反映Workfront UI中所需的名称。 `**setValue`选项的值是报表中显示的名称，例如，而标签在附加到对象时显示在自定义表单中。 有关详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+   * **`setLabel`**&#x200B;和&#x200B;**1&rbrace;列通常包含相同的信息，它们应反映Workfront UI中所需的名称。 `**&#x200B;setValue`选项的值是报表中显示的名称，例如，而标签在附加到对象时显示在自定义表单中。 有关详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
    * **`setIsHidden`** =如果您希望隐藏任何选项，请输入`TRUE`。
 
    ![参数表已填写](assets/parameter-option-sheet-filled-out-kick-starts.png)
