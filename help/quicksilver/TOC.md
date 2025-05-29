@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: ddd69533738865d09f35e290e545cfbae062c687
+source-git-commit: 779fc409d316e957a4cbec951047e41641b69863
 workflow-type: tm+mt
-source-wordcount: '13216'
+source-wordcount: '13220'
 ht-degree: 2%
 
 ---
@@ -188,7 +188,7 @@ ht-degree: 2%
          * [21.2项目增强功能](product-announcements/product-releases/21.2-release-activity/21-2-project-enhancements.md)
          * [21.2请求增强功能](product-announcements/product-releases/21.2-release-activity/21-2-requests-enhancements.md)
          * [21.2资源管理增强功能](product-announcements/product-releases/21.2-release-activity/21-2-resource-management-enhancements.md)
-         * [21. 2个报表增强功能](product-announcements/product-releases/21.2-release-activity/21-2-reporting-management-enhancements.md)
+         * [&#x200B;21. 2个报表增强功能](product-announcements/product-releases/21.2-release-activity/21-2-reporting-management-enhancements.md)
          * [21.2校对增强功能](product-announcements/product-releases/21.2-release-activity/21-2-proofing-enhancements.md)
          * [21.2集成增强](product-announcements/product-releases/21.2-release-activity/21-2-integration-enhancements.md)
          * [21.2其他增强功能](product-announcements/product-releases/21.2-release-activity/21-2-other-enhancements.md)
@@ -254,7 +254,7 @@ ht-degree: 2%
          * 20.4版本 {#release-20-4}
             * [20.4版本概述](product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md)
             * [20.4项目管理方面的改进](product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md)
-            * [20. 4 Analytics增强功能](product-announcements/product-releases/20.4-release-activity/20-4-analytics-enhancements.md)
+            * [&#x200B;20. 4 Analytics增强功能](product-announcements/product-releases/20.4-release-activity/20-4-analytics-enhancements.md)
             * [20.4资源管理增强功能](product-announcements/product-releases/20.4-release-activity/20-4-resource-mgt-enhancements.md)
             * [20.4验证增强功能](product-announcements/product-releases/20.4-release-activity/20-4-proof-enhancements.md)
             * [20.4移动和集成增强功能](product-announcements/product-releases/20.4-release-activity/20-4-mobile-enhancements.md)
@@ -802,6 +802,7 @@ ht-degree: 2%
    * [Adobe Workfront术语表](workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
    * [Adobe Workfront浏览器要求](workfront-basics/workfront-browser-requirements.md)
    * [Adobe Workfront支持的语言](workfront-basics/supported-languages-in-workfront.md)
+   * [Workfront的HIPAA准备工作](/help/quicksilver/workfront-basics/hipaa-readiness-for-workfront.md)
    * 导航Adobe Workfront {#navigate}
       * [导航Adobe Workfront：文章索引](workfront-basics/navigate-workfront/navigate-workfront.md)
       * Adobe Workfront搜索 {#search}
@@ -2172,7 +2173,7 @@ ht-degree: 2%
    * 适用于Outlook的Adobe Workfront {#workfront-for-outlook}
       * [适用于Outlook的Adobe Workfront：文章索引](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
       * [设置适用于Outlook的Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
-      * [适用于Outlook的Workfront的权限级别](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
+      * 适用于Outlook的Workfront的[权限级别](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
       * [回复Outlook的评论](workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md)
       * [通过Outlook电子邮件更新现有对象](workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md)
       * [将Outlook电子邮件作为任务或问题添加到项目](workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md)
@@ -2467,8 +2468,8 @@ ht-degree: 2%
       * [使用JWT流配置和使用贵组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程配置和使用您组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-pkce-flow.md)
       * [弃用API — 内部](wf-api/api/deprecation-api-internal.md)
-      * [API版本20中的新增功能](wf-api/api/new-api-version-20.md)
-      * [API版本19中的新增功能](wf-api/api/new-api-version-19.md)
+      * [API版本20](wf-api/api/new-api-version-20.md)中的新增功能
+      * [API版本19](wf-api/api/new-api-version-19.md)中的新增功能
       * [API版本18中的新增功能](wf-api/api/new-api-version-18.md)
       * [API版本17中的新增功能](wf-api/api/new-api-version-17.md)
       * [API版本16中的新增功能](wf-api/api/new-api-version-16.md)
