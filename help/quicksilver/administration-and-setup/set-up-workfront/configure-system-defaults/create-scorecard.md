@@ -8,9 +8,9 @@ author: Lisa, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '730'
 ht-degree: 1%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 1%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 从预览版本发布的一周后，所有客户还可以在生产环境中使用相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">有关详细信息，请参阅[接口现代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。</span>
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 记分卡衡量项目与项目组合中以前建立的标准的匹配程度。 记分卡通常反映了组织的使命、价值观和战略目标。
 
@@ -50,14 +50,14 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
-   <td> <p>新文档： [!UICONTROL Prime]或更高版本</p>
-   <p>当前： [!UICONTROL Business]或更高版本</p> 
+   <td> <p>新文档： [！UICONTROL Prime]或更高版本</p>
+   <p>当前： [！UICONTROL Business]或更高版本</p> 
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td><p>新文档： [!UICONTROL Standard]</p>
-   <p>当前： [!UICONTROL 计划]</p>
+   <td><p>新文档： [！UICONTROL Standard]</p>
+   <p>当前： [！UICONTROL计划]</p>
    </td> 
   </tr> 
  </tbody> 
@@ -73,9 +73,9 @@ ht-degree: 1%
 
 1. 单击&#x200B;**[!UICONTROL 记分卡]**，然后单击&#x200B;**[!UICONTROL 新建记分卡]**。
 
-   <span class="preview">将打开&#x200B;**新记分卡**&#x200B;框。</span>
+   将打开&#x200B;**新记分卡**&#x200B;框。
 
-   <span class="preview">![新记分卡框](assets/new-scorecard-350x173.png)</span>
+   ![新记分卡框](assets/new-scorecard-350x173.png)
 
 1. 指定&#x200B;**[!UICONTROL 记分卡名称]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
 
@@ -88,21 +88,21 @@ ht-degree: 1%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Question]</td> 
+      <td role="rowheader">[！UICONTROL Question]</td> 
       <td>键入要包含在记分卡中的问题。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 点]</td> 
+      <td role="rowheader">[！UICONTROL点]</td> 
       <td>键入此问题的最大分数。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 负点]</td> 
+      <td role="rowheader">[！UICONTROL负点]</td> 
       <td>选择此选项以指示[!DNL Workfront]应减去总可能分数。 无法将负分添加到记分卡的最大可能点数。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 显示类型]</td> 
-      <td>如果要显示记分卡中的数字字段，且用户可以指定介于0-100之间的任何值，请选择<strong>[!UICONTROL Value(0-100)]</strong>。<p>或者，选择<strong>[!UICONTROL 下拉列表]</strong>或<strong>[!UICONTROL 单选按钮]</strong>，以创建用户可以使用该控件指定的答案。 单击<strong>[!UICONTROL 添加答案]</strong>，然后为该答案键入以百分比表示的<strong>[!UICONTROL 值]</strong>（如果已完成）。 如果选择100%，则完全达到为该问题分配的点数。 如果要指明此答案仅包含分配给此问题的总点数的一部分，请选择一个较低的百分比值。 例如，如果问题的值是10点，而您希望此答案携带其中5点，则选择50%作为值。</p>
-      <p>如果要指定此答案为默认答案，请选择<strong>[!UICONTROL 默认值]</strong>。</strong></p>
+      <td role="rowheader">[！UICONTROL显示类型]</td> 
+      <td>如果要显示记分卡中的数字字段，且用户可以指定介于0-100之间的任何值，请选择<strong>[！UICONTROL Value(0-100)]</strong>。<p>或者，选择<strong>[！UICONTROL下拉列表]</strong>或<strong>[！UICONTROL单选按钮]</strong>，以创建用户可以使用该控件指定的答案。 单击<strong>[！UICONTROL添加答案]</strong>，然后为该答案键入以百分比表示的<strong>[！UICONTROL值]</strong>（如果已完成）。 如果选择100%，则完全达到为该问题分配的点数。 如果要指明此答案仅包含分配给此问题的总点数的一部分，请选择一个较低的百分比值。 例如，如果问题的值是10点，而您希望此答案携带其中5点，则选择50%作为值。</p>
+      <p>如果要指定此答案为默认答案，请选择<strong>[！UICONTROL默认值]</strong>。</strong></p>
      </tr> 
     </tbody> 
    </table>
@@ -126,9 +126,9 @@ ht-degree: 1%
 1. 单击左侧面板中的&#x200B;**[!UICONTROL 记分卡]**。
 1. 在列表中选择记分卡，然后单击记分卡列表顶部的&#x200B;**复制**&#x200B;图标![复制记分卡图标](assets/copy-scorecard-icon.png)。
 
-   <span class="preview">将打开&#x200B;**复制记分卡**&#x200B;框。</span>
+   将打开&#x200B;**复制记分卡**&#x200B;框。
 
-   <span class="preview">![复制记分卡框](assets/copy-scorecard-box.png)</span>
+   ![复制记分卡框](assets/copy-scorecard-box.png)
 
 1. 指定以下信息：
 

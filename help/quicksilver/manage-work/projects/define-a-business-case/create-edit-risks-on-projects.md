@@ -6,10 +6,10 @@ description: 风险是阻止项目按时完成或在预算内完成的可能事�
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 0%
+source-wordcount: '1080'
+ht-degree: 1%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 <!--Audited: 01/2025-->
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 从预览版本发布的一周后，所有客户还可以在生产环境中使用相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">有关详细信息，请参阅[接口现代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。</span>
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 风险是阻止项目按时完成或在预算内完成的可能事件或因素。 您可以在创建项目的业务案例时记录风险，也可以使用“风险”选项卡记录风险。
 
@@ -109,7 +109,7 @@ ht-degree: 0%
 1. 转到要为其创建风险的项目。
 1. 单击左侧面板中的&#x200B;**风险**。
 
-   任务![&#128279;](assets/risks-section-on-project-2022.png)的风险部分
+   任务](assets/risks-section-on-project-2022.png)的![风险部分
 
 1. 单击&#x200B;**开始添加风险**&#x200B;并通过内联编辑其信息来创建风险。 **描述**&#x200B;是必填字段
 
@@ -117,9 +117,9 @@ ht-degree: 0%
 
    单击&#x200B;**新风险**。
 
-   <span class="preview">打开&#x200B;**新风险**&#x200B;框。</span>
+   将打开&#x200B;**新风险**&#x200B;框。
 
-   <span class="preview">![新风险框](assets/new-risk-box.png)</span>
+   ![新风险框](assets/new-risk-box.png)
 
 1. （视情况而定）如果在&#x200B;**新风险**&#x200B;框中添加风险，请输入以下信息：
 
@@ -175,7 +175,7 @@ ht-degree: 0%
    * **实际成本**：指示风险发生时的实际风险成本。
    * **缓解计划**：更新计划的描述以缓解风险。
 
-1. <span class="preview">单击&#x200B;**保存**。</span>
+1. 单击&#x200B;**保存**。
 1. （可选）为风险列表应用&#x200B;**标准**&#x200B;视图时，在&#x200B;**状态**&#x200B;下拉菜单中编辑风险的&#x200B;**状态**。
 
    >[!NOTE]

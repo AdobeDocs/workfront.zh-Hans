@@ -6,9 +6,9 @@ description: 当项目记录的小时数或用于计算成本和收入的费率�
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '1633'
+source-wordcount: '1632'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
    <td>任何 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
    <td>
    <p>新增：标准</p>
    <p>或</p>
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 ## 在Adobe Workfront中计算财务的注意事项
 
-在Enhanced Analytics中，财务计算方式如下：
+项目的财务计算方式如下：
 
 * 您可以使用项目中的“重新计算财务”选项，手动重新计算项目的成本和收入。
 * 此外，某些操作会触发自动重新计算。

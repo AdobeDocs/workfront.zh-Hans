@@ -1,16 +1,16 @@
 ---
 content-type: overview;how-to-procedural
 product-area: projects
-keywords: analytics，量度，项目，增强，任务，被分派人，完成，状态，过期，近期
+keywords: analytics，量度，项目，任务，被分派人，完成，状态，超期，即将到来
 navigation-topic: manage-projects
 title: 项目指标概述
 description: 项目量度可让您可视化项目中所发生的情况，从而快速评估项目的需求和状态。 了解如何解释项目左侧面板中的量度区域。
 author: Alina
 feature: Work Management
 exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1163'
 ht-degree: 0%
 
 ---
@@ -21,32 +21,35 @@ ht-degree: 0%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront计划*</td> 
+   <td role="rowheader">Workfront计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workfront许可证*</td> 
-   <td> <p>审核或更高 </p> </td> 
+   <td> <p>新增：浅色或更高 </p>
+   <p>当前：审阅或更高版本 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别*</td> 
-   <td> <p>查看对项目的访问权限</p> <p><b>注释</b>
-
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关项目访问权限的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">授予项目访问权限</a>。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。 </p> </td>
-</tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>查看对项目的访问权限</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看项目的权限</p> <p> 有关项目权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">在Adobe Workfront中共享项目</a>。</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>查看项目的权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先决条件
 
@@ -72,10 +75,11 @@ ht-degree: 0%
 
 若要了解有关查看这些任务或问题的详细信息，请参阅[查看量度详细信息](#view-metrics-details)。
 
+<!--this was deprecated: 
 >[!TIP]
 >
->要查看某个项目、项目组合等中一组项目的更高级别指标，请导航到增强的分析区域。\
->要了解有关增强型分析的更多信息，请参阅[增强型分析概述](../../../enhanced-analytics/enhanced-analytics-overview.md)。
+>To see metrics at a higher level for a group of projects within a program, portfolio, etc., navigate to the Enhanced analytics area.  
+>To learn more about Enhanced analytics, see [Enhanced analytics overview](../../../enhanced-analytics/enhanced-analytics-overview.md).-->
 
 ## 项目KPI
 

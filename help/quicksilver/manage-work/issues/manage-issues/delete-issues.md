@@ -6,9 +6,9 @@ description: 如果您拥有正确的访问权限，则可以删除Adobe Workfro
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '767'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 <!--Audited: 05/2025-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>    
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 从预览版本发布的一周后，所有客户还可以在生产环境中使用相同的功能。</span>
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). -->
+<span class="preview">有关详细信息，请参阅[接口现代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。</span>
 
 如果您拥有正确的访问权限，则可以删除Adobe Workfront中的问题或请求。
 
@@ -116,7 +116,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    与所选项目关联的问题列表将显示在右侧。
 1. 选择列表中的一个或多个问题，然后单击列表顶部的&#x200B;**删除**&#x200B;图标![删除图标](assets/delete.png)。
 
-1. 如果允许删除，请单击&#x200B;**是，删除**。<!--change this to this button instead: <span class="preview">*Delete*</span>-->
+1. 如果允许删除，请单击&#x200B;**<span class="preview">删除</span>**。
 
    您的Workfront管理员可能不允许删除记录小时数的问题。\
    有关删除问题所需的访问和权限的更多信息，请参阅本文中的[删除问题的注意事项](#considerations-for-deleting-issues)部分。
@@ -136,7 +136,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    ![问题更多菜单](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. 单击&#x200B;**删除问题**。
-1. 如果允许删除，请单击&#x200B;**是，删除**。<!--change this to this button instead: <span class="preview">*Delete*</span>-->
+1. 如果允许删除，请单击&#x200B;**<span class="preview">删除</span>**。
 
    您的Workfront管理员可能不允许删除记录小时数的问题。\
    有关删除问题所需的访问和权限的更多信息，请参阅本文中的[删除问题的注意事项](#considerations-for-deleting-issues)部分。
