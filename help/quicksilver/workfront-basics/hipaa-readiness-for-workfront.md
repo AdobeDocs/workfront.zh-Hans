@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 author: Courtney
 hide: true
 hidefromtoc: true
-source-git-commit: 779fc409d316e957a4cbec951047e41641b69863
+source-git-commit: a984038eea41d249cb0ad0d2ec6ba47025c56a65
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Workfront的HIPAA准备工作
 
-对于Workfront客户（如HIPAA中的定义），**业务联系人**&#x200B;和/或&#x200B;**覆盖的实体**(业务联系人代表该实体提供Adobe Workfront)，应使用以下准则配置Workfront以使其可供HIPAA使用：
+按照HIPAA的定义，如果某个Workfront客户是商业合作伙伴和/或代表其商业合作伙伴提供Adobe Workfront的受覆盖实体，则应使用以下准则配置Workfront以便HIPAA随时使用：
 
 
 ## 密码要求
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 | **安全设置** | **这是什么？** | **要求** |
 |----------------------|------------------|------------------|
-| 会话超时 | 多少分钟的非活动状态会导致注销？ | 不超过15分钟 |
+| 会话超时 | 多长时间不活动会导致注销？ | 不超过15分钟 |
 
 ## 客户责任
 
