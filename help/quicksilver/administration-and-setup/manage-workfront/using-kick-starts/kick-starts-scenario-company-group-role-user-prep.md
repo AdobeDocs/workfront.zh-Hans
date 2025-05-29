@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: 2a216610f6ea8ad8c4698964f96f2357bf3b5943
+source-git-commit: 59431354076a0909fb1878d68cf266f08d2114b3
 workflow-type: tm+mt
-source-wordcount: '1204'
-ht-degree: 2%
+source-wordcount: '1216'
+ht-degree: 3%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,25 +56,11 @@ ht-degree: 2%
 
 下表显示了要导入的公司、组和角色：
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th><strong>公司</strong> </th> 
-   <th><strong>组</strong> </th> 
-   <th><strong>角色</strong> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td valign="top"> <p>Acme， Co</p> <p>Workfront公司</p> <p><em>您的公司</em> </p> <p>XYZ公司</p> </td> 
-   <td valign="top"> <p valign="top" rowspan="7">财务</p> <p valign="top" rowspan="7">IT </p> <p valign="top" rowspan="7">营销 </p> <p valign="top" rowspan="7">销售额</p> </td> 
-   <td valign="top"> <p valign="top">业务分析师</p> <p valign="top">Creative控制器</p> <p valign="top">设计者</p> <p valign="top">资源管理器</p> <p valign="top">Scrum Master</p> <p valign="top">技术作者</p> <p valign="top">Web开发人员</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 公司 | 组 | 角色 |
+|---|---|---|
+| Acme， Co <p>Workfront公司 <p>_您的公司_ <p>XYZ公司 | 财务 <p>IT <p>营销 <p>销售额 | 业务分析师 <p>Creative控制器 <p>设计者 <p>资源管理器 <p>Scrum Master <p>技术作者 <p>Web开发人员 |
+
+{style="table-layout:auto"}
 
 角色名称必须是唯一的。 无法导入现有工作角色。
 
@@ -82,8 +68,9 @@ ht-degree: 2%
 
 ### 用户1
 
-| **名字** | 克里斯 |
+| 属性 | 值 |
 |---|---|
+| **名字** | 克里斯 |
 | **姓氏** | Manning |
 | **用户名/电子邮件** | mailto:cmanning@foo.com |
 | **密码** | 更新我 |
@@ -96,8 +83,9 @@ ht-degree: 2%
 
 ### 用户2
 
-| **名字** | Jennifer |
+| 属性 | 值 |
 |---|---|
+| **名字** | Jennifer |
 | **姓氏** | 坎贝尔 |
 | **用户名/电子邮件** | jcampbell@foo.com |
 | **密码** | 更新我 |
@@ -110,8 +98,9 @@ ht-degree: 2%
 
 ### 用户3
 
-| **名字** | 吉尔 |
+| 属性 | 值 |
 |---|---|
+| **名字** | 吉尔 |
 | **姓氏** | 沙利文 |
 | **用户名/电子邮件** | jsullivan@foo.com |
 | **密码** | 更新我 |
@@ -124,8 +113,9 @@ ht-degree: 2%
 
 ### 用户4
 
-| **名字** | 马克 |
+| 属性 | 值 |
 |---|---|
+| **名字** | 马克 |
 | **姓氏** | 刘易斯 |
 | **用户名/电子邮件** | mlewis@foo.com |
 | **密码** | 更新我 |
@@ -138,8 +128,9 @@ ht-degree: 2%
 
 ### 用户5
 
-| **名字** | Pam |
+| 属性 | 值 |
 |---|---|
+| **名字** | Pam |
 | **姓氏** | 雷诺 |
 | **用户名/电子邮件** | preynolds@foo.com |
 | **密码** | 更新我 |
@@ -152,8 +143,9 @@ ht-degree: 2%
 
 ### 用户6
 
-| **名字** | Ray |
+| 属性 | 值 |
 |---|---|
+| **名字** | Ray |
 | **姓氏** | Andrews |
 | **用户名/电子邮件** | randrews@foo.com |
 | **密码** | 更新我 |
@@ -184,9 +176,9 @@ ht-degree: 2%
 
 1. 转到&#x200B;**CMPY公司**&#x200B;表。
 
-   除非系统中已包含公司，否则它应该为空。 ![公司表](assets/cmpysheet-350x16.png)
+   除非系统中已包含公司，否则它应该为空。
 
-   ![公司ID](assets/companyid--1--350x78.png)
+   ![公司表](assets/cmpysheet-350x16.png) ![公司ID](assets/companyid--1--350x78.png)
 
 1. 在&#x200B;**isNew**&#x200B;列中输入&#x200B;**TRUE**。
 
@@ -296,23 +288,18 @@ ht-degree: 2%
 
    对每个用户和组分配重复此步骤。
 
-   ![公司ID](assets/companyid--1--350x78.png)
-
-   ![粘贴公司ID](assets/pastecompanyid-350x84.png)
+   ![公司ID](assets/companyid--1--350x78.png) ![粘贴公司ID](assets/pastecompanyid-350x84.png)
 
 1. 输入用户的工作角色详细信息。
 
    根据设想，克里斯·曼宁将担任业务分析员。 在&#x200B;**角色角色**&#x200B;工作表上，找到业务分析师角色的ID，复制该ID，然后在&#x200B;**用户用户**&#x200B;工作表上将其粘贴到用户行上的&#x200B;**setRoleID**&#x200B;列中。&#x200B;AEM对每个用户和组分配重复此步骤。
 
-   ![复制角色ID](assets/copyroleid-350x149.png)
-
-   ![粘贴角色ID](assets/pasteroleid-350x95.png)
+   ![复制角色ID](assets/copyroleid-350x149.png) ![粘贴角色ID](assets/pasteroleid-350x95.png)
 
 1. 根据需要填写其他用户详细信息，然后保存文件。
 1. 导入Excel文件。
 
    按照[使用快速启动模板](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)将数据导入Adobe Workfront中提供的说明进行操作。
-
 
 >[!NOTE]
 >
@@ -320,4 +307,4 @@ ht-degree: 2%
 > 
 >如果贵组织已迁移到Adobe Admin Console，并且用户在几分钟内没有转变为“已停用”和“未决批准”状态，则您可以将该批用户直接添加到Adobe Admin Console。
 >
->有关说明，请参阅[管理多个用户 | 在Adobe文档中批量CSV上传](https://helpx.adobe.com/cn/enterprise/using/bulk-upload-users.html)。
+>有关说明，请参阅[管理多个用户 | 在Adobe文档中批量CSV上传](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html)。
