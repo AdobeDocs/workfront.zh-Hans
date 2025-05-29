@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 137d7112c051322c191488463e52abdd73e50d1f
 workflow-type: tm+mt
-source-wordcount: '2181'
+source-wordcount: '2271'
 ht-degree: 0%
 
 ---
 
 # Kick-Starts场景：将多个选项自定义字段导入Workfront
+
+{{highlighted-preview}}
 
 您可以使用Kick-Start功能在Adobe Workfront中导入具有多个选项的自定义字段。
 
@@ -61,7 +63,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -124,7 +126,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**下载空白的快速启动电子表格**&#x200B;区域，选中&#x200B;**自定义数据**&#x200B;复选框，然后单击&#x200B;**下载**。
 
-   ![选择自定义数据](assets/kickstarts-select-existing-data.png)
+   ![选择自定义数据](assets/kickstarts-blank-spreadsheet-options.png)
 
    将空白的快速启动文件下载到您的计算机。
 
@@ -150,7 +152,7 @@ ht-degree: 0%
    >
    >必须使用Workfront数据库支持的格式编写对象名称及其属性。
    >
-   >有关这些对象含义的信息，请参阅 [!DNL Adobe Workfront] 术语[&#128279;](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)的术语表。
+   >有关这些对象含义的信息，请参阅 [!DNL Adobe Workfront] 术语](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)的[术语表。
    >
    >有关Workfront数据库中对象名称的信息，请参阅[API资源管理器](../../../wf-api/general/api-explorer.md)。
    >
@@ -167,7 +169,7 @@ ht-degree: 0%
      >
      >某些列虽然不是粗体的，但还是需要它们的。 例如，`isNew`和`ID`列不是粗体，但它们是必填字段。
 
-1. 选择&#x200B;**0&rbrace;工作表并在以下必填列中添加有关新自定义字段的信息：`**&#x200B;PARAM Parameter`
+1. 选择**0}工作表并在以下必填列中添加有关新自定义字段的信息：`**PARAM Parameter`
 
    * **`isNew`** =在此列中为每个代表新自定义字段的行输入&#x200B;**`TRUE`**。 这表示该字段是新字段，在Workfront中不存在。
 
@@ -223,9 +225,9 @@ ht-degree: 0%
      >
      >每个字段只能有一个默认选项。
 
-   * **`setParameterID`** =与&#x200B;_品牌_&#x200B;自定义字段对应的选项的&#x200B;**`setParameterID`**&#x200B;为1，与&#x200B;_媒体_&#x200B;对应的选项的&#x200B;**`setParameterID`**&#x200B;为2。 `PARAM`和`POPT`工作表相互交叉引用，以指示哪些选项属于哪个自定义字段。
+   * **`setParameterID`** =与&#x200B;_品牌_&#x200B;自定义字段对应的选项的&#x200B;**`setParameterID`**&#x200B;为1，与&#x200B;_媒体_&#x200B;对应的选项的**`setParameterID`**为2。 `PARAM`和`POPT`工作表相互交叉引用，以指示哪些选项属于哪个自定义字段。
    * **`setDisplayOrder`**=显示顺序列指示选项在自定义字段中的显示顺序。 您可以从1开始并按升序继续所有选项，无论它们属于哪个字段。 这里的重要事项是为每个选项设置唯一的数字。
-   * **`setLabel`**&#x200B;和&#x200B;**1&rbrace;列通常包含相同的信息，它们应反映Workfront UI中所需的名称。 `**&#x200B;setValue`选项的值是报表中显示的名称，例如，而标签在附加到对象时显示在自定义表单中。 有关详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+   * **`setLabel`**&#x200B;和**1}列通常包含相同的信息，它们应反映Workfront UI中所需的名称。 `**setValue`选项的值是报表中显示的名称，例如，而标签在附加到对象时显示在自定义表单中。 有关详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
    * **`setIsHidden`** =如果您希望隐藏任何选项，请输入`TRUE`。
 
    ![参数表已填写](assets/parameter-option-sheet-filled-out-kick-starts.png)
@@ -243,7 +245,7 @@ ht-degree: 0%
       * 公司&#x200B;**`CMPY`**
       * 任务&#x200B;**`TASK`**
       * 项目&#x200B;**`PROJ`**
-      * 用于Portfolio的&#x200B;**`PORT`**
+      * Portfolio的&#x200B;**`PORT`**
       * 项目群&#x200B;**`PRGM`**
       * 用户&#x200B;**`USER`**
       * 文档&#x200B;**`DOCU`**
@@ -255,14 +257,13 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >对于多对象表单，请输入在UI中创建表单时将选择的第一个对象。 例如，将`setCatObjCode`设置为`TASK`，如果您要在Workfront界面中选择“任务”，然后选择“问题”、“Portfolio”等，但不希望将表单用于“项目”。
+     >对于多对象表单，请输入在UI中创建表单时将选择的第一个对象。 例如，将`setCatObjCode`设置为`TASK`，如果您要在Workfront界面中选择Task，然后选择Issue、Portfolio等，但不希望该表单在Projects中可用。
 
    * **`setName`** =这是您希望在Workfront界面中显示的自定义表单的名称。
 
      已填写![类别表](assets/category-sheet-filled-out-kick-starts.png)
 
 1. 将电子表格另存为.xls或.xlsx文件。 您的Excel电子表格已填写，现在可以导入到Workfront中。
-
 
 ## 将Excel电子表格上传到Workfront
 
@@ -274,14 +275,11 @@ ht-degree: 0%
 
 1. 单击&#x200B;**使用Kick-Start电子表格上载数据**&#x200B;部分下的&#x200B;**选择文件**。
 
-1. 在计算机上浏览您准备的Excel电子表格，并在找到时选择它。 当Workfront识别文件时，“上传”按钮变为蓝色。
-1. 单击&#x200B;**上传。**
+1. 在计算机上浏览您准备的Excel电子表格，并在找到时选择它。
 
-   ![选定的文件并上载按钮](assets/kick-start-file-selected-and-upload-blue-button.png)
+   <div class="preview">
 
-1. 此时将显示已成功导入的通知。 根据您导入的信息量，此步骤可能需要几秒钟到一分钟的时间。
-
-   ![启动成功](assets/kick-start-successful.png)
+   文件会自动上传，并显示已成功导入的通知。 根据您导入的信息量，此步骤可能需要几秒钟到一分钟的时间。
 
    新的自定义字段和表单现在包含在Workfront系统中。 您可以在“设置”的自定义Forms区域中找到它们。
 
@@ -289,12 +287,23 @@ ht-degree: 0%
    >
    >您导入的新表单和字段尚未连接。 表单导入时没有自定义字段。 您必须手动将字段添加到新自定义表单或其他现有自定义表单。
 
+   有关向自定义表单添加字段的信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+
+   </div>
+
+1. （仅在生产环境中）单击&#x200B;**上传**。
+
+   此时将显示已成功导入的通知。 根据您导入的信息量，此步骤可能需要几秒钟到一分钟的时间。
+
+   新的自定义字段和表单现在包含在Workfront系统中。 您可以在“设置”的自定义Forms区域中找到它们。
+
+   >[!NOTE]
+   >
+   >您导入的新表单和字段尚未连接。 表单导入时没有自定义字段。 您必须手动将字段添加到新自定义表单或其他现有自定义表单。
 
    有关向自定义表单添加字段的信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
-1. （视情况而定）如果导入失败，您将收到一条错误消息，说明问题所在。 尝试确定问题所在的字段、工作表和行号，并更正Excel文件中的信息，然后再次尝试导入文件。
-
-   ![快速启动错误](assets/kick-start-error.png)
+1. （视情况而定）如果导入失败，您将收到一条错误消息，说明问题所在。 尝试确定出现问题的字段、工作表和行号，并更正Excel文件中的信息。 然后，再次尝试导入文件。
 
 1. （视情况而定）根据错误消息中所述问题的性质，某些信息可能已导入。 必须执行下列操作之一，才能再次导入工作表：
 

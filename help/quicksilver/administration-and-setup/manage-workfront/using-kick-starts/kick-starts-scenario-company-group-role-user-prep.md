@@ -5,13 +5,13 @@ keywords: kickstart，kick-start，kickstarts，kick-starts
 navigation-topic: use-kick-starts
 title: 快速启动方案：公司、组、角色和用户快速启动准备
 description: 开始实施Adobe Workfront时，您可以导入客户列表、内部部门、职位角色和用户信息，而不是手动输入数据。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: a8faf4aa1a0a1b60f61c0c981c3be1b0d9d033a4
+source-git-commit: 2a216610f6ea8ad8c4698964f96f2357bf3b5943
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: '1204'
 ht-degree: 2%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -172,6 +172,7 @@ ht-degree: 2%
 
 1. 单击&#x200B;**更多选项**&#x200B;查看导入选项的完整列表。
 1. 选择要导入的访问级别、公司、组、工作角色和用户对象。
+1. 单击&#x200B;**下载**。
 
 ## 输入公司信息
 
@@ -181,69 +182,67 @@ ht-degree: 2%
    >
    >在使用非常宽的数据表时，您可能希望使用电子表格编辑器的冻结窗格（或等效操作）工具，使电子表格更易于使用。
 
-1. 转到“CMPY公司”表。
+1. 转到&#x200B;**CMPY公司**&#x200B;表。
 
    除非系统中已包含公司，否则它应该为空。 ![公司表](assets/cmpysheet-350x16.png)
 
    ![公司ID](assets/companyid--1--350x78.png)
 
-1. 在&#x200B;**isNew**&#x200B;列中指定TRUE。
-1. 对每个要添加的公司重复此操作。 （在本例中，请为第3-6行完成此操作，因为将添加四个公司。）
+1. 在&#x200B;**isNew**&#x200B;列中输入&#x200B;**TRUE**。
+
+   对每个要添加的公司重复此操作。 （在本例中，请为第3-6行完成此操作，因为将添加四个公司。）
 
    ![公司是新的](assets/cmpyisnew-350x86.png)
 
-1. 指定唯一ID。
+1. 输入唯一的&#x200B;**ID**。
 
-   必须为ID列的每一行执行此操作。 创建新记录时，从1开始的整数工作正常。
+   必须为每个行输入一个ID。 创建新记录时，从1开始的整数工作正常。
 
    ![公司是新的](assets/cmpyisnew-350x86.png)
 
-1. 设置名称。
-
-   在&#x200B;**setName**&#x200B;列中指定每个客户的名称。
+1. 在&#x200B;**setName**&#x200B;列中输入每个客户的名称。
 
    ![公司ID](assets/companyid-350x78.png)
 
-1. 转到“组”工作表。
+1. 转到&#x200B;**组**&#x200B;工作表。
 
    除非您已在Workfront中创建了组，否则此工作表应仅显示为Workfront的每个帐户配置的默认组。
 
    ![组表](assets/groupsheet-350x15.png) ![空组表](assets/emptygroupsheet-350x85.png)
 
-1. 设置&#x200B;**isNew**&#x200B;列。根据此方案，将导入4个组，因此请为“isNew”列在第4行到第7行中指定TRUE。
-1. 指定唯一ID。
+1. 在&#x200B;**isNew**&#x200B;列中输入&#x200B;**TRUE**。
 
-   必须为ID列的每一行执行此操作。 创建新记录时，从1开始的整数工作正常。
+   根据此方案，将导入4个组，因此请在行4到7的&#x200B;**isNew**&#x200B;列中输入&#x200B;**TRUE**。
+
+1. 输入唯一的&#x200B;**ID**。
+
+   必须为每个行输入一个ID。 创建新记录时，从1开始的整数工作正常。
 
    ![组ID](assets/groupids-350x85.png)
 
-1. 设置名称。
-
-   在&#x200B;**setName**&#x200B;列中指定每个部门的名称。
+1. 在&#x200B;**setName**&#x200B;列中输入每个部门的名称。
 
    ![组名](assets/groupnames-350x85.png)
 
-   指定角色信息。 转到“角色”角色表。
+1. 转到&#x200B;**ROLE Role**&#x200B;工作表。
 
-1. 除非您已经在帐户中创建或删除了角色，否则此工作表应显示8个使用Workfront的每个帐户配置的角色。
+   除非您已经在帐户中创建或删除了角色，否则此工作表应显示8个使用Workfront的每个帐户配置的角色。
 
    ![组名](assets/groupnames-350x85.png)
 
-1. 设置True语句。
+1. 在&#x200B;**isNew**&#x200B;列中输入&#x200B;**TRUE**。
 
-   正在导入七个工作角色，请在“isNew”列的行12到18中输入TRUE。
+   根据此方案，将导入7个工作角色，因此请在行12到18的&#x200B;**isNew**&#x200B;列中输入&#x200B;**TRUE**。
 
    ![角色是新的](assets/roleisnew-350x104.png)
 
-1. 指定唯一ID。
+1. 输入唯一的&#x200B;**ID**。
 
-   必须为ID列的每一行执行此操作。 创建新记录时，从1开始的整数工作正常。
-
-   ![用户表](assets/usersheet-350x16.png)
+   必须为每个行输入一个ID。 创建新记录时，从1开始的整数工作正常。
 
    ![角色是新的](assets/roleisnew--1--350x104.png)
 
-1. 通过在setName列中键入每个角色来提供其名称。
+1. 在&#x200B;**setName**&#x200B;列中为每个角色输入一个名称。
 
    ![角色是新的](assets/roleisnew-350x104.png)
 
@@ -251,45 +250,49 @@ ht-degree: 2%
 
    根据需要包括您要创建的角色的记帐费率、成本费率和描述。
 
-1. 转到“用户”工作表以输入用户信息。
+1. 转到&#x200B;**用户**&#x200B;工作表。
 
    除非您已在帐户中创建用户，否则此工作表应仅显示使用Workfront的每个帐户配置的管理员用户。
 
-   ![角色名称](assets/rolenames-350x104.png) ![空用户表](assets/emptyusersheet-350x52.png)
+   ![用户表](assets/usersheet-350x16.png) ![空用户表](assets/emptyusersheet-350x52.png)
 
-1. 由于正在导入6个用户，因此在“isNew”列的第4行到第9行中指定TRUE可设置True值。
+1. 在&#x200B;**isNew**&#x200B;列中输入&#x200B;**TRUE**。
 
-   ![用户是新用户](assets/userisnew-350x52.png)
-
-1. 通过在ID列的每行中指定唯一ID来设置唯一ID。 通常，从1开始的整数适用于新记录。
+   根据此方案，将导入6个用户，因此请在行4到9的&#x200B;**isNew**&#x200B;列中输入&#x200B;**TRUE**。
 
    ![用户是新用户](assets/userisnew-350x52.png)
 
-1. 将每个用户的名称输入到“setFirstName”和“setLastName”列中。
+1. 输入唯一的&#x200B;**ID**。
+
+   必须为每个行输入一个ID。 创建新记录时，从1开始的整数工作正常。
+
+   ![用户是新用户](assets/userisnew-350x52.png)
+
+1. 在&#x200B;**setFirstName**&#x200B;和&#x200B;**setLastName**&#x200B;列中输入每个用户的名称。
 
    ![用户名](assets/usernames-350x52.png)
 
-1. 通过在“setEmail”、“setPassword”和“setUsername”列中指定值来设置详细信息值。
+1. 通过在&#x200B;**setEmail**、**setPassword**&#x200B;和&#x200B;**setUsername**&#x200B;列中输入值来设置详细信息值。
 
    ![用户凭据](assets/usercredentials-350x52.png)
 
 1. 指定访问级别值。
 
-   例如，团队成员Chris Manning在“ACSLVL访问级别”表中查找团队成员访问级别的ID。 将ID复制到剪贴板，然后在“用户”用户工作表中将其粘贴到Chris&#39;行上的&#x200B;**setAccessLevelID**&#x200B;列中。
+   例如，Chris Manning是团队成员。 在&#x200B;**ACSLVL访问级别**&#x200B;工作表中查找团队成员访问级别的ID。 复制ID，并在&#x200B;**USER用户**&#x200B;工作表中将其粘贴到该用户行上的&#x200B;**setAccessLevelID**&#x200B;列中。
 
    对每个用户和访问级别重复此步骤。
 
    ![复制访问级别ID](assets/copyalid-350x171.png) ![粘贴访问级别ID](assets/pastealid-350x59.png)
 
-1. 指定主组详细信息。
+1. 输入用户的主组详细信息。
 
-   根据场景，Chris Manning属于营销组。 在“组”工作表上，找到营销组的ID，将其复制到剪贴板中，然后在“用户”工作表上将其粘贴到Chris行上的&#x200B;**setHomeGroupID**&#x200B;列中。&#x200B;AEM对每个用户和组分配重复此步骤。
+   根据场景，Chris Manning属于营销组。 在&#x200B;**组**&#x200B;工作表上，找到营销组的ID，复制该ID，然后在&#x200B;**用户用户**&#x200B;工作表上将其粘贴到用户行上的&#x200B;**setHomeGroupID**&#x200B;列中。&#x200B;AEM对每个用户和组分配重复此步骤。
 
    ![复制组ID](assets/copygroupid-1-350x133.png) ![粘贴组ID](assets/pastegroupid-350x59.png)
 
-1. 指定公司详细信息。
+1. 输入用户的公司详细信息。
 
-   此方案中的所有用户属于同一公司。 在CMPY公司工作表上，找到*您自己的公司*公司的ID，将ID复制到剪贴板，然后在“用户用户”选项卡上，将此值粘贴到“setCompanyID”列的每一行中&#x200B;。
+   此方案中的所有用户都属于同一公司。 在&#x200B;**CMPY公司**&#x200B;工作表上，找到&#x200B;**您自己的公司**&#x200B;公司的ID，复制该ID，然后在&#x200B;**用户用户**&#x200B;选项卡上，将此值粘贴到&#x200B;**setCompanyID**&#x200B;列的每一行中&#x200B;。
 
    对每个用户和组分配重复此步骤。
 
@@ -297,9 +300,9 @@ ht-degree: 2%
 
    ![粘贴公司ID](assets/pastecompanyid-350x84.png)
 
-1. 指定工作角色详细信息。
+1. 输入用户的工作角色详细信息。
 
-   根据设想，克里斯·曼宁将担任业务分析员。 在“角色”工作表上，找到Business Analyst角色的ID，将其复制到剪贴板中，然后在“用户”工作表上将其粘贴到Chris行上的“setRoleID”列中。&#x200B;AEM对每个用户和组分配重复此步骤。
+   根据设想，克里斯·曼宁将担任业务分析员。 在&#x200B;**角色角色**&#x200B;工作表上，找到业务分析师角色的ID，复制该ID，然后在&#x200B;**用户用户**&#x200B;工作表上将其粘贴到用户行上的&#x200B;**setRoleID**&#x200B;列中。&#x200B;AEM对每个用户和组分配重复此步骤。
 
    ![复制角色ID](assets/copyroleid-350x149.png)
 
@@ -311,11 +314,10 @@ ht-degree: 2%
    按照[使用快速启动模板](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)将数据导入Adobe Workfront中提供的说明进行操作。
 
 
-
 >[!NOTE]
 >
 >导入到Workfront的用户创建时处于已停用和待审批状态。
 > 
 >如果贵组织已迁移到Adobe Admin Console，并且用户在几分钟内没有转变为“已停用”和“未决批准”状态，则您可以将该批用户直接添加到Adobe Admin Console。
 >
->有关说明，请参阅[管理多个用户 | 在Adobe文档中批量CSV上传](https://helpx.adobe.com/cn/enterprise/using/bulk-upload-users.html)。
+>有关说明，请参阅[管理多个用户 | 在Adobe文档中批量CSV上传](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html)。

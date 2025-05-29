@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 4c80802c8e0084aa9e7be350caefc8929c9c4e2b
+source-git-commit: 137d7112c051322c191488463e52abdd73e50d1f
 workflow-type: tm+mt
-source-wordcount: '2785'
+source-wordcount: '2894'
 ht-degree: 6%
 
 ---
 
 # 使用快速启动模板将数据导入Workfront
+
+{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -53,7 +55,7 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -490,10 +492,17 @@ Kick-Start导入支持以下文件类型：
 
 1. 在&#x200B;**使用快速启动电子表格上载数据**&#x200B;部分中，单击&#x200B;**选择文件**，然后浏览并选择填充的电子表格。
 
-1. 单击&#x200B;**上传。**
+   <div class="preview">
 
-   如果Excel文件上传到Workfront需要5分钟以上的时间，则应用程序会超时，并且Workfront无法上传该文件。
+   在“预览”环境中，文件会自动上传，并显示已成功导入的通知。
 
-   尝试以较小的对象批次导入数据。
+   如果Excel文件上传到Workfront需要5分钟以上的时间，则应用程序会超时，并且Workfront无法上传该文件。 尝试以较小的对象批次导入数据。
 
-1. （视情况而定）如果您使用的是Workfront Fusion，则现在可以打开FLO或场景。
+   </div>
+
+1. （仅在生产环境中）单击&#x200B;**上传**。
+
+   如果Excel文件上传到Workfront需要5分钟以上的时间，则应用程序会超时，并且Workfront无法上传该文件。 尝试以较小的对象批次导入数据。
+
+1. （视情况而定）如果导入失败，您将收到一条错误消息，说明问题所在。 尝试确定出现问题的字段、工作表和行号，并更正Excel文件中的信息。 然后，再次尝试导入文件。
+1. （视情况而定）如果您使用的是Workfront Fusion，则现在可以在导入完成后打开FLO或场景。
