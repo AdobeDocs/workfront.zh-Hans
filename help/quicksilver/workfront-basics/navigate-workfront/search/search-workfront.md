@@ -47,7 +47,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[！UICONTROL View]对对象类型的访问权限 </p> <p>注意：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何修改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p></td> 
+   <td> <p>[!UICONTROL View]对对象类型的访问权限 </p> <p>注意：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何修改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
@@ -140,7 +140,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>包括或</td> 
-   <td> <p>通过“OR”连接单词（不带引号）可让您仅查找与[！UICONTROL搜索]框中至少一个单词匹配的对象。 这些词可以按任意顺序输入。<br>例如，搜索“Marketing OR Demo”（不带引号）将查找具有以下名称的对象：</p> 
+   <td> <p>通过“OR”连接单词（不带引号）可让您仅查找与[!UICONTROL 搜索]框中至少一个单词匹配的对象。 这些词可以按任意顺序输入。<br>例如，搜索“Marketing OR Demo”（不带引号）将查找具有以下名称的对象：</p> 
     <ul> 
      <li> 市场分析演示</li> 
      <li>1月市场分析演示</li> 
@@ -150,7 +150,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>包含和</td> 
-   <td> <p>通过“AND”连接单词（不带引号）可让您仅查找与[！UICONTROL搜索]框中的所有单词匹配的对象。 这些词可以按任意顺序输入。<br>例如，搜索“Marketing AND Demo”（不带引号）将查找具有以下名称的对象：</p> 
+   <td> <p>通过“AND”连接单词（不带引号）可让您仅查找与[!UICONTROL 搜索]框中的所有单词匹配的对象。 这些词可以按任意顺序输入。<br>例如，搜索“Marketing AND Demo”（不带引号）将查找具有以下名称的对象：</p> 
     <ul> 
      <li>营销演示</li> 
      <li>演示营销</li> 
@@ -195,7 +195,7 @@ ht-degree: 1%
 
    ![按对象类型搜索](assets/search-objecttype.png)
 
-1. 在&#x200B;**[!UICONTROL 搜索]**框中，开始键入要搜索的信息。
+1. 在&#x200B;**[!UICONTROL 搜索]**&#x200B;框中，开始键入要搜索的信息。
 有关[!DNL Workfront]中搜索哪些字段的信息，请参阅本文中的以下部分：[了解搜索](#understand-search)。
    ![搜索下拉列表](assets/qs-search-drop-down-highlighted-350x234.png)
 
@@ -252,7 +252,7 @@ ht-degree: 1%
 
 1. 在[!DNL Workfront]中任何页面的右上角，单击&#x200B;**[!UICONTROL 搜索]**&#x200B;图标![搜索图标](assets/search-icon.png)。 显示&#x200B;**搜索**&#x200B;菜单。
 
-1. 在&#x200B;**搜索**&#x200B;菜单的底部，单击&#x200B;**[!UICONTROL 高级搜索]**。 将打开&#x200B;**搜索**&#x200B;页面，默认选中&#x200B;**高级搜索**选项卡。
+1. 在&#x200B;**搜索**&#x200B;菜单的底部，单击&#x200B;**[!UICONTROL 高级搜索]**。 将打开&#x200B;**搜索**&#x200B;页面，默认选中&#x200B;**高级搜索**&#x200B;选项卡。
    ![高级搜索](assets/qs-advanced-search-350x224.png)
 
 
