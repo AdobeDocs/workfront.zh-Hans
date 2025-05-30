@@ -7,7 +7,7 @@ description: 利用“摘要”，可直接与文档列表中的重要信息交�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: daa46f0e2a5f656d048260d4a714ed02f01cdbbf
+source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 2%
@@ -110,7 +110,7 @@ ht-degree: 2%
 
 ## 版本
 
-使用“版本”部分可查看为特定文档创建的版本数。 单击&#x200B;**更多**&#x200B;图标![更多图标](assets/more-icon.png)以执行以下操作：
+使用“版本”部分可查看为特定文档创建的版本数。 单击“更多”图标![更多图标](assets/more-icon.png)可执行以下操作：
 
 * 打开验证。
 * 下载验证或文档。

@@ -2,21 +2,23 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
-title: Agile规划工具概述
-description: 使用临时信息卡和连接的信息卡创建展示板时，您可能希望利用展示板上的其他敏捷规划工具。
+title: Agile规划工具概述：文章索引
+description: 使用临时信息卡和连接的信息卡创建展示板时，您可以利用展示板上的其他敏捷计划工具。
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%
 
 ---
 
-# Agile规划工具概述
+# Agile规划工具概述：文章索引
 
-当您使用临时信息卡和连接的信息卡创建展示板时，您可能希望利用其他的Agile规划工具。
+<!-- Audited: 5/2025 -->
+
+当您使用临时信息卡和连接的信息卡创建展示板时，您可以利用其他的敏捷规划工具。
 
 适用于Kanban的工具包括：
 
