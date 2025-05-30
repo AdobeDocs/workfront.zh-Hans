@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->该文件必须是照片文档预设，如[Photoshop中的模板和预设](https://helpx.adobe.com/photoshop/using/create-documents.html)中所述。
+>该文件必须是照片文档预设，如[Photoshop中的模板和预设](https://helpx.adobe.com/cn/photoshop/using/create-documents.html)中所述。
 
 
 
