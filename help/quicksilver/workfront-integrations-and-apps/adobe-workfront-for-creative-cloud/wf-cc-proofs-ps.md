@@ -35,11 +35,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
-   <td> <p>当前计划： [！UICONTROL Pro]或更高版本</p> <p>或</p> <p>旧版计划： [！UICONTROL Premium]</p> <p>有关验证不同规划的访问权限的更多信息，请参阅。</p> </td> 
+   <td> <p>当前计划： [!UICONTROL Pro]或更高版本</p> <p>或</p> <p>旧版计划： [!UICONTROL Premium]</p> <p>有关验证不同规划的访问权限的更多信息，请参阅。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>当前计划： [！UICONTROL Work]或[！UICONTROL Proof]</p> <p>旧版计划：任意（您必须为用户启用验证）</p> </td> 
+   <td> <p>当前计划： [!UICONTROL Work]或[!UICONTROL Proof]</p> <p>旧版计划：任意（您必须为用户启用验证）</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
@@ -47,11 +47,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">校样权限配置文件 </td> 
-   <td>[！UICONTROL Manager]或更高版本</td> 
+   <td>[!UICONTROL Manager]或更高版本</td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>编辑对[！UICONTROL文档]的访问权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>编辑对[!UICONTROL 文档]的访问权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -137,7 +137,7 @@ ht-degree: 0%
 1. 单击[!DNL Workfront]面板底部附近的&#x200B;**[!UICONTROL 新版本]**。
 1. 启用&#x200B;**[!UICONTROL 创建验证]**&#x200B;切换开关。
 
-1. 在&#x200B;*[!UICONTROL *校对审批]**分区中，选择&#x200B;**[!UICONTROL 基本]**&#x200B;或&#x200B;**[!UICONTROL 自动]**。
+1. 在&#x200B;*[!UICONTROL *校对审批]&#x200B;**分区中，选择&#x200B;**&#x200B;[!UICONTROL 基本]&#x200B;**&#x200B;或&#x200B;**&#x200B;[!UICONTROL 自动]**。
 
 1. 根据您在步骤7中选择的审批类型添加&#x200B;**[!UICONTROL 审阅者]**&#x200B;或&#x200B;**[!UICONTROL 工作流模板]**。
 
