@@ -6,22 +6,20 @@ description: 您可以在 [!DNL Microsoft Teams] 的任何 [!DNL Adobe Workfront
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 71d83723-daea-4b7b-8e5b-cfcf414611fe
-source-git-commit: 69fdb5c23bb501fc81e4ef3c3ab7c94e78e69d29
+source-git-commit: 75c4baf5ceca53f7ba85ffcc34876bca1238c9de
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
 
 # 在[!DNL Microsoft Teams]中搜索和共享[!DNL Adobe Workfront]项
 
-<!--
-
->[!NOTE]
+>[!IMPORTANT]
 >
->As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
-
--->
+>随着Microsoft过渡到“新团队”客户端，Classic Teams客户端在2025年7月1日后将不再可用。 在准备过程中，我们正在开发Microsoft Teams集成的新版本，该版本将与新团队客户端完全兼容，并且可在7月1日之前提供，以确保顺利过渡。
+>
+>在集成可用后，此处将显示如何在新团队客户端中下载和安装集成的说明。
 
 您可以在[!DNL Microsoft Teams]的任何[!DNL Adobe Workfront]渠道中搜索[!DNL Workfront]个项目，并与团队成员共享这些项目。
 
@@ -42,7 +40,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[!UICONTROL 工作]，[!UICONTROL 计划]</p> </td> 
+   <td> <p>[！UICONTROL工作]，[！UICONTROL计划]</p> </td> 
   </tr> 
  </tbody> 
 </table>

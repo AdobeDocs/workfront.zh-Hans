@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront for Microsoft Teams] 应用允许您在不�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-source-git-commit: 69fdb5c23bb501fc81e4ef3c3ab7c94e78e69d29
+source-git-commit: 75c4baf5ceca53f7ba85ffcc34876bca1238c9de
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '719'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,11 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-<!--
-
 >[!IMPORTANT]
 >
->As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
-
--->
+>随着Microsoft过渡到“新团队”客户端，Classic Teams客户端在2025年7月1日后将不再可用。 在准备过程中，我们正在开发Microsoft Teams集成的新版本，该版本将与新团队客户端完全兼容，并且可在7月1日之前提供，以确保顺利过渡。
+>
+>在集成可用后，此处将显示如何在新团队客户端中下载和安装集成的说明。
 
 
 [!DNL Adobe Workfront for Microsoft Teams]应用允许您在不离开[!DNL Microsoft Teams]聊天渠道的情况下在[!DNL Workfront]中执行基本操作。
@@ -50,7 +48,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
    <td><p>新增：标准</p>
-    <p>当前： [!UICONTROL 工作]，[!UICONTROL 计划]</p> </td> 
+    <p>当前： [！UICONTROL工作]，[！UICONTROL计划]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,31 +69,15 @@ ht-degree: 0%
 
 1. 以团队所有者的身份登录到[!DNL Microsoft Teams]。
 1. 选择要为其安装[!DNL Workfront for Microsoft Teams]应用程序的团队。
-1. 单击侧面导航栏上的&#x200B;**[!UICONTROL 商店]**。
+1. 对于要为其安装Workfront for Microsoft Teams集成的团队，单击&#x200B;**[!UICONTROL 更多]**&#x200B;图标
+1. 单击&#x200B;**[!UICONTROL 应用]**&#x200B;选项卡。
+1. 在&#x200B;**[!UICONTROL 搜索应用及更多]**&#x200B;框中，键入&#x200B;*[!DNL Workfront]*。
+1. 单击&#x200B;**添加**。
+1. 在打开的对话框中单击&#x200B;**添加**。
+1. 在选择渠道部分中，选择要将Workfront应用程序添加到的团队，然后单击&#x200B;**转到**。
 
-1. 在&#x200B;**[!UICONTROL 搜索全部]**&#x200B;框中，键入&#x200B;*[!DNL Workfront]*。
-
-1. 单击&#x200B;**[!DNL Workfront]**&#x200B;卡并按照向导中的说明进行操作。
-1. （推荐）从&#x200B;**[!UICONTROL 添加到团队]**&#x200B;下拉菜单中选择一个团队，并启用&#x200B;**[!UICONTROL 是]**&#x200B;选项以将应用程序添加到团队。
-
-   ![ms_teams_add_to_a_team_option.png](assets/ms-teams-add-to-a-team-option-350x122.png)
-
-1. 对于该渠道，选择&#x200B;**[!UICONTROL 常规]**&#x200B;以在该渠道中为所选团队使用该应用程序，然后单击&#x200B;**[!UICONTROL 为所需功能设置]**。
-
-1. 安装完成后，您选择的团队的[!UICONTROL 常规]渠道中会显示安装成功的通知。 团队的所有成员都可以看到此通知。
-1. （可选）固定[!DNL Workfront]应用以便更轻松访问：
-
-   1. 单击[!UICONTROL 常规]渠道中消息字段下的&#x200B;**[!UICONTROL 更多]**&#x200B;图标。
-
-   1. 将鼠标悬停在列表中的[!DNL Workfront]应用上，然后单击其右侧的&#x200B;**[!UICONTROL 更多]**&#x200B;图标。
-
-   1. 单击&#x200B;**[!UICONTROL 固定]**。
-
-      这会在聊天字段下添加一个[!DNL Workfront]图标。 您可以从此处快速访问[!UICONTROL 搜索]区域。
-
-      有关搜索[!DNL Workfront]项的信息，请参阅[在 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)中搜索和共享 [!DNL Adobe Workfront] 项。
-
-1. 单击&#x200B;**[!UICONTROL 登录[!DNL Workfront]]**&#x200B;以访问[!DNL Workfront from Microsoft Teams]。
+   ![选择团队](assets/select-a-team.png)
+1. 单击&#x200B;**登录** Workfront以访问适用于Microsoft Teams的Workfront。
 
    有关登录到[!DNL Workfront]的信息，请参阅本文中的[从Microsoft Teams登录到Workfront](#log-in-to-workfront-from-microsoft-teams)部分。
 
@@ -112,18 +94,9 @@ ht-degree: 0%
 1. 单击要为其安装[!DNL Workfront for Microsoft Teams]的团队的&#x200B;**[!UICONTROL 更多]**&#x200B;图标。
 
 1. 单击&#x200B;**[!UICONTROL 管理团队]**。
-1. 选择&#x200B;**[!UICONTROL 应用程序]**&#x200B;选项卡，然后单击屏幕右下角的&#x200B;**[!UICONTROL 上传自定义应用程序]**。
-
+1. 选择应用程序选项卡，然后单击屏幕左上角的上传应用程序。
 1. 浏览您保存在计算机上的专用文件，然后按照安装步骤安装[!DNL Workfront for Microsoft Teams]。
 1. 安装完成后，您选择的团队的“常规”渠道中会显示安装成功的通知。 团队的所有成员都可以看到此通知。
-1. （可选）单击&#x200B;**[!UICONTROL 在此处键入问题]**&#x200B;字段下的&#x200B;**[!UICONTROL 更多]**（三个点）图标。
-
-1. （可选）将鼠标悬停在列表中的[!DNL Workfront]应用上，然后单击其右侧的&#x200B;**[!UICONTROL 更多]**&#x200B;图标。
-
-1. （可选）单击&#x200B;**[!UICONTROL 固定]**。
-
-   这会在[!UICONTROL 在此处键入问题]字段下添加一个[!DNL Workfront]图标。 您可以从此处快速访问[!UICONTROL 搜索]区域。\
-   有关搜索Workfront项目的信息，请参阅[在 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)中搜索和共享 [!DNL Adobe Workfront] 项目。
 
 ## 从[!DNL Microsoft]团队登录到[!DNL Workfront]
 
@@ -141,7 +114,7 @@ ht-degree: 0%
 
    [!DNL Workfront]机器人聊天频道已添加到您的[!DNL Microsoft Teams]聊天频道。
 
-1. 转到[!DNL Microsoft Teams]中的[!DNL Workfront]机器人聊天频道，然后在&#x200B;**[!UICONTROL 在此处键入您的问题]**&#x200B;字段中键入&#x200B;*[!UICONTROL 登录]*。
+1. 转到[!DNL Microsoft Teams]中的[!DNL Workfront]机器人聊天频道，然后在&#x200B;**[!UICONTROL 中键入&#x200B;*[!UICONTROL 登录]*在此处键入您的问题]**&#x200B;或&#x200B;**键入消息**&#x200B;字段。
 
    或
 
@@ -155,6 +128,7 @@ ht-degree: 0%
    >
    >* 当系统提示您输入[!DNL Workfront]帐户的域时，请使用此格式键入该域： *您的公司&#39;sDomain.my.workfront.com*。 您公司的域通常是您公司的名称。
    >* 在[!DNL Workfront]管理员为此集成启用增强身份验证之前，该身份验证不可用。
+   >* 适用于Microsoft Teams的Workfront与Workfront沙盒环境不兼容。
 
 
 1. 关闭您用来登录的浏览器选项卡并返回[!DNL Microsoft Teams]。
