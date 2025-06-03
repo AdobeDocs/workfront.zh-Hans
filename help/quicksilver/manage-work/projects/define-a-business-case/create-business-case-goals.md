@@ -5,9 +5,9 @@ description: 在创建业务案例的过程中，您可以创建一组目标以�
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: b38c98ec79617a78c76510bcb109da2ff83247af
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '495'
 ht-degree: 1%
 
 ---
@@ -43,8 +43,6 @@ ht-degree: 1%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -53,14 +51,14 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划</td> 
-   <td> <p>专业或专业以上</p> </td> 
+   <td> <p>当前：Prime或更高版本</p>
+   <p>旧版：专业版或更高版本</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td>
    <td> 
-   <p>新增：标准</p> 
-   <p>或</p>
-   <p>当前：计划 </p> 
+   <p>当前：标准</p> 
+   <p>旧版：计划 </p> 
    </td> 
   </tr> 
   <tr> 
@@ -105,6 +103,6 @@ ht-degree: 1%
      >
      >您无法自定义目标的重要性级别。
 
-1. （可选）要添加另一个目标，请单击“添加另一个目标”**&#x200B;**&#x200B;并重复步骤5-6。
+1. （可选）要添加另一个目标，请单击“添加另一个目标”****&#x200B;并重复步骤5-6。
 
 1. 单击&#x200B;**保存**。

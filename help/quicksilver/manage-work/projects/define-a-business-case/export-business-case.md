@@ -6,9 +6,9 @@ description: 您可以将商业案例导出到PDF文件，以防您需要打印�
 author: Alina
 feature: Work Management
 exl-id: 834c56c4-ca11-4aff-b67e-0eac9fa23403
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## 访问要求
 
-您必须具备以下条件：
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -27,11 +27,13 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>任何 </p> </td> 
+   <td> <p>当前：Prime或更高版本 </p> <p>旧版：专业版或更高版本 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>审核或更高</p> </td> 
+   <td> 
+   <p>当前：浅色或更高</p>
+   <p>旧版：审阅或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
@@ -44,7 +46,9 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 导出业务案例
 

@@ -5,9 +5,9 @@ description: 作为资源计划的一部分，您可以在构建业务案例时�
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1240'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,9 @@ ht-degree: 0%
 >
 >您在项目层资源计划员中输入的信息也可在系统层资源计划员中看到。 反之亦然。 有关资源规划者的信息，请参阅[资源规划者概述](../../../resource-mgmt/resource-planning/get-started-resource-planner.md)。
 
-您还可以使用Adobe Workfront Scenario Planner在业务案例中预算资源。 有关详细信息，请参阅使用场景规划器[&#128279;](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的业务案例中的预算资源。
+您还可以使用Adobe Workfront Scenario Planner在业务案例中预算资源。 有关详细信息，请参阅使用场景规划器](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的业务案例中的[预算资源。
 
 ## 访问要求
-
-您必须具备以下条件才能执行本文中的步骤：
 
 +++ 展开以查看本文中各项功能的访问要求。
 
@@ -38,12 +36,14 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划</td> 
-   <td> <p>Prime或更高版本</p> </td> 
+   <td> <p>当前：Prime或更高版本</p>
+   <p>旧版：专业版或更高版本</p> 
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>新增：浅色或更高</p>
-   <p>当前：审阅或更高版本</p>
+   <td> <p>当前：浅色或更高</p>
+   <p>旧版：审阅或更高版本</p>
 
 <p><b>重要信息：</b></p> 
    <p>新建：您必须拥有标准许可证才能修改资源预算信息。 </p> 
@@ -66,7 +66,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

@@ -6,7 +6,7 @@ description: 风险是阻止项目按时完成或在预算内完成的可能事�
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
 source-wordcount: '1080'
 ht-degree: 1%
@@ -45,10 +45,11 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划</td> 
-   <td> <p>任何</p> </td> 
+   <td> 
+   <p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
    <td> <p>新增：标准 </p>
    <p>当前：计划 </p> </td> 
   </tr> 
@@ -63,7 +64,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -109,7 +110,7 @@ ht-degree: 1%
 1. 转到要为其创建风险的项目。
 1. 单击左侧面板中的&#x200B;**风险**。
 
-   任务![&#128279;](assets/risks-section-on-project-2022.png)的风险部分
+   任务](assets/risks-section-on-project-2022.png)的![风险部分
 
 1. 单击&#x200B;**开始添加风险**&#x200B;并通过内联编辑其信息来创建风险。 **描述**&#x200B;是必填字段
 

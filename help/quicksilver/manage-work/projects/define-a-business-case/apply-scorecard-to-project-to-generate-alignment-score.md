@@ -5,9 +5,9 @@ description: 您可以使用记分卡衡量项目与项目组合中先前建立�
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '1240'
+source-wordcount: '1227'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,6 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -33,20 +31,20 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">Adobe Workfront计划</td> 
    <td>
-   <p>新增：Prime或更高版本</p>
+   <p>当前：Prime或更高版本</p>
    <p>或</p>
-   <p>当前：业务或更高</p> </td>
+   <p>旧版：商业版或更高版本</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td>
-   <p>新增：标准</p>
+   <p>当前：标准</p>
    <p>或</p>
-   <p>当前：计划</p></td>  
+   <p>旧版：计划</p></td>  
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>编辑对项目的访问权限</p> <p>查看或更高权限的Portfolio</p> </td> 
+   <td> <p>编辑对项目的访问权限</p> <p>查看或更高的项目组合访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
@@ -151,14 +149,14 @@ ht-degree: 0%
 
 ## 查看一致性分数
 
-您可以在项目级别或Portfolio优化器中查看项目的对齐分数。
+您可以在项目级别或Portfolio Optimizer中查看项目的对齐分数。
 
 * [查看项目的对齐分数](#view-the-alignment-score-on-a-project)
-* [在Portfolio优化器中查看项目和项目组合的对齐分数](#view-the-alignment-scores-of-the-project-and-of-the-portfolio-in-the-portfolio-optimizer)
+* [在Portfolio Optimizer中查看项目与项目组合的对齐分数](#view-the-alignment-scores-of-the-project-and-of-the-portfolio-in-the-portfolio-optimizer)
 
 ### 查看项目中的一致性分数
 
-如果您拥有项目的Contribute权限，则可以在项目级别查看项目的对齐分数。
+如果您拥有项目的“参与”权限，则可以在项目级别查看项目的对齐分数。
 
 1. 转到要查看其一致性分数的项目。
 1. 单击左侧面板中的&#x200B;**业务案例**。
@@ -168,52 +166,52 @@ ht-degree: 0%
 
    ![项目上的对齐分数](assets/alignment-score-on-a-project.png)
 
-### 在Portfolio优化器中查看项目和项目组合的对齐分数
+### 在Portfolio Optimizer中查看项目与项目组合的对齐分数
 
-如果您拥有项目组合的管理访问权限，则可以在Portfolio优化器中查看项目或项目组合的对齐分数。
+如果您拥有项目组合的管理访问权限，则可以在Portfolio Optimizer中查看项目或项目组合的对齐分数。
 
-有关Portfolio优化程序中显示信息的详细信息，请参阅[Portfolio优化程序概述](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)。
+有关Portfolio Optimizer中显示信息的更多信息，请参阅[Portfolio Optimizer概述](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)。
 
-* [在Portfolio优化程序中找到项目的对齐分数](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer)
-* [在Portfolio优化器中找到项目组合的对齐分数](#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer)
+* [在Portfolio Optimizer中找到项目的对齐分数](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer)
+* [在Portfolio Optimizer中找到项目组合的对齐分数](#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer)
 
-  Portfolio优化器中的![一致性分数](assets/alignment-score-in-portfolio-optimizer.png)
+  Portfolio Optimizer中的![一致性分数](assets/alignment-score-in-portfolio-optimizer.png)
 
-#### 在Portfolio优化器中找到项目的对齐分数 {#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer}
+#### 在Portfolio Optimizer中找到项目的对齐分数 {#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer}
 
 {{step1-to-portfolios}}
 
 1. 单击项目组合的名称。
 1. 单击左侧面板中的&#x200B;**Portfolio优化**。
 
-   此时将显示Portfolio优化器。
+   此时将显示Portfolio Optimizer。
 
-   项目的对齐分数在Portfolio优化程序的&#x200B;**对齐**&#x200B;列中以百分比显示。
+   项目的对齐分数在Portfolio优化器的&#x200B;**对齐**&#x200B;列中以百分比显示。
 
    这是基于与项目关联的记分卡的项目的对齐分数。
 
-#### 在Portfolio优化器中找到项目组合的对齐分数  {#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer}
+#### 在Portfolio Optimizer中找到项目组合的对齐分数  {#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer}
 
 {{step1-to-portfolios}}
 
 1. 单击项目组合的名称。
 1. 单击左侧面板中的&#x200B;**Portfolio优化**。
-1. 在Portfolio优化器顶部找到&#x200B;**对齐方式**&#x200B;值以及&#x200B;**对齐方式**&#x200B;量规，它们表示项目组合的对齐方式分数。
+1. 在Portfolio优化器的顶部找到&#x200B;**Aligned**&#x200B;值以及&#x200B;**Alignment**&#x200B;量规，它们表示项目组合的对齐分数。
 
    这是项目组合的对齐分数。
 
    有关如何生成项目组合的对齐分数的详细信息，请参阅[生成项目组合的对齐分数](#generate-an-alignment-score-for-a-portfolio)。
 
-## Portfolio优化器得分概述
+## Portfolio Optimizer得分概述
 
 项目一致性分数与项目组合优化器分数之间存在差异。
 
 根据完成记分卡后获得的点数计算项目的对齐分数。 然后，将使用该得分确定项目组合匹配度分数。 一致性分数以百分比显示。
 
-项目的对齐分数显示在Portfolio优化程序的&#x200B;**对齐**&#x200B;列中。
+项目的对齐分数显示在Portfolio优化器的&#x200B;**对齐**&#x200B;列中。
 
-项目组合优化器得分是在Portfolio优化器中自动计算的排名，通过它可以对项目进行优先排序。 项目组合优化程序得分显示为指示符图标，并带有数字，它显示在Portfolio优化程序的&#x200B;**得分**&#x200B;列中。 仅当完成业务案例的所有部分（目标除外）时，才会生成Portfolio优化器得分。
+项目组合优化器得分是在Portfolio优化器中自动计算的排名，通过它可以对项目进行优先排序。 项目组合优化器得分显示为指示符图标，旁边带有一个数字，并显示在Portfolio优化器的&#x200B;**得分**&#x200B;列中。 仅当完成业务案例的所有部分（目标除外）时，才会生成Portfolio Optimizer分数。
 
 有关为项目创建业务案例的详细信息，请参阅[为项目创建业务案例](../../../manage-work/projects/define-a-business-case/create-business-case.md)。
 
-有关计算项目的项目组合优化器分数的详细信息，请参阅[Portfolio优化器得分概览](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)。
+有关计算项目的项目组合优化器得分的详细信息，请参阅[Portfolio优化器得分概述](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)。

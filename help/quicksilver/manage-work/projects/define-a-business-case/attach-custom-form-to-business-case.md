@@ -5,9 +5,9 @@ description: 自定义Forms用于收集未显示在现有Adobe Workfront字段�
 author: Alina
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 访问要求
 
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,11 +28,14 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>专业或专业以上</p> </td> 
+   <td> <p>当前：Prime或更高版本</p>
+   <p>旧版：专业版或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
+   <td> 
+   <p>当前：标准 </p> 
+   <p>旧版：计划 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
@@ -45,7 +48,9 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 将自定义Forms附加到项目
 

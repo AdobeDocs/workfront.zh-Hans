@@ -5,9 +5,9 @@ description: 您可以使用业务案例来请求项目，并定义项目的目�
 author: Alina
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
@@ -20,19 +20,22 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr> 
+ <tr> 
    <td role="rowheader">Adobe Workfront计划</td> 
-   <td> <p>任何 </p> </td> 
+   <td> 
+   <p>当前：Prime或更高版本</p> 
+   <p>旧版：专业版或更高版本</p> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td> <p>计划或更高版本</p> </td> 
+   <td> 
+   <p>当前：标准 </p> 
+   <p>旧版：计划 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
