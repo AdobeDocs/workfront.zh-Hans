@@ -35,16 +35,16 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
    <td> <p>新建：任何</p>
-   <p>当前： [！UICONTROL Business]或更高版本</p> </td> 
+   <p>当前： [!UICONTROL Business]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>新文档： [！UICONTROL Standard]</p>
-   <p>当前： [！UICONTROL计划] </p> </td> 
+   <td> <p>新文档： [!UICONTROL Standard]</p>
+   <p>当前： [!UICONTROL 计划] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[！UICONTROL Edit]对项目组合和程序的访问权限</p>  </td> 
+   <td> <p>[!UICONTROL Edit]对项目组合和程序的访问权限</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
