@@ -2,22 +2,23 @@
 content-type: reference
 product-area: programs
 navigation-topic: portfolios-navigation-topic
-title: 创建和管理程序
-description: 项目群表示共享跨项目边界的共同策略、目标或目标的项目集合。 项目是项目组合的一个细分，它们不能存在于项目组合之外。
+title: 创建和管理程序：文章索引
+description: 项目是有助于实现共同战略、目标或目标的项目集合。 项目是项目组合的一个细分，它们不能存在于项目组合之外。
 author: Alina
 feature: Work Management, Strategic Planning
 recommendations: noDisplay, noCatalog
 exl-id: 3c796bab-b468-451a-adf8-8180f67546ee
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
 
-# 创建和管理程序
+# 创建和管理程序：文章索引
 
-项目群表示共享跨项目边界的共同策略、目标或目标的项目集合。
+项目是有助于实现共同战略、目标或目标的项目集合。
+
 项目是项目组合的一个细分，它们不能存在于项目组合之外。
 
 本节包含以下文章：

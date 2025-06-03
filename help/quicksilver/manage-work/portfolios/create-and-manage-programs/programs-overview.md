@@ -2,18 +2,19 @@
 content-type: overview
 product-area: portfolios
 navigation-topic: create and manage programs
-title: ' [!DNL Adobe Workfront]中的项目概述'
+title: 程序概述
 description: 项目群是具有统一特性的项目的集合。 这些项目通常会争夺相同的资源、预算或时限。 项目是项目组合的子组。 在将项目添加到项目组合之前，您可以将项目与项目群关联。
 author: Alina
 feature: Work Management, Strategic Planning
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+exl-id: 1c64fe00-12e3-49f6-b864-b8f89ed9140d
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '497'
 ht-degree: 1%
 
 ---
 
-# [!DNL Adobe Workfront]中的项目概述
+# 程序概述
 
 <!-- Audited: 09/2024 -->
 
@@ -32,18 +33,18 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
    <td> <p>新建：任何</p>
-   <p>当前： [!UICONTROL Business]或更高版本</p> </td> 
+   <p>当前： [！UICONTROL Business]或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>新文档： [!UICONTROL Standard]</p>
-   <p>当前： [!UICONTROL 计划] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
+   <td> <p>新文档： [！UICONTROL Standard]</p>
+   <p>当前： [！UICONTROL计划] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[!UICONTROL Edit]对Portfolio和程序的访问权限</p>  </td> 
+   <td> <p>[！UICONTROL Edit]对项目组合和程序的访问权限</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
@@ -56,7 +57,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 
 ## 有关使用程序的注意事项
@@ -94,6 +95,3 @@ ht-degree: 1%
 * 您可以使用项目组合优化器分析项目组合中所有项目的性能。 不能仅比较同一项目群中多个项目的性能。 您必须在项目组合级别分析项目绩效。
 
   有关信息，请参阅[在Portfolio优化器中优化项目](/help/quicksilver/manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)。
-
-
-

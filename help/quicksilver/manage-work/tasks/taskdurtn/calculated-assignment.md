@@ -2,19 +2,21 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: '持续时间类型概述：计算分配'
+title: 持续时间类型概览：计算分配
 description: 计算分配是一种持续时间类型，您可以在Adobe Workfront中为任务设置此类型。 有关Workfront中持续时间类型的一般信息，请参阅任务持续时间和持续时间类型概述。
 author: Alina
 feature: Work Management
 exl-id: 5f1f6109-5d54-4c3f-9aa5-dc6ce165a1cd
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
 
 # 持续时间类型概览：计算分配
+
+<!-- Audited: 5/2025 -->
 
 计算分配是一种持续时间类型，您可以在Adobe Workfront中为任务设置此类型。 有关Workfront中持续时间类型的一般信息，请参阅[任务持续时间和持续时间类型概述](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)。
 
@@ -31,7 +33,7 @@ ht-degree: 0%
 
 在以下情况下，计算分配是首选的持续时间类型：
 
-* 当分配具有活动窗口，但未完成其工作所分配的整个持续时间时。 例如，您被指定在周末之前向主管提交报表。 您有5天的持续时间，但您只需要10个小时即可草稿文档。
+* 当分配具有活动窗口，但未完成其工作所分配的整个持续时间时。 例如，您被指定在周末之前向主管提交报表。 您有5天的持续时间，但您只需10小时即可起草文档。
 * 当由于项目经理可以相互独立地估计计划持续时间和计划工作量而将单个资源分配给任务时。
 
   您可以对相同结果使用计算的工作持续时间类型，但项目经理必须输入资源的百分比分配，才能影响计划小时数的计算值。 这使得项目规划更加困难和费时。

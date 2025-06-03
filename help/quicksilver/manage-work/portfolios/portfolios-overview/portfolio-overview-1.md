@@ -2,20 +2,22 @@
 content-type: overview;reference
 product-area: portfolios
 navigation-topic: portfolios-navigation-topic
-title: “Portfolio：文章索引”
-description: Portfolio是具有统一特性的项目的集合。 请在以下文章中了解项目组合的相关信息。
+title: 组合：文章索引
+description: Portfolio是具有统一特性的项目集合。 请在以下文章中了解项目组合的相关信息。
 author: Alina
 feature: Work Management, Strategic Planning
 recommendations: noDisplay, noCatalog
 exl-id: 655c655c-4bfe-44c8-bbb5-0222b0d158eb
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
 source-wordcount: '42'
 ht-degree: 0%
 
 ---
 
-# Portfolio：文章索引
+# 组合：文章索引
+
+<!-- Audited: 5/2025 -->
 
 本节包含以下文章：
 

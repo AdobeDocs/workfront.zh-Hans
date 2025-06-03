@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: update-work-in-a-project
 title: 更新任务状态
-description: 您可以更新任务的状态，以告知其他人该任务在何处（以及整个项目）以及进展如何。
+description: 您可以更新任务的状态，以告知其他人该任务在何处（以及整个项目）及其进展情况。
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '638'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--Audited: 10/2024-->
 
-您可以更新任务的状态，以告知其他人该任务在何处（以及整个项目）以及进展如何。
+您可以更新任务的状态，以告知其他人该任务在何处（以及整个项目）及其进展情况。
 
 默认状态为“新建”、“进行中”和“完成”。 Adobe Workfront管理员可以为您的组织添加自定义状态。 有关详细信息，请参阅[创建或编辑状态](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)。
 
@@ -26,8 +26,6 @@ ht-degree: 1%
 ## 访问要求
 
 +++ 展开以查看本文中各项功能的访问要求。
-
-您必须具有以下权限才能手动更新任务：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +36,7 @@ ht-degree: 1%
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
    <td> <p>新增：标准</p> 
    或
    <p>当前：工作或更高</p>
@@ -55,7 +53,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -70,23 +68,23 @@ ht-degree: 1%
 
 ## 手动更新任务状态
 
-您可以在Workfront的以下区域中更新任务状态：
+您可以在以下区域更新任务状态：
 
 * 任务页面上的任务标题。
-* 编辑任务时显示的编辑任务框。
+* 编辑任务时显示的“编辑任务”框。
 * 任务页面上的“任务详细信息”部分。
-* 在任务列表或报告中，当状态字段在视图中可见时。
+* 当状态字段在视图中可见时在任务列表或报告中。
 * 在任务的“摘要”面板中。
 
 要在任务标题中手动更新任务状态，请执行以下操作：
 
-1. 转到要更新其状态的任务。
-1. 单击任务标题中的&#x200B;**状态**&#x200B;字段并选择新状态。
-1. 要提供任务完成的可视指示，请拖动或双击任务标题中&#x200B;**完成百分比**&#x200B;下的气泡
+1. 转到要为其更新状态的任务。
+1. 在任务标题中，单击&#x200B;**状态**&#x200B;字段并选择新状态。
+1. 要提供任务完成的可视指示，请将气泡拖动到任务标题中的&#x200B;**完成百分比**&#x200B;下。
 
    或
 
-   在任务标题中的气泡内单击以输入百分比。
+   双击&#x200B;**完成百分比**&#x200B;气泡内部以手动输入新百分比。
 
    ![](assets/percent-complete-status-widgets-task-header.png)
 
@@ -94,7 +92,7 @@ ht-degree: 1%
 
    * 若要添加有关更新的注释，请转到&#x200B;**更新**&#x200B;部分，然后单击&#x200B;**新建注释**，然后键入注释。
 
-     ![](assets/add-update-to-task.png)
+     ![向任务添加更新](assets/add-update-to-task.png)
 
    * 若要将更新通知给某些用户，请在键入评论时显示的&#x200B;**标记人员或团队**&#x200B;字段中键入其名称。 有关详细信息，请参阅[为其他人标记更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)。
    * 要更新任务的提交日期，请单击&#x200B;**任务详细信息**，然后编辑&#x200B;**提交日期**&#x200B;字段。 有关信息，请参阅[编辑任务](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)。
@@ -150,7 +148,7 @@ ht-degree: 1%
   <tr data-mc-conditions=""> 
    <td><span>单击“开始任务”按钮接受处理分配给您的任务</span> </td> 
    <td><span>新建</span> </td> 
-   <td> <p>与“主团队”设置中的“开始任务”按钮关联的任何状态。</p> <p>有关将“处理此项工作”按钮替换为“开始任务”按钮的信息，请参阅<span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">将“处理此项工作”按钮替换为“开始”按钮</a></span>。</p> <p>提示：单击“开始任务”后，<span>单击</span> <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">撤消按钮</span>会将状态还原为“新建”。 </p> </td> 
+   <td> <p>与“主团队”设置中的“开始任务”按钮关联的任何状态。</p> <p>有关将“处理此项工作”按钮替换为“开始任务”按钮的信息，请参阅<span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">将“处理此项工作”按钮替换为“开始”按钮</a></span>。</p> <p>提示：单击“开始任务”后<span>单击</span> <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">撤消按钮</span>会将状态还原为“新建”。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

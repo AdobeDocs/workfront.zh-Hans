@@ -6,14 +6,16 @@ description: 您可以在项目的初始创建阶段或创建项目后，将模�
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1151'
 ht-degree: 0%
 
 ---
 
 # 将模板附加到项目
+
+<!-- Audited: 5/2025 -->
 
 您可以在项目的初始创建阶段或创建项目后，将模板附加到项目。
 
@@ -21,23 +23,26 @@ ht-degree: 0%
 
 ## 访问要求
 
-您必须具备以下条件才能执行本文中所述的步骤：
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p>新增：标准</p>
+   <p>或</p>
+   <p>当前：计划</p>
+    </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对项目的访问权限 </p> <p>有关项目访问权限的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">授予项目访问权限</a>。</p> <p>查看对模板的访问权限</p> <p>有关模板权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">共享模板</a>。 </p> <p>有关模板访问权限的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">授予对模板的访问权限</a>。</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑对项目的访问权限 </p> <p>有关项目访问权限的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">授予项目访问权限</a>。</p> <p>查看对模板的访问权限</p> <p>有关模板权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">共享模板</a>。 </p> <p>有关模板访问权限的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">授予对模板的访问权限</a>。</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建和修改自定义访问级别</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
@@ -46,7 +51,9 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -75,24 +82,26 @@ ht-degree: 0%
 
 ## 将模板附加到现有项目 {#attach-a-template-to-an-existing-project}
 
-您可以从项目页面、项目列表或报表将模板附加到Workfront中的项目。
+您可以从项目页面、项目列表或报表将模板附加到项目。
 
-1. 转到要附加模板的项目，然后单击项目名称右侧的&#x200B;**更多**&#x200B;图标![更多](assets/qs-more-icon-on-an-object.png)
+{{step1-to-projects}}
 
-   ![更多下拉列表](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+1. 在&#x200B;**项目**&#x200B;页面上，选择要将模板附加到的项目。
+
+1. 单击项目名称右侧的&#x200B;**更多**&#x200B;图标![更多图标](assets/qs-more-icon-on-an-object.png)。
+
+   ![更多下拉列表](assets/more-dropdown.png)
 
    或
 
    转到项目列表或报告并选择项目，然后单击列表顶部的&#x200B;**更多**&#x200B;图标![更多图标](assets/qs-more-icon-on-an-object.png)。
 
-   ![更多菜单已展开](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![更多菜单已展开](assets/more-menu-expanded.png)
 
 
-1. 单击&#x200B;**附加模板**。
+1. 单击&#x200B;**附加模板**。 将显示&#x200B;**附加模板**&#x200B;框。
 
-   此时将显示“附加模板”框。
-
-1. 开始在&#x200B;**搜索模板**&#x200B;字段中键入要附加的模板的名称，然后在列表中显示该模板时单击它。
+1. 开始在&#x200B;**搜索模板**&#x200B;字段中键入要附加的模板的名称，然后在模板显示在列表中时单击该名称。
 
    或
 
@@ -102,22 +111,18 @@ ht-degree: 0%
 
    * 持续时间
    * 所有者
-   * 顶级任务的数量（包括前三个顶级任务的列表）
+   * 顶级任务数（包括前3个顶级任务的列表）
    * 任务总数
    * 附加的自定义表单的名称
 
    ![附加模板框](assets/attach-template-box-template-preview-area-nwe-350x282.png)
 
-1. （可选）单击模板名称左侧的&#x200B;**收藏夹**&#x200B;图标![收藏夹图标](assets/favorites-icon-small.png)以将其标记为收藏。 这会移动收藏夹列表中的模板。
+1. （可选）单击模板名称右侧的&#x200B;**收藏夹**&#x200B;图标![收藏夹图标](assets/favorites-icon-small.png)以将其标记为收藏并将其移至&#x200B;**收藏夹**&#x200B;列表。
 
-   模板列表上的![收藏夹图标](assets/favorites-icon-on-template-list-in-attach-template-box-nwe-350x79.png)
+1. （可选）再次单击&#x200B;**收藏夹**&#x200B;图标![收藏夹图标](assets/favorites-icon-selected.png)以将其从&#x200B;**收藏夹**&#x200B;列表中删除。
+1. 单击&#x200B;**自定义并附加**。 将打开&#x200B;**附加模板**&#x200B;侧面板。
 
-1. （可选）再次单击&#x200B;**收藏夹**&#x200B;图标![收藏夹图标](assets/favorites-icon-selected.png)以将其从收藏夹列表中删除。
-1. 单击&#x200B;**自定义并附加**。
-
-   ![附加模板](assets/attach-template-large-box-nwe-350x262.png)
-
-1. 在附加模板之前更新以下部分的信息（或随时单击&#x200B;**附加模板**）：
+1. （可选）更新以下部分中的信息：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -132,7 +137,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">选择要作为此模板中任务的前置任务的项目任务。</td> 
-      <td> <p>单击该字段以显示项目任务列表。 选择要在模板任务开始之前完成的项目任务。 或者，您可以跳过此步骤，并在附加模板后在项目中设置关系。 </p> <p> 选择<strong>依赖项类型</strong>、<strong>Lag</strong>信息，以及您是否希望前置任务为<strong>强制</strong>。 </p> </td> 
+      <td> <p>单击该字段以显示项目任务列表，然后选择在模板任务开始之前必须完成的任务。 或者，您可以跳过此步骤，并在附加模板后在项目中设置关系。 </p> <p> 选择<strong>依赖项类型</strong>、<strong>滞后时间</strong>信息，如果您希望通过选中<strong>强制执行前置任务</strong>复选框来强制执行前置任务，请选中该复选框。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">选择要作为此模板中任务的父级的项目任务。</td> 
@@ -143,7 +148,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">以下选定的项目已转移到项目。 取消选择要排除的项目。</td> 
-      <td> <p>取消选中要在将模板附加到项目之前从模板中清除的任何信息旁边的复选框。 此信息不会从模板传输到项目。 有关每个字段的更多信息，请参阅<a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">将模板附加到项目的概述</a>。 </p> <p>重要提示：如果选中<strong>队列属性和问题设置</strong>框，则模板的队列详细信息将覆盖项目的队列详细信息。 在这种情况下，模板的“路由规则”、“队列主题”和“主题组”将添加到项目的路由规则、队列主题和主题组。 <br>如果项目设置为请求队列，而您附加到项目的模板未设置为请求队列，则如果您选中“<strong>队列属性和问题设置</strong>”框，项目的队列信息将被删除。 <br>如果取消选择<strong>队列属性和问题设置</strong>框，则会保留项目的所有队列设置设置，并且不会附加模板中的队列设置设置。 </p> </td> 
+      <td> <p>在将模板附加到项目之前，取消选中要从模板中排除的任何信息的复选框。 有关每个字段的更多信息，请参阅<a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">将模板附加到项目的概述</a>。 </p> <p>重要提示：如果选中<strong>队列属性和问题设置</strong>框，则模板的队列详细信息将覆盖项目的队列详细信息。 在这种情况下，模板的“路由规则”、“队列主题”和“主题组”将添加到项目的路由规则、队列主题和主题组。 <br>如果项目设置为请求队列，而您附加到项目的模板未设置为请求队列，则如果您选中<strong>队列属性和问题设置</strong>框，项目的队列信息将被删除。 <br>如果取消选择<strong>队列属性和问题设置</strong>框，则会保留项目的所有队列设置设置，并且不会附加模板中的队列设置设置。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader" colspan="2"> <p role="rowheader" colspan="2">自定义Forms部分</p> <p role="rowheader" colspan="2"> <img src="assets/attach-template-large-box-custom-forms-section-nwe-350x274.png" style="width: 350;height: 274;"> </p> </td> 
@@ -160,7 +165,7 @@ ht-degree: 0%
    >[!TIP]
    >
    >* 当模板上的自定义表单包含空必填字段时，此步骤是必需的。
-   >* 如果模板自定义表单中的字段在项目上已存在并包含信息，则它们将保留已在项目上的信息。 在附加模板期间无法编辑它们。
+   >* 如果模板自定义表单中的字段在项目上已存在并包含信息，则它们将保留已在项目上的信息。 在附加模板时无法编辑它们。
 
 1. 单击&#x200B;**附加模板。**
 1. 单击&#x200B;**取消附件**&#x200B;以停止附加模板。
@@ -171,7 +176,7 @@ ht-degree: 0%
 
    附加模板后，您可以编辑项目并根据需要调整任何任务、信息或设置。
 
-1. （可选）单击&#x200B;**项目详细信息**，然后单击&#x200B;**概述**，以查看附加在&#x200B;**项目关系**&#x200B;区域中的模板的名称。
+1. （可选）在左侧面板中，单击&#x200B;**项目详细信息**，然后单击&#x200B;**概述**，以查看附加在&#x200B;**项目关系**&#x200B;区域中的模板的名称。
 
    >[!TIP]
    >
@@ -187,12 +192,16 @@ ht-degree: 0%
 >
 >当您将多个模板附加到项目时，只有您首先附加的模板才会显示在项目详细信息区域中。
 
-要了解将什么模板应用于项目，请执行以下操作：
+要查看将哪个模板应用于项目，请执行以下操作：
 
-1. 导航到附加了模板的项目。
+{{step1-to-projects}}
+
+1. 在&#x200B;**项目**&#x200B;页面上，选择具有附加模板的项目。
+
 1. 单击左侧面板中的&#x200B;**项目详细信息**。
-1. 在&#x200B;**项目关系**&#x200B;下的&#x200B;**概述**&#x200B;部分底部的&#x200B;**模板**&#x200B;字段中查找附加到项目的模板的名称。
 
-   ![项目上的模板信息](assets/nwe-template-info-on-project-350x356.png)
+1. 在&#x200B;**项目关系**&#x200B;下的&#x200B;**概述**&#x200B;部分底部的&#x200B;**模板**&#x200B;字段中找到附加到项目的模板的名称。
+
+   ![项目的模板信息](assets/nwe-template-info-on-project-350x356.png)
 
 
