@@ -6,7 +6,7 @@ description: 在团队所有者安装适用于Microsoft Teams的Adobe Workfront�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5975d773-eae6-44ae-8296-2013504da3a8
-source-git-commit: 75c4baf5ceca53f7ba85ffcc34876bca1238c9de
+source-git-commit: 372b7566fa5eb38703905b22ff43d49a76bcb400
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 >随着Microsoft过渡到“新团队”客户端，Classic Teams客户端在2025年7月1日后将不再可用。 在准备过程中，我们正在开发Microsoft Teams集成的新版本，该版本将与新团队客户端完全兼容，并且可在7月1日之前提供，以确保顺利过渡。
 >
->在集成可用后，此处将显示如何在新团队客户端中下载和安装集成的说明。
+>在发布集成后，将提供有关如何在新团队客户端中下载和安装集成的说明。
 
 在团队所有者安装[!DNL Adobe Workfront for Microsoft Teams]后，您可以从您的[!DNL Microsoft Teams]帐户提交[!DNL Workfront]请求。 为此，您必须拥有有权提交请求的Workfront帐户。 有关安装[!DNL Workfront for Microsoft Teams]的信息，请参阅[正在安装 [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)。
 
@@ -80,7 +80,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader"> </td> 
-      <td> <p>附加要包含在请求中的任何文档。 您可以通过拖放或单击[!UICONTROL 选择文件]并浏览到文件系统中并选择文档来附加文档。</p> </td> 
+      <td> <p>附加要包含在请求中的任何文档。 您可以通过拖放或单击[！UICONTROL选择文件]并浏览到文件系统中并选择文档来附加文档。</p> </td> 
      </tr> 
     </tbody> 
    </table>

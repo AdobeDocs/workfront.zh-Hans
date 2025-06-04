@@ -6,7 +6,7 @@ description: 您可以在 [!DNL Microsoft Teams] 中访问 [!DNL Adobe Workfront
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
-source-git-commit: 75c4baf5ceca53f7ba85ffcc34876bca1238c9de
+source-git-commit: 372b7566fa5eb38703905b22ff43d49a76bcb400
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 1%
@@ -21,7 +21,8 @@ ht-degree: 1%
 >
 >随着Microsoft过渡到“新团队”客户端，Classic Teams客户端在2025年7月1日后将不再可用。 在准备过程中，我们正在开发Microsoft Teams集成的新版本，该版本将与新团队客户端完全兼容，并且可在7月1日之前提供，以确保顺利过渡。
 >
->在集成可用后，此处将显示如何在新团队客户端中下载和安装集成的说明。
+>在发布集成后，将提供有关如何在新团队客户端中下载和安装集成的说明。
+
 
 您可以通过在[!DNL Workfront]机器人渠道或任何其他团队渠道中键入命令，从[!DNL Microsoft Teams]访问[!DNL Adobe Workfront]并在[!DNL Workfront]中执行多个操作。
 
@@ -54,8 +55,8 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>新文档： [!UICONTROL Standard]</p>
-   <p>当前： [!UICONTROL 工作]，[!UICONTROL 计划]</p> </td> 
+   <td> <p>新文档： [！UICONTROL Standard]</p>
+   <p>当前： [！UICONTROL工作]，[！UICONTROL计划]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,7 +85,7 @@ ht-degree: 1%
 
 1. 开始键入项目、任务或问题的名称。
 
-   有关搜索项的信息，请参阅[在 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)的 [!DNL Microsoft Teams][&#128279;](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) in the article Search for and share [!DNL Adobe Workfront] 项中搜索和共享 [!DNL Adobe Workfront] 项。
+   有关搜索项的信息，请参阅[在 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)的 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) in the article [Search for and share [!DNL Adobe Workfront] 项中搜索和共享 [!DNL Adobe Workfront] 项。
 
 1. 单击&#x200B;**[!UICONTROL 在此处键入您的问题]**&#x200B;字段。
 
@@ -108,7 +109,7 @@ ht-degree: 1%
 
 1. 单击&#x200B;**[!UICONTROL 搜索]**&#x200B;以搜索项目、任务或问题。
 
-   有关搜索项的信息，请参阅 [!DNL Microsoft Teams][&#128279;](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)文章中的 [!DNL Microsoft Teams][&#128279;](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) section in the Search for and share [!DNL Adobe Workfront] 项中的搜索和共享 [!DNL Adobe Workfront] 项。
+   有关搜索项的信息，请参阅 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)文章中的 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) section in the [Search for and share [!DNL Adobe Workfront] 项中的[搜索和共享 [!DNL Adobe Workfront] 项。
 
 1. 键入以下任意命令以在Workfront中执行这些操作。\
    命令不区分大小写：
