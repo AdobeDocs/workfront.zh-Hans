@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 6e4135fc6f0431c8222ce48c18a0b5c4c6f0dbed
+source-git-commit: 14e47364f88b756a2fa25d66ee9f2d85a57c8161
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1520'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Adobe管理员可以使用Adobe Admin Console创建Adobe Workfront系统管理�
 >
 >* 必须在Adobe Admin Console中配置&#x200B;**Workfront管理员。**&#x200B;有关信息和说明，请参阅本文中的[使用Adobe Admin Console在Workfront中创建系统管理员](#create-system-administrators-in-workfront-with-the-adobe-admin-console)。
 >* **如果您的组织使用单点登录(SSO)**，我们建议您在Adobe Admin Console中创建用户并将他们分配到Workfront。 可以在Workfront中创建这些用户，但根据贵组织的Admin Console的配置方式，将该信息传输到Adobe Admin Console时可能会出现问题。
->   在Adobe Admin Console中创建用户后，您可以在Workfront中配置用户信息，例如分配角色、组、团队和访问级别。
+>  >   在Adobe Admin Console中创建用户后，您可以在Workfront中配置用户信息，例如分配角色、组、团队和访问级别。
 >* **如果您的组织不使用单点登录(SSO)**，则可以直接在Workfront中添加非系统管理员用户。 您可以在Adobe Admin Console中添加用户，但通过在Workfront中添加用户，您可以在创建用户时设置其访问级别，这可以节省您的时间。
 
 从Admin Console更改用户配置文件时，更新将添加到Workfront中用户的系统活动选项卡中。 更新显示为“System”（系统）。 这是指Adobe Admin Console管理员，而非Workfront主管理员。
@@ -101,7 +101,11 @@ Adobe管理员可以使用Adobe Admin Console创建Adobe Workfront系统管理�
   >
   >请勿对产品配置文件本身进行任何更改。
 
-* Adobe Admin Console管理员可以设置自动分配规则，以自动将Adobe产品分配给组织中的用户。 您的组织必须迁移到Adobe Unified Experience才能使用此功能。 有关更多信息和说明，请参阅Adobe文档中的[管理自动分配规则](https://helpx.adobe.com/cn/enterprise/using/automatic-assignment-rules.html)。
+* Adobe Admin Console管理员可以设置自动分配规则，以自动将Adobe产品分配给组织中的用户。 您的组织必须迁移到Adobe Unified Experience才能使用此功能。 有关更多信息和说明，请参阅Adobe文档中的[管理自动分配规则](https://helpx.adobe.com/enterprise/using/automatic-assignment-rules.html)。
+
+  >[!NOTE]
+  >
+  >如果在配置自动分配时选择受信任的组织，则可在“所选目录或域中的用户”区域中找到该组织。 单击&#x200B;**选择目录**&#x200B;字段旁边的下拉箭头并选择组织。 受信任的组织标有“受信任”徽章。
 
 ## 访问Workfront生产实例的用户和管理区域 {#access-the-user-and-admin-area-for-your-production-instance-of-workfront}
 
@@ -231,16 +235,16 @@ Adobe管理员可以使用Adobe Admin Console创建Adobe Workfront系统管理�
 * 管理权限
 * 国家/地区
 
-有关在Adobe Admin Console中编辑单个用户的信息，请参阅Adobe文档中的单独管理用户一文中的[编辑用户详细信息](https://helpx.adobe.com/cn/enterprise/using/manage-users-individually.html#edit-user-details)。
+有关在Adobe Admin Console中编辑单个用户的信息，请参阅Adobe文档中的单独管理用户一文中的[编辑用户详细信息](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#edit-user-details)。
 
 有关在Adobe Admin Console中批量编辑用户的信息，请参阅
-在Adobe的“管理多个用户”一文中，[编辑用户详细信息](https://helpx.adobe.com/cn/enterprise/using/bulk-upload-users.html#edit-user-details)。
+在Adobe的“管理多个用户”一文中，[编辑用户详细信息](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html#edit-user-details)。
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p>You can create Adobe Workfront users and system administrators with the <a href="https://adminconsole.adobe.com/" alt="Admin Console link">Adobe Admin Console</a>. The console is a central location for managing the Adobe entitlements across your organization. For more information, see the <a href="https://helpx.adobe.com/cn/enterprise/using/admin-console.html" alt="Admin Console Overview">Admin Console Overview</a>.</p>
+<p>You can create Adobe Workfront users and system administrators with the <a href="https://adminconsole.adobe.com/" alt="Admin Console link">Adobe Admin Console</a>. The console is a central location for managing the Adobe entitlements across your organization. For more information, see the <a href="https://helpx.adobe.com/enterprise/using/admin-console.html" alt="Admin Console Overview">Admin Console Overview</a>.</p>
 <p>Before using the Admin Console for Workfront, you should receive a receive an email inviting you to the console. Click in the invitation to accept it and create an account. You can also use an existing account, if already available.</p>
 <h2>Create users</h2>
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Create users in WF with the Adobe admin console</p>
