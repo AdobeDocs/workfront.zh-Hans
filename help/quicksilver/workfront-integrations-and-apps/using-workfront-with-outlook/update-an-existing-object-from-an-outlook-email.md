@@ -39,7 +39,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[！UICONTROL工作]，[！UICONTROL计划]</p> </td> 
+   <td> <p>[!UICONTROL 工作]，[!UICONTROL 计划]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,7 +59,7 @@ ht-degree: 0%
 1. 单击&#x200B;**[!UICONTROL 菜单]**&#x200B;图标![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png)以显示可用[!DNL Workfront]选项的列表。\
 
 
-1. 在Workfront **中单击**[!UICONTROL &#x200B;更新]。\
+1. 在Workfront **中单击**&#x200B;[!UICONTROL &#x200B;更新]。\
    在将电子邮件另存为任务之前，您可以从电子邮件中更新以下信息：
 
    * **[!UICONTROL 类型]**：选择要更新的对象类型。 您可以选择&#x200B;**[!UICONTROL 项目]**、**[!UICONTROL 任务]**&#x200B;或&#x200B;**[!UICONTROL 问题]**。 您选择的对象决定了显示在下面的&#x200B;**[!UICONTROL 名称]**&#x200B;字段中的结果。 如果不确定对象的类型，请选择&#x200B;**[!UICONTROL 全部]**&#x200B;以同时搜索项目、任务和问题。
@@ -87,4 +87,4 @@ ht-degree: 0%
      ![o365_addin_lock.png](assets/o365-addin-lock.png)
 
 1. 单击&#x200B;**[!UICONTROL 更新]**。
-1. （可选）单击“在Workfront中查看”****，在[!UICONTROL Outlook]中查看与[!DNL Workfront]集成的更新项。
+1. （可选）单击“在Workfront中查看”**&#x200B;**，在[!UICONTROL Outlook]中查看与[!DNL Workfront]集成的更新项。
