@@ -6,14 +6,23 @@ description: 您可以将电子邮件转换为 [!DNL Adobe Workfront] 任务或�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 00755c27-9fc9-4357-a39b-4f9772484252
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
 
 # 将[!DNL Outlook]电子邮件作为任务或问题添加到项目
+
+>[!IMPORTANT]
+>
+>[Microsoft正在禁用对旧版Exchange联机令牌](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens)的支持，Workfront Outlook加载项当前使用这些令牌进行身份验证。 Microsoft的这一更改已开始影响客户，并将在2025年10月之前继续分阶段推出。
+>
+>* **在Microsoft完全禁用这些令牌后，Workfront for Microsoft Outlook集成将无法再正常使用。**
+>
+>作为此更改的一部分，Microsoft已决定更改令牌的重新启用方式。 在&#x200B;**2025年6月30日**&#x200B;之后，管理员将无法再自行重新启用令牌 — 只有Microsoft支持部门可以授予例外。 **在2025年10月1日，将为所有租户关闭旧版令牌。 将不会授予例外。**
+
 
 您可以将电子邮件转换为[!DNL Adobe Workfront]个任务或问题。 电子邮件转换后，任务或问题会显示在您转换电子邮件时选择的项目上。
 
@@ -31,7 +40,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[!UICONTROL 工作]，[!UICONTROL 计划]</p> </td> 
+   <td> <p>[！UICONTROL工作]，[！UICONTROL计划]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -75,17 +84,17 @@ ht-degree: 0%
 
    <table style="table-layout:auto">
       <tr>
-        <td>[!UICONTROL 任务或问题名称]</td>
+        <td>[！UICONTROL任务或问题名称]</td>
         <td>默认情况下，任务名称与电子邮件主题相同。 您可以根据需要修改任务名称。</td>
         <td></td>
       </tr>
       <tr>
-        <td>[!UICONTROL 描述]</td>
+        <td>[！UICONTROL描述]</td>
         <td>默认情况下，描述与电子邮件正文相同。 您可以根据需要修改描述。</td>
       </tr>
       <tr>
-        <td>[!UICONTROL 附件]</td>
-        <td>任何电子邮件附件都会保存到任务或问题的[!UICONTROL 文档]区域。 在将电子邮件另存为任务或问题之前，您可以删除任何附件。</td>
+        <td>[！UICONTROL附件]</td>
+        <td>任何电子邮件附件都会保存到任务或问题的[！UICONTROL文档]区域。 在将电子邮件另存为任务或问题之前，您可以删除任何附件。</td>
       </tr>
    </table>
 

@@ -6,16 +6,25 @@ description: 您可以使用Outlook电子邮件中的信息更新现有项目、
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 297eb1c4-ee9f-4bb3-a412-18f23c74b0eb
-source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
+source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
 
 # 通过[!DNL Outlook]电子邮件更新现有对象
 
+>[!IMPORTANT]
+>
+>[Microsoft正在禁用对旧版Exchange联机令牌](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens)的支持，Workfront Outlook加载项当前使用这些令牌进行身份验证。 Microsoft的这一更改已开始影响客户，并将在2025年10月之前继续分阶段推出。
+>
+>* **在Microsoft完全禁用这些令牌后，Workfront for Microsoft Outlook集成将无法再正常使用。**
+>
+>作为此更改的一部分，Microsoft已决定更改令牌的重新启用方式。 在&#x200B;**2025年6月30日**&#x200B;之后，管理员将无法再自行重新启用令牌 — 只有Microsoft支持部门可以授予例外。 **在2025年10月1日，将为所有租户关闭旧版令牌。 将不会授予例外。**
+
 您可以通过[!DNL Outlook]电子邮件中的信息更新现有项目、任务或问题。
+
 
 ## 访问要求
 
@@ -31,7 +40,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[!UICONTROL 工作]，[!UICONTROL 计划]</p> </td> 
+   <td> <p>[！UICONTROL工作]，[！UICONTROL计划]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,7 +60,7 @@ ht-degree: 0%
 1. 单击&#x200B;**[!UICONTROL 菜单]**&#x200B;图标![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png)以显示可用[!DNL Workfront]选项的列表。\
 
 
-1. 在Workfront **中单击**&#x200B;[!UICONTROL &#x200B;更新]。\
+1. 在Workfront **中单击**[!UICONTROL &#x200B;更新]。\
    在将电子邮件另存为任务之前，您可以从电子邮件中更新以下信息：
 
    * **[!UICONTROL 类型]**：选择要更新的对象类型。 您可以选择&#x200B;**[!UICONTROL 项目]**、**[!UICONTROL 任务]**&#x200B;或&#x200B;**[!UICONTROL 问题]**。 您选择的对象决定了显示在下面的&#x200B;**[!UICONTROL 名称]**&#x200B;字段中的结果。 如果不确定对象的类型，请选择&#x200B;**[!UICONTROL 全部]**&#x200B;以同时搜索项目、任务和问题。
@@ -79,4 +88,4 @@ ht-degree: 0%
      ![o365_addin_lock.png](assets/o365-addin-lock.png)
 
 1. 单击&#x200B;**[!UICONTROL 更新]**。
-1. （可选）单击“在Workfront中查看”**&#x200B;**，在[!UICONTROL Outlook]中查看与[!DNL Workfront]集成的更新项。
+1. （可选）单击“在Workfront中查看”****，在[!UICONTROL Outlook]中查看与[!DNL Workfront]集成的更新项。

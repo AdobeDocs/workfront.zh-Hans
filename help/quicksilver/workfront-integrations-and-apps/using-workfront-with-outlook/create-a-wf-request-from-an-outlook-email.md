@@ -6,14 +6,23 @@ description: 您可以在Outlook中通过电子邮件创建 [!DNL Adobe Workfron
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4ecfe632-5f2e-4dc2-8c88-6a8229887f53
-source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
+source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
 
 # 从[!UICONTROL Outlook]电子邮件创建[!DNL Adobe Workfront]请求
+
+>[!IMPORTANT]
+>
+>[Microsoft正在禁用对旧版Exchange联机令牌](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens)的支持，Workfront Outlook加载项当前使用这些令牌进行身份验证。 Microsoft的这一更改已开始影响客户，并将在2025年10月之前继续分阶段推出。
+>
+>* **在Microsoft完全禁用这些令牌后，Workfront for Microsoft Outlook集成将无法再正常使用。**
+>
+>作为此更改的一部分，Microsoft已决定更改令牌的重新启用方式。 在&#x200B;**2025年6月30日**&#x200B;之后，管理员将无法再自行重新启用令牌 — 只有Microsoft支持部门可以授予例外。 **在2025年10月1日，将为所有租户关闭旧版令牌。 将不会授予例外。**
+
 
 您可以在Outlook中通过电子邮件创建[!DNL Adobe Workfront]请求。
 
@@ -37,7 +46,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[!UICONTROL 工作]，[!UICONTROL 计划]</p> </td> 
+   <td> <p>[！UICONTROL工作]，[！UICONTROL计划]</p> </td> 
   </tr> 
  </tbody> 
 </table>

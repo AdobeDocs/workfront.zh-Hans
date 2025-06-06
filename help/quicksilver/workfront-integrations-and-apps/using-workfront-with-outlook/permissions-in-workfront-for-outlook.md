@@ -6,14 +6,23 @@ description: ' [!DNL Workfront for Outlook] 加载项需要读/写邮箱访问�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 704da044-21ed-4ca1-be6f-0e0aa832e069
-source-git-commit: 177bf9271dca0310653b73b9100607a82290c326
+source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
 
 # [!DNL Workfront for Outlook]的权限级别
+
+>[!IMPORTANT]
+>
+>[Microsoft正在禁用对旧版Exchange联机令牌](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens)的支持，Workfront Outlook加载项当前使用这些令牌进行身份验证。 Microsoft的这一更改已开始影响客户，并将在2025年10月之前继续分阶段推出。
+>
+>* **在Microsoft完全禁用这些令牌后，Workfront for Microsoft Outlook集成将无法再正常使用。**
+>
+>作为此更改的一部分，Microsoft已决定更改令牌的重新启用方式。 在&#x200B;**2025年6月30日**&#x200B;之后，管理员将无法再自行重新启用令牌 — 只有Microsoft支持部门可以授予例外。 **在2025年10月1日，将为所有租户关闭旧版令牌。 将不会授予例外。**
+
 
 [!DNL Workfront for Outlook]需要[!DNL Outlook]加载项中允许的四级权限中的最高级别。
 

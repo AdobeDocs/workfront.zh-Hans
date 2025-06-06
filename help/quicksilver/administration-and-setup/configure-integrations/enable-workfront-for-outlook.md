@@ -1,5 +1,5 @@
 ---
-title: 为Outlook启用 [!DNL Adobe Workfront]
+title: '为Outlook启用 [!DNL Adobe Workfront] '
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
@@ -8,14 +8,23 @@ author: Lisa, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: be523b27-191f-46ca-9a87-d512f9a15a1e
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '312'
 ht-degree: 1%
 
 ---
 
-# 启用[!DNL Adobe Workfront for Outlook]
+# 启用 [!DNL Adobe Workfront for Outlook]
+
+>[!IMPORTANT]
+>
+>[Microsoft正在禁用对旧版Exchange联机令牌](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens)的支持，Workfront Outlook加载项当前使用这些令牌进行身份验证。 Microsoft的这一更改已开始影响客户，并将在2025年10月之前继续分阶段推出。
+>
+>* **在Microsoft完全禁用这些令牌后，Workfront for Microsoft Outlook集成将无法再正常使用。**
+>
+>作为此更改的一部分，Microsoft已决定更改令牌的重新启用方式。 在&#x200B;**2025年6月30日**&#x200B;之后，管理员将无法再自行重新启用令牌 — 只有Microsoft支持部门可以授予例外。 **在2025年10月1日，将为所有租户关闭旧版令牌。 将不会授予例外。**
+
 
 在用户可以开始使用[!DNL Adobe Workfront for Outlook]之前，您首先需要为您的系统启用它。
 
@@ -37,7 +46,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td>[!UICONTROL 计划]</td> 
+   <td>[！UICONTROL计划]</td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
