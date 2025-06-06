@@ -8,15 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
+source-git-commit: 0ff02569d3c7fb532a2faafc46fe4235ce77acd4
 workflow-type: tm+mt
-source-wordcount: '6555'
+source-wordcount: '6494'
 ht-degree: 5%
 
 ---
 
 # 创建自定义表单
 
+<!-- Audited: 6/2025 -->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -60,31 +61,31 @@ ht-degree: 5%
 
 {{step-1-to-setup}}
 
-1. 单击左侧面板中的&#x200B;**自定义Forms**。
+1. 在左侧面板中，单击&#x200B;**自定义Forms**，然后选择&#x200B;**Forms**。
 
 1. 单击&#x200B;**新建自定义表单。**
 1. 选择要将自定义表单附加到的对象类型，然后单击&#x200B;**继续**。
 
    ![选择对象类型](assets/choose-object-type.jpg)
 
-1. 在&#x200B;**需要标题**&#x200B;区域中，键入自定义表单标题。
-1. （可选）如果要向表单中添加更多对象类型，以便可以将其附加到更多对象，请单击&#x200B;**对象类型**&#x200B;后面的&#x200B;**添加**&#x200B;图标![添加对象图标](assets/add-objects-icon.png)，然后在显示的菜单中选择所需的类型。 您可以重复此操作，以添加所需数量的对象类型。
+1. 在&#x200B;**添加表单名称**&#x200B;区域，键入自定义表单标题。
+1. （可选）如果要向表单中添加更多对象类型，以便可以将其附加到更多对象，请单击&#x200B;**对象类型**&#x200B;旁边的&#x200B;**添加**&#x200B;图标![添加对象图标](assets/add-objects-icon.png)，然后在显示的菜单中选择所需的类型。 您可以重复此操作，以添加所需数量的对象类型。
 
-   也可以单击对象类型上的X将其从表单中删除。
+   将多个对象添加到表单后，可以单击对象类型上的X将其从表单中删除。
 
    >[!CAUTION]
    >
-   >删除自定义表单也会删除与表单关联的对象上的所有自定义数据。 无法恢复已删除的数据。 请考虑改为停用自定义表单 — 在停用不再使用的自定义表单时，将保留所有关联的历史数据。
+   >删除自定义表单也会删除与表单关联的对象上的所有自定义数据。 无法恢复已删除的数据。 或者，您可以停用不再使用的自定义表单，这会保留所有关联的历史数据。
    >
    >有关详细信息，请参阅[从现有自定义表单中添加或删除对象类型](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md)和[停用或重新激活自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md)。
 
 
-1. 接下来，您可以开始向自定义表单添加字段。 请参阅以下部分：
+1. 接下来，您可以开始向自定义表单添加字段。 有关更多信息，请参阅以下部分：
    * [重用已在其他自定义表单中使用的现有字段或构件](#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
    * [有关字段名称和标签的说明](#notes-on-field-names-and-labels)
    * [添加文本字段](#add-text-fields)
    * [添加计算字段](#add-calculated-fields)
-   * [添加单选按钮、复选框组和下拉列表](#add-radio-buttons-checkboxes-and-dropdowns)
+   * [添加单选按钮、复选框组和下拉列表](#add-radio-buttons-checkbox-groups-and-drop-downs)
    * [添加预输入和日期字段](#add-typeahead-and-date-fields)
    * [添加外部查找字段](#add-external-lookup-fields)
    * [添加图像、PDF和视频](#add-images-pdfs-and-videos)
@@ -96,14 +97,13 @@ ht-degree: 5%
 
 在设计自定义表单时，您可以使用新的或现有的字段。
 
-自定义表单限制为500个字段。 左下方的计数器显示表单上使用的字段数，当您在表单设计器中滚动时，它始终可见。
+自定义表单限制为500个字段。 左下方的计数器显示表单上使用了多少字段，当您在表单设计器中滚动时，它始终可见。
 
 ### 重用已在其他自定义表单中使用的现有字段或构件
 
-1. 单击屏幕左上角的&#x200B;**字段库**。
+1. 在屏幕的左上角，单击&#x200B;**字段库**。
 
-1. 将您希望在自定义表单中显示的字段或构件拖动到此处。
-1. （可选）重复上一步以添加任何其他字段或小组件。
+1. 将所需的字段或构件拖放到画布上。 重复此步骤以添加任何其他字段或构件。
 
    >[!NOTE]
    >
@@ -120,24 +120,24 @@ ht-degree: 5%
 
 ### 有关字段名称和标签的说明 {#notes-on-field-names-and-labels}
 
-**标签**&#x200B;可用于大多数字段。 它是一个描述性标签，显示在自定义表单上的字段或小部件的上方。 您可以随时更改标签。
+标签适用于大多数字段。 它是一个描述性标签，显示在自定义表单上的字段或小部件的上方。 您可以随时更改标签。
 
 >[!NOTE]
 >
->请避免在此标签中使用特殊字符。 它们在报表中无法正确显示。
+>避免在此标签中使用特殊字符，因为它们无法在报表中正确显示。
 
-每个字段都需要&#x200B;**名称**。 此名称是向Workfront中的各个区域添加自定义字段时（例如报表、主页和API交互）系统识别该字段的方式。 首次配置字段或小组件并键入标签时，会自动填充名称字段以匹配它。 但是“标签”和“名称”字段不同步，这使您能够自由更改用户看到的标签，而无需更改系统看到的名称。
+每个字段都需要名称。 此名称是向Workfront中的各个区域添加自定义字段时（例如报表、主页和API交互）系统识别该字段的方式。 首次配置字段或小组件并键入标签时，会自动填充名称字段以匹配它。 “标签”和“名称”字段不同步。 这样，您就可以选择更改用户看到的标签，而不必更改系统看到的名称。
 
 每个自定义字段名称在贵组织的Workfront实例中必须唯一。 这样，您就可以重复使用已经为其他自定义表单创建的表单。
 
 >[!NOTE]
 >
 >虽然可以这样做，但我们建议，在您或其他用户开始使用Workfront中的自定义表单后，不要更改此名称。 如果这样做，系统将不再能够识别Workfront其他区域中现在可能引用该字段的自定义字段。
->例如，如果您将自定义字段添加到报表后更改其名称，Workfront将无法识别该字段在报表中的名称，并且除非您使用新名称将其重新添加到报表，否则该字段将在报表中停止正常工作。
+>>例如，如果您将自定义字段添加到报表后更改其名称，Workfront将无法识别该字段在报表中的名称，并且除非您使用新名称将其重新添加到报表，否则该字段将在报表中停止正常工作。
 >
 >我们建议您不要键入已用于内置Workfront字段的名称。
 >
->我们建议您在自定义字段名称中不要使用句点/点字符，以防止在Workfront的不同区域使用字段时出错。
+>我们建议您在自定义字段名称中不要使用句点/点字符，以免在Workfront的其他区域使用字段时出错。
 
 自定义字段标签和名称不支持以下特殊字符。
 
@@ -157,7 +157,7 @@ ht-degree: 5%
 
 您可以向自定义表单添加多个不同的文本字段。
 
-+++ **展开以查看可用文本字段的说明**
++++ 展开以查看可用文本字段的说明。
 
 * **单行文本字段**：允许用户在该字段中键入单行文本。
 * **段落字段**：允许用户在该字段中键入多行文本。
@@ -177,7 +177,7 @@ ht-degree: 5%
 
 要添加文本字段，请执行以下操作：
 
-1. 在屏幕左侧，找到以下文本字段之一，并将其拖动到画布上的部分：
+1. 在屏幕左侧的&#x200B;**新字段**&#x200B;选项卡中，找到以下文本字段之一，并将其拖动到画布上的某个部分：
 
    * 单行文本
    * 段落
@@ -196,7 +196,7 @@ ht-degree: 5%
     </tr>
     <tr>
     <td>大小</td>
-    <td><p>更改表单上文本字段的大小。<p>
+    <td><p>（可选）更改表单中文本字段的大小。<p>
    </td>
     <td><ul>
     <li>单行文本</li>
@@ -208,7 +208,7 @@ ht-degree: 5%
     <tr>
     <td>标签</td>
     <td><p>（必需）键入要在该字段上方显示的描述性标签。 您可以随时更改标签。<p>
-    <p>重要提示：请避免在此标签中使用特殊字符。 它们在报表中无法正确显示。 有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p></td>
+    <p><b>重要信息</b>：请避免在此标签中使用特殊字符，因为这些字符在报表中无法正确显示。 有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p></td>
     <td><ul>
     <li>单行文本</li>
     <li>段落</li>
@@ -217,7 +217,7 @@ ht-degree: 5%
     </tr>
     <tr>
      <td>名称</td>
-    <td><p>（必需）此名称是系统标识字段的方式。 首次配置构件并键入标签时，会自动填充名称字段以匹配它。 但是“标签”和“名称”字段不同步，这使您能够自由更改用户看到的标签，而无需更改系统看到的名称。</p>
+    <td><p>（必需）此名称是系统标识字段的方式。 首次配置构件并键入标签时，会自动填充名称字段以匹配它。 “标签”和“名称”字段不同步。 这样，您就可以选择更改用户看到的标签，而不必更改系统看到的名称。</p>
     <p>有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p>
     </td>
     <td><ul>
@@ -267,6 +267,11 @@ ht-degree: 5%
     <tr> 
       <td role="rowheader">设为必填字段</td>
       <td><p>如果希望该字段是用户完成自定义表单所必需的，请选择此选项。</p></td>
+    <td><ul>
+    <li>单行文本</li>
+    <li>段落</li>
+    <li>带格式文本</li>
+    </ul></td> 
     </tr> 
    </table>
 
@@ -294,11 +299,11 @@ ht-degree: 5%
 
 您可以将单选按钮、复选框组、下拉列表和多选下拉列表添加到自定义表单中。
 
-+++ **展开以查看可用字段的说明**
++++ 展开以查看可用字段的描述。
 
 * **单选按钮**：要求用户仅选择一个选项。
 * **复选框组**：允许用户选择多个选项。
-* **单选下拉列表**：提供下拉列表选项列表。
+* **单选下拉列表**：提供下拉选项列表。
 * **多选下拉列表**：允许用户从下拉列表中选择多个选项。
 
 +++
@@ -309,7 +314,7 @@ ht-degree: 5%
 
 要添加单选按钮、复选框组和下拉列表，请执行以下操作：
 
-1. 在屏幕左侧，找到以下字段之一，并将其拖动到画布上的某个部分。
+1. 在屏幕左侧的&#x200B;**新字段**&#x200B;选项卡中，找到以下字段之一并将其拖动到画布上的某个部分：
 
    * 单选按钮
    * 复选框组
@@ -329,7 +334,7 @@ ht-degree: 5%
     </tr>
     <tr> 
      <td role="rowheader">标签</td> 
-     <td> <p>（必需）键入要显示在自定义字段上方的描述性标签。 您可以随时更改标签。</p> <p><b>重要信息</b>： </p> <p>请避免在此标签中使用特殊字符。 它们在报表中无法正确显示。 有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p> </td> 
+     <td> <p>（必需）键入要显示在自定义字段上方的描述性标签。 您可以随时更改标签。</p> <p><b>重要信息</b>：请避免在此标签中使用特殊字符，因为这些字符在报表中无法正确显示。 有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p> </td> 
      <td><ul>
     <li>单选按钮</li>
     <li>复选框组</li>
@@ -339,7 +344,7 @@ ht-degree: 5%
      </tr> 
      <tr> 
     <td role="rowheader">名称</td> 
-     <td> <p>（必需）此名称是系统标识字段的方式。 首次配置构件并键入标签时，会自动填充名称字段以匹配它。 但是“标签”和“名称”字段不同步，这使您能够自由更改用户看到的标签，而无需更改系统看到的名称。</p> 
+     <td> <p>（必需）此名称是系统标识字段的方式。 首次配置构件并键入标签时，会自动填充名称字段以匹配它。 “标签”和“名称”字段不同步。 这样，您就可以选择更改用户看到的标签，而不必更改系统看到的名称。</p> 
     <p>有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p> </td>
      <td><ul>
     <li>单选按钮</li>
@@ -377,7 +382,7 @@ ht-degree: 5%
     </tr> 
     <tr> 
      <td role="rowheader">显示类型</td> 
-    <td>在字段的单选按钮、复选框组、单选下拉菜单或多选下拉菜单之间切换。</td> 
+    <td>在字段的单选按钮、复选框组、单选下拉列表或多选下拉列表之间切换。</td> 
     <td><ul>
     <li>单选按钮</li>
     <li>复选框组</li>
@@ -385,7 +390,30 @@ ht-degree: 5%
     <li>多选下拉框</li>
     </ul></td>
     </tr> 
-     <tr> 
+    <td role="rowheader">选项 </td> 
+    <td> 
+    <p>选择以下任一选项：</p> 
+    <ul> 
+    <li><strong>显示值</strong>：显示字段中每个选择的值。 默认情况下，将显示每个选项的标签。</li>
+   <li><strong>选择排序A-Z</strong>：按字母顺序对您在字段中添加的选择进行排序。</li>
+    </ul>
+     <p>对于您为用户添加的每个选项，单击齿轮图标<img src="assets/gear-icon-settings.png">，然后选择以下选项之一：</p> 
+    <ul> 
+    <li><strong>默认选择</strong>：在字段中选择默认选择。</li> 
+    <li> <p><strong>隐藏选择</strong>：隐藏字段中的选择。 隐藏选项在报表中仍可访问。</p> </li> 
+    <li> <p><strong>删除选择</strong>：从字段中删除选择。</p> <p><b>警告</b>：如果当前对象使用此选项，请不要将其从字段中移除。 删除它将会导致历史数据丢失。 相反，选择选项可隐藏它，这会阻止用户将来选择它。</p> </li> 
+    </ul>   
+    <p><b>注意：</b>您可以选择的选项数量没有限制。 </p>    
+    </td> 
+    <td><ul>
+    <li>单选按钮</li>
+    <li>复选框组</li>
+    <li>单选下拉菜单</li>
+    <li>多选下拉框</li>
+    </ul>
+    </td>
+     </tr> 
+          <tr> 
     <td role="rowheader">设为必填字段</td> 
     <td>如果希望该字段是用户完成自定义表单所必需的，请选择此选项。 </td> 
     <td><ul>
@@ -396,35 +424,6 @@ ht-degree: 5%
     </ul></td>
      </tr> 
     <tr> 
-    <td role="rowheader">选项 </td> 
-    <td> 
-    <ol> 
-    <li> <p>单击<b>选项</b>，然后启用以下任一选项：</p> 
-    <ul> 
-    <li><strong>显示值</strong>：显示字段中每个选择的值。 默认情况下，将显示每个选项的标签。</li> 
-     <li><strong>选择排序A-Z</strong>：按字母顺序对您在字段中添加的选择进行排序。</li> 
-    </ul> 
-    </li> 
-    <li> <p>对于您为用户添加的每个选项，单击齿轮图标<img src="assets/gear-icon-settings.png">，然后选择以下选项之一：</p> 
-    <ul> 
-    <li><strong>默认选择</strong>：在字段中选择默认选择。</li> 
-    <li> <p><strong>隐藏选择</strong>：隐藏字段中的选择。 隐藏选项在报表中仍可访问。</p> </li> 
-    <li> <p><strong>删除选择</strong>：从字段中删除选择。</p> <p><b>警告</b>：如果当前对象使用此选项，请不要将其从字段中移除。 删除它将会导致历史数据丢失。 相反，选择选项可隐藏它，这会阻止用户将来选择它。</p> </li> 
-    </ul> 
-     </li> 
-    </ol>
-
-   <p><b>注意：</b></p>
-    <p>您可以选择的选项数量没有限制。 </p>    
-    </td> 
-    <td><ul>
-    <li>单选按钮</li>
-    <li>复选框组</li>
-    <li>单选下拉菜单</li>
-    <li>多选下拉框</li>
-    </ul>
-    </td>
-     </tr> 
     </tbody> 
     </table>
 
@@ -446,7 +445,7 @@ ht-degree: 5%
 
 您可以将预输入和日期字段添加到自定义表单。
 
-+++ **展开以查看可用字段的说明**
++++ 展开以查看可用字段的描述。
 
 * **提前键入**：允许用户键入Workfront中存在的对象的名称。 用户开始键入内容时，将显示建议列表。 此字段类型支持以下对象：
    * 用户
@@ -464,7 +463,7 @@ ht-degree: 5%
 
 要添加预输入和日期字段，请执行以下操作：
 
-1. 在屏幕左侧，找到以下字段之一，并将其拖动到画布上的某个部分。
+1. 在屏幕左侧的&#x200B;**新字段**&#x200B;选项卡中，找到以下字段之一并将其拖动到画布上的某个部分。
 
    * 键盘缓冲
    * 日期
@@ -482,7 +481,7 @@ ht-degree: 5%
     </tr>
      <tr> 
       <td role="rowheader">标签</td> 
-      <td> <p>（必需）键入要显示在自定义字段上方的描述性标签。 您可以随时更改标签。</p> <p><b>重要提示</b>：请避免在此标签中使用特殊字符。 它们在报表中无法正确显示。 有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p> </td> 
+      <td> <p>（必需）键入要显示在自定义字段上方的描述性标签。 您可以随时更改标签。</p> <p><b>重要信息</b>：请避免在此标签中使用特殊字符，因为这些字符在报表中无法正确显示。 有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p> </td> 
        <td><ul>
     <li>键盘缓冲</li>
     <li>日期</li>
@@ -490,7 +489,7 @@ ht-degree: 5%
      </tr> 
      <tr> 
       <td role="rowheader">名称</td> 
-      <td> <p>（必需）此名称是系统标识字段的方式。 首次配置构件并键入标签时，会自动填充名称字段以匹配它。 但是“标签”和“名称”字段不同步，这使您能够自由更改用户看到的标签，而无需更改系统看到的名称。</p> 
+      <td> <p>（必需）此名称是系统标识字段的方式。 首次配置构件并键入标签时，会自动填充名称字段以匹配它。 “标签”和“名称”字段不同步。 这样，您就可以选择更改用户看到的标签，而不必更改系统看到的名称。</p> 
       <p>有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p> </td>
     <td><ul>
     <li>键盘缓冲</li>
@@ -516,7 +515,7 @@ ht-degree: 5%
      </tr> 
      <tr> 
       <td role="rowheader">参考对象类型</td> 
-      <td> <p>选择要与字段关联的对象类型。</p> <p>单击“应用”或“保存+关闭”后，将无法更改该字段的对象类型。</p> <p><b>注释</b>：   
+      <td> <p>选择要与字段关联的对象类型。</p> <p>单击<b>应用</b>或<b>保存并关闭</b>后，无法更改该字段的对象类型。</p> <p><b>注释</b>：   
         <ul> 
          <li>如果您的Workfront管理员在Workfront用户界面中为项目组合、程序或项目自定义了名称，则该对象的默认Workfront名称将显示在此下拉列表中，而不是自定义名称中。 如果您需要此方面的帮助，请咨询您的Workfront管理员。<br></li> 
          <li>iOS和Android Workfront Mobile应用程序支持以下对象类型：用户、公司、组、工作角色、Portfolio、项目、项目和模板。</li> 
@@ -529,9 +528,9 @@ ht-degree: 5%
       <td role="rowheader">添加筛选器</td>
       <td><p>为对象类型添加过滤器，以限制用户在使用该字段时可以选择的对象。 </p> <p>例如，您可以限制一个字段，这样只有当用户名满足以下条件时才可以选择用户名：</p> 
        <ul> 
-        <li>它们属于您指定的一个或多个组</li> 
-        <li>它们与您指定的角色或职称相关联</li> 
-        <li>他们与使用字段的人属于同一组</li> 
+        <li>它们属于您指定的一个或多个组。</li> 
+        <li>它们与您指定的角色或职称相关联。</li> 
+        <li>他们与使用字段的人属于同一组。</li> 
        </ul> <p>必须使用文本模式语法为所选对象类型定义过滤器。 有关使用文本模式创建过滤器的信息，请参阅<a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">使用文本模式编辑过滤器</a>。</p>
        <p><b>注释</b>：
        <ul> 
@@ -571,7 +570,7 @@ ht-degree: 5%
 
 ### 添加外部查找字段
 
-外部查找字段调用外部API，并在下拉字段中作为选项返回值。 使用自定义表单附加到的对象的用户可以从下拉菜单中选择一个或多个选项。 列表和报告中也提供了“外部查找”字段。
+外部查找字段调用外部API，并在下拉字段中作为选项返回值。 使用自定义表单附加到的对象的用户可以从下拉列表中选择一个或多个选项。 列表和报告中也提供了“外部查找”字段。
 
 有关使用外部查找字段调用同一Workfront实例或公共API的示例，请参阅[自定义表单中的外部查找字段示例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)。
 
@@ -582,7 +581,7 @@ ht-degree: 5%
 
 要添加外部查找，请执行以下操作：
 
-1. 在屏幕左侧，找到&#x200B;**外部查找**&#x200B;并将其拖动到画布上的某个部分。
+1. 在屏幕左侧的&#x200B;**新字段**&#x200B;选项卡中，找到&#x200B;**外部查找**&#x200B;并将其拖动到画布上的某个部分。
 1. 在屏幕右侧，配置自定义字段的选项：
 
    <table style="table-layout:auto"> 
@@ -591,11 +590,11 @@ ht-degree: 5%
     <tbody> 
      <tr> 
       <td role="rowheader">标签</td> 
-      <td> <p>（必需）键入要显示在自定义字段上方的描述性标签。 您可以随时更改标签。</p> <p><b>重要提示</b>：请避免在此标签中使用特殊字符。 它们在报表中无法正确显示。 有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p> </td> 
+      <td> <p>（必需）键入要显示在自定义字段上方的描述性标签。 您可以随时更改标签。</p> <p><b>重要信息</b>：请避免在此标签中使用特殊字符，因为这些字符在报表中无法正确显示。 有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">名称</td> 
-      <td> <p>（必需）此名称是系统标识字段的方式。 首次配置构件并键入标签时，会自动填充名称字段以匹配它。 但是“标签”和“名称”字段不同步，这使您能够自由更改用户看到的标签，而无需更改系统看到的名称。</p>
+      <td> <p>（必需）此名称是系统标识字段的方式。 首次配置构件并键入标签时，会自动填充名称字段以匹配它。 但是“标签”和“名称”字段不同步，这使您能够选择更改用户看到的标签，而不必更改系统看到的名称。</p>
       <p>有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p> </td>
      </tr> 
       <td role="rowheader">说明</td> 
@@ -614,14 +613,14 @@ ht-degree: 5%
       <td role="rowheader">基本 API URL</td> 
       <td><p>键入或粘贴API的URL。</p><p>API URL必须返回要在下拉列表中显示的选项的JSON内容。 您可以使用JSON路径字段从返回的JSON中选择特定值作为下拉选项。</p><p>输入API URL时，您可以选择在URL中传递以下值：</p>
       <ul>
-      <li>$$HOST — 表示当前Workfront主机，可用于对Workfront API进行/search API调用。 使用此通配符时，将处理身份验证，用户无需发送身份验证标头。 （例如，用户可以使用基本URL <code>$$HOST/attask/api/task/search</code>搜索任务，它将允许搜索任务并从返回的任务列表中选择值。）</li>
+      <li>$$HOST — 表示当前Workfront主机，可用于对Workfront API进行/搜索API调用。 使用此通配符时，将处理身份验证，用户无需发送身份验证标头。 （例如，用户可以使用基本URL <code>$$HOST/attask/api/task/search</code>搜索任务，它将允许搜索任务并从返回的任务列表中选择值。）</li>
       <li><p>$$QUERY — 这表示最终用户在字段中键入的搜索文本，并允许您为最终用户实施查询筛选。 （用户将在下拉列表中搜索值。）</p>
       <p>如果所引用的API允许这样做，则还可以在搜索查询中包含修饰符以标识搜索应如何工作。 例如，您可以使用以下内容作为基本API URL，以允许人员搜索包含特定文本的任何Workfront项目： <code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code>。</p><p>在<a href="/help/quicksilver/wf-api/general/api-basics.md">API基础知识</a>中了解有关Workfront搜索修饰符的更多信息。</p>
-      <p><strong>注意：</strong>如果您未使用$$QUERY，并且搜索框中的用户类型文本将缩小您现有的选择范围。 但是，如果您使用$$QUERY并且用户键入了任何内容，则会对您的API执行新的网络调用。 因此，如果您的API中有超过2000个值，并且该API支持查询，则您可以利用$$QUERY不仅从现有2000个值中进行搜索，还可以从具有缩小选项的原始API中进行搜索。</p></li>
+      <p><strong>注意：</strong>如果您未使用$$QUERY，并且搜索框中的用户类型文本会缩小您现有的选择范围。 但是，如果您使用$$QUERY并且用户键入了任何内容，则会对您的API执行新的网络调用。 因此，如果您的API中有超过2000个值，并且该API支持查询，则您可以利用$$QUERY不仅从现有2000个值中进行搜索，还可以从具有缩小选项的原始API中进行搜索。</p></li>
       <li><p>{fieldName} — 其中fieldName是Workfront中的任何自定义或本机字段。 这样，在将已选字段的值传递到外部查找字段以筛选下拉选项时，您可以实施级联下拉选项过滤器。 （例如，表单上已存在区域字段，并且您正在将国家/地区列表从API缩小到特定区域的国家/地区。）</p>
       <p>对于依赖其他字段的外部查找字段（使用{fieldName}语法），从API返回的选项仅限于匹配在其他字段中输入的任何字符串或值的选项。 （列表和报告不支持此功能。）</p></li>
       <li>{referenceObject}。{fieldName} — 其中字段是对象的一部分。 此语法类似于自定义表达式。 (例如，portfolioID={project}。{portfolioID})</li></ul>
-      <p><strong>注意：</strong>请查看文档以了解您正在使用的API，以便获取您可以定义的特定查询。</p></td>
+      <p><strong>提示：</strong>查看文档以了解您正在使用的API，以便获取您可以定义的特定查询。</p></td>
      </tr>
      <tr> 
       <td role="rowheader">HTTP 方法</td> 
@@ -629,17 +628,17 @@ ht-degree: 5%
      </tr>
      <tr> 
       <td role="rowheader">JSON 路径</td>
-      <td><p>键入或粘贴API的JSON路径。</p> <p>此选项允许从API URL返回的JSON中提取数据。 它提供了一种方法，用于选择哪些值将从JSON内部显示在下拉选项中。</p><p>例如，如果API URL返回的JSON格式为：</br>
+      <td><p>键入或粘贴API的JSON路径。</p> <p>此选项允许从API URL返回的JSON中提取数据。 它提供了一种方法，用于选择在JSON内的哪些值将显示在下拉选项中。</p><p>例如，如果API URL按以下格式返回JSON，则可以使用“$.data[*].name”选择“美国”和“加拿大”作为下拉选项：</br>
       <pre>
-      &lbrace;
-       数据： &lbrace;
+      {
+       数据： {
          { name： "USA"}，
          { name： "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
-      <p>然后，您可以使用“$.data[*].name”选择“美国”和“加拿大”作为下拉选项。</p> <p>有关JSON路径并确保编写正确JSON路径的更多信息，请参阅<a href="https://jsonpath.com/">https://jsonpath.com/</a>。</p></td>
+     <p>有关JSON路径并确保编写正确JSON路径的更多信息，请参阅<a href="https://jsonpath.com/">https://jsonpath.com/</a>。</p></td>
      </tr>
      <tr> 
       <td role="rowheader">标头</td>
@@ -647,7 +646,7 @@ ht-degree: 5%
      </tr>
      <tr> 
       <td role="rowheader">多选下拉框</td>
-      <td><p>选择此选项可允许用户在下拉菜单中选择多个值。</p></td>
+      <td><p>选择此选项可允许用户在下拉列表中选择多个值。</p></td>
      </tr>
      </tr>
      <tr> 
@@ -677,8 +676,8 @@ ht-degree: 5%
 
 您可以将图像、PDF和视频添加到自定义表单。 使用附加到自定义表单的对象的用户只能在以下区域查看图像、PDF或视频：
 
-* 对象的“详细信息”区域（例如，对于项目，“项目详细信息”区域）
-* 对象的“编辑”框(如果它具有新的Adobe Workfront Experience外观)（例如，“编辑项目”和“编辑任务”框）
+* 对象的“详细信息”区域（例如，对于项目，“项目详细信息”区域）。
+* 对象的“编辑”框(如果它具有新的Adobe Workfront Experience外观)（例如，“编辑项目”和“编辑任务”框）。
 
 <!-- Do we need to tell them where they can't see it if we tell them where they can see it?
 Currently, users cannot see the widget in the following areas:​
@@ -687,7 +686,7 @@ Home and Summary
 The Edit box for the object, if it doesn't have the new Adobe Workfront experience look and feel (for example, the Edit Expense box)
 The Workfront Mobile app -->
 
-+++ **展开以查看可用字段的说明**
++++ 展开以查看可用字段的描述。
 
 * **图像**：允许用户添加图像文件。
 * **PDF**：允许用户添加PDF
@@ -697,7 +696,7 @@ The Workfront Mobile app -->
 
 要添加图像、PDF或视频，请执行以下操作：
 
-1. 在屏幕左侧，找到以下字段之一，并将其拖动到画布上的某个部分。
+1. 在屏幕左侧的&#x200B;**新字段**&#x200B;选项卡中，找到以下字段之一并将其拖动到画布上的某个部分。
 
    * 图像
    * PDF
@@ -711,13 +710,17 @@ The Workfront Mobile app -->
     <col> 
     <col> 
     <tbody> 
+         <tr> 
+      <td role="rowheader">大小</td> 
+      <td>（可选）根据需要更改构件的显示大小。</td> 
+     </tr> 
      <tr> 
       <td role="rowheader">标签</td> 
-      <td> <p>（必需）键入要在小部件上方显示的描述性标签。 您可以随时更改标签。</p> <p><b>重要提示</b>：请避免在此标签中使用特殊字符。 它们在报表中无法正确显示。 有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p> </td> 
+      <td> <p>（必需）键入要在小部件上方显示的描述性标签。 您可以随时更改标签。</p> <p><b>重要信息</b>：请避免在此标签中使用特殊字符，因为这些字符在报表中无法正确显示。 有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">名称</td> 
-      <td> <p>（必需）此名称是系统标识构件的方式。 首次配置构件并键入标签时，会自动填充名称字段以匹配它。 但是“标签”和“名称”字段不同步，这使您能够自由更改用户看到的标签，而无需更改系统看到的名称。</p> <p>有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p> </td> 
+      <td> <p>（必需）此名称是系统标识构件的方式。 首次配置构件并键入标签时，会自动填充名称字段以匹配它。 “标签”和“名称”字段不同步。 这样，您就可以选择更改用户看到的标签，而不必更改系统看到的名称。</p> <p>有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
@@ -734,10 +737,6 @@ The Workfront Mobile app -->
      <tr> 
       <td role="rowheader">说明</td> 
       <td> <p>键入有关构件的任何其他信息。 当用户填写自定义表单时，可以将光标悬停在问号图标上，以查看包含您在此处键入的信息的工具提示。</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">大小</td> 
-      <td>根据需要更改构件的显示大小。</td> 
      </tr> 
     </tbody> 
    </table>
@@ -776,7 +775,7 @@ The Workfront Mobile app -->
 
 您可以将Workfront原生字段添加到自定义表单。 将自定义表单附加到对象时，会从对象数据填充字段。 例如，附加到项目的自定义表单上的描述字段将拉入项目描述。 （如果没有可用数据，则字段可能显示“不适用”。）
 
-+++ **展开以查看支持的本机字段列表**
++++ 展开以查看支持的本机字段列表。
 
 此表列出了自定义表单中特定Workfront对象的可用本机字段。
 
@@ -811,7 +810,7 @@ The Workfront Mobile app -->
 | 预计持续时间分钟数 |   | ✓ |   |   |   |   |   |   |
 | 预计开始日期 | ✓ | ✓ |   |   |   |   |   |   |
 | 参考号 | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
-| 排程模式 | ✓ |   |   | ✓ |   |   |   |   |
+| 计划模式 | ✓ |   |   | ✓ |   |   |   |   |
 | 严重性 |   |   | ✓ |   |   |   |   |   |
 | 发起人 | ✓ |   |   | ✓ |   |   |   |   |
 | 状态 | ✓ | ✓ |   |   |   |   |   |   |
@@ -823,20 +822,24 @@ The Workfront Mobile app -->
 
 +++
 
-1. 在屏幕左侧，找到&#x200B;**本机字段引用**&#x200B;并将其拖动到画布上的某个部分。
+1. 在屏幕左侧的&#x200B;**新建字段**&#x200B;选项卡中，找到&#x200B;**本机字段引用**，并将其拖动到画布上的部分。
 1. 在屏幕右侧，配置自定义字段的选项：
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
+         <tr> 
+      <td role="rowheader">大小</td> 
+      <td>（可选）根据需要更改字段的显示大小。</td> 
+     </tr> 
      <tr> 
       <td role="rowheader">标签</td> 
-      <td> <p>（必需）键入要在该字段上方显示的描述性标签。 您可以随时更改标签。</p> <p><b>重要提示</b>：请避免在此标签中使用特殊字符。 它们在报表中无法正确显示。 有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p> </td> 
+      <td> <p>（必需）键入要在该字段上方显示的描述性标签。 您可以随时更改标签。</p> <p><b>重要信息</b>：请避免在此标签中使用特殊字符，因为这些字符在报表中无法正确显示。 有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">名称</td>
-      <td> <p>（必需）此名称是系统标识字段的方式。 当您首次配置字段并键入标签时，会自动填充名称字段以匹配它。 但是“标签”和“名称”字段不同步，这使您能够自由更改用户看到的标签，而无需更改系统看到的名称。</p>
+      <td> <p>（必需）此名称是系统标识字段的方式。 当您首次配置字段并键入标签时，会自动填充名称字段以匹配它。 “标签”和“名称”字段不同步。 这样，您就可以选择更改用户看到的标签，而不必更改系统看到的名称。</p>
       <p>有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p></td> 
      </tr> 
      <tr> 
@@ -851,11 +854,11 @@ The Workfront Mobile app -->
       <td role="rowheader">添加筛选器</td>
       <td><p>为参考字段添加过滤器，以限制用户在使用字段时可以选择的项目列表。 </p> <p>例如，您可以限制一个字段，这样只有当用户名满足以下条件时才可以选择用户名：</p> 
        <ul>
-        <li>它们属于您指定的一个或多个组</li> 
-        <li>它们与您指定的角色或职称相关联</li> 
-        <li>他们与使用字段的人属于同一组</li> 
+        <li>它们属于您指定的一个或多个组。</li> 
+        <li>它们与您指定的角色或职称相关联。</li> 
+        <li>他们与使用字段的人属于同一组。</li> 
        </ul>
-       <p>必须使用文本模式语法为所选的引用字段定义过滤器。 有关使用文本模式创建过滤器的信息，请参阅<a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">使用文本模式编辑过滤器</a>。</p>
+       <p>必须使用文本模式语法为所选的引用字段定义过滤器。 有关信息，请参阅<a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">使用文本模式编辑筛选器</a>。</p>
        <p><b>注释</b>：
        <ul> 
         <li>仅当您引用本机预输入字段(如“Portfolio”、“公司”或“所有者”)时，过滤器选项才可用。</li>
@@ -867,10 +870,6 @@ The Workfront Mobile app -->
      <tr> 
       <td role="rowheader">设为必填字段</td>
       <td><p>如果希望该字段是用户完成自定义表单所必需的，请选择此选项。</p></td>
-     </tr> 
-     <tr> 
-      <td role="rowheader">大小</td> 
-      <td>（可选）根据需要更改字段的显示大小。</td> 
      </tr> 
     </tbody> 
    </table>
@@ -890,36 +889,36 @@ The Workfront Mobile app -->
 
 添加Adobe XD文件：
 
-1. 在屏幕左侧，找到&#x200B;**Adobe XD**&#x200B;并将其拖动到画布上的某个部分。
+1. 在屏幕左侧的&#x200B;**新字段**&#x200B;选项卡中，找到&#x200B;**Adobe XD**&#x200B;并将其拖动到画布上的某个部分。
 1. 键入或编辑构件的以下任意属性：
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
+         <tr> 
+      <td role="rowheader">大小</td> 
+      <td>（可选）根据需要更改构件的显示大小。</td> 
+     </tr> 
      <tr> 
       <td role="rowheader">标签</td> 
-      <td> <p>（必需）键入要在小部件上方显示的描述性标签。 您可以随时更改标签。</p> <p><b>重要提示</b>：请避免在此标签中使用特殊字符。 它们在报表中无法正确显示。 有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p> </td> 
+      <td> <p>（必需）键入要在小部件上方显示的描述性标签。 您可以随时更改标签。</p> <p><b>重要信息</b>：请避免在此标签中使用特殊字符，因为这些字符在报表中无法正确显示。 有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">名称</td> 
-      <td> <p>（必需）此名称是系统标识构件的方式。 首次配置构件并键入标签时，会自动填充名称字段以匹配它。 但是“标签”和“名称”字段不同步，这使您能够自由更改用户看到的标签，而无需更改系统看到的名称。</p>
+      <td> <p>（必需）此名称是系统标识构件的方式。 首次配置构件并键入标签时，会自动填充名称字段以匹配它。 “标签”和“名称”字段不同步。 这样，您就可以选择更改用户看到的标签，而不必更改系统看到的名称。</p>
     <p>有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>（必需）键入或粘贴有效的XD原型链接。</p> 
-      <p>注意：在Adobe XD中，共享选项卡上的链接访问设置必须设置为具有链接的任何人。 否则，用户将无法查看原型。 
+      <p><b>注意</b>： Adobe XD中“共享”选项卡上的“链接访问”设置必须设置为具有链接的任何人。 否则，用户将无法查看原型。 
    </td> 
      </tr> 
      <tr> 
       <td role="rowheader">说明</td> 
       <td> <p>键入有关构件的任何其他信息。 当用户填写自定义表单时，可以将光标悬停在问号图标上，以查看包含您在此处键入的信息的工具提示。
     <img src="assets/instructions-form-designer.png"></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">大小</td> 
-      <td>（可选）根据需要更改构件的显示大小。</td> 
      </tr> 
     </tbody> 
    </table>
@@ -964,26 +963,30 @@ The Workfront Mobile app -->
 
 要添加Planning连接字段：
 
-1. 在屏幕左侧，找到&#x200B;**Planning连接**&#x200B;并将其拖动到画布上的某个部分。
+1. 在屏幕左侧的&#x200B;**新建字段**&#x200B;选项卡中，找到&#x200B;**Planning连接**，并将其拖动到画布上的某个部分。
 1. 在屏幕右侧，配置自定义字段的选项：
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
+    <tr> 
+      <td role="rowheader">大小</td> 
+      <td>（可选）根据需要更改构件的显示大小。</td> 
+     </tr> 
      <tr> 
       <td role="rowheader">标签</td> 
-      <td> <p>（必需）键入要在该字段上方显示的描述性标签。 您可以随时更改标签。</p> <p><b>重要信息</b>：</p> <p>请避免在此标签中使用特殊字符。</p> 
-      <p>我们建议您选择一个标签，以便轻松识别Planning记录的来源。 添加诸如工作区名称或记录类型名称之类的信息。 </p>   </td> 
+      <td> <p>（必需）键入要在该字段上方显示的描述性标签。 您可以随时更改标签。</p> <p><b>重要提示</b>：请避免在此标签中使用特殊字符。</p> 
+      <p>我们建议您选择一个帮助您轻松识别Planning记录来源的标签。 添加诸如工作区名称或记录类型名称之类的信息。 </p>   </td> 
      </tr> 
      <tr> 
       <td role="rowheader">名称</td>
-      <td> <p>（必需）名称是系统标识字段的方式。 当您首次配置字段并键入标签时，会自动填充名称字段以匹配它。 但是“标签”和“名称”字段不同步，这使您能够自由更改用户看到的标签，而无需更改系统看到的名称。</p></td> 
+      <td> <p>（必需）名称是系统标识字段的方式。 当您首次配置字段并键入标签时，会自动填充名称字段以匹配它。 “标签”和“名称”字段不同步。 这样，您就可以选择更改用户看到的标签，而不必更改系统看到的名称。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">说明</td> 
       <td> <p>（推荐）键入有关字段的任何其他信息。 当用户填写自定义表单时，可以将光标悬停在问号图标上，以查看包含您在此处键入的信息的工具提示。</p>
-      <p>在这里，您可以添加有关记录和所连接对象的明确信息。 </p>
+      <p>在这里，您可以添加有关记录和所连接对象的详细信息。 </p>
       </td> 
      </tr> 
      <tr> 
@@ -992,7 +995,7 @@ The Workfront Mobile app -->
       您可以从以下对象类型中进行选择：
       <ul><li> 项目</li>
       <li> 项目组合</li><li> 项目群</li><li> 公司</li><li> 组</li></ul>
-       <p>只有表单对象类型的Workfront对象类型可用。</p> <p> 例如，如果表单设计器顶部的“对象类型”列表显示“项目”，则在此字段中只能选择“项目”，而不能选择“项目组合”，尽管项目组合也可以连接到记录类型。</p>
+       <p>只有表单对象类型的Workfront对象类型可用。</p> <p> 例如，如果表单设计器顶部的“对象类型”列表显示“项目”，则只能在此字段中选择“项目”，而不能选择“项目组合”，尽管项目组合也可以连接到记录类型。</p>
       </td>
      </tr>
      <tr> 
@@ -1005,7 +1008,7 @@ The Workfront Mobile app -->
      </tr>
      <tr> 
       <td role="rowheader">连接字段</td> 
-      <td><p>（必需）选择要在Workfront对象上显示的选定Planning记录类型与Workfront对象类型之间的连接字段。 </p> <p> <b>注释</b></p><p>同一对象和记录类型之间可以有多个连接字段，但只能选择一个字段。</p>  </td> 
+      <td><p>（必需）选择要在Workfront对象上显示的选定Planning记录类型与Workfront对象类型之间的连接字段。 </p> <p> <b>注意</b>：同一对象和记录类型之间可以有多个连接字段，但只能选择一个字段。</p>  </td> 
      </tr>
 
 <tr> 

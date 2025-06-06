@@ -2,49 +2,55 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: 编辑列表中的任务
-description: 您可以通过编辑列表中显示的字段来编辑任务列表中的任务信息。 有关编辑任务的其他方法的信息，请参阅编辑任务。
+description: 您可以通过编辑列表中显示的字段来编辑任务列表中的任务信息。
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 42243c1f09b9d7eaa6705a0722fd3650bbc95266
 workflow-type: tm+mt
-source-wordcount: '2848'
+source-wordcount: '2756'
 ht-degree: 2%
 
 ---
 
 # 编辑列表中的任务 {#edit-tasks-in-a-list}
 
+<!-- Audited: 5/2025 -->
+
 您可以通过编辑列表中显示的字段来编辑任务列表中的任务信息。 有关编辑任务的其他方法的信息，请参阅[编辑任务](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
 
 ## 访问要求
 
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>工作或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p>新增：标准<p>
+   <p>当前：工作或更高</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
+   <td role="rowheader">访问级别配置</td> 
    <td> <p>编辑对任务和项目的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>Contribute或任务及项目的更高权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>为任务和项目分配或更高权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 有关编辑列表中的任务的注意事项 {#considerations-about-editing-tasks-in-a-list}
 
@@ -52,7 +58,7 @@ ht-degree: 2%
 
 编辑列表中的任务时，请考虑以下事项：
 
-* 与在“编辑”框中编辑任务时需要对该任务的“管理”权限不同，您只能编辑列表中具有Contribute权限的任务。 这允许您编辑任务的以下有限信息：
+* 与在“编辑”框中编辑任务时需要“管理”任务权限不同，您只能对列表中具有“Contribute”任务权限的任务进行编辑。 这允许您编辑任务的以下有限信息：
 
    * 描述
    * 状态
@@ -86,11 +92,11 @@ ht-degree: 2%
 
 ## 在列表中编辑任务时选择保存选项 {#select-a-save-option-when-editing-tasks-in-a-list}
 
-您可以决定对列表中的任务所做的更改在发生时自动保存的位置，或者是否要手动保存每个更改。
+您可以决定对列表中的任务所做的更改是在发生时自动保存，还是要手动保存每个更改。
 
 >[!IMPORTANT]
 >
->根据您是自动还是手动保存任务，在编辑列表中的任务时，可能会覆盖其他人的信息。 有关Workfront如何保存您与其他用户同时进行的任务更改的信息，请参阅[在任务列表中保存并发更改概述](../../../manage-work/tasks/manage-tasks/save-concurrent-changes-in-a-task-list.md)。
+>根据您是自动还是手动保存任务，在编辑列表中的任务时，可能会覆盖其他人的信息。 有关详细信息，请参阅[在任务列表中保存并发更改的概述](../../../manage-work/tasks/manage-tasks/save-concurrent-changes-in-a-task-list.md)。
 
 当您将更改保存在已选择自动或自动以及发生更改作为更新类型的项目的列表中，Workfront会更新项目时间线以及所有项目内和跨项目依赖关系。 如果项目较大或存在大量依赖关系，则时间线计算可能需要较长时间。 某些编辑任务列表的方法可能比其他方法更快，具体取决于您选择用于保存更改的方法。
 
@@ -114,21 +120,23 @@ ht-degree: 2%
 
 * 您可以将自定义视图应用于任务列表，并编辑您有权更新的任何与任务相关的字段。
 * 无法撤消自动保存的更改。 这是默认设置。
-* 当项目更新类型为自动或自动且发生更改时，Workfront会在每次更改后自动重新计算项目的时间表以及所有项目内和跨项目依赖关系。 有关项目更新类型的信息，请参阅[选择项目更新类型](../../../manage-work/projects/manage-projects/select-project-update-type.md)。
+* 当项目更新类型为自动或自动且发生更改时，Workfront会在每次更改后自动重新计算项目的时间表以及项目中的所有内部和跨项目依赖关系。 有关项目更新类型的信息，请参阅[选择项目更新类型](../../../manage-work/projects/manage-projects/select-project-update-type.md)。
 
 要编辑列表中的任务并自动保存更改，请执行以下操作：
 
-1. 转到项目，然后单击&#x200B;**任务**&#x200B;部分。
-1. 单击列表顶部的&#x200B;**计划模式菜单** ![](assets/qs-list-mode-or-save-mode-icon-small.png)，并确保已选择&#x200B;**自动保存**&#x200B;选项。
+{{step1-to-projects}}
 
-   ![](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
+1. 在&#x200B;**项目**&#x200B;页面上，选择一个项目。
+1. 在左侧面板中，单击&#x200B;**任务**&#x200B;部分。
+
+1. 单击列表顶部的&#x200B;**计划模式**&#x200B;图标![计划模式图标](assets/plan-mode-icon.png)，并确保已选择&#x200B;**自动保存**&#x200B;选项。
+
+   ![启用自动保存设置](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
 
 1. 编辑您有权手动更新的任何字段。
 
-   ![](assets/inline-editing-a-task-350x26.png)
-
 1. （可选）按&#x200B;**Escape**&#x200B;取消更改。
-1. 按Enter键以保存对任务和项目时间线所做的更改。
+1. 按键盘上的&#x200B;**Enter** (Windows)或&#x200B;**Return** (Mac)保存对任务和项目时间线所做的更改。
 1. （可选）右键单击要修改的任务。
 
    或
@@ -142,12 +150,20 @@ ht-degree: 2%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>在新选项卡中打开</strong></td> 
+      <td role="rowheader">在新选项卡中打开</td> 
       <td>在新的浏览器选项卡中打开任务。 </td> 
      </tr> 
+          <tr> 
+      <td role="rowheader">在上面插入任务</td> 
+      <td>在选定任务上方插入任务。</td> 
+     </tr> 
      <tr> 
-      <td role="rowheader"><strong>编辑</strong></td> 
-      <td><p>打开<strong>编辑任务</strong>框，您可以在其中编辑任务。</p><p>有关编辑任务的信息，请参阅<a href="#edit-tasks-in-a-list" class="MCXref xref">编辑列表中的任务</a>。</p></td> 
+      <td role="rowheader">在下面插入任务</td> 
+      <td>在选定任务下插入任务</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">编辑</td> 
+      <td><p>打开“编辑任务”框，可在其中编辑任务。</p><p>有关编辑任务的信息，请参阅<a href="#edit-tasks-in-a-list" class="MCXref xref">编辑列表中的任务</a>。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">删除</td> 
@@ -160,31 +176,21 @@ ht-degree: 2%
      <tr> 
       <td role="rowheader">升级</td> 
       <td><p>将任务凸排一级。 </p><p>此选项仅在子任务中显示。 </p></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">在上面插入任务</td> 
-      <td>在选定任务上方插入任务。</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">在下面插入任务</td> 
-      <td>在选定任务下插入任务</td> 
-     </tr> 
+     </tr>  
      <tr> 
       <td role="rowheader">复制</td> 
       <td><p>在同一项目中创建任务的重复版本。 </p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">复制到</td> 
+      <td role="rowheader">复制到...</td> 
       <td><p>将任务复制到另一个项目。</p><p>有关复制和复制任务的信息，请参阅<a href="../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md" class="MCXref xref">复制和复制任务</a>。</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">移至</td> 
+      <td role="rowheader">移动到...</td> 
       <td><p>将任务移动到另一个项目。</p><p>有关移动任务的信息，请参阅<a href="../../../manage-work/tasks/manage-tasks/move-tasks.md" class="MCXref xref">移动任务</a>。</p></td> 
      </tr> 
     </tbody> 
    </table>
-
-   更改会自动保存，您无法撤消它们。
 
 ### 编辑列表中的任务并手动保存更改 {#edit-tasks-in-a-list-and-manually-save-changes}
 
@@ -209,7 +215,7 @@ ht-degree: 2%
 * 批量编辑任务。 选择多个任务时，“编辑”图标处于禁用状态。
 * 只有在保存更改后，Workfront才会触发有关您对任务所做更改的通知。
 
-有两种方法可手动保存对列表中任务的更改。 下面介绍了这两种方法。
+有2种方法可手动保存对列表中任务的更改：
 
 * [选择“手动保存标准”选项时，在任务列表中手动保存更改](#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-standard-option)
 * [选择“手动保存时间线计划”选项时，在任务列表中手动保存更改](#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-timeline-planning-option)
@@ -218,31 +224,38 @@ ht-degree: 2%
 
 >[!TIP]
 >
->如果您的项目有超过2000个任务，或者如果它有许多依赖项，则可能需要一段时间才能直观地识别您对任务所做的更改以及这些更改如何影响所有项目依赖项。 在这种情况下，如果您的项目具有超过2000个任务或具有大量依赖关系，则保存更改可能需要更长的时间。
+>如果您的项目有超过2000个任务，或者如果它有许多依赖项，则可能需要一段时间才能直观地识别您对任务所做的更改以及这些更改如何影响所有项目依赖项。 在这种情况下，保存更改可能需要比预期更长的时间。
 
 选择“手动保存标准”选项后更新列表中的任务时，请考虑以下事项：
 
 * 您可以将自定义视图应用于任务列表，并编辑您有权在该视图中管理的任何任务相关字段。
-* 当项目更新类型为自动或自动且发生更改时，在单击保存后，Workfront会计算项目的时间线以及所有项目内和跨项目依赖关系。 有关项目更新类型的信息，请参阅[选择项目更新类型](../../../manage-work/projects/manage-projects/select-project-update-type.md)。
+* 当项目更新类型为“自动”或“自动”且“发生更改时”时，Workfront会在您单击“保存”后计算项目的时间表以及项目中的所有项目内依赖项和跨项目依赖项。 有关项目更新类型的信息，请参阅[选择项目更新类型](../../../manage-work/projects/manage-projects/select-project-update-type.md)。
 
 要在选择“手动保存标准”选项时编辑列表中的任务，请执行以下操作：
 
-1. 转到项目，然后单击&#x200B;**任务**&#x200B;部分。
-1. 单击列表顶部的&#x200B;**计划模式**&#x200B;菜单![](assets/qs-list-mode-or-save-mode-icon-small.png)并选择&#x200B;**手动保存**，然后单击&#x200B;**标准** > **应用**。
+{{step1-to-projects}}
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+1. 在&#x200B;**项目**&#x200B;页面上，选择一个项目。
 
-   此时将显示一个工具栏设置，其中包含用于撤消、重做和保存更改的选项。
+1. 在左侧面板中，单击&#x200B;**任务**&#x200B;部分。
 
-   ![](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
+1. 单击列表顶部的&#x200B;**计划模式**&#x200B;图标![计划模式图标](assets/plan-mode-icon.png)。
+
+1. 在&#x200B;**计划模式**&#x200B;对话框中，选择&#x200B;**手动保存**，然后单击&#x200B;**标准**。
+
+   ![启用手动保存设置](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+
+1. 单击&#x200B;**应用**。 此时将显示一个工具栏设置，其中包含用于撤消、重做和保存更改的选项。
+
+   ![手动保存工具栏](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
 
 1. 单击您有权手动更新的任何字段。 该字段将变为可编辑，您可以进行更改。
 
-   ![](assets/inline-editing-a-task-350x26.png)
+1. 按键盘上的&#x200B;**Enter** (Windows)或&#x200B;**Return** (Mac)以临时保存您所做的更改。
 
-1. 按Enter暂时保存所做的更改。
-1. （可选）单击&#x200B;**撤消图标** ![](assets/undo-icon-on-task-list.png)以撤消更改并将字段恢复到其原始状态。
-1. （可选且有条件）单击&#x200B;**重做图标** ![](assets/redo-icon-on-task-list.png)以恢复您回复的更改。
+1. （可选）单击&#x200B;**撤消**&#x200B;图标![撤消图标](assets/undo-icon-on-task-list.png)以撤消更改并将字段恢复到其原始状态。
+
+1. （可选且有条件）单击&#x200B;**重做**&#x200B;图标![重做图标](assets/redo-icon-on-task-list.png)以恢复您回复的更改。
 
 1. （可选）右键单击要修改的任务。
 
@@ -257,8 +270,16 @@ ht-degree: 2%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>在新标签页中打开</strong> </td> 
+      <td role="rowheader">在新选项卡中打开</td> 
       <td>在新的浏览器选项卡中打开任务。 </td> 
+     </tr> 
+          <tr> 
+      <td role="rowheader">在上面插入任务</td> 
+      <td>在选定任务上方插入任务。</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">在下面插入任务</td> 
+      <td>在选定任务下插入任务</td> 
      </tr> 
      <tr> 
       <td role="rowheader">删除</td> 
@@ -271,14 +292,6 @@ ht-degree: 2%
      <tr> 
       <td role="rowheader">升级</td> 
       <td> <p>将任务凸排一级。 </p> <p>此选项仅在子任务中显示。 </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">在上面插入任务</td> 
-      <td>在选定任务上方插入任务。</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">在下面插入任务</td> 
-      <td>在选定任务下插入任务</td> 
      </tr> 
      <tr> 
       <td role="rowheader">复制</td> 
@@ -303,22 +316,30 @@ ht-degree: 2%
 * 您不能将“手动保存时间表计划”选项应用于具有超过2000个任务的项目。
 * 您不能将自定义视图、筛选器或分组应用于任务列表。 “视图”、“筛选器”和“分组”下拉菜单以及“敏捷视图”图标被禁用。 默认应用的视图包含有限数量的字段。
 * 当项目的“更新类型”为“自动”或“自动”且“更改时”时，在每次更改后将自动计算项目的时间表和所有项目内的依赖项。
-* 当项目更新类型为自动或自动且发生更改时，在单击“保存”后计算跨项目依赖关系。 有关项目更新类型的信息，请参阅[选择项目更新类型](../../../manage-work/projects/manage-projects/select-project-update-type.md)。
+* 当项目更新类型为自动或自动且更改时，在单击“保存”后计算跨项目依赖关系。 有关项目更新类型的信息，请参阅[选择项目更新类型](../../../manage-work/projects/manage-projects/select-project-update-type.md)。
 
 要在使用“手动保存时间线计划”选项时编辑列表中的任务，请执行以下操作：
 
-1. 转到项目，然后单击&#x200B;**任务**&#x200B;部分。
-1. 单击列表顶部的&#x200B;**计划模式**&#x200B;菜单![](assets/qs-list-mode-or-save-mode-icon-small.png)并选择&#x200B;**手动保存**，然后单击&#x200B;**时间线计划**>**应用**。
 
-   对于超过2000个任务的项目，此选项呈灰显状态。
+{{step1-to-projects}}
 
-   ![](assets/manual-timeline-planning-setting-enabled-quicksilver-task-list-350x490.png)
+1. 在&#x200B;**项目**&#x200B;页面上，选择一个项目。
+
+1. 在左侧面板中，单击&#x200B;**任务**&#x200B;部分。
+
+1. 单击列表顶部的&#x200B;**计划模式**&#x200B;图标![计划模式图标](assets/plan-mode-icon.png)。
+
+1. 在&#x200B;**计划模式**&#x200B;对话框中，选择&#x200B;**手动保存**，然后单击&#x200B;**时间线计划**。
+
+   ![应用时间表计划设置](assets/manual-timeline-planning-setting-enabled-quicksilver-task-list-350x490.png)
 
    >[!TIP]
    >
-   >当您离开此页面时，Workfront会重新启用自动保存选项。
+   >对于任务数超过2000的项目，**时间计划**&#x200B;选项呈灰显状态。
 
-   请注意列表中的以下更改：
+1. 单击&#x200B;**应用**。
+
+   列表中发生以下更改：
 
    * “视图”、“分组”和“筛选器”下拉菜单被删除，视图由以下字段替换：
 
@@ -336,17 +357,15 @@ ht-degree: 2%
    * 移除Agile视图图标。
    * 此时将显示一个工具栏设置，其中包含用于撤消、重做和保存更改的选项。
 
-     ![](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
+     ![手动保存工具栏](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
 
 1. 编辑您有权手动更新的任何字段。
 
-   ![](assets/inline-editing-a-task-350x26.png)
+1. 按键盘上的&#x200B;**Enter** (Windows)或&#x200B;**Return** (Mac)以临时保存您所做的更改。
+1. （可选）单击&#x200B;**撤消**&#x200B;图标![撤消图标](assets/undo-icon-on-task-list.png)以撤消更改并将字段恢复到其原始状态。
+1. （可选且有条件）单击&#x200B;**重做**&#x200B;图标![重做图标](assets/redo-icon-on-task-list.png)以恢复您撤消的更改。
 
-1. 按Enter暂时保存所做的更改。
-1. （可选）单击&#x200B;**撤消图标** ![](assets/undo-icon-on-task-list.png)以撤消更改并将字段恢复到其原始状态。
-1. （可选且有条件）单击&#x200B;**重做图标** ![](assets/redo-icon-on-task-list.png)以恢复您冲销的更改。
-
-1. （可选）右键单击要修改的任务
+1. （可选）右键单击要修改的任务。
 
    或
 
@@ -359,8 +378,16 @@ ht-degree: 2%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>在新标签页中打开</strong> </td> 
+      <td role="rowheader">在新选项卡中打开</td> 
       <td>在新的浏览器选项卡中打开任务。 </td> 
+     </tr> 
+          <tr> 
+      <td role="rowheader">在上面插入任务</td> 
+      <td>在选定任务上方插入任务。</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">在下面插入任务</td> 
+      <td>在选定任务下插入任务</td> 
      </tr> 
      <tr> 
       <td role="rowheader">删除</td> 
@@ -375,14 +402,6 @@ ht-degree: 2%
       <td> <p>将任务凸排一级。 </p> <p>此选项仅在子任务中显示。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">在上面插入任务</td> 
-      <td>在选定任务上方插入任务。</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">在下面插入任务</td> 
-      <td>在选定任务下插入任务</td> 
-     </tr> 
-     <tr> 
       <td role="rowheader">复制</td> 
       <td> <p>在同一项目中创建任务的重复版本。 </p> <p>有关复制和复制任务的信息，请参阅<a href="../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md" class="MCXref xref">复制和复制任务</a>。</p> </td> 
      </tr> 
@@ -394,55 +413,62 @@ ht-degree: 2%
 
 ## 使用摘要编辑列表中的任务
 
-1. 转到包含要编辑的任务的项目。
-1. 单击左侧面板中的&#x200B;**任务**。
+{{step1-to-projects}}
 
-   此时将显示项目中的任务列表。
+1. 在&#x200B;**项目**&#x200B;页面上，选择一个项目。
 
-1. 单击任务名称后面的“更多”菜单![](assets/more-icon-task-list.png)，然后单击&#x200B;**打开摘要**。 选择要编辑的任务，然后单击列表右上角的&#x200B;**打开摘要图标** ![](assets/qs-open-summary-icon-in-new-toolbar-small.png)。
+1. 在左侧面板中，单击&#x200B;**任务**&#x200B;部分。 此时将显示项目中的任务列表。
 
-   将打开&#x200B;**摘要**。
-
-   ![](assets/qs-task-right-panel-in-a-task-list-350x328.png)
-
-1. （可选）单击“摘要”右上角的&#x200B;**X图标**&#x200B;以关闭面板并编辑内联任务。
-
-   按照在列表中编辑任务的步骤内联编辑任务。
-
-   有关编辑列表中任务的信息，请参阅本文中的[有关编辑列表中任务的注意事项](#considerations-about-editing-tasks-in-a-list)。
+1. 选择要编辑的任务，然后单击列表右上角的&#x200B;**打开摘要**&#x200B;图标![打开摘要图标](assets/task-summary-icon.png)。 将打开&#x200B;**任务摘要**&#x200B;面板。
 
 1. （可选）在&#x200B;**更新**&#x200B;区域为任务键入更新。
 1. 单击以下图标或区域之一，转到任务并在任务级别编辑信息：
 
-   | 文档 | 单击&#x200B;**单击此处添加**&#x200B;将文档添加到任务。 |
-   |---|---|
-   | 详细信息 | 单击可更新有关任务的信息。 |
-   | 自定义表单 | 单击以添加或删除自定义Forms或更新表单信息。 |
-   | 小时 | 单击以记录小时数。 |
-   | 审批 | 单击以添加任务批准。 |
+<table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">文档</td> 
+      <td>将文档添加到任务。 </td> 
+     </tr> 
+          <tr> 
+      <td role="rowheader">自定义表单</td> 
+      <td>添加或删除自定义表单或更新表单信息。</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">小时</td> 
+      <td>记录小时数。</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">审批</td> 
+      <td>添加任务审批。</td> 
+     </tr> 
+     <tr> 
+    </tbody> 
+   </table>
 
-   {style="table-layout:auto"}
-
-1. 完成更新任务后，单击浏览器上的“返回”按钮返回到任务列表。
+1. 单击面板右上角的&#x200B;**X**&#x200B;将其关闭。
 
 ## 批量编辑任务
 
 您可以同时编辑多个任务。 确保您对任务具有管理权限以便能够编辑它们。
 
-1. 转到包含要批量编辑的任务的项目。
-1. 单击左侧面板中的&#x200B;**任务**。
-1. 确保已选择&#x200B;**自动保存**&#x200B;选项。
+{{step1-to-projects}}
+
+1. 在&#x200B;**项目**&#x200B;页面上，选择一个项目。
+1. 在左侧面板中，单击&#x200B;**任务**&#x200B;部分。
+
+1. 单击列表顶部的&#x200B;**计划模式**&#x200B;图标![计划模式图标](assets/plan-mode-icon.png)，并确保已选择&#x200B;**自动保存**&#x200B;选项。
+
+   ![启用自动保存设置](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
 
    >[!IMPORTANT]
    >
    >手动保存任务时无法批量编辑任务。
 
-   有关将更改保存到列表中任务的方式的更多信息，请参阅本文中[有关编辑列表中任务的注意事项](#considerations-about-editing-tasks-in-a-list)部分。
-
 1. 在任务列表中选择多个任务。
-1. 单击&#x200B;**编辑图标** ![](assets/qs-edit-icon.png)。
-
-   将打开&#x200B;**编辑任务**&#x200B;对话框。
+1. 单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/qs-edit-icon.png)。 将打开&#x200B;**编辑任务**&#x200B;对话框。
 
 1. 为所选的所有任务指定要更改的信息。
 
@@ -461,8 +487,6 @@ ht-degree: 2%
    您只能编辑表单上附加到所有选定任务且您有权编辑的字段。
 
 1. （可选）在“自定义Forms”部分中，选择&#x200B;**重新计算自定义表达式**&#x200B;选项，以确保附加到所选任务的自定义表单上的所有计算自定义字段都是最新的。
-1. 单击&#x200B;**保存更改**。
+1. 单击&#x200B;**保存更改**。 您所做的所有更改现在在所有选定任务中均可见。
 
-   您所做的所有更改现在在所有选定任务中均可见。
-
-有关批量编辑自定义表单的信息，请参阅[管理附加到对象的自定义表单](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)中的“批量编辑对象时编辑多个自定义Forms”部分。
+有关批量编辑自定义表单的信息，请参阅[管理附加到对象的自定义表单](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)。
