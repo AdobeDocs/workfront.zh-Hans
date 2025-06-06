@@ -40,7 +40,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[！UICONTROL工作]，[！UICONTROL计划]</p> </td> 
+   <td> <p>[!UICONTROL 工作]，[!UICONTROL 计划]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,17 +84,17 @@ ht-degree: 0%
 
    <table style="table-layout:auto">
       <tr>
-        <td>[！UICONTROL任务或问题名称]</td>
+        <td>[!UICONTROL 任务或问题名称]</td>
         <td>默认情况下，任务名称与电子邮件主题相同。 您可以根据需要修改任务名称。</td>
         <td></td>
       </tr>
       <tr>
-        <td>[！UICONTROL描述]</td>
+        <td>[!UICONTROL 描述]</td>
         <td>默认情况下，描述与电子邮件正文相同。 您可以根据需要修改描述。</td>
       </tr>
       <tr>
-        <td>[！UICONTROL附件]</td>
-        <td>任何电子邮件附件都会保存到任务或问题的[！UICONTROL文档]区域。 在将电子邮件另存为任务或问题之前，您可以删除任何附件。</td>
+        <td>[!UICONTROL 附件]</td>
+        <td>任何电子邮件附件都会保存到任务或问题的[!UICONTROL 文档]区域。 在将电子邮件另存为任务或问题之前，您可以删除任何附件。</td>
       </tr>
    </table>
 
