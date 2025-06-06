@@ -6,7 +6,7 @@ description: 当您在Outlook收件箱中收到 [!DNL Adobe Workfront] 电子邮
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 36239da6-b5f2-423c-9e81-af78bc31bf26
-source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
+source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 0%
@@ -25,7 +25,6 @@ ht-degree: 0%
 
 当您在[!DNL Outlook]收件箱中收到[!DNL Adobe Workfront]电子邮件通知时，只需在Outlook中回复该通知，即可快速向[!DNL Workfront]发布评论。
 
-
 ## 访问要求
 
 您必须具有以下权限才能执行本文中的步骤：
@@ -40,7 +39,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[!UICONTROL 工作]，[!UICONTROL 计划]</p> </td> 
+   <td> <p>[！UICONTROL工作]，[！UICONTROL计划]</p> </td> 
   </tr> 
  </tbody> 
 </table>

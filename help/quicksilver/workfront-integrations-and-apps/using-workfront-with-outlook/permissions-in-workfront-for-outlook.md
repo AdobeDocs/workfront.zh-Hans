@@ -6,7 +6,7 @@ description: ' [!DNL Workfront for Outlook] 加载项需要读/写邮箱访问�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 704da044-21ed-4ca1-be6f-0e0aa832e069
-source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
+source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 0%
@@ -22,7 +22,6 @@ ht-degree: 0%
 >* **在Microsoft完全禁用这些令牌后，Workfront for Microsoft Outlook集成将无法再正常使用。**
 >
 >作为此更改的一部分，Microsoft已决定更改令牌的重新启用方式。 在&#x200B;**2025年6月30日**&#x200B;之后，管理员将无法再自行重新启用令牌 — 只有Microsoft支持部门可以授予例外。 **在2025年10月1日，将为所有租户关闭旧版令牌。 将不会授予例外。**
-
 
 [!DNL Workfront for Outlook]需要[!DNL Outlook]加载项中允许的四级权限中的最高级别。
 

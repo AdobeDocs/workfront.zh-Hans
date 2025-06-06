@@ -6,7 +6,7 @@ description: ' [!DNL Adobe Workfront] [!DNL Outlook]加载项允许您直接从O
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
+source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
 workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 0%
@@ -24,7 +24,6 @@ ht-degree: 0%
 >* **在Microsoft完全禁用这些令牌后，Workfront for Microsoft Outlook集成将无法再正常使用。**
 >
 >作为此更改的一部分，Microsoft已决定更改令牌的重新启用方式。 在&#x200B;**2025年6月30日**&#x200B;之后，管理员将无法再自行重新启用令牌 — 只有Microsoft支持部门可以授予例外。 **在2025年10月1日，将为所有租户关闭旧版令牌。 将不会授予例外。**
-
 
 [!DNL Adobe Workfront] [!DNL Outlook]加载项允许您直接从Outlook中执行以下关键[!DNL Workfront]任务：
 
@@ -57,8 +56,8 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
    <td> 
-   <p>新计划： [!UICONTROL Standard]</p> 
-   <p>当前计划：[!UICONTROL 工作]，[!UICONTROL 计划]</p> </td> 
+   <p>新计划： [！UICONTROL Standard]</p> 
+   <p>当前计划：[！UICONTROL工作]，[！UICONTROL计划]</p> </td> 
   </tr> 
  </tbody> 
 </table>
