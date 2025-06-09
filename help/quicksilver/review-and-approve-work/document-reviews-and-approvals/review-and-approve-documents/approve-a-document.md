@@ -6,9 +6,9 @@ description: 如果您被指定为文档的审批者，则可通过多种方式�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: 40c28e7efa61475c186d7f3fabda35a7257baf27
+source-git-commit: 1f7a17206ca77442b501f121f3333d4b60aa85f1
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,8 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >分配给工作角色或组的审批未列在主页中。 分配给团队的审批显示在工作列表的团队请求分组中。
+   >* 分配给工作角色或组的审批未列在主页中。
+   >* 分配给团队的批准将显示在主页中每个团队成员的“我的批准”小部件中。
 
 1. 单击要为其作出批准决策的列表中的文档批准。 有关批准的信息将显示在页面的右侧。
 
