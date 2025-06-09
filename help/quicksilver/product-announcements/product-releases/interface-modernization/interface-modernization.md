@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: c5cf44d1e68aebdb5b61d2588a8cefc088b6d2a2
+source-git-commit: b011ee9afcce273c82c1f7d93ca86dfde035a497
 workflow-type: tm+mt
 source-wordcount: '4126'
 ht-degree: 1%
@@ -239,7 +239,9 @@ For information, see [View the organizational chart](/help/quicksilver/people-te
 
 要查看此更改，请转到“设置”>“回收站”>“最近恢复”。
 
-有关信息，请参阅[查看已还原的项目](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)。###界面更新到安装程序的资源管理区域
+有关信息，请参阅[查看已还原的项目](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)。
+
+### 在设置中更新资源管理区域的界面
 
 **预览版本： 2025年4月17日；从2025年4月17日这一周开始**
 
