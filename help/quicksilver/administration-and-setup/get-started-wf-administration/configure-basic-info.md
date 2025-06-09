@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 83d236a4d50c0eef7062f161757d2f9fe6bc4e06
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '829'
 ht-degree: 2%
 
 ---
@@ -80,9 +80,14 @@ ht-degree: 2%
 
      有关将IP地址添加到用户可访问Workfront的允许列表的信息，请参阅[配置防火墙的允许列表](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
 
-   * **许可证**
+   * **电子邮件允许列表**
 
-     有关许可证的信息，请参阅[管理系统中的可用许可证](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)。
+     有关向允许列表列入允许列表添加电子邮件的信息，请参阅[配置电子邮件](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)。
+
+   <!--
+   * **License**
+
+     For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).-->
 
 ## 配置基本信息 {#configure-basic-info}
 
@@ -125,21 +130,17 @@ ht-degree: 2%
        </ul> <p>用户可以在个人资料下修改其Workfront实例的时区。 当用户修改其时区时，他们来自Workfront的电子邮件中的日期和时间与他们的配置文件首选项相匹配。 有关修改用户配置文件首选项的详细信息，请参阅<a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">配置我的设置</a>。 创建新计划时，该时区被选为默认时区。 有关创建计划的详细信息，请参阅<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">创建计划</a>。</p> <p>有关使用计划帮助用户在Workfront中跨时区进行协作的信息，请参阅<a href="../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">跨时区工作</a>。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">区域设置</td> 
+      <td role="rowheader">默认电子邮件区域设置</td> 
       <td>控制传出电子邮件中使用的语言、日期和数字格式。 创建新用户时，此处选择的区域设置是默认的。 用户可以在用户配置文件中修改其区域设置。 当用户修改其区域设置时，其来自Workfront的电子邮件中的语言、日期和数字格式与他们的配置文件首选项匹配。 有关修改配置文件首选项的详细信息，请参阅<a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">配置我的设置</a>。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">存储配额</td> 
       <td> <p>这是Workfront实例中可用的文档存储空间量。<br>配额包含您直接上传到Workfront的文档。<br>它不包括：</p> 
        <ul> 
-        <li>您从任何其他第三方服务提供商(SharePoint、Google Drive、Webdam、Box、Dropbox、任何其他文档资产管理提供商)链接到Workfront的文档。</li> 
+        <li>您从任何其他第三方服务提供商(SharePoint、Google Drive、Webdam、Box、Dropbox和任何其他文档资产管理提供商)链接到Workfront的文档。</li> 
         <li>您的Workfront数据（项目、任务、问题、用户等）。</li> 
        </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">产品版本</td> 
-      <td>这是分配给您的某种Workfront实例。 大多数Workfront客户的产品版本是<strong>企业</strong>。</td> 
-     </tr> 
+     </tr>
     </tbody> 
    </table>
 
