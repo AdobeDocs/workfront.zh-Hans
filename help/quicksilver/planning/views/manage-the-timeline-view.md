@@ -156,7 +156,7 @@ ht-degree: 0%
 
    </div>
 
-1. <span class="preview">（视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”****，然后要求您的Workfront管理员设置自定义季度。</span>
+1. <span class="preview">（视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”**&#x200B;**，然后要求您的Workfront管理员设置自定义季度。</span>
 
    >[!TIP]
    >

@@ -162,7 +162,7 @@ ht-degree: 0%
 1. （可选）要撤消或重做更改，请使用以下快捷键：
    * 按CTRL + Z(对于Mac，按⌘ + z)可撤消更改
    * 按CTRL + Y组合键(Mac为⌘+y)以重做更改
-1. （可选且有条件）如果您的Workfront实例是Adobe Unified Experience的一部分，请添加&#x200B;**@**，后跟用户名，以便在更新中标记某人。 有关详细信息，请参阅本文中关于评论记录](#considerations-about-commenting-on-a-record)的[注意事项部分。
+1. （可选且有条件）如果您的Workfront实例是Adobe Unified Experience的一部分，请添加&#x200B;**@**，后跟用户名，以便在更新中标记某人。 有关详细信息，请参阅本文中关于评论记录[&#128279;](#considerations-about-commenting-on-a-record)的注意事项部分。
 
 1. （可选）使用富文本工具栏中的选项设置文本格式、添加表情符号或链接到更新，以增强内容。
 
