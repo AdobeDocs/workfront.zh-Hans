@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: dae692617f447c446a421207143225b33b51debe
 workflow-type: tm+mt
-source-wordcount: '3152'
+source-wordcount: '3512'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 0%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>贵组织的Workfront实例必须载入Adobe Unified Experience，才能访问Workfront Planning的所有功能。</p> 
+<p>贵组织的Workfront实例必须载入Adobe Unified Experience才能访问Workfront Planning。</p> 
 <p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p> 
    </td> 
    </tr> 
@@ -128,17 +128,51 @@ ht-degree: 0%
    >
    >    时间轴中记录的排序在压缩视图中不可见。
 
+1. <span class="preview"> （视情况而定）如果您的管理员启用了自定义季度，并且Workfront检测到自定义季度配置方式存在问题，则您在打开时间线视图时可能会收到警告。</span>
+
+   <div class="preview">
+
+   存在以下情况：
+
+   * 如果检测到季度日期之间存在间隔或重叠，您可能会收到通知，告知您现在可以设置自定义季度，并且这些季度可能需要编辑。
+
+     ![自定义季度通知缺失或季度之间存在间隔](assets/custom-quarter-notification-missing-or-gaps.png)
+
+     >[!TIP]
+     >
+     >此消息应仅在您的组织购买后立即显示，在购买前已启用了计划和自定义季度。 为您的组织启用Workfront规划后，不允许季度之间出现重叠和间隔。
+
+   * 如果季度已部分设置，并且同一年中的某些月份缺失，您可能会在滚动显示本年度其余时间需要使用缺失的季度来设置缺失的季度时收到通知。
+
+   ![时间线视图上缺少自定义季度原始消息](assets/missing-custom-quarters-original-message-on-timeline-view.png)
+
+   每个用户显示一次这些警告消息。
+
+   >[!NOTE]
+   >
+   >如果未正确保存自定义季度，则时间线视图将显示经典季度。
+   >在“设置”区域中设置自定义季度后，时间线视图显示自定义季度，而不是传统季度。
+   >有关信息，请参阅[启用自定义季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
+
+   </div>
+
+1. <span class="preview">（视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”****，然后要求您的Workfront管理员设置自定义季度。</span>
+
+   >[!TIP]
+   >
+   ><span class="preview">仅对Workfront管理员显示“转到设置”按钮。</span>
+
 1. （可选且有条件）记录名称被截断时，将鼠标悬停在记录栏上会显示记录的全名和其他信息。
 
 1. 执行以下操作之一可在时间轴中导航：
 
    * 单击左右图标或使用水平滚动条在时间轴中前后移动。 刷新页面将保留所选的时间范围。
    * 单击&#x200B;**今天**&#x200B;可将时间线居中到今天的日期。
-   * 从时间范围下拉菜单中选择以下选项之一以更新时间增量：
+   * 从时间范围下拉菜单中选择以下选项之一以更新时间增量并更新视图：
 
-      * 年
-      * 季度
-      * 月
+      * **年**：显示有年指示的季度和月。
+      * **季度**：显示有季度指示的月和周。
+      * **月**：显示周和日。
 1. （可选）单击&#x200B;**切换到紧凑视图**&#x200B;可显示日期在同一行上不相交的记录。<!--check to see if they updated the name of the setting here-->
 1. （视情况而定）如果将模式更改为&#x200B;**紧凑**，请单击&#x200B;**切换到标准**&#x200B;视图以单独行显示记录。 <span class="preview">默认选项为&#x200B;**Standard**。</span>  <!--check to see if they updated the name of the setting here-->
 
@@ -268,6 +302,16 @@ this is not possible right now; if this is the same functionality as the table v
    >* 对于开始日期或结束日期没有值或者开始日期晚于结束日期的记录，不会显示在时间轴视图中。
    >
    >* 如果使用“细分”选项显示附加记录，则起始日期和终止日期是主记录的起始日期和终止日期。 您无法在此区域为连接的记录选择开始日期和结束日期。
+
+1. <span class="preview">（有条件且可选）如果您是Workfront管理员，请单击&#x200B;**使用自定义季度**&#x200B;框中的&#x200B;**转到设置**&#x200B;以转到设置区域并设置自定义季度。 设置自定义季度后，您可以在时间轴视图中显示它们，而不是经典季度。 如果您不是Workfront管理员，则可以向管理员请求为您的组织启用自定义季度。</span>
+
+   有关信息，请参阅[启用自定义季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
+
+   ![在时间轴视图设置中使用自定义季度警告](assets/use-custom-quarters-warning-inside-timelive-view-settings.png)
+
+   >[!TIP]
+   >
+   ><span class="preview">仅对Workfront管理员显示“转到设置”按钮。</span>
 
 1. 单击左侧面板中的&#x200B;**栏样式**&#x200B;以指示要在记录栏上显示的信息。
 

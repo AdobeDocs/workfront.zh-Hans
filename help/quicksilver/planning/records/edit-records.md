@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '2263'
+source-wordcount: '2255'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 0%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>贵组织的Workfront实例必须载入Adobe Unified Experience，才能访问Workfront Planning的所有功能。</p> 
+<p>贵组织的Workfront实例必须载入Adobe Unified Experience才能访问Workfront Planning。</p> 
 <p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p> 
    </td> 
    </tr> 
@@ -200,8 +200,8 @@ ht-degree: 0%
    >请考虑以下事项：
    >
    >* 使用以下键盘快捷键来复制和粘贴信息：
-   >   * 复制：CTRL + C(对于Mac，为⌘ + C)
-   >   * 粘贴：CTRL + V(对于Mac，为⌘ + V)
+   >   * 复制：CTRL + C (对于Mac，为⌘ + C)
+   >   * 粘贴：CTRL + V (⌘ + V for Mac)
    >
    >* 您不能在记录页面中复制和粘贴字段值。 仅记录类型的表视图支持此功能。
    >* 不能复制和粘贴以下字段类型的字段值：
@@ -211,8 +211,8 @@ ht-degree: 0%
 
 1. （可选）使用以下键盘快捷键可撤消或重做编辑或复制和粘贴记录信息：
 
-   * CTRL + Z(Mac为⌘ + Z)可撤消更改
-   * 按CTRL + Shift + Z(对于Mac，按⌘ + Shift + Z)可重做更改
+   * 按CTRL + Z (⌘ + Z表示Mac)可撤消更改
+   * 按CTRL + Shift + Z (⌘ + Shift + Z用于Mac)以重做更改
 
    >[!TIP]
    >
@@ -267,7 +267,7 @@ ht-degree: 0%
 
    ![实时指示器扩展记录预览框](assets/real-time-indicator-expanded-record-preview-box.png)
 
-1. （可选）单击记录详细信息页面![&#128279;](assets/export-icon-in-record-details-page.png)中的&#x200B;**导出**&#x200B;菜单导出图标以导出记录详细信息。 有关信息，请参阅[导出记录的详细信息](/help/quicksilver/planning/records/export-the-record-page.md)。
+1. （可选）单击记录详细信息页面](assets/export-icon-in-record-details-page.png)中的&#x200B;**导出**&#x200B;菜单![导出图标以导出记录详细信息。 有关信息，请参阅[导出记录的详细信息](/help/quicksilver/planning/records/export-the-record-page.md)。
 
 1. （可选）单击记录预览右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开详细信息](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->以在新标签中打开记录页面。 继续编辑记录，如本文中[从记录的页面](#edit-a-record-from-the-records-page)部分编辑记录中所述。
 
@@ -331,7 +331,7 @@ ht-degree: 0%
 
    ![实时指示器扩展记录预览框](assets/real-time-indicator-expanded-record-preview-box.png)
 
-1. （可选）单击记录详细信息页面![&#128279;](assets/export-icon-in-record-details-page.png)中的&#x200B;**导出**&#x200B;菜单导出图标以导出记录详细信息。 有关信息，请参阅[导出记录的详细信息](/help/quicksilver/planning/records/export-the-record-page.md)。
+1. （可选）单击记录详细信息页面](assets/export-icon-in-record-details-page.png)中的&#x200B;**导出**&#x200B;菜单![导出图标以导出记录详细信息。 有关信息，请参阅[导出记录的详细信息](/help/quicksilver/planning/records/export-the-record-page.md)。
 
 
 ## 在Planning部分中编辑来自Workfront对象的记录

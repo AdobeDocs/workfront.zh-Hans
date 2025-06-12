@@ -7,9 +7,9 @@ description: 您可以使用数据表达式在Adobe Workfront中定义计算的�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 6a46486b62974f1cc7033b4497d32ab787b05bf2
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '2433'
+source-wordcount: '2463'
 ht-degree: 2%
 
 ---
@@ -391,7 +391,17 @@ ht-degree: 2%
    <p><code>ARRAY(string1, "delimiter")</code></p> 
    </td> 
   </tr>
-  <tr> 
+
+<tr> 
+   <td><strong>ARRAYCONTAINS</strong> </td> 
+   <td> <p>在列表或数组中搜索特定值。 如果找到该值，则该函数将返回True，否则将返回False。 </p> 
+   <p>表达式的格式如下所示：</p>
+   <p><code>ARRAY(value 1, value 2)</code></p> 
+   </td> 
+  </tr>
+
+
+<tr> 
    <td><strong>ARRAYLENGTH</strong> </td> 
    <td> <p>返回数组中的元素数，格式如下：</p>
    <p><code>ARRAYLENGTH(array)</code></p> 
@@ -399,7 +409,7 @@ ht-degree: 2%
   </tr>
   <tr> 
    <td><strong>ARRAYELEMENT</strong> </td> 
-   <td> <p>返回数组中指定编号的元素。如果索引超出范围，则返回空号。</p> 
+   <td> <p>返回数组中指定编号的元素。如果索引超出范围，则返回空值。</p> 
    <p>表达式的格式如下所示：</p>
    <p><code>ARRAYELEMENT(array, number)</code></p> 
    </td> 

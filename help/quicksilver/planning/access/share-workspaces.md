@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 3550d7addcc0bb790f15d141d9470e0b75f940a6
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '950'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,7 @@ This article describes how you can share a view with others. For information abo
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>贵组织的Workfront实例必须载入Adobe Unified Experience，才能访问Workfront Planning的所有功能。</p>
+<p>贵组织的Workfront实例必须载入Adobe Unified Experience才能访问Workfront Planning。</p>
 <p>您的组织必须载入到Adobe Unified Experience，用户才能通过权限请求向工作区请求和授予权限。 </p> 
 <p>必须将用户添加到Adobe Admin Console才能获得Workfront Planning工作区的权限。</p>
 <p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p> 
@@ -139,7 +139,7 @@ This article describes how you can share a view with others. For information abo
 
 1. 从下拉菜单中选择以下权限级别之一：
    * 查看
-   * 参与
+   * 贡献
    * 管理
 
      有关权限级别以及用户可以针对每个级别执行的操作的信息，请参阅[在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
@@ -154,14 +154,12 @@ This article describes how you can share a view with others. For information abo
 1. （视情况而定）如果您是工作区的管理员，则可能会收到其他用户发出的访问以下区域中的视图的请求：
 
    * 应用程序内通知
-
      ![访问请求的应用程序内通知](assets/in-app-notification-for-access-request.png)
    * 电子邮件通知
-
      ![访问请求的电子邮件通知](assets/email-notification-for-access-request.png)
 1. （视情况而定）在Workfront的通知区域中，单击应用程序内通知
 或
-在电子邮件通知中，单击&#x200B;**查看所有通知**，然后单击列表中的通知。
+在电子邮件通知中，单击**查看所有通知**，然后单击列表中的通知。
 
    显示&#x200B;**待处理访问请求**&#x200B;框。
 

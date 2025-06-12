@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
-source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
+exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '1800'
-ht-degree: 2%
+source-wordcount: '1796'
+ht-degree: 3%
 
 ---
-
 
 # 配置Adobe Workfront Planning自动化
 
@@ -75,7 +75,7 @@ ht-degree: 2%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>贵组织的Workfront实例必须载入Adobe Unified Experience，才能访问Workfront Planning的所有功能。</p> 
+<p>贵组织的Workfront实例必须载入Adobe Unified Experience才能访问Workfront Planning。</p> 
 <p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p> 
    </td> 
    </tr> 
@@ -191,7 +191,7 @@ ht-degree: 2%
         这是必填字段。
 
         <!--submitted a change in functionality and UI text for this - revise??-->
-在&#x200B;**映射字段**&#x200B;区域中，更新以下信息：
+在**映射字段**&#x200B;区域中，更新以下信息：
 
          * **传输自**：从创建自动化的记录类型中选择字段，以将其映射到连接的记录类型的字段。
          * **传输到**：从新创建的记录中选择将使用您运行自动化的记录中的信息填充的字段。

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '808'
 ht-degree: 2%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 2%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>贵组织的Workfront实例必须载入Adobe Unified Experience，才能访问Workfront Planning的所有功能。</p> 
+<p>贵组织的Workfront实例必须载入Adobe Unified Experience才能访问Workfront Planning。</p> 
 <p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p> 
    </td> 
    </tr> 
@@ -170,8 +170,8 @@ ht-degree: 2%
    * 单击&#x200B;**撤消**&#x200B;图标![撤消图标](assets/undo-icon.png)，然后单击&#x200B;**最近删除的记录**&#x200B;以恢复删除的记录。 有关恢复已删除记录的信息，请参阅[恢复已删除的记录](/help/quicksilver/planning/records/restore-deleted-records.md)。
    * 使用以下键盘快捷键可撤消或重做删除记录：
 
-      * 按CTRL + Z(对于Mac，按⌘ + Z)可撤消删除记录
-      * 按CTRL + Shift + Z(对于Mac，按⌘ + Shift + Z)可重做删除记录
+      * 按CTRL + Z (⌘ + Z表示Mac)以撤消删除记录
+      * 按CTRL + Shift + Z (⌘ + Shift + Z用于Mac)以重做删除记录
 
 
 

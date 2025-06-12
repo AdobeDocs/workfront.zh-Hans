@@ -6,9 +6,9 @@ description: 如果您拥有正确的访问权限，则可以删除Adobe Workfro
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '712'
 ht-degree: 1%
 
 ---
@@ -132,10 +132,12 @@ ht-degree: 1%
    ![问题更多菜单](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. 单击&#x200B;**删除问题**。
-1. 如果允许删除，请单击&#x200B;**删除**。
+1. 单击&#x200B;**删除**&#x200B;至。
 
-   您的Workfront管理员可能不允许删除记录小时数的问题。\
-   有关删除问题所需的访问和权限的更多信息，请参阅本文中的[删除问题的注意事项](#considerations-for-deleting-issues)部分。
+   >[!NOTE]
+   >
+   >  您的Workfront管理员可能不允许删除记录小时数的问题。\
+   >  有关删除问题所需的访问和权限的更多信息，请参阅本文中的[删除问题的注意事项](#considerations-for-deleting-issues)部分。
 
 ## 恢复已删除的问题
 

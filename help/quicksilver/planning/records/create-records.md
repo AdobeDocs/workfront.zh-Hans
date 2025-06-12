@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '2425'
+source-wordcount: '2419'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 0%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>贵组织的Workfront实例必须载入Adobe Unified Experience，才能访问Workfront Planning的所有功能。</p> 
+<p>贵组织的Workfront实例必须载入Adobe Unified Experience才能访问Workfront Planning。</p> 
 <p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p> 
    </td> 
    </tr> 
@@ -178,8 +178,8 @@ ht-degree: 0%
 
 1. （可选）在表视图中添加新记录或其信息时，请使用以下键盘快捷键撤消或重做添加新记录或其信息：
 
-   * CTRL + Z(Mac为⌘ + Z)可撤消更改
-   * 按CTRL + Shift + Z(对于Mac，按⌘ + Shift + Z)可重做更改
+   * 按CTRL + Z (⌘ + Z表示Mac)可撤消更改
+   * 按CTRL + Shift + Z (⌘ + Shift + Z用于Mac)以重做更改
 
 ## 使用任何记录类型视图中的“新建记录”或“请求记录”按钮创建记录
 
@@ -216,7 +216,7 @@ ht-degree: 0%
    1. 单击以下方法之一创建记录，然后单击&#x200B;**继续**：
 
       * **手动添加**。 记录的预览框打开。\
-        添加有关记录的信息，如从第6步开始，通过从本文中的记录类型表视图[&#128279;](#create-records-by-adding-them-inline-from-the-record-type-table-view)节内联添加记录来创建记录中所述。<!--insure this stays accurate-->
+        添加有关记录的信息，如从第6步开始，通过从本文中的记录类型表视图](#create-records-by-adding-them-inline-from-the-record-type-table-view)节内联添加记录来创建记录[中所述。<!--insure this stays accurate-->
       * **从文件上载**
 添加记录，如文章[中所述。通过从CSV或Excel文件导入信息创建记录](/help/quicksilver/planning/records/import-file-to-create-records.md)，从步骤6开始。<!--ensure this stays accurate-->
       * **提交请求**
@@ -337,7 +337,7 @@ You can import records from other applications by linking them to existing recor
 1. （视情况而定）如果在尝试连接时找不到记录，请单击&#x200B;**+添加**
 
    或
-开始键入名称，然后单击&#x200B;**+添加**。 **+ Add**&#x200B;按钮后跟您连接到的记录类型的名称。 例如，将品牌添加到现有营销活动时，“添加品牌”。 您键入的名称还遵循“添加”按钮。
+开始键入名称，然后单击**+添加**。 **+ Add**&#x200B;按钮后跟您连接到的记录类型的名称。 例如，将品牌添加到现有营销活动时，“添加品牌”。 您键入的名称还遵循“添加”按钮。
 
    ![添加按钮以在突出显示的上下文中创建记录](assets/add-button-to-create-records-in-context-highlighted.png)
 

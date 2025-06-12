@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '1847'
+source-wordcount: '1843'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 1%
 <tr>
    <td role="rowheader"><p>Adobe Workfront平台</p></td>
    <td>
-<p>贵组织的Workfront实例必须载入Adobe Unified Experience，才能访问Workfront Planning的所有功能。</p>
+<p>贵组织的Workfront实例必须载入Adobe Unified Experience才能访问Workfront Planning。</p>
 <p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p>
    </td>
 
@@ -168,9 +168,9 @@ ht-degree: 1%
       * 在Workfront Planning中显示的已连接记录字段的名称。
    * 记录显示在各自的工作区和记录类型下。
 
-   项目![&#128279;](assets/planning-section-on-project.png)的计划部分
+   项目](assets/planning-section-on-project.png)的![计划部分
 
-1. （可选）单击“显示所有连接”**&#x200B;**&#x200B;可显示所有连接的记录类型，包括未连接记录的记录类型。 默认情况下，不显示没有连接记录的记录类型。
+1. （可选）单击“显示所有连接”****&#x200B;可显示所有连接的记录类型，包括未连接记录的记录类型。 默认情况下，不显示没有连接记录的记录类型。
 1. 单击记录卡以显示有关记录的更多信息。 此时将显示记录预览框。
 1. （可选）开始修改记录预览框中的字段。 您的更改会自动保存。
 1. （可选）单击预览框右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开详细信息](assets/open-details-in-a-new-tab-icon.png)以打开记录的详细信息页面。 此时将在Workfront Planning中打开记录的详细信息页面。

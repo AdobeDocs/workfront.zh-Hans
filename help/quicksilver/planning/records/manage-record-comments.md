@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1057'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 0%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>贵组织的Workfront实例必须载入Adobe Unified Experience，才能访问Workfront Planning的所有功能。</p> 
+<p>贵组织的Workfront实例必须载入Adobe Unified Experience才能访问Workfront Planning。</p> 
 <p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p> 
    </td> 
    </tr> 
@@ -160,9 +160,9 @@ ht-degree: 0%
    >在完成键入并提交评论之前导航离开“评论”部分，即使用户注销并重新登录，该评论仍会在页面中保持草稿模式。<!--this is no longer possible for records: Any images that are added to the comment are also saved in the draft. Drafts are saved for 7 days after which they are discarded and cannot be recovered. Drafted comments are only visible to the user entering them.-->
 
 1. （可选）要撤消或重做更改，请使用以下快捷键：
-   * CTRL + Z(Mac为⌘ + z)可撤消更改
-   * 按CTRL + Y(对于Mac，按⌘ + y)可重做更改
-1. （可选且有条件）如果您的Workfront实例是Adobe Unified Experience的一部分，请添加&#x200B;**@**，后跟用户名，以便在更新中标记某人。 有关详细信息，请参阅本文中关于评论记录[&#128279;](#considerations-about-commenting-on-a-record)的注意事项部分。
+   * 按CTRL + Z(对于Mac，按⌘ + z)可撤消更改
+   * 按CTRL + Y组合键(Mac为⌘+y)以重做更改
+1. （可选且有条件）如果您的Workfront实例是Adobe Unified Experience的一部分，请添加&#x200B;**@**，后跟用户名，以便在更新中标记某人。 有关详细信息，请参阅本文中关于评论记录](#considerations-about-commenting-on-a-record)的[注意事项部分。
 
 1. （可选）使用富文本工具栏中的选项设置文本格式、添加表情符号或链接到更新，以增强内容。
 

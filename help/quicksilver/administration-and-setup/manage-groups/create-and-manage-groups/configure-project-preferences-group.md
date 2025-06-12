@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '2767'
+source-wordcount: '2765'
 ht-degree: 2%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 2%
 >
 >* 通常，已解锁的首选项会无限期地保持解锁状态。 如果Workfront管理员将其重新锁定，则系统设置将再次生效，并且组管理员所做的首选项设置将丢失。
 >* 为与项目关联的组设置的首选项优先于为创建项目的用户的主组设置的首选项。
->* 某些组级首选项会影响您为组创建的项目模板。 有关详细信息，请参阅文章[创建和修改组的项目模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)中的“组”区域[&#128279;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view)中的查看、使用和创建组的模板。
+>* 某些组级首选项会影响您为组创建的项目模板。 有关详细信息，请参阅文章[创建和修改组的项目模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)中的“组”区域](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view)中的[查看、使用和创建组的模板。
 >
 >* Workfront管理员在系统级别解锁首选项后，您可以对其进行配置，然后将其锁定，以确保您的组及其子组中的每个人都使用相同的配置。 此功能与Workfront管理员为系统中的每个人配置和锁定首选项的功能相同。 有关详细信息，请参阅[锁定或解锁子组的项目、任务或问题偏好设置](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md)。
 >
@@ -220,10 +220,10 @@ ht-degree: 2%
    <td role="rowheader"> <p><strong>当一个用户被分派到一个任务时，使用……</strong>的计划 </p> </td> 
    <td> <p>如果项目未分配计划，或分配给其任务的用户未分配计划，则[!DNL Workfront]使用系统默认计划计算任务的时间表。</p>
 
-<p>如果您为项目中的任务分配了一个用户，并且项目和用户都有一个与之关联的计划，则[!UICONTROL Workfront]将使用以下计划：</p> 
+<p>如果您为项目中的任务分配了一个用户，并且项目和用户都有一个与之关联的计划，则[！UICONTROL Workfront]将使用以下计划：</p> 
     <ul> 
-     <li><strong>[!UICONTROL 用户]</strong>：任务上已分配用户的计划以计算时间线。</li> 
-     <li><strong>[!UICONTROL 项目]</strong>：用于计算任务时间线的项目计划。</li> 
+     <li><strong>[！UICONTROL用户]</strong>：任务上已分配用户的计划以计算时间线。</li> 
+     <li><strong>[！UICONTROL项目]</strong>：用于计算任务时间线的项目计划。</li> 
     </ul> <p>有关计划的详细信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">创建计划</a>。</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -238,14 +238,14 @@ ht-degree: 2%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p><strong>自定义季度</strong> </p> </td> 
-   <td> <p>为将处理项目的用户配置自定义年度季度。 自定义季度通常是不匹配日历年内传统季度划分的季度。 您可以添加多个自定义季度。 有关详细信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">为项目启用自定义季度</a>。</p> <p><b>注意</b>： Workfront管理员无法解锁自定义季度首选项。</p> </td> 
+   <td> <p>为将处理项目的用户配置自定义年度季度。 自定义季度通常是不匹配日历年内传统季度划分的季度。 您可以添加多个自定义季度。 有关详细信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">启用自定义季度</a>。</p> <p><b>注意</b>： Workfront管理员无法解锁自定义季度首选项。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### 业务案例 {#business-cases}
 
-您可以为与组关联的新创建项目创建业务案例，以提交项目请求。 您可以定义首选项以确定&#x200B;**业务案例**&#x200B;表单上可见的区域。 我们建议您启用这些选项，以便其他工具(如Portfolio优化器)正确更新。 有关每个字段显示内容的详细信息，请参阅[定义业务案例：文章索引](../../../manage-work/projects/define-a-business-case/define-business-case.md)。
+您可以为与组关联的新创建项目创建业务案例，以提交项目请求。 您可以定义首选项以确定&#x200B;**业务案例**&#x200B;表单上可见的区域。 我们建议您启用这些选项，以便其他工具(如Portfolio Optimizer)正确更新。 有关每个字段显示内容的详细信息，请参阅[定义业务案例：文章索引](../../../manage-work/projects/define-a-business-case/define-business-case.md)。
 
 在Workfront管理员启用业务案例的部分后，项目所有者可以在项目级别创建业务案例。 有关创建业务案例的信息，请参阅[为项目创建业务案例](../../../manage-work/projects/define-a-business-case/create-business-case.md)。
 

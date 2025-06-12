@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: fb8b65b59ee9cd591c2a7f8edceab19f89afd29d
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '13255'
+source-wordcount: '13254'
 ht-degree: 2%
 
 ---
@@ -423,7 +423,7 @@ ht-degree: 2%
          * [创建费用类型](administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)
          * [创建新的记分卡](administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
          * [项目时间表重新计算](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
-         * [项目的自定义季度](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
+         * [启用自定义季度](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
          * [为您的组织启用或禁用快速发布](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
          * [创建和编辑业务规则](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
          * [配置位置](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
@@ -1849,7 +1849,7 @@ ht-degree: 2%
             * [在Adobe Workfront中查看有关验证的活动](review-and-approve-work/proofing/managing-proofs-within-workfront/view-activity-on-proof-in-wf.md)
             * [使用验证审批报告](review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
             * [从Adobe Workfront访问Workfront Proof](review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)
-         * 管理验证版本 {#manage-proof-versions}
+         * 管理校样版本 {#manage-proof-versions}
             * [管理校对版本：文章索引](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
             * [创建新版本的验证](review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md)
             * [查看校对版本](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-proof-versions.md)
@@ -1886,7 +1886,7 @@ ht-degree: 2%
          * [常见问题解答 — 桌面校对查看器](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/faq-desktop-proofing-viewer.md)
       * 在Adobe Workfront中查看校样 {#review-proofs-in-workfront}
          * [在Adobe Workfront中查看验证：文章索引](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
-         * 审查验证 {#review-a-proof}
+         * 审阅校对 {#review-a-proof}
             * [查看验证：文章索引](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
             * [在验证中查看内容](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-a-proof.md)
             * [测量验证中的区域](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/measure-an-area-proof.md)
@@ -2177,7 +2177,7 @@ ht-degree: 2%
    * 适用于Outlook的Adobe Workfront {#workfront-for-outlook}
       * [适用于Outlook的Adobe Workfront：文章索引](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
       * [设置适用于Outlook的Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
-      * [适用于Outlook的Workfront的权限级别](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
+      * 适用于Outlook的Workfront的[权限级别](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
       * [回复Outlook的评论](workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md)
       * [通过Outlook电子邮件更新现有对象](workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md)
       * [将Outlook电子邮件作为任务或问题添加到项目](workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md)
@@ -2223,7 +2223,7 @@ ht-degree: 2%
       * [将Anaplan预算分配应用于Adobe Workfront项目](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
       * [根据Adobe Workfront营销活动请求创建Anaplan列表项](workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
       * [将Anaplan预算分配应用于Adobe Workfront活动请求或活动项目](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
-* Workfront 验证 {#workfront-proof}
+* Workfront 校样 {#workfront-proof}
    * [Workfront Proof：文章索引](workfront-proof/workfront-proof.md)
    * Workfront Proof入门 {#get-started-wf-proof}
       * [Workfront Proof快速入门](workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
@@ -2472,8 +2472,8 @@ ht-degree: 2%
       * [使用JWT流配置和使用贵组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程配置和使用您组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-pkce-flow.md)
       * [弃用API — 内部](wf-api/api/deprecation-api-internal.md)
-      * [API版本20中的新增功能](wf-api/api/new-api-version-20.md)
-      * [API版本19中的新增功能](wf-api/api/new-api-version-19.md)
+      * [API版本20](wf-api/api/new-api-version-20.md)中的新增功能
+      * [API版本19](wf-api/api/new-api-version-19.md)中的新增功能
       * [API版本18中的新增功能](wf-api/api/new-api-version-18.md)
       * [API版本17中的新增功能](wf-api/api/new-api-version-17.md)
       * [API版本16中的新增功能](wf-api/api/new-api-version-16.md)

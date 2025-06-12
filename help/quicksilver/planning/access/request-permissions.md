@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '739'
 ht-degree: 1%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 1%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>贵组织的Workfront实例必须载入Adobe Unified Experience，才能访问Workfront Planning的所有功能。</p> 
+<p>贵组织的Workfront实例必须载入Adobe Unified Experience才能访问Workfront Planning。</p> 
 <p><b>重要</b></p>
 <p>只有当您的组织登记到Adobe Unified Experience时，您组织中的用户才能请求查看和工作区的权限。 </p>
 <p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p> 
@@ -140,10 +140,8 @@ ht-degree: 1%
 
    所有具有查看或工作区管理权限的用户都会收到以下访问请求通知：
    * 应用程序内通知
-
      ![访问请求的应用程序内通知](assets/in-app-notification-for-access-request.png)
    * 电子邮件通知
-
      ![访问请求的电子邮件通知](assets/email-notification-for-access-request.png)
 
 1. （视情况而定）当视图或工作区经理授予您查看或工作区的权限时，您会收到电子邮件通知和应用程序内通知，其中包含已授予权限的确认。<!--check this - I was not able to test this, but Isk confirmed.-->
