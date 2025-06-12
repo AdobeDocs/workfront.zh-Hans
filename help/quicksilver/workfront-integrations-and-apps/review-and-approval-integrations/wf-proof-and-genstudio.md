@@ -2,30 +2,30 @@
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
-title: 校对与GenStudio for Performance Marketing集成快速入门
-description: 校对与GenStudio for Performance Marketing集成快速入门
+title: GenStudio for Performance Marketing与Workfront Proof集成快速入门
+description: GenStudio for Performance Marketing与Workfront Proof集成快速入门
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
 exl-id: 9905a522-9913-49c0-8c80-a8b46221fcbb
-source-git-commit: e67446c6fb3e90d5dc45dd446988e5d02291f775
+source-git-commit: 4b0ba0112138b91b12e10f4770ecab3db4e3fddb
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
 
-# 校对与GenStudio for Performance Marketing集成快速入门
+# GenStudio for Performance Marketing与Workfront Proof集成快速入门
 
-通过校对和GenStudio for Performance Marketing之间的集成，您可以
+通过集成GenStudio for Performance Marketing和Workfront Proof，您可以
 
 * 使用Workfront验证模板定义审阅和批准工作流
 
-* 在验证查看器中审阅和批准GenStudio草稿内容
+* 在GenStudio for Performance Marketing验证查看器中审阅和批准Workfront草稿内容
 
-* 在GenStudio中查看审核决策以进行最终批准和发布
+* 在GenStudio for Performance Marketing中查看审核决策以进行最终批准和发布
+
+有关GenStudio for Performance Marketing中的审阅和批准的详细信息，请参阅[Workfront Proof与GenStudio for Performance Marketing的集成](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration)。
 
 
 ## 访问要求
@@ -78,37 +78,35 @@ ht-degree: 0%
 
 ## 在Workfront中启用集成
 
+您必须是系统管理员才能启用此集成。
+
 1. 单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 设置]**![设置图标](/help/_includes/assets/gear-icon-setup.png)。
 1. 在左侧面板中，单击&#x200B;**审核和批准** > **Adobe GenStudio**。
 1. 启用&#x200B;**使用校对审批**。
-   ![为GenStudio启用校对](assets/enable-proofing-gs.png)
+   ![为GenStudio设置启用校对](assets/enable-proofing-gs.png)
 
 ## 使用Workfront验证模板定义审批工作流
 
 如果贵组织的内容审核流程经常重复或由同一人员审核，则可以使用验证模板来自动执行审核和批准工作流。
 
+### 在Workfront中创建验证模板
+
 您可以仅为一个或两个审阅人创建简单的单阶段模板，也可以为具有许多阶段和依赖关系的复杂审阅创建自动的多阶段模板。
 
-当用户在GenStudio中启动审核时，他们只需选择所需的模板即可。 用户可以随时轻松更改任何验证工作流模板，添加或删除审阅人和阶段。
-
-使用验证工作流模板，您可以
-
-* 添加特定用户并为每个用户分配指定的验证角色
-* 设置截止日期
-* 选择阶段激活时间
-* 在阶段完成后锁定阶段
-* 只需要一个决策
-* 指定主要决策者
-* 等等
-
-有关自动化工作流和模板的详细信息，请参阅
+有关在Workfront中创建自动工作流程和模板的详细信息，请参阅
 
 * [自动化工作流概述](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
 * [创建和管理自动化工作流模板](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md)
 
-## 在验证查看器中审阅和批准GenStudio草稿内容
+### 在GenStudio for Performance Marketing中选择或修改模板
 
-您可以在验证查看器中直接在GenStudio中查看和批准GenStudio草稿内容。
+当用户在GenStudio for Performance Marketing中启动审核时，他们只需选择所需的模板即可。 用户可以随时轻松更改任何验证工作流模板，添加或删除审阅人和阶段。
+
+有关详细信息，请参阅[请求审阅和批准](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review)。
+
+## 在GenStudio for Performance Marketing验证查看器中审阅和批准Workfront草稿内容
+
+您可以在Workfront验证查看器中直接在GenStudio for Performance Marketing中查看和批准草稿内容。
 
 使用验证查看器，您可以
 
@@ -116,10 +114,16 @@ ht-degree: 0%
 * 标记草稿，显示需要更改的内容
 * 做出决定
 
-有关GenStudio中的审阅和批准的详细信息，请参阅<!--[Workfront Proof integration with GenStudio for Performance Marketing]().-->
+有关详细信息，请参阅[审阅和编辑内容](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit)。
 
-## 在GenStudio中查看审核决策以进行最终批准和发布
 
-资产完成审阅和批准流程后，您可以直接从GenStudio查看审阅决策并发布内容。
+>[!IMPORTANT]
+>
+>用户必须先安装[使用Adobe Workfront审阅工具](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md)审阅交互式内容，然后才能在GenStudio for Performance Marketing中开始审阅草稿。
 
-有关详细信息，请参阅<!--[link to GS docs]().-->
+
+## 在GenStudio for Performance Marketing中查看审核决策以进行最终批准和发布
+
+资产完成审阅和批准流程后，您可以直接从GenStudio for Performance Marketing查看审阅决策并发布内容。
+
+有关详细信息，请参阅[发布批准的内容](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content)。
