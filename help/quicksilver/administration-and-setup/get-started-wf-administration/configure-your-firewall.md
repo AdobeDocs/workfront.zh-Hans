@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: ee4cf80bc69416e3224c895c1f04628432ce2f4c
+source-git-commit: d710c8bd9854d4d92945e034e708d06410d0779b
 workflow-type: tm+mt
-source-wordcount: '1646'
+source-wordcount: '1616'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->本页中介绍的过程仅适用于尚未加入该Admin Console的组织。 如果贵组织已载入到Adobe Admin Console，则必须通过Adobe Admin Console执行此操作。
+>本页中介绍的过程仅适用于尚未载入Admin Console的组织。 如果贵组织已载入到Adobe Admin Console，则必须通过Adobe Admin Console执行此操作。
 >
->若要在贵组织已登记到Adobe Admin Console的情况下配置您的允许列表，请参阅[允许Adobe应用程序和服务的域](https://helpx.adobe.com/cn/enterprise/kb/network-endpoints.html)。
+>若要在贵组织已登记到Adobe Admin Console的情况下配置您的允许列表，请参阅[允许使用Adobe应用程序和服务的域](https://helpx.adobe.com/enterprise/kb/network-endpoints.html)。
 >
 >有关因贵组织是否已登记到Adobe Admin Console而不同的过程列表，请参阅[基于平台的管理差异(Adobe Workfront/Adobe业务平台)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
@@ -78,9 +78,9 @@ ht-degree: 0%
 >* 适用于Outlook的Workfront
 >* 适用于Salesforce的Workfront
 
-* 允许群集1、2、3、5、7、8和9[&#128279;](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)的IP地址
-* 允许群集4[&#128279;](#ip-addresses-to-allow-for-cluster-4)的IP地址
-* 允许群集6[&#128279;](#ip-addresses-to-allow-for-cluster-6)的IP地址
+* 允许群集1、2、3、5、7、8和9](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)的[IP地址
+* 允许群集4](#ip-addresses-to-allow-for-cluster-4)的[IP地址
+* 允许群集6](#ip-addresses-to-allow-for-cluster-6)的[IP地址
 * [允许群集10的IP地址](#ip-addresses-to-allow-for-cluster-10)
 * [允许使用测试驱动器的IP地址](#IP%20Addre2)
 * 实施事件订阅时允许的[IP地址](#ip-addresses-to-allow-when-implementing-event-subscriptions)
@@ -423,6 +423,7 @@ jira.workfront.com域还必须可从您的公司服务器访问。 此域是必�
 * fonts.gstatic.com
 * dpm.demdex.net
 * storage.googleapis.com
+* snippet.maze.co
 * *.aptrinsic.com
 * *.static.workfront.com
 
@@ -435,7 +436,7 @@ jira.workfront.com域还必须可从您的公司服务器访问。 此域是必�
    * mfe-preview.static.workfront.com
    * mfe-review.static.workfront.com
 
-如果您的组织使用Unified ExperienceAdobe，则它会使用以下域。 这些域包含在`*.adobe.com`中，但可以根据需要添加。
+如果您的组织使用Adobe Unified Experience，则它会使用以下域。 这些域包含在`*.adobe.com`中，但可以根据需要添加。
 
 * &lt;您的域>.my.workfront.adobe.com
 * &lt;您的域>.preview.workfront.adobe.com
@@ -445,12 +446,12 @@ jira.workfront.com域还必须可从您的公司服务器访问。 此域是必�
 
 对于Workfront Fusion，请添加以下域：
 
-* 对于不在Unified ExperienceAdobe上的组织：
+* 对于不在Adobe Unified Experience上的组织：
    * app.workfrontfusion.com (美国AWS)
    * app-eu.workfrontfusion.com (欧盟AWS)
    * app-az.workfrontfusion.com (US Azure)
 
-* 对于AdobeUnified Experience上的组织
+* 对于Adobe Unified Experience上的组织
 （这些域包含在`*.adobe.com`中，但如果需要，可以添加。）
 
    * fusion.adobe.com
