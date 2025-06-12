@@ -102,7 +102,7 @@ ht-degree: 0%
 
 当用户在GenStudio for Performance Marketing中启动审核时，他们只需选择所需的模板即可。 用户可以随时轻松更改任何验证工作流模板，添加或删除审阅人和阶段。
 
-有关详细信息，请参阅[请求审阅和批准](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review)。
+有关详细信息，请参阅[请求审阅和批准](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/approve/request-review)。
 
 ## 在GenStudio for Performance Marketing验证查看器中审阅和批准Workfront草稿内容
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 * 标记草稿，显示需要更改的内容
 * 做出决定
 
-有关详细信息，请参阅[审阅和编辑内容](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit)。
+有关详细信息，请参阅[审阅和编辑内容](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit)。
 
 
 >[!IMPORTANT]
@@ -126,4 +126,4 @@ ht-degree: 0%
 
 资产完成审阅和批准流程后，您可以直接从GenStudio for Performance Marketing查看审阅决策并发布内容。
 
-有关详细信息，请参阅[发布批准的内容](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content)。
+有关详细信息，请参阅[发布批准的内容](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content)。
