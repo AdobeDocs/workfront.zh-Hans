@@ -7,9 +7,9 @@ description: Adobe Workfront提供了与Microsoft Teams的集成。 本文链接
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b8b9d216-b529-4ff0-9259-b37724675d6a
-source-git-commit: 372b7566fa5eb38703905b22ff43d49a76bcb400
+source-git-commit: 940cbfb34f12eacd5ba698f60fb7a3e67eb62b22
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->随着Microsoft过渡到“新团队”客户端，Classic Teams客户端在2025年7月1日后将不再可用。 在准备过程中，我们正在开发Microsoft Teams集成的新版本，该版本将与新团队客户端完全兼容，并且可在7月1日之前提供，以确保顺利过渡。
+>由于[Microsoft将过渡到“新团队”客户端](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability)，因此Classic Teams客户端在2025年7月1日后将不再可用。 要继续使用Microsoft Teams和Workfront等集成应用程序，客户必须在此日期之前过渡到新团队客户端。
 >
->在发布集成后，将提供有关如何在新团队客户端中下载和安装集成的说明。
+>更新的Workfront集成现已可用，并与新团队体验完全兼容。 在大多数情况下，用户完成过渡后，Workfront会自动显示。 如果不包含，则可以从Microsoft Teams App Store手动安装集成。 若要在New Teams客户端中安装或验证Workfront集成，请参阅[安装 [!DNL Adobe Workfront] Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)。
 
 Adobe Workfront提供了与Microsoft Teams的集成。 本文链接到安装和配置此集成的说明以及如何在日常工作中使用它。
 

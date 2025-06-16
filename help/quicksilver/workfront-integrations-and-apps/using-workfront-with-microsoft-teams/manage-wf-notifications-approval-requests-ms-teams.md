@@ -6,9 +6,9 @@ description: 您可以从 [!DNL Adobe Workfront] 接收有关需要批准的项�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 372b7566fa5eb38703905b22ff43d49a76bcb400
+source-git-commit: 940cbfb34f12eacd5ba698f60fb7a3e67eb62b22
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1438'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->随着Microsoft过渡到“新团队”客户端，Classic Teams客户端在2025年7月1日后将不再可用。 在准备过程中，我们正在开发Microsoft Teams集成的新版本，该版本将与新团队客户端完全兼容，并且可在7月1日之前提供，以确保顺利过渡。
+>由于[Microsoft将过渡到“新团队”客户端](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability)，因此Classic Teams客户端在2025年7月1日后将不再可用。 要继续使用Microsoft Teams和Workfront等集成应用程序，客户必须在此日期之前过渡到新团队客户端。
 >
->在发布集成后，将提供有关如何在新团队客户端中下载和安装集成的说明。
+>更新的Workfront集成现已可用，并与新团队体验完全兼容。 在大多数情况下，用户完成过渡后，Workfront会自动显示。 如果不包含，则可以从Microsoft Teams App Store手动安装集成。 若要在New Teams客户端中安装或验证Workfront集成，请参阅[安装 [!DNL Adobe Workfront] Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)。
 
 您可以从[!DNL Adobe Workfront]接收有关您需要审批的项目、已给予您的分配或您关联项目的注释和更改的通知。
 
@@ -44,7 +44,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[!UICONTROL 工作]，[!UICONTROL 计划]</p> </td> 
+   <td> <p>[！UICONTROL工作]，[！UICONTROL计划]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -135,11 +135,11 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th>[!UICONTROL Approve]</th> 
-   <th>[!UICONTROL 拒绝]</th> 
-   <th> <p>[!UICONTROL 更改]</p> </th> 
-   <th> <p>[!UICONTROL 转至验证] </p> </th> 
-   <th>[!UICONTROL Comment]</th> 
+   <th>[！UICONTROL Approve]</th> 
+   <th>[！UICONTROL拒绝]</th> 
+   <th> <p>[！UICONTROL更改]</p> </th> 
+   <th> <p>[！UICONTROL转至验证] </p> </th> 
+   <th>[！UICONTROL Comment]</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -270,9 +270,9 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th>[!UICONTROL 开始]</th> 
-   <th>[!UICONTROL Comment]</th> 
-   <th> <p>[!UICONTROL 状态]</p> </th> 
+   <th>[！UICONTROL开始]</th> 
+   <th>[！UICONTROL Comment]</th> 
+   <th> <p>[！UICONTROL状态]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -320,8 +320,8 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th>[!UICONTROL 回复]</th> 
-   <th> <p>[!UICONTROL 状态]</p> </th> 
+   <th>[！UICONTROL回复]</th> 
+   <th> <p>[！UICONTROL状态]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -385,8 +385,8 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th>[!UICONTROL 回复]</th> 
-   <th> <p>[!UICONTROL 状态]</p> </th> 
+   <th>[！UICONTROL回复]</th> 
+   <th> <p>[！UICONTROL状态]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -401,7 +401,7 @@ ht-degree: 0%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">有人将您的团队包含在[!UICONTROL 定向更新]中</td> 
+   <td role="rowheader">有人将您的团队包含在[！UICONTROL定向更新]中</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -422,8 +422,8 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th> <p>[!UICONTROL Comment]</p> </th> 
-   <th> <p>[!UICONTROL 状态]</p> </th> 
+   <th> <p>[！UICONTROL Comment]</p> </th> 
+   <th> <p>[！UICONTROL状态]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
