@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: ec018b8987a45cbf29c8a908f3adbdb8aade9d90
+source-git-commit: 334b08f4689318201d3b8260916655f57c2a9320
 workflow-type: tm+mt
-source-wordcount: '2407'
+source-wordcount: '2479'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 3%
 
 列入允许列表要通过防火墙接收事件订阅负载，必须将以下IP地址添加到您的：
 
-对于欧洲的客户：**&#x200B;**
+对于欧洲的客户：****
 
 * 52.30.133.50
 * 52.208.159.124
@@ -707,6 +707,33 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 }
 ```
 
+#### containsOnly
+
+此过滤器允许消息仅在完整的选定值集与过滤器中的fieldValue完全匹配时传递，而不管顺序如何。 不能有额外的值或缺少的值。
+
+注意：这用于数组类型（多选）字段。 以下示例订阅仅当`groups`字段完全包含“Choice 3”和“Choice 4”时，才允许传递消息，并且没有其他值或缺少值，与顺序无关。
+
+
+```
+{
+    "objCode": "PROJ",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedProjects",
+    "filters": [
+        {
+            "fieldName": "groups",
+            "fieldValue": [
+                "Choice 3",
+                "Choice 4"
+            ],
+            "state": "newState",
+            "comparison": "containsOnly"
+        }
+    ]
+}
+```
+
 #### 更改
 
 仅当指定的字段(`fieldName`)在oldstate和newstate中具有不同的值时，此过滤器才允许消息通过。 更新指定字段(`fieldName`)以外的其他字段将不会返回该更改。
@@ -739,7 +766,7 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 >[!NOTE]
 >
 >下面带有给定过滤器的订阅将只返回任务名称在`oldState`上包含`again`的消息，该名称与更新任务之前所包含的内容相同。
->此功能的用例是查找从一个对象更改到另一个对象的对象代码消息。 例如，查找从“Research Some name”更改为“Research TeamName Some name”的所有任务
+>>此功能的用例是查找从一个对象更改到另一个对象的对象代码消息。 例如，查找从“Research Some name”更改为“Research TeamName Some name”的所有任务
 
 ```
 {
