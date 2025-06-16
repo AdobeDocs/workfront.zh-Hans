@@ -8,10 +8,10 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
-source-git-commit: 0c76cf9ebadaeabee55939969d59ea16d69ed328
+source-git-commit: 15a703e2292883427e371603f77a99765ed9d00a
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 61%
+source-wordcount: '209'
+ht-degree: 60%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 61%
 * [Adobe Workfront术语表](../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
 * [Adobe Workfront浏览器要求](../workfront-basics/workfront-browser-requirements.md)
 * Adobe Workfront中的[支持的语言](../workfront-basics/supported-languages-in-workfront.md)
+* [Workfront的HIPAA准备工作](/help/quicksilver/workfront-basics/hipaa-readiness-for-workfront.md)
 * [导航Adobe Workfront：文章索引](../workfront-basics/navigate-workfront/navigate-workfront.md)
 * [优先级：文章索引](/help/quicksilver/workfront-basics/priorities/priorities-toc.md)
 * [主页](../workfront-basics/using-home/home.md)

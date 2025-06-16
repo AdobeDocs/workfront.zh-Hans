@@ -5,19 +5,17 @@ title: Workfront的HIPAA准备工作
 description: 按照HIPAA的定义，如果某个Workfront客户是商业合作伙伴和/或代表其商业合作伙伴提供Adobe Workfront的受覆盖实体，则应使用以下准则配置Workfront以便HIPAA随时可用。
 feature: Get Started with Workfront
 author: Courtney
-hide: true
-hidefromtoc: true
-source-git-commit: a984038eea41d249cb0ad0d2ec6ba47025c56a65
+exl-id: e3cdaa03-d523-46a4-954b-8456d5f190e4
+source-git-commit: 15a703e2292883427e371603f77a99765ed9d00a
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
 
-
 # Workfront的HIPAA准备工作
 
-按照HIPAA的定义，如果某个Workfront客户是商业合作伙伴和/或代表其商业合作伙伴提供Adobe Workfront的受覆盖实体，则应使用以下准则配置Workfront以便HIPAA随时使用：
+按照HIPAA的定义，如果某个Workfront客户是商业合作伙伴和/或代表其商业合作伙伴提供Adobe Workfront的受覆盖实体，则应使用以下准则配置Workfront以便HIPAA随时可用：
 
 
 ## 密码要求
@@ -66,5 +64,5 @@ ht-degree: 0%
 * 对于可能访问ePHI的任何Workfront数据库，请确保启用&#x200B;**静态加密(EAR)**。
    * 请联系您的客户经理(AE)来验证您的Workfront购买中包含了EAR。
    * 配置可通过Workfront访问的系统/数据库，以履行合规性义务。
-* 确保ePHI不被传输、链接或与其他Adobe解决方案共享。
+* 确保ePHI不被传输、链接或与其他不符合HIPAA要求的Adobe解决方案共享。
 * 确保通过Workfront处理的患者照片安全存储且不可公开访问。
