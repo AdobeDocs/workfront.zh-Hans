@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 0ff02569d3c7fb532a2faafc46fe4235ce77acd4
+source-git-commit: 7373ee9f31e4b7561735920f3ff02cbd4fdce44a
 workflow-type: tm+mt
-source-wordcount: '6494'
+source-wordcount: '6547'
 ht-degree: 5%
 
 ---
@@ -133,7 +133,7 @@ ht-degree: 5%
 >[!NOTE]
 >
 >虽然可以这样做，但我们建议，在您或其他用户开始使用Workfront中的自定义表单后，不要更改此名称。 如果这样做，系统将不再能够识别Workfront其他区域中现在可能引用该字段的自定义字段。
->&#x200B;>例如，如果您将自定义字段添加到报表后更改其名称，Workfront将无法识别该字段在报表中的名称，并且除非您使用新名称将其重新添加到报表，否则该字段将在报表中停止正常工作。
+>>例如，如果您将自定义字段添加到报表后更改其名称，Workfront将无法识别该字段在报表中的名称，并且除非您使用新名称将其重新添加到报表，否则该字段将在报表中停止正常工作。
 >
 >我们建议您不要键入已用于内置Workfront字段的名称。
 >
@@ -531,11 +531,13 @@ ht-degree: 5%
         <li>它们属于您指定的一个或多个组。</li> 
         <li>它们与您指定的角色或职称相关联。</li> 
         <li>他们与使用字段的人属于同一组。</li> 
-       </ul> <p>必须使用文本模式语法为所选对象类型定义过滤器。 有关使用文本模式创建过滤器的信息，请参阅<a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">使用文本模式编辑过滤器</a>。</p>
+       </ul>
+       <p>必须使用文本模式语法为所选对象类型定义过滤器。 有关使用文本模式创建过滤器的信息，请参阅<a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">使用文本模式编辑过滤器</a>。</p>
+       <p><b>提示：</b>您可以先创建报告以测试您的筛选器，然后再将该筛选器直接添加到typeahead字段。 这将帮助您验证过滤器是否返回正确的对象。 然后，您可以在报表中切换到文本模式，复制文本模式语句，并将其添加到预输入过滤器。</p>
        <p><b>注释</b>：
        <ul> 
-        <li>如果您正在编辑现有的自定义表单，则将过滤器添加到“预输入”字段不会移除用户已使用该字段添加的任何对象（在过滤器的范围外）。</li> 
-        <li>此筛选器在移动设备上不可用。 如果您将过滤器用于“预输入”字段，则该字段将显示在不受过滤器影响的用户移动设备上。</li> 
+        <li>如果您正在编辑现有的自定义表单，则将过滤器添加到预输入字段不会移除用户已使用该字段添加的任何对象（在过滤器的范围外）。</li> 
+        <li>此筛选器在移动设备上不可用。 如果您将过滤器用于预输入字段，则该字段将显示在不受过滤器影响的用户移动设备上。</li> 
         </ul></p></td> 
       <td>
        <ul>
@@ -630,12 +632,12 @@ ht-degree: 5%
       <td role="rowheader">JSON 路径</td>
       <td><p>键入或粘贴API的JSON路径。</p> <p>此选项允许从API URL返回的JSON中提取数据。 它提供了一种方法，用于选择在JSON内的哪些值将显示在下拉选项中。</p><p>例如，如果API URL按以下格式返回JSON，则可以使用“$.data[*].name”选择“美国”和“加拿大”作为下拉选项：</br>
       <pre>
-      &lbrace;
-       数据： &lbrace;
+      {
+       数据： {
          { name： "USA"}，
          { name： "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>有关JSON路径并确保编写正确JSON路径的更多信息，请参阅<a href="https://jsonpath.com/">https://jsonpath.com/</a>。</p></td>
