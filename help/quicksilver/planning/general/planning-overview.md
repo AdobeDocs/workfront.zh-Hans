@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: fe9d3cfbb50bfda672360b918d971cc77b0b8b0a
 workflow-type: tm+mt
-source-wordcount: '1979'
-ht-degree: 2%
+source-wordcount: '2061'
+ht-degree: 1%
 
 ---
 
@@ -277,12 +277,14 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
    * 记录类型和Workfront项目、项目群、项目组合、公司或组对象类型。
    * 记录类型和Adobe Experience Manager资源或文件夹。
 
-     您必须具有Adobe Experience Manager许可证才能将记录类型与Experience Manager对象链接到一起。
+     您必须拥有Adobe Experience Manager许可证才能将记录类型与Experience Manager对象连接。
 
      ![使用Workfront AEM选项新建连接选项卡](assets/new-connection-tab-with-workfront-aem-options.png)
 
 
   在记录类型之间建立连接后，可以将这些类型的单个记录或对象彼此连接。 记录之间的连接显示为已连接的记录字段或连接。
+
+  当有多种类型的工作对象相互影响时，连接记录类型会很有用。 例如，您可以与营销活动配合使用，每个营销活动可能适合多个品牌。 要指示这种关系，您可以将营销活动关联到品牌。 此外，每个营销活动的工作可能会在Workfront的多个项目中规划。 要指示这一点，您可以将营销策划关联到相关项目。 在Workfront Planning中，连接记录类型并随后连接单个记录即可实现这种关系。
 
 * **查找字段**（或链接字段）：在两个记录类型之间建立连接并将单个记录连接在一起后，可以从要连接的记录中引用已连接记录的字段。
 
@@ -299,7 +301,7 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
   >* 上次修改者
   >* Workfront预输入字段（包括项目所有者或项目发起人等字段）
 
-  有关链接记录类型、记录和创建链接字段的信息，请参阅以下文章：
+  有关连接记录类型、记录和创建链接字段的信息，请参阅以下文章：
 
    * [连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [连接记录](/help/quicksilver/planning/records/connect-records.md)
@@ -323,7 +325,6 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
      ![在时间轴视图中应用分组](assets/grouping-applied-in-timeline-view.png)
 
    * **日历视图**：以日历格式显示至少有两个日期类型字段的记录。
-
      ![日历视图示例](assets/calendar-view-example.png)
 
 
@@ -395,7 +396,7 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
 
-* [适用于Workfront Fusion的Adobe Workfront规划模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：使用Adobe Workfront规划模块，可以在Workfront规划中发生事件时触发方案。 您还可以创建、读取、更新和删除记录，或对Adobe Workfront Planning帐户执行自定义API调用。
+* [适用于Workfront Fusion的Adobe Workfront规划模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：使用Adobe Workfront规划模块，可以在Workfront规划中发生事件时触发方案。 您还可以创建、读取、更新和删除记录，或对Adobe Workfront Planning帐户执行自定义API调用。
 
 * [Adobe Workfront Planning API基础知识](/help/quicksilver/planning/general/planning-api-basics.md)： Adobe Workfront Planning API的目标是通过引入通过HTTP运行的REST-ful架构，简化与Planning的生成集成。
 
