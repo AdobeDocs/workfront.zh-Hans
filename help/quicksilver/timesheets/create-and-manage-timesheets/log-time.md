@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 1926500c76e4f9cfdac829f8d9f0cdfa6231e31d
+source-git-commit: f7cb314067d105d5534f4be356024aea8e8f9a28
 workflow-type: tm+mt
-source-wordcount: '3818'
+source-wordcount: '4065'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,17 @@ ht-degree: 0%
 <!--remove all preview and production references if any-->
 <!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
 
+<!--
+<div class="preview">
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+
+</div>
+
+-->
+
 您可以在Adobe Workfront中记录工作项的时间，以指示您处理这些工作项的小时数。 您还可以记录与工作无关的时间，如假期、病假或会议时间。 您的登录时间显示在您的时间表中。
 
 有关可登录Workfront的小时类型的详细信息，请参阅[管理小时类型](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md)。
@@ -28,8 +39,6 @@ ht-degree: 0%
 ## 访问要求
 
 +++ 展开以查看访问要求。
-
-您必须具有以下权限才能执行本文中的步骤并记录项目特定的小时数：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -142,9 +151,9 @@ ht-degree: 0%
 
 1. （视情况而定）如果一次添加50个或更多项目，则会显示一条确认消息，其中显示添加到时间表的项目数。
 
-   单击&#x200B;**全部添加**&#x200B;以添加所有项
+   单击&#x200B;**全部添加**以添加所有项
 或
-单击&#x200B;**取消**&#x200B;停止添加选定项，然后单击&#x200B;**取消**&#x200B;关闭项列表。
+单击**取消**&#x200B;停止添加选定项，然后单击&#x200B;**取消**&#x200B;关闭项列表。
 
    任务和问题列在项目的名称下。
 
@@ -344,11 +353,25 @@ ht-degree: 0%
 1. （可选）在列表中选择任务、问题或请求，然后单击&#x200B;**处理它**。
 1. 将鼠标悬停在要为其记录时间的任务或问题上，然后单击任务信息右侧的&#x200B;**记录时间**&#x200B;图标![](assets/log-time-icon-in-new-home.png)。
 
-   ![](assets/log-time-ui-for-task-from-new-home.png)
+   显示&#x200B;**记录时间**&#x200B;框。
+
+   在主页中![记录任务的时间框](assets/log-time-ui-for-task-from-new-home.png)
+
+1. 指定以下信息：
+
+   * **小时类型**：从下拉菜单中选择小时类型（如果它与默认显示的类型不同）。
+
+     根据系统中配置的小时类型，此处提供的选项可能会有所不同。 有关配置小时类型的详细信息，请参阅[定义小时类型和可用性](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)。
+
+   * **工作角色**： （视条件而定）如果您的Workfront或组管理员已启用&#x200B;**手动将工作角色分配给小时条目**&#x200B;设置，请从下拉菜单中选择&#x200B;**工作角色**。 默认情况下，系统将显示指定给对象时指定的角色。 如果您未在该对象上分配角色，则默认显示您的“主要角色”。 有关此设置的详细信息，请参阅文章[配置时间表和小时首选项](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。
+
+   * 在每周日历中，输入项目、任务或问题的小时数。
 
 1. 单击&#x200B;**记录时间**。
 
    记录的时间显示在对象的“小时”部分和您的时间表中。
+
+   日志时间框中的&#x200B;**总小时数**&#x200B;字段显示所有用户为项目、任务或问题记录的所有小时数。
 
 <!--#### Log time on a work item from the legacy Home area
 
@@ -395,7 +418,7 @@ ht-degree: 0%
    >   
    >   在“输入天数”框的右上角显示一天中包含的小时数。
 
-   ![](assets/log-time-box-in-updates-stream.png)
+   ![在更新区域](assets/log-time-box-in-updates-stream.png)记录任务的超时值
 
 1. 指定以下信息：
 
@@ -405,11 +428,13 @@ ht-degree: 0%
 
    * **工作角色**： （视条件而定）如果您的Workfront或组管理员已启用&#x200B;**手动将工作角色分配给小时条目**&#x200B;设置，请从下拉菜单中选择&#x200B;**工作角色**。 默认情况下，系统将显示指定给对象时指定的角色。 如果您未在该对象上分配角色，则默认显示您的“主要角色”。 有关此设置的详细信息，请参阅文章[配置时间表和小时首选项](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。
 
-   * **小时数**：输入项目、任务或问题的小时数。
+   * 在每周日历中，输入项目、任务或问题的小时数。
 
 1. 单击&#x200B;**记录时间**。
 
-   记录的时间显示在对象的“小时”部分中，并显示在您的时间表中。
+   记录的时间显示在对象的“小时”部分和您的时间表中。
+
+   日志时间框中的&#x200B;**总小时数**&#x200B;字段显示所有用户为项目、任务或问题记录的所有小时数。
 
 #### “小时”部分{#hours-section}
 
@@ -429,7 +454,13 @@ ht-degree: 0%
 1. 在左侧面板中，单击&#x200B;**小时**。
 1. 单击&#x200B;**记录时间**。
 
-   此时将显示记录小时数对话框。
+   显示&#x200B;**日志时间**&#x200B;框。
+
+   <!--<div class="preview">
+  
+   ![Log time in the Hours section of a task](assets/log-time-box-in-hours-section-on-task.png)
+
+   </div>-->
 
 1. 指定以下信息：
 
@@ -438,14 +469,19 @@ ht-degree: 0%
 
    * **小时类型**：从下拉菜单中选择小时类型（如果它与默认显示的类型不同）。
 
-     根据系统中配置的小时类型，此处提供的选项可能会有所不同。 有关配置小时类型的详细信息，请参阅[定义小时类型和可用性](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)。
+     根据系统中配置的小时类型，此处提供的选项可能会有所不同。
+
+     有关配置小时类型的详细信息，请参阅[定义小时类型和可用性](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)。
 
    * **工作角色**： （视条件而定）如果您的Workfront或组管理员已启用&#x200B;**手动将工作角色分配给小时条目**&#x200B;设置，请从下拉菜单中选择&#x200B;**工作角色**。 默认情况下，系统将显示指定给对象时指定的角色。 如果您未在该对象上分配角色，则默认显示您的“主要角色”。 有关此设置的详细信息，请参阅文章[配置时间表和小时首选项](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。
-
-     ![](assets/log-time-box-in-hours-section-on-task.png)
-   * **小时数**：输入项目、任务或问题的小时数。
+   * **小时数**：输入项目、任务或问题的小时数。<!--<span class="preview">In the weekly calendar, enter the number of hours for the project, task, or issue.</span>-->
+   * **注意**：添加注释以说明小时数的用途。 这保存为&#x200B;**小时注释**&#x200B;或&#x200B;**小时描述**。
 
 1. 单击&#x200B;**记录时间**。
+
+   记录的时间显示在对象的“小时”部分和您的时间表中。
+
+   日志时间框中的&#x200B;**总小时数**&#x200B;字段显示所有用户为项目、任务或问题记录的所有小时数。
 
 ### 摘要面板
 

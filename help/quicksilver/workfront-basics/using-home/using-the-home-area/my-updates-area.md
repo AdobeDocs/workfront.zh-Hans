@@ -6,9 +6,9 @@ description: 您可以使用[!UICONTROL 我的更新]区域快速查看等待您
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '811'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
    <td> <p>新文档：参与者或更高版本</p>
    或   
-   <p>当前： [!UICONTROL Request]或更高版本</p> </td> 
+   <p>当前： [！UICONTROL Request]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置</strong></td> 
@@ -55,7 +55,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>[!UICONTROL 查看]对项目、任务、问题和文档的权限或更高，在这些项目、任务、问题和文档中，您被标记在对话中或需要解决审批问题</p> </td> 
+   <td> <p>[！UICONTROL查看]对项目、任务、问题和文档的权限或更高，在这些项目、任务、问题和文档中，您被标记在对话中或需要解决审批问题</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -74,15 +74,13 @@ ht-degree: 0%
 
 ## 访问[!UICONTROL 我的更新]区域
 
-1. 在&#x200B;**[!UICONTROL 主菜单]**&#x200B;中单击&#x200B;**[!UICONTROL 我的更新]**。
+{{step1-to-my-updates}}
 
-   ![主菜单中的我的更新](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
+[!UICONTROL 我的更新]区域打开。
 
-   [!UICONTROL 我的更新]区域打开。
+分配给您的审批和访问请求列在页面前半部分的&#x200B;**我的更新**&#x200B;下。
 
-   分配给您的审批和访问请求列在页面前半部分的&#x200B;**我的更新**&#x200B;下。
-
-   ![我的更新提及审阅者](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
+![我的更新提及审阅者](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
 1. （可选）滚动到&#x200B;[!UICONTROL **我的更新**]&#x200B;区域的底部，然后单击向右箭头以显示其他页面上显示的更多批准。
 
@@ -101,15 +99,15 @@ ht-degree: 0%
     </col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL All]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL All]</strong></td> 
       <td>提交给您或由其他用户委托给您的审批。 有关委托审批的信息，请参阅<a href="../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md" class="MCXref xref">委托审批请求</a>。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 委托审批]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL委托审批]</strong></td> 
       <td>其他用户委托给您的审批。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 我的审批]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL我的审批]</strong></td> 
       <td> <p>审批已提交给您。 </p> <p>有关批准项的更多信息，请参阅<a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">批准工作</a>。</p> </td> 
      </tr> 
     </tbody> 
