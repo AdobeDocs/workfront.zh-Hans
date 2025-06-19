@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 95a8d56b82e6d28995f7adc9cf3e23cbb039c096
+source-git-commit: f7e8dd73dc50d5e8a600abe42868a6c7096d8ed6
 workflow-type: tm+mt
-source-wordcount: '4589'
+source-wordcount: '4583'
 ht-degree: 1%
 
 ---
@@ -260,14 +260,14 @@ For information, see [Create a custom report](/help/quicksilver/reports-and-dash
 
 ### 更新了具有新样式的报表
 
-**预览版本： 2025年6月12日；生产版本：待宣布**
+**预览版本： 2025年6月12日；生产版本： 6月19日。 2025**
 
 我们更新了多个报表的外观，以便与Workfront其他区域的设计相匹配。 功能未发生更改。
 
 此更新包括对以下对象类型报表的列表和工具栏的可视更改：
 
 * 风险
-* 基线(已于6月19日发布至生产环境。 2025)
+* 基线
 * 费率
 * 布局模板
 
