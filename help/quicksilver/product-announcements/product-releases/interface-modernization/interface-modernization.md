@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: f7e8dd73dc50d5e8a600abe42868a6c7096d8ed6
+source-git-commit: 4c09cbe74e8f277cd6a9a7732aa1a93e17f7dfeb
 workflow-type: tm+mt
-source-wordcount: '4583'
+source-wordcount: '4622'
 ht-degree: 1%
 
 ---
@@ -248,15 +248,13 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 ## 报告和仪表板
 
-<!--
-### Interface updates for the Expense report
+### 支出报表的界面更新
 
-Preview release: June 19, 2025; Production release: June 26, 2025
+预览版本： 2025年6月19日；生产版本： 2025年6月26日
 
-We have updated the look and feel of the Expense report to match the design of other areas of Workfront.
+我们更新了费用报表的外观，以与Workfront其他区域的设计相匹配。
 
-For information, see [Create a custom report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
--->
+有关信息，请参阅[创建自定义报表](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
 ### 更新了具有新样式的报表
 
