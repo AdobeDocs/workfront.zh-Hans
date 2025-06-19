@@ -58,14 +58,14 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td><p>新文档： [！UICONTROL Standard]</p>
+   <td><p>新文档： [!UICONTROL Standard]</p>
    或
-   <p>当前： [！UICONTROL计划]</p>
+   <p>当前： [!UICONTROL 计划]</p>
    </td> 
   </tr>  
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[！UICONTROL系统管理员]</td>
+   <td>[!UICONTROL 系统管理员]</td>
   </tr> 
  </tbody> 
 </table>
@@ -123,7 +123,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    >如果[!DNL Workfront]已在跟踪该字段，则不能从列表中再次添加该字段。
 
 1. 添加所有要[!DNL Workfront]跟踪的字段后，单击&#x200B;**[!UICONTROL 添加字段]**。
-您添加的内置字段显示在**[!UICONTROL 内置字段]**&#x200B;子选项卡下，自定义字段显示在&#x200B;**[!UICONTROL 自定义字段]**子选项卡下。
+您添加的内置字段显示在&#x200B;**[!UICONTROL 内置字段]**&#x200B;子选项卡下，自定义字段显示在&#x200B;**[!UICONTROL 自定义字段]**&#x200B;子选项卡下。
 **[!UICONTROL 所有字段]**&#x200B;子选项卡同时显示[!DNL Workfront]跟踪的内置和自定义字段。
 
 <!-- replace the above when releasing to Preview: 

@@ -165,7 +165,7 @@ Saving a project as a template differs in the Production and the Preview environ
 1. 单击左侧面板中的&#x200B;**自定义Forms**&#x200B;以删除或重新排序表单。
 
    要重新排列表单，请以正确的顺序拖放表单。
-要删除表单，请选择它，然后单击**删除**。 单击&#x200B;**取消**&#x200B;可删除所选的表单。
+要删除表单，请选择它，然后单击&#x200B;**删除**。 单击&#x200B;**取消**&#x200B;可删除所选的表单。
 
    另存为模板框中的![自定义表单区域](assets/custom-forms-ara-in-save-as-template-box.png)
 
