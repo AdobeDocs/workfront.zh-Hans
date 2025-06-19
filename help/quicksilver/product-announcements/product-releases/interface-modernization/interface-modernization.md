@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 6fa00a88f6620936ed9af00faf60f61d48c2f825
+source-git-commit: 95a8d56b82e6d28995f7adc9cf3e23cbb039c096
 workflow-type: tm+mt
-source-wordcount: '4390'
+source-wordcount: '4589'
 ht-degree: 1%
 
 ---
@@ -25,9 +25,70 @@ ht-degree: 1%
 
 ## 管理和设置
 
+<!--
+### Look and feel updates for the Update Feeds section of Setup 
+
+**Preview release: June 19, 2025; Production release: June 26, 2025** 
+
+We have updated the look and feel of all the tabs and subtabs in the Update Feeds section of Setup. The Update Feeds section displays under the Interface area of Setup. Now, all the tabs in the Update Feeds section match other areas of Workfront. 
+
+For information, see the articles in the [System-tracked update feeds](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md) section.
+-->
+
+<!--
+### Look and feel updates for the Add fields box in the Update Feeds section of Setup 
+
+**Preview release: June 19, 2025; Production release: June 26, 2025** 
+
+We have updated the look and feel of the Add fields box in the Update Feeds section of Setup. The Update Feeds section displays under the Interface area of Setup. Now, when you add fields in any subtab of the Tracked Fields tab, the Add fields box has a new look and feel, and some of the interface elements have been updated.  
+
+For information, see [Configure system updates](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+-->
+
+### 用于创建、复制和编辑计划的界面更新
+
+**预览版本： 2025年6月18日；生产版本： 2025年6月26日**
+
+当您创建、编辑或复制具有与Workfront其他区域一致的更现代设计的计划时，我们更新了对话框。
+
+此更新具有一些小的功能更改：
+
+* 在计划选项卡上，我们改进了您为计划选择小时数的方法。
+
+* 在详细信息选项卡上，所有复选框都位于一列中，而不是两列中。
+
+* 在“例外”选项卡上，如果要将全天事件更改为部分天事件，或者将部分天事件更改为全天事件，则必须删除现有事件，然后创建一个新事件。
+
+
+有关信息，请参阅[创建计划](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
+
+### 更新访问级别对话框
+
+**预览版本： 2025年6月19日；生产版本： 2025年6月19日**
+
+我们更新了“访问级别”对话框，使其设计更加现代化，与Workfront的其他区域保持一致。
+
+用于微调访问权限的按钮已移至“编辑”按钮的右侧。
+
+要查看此更改，请转到“设置”>“访问级别”>“新建访问级别”。
+
+<!--
+### Interface updates for the Companies page
+
+**Preview release: June 19, 2025; Production release: June 26, 2025**
+
+We have updated the Companies page with a more modern design that is consistent with other areas of Workfront.
+
+This update includes visual changes to the list of companies. No functionality has changed.
+
+To view the change, go to Setup > Companies.
+
+For information, see [Create and edit companies](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+-->
+
 ### “客户信息”页面的界面更新
 
-**预览版本： 2025年6月12日；生产版本： 2025年6月19日**
+**预览版本： 2025年6月12日；生产版本：待宣布**
 
 我们更新了“客户信息”页面，更新后的设计更加现代化，与Workfront的其他部分保持一致。
 
@@ -118,9 +179,19 @@ ht-degree: 1%
 
 ## 项目
 
+<!--
+### New look and feel for logging time on a project, task, or issue in the Hours tab   
+
+**Preview release: June 19, 2025; Production release: June 26, 2025** 
+
+We have updated the look and feel of the Log time box when logging time for a project, task, or issue in the Hours tab, to match the design of other areas of Workfront.  
+
+For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+-->
+
 ### 项目的“关联项目”部分的界面更新（仅适用于特定客户）
 
-**预览版本： 2025年6月12日；生产版本： 2025年6月19日**
+**预览版本： 2025年6月12日；生产版本：待宣布**
 
 我们使用与Workfront其他区域一致的更加现代的设计更新了项目的“关联项目”部分。
 
@@ -128,7 +199,7 @@ ht-degree: 1%
 
 ### “另存为模板”框的新外观
 
-**预览版本： 2025年6月12日；生产版本： 2025年6月19日**
+**预览版本： 2025年6月12日；生产版本：待宣布**
 
 我们更新了将项目另存为模板时显示的“另存为模板”框的外观。 新设计包括一个简化的界面，其中所有部分都以一个聚合形式显示，您可以使用左侧面板中的链接进行导航。 新设计可与应用程序中的其他区域和其他对象相匹配。
 
@@ -142,7 +213,7 @@ ht-degree: 1%
 
 有关信息，请参阅[删除问题](/help/quicksilver/manage-work/issues/manage-issues/delete-issues.md)。
 
-## 项目或模板的新增风险框和编辑风险框的外观更新
+### 项目或模板的新增风险框和编辑风险框的外观更新
 
 **预览版本： 2025年5月22日；生产版本： 2025年5月29日**
 
@@ -177,16 +248,26 @@ ht-degree: 1%
 
 ## 报告和仪表板
 
+<!--
+### Interface updates for the Expense report
+
+Preview release: June 19, 2025; Production release: June 26, 2025
+
+We have updated the look and feel of the Expense report to match the design of other areas of Workfront.
+
+For information, see [Create a custom report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+-->
+
 ### 更新了具有新样式的报表
 
-**预览版本： 2025年6月12日；生产版本： 2025年6月19日**
+**预览版本： 2025年6月12日；生产版本：待宣布**
 
 我们更新了多个报表的外观，以便与Workfront其他区域的设计相匹配。 功能未发生更改。
 
 此更新包括对以下对象类型报表的列表和工具栏的可视更改：
 
 * 风险
-* 基线
+* 基线(已于6月19日发布至生产环境。 2025)
 * 费率
 * 布局模板
 
@@ -208,13 +289,14 @@ ht-degree: 1%
 <!--
 ### Interface updates to the organizational chart
 
-**Preview release: May 29, 2025; Production release: June 5, 2025**
+**Preview release: June 19, 2025; Production release for all customers: June 26, 2025**
 
 We have updated the look and feel of the organizational chart associated with a Workfront user, to match the design of other areas of Workfront.
 
 To view this change, go to a Workfront user profile and click **Org Chart** in the left panel. (This feature is available through the Workfront user profile, not the Adobe user profile.)
 
-For information, see [View the organizational chart](/help/quicksilver/people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).-->
+For information, see [View the organizational chart](/help/quicksilver/people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
+-->
 
 ### 新用户注册页面的界面更新
 

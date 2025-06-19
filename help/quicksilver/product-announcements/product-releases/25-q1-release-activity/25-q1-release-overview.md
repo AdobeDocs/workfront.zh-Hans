@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: ec74d34bc69f2f1424414453f9fdf94e539a75fd
 workflow-type: tm+mt
-source-wordcount: '2775'
+source-wordcount: '2786'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
            更多对象现在支持业务规则</a></p>
-           [!BADGE In Production &#x200B;]{type=Informational}
+           [！BADGE In Production ]{type=Informational}
             <p>您现在可以创建业务规则并将验证应用于以下附加对象：公司、开发周期、非人工资源类别、工作角色、用户、分配、资源库、空闲时间、文档和小时。</p>
         </td>
         <td>
@@ -77,7 +77,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
            在环境之间比较对象以进行环境升级</a></p>
-           [!BADGE In Production &#x200B;]{type=Informational}
+           [！BADGE In Production ]{type=Informational}
             <p>为了更便于确定环境升级包中应包含哪个对象，我们添加了跨环境比较对象的功能。 然后，您可以从此比较中直接将对象添加到资源包。</p>
         </td>
         <td>
@@ -92,7 +92,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             更多可用于环境升级的对象</a></p>
-            [!BADGE In Production &#x200B;]{type=Informational}
+            [！BADGE In Production ]{type=Informational}
             <p>为了扩展环境升级功能的功能，我们添加了更多对象。</p>
         </td>
         <td>
@@ -107,7 +107,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             在记录小时数时阻止移动任务</a></p>
-            [!BADGE In Production &#x200B;]{type=Informational}
+            [！BADGE In Production ]{type=Informational}
             <p>由于移动记录小时数的任务或问题有时会导致合规性或审核问题，因此我们在“设置”的“任务和问题首选项”区域中添加了一个首选项，该首选项允许您阻止用户在记录小时数的情况下移动任务和问题。</p>
         </td>
         <td>
@@ -122,7 +122,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             用于单次分配任务的项目或用户计划的首选项</a></p>
-            [!BADGE In Production &#x200B;]{type=Informational}
+            [！BADGE In Production ]{type=Informational}
             <p>作为系统或组管理员，您现在有了一个新的首选项，当您为任务分配一个用户，并且项目和用户都关联到时间表时，指示Workfront是否应使用项目或用户的时间表计算项目的时间表。</p>
         </td>
         <td>
@@ -138,7 +138,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             业务规则现在支持超链接</a></p>
-            [!BADGE In Production &#x200B;]{type=Informational}
+            [！BADGE In Production ]{type=Informational}
             <p>现在，您可以在业务规则的自定义错误消息中包含超链接，以指导用户如何在规则的限制内修改其操作。 静态URL可以链接到对用户有益的文档或其他页面。</p>
         </td>
         <td>
@@ -154,7 +154,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             现在可对本机预输入字段进行筛选</a></p>
-            [!BADGE In Production &#x200B;]{type=Informational}
+            [！BADGE In Production ]{type=Informational}
             <p>当您将本地字段引用添加到自定义表单并且它引用预输入字段时(例如Portfolio、公司或所有者)，筛选器选项现在可用。 该过滤器允许您限制用户在使用该字段时可以选择的对象。 此自定义筛选器的工作方式与自定义预输入字段上的筛选器的工作方式相同，使用文本模式定义筛选器。</p>
         </td>
         <td>
@@ -170,7 +170,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             已将“移至”图标添加到自定义字段</a></p>
-            [!BADGE In Production &#x200B;]{type=Informational}
+            [！BADGE In Production ]{type=Informational}
             <p>当自定义表单包含多个具有许多字段的分区时，可能很难通过拖放方式将字段从一个分区移动到另一个分区。 每个字段都添加了“移至”图标，允许您选择字段所在的部分。</p>
         </td>
         <td>
@@ -203,7 +203,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">
             更改讨论区的所有者</a></p>
-            [!BADGE In Production &#x200B;]{type=Informational}
+            [！BADGE In Production ]{type=Informational}
             <p>默认情况下，展示板的创建者是所有者。 讨论区所有者是唯一可以在“配置”面板中删除该讨论区或更新其筛选器的人员。</p>
             <p>添加了功能，以允许Workfront系统管理员更改展示板的所有者。 讨论区的当前所有者也可以更改该特定讨论区的所有者。 此功能在基本、追溯和Kanban展示板上可用，但不在动态展示板上可用。</p>
         </td>
@@ -236,7 +236,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
             一次编辑多个文档</a></p>
-            [!BADGE In Production &#x200B;]{type=Informational}
+            [！BADGE In Production ]{type=Informational}
             <p>您现在可以一次编辑多个文档。 您可以编辑说明并更新自定义表单。</p>
         </td>
         <td>
@@ -252,7 +252,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
             可用于文档版本审批的新提取状态</a></p>
-            [!BADGE In Production &#x200B;]{type=Informational}
+            [！BADGE In Production ]{type=Informational}
             <p>将新版本添加到具有待审批的文档时，对先前版本的审批现在将显示为“已撤回”，这表示由于添加新版本，先前审批流程已关闭。</p>
         </td>
         <td>
@@ -286,7 +286,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             使用智能筛选器在优先级中查找您的工作</a></p>
-            [!BADGE In Production &#x200B;]{type=Informational}
+            [！BADGE In Production ]{type=Informational}
             <p>使用自然语言快速筛选“优先级”工作列表中的工作。 您可以键入以下内容 </p>
             <ul>
                 <li>显示迟到任务</li>
@@ -306,7 +306,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             在优先级中赶超工作</a></p>
-            [!BADGE In Production &#x200B;]{type=Informational}
+            [！BADGE In Production ]{type=Informational}
             <p>您可以使用“跟上”来帮助缩短查找有关活动项目信息的时间。</p>
             <p>通过Workfront的AI助手，“即时查看”功能会在以下时间范围内对您项目的更新、上传的文档和其他显着更改进行汇总：24小时、3天或7天。</p>
         </td>
@@ -324,7 +324,7 @@ ht-degree: 0%
             在优先级的“详细信息”页面上实时查看更改</a></p>
             <p>您现在可以在任务或问题的详细信息页面上查看实时更新。 您还可以通过实时在线状态指示器查看其他人是否与您同时查看页面。</p>
         </td>
-        [!BADGE In Production &#x200B;]{type=Informational}
+        [！BADGE In Production ]{type=Informational}
         <td>
             <p><b>在以下日期可用：</b></p>
             <ul>
@@ -337,7 +337,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             在优先级中上传和查看文档和验证</a></p>
-            [!BADGE In Production &#x200B;]{type=Informational}
+            [！BADGE In Production ]{type=Informational}
             <p>您现在可以与工作列表和日历中任务和问题的文档和验证进行交互。 在新的“文档”选项卡中，您可以</p>
             <ul>
                 <li>上传文档</li>
@@ -358,7 +358,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             日历视图现在可在“优先级”中使用</a></p>
-            [!BADGE In Production &#x200B;]{type=Informational}
+            [！BADGE In Production ]{type=Informational}
             <p>您可以使用清晰可见的月份日历跟踪您的工作。 使用优先级日历，您可以</p>
             <ul>
                 <li>使用筛选器查找您的工作</li>
@@ -379,7 +379,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             “优先级”工作列表的更新</a></p>
-            [!BADGE In Production &#x200B;]{type=Informational}
+            [！BADGE In Production ]{type=Informational}
             <p>我们更新了“优先级”工作列表，以改进功能并与应用程序的其他领域保持一致。</p>
         </td>
         <td>
@@ -394,7 +394,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             从优先级导航到项目的详细信息页面</a></p>
-            [!BADGE In Production &#x200B;]{type=Informational}
+            [！BADGE In Production ]{type=Informational}
             <p>您现在可以从优先级工作列表直接导航到Workfront中的项目。</p>
         </td>
         <td>
@@ -409,7 +409,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             更新了“优先级”中“我的焦点”列中的选项</a></p>
-            [!BADGE In Production &#x200B;]{type=Informational}
+            [！BADGE In Production ]{type=Informational}
             <p>我们更新了“我的焦点”列中的选项，以帮助您以更直观的方式排定工作的优先级并对工作进行排序。 新标签包括</p>
             <ul>
                 <li>紧急</li>
@@ -430,7 +430,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             在优先级中查看项目详细信息</a></p>
-            [!BADGE In Production &#x200B;]{type=Informational}
+            [！BADGE In Production ]{type=Informational}
             <p>您现在可以在“优先级”的工作列表中查看项目详细信息和注释。</p>
         </td>
         <td>
@@ -463,7 +463,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
             从快速发布环境的预览和生产中删除了更相关的分配</a></p>
-            [!BADGE In Production &#x200B;]{type=Informational}
+            [！BADGE In Production ]{type=Informational}
             <p>自2023年12月起一直在“预览”环境中存在的功能以及自2024年3月起一直在“快速发布”的“生产”环境中存在的功能现已移除。 这些功能在分配任务时添加了更相关的智能分配建议。</p>
         </td>
         <td>
@@ -495,7 +495,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">
             桌面校对查看器升级</a></p>
-            [!BADGE In Production &#x200B;]{type=Informational}
+            [！BADGE In Production ]{type=Informational}
             <p>我们使用使用Chromium 130.0.6723.152的最新Electron 33.3.0版本更新了Desktop Viewer。 </p>
             <p>最新版本： 2.1.44 </p>
         </td>
@@ -519,7 +519,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">
             测试版中提供了用于交互式审阅的新浏览器扩展</a></p>
-            [!BADGE In Production &#x200B;]{type=Informational}
+            [！BADGE In Production ]{type=Informational}
             <p>我们将引入一个新的浏览器扩展Adobe Workfront审阅工具，以取代用于审阅交互式ZIP内容的旧版浏览器扩展。 新的Adobe Workfront审核工具支持跨所有常见浏览器审核ZIP内容。</p>
             <p>旧版浏览器扩展将于2025年2月28日删除。</p>
         </td>
@@ -552,7 +552,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Data Connect中可用的新实体</a></p>
-            [!BADGE In Production &#x200B;]{type=Informational}
+            [！BADGE In Production ]{type=Informational}
             <p>我们在Data Connect中添加了对许多新实体的支持，包括一些特定于机构的实体。</p>
         </td>
         <td>
@@ -567,7 +567,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
             仪表板中最多有25个报告、外部页面或日历</a></p>
-            [!BADGE In Production &#x200B;]{type=Informational}
+            [！BADGE In Production ]{type=Informational}
             <p>为了保持仪表板性能，我们实施了可放置在仪表板中的报告、外部页面或日历的总数限制。 创建新仪表板时，最多可以添加25个项目。</p>
         </td>
         <td>
@@ -582,7 +582,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
             用于Data Connect的首次读取器帐户创建按钮</a></p>
-            [!BADGE In Production &#x200B;]{type=Informational}
+            [！BADGE In Production ]{type=Informational}
             <p>首次访问Data Connect的管理员现在可以选择通过单击单个按钮来创建新的Snowflake读取器帐户。 该过程需要几分钟才能完成，但无需执行进一步操作。</p>
         </td>
         <td>
@@ -620,7 +620,8 @@ ht-degree: 0%
             <p><b>在以下日期可用：</b></p>
             <ul>
                 <li>预览版本： 2024年12月19日</li>
-                <li>适用于所有客户的生产版本：即将宣布</li>
+                <li>适用于所有客户的家庭版生产版：即将发布</li>
+                <li>适用于所有客户的生产版“我的更新”： 2025年6月19日</li>
             </ul>
         </td>
     </tr>
@@ -637,7 +638,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             更新如何管理链接文件夹中移动或删除的资源</a></p>
-            [!BADGE In Production &#x200B;]{type=Informational}
+            [！BADGE In Production ]{type=Informational}
             <p>当使用与Experience Manager Assets和Assets Essentials的Adobe Workfront集成时，我们更改了移动和删除资源的处理方式：</p>
             <ul>
                 <li>已删除资源：当在Assets或Assets Essentials中的链接文件夹内删除资源时，已删除的资源将保留在项目文档区域中。</li>
@@ -656,7 +657,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             自定义表单中的部分现在可折叠和展开</a></p>
-            [!BADGE In Production &#x200B;]{type=Informational}
+            [！BADGE In Production ]{type=Informational}
             <p>将具有多个分区的自定义表单附加到对象时，您现在可以折叠和展开表单顶部默认分区以外的所有分区。 管理员也可以在表单设计器中预览表单时查看此功能。</p>
         </td>
         <td>
@@ -672,7 +673,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             AI助手现在可以处理项目、任务和问题</a></p>
-            [!BADGE In Production &#x200B;]{type=Informational}
+            [！BADGE In Production ]{type=Informational}
             <p>为了更便于在Workfront中管理您的工作项，我们更新了AI助手，以处理项目、任务和问题。 现在，AI助手可以根据您指定的标准找到项目、任务和问题。</p>
         </td>
         <td>
@@ -713,13 +714,13 @@ The following functionality is soon to be removed from Workfront:
 
 >[!IMPORTANT]
 >
->Workfront Fusion文档已移至新位置。 有关Fusion的信息、说明和发行版，请访问[Workfront Fusion文档](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/home)。
+>Workfront Fusion文档已移至新位置。 有关Fusion的信息、说明和发行版，请访问[Workfront Fusion文档](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home)。
 >
 >当前每篇Fusion文档文章都包含一个指向新位置中相应文章的链接。 请更新您的书签。
 >
 >当前的Fusion文档集不再更新，不久将会删除。
 
-Workfront Fusion中的新增功能在2025年第一季度发布计划之外以一定节奏在“生产”环境中提供。 有关最新功能的详细信息，请参阅[Adobe Workfront Fusion发行活动](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
+Workfront Fusion中的新增功能在2025年第一季度发布计划之外以一定节奏在“生产”环境中提供。 有关最新功能的详细信息，请参阅[Adobe Workfront Fusion发行活动](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
 
 ### Workfront规划增强功能
 
@@ -747,8 +748,8 @@ Workfront Planning中的新增功能已在生产环境中可用。 有关最新�
 
 ### Workfront 维护更新
 
-有关2025年第一季度版本中所做维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/zh-hans/docs/workfront-known-issues/releases/current-updates)。
+有关2025年第一季度版本中所做维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)。
 
 ### 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/zh-hans/docs/workfront-learn/tutorials-workfront/home)的“新增功能”部分。
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)的“新增功能”部分。

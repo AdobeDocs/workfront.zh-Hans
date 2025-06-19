@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: 75a8990a3bb75a0f8177b10d5e42bd6b4211f7f1
+source-git-commit: d7b9f6cac531bed5fd2a3e5c766e9d714f2625e4
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,20 @@ ht-degree: 0%
 本页介绍了在2025年第三季度版本中对“预览”环境做出的所有主页增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2025年第三季度发布周期中此时可用的所有更改列表，请参阅[2025年第三季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)。
+
+## 更新了“我的更新”区域上“提及”部分中的评论体验
+
+>[!NOTE]
+>
+>* 预览： 2024年12月19日
+>* 生产快速发布： 2025年6月19日
+>* 适用于所有客户的生产： 2025年6月19日
+
+我们正在更新我的更新区域的提及部分中的评论体验。 现在，在大多数Workfront对象的“更新”区域中，也可以在“我的更新”的“提及”部分中获得相同的体验。
+
+在此增强功能之前，此区域中提供旧版评论体验。
+
+有关信息，请参阅[使用我的更新区域](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-updates-area.md)。
 
 ## 我的审批构件现在按截止日期自动排序
 

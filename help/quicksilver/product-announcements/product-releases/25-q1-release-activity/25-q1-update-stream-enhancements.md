@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29fa2641-9ac0-4cad-aef1-0f5ac877bab1
-source-git-commit: 270bf0fb1bb5b3ab93e82aafd423ee6fceaa7b42
+source-git-commit: ec74d34bc69f2f1424414453f9fdf94e539a75fd
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览版本： 2024年12月19日；面向所有客户的生产版本：即将发布
+>预览版本： 2024年12月19日；适用于所有客户的生产版；主页：即将发布；适用于所有客户的生产版“我的更新”： 2025年6月19日
 
 我们正在主页的“提及次数”小组件和“我的更新”区域的提及次数部分中更新评论体验。 现在，在大多数Workfront对象的“更新”区域中，相同的体验也可在我的更新的“提及”小组件和“提及”部分中使用。
 
