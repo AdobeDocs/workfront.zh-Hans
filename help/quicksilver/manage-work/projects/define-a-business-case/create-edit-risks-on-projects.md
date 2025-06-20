@@ -6,16 +6,16 @@ description: 风险是阻止项目按时完成或在预算内完成的可能事�
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1108'
 ht-degree: 1%
 
 ---
 
 # 创建和编辑项目风险
 
-<!--Audited: 01/2025-->
+<!--Audited: 06/2025-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
@@ -44,27 +44,30 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-   <td> 
-   <p>任何</p></td> 
+   <td role="rowheader"><p>Adobe Workfront计划*</p></td> 
+   <td> <p>当前计划：</p>
+   <ul><li>任何计划，用于在项目的风险区域添加风险</p></li>
+   <li><p>Prime或更高版本，以便在项目的商业论证中添加风险</p></li></ul>
+   <p>传统计划：任何计划</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td> <p>新增：标准 </p>
-   <p>当前：计划 </p> </td> 
+   <td role="rowheader"><p>Adobe Workfront许可证*</p></td> 
+   <td> <p>当前：标准 </p>
+   <p>旧版：计划 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
+   <td role="rowheader"><p>访问级别配置</p></td> 
    <td> <p>编辑对项目和财务数据的访问权限</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">对象权限</td> 
+   <td role="rowheader"><p>对象权限</p></td> 
    <td> <p> 管理权限包括管理要为其创建或编辑风险的项目的财务 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -110,7 +113,7 @@ ht-degree: 1%
 1. 转到要为其创建风险的项目。
 1. 单击左侧面板中的&#x200B;**风险**。
 
-   任务![&#128279;](assets/risks-section-on-project-2022.png)的风险部分
+   任务](assets/risks-section-on-project-2022.png)的![风险部分
 
 1. 单击&#x200B;**开始添加风险**&#x200B;并通过内联编辑其信息来创建风险。 **描述**&#x200B;是必填字段
 

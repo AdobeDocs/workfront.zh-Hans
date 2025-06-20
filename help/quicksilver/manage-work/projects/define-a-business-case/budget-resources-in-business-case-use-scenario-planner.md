@@ -5,14 +5,16 @@ description: 作为资源计划的一部分，您可以在构建业务案例时�
 author: Alina
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '972'
 ht-degree: 0%
 
 ---
 
 # 使用方案规划器的业务案例中的预算资源
+
+<!--Audited: 06/2025-->
 
 作为资源计划的一部分，您可以在构建业务案例时使用Adobe Workfront Scenario Planner来预算完成项目中的工作所需的工作角色。
 
@@ -33,7 +35,7 @@ ht-degree: 0%
 
 ## 访问要求
 
-您必须具备以下条件：
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,19 +44,22 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>业务或更高</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront计划*</p></td> 
+   <td><p>当前：Ultimate</p> 
+   <p>旧版：商业版或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>审核或更高</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront许可证*</p></td> 
+   <td><p>当前：浅色或更高 
+   <p>旧版：审阅或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">产品</td> 
-   <td> <p>您必须为Adobe Workfront Scenario Planner购买附加许可证，才能访问本文中描述的功能。</p> <p>有关获取Workfront Scenario Planner的信息，请参阅<a href="../../../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用Scenario Planner所需的访问权限</a>。 </p> </td> 
+   <td role="rowheader"><p>产品</p></td> 
+   <td><p>Scenario Planner包含在当前Ultimate Workfront计划中。</p> 
+   <p>对于旧版Workfront计划，除了Workfront许可证外，您必须为Adobe Workfront Scenario Planner购买许可证，才能访问本文中描述的功能。</p> <p>有关获取Workfront Scenario Planner的信息，请参阅<a href="../../../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用Scenario Planner所需的访问权限</a>。 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
+   <td role="rowheader"><p>访问级别配置</p></td> 
    <td> <p>编辑对以下内容的访问权限： </p> 
     <ul> 
      <li> <p>项目</p> </li> 
@@ -63,13 +68,15 @@ ht-degree: 0%
     </ul> <p>有关预算资源所需的访问权限的信息，另请参阅<a href="../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref">在Adobe Workfront中预算资源所需的访问权限</a>。</p> <p>注意：如果您仍然没有访问权限，请咨询Adobe Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">对象权限</td> 
+   <td role="rowheader"><p>对象权限</p></td> 
    <td> <p>管理项目的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先决条件
 

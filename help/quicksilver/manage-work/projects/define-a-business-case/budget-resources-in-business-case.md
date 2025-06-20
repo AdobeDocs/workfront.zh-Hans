@@ -5,7 +5,7 @@ description: 作为资源计划的一部分，您可以在构建业务案例时�
 author: Alina
 feature: Work Management
 exl-id: 85aa13c7-e48d-4b8c-89f7-1ba7f66670b0
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
@@ -24,9 +24,9 @@ ht-degree: 0%
 
 * 使用资源规划者将资源池应用于项目和预算职位角色。
 
-  有关详细信息，请参阅使用资源规划者[&#128279;](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md)的业务案例中的预算资源。
+  有关详细信息，请参阅使用资源规划者](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md)的业务案例中的[预算资源。
 
-* 使用Scenario Planner创建具有所需工作角色的计划，并将它们链接到项目。 有关详细信息，请参阅使用场景规划器[&#128279;](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的业务案例中的预算资源。
+* 使用Scenario Planner创建具有所需工作角色的计划，并将它们链接到项目。 有关详细信息，请参阅使用场景规划器](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的业务案例中的[预算资源。
 
   >[!NOTE]
   >

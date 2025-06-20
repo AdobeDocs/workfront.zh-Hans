@@ -5,16 +5,16 @@ description: 您可以使用记分卡衡量项目与项目组合中先前建立�
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '1220'
 ht-degree: 0%
 
 ---
 
 # 将记分卡应用于项目并生成一致性分数
 
-<!-- Audited: 02/2024 -->
+<!-- Audited: 06/2025 -->
 
 您可以使用记分卡衡量项目与项目组合中先前建立的标准的匹配程度。 记分卡通常反映了组织的使命、价值观和战略目标。
 
@@ -29,14 +29,14 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader">Adobe Workfront计划*</td> 
    <td>
    <p>当前：Prime或更高版本</p>
    <p>或</p>
    <p>旧版：商业版或更高版本</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
    <td>
    <p>当前：标准</p>
    <p>或</p>
@@ -53,7 +53,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

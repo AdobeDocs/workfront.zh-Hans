@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '3676'
+source-wordcount: '3633'
 ht-degree: 2%
 
 ---
@@ -34,8 +34,6 @@ ht-degree: 2%
 ## 访问要求
 
 +++ 展开以查看访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
 <col> 
@@ -260,8 +258,6 @@ ht-degree: 2%
 
 * 删除筛选器会将其从与您访问相同记录类型的任何人中移除，并使用与您使用的相同视图。
 
-* 向表格视图添加筛选器与向时间轴视图添加筛选器相同。
-
 * 您可以按连接的记录字段或查找字段进行筛选。
 
 * 您可以按显示多个值的查找字段进行筛选。
@@ -432,8 +428,6 @@ ht-degree: 2%
 
 将分组应用于视图时，您可以按类似的信息对记录进行分组。
 
-在表格视图中添加分组与向时间轴视图添加分组类似。
-
 请考虑以下事项：
 
 * 可以在表格视图和时间线视图中应用分组。 表格视图的分组独立于相同记录类型的时间线视图中的分组。
@@ -464,6 +458,8 @@ ht-degree: 2%
 
    为分组选择的字段数将显示在分组图标旁边。
 
+   <!--replace screen shot for Expand all-->
+
    ![分组应用于表视图](assets/grouping-applied-in-table-view.png)
 
 1. （可选）在&#x200B;**按**&#x200B;对记录进行分组框中，单击为分组选择的字段右侧的&#x200B;**x**&#x200B;图标以删除该分组
@@ -475,6 +471,26 @@ ht-degree: 2%
 1. 单击&#x200B;**按**&#x200B;分组记录框外部以将其关闭。
 1. （可选）单击任何分组末尾的&#x200B;**+新记录**&#x200B;以添加新记录，然后刷新页面以将新记录添加到相应的分组。<!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
+<!--
+
+1. <span class="preview">To expand or collapse groupings, do one of the following:</span>
+
+    <div class="preview">
+
+    1. Click the **Grouping** icon, then **Expand all**, or **Collapse all**. This expands all the groupings and subgroupings in the table view. 
+
+        ![Expand and collapse all buttons on grouping box table view](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
+
+    1. Right-click any of the grouping headers in the table view, then click one of the following options:
+        * **Expand group**
+        * **Collapse group**
+        * **Expand all**
+        * **Collapse all**
+        * **Expand subgroups**
+        * **Collapse subgroups**
+
+        Depending on the number of groupings you apply to the view, some options might not be available.</div>
+-->
 
 <!-- this is not available yet: 
 

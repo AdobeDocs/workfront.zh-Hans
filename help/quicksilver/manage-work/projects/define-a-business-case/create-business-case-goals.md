@@ -5,16 +5,16 @@ description: 在创建业务案例的过程中，您可以创建一组目标以�
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '445'
 ht-degree: 1%
 
 ---
 
 # 创建业务案例目标
 
-<!-- Audited: 4/2025 -->
+<!-- Audited: 6/2025 -->
 
 在创建业务案例的过程中，您可以创建一组目标以定义项目目标。 这些目标用于将完成项目的目的传达给Portfolio经理或项目发起人。
 
@@ -50,12 +50,12 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader"><p>Adobe Workfront计划*</p></td> 
    <td> <p>当前：Prime或更高版本</p>
    <p>旧版：专业版或更高版本</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td>
+   <td role="rowheader"><p>Adobe Workfront许可证*</p></td>
    <td> 
    <p>当前：标准</p> 
    <p>旧版：计划 </p> 
@@ -63,16 +63,16 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>编辑对项目的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td> <p>编辑对项目的访问权限</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">对象权限</td> 
-   <td> <p>管理项目的权限或更高</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td role="rowheader"><p>对象权限</p></td> 
+   <td> <p>管理项目的权限或更高</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -103,6 +103,6 @@ ht-degree: 1%
      >
      >您无法自定义目标的重要性级别。
 
-1. （可选）要添加另一个目标，请单击“添加另一个目标”**&#x200B;**&#x200B;并重复步骤5-6。
+1. （可选）要添加另一个目标，请单击“添加另一个目标”****&#x200B;并重复步骤5-6。
 
 1. 单击&#x200B;**保存**。

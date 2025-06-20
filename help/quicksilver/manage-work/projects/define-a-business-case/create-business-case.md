@@ -5,14 +5,16 @@ description: 您可以使用业务案例来请求项目，并定义项目的目�
 author: Alina
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
 
 # 为项目创建业务案例
+
+<!--Audited: 6/2025-->
 
 您可以使用业务案例来请求项目，并定义项目的目的、预算和潜在利益。 Portfolio经理或项目发起人在批准项目之前，会使用业务案例中的信息来分析和优先处理项目。
 
@@ -25,30 +27,30 @@ ht-degree: 0%
  <col> 
  <tbody> 
  <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader"><p>Adobe Workfront计划*</p></td> 
    <td> 
    <p>当前：Prime或更高版本</p> 
    <p>旧版：专业版或更高版本</p> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td role="rowheader"><p>Adobe Workfront许可证*</p></td> 
    <td> 
    <p>当前：标准 </p> 
    <p>旧版：计划 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
-   <td> <p>编辑对项目、财务数据和资源管理的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td role="rowheader"><p>访问级别配置</p></td> 
+   <td> <p>编辑对项目、财务数据和资源管理的访问权限</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">对象权限</td> 
-   <td> <p>管理项目或更高权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td role="rowheader"><p>对象权限</p></td> 
+   <td> <p>管理项目或更高权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

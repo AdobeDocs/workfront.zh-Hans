@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: dae692617f447c446a421207143225b33b51debe
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '3512'
-ht-degree: 0%
+source-wordcount: '3788'
+ht-degree: 2%
 
 ---
 
@@ -28,8 +28,6 @@ ht-degree: 0%
 ## 访问要求
 
 +++ 展开以查看访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
 <col> 
@@ -146,7 +144,7 @@ ht-degree: 0%
 
    ![时间线视图上缺少自定义季度原始消息](assets/missing-custom-quarters-original-message-on-timeline-view.png)
 
-   每个用户显示一次这些警告消息。
+   每个用户会显示一次有关自定义季度的警告消息。
 
    >[!NOTE]
    >
@@ -156,18 +154,18 @@ ht-degree: 0%
 
    </div>
 
-1. <span class="preview">（视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”**&#x200B;**，然后要求您的Workfront管理员设置自定义季度。</span>
+1. <span class="preview">（视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”****，然后要求您的Workfront管理员设置自定义季度。</span>
 
    >[!TIP]
    >
    ><span class="preview">仅对Workfront管理员显示“转到设置”按钮。</span>
 
-1. （可选且有条件）记录名称被截断时，将鼠标悬停在记录栏上会显示记录的全名和其他信息。
+1. （可选且有条件）记录名称被截断时，将鼠标悬停在记录栏上会显示记录的全名和其他信息。 有关在时间轴中设置记录栏截断的信息，请参阅本文中的[编辑时间轴视图设置](#edit-the-timeline-view-settings)部分。
 
 1. 执行以下操作之一可在时间轴中导航：
 
-   * 单击左右图标或使用水平滚动条在时间轴中前后移动。 刷新页面将保留所选的时间范围。
-   * 单击&#x200B;**今天**&#x200B;可将时间线居中到今天的日期。
+   * 单击左上角的左右图标，或使用水平滚动在时间轴中前后移动。 刷新页面将保留所选的时间范围。
+   * 单击右上角的&#x200B;**今天**，将时间线居中到今天的日期。
    * 从时间范围下拉菜单中选择以下选项之一以更新时间增量并更新视图：
 
       * **年**：显示有年指示的季度和月。
@@ -218,12 +216,105 @@ ht-degree: 0%
 
 * 删除筛选器会将其从与您访问相同记录类型以及显示与您相同的视图的任何人中删除。
 
-* 在时间轴视图中添加筛选器与在表视图中添加筛选器相同。
-
-  有关详细信息，请参阅文章[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)中的“添加筛选器”部分。
-
 * 您可以按连接的记录字段或查找字段进行筛选。
 * 您可以按显示多个值的查找字段进行筛选。
+
+要将过滤器添加到时间线视图，请执行以下操作：
+
+1. 为记录类型页面创建时间线视图，如文章[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)中所述。
+1. 选择一个时间线视图，然后单击表右上角的&#x200B;**筛选器**。
+1. 单击&#x200B;**添加条件**&#x200B;并添加以下信息：
+
+   * **选择要按<!-- the tip below might change-->筛选的字段**
+
+   * **选择一个选项**（或筛选器修饰符）以定义字段必须满足哪种条件
+
+     下表显示了每种字段类型的可用修饰符。
+
+     <table>
+        <thead>
+        <tr>
+            <th><b>字段类型</b></th>
+            <th><b>修饰符</b></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>单行、段落、公式 </td>
+            <td><p>包含</p>
+            <p>不包含</p>
+            <p>是</p>
+            <p>不是</p>
+            <p>为空</p>
+            <p>不为空</p></td>
+        </tr>
+        <tr><td>单选</td>
+            <td><p>是</p>
+            <p>不是</p>
+            <p>是任何</p>
+            <p>不是任何</p>
+            <p>为空</p>
+            <p>不为空</p></td>
+        </tr>
+        <tr>
+            <td>多选，人员</td>
+            <td><p>具有任何</p>
+            <p>包含所有</p>
+            <p>正好</p>
+            <p>没有</p>
+            <p>为空</p>
+            <p>不为空</p></td>
+        </tr>
+        <tr>
+            <td>数字、百分比、货币</td>
+            <td><p>=</p>
+            <p>≠</p>
+            <p> &lt; </p>
+            <p>&gt;</p>
+            <p>≤</p>
+            <p>≥</p>
+            <p>为空</p>
+            <p>不为空</p></td>
+        </tr>
+        <tr>
+            <td>日期</td>
+            <td><p>是</p>
+            <p>不是</p>
+            <p>晚于</p>
+            <p>早于</p>
+            <p>介于</p><p>非介于</p>
+            <p>为空</p><p>不为空</p></td>
+        </tr>
+
+     <tr>
+            <td>复选框</td>
+            <td><p>是</p>
+        </tr>
+        </tbody>
+        </table>
+
+   * 为所选字段选择值。
+
+   ![筛选器UI表视图](assets/filter-ui-table-view.png)
+
+   您可以添加的筛选条件数量没有限制。
+
+1. （可选）单击&#x200B;**添加条件**&#x200B;以添加其他筛选选项并重复上述步骤。 应用的筛选器数显示在&#x200B;**筛选器**&#x200B;图标的左侧。
+1. 单击左侧的以下运算符以指示连接和应应用过滤器条件的方式：
+
+   * **AND**：必须满足所有指定的条件。
+   * **OR**：必须满足任何指定的条件。
+这是默认选项。
+
+   1. （可选）添加其他筛选器分组并由&#x200B;**AND**&#x200B;或&#x200B;**OR**&#x200B;运算符加入它们。
+
+      ![视图中的多层筛选器](assets/multi-tiered-filters-in-views.png)
+
+   系统会根据您的筛选条件自动筛选记录列表。 <!--at this time, you can't name and save the filter - but will this change?!-->
+   <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
+
+1. （可选）单击&#x200B;**x**&#x200B;图标可删除筛选条件。
+1. （可选）单击&#x200B;**筛选器**&#x200B;或页面上的任何其他位置以关闭筛选器框。<!--right now you cannot "clear all" for filters, but this might come later-->
 
 
 ### 添加分组
@@ -231,8 +322,6 @@ ht-degree: 0%
 <!-- groupings are almost identical between this view and table  but they display a little differently, so I kept the steps for both; update in both places if they make changes to groupings-->
 
 将分组应用于视图时，您可以按类似的信息对记录进行分组。
-
-在时间轴视图中添加分组与将分组添加到表格视图类似。
 
 在时间线视图中使用分组时，请考虑以下事项：
 
@@ -320,7 +409,7 @@ this is not possible right now; if this is the same functionality as the table v
    默认情况下会选择记录的主字段（或标题），如在记录的表格视图中定义的那样。
    <!--adjust this when the primary field is released??-->
 
-1. （可选且视情况而定）如果您将缩略图添加到记录，请选择“缩略图”选项以在记录栏中显示与记录关联的图像。
+1. （可选且视情况而定）如果您将缩略图添加到记录，请选择&#x200B;**缩略图**&#x200B;选项以在记录栏中显示与记录关联的图像。
 
    >[!NOTE]
    >
@@ -340,13 +429,13 @@ this is not possible right now; if this is the same functionality as the table v
 
    ![带有预览的记录详细信息面板时间线设置](assets/record-details-panel-timeline-settings-with-preview.png)
 
-1. <span class="preview">（可选且有条件）如果在“标准”模式下显示时间轴，请启用&#x200B;**截断栏详细信息**&#x200B;设置。 启用后，记录栏上的信息将被截断，并且仅在将鼠标悬停在记录栏上时完全显示。 默认情况下，此设置处于禁用状态，信息会完全显示在栏中。</span>
+1. <span class="preview">（可选且有条件）如果在“标准”模式下显示时间轴，请选择&#x200B;**截断栏详细信息**&#x200B;设置。 选中后，记录栏上的信息将被截断，仅当将鼠标悬停在记录栏上时，才会完全显示信息。 默认情况下，此设置处于取消选中状态，记录信息会完全显示在栏中。</span>
 
    ![时间线设置框上启用的“截断设置”突出显示](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
 
    >[!TIP]
    >
-   ><span class="preview">在紧凑模式下显示时间轴视图时，截断栏详细信息设置不可用，在日历视图中不可用。</span>
+   ><span class="preview">在紧凑模式下显示时间轴视图时，“截断栏详细信息”设置不可用。</span>
    >
 
 1. 单击左侧面板中的&#x200B;**颜色**，以自定义时间轴中记录和分组的颜色。
@@ -392,13 +481,11 @@ this is not possible right now; if this is the same functionality as the table v
 
    如果对于所选的记录类型没有带颜色编码选项的字段，则此选项将灰显。
 
-1. <span class="preview">（可选）如果您使用“划分”选项，请为时间轴中显示的每个连接记录重复从步骤4开始的步骤。</span>
+1. <span class="preview">（可选）如果您使用&#x200B;**划分**&#x200B;选项，请对时间轴中显示的每个连接的记录重复从步骤4开始的步骤。</span>
 
 1. 单击&#x200B;**保存**。
 
    这些记录将按照您选择的规范显示在时间轴视图中。
-
-
 
 ### 在时间轴视图中划分连接的记录
 
