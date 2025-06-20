@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >您在项目层资源计划员中输入的信息也可在系统层资源计划员中看到。 反之亦然。 有关资源规划者的信息，请参阅[资源规划者概述](../../../resource-mgmt/resource-planning/get-started-resource-planner.md)。
 
-您还可以使用Adobe Workfront Scenario Planner在业务案例中预算资源。 有关详细信息，请参阅使用场景规划器](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的业务案例中的[预算资源。
+您还可以使用Adobe Workfront Scenario Planner在业务案例中预算资源。 有关详细信息，请参阅使用场景规划器[&#128279;](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的业务案例中的预算资源。
 
 ## 访问要求
 

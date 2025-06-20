@@ -24,9 +24,9 @@ ht-degree: 0%
 
 * 使用资源规划者将资源池应用于项目和预算职位角色。
 
-  有关详细信息，请参阅使用资源规划者](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md)的业务案例中的[预算资源。
+  有关详细信息，请参阅使用资源规划者[&#128279;](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md)的业务案例中的预算资源。
 
-* 使用Scenario Planner创建具有所需工作角色的计划，并将它们链接到项目。 有关详细信息，请参阅使用场景规划器](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的业务案例中的[预算资源。
+* 使用Scenario Planner创建具有所需工作角色的计划，并将它们链接到项目。 有关详细信息，请参阅使用场景规划器[&#128279;](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的业务案例中的预算资源。
 
   >[!NOTE]
   >
