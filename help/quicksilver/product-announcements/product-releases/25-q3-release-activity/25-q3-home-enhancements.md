@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: d7b9f6cac531bed5fd2a3e5c766e9d714f2625e4
+source-git-commit: de30f2600c5d13bb4bbc56cdc1b166ac7c5adb05
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -42,4 +42,7 @@ ht-degree: 0%
 
 我们更新了主页中的我的审批构件，以默认按截止日期（降序）排序。 这允许最紧急的批准显示在列表顶部。
 
+目前，只有验证审批可以按我的审批小组件中的截止日期排序。
+
 以前，构件按输入日期排序，这使得确定优先级具有挑战性。
+
