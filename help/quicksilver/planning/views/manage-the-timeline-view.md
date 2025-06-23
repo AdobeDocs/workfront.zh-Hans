@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 44b3298905a04c64a457045c4112d9628d933aae
 workflow-type: tm+mt
-source-wordcount: '3788'
+source-wordcount: '3804'
 ht-degree: 2%
 
 ---
@@ -106,7 +106,7 @@ ht-degree: 2%
 
    * 记录日期
    * 记录系统生成的字段：创建日期、上次修改日期
-   * 来自连接的记录或对象类型的查找日期。
+   * 来自连接的记录或对象类型的查找日期（仅在连接记录或对象类型时为其添加了聚合器时）
 * 根据与记录关联的日期，在以下场景中，某些记录可能不会显示在时间轴视图中：
 
    * 当开始日期和结束日期没有值时
@@ -154,7 +154,7 @@ ht-degree: 2%
 
    </div>
 
-1. <span class="preview">（视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”**&#x200B;**，然后要求您的Workfront管理员设置自定义季度。</span>
+1. <span class="preview">（视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”****，然后要求您的Workfront管理员设置自定义季度。</span>
 
    >[!TIP]
    >
