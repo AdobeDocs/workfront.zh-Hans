@@ -6,26 +6,26 @@ description: 提供对请求队列的访问权限时，您可以确定组织中�
 author: Alina
 feature: Work Management
 exl-id: eb88c32a-f8b8-42d3-9a3a-72c62fd1dc3a
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
 
 # 提供对请求队列的访问权限
 
+<!-- Audited: 6/2025 -->
+
 提供对请求队列的访问权限时，您可以确定组织中的哪些人可以在Adobe Workfront的请求区域查看请求队列。
 
-您可以根据请求队列中不同用户是项目团队、项目组或项目公司的一员，为这些用户提供对请求队列的访问权限。 您还可以向系统中的每个人提供对请求队列的访问权限。
+您可以根据请求队列中的不同用户是项目团队、项目组或项目公司的一员，为他们提供不同的访问权限。 您还可以向系统中的每个人提供请求队列访问权限。
 
-在邀请外部利益相关者加入Workfront并希望限制用户对特定区域的访问权限的组织中，这将很有用，在此情况下，仅对与项目公司或组关联的用户打开的请求队列会限制外部利益相关者的可见性。 将访问权限授予任何人都可以让内部和外部利益相关者看到该请求。
+这在邀请外部利益相关者进入Workfront并希望限制用户对特定区域的访问权限的组织中很有用。 在这种情况下，仅对与项目公司或组关联的用户打开的请求队列限制了外部利益相关者可见。 将访问权限授予任何人都可以让内部和外部利益相关者看到该请求。
 
 ## 访问要求
 
 +++ 展开以查看本文中各项功能的访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,9 +38,8 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
-   <p>新许可证： Standard </p>
-   或
-   <p>当前许可证：计划 </p> </td> 
+   <p>新增：标准 </p>
+   <p>当前：计划 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -61,7 +60,7 @@ ht-degree: 0%
 
 在请求队列可供请求区域中的用户使用之前，您必须创建具有以下设置的项目：
 
-* 将其指定为请求队列。 有关创建请求队列的详细信息，请参阅[创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
+* 将其指定为请求队列。 有关详细信息，请参阅[创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 * 将项目的状态更新为当前。
 
 ## 提供对请求队列的访问权限
@@ -74,7 +73,7 @@ ht-degree: 0%
 
 1. 单击左侧面板中的&#x200B;**队列详细信息**。
 1. 选择&#x200B;**发布为帮助请求队列**&#x200B;以将项目指定为请求队列。
-1. 从以下选项中选择：
+1. 从显示的以下选项中进行选择：
 
    * **任何人**：任何用户都可以查看请求并将其添加到请求队列。
    * **拥有查看此项目访问权限的用户**：拥有项目查看权限的用户可以查看请求并将其添加到请求队列。
@@ -83,7 +82,8 @@ ht-degree: 0%
 
      当多个部门共享一个Workfront帐户以实现独特的组织目标时，组队列非常有用。 每个部门可能有自己的队列，其他组的成员应该看不到这些队列。
 
-     有关谁拥有项目权限的信息，请参阅[在Adobe Workfront中共享项目](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)。\
-     编辑项目时，组和公司可以与项目相关联。 有关编辑项目的详细信息，请参阅[编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md)。
+     有关谁拥有项目权限的信息，请参阅[在Adobe Workfront中共享项目](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)。
+
+     编辑项目时，组和公司可以与项目相关联。 有关详细信息，请参阅[编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md)。
 
 1. 单击&#x200B;**保存**。
