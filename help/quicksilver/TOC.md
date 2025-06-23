@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
+source-git-commit: d5b0043ed251bfdb6501d091cf10d77685bc497b
 workflow-type: tm+mt
-source-wordcount: '13266'
+source-wordcount: '13201'
 ht-degree: 2%
 
 ---
@@ -1699,17 +1699,6 @@ ht-degree: 2%
          * [共享功能板](reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
          * [从功能板中删除外部页面](reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
          * [画布功能板概述](reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
-   * 已优化的分析 {#enhanced-analytics}
-      * [已优化的分析](enhanced-analytics/enhanced-analytics.md)
-      * [增强的分析概述](enhanced-analytics/enhanced-analytics-overview.md)
-      * [在增强的分析中应用过滤器](enhanced-analytics/use-enhanced-analytics-filters.md)
-      * [了解优化的分析KPI](enhanced-analytics/understand-enhanced-analytics-kpis.md)
-      * [在增强型分析中查看外部测试版计划可视化图表](enhanced-analytics/flight-plan-overview.md)
-      * [在增强型分析中查看燃尽可视化图表](enhanced-analytics/burndown-overview.md)
-      * [在Enhanced Analytics中查看外部测试版中的任务可视化图表](enhanced-analytics/tasks-in-flight-overview.md)
-      * [在增强型分析中查看项目活动可视化](enhanced-analytics/project-activity-overview.md)
-      * [在增强型分析中查看项目树状图可视化图表](enhanced-analytics/project-treemap-overview.md)
-      * [在增强型分析中查看按团队分类的活动可视化图表](enhanced-analytics/activity-by-team-overview.md)
    * Workfront数据连接 {#data-lake}
       * [Workfront Data Connect概述](reports-and-dashboards/data-lake/data-lake-overview.md)
       * [为Snowflake创建Reader帐户或连接](reports-and-dashboards/data-lake/create-a-reader-account.md)
@@ -2177,7 +2166,7 @@ ht-degree: 2%
    * 适用于Outlook的Adobe Workfront {#workfront-for-outlook}
       * [适用于Outlook的Adobe Workfront：文章索引](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
       * [设置适用于Outlook的Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
-      * [适用于Outlook的Workfront的权限级别](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
+      * 适用于Outlook的Workfront的[权限级别](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
       * [回复Outlook的评论](workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md)
       * [通过Outlook电子邮件更新现有对象](workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md)
       * [将Outlook电子邮件作为任务或问题添加到项目](workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md)
@@ -2472,8 +2461,8 @@ ht-degree: 2%
       * [使用JWT流配置和使用贵组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程配置和使用您组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-pkce-flow.md)
       * [弃用API — 内部](wf-api/api/deprecation-api-internal.md)
-      * [API版本20中的新增功能](wf-api/api/new-api-version-20.md)
-      * [API版本19中的新增功能](wf-api/api/new-api-version-19.md)
+      * [API版本20](wf-api/api/new-api-version-20.md)中的新增功能
+      * [API版本19](wf-api/api/new-api-version-19.md)中的新增功能
       * [API版本18中的新增功能](wf-api/api/new-api-version-18.md)
       * [API版本17中的新增功能](wf-api/api/new-api-version-17.md)
       * [API版本16中的新增功能](wf-api/api/new-api-version-16.md)
