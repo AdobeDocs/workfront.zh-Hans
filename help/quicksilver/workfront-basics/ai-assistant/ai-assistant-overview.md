@@ -5,9 +5,9 @@ description: AI Assistant概述
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: f496d5170ff087167130a6463e18ea44af50e21f
+source-git-commit: a4e403abadc0268b919ce8105989ef6c912f33a4
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '825'
 ht-degree: 1%
 
 ---
@@ -138,7 +138,7 @@ AI助手当前提供以下功能：
 1. 出现Adobe Gen AI协议消息时，单击&#x200B;**审阅协议**。
 1. 输入贵组织内将签署Adobe Gen AI协议的人员的姓名和电子邮件地址。
 
-   协议将发送给此人签署。 签名并返回后，将为您的组织启用AI助手。
+   协议将发送给此人签署。 签署并返回协议后，Adobe会审核协议，然后为您的组织启用AI助手。
 
 ## 在AI助手中创建提示的提示
 
@@ -146,7 +146,7 @@ AI助手当前提供以下功能：
 
 输入提示时，请包含短语`using (keyword)`。
 
-| 关键字 | 效果 |
+| 关键词 | 效果 |
 |---|---|
 | `workfront` | 与Workfront交互。 |
 | `planning ` | 与Workfront Planning交互。 |
