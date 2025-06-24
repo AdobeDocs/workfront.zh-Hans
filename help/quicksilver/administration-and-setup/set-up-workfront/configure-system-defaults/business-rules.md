@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 34f7f35875f063a77d33ee63c33e69721dc70c03
+source-git-commit: 1cf16fd93de383aae66ba810ad85dd00806b8237
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1341'
 ht-degree: 2%
 
 ---
@@ -99,6 +99,8 @@ ht-degree: 2%
   ```
   IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")
   ```
+
+系统允许每个触发器的每个对象有一个业务规则。 例如，对于问题，允许使用一条编辑触发器规则。 但是，您可以使用嵌套的IF语句在公式中包含多个规则。
 
 具有嵌套IF语句的情形是：
 
