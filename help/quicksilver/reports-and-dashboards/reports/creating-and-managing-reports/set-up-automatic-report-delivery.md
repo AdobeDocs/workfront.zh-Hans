@@ -6,9 +6,9 @@ description: 计划自动报表提交
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
+source-git-commit: 62f56486ccc590921b7dc8227d46cdede84df32d
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1309'
 ht-degree: 2%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 2%
       <td role="rowheader"> <p>发送至</p> </td> 
       <td> <p>开始键入要向其发送报告的用户、组、团队或角色的名称，然后在名称出现在下拉列表中时单击该名称。</p> <p>或</p> <p>输入您希望有权访问报告的Workfront系统外部人员的电子邮件地址。</p> <p>重复此过程可将报告发送给多个用户、组、团队或角色。</p> <p>注意：  <p>添加报告投放收件人时，请考虑以下事项：</p> 
         <ul> 
-         <li>如果贵组织将Workfront通知限制在特定电子邮件域，则您只能将报告发送到电子邮件允许列表中列出的电子邮件地址。<p>有关Workfront管理员如何更新电子邮件允许列表的信息，请参阅<a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref">配置电子邮件允许列表</a>部分。</p></li> 
+         <li><p>如果贵组织将Workfront通知限制在特定电子邮件域，则您只能向电子邮件允许列表中列出的电子邮件地址发送报告。</p> <p>例如，当用户被设置为报告收件人并且拥有之前允许的电子邮件地址时，并且更新允许列表以不再向该域投放电子邮件时，用户将不再接收投放的报告。</p><p>有关Workfront管理员如何更新电子邮件允许列表的信息，请参阅<a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref">配置电子邮件允许列表</a>部分。</p></li> 
          <li> <p>添加大量用户作为收件人可能会导致投放失败。 如果您遇到交付失败的情况，则可以使用较小的用户组安排多个报表交付。</p> </li> 
         </ul> </td> 
      </tr> 
