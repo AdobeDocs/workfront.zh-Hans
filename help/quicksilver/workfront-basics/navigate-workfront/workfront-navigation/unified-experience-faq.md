@@ -6,9 +6,9 @@ description: ' [!DNL Workfront] 和Adobe Experience Cloud的一些功能不同�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f59643eb3722c72fc8cbb5009223af143ac240d8
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: '1397'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 [!DNL Workfront]的[!DNL Adobe Unified Experience]允许您在单一登录位置管理所有[!DNL Adobe]应用程序。 [!DNL Adobe]导航区域与[!DNL Workfront]无缝集成。 一些功能不同，在将[!DNL Workfront]实例迁移到统一体验时，您可能会有一些问题。
 
-有关如何登录到[!DNL Adobe Unified Experience]的信息，请参阅 [!DNL Workfront][&#128279;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)的[!DNL Adobe Unified Experience] 。
+有关如何登录到[!DNL Adobe Unified Experience]的信息，请参阅 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)的[[!DNL Adobe Unified Experience] 。
 
 ## [!DNL Adobe Unified Experience]和[!DNL Workfront only]体验的比较
 
@@ -61,13 +61,13 @@ ht-degree: 0%
 
 将与现有客户联系以安排迁移。 迁移团队支持同事将引导客户完成该过程，提出[!DNL Admin Console]设置的建议，并提供所需的文档链接以使迁移尽可能简单和轻松。
 
-* [[!DNL Adobe Workfront] 支持概述](https://experienceleague.adobe.com/zh-hans/docs/customer-one/using/workfront/overview)
-* [[!DNL Workfront Admin Console] 信息](https://experienceleague.adobe.com/zh-hans/docs/customer-one/using/workfront/landing)
-* [[!DNL Adobe Business Platform] 和 [!DNL Admin Console] 常见问题解答](https://experienceleague.adobe.com/zh-hans/docs/customer-one/using/workfront/faq)
+* [[!DNL Adobe Workfront] 支持概述](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/overview)
+* [[!DNL Workfront Admin Console] 信息](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/landing)
+* [[!DNL Adobe Business Platform] 和 [!DNL Admin Console] 常见问题解答](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/faq)
 
 ### 对于已为Federated ID启用此选项与设置[!DNL Workfront] SSO不同的公司，您如何处理[!DNL Adobe Admin Console]？
 
-[!DNL Adobe Admin Console]可以选择包含[!DNL Workfront]，将SSO替换为IMS。 所有用户设置都在[!DNL Admin Console]中进行，用户将看到[!DNL Adobe]登录屏幕以访问[!DNL Experience Cloud]，他们将在其中看到[!DNL Workfront]作为选项（如果他们被授予访问权限）。
+[!DNL Adobe Admin Console]可以选择包含[!DNL Workfront]，将SSO替换为Adobe的Identity Management System (IMS)。 所有用户设置都在[!DNL Admin Console]中进行，用户将看到[!DNL Adobe]登录屏幕以访问[!DNL Experience Cloud]，他们将在其中看到[!DNL Workfront]作为选项（如果他们被授予访问权限）。
 
 ### 这对已具有[!DNL Adobe Assets]的AEM管理面板的客户有何影响 — 但SSO的配置方式与[!DNL Workfront?]不同
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 SSO在[!DNL Admin Console]中设置，并由[!DNL Workfront]应用程序继承。
 
-### 我们的内部[!DNL Active Directory]的SSO是否仍是IMS的一个选项？
+### Adobe的Identity Management System (IMS)是否仍可选择使用我们内部[!DNL Active Directory]的SSO？
 
 IMS是SSO的替代品，其功能大致相同。 所有用户权限都在[!DNL Adobe Admin Console]中授予并设置，用户将看到[!DNL Adobe]登录屏幕，他们可以在其中选择“[!UICONTROL 个人帐户]”或“[!UICONTROL 公司帐户]”登录（如果您有[!DNL Active Directory]，则大多数登录将使用公司帐户）。
 
@@ -103,7 +103,7 @@ IMS是SSO的替代品，其功能大致相同。 所有用户权限都在[!DNL A
 
 ### 所有[!DNL Workfront]用户都必须通过[!DNL Experience Cloud]登录吗？ 还是只是管理员？
 
-是，所有用户都将通过[!DNL Experience Cloud]登录。 IMS登录将替换SSO。 这是非常相似的体验，只是登录屏幕不同。
+是，所有用户都将通过[!DNL Experience Cloud]登录。 Adobe Identity Management System (IMS)登录将取代SSO。 这是非常相似的体验，只是登录屏幕不同。
 
 ### 如果用户已经同时拥有其[!DNL Adobe]帐户和[!DNL Workfront]帐户，用户是否必须将其帐户关联到这两个帐户？
 
