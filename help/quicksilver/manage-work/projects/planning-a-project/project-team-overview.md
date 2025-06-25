@@ -7,16 +7,18 @@ description: 以某种能力与项目相关联的用户构成了项目团队。 
 author: Alina
 feature: Work Management
 exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
-source-git-commit: 1b2180fd33da153c7f8b698cd17df2eb10669ce9
+source-git-commit: 3dfb30646e8a967264f7e562441a52a059d73d32
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
 
 # 项目团队概述
 
-以某种能力与项目相关联的用户构成了项目团队。 在项目的“人员”区域下列出的用户是组成项目团队的用户。 例如，被分派处理项目的用户或项目所有者是项目团队的一部分。
+<!-- Audited: 6/2025 -->
+
+项目团队由以一定能力与项目关联的用户组成。 在项目的“人员”区域下列出的用户构成了项目团队。 例如，被分派处理项目的用户或项目所有者是项目团队的一部分。
 
 ## 项目团队成员
 
