@@ -7,9 +7,9 @@ description: 利用验证角色，可授予对单个验证的权限。 验证角
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 258213af-0081-412e-bf6b-cdeb75d52966
-source-git-commit: 1aa5f36208578b0a7bbc1820cfb220b112bec05b
+source-git-commit: 93452926a27026f2b0e8a7a807381d562d7cbb01
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '382'
 ht-degree: 1%
 
 ---
@@ -21,10 +21,6 @@ ht-degree: 1%
 ## 校样角色
 
 在邀请用户查看验证时，会向个人验证用户授予验证角色。 如果您拥有Workfront Pro+计划，则可以将验证角色授予具有工作或计划许可证的用户。 如果您拥有Workfront Premium旧版计划，则可以将验证角色授予具有指定验证许可证的用户。 有关详细信息，请参阅[访问Workfront中的校对功能](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md)。
-
->[!NOTE]
->
->新Workfront计划上的用户可以向系统中的任何用户授予创作或审查方角色。 旧版计划用户可以将作者或审查方角色授予系统中拥有验证许可证的任何用户。
 
 验证角色定义查看者可对该特定验证执行的操作。
 
@@ -68,7 +64,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p><strong>只读</strong> </p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
@@ -77,90 +73,94 @@ ht-degree: 1%
    <td> </td> 
    <td> </td> 
    <td> <p> </p> </td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>查看者</strong> </p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p><strong>审阅者</strong> </p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
    <td></td> 
    <td> <p> </p> </td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>审批者</strong> </p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
    <td></td> 
    <td> <p> </p> </td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>审阅者和批准者</strong> </p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
    <td></td> 
    <td> <p> </p> </td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
    <td> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>作者</strong> </p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p><strong>作者*</strong> </p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> <p>✓</p> </td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
-   <td>✓ {\f13 }</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>审阅人</strong> </p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ <strong></strong> </p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p>✓ {\f13 }</p> <p> </p> </td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td> <p>✓ {\f13 }</p> </td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td> <p><strong>审查方*</strong> </p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p><strong>✓</strong> </p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> <p> </p> </td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> <p>✓</p> </td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
  </tbody> 
 </table>
+
+<p>*新Workfront计划上的用户可以向系统中的任何用户授予创作或审查方角色，但只有具有Standard许可证的用户才能使用与这些角色关联的所有功能。
+
+旧版计划用户可以将作者或审查方角色授予系统中拥有验证许可证的任何用户。</p>
