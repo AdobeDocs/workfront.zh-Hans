@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: e53f845a00245049ac78616848d243453b2d57eb
+source-git-commit: d41bb7beb4879bcef224b0234b1c024eb16c9bd6
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 9%
+source-wordcount: '848'
+ht-degree: 10%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 9%
 请注意，可使用嵌套筛选功能筛选数据。 有关详细信息，请参阅文章事件订阅API中的[使用嵌套筛选器](/help/quicksilver/wf-api/general/event-subs-api.md#using-nested-filters)。
 
 下表列出了可用于事件订阅资源的字段：
+
+>[!NOTE]
+>
+>某些对象仅在“事件预订”版本2中可用。 这些对象在表格中注明。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,6 +38,200 @@ ht-degree: 9%
   </tr> 
  </thead> 
  <tbody> 
+  <tr> 
+   <td>审批<p>（事件子v2）</p></td> 
+   <td>审批</td> 
+   <td>createdat</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>creatorID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>客户ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> ID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> isLocked </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 对象代码 </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>对象ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>状态</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>更新时间</td> 
+  </tr> 
+  <tr> 
+   <td>审批阶段<p>（事件子v2）</p></td> 
+   <td>approval_stage</td> 
+   <td>approvalID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>createdat</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>creatorID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>客户ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> deadlineDate </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> ID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> isLocked </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> name </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 对象代码 </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>对象ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>状态</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>更新时间</td> 
+  </tr> 
+  <tr> 
+   <td>审批阶段参与者<p>（事件子v2）</p></td> 
+   <td>approval_stage_participant</td> 
+   <td>createdat</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>客户ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> deadlineDate </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 决策 </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> decisiondate </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> decisionUserID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 对象代码 </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>对象ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 参与者ID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 参与者元数据 </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 参与者角色 </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 参与者类型 </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> realUserId </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 请求者ID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> stageID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>状态</td> 
+  </tr> 
   <tr> 
    <td>任务分配</td> 
    <td>分配</td> 
@@ -183,7 +381,7 @@ ht-degree: 9%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>workPerDate <p>[!BADGE 已删除]{type=negative tooltip="此字段已于2023年10月26日删除。"}</span></td> 
+   <td>workPerDate <p>[！BADGE已删除]{type=negative tooltip="此字段已于2023年10月26日删除。"}</span></td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -806,7 +1004,7 @@ ht-degree: 9%
    <td>topReferenceObjID</td> 
   </tr> 
   <tr> 
-   <td>字段</td> 
+   <td>字段<p>（事件子v2）</p></td> 
    <td>字段</td> 
    <td>createdat</td> 
   </tr> 
@@ -1876,7 +2074,7 @@ ht-degree: 9%
    <td><span>请求者ID</span> </td> 
   </tr> 
   <tr> 
-   <td>记录</td> 
+   <td>记录<p><p>（事件子v2）</p></td> 
    <td>记录</td> 
    <td>createdat</td> 
   </tr> 
@@ -1921,7 +2119,7 @@ ht-degree: 9%
    <td>更新时间</td> 
   </tr> 
   <tr> 
-   <td>记录类型 </td> 
+   <td>记录类型<p><p>（事件子v2）</p> </td> 
    <td>记录类型 </td> 
    <td>颜色</td> 
   </tr> 
@@ -2776,7 +2974,7 @@ ht-degree: 9%
    <td>workHoursPerDay </td> 
   </tr> 
   <tr> 
-   <td>Workspace</td> 
+   <td>Workspace<p><p>（事件子v2）</p></td> 
    <td>Workspace</td> 
    <td>颜色</td> 
   </tr> 

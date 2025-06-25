@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 1e893dd5933ce5740b2bfea1e028f39a07a2291c
+source-git-commit: d41bb7beb4879bcef224b0234b1c024eb16c9bd6
 workflow-type: tm+mt
-source-wordcount: '2632'
+source-wordcount: '2647'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 3%
 
 列入允许列表要通过防火墙接收事件订阅负载，必须将以下IP地址添加到您的：
 
-对于欧洲的客户：**&#x200B;**
+对于欧洲的客户：****
 
 * 52.30.133.50
 * 52.208.159.124
@@ -51,6 +51,9 @@ ht-degree: 3%
 
 事件订阅支持以下Workfront对象。
 
+* 审批
+* 审批阶段
+* 审批阶段参与者
 * 任务分配
 * 公司
 * 仪表板
@@ -105,6 +108,18 @@ ht-degree: 3%
        </tr> 
       </thead> 
       <tbody> 
+       <tr> 
+        <td scope="col">审批</td> 
+        <td scope="col"><p>审批</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">审批阶段</td> 
+        <td scope="col"><p>approval_stage</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">审批阶段参与者</td> 
+        <td scope="col"><p>approval_stage_participant</p></td> 
+       </tr> 
        <tr> 
         <td scope="col">任务分配</td> 
         <td scope="col"><p>分配</p></td> 
@@ -793,7 +808,7 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 >[!NOTE]
 >
 >下面带有给定过滤器的订阅将只返回任务名称在`oldState`上包含`again`的消息，该名称与更新任务之前所包含的内容相同。
->&#x200B;>此功能的用例是查找从一个对象更改到另一个对象的对象代码消息。 例如，查找从“Research Some name”更改为“Research TeamName Some name”的所有任务
+>>此功能的用例是查找从一个对象更改到另一个对象的对象代码消息。 例如，查找从“Research Some name”更改为“Research TeamName Some name”的所有任务
 
 ```
 {
