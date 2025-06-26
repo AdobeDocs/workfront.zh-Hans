@@ -7,9 +7,9 @@ description: 在使用文本模式时，在Adobe Workfront中构建计算的自�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: e10fd7a3237d38ece8a5213990306ce511bd2412
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '731'
 ht-degree: 1%
 
 ---
@@ -29,12 +29,15 @@ ht-degree: 1%
 * 视图
 * 分组
 * 计算的自定义字段
+* 业务规则
 
 有关生成“IF”语句的详细信息，请参阅[“IF”语句概述](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md)。
 
 本指南中的示例说明了如何在计算的自定义字段中使用条件运算符。 当遵循报表中计算自定义字段的正确语法时，您还可以在计算自定义列或分组中使用它们。
 
 有关报表中计算自定义字段与计算自定义数据之间语法差异的信息，请参阅[计算自定义字段与计算列](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md)。
+
+有关业务规则的信息，请参阅[创建和编辑业务规则](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)。
 
 请参阅API资源管理器以查找要在计算的自定义表达式中引用的字段。 有关API浏览器的信息，请参阅[API浏览器](../../../wf-api/general/api-explorer.md)。
 
