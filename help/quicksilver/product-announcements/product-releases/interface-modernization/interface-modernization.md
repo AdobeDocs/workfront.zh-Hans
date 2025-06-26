@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 4f90ae347f2a9f9f92610eb4ef6e17452f011481
+source-git-commit: 24bb25ca99f4a9ad0ecf8573f8d173248efe2986
 workflow-type: tm+mt
-source-wordcount: '4930'
+source-wordcount: '4861'
 ht-degree: 1%
 
 ---
@@ -33,19 +33,19 @@ We have updated the look and feel of all the tabs and subtabs in the Update Feed
 For information, see the articles in the [System-tracked update feeds](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md) section.-->
 
 
-### 在“设置”区域的“时间表和小时数”部分中列表的新外观
+<!--### New look and feel of the lists in the Timesheets & Hours section in the Setup area
 
-**预览： 2025年6月26日；适用于所有人的生产： 2025年7月10日**
+**Preview: June 26, 2025; Production for everyone: July 10, 2025**   
 
-我们更新了设置区域的时间表和小时部分中的以下列表的外观：
+We have updated the look and feel of the following lists in the Timesheets & Hours section in the Setup area:  
 
-* 周期性工时表列表
+* The list of Timesheet Profiles 
 
-* 小时类型的列表
+* The list of Hour Types 
 
-这些列表现在与Workfront的其他区域匹配。
+These lists now match other areas of Workfront.  
 
-有关信息，请参阅[创建、编辑和分配时间表配置文件](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)。
+ For information, see [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).-->
 
 
 <!--### Look and feel updates for the Add fields box in the Update Feeds section of Setup 
