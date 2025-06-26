@@ -87,7 +87,7 @@ ht-degree: 0%
 >如果您在计算中使用实际小时数，请将`actualWorkRequiredDouble`用于valuefield。 实际小时数以小时数存储。 计划小时数以分钟为单位存储。
 >
 >实际小时数的正确计算如下：
->>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+>&#x200B;>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
 
 
 ## 为什么报表中我的每个图表元素的值都没有显示在图表上？

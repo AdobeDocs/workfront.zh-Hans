@@ -49,14 +49,14 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>当前：[！UICONTROL计划]</p>
+   <td><p>当前：[!UICONTROL 计划]</p>
    或
    <p>新增：标准</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[！UICONTROL系统管理员]</td>
+   <td>[!UICONTROL 系统管理员]</td>
 </tr> 
  </tbody> 
 </table>
@@ -86,7 +86,7 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL记录未来日期的时间]</td> 
+      <td role="rowheader">[!UICONTROL 记录未来日期的时间]</td> 
       <td> <p>允许用户在整个系统中记录未来日期的时间，位置如下：</p> 
        <ul> 
         <li>他们有权记录时间的任何项目、任务和问题</li> 
@@ -96,15 +96,15 @@ ht-degree: 0%
      </tr>
 
    <tr> 
-      <td role="rowheader">[！UICONTROL手动将工作角色分配给小时条目]</td> 
+      <td role="rowheader">[!UICONTROL 手动将工作角色分配给小时条目]</td> 
       <td> <p>允许用户手动选择在其用户配置文件中分配或分配给对象的任意工作角色。</p> <p><b>重要信息</b>：  
         <ul> 
-         <li>如果在将工作角色分配给小时条目后禁用此设置，则用户必须在项目、任务或问题的[！UICONTROL小时数]选项卡上调整在各种角色下记录的小时数。</li> 
-         <li>如果用户在其配置文件中未分配工作角色，并且在[！UICONTROL高级分配]对话框中有任务被分配为[！UICONTROL任务所有者]，则当用户登录任务时间时，将显示该工作角色。</li> 
+         <li>如果在将工作角色分配给小时条目后禁用此设置，则用户必须在项目、任务或问题的[!UICONTROL 小时数]选项卡上调整在各种角色下记录的小时数。</li> 
+         <li>如果用户在其配置文件中未分配工作角色，并且在[!UICONTROL 高级分配]对话框中有任务被分配为[!UICONTROL 任务所有者]，则当用户登录任务时间时，将显示该工作角色。</li> 
         </ul> </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[！UICONTROL限制对所有者和管理员编辑工时表]</td> 
+      <td role="rowheader">[!UICONTROL 限制对所有者和管理员编辑工时表]</td> 
       <td> <p>限制对时间表所有者和[!DNL Workfront]管理员进行编辑。 禁用此选项后，还可以通过以下方式编辑时间表：</p> 
        <ul> 
         <li> <p>对时间表和小时数的访问级别具有管理访问权限的用户</p> </li> 
@@ -113,8 +113,8 @@ ht-degree: 0%
        </ul> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[！UICONTROL限制对所有者和管理员进行小时编辑]</td> 
-      <td>将编辑限制为输入小时数的用户和[!DNL Workfront]管理员。 此设置适用于项目或小时报表中的[！UICONTROL小时]选项卡。</td> 
+      <td role="rowheader">[!UICONTROL 限制对所有者和管理员进行小时编辑]</td> 
+      <td>将编辑限制为输入小时数的用户和[!DNL Workfront]管理员。 此设置适用于项目或小时报表中的[!UICONTROL 小时]选项卡。</td> 
      </tr> 
     </tbody> 
    </table>
@@ -123,16 +123,16 @@ ht-degree: 0%
 
    <table style="table-layout:auto">
     <tr>
-        <td>[！UICONTROL直接在项目上]</td>
-        <td>允许用户在项目上记录时间（同时在[！UICONTROL更新]选项卡和时间表上）。 如果用户没有在项目级别记录时间，则此选项应保持未选中状态。</td>
+        <td>[!UICONTROL 直接在项目上]</td>
+        <td>允许用户在项目上记录时间（同时在[!UICONTROL 更新]选项卡和时间表上）。 如果用户没有在项目级别记录时间，则此选项应保持未选中状态。</td>
     </tr>
     <tr>
-        <td>[！UICONTROL在已完成的项目上]</td>
-        <td>允许用户在标记为完成的项目上记录时间。 如果禁用此选项，则用户无法记录他们在处于[！UICONTROL完成]状态的项目上完成的工作的时间。</td>
+        <td>[!UICONTROL 在已完成的项目上]</td>
+        <td>允许用户在标记为完成的项目上记录时间。 如果禁用此选项，则用户无法记录他们在处于[!UICONTROL 完成]状态的项目上完成的工作的时间。</td>
     </tr>
     <tr>
-        <td>[！UICONTROL On Projects that dead]</td>
-        <td>启用此选项后，用户可以在处于[！UICONTROL Dead]状态的项目上记录小时数。</td>
+        <td>[!UICONTROL On Projects that dead]</td>
+        <td>启用此选项后，用户可以在处于[!UICONTROL Dead]状态的项目上记录小时数。</td>
     </tr>
    </table>
 
@@ -143,21 +143,21 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL在时间表工作范围之内] &lt;周数&gt; [！UICONTROL的工作]</td> 
+      <td role="rowheader">[!UICONTROL 在时间表工作范围之内] &lt;周数&gt; [!UICONTROL 的工作]</td> 
       <td> <p>定义包含分配给用户的任务和问题日期的时间表日期范围之前和之后的周数。</p> 
       <p>默认设置为1周，您可以将此范围扩展到4周。</p> 
       <p>这意味着在为时间表日期范围选择4周后，在时间表日期范围之前的4周到时间表日期范围之后的4周之间的任何时间，都会预填充时间表的任务和问题。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL已完成的任务和问题]</td> 
+      <td role="rowheader">[!UICONTROL 已完成的任务和问题]</td> 
       <td>如果通常将多个资源分配给单个任务，我们建议使用此设置。 这意味着当一个资源记录该任务的时间并将其标记为完成时，分配给该任务的其他资源仍然可以在其时间表中找到该任务或问题，以记录其小时数。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL计划日期在时间表日期范围内的任务和问题]</td> 
+      <td role="rowheader">[!UICONTROL 计划日期在时间表日期范围内的任务和问题]</td> 
       <td> <p>选择后，时间表包括其计划开始日期或完成日期在时间表日期范围内的任务和问题。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> [！UICONTROL计划日期在时间表日期范围内的任务]</td> 
+      <td role="rowheader"> [!UICONTROL 计划日期在时间表日期范围内的任务]</td> 
       <td> <p>选择后，时间表包括其预计开始日期或完成日期在项目时间框架内的任务，即使问题或任务的计划日期在时间表日期范围外也是如此。</p> </td> 
      </tr> 
     </tbody> 
@@ -173,16 +173,16 @@ ht-degree: 0%
       <td role="rowheader"> 删除项目时</td> 
       <td> 
        <ul> 
-        <li><strong>[！UICONTROL保留已作为常规时间添加到时间表的已记录时间]</strong>：如果该项目在稍后时间恢复，时间将保留在时间表中。</li> 
-        <li><strong>[！UICONTROL删除任意已记录的时间]</strong>：如果该项目在稍后时间恢复，则已记录的时间将恢复到项目中。</li> 
+        <li><strong>[!UICONTROL 保留已作为常规时间添加到时间表的已记录时间]</strong>：如果该项目在稍后时间恢复，时间将保留在时间表中。</li> 
+        <li><strong>[!UICONTROL 删除任意已记录的时间]</strong>：如果该项目在稍后时间恢复，则已记录的时间将恢复到项目中。</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">删除任务或问题时</td> 
       <td> 
        <ul> 
-        <li><strong>[！UICONTROL将任意已记录的时间移动到任务或问题所在的项目]</strong>：如果该任务或问题在稍后时间恢复，则时间将保留在项目中。<br></li> 
-        <li> <p><strong>[！UICONTROL删除任何记录时间]</strong>：如果稍后还原此任务或问题，则记录时间将还原到该任务或问题。</p> <p>有关这些选项的更多详细信息，请参阅删除和还原对象时出现<a href="../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md" class="MCXref xref">[！UICONTROL配置影响]</a>。</p> </li> 
+        <li><strong>[!UICONTROL 将任意已记录的时间移动到任务或问题所在的项目]</strong>：如果该任务或问题在稍后时间恢复，则时间将保留在项目中。<br></li> 
+        <li> <p><strong>[!UICONTROL 删除任何记录时间]</strong>：如果稍后还原此任务或问题，则记录时间将还原到该任务或问题。</p> <p>有关这些选项的更多详细信息，请参阅删除和还原对象时出现<a href="../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md" class="MCXref xref">[!UICONTROL 配置影响]</a>。</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
