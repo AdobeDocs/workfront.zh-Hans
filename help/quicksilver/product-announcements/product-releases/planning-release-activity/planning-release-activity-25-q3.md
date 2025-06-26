@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 39762dbf34501f3cd967a2a766042086d18003c8
+source-git-commit: 482067778b6a5b7291eb25d00245a394bc72ccf0
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1799'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,39 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+
+## 展开和折叠表格视图中的所有分组
+
+>[!NOTE]
+>
+>* 预览：2025年6月26日
+>* 适用于所有人的生产： 2025年7月17日
+
+现在，可以使用以下区域折叠和展开表格视图中的分组：
+
+* 分组框，可从表格视图的工具栏访问
+
+* 分组的标题，右键单击该标题
+
+您可以同时折叠或展开一个分组或所有分组。
+
+在此增强功能之前，您一次只能折叠或展开每个分组标题中的一个分组。
+
+有关信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)。
+
+## 公式字段的新聚合功能
+
+>[!NOTE]
+>
+>* 预览：2025年6月26日
+>* 适用于所有人的生产： 2025年6月26日
+
+现在，当您连接记录类型并将公式字段作为查找引入时，可以根据公式字段的格式应用聚合函数(SUM、AVERAGE、MIN、MAX等)。 例如，如果公式字段为数字，则可以使用SUM或AVG等函数；如果公式字段的格式为文本，则不会应用SUM等聚合函数。
+
+以前，在连接记录类型并从连接的记录引入查找字段时，可以将集合函数仅应用于常规字段，而不能应用于公式字段。
+
+有关信息，请参阅[公式字段概述](/help/quicksilver/planning/fields/formula-fields.md)。
 
 ## Workfront Planning时间线视图的自定义季度可用性
 
@@ -206,7 +239,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >此更改将对具有系统管理员和标准许可证的所有新用户和现有用户可见。
->&#x200B;>分配到布局模板的现有用户将继续根据布局模板中定义的设置查看所有内容。
+>>分配到布局模板的现有用户将继续根据布局模板中定义的设置查看所有内容。
 
 有关信息，请参阅[Adobe Workfront规划概述](/help/quicksilver/planning/access/access-overview.md)。
 

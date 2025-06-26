@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 4c09cbe74e8f277cd6a9a7732aa1a93e17f7dfeb
+source-git-commit: 4f90ae347f2a9f9f92610eb4ef6e17452f011481
 workflow-type: tm+mt
-source-wordcount: '4622'
+source-wordcount: '4930'
 ht-degree: 1%
 
 ---
@@ -22,28 +22,62 @@ ht-degree: 1%
 
 有关Adobe Workfront的所有其他更改，请参阅[产品版本](/help/quicksilver/product-announcements/product-releases/product-releases.md)。
 
-
 ## 管理和设置
 
-<!--
-### Look and feel updates for the Update Feeds section of Setup 
+<!--### Look and feel updates for the Update Feeds section of Setup 
 
-**Preview release: June 19, 2025; Production release: June 26, 2025** 
+**Preview: June 26, 2025; Production for everyone: July 10, 2025**  
 
 We have updated the look and feel of all the tabs and subtabs in the Update Feeds section of Setup. The Update Feeds section displays under the Interface area of Setup. Now, all the tabs in the Update Feeds section match other areas of Workfront. 
 
-For information, see the articles in the [System-tracked update feeds](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md) section.
--->
+For information, see the articles in the [System-tracked update feeds](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md) section.-->
 
-<!--
-### Look and feel updates for the Add fields box in the Update Feeds section of Setup 
 
-**Preview release: June 19, 2025; Production release: June 26, 2025** 
+### 在“设置”区域的“时间表和小时数”部分中列表的新外观
+
+**预览： 2025年6月26日；适用于所有人的生产： 2025年7月10日**
+
+我们更新了设置区域的时间表和小时部分中的以下列表的外观：
+
+* 周期性工时表列表
+
+* 小时类型的列表
+
+这些列表现在与Workfront的其他区域匹配。
+
+有关信息，请参阅[创建、编辑和分配时间表配置文件](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)。
+
+
+<!--### Look and feel updates for the Add fields box in the Update Feeds section of Setup 
+
+**Preview release: June 26, 2025; Production release: July 10, 2025** 
 
 We have updated the look and feel of the Add fields box in the Update Feeds section of Setup. The Update Feeds section displays under the Interface area of Setup. Now, when you add fields in any subtab of the Tracked Fields tab, the Add fields box has a new look and feel, and some of the interface elements have been updated.  
 
-For information, see [Configure system updates](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
--->
+For information, see [Configure system updates](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).-->
+
+
+### “公司”页面的界面更新
+
+**预览版本： 2025年6月26日；生产版本： 2025年7月10日**
+
+我们更新了“公司”页面，使其设计更加现代化，与Workfront的其他部分保持一致。
+
+此更新包括对公司列表进行的视觉更改。 功能未发生更改。
+
+要查看更改，请转到“设置”>“公司”。
+
+有关信息，请参阅[创建和编辑公司](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)。
+
+
+### 更新设置中的访问级别列表
+
+**预览版本： 2025年6月19日；生产版本： 2025年6月23日**
+
+我们更新了“设置”中的“访问级别”列表，更新了与Workfront其他区域一致的更加现代的设计。
+
+要查看此更改，请转到“设置”>“访问级别”。
+
 
 ### 用于创建、复制和编辑计划的界面更新
 
@@ -72,23 +106,10 @@ For information, see [Configure system updates](/help/quicksilver/administration
 
 要查看此更改，请转到“设置”>“访问级别”>“新建访问级别”。
 
-<!--
-### Interface updates for the Companies page
-
-**Preview release: June 19, 2025; Production release: June 26, 2025**
-
-We have updated the Companies page with a more modern design that is consistent with other areas of Workfront.
-
-This update includes visual changes to the list of companies. No functionality has changed.
-
-To view the change, go to Setup > Companies.
-
-For information, see [Create and edit companies](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
--->
 
 ### “客户信息”页面的界面更新
 
-**预览版本： 2025年6月12日；生产版本：待宣布**
+**预览版本： 2025年6月12日；生产版本： 2025年6月19日**
 
 我们更新了“客户信息”页面，更新后的设计更加现代化，与Workfront的其他部分保持一致。
 
@@ -189,6 +210,14 @@ We have updated the look and feel of the Log time box when logging time for a pr
 For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 -->
 
+### 项目的“新建主题组”框的外观变化
+
+**预览版本： 2025年6月26日；生产版本： 2025年7月10日**
+
+我们更新了创建或编辑请求队列的主题组时的体验外观，以匹配Workfront中的其他区域。
+
+在项目或模板中创建或编辑主题组时，可以使用新体验。
+
 ### 项目的“关联项目”部分的界面更新（仅适用于特定客户）
 
 **预览版本： 2025年6月12日；生产版本：待宣布**
@@ -284,17 +313,17 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 ## 用户
 
-<!--
-### Interface updates to the organizational chart
 
-**Preview release: June 19, 2025; Production release for all customers: June 26, 2025**
+### 组织结构图的界面更新
 
-We have updated the look and feel of the organizational chart associated with a Workfront user, to match the design of other areas of Workfront.
+**预览版本： 2025年6月26日；适用于所有客户的生产版本： 2025年7月10日**
 
-To view this change, go to a Workfront user profile and click **Org Chart** in the left panel. (This feature is available through the Workfront user profile, not the Adobe user profile.)
+我们更新了与Workfront用户相关的组织结构图的外观，以匹配Workfront其他区域的设计方式。
 
-For information, see [View the organizational chart](/help/quicksilver/people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
--->
+要查看此更改，请转到Workfront用户配置文件，然后单击左侧面板中的&#x200B;**组织结构图**。 (此功能通过Workfront用户配置文件而非Adobe用户配置文件提供。)
+
+有关信息，请参阅[查看组织结构图](/help/quicksilver/people-teams-and-groups/work-directly-with-others/view-the-org-chart.md)。
+
 
 ### 新用户注册页面的界面更新
 

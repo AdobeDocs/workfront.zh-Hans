@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: 3ff70fcc949644d511c876add10d2c58901cb197
+source-git-commit: b87b32d0396b0c277a5fc30d060c76a71192171b
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,31 @@ ht-degree: 0%
 本页介绍了在2025年第三季度版本中对“预览”环境所做的项目增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2025年第三季度发布周期中此时可用的所有更改列表，请参阅[2025年第三季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)。
+
+## 用旧版实际小时数替换了现有实际小时数字段，并创建了新的实际小时数字段
+
+>[!NOTE]
+>
+> 预览和生产： 2025年6月24日 
+
+现有实际小时数字段已重命名为旧版实际小时数。 此字段存储为项目、任务和问题记录的时间（以分钟为单位）。 字段以actualWorkRequired形式存储在Workfront数据库中。
+
+我们添加了一个新的实际小时数字段，该字段以小时为单位存储为项目、任务和问题记录的时间，具有小数精度。 字段以actualWorkRequiredDouble形式存储在Workfront数据库中。
+
+实际小时数和旧版实际小时数字段在项目、任务和问题视图和报告中均可见。
+
+项目、任务和问题详细信息部分中显示的实际小时数字段表示旧版实际小时数。
+
+
+>[!IMPORTANT]
+>
+>2021年5月之前记录的小时数存储在旧版实际小时数字段中。  
+>>对于在2021年5月之前记录小时数的项目、任务和问题，实际小时数字段的值为零。 
+>>2021年5月之后记录的小时数将同时存储在实际小时数字段和旧版实际小时数字段中。
+>> 您可能需要更新报表以反映新字段。
+
+有关信息，请参阅[查看实际小时数](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md)。
+
 
 ## 更改API调用实际小时数在数据库中的存储方式
 
