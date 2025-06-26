@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 0da05d048d0dab1c2f06870e589c1349c48ccc58
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 0%
 1. 单击左侧面板中的&#x200B;**主题组**。
 1. 单击&#x200B;**新建主题组**。
 
-   ![](assets/new-topic-group-box-nwe-350x306.png)
+   <!--   ![](assets/new-topic-group-box-nwe-350x306.png) -->
 
 1. 指定以下信息：
 
@@ -94,3 +94,4 @@ ht-degree: 0%
 1. 单击&#x200B;**保存**。\
    这将在您的请求队列中创建一个新的主题组。 现在，您可以从请求队列下的第一个下拉菜单中选择其他类别。\
    有关提交请求的更多信息，请参阅[创建并提交Adobe Workfront请求](../../../manage-work/requests/create-requests/create-submit-requests.md)。
+1. 要编辑现有的主题组，请从“主题组”列表中选择主题组，然后在打开的窗口中编辑详细信息。 单击&#x200B;**保存**&#x200B;以保存更改。
