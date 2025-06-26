@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
 workflow-type: tm+mt
-source-wordcount: '3633'
+source-wordcount: '3720'
 ht-degree: 2%
 
 ---
@@ -458,9 +458,7 @@ ht-degree: 2%
 
    为分组选择的字段数将显示在分组图标旁边。
 
-   <!--replace screen shot for Expand all-->
-
-   ![分组应用于表视图](assets/grouping-applied-in-table-view.png)
+   <span class="preview">![分组应用于表视图](assets/grouping-applied-in-table-view.png)</span>
 
 1. （可选）在&#x200B;**按**&#x200B;对记录进行分组框中，单击为分组选择的字段右侧的&#x200B;**x**&#x200B;图标以删除该分组
 
@@ -471,26 +469,23 @@ ht-degree: 2%
 1. 单击&#x200B;**按**&#x200B;分组记录框外部以将其关闭。
 1. （可选）单击任何分组末尾的&#x200B;**+新记录**&#x200B;以添加新记录，然后刷新页面以将新记录添加到相应的分组。<!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
-<!--
+1. <span class="preview">若要展开或折叠分组，请执行下列操作之一：</span>
 
-1. <span class="preview">To expand or collapse groupings, do one of the following:</span>
+   <div class="preview">
 
-    <div class="preview">
+   1. 单击&#x200B;**分组**&#x200B;图标，然后单击&#x200B;**全部展开**&#x200B;或&#x200B;**全部折叠**。 这将展开表格视图中的所有分组和子分组。
 
-    1. Click the **Grouping** icon, then **Expand all**, or **Collapse all**. This expands all the groupings and subgroupings in the table view. 
+      ![展开和折叠分组框表格视图上的所有按钮](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
 
-        ![Expand and collapse all buttons on grouping box table view](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
+   1. 右键单击表视图中的任何分组标题，然后单击以下选项之一：
+      * **展开组**
+      * **折叠组**
+      * **全部展开**
+      * **全部折叠**
+      * **展开子组**
+      * **折叠子组**
 
-    1. Right-click any of the grouping headers in the table view, then click one of the following options:
-        * **Expand group**
-        * **Collapse group**
-        * **Expand all**
-        * **Collapse all**
-        * **Expand subgroups**
-        * **Collapse subgroups**
-
-        Depending on the number of groupings you apply to the view, some options might not be available.</div>
--->
+      根据应用于视图的分组数量，某些选项可能不可用。</div>
 
 <!-- this is not available yet: 
 

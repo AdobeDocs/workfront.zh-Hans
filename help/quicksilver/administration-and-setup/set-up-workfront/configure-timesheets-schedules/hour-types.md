@@ -9,9 +9,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: f35da9077b0422ba939ed9f6285835897f28874c
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '894'
 ht-degree: 1%
 
 ---
@@ -20,16 +20,22 @@ ht-degree: 1%
 
 <!--Audited: 05/2025-->
 
-<!--Audited: 07/2024-->
-
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
 **Linked to Creating Billing Record-->
 
+<div class="preview">
+
+此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 从预览版本发布的一周后，所有客户还可以在生产环境中使用相同的功能。
+
+有关详细信息，请参阅[接口现代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+
+</div>
+
 小时类型是用于定义小时条目的标签。 您可以将小时类型与小时条目关联。
 
-有两组小时类型：
+小时类型分为两类：
 
-* 特定项目小时类型：这是登录项目、任务和问题的时间。 特定项目小时类型可以与[!DNL Adobe Workfront]中的任何时间条目关联，您可以在其中记录项目、任务和问题的时间。
+* **特定项目小时类型**：此时间已记录到项目、任务和问题。 特定项目小时类型可以与[!DNL Adobe Workfront]中的任何时间条目关联，您可以在其中记录项目、任务和问题的时间。
 
   在[!DNL Workfront]中记录时间时，可用的项目特定小时类型取决于在系统、项目和用户级别设置的配置选项。
 
@@ -45,15 +51,13 @@ ht-degree: 1%
   >
   >如果您在[!DNL Workfront]系统中启用了任何特定于项目的小时类型，则必须在系统中的每个项目上至少启用一种特定于项目的小时类型。 您无法在系统级别启用特定于项目的小时类型，并且在项目级别没有可用的特定于项目的小时类型。
 
-* 常规小时类型：常规小时不能与项目、任务或问题相关联，并直接记录到时间表中。
+* **常规小时类型**：常规小时不能与项目、任务或问题相关联，并且直接登录到时间表。
 
 有关记录小时数并将其与小时类型关联的信息，请参阅[记录时间](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md)。
 
 ## 访问要求
 
 +++ 展开以查看本文中各项功能的访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -64,19 +68,19 @@ ht-degree: 1%
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
    <td> <p>新增：标准</p>
    <p>或</p>
    <p>当前：计划</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
+   <td role="rowheader">访问级别</td> 
    <td>系统管理员</td>
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -95,15 +99,19 @@ Workfront附带一组内置小时类型。 这些小时类型无法编辑或隐�
 
 ## 创建小时类型
 
-作为[!DNL Workfront]管理员，您可以在系统和项目级别为组织创建新的小时类型。 之后，用户可以定义哪些小时类型可用于特定项目和用户。 有关详细信息，请参阅[定义小时类型和可用性](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
+作为[!DNL Workfront]管理员，您可以在系统和项目级别为组织创建小时类型。
 
-要创建新小时类型，请执行以下操作：
+在系统级别定义小时类型后，用户可以定义哪些小时类型可用于特定项目或特定用户。
+
+有关详细信息，请参阅[定义小时类型和可用性](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
+
+要创建小时类型，请执行以下操作：
 
 {{step-1-to-setup}}
 
 1. 在左侧面板中，单击&#x200B;**时间表和小时数**，然后单击&#x200B;**小时类型**。
 
-1. 在&#x200B;**小时类型**&#x200B;部分中，单击&#x200B;**+新建小时类型**。
+1. 在&#x200B;**小时类型**&#x200B;部分中，单击&#x200B;**新建小时类型**。
 1. 在&#x200B;**新小时类型**&#x200B;对话框中，指定以下信息：
 
    <table style="table-layout:auto"> 
@@ -111,19 +119,19 @@ Workfront附带一组内置小时类型。 这些小时类型无法编辑或隐�
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 名称]</td> 
+      <td role="rowheader">[！UICONTROL名称]</td> 
       <td>输入易于在系统中识别的小时类型名称。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 描述]</td> 
+      <td role="rowheader">[！UICONTROL描述]</td> 
       <td>添加对小时类型的描述。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 作用域]</td> 
-      <td> <p>在<strong>范围</strong>下拉菜单中选择小时类型是常规小时类型还是特定于项目的小时类型。</p> <p>常规小时类型仅在时间表中可见，并且不能与项目、任务或问题相关联。</p> <p><b>重要信息</b>：如果您具有特定于&lbrack;！UICONTROL项目的自定义小时类型，并且您将其更改为[!UICONTROL 常规]，则所有现有的任务、问题和项目小时数都将设置为它们的系统默认类型。</p> </td> 
+      <td role="rowheader">[！UICONTROL作用域]</td> 
+      <td> <p>在<strong>范围</strong>下拉菜单中选择小时类型是常规小时类型还是特定于项目的小时类型。</p> <p>常规小时类型仅在时间表中可见，并且不能与项目、任务或问题相关联。</p> <p><b>重要信息</b>：如果您具有特定于[！UICONTROL项目的自定义小时类型，并且您将其更改为[！UICONTROL常规]，则所有现有的任务、问题和项目小时数都将设置为它们的系统默认类型。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 计为收入]</td> 
+      <td role="rowheader">[！UICONTROL计为收入]</td> 
       <td><p>如果您希望与此小时类型关联的小时条目影响您的收入计算，请选择此选项。</p>
       <p>病假和休假时间不能计为收入。</p>
       <p><b>注释</b></p>
@@ -135,9 +143,18 @@ Workfront附带一组内置小时类型。 这些小时类型无法编辑或隐�
 
 1. 单击&#x200B;**[!UICONTROL 创建小时类型]。**
 
+   小时类型将会添加到您的Workfront系统中，并且默认情况下处于激活状态。
+
 ## 停用小时类型
 
 如果您不再希望用户将其小时类型与其关联，则可以停用这些小时类型。 停用小时类型会从[!DNL Workfront]中显示小时类型的任意位置隐藏它们。
+
+>[!NOTE]
+>
+>* 无法停用内置小时类型。
+>* 在停用项目特定的小时类型时，为该类型记录的所有时间会自动默认为项目特定的内置小时类型。 例如，为项目记录的时间默认为项目时间小时类型；为任务记录的时间默认为任务时间小时类型。
+>
+
 
 要停用小时类型，请执行以下操作：
 
@@ -147,6 +164,12 @@ Workfront附带一组内置小时类型。 这些小时类型无法编辑或隐�
 
 1. 选择要取消激活的小时类型。
 
-1. 单击&#x200B;**[!UICONTROL 停用]**。
 
-   ![停用按钮](assets/deactivate-button.png)
+1. <span class="preview">单击&#x200B;**更多**，然后单击&#x200B;**停用**。</span>
+
+   <span class="preview">![激活和停用小时类型链接](assets/activate-and-deactivate-hour-type-links.png)</span>
+
+   <span class="preview">该小时类型已停用，用户在记录小时数时无法再找到它。</span>
+
+1. <span class="preview">（可选）要重新激活小时类型，请在&#x200B;**小时类型**&#x200B;列表中选择该类型，然后单击&#x200B;**更多** > **激活**。</span>
+

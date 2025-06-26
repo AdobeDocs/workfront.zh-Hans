@@ -6,14 +6,24 @@ description: 您可以创建、编辑和分配时间表配置文件，以便为�
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '1472'
-ht-degree: 0%
+source-wordcount: '1540'
+ht-degree: 1%
 
 ---
 
 # 创建、编辑和分配时间表配置文件
+
+<!--Audited: 06/2025-->
+
+<!--<div class="preview">
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+
+</div> -->
 
 您可以创建、编辑和分配时间表配置文件，以便为用户生成周期性时间表，而无需您的任何进一步干预。 这节省了您的时间，并确保用户之间的以下内容保持一致：
 
@@ -38,20 +48,20 @@ ht-degree: 0%
    <td> <p>任何</p> </td> 
   </tr> 
    <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
    <td> <p>新增：标准 </p>
  <p>或</p> 
 <p>当前：计划 </p> 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
+   <td role="rowheader">访问级别配置</td> 
    <td> <p>您必须对时间表具有管理访问权限。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -66,18 +76,18 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->要在当前时间表中启用时间表配置文件更改，您必须删除现有时间表，然后生成新时间表。 有关说明，请参阅[删除Adobe Workfront中的时间表](../../timesheets/create-and-manage-timesheets/delete-timesheets.md)和[手动生成时间表](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)。
+>要在当前时间表中启用时间表配置文件更改，您必须在更改时间表配置文件之前删除现有时间表，然后生成新时间表。 有关说明，请参阅[删除Adobe Workfront中的时间表](../../timesheets/create-and-manage-timesheets/delete-timesheets.md)和[手动生成时间表](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)。
 
 {{step-1-to-setup}}
 
-1. 如果要创建或编辑在整个系统中使用的时间表配置文件，请单击&#x200B;**时间表和小时数**。
+1. 如果您创建或编辑在整个系统中使用的时间表配置文件，请单击&#x200B;**时间表和小时数**。
 
    或
 
-   如果您创建或编辑组的时间表配置文件，请单击&#x200B;**组**，然后单击组的名称。
+   如果您创建或编辑某个组的时间表配置文件，请单击&#x200B;**组**，然后单击该组的名称。
 
 1. 单击&#x200B;**周期性工时表**。
-1. 要创建新的时间表配置文件，请单击&#x200B;**新建配置文件**。
+1. 要创建时间表配置文件，请单击&#x200B;**新建配置文件**。
 
    或
 
@@ -86,13 +96,26 @@ ht-degree: 0%
    此时会显示新的或现有的周期性时间表。
 
 
-1. 在&#x200B;**设置详细信息**&#x200B;选项卡上，为时间表配置文件键入&#x200B;**名称**&#x200B;和&#x200B;**描述**，并提供以下信息：
+1. 单击&#x200B;**设置详细信息**&#x200B;选项卡，然后更新以下信息：
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
+      <td role="rowheader"><strong>名称</strong> </td> 
+      <td> <p> 为时间表配置文件添加名称。 它可以是一个团队或组的名称，其人员共享的时间表相同。 </p> </td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader"><strong>描述</strong> </td> 
+      <td> <p> 添加有关时间表配置文件的更多信息。     
+      </p> </td> 
+     </tr>
+
+
+
+   <tr> 
       <td role="rowheader">具有管理访问权限的<strong>组</strong> </td> 
       <td> <p> 
       <ul> 
@@ -147,8 +170,14 @@ ht-degree: 0%
       <td role="rowheader"><strong>可用小时类型</strong> </td> 
       <td><p>此设置仅引用常规小时类型，而不引用特定于项目的小时类型。 </p>
       <p>默认情况下，用户会在时间表上看到所有常规小时数。 但是，如果贵组织希望仅显示特定用户集的常规小时数，则可以通过在此字段内选择时间表配置文件中的常规小时数，选择需要在时间表上查看的常规小时数。 如果要禁用所有常规小时，请取消选择所有小时类型以生成不带常规小时分区的时间表。</p></td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader"><strong>提醒通知</strong> </td> 
+      <td> <p> 添加提醒通知。 Workfront将向用户发送提醒，要求他们完成或批准时间表。 您必须先创建提醒通知，然后才能将其与时间表配置文件关联。  </p> </td> 
+     </tr>
+
+   <tr data-mc-conditions=""> 
       <td role="rowheader"><span style="font-weight: bold;">加班</span> </td> 
       <td>您可以选择在时间表中隐藏“加班”框。 默认禁用此选项。</td> 
      </tr> 

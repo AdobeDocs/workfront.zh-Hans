@@ -6,9 +6,9 @@ description: 小时类型是一种允许您对时间条目进行分类的标签�
 author: Alina
 feature: Timesheets
 exl-id: 3c07a6b0-4751-4fce-ac28-6a83084025d4
-source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1488'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 Adobe Workfront中有2组小时类型：
 
 * **常规小时数**：与项目无关的小时数，如病假或管理。 您只能在时间表上记录常规小时数。
-* **项目特定的小时数**：项目、任务和问题记录的小时数。 您可以从任何可以记录时间的位置记录特定于项目的小时数。
+* **项目特定小时数**：项目、任务和问题记录的小时数。 您可以从任何可以记录时间的位置记录特定于项目的小时数。
 
 在Workfront中记录时间时，可用的特定项目小时类型取决于在系统、项目和用户级别设置的配置选项。 （以下特定于项目的默认小时类型始终可用：项目时间、任务时间和问题时间。）
 
@@ -45,7 +45,7 @@ Adobe Workfront中有2组小时类型：
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
    <td> <p>新增：标准</p> 
    <p>当前：计划</p>
    </td> 
@@ -61,7 +61,7 @@ Adobe Workfront中有2组小时类型：
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

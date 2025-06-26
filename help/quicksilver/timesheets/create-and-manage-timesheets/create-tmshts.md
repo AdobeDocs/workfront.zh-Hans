@@ -6,18 +6,22 @@ description: 如果您希望某个时间表不重复，可以手动创建一次�
 author: Alina
 feature: Timesheets
 exl-id: b293dd50-a9b8-448b-afc1-8c7c7c79183b
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
 
 # 创建一次性时间表
 
+<!--Audited: 6/2025-->
+
 如果您希望某个时间表不重复，可以手动创建一次性时间表。 在到达时间表结束日期且您需要更多时间表时，您必须创建新时间表。
 
 有关创建时间表配置文件以生成用户周期性时间表而不需要您进一步干预的信息（推荐），请参阅[创建、编辑和分配时间表配置文件](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)。
+
+有关为系统中与时间表配置文件关联的所有用户手动生成时间表的信息，请参阅[手动生成时间表](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)。
 
 >[!NOTE]
 >
@@ -50,8 +54,8 @@ ht-degree: 0%
    <p>当前：计划 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
-   <td> <p>您必须对时间表具有管理访问权限。 </p> <p>有关详细信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予用户对特定区域的管理访问权限</a>。</p> </td> 
+   <td role="rowheader">访问级别</td> 
+   <td> <p>您必须对时间表具有管理访问权限。 </p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,11 +66,11 @@ ht-degree: 0%
 
 ## 创建一次性时间表
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)。
+{{step1-to-timesheets}}
 
-1. 单击&#x200B;**时间表**。 默认情况下已选择&#x200B;**所有**&#x200B;筛选器。 这会显示您有权查看的所有时间表。
+默认情况下已选择&#x200B;**所有**&#x200B;筛选器。 这会显示您有权查看的所有时间表。
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![已选择一个时间表的时间表列表](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. （可选）执行以下操作之一以更新时间表列表中的过滤器：
 
@@ -78,9 +82,9 @@ ht-degree: 0%
 
      这会将我的时间表批准或我的时间表过滤器应用到时间表列表。
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![时间表列表页面上的“我的时间表”过滤器按钮](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * 单击“筛选器”图标![](assets/filter-nwepng.png)以应用其他筛选器，或创建新筛选器。 有关创建或更新筛选器的信息，请参阅[在Adobe Workfront中创建或编辑筛选器](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)。
+   * 单击&#x200B;**筛选器**&#x200B;图标![筛选器图标](assets/filter-nwepng.png)以应用其他筛选器，或创建新筛选器。 有关创建或更新筛选器的信息，请参阅[在Adobe Workfront中创建或编辑筛选器](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)。
 
    >[!NOTE]
    >
@@ -89,9 +93,9 @@ ht-degree: 0%
    >   * [使用布局模板自定义筛选器、视图和分组](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
 
 
-1. （可选）单击&#x200B;**搜索**&#x200B;图标![](assets/search-icon.png)以键入关键字并搜索特定时间表。 例如，您可以搜索所有者名称的时间表时间范围。
+1. （可选）单击&#x200B;**搜索**&#x200B;图标![搜索图标](assets/search-icon.png)以键入关键字并搜索特定时间表。 例如，您可以搜索所有者名称的时间表时间范围。
 
-1. （可选）单击&#x200B;**视图** ![](assets/view-icon.png)或&#x200B;**分组** ![](assets/grouping.png)图标以应用不同的视图或分组或创建新视图或分组。
+1. （可选）单击&#x200B;**视图** ![视图图标](assets/view-icon.png)或&#x200B;**分组** ![分组图标](assets/grouping.png)图标以应用不同的视图或分组或创建新视图或分组。
 
    有关创建过滤器、视图或分组的信息，请参阅以下文章：
 

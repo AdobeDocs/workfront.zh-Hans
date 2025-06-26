@@ -4,11 +4,11 @@ product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
 title: 配置用户更新的首选项
 description: 当用户在对象的[!UICONTROL 更新]区域中添加注释时，您可以配置用于访问某些功能的首选项。
-author: Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 ---
 
 # 配置用户更新的首选项
+
+<!--Audited: 06/2025-->
 
 您可以配置首选项，使用户在对象的[!UICONTROL 更新]区域中添加注释时能够访问某些功能。
 
@@ -34,20 +36,20 @@ ht-degree: 0%
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>新文档： [!UICONTROL Standard]</p>
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
+   <td><p>新文档： [！UICONTROL Standard]</p>
    或
-   <p>当前： [!UICONTROL 计划]</p>
+   <p>当前： [！UICONTROL计划]</p>
    </td> 
   </tr>  
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td><p>要在系统级别执行这些步骤，您需要[!UICONTROL 系统管理员]访问级别。</p><p>要为组执行这些操作，您必须是该组的经理。</p></td>
+   <td><p>要在系统级别执行这些步骤，您需要[！UICONTROL系统管理员]访问级别。</p><p>要为组执行这些操作，您必须是该组的经理。</p></td>
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
