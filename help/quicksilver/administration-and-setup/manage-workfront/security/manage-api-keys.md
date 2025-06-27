@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 8934c3f5681c09c00769442900013844ee7a80ef
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1336'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 2%
 
 以下是利用Workfront API的应用程序示例：
 
-* 记录Dropbox、Google Drive和Workfront DAM等集成
+* 记录集成，例如Dropbox、Google Drive和Workfront DAM
 * Workfront移动应用程序
 
 >[!IMPORTANT]
@@ -49,7 +49,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td>计划</td> 
+   <td>规划</td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -106,15 +106,14 @@ Workfront管理员还有唯一的API密钥。 当应用程序使用管理员API�
 
    1. 展开&#x200B;**系统**，然后单击&#x200B;**单点登录(SSO)**。
    1. 在&#x200B;**类型**&#x200B;字段中，选择贵组织使用的SSO类型。
-   1. 选定类型后，向下滚动并清除&#x200B;**启用**&#x200B;复选框。
-
+   1. 选定类型后，向下滚动并清除&#x200B;**启用**复选框。
       ![启用SSO](assets/sysadmin-security-sso-disable-31620-350x320.png)
    1. 单击&#x200B;**保存**。
 
 
 1. 在浏览器的地址栏中，输入以下API调用：
 
-   `<domain>`**.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**&#x200B;用户名&#x200B;**&amp;password=**&#x200B;密码**&amp;method=PUT
+   `<domain>`.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**用户名**&amp;password=**密码**&amp;method=PUT
 
    将`<domain>`替换为您的Workfront域名，并将用户名和密码替换为用户的Workfront凭据。
 
@@ -140,9 +139,9 @@ Workfront管理员还有唯一的API密钥。 当应用程序使用管理员API�
 
    默认情况下，API密钥每月过期。
 
-1. 若要将API密钥配置为在用户密码过期时过期，请选择&#x200B;**在用户密码过期时删除API密钥**。
+1. 若要将API密钥配置为在用户密码过期时过期，请启用&#x200B;**在用户密码过期时删除API密钥**。
 
-   默认情况下，不选中此选项。
+   默认情况下，不启用此选项。
 
    有关如何配置用户密码过期的信息，请参阅[配置系统安全首选项](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
 
@@ -160,21 +159,21 @@ Workfront管理员还有唯一的API密钥。 当应用程序使用管理员API�
 
 1. 展开&#x200B;**系统**，然后单击&#x200B;**客户信息**。
 
-1. 在&#x200B;**API密钥设置**&#x200B;区域中，单击&#x200B;**删除所有API密钥**，然后单击&#x200B;**删除**&#x200B;**全部**。
+1. 在&#x200B;**API密钥设置**&#x200B;区域中，单击&#x200B;**删除所有API密钥**，然后单击&#x200B;**删除****全部**。
 
 ## 使用X.509证书限制API登录
 
 >[!IMPORTANT]
 >
->本节中介绍的过程仅适用于尚未加入Adobe业务平台的组织。 如果您的组织已载入到Adobe业务平台，则无法通过Workfront API登录Workfront。
+>本节中介绍的过程仅适用于尚未载入Adobe Business Platform的组织。 如果您的组织已载入到Workfront Business Platform，则无法通过Workfront API登录Adobe。
 >
 >有关因贵组织是否已登记到Adobe业务平台而不同的过程列表，请参阅[基于平台的管理差异(Adobe Workfront/Adobe业务平台)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
-
-第三方应用程序可以通过API与Workfront通信。 要提高Workfront站点的安全性，您可以通过将X.509证书上传到Workfront来将Workfront配置为限制API登录请求。 启用后，所有通过API的登录请求除了用户名和密码外，还必须包含客户端证书。
 
 >[!NOTE]
 >
 >如果您组织的Workfront实例已启用Adobe IMS，则此项不可用。 如果需要更多信息，请咨询您的网络或IT管理员。
+
+第三方应用程序可以通过API与Workfront通信。 要提高Workfront站点的安全性，您可以通过将X.509证书上传到Workfront来将Workfront配置为限制API登录请求。 启用后，所有通过API的登录请求除了用户名和密码外，还必须包含客户端证书。
 
 * [获取X.509证书](#obtain-the-x-509-certificate)
 * [将证书上传到Workfront](#upload-the-certificate-to-workfront)
@@ -182,7 +181,7 @@ Workfront管理员还有唯一的API密钥。 当应用程序使用管理员API�
 
 ### 获取X.509证书 {#obtain-the-x-509-certificate}
 
-从受信任的证书颁发机构（如Verisign）获取有效的X.509证书，并将其放在工作站上的临时位置。
+从受信任的证书颁发机构（如Verisign）获取有效的X.509证书，并将其保存到工作站上的临时位置。
 
 ### 将证书上传到Workfront {#upload-the-certificate-to-workfront}
 
@@ -192,7 +191,8 @@ Workfront管理员还有唯一的API密钥。 当应用程序使用管理员API�
 
 1. 展开&#x200B;**系统**，然后单击&#x200B;**客户信息**。
 
-1. 在&#x200B;**API密钥设置**&#x200B;区域，选择&#x200B;**启用X.509证书**。
+1. 在&#x200B;**API密钥设置**&#x200B;区域，选择&#x200B;**需要API登录的X.509证书**。
+1. 单击&#x200B;**更改证书**。
 1. 在工作站上，浏览并选择您之前下载的X.509证书。
 1. （可选）单击证书名称旁边的&#x200B;**查看详细信息**&#x200B;以查看有关证书的以下详细信息：
 
