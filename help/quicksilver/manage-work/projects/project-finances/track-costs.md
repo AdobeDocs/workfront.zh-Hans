@@ -7,9 +7,9 @@ description: 您可以在Adobe Workfront中跟踪项目、任务和问题的成�
 author: Lisa
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: 23a5c90b9321b72a20f21752f957b3be0a9f3a02
 workflow-type: tm+mt
-source-wordcount: '2480'
+source-wordcount: '2499'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,11 @@ Workfront会计算项目的许多成本绩效指数，以便可以跟踪项目�
     </tr> 
     <tr> 
      <td>实际劳力成本</td> 
-     <td> <p>它们使用以下公式计算：</p><code>Actual Labor Costs = Actual Hours * Cost per Hour rate</code> </td> 
+     <td> <p>它们使用以下公式计算：</p><code>Actual Labor Costs = Actual Hours * Cost per Hour rate</code> 
+     <p><strong>注释</strong>
+     <p>Workfront使用旧版实际小时数计算实际劳力成本。 有关详细信息，请参阅<a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">查看实际小时数</a>。 </p>
+
+  </td> 
     </tr> 
    </tbody> 
   </table>
@@ -150,7 +154,7 @@ Workfront计算项目中每个单独任务的计划成本和实际成本。 Work
 >[!NOTE]
 >
 >项目的实际费用成本计算如下：
->`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
+>>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
 >
 >在实际成本计算中不会复制这些成本。 例如，如果固定成本是项目实际费用成本的一部分，它不会单独添加到实际成本。
 

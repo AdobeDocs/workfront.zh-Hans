@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 24bb25ca99f4a9ad0ecf8573f8d173248efe2986
+source-git-commit: 1b9f18f51d6b83e0522fb1ff95d5d135cef547ec
 workflow-type: tm+mt
-source-wordcount: '4861'
-ht-degree: 1%
+source-wordcount: '5088'
+ht-degree: 0%
 
 ---
 
@@ -24,38 +24,35 @@ ht-degree: 1%
 
 ## 管理和设置
 
-<!--### Look and feel updates for the Update Feeds section of Setup 
+### 有关“设置”中“更新信息源”部分的外观更新
 
-**Preview: June 26, 2025; Production for everyone: July 10, 2025**  
+**预览： 2025年6月27日；适用于所有人的生产： 2025年7月10日**
 
-We have updated the look and feel of all the tabs and subtabs in the Update Feeds section of Setup. The Update Feeds section displays under the Interface area of Setup. Now, all the tabs in the Update Feeds section match other areas of Workfront. 
+我们更新了“设置”中“更新源”部分的所有选项卡和子选项卡的外观。 “更新馈送”部分显示在“设置”的“界面”区域下。 现在，更新源部分中的所有选项卡都与Workfront的其他区域相匹配。
 
-For information, see the articles in the [System-tracked update feeds](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md) section.-->
+有关信息，请参阅[配置系统更新](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)
 
+### 在“设置”的“更新源”部分中，“添加字段”框的外观已更新
 
-<!--### New look and feel of the lists in the Timesheets & Hours section in the Setup area
+**预览版本： 2025年6月27日；生产版本： 2025年7月10日**
 
-**Preview: June 26, 2025; Production for everyone: July 10, 2025**   
+我们更新了“设置”的“更新源”部分中“添加字段”框的外观。 “更新馈送”部分显示在“设置”的“界面”区域下。 现在，当您在跟踪的字段选项卡的任何子选项卡中添加字段时，添加字段框具有新外观，并且某些界面元素已更新。
 
-We have updated the look and feel of the following lists in the Timesheets & Hours section in the Setup area:  
+有关信息，请参阅[配置系统更新](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)。
 
-* The list of Timesheet Profiles 
+### 在“设置”区域的“时间表和小时数”部分中列表的新外观
 
-* The list of Hour Types 
+**预览： 2025年6月26日；适用于所有人的生产： 2025年7月10日**
 
-These lists now match other areas of Workfront.  
+我们更新了设置区域的时间表和小时部分中的以下列表的外观：
 
- For information, see [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).-->
+* 周期性工时表列表
 
+* 小时类型的列表
 
-<!--### Look and feel updates for the Add fields box in the Update Feeds section of Setup 
+这些列表现在与Workfront的其他区域匹配。
 
-**Preview release: June 26, 2025; Production release: July 10, 2025** 
-
-We have updated the look and feel of the Add fields box in the Update Feeds section of Setup. The Update Feeds section displays under the Interface area of Setup. Now, when you add fields in any subtab of the Tracked Fields tab, the Add fields box has a new look and feel, and some of the interface elements have been updated.  
-
-For information, see [Configure system updates](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).-->
-
+有关信息，请参阅[创建、编辑和分配时间表配置文件](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)。
 
 ### “公司”页面的界面更新
 
