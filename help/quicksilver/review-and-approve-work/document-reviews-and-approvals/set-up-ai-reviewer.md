@@ -57,8 +57,8 @@ ht-degree: 0%
 
 要了解有关品牌准则的更多信息，请参阅
 
-* [GenStudio for Performance Marketing Brands](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
-* [添加准则](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
+* [GenStudio for Performance Marketing Brands](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
+* [添加准则](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
 
 ## 添加AI审阅者
 
