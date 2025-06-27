@@ -55,8 +55,8 @@ Workfront AI审阅者在审阅内容时，会使用Genstudio基础中设置的�
 
 要了解有关品牌准则的更多信息，请参阅
 
-* [GenStudio for Performance Marketing Brands](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
-* [添加准则](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
+* [GenStudio for Performance Marketing Brands](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
+* [添加准则](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
 
 
 ## 创建AI审阅者
