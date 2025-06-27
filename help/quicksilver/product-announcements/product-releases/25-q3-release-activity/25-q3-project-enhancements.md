@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: e3fa5f6fd86f0fe9ba221fb7c20f46f966437a42
+source-git-commit: f02a07c0bc4568d7e0fa25ca6e880024423527b7
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -26,25 +26,23 @@ ht-degree: 0%
 >
 > 预览和生产： 2025年6月24日 
 
-现有实际小时数字段已重命名为旧版实际小时数。 此字段存储为项目、任务和问题记录的时间（以分钟为单位）。 字段以actualWorkRequired形式存储在Workfront数据库中。
+我们添加了一个新的实际小时数字段，该字段以小时为单位存储为项目、任务和问题记录的时间，具有小数精度。 字段作为`actualWorkRequiredDouble`存储在Workfront数据库中。
 
-我们添加了一个新的实际小时数字段，该字段以小时为单位存储为项目、任务和问题记录的时间，具有小数精度。 字段以actualWorkRequiredDouble形式存储在Workfront数据库中。
+现有实际小时数字段已重命名为旧版实际小时数。 该字段存储项目、任务和问题记录的时间（以分钟为单位），并作为`actualWorkRequired`存储在Workfront数据库中。
 
 实际小时数和旧版实际小时数字段在项目、任务和问题视图和报告中均可见。
 
 项目、任务和问题详细信息部分中显示的实际小时数字段表示新的实际小时数。
 
-
-
 >[!IMPORTANT]
 >
 >根据记录小时数的时间，项目、任务或问题的实际小时数和旧版实际小时数之间可能存在差异。<br>
->&#x200B;>存在以下情况：
+>>存在以下情况：
 >
->* 表示自2021年5月为项目、任务和问题记录的小时数的实际小时数已从旧版实际小时数字段移至新的实际小时数字段。
->* 表示在2021年5月之前为项目、任务和问题记录的小时数的实际小时数仅计入旧版实际小时数字段。
->  &#x200B;><br>您可能需要更新报表以反映新字段及其值。
-
+>* 实际小时数表示自2021年5月以来为项目、任务和问题记录的小时数。
+>* 旧版实际小时数表示在项目、任务或问题的生命周期内为项目、任务和问题记录的小时数。 这包括2021年5月之前记录到当前时间的小时数。
+>  ><br>您可能需要更新报表以反映新字段及其值。
+>  ><br>Workfront使用旧版实际小时数计算实际劳力成本。
 
 有关信息，请参阅[查看实际小时数](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md)。
 
