@@ -154,7 +154,7 @@ Workfront计算项目中每个单独任务的计划成本和实际成本。 Work
 >[!NOTE]
 >
 >项目的实际费用成本计算如下：
->>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
+>&#x200B;>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
 >
 >在实际成本计算中不会复制这些成本。 例如，如果固定成本是项目实际费用成本的一部分，它不会单独添加到实际成本。
 
