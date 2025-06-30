@@ -6,9 +6,9 @@ description: 您可以将附加批准者或审阅者添加到已具有待审批�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
+source-git-commit: 9ede952041f89eca4ba324348880d7eb5f2bccd7
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '569'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 1%
 * 文档审批参与者显示在文档摘要中，而不是验证工作流选项卡中。
 * 当前报告工具不支持统一批准。
 
-  您可以将新的画布功能板Beta版加入[创建报表功能板以供审阅和批准](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)，也可以使用新的主页和画布功能板中提供的所有批准小组件，其中提供了有关统一批准的以下详细信息：
+  您可以将新的画布功能板（测试版）加入[创建报表功能板以供审阅和批准](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)，也可以使用新的主页和画布功能板中提供的文档审批量度小组件，其中提供了有关统一审批的以下详细信息：
 
    * 按决策审批
    * 平均审批时间
