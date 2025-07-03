@@ -12,7 +12,7 @@ exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
 source-git-commit: da980cee8710570f52c724053d1e0f359c6a9fe1
 workflow-type: tm+mt
 source-wordcount: '594'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="wf_document_approvals_ai_supported_files"
 >title="不支持的文件类型"
->abstract="此AI查看器不支持所选的文件类型。 上传支持的文件类型，或移除 AI 审核器以提交请求。"
+>abstract="此 AI 审阅者不支持所选的文件类型。 上传支持的文件类型，或移除 AI 审阅者以提交请求。"
 
 AI审阅者可审阅以下文件类型：
 
@@ -55,8 +55,8 @@ Workfront AI审阅者在审阅内容时，会使用Genstudio基础中设置的�
 
 要了解有关品牌准则的更多信息，请参阅
 
-* [GenStudio for Performance Marketing Brands](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
-* [添加准则](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
+* [GenStudio for Performance Marketing Brands](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
+* [添加准则](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
 
 
 ## 创建AI审阅者
