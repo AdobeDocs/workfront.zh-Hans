@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 3606b6c3-b373-47ea-9cb5-813bd3af8da7
-source-git-commit: c747d3697fd2a4e74dd4af5a8a418d0f52cf71ed
+source-git-commit: f409bc84360d92f1b952b594720d5e4aea1fc354
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 2%
+source-wordcount: '305'
+ht-degree: 1%
 
 ---
 
@@ -30,6 +30,11 @@ Sandbox 2
 -->
 
 通过客户端TLS，可验证您收到的事件订阅消息是否实际来自Adobe Workfront。 要启用此功能，必须将您的服务器配置为请求和验证Workfront的x509证书。
+
+>[!NOTE]
+>
+>* 默认情况下，Workfront当前支持TLS版本1.2。
+>* 组织可以请求为其Workfront实例启用TLS版本1.3。
 
 
 ## 验证Workfront的客户端证书
