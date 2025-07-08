@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: 9808596e561ef30cc0edf5006f5ac2f190ed64f5
+source-git-commit: 69677755d3e2f018169461683caf5750fba4fde0
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,12 @@ ht-degree: 0%
 有关2025年第三季度发布周期中此时可用的所有更改列表，请参阅[2025年第三季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)。
 
 ## 所有审批构件已重命名为文档审批量度
+
+>[!NOTE]
+>
+>* 预览：2025年6月30日
+>* 生产快速发布： 2025年6月30日
+>* 适用于所有客户的生产： 2025年6月30日
 
 我们已将所有审批构件重命名为文档审批量度，以更准确地反映它显示的信息。 文档审批量度小组件为您拥有的项目提供对文档审批的高级见解。
 
