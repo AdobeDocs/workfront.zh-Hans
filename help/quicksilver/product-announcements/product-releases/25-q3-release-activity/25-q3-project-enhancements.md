@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: f02a07c0bc4568d7e0fa25ca6e880024423527b7
+source-git-commit: d950346c549d22c7a8db82ce032caa24202f9126
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,23 @@ ht-degree: 0%
 本页介绍了在2025年第三季度版本中对“预览”环境所做的项目增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2025年第三季度发布周期中此时可用的所有更改列表，请参阅[2025年第三季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)。
+
+## 发出请求时的体验更新
+
+>[!NOTE]
+>
+>* 预览： 2025年7月9日
+>* 生产快速发布： 2025年7月17日
+>* 适用于所有客户的生产： 2025年7月17日
+
+我们更新了在新请求体验中提出请求时的体验。
+
+* 可用的请求表单和路径显示在列表中，而不是卡片中。 最近一次出现在顶部附近的部分中。
+* 所有请求表单(包括Workfront和Workfront Planning请求表单)都会显示在列表中。 以前，只有前50个报表点出现。
+* 请求路径和请求表单分别在“最近”区域以及下面较大的列表中列出。
+* 搜索请求队列时，列表会过滤以仅显示包含搜索词的表单和路径。 每个显示的请求表单或路径中都会突出显示搜索词。
+
+有关发出请求的信息，请参阅[创建并提交请求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)。
 
 ## 用旧版实际小时数替换了现有实际小时数字段，并创建了新的实际小时数字段
 
@@ -37,12 +54,12 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >根据记录小时数的时间，项目、任务或问题的实际小时数和旧版实际小时数之间可能存在差异。<br>
->&#x200B;>存在以下情况：
+>>存在以下情况：
 >
 >* 实际小时数表示自2021年5月以来为项目、任务和问题记录的小时数。
 >* 旧版实际小时数表示在项目、任务或问题的生命周期内为项目、任务和问题记录的小时数。 这包括2021年5月之前记录到当前时间的小时数。
->  &#x200B;><br>您可能需要更新报表以反映新字段及其值。
->  &#x200B;><br>Workfront使用旧版实际小时数计算实际劳力成本。
+>  ><br>您可能需要更新报表以反映新字段及其值。
+>  ><br>Workfront使用旧版实际小时数计算实际劳力成本。
 
 有关信息，请参阅[查看实际小时数](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md)。
 
@@ -96,3 +113,5 @@ ht-degree: 0%
 以前，AI助理的响应中无法获取此信息。
 
 有关使用AI助手获取有关Workfront项的信息，请参阅[使用AI助手处理项目、任务和问题](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md)。
+
+
