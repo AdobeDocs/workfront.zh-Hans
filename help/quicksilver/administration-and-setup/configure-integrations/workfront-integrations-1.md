@@ -187,7 +187,7 @@ ht-degree: 0%
     </ul> <p>有关详细信息，请参阅<a href="../../workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md" class="MCXref xref">[!DNL Adobe Workfront for Jira]</a>。</p> </td> 
    <td> 
     <ul> 
-     <li><p>新的Workfront计划：[！UICONTROL Select] [!DNL Workfront]计划或更高版本</p><p>当前Workfront计划： [！UICONTROL Pro] [!DNL Workfront]计划或更高版本</p> </li> 
+     <li><p>新的Workfront计划：[!UICONTROL Select] [!DNL Workfront]计划或更高版本</p><p>当前Workfront计划： [!UICONTROL Pro] [!DNL Workfront]计划或更高版本</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -263,7 +263,7 @@ ht-degree: 0%
     </ul> <p>有关详细信息，请参阅<a href="../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md" class="MCXref xref">[!DNL Adobe Workfront for Salesforce]</a>。</p> </td> 
    <td> 
     <ul> 
-     <li><p>新的Workfront计划：[！UICONTROL Select] [!DNL Workfront]计划或更高版本</p><p>当前Workfront计划： [！UICONTROL Pro] [!DNL Workfront]计划或更高版本</p> </li> 
+     <li><p>新的Workfront计划：[!UICONTROL Select] [!DNL Workfront]计划或更高版本</p><p>当前Workfront计划： [!UICONTROL Pro] [!DNL Workfront]计划或更高版本</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
