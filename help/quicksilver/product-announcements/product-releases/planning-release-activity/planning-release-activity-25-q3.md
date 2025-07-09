@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 6f79c2973324d7de34736810dafcbd08714b4738
+source-git-commit: eaba54ebfef15c5f823c7086b809165b5cfb181b
 workflow-type: tm+mt
-source-wordcount: '1982'
+source-wordcount: '1908'
 ht-degree: 0%
 
 ---
@@ -36,21 +36,21 @@ Prior to this enhancement, you had to manually update the fields associated with
 
 For information, see [Create records](/help/quicksilver/planning/records/create-records.md).-->
 
-## 视图和记录类型的常用共享按钮
+<!--## Common sharing button for views and record types
 
 >[!NOTE]
 >
->* 预览： 2025年7月9日
->* 适用于所有人的生产： 2025年7月17日
+>* Preview: July 9, 2025 
+>* Production for everyone: July 17, 2025 
 
-您现在可以从记录类型页面上的同一按钮共享视图和记录类型。 在此增强功能之前，您只能通过记录类型页面上的“共享”按钮共享记录类型，以及从视图选项卡共享视图。
+You can now share a view as well as a record type from the same button on the record type's page. Prior to this enhancement, you could only share the record type from the Share button on the record type page and a view from the view's tab.  
 
-有关更多信息，请参阅以下文章：
+For more information, see the following articles: 
 
-* [共享视图](/help/quicksilver/planning/access/share-views.md)
+* [Share views](/help/quicksilver/planning/access/share-views.md)  
 
-* [共享记录类型](/help/quicksilver/planning/access/share-record-types.md)
-
+* [Share record types](/help/quicksilver/planning/access/share-record-types.md)
+-->
 
 <!--## Add teams as approvers on Planning request forms
 
@@ -78,7 +78,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 * 我们已为您共享请求表单的用户删除了“管理”和“贡献”选项。 现在，添加的用户只能提交表单。
 * 现在，仅在启用创建公共链接选项后，公共共享选项卡才会显示链接和过期日期字段。
 
-有关详细信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)。
+有关详细信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)。
 
 ## 展开和折叠表格视图中的所有分组
 
@@ -296,7 +296,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >[!NOTE]
 >
 >此更改将对具有系统管理员和标准许可证的所有新用户和现有用户可见。
->&#x200B;>分配到布局模板的现有用户将继续根据布局模板中定义的设置查看所有内容。
+>>分配到布局模板的现有用户将继续根据布局模板中定义的设置查看所有内容。
 
 有关信息，请参阅[Adobe Workfront规划概述](/help/quicksilver/planning/access/access-overview.md)。
 
