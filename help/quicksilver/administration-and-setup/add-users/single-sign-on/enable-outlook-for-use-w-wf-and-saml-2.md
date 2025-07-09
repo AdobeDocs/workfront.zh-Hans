@@ -8,14 +8,22 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8a55d364-962a-4eef-8968-b2233a71cf31
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: af54faae1e78d7ffbe679fd82dfb5a3abd45f5cf
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
 
 # 启用Outlook以用于Workfront和SAML 2.0
+
+>[!IMPORTANT]
+>
+>[Microsoft正在禁用对旧版Exchange联机令牌](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens)的支持，Workfront Outlook加载项当前使用这些令牌进行身份验证。 Microsoft的这一更改已开始影响客户，并将在2025年10月之前继续分阶段推出。
+>
+>* **在Microsoft完全禁用这些令牌后，Workfront for Microsoft Outlook集成将无法再正常使用。**
+>
+>作为此更改的一部分，Microsoft已决定更改令牌的重新启用方式。 在&#x200B;**2025年6月30日**&#x200B;之后，管理员将无法再自行重新启用令牌 — 只有Microsoft支持部门可以授予例外。 **在2025年10月1日，将为所有租户关闭旧版令牌。 将不会授予例外。**
 
 如果启用SAML 2.0身份验证，并且希望用户能够使用其SAML 2.0凭据从Microsoft Outlook登录到Workfront，则必须启用SAML 2.0以在Office加载项中进行身份验证。
 
@@ -43,7 +51,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td>计划</td> 
+   <td>规划</td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 

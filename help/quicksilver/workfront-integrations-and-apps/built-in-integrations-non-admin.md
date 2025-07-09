@@ -7,9 +7,9 @@ description: 您可以将 [!DNL Adobe Workfront] 与第三方应用程序集成�
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: af54faae1e78d7ffbe679fd82dfb5a3abd45f5cf
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '489'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 <!-- Audited: 12/2023 -->
 
-您可以将[!DNL Adobe Workfront]与第三方应用程序及其他[!DNL Adobe]产品集成。 这些集成可以扩展[!DNL Workfront]的实用工具，并根据贵组织的需求对其进行定制。 例如，如果您是营销行业的创意工作者，则可以对[!DNL Creative Cloud]应用程序使用[!DNL Adobe Workfront]插件将资源直接从Photoshop导出到Workfront。
+您可以将[!DNL Adobe Workfront]与第三方应用程序及其他[!DNL Adobe]产品集成。 这些集成可以扩展[!DNL Workfront]的实用工具，并根据贵组织的需求对其进行定制。 例如，如果您是营销行业的创意工作者，则可以对[!DNL Adobe Workfront]应用程序使用[!DNL Creative Cloud]插件将资源直接从Photoshop导出到Workfront。
 
 您的[!DNL Workfront]管理员必须启用并配置内置集成，然后才能使用它们。 要了解您的组织中使用哪些内置集成，请与[!DNL Workfront]管理员联系。
 
@@ -44,7 +44,7 @@ Workfront中目前提供以下内置集成。
      <li>After Effects </li>
      </ul>
      <li><p>从<a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>下载/安装。</p></li></ul>
-     <p>有关信息和说明，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">为[!DNL Creative Cloud]应用程序安装[!DNL Adobe Workfront]插件</a>。</p> </td> 
+     <p>有关信息和说明，请参阅<a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">为[!DNL Adobe Workfront]应用程序安装[!DNL Creative Cloud]插件</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Adobe Experience Manager Assets和Assets Essentials </p>  </p> </td> 
@@ -95,13 +95,13 @@ Workfront中目前提供以下内置集成。
      <li>在[!DNL Workfront]和[!DNL Jira]之间同步链接任务的更新和状态 </li> 
     </ul> </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader">Microsoft日历(Office 365 / Outlook Live)</td> 
+  <!--<tr> 
+   <td role="rowheader">Microsoft Calendars (Office 365 / Outlook Live)</td> 
    <td> 
     <ul> 
-     <li> <p>在云托管的Office 365或Outlook Live中与基于Web的Outlook版本集成。 </p>
+     <li> <p>Integrate with a web-based version of Outlook in cloud-hosted Office 365 or Outlook Live. </p>
     </ul> </td> 
-  </tr> 
+  </tr>-->
   <tr> 
    <td role="rowheader"> <p>Microsoft OneDrive</p> <p> <img src="assets/microsoft-onedrive.png"> </p> </td> 
    <td> 
@@ -109,21 +109,21 @@ Workfront中目前提供以下内置集成。
      <li>将文档和文件夹链接到 [!DNL Workfront]</li> 
     </ul> </td> 
   </tr> 
-  <tr> 
+  <!--<tr> 
    <td role="rowheader"> <p>Microsoft Outlook</p> <p> <img src="assets/outlook.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>通过电子邮件中的信息更新现有项目/任务/问题 </li> 
-     <li>直接从收件箱将电子邮件转换为[!DNL Workfront]个项目 </li> 
-     <li>通过电子邮件创建新任务 </li> 
-     <li>评论[!DNL Workfront]项 </li> 
+     <li>Update an existing project/task/issue with info from an email </li> 
+     <li>Convert emails into [!DNL Workfront] items right from your inbox </li> 
+     <li>Create new tasks from an email </li> 
+     <li>Comment on [!DNL Workfront] items </li> 
     </ul> </td> 
-  </tr> 
+  </tr> -->
   <tr> 
    <td role="rowheader"> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p><b>注意</b>：从2025年7月1日起，Microsoft将移除对Classic Teams桌面应用程序的支持。 因此，一旦Classic Teams桌面应用程序不再可用，则将不支持与Microsoft Teams的Workfront集成。 </p> </td> 
    <td> 
     <ul> 
-     <li>在[!DNL Microsoft Teams]中获取[!DNL Workfront]通知 </li> 
+     <li>在[!DNL Workfront]中获取[!DNL Microsoft Teams]通知 </li> 
      <li>作出批准决定 </li> 
      <li>搜索[!DNL Workfront]项目、任务和问题 </li> 
      <li>创建[!DNL Workfront]个人任务 </li> 
@@ -134,7 +134,7 @@ Workfront中目前提供以下内置集成。
    <td role="rowheader"> <p>Salesforce</p> <p> <img src="assets/salesforce-logo-web-2019.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>从[!DNL Salesforce]创建新[!DNL Workfront]请求 </li> 
+     <li>从[!DNL Workfront]创建新[!DNL Salesforce]请求 </li> 
      <li>创建[!DNL Workfront]项目 [!DNL Salesforce]</li> 
     </ul> </td> 
   </tr> 
@@ -149,9 +149,9 @@ Workfront中目前提供以下内置集成。
    <td role="rowheader"> <p>Slack</p> <p> <img src="assets/slacklogo.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>在[!DNL Slack]中接收[!DNL Workfront]通知 </li> 
+     <li>在[!DNL Workfront]中接收[!DNL Slack]通知 </li> 
      <li>在Slack中管理批准 </li> 
-     <li>从[!DNL Slack]创建[!DNL Workfront]任务和问题 </li> 
+     <li>从[!DNL Workfront]创建[!DNL Slack]任务和问题 </li> 
      <li>从Slack将注释发布到项目或任务</li> 
     </ul> </td> 
   </tr> 
