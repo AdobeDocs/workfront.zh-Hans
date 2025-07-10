@@ -6,9 +6,9 @@ description: 您可以从许多小组件中进行选择，以自定义主页上�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 81f32dfe-cde0-4e61-a542-9b99a18a3953
-source-git-commit: c1f5e11c6327ef86bd3f89eb383b3bf06bd4981f
+source-git-commit: 10efc850b4951c3ad1a7086d3ec087d848dde96e
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1098'
 ht-degree: 6%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 6%
         <td>我的项目、我的批准</td>
     </tr>
     <tr>
-        <td>参与</td>
+        <td>贡献</td>
         <td>我的工作，提及</td>
     </tr>
     <tr>
@@ -84,7 +84,7 @@ ht-degree: 6%
 
 ## 将构件添加到主页
 
-小组件是Home的基础。 通过将小组件添加到主页，您可以选择显示的信息类型，以便最好地满足您的工作需求。 某些构件仅适用于特定许可证类型，因为它们跟踪的对象仅适用于这些许可证。 有关详细信息，请参阅上面的特定许可证类型[&#128279;](#widgets-available-for-specific-license-types)可用的小组件。
+小组件是Home的基础。 通过将小组件添加到主页，您可以选择显示的信息类型，以便最好地满足您的工作需求。 某些构件仅适用于特定许可证类型，因为它们跟踪的对象仅适用于这些许可证。 有关详细信息，请参阅上面的特定许可证类型[可用的](#widgets-available-for-specific-license-types)小组件。
 
 添加构件：
 
@@ -119,10 +119,10 @@ ht-degree: 6%
        显示您所在团队的所有待处理请求（按团队排序），以及用于直接将请求分配给用户或自己处理请求的按钮。
 
    * **我的审批**\
-       显示所有待分配或委派的批准、一个委派批准的按钮以及可直接在小组件内做出批准决策的按钮。
+       显示所有待分配或委派的审批、一个委派审批的按钮以及可直接在小组件内做出审批决策的按钮。
 
-   * **所有审批**\
-           显示2个图表，其中包含有关平均审批时间和决策的信息，以及未决和超期审批的列表视图。 <span style="color: #ff0000;">此功能属于分阶段发布，当前仅适用于特定客户。</span>
+   * **文档审批指标**\
+           显示2个图表，其中包含有关平均审批时间和决策的信息，以及未决和超期审批的列表视图。 您必须启用[统一审批](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)才能使用此小组件。
 
    * **提及**\
        显示来自Workfront的最近评论线程，类似于“我的更新”页面。 您可以使用回复按钮在小组件中撰写回复。 只要任务或问题在过去30天内已更新，此构件还显示有关您分配到的任务或问题、您分配给另一个用户、您拥有、您是其主要联系人或您创建的任务或问题的评论。

@@ -6,7 +6,7 @@ description: 主页可帮助您管理工作。 您可以自定义此灵活空间
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 9ede952041f89eca4ba324348880d7eb5f2bccd7
+source-git-commit: 10efc850b4951c3ad1a7086d3ec087d848dde96e
 workflow-type: tm+mt
 source-wordcount: '1011'
 ht-degree: 4%
@@ -62,7 +62,7 @@ Adobe Workfront中的新“主页”体验旨在改进当前的“主页”体�
     显示所有待处理、已分配、已委托和已提交的审批；一个用于委托审批的按钮；以及一个用于直接在小组件内做出审批决策的按钮。
 
 * **文档审批指标**\
-        显示2个图表，其中包含有关平均文档审批时间和决策的信息，以及未决和超期审批的列表视图。 您必须启用统一审批才能使用此构件。
+        显示2个图表，其中包含有关平均文档审批时间和决策的信息，以及未决和超期审批的列表视图。 您必须启用[统一审批](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)才能使用此小组件。
 
 * **提及**\
     显示来自Workfront的最近评论线程，类似于“我的更新”页面。 您可以使用回复按钮在小组件中撰写回复。 只要任务或问题在过去30天内已更新，此构件还显示有关您分配到的任务或问题、您分配给另一个用户、您拥有、您是其主要联系人或您创建的任务或问题的评论。
