@@ -185,7 +185,7 @@ ht-degree: 0%
 >[!TIP]
 >
 >当您取消激活下面具有子组的组时，这些子组也会变为非活动状态。 如果您希望其中一个处于活动状态，可以使用这些说明将其从父组中移除，然后重新激活它。
->>有关停用和重新激活组的说明，请参阅[停用或重新激活组](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)。
+>&#x200B;>有关停用和重新激活组的说明，请参阅[停用或重新激活组](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)。
 
 {{step-1-to-setup}}
 
