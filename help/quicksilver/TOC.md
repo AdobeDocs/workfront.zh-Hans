@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: cd5dcbd0f39754fb9ab1605c1eb65af37aa21996
+source-git-commit: 2768cb277a45493dc8eb9ffeca2c05b14d772382
 workflow-type: tm+mt
-source-wordcount: '13227'
+source-wordcount: '13231'
 ht-degree: 2%
 
 ---
@@ -903,6 +903,7 @@ ht-degree: 2%
       * [启用从预览Sandbox环境的电子邮件投放](workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md)
       * [事件通知](workfront-basics/using-notifications/event-notifications.md)
       * [将提醒通知附加到对象](workfront-basics/using-notifications/attach-reminder-notification-object.md)
+      * [事件通知：文章索引](/help/quicksilver/workfront-basics/using-notifications/event-notifications-article-index.md)
       * [通知：需要操作](workfront-basics/using-notifications/notifications-action-needed.md)
       * [通知：审批信息](workfront-basics/using-notifications/notifications-approval-information.md)
       * [通知：通信](workfront-basics/using-notifications/notifications-communication.md)
@@ -2171,7 +2172,7 @@ ht-degree: 2%
    * 适用于Outlook的Adobe Workfront {#workfront-for-outlook}
       * [适用于Outlook的Adobe Workfront：文章索引](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
       * [设置适用于Outlook的Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
-      * [适用于Outlook的Workfront的权限级别](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
+      * 适用于Outlook的Workfront的[权限级别](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
       * [回复Outlook的评论](workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md)
       * [通过Outlook电子邮件更新现有对象](workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md)
       * [将Outlook电子邮件作为任务或问题添加到项目](workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md)
@@ -2466,8 +2467,8 @@ ht-degree: 2%
       * [使用JWT流配置和使用贵组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程配置和使用您组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-pkce-flow.md)
       * [弃用API — 内部](wf-api/api/deprecation-api-internal.md)
-      * [API版本20中的新增功能](wf-api/api/new-api-version-20.md)
-      * [API版本19中的新增功能](wf-api/api/new-api-version-19.md)
+      * [API版本20](wf-api/api/new-api-version-20.md)中的新增功能
+      * [API版本19](wf-api/api/new-api-version-19.md)中的新增功能
       * [API版本18中的新增功能](wf-api/api/new-api-version-18.md)
       * [API版本17中的新增功能](wf-api/api/new-api-version-17.md)
       * [API版本16中的新增功能](wf-api/api/new-api-version-16.md)
