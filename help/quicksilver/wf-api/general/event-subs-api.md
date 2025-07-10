@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: d41bb7beb4879bcef224b0234b1c024eb16c9bd6
+source-git-commit: 5b984451d19ed0381c75c4fa19f3eba16804fbf5
 workflow-type: tm+mt
-source-wordcount: '2647'
+source-wordcount: '2666'
 ht-degree: 3%
 
 ---
@@ -25,9 +25,11 @@ ht-degree: 3%
 
 当事件订阅支持的Adobe Workfront对象上发生操作时，您可以将Workfront配置为将响应发送到所需的端点。 这意味着第三方应用程序在更新发生后不久即可通过Workfront API接收来自Workfront交互的更新。 通常，您可以预期在记录数据更改后的5秒内收到webhook通知。 平均而言，客户会在距记录的数据更改不到1秒的时间内收到webhook通知。
 
+由于事件订阅将数据发送到其他服务，因此它们通过命令而不是通过Workfront应用程序进行管理。
+
 列入允许列表要通过防火墙接收事件订阅负载，必须将以下IP地址添加到您的：
 
-对于欧洲的客户：**&#x200B;**
+对于欧洲的客户：****
 
 * 52.30.133.50
 * 52.208.159.124
@@ -84,7 +86,7 @@ ht-degree: 3%
 * 要使用事件订阅，需要具有“系统管理员”访问级别。
 * 需要`sessionID`标头才能使用事件订阅API
 
-  有关详细信息，请参阅[API基础知识](api-basics.md)中的[身份验证](api-basics.md#authentication)。
+  有关详细信息，请参阅[API基础知识](api-basics.md#authentication)中的[身份验证](api-basics.md)。
 
 ## 形成订阅资源
 
@@ -803,12 +805,12 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 #### state
 
 此连接器使过滤器应用于已创建或更新的对象的新状态或旧状态。 当您想知道在何处对某个对象进行了更改时，此功能非常有用。
-无法在CREATE `eventTypes`上执行`oldState`。
+无法在CREATE `oldState`上执行`eventTypes`。
 
 >[!NOTE]
 >
->下面带有给定过滤器的订阅将只返回任务名称在`oldState`上包含`again`的消息，该名称与更新任务之前所包含的内容相同。
->&#x200B;>此功能的用例是查找从一个对象更改到另一个对象的对象代码消息。 例如，查找从“Research Some name”更改为“Research TeamName Some name”的所有任务
+>下面带有给定过滤器的订阅将只返回任务名称在`again`上包含`oldState`的消息，该名称与更新任务之前所包含的内容相同。
+>>此功能的用例是查找从一个对象更改到另一个对象的对象代码消息。 例如，查找从“Research Some name”更改为“Research TeamName Some name”的所有任务
 
 ```
 {
