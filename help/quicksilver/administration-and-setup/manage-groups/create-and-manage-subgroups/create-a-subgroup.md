@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: b59b1491-9a78-49c0-89c9-ab1ce0099e0b
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 008f96d52632f5f05554d63ae1c38cc37d21544b
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 3%
+source-wordcount: '659'
+ht-degree: 0%
 
 ---
 
@@ -67,53 +67,34 @@ ht-degree: 3%
 1. 选择要添加新子组的现有组或子组。
 1. 单击&#x200B;**新建子组**。
 1. 在出现的&#x200B;**新建子组**&#x200B;框中，键入该子组的&#x200B;**组名**。
-1. （可选）指定以下任意信息：
+1. （可选）输入以下任何信息：
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">组名称</td> 
-      <td>更改组的名称。</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">描述</td> 
-      <td>键入子组的描述。 最多可键入512个字符。</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">为活动</td> 
-      <td> <p>（默认启用）在Workfront实例中激活组。</p> <p>在如下所示的预输入字段中，当常规用户搜索组以将其附加到对象或与其共享对象时，列表中只会显示活动组。</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>要简化用户的这项操作，您可以对当前未使用的组禁用“处于活动状态”选项。</p> <p>使用此字段，您可以轻松地根据活动或非活动状态查看、筛选和分组组列表。 有关在列表中使用视图、筛选器和分组的信息，请参阅<a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref" data-mc-variable-override="">报告元素：筛选器、视图和分组</a>。</p>  </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">使该组和子组公开</td> 
-      <td> <p>(仅在查看顶级组（而非子组）的详细信息时可用。) 启用此选项可允许子组中具有编辑用户访问权限的用户（不是组的管理员）将此组及其子组添加到其他用户的用户配置文件中。</p> <p>对于公共组，任何具有编辑用户访问权限的用户（在组中或组外）都可以将该组添加到其他用户的配置文件中。 他们无法为专用组执行此操作。</p> <p>您只能在具有多个级别的组的层次结构中的顶层父组上编辑此选项。 父组的所有子组将继承其设置。</p> <p><b>注释</b>：  
-        <ul> 
-         <li>不能将子组本身设为公用，但可以将其顶级父组设为公用，这样还可以将父代的所有子组设为公用。</li> 
-         <li>默认情况下，属于公共组的子组是公用的，因此任何具有编辑用户访问权限的用户都可以将该子组添加到其他用户。</li> 
-        </ul> </p> <p>如果您需要有关编辑用户所需访问权限的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref" data-mc-variable-override="">授予用户访问权限</a>。 有关编辑用户的信息，请参阅<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref" data-mc-variable-override="">编辑用户的配置文件</a>。</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">商业领导 </td> 
-      <td> <p>您可以将一个用户指定为您管理的子组的业务负责人。 业务负责人是为子组制定业务决策的人员。 有关详细信息，请参阅<a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">业务负责人概述</a><span>.</span></p> <p>如果人员还不是子组的成员，则将其姓名添加到此字段也会将其添加到组中。</p> <p><b>注释</b>：  
-        <ul> 
-         <li>您必须先从“业务领导者”字段中移除“业务领导者”名称，然后才能从子组中移除“业务领导者”。</li> 
-         <li>如果从“业务领导者”字段中移除该名称，则该用户仍然是子组的成员，除非将其从中移除。 有关从组中删除某人的说明，请参阅<a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref" data-mc-variable-override="">管理组</a>一文中的<a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref" data-mc-variable-override="">管理组成员资格</a>部分。</li> 
-        </ul> </p> <p>有关详细信息，请参阅<a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">业务负责人概述</a>。</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">组成员和组管理员</td> 
-      <td> 
-       <ul> 
-        <li> <p>组成员：要将用户和组添加到子组，请开始键入要添加的现有用户或组的名称，然后在出现时选择该名称。</p> <p>您添加的用户和组可以访问与该组共享的所有对象。</p> </li> 
-        <li> <p data-mc-conditions="SnippetConditions-wf-groups.subgroups">组管理员：子组继承其上方的组的组管理员，因此指定用户作为子组的组管理员是可选的。 您可以使用用户名右侧的下拉菜单将组成员指定为组的管理员。</p> </li> 
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">搜索列表中的人员和组</td> 
-      <td> 如果需要查找已分配给此子组的用户或组，可以在此处键入其名称，并在其出现时将其选定。</td> 
-     </tr> 
-    </tbody> 
-   </table>
+   * **描述**：键入子组的描述。 最多可键入512个字符。
+   * **处于活动状态**：此选项默认处于启用状态，并使该组在您的Workfront实例中处于活动状态。
+
+     在类似下面所示的预输入字段中，当常规用户搜索组以将其附加到对象或与其共享对象时，列表中只会显示活动组。
+
+     群组![预输入字段](assets/typeahead-for-group.png)
+
+     若要简化用户的这项操作，您可以对当前未使用的组禁用&#x200B;**处于活动状态**&#x200B;选项。
+
+     使用此字段，您可以轻松地根据活动或非活动状态查看、筛选和分组组列表。 有关在列表中使用视图、筛选器和分组的信息，请参阅[报告元素：筛选器、视图和分组](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)。
+
+   * **业务负责人**：您可以为管理的子组指定一个用户作为业务负责人。 业务负责人是为子组制定业务决策的人员。 有关详细信息，请参阅[业务负责人概述](/help/quicksilver/administration-and-setup/manage-groups/group-roles/business-leader-overview.md)。
+
+     如果人员还不是子组的成员，则将其姓名添加到此字段也会将其添加到组中。
+
+     >[!NOTE]
+     >
+     >* 您必须先从“业务领导者”字段中移除“业务领导者”名称，然后才能从子组中移除“业务领导者”。
+     >* 如果从“业务领导者”字段中移除该名称，则该用户仍然是子组的成员，除非将其从中移除。 有关从组中删除某人的说明，请参阅[查看和管理组的成员资格](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md)。
+
+   * **组成员及组管理员**：若要将用户和组添加为子组的成员，请开始键入要添加的现有用户或组的名称，然后在其出现时选择该名称。
+
+     您添加的用户和组可以访问与该组共享的所有对象。
+
+     子组继承其上方的组的组管理员，因此指定用户作为子组的组管理员是可选的。 您可以使用用户名右侧的下拉菜单将组成员指定为组的管理员。
+
+   * **搜索列表中的人员和组**：如果您需要查找已分配给此子组的用户或组，可以在此处键入其名称，并在其出现时将其选定。
 
 1. 单击&#x200B;**保存。**

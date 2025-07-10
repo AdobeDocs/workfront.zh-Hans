@@ -6,9 +6,9 @@ description: 作为Adobe Workfront客户，您可以通过电话或在线提交�
 feature: Get Started with Workfront
 author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: 854b537e3a480d14a35bf7d17d1ed8ed1507660c
+source-git-commit: 008f96d52632f5f05554d63ae1c38cc37d21544b
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,39 @@ ht-degree: 0%
 >[!NOTE]
 >
 >如有严重问题，请通过电话联系[!DNL Workfront]客户支持。
+
+## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
+
+您必须具有以下权限才能执行本文中的步骤：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront计划</td> 
+   <td>任何</td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td><p>新增：标准</p>
+       <p>或</p>
+       <p>当前：计划</p></td>
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td>您必须是系统管理员。</td>
+  </tr> 
+ </tbody> 
+</table>
+
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 电话
 
@@ -52,7 +85,7 @@ ht-degree: 0%
 >只有授权支持联系人（或授权支持用户）才能提交在线支持工单。
 
 
-1. 从[[!DNL Experience League]](https://experienceleague.adobe.com/zh-hans)网站，单击页面顶部的&#x200B;**[!UICONTROL 支持]**。
+1. 从[[!DNL Experience League]](https://experienceleague.adobe.com)网站，单击页面顶部的&#x200B;**[!UICONTROL 支持]**。
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 

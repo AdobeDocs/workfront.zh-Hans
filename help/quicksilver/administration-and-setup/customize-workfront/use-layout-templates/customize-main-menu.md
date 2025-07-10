@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: 作为Adobe Workfront管理员或组管理员，您可以使用布局模板配置用户在Workfront中打开主菜单时看到的选项。
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: bb0c3139be903e34fd01be055010673764fe9787
+source-git-commit: 00ec13dfb082ecd9b087d79b385a4eea677cf55d
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 3%
@@ -118,13 +118,13 @@ ht-degree: 3%
 
      >[!NOTE]
      >
-     >Planning需要额外的许可证。 有关Workfront规划的信息，请参阅[Adobe Workfront规划概述](/help/quicksilver/planning/general/planning-overview.md)
-     > * 自定义应用程序
+     >Planning需要额外的许可证。 有关Workfront Planning的信息，请参阅[Adobe Workfront Planning概述](/help/quicksilver/planning/general/planning-overview.md)。
+
+   * 自定义应用程序
 
      >[!NOTE]
      >
      > 自定义应用程序必须单独创建，然后才能作为主菜单选项使用。 有关详细信息，请参阅[使用Adobe App Builder为Workfront创建自定义应用程序](/help/quicksilver/app-builder/app-builder.md)。
-
 
 1. 执行以下任一操作：
 
@@ -144,6 +144,6 @@ ht-degree: 3%
 
    >[!TIP]
    >
-   >您可以随时单击保存以保存进度，然后继续修改模板。
+   >您可以随时单击&#x200B;**保存**&#x200B;以保存进度，然后稍后继续修改模板。
 
 有关布局模板的更多信息，请参阅[创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。
