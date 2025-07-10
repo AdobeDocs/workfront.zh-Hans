@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 4fafdcea97874e791104260375617e3989af1870
 workflow-type: tm+mt
-source-wordcount: '2419'
+source-wordcount: '2468'
 ht-degree: 0%
 
 ---
@@ -133,7 +133,11 @@ ht-degree: 0%
 
 1. （视情况而定）从表格视图中，执行以下操作之一：
 
-   * 在表的最后一行中单击&#x200B;**新建记录**
+   * 在表的最后一行中或在分组中的最后一个记录之后单击&#x200B;**新建记录**
+
+     >[!TIP]
+     >
+     ><span class="preview">当您在分组或子分组中的最后一个记录之后添加新记录时，Workfront会自动填充分组中包含的字段。 如果需要，您可以手动编辑这些字段，并且可能会从分组中删除记录。</span>
 
    * 在键盘上从表格的任意列或行单击&#x200B;**Shift + Enter**。 这会在您开始的记录下添加一个空行。
    * 将鼠标悬停在记录的主字段上，单击该字段右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**在上方插入记录**&#x200B;或&#x200B;**在下方插入记录**。
@@ -205,18 +209,18 @@ ht-degree: 0%
 
 1. （视情况而定）在任意视图中，根据工作区<!--<span class="preview">and record type</span>-->权限，单击屏幕右上角的以下内容：
 
-   * 如果您对工作区<!--<span class="preview">and record type</span>-->具有Contribute或更高权限，请单击&#x200B;**新建记录**
+   * 如果您对工作区&#x200B;**具有Contribute或更高权限，请单击**&#x200B;新建记录<!--<span class="preview">and record type</span>-->
 
      或
 
-   * 如果您对工作区<!--<span class="preview">and record type</span>-->具有查看权限，请单击&#x200B;**请求记录**。
+   * 如果您对工作区&#x200B;**具有查看权限，请单击**&#x200B;请求记录<!--<span class="preview">and record type</span>-->。
 
 1. （视情况而定）如果您单击&#x200B;**新记录**，请执行以下操作：
 
    1. 单击以下方法之一创建记录，然后单击&#x200B;**继续**：
 
       * **手动添加**。 记录的预览框打开。\
-        添加有关记录的信息，如从第6步开始，通过从本文中的记录类型表视图[&#128279;](#create-records-by-adding-them-inline-from-the-record-type-table-view)节内联添加记录来创建记录中所述。<!--insure this stays accurate-->
+        添加有关记录的信息，如从第6步开始，通过从本文中的记录类型表视图[节内联添加记录来创建记录](#create-records-by-adding-them-inline-from-the-record-type-table-view)中所述。<!--insure this stays accurate-->
       * **从文件上载**
 添加记录，如文章[中所述。通过从CSV或Excel文件导入信息创建记录](/help/quicksilver/planning/records/import-file-to-create-records.md)，从步骤6开始。<!--ensure this stays accurate-->
       * **提交请求**
@@ -337,7 +341,7 @@ You can import records from other applications by linking them to existing recor
 1. （视情况而定）如果在尝试连接时找不到记录，请单击&#x200B;**+添加**
 
    或
-开始键入名称，然后单击&#x200B;**+添加**。 **+ Add**&#x200B;按钮后跟您连接到的记录类型的名称。 例如，将品牌添加到现有营销活动时，“添加品牌”。 您键入的名称还遵循“添加”按钮。
+开始键入名称，然后单击**+添加**。 **+ Add**&#x200B;按钮后跟您连接到的记录类型的名称。 例如，将品牌添加到现有营销活动时，“添加品牌”。 您键入的名称还遵循“添加”按钮。
 
    ![添加按钮以在突出显示的上下文中创建记录](assets/add-button-to-create-records-in-context-highlighted.png)
 

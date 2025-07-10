@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: 23a5c90b9321b72a20f21752f957b3be0a9f3a02
+source-git-commit: 4fafdcea97874e791104260375617e3989af1870
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '933'
 ht-degree: 8%
 
 ---
@@ -19,13 +19,15 @@ ht-degree: 8%
 
 <!-- Audited: 6/2025 -->
 
+<!--
+
 <div class="preview">
 
-此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 从预览版本发布的一周后，所有客户还可以在生产环境中使用相同的功能。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
 
-有关详细信息，请参阅[接口现代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
-</div>
+</div> -->
 
 [!DNL Adobe Workfront]在对象的[!UICONTROL 更新]区域生成自动系统更新以记录以下事件：
 
@@ -58,14 +60,14 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td><p>新文档： [!UICONTROL Standard]</p>
+   <td><p>新文档： [！UICONTROL Standard]</p>
    或
-   <p>当前： [!UICONTROL 计划]</p>
+   <p>当前： [！UICONTROL计划]</p>
    </td> 
   </tr>  
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td>
+   <td>[！UICONTROL系统管理员]</td>
   </tr> 
  </tbody> 
 </table>
@@ -96,13 +98,13 @@ ht-degree: 8%
 {{step-1-to-setup}}
 
 1. 在左侧的面板中，单击&#x200B;**[!UICONTROL 界面]**，然后单击&#x200B;**[!UICONTROL 更新馈送]**。
-1. （可选）在&#x200B;<span class="preview">**跟踪的字段**&#x200B;选项卡</span>中，根据要在更新馈送中跟踪的字段类型，单击以下子选项卡之一：
+1. （可选）在&#x200B;**跟踪的字段**&#x200B;选项卡中，根据要在更新馈送中跟踪的字段类型，单击以下子选项卡之一：
 
-   * <span class="preview">**内置字段**</span>：显示内置字段列表。
-   * <span class="preview">**自定义字段**</span>：显示自定义字段列表。 您必须先创建自定义字段，然后它们才能在列表中使用。
-   * <span class="preview">**所有字段**</span>：显示内置和自定义字段的列表。
+   * **内置字段**：显示内置字段列表。
+   * **自定义字段**：显示自定义字段列表。 您必须先创建自定义字段，然后它们才能在列表中使用。
+   * **所有字段**：显示内置和自定义字段的列表。
 
-1. 单击<span class="preview">**[!UICONTROL 添加字段&#x200B;]**，</span>，然后从下拉列表中选择要跟踪的对象。
+1. 单击&#x200B;**[!UICONTROL 添加字段]**，然后从下拉列表中选择要跟踪的对象。
 
    手动选择字段不适用于具有“更新”区域的所有对象。
 
@@ -115,16 +117,16 @@ ht-degree: 8%
    * 项目群
    * 用户
 
-   对于每个选定的对象，<span class="preview">**添加字段** </span>框打开。
-1. 在&#x200B;<span class="preview">**添加字段** </span>框中，开始为该对象键入内置（标准）字段或自定义字段，然后当该字段出现在列表中时将其选定。
+   对于每个选定的对象，**添加字段**&#x200B;框打开。
+1. 在&#x200B;**添加字段**&#x200B;框中，开始键入对象的内置（标准）字段或自定义字段，然后当该字段出现在列表中时将其选定。
 
    >[!NOTE]
    >
    >如果[!DNL Workfront]已在跟踪该字段，则不能从列表中再次添加该字段。
 
-1. 添加所有您希望[!DNL Workfront]跟踪的字段后，<span class="preview">单击“**[!UICONTROL 添加”]**。
-您添加的内置字段显示在&#x200B;**[!UICONTROL 内置字段]**&#x200B;子选项卡下，自定义字段显示在&#x200B;**[!UICONTROL 自定义字段]**&#x200B;子选项卡下。
-**[!UICONTROL 所有字段]**&#x200B;子选项卡同时显示[!DNL Workfront]跟踪的内置和自定义字段。</span>
+1. 添加所有您希望[!DNL Workfront]跟踪的字段后，单击&#x200B;**[!UICONTROL 添加]**。
+您添加的内置字段显示在**[!UICONTROL 内置字段]**&#x200B;子选项卡下，自定义字段显示在&#x200B;**[!UICONTROL 自定义字段]**子选项卡下。
+**[!UICONTROL 所有字段]**&#x200B;子选项卡同时显示[!DNL Workfront]跟踪的内置和自定义字段。
 
 ### 删除您不希望跟踪的字段 {#remove-fields-you-don-t-want-tracked}
 
@@ -136,16 +138,7 @@ ht-degree: 8%
 
 1. 在&#x200B;**[!UICONTROL 跟踪的字段]**&#x200B;选项卡上，选择&#x200B;**[!UICONTROL 所有字段]**&#x200B;子选项卡。 当前被跟踪的内置和自定义字段都会显示。
 
-1. 选择要停止跟踪的字段，然后单击&#x200B;**[!UICONTROL 删除]**。
-
-
-<!--replace above at Preview release with this:
-
-1. On the <span class="preview">**[!UICONTROL Tracked fields]** tab</span>, select the **[!UICONTROL All fields]** subtab. Both the built-in and custom fields that are currently being tracked display.
-
-1. Select the field you want to stop tracking, then click the <span class="preview">**[!UICONTROL Remove]** icon ![Remove icon](assets/remove-icon.png).</span>
-
--->
+1. 选择要停止跟踪的字段，然后单击&#x200B;**[!UICONTROL 删除]**&#x200B;图标![删除图标](assets/remove-icon.png)。
 
 1. 在出现的&#x200B;**[!UICONTROL 删除字段]**&#x200B;框中，单击&#x200B;**[!UICONTROL 是，删除它]**&#x200B;以进行确认。
 

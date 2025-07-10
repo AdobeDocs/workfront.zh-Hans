@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
+source-git-commit: 4fafdcea97874e791104260375617e3989af1870
 workflow-type: tm+mt
-source-wordcount: '3720'
+source-wordcount: '3758'
 ht-degree: 2%
 
 ---
@@ -270,7 +270,7 @@ ht-degree: 2%
 1. 选择一个表视图，然后单击该表右上角的&#x200B;**筛选器**。
 1. 单击&#x200B;**添加条件**&#x200B;并添加以下信息：
 
-   * **选择要按<!-- the tip below might change-->筛选的字段**
+   * **选择要按**&#x200B;筛选的字段<!-- the tip below might change-->
 
    * **选择一个选项**（或筛选器修饰符）以定义字段必须满足哪种条件
 
@@ -573,13 +573,20 @@ To sort grouped records:
 要从表格视图或记录类型导出信息，请执行以下操作：
 
 1. 转到记录类型页面，然后单击表格视图选项卡。
-1. 将鼠标悬停在表视图选项卡的名称上，然后单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)。
+1. 执行下列操作之一：
+
+   * 将鼠标悬停在表视图选项卡的名称上，然后单击视图名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**导出**。
 
    视图上的![更多菜单](assets/view-more-menu-with-duplicate-option.png)
-1. 单击&#x200B;**导出**，然后选择以下格式之一：
 
-   * Excel
-   * CSV
+   * 单击&#x200B;**共享** > **导出当前视图**。 此选项仅在显示表格视图时可用。
+
+   ![具有记录类型和视图共享选项的“共享”按钮](assets/share-button-with-record-type-and-view-sharing-options.png)
+
+1. 选择以下格式之一：
+
+   * **Excel**
+   * **CSV**
 
    >[!IMPORTANT]
    >
