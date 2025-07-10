@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
-source-git-commit: 6d87be19693f8838458f6bbcf9edf681f19d677f
+source-git-commit: 20e4c8619bd59ec8686da74582dbc2f25b9a79c7
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,15 @@ ht-degree: 0%
 
 有关2025年第三季度版本的所有可用更改列表，请参阅[2025年第三季度版本概述](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)。
 
-<!--## New look-and-feel for Announcement Center messages
+## 公告中心报文的新外观
 
 >[!NOTE]
 >
->* Preview: July 10, 2025
->* Production fast release: July 17, 2025
->* Production for all customers:  July 17, 2025
+>* 预览： 2025年7月10日
+>* 生产快速发布： 2025年7月17日
+>* 适用于所有客户的生产： 2025年7月17日
 
-Announcement Center messages now match the style of Workfront email notifications.-->
+公告中心消息现在与Workfront电子邮件通知的样式匹配。
 
 ## 界面现代化
 

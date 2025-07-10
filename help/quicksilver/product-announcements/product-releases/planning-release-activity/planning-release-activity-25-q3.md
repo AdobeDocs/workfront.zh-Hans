@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: eaba54ebfef15c5f823c7086b809165b5cfb181b
+source-git-commit: ccd0f65f064b5e55b6b5b94b27e25facfe50502f
 workflow-type: tm+mt
-source-wordcount: '1908'
+source-wordcount: '2078'
 ht-degree: 0%
 
 ---
@@ -22,35 +22,34 @@ ht-degree: 0%
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
-<!--## Auto-populate fields based on applied groupings
+## 根据应用的分组自动填充字段
 
-Preview: July 10, 2025 
-Production fast release: August 14, 2025 
-Production for everyone: October 16, 2025 
+预览： 2025年7月10日
+生产快速发布： 2025年8月14日
+为每个人生产： 2025年10月16日
 
-Now, when you have  groupings applied to a table view, adding a record to the table will auto-populate the fields associated with the groupings you add the record to.  
+现在，当您将分组应用于表视图时，向表中添加记录将自动填充与您将记录添加到的分组相关联的字段。
 
-If you have multiple groupings applied, the system auto-populates the fields associated with all groupings only when you add the record at the end of the list inside the last grouping criteria.  
+如果应用了多个分组，则仅当在最后一个分组标准内的列表末尾添加记录时，系统才会自动填充与所有分组关联的字段。
 
-Prior to this enhancement, you had to manually update the fields associated with groupings.  
+在此增强功能之前，您必须手动更新与分组关联的字段。
 
-For information, see [Create records](/help/quicksilver/planning/records/create-records.md).-->
+有关信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
 
-<!--## Common sharing button for views and record types
+## 视图和记录类型的常用共享按钮
 
 >[!NOTE]
 >
->* Preview: July 9, 2025 
->* Production for everyone: July 17, 2025 
+>* 预览： 2025年7月9日
+>* 适用于所有人的生产： 2025年7月17日
 
-You can now share a view as well as a record type from the same button on the record type's page. Prior to this enhancement, you could only share the record type from the Share button on the record type page and a view from the view's tab.  
+您现在可以从记录类型页面上的同一按钮共享视图和记录类型。 在此增强功能之前，您只能通过记录类型页面上的“共享”按钮共享记录类型，以及从视图选项卡共享视图。
 
-For more information, see the following articles: 
+有关更多信息，请参阅以下文章：
 
-* [Share views](/help/quicksilver/planning/access/share-views.md)  
+* [共享视图](/help/quicksilver/planning/access/share-views.md)
 
-* [Share record types](/help/quicksilver/planning/access/share-record-types.md)
--->
+* [共享记录类型](/help/quicksilver/planning/access/share-record-types.md)
 
 <!--## Add teams as approvers on Planning request forms
 
@@ -78,7 +77,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 * 我们已为您共享请求表单的用户删除了“管理”和“贡献”选项。 现在，添加的用户只能提交表单。
 * 现在，仅在启用创建公共链接选项后，公共共享选项卡才会显示链接和过期日期字段。
 
-有关详细信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)。
+有关详细信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)。
 
 ## 展开和折叠表格视图中的所有分组
 
@@ -296,7 +295,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >[!NOTE]
 >
 >此更改将对具有系统管理员和标准许可证的所有新用户和现有用户可见。
->&#x200B;>分配到布局模板的现有用户将继续根据布局模板中定义的设置查看所有内容。
+>>分配到布局模板的现有用户将继续根据布局模板中定义的设置查看所有内容。
 
 有关信息，请参阅[Adobe Workfront规划概述](/help/quicksilver/planning/access/access-overview.md)。
 

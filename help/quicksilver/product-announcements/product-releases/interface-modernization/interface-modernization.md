@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 1b9f18f51d6b83e0522fb1ff95d5d135cef547ec
+source-git-commit: 0e519e9d5cb5bbc5052448d399b9cf54e4ed2766
 workflow-type: tm+mt
-source-wordcount: '5088'
+source-wordcount: '5164'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,16 @@ ht-degree: 0%
 有关Adobe Workfront的所有其他更改，请参阅[产品版本](/help/quicksilver/product-announcements/product-releases/product-releases.md)。
 
 ## 管理和设置
+
+### 子组对话框的界面更新
+
+**预览版本： 2025年7月10日；生产版本： 2025年7月17日**
+
+我们更新了用于添加子组、编辑子组和复制子组的对话框以匹配应用程序的其他区域。
+
+要查看这些更改，请转到“设置”>“组”>“选择一个组”>“子组”。 （用于从主组列表中添加、编辑和复制子组的对话框已更新。）
+
+有关信息，请参阅[创建子组](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md)和[管理子组](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)。
 
 ### 有关“设置”中“更新信息源”部分的外观更新
 
