@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 7549c9699a86b6f87e5562efd7e586be282c5619
 workflow-type: tm+mt
-source-wordcount: '1745'
+source-wordcount: '1763'
 ht-degree: 0%
 
 ---
@@ -43,15 +43,15 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Workfront] 计划</td> 
-   <td> <p>[!UICONTROL Business]或更高版本</p> </td> 
+   <td> <p>[！UICONTROL Business]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">[!DNL Workfront] 许可证</p> </td> 
-   <td> <p>[!UICONTROL 计划] </p> <p>您必须是[!DNL Workfront]管理员。 有关[!DNL Workfront]管理员的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理访问权限</a>。</p> </td> 
+   <td> <p>[！UICONTROL计划] </p> <p>您必须是[!DNL Workfront]管理员。 有关[!DNL Workfront]管理员的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理访问权限</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">支持包</td> 
-   <td> <p>[!UICONTROL Plus]、[!UICONTROL Preferred]或[!UICONTROL Enterprise]</p> <p>标准支持包无权访问自定义刷新沙盒，但有权访问预览沙盒。</p> </td> 
+   <td> <p>[！UICONTROL Plus]、[！UICONTROL Preferred]或[！UICONTROL Enterprise]</p> <p>标准支持包无权访问自定义刷新沙盒，但有权访问预览沙盒。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -89,7 +89,7 @@ If you are a Workfront Goals customer, Workfront Goals data does not transfer to
 
 要访问您的自定义刷新沙盒，请执行以下操作：
 
-1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 设置]**![齿轮设置图标](assets/gear-icon-settings.png)。
+1. 单击&#x200B;**[!UICONTROL 右上角的]**&#x200B;主菜单![图标](assets/main-menu-icon.png)主菜单图标[!DNL Adobe Workfront]，然后单击&#x200B;**[!UICONTROL 设置]**![齿轮设置图标](assets/gear-icon-settings.png)。
 
 1. 单击&#x200B;**[!UICONTROL 系统]** >**[!UICONTROL 首选项]**。
 
@@ -210,9 +210,12 @@ If you are a Workfront Goals customer, Workfront Goals data does not transfer to
 
 对于自定义刷新沙盒环境，将禁用夜间重新计算，并且不会自动重新计算项目时间线。 您必须手动重新计算自定义刷新沙盒环境的项目时间线。 有关信息，请参阅[重新计算项目时间表](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md)。
 
+
 ## 预期用途和可用性
 
 * [!DNL Workfront]自定义刷新沙盒环境不适用于性能或负载测试。 相反，使用这些环境验证组织现有工作流的功能性。
+
+* 涉及文档的工作流应侧重于流程，而不是负载测试。 沙盒环境中不支持大文件。
 
 * [!DNL Workfront]自定义刷新沙盒环境旨在始终可用。 在解决任何生产问题（如果存在）之后，在常规工作时间内对Workfront自定义刷新沙盒环境的任何中断都将成为首要任务。 将解决周末（周六和周日）对Workfront自定义刷新沙盒环境的任何中断，以便该环境在星期一的营业时间运行。
 

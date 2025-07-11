@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 7549c9699a86b6f87e5562efd7e586be282c5619
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1302'
 ht-degree: 0%
 
 ---
@@ -39,8 +39,8 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th> <p> </p> </th> 
-   <th> <p><strong>[!UICONTROL Standard]支持包</strong> </p> </th> 
-   <th> <p><strong>[!UICONTROL Plus]、[!UICONTROL Preferred]和[!UICONTROL Enterprise]支持包</strong> </p> </th> 
+   <th> <p><strong>[！UICONTROL Standard]支持包</strong> </p> </th> 
+   <th> <p><strong>[！UICONTROL Plus]、[！UICONTROL Preferred]和[！UICONTROL Enterprise]支持包</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -158,7 +158,7 @@ Workfront禁用来自“预览Sandbox”环境的所有电子邮件通信。 如
 >
 >此页面上描述的过程仅适用于尚未载入[!DNL Adobe Admin Console]的组织。 如果您的组织已登记到[!DNL Adobe Admin Console]，则无需执行任何操作。
 >
->有关因贵组织是否已登记到[!DNL Adobe Admin Console]而不同的过程列表，请参阅[基于平台的管理差异([!UICONTROL Adobe Workfront]/[!UICONTROL Adobe业务平台])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
+>有关因贵组织是否已登记到[!DNL Adobe Admin Console]而不同的过程列表，请参阅[基于平台的管理差异([!UICONTROL Adobe Workfront]/[!UICONTROL Adobe Business Platform])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
 
 如果您希望将预览沙盒配置为使用单点登录解决方案，则可以通过在生产环境之外单独配置该沙盒来实现这一点。 预览沙盒中的SSO配置与生产环境中的SSO配置无关。
@@ -179,12 +179,15 @@ Workfront禁用来自“预览Sandbox”环境的所有电子邮件通信。 如
 
 对于预览环境，将禁用夜间重新计算，并且不会自动重新计算项目时间线。 您必须手动重新计算预览环境的项目时间线。 有关信息，请参阅[重新计算项目时间表](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md)。
 
+
 ## 预览环境性能和可用性
 
-[!DNL Workfront]预览环境不适用于性能或负载测试。 相反，使用这些环境验证组织现有工作流的功能性。
+* [!DNL Workfront]预览环境不适用于性能或负载测试。 相反，使用这些环境验证组织现有工作流的功能性。
 
-[!DNL Workfront]预览环境旨在始终可用。
+* 涉及文档的工作流应侧重于流程，而不是负载测试。 沙盒环境中不支持大文件。
 
-在常规工作时间内对[!DNL Workfront]预览环境的任何中断都将在解决任何生产问题（如果存在）后立即成为首要任务。
+* [!DNL Workfront]预览环境旨在始终可用。
 
-将解决周末（星期六和星期日）对[!DNL Workfront]预览环境的任何中断，以使该环境在星期一的营业时间运行。
+* 在常规工作时间内对[!DNL Workfront]预览环境的任何中断都将在解决任何生产问题（如果存在）后立即成为首要任务。
+
+* 将解决周末（星期六和星期日）对[!DNL Workfront]预览环境的任何中断，以使该环境在星期一的营业时间运行。
