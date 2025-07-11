@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '969'
 ht-degree: 1%
 
 ---
@@ -147,6 +147,8 @@ This article describes how you can share a view with others. For information abo
 1. 与他人共享复制的链接。 接收链接的用户必须是活动用户并登录到Workfront才能访问工作区。
 1. 单击&#x200B;**保存**。
 
+   您共享工作区的用户会收到应用程序内通知和电子邮件通知，告知其拥有对工作区的权限。
+
 ## 通过权限请求向工作区授予权限
 
 如果用户访问指向工作区的链接，但无权访问该工作区，则可以请求对该工作区的权限。 所有对工作区具有“管理”权限的用户都会收到权限请求，并且可以授予或拒绝权限。
@@ -154,14 +156,12 @@ This article describes how you can share a view with others. For information abo
 1. （视情况而定）如果您是工作区的管理员，则可能会收到其他用户发出的访问以下区域中的视图的请求：
 
    * 应用程序内通知
-
      ![访问请求的应用程序内通知](assets/in-app-notification-for-access-request.png)
    * 电子邮件通知
-
      ![访问请求的电子邮件通知](assets/email-notification-for-access-request.png)
 1. （视情况而定）在Workfront的通知区域中，单击应用程序内通知
 或
-在电子邮件通知中，单击&#x200B;**查看所有通知**，然后单击列表中的通知。
+在电子邮件通知中，单击**查看所有通知**，然后单击列表中的通知。
 
    显示&#x200B;**待处理访问请求**&#x200B;框。
 
