@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 718ed3efd56c532693d26cc067041bedbc71cca0
 workflow-type: tm+mt
-source-wordcount: '7388'
+source-wordcount: '7386'
 ht-degree: 0%
 
 ---
@@ -188,7 +188,7 @@ ht-degree: 0%
 
 预览和生产： 2024年8月28日
 
-您现在可以使用Workfront画布功能板在报表中查看Workfront计划信息。 有关信息，请参阅[画布功能板入门](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)。
+您现在可以使用Workfront画布功能板在报表中查看Workfront计划信息。 有关信息，请参阅[画布功能板概述](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)。
 
 ## 2024年8月19日起一周
 
@@ -800,7 +800,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 预览：待定
 
-如果您是Adobe Unified Experience客户，并且某人将您添加到记录页面上的评论中，则您会收到一个应用程序内通知和一个关于该评论的电子邮件通知。 您可以在Adobe Experience Cloud配置文件的首选项区域中管理通知首选项。 有关详细信息，请参阅[帐户首选项和通知](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/account-preferences)。
+如果您是Adobe Unified Experience客户，并且某人将您添加到记录页面上的评论中，则您会收到一个应用程序内通知和一个关于该评论的电子邮件通知。 您可以在Adobe Experience Cloud配置文件的首选项区域中管理通知首选项。 有关详细信息，请参阅[帐户首选项和通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences)。
 
 有关Workfront计划通知的更多信息，请参阅[Adobe Workfront计划通知：文章索引](/help/quicksilver/planning/notifications/notifications-information.md)。
 

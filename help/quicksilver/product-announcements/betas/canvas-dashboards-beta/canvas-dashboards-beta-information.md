@@ -7,23 +7,58 @@ author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
+source-git-commit: ba9256255905e139c281099555a6d129fc570984
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
 
 # Canvas功能板测试版信息
 
-画布仪表板是一项当前正在开发的功能，它允许您通过将各种报表类型添加到可自定义的画布上来轻松可视化您的Adobe Workfront数据。 请注意，虽然我们感谢您参加测试版的测试阶段，但部分功能可能无法完成或无法按预期工作。 请按照以下[提供反馈](#provide-feedback)部分中的说明提交任何有关您体验的反馈。
-
-有关使用画布功能板的基本信息，请参阅[画布功能板入门](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)。
-有关所有画布功能板文档的列表，请参阅[画布功能板概述](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)。
-
 >[!NOTE]
 >
 >画布功能板当前处于封闭的测试阶段，因此可能会频繁更改。
+
+画布功能板是当前开发中的一个功能，它允许您通过将各种报表类型添加到可自定义的画布上来轻松可视化您的Adobe Workfront数据。
+
+请注意，虽然我们感谢您参加测试版的测试阶段，但部分功能可能无法完成或无法按预期工作。 请按照下面[提供反馈](#provide-feedback)部分中的说明提交任何有关您体验的反馈。
+
+## 访问要求
+
++++ 展开以查看访问要求。
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront计划</p></td> 
+   <td> 
+<p>任何 </p> 
+   </td> 
+<tr> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
+   <td> 
+<p>当前：计划 </p> 
+<p>新增：标准</p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>访问级别配置</p></td> 
+   <td><p>编辑对报告、功能板和日历的访问权限</p>
+  </td> 
+  </tr>  
+</tbody> 
+</table>
+
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
++++
+
 
 ## 注册Beta
 
@@ -49,29 +84,3 @@ ht-degree: 0%
 
 1. 单击&#x200B;**提交**。
 
-## 计划功能
-
-以下是当前受测试版支持的报表类型列表，以及我们计划在测试版及之后添加到画布功能板的其他功能列表。
-
-### 支持的报表类型
-
-* 现有报表（使用当前报告工具创建的报表）
-* 图表报告
-* KPI报表
-* 表格报表
-* 待定审批报告
-
-### 开发中的功能
-
-* 用于过滤器的基于日期和基于用户的通配符
-* Workfront计划报表
-* 其他Workfront对象类型
-* 讨论区报告
-* 其他可用性增强
-* 工作表
-* 嵌入式Web内容
-
-### 未来路线图功能
-
-* 仪表板级别提示
-* 货币支持

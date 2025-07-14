@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
+source-git-commit: 718ed3efd56c532693d26cc067041bedbc71cca0
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ ht-degree: 0%
 
 * [Adobe Workfront Planning API基础知识](/help/quicksilver/planning/general/planning-api-basics.md)： Adobe Workfront Planning API的目标是通过引入通过HTTP运行的REST-ful架构，简化与Planning的生成集成。
 
-* [适用于Workfront Fusion的Adobe Workfront规划模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：使用Adobe Workfront规划模块，可以在Workfront规划中发生事件时触发方案。 您还可以创建、读取、更新和删除记录，或对Adobe Workfront Planning帐户执行自定义API调用。
+* [适用于Workfront Fusion的Adobe Workfront规划模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：使用Adobe Workfront规划模块，可以在Workfront规划中发生事件时触发方案。 您还可以创建、读取、更新和删除记录，或对Adobe Workfront Planning帐户执行自定义API调用。
 
 * [Adobe Workfront Planning AI助手概述](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)：使用Workfront AI Assistant for Planning，您可以使用命令搜索记录，或者创建、更新和删除记录，并让助手为您完成工作。
 
@@ -109,5 +109,5 @@ ht-degree: 0%
   >
   >    Workfront AI助手已暂时移除，并将在以后提供。
 
-* **Workfront Planning报告功能**：您现在可以使用Workfront Canvas Dashboard在报告中查看Workfront Planning信息。 有关信息，请参阅[画布功能板入门](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)。
+* **Workfront Planning报告功能**：您现在可以使用Workfront Canvas Dashboard在报告中查看Workfront Planning信息。 有关信息，请参阅[画布功能板概述](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)。
 
