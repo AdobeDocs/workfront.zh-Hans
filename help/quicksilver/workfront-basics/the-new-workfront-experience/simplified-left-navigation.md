@@ -6,9 +6,9 @@ description: ' [!DNL Workfront] 中的左侧导航面板可让您轻松导航系
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
+source-git-commit: 297a8bc1a59fab42d96ec3479451c2f82f5c3dc1
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1385'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ WF中的大多数区域和对象都使用屏幕左侧的简单导航面板。 �
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[!UICONTROL Request]或更高版本</p> </td> 
+   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -92,15 +92,15 @@ WF中的大多数区域和对象都使用屏幕左侧的简单导航面板。 �
 
 <table style="table-layout:auto">
     <tr>
-        <td><strong>[!UICONTROL 我的仪表板]</strong></td>
+        <td><strong>[！UICONTROL我的仪表板]</strong></td>
         <td>显示您已构建的仪表板。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 共享功能板]</strong></td>
+        <td><strong>[！UICONTROL共享功能板]</strong></td>
         <td>显示其他用户已创建并与您共享的仪表板。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 所有仪表板]</strong></td>
+        <td><strong>[！UICONTROL所有仪表板]</strong></td>
         <td>显示您或其他用户已创建并且您至少有权查看的仪表板。</td>
     </tr>
 </table>
@@ -111,11 +111,11 @@ WF中的大多数区域和对象都使用屏幕左侧的简单导航面板。 �
 
 <table style="table-layout:auto">
     <tr>
-        <td><strong>[!UICONTROL 已提交]</strong></td>
+        <td><strong>[！UICONTROL已提交]</strong></td>
         <td>显示您或其他用户已提交的请求，并且您至少有权查看这些请求。 使用请求列表右上角的过滤器查看您的请求或其他人已提交的请求，并且您有权查看。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 草稿]</strong></td>
+        <td><strong>[！UICONTROL草稿]</strong></td>
         <td>显示您已启动但尚未提交的请求。 选择队列主题后，[!DNL Workfront]会自动将任何新请求保存到“草稿”文件夹中。</td>
     </tr>
 </table>
@@ -135,7 +135,7 @@ WF中的大多数区域和对象都使用屏幕左侧的简单导航面板。 �
    <td>显示资源规划者。 使用此区域在多个项目中计划您的资源。 有关使用资源规划程序的信息，请参阅<a href="../../resource-mgmt/resource-planning/get-started-resource-planning.md" class="MCXref xref">开始使用资源规划</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL 工作负载均衡器]</strong></td> 
+   <td role="rowheader"><strong>[！UICONTROL工作负载均衡器]</strong></td> 
    <td>显示工作负载均衡器。 使用此区域将实际工作分配给您的资源。 <br>
    有关使用计划资源的信息，请参阅<a href="../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md" class="MCXref xref">在工作负载均衡器</a>中分配工作的概述。</td> 
   </tr> 
@@ -159,12 +159,12 @@ WF中的大多数区域和对象都使用屏幕左侧的简单导航面板。 �
 
 <table style="table-layout:auto">
     <tr>
-        <td><strong>[!UICONTROL 所有项目]</strong></td>
-        <td>显示您有权查看的所有项目。 使用[!UICONTROL 筛选器]下拉菜单更改要查看的项目</td>
+        <td><strong>[！UICONTROL所有项目]</strong></td>
+        <td>显示您有权查看的所有项目。 使用[！UICONTROL筛选器]下拉菜单更改要查看的项目</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 自定义分区]</strong></td>
-        <td>您可以查看您的[!DNL Workfront]管理员在布局模板中[!UICONTROL 项目]区域添加到左侧面板的所有自定义分区。 自定义部分的名称已针对您的环境进行了自定义。</td>
+        <td><strong>[！UICONTROL自定义分区]</strong></td>
+        <td>您可以查看您的[!DNL Workfront]管理员在布局模板中[！UICONTROL项目]区域添加到左侧面板的所有自定义分区。 自定义部分的名称已针对您的环境进行了自定义。</td>
     </tr>
 </table>
 
@@ -176,15 +176,15 @@ WF中的大多数区域和对象都使用屏幕左侧的简单导航面板。 �
 
 <table style="table-layout:auto">
     <tr>
-        <td><strong>[!UICONTROL 我的工时表]</strong></td>
-        <td>默认显示所有活动时间表。 要显示已提交或已关闭的工时表，请从[!UICONTROL 过滤器]下拉菜单中选择[!UICONTROL 已提交]或[!UICONTROL 全部] 。</td>
+        <td><strong>[！UICONTROL我的工时表]</strong></td>
+        <td>默认显示所有活动时间表。 要显示已提交或已关闭的工时表，请从[！UICONTROL过滤器]下拉菜单中选择[！UICONTROL已提交]或[！UICONTROL全部] 。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 我批准的时间表]</strong></td>
-        <td>默认显示已提交供您审批的工时表。 要显示您是批准者的活动或所有时间表，请从“筛选器”下拉菜单中选择[!UICONTROL 活动]或“应用程序”。</td>
+        <td><strong>[！UICONTROL我批准的时间表]</strong></td>
+        <td>默认显示已提交供您审批的工时表。 要显示您是批准者的活动或所有时间表，请从“筛选器”下拉菜单中选择[！UICONTROL活动]或“应用程序”。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 所有时间表]</strong></td>
+        <td><strong>[！UICONTROL所有时间表]</strong></td>
         <td>根据在左侧过滤器区域中选择的过滤器，显示您有权查看的所有时间表。</td>
     </tr>
 </table>
@@ -201,16 +201,16 @@ WF中的大多数区域和对象都使用屏幕左侧的简单导航面板。 �
 
 <table style="table-layout:auto">
     <tr>
-        <td><strong>[!UICONTROL 目标列表]</strong></td>
-        <td>显示您有权查看的所有目标。 有关详细信息，请参阅[!DNL Adobe Workfront Goals]</a>的[!UICONTROL 目标列表]中的<a href="../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md">管理目标。</td>
+        <td><strong>[！UICONTROL目标列表]</strong></td>
+        <td>显示您有权查看的所有目标。 有关详细信息，请参阅<a href="../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md">的[！UICONTROL目标列表]中的[!DNL Adobe Workfront Goals]</a>管理目标。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 图形]</strong></td>
+        <td><strong>[！UICONTROL图形]</strong></td>
         <td>在图表中显示目标的性能。 有关详细信息，请参阅<a href="../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md">查看图表以了解[!DNL Adobe Workfront]目标</a>中的目标进度趋势。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 目标对齐方式]</strong></td>
-        <td>在层次结构中显示目标彼此的对齐方式。 有关详细信息，请参阅[!DNL Adobe Workfront Goals]</a>中的<a href="../../workfront-goals/goal-alignment/goal-alignment-overview.md">目标对齐概述。</td>
+        <td><strong>[！UICONTROL目标对齐方式]</strong></td>
+        <td>在层次结构中显示目标彼此的对齐方式。 有关详细信息，请参阅<a href="../../workfront-goals/goal-alignment/goal-alignment-overview.md">中的[!DNL Adobe Workfront Goals]</a>目标对齐概述。</td>
     </tr>
     </table>
 
@@ -265,9 +265,7 @@ WF中的大多数区域和对象都使用屏幕左侧的简单导航面板。 �
       >
       >必须先构建仪表板，然后才能将其显示在列表中。
 
-   1. 单击&#x200B;**[!UICONTROL 添加]**。
-
-      仪表板链接显示在左侧面板的底部。
+1. （可选）要删除仪表板快速链接，请将鼠标悬停在左侧导航中的仪表板上，然后在仪表板出现时单击&#x200B;**删除**&#x200B;图标![删除图标](assets/remove-dashboard-from-left.png)。
 
 1. （可选）要更改左侧面板中部分的顺序，请单击部分右侧的&#x200B;**[!UICONTROL 拖动]**&#x200B;图标![](assets/drag-icon.png)，然后将其向上或向下拖动。
 
