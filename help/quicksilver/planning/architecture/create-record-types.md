@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 459e3883101b644a91d5e2a32288cf5b02a02bd9
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1183'
 ht-degree: 1%
 
 ---
@@ -110,6 +110,8 @@ ht-degree: 1%
 
       * 当您使用CSV或Excel文件导入这些文件时。
 
+        有关详细信息，请参阅[通过从CSV或Excel文件导入信息来创建记录类型](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md)。
+
      >[!TIP]
      >
      >从CSV或Excel文件导入记录类型时，还可以导入记录和字段。
@@ -119,6 +121,11 @@ ht-degree: 1%
       * 从头开始。
 
         本文介绍了如何从头开始创建记录类型。
+
+     <!--
+        * <span class="preview">By importing then from another workspace or adding cross-workspace record types</span>
+            <span class="preview">For information, see [Add cross-workspace record types](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md). </span>-->
+
 
 * 您可以在分区内移动记录类型，也可以在工作区的一个分区之间移动记录类型。 不能将记录类型从一个工作区移动到另一个工作区。
 
@@ -171,6 +178,18 @@ ht-degree: 1%
       * **特定工作区**：添加工作区管理员可以连接到此记录类型的工作区的名称。
 
    ![在“高级设置”选项卡上创建“记录类型”框](assets/create-record-type-box-advanced-settings-tab.png)
+
+   <!--replace last point with this when we release dynamic record types; the preview tags might need to be edited, too:
+    <div class="preview">
+    1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Cross-workspace capability** section: **** the info here is duplicated in the Edit record types article ***
+        * Enable the **Allow adding this record type to other workspaces** setting: This allows workspace managers to add this record type to other workspaces. 
+            You can designate specific users who can add this record type to other workspaces. 
+        * Enable the **Allow connecting to this record type in other workspaces** setting: This allows workspace managers to connect to this record type from other workspaces.  
+            You can designate which workspaces this record type can be connected from. You can make it available for all workspaces or designate specific ones where you can import it.
+        For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).  </div>
+        ******** replace screen shot below **********
+        ![Create record type box on advanced settings tab](assets/create-record-type-box-advanced-settings-tab.png) 
+    -->
 
 1. 单击&#x200B;**创建**。
 
@@ -228,4 +247,16 @@ ht-degree: 1%
 
 有关详细信息，请参阅[通过从CSV或Excel文件导入信息来创建记录类型](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md)。
 
+<!--
 
+<div class="preview">
+
+## Create record types by importing them from another workspace 
+
+You can add record types to a workspace by importing them from another workspace. You can only add record types that have been configured as cross-workspace record types. 
+
+For information, see [Add cross-workspace record types](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md).
+
+</div>
+
+-->

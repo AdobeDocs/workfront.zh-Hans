@@ -1,14 +1,14 @@
 ---
 title: 管理表视图
-description: 访问Adobe Workfront Planning中的记录类型页面时，您可以在表格视图中显示记录及其字段。 本文介绍了如何创建或编辑表格视图编辑，以及如何启用视图的实时显示指示器，或者如何将其导出到CSV或Excel文件。
+description: 访问Adobe Workfront Planning中的记录类型页面时，您可以在表格视图中显示记录及其字段。 本文介绍了如何创建或编辑表格视图编辑以及如何为视图启用实时显示指示器。
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 4fafdcea97874e791104260375617e3989af1870
+source-git-commit: 8f4c1be156094d18df4bc3628d4f1fca90372119
 workflow-type: tm+mt
-source-wordcount: '3758'
+source-wordcount: '3446'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,8 @@ ht-degree: 2%
 
 * [在表格视图中创建或编辑列和行](#manage-a-table-view)
 * [为表视图启用实时状态指示器](#enable-the-real-time-presence-indicator)
-* <span class="preview">[将表视图导出为CSV或Excel文件](#export-the-table-view)</span>
+
+有关将表视图导出为Excel或CSV文件的信息，请参阅[从表视图导出记录](/help/quicksilver/planning/records/export-records-from-the-table-view.md)。
 
 ## 访问要求
 
@@ -558,57 +559,5 @@ To sort grouped records:
 
 <div class="preview">
 
-## 导出表格视图
 
-您可以将表格视图中的信息导出为CSV或Excel文件。
-
-导出表视图时，请考虑以下事项：
-
-* 导出到Excel文件中的信息将保留应用于Workfront Planning中的表格视图的筛选器、分组和排序。 分组在CSV文件中不可见。
-
-* 导出的文件不支持缩略图和自定义行颜色。
-
-* 仅导出在Workfront界面中可见的字段。 隐藏字段不导出。
-
-要从表格视图或记录类型导出信息，请执行以下操作：
-
-1. 转到记录类型页面，然后单击表格视图选项卡。
-1. 执行下列操作之一：
-
-   * 将鼠标悬停在表视图选项卡的名称上，然后单击视图名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**导出**。
-
-   视图上的![更多菜单](assets/view-more-menu-with-duplicate-option.png)
-
-   * 单击&#x200B;**共享** > **导出当前视图**。 此选项仅在显示表格视图时可用。
-
-   ![具有记录类型和视图共享选项的“共享”按钮](assets/share-button-with-record-type-and-view-sharing-options.png)
-
-1. 选择以下格式之一：
-
-   * **Excel**
-   * **CSV**
-
-   >[!IMPORTANT]
-   >
-   >当在屏幕上显示不同的视图时，不能从表格视图导出信息。 要访问“更多”菜单中的“导出”选项，必须显示要导出的表格视图。
-
-   文件已下载到您的计算机。
-
-1. （可选）转到计算机上的下载文件夹并找到下载的文件。
-
-   导出文件的名称遵循以下格式：
-
-   `Name of the view - name of the record type`
-
-   例如，促销活动记录类型的表视图会生成一个名为`Table view - Campaigns`的文件。
-
-   文件显示以下信息：
-
-   * 在Excel文件中，列标题以黑色突出显示
-   * 在Workfront界面中可见的所有字段，均按相同的标准进行排序和过滤
-   * 分组将保留在Excel文件中
-
-   您现在可以与其他人共享导出的文件，或将其附加到任何通信。
-
-</div>
 

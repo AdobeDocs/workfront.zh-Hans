@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
+source-git-commit: 8f4c1be156094d18df4bc3628d4f1fca90372119
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '164'
 ht-degree: 1%
 
 ---
@@ -44,3 +44,4 @@ ht-degree: 1%
 * [将封面图像添加到记录](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
 * [管理记录页面布局](/help/quicksilver/planning/records/manage-the-record-page.md)
 * [导出记录的详细信息](/help/quicksilver/planning/records/export-the-record-page.md)
+* [从表视图中导出记录](/help/quicksilver/planning/records/export-records-from-the-table-view.md)
