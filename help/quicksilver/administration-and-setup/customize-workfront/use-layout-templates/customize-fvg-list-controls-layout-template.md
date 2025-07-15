@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: 作为Workfront管理员，您可以使用布局模板来指定在筛选器、视图和分组下拉菜单中显示的列表控件。 这些菜单出现在整个Workfront的上方列表中，例如项目的任务列表。
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '784'
 ht-degree: 0%
@@ -62,11 +62,11 @@ ht-degree: 0%
 ## 自定义筛选器、视图和分组列表控件：
 
 1. 开始处理布局模板，如[创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
-1. 单击&#x200B;**自定义用户看到的内容**&#x200B;下的向下箭头![向下箭头](assets/down-arrow-blue.png)，然后在显示的下拉菜单中单击&#x200B;**列表**。
+1. 单击![自定义用户看到的内容](assets/down-arrow-blue.png)下的向下箭头&#x200B;**向下箭头**，然后在显示的下拉菜单中单击&#x200B;**列表**。
 
    ![自定义用户看到的内容](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
 
-1. 单击&#x200B;**下的向下箭头![向下箭头](assets/down-arrow-blue.png)选择要自定义的列表**，然后选择要为其自定义筛选器、视图和分组列表控件的Workfront对象的类型。
+1. 单击![下的向下箭头](assets/down-arrow-blue.png)向下箭头&#x200B;**选择要自定义的列表**，然后选择要为其自定义筛选器、视图和分组列表控件的Workfront对象的类型。
 
    ![选择要自定义的列表](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)
 

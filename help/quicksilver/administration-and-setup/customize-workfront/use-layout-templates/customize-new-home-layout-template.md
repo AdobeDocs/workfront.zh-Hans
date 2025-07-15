@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: 您可以使用布局模板配置用户在Adobe Workfront中打开主页时看到的内容。
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 1%
@@ -77,7 +77,7 @@ ht-degree: 1%
 
 1. 开始处理布局模板，如[创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
 
-1. 单击&#x200B;**自定义用户看到的内容**&#x200B;下的向下箭头![向下箭头](assets/dropdown-arrow.png)，然后单击&#x200B;**主页Workspace**。
+1. 单击![自定义用户看到的内容](assets/dropdown-arrow.png)下的向下箭头&#x200B;**向下箭头**，然后单击&#x200B;**主页Workspace**。
 
 1. 在右侧的选项卡中，单击下列选项之一：
 
@@ -99,7 +99,7 @@ ht-degree: 1%
       <p> 执行以下任一操作： </p>
       <ul><li>根据<a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">在主页</a>中添加、编辑或删除构件中描述的步骤自定义此选项卡。 </li>
       <li>选择小组件并根据用户需要安排工作区。</li>
-      <li>要更改背景，请按照<a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md" class="MCXref xref">开始使用主页</a>中的<b>背景自定义</b>下的步骤操作。</li></p>
+      <li>要更改背景，请按照<b>开始使用主页</b>中的<a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md" class="MCXref xref">背景自定义</a>下的步骤操作。</li></p>
       <p>
 
    >[!NOTE]

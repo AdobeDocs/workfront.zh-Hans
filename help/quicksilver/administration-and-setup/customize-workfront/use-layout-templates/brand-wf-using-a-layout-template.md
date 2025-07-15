@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates
 description: 作为Adobe Workfront管理员或组管理员，您可以使用版面模板自定义顶部导航区域以及某些组、团队、工作角色和用户的主菜单中的徽标。 这对于具有自己的品牌的大型组织中的组特别有用。
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 0%
@@ -71,7 +71,7 @@ ht-degree: 0%
 ## 使用布局模板的Brand Adobe Workfront
 
 1. 开始处理布局模板，如[创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
-1. 单击&#x200B;**自定义用户看到的内容**&#x200B;下的向下箭头![向下箭头](assets/dropdown-arrow.png)，然后单击&#x200B;**品牌**。
+1. 单击![自定义用户看到的内容](assets/dropdown-arrow.png)下的向下箭头&#x200B;**向下箭头**，然后单击&#x200B;**品牌**。
 1. 进行以下任何更改，以便为那些分配了此布局模板的用户自定义带有品牌图像的Workfront。
 
    <table style="table-layout:auto"> 
@@ -80,11 +80,11 @@ ht-degree: 0%
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>标记主页图标<span style="font-weight: normal;">（显示在顶部导航区域的最左侧）</span></p> </td> 
-      <td> <p>在<strong>顶部导航区域</strong>部分的<strong>主页图标</strong>下，单击框中的任意位置，然后查找并选择您的徽标图像。 或将图像拖到框中。</p> <p>要裁切图像，请使用滚动控件并将图像拖动到指定空间内所需的位置。</p> <p>我们建议使用120 x 120图像。 它可以采用以下任意格式：GIF、JPG、PNG、SVG。</p> <p>此图标还会显示在用户导出为PDF文件的报表、列表、功能板和已传送报表中。</p> </td> 
+      <td> <p>在<strong>顶部导航区域</strong>部分的<strong>主页图标</strong>下，单击框中的任意位置，然后查找并选择您的徽标图像。 或将图像拖到框中。</p> <p>要裁切图像，请使用滚动控件并将图像拖动到指定空间内所需的位置。</p> <p>我们建议使用120 x 120图像。 它可以采用以下任何格式：GIF、JPG、PNG、SVG。</p> <p>此图标还会显示在用户导出为PDF文件的报表、列表、功能板和已传送报表中。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>标记主菜单<img src="assets/main-menu-icon.png">徽标<span style="font-weight: normal;">（显示在主菜单的右上角）</span></p> </td> 
-      <td> <p> <p> <p>在<strong>顶部导航区域</strong>部分的<strong>主菜单徽标</strong>下，单击框中的任意位置，然后查找并选择您的徽标图像。 或将图像拖到框中。</p> <p>要裁切图像，请使用滚动控件并将图像拖动到指定空间内所需的位置。</p> <p>我们建议使用300 x 120像素的图像。 它可以采用以下任意格式：GIF、JPG、PNG、SVG。</p> </p> </p> </td> 
+      <td> <p> <p> <p>在<strong>顶部导航区域</strong>部分的<strong>主菜单徽标</strong>下，单击框中的任意位置，然后查找并选择您的徽标图像。 或将图像拖到框中。</p> <p>要裁切图像，请使用滚动控件并将图像拖动到指定空间内所需的位置。</p> <p>我们建议使用300 x 120像素的图像。 它可以采用以下任何格式：GIF、JPG、PNG、SVG。</p> </p> </p> </td> 
      </tr> 
     </tbody> 
    </table>

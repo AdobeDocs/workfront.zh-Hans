@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: 作为Adobe Workfront管理员，您可以使用布局模板更改显示在Workfront中的某些对象的标签，以匹配您在组织中使用的术语。
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 2%
@@ -34,7 +34,7 @@ ht-degree: 2%
 >[!NOTE]
 >
 >* Outlook加载项区域不显示自定义标签。
->* 在自定义标签时，您可能会遇到语法和其他问题。 例如，如果将“问题”更改为“请求”，则在UI中可能会有这样一些地方，您会看到短语“请求”。 有关详细信息，请参阅[了解Adobe Workfront中的对象](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)一文中的[自定义对象名称的含义](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#implications-of-customizing-object-names)
+>* 在自定义标签时，您可能会遇到语法和其他问题。 例如，如果将“问题”更改为“请求”，则在UI中可能会有这样一些地方，您会看到短语“请求”。 有关详细信息，请参阅[了解Adobe Workfront中的对象](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#implications-of-customizing-object-names)一文中的[自定义对象名称的含义](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
 >
 
 有关布局模板的更多信息，请参阅[创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。
@@ -126,7 +126,7 @@ ht-degree: 2%
          <ul>
           <p>计划</p>
           <p>方案</p>
-          <p>计划 </p>
+          <p>规划 </p>
          </ul></td>
         <td><p>这些对象需要额外的许可证。 有关信息，请参阅<a href="../../../scenario-planner/get-started-with-scenario-planning.md" class="MCXref xref">Scenario Planner入门</a>。</p></td>
        </tr>

@@ -1,16 +1,16 @@
 ---
-title: "布局模板：文章索引"
+title: 布局模板：文章索引
 user-type: administrator
 content-type: reference
 product-area: system-administration;templates
 navigation-topic: customize-workfront
 description: 作为Workfront管理员或组管理员，您可以创建和修改布局模板，以自定义用户的Workfront界面元素。
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: f8961140-948f-4bea-956b-a8126008b8cb
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <!-- Audited: 2/2024 -->
 
-作为Workfront管理员或组管理员，您可以创建和修改布局模板以自定义Adobe元素
+作为Workfront管理员或组管理员，您可以创建和修改布局模板以自定义Adobe的元素
 适用于您用户的Workfront界面。
 
 以下文章介绍了如何使用布局模板自定义Workfront界面：

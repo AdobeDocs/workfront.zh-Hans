@@ -5,11 +5,11 @@ content-type: overview
 product-area: system-administration;templates
 navigation-topic: layout-templates
 description: 作为Workfront管理员或组管理员，您可以创建和修改布局模板，以为用户自定义Workfront中的布局元素。
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 1%
