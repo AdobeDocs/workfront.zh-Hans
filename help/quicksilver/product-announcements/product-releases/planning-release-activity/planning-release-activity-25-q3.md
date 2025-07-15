@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
+source-git-commit: 2572093857bb1ad27f869e1d7244549e531ba421
 workflow-type: tm+mt
-source-wordcount: '2148'
+source-wordcount: '2200'
 ht-degree: 0%
 
 ---
@@ -82,11 +82,21 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 
 为了使在Workfront Planning中共享请求表单时体验更加安全和简单，我们进行了以下更改：
 
-* 我们已删除继承的权限。 现在，请求表单仅与您选择的人共享。
-* 我们已为您共享请求表单的用户删除了“管理”和“贡献”选项。 现在，添加的用户只能提交表单。
-* 现在，仅在启用创建公共链接选项后，公共共享选项卡才会显示链接和过期日期字段。
+* 我们已将“共享表单”对话框分为内部共享（选择要与之共享的人员）和公共共享（创建共享链接）。
+* 现在，您可以与以下人员共享请求表单：
 
-有关详细信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)。
+   * 用户
+   * 团队
+   * 组
+   * 公司
+   * 工作角色
+
+  以前，您只能基于工作区访问权限或通过共享链接进行共享。
+* 我们已删除请求表单的继承权限。 现在，请求表单仅与您选择的人共享。
+* 我们已为您共享请求表单的用户删除了“管理”和“贡献”选项。 现在，添加的用户只能提交表单。
+* 启用创建公共链接选项后，公共共享选项卡现在显示链接和过期日期字段。
+
+有关详细信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)。
 
 ## 展开和折叠表格视图中的所有分组
 
@@ -304,7 +314,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >[!NOTE]
 >
 >此更改将对具有系统管理员和标准许可证的所有新用户和现有用户可见。
->&#x200B;>分配到布局模板的现有用户将继续根据布局模板中定义的设置查看所有内容。
+>>分配到布局模板的现有用户将继续根据布局模板中定义的设置查看所有内容。
 
 有关信息，请参阅[Adobe Workfront规划概述](/help/quicksilver/planning/access/access-overview.md)。
 
