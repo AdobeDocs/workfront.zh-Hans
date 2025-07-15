@@ -6,7 +6,7 @@ description: 可以将您的数据显示为条形图、柱状图、折线图或�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: ba9256255905e139c281099555a6d129fc570984
+source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 0%
@@ -139,7 +139,6 @@ ht-degree: 0%
 ## 构建图表报告示例
 
 在此部分中，我们将介绍相关步骤，以创建按项目所有者显示过期任务的柱状图。
-
 
 {{step1-to-dashboards}}
 

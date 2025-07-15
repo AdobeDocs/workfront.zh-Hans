@@ -6,9 +6,9 @@ description: 通过Adobe Workfront报表工具创建的报表可以添加到画�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
-source-git-commit: ba9256255905e139c281099555a6d129fc570984
+source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,8 @@ ht-degree: 0%
 {{step1-to-dashboards}}
 
 1. 在左侧面板中，单击&#x200B;**画布功能板**。
+
+1. 单击右上角的&#x200B;**新建仪表板**。
 
 1. 在&#x200B;**创建仪表板**&#x200B;框中，输入仪表板的&#x200B;**名称**&#x200B;和&#x200B;**描述**。
 

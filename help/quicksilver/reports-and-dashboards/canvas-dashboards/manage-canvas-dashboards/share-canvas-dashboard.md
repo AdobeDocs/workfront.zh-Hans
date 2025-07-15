@@ -6,9 +6,9 @@ description: 您可以与其他Adobe Workfront用户共享画布功能板，以�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -23,30 +23,39 @@ ht-degree: 0%
 
 ## 访问要求
 
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看访问要求。
 
 <table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-   <td>任何</td> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront计划</p></td> 
+   <td> 
+<p>任何 </p> 
+   </td> 
+<tr> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
+   <td> 
+<p>当前：计划 </p> 
+<p>新增：标准</p> 
+   </td> 
+   </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td>新增：标准
-   <p>或</p>
-   <p>当前：计划</p></td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">访问级别配置</td> 
-   <td> <p>您必须具有功能板的编辑权限。</p></td> 
-  </tr> 
- </tbody> 
+   <td role="rowheader"><p>访问级别配置</p></td> 
+   <td><p>编辑对报告、功能板和日历的访问权限</p>
+  </td> 
+  </tr>  
+</tbody> 
 </table>
 
 有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
++++
+
 
 ## 共享画布功能板
 
@@ -56,7 +65,7 @@ ht-degree: 0%
 
 1. 单击页面右上角的&#x200B;**共享**&#x200B;按钮。
 
-1. 在出现的&#x200B;**仪表板共享**&#x200B;窗口的&#x200B;**授予对**&#x200B;字段的访问权限，开始键入您希望与其共享画布仪表板的Workfront实例中的特定用户、团队、角色、组或公司的名称。 当要查找的名称显示在字段下方的自动完成列表中时，单击该名称可将其添加到目标收件人列表中。
+1. 在出现的&#x200B;**功能板共享**&#x200B;框的&#x200B;**授予对**&#x200B;字段的访问权限中，开始键入要与共享该功能板的特定用户、团队、角色、组或公司的名称，然后当它出现在以下列表中时将其选定。
 
 1. （可选）将实体添加到目标收件人列表后，您可以编辑他们将获得的对此画布功能板的访问类型。 默认情况下，他们将仅获得&#x200B;**查看**&#x200B;访问权限，但您可以通过单击实体旁边的&#x200B;**查看>**，然后在下拉列表中选择&#x200B;**管理**，向他们授予管理访问权限。 请注意，某些实体的访问级别无法更改，例如管理员。
 
