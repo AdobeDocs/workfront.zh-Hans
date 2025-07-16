@@ -8,14 +8,18 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aed65b42-d534-453a-885d-f922114987bc
-source-git-commit: 937965ad495453e185504d53f9d9c88c3cd7e201
+source-git-commit: afef6ee186340ff65ed9838b60b5a7b02b22d61f
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 2%
+source-wordcount: '477'
+ht-degree: 1%
 
 ---
 
 # 按IP地址限制对Adobe Workfront的访问
+
+>[!IMPORTANT]
+>
+>此功能当前不适用于已载入Adobe Admin Console的组织。 它将在未来版本的Adobe Admin Console中提供。
 
 您可以配置Adobe Workfront 列入允许列表 IP，将对Workfront的访问限制为您指定的75个IP地址或IP地址范围。 这为Workfront应用程序提供了额外的安全层。
 
@@ -37,7 +41,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td>计划</td> 
+   <td>规划</td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
