@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: af7789f3a4c7443854639fd60bcf0661217b37ae
+source-git-commit: b95d536bc251c2575b105f38691a66bde67502b8
 workflow-type: tm+mt
-source-wordcount: '6547'
+source-wordcount: '6589'
 ht-degree: 5%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 5%
    ![选择对象类型](assets/choose-object-type.jpg)
 
 1. 在&#x200B;**添加表单名称**&#x200B;区域，键入自定义表单标题。
-1. （可选）如果要向表单中添加更多对象类型，以便可以将其附加到更多对象，请单击&#x200B;**对象类型**&#x200B;旁边的&#x200B;**添加**&#x200B;图标![添加对象图标](assets/add-objects-icon.png)，然后在显示的菜单中选择所需的类型。 您可以重复此操作，以添加所需数量的对象类型。
+1. （可选）如果要向表单中添加更多对象类型，以便可以将其附加到更多对象，请单击&#x200B;**对象类型**&#x200B;旁边的![添加](assets/add-objects-icon.png)图标&#x200B;**添加对象图标**，然后在显示的菜单中选择所需的类型。 您可以重复此操作，以添加所需数量的对象类型。
 
    将多个对象添加到表单后，可以单击对象类型上的X将其从表单中删除。
 
@@ -133,7 +133,7 @@ ht-degree: 5%
 >[!NOTE]
 >
 >虽然可以这样做，但我们建议，在您或其他用户开始使用Workfront中的自定义表单后，不要更改此名称。 如果这样做，系统将不再能够识别Workfront其他区域中现在可能引用该字段的自定义字段。
->&#x200B;>例如，如果您将自定义字段添加到报表后更改其名称，Workfront将无法识别该字段在报表中的名称，并且除非您使用新名称将其重新添加到报表，否则该字段将在报表中停止正常工作。
+>>例如，如果您将自定义字段添加到报表后更改其名称，Workfront将无法识别该字段在报表中的名称，并且除非您使用新名称将其重新添加到报表，否则该字段将在报表中停止正常工作。
 >
 >我们建议您不要键入已用于内置Workfront字段的名称。
 >
@@ -632,12 +632,12 @@ ht-degree: 5%
       <td role="rowheader">JSON 路径</td>
       <td><p>键入或粘贴API的JSON路径。</p> <p>此选项允许从API URL返回的JSON中提取数据。 它提供了一种方法，用于选择在JSON内的哪些值将显示在下拉选项中。</p><p>例如，如果API URL按以下格式返回JSON，则可以使用“$.data[*].name”选择“美国”和“加拿大”作为下拉选项：</br>
       <pre>
-      &lbrace;
-       数据： &lbrace;
+      {
+       数据： {
          { name： "USA"}，
          { name： "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>有关JSON路径并确保编写正确JSON路径的更多信息，请参阅<a href="https://jsonpath.com/">https://jsonpath.com/</a>。</p></td>
@@ -732,7 +732,7 @@ The Workfront Mobile app -->
       <li> <p>YouTube或Vimeo链接</p> </li> 
       <li> <p>Google Drive视频链接</p> </li> 
       <li> <p>视频链接，带有MP4和MOV扩展</p> </li> 
-      <li> <p>视频链接已上传到Workfront实例中的文档区域。 有关说明，请参阅本文中的“文档”区域</a>中的<a href="#add-a-video-widget-to-a-custom-form-from-the-documents-area" class="MCXref xref">将视频小组件添加到自定义表单。</p> </li> 
+      <li> <p>视频链接已上传到Workfront实例中的文档区域。 有关说明，请参阅本文中的“文档”区域<a href="#add-a-video-widget-to-a-custom-form-from-the-documents-area" class="MCXref xref">中的</a>将视频小组件添加到自定义表单。</p> </li> 
       </ul> 
        </td> 
      </tr> 
@@ -742,6 +742,10 @@ The Workfront Mobile app -->
      </tr> 
     </tbody> 
    </table>
+
+   >[!NOTE]
+   >对于PDF，建议使用“大”作为小部件的显示大小。
+   >浏览器的PDF查看器会影响用户的显示，如果PDF显示不是最佳的，用户可能需要调整其窗口大小和浏览器缩放百分比。
 
 1. （可选）重复上一步以添加任何其他字段或小组件。
 
