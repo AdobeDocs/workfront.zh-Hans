@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '1560'
+source-wordcount: '1461'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 # 共享记录类型
 
-<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >有权访问工作区的用户将自动获得对工作区中所有记录类型的至少“查看”权限。
->&#x200B;>共享视图不授予用户记录类型的权限。 只有共享工作区才能授予用户记录类型的权限。
+>>共享视图不授予用户记录类型的权限。 只有共享工作区才能授予用户记录类型的权限。
 >
 >* 有关在Workfront Planning中共享对象的一般信息，另请参阅[在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 >* 有关详细信息，请参阅本文中的[共享记录类型时的注意事项](#considerations-when-sharing-record-types)部分。
@@ -95,12 +95,8 @@ ht-degree: 0%
    <td role="rowheader"><p>对象权限</p></td> 
    <td>  <p>管理记录类型的权限</p>  
    <p>只有对工作区具有管理权限的用户才能共享对记录类型的管理权限</p></td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>版面模板</p></td> 
-   <td> <p>在生产环境中，必须将所有用户（包括系统管理员）分配到包含Planning区域的布局模板。</p>
-<p><span class="preview">在预览环境中，标准用户和系统管理员默认启用Planning区域。</span></p> </td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -151,7 +147,7 @@ ht-degree: 0%
    这将打开记录类型页面。
 
 1. 从任何视图的选项卡中，单击记录类型右上角的&#x200B;**共享**。
-1. <span class="preview">单击&#x200B;**共享记录类型**。</span>
+1. 单击&#x200B;**共享记录类型**。
 
    将打开&#x200B;**共享**&#x200B;框。
 
@@ -211,7 +207,7 @@ ht-degree: 0%
 1. 打开要停止共享其记录类型的工作区，然后单击记录类型信息卡。 这将打开记录类型页面。
 
 1. 从任何视图的选项卡中，单击记录类型右上角的&#x200B;**共享**。
-1. <span class="preview">单击&#x200B;**共享记录类型**。</span>
+1. 单击&#x200B;**共享记录类型**。
 
    将打开&#x200B;**共享**&#x200B;框。
 1. 查找要删除其权限的用户、组、团队、公司或工作角色，展开其名称右侧的权限下拉菜单，然后单击“**删除**”。<!--check the screen shot below - the UI text for View might not be accurate-->

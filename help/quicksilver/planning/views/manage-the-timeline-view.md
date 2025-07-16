@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 44b3298905a04c64a457045c4112d9628d933aae
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '3804'
+source-wordcount: '3708'
 ht-degree: 2%
 
 ---
 
 # 管理时间线视图
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -81,12 +81,7 @@ ht-degree: 2%
    <td role="rowheader"><p>对象权限</p></td> 
    <td>   <p>管理视图的权限</p>  
    <p>查看对视图的权限以临时更改视图设置或复制它</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>版面模板</p></td> 
-   <td> <p>在生产环境中，必须将所有用户（包括系统管理员）分配到包含Planning的布局模板。</p>
-<p><span class="preview">在“预览”环境中，标准用户和系统管理员默认启用Planning。</span></p> </td> 
-  </tr> 
+  </tr>  
 </tbody> 
 </table>
 
@@ -126,9 +121,7 @@ ht-degree: 2%
    >
    >    时间轴中记录的排序在压缩视图中不可见。
 
-1. <span class="preview"> （视情况而定）如果您的管理员启用了自定义季度，并且Workfront检测到自定义季度配置方式存在问题，则您在打开时间线视图时可能会收到警告。</span>
-
-   <div class="preview">
+1. （视情况而定）如果您的管理员启用了自定义季度，并且Workfront检测到自定义季度配置方式存在问题，则您在打开时间线视图时可能会收到警告。
 
    存在以下情况：
 
@@ -152,13 +145,11 @@ ht-degree: 2%
    >在“设置”区域中设置自定义季度后，时间线视图显示自定义季度，而不是传统季度。
    >有关信息，请参阅[启用自定义季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
-   </div>
-
-1. <span class="preview">（视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”**&#x200B;**，然后要求您的Workfront管理员设置自定义季度。</span>
+1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”****，然后要求您的Workfront管理员设置自定义季度。
 
    >[!TIP]
    >
-   ><span class="preview">仅对Workfront管理员显示“转到设置”按钮。</span>
+   >仅对Workfront管理员显示“转到设置”按钮。
 
 1. （可选且有条件）记录名称被截断时，将鼠标悬停在记录栏上会显示记录的全名和其他信息。 有关在时间轴中设置记录栏截断的信息，请参阅本文中的[编辑时间轴视图设置](#edit-the-timeline-view-settings)部分。
 
@@ -172,7 +163,7 @@ ht-degree: 2%
       * **季度**：显示有季度指示的月和周。
       * **月**：显示周和日。
 1. （可选）单击&#x200B;**切换到紧凑视图**&#x200B;可显示日期在同一行上不相交的记录。<!--check to see if they updated the name of the setting here-->
-1. （视情况而定）如果将模式更改为&#x200B;**紧凑**，请单击&#x200B;**切换到标准**&#x200B;视图以单独行显示记录。 <span class="preview">默认选项为&#x200B;**Standard**。</span>  <!--check to see if they updated the name of the setting here-->
+1. （视情况而定）如果将模式更改为&#x200B;**紧凑**，请单击&#x200B;**切换到标准**&#x200B;视图以单独行显示记录。 **Standard**&#x200B;选项是默认选项。 <!--check to see if they updated the name of the setting here-->
 
 1. 执行以下操作可快速查找与关键字匹配的记录：
 
@@ -225,7 +216,7 @@ ht-degree: 2%
 1. 选择一个时间线视图，然后单击表右上角的&#x200B;**筛选器**。
 1. 单击&#x200B;**添加条件**&#x200B;并添加以下信息：
 
-   * **选择要按<!-- the tip below might change-->筛选的字段**
+   * **选择要按**&#x200B;筛选的字段<!-- the tip below might change-->
 
    * **选择一个选项**（或筛选器修饰符）以定义字段必须满足哪种条件
 
@@ -392,7 +383,7 @@ this is not possible right now; if this is the same functionality as the table v
    >
    >* 如果使用“细分”选项显示附加记录，则起始日期和终止日期是主记录的起始日期和终止日期。 您无法在此区域为连接的记录选择开始日期和结束日期。
 
-1. <span class="preview">（有条件且可选）如果您是Workfront管理员，请单击&#x200B;**使用自定义季度**&#x200B;框中的&#x200B;**转到设置**&#x200B;以转到设置区域并设置自定义季度。 设置自定义季度后，您可以在时间轴视图中显示它们，而不是经典季度。 如果您不是Workfront管理员，则可以向管理员请求为您的组织启用自定义季度。</span>
+1. （视情况而定，可选）如果您是Workfront管理员，请单击&#x200B;**使用自定义季度**&#x200B;框中的&#x200B;**转到设置**&#x200B;以转到设置区域并设置自定义季度。 设置自定义季度后，您可以在时间轴视图中显示它们，而不是经典季度。 如果您不是Workfront管理员，则可以向管理员请求为您的组织启用自定义季度。
 
    有关信息，请参阅[启用自定义季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
@@ -400,11 +391,11 @@ this is not possible right now; if this is the same functionality as the table v
 
    >[!TIP]
    >
-   ><span class="preview">仅对Workfront管理员显示“转到设置”按钮。</span>
+   >仅对Workfront管理员显示“转到设置”按钮。
 
 1. 单击左侧面板中的&#x200B;**栏样式**&#x200B;以指示要在记录栏上显示的信息。
 
-   在“标准”视图中使用“划分”选项时，您可以定义主记录<span class="preview">的条形样式，也可以定义连接的记录</span>的条形样式。
+   使用“标准”视图中的“划分”选项时，您可以定义主记录以及所连接记录的条形图样式。
 
    默认情况下会选择记录的主字段（或标题），如在记录的表格视图中定义的那样。
    <!--adjust this when the primary field is released??-->
@@ -429,20 +420,20 @@ this is not possible right now; if this is the same functionality as the table v
 
    ![带有预览的记录详细信息面板时间线设置](assets/record-details-panel-timeline-settings-with-preview.png)
 
-1. <span class="preview">（可选且有条件）如果在“标准”模式下显示时间轴，请选择&#x200B;**截断栏详细信息**&#x200B;设置。 选中后，记录栏上的信息将被截断，仅当将鼠标悬停在记录栏上时，才会完全显示信息。 默认情况下，此设置处于取消选中状态，记录信息会完全显示在栏中。</span>
+1. （可选且有条件）如果在“标准”模式下显示时间轴，请选择&#x200B;**截断栏详细信息**&#x200B;设置。 选中后，记录栏上的信息将被截断，仅当将鼠标悬停在记录栏上时，才会完全显示信息。 默认情况下，此设置处于取消选中状态，记录信息会完全显示在栏中。
 
    ![时间线设置框上启用的“截断设置”突出显示](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
 
    >[!TIP]
    >
-   ><span class="preview">在紧凑模式下显示时间轴视图时，“截断栏详细信息”设置不可用。</span>
+   >在紧凑模式下显示时间轴视图时，“截断栏详细信息”设置不可用。
    >
 
 1. 单击左侧面板中的&#x200B;**颜色**，以自定义时间轴中记录和分组的颜色。
 
    ![颜色选项卡时间线视图](assets/color-tab-timeline-view.png)
 
-   在“标准”视图中使用“划分”选项时，您可以定义主记录<span class="preview">以及连接的记录</span>的颜色。
+   在“标准”视图中使用划分选项时，您可以定义主记录的颜色以及连接的记录的颜色。
 
 1. （视情况而定，可选）如果向时间轴视图添加了分组，请从以下选项中进行选择，以在&#x200B;**设置分组颜色**&#x200B;部分中设置分组的颜色：
 
@@ -481,7 +472,7 @@ this is not possible right now; if this is the same functionality as the table v
 
    如果对于所选的记录类型没有带颜色编码选项的字段，则此选项将灰显。
 
-1. <span class="preview">（可选）如果您使用&#x200B;**划分**&#x200B;选项，请对时间轴中显示的每个连接的记录重复从步骤4开始的步骤。</span>
+1. （可选）如果您使用&#x200B;**划分**&#x200B;选项，请为时间轴中显示的每个连接记录重复步骤4。
 
 1. 单击&#x200B;**保存**。
 
@@ -515,7 +506,7 @@ this is not possible right now; if this is the same functionality as the table v
 #### 划分连接的记录
 
 1. 为记录类型创建时间线视图，如[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)一文中所述。
-1. 在&#x200B;**标准**&#x200B;或&#x200B;<span class="preview">**紧凑**&#x200B;模式中，单击时间轴视图右上角的&#x200B;**划分**</span>。
+1. 在&#x200B;**标准**&#x200B;或&#x200B;**紧凑**&#x200B;模式中，单击时间轴视图右上角的&#x200B;**划分**。
 1. 展开&#x200B;**选择链接记录类型**&#x200B;框并选择连接的记录类型。<!--add a new screen shot - submitted a bug to remove the "the"-->
 
    时间线视图上的![划分选取器和按钮](assets/breakdown-picker-and-button-on-timeline.png)
@@ -543,13 +534,13 @@ this is not possible right now; if this is the same functionality as the table v
    >
    >产品和项目群都必须连接到营销策划，才能显示为划分选项的选项，您可以按任意顺序将它们添加到划分。
 
-1. <span class="preview">（视情况而定）如果您正在以紧凑模式查看时间线，请单击&#x200B;**切换视图**。 划分在&#x200B;**紧凑**&#x200B;模式下不可见。</span>
+1. （视情况而定）如果您正在以紧凑模式查看时间轴，请单击&#x200B;**切换视图**。 划分在&#x200B;**紧凑**&#x200B;模式下不可见。
 
    >[!TIP]
    >
-   ><span class="preview">选择&#x200B;**在**&#x200B;切换到标准视图中不再显示此信息&#x200B;**？**&#x200B;框，然后切换视图。</span>
+   >选择&#x200B;**不要在**&#x200B;切换到标准视图中再次显示此信息&#x200B;**？**&#x200B;框，然后切换视图。
    >
-   ><span class="preview">只有当前浏览器才记得此首选项。 如果您更改浏览器或计算机，则必须再次选择此首选项。</span>
+   >只有当前浏览器才会记住此首选项。 如果您更改浏览器或计算机，则必须再次选择此首选项。
    >
    >在将视图切换为“标准”并在视图中显示连接的记录后，不能恢复为“紧凑”模式。
 1. （可选）重复上述步骤以添加更多连接的记录。

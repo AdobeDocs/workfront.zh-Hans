@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 1%
@@ -116,6 +116,7 @@ ht-degree: 1%
 ## 有关将审批添加到请求表单的注意事项
 
 * 您可以向请求表单添加一个或多个批准者。 您只能添加用户作为批准者。
+  <!--* <span class="preview">You can display approval information on a record created by submitting a request form in the Approved by and Approved date fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).</span>-->
 * 向请求表单添加多个批准者时，所有批准者都必须接受请求，然后才能在Workfront Planning中创建记录。
 * 如果所有批准者都批准了该请求，则将为与请求表单关联的记录类型创建记录。
 * 如果至少有一个批准者拒绝了请求，并且所有其他批准者都批准了该请求，则会在Workfront中为请求区域创建一个请求，但不会为与请求表单关联的记录类型创建记录。

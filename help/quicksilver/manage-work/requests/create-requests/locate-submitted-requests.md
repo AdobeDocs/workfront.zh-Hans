@@ -8,7 +8,7 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 1%
@@ -204,9 +204,9 @@ ht-degree: 1%
 
 1. （可选且有条件）如果贵组织购买了Workfront Planning包，请单击&#x200B;**Planning**&#x200B;选项卡，然后单击左侧面板中的&#x200B;**Submitted**&#x200B;以查看Workfront Planning请求。
 
-   <span class="preview">使用&#x200B;**筛选器**&#x200B;和&#x200B;**列**&#x200B;更新Planning请求列表中的信息。</span>
+   使用&#x200B;**筛选器**&#x200B;和&#x200B;**列**&#x200B;更新Planning请求列表中的信息。
 
-   <span class="preview">![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)</span>
+   ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
 
    有关信息，请参阅[提交Adobe Workfront计划请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。
 

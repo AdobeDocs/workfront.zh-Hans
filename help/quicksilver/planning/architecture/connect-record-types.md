@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '2602'
+source-wordcount: '2511'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # 连接记录类型
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -105,12 +105,8 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    <td role="rowheader"><p>对象权限</p></td> 
    <td>   <p>管理工作区</a>的权限 </p>  
    <p>系统管理员有权访问所有工作区，包括他们未创建的工作区。</p></td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>版面模板</p></td> 
-   <td> <p>在生产环境中，必须将所有用户（包括系统管理员）分配到包含Planning的布局模板。</p>
-<p><span class="preview">在“预览”环境中，标准用户和系统管理员默认启用Planning。</span></p></td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -150,7 +146,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      >[!TIP]
      >
-     >必须在&#x200B;**编辑记录类型**&#x200B;框的&#x200B;**高级设置**&#x200B;选项卡中为记录类型启用&#x200B;**从其他工作区连接**&#x200B;设置，才能从其他工作区访问记录类型。 如果没有配置为从其他工作区连接的记录类型，则不会显示工作区部分。
+     >必须在&#x200B;**编辑记录类型**&#x200B;框的&#x200B;**高级设置**&#x200B;选项卡中为记录类型启用&#x200B;**允许连接到其他工作区中的此记录类型**设置，才能从其他工作区访问记录类型。 如果没有配置为从其他工作区连接的记录类型，则不会显示工作区部分。
      > ![编辑记录类型框高级设置选项卡](assets/edit-record-type-box-advanced-settings-tab.png)
 
      有关信息，请参阅[编辑记录类型](/help/quicksilver/planning/architecture/edit-record-types.md)。
@@ -217,7 +213,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    >[!NOTE]
    >
-   >Workfront管理员可以通过Workfront中的元数据映射，将Workfront Planning字段映射到Experience Manager Assets字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+   >Workfront管理员可以通过Workfront中的元数据映射，将Workfront Planning字段映射到Experience Manager Assets字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
 1. （视情况而定）如果您选择连接到Experience Manager Assets或Workfront Planning记录类型，请在&#x200B;**记录外观**&#x200B;区域中选择以下选项之一：
 

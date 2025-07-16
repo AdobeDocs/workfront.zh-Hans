@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4fafdcea97874e791104260375617e3989af1870
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '2468'
+source-wordcount: '2388'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 创建记录
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -43,8 +43,6 @@ ht-degree: 0%
 ## 访问要求
 
 +++ 展开以查看访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
 <col> 
@@ -97,16 +95,13 @@ ht-degree: 0%
   </tr> 
 <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
-   <td> <p>向要添加记录的工作区<span class="preview">和记录类型</span>贡献或更高权限。 </p>
-   <p>查看工作区<span class="preview">和记录类型</span>的或更高权限，以使用记录页面上的“请求记录”按钮创建记录</p>
+   <td> <p>为要添加记录的工作区和记录类型分配或更高权限。 </p>
+   <p>查看或更高权限的工作区和记录类型，以使用记录页面上的“请求记录”按钮创建记录</p>
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>
    <p>管理Workfront对象（项目组合）的权限以添加子对象（项目）。</p>
    </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>版面模板</p></td> 
-   <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域 </p> </td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -137,7 +132,7 @@ ht-degree: 0%
 
      >[!TIP]
      >
-     ><span class="preview">当您在分组或子分组中的最后一个记录之后添加新记录时，Workfront会自动填充分组中包含的字段。 如果需要，您可以手动编辑这些字段，并且可能会从分组中删除记录。</span>
+     >当您在分组或子分组中的最后一个记录之后添加新记录时，Workfront会自动填充分组中包含的字段。 如果需要，您可以手动编辑这些字段，并且可能会从分组中删除记录。
 
    * 在键盘上从表格的任意列或行单击&#x200B;**Shift + Enter**。 这会在您开始的记录下添加一个空行。
    * 将鼠标悬停在记录的主字段上，单击该字段右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**在上方插入记录**&#x200B;或&#x200B;**在下方插入记录**。
@@ -187,10 +182,10 @@ ht-degree: 0%
 
 ## 使用任何记录类型视图中的“新建记录”或“请求记录”按钮创建记录
 
-对工作区<!--<span class="preview">and record type</span>-->具有查看权限的用户只能使用记录类型页面上的“请求记录”按钮来创建记录。
+对工作区以及记录类型具有查看权限的用户只能使用记录类型页面上的“请求记录”按钮来创建记录。
 
-对工作区<!--<span class="preview">and record type</span>-->具有Contribute和“管理”权限的用户可以使用记录类型页面上的“新建记录”按钮创建记录。
-<!--did the permissions to record types get released?? if not, take the record type reference here out; AND else-where in this article, including access requirements table-->
+对工作区和记录类型具有Contribute和“管理”权限的用户可以使用记录类型页面上的“新建记录”按钮创建记录。
+
 
 >[!IMPORTANT]
 >
@@ -207,13 +202,13 @@ ht-degree: 0%
    记录类型页面将在您上次访问的视图中打开。 默认情况下，将在表格视图中打开记录类型页面。
 所选类型的所有记录都将显示在视图中。
 
-1. （视情况而定）在任意视图中，根据工作区<!--<span class="preview">and record type</span>-->权限，单击屏幕右上角的以下内容：
+1. （视情况而定）在任意视图中，根据工作区和记录类型权限，单击屏幕右上角的以下内容：
 
-   * 如果您对工作区&#x200B;**具有Contribute或更高权限，请单击**&#x200B;新建记录<!--<span class="preview">and record type</span>-->
+   * 如果您对工作区和记录类型具有Contribute或更高权限，请单击&#x200B;**新建记录**
 
      或
 
-   * 如果您对工作区&#x200B;**具有查看权限，请单击**&#x200B;请求记录<!--<span class="preview">and record type</span>-->。
+   * 如果您对工作区和记录类型具有查看权限，请单击&#x200B;**请求记录**。
 
 1. （视情况而定）如果您单击&#x200B;**新记录**，请执行以下操作：
 
@@ -341,7 +336,7 @@ You can import records from other applications by linking them to existing recor
 1. （视情况而定）如果在尝试连接时找不到记录，请单击&#x200B;**+添加**
 
    或
-开始键入名称，然后单击&#x200B;**+添加**。 **+ Add**&#x200B;按钮后跟您连接到的记录类型的名称。 例如，将品牌添加到现有营销活动时，“添加品牌”。 您键入的名称还遵循“添加”按钮。
+开始键入名称，然后单击**+添加**。 **+ Add**&#x200B;按钮后跟您连接到的记录类型的名称。 例如，将品牌添加到现有营销活动时，“添加品牌”。 您键入的名称还遵循“添加”按钮。
 
    ![添加按钮以在突出显示的上下文中创建记录](assets/add-button-to-create-records-in-context-highlighted.png)
 

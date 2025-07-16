@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '970'
 ht-degree: 1%
 
 ---
@@ -35,15 +35,17 @@ ht-degree: 1%
 * [提交Adobe Workfront Planning请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)
 * [向请求表单添加批准](/help/quicksilver/planning/requests/add-approval-to-request-form.md)
 
-## 有关批准请求和请求状态的注意事项
+## 有关批准请求的注意事项
 
-已提交的请求将显示在Workfront请求区域的已提交部分的“计划”选项卡中，并具有以下请求状态之一：
+* 已提交的请求将显示在Workfront请求区域的已提交部分的“计划”选项卡中，并具有以下请求状态之一：
 
-* **等待审阅**：当没有批准者打开请求对象时，将显示此状态。
-* **审核中**：当至少有一个批准者打开请求对象时，**待审核中**&#x200B;状态更改为&#x200B;**审核中**。 在所有批准者都批准请求之前，请求的状态保持为&#x200B;**正在审核**。
-* **已批准**：当批准者批准请求对象时，其单个状态将变为&#x200B;**已批准**，但整个请求对象状态将保持&#x200B;**正在审核**，直到所有批准者做出决定。 当所有批准者批准请求时，请求状态将变为&#x200B;**已批准**。
-* **已完成**：如果所有批准者都批准该请求对象，则其状态将更改为&#x200B;**已完成**，或者该请求不需要批准。
-* **已拒绝**：如果任何审批者拒绝请求对象，则状态将变为&#x200B;**已拒绝**。 不创建记录，必须提交新请求才能创建记录。
+   * **等待审阅**：当没有批准者打开请求对象时，将显示此状态。
+   * **审核中**：当至少有一个批准者打开请求对象时，**待审核中**&#x200B;状态更改为&#x200B;**审核中**。 在所有批准者都批准请求之前，请求的状态保持为&#x200B;**正在审核**。
+   * **已批准**：当批准者批准请求对象时，其单个状态将变为&#x200B;**已批准**，但整个请求对象状态将保持&#x200B;**正在审核**，直到所有批准者做出决定。 当所有批准者批准请求时，请求状态将变为&#x200B;**已批准**。
+   * **已完成**：如果所有批准者都批准该请求对象，则其状态将更改为&#x200B;**已完成**，或者该请求不需要批准。
+   * **已拒绝**：如果任何审批者拒绝请求对象，则状态将变为&#x200B;**已拒绝**。 不创建记录，必须提交新请求才能创建记录。
+
+<!--* <span class="preview">You can display approval information on a record created by submitting a request form in the Approved by and Approved date fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).</span>-->
 
 ## 访问要求
 

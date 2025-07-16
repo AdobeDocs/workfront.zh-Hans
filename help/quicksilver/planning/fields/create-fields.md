@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '4717'
+source-wordcount: '4607'
 ht-degree: 1%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=zh-Hans ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -22,9 +22,9 @@ ht-degree: 1%
 
 # 创建字段
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -100,13 +100,8 @@ ht-degree: 1%
   </tr> 
 <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
-   <td>   <p>管理工作区<span class="preview">和记录类型</span> </a>的权限 </p>  
+   <td>   <p>管理对工作区的权限并记录类型</a> </p>  
    <p>系统管理员有权访问所有工作区，包括他们未创建的工作区。</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>版面模板</p></td> 
-   <td> <p>在生产环境中，必须将所有用户（包括系统管理员）分配到包含Planning的布局模板。</p>
-<p><span class="preview">在“预览”环境中，标准用户和系统管理员默认启用Planning。</span></p></td> 
   </tr> 
 </tbody> 
 </table>
@@ -191,7 +186,7 @@ ht-degree: 1%
    ![单行文本字段类型](assets/single-line-text-field-type.png)
 
 1. 在&#x200B;**新建字段**&#x200B;选项卡中添加以下信息：
-   * **名称**：字段类型的名称，它将显示在表或记录的详细信息页面中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **名称**：字段的名称，它将显示在表或记录的详细信息页面中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **描述**：有关该字段的其他信息。 当您将鼠标悬停在表中的字段列标题上，或者单击记录详细信息页面中字段名称旁边的信息图标时，将显示字段说明。
 1. 单击&#x200B;**创建**。
 
@@ -217,7 +212,7 @@ ht-degree: 1%
 
 
 1. 在&#x200B;**新建字段**&#x200B;选项卡中添加以下信息：
-   * **名称**：字段类型的名称，它将显示在表或记录的详细信息页面中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **名称**：字段的名称，它将显示在表或记录的详细信息页面中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **描述**：有关该字段的其他信息。 当您将鼠标悬停在表中的字段列上时，或者在记录的详细信息页面中单击字段名称旁边的信息图标时，将显示字段的描述。
 1. 单击&#x200B;**创建**。
 
@@ -234,7 +229,7 @@ ht-degree: 1%
 
 
 1. 在&#x200B;**新建字段**&#x200B;选项卡中添加以下信息：
-   * **名称**：字段类型的名称，它将显示在表或记录的详细信息页面中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **名称**：字段的名称，它将显示在表或记录的详细信息页面中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **描述**：有关该字段的其他信息。 当您将鼠标悬停在表中的字段列上时，或者在记录的详细信息页面中单击字段名称旁边的信息图标时，将显示字段的描述。
    * **选项**：用户在更新此字段时可以选择的选项。 每个选择的名称可以同时使用数字和字母。
 1. 单击&#x200B;**添加选项**&#x200B;以添加更多选项。 您可以向多选字段添加的选项数量没有限制。
@@ -263,7 +258,7 @@ ht-degree: 1%
 
 
 1. 在&#x200B;**新建字段**&#x200B;选项卡中添加以下信息：
-   * **名称**：字段类型的名称，它将显示在表或记录的详细信息页面中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **名称**：字段的名称，它将显示在表或记录的详细信息页面中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **描述**：有关该字段的其他信息。 当您将鼠标悬停在表中的字段列上时，或者在记录的详细信息页面中单击字段名称旁边的信息图标时，将显示字段的描述。
    * **选项**：保存字段后可从下拉菜单中选择的选项。 每个选择的名称可以同时包含数字和字母。
 
@@ -292,7 +287,7 @@ ht-degree: 1%
 
 
 1. 在&#x200B;**新建字段**&#x200B;选项卡中添加以下信息：
-   * **名称**：字段类型的名称，它将显示在表或记录页中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **名称**：字段的名称，它将显示在表或记录页中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **描述**：有关该字段的其他信息。 当您将鼠标悬停在表中的字段列上时，或者在记录的详细信息页面中单击字段名称旁边的信息图标时，将显示字段的描述。
    * **日期格式**：要在此字段中显示的日期格式类型。<!--update this casing - submitted bug for it-->
 
@@ -322,7 +317,7 @@ ht-degree: 1%
 >数字字段在请求表单生成器中显示为单行文本字段类型。
 >
 >但是，字段格式将保留，并且这些字段的值将在提交请求后、记录类型和请求详细信息页面中显示为数字。
->&#x200B;>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
+>>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
 
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**数字**&#x200B;字段类型。
@@ -330,7 +325,7 @@ ht-degree: 1%
    ![数字字段类型](assets/number-field-type.png)
 1. 在&#x200B;**新建字段**&#x200B;选项卡中添加以下信息：
 
-   * **名称**：字段类型的名称，它将显示在表或记录页中。
+   * **名称**：字段的名称，它将显示在表或记录页中。
    * **描述**：有关该字段的其他信息。 当您将鼠标悬停在表中的字段列上时，或者在记录的详细信息页面中单击字段名称旁边的信息图标时，将显示字段的描述。
    * **精度**：要为该字段记录的小数位数。 最多可显示6位小数。
    * **允许负数**：如果要允许该字段中存在负数，请选择此选项。 默认情况下，此选项处于未选中状态。
@@ -352,7 +347,7 @@ ht-degree: 1%
 >百分比字段在请求表单生成器中显示为单行文本字段类型。
 >
 >但是，字段格式将保留，并且这些字段的值将在提交请求后、记录类型和请求详细信息页面中显示为百分比。
->&#x200B;>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
+>>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
 
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**百分比**&#x200B;字段类型。
@@ -360,7 +355,7 @@ ht-degree: 1%
    ![百分比字段类型](assets/percentage-field-type.png)
 
 1. 在&#x200B;**新建字段**&#x200B;选项卡中添加以下信息：
-   * **名称**：字段类型的名称，它将显示在表或记录页中。
+   * **名称**：字段的名称，它将显示在表或记录页中。
    * **描述**：有关该字段的其他信息。 当您将鼠标悬停在表中的字段列上时，或者在记录的详细信息页面中单击字段名称旁边的信息图标时，将显示字段的描述。
    * **精度**：要为该字段记录的小数位数。 最多可显示6位小数。
    * **允许负数**：如果要允许此字段中的负百分比值，请选择此选项。 默认情况下，此选项处于未选中状态。
@@ -392,14 +387,14 @@ ht-degree: 1%
 >货币字段在请求表单生成器中显示为单行文本字段类型。
 >
 >但是，字段格式将保留，并且这些字段的值将在提交请求后、记录类型和请求详细信息页面中显示为货币。
->&#x200B;>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
+>>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**货币**&#x200B;字段类型。
 
    ![货币字段类型](assets/currency-field-type.png)
 
 1. 在&#x200B;**新建字段**&#x200B;选项卡中添加以下信息：
-   * **名称**：字段类型的名称，它将显示在表或记录页中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **名称**：字段的名称，它将显示在表或记录页中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **描述**：有关该字段的其他信息。 当您将鼠标悬停在表中的字段列上时，或者在记录的详细信息页面中单击字段名称旁边的信息图标时，将显示字段的描述。
    * **货币**：要在此字段中显示的货币类型。 这是国际标准化组织(ISO)的货币列表。
    * **精度**：要为该字段记录的小数位数。 您最多可以显示6个小数。
@@ -422,7 +417,7 @@ ht-degree: 1%
    ![复选框字段类型](assets/checkbox-field-type.png)
 
 1. 在&#x200B;**新建字段**&#x200B;选项卡中添加以下信息：
-   * **名称**：字段类型的名称，它将显示在表或记录页中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **名称**：字段的名称，它将显示在表或记录页中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **描述**：有关该字段的其他信息。 当您将鼠标悬停在表中的字段列上时，或者在记录的详细信息页面中单击字段名称旁边的信息图标时，将显示字段的描述。
 1. 单击&#x200B;**创建**。
 
@@ -513,7 +508,7 @@ ht-degree: 1%
    ![人员字段类型](assets/people-field-type.png)
 
 1. 在&#x200B;**新建字段**&#x200B;选项卡中添加以下信息：
-   * **名称**：字段类型的名称，它将显示在表或记录页中。
+   * **名称**：字段的名称，它将显示在表或记录页中。
    * **描述**：有关该字段的其他信息。 当您将鼠标悬停在表中的字段列上时，或者在记录的详细信息页面中单击字段名称旁边的信息图标时，将显示字段的描述。
    * **允许多个值**：如果要允许用户在此字段中添加多个用户，请选择此选项。 默认情况下，此选项处于未选中状态。
 
@@ -535,7 +530,7 @@ ht-degree: 1%
 
 1. 在&#x200B;**新建字段**&#x200B;选项卡中添加以下信息：
 
-   * **名称**：字段类型的名称，它将显示在表或记录页中。<!--this might change and they might prepopulate it with "Created by"-->
+   * **名称**：字段的名称，它将显示在表或记录页中。<!--this might change and they might prepopulate it with "Created by"-->
    * **描述**：有关该字段的其他信息。 当您将鼠标悬停在表中的字段列上时，或者在记录的详细信息页面中单击字段名称旁边的信息图标时，将显示字段的描述。
 
 1. 单击&#x200B;**创建**。
@@ -555,7 +550,7 @@ ht-degree: 1%
 
 1. 在&#x200B;**新建字段**&#x200B;选项卡中添加以下信息：
 
-   * **名称**：字段类型的名称，它将显示在表或记录页中。<!--this might change and they might prepopulate it with "Created date"-->
+   * **名称**：字段的名称，它将显示在表或记录页中。<!--this might change and they might prepopulate it with "Created date"-->
    * **描述**：有关该字段的其他信息。 当您将鼠标悬停在表中的字段列上时，或者在记录的详细信息页面中单击字段名称旁边的信息图标时，将显示字段的描述。
    * **日期格式**：从以下格式中选择：
 
@@ -586,7 +581,7 @@ ht-degree: 1%
 
 1. 在&#x200B;**新建字段**&#x200B;选项卡中添加以下信息：
 
-   * **名称**：字段类型的名称，它将显示在表或记录页中。<!--this might change and they might prepopulate it with "Created by"-->
+   * **名称**：字段的名称，它将显示在表或记录页中。<!--this might change and they might prepopulate it with "Created by"-->
    * **描述**：有关该字段的其他信息。 当您将鼠标悬停在表中的字段列上时，或者在记录的详细信息页面中单击字段名称旁边的信息图标时，将显示字段的描述。
 
 1. 单击&#x200B;**创建**。
@@ -606,7 +601,7 @@ ht-degree: 1%
 
 1. 在&#x200B;**新建字段**&#x200B;选项卡中添加以下信息：
 
-   * **名称**：字段类型的名称，它将显示在表或记录页中。<!--this might change and they might prepopulate it with "Created date"-->
+   * **名称**：字段的名称，它将显示在表或记录页中。<!--this might change and they might prepopulate it with "Created date"-->
    * **描述**：有关该字段的其他信息。 当您将鼠标悬停在表中的字段列上时，或者在记录的详细信息页面中单击字段名称旁边的信息图标时，将显示字段的描述。
    * **日期格式**：从以下格式中选择：
 
@@ -626,6 +621,75 @@ ht-degree: 1%
 1. 单击&#x200B;**创建**。
 
    新的“上次修改日期 — 类型”字段作为列添加到记录类型中，其值预填充有上次修改记录的日期（或日期和时间）。
+
+<!--
+
+<div class="preview">
+
+### Approved date
+
+You can use the Approved date field type to add the date when a request was approved and it resulted in the creation of the record. This is a read-only field, and it automatically populates with the date (and optionally with the time) when the request was approved by the last approver. In this case, the approval date should coincide with the date the record was created. 
+
+>[!TIP]
+>
+>The Approved date field populates with information only for records that were created by submitting a request form associated with approvers. 
+>
+>If the form is associated with more than one approver, only the date of the last approval decision is recorded in the Approved date field.
+ 
+
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Created date** field type.
+ 
+   ![Approved date field type](assets/approved-date-field-type.png)
+
+   1. Add the following information in the **New field** tab:
+
+     * **Name**: The name of the field, as it will appear in a table or the record page. 
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
+     * **Date Format**: Select from the following formats:
+
+        * **Locale**: Matches the locale of your browser.
+        * **Standard**: 05/16/2023
+        * **Long**: May 16, 2023
+        * **European**: 16/05/2023
+        * **ISO**: 2023-05-16
+     
+     * **Include a time field**: Select this option if you want to include a time stamp. This is unselected by default. 
+    
+        Select from the following options:
+        
+        * **24hr**: For example: 18:00
+        * **12hr**: For example: 6:00 PM 
+    
+1. Click **Create**.
+
+    The new Approved date-type field is added as a column to the record type and its values are prefilled with the date (or date and time) when the record request was approved, if the record was created by submitting a request associated with approvers. 
+
+### Approved by
+
+You can use the Approved by field type to add the user who last approved the request to create a record. This is a read-only field, and it automatically populates with the name of the user who approved the request to create the record.
+
+>[!TIP]
+>
+>The Approved by field populates with information only for records that were created by submitting a request form associated with approvers.
+>
+>If the form is associated with more than one approver, the name of all approvers are recorded in the Approved date field, separated by commas.
+ 
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Approved by** field type.
+ 
+   ![Approved by field type](assets/approved-by-field-type.png)
+
+1. Add the following information in the **New field** tab:
+
+     * **Name**: The name of the field, as it will appear in a table or the record page. 
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
+    
+1. Click **Create**.
+
+    The new Approved by-type field is added as a column to the record type and its values are prefilled with the name of the user who last modified each record.  
+
+</div>
+-->
+
 
 <!--
 
@@ -664,7 +728,7 @@ Create an Object field:
 
 1. Add the following information in the **New field** tab:
 
-     * **Name**: The name of the field type, as it will appear in a table or the record page. (***********this might change and they might prepopulate it with "Created date"********)
+     * **Name**: The name of the field, as it will appear in a table or the record page. (***********this might change and they might prepopulate it with "Created date"********)
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
 
 1. Click **Create**.

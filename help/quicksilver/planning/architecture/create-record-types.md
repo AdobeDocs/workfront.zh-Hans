@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 459e3883101b644a91d5e2a32288cf5b02a02bd9
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1203'
 ht-degree: 1%
 
 ---
@@ -169,34 +169,45 @@ ht-degree: 1%
       * 选择用于标识新记录类型的颜色。 这是记录类型图标的颜色。 默认情况下选中“灰色”。
       * 从列表中选择一个图标，或开始键入图标的名称以描述其表示的内容，然后在显示时选择它。 这是记录类型的图标。 默认情况下，会选择一个文件图标。
 
-1. （可选且有条件）如果您是系统管理员，请单击&#x200B;**高级设置**&#x200B;并在&#x200B;**连接范围**&#x200B;部分中更新以下信息： <!--the info here is duplicated in the Edit record types article-->
 
-   * 启用&#x200B;**从其他工作区连接**&#x200B;设置。 启用后，记录类型可访问，并可从其他工作区连接。
-   * 选择可以访问记录类型的工作区。 从以下选项中进行选择：
+   <!--old setting:
+    1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Connectivity scope** section: 
+        * Enable the **Connect from other workspace** setting. When enabled, the record type is accessible and can be connected from other workspaces. 
+        * Choose from which workspaces the record type can be accessed. Choose from the following options:
+            * **System wide**: Users can connect to this record type from all workspaces where they have manage permissions. 
+            * **Specific workspaces**: Add the names of the workspaces where workspace managers can connect to this record type. 
+    -->
 
-      * **系统范围**：用户可以从其拥有管理权限的所有工作区连接到此记录类型。
-      * **特定工作区**：添加工作区管理员可以连接到此记录类型的工作区的名称。
+1. （可选且有条件）如果您是系统管理员，请单击&#x200B;**高级设置**&#x200B;并在&#x200B;**跨工作区功能**&#x200B;部分中更新以下信息： <!--the info here is duplicated in the Edit record types article-->
+   * 启用&#x200B;**允许在其他工作区中连接到此记录类型**&#x200B;设置：这允许工作区管理员从其他工作区连接到此记录类型。\
+     您可以指定此记录类型可以连接的工作区。 可使其可用于所有工作区，或指定可在其中导入它的特定工作区。
+有关详细信息，请参阅[为记录类型配置跨工作区功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。
+
 
    ![在“高级设置”选项卡上创建“记录类型”框](assets/create-record-type-box-advanced-settings-tab.png)
 
    <!--replace last point with this when we release dynamic record types; the preview tags might need to be edited, too:
-    <div class="preview">
-    1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Cross-workspace capability** section: **** the info here is duplicated in the Edit record types article ***
-        * Enable the **Allow adding this record type to other workspaces** setting: This allows workspace managers to add this record type to other workspaces. 
-            You can designate specific users who can add this record type to other workspaces. 
-        * Enable the **Allow connecting to this record type in other workspaces** setting: This allows workspace managers to connect to this record type from other workspaces.  
-            You can designate which workspaces this record type can be connected from. You can make it available for all workspaces or designate specific ones where you can import it.
-        For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).  </div>
-        ******** replace screen shot below **********
-        ![Create record type box on advanced settings tab](assets/create-record-type-box-advanced-settings-tab.png) 
-    -->
+        <div class="preview">
+        1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Cross-workspace capability** section: **** the info here is duplicated in the Edit record types article ***
+            * Enable the **Allow adding this record type to other workspaces** setting: This allows workspace managers to add this record type to other workspaces. 
+                You can designate specific users who can add this record type to other workspaces. 
+            * Enable the **Allow connecting to this record type in other workspaces** setting: This allows workspace managers to connect to this record type from other workspaces.  
+                You can designate which workspaces this record type can be connected from. You can make it available for all workspaces or designate specific ones where you can import it.
+            For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).  </div>
+            ******** replace screen shot below **********
+            ![Create record type box on advanced settings tab](assets/create-record-type-box-advanced-settings-tab.png) 
+        -->
 
-1. 单击&#x200B;**创建**。
+1. 单击&#x200B;**保存**。
 
    记录类型信息卡会添加到部分和您选择的工作区。
 记录类型的描述将显示在信息卡上。
 
    ![带有说明的记录类型信息卡](assets/record-type-card-with-description.png)
+
+   如果选择从其他工作区连接此记录，则记录卡上会显示&#x200B;**从其他工作区连接**&#x200B;图标![从其他工作区连接图标](assets/connect-from-other-workspaces-icon.png)。
+
+   <!--<span class="preview">If you configured the cross-workspace capabilities for the record, the **connect from other spaces** icon ![Connect record type from other spaces icon](assets/connect-from-other-workspaces-icon.png) and the **add to other workspaces** icon ![Add record type to other workspaces](assets/global-icon.png) also display on the card. </span>-->
 
 1. （可选）将鼠标悬停在记录类型卡片上，单击右上角的&#x200B;**更多**&#x200B;图标![更多菜单](assets/more-menu.png)，然后单击&#x200B;**编辑**&#x200B;以修改有关记录类型的信息。
 1. （可选）单击记录类型卡以打开记录类型页面。

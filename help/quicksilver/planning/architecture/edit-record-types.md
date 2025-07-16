@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 459e3883101b644a91d5e2a32288cf5b02a02bd9
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '646'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,10 @@ ht-degree: 2%
 
 # 编辑记录类型
 
-<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -80,15 +81,11 @@ ht-degree: 2%
   </tr> 
 <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
-   <td>   <p>管理工作区<span class="preview">和记录类型</span>的权限 </p>  
+   <td>   <p>管理对工作区和记录类型的权限 </p>  
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>
    <p>只有系统管理员才能启用记录类型以从其他工作区连接</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>版面模板</p></td> 
-   <td> <p>在生产环境中，必须将所有用户（包括系统管理员）分配到包含Planning的布局模板。</p>
-<p><span class="preview">在“预览”环境中，标准用户和系统管理员默认启用Planning。</span></p> </td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -123,17 +120,22 @@ ht-degree: 2%
       * 选择用于标识记录类型的颜色。 这是记录类型图标的颜色。
       * 从列表中选择一个图标，或开始键入图标的名称以描述其表示的内容，然后在显示时选择它。 这是记录类型的图标。 默认情况下，会选择一个文件图标。
 
-1. （视情况而定）如果您是系统管理员，请单击&#x200B;**编辑记录类型**&#x200B;框中的&#x200B;**高级设置**&#x200B;选项卡。<!--the info here is duplicated in the Create record types article-->
+   <!--old info: 
+   1. (Conditional) If you are a system administrator, click the **Advanced settings** tab in the **Edit record type** box. 
+      ![Edit record type box advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
+   1. (Conditional) Update the following information in the **Advanced settings** tab: 
+      * Enable the **Connect from other workspace** setting. When enabled, the record type is accessible and can be connected from other workspaces. 
+      * Choose from which workspaces the record type can be accessed. Choose from the following options:
+         * **System wide**: Users can connect to this record type from all workspaces where they have manage permissions. 
+         * **Specific workspaces**: Add the names of the workspaces where workspace managers can connect to this record type.-->
+
+
+1. （可选且有条件）如果您是系统管理员，请单击&#x200B;**高级设置**&#x200B;并在&#x200B;**跨工作区功能**&#x200B;部分中更新以下信息： <!--the info here is duplicated in the Create record types article-->
+   * 启用&#x200B;**允许在其他工作区中连接到此记录类型**&#x200B;设置：这允许工作区管理员从其他工作区连接到此记录类型。\
+     您可以指定此记录类型可以连接的工作区。 可使其可用于所有工作区，或指定可在其中导入它的特定工作区。
+有关详细信息，请参阅[为记录类型配置跨工作区功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。
 
    ![编辑记录类型框高级设置选项卡](assets/edit-record-type-box-advanced-settings-tab.png)
-
-1. （视情况而定）在&#x200B;**高级设置**&#x200B;选项卡中更新以下信息：
-
-   * 启用&#x200B;**从其他工作区连接**&#x200B;设置。 启用后，记录类型可访问，并可从其他工作区连接。
-   * 选择可以访问记录类型的工作区。 从以下选项中进行选择：
-
-      * **系统范围**：用户可以从其拥有管理权限的所有工作区连接到此记录类型。
-      * **特定工作区**：添加工作区管理员可以连接到此记录类型的工作区的名称。
 
    <!--replace last point with this when we release dynamic record types:
       1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Cross-workspace capability** section: **** the info here is duplicated in the Edit record types article ***

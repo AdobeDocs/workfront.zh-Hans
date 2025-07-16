@@ -6,19 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 1%
+source-wordcount: '923'
+ht-degree: 0%
 
 ---
 
 
 # 通过从CSV或Excel文件导入信息创建记录
 
-<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -29,8 +29,6 @@ ht-degree: 1%
 ## 访问要求
 
 +++ 展开以查看访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
 <col> 
@@ -83,15 +81,10 @@ ht-degree: 1%
   </tr> 
 <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
-   <td> <p>向要添加记录的工作区<span class="preview">和记录类型</span>贡献或更高权限。 </p>  
+   <td> <p>为要添加记录的工作区和记录类型分配或更高权限。 </p>  
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>
    <p>管理Workfront对象（项目组合）的权限以添加子对象（项目）。</p>
    </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>版面模板</p></td> 
-   <td> <p>在生产环境中，必须将所有用户（包括系统管理员）分配到包含Planning的布局模板。</p>
-<p><span class="preview">在“预览”环境中，标准用户和系统管理员默认启用Planning。</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -113,16 +106,12 @@ ht-degree: 1%
 * 不支持空工作表。
 * 以下类型的字段不受支持，无法映射到导入工作表中的字段：
 
-   * 连接字段，具体取决于您使用的环境：
-
-      * 在生产环境中，无法映射到Planning记录或Workfront和AEM Assets对象的连接字段
-
-      * <span class="preview">在“预览”环境中，可以将连接字段映射并导入到Planning记录。 无法将字段映射到Workfront和AEM Assets。</span>
-
+   * 将字段连接到Workfront和AEM Assets对象类型。 您只能将连接字段映射到Planning记录类型。
    * 从连接的Planning记录或Workfront和AEM Assets对象查找字段
    * 公式字段
    * 创建日期，创建者
    * 上次修改日期，上次修改人
+     <!--* <span class="preview">Approved date, Approved by</span>-->
    * 人员
    * 如果导入了多选或单选字段，并且该字段与Planning中的类似字段相比，具有更多选项，则在导入期间会创建附加选项。 只有对工作区具有“管理”权限的用户才能导入新选项。
 

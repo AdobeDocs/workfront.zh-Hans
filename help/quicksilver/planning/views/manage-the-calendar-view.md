@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '1594'
+source-wordcount: '1485'
 ht-degree: 5%
 
 ---
 
 # 管理日历视图
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -28,8 +28,6 @@ ht-degree: 5%
 ## 访问要求
 
 +++ 展开以查看访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
 <col> 
@@ -83,12 +81,8 @@ ht-degree: 5%
    <td role="rowheader"><p>对象权限</p></td> 
    <td>   <p>管理视图的权限</p>  
    <p>查看对视图的权限以临时更改视图设置或复制它</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>版面模板</p></td> 
-   <td> <p>在生产环境中，必须将所有用户（包括系统管理员）分配到包含Planning的布局模板。</p>
-<p><span class="preview">在“预览”环境中，标准用户和系统管理员默认启用Planning。</span></p> </td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -168,7 +162,7 @@ ht-degree: 5%
 1. 选择一个日历视图，然后单击表右上角的&#x200B;**筛选器**。
 1. 单击&#x200B;**添加条件**&#x200B;并添加以下信息：
 
-   * **选择要按<!-- the tip below might change-->筛选的字段**
+   * **选择要按**&#x200B;筛选的字段<!-- the tip below might change-->
 
    * **选择一个选项**（或筛选器修饰符）以定义字段必须满足哪种条件
 

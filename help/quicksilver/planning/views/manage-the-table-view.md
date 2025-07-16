@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 8f4c1be156094d18df4bc3628d4f1fca90372119
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '3446'
+source-wordcount: '3346'
 ht-degree: 2%
 
 ---
 
 # 管理表视图
 
-<span class="preview">此页面上突出显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -87,12 +87,7 @@ ht-degree: 2%
 <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
    <td>   <p>管理视图的权限</p>  
-   <p>查看视图的权限以临时更改视图设置、复制、<span class="preview">或导出它</span></p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>版面模板</p></td> 
-   <td> <p>在生产环境中，必须将所有用户（包括系统管理员）分配到包含Planning区域的布局模板。</p>
-<p><span class="preview">在预览环境中，标准用户和系统管理员默认启用Planning区域。</span></p></td> 
+   <p>查看对视图的权限以临时更改视图设置、复制或导出它</p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -113,11 +108,9 @@ ht-degree: 2%
 
 要管理表视图，请执行以下操作：
 
-1. <span class="preview">创建表视图，如文章[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)中所述。</span>
+1. 创建表视图，如文章[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)中所述。
 
-   <span class="preview">![表视图示例](assets/table-view-example.png)
-
-   </span>
+   ![表视图示例](assets/table-view-example.png)
 
 1. （可选）单击&#x200B;**行高**，然后从以下选项中进行选择以修改表行的高度：
    * 短
@@ -130,7 +123,7 @@ ht-degree: 2%
    * [过滤器](#add-filters)
    * [排序](#add-a-sort)
    * [分组](#add-groupings)
-   * <span class="preview">[行颜色](#add-row-colors)</span>
+   * [行颜色](#add-row-colors)
    * [实时在线状态指示器](#enable-the-real-time-presence-indicator)
 
 
@@ -459,7 +452,7 @@ ht-degree: 2%
 
    为分组选择的字段数将显示在分组图标旁边。
 
-   <span class="preview">![分组应用于表视图](assets/grouping-applied-in-table-view.png)</span>
+   ![分组应用于表视图](assets/grouping-applied-in-table-view.png)
 
 1. （可选）在&#x200B;**按**&#x200B;对记录进行分组框中，单击为分组选择的字段右侧的&#x200B;**x**&#x200B;图标以删除该分组
 
@@ -470,9 +463,7 @@ ht-degree: 2%
 1. 单击&#x200B;**按**&#x200B;分组记录框外部以将其关闭。
 1. （可选）单击任何分组末尾的&#x200B;**+新记录**&#x200B;以添加新记录，然后刷新页面以将新记录添加到相应的分组。<!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
-1. <span class="preview">若要展开或折叠分组，请执行下列操作之一：</span>
-
-   <div class="preview">
+1. 要展开或折叠分组，请执行下列操作之一：
 
    1. 单击&#x200B;**分组**&#x200B;图标，然后单击&#x200B;**全部展开**&#x200B;或&#x200B;**全部折叠**。 这将展开表格视图中的所有分组和子分组。
 
@@ -486,7 +477,7 @@ ht-degree: 2%
       * **展开子组**
       * **折叠子组**
 
-      根据应用于视图的分组数量，某些选项可能不可用。</div>
+      根据应用于视图的分组数量，某些选项可能不可用。
 
 <!-- this is not available yet: 
 
@@ -496,8 +487,6 @@ To sort grouped records:
 1. ************************* add steps here for sorting grouped records****************
 
 -->
-
-<div class="preview">
 
 ### 添加行颜色
 
@@ -533,8 +522,6 @@ To sort grouped records:
 
 1. 单击&#x200B;**行颜色**&#x200B;框外部以将其关闭。 颜色会自动应用。
 
-</div>
-
 ### 启用实时在线状态指示器
 
 默认情况下，与编辑记录信息的其他用户头像将显示在所有记录视图的右上角。
@@ -557,7 +544,7 @@ To sort grouped records:
    >
    >您可以从任何视图中选择&#x200B;**显示协作者**&#x200B;切换开关。 他人当前编辑的字段仅在表格视图中列出。
 
-<div class="preview">
+
 
 
 

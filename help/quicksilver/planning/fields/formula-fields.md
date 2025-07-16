@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 6%
+source-wordcount: '684'
+ht-degree: 7%
 
 ---
 
 # 公式字段概述
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -30,8 +30,6 @@ ht-degree: 6%
 ## 访问要求
 
 +++ 展开以查看访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
 <col> 
@@ -83,14 +81,10 @@ ht-degree: 6%
   </tr> 
 <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
-   <td>   <p>管理工作区<span class="preview">和记录类型</span> </a>的权限 </p>  
+   <td>   <p>管理对工作区的权限并记录类型</a> </p>  
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>版面模板</p></td> 
-   <td> <p>在生产环境中，必须将所有用户（包括系统管理员）分配到包含Planning的布局模板。</p>
-<p><span class="preview">在“预览”环境中，标准用户和系统管理员默认启用Planning。</span></p> </td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -102,7 +96,7 @@ ht-degree: 6%
 
 * 公式字段引用属于同一记录类型的字段。
 * 仅当将其他记录类型连接到要为其创建公式字段的记录类型时，才能引用其他记录类型的字段。
-* &lt;span class — “preview”>在公式中引用连接的记录类型或其查找字段取决于您对连接的记录类型的权限。 如果您无权查看记录类型，则无法在公式中引用其字段。</span>
+* 在公式中引用连接的记录类型或其查找字段取决于您对连接的记录类型的权限。 如果您无权查看记录类型，则无法在公式中引用其字段。
 * 保存公式字段后，无法更改其字段类型。
 * 保存公式字段后，您可以更新公式字段的计算，计算结果将自动更新相同类型的所有记录。
 * 您必须添加您在公式中引用的字段，这些字段在Workfront Planning界面中显示。

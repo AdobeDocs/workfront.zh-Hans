@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '1969'
+source-wordcount: '1856'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 共享视图
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -41,8 +41,6 @@ This article describes how you can share a view with others. For information abo
 +++ 展开以查看访问要求。
 
 <!--at GA, check that the Workfront plans article linked below has Planning info-->
-
-您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
 <col> 
@@ -98,12 +96,8 @@ This article describes how you can share a view with others. For information abo
    <td role="rowheader"><p>对象权限</p></td> 
    <td>  <p>管理视图的权限</p>  
    <p>只有对工作区具有管理权限的用户才能公开共享视图。</p></td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>版面模板</p></td> 
-   <td> <p>在生产环境中，必须将所有用户（包括系统管理员）分配到包含Planning区域的布局模板。</p>
-<p><span class="preview">在预览环境中，标准用户和系统管理员默认启用Planning区域。</span></p></td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -147,15 +141,15 @@ This article describes how you can share a view with others. For information abo
 
    这将打开记录类型页面。
 
-1. 在“视图”选项卡中，<span class="preview">执行下列操作之一：</span>
+1. 在“视图”选项卡中，执行下列操作之一：
 
    * 将鼠标悬停在要共享的视图的选项卡名称上，然后单击视图名称右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击&#x200B;**共享**。
 
      视图的![更多菜单](assets/more-menu-for-views-expanded-with-share-option.png)
 
-   * <span class="preview">单击&#x200B;**共享** > **共享当前视图**</span>
+   * 单击&#x200B;**共享** > **共享当前视图**
 
-     <span class="preview">![具有记录类型和视图共享选项的“共享”按钮](assets/share-button-with-record-type-and-view-sharing-options.png)</span>
+     ![具有记录类型和视图共享选项的“共享”按钮](assets/share-button-with-record-type-and-view-sharing-options.png)
 
    将打开&#x200B;**共享视图**&#x200B;框，默认情况下应选择&#x200B;**内部共享**&#x200B;选项卡。
 
@@ -216,7 +210,7 @@ This article describes how you can share a view with others. For information abo
    * 将鼠标悬停在要共享的视图的选项卡名称上，然后单击视图名称右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击&#x200B;**共享**。
 
    使用共享选项扩展的视图的![更多菜单](assets/more-menu-for-views-expanded-with-share-option.png)
-   * <span class="preview">单击&#x200B;**共享** > **共享当前视图**</span>
+   * 单击&#x200B;**共享** > **共享当前视图**
 
    将打开&#x200B;**共享视图**&#x200B;框。
 
@@ -265,7 +259,7 @@ This article describes how you can share a view with others. For information abo
 1. 在视图的选项卡中，执行以下操作之一：
 
    * 将鼠标悬停在要共享的视图的选项卡上，单击视图名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**共享视图**&#x200B;框中的&#x200B;**共享** > **复制链接**。
-   * <span class="preview">在&#x200B;**共享视图**&#x200B;框中单击&#x200B;**共享**</span> > **复制视图链接** > **复制链接**。
+   * 单击&#x200B;**共享视图**&#x200B;框中的&#x200B;**共享** > **复制视图链接** > **复制链接**。
 
    指向视图的链接已复制到剪贴板，并且您会在屏幕底部收到确认。
 
@@ -278,14 +272,12 @@ This article describes how you can share a view with others. For information abo
 1. （视情况而定）如果您是视图的管理者，则可能会收到其他用户发出的访问以下区域中的视图的请求：
 
    * 应用程序内通知
-
      ![视图访问请求的应用程序内通知](assets/in-app-notification-for-access-request-for-view.png)
    * 电子邮件通知
-
      ![视图访问请求的应用程序内通知](assets/in-app-notification-for-access-request-for-view.png)
 1. （视情况而定）在Workfront的通知区域中，单击应用程序内通知
 或
-在电子邮件通知中，单击&#x200B;**查看所有通知**，然后单击列表中的通知。
+在电子邮件通知中，单击**查看所有通知**，然后单击列表中的通知。
 
    显示&#x200B;**待处理访问请求**&#x200B;框。
 
@@ -303,11 +295,11 @@ This article describes how you can share a view with others. For information abo
 {{step1-to-planning}}
 
 1. 打开要停止共享其视图的工作区，然后单击记录类型卡片。 这将打开记录类型页面。
-1. 在“视图”选项卡中，<span class="preview">执行下列操作之一：</span>
+1. 在“视图”选项卡中，执行下列操作之一：
 
    * 将鼠标悬停在要共享的视图的选项卡名称上，然后单击视图名称右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击&#x200B;**共享**。
 
-   * <span class="preview">单击&#x200B;**共享** > **共享当前视图**</span>
+   * 单击&#x200B;**共享** > **共享当前视图**
 
    将打开&#x200B;**共享视图**&#x200B;框。
 1. 要删除视图的内部共享，请执行以下操作：
