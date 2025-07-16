@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: e4f4c3502281ed46bb865faa401a0d2058a5e6cd
+source-git-commit: ba7939d80c074510f829e7f66edf083141cad5a5
 workflow-type: tm+mt
 source-wordcount: '5214'
 ht-degree: 0%
@@ -24,13 +24,13 @@ ht-degree: 0%
 
 ## 管理和设置
 
-### 更新了群组中Portfilios选项卡的界面
+### 更新了组中项目组合选项卡的界面
 
 **预览： 2025年7月10日；适用于所有人的生产： 2025年7月17日**
 
 我们更新了组中左侧面板中的Portfolio页面，以匹配应用程序的其他区域。
 
-要查看这些更改，请转到“设置”>“组”>“选择组”>“组”。
+要查看这些更改，请转到设置>组>选择组>项目组合。
 
 ### 子组对话框的界面更新
 
