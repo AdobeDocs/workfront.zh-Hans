@@ -22,7 +22,7 @@ ht-degree: 1%
 
 * [2025年第四季度发行版概述](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)
 * [2025年第三季度发行版概述](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
-* [Adobe Workfront Fusion发布活动](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+* [Adobe Workfront Fusion发布活动](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 * [Adobe Workfront计划2025年第四季度发布活动](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
 * [Adobe Workfront计划2025年第三季度发布活动](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
 
@@ -42,7 +42,7 @@ ht-degree: 1%
 * [2024年第二季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
 * [2024年第三季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
 * [2024年第四季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
-* [Adobe Workfront Fusion发布活动](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+* [Adobe Workfront Fusion发布活动](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 * [Adobe Workfront计划2025年第四季度发布活动](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
 
 >[!TAB Betas]
@@ -51,7 +51,7 @@ ht-degree: 1%
 
 >[!TAB 已知问题]
 
-* [已知问题](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/overview)
+* [已知问题](https://experienceleague.adobe.com/zh-hans/docs/workfront-known-issues/issues/overview)
 
 
 >[!ENDTABS]
@@ -70,7 +70,7 @@ ht-degree: 1%
     <td>
     <ul>
     <li><a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md">Workfront管理快速入门</a></li>
-    <li><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">Workfront Fusion入门</li>
+    <li><a href="https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">Workfront Fusion入门</li>
     </ul>
  </td>
     <td>
@@ -108,8 +108,8 @@ ht-degree: 1%
 
 ### 探索学习和培训部分
 
-* **培训资料**：导航到[Workfront培训](https://experienceleague.adobe.com/en/browse/workfront)页面，查看旨在帮助您更好地了解Workfront功能和设置的培训视频和文章库。 您还可以在[learning.adobe.com](https://learning.adobe.com/)访问付费培训材料。
-* **课程**：查找[结构化学习课程](https://experienceleague.adobe.com/home?Solution=Workfront#courses)，这些课程可指导您按逻辑顺序使用各种Workfront功能。
+* **培训资料**：导航到[Workfront培训](https://experienceleague.adobe.com/zh-hans/browse/workfront)页面，查看旨在帮助您更好地了解Workfront功能和设置的培训视频和文章库。 您还可以在[learning.adobe.com](https://learning.adobe.com/)访问付费培训材料。
+* **课程**：查找[结构化学习课程](https://experienceleague.adobe.com/home?lang=zh-Hans&Solution=Workfront#courses)，这些课程可指导您按逻辑顺序使用各种Workfront功能。
 
 ### 在社区论坛中查找答案
 
