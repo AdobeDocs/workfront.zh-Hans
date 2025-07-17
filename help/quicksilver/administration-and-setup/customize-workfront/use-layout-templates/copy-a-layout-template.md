@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: fec77b37-3968-4e0e-8034-63a816a7a3d5
-source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
+source-git-commit: 2847adb34fc8f433392c82dbcab9bf48f0fc8aa0
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
 1. 在左侧面板中，单击&#x200B;**界面** > **布局模板**。
 
 1. 单击要修改的布局模板的名称。
-1. 单击&#x200B;**复制**。
+1. 单击&#x200B;**复制**&#x200B;图标![复制图标](assets/copy-icon.png)。
 
    现有布局模板中除名称、描述和用户分配之外的所有设置都将复制到新模板中。
 
