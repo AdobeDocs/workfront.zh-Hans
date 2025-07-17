@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 2572093857bb1ad27f869e1d7244549e531ba421
+source-git-commit: eb3bace0298ea67deb3d4515da23b9301625bec7
 workflow-type: tm+mt
-source-wordcount: '2200'
+source-wordcount: '2273'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,19 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 在创建和编辑记录类型时更新了高级设置
+
+预览和生产： 2025年7月10日
+
+在创建或编辑记录类型时，我们更新了“高级设置”选项卡。
+
+作为此更新的一部分，引入了以下更改：
+
+* “连接范围”区域已重命名为“跨工作区功能”
+* “从其他工作区连接”设置已重命名为“允许在其他工作区中连接到此记录类型”
+
+有关详细信息，请参阅[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)。
 
 ## 将团队添加到记录评论时为团队用户添加通知
 
@@ -96,7 +109,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 * 我们已为您共享请求表单的用户删除了“管理”和“贡献”选项。 现在，添加的用户只能提交表单。
 * 启用创建公共链接选项后，公共共享选项卡现在显示链接和过期日期字段。
 
-有关详细信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)。
+有关详细信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)。
 
 ## 展开和折叠表格视图中的所有分组
 
@@ -314,7 +327,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >[!NOTE]
 >
 >此更改将对具有系统管理员和标准许可证的所有新用户和现有用户可见。
->&#x200B;>分配到布局模板的现有用户将继续根据布局模板中定义的设置查看所有内容。
+>>分配到布局模板的现有用户将继续根据布局模板中定义的设置查看所有内容。
 
 有关信息，请参阅[Adobe Workfront规划概述](/help/quicksilver/planning/access/access-overview.md)。
 
