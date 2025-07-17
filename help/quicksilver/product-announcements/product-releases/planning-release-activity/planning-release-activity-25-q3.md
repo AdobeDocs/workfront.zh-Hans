@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: eb3bace0298ea67deb3d4515da23b9301625bec7
+source-git-commit: 8dd86b364e23089f3ff02c7817807e5219a3ebb4
 workflow-type: tm+mt
-source-wordcount: '2273'
+source-wordcount: '2275'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,11 @@ ht-degree: 0%
 
 ## 在创建和编辑记录类型时更新了高级设置
 
-预览和生产： 2025年7月10日
+>[!NOTE]
+>
+>预览： 2025年7月10日
+>>为每个人生产： 2025年7月10日
+
 
 在创建或编辑记录类型时，我们更新了“高级设置”选项卡。
 
@@ -37,8 +41,10 @@ ht-degree: 0%
 
 ## 将团队添加到记录评论时为团队用户添加通知
 
-预览： 2025年7月10日
-为每个人生产： 2025年7月10日
+>[!NOTE]
+>
+>预览： 2025年7月10日
+>>为每个人生产： 2025年7月10日
 
 现在，当您向Workfront Planning中的记录注释添加团队时，团队的所有成员都会收到有关注释的应用程序内通知和电子邮件通知。 在此增强功能之前，只通知单独添加到评论的用户。
 
@@ -46,9 +52,12 @@ ht-degree: 0%
 
 ## 根据应用的分组自动填充字段
 
-预览： 2025年7月10日
-生产快速发布： 2025年8月14日
-为每个人生产： 2025年10月16日
+>[!NOTE]
+>
+>预览： 2025年7月10日
+>>生产快速发布： 2025年8月14日
+>>为每个人生产： 2025年10月16日
+
 
 现在，当您将分组应用于表视图时，向表中添加记录将自动填充与您将记录添加到的分组相关联的字段。
 
@@ -62,8 +71,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 预览： 2025年7月9日
->* 适用于所有人的生产： 2025年7月17日
+>预览： 2025年7月9日
+>>适用于所有人的生产： 2025年7月17日
 
 您现在可以从记录类型页面上的同一按钮共享视图和记录类型。 在此增强功能之前，您只能通过记录类型页面上的“共享”按钮共享记录类型，以及从视图选项卡共享视图。
 
@@ -109,7 +118,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 * 我们已为您共享请求表单的用户删除了“管理”和“贡献”选项。 现在，添加的用户只能提交表单。
 * 启用创建公共链接选项后，公共共享选项卡现在显示链接和过期日期字段。
 
-有关详细信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)。
+有关详细信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)。
 
 ## 展开和折叠表格视图中的所有分组
 
@@ -327,7 +336,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >[!NOTE]
 >
 >此更改将对具有系统管理员和标准许可证的所有新用户和现有用户可见。
->&#x200B;>分配到布局模板的现有用户将继续根据布局模板中定义的设置查看所有内容。
+>>分配到布局模板的现有用户将继续根据布局模板中定义的设置查看所有内容。
 
 有关信息，请参阅[Adobe Workfront规划概述](/help/quicksilver/planning/access/access-overview.md)。
 

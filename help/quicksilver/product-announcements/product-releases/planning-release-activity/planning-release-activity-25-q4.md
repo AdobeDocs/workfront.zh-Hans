@@ -6,7 +6,8 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 3c61d147d3f3a9851645f21ec1ee1d5ab9b445d8
+exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
+source-git-commit: 8300595f63fab4f4ef6f00c7b8ff8b06120db2cc
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -23,9 +24,12 @@ ht-degree: 0%
 
 ## 用于显示记录审批信息的新字段
 
-预览： 2025年7月17日
-快速发布生产： 2025年8月14日
-全部生产： 2025年10月16日
+>[!NOTE]
+>
+>预览： 2025年7月17日
+>>快速发布生产： 2025年8月14日
+>>全部生产： 2025年10月16日
+
 
 我们引进了以下字段，用于捕获通过提交经批准的请求而创建的记录的批准信息：
 
@@ -37,9 +41,12 @@ ht-degree: 0%
 
 ## 根据应用的分组自动填充字段
 
-预览： 2025年7月10日
-生产快速发布： 2025年8月14日
-为每个人生产： 2025年10月16日
+>[!NOTE]
+>
+>预览： 2025年7月10日
+>>生产快速发布： 2025年8月14日
+>>为每个人生产： 2025年10月16日
+
 
 现在，当您将分组应用于表视图时，向表中添加记录将自动填充与您将记录添加到的分组相关联的字段。
 
@@ -61,4 +68,3 @@ To make the approval process more flexible, we've added the ability to add teams
 Previously, only individual users could be assigned as approvers. 
 
 For more information, see [Add an approval to a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).-->
-
