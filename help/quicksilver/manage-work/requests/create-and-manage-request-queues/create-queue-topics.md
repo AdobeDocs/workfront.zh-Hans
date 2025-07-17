@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: ef33a8bcdec76747434b5c5aaf62a743335fb10f
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 2%
@@ -154,18 +154,16 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>请求类型</strong> </td> 
-      <td> <p>选择此队列主题存储的请求类型。 可见选项在项目的<strong>队列详细信息</strong>选项卡上设置。 这是必填字段。 </p>
-
-   <p><b>注释</b>：
-
-   仅当在“队列详细资料”页和“队列主题”页中都选择了“请求类型”时，“类型”才会在“请求”区域显示为选择。 有关设置项目的队列详细信息区域的信息，请参阅<a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">创建请求队列</a>。 </p> <p>从以下类型中选择：</p>
-   <ul>
-   <li>错误报告</li>
-   <li>更改顺序</li>
-   <li>问题</li>
-   <li>请求</li>
-   </ul> <p>您的Workfront管理员可能已重命名其中一些选项。 </p> </td>
-   </tr> 
+      <td> <p>选择此队列主题存储的请求类型。 可见选项在项目的<strong>队列详细信息</strong>选项卡上设置。 这是必填字段。 </p> 
+       <p><b>注释</b>：</p>
+      <p>仅当在“队列详细资料”页和“队列主题”页中都选择了“请求类型”时，“类型”才会在“请求”区域显示为选择。 有关设置项目的队列详细信息区域的信息，请参阅<a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">创建请求队列</a>。 </p> <p>从以下类型中选择：</p> 
+       <ul> 
+        <li>错误报告</li> 
+        <li>更改顺序</li> 
+        <li>问题</li> 
+        <li>请求</li> 
+       </ul> <p>您的Workfront管理员可能已重命名其中一些选项。 </p> </td> 
+     </tr> 
     </tbody> 
    </table>
 
