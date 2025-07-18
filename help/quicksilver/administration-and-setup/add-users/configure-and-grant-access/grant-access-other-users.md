@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: 5113771baf269405e758307d11a392f95ee870fe
+source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '767'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td>计划</td> 
+   <td>规划</td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -67,11 +67,13 @@ ht-degree: 1%
 1. 开始创建或编辑访问级别，如[创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)中所述。
 1. 要更改拥有计划或工作许可证的用户查看其他用户配置文件的能力，请执行以下操作：
 
-   1. 单击&#x200B;**用户**&#x200B;右侧的&#x200B;**查看**&#x200B;按钮上的齿轮图标![](assets/gear-icon-settings.png)。
+   1. 单击![](assets/gear-icon-settings.png)用户&#x200B;**右侧的**&#x200B;查看&#x200B;**按钮上的齿轮图标**。
 
    1. 禁用&#x200B;**查看联系信息**，然后单击X以关闭&#x200B;**微调设置**&#x200B;框。
 
-1. 要修改具有计划许可证访问权限的用户编辑其他用户的能力，请单击&#x200B;**用户**&#x200B;右侧的&#x200B;**编辑**&#x200B;按钮上的齿轮图标![](assets/gear-icon-settings.png)，然后选择要授予的功能：
+      ![优化用户设置](assets/fine-tune-users.png)
+
+1. 要修改具有计划许可证访问权限的用户编辑其他用户的能力，请单击![](assets/gear-icon-settings.png)用户&#x200B;**右侧的**&#x200B;编辑&#x200B;**按钮上的齿轮图标**，然后选择要授予的功能：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -80,12 +82,9 @@ ht-degree: 1%
      <tr> 
       <td role="rowheader"><strong>创建</strong> </td> 
       <td> <p>允许用户创建用户。<br>默认启用此选项。</p> 
-      &lt;！—
-        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">请确保在取消这2个注释的草稿之前进行此更改。 20月29日，请求文件说这取决于调查结果。</p>
-
-       &lt;p>&lt;b>注意&lt;/b>：如果您的组织已载入Adobe Admin Console，则此项不可用。 如果需要更多信息，请咨询您的网络或IT管理员。&lt;/p>
-       —> &lt;/td>
-   </tr> 
+     <p><b>注意</b>：如果您的组织已登记到Adobe Admin Console，则此项不可用。 如果需要更多信息，请咨询您的网络或IT管理员。</p>
+        </td>  
+     </tr> 
      <tr> 
       <td role="rowheader"><strong>删除</strong> </td> 
       <td> <p> 允许用户删除他们自己创建的用户。<br>默认启用此选项。</p> <p><b>注意</b>：如果您的组织已登记到Adobe Admin Console，则此项不可用。 如果需要更多信息，请咨询您的网络或IT管理员。</p> </td> 
@@ -120,4 +119,4 @@ ht-degree: 1%
 
 ## 按许可证类型访问用户
 
-有关每个访问级别中的用户可以对用户执行哪些操作的信息，请参阅[适用于每个对象类型的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)一文中的[用户](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#users)部分。
+有关每个访问级别中的用户可以对用户执行哪些操作的信息，请参阅[适用于每个对象类型的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#users)一文中的[用户](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)部分。

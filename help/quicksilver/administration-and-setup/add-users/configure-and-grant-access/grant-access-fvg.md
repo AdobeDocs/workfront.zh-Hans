@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4fb6eefd-74dd-4941-91d4-0e5f637febf3
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 1%
@@ -37,7 +37,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td>计划</td> 
+   <td>规划</td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -51,9 +51,9 @@ ht-degree: 1%
 ## 使用自定义访问级别配置用户对筛选器、视图和分组的访问权限
 
 1. 开始创建或编辑访问级别，如[创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)中所述。
-1. 单击筛选器右侧&#x200B;**查看**&#x200B;或&#x200B;**编辑**&#x200B;按钮上的齿轮图标![](assets/gear-icon-settings.png)，然后在&#x200B;**微调设置**&#x200B;下选择要授予的功能。
+1. 单击筛选器右侧![](assets/gear-icon-settings.png)查看&#x200B;**或**&#x200B;编辑&#x200B;**按钮上的齿轮图标**，然后在&#x200B;**微调设置**&#x200B;下选择要授予的功能。
 
-   ![](assets/gear-icon-filters-dashboards-groupings.jpg)
+   ![](assets/gear-icon-filters-dashboards-groupings.png)
 
    默认情况下，拥有“计划”、“工作”、“审阅者”或“请求”许可证的用户具有完整的“查看”和“编辑”功能。 拥有外部用户许可证的用户无法访问筛选器、视图和分组。
 
@@ -80,54 +80,54 @@ Drafting out this section for now because the table is redundant since all four 
 <thead>
 <tr>
 <th> 操作 </th>
-<th> 规划器 </th>
+<th> 规划者 </th>
 <th> 员工 </th>
-<th> 查看者 </th>
+<th> 审阅者 </th>
 <th> 请求者 </th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>编辑筛选器、视图和分组</td>
-<td>✓ {\f13 }</td>
-<td>✓ {\f13 }</td>
-<td>✓ {\f13 }</td>
-<td>✓ {\f13 }</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
 </tr>
 <tr>
 <td>创建过滤器、视图和分组</td>
-<td>✓ {\f13 }</td>
-<td>✓ {\f13 }</td>
-<td>✓ {\f13 }</td>
-<td>✓ {\f13 }</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
 </tr>
 <tr>
 <td>查看筛选器、视图和分组</td>
-<td>✓ {\f13 }</td>
-<td>✓ {\f13 }</td>
-<td>✓ {\f13 }</td>
-<td>✓ {\f13 }</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
 </tr>
 <tr>
 <td>删除筛选器、视图和分组</td>
-<td>✓ {\f13 }</td>
-<td>✓ {\f13 }</td>
-<td>✓ {\f13 }</td>
-<td>✓ {\f13 }</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
 </tr>
 <tr>
 <td>共享筛选器、视图和分组</td>
-<td>✓ {\f13 }</td>
-<td>✓ {\f13 }</td>
-<td>✓ {\f13 }</td>
-<td>✓ {\f13 }</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
 </tr>
 <tr>
 <td>在系统范围内共享筛选器、视图和分组</td>
-<td>✓ {\f13 }</td>
-<td>✓ {\f13 }</td>
-<td>✓ {\f13 }</td>
-<td>✓ {\f13 }</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
 </tr>
 </tbody>
 </table>
