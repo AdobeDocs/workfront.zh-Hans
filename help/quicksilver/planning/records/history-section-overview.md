@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '658'
 ht-degree: 3%
 
 ---
 
 # “历史记录”部分概述
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
 
 {{planning-important-intro}}
 
@@ -31,8 +31,6 @@ ht-degree: 3%
 ## 访问要求
 
 +++ 展开以查看访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
 <col> 
@@ -84,21 +82,16 @@ ht-degree: 3%
   </tr> 
 <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
-   <td>   <p>查看工作区<span class="preview">和记录类型</span> </a>或更高权限 </p>  
+   <td>   <p>查看或更高权限的工作区和记录类型</a> </p>  
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p> </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>版面模板</p></td> 
-   <td> 
-   <p>在生产环境中，必须将所有用户（包括系统管理员）分配到包含Planning区域的布局模板。</p>
-   <div class="preview">
-<p> 在“预览”环境中，必须为具有轻度或参与者许可证的用户分配包含Planning的布局模板。</p>
+<tr>
+   <td role="rowheader"><p>版面模板</p></td>
+   <td> 必须为具有轻度或参与者许可证的用户分配一个包括Planning的布局模板。
+   <p>默认情况下，标准用户和系统管理员已启用Planning区域。</p></div></li></ul>
 
-<p>默认情况下，标准用户和系统管理员已启用Planning。</p></div>
-
-<p>有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">创建和管理布局模板</a>。</p>
-    </td> 
-  </tr> 
+</td>
+  </tr>
 </tbody> 
 </table>
 

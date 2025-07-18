@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,17 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-与Workfront中预定义的对象类型不同，在Adobe Workfront Planning中，您可以创建自己的对象类型。 例如，在Workfront中，已创建Program、Portfolio、Project、Task或Issue的对象类型。
+与Workfront中预定义的对象类型不同，在Adobe Workfront Planning中，您可以创建自己的对象类型。
 
-Workfront Planning对象类型称为“记录类型”，它们仅在用户创建时存在。 记录类型是Workfront Planning工作区的构建块。 有关工作区的信息，请参阅[创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md)。
+例如，在Workfront中，已创建Program、Portfolio、Project、Task或Issue的对象类型。
+
+Workfront Planning对象类型称为“记录类型”，它们仅在用户创建时存在。
+
+记录类型是Workfront Planning工作区的构建块，您必须创建所有这些记录类型才能将其与工作流和其他信息相关联。
+
+记录类型在工作区中组织。
+
+有关工作区的信息，请参阅[创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md)。
 
 ## 记录类型概述
 
@@ -32,6 +40,8 @@ Workfront Planning对象类型称为“记录类型”，它们仅在用户创�
 
    * **操作记录类型**：表示战略计划、计划或计划工作的记录类型。 例如， Campaign 、 Activity 、 Tactics 、 Opportunity都是操作记录类型。
    * **分类**：捕获有关操作记录类型的属性的记录类型。 例如，区域、地址、受众是分类。
+
+  可重命名或删除这些截面或创建更多截面。
 
 * 在自头创建的工作区中创建记录类型时，可以将记录类型放置到工作区中创建的任何部分中。
 * 在创建记录类型时，只有您和您授予工作区访问权限的用户才能查看记录类型。

@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '4607'
+source-wordcount: '5201'
 ht-degree: 1%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=zh-Hans ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -22,9 +22,9 @@ ht-degree: 1%
 
 # 创建字段
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 
 {{planning-important-intro}}
@@ -166,6 +166,8 @@ ht-degree: 1%
    * [创建日期](#created-date)
    * [上次修改者](#last-modified-by)
    * [上次修改日期](#last-modified-date)
+   * <span class="preview">[批准日期](#approved-date)</span>
+   * <span class="preview">[审批者](#approved-by)</span>
      <!--* [Object](#object-field-type)-->
 
    >[!IMPORTANT]
@@ -301,7 +303,7 @@ ht-degree: 1%
 
      从以下选项中选择：
 
-      * **24hr**：例如：18:00
+      * **24hr**：例如： 18:00
       * **12hr**：例如：下午6:00
 
 1. 单击&#x200B;**创建**。
@@ -317,7 +319,7 @@ ht-degree: 1%
 >数字字段在请求表单生成器中显示为单行文本字段类型。
 >
 >但是，字段格式将保留，并且这些字段的值将在提交请求后、记录类型和请求详细信息页面中显示为数字。
->&#x200B;>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
+>>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
 
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**数字**&#x200B;字段类型。
@@ -347,7 +349,7 @@ ht-degree: 1%
 >百分比字段在请求表单生成器中显示为单行文本字段类型。
 >
 >但是，字段格式将保留，并且这些字段的值将在提交请求后、记录类型和请求详细信息页面中显示为百分比。
->&#x200B;>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
+>>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
 
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**百分比**&#x200B;字段类型。
@@ -387,7 +389,7 @@ ht-degree: 1%
 >货币字段在请求表单生成器中显示为单行文本字段类型。
 >
 >但是，字段格式将保留，并且这些字段的值将在提交请求后、记录类型和请求详细信息页面中显示为货币。
->&#x200B;>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
+>>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**货币**&#x200B;字段类型。
 
@@ -563,7 +565,7 @@ ht-degree: 1%
 
      从以下选项中选择：
 
-      * **24hr**：例如：18:00
+      * **24hr**：例如： 18:00
       * **12hr**：例如：下午6:00
 
 1. 单击&#x200B;**创建**。
@@ -615,81 +617,77 @@ ht-degree: 1%
 
      从以下选项中选择：
 
-      * **24hr**：例如：18:00
+      * **24hr**：例如： 18:00
       * **12hr**：例如：下午6:00
 
 1. 单击&#x200B;**创建**。
 
    新的“上次修改日期 — 类型”字段作为列添加到记录类型中，其值预填充有上次修改记录的日期（或日期和时间）。
 
-<!--
-
 <div class="preview">
 
-### Approved date
+### 批准日期
 
-You can use the Approved date field type to add the date when a request was approved and it resulted in the creation of the record. This is a read-only field, and it automatically populates with the date (and optionally with the time) when the request was approved by the last approver. In this case, the approval date should coincide with the date the record was created. 
-
->[!TIP]
->
->The Approved date field populates with information only for records that were created by submitting a request form associated with approvers. 
->
->If the form is associated with more than one approver, only the date of the last approval decision is recorded in the Approved date field.
- 
-
-1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Created date** field type.
- 
-   ![Approved date field type](assets/approved-date-field-type.png)
-
-   1. Add the following information in the **New field** tab:
-
-     * **Name**: The name of the field, as it will appear in a table or the record page. 
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
-     * **Date Format**: Select from the following formats:
-
-        * **Locale**: Matches the locale of your browser.
-        * **Standard**: 05/16/2023
-        * **Long**: May 16, 2023
-        * **European**: 16/05/2023
-        * **ISO**: 2023-05-16
-     
-     * **Include a time field**: Select this option if you want to include a time stamp. This is unselected by default. 
-    
-        Select from the following options:
-        
-        * **24hr**: For example: 18:00
-        * **12hr**: For example: 6:00 PM 
-    
-1. Click **Create**.
-
-    The new Approved date-type field is added as a column to the record type and its values are prefilled with the date (or date and time) when the record request was approved, if the record was created by submitting a request associated with approvers. 
-
-### Approved by
-
-You can use the Approved by field type to add the user who last approved the request to create a record. This is a read-only field, and it automatically populates with the name of the user who approved the request to create the record.
+您可以使用批准日期字段类型添加请求获得批准并导致创建记录的日期。 此字段为只读字段，会自动使用上次批准者批准请求的日期(以及（可选）时间填充。 在这种情况下，审批日期应与创建记录的日期一致。
 
 >[!TIP]
 >
->The Approved by field populates with information only for records that were created by submitting a request form associated with approvers.
+>“批准日期”字段将仅针对通过提交与批准者关联的请求表单而创建的记录填充信息。
 >
->If the form is associated with more than one approver, the name of all approvers are recorded in the Approved date field, separated by commas.
- 
-1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Approved by** field type.
- 
-   ![Approved by field type](assets/approved-by-field-type.png)
+>如果表单与多个审批者关联，则在“审批日期”字段中仅记录上次审批决策的日期。
 
-1. Add the following information in the **New field** tab:
 
-     * **Name**: The name of the field, as it will appear in a table or the record page. 
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
-    
-1. Click **Create**.
+1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**创建日期**&#x200B;字段类型。
 
-    The new Approved by-type field is added as a column to the record type and its values are prefilled with the name of the user who last modified each record.  
+   ![批准的日期字段类型](assets/approved-date-field-type.png)
+
+   1. 在&#x200B;**新建字段**&#x200B;选项卡中添加以下信息：
+
+   * **名称**：字段的名称，它将显示在表或记录页中。
+   * **描述**：有关该字段的其他信息。 当您将鼠标悬停在表中的字段列上时，或者在记录的详细信息页面中单击字段名称旁边的信息图标时，将显示字段的描述。
+   * **日期格式**：从以下格式中选择：
+
+      * **区域设置**：与浏览器的区域设置匹配。
+      * **标准**： 05/16/2023
+      * **长**：2023年5月16日
+      * **欧洲**： 16/05/2023
+      * **ISO**： 2023-05-16
+
+   * **包含时间字段**：如果要包含时间戳，请选择此选项。 默认情况下，该选项处于未选中状态。
+
+     从以下选项中选择：
+
+      * **24hr**：例如： 18:00
+      * **12hr**：例如：下午6:00
+
+1. 单击&#x200B;**创建**。
+
+   新的“已批准”日期类型字段将作为列添加到记录类型中，如果记录是通过提交与批准者关联的请求创建的，则其值将预先填充有批准记录请求的日期（或日期和时间）。
+
+### 批准者
+
+您可以使用“批准者”字段类型添加上次批准请求的用户以创建记录。 此字段为只读字段，并且会自动使用批准创建记录的请求的用户的名称填充。
+
+>[!TIP]
+>
+>“批准者”字段将仅针对通过提交与批准者关联的请求表单创建的记录填充信息。
+>
+>如果该表单与多个批准者关联，则所有批准者的名称都将记录在批准日期字段中，并用逗号分隔。
+
+1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**由**&#x200B;批准字段类型。
+
+   ![由字段类型批准](assets/approved-by-field-type.png)
+
+1. 在&#x200B;**新建字段**&#x200B;选项卡中添加以下信息：
+
+   * **名称**：字段的名称，它将显示在表或记录页中。
+   * **描述**：有关该字段的其他信息。 当您将鼠标悬停在表中的字段列上时，或者在记录的详细信息页面中单击字段名称旁边的信息图标时，将显示字段的描述。
+
+1. 单击&#x200B;**创建**。
+
+   新的Approved by-type字段作为列添加到记录类型，其值预填充有上次修改每个记录的用户的名称。
 
 </div>
--->
-
 
 <!--
 

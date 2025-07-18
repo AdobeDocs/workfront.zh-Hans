@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1527'
 ht-degree: 5%
 
 ---
@@ -66,9 +66,9 @@ ht-degree: 5%
    </td> 
    </tr> 
   </tr> 
-  <tr> 
-   <td role="rowheader"><p>Adobe Workfront许可证*</p></td> 
-   <td><p> 标准 </p>
+    <td role="rowheader"><p>Adobe Workfront许可证*</p></td> 
+   <td><p> 用于创建和删除视图的标准</p>
+   <p>更新视图元素的参与者或更高版本</p>
    <p>Workfront计划不适用于旧版Workfront许可证</p> 
   </td> 
   </tr> 
@@ -81,6 +81,12 @@ ht-degree: 5%
    <td role="rowheader"><p>对象权限</p></td> 
    <td>   <p>管理视图的权限</p>  
    <p>查看对视图的权限以临时更改视图设置或复制它</p> </td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>版面模板</p></td>
+   <td> 必须为具有轻度或参与者许可证的用户分配一个包括Planning的布局模板。
+   <p>默认情况下，标准用户和系统管理员已启用Planning区域。</p></div></li></ul>
+</td>
   </tr>
 
 </tbody> 

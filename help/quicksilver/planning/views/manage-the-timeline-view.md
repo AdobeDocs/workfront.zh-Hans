@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '3708'
+source-wordcount: '3750'
 ht-degree: 2%
 
 ---
@@ -66,9 +66,9 @@ ht-degree: 2%
    </td> 
    </tr> 
   </tr> 
-  <tr> 
-   <td role="rowheader"><p>Adobe Workfront许可证*</p></td> 
-   <td><p> 标准 </p>
+    <td role="rowheader"><p>Adobe Workfront许可证*</p></td> 
+   <td><p> 用于创建和删除视图的标准</p>
+   <p>更新视图元素的参与者或更高版本</p>
    <p>Workfront计划不适用于旧版Workfront许可证</p> 
   </td> 
   </tr> 
@@ -81,7 +81,13 @@ ht-degree: 2%
    <td role="rowheader"><p>对象权限</p></td> 
    <td>   <p>管理视图的权限</p>  
    <p>查看对视图的权限以临时更改视图设置或复制它</p> </td> 
-  </tr>  
+  </tr> 
+<tr>
+   <td role="rowheader"><p>版面模板</p></td>
+   <td> 必须为具有轻度或参与者许可证的用户分配一个包括Planning的布局模板。
+   <p>默认情况下，标准用户和系统管理员已启用Planning区域。</p></div></li></ul>
+</td>
+  </tr>
 </tbody> 
 </table>
 
@@ -145,7 +151,7 @@ ht-degree: 2%
    >在“设置”区域中设置自定义季度后，时间线视图显示自定义季度，而不是传统季度。
    >有关信息，请参阅[启用自定义季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
-1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”**&#x200B;**，然后要求您的Workfront管理员设置自定义季度。
+1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”****，然后要求您的Workfront管理员设置自定义季度。
 
    >[!TIP]
    >

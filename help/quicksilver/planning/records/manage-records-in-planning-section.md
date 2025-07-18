@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1734'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 # 管理来自Workfront对象的记录连接
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
 
 {{planning-important-intro}}
 
@@ -32,8 +32,6 @@ ht-degree: 1%
 ## 访问要求
 
 +++ 展开以查看访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto">
  <col>
@@ -72,8 +70,7 @@ ht-degree: 1%
 <p>贵组织的Workfront实例必须载入Adobe Unified Experience才能访问Workfront Planning。</p>
 <p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p>
    </td>
-
-</tr>
+  </tr>
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront许可证*</p></td>
@@ -94,17 +91,11 @@ ht-degree: 1%
    <p>在Workfront中，查看项目、项目组合或项目群的权限或更高的权限</a> </p> 
    <p>在Workfront规划中：
    <ul><li>
-   查看工作区<span class="preview">和记录类型</span>的权限以查看任何连接的记录 </li>
+   查看对工作区和记录类型的权限以查看任何连接的记录 </li>
    或
-   <li> 向工作区<span class="preview">和记录类型</span>提供或更高权限以连接或断开记录</a></li></ul> </p>  
+   <li> 为工作区分配或更高权限以及记录类型以连接或断开记录</a></li></ul> </p>  
    <p>系统管理员有权访问所有Workfront Planning工作区，包括他们未创建的工作区</p> 
   </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>版面模板</p></td>
-   <td> <p>在生产环境中，必须将所有用户（包括系统管理员）分配到包含Planning的布局模板。</p>
-<p><span class="preview">在“预览”环境中，标准用户和系统管理员默认启用Planning。</span></p>  </p>  
-</td>
   </tr>
  </tbody>
 </table>
@@ -168,9 +159,9 @@ ht-degree: 1%
       * 在Workfront Planning中显示的已连接记录字段的名称。
    * 记录显示在各自的工作区和记录类型下。
 
-   项目![&#128279;](assets/planning-section-on-project.png)的计划部分
+   项目![的](assets/planning-section-on-project.png)计划部分
 
-1. （可选）单击“显示所有连接”**&#x200B;**&#x200B;可显示所有连接的记录类型，包括未连接记录的记录类型。 默认情况下，不显示没有连接记录的记录类型。
+1. （可选）单击“显示所有连接”****&#x200B;可显示所有连接的记录类型，包括未连接记录的记录类型。 默认情况下，不显示没有连接记录的记录类型。
 1. 单击记录卡以显示有关记录的更多信息。 此时将显示记录预览框。
 1. （可选）开始修改记录预览框中的字段。 您的更改会自动保存。
 1. （可选）单击预览框右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开详细信息](assets/open-details-in-a-new-tab-icon.png)以打开记录的详细信息页面。 此时将在Workfront Planning中打开记录的详细信息页面。

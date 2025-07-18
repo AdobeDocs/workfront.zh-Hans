@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '444'
 ht-degree: 1%
 
 ---
@@ -29,8 +29,6 @@ ht-degree: 1%
 ## 访问要求
 
 +++ 展开以查看访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
 <col> 
@@ -86,10 +84,12 @@ ht-degree: 1%
    <td>   <p>查看工作区或更高权限</a> </p>  
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>  </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>版面模板</p></td> 
-   <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> </td> 
-  </tr> 
+<tr>
+   <td role="rowheader"><p>版面模板</p></td>
+   <td> 必须为具有轻度或参与者许可证的用户分配一个包括Planning的布局模板。
+   <p>默认情况下，标准用户和系统管理员已启用Planning区域。</p></div></li></ul>
+</td>
+  </tr>
 </tbody> 
 </table>
 

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '3414'
+source-wordcount: '3306'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # 连接记录
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  -->
 
 {{planning-important-intro}}
 
@@ -59,8 +59,6 @@ ht-degree: 1%
 ## 访问要求
 
 +++ 展开以查看访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
 <col> 
@@ -118,15 +116,10 @@ ht-degree: 1%
   </tr> 
 <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
-   <td>   <p>向工作区<span class="preview">和记录类型</span>提供或更高权限以连接记录 </p>  
-   <p>查看工作区<span class="preview">和记录类型</span>的权限或更高的权限，以便查看与其他应用程序中的对象和字段的所有连接，无论您对其他应用程序的访问权限如何。 </p>
+   <td>   <p>向工作区提供或更高权限以及连接记录的记录类型 </p>  
+   <p>查看或更高的工作区权限并记录类型，以查看与其他应用程序中的对象和字段的所有连接，无论您对其他应用程序的访问权限如何。 </p>
    <p>查看要从Workfront或Experience Manager Assets链接的对象或授予对这些对象的更高权限。 </p>
    <p>系统管理员有权访问所有工作区，包括他们未创建的工作区。</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>版面模板</p></td> 
-   <td> <p>在生产环境中，必须将所有用户（包括系统管理员）分配到包含Planning的布局模板。</p>
-<p><span class="preview">在“预览”环境中，标准用户和系统管理员默认启用Planning。</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -158,7 +151,7 @@ ht-degree: 1%
 * 表视图中的已连接记录字段。
 * 记录的预览框或页面（在“详细信息”选项卡上的已连接记录字段中）。
 * 记录在“连接”选项卡上的预览框或页面。
-* <span class="preview">连接的记录页面</span>选项卡上的记录页面。
+* “连接的记录”页面选项卡上的记录页面。
 
 ### 从记录的表视图或详细信息区域连接Workfront Planning记录
 
@@ -344,7 +337,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->当Workfront管理员通过Experience Manager Assets与Workfront之间的集成配置元数据映射时，可从Adobe Experience Manager Assets访问Planning记录及其字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+>当Workfront管理员通过Experience Manager Assets与Workfront之间的集成配置元数据映射时，可从Adobe Experience Manager Assets访问Planning记录及其字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
 要将记录与Experience Manager资源连接，请执行以下操作：
 
@@ -441,7 +434,7 @@ ht-degree: 1%
    >
    >    默认情况下，仅显示已连接单个记录的已连接记录。
 
-1. （可选）单击“显示所有连接”**&#x200B;**&#x200B;可显示所有连接的记录类型，包括未连接记录的记录类型。
+1. （可选）单击“显示所有连接”****&#x200B;可显示所有连接的记录类型，包括未连接记录的记录类型。
 
 1. （可选）单击截面左侧的向下箭头以将其折叠。
 
@@ -461,8 +454,7 @@ ht-degree: 1%
 
    该记录会立即与Workfront Planning的所有区域或其可能显示为已连接的其他应用程序断开连接。 所有查找字段值也会被删除。
 
-### 从记录的<span class="preview">连接的记录页面</span>连接记录
-
+### 从记录的“连接的记录”页面连接记录
 
 1. 转到已连接到其他Planning记录类型或来自其他应用程序的对象类型的任何记录类型视图。
 1. 按照前面各小节中描述的步骤，在视图中查找要与其他记录或对象连接的记录。
@@ -470,7 +462,7 @@ ht-degree: 1%
 
    预览页面将打开。
 1. 单击&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开详细信息](assets/open-details-in-a-new-tab-icon.png)以打开记录的页面。
-1. 单击记录页面中现有的<span class="preview">连接的记录页面</span>选项卡。 您必须首先创建<span class="preview">连接的记录页</span>。 有关信息，请参阅[管理记录页布局](/help/quicksilver/planning/records/manage-the-record-page.md)。
+1. 在记录页面中单击现有的“连接的记录”页面选项卡。 必须首先创建“连接的记录”页面。 有关信息，请参阅[管理记录页布局](/help/quicksilver/planning/records/manage-the-record-page.md)。
 
    在表格视图中将显示连接的记录类型页面。
 

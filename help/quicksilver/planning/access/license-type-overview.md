@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -16,15 +16,15 @@ ht-degree: 0%
 
 # 使用Adobe Workfront Planning时的许可证类型概述
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
 您的Adobe Workfront许可证类型可与Adobe Workfront Planning权限配合使用，以提供以下访问权限：
 
-* 查看、参与或管理工作区<span class="preview">或记录类型</span>
+* 查看、参与或管理工作区或记录类型
 * 查看或管理视图。
 
 有关Workfront Planning中对象权限的信息，请参阅[Adobe Workfront Planning中的权限共享概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
@@ -39,8 +39,6 @@ ht-degree: 0%
 
 除了用户拥有的工作区权限之外，还必须向用户授予单独的视图权限，以便用户能够访问和管理视图。
 
-<div class="preview">
-
 使用记录类型权限时，请考虑以下事项：
 
 * 用户自动从工作区继承记录类型权限。
@@ -48,12 +46,9 @@ ht-degree: 0%
 * 用户对于记录类型的权限不能超过其对于该记录类型所属的工作区的权限。
 * 删除用户对记录类型的权限不会删除他们对工作区中所有记录类型的查看访问权限，因为这不会删除他们对工作区的权限。
 
-</div>
-
-
 | Adobe Workfront许可证类型* | Adobe Workfront Planning中允许的最高权限 |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 标准 | <p>用户可以管理工作区<span class="preview">、记录类型、</span>和视图。 他们可以创建、编辑或删除工作区、记录类型、记录、字段和视图。</p> <br> <p>系统管理员对所有工作区具有管理权限，包括他们未创建的工作区。</p> |
+| 标准 | <p>用户可以管理工作区、记录类型和视图。 他们可以创建、编辑或删除工作区、记录类型、记录、字段和视图。</p> <br> <p>系统管理员对所有工作区具有管理权限，包括他们未创建的工作区。</p> |
 | 浅色或参与者 | <p>用户可以查看与其共享的工作区，以及这些工作区的记录类型、记录和字段。</p> <br> <p>用户可以查看与其共享的视图，但不能创建自己的视图。 </p><br> <p>用户无法创建、编辑或删除工作区、记录类型、记录或字段。</p> |
 
 *Workfront Planning不适用于旧版Workfront许可证。
@@ -62,9 +57,9 @@ ht-degree: 0%
 
 ### 许可证类型以及工作区和记录类型的权限
 
-只有拥有标准许可证的用户才能对工作区<span class="preview">和记录类型</span>具有Contribute或Manage权限。 工作区<span class="preview">和记录类型</span>的Contribute和Manage权限也传输到记录和字段。
+只有具有Standard许可证的用户才能对工作区和记录类型具有Contribute或Manage权限。 工作区和记录类型的Contribute和Manage权限也会传输到记录和字段。
 
-具有所有其他许可证类型的用户可以拥有对其共享的工作区<span class="preview">和记录类型</span>及其记录和字段的查看权限。
+具有所有其他许可证类型的用户均可以拥有对共享给他们的工作区和记录类型及其记录和字段的查看权限。
 
 系统管理员可以查看系统中的所有工作区，包括他们未创建的工作区。
 

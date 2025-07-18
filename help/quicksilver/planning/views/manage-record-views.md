@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1110'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # 管理记录视图
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -53,8 +53,6 @@ ht-degree: 1%
 ## 访问要求
 
 +++ 展开以查看访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
 <col> 
@@ -95,7 +93,8 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证*</p></td> 
-   <td><p> 标准 </p>
+   <td><p> 用于创建和删除视图的标准</p>
+   <p>更新视图元素的参与者或更高版本</p>
    <p>Workfront计划不适用于旧版Workfront许可证</p> 
   </td> 
   </tr> 
@@ -109,11 +108,12 @@ ht-degree: 1%
    <td>   <p>管理视图的权限</p>  
    <p>查看对视图的权限以临时更改视图设置或复制它</p> </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>版面模板</p></td> 
-   <td> <p>在生产环境中，必须将所有用户（包括系统管理员）分配到包含Planning的布局模板。</p>
-<p><span class="preview">在“预览”环境中，标准用户和系统管理员默认启用Planning。</span></p></td> 
-  </tr> 
+<tr>
+   <td role="rowheader"><p>版面模板</p></td>
+   <td> 必须为具有轻度或参与者许可证的用户分配一个包括Planning的布局模板。
+   <p>默认情况下，标准用户和系统管理员已启用Planning区域。</p></div></li></ul>
+</td>
+  </tr>
 </tbody> 
 </table>
 
@@ -160,7 +160,7 @@ ht-degree: 1%
 | 显示日历中的记录 |           |              | ✓ |
 | 组记录 | ✓ | ✓ |
 | 排序记录 | ✓ |              |
-| <span class="preview">颜色代码记录</span> | <span class="preview">✓</span> | ✓ | ✓ |
+| 颜色代码记录 | ✓ | ✓ | ✓ |
 | 颜色代码分组 |           | ✓ |
 | 搜索特定记录 | ✓ | ✓ |
 | 与他人共享视图 | ✓ | ✓ | ✓ |
@@ -168,7 +168,7 @@ ht-degree: 1%
 | 按年份和季度显示记录 |           | ✓ |    |
 | 按月显示记录 |           | ✓ | ✓ |
 | 按周显示记录 |           |               | ✓ |
-| <span class="preview">从视图导出信息</span> | <span class="preview">✓</span> |               |    |
+| 从视图中导出信息 | ✓ |               |    |
 
 
 ## 创建或编辑视图 {#create-or-edit-views}

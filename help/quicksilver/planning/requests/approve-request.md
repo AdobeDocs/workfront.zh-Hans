@@ -3,12 +3,12 @@ title: 在Adobe Workfront Planning中批准请求
 description: 当用户将请求提交到与Adobe Workfront Planning中的批准关联的请求表单时，批准者会收到有关未决批准的通知，并收到电子邮件。 他们必须先批准请求，Workfront Planning才能创建对象。
 feature: Workfront Planning
 role: User, Admin
-author: Alina
+author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '948'
 ht-degree: 1%
 
 ---
@@ -45,13 +45,11 @@ ht-degree: 1%
    * **已完成**：如果所有批准者都批准该请求对象，则其状态将更改为&#x200B;**已完成**，或者该请求不需要批准。
    * **已拒绝**：如果任何审批者拒绝请求对象，则状态将变为&#x200B;**已拒绝**。 不创建记录，必须提交新请求才能创建记录。
 
-<!--* <span class="preview">You can display approval information on a record created by submitting a request form in the Approved by and Approved date fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).</span>-->
+* <span class="preview">您可以通过在“批准者”和“批准日期”字段中提交请求表单，来显示所创建记录的批准信息。 有关信息，请参阅[创建字段](/help/quicksilver/planning/fields/create-fields.md)。</span>
 
 ## 访问要求
 
 +++ 展开以查看访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto">
  <col>
@@ -107,18 +105,12 @@ ht-degree: 1%
    <td role="rowheader"><p>对象权限</p></td>
    <td>
    <ul>
-   <li><p>管理工作区<span class="preview">和记录类型</span>的权限 </p></li>
+   <li><p>管理对工作区和记录类型的权限 </p></li>
     <li><p>系统管理员可以管理他们未创建的工作区。 </p></li>
     </ul>
    <p>有关共享Workfront Planning对象权限的信息，请参阅  
    <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">在Adobe Workfront Planning中共享权限概述</a> 
   </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>版面模板</p></td>
-   <td> <p>在生产环境中，必须将所有用户（包括系统管理员）分配到包含Planning的布局模板。</p>
-<p><span class="preview">在“预览”环境中，标准用户和系统管理员默认启用Planning。</span></p> 
-</td>
   </tr>
  </tbody>
 </table>

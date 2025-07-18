@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '658'
 ht-degree: 1%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 1%
 
 # 共享记录
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  -->
 
 {{planning-important-intro}}
 
@@ -34,25 +34,19 @@ ht-degree: 1%
 
 * 在记录类型的表视图中查看记录时，复制指向记录页面的链接。
 
-* 通过共享工作区<span class="preview">和记录类型，您可以与其他用户共享工作区中的所有记录。</span>
+* 通过共享工作区和记录类型，您可以与其他用户共享工作区中的所有记录。
 
   有关更多信息，请参阅以下文章：
 
    * [共享工作区](/help/quicksilver/planning/access/share-workspaces.md)
 
-  <div class="preview">
-
    * [共享记录类型](/help/quicksilver/planning/access/share-record-types.md)
-
-  </div>
 
 本文介绍了如何从记录类型的表视图中复制指向记录页面的链接。
 
 ## 访问要求
 
 +++ 展开以查看访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
 <col> 
@@ -104,20 +98,16 @@ ht-degree: 1%
   </tr> 
 <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
-   <td>  <p>查看工作区<span class="preview">和记录要共享的类型</span>的权限或更高的权限   使用链接的记录 </p>
-   <p>管理工作区<span class="preview">和记录类型</span>的权限以共享工作区中的记录 </p>
+   <td>  <p>查看或更高权限的工作区并记录共享类型   使用链接的记录 </p>
+   <p>管理工作区的权限和记录类型以共享工作区中的记录 </p>
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>  </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>版面模板</p></td> 
-   <td> <p>在生产环境中，必须将所有用户（包括系统管理员）分配到包含Planning区域的布局模板。</p>
-   <div class="preview">
-<p> 在“预览”环境中，必须为具有轻度或参与者许可证的用户分配包含Planning的布局模板。</p>
-
-<p>默认情况下，标准用户和系统管理员已启用Planning。</p></div>
-
-<p>有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">创建和管理布局模板</a>。</p></td> 
-  </tr> 
+<tr>
+   <td role="rowheader"><p>版面模板</p></td>
+   <td> 必须为具有轻度或参与者许可证的用户分配一个包括Planning的布局模板。
+   <p>默认情况下，标准用户和系统管理员已启用Planning区域。</p></div></li></ul>
+</td>
+  </tr>
 </tbody> 
 </table>
 
@@ -160,18 +150,15 @@ ht-degree: 1%
 
 与他人共享工作区时，您可以共享工作区中的所有记录。
 
+记录类型和记录从工作区继承相同的权限。
+
 只有对工作区具有管理权限的用户才能与他人共享该工作区。
 
 有关详细信息，请参阅[共享工作区](/help/quicksilver/planning/access/share-workspaces.md)。
 
-
-<div class="preview">
-
 ## 通过共享记录类型共享记录类型中的所有记录
 
-在生产环境中，记录从工作区继承权限。
-
-在“预览”环境中，记录从记录类型继承权限。
+记录从记录类型继承权限。
 
 默认情况下，记录类型从工作区继承权限。
 
@@ -184,4 +171,3 @@ ht-degree: 1%
 
 有关详细信息，请参阅[共享记录类型](/help/quicksilver/planning/access/share-record-types.md)。
 
-</div>

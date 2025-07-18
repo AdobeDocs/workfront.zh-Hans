@@ -3,12 +3,12 @@ title: 提交Adobe Workfront规划请求
 description: 当有人从Adobe Workfront Planning中的记录类型页面与您共享指向请求表单的链接后，您可以添加请求以创建与请求表单关联的记录类型的记录。
 feature: Workfront Planning
 role: User, Admin
-author: Alina
+author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '2091'
+source-wordcount: '2019'
 ht-degree: 0%
 
 ---
@@ -41,8 +41,6 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 ## 访问要求
 
 +++ 展开以查看访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto">
  <col>
@@ -96,20 +94,8 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 <tr>
    <td role="rowheader"><p>对象权限</p></td>
    <td>
-   <p>查看工作区<span class="preview">和记录类型</span>或更高权限(如果您是Workfront用户)</p> 
+   <p>查看或更高权限的工作区和记录类型(如果您是Workfront用户)</p> 
   </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>版面模板</p></td>
-   <td> <p>要访问Workfront中的Planning区域，您必须具有以下布局模板配置： </p>
-<ul>
-<li><p>在生产环境中，必须将所有用户（包括系统管理员）分配到包含Planning的布局模板。</p></li>
-<li><div class="preview">
-<p> 在“预览”环境中，必须为具有轻度或参与者许可证的用户分配包含Planning的布局模板。
-   <p>默认情况下，标准用户和系统管理员已启用Planning区域。</p></div></li></ul>
-
-<p> 但是，向Workfront Planning提交请求不需要访问“规划”区域。 </p>  
-</td>
   </tr>
  </tbody>
 </table>
@@ -162,8 +148,8 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 
 {{step1-to-requests}}
 
-1. 启用屏幕右上角的&#x200B;**切换到新体验**&#x200B;设置。
-启用此设置可使Workfront计划请求表单在Workfront的&#x200B;**请求**&#x200B;区域中可用。
+1. 启用屏幕右上角的&#x200B;**切换到新体验**设置。
+启用此设置可使Workfront计划请求表单在Workfront的**请求**&#x200B;区域中可用。
 
    >[!TIP]
    >
@@ -222,11 +208,9 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 
 1. （可选）在确认消息中单击&#x200B;**查看您的请求**&#x200B;以打开该请求，或单击&#x200B;**X**&#x200B;图标以关闭确认。
 
-1. （可选）单击&#x200B;**请求**&#x200B;区域中的&#x200B;**计划**&#x200B;选项卡以查看您的请求。
+1. （可选）单击&#x200B;**请求**&#x200B;区域中的&#x200B;**计划**选项卡以查看您的请求。
 提交至Planning请求表单的所有您有权查看的请求都会显示在列表中。
 1. （可选）执行以下任一操作：
-
-   <div class="preview">
 
    * 单击&#x200B;**筛选器**，开始为要在“规划”选项卡中查看的请求添加条件。
 
@@ -241,7 +225,7 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
       * **状态**：请求的状态。
       * **输入者**：添加请求的用户的名称。 如果请求是由Workfront之外的人员添加的，则&#x200B;**输入者**&#x200B;字段显示`N/A`。
 
-        您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的筛选器。
+        您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**加入的筛选器。
 在添加筛选条件时，将自动筛选请求列表。
 
    * 单击&#x200B;**列**&#x200B;并隐藏、显示或重新排列请求列表中的列。
@@ -260,8 +244,6 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
    此时将打开请求详细信息页面。
 
    ![请求详细信息页面](assets/request-details-page.png)
-
-   </div>
 
 
 1. （视情况而定）如果请求表单未与批准关联，或者请求已获批准，请单击请求的名称，然后单击&#x200B;**记录**&#x200B;字段中的记录名称。
@@ -313,7 +295,7 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
      >
      >仅当贵组织的Workfront实例载入到Adobe Unified Experience时，电子邮件和应用程序内通知才可见。
 
-   <!--* <span class="preview"> After the request was approved and the record was created, the Approved by and Approved date fields display information about the approval on the record.</span>-->
+   * <span class="preview">在请求获得批准并创建记录后，“批准者”和“已批准”日期字段显示有关记录上批准的信息。</span>
 
 1. （可选）单击&#x200B;**查看您的请求**&#x200B;以在Workfront中打开该请求。
 

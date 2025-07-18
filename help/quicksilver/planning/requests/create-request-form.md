@@ -3,12 +3,12 @@ title: 在Adobe Workfront Planning中创建和管理申请表单
 description: 在Adobe Workfront Planning区域中选择记录类型后，您可以创建请求表单并将其与该记录类型关联。 然后，您可以与其他内部或外部用户共享指向该页面的链接。 具有表单链接的用户可以填写表单上的字段值，通过提交表单，他们可以为与表单关联的记录类型添加新记录。
 feature: Workfront Planning
 role: User, Admin
-author: Alina
+author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2242'
 ht-degree: 1%
 
 ---
@@ -35,8 +35,6 @@ ht-degree: 1%
 ## 访问要求
 
 +++ 展开以查看访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto">
  <col>
@@ -93,18 +91,12 @@ ht-degree: 1%
    <td role="rowheader"><p>对象权限</p></td>
    <td>
    <ul>
-   <li><p>管理工作区<span class="preview">和记录类型</span>的权限 </p></li>
+   <li><p>管理对工作区和记录类型的权限</p></li>
     <li><p>系统管理员可以管理他们未创建的工作区。 </p></li>
     </ul>
    <p>有关共享Workfront Planning对象权限的信息，请参阅  
    <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">在Adobe Workfront Planning中共享权限概述</a> 
   </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>版面模板</p></td>
-   <td> <p>在生产环境中，必须将所有用户（包括系统管理员）分配到包含Planning的布局模板。</p>
-<p><span class="preview">在“预览”环境中，标准用户和系统管理员默认启用Planning。</span></p>  
-</td>
   </tr>
  </tbody>
 </table>
@@ -124,8 +116,8 @@ ht-degree: 1%
 
    * 您不能向请求表单添加以下类型的字段：
 
-      * 创建者和上次修改者： <!--Created by, Last modified by, <span class="preview">Approved by</span>-->
-      * 创建日期和上次修改日期<!--Created date, Last modified date, <span class="preview">Approved date</span>-->
+      * 创建者，上次修改者，<span class="preview">批准者</span>
+      * 创建日期，上次修改日期，<span class="preview">批准日期</span>
       * 公式
       * Workfront对象的查找字段
       * Workfront Planning已连接记录的查找字段
@@ -229,6 +221,7 @@ ht-degree: 1%
      有关将审批添加到请求表单的详细信息，请参阅[将审批添加到请求表单](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
 
 1. （可选）单击标题中表单名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**编辑**&#x200B;以更新表单名称。
+
 1. 单击&#x200B;**发布**&#x200B;发布表单并获取其唯一链接。
 
    出现以下情况：
@@ -236,47 +229,11 @@ ht-degree: 1%
    * **发布**&#x200B;按钮已删除。
    * **取消发布**&#x200B;按钮已添加到表单中。 单击此按钮将阻止访问表单。
    * **共享**&#x200B;按钮已添加到表单。
+   * 该表单将在Workfront主菜单的请求区域中可用。
 
 1. 单击&#x200B;**共享**&#x200B;以与他人共享表单。
 
-   ![共享请求表单的框](assets/share-box-for-request-form.png)
-
-1. （视情况而定）在生产环境中，从以下选项中进行选择，以指示哪些类型的用户可以访问此表单：
-
-   * 任何对工作区具有查看或更高访问权限的人员
-   * 任何对工作区具有贡献或更高访问权限的人员
-   * 任何知道链接的人
-
-   >[!WARNING]
-   >
-   >* 当您选择&#x200B;**具有链接**&#x200B;的任何人时，任何人都可以访问表单并提交新记录，甚至包括您组织外没有Workfront帐户的人员。
-   >
-   >* 不能公开共享包含以下字段类型的表单：
-   >
-   >     * Workfront或AEM Assets连接
-   >     * 人员
-   >
-
-1. （视情况而定）在生产环境中，如果您在上一步中选择了&#x200B;**任何具有链接**&#x200B;的人，请从可用日历中选择&#x200B;**链接到期日期**。
-
-   链接过期后，用户会收到错误消息，您必须更新链接日期并生成要共享的新链接，之后用户才能再次访问表单。
-
-   您可以选择自当前日期起180天内的将来日期。
-
-   >[!TIP]
-   >
-   >共享日期过期后，请求表单在Workfront的请求区域中不再可用，并且与其他用户共享的链接也不再可访问。
-
-1. （可选且有条件）在生产环境中，单击&#x200B;**保存并复制链接**&#x200B;以保存表单的共享详细信息。 如果表单之前已保存，请单击&#x200B;**复制链接**。
-
-   表单共享选项已保存，并且链接已复制到您的剪贴板。 您现在可以与其他人共享。
-
-   有关使用请求表单链接创建记录的信息，请参阅[提交Adobe Workfront Planning请求](/help/quicksilver/planning/requests/submit-requests.md)。
-
-1. <span class="preview">（有条件）在预览环境中，要与用户共享，请选择“内部共享”选项卡，搜索用户名，然后当用户名出现在列表中时将其选定。</span>
-1. <span class="preview">（有条件）在预览环境中，要创建公共链接，请选择公共共享选项卡，然后切换创建公共链接选项。 然后，您可以在此处复制链接，或设置链接到期日期。</span>
-1. 单击&#x200B;**表单**&#x200B;选项卡右下角的&#x200B;**保存**&#x200B;以保存表单。
-
+   有关共享请求表单的信息，请参阅本文中的[共享请求表单](#share-a-request-form)部分
 1. 单击标题中表单名称左侧的向左箭头以关闭表单。
 
    将打开&#x200B;**请求表单**&#x200B;表格视图，并将表单添加到其中。
@@ -291,7 +248,6 @@ ht-degree: 1%
 
    来自请求表单列表的请求表单上的![更多菜单](assets/more-menu-on-request-form-from-request-forms-list.png)
 
-
 1. 单击标题中&#x200B;**请求表单**&#x200B;左侧的左箭头以关闭请求表单表。
 
    此时将打开记录类型页面。
@@ -302,3 +258,54 @@ ht-degree: 1%
 
 1. （可选）转到Workfront中的&#x200B;**请求**&#x200B;区域并找到共享表单以提交请求。 有关信息，请参阅[提交Adobe Workfront计划请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。
 
+## 共享请求表单
+
+1. 按照本文中[为记录类型](#create-a-request-form-for-a-record-type)创建请求表单一节中的说明创建请求表单。
+1. 单击记录类型页面上请求表单名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)。
+1. 单击&#x200B;**共享**&#x200B;以与他人共享表单。
+
+1. 要在内部共享表单，请选择&#x200B;**内部共享**&#x200B;选项卡，在&#x200B;**授予权限以提交此表单**&#x200B;字段中搜索用户、团队、工作角色、组或公司的名称，然后当表单出现在列表中时将其选定。 默认情况下，将为每个实体选择&#x200B;**提交**&#x200B;权限。
+
+   ![共享请求表单的框](assets/share-box-for-request-form.png)
+
+1. （可选）单击实体名称后面的下拉菜单，然后单击&#x200B;**删除**&#x200B;以从列表中删除它们并停止与它们共享表单。
+
+1. 在可以通过此表单&#x200B;**提交请求的**&#x200B;部分中，从以下选项中进行选择，以指示哪些类型的用户可以访问此表单：
+
+   * 仅受邀人员可访问
+   * 任何对工作区具有查看或更高访问权限的人员
+   * 任何对工作区具有贡献或更高访问权限的人员
+1. （可选）单击&#x200B;**复制链接**&#x200B;以将指向表单的链接与具有此类访问权限的用户共享。 该链接将会复制到您的剪贴板中。
+1. 要公开共享表单，请选择&#x200B;**公共共享**&#x200B;选项卡，然后启用&#x200B;**创建公共链接**&#x200B;设置。
+
+   ![公开共享请求表单](assets/share-request-form-publicly-tab.png)
+
+   >[!WARNING]
+   >
+   >* 启用&#x200B;**创建公共链接**&#x200B;设置后，任何人都可以访问表单并提交新记录，甚至组织外没有Workfront帐户的人也可访问。
+   >
+   >* 不能公开共享包含以下字段类型的表单：
+   >
+   >     * Workfront或AEM Assets连接
+   >     * 人员
+   >
+
+1. 选择&#x200B;**链接到期日期**。
+
+   您可以选择自当前日期起180天内的将来日期。
+
+   >[!TIP]
+   >
+   >共享日期过期后，请求表单在Workfront的请求区域中不再可用，并且与其他用户共享的链接也不再可访问。
+
+   链接过期后，用户会收到错误消息，您必须更新链接日期并生成要共享的新链接，之后用户才能再次访问表单。
+
+
+1. （可选且有条件）单击&#x200B;**保存**&#x200B;以保存表单的共享详细信息。
+1. （视情况而定）如果之前已保存表单，请单击&#x200B;**复制链接**。
+
+   表单共享选项已保存，并且链接已复制到您的剪贴板。 您现在可以与其他人共享。
+
+   有关使用请求表单链接创建记录的信息，请参阅[提交Adobe Workfront Planning请求](/help/quicksilver/planning/requests/submit-requests.md)。
+
+1. 单击&#x200B;**表单**&#x200B;选项卡右下角的&#x200B;**保存**&#x200B;以保存表单。

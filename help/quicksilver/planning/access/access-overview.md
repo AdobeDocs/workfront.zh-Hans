@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '711'
 ht-degree: 2%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 2%
 
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 >[!IMPORTANT]
 >
@@ -104,8 +104,8 @@ ht-degree: 2%
    <td role="rowheader"><p>对象权限</p></td>
    <td>
    <ul>
-   <li><p>查看对工作区、<span class="preview">记录类型</span>以及您未创建用于访问它们及其对象的视图的更高权限。</p></li>
-   <li><p>向工作区<span class="preview">和记录类型</span>提供或更高权限，您未创建这些类型来编辑它们，创建、编辑或删除记录类型和记录。</p></li>
+   <li><p>查看您未创建的工作区、记录类型和视图的更高权限，以访问它们及其对象。</p></li>
+   <li><p>为工作区和记录类型提供或更高权限，而您未创建这些工作区和记录类型以编辑它们，并创建、编辑或删除记录类型和记录。</p></li>
    <li><p>为您未创建的视图贡献或更高权限，以便编辑、删除和共享这些视图</p>
    </li>
     <li><p>系统管理员可以管理他们未创建的工作区。 </p></li>
@@ -116,16 +116,14 @@ ht-degree: 2%
   </tr>
 <tr>
    <td role="rowheader"><p>版面模板</p></td>
-   <td> <div class="preview">
+   <td> 
 <p>默认情况下，标准用户和系统管理员已启用Planning区域。</p>
 <p> 必须为具有轻度或参与者许可证的用户分配一个布局模板，该模板包括以下区域的Planning选项：</p>
    <ul><li>主菜单</li>
    <li>项目、项目组合和程序的左侧面板</li>
    </ul>
    <p>有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">创建和管理布局模板</a>。</p>
-   </div>
-   <p><b>注释</b></p>
-   <p>在生产环境中，必须将所有用户（包括系统管理员）分配到包含Planning区域的布局模板。</p>
+
 </td>
   </tr>
  </tbody>
@@ -145,16 +143,12 @@ ht-degree: 2%
 * 项目、项目组合和项目的左侧面板
 * 固定
 
-<div class="preview">
-
 默认情况下，标准用户和系统管理员在以下区域中启用Planning区域：
 
 * 主菜单
 * 项目、项目组合或项目的左侧面板
 
-</div>
-
-要添加<span class="preview">或从Workfront实例的用户中删除</span>个Workfront Planning区域，请执行以下操作：
+要从Workfront实例的用户中添加或删除Workfront Planning区域，请执行以下操作：
 
 1. 以Workfront管理员身份登录到&#x200B;**Workfront**。
 

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '679'
 ht-degree: 1%
 
 ---
@@ -91,10 +91,14 @@ ht-degree: 1%
    <td>   <p>查看工作区或更高权限</a> </p>  
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p> </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>版面模板</p></td> 
-   <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> </td> 
-  </tr> 
+<tr>
+   <td role="rowheader"><p>版面模板</p></td>
+   <td> 必须为具有轻度或参与者许可证的用户分配一个包括Planning的布局模板。
+   <p>默认情况下，标准用户和系统管理员已启用Planning区域。</p></div></li></ul>
+
+</td>
+  </tr>
+
 </tbody> 
 </table>
 
@@ -170,7 +174,7 @@ OLD:
    记录详细信息页面将在Workfront中打开。 您可以更新记录或回复评论。
 
 1. （视情况而定）如果可用，请单击&#x200B;**查看所有通知**。 <!--check with Lilit - do non-IMS users have this button??-->
-将在Adobe Experience Cloud中打开&#x200B;**通知**&#x200B;页面。 将显示来自所有Adobe Experience Cloud应用程序的所有通知。
+将在Adobe Experience Cloud中打开**通知**&#x200B;页面。 将显示来自所有Adobe Experience Cloud应用程序的所有通知。
 
 ## 在请求和授予权限时管理电子邮件通知
 
@@ -181,7 +185,7 @@ OLD:
    记录详细信息页面将在Workfront中打开。 您可以更新记录或回复评论。
 
 1. （视情况而定）如果可用，请单击&#x200B;**查看所有通知**。
-将在Adobe Experience Cloud中打开&#x200B;**通知**&#x200B;页面。 将显示来自所有Adobe Experience Cloud应用程序的所有通知。
+将在Adobe Experience Cloud中打开**通知**&#x200B;页面。 将显示来自所有Adobe Experience Cloud应用程序的所有通知。
 
 
 有关请求、授予或拒绝视图或工作区的权限的信息，请参阅[请求视图或工作区的权限](/help/quicksilver/planning/access/request-permissions.md)。

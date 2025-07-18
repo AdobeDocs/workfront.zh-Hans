@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 718ed3efd56c532693d26cc067041bedbc71cca0
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '2059'
-ht-degree: 1%
+source-wordcount: '1973'
+ht-degree: 2%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 1%
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
 
 >[!IMPORTANT]
 >
@@ -166,14 +166,13 @@ The following features are currently available in Workfront Planning:
 
 贵组织购买Workfront Planning包后，作为Workfront管理员，您必须确保满足以下要求才能访问Workfront Planning：
 
-* 根据您使用的环境，为以下用户分配一个布局模板，该模板包含主菜单中的Planning：
+* 在主菜单中向以下用户分配一个包含Planning的布局模板：
 
-   * 在生产环境中，将模板分配给所有许可证类型的所有用户，包括系统管理员。
+   * 将布局模板分配给轻量级和Contribute用户。
 
-   * <span class="preview">在“预览”环境中，将模板分配给“轻量级”和“贡献者”用户。 默认情况下，标准用户和系统管理员已启用Planning。</span>
+     默认情况下，标准用户和系统管理员已启用Planning。
 
   有关详细信息，请参阅[使用布局模板自定义主菜单](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)和[将用户分配给布局模板](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)。
-
 
 * 为用户分配Workfront许可证和Workfront Planning权限，以便他们能够在Workfront Planning中查看或创建对象。 有关授予他人访问权限以及允许他人使用Workfront Planning的更多信息，请参阅[Adobe Planning访问概述](/help/quicksilver/planning/access/access-overview.md)。
 
@@ -325,7 +324,6 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
      ![在时间轴视图中应用分组](assets/grouping-applied-in-timeline-view.png)
 
    * **日历视图**：以日历格式显示至少有两个日期类型字段的记录。
-
      ![日历视图示例](assets/calendar-view-example.png)
 
 
@@ -397,7 +395,7 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
 
-* [适用于Workfront Fusion的Adobe Workfront规划模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：使用Adobe Workfront规划模块，可以在Workfront规划中发生事件时触发方案。 您还可以创建、读取、更新和删除记录，或对Adobe Workfront Planning帐户执行自定义API调用。
+* [适用于Workfront Fusion的Adobe Workfront规划模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：使用Adobe Workfront规划模块，可以在Workfront规划中发生事件时触发方案。 您还可以创建、读取、更新和删除记录，或对Adobe Workfront Planning帐户执行自定义API调用。
 
 * [Adobe Workfront Planning API基础知识](/help/quicksilver/planning/general/planning-api-basics.md)： Adobe Workfront Planning API的目标是通过引入通过HTTP运行的REST-ful架构，简化与Planning的生成集成。
 

@@ -1,12 +1,12 @@
 ---
 title: Adobe Workfront Planning AI助手概述
 description: 您可以使用AI助手根据当前页面上下文和记录结构生成、更新或删除记录。 用户的命令和AI执行这些命令共同工作，以确保AI所做的更改准确反映在您的环境中。
-author: Alina
+author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: a5b7683bffa6c63d7feb45e5c38404185d3f2b44
+source-git-commit: a36968bdae5756f0f8283da04a2afca83b4dd94a
 workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 0%

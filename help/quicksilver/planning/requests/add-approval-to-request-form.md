@@ -3,12 +3,12 @@ title: 在Adobe Workfront Planning中为申请表单添加批准
 description: 您可以在Adobe Workfront Planning请求表单中添加批准流程，以在创建记录之前为每个提交的请求启动批准。
 feature: Workfront Planning
 role: User, Admin
-author: Alina
+author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '754'
 ht-degree: 1%
 
 ---
@@ -36,8 +36,6 @@ ht-degree: 1%
 ## 访问要求
 
 +++ 展开以查看访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto">
  <col>
@@ -93,20 +91,15 @@ ht-degree: 1%
    <td role="rowheader"><p>对象权限</p></td>
    <td>
    <ul>
-   <li><p>管理工作区<span class="preview">和记录类型</span>的权限</p></li>
+   <li><p>管理对工作区和记录类型的权限</p></li>
     <li><p>系统管理员可以管理他们未创建的工作区。 </p></li>
     </ul>
    <p>有关共享Workfront Planning对象权限的信息，请参阅  
    <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">在Adobe Workfront Planning中共享权限概述</a> 
   </td>
   </tr>
-<tr>
-   <td role="rowheader"><p>版面模板</p></td>
-   <td> <p>在生产环境中，必须将所有用户（包括系统管理员）分配到包含Planning的布局模板。</p>
-<p><span class="preview">在“预览”环境中，标准用户和系统管理员默认启用Planning。</span></p>
-</td>
-  </tr>
- </tbody>
+
+</tbody>
 </table>
 
 *有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
@@ -116,7 +109,7 @@ ht-degree: 1%
 ## 有关将审批添加到请求表单的注意事项
 
 * 您可以向请求表单添加一个或多个批准者。 您只能添加用户作为批准者。
-  <!--* <span class="preview">You can display approval information on a record created by submitting a request form in the Approved by and Approved date fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).</span>-->
+* <span class="preview">您可以通过在“批准者”和“批准日期”字段中提交请求表单，来显示所创建记录的批准信息。 有关信息，请参阅[创建字段](/help/quicksilver/planning/fields/create-fields.md)。</span>
 * 向请求表单添加多个批准者时，所有批准者都必须接受请求，然后才能在Workfront Planning中创建记录。
 * 如果所有批准者都批准了该请求，则将为与请求表单关联的记录类型创建记录。
 * 如果至少有一个批准者拒绝了请求，并且所有其他批准者都批准了该请求，则会在Workfront中为请求区域创建一个请求，但不会为与请求表单关联的记录类型创建记录。
