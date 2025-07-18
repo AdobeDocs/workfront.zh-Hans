@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
 workflow-type: tm+mt
-source-wordcount: '2242'
+source-wordcount: '2281'
 ht-degree: 1%
 
 ---
@@ -269,6 +269,10 @@ ht-degree: 1%
    ![共享请求表单的框](assets/share-box-for-request-form.png)
 
 1. （可选）单击实体名称后面的下拉菜单，然后单击&#x200B;**删除**&#x200B;以从列表中删除它们并停止与它们共享表单。
+
+   >[!NOTE]
+   >
+   >除了团队、组、公司和职位角色之外，您只能与已添加到Adobe Admin Console的用户共享。 您无法添加仅限Workfront的用户。 有关信息，请参阅[在Adobe Admin Console中管理用户](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)。
 
 1. 在可以通过此表单&#x200B;**提交请求的**&#x200B;部分中，从以下选项中进行选择，以指示哪些类型的用户可以访问此表单：
 

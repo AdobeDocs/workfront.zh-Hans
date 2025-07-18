@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1009'
 ht-degree: 1%
 
 ---
@@ -28,10 +28,9 @@ Adobe Workfront Planning API的目标是通过引入通过HTTP运行的REST-ful�
 
 >[!NOTE]
 >
->必须将用户添加到Adobe Admin Console才能在API调用中访问。 无法使用Adobe Planning API访问仅限Workfront的用户。
+>使用Planning API时，所有与用户相关的信息将使用Adobe Identity Management System (IMS)用户ID而非Workfront用户ID返回。
 >
->有关信息，请参阅[适用于Workfront的Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
-
+>有关信息，请参阅[在Adobe Admin Console中管理用户](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)。
 
 ## Workfront规划API URL
 

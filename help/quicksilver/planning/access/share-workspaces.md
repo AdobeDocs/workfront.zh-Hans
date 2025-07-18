@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '908'
 ht-degree: 1%
 
 ---
@@ -128,6 +128,11 @@ This article describes how you can share a view with others. For information abo
 
    ![与组共享UI](assets/sharing-ui-with-groups.png)
 
+   >[!NOTE]
+   >
+   >   除了团队、组、公司和职位角色之外，您只能与已添加到Adobe Admin Console的用户共享。 您无法添加仅限Workfront的用户。 有关信息，请参阅[在Adobe Admin Console中管理用户](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)。
+
+
 1. 从下拉菜单中选择以下权限级别之一：
    * 查看
    * 贡献
@@ -147,14 +152,12 @@ This article describes how you can share a view with others. For information abo
 1. （视情况而定）如果您是工作区的管理员，则可能会收到其他用户发出的访问以下区域中的视图的请求：
 
    * 应用程序内通知
-
      ![访问请求的应用程序内通知](assets/in-app-notification-for-access-request.png)
    * 电子邮件通知
-
      ![访问请求的电子邮件通知](assets/email-notification-for-access-request.png)
 1. （视情况而定）在Workfront的通知区域中，单击应用程序内通知
 或
-在电子邮件通知中，单击&#x200B;**查看所有通知**，然后单击列表中的通知。
+在电子邮件通知中，单击**查看所有通知**，然后单击列表中的通知。
 
    显示&#x200B;**待处理访问请求**&#x200B;框。
 

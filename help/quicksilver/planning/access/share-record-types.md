@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
 workflow-type: tm+mt
-source-wordcount: '1461'
+source-wordcount: '1476'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >有权访问工作区的用户将自动获得对工作区中所有记录类型的至少“查看”权限。
->&#x200B;>共享视图不授予用户记录类型的权限。 只有共享工作区才能授予用户记录类型的权限。
+>>共享视图不授予用户记录类型的权限。 只有共享工作区才能授予用户记录类型的权限。
 >
 >* 有关在Workfront Planning中共享对象的一般信息，另请参阅[在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 >* 有关详细信息，请参阅本文中的[共享记录类型时的注意事项](#considerations-when-sharing-record-types)部分。
@@ -175,7 +175,7 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >* 除了团队、组、公司和职位角色之外，您只能与已添加到Adobe Admin Console的用户共享。
+   >* 除了团队、组、公司和职位角色之外，您只能与已添加到Adobe Admin Console的用户共享。 您无法添加仅限Workfront的用户。 有关信息，请参阅[在Adobe Admin Console中管理用户](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)。
    >* 您永远不能授予用户在记录类型上比他们在工作区上更大的权限。
    >* 您不能授予比“管理”更小的用户记录类型权限（如果他们具有工作区的管理权限）。
    >* 如果用户具有工作区的“贡献”权限，则可以授予他们较少的记录类型权限。
