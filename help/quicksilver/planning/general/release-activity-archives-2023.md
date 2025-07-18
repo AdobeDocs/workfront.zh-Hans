@@ -76,7 +76,7 @@ ht-degree: 0%
 >
 >贵组织必须购买Adobe Workfront Fusion才能与Adobe Workfront Planning功能建立连接。
 >
->有关信息，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>有关信息，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 现在，您可以使用Adobe Workfront Fusion连接到规划功能。 通过新的Fusion连接，您可以：
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 * 在规划功能中进行更改时触发方案
 
-有关详细信息，请参阅[Adobe Workfront规划模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)。
+有关详细信息，请参阅[Adobe Workfront规划模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)。
 
 ## 2023年12月11日起一周
 
@@ -132,9 +132,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->贵组织的Workfront实例必须载入Adobe业务平台或Adobe Admin Console，才能将Adobe Workfront Planning功能记录连接到Adobe Experience Manager Assets。
+>贵组织的Workfront实例必须载入到Adobe业务平台或Adobe Admin Console，才能将Adobe Workfront Planning功能记录连接到Adobe Experience Manager Assets。
 >
->如果您对加入Adobe Admin Console有任何疑问，请参阅[AdobeUnified Experience常见问题解答](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)。
+>如果您对加入Adobe Admin Console有任何疑问，请参阅[Adobe Unified Experience常见问题解答](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)。
 
 您现在可以在Adobe Workfront Planning功能记录类型与Adobe Experience Manager Assets之间建立连接。
 
@@ -363,7 +363,7 @@ ht-degree: 0%
 
 预览和生产： 2023年8月24日
 
-您现在可以将规划功能记录与Workfront程序和项目组合连接。 您必须在规划权能记录类型与创建连接字段的程序或项目组合之间创建连接。 然后，您可以将同一工作区中所有其它记录类型的任何规划功能记录连接到特定程序和项目组合，这些程序和项目组合在同一工作区中创建只读Workfront程序或WorkfrontPortfolio记录类型。 请考虑以下事项：
+您现在可以将规划功能记录与Workfront程序和项目组合连接。 您必须在规划权能记录类型与创建连接字段的程序或项目组合之间创建连接。 然后，您可以将同一工作区中所有其它记录类型的任何规划功能记录连接到特定程序和项目组合，这些程序和项目组合在同一工作区中创建只读Workfront程序或Workfront Portfolio记录类型。 请考虑以下事项：
 
 * Workfront连接器记录类型对于每个工作区都是唯一的。
 * 您可以将多个规划功能记录连接到同一个Workfront项目或项目组合，并将多个项目和项目组合连接到同一规划功能记录。

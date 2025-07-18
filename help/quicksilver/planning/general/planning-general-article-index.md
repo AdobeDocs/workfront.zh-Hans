@@ -1,5 +1,5 @@
 ---
-title: 'Adobe Workfront规划一般信息：文章索引'
+title: Adobe Workfront规划一般信息：文章索引
 description: 作为营销运营负责人，您可以使用Adobe Workfront Planning为所有团队在营销生命周期中组织工作。 此部分中的文章介绍有关Workfront Planning的一般概念以及如何实施的最佳实践，并概述当前可用的一些功能。
 author: Alina
 feature: Workfront Planning

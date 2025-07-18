@@ -135,10 +135,8 @@ ht-degree: 1%
 
    所有具有查看或工作区管理权限的用户都会收到以下访问请求通知：
    * 应用程序内通知
-
      ![访问请求的应用程序内通知](assets/in-app-notification-for-access-request.png)
    * 电子邮件通知
-
      ![访问请求的电子邮件通知](assets/email-notification-for-access-request.png)
 
 1. （视情况而定）当视图或工作区经理授予您查看或工作区的权限时，您会收到电子邮件通知和应用程序内通知，其中包含已授予权限的确认。<!--check this - I was not able to test this, but Isk confirmed.-->
