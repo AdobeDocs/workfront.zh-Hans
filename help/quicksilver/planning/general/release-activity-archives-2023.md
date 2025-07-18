@@ -76,7 +76,7 @@ ht-degree: 0%
 >
 >贵组织必须购买Adobe Workfront Fusion才能与Adobe Workfront Planning功能建立连接。
 >
->有关信息，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>有关信息，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 现在，您可以使用Adobe Workfront Fusion连接到规划功能。 通过新的Fusion连接，您可以：
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 * 在规划功能中进行更改时触发方案
 
-有关详细信息，请参阅[Adobe Workfront规划模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)。
+有关详细信息，请参阅[Adobe Workfront规划模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)。
 
 ## 2023年12月11日起一周
 
