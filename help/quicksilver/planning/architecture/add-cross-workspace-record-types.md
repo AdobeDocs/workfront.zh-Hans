@@ -4,9 +4,9 @@ description: 记录类型是Adobe Workfront Planning的对象类型。 在Workfr
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: ee366e05097518a4618dd11ed5807b8766465d94
+source-git-commit: 943c26efa6f6351abf885dbc5f3aa09c0b0fab05
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '591'
 ht-degree: 2%
 
 ---
@@ -36,8 +36,6 @@ recommendations: noDisplay, noCatalog
 ## 访问要求
 
 +++ 展开以查看访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
 <col> 
@@ -108,6 +106,32 @@ recommendations: noDisplay, noCatalog
    * 记录
    * 记录连接
 
-## 从现有全局记录类型创建记录类型
+* 只能在其原始工作区中编辑记录类型，包括其字段。 不能从添加该代码的工作区对其进行编辑。
 
-1. 开始创建记录类型，如文章[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)中所述，然后单击&#x200B;**使用全局记录类型**。<!--check this - the option might have been renamed in the UI-->
+## 从现有记录类型创建记录类型
+
+1. 开始创建记录类型，如文章[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)中所述，然后单击&#x200B;**添加现有**。<!--check this - the option might have been renamed in the UI-->
+
+   ![模式以添加记录类型，并带有从其他工作区导入的选项](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
+
+1. 单击&#x200B;**继续**。
+1. 在&#x200B;**选择记录类型**&#x200B;框中，单击要从现有工作区添加的记录类型的卡片，然后单击&#x200B;**添加**。
+
+   记录类型将添加到您选择的工作区，并且会发生以下情况：
+
+   * **跨工作区记录类型**&#x200B;图标![跨工作区连接图标](assets/global-icon.png)已添加到导入记录类型的卡片中。
+   * 只读&#x200B;**Workspace**&#x200B;字段已添加到导入的记录类型。 字段显示每个记录创建时所在的工作区。
+
+     >[!NOTE]
+     >
+     >* 您无法编辑导入的记录类型或其字段。 您可以从原始工作区中编辑记录类型及其字段。
+
+1. （可选）单击导入的记录类型卡片中的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，或该记录类型在其页面上的名称右侧，然后单击&#x200B;**删除**。
+1. （视情况而定）在提供的字段中键入&#x200B;**删除**，然后单击&#x200B;**永久删除**。
+
+   这会从所选工作区中删除导入的记录类型。 原始记录类型及其字段保留在其原始工作区中。
+
+   <!--**************************ASK LILIT ON THIS ONE, NOT SURE IF THIS IS TRUE: Any records added in the current workspace are saved in the original workspace.**********-->
+
+
+

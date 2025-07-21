@@ -4,9 +4,9 @@ description: 您可以将记录类型添加到另一个工作区或从另一个�
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 8f4c1be156094d18df4bc3628d4f1fca90372119
+source-git-commit: 943c26efa6f6351abf885dbc5f3aa09c0b0fab05
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '1006'
 ht-degree: 1%
 
 ---
@@ -44,8 +44,6 @@ recommendations: noDisplay, noCatalog
 ## 访问要求
 
 +++ 展开以查看访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
 <col> 
@@ -117,7 +115,7 @@ recommendations: noDisplay, noCatalog
 
 {{step1-to-planning}}
 
-1. 单击要编辑其记录类型的工作区，
+1. 单击要编辑其记录类型的工作区。
 
    此时会打开工作区页面，并显示记录类型。
 1. 执行下列操作之一：
@@ -134,11 +132,11 @@ recommendations: noDisplay, noCatalog
 
    ![使用“添加到其他工作区”编辑记录类型高级设置启用](assets/edit-record-type-advanced-settings-add-to-other-workspaces-enabled.png)
 
-1. 在&#x200B;**选择谁可以将该记录类型添加到他们管理的工作区**&#x200B;字段中，将您要添加该记录类型的用户添加到他们管理的工作区。
+1. 在&#x200B;**选择谁可以将此记录类型添加到他们管理的工作区**&#x200B;字段中，添加要允许将此记录类型添加到他们管理的工作区的用户。
 
    您的姓名会自动添加到字段中。
 
-   您可以将个人用户、组、团队、职位角色或要为其添加此记录类型的用户添加到其管理的工作区。
+   您可以添加要允许其用户将此记录类型添加到其管理的工作区的单个用户或组、团队、职位角色或公司。
 
    保存记录类型后，可以编辑此字段。
 1. （可选）从&#x200B;**选择谁可以将该记录类型添加到他们管理的工作区**&#x200B;字段中移除您的姓名。
@@ -148,6 +146,11 @@ recommendations: noDisplay, noCatalog
    出现以下情况：
 
    * 记录类型及其字段现在可以由您指定的人员添加到另一个工作区。
+
+   >[!NOTE]
+   >
+   >只能从原始工作区中编辑记录类型及其字段。
+
    * 记录类型卡显示全局图标![全局记录类型图标](assets/global-icon.png)，以指示该记录类型可以添加到您在配置中指定的管理员所在的任何工作区。
    * 系统生成的&#x200B;**Workspace**&#x200B;字段已添加到记录类型。
 
@@ -155,9 +158,9 @@ recommendations: noDisplay, noCatalog
 
      此字段为只读，无法删除。
 
-## 配置连接到其他工作区中的记录类型
+## 配置从其他工作区连接到记录类型
 
-在创建或编辑记录类型时，可以配置记录类型以从其他工作区连接到。
+在创建或编辑记录类型时，可以配置要从其他工作区连接的记录类型。
 
 要在编辑记录类型时配置记录类型以从其他工作区连接到，请执行以下操作：
 
@@ -175,7 +178,7 @@ recommendations: noDisplay, noCatalog
    ![记录类型卡片中的更多菜单选项](assets/more-menu-options-from-record-type-card.png)
 
 1. 在&#x200B;**编辑记录类型**&#x200B;框中，选择&#x200B;**高级设置**&#x200B;选项卡。
-1. 启用&#x200B;**允许从其他工作区**&#x200B;设置连接到此记录类型。<!-- check the setting name, this is the suggested UI text to be edited by Lilit and team-->
+1. 启用&#x200B;**允许连接到其他工作区中的此记录类型**&#x200B;设置。<!-- check the setting name, I sent this to Lilit to say FROM instead of IN-->
 
    ![启用从其他工作区连接的编辑记录类型“高级设置”选项卡](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)
 
@@ -191,6 +194,11 @@ recommendations: noDisplay, noCatalog
 
    * 现在，记录类型及其字段可用于从指定的工作区连接。
    * 记录类型卡片显示一个跨工作区连接图标![跨工作区连接图标](assets/connect-from-other-workspaces-icon.png)，以指示可以从您在配置中指定的任何工作区连接记录类型。
+
+   记录类型变为可以从指定的工作区连接。
+
+
+
 
 
 
