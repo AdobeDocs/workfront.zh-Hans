@@ -6,9 +6,9 @@ description: 在Adobe Workfront中，计划工作由项目和任务表示。 但
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 8e9d9c9489d43917386e581ac9834fbb65b33d25
+source-git-commit: 7c7697936da90d17599d90b69265f62221185569
 workflow-type: tm+mt
-source-wordcount: '2863'
+source-wordcount: '2803'
 ht-degree: 1%
 
 ---
@@ -25,9 +25,9 @@ ht-degree: 1%
 </div>
 -->
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 在Adobe Workfront中，计划工作由项目和任务表示。 但是，您可能是在这样一种环境中工作：随时都可能以请求形式进行非计划工作。 Workfront通过使用请求队列提供了一个工作流来适应这种类型的环境。
 
@@ -150,12 +150,12 @@ Workfront管理员必须创建请求队列的以下组件：
    ![具有统一工作流程的新请求框，用于计划请求](assets/new-request-box-with-unified-workflow-for-planning-requests.png)
 
    单击某个Workfront请求队列卡片，或搜索卡片，然后在列表中显示该卡片时单击它。
-1. <span class="preview">（视情况而定）如果您切换到包含Workfront Planning的新体验，并且正在预览环境中，则&#x200B;**新请求**&#x200B;框将显示以下内容：</span>
+1. （视情况而定）如果您切换到包含Workfront Planning的新体验，并且正在预览环境中，则&#x200B;**新请求**&#x200B;框会显示以下内容：
 
-   <ul><span class="preview"><li>最近访问的6个Workfront请求队列和Planning请求表单将显示在“最近”部分中。 </li></span>
-    <span class="preview"><li>所有其他Workfront和规划请求表单<b>所有请求表单</b>部分。 您可以搜索默认不显示的请求表单。 </li></span>
-    <span class="preview"><li>所有其他Workfront和Planning请求队列路径都显示在<b>所有请求路径</b>部分。 您可以搜索默认不显示的请求队列。</li></span></ul>
-    <span class="preview">单击某个Workfront请求队列路径或表单，或者搜索其中一个路径或表单，然后在列表中显示该路径或表单时单击它。</span>
+   <ul><li>最近访问的6个Workfront请求队列和Planning请求表单将显示在“最近”部分中。 </li>
+    <li>所有其他Workfront和规划请求表单<b>所有请求表单</b>部分。 您可以搜索默认不显示的请求表单。 </li>
+    <li>所有其他Workfront和Planning请求队列路径都显示在<b>所有请求路径</b>部分。 您可以搜索默认不显示的请求队列。</li></ul>
+   单击某个Workfront请求队列路径或表单，或者搜索其中一个路径或表单，然后在列表中显示时单击它。
 
 1. （视情况而定）如果切换到包含Workfront Planning的新体验，请选择主题组和队列主题，然后继续更新表单。
 
