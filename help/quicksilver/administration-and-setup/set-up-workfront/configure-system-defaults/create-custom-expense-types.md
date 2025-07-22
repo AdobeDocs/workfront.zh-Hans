@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: 428e6a9365c793ce5944941ec5368a674c208c78
+source-git-commit: 7f95df7acfb1afd0974c0138152a68326631d265
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '402'
 ht-degree: 4%
 
 ---
@@ -39,14 +39,14 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>新文档： [!UICONTROL Standard]</p>
+   <td><p>新文档： [！UICONTROL Standard]</p>
    或
-   <p>当前： [!UICONTROL 计划]</p>
+   <p>当前： [！UICONTROL计划]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td>
+   <td>[！UICONTROL系统管理员]</td>
   </tr>
  </tbody> 
 </table>
@@ -72,39 +72,21 @@ ht-degree: 4%
 
 1. 单击&#x200B;**[!UICONTROL 费用类型]**。
 1. 单击&#x200B;**[!UICONTROL 新建费用类型]**。
-1. 在&#x200B;**[!UICONTROL 新建费用类型]**&#x200B;对话框中，指定以下信息：
+1. 在&#x200B;**[!UICONTROL 新建费用类型]**&#x200B;对话框中，输入以下信息：
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL 名称]</td> 
-      <td>指定支出的名称。</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL 描述]</td> 
-      <td>指定费用的描述。</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL 计算单位]</td> 
-      <td> <p>从下拉列表中选择费用类型的度量单位。</p> <p>可使用以下测量单位：</p> 
-       <ul> 
-        <li>英里</li> 
-        <li>千米</li> 
-        <li>千克</li> 
-        <li>美元</li> 
-        <li>美元</li> 
-        <li>天</li> 
-        <li>其他 — 选择此选项将提示您命名度量单位，并将度量单位定义为组织所熟悉的单位。</li> 
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">费率</td> 
-      <td> <p>指定单价。 这是一个货币格式字段，它表示在<strong>[!UICONTROL 计算单位]</strong>字段中建立的每个单位的成本。 </p> <p>比率可以包含小数点后最多4个数字的数值。 例如，1.0375</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+   * **名称** — 费用的名称。
+   * **描述** — 费用的描述。
+   * **计算单位** — 从下拉列表中选择支出类型的度量单位。 可使用以下测量单位：
+
+      * 英里
+      * 千米
+      * 千克
+      * 美元
+      * 小时
+      * 天
+      * 其他 — 选择此选项将提示您命名度量单位，并将度量单位定义为组织所熟悉的单位。
+
+   * **汇率** — 单价。 这是一个货币格式字段，它表示在&#x200B;**计算单位**&#x200B;字段中建立的每个单位的成本。 比率可以包含小数点后最多4个数字的数值。 例如，1.0375。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -115,7 +97,7 @@ ht-degree: 4%
 {{step-1-to-setup}}
 
 1. 单击&#x200B;**[!UICONTROL 费用类型]**。
-1. 选择要修改的支出类型，然后单击&#x200B;**[!UICONTROL 编辑]**。
+1. 选择要修改的支出类型，然后单击&#x200B;**[!UICONTROL 编辑]**&#x200B;图标![编辑图标](assets/edit-icon.png)。
 
    出现&#x200B;**[!UICONTROL 编辑费用类型]**&#x200B;对话框。
 
