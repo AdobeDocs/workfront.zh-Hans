@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
+source-git-commit: 83b3bd73fd30b5fba931e64783dee67485d98fe9
 workflow-type: tm+mt
-source-wordcount: '2281'
+source-wordcount: '2299'
 ht-degree: 1%
 
 ---
@@ -207,7 +207,7 @@ ht-degree: 1%
 
 1. （可选）单击&#x200B;**预览**&#x200B;以查看当其他用户使用表单提交新记录时，该表单将如何显示给其他用户。
 
-1. （可选）单击&#x200B;**配置**&#x200B;选项卡，然后向&#x200B;**审批者**&#x200B;字段添加至少一个用户以审批此记录表单的新请求。
+1. （可选）单击&#x200B;**配置**&#x200B;选项卡，然后将至少一个用户<span class="preview">或团队</span>添加到&#x200B;**审批者**&#x200B;字段，以审批此记录表单的新请求。
 
    ![配置选项卡](assets/configuration-tab.png)
 
@@ -217,6 +217,7 @@ ht-degree: 1%
    * 您可以将一个或多个批准者添加到请求表单。
    * 如果至少有一位审批者拒绝了请求，则该请求会被拒绝，并且不会创建记录。
    * 在批准或拒绝请求之前，所有批准者都必须做出决定。
+   * <span class="preview">如果将团队设置为批准者，则只需该团队做出一个决定。</span>
 
      有关将审批添加到请求表单的详细信息，请参阅[将审批添加到请求表单](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
 

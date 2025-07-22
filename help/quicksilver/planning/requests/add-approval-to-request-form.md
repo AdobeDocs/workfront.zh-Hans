@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 83b3bd73fd30b5fba931e64783dee67485d98fe9
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '782'
 ht-degree: 1%
 
 ---
@@ -123,11 +123,11 @@ ht-degree: 1%
    显示&#x200B;**配置**&#x200B;区域。
 
    ![配置选项卡](assets/configuration-tab.png)
-1. 在&#x200B;**审批者**&#x200B;字段中，单击下拉图标，然后在列表中选择一个或多个名称
+1. 在&#x200B;**审批者**&#x200B;字段中，单击下拉图标，然后在列表中选择一个或多个用户<span class="preview">或团队</span>
 
    或
 
-   开始键入审批者的姓名，然后当该姓名显示在列表中时将其选定。
+   开始键入要设置为审批者的用户<span class="preview">或团队</span>的名称，然后当该名称显示在列表中时将其选定。
 
    <!--most of the Note below is duplicated in the Create a request form article-->
 
@@ -141,6 +141,8 @@ ht-degree: 1%
    >* 如果至少有一位审批者拒绝了请求，则该请求会被拒绝，并且不会创建记录。 该请求将保留在Workfront请求区域的已提交部分的“计划”选项卡中。
    >
    >* 在批准或拒绝请求之前，所有批准者都必须做出决定。
+   >
+   >* <span class="preview">如果将团队设置为批准者，则只需该团队做出一个决定。</span>
 
 
 1. （可选）如果您以前从未共享过该请求表单，请单击&#x200B;**发布**
