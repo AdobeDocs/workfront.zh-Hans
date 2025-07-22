@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: 6da80f55fd4314c661c52bb2327ae8fa6c7e55b6
+source-git-commit: 9948927b4f61e0bafd815951bfaede0da064ef91
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ For more information, see [Get started with the Adobe Express and Workfront Proo
 
 * 将整个Workfront团队指定为审阅者或批准者
 * 设置查看或审批的截止日期
-* 创建和重新使用审批模板
+* 创建和重用审批模板
 * 利用新版本
 * 在Workfront主页构件中查看供您审批的多个关键绩效指标
 * 使用画布功能板查看有关统一审批的报告详细信息
@@ -120,7 +120,7 @@ Google正在为访问Google Drive的第三方应用程序[加强安全控制](ht
 * 在Workfront中创建新的Google Drive文档
 
 
-## 验证查看者中可用的新文档审批决策按钮
+## 验证查看器中可用的新文档审批决策按钮
 
 >[!IMPORTANT]
 >
