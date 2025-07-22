@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
 workflow-type: tm+mt
 source-wordcount: '2388'
 ht-degree: 0%
@@ -26,8 +26,12 @@ ht-degree: 0%
 
 您可以通过执行以下操作之一来创建记录：
 
-* [通过从记录类型表视图内联添加记录来创建记录](#create-records-by-adding-them-inline-from-the-record-type-table-view)
 * [使用任何记录类型视图中的“新建记录”或“请求记录”按钮创建记录](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
+* [通过从记录类型表视图内联添加记录来创建记录](#create-records-by-adding-them-inline-from-the-record-type-table-view)
+
+<!--
+* [Create records by adding them in the record type timeline view](#create-records-by-adding-them-in-the-record-type-timeline-view)-->
+
 * [从外部列表中复制并粘贴记录列表](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [从表视图复制记录](#create-records-by-duplicating-them)
 * [在连接其他记录时创建记录](#create-records-as-you-connect-them)
@@ -108,77 +112,6 @@ ht-degree: 0%
 *有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
-
-## 通过从记录类型表视图内联添加记录来创建记录
-
-您可以在记录类型页面的表格视图中创建记录，因为您是内联添加记录的。
-
-有关编辑记录信息的信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
-
-{{step1-to-planning}}
-
-1. 单击要在其中添加记录的工作区。
-
-   工作区将打开，记录类型显示为卡片。
-
-1. 单击记录类型卡片。 有关创建记录类型的信息，请参阅[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)。
-
-   记录类型页面将在您上次访问的视图中打开。 默认情况下，将在表格视图中打开记录类型页面。
-所选类型的记录将显示在视图中。
-
-1. （视情况而定）从表格视图中，执行以下操作之一：
-
-   * 在表的最后一行中或在分组中的最后一个记录之后单击&#x200B;**新建记录**
-
-     >[!TIP]
-     >
-     >当您在分组或子分组中的最后一个记录之后添加新记录时，Workfront会自动填充分组中包含的字段。 如果需要，您可以手动编辑这些字段，并且可能会从分组中删除记录。
-
-   * 在键盘上从表格的任意列或行单击&#x200B;**Shift + Enter**。 这会在您开始的记录下添加一个空行。
-   * 将鼠标悬停在记录的主字段上，单击该字段右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**在上方插入记录**&#x200B;或&#x200B;**在下方插入记录**。
-
-   ![在表行中添加新的营销活动](assets/adding-a-new-campaign-in-table-row.png)
-
-   Workfront会自动将缩略图上传到每条新记录。 您可以稍后修改这些图像。 有关信息，请参阅[将封面图像添加到记录](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)。
-
-   新记录将添加到表中。
-
-1. 单击新记录的主要字段
-
-   或
-
-   单击记录名称左侧的&#x200B;**打开详细信息**&#x200B;图标![表名称字段中的打开详细信息图标](assets/open-details-icon-in-table-name-field.png)。
-
-   预览框在表中打开。
-
-1. 开始在您在预览框中看到的字段中键入有关新记录的信息。
-
-   >[!NOTE]
-   >
-   >  * 记录没有必填字段。 但是，我们建议您为记录的主要字段添加信息，因为在将记录相互链接时，识别记录会很有帮助。 有关主字段的详细信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)和[主字段概述](/help/quicksilver/planning/fields/primary-field-overview.md)。
-   >
-   >  * 引用其他记录类型或计算字段的字段为只读字段。
-
-1. （视情况而定）在表中添加记录时，在打开记录的预览框之前，继续添加每行的信息，然后在键盘上单击&#x200B;**Enter**&#x200B;以保存更改。
-
-   或
-
-   单击新记录名称或记录名称左侧的&#x200B;**打开详细信息**&#x200B;图标![在表名称字段中打开详细信息图标](assets/open-details-icon-in-table-name-field.png)以打开预览框并在详细信息区域编辑记录信息。
-
-   >[!TIP]
-   >
-   >当名称字段是主字段时，您只能从记录的名称字段访问&#x200B;**打开详细信息**&#x200B;图标。
-
-1. （可选）在记录的预览框中，单击&#x200B;**在新标签中打开**&#x200B;图标![在右上角的新标签中打开详细信息](assets/open-details-in-a-new-tab-icon.png)以新标签中打开记录的页面。 继续编辑记录页面上的记录。 有关信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
-
-   Workfront会自动保存您所做的更改。
-
-1. （可选）关闭预览框或单击记录名称左侧的返回箭头（如果打开了记录的页面）。
-
-1. （可选）在表视图中添加新记录或其信息时，请使用以下键盘快捷键撤消或重做添加新记录或其信息：
-
-   * 按CTRL + Z (⌘ + Z表示Mac)可撤消更改
-   * 按CTRL + Shift + Z (⌘ + Shift + Z用于Mac)以重做更改
 
 ## 使用任何记录类型视图中的“新建记录”或“请求记录”按钮创建记录
 
@@ -266,6 +199,136 @@ You can import records from other applications by linking them to existing recor
    
 -->
 
+## 通过从记录类型表视图内联添加记录来创建记录
+
+您可以在记录类型页面的表格视图中创建记录，因为您是内联添加记录的。
+
+有关编辑记录信息的信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
+
+{{step1-to-planning}}
+
+1. 单击要在其中添加记录的工作区。
+
+   工作区将打开，记录类型显示为卡片。
+
+1. 单击记录类型卡片。 有关创建记录类型的信息，请参阅[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)。
+
+   记录类型页面将在您上次访问的视图中打开。 默认情况下，将在表格视图中打开记录类型页面。
+所选类型的记录将显示在视图中。
+
+1. （视情况而定）从表格视图中，执行以下操作之一：
+
+   * 在表的最后一行中或在分组中的最后一个记录之后单击&#x200B;**新建记录**
+
+     >[!TIP]
+     >
+     >当您在分组或子分组中的最后一个记录之后添加新记录时，Workfront会自动填充分组中包含的字段。 如果需要，您可以手动编辑这些字段，并且可能会从分组中删除记录。
+
+   * 在键盘上从表格的任意列或行单击&#x200B;**Shift + Enter**。 这会在您开始的记录下添加一个空行。
+   * 将鼠标悬停在记录的主字段上，单击该字段右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**在上方插入记录**&#x200B;或&#x200B;**在下方插入记录**。
+
+   ![在表行中添加新的营销活动](assets/adding-a-new-campaign-in-table-row.png)
+
+   Workfront会自动将缩略图上传到每条新记录。 您可以稍后修改这些图像。 有关信息，请参阅[将封面图像添加到记录](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)。
+
+   新记录将添加到表中。
+
+1. 单击新记录的主要字段
+
+   或
+
+   单击记录名称左侧的&#x200B;**打开详细信息**&#x200B;图标![表名称字段中的打开详细信息图标](assets/open-details-icon-in-table-name-field.png)。
+
+   预览框在表中打开。
+
+1. 开始在您在预览框中看到的字段中键入有关新记录的信息。
+
+   >[!NOTE]
+   >
+   >  * 记录没有必填字段。 但是，我们建议您为记录的主要字段添加信息，因为在将记录相互链接时，识别记录会很有帮助。 有关主字段的详细信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)和[主字段概述](/help/quicksilver/planning/fields/primary-field-overview.md)。
+   >
+   >  * 引用其他记录类型或计算字段的字段为只读字段。
+
+1. （视情况而定）在表中添加记录时，在打开记录的预览框之前，继续添加每行的信息，然后在键盘上单击&#x200B;**Enter**&#x200B;以保存更改。
+
+   或
+
+   单击新记录名称或记录名称左侧的&#x200B;**打开详细信息**&#x200B;图标![在表名称字段中打开详细信息图标](assets/open-details-icon-in-table-name-field.png)以打开预览框并在详细信息区域编辑记录信息。
+
+   >[!TIP]
+   >
+   >当名称字段是主字段时，您只能从记录的名称字段访问&#x200B;**打开详细信息**&#x200B;图标。
+
+1. （可选）在记录的预览框中，单击&#x200B;**在新标签中打开**&#x200B;图标![在右上角的新标签中打开详细信息](assets/open-details-in-a-new-tab-icon.png)以新标签中打开记录的页面。 继续编辑记录页面上的记录。 有关信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
+
+   Workfront会自动保存您所做的更改。
+
+1. （可选）关闭预览框或单击记录名称左侧的返回箭头（如果打开了记录的页面）。
+
+1. （可选）在表视图中添加新记录或其信息时，请使用以下键盘快捷键撤消或重做添加新记录或其信息：
+
+   * 按CTRL + Z (⌘ + Z表示Mac)可撤消更改
+   * 按CTRL + Shift + Z (⌘ + Shift + Z用于Mac)以重做更改
+
+<!--<div class="preview">
+
+## Create records by adding them in the record type timeline view
+
+You can create records in the timeline view of a record type page, by double-clicking in the timeline. 
+
+For information about creating a timeline view, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+
+{{step1-to-planning}}
+  
+1. Click the workspace where you want to add records.
+
+    The workspace opens and the record types display as cards.
+
+1. Click a record type card. 
+
+    The record type page opens in the view that you last accessed. 
+
+1. Click to open a timeline view, or create a timeline view, first. 
+
+    >[!NOTE]
+    >
+    >You can create a timeline view only if there are at least two date fields associated with the record type.
+1. Double-click anywhere in the timeline. 
+
+    A new record box opens. 
+
+    ![New record box on timeline with unnamed record bar](assets/new-record-small-box-on-timeline.png)
+1. Update the following information:
+
+    * **Name**: Enter the name of the record. If you leave it empty, Workfront names it **Untitled** by default. The name will not be visible in the record bar if left empty. 
+    * **Record date fields**: Update the dates of the record. 
+        
+        The names of the date fields are customized according to the fields selected for the Start and End dates when the timeline view was created.
+
+        By default, date values are preselected depending on how you display the timeline view. The following scenarios exist:
+
+        * By **Year**: The record start and end dates span a month.
+        * By **Quarter**: The record start and end dates span a week. 
+        * By **Month**: The record start and end dates span three days.
+
+1. (Optional) Click one of the following icons: 
+
+    * **Expand** ![Expand icon](assets/expand-icon.png) to open the record details in the preview window. 
+    * **Delete** ![Delete icon](assets/delete-icon.png) to delete the record.
+    * **Close**  ![Close icon](assets/close-icon.png) to close the new record box. 
+
+    The record is added to the timeline as well as to the table and calendar views immediately, unless you clicked the **Delete** icon. 
+
+1. (Optional) Click the record bar in the timeline to open the record's details window and update its information, delete it, or add comments. 
+
+    >[!TIP]
+    >
+    >By default, Workfront associates the record with a thumbnail and a cover image.
+    >
+    >The thumbnail displays in the timeline view only when it is enabled in the Settings of the view. 
+
+</div>-->
+
 ## 通过从外部列表中复制和粘贴记录来创建记录
 
 1. 开始在“表”视图中创建记录，如[通过手动将记录添加到本文中的记录类型](#create-records-by-manually-adding-them-to-a-record-type)来创建记录一节中所述。
@@ -336,7 +399,7 @@ You can import records from other applications by linking them to existing recor
 1. （视情况而定）如果在尝试连接时找不到记录，请单击&#x200B;**+添加**
 
    或
-开始键入名称，然后单击&#x200B;**+添加**。 **+ Add**&#x200B;按钮后跟您连接到的记录类型的名称。 例如，将品牌添加到现有营销活动时，“添加品牌”。 您键入的名称还遵循“添加”按钮。
+开始键入名称，然后单击**+添加**。 **+ Add**&#x200B;按钮后跟您连接到的记录类型的名称。 例如，将品牌添加到现有营销活动时，“添加品牌”。 您键入的名称还遵循“添加”按钮。
 
    ![添加按钮以在突出显示的上下文中创建记录](assets/add-button-to-create-records-in-context-highlighted.png)
 

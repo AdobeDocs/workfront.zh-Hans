@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
 workflow-type: tm+mt
 source-wordcount: '1110'
 ht-degree: 1%
@@ -170,6 +170,7 @@ ht-degree: 1%
 | 按周显示记录 |           |               | ✓ |
 | 从视图中导出信息 | ✓ |               |    |
 
+<!--Add to the table: <span class="preview">Display in full screen</span>-->
 
 ## 创建或编辑视图 {#create-or-edit-views}
 
@@ -240,7 +241,9 @@ ht-degree: 1%
    或
 
    双击视图名称并开始键入新名称。 <!--ensure there is not another saving step here?!-->
-
+<!--
+1. <span class="preview">(Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open any view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.  </span>
+-->
 1. （可选）要管理特定类型的视图，请参阅以下文章：
 
    * [管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)

@@ -4,14 +4,14 @@ content-type: reference
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: 管理小时类型
-description: 您可以将小时类型与小时条目关联。 小时类型是用于定义小时条目的标签。
+description: 您可以将小时类型与小时条目关联。 小时类型是用于定义小时条目的标签。 小时类型可以是常规时间，也可以是项目特定的时间。
 author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: 4fafdcea97874e791104260375617e3989af1870
+source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '1134'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开以查看访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -120,19 +120,19 @@ Workfront附带一组内置小时类型。 这些小时类型无法编辑或隐�
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 名称]</td> 
+      <td role="rowheader">[！UICONTROL名称]</td> 
       <td>输入易于在系统中识别的小时类型名称。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 描述]</td> 
+      <td role="rowheader">[！UICONTROL描述]</td> 
       <td>添加对小时类型的描述。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 作用域]</td> 
-      <td> <p>在<strong>范围</strong>下拉菜单中选择小时类型是常规小时类型还是特定于项目的小时类型。</p> <p>常规小时类型仅在时间表中可见，并且不能与项目、任务或问题相关联。</p> <p><b>重要信息</b>：如果您具有特定于&lbrack;！UICONTROL项目的自定义小时类型，并且您将其更改为[!UICONTROL 常规]，则所有现有的任务、问题和项目小时数都将设置为它们的系统默认类型。</p> </td> 
+      <td role="rowheader">[！UICONTROL作用域]</td> 
+      <td> <p>在<strong>范围</strong>下拉菜单中选择小时类型是常规小时类型还是特定于项目的小时类型。</p> <p>常规小时类型仅在时间表中可见，并且不能与项目、任务或问题相关联。</p> <p><b>重要</b></p><p> 如果您具有特定于[！UICONTROL项目的自定义小时类型，并且您将其更改为[！UICONTROL常规]，则所有现有的任务、问题和项目小时数都会设置为它们的系统默认类型。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 计为收入]</td> 
+      <td role="rowheader">[！UICONTROL计为收入]</td> 
       <td><p>如果您希望与此小时类型关联的小时条目影响您的收入计算，请选择此选项。</p>
       <p>病假和休假时间不能计为收入。</p>
       <p><b>注释</b></p>
@@ -142,9 +142,65 @@ Workfront附带一组内置小时类型。 这些小时类型无法编辑或隐�
     </tbody> 
    </table>
 
+   <!-- in the table above, add this for the Count as revenue: <span class="preview">[!UICONTROL Count as Revenue]</span>-->
+
 1. 单击&#x200B;**[!UICONTROL 创建小时类型]。**
 
+   <!--Click  **[!UICONTROL Create Hour Type]** <span class="preview"> or **Save**</span>. -->
+
    小时类型将会添加到您的Workfront系统中，并且默认情况下处于激活状态。
+
+
+## 编辑小时类型
+
+作为[!DNL Workfront]管理员，您可以在系统和项目级别编辑组织的小时类型。
+
+>[!NOTE]
+>
+>* 您无法编辑内置小时类型。
+>* 您无法批量编辑小时类型。
+
+{{step-1-to-setup}}
+
+1. 在左侧面板中，单击&#x200B;**时间表和小时数**，然后单击&#x200B;**小时类型**。
+
+1. 单击小时类型名称或选择小时类型，然后单击列表顶部的&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
+1. 在&#x200B;**编辑小时类型**&#x200B;对话框中，指定以下信息：
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">[！UICONTROL名称]</td> 
+      <td>输入易于在系统中识别的小时类型名称。</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[！UICONTROL描述]</td> 
+      <td>添加对小时类型的描述。</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[！UICONTROL作用域]</td> 
+      <td> <p>在<strong>范围</strong>下拉菜单中选择小时类型是常规小时类型还是特定于项目的小时类型。</p> <p>常规小时类型仅在时间表中可见，并且不能与项目、任务或问题相关联。</p> <p><b>重要</b></p> <p>如果您具有特定于[！UICONTROL项目的自定义小时类型，并且您将其更改为[！UICONTROL常规]，则所有现有的任务、问题和项目小时数都会设置为它们的系统默认类型。</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[！UICONTROL计为收入]</td> 
+      <td><p>如果您希望与此小时类型关联的小时条目影响您的收入计算，请选择此选项。</p>
+      <p>病假和休假时间不能计为收入。</p>
+      <p><b>注释</b></p>
+      <p>当常规小时类型计为收入时，与记录时间的用户的配置文件关联的成本费率与小时成本关联。  
+      </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+   <!-- in the table above, add this for the Count as revenue: <span class="preview">[!UICONTROL Count as Revenue]</span>-->
+
+1. 单击&#x200B;**[!UICONTROL 保存更改]。**
+
+   <!--Click  **[!UICONTROL Save Changes]** <span class="preview"> or **Save**</span>. -->
+
+   将保存您的更改并编辑小时类型。
 
 ## 停用小时类型
 
@@ -152,9 +208,11 @@ Workfront附带一组内置小时类型。 这些小时类型无法编辑或隐�
 
 >[!NOTE]
 >
->* 无法停用内置小时类型。
+>* 您无法停用内置小时类型。
+>* 您可以批量停用小时类型。
 >* 在停用项目特定的小时类型时，为该类型记录的所有时间会自动默认为项目特定的内置小时类型。 例如，为项目记录的时间默认为项目时间小时类型；为任务记录的时间默认为任务时间小时类型。
->
+>* 停用常规小时类型时，记录时间会保留在时间表上，但用户将来无法再为该小时类型记录时间。
+
 
 
 要停用小时类型，请执行以下操作：
@@ -163,8 +221,7 @@ Workfront附带一组内置小时类型。 这些小时类型无法编辑或隐�
 
 1. 在左侧面板中，单击&#x200B;**[!UICONTROL 时间表和小时数]**，然后单击&#x200B;**[!UICONTROL 小时类型]**。
 
-1. 选择要取消激活的小时类型。
-
+1. 选择要取消激活的小时类型。 您可以选择多个小时类型。
 
 1. 单击&#x200B;**更多**，然后单击&#x200B;**停用**。
 
