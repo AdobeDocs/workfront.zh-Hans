@@ -27,8 +27,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >预览： 2025年7月10日
->>为每个人生产： 2025年7月10日
->>[!BADGE 超出计划]{type=Neutral}
+>&#x200B;>为每个人生产： 2025年7月10日
+>&#x200B;>[!BADGE 超出计划]{type=Neutral}
 
 
 在创建或编辑记录类型时，我们更新了“高级设置”选项卡。
@@ -45,8 +45,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >预览： 2025年7月10日
->>为每个人生产： 2025年7月10日
->>[!BADGE 超出计划]{type=Neutral}
+>&#x200B;>为每个人生产： 2025年7月10日
+>&#x200B;>[!BADGE 超出计划]{type=Neutral}
 
 现在，当您向Workfront Planning中的记录注释添加团队时，团队的所有成员都会收到有关注释的应用程序内通知和电子邮件通知。 在此增强功能之前，只通知单独添加到评论的用户。
 
@@ -57,8 +57,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >预览： 2025年7月10日
->>生产快速发布： 2025年8月14日
->>为每个人生产： 2025年10月16日
+>&#x200B;>生产快速发布： 2025年8月14日
+>&#x200B;>为每个人生产： 2025年10月16日
 
 
 现在，当您将分组应用于表视图时，向表中添加记录将自动填充与您将记录添加到的分组相关联的字段。
@@ -74,7 +74,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >预览： 2025年7月9日
->>适用于所有人的生产： 2025年7月17日
+>&#x200B;>适用于所有人的生产： 2025年7月17日
 
 您现在可以从记录类型页面上的同一按钮共享视图和记录类型。 在此增强功能之前，您只能通过记录类型页面上的“共享”按钮共享记录类型，以及从视图选项卡共享视图。
 
@@ -147,7 +147,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >
 >* 预览：2025年6月26日
 >* 适用于所有人的生产： 2025年6月26日
->  >[!BADGE 超出计划]{type=Neutral}
+>  &#x200B;>[!BADGE 超出计划]{type=Neutral}
 
 现在，当您连接记录类型并将公式字段作为查找引入时，可以根据公式字段的格式应用聚合函数(SUM、AVERAGE、MIN、MAX等)。 例如，如果公式字段为数字，则可以使用SUM或AVG等函数；如果公式字段的格式为文本，则不会应用SUM等聚合函数。
 
@@ -183,7 +183,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >
 >* 预览： 2025年6月12日
 >* 适用于所有人的生产： 2025年6月12日
->  >[!BADGE 超出计划]{type=Neutral}
+>  &#x200B;>[!BADGE 超出计划]{type=Neutral}
 
 我们引入了一项改进，在手动更新引用的字段后，可同时更新所有相互依赖的公式字段。 与手动更改值的字段相差2、3或4个字段且相互引用的公式字段现在将自动同时更新。
 
@@ -197,7 +197,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >
 >* 预览：2025年6月6日
 >* 适用于所有客户的生产： 2025年6月6日
->  >[!BADGE 超出计划]{type=Neutral}
+>  &#x200B;>[!BADGE 超出计划]{type=Neutral}
 
 我们在公式字段中添加了以下表达式：
 
@@ -339,7 +339,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >[!NOTE]
 >
 >此更改将对具有系统管理员和标准许可证的所有新用户和现有用户可见。
->>分配到布局模板的现有用户将继续根据布局模板中定义的设置查看所有内容。
+>&#x200B;>分配到布局模板的现有用户将继续根据布局模板中定义的设置查看所有内容。
 
 有关信息，请参阅[Adobe Workfront规划概述](/help/quicksilver/planning/access/access-overview.md)。
 
