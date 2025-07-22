@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 8dd86b364e23089f3ff02c7817807e5219a3ebb4
+source-git-commit: 9d5249e5587a4291dc9020d456a320da4cdbb8f1
 workflow-type: tm+mt
-source-wordcount: '2275'
+source-wordcount: '2267'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >预览： 2025年7月10日
->&#x200B;>为每个人生产： 2025年7月10日
+>>为每个人生产： 2025年7月10日
+>>[!BADGE 超出计划]{type=Neutral}
 
 
 在创建或编辑记录类型时，我们更新了“高级设置”选项卡。
@@ -44,7 +45,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >预览： 2025年7月10日
->&#x200B;>为每个人生产： 2025年7月10日
+>>为每个人生产： 2025年7月10日
+>>[!BADGE 超出计划]{type=Neutral}
 
 现在，当您向Workfront Planning中的记录注释添加团队时，团队的所有成员都会收到有关注释的应用程序内通知和电子邮件通知。 在此增强功能之前，只通知单独添加到评论的用户。
 
@@ -55,8 +57,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >预览： 2025年7月10日
->&#x200B;>生产快速发布： 2025年8月14日
->&#x200B;>为每个人生产： 2025年10月16日
+>>生产快速发布： 2025年8月14日
+>>为每个人生产： 2025年10月16日
 
 
 现在，当您将分组应用于表视图时，向表中添加记录将自动填充与您将记录添加到的分组相关联的字段。
@@ -72,7 +74,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >预览： 2025年7月9日
->&#x200B;>适用于所有人的生产： 2025年7月17日
+>>适用于所有人的生产： 2025年7月17日
 
 您现在可以从记录类型页面上的同一按钮共享视图和记录类型。 在此增强功能之前，您只能通过记录类型页面上的“共享”按钮共享记录类型，以及从视图选项卡共享视图。
 
@@ -118,7 +120,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 * 我们已为您共享请求表单的用户删除了“管理”和“贡献”选项。 现在，添加的用户只能提交表单。
 * 启用创建公共链接选项后，公共共享选项卡现在显示链接和过期日期字段。
 
-有关详细信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)。
+有关详细信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)。
 
 ## 展开和折叠表格视图中的所有分组
 
@@ -145,6 +147,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >
 >* 预览：2025年6月26日
 >* 适用于所有人的生产： 2025年6月26日
+>  >[!BADGE 超出计划]{type=Neutral}
 
 现在，当您连接记录类型并将公式字段作为查找引入时，可以根据公式字段的格式应用聚合函数(SUM、AVERAGE、MIN、MAX等)。 例如，如果公式字段为数字，则可以使用SUM或AVG等函数；如果公式字段的格式为文本，则不会应用SUM等聚合函数。
 
@@ -179,8 +182,8 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >[!NOTE]
 >
 >* 预览： 2025年6月12日
->* 生产快速发布： 2025年6月12日
->* 适用于所有客户的生产： 2025年6月12日
+>* 适用于所有人的生产： 2025年6月12日
+>  >[!BADGE 超出计划]{type=Neutral}
 
 我们引入了一项改进，在手动更新引用的字段后，可同时更新所有相互依赖的公式字段。 与手动更改值的字段相差2、3或4个字段且相互引用的公式字段现在将自动同时更新。
 
@@ -193,8 +196,8 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >[!NOTE]
 >
 >* 预览：2025年6月6日
->* 生产快速发布： 2025年6月6日
 >* 适用于所有客户的生产： 2025年6月6日
+>  >[!BADGE 超出计划]{type=Neutral}
 
 我们在公式字段中添加了以下表达式：
 
@@ -238,7 +241,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >
 >* 预览： 2025年5月22日
 >* 生产快速发布： 2025年6月12日
->* 适用于所有客户的生产： 2025年7月17日
+>* 适用于所有人的生产： 2025年7月17日
 
 我们更改了在时间轴视图中划分记录时的体验，并且您应用了紧凑视图。
 通过新的更新，当您在“紧凑”模式下定义划分对象并显示时间轴时，在完成划分条件的配置后，系统会提示您将视图切换为“标准”。
@@ -255,7 +258,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >
 >* 预览： 2025年5月15日
 >* 生产快速发布： 2025年6月12日
->* 适用于所有客户的生产： 2025年7月17日
+>* 适用于所有人的生产： 2025年7月17日
 
 您现在可以为划分中的记录设置时间轴视图中记录栏外观的格式。 您可以更新这些记录栏的以下设置：
 
@@ -272,7 +275,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >
 >* 预览： 2025年5月15日
 >* 生产快速发布： 2025年6月12日
->* 适用于所有客户的生产： 2025年7月17日
+>* 适用于所有人的生产： 2025年7月17日
 
 我们为Workfront Planning添加了一项新功能，通过该功能，您可以将表视图中的可见信息导出为CSV或Excel文件。  
 
@@ -290,7 +293,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >
 >* 预览： 2025年5月15日
 >* 生产快速发布： 2025年6月12日
->* 适用于所有客户的生产： 2025年7月17日
+>* 适用于所有人的生产： 2025年7月17日
 
 使用CSV或Excel文件将记录添加到记录类型时，现在可以填充已连接字段的值。  仅支持连接的Planning记录字段。 不支持显示与其他应用程序连接的字段。
 
@@ -310,7 +313,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >
 >* 预览： 2025年4月30日
 >* 生产快速发布： 2025年5月15日
->* 适用于所有客户的生产： 2025年7月17日
+>* 适用于所有人的生产： 2025年7月17日
 
 您现在可以在记录的“连接的记录”页面中编辑记录。 通过此更新，我们引入以下内容：
 
@@ -327,7 +330,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >
 >* 预览： 2025年4月30日
 >* 生产快速发布： 2025年5月15日
->* 适用于所有客户的生产： 2025年7月17日
+>* 适用于所有人的生产： 2025年7月17日
 
 默认情况下，标准和系统管理员用户现在可以在主菜单中找到Planning区域，而无需将其分配给包含该区域的布局模板。 所有其他用户必须具有包含分配给他们的Planning区域的布局模板才能访问它。
 
@@ -336,7 +339,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >[!NOTE]
 >
 >此更改将对具有系统管理员和标准许可证的所有新用户和现有用户可见。
->&#x200B;>分配到布局模板的现有用户将继续根据布局模板中定义的设置查看所有内容。
+>>分配到布局模板的现有用户将继续根据布局模板中定义的设置查看所有内容。
 
 有关信息，请参阅[Adobe Workfront规划概述](/help/quicksilver/planning/access/access-overview.md)。
 
@@ -346,7 +349,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >
 >* 预览： 2025年4月30日
 >* 生产快速发布： 2025年5月15日
->* 适用于所有客户的生产： 2025年7月17日
+>* 适用于所有人的生产： 2025年7月17日
 
 为了更好地显示记录的重要信息，我们为表格视图引入了行级颜色格式。 现在，您可以在定义每行的条件后，为每一行选择一种颜色。  这是一项新功能，在此更新之前不存在。
 
@@ -358,7 +361,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >
 >* 预览： 2025年4月23日
 >* 生产快速发布： 2025年5月15日
->* 适用于所有客户的生产： 2025年7月17日
+>* 适用于所有人的生产： 2025年7月17日
 
 现在，您可以在时间轴视图的“设置”框的“条形图样式”选项卡中启用设置，以在标准视图中显示较长记录名称时截断这些名称。 默认情况下，该设置处于禁用状态，仅当您在“标准”模式下显示时间轴视图时才能启用。 由于禁用此设置，默认情况下，记录栏上的信息显示为展开状态。 在此增强功能之前，默认情况下，记录栏上的信息被截断。
 
@@ -366,12 +369,11 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 
 ## 共享记录类型的权限
 
-
 >[!NOTE]
 >
 >* 预览： 2025年4月17日
 >* 生产快速发布： 2025年7月17日
->* 适用于所有客户的生产： 2025年7月17日
+>* 适用于所有人的生产： 2025年7月17日
 
 为了更好地控制谁可以查看或管理每种记录类型中的记录，并确保只有授权人员才能根据其角色和职责管理每种记录类型的信息，我们在记录类型级别引入了权限。
 

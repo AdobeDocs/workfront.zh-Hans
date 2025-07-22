@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 6b93cca4a434885e39cddcb4a01a8d753609b220
+source-git-commit: b2fdf8d54adacfa4ab2d665767f2265fdd23da4f
 workflow-type: tm+mt
-source-wordcount: '5280'
+source-wordcount: '5276'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,6 @@ ht-degree: 0%
 有关Adobe Workfront的所有其他更改，请参阅[产品版本](/help/quicksilver/product-announcements/product-releases/product-releases.md)。
 
 ## 管理和设置
-
 
 ### 版面模板页面的界面更新
 
@@ -248,7 +247,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 ### 项目的“关联项目”部分的界面更新（仅适用于特定客户）
 
-**预览版本： 2025年6月12日；生产版本：待宣布**
+**预览版本： 2025年6月12日；生产版本： 2025年6月19日**
 
 我们使用与Workfront其他区域一致的更加现代的设计更新了项目的“关联项目”部分。
 
@@ -256,7 +255,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 ### “另存为模板”框的新外观
 
-**预览版本： 2025年6月12日；生产版本：待宣布**
+**预览版本： 2025年6月12日；生产版本： 2025年6月19日**
 
 我们更新了将项目另存为模板时显示的“另存为模板”框的外观。 新设计包括一个简化的界面，其中所有部分都以一个聚合形式显示，您可以使用左侧面板中的链接进行导航。 新设计可与应用程序中的其他区域和其他对象相匹配。
 
