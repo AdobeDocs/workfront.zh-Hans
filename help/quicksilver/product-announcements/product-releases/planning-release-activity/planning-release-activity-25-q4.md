@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
-source-git-commit: 8300595f63fab4f4ef6f00c7b8ff8b06120db2cc
+source-git-commit: a711b174c955776164fa745bcc40dfb808806d73
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,27 @@ ht-degree: 0%
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
+## 在Planning请求表单中将团队添加为批准者
+
+>[!NOTE]
+>
+>预览： 2025年7月22日
+>>快速发布生产： 2025年8月14日
+>>全部生产： 2025年10月16日
+
+为了使审批流程更灵活，我们增加了在Planning请求表单上添加团队作为审批者的功能。 现在，您可以在设置批准者时输入和选择团队名称。 任何团队成员都可以做出决定，这被视为整个团队的批准决定。
+
+以前，只能将个人用户指定为批准者。
+
+有关详细信息，请参阅[在Adobe Workfront Planning中为申请表单添加批准](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
+
 ## 用于显示记录审批信息的新字段
 
 >[!NOTE]
 >
 >预览： 2025年7月17日
->&#x200B;>快速发布生产： 2025年8月14日
->&#x200B;>全部生产： 2025年10月16日
+>>快速发布生产： 2025年8月14日
+>>全部生产： 2025年10月16日
 
 
 我们引进了以下字段，用于捕获通过提交经批准的请求而创建的记录的批准信息：
@@ -44,8 +58,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >预览： 2025年7月10日
->&#x200B;>生产快速发布： 2025年8月14日
->&#x200B;>为每个人生产： 2025年10月16日
+>>生产快速发布： 2025年8月14日
+>>为每个人生产： 2025年10月16日
 
 
 现在，当您将分组应用于表视图时，向表中添加记录将自动填充与您将记录添加到的分组相关联的字段。
