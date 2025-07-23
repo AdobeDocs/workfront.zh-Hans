@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 4558180667d3812f3b4089b7d599158327a683bf
+source-git-commit: 308d6e1dba361c5297c741dea71b11fe6100e871
 workflow-type: tm+mt
-source-wordcount: '13258'
+source-wordcount: '13265'
 ht-degree: 2%
 
 ---
@@ -207,7 +207,6 @@ ht-degree: 2%
          * [21.1其他增强功能](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Planning发布活动{#planning-release-activity}
          * [Adobe Workfront Planning发布活动](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
-
            [Adobe Workfront Planning的2025年第四季度发布活动](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
          * [Adobe Workfront Planning 2025年第三季度发布活动](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
          * [Adobe Workfront Planning 2025年第二季度发布活动](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
@@ -857,6 +856,7 @@ ht-degree: 2%
       * [在“优先级”日历中管理您的工作](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md)
    * 主页 {#home}
       * [主页](workfront-basics/using-home/home.md)
+      * [从旧主页移至新主页](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
       * 使用“主页”区域 {#use-home-area}
          * [使用主页区域：文章索引](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
          * [主页入门](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
@@ -2178,7 +2178,7 @@ ht-degree: 2%
    * 适用于Outlook的Adobe Workfront {#workfront-for-outlook}
       * [适用于Outlook的Adobe Workfront：文章索引](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
       * [设置适用于Outlook的Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
-      * [适用于Outlook的Workfront的权限级别](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
+      * 适用于Outlook的Workfront的[权限级别](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
       * [回复Outlook的评论](workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md)
       * [通过Outlook电子邮件更新现有对象](workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md)
       * [将Outlook电子邮件作为任务或问题添加到项目](workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md)
@@ -2473,8 +2473,8 @@ ht-degree: 2%
       * [使用JWT流配置和使用贵组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程配置和使用您组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-pkce-flow.md)
       * [弃用API — 内部](wf-api/api/deprecation-api-internal.md)
-      * [API版本20中的新增功能](wf-api/api/new-api-version-20.md)
-      * [API版本19中的新增功能](wf-api/api/new-api-version-19.md)
+      * [API版本20](wf-api/api/new-api-version-20.md)中的新增功能
+      * [API版本19](wf-api/api/new-api-version-19.md)中的新增功能
       * [API版本18中的新增功能](wf-api/api/new-api-version-18.md)
       * [API版本17中的新增功能](wf-api/api/new-api-version-17.md)
       * [API版本16中的新增功能](wf-api/api/new-api-version-16.md)
