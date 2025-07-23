@@ -7,9 +7,9 @@ description: 对象的“更新”部分显示用户对对象所做的注释或�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: de42974a9a5c4c346ef3ae1cce09968befd1381c
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1196'
 ht-degree: 4%
 
 ---
@@ -231,7 +231,7 @@ The following objects don't record system updates:
   </tr> 
   <tr> 
    <td>项目</td> 
-   <td>项目，Portfolio</td> 
+   <td>Portfolio项目</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>文档 </td> 
@@ -299,24 +299,33 @@ The following objects don't record system updates:
 
 团队的“更新”部分以及代表其他用户输入更新时，存在一些限制。
 
-### 用户和团队的限制
+### 有关用户和团队的注意事项
 
 查看用户和团队的更新时，请考虑以下事项：
 
 * 您无法在团队的“更新”部分中添加新注释。
-
-* 团队的“更新”部分由在以下对象上输入的更新填充：
-
-   * 用户
-   * 故事
-   * 时间表
-   * 迭代
 
 * 您可以向在团队中查看的更新添加回复。 回复显示在团队的“更新”部分以及它所属对象的更新部分中。
 
 * 在用户和团队的更新部分中，您可以查看在过去90天内输入的更新。
 
   如果想要在90天限制之外查看对用户或团队进行的所有更新，您可以构建注释报表。 报告不应具有显示针对用户或团队所做所有更新的时间过滤器。 有关详细信息，请参阅[创建自定义报表](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
+
+* 团队的“更新”部分由添加到以下对象的注释填充：
+
+   * 用户
+   * 故事
+   * 时间表
+   * 迭代
+
+* 用户更新区域的“系统更新”选项卡通过更新其他对象来填充。 以下是在用户配置文件的系统更新选项卡中显示的更新，当这些字段在设置的更新馈送区域中受到跟踪时：
+
+   * 文档添加、删除和其他文档更新
+   * 小时添加、删除、代表添加以及其他小时条目更新
+   * 注释，自定义字段的更新
+   * 用户配置文件更新（更新了用户的头像、手机号码、与我谈论字段、标题）
+   * 用户添加、删除、访问级别更改、内置用户字段更改
+   * 来自任务和项目的财务信息。
 
 ### 代表其他用户输入评论时的限制
 
@@ -345,4 +354,4 @@ Adobe Workfront管理员和组管理员可以其他用户身份登录，并在Wo
 * 如果在项目过程中优先级发生了更改
 * 如果项目所有者已更改
 
-有关详细信息，请参阅日志条目报告[&#128279;](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)的更新区域报告。
+有关详细信息，请参阅日志条目报告[的](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)更新区域报告。
