@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: ef33a8bcdec76747434b5c5aaf62a743335fb10f
+source-git-commit: 3563d5e7136d8bd70504a0b7762c4be06e5a9c56
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '957'
 ht-degree: 2%
 
 ---
@@ -18,11 +18,15 @@ ht-degree: 2%
 
 <!-- Audited: 12/2023 -->
 
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
+
 队列主题与路由规则配合使用，可自动将传入工作分配给用户、工作角色、团队，或将其置于项目中。 队列主题定义实施路由规则所需的条件。
 
 可以分配给主题组或项目的队列主题的数量没有限制。 队列主题是可报告的对象类型。
 
-创建后，无法将队列主题从一个项目移动到另一个项目。
+您可以为单个项目或项目模板创建队列主题。
+
+创建后，无法将队列主题从一个项目或模板移动到另一个项目或模板。
 
 ## 访问要求
 
@@ -97,7 +101,7 @@ ht-degree: 2%
    * [创建主题组](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
    * [创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
 
-1. 转到您选择启用为帮助请求队列的项目以及要创建新队列主题的位置。\
+1. 转到您选择启用为帮助请求队列的项目或模板，以及要创建新队列主题的位置。\
    有关如何将项目指定为帮助请求队列的详细信息，请参阅[创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
    可以将相关的队列主题组织到主题组下。 这会在发出请求时为请求者提供一系列下拉菜单。
@@ -171,3 +175,13 @@ ht-degree: 2%
 
 1. 单击&#x200B;**保存**。\
    现在，队列主题可供使用，并且在选择请求队列和主题组后，该主题会显示在Workfront的请求区域中。
+
+## 编辑队列主题
+
+编辑现有队列主题：
+
+1. 转到包含要编辑的队列主题的项目或模板。
+1. 单击左侧面板中的&#x200B;**队列主题**。
+1. 在生产环境中，选择要编辑的队列主题。 在打开的详细信息页面上，单击&#x200B;**编辑队列主题**。
+1. <span class="preview">在“预览”环境中，选择要编辑的队列主题，然后单击“编辑”图标![“编辑”图标](assets/edit-icon.png)。</span>
+
