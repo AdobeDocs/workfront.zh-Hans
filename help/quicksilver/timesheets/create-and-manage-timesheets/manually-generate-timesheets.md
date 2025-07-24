@@ -6,9 +6,9 @@ description: 要使您对时间表用户档案所做的更改反映在当前时�
 author: Alina
 feature: Timesheets
 exl-id: 316c270a-c64e-4d83-a035-4128abe33f87
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: c9df676467007a84920073fe06bc3c73b18a89ae
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 访问要求
 
-您必须具备以下条件才能执行本文中的步骤：
++++ 展开以查看访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,13 +42,15 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 有关手动生成的时间表的注意事项
 
 当您手动生成时间表时：
 
-* 它们是根据与您的用户关联的时间表配置文件生成的。 不具有与其关联的时间表配置文件的用户不会收到时间表。 
+* 它们是根据与您的用户关联的时间表配置文件生成的。 不具有与其关联的时间表配置文件的用户不会收到时间表。
 * 只生成当前时间表以及要遵循的时间表。 Workfront不会为同一期间生成两个时间表。 如果您已经拥有当前时间范围的工时表，则在使用手动流程生成工时表时将不会生成另一个工时表。
 
 ## 从时间表和小时数区域手动生成时间表
@@ -64,7 +66,7 @@ ht-degree: 0%
    如果要生成特定组使用的时间表，请单击&#x200B;**组**，然后单击该组的名称。
 
 1. 单击&#x200B;**周期性工时表**。
-1. 单击&#x200B;**更多**&#x200B;图标![更多图标](assets/more-icon.png)，然后单击&#x200B;**生成时间表**。
+1. 在时间表配置文件列表顶部，单击系统级时间表配置文件的&#x200B;**更多**&#x200B;图标![更多图标](assets/more-icon.png)，或单击组时间表配置文件的&#x200B;**更多**，然后单击&#x200B;**生成时间表**。
 
    新时间表最多可为与时间表配置文件关联的用户创建两个时间段。
 
@@ -76,5 +78,5 @@ ht-degree: 0%
 
 1. 展开&#x200B;**系统**，然后单击&#x200B;**诊断**。
 
-1. 单击&#x200B;**执行诊断**。 
+1. 单击&#x200B;**执行诊断**。
 1. 单击&#x200B;**生成工时表**。
