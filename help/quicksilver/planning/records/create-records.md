@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '2388'
+source-wordcount: '2798'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 创建记录
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -26,18 +26,21 @@ ht-degree: 0%
 
 您可以通过执行以下操作之一来创建记录：
 
-* [使用任何记录类型视图中的“新建记录”或“请求记录”按钮创建记录](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
-* [通过从记录类型表视图内联添加记录来创建记录](#create-records-by-adding-them-inline-from-the-record-type-table-view)
+* [使用任何记录类型视图中的“新建记录”或“请求记录”按钮](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
+* [从记录类型表格视图内联添加它们](#create-records-by-adding-them-inline-from-the-record-type-table-view)
 
-<!--
-* [Create records by adding them in the record type timeline view](#create-records-by-adding-them-in-the-record-type-timeline-view)-->
+<div class="preview">
+
+* [在记录类型时间线视图中添加它们](#create-records-by-adding-them-in-the-record-type-timeline-view)
+
+</div>
 
 * [从外部列表中复制并粘贴记录列表](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [从表视图复制记录](#create-records-by-duplicating-them)
-* [在连接其他记录时创建记录](#create-records-as-you-connect-them)
-* [通过向记录类型提交请求表单来创建记录](#create-records-by-submitting-a-request-form-to-a-record-type)
-* [通过从CSV或Excel文件导入信息创建记录](#create-records-by-importing-records-from-a-csv-or-excel-file)
-* [使用自动化创建记录](#create-records-by-using-automations)
+* [从其他记录连接它们](#create-records-as-you-connect-them)
+* [提交请求表单到记录类型](#create-records-by-submitting-a-request-form-to-a-record-type)
+* [从CSV或Excel文件导入信息](#create-records-by-importing-records-from-a-csv-or-excel-file)
+* [使用自动化](#create-records-by-using-automations)
 
 有关管理表或时间线视图中的记录的信息，请参阅以下文章：
 
@@ -270,64 +273,64 @@ You can import records from other applications by linking them to existing recor
    * 按CTRL + Z (⌘ + Z表示Mac)可撤消更改
    * 按CTRL + Shift + Z (⌘ + Shift + Z用于Mac)以重做更改
 
-<!--<div class="preview">
+<div class="preview">
 
-## Create records by adding them in the record type timeline view
+## 通过在记录类型时间线视图中添加记录来创建记录
 
-You can create records in the timeline view of a record type page, by double-clicking in the timeline. 
+您可以在记录类型页面的时间线视图中双击来创建记录。
 
-For information about creating a timeline view, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+有关创建时间表视图的信息，请参阅[管理时间表视图](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
 
 {{step1-to-planning}}
-  
-1. Click the workspace where you want to add records.
 
-    The workspace opens and the record types display as cards.
+1. 单击要在其中添加记录的工作区。
 
-1. Click a record type card. 
+   工作区将打开，记录类型显示为卡片。
 
-    The record type page opens in the view that you last accessed. 
+1. 单击记录类型卡片。
 
-1. Click to open a timeline view, or create a timeline view, first. 
+   记录类型页面将在您上次访问的视图中打开。
 
-    >[!NOTE]
-    >
-    >You can create a timeline view only if there are at least two date fields associated with the record type.
-1. Double-click anywhere in the timeline. 
+1. 首先单击以打开时间线视图，或创建时间线视图。
 
-    A new record box opens. 
+   >[!NOTE]
+   >
+   >仅当至少有两个日期字段与记录类型关联时，才能创建时间线视图。
+1. 双击时间轴中的任意位置。
 
-    ![New record box on timeline with unnamed record bar](assets/new-record-small-box-on-timeline.png)
-1. Update the following information:
+   将打开一个新记录框。<!--might need a new screen shot for Production - might add a title etc-->
 
-    * **Name**: Enter the name of the record. If you leave it empty, Workfront names it **Untitled** by default. The name will not be visible in the record bar if left empty. 
-    * **Record date fields**: Update the dates of the record. 
-        
-        The names of the date fields are customized according to the fields selected for the Start and End dates when the timeline view was created.
+   ![时间轴上的新记录框（具有未命名的记录栏）](assets/new-record-small-box-on-timeline.png)
+1. 更新以下信息：
 
-        By default, date values are preselected depending on how you display the timeline view. The following scenarios exist:
+   * **名称**：输入记录名称。 如果将其留空，Workfront会默认将其命名为&#x200B;**无标题**。 如果留空，该名称将不会显示在记录栏中。
+   * **记录日期字段**：更新记录日期。
 
-        * By **Year**: The record start and end dates span a month.
-        * By **Quarter**: The record start and end dates span a week. 
-        * By **Month**: The record start and end dates span three days.
+     创建时间线视图时，根据为开始日期和结束日期选择的字段自定义日期字段的名称。
 
-1. (Optional) Click one of the following icons: 
+     默认情况下，日期值会根据时间线视图的显示方式预先选择。 存在以下情况：
 
-    * **Expand** ![Expand icon](assets/expand-icon.png) to open the record details in the preview window. 
-    * **Delete** ![Delete icon](assets/delete-icon.png) to delete the record.
-    * **Close**  ![Close icon](assets/close-icon.png) to close the new record box. 
+      * 按&#x200B;**年**：记录的开始和结束日期跨越一个月。
+      * 按&#x200B;**季度**：记录的开始和结束日期跨一周。
+      * 按&#x200B;**月**：记录的开始和结束日期跨三天。
 
-    The record is added to the timeline as well as to the table and calendar views immediately, unless you clicked the **Delete** icon. 
+1. （可选）单击以下图标之一：
 
-1. (Optional) Click the record bar in the timeline to open the record's details window and update its information, delete it, or add comments. 
+   * **展开** ![展开图标](assets/expand-icon.png)以在预览窗口中打开记录详细信息。
+   * **删除** ![删除图标](assets/delete-icon.png)以删除记录。
+   * **关闭** ![关闭图标](assets/close-icon.png)以关闭新记录框。
 
-    >[!TIP]
-    >
-    >By default, Workfront associates the record with a thumbnail and a cover image.
-    >
-    >The thumbnail displays in the timeline view only when it is enabled in the Settings of the view. 
+   除非您单击&#x200B;**删除**&#x200B;图标，否则该记录将立即添加到时间轴以及表和日历视图。
 
-</div>-->
+1. （可选）单击时间轴中的记录栏以打开记录的详细信息窗口，并更新其信息、将其删除或添加注释。
+
+   >[!TIP]
+   >
+   >默认情况下，Workfront会将记录与缩略图和封面图像相关联。
+   >
+   >仅当在视图的“设置”中启用缩略图时，缩略图才会显示在时间轴视图中。
+
+</div>
 
 ## 通过从外部列表中复制和粘贴记录来创建记录
 
@@ -399,7 +402,7 @@ For information about creating a timeline view, see [Manage the timeline view](/
 1. （视情况而定）如果在尝试连接时找不到记录，请单击&#x200B;**+添加**
 
    或
-开始键入名称，然后单击&#x200B;**+添加**。 **+ Add**&#x200B;按钮后跟您连接到的记录类型的名称。 例如，将品牌添加到现有营销活动时，“添加品牌”。 您键入的名称还遵循“添加”按钮。
+开始键入名称，然后单击**+添加**。 **+ Add**&#x200B;按钮后跟您连接到的记录类型的名称。 例如，将品牌添加到现有营销活动时，“添加品牌”。 您键入的名称还遵循“添加”按钮。
 
    ![添加按钮以在突出显示的上下文中创建记录](assets/add-button-to-create-records-in-context-highlighted.png)
 

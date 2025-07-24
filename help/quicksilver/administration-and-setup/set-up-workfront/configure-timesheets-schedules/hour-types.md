@@ -9,9 +9,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1189'
 ht-degree: 1%
 
 ---
@@ -23,14 +23,13 @@ ht-degree: 1%
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
 **Linked to Creating Billing Record-->
 
-<!--<div class="preview">
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 从预览版本发布的一周后，所有客户还可以在生产环境中使用相同的功能。
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+有关详细信息，请参阅[接口现代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
 
 </div>
--->
 
 小时类型是用于定义小时条目的标签。 您可以将小时类型与小时条目关联。
 
@@ -120,19 +119,19 @@ Workfront附带一组内置小时类型。 这些小时类型无法编辑或隐�
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 名称]</td> 
+      <td role="rowheader">[！UICONTROL名称]</td> 
       <td>输入易于在系统中识别的小时类型名称。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 描述]</td> 
+      <td role="rowheader">[！UICONTROL描述]</td> 
       <td>添加对小时类型的描述。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 作用域]</td> 
-      <td> <p>在<strong>范围</strong>下拉菜单中选择小时类型是常规小时类型还是特定于项目的小时类型。</p> <p>常规小时类型仅在时间表中可见，并且不能与项目、任务或问题相关联。</p> <p><b>重要</b></p><p> 如果您具有特定于&lbrack;！UICONTROL项目的自定义小时类型，并且您将其更改为[!UICONTROL 常规]，则所有现有的任务、问题和项目小时数都会设置为它们的系统默认类型。</p> </td> 
+      <td role="rowheader">[！UICONTROL作用域]</td> 
+      <td> <p>在<strong>范围</strong>下拉菜单中选择小时类型是常规小时类型还是特定于项目的小时类型。</p> <p>常规小时类型仅在时间表中可见，并且不能与项目、任务或问题相关联。</p> <p><b>重要</b></p><p> 如果您具有特定于[！UICONTROL项目的自定义小时类型，并且您将其更改为[！UICONTROL常规]，则所有现有的任务、问题和项目小时数都会设置为它们的系统默认类型。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 计为收入]</td> 
+      <td role="rowheader"><span class="preview">[！UICONTROL计为收入]</span></td> 
       <td><p>如果您希望与此小时类型关联的小时条目影响您的收入计算，请选择此选项。</p>
       <p>病假和休假时间不能计为收入。</p>
       <p><b>注释</b></p>
@@ -142,14 +141,9 @@ Workfront附带一组内置小时类型。 这些小时类型无法编辑或隐�
     </tbody> 
    </table>
 
-   <!-- in the table above, add this for the Count as revenue: <span class="preview">[!UICONTROL Count as Revenue]</span>-->
-
-1. 单击&#x200B;**[!UICONTROL 创建小时类型]。**
-
-   <!--Click  **[!UICONTROL Create Hour Type]** <span class="preview"> or **Save**</span>. -->
+1. 单击&#x200B;**[!UICONTROL 创建小时类型]** <span class="preview">或&#x200B;**保存**。</span>
 
    小时类型将会添加到您的Workfront系统中，并且默认情况下处于激活状态。
-
 
 ## 编辑小时类型
 
@@ -172,19 +166,19 @@ Workfront附带一组内置小时类型。 这些小时类型无法编辑或隐�
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 名称]</td> 
+      <td role="rowheader">[！UICONTROL名称]</td> 
       <td>输入易于在系统中识别的小时类型名称。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 描述]</td> 
+      <td role="rowheader">[！UICONTROL描述]</td> 
       <td>添加对小时类型的描述。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 作用域]</td> 
-      <td> <p>在<strong>范围</strong>下拉菜单中选择小时类型是常规小时类型还是特定于项目的小时类型。</p> <p>常规小时类型仅在时间表中可见，并且不能与项目、任务或问题相关联。</p> <p><b>重要</b></p> <p>如果您具有特定于&lbrack;！UICONTROL项目的自定义小时类型，并且您将其更改为[!UICONTROL 常规]，则所有现有的任务、问题和项目小时数都会设置为它们的系统默认类型。</p> </td> 
+      <td role="rowheader">[！UICONTROL作用域]</td> 
+      <td> <p>在<strong>范围</strong>下拉菜单中选择小时类型是常规小时类型还是特定于项目的小时类型。</p> <p>常规小时类型仅在时间表中可见，并且不能与项目、任务或问题相关联。</p> <p><b>重要</b></p> <p>如果您具有特定于[！UICONTROL项目的自定义小时类型，并且您将其更改为[！UICONTROL常规]，则所有现有的任务、问题和项目小时数都会设置为它们的系统默认类型。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 计为收入]</td> 
+      <td role="rowheader"><span class="preview">[！UICONTROL计为收入]</span></td> 
       <td><p>如果您希望与此小时类型关联的小时条目影响您的收入计算，请选择此选项。</p>
       <p>病假和休假时间不能计为收入。</p>
       <p><b>注释</b></p>
@@ -194,11 +188,8 @@ Workfront附带一组内置小时类型。 这些小时类型无法编辑或隐�
     </tbody> 
    </table>
 
-   <!-- in the table above, add this for the Count as revenue: <span class="preview">[!UICONTROL Count as Revenue]</span>-->
 
-1. 单击&#x200B;**[!UICONTROL 保存更改]。**
-
-   <!--Click  **[!UICONTROL Save Changes]** <span class="preview"> or **Save**</span>. -->
+1. 单击&#x200B;**[!UICONTROL 保存更改]** <span class="preview">或&#x200B;**保存**。</span>
 
    将保存您的更改并编辑小时类型。
 

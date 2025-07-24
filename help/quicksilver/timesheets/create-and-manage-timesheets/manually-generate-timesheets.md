@@ -6,9 +6,9 @@ description: 要使您对时间表用户档案所做的更改反映在当前时�
 author: Alina
 feature: Timesheets
 exl-id: 316c270a-c64e-4d83-a035-4128abe33f87
-source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td> <p>计划 </p> </td> 
+   <td> <p>规划 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
@@ -49,7 +49,7 @@ ht-degree: 0%
 当您手动生成时间表时：
 
 * 它们是根据与您的用户关联的时间表配置文件生成的。 不具有与其关联的时间表配置文件的用户不会收到时间表。 
-* 只生成当前时间表以及要遵循的时间表。 Workfront不会为同一期间生成两个时间表。 如果您已经有一个特定时间范围内的时间表，则在使用手动流程生成时间表时，不会生成另一个时间表。
+* 只生成当前时间表以及要遵循的时间表。 Workfront不会为同一期间生成两个时间表。 如果您已经拥有当前时间范围的工时表，则在使用手动流程生成工时表时将不会生成另一个工时表。
 
 ## 从时间表和小时数区域手动生成时间表
 
@@ -64,7 +64,7 @@ ht-degree: 0%
    如果要生成特定组使用的时间表，请单击&#x200B;**组**，然后单击该组的名称。
 
 1. 单击&#x200B;**周期性工时表**。
-1. 单击&#x200B;**更多**，然后单击&#x200B;**生成时间表**。
+1. 单击&#x200B;**更多**&#x200B;图标![更多图标](assets/more-icon.png)，然后单击&#x200B;**生成时间表**。
 
    新时间表最多可为与时间表配置文件关联的用户创建两个时间段。
 

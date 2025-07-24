@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5c895e77-bd88-435f-a903-37c2325eab45
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,7 @@ ht-degree: 0%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -67,7 +65,7 @@ ht-degree: 0%
 
 ## 手动生成组时间表
 
-要使您对组时间表配置文件所做的更改能够反映在当前组时间表中，您必须首先删除现有时间表，然后手动生成新时间表。 有关说明，请参阅[手动生成时间表](../../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)中的[从时间表和小时区域](../../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md#manually)手动生成时间表。
+要使您对组时间表配置文件所做的更改能够反映在当前组时间表中，您必须首先删除现有时间表，然后手动生成新时间表。 有关说明，请参阅[手动生成时间表](../../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md#manually)中的[从时间表和小时区域](../../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)手动生成时间表。
 
 有关删除组时间表的信息，请参阅[删除Adobe Workfront中的时间表](../../../timesheets/create-and-manage-timesheets/delete-timesheets.md)。
 

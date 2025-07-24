@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '1474'
-ht-degree: 0%
+source-wordcount: '1540'
+ht-degree: 1%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 # 共享记录类型
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >有权访问工作区的用户将自动获得对工作区中所有记录类型的至少“查看”权限。
->&#x200B;>共享视图不授予用户记录类型的权限。 只有共享工作区才能授予用户记录类型的权限。
+>>共享视图不授予用户记录类型的权限。 只有共享工作区才能授予用户记录类型的权限。
 >
 >* 有关在Workfront Planning中共享对象的一般信息，另请参阅[在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 >* 有关详细信息，请参阅本文中的[共享记录类型时的注意事项](#considerations-when-sharing-record-types)部分。
@@ -144,22 +144,10 @@ ht-degree: 0%
 
 1. 打开要共享其记录类型的工作区。
 
-<!--when we release Share on the record type card, replace the next 3 steps with this: 
+1. 执行下列操作之一：
 
-1. Do one of the following: 
-
-   * <span class="preview">From the record type card, click the **More** menu > **Share**.</span>
-   * Click a record type card to open the record type's page, then click **Share** > **Share the record type** from any record type view.
-
-   The **Share** box opens.
--->
-
-1. 单击记录类型卡片。
-
-   此时将打开记录类型页面。
-
-1. 从任何视图的选项卡中，单击记录类型右上角的&#x200B;**共享**。
-1. 单击&#x200B;**共享记录类型**。
+   * <span class="preview">从记录类型卡中，单击&#x200B;**更多**&#x200B;菜单> **共享**。</span>
+   * 单击记录类型卡以打开记录类型的页面，然后单击&#x200B;**共享** > **从任何记录类型视图中共享记录类型**。
 
    将打开&#x200B;**共享**&#x200B;框。
 

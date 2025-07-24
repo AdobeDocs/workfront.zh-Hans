@@ -6,9 +6,9 @@ description: 您可以创建、编辑和分配时间表配置文件，以便为�
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1604'
 ht-degree: 1%
 
 ---
@@ -36,8 +36,6 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 ## 访问要求
 
 +++ 展开以查看本文中各项功能的访问要求。
-
-您必须具备以下条件才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -194,9 +192,17 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    >* 添加组时，“分配人员”选项卡上只显示组名，不显示组成员列表。 如果要查看此处列出的组成员，请单击保存更改，然后单击刚刚创建的时间表配置文件的名称。
    >* 完成这些步骤后，时间表配置文件仅为在当前期间没有现有时间表的已分配用户或组成员生成时间表。
 
-1. 单击&#x200B;**保存更改**。
+1. 单击&#x200B;**保存**。
 
-   时间表用户档案首次生成时间表时，会为每个用户创建2个时间表。 之后，每次生成新时间表时，都会为每个用户创建时间表。
+1. 在时间表配置文件列表顶部，单击系统级时间表配置文件的&#x200B;**更多**&#x200B;图标![更多图标](assets/more-icon.png)，或单击组时间表配置文件的&#x200B;**更多**，然后单击&#x200B;**生成时间表**。
+
+   屏幕底部会显示一条确认消息，确认已成功生成时间表。 新时间表是根据您创建的新用户档案生成的。
+
+   有关详细信息，请参阅[手动生成时间表](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)。
+
+   时间表用户档案首次生成时间表时，会为每个用户创建2个时间表，针对包括当前时间的时间范围以及下一个时间范围。
+
+   之后，每次生成新时间表时，都会为每个用户创建一个时间表。
 
    <!--the content in the table above will need to match the content in the Create timesheets article-->
 
