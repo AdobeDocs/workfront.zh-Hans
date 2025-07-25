@@ -5,9 +5,9 @@ title: 跨时区工作
 description: 了解 [!DNL Adobe Workfront] 如何使用时区计算对象的时间字段和其他区域（如电子邮件）中的时间可能很有帮助。
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 7697bb68e2042291e5290048cfc2f626145979af
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
@@ -58,25 +58,36 @@ ht-degree: 0%
 
 ### 您的用户配置文件 {#your-user-profile}
 
-用户配置文件中的时区应该为您工作的位置配置。 这会确定以下内容：
+用户配置文件中的“时区”字段控制发送电子邮件中显示的时间。
+
+时区也会影响PTO日历报表中显示的内容。
+
+有关在用户配置文件中配置时区的信息，请参阅[配置我的设置](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)。
+
+有关[!DNL Workfront]管理员（或具有[!UICONTROL 编辑]用户访问权限的用户）如何在用户配置文件中配置时区的信息，请参阅[编辑用户配置文件](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
+
+### 您的浏览器的时区
+
+您应该为工作所在的位置配置浏览器中的时区。 这会确定以下内容：
 
 <!--
 * The time shown in your outgoing [!DNL Workfront] email messages
 [NOTE FROM LISA: Saeid that dates/times shown in emails are more complicated than how it is described in the article so we decided to comment out this line.]
 -->
-* 处理对象的时间，如开始和结束时间
+* 处理对象的时间，如开始和结束时间。
 
-  如果将处于多个时区的用户分配给某个对象，[!DNL Workfront]会使用每个用户配置文件中配置的时区，转换每个相关人员的对象时间。
+  如果将处于多个时区的用户分配给某个对象，则[!DNL Workfront]会使用每个用户的浏览器中配置的时区，转换每个相关人员的对象时间。
 
-  **示例：**&#x200B;在您工作的东部标准时间(EST)区域中，您将任务设置为在下午4:00开始，并将其分配给在太平洋标准时间(PST)区域工作的用户。 对于这些用户，开始时间显示为下午1:00。 如果显示为下午4:00，他们将延迟三个小时开始处理。
+  **示例**
+在您工作的东部标准时间(EST)区域中，您将任务设置为在下午4:00开始，并将其分配给在太平洋标准时间(PST)区域工作的用户。 对于这些用户，开始时间显示为下午1:00。 如果它显示为下午4:00，则他们会延迟三个小时开始处理它。
 
-  如果对象创建者在设置对象时间时没有注意到被分配人时区之间的差异并进行必要的调整，或者被分配人没有注意到这种差异，则当每个人协作处理对象时，可能很难获得正确的时间安排。
+  如果对象创建者不知道被分配人时区之间的差异，并且在设置对象时间时没有做出必要的调整，或者被分配人不知道该差异，则当每个人协作处理对象时，可能很难获得正确的时间点。
 
-  **示例：**&#x200B;您将一天任务配置为在EST上午9:00开始，忘记任务上的一些用户在PST区域工作。 对他们来说，开始时间是早上6点。 由于他们要到时间9:00（您所在时间的中午）才会开始处理该任务，因此任务会延迟三个小时开始和结束。
+  **示例**
 
-有关在用户配置文件中配置时区的信息，请参阅[配置我的设置](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)。
+  将一天任务配置为从东部时间上午9:00开始，忘记任务上的一些用户在PST区域中工作。 对于他们，开始时间为上午6:00。 由于他们直到时间9:00（您所在时间的正午）才会开始处理该任务，因此任务会延迟三个小时开始和结束。
 
-有关[!DNL Workfront]管理员（或具有[!UICONTROL 编辑]用户访问权限的用户）如何在用户配置文件中配置时区的信息，请参阅[编辑用户配置文件](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
+不同浏览器的时区配置不同。 有关更多信息，请参阅每个浏览器的文档或帮助信息。
 
 ## 如何让用户更轻松地跨时区工作
 
@@ -110,7 +121,7 @@ ht-degree: 0%
 >[!BEGINSHADEBOX]
 
 **示例：**
-EST用户被分配到计划于9:00 AM PST（即EST正午）开始的一天任务。 由于EST用户在一天中只剩下2个工作小时，因此任务完成日期会延长约6小时，直至下一个工作日。
+EST用户被分派到计划于PST上午9:00（正午）（EST中午）开始的一天任务。 由于EST用户在一天中只剩下2个工作小时，因此任务完成日期会延长约6小时，直至下一个工作日。
 
 
 >[!ENDSHADEBOX]
@@ -126,7 +137,7 @@ EST用户被分配到计划于9:00 AM PST（即EST正午）开始的一天任务
 
 您可以在自定义表单中使用一系列计算出的自定义字段来显示组织中用户的当前时间，如显示多个城市中的时间的一行机场时钟。 您可以为用户工作的每个时区创建一个字段，每个字段都会计算其时区的时间。
 
-有关详细信息，请参阅[将计算字段添加到表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)，以及文章[计算数据表达式概述](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)中的[日期和时间计算自定义字段](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date)部分。
+有关详细信息，请参阅[将计算字段添加到表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)，以及文章[计算数据表达式概述](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date)中的[日期和时间计算自定义字段](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)部分。
 
 ### 在自定义表单中使用文本字段而不是日期字段 {#use-text-fields-instead-of-date-fields-in-a-custom-form}
 

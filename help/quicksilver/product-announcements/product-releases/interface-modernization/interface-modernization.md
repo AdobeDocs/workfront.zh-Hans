@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 93395934865cdf1d8b7b84a1b3134e69c9ac9c3b
+source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
 workflow-type: tm+mt
-source-wordcount: '5855'
+source-wordcount: '5853'
 ht-degree: 0%
 
 ---
@@ -357,7 +357,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 ### “另存为模板”框的新外观
 
-**预览版本： 2025年6月12日；生产版本：待宣布**
+**预览版本： 2025年6月12日；生产版本： 2025年6月19日
 
 我们更新了将项目另存为模板时显示的“另存为模板”框的外观。 新设计包括一个简化的界面，其中所有部分都以一个聚合形式显示，您可以使用左侧面板中的链接进行导航。 新设计可与应用程序中的其他区域和其他对象相匹配。
 

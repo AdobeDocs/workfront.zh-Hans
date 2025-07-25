@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d8ac4d94-28b5-41d6-acb8-259696897c8a
-source-git-commit: ee366e05097518a4618dd11ed5807b8766465d94
+source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '486'
 ht-degree: 2%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证*</p></td> 
-   <td><p> 标准 </p>
+   <td><p> 浅色或更高 </p>
    <p>Workfront计划不适用于旧版Workfront许可证</p> 
   </td> 
   </tr> 
@@ -77,8 +77,8 @@ ht-degree: 2%
   </tr> 
 <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
-   <td>   <p>管理视图的权限</p>  
-   <p>查看对视图的权限以临时更改视图设置、复制或导出它。</p> </td> 
+   <td>   <p>查看或更高的视图权限</p>  
+   </td> 
   </tr> 
 </tbody> 
 </table>
