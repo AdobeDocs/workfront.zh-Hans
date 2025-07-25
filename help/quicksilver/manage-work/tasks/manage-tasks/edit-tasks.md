@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: f98dd9c4bbb342e20ef77690ef20b0b14f5e9b6b
 workflow-type: tm+mt
-source-wordcount: '3721'
+source-wordcount: '3723'
 ht-degree: 3%
 
 ---
@@ -360,7 +360,7 @@ ht-degree: 3%
       <li> <p>分配给任务的资源数 </p> </li> 
       <li> <p>完成任务所需的总工作量 </p> </li> 
       <li> <p> 任务的总持续时间。 </p> </li> 
-       </ul> <p>您的Workfront管理员或组管理员为您的系统或组中的任务选择默认持续时间类型设置。 有关设置项目默认设置的信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">配置系统范围的项目首选项</a>。 </p> <p>持续时间类型使您能够根据任务的需要设置一致的资源分配。 有关任务的持续时间类型的详细信息，请参阅<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">任务持续时间和持续时间类型概览</a>。 </p> <p>从以下选项中选择： </p> 
+       </ul> <p>您的Workfront管理员或组管理员为您的系统或组中的任务选择默认持续时间类型设置。 有关设置项目默认设置的信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">配置系统范围的任务和问题首选项</a>。 </p> <p>持续时间类型使您能够根据任务的需要设置一致的资源分配。 有关任务的持续时间类型的详细信息，请参阅<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">任务持续时间和持续时间类型概览</a>。 </p> <p>从以下选项中选择： </p> 
        <ul> 
       <li> <p>计算的分配量 </p> </li> 
       <li> <p> 计算的工作量 </p> </li> 
