@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 83c9f6f36acad5182c63a74aa2f8e286ba1b839d
+source-git-commit: 7d7c7c98eb133ad35a940db2711c579d1f83045b
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '715'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >
 >| 每月发布 | 季度发布 |
 >|----|----|
->| <ul><li>25.9（2025年9月）</li><li>25.10（2025年10月）</li><li>25.11（2025年11月）</li></ul> | <ul><li>25.10（2025年10月）</li></ul> |
+>| <ul><li>25.8（2025年8月）</li><li>25.9（2025年9月）</li><li>25.10（2025年10月）</li><li>25.11（2025年11月）</li></ul> | <ul><li>25.10（2025年10月）</li></ul> |
 >
 >请注意，对于每季度的最终版本（本季度25.10版），按照快速发布计划排程的用户将提前一天收到版本。
 >
@@ -109,7 +109,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion增强
 
-Workfront Fusion中的新增功能在标准发布计划之外的生产环境中提供。 有关最新功能的详细信息，请参阅[Adobe Workfront Fusion发行活动](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
+Workfront Fusion中的新增功能在标准发布计划之外的生产环境中提供。 有关最新功能的详细信息，请参阅[Adobe Workfront Fusion发行活动](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
 
 ### Workfront规划增强功能
 
@@ -147,8 +147,8 @@ Workfront API版本20于2024年5月4日发布。 对于API版本20，我们修�
 
 ### Workfront 维护更新
 
-有关2025年第一季度版本中所做维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hans)。
+有关2025年第一季度版本中所做维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
 
 ### 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hans)的“新增功能”部分。
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的“新增功能”部分。
