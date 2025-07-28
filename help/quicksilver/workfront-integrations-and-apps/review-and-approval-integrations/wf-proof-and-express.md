@@ -7,12 +7,10 @@ description: 校对和Creative Cloud Express入门
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: ca9625b1cb3c51f208bad28792e9090802521dfa
+source-git-commit: dce2d9413b3a363d6508cabec0147c260817ed98
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -80,7 +78,7 @@ ht-degree: 0%
 
 ## 在Workfront中设置审批工作流
 
-必须先在Workfront中创建审批工作流，然后验证管理员才能在快速模板中添加审批工作流。
+用户必须先在Workfront中创建审批工作流，然后才能在Express模板中添加审批工作流，具有Standard许可证的验证管理员。
 
 有关详细信息，请参阅[创建和管理自动化工作流模板](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md)。
 
@@ -90,7 +88,9 @@ ht-degree: 0%
 
 如果重新混合使用Express模板，则需要先获得批准，然后才能发布 — 自动触发预配置的批准工作流。
 
-详细了解如何将审阅和批准工作流添加到可共享模板。<!--need link to help article-->
+用户必须具有Standard Workfront许可证才能请求Adobe Express的批准。
+
+了解如何[获得设计](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html)的批准。
 
 
 ## 重新组合Express模板并发送以供审阅和批准
@@ -104,8 +104,8 @@ Adobe Express用户可以根据自己的需求重新组合Express模板。 发�
 * 阅读评论
 * 等等
 
-了解如何获得设计批准。\
-<!--need link to help article-->
+<!--Learn how to get approval on designs.   
+need link to help article-->
 
 ## 审阅并批准重新混合的Express文件
 
@@ -113,8 +113,4 @@ Adobe Express用户可以根据自己的需求重新组合Express模板。 发�
 
 他们还负责做出最终决定，批准内容以供发布。
 
-详细了解如何在Workfront中查看和批准设计。
-
-
-Workfront Collaborator许可证 — 正在尝试找出如何在中处理此功能 — 
-
+用户必须至少拥有Collaborator Workfront许可证才能进行审查和决策。
