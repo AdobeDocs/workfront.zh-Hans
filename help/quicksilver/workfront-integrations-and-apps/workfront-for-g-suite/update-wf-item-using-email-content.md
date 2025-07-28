@@ -46,7 +46,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[！UICONTROL工作]，[！UICONTROL计划]</p> </td> 
+   <td> <p>[!UICONTROL 工作]，[!UICONTROL 计划]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,17 +80,17 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL更新]</td> 
+      <td role="rowheader">[!UICONTROL 更新]</td> 
       <td>编辑此文本的任何部分，这些部分取自电子邮件的主题行和正文文本。</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[！UICONTROL Include e-mail attachments]</td> 
-      <td><p>（仅当电子邮件至少包含一个附件时才可用。） 单击此选项可在任务或问题的[！UICONTROL文档]选项卡中保存附件。 </p><p>如果不想保存附件，请单击附件名称右侧的X。 </p><p>如果电子邮件包含指向[!DNL Google Drive]中文档的链接，则这些链接将保存到您正在创建的任务或问题的[！UICONTROL概述]选项卡中。 </p><p>重要信息： <span style="color: #ff1493;"><span style="color: #000000;">要使此功能正常工作，您的</span></span>[!DNL Workfront]管理员<span style="color: #ff1493;"><span style="color: #000000;">必须授权[!DNL Google Drive]与[!DNL Workfront]</span></span>协作</p>
+      <td role="rowheader">[!UICONTROL Include e-mail attachments]</td> 
+      <td><p>（仅当电子邮件至少包含一个附件时才可用。） 单击此选项可在任务或问题的[!UICONTROL 文档]选项卡中保存附件。 </p><p>如果不想保存附件，请单击附件名称右侧的X。 </p><p>如果电子邮件包含指向[!DNL Google Drive]中文档的链接，则这些链接将保存到您正在创建的任务或问题的[!UICONTROL 概述]选项卡中。 </p><p>重要信息： <span style="color: #ff1493;"><span style="color: #000000;">要使此功能正常工作，您的</span></span>[!DNL Workfront]管理员<span style="color: #ff1493;"><span style="color: #000000;">必须授权[!DNL Google Drive]与[!DNL Workfront]</span></span>协作</p>
       <p>如果启用此选项，则对于您转换为任务、问题和更新的其他电子邮件，此选项将保持启用状态。</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">通知</td> 
-      <td>单击<strong>[！UICONTROL通知]</strong>，单击显示的<strong>[！UICONTROL搜索用户或团队]</strong>选项，然后开始键入人员或团队的名称，并在该名称出现在以下列表中时单击它。 对要添加的每个人员和团队重复此操作，然后单击<strong>[！UICONTROL保存]</strong>。</td> 
+      <td>单击<strong>[!UICONTROL 通知]</strong>，单击显示的<strong>[!UICONTROL 搜索用户或团队]</strong>选项，然后开始键入人员或团队的名称，并在该名称出现在以下列表中时单击它。 对要添加的每个人员和团队重复此操作，然后单击<strong>[!UICONTROL 保存]</strong>。</td> 
      </tr> 
     </tbody> 
    </table>
