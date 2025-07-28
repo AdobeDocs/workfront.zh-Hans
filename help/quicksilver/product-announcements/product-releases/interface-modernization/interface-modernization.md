@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: f98dd9c4bbb342e20ef77690ef20b0b14f5e9b6b
+source-git-commit: d3a5d0c94df449a23e2b36d3e0f6fb816d306ce6
 workflow-type: tm+mt
-source-wordcount: '5853'
+source-wordcount: '5961'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## 组中周期性工时表列表的界面更新
 
-**预览版本： 2025年7月24日；生产版本：待宣布**
+**预览版本： 2025年7月24日；生产版本： 2025年7月28日**
 
 我们更新了组中左侧面板中时间表配置文件列表的外观，以匹配应用程序的其他区域。
 
@@ -50,15 +50,23 @@ ht-degree: 0%
 
 要查看此更改，请转到“设置”>“更改跟踪”>“审核日志”。
 
-<!--## Interface updates to the Update users for SSO page in Setup
+## 界面更新了“设置”中的“更新SSO用户”页面
 
-**Preview release: July 22, 2025; Production release: To be annoounced**
+**预览版本： 2025年7月22日；生产版本： 2025年7月28日**
 
-We have updated the Update users for SSO page with a more modern design that is consistent with other areas of Workfront.
+我们更新了“更新SSO用户”页面，更新后的设计更加现代化，与Workfront的其他区域一致。
 
-To view this change, go to Setup > System > Update Users For SSO-->
+要查看此更改，请转到“设置”>“系统”>“更新SSO的用户”
 
 ## 项目
+
+## 导入MS Project文件框的界面更新
+
+**预览版本： 2025年7月24日；生产版本：待宣布**
+
+在从MS Project导入项目以匹配Workfront其他区域的设计时，我们更新了“导入MS项目文件”框的外观。
+
+要查看此更改，请转到“项目”>“新建项目”>“导入MS项目”。
 
 ## 更新了项目或模板的“添加费用”框的界面
 
