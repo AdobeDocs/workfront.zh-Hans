@@ -28,9 +28,9 @@ ht-degree: 0%
 >
 >为了满足贵组织与Google Workspace的集成需求，我们建议使用Workfront自动化和集成。
 >
->有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 >
->有关Google Workspace的Workfront自动化和集成模块的特定功能的信息，请参阅[Gmail模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)和[Google日历模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)。
+>有关Google Workspace的Workfront自动化和集成模块的特定功能的信息，请参阅[Gmail模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)和[Google日历模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)。
 
 [!DNL Adobe Workfront for Google Workspace]将您连接到最重要的工作，并允许您在停留在[!DNL Gmail]、[!DNL Google Calendar]和[!DNL Google Drive]内时与他人协作。 您无需离开这些应用程序，即可捕获通过电子邮件发送的请求或工作更新并将它们添加到[!DNL Workfront]。 您无需离开收件箱即可查看[!DNL Workfront]中发生的情况，包括截止日期、优先级、文档、更新和其他上下文。 您可以做出批准决定、回复评论或接受新的工作请求。 您可以将电子邮件转换为个人项目任务或为他人分配工作和优先级。
 

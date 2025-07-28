@@ -23,9 +23,9 @@ ht-degree: 0%
 >
 >到8月，将有八个现成的Workfront Automation and Integration Templates for Jira可供使用，以帮助复制通用工作流程并加快实施。 模板是完全可自定义的，可满足特定的业务需求，并且可以随着需求的发展而扩展。
 > 
->有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 >
->有关Jira的Workfront自动化和集成模块的特定功能的信息，请参阅[Jira软件模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules)。
+>有关Jira的Workfront自动化和集成模块的特定功能的信息，请参阅[Jira软件模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules)。
 
 当您将[!DNL Jira]问题链接到[!DNL Adobe Workfront]个任务或问题时，您的用户可以在一个应用程序中更新项目，该项目的对应项也会针对在第二个应用程序中工作的用户进行更新。
 
