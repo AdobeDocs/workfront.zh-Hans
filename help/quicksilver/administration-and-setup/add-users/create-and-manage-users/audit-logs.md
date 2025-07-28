@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1523'
 ht-degree: 3%
 
 ---
@@ -91,7 +91,7 @@ ht-degree: 3%
 * 更改访问级别：
 
    * 修改许可证类型
-   * 更改对项目、任务、问题、Portfolio、程序、报告、文档、用户或模板的权限
+   * 更改项目、任务、问题、项目组合、项目、报告、文档、用户或模板的权限
 
      >[!NOTE]
      >
@@ -257,7 +257,7 @@ Business Rules仅适用于已购买Ultimate Workfront计划的客户。 有关�
 当用户执行以下操作之一时，系统会生成“登录尝试”审核日志条目：
 
 * 登录、注销或失败Workfront（在浏览器和移动设备应用程序中）的登录尝试
-* 在任何Workfront集成(例如，适用于Slack的Workfront和适用于Salesforce的Workfront)中登录、注销或登录尝试失败
+* 在任何Workfront集成(例如，适用于Slack的Workfront)中登录、注销或登录尝试失败
 * 登录或注销Workfront API
 
 Workfront管理员使用“登录身份”功能时，不会记录登录尝试日志。

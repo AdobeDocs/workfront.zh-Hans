@@ -1,29 +1,41 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: workfront-for-jira
-title: 为 [!DNL Jira]安装 [!DNL Adobe Workfront]
+title: 为 [!DNL Adobe Workfront] 安装 [!DNL Jira]
 description: 您可以使用 [!DNL Adobe Workfront] for [!DNL Jira] 来集成 [!DNL Jira] 和 [!DNL Workfront] 系统。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: f6e0feb1-349f-459f-9f93-c7492cb15f11
-source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
 
 # 安装[!DNL Adobe Workfront for Jira]
 
+>[!IMPORTANT]
+>
+>为了提供更稳定和可扩展的集成，我们正在使用Workfront自动化与集成(Fusion)转向一种现代、灵活的集成方法。 在此过渡过程中，Workfront for Jira集成在&#x200B;**2026年2月28日**&#x200B;后不可用。
+>
+>为了满足贵组织与Jira的集成需求，我们建议使用Workfront自动化和集成。
+>
+>到8月，将有八个现成的Workfront Automation and Integration Templates for Jira可供使用，以帮助复制通用工作流程并加快实施。 模板是完全可自定义的，可满足特定的业务需求，并且可以随着需求的发展而扩展。
+> 
+>有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>
+>有关Jira的Workfront自动化和集成模块的特定功能的信息，请参阅[Jira软件模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules)。
+
 您可以使用[!DNL Adobe Workfront for Jira]来集成[!DNL Jira]和[!DNL Workfront]系统。
 
-安装加载项后，您可以定义在创建[!DNL Workfront]工作项时自动创建[!DNL Jira]问题的工作流。 两个应用程序中的项目会相互链接，并且其中的一些信息可以在两个系统中自动更新。
+安装加载项后，您可以定义在创建[!DNL Jira]工作项时自动创建[!DNL Workfront]问题的工作流。 两个应用程序中的项目会相互链接，并且其中的一些信息可以在两个系统中自动更新。
 
 [!DNL Workfront]和[!DNL Jira]中的所有用户都可从此集成中受益。 他们只需要许可证就可以使用他们最常使用的系统，而不需要许可证就可以同时使用两个系统。
 
-此加载项可用于[!DNL Jira]软件的[!UICONTROL 服务器]和[!UICONTROL OnDemand] （或[!UICONTROL 云]）版本。 此加载项不可用于[!DNL Jira]软件的[!DNL Data Center]版本。
+此加载项可用于[!UICONTROL 软件的]服务器[!UICONTROL 和]OnDemand[!UICONTROL  （或]云[!DNL Jira]）版本。 此加载项不可用于[!DNL Data Center]软件的[!DNL Jira]版本。
 
-有关[!DNL Workfront for Jira]当前支持的[!DNL Jira]版本的列表，请参阅Atlassian Marketplace上的[[!DNL [!DNL Workfront for Jira]]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&amp;tab=overview)。
+有关[!DNL Jira]当前支持的[!DNL Workfront for Jira]版本的列表，请参阅Atlassian Marketplace上的[[!DNL [!DNL Workfront for Jira]]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview)。
 
 ## 访问要求
 
@@ -39,13 +51,13 @@ ht-degree: 0%
    <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
    <td> 
    <p>新建：任何</p>
-   <p>当前： [!UICONTROL Pro]或更高版本</p> </td> 
+   <p>当前： [！UICONTROL Pro]或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe[!DNL Workfront]许可证概述</td> 
+   <td role="rowheader">Adobe [!DNL Workfront]许可证概述</td> 
    <td> 
    <p>新增：标准</p>
-   <p>当前： [!UICONTROL 计划]</p></td> 
+   <p>当前： [！UICONTROL计划]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Jira] 访问</td> 
@@ -62,9 +74,9 @@ ht-degree: 0%
 
 +++
 
-## 为[!DNL Jira]安装[!DNL Workfront]
+## 为[!DNL Workfront]安装[!DNL Jira]
 
-为[!DNL Jira] OnDemand安装[!DNL Workfront]与在[!DNL Jira]服务器实例上安装它相同。
+为[!DNL Workfront] OnDemand安装[!DNL Jira]与在[!DNL Jira]服务器实例上安装它相同。
 
 您必须是[!DNL Jira]管理员才能安装[!DNL Workfront]加载项。
 
@@ -75,11 +87,11 @@ ht-degree: 0%
 要安装[!DNL Workfront for Jira]：
 
 1. 以[!DNL Jira]管理员身份登录[!DNL Jira]。
-1. 在[[!DNL Atlassian Marketplace]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&amp;tab=overview)中找到&#x200B;**[!DNL Workfront for Jira]**&#x200B;加载项。
+1. 在&#x200B;**[!DNL Workfront for Jira]**[[!DNL Atlassian Marketplace]&#x200B;中找到](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview)加载项。
 
 1. 单击&#x200B;**[!UICONTROL 立即获取它]**&#x200B;以进行安装。
 
-   安装完成后，您可以从[!DNL Jira]登录到[!DNL Workfront]并配置集成。
+   安装完成后，您可以从[!DNL Workfront]登录到[!DNL Jira]并配置集成。
 
    有关详细信息，请参阅[配置Adobe Workfront for Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)。
 
@@ -87,9 +99,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->这些要求不适用于[!DNL Jira]软件的[!UICONTROL OnDemand] ([!UICONTROL Cloud])版本。
+>这些要求不适用于[!UICONTROL 软件的]OnDemand[!UICONTROL  (]Cloud[!DNL Jira])版本。
 
-尽管在两个[!DNL Jira]环境中安装[!DNL Workfront]加载项类似，但在使用[!DNL Jira Server]安装时必须考虑以下事项：
+尽管在两个[!DNL Workfront]环境中安装[!DNL Jira]加载项类似，但在使用[!DNL Jira Server]安装时必须考虑以下事项：
 
 * 在[!DNL Jira]中配置加载项时，在&#x200B;**[!DNL JIRA Base URL]**&#x200B;字段中指定的地址可能与您在专用服务器上用于访问[!DNL Jira]的URL不同。 **[!DNL JIRA Base URL]**&#x200B;必须是一个可公开访问的地址，该地址使用NAT或反向代理协议连接到您的专用服务器，因此[!DNL Workfront]可以访问该地址以向您的服务器发出请求。
 

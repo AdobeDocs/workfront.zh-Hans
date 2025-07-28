@@ -7,18 +7,28 @@ description: 无需离开Google Workspace，即可访问您的 [!DNL Adobe Workf
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
 
-# 从[!DNL Google Workspace]访问[!DNL Adobe Workfront] [!UICONTROL 主页]内容
+# 从[!DNL Adobe Workfront]访问主页[!DNL Google Workspace]内容
 
->[!NOTE]
+>[!IMPORTANT]
 >
->适用于Google的Adobe Workfront插件的最新版本于2023年6月26日发布。
+>为了提供更稳定和可扩展的集成，我们正在使用Workfront自动化与集成(Fusion)转向一种现代、灵活的集成方法。 在此过渡过程中，以下适用于Google Workspace的Workfront功能在&#x200B;**2026年2月28日**&#x200B;之后将不可用：
+>
+>* 从Workfront访问Google Workspace功能
+>
+>* 从Gmail或Google日历网站面板查看和管理Workfront任务
+>
+>为了满足贵组织与Google Workspace的集成需求，我们建议使用Workfront自动化和集成。
+>
+>有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>
+>有关Google Workspace的Workfront自动化和集成模块的特定功能的信息，请参阅[Gmail模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)和[Google日历模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)。
 
 无需离开Google Workspace，即可访问您的[!DNL Adobe Workfront] [!UICONTROL 主页]内容，包括分配给您的所有任务、问题、批准和访问请求。
 
@@ -36,7 +46,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[!UICONTROL 工作]，[!UICONTROL 计划]</p> </td> 
+   <td> <p>[！UICONTROL工作]，[！UICONTROL计划]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -45,16 +55,16 @@ ht-degree: 0%
 
 ## 先决条件
 
-在从[!DNL Google Workspace]访问[!UICONTROL 主页]内容之前，您必须
+在从[!UICONTROL 访问]主页[!DNL Google Workspace]内容之前，您必须
 
 * 安装[!DNL Workfront for Google Workspace]\
    有关说明，请参阅[安装 [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)。
 
-## 从[!DNL Google Workspace]访问[!DNL Workfront] [!UICONTROL 主页]
+## 从[!DNL Workfront]访问主页[!DNL Google Workspace]
 
 1. 确保您已登录到[!DNL Workfront]。
-1. 如果未显示[!UICONTROL Workfront for Google Workspace]面板，请单击页面最右侧[!DNL Google Workspace]加载项侧边栏中的[!DNL Workfront]图标![Workfront图标](assets/wf-lion-icon.png)。
-1. 如果您在[!DNL Google Workspace]的[!DNL Workfront]顶部看到向左箭头，请单击该箭头以转到[!UICONTROL 主页]区域。
+1. 如果未显示[!UICONTROL Workfront for Google Workspace]面板，请单击页面最右侧[!DNL Workfront]加载项侧边栏中的![图标](assets/wf-lion-icon.png)Workfront图标[!DNL Google Workspace]。
+1. 如果您在[!DNL Workfront]的[!DNL Google Workspace]顶部看到向左箭头，请单击该箭头以转到[!UICONTROL 主页]区域。
 
 1. 在&#x200B;**[!UICONTROL 排序依据]**&#x200B;区域中，单击展开箭头![展开箭头](assets/dropdown-arrow.png)，然后单击选项以指定工作项的分组方式，以便找到所需工作项。
 

@@ -1,15 +1,15 @@
 ---
 product-area: workfront-integrations
-keywords: adobe，box，dropbox，gsuite，google，jira，microsoft，salesforce，sharepoint，slack，webdam，zoom
+keywords: adobe，box，dropbox，microsoft，sharepoint，slack，webdam，缩放
 navigation-topic: workfront-integrations-navigation-topic
 title: Adobe Workfront内置集成概述
 description: 您可以将 [!DNL Adobe Workfront] 与第三方应用程序集成。 这些集成可以扩展 [!DNL Workfront] 的实用工具，并根据贵组织的需求对其进行定制。 例如，如果您是营销行业的创意工作者，则可以使用Adobe Creative Cloud加载项将资产直接从Photoshop导出到Workfront。
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: af54faae1e78d7ffbe679fd82dfb5a3abd45f5cf
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '433'
 ht-degree: 3%
 
 ---
@@ -44,7 +44,7 @@ Workfront中目前提供以下内置集成。
      <li>After Effects </li>
      </ul>
      <li><p>从<a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>下载/安装。</p></li></ul>
-     <p>有关信息和说明，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">为[!DNL Adobe Workfront]应用程序安装[!DNL Creative Cloud]插件</a>。</p> </td> 
+     <p>有关信息和说明，请参阅<a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">为[!DNL Adobe Workfront]应用程序安装[!DNL Creative Cloud]插件</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Adobe Experience Manager Assets和Assets Essentials </p>  </p> </td> 
@@ -72,27 +72,10 @@ Workfront中目前提供以下内置集成。
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>G Suite</p> <p> <img src="assets/gsuite.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>将Google Workspace电子邮件添加到项目或任务 </li> 
-     <li>在Gmail中查看和管理[!DNL Workfront]通知</li> 
-     <li>通过Gmail提交请求 </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
    <td role="rowheader"> <p>Google Drive</p> <p> <img src="assets/google-drive-logo.png"> </p> </td> 
    <td> 
     <ul> 
      <li>将文档和文件夹链接到 [!DNL Workfront]</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>Jira</p> <p> <img src="assets/jiralogo.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>在[!DNL Jira]中根据中的任务和问题创建新票证 [!DNL Workfront]</li> 
-     <li>在[!DNL Workfront]和[!DNL Jira]之间同步链接任务的更新和状态 </li> 
     </ul> </td> 
   </tr> 
   <!--<tr> 
@@ -128,21 +111,6 @@ Workfront中目前提供以下内置集成。
      <li>搜索[!DNL Workfront]项目、任务和问题 </li> 
      <li>创建[!DNL Workfront]个人任务 </li> 
      <li>提交[!DNL Workfront]请求 </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>Salesforce</p> <p> <img src="assets/salesforce-logo-web-2019.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>从[!DNL Workfront]创建新[!DNL Salesforce]请求 </li> 
-     <li>创建[!DNL Workfront]项目 [!DNL Salesforce]</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>Sharepoint</p> <p> <img src="assets/sharepoint.png"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>将文档和文件夹链接到 [!DNL Workfront]</li> 
     </ul> </td> 
   </tr> 
   <tr> 

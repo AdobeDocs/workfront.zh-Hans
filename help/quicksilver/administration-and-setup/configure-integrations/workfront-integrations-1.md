@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: af54faae1e78d7ffbe679fd82dfb5a3abd45f5cf
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1151'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 1. **识别您的技术管理员**
 
-   确定您要与[!DNL Workfront]集成的应用程序的技术管理员。 例如，如果您选择与[!DNL Jira]集成，则必须与贵公司的[!DNL Jira]管理员建立连接，并让他们参与其平台内的任何配置需求。 您还应该让此管理员参与与[!DNL Workfront]客户支持的任何对话。
+   确定您要与[!DNL Workfront]集成的应用程序的技术管理员。 例如，如果您选择与[!DNL Slack]集成，则必须与贵公司的[!DNL Slack]管理员建立连接，并让他们参与其平台内的任何配置需求。 您还应该让此管理员参与与[!DNL Workfront]客户支持的任何对话。
 
    要启动管理员，您需要向他们提供该集成的特定说明。 有关这些说明的链接，请参阅[免费提供的集成](#integrations-available-at-no-additional-cost)。
 
@@ -113,7 +113,7 @@ ht-degree: 0%
      <li>After Effects </li>
      </ul>
      <li><p>从<a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>下载/安装。</p></li></ul>
-     <p>有关信息和说明，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">为[!DNL Adobe Workfront]应用程序安装[!DNL Creative Cloud]插件</a></p> 
+     <p>有关信息和说明，请参阅<a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">为[!DNL Adobe Workfront]应用程序安装[!DNL Creative Cloud]插件</a></p> 
      </td>  <td> </td> 
    <td> </td> 
   </tr> 
@@ -148,27 +148,6 @@ ht-degree: 0%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Google Workspace]</p> <p> <img src="assets/gsuite.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>将[!DNL Google Workspace]电子邮件添加到项目或任务 </li> 
-     <li>在中查看和管理[!DNL Workfront]通知 [!DNL Gmail]</li> 
-     <li>通过[!DNL Gmail]提交请求 </li> 
-    </ul> <p>有关详细信息，请参阅<a href="../../workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md" class="MCXref xref">[!DNL Adobe Workfront for Google Workspace]</a>。</p> </td> 
-   <td> 
-    <ul> 
-     <li>[!DNL Google Workspace] 用户必须具有[!DNL Workfront]许可证 </li> 
-     <li>[!DNL Workfront] 必须为每个访问级别设置查看和工作共享权限 </li> 
-     <li> 用户必须具有启用POP的电子邮件帐户 </li> 
-     <li>[!DNL Workfront] 请求设置必须包括POP设置 </li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>[!DNL Google Workspace] 管理员</li> 
-     <li>[!DNL Workfront] 管理员 </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
    <td> <p>[!DNL Google Drive]</p> <p> <img src="assets/google-drive-logo.png"> </p> </td> 
    <td> 
     <ul> 
@@ -176,24 +155,6 @@ ht-degree: 0%
     </ul> <p>有关详细信息，请参阅<a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref">配置文档集成</a>。</p> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>[!DNL Jira]</p> <p> <img src="assets/jiralogo.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>在[!DNL Jira]中根据中的任务和问题创建新票证 [!DNL Workfront]</li> 
-     <li>在Workfront和[!DNL Jira]之间同步链接任务的更新和状态 </li> 
-     <li>同时适用于[!DNL Jira Server]和[!DNL Jira Cloud] </li> 
-    </ul> <p>有关详细信息，请参阅<a href="../../workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md" class="MCXref xref">[!DNL Adobe Workfront for Jira]</a>。</p> </td> 
-   <td> 
-    <ul> 
-     <li><p>新的Workfront计划：[!UICONTROL Select] [!DNL Workfront]计划或更高版本</p><p>当前Workfront计划： [!UICONTROL Pro] [!DNL Workfront]计划或更高版本</p> </li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li> 仅由[!DNL Jira]管理员安装</li> 
-     <li>非[!DNL Jira]管理员必须向[!DNL Jira]管理员请求并被授予访问权限</li> 
-    </ul> </td> 
   </tr> 
   <!--<tr> 
    <td>[!DNL Microsoft] Calendars ([!DNL Office 365] / [!DNL Outlook Live])</td> 
@@ -255,23 +216,6 @@ ht-degree: 0%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Salesforce]</p> <p> <img src="assets/salesforce-logo-web-2019.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>从[!DNL Workfront]创建新[!DNL Salesforce]请求 </li> 
-     <li>创建[!DNL Workfront]项目 [!DNL Salesforce]</li> 
-    </ul> <p>有关详细信息，请参阅<a href="../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md" class="MCXref xref">[!DNL Adobe Workfront for Salesforce]</a>。</p> </td> 
-   <td> 
-    <ul> 
-     <li><p>新的Workfront计划：[!UICONTROL Select] [!DNL Workfront]计划或更高版本</p><p>当前Workfront计划： [!UICONTROL Pro] [!DNL Workfront]计划或更高版本</p> </li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>[!DNL Salesforce] 管理员</li> 
-     <li>[!DNL Workfront] 管理员</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
    <td> <p>[!DNL SharePoint]</p> <p> <img src="assets/sharepoint.png"> </p> </td> 
    <td> 
     <ul> 
@@ -320,7 +264,7 @@ ht-degree: 0%
 
   [!DNL Adobe Workfront Fusion]链接应用和服务内部以及它们之间的操作，以创建自动传输和转换数据的方案。 它具有到许多应用程序的专用连接器，但可以使用公共API连接到任何应用程序。
 
-  有关详细信息，请参阅[[!DNL Adobe Workfront Fusion] 概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+  有关详细信息，请参阅[[!DNL Adobe Workfront Fusion] 概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 * [!DNL Adobe Experience Manager Assets]
 * [!DNL Anaplan] （需要[!DNL Workfront Fusion]）

@@ -1,21 +1,31 @@
 ---
 product-area: workfront-integrations
 navigation-topic: workfront-for-salesforce
-title: 提交来自 [!DNL Salesforce] 对象的 [!DNL Adobe Workfront] 请求
-description: 安装来自 [!DNL Salesforce] 机会和帐户的 [!DNL Salesforce], you can submit [!DNL Workfront] 请求的 [!DNL Adobe Workfront] 后。 经典和Lightning Experience框架中均存在此功能。
+title: 提交来自 [!DNL Adobe Workfront] 对象的 [!DNL Salesforce] 请求
+description: 安装来自 [!DNL Adobe Workfront] 机会和帐户的 [!DNL Salesforce], you can submit [!DNL Workfront] 请求的 [!DNL Salesforce] 后。 经典和Lightning Experience框架中均存在此功能。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 84f8cb15-4840-4fe1-bf60-93bc4283b564
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '632'
 ht-degree: 2%
 
 ---
 
-# 提交来自[!DNL Salesforce]对象的[!DNL Adobe Workfront]请求
+# 提交来自[!DNL Adobe Workfront]对象的[!DNL Salesforce]请求
 
-安装[!DNL Adobe Workfront for Salesforce]后，您可以提交来自[!DNL Salesforce]机会和帐户的[!DNL Workfront]请求。 此功能同时存在于[!DNL Classic]和[!DNL Lightning Experience]框架中。
+>[!IMPORTANT]
+>
+>为了提供更稳定和可扩展的集成，我们正在使用Workfront自动化与集成(Fusion)转向一种现代、灵活的集成方法。 在此过渡过程中，Workfront for Salesforce集成在&#x200B;**2026年2月28日**&#x200B;后不可用。
+>
+>为了满足贵组织与Salesforce的集成需求，我们建议使用Workfront自动化和集成。
+>
+>有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>
+>有关Salesforce的Workfront自动化和集成模块的特定功能的信息，请参阅[Salesforce模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules)。
+
+安装[!DNL Adobe Workfront for Salesforce]后，您可以提交来自[!DNL Workfront]机会和帐户的[!DNL Salesforce]请求。 此功能同时存在于[!DNL Classic]和[!DNL Lightning Experience]框架中。
 
 ## 访问要求
 
@@ -27,11 +37,11 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader"><p>[!DNL Adobe Workfront] 计划*</p></td> 
-   <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
+   <td> <p>[！UICONTROL Pro]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>[!DNL Adobe Workfront] 许可证*</p></td> 
-   <td> <p>[!UICONTROL 计划]</p> </td> 
+   <td> <p>[！UICONTROL计划]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -40,18 +50,18 @@ ht-degree: 2%
 
 ## 先决条件
 
-要提交来自[!DNL Salesforce]机会或帐户的[!DNL Workfront]请求，请确保您的环境中有以下各项：
+要提交来自[!DNL Workfront]机会或帐户的[!DNL Salesforce]请求，请确保您的环境中有以下各项：
 
 * 您的[!DNL Workfront]管理员已安装[!DNL Workfront for Salesforce]。\
    有关安装[!DNL Workfront for Salesforce]的详细信息，请参阅[安装 [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)
 
 * 您的[!DNL Workfront]管理员已将[!DNL Workfront]部分添加到您的[!UICONTROL Opportunity]和[!UICONTROL Account]页面布局。\
-   有关将[!DNL Workfront]分区添加到页面布局的详细信息，请参阅[为 [!DNL Salesforce] 用户配置 [!DNL Adobe Workfront] 分区](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)。
+   有关将[!DNL Workfront]分区添加到页面布局的详细信息，请参阅[为 [!DNL Adobe Workfront] 用户配置 [!DNL Salesforce] 分区](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)。
 
 * 您拥有[!DNL Workfront]帐户，并且可以从您的机会或帐户中的[!DNL Workfront]部分登录到该帐户。\
    登录后，您会看到[!UICONTROL 新请求]选项卡，您可以在其中开始输入请求。
 
-## 提交来自[!DNL Salesforce]的[!DNL Workfront]请求
+## 提交来自[!DNL Workfront]的[!DNL Salesforce]请求
 
 1. 转到Salesforce中的机会或帐户。
 1. 转到 [!DNL Workfront] 部分。
@@ -65,7 +75,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >在[!DNL Salesforce]中使用[!DNL Workfront]插件上载文档暂时不可用。
+   >在[!DNL Workfront]中使用[!DNL Salesforce]插件上载文档暂时不可用。
 
    继续执行[创建并提交 [!DNL Adobe Workfront] 请求](../../manage-work/requests/create-requests/create-submit-requests.md)中描述的步骤。
 

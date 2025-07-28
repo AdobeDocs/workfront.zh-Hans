@@ -7,14 +7,28 @@ description: 适用于Google Workspace的Workfront中的隐私和权限
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: abb8ffa1-1da6-46dd-a929-18b17014839a
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
 
 # 适用于Google Workspace的Workfront中的隐私和权限
+
+>[!IMPORTANT]
+>
+>为了提供更稳定和可扩展的集成，我们正在使用Workfront自动化与集成(Fusion)转向一种现代、灵活的集成方法。 在此过渡过程中，以下适用于Google Workspace的Workfront功能在&#x200B;**2026年2月28日**&#x200B;之后将不可用：
+>
+>* 从Workfront访问Google Workspace功能
+>
+>* 从Gmail或Google日历网站面板查看和管理Workfront任务
+>
+>为了满足贵组织与Google Workspace的集成需求，我们建议使用Workfront自动化和集成。
+>
+>有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>
+>有关Google Workspace的Workfront自动化和集成模块的特定功能的信息，请参阅[Gmail模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)和[Google日历模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)。
 
 由于客户隐私很重要，因此Adobe Workfront不会存储或收集通过Google插件应用程序的第三方授权产生的任何标识性客户数据。 Workfront for Google Workspace使用从Google API收到的信息并将其传输到任何其他应用程序将遵循[Google API服务用户数据策略](https://developers.google.com/terms/api-services-user-data-policy)，包括“有限使用”要求。
 

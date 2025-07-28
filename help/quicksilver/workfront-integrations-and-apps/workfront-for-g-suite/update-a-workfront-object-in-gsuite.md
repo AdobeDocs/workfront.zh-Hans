@@ -7,18 +7,28 @@ description: 无需离开Google Workspace，您即可对 [!DNL Adobe Workfront] 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 8e3edfb6-6822-4970-aa59-5fe5ee97d3b2
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '338'
 ht-degree: 1%
 
 ---
 
-# 从[!DNL Google Workspace]更新[!DNL Adobe Workfront]对象
+# 从[!DNL Adobe Workfront]更新[!DNL Google Workspace]对象
 
->[!NOTE]
+>[!IMPORTANT]
 >
->适用于Google的Adobe Workfront插件的最新版本于2023年6月26日发布。
+>为了提供更稳定和可扩展的集成，我们正在使用Workfront自动化与集成(Fusion)转向一种现代、灵活的集成方法。 在此过渡过程中，以下适用于Google Workspace的Workfront功能在&#x200B;**2026年2月28日**&#x200B;之后将不可用：
+>
+>* 从Workfront访问Google Workspace功能
+>
+>* 从Gmail或Google日历网站面板查看和管理Workfront任务
+>
+>为了满足贵组织与Google Workspace的集成需求，我们建议使用Workfront自动化和集成。
+>
+>有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>
+>有关Google Workspace的Workfront自动化和集成模块的特定功能的信息，请参阅[Gmail模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)和[Google日历模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)。
 
 不离开[!DNL Google Workspace]，您可以在[!DNL Adobe Workfront]对象上发布新的更新或现有更新的回复。
 
@@ -36,7 +46,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[!UICONTROL 工作]，[!UICONTROL 计划]</p> </td> 
+   <td> <p>[！UICONTROL工作]，[！UICONTROL计划]</p> </td> 
   </tr>  </tbody> 
 </table>
 
@@ -44,14 +54,14 @@ ht-degree: 1%
 
 ## 先决条件
 
-在更新[!DNL Google Workspace]中的[!DNL Workfront]对象之前，您必须
+在更新[!DNL Workfront]中的[!DNL Google Workspace]对象之前，您必须
 
 * 安装[!DNL Workfront for Google Workspace]\
    有关说明，请参阅[安装 [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)。
 
-## 更新[!DNL Google Workspace]中的[!DNL Workfront]对象
+## 更新[!DNL Workfront]中的[!DNL Google Workspace]对象
 
-1. 查看[!DNL Google Workspace]中的对象，如[从 [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)查看和管理 [!DNL Adobe Workfront] 对象详细信息中所述。
+1. 查看[!DNL Google Workspace]中的对象，如[从 [!DNL Adobe Workfront] 查看和管理 [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)对象详细信息中所述。
 
 1. 如果要发布新的更新，请单击&#x200B;**[!UICONTROL 更新]**&#x200B;选项卡。
 1. 单击&#x200B;**[!UICONTROL 开始新的更新]**，然后键入新的更新。
@@ -69,4 +79,4 @@ ht-degree: 1%
    1. 单击&#x200B;**[!UICONTROL 保存]**。
    1. 对要通知的任何其他用户或团队重复这三个步骤。
 
-1. 单击&#x200B;**[!UICONTROL Post]**。
+1. 单击&#x200B;**[!UICONTROL 帖子]**。
