@@ -5,9 +5,9 @@ description: 您可以使用AI自动填写请求字段。
 author: Becky
 feature: Get Started with Workfront
 exl-id: d053e604-5a28-4fd3-8f89-4467b6e46f02
-source-git-commit: a3e93311277bc5b68063e0ec1cbdcce3a40eb3dd
+source-git-commit: d890d467dfdade676a5c93f061a5cbeda53556b6
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '961'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->此功能目前是封闭测试版的一部分。 要启用此功能，请联系sargism@adobe.com。
+>此功能目前是封闭测试版的一部分。 要启用此功能，请联系`sargism@adobe.com`。
 >
 >要获得封闭测试版的资格，您的组织必须满足使用Workfront AI Assistant的要求。 有关详细信息，请参阅[AI助手先决条件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
 
@@ -25,6 +25,8 @@ AI可帮助您自动填写请求字段。 它可以根据以前的请求建议�
 您可以在提交请求之前批准或拒绝这些建议。
 
 自动填写不会覆盖您已填写的任何字段。
+
+用户不会收到他们无权访问的数据建议。
 
 ## 在填写表单时获取建议
 
@@ -162,4 +164,12 @@ AI可帮助您自动填写请求字段。 它可以根据以前的请求建议�
    或
 
    选择页面顶部的&#x200B;**全部接受**&#x200B;或&#x200B;**全部拒绝**&#x200B;以接受或拒绝所有建议。
+
+## 故障排除
+
+如果您没有获得预期的建议，可能是由于以下原因之一：
+
+* 您必须在系统中拥有至少一个月的请求数据，然后才能建议来自先前请求的字段值。
+* 请求数据项在系统中停留的时间必须超过24小时，然后才能在另一个请求中推荐。
+* 在上传文档以从中提取建议时，您可能没有遵循文档上传护栏。 有关详细信息，请参阅本文中的[文档上传护栏](#document-upload-guardrails)。
 
