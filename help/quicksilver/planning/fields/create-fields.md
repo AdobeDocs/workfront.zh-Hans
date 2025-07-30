@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: f4ea19368b664d0b3a47f93c70fd489685791538
 workflow-type: tm+mt
 source-wordcount: '5201'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=zh-Hans ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -35,12 +35,12 @@ ht-degree: 1%
 
 在Workfront Planning中，您可以通过以下方式创建字段：
 
-* 从头开始
-* 通过连接记录类型
-* 通过创建记录类型
-* 通过从模板创建工作区
-* 通过使用Excel或CSV文件导入记录类型
-* 通过导入现有Workfront字段的副本
+* [从头开始](#create-fields-from-scratch)
+* [通过连接记录类型](#create-fields-from-scratch)
+* [通过创建记录类型](#create-fields-by-creating-a-record-type)
+* [通过从模板创建工作区](#create-fields-by-creating-a-workspace-from-a-template)
+* [通过使用Excel或CSV文件导入记录类型](#create-fields-when-importing-record-types-from-a-csv-or-excel-file)
+* [通过导入现有Workfront字段的副本](#create-fields-by-importing-them-from-workfront)
 
 有关Workfront Planning字段的更多信息，请参阅[字段概述](/help/quicksilver/planning/fields/fields-overview.md)。
 
@@ -109,6 +109,45 @@ ht-degree: 1%
 *有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+## 通过连接记录类型创建字段
+
+在两种记录类型之间添加新连接，或者从其它应用程序添加记录类型和对象类型时，可以创建链接记录字段。
+
+有关连接Workfront Planning记录类型的信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
+
+<!--## Create fields by importing record types using an Excel or CSV file
+
+For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).-->
+
+## 通过创建记录类型创建字段
+
+创建记录类型时，默认情况下还会创建与新记录类型关联的多个字段。 有关详细信息，请参阅[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)。
+
+## 通过从模板创建工作区来创建字段
+
+从模板创建工作区时，Adobe Workfront Planning会为记录类型创建字段。
+
+有关信息，请参阅[创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md)。
+
+
+
+## 从CSV或Excel文件导入记录类型时创建字段
+
+使用CSV或Excel文件导入记录类型时，可以导入字段。
+
+有关信息，请参阅[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)。
+
+## 通过从Workfront导入字段来创建字段
+
+您可以导入现有Workfront字段的副本。
+
+从Workfront导入字段会为Workfront Planning记录类型创建每个字段的副本。
+
+复制字段后，这些字段彼此独立，不会交换信息。
+
+有关信息，请参阅[从Workfront导入字段](/help/quicksilver/planning/fields/import-fields-from-workfront.md)。
+
 
 ## 从头开始创建字段 {#create-fields-from-scratch}
 
@@ -319,7 +358,7 @@ ht-degree: 1%
 >数字字段在请求表单生成器中显示为单行文本字段类型。
 >
 >但是，字段格式将保留，并且这些字段的值将在提交请求后、记录类型和请求详细信息页面中显示为数字。
->&#x200B;>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
+>>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
 
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**数字**&#x200B;字段类型。
@@ -349,7 +388,7 @@ ht-degree: 1%
 >百分比字段在请求表单生成器中显示为单行文本字段类型。
 >
 >但是，字段格式将保留，并且这些字段的值将在提交请求后、记录类型和请求详细信息页面中显示为百分比。
->&#x200B;>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
+>>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
 
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**百分比**&#x200B;字段类型。
@@ -389,7 +428,7 @@ ht-degree: 1%
 >货币字段在请求表单生成器中显示为单行文本字段类型。
 >
 >但是，字段格式将保留，并且这些字段的值将在提交请求后、记录类型和请求详细信息页面中显示为货币。
->&#x200B;>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
+>>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**货币**&#x200B;字段类型。
 
@@ -443,6 +482,8 @@ ht-degree: 1%
 
 1. 单击所选表达式以显示定义并查看其格式。
 
+   <!--update screen shot for Maximize button-->
+
    ![公式表达式的描述](assets/description-of-formula-expression.png)
 
    有关支持的表达式的详细信息，请参阅[公式字段概述](/help/quicksilver/planning/fields/formula-fields.md)。
@@ -466,6 +507,12 @@ ht-degree: 1%
    >
    >![公式示例项目预算四个字段已移除](assets/formula-example-project-budget-four-fields-removed.png)
    >
+
+   <!--
+    1. <span class="preview">(Optional) Click **Maximize** to open the Formula box in a larger area. </span>
+           <span class="preview">The Formula box opens in a larger window. </span>
+    1. <span class="preview">(Optional and conditional) If you opened the Formula box in a larger area,click **Minimize** to return to the original formula field box.</span> 
+    -->
 
 1. 在&#x200B;**格式**&#x200B;字段中，从以下选项中进行选择，以标识公式类型字段中显示的结果的格式：
 
@@ -735,42 +782,6 @@ Create an Object field:
 
 -->
 
-## 通过连接记录类型创建字段
 
-在两种记录类型之间添加新连接，或者从其它应用程序添加记录类型和对象类型时，可以创建链接记录字段。
-
-有关连接Workfront Planning记录类型的信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
-
-<!--## Create fields by importing record types using an Excel or CSV file
-
-For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).-->
-
-## 通过创建记录类型创建字段
-
-创建记录类型时，默认情况下还会创建与新记录类型关联的多个字段。 有关详细信息，请参阅[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)。
-
-## 通过从模板创建工作区来创建字段
-
-从模板创建工作区时，Adobe Workfront Planning会为记录类型创建字段。
-
-有关信息，请参阅[创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md)。
-
-
-
-## 从CSV或Excel文件导入记录类型时创建字段
-
-使用CSV或Excel文件导入记录类型时，可以导入字段。
-
-有关信息，请参阅[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)。
-
-## 通过从Workfront导入字段来创建字段
-
-您可以导入现有Workfront字段的副本。
-
-从Workfront导入字段会为Workfront Planning记录类型创建每个字段的副本。
-
-复制字段后，这些字段彼此独立，不会交换信息。
-
-有关信息，请参阅[从Workfront导入字段](/help/quicksilver/planning/fields/import-fields-from-workfront.md)。
 
 

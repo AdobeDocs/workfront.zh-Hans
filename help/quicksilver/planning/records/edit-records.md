@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 567fa8c960f7db47279d6cde1f5e90dc7f38ae79
 workflow-type: tm+mt
-source-wordcount: '2196'
+source-wordcount: '2192'
 ht-degree: 0%
 
 ---
@@ -123,10 +123,10 @@ ht-degree: 0%
 
 您可以从以下区域编辑记录：
 
-* [从记录类型的表格视图中](#edit-a-record-inline-in-the-table-view-of-a-record-type)
-* [从视图中的记录预览](#edit-a-record-from-the-records-preview-in-a-view)
-* [从记录的页面](#edit-a-record-from-the-records-page)
-* [从“规划”部分的Workfront对象](#edit-a-record-from-a-workfront-object-in-the-planning-section)
+* [记录类型的表格视图](#edit-a-record-inline-in-the-table-view-of-a-record-type)
+* [在视图中预览记录](#edit-a-record-from-the-records-preview-in-a-view)
+* [记录的页面](#edit-a-record-from-the-records-page)
+* [“规划”部分中的Workfront对象](#edit-a-record-from-a-workfront-object-in-the-planning-section)
 
 ### 在记录类型的表视图中编辑内联记录
 
@@ -337,3 +337,40 @@ ht-degree: 0%
 将记录与Workfront对象连接后，您可以在Workfront中编辑该对象的Planning部分的Workfront Planning记录。
 
 有关详细信息，请参阅[管理来自Workfront对象的记录连接](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
+
+
+<!--
+
+<div class="preview">
+
+## Add new choices to an existing select field when editing records in the table view
+
+You can add new choices to an existing single- or multi-select field when editing records in the table view. 
+
+>[!IMPORTANT]
+>
+>The functionality described in this section is available only in the table view. It is not available in any other areas where single- or multi-select fields display.
+
+
+**EXAMPLE**
+
+You might have a single-select field called Status that has the choices New and Closed, and you want to add a choice for an In progress status. You can add the choice by doing one of the following things:
+
+* Editing the field. For information, see [Edit fields](/help/quicksilver/planning/fields/edit-fields.md)
+* Adding a new option while editing the record in the table view, as described below. 
+
+
+To add a new choice to an existing select field when editing a record: 
+
+1. Go to a record type page and open the table view. 
+1. Add the single- or multi-select field that you would like to add a choice to in the table view as a new column. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
+1. Start editing the field inline by double-clicking the cell for the field. 
+1. Type the name of the choice you want to add, then click **Add choice**.
+
+    ![Add choice in single-select field in table view](assets/add-choice-in-table-view-for-single-select-field.png)
+
+    The new choice is added immediately to the single-select field. 
+
+</div>
+
+-->

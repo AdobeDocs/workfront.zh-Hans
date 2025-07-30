@@ -3,14 +3,14 @@ content-type: overview
 product-area: projects;agile-and-teams
 navigation-topic: plan-a-project
 title: 项目团队概述
-description: 以某种能力与项目相关联的用户构成了项目团队。 在项目的“人员”区域下列出的用户是组成项目团队的用户。
+description: 以某种能力与项目相关联的用户构成了项目团队。 在项目或模板的“人员”区域下列出的用户是组成项目团队的用户。
 author: Alina
 feature: Work Management
 exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
-source-git-commit: 3dfb30646e8a967264f7e562441a52a059d73d32
+source-git-commit: d77da0569389104172fc759c53a9eb00acec4f65
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 0%
+source-wordcount: '450'
+ht-degree: 1%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 0%
 
 项目团队由以一定能力与项目关联的用户组成。 在项目的“人员”区域下列出的用户构成了项目团队。 例如，被分派处理项目的用户或项目所有者是项目团队的一部分。
 
+使用模板创建项目后，与项目模板工作相关联的用户或者模板所有者或发起人属于未来项目团队。
+
 ## 项目团队成员
 
 您可以手动或自动将用户分配给项目团队。 有关详细信息，请参阅[管理项目团队](../../../manage-work/projects/planning-a-project/manage-project-team.md)一文中的“将用户添加到项目团队”部分。
@@ -28,7 +30,13 @@ ht-degree: 0%
 
 ## 项目团队成员通知
 
-根据您的Adobe Workfront管理员启用的电子邮件通知，项目团队中的用户将收到项目上各种操作的通知。 有关启用电子邮件通知的更多信息，请参阅[为系统中的每个人配置事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)。
+根据您的Adobe Workfront管理员启用的电子邮件通知，项目团队中的用户将收到项目上各种操作的通知。
+
+有关更多信息，另请参阅以下文章：
+
+* [事件通知类型](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
+
+* [为系统中的每个人配置事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
 
 >[!NOTE]
 >
