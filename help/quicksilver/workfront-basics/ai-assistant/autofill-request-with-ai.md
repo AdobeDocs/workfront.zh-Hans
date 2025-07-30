@@ -5,9 +5,9 @@ description: 您可以使用AI自动填写请求字段。
 author: Becky
 feature: Get Started with Workfront
 exl-id: d053e604-5a28-4fd3-8f89-4467b6e46f02
-source-git-commit: d890d467dfdade676a5c93f061a5cbeda53556b6
+source-git-commit: b0454d5fe3d866b30513cdea67d22c06c5efbfb3
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '937'
 ht-degree: 1%
 
 ---
@@ -170,6 +170,5 @@ AI可帮助您自动填写请求字段。 它可以根据以前的请求建议�
 如果您没有获得预期的建议，可能是由于以下原因之一：
 
 * 您必须在系统中拥有至少一个月的请求数据，然后才能建议来自先前请求的字段值。
-* 请求数据项在系统中停留的时间必须超过24小时，然后才能在另一个请求中推荐。
 * 在上传文档以从中提取建议时，您可能没有遵循文档上传护栏。 有关详细信息，请参阅本文中的[文档上传护栏](#document-upload-guardrails)。
 
