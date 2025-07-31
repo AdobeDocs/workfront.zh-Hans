@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: d3a5d0c94df449a23e2b36d3e0f6fb816d306ce6
+source-git-commit: eafc56adab1fad3bbc1a4f3dc8f61e599ab21f57
 workflow-type: tm+mt
-source-wordcount: '5961'
+source-wordcount: '6162'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,50 @@ ht-degree: 0%
 
 ## 项目
 
+## 模板上“队列详细信息”部分的新外观
+
+**预览版本： 2025年7月31日；生产版本： 2025年8月7日**
+
+我们更新了模板的“队列详细信息”部分的外观。 现在，“队列详细信息”部分的外观与Workfront的其他区域相匹配。
+
+有关信息，请参阅[创建请求队列](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
+
+<!--## Interface updates when bulk editing templates
+
+**Preview release: July 31, 2025; Production release: August 7, 2025**
+
+We have updated the look and feel of the Edit templates box when editing templates in bulk from a list of templates. The organization of information on the Edit templates box now matches the single-template edit box.
+
+For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).-->
+
+## 模板上“将更新发送到用户”框的界面更新
+
+**预览版本： 2025年7月31日；生产版本： 2025年8月7日**
+
+在从模板的“人员”选项卡访问“将更新发送到用户”框时，我们更新了该框的外观。 向一个或多个用户发送更新时，将更新发送到用户框现在与Workfront的其他区域匹配。
+
+有关信息，请参阅[管理项目团队](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)。
+
+<!--## Updated experience when editing a Queue Topic in a project or template
+
+**Preview release: July 31, 2025; Production release: August 7, 2025**
+
+We have updated the look and feel of a Queue Topic when editing it on a template. The Queue Topic editing page now matches the design of other areas of Workfront.
+
+A small functionality change has been applied to the Routing Rules list. To edit A Queue Topic, select the Queue Topic from the list and click the Edit icon. You are no longer directed to the Queue Topic details page before you can edit.
+
+For more information, see [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).-->
+
+## 计费记录的界面更新
+
+**预览版本： 2025年7月31日；生产版本： 2025年8月7日**
+
+我们更新了计费记录的可计费小时、计费费用和固定收入页面的外观，以匹配应用程序的其他方面。 用于添加新的计费小时、计费费用和固定收入的对话框也已更新。
+
+要查看这些更改，请转到项目>开票记录>选择开票记录>可开票小时数、可开票费用或固定收入>添加新的可开票小时数、可开票费用或固定收入。
+
+有关信息，请参阅[创建开票记录](/help/quicksilver/manage-work/projects/project-finances/create-billing-records.md)。
+
 ## 导入MS Project文件框的界面更新
 
 **预览版本： 2025年7月24日；生产版本：待宣布**
@@ -84,7 +128,7 @@ ht-degree: 0%
 
 在模板上编辑路由规则时，我们更新了该规则的外观。 路由规则编辑页面现在与Workfront其他区域的设计相匹配。
 
-对“路由规则”列表进行了小幅功能更改。 要编辑路由规则，请从列表中选择路由规则，然后单击编辑图标。
+要编辑路由规则，请从列表中选择路由规则，然后单击编辑图标。
 
 有关信息，请参阅[创建路由规则](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)。
 
@@ -98,7 +142,7 @@ ht-degree: 0%
 * 主题组
 * 路由规则
 
-对列表进行了小的功能更改。 要编辑或删除其中一个列表中的项目，请选择该项目并单击相应的图标。
+要编辑或删除其中一个列表中的项目，请选择该项目并单击相应的图标。
 
 有关更多信息，请参阅
 
@@ -398,6 +442,11 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 ### 将对象添加到程序和项目组合时，外观和感觉更新
 
 **预览版本： 2025年5月22日；生产版本： 2025年5月29日**
+
+>[!NOTE]
+>
+>暂时从预览和生产中删除
+
 
 在执行以下操作时，我们更新了添加框的界面：
 

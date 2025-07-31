@@ -4,11 +4,10 @@ description: 2025年第四季度资源管理增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: 610066cc1b5703d048e867767474fb5335a2b0d5
+exl-id: c8c03cb5-0468-4c2b-b69e-70e4c1354514
+source-git-commit: 0dfeebeef4369a67072368eb4034e105818b99a5
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -19,11 +18,25 @@ ht-degree: 0%
 
 有关2025年第四季度发布周期中此时可用的所有更改列表，请参阅[ 2025年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)。
 
+## 工作负载均衡器现在可在您的用户配置文件上使用
+
+>[!NOTE]
+>
+>* 预览： 2025年7月31日
+>* 生产快速发布： 2025年8月14日
+>* 适用于所有客户的生产： 2025年10月16日
+
+现在，所有用户都可从其配置文件在工作负载均衡器中查看自己的需求和容量数据，无论其访问级别如何。 访问Workfront用户配置文件时，工作负载均衡器会显示在左侧导航面板中。
+
+用户的工作负载均衡器数据是只读的。 您不能在用户层分配工作、取消分配工作或调整分配。
+
+有关信息，请参阅[找到工作负载均衡器](/help/quicksilver/resource-mgmt/workload-balancer/locate-workload-balancer.md)。
+
 ## 角色分配显示在工作负载均衡器中
 
 >[!NOTE]
 >
->* 预览： 2025年7月24日
+>* 预览： 2025年7月31日
 >* 生产快速发布： 2025年8月14日
 >* 适用于所有客户的生产： 2025年10月16日
 

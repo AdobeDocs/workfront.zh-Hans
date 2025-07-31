@@ -1,5 +1,5 @@
 ---
-source-git-commit: 3744bb89d571a8cb8fa0600ba60ba2d2dce0da50
+source-git-commit: 4e7aa16333c7a24ee2ef67fb964be70ed45cd369
 workflow-type: tm+mt
 source-wordcount: '2648'
 ht-degree: 1%
@@ -55,7 +55,7 @@ ht-degree: 1%
 >
 >此页面上描述的过程仅适用于尚未载入[!DNL Adobe Experience Cloud]的组织。
 >
-> 如果贵组织已登记到[!DNL Adobe Experience Cloud]，请参阅 [!DNL Workfront][&#128279;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)的[!DNL Adobe Unified Experience] 。
+> 如果贵组织已登记到[!DNL Adobe Experience Cloud]，请参阅[[!DNL Adobe Unified Experience] 的 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 ## 第1步 — 仅单击主菜单 {#step1-click-main-menu}
 
@@ -355,13 +355,13 @@ ht-degree: 1%
 
 ## 步骤1 — 进入验证 —  {#step1-to-proofing}
 
-1. 在Workfront中，单击&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标，然后单击&#x200B;**[!UICONTROL 验证]**&#x200B;以访问Workfront Proof。
+1. 在Workfront中，单击&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角&#x200B;**[!UICONTROL 主菜单]**&#x200B;的![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)图标，然后单击&#x200B;**[!UICONTROL 验证]**&#x200B;以访问Workfront Proof。
 
 ## 最新DPV版本 {#latest-version}
 
 **最新版本**：
-* Mac：截至2025年6月13日，2.1.50
-* Windows：2025年6月13日的2.1.50
+* Mac：截至2025年7月31日，2.1.52
+* Windows：2025年7月31日的2.1.52
 
 <!-- Release -->
 
