@@ -6,9 +6,9 @@ description: 当项目中的任务需要比您最初计划更大的工作量完�
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: b781687b175167784367a2fdec158d97fb3fd6a4
+source-git-commit: 0c45c768be1dda579e507f5f6ff4b127021a5f73
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1148'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
+   <td> <p>规划 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
@@ -53,7 +53,7 @@ ht-degree: 2%
 * 所有子任务、问题和注释将汇总到新项目中。
 * 文档、文档版本和校样将移至新项目。
 * 所有子任务和问题的状态和完成百分比将保留。
-* 任务的共享用户将成为项目中的共享用户。
+* 任务被分派人和将任务转化为项目的用户成为项目中的共享用户。
 * 项目开始日期设置为任务的开始日期。
 * 下表列出了项目信息以及项目信息是从模板还是从任务转移：
 
@@ -148,7 +148,7 @@ ht-degree: 2%
     <td>从模板转移。 </td> 
     </tr> 
     <tr> 
-    <td>访问权限</td> 
+    <td>访问</td> 
     <td> <p>从模板上的Access部分转移。 </p> </td> 
     </tr> 
     <tr> 
