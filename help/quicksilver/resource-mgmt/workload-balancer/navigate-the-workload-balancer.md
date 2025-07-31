@@ -6,14 +6,16 @@ description: 使用工作负载均衡器了解资源的可用性并将工作分�
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 2d674504274dcbb4a44da80694fac331d3f17d88
 workflow-type: tm+mt
-source-wordcount: '4068'
+source-wordcount: '4271'
 ht-degree: 0%
 
 ---
 
 # 导航工作负载均衡器
+
+{{preview-fast-release-general}}
 
 <!--Audited: 12/2024-->
 
@@ -21,7 +23,7 @@ ht-degree: 0%
 
 工作负载均衡器在Adobe Workfront的多个区域中可用。 在所有区域导航都类似。
 
-有关工作负载均衡器位置的更多信息，请参阅[找到工作负载均衡器](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer)。
+有关工作负载均衡器位置的更多信息，请参阅[找到工作负载均衡器](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer)。
 
 ## 访问要求
 
@@ -38,7 +40,7 @@ ht-degree: 0%
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
    <td><p>新增：标准</p>
        <p>或</p>
        <p>当前：计划，在资源区域使用工作负载均衡器时；</br>
@@ -62,7 +64,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -80,8 +82,9 @@ ht-degree: 0%
   >* 分配给工作角色或团队的工作项以及分配给用户的工作项既显示在“未分配的工作”区域中，也显示在“已分配的工作”区域中的已分配用户名下。
   >* 分配给用户的工作项和工作角色（其中工作角色被选为该项的主要被分配人）显示在“未分配的工作”区域中。
   >* 分配给多个用户的工作项显示在“已分配的工作”区域的所有已分配用户名下。
+  >* 启用“显示角色分配”设置后，<span class="preview">角色分配显示在“未分配工作”区域的工作项下。 有关信息，请参阅本文中的[自定义视图](#customize-the-view)部分。</span>
 
-  有关详细信息，请参阅工作负载均衡器[&#128279;](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中的分配工作的概述中的“工作负载均衡器中的分配区域”。
+  有关详细信息，请参阅[在工作负载均衡器](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md#assignment-areas-in-the-workload-balancer)中分配工作的概述[工作负载平衡器](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中的分配区域。
 
 * 当项目在某个时间段内没有任务时，该项目级别的栏在该时间段为空白。
 
@@ -106,8 +109,8 @@ ht-degree: 0%
 
 有关使用工作负载均衡器管理资源的信息，另请参阅以下文章：
 
-* [在工作负载均衡器中分配工作的概述](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [在工作负载均衡器中管理用户分配](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
+* [在工作负载均衡器中分配工作的概述](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [在工作负载均衡器中管理用户分配](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 
 ## 在资源区域为多个项目导航工作负载均衡器
@@ -137,7 +140,9 @@ ht-degree: 0%
       * 应用过滤器后，会显示分配给角色、团队或未分配的工作项（任务和问题）。
 默认情况下，“未分配工作”区域不显示任何工作项。 我们建议使用过滤器来显示本区域为您提供的相关信息。
 
-        有关使用过滤器的信息，请参阅工作负载均衡器[&#128279;](../workload-balancer/filter-information-workload-balancer.md)中的过滤器信息。
+        有关使用过滤器的信息，请参阅工作负载均衡器[中的](../workload-balancer/filter-information-workload-balancer.md)过滤器信息。
+
+      * <span class="preview">仅当启用“显示角色分配”设置时，才会显示工作项下的角色分配。 有关信息，请参阅本文中的[自定义视图](#customize-the-view)部分。</span>
 
       * 仅当您启用“按项目分组”设置时，才会显示项目。 有关信息，请参阅本文中的[自定义视图](#customize-the-view)部分。
 
@@ -161,7 +166,7 @@ ht-degree: 0%
             > 
             >有关自定义设置的信息，请参阅本文中的[自定义视图](#customize-the-view)部分。
 
-1. （可选）单击&#x200B;**已分配工作**&#x200B;区域中的&#x200B;**筛选器**&#x200B;图标![筛选器图标](assets/filter-icon.png)，然后在筛选器框的&#x200B;**建议**&#x200B;区域中选择&#x200B;**默认筛选器**。
+1. （可选）单击&#x200B;**已分配工作**&#x200B;区域中的![筛选器](assets/filter-icon.png)图标&#x200B;**筛选器图标**，然后在筛选器框的&#x200B;**建议**&#x200B;区域中选择&#x200B;**默认筛选器**。
 
    应用默认筛选器时，属于任何团队及其工作项的用户会显示。 您可以编辑此筛选器的副本。
 
@@ -212,7 +217,7 @@ ht-degree: 0%
 
 1. （可选且推荐）使用“未分配”和“已分配的工作”区域中的筛选器以仅显示与您相关的工作项或用户。
 
-   有关详细信息，请参阅工作负载均衡器[&#128279;](../workload-balancer/filter-information-workload-balancer.md)中的过滤器信息。
+   有关详细信息，请参阅工作负载均衡器[中的](../workload-balancer/filter-information-workload-balancer.md)过滤器信息。
 
    默认情况下，蓝色条表示项目和任务的时间线，栗色条表示问题。
 
@@ -239,6 +244,10 @@ ht-degree: 0%
 
    右侧将显示设置面板。
 
+   <span class="preview">预览环境中的示例图像：</span>
+   ![工作负载均衡器设置面板](assets/workload-balancer-settings.png)
+
+   生产环境中的示例图像：
    ![设置面板](assets/settings-box-options-global-with-color-theme-and-percentage-wb-nwe.png)
 
    从下面列出的选项中进行选择，以更新在工作负载均衡器中查看的信息，然后单击“设置”框右上角的&#x200B;**X图标**&#x200B;以将其关闭。
@@ -260,6 +269,8 @@ ht-degree: 0%
 
      任务或问题栏完成时，其右上角会显示一个绿色复选标记图标。 在项目的选定时间范围内的任务或问题完成时，为项目显示相同的图标。
    * **显示剩余时间**：启用此功能后，Workfront会根据用户计划显示其每天可以工作的时间与在分配给用户的“已分配的工作”区域中为其分配的小时数之间的差值。 默认情况下禁用此项，默认情况下显示分配时间。
+   * <span class="preview">**显示角色分配**：启用此项后，角色分配会显示在“未分配工作”区域中，位于其分配的工作项下。 默认启用。</span>
+
    * 在&#x200B;**选择颜色主题**&#x200B;部分中，为项目和任务栏选择所需的颜色。
 
      >[!TIP]
@@ -304,17 +315,18 @@ ht-degree: 0%
    >* 您必须启用按项目分组设置以显示项目的每日计划小时数。
    >* 当您按周查看工作负载均衡器时，显示的小时数是每周计划小时数。
 
-
 1. （可选）将鼠标悬停在用户行中的已分配时间上以了解用户的容量和分配。 容量是用户根据其计划提供的可用性。
 
    ![分配的时间详细信息](assets/overallocation-vs-capacity-tooltip-wb-nwe.png)
 
 1. （可选）单击&#x200B;**隐藏分派图标** ![显示分派图标](assets/show-allocations-icon-small.png)以在工作项的栏中显示任务和问题的名称。
-1. 单击任务或问题名称右侧的&#x200B;**更多菜单**&#x200B;图标![更多图标](assets/more-icon.png)，然后单击以下选项之一。
+1. 单击任务、问题、**或角色**&#x200B;名称右侧的![更多菜单](assets/more-icon.png)图标<span class="preview">更多图标</span>，然后单击以下选项之一。
 
    ![更多菜单](assets/more-menu-right-of-task-350x104.png)
 
    * **将此工作项分配给**，然后在&#x200B;**搜索人员、角色或团队**&#x200B;字段中开始键入要将此工作项分配到的用户、角色或团队的名称。
+
+     单击&#x200B;**高级**&#x200B;访问工作项的高级工作分配屏幕。 有关详细信息，请参阅[创建高级工作](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md)。
 
      您还可以使用以下快捷方式分配任务或问题：
 
@@ -322,6 +334,10 @@ ht-degree: 0%
       * 在Mac中：按住CMD单击任务栏或问题栏。
 
      有关在工作负载均衡器中将工作项分配给用户的更多信息，请参阅[在工作负载均衡器中分配工作的概述](../workload-balancer/assign-work-in-workload-balancer.md)。
+
+     >[!NOTE]
+     >
+     ><span class="preview">启用“显示角色分配”设置后，角色分配仅显示在“未分配工作”区域的工作项下。 有关信息，请参阅本文中的[自定义视图](#customize-the-view)部分。 在&#x200B;**更多**.**菜单中，角色分配仅具有**&#x200B;将此项分配给</span>选项
 
      >[!TIP]
      >
@@ -397,7 +413,6 @@ ht-degree: 0%
 
 1. 单击&#x200B;**退出全屏**&#x200B;图标![退出全屏图标](assets/exit-full-screen.png)以返回默认屏幕并在浏览器选项卡中查看工作负载均衡器。
 
-
 ## 导航团队的工作负载均衡器
 
 在团队的工作负载均衡器中导航类似于在多个项目的工作负载均衡器中导航。 有关信息，请参阅本文中的[为多个项目导航工作负载均衡器](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area)部分。
@@ -412,10 +427,10 @@ ht-degree: 0%
 
    默认情况下，团队的工作负载均衡器显示以下信息：
 
-   * 在&#x200B;**未分配的工作**&#x200B;区域：分配给团队或团队和工作角色且未分配给用户的工作项。
+   * 在&#x200B;**未分配的工作**&#x200B;区域：分配给团队或团队和工作角色且未分配给用户的工作项。 启用“显示角色分配”设置后，<span class="preview">角色分配显示在“未分配工作”区域的工作项下。</span>
    * 在&#x200B;**已分配工作**&#x200B;区域：分配给用户的工作项显示在用户名下。
 
-1. 继续导航团队的工作负载均衡器，如本文的资源区域[&#128279;](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area)部分中的导航多个项目的工作负载均衡器中所述。
+1. 继续导航团队的工作负载均衡器，如本文的资源区域[部分中的](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area)导航多个项目的工作负载均衡器中所述。
 
 ## 在单个项目的工作负载均衡器中导航
 
@@ -428,12 +443,12 @@ ht-degree: 0%
 
    默认情况下，项目的工作负载均衡器显示以下信息：
 
-   * 在&#x200B;**未分配的工作**&#x200B;区域：项目上已分配给角色或团队但未分配给用户的工作项。
+   * 在&#x200B;**未分配的工作**&#x200B;区域：项目上已分配给角色或团队但未分配给用户的工作项。 启用“显示角色分配”设置后，<span class="preview">角色分配显示在“未分配工作”区域的工作项下。</span>
    * 在&#x200B;**已分配工作**&#x200B;区域：项目中至少分配给一个用户的工作项。
 
    我们建议使用过滤器来仅显示对您重要的用户。
 
-   例如，您可以考虑仅显示属于您的团队或组的用户。 有关详细信息，请参阅工作负载均衡器[&#128279;](../workload-balancer/filter-information-workload-balancer.md)中的过滤器信息。
+   例如，您可以考虑仅显示属于您的团队或组的用户。 有关详细信息，请参阅工作负载均衡器[中的](../workload-balancer/filter-information-workload-balancer.md)过滤器信息。
 
 1. （可选）在分配的工作区域中单击&#x200B;**筛选器**&#x200B;图标![筛选器图标](assets/filter-icon.png)，然后从筛选器面板的&#x200B;**建议**&#x200B;区域中选择&#x200B;**此项目的工作项**&#x200B;选项。 默认情况下，此筛选器处于取消选中状态。
 
