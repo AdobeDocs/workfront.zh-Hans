@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 3563d5e7136d8bd70504a0b7762c4be06e5a9c56
+source-git-commit: 81b40eda8536d1a63c38a297d92158a12f9d350e
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '937'
 ht-degree: 2%
 
 ---
@@ -183,5 +183,5 @@ ht-degree: 2%
 1. 转到包含要编辑的队列主题的项目或模板。
 1. 单击左侧面板中的&#x200B;**队列主题**。
 1. 在生产环境中，选择要编辑的队列主题。 在打开的详细信息页面上，单击&#x200B;**编辑队列主题**。
-1. <span class="preview">在“预览”环境中，选择要编辑的队列主题，然后单击“编辑”图标![“编辑”图标](assets/edit-icon.png)。</span>
+   <!--1. <span class="preview">In the Preview environment, select the Queue Topic that you want to edit, then click the Edit icon ![Edit icon](assets/edit-icon.png).</span>-->
 
