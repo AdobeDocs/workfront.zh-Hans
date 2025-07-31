@@ -6,14 +6,18 @@ description: 通过Adobe Workfront报表工具创建的报表可以添加到画�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
-source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
+source-git-commit: b8f25d9490173f8f23a0ba545486c99202f05a69
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
 
 # 将现有报表添加到画布功能板
+
+>[!IMPORTANT]
+>
+>画布功能板目前仅适用于参与Beta测试阶段的用户。 有关详细信息，请参阅[画布功能板测试版信息](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)。
 
 通过Adobe Workfront报表工具创建的报表可以添加到画布功能板。 有关创建报告的详细信息，请参阅[开始使用报告](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)。
 
