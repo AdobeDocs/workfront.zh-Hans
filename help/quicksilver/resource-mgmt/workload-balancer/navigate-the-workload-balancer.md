@@ -6,9 +6,9 @@ description: 使用工作负载均衡器了解资源的可用性并将工作分�
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 2d674504274dcbb4a44da80694fac331d3f17d88
+source-git-commit: a63c53652491a25b909b7563990d4375d8f5885f
 workflow-type: tm+mt
-source-wordcount: '4271'
+source-wordcount: '4371'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 工作负载均衡器在Adobe Workfront的多个区域中可用。 在所有区域导航都类似。
 
-有关工作负载均衡器位置的更多信息，请参阅[找到工作负载均衡器](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer)。
+有关工作负载均衡器位置的更多信息，请参阅[找到工作负载均衡器](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer)。
 
 ## 访问要求
 
@@ -109,8 +109,8 @@ ht-degree: 0%
 
 有关使用工作负载均衡器管理资源的信息，另请参阅以下文章：
 
-* [在工作负载均衡器中分配工作的概述](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [在工作负载均衡器中管理用户分配](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
+* [在工作负载均衡器中分配工作的概述](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [在工作负载均衡器中管理用户分配](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 
 ## 在资源区域为多个项目导航工作负载均衡器
@@ -478,12 +478,37 @@ ht-degree: 0%
 
    有关详细信息，请参阅[在项目和计划之间协调资源分配概述](../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)。
 
-
    >[!NOTE]
    >
    >如果您的组织尚未购买Workfront Scenario Planner的许可证，则无法查看计划工作角色信息。 在这种情况下，您只能查看与项目中的工作角色关联的已计划小时数。 有关详细信息，请参阅[使用Scenario Planner](../../scenario-planner/access-needed-to-use-sp.md)所需的访问权限。
 
 1. 继续导航项目的工作负载均衡器，如本文的[导航多个项目的工作负载均衡器](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area)部分中所述。
+
+<div class="preview">
+
+### 导航用户的工作负载均衡器
+
+您可以在自己的用户配置文件上访问工作负载均衡器。
+
+{{step1-click-profile-pic}}
+
+1. 单击左侧面板中的&#x200B;**工作负载均衡器**。
+
+   此时将显示用户的工作负载均衡器。
+
+   ![用户的工作负载均衡器](assets/workload-balancer-user.png)
+
+   默认情况下，用户的工作负载均衡器按信息显示以下内容：
+
+   * **已分配的工作**：已分配给特定用户的任务和问题。
+
+   >[!NOTE]
+   >
+   >用户配置文件上的工作负载均衡器是只读的，无法更改分配和分配。
+
+1. 继续导航用户的工作负载均衡器，如本文的[导航多个项目的工作负载均衡器](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area)部分中所述。
+
+</div>
 
 <!--old content below - this used to be a one-large-procedure article - outdated, and rewrote it above with several smaller procedures: 
 

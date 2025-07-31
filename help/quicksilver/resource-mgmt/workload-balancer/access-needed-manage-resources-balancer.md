@@ -6,14 +6,16 @@ description: 没有正确的访问权限或权限，您可能无法在工作负�
 author: Lisa
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 78d73d0d7bd0ffc00ae1afed0adb324501e0c310
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
 
 # 在工作负载均衡器中管理资源所需的访问权限
+
+{{preview-fast-release-general}}
 
 没有正确的访问权限或权限，您可能无法在工作负载均衡器查看或管理您的工作分配。
 
@@ -81,6 +83,8 @@ ht-degree: 0%
 </table>
 
 有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
+<span class="preview">所有用户都有权在其自己的配置文件上查看工作负载均衡器。 这不受许可证或访问级别的限制。 请注意，用户配置文件上的工作负载均衡器是只读的，无法更改分配和分配。</span>
 
 ## 管理工作负载均衡器中的分配所需的访问权限
 

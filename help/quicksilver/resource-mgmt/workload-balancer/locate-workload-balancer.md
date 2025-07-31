@@ -3,18 +3,20 @@ product-area: resource-management
 keywords: 工作，团队，员工，资源
 navigation-topic: the-workload-balancer
 title: 找到工作负载均衡器
-description: 您可以使用工作负载均衡器来计划工作的资源，或查看其可用性和当前分配。
+description: 工作负载均衡器可用于资源区域中的多个项目、团队、项目和用户。
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: a63c53652491a25b909b7563990d4375d8f5885f
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 1%
+source-wordcount: '841'
+ht-degree: 0%
 
 ---
 
 # 找到工作负载均衡器
+
+{{preview-fast-release-general}}
 
 您可以使用工作负载均衡器来计划工作的资源，或查看其可用性和当前分配。
 
@@ -55,7 +57,8 @@ ht-degree: 1%
    <td><p>新增：标准</p>
        <p>或</p>
        <p>当前：计划，在资源区域使用工作负载均衡器时；</br>
-       工作，使用团队或项目的工作负载均衡器时</p></td>
+       工作，使用团队或项目的工作负载均衡器时</p>
+       <p><span class="preview">注意：所有用户都可以在自己的用户配置文件中访问工作负载均衡器，而无需任何许可证要求。</span></p></td>
   </tr> 
    <td role="rowheader">访问级别配置</td> 
    <td> <p>查看以下内容或更高访问权限：</p> 
@@ -94,7 +97,7 @@ ht-degree: 1%
    * **未分配的工作**：没有未分配的工作项。
    * **已分配的工作**：系统中的所有活动用户。
 
-     在“已分配的工作”区域显示用户时，我们建议使用过滤器。 有关详细信息，请参阅工作负载均衡器[&#128279;](../workload-balancer/filter-information-workload-balancer.md)中的过滤器信息。
+     在“已分配的工作”区域显示用户时，我们建议使用过滤器。 有关详细信息，请参阅工作负载均衡器[中的](../workload-balancer/filter-information-workload-balancer.md)过滤器信息。
 
 ### 访问团队的工作负载均衡器
 
@@ -137,6 +140,27 @@ ht-degree: 1%
      >
      >通过启用“显示所有用户”选项，可以显示系统中的所有用户，而不仅仅是项目中的用户（在“已分配的工作”区域中）。 有关信息，请参阅[在工作负载均衡器](../workload-balancer/navigate-the-workload-balancer.md)中导航。
 
+<div class="preview">
+
+### 访问用户的工作负载均衡器
+
+所有用户都有权在其自己的配置文件上查看工作负载均衡器。 用户的工作负载均衡器数据是只读的。 您不能在用户层分配工作、取消分配工作或调整分配。
+
+所有显示设置都可用于用户的工作负载均衡器。 有关详细信息，请参阅[导航工作负载均衡器](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
+
+{{step1-click-profile-pic}}
+
+1. 单击左侧面板中的&#x200B;**工作负载均衡器**。
+
+   此时将显示用户的工作负载均衡器。
+
+   ![用户的工作负载均衡器](assets/workload-balancer-user.png)
+
+   默认情况下，用户的工作负载均衡器按信息显示以下内容：
+
+   * **已分配的工作**：已分配给特定用户的任务和问题。
+
+</div>
 
 ## 将工作负载均衡器添加到自定义分区
 
