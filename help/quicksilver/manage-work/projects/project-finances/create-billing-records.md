@@ -5,7 +5,7 @@ description: 除了设置收入和跟踪费用外，您还可以在项目上创�
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: fc82ce4b5abb2cd7411d62ac8bb428bc5337386f
+source-git-commit: ec6ddb50d6b9137837c8031b22f213cd6ada70ff
 workflow-type: tm+mt
 source-wordcount: '1645'
 ht-degree: 0%
@@ -115,7 +115,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**保存。**&#x200B;已创建开票记录。
 
-## 在开票记录中包括可开票小时数、费用数和固定收入
+## 在开票记录中包含可开票小时数、支出和固定收入
 
 ### 在开票记录中包含可开票小时数 {#include-billable-hours-in-a-billing-record}
 
@@ -135,19 +135,19 @@ ht-degree: 0%
 
   有关详细信息，请参阅文章[管理小时类型](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md)。
 
-* 如果记录时间的用户具有与其或其主要工作角色关联的每小时计费率，则为问题或项目记录的所有小时数均可添加到计费记录。
+* 如果记录时间的用户具有与其或其主要工作角色关联的每小时记帐费率，则为问题或项目记录的所有小时都可以添加到记帐记录。
 * 如果任务记录了小时数，则任务必须具有以下收入类型：
 
    * 收入类型不能设置为不可记帐。
    * 如果收入类型设置为每小时用户，则记录时间的用户必须在他们的用户档案中设置每小时记帐费率。
-   * 如果收入类型设置为每小时角色，则记录时间的用户的主要角色必须具有每小时计费率。
+   * 如果收入类型设置为每小时角色，则记录时间的用户的主要角色必须具有每小时记帐费率。
 
      >[!NOTE]
      >
      >您可以在项目级别覆盖工作角色的计费率。\
-     >有关详细信息，请参阅文章[有关覆盖工作角色记帐费率和计算项目收入的概述](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)中的在项目级别覆盖工作角色记帐费率一节。
+     >有关详细信息，请参阅[有关覆盖工作角色记帐费率和计算项目收入的概述](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)一文中的“覆盖项目级别的工作角色记帐费率”一节。
 
-* 如果在“项目设置”下选中了需要批准此项目的时间选项，则项目所有者必须批准记录的小时数。\
+* 如果在“项目设置”下选择了“批准此项目需要时间”选项，则项目所有者必须批准记录的小时数。\
   有关详细信息，请参阅[需要时间来批准项目](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md)。
 
 #### 向开票记录添加小时数 {#add-hours-to-a-billing-record}
@@ -158,7 +158,7 @@ ht-degree: 0%
 1. 单击左侧面板中的&#x200B;**记帐记录**。
 1. 单击记帐记录&#x200B;**描述**&#x200B;以打开&#x200B;**记帐记录详细信息**&#x200B;选项卡。
 1. 单击左侧面板中的&#x200B;**可记帐小时数**。
-1. 如果开票记录中可能包含小时，请单击&#x200B;**添加小时**。 将打开&#x200B;**添加可记帐小时**&#x200B;框。
+1. 如果开票记录中可能包含小时，请单击&#x200B;**添加小时**。 将打开&#x200B;**添加可记帐小时数**&#x200B;框。
 
    >[!NOTE]
    >
@@ -238,11 +238,11 @@ ht-degree: 0%
 
    以下字段不可编辑：
 
-   * **可记帐小时数：**&#x200B;记帐记录中包含的小时数实际收入的总和。 有关详细信息，请参阅本文中的以下部分：[将可记帐小时数包含在记帐记录中](#include-billable-hours-in-a-billing-record)。
+   * **可记帐小时数：**&#x200B;记帐记录中包含的小时数实际收入的总和。 有关详细信息，请参阅本文中的以下部分：[在帐单记录中包含可记帐小时数](#include-billable-hours-in-a-billing-record)。
 
    * **可记帐费用**：记帐记录中包含的可记帐费用的实际金额总计。 有关详细信息，请参阅本文中的以下部分：[在记帐记录中包括可记帐费用](#include-billable-expenses-in-a-billing-record)。
 
-   * **可记帐收入**：记帐记录中包含的任务的固定收入总计。 有关详细信息，请参阅本文中的以下部分：[在开票记录中包括固定收入](#include-fixed-revenues-in-a-billing-record)。
+   * **可记帐收入**：记帐记录中包含的任务的固定收入总计。 有关详细信息，请参阅本文中的以下部分：[在开票记录中包含固定收入](#include-fixed-revenues-in-a-billing-record)。
 
    * **记帐记录总计**：所有可记帐金额的总计。 计算公式如下：
 
