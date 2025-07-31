@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: eafc56adab1fad3bbc1a4f3dc8f61e599ab21f57
+source-git-commit: db0a8e78454ffb5b85865265a273e21e99022f9f
 workflow-type: tm+mt
-source-wordcount: '6162'
+source-wordcount: '6262'
 ht-degree: 0%
 
 ---
@@ -84,15 +84,15 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 
 有关信息，请参阅[管理项目团队](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)。
 
-<!--## Updated experience when editing a Queue Topic in a project or template
+## 更新了在项目或模板中编辑队列主题时的体验
 
-**Preview release: July 31, 2025; Production release: August 7, 2025**
+**预览版本： 2025年7月31日；生产版本： 2025年7月31日**
 
-We have updated the look and feel of a Queue Topic when editing it on a template. The Queue Topic editing page now matches the design of other areas of Workfront.
+在模板上编辑队列主题时，我们更新了它的外观。 现在，“队列主题”编辑页面与Workfront其他区域的设计相匹配。
 
-A small functionality change has been applied to the Routing Rules list. To edit A Queue Topic, select the Queue Topic from the list and click the Edit icon. You are no longer directed to the Queue Topic details page before you can edit.
+对“路由规则”列表进行了小幅功能更改。 要编辑队列主题，请从列表中选择队列主题，然后单击编辑图标。 在编辑之前，您不再被定向到“队列主题详细资料”页。
 
-For more information, see [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).-->
+有关详细信息，请参阅[创建队列主题](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)。
 
 ## 计费记录的界面更新
 
