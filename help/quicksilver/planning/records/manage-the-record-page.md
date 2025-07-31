@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 567fa8c960f7db47279d6cde1f5e90dc7f38ae79
+source-git-commit: fe51ded26c57e3b7137e42ad2218d79adf032b85
 workflow-type: tm+mt
-source-wordcount: '2133'
+source-wordcount: '2241'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # 管理记录页面布局
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上突出显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -182,7 +182,7 @@ ht-degree: 1%
 
      或
 
-     单击&#x200B;**下移**&#x200B;以将节下移一个位置。
+     单击&#x200B;**下移**以将节下移一个位置。
 部分中的所有字段都会随部分一起移动。
 
    * 单击&#x200B;**删除**&#x200B;以删除该节。 该部分已被删除，无法恢复。 访问此类型记录的所有用户将不再查看已删除的分区。
@@ -264,11 +264,16 @@ ht-degree: 1%
 
 * 在将记录或对象类型从记录类型的表格视图连接到记录类型后，可以将“连接的记录”页添加到记录中。
 
-* 无法将“连接的记录”页面添加到记录的预览区域。<!--take this out when we release connected record pages to the record preview area-->
+* 在“生产”环境中，无法将“连接的记录”页面添加到记录的预览区域。
+
+  <span class="preview">您可以将“连接的记录”页面添加到预览环境中记录的预览区域。</span>
 
 * “连接的记录”页在表格视图中仅显示一个对象或记录类型中的连接对象或记录。 该页不会在表视图中显示该类型的所有记录。
 
-* 将“连接的记录”页面添加到记录后，“页面”选项卡从记录的预览区域可见，但为空白。 您必须转到整页以查看所连接记录的表视图。 &lt;！ — 这将随着将连接的页面发布到预览区域而改变 — 检查并取消免责声明 — >
+* 根据您使用的环境，您可能会注意到以下内容：
+
+   * 在“生产”环境中，将“连接的记录”页面添加到记录后，“页面”选项卡从记录的预览区域可见，但为空。 您必须转到整页以查看所连接记录的表视图。
+   * <span class="preview">在“预览”环境中，“连接的记录”页面在记录的预览区域和单独的浏览器选项卡中均可见。</span>
 
 * 可以为以下连接的记录或对象类型添加“连接的记录”页：
 
@@ -281,18 +286,11 @@ ht-degree: 1%
 
 要添加“连接的记录”页，请执行以下操作：
 
-<!--replace the first 2 steps with these steps when we release connected record page to the record preview area, if this goes both to Preview and Prod: 
+1. 单击记录名称以将其打开。
+1. 从以下区域之一单击&#x200B;**添加页面**：
 
-1. Click the name of the record to open it. 
-1. Click **Add page** from one of the following areas: 
-
-   * The record's preview window
-   * The record's details page, after clicking the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview page.  
-
--->
-
-1. 从记录页面视图中，单击记录名称以将其打开，然后单击预览页面右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开详细信息](assets/open-details-in-a-new-tab-icon.png)。
-1. 单击&#x200B;**添加页面**。
+   * <span class="preview">记录的预览窗口</span>
+   * 记录的详细信息页面，在单击预览页面右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开详细信息](assets/open-details-in-a-new-tab-icon.png)之后。
 
    将打开&#x200B;**创建页面**&#x200B;框。
 
@@ -306,8 +304,6 @@ ht-degree: 1%
 已连接记录的所有字段都显示在已连接记录选项卡的表视图中。
 
    默认情况下，将显示连接的记录表中的前五个字段。 默认情况下，不显示查找字段。
-
-   <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
 
    在营销活动详细信息下![受众连接的表视图](assets/audience-connected-table-view-under-campaign-details-page.png)
 
