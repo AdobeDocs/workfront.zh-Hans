@@ -6,9 +6,9 @@ description: 重新计算时间表使经理能够了解与项目相关的不同�
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: 3dfb30646e8a967264f7e562441a52a059d73d32
+source-git-commit: d846f2f90a8ca2a38c1b18897341cb50f4c5aef4
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开以查看访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,9 +39,8 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td> <p>新增：标准 </p> 
-   或
-   <p>当前：计划 </p>
+   <td> <p>标准 </p> 
+    <p>规划 </p>
    </td> 
   </tr> 
   <tr> 
@@ -63,17 +62,21 @@ ht-degree: 0%
 
 默认情况下，当项目范围每天或每晚更改时，项目时间表会自动重新计算。 Workfront管理员通过管理“设置”的“项目首选项”区域中的“时间表”设置，确定是每晚自动计算时间表，还是每次范围更改时自动计算时间表。 有关详细信息，请参阅[配置项目的时间表重新计算](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)。
 
->[!NOTE]
+>[!IMPORTANT]
 >
->如果项目的时间表超过15年，则会禁用该项目的自动重新计算，并且您只能选择手动更新类型。 如果将项目日期更改为少于15年，则必须先手动重新计算时间线，然后才能自动计算。
+>* 如果项目的时间表超过15年，则会禁用该项目的自动重新计算，并且您只能选择手动更新类型。 如果将项目日期更改为少于15年，则必须先手动重新计算时间线，然后才能自动计算。
+>* 对于预览和自定义刷新沙盒环境，将禁用夜间重新计算，并且不会自动重新计算项目时间线。 您必须手动重新计算预览和自定义刷新沙盒环境的项目时间线。
+>* 如果项目比较复杂，则可能不会发生自动重新计算时间线的情况。
+>  > 复杂项目的示例可能包括具有多个依赖项、大量任务、多个跨项目前置任务或多个任务缩进的项目。
+>  > Workfront在项目页面上的项目名称右侧放置警告，以建议用户必须手动重新计算项目时间线。 只有具有项目管理权限的用户才能手动重新计算时间线。
+>
+>   ![](assets/project-warning-to-manually-recalculate-timeline.png)
+>
 
 * [项目时间线的自动重新计算](#automatic-recalculation-of-project-timelines)
 * [触发自动重新计算项目时间线的操作](#actions-that-trigger-an-automatic-recalculation-of-project-timelines)
 
 
->[!IMPORTANT]
->
->对于预览和自定义刷新沙盒环境，将禁用夜间重新计算，并且不会自动重新计算项目时间线。 您必须手动重新计算预览和自定义刷新沙盒环境的项目时间线。
 
 ### 项目时间线的自动重新计算 {#automatic-recalculation-of-project-timelines}
 
@@ -86,7 +89,7 @@ Workfront仅对满足以下所有条件的项目每天重新计算时间线：
 
 * 上次更新日期为过去3个月内。 Workfront管理员可以更改此默认功能。 有关详细信息，请参阅[配置项目的时间表重新计算](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)。
 
-* 项目时间线的上次计算日期不在当前日历日期内。 这意味着项目时间轴的最后计算日期在当天的00:00之前。
+* 项目时间线的上次计算日期不在当前日历日期内。 这意味着项目时间线的上次计算日期早于当天的00:00。
 
 您可以配置项目时间线的更新频率。 更新项目时间表时，会根据对项目所做的更改重新计算时间表。
 
