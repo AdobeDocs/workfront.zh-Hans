@@ -1,15 +1,15 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: manage-canvas-dashboards
-title: 管理画布功能板
-description: 管理画布功能板文章索引
-author: Nolan
+title: 管理画布功能板：文章索引
+description: 查看此部分中的文章。
+author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 3e36ddc8-2552-4449-9c3a-3720e0af590b
-source-git-commit: 718ed3efd56c532693d26cc067041bedbc71cca0
+source-git-commit: d9b99257041a98eca7bb0e8c38861cbdf96594bd
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '67'
 ht-degree: 0%
 
 ---
@@ -23,3 +23,7 @@ ht-degree: 0%
 本节包含以下文章：
 
 * [共享画布功能板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
+* [在画布功能板中排列报表](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/arrange-reports-in-dashboard.md)
+* [更改画布功能板的名称或描述](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
+* [删除画布功能板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
+

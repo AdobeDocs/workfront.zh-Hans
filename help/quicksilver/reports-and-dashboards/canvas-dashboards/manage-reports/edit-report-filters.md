@@ -1,26 +1,26 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: 编辑报告过滤器
-description: 将报告过滤器应用于画布仪表板后，您可以对其进行编辑。
+title: 在画布功能板中编辑报告过滤器
+description: 将报告过滤器应用于画布功能板后，即可编辑这些过滤器。
 author: Courtney and Jenny
 feature: Reports and Dashboards
 hidefromtoc: true
 hide: true
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '244'
 ht-degree: 1%
 
 ---
 
-# 编辑报告过滤器
+# 在画布功能板中编辑报告过滤器
 
 >[!IMPORTANT]
 >
 >画布功能板目前仅适用于参与Beta测试阶段的用户。 有关详细信息，请参阅[画布功能板测试版信息](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)。
 
-将报表过滤器应用于画布仪表板后，您可以编辑这些报表过滤器，以更新随着项目进展而显示的数据。
+将报表过滤器应用于画布功能板后，即可编辑这些报表过滤器，以更新随着项目进展而显示的数据。
 
 +++ 展开以查看访问要求。
 

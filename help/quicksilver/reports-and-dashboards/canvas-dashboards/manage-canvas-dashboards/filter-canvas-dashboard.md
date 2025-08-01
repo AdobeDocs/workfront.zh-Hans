@@ -1,20 +1,20 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: 筛选功能板
-description: 您可以在创建筛选器后将其应用于画布功能板。
+title: 筛选画布功能板
+description: 您可以在创建筛选器后将筛选器应用到画布功能板。
 author: Courtney and Jenny
 feature: Reports and Dashboards
 hidefromtoc: true
 hide: true
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
 
-# 筛选功能板
+# 筛选画布功能板
 
 >[!IMPORTANT]
 >
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 必须先创建功能板，然后才能对其进行筛选。
 
-有关详细信息，请参阅[创建画布仪表板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)。
+有关详细信息，请参阅[创建画布功能板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)。
 
 ## 筛选功能板
 

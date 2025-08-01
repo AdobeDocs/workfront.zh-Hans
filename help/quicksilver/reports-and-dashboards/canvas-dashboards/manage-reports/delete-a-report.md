@@ -1,24 +1,24 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: 删除报告
+title: 删除画布仪表板中的报告
 description: 您可以从“画布”功能板中删除报表。
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
 
-# 删除报告
+# 删除画布仪表板中的报告
 
 >[!IMPORTANT]
 >
 >画布功能板目前仅适用于参与Beta测试阶段的用户。 有关详细信息，请参阅[画布功能板测试版信息](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)。
 
-创建功能板并向其中添加报表后，您可以删除不再适用于该特定功能板的旧版报表。
+创建画布功能板并将报表添加到其中后，您可以删除不再适用于该特定功能板的旧报表。
 
 删除报告是永久性的。 如果在删除报告后需要重新添加报告，则需要重新创建报告。
 

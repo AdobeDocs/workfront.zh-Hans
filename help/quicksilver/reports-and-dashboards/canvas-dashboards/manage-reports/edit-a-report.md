@@ -1,24 +1,24 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: 编辑报告
+title: 在画布功能板中编辑报告
 description: 您可以在创建画布功能板报告后对其进行编辑。
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
 
-# 编辑报告
+# 在画布功能板中编辑报告
 
 >[!IMPORTANT]
 >
 >画布功能板目前仅适用于参与Beta测试阶段的用户。 有关详细信息，请参阅[画布功能板测试版信息](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)。
 
-将报表添加到功能板后，可以编辑报表的信息以更改在功能板中显示的数据。
+将报表添加到画布功能板后，可以编辑报表的信息以更改在功能板中显示的数据。
 
 对报告所做的任何更改都将影响对包含该报告的仪表板具有访问权限的所有用户。
 

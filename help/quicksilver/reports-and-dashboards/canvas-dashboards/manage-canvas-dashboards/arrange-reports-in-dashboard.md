@@ -1,24 +1,24 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: 在仪表板中排列报表
+title: 在画布功能板中排列报表
 description: 您可以排列报告在添加到画布仪表板中后在画布仪表板中的显示方式。
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
 
-# 在仪表板中排列报表
+# 在画布功能板中排列报表
 
 >[!IMPORTANT]
 >
 >画布功能板目前仅适用于参与Beta测试阶段的用户。 有关详细信息，请参阅[画布功能板测试版信息](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)。
 
-将报表添加到仪表板后，它们会在仪表板中显示为报表构件，以便您可以快速可视化其数据概览。 添加多个报表后，建议重新排列每个小部件的大小和顺序，以便更有效地显示仪表板数据。
+将报表添加到画布仪表板后，它们会在仪表板中显示为报表小组件，以便您可以快速可视化其数据概览。 添加多个报表后，建议重新排列每个小部件的大小和顺序，以便更有效地显示仪表板数据。
 
 +++ 展开以查看访问要求。
 

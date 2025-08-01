@@ -1,19 +1,19 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: 构建图表报告
+title: 在画布功能板中构建图表报告
 description: 可以将您的数据显示为条形图、柱状图、折线图或饼图的图表报表可以添加到画布仪表板中。
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1045'
 ht-degree: 0%
 
 ---
 
-# 构建图表报告
+# 在画布功能板中构建图表报告
 
 >[!IMPORTANT]
 >
