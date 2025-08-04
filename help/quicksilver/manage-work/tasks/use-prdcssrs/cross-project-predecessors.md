@@ -6,9 +6,9 @@ description: 跨项目前置任务是指另一个项目中的另一个任务（�
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Adobe Workfront允许任务依赖于其他项目中的任务，就像它允许�
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开以查看访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -49,9 +49,9 @@ Adobe Workfront允许任务依赖于其他项目中的任务，就像它允许�
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>新增：标准 </p> 
-   或
-   <p>当前：计划 </p>
+   <td> <p>标准 </p>
+
+<p>规划 </p>
    </td> 
   </tr> 
   <tr> 
@@ -70,6 +70,11 @@ Adobe Workfront允许任务依赖于其他项目中的任务，就像它允许�
 +++
 
 ## 创建跨项目前置任务
+
+>[!TIP]
+>
+>虽然创建模板任务前置任务与创建项目任务前置任务类似，但无法为模板任务创建跨模板前置任务。
+
 
 1. 转到将成为您的后续任务（从属任务）的任务。
 1. 单击左侧面板中的&#x200B;**前置任务**。

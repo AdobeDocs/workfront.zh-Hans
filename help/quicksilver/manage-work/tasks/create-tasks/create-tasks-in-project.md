@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 1%
+source-wordcount: '1041'
+ht-degree: 0%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开以查看访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,9 +60,9 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">Adobe Workfront许可证</p> </td> 
-   <td><p>当前：工作或更高</p> 
-   或
-   <p>新增：标准</p> </td> 
+   <td><p>标准</p> 
+   <p>工作或更高</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
@@ -70,7 +70,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>Contribute对项目的权限可添加任务或更高版本</p> <p>创建任务时，您会自动收到该任务的“管理”权限</p> <p> 有关任务权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">共享任务</a>。 </p> <p>有关请求其他权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>将权限分配给能够添加任务或更高权限的项目</p> <p>创建任务时，您会自动收到该任务的“管理”权限</p> <p> 有关任务权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">共享任务</a>。 </p> <p>有关请求其他权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象。</a></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,6 +80,10 @@ ht-degree: 1%
 +++
 
 ## 在项目中创建任务
+
+在项目中创建任务与创建模板中的任务类似。 将模板任务添加到模板时，您可以执行以下所述的步骤。
+
+要在项目中创建任务，请执行以下操作：
 
 1. 转到要创建任务的项目。
 1. 单击左侧面板中的&#x200B;**任务**。
@@ -113,7 +117,6 @@ ht-degree: 1%
 
       ![](assets/create-task-larger-box-nwe-350x244.png)
 
-       
 
       >[!NOTE]
       >
@@ -162,13 +165,15 @@ ht-degree: 1%
 
          这使新任务成为上一个任务的子任务或子任务。
 
-         有关子任务的详细信息，请参阅[创建子任务](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md)。
+         有关子任务的更多信息，请参阅文章[创建子任务](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md)中的“从任务子任务创建子任务”部分。
 
       1. （视情况而定）如果在按&#x200B;**添加更多任务**&#x200B;后禁用了&#x200B;**自动保存**&#x200B;选项，则可以执行以下操作：
 
          * 随时单击&#x200B;**撤消**&#x200B;可撤消您上次所做的更改，或者单击&#x200B;**取消**&#x200B;可撤消您对任务列表所做的所有更改。
          * 如果您之前单击了&#x200B;**撤消**，请单击&#x200B;**重做**&#x200B;以重新应用您取消的上次更改。
          * 单击&#x200B;**保存**&#x200B;以保存对任务列表所做的更改。
+   1. （可选）在任务列表中，单击&#x200B;**前置任务**&#x200B;部分以向该任务添加前置任务。 有关详细信息，请参阅[使用前置任务区域创建前置任务关系](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md)。
+   1. （可选）在任务列表中，单击&#x200B;**子任务**&#x200B;部分以添加子任务。 有关详细信息，请参阅[创建子任务](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md)。
 
 ## 通过将个人任务移动到项目来创建任务
 

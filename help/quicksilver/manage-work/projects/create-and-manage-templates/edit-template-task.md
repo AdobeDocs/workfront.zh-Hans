@@ -7,9 +7,9 @@ description: 创建模板后，可以编辑有关模板任务的信息。 在使
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '2420'
+source-wordcount: '2493'
 ht-degree: 3%
 
 ---
@@ -31,9 +31,7 @@ ht-degree: 3%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,8 +43,8 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>新增：标准 </p>
-   <p>当前：计划 </p> </td> 
+   <td> <p>标准 </p>
+   <p>规划 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别</td> 
@@ -80,7 +78,9 @@ ht-degree: 3%
 1. 单击模板名称以将其打开。
 1. 单击左侧面板中的&#x200B;**模板任务**。
 1. 单击列表中的模板任务的名称以打开该模板任务。
-1. （可选）要批量编辑多个模板任务，请选择多个模板任务，然后单击模板列表顶部的&#x200B;**编辑**。
+1. （可选）单击左侧面板中的&#x200B;**前置任务**&#x200B;部分，为模板任务添加前置任务。 添加模板任务前置任务与添加项目任务前置任务类似。 有关信息，请参阅[使用前置任务区域创建前置任务关系](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md)。
+1. （可选）单击左侧面板中的&#x200B;**子任务**&#x200B;部分以添加模板任务的子项。 为模板任务添加子任务与添加项目任务子任务类似。 有关信息，请参阅文章[创建子任务](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md)中的“从任务子任务创建子任务”部分。
+
 1. （视情况而定）要编辑有关模板任务的有限信息，请单击左侧面板中的&#x200B;**模板任务详细信息**，然后转到“详细信息”部分的各个区域以编辑每个区域的信息。
 1. （可选）单击&#x200B;**全部折叠**&#x200B;图标![全部折叠图标](assets/collapse-all-icon.png)以折叠所有区域。
 1. 若要编辑“详细信息”部分中的信息，请单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)，然后从以下任何区域进行选择，或单击&#x200B;**全部编辑**&#x200B;以编辑所有区域的信息：
@@ -95,8 +95,8 @@ ht-degree: 3%
    >[!TIP]
    >
    >有关详细信息区域中显示的所有字段的信息，请继续使用“编辑模板任务”框编辑所有字段，如下所述。
-
-1. （视情况而定）要编辑有关模板任务的所有信息，请单击模板任务名称旁边的&#x200B;**更多**&#x200B;菜单![更多图标](assets/qs-more-icon-on-an-object.png)，然后单击&#x200B;**编辑**。
+1. （可选）要批量编辑多个模板任务，请选择多个模板任务，然后单击模板列表顶部的&#x200B;**编辑**。
+1. （视情况而定）要同时编辑有关模板任务或多个任务的所有信息，请单击以从列表中选择这些任务，然后单击列表顶部的&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
 
    此时会显示&#x200B;**编辑模板任务**&#x200B;框。
 

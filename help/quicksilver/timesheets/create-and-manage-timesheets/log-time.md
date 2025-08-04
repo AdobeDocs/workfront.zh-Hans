@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: f7cb314067d105d5534f4be356024aea8e8f9a28
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '4065'
+source-wordcount: '4064'
 ht-degree: 0%
 
 ---
@@ -50,12 +50,13 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>新增：</p>
+   <td> 
    <ul><li> 在任务、问题或时间表上记录常规小时数的精简或更高</li>
    <li>用于记录项目小时数的标准</li></ul>
 
-<p>当前： 
-   <ul><li>查看或更高版本以在时间表中记录常规小时数</li>
+<p>或： </p>
+
+<ul><li>查看或更高版本以在时间表中记录常规小时数</li>
    <li>用于记录项目、任务或问题的小时数的工作或更高</li></ul> </td> 
   </tr> 
   <tr> 
@@ -151,9 +152,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. （视情况而定）如果一次添加50个或更多项目，则会显示一条确认消息，其中显示添加到时间表的项目数。
 
-   单击&#x200B;**全部添加**&#x200B;以添加所有项
+   单击&#x200B;**全部添加**以添加所有项
 或
-单击&#x200B;**取消**&#x200B;停止添加选定项，然后单击&#x200B;**取消**&#x200B;关闭项列表。
+单击**取消**&#x200B;停止添加选定项，然后单击&#x200B;**取消**&#x200B;关闭项列表。
 
    任务和问题列在项目的名称下。
 
