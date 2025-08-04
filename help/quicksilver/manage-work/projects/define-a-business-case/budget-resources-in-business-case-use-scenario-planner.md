@@ -5,9 +5,9 @@ description: 作为资源计划的一部分，您可以在构建业务案例时�
 author: Alina
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '964'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,7 @@ ht-degree: 0%
 
    * 如果您刚刚从Scenario Planner发布信息，请在&#x200B;**中选择方案计划器。选择用于计算项目预算劳力成本的小时**&#x200B;字段（位于资源预算区域），然后单击&#x200B;**选择**。
 
-     使用“选择”按钮的资源规划者中的![业务案例](assets/business-case-sp-selected-with-choose-button-350x121.png)
+     <!--![Business case in Resource Planner with Choose button](assets/business-case-sp-selected-with-choose-button-350x121.png)-->
 
    * 如果之前已为该项目的预算资源选择了资源规划者，请单击&#x200B;**更改** > **方案规划者** > **选择**。
 

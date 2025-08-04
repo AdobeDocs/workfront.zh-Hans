@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: db0a8e78454ffb5b85865265a273e21e99022f9f
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '6262'
+source-wordcount: '6319'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,16 @@ ht-degree: 0%
 要查看此更改，请转到“设置”>“系统”>“更新SSO的用户”
 
 ## 项目
+
+## 项目业务案例的界面更新
+
+**预览版本：2025年8月4日；生产版本：待宣布**
+
+我们更新了项目业务案例的外观，以便与应用程序的其他领域相匹配。
+
+要查看此更改，请转到“项目”>“选择项目”>“业务案例”。
+
+有关详细信息，请参阅[为项目创建业务案例](/help/quicksilver/manage-work/projects/define-a-business-case/create-business-case.md)。
 
 ## 模板上“队列详细信息”部分的新外观
 

@@ -5,9 +5,9 @@ description: 您可以使用记分卡衡量项目与项目组合中先前建立�
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1208'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 1. 从下拉菜单中选择一个记分卡。
 
-   ![新记分卡](assets/new-scorecard.png)
+   <!--![New scorecard](assets/new-scorecard.png)-->
 
 1. 为记分卡中的所有问题输入答案。
 
@@ -164,7 +164,7 @@ ht-degree: 0%
 
    一致性分数位于业务案例摘要中，位于&#x200B;**一致性**&#x200B;值中。
 
-   ![项目上的对齐分数](assets/alignment-score-on-a-project.png)
+   <!--![Alignment score on a project](assets/alignment-score-on-a-project.png)-->
 
 ### 在Portfolio Optimizer中查看项目与项目组合的对齐分数
 
@@ -175,7 +175,7 @@ ht-degree: 0%
 * [在Portfolio Optimizer中找到项目的对齐分数](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer)
 * [在Portfolio Optimizer中找到项目组合的对齐分数](#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer)
 
-  Portfolio Optimizer中的![一致性分数](assets/alignment-score-in-portfolio-optimizer.png)
+  <!--![Alignment score in Portfolio Optimizer](assets/alignment-score-in-portfolio-optimizer.png)-->
 
 #### 在Portfolio Optimizer中找到项目的对齐分数 {#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer}
 

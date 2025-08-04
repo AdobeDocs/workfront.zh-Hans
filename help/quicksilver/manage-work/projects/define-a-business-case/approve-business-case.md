@@ -5,7 +5,7 @@ description: 在完成并提交项目请求的商业论证后，必须批准该�
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 0%
@@ -126,7 +126,7 @@ ht-degree: 0%
 1. 单击左侧面板中的&#x200B;**业务案例**。
 1. 在业务案例摘要区域单击&#x200B;**批准**&#x200B;或&#x200B;**拒绝**&#x200B;以批准或拒绝业务案例。
 
-   ![商业案例](assets/business-case-summary-with-rp-information--1-.png)
+   &lt;！—![商业论证](assets/business-case-summary-with-rp-information--1-.png)—>
 
    如果业务案例获得批准，项目状态将更改为&#x200B;**已批准**。
 

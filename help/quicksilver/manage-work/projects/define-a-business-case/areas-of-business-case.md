@@ -6,9 +6,9 @@ description: 本文介绍了项目的业务案例的方面。
 author: Alina
 feature: Work Management
 exl-id: 0646e4f0-e8fb-48f2-b533-358229543081
-source-git-commit: b38c98ec79617a78c76510bcb109da2ff83247af
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1553'
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ Workfront管理员可以设置自定义费用类型。
 
 有关业务案例中项目预算资源的详细信息，请参阅业务案例中的[预算资源](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)。
 
-![业务案例资源预算](assets/business-case-sp-selected-with-choose-button-350x121.png)
+<!--![Business case resource budgeting](assets/business-case-sp-selected-with-choose-button-350x121.png)-->
 
 查看业务案例的资源预算编制部分时，请考虑以下事项：
 
@@ -122,11 +122,11 @@ Workfront管理员可以设置自定义费用类型。
 
    * 资源规划者
 
-     有关信息，请参阅使用资源规划程序[&#128279;](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md)的业务案例中的预算资源。
+     有关信息，请参阅使用资源规划程序[的业务案例中的](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md)预算资源。
 
    * 场景规划器
 
-     有关详细信息，请参阅使用场景规划器[&#128279;](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的业务案例中的预算资源。
+     有关详细信息，请参阅使用场景规划器[的业务案例中的](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)预算资源。
 
      Scenario Planner仅在新的Adobe Workfront Experience中可用，并且需要额外的许可证。 有关Workfront Scenario Planner的信息，请参阅[Scenario Planner概述](../../../scenario-planner/scenario-planner-overview.md)。
 

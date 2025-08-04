@@ -5,9 +5,9 @@ description: 作为资源计划的一部分，您可以在构建业务案例时�
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '1240'
+source-wordcount: '1229'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >您在项目层资源计划员中输入的信息也可在系统层资源计划员中看到。 反之亦然。 有关资源规划者的信息，请参阅[资源规划者概述](../../../resource-mgmt/resource-planning/get-started-resource-planner.md)。
 
-您还可以使用Adobe Workfront Scenario Planner在业务案例中预算资源。 有关详细信息，请参阅使用场景规划器[&#128279;](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的业务案例中的预算资源。
+您还可以使用Adobe Workfront Scenario Planner在业务案例中预算资源。 有关详细信息，请参阅使用场景规划器[的业务案例中的](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)预算资源。
 
 ## 访问要求
 
@@ -108,11 +108,11 @@ ht-degree: 0%
 
    * 在&#x200B;**中选择资源规划者选择要用于计算项目预算劳力成本的小时数**&#x200B;字段，然后单击&#x200B;**选择>编辑资源预算**。
 
-     资源规划者中的![业务案例](assets/business-case-rp-selected-with-choose-button-350x120.png)
+     <!--![Business case in Resource Planner](assets/business-case-rp-selected-with-choose-button-350x120.png)-->
 
    * 如果为项目选择了方案规划者来预算资源，请单击&#x200B;**更改** > **编辑资源预算**。
 
-     Scenario Planner中的![业务案例](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)
+     <!--![Business case in Scenario Planner](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)-->
 
    它使用项目的预算小时数来计算项目的预算劳力成本。
 
@@ -138,7 +138,7 @@ ht-degree: 0%
 
    有关资源规划者的详细信息，请参阅[资源规划者概述](../../../resource-mgmt/resource-planning/get-started-resource-planner.md)。
 
-   ![BC_resource_budgeting_area.png](assets/bc-resource-budgeting-area-350x276.png)
+   <!--![BC_resource_budgeting_area.png](assets/bc-resource-budgeting-area-350x276.png)-->
 
 1. （可选和条件）展开工作角色以查看与其关联的用户。
 
