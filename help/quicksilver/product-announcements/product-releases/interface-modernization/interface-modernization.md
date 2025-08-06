@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 4ecb9141054c2f927a936f498941cc41108cbe45
 workflow-type: tm+mt
 source-wordcount: '6319'
 ht-degree: 0%
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 ## 模板上“队列详细信息”部分的新外观
 
-**预览版本： 2025年7月31日；生产版本： 2025年8月7日**
+**预览版本： 2025年7月31日；生产版本： 2025年8月14日**
 
 我们更新了模板的“队列详细信息”部分的外观。 现在，“队列详细信息”部分的外观与Workfront的其他区域相匹配。
 
