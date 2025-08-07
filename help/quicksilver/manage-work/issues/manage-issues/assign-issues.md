@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
 
 # 分配问题
+
+{{preview-fast-release-general}}
 
 <!--Audited: 07/2024-->
 
@@ -170,6 +172,10 @@ ht-degree: 0%
 
    * 单击&#x200B;**工作总揽**&#x200B;字段并开始键入要分配给问题的活跃用户、工作角色或活跃团队的名称，然后当它显示在列表中时单击它。
 
+     <span class="preview">预览环境中的示例图像：</span>
+     ![任务字段](assets/assignments-field-0825.png)
+
+     生产环境中的示例图像：
      ![任务字段](assets/assignments-field-task-list-0424.png)
 
    >[!TIP]
@@ -180,8 +186,7 @@ ht-degree: 0%
    >
    >您必须在访问级别中启用“查看联系信息”设置，用户才能查看用户的电子邮件。 有关信息，请参阅[授予用户访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)。
 
-
-1. （视情况而定）在“工作总揽”字段中可见时，单击工作总揽框右上角的&#x200B;**人员图标** ![人员图标](assets/teams.png)以打开“高级工作总揽”框并创建高级工作总揽。 有关详细信息，请参阅[创建高级工作](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)。
+1. （视情况而定）在“工作总揽”字段中，单击&#x200B;<span class="preview">**高级**</span>&#x200B;或工作总揽框右上角的&#x200B;**人员图标** ![人员图标](assets/teams.png)以打开“高级工作总揽”框并创建高级工作总揽。 有关详细信息，请参阅[创建高级工作](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)。
 
    >[!TIP]
    >

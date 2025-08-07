@@ -6,9 +6,9 @@ description: 您可以使用智能分配来确定谁是完成工作的最佳用�
 author: Lisa
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -16,14 +16,6 @@ ht-degree: 0%
 # 进行智能分配
 
 <!--Audited: 07/2024-->
-
-<!--keep the yellow around the Rate card job roles and the Preview intro for those-->
-
-<span class="preview">此页面上高亮显示的信息引用了仅在“预览”环境中可用的功能。</span>
-
-<!--<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview"> This functionality will be removed from the Production environment for customers who enabled fast release with the 25.1 release in January 2025. For information about the 25.1 release, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md). -->
 
 您可以使用智能分配来确定谁是完成工作的最佳用户。
 
@@ -90,7 +82,7 @@ ht-degree: 0%
    智能分配显示在以下部分<!--, depending on which phase of the algorithm's calculation identified the assignments-->中：
 
    <!--* <span class="preview">**Suggested assignments**: Displays assignments identified in the first phase of the task smart assignment algorithm.</span> -->
-   * **用户和团队**、**工作角色**&#x200B;或&#x200B;<span class="preview">**评级卡片工作角色**</span>：<!--Assignments identified in the second phase of the task smart assignment's algorithm calculation.-->
+   * **用户和团队**&#x200B;或&#x200B;**职位角色** <!--or **Rate card job roles**: Assignments identified in the second phase of the task smart assignment's algorithm calculation.-->
 
    ![任务列表中的智能分配示例](assets/smart-assignments-task-list.png)
 

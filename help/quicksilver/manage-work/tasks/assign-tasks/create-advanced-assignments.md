@@ -7,14 +7,16 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1144'
 ht-degree: 0%
 
 ---
 
 # 创建高级工作
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 07/2024-->
 
@@ -84,7 +86,10 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >如果有两个或更多人员被分配，您可以直接在任务或问题列表中进行高级分配。 单击与任务或问题位于同一行的&#x200B;**工作总揽**&#x200B;字段内，然后单击&#x200B;**人员图标**&#x200B;以打开“高级工作总揽”窗口。 跳至步骤5以继续创建高级工作。\
+   >您可以直接在任务或问题列表中进行高级分配。 单击任务或问题所在行上的&#x200B;**工作**&#x200B;字段，然后单击&#x200B;<span class="preview">**高级**</span>&#x200B;或&#x200B;**人员图标**以打开“高级工作”窗口。 跳至步骤5以继续创建高级工作。
+   ><span class="preview">预览环境中的示例图像：</span>
+   >![单击“高级”或“人员”图标](assets/access-aa-from-lists.png)
+   >生产环境中的示例图像：
    >![单击“人员”图标](assets/nwe-advanced-assignments-350x55.png)
 
 1. 单击任务或问题标题中&#x200B;**工作**&#x200B;字段中的&#x200B;**分配给**
@@ -95,7 +100,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**高级**。
 
-   ![单击高级](assets/assignments-box-in-task-header.png)
+   ![单击高级](assets/assignments-from-task-header-0825.png)
 
 1. 在&#x200B;**搜索人员、角色和团队**&#x200B;字段中，开始键入用户、角色或团队的名称，然后在该名称出现在下拉列表中时单击该名称。
 
