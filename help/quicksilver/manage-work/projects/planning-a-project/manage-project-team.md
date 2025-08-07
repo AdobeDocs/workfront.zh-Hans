@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: fe51ded26c57e3b7137e42ad2218d79adf032b85
+source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1183'
 ht-degree: 1%
 
 ---
@@ -18,13 +18,15 @@ ht-degree: 1%
 
 <!--take preview and production references out at production - August 7-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 从预览版本发布的一周后，所有客户还可以在生产环境中使用相同的功能。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
 
-有关详细信息，请参阅[接口现代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
 </div>
+
+-->
 
 项目团队由与项目关联的用户组成。 有关详细信息，请参阅[项目团队概述](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md)。
 
@@ -57,8 +59,8 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>新增：标准 </p>
-    <p>当前：计划 </p>
+   <td> <p>标准 </p>
+    <p>规划 </p>
     </td> 
   </tr> 
   <tr> 
@@ -197,7 +199,12 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    在列表中选择一个或多个用户，然后单击&#x200B;**将更新发送给用户**。
 
-   ![将更新发送给项目用户](assets/send-update-to-user-on-project-box.png)
+   <!--update screen shot when they fix the bug - the text above the box needs to match the OLD box, below-->
+
+   ![将更新发送到项目上的用户框](assets/send-update-to-user-on-project-box-2025.png)
+
+   <!--Old UI for projects but the text above the comment box is right and matches the functionality):
+   ![OLD Send update to user on a project](assets/send-update-to-user-on-project-box.png)-->
 
    将打开&#x200B;**将更新发送给用户**&#x200B;框。
 
@@ -250,23 +257,10 @@ If users that don't fulfill any role on the project want to be notified about ce
 
 1. 执行以下操作：
 
-   * 在生产环境中：
-
-      * 为所选用户添加更新。
-      * 单击人员图标以标记接收相同更新的其他用户。
-      * 单击锁图标可将更新设为公司内用户私有。
-      * 单击&#x200B;**发送**。
-
-   * 在预览环境中<span class="preview">： </span>
-
-   <div class="preview">
-
    * 为所选用户添加更新。
    * 单击&#x200B;**标记人员**&#x200B;以标记接收相同更新的其他用户。
    * 选择&#x200B;**我的公司专用**&#x200B;选项，将更新设为公司用户专用。
    * 单击&#x200B;**发送**。
-
-   </div>
 
    该更新已添加到每个已标记用户配置文件的&#x200B;**更新**&#x200B;部分。
 

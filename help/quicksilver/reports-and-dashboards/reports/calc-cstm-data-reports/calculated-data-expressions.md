@@ -4,12 +4,12 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: 计算数据表达式概述
 description: 您可以使用数据表达式在Adobe Workfront中定义计算的自定义数据字段。 计算表达式将生成新字段的语句中的现有Workfront字段连接在一起。
-author: Nolan
+author: Courtney, Lisa
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: fe9d3cfbb50bfda672360b918d971cc77b0b8b0a
+source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
 workflow-type: tm+mt
-source-wordcount: '2463'
+source-wordcount: '2551'
 ht-degree: 2%
 
 ---
@@ -414,23 +414,8 @@ ht-degree: 2%
    <p><code>ARRAYELEMENT(array, number)</code></p> 
    </td> 
   </tr>
-  <tr> 
-   <td><strong>SORTASCARRAY</strong> </td> 
-   <td> <p>对数组元素进行升序排序，并将其转换为第一个元素的类型。</p>
-   <p>表达式的格式如下所示：</p>
-   <p><code>SORTASCARRAY(array)</code></p>
-   <p>例如，["-12.6"， -13.0]将变为["-12.6"， "-13"]。</p>
-   <p>注意：Workfront Planning不支持此表达式。</p></td> 
-  </tr>
-  <tr> 
-   <td><strong>SORTDESCARRAY</strong> </td> 
-   <td> <p>对数组元素进行降序排序，并将其转换为第一个元素的类型。</p>
-   <p>表达式的格式如下所示：</p>
-   <p><code>SORTDESCARRAY(array)</code></p>
-   <p>例如，["-12.6"， -13.0]将变为["-13"， "-12.6"]。</p>
-   <p>注意：Workfront Planning不支持此表达式。</p></td> 
-  </tr>
-  <tr>   
+
+<tr>   
    <td><strong>案例</strong> </td> 
    <td> <p>与其他表达式一起使用，根据索引号从列表中选择值。 </p>
    <p>索引号是返回数值（通常在已知范围内）的字段或函数。</p> 
@@ -543,10 +528,35 @@ ht-degree: 2%
 <p><code>LOWER(string)</code></p></td> 
   </tr> 
   <tr> 
+   <td><strong>PASCAL</strong> </td> 
+   <td> <p>将输入字符串转换为PascalCase，方法是将每个单词的第一个字母转换为大写，并删除所有空格。 </p>
+   <p>表达式的格式如下所示：</p>
+   <p><code>PASCAL(string) </code></p>
+   <p>例如，“hello world”将变为“HelloWorld”</p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong>REMOVEACTIONS</strong> </td> 
+   <td> <p>删除输入字符串中所有重音字符的变音标记。 </p> 
+   <p>表达式的格式如下所示：</p>
+   <p><code>REMOVEACCENTS(string)</code></p> 
+   <p>例如，“有口音的埃洛世界”变成“有口音的你好”。 </p>
+   </td> 
+  </tr>
+  <tr> 
    <td><strong>替换</strong> </td> 
    <td> <p>在string1中，将所有出现的string2替换为string3。</p> <p>表达式的格式如下所示：</p>
 
 <p><code>REPLACE(string1, string2, string3)</code></p> </td> 
+  </tr>
+
+<tr> 
+   <td><strong>REPLACEPATTERN</strong> </td> 
+   <td> <p>将给定模式的匹配项替换为替换字符串。 </p> 
+   <p>表达式的格式如下所示：</p>
+   <p><code>REPLACEPATTERN (string, pattern, replacement string)</code></p> 
+   <p>例如，REPLACEPATTERN("foo123bar"， "\d+"， "_")生成字符串“foo_bar”。 
+   </td> 
   </tr> 
   <tr> 
    <td><strong>右</strong> </td> 
@@ -560,6 +570,22 @@ ht-degree: 2%
 
 <p><code>SEARCH(findText, withinText, start)</code></p> </td> 
   </tr> 
+  <tr> 
+   <td><strong>SORTASCARRAY</strong> </td> 
+   <td> <p>对数组元素进行升序排序，并将其转换为第一个元素的类型。</p>
+   <p>表达式的格式如下所示：</p>
+   <p><code>SORTASCARRAY(array)</code></p>
+   <p>例如，["-12.6"， -13.0]将变为["-12.6"， "-13"]。</p>
+   <p>注意：Workfront Planning不支持此表达式。</p></td> 
+  </tr>
+  <tr> 
+   <td><strong>SORTDESCARRAY</strong> </td> 
+   <td> <p>对数组元素进行降序排序，并将其转换为第一个元素的类型。</p>
+   <p>表达式的格式如下所示：</p>
+   <p><code>SORTDESCARRAY(array)</code></p>
+   <p>例如，["-12.6"， -13.0]将变为["-13"， "-12.6"]。</p>
+   <p>注意：Workfront Planning不支持此表达式。</p></td> 
+  </tr>
   <tr> 
    <td><strong>字符串</strong> </td> 
    <td> <p>将数字转换为字符串，其格式如下：</p>
@@ -603,3 +629,4 @@ ht-degree: 2%
   </tr> 
  </tbody> 
 </table>
+

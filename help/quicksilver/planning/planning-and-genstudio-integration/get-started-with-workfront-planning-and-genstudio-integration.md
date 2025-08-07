@@ -4,9 +4,9 @@ description: 当您的公司同时购买这两个产品时，即可在Adobe Work
 hide: true
 hidefromtoc: true
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
+source-git-commit: b366841f3994468624a0c9b07d9de6f2f274cbe0
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '984'
 ht-degree: 1%
 
 ---
@@ -27,10 +27,11 @@ recommendations: noDisplay, noCatalog
 
 <!--use this article to make this one similar to it: https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/review-approval-integrations/wf-proof-and-genstudio-->
 
+同时使用Adobe Workfront Planning和Adobe GenStudio for Performance Marketing的组织通常会比GenStudio默认支持的更详细地定义营销概念，如促销活动、产品和角色。
 
-Adobe GenStudio for Performance Marketing与Adobe Workfront Planning之间存在本机集成。 此集成的目的是防止用户不得不在两个应用程序之间来回切换以更新相同或相似的信息。
+GenStudio for Performance Marketing与Workfront Planning之间存在本机集成。 此集成允许Workfront Planning中的用户管理GenStudio中使用的促销活动、产品、角色、激活、渠道和区域。 它还允许他们配置GenStudio以引用Workfront Planning中的现有记录类型，从而创建更加互联和一致的营销工作流。
 
-您现在可以在GenStudio或Workfront Planning中更新或创建营销活动，并继续从任一应用程序处理它们。
+此集成帮助您避免重复的数据输入，保持规划和激活工作的一致性，并支持您的营销记录系统。
 
 当您的公司同时购买这两个产品时，即可在Adobe Workfront Planning中使用GenStudio for Performance Marketing工作区。
 
@@ -106,13 +107,14 @@ Adobe GenStudio for Performance Marketing与Adobe Workfront Planning之间存在
 
 ## 集成要求
 
-* 必须将Workfront和GenStudio for Performance Marketing启用到同一组织。 如果贵公司有多个Workfront实例，则只有一个实例可以与GenStudio for Performance Marketing集成。
+* 必须将Workfront和GenStudio for Performance Marketing启用到同一组织。
+* 当您的公司有多个GenStudio实例时，Workfront Planning中将无法使用Workfront。<!--this will change-->
 
 * Workfront实例是Adobe Unified Experience的一部分，包括使用Identity Management System (IMS)。
 
   有关信息，请参阅[适用于Workfront的Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
-* 同时使用Planning和GenStufio的用户只能属于IMS组织内的一个Workfront实例。
+* 同时使用Planning和GenStudio的用户只能属于IMS组织中的一个Workfront实例。
 
 <!--not sure: true for Planning? This is true for GenS and WF Proof: * The integration must be enabled in the Workfront Setup area.-->
 
@@ -121,7 +123,7 @@ Adobe GenStudio for Performance Marketing与Adobe Workfront Planning之间存在
 
 * 贵组织必须先购买Adobe GenStudio for Performance Marketing，然后才能在Workfront Planning中查看GenStudio工作区。
 
-  有关GenStudio的详细信息，请参阅[Adobe GenStudio for Performance Marketing用户指南](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/home)。
+  有关GenStudio的详细信息，请参阅[Adobe GenStudio for Performance Marketing用户指南](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)。
 
   有关GenStudio与Workfront Planning集成的详细信息，请参阅[Workfront Planning与GenStudio for Performance Marketing集成入门](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
 
@@ -140,6 +142,7 @@ Adobe GenStudio for Performance Marketing与Adobe Workfront Planning之间存在
 * 您不能在Workfront Planning中从GenStudio编辑记录类型。
 * 您无法从GenStudio与其他用户共享记录类型。 Workfront管理员可以在他们的规划区域中查看GenStudio工作区。
 * 与GenStudio同步的记录类型会显示一个视觉标志，以明确表示记录类型是从GenStudio导入的。
+* 在Planning中查看GenStudio工作区的用户可以与其他人共享其记录类型。
 
 ### 记录
 
@@ -152,15 +155,25 @@ Adobe GenStudio for Performance Marketing与Adobe Workfront Planning之间存在
 
   有关信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
 * 您无法从Workfront Planning中创建或删除激活记录。
+* 您可以在Workfront Planning的任何可见字段中编辑GenStudio工作区中所有记录的记录信息。
+
+  有关信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
 
 ### 字段
 
 * 所有记录字段均从GenStudio导入，无法编辑字段设置。
 * 只有在GenStudio中拥有系统管理员访问权限时，才能在Workfront Planning中为GenStudio记录类型创建字段。
-* 您可以在Workfront Planning的任何可见字段中编辑GenStudio工作区中所有记录的记录信息。
+* 您可以在Planning中为GenStudio记录类型创建字段。 以下区域将显示这些字段：
+   * Planning视图
+   * Planning记录详细信息页面
+   * GenStudio记录详细信息页面
 
-  有关信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
-* 您可以隐藏GenStudio记录类型的表视图中的字段，但不能从Workfront Planning中删除字段。
+  >[!TIP]
+  >
+  >在Workfront Planning中创建的字段在GenStudio列表视图中不可见。
+
+* 您可以在Planning中隐藏GenStudio记录类型的表视图中的字段，但不能从Workfront Planning中删除字段。
+
 
 <!-- checking: 
 I had this from Iskuhi, so not sure if you CAN create fields in Planning?? - only the newly added fiedsl can be changed or the reference fields. - from this: https://experience.adobe.com/?commentID=6848549f00000091e5f5a16636e381c0#/@adobeinternalworkfront/so:hub-Hub/workfront/project/67649bc00000545810daad1cd1fbb9cc/updates 
