@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 832b4044feaea902b807c12b5fad072c6dd04fc8
+source-git-commit: e8178ef6b746057e9f1b3991c1d87c89c08dddd8
 workflow-type: tm+mt
-source-wordcount: '6584'
+source-wordcount: '6617'
 ht-degree: 0%
 
 ---
@@ -106,13 +106,24 @@ We have updated the look and feel of the Edit templates box when editing templat
 
 For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).-->
 
-### 模板上“将更新发送到用户”框的界面更新
+### 多个对象上的“将更新发送到用户”框的界面更新
 
-**预览版本： 2025年7月31日；生产版本：待定，2025年**
+**预览版本： 2025年7月31日；生产版本： 2025年8月7日**
 
-在从模板的“人员”选项卡访问“将更新发送到用户”框时，我们更新了该框的外观。 向一个或多个用户发送更新时，将更新发送到用户框现在与Workfront的其他区域匹配。
+从以下区域访问用户框时，我们更新了将更新发送到用户框的外观：
 
-有关信息，请参阅[管理项目团队](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)。
+* 模板上的“人员”部分
+* 项目中的“人员”部分
+* 公司上的用户列表
+* 用户区域中的用户列表
+
+向一个或多个用户发送更新时，将更新发送到用户框现在与Workfront的其他区域匹配。
+
+有关信息，请参阅以下文章：
+
+* [向其他用户发送私信](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md)
+* [管理项目团队](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)
+* [管理公司成员资格](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
 
 ### 更新了在项目或模板中编辑队列主题时的体验
 
