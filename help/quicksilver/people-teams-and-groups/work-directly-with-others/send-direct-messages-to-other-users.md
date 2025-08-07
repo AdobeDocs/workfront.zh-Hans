@@ -7,16 +7,14 @@ description: 通过Adobe Workfront，您可以快速轻松地将与任何工作�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 52d722932b6b445bc8ee08a706e4e53765776bf7
+source-git-commit: d16495a0686ae5e54d16b108c69645f8666b46bd
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
 
 # 向其他用户发送私信
-
-{{highlighted-preview}}
 
 通过[!DNL Adobe Workfront]，您可以快速、轻松地直接向其他[!DNL Workfront]用户发送与任何工作项无关的消息。 按此部分所述发送的消息将显示在用户配置文件页面的[!UICONTROL 更新]选项卡中，并且对所有用户可见。 有关更新的更多信息，请参阅[更新工作项并查看更新：文章索引](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)。
 
@@ -76,7 +74,7 @@ ht-degree: 0%
 1. （可选）选择&#x200B;**[!UICONTROL 我的公司私有]**，使此消息仅对您公司的其他用户可见。
 
 1. 单击&#x200B;**[!UICONTROL 更新]。**
-该消息发布在用户个人资料页上的&#x200B;**[!UICONTROL 更新]**&#x200B;选项卡上的消息列表的顶部。
+该消息发布在用户个人资料页上的**[!UICONTROL 更新]**&#x200B;选项卡上的消息列表的顶部。
 
 ## 从“用户”列表中向一个或多个用户发送消息
 
@@ -87,14 +85,9 @@ ht-degree: 0%
 1. 选择要向其发送消息的一个或多个用户，然后单击&#x200B;[!UICONTROL **将更新发送给用户**]。
 1. 在[!UICONTROL 将更新发送给用户]窗口中键入您的消息。 根据需要使用文本格式选项。 有关详细信息，请参阅文章[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md#use-rich-text-in-a-workfront-comment)中的[在Workfront评论中使用富文本](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
-   <span class="preview">预览环境中的示例图像：</span>
    在“将更新发送到用户”窗口![向用户发送消息](assets/send-update-to-user-072825.png)
 
-   生产环境中的示例图像：
-   在“将更新发送到用户”窗口![向用户发送消息](assets/send-message-to-user-dialog-from-user-list.png)
-
-1. <span class="preview">（可选）单击&#x200B;**标记人员**&#x200B;以标记邮件上的任何其他用户。 有关详细信息，请参阅[标记其他人的更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)。</span>
-1. （可选）在生产环境中，搜索要在消息中标记的任何其他用户。 您无需标记已在用户列表中选择的用户。
+1. （可选）单击&#x200B;**标记人员**&#x200B;以在邮件中标记任何其他用户。 有关详细信息，请参阅[为其他人标记更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)。
 1. （可选）选择&#x200B;**[!UICONTROL 我的公司私有]**，使此消息仅对您公司的其他用户可见。
 1. 单击&#x200B;[!UICONTROL **发送**]。
-该邮件发布在每个已标记用户个人资料页面上的&#x200B;**[!UICONTROL 更新]**&#x200B;选项卡上的邮件列表的顶部。
+该邮件发布在每个已标记用户个人资料页面上的**[!UICONTROL 更新]**&#x200B;选项卡上的邮件列表的顶部。
