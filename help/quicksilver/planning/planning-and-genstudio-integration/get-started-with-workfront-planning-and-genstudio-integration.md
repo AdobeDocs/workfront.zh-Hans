@@ -4,9 +4,9 @@ description: 当您的公司同时购买这两个产品时，即可在Adobe Work
 hide: true
 hidefromtoc: true
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: b366841f3994468624a0c9b07d9de6f2f274cbe0
+source-git-commit: 36cd1c23dfb6e01dc1016a6a12ae47e4f9172d20
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '1029'
 ht-degree: 1%
 
 ---
@@ -42,6 +42,22 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
 * 在Workfront Planning中查看GenStudio工作区。
 * 在GenStudio中修改营销活动，并在Workfront Planning中实时更新相同信息。
 * 在Workfront Planning中修改促销活动，并在GenStudio中实时更新相同信息。
+
+## 集成要求
+
+* 必须将Workfront和GenStudio for Performance Marketing启用到同一组织。
+
+  有关GenStudio的详细信息，请参阅[Adobe GenStudio for Performance Marketing用户指南](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)。
+
+* 当您的公司有多个GenStudio实例时，Workfront Planning中将无法使用Workfront。<!--this will change-->
+
+* Workfront实例是Adobe Unified Experience的一部分，包括使用Identity Management System (IMS)。
+
+  有关信息，请参阅[适用于Workfront的Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+
+* 同时使用Planning和GenStudio的用户只能属于IMS组织中的一个Workfront实例。
+
+<!--not sure: true for Planning? This is true for GenS and WF Proof: * The integration must be enabled in the Workfront Setup area.-->
 
 ## 访问要求
 
@@ -105,44 +121,34 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
 *有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 
-## 集成要求
+## Workfront Planning与GenStudio集成概述
 
-* 必须将Workfront和GenStudio for Performance Marketing启用到同一组织。
-* 当您的公司有多个GenStudio实例时，Workfront Planning中将无法使用Workfront。<!--this will change-->
+以下各节描述了以下内容：
 
-* Workfront实例是Adobe Unified Experience的一部分，包括使用Identity Management System (IMS)。
+* 用于从GenStudio更新Workfront Planning信息的功能
+* 用于从Workfront Planning更新GenStudio信息的功能
+* 关于在GenStudio工作区中通过Workfront Planning可以管理或无法管理的内容的限制。
 
-  有关信息，请参阅[适用于Workfront的Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
-
-* 同时使用Planning和GenStudio的用户只能属于IMS组织中的一个Workfront实例。
-
-<!--not sure: true for Planning? This is true for GenS and WF Proof: * The integration must be enabled in the Workfront Setup area.-->
-
-
-## 在Workfront Planning中管理GenStudio工作区的注意事项
-
-* 贵组织必须先购买Adobe GenStudio for Performance Marketing，然后才能在Workfront Planning中查看GenStudio工作区。
-
-  有关GenStudio的详细信息，请参阅[Adobe GenStudio for Performance Marketing用户指南](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/home)。
-
-  有关GenStudio与Workfront Planning集成的详细信息，请参阅[Workfront Planning与GenStudio for Performance Marketing集成入门](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
-
-* Workfront用户必须有权访问GenStudio，才能在Workfront Planning中查看GenStudio工作区。
-
-
-* 以下部分介绍了在Workfront Planning的GenStudio工作区中，您可以和无法管理哪些内容的一些限制。
+<!--add here a link from the GenS articles about what you can/ cannot do from GenStudio that might in the end reflect in Planning - this should come from the GenS team-->
 
 ### Workfront规划中的GenStudio工作区
 
-* 如果您的组织有多个Workfront实例，则只有一个Workfront实例可以显示您的GenStudio工作区。
-* GenStudio工作区会显示一个可视指示器，以明确表示该工作区是从GenStudio导入的。
+* 如果贵组织有多个Workfront实例，则不会在任何Workfront实例中看到GenStudio工作区。<!-- this might change-->
+* GenStudio工作区会显示一个可视指示器，以明确表示该工作区是从GenStudio导入的。 有关信息，请参阅[在Adobe Workfront规划中管理GenStudio工作区](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)。
+* 所有有权访问GenStudio和Workfront Planning的用户也可以在Workfront Planning中看到GenStudio工作区。
+* Workfront Planning用户必须通过Adobe Identity Management System (IMS)进行管理，才能从Workfront查看和使用GenStudio工作区。
+
+  仅Workfront用户无法查看GenStudio工作区，即使它在Workfront中可用也是如此。
+
+  有关信息，请参阅[适用于Workfront的Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+
 
 ### 记录类型
 
-* 您不能在Workfront Planning中从GenStudio编辑记录类型。
-* 您无法从GenStudio与其他用户共享记录类型。 Workfront管理员可以在他们的规划区域中查看GenStudio工作区。
+* 您可以在Workfront Planning中从GenStudio编辑记录类型信息（例如其外观）。
+* 您可以在Planning中与其他人共享GenStudio记录类型。 <!--checking with Ani H.-->
+* 您可以在GenStudio工作区中从Planning创建记录类型。<!-- checking with Ani where these show up in GenS-->
 * 与GenStudio同步的记录类型会显示一个视觉标志，以明确表示记录类型是从GenStudio导入的。
-* 在Planning中查看GenStudio工作区的用户可以与其他人共享其记录类型。
 
 ### 记录
 
@@ -150,20 +156,24 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
 您可以在Workfront Planning中添加或删除记录，记录将在GenStudio中可见（或从中删除）。
 * 您可以通过以下方式从Workfront Planning添加记录：
 
-   * 手动，从头开始
+   * 使用“新建记录”按钮从任何视图中手动、从头开始
    * 通过使用CSV或Excel文件导入它们
+   * 手动、内联、在表格视图中
+   * 手动，直接在时间轴视图中
 
   有关信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
 * 您无法从Workfront Planning中创建或删除激活记录。
-* 您可以在Workfront Planning的任何可见字段中编辑GenStudio工作区中所有记录的记录信息。
+* 您可以在Planning的GenStudio工作区中，在Workfront Planning的任何可见字段中编辑有关所有记录的记录信息。
 
   有关信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
 
+  <!--asking Ani if I delete a record in GS - will it move to Recovery box in Planning?-->
+
 ### 字段
 
-* 所有记录字段均从GenStudio导入，无法编辑字段设置。
-* 只有在GenStudio中拥有系统管理员访问权限时，才能在Workfront Planning中为GenStudio记录类型创建字段。
-* 您可以在Planning中为GenStudio记录类型创建字段。 以下区域将显示这些字段：
+* 记录字段是从GenStudio导入的。 您可以在Workfront Planning中编辑字段设置。
+* 如果您在Gen Studio中具有“管理”权限，则可以在Workfront Planning中为GenStudio记录类型创建更多字段。
+* 在Planning中为GenStudio记录类型创建字段时，可从以下区域看到它们：
    * Planning视图
    * Planning记录详细信息页面
    * GenStudio记录详细信息页面
@@ -183,16 +193,17 @@ I had this from Iskuhi, so not sure if you CAN create fields in Planning?? - onl
 
 ### 视图
 
-* 您可以为GenStudio记录类型创建视图。 您无法编辑自动从GenStudio导入的视图，但可以更改GenStudio表格视图的视图元素。 例如，您可以修改表格视图中的筛选器、排序、分组、行颜色和行高。
+* 您可以为GenStudio记录类型创建视图。
 
   有关信息，请参阅[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)。
 
-* 您可以通过以下方式共享GenStudio记录类型的视图：
-
-   * 复制视图链接
-   * 将视图导出到文件（仅适用于表格视图）
+* 当您要共享Planning记录类型的视图时，可以共享GenStudio记录类型的视图。
 
 ### 连接
 
-* 您无法从Planning中的GenStudio记录类型连接其他记录或对象类型。
-* 您可以从Planning中的其他记录类型连接到GenStudio记录类型。
+* 您可以在GenStudio记录类型与Workfront Planning中的其他记录或对象类型之间建立以下连接：
+
+   * 两种GenStudio记录类型和
+   * 来自同一工作区的GenStudio记录类型和Planning记录类型
+   * 如果记录类型配置为从另一个工作区连接，则为来自另一个工作区的GenStudio记录类型和Planning记录类型。
+   * GenStudio记录类型和Workfront对象类型（项目、项目组合、项目、公司、组）

@@ -7,7 +7,7 @@ description: 您可以使用数据表达式在Adobe Workfront中定义计算的�
 author: Courtney, Lisa
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
+source-git-commit: 36cd1c23dfb6e01dc1016a6a12ae47e4f9172d20
 workflow-type: tm+mt
 source-wordcount: '2551'
 ht-degree: 2%
@@ -374,7 +374,7 @@ ht-degree: 2%
 
 您可以创建计算自定义字段，该字段使用以下表达式显示文本格式的值：
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto:fixed"> 
  <col> 
  <col> 
  <thead> 
@@ -555,7 +555,7 @@ ht-degree: 2%
    <td> <p>将给定模式的匹配项替换为替换字符串。 </p> 
    <p>表达式的格式如下所示：</p>
    <p><code>REPLACEPATTERN (string, pattern, replacement string)</code></p> 
-   <p>例如，REPLACEPATTERN("foo123bar"， "\d+"， "_")生成字符串“foo_bar”。 
+   <p>例如，REPLACEPATTERN("foo123bar"， "\d+"， "_")生成字符串“foo_bar”。
    </td> 
   </tr> 
   <tr> 

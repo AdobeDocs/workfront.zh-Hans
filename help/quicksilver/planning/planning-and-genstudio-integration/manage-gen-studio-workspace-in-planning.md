@@ -4,9 +4,9 @@ description: 当您的公司同时购买了两款产品，并且您的GenStudio 
 hide: true
 hidefromtoc: true
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
-source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
+source-git-commit: 36cd1c23dfb6e01dc1016a6a12ae47e4f9172d20
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '684'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ recommendations: noDisplay, noCatalog
 
 当您的公司同时购买了两款产品，并且您的GenStudio for Performance Marketing实例与公司的GenStudio实例集成时，Adobe Workfront Planning中会提供Workfront工作区。 您可以从Planning中查看GenStudio工作区，并更新两个系统中的信息。
 
-有关使用GenStudio for Performance Marketing的信息，请参阅[Adobe GenStudio for Performance Marketing用户指南](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/home)。
+有关使用GenStudio for Performance Marketing的信息，请参阅[Adobe GenStudio for Performance Marketing用户指南](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)。
 
 ## 访问要求
 
@@ -93,6 +93,17 @@ recommendations: noDisplay, noCatalog
 *有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+## 在Workfront Planning中管理GenStudio工作区的注意事项
+
+* 贵组织必须先购买Adobe GenStudio for Performance Marketing，然后才能在Workfront Planning中查看GenStudio工作区。
+
+  有关GenStudio的详细信息，请参阅[Adobe GenStudio for Performance Marketing用户指南](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)。
+
+  有关GenStudio与Workfront Planning集成的详细信息，请参阅[Workfront Planning与GenStudio for Performance Marketing集成入门](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
+
+* Workfront用户必须有权访问GenStudio，才能在Workfront Planning中查看GenStudio工作区。
+
 
 ## 在Workfront Planning中管理GenStudio工作区
 
