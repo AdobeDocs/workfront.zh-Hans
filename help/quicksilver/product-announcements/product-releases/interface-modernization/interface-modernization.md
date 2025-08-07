@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: e8178ef6b746057e9f1b3991c1d87c89c08dddd8
+source-git-commit: 6e6f88362eb46122e43f049ae975a2087cdbe588
 workflow-type: tm+mt
-source-wordcount: '6617'
+source-wordcount: '6618'
 ht-degree: 0%
 
 ---
@@ -72,11 +72,11 @@ ht-degree: 0%
 
 ## 项目
 
-### 在小时选项卡中更新记录项目、任务或问题的时间的界面
+### 在小时部分更新记录项目、任务或问题的时间的界面
 
 **预览版本： 2025年8月7日；生产版本： 2025年8月14日**
 
-我们更新了在“小时”选项卡中记录项目、任务或问题的时间时记录时间框的外观，以匹配Workfront其他区域的设计。
+我们更新了小时部分中记录项目、任务或问题的时间时记录时间框的外观，以匹配Workfront其他区域的设计。
 
 有关信息，请参阅[记录时间](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md)。
 
@@ -112,9 +112,9 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 
 从以下区域访问用户框时，我们更新了将更新发送到用户框的外观：
 
-* 模板上的“人员”部分
-* 项目中的“人员”部分
-* 公司上的用户列表
+* 模板的“人员”部分
+* 项目的“人员”部分
+* 公司的公司成员部分
 * 用户区域中的用户列表
 
 向一个或多个用户发送更新时，将更新发送到用户框现在与Workfront的其他区域匹配。
