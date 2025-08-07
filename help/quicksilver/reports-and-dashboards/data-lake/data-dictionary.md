@@ -4,12 +4,12 @@ product-area: reports and dashboards
 navigation-topic: data connect
 title: Workfront Data Connect数据字典
 description: 本页包含有关Workfront Data Connect中数据的结构和内容的信息。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 44342db0a473eac70212d08cedf9ac0f571cda0b
+source-git-commit: 5a7f61b9b5237e282c1a61fb49b85533497836e3
 workflow-type: tm+mt
-source-wordcount: '8129'
+source-wordcount: '8114'
 ht-degree: 7%
 
 ---
@@ -54,8 +54,8 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
 
 有许多日期对象提供有关特定事件发生时间的信息。
 
-* `DL_LOAD_TIMESTAMP`：此日期用于内部引用，并反映数据加载到Current、Event或Daily History表中的时间。 此日期不应用于数据分析，计划在Workfront数据湖的测试阶段删除。
-* `CALENDAR_DATE`：此日期仅存在于“每日历史记录”表中。 此表记录了`CALENDAR_DATE`中指定的每个日期在11:59 UTC时的数据外观。
+* `DL_LOAD_TIMESTAMP`：此日期在成功完成数据刷新后更新，并包括提供最新版本记录的刷新作业开始的时间戳。
+* `CALENDAR_DATE`：此日期仅存在于“每日历史记录”表中。 此表记录了:59中指定的每个日期的数据在11`CALENDAR_DATE` UTC时的外观。
 * `BEGIN_EFFECTIVE_TIMESTAMP`：此日期同时存在于“事件”和“每日历史记录”表中，并且记录记录记录何时将&#x200B;_更改为_&#x200B;其在当前行中的值。
 * `END_EFFECTIVE_TIMESTAMP`：此日期同时存在于“事件”和“每日历史记录”表中，记录某记录何时将&#x200B;_从_&#x200B;当前行中的值更改为其他行中的值。 为了在`BEGIN_EFFECTIVE_TIMESTAMP`和`END_EFFECTIVE_TIMESTAMP`上的查询之间允许，此值从不为null，即使没有新值也是如此。 如果记录仍然有效（即值未更改），`END_EFFECTIVE_TIMESTAMP`的值将为2300-01-01。
 
@@ -844,7 +844,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
     </tbody>
 </table>
 
-### 记帐费率
+### 计费费率
 
 <table>
     <thead>
@@ -858,10 +858,10 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
       </thead>
       <tbody>
         <tr>
-            <td>记帐费率</td>
+            <td>计费费率</td>
             <td>费率或覆盖率</td>
             <td>费率</td>
-            <td>记帐费率</td>
+            <td>计费费率</td>
             <td>RATES_CURRENT<br>RATES_DAILY_HISTORY<br>RATES_EVENT</td>
         </tr>
       </tbody>
