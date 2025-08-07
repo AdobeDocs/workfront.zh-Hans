@@ -47,7 +47,7 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
 
 * 必须将Workfront和GenStudio for Performance Marketing启用到同一组织。
 
-  有关GenStudio的详细信息，请参阅[Adobe GenStudio for Performance Marketing用户指南](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)。
+  有关GenStudio的详细信息，请参阅[Adobe GenStudio for Performance Marketing用户指南](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/home)。
 
 * 当您的公司有多个GenStudio实例时，Workfront Planning中将无法使用Workfront。<!--this will change-->
 
