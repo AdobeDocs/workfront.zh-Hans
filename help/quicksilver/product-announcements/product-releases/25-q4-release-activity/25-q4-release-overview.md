@@ -138,7 +138,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
   <tbody>
   <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">新表达式已添加到Planning中的公式字段和Workfront中的已计算自定义字段中</a><p><p>[！BADGE Off Schedule]{type=Neutral}</p></p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">新表达式已添加到Planning中的公式字段和Workfront中的已计算自定义字段中</a><p><p>[!BADGE Off Schedule]{type=Neutral}</p></p>
             <p>我们向Workfront Planning中的公式字段和Workfront中的计算自定义字段添加了具有以下用法的新表达式：</p>
             <ul>
             <li>REMOVEACCENTS(string)：从输入字符串中所有重音字符中删除变音标记。</li>
