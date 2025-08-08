@@ -6,9 +6,9 @@ description: 默认情况下，您在 [!DNL Workfront] Web应用程序中看到�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: ac34076ddc0b5815c262a61326534a1241c17a4c
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '680'
 ht-degree: 1%
 
 ---
@@ -26,17 +26,18 @@ ht-degree: 1%
 
 | **[!DNL Workfront]区域或对象** | **默认系统节** | **自定义分区** |
 |---|---|---|
-| [!UICONTROL 项目]区域 | ✓ {\f13 } | ✓ {\f13 } |
-| [!UICONTROL 团队] | ✓ {\f13 } |   |
-| [!UICONTROL 请求]区域 | ✓ {\f13 } |   |
-| [!UICONTROL 时间表]区域 | ✓ {\f13 } |   |
-| [!UICONTROL Portfolio] | ✓ {\f13 } | ✓ {\f13 } |
-| [!UICONTROL 计划] | ✓ {\f13 } | ✓ {\f13 } |
-| [!UICONTROL 项目] | ✓ {\f13 } | ✓ {\f13 } |
-| [!UICONTROL 任务] | ✓ {\f13 } |  ✓ {\f13 } |
-| [!UICONTROL 问题] |  ✓ {\f13 } |  ✓ {\f13 } |
-| [!UICONTROL 用户] |  ✓ {\f13 } |  ✓ {\f13 } |
-| [!UICONTROL 文档] |  ✓ {\f13 } |  ✓ {\f13 } |
+| [!UICONTROL 项目]区域 | ✓ | ✓ |
+| [!UICONTROL 团队] | ✓ |   |
+| [!UICONTROL 请求]区域 | ✓ |   |
+| [!UICONTROL 时间表]区域 | ✓ |   |
+| [!UICONTROL Portfolio] | ✓ | ✓ |
+| [!UICONTROL 计划] | ✓ | ✓ |
+| [!UICONTROL 项目] | ✓ | ✓ |
+| [!UICONTROL 任务] | ✓ |  ✓ |
+| [!UICONTROL 问题] |  ✓ |  ✓ |
+| [!UICONTROL 用户] |  ✓ |  ✓ |
+| [!UICONTROL 文档] |  ✓ |  ✓ |
+| [!UICONTROL 资源]区域 | ✓ | ✓ |
 
 {style="table-layout:auto"}
 
@@ -51,19 +52,19 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[!UICONTROL Review]或更高版本</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
+   <td> <p>[！UICONTROL Review]或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td>[!UICONTROL Reviewer]或更高版本</td> 
+   <td role="rowheader">访问级别配置*</td> 
+   <td>[！UICONTROL Reviewer]或更高版本</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>对象权限</strong></td> 
+   <td role="rowheader">对象权限</td> 
    <td>查看对对象类型的访问权限</td> 
   </tr> 
  </tbody> 
@@ -108,7 +109,7 @@ ht-degree: 1%
 * 注释
 * 文档
 
-有关对象的层次结构和相互依赖关系的详细信息，请参阅[了解Adobe Workfront中的对象](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)一文中的[相互依赖关系和对象层次结构](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects)部分。
+有关对象的层次结构和相互依赖关系的详细信息，请参阅[了解Adobe Workfront中的对象](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects)一文中的[相互依赖关系和对象层次结构](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)部分。
 
 ## 自定义布局模板中的左侧面板
 

@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 1c3c82db8c1320130aa3eec9d5ad1fe31340e2e9
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '635'
 ht-degree: 2%
 
 ---
 
 # 创建或编辑自定义条件
+
+{{highlighted-preview}}
 
 作为Adobe Workfront管理员，您可以为项目、任务和问题创建或编辑自定义条件，以满足贵组织的需求。
 
@@ -43,7 +45,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td>
+   <td>[！UICONTROL系统管理员]</td>
   </tr> 
  </tbody> 
 </table>
@@ -64,8 +66,12 @@ ht-degree: 2%
 
    或
 
-   要编辑现有条件，请将鼠标悬停在要编辑的条件上，然后单击最右侧显示的&#x200B;**编辑**&#x200B;图标。
+   要编辑现有条件，请单击条件名称&#x200B;<span class="preview">**旁边的**&#x200B;编辑</span>，或将鼠标悬停在要编辑的条件上，然后单击最右侧显示的&#x200B;**编辑**&#x200B;图标。
 
+   <span class="preview">预览环境中的示例图像：</span>
+   ![编辑自定义条件](assets/custom-conditions-0825.png)
+
+   生产环境中的示例图像：
    ![自定义完成情况](assets/custom-condition-edit-nwe.jpg)
 
 1. 使用以下选项配置自定义条件：
@@ -75,7 +81,7 @@ ht-degree: 2%
     <col> 
     <tbody> 
      <tr> 
-      <td>完成情况名称</td> 
+      <td>条件名称</td> 
       <td>（必需）键入条件的描述性名称。</td> 
      </tr> 
      <tr> 
@@ -99,7 +105,7 @@ ht-degree: 2%
       <p>保存条件后，无法更改条件的键。 </p></td> 
      </tr> 
      <tr> 
-      <td>隐藏完成情况</td> 
+      <td>隐藏条件</td> 
       <td><p>（可选）此选项适用于您不再希望用户使用，但由于历史原因而希望保留的自定义条件。 </p>
       <p>如果隐藏已用于工作项的自定义条件，则在隐藏该条件后，它将继续显示在那些工作项中。 </p></td> 
      </tr> 
@@ -116,15 +122,17 @@ ht-degree: 2%
 
    * 当用户编辑项目时
 
-     编辑项目时![更改完成情况](assets/change-condition-edit-project.png)
+     编辑项目时![更改完成情况](assets/change-condition-edit-project-0825.png)
 
-   * 当用户在“更新”选项卡上更改任务或问题的条件时：
+<!-- 
+   * When a user is changing the condition for a task or issue on the Updates tab:
 
-     更新评论时![更改条件](assets/change-condition-update-comment.png)
+     ![Change condition when updating comment](assets/change-condition-update-comment.png)
+-->
 
-   * 当用户更改列表视图中任务或问题的条件时：
+* 当用户更改列表视图中任务或问题的条件时：
 
-     ![更改列表](assets/change-conditions-list-dropdown-only.png)中的条件
+  ![更改列表](assets/change-conditions-list-dropdown-only.png)中的条件
 
 1. 单击&#x200B;**保存**。
 
