@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 46cb91855937742ee681b3d2412941b2d3831086
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
-source-wordcount: '6618'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 我们更新了“条件”页面，更新了与Workfront其他区域一致的更加现代的设计。
 
-界面中一个明显的增强功能是&#x200B;**编辑**&#x200B;按钮现在显示在可编辑条件的旁边，您不必再将鼠标悬停在条件上即可找到“编辑”图标。
+界面中一个明显的增强功能是，**编辑**&#x200B;和&#x200B;**删除**&#x200B;按钮现在显示在您可以编辑的条件旁边，您不必再将鼠标悬停在条件上即可找到“编辑”和“删除”图标。
 
 要查看这些更改，请转到“设置”>“项目偏好设置”>“完成情况”。
 

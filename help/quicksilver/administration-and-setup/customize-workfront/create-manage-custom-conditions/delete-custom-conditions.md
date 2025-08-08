@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5fbd4989-460b-4380-a136-8a9f6b79787d
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # 删除自定义完成情况
+
+{{highlighted-preview}}
 
 如果不再需要某个自定义条件，您可以删除该条件。
 
@@ -43,7 +45,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td>
+   <td>[！UICONTROL系统管理员]</td>
   </tr> 
  </tbody> 
 </table>
@@ -58,16 +60,11 @@ ht-degree: 0%
 
 1. 单击&#x200B;**项目首选项** > **条件**。
 
-   <!--
-   <span data-mc-conditions="QuicksilverOrClassic.Draft mode">Make sure it's this way also in QS</span>
-   -->
-
 1. 选择要删除的条件所在的对象类型（**项目**、**任务**&#x200B;或&#x200B;**问题**）的选项卡。
 
-1. 将鼠标悬停在要删除的条件上，然后单击最右侧显示的&#x200B;**删除**&#x200B;图标![删除](assets/delete.png)。
-1. 在显示的确认消息中，单击&#x200B;**删除条件**。
+1. 单击要删除的条件名称&#x200B;<span class="preview">**旁边的**&#x200B;删除</span>，或将鼠标悬停在该条件上，然后单击最右侧显示的&#x200B;**删除**&#x200B;图标![删除](assets/delete.png)。
 
-1. 在出现的&#x200B;**删除条件**&#x200B;框中，在下拉列表中选择一个新条件，以用于使用要删除的条件的所有项目。
+1. 在出现的&#x200B;**删除完成情况**&#x200B;框中，从下拉列表中选择一个新完成情况，该新完成情况适用于使用该完成情况的所有项目、任务或问题。
 
    仅当自定义条件与您要删除的内置条件相等时，它们才在下拉列表中可用。 例如，如果要删除与“处于风险中”相等的条件，则只能选择与“处于风险中”相等的自定义条件。
 
@@ -76,5 +73,5 @@ ht-degree: 0%
 >[!NOTE]
 >
 >您无法删除内置完成情况，这些完成情况符合目标、存在风险和存在问题。 但是，您可以更改它们的名称和颜色。
-
-有关自定义条件的信息，请参阅[自定义条件](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)。
+>
+>有关编辑自定义条件的信息，请参阅[创建或编辑自定义条件](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)。

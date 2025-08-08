@@ -8,18 +8,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dba052ed-83a2-44d2-b025-d970783c4151
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # 将自定义条件设置为项目的默认值
 
+{{highlighted-preview}}
+
 如果项目的完成情况类型设置为“进度状态”而不是“手动”，Adobe Workfront会在项目进行时自动显示三个内置默认完成情况之一（“准时”、“处于风险中”或“存在问题”），如[项目完成情况和完成情况类型概述](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md)中所述。
 
-项目标头![&#128279;](assets/condition-in-project-header-nwe.png)中的完成情况
+项目标头![中的](assets/condition-in-project-header-nwe.png)完成情况
 
 您可以将自定义条件设置为默认条件，而不是使用这三个内置的默认条件。 例如，您可以更改“按目标”默认条件，使其在所有项目中均显示为跟踪良好。
 
@@ -47,7 +49,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td>
+   <td>[！UICONTROL系统管理员]</td>
   </tr> 
  </tbody> 
 </table>
@@ -64,12 +66,10 @@ ht-degree: 0%
 
 1. 单击&#x200B;**项目**&#x200B;选项卡。
 1. 单击&#x200B;**设置默认条件**。
-1. 在要更改的默认条件旁边的下拉菜单中，单击要改用的自定义条件。
+1. 在要更改的默认条件的下拉菜单中，单击要改用的自定义条件。
 1. 对要更改的任何其他默认条件重复上一步骤。
 1. 单击&#x200B;**保存**。
 
 有关将自定义条件设置为任务和问题的默认条件的信息，请参阅[将自定义条件设置为任务和问题的默认值](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md)。
 
-有关设置项目以便用户可以手动更新其条件的信息，请参阅[更新任务和问题的条件](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md)。
-
-有关自定义条件的信息，请参阅[自定义条件](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)。
+有关设置项目以便用户可以手动更新其条件的信息，请参阅[任务和问题的更新条件](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md)。

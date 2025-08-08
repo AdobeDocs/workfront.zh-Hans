@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 40b426f4-0a9c-49a6-91c7-b5f8aa48bd37
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Workfront使用内置条件“进展顺利”作为任务的默认条件，使�
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td>
+   <td>[！UICONTROL系统管理员]</td>
   </tr> 
  </tbody> 
 </table>
@@ -70,8 +70,5 @@ Workfront使用内置条件“进展顺利”作为任务的默认条件，使�
 >
 >* 分配了任务或问题的用户，或者具有任务或问题的管理权限的用户可以手动更改其条件。 有关详细信息，请参阅[任务和问题的更新条件](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md)。
 >* Workfront提供的任务和问题的三个默认条件进展顺利，有一些问题，但也存在一些主要障碍。 不能隐藏或删除这些条件，但可以更改其名称和颜色。 或者，您可以按照[创建或编辑自定义条件](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)中的说明创建新条件以改用。
->
 
 有关将自定义条件配置为项目的默认条件的信息，请参阅[将自定义条件设置为项目的默认条件](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md)。
-
-有关自定义条件的信息，请参阅[自定义条件](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)。
