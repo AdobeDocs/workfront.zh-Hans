@@ -1,0 +1,255 @@
+---
+title: 使用提示或文档自动填写请求
+content-type: reference
+description: 可以通过输入提示或提供文档来使用AI自动填写请求字段。
+author: Becky
+feature: Get Started with Workfront
+source-git-commit: cf2ae77ed27b1dd30144f6de31bec474f53f1efb
+workflow-type: tm+mt
+source-wordcount: '1060'
+ht-degree: 2%
+
+---
+
+# 使用提示或文档自动填写请求
+
+>[!NOTE]
+>
+>* 此功能将作为公开测试版在以下时间表中提供：
+>
+>   * 每月发布： 2025年9月11日
+>   * 季度发布： 2025年10月16日
+>
+>* 要使用此功能，您的组织必须满足使用Workfront AI Assistant的要求。 有关详细信息，请参阅[AI助手先决条件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
+
+AI可帮助您根据输入的提示自动填写请求字段。 它还可以基于文本填写字段，例如电子邮件和上传的文档。 您可以在提交请求之前批准或拒绝这些建议。
+
+自动填写不会覆盖您已填写的任何字段。
+
+用户不会收到他们无权访问的数据建议。
+
+## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
+
+您必须具有以下权限才能执行本文中的步骤：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront计划</td> 
+   <td> <p>任何 </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p>新文档：参与者或更高版本</p>
+   或
+   <p>当前：请求或更高版本</p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑对问题的访问权限</p>  </td> 
+  </tr> 
+   <td role="rowheader">对象权限</td> 
+   <td><p>将请求添加到请求队列的权限</p> <p>查看现有请求或更高权限</p> <p>有关设置请求队列的信息，请参阅<a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">创建请求队列</a>。 </p> </td> 
+  <tr>
+  </tr>
+ </tbody> 
+</table>
+
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
+## 先决条件
+
+若要使用提示或文档自动填写请求，必须应用以下&#x200B;**所有**：
+
+* 您的组织必须已迁移到Adobe IMS (Identity Management System)
+* 必须启用Adobe Unified Experience
+* 您的组织必须具有Select、Prime或Ultimate Workfront计划
+* Adobe必须具有已签署的Adobe Gen AI协议
+
+  有关签署协议的更多信息，请参阅AI助手概述一文中的[签署Adobe Gen AI协议](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)。
+
+## 从文本提示获取建议
+
+自动填写可根据文本（如电子邮件）建议字段值。 将粘贴到文本块中，Workfront会处理文本以根据文本建议字段值。
+
+例如，如果电子邮件包含“此日期在6月1日到期”，并且请求表单中存在到期日期的字段，则Workfront将建议在6月1日使用该字段值。
+
+此类建议还会检查以前对类似上下文的请求。 例如，如果提示提及请求是针对特定客户的，Workfront可以根据之前的请求自动查找并输入该客户的账单地址。
+
+您可以粘贴要应用于整个表单或表单单个部分的文本。
+
+要根据粘贴的文本提示使用建议，请执行以下操作：
+
+1. 开始创建请求。
+
+   有关说明，请参阅[创建并提交请求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)。
+
+1. 要将文本提示应用于整个表单，请单击表单名称下的AI图标![AI图标](assets/request-prompt-icon.png)。
+
+   或
+
+   要为单个分区应用文本提示，请单击分区名称旁边的AI图标![AI图标](assets/request-prompt-icon.png)。
+
+1. 将文本粘贴到提示框中。
+1. 单击&#x200B;**填写表单**。
+
+   Workfront会生成表单建议。
+1. 对于每个字段建议，请为该字段选择&#x200B;**接受**&#x200B;或&#x200B;**拒绝**。
+
+   ![接受或拒绝建议](assets/accept-reject-suggestion.png)
+
+   或
+
+   选择页面顶部的&#x200B;**全部接受**&#x200B;或&#x200B;**全部拒绝**&#x200B;以接受或拒绝所有建议。
+
+   >[!NOTE]
+   >
+   >当您提交请求时，任何未审核的建议都将被自动接受。
+
+## 根据您上传的文档获取建议
+
+自动填写可以根据您上传的文档来建议字段值。
+
+此类建议还会检查以前对类似上下文的请求。 例如，如果提示提及请求是针对特定客户的，Workfront可以根据之前的请求自动查找并输入该客户的账单地址。
+
+### 文档上传护栏
+
+#### 支持的文件类型
+
+支持以下文件类型：
+
+<table>
+<tr style="border: 0;">
+<td>
+<ul>
+<li>BMP</li>
+<li>CSV</li>
+<li>DOC</li>
+<li>DOCX</li>
+<li>GIF</li>
+<li>JPEG</li>
+<li>JPEG</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>ODP</li>
+<li>ODS</li>
+<li>ODT</li>
+<li>PDF</li>
+<li>PNG</li>
+<li>PPT</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>PPTX</li>
+<li>RTF</li>
+<li>TIFF</li>
+<li>TXT</li>
+<li>XLS</li>
+<li>XLSX</li>
+</ul>
+</td>
+</tr>
+</table>
+
+#### 支持的文件大小
+
+每个文件的大小最多可达100 MB
+
+#### 文件数
+
+您最多可以上传50个文件（页面、幻灯片或工作表）。
+
+>[!IMPORTANT]
+>
+>文档将转换为一系列图像，每个图像都被视为单独的文件。
+>
+>例如，您可以上传一个包含50张幻灯片的PowerPoint，或上传每个包含10页的5个Word文档。
+
+#### 支持的字段类型
+
+Workfront字段类型会影响给定字段是否可以自动填写。
+
+<table>
+<tr>
+<td><b>支持的</b><br>自动填写可以填写</td>
+<td><b>不支持</b> <br>自动填写未填写</td>
+</tr>
+<tr>
+<td>
+<ul>
+<li>单行文本</li>
+<li>文本区域或段落</li>
+<li>日期字段</li>
+<li>复选框</li>
+<li>单选按钮</li>
+<li>单选和多选下拉菜单</li>
+</ul>
+</td>
+<td><li>键盘缓冲</li>
+<li>外部查找</li>
+<li>内部查找</li>
+<li>参考</li>
+<li>WF Planning嵌入字段</li>
+</ul>
+</td>
+</tr>
+</table>
+
+#### 其他最佳实践
+
+在上传请求自动填写的文档时，请考虑以下事项：
+
+* 自动填写当前已针对拉丁字母进行了优化。
+* 我们建议使用8点或更大的文本大小。
+* 自动填充可能难以处理文档中的图像，例如旋转或扭曲的图像、图形、对图像中的对象进行计数或使用空间原因。
+* 与往常一样，我们建议在提交请求之前检查结果的准确性。
+
+### 上传文档以自动填写请求
+
+您可以上载要应用于整个表单或表单单个部分的文档。
+
+1. 开始创建请求。
+
+   有关说明，请参阅[创建并提交请求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)。
+
+1. 要将文档应用于整个表单，请单击表单名称下的AI图标![AI图标](assets/request-prompt-icon.png)。
+
+   或
+
+   若要将文档应用于单个分区，请单击分区名称旁边的AI图标![AI图标](assets/request-prompt-icon.png)。
+
+1. 单击&#x200B;**上载文件**，然后从文件管理器中选择该文件。
+
+   或
+
+   将文档从文件管理器拖到&#x200B;**上载文件以自动填写请求表单**&#x200B;框。
+1. 单击&#x200B;**填写表单**，共&#x200B;**填写部分**。
+
+   Workfront会生成表单建议。
+1. 对于每个字段建议，请为该字段选择&#x200B;**接受**&#x200B;或&#x200B;**拒绝**。
+
+   ![接受或拒绝建议](assets/accept-reject-suggestion.png)
+
+   或
+
+   选择页面顶部的&#x200B;**全部接受**&#x200B;或&#x200B;**全部拒绝**&#x200B;以接受或拒绝所有建议。
+
+   >[!NOTE]
+   >
+   >当您提交请求时，任何未审核的建议都将被自动接受。
+
+## 故障排除
+
+如果您没有获得预期的建议，可能是由于以下原因之一：
+
+* 您必须在系统中拥有至少一个月的请求数据，然后才能建议来自先前请求的字段值。
+* 在上传文档以从中提取建议时，您可能没有遵循文档上传护栏。 有关详细信息，请参阅本文中的[文档上传护栏](#document-upload-guardrails)。
+
