@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
+source-git-commit: c8f552a4f4da2365f793e9111ee12a9905516134
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '6622'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 管理和设置
 
-## “设置”中“条件”区域的界面更新
+### “设置”中“条件”区域的界面更新
 
 **预览版本： 2025年8月7日；生产版本： 2025年8月18日**
 
