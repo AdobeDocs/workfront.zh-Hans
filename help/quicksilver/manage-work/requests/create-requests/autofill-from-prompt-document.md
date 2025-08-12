@@ -4,9 +4,10 @@ content-type: reference
 description: 可以通过输入提示或提供文档来使用AI自动填写请求字段。
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: cf2ae77ed27b1dd30144f6de31bec474f53f1efb
+exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
+source-git-commit: fd42ac97be05df9499ea3214642099738ccc69b1
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1093'
 ht-degree: 2%
 
 ---
@@ -62,6 +63,8 @@ AI可帮助您根据输入的提示自动填写请求字段。 它还可以基�
 
 有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
++++
+
 ## 先决条件
 
 若要使用提示或文档自动填写请求，必须应用以下&#x200B;**所有**：
@@ -72,6 +75,9 @@ AI可帮助您根据输入的提示自动填写请求字段。 它还可以基�
 * Adobe必须具有已签署的Adobe Gen AI协议
 
   有关签署协议的更多信息，请参阅AI助手概述一文中的[签署Adobe Gen AI协议](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)。
+* 必须在组织的系统设置中启用AI助手。 此项由Workfront管理员管理。
+
+  有关在系统设置中启用AI助手的详细信息，请参阅[启用或禁用AI助手](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)。
 
 ## 从文本提示获取建议
 
@@ -252,4 +258,3 @@ Workfront字段类型会影响给定字段是否可以自动填写。
 
 * 您必须在系统中拥有至少一个月的请求数据，然后才能建议来自先前请求的字段值。
 * 在上传文档以从中提取建议时，您可能没有遵循文档上传护栏。 有关详细信息，请参阅本文中的[文档上传护栏](#document-upload-guardrails)。
-
