@@ -6,28 +6,26 @@ description: Adobe Workfront审阅工具是一种浏览器扩展，它允许您�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
-source-git-commit: 5a8bfdeae7f5d23ecf835e652cf0ff5efd5aa410
+source-git-commit: 7bff0a8c43355472453403fcd404388a3d95d471
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '604'
 ht-degree: 1%
 
 ---
 
 # 使用Adobe Workfront审阅工具审阅交互式内容
 
-<span class="preview">Adobe Workfront审核工具已于2024年11月7日发布。 此扩展当前为测试版。</span>
 
-Adobe Workfront审阅工具是一个基于Web的浏览器扩展，它允许您校对ZIP文件或URL中的交互式内容。 Adobe Workfront审核工具在以下浏览器中提供：
+>[!IMPORTANT]
+>
+> 对于托管在需要SSO身份验证或阻止在iFrame中打开其网站的网站（例如Figma）上的交互式内容，我们建议使用桌面验证查看器。
+
+Adobe Workfront审阅工具是一个基于Web的浏览器扩展，它允许您在ZIP文件中或使用URL标记交互式内容。 Adobe Workfront审核工具在以下浏览器中提供：
 
 * Firefox
 * Chrome
 * Edge
 * Safari
-
->[!IMPORTANT]
->
->查看GenStudio for Performance Marketing和Creative Cloud Express中的内容需要此扩展。 Assets将自动在Web查看器中打开。 您无需更新任何帐户设置。
-
 
 ## 安装扩展
 
@@ -48,11 +46,16 @@ Adobe Workfront审阅工具是一个基于Web的浏览器扩展，它允许您�
 
 要使交互式校样在Adobe Workfront审核工具中自动打开，Workfront管理员必须更新workfront中的校样设置，如下节所述。
 
+## 使用GenStudio for Performance Marketing和Creative Cloud Express中的Adobe Workfront审核工具
+
+查看GenStudio for Performance Marketing和Creative Cloud Express中的内容需要此扩展。 Assets将自动在Web查看器中打开。 您无需更新任何帐户设置。
+
+
 ## 更新Workfront校对默认值
 
 要使用Workfront审核工具作为交互式内容的默认查看器，您必须更新Workfront中的验证默认值。
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >如果您需要查看的内容位于某个网站上，我们建议您使用桌面验证查看器
 >
