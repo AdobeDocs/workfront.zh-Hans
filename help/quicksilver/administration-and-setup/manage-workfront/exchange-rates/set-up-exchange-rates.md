@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: exchange-rates
 title: 设置汇率
-description: 作为Adobe Workfront管理员，您可以在Workfront中设置货币汇率。
+description: 汇率影响Workfront的所有金融元素。 基础货币是整个系统中所有项目的默认货币。
 feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: cb12c715d6b20dd4737e2d2e29d9849f08ce67e9
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '634'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 2%
 * 在Workfront中更新汇率以匹配当前汇率
 * 为多种货币配置汇率（这样做可让用户为各个项目选择默认货币）
 
-汇率影响Workfront的所有金融元素。 基本货币是整个系统中所有项目的默认货币，除非为给定项目或工作角色覆盖基本货币。 在报表或列表中查看财务信息时，您也可以选择以系统中可用的货币显示财务信息，这些货币与项目的基本货币或项目的基本货币不同。 有关详细信息，请参阅[创建具有唯一汇率的财务数据报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)。
+汇率影响Workfront的所有金融元素。 基础货币是整个系统中所有项目的默认货币，除非为给定项目或工作角色覆盖基础货币。 当前的基本货币或默认货币在列表中以图标![默认货币图标](assets/default-icon.png)表示。 在报表或列表中查看财务信息时，您也可以选择以系统中可用的货币显示财务信息，这些货币与项目的基本货币或项目的基本货币不同。 有关详细信息，请参阅[创建具有唯一汇率的财务数据报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)。
 
 有关在Workfront中为项目和工作角色覆盖基本货币的更多信息，请参阅以下文章：
 
@@ -64,7 +64,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td>
+   <td>[！UICONTROL系统管理员]</td>
   </tr> 
  </tbody> 
 </table>
@@ -77,23 +77,26 @@ ht-degree: 2%
 
 {{step-1-to-setup}}
 
-1. 单击&#x200B;**项目首选项** > **汇率。**
+1. 单击&#x200B;**项目首选项** > **汇率**。
 
-1. 单击&#x200B;**添加货币。**
-1. 开始键入货币的名称，然后在货币出现在下拉列表中时单击该货币。
+1. 单击&#x200B;**添加货币**。
+1. 在&#x200B;**添加货币**&#x200B;框中，开始键入货币的名称，然后当它出现在下拉列表中时单击它。
+1. 在&#x200B;**汇率**&#x200B;字段中，输入所选货币与系统中设置为基础货币的货币之间的汇率。
+1. 单击&#x200B;**添加**&#x200B;以添加新货币及其汇率。
+1. （可选）要更改基本（默认）货币，请执行下列操作之一：
 
-1. 在提供的字段中，指定所选货币的汇率，因为该汇率与系统中设置为基础货币的货币相关。
-1. （可选）将货币设置为Workfront的基本（默认）货币。
+   * 选中货币名称旁边的复选框，然后在屏幕底部的操作栏中选择&#x200B;**设为默认值**。
+   * 将鼠标悬停在货币名称上，然后单击显示的&#x200B;**更多**&#x200B;菜单。 然后，选择&#x200B;**设为默认值**。
 
-   该货币用作整个系统所有项目和报表的默认货币。
+     新的默认货币会更新为图标。
 
-1. 单击&#x200B;**保存**&#x200B;以保存更改。
+1. （可选）要删除货币，请选中货币名称旁边的复选框，然后在屏幕底部的操作栏中选择&#x200B;**删除**。 不能删除默认货币。
 
 ## 允许用户修改项目的默认货币
 
 在满足以下条件时，用户可以修改项目的默认货币：
 
-* 用户拥有对汇率具有管理访问权限的计划许可证。
+* 用户拥有对汇率具有管理访问权限的“标准”或“计划”许可证。
 
   有关详细信息，请参阅[授予用户对特定区域的管理访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
 
@@ -105,10 +108,13 @@ ht-degree: 2%
 
 在满足以下条件时，用户可以修改工作角色的货币：
 
-* 用户拥有对工作角色具有管理访问权限的计划许可证。
+* 用户拥有对工作角色具有管理访问权限的标准或计划许可证。
 
   有关详细信息，请参阅[授予用户对特定区域的管理访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
 
 * Workfront系统中启用了多种货币。
 
 有关用户如何更改给定工作角色的默认货币的信息，请参阅[创建和管理工作角色](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)。
+
+
+<!--The default currency is the currency that is used as the default for all projects and reports throughout the system. The current default is indicated with an icon ![Default currency icon](assets/default-icon.png).-->
