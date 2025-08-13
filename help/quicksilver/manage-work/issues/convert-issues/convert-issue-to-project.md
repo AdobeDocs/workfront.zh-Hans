@@ -6,9 +6,9 @@ description: 在Adobe Workfront中将问题转化为项目
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 71ddeb83543c3c1491a412ac18deaa3ce1077c21
 workflow-type: tm+mt
-source-wordcount: '1975'
+source-wordcount: '2017'
 ht-degree: 1%
 
 ---
@@ -61,6 +61,10 @@ ht-degree: 1%
 有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+## 注意事项
+
+* 将问题转化为项目时存在5分钟的处理限制。 如果问题附加了大量文档且无法转换，您可能需要删除一些文档并重试。
 
 ## 将问题转化为项目
 

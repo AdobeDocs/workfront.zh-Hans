@@ -6,9 +6,9 @@ description: 当项目中的任务需要比您最初计划更大的工作量完�
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: 0c45c768be1dda579e507f5f6ff4b127021a5f73
+source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1189'
 ht-degree: 2%
 
 ---
@@ -52,6 +52,7 @@ ht-degree: 2%
 * 已删除原始任务。
 * 所有子任务、问题和注释将汇总到新项目中。
 * 文档、文档版本和校样将移至新项目。
+* 将任务转化为项目时存在5分钟的处理限制。 如果任务附加了大量文档且无法转换，您可能需要删除某些文档并重试。
 * 所有子任务和问题的状态和完成百分比将保留。
 * 任务被分派人和将任务转化为项目的用户成为项目中的共享用户。
 * 项目开始日期设置为任务的开始日期。

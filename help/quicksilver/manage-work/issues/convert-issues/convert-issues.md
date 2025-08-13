@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
+source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1506'
 ht-degree: 2%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 2%
 
 * 转化问题时，原始问题的权限不会转移到转化后的对象（任务或项目）。
 
-* 使用模板将问题转化为项目时，模板中的大多数信息会传输到新项目。 但是，问题中的某些信息也可以传输到新项目。 有关详细信息，请参阅本文中的使用模板[&#128279;](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template)将问题转化为项目时项目字段概述。
+* 使用模板将问题转化为项目时，模板中的大多数信息会传输到新项目。 但是，问题中的某些信息也可以传输到新项目。 有关详细信息，请参阅本文中的使用模板[将问题转化为项目时](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template)项目字段概述。
 * 在转化问题时，并非所有文档或其信息都会移动到问题转化到的新对象。 在转换附加了文档或文档链接的问题时，包括以下项：
 
    * 文档
@@ -51,7 +51,7 @@ ht-degree: 2%
    * 版本
    * 仅当取消选择&#x200B;**保留原始问题并将其解决方案与此任务绑定**&#x200B;选项时，才会包含验证。
    * 在转换附加了文档和文档链接的问题时，不包括文档审批。
-
+* 转化问题时存在5分钟的处理限制。 如果问题附加了大量文档且无法转换，您可能需要删除一些文档并重试。
 * 如果您决定在转化中保留问题并且附加了文档，则文档及其版本将会复制到项目或任务中。 验证和文档审批将不会复制到项目或任务。
 * 如果您决定不将问题保留在转化中，并且它有附加文档，文档、其版本和校样会传输到项目或任务。 文档审批将不会传输到项目或任务。
 * 如果您的文档和文件夹链接至来自第三方服务(如Google Drive)的原始问题，则无论您在转换期间是否保留该问题，这些链接都将复制到新对象中。
@@ -152,7 +152,7 @@ ht-degree: 2%
    <td>从模板转移。 </td> 
   </tr> 
   <tr> 
-   <td>访问权限</td> 
+   <td>访问</td> 
    <td> <p>从模板上的Access部分转移。 </p> </td> 
   </tr> 
   <tr> 

@@ -7,9 +7,9 @@ description: Adobe Workfront对可与项目关联的对象数进行了限制。 
 author: Alina
 feature: Work Management
 exl-id: 60576107-89f1-4328-89e2-5b1e5e243fd9
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 71ddeb83543c3c1491a412ac18deaa3ce1077c21
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,10 @@ Adobe Workfront对可与项目关联的对象数进行了限制。 设定项目�
   <tr> 
    <td role="rowheader"><p>时间线计算</p></td> 
    <td>Workfront不会为6个月内未更新的项目执行自动时间表计算，并且在进行更新之前不会恢复。<p>对于在3个月内未更新的项目，Workfront会每周执行时间线计算，而不是每晚执行。</p><p>有关计算项目时间表的信息，请参阅<a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">重新计算项目时间表</a>。 </p></td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader"><p>转换对象 </p></td> 
+   <td>在转换对象时，Workfront具有5分钟的处理时间限制。 如果对象附加了大量文档，则在5分钟限制内转换可能会失败。 您可能需要删除某些文档，然后重试。</td> 
   </tr> 
  </tbody> 
 </table>
