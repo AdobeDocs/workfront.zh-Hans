@@ -4,9 +4,9 @@ description: 记录类型是Adobe Workfront Planning的对象类型。 在Workfr
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 943c26efa6f6351abf885dbc5f3aa09c0b0fab05
+source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '599'
 ht-degree: 2%
 
 ---
@@ -27,15 +27,15 @@ recommendations: noDisplay, noCatalog
 
 作为工作区管理员，您可以导入现有记录类型或将现有记录类型添加到另一个工作区。
 
-必须先定义记录类型的跨工作区功能，然后工作区管理员才能将其导入其他工作区。
+必须先将记录类型指定为集中类型，然后工作区管理员才能将其导入其他工作区。
 
-在创建或编辑记录类型时，可以定义记录类型的跨工作区功能。
+在定义记录类型的跨工作区设置时，您可以在创建或编辑记录类型时将记录类型指定为集中类型。
 
 有关信息，请参阅[为记录类型配置跨工作区功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。
 
 ## 访问要求
 
-+++ 展开以查看访问要求。
++++ 展开以查看访问要求。  
 
 <table style="table-layout:auto"> 
 <col> 
@@ -95,9 +95,11 @@ recommendations: noDisplay, noCatalog
 
 *有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-+++
++++   
 
-## 从其他工作区添加现有记录类型时的注意事项
+## 集中记录类型概述
+
+从其他工作区添加现有记录类型时的注意事项
 
 * 当没有将记录类型配置为添加到另一个工作区时，在创建记录类型时不会显示从另一个工作区导入记录类型的选项。<!--add this a tip in the steps below, and/ or add a Conditional step that this is possible only when these record types are first enabled-->
 * 从另一个工作区添加记录类型后，还将从现有记录类型添加以下信息：

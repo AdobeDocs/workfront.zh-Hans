@@ -6,9 +6,9 @@ description: 作为Adobe Workfront客户，您可以通过电话或在线提交�
 feature: Get Started with Workfront
 author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: 008f96d52632f5f05554d63ae1c38cc37d21544b
+source-git-commit: 8a4668a568fde2ca7ee26714caae3cd33efe4eda
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,7 @@ ht-degree: 0%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,9 +42,8 @@ ht-degree: 0%
   <tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td><p>新增：标准</p>
-       <p>或</p>
-       <p>当前：计划</p></td>
+   <td><p>标准</p>
+       <p>规划</p></td>
   </tr> 
   </tr> 
   <tr> 
@@ -85,13 +82,15 @@ ht-degree: 0%
 >只有授权支持联系人（或授权支持用户）才能提交在线支持工单。
 
 
-1. 从[[!DNL Experience League]](https://experienceleague.adobe.com/zh-hans)网站，单击页面顶部的&#x200B;**[!UICONTROL 支持]**。
+1. 从[[!DNL Experience League]](https://experienceleague.adobe.com)网站，单击页面顶部的&#x200B;**[!UICONTROL 支持]**。
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
    [!UICONTROL 支持]页面打开。
 
    从[!UICONTROL 支持]主页中，您可以导航到未结支持案例、记录新案例、查看热门的[!UICONTROL 支持]文章或访问其他学习来源。
+
+   有关Workfront学习的更多信息，请参阅[帮助中心](https://learning.adobe.com/resources/help-center.html)。
 
 <!--1. To submit a case, select the option **[!UICONTROL Open a support case]**, then click **[!UICONTROL Sign] In**.-->
 

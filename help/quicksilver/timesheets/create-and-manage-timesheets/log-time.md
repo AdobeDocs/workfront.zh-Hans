@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 36cd1c23dfb6e01dc1016a6a12ae47e4f9172d20
+source-git-commit: 8a4668a568fde2ca7ee26714caae3cd33efe4eda
 workflow-type: tm+mt
-source-wordcount: '4160'
+source-wordcount: '4075'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,13 @@ ht-degree: 0%
 <!--remove all preview and production references if any-->
 <!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
 
-<div class="preview">
+<!--<div class="preview">
 
-此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 从预览版本发布的一周后，所有客户还可以在生产环境中使用相同的功能。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
 
-有关详细信息，请参阅[接口现代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
-</div>
+</div>-->
 
 您可以在Adobe Workfront中记录工作项的时间，以指示您处理这些工作项的小时数。 您还可以记录与工作无关的时间，如假期、病假或会议时间。 您的登录时间显示在您的时间表中。
 
@@ -149,9 +149,9 @@ ht-degree: 0%
 
 1. （视情况而定）如果一次添加50个或更多项目，则会显示一条确认消息，其中显示添加到时间表的项目数。
 
-   单击&#x200B;**全部添加**&#x200B;以添加所有项
+   单击&#x200B;**全部添加**以添加所有项
 或
-单击&#x200B;**取消**&#x200B;停止添加选定项，然后单击&#x200B;**取消**&#x200B;关闭项列表。
+单击**取消**&#x200B;停止添加选定项，然后单击&#x200B;**取消**&#x200B;关闭项列表。
 
    任务和问题列在项目的名称下。
 
@@ -452,13 +452,9 @@ ht-degree: 0%
 1. 在左侧面板中，单击&#x200B;**小时**。
 1. 单击&#x200B;**记录时间**。
 
-   <span class="preview">显示&#x200B;**日志时间**&#x200B;框。</span>
-
-   <div class="preview">
+   显示&#x200B;**记录时间**&#x200B;框。
 
    ![在任务的“小时数”部分中记录时间](assets/log-time-box-in-hours-section-on-task.png)
-
-   </div>
 
 1. 指定以下信息：
 
@@ -472,7 +468,7 @@ ht-degree: 0%
      有关配置小时类型的详细信息，请参阅[定义小时类型和可用性](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)。
 
    * **工作角色**： （视条件而定）如果您的Workfront或组管理员已启用&#x200B;**手动将工作角色分配给小时条目**&#x200B;设置，请从下拉菜单中选择&#x200B;**工作角色**。 默认情况下，系统将显示指定给对象时指定的角色。 如果您未在该对象上分配角色，则默认显示您的“主要角色”。 有关此设置的详细信息，请参阅文章[配置时间表和小时首选项](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。
-   * **小时**&#x200B;或<span class="preview">每周日历</span>：输入项目、任务或问题的小时数。 <span class="preview">在每周日历中，输入项目、任务或问题的小时数。</span>每周日历显示在生产环境中&#x200B;**日志时间**&#x200B;框的&#x200B;**小时**&#x200B;区域中。
+   * **每周日历**：输入项目、任务或问题的小时数。
    * **注意**：添加注释以说明小时数的用途。 这保存为&#x200B;**小时注释**&#x200B;或&#x200B;**小时描述**。
 
 1. 单击&#x200B;**记录时间**。
