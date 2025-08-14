@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: c8f552a4f4da2365f793e9111ee12a9905516134
+source-git-commit: 343ffcc5ba894f389e4ca00e12ea31009eb6c76a
 workflow-type: tm+mt
-source-wordcount: '6622'
+source-wordcount: '6687'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,16 @@ ht-degree: 0%
 有关Adobe Workfront的所有其他更改，请参阅[产品版本](/help/quicksilver/product-announcements/product-releases/product-releases.md)。
 
 ## 管理和设置
+
+### 最近删除项目的界面更新
+
+**预览版本： 2025年8月14日；生产版本： 2025年8月21日**
+
+我们更新了“设置”区域中最近删除的项目的外观，以匹配Workfront其他区域的设计。 最近删除的项目、任务、请求、文档或模板的功能未发生更改。
+
+要查看此更改，请转到“设置”>“回收站”>“最近删除”。
+
+有关信息，请参阅[还原已删除的项](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)。
 
 ### “设置”中“条件”区域的界面更新
 
@@ -82,7 +92,7 @@ ht-degree: 0%
 
 ### 项目业务案例的界面更新
 
-**预览版本： 2025年8月4日；生产版本： 8月18日**
+**预览版本： 2025年8月4日；生产版本： 2025年8月13日**
 
 我们更新了项目业务案例的外观，以便与应用程序的其他领域相匹配。
 
@@ -125,15 +135,14 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 * [管理项目团队](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)
 * [管理公司成员资格](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
 
-### 更新了在项目或模板中编辑队列主题时的体验
+### 更新了在项目或模板中编辑主题组时的体验
 
 **预览版本： 2025年7月31日；生产版本： 2025年7月31日**
 
-在模板上编辑队列主题时，我们更新了它的外观。 现在，“队列主题”编辑页面与Workfront其他区域的设计相匹配。
+在模板上编辑主题组时，我们更新了主题组的外观。 现在，“主题组”编辑页面与Workfront其他区域的设计相匹配。
+对主题组进行了小的功能更改。 要编辑主题组，请从列表中选择主题组，然后单击编辑图标。 在编辑之前，您不再被定向到“主题组详细信息”页面。
 
-对“路由规则”列表进行了小幅功能更改。 要编辑队列主题，请从列表中选择队列主题，然后单击编辑图标。 在编辑之前，您不再被定向到“队列主题详细资料”页。
-
-有关详细信息，请参阅[创建队列主题](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)。
+有关详细信息，请参阅[创建主题组](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)。
 
 ### 计费记录的界面更新
 
@@ -219,7 +228,7 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 
 ### 版面模板页面的界面更新
 
-**预览版本： 2025年7月17日；生产版本：待定**
+**预览版本： 2025年7月17日；生产版本： 2025年8月14日**
 
 我们更新了“布局模板”页面，使其设计更加现代化，与Workfront的其他区域保持一致。
 
@@ -526,7 +535,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 ### 报告和仪表板
 
-+++展开以查看在第三季度完成的报表和功能板界面更新
++++展开以查看在第三季度进行的报表和功能板界面更新
 
 ### 支出报表的界面更新
 
@@ -891,7 +900,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 ### 文档
 
-+++展开以查看文档界面在第2季度所做的更新
++++展开以查看文档界面在第二季度所做的更新
 
 ### 请求文档时界面更新
 

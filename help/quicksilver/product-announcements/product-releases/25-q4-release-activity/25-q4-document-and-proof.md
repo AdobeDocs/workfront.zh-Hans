@@ -4,9 +4,10 @@ description: 2025年第四季度文档和校对增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0babf2c4028ee0c45258ec3490bab336fd05a68b
+exl-id: f4615994-8a56-482c-b033-62e719be152e
+source-git-commit: 5422b7f5aa3dc1f3827c6d0d0ff559effb447fa4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,27 @@ ht-degree: 0%
 
 有关2025年第四季度发布周期中此时可用的所有更改列表，请参阅[ 2025年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)。
 
+## 新的Workfront AI审阅者
+
+>[!NOTE]
+>
+>2025年8月14日向所有客户提供
+
+新的Workfront AI Reviewer可根据您的品牌指南自动审查内容，从图像指南开始，帮助确保图像品牌合规性。 它提供分数和可操作的反馈，以简化审批流程。
+
+您可以将AI审阅人添加到批准模板或单个审阅和批准请求，从而实现更快的内容生产，同时维护品牌标准。
+
+有关详细信息，请参阅[Workfront AI查看器入门](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)。
+
+此功能当前处于测试阶段。
+
+
 ## Adobe Express的新验证集成
+
+>[!NOTE]
+>
+>2025年7月28日向所有客户提供
+
 
 我们很高兴地宣布Adobe Express与Workfront Proof之间新的集成。
 
