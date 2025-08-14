@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: cfa948baf31891d389ca38fc35d546b77e599c5e
+source-git-commit: bcf9e3eb987bf4c33b994d68276cb04b817c484d
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '622'
 ht-degree: 4%
 
 ---
@@ -53,7 +53,7 @@ AI审阅者可审阅以下文件类型：
 
 ## 设置品牌指南
 
-Workfront AI Reviewer在查看内容时，使用Genstudio中为Performance Marketing设置的品牌准则。 目前，您只能设置图像的品牌指南。 有关详细信息，请参阅[Adobe GenStudio for Performance Marketing入门](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/get-started)。
+Workfront AI Reviewer在查看内容时，使用Genstudio中为Performance Marketing设置的品牌准则。 目前，您只能设置图像的品牌指南。 有关详细信息，请参阅[Adobe GenStudio for Performance Marketing入门](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started)。
 
 
 ## 创建AI审阅者
@@ -103,3 +103,6 @@ AI审阅者并非旨在成为审阅和批准工作流中的决策者。 它仅�
 ![AI审核者反馈](assets/ai-reviewer-feedback.png)
 
 
+## 视频演练
+
+>[!VIDEO](https://video.tv.adobe.com/v/3470847/)
