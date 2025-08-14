@@ -82,7 +82,7 @@ ht-degree: 0%
 >只有授权支持联系人（或授权支持用户）才能提交在线支持工单。
 
 
-1. 从[[!DNL Experience League]](https://experienceleague.adobe.com)网站，单击页面顶部的&#x200B;**[!UICONTROL 支持]**。
+1. 从[[!DNL Experience League]](https://experienceleague.adobe.com/zh-hans)网站，单击页面顶部的&#x200B;**[!UICONTROL 支持]**。
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 

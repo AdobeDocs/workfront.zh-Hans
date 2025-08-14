@@ -30,7 +30,7 @@ recommendations: noDisplay, noCatalog
 
 您可以从Planning中查看GenStudio工作区，并更新两个系统中的信息。
 
-有关使用GenStudio for Performance Marketing的信息，请参阅[Adobe GenStudio for Performance Marketing用户指南](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)。
+有关使用GenStudio for Performance Marketing的信息，请参阅[Adobe GenStudio for Performance Marketing用户指南](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/home)。
 
 有关GenStudio与Workfront Planning集成的一般信息，请参阅[Adobe Workfront Planning与Adobe GenStudio for Performance Marketing集成入门](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)。
 
@@ -109,7 +109,7 @@ recommendations: noDisplay, noCatalog
 </table>
 
 *有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
-*有关Adobe GenStudio for Performance Marketing的详细信息，请参阅[Adobe GenStudio for Performance Marketing用户指南](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)。
+*有关Adobe GenStudio for Performance Marketing的详细信息，请参阅[Adobe GenStudio for Performance Marketing用户指南](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/home)。
 +++   
 
 ## 在Workfront Planning中管理GenStudio工作区的注意事项
