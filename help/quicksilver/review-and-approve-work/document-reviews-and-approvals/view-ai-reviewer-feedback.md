@@ -6,17 +6,19 @@ description: 提交审批请求后几秒钟，您可以在“文档摘要”面�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: da980cee8710570f52c724053d1e0f359c6a9fe1
+exl-id: 838e8f3d-0ea6-4844-a261-ef7b0e78a755
+source-git-commit: 7d7291539d4436f0c4700363b7800a5cc6ac4096
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
-
 # 查看AI审核者得分和反馈
+
+>[!NOTE]
+>
+>此功能当前处于测试阶段。
 
 提交审阅和审批请求后的几秒钟，您可以在“文档摘要”面板中从AI审阅者查看分数和反馈。
 
