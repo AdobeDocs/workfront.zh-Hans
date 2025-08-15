@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 26f13890-5d79-44b6-9cf8-70ef05e4564d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 0%
+source-wordcount: '98'
+ht-degree: 1%
 
 ---
 
@@ -17,7 +17,6 @@ ht-degree: 0%
 
 本节包含以下子部分：
 
-* [优先级：即将发布的版本](/help/quicksilver/workfront-basics/priorities/priorities-upcoming-releases.md)
 * [优先级入门](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md)
 * [在优先级中查看项目和工作项详细信息](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)
 * [在“优先级”中过滤和分组您的工作](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)

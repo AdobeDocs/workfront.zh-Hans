@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,6 @@ ht-degree: 0%
 ## 访问要求
 
 +++ 展开以查看本文中各项功能的访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -57,35 +55,9 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
-
-## 自定义生产中的优先级工作列表列
-
-### 启用或禁用列
-
-{{step1-to-priorities}}
-
-1. 单击屏幕右侧的&#x200B;**列**。
-   ![列](assets/columns.png)
-1. 使用切换启用或禁用工作列表中的列。
-
-### 对列重新排序
-
-{{step1-to-priorities}}
-
-1. 单击屏幕右侧的&#x200B;**列**。
-1. 单击&#x200B;**拖动**&#x200B;图标并将列移动到所需的位置。 自动移动列会更新工作列表。
-   ![对列重新排序](assets/reorder-columns.png)
-
-### 重置列宽
-
-{{step1-to-priorities}}
-
-1. 单击屏幕右侧的&#x200B;**列**。
-1. 单击&#x200B;**更多**&#x200B;图标![更多图标](assets/more-icon.png)，然后选择&#x200B;**重置列宽**。
-   ![列](assets/columns.png)
 
 ## 自定义优先级工作列表列
 
@@ -102,7 +74,7 @@ ht-degree: 0%
 {{step1-to-priorities}}
 
 1. 单击屏幕左侧的&#x200B;**列**。
-1. 单击&#x200B;**拖动**&#x200B;图标并将列移动到所需的位置。 自动移动列会更新工作列表。
+1. 单击&#x200B;**拖动**图标并将列移动到所需的位置。 自动移动列会更新工作列表。
    ![对列重新排序](assets/reorder-columns-new.png)
 
 >[!NOTE]

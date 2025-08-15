@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 5457f516-c213-4b82-b033-bc8db943a217
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -35,10 +35,8 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td> <p>新增： </p>
-   <p>在任务或问题上记录小时数的精简或更高</p>
-   <p>当前： 
-   <p>用于记录任务或问题的小时数的工作或更高</p> </td> 
+   <td> <p>新：轻度或以上状态表示在任务或问题上记录小时数</p>
+   <p>当前：用于记录任务或问题小时数的工作或更高</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -61,7 +59,8 @@ ht-degree: 0%
 
 {{step1-to-priorities}}
 
-1. 将鼠标悬停在名称上，然后单击&#x200B;**记录时间**。
+1. 将鼠标悬停在名称上，然后单击&#x200B;**更多** ![更多图标](assets/more-icon.png)图标。
+1. 选择&#x200B;**记录时间**。
    ![更新、记录时间和上传](assets/update-log-upload.png)
 1. 在&#x200B;**小时类型**&#x200B;下拉菜单中，选择相应的小时类型。 可用小时类型取决于在系统、项目和用户级别定义的内容，如定义小时类型和可用性中所述。
 
@@ -77,7 +76,7 @@ ht-degree: 0%
 
 {{step1-to-priorities}}
 
-1. 单击工作项名称以打开“概述”页面。
+1. 单击工作项名称以打开&#x200B;**概述**&#x200B;页面。
 1. 在&#x200B;**快速操作**&#x200B;部分中，单击&#x200B;**记录时间**。
 1. 在&#x200B;**小时类型**&#x200B;下拉菜单中，选择相应的小时类型。 可用小时类型取决于在系统、项目和用户级别定义的内容，如定义小时类型和可用性中所述。
 1. （视情况而定）如果您的Workfront或组管理员启用了手动将工作角色分配给小时条目设置，请从下拉菜单中选择工作角色。 默认情况下，将显示分配给工作项时指定的角色。 如果您未在该对象上分配角色，则默认显示您的“主要角色”。 如果未分配主角色，则不会显示任何工作角色。

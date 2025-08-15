@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '599'
 ht-degree: 2%
 
 ---
@@ -72,13 +72,18 @@ ht-degree: 2%
 {{step1-to-priorities}}
 
 1. 在工作列表中，将鼠标悬停在工作名称上，然后单击&#x200B;**摘要**&#x200B;图标![打开摘要图标](assets/summary-icon.png)。
-1. 确保您在面板的任务或问题选项卡上。
-1. 单击右侧边栏中的文档图标。
-1. 单击上传文件图标并选择文件。
-1. （可选）执行以下任一操作：
-   1. 选择文件夹。
-   1. 发表评论
-   1. 添加其他文件。
+1. 确保在摘要面板中的&#x200B;**任务**&#x200B;或&#x200B;**问题**&#x200B;选项卡上。
+1. 单击&#x200B;**上载文件**&#x200B;图标![上载文件图标](assets/upload-file-icon.png)。
+1. 拖放文件或按Cmd/Ctrl + V以从剪贴板粘贴
+或
+单击**添加文件**浏览文件或从Document Cloud提供程序导入文件。
+   ![添加文件](assets/add-files.png)
+1. （可选）添加评论。
+1. （可选）添加更多文件。
+
+   >[!NOTE]
+   >
+   >其他文件作为单独的文档上传。
 1. 单击&#x200B;**上传**。
 
 ### 工作项详细信息
@@ -86,12 +91,18 @@ ht-degree: 2%
 {{step1-to-priorities}}
 
 1. 在工作列表中，单击工作项名称。
-1. 单击屏幕顶部的文档选项卡。
-1. 单击&#x200B;**上载文档** > **文档**。
-1. （可选）执行以下任一操作：
-   1. 选择文件夹。
-   1. 发表评论
-   1. 添加其他文件。
+1. 单击屏幕顶部的&#x200B;**文档**&#x200B;选项卡。
+1. 单击右上角的&#x200B;**上传文档**，然后选择&#x200B;**文档**。
+1. 拖放文件或按Cmd/Ctrl + V以从剪贴板粘贴
+或
+单击**添加文件**浏览文件或从Document Cloud提供程序导入文件。
+   ![添加文件](assets/add-files.png)
+1. （可选）添加评论。
+1. （可选）添加更多文件。
+
+   >[!NOTE]
+   >
+   >其他文件作为单独的文档上传。
 1. 单击&#x200B;**上传**。
 
 
@@ -105,16 +116,17 @@ ht-degree: 2%
 {{step1-to-priorities}}
 
 1. 在工作列表中，将鼠标悬停在工作名称上，然后单击&#x200B;**摘要**&#x200B;图标![打开摘要图标](assets/summary-icon.png)。
-1. 确保您在面板的任务或问题选项卡上。
-1. 单击右侧边栏中的&#x200B;**文档**&#x200B;图标。
-1. 单击&#x200B;**上载文件**&#x200B;图标，然后选择该文件。
+1. 确保在摘要面板中的&#x200B;**任务**&#x200B;或&#x200B;**问题**&#x200B;选项卡上。
+1. 单击右侧边栏中的&#x200B;**文档**&#x200B;图标![文档图标](assets/show-document-icon.png)。
+1. 单击&#x200B;**上载文件**&#x200B;图标![上载文件图标](assets/upload-file-icon.png)，然后选择文件。
 
    >[!NOTE]
    >
    >在创建验证之前，必须上传文档。
 
 
-1. 上传文件后，单击&#x200B;**创建校对**。
+1. 上传文件后，在&#x200B;**文档**&#x200B;部分中选择文件。
+1. 单击文件详细信息框右上角的&#x200B;**创建验证**。
 1. 选择下列选项之一：
 
    <table style="table-layout:auto"> 
@@ -122,11 +134,11 @@ ht-degree: 2%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">简单校对</td> 
+      <td role="rowheader"><b>简单校对</b></td> 
       <td>此选项创建一个未附加工作流的验证，并应用默认验证设置。 您可以更新默认验证设置，或在创建验证后添加工作流。 有关校对设置的详细信息，请参阅<a href="/help/quicksilver/review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md" class="MCXref xref">编辑校对设置</a>。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">高级校对</td> 
+      <td role="rowheader"><b>高级校对</b></td> 
       <td> <p>利用此选项，可配置基本或高级工作流并修改所创建验证的验证设置。 有关更多信息，请参阅 </p> 
        <ul> 
         <li><p><a href="/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">使用基本工作流创建高级校对</a> </p> </li> 
@@ -143,7 +155,7 @@ ht-degree: 2%
 
 1. 在工作列表中，单击工作项名称。
 1. 单击屏幕顶部的&#x200B;**文档**&#x200B;选项卡。
-1. 单击&#x200B;**上传文档** > **校对**。
+1. 单击右上角的&#x200B;**上传文档**，然后选择&#x200B;**验证**。
 1. 按照中的说明创建验证
    [使用基本工作流创建高级校对](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
    [使用自动化工作流创建高级校对](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)

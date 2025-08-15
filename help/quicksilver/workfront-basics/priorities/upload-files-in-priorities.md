@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -54,12 +54,13 @@ ht-degree: 0%
 
 {{step1-to-priorities}}
 
-1. 将鼠标悬停在名称上，然后单击&#x200B;**上传**。
+1. 将鼠标悬停在名称上，然后单击&#x200B;**更多** ![更多图标](assets/more-icon.png)图标。
+1. 单击&#x200B;**上传**。
    ![更新、记录时间和上传](assets/update-log-upload.png)
-1. （可选）选择一个文件夹。
+1. （可选）在&#x200B;**上传文件**&#x200B;框中，选择一个文件夹。
 1. 拖放文件或按Cmd/Ctrl + V以从剪贴板粘贴
 或
-单击&#x200B;**添加文件**&#x200B;浏览文件或从Document Cloud提供程序导入文件。
+单击**添加文件**浏览文件或从Document Cloud提供程序导入文件。
    ![添加文件](assets/add-files.png)
 1. （可选）添加评论。
 1. （可选）添加更多文件。
@@ -68,19 +69,17 @@ ht-degree: 0%
    >
    >其他文件作为单独的文档上传。
 1. 单击&#x200B;**上传**。
-   ![上载文件](assets/upload-file-module.png)
-
 
 ## 上载工作项中的文件
 
 {{step1-to-priorities}}
 
-1. 单击工作项名称以打开“概述”页面。
-1. 在&#x200B;**快速操作**&#x200B;部分中，单击&#x200B;**上传**。
-1. （可选）选择一个文件夹。
+1. 单击工作项名称以打开&#x200B;**概述**&#x200B;页面。
+1. 在&#x200B;**快速操作**&#x200B;部分中，单击&#x200B;**上传**，然后选择&#x200B;**文档**。
+1. （可选）在&#x200B;**上传文件**&#x200B;框中，选择一个文件夹。
 1. 拖放文件或按Cmd/Ctrl + V以从剪贴板粘贴
 或
-单击&#x200B;**添加文件**&#x200B;浏览文件或从Document Cloud提供程序导入文件。
+单击**添加文件**浏览文件或从Document Cloud提供程序导入文件。
    ![添加文件](assets/add-files.png)
 1. （可选）添加评论。
 1. （可选）添加更多文件。
@@ -89,4 +88,3 @@ ht-degree: 0%
    >
    >其他文件作为单独的文档上传。
 1. 单击&#x200B;**上传**。
-   ![上载文件](assets/upload-file-module.png)

@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 1%
@@ -74,7 +74,7 @@ ht-degree: 1%
    * 查看和添加项目评论
    * 记录时间
    * 添加文件
-   * <span class="preview">直接转到项目</span>
+   * 直接转到项目
 
    ![项目详细信息](assets/project-details-new.png)
 
@@ -101,7 +101,7 @@ ht-degree: 1%
 
 1. 在工作列表中，将鼠标悬停在工作名称上，然后单击&#x200B;**摘要**&#x200B;图标![打开摘要图标](assets/summary-icon.png)。
 
-1. 默认情况下，问题处于选中状态。 在这里，您可以
+1. 默认情况下，问题处于选中状态。 在此，您可以：
    * 查看并编辑项目和问题的详细信息和描述
    * 查看和添加项目评论
    * 查看和添加文档
@@ -116,7 +116,7 @@ ht-degree: 1%
 
 您可以在任务或问题的详细信息页面上查看实时更新。 您还可以通过实时在线状态指示器查看其他人是否与您同时查看页面。
 
-## 查看工作项详细信息
+### 查看工作项详细信息
 
 {{step1-to-priorities}}
 
