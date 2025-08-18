@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 219e5fa3-cf25-477d-82f6-046e3ff30989
-source-git-commit: 2096cfa0fd4d0e7eeb85dbf00668dc1dd7fb1d99
+source-git-commit: c23b3967cf06aaff1bcd7465ce6c7a0c7b7fe9af
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 1%
+source-wordcount: '750'
+ht-degree: 0%
 
 ---
 
@@ -73,18 +73,18 @@ ht-degree: 1%
      <tr> 
       <td role="rowheader">将用户添加到组</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">单击<strong>添加成员</strong> <img src="assets/add-icon-plus-in-circle.png">，开始键入用户名，然后在此用户名出现时将其选定。</li> 
-        <li value="2"> <p>对要添加的任何其他用户重复此操作。</p> <p>如果决定不添加该用户，可以单击名称右侧的X。</p> </li> 
-        <li value="3">完成后，单击<strong>完成</strong>。</li> 
+       <ol> 
+        <li>单击<strong>添加成员</strong> <img src="assets/add-icon-plus-in-circle.png">，开始键入用户名，然后在此用户名出现时将其选定。</li>
+        <li> <p>对要添加的任何其他用户重复此操作。</p> <p>如果决定不添加该用户，可以单击名称右侧的X。</p> </li>
+        <li>完成后，单击<strong>完成</strong>。</li>
        </ol> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">从组中移除用户</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">选择一个或多个用户名，然后单击<strong>删除成员</strong><img src="assets/remove-icon---x-in-circle.png">。</li> 
-        <li value="2"> <p>在显示的警告消息中单击<strong>删除</strong>。</p> <p>通过单击<strong>搜索列表中的人员和组</strong>，在框中键入他们的姓名，然后在出现该名称时单击该名称，可以找到要从列表中删除的用户。</p> <p><b>注释</b>：  
+       <ol> 
+        <li>选择一个或多个用户名，然后单击<strong>删除成员</strong><img src="assets/remove-icon---x-in-circle.png">。</li> 
+        <li> <p>在显示的警告消息中单击<strong>删除</strong>。</p> <p>通过单击<strong>搜索列表中的人员和组</strong>，在框中键入他们的姓名，然后在出现该名称时单击该名称，可以找到要从列表中删除的用户。</p> <p><b>注释</b>：  
           <ul> 
            <li>如果此组是要删除的用户的主组，则必须首先在该用户配置文件中分配另一个主组。 有关详细信息，请参阅<a href="../../../administration-and-setup/manage-groups/groups-overview/home-groups.md" class="MCXref xref">主组概述</a>和<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">编辑用户配置文件</a>。</li> 
            <li>如果该组只有一个组管理员，并且您需要将其从组中移除，则需要先将另一个组管理员分配给该组。</li> 
@@ -95,17 +95,17 @@ ht-degree: 1%
      <tr> 
       <td role="rowheader">编辑用户的配置文件信息</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">选择一个或多个用户名，然后单击<strong>编辑</strong> <img src="assets/edit-icon.png">。</li> 
-        <li value="2"> <p>更改用户的配置文件信息。</p> <p>有关可以进行的更改的信息，请参阅<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">编辑用户配置文件</a>。</p> </li> 
+       <ol> 
+        <li>选择一个或多个用户名，然后单击<strong>编辑</strong> <img src="assets/edit-icon.png">。</li> 
+        <li> <p>更改用户的配置文件信息。</p> <p>有关可以进行的更改的信息，请参阅<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">编辑用户配置文件</a>。</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">导出用户成员资格数据</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">选择一个或多个用户名，然后单击<strong>导出</strong> <img src="assets/export.png">。</li> 
-        <li value="2"> <p>将数据导出为PDF、Excel或制表符分隔文件。</p> <p>有关导出数据的详细信息，请参阅<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">导出数据</a>。</p> </li> 
+       <ol> 
+        <li>选择一个或多个用户名，然后单击<strong>导出</strong> <img src="assets/export.png">。</li> 
+        <li> <p>将数据导出为PDF、Excel或制表符分隔文件。</p> <p>有关导出数据的详细信息，请参阅<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">导出数据</a>。</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
@@ -115,9 +115,9 @@ ht-degree: 1%
      <tr> 
       <td role="rowheader">向组成员发送评论</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">至少选择一个组成员，然后在工具栏中单击<strong>将更新发送给用户</strong>。</li> 
-        <li value="2"><p>键入要发送给用户的评论以及用户配置文件的更新区域。</p>
+       <ol> 
+        <li>至少选择一个组成员，然后在工具栏中单击<strong>将更新发送给用户</strong>。</li> 
+        <li><p>键入要发送给用户的评论以及用户配置文件的更新区域。</p>
         <p>有关详细信息，请参阅<a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md">向其他用户发送私信</a>。</p></li> 
        </ol> </td> 
      </tr> 
