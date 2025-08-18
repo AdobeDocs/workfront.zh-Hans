@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 219e5fa3-cf25-477d-82f6-046e3ff30989
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 2096cfa0fd4d0e7eeb85dbf00668dc1dd7fb1d99
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '761'
 ht-degree: 1%
 
 ---
@@ -105,7 +105,7 @@ ht-degree: 1%
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
         <li value="1">选择一个或多个用户名，然后单击<strong>导出</strong> <img src="assets/export.png">。</li> 
-        <li value="2"> <p>将数据导出为PDF、Excel或制表符分隔的文件。</p> <p>有关导出数据的详细信息，请参阅<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">导出数据</a>。</p> </li> 
+        <li value="2"> <p>将数据导出为PDF、Excel或制表符分隔文件。</p> <p>有关导出数据的详细信息，请参阅<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">导出数据</a>。</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
@@ -116,8 +116,9 @@ ht-degree: 1%
       <td role="rowheader">向组成员发送评论</td> 
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">选择一个或多个用户名，然后单击<strong>更新</strong> <img src="assets/comment-icon.png">。</li> 
-        <li value="2">键入注释。</li> 
+        <li value="1">至少选择一个组成员，然后在工具栏中单击<strong>将更新发送给用户</strong>。</li> 
+        <li value="2"><p>键入要发送给用户的评论以及用户配置文件的更新区域。</p>
+        <p>有关详细信息，请参阅<a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md">向其他用户发送私信</a>。</p></li> 
        </ol> </td> 
      </tr> 
      <tr> 
