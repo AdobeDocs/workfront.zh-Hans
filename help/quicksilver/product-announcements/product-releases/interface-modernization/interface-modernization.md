@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: a7a4ef39cf5e50d487ec2053e6b02cb2bb06c3f5
+source-git-commit: 8cfb8a6c9a5c512b5722dc6d66840faaeba08c67
 workflow-type: tm+mt
-source-wordcount: '6776'
+source-wordcount: '6894'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,24 @@ ht-degree: 0%
 有关Adobe Workfront的所有其他更改，请参阅[产品版本](/help/quicksilver/product-announcements/product-releases/product-releases.md)。
 
 ## 管理和设置
+
+### 界面更新了“设置”中的“审阅和批准通知”页面
+
+**预览版本： 2025年8月18日；生产版本： 2025年8月18日**
+
+我们更新了“审阅和批准通知”页面，使其设计更加现代化，与Workfront的其他区域保持一致。
+
+要查看这些更改，请转到“设置”>“电子邮件”>“审查和批准”。
+
+### “添加和编辑计费记录”对话框的界面更新
+
+**预览版本： 2025年8月14日；生产版本： 2025年8月18日**
+
+我们更新了用于添加和编辑账单记录的对话框，使其设计更加现代化，与Workfront的其他区域一致。
+
+要查看这些更改，请转到项目>选择项目>开票记录>添加开票记录或编辑开票记录
+
+有关信息，请参阅[创建开票记录](/help/quicksilver/manage-work/projects/project-finances/create-billing-records.md)。
 
 ### 组上的“将更新发送到用户”框的界面更新
 
@@ -43,6 +61,7 @@ ht-degree: 0%
 要查看此更改，请转到“设置”>“回收站”>“最近删除”。
 
 有关信息，请参阅[还原已删除的项](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)。
+
 
 ### “设置”中“条件”区域的界面更新
 
@@ -84,7 +103,7 @@ ht-degree: 0%
 
 ### 界面更新了“设置”中的“更新SSO用户”页面
 
-**预览版本： 2025年7月22日；生产版本： 2025年7月28日**
+**预览版本： 2025年7月22日；生产版本： 2025年8月18日**
 
 我们更新了“更新SSO用户”页面，更新后的设计更加现代化，与Workfront的其他区域一致。
 

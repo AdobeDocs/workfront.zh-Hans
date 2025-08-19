@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
+source-git-commit: f62d8f681fa75d2b18d78d7918df46734fa61e2e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '601'
+ht-degree: 2%
 
 ---
 
 # 创建或编辑自定义条件
-
-{{highlighted-preview}}
 
 作为Adobe Workfront管理员，您可以为项目、任务和问题创建或编辑自定义条件，以满足贵组织的需求。
 
@@ -45,7 +43,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td>
+   <td>[！UICONTROL系统管理员]</td>
   </tr> 
  </tbody> 
 </table>
@@ -66,13 +64,9 @@ ht-degree: 0%
 
    或
 
-   要编辑现有条件，请单击条件名称&#x200B;<span class="preview">**旁边的**&#x200B;编辑</span>，或将鼠标悬停在要编辑的条件上，然后单击最右侧显示的&#x200B;**编辑**&#x200B;图标。
+   要编辑现有条件，请单击条件名称旁边的&#x200B;**编辑**。
 
-   <span class="preview">预览环境中的示例图像：</span>
    ![编辑自定义条件](assets/custom-conditions-0825.png)
-
-   生产环境中的示例图像：
-   ![自定义完成情况](assets/custom-condition-edit-nwe.jpg)
 
 1. 使用以下选项配置自定义条件：
 
