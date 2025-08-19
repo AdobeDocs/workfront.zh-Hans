@@ -4,9 +4,9 @@ description: 这是一篇内部文章，供我们的团队保留用于访问要�
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 1d7b6c280586f03277f1cce6cea3f8e8110fc602
+source-git-commit: edd0893a30fd925c40020f7795ede87c93eb1ee8
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '630'
 ht-degree: 2%
 
 ---
@@ -213,12 +213,9 @@ ht-degree: 2%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront包</p></td> 
    <td> 
-<p>任何Adobe Workfront包或Adobe Workfront Workflow包</p> (***这太过分了**&#x200B;**)
-
-与
-<p>任何Adobe Workfront规划包</p> 
+<p>任何Adobe Workfront工作流包和任何Adobe Workfront计划包</p> 
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront平台(**&#x200B;**&#x200B;是希望指出这一点，还是只需将其添加到底部链接的文章中???**&#x200B;***)</p></td> 
+<td role="rowheader"><p>Adobe Workfront平台(****是希望指出这一点，还是只需将其添加到底部链接的文章中???*****)</p></td> 
    <td> 
 <p>贵组织的Workfront实例必须载入Adobe Unified Experience才能访问Workfront Planning。</p> 
 <p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p> 
@@ -262,12 +259,7 @@ ht-degree: 2%
  <col> 
  <tbody>
 
-<tr> 
-   <td> <p>产品</p> </td> 
-   <td> <p>Adobe Workfront</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>[!DNL Adobe Workfront] 包</p> </td> 
+<td> <p>[!DNL Adobe Workfront] 包</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -276,15 +268,15 @@ ht-degree: 2%
    <td> <p>[!DNL Adobe Workfront] 许可证*</p> </td> 
    <td> <p>浅色或更高</p> 
    或
-   <p>[!UICONTROL Review]或更高版本</p> </td> 
+   <p>[！UICONTROL Review]或更高版本</p> </td> 
   </tr>
 
 <td><p>访问级别配置</p> </td> 
-   <td> <p>[!UICONTROL Edit]访问 [!DNL Scenario Planner]</p> </td> 
+   <td> <p>[！UICONTROL Edit]访问 [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>对象权限 </p> </td> 
-   <td> <p>[!UICONTROL Manage]对计划的权限</p>  </td> 
+   <td> <p>[！UICONTROL Manage]对计划的权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>

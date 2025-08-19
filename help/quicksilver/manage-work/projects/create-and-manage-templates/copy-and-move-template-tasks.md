@@ -6,9 +6,9 @@ description: 您可以将模板任务复制或移动到同一模板或其他模�
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 5bdf1bd285023d29ee6c61f16a4bd6a622d964d8
 workflow-type: tm+mt
-source-wordcount: '2140'
+source-wordcount: '2091'
 ht-degree: 3%
 
 ---
@@ -31,17 +31,15 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
+   <td> <p>规划 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对模板的访问权限</p> <p><b>注释</b>
-
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
-</tr> 
+   <td> <p>编辑对模板的访问权限</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理模板和模板任务的权限 </p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>管理模板的权限。</p> <p>您无法共享模板任务。</p> </td> 
   </tr> 
  </tbody> 
 </table>

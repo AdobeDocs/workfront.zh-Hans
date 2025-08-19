@@ -7,9 +7,9 @@ description: 创建模板后，可以编辑有关模板任务的信息。 在使
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
+source-git-commit: 5bdf1bd285023d29ee6c61f16a4bd6a622d964d8
 workflow-type: tm+mt
-source-wordcount: '2493'
+source-wordcount: '2491'
 ht-degree: 3%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 3%
 
 ## 访问要求
 
-+++ 展开以查看访问要求。
++++ 展开以查看访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,7 +52,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">对象权限 </td> 
-   <td> <p>管理模板的权限。 </p> <p>模板任务的Contribute或更高权限。</p> </td> 
+   <td> <p>管理模板的权限。 </p> <p>您无法共享模板任务。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
