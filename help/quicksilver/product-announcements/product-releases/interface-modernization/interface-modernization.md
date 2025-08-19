@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 8cfb8a6c9a5c512b5722dc6d66840faaeba08c67
+source-git-commit: b050e096a05bd25d07b5e93ae9db7d0fef332d3a
 workflow-type: tm+mt
-source-wordcount: '6894'
+source-wordcount: '6892'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 ### 界面更新了安装程序中的“审核日志”页面
 
-**预览版本： 2025年7月22日；生产版本：待宣布**
+**预览版本： 2025年7月22日；生产版本： 2025年7月28日**
 
 我们更新了“设置”中的“审核日志”页面，以匹配应用程序的其他区域。
 

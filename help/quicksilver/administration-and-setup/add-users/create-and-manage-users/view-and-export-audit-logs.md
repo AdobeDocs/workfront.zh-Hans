@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 994518f7abe519180fa6c3eab6b29165475ab4fc
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td>
+   <td>[！UICONTROL系统管理员]</td>
   </tr> 
  </tbody> 
 </table>
@@ -77,7 +77,7 @@ ht-degree: 0%
    >
    >“Action Type（操作类型）”下拉菜单中的选项因所选的审核日志而异。
 
-   ![审核日志](assets/audit-logs.jpg)
+   ![审核日志](assets/audit-logs.png)
 
 1. 单击&#x200B;**应用**。
 1. （可选）单击&#x200B;**清除筛选器**&#x200B;以重置对筛选器所做的更改。
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 {{step-1-to-setup}}
 
-1. 在左侧面板中，单击&#x200B;**系统>审核日志**。
+1. 在左侧面板中，单击&#x200B;**系统>更改跟踪>审核日志**。
 
 1. 在&#x200B;**日志类型**&#x200B;下拉菜单中，选择一个审核日志。
 

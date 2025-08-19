@@ -6,9 +6,9 @@ description: 要使您对时间表用户档案所做的更改反映在当前时�
 author: Alina
 feature: Timesheets
 exl-id: 316c270a-c64e-4d83-a035-4128abe33f87
-source-git-commit: c9df676467007a84920073fe06bc3c73b18a89ae
+source-git-commit: 311816df863d3c03a54d43c8fa3cac69d2d6d7d4
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,8 @@ ht-degree: 0%
    如果要生成特定组使用的时间表，请单击&#x200B;**组**，然后单击该组的名称。
 
 1. 单击&#x200B;**周期性工时表**。
+1. 单击“更多”图标![更多图标](assets/more-icon.png)，然后单击&#x200B;**生成时间表**。
+
 1. 在时间表配置文件列表顶部，单击系统级时间表配置文件的&#x200B;**更多**&#x200B;图标![更多图标](assets/more-icon.png)，或单击组时间表配置文件的&#x200B;**更多**，然后单击&#x200B;**生成时间表**。
 
    新时间表最多可为与时间表配置文件关联的用户创建两个时间段。
