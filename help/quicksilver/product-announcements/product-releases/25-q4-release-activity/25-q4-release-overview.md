@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 5422b7f5aa3dc1f3827c6d0d0ff559effb447fa4
+source-git-commit: ff0567aabcf885d3bee6c1808302a9cd9445ed04
 workflow-type: tm+mt
-source-wordcount: '1405'
-ht-degree: 1%
+source-wordcount: '1425'
+ht-degree: 2%
 
 ---
 
@@ -50,6 +50,13 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 <table style="table-layout:auto">
   <tbody>
+   <tr>
+        <td><strong>功能</strong>
+        </td>
+        <td><strong>预览</strong></td>
+        <td><strong>快速发布</strong></td>
+        <td><strong>每季度</strong></td>
+    </tr>
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">将外部API中的多个值选项添加到自定义表单</a><p></p>
@@ -68,6 +75,13 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 <table style="table-layout:auto">
   <tbody>
+   <tr>
+        <td><strong>功能</strong>
+        </td>
+        <td><strong>预览</strong></td>
+        <td><strong>快速发布</strong></td>
+        <td><strong>每季度</strong></td>
+    </tr>
   <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">新Workfront AI审阅者</a><p></p>
@@ -102,6 +116,13 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 <table style="table-layout:auto">
   <tbody>
+   <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-home.md" class="MCXref xref" xrefformat="{para}">Updates to the My Requests widget in Home</a><p></p>
@@ -124,6 +145,13 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 <table style="table-layout:auto">
   <tbody>
+   <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Updates to Requesting experience</a><p></p>
@@ -147,9 +175,16 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 <table style="table-layout:auto">
   <tbody>
+   <tr>
+        <td><strong>功能</strong>
+        </td>
+        <td><strong>预览</strong></td>
+        <td><strong>快速发布</strong></td>
+        <td><strong>每季度</strong></td>
+    </tr>
   <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">新表达式已添加到Planning中的公式字段和Workfront中的已计算自定义字段中</a><p><p>[!BADGE Off Schedule]{type=Neutral}</p></p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">新表达式已添加到Planning中的公式字段和Workfront中的已计算自定义字段中</a><p><p>[！BADGE Off Schedule]{type=Neutral}</p></p>
             <p>我们向Workfront Planning中的公式字段和Workfront中的计算自定义字段添加了具有以下用法的新表达式：</p>
             <ul>
             <li>REMOVEACCENTS(string)：从输入字符串中所有重音字符中删除变音标记。</li>
@@ -177,6 +212,13 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 <table style="table-layout:auto">
   <tbody>
+   <tr>
+        <td><strong>功能</strong>
+        </td>
+        <td><strong>预览</strong></td>
+        <td><strong>快速发布</strong></td>
+        <td><strong>每季度</strong></td>
+    </tr>
   <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">工作负载均衡器现在可在您的用户配置文件中使用</a><p></p>
@@ -263,7 +305,7 @@ Workfront Planning中的新增功能已在生产环境中可用。 有关最新�
 
 ## 桌面校对查看器更新
 
-### 版本2.1.52
+### 版本 2.1.52
 
 **适用于所有客户的生产版本： 2025年7月31日**
 
@@ -298,7 +340,7 @@ Workfront Planning中的新增功能已在生产环境中可用。 有关最新�
 * 适用于Salesforce的Workfront。
 
 为了满足贵组织与Google Workspace的集成需求，我们建议使用Workfront自动化和集成。
-有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 ### API版本20
 
@@ -310,8 +352,8 @@ Workfront API版本20于2025年5月4日发布。 对于API版本20，我们修�
 
 ### Workfront 维护更新
 
-有关2025年第一季度版本中所做维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hans)。
+有关2025年第一季度版本中所做维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
 
 ### 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hans)的“新增功能”部分。
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的“新增功能”部分。
