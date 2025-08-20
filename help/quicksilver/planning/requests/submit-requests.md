@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: c3e3dfdb0a1819954c97168cbabddfc8dc5863a0
 workflow-type: tm+mt
-source-wordcount: '2019'
+source-wordcount: '2005'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 
 ## 访问要求
 
-+++ 展开以查看访问要求。
++++ 展开以查看访问要求。 
 
 <table style="table-layout:auto">
  <col>
@@ -148,8 +148,8 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 
 {{step1-to-requests}}
 
-1. 启用屏幕右上角的&#x200B;**切换到新体验**&#x200B;设置。
-启用此设置可使Workfront计划请求表单在Workfront的&#x200B;**请求**&#x200B;区域中可用。
+1. 启用屏幕右上角的&#x200B;**切换到新体验**设置。
+启用此设置可使Workfront计划请求表单在Workfront的**请求**&#x200B;区域中可用。
 
    >[!TIP]
    >
@@ -162,7 +162,7 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 
 1. 单击&#x200B;**新请求**。
 
-   ![具有统一的Workfront和Planning卡的新请求框](assets/new-request-box-with-unified-workfront-and-planning-cards.png)
+   <!--![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png-->
 
    打开&#x200B;**新请求**&#x200B;框，其中包含以下信息：
 
@@ -171,7 +171,7 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 
 1. 执行下列操作之一：
 
-   * 单击最近或所有请求表单部分中某个Planning请求表单的卡
+   * 在“最近”或“全部”请求表单部分中选择Planning请求表单
    * 在搜索框中开始键入Planning请求表单的名称，然后在列表中显示该卡时单击该卡。
 
    此时将打开请求表单。
@@ -208,7 +208,7 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 
 1. （可选）在确认消息中单击&#x200B;**查看您的请求**&#x200B;以打开该请求，或单击&#x200B;**X**&#x200B;图标以关闭确认。
 
-1. （可选）单击&#x200B;**请求**&#x200B;区域中的&#x200B;**计划**&#x200B;选项卡以查看您的请求。
+1. （可选）单击&#x200B;**请求**&#x200B;区域中的&#x200B;**计划**选项卡以查看您的请求。
 提交至Planning请求表单的所有您有权查看的请求都会显示在列表中。
 1. （可选）执行以下任一操作：
 
@@ -225,7 +225,7 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
       * **状态**：请求的状态。
       * **输入者**：添加请求的用户的名称。 如果请求是由Workfront之外的人员添加的，则&#x200B;**输入者**&#x200B;字段显示`N/A`。
 
-        您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的筛选器。
+        您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**加入的筛选器。
 在添加筛选条件时，将自动筛选请求列表。
 
    * 单击&#x200B;**列**&#x200B;并隐藏、显示或重新排列请求列表中的列。
