@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 81b40eda8536d1a63c38a297d92158a12f9d350e
+source-git-commit: 613904bd75aabe3062c5ab50f28cf44eb62919e8
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '1036'
 ht-degree: 2%
 
 ---
@@ -183,5 +183,16 @@ ht-degree: 2%
 1. 转到包含要编辑的队列主题的项目或模板。
 1. 单击左侧面板中的&#x200B;**队列主题**。
 1. 在生产环境中，选择要编辑的队列主题。 在打开的详细信息页面上，单击&#x200B;**编辑队列主题**。
-   <!--1. <span class="preview">In the Preview environment, select the Queue Topic that you want to edit, then click the Edit icon ![Edit icon](assets/edit-icon.png).</span>-->
+1. <span class="preview">在预览环境中，单击要编辑的队列主题。
+
+有关可用编辑选项的信息，请参阅本文中的[创建队列主题](#create-a-queue-topic)。
+
+## 删除队列主题
+
+您可以同时删除一个或多个队列主题。
+
+1. 转到包含要删除的队列主题的项目或模板。
+1. 单击左侧面板中的&#x200B;**队列主题**。
+1. 单击要删除的每个队列主题名称旁边的框。 框中会出现复选标记。
+1. 单击页面顶部的&#x200B;**删除**&#x200B;图标![删除图标](assets/delete-icon.png)。
 
