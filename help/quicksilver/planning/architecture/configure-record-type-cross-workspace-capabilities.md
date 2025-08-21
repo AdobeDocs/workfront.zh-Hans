@@ -4,9 +4,9 @@ description: 您可以将记录类型添加到另一个工作区或从另一个�
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1021'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 # 为记录类型配置跨工作区功能
 
-<!--this is linked to the UI in the info icon of when you create a record type from a global record type-->
+<!--this is linked to the UI in the info icon when you enable a record to be either centralized or connectable-->
 
 <span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
@@ -127,7 +127,9 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 +++   
 
-## 配置将记录类型添加到其他工作区
+## 配置集中记录类型
+
+<!--this is a UI term; don't change the title of this section-->
 
 作为工作区管理员，您可以在创建或编辑记录类型时，配置要添加到其他工作区的记录类型。
 
@@ -180,7 +182,9 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
      此字段为只读，无法删除。
 
-## 配置从其他工作区连接到记录类型
+## 配置可连接的记录类型
+
+<!--this is a UI term; don't change the title of this section-->
 
 在创建或编辑记录类型时，可以配置要从其他工作区连接的记录类型。
 

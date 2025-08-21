@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '694'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 ## 访问要求
 
-+++ 展开以查看访问要求。
++++ 展开以查看访问要求。 
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -92,7 +92,7 @@ ht-degree: 1%
 
 *有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-+++
++++   
 
 ## 创建 Workspace
 
@@ -154,5 +154,15 @@ ht-degree: 1%
    有关信息，请参阅[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)。
 
    有关在工作区中编辑和删除记录类型的详细信息，请参阅[编辑工作区](/help/quicksilver/planning/architecture/edit-workspaces.md)。
+
+1. （可选）单击新工作区左侧的返回箭头以打开Planning主页。 在&#x200B;**选项卡上的**&#x200B;工作区中，为新工作区创建了新工作区信息卡。
+
+   创建工作区的用户的名称将作为所有者保存在工作区信息卡上。
+
+   >[!NOTE]
+   >
+   >对于当前正在过渡到Adobe Identity Management System (IMS)的用户，非IMS用户的仅Workfront用户创建的工作区将显示为&#x200B;**系统**&#x200B;所创建。
+   >
+   >有关IMS的信息，请参阅[适用于Workfront的Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 

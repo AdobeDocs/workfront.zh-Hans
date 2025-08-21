@@ -4,16 +4,12 @@ description: 当您的公司同时购买这两个产品时，即可在Adobe Work
 hide: true
 hidefromtoc: true
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '1359'
+source-wordcount: '1475'
 ht-degree: 0%
 
 ---
-
-# Adobe Workfront Planning与Adobe GenStudio for Performance Marketing集成入门
-
-<!--update the text in the title everywhere this article is linked from - it changed a few times-->
 
 <!--Better metadata, at publishing:
 ---
@@ -29,13 +25,22 @@ recommendations: noDisplay, noCatalog
 
 <!--use this article to make this one similar to it: https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/review-approval-integrations/wf-proof-and-genstudio-->
 
+
+# Adobe Workfront Planning与Adobe GenStudio for Performance Marketing集成入门
+
+<!--update the text in the title everywhere this article is linked from - it changed a few times-->
+
+<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 同时使用Adobe Workfront Planning和Adobe GenStudio for Performance Marketing的组织通常会比GenStudio默认支持的更详细地定义营销概念，如促销活动、产品和角色。
 
 GenStudio for Performance Marketing与Workfront Planning之间存在本机集成。 此集成允许Workfront Planning中的用户管理GenStudio中使用的促销活动、产品、角色、激活、渠道和区域。 它还允许他们配置GenStudio以引用Workfront Planning中的现有记录类型，从而创建更加互联和一致的营销工作流。
 
-此集成帮助您避免重复的数据输入，保持规划和激活工作的一致性，并支持您的营销记录系统。
-
 当您的公司同时购买这两个产品时，即可在Adobe Workfront Planning中使用GenStudio for Performance Marketing工作区。
+
+## 集成优势
 
 通过Workfront Planning与GenStudio for Performance Marketing之间的集成，您可以：
 
@@ -44,6 +49,8 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
 * 在Workfront Planning中查看GenStudio工作区。
 * 在GenStudio中修改营销活动，并在Workfront Planning中实时更新相同信息。
 * 在Workfront Planning中修改促销活动，并在GenStudio中实时更新相同信息。
+* 避免输入重复的数据。
+* 保持规划和激活工作的一致性。
 
 ## 集成要求
 
@@ -70,25 +77,16 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
 </col> 
 <tbody> 
     <tr> 
-<tr> 
-<td> 
-   <p> 产品</p> </td> 
+    <td role="rowheader"><p>Adobe Workfront包</p></td> 
    <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe GenStudio for Performance Marketing</p></li>
-   </ul></td> 
-  </tr>   
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront包</p></td> 
-   <td> 
-<p>任何Workfront Workflow包</p>  
-<p>任何Workfront规划包</p>
-   </td> </tr>
+<p>任何Adobe Workfront Workflow包</p>
+<p>任何Adobe Workfront规划包</p>
 
+</td> </tr>
 <tr> 
    <td role="rowheader"><p>Adobe GenStudio包</p></td> 
    <td> 
-<p>???</p>
+<p>???GEN STUDIO是否有支持此功能的包???</p>
 
 </td> </tr>
 
@@ -102,22 +100,28 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
-   <td><p> 系统管理员</p>
+   <td><p> 标准</p>
   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe GenStudio许可证</p></td> 
-   <td><p> ???</p>
+   <td><p> ???GEN STUDIO是否需要特定的支持此功能的许可证???</p>
   </td> 
   </tr> 
   <tr> 
+<td> 
+   <p> 其他产品</p> </td> 
+   <td> 
+   <p> Adobe GenStudio for Performance Marketing</p></td> 
+  </tr>   
+  <tr> 
    <td role="rowheader"><p>访问级别配置</p></td> 
    <td> <p>Adobe Workfront Planning没有访问级别控制</p>  
-   <p>GenStudio的配置： ???</p> 
+   <p>GenStudio的配置：???GENS需要什么访问级别???</p> 
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>对象权限</p></td> 
+   <td role="rowheader"><p>对象权限*</p></td> 
    <td>  
    <p>在Workfront规划中： </p>
    <ul>
@@ -161,23 +165,25 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
 
 ### 记录类型
 
-* 您可以在Workfront Planning中从GenStudio编辑记录类型信息（例如其外观）。
+* 您可以从Workfront Planning中编辑GenStudio记录类型信息（例如，其外观）。
 * 您可以在Planning中与其他人共享GenStudio记录类型。
 * 您可以在GenStudio工作区中从Planning创建记录类型。 这些记录类型仅保留在Planning中。 它们不会显示在GenStudio中。
 * 与GenStudio同步的记录类型在Workfront Planning中显示一个视觉标志，明确表示记录类型是从GenStudio导入的。
 
 ### 记录
 
+以下记录可能属于GenStudio和Workfront Planning中同时显示的GenStudio记录类型：
+
 * 您可以在GenStudio中添加或删除记录，这些记录将在Workfront Planning中可见（或从中删除）。
 * 您可以在Workfront Planning中添加或删除记录，记录将在GenStudio中可见（或从中删除）。
-* 从Workfront Planning或GenStudio中删除记录时，这些记录将被放置在“最近删除”框中30天。 GenStudio没有最近删除的纸盒。
+* 从Workfront Planning或GenStudio中删除记录时，这些记录会被放在Workfront Planning最近删除的框中，保留30天。 GenStudio没有最近删除的纸盒。
 * 从“最近删除”框中恢复记录会将它们放回Workfront Planning和GenStudio。
 * 您可以通过以下方式从Workfront Planning添加记录：
 
    * 使用“新建记录”按钮从任何视图中手动、从头开始
    * 通过使用CSV或Excel文件导入它们
    * 手动、内联、在表格视图中
-   * 手动，直接在时间轴视图中
+   * 手动、直接在时间轴或日历视图<!--ensure the calendar is released when this releases-->中
 
   有关信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
 * 您无法从Workfront Planning中创建或删除激活记录。
@@ -189,7 +195,7 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
 
 ### 字段
 
-* 记录字段是从GenStudio导入的。 您可以在Workfront Planning中编辑字段设置。
+* 记录字段是从GenStudio导入的。 您可以从Workfront Planning中编辑GenStudio字段设置。
 * 如果您在Gen Studio中具有“管理”权限，则可以在Workfront Planning中为GenStudio记录类型创建字段。
 * 在Planning中为GenStudio记录类型创建字段时，可从以下区域看到它们：
    * Planning视图
@@ -204,13 +210,12 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
 * 您无法删除从Workfront Planning的GenStudio中导入的字段。
 * 您可以从Workfront Planning中删除在Workfront Planning中为GenStudio记录类型创建的字段。
 
-
 ### “创建者”和“批准者”字段
 
 * 您可以从Workfront Planning为Workfront Planning中的GenStudio记录类型添加“创建者”和“批准者”字段。
 * 在“渠道”和“区域”记录类型中显示的记录将“系统”显示为由用户创建。 在Workfront Planning中创建GenStudio工作区时，会自动创建这些记录。
 * 在Workfront Planning中提供工作区后在GenStudio中创建的记录将显示在创建者字段中创建该记录的IMS用户的名称，即使该用户在GenStudio中创建了这些记录且不是Workfront用户也是如此。
-* 在提交请求表单以创建记录时，“批准者”字段显示批准者的姓名。
+* 在提交请求表单以在Workfront Planning的GenStudio记录类型中创建记录时，“批准者”字段显示批准者的名称。
 
 ### 视图
 
@@ -218,7 +223,7 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
 
   有关信息，请参阅[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)。
 
-* 当您要共享Planning记录类型的视图时，可以共享GenStudio记录类型的视图。
+* 共享GenStudio记录类型的视图与共享Planning记录类型的视图相同。
 * 无法在GenStudio中创建多个视图。
 
 ### 连接
@@ -233,7 +238,8 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
 
 ### 请求表单和自动化
 
-* 您可以在Workfront Planning中向GenStudio记录类型添加请求表单和自动化。
+* 您可以在Workfront Planning中将请求表单添加到GenStudio记录类型。
+* 您可以在Workfront Planning中为GenStudio记录类型配置自动化。
 
 ### 预览环境
 

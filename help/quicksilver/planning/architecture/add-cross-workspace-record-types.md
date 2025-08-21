@@ -1,13 +1,13 @@
 ---
-title: 添加跨工作区记录类型
+title: 添加现有记录类型
 description: 记录类型是Adobe Workfront Planning的对象类型。 在Workfront Planning中，您可以从另一个工作区导入现有记录类型。
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 2%
+source-wordcount: '635'
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ author: Alina
 recommendations: noDisplay, noCatalog
 -->
 
-# 添加跨工作区记录类型
+# 添加现有记录类型
 
 <span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
@@ -35,7 +35,7 @@ recommendations: noDisplay, noCatalog
 
 ## 访问要求
 
-+++ 展开以查看访问要求。  
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
 <col> 
@@ -109,6 +109,7 @@ recommendations: noDisplay, noCatalog
    * 记录连接
 
 * 只能在其原始工作区中编辑记录类型，包括其字段。 不能从添加该代码的工作区对其进行编辑。
+* 从所有工作区添加的记录将对从所有工作区访问这些记录的所有用户可见，即使这些记录是在没有权限的工作区中创建的。
 
 ## 从现有记录类型创建记录类型
 

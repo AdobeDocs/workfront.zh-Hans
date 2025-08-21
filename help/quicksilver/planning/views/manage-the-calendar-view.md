@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
 source-wordcount: '1624'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 4%
 
 ## 访问要求
 
-+++ 展开以查看访问要求。
++++ 展开以查看访问要求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -94,7 +94,7 @@ ht-degree: 4%
 
 *有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-+++
++++   
 
 ## 管理日历视图 {#manage-a-calendar-view}
 
@@ -110,6 +110,14 @@ ht-degree: 4%
    * 当“起始日期”和“终止日期”均没有值时，这些记录不会显示在日历中
    * 当“开始”或“结束”日期没有值时，记录显示为一天事件
    * 当开始日期在结束日期之后时，该记录不会显示在日历上。
+
+<!--
+<div class="preview">
+
+* You can create and edit records in the calendar view. For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+
+</div>
+-->
 
 要管理日历视图，请执行以下操作：
 

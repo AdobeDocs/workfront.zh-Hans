@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dea77522-d89f-4baa-a701-aea124d2b3a5
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
@@ -30,19 +30,19 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td><p>新增：标准</p><p>或</p><p>当前：计划</p></td> 
+   <td><p>标准</p><p>规划</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
    <td> <p>您必须具备以下任一项：</p> 
     <ul> 
      <li> <p>系统管理员访问级别。 </li> 
-     <li> <p>访问级别中的<b>用户</b>设置配置为<b>编辑</b>访问，其中<b>创建</b>以及<b>微调设置</b> <img src="assets/gear-icon-in-access-levels.png">下至少启用<b>用户管理员</b>选项之一。 </p> <p>在这两个选项中，如果启用了<b>用户管理员（组用户）</b>，您必须是该用户所属组的组管理员。</p> </li> 
+     <li> <p>访问级别中的<b>用户</b>设置配置为<b>编辑</b>访问，其中<b>创建</b>以及<b>微调设置</b> <b>下至少启用</b>用户管理员<img src="assets/gear-icon-in-access-levels.png">选项之一。 </p> <p>在这两个选项中，如果启用了<b>用户管理员（组用户）</b>，您必须是该用户所属组的组管理员。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
