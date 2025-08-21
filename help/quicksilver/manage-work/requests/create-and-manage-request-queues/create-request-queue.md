@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: ce611ec0c91b114f1a10977970e42fa753f62f22
 workflow-type: tm+mt
-source-wordcount: '2845'
+source-wordcount: '2868'
 ht-degree: 2%
 
 ---
@@ -47,6 +47,8 @@ ht-degree: 2%
 本文介绍如何将项目配置为请求队列，用户可在其中提交请求。 为模板设置队列详细信息类似于在项目中进行设置。
 
 有关如何向请求队列提交新请求的信息，请参阅[复制并提交请求](../create-requests/copy-and-submit-requests.md)。
+
+有关如何在Workfront Planning中配置请求表单的信息，请参阅[在Adobe Workfront Planning中创建和管理请求表单](/help/quicksilver/planning/requests/create-request-form.md)。
 
 ## 访问要求
 
@@ -443,10 +445,10 @@ To create a Request Queue:
 
    * **默认持续时间：**&#x200B;输入持续时间的数字，然后从下拉菜单中选择以下持续时间单位之一：
 
-      * 天
+      * Days
       * 小时
-      * 分钟
-      * 周
+      * Minutes
+      * Weeks
 
    默认持续时间是完成提交到此请求队列的问题通常需要的时长。 这会成为所有传入问题的默认值，可以手动修改。
 问题的默认持续时间与问题的已计划小时数相同。 问题的计划完成日期根据此字段计算。\

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 4f8a8c263f53ff30f99062dedc10d674b867b0b7
+source-git-commit: 359131cef04fdb46def64428a7a693c3f00b2cd4
 workflow-type: tm+mt
-source-wordcount: '2298'
+source-wordcount: '2568'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-您可以创建请求表单，并将其与Adobe Workfront Planning中的记录类型相关联。 然后，您可以与他人共享该表单，其他人也可以提交创建记录的请求。
+您可以创建请求表单，并将其与Adobe Workfront Planning中的记录类型相关联。 然后，您可以与他人共享该表单，他们也可以提交创建该类型记录的请求。
 
 本文介绍了工作区管理员如何创建与记录类型关联的请求表单。
 
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 ## 访问要求
 
-+++ 展开以查看访问要求。
++++ 展开以查看访问要求。 
 
 <table style="table-layout:auto">
  <col>
@@ -135,7 +135,11 @@ ht-degree: 1%
    * 引用币种字段的公式字段显示值，不考虑汇率。
    * “段落”字段的值在请求表单上显示“不适用”值，并且在请求详细信息页面中显示html标记而不是带格式的文本。
 
-## 为记录类型创建请求表单
+## 开始创建请求表单
+
+您可以从与表单<span class="preview">关联的记录类型或Workfront的“请求”区域创建请求表单。</span>
+
+### 根据记录类型创建请求表单
 
 {{step1-to-planning}}
 
@@ -149,12 +153,51 @@ ht-degree: 1%
 
 1. 单击页眉中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**创建请求表单**&#x200B;或&#x200B;**管理请求表单**（如果已拥有表单且要创建其他表单）。
 1. （视情况而定）如果要添加其他表单，请单击&#x200B;**新建请求表单**。
-1. 更新请求表单的名称。 默认情况下，表单的名称为&#x200B;**无标题表单**。<!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
+
+   此时将打开“创建请求表单”框。
+
+1. 在创建请求表单框中，更新请求表单的名称。 默认情况下，表单的名称为&#x200B;**无标题表单**。<!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. （可选）为请求表单添加&#x200B;**描述**。
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
-1. 单击&#x200B;**创建**。此时将在“表单”选项卡中打开选定记录类型的请求表单。
+1. 单击&#x200B;**创建**。
+
+   此时将在“表单”选项卡中打开选定记录类型的请求表单。
+1. 继续[配置表单](#configure-the-form)。
+
+<div class="preview">
+
+### 从Workfront的“请求”区域创建请求表单
+
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**请求**。
+1. 单击屏幕右上角的&#x200B;**请求表单**。
+1. （视情况而定）如果您正在编辑现有请求表单，请从列表中选择该表单，然后继续[配置表单](#confgure-the-form)。
+1. 如果要创建新的请求表单，请在屏幕的右上角单击&#x200B;**新建请求表单**。
+
+   此时将打开“创建请求表单”框
+
+1. 在创建请求表单框中，更新请求表单的名称。 默认情况下，表单的名称为&#x200B;**无标题表单**。
+1. 在对象类型字段中，选择要与请求表单关联的记录类型。 记录类型会分组到它们所在的工作区。
+1. （可选）为请求表单添加&#x200B;**描述**。
+
+   <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
+
+1. 单击&#x200B;**创建**。
+
+   此时将在“表单”选项卡中打开选定记录类型的请求表单。
+1. 继续[配置表单](#configure-the-form)。
+
+</div>
+
+## 配置表单
+
+1. 开始创建或编辑请求表单，如以下任一部分所述：
+
+   * [根据记录类型创建请求表单](#create-a-request-form-from-a-record-type)
+   * <span class="preview">[从Workfront的请求区域创建请求表单](#create-a-request-form-from-the-requests-area-of-workfront)</span>
+
+   此时将在“表单”选项卡中打开选定记录类型的请求表单。
 
    ![营销活动请求表单编辑模式](assets/campaigns-request-form-edit-mode.png)
 
