@@ -6,14 +6,18 @@ description: 您可以从许多小组件中进行选择，以自定义主页上�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: 6350e815e39d642a88a2c9c8b17208db5cb253c5
+source-git-commit: 884ade1102e685ec01af2790b17acb50c2114ca7
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 12%
+source-wordcount: '1092'
+ht-degree: 11%
 
 ---
 
 # 主页小组件过滤器概述
+
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 您可以对以下小组件使用筛选器来查找和组织工作：
 
@@ -227,7 +231,7 @@ ht-degree: 12%
     <td>显示我拥有的问题</td>
   </tr>
   <tr>
-    <td>打开</td>
+    <td>Open</td>
     <td>显示没有完成日期的问题</td>
   </tr>
   <tr>
@@ -242,6 +246,8 @@ ht-degree: 12%
 
 ## 我的请求
 
+在生产环境中：
+
 <table style="table-layout:auto"> 
     <col> 
     <col> 
@@ -251,7 +257,7 @@ ht-degree: 12%
       <td>显示所有已提交的请求，无论状态或提交者如何。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">打开</td> 
+      <td role="rowheader">Open</td> 
       <td> <p>显示所有已提交的请求 
       <ul>
       <li>当前未完成的项，无论其提交者是谁。 只有您至少拥有查看权限的请求才会显示在此处（如果您没有自己提交这些请求）。</li>
@@ -277,6 +283,16 @@ ht-degree: 12%
      </tr> 
     </tbody> 
    </table>
+
+<div class="preview">
+
+在“预览”环境中：
+
+我的请求小组件具有一个可自定义的筛选器，通过该筛选器，您可以控制哪些请求会显示在小组件中。 您可以为不同的字段和值配置此过滤器，也可以使用AND和OR来栈叠条件。
+
+有关在“我的请求”构件中配置筛选器的说明，请参阅使用“我的请求”构件一文中的[筛选请求](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md#filter-requests)。
+
+</div>
 
 ## 我的工作
 

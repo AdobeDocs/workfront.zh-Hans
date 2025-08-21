@@ -7,13 +7,13 @@ author: Courtney
 hide: true
 hidefromtoc: true
 feature: Get Started with Workfront
-source-git-commit: 28bb652f371d3168ffe03c39fc33e29d710605db
+exl-id: cfb3de96-0710-44e9-a934-05877fa75b51
+source-git-commit: f5ffb83d2a9cab48a4ce623088e11e3e13d8f744
 workflow-type: tm+mt
-source-wordcount: '1596'
+source-wordcount: '1632'
 ht-degree: 5%
 
 ---
-
 
 # 从旧主页移至新主页
 
@@ -30,7 +30,7 @@ ht-degree: 5%
 
 “我的工作”小组件以小组件形式创建，以便尽可能详细地镜像旧版主页工作列表。 用户可以使用类似的过滤器和分组在我的工作小部件中分组和过滤其工作列表：
 
-| **筛选器** | **分组** |
+| **过滤器** | **分组** |
 |------------|-----------|
 |  — 正在处理<br> — 准备开始<br> — 未就绪<br> — 已请求<br> — 已委派<br> — 已完成 |  — 项目<br> — 状态<br> — 到期日期<br> — 无 |
 
@@ -163,6 +163,8 @@ Workfront管理员可以使用布局模板自定义“新建主页”中可用�
 * **我的请求**\
     显示您已提交的所有请求，一个过滤器用于仅显示打开的请求，以及一个用于打开请求的摘要面板的按钮。
 
+  <span class="preview">在“预览”环境中，此构件显示您已提交的所有请求，一个筛选条件用于仅显示符合您指定条件的请求，以及一个允许您重新排列构件中的列的按钮。</span>
+
 * **团队请求**\
     显示您所在团队的所有待处理请求（按团队排序），以及用于直接将请求分配给用户或自己处理请求的按钮。
 
@@ -270,7 +272,7 @@ Workfront管理员可以使用布局模板自定义“新建主页”中可用�
 
 **培训**
 
-* [在主页教程中移除、添加和重新排列小组件](https://experienceleague.adobe.com/zh-hans/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
+* [在主页教程中移除、添加和重新排列小组件](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
 * Adobe Workfront中的[工作程序基础知识](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
 
 >[!IMPORTANT]
