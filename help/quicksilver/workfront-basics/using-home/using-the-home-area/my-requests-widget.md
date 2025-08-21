@@ -22,7 +22,7 @@ ht-degree: 3%
 >[!IMPORTANT]
 >
 >本文介绍了新的My Requests构件。 您必须启用新的请求体验才能查看新的构件。
->>您可以在请求区域中启用新的请求体验。
+>&#x200B;>您可以在请求区域中启用新的请求体验。
 
 “我的请求”小组件会显示已提交给贵组织的请求。 您可以筛选请求、搜索特定请求或调整列顺序和可见性。 您还可以从“我的请求”小组件创建新请求。
 
@@ -52,7 +52,7 @@ ht-degree: 3%
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
    <td> <p>新文档：参与者或更高版本</p>
    或   
-   <p>当前： [！UICONTROL Request]或更高版本</p> </td> 
+   <p>当前： [!UICONTROL Request]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置</strong></td> 
@@ -60,7 +60,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>[！UICONTROL查看]对项目、任务、问题和文档的权限或更高，在这些项目、任务、问题和文档中，您被标记在对话中或需要解决审批问题</p> </td> 
+   <td> <p>[!UICONTROL 查看]对项目、任务、问题和文档的权限或更高，在这些项目、任务、问题和文档中，您被标记在对话中或需要解决审批问题</p> </td> 
   </tr> 
  </tbody> 
 </table>
