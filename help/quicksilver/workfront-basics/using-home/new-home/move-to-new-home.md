@@ -272,7 +272,7 @@ Workfront管理员可以使用布局模板自定义“新建主页”中可用�
 
 **培训**
 
-* [在主页教程中移除、添加和重新排列小组件](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
+* [在主页教程中移除、添加和重新排列小组件](https://experienceleague.adobe.com/zh-hans/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
 * Adobe Workfront中的[工作程序基础知识](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
 
 >[!IMPORTANT]
