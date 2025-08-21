@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2d8c5d2b-a026-4741-b907-aac4c0eac98f
-source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
+source-git-commit: 2fe55f61bd24ebb3ecfe09fff29c4aad2ca33608
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
@@ -31,5 +31,7 @@ ht-degree: 0%
 * Workfront和Workfront Planning请求都会显示在小部件中。
 * 过滤器现在更可自定义。 现在，您可以使用And和Or规则按特定字段值筛选。
 * 您可以隐藏或重新排列小部件中的列。
+
+您必须启用新的请求体验才能查看新的构件。 您可以在请求区域中启用新的请求体验。
 
 有关新的“我的请求”小组件的详细信息，请参阅[使用我的请求](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)。
