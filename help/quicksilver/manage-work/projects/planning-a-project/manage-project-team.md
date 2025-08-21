@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
+source-git-commit: bb2479b936a9064a4df34ac3e840dd78cae297b6
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1193'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 ## 访问要求
 
-+++ 展开以查看访问要求。
++++ 展开以查看访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -186,14 +186,14 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    有关详细信息，请参阅[项目团队概述](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md)一文中的“基于角色的审批”一节。
 
-1. 在列表中选择一个或多个用户，然后单击&#x200B;**删除**&#x200B;图标![删除图标](assets/remove-icon.png)以从团队中删除这些用户。
+1. Select one or several users in the list, then click the **Remove** icon ![Remove icon](assets/remove-icon.png) to remove them from the team.
 
 1. 单击&#x200B;**是，删除选定的用户**&#x200B;以确认并删除这些用户。
 
    用户将从未完成的工作项中删除和取消分配。
 
    有关详细信息，请参阅本文中有关从项目团队中删除用户的[注意事项](#considerations-for-removing-users-from-a-project-team)部分。
-1. （可选）要向用户发送此项目的更新，请单击“全部更新”以将更新发送给团队中的每个人
+1. （可选）若要将此项目的更新发送给用户，请单击“全部更新”****&#x200B;将更新发送给团队中的每个人
 
    或
 
@@ -235,7 +235,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
 1. 单击左侧面板中的&#x200B;**人员**。
 
-1. 在列表中选择一个或多个用户，然后单击&#x200B;**删除**&#x200B;以将其从团队中删除。
+1. 在列表中选择一个或多个用户，然后单击&#x200B;**删除**&#x200B;图标以将其从团队中删除。
 
 1. 单击&#x200B;**是，删除选定的用户**&#x200B;以确认并删除这些用户。
 
@@ -243,11 +243,11 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    有关详细信息，请参阅本文中有关从项目团队中删除用户的[注意事项](#considerations-for-removing-users-from-a-project-team)部分。
 
-1. （可选）要将更新发送给用户，请单击全部更新以将更新发送给列表中的所有用户
+1. （可选）若要向用户发送更新，请单击&#x200B;**全部更新**&#x200B;以将更新发送给列表中的所有用户
 
    或
 
-   在列表中选择一个或多个用户，然后单击&#x200B;**更新**。
+   在列表中选择一个或多个用户，然后单击&#x200B;**将更新发送给用户**。
 
    <!--update screen shot for unshim production, notice the text above the box - it needs to say "Post an update to each person's profile"-->
 
@@ -266,11 +266,11 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    如果用户启用了电子邮件通知，他们可能会收到电子邮件通知，并且会收到有关新更新的应用程序内通知。
 
-1. （可选）单击&#x200B;**导出**&#x200B;以将用户列表导出到文件
+1. Click the **Export** icon ![Export icon](assets/export-icon.png) to export the list of users to a file
 
    或
 
-   选择用户，然后单击&#x200B;**导出**&#x200B;以仅导出特定用户。
+   选择用户，然后单击&#x200B;**导出**&#x200B;图标以仅导出特定用户。
 
 ## 从项目团队中删除用户的注意事项
 
