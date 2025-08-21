@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: b050e096a05bd25d07b5e93ae9db7d0fef332d3a
+source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
 workflow-type: tm+mt
-source-wordcount: '6892'
+source-wordcount: '7094'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,17 @@ ht-degree: 0%
 有关Adobe Workfront的所有其他更改，请参阅[产品版本](/help/quicksilver/product-announcements/product-releases/product-releases.md)。
 
 ## 管理和设置
+
+<!--
+### Interface updates when editing a Scorecard
+
+**Preview release: August 21, 2025; Production release: August 21, 2025**
+
+We have updated the look and feel of the when editing a Scorecard to match the design in other areas of the application. You can view the updated design when editing a scorecard in the Setup area of Workfront.
+
+A small functionality change has been applied to the Scorecard. To edit a Scorecard, select the Scorecard from the list and click the Edit icon. You are no longer directed to the Scorecard details page before you can edit.
+
+-->
 
 ### 界面更新了“设置”中的“审阅和批准通知”页面
 
@@ -110,6 +121,54 @@ ht-degree: 0%
 要查看此更改，请转到“设置”>“系统”>“更新SSO的用户”
 
 ## 项目
+
+### 将对象添加到程序和项目组合时的界面更新
+
+**预览版本： 2025年5月22日；生产版本： 2025年5月29日**
+
+>[!NOTE]
+>
+>该功能暂时从“预览”和“生产”中删除，并于2025年8月21日重新添加。
+
+
+在执行以下操作时，我们更新了添加框的界面：
+
+* 将项目添加到项目群
+* 将项目添加到项目组合
+* 将项目群添加到项目组合
+
+有关信息，请参阅以下文章：
+
+* [将现有项目群添加到项目组合](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/move-program.md)
+* [将项目添加到项目组合](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
+* [将项目添加到项目群](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
+
+### 更新了项目和模板的“新建队列主题”框的界面
+
+**预览版本： 2025年8月21日；生产版本： 2025年8月28日**
+
+当您将新队列主题添加到项目或模板中时，我们更新了“新建队列主题”框的外观，以匹配Workfront其他区域的设计。
+
+有关信息，请参阅[创建队列主题](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)。
+
+### 编辑项目或模板上的队列主题时界面更新
+
+**预览版本： 2025年8月21日；生产版本： 2025年8月28日**
+
+我们更新了编辑有关项目和模板的队列主题时的体验，以匹配Workfront的其他方面。
+
+此更新引入了小功能更改。 现在，单击队列主题时，您将直接转到队列主题的编辑页面，而不是队列主题详细信息的页面。
+
+有关信息，请参阅[创建队列主题](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)。
+
+<!--### Interface update for the Edit Expense box of a project
+
+**Preview release: August 21, 2025; Production release: August 28, 2025**
+
+We have updated the dialog box for editing a project expense, to match other areas of the application. The updated dialog box is available when editing expenses in projects or templates.
+
+For information, see [Manage project expenses](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
+-->
 
 ### 在小时部分更新记录项目、任务或问题的时间的界面
 
@@ -204,6 +263,14 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 有关信息，请参阅[管理项目费用](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md)。
 
 ## 模板
+
+### 模板上“人员”列表的界面更新
+
+**预览版本： 2025年8月21日；生产版本： 2025年8月28日**
+
+我们更新了模板上“人员”列表的外观，使其与Workfront其他区域的设计相匹配。
+
+在模板上处理人员类似于在项目上处理人员。 有关信息，请参阅[管理项目团队](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)。
 
 ### 模板上“前置任务”列表的界面更新
 
@@ -542,26 +609,6 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 有关信息，请参阅[复制项目模板](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md)。
 
-### 将对象添加到程序和项目组合时，外观和感觉更新
-
-**预览版本： 2025年5月22日；生产版本： 2025年5月29日**
-
->[!NOTE]
->
->暂时从预览和生产中删除
-
-
-在执行以下操作时，我们更新了添加框的界面：
-
-* 将项目添加到项目群
-* 将项目添加到项目组合
-* 将项目群添加到项目组合
-
-有关信息，请参阅以下文章：
-
-* [将现有项目群添加到项目组合](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/move-program.md)
-* [将项目添加到项目组合](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
-* [将项目添加到项目群](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
 
 +++
 

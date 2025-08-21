@@ -3,12 +3,11 @@ title: 2025年第四季度主页增强功能
 description: 2025年第四季度主页增强功能
 author: Courtney
 feature: Product Announcements
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 3b1085fe3221650bc1ba7c7223c2c2160e11f757
+exl-id: 2d8c5d2b-a026-4741-b907-aac4c0eac98f
+source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
@@ -23,8 +22,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 预览： 2025年7月24日
->* 生产快速发布： 2025年8月14日
+>* 预览： 2025年8月21日
+>* 生产快速发布： 2025年9月11日
 >* 适用于所有客户的生产： 2025年10月16日
 
 为了在Workfront与Workfront Planning之间创造更加无缝的体验，我们重新设计了主页中的“我的请求”小组件。 新的构件具有以下更改：
@@ -33,4 +32,4 @@ ht-degree: 0%
 * 过滤器现在更可自定义。 现在，您可以使用And和Or规则按特定字段值筛选。
 * 您可以隐藏或重新排列小部件中的列。
 
-<!--For more information on the new My Requests widget, see [Use the My Requests widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).-->
+有关新的“我的请求”小组件的详细信息，请参阅[使用我的请求](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)。

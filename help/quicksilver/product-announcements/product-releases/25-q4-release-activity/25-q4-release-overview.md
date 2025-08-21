@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: ff0567aabcf885d3bee6c1808302a9cd9445ed04
+source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1573'
 ht-degree: 2%
 
 ---
@@ -40,9 +40,9 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 * [管理员增强功能](#administrator-enhancements)
 * [文档和校对增强功能](#document-and-proofing-enhancements)
-  <!--* [Home enhancements](#home-enhancements)-->
+* [主页增强功能](#home-enhancements)
 * [项目增强功能](#project-enhancements)
-  <!--* [Requests enhancements](#requests-enhancements)-->
+* [请求增强功能](#requests-enhancements)
 * [资源管理增强功能](#resource-management-enhancements)
 * [其他增强功能](#other-enhancements)
 
@@ -112,64 +112,64 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
-<!--### Home enhancements
+### 主页增强功能
 
 <table style="table-layout:auto">
   <tbody>
    <tr>
-        <td><strong>Feature</strong>
+        <td><strong>功能</strong>
         </td>
-        <td><strong>Preview</strong></td>
-        <td><strong>Fast release</strong></td>
-        <td><strong>Quarterly</strong></td>
+        <td><strong>预览</strong></td>
+        <td><strong>快速发布</strong></td>
+        <td><strong>每季度</strong></td>
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-home.md" class="MCXref xref" xrefformat="{para}">Updates to the My Requests widget in Home</a><p></p>
-            <p>To create a more seamless experience between Workfront and Workfront Planning, we've redesigned the My Requests widget in Home. The new widget features the following changes:
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-home.md" class="MCXref xref" xrefformat="{para}">主页中“我的请求”小组件的更新</a><p></p>
+            <p>为了在Workfront与Workfront Planning之间创造更加无缝的体验，我们重新设计了主页中的“我的请求”小组件。 新的构件具有以下更改：
             <ul>
-                <li>Improved layout and organization of request information</li>
-                <li>Enhanced filtering and sorting options</li>
-                <li>Integration with Workfront Planning for better visibility into resource allocation</li>
+                <li>改进请求信息的布局和组织</li>
+                <li>增强的筛选和排序选项</li>
+                <li>与Workfront Planning集成，以更好地了解资源分配</li>
             </ul>
             </p>
         </td>
-        <td>July 31, 2025</td>
-        <td>August 14, 2025</td>
-        <td>October 16, 2025</td>
+        <td>2025年8月21日</td>
+        <td>2025年9月11日</td>
+        <td>2025年10月16日</td>
     </tr>     
   </tbody>
-</table> 
+</table>
 
-### Requests enhancements
+### 请求增强功能
 
 <table style="table-layout:auto">
   <tbody>
    <tr>
-        <td><strong>Feature</strong>
+        <td><strong>功能</strong>
         </td>
-        <td><strong>Preview</strong></td>
-        <td><strong>Fast release</strong></td>
-        <td><strong>Quarterly</strong></td>
+        <td><strong>预览</strong></td>
+        <td><strong>快速发布</strong></td>
+        <td><strong>每季度</strong></td>
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Updates to Requesting experience</a><p></p>
-            <p>To create a better user experience when making requests in Workfront and Workfront Planning, we've updated the requesting experience. Now you can:
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">请求体验的更新</a><p></p>
+            <p>为了在Workfront和Workfront Planning中提出请求时提供更好的用户体验，我们更新了请求体验。 现在您可以：
             <ul>
-                <li>View Workfront and Workfront Planning requests in a single list.</li>
-                <li>Filter submitted requests based on criteria you specify.</li>
-                <li>Search for and select Workfront request queues and Workfront Planning forms in a consolidated experience.</li>
-                <li>Hide and reorder columns in the submitted requests list.</li>
+                <li>在单个列表中查看Workfront和Workfront Planning请求。</li>
+                <li>根据您指定的条件筛选已提交的请求。</li>
+                <li>在整合的Experience中搜索并选择Workfront请求队列和Workfront Planning表单。</li>
+                <li>隐藏已提交请求列表中的列并重新排序。</li>
             </ul>
             </p>
         </td>
-        <td>July 31, 2025</td>
-        <td>August 14, 2025</td>
-        <td>October 16, 2025</td>
+        <td>2025年8月21日</td>
+        <td>2025年9月11日</td>
+        <td>2025年10月16日</td>
     </tr>     
   </tbody>
-</table> -->
+</table>
 
 ### 项目增强功能
 
@@ -182,9 +182,18 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>快速发布</strong></td>
         <td><strong>每季度</strong></td>
     </tr>
+      <!--<tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">Create project intake forms in Workfront</a>
+            <p>To make it easier to create requested projects without converting from issues, we've created Project intake forms. You can configure these intake forms with specific fields, templates, and custom forms, and set approvers for project creation. Then, when a user uses this form, the project is configured to your specifications and sent for approval.</p>
+        </td>
+        <td>August 21, 2025</td>
+        <td>September 11, 2025</td>
+        <td>October 16, 2025</td>
+    </tr> -->
   <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">新表达式已添加到Planning中的公式字段和Workfront中的已计算自定义字段中</a><p><p>[!BADGE Off Schedule]{type=Neutral}</p></p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">新表达式已添加到Planning中的公式字段和Workfront中的已计算自定义字段中</a><p><p>[！BADGE Off Schedule]{type=Neutral}</p></p>
             <p>我们向Workfront Planning中的公式字段和Workfront中的计算自定义字段添加了具有以下用法的新表达式：</p>
             <ul>
             <li>REMOVEACCENTS(string)：从输入字符串中所有重音字符中删除变音标记。</li>
@@ -340,7 +349,7 @@ Workfront Planning中的新增功能已在生产环境中可用。 有关最新�
 * 适用于Salesforce的Workfront。
 
 为了满足贵组织与Google Workspace的集成需求，我们建议使用Workfront自动化和集成。
-有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 ### API版本20
 
@@ -352,8 +361,8 @@ Workfront API版本20于2025年5月4日发布。 对于API版本20，我们修�
 
 ### Workfront 维护更新
 
-有关2025年第一季度版本中所做维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hans)。
+有关2025年第一季度版本中所做维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
 
 ### 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hans)的“新增功能”部分。
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的“新增功能”部分。
