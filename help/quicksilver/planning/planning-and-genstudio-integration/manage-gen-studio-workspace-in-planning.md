@@ -175,7 +175,7 @@ CAN YOU DO THIS??
 
    * 单击记录类型页面右上角的&#x200B;**共享**，然后单击以下任一项：
       * **复制视图链接**&#x200B;以共享记录类型的链接
-      * **导出当前视图**以将其导出为CSV或Excel文件。
+      * **导出当前视图**&#x200B;以将其导出为CSV或Excel文件。
 只能导出表格视图。<!--check on this later; is this true or are there more options in the Share button-->
 
    * 单击&#x200B;**+视图**&#x200B;以创建GenStudio记录类型的视图。
