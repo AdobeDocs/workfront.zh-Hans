@@ -193,7 +193,7 @@ If users that don't fulfill any role on the project want to be notified about ce
    用户将从未完成的工作项中删除和取消分配。
 
    有关详细信息，请参阅本文中有关从项目团队中删除用户的[注意事项](#considerations-for-removing-users-from-a-project-team)部分。
-1. （可选）若要将此项目的更新发送给用户，请单击“全部更新”****&#x200B;将更新发送给团队中的每个人
+1. （可选）若要将此项目的更新发送给用户，请单击“全部更新”**&#x200B;**&#x200B;将更新发送给团队中的每个人
 
    或
 
