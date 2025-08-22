@@ -4,7 +4,7 @@ description: 这是一篇内部文章，供我们的团队保留用于访问要�
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 15eba2f627e31661c5fde60e989dfc68a9f4cd15
+source-git-commit: 5fd51b6fad81eb54696784745989efee06b79c94
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 2%
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 ## 访问要求（例如，包保持不变，并且我们更新了许可证行）
 
-展开以查看本文中各项功能的访问要求
+展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,7 +56,7 @@ ht-degree: 2%
 
 ## 访问要求
 
-展开以查看本文中各项功能的访问要求
+展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -86,7 +86,7 @@ ht-degree: 2%
 
 ## 访问要求（仅适用于净新客户）
 
-展开以查看本文中各项功能的访问要求
+展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -117,7 +117,7 @@ ht-degree: 2%
 
 ## 访问要求（例如，新功能仅存在于2023/2025资源包中）
 
-展开以查看本文中各项功能的访问要求
+展开以查看本文中各项功能的访问要求。
 
 <table>
   <tr>
@@ -145,7 +145,7 @@ ht-degree: 2%
 
 ## 访问要求（例如，您需要使用其他产品）
 
-展开以查看本文中各项功能的访问要求
+展开以查看本文中各项功能的访问要求。
 
 <table>
   <tr>
@@ -220,7 +220,7 @@ ht-degree: 2%
    <td> 
 <p>任何Adobe Workfront工作流包和任何Adobe Workfront计划包</p> 
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront平台(**&#x200B;**&#x200B;是希望指出这一点，还是只需将其添加到底部链接的文章中???**&#x200B;***)</p></td> 
+<td role="rowheader"><p>Adobe Workfront平台(****是希望指出这一点，还是只需将其添加到底部链接的文章中???*****)</p></td> 
    <td> 
 <p>贵组织的Workfront实例必须载入Adobe Unified Experience才能访问Workfront Planning。</p> 
 <p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p> 
@@ -273,15 +273,15 @@ ht-degree: 2%
    <td> <p>[!DNL Adobe Workfront] 许可证*</p> </td> 
    <td> <p>浅色或更高</p> 
    或
-   <p>[!UICONTROL Review]或更高版本</p> </td> 
+   <p>[！UICONTROL Review]或更高版本</p> </td> 
   </tr>
 
 <td><p>访问级别配置</p> </td> 
-   <td> <p>[!UICONTROL Edit]访问 [!DNL Scenario Planner]</p> </td> 
+   <td> <p>[！UICONTROL Edit]访问 [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>对象权限 </p> </td> 
-   <td> <p>[!UICONTROL Manage]对计划的权限</p>  </td> 
+   <td> <p>[！UICONTROL Manage]对计划的权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
