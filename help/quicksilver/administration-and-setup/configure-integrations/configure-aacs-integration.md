@@ -53,13 +53,13 @@ ht-degree: 0%
   <tr>
    <td>[!DNL Adobe Workfront] 许可证
    </td>
-   <td><p>当前： [！UICONTROL计划]</p>
-   <p>新文档： [！UICONTROL Standard]</p></td>
+   <td><p>当前： [!UICONTROL 计划]</p>
+   <p>新文档： [!UICONTROL Standard]</p></td>
   </tr>
   <tr>
    <td>[!DNL Experience Manager] 许可证
    </td>
-   <td>[！UICONTROL标准版]
+   <td>[!UICONTROL 标准版]
    </td>
   </tr>
   <tr>
