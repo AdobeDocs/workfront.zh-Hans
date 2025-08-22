@@ -6,10 +6,10 @@ description: 您可以将表格报表添加到画布功能板，以便以表格�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: 72344e5c1607ba6b4dd2a1e71a462bba93369b27
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 0%
+source-wordcount: '761'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ![表报告示例](assets/table-example-main.png)
 
-+++ 展开以查看访问要求。
++++ 展开以查看访问要求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -111,3 +111,82 @@ ht-degree: 0%
    1. 单击&#x200B;**添加分组**&#x200B;按钮，然后选择要创建为分组的字段。 分组列显示在右侧的预览部分中。
 
 1. 单击&#x200B;**保存**&#x200B;以创建报告并将其添加到仪表板。
+
+## 构建表报告示例
+
+在此部分中，我们将介绍创建显示待处理文档审批的表报告的步骤。
+
+有关表报告示例的详细信息，请参阅[创建用于审阅和审批的报告仪表板](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)。
+
+{{step1-to-dashboards}}
+
+1. 在左侧面板中，单击&#x200B;**画布功能板**。
+
+1. 单击右上角的&#x200B;**新建仪表板**。
+
+1. 在&#x200B;**创建仪表板**&#x200B;框中，输入仪表板的&#x200B;**名称**&#x200B;和&#x200B;**描述**。
+
+1. 单击&#x200B;**创建**。
+
+1. 在&#x200B;**添加报告**&#x200B;框中，选择&#x200B;**创建报告**。
+
+1. 在左侧，选择&#x200B;**表**。
+
+1. 单击右上角的&#x200B;**创建报告**。
+
+1. 按照以下步骤配置&#x200B;**详细信息**&#x200B;部分：
+
+   1. 在&#x200B;_名称_&#x200B;字段中键入&#x200B;**待处理审批**。
+   1. 在&#x200B;**描述**&#x200B;字段中键入描述。 此文本将作为工具提示显示在图表名称旁边。
+
+1. 按照以下步骤配置&#x200B;**生成表**&#x200B;部分：
+
+   1. 在左侧面板中，单击&#x200B;**表列** ![表列图标](assets/drilldown-column.png)图标。
+   1. 单击&#x200B;**添加列**。
+   1. 向下滚动并选择&#x200B;**文档审批** > **状态**。
+   1. 添加以下列：
+
+   <table>
+    <tr>
+    <td><strong>项目名称</strong></td>
+    <td>文档版本&gt;文档&gt;项目&gt;名称</td>
+    </tr>
+    <tr>
+    <td><strong>文档名称</strong></td>
+    <td>文档版本&gt;文档&gt;在搜索框中键入<em>名称</em>。</td>
+    </tr>
+    <tr>
+    <td><strong>文档版本</strong></td>
+    <td>文档版本&gt;文档&gt;版本</td>
+    </tr>
+    <tr>
+    <td><strong>截止日期</strong></td>
+    <td>文档审批&gt;审批阶段&gt;截止日期</td>
+    </tr>
+    <tr>
+    <td><strong>请求者</strong></td>
+    <td>文档审批&gt;审批阶段&gt;审批阶段参与者* &gt;请求者&gt;在搜索框中键入<em>名称</em>。</td>
+    </tr>
+    <tr>
+    <td><strong>请求的日期</strong></td>
+    <td>文档审批&gt;审批阶段&gt;审批阶段参与者* &gt;创建于</td>
+    </tr>
+    <tr>
+    <td><strong>审批者</strong></td>
+    <td>文档审批&gt;审批阶段&gt;审批阶段参与者* &gt;参与者用户&gt;在搜索框中键入<em>名称</em>。</td>
+    </tr>
+    </table>
+
+
+   *批准阶段参与者被截断为&#x200B;_批准阶段pa.._
+
+
+1. 按照以下步骤配置&#x200B;**筛选器**&#x200B;部分：
+   1. 在左侧面板中，单击&#x200B;**筛选器** ![筛选器选项卡图标](assets/filter-tab.png)图标。
+   1. 单击&#x200B;**编辑筛选器**，然后单击&#x200B;**添加条件**。
+   1. 单击空条件筛选器，然后单击&#x200B;**选取字段**。
+   1. 选择&#x200B;**状态**。
+   1. 将运算符更改为&#x200B;**等于**，然后在文本框中键入&#x200B;_未决批准_。
+      ![未决批准表筛选器示例](assets/pending-approval-table-filter.png)
+   1. （可选）按照以下&#x200B;**可选筛选器**&#x200B;部分中的说明添加其他筛选器。
+1. 单击屏幕右上角的&#x200B;**保存**。

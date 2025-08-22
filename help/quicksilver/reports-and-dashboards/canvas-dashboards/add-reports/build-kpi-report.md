@@ -6,9 +6,9 @@ description: 可将显示单个汇总KPI的突出显示KPI报告添加到画布�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: 72344e5c1607ba6b4dd2a1e71a462bba93369b27
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ![KPI报告示例](assets/kpi-example-main.png)
 
-+++ 展开以查看访问要求。
++++ 展开以查看访问要求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -122,5 +122,57 @@ ht-degree: 0%
    1. 单击&#x200B;**添加分组**&#x200B;按钮，然后选择要创建为分组的字段。
 
 1. 单击&#x200B;**保存**&#x200B;以创建报告并将其添加到仪表板。
+
+## 构建KPI报告示例
+
+在此部分中，我们将介绍创建显示待定文档审批的KPI报告的步骤。
+
+有关KPI报告示例的详细信息，请参阅[创建用于审阅和审批的报告仪表板](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)。
+
+{{step1-to-dashboards}}
+
+1. 在左侧面板中，单击&#x200B;**画布功能板**。
+
+1. 单击右上角的&#x200B;**新建仪表板**。
+
+1. 在&#x200B;**创建仪表板**&#x200B;框中，输入仪表板的&#x200B;**名称**&#x200B;和&#x200B;**描述**。
+
+1. 单击&#x200B;**创建**。
+
+1. 在&#x200B;**添加报告**&#x200B;框中，选择&#x200B;**创建报告**。
+
+1. 在左侧，选择&#x200B;**KPI**。
+
+1. 单击右上角的&#x200B;**创建报告**。
+
+1. 按照以下步骤配置&#x200B;**详细信息**&#x200B;部分：
+
+   1. 在&#x200B;*名称*&#x200B;字段中键入&#x200B;**Pending**。
+   1. 在&#x200B;*描述*&#x200B;字段中键入&#x200B;**待处理审批**。 这会在KPI值下方显示为描述。
+
+1. 按照以下步骤配置&#x200B;**生成KPI**&#x200B;部分：
+
+   1. 在左侧面板中，单击&#x200B;**生成KPI** ![生成KPI图标](assets/build-kpi-icon.png)。
+
+   1. 单击&#x200B;**选择字段**。
+
+   1. 找到并选择&#x200B;**文档审批**&#x200B;文件夹。
+
+   1. 选择&#x200B;**状态**。
+
+   1. 在&#x200B;**聚合类型**&#x200B;下拉列表中，选择&#x200B;**计数**。
+
+1. 按照以下步骤配置&#x200B;**筛选器**&#x200B;部分：
+
+   1. 在左侧面板中，单击&#x200B;**筛选器** ![筛选器图标](assets/filter-icon.png)图标。
+
+   1. 选择&#x200B;**编辑筛选器**。
+
+   1. 单击&#x200B;**添加条件**。
+
+   1. 单击进入空条件筛选器，单击&#x200B;**选择字段**，然后选择&#x200B;**状态**。
+   1. 将运算符保留为&#x200B;**Equal**，然后在文本框中键入&#x200B;_等待审阅_。
+      ![待处理KPI过滤器示例](assets/pending-kpi-filter.png)
+1. 单击屏幕右上角的&#x200B;**保存**。
 
 
