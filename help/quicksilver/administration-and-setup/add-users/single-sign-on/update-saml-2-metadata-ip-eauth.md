@@ -8,9 +8,9 @@ exl-id: 55d7d8a8-0dfe-45bc-a23a-47111347e9ca
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: fab7a3a1c66635b11418a216999dee84a30a50bb
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '48'
 ht-degree: 0%
 
 ---
@@ -21,139 +21,141 @@ ht-degree: 0%
 
 {{important-admin-console-onboard}}
 
-作为Adobe Workfront管理员，您可以将Workfront单点登录(SSO)与任何支持安全断言标记语言(SAML) 2.0协议的身份提供程序集成。
+<!--REMOVE ME MARCH 2026-->
 
-以下部分介绍了将您的Workfront帐户升级到增强型身份验证体验（尚未提供给所有组织）时的集成过程。 有关增强的身份验证体验的详细信息，请参阅[增强的身份验证概述](../../../administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)。
+<!--As an Adobe Workfront administrator, you can integrate Workfront single sign-on (SSO) with any identity provider that supports the Security Assertion Markup Language (SAML) 2.0 protocol.
 
-有关在迁移到Enhanced Authentication Experience之前配置SAML的信息，请参阅[在身份提供程序中更新SAML 2.0元数据](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)。
+The following sections describe the integration process when your Workfront account has been upgraded to the enhanced authentication experience (not yet available to all organizations). For more information about the enhanced authentication experience, see [Enhanced Authentication overview](../../../administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md).
+
+For information about configuring SAML prior to your migration to the enhanced authentication experience, see [Update SAML 2.0 metadata in your identity provider](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md).
 
 
-## 访问要求
+## Access requirements
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ Expand to view access requirements for the functionality in this article.
 
-您必须具有以下权限才能执行本文中的步骤：
+You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-   <td>任何</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td>计划</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
-   <td> <p>您必须是Workfront管理员。</p> <p><b>注意</b>：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-## 使用Okta作为您的身份提供程序
+## Use Okta as your identity provider
 
-Okta是支持SAML 2.0的标识提供程序的示例。本节介绍如何使用Okta作为您的身份提供程序。 在配置另一个支持SAML 2.0的标识提供程序时，需要执行类似的步骤。
+Okta is an example of an identity provider that supports SAML 2.0. This section describes how to use Okta as your identity provider. Similar steps would be required when configuring another identity provider that supports SAML 2.0.
 
 >[!NOTE]
 >
->将根据用户的电子邮件地址来映射用户。 要使用Okta登录Workfront，您必须让某个用户使用在Workfront客户中创建的相同（不区分大小写）电子邮件地址。
+>Users are mapped based on their email address. In order to log in to Workfront using Okta, you must have a user with the same (case-insensitive) email address created in your Workfront customer.
 
-请完成以下各节，以在Workfront中将Okta配置为您的身份提供程序。
+Complete the following sections to configure Okta as your identity provider in Workfront.
 
-* [在Okta中创建Workfront应用程序](#create-a-workfront-app-in-okta)
-* [在Workfront中添加您的Okta实例作为身份提供程序](#add-your-okta-instance-as-an-identity-provider-in-workfront)
+* [Create a Workfront app in Okta](#create-a-workfront-app-in-okta) 
+* [Add your Okta instance as an identity provider in Workfront](#add-your-okta-instance-as-an-identity-provider-in-workfront)
 
-### 在Okta中创建Workfront应用程序 {#create-a-workfront-app-in-okta}
+### Create a Workfront app in Okta {#create-a-workfront-app-in-okta}
 
-1. 登录到您的Okta环境。
-1. 确保在Okta界面的左上角选择了&#x200B;**经典UI**。
-1. 在菜单中，单击&#x200B;**应用程序** > **应用程序**。
+1. Log in to your Okta environment. 
+1. Ensure that **Classic UI** is selected in the upper-left corner of the Okta interface.
+1. In the menu, click **Applications** > **Applications**.
 
-1. 单击&#x200B;**添加应用程序**，然后单击&#x200B;**新建应用程序**。
+1. Click **Add Application**, then click **Create New App**.
 
-1. 在&#x200B;**新建应用程序集成对话框**&#x200B;框中，选择&#x200B;**SAML 2.0**，然后单击&#x200B;**创建**。
+1. In the **Create a New Application Integration dialog** box, select **SAML 2.0**, then click **Create**.
 
-1. 为您的Workfront应用指定一个名称，然后单击&#x200B;**下一步**。
-1. 在显示的“SAML设置”页中，找到“SAML设置”页所需的信息：
+1. Specify a name for your Workfront app, then click **Next**.
+1. In the SAML Settings page that displays, locate information required for the SAML Settings page:
 
-   1. 无需退出显示Okta界面的浏览器选项卡，请打开单独的浏览器选项卡或窗口。
-   1. 在浏览器中指定以下URL：
+   1. Without exiting the browser tab where the Okta interface is displayed, open a separate browser tab or window.
+   1. Specify the following URL in the browser:
 
       `https://[your_customer_subdomain].my.workfront.com/auth/saml2/metadata`
-
-   1. 在生成的XML文件中，识别&#x200B;**entityID**&#x200B;和&#x200B;**Location**&#x200B;的值。
+   
+   1. In the resulting XML file, identify the values for **entityID** and **Location**.
 
       ![sso-okta.png](assets/sso-okta.png)
 
-   1. 将&#x200B;**entityID**&#x200B;字段中的值复制到系统剪贴板。 请勿关闭此浏览器选项卡。
+   1. Copy the value from the **entityID** field to your system clipboard. Do not close this browser tab.
 
-1. 返回在步骤6中打开的“SAML设置”页面。
-1. 将&#x200B;**entityID**&#x200B;字段中的值粘贴到&#x200B;**受众URI （SP实体ID）**&#x200B;字段中。
+1. Go back to the SAML Settings page that you opened in Step 6. 
+1. Paste the value from the **entityID** field into the **Audience URI (SP Entity ID)** field.
 
-1. 在其他浏览器选项卡的XML文件中，复制&#x200B;**位置**&#x200B;字段中的值。
-1. 将&#x200B;**位置**&#x200B;字段中的值粘贴到&#x200B;**单点登录** **URL**&#x200B;字段中。
+1. In the XML file in your other browser tab, copy the value from the **Location** field.
+1. Paste the value from the **Location** field into the **Single sign on** **URL** field.
 
-1. 滚动到&#x200B;**Attribute语句（可选）**&#x200B;部分。
-1. 在&#x200B;**名称**&#x200B;字段中，指定&#x200B;**电子邮件**。
+1. Scroll to the **Attribute Statements (Optional)** section.
+1. In the **Name** field, specify **email**.
 
-1. 在&#x200B;**值**&#x200B;字段中，指定&#x200B;**user.email**。
+1. In the **Value** field, specify **user.email**.
 
-1. （可选）添加任何高级值。
-1. 单击&#x200B;**下一步**。
-1. 选择&#x200B;**我是Okta客户，正在添加内部应用程序**，然后单击&#x200B;**完成**。
+1. (Optional) Add any advanced values.
+1. Click **Next**.
+1. Select, **I'm an Okta customer adding an internal app**, then click **Finish**.
 
-### 在Workfront中添加您的Okta实例作为身份提供程序 {#add-your-okta-instance-as-an-identity-provider-in-workfront}
+### Add your Okta instance as an identity provider in Workfront {#add-your-okta-instance-as-an-identity-provider-in-workfront}
 
-此过程提供了在Workfront中将Okta配置为身份提供程序的基本信息。 有关其他映射或配置选项的其他信息，请参阅[使用SAML 2.0](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)配置Adobe Workfront。
+This procedure provides essential information for configuring Okta as an identity provider in Workfront. For additional information about other mappings or configuration options, see [Configure Adobe Workfront with SAML 2.0](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).
 
-1. 下载Okta实例的身份提供程序元数据：
+1. Download the identity provider metadata for your Okta instance:
 
-   1. 登录到您的Okta环境。
-   1. 确保在Okta界面的左上角选择了&#x200B;**经典UI**。
-   1. 在菜单中，单击&#x200B;**应用程序** > **应用程序**。
-
-   1. 单击您创建的Workfront应用程序，如[在Okta中创建Workfront应用程序](#create-a-workfront-app-in-okta)部分所述
-   1. 在&#x200B;**登录**&#x200B;选项卡上，单击&#x200B;**身份提供程序元数据**。
+   1. Log in to your Okta environment. 
+   1. Ensure that **Classic UI** is selected in the upper-left corner of the Okta interface.
+   1. In the menu, click **Applications** > **Applications**.
+   
+   1. Click the Workfront app that you created, as described in the section, [Create a Workfront app in Okta](#create-a-workfront-app-in-okta)
+   1. On the **Sign On** tab, click **Identity Provider metadata**.
 
       ![idp_okta_metadata.png](assets/idp-okta-metadata.png)
 
-      元数据在新的浏览器选项卡中以XML形式打开。
+      The metadata is opened as XML in a new browser tab.
+   
+   1. Copy the URL that is displayed in the browser URL field.
 
-   1. 复制浏览器URL字段中显示的URL。
-
-1. 以Workfront管理员身份登录Workfront。
+1. Log in to Workfront as a Workfront administrator.
 
 {{step-1-to-setup}}
 
-1. 在左侧面板中，单击&#x200B;**系统** > **单点登录(SSO)**。
+1. In the left panel, click **System** > **Single Sign-On (SSO)**.
 
-1. （视情况而定）如果看到两个选项卡，请单击&#x200B;**新建SSO提供程序**&#x200B;选项卡。
+1. (Conditional) If you see two tabs, click the **New SSO Providers** tab.
 
    ![sso_idp_halflife.png](assets/sso-idp-halflife-350x234.png)
 
    >[!IMPORTANT]
    >
-   >请勿删除&#x200B;**当前SSO提供程序**&#x200B;选项卡中的现有SSO配置设置，直到您的帐户更新为增强型身份验证体验并且新的SSO配置完全正常工作为止。
+   >Do not delete your existing SSO configuration settings in the **Current SSO Provider** tab until your account is updated to the enhanced authentication experience and the new SSO configuration is fully functional.
 
-1. 单击&#x200B;**新建SSO提供程序**。
-1. 指定名称（如Okta IDP），然后指定描述。
-1. 在&#x200B;**填充来自身份提供程序元数据**&#x200B;的字段中，将您在步骤1中复制的URL粘贴到&#x200B;**元数据URL**&#x200B;字段中。\
-   或者，您可以单击&#x200B;**选择文件**&#x200B;以上传.xml文件，但我们建议您粘贴该URL。
+1. Click **New SSO Provider**.
+1. Specify a name, such as Okta IDP, then specify a description.
+1. In the **Populate fields from Identity Provider Metadata** section, paste the URL that you copied in Step 1 into the **Metadata URL** field.   
+   Alternatively, you can click **Choose File** to upload an .xml file, but we recommend that you paste the URL.
 
-1. 在&#x200B;**映射用户属性**&#x200B;部分的&#x200B;**目录属性**&#x200B;字段中，键入&#x200B;**电子邮件**。 (**Workfront用户属性**&#x200B;字段中已填充&#x200B;**电子邮件地址**。)
+1. In the **Map User Attributes** section, in the **Directory Attribute** field, type **email**. (**Email Address** is already populated in the **Workfront User Attribute** field.)
 
-1. （可选）启用&#x200B;**设为默认SSO提供程序**&#x200B;以将未经身份验证的用户发送到身份提供程序登录屏幕而不是Workfront登录屏幕以进行身份验证。 我们建议您仅在系统中的所有用户都通过身份提供程序访问Workfront时才启用此选项。
-1. 选中&#x200B;**启用**&#x200B;复选框。 在执行此操作之前，请确保系统中的用户知道新的登录体验，以确保他们不会失去对Workfront系统的访问权限。
-1. 单击&#x200B;**测试连接**。\
-   您应该会看到一条消息，告诉您连接成功。
+1. (Optional) Enable **Make Default SSO Provider** to send unathenticated users to the identity provider login screen instead of to the Workfront login screen for authentication. We recommend that you enable this option only if all users in your system access Workfront through the identity provider.
+1. Select the **Enable** checkbox. Before doing this, ensure that users in your system are aware of the new login experience to ensure they do not lose access to the Workfront system.
+1. Click **Test Connection**.  
+   You should see a message telling you the connection is successful. 
 
-1. 单击&#x200B;**保存**。
+1. Click **Save**.
 
-## 使用其他身份提供程序
+## Using other identity providers
 
-使用非Okta身份提供程序（例如Ping或Centrify）时，必须将Workfront元数据重新上传到您的身份提供程序。
+When using identity providers other than Okta (such as Ping or Centrify), you must re-upload the Workfront metadata to your identity provider.-->

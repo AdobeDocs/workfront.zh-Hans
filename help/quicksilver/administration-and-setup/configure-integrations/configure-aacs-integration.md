@@ -6,9 +6,9 @@ description: 您可以在 [!DNL Experience Manager Assets]中将您的工作与�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '1708'
+source-wordcount: '1695'
 ht-degree: 0%
 
 ---
@@ -17,10 +17,12 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-
+<!--DELETE THIS SECTION MARCH 2026-->
+<!--
 >[!IMPORTANT]
 >
->此功能仅适用于已载入[!DNL Adobe Admin Console]的组织。
+>This functionality is available only to organizations that have been onboarded to the [!DNL Adobe Admin Console].
+-->
 
 您可以在&#x200B;[!DNL Experience Manager Assets]中将您的工作与您的内容连接起来：
 
@@ -51,13 +53,13 @@ ht-degree: 0%
   <tr>
    <td>[!DNL Adobe Workfront] 许可证
    </td>
-   <td><p>当前： [!UICONTROL 计划]</p>
-   <p>新文档： [!UICONTROL Standard]</p></td>
+   <td><p>当前： [！UICONTROL计划]</p>
+   <p>新文档： [！UICONTROL Standard]</p></td>
   </tr>
   <tr>
    <td>[!DNL Experience Manager] 许可证
    </td>
-   <td>[!UICONTROL 标准版]
+   <td>[！UICONTROL标准版]
    </td>
   </tr>
   <tr>
@@ -82,7 +84,7 @@ ht-degree: 0%
 
 开始之前，
 
-* 您必须在[!DNL Adobe Admin Console]中将[!DNL Workfront]和[!DNL Adobe Experience Manager Assets]与组织ID关联。 有关详细信息，请参阅[基于平台的管理差异([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
+* 您必须在[!DNL Workfront]中将[!DNL Adobe Experience Manager Assets]和[!DNL Adobe Admin Console]与组织ID关联。 有关详细信息，请参阅[基于平台的管理差异([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
 
 ## 设置集成信息
@@ -97,7 +99,7 @@ ht-degree: 0%
 
 1. 选择&#x200B;**[!UICONTROL 添加[!DNL Experience Manager]集成]**。
 1. 在&#x200B;**[!UICONTROL 名称]**&#x200B;字段中，输入您希望用户在Workfront和Experience Manager Assets中与此集成交互时看到的名称。
-1. 在&#x200B;**[!UICONTROL 导航URL]**&#x200B;字段中，系统会自动填充导航URL。 此只读URL用于从[!UICONTROL 主菜单]链接到组织的[!DNL Experience Manager]实例，以进行快速访问。
+1. 在&#x200B;**[!UICONTROL 导航URL]**&#x200B;字段中，系统会自动填充导航URL。 此只读URL用于从[!DNL Experience Manager]主菜单[!UICONTROL 链接到组织的]实例，以进行快速访问。
 1. 从&#x200B;**[!UICONTROL [!DNL Experience Manager]Assets存储库]**&#x200B;下拉菜单中选择一个存储库。 系统会自动填充与您的用户配置文件所分配到的组织ID关联的任何[!DNL Experience Manager]存储库。
    ![选择Experience Manager存储库](assets/setup-information.png)
 
@@ -113,7 +115,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->只能在一个方向上映射元数据：从[!DNL Workfront]到[!DNL Experience Manager]。 从[!DNL Experience Manager]链接到[!DNL Workfront]的文档的元数据无法传输到[!DNL Workfront]。
+>只能在一个方向上映射元数据：从[!DNL Workfront]到[!DNL Experience Manager]。 从[!DNL Workfront]链接到[!DNL Experience Manager]的文档的元数据无法传输到[!DNL Workfront]。
 
 ### 配置元数据字段
 
@@ -121,12 +123,12 @@ ht-degree: 0%
 
 要配置元数据字段，请执行以下操作：
 
-1. 在[!DNL Experience Manager Assets]中配置元数据架构，如[配置Adobe [!DNL Workfront] 和 [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)之间的资源元数据映射中所述。
+1. 在[!DNL Experience Manager Assets]中配置元数据架构，如[配置Adobe [!DNL Workfront] 和 [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)之间的资源元数据映射中所述。
 
 
 1. 在Workfront中配置自定义表单字段。 [!DNL Workfront]有许多您可以使用的内置自定义字段。 但是，您也可以创建自己的自定义字段，如[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)中所述。
 
-+++ **展开以查看有关支持的Workfront和Experience Manager Assets字段的更多信息**
++++ **展开以查看有关支持的Workfront和Experience Manager Assets字段的更多信息** 
 
 **Experience Manager Assets标记**
 
@@ -151,7 +153,7 @@ ht-degree: 0%
 
 在Experience Manager Assets中创建标记后，这些标记将显示在元数据部分的标记下拉列表下。 要将字段链接到标记，请在元数据映射区域的Experience Manager Assets字段下拉列表中选择`xcm:keywords`。
 
-有关Experience Manager Assets中的标记（包括如何创建和管理标记）的更多信息，请参阅[管理标记](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-64/administering/contentmanagement/tags)。
+有关Experience Manager Assets中的标记（包括如何创建和管理标记）的更多信息，请参阅[管理标记](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags)。
 
 **Experience Manager Assets自定义元数据架构字段**
 
@@ -274,7 +276,7 @@ Adobe Experience Manager集成中提供了以下工作流：
       >* 文件夹名称必须少于100个字符。
       >* 将从文件夹名称中删除以下字符：
       >
-      >   `/`，`:`，`[`，`]`，`|`，`*`
+      >   `/`、`:`、`[`、`]`、`|`、`*`
 
    1. 要将嵌套文件夹添加到文件夹树，请单击要在其中创建嵌套文件夹的文件夹旁边的三个点菜单，然后选择&#x200B;**添加文件夹**。 按照上一步骤中的说明填写字段。
    1. 要将文件夹链接到Workfront，请选择该文件夹，然后单击&#x200B;**制作链接文件夹**   图标![链接文件夹](assets/link-folder.png)。
@@ -300,7 +302,7 @@ Adobe Experience Manager集成中提供了以下工作流：
 
 ## 设置链接的文件夹（可选）
 
-您可以允许用户在[!DNL Workfront]项目中创建链接到[!DNL Experience Manager]的文件夹。 链接文件夹后，添加到该文件夹的任何资产都会自动显示在[!DNL Workfront]和[!DNL Experience Manager]中。 当资产首次添加到[!DNL Workfront]中的链接文件夹时，该资产的元数据将被推送到[!DNL Experience Manager Assets]。
+您可以允许用户在[!DNL Experience Manager]项目中创建链接到[!DNL Workfront]的文件夹。 链接文件夹后，添加到该文件夹的任何资产都会自动显示在[!DNL Workfront]和[!DNL Experience Manager]中。 当资产首次添加到[!DNL Workfront]中的链接文件夹时，该资产的元数据将被推送到[!DNL Experience Manager Assets]。
 
 在以下步骤中，您将指明创建链接文件夹的位置。 每个集成只能有一个位置用于所有链接的文件夹。
 

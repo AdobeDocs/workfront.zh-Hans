@@ -8,137 +8,141 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 1%
+source-wordcount: '93'
+ht-degree: 3%
 
 ---
 
 # 删除用户
 
->[!IMPORTANT]
->
->本页中介绍的过程仅适用于尚未载入Adobe Business Platform的组织。 如果您已登记到Adobe Business Platform，则必须删除Adobe Admin Console中的用户。
->
->有关因贵组织是否已登记到Adobe业务平台而不同的过程列表，请参阅[基于平台的管理差异(Adobe Workfront/Adobe业务平台)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
-
-当用户离开您的组织时，您可以从Adobe Workfront中删除该用户。
+<!--DELETE ME MARCH 2026-->
 
 >[!IMPORTANT]
 >
->从系统中删除用户也会删除与您可能希望保留的用户相关联的信息。 我们建议停用而不是删除用户。 有关详细信息，请参阅[停用或重新激活用户](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)。
+>此页面上描述的过程已被删除，因为它仅适用于尚未载入Adobe Admin Console的组织。
+>
+>现在，所有Workfront组织都已登记到Adobe Admin Console。
+>
+>  有关在Adobe Admin Console中删除用户的说明，请参阅[单独管理用户](https://helpx.adobe.com/cn/enterprise/using/manage-users-individually.html)一文中的“永久删除用户”部分，或联系您的Adobe Admin Console管理员。
+
+<!--When a user leaves your organization, you can remove that user from Adobe Workfront.
+
+>[!IMPORTANT]
+>
+>Deleting a user from the system also deletes information associated with the user that you might want to retain. We recommend deactivating users instead of deleting them. For more information, see [Deactivate or reactivate a user](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).-->
 <!--
 >* The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
 >Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].
 >
->  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/cn/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
 -->
 
-## 访问要求
+<!--## Access requirements
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ Expand to view access requirements for the functionality in this article.
 
-您必须具有以下权限才能执行本文中的步骤：
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-   <td>任何</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td><p>新增：标准</p><p>或</p><p>当前：计划</p></td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>New: Standard</p><p>Or</p><p>Current: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
-   <td> <p>您必须具备以下任一项：</p> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must have one of the following:</p> 
     <ul> 
-     <li> <p>系统管理员访问级别。 </li> 
-     <li> <p>访问级别中的<b>用户</b>设置配置为<b>编辑</b>访问，其中<b>创建</b>以及<b>微调设置</b> <img src="assets/gear-icon-in-access-levels.png">下至少启用<b>用户管理员</b>选项之一。 </p> <p>在这两个选项中，如果启用了<b>用户管理员（组用户）</b>，您必须是该用户所属组的组管理员。</p> </li> 
+     <li> <p>The System Administrator access level. </li> 
+     <li> <p><b>Users</b> setting in your access level configured to <b>Edit</b> access, with <b>Create</b> and at least one of the two <b>User Admin</b> options enabled under <b>Fine-tune your settings</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Of these two options, if <b>User Admin (Group Users)</b> is enabled, you must be a group administrator of a group where the user is a member.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## 删除与停用用户
+## Deleting vs. deactivating a user
 
-停用用户会导致发生以下情况：
+Deactivating a user causes the following things to happen:
 
-* 如果Workfront组件与您的Workfront Proof帐户关联，则删除用户对Workfront Proof和Workfront的许可证。 有关Workfront Proof的详细信息，请参阅[Workfront Proof：文章索引](../../../workfront-proof/workfront-proof.md)。
-* 不能再为用户分配工作。
-* 无法再将该用户添加到更新。
-* 无法再向团队或组中添加用户。
-* 无法再与用户共享对象。
-* 它们与以下对象的关联保持不变：
+* Removes the user's licenses to both Workfront and Workfront Proof if the Workfront Proof component is associated with your Workfront account. For more information about Workfront Proof, see [Workfront Proof: article index](../../../workfront-proof/workfront-proof.md).
+* The user can no longer be assigned work.
+* The user can no longer be added to updates.
+* The user can no longer be added to teams or groups.
+* Objects can no longer be shared with the user.
+* Their association with the following objects remains intact:
 
-   * 任务、问题、项目、项目组合
-   * 仪表板
-
-     >[!NOTE]
-     >
-     >如果您停用用户并且无法再查看与用户相关的报告或仪表板，则可能需要更新&#x200B;**使用**&#x200B;的访问权限运行此报告。\
-     >要了解更多信息，请参阅[&#128279;](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why)为什么无法访问已停用用户所拥有的报告？[报告常见问题解答](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)文章的部分。
-
-   * 文档
-   * 更新
-   * 小时
-
-* 如果用户已签出文档，则当您取消激活这些文档时，它们仍保持签出状态。 只有Workfront管理员才能重新签入这些帐户。 有关签出文档的更多信息，请参阅[签出文档](../../../documents/managing-documents/check-out-documents.md)。
-
-删除用户会导致发生以下情况：
-
-* 如果Workfront组件与您的Workfront Proof帐户关联，请删除用户对Workfront Proof和Workfront的许可证。 有关Workfront Proof的详细信息，请参阅[Workfront Proof：文章索引](../../../workfront-proof/workfront-proof.md)。
-* 不能再为用户分配工作。
-* 无法再将该用户添加到更新。
-* 无法再向团队或组中添加用户。
-* 无法再与用户共享对象。
-* 删除该用户与以下对象的关联：
-
-   * 任务、问题、项目、项目组合
-   * 仪表板
+   * Tasks, issues, projects, portfolios
+   * Dashboards
 
      >[!NOTE]
      >
-     >您还将失去对包含与已删除用户关联的功能板的自定义部分的访问权限。\
-     >若要了解更多信息，请参阅[&#128279;](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how)如何访问包含已删除用户所拥有报表的仪表板？[报告常见问题解答](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)文章的部分。
+     >If you deactivate a user and can no longer view the reports or dashboards associated with a user, you may need to update the **Run this report with the Access Rights of:** field.  
+     >To learn more, see the [Why can't I access a report owned by a deactivated user?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) section of the [Reports FAQs](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) article.
 
-   * 更新
-   * 小时
+   * Documents
+   * Updates
+   * Hours
+
+* If the user has checked-out documents, the documents remain checked out when you deactivate them. Only a Workfront administrator can check them back in. For more information about checking out documents, see [Check out documents](../../../documents/managing-documents/check-out-documents.md).
+
+Deleting a user causes the following things to happen:
+
+* Removes the user's licenses to both Workfront and Workfront Proof, if the Workfront Proof component is associated with your Workfront account. For more information about Workfront Proof, see [Workfront Proof: article index](../../../workfront-proof/workfront-proof.md).
+* The user can no longer be assigned work.
+* The user can no longer be added to updates.
+* The user can no longer be added to teams or groups.
+* Objects can no longer be shared with the user.
+* Deletes the association of that user with the following objects:
+
+   * Tasks, issues, projects, portfolio
+   * Dashboards
 
      >[!NOTE]
      >
-     >这些对象仍保留在Workfront中，但对象的所有者现在为空。
+     >You also lose access to custom sections that contained dashboards associated to the deleted user.  
+     >To learn more, see the [How do I access a dashboard that contains a report owned by a deleted user?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) section of the [Reports FAQs](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) article.
 
-* 如果用户在“全局导航栏”的“文档”区域下上载了任何文档，则也会删除这些文档。
-* 如果用户已签出他们拥有的文档，并且文档上载到主文档区域（从主菜单访问），则文档将随用户一起删除。 有关签出文档的更多信息，请参阅[签出文档](../../../documents/managing-documents/check-out-documents.md)。
+   * Updates
+   * Hours
 
-有关停用用户的详细信息，请参阅[停用或重新激活用户](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)。
+     >[!NOTE]
+     >
+     >These objects remain in Workfront but the owner of the object is now blank.
 
-您可以一次永久删除一个用户，也可以同时永久删除多个用户。 在删除单个用户时，您必须等待删除过程完成后再转到Workfront中的其他活动。 同时删除多个用户的过程将作为后台进程运行，因此您可以在删除用户后继续使用Workfront。
+* If the user uploaded any documents under the Documents area in the Global Navigation Bar, the documents are also deleted.
+* If the user has checked out documents that they own and the documents are uploaded in the main Documents area (accessed from the Main Menu), the documents are deleted with the user. For more information about checking out documents, see [Check out documents](../../../documents/managing-documents/check-out-documents.md).
 
-## 删除一个或多个用户
+For more information about deactivating users, see [Deactivate or reactivate a user](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+
+You can permanently delete users one at a time, or you can permanently delete multiple users simultaneously. When you delete individual users, you must wait for the deletion process to complete prior to moving on to other activities in Workfront. The process of deleting multiple users simultaneously runs as a background process, so you can continue using Workfront as the users are deleted.
+
+## Delete one or more users
 
 {{step-1-to-users}}
 
-1. 至少选择一个要删除的用户，单击“更多”菜单![更多图标](assets/more-icon.png)，然后单击&#x200B;**删除**。
-1. 在出现的框中，单击&#x200B;**删除**&#x200B;以确认删除。
+1. Select at least one user that you want to delete, click the More menu ![More icon](assets/more-icon.png), then click **Delete**.
+1. In the box that appears, click **Delete** to confirm the deletion.
 
-   删除用户的过程将作为后台进程运行，因此您可以在删除一个或多个用户后继续使用Workfront。
+   The process of deleting users runs as a background process, so you can continue using Workfront as the user or users are deleted.
 
-   根据要删除的用户数，此过程可能需要几分钟甚至几小时。
+   Depending on the number of users you are deleting, the process can take several minutes or even a few hours.
 
-   在Workfront中收到用户已被删除的确认后，您可以继续在系统中看到这些用户，直到在后台完成删除过程为止。
+   After receiving the confirmation in Workfront that the users were deleted, you might continue to see them in the system until the deletion process is complete in the background.
 
-   稍后，如果您发现一个或多个用户未被成功删除，请尝试一次删除一个。
+   At a later time, if you discover that one or more users were not successfully deleted, try to delete them one at a time.-->

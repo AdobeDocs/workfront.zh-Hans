@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: a8faf4aa1a0a1b60f61c0c981c3be1b0d9d033a4
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1236'
 ht-degree: 1%
 
 ---
@@ -21,16 +21,14 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->* **如果贵组织已登记到Adobe Admin Console，则必须通过Adobe Admin Console创建系统管理员。**
+>* **您必须通过Adobe Admin Console创建系统管理员。**
 >
 >   有关在Adobe Admin Console中创建系统管理员的说明，请参阅[在Adobe Admin Console中管理用户](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)。
 >
->   已载入Adobe Admin Console的组织中的组管理员可以使用此过程创建用户并提交用户以供管理员审批。
->
->   有关因贵组织是否已登记到Adobe Admin Console而不同的过程列表，请参阅[基于平台的管理差异(Adobe Workfront/Adobe业务平台)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
+>   组管理员可以使用此过程创建用户并提交用户以供管理员审批。
 >
 >* **如果您的组织使用单点登录(SSO)**，我们建议您在Adobe Admin Console中创建用户并将他们分配到Workfront。 可以在Workfront中创建这些用户，但根据贵组织的Admin Console的配置方式，将该信息传输到Adobe Admin Console时可能会出现问题。
->   在Adobe Admin Console中创建用户后，您可以在Workfront中配置用户信息，例如分配角色、组、团队和访问级别。
+>  >   在Adobe Admin Console中创建用户后，您可以在Workfront中配置用户信息，例如分配角色、组、团队和访问级别。
 >* **如果您的组织不使用单点登录(SSO)**，则可以直接在Workfront中添加非系统管理员用户。 您可以在Adobe Admin Console中添加用户，但通过在Workfront中添加用户，您可以在创建用户时设置其访问级别，这可以节省您的时间。
 
 
@@ -38,11 +36,7 @@ ht-degree: 1%
 您可以通过从头开始创建单个用户或复制现有用户，在Adobe Workfront中添加用户。
 
 有关如何同时导入多个用户的信息，请参阅[导入用户](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md)。
-
-<!--
-Replace this intro with something like the following when we switch to Admin Console:
-As an Adobe administrator, you can add users in Adobe Workfront by adding them to your Workfront product profile in the Adobe Admin Console. For instructions, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Manage users in the Adobe Admin Console</a>.
--->
+—>
 
 ## 访问要求
 
@@ -67,7 +61,7 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
    <td> <p>您必须具备以下任一项：</p> 
     <ul> 
      <li> <p>系统管理员访问级别。 </li> 
-     <li> <p>访问级别中的<b>用户</b>设置配置为<b>编辑</b>访问，其中<b>创建</b>以及<b>微调设置</b> <img src="assets/gear-icon-in-access-levels.png">下至少启用<b>用户管理员</b>选项之一。 </p> <p>在这两个选项中，如果启用了<b>用户管理员（组用户）</b>，您必须是该用户所属组的组管理员。</p> </li> 
+     <li> <p>访问级别中的<b>用户</b>设置配置为<b>编辑</b>访问，其中<b>创建</b>以及<b>微调设置</b> <b>下至少启用</b>用户管理员<img src="assets/gear-icon-in-access-levels.png">选项之一。 </p> <p>在这两个选项中，如果启用了<b>用户管理员（组用户）</b>，您必须是该用户所属组的组管理员。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -128,7 +122,7 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
    >
    >* 如果贵组织已登记到Admin Console，并通过Workfront添加用户，则无法发送电子邮件邀请。
    >
-   >对于现有Adobe用户，用户可能会收到也可能不会收到有关Workfront可用性的电子邮件。 这是由Adobe管理员控制的产品首选项。
+   >   对于现有Adobe用户，用户可能会收到也可能不会收到有关Workfront可用性的电子邮件。 这是由Adobe管理员控制的产品首选项。
 
 1. 单击&#x200B;**添加此人**。
 
@@ -138,15 +132,15 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
    >[!NOTE]
    >
-   >* 如果您是组管理员，正在将用户添加到已载入Adobe Admin Console的组织，则此步骤的选项为&#x200B;**提交用户以供管理员审批**&#x200B;和&#x200B;**提交以供审批并启动另一个**。 用户创建时处于停用和待审批状态。
+   >* 如果您是添加用户的组管理员，此步骤的选项为&#x200B;**提交用户以供管理员审批**&#x200B;和&#x200B;**提交以供审批并启动另一个**。 用户创建时处于停用和待审批状态。
    > 
    >* 如果用户未在几分钟内从“已停用”和“未决批准”状态中移出，并且屏幕刷新未删除“未决批准”标记，则可以手动批准用户。
    >
-   >1. 转到设置>用户。
-   >1. 在“用户”列表中选择一个或多个用户。
-   >1. 单击列表标题中的三个圆点菜单。
-   >1. 选择&#x200B;**批准**。
-   >1. 几分钟后，刷新页面。
+   >   1. 转到设置>用户。
+   >   1. 在“用户”列表中选择一个或多个用户。
+   >   1. 单击列表标题中的三个圆点菜单。
+   >   1. 选择&#x200B;**批准**。
+   >   1. 几分钟后，刷新页面。
 
 
 ## 复制用户以创建新用户

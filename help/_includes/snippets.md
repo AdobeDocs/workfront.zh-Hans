@@ -1,11 +1,11 @@
 ---
-source-git-commit: 4e7aa16333c7a24ee2ef67fb964be70ed45cd369
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '2648'
+source-wordcount: '2645'
 ht-degree: 1%
 
 ---
-# 代码片段
+# 片段
 
 <!-- Add snippets within the section that the snippet is used. Snippets that are used throughout the Workfront documentation set should be added to the "General" section. -->
 
@@ -92,9 +92,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->本页中介绍的过程仅适用于尚未载入Adobe Admin Console的组织。
+>此页面上描述的过程已被删除，因为它仅适用于尚未载入Adobe Admin Console的组织。
 >
->如果贵组织已登记到Adobe Admin Console，请参阅[基于平台的管理差异(Adobe Workfront/Adobe Business Platform)](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
+>现在，所有Workfront组织都已登记到Adobe Admin Console。
 
 ## 第1步 — 转至用户 {#step-1-to-users}
 

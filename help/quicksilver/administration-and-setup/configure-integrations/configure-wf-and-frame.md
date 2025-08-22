@@ -10,9 +10,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 7d909976-d3ff-4e60-9158-c3bffe498e6e
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 5a2df341a54d305807a1c9f175baf60b9007ffa2
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,11 @@ Workfront管理员通过在“设置”区域中配置默认Frame.io帐户，然
 
 ## 访问要求
 
+<!--DELETE THIS SECTION MARCH 2026-->
+<!--
 >[!IMPORTANT]
 >
->此功能仅适用于已载入[!DNL Adobe Admin Console]的组织。
+>This functionality is available only to organization that have been onboarded to the [!DNL Adobe Admin Console].-->
 
 +++ 展开以查看本文中各项功能的访问要求。
 
@@ -40,8 +42,8 @@ Workfront管理员通过在“设置”区域中配置默认Frame.io帐户，然
   <tr>
    <td>[!DNL Adobe Workfront] 许可证
    </td>
-   <td><p>当前： [!UICONTROL 计划]</p>
-   <p>新文档： [!UICONTROL Standard]</p></td>
+   <td><p>当前： [！UICONTROL计划]</p>
+   <p>新文档： [！UICONTROL Standard]</p></td>
   </tr>
   <tr>
    <td>访问级别配置
