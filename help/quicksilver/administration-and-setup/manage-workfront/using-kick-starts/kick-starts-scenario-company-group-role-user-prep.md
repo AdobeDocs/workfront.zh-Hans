@@ -307,4 +307,4 @@ ht-degree: 4%
 > 
 >如果用户在几分钟内没有变为“已停用”和“未决批准”状态，您可以将批量用户直接添加到Adobe Admin Console。
 >
->有关说明，请参阅[管理多个用户 | 在Adobe文档中批量CSV上传](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html)。
+>有关说明，请参阅[管理多个用户 | 在Adobe文档中批量CSV上传](https://helpx.adobe.com/cn/enterprise/using/bulk-upload-users.html)。
