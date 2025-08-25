@@ -4,10 +4,11 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: 多个浏览器选项卡会导致Workfront注销
 description: 当用户打开多个浏览器标签时，Workfront 可能会自动注销。
 feature: Get Started with Workfront
-source-git-commit: ef85b267b3417dddd0c9cc4a2b916b83dc416e14
+exl-id: 1cc8bf6c-0eda-41ef-8efd-bba3a5f33b08
+source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 7%
+ht-degree: 29%
 
 ---
 
@@ -34,6 +35,6 @@ This tab session has been halted due to inactivity. Refresh the tab to continue 
 
 解决方案取决于您是否在登录到Workfront的其他选项卡中处于活动状态。
 
-* 如果您打开了活动的Workfront选项卡，请重新加载已过期的选项卡。 它会返回到在过期之前打开的页面。
+* 如果您打开了活动的 Workfront 选项卡，请重新加载已过期的选项卡。它将会返回到您在过期之前打开的页面。
 
-* 如果尚未打开活动的Workfront选项卡，请重新登录Workfront。
+* 如果您没有打开活动的 Workfront 选项卡，请再次登录 Workfront。

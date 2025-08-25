@@ -5,7 +5,7 @@ description: AI Assistant概述
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: a4e403abadc0268b919ce8105989ef6c912f33a4
+source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
 workflow-type: tm+mt
 source-wordcount: '825'
 ht-degree: 1%
@@ -113,7 +113,7 @@ AI助手当前提供以下功能：
 * Workfront Planning记录
 
 
-## 访问AI助手
+## 访问 AI 助手
 
 1. 在任何Workfront页面顶部，单击AI助手图标![AI助手图标](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png)。
 1. 在屏幕右侧的面板中键入您的问题或提示。
