@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
-source-git-commit: d2dd148c8b7a08f4ea9a13e325a33f753eea2d7d
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '747'
 ht-degree: 2%
 
 ---
@@ -96,9 +96,17 @@ ht-degree: 2%
 
 用户必须处于活动状态，才能在分配或共享时出现在所有其他对象的预输入字段中。
 
-您必须通过[!UICONTROL Adobe Admin Console]取消激活用户。
+您可以从用户页面取消激活用户，或者在编辑用户时取消激活。
 
-有关在[!UICONTROL Adobe Admin Console]中停用用户的说明，请参阅[单独管理用户](https://helpx.adobe.com/cn/enterprise/using/manage-users-individually.html)一文中的“删除用户”一节，或联系您的[!UICONTROL Adobe Admin Console]管理员。
+有关停用用户的信息，请参阅[停用或重新激活用户](../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)。
+
+>[!IMPORTANT]
+>
+>如果您的组织已载入[!DNL Adobe Business Platform]，则必须通过[!UICONTROL Adobe Admin Console]取消激活用户。
+>
+>有关在[!UICONTROL Adobe Admin Console]中停用用户的说明，请参阅[单独管理用户](https://helpx.adobe.com/cn/enterprise/using/manage-users-individually.html)一文中的“删除用户”一节，或联系您的[!UICONTROL Adobe Admin Console]管理员。
+>
+>有关因贵组织是否已登记到[!DNL Adobe Business Platform]而不同的过程列表，请参阅[基于平台的管理差异(Adobe Workfront/Adobe业务平台)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
 ## 团队
 

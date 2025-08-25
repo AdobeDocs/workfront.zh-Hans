@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 5a2df341a54d305807a1c9f175baf60b9007ffa2
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: '1523'
 ht-degree: 3%
 
 ---
@@ -252,24 +252,19 @@ Business Rules仅适用于已购买Ultimate Workfront计划的客户。 有关�
 
 有关配置工作角色的更多信息，请参阅[创建和管理工作角色](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)。
 
-<!--DELETE THIS SECTION MARCH 2026-->
+### 登录尝试 {#login-attempt}
 
-<!--
-### Login Attempt {#login-attempt}
+当用户执行以下操作之一时，系统会生成“登录尝试”审核日志条目：
 
-The system generates a Login Attempt audit log entry when a user does one of the following actions:
+* 登录、注销或失败Workfront（在浏览器和移动设备应用程序中）的登录尝试
+* 在任何Workfront集成(例如，适用于Slack的Workfront)中登录、注销或登录尝试失败
+* 登录或注销Workfront API
 
-* Logs in, logs out, or fails a login attempt in Workfront (in a browser and in the mobile app)
-* Logs in, logs out, or fails a login attempt in any Workfront integration (such as Workfront for Slack)
-* Logs in or logs out of the Workfront API
-
-Login Attempt Logs do not record when a Workfront administrator uses the Log In As feature.
+Workfront管理员使用“登录身份”功能时，不会记录登录尝试日志。
 
 >[!NOTE]
 >
->This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.
-
--->
+>如果您的组织已载入Adobe Admin Console，则此项不可用。 如果需要更多信息，请咨询您的网络或IT管理员。
 
 ### 优先级 {#priority}
 
@@ -350,17 +345,21 @@ Login Attempt Logs do not record when a Workfront administrator uses the Log In 
 
 ### 用户 {#user}
 
-<!--DELETE THIS SECTION MARCH 2026-->
-<!--
-The system generates a User audit log entry when a user does one of the following actions:
+当用户执行以下操作之一时，系统会生成“用户”审核日志条目：
 
-* Creates a user
+* 创建用户
+
+  <!--
+  DRAFTED IN FLARE:
+  Gevorg checking with Jonah on whether this note should be here:
+  
+  -->
 
   >[!NOTE]
   >
-  >This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.
+  >如果您的组织已载入Adobe Admin Console，则此项不可用。 如果需要更多信息，请咨询您的网络或IT管理员。
 
-* Deletes a user
-* Changes a user's access level, company, team, or group
-* Activates a user
-* Deactivates a user-->
+* 删除用户
+* 更改用户的访问级别、公司、团队或组
+* 激活用户
+* 停用用户

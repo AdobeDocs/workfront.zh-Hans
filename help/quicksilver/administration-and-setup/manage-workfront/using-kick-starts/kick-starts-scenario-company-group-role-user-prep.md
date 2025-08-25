@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1217'
 ht-degree: 4%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -305,6 +305,6 @@ ht-degree: 4%
 >
 >导入到Workfront的用户创建时处于已停用和待审批状态。
 > 
->如果用户在几分钟内没有变为“已停用”和“未决批准”状态，您可以将批量用户直接添加到Adobe Admin Console。
+>如果贵组织已迁移到Adobe Admin Console，并且用户在几分钟内没有转变为“已停用”和“未决批准”状态，则您可以将该批用户直接添加到Adobe Admin Console。
 >
->有关说明，请参阅[管理多个用户 | 在Adobe文档中批量CSV上传](https://helpx.adobe.com/cn/enterprise/using/bulk-upload-users.html)。
+>有关说明，请参阅[管理多个用户 | 在Adobe文档中批量CSV上传](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html)。

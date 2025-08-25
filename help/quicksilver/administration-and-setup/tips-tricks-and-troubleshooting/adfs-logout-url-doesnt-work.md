@@ -9,9 +9,9 @@ author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4d868625-e976-47b4-9e80-f1eca84a2768
-source-git-commit: 5a2df341a54d305807a1c9f175baf60b9007ffa2
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -22,59 +22,54 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->此页面上描述的过程已被删除，因为它仅适用于尚未载入Adobe Admin Console的组织。
+>本页中介绍的过程仅适用于尚未加入[!UICONTROL Adobe Admin Console]的组织。
 >
->现在，所有Workfront组织都已登记到Adobe Admin Console。
+>如果您的组织已加入[!UICONTROL Adobe Admin Console]，请参阅[基于平台的管理差异([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
-<!--DELETE ME MARCH 2026-->
+## 问题
 
-<!--
+使用ADFS注销URL (https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0)时，您会收到一个消息页面，该页面显示以下错误：“访问站点时出现问题。 再次尝试浏览该网站。”
 
-## Problem
+如果问题仍然存在，请与此站点的管理员联系，并提供以下参考号以识别问题： **57092dfc-751a-4915-8e6a-b4c5d413f8c6**
 
-When using the ADFS logout URL (https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0), you receive a message page with the error: "There was a problem accessing the site. Try to browse to the site again."
+## 访问要求
 
-If the problem persists, contact the administrator of this site and provide the following reference number to identify the problem: **57092dfc-751a-4915-8e6a-b4c5d413f8c6**
++++ 展开以查看本文中各项功能的访问要求。
 
-## Access requirements
-
-+++ Expand to view access requirements for the functionality in this article.
-
-You must have the following access to perform the steps in this article:
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] license</td> 
+   <td role="rowheader">Adobe [!DNL Workfront]许可证</td> 
    <td> 
-   <p>New: Standard</p>
-   Or
-   <p>Current: Plan</p></td> 
+   <p>新增：标准</p>
+   或
+   <p>当前：计划</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td>[!UICONTROL System Administrator]</td>  
+   <td role="rowheader">访问级别配置</td> 
+   <td>[！UICONTROL系统管理员]</td>  
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
-## Solution
+## 解决方案
 
-1. In your ADFS manager server, go to **[!UICONTROL Trust Relationships]** > **[!UICONTROL Relying Party Trusts]** > `<your party trust>` properties.
+1. 在ADFS管理器服务器中，转到&#x200B;**[!UICONTROL 信任关系]** > **[!UICONTROL 信赖方信任]** > `<your party trust>`属性。
 
-1. Under the **[!UICONTROL Endpoints]** tab, click **[!UICONTROL Add]**.
+1. 在&#x200B;**[!UICONTROL 端点]**&#x200B;选项卡下，单击&#x200B;**[!UICONTROL 添加]**。
 
-1. **[!UICONTROL Endpoint Type]** = SAML Logout, Binding = POST, URL = https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0
+1. **[!UICONTROL 终结点类型]** = SAML注销，绑定= POST，URL = https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0
 
-   You can set a response URL if you want it to redirect to another page. But we recommend the ADFS site because it warns that you are logged off, but you should still close your browser.
--->
+   如果希望将响应URL重定向到其他页面，则可以设置此响应URL。 但我们建议使用ADFS站点，因为它会警告您已注销，但您仍应关闭浏览器。

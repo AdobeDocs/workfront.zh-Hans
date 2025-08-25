@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f9c543a-2ae2-4c2c-9c4d-647079263a7e
-source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '19'
-ht-degree: 26%
+source-wordcount: '816'
+ht-degree: 1%
 
 ---
 
@@ -21,132 +21,130 @@ ht-degree: 26%
 
 {{important-admin-console-onboard}}
 
-<!--REMOVE ME MARCH 2026-->
+在您的Adobe Workfront实例中启用单点登录(SSO)后，您的用户可以使用其SSO凭据登录Workfront。
 
-<!--When single sign-on (SSO) is enabled in your Adobe Workfront instance, your users can log into Workfront with their SSO credentials.
+如果您现有的系统中已填充了与SSO凭据关联的用户，则可以通过将逗号分隔值(CSV)文件导入Workfront，将用户的ID导入Workfront。
 
-If you have an existing system that is already populated with users associated with SSO credentials, you can import the users' IDs into Workfront by importing a comma-separated values (CSV) file into Workfront.
-
-For more information about integrating Workfront with an SSO system, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+有关将Workfront与SSO系统集成的更多信息，请参阅[Adobe Workfront中的单点登录概述](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)。
 
 
-## Access requirements
+## 访问要求
 
-+++ Expand to view access requirements for the functionality in this article.
++++ 展开以查看本文中各项功能的访问要求。
 
-You must have the following access to perform the steps in this article: 
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td><p>New: Standard</p><p>Or</p><p>Current: Plan</p></td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td><p>新增：标准</p><p>或</p><p>当前：计划</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p>  </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>您必须是Workfront管理员。</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
-## SSO usernames
+## SSO用户名
 
-Depending on what SSO solution you use, the username in your SSO environment can be called any of the following:
+根据您使用的SSO解决方案，可以将SSO环境中的用户名称为以下任意名称：
 
-* SSO Username
-* Federation ID 
-* Federation Username
+* SSO 用户名
+* 联邦标识
+* 联合用户名
 
-Regardless of what the username is called in your SSO environment, the value of the field is stored in the SSO Username field, on the User object.
+无论在SSO环境中调用了什么用户名，该字段的值都存储在User对象的SSO用户名字段中。
 
-In order for your users to be able to use their SSO credentials to log in to Workfront, you must update their profile to include their SSO Username, in addition to their Workfront username.
+为了使用户能够使用其SSO凭据登录Workfront，除了其Workfront用户名之外，您必须更新其配置文件以包含其SSO用户名。
 
-As a Workfront administrator, you can bulk update the SSO Username field for your Workfront users by importing a list of usernames into Workfront. This list must:
+作为Workfront管理员，您可以通过将用户名列表导入Workfront，批量更新Workfront用户的SSO用户名字段。 此列表必须：
 
-* Contain the Workfront User ID (GUID) as well as the corresponding SSO Username for each user
-* Be saved as a CSV or a TSV file. 
+* 包含Workfront用户ID (GUID)以及每个用户的相应SSO用户名
+* 另存为CSV或TSV文件。
 
-This process either updates existing SSO Usernames in Workfront, or adds a new SSO Username, if one is missing for users.
+此过程会更新Workfront中的现有SSO用户名，或者添加新的SSO用户名（如果用户缺少用户名）。
 
-## Prepare the import file {#prepare-the-import-file}
+## 准备导入文件 {#prepare-the-import-file}
 
-You can start preparing your import file by building a report of all users in Workfront that must have their SSO Username fields updated.
+您可以通过在Workfront中构建所有用户的报告来开始准备导入文件，这些用户必须更新其SSO用户名字段。
 
-1. Build a user report in Workfront.
+1. 在Workfront中构建用户报表。
 
-   For instructions on building user reports in Workfront, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). 
+   有关在Workfront中构建用户报表的说明，请参阅[创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
-1. Select the following fields in your report:
+1. 在报表中选择以下字段：
 
-   |Field|Explanation|
+   | 字段 | 解释 |
    |---|---|
-   | Name |The full name of the Workfront user. |
-   | ID |The ID is the Workfront alphanumeric GUID. |
-   | SSO Username |Adding the SSO Username field to ensures that are no usernames you are overwriting with your import. This field should be blank for all users, if your users have not yet been updated for SSO. |
+   | 名称 | Workfront用户的全名。 |
+   | ID | ID是Workfront的字母数字GUID。 |
+   | SSO 用户名 | 添加SSO用户名字段以确保导入不会覆盖任何用户名。 如果您的用户尚未针对SSO进行更新，则此字段对于所有用户都应为空。 |
 
-   ![Users with SSO username but no access](assets/users-with-sso-username-and-no-sso-access-only-field.png)
+   ![具有SSO用户名但没有访问权限的用户](assets/users-with-sso-username-and-no-sso-access-only-field.png)
 
-1. Save the report. 
-1. Click **Export** at the top of the report and export the report to Excel. 
-1. Open the exported Excel file, and add your SSO Usernames for each user in the report in the SSO Username column.
+1. 保存报表。
+1. 单击报告顶部的&#x200B;**导出**&#x200B;并将报告导出到Excel。
+1. 打开导出的Excel文件，并在“SSO用户名”列中为报告中的每个用户添加SSO用户名。
 
    >[!IMPORTANT]
    >
-   >SSO usernames are case-sensitive.
+   >SSO用户名区分大小写。
 
-1. Delete all columns in the Excel file, except  the **ID** and the **SSO Username** columns. 
+1. 删除Excel文件中的所有列（**ID**&#x200B;和&#x200B;**SSO用户名**&#x200B;列除外）。
 
-1. Delete the column headers and ensure there are no blank rows at the top of the report.
+1. 删除列标题并确保报表顶部没有空白行。
 
-   The file you are using for updating your Workfront users with the SSO usernames **must** contain just 2 columns, in this order:
+   用于更新SSO用户名为&#x200B;**的Workfront用户的文件必须**&#x200B;只包含2列，顺序如下：
 
-   * The first column must display the Workfront user ID (the user GUID as found in Workfront).
-   * The second column must contain the SSO Username, as it displays in your SSO system.
-   * The columns must have no headers, and there must not be any empty rows at the top of the list of names.
+   * 第一列必须显示Workfront用户ID(即在Workfront中找到的用户GUID)。
+   * 第二列必须包含SSO用户名，它显示在您的SSO系统中。
+   * 列不得有标题，名称列表顶部不得有任何空行。
 
-     ![Update users CSV](assets/update-users-for-sso-csv-file-for-import.png)
+     ![更新用户CSV](assets/update-users-for-sso-csv-file-for-import.png)
 
-1. Save the report as a CSV or TSV file on your computer.
+1. 将报表另存为CSV或TSV文件。
 
-## Update your users for SSO {#update-your-users-for-sso}
+## 更新用户以使用SSO {#update-your-users-for-sso}
 
-The process of updating users for SSO either adds the SSO Username field to your Workfront users if one is not present, or updates the value in that field if there is a value already associated with the users.
+更新SSO用户的过程要么将SSO用户名字段添加到您的Workfront用户（如果该字段不存在），要么更新该字段中的值（如果已存在与该用户关联的值）。
 
 {{step-1-to-setup}}
 
-1. Click **System**, then select **Update Users For SSO**.
+1. 单击&#x200B;**系统**，然后选择&#x200B;**更新SSO的用户**。
 
-1. Click **Choose File** to browse for the file you prepared.
+1. 单击&#x200B;**选择文件**&#x200B;浏览您准备的文件。
 
-   For more information about how to prepare this file, see [Prepare the import file](#prepare-the-import-file).
+   有关如何准备此文件的详细信息，请参阅[准备导入文件](#prepare-the-import-file)。
 
-1. Select the file from where it is saved on your computer, then click **Open**.
+1. 选择保存在计算机上的文件，然后单击&#x200B;**打开**。
 
-   This inserts the SSO credentials to Workfront, enabling all users to log in to Workfront using their SSO credentials.
+   这会将SSO凭据插入Workfront，使所有用户都可以使用其SSO凭据登录到Workfront。
 
-   The **Only Allow `<SSO Configuration>` Authentication** setting is enabled for all users included in the CSV. This ensures that users must log in through SSO.
+   已为CSV中包含的所有用户启用&#x200B;**仅允许`<SSO Configuration>`身份验证**&#x200B;设置。 这可确保用户必须通过SSO登录。
 
-## Verify SSO against your users' Workfront usernames
+## 根据用户的Workfront用户名验证SSO
 
-For instructions on building a user report containing SSO Username information, see [Prepare the import file](#prepare-the-import-file).
+有关生成包含SSO用户名信息的用户报告的说明，请参阅[准备导入文件](#prepare-the-import-file)。
 
-1. Run a user report containing SSO Username information.
+1. 运行包含SSO用户名信息的用户报告。
 
-   Notice that the SSO Username column is populated for each user.
+   请注意，系统会为每个用户填充SSO用户名列。
 
-1. Ensure that the values for the SSO Username column match the SSO Username on your SSO server.
-1. If the SSO Username column is blank, update your users' SSO Usernames.
+1. 确保“SSO用户名”列的值与SSO服务器上的SSO用户名匹配。
+1. 如果SSO用户名列为空，请更新用户的SSO用户名。
 
-   ![Users with SSO field](assets/users-with-sso-field-updated.png)
+   ![具有SSO字段的用户](assets/users-with-sso-field-updated.png)
 
-   For instructions on updating your users for SSO, see [Update your users for SSO](#update-your-users-for-sso).-->
+   有关更新SSO用户的说明，请参阅[更新SSO用户](#update-your-users-for-sso)。

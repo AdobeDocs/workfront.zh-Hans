@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9bc5987b-6e32-47df-90c8-08ea4b1b7451
-source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '25'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -19,161 +19,159 @@ ht-degree: 0%
 
 {{important-admin-console-onboard}}
 
-<!--REMOVE ME MARCH 2026-->
+作为Adobe Workfront管理员，您可以将Workfront与安全断言标记语言(SAML) 2.0解决方案集成，以便在使用Active Directory联合身份验证服务(ADFS)的同时实现单点登录。
 
-<!--As an Adobe Workfront administrator, you can integrate Workfront with a Security Assertion Markup Language (SAML) 2.0 solution for single sign-on while using Active Directory Federation Services (ADFS).
+本指南重点介绍如何在不使用自动配置或属性映射的情况下设置ADFS。 我们建议您在设置任何自动配置之前完成设置并测试它。
 
-This guide focuses on setting up ADFS without auto provisioning or attribute mappings. We recommend that you complete the setup and test it prior to setting up any auto provisioning.
+## 访问要求
 
-## Access requirements
++++ 展开以查看本文中各项功能的访问要求。
 
-+++ Expand to view access requirements for the functionality in this article.
-
-You must have the following access to perform the steps in this article: 
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td>规划</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>您必须是Workfront管理员。</p> <p><b>注意</b>：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-## Enable authentication to Workfront with SAML 2.0
+## 启用使用SAML 2.0对Workfront的身份验证
 
-To enable authentication to the Workfront web application and the Workfront mobile application with SAML 2.0, complete the following sections:
+要使用SAML 2.0启用对Workfront Web应用程序和Workfront移动应用程序的身份验证，请完成以下部分：
 
-* [Retrieve the Workfront SSO metadata file](#retrieve-the-workfront-sso-metadata-file) 
-* [Configure Relying Party Trusts](#configure-relying-party-trusts) 
-* [Configure Claim Rules](#configure-claim-rules) 
-* [Upload the metadata file and test the connection](#upload-the-metadata-file-and-test-the-connection)
+* [检索Workfront SSO元数据文件](#retrieve-the-workfront-sso-metadata-file)
+* [配置信赖方信任](#configure-relying-party-trusts)
+* [配置声明规则](#configure-claim-rules)
+* [上载元数据文件并测试连接](#upload-the-metadata-file-and-test-the-connection)
 
-### Retrieve the Workfront SSO metadata file {#retrieve-the-workfront-sso-metadata-file}
+### 检索Workfront SSO元数据文件 {#retrieve-the-workfront-sso-metadata-file}
 
 {{step-1-to-setup}}
 
-1. In the left panel, click **System** > **Single Sign-On (SSO)**.
-1. In the **Type** drop-down menu, click **SAML 2.0** to display additional information and options.  
-1. Copy the URL that displays after **Metadata URL**. 
-1. Continue to the following section, [Configure Relying Party Trusts](#configure-relying-party-trusts).
+1. 在左侧面板中，单击&#x200B;**系统** > **单点登录(SSO)**。
+1. 在&#x200B;**类型**&#x200B;下拉菜单中，单击&#x200B;**SAML 2.0**&#x200B;以显示其他信息和选项。
+1. 复制&#x200B;**元数据URL**&#x200B;之后显示的URL。
+1. 继续下一节，[配置信赖方信任](#configure-relying-party-trusts)。
 
-### Configure Relying Party Trusts {#configure-relying-party-trusts}
+### 配置信赖方信任 {#configure-relying-party-trusts}
 
-1. Open the **ADFS Manager** using the Windows server 2008 R2 (version may vary).
-1. Go to **Start.**
-1. Click **Administration Tools.**
-1. Click **ADFS 2.0 Management.**
-1. Select **ADFS** and expand **Trust Relationships**.
-1. Right-click **Relying Party Trusts**, then select **Add Relying Party Trust** to launch the Add Relying Party Trust Wizard.
-1. From the **Welcome Page**, select **Start**. 
-1. In the **Select Date Source** section, paste the metadata URL from Workfront.
-1. Click **Next**.
-1. Click **OK** to acknowledge the warning message.
-1. In the **Specify Display Name** section, add a **Display Name** and **Notes** to distinguish the Trust, then click **Next**.
-1. Select **Permit all user to access this relying party** (Or **None** if you want to configure this later).
-1. Click **Next**.
+1. 使用Windows Server 2008 R2打开&#x200B;**ADFS管理器**（版本可能有所不同）。
+1. 转到&#x200B;**开始。**
+1. 单击&#x200B;**管理工具。**
+1. 单击&#x200B;**ADFS 2.0管理。**
+1. 选择&#x200B;**ADFS**&#x200B;并展开&#x200B;**信任关系**。
+1. 右键单击&#x200B;**信赖方信任**，然后选择&#x200B;**添加信赖方信任**&#x200B;以启动添加信赖方信任向导。
+1. 从&#x200B;**欢迎页面**，选择&#x200B;**开始**。
+1. 在&#x200B;**选择日期Source**&#x200B;部分中，粘贴Workfront中的元数据URL。
+1. 单击&#x200B;**下一步**。
+1. 单击&#x200B;**确定**&#x200B;确认警告消息。
+1. 在&#x200B;**指定显示名称**&#x200B;部分中，添加&#x200B;**显示名称**&#x200B;和&#x200B;**注释**&#x200B;以区分信任，然后单击&#x200B;**下一步**。
+1. 选择&#x200B;**允许所有用户访问此信赖方**（或者，如果稍后要配置此内容，选择&#x200B;**无**）。
+1. 单击&#x200B;**下一步**。
 
-   This takes you to the **Ready to Add Trust** section.
+   这会将您转到&#x200B;**添加信任**&#x200B;准备就绪分区。
 
-1. Continue to the following section [Configure Claim Rules](#configure-claim-rules).
+1. 继续下面的部分[配置声明规则](#configure-claim-rules)。
 
-### Configure Claim Rules {#configure-claim-rules}
+### 配置声明规则 {#configure-claim-rules}
 
-1. Click **Next** in the **Ready to Add Trust** section, then ensure that the **Open the Edit Claim Rules dialog box** option is selected.
-    
-    This will allow you to edit Claim Rules in a future step.
-    
-1. Click **Close**.
-1. Click **Add Rule.**
-1. Select **Send LDAP Attribute as Claims**.    
-1. Click **Next** to display the **Configure Claim Rule** step.  
-1. Specify the following minimum requirements to configure the claim rule: (This will go in the **Federation ID** on the user setup and is used to distinguish who is logging in.)
-    
+1. 在&#x200B;**准备添加信任**&#x200B;部分中单击&#x200B;**下一步**，然后确保选中&#x200B;**打开“编辑声明规则”对话框**&#x200B;选项。
+
+   这将允许您在以后的步骤中编辑报销申请规则。
+
+1. 单击&#x200B;**关闭**。
+1. 单击&#x200B;**添加规则。**
+1. 选择&#x200B;**将LDAP属性作为声明发送**。
+1. 单击&#x200B;**下一步**&#x200B;以显示&#x200B;**配置声明规则**&#x200B;步骤。
+1. 指定配置声明规则的以下最低要求： （这将在用户设置中进入&#x200B;**Federation ID**，并用于区分登录者。）
+
 
    <table >                
       <tbody>
             <tr>
-               <td>Claim rule name
+               <td>声明规则名称
                </td>
-               <td>Specify a name for the claim rule. For example, "Workfront."</td>
+               <td>指定声明规则的名称。 例如，“Workfront”。</td>
             </tr>
             <tr>
-               <td>Attribute store</td>
-               <td >Select <b>Active Directory</b> from the drop-down menu.</td>
+               <td>属性存储</td>
+               <td >从下拉菜单中选择<b>Active Directory</b>。</td>
             </tr>
             <tr>
-               <td>LDAP Attribute</td>
-               <td>This can be any type of attribute. We recommend using <b>SAM-Account-Name</b> for this attribute.</td>
+               <td>LDAP属性</td>
+               <td>这可以是任何类型的属性。 我们建议对此属性使用<b>SAM-Account-Name</b>。</td>
             </tr>
             <tr>
-               <td>Outgoing Claim Type</td>
-               <td>You must select <b>Name ID</b> as the outgoing claim type</td>
+               <td>传出声明类型</td>
+               <td>必须选择<b>名称ID</b>作为传出声明类型</td>
             </tr>
       </tbody>
    </table>
 
-1. (Optional) In order to establish auto provisioning, add the following additional claims in both the LDAP Attribute and Outgoing Claim Type:
-    
-    * Given Name
-    * Surname
-    * E-Mail Address
+1. （可选）要建立自动预配，请在LDAP属性和传出声明类型中添加以下附加声明：
 
-1. Click **Finish**, then click **OK** on the next screen.
-1. Right-click the new **Relying Party Trust**, then select **Properties**.    
-1. Select the**Advanced Tab**. And under **Secure Hash Algorithm** select SHA-1 or SHA-256.
+   * 名字
+   * 姓氏
+   * 电子邮件地址
 
-   >[!NOTE]
-   >
-   >The option that you select under Secure Hash Algorithm must match the Secure Hash Algorithm field in Workfront under Setup > System > Single Sign-ON (SSO).
-
-1. Continue to the following section [Upload the metadata file and test the connection](#upload-the-metadata-file-and-test-the-connection).
-
-### Upload the metadata file and test the connection {#upload-the-metadata-file-and-test-the-connection}
-
-1. Open a browser and navigate to `https://<yourserver>/FederationMetadata/2007-06/FederationMetadata.xml` .
-
-   This should download a Metadata file FederationMetadata.xml file.
-
-1. Click **Choose File** under **Populate fields from Identity Provider Metadata**, and select the **FederationMetadata.xml** file.
-
-1. (Optional) If the certificate information did not populate with the metadata file, you can upload a file separately. Select **Choose File** in the **Certificate** section.
-
-1. Click **Test Connection**. If set up correctly, you should see a page similar to the one shown below:
-
-   ![SAML 2 success message](assets/success-saml-2.png)
+1. 单击“完成”****，然后在下一个屏幕上单击“确定”****。
+1. 右键单击新的&#x200B;**信赖方信任**，然后选择&#x200B;**属性**。
+1. 选择&#x200B;**高级选项卡**。 在&#x200B;**安全哈希算法**&#x200B;下，选择SHA-1或SHA-256。
 
    >[!NOTE]
    >
-   >If you want to set up attribute mapping, ensure that you copy the attributes from the Test Connection into the Directory Attribute. For more information, see Mapping User Attributes.
+   >您在安全哈希算法下选择的选项必须与Workfront中设置>系统>单点登录(SSO)下的安全哈希算法字段匹配。
 
-1. Select **Admin Exemption** to allow Workfront administrators to log in using Workfront credentials with the bypass url.
+1. 继续到以下部分[上载元数据文件并测试连接](#upload-the-metadata-file-and-test-the-connection)。
 
-   Bookmarks pointing to `<yourdomain>`.my.workfront.com/login bypass the redirect.
+### 上载元数据文件并测试连接 {#upload-the-metadata-file-and-test-the-connection}
 
-1. Select the **Enable** box to enable the configuration.
-1. Click **Save**.
+1. 打开浏览器并导航到`https://<yourserver>/FederationMetadata/2007-06/FederationMetadata.xml` 。
 
-## About updating users for SSO
+   这应该下载元数据文件FederationMetadata.xml文件。
 
-Following this guide, the **SSO Username** will be their **Active Directory Username**.
+1. 单击&#x200B;**填充身份提供程序元数据**&#x200B;中的字段&#x200B;**选择文件**，然后选择&#x200B;**FederationMetadata.xml**&#x200B;文件。
 
-As a Workfront administrator, you can bulk update users for SSO. For more information about updating users for SSO, see [Update users for single sign-on](../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md).
+1. （可选）如果证书信息未使用元数据文件填充，您可以单独上传文件。 在&#x200B;**证书**&#x200B;部分中选择&#x200B;**选择文件**。
 
-As a Workfront administrator, you can also manually assign a Federation ID editing the user's profile and completing the Federation ID field. For more information about editing a user, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+1. 单击&#x200B;**测试连接**。 如果设置正确，您应该会看到一个类似于以下所示的页面：
+
+   ![SAML 2成功消息](assets/success-saml-2.png)
+
+   >[!NOTE]
+   >
+   >如果要设置属性映射，请确保将属性从“测试连接”复制到“目录属性”。 有关详细信息，请参阅映射用户属性。
+
+1. 选择&#x200B;**管理劐免**&#x200B;可允许Workfront管理员使用带有旁路URL的Workfront凭据登录。
+
+   指向`<yourdomain>`.my.workfront.com/login的书签绕过重定向。
+
+1. 选择&#x200B;**启用**&#x200B;框以启用配置。
+1. 单击&#x200B;**保存**。
+
+## 关于更新SSO的用户
+
+按照本指南，**SSO用户名**&#x200B;将是他们的&#x200B;**Active Directory用户名**。
+
+作为Workfront管理员，您可以批量更新SSO的用户。 有关更新SSO用户的详细信息，请参阅[更新单点登录的用户](../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md)。
+
+作为Workfront管理员，您还可以手动分配一个Federation ID，以编辑用户的配置文件并填写Federation ID字段。 有关编辑用户的详细信息，请参阅[编辑用户的配置文件](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
 >[!NOTE]
 >
->When editing users' profiles to include a Federation ID, selecting **Only Allow SAML 2.0 Authentication** removes the ability to log in to Workfront using the bypass url (`<yourdomain>`.my.workfront.com/login).-->
+>编辑用户配置文件以包含联合ID时，选择&#x200B;**仅允许SAML 2.0身份验证**&#x200B;会删除使用旁路URL (`<yourdomain>`.my.workfront.com/login)登录Workfront的功能。

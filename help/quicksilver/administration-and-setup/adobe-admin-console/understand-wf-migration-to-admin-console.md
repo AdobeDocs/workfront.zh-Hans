@@ -9,22 +9,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 54d855e6-c387-458c-9cd3-f32318c8ae02
-source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1114'
 ht-degree: 0%
 
 ---
 
 # 了解Workfront迁移到Adobe Admin Console
-
-<!--DELETE ME MARCH 2026-->
-
->[!IMPORTANT]
->
->现在，所有Workfront组织都已登记到Adobe Admin Console。
->
->本文将在不久的将来删除。
 
 Adobe正在改变您管理Adobe Workfront用户的方式，从而提高您和贵组织的生产效率。 作为此更改的一部分，Adobe正在将您的Workfront实例和用户迁移到Adobe Admin Console。 这是必需的迁移，不会影响任何报表、批准路径、内容或资源。 它将影响您管理用户访问权限的方式以及您的用户登录的方式。
 
