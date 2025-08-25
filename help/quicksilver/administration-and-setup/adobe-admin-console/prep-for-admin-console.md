@@ -45,7 +45,7 @@ ht-degree: 0%
    >
    >请准备好与Workfront支持人员和您的IT团队就身份验证首选项(例如单点登录(SSO)或非SSO)进行交谈。
 
-   有关说明，请参阅[Adobe Admin Console部署指南](https://helpx.adobe.com/enterprise/using/deployment-planning.html)的Identity Management部分。
+   有关说明，请参阅[Adobe Admin Console部署指南](https://helpx.adobe.com/cn/enterprise/using/deployment-planning.html)的Identity Management部分。
 
 1. （视情况而定）如果使用单点登录，请将新的Adobe Admin Console连接到您现有的SSO提供商。
 
