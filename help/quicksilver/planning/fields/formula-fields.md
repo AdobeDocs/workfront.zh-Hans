@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '791'
 ht-degree: 6%
 
 ---
@@ -104,7 +104,7 @@ ht-degree: 6%
 * 通过从以下格式选项中进行选择，可以定义公式计算值的格式：
 
    * 文本
-   * 数字
+   * 数值
    * 百分比
    * 货币
    * 标记
@@ -115,7 +115,11 @@ ht-degree: 6%
 * 在以下情况下，公式字段可能显示为`#ERROR!`：
    * 删除公式中使用的字段时。
    * 当聚合查找字段中使用的字段显示为`#ERROR!`时。
-例如，如果您显示的查找字段包含汇总查找公式字段，并且其中一个引用的公式字段显示为`#ERROR!`。
+
+     例如，如果您显示的查找字段包含汇总查找公式字段，并且其中一个引用的公式字段显示为`#ERROR!`。
+   * 当公式值无法以所选格式显示时。
+
+     例如，如果我为公式字段的格式选择数字，并且公式中使用的字段是只显示非数字文本值的文本字段，则公式结果将显示为`#ERROR!`，因为它无法将文本解析为数字。
 
 ## 支持的公式
 

@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '426'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 审核日志列出过去90天内系统中触发的用户更改。
 
-有关所有审核日志类型以及生成这些类型的原因的信息，请参阅[审核日志](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)。
+有关所有审核日志类型以及生成这些类型的内容的信息，请参阅[审核日志概述](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)。
 
 ## 访问要求
 
@@ -74,7 +74,7 @@ ht-degree: 1%
 
    默认情况下选择&#x200B;**所有日志类型**。
 
-   有关可以查看的所有审核日志类型及其包含信息的列表，请参阅[审核日志](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)。
+   有关可以查看的所有审核日志类型及其包含信息的列表，请参阅[审核日志概述](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)。
 
 1. （可选）为以下字段设置任何可用过滤器：
 

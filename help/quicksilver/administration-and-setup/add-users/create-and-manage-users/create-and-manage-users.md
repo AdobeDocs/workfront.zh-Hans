@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 014cb6de-fb96-44df-a29c-b210afe9c55c
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 * [映射用户属性并自动配置新用户](../../../administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md)
 * [停用或重新激活用户](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)
 * [删除用户](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)
-* [审核日志](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
+* [审核日志概述](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
 * [查看和导出审核日志](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
 * [查看用户登录信息](../../../administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
 * [在Adobe Admin Console中管理用户](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)

@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 7ae5a04a-a9bc-4a85-8651-2b912f7fd7e4
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1526'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 * 更改项目偏好设置或者创建或删除自定义季度
 * 更改任务和问题偏好设置
 
-有关详细信息，请参阅[审核日志](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)。
+有关详细信息，请参阅[审核日志概述](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)。
 
 此功能现已包含在新Workfront Experience的[管理员基础知识部分，第2部分：项目设置](https://experienceleague.adobe.com/zh-hans/docs/workfront-learn/tutorials-workfront/home) Workfront One学习路径中。
 
@@ -137,7 +137,7 @@ ht-degree: 0%
 
 有关详细信息，请参阅[使用布局模板自定义筛选器、视图和分组](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)。
 
-此功能现已包含在Workfront One上的新Workfront Experience第3部分：控制和界面体验[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/workfront-learn/tutorials-workfront/home)学习路径的管理员基础知识中。
+此功能现已包含在Workfront One上的新Workfront Experience第3部分：控制和界面体验[学习路径的](https://experienceleague.adobe.com/zh-hans/docs/workfront-learn/tutorials-workfront/home)管理员基础知识中。
 
 ## 管理员的新增功能：轻松列出当前使用自定义字段的报告
 

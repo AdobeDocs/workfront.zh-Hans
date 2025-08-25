@@ -1,5 +1,5 @@
 ---
-title: 审核日志
+title: 审核日志概述
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
@@ -8,14 +8,14 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: aeb55124fa76192a5c39b504964fe9acc16c31d8
 workflow-type: tm+mt
-source-wordcount: '1523'
+source-wordcount: '1522'
 ht-degree: 3%
 
 ---
 
-# 审核日志
+# 审核日志概述
 
 <!--Audited: 01/2024-->
 
@@ -73,14 +73,14 @@ ht-degree: 3%
 * [自定义分区](#custom-section)
 * [汇率](#exchange-rate)
 * [组](#group)
-* [职位角色](#job-roles)
-* [登录尝试](#login-attempt)
+* [工作角色](#job-role)
 * [优先级](#priority)
 * [项目偏好设置](#project-preference)
 * [严重性](#severity)
 * [状态](#status)
 * [任务和问题首选项](#tasks-issues-preferences)
 * [用户](#user)
+<!--* [Login Attempt](#login-attempt) -->
 
 ### 访问级别 {#access-level}
 
@@ -236,7 +236,7 @@ Business Rules仅适用于已购买Ultimate Workfront计划的客户。 有关�
    * 添加或删除用户
    * 添加或删除子组
 
-### 职位角色 {#job-roles}
+### s {#job-role}
 
 当用户执行以下操作之一时，系统会生成“工作角色”审核日志条目：
 
