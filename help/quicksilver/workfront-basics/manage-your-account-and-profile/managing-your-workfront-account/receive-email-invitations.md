@@ -6,9 +6,9 @@ description: 当 [!DNL Workfront] 管理员创建新用户时，新用户可能�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: a13dbe33-f283-4732-a7f2-5a94a37855f0
-source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
+source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[!UICONTROL Request]或更高版本</p> </td> 
+   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -42,6 +42,7 @@ ht-degree: 0%
 
 当[!DNL Workfront]管理员创建新用户时，新用户可能会收到基于以下几个因素的邀请电子邮件：
 
+* 用户的组织是否已载入[!DNL Adobe Admin Console]
 * 用户是在[!DNL Workfront]中添加，还是在[!DNL Admin Console]中添加
 * 用户是否有权访问其他[!DNL Adobe]产品，或者是否为新[!DNL Adobe]用户
 * 管理员是否选择向用户发送电子邮件邀请（仅适用于尚未出现在[!DNL Admin Console]上的组织）

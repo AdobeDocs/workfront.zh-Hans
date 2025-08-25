@@ -6,9 +6,9 @@ description: 此页面上的信息介绍了从Workfront for Experience Cloud增�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: af14f408-df39-473c-9e18-bb88022c96ed
-source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
+source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
@@ -23,21 +23,12 @@ ht-degree: 0%
 
 ## 将Workfront实例移动到Admin Console
 
->[!IMPORTANT]
->
->由于所有Workfront组织都已迁移到Adobe Admin Console，因此此部分不久将会被删除。
+打算使用Workfront与Adobe Experience Manager Assets as a Cloud Service之间新的本机集成的客户，必须确保其Workfront环境与Adobe Admin Console绑定。 对于现有Workfront环境，这可能需要将该环境迁移到连接的Adobe Admin Console。 有关此迁移和相关清单的更多详细信息，请参阅[准备将您的组织加入Adobe Admin Console](/help/quicksilver/administration-and-setup/adobe-admin-console/prep-for-admin-console.md)。
 
-<!--DELETE THIS SECTION MARCH 2026-->
+Adobe必须帮助执行此迁移。 要请求帮助，请执行以下操作之一：
 
-<!--
-Customers that intend to use the new native integration between Workfront and Adobe Experience Manager Assets as a Cloud Service must ensure their Workfront environment is tied to an Adobe Admin Console. For existing Workfront environments, this will likely require a migration of the environment to a connected Adobe Admin Console. For more details regarding this migration and the associated checklist, see [Prepare to onboard your organization to the Adobe Admin Console](/help/quicksilver/administration-and-setup/adobe-admin-console/prep-for-admin-console.md). 
-
- Adobe must help carry out this migration. To request help, do one of the following:
-
-* If you have Workfront Hub access, submit your request to the [Workfront Migration to Adobe Admin Console](https://hub.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=629674d500054a38133cf26e01d06a97&path=).
-* If you do not have Workfront Hub access, you can submit your request to the [Workfront to Adobe Admin Console Early Migration Request Queue](https://workfront.az1.qualtrics.com/jfe/form/SV_9T5LuHf05JUOPAi).
-
--->
+* 如果您具有Workfront中心访问权限，请将您的请求提交到[Workfront迁移到Adobe Admin Console](https://hub.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=629674d500054a38133cf26e01d06a97&path=)。
+* 如果您没有Workfront中心访问权限，可以将请求提交到[Workfront到Adobe Admin Console提前迁移请求队列](https://workfront.az1.qualtrics.com/jfe/form/SV_9T5LuHf05JUOPAi)。
 
 ## 为Adobe Experience Manager assets as a Cloud Service集成配置新的Workfront
 
