@@ -6,9 +6,9 @@ description: 通过Adobe Experience Cloud访问 [!DNL Workfront] 可为您提供
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: bd34fe3404e590e74ecd666c039f78c0cc0d72e7
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '673'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开以查看本文中各项功能的访问要求。 
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -42,8 +42,8 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>新文档： [!UICONTROL Contributor]或更高版本</p> 
-   <p>当前： [!UICONTROL Request]或更高版本</p> </td> 
+   <td> <p>新文档： [！UICONTROL Contributor]或更高版本</p> 
+   <p>当前： [！UICONTROL Request]或更高版本</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,11 +52,13 @@ ht-degree: 0%
 
 +++
 
-## 先决条件
+<!--DELETE THIS SECTION MARCH 2026-->
 
-您组织的[!DNL Workfront]实例必须载入[!DNL Adobe Business Platform]或[!DNL Adobe Admin Console]。
+<!--## Prerequisites
 
-如果您对加入[!DNL Adobe Admin Console]有任何疑问，请参阅[[!DNL Adobe Unified Experience] 常见问题解答](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md/)。
+Your organization's instance of [!DNL Workfront] must be onboarded to the [!DNL Adobe Business Platform] or the [!DNL Adobe Admin Console].
+
+If you have questions about onboarding to the [!DNL Adobe Admin Console], see the [[!DNL Adobe Unified Experience] FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md/).-->
 
 ## Adobe Identity Management System (IMS)
 
@@ -66,7 +68,7 @@ ht-degree: 0%
 
 有关Adobe Admin Console中的用户管理的信息，请参阅文章[在Adobe Admin Console中管理用户](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)。
 
-## 登录到[!DNL Adobe Experience Cloud]
+## 登录 [!DNL Adobe Experience Cloud]
 
 1. 打开浏览器窗口并转到<https://experience.adobe.com>。
 1. 在&#x200B;[!UICONTROL **登录**]&#x200B;屏幕上，键入您的电子邮件地址，然后单击&#x200B;**[!UICONTROL 继续]**。

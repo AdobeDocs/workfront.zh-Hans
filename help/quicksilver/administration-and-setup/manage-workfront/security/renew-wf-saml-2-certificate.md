@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4b481215-36a1-4945-828a-1598502529d8
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,15 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->本页中介绍的过程仅适用于尚未加入该Admin Console的组织。 如果您的组织已载入到Adobe Admin Console，则无需执行任何操作。
+>此页面上描述的过程已被删除，因为它仅适用于尚未载入Adobe Admin Console的组织。 对于Adobe Admin Console上的组织而言，此过程不是必需的。
+>
+>由于所有Workfront组织现已载入Adobe Admin Console，因此本文将在不久的将来删除。
+
+<!--DELETE ME MARCH 2026-->
+
+>[!IMPORTANT]
+>
+>本页中介绍的过程仅适用于尚未载入Admin Console的组织。 如果您的组织已载入到Adobe Admin Console，则无需执行任何操作。
 >
 >有关因贵组织是否已登记到Adobe Admin Console而不同的过程列表，请参阅[基于平台的管理差异(Adobe Workfront/Adobe业务平台)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 

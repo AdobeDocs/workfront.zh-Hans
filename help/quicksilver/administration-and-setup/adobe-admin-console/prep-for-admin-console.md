@@ -5,14 +5,14 @@ content-type: reference
 product-area: system-administration;workfront-integrations
 navigation-topic: adobe-admin-console
 title: 准备将您的组织载入Adobe Admin Console
-description: 由于Adobe Workfront是一种Adobe产品，因此您可以通过Adobe Admin Console访问它。 这使您能够在一个中心位置为用户管理Workfront以及其他Adobe帐户和产品。
+description: 由于Adobe Workfront是一款Adobe产品，因此您可以通过Adobe Admin Console访问它。 这使您能够在一个中心位置为用户管理Workfront以及其他Adobe帐户和产品。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d9b5e4a1-069e-48be-80d0-84f4bf8aea8b
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '668'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,13 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
-由于Adobe Workfront是一种Adobe产品，因此您可以通过Adobe Admin Console访问它。 这使您能够在一个中心位置为用户管理Workfront以及其他Adobe帐户和产品。
+<!--DELETE ME MARCH 2026-->
+
+>[!IMPORTANT]
+>
+>由于所有组织现在都已迁移到Adobe Admin Console，因此本文不久将会被删除。
+
+由于Adobe Workfront是一款Adobe产品，因此您可以通过Adobe Admin Console访问它。 这使您能够在一个中心位置为用户管理Workfront以及其他Adobe帐户和产品。
 
 所有Workfront客户最终都将移至Adobe Admin Console。 贵组织迁移到Adobe Admin Console后，Workfront身份验证由控制台管理。 为这一转变做好准备并提早行动，为提高工作管理效率奠定基础，并使您的组织能够在未来更快创新
 
@@ -35,7 +41,7 @@ ht-degree: 0%
 
    * 如果您的组织没有现有的Adobe Admin Console，或者您不想使用现有的Adobe Admin Console，Workfront支持可以帮助您创建新的存储库。
 
-   * 如果您有多个AdobeAdmin Console，并且不确定哪个页面最适合将Workfront添加到，请联系Workfront支持部门。
+   * 如果您有多个Adobe Admin Console，并且不确定哪个控制台最适合将Workfront添加到，请联系Workfront支持。
 
 1. 通过Workfront支持确认您要使用现有Adobe Admin Console，或创建一个新帐户。
 
@@ -45,7 +51,7 @@ ht-degree: 0%
    >
    >请准备好与Workfront支持人员和您的IT团队就身份验证首选项(例如单点登录(SSO)或非SSO)进行交谈。
 
-   有关说明，请参阅[Adobe Admin Console部署指南](https://helpx.adobe.com/cn/enterprise/using/deployment-planning.html)的Identity Management部分。
+   有关说明，请参阅[Adobe Admin Console部署指南](https://helpx.adobe.com/enterprise/using/deployment-planning.html)的Identity Management部分。
 
 1. （视情况而定）如果使用单点登录，请将新的Adobe Admin Console连接到您现有的SSO提供商。
 
@@ -59,7 +65,7 @@ ht-degree: 0%
 
    1. 从Workfront中删除重复的电子邮件。
 
-      有关说明，请参阅[防止重复用户](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md)中的[更新Workfront实例中现有用户的电子邮件地址](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md#update-email-addresses-of-existing-users-in-your-workfront-instance)。
+      有关说明，请参阅[防止重复用户](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md#update-email-addresses-of-existing-users-in-your-workfront-instance)中的[更新Workfront实例中现有用户的电子邮件地址](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md)。
 
       如果您的组织中存在重复的电子邮件地址，则由电子邮件地址表示的最新`lastLoginDate`用户将被移动到Adobe Admin Console组织。 将停用使用该电子邮件地址的任何其他用户。
 
@@ -87,4 +93,4 @@ ht-degree: 0%
 
 有关详细信息，请参阅[在Adobe Admin Console中管理用户](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)。
 
-有关根据贵组织是否已登记到Adobe Admin Console而不同的其他操作的列表，请参阅[基于平台的管理差异(Adobe Workfront/Adobe业务平台)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
+有关根据您的组织是否已登记到Adobe Admin Console而有所不同的其他操作的列表，请参阅[基于平台的管理差异(Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。

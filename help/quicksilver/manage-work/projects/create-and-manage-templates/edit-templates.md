@@ -6,7 +6,7 @@ description: 您可以编辑项目模板以反映未来项目流程和设置的�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: f4ea19368b664d0b3a47f93c70fd489685791538
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
 source-wordcount: '5045'
 ht-degree: 2%
@@ -182,7 +182,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    </tr>
 
 <tr> 
-   <td role="rowheader"><strong>项目组合</strong></td> 
+   <td role="rowheader"><strong>组合</strong></td> 
    <td><p>为从此模板创建的项目指定Portfolio。 必须先创建Portfolio，然后它才会显示在下拉列表中。 </p><p>只有有效的项目组合会显示在列表中。 有关创建项目组合的详细信息，请参阅<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">创建项目组合</a>。</p></td> 
    </tr> 
    <tr> 
@@ -468,7 +468,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    | 工作投入级别 | 百分比值 |
    |---|---|
    | 小 | 25% |
-   | 中 | 50% |
+   | 媒介 | 50% |
    | 大 | 75% |
 
    有关使用工作投入管理项目任务的工作投入的信息，请参阅[工作投入概述](../../../manage-work/tasks/task-information/work-effort.md)。
@@ -488,7 +488,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    ![编辑模板框问题设置部分](assets/edit-template-box-issue-settings-section.png)
 
-1. （可选）取消选择&#x200B;**允许用户添加内联问题**&#x200B;选项。 默认情况下处于启用状态。
+1. （可选）取消选择&#x200B;**允许用户添加内联问题**&#x200B;选项。 默认情况下，它处于启用状态。
 
    禁用此选项时，当从模板创建项目时，用户无法将内联问题添加到项目或问题分区中的任务。
 
@@ -577,7 +577,6 @@ Linked folder functionality automatically creates folders in Adobe Experience Ma
 
 This section appears only if all of the following apply:
 
-* Your organization has been migrated to the Adobe Admin Console
 * Your organization has enabled and configured an integration with Adobe Experience Manager
 * The template has enabled and configured linked folders.
 
@@ -623,7 +622,7 @@ Editing templates in bulk differs depending on which environment you are using.
 
    * 概述
    * 财务
-   * 项目组合
+   * 组合
    * 设置
    * 访问
    * 自定义表单
