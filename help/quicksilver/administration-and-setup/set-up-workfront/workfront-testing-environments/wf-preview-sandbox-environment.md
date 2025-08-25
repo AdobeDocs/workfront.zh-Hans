@@ -39,8 +39,8 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th> <p> </p> </th> 
-   <th> <p><strong>[！UICONTROL Standard]支持包</strong> </p> </th> 
-   <th> <p><strong>[！UICONTROL Plus]、[！UICONTROL Preferred]和[！UICONTROL Enterprise]支持包</strong> </p> </th> 
+   <th> <p><strong>[!UICONTROL Standard]支持包</strong> </p> </th> 
+   <th> <p><strong>[!UICONTROL Plus]、[!UICONTROL Preferred]和[!UICONTROL Enterprise]支持包</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 

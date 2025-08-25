@@ -40,8 +40,8 @@ Workfront管理员通过在“设置”区域中配置默认Frame.io帐户，然
   <tr>
    <td>[!DNL Adobe Workfront] 许可证
    </td>
-   <td><p>当前： [！UICONTROL计划]</p>
-   <p>新文档： [！UICONTROL Standard]</p></td>
+   <td><p>当前： [!UICONTROL 计划]</p>
+   <p>新文档： [!UICONTROL Standard]</p></td>
   </tr>
   <tr>
    <td>访问级别配置
