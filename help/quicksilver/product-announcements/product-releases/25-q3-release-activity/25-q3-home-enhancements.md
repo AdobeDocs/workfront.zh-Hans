@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: a1295e5dfa3c608c5f1eca9cabb67bd402617db5
+source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,11 @@ ht-degree: 0%
 >* 生产快速发布： 2025年6月12日
 >* 适用于所有客户的生产： 2025年7月17日
 
-我们更新了主页中的我的审批构件，以默认按截止日期（降序）排序。 这允许最紧急的批准显示在列表顶部。
+我们更新了主页中的我的审批构件，以默认按截止日期（升序）排序。 这允许最紧急的批准显示在列表顶部。 审批顺序如下：
+
+* 超期截止日期
+* 近期截止日期
+* 无截止日期的项目
 
 目前，只有验证审批可以按我的审批小组件中的截止日期排序。
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
+source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '844'
 ht-degree: 1%
 
 ---
@@ -130,14 +130,12 @@ ht-degree: 1%
       <p> 您可以：</p>
       <ul>
       <li><p>通过选中列表中选项旁边的复选框，选择用户可用的筛选器、列或组并对它们进行排序。 对于用户，不会显示未勾选的选项。</p></li>
-      <li> <p>拖放列表中的选项以设置顺序。</p></li>
       <p>
 
    >[!IMPORTANT]
    >
    >* 筛选器、列和组选项链接到布局模板中的列表自定义选项。 此处所做的更改也将应用于这些设置。
    >* 用户必须至少具有视图的“创建”访问权限，管理员列配置才能正确应用于其主页。
-
    </p>
       <li><p>将鼠标悬停在某个选项上，然后单击<b>设置为默认值</b>，为构件设置默认筛选器或组。 当前默认值在其右侧显示蓝色<b>默认</b>徽章。</p></li>
       <li><p>单击每个列表底部的加号按钮，将现有的筛选器、列或组添加到可用选项列表中，以向该列表中添加选项。 请注意，只能通过这种方式添加现有筛选器、字段（用于列）或组。</p></li>
