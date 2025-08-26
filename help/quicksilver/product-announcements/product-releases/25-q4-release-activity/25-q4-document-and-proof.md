@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f4615994-8a56-482c-b033-62e719be152e
-source-git-commit: bcf9e3eb987bf4c33b994d68276cb04b817c484d
+source-git-commit: f4493666ce8053f98490b87a6cfd76d759393d8c
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,26 @@ ht-degree: 0%
 本页介绍了在预览环境2025年第四季度版本中进行的文档和验证增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2025年第四季度发布周期中此时可用的所有更改列表，请参阅[ 2025年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)。
+
+## 统一审批分阶段推出
+
+>[!NOTE]
+>
+>客户的生产版本：从2025年7月17日开始分阶段推出
+
+
+我们正在分阶段启用统一审批（以前称为“新文档审批”）。 在接下来的六个月中，此功能将自动在您的Workfront实例中启用。
+
+统一审批取代了旧文档审批，并直接在文档上提供以下功能：
+
+* 将整个Workfront团队指定为审阅者或批准者
+* 设置查看或审批的截止日期
+* 创建和重用审批模板
+* 利用新版本
+* 在Workfront主页构件中查看供您审批的多个关键绩效指标
+* 使用画布功能板查看有关统一审批的报告详细信息
+
+有关详细信息，请参阅[统一审批概述](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)。
 
 ## 新的Workfront AI审阅者
 
