@@ -6,10 +6,10 @@ description: 您可以在创建请求草稿时通过放弃请求草稿来将其�
 author: Alina
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 0%
+source-wordcount: '271'
+ht-degree: 1%
 
 ---
 
@@ -48,6 +48,10 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">访问级别配置</td> 
    <td> <p>编辑对问题的访问权限</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> 产品</td> 
+   <td> <ul><li>Adobe Workfront</li><li>您必须拥有Adobe Workfront Planning才能查看Planning请求或请求表单</td> 
   </tr> 
  </tbody> 
 </table>

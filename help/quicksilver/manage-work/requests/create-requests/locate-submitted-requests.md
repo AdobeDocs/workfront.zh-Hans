@@ -8,10 +8,10 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 7815fd0f84170cb92eef1bafa8aa90abe5365c04
+source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 1%
+source-wordcount: '978'
+ht-degree: 2%
 
 ---
 
@@ -65,6 +65,10 @@ ht-degree: 1%
   <tr>
    <td role="rowheader">对象权限</td> 
    <td><p>查看请求中的权限或更高版本</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> 产品</td> 
+   <td> <ul><li>Adobe Workfront</li><li>您必须拥有Adobe Workfront Planning才能查看Planning请求或请求表单</td> 
   </tr> 
  </tbody> 
 </table>
@@ -157,7 +161,7 @@ ht-degree: 1%
       <td>所有已提交的请求，无论状态或提交者如何。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">打开</td> 
+      <td role="rowheader">Open</td> 
       <td> <p>当前打开的所有已提交请求，无论这些请求的提交者是谁。 只有您至少拥有查看权限的请求才会显示在此处（如果您没有自己提交这些请求）。 </p> <p>不具有实际完成日期或其解析对象不具有实际完成日期的请求将列在打开子选项卡中。</p> <p><b>提示</b>
 
    处于任何不等于“已关闭”状态的请求均被视为未完成。</p> </td>

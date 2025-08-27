@@ -6,10 +6,10 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
 workflow-type: tm+mt
-source-wordcount: '1345'
-ht-degree: 1%
+source-wordcount: '1361'
+ht-degree: 2%
 
 ---
 
@@ -80,10 +80,14 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader">访问级别配置</td> 
    <td> <p>编辑对问题的访问权限</p>  </td> 
   </tr> 
+  <tr>
    <td role="rowheader">对象权限</td> 
    <td><p>将请求添加到请求队列的权限</p> <p>查看现有请求或更高权限</p> <p>有关设置请求队列的信息，请参阅<a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">创建请求队列</a>。 </p> </td> 
-  <tr>
   </tr>
+  <tr> 
+   <td role="rowheader"> 产品</td> 
+   <td> <ul><li>Adobe Workfront</li><li>您必须拥有Adobe Workfront Planning才能查看Planning请求或请求表单</td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -202,8 +206,8 @@ You must have the following access to perform the steps in this article:
        <ul> 
         <li>轻微</li> 
         <li>导致混淆</li> 
-        <li>有变通方案的问题</li> 
-        <li>没有变通方案的问题</li> 
+        <li>有变通方案的错误</li> 
+        <li>没有变通方案的错误</li> 
         <li>致命错误</li> 
        </ul> <p>您的Workfront管理员可以修改严重程度的名称。</p> </td> 
      </tr> 

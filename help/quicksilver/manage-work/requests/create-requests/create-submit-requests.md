@@ -6,9 +6,9 @@ description: 在Adobe Workfront中，计划工作由项目和任务表示。 但
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
+source-git-commit: b24b1e481bbe726aaf9810124fcf55bdac866cb0
 workflow-type: tm+mt
-source-wordcount: '2765'
+source-wordcount: '2841'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,17 @@ ht-degree: 1%
 
 <!--Audited: 12/2023-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: Linked to the UI - do not change/ remove; THIS IS NOW SPLIT IN THREE ARTICLES>> MAKE SURE THE TRANSITION TO THE OTHER TWO IS CLEAR SINCE THIS IS LINKED TO UI)</p>
+<p>(NOTE: If they come out with templates AND drafts, consider splitting this article to keep Create in one and Working with Drafts and Requests in another??)</p>
+<p>(NOTE: this article is linked from Submitting Workfront Requests from Salesforce) </p>
+</div>
+-->
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 在Adobe Workfront中，计划工作由项目和任务表示。 但是，您可能是在这样一种环境中工作：随时都可能以请求形式进行非计划工作。 Workfront通过使用请求队列提供了一个工作流来适应这种类型的环境。
 
@@ -50,6 +58,7 @@ ht-degree: 1%
  <col> 
  <col> 
  <tbody> 
+ <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何 </p> </td> 
@@ -64,6 +73,10 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">访问级别配置</td> 
    <td> <p>编辑对问题的访问权限</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> 产品</td> 
+   <td> <ul><li>Adobe Workfront</li><li>您必须拥有Adobe Workfront Planning才能查看Planning请求或请求表单</td> 
   </tr> 
  </tbody> 
 </table>
@@ -136,18 +149,20 @@ Workfront管理员必须创建请求队列的以下组件：
 
 1. （视情况而定）如果您切换到包含Workfront Planning的新体验，并且正在生产环境中，则&#x200B;**新请求**&#x200B;框会显示以下内容：</span>
 
-   * 最近访问的6个Workfront请求队列和Planning请求表单将显示在“最近”部分中。
-   * 另外50个Workfront请求队列和计划请求表单按字母顺序显示在&#x200B;**所有请求表单**&#x200B;部分中。 您可以搜索默认不显示的请求队列。
-
-   ![具有统一工作流程的新请求框，用于计划请求](assets/new-request-box-with-unified-workflow-for-planning-requests.png)
-
-   单击某个Workfront请求队列卡片，或搜索卡片，然后在列表中显示该卡片时单击它。
-1. （视情况而定）如果您切换到包含Workfront Planning的新体验，并且正在预览环境中，则&#x200B;**新请求**&#x200B;框会显示以下内容：
-
    <ul><li>最近访问的6个Workfront请求队列和Planning请求表单将显示在“最近”部分中。 </li>
     <li>所有其他Workfront和规划请求表单<b>所有请求表单</b>部分。 您可以搜索默认不显示的请求表单。 </li>
     <li>所有其他Workfront和Planning请求队列路径都显示在<b>所有请求路径</b>部分。 您可以搜索默认不显示的请求队列。</li></ul>
    单击某个Workfront请求队列路径或表单，或者搜索其中一个路径或表单，然后在列表中显示时单击它。
+1. <span class="preview">（视情况而定）如果您切换到包含Workfront Planning的新体验，请选择一个Workfront请求队列路径或表单，或者单击搜索栏。</span>
+
+   <span class="preview">单击搜索栏时，将出现一个下拉列表，首先显示最近使用的队列和表单。 从列表中选择一个，或开始键入并在队列或列表出现时将其选定。</span>
+
+   >[!NOTE]
+   >
+   ><span class="preview">有关当前在预览中可用的新请求体验，请考虑以下事项：</span>
+   >* <span class="preview">该列表包括Workfront请求队列和Workfront Planning请求表单。</span>
+   >* <span class="preview">您可以按对象类型筛选列表。</span>
+   >* <span class="preview">要仅显示Workfront请求队列，请筛选`Issue`对象类型。</span>
 
 1. （视情况而定）如果切换到包含Workfront Planning的新体验，请选择主题组和队列主题，然后继续更新表单。
 

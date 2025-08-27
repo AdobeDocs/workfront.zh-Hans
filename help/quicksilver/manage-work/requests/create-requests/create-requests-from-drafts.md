@@ -6,10 +6,10 @@ description: 除了使用Workfront在输入新请求时向您建议的可用草�
 author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 1%
+source-wordcount: '599'
+ht-degree: 2%
 
 ---
 
@@ -41,6 +41,10 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">访问级别配置</td> 
    <td> <p>编辑对问题的访问权限</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> 产品</td> 
+   <td> <ul><li>Adobe Workfront</li><li>您必须拥有Adobe Workfront Planning才能查看Planning请求或请求表单</td> 
   </tr> 
  </tbody> 
 </table>

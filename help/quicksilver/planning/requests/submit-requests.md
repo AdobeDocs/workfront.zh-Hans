@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: c3e3dfdb0a1819954c97168cbabddfc8dc5863a0
+source-git-commit: b24b1e481bbe726aaf9810124fcf55bdac866cb0
 workflow-type: tm+mt
-source-wordcount: '2005'
+source-wordcount: '2047'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,10 @@ ht-degree: 0%
 
 * 从Workfront的请求区域。
 * 从已共享请求表单的直接链接。
-
-  本文介绍了如何提交请求，以从Workfront的“请求”区域或共享链接向记录类型添加新记录。
 * 在记录类型页面中添加或请求新记录时。 有关信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
+
+本文介绍了如何提交请求，以从Workfront的“请求”区域或共享链接向记录类型添加新记录。
+
 
 Workfront用户和外部用户可以向Planning记录类型提交请求并创建记录。<!--double check on the external users-->
 
@@ -148,8 +149,8 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 
 {{step1-to-requests}}
 
-1. 启用屏幕右上角的&#x200B;**切换到新体验**&#x200B;设置。
-启用此设置可使Workfront计划请求表单在Workfront的&#x200B;**请求**&#x200B;区域中可用。
+1. 启用屏幕右上角的&#x200B;**切换到新体验**设置。
+启用此设置可使Workfront计划请求表单在Workfront的**请求**&#x200B;区域中可用。
 
    >[!TIP]
    >
@@ -160,7 +161,9 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
    >* 您有权查看至少一个工作区。
    >
 
-1. 单击&#x200B;**新请求**。
+<!--Production-->
+
+1. 在生产环境中，单击&#x200B;**新请求**。
 
    <!--![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png-->
 
@@ -169,12 +172,15 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
    * 最近访问的6个Workfront请求队列和Planning请求表单将显示在“最近”部分中。
    * 另外50个Workfront请求队列和计划请求表单按字母顺序显示在&#x200B;**所有请求表单**&#x200B;部分中。 您可以搜索默认不显示的请求队列。
 
-1. 执行下列操作之一：
+1. 在生产环境中，执行以下操作之一：
 
    * 在“最近”或“全部”请求表单部分中选择Planning请求表单
    * 在搜索框中开始键入Planning请求表单的名称，然后在列表中显示该卡时单击该卡。
 
    此时将打开请求表单。
+
+<!-- Put preview section here-->
+1. <span class="preview">在“预览”环境中，从“最近访问的请求表单”区域选择一个请求表单或队列，或者在列表中开始键入该表单或队列名称，然后在该表单出现时将其选定。
 
 1. 更新请求表单中可用的字段。 带有红色星号的字段为必填字段。
 1. 单击&#x200B;**提交**。
@@ -208,7 +214,7 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 
 1. （可选）在确认消息中单击&#x200B;**查看您的请求**&#x200B;以打开该请求，或单击&#x200B;**X**&#x200B;图标以关闭确认。
 
-1. （可选）单击&#x200B;**请求**&#x200B;区域中的&#x200B;**计划**&#x200B;选项卡以查看您的请求。
+1. （可选）单击&#x200B;**请求**&#x200B;区域中的&#x200B;**计划**选项卡以查看您的请求。
 提交至Planning请求表单的所有您有权查看的请求都会显示在列表中。
 1. （可选）执行以下任一操作：
 
@@ -225,7 +231,7 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
       * **状态**：请求的状态。
       * **输入者**：添加请求的用户的名称。 如果请求是由Workfront之外的人员添加的，则&#x200B;**输入者**&#x200B;字段显示`N/A`。
 
-        您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的筛选器。
+        您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**加入的筛选器。
 在添加筛选条件时，将自动筛选请求列表。
 
    * 单击&#x200B;**列**&#x200B;并隐藏、显示或重新排列请求列表中的列。
