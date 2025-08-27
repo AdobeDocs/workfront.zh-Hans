@@ -43,15 +43,15 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   <tr> 
    <td role="rowheader">Adobe [!DNL Workfront]许可证*</td> 
    <td> <p>新增：标准</p>
-   <p>当前： [！UICONTROL计划] </p> </td> 
+   <p>当前： [!UICONTROL 计划] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别</td> 
-   <td> <p>[！UICONTROL Edit]对项目组合的访问权限</p>  </td> 
+   <td> <p>[!UICONTROL Edit]对项目组合的访问权限</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>项目组合的[！UICONTROL Manage]权限</p>
+   <td> <p>项目组合的[!UICONTROL Manage]权限</p>
    <p> 管理项目组合中项目的权限，以将其在项目组合中添加或删除</p>  </td> 
   </tr> 
  </tbody> 
@@ -143,28 +143,28 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL **名称**]</td> 
+      <td role="rowheader">[!UICONTROL **名称**]</td> 
       <td> <p>更新项目组合的名称。 </p> <p><b>提示</b></p> 
-      <p>当您选择多个项目组合时，**Name**字段不可用。 </p> </td> 
+      <p>当您选择多个项目组合时，**Name**&#x200B;字段不可用。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL **描述**]</td> 
+      <td role="rowheader">[!UICONTROL **描述**]</td> 
       <td> <p>键入Portfolio的描述以指示其独特之处。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL **Portfolio Manager**]</td> 
-      <td> <p>开始键入要指定为项目组合经理的用户名称，然后当该用户出现在列表中时将其选定。 这与[！UICONTROL Portfolio Owner]相同。 他可以监督项目组合中定义的工作并批准业务案例。</p> <p>重要信息：指定某个人作为Portfolio管理员时，该人员会自动获得项目组合、项目和项目组合中的[！UICONTROL管理]权限。 </p> <p>提示：您可以在项目组合标题中快速更新项目组合管理器。 </p> </td> 
+      <td role="rowheader">[!UICONTROL **Portfolio Manager**]</td> 
+      <td> <p>开始键入要指定为项目组合经理的用户名称，然后当该用户出现在列表中时将其选定。 这与[!UICONTROL Portfolio Owner]相同。 他可以监督项目组合中定义的工作并批准业务案例。</p> <p>重要信息：指定某个人作为Portfolio管理员时，该人员会自动获得项目组合、项目和项目组合中的[!UICONTROL 管理]权限。 </p> <p>提示：您可以在项目组合标题中快速更新项目组合管理器。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL **组**]</td> 
-      <td> <p>添加单个组的名称（如果该组与项目组合相关联或负责完成它）。 </p> <p>提示：  <p>从[！UICONTROL Portfolio Details]页面访问[！UICONTROL Group]字段时，请执行以下操作： </p> <p>您可以通过将鼠标悬停在该组上并单击其旁边显示的[！UICONTROL信息]图标<img src="assets/info-icon.png">来确保选择正确的组。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> <p>此选项在[！UICONTROL编辑Portfolio]框中不可用。 </p> </p> </td> 
+      <td role="rowheader">[!UICONTROL **组**]</td> 
+      <td> <p>添加单个组的名称（如果该组与项目组合相关联或负责完成它）。 </p> <p>提示：  <p>从[!UICONTROL Portfolio Details]页面访问[!UICONTROL Group]字段时，请执行以下操作： </p> <p>您可以通过将鼠标悬停在该组上并单击其旁边显示的[!UICONTROL 信息]图标<img src="assets/info-icon.png">来确保选择正确的组。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> <p>此选项在[!UICONTROL 编辑Portfolio]框中不可用。 </p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p role="rowheader">[！UICONTROL **Alignment Scorecard**]</p> </td> 
+      <td role="rowheader"> <p role="rowheader">[!UICONTROL **Alignment Scorecard**]</p> </td> 
       <td> <p>从下拉列表中选择要使用的对齐计分卡。 记分卡用于衡量项目与Portfolio既定标准的符合程度，这些标准通常反映组织的使命、价值和战略目标。 有关详细信息，请参阅<a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">将记分卡应用于项目并生成一致性分数</a>和<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md" class="MCXref xref">创建记分卡</a>。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL **处于活动状态**]</td> 
+      <td role="rowheader">[!UICONTROL **处于活动状态**]</td> 
       <td> <p> 如果要使项目组合处于活动状态，请选中此复选框。 其他用户可以在创建或编辑项目时找到活动项目组合并将它们附加到项目。 无法将非活动项目组合附加到项目。 默认情况下启用此功能。</p> </td> 
      </tr> 
     </tbody> 
