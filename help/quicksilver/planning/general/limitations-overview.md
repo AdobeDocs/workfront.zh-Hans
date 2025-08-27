@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 7288c6fb0f5d45758e0a82b8d1283e1f43ae94e6
 workflow-type: tm+mt
 source-wordcount: '364'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -36,8 +36,8 @@ Adobe Workfront Planning对实例中可创建的对象数量存在限制。 设�
 | 一个工作区的记录数 | 25,000（计划为<br>的客户）500,000（计划为Planning Plus的客户） |
 | Workfront Planning的一个实例的总记录数 | 500,000（计划为<br>200万的客户）适用于计划为Planning Plus的客户 |
 | 一种记录类型或分类的字段数 | 500 |
-| 单行文本字段的字符数 | 1,000个字符 |
-| 段落字段的字符数 | 10,000个字符 |
+| 单行文本字段的字符数 | 1,000 个字符 |
+| 段落字段的字符数 | 10,000 个字符 |
 | 一种记录类型的段落字段数 | 20个段落字段 |
 | 可粘贴到记录类型表中的文件大小 | 1MB |
 | 可通过API为记录类型表导入的文件的大小 | 1.5兆字节 |
@@ -46,6 +46,11 @@ Adobe Workfront Planning对实例中可创建的对象数量存在限制。 设�
 | 可导入以创建记录类型的Excel文件的CSV大小 | 5MB |
 | 在CSV或Excel文件中可导入以创建记录类型的行数 | 25,000 |
 | 在CSV或Excel文件中可导入以创建记录类型的列数 | 500 |
+
+<!--
+| <span class="preview">Number of formula fields for one record type</span> | <span class="preview">20</span> |
+| <span class="preview">Number of characters in a formula field expression</span> | <span class="preview">50,000</span> |
+-->
 
 *我们建议不要拥有太多工作区，因为它们可能会变得难以管理，并且您的工作流可能过于分散。
 
