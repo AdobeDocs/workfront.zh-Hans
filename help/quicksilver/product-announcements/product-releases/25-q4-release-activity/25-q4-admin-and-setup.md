@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: 1b8a09028136d858fbf4de9f8b4b35165c6b6d25
+source-git-commit: a4aa7a6f8909dc3f7212f78391f28068d50a2786
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,22 @@ ht-degree: 0%
 
 有关2025年第四季度发布周期中此时可用的所有更改列表，请参阅[ 2025年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)。
 
+## 为您的组织启用AI Beta功能
+
+>[!NOTE]
+>
+>* 预览： 2025年8月28日
+>* 生产快速发布： 2025年9月11日
+>* 适用于所有客户的生产： 2025年10月16日
+
+为了更便于您查看和影响即将推出的AI功能，我们让您能够为组织启用这些功能的测试版。 现在，您可以选择从系统首选项中启用一个或多个当前可用的AI Beta功能。
+
+以前，系统管理员无法启用Beta功能。
+
+有关设置系统首选项的详细信息，请参阅[配置系统首选项](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
+
+有关启用AI功能的先决条件，请参阅[AI助手先决条件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
+
 ## Workfront用户个人资料的更新
 
 >[!NOTE]
@@ -27,7 +43,7 @@ ht-degree: 0%
 
 我们更新了Workfront用户配置文件的外观，使其采用与Workfront其他区域一致的现代化设计。 这些更新既适用于编辑单个配置文件的管理员，也适用于批量编辑多个配置文件的管理员，也适用于编辑自己配置文件的用户。
 
-与当前用户配置文件在功能上有些细微差异，包括：
+与当前用户配置文件存在一些小的功能差异，包括：
 
 * 某些复选框（例如将用户标记为活动）已更改为切换或按钮。
 * 首选项下的“将我分配给自己的工作发送到我的工作选项卡上”选项已被删除，因为它引用了一个已弃用的功能。
