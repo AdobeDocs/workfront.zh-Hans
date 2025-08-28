@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: f4493666ce8053f98490b87a6cfd76d759393d8c
+source-git-commit: a7f368f605851d01293715e67c165c36d4e2ec48
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1811'
 ht-degree: 2%
 
 ---
@@ -57,9 +57,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>快速发布</strong></td>
         <td><strong>每季度</strong></td>
     </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Workfront用户个人资料的更新</a><p></p>
+            <p>我们更新了Workfront用户配置文件的外观，使其采用与Workfront其他区域一致的现代化设计。 这些更新既适用于编辑单个配置文件的管理员，也适用于批量编辑多个配置文件的管理员，也适用于编辑自己配置文件的用户。</p>
+            <p>与当前用户配置文件在功能上有些细微差异，包括：</p>
+            <ul>
+                <li>某些复选框（例如将用户标记为活动）已更改为切换或按钮。</li>
+                <li>首选项下的“将我分配给自己的工作发送到我的工作选项卡上”选项已被删除，因为它引用了一个已弃用的功能。</li>
+            </ul>
+        </td>
+        <td>2025年8月28日</td>
+        <td>2025年9月4日</td>
+        <td>2025年9月4日</td>
+    </tr>  
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">将外部API中的多个值选项添加到自定义表单</a><p></p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">将外部API中的多个值选项添加到自定义表单</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
             <p>自定义表单设计器上现在提供了新的字段类型，即多选外部查找。 当数据存储在外部系统上时，此字段类型允许您从外部API加载选项，并根据自定义表单中的其他字段值筛选。 这与单选外部查找相同。</p>
             <p>将表单添加到对象时，从API返回的值将显示在下拉字段中，用户可以选择多个值。</p>
         </td>
@@ -84,7 +98,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">统一审批分阶段转出</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">统一审批分阶段转出</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
             <p>我们正在分阶段启用统一审批（以前称为“新文档审批”）。 在接下来的六个月中，此功能将自动在您的Workfront实例中启用。</p>
             <p>统一审批取代了旧文档审批，并提供了新的功能。 
 </p>
@@ -204,7 +218,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr> -->
   <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">新表达式已添加到Planning中的公式字段和Workfront中的已计算自定义字段中</a><p><p>[!BADGE Off Schedule]{type=Neutral}</p></p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">新表达式已添加到Planning中的公式字段和Workfront中的已计算自定义字段中</a><p><p>[！BADGE Off Schedule]{type=Neutral}</p></p>
             <p>我们向Workfront Planning中的公式字段和Workfront中的计算自定义字段添加了具有以下用法的新表达式：</p>
             <ul>
             <li>REMOVEACCENTS(string)：从输入字符串中所有重音字符中删除变音标记。</li>
@@ -266,30 +280,36 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 <table>
             <col style="width: 50%;" />
-            <col style="width: 50%;" />
+            <col style="width: 25%;" />
             <tbody>
-                <tr>
-                    <td>
-                        <p><span class="bold">功能</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">发行日期</span>
-                        </p>
-                    </td>
-                </tr>
+               <tr>
+        <td><strong>功能</strong>
+        </td>
+        <td><strong>预览</strong></td>
+        <td><strong>快速发布</strong></td>
+        <td><strong>每季度</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md" class="MCXref xref" xrefformat="{para}">增强列表更新</a><p></p>
+            <p>通过我们的高级列表布局，您可以使用过滤器和分组来显示您的工作并保持其更好地组织。 现在，小部件上方会显示一个蓝点指示器，用于告知您何时将过滤器或分组应用于以下区域的列表：</p>
+            <ul>
+                <li>设置中的汇率</li>
+                <li>我的请求小组件</li>
+                <li>优先次序</li>
+            </ul>
+        </td>
+        <td>2025年8月28日</td>
+        <td>2025年9月11日</td>
+        <td>2025年10月16日</td>
+    </tr>     
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">在2025年第四季度发布时间范围内的外观更新</a></p>
                         <p>在2025年第四季度发布时间范围内，对Adobe Workfront应用程序各个区域的外观和工作方式做出了小幅更新。 </p>
                     </td>
-                    <td><p><b>在以下日期可用：</b></p>
-                        <ul>
-                            <li>
-                                <p>预览版本：整个2025年第四季度发布时间范围<br /></p>
-                            </li>
-                            <li>
-                                <p>生产版本：发布到预览后至少2周（除非另有指定）</p>
+                    <td><p>整个2025年第四季度发布时间范围<br /></p>
+                    <td colspan="2"><p>快速发布：发布到“预览”后至少1周（除非另有指定）</p>
                             </li>
                         </ul>
                     </td>
@@ -360,7 +380,7 @@ Workfront Planning中的新增功能已在生产环境中可用。 有关最新�
 * 适用于Salesforce的Workfront。
 
 为了满足贵组织与Google Workspace的集成需求，我们建议使用Workfront自动化和集成。
-有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 ### API版本20
 
@@ -372,8 +392,8 @@ Workfront API版本20于2025年5月4日发布。 对于API版本20，我们修�
 
 ### Workfront 维护更新
 
-有关2025年第一季度版本中所做维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hans)。
+有关2025年第一季度版本中所做维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
 
 ### 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hans)的“新增功能”部分。
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的“新增功能”部分。

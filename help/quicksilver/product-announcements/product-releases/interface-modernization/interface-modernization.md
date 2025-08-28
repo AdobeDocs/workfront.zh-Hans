@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
+source-git-commit: ae5cc55bcd1d9db4484b5c5447a483456015f9fe
 workflow-type: tm+mt
-source-wordcount: '7094'
+source-wordcount: '7449'
 ht-degree: 0%
 
 ---
@@ -24,16 +24,26 @@ ht-degree: 0%
 
 ## 管理和设置
 
-<!--
-### Interface updates when editing a Scorecard
+### 组中布局模板列表的界面更新
 
-**Preview release: August 21, 2025; Production release: August 21, 2025**
+**预览版本： 2025年8月28日；生产版本： 2025年9月4日**
 
-We have updated the look and feel of the when editing a Scorecard to match the design in other areas of the application. You can view the updated design when editing a scorecard in the Setup area of Workfront.
+我们更新了组中左侧面板中布局模板列表的外观，以匹配应用程序的其他区域。
 
-A small functionality change has been applied to the Scorecard. To edit a Scorecard, select the Scorecard from the list and click the Edit icon. You are no longer directed to the Scorecard details page before you can edit.
+要查看这些更改，请转到“设置”>“组”>“选择组”>“布局模板”。
 
--->
+有关详细信息，请参阅[创建和修改组的布局模板](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)。
+
+
+### 编辑记分卡时界面更新
+
+**预览版本： 2025年8月28日；生产版本： 2025年8月28日**
+
+在编辑记分卡时，我们更新了的外观，以与应用程序其他区域中的设计相匹配。 在Workfront的“设置”区域中编辑记分卡时，您可以查看更新的设计。
+
+对记分卡进行了小幅功能更改。 要编辑记分卡，请从列表中选择记分卡，然后单击编辑图标。 在编辑之前，您不再被定向到记分卡详细信息页面。
+
+
 
 ### 界面更新了“设置”中的“审阅和批准通知”页面
 
@@ -120,7 +130,30 @@ A small functionality change has been applied to the Scorecard. To edit a Scorec
 
 要查看此更改，请转到“设置”>“系统”>“更新SSO的用户”
 
+## 项目组合
+
+### 用于编辑项目组合的界面更新
+
+**预览版本： 2025年8月28日；生产版本： 2025年9月4日**
+
+我们在“编辑Portfolio”框中编辑项目组合时引入了界面更新。 “编辑项目组合”和“编辑项目组合”框现在具有匹配Workfront其他区域的较新设计。
+
+>[!NOTE]
+>
+>在批量编辑项目组合时，删除了重新计算表达式设置。 在一个列表中选择多个项目组合并单击工具栏的“更多”菜单中的“重新计算表达式”选项时，您仍可以批量重新计算自定义表达式。
+
+
+有关信息，请参阅[编辑项目组合](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md)。
+
 ## 项目
+
+### “将任务转换为没有模板的项目”的界面更改
+
+**预览版本： 2025年8月28日；生产版本： 2025年9月4日**
+
+在将任务转换为没有模板的项目时，我们在“转换为项目”框中引入了界面更新。 该框现在与Workfront其他区域的设计相匹配。
+
+有关信息，请参阅[将任务转换为项目](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md)。
 
 ### 将对象添加到程序和项目组合时的界面更新
 
@@ -161,14 +194,14 @@ A small functionality change has been applied to the Scorecard. To edit a Scorec
 
 有关信息，请参阅[创建队列主题](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)。
 
-<!--### Interface update for the Edit Expense box of a project
+### 更新了项目的“编辑费用”框的界面
 
-**Preview release: August 21, 2025; Production release: August 28, 2025**
+**预览版本： 2025年8月28日；生产版本： 2025年9月4日**
 
-We have updated the dialog box for editing a project expense, to match other areas of the application. The updated dialog box is available when editing expenses in projects or templates.
+我们更新了用于编辑项目费用的对话框，以匹配应用程序的其他区域。 在项目或模板中编辑费用时，可以使用更新的对话框。
 
-For information, see [Manage project expenses](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
--->
+有关信息，请参阅[管理项目费用](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md)。
+
 
 ### 在小时部分更新记录项目、任务或问题的时间的界面
 

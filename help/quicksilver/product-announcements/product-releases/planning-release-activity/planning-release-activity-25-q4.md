@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
-source-git-commit: cbdc60db525dabb93e984dff7787a83edceb6c8c
+source-git-commit: f7dcae5e6bcc8674ef37ef94282c50dc9ffe951d
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '900'
 ht-degree: 0%
 
 ---
@@ -22,14 +22,46 @@ ht-degree: 0%
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
+## 公式字段的新限制
+
+>[!NOTE]
+>
+>* 预览： 2025年8月28日
+>* 生产快速发布： 2025年9月11日
+>* 适用于所有客户的生产： 2025年10月16日
+
+我们对公式字段进行了以下限制：
+
+* 每个记录类型最多有20个公式字段
+* 公式表达式限制为50,000个字符
+
+有关详细信息，请参阅[公式字段概述](/help/quicksilver/planning/fields/formula-fields.md)。
+
+## 无法解析公式值时显示错误
+
+>[!NOTE]
+>
+>* 预览： 2025年8月28日
+>* 生产快速发布： 2025年9月11日
+>* 适用于所有客户的生产： 2025年10月16日
+
+为了指示解析公式字段时出现问题，该字段现在将显示为“#ERROR！” 在以下任一情况中：
+
+* 删除公式中使用的字段时。
+
+* 当在聚合查找字段中使用的字段显示为#ERROR！
+
+* 当公式值无法以所选格式显示时。
+
+有关信息，请参阅[公式字段概述](/help/quicksilver/planning/fields/formula-fields.md)。
 
 ## 新表达式已添加到Planning中的公式字段
 
 >[!NOTE]
 >
 >预览： 2025年8月7日
->&#x200B;>所有客户的生产:August， 2025
->&#x200B;>[!BADGE 超出计划]{type=Neutral}
+>>所有客户的生产:August， 2025
+>>[!BADGE 超出计划]{type=Neutral}
 
 我们向Workfront Planning中的公式字段和Workfront中的计算自定义字段添加了具有以下用法的新表达式：
 
@@ -44,8 +76,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >预览： 2025年7月31日
->&#x200B;>适用于所有客户的生产： 2025年7月31日
->&#x200B;>[!BADGE 超出计划]{type=Neutral}
+>>适用于所有客户的生产： 2025年7月31日
+>>[!BADGE 超出计划]{type=Neutral}
 
 我们在记录表视图中创建或编辑公式字段时，添加了“最大化”按钮以放大该字段。 此外，我们在新的放大窗口中添加了“最小化”按钮，以还原到字段创建框。
 
@@ -94,8 +126,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >预览： 2025年7月24日
->&#x200B;>生产快速发布： 2025年8月14日
->&#x200B;>适用于所有客户的生产： 2025年10月16日
+>>生产快速发布： 2025年8月14日
+>>适用于所有客户的生产： 2025年10月16日
 
 现在，您可以在时间轴上的任意位置双击来在记录类型的时间轴视图中创建记录。
 
@@ -110,8 +142,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >预览： 2025年7月24日
->&#x200B;>生产快速发布： 2025年8月14日
->&#x200B;>适用于所有客户的生产： 2025年10月16日
+>>生产快速发布： 2025年8月14日
+>>适用于所有客户的生产： 2025年10月16日
 
 您现在可以从工作区页面上记录类型卡片的更多菜单共享记录类型。 在此增强功能之前，购股权仅在记录类型页面内可用。
 
@@ -122,8 +154,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >预览： 2025年7月24日
->&#x200B;>生产快速发布： 2025年8月14日
->&#x200B;>适用于所有客户的生产： 2025年10月16日
+>>生产快速发布： 2025年8月14日
+>>适用于所有客户的生产： 2025年10月16日
 
 您现在可以在全屏模式下显示所有Workfront Planning视图（表、时间轴和日历）。 视图功能将保留，您也可以在全屏模式下更改视图。
 
@@ -136,8 +168,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >预览： 2025年7月22日
->&#x200B;>快速发布生产： 2025年8月14日
->&#x200B;>适用于所有客户的生产： 2025年10月16日
+>>快速发布生产： 2025年8月14日
+>>适用于所有客户的生产： 2025年10月16日
 
 为了使审批流程更灵活，我们增加了在Planning请求表单上添加团队作为审批者的功能。 现在，您可以在设置批准者时输入和选择团队名称。 任何团队成员都可以做出决定，这被视为整个团队的批准决定。
 
@@ -150,8 +182,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >预览： 2025年7月17日
->&#x200B;>快速发布生产： 2025年8月14日
->&#x200B;>适用于所有客户的生产： 2025年10月16日
+>>快速发布生产： 2025年8月14日
+>>适用于所有客户的生产： 2025年10月16日
 
 我们引进了以下字段，用于捕获通过提交经批准的请求而创建的记录的批准信息：
 
@@ -165,8 +197,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >预览： 2025年7月10日
->&#x200B;>生产快速发布： 2025年8月14日
->&#x200B;>适用于所有客户的生产： 2025年10月16日
+>>生产快速发布： 2025年8月14日
+>>适用于所有客户的生产： 2025年10月16日
 
 
 现在，当您将分组应用于表视图时，向表中添加记录将自动填充与您将记录添加到的分组相关联的字段。
