@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 2be211a8-df84-49c3-827f-1215c77159e0
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 909236983b7eefa25ea7961a2f760d87cae23132
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -70,15 +70,15 @@ ht-degree: 0%
 
      或
 
-     要为基于现有模板的组创建新模板，请选择现有模板，然后单击“**复制**”。
+     要为基于现有模板的组创建新模板，请选择现有模板，然后单击&#x200B;**复制**&#x200B;图标![复制图标](assets/copy-icon.png)。
 
      有关创建布局模板的信息，请参阅[创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。
 
      有关复制布局模板以创建新布局模板的信息，请参阅[复制布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)。
 
-   * 要编辑现有的组布局模板，请选择该模板，然后单击&#x200B;**编辑**。
+   * 要编辑现有的组布局模板，请选择它，然后单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
 
      有关编辑布局模板的信息，请参阅[创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。
 
-   * 要删除一个或多个布局模板，请选择这些模板，然后单击&#x200B;**删除**。
-   * **导出**&#x200B;布局模板列表。
+   * 要删除一个或多个布局模板，请选择这些模板，然后单击&#x200B;**删除**&#x200B;图标![删除图标](assets/delete.png)。
+   * 要导出布局模板列表，请单击&#x200B;**导出**&#x200B;图标![导出图标](assets/export-icon.png)。
