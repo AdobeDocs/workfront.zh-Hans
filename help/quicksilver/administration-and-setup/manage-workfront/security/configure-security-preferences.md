@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: cb9a6536c4995080887032aa84539eff040338f8
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '832'
 ht-degree: 5%
 
 ---
@@ -22,6 +22,10 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 -->
 
 <!--Audited: 05/2024-->
+
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{important-admin-console-onboard}}
 
@@ -107,29 +111,37 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
         <li>日程表</li>
        </ul><p>此选项默认处于启用状态。</p> <p><b>重要信息</b>：如果禁用此选项，则外部用户访问级别在Workfront实例中不可用。 有关详细信息，请参阅<a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">内置访问级别</a>。</p> </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">要求外部用户使用密码注册</td> 
-      <td> <p>要求外部用户先注册，然后才能在Workfront中查看项目。 默认情况下，此选项处于禁用状态。 启用此选项后，对于没有Workfront帐户但通过电子邮件地址包括在某些更新中的用户，系统将提示他们先创建帐户，然后才能查看其所包含的项目。 这将为他们创建一个外部用户帐户。</p> <p>默认禁用此选项。</p> </td> 
+     <!--<tr> 
+      <td role="rowheader">Require external users to register with a password</td> 
+      <td> <p>Requires external users to register before they are able to view items in Workfront. By default, this option is disabled. When you enable this option, people without a Workfront account who are included in certain updates by their email address, will be prompted to create an account before they can view the item they are included on. This creates an External User account for them.</p> <p>This option is disabled by default.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">在以下时段后自动注销用户：</td> 
-      <td> 可让您指定用户在一段时间不活动后退出Workfront的时间。 默认情况下，用户在8小时不活动后被注销。 <p>此选项还会影响使用单点登录解决方案的Workfront客户。</p> <p>此设置不适用于已迁移到Adobe IMS的组织。</p></td> 
+      <td role="rowheader">Automatically log users out after</td> 
+      <td> Lets you specify when a user is logged out of Workfront, after a period of inactivity. By default, users are logged out after 8 hours of inactivity. <p>This option also affects Workfront customers who are using a single sign-on solution.</p> <p>This setting is not available to organizations that have been migrated to Adobe IMS.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">在以下时段后自动注销移动用户： </td> 
-      <td>可让您指定用户在一段时间不活动后何时注销Workfront应用程序。 默认情况下，用户会在处于非活动状态7天后注销。 <p>此选项还会影响使用单点登录解决方案的Workfront客户。</p> <p>此设置不适用于已迁移到Adobe IMS的组织。</p></td> 
-     </tr> 
+      <td role="rowheader">Automatically log mobile users out after </td> 
+      <td>Lets you specify when a user is logged out of the Workfront application, after a period of inactivity. By default, users are logged out after 7 days of inactivity. <p>This option also affects Workfront customers who are using a single sign-on solution.</p> <p>This setting is not available to organizations that have been migrated to Adobe IMS.</p></td> 
+     </tr> -->
      <tr> 
       <td role="rowheader">自定义帮助 URL</td> 
       <td>允许您定义主菜单帮助图标要转到的内部自定义帮助站点。 有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md">配置自定义帮助URL</a>。</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader">系统中的用户将默认看到新主页体验 </td> 
-      <td>可让您指定默认情况下用户是否会看到新主页体验。 启用后，用户将默认看到新主页体验，但仍可以选择根据个人情况启用或禁用新主页。 禁用后，用户将不会看到允许他们切换到新主页的横幅，但是，他们仍然可以通过在实例URL末尾手动输入<code>/home/workspaces</code>来导航到他们的新主页。 默认情况下，此设置处于启用状态。</td> 
-     </tr>
-     <tr> 
       <td role="rowheader">启用优先级工作列表 </td> 
       <td>允许您选择为用户启用或禁用“优先级”工作列表体验。 用户仍然可以在Workfront中看到优先级图标，但是他们无权访问该功能。 有关优先级的详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">开始使用优先级</a>。</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">启用 AI </td> 
+      <td>允许您选择启用AI，包括AI助手。 <p><b>注意</b>：您的组织必须满足特定要求才能启用AI。 有关AI的详细信息（包括要求），请参阅<a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">AI助手概述</a>。</p></td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">表单自动完成 </td> 
+      <td>允许您选择启用根据先前的请求数据自动完成请求表单的功能。 有关表单自动完成的更多信息，请参阅<a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">从以前的数据中自动填写请求</a>。</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">选择加入 AI Beta </td> 
+      <td>允许您选择启用Beta中的当前人工智能功能。 如果启用此选项，则可以选择要启用的AI Beta功能。 有关每个AI Beta功能的更多信息，请单击该功能旁边的信息图标。</td> 
      </tr>
      <tr> 
       <td role="rowheader">测试环境</td> 
