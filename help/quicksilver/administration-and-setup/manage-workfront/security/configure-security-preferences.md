@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: cb9a6536c4995080887032aa84539eff040338f8
+source-git-commit: 6b93a6d7830d644520c38aa6010cd7df18c5a667
 workflow-type: tm+mt
 source-wordcount: '832'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
@@ -132,16 +132,16 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
       <td>允许您选择为用户启用或禁用“优先级”工作列表体验。 用户仍然可以在Workfront中看到优先级图标，但是他们无权访问该功能。 有关优先级的详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">开始使用优先级</a>。</td> 
      </tr>
      <tr> 
-      <td role="rowheader">启用 AI </td> 
-      <td>允许您选择启用AI，包括AI助手。 <p><b>注意</b>：您的组织必须满足特定要求才能启用AI。 有关AI的详细信息（包括要求），请参阅<a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">AI助手概述</a>。</p></td> 
+      <td role="rowheader"><span class="preview">启用AI</span> </td> 
+      <td><span class="preview">允许您选择启用AI，包括AI助手。 <p><b>注意</b>：您的组织必须满足特定要求才能启用AI。 有关AI的详细信息（包括要求），请参阅<a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">AI助手概述</a>。</p></span></td> 
      </tr>
      <tr> 
-      <td role="rowheader">表单自动完成 </td> 
-      <td>允许您选择启用根据先前的请求数据自动完成请求表单的功能。 有关表单自动完成的更多信息，请参阅<a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">从以前的数据中自动填写请求</a>。</td> 
+      <td role="rowheader"><span class="preview">表单自动完成 </span></td> 
+      <td><span class="preview">允许您选择启用根据先前的请求数据自动完成请求表单的功能。 有关表单自动完成的更多信息，请参阅<a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">从以前的数据中自动填写请求</a>。</span></td> 
      </tr>
      <tr> 
-      <td role="rowheader">选择加入 AI Beta </td> 
-      <td>允许您选择启用Beta中的当前人工智能功能。 如果启用此选项，则可以选择要启用的AI Beta功能。 有关每个AI Beta功能的更多信息，请单击该功能旁边的信息图标。</td> 
+      <td role="rowheader"><span class="preview">选择加入 AI Beta </span></td> 
+      <td><span class="preview">允许您选择启用Beta中的当前人工智能功能。 如果启用此选项，则可以选择要启用的AI Beta功能。 有关每个AI Beta功能的更多信息，请单击该功能旁边的信息图标。</span></td> 
      </tr>
      <tr> 
       <td role="rowheader">测试环境</td> 
