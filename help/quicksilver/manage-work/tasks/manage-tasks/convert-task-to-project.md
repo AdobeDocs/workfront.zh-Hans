@@ -6,29 +6,28 @@ description: 当项目中的任务需要比您最初计划更大的工作量完�
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: 7288c6fb0f5d45758e0a82b8d1283e1f43ae94e6
+source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1244'
 ht-degree: 2%
 
 ---
 
 # 将任务转换为项目
 
-<!--
-<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
+此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 从预览版本发布的一周后，所有客户还可以在生产环境中使用相同的功能。
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+有关详细信息，请参阅[接口现代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
 
-</div>-->
+</div>
 
 当项目中的任务需要比您最初计划更大的工作量完成时，您可以将其转换为项目。
 
 ## 访问要求
 
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -53,7 +52,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 将任务转化为项目的注意事项
 
@@ -202,4 +203,4 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
      >
      >如果您将模板用于转化，并且附加到模板的自定义表单包含自定义字段（也可在附加到任务的自定义表单中找到），则任务的字段值将用于新项目。 但是，如果任务上的自定义字段为空，则使用来自模板的值。
 
-1. 单击&#x200B;**保存更改** <!--<span class="preview">or **Convert to Project**</span>-->。
+1. 单击&#x200B;**保存更改** <span class="preview">或&#x200B;**转换为项目**。</span>

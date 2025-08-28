@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 7288c6fb0f5d45758e0a82b8d1283e1f43ae94e6
+source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '441'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 2%
 
 # Adobe Workfront Planning对象限制概述
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，对于启用快速发布的客户，生产环境中也提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -46,11 +46,9 @@ Adobe Workfront Planning对实例中可创建的对象数量存在限制。 设�
 | 可导入以创建记录类型的Excel文件的CSV大小 | 5MB |
 | 在CSV或Excel文件中可导入以创建记录类型的行数 | 25,000 |
 | 在CSV或Excel文件中可导入以创建记录类型的列数 | 500 |
+| <span class="preview">一个记录类型的公式字段数</span> | <span class="preview">20</span> |
+| <span class="preview">公式字段表达式中的字符数</span> | <span class="preview">50,000</span> |
 
-<!--
-| <span class="preview">Number of formula fields for one record type</span> | <span class="preview">20</span> |
-| <span class="preview">Number of characters in a formula field expression</span> | <span class="preview">50,000</span> |
--->
 
 *我们建议不要拥有太多工作区，因为它们可能会变得难以管理，并且您的工作流可能过于分散。
 
