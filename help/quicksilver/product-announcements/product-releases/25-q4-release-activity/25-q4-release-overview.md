@@ -73,7 +73,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>  
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">将外部API中的多个值选项添加到自定义表单</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">将外部API中的多个值选项添加到自定义表单</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
             <p>自定义表单设计器上现在提供了新的字段类型，即多选外部查找。 当数据存储在外部系统上时，此字段类型允许您从外部API加载选项，并根据自定义表单中的其他字段值筛选。 这与单选外部查找相同。</p>
             <p>将表单添加到对象时，从API返回的值将显示在下拉字段中，用户可以选择多个值。</p>
         </td>
@@ -98,7 +98,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">统一审批分阶段转出</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">统一审批分阶段转出</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
             <p>我们正在分阶段启用统一审批（以前称为“新文档审批”）。 在接下来的六个月中，此功能将自动在您的Workfront实例中启用。</p>
             <p>统一审批取代了旧文档审批，并提供了新的功能。 
 </p>
@@ -218,7 +218,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr> -->
   <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">新表达式已添加到Planning中的公式字段和Workfront中的已计算自定义字段中</a><p><p>[！BADGE Off Schedule]{type=Neutral}</p></p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">新表达式已添加到Planning中的公式字段和Workfront中的已计算自定义字段中</a><p><p>[!BADGE Off Schedule]{type=Neutral}</p></p>
             <p>我们向Workfront Planning中的公式字段和Workfront中的计算自定义字段添加了具有以下用法的新表达式：</p>
             <ul>
             <li>REMOVEACCENTS(string)：从输入字符串中所有重音字符中删除变音标记。</li>
