@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 567fa8c960f7db47279d6cde1f5e90dc7f38ae79
+source-git-commit: b291525db0105081b5ff3dd65d9d2b3267a2f60c
 workflow-type: tm+mt
 source-wordcount: '2192'
 ht-degree: 0%
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 *有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-+++
++++   
 
 
 ## 有关编辑记录的注意事项
@@ -106,6 +106,10 @@ ht-degree: 0%
    * 记录视图中的记录预览
    * 记录的详细信息页面
    * 内联，在表格视图中。
+<!--* You can edit a record's dates from the following areas:
+    * All areas listed above
+    * <span class="preview">In a timeline view, by resizing the record bars or dragging and dropping the record in the timeline</span>
+        For information, see [Create records](/help/quicksilver/planning/records/create-records.md). -->
 
 * 当用户编辑视图中的记录时，更改会立即在所有视图中可见，并且记录页面对所有其他用户可见。
 

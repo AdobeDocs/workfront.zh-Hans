@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: b291525db0105081b5ff3dd65d9d2b3267a2f60c
 workflow-type: tm+mt
-source-wordcount: '2566'
+source-wordcount: '2618'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开以查看本文中各项功能的访问要求。 
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -163,11 +163,9 @@ ht-degree: 2%
      <tr> 
       <td role="rowheader">描述</td> 
       <td> <p>添加有关问题的其他信息。</p> </td> 
-     </tr> 
-     <tr> 
-      <td colspan="2" role="rowheader">基本信息部分</td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">状态</td> 
       <td> <p>选择问题的状态。 有关问题状态的详细信息，请参阅<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">访问系统问题状态的列表</a>。 </p> </td> 
      </tr> 
@@ -192,8 +190,24 @@ ht-degree: 2%
         <li> <p style="font-weight: bold;">没有变通方案的错误</p> </li> 
         <li> <p style="font-weight: bold;">致命错误</p> </li> 
        </ul> <p>根据您的Workfront管理员选择的项目偏好设置，严重性名称可能有所不同。 有关编辑严重程度的更多信息，请参阅<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md" class="MCXref xref">创建或自定义问题严重程度</a>。</p> </td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
+   <td role="rowheader">问题条件</td> 
+   <td> <p>问题的条件是在其上放置一个标记以指示进展情况。</p> 
+   <p>您可以自动或手动设置任务或问题的条件。</p>
+   <p>您必须被分配到问题才能更改其条件。</p>
+   <p>从以下选项中选择：</p> 
+      <ul> 
+   <li> <p style="font-weight: bold;">进展顺利</p> </li> 
+   <li> <p style="font-weight: bold;">一些问题</p> </li> 
+   <li> <p style="font-weight: bold;">主要障碍</p> </li> 
+   </ul> </td> 
+     </tr>
+
+
+
+   <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>键入与问题相关信息相关的Web链接。</p> </td> 
      </tr> 
