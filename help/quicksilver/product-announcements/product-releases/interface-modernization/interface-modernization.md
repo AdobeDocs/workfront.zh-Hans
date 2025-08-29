@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: ae5cc55bcd1d9db4484b5c5447a483456015f9fe
+source-git-commit: 31cc110fb4fba38a530406acc1f42a89159e029b
 workflow-type: tm+mt
-source-wordcount: '7449'
+source-wordcount: '7469'
 ht-degree: 0%
 
 ---
@@ -180,6 +180,10 @@ ht-degree: 0%
 
 **预览版本： 2025年8月21日；生产版本： 2025年8月28日**
 
+>[!NOTE]
+>
+>此功能已暂时从生产环境中删除。
+
 当您将新队列主题添加到项目或模板中时，我们更新了“新建队列主题”框的外观，以匹配Workfront其他区域的设计。
 
 有关信息，请参阅[创建队列主题](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)。
@@ -187,6 +191,10 @@ ht-degree: 0%
 ### 编辑项目或模板上的队列主题时界面更新
 
 **预览版本： 2025年8月21日；生产版本： 2025年8月28日**
+
+>[!NOTE]
+>
+>此功能已暂时从生产环境中删除。
 
 我们更新了编辑有关项目和模板的队列主题时的体验，以匹配Workfront的其他方面。
 

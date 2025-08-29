@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
+source-git-commit: c7c958b09caf7e15f128a729f6b327f6c3fa21e8
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,21 @@ ht-degree: 0%
 本页介绍了在2025年第四季度版本中对“预览”环境所做的请求增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2025年第四季度发布周期中此时可用的所有更改列表，请参阅[ 2025年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)。
+
+## 统一请求列表中新的组合状态列
+
+>[!NOTE]
+>
+>* 预览： 2025年8月28日
+>* 生产快速发布： 2025年9月11日
+>* 适用于所有客户的生产： 2025年10月16日
+
+为简化统一请求体验，状态列现在会同时显示请求状态和审批状态，两者均适用于给定请求。
+
+有关创建请求的更多信息，请参阅：
+
+* 对于Workfront： [创建并提交请求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
+* 对于Workfront Planning： [提交Adobe Workfront Planning请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)
 
 ## 更新了请求体验
 
