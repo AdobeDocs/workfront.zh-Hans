@@ -18,7 +18,7 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >画布功能板目前仅适用于参与Beta测试阶段的用户。 在此阶段，部分功能可能无法完成或无法按预期工作。 请按照“画布功能板测试版”概述文章中[提供反馈](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)部分的说明提交任何有关您体验的反馈。<br>
->>请注意，以下云提供商未提供此测试版：
+>&#x200B;>请注意，以下云提供商未提供此测试版：
 >
 >* 自带Amazon Web Services密钥
 >* Azure
@@ -79,7 +79,7 @@ ht-degree: 2%
 >[!WARNING]
 >
 > 删除仪表板后，无法恢复该仪表板及其所有自定义报告和/或可视化图表。<br>
-> > 如果删除包含经典报表的仪表板，则不会删除经典报表。
+> &#x200B;> 如果删除包含经典报表的仪表板，则不会删除经典报表。
 
 {{step1-to-dashboards}}
 
