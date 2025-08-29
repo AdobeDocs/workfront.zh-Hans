@@ -3,30 +3,35 @@ product-area: Canvas Dashboards
 navigation-topic: canvas-dashboards-beta
 title: Canvas功能板测试版信息
 description: 有关Canvas功能板测试版的一般信息
-author: Courtney
+author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: ba9256255905e139c281099555a6d129fc570984
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 0%
+source-wordcount: '467'
+ht-degree: 1%
 
 ---
 
 # Canvas功能板测试版信息
 
->[!NOTE]
+>[!IMPORTANT]
 >
->画布功能板当前处于封闭的测试阶段，因此可能会频繁更改。
+>画布功能板目前仅适用于参与Beta测试阶段的用户。 在此阶段，部分功能可能无法完成或无法按预期工作。 请按照以下[提供反馈](#provide-feedback)部分中的说明提交任何有关您体验的反馈。<br>
+>>请注意，以下云提供商未提供此测试版：
+>
+>* 自带Amazon Web Services密钥
+>* Azure
+>* Google Cloud Platform
 
-画布功能板是当前开发中的一个功能，它允许您通过将各种报表类型添加到可自定义的画布上来轻松可视化您的Adobe Workfront数据。
+画布功能板是当前开发中的一项功能，可让您通过将各种报表类型添加到画布来轻松可视化Adobe Workfront数据，该画布提供了许多灵活的布局选项，包括调整大小、拖放等。
 
-请注意，虽然我们感谢您参加测试版的测试阶段，但部分功能可能无法完成或无法按预期工作。 请按照下面[提供反馈](#provide-feedback)部分中的说明提交任何有关您体验的反馈。
+有关详细信息，请参阅[画布功能板概述](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)。
 
 ## 访问要求
 
-+++ 展开以查看访问要求。
++++ 展开以查看访问要求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -64,11 +69,11 @@ ht-degree: 0%
 
 1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**功能板**。
 
-1. 在页面的右上角，单击&#x200B;**加入画布功能板测试版**&#x200B;测试版按钮。
+1. 在页面的右上角，单击&#x200B;**加入画布功能板测试版**&#x200B;按钮。
 
    >[!NOTE]
    >
-   > **加入画布功能板Beta版**&#x200B;按钮仅在您的组织受邀参加已关闭的测试版时才可用。
+   > 仅当您的组织受邀参加测试版时，**加入画布功能板Beta版**&#x200B;按钮才可用。
 
 1. 查看&#x200B;**Beta协议**&#x200B;框中的条款，然后单击&#x200B;**同意**。 您现在已注册Beta版。 请注意，可能需要几分钟时间，您的Workfront数据才能在画布功能板中完全访问。
 
@@ -80,7 +85,22 @@ ht-degree: 0%
 
 1. 在左侧面板中，单击&#x200B;**画布功能板**。
 
-1. 单击页面右下角的&#x200B;**发送反馈**&#x200B;按钮，然后在显示的表单中输入您的反馈。
+1. 单击页眉中的&#x200B;**留下反馈**&#x200B;按钮。
+
+1. 在&#x200B;**画布功能板Beta反馈**&#x200B;页面上，输入&#x200B;**反馈主题**&#x200B;和&#x200B;**反馈描述**。
+
+1. （可选）在&#x200B;**其他详细信息**&#x200B;部分，在&#x200B;**报告活动**&#x200B;下拉列表中选择与您的feebdack相关的活动类型。
+
+1. （可选）在&#x200B;**报表对象类型**&#x200B;下拉列表中选择您要为其提供反馈的对象类型。
+
+1. （可选）如果有任何缺少的数据，请选中&#x200B;**缺少预期的数据**&#x200B;复选框，然后在显示的文本框中说明缺少哪些数据。
+
+1. （可选）如果您的反馈与文档请求相关，请选中&#x200B;**文档请求**&#x200B;复选框。
+
+1. （可选）在&#x200B;**关于您**&#x200B;部分中，指定以下字段的信息：
+   * **客户名称**
+   * **您的姓名**
+   * **报告角色**
 
 1. 单击&#x200B;**提交**。
 

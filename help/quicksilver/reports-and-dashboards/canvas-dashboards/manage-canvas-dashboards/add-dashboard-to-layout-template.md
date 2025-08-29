@@ -5,10 +5,11 @@ title: 将画布功能板添加到布局模板
 description: 您可以将画布功能板添加到布局模板，以便该功能板替换主页登陆页面、出现在对象的左侧面板中或固定到顶部栏中。
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: b5899500cad1ac32345d39f76eea7f643f1cd0ea
+exl-id: 91ebcec5-99a4-4096-8d4e-b4ea31755d75
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 1%
+source-wordcount: '547'
+ht-degree: 2%
 
 ---
 
@@ -16,11 +17,18 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->画布功能板目前仅适用于参与Beta测试阶段的用户。 有关详细信息，请参阅[画布功能板测试版信息](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)。
+>画布功能板目前仅适用于参与Beta测试阶段的用户。 在此阶段，部分功能可能无法完成或无法按预期工作。 请按照“画布功能板测试版”概述文章中[提供反馈](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)部分的说明提交任何有关您体验的反馈。<br>
+>>请注意，以下云提供商未提供此测试版：
+>
+>* 自带Amazon Web Services密钥
+>* Azure
+>* Google Cloud Platform
 
 您可以将画布功能板添加到布局模板，以便该功能板替换主页登陆页面、出现在对象的左侧面板中，或者固定到整个Adobe Workfront的顶部栏中。
 
 ![左侧面板](assets/left-panel.png)
+
+## 访问要求
 
 +++ 展开以查看访问要求。 
 

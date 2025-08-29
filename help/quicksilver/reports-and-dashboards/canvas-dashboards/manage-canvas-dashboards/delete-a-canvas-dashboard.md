@@ -5,10 +5,11 @@ title: 删除画布功能板
 description: 您可以排列报告在添加到画布仪表板中后在画布仪表板中的显示方式。
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+exl-id: 075df18c-08b8-467d-a0e4-60cd3abd5807
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 0%
+source-wordcount: '282'
+ht-degree: 2%
 
 ---
 
@@ -16,12 +17,19 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->画布功能板目前仅适用于参与Beta测试阶段的用户。 有关详细信息，请参阅[画布功能板测试版信息](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)。
+>画布功能板目前仅适用于参与Beta测试阶段的用户。 在此阶段，部分功能可能无法完成或无法按预期工作。 请按照“画布功能板测试版”概述文章中[提供反馈](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)部分的说明提交任何有关您体验的反馈。<br>
+>>请注意，以下云提供商未提供此测试版：
+>
+>* 自带Amazon Web Services密钥
+>* Azure
+>* Google Cloud Platform
+
 
 一旦您不再需要画布功能板，即可将其从Adobe Workfront中删除。
 
+## 访问要求
 
-+++ 展开以查看访问要求。
++++ 展开以查看访问要求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -70,7 +78,8 @@ ht-degree: 0%
 
 >[!WARNING]
 >
->删除功能板后，将无法恢复。
+> 删除仪表板后，无法恢复该仪表板及其所有自定义报告和/或可视化图表。<br>
+> > 如果删除包含经典报表的仪表板，则不会删除经典报表。
 
 {{step1-to-dashboards}}
 

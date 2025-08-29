@@ -5,10 +5,11 @@ title: 创建画布功能板
 description: 通过画布功能板，您可以创建报表并将其添加到可自定义的功能板，以快速可视化您的帐户数据。
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+exl-id: bd31e426-7c4a-4ff8-9432-c95dc8ee3743
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 0%
+source-wordcount: '398'
+ht-degree: 1%
 
 ---
 
@@ -16,11 +17,18 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->画布功能板目前仅适用于参与Beta测试阶段的用户。 有关详细信息，请参阅[画布功能板测试版信息](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)。
+>画布功能板目前仅适用于参与Beta测试阶段的用户。 在此阶段，部分功能可能无法完成或无法按预期工作。 请按照“画布功能板测试版”概述文章中[提供反馈](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)部分的说明提交任何有关您体验的反馈。<br>
+>>请注意，以下云提供商未提供此测试版：
+>
+>* 自带Amazon Web Services密钥
+>* Azure
+>* Google Cloud Platform
 
 通过画布功能板，您可以创建报表并将其添加到可自定义的功能板，以快速可视化您的帐户数据。
 
-+++ 展开以查看访问要求。
+## 访问要求
+
++++ 展开以查看访问要求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -52,6 +60,10 @@ ht-degree: 0%
 
 有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 +++
+
+## 先决条件
+
+必须在仪表板页面左侧导航项的布局模板配置中启用画布仪表板。
 
 ## 创建功能板
 

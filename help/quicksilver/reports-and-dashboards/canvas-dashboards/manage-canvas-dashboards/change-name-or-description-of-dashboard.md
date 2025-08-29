@@ -5,10 +5,11 @@ title: 更改画布功能板的名称或描述
 description: 您可以在画布功能板创建后编辑其名称或描述。
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+exl-id: e768de3d-ec07-40bd-a7d8-39252e6583c0
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 1%
+source-wordcount: '297'
+ht-degree: 2%
 
 ---
 
@@ -16,14 +17,21 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->画布功能板目前仅适用于参与Beta测试阶段的用户。 有关详细信息，请参阅[画布功能板测试版信息](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)。
+>画布功能板目前仅适用于参与Beta测试阶段的用户。 在此阶段，部分功能可能无法完成或无法按预期工作。 请按照“画布功能板测试版”概述文章中[提供反馈](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)部分的说明提交任何有关您体验的反馈。<br>
+>>请注意，以下云提供商未提供此测试版：
+>
+>* 自带Amazon Web Services密钥
+>* Azure
+>* Google Cloud Platform
+
 
 您可以在画布功能板创建后编辑其名称或描述。
 
 您对功能板所做的任何更改都将影响有权访问该功能板的所有用户。
 
+## 访问要求
 
-+++ 展开以查看访问要求。
++++ 展开以查看访问要求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -70,6 +78,10 @@ ht-degree: 1%
 
 ## 更改仪表板的名称和描述
 
+>[!NOTE]
+>
+>您已与共享画布功能板的用户将在“画布功能板清单”列表和“功能板详细信息”部分中看到其名称和描述。
+
 {{step1-to-dashboards}}
 
 1. 在左侧面板中，单击&#x200B;**画布功能板**。
@@ -83,4 +95,6 @@ ht-degree: 1%
 1. 输入新的&#x200B;**描述**。
 
 1. 单击&#x200B;**保存**。
+
+
 

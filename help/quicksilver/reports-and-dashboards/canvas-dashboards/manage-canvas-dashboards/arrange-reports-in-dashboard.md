@@ -5,10 +5,11 @@ title: 在画布功能板中排列报表
 description: 您可以排列报告在添加到画布仪表板中后在画布仪表板中的显示方式。
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+exl-id: 60f68ebd-6b98-476d-84b6-a6a2dce90d93
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 0%
+source-wordcount: '330'
+ht-degree: 1%
 
 ---
 
@@ -16,11 +17,19 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->画布功能板目前仅适用于参与Beta测试阶段的用户。 有关详细信息，请参阅[画布功能板测试版信息](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)。
+>画布功能板目前仅适用于参与Beta测试阶段的用户。 在此阶段，部分功能可能无法完成或无法按预期工作。 请按照“画布功能板测试版”概述文章中[提供反馈](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)部分的说明提交任何有关您体验的反馈。<br>
+>>请注意，以下云提供商未提供此测试版：
+>
+>* 自带Amazon Web Services密钥
+>* Azure
+>* Google Cloud Platform
 
-将报表添加到画布仪表板后，它们会在仪表板中显示为报表小组件，以便您可以快速可视化其数据概览。 添加多个报表后，建议重新排列每个小部件的大小和顺序，以便更有效地显示仪表板数据。
 
-+++ 展开以查看访问要求。
+将报表添加到画布仪表板后，它们会在仪表板中显示为报表小组件，以便您可以快速可视化其数据概览。 添加多个报表后，您可以设置每个小部件的大小以使其最符合仪表板中报表的内容，然后调整每个小部件的位置，以便更有效地显示数据。
+
+## 访问要求
+
++++ 展开以查看访问要求。 
 
 <table style="table-layout:auto"> 
 <col> 

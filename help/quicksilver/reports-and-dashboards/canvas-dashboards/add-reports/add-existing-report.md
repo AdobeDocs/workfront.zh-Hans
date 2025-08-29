@@ -6,10 +6,10 @@ description: 通过Adobe Workfront报表工具创建的报表可以添加到画�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 0%
+source-wordcount: '349'
+ht-degree: 1%
 
 ---
 
@@ -17,11 +17,18 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->画布功能板目前仅适用于参与Beta测试阶段的用户。 有关详细信息，请参阅[画布功能板测试版信息](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)。
+>画布功能板目前仅适用于参与Beta测试阶段的用户。 在此阶段，部分功能可能无法完成或无法按预期工作。 请按照“画布功能板测试版”概述文章中[提供反馈](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)部分的说明提交任何有关您体验的反馈。<br>
+>>请注意，以下云提供商未提供此测试版：
+>
+>* 自带Amazon Web Services密钥
+>* Azure
+>* Google Cloud Platform
 
 通过Adobe Workfront报表工具创建的报表可以添加到画布功能板。 有关创建报告的详细信息，请参阅[开始使用报告](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)。
 
-+++ 展开以查看访问要求。
+## 访问要求
+
++++ 展开以查看访问要求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -56,6 +63,7 @@ ht-degree: 0%
 
 ## 将现有报表添加到画布功能板
 
+
 {{step1-to-dashboards}}
 
 1. 在左侧面板中，单击&#x200B;**画布功能板**。
@@ -76,9 +84,15 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     > 此时，在Beta测试阶段，**所有审批**&#x200B;主页构件是唯一可用的构件。 随着Beta测试阶段的进行，此列表将会扩展。
+     > 此时，在测试阶段，**文档审批量度**&#x200B;主页构件是唯一可用的构件。 随着Beta测试阶段的进行，此列表将会扩展。
 
 1. （可选）要在将报告添加到仪表板之前查看报告的详细信息，请单击与所需报告一行显示的&#x200B;**查看**。
 
 1. 单击&#x200B;**添加**&#x200B;以与要添加的报告一致。
+
+   >[!NOTE]
+   >
+   > 如果要在创建功能板后添加其他现有报表，请单击功能板详细信息页面右上角的&#x200B;**添加报表**&#x200B;按钮，然后重复步骤6-9。
+
+
 

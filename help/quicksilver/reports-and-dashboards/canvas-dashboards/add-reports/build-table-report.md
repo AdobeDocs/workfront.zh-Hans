@@ -6,9 +6,9 @@ description: 您可以将表格报表添加到画布功能板，以便以表格�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: 72344e5c1607ba6b4dd2a1e71a462bba93369b27
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '1045'
 ht-degree: 1%
 
 ---
@@ -17,11 +17,18 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->画布功能板目前仅适用于参与Beta测试阶段的用户。 有关详细信息，请参阅[画布功能板测试版信息](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)。
+>画布功能板目前仅适用于参与Beta测试阶段的用户。 在此阶段，部分功能可能无法完成或无法按预期工作。 请按照“画布功能板测试版”概述文章中[提供反馈](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)部分的说明提交任何有关您体验的反馈。<br>
+>>请注意，以下云提供商未提供此测试版：
+>
+>* 自带Amazon Web Services密钥
+>* Azure
+>* Google Cloud Platform
 
 您可以将表格报表添加到画布功能板，以便以表格格式显示您的数据。
 
 ![表报告示例](assets/table-example-main.png)
+
+## 访问要求
 
 +++ 展开以查看访问要求。 
 
@@ -60,6 +67,7 @@ ht-degree: 1%
 
 必须先创建功能板，然后才能构建表格报表。
 
+
 ## 在画布功能板中构建表报告
 
 有许多配置选项可用于构建表报告。 在本节中，我们将引导您完成创建规则库的常规过程。
@@ -91,6 +99,8 @@ ht-degree: 1%
    1. 在左侧面板中，单击&#x200B;**表列** ![生成表图标](assets/drilldown-column.png)图标。
 
    1. 单击&#x200B;**添加列**，然后选择要显示为表中列的字段。 该列显示在右侧的预览部分中。
+
+
 
    1. 对要添加的每个列重复上述步骤。
 
@@ -190,3 +200,35 @@ ht-degree: 1%
       ![未决批准表筛选器示例](assets/pending-approval-table-filter.png)
    1. （可选）按照以下&#x200B;**可选筛选器**&#x200B;部分中的说明添加其他筛选器。
 1. 单击屏幕右上角的&#x200B;**保存**。
+
+## 构建表报表时的注意事项
+
+### 利用字段选择器
+
+**生成表**&#x200B;节中的&#x200B;**节**&#x200B;下拉列表旨在缩小字段选择器中的选择范围，以便在生成表报告时更容易查找对象。 要开始，请选择一个基本实体对象。
+
+* **所有部分**： Workfront Workflow和Workfront Planning中的所有对象类型。
+* **Workfront对象**：本机Workfront工作流对象。
+* **Planning记录类型**： Workfront Planning中定义的自定义记录类型。
+
+![分区下拉列表](assets/sections-dropdown.png)
+
+选择基本实体对象后，**节**&#x200B;下拉列表会更新为可用的字段类型选项以供选择。
+
+* **所有节**：本机字段、自定义字段和相关对象。
+* **所有字段**：本机字段和自定义字段（不包括关系）。
+* **自定义字段**：自定义表单或Planning记录中的客户定义字段。
+* **Workfront字段**：仅本机字段。
+* **关系**：连接的记录。
+
+![可报告对象选择](assets/reportable-objects-selection.png)
+
+### 引用子对象
+
+其他列、筛选器选项和分组属性的可用关系通常仅限于Workfront对象层次结构中较高的对象，或者在报表的基本实体对象上具有单个选择。 这种情况有一些例外，其中包括：
+
+* 项目>任务
+* 文档审批>文档审批阶段
+* 文档审批阶段>文档审批阶段参与者
+
+使用上面列出的任何父子关系时，您将在表中看到连接到父对象的每个子记录的一行。
