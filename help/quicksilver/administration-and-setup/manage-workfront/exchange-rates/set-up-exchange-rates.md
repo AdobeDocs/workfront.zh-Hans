@@ -8,9 +8,9 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: cb12c715d6b20dd4737e2d2e29d9849f08ce67e9
+source-git-commit: dc820b4012fec494ce5ebb1baefb4ee0df214916
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '650'
 ht-degree: 2%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td>
+   <td>[！UICONTROL系统管理员]</td>
   </tr> 
  </tbody> 
 </table>
@@ -89,6 +89,10 @@ ht-degree: 2%
    * 将鼠标悬停在货币名称上，然后单击显示的&#x200B;**更多**&#x200B;菜单。 然后，选择&#x200B;**设为默认值**。
 
      新的默认货币会更新为图标。
+
+     >[!NOTE]
+     >
+     >无论列表如何排序，默认货币始终显示在列表中的第一个位置。
 
 1. （可选）要删除货币，请选中货币名称旁边的复选框，然后在屏幕底部的操作栏中选择&#x200B;**删除**。 不能删除默认货币。
 
