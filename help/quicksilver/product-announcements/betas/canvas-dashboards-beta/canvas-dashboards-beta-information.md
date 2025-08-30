@@ -7,7 +7,7 @@ author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
+source-git-commit: 8fdf48c5b17a17e4dd1ef2e441659155ae0b9905
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >画布功能板目前仅适用于参与Beta测试阶段的用户。 在此阶段，部分功能可能无法完成或无法按预期工作。 请按照以下[提供反馈](#provide-feedback)部分中的说明提交任何有关您体验的反馈。<br>
->&#x200B;>请注意，以下云提供商未提供此测试版：
+>>请注意，以下云提供商未提供此测试版：
 >
 >* 自带Amazon Web Services密钥
 >* Azure
@@ -89,7 +89,7 @@ ht-degree: 1%
 
 1. 在&#x200B;**画布功能板Beta反馈**&#x200B;页面上，输入&#x200B;**反馈主题**&#x200B;和&#x200B;**反馈描述**。
 
-1. （可选）在&#x200B;**其他详细信息**&#x200B;部分，在&#x200B;**报告活动**&#x200B;下拉列表中选择与您的feebdack相关的活动类型。
+1. （可选）在&#x200B;**其他详细信息**&#x200B;部分中，从&#x200B;**报告活动**&#x200B;下拉列表中选择与您的反馈相关的活动类型。
 
 1. （可选）在&#x200B;**报表对象类型**&#x200B;下拉列表中选择您要为其提供反馈的对象类型。
 
