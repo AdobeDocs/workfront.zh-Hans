@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: fe51ded26c57e3b7137e42ad2218d79adf032b85
+source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
 workflow-type: tm+mt
 source-wordcount: '5244'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=zh-Hans ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -46,7 +46,7 @@ ht-degree: 1%
 
 ## 访问要求
 
-+++ 展开以查看访问要求。
++++ 展开以查看访问要求。 
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -108,7 +108,7 @@ ht-degree: 1%
 
 *有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-+++
++++   
 
 ## 通过连接记录类型创建字段
 
@@ -264,6 +264,14 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 
 您可以从下拉菜单中选择多个选项，使用多选字段捕获任何格式的其他信息。
 
+<!--
+>[!NOTE]
+>
+><span class="preview">In addition to the functionality described in this section, you can add new choices when editing a record's multi-select field value inline, in the table view. For more information, see the "Add new choices to an existing select field when
+editing records in the table view" section in the article [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>
+>
+-->
+
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**多选**&#x200B;字段类型。
 
    ![多选字段类型](assets/multi-select-field-type.png)
@@ -292,6 +300,14 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 ### 单选 {#single-select}
 
 通过从下拉菜单中选择一个选项，单选字段可以捕获任何格式的附加信息。
+
+<!--
+>[!NOTE]
+>
+><span class="preview">In addition to the functionality described in this section, you can add new choices when editing a record's single-select field value inline, in the table view. For more information, see the "Add new choices to an existing select field when
+editing records in the table view" section in the article [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>
+>
+-->
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**单选**&#x200B;字段类型。
 
@@ -349,7 +365,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 
    新的日期字段作为列添加到记录类型，其值可以与记录相关联。
 
-### 数字 {#number}
+### 数值 {#number}
 
 数字字段类型以数字格式捕获信息。
 
@@ -358,7 +374,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 >数字字段在请求表单生成器中显示为单行文本字段类型。
 >
 >但是，字段格式将保留，并且这些字段的值将在提交请求后、记录类型和请求详细信息页面中显示为数字。
->&#x200B;>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
+>>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
 
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**数字**&#x200B;字段类型。
@@ -388,7 +404,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 >百分比字段在请求表单生成器中显示为单行文本字段类型。
 >
 >但是，字段格式将保留，并且这些字段的值将在提交请求后、记录类型和请求详细信息页面中显示为百分比。
->&#x200B;>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
+>>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
 
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**百分比**&#x200B;字段类型。
@@ -428,7 +444,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 >货币字段在请求表单生成器中显示为单行文本字段类型。
 >
 >但是，字段格式将保留，并且这些字段的值将在提交请求后、记录类型和请求详细信息页面中显示为货币。
->&#x200B;>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
+>>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**货币**&#x200B;字段类型。
 

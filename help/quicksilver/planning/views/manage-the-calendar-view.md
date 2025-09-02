@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
 workflow-type: tm+mt
-source-wordcount: '1624'
+source-wordcount: '1620'
 ht-degree: 5%
 
 ---
@@ -145,9 +145,11 @@ ht-degree: 5%
 
 1. 更新以下视图元素，如以下子部分所述：
    * [过滤器](#add-filters)
+     <!--<span class="preview">[Row height](#modify-row-height)</span>-->
    * [设置](#edit-the-calendar-view-settings)
-     <!--* [Grouping](#add-grouping)-->
-     <!--* [Sort](#add-sort) not sure if this is present in calendar views?!; also check the anchor and make sure it's correct-->
+
+   <!--* [Grouping](#add-grouping)-->
+   <!--* [Sort](#add-sort) not sure if this is present in calendar views?!; also check the anchor and make sure it's correct-->
 
 ### 添加过滤器
 
@@ -174,7 +176,7 @@ ht-degree: 5%
 要将筛选器添加到日历视图，请执行以下操作：
 
 1. 为记录类型页面创建日历视图，如文章[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)中所述。
-1. 选择一个日历视图，然后单击表右上角的&#x200B;**筛选器**。
+1. 选择一个日历视图，然后单击日历工具栏中的&#x200B;**筛选器**。
 1. 单击&#x200B;**添加条件**&#x200B;并添加以下信息：
 
    * **选择要按**&#x200B;筛选的字段<!-- the tip below might change-->
@@ -266,6 +268,76 @@ ht-degree: 5%
 
 1. （可选）单击&#x200B;**x**&#x200B;图标可删除筛选条件。
 1. （可选）单击&#x200B;**筛选器**&#x200B;以关闭筛选器框。<!--right now you cannot "clear all" for filters, but this might come later-->
+
+<!--
+<span class="preview">
+
+### Modify row height
+
+You can modify the row height of a calendar cell to increase or decrease the number of record bars you display in each cell. 
+
+The number of records displayed in the calendar varies depending on how many fields you display on the records' bars. 
+
+1. Create a calendar view for a record type page, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
+1. Select a calendar view, then click **Row height** in the calendar's toolbar.    
+1. Choose from the following options: 
+
+<table>
+<thead>
+<tr>
+    <th><b>Row height option</b></th>
+    <th><b>Number of records</b></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td>Short</td>
+    <td><p>Contains:</p>
+
+<ul><li>2 records displaying 1 field</li>
+<li>1 record displaying more than 1 field</li></ul>
+    </td>
+</tr>
+<tr><td>Standard</td>
+    <td><p>Contains:</p>
+
+<ul><li>4 records displaying 1 field</li>
+<li>2 record displaying more than 1 field</li></ul>
+    </td>
+</tr>
+<tr>
+    <td>Medium</td>
+    <td><p>Contains:</p>
+
+<ul><li>8 records displaying 1 field</li>
+<li>4 record displaying more than 1 field</li></ul>
+    </td>
+</tr>
+<tr>
+    <td>Tall</td>
+    <td><p>Contains:</p>
+
+<ul><li>12 records displaying 1 field</li>
+<li>6 record displaying more than 1 field</li></ul>
+    </td>
+</tr>
+<tr>
+    <td>Fit to content</td>
+    <td><p>All records are visible, up to 500 records</p></td>
+</tr>
+</tbody>
+</table> 
+
+1. (Optional) Click **Show more** if there are records that are not visible in the calendar. 
+
+    >[!TIP]
+    >
+    >The **Show more** option displays when you choose Fit to content and there are are more than 500 records in one time frame.
+
+
+</span>
+
+-->
 
 ### 编辑日历视图设置
 

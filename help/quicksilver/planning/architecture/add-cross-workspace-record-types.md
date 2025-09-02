@@ -4,9 +4,9 @@ description: 记录类型是Adobe Workfront Planning的对象类型。 在Workfr
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '584'
 ht-degree: 1%
 
 ---
@@ -44,48 +44,28 @@ recommendations: noDisplay, noCatalog
 </col> 
 <tbody> 
     <tr> 
+<tr>
+
+</tr>   
 <tr> 
-<td> 
-   <p> 产品</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront包*</p></td> 
    <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront规划<p></li></ul></td> 
-  </tr>   
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront计划*</p></td> 
-   <td> 
-<p>以下任意Workfront计划：</p> 
-<ul><li>选择</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning不适用于旧版Workfront计划</p> 
-   </td> 
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront规划包*</p></td> 
-   <td> 
-<p>任何 </p> 
+<ul><li><p>任何Workfront包</p></li>
+与
+<li><p>Planning Plus包</p></li></ul>
+或：
+<ul><li><p>任何工作流包</p> </li>
+与
+<li><p>规划Prime或Ultimate包</p></li></ul>
 <p>有关每个Workfront计划中包括的内容的更多信息，请联系您的Workfront客户经理。 </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Adobe Workfront平台</p></td> 
-   <td> 
-<p>贵组织的Workfront实例必须载入Adobe Unified Experience才能访问Workfront Planning。</p> 
-<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p> 
-   </td> 
-   </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Adobe Workfront许可证*</p></td> 
-   <td><p> 标准</p>
-   <p>Workfront计划不适用于旧版Workfront许可证</p> 
-  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>访问级别配置</p></td> 
-   <td> <p>Adobe Workfront Planning没有访问级别控制</p>   
-</td> 
-  </tr> 
+   </td>
+
 <tr> 
+   <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
+   <td><p>标准</p>
+   </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
    <td>   <p>管理工作区</a>的权限 </p>  
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>  </td> 
@@ -105,8 +85,9 @@ recommendations: noDisplay, noCatalog
 * 从另一个工作区添加记录类型后，还将从现有记录类型添加以下信息：
 
    * 字段
-   * 记录
    * 记录连接
+
+* 只有在您具有其他工作区的权限时，才能查看从这些工作区添加的记录。
 
 * 只能在其原始工作区中编辑记录类型，包括其字段。 不能从添加该代码的工作区对其进行编辑。
 * 从所有工作区添加的记录将对从所有工作区访问这些记录的所有用户可见，即使这些记录是在没有权限的工作区中创建的。
