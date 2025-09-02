@@ -334,7 +334,7 @@ You can import records from other applications by linking them to existing recor
    * **删除** ![删除图标](assets/delete-icon.png)以删除记录。
    * **关闭** ![关闭图标](assets/close-icon.png)以关闭新记录框。
 
-   除非您单击&#x200B;**删除**图标，否则该记录将立即添加到时间轴以及表和日历视图。
+   除非您单击&#x200B;**删除**&#x200B;图标，否则该记录将立即添加到时间轴以及表和日历视图。
    <!--1. (Optional) Hover over the record's bar in the timeline and drag and drop the ends of the bar to a different date. This automatically changes the start and end date of the record. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).-->
 1. （可选）单击时间轴中的记录栏以打开记录的详细信息窗口，并更新其信息、将其删除或添加注释。
 
@@ -486,7 +486,7 @@ For information about creating a calendar view, see [Manage the calendar view](/
 1. （视情况而定）如果在尝试连接时找不到记录，请单击&#x200B;**+添加**
 
    或
-开始键入名称，然后单击**+添加**。 **+ Add**&#x200B;按钮后跟您连接到的记录类型的名称。 例如，将品牌添加到现有营销活动时，“添加品牌”。 您键入的名称还遵循“添加”按钮。
+开始键入名称，然后单击&#x200B;**+添加**。 **+ Add**&#x200B;按钮后跟您连接到的记录类型的名称。 例如，将品牌添加到现有营销活动时，“添加品牌”。 您键入的名称还遵循“添加”按钮。
 
    ![添加按钮以在突出显示的上下文中创建记录](assets/add-button-to-create-records-in-context-highlighted.png)
 
