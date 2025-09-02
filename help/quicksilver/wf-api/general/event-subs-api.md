@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 1c6a1238e9ea1ca843dcb296db7a552ff354c50a
+source-git-commit: 699ce13472ee70149fba7c8c34dde83c7db5f5de
 workflow-type: tm+mt
-source-wordcount: '2666'
+source-wordcount: '2739'
 ht-degree: 3%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 3%
 
 列入允许列表要通过防火墙接收事件订阅负载，必须将以下IP地址添加到您的：
 
-对于欧洲的客户：**&#x200B;**
+对于欧洲的客户：****
 
 * 52.30.133.50
 * 52.208.159.124
@@ -58,19 +58,19 @@ ht-degree: 3%
 * 审批阶段参与者
 * 任务分配
 * 公司
-* 仪表板
+* 功能板
 * 文档
 * 费用
 * 字段
-* 小时
+* Hour
 * 问题
 * 注释
-* 项目组合
+* 组合
 * 项目群
 * 项目
 * 记录
 * 记录类型
-* 报告
+* 报表
 * 任务
 * 模板
 * 时间表
@@ -89,6 +89,10 @@ ht-degree: 3%
 * 需要`sessionID`标头才能使用事件订阅API
 
   有关详细信息，请参阅[API基础知识](api-basics.md#authentication)中的[身份验证](api-basics.md)。
+
+## 避免使事件订阅过载
+
+事件订阅服务旨在为所有用户提供可靠的事件交付。 为确保这一点，已实施保护措施以防止单个用户产生过多事件，这可能会对所有用户造成潜在服务质量问题。 因此，在短时间内以高速率生成过多事件的用户可能会遇到沙箱处理和事件投放延迟的情况。
 
 ## 形成订阅资源
 
@@ -133,7 +137,7 @@ ht-degree: 3%
         <td scope="col"><p>CMPY</p></td> 
        </tr> 
        <tr> 
-        <td scope="col">仪表板</td> 
+        <td scope="col">功能板</td> 
         <td scope="col">PTLTAB</td> 
        </tr> 
        <tr> 
@@ -149,7 +153,7 @@ ht-degree: 3%
         <td scope="col"><p>字段</p></td> 
        </tr> 
       <tr> 
-        <td scope="col"><p>小时</p></td> 
+        <td scope="col"><p>Hour</p></td> 
         <td scope="col">HOUR</td> 
        </tr> 
        <tr> 
@@ -161,7 +165,7 @@ ht-degree: 3%
         <td scope="col">注释</td> 
        </tr> 
        <tr> 
-        <td scope="col"><p>项目组合</p></td> 
+        <td scope="col"><p>组合</p></td> 
         <td scope="col"><p>端口</p></td> 
        </tr> 
        <tr> 
@@ -181,7 +185,7 @@ ht-degree: 3%
         <td scope="col"><p>记录类型</p></td> 
        </tr> 
        <tr> 
-        <td scope="col"><p>报告</p></td> 
+        <td scope="col"><p>报表</p></td> 
         <td scope="col"><p>PTLSEC</p></td> 
        </tr> 
        <tr> 
@@ -301,7 +305,7 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | Content-Length | `→0` |
 | 日期 | `→Wed, 05 Apr 2017 21:23:33 GMT` |
 | 位置 | `→https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/750a636c-5628-48f5-ba26-26b7ce537ac2` |
-| 服务器 | `→Apache-Coyote/1.1` |
+| Server | `→Apache-Coyote/1.1` |
 
 ## 查询事件订阅
 
@@ -358,7 +362,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 |---|---|
 | Content-Type | `→application/json;charset=UTF-8` |
 | 日期 | `→Wed, 05 Apr 2017 21:29:32 GMT` |
-| 服务器 | `→Apache-Coyote/1.1` |
+| Server | `→Apache-Coyote/1.1` |
 | 传输编码 | `→chunked` |
 
 
@@ -812,7 +816,7 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 >[!NOTE]
 >
 >下面带有给定过滤器的订阅将只返回任务名称在`again`上包含`oldState`的消息，该名称与更新任务之前所包含的内容相同。
->&#x200B;>此功能的用例是查找从一个对象更改到另一个对象的对象代码消息。 例如，查找从“Research Some name”更改为“Research TeamName Some name”的所有任务
+>>此功能的用例是查找从一个对象更改到另一个对象的对象代码消息。 例如，查找从“Research Some name”更改为“Research TeamName Some name”的所有任务
 
 ```
 {
@@ -968,7 +972,7 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
 | 响应标头 | 示例 |
 |---|---|
 | 日期 | `→Wed, 05 Apr 2017 21:33:41 GMT` |
-| 服务器 | `→Apache-Coyote/1.1` |
+| Server | `→Apache-Coyote/1.1` |
 
 
 **响应正文示例：** N/A

@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
-source-git-commit: 19e0b792bc49ede0504af479952fdbdf384dc73c
+source-git-commit: 699ce13472ee70149fba7c8c34dde83c7db5f5de
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,10 @@ ht-degree: 0%
 
 请勿在请求中包含额外的正文字段，因为这将导致API创建订阅失败。
 
+## 避免使事件订阅过载
+
+事件订阅服务旨在为所有用户提供可靠的事件交付。 为确保这一点，已实施保护措施以防止单个用户产生过多事件，这可能会对所有用户造成潜在服务质量问题。 因此，在短时间内以高速率生成过多事件的用户可能会遇到沙箱处理和事件投放延迟的情况。
+
 ## 在宽限期内完成测试
 
 尝试在100条报文的宽限期内完成所有订阅测试。 若要了解有关此宽限期的更多信息，请参阅[常见问题解答 — 活动订阅](../../wf-api/general/event-subs-faq.md)。
@@ -46,9 +50,9 @@ ht-degree: 0%
 
 要创建、查询或删除事件订阅，您的Workfront用户需要：
 
-* **系统管理员**&#x200B;的访问级别
+* **系统管理员**的访问级别
 要了解更多信息，请参阅[授予用户完全管理访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)或[授予用户对特定区域的管理访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
 
 * 需要`sessionID`标头才能使用事件订阅API
 
-  有关详细信息，请参阅[API基础知识](api-basics.md)中的[身份验证](api-basics.md#authentication)。
+  有关详细信息，请参阅[API基础知识](api-basics.md#authentication)中的[身份验证](api-basics.md)。
