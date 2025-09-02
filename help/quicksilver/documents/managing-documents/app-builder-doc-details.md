@@ -106,7 +106,7 @@ Adobe提供了一个开源CLI，可用于帮助创建App Builder应用程序。 
       ![选择项目](assets/select-project.png)
 
 1. 模板选择和设置
-   1. 浏览所有可用的模板，并为您的项目选择&#x200B;**@adobe/aem-cf-editor-ui-ext-tpl**模板。
+   1. 浏览所有可用的模板，并为您的项目选择&#x200B;**@adobe/aem-cf-editor-ui-ext-tpl**&#x200B;模板。
       ![搜索模板](assets/search-template.png)
       ![选择模板](assets/select-template.png)
 
@@ -114,7 +114,7 @@ Adobe提供了一个开源CLI，可用于帮助创建App Builder应用程序。 
    1. 命名扩展。
    1. 提供扩展功能的描述性摘要。
    1. 选择要开始的初始版本号。
-   1. 选择&#x200B;**我已完成**以确认完成。
+   1. 选择&#x200B;**我已完成**&#x200B;以确认完成。
       ![定义扩展](assets/define-extension.png)
 
 1. 导航到您的项目文件夹
