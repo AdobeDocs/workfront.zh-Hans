@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: dcdae47ffd4a02ac9a0bbd3cd9bd1418f6c59e1a
 workflow-type: tm+mt
 source-wordcount: '1357'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 组织需要与其客户经理合作才能购买AppBuilder。 具体操作过程尚不清楚，因为我们不需要为POC执行此操作。
 
 如果要测试AppBuilder集成，您可以在此处请求您的IMS组织的免费试用：
-[https://developer.adobe.com/app-builder/docs/overview/getting_access/#](https://developer.adobe.com/app-builder/docs/overview/getting_access/#)
+[https://developer.adobe.com/app-builder/docs/overview/getting_access/#](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/set-up#access-and-credentials)
 
 我的印象是，尽管这是30天的免费试用，但在此时间之后，他们实际上不会停用此试用。
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 ## Adobe IO (aio) CLI
 
-Adobe提供了一个开源CLI，可用于帮助创建App Builder应用程序。 可以在此处找到文档： [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli)以及Adobe App Builder说明[https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/getting_started/first_app/)。
+Adobe提供了一个开源CLI，可用于帮助创建App Builder应用程序。 可以在此处找到文档： [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli)以及Adobe App Builder说明[https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app)。
 
 1. 安装
    1. 要安装该工具，（确保您首先在节点v18上）运行： `npm install -g @adobe/aio-cli `。
@@ -106,8 +106,7 @@ Adobe提供了一个开源CLI，可用于帮助创建App Builder应用程序。 
       ![选择项目](assets/select-project.png)
 
 1. 模板选择和设置
-   1. 浏览所有可用的模板，并为您的项目选择&#x200B;**@adobe/aem-cf-editor-ui-ext-tpl**&#x200B;模板。
-
+   1. 浏览所有可用的模板，并为您的项目选择&#x200B;**@adobe/aem-cf-editor-ui-ext-tpl**模板。
       ![搜索模板](assets/search-template.png)
       ![选择模板](assets/select-template.png)
 
@@ -115,8 +114,7 @@ Adobe提供了一个开源CLI，可用于帮助创建App Builder应用程序。 
    1. 命名扩展。
    1. 提供扩展功能的描述性摘要。
    1. 选择要开始的初始版本号。
-   1. 选择&#x200B;**我已完成**&#x200B;以确认完成。
-
+   1. 选择&#x200B;**我已完成**以确认完成。
       ![定义扩展](assets/define-extension.png)
 
 1. 导航到您的项目文件夹
@@ -130,7 +128,7 @@ Adobe提供了一个开源CLI，可用于帮助创建App Builder应用程序。 
 
 1. 编辑扩展注册组件
    1. 打开`src/workfront-doc-details-1/web-src/src/components/ExtensionRegistration.js`。
-   1. 在方法部分中，添加包含异步函数`getButtons`的函数`secondaryNav`。
+   1. 在方法部分中，添加包含异步函数`secondaryNav`的函数`getButtons`。
    1. `getButtons`应接收具有以下结构的对象：
 
       ```
@@ -174,7 +172,7 @@ Adobe提供了一个开源CLI，可用于帮助创建App Builder应用程序。 
       ```
 
 1. 访问文档详细信息
-   1. 在应用程序中实施提供的函数`document.getDocumentDetails`以提取基本文档详细信息。 此函数检索包含`docId`和`docvId`的对象，以及包含`hostname`、`protocol`和身份验证详细信息的`sharedContext`对象。 确保您的应用程序可正确处理此数据。
+   1. 在应用程序中实施提供的函数`document.getDocumentDetails`以提取基本文档详细信息。 此函数检索包含`docId`和`docvId`的对象，以及包含`sharedContext`、`hostname`和身份验证详细信息的`protocol`对象。 确保您的应用程序可正确处理此数据。
 
 1. 在组件中集成数据提取
    1. 将新组件添加到应用程序的components文件夹中。 在此组件中，建立与Workfront的连接，以使用与主机应用程序建立的连接检索文档信息和身份验证数据。 以下是如何构建组件以处理此问题的示例：
@@ -224,7 +222,7 @@ Adobe提供了一个开源CLI，可用于帮助创建App Builder应用程序。 
 
 1. 修订扩展注册组件
    1. 找到并打开名为`ExtensionRegistration.js`的文件。
-   1. 在方法部分中，添加包含异步函数`getButtons`的函数`secondaryNav`。
+   1. 在方法部分中，添加包含异步函数`secondaryNav`的函数`getButtons`。
    1. `getButtons`应接收具有以下结构的对象：
 
       ```
@@ -268,7 +266,7 @@ Adobe提供了一个开源CLI，可用于帮助创建App Builder应用程序。 
       ```
 
 1. 访问文档详细信息
-   1. 在应用程序中实施提供的函数`document.getDocumentDetails`以提取基本文档详细信息。 此函数检索包含`docId`和`docvId`的对象，以及包含`hostname`、`protocol`和身份验证详细信息的`sharedContext`对象。 确保您的应用程序可正确处理此数据。
+   1. 在应用程序中实施提供的函数`document.getDocumentDetails`以提取基本文档详细信息。 此函数检索包含`docId`和`docvId`的对象，以及包含`sharedContext`、`hostname`和身份验证详细信息的`protocol`对象。 确保您的应用程序可正确处理此数据。
 
 1. 在组件中集成数据提取
    1. 将新组件添加到应用程序的components文件夹中。 在此组件中，建立与Workfront的连接，以使用与主机应用程序建立的连接检索文档信息和身份验证数据。 以下是如何构建组件以处理此问题的示例：
@@ -354,7 +352,7 @@ Adobe提供了有关如何开始为AppBuilder构建应用程序并进行部署�
 
 下面是一些有用链接：
 
-* [https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli)
+* [https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#bootstrap-the-new-app-using-the-cli)
 
 * [https://developer.adobe.com/uix/docs/guides/publication/](https://developer.adobe.com/uix/docs/guides/publication/)
 

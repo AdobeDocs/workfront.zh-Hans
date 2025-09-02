@@ -4,7 +4,7 @@ description: Workfront UI Extensions 由 Adobe App Builder 提供支持，允许
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: a4e715d5212c3c166ce6ed995b327eb2b7198123
+source-git-commit: dcdae47ffd4a02ac9a0bbd3cd9bd1418f6c59e1a
 workflow-type: tm+mt
 source-wordcount: '1693'
 ht-degree: 1%
@@ -133,7 +133,7 @@ GitHub和Adobe Developer网站上提供了其他说明：
    正在生成![](assets/6-generation-in-process.png)
 1. 等待您看到应用程序初始化已完成的消息。 然后，您可以在IDE中打开该项目（建议使用Visual Studio代码）并访问src文件夹。
 
-   有关项目中文件夹和文件的详细信息，请参阅[Adobe开发人员网站](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#5-anatomy-of-an-appbuilder-application)。
+   有关项目中文件夹和文件的详细信息，请参阅[Adobe开发人员网站](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application)。
 
 ## 在VSCode中构建扩展
 
@@ -152,13 +152,13 @@ GitHub和Adobe Developer网站上提供了其他说明：
 在ExtensionRegistration函数中，您应该会看到以下代码。 此代码由模板为您创建。 可以添加此代码以创建其他菜单项。 请务必替换ID和URL。
 
     “
-    mainMenu： &lbrace;
+    mainMenu： {
     
-    getItems() &lbrace;
+    getItems() {
     
-    return &lbrack;
+    return [
     
-    &lbrace;
+    {
     
     id： &#39;main-menu-label&#39;，
     
@@ -168,13 +168,13 @@ GitHub和Adobe Developer网站上提供了其他说明：
     
     icon： icon1，
     
-    &rbrace;，
+    }，
     
-    &rbrack;；
+    ]；
     
     ，
     
-    &rbrace;
+    }
     “
 ”
 1. 添加以下代码片段：
@@ -237,7 +237,7 @@ GitHub和Adobe Developer网站上提供了其他说明：
    ![代码示例](assets/9-app-file-step-1-from-sam.png)
 1. 保存您所做的工作。
 
-有关开发和运行该应用程序的详细信息，请参阅[Adobe开发人员网站](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#6developing-the-application)。
+有关开发和运行该应用程序的详细信息，请参阅[Adobe开发人员网站](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#develop-the-application)。
 
 ## 共享上下文
 
