@@ -4,9 +4,9 @@ description: 这是一篇内部文章，供我们的团队保留用于访问要�
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: f56aa32e9fb40523be9caec3b01bedcae8f37dd0
+source-git-commit: faefa0fef0a0fd65f9eda91f52b8eea57353b5a7
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '822'
 ht-degree: 2%
 
 ---
@@ -344,4 +344,34 @@ ht-degree: 2%
 </table>
 
 有关信息，请参阅[Workfront文档的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
+## 资源管理的访问需求示例
+
+展开以查看本文中各项功能的访问要求。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Adobe Workfront包</td> 
+   <td><p>任何</p></td>
+  </tr> 
+  <tr> 
+   <td>Adobe Workfront许可证</td> 
+   <td><p>一个项目的轻度或以上；多个项目的标准</p>
+       <p>审查一个项目或更高项目；计划多个项目</p></td>
+  </tr> 
+  <tr> 
+   <td>访问级别配置</td> 
+   <td> <p>查看对资源管理的访问权限或更高版本</p> </td> 
+  </tr> 
+  <tr> 
+   <td>对象权限</td> 
+   <td> <p>查看对项目和用户的权限 </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
