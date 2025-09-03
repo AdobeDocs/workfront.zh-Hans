@@ -4,10 +4,10 @@ description: 这是一篇内部文章，供我们的团队保留用于访问要�
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
+source-git-commit: 7d9e5ac168d759e9b657beb6513c994d91ab0145
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 2%
+source-wordcount: '1028'
+ht-degree: 1%
 
 ---
 
@@ -349,7 +349,7 @@ ht-degree: 2%
 
 有关信息，请参阅[Workfront文档的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-## 资源管理的访问需求示例
+## 资源管理的访问要求（多个可能的许可证的示例；现在所有RM包都是“任何”）
 
 展开以查看本文中各项功能的访问要求。
 
@@ -378,4 +378,45 @@ ht-degree: 2%
 </table>
 
 有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
+<p>基于连接器（旧版）：用于工作自动化和集成的Workfront Fusion </p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">产品</td> 
+   <td>
+   <p>如果贵组织具有不包含Workfront Automation and Integration的Select或Prime Workfront包，则贵组织必须购买Adobe Workfront Fusion。</li></ul>
+   </td> 
+  </tr>
+ </tbody> 
+</table>
+
+有关此表中信息的更多详细信息，请参阅文档[中的](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation)访问要求。
+
+有关Adobe Workfront Fusion许可证的信息，请参阅[Adobe Workfront Fusion许可证](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
+
+## 高级企业控制
+
+一篇关于组管理员的文章提到了客户必须开启的软件包，组管理员才能在Workfront中拥有某些功能。
+
+[链接到当前文章](/help/quicksilver/administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md)
+
+### 更新了表格下第三个脚注的文本
+
+&#42;&#42;&#42;这些包包括下面列出的高级企业控制功能：
+
+* 工作流Prime和更高版本
+* Workfront Prime和更高版本
+
+有关包的详细信息，请参阅[Adobe Workfront定价和打包页面](https://business.adobe.com/products/workfront/pricing.html)。
+
+高级企业控制：
+
+* 在组级别配置项目、任务和问题首选项
+* 在组级别配置时间表和小时首选项
+* 在组级别配置事件通知电子邮件
+* 创建和管理特定于组的批准流程
+* 按主组分配许可证限制并查看其利用率
+* 为子组分配组管理员
+* 允许组管理员创建子组
 
