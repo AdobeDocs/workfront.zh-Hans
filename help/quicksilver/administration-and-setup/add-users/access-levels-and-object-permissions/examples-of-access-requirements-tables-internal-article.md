@@ -4,9 +4,9 @@ description: 这是一篇内部文章，供我们的团队保留用于访问要�
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: faefa0fef0a0fd65f9eda91f52b8eea57353b5a7
+source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '827'
 ht-degree: 2%
 
 ---
@@ -249,9 +249,13 @@ ht-degree: 2%
    <td role="rowheader"><p>Adobe Workfront包</p></td> 
    <td>
 
-<ul><li><p>任何Workfront或工作流包</p></li>
-与
-<li><p>Prime或Ultimate规划包</p></li></ul>
+<ul><li><p>任何Workfront包</p></li>
+  与
+  <li><p>Planning Plus包</p></li></ul>
+  或：
+  <ul><li><p>任何工作流包</p> </li>
+  与
+  <li><p>规划Prime或Ultimate包</p></li></ul>
    </td> </tr>
 
 </tr> 

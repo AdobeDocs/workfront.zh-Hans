@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
+source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
 workflow-type: tm+mt
-source-wordcount: '2192'
+source-wordcount: '2332'
 ht-degree: 0%
 
 ---
@@ -108,8 +108,16 @@ ht-degree: 0%
    * 内联，在表格视图中。
 <!--* You can edit a record's dates from the following areas:
         * All areas listed above
-        * <span class="preview">In a timeline view, by resizing the record bars or dragging and dropping the record in the timeline</span>
+        * <span class="preview">In a timeline view, by resizing the record bars</span>
+         * <span class="preview">In a calendar monthly view, by resizing the record bars</span>
         For information, see [Create records](/help/quicksilver/planning/records/create-records.md). -->
+
+<!-- when drag and drop is available replace the last 2 points with this:
+
+* <span class="preview">In a timeline view, by resizing the record bars or dragging and dropping the record bars in a new position</span>
+* <span class="preview">In a calendar view, by resizing the record bars when viewing it by month, or by dragging and dropping the record bars in a new position</span>
+    For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+-->
 
 * 当用户编辑视图中的记录时，更改会立即在所有视图中可见，并且记录页面对所有其他用户可见。
 
@@ -127,10 +135,16 @@ ht-degree: 0%
 
 您可以从以下区域编辑记录：
 
-* [记录类型的表格视图](#edit-a-record-inline-in-the-table-view-of-a-record-type)
+* [表格视图](#edit-a-record-inline-in-the-table-view-of-a-record-type)
+* [时间线视图](#edit-a-record-in-the-timeline-view-of-a-record-type)
+* [日历视图](#edit-a-record-in-the-calendar-view-of-a-record-type)
 * [在视图中预览记录](#edit-a-record-from-the-records-preview-in-a-view)
 * [记录的页面](#edit-a-record-from-the-records-page)
 * [“规划”部分中的Workfront对象](#edit-a-record-from-a-workfront-object-in-the-planning-section)
+
+要编辑记录的日期，请执行以下操作：
+
+* [调整时间轴和日历视图中记录栏的大小]
 
 ### 在记录类型的表视图中编辑内联记录
 
@@ -221,6 +235,39 @@ ht-degree: 0%
    >    您可以在一行中多次使用键盘快捷键来撤消多项更改。
 
 1. （可选）向记录中添加缩略图。 有关信息，请参阅[将缩略图添加到记录](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
+
+
+### 在记录类型的时间线视图中编辑记录
+
+<!--add another step about drag and drop here when that is available-->
+
+1. 在时间线视图中打开记录类型页面。 有关信息，请参阅[管理时间线视图](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
+<!--
+1. <span class="preview">Hover over the ends of a record's bar, click, drag and drop its margin to another date. This automatically updates either the start or end date of the record.</span>  
+
+    <span class="preview">![Left-end bar on timeline view to resize](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
+
+-->
+
+1. 单击记录栏以打开其详细信息区域并编辑所有字段。
+
+   有关信息，请参阅本文中[在视图](#edit-a-record-from-the-records-preview-in-a-view)中编辑记录预览中的记录。
+
+### 在记录类型的日历视图中编辑记录
+
+<!--add another step about drag and drop here when that is available-->
+
+1. 在日历视图中打开记录类型页面。 有关信息，请参阅[管理日历视图](/help/quicksilver/planning/views/manage-the-calendar-view.md)。
+<!--
+1. (Conditional) Select **Month** in the upper-right dropdown menu.
+1. <span class="preview">Hover over the ends of a record's bar, click, drag and drop its margin to another date. This automatically updates either the start or end date of the record.</span>  
+
+    <span class="preview">![Left-end bar on calendar view to resize](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
+-->
+
+1. 单击记录栏以打开其详细信息区域并编辑所有字段。
+
+   有关信息，请参阅本文中[在视图](#edit-a-record-from-the-records-preview-in-a-view)中编辑记录预览中的记录。
 
 ### 在视图中编辑记录预览中的记录
 
