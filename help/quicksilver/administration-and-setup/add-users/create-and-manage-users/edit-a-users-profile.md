@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: c7b91828e5a4f961fc48e857eb63756b9b38f664
+source-git-commit: 50c3cddbd11f2fe9d9bb30f66d8e690f88390f33
 workflow-type: tm+mt
-source-wordcount: '3430'
+source-wordcount: '3425'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/cn/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -75,7 +75,7 @@ ht-degree: 0%
 
    此时将显示“编辑用户”框。
 
-1. 在&#x200B;**编辑用户**&#x200B;框中，更改任何部分中的信息，然后随时单击&#x200B;**保存更改** <span class="preview">或&#x200B;**保存**</span>。
+1. 在&#x200B;**编辑用户**&#x200B;框中，更改任何部分中的信息，然后随时单击&#x200B;**保存**。
 
 ### 个人信息
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
   如果贵组织已迁移到Adobe Admin Console，则无法在Workfront中编辑用户的电子邮件地址。 用户的电子邮件地址是在Adobe Admin Console中设置的。
 
-* **重置密码** / <span class="preview">**更改密码**</span>：单击此链接可重置用户的密码。 在重置其他用户的密码之前，必须输入自己的密码。
+* **更改密码**：单击此按钮可重置用户的密码。 在重置其他用户的密码之前，必须输入自己的密码。
 
   要重置其他用户的密码，您必须是Workfront管理员或组管理员。
 
@@ -121,7 +121,7 @@ ht-degree: 0%
   >
   >如果您是组管理员，并且在访问级别中启用了用户管理员（所有用户）权限，则可以编辑所有用户的&lt;SSO配置>字段。
 
-* **个人资料照片**：单击&#x200B;**上传照片** / <span class="preview">**上传新照片**</span>&#x200B;以加载用户的个人资料照片。 您可以上传JPG、GIF或PNG文件。 文件大小限制为4 MB。
+* **个人资料照片**：单击&#x200B;**上传新照片**&#x200B;以加载用户的个人资料照片。 您可以上传JPG、GIF或PNG文件。 文件大小限制为4 MB。
 
   个人资料图片成为用户的头像，并且在整个Workfront系统中可见，无论在何处显示用户名。
 
@@ -148,7 +148,7 @@ ht-degree: 0%
   >
   >此选项仅在预览和沙盒环境中可用。 默认情况下，生产环境中启用了电子邮件通知。
 
-<!--* **Send work I assign to myself to my Working On tab**: This setting refers to a deprecated feature that has been removed from Workfront.-->
+* **将我分配给自己的工作发送到我的“正在处理”选项卡**：选择此选项时，用户自行分配的工作将自动设置为“进行中”状态而不是“新建”状态。<!--This setting refers to a deprecated feature that has been removed from Workfront.-->
 
 * **上载文档时自动生成验证**：如果希望用户上载的文档立即生成验证，请选中此选项。
 
@@ -162,7 +162,7 @@ ht-degree: 0%
 
 ### 访问
 
-* **处于活动状态** / <span class="preview">**用户处于活动状态**</span>：启用此选项可指示用户处于活动状态。 活动用户使用Workfront许可证。 禁用字段会取消激活用户并阻止他们登录Workfront。
+* **用户处于活动状态**：启用此选项可指示用户处于活动状态。 活动用户使用Workfront许可证。 禁用字段会取消激活用户并阻止他们登录Workfront。
 
 * **访问级别**：选择要分配给此用户的访问级别。
 
@@ -199,7 +199,7 @@ ht-degree: 0%
 * **直接下属**：如果您为用户指定了公司，则还可以指定该用户的直接下属。 一个用户可以有多个直接下属。 如果用户没有先与公司关联，则不会显示此字段。
 * **主团队**：指定用户的主团队。 用户只能有一个主团队。 在分配布局模板或为分配给用户的任务和问题定义处理它按钮时，主团队非常重要。
 * **其他团队**：用户可以属于多个团队。 用户可以在主页区域查看分配给其任何团队的工作项。
-* **主组** / <span class="preview">**当前主组**</span>：选择适当的组以分配用户。 这使用户能够访问与组共享的对象。 您还可以与用户的主组共享布局模板。
+* **当前主组**：选择适当的组以分配用户。 这使用户能够访问与组共享的对象。 您还可以与用户的主组共享布局模板。
 
   这是必填字段。 每个用户都必须与主组关联。 如果未选择主组，则您的主组将被指定为新用户的主组。
 
@@ -237,8 +237,8 @@ ht-degree: 0%
   >
   >将“工作时间”值设置为1，表示用户可用于其整个全职等效项目相关工作。
 
-* **计划停用** / <span class="preview">**设置停用日期**</span>：选中此框/<span class="preview">单击此按钮</span>。如果要计划将此用户停用于特定日期和特定时间。
-* **计划的停用日期** / <span class="preview">**停用日期**</span>：停用用户的日期和时间。 有关安排用户停用的信息，请参阅[停用或重新激活用户](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation)中的[安排用户停用](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)。
+* **设置停用日期**：如果要安排在特定日期和特定时间停用此用户，请单击此按钮。
+* **停用日期**：停用用户的日期和时间。 有关安排用户停用的信息，请参阅[停用或重新激活用户](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation)中的[安排用户停用](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)。
 * **主要角色**：这是用户可以在Workfront中履行的主要工作角色。 分配给用户的每个任务和问题也会分配给此工作角色。 工作角色在资源管理中至关重要。 只有在您拥有管理用户访问权限的Standard或Plan许可证，或者您是Workfront管理员时，才能更新此字段。 有关设置具有管理用户访问权限的用户的详细信息，请参阅[授予用户访问权限](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)。
 
   列表中只显示活动工作角色。
@@ -256,11 +256,7 @@ ht-degree: 0%
 
   如果其他角色的FTE可用性为0%，则它们不会显示在Resource Planner中，除非将用户分配给这些角色中的任务。
 
-  预览中的<span class="preview">：</span>
   ![用户角色和FTE](assets/user-roles-fte-2025.png)
-
-  生产中：
-  ![用户角色和FTE](assets/user-settings-roles-and-dte-boxes-rp-story.png)
 
   所有角色的所有&#x200B;**FTE可用性**&#x200B;百分比的总和必须等于100%。 每个FTE可用百分比计算资源规划者中每个用户的每个角色的可用小时数。 每个用户每个角色的可用小时数取决于用户的可用时间。
 
@@ -328,11 +324,7 @@ ht-degree: 0%
 
   某些日期会自动添加。 例如，如果记帐费率1没有结束日期，而您添加了一个开始日期为2023年5月1日的秒数，则结束日期为2023年4月30日的秒数将添加到记帐费率1，因此不存在间隔。
 
-  预览中的<span class="preview">：</span>
   ![用户成本和记帐费率](assets/user-cost-billing-rates-2025.png)
-
-  生产中：
-  ![用户成本和记帐费率](assets/edit-user-cost-billing-rate-2.png)
 
 ### 自定义表单
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: c7b91828e5a4f961fc48e857eb63756b9b38f664
+source-git-commit: 1a81c1becfc0866b92dbd1358af23671e5302266
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1104'
 ht-degree: 2%
 
 ---
@@ -22,8 +22,6 @@ ht-degree: 2%
 >title="停用用户"
 >abstract="停用用户会将其从 Workfront 和 Frame.io 中移除。已停用的用户稍后可以重新激活。"
 
-{{highlighted-preview}}
-
 <!--Audited 5/2025-->
 
 <!--
@@ -32,7 +30,7 @@ ht-degree: 2%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/cn/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -129,9 +127,9 @@ Workfront管理员和计划许可证用户可在用户配置文件中查看停�
 
 1. 单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
 1. 在&#x200B;**编辑用户**&#x200B;框的左侧面板中，单击&#x200B;**资源计划**。
-1. 选中&#x200B;**计划停用**&#x200B;复选框<span class="preview">或单击&#x200B;**设置停用日期**</span>。
+1. 单击&#x200B;**设置停用日期**。
 
-1. 选择&#x200B;**计划停用日期** / <span class="preview">**停用日期**</span>&#x200B;的日期和时间。
+1. 选择&#x200B;**停用日期**&#x200B;的日期和时间。
 
    >[!NOTE]
    >
@@ -139,7 +137,7 @@ Workfront管理员和计划许可证用户可在用户配置文件中查看停�
    >* 如果您选择已经过去当天的一个时间，Workfront将安排第二天凌晨12:00取消激活。
    >* 所选时间与计划取消激活的用户的计算机时区匹配。
 
-1. 单击&#x200B;**保存更改** <span class="preview">或&#x200B;**保存**</span>。
+1. 单击&#x200B;**保存**。
 
 在选定日期的选定时间后的某个时间取消激活用户。 如果您选择了多个用户批量停用，则在选定日期的选定时间之后的某个时间停用所有选定用户。
 

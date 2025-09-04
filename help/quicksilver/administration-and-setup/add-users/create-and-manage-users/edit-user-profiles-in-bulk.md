@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: c7b91828e5a4f961fc48e857eb63756b9b38f664
+source-git-commit: 1a81c1becfc0866b92dbd1358af23671e5302266
 workflow-type: tm+mt
-source-wordcount: '2625'
+source-wordcount: '2610'
 ht-degree: 0%
 
 ---
 
 # 批量编辑用户配置文件
-
-{{highlighted-preview}}
 
 <!--
 
@@ -25,7 +23,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Bulk Upload Users](https://helpx.adobe.com/cn/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Bulk Upload Users](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -77,7 +75,7 @@ ht-degree: 0%
 
 1. 选择多个用户，然后单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
 
-1. 在&#x200B;**编辑用户**&#x200B;框中，更改任何部分中的信息，然后随时单击&#x200B;**保存更改** <span class="preview">或&#x200B;**保存**</span>。
+1. 在&#x200B;**编辑用户**&#x200B;框中，更改任何部分中的信息，然后随时单击&#x200B;**保存**。
 
 ### 首选项
 
@@ -101,7 +99,7 @@ ht-degree: 0%
 
 ### 访问
 
-* **处于活动状态** / <span class="preview">**用户处于活动状态**</span>：启用此选项可指示用户处于活动状态。 活动用户使用Workfront许可证。 禁用字段将停用用户，并阻止他们登录Workfront。
+* **用户处于活动状态**：启用此选项可指示用户处于活动状态。 活动用户使用Workfront许可证。 禁用字段将停用用户，并阻止他们登录Workfront。
 
 * **访问级别**：选择要分配给这些用户的访问级别。 您选择的所有用户都将具有相同的访问级别。
 
@@ -136,7 +134,7 @@ ht-degree: 0%
 * **公司**：用户的公司。 用户只能与一个公司关联。 必须先创建公司，然后才能将其与用户关联。 列表中只显示有效的公司。 有关创建公司的信息，请参阅[创建和编辑公司](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)。
 * **主团队**：指定用户的主团队。 用户只能有一个主团队。
 * **其他团队**：用户可以属于多个团队。
-* **主组** / <span class="preview">**当前主组**</span>：选择适当的组以分配用户。 这使用户能够访问与组共享的对象。 您还可以与主组共享布局模板。
+* **当前主组**：选择适当的组以分配用户。 这使用户能够访问与组共享的对象。 您还可以与主组共享布局模板。
 
   这是必填字段。 每个用户都必须与主组关联。 如果未选择主组，则会将主组指定为主组。
 
@@ -174,8 +172,8 @@ ht-degree: 0%
   >
   >将“工作时间”值设置为1，表示用户可用于其整个全职等效项目相关工作。
 
-* **计划停用** / <span class="preview">**设置停用日期**</span>：选中此框/<span class="preview">单击此按钮</span>。如果要计划于特定日期和特定时间停用这些用户。
-* **计划的停用日期** / <span class="preview">**停用日期**</span>：停用用户的日期和时间。 有关安排用户停用的信息，请参阅[停用或重新激活用户](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation)中的[安排用户停用](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)。
+* **设置停用日期**：如果要安排在特定日期和特定时间停用这些用户，请单击此按钮。
+* **停用日期**：停用用户的日期和时间。 有关安排用户停用的信息，请参阅[停用或重新激活用户](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation)中的[安排用户停用](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)。
 * **主要角色**：这是用户可以在Workfront中履行的主要工作角色。 分配给用户的每个任务和问题也会分配给此工作角色。 工作角色在资源管理中至关重要。 只有在您拥有管理用户访问权限的Standard或Plan许可证，或者您是Workfront管理员时，才能更新此字段。 有关设置具有管理用户访问权限的用户的详细信息，请参阅[授予用户访问权限](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)。
 
   列表中只显示活动工作角色。
