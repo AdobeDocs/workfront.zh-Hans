@@ -5,9 +5,9 @@ description: 可以通过输入提示或提供文档来使用AI自动填写请�
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: 98bb646d7f96ebba57de44194df27d3f6632ab45
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1092'
 ht-degree: 2%
 
 ---
@@ -138,7 +138,6 @@ AI可帮助您根据输入的提示自动填写请求字段。 它还可以基�
 <li>DOC</li>
 <li>DOCX</li>
 <li>GIF</li>
-<li>JPEG</li>
 <li>JPEG</li>
 </ul>
 </td>
