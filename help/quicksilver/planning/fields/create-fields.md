@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '5244'
+source-wordcount: '5332'
 ht-degree: 1%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=zh-Hans ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -264,13 +264,10 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 
 您可以从下拉菜单中选择多个选项，使用多选字段捕获任何格式的其他信息。
 
-<!--
 >[!NOTE]
 >
-><span class="preview">In addition to the functionality described in this section, you can add new choices when editing a record's multi-select field value inline, in the table view. For more information, see the "Add new choices to an existing select field when
-editing records in the table view" section in the article [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>
+><span class="preview">除了本节中介绍的功能外，您还可以在表视图中内联编辑记录的多选字段值时添加新选项。 有关详细信息，请参阅文章[编辑记录](/help/quicksilver/planning/records/edit-records.md).</span>中的“编辑有关单选或多选字段的信息”部分
 >
--->
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**多选**&#x200B;字段类型。
 
@@ -301,13 +298,11 @@ editing records in the table view" section in the article [Edit records](/help/q
 
 通过从下拉菜单中选择一个选项，单选字段可以捕获任何格式的附加信息。
 
-<!--
 >[!NOTE]
 >
-><span class="preview">In addition to the functionality described in this section, you can add new choices when editing a record's single-select field value inline, in the table view. For more information, see the "Add new choices to an existing select field when
-editing records in the table view" section in the article [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>
+><span class="preview">除了本节中介绍的功能外，您还可以在表视图中内联编辑记录的单选字段值时添加新选项。 有关详细信息，请参阅文章[编辑记录](/help/quicksilver/planning/records/edit-records.md).</span>中的“编辑有关单选或多选字段的信息”部分
 >
--->
+
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**单选**&#x200B;字段类型。
 
@@ -374,7 +369,7 @@ editing records in the table view" section in the article [Edit records](/help/q
 >数字字段在请求表单生成器中显示为单行文本字段类型。
 >
 >但是，字段格式将保留，并且这些字段的值将在提交请求后、记录类型和请求详细信息页面中显示为数字。
->&#x200B;>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
+>>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
 
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**数字**&#x200B;字段类型。
@@ -404,7 +399,7 @@ editing records in the table view" section in the article [Edit records](/help/q
 >百分比字段在请求表单生成器中显示为单行文本字段类型。
 >
 >但是，字段格式将保留，并且这些字段的值将在提交请求后、记录类型和请求详细信息页面中显示为百分比。
->&#x200B;>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
+>>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
 
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**百分比**&#x200B;字段类型。
@@ -444,7 +439,7 @@ editing records in the table view" section in the article [Edit records](/help/q
 >货币字段在请求表单生成器中显示为单行文本字段类型。
 >
 >但是，字段格式将保留，并且这些字段的值将在提交请求后、记录类型和请求详细信息页面中显示为货币。
->&#x200B;>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
+>>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**货币**&#x200B;字段类型。
 

@@ -6,22 +6,22 @@ description: 当项目中的任务需要比您最初计划更大的工作量完�
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1190'
 ht-degree: 2%
 
 ---
 
 # 将任务转换为项目
 
-<div class="preview">
+<!--<div class="preview"> 
 
-此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 从预览版本发布的一周后，所有客户还可以在生产环境中使用相同的功能。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
 
-有关详细信息，请参阅[接口现代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div>-->
 
 当项目中的任务需要比您最初计划更大的工作量完成时，您可以将其转换为项目。
 
@@ -203,4 +203,4 @@ ht-degree: 2%
      >
      >如果您将模板用于转化，并且附加到模板的自定义表单包含自定义字段（也可在附加到任务的自定义表单中找到），则任务的字段值将用于新项目。 但是，如果任务上的自定义字段为空，则使用来自模板的值。
 
-1. 单击&#x200B;**保存更改** <span class="preview">或&#x200B;**转换为项目**。</span>
+1. 单击&#x200B;**转换为项目**。

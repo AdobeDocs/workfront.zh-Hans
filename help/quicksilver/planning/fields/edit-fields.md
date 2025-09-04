@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 567fa8c960f7db47279d6cde1f5e90dc7f38ae79
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 1%
+source-wordcount: '960'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 ## 访问要求
 
-+++ 展开以查看访问要求。
++++ 展开以查看访问要求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -90,7 +90,7 @@ ht-degree: 1%
 
 *有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-+++
++++   
 
 
 ## 有关编辑字段设置的注意事项
@@ -98,7 +98,7 @@ ht-degree: 1%
 在对字段配置进行更改之前，必须考虑以下事项：
 
 * 您只能从记录类型表中编辑字段设置。
-* 不能在记录页面或表格视图之外的任何其他视图中编辑字段。
+* 不能在记录页面或表格视图之外的任何其他视图中编辑字段设置。
 * 保存字段后，您无法编辑字段类型。
 * 如果附加到“数字”、“百分比”或“货币”字段的记录中已经存储了负值，则不能取消选择以前选择的“允许负数”设置。
 * 保存字段后，可以编辑以下字段元素的配置：
@@ -116,6 +116,7 @@ ht-degree: 1%
   >不会通知其他用户字段配置已更改。
 
 * 您可以从连接的记录中编辑现有查找字段。
+* 除了按本文中[编辑字段设置](#edit-field-settings-1)部分所述编辑字段外，<span class="preview">当您在表格视图中编辑记录时，在更新字段值时，还可以编辑单选或多选字段的选项。 有关信息，请参阅本文中编辑表视图[中的记录时](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view)将新选择添加到现有选择字段。</span>
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 
@@ -163,3 +164,36 @@ ht-degree: 1%
 1. （视情况而定）对于连接的记录字段，单击&#x200B;**编辑查找字段**&#x200B;并从连接的记录类型中添加或删除任何查找字段。
 
    有关详细信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
+
+
+<div class="preview">
+
+## 在表格视图中编辑记录时，将新选择添加到现有选择字段
+
+<!--some of this information is also available in Edit records article - update both when necessary-->
+
+在表格视图中编辑记录时，可以将新选择添加到现有单选或多选字段。
+
+>[!IMPORTANT]
+>
+>本节中介绍的功能仅在表视图中可用。 它不适用于显示单选或多选字段的任何其他区域。
+
+**示例**
+
+您可能有一个名为Status的单选字段，该字段具有选项New和Closed，并且您要为In progress状态添加选项。 您可以通过执行以下操作之一来添加选择：
+
+* 编辑字段。 有关信息，请参阅本文中的[编辑字段设置](#edit-field-settings-1)部分。
+* 在表格视图中编辑记录时添加新选项，如下所述。
+
+要在编辑记录时向现有选择字段添加新选择，请执行以下操作：
+
+1. 转到记录类型页面并打开表格视图。
+1. 在表格视图中添加要向其添加选择的单选或多选字段作为新列。 有关信息，请参阅[创建字段](/help/quicksilver/planning/fields/create-fields.md)。
+1. 通过双击字段的单元格，开始内联编辑字段。
+1. 键入要添加选择的名称，然后单击&#x200B;**添加选择**。
+
+   ![在表视图的单选字段中添加选项](assets/add-choice-in-table-view-for-single-select-field.png)
+
+   新选项会立即添加到单选字段中。
+
+</div>

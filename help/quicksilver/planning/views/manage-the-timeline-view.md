@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '3872'
+source-wordcount: '3910'
 ht-degree: 2%
 
 ---
@@ -117,14 +117,9 @@ ht-degree: 2%
 <div class="preview">
 
 * 您可以在时间线视图中创建和编辑记录。 有关信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
+* 您可以调整时间轴视图中记录栏的大小，方法是：单击，然后将其边距拖放到新位置。 调整记录栏的大小会立即更新其开始和结束日期。 有关信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
 
 </div>
-
-<!--move this bullet under the same div as above OR add a span or another div tag?? ??
-
-* You can resize the records' bars in the timeline view by clicking, then dragging and dropping their margins in a new position. Resizing the records' bars updates their start and end dates immediately. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
-
--->
 
 要管理时间线视图，请执行以下操作：
 
@@ -163,7 +158,7 @@ ht-degree: 2%
    >在“设置”区域中设置自定义季度后，时间线视图显示自定义季度，而不是传统季度。
    >有关信息，请参阅[启用自定义季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
-1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”**&#x200B;**，然后要求您的Workfront管理员设置自定义季度。
+1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”****，然后要求您的Workfront管理员设置自定义季度。
 
    >[!TIP]
    >

@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1620'
-ht-degree: 5%
+source-wordcount: '1860'
+ht-degree: 4%
 
 ---
 
@@ -111,19 +111,12 @@ ht-degree: 5%
    * 当“开始”或“结束”日期没有值时，记录显示为一天事件
    * 当开始日期在结束日期之后时，该记录不会显示在日历上。
 
-<!--
 <div class="preview">
 
-* You can create and edit records in the calendar view. For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+* 您可以在日历视图中创建和编辑记录。 有关信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
+* 您可以在日历每月视图中调整记录栏的大小，方法是单击，然后将它们的边距拖放到新位置。 调整记录栏的大小会立即更新其开始和结束日期。 有关信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
 
 </div>
--->
-
-<!--move this bullet under the same div as above OR add a span or another div tag?? ??
-
-* You can resize the records' bars in the calendar monthly view by clicking, then dragging and dropping their margins in a new position. Resizing the records' bars updates their start and end dates immediately. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
-
--->
 
 要管理日历视图，请执行以下操作：
 
@@ -151,7 +144,7 @@ ht-degree: 5%
 
 1. 更新以下视图元素，如以下子部分所述：
    * [过滤器](#add-filters)
-     <!--<span class="preview">[Row height](#modify-row-height)</span>-->
+   * <span class="preview">[行高](#modify-row-height)</span>
    * [设置](#edit-the-calendar-view-settings)
 
    <!--* [Grouping](#add-grouping)-->
@@ -275,80 +268,72 @@ ht-degree: 5%
 1. （可选）单击&#x200B;**x**&#x200B;图标可删除筛选条件。
 1. （可选）单击&#x200B;**筛选器**&#x200B;以关闭筛选器框。<!--right now you cannot "clear all" for filters, but this might come later-->
 
-<!--
 <span class="preview">
 
-### Modify row height
+### 修改行高
 
-You can modify the row height of a calendar cell to increase or decrease the number of record bars you display in each cell. 
+您可以修改日历单元格的行高，以增加或减少每个单元格中显示的记录条数。
 
-The number of records displayed in the calendar varies depending on how many fields you display on the records' bars. 
+日历中显示的记录数因您在记录栏中显示的字段数而异。
 
 >[!TIP]
 >
->This setting is available only when viewing the calendar by month. 
+>此设置仅在按月查看日历时可用。
 
 
-1. Create a calendar view for a record type page, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
-1. (Conditional) Display the calendar view by month, then click **Row height** in the calendar's toolbar.    
-1. Choose from the following options: 
+1. 为记录类型页面创建日历视图，如文章[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)中所述。
+1. （视情况而定）按月显示日历视图，然后单击日历工具栏中的&#x200B;**行高**。
+1. 从以下选项中进行选择：
 
-<table>
-<thead>
-<tr>
-    <th><b>Row height option</b></th>
-    <th><b>Number of records</b></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-    <td>Short</td>
-    <td><p>Contains:</p>
+   <table>
+    <thead>
+    <tr>
+        <th><b>行高选项</b></th>
+        <th><b>默认最大记录数</b></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>短</td>
+        <td><p>包含：</p>
 
-<ul><li>2 records displaying 1 field</li>
-<li>1 record displaying more than 1 field</li></ul>
-    </td>
-</tr>
-<tr><td>Standard</td>
-    <td><p>Contains:</p>
+   <ul><li>2条记录显示1个字段</li>
+    <li>显示1个以上字段的1条记录</li></ul>
+        </td>
+    </tr>
+    <tr><td>标准</td>
+        <td><p>包含：</p>
 
-<ul><li>4 records displaying 1 field</li>
-<li>2 record displaying more than 1 field</li></ul>
-    </td>
-</tr>
-<tr>
-    <td>Medium</td>
-    <td><p>Contains:</p>
+   <ul><li>4条记录显示1个字段</li>
+    <li>显示1个以上字段的2条记录</li></ul>
+        </td>
+    </tr>
+    <tr>
+        <td>媒介</td>
+        <td><p>包含：</p>
 
-<ul><li>8 records displaying 1 field</li>
-<li>4 record displaying more than 1 field</li></ul>
-    </td>
-</tr>
-<tr>
-    <td>Tall</td>
-    <td><p>Contains:</p>
+   <ul><li>8条记录显示1个字段</li>
+    <li>显示1个以上字段的4条记录</li></ul>
+        </td>
+    </tr>
+    <tr>
+        <td>高</td>
+        <td><p>包含：</p>
 
-<ul><li>12 records displaying 1 field</li>
-<li>6 record displaying more than 1 field</li></ul>
-    </td>
-</tr>
-<tr>
-    <td>Fit to content</td>
-    <td><p>All records are visible, up to 500 records</p></td>
-</tr>
-</tbody>
-</table> 
+   <ul><li>显示1个字段的12条记录</li>
+    <li>显示1个以上字段的6条记录</li></ul>
+        </td>
+    </tr>
+    <tr>
+        <td>适合内容</td>
+        <td><p>所有记录都可见，最多500条记录</p></td>
+    </tr>
+    </tbody>
+    </table>
 
-1. (Optional) Click **Show more** if there are records that are not visible in the calendar. 
-
-    >[!TIP]
-    >
-    >The **Show more** option displays when you choose Fit to content and there are are more than 500 records in one time frame.
-
+1. （可选）如果日历中有不可见的记录，请单击&#x200B;**更多**。
 
 </span>
-
--->
 
 ### 编辑日历视图设置
 

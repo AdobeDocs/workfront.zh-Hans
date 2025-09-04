@@ -6,9 +6,9 @@ description: 项目是Adobe Workfront中的一个大型工作单位。 您可以
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1263'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 1%
 
 <!-- Audited: 12/2023 -->
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 项目代表在Adobe Workfront中需要完成的大量工作。
 
@@ -116,16 +116,11 @@ ht-degree: 1%
 
 * 从Adobe Workfront Scenario Planner中的方案发布计划。
 
-  Scenario Planner需要以下项之一：
+  有关Workfront Scenario Planner的信息，请参阅[Scenario Planner概述](../../../scenario-planner/scenario-planner-overview.md)。
 
-   * 当前Workfront许可证结构的附加许可证。
-   * 适用于新Ultimate许可证结构的Workfront许可证。
+  有关通过发布计划创建项目的信息，请参阅[通过发布方案规划器](../../../scenario-planner/publish-scenarios-update-projects.md)中的计划来更新或创建项目。
 
-  有关Workfront Scenario Planner的信息，请参阅[Scenario Planner概述](../../../scenario-planner/scenario-planner-overview.md)。 有关通过发布计划创建项目的信息，请参阅[通过发布方案规划器](../../../scenario-planner/publish-scenarios-update-projects.md)中的计划来更新或创建项目。
-
-* 在从Workfront Planning中的记录类型连接项目时添加项目。 在生产环境中，您只能创建没有来自Workfront Planning的模板的项目。 <span class="preview">您可以使用“预览”环境中的模板创建项目。</span>
-
-  您必须拥有新的Workfront许可证和附加的Workfront Planning许可证，才能使用Workfront Planning。
+* 在从Workfront Planning中的记录类型连接项目时添加项目。
 
   有关访问Workfront Planning的信息，请参阅[访问概述](/help/quicksilver/planning/access/access-overview.md)。
 

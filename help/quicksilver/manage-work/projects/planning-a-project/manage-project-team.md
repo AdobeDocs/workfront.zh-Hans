@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: bb2479b936a9064a4df34ac3e840dd78cae297b6
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1399'
 ht-degree: 1%
 
 ---
@@ -107,41 +107,41 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.-->
 
-## Add users to a Project Team
+## 将用户添加到项目团队
 
-When you add users to the project team, they gain View permissions on the project and the tasks, issues, and documents of the project. For more information, see the article [Project Team overview](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+将用户添加到项目团队时，他们将获得项目以及项目的任务、问题和文档的“查看”权限。 有关详细信息，请参阅文章[项目团队概述](../../../manage-work/projects/planning-a-project/project-team-overview.md)。
 
 >[!TIP]
 >
->Users on the Project Team are not automatically added to the resource management tools for the project.
+>项目团队中的用户不会自动添加到项目的资源管理工具中。
 
-You can add users to the project team in the following ways:
+您可以通过以下方式将用户添加到项目团队：
 
-* [Automatically add users to a Project Team](#automatically-add-users-to-a-project-team) 
-* [Manually add users to a Project Team](#manually-add-users-to-a-project-team)
+* [自动将用户添加到项目团队](#automatically-add-users-to-a-project-team)
+* [手动将用户添加到项目团队](#manually-add-users-to-a-project-team)
 
-### Automatically add users to a Project Team {#automatically-add-users-to-a-project-team}
+### 自动将用户添加到项目团队 {#automatically-add-users-to-a-project-team}
 
-The users that fulfill the following roles on the project are automatically added to the project team and appear  in the People section when the project is created:
+在项目上履行以下角色的用户会自动添加到项目团队中，并在创建项目时显示在“人员”部分中：
 
-* The creator of the project
-* The project owner
-* The project sponsor
+* 项目的创建者
+* 项目所有者
+* 项目发起人
 
-Users are also automatically added to the project team when they are assigned to the following:
+当用户被分配到以下项目时，他们也会被自动添加到项目团队中：
 
-* Tasks
-* Issues
+* 任务
+* 问题
 
-### Manually add users to a Project Team {#manually-add-users-to-a-project-team}
+### 手动将用户添加到项目团队 {#manually-add-users-to-a-project-team}
 
-If users that don't fulfill any role on the project want to be notified about certain updates or changes during the life of the project, you can manually add them to the project team. 
+如果项目上不履行任何角色的用户希望在项目生命周期中收到有关某些更新或更改的通知，您可以手动将其添加到项目团队。
 
- For more information about what notifications can be enabled for users on the project team, see [Event notification types](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md). 
+有关可以为项目团队中的用户启用哪些通知的更多信息，请参阅[事件通知类型](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)。
 
- <!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
+<!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
 
 >[!IMPORTANT]
 >
@@ -186,14 +186,14 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    有关详细信息，请参阅[项目团队概述](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md)一文中的“基于角色的审批”一节。
 
-1. Select one or several users in the list, then click the **Remove** icon ![Remove icon](assets/remove-icon.png) to remove them from the team.
+1. 在列表中选择一个或多个用户，然后单击&#x200B;**删除**&#x200B;图标![删除图标](assets/remove-icon.png)以从团队中删除这些用户。
 
 1. 单击&#x200B;**是，删除选定的用户**&#x200B;以确认并删除这些用户。
 
    用户将从未完成的工作项中删除和取消分配。
 
    有关详细信息，请参阅本文中有关从项目团队中删除用户的[注意事项](#considerations-for-removing-users-from-a-project-team)部分。
-1. （可选）若要将此项目的更新发送给用户，请单击“全部更新”**&#x200B;**&#x200B;将更新发送给团队中的每个人
+1. （可选）若要将此项目的更新发送给用户，请单击“全部更新”****&#x200B;将更新发送给团队中的每个人
 
    或
 
@@ -266,7 +266,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    如果用户启用了电子邮件通知，他们可能会收到电子邮件通知，并且会收到有关新更新的应用程序内通知。
 
-1. Click the **Export** icon ![Export icon](assets/export-icon.png) to export the list of users to a file
+1. 单击&#x200B;**导出**&#x200B;图标![导出图标](assets/export-icon.png)以将用户列表导出到文件
 
    或
 

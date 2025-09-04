@@ -4,9 +4,9 @@ description: 这是一篇内部文章，供我们的团队保留用于访问要�
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 7d9e5ac168d759e9b657beb6513c994d91ab0145
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1063'
 ht-degree: 1%
 
 ---
@@ -195,6 +195,33 @@ ht-degree: 1%
 2025年规划包
 许可证：参与者、轻量级、标准版
 包：计划选择、计划主要、计划最终
+
+## Portfolio Optimizer的访问要求
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront包</td> 
+   <td> <p>Workfront Prime或更高版本</p> 
+   <p>工作流Prime或更高版本</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
+   <td> <p>标准</p>
+   <p>规划</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑对项目组合和项目的访问权限</p>  </td>
+</tr> 
+  <tr> 
+   <td role="rowheader">对象权限</td> 
+   <td> <p>管理项目组合的权限</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 
 ## 大多数Workfront Planning的访问要求
@@ -391,9 +418,9 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅文档[中的](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation)访问要求。
+有关此表中信息的更多详细信息，请参阅文档[中的](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation)访问要求。
 
-有关Adobe Workfront Fusion许可证的信息，请参阅[Adobe Workfront Fusion许可证](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
+有关Adobe Workfront Fusion许可证的信息，请参阅[Adobe Workfront Fusion许可证](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
 
 ## 高级企业控制
 
