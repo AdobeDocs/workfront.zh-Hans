@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
-source-git-commit: c7c958b09caf7e15f128a729f6b327f6c3fa21e8
+source-git-commit: 09c41ed117660c67c3890ebbaabae73c60cd4a9a
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '1450'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,114 @@ ht-degree: 0%
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
+<!--## Unified request form list now available
 
+>[!NOTE]
+>
+>* Preview: September 4, 2025
+>* Production fast release: September 11, 2025
+>* Production all: October 16, 2025
+
+To make it easier to find the request form you're looking for in Workfront Planning, we've created a unified list for request forms. Now, all request forms that you have access to can be found in a single list, regardless of the object they were created for. Clicking on a form in this list brings you to the request form's page, where you can edit, preview, or publish and unpublish the form.
+
+Previously, request forms were located only on the object for which they were created.
+
+For more information on request forms, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). -->
+
+## 在日历每月视图中调整记录大小
+
+>[!NOTE]
+>
+>* 预览： 2025年9月4日
+>* 生产快速发布： 2025年10月15日
+>* 全部生产：2025年10月16日
+
+在记录类型页面的日历视图中，您现在可以单击、拖放记录的左边距或右边距来修改其持续时间。
+
+移动记录的边距也会立即修改其开始和结束日期。
+
+在调整事件大小之前，会显示一个轮廓来引导您到达新位置。
+
+只有在按月显示日历视图时，才能调整该视图中的记录大小。
+
+有关详细信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
+
+## 在日历视图中创建记录
+
+>[!NOTE]
+>
+>* 预览： 2025年9月4日
+>* 生产快速发布： 2025年10月15日
+>* 适用于所有客户的生产： 2025年10月16日
+
+现在，您可以在日历上的任意位置双击来在记录类型的日历视图中创建记录。
+
+您可以选择记录的日期范围，或打开记录的页面以编辑其所有详细信息。
+
+在此增强功能之前，要从日历视图添加记录，您只能使用“新建记录”按钮添加新记录。
+
+有关信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
+
+## 调整时间轴视图中的记录大小
+
+>[!NOTE]
+>
+>* 预览： 2025年9月4日
+>* 生产快速发布： 2025年10月15日
+>* 适用于所有客户的生产： 2025年10月16日
+
+在记录类型页面的时间轴视图中，您现在可以单击、拖放记录的左边距或右边距来修改其持续时间。
+
+移动记录的边距也会立即修改其开始和结束日期。
+
+在调整事件大小之前，会显示一个轮廓来引导您到达新位置。
+
+>[!NOTE]
+>
+>在每年显示视图、每季度显示视图或每月显示视图时，可以在时间轴视图中调整记录的大小。
+
+
+有关详细信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
+
+## 控制在“日历”视图中显示多少记录
+
+>[!NOTE]
+>
+>* 预览： 2025年9月4日
+>* 生产快速发布： 2025年10月15日
+>* 适用于所有客户的生产： 2025年10月16日
+
+我们在记录页面的“日历”视图工具栏中添加了行高度设置。 您现在可以通过为视图的行高度选择以下选项之一，来选择日历单元格中显示的记录数：
+
+* 短
+* 标准
+* 媒介
+* 高
+* 适合内容
+
+仅当日历视图按月显示时，该设置才可用。 当日历按周显示时，此设置不可用。
+
+有关详细信息（包括每个选项的限制），请参阅[管理日历视图](/help/quicksilver/planning/views/manage-the-calendar-view.md)。
+
+
+## 在表视图中添加选择类型字段的新选项
+
+>[!NOTE]
+>
+>* 预览： 2025年9月4日
+>* 生产快速发布： 2025年10月15日
+>* 适用于所有客户的生产： 2025年10月16日
+
+更新表格视图中的字段值时，您现在可以向单选或多选字段添加新选项。 例如，当Status的单选字段有三个选项，而您想有第四个选项时，您可以在编辑表格视图中记录的Status字段时添加它。
+
+在此增强功能之前，您只能通过编辑字段来添加新选项。
+
+>[!NOTE]
+>
+>仅当更新表格视图中的字段值时，此功能才可用。
+
+
+有关信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
 
 ## 统一请求列表中新的组合状态列
 
@@ -77,8 +184,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >预览： 2025年8月7日
->&#x200B;>所有客户的生产:August， 2025
->&#x200B;>[!BADGE 超出计划]{type=Neutral}
+>>所有客户的生产:August， 2025
+>>[!BADGE 超出计划]{type=Neutral}
 
 我们向Workfront Planning中的公式字段和Workfront中的计算自定义字段添加了具有以下用法的新表达式：
 
@@ -93,8 +200,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >预览： 2025年7月31日
->&#x200B;>适用于所有客户的生产： 2025年7月31日
->&#x200B;>[!BADGE 超出计划]{type=Neutral}
+>>适用于所有客户的生产： 2025年7月31日
+>>[!BADGE 超出计划]{type=Neutral}
 
 我们在记录表视图中创建或编辑公式字段时，添加了“最大化”按钮以放大该字段。 此外，我们在新的放大窗口中添加了“最小化”按钮，以还原到字段创建框。
 
@@ -143,8 +250,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >预览： 2025年7月24日
->&#x200B;>生产快速发布： 2025年8月14日
->&#x200B;>适用于所有客户的生产： 2025年10月16日
+>>生产快速发布： 2025年8月14日
+>>适用于所有客户的生产： 2025年10月16日
 
 现在，您可以在时间轴上的任意位置双击来在记录类型的时间轴视图中创建记录。
 
@@ -159,8 +266,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >预览： 2025年7月24日
->&#x200B;>生产快速发布： 2025年8月14日
->&#x200B;>适用于所有客户的生产： 2025年10月16日
+>>生产快速发布： 2025年8月14日
+>>适用于所有客户的生产： 2025年10月16日
 
 您现在可以从工作区页面上记录类型卡片的更多菜单共享记录类型。 在此增强功能之前，购股权仅在记录类型页面内可用。
 
@@ -171,8 +278,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >预览： 2025年7月24日
->&#x200B;>生产快速发布： 2025年8月14日
->&#x200B;>适用于所有客户的生产： 2025年10月16日
+>>生产快速发布： 2025年8月14日
+>>适用于所有客户的生产： 2025年10月16日
 
 您现在可以在全屏模式下显示所有Workfront Planning视图（表、时间轴和日历）。 视图功能将保留，您也可以在全屏模式下更改视图。
 
@@ -185,8 +292,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >预览： 2025年7月22日
->&#x200B;>快速发布生产： 2025年8月14日
->&#x200B;>适用于所有客户的生产： 2025年10月16日
+>>快速发布生产： 2025年8月14日
+>>适用于所有客户的生产： 2025年10月16日
 
 为了使审批流程更灵活，我们增加了在Planning请求表单上添加团队作为审批者的功能。 现在，您可以在设置批准者时输入和选择团队名称。 任何团队成员都可以做出决定，这被视为整个团队的批准决定。
 
@@ -199,8 +306,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >预览： 2025年7月17日
->&#x200B;>快速发布生产： 2025年8月14日
->&#x200B;>适用于所有客户的生产： 2025年10月16日
+>>快速发布生产： 2025年8月14日
+>>适用于所有客户的生产： 2025年10月16日
 
 我们引进了以下字段，用于捕获通过提交经批准的请求而创建的记录的批准信息：
 
@@ -214,8 +321,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >预览： 2025年7月10日
->&#x200B;>生产快速发布： 2025年8月14日
->&#x200B;>适用于所有客户的生产： 2025年10月16日
+>>生产快速发布： 2025年8月14日
+>>适用于所有客户的生产： 2025年10月16日
 
 
 现在，当您将分组应用于表视图时，向表中添加记录将自动填充与您将记录添加到的分组相关联的字段。

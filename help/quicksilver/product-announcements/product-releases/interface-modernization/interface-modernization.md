@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 31cc110fb4fba38a530406acc1f42a89159e029b
+source-git-commit: 09c41ed117660c67c3890ebbaabae73c60cd4a9a
 workflow-type: tm+mt
-source-wordcount: '7469'
+source-wordcount: '7542'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,13 @@ ht-degree: 0%
 有关Adobe Workfront的所有其他更改，请参阅[产品版本](/help/quicksilver/product-announcements/product-releases/product-releases.md)。
 
 ## 管理和设置
+
+### 新记分卡和复制记分卡框的界面更新
+
+**预览版本： 2025年9月4日；生产版本： 2025年9月11日**
+
+我们更新了新记分卡和复制记分卡框的外观，以便与应用程序其他区域中的设计相匹配。 在Workfront的“设置”区域中创建或复制记分卡时，您可以查看更新的设计。\
+有关信息，请参阅[创建记分卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)。
 
 ### 组中布局模板列表的界面更新
 
@@ -217,7 +224,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->暂时从预览和生产中删除
+>在“预览”中提供，并将从2025年9月4日开始分阶段在“生产”环境中提供。
 
 我们更新了小时部分中记录项目、任务或问题的时间时记录时间框的外观，以匹配Workfront其他区域的设计。
 
