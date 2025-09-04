@@ -4,10 +4,10 @@ description: Workfront UI Extensions 由 Adobe App Builder 提供支持，允许
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: dcdae47ffd4a02ac9a0bbd3cd9bd1418f6c59e1a
+source-git-commit: 6355bbbabf233a6e3b577c45084236b4a46144e5
 workflow-type: tm+mt
-source-wordcount: '1693'
-ht-degree: 1%
+source-wordcount: '2178'
+ht-degree: 0%
 
 ---
 
@@ -21,12 +21,12 @@ Workfront UI扩展提供了几项主要优势：
 
 * 精确定制：标准软件界面往往无法满足所有业务需求。 UI扩展允许开发人员修改和扩展默认用户界面，以满足特定业务需求。
 * 系统集成： UI扩展有助于集成其他系统，确保无缝的工作流和数据一致性。
-* 可扩展性：随着业务的增长，可以开发UI扩展来添加新功能，而无需全面的系统大修。
+* 可扩展性：随着业务的增长，可以开发UI扩展来添加新功能，而无需全面修订系统。
 * 缩短开发时间：预建的扩展点和工具可显着减少实施自定义功能所需的时间和精力。
 * 增强的用户采用率：优化的用户体验可以显着提升软件采用率。 根据用户偏好设计的自定义UI元素可以提高采用率和整体满意度。
 * 利用Workfront UI扩展，企业可以创建量身定制的用户体验，从而提高效率、集成和用户满意度。
 
-在Adobe App Builder中创建应用程序后，Workfront管理员可以使用布局模板将其添加到Workfront主菜单和左侧导航面板。 具有布局模板的用户点击应用程序后，将看到应用程序嵌入到Workfront中，而不必单独打开它。
+在Adobe App Builder中创建应用程序后，Workfront管理员可以使用布局模板将其添加到Workfront主菜单和左侧导航面板。 使用布局模板单击该应用程序的用户会看到该应用程序嵌入到Workfront中，而不必单独打开它。
 
 本文介绍了如何访问App Builder并使用模板创建应用程序。
 
@@ -87,7 +87,7 @@ Workfront UI扩展提供了几项主要优势：
 
    >[!IMPORTANT]
    >
-   >如果您看不到从模板创建项目的选项，则表明您在Admin Console中的配置有误，并且无权访问App Builder目录。 仅当您有权访问AppBuilder时，才会显示此选项。
+   >如果您没有看到从模板创建项目的选项，则表示您在Admin Console中的配置错误，并且无权访问App Builder目录。 仅当您有权访问AppBuilder时，才会显示此选项。
 
    ![从模板创建](assets/create-from-template.png)
 
@@ -99,7 +99,7 @@ Workfront UI扩展提供了几项主要优势：
 
 1. 单击&#x200B;**保存**。
 
-## 使用Adobe IO (aio) CLI
+## 使用Adobe Developer (aio) CLI
 
 Adobe提供了一个开源CLI，您可以使用它创建App Builder应用程序。
 
@@ -135,6 +135,8 @@ GitHub和Adobe Developer网站上提供了其他说明：
 
    有关项目中文件夹和文件的详细信息，请参阅[Adobe开发人员网站](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application)。
 
+有关项目中文件夹和文件的详细信息，请参阅[Adobe Developer网站](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application)。
+
 ## 在VSCode中构建扩展
 
 要通过Workfront主菜单或辅助导航（左侧面板）启用导航，需要App.js文件配置。
@@ -152,13 +154,13 @@ GitHub和Adobe Developer网站上提供了其他说明：
 在ExtensionRegistration函数中，您应该会看到以下代码。 此代码由模板为您创建。 可以添加此代码以创建其他菜单项。 请务必替换ID和URL。
 
     “
-    mainMenu： &lbrace;
+    mainMenu： {
     
-    getItems() &lbrace;
+    getItems() {
     
-    return &lbrack;
+    return [
     
-    &lbrace;
+    {
     
     id： &#39;main-menu-label&#39;，
     
@@ -168,13 +170,13 @@ GitHub和Adobe Developer网站上提供了其他说明：
     
     icon： icon1，
     
-    &rbrace;，
+    }，
     
-    &rbrack;；
+    ]；
     
     ，
     
-    &rbrace;
+    }
     “
 ”
 1. 添加以下代码片段：
@@ -218,11 +220,170 @@ GitHub和Adobe Developer网站上提供了其他说明：
 
 1. 保存您所做的工作。
 
+### 使用Workfront自定义表单嵌入应用程序
+
+表单构件扩展点是Adobe Workfront中的一项UI扩展功能，它允许您创建可嵌入到Workfront自定义表单中的自定义构件。 与添加导航项或菜单选项的其他扩展点不同，小组件提供了一种在自定义表单字段的专用面板中显示自定义内容的方式。
+
+小组件是模块化UI组件，可作为表单字段添加到Workfront自定义表单中。 它们提供了一种方法，可直接在自定义表单界面中显示自定义功能、数据可视化或外部内容，从而让用户在填写表单时与自定义逻辑交互。
+
+#### 配置构件扩展
+
+与主菜单和辅助导航的UI扩展点类似，“小组件”扩展点通常在`ExtensionRegistration`字段中配置于`ExtensionRegistration.js`组件的methods对象中。 这意味着使用表单构件只需要在app.js中的`extesionregistration`中添加一个具有有效路由的“构件”项目：
+
+```
+javascript 
+
+
+Apply to ExtensionReg... 
+
+widgets: { 
+
+  getItems() { 
+
+    return [ 
+
+      { 
+
+        id: "test2", 
+
+        url: "/index.html#/widgets1", 
+
+        label: "Test Widget with dimensions", 
+
+        dimensions: { 
+
+          height: 450, 
+
+          width: 300, 
+
+          maxHeight: 600, 
+
+          maxWidth: 400, 
+
+        }, 
+
+      }, 
+
+      { 
+
+        id: "test", 
+
+        url: "/index.html#/widgets1", 
+
+        label: "Test Widget without dimensions", 
+
+      }, 
+
+    ]; 
+
+  }, 
+
+}, 
+```
+
+#### 构件配置属性
+
+**必需属性**
+
+* id（字符串）：小组件的唯一标识符。 在扩展中的所有构件中必须唯一。
+
+* url（字符串）：指向构件内容的URL路径。 这应该指向扩展中呈现构件组件的路由。
+
+* 标签（字符串）：在自定义表单字段选择界面中显示的小组件的显示名称。
+
+**可选属性**
+
+* 维度（对象）：指定小组件的显示维度。 所有属性都是可选的，只有这些属性才有可能：
+
+* 高度（数字）：小部件的高度（以像素为单位）
+
+* 宽度（数字）：小组件的宽度（像素）
+
+* maxHeight (number)：构件的最大高度（以像素为单位）
+
+* maxWidth（数字）：构件的最大宽度（以像素为单位）
+
+**Dimension属性**
+
+利用dimensions对象，可控制构件的大小和布局限制：
+
+* 高度和宽度：设置构件的初始/首选大小
+
+* maxHeight和maxWidth：设置上限以防止构件变得过大
+
+* 响应行为：构件可以在这些约束内响应
+
+* 表单集成：维度可帮助确保构件很好地符合表单字段布局
+
+#### Dimension配置示例
+
+```
+// Fixed size widget 
+
+dimensions: { 
+
+  height: 300, 
+
+  width: 250, 
+
+} 
+
+// Flexible height with width constraint 
+
+dimensions: { 
+
+  width: 300, 
+
+  maxHeight: 500, 
+
+} 
+
+// Height constraint only 
+
+dimensions: { 
+
+  height: 400, 
+
+  maxWidth: 350, 
+
+} 
+
+// No dimensions - uses default sizing 
+
+{} 
+```
+
+#### 上下文数据
+
+小组件有权访问与其他扩展点相同的共享上下文，包括：
+
+* 身份验证：包含IMS令牌的身份验证信息
+
+* 对象代码：对象类型代码（任务、项目、问题等）
+
+* objID：对象标识符
+
+* 主机名：Workfront实例主机名
+
+* 协议：连接协议
+
+* 用户：当前用户信息
+
+* isLoginAs：用户是否以其他用户身份登录
+
+* isInBulkEditing：如果表单当前处于批量编辑模式。 如果是，则上下文包含多个对象ID值。
+
+#### 向Workfront自定义表单添加构件
+
+可以使用“UI扩展”字段类型将应用程序嵌入到Workfront自定义表单中。 添加字段并选择表单构件后，构件列表将基于IMS组织中的活动应用程序或本地活动应用程序（当`extensionoverride=TRUE`时）。
+
+自定义表单中的![UI扩展字段](assets/ui-extensions-field.png)
+
 ### 配置应用程序.js
 
 1. 转到App.js。
 
-1. 该模板将为主菜单选项提供一个路由。 路由定义URL路径与针对这些路径呈现的组件之间的映射。 要添加路由，请使用以下代码片段，并确保将确切的路径和元素替换为您的路径和元素。
+1. 模板将为“主菜单”选项提供路由。 路由定义URL路径与针对这些路径呈现的组件之间的映射。 要添加路由，请使用以下代码片段，并确保将确切的路径和元素替换为您的路径和元素。
 
    ```
        <Route 
@@ -238,6 +399,7 @@ GitHub和Adobe Developer网站上提供了其他说明：
 1. 保存您所做的工作。
 
 有关开发和运行该应用程序的详细信息，请参阅[Adobe开发人员网站](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#develop-the-application)。
+
 
 ## 共享上下文
 
@@ -262,14 +424,14 @@ Workfront的UI扩展共享用户数据。 通过共享上下文提供的用户�
 
 在为Workfront开发App Builder应用程序时，您可能需要在Workfront中测试您的应用程序而不发布它。
 
-在App Builder应用程序中，您可以启动`aio app run`以进行本地开发。 这将为您提供一个URL，通常类似于`https://localhost:9080`。 或者，您可以执行`aio app deploy`以获取静态Adobe域。 请务必记下这些URL以供将来使用。
+在App Builder应用程序中，您可以启动`aio app run`以进行本地开发。 这为您提供了一个URL，通常类似于`https://localhost:9080`。 或者，您可以执行`aio app deploy`以获取静态Adobe域。 请务必记下这些URL以供将来使用。
 
-接下来，导航到要在浏览器中开发的特定页面。 打开开发人员工具并访问workfront.com或workfront.adobe.com的本地存储。 您必须在此添加一个条目。 使用`extensionOverride`作为键，使用以前提到的应用程序生成器URL作为值。
+接下来，导航到要在浏览器中开发的特定页面。 打开开发人员工具并访问workfront.com或workfront.adobe.com的本地存储。 您必须在此添加一个条目。 使用`extensionOverride`作为键，使用以前注明的App Builder URL作为值。
 
 如果配置正确完成，则在Workfront中重新加载布局模板页面时，您将看到App Builder应用程序中的按钮。 将应用程序按钮添加到对象的主菜单和左侧面板，并验证它们是否正确显示在这些区域中。
 
-Adobe开发人员网站上提供了其他说明，并以AEM为例：https://developer.adobe.com/uix/docs/guides/preview-extension-locally/
+Adobe Developer网站上提供了其他说明，例如，AEM网站： https://developer.adobe.com/uix/docs/guides/preview-extension-locally/
 
 ## 发布应用程序并批准提交
 
-要发布并批准应用程序，请按照[Adobe开发人员网站](https://developer.adobe.com/uix/docs/guides/publication/)上的说明操作。
+要发布并批准应用程序，请按照[Adobe Developer网站](https://developer.adobe.com/uix/docs/guides/publication/)上的说明操作。
