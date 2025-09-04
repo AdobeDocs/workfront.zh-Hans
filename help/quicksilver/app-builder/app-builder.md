@@ -154,13 +154,13 @@ GitHub和Adobe Developer网站上提供了其他说明：
 在ExtensionRegistration函数中，您应该会看到以下代码。 此代码由模板为您创建。 可以添加此代码以创建其他菜单项。 请务必替换ID和URL。
 
     “
-    mainMenu： {
+    mainMenu： &lbrace;
     
-    getItems() {
+    getItems() &lbrace;
     
-    return [
+    return &lbrack;
     
-    {
+    &lbrace;
     
     id： &#39;main-menu-label&#39;，
     
@@ -170,13 +170,13 @@ GitHub和Adobe Developer网站上提供了其他说明：
     
     icon： icon1，
     
-    }，
+    &rbrace;，
     
-    ]；
+    &rbrack;；
     
     ，
     
-    }
+    &rbrace;
     “
 ”
 1. 添加以下代码片段：
