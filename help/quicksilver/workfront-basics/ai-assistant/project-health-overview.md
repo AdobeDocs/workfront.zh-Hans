@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
 hide: true
 hidefromtoc: true
-source-git-commit: 420ddfa1f12f21332f460f9dc5fd1393cfc6e435
+source-git-commit: 97b2118b1897f75dea0e45758e3d7f7c3409b234
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: '1862'
 ht-degree: 0%
 
 ---
@@ -68,14 +68,18 @@ AI助手可以为以下对象生成项目运行状况评估：
 
 为了利用项目健康，您的组织必须启用AI助手。
 
-要为贵组织启用AI助手，必须应用以下所有条件：
+要为贵组织启用AI助手和项目运行状况，必须应用以下所有项：
 
 * 贵组织必须已迁移到Adobe IMS (Identity Management System)。
+* 您的组织必须具有Select、Prime或Ultimate Workfront计划
 * 必须启用Adobe Unified Experience。
 * Adobe必须有一个已签署的Adobe Gen AI协议文件。
 * Workfront管理员必须为贵组织中的用户启用AI助手。 通过访问级别启用AI助手。
+* 必须在设置>首选项的AI首选项部分中，同时选择启用AI和项目运行状况选项。
 
-有关详细信息，请参阅[AI助手概述](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)。
+  ![AI首选项部分](assets/ai-preferences.png)
+
+有关详细信息，请参阅[AI助手概述](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)和[配置系统首选项](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
 
 ## AI助手提示列表
 

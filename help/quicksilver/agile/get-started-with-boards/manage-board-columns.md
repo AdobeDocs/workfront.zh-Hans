@@ -6,9 +6,9 @@ description: 默认情况下，新展示板包含三列。 您可以添加更多
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 97b2118b1897f75dea0e45758e3d7f7c3409b234
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1094'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
    <td> <p>新文档：参与者或更高版本 </p>
         <p>或</p> 
-        <p>当前： [!UICONTROL Request]或更高版本 </p></td> 
+        <p>当前： [！UICONTROL Request]或更高版本 </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -121,12 +121,6 @@ ht-degree: 0%
 
 如果信息卡状态与任何现有列策略中设置的任何状态都不匹配，则该信息卡将保留在放置它的列中。
 
->[!NOTE]
->
->动态展示板始终将信息卡放在与其状态匹配的列中，无论列策略是启用还是禁用。 当您刷新展示板时，信息卡将返回到其分配的列。
-> 
->此外，对于所有展示板类型，如果将信息卡从一列移动到另一列（状态相同），则当您刷新展示板时，信息卡将返回到原始列。
-
 1. 访问展示板。
 1. 单击该列上的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单![更多菜单](assets/more-icon-spectrum.png)，然后选择&#x200B;**[!UICONTROL 编辑]**。
 
@@ -174,11 +168,11 @@ ht-degree: 0%
 
    1. 从下拉列表中选择标记。 只有已在[!UICONTROL 标记管理器]中创建的标记才可供选择。 有关添加新标记的信息，请参阅[添加标记](/help/quicksilver/agile/get-started-with-boards/add-tags.md)。
 
-      列![&#128279;](assets/boards-column-tags.png)的标记
+      列![的](assets/boards-column-tags.png)标记
 
 1. 启用&#x200B;**[!UICONTROL 工作进行中限制]**&#x200B;策略以限制可以添加到列中的卡片数量。 然后，在&#x200B;**[!UICONTROL 设置限制]**&#x200B;字段中键入限制数。
 
-   列![&#128279;](assets/boards-wip-limit-in-column.png)的WIP限制
+   列![的](assets/boards-wip-limit-in-column.png)WIP限制
 
    有关详细信息，请参阅[在展示板上管理正在进行的工作(WIP)限制](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)。
 
