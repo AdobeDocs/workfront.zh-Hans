@@ -103,7 +103,7 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing用户角色</p></td> 
    <td><p><ul><li>用于访问营销活动、产品和角色的任何GenStudio用户角色</li>
    <li>GenSudio System Manager访问激活和事件</li></ul>
-   有关信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">用户角色和权限</a>。 
+   有关信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">用户角色和权限</a>。 
    </p>
   </td> 
   </tr>   
