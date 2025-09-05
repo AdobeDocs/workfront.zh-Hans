@@ -3,10 +3,10 @@ title: '[!DNL Adobe Workfront]文档'
 description: ' [!DNL Adobe Workfront]的文档。'
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 4558180667d3812f3b4089b7d599158327a683bf
+source-git-commit: 0a90da6978fc9b380d237dab74af1f14eabb857a
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 1%
+source-wordcount: '426'
+ht-degree: 3%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 1%
 
 >[!TAB 已知问题]
 
-* [已知问题](https://experienceleague.adobe.com/zh-hans/docs/workfront-known-issues/issues/overview)
+* [已知问题](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/overview)
 
 
 >[!ENDTABS]
@@ -64,13 +64,14 @@ ht-degree: 1%
 <tr>
     <td style="text-align: center;"><img src="assets/admin.svg" style="width: 80px; height: 80px;"><p><b>管理员</b></p></td>
     <td colspan="2" style="text-align: center;"><img src="assets/user.svg" style="width: 75px; height: 75px;"><p><b>用户</b></p></td>
-    <td style="text-align: center;"><img src="assets/developer.svg" style="width: 80px; height: 80px;"><p><b>开发人员</b></p></td>
+    <td style="text-align: center;"><img src="assets/developer.svg" style="width: 80px; height: 80px;"><p><b>开发者</b></p></td>
   </tr>
   <tr>
     <td>
     <ul>
     <li><a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md">Workfront管理快速入门</a></li>
-    <li><a href="https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">Workfront Fusion入门</li>
+    <li><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">Workfront Fusion入门</li>
+    <li><a href="/help/quicksilver/app-builder/install-apps-on-exchange.md">从Adobe Exchange获取并安装应用程序</a></li>
     </ul>
  </td>
     <td>
@@ -88,9 +89,10 @@ ht-degree: 1%
         <li><a href="/help/quicksilver/resource-mgmt/workload-balancer/overview-workload-balancer.md">开始审阅和批准</a></li>
         </ul></td>
     <td><ul>
-        <li><a href="/help/quicksilver/wf-api/general/api-basics.md">API基础知识</a></li>
+        <li><a href="/help/quicksilver/wf-api/general/api-basics.md">API 基础知识</a></li>
         <li><a href="https://developer.adobe.com/workfront/api-explorer/">API 资源管理器</a></li>
         <li><a href="/help/quicksilver/workfront-integrations-and-apps/workfront-integrations.md">Workfront集成</a></li>
+        <li><a href="/help/quicksilver/app-builder/app-builder.md">使用Adobe App Builder为Workfront创建自定义应用程序</a></li>
         </ul></td>
   </tr>
 </table>
@@ -108,8 +110,8 @@ ht-degree: 1%
 
 ### 探索学习和培训部分
 
-* **培训资料**：导航到[Workfront培训](https://experienceleague.adobe.com/zh-hans/browse/workfront)页面，查看旨在帮助您更好地了解Workfront功能和设置的培训视频和文章库。 您还可以在[learning.adobe.com](https://learning.adobe.com/)访问付费培训材料。
-* **课程**：查找[结构化学习课程](https://experienceleague.adobe.com/home?lang=zh-Hans&Solution=Workfront#courses)，这些课程可指导您按逻辑顺序使用各种Workfront功能。
+* **培训资料**：导航到[Workfront培训](https://experienceleague.adobe.com/en/browse/workfront)页面，查看旨在帮助您更好地了解Workfront功能和设置的培训视频和文章库。 您还可以在[learning.adobe.com](https://learning.adobe.com/)访问付费培训材料。
+* **课程**：查找[结构化学习课程](https://experienceleague.adobe.com/home?Solution=Workfront#courses)，这些课程可指导您按逻辑顺序使用各种Workfront功能。
 
 ### 在社区论坛中查找答案
 

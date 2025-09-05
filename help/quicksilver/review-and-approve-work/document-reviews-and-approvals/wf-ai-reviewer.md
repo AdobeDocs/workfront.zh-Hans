@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: e20e26ef11046ed252725f8c5431469642845b52
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '638'
 ht-degree: 4%
 
 ---
@@ -51,9 +51,11 @@ AI审阅者可审阅以下文件类型：
 * WEBP (.webp)
 * 非动画GIF (.gif)
 
+如果上传的文件类型不受支持，则在创建批准时不显示AI查看器选项。
+
 ## 设置品牌指南
 
-Workfront AI审阅者在审阅内容时，会使用Genstudio基础中设置的品牌准则。 目前，您只能设置图像的品牌指南。 有关详细信息，请参阅[Adobe GenStudio for Performance Marketing入门](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/get-started)。
+Workfront AI审阅者在审阅内容时，会使用Genstudio基础中设置的品牌准则。 目前，您只能设置图像的品牌指南。 有关详细信息，请参阅[Adobe GenStudio for Performance Marketing入门](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started)。
 
 
 ## 创建AI审阅者
