@@ -6,7 +6,7 @@ description: 项目的状态为置于其上的标志，用于指示与其关联�
 author: Alina
 feature: Work Management
 exl-id: 1f46386e-e1ae-4845-8cc4-09dd7d39076f
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: b7f59552e5b66a3b2db765a49abdb2f49b1a51ec
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Adobe Workfront管理员可以为您的环境创建自定义条件，如[创建�
 <p>标准</p>
 
 对于当前许可证：
-<ul><li><p>计划</p>
+<ul><li><p>规划</p>
     </td> 
   </tr> 
   <tr> 
@@ -61,9 +61,9 @@ Adobe Workfront管理员可以为您的环境创建自定义条件，如[创建�
 
 ## 自动设置条件
 
-自动设置项目条件由项目的条件类型确定。 完成情况类型必须设置为“进度状态”，Workfront才能自动设置项目完成情况。
+自动设置项目条件由项目的条件类型确定。 完成情况类型必须设置为“进度状态”，Workfront才能自动设置项目完成情况。
 
-在“设置”区域中设置项目首选项时，您的Workfront或组管理员会为系统中的新项目确定“条件类型”字段的默认值。 有关详细信息，请参阅[配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
+在“设置”区域中设置项目首选项时，您的Workfront或组管理员会为系统中的新项目确定“条件类型”字段的默认值。 有关详细信息，请参阅[配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
 
 创建项目时，会自动设置项目的完成情况以匹配当时的项目进度状态。 项目的进度状态基于项目上任务的进度。
 
@@ -78,7 +78,7 @@ Adobe Workfront管理员可以为您的环境创建自定义条件，如[创建�
 
 1. 确保&#x200B;**条件类型**&#x200B;字段设置为&#x200B;**手动**。
 
-   ![](assets/project-details-overview-edit-enabled-with-condition-shot-nwe-350x251.png)
+   ![](assets/project-details-overview-select-condition.png)
 
 1. 在&#x200B;**条件**&#x200B;字段中，从以下选项中选择一个符合您对与其关联的工作是否顺利进行或是否有任何延迟的理解的选项：
 

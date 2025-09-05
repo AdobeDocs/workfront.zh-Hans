@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: f62d8f681fa75d2b18d78d7918df46734fa61e2e
+source-git-commit: b7f59552e5b66a3b2db765a49abdb2f49b1a51ec
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '647'
 ht-degree: 2%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td>
+   <td>[！UICONTROL系统管理员]</td>
   </tr> 
  </tbody> 
 </table>
@@ -118,18 +118,23 @@ ht-degree: 2%
 
      编辑项目时![更改完成情况](assets/change-condition-edit-project-0825.png)
 
-   <!-- 
-   * When a user is changing the condition for a task or issue on the Updates tab:
-
-     ![Change condition when updating comment](assets/change-condition-update-comment.png)
-   -->
-
    * 当用户更改列表视图中任务或问题的条件时：
 
-     ![更改列表](assets/change-conditions-list-dropdown-only.png)中的条件
+     ![更改列表](assets/change-conditions-list-dropdown-0925.png)中的条件
+
+     >[!NOTE]
+     >
+     >在默认的“条件”视图中，**条件**&#x200B;字段是无法内联编辑的字段类型。 当您单独将&#x200B;**条件**&#x200B;字段添加到视图时，该字段是可编辑的。 有关内联编辑的信息，请参阅[在Adobe Workfront的列表中内联编辑项](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)。
 
 1. 单击&#x200B;**保存**。
 
 您可以将自定义条件设置为项目或任务和问题的默认条件。 有关详细信息，请参阅[将自定义条件设置为项目的默认值](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md)和[将自定义条件设置为任务和问题的默认值](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md)。
 
 有关自定义条件的详细信息，请参阅[自定义条件](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)。
+
+
+<!-- THIS WAS ORIGINALLY BETWEEN THE OTHER TWO BULLETS.
+   * When a user is changing the condition for a task or issue on the Updates tab:
+
+     ![Change condition when updating comment](assets/change-condition-update-comment.png)
+   -->

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 50c3cddbd11f2fe9d9bb30f66d8e690f88390f33
+source-git-commit: 5ecf925ce1fdf5da75b0736d226b11ce6cbaf3fd
 workflow-type: tm+mt
-source-wordcount: '3425'
+source-wordcount: '3185'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/cn/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -106,20 +106,22 @@ ht-degree: 0%
 
   您无法重置Workfront管理员的密码。
 
-* **&lt;SSO配置>用户名**：如果您的Workfront管理员启用了与Workfront的SSO集成，则SSO用户名将显示在此字段中。 此字段将显示为您的Workfront实例启用的SSO配置类型。
-* **OnlyAllow &lt;SSO Configuration>身份验证**：如果您的Workfront管理员启用了与Workfront的SSO集成，并更新了SSO的所有用户，则默认情况下会选择此字段。 此字段将显示为您的Workfront实例启用的SSO配置类型。
+<!--
+* **&lt;SSO Configuration&gt; Username**: If your Workfront administrator enabled an SSO integration with Workfront, the SSO Username displays in this field. The type of SSO configuration enabled for your Workfront instance is visible in this field.
+* **OnlyAllow &lt;SSO Configuration&gt; Authentication**: If your Workfront administrator enabled an SSO integration with Workfront and has updated all users for SSO, this field is selected by default. The type of SSO configuration enabled for your Workfront instance is visible in this field.
+  
+  When this field is selected, the user is required to log into Workfront with their SSO credentials. Unchecking it will allow them to log in to Workfront with their Workfront credentials.
 
-  如果选择此字段，用户需要使用其SSO凭据登录Workfront。 取消选中此项将允许他们使用其Workfront凭据登录Workfront。
+  For more information about configuring Workfront with an SSO solution, see [Overview of single sign-on in Adobe Workfront](/help/quicksilver/administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
-  有关使用SSO解决方案配置Workfront的更多信息，请参阅[Adobe Workfront中的单点登录概述](/help/quicksilver/administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)。
-
-  有关更新SSO用户的详细信息，请参阅[更新单点登录的用户](/help/quicksilver/administration-and-setup/add-users/single-sign-on/update-users-sso.md)。
+  For more information about updating users for SSO, see [Update users for single sign-on](/help/quicksilver/administration-and-setup/add-users/single-sign-on/update-users-sso.md).
 
   >[!NOTE]
   >
-  >如果您是组管理员，则只能为您指定组的用户编辑&lt;SSO配置>字段。 此外，还必须在您的访问级别中启用“用户管理员（组用户）”权限。
+  >If you are a group administrator, you can edit the &lt;SSO Configuration&gt; fields only for users in the groups where you are designated as such. Also, the User Admin (Group Users) permission must be enabled in your access level.
   >
-  >如果您是组管理员，并且在访问级别中启用了用户管理员（所有用户）权限，则可以编辑所有用户的&lt;SSO配置>字段。
+  >If you are a group administrator and you have the User Admin (All Users) permission enabled in your access level, you can edit the &lt;SSO Configuration&gt; fields for all users.
+-->
 
 * **个人资料照片**：单击&#x200B;**上传新照片**&#x200B;以加载用户的个人资料照片。 您可以上传JPG、GIF或PNG文件。 文件大小限制为4 MB。
 
@@ -148,7 +150,9 @@ ht-degree: 0%
   >
   >此选项仅在预览和沙盒环境中可用。 默认情况下，生产环境中启用了电子邮件通知。
 
-* **将我分配给自己的工作发送到我的“正在处理”选项卡**：选择此选项时，用户自行分配的工作将自动设置为“进行中”状态而不是“新建”状态。<!--This setting refers to a deprecated feature that has been removed from Workfront.-->
+<!--* **Automatically set the task status to In Progress when tasks are self-assigned**: When this option is selected, work that the user self-assigns is automatically set to In Progress status instead of New.-->
+
+<!--**Send work I assign to myself to my Working On tab**: This setting refers to a deprecated feature that has been removed from Workfront.-->
 
 * **上载文档时自动生成验证**：如果希望用户上载的文档立即生成验证，请选中此选项。
 

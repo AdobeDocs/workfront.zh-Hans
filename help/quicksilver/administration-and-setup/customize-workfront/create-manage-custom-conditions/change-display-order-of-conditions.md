@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9a489e8-0ffe-4f52-bbd9-172e7273048c
-source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
+source-git-commit: b7f59552e5b66a3b2db765a49abdb2f49b1a51ec
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,11 @@ ht-degree: 0%
 
 * 当用户更改任务或问题的条件时
 
-  ![更改列表](assets/change-conditions-list-dropdown-only.png)中的条件
+  ![更改列表](assets/change-conditions-list-dropdown-0925.png)中的条件
+
+  >[!NOTE]
+  >
+  >在默认的“条件”视图中，**条件**&#x200B;字段是无法内联编辑的字段类型。 当您单独将&#x200B;**条件**&#x200B;字段添加到视图时，该字段是可编辑的。 有关内联编辑的信息，请参阅[在Adobe Workfront的列表中内联编辑项](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)。
 
 ## 访问要求
 
@@ -51,7 +55,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td>
+   <td>[！UICONTROL系统管理员]</td>
   </tr> 
  </tbody> 
 </table>
