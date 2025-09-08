@@ -6,7 +6,7 @@ description: 您可以通过将工作项拖放到正确用户，使用Adobe Work
 author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: 69ac06c36440d9fbbf0c8c9f3e019374da2e2f91
+source-git-commit: bf1a8e4384360554c6245b455650f30976e82ce1
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开以查看本文中各项功能的访问要求。 
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -95,7 +95,7 @@ ht-degree: 0%
    >* 显示所有用户选项仅在项目的工作负载均衡器中可用。
    >* 使用筛选器可仅显示对您重要的用户。 例如，使用筛选器可仅显示团队或组中的用户。
 
-1. 单击工作项<span class="preview">或角色分配</span>的栏，该栏指示计划或预计时间线，并将其拖动到&#x200B;**已分配**&#x200B;区域中的用户名称上。
+1. 单击工作项<span class="preview">或角色分配</span>的栏，该栏指示计划的或计划的时间表，并将其拖动到&#x200B;**已分配**&#x200B;区域中的用户的小时数。
 
    将鼠标悬停在其上以将工作项放置到的用户会突出显示。
 
