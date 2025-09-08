@@ -5,9 +5,9 @@ description: 可以通过输入提示或提供文档来使用AI自动填写请�
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: b8c29ecb30dda449bc604f585a06b5a6663994f9
+source-git-commit: 3351a928ba20d1509f99a63c98b3e106c58fb43f
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1336'
 ht-degree: 2%
 
 ---
@@ -121,41 +121,54 @@ AI可帮助您根据输入的提示自动填写请求字段。 它还可以基�
 
 这些示例显示人工智能可引用其他项目的各种方式的提示。
 
-* 引用过去的客户营销活动
+#### 引用过去的客户营销活动
 
-  ```
-  Create a similar campaign request as we did for (Client Company)'s Q2 launch, but this time for their Automotive division. Keep the same deliverable set and audience profile.
-  ```
+>[!BEGINSHADEBOX]
 
-* 基于现有项目构建
+创建类似于我们（客户公司）在第2季度发布活动中所做的营销活动请求，但这次是针对他们的汽车部门。 保留相同的可交付结果集和受众配置文件。
 
-  ```
-  Use the same setup we had in the (Client Company) project kickoff last spring. I want to run a digital ad campaign targeting the same executive audience, but with updated dates for this quarter.
-  ```
+>[!ENDSHADEBOX]
 
-* 重用过去交付项中的样式
+#### 基于现有项目构建
 
-  ```
-  Prepare a request similar to the (Client Company) summer promotion campaign we ran last year. Focus on social media assets, keep Spanish as the primary language, and adjust the budget to $75,000.
-  ```
+>[!BEGINSHADEBOX]
 
-* 展开旧版营销活动类型
+使用我们在（客户公司）去年春季项目启动时所用的相同设置。 我想要开展一场以同一高管受众为目标的数字广告营销活动，并包含更新后的本季度日期。
 
-  ```
-  Take the (Client Company) webinar series campaign from Q1 as a reference. I want the same registration workflow and assets, but this time the topic is 'AI in Financial Planning' and the audience is young professionals.
-  ```
+>[!ENDSHADEBOX]
 
-* 重复对其他产品的请求
+#### 重用过去交付项中的样式
 
-  ```
-  Set up a campaign request just like the (Client Company) rebranding project we handled, but replace with (New Client Company) as the client. Keep all deliverables aligned to corporate branding.
-  ```
+>[!BEGINSHADEBOX]
 
-* 含隐式引用的叙述样式
+准备类似于去年运行的（客户公司）夏季促销活动的请求。 专注于社交媒体资产，保持西班牙语作为主要语言，并将预算调整至75,000美元。
 
-  ```
-  We're planning a campaign similar to the holiday social ads we ran last year. Budget should be about 50k, goal is lead generation, and deliverables should include Instagram and TikTok assets.
-  ```
+>[!ENDSHADEBOX]
+
+#### 展开旧版营销活动类型
+
+>[!BEGINSHADEBOX]
+
+请参考第一季度的（客户公司）网络研讨会系列促销活动。 我想要相同的注册工作流程和资产，但这一次的主题是“财务规划中的人工智能”，观众是年轻的专业人士。
+
+>[!ENDSHADEBOX]
+
+#### 重复对其他产品的请求
+
+>[!BEGINSHADEBOX]
+
+设置营销活动请求，就像我们处理的（客户公司）品牌重塑项目一样，但将替换为（新客户公司）作为客户。 使所有交付项与公司品牌保持一致。
+
+>[!ENDSHADEBOX]
+
+#### 含隐式引用的叙述样式
+
+>[!BEGINSHADEBOX]
+
+我们正在策划一场类似于去年投放的假日社交广告的营销活动。 预算应约为5万，目标是创造潜在客户，交付成果应包括Instagram和TikTok资源。
+
+>[!ENDSHADEBOX]
+
 
 ## 根据您上传的文档获取建议
 
