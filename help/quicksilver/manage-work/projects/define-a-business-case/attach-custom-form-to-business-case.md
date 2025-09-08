@@ -5,9 +5,9 @@ description: 自定义Forms用于收集未显示在现有Adobe Workfront字段�
 author: Alina
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -70,19 +70,19 @@ ht-degree: 0%
 
 ## 将自定义Forms附加到业务案例
 
-要将自定义从添加到业务案例，您的Workfront管理员需要在“设置”中选择此选项。 有关在设置中启用自定义表单的更多信息，请参阅[配置系统范围项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)一文中的[配置系统范围项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)部分。
+要将自定义从添加到业务案例，您的Workfront管理员需要在“设置”中选择此选项。 有关在设置中启用自定义表单的详细信息，请参阅[配置系统范围项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
 
 要附加自定义表单，请执行以下操作：
 
-1. 转到要将表单附加到的项目，然后单击左侧面板中的&#x200B;**业务案例**。
+1. 转到要将表单附加到的项目，然后单击左侧面板中的&#x200B;**业务案例**。 此时将显示业务案例。
 
-   此时将显示业务案例。
+1. 在&#x200B;**自定义表单**&#x200B;分区中，从下拉菜单中选择要附加的自定义表单。 自定义表单显示在下面的&#x200B;**添加的表单**&#x200B;部分中。
 
-1. 在&#x200B;**自定义表单**&#x200B;分区中，从下拉菜单中选择要附加的自定义表单。
+1. （可选）要展开自定义表单详细信息，请单击自定义表单名称左侧的箭头。
 
-   <!--![Custom forms dropdown](assets/custom-forms-drop-down-menu.png)-->
+   ![展开自定义表单详细信息](assets/expand-custom-form-details.png)
 
-1. （可选）选择&#x200B;**编辑自定义表单**。\
-   <!--![Edit custom form](assets/acf1-350x122.png)-->
+<!--1. (Optional) Select&nbsp;**Edit Custom Form**.  
+  ![Edit custom form](assets/acf1-350x122.png)
 
-1. （可选）在自定义表单的字段中指定信息，然后单击&#x200B;**保存** 。
+1. (Optional) Specify information in the fields of the custom form, then click&nbsp;**Save** . -->

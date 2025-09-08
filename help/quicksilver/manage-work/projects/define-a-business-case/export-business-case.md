@@ -6,9 +6,9 @@ description: 您可以将商业案例导出到PDF文件，以防您需要打印�
 author: Alina
 feature: Work Management
 exl-id: 834c56c4-ca11-4aff-b67e-0eac9fa23403
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -52,13 +52,12 @@ ht-degree: 0%
 
 ## 导出业务案例
 
-1. 转到要从中导出业务案例的项目。
+{{step1-to-projects}}
+
+1. 在&#x200B;**项目**&#x200B;页面上，选择要从中导出业务案例的项目。
 1. 单击左侧面板中的&#x200B;**业务案例**。
-1. 在右上角&#x200B;**业务案例摘要**&#x200B;区域，单击&#x200B;**导出**。
+1. 在&#x200B;**业务案例摘要**&#x200B;区域的右上角，单击&#x200B;**导出**。 PDF文件已下载到您的计算机。
 
-   &lt;！—![业务案例摘要](assets/bc-summary--350x587.png)—>\
-   PDF   文件已下载到您的计算机。 该文件以易于阅读的格式包含业务案例的所有方面。
+   ![业务案例摘要](assets/bc-summary.png)
 
-   <!--![BC_Summary_exported.png](assets/bc-summary-exported-350x160.png)-->
 
-1. （可选）将PDF文件附加到电子邮件，或打印该文件以与其他人共享。

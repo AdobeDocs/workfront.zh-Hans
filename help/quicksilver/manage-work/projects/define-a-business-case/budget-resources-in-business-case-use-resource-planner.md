@@ -5,9 +5,9 @@ description: 作为资源计划的一部分，您可以在构建业务案例时�
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1224'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -106,13 +106,13 @@ ht-degree: 0%
 
 1. （可选且视情况而定）如果项目信息是通过Scenario Planner上的计划发布的，请执行以下操作之一：
 
-   * 在&#x200B;**中选择资源规划者选择要用于计算项目预算劳力成本的小时数**&#x200B;字段，然后单击&#x200B;**选择>编辑资源预算**。
+   * 在&#x200B;**中选择资源规划者选择要用于计算项目预算劳力成本的小时数**&#x200B;字段，然后单击&#x200B;**选择** > **编辑资源预算**。
 
-     <!--![Business case in Resource Planner](assets/business-case-rp-selected-with-choose-button-350x120.png)-->
+   <!-- ![Business case in Resource Planner](assets/business-case-rp-selected-with-choose-button-350x120.png)-->
 
    * 如果为项目选择了方案规划者来预算资源，请单击&#x200B;**更改** > **编辑资源预算**。
 
-     <!--![Business case in Scenario Planner](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)-->
+     <!-- ![Business case in Scenario Planner](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)-->
 
    它使用项目的预算小时数来计算项目的预算劳力成本。
 
@@ -180,7 +180,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >您可以在“资源预算”区域中显示的任何时间范围内为资源预算小时数、FTE或成本，这与项目的时间表无关。 例如，如果您想指出您的资源在项目时间线中可能不可用（这些资源与计划小时数关联），但在其他时间可能可用，则可以通过为计划小时数为零的时间范围编列预算来实现此目的，前提是这些资源在计划小时数变为可用时可用。
+   >您可以在“资源预算”区域中显示的任何时间范围内为资源预算小时数、FTE或成本，这与项目的时间表无关。 例如，如果您想指出您的资源在项目的时间表中可能不可用（这些资源与计划小时数关联），但在其他时间可能可用，则可以通过为计划小时数为零的时间表编列预算来实现此目的，前提是这些资源在计划小时数为零时可工作。
 
 1. （可选）要了解您是否可以将预算小时数、FTE或成本移动到另一个时间范围，请单击&#x200B;**选项**&#x200B;图标，然后单击&#x200B;**调整预算日期**。
 
