@@ -4,10 +4,10 @@ description: 这是一篇内部文章，供我们的团队保留用于访问要�
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 4745b93e02c9de087afbee752e0303280e52d688
+source-git-commit: 12b7638472b2138896a283283d368b4092a1e67b
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 1%
+source-wordcount: '1138'
+ht-degree: 2%
 
 ---
 
@@ -420,10 +420,10 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅文档[中的](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation)访问要求。
+有关此表中信息的更多详细信息，请参阅文档[中的](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation)访问要求。
 
 
-有关Adobe Workfront Fusion许可证的信息，请参阅[Adobe Workfront Fusion许可证](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
+有关Adobe Workfront Fusion许可证的信息，请参阅[Adobe Workfront Fusion许可证](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
 
 ## 高级企业控制
 
@@ -450,3 +450,37 @@ ht-degree: 1%
 * 为子组分配组管理员
 * 允许组管理员创建子组
 
+## 验证的访问要求
+
+## 访问要求
+
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront包</td> 
+   <td> <p>任何</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td>  <p>标准</p>
+   <p>工作或计划</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">校样权限配置文件 </td> 
+   <td>经理或更高版本</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">验证角色</td> 
+   <td>审阅人、审阅人和审批人、审查方、作者</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">访问级别配置*</td> 
+   <td> <p>编辑对文档的访问权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;要了解您拥有什么计划、角色或验证权限配置文件，请联系您的Workfront或Workfront Proof管理员。
