@@ -7,9 +7,9 @@ author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 8fdf48c5b17a17e4dd1ef2e441659155ae0b9905
+source-git-commit: db08403c62cc85d6ccb705bb84c9c277e94f8635
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '538'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >画布功能板目前仅适用于参与Beta测试阶段的用户。 在此阶段，部分功能可能无法完成或无法按预期工作。 请按照以下[提供反馈](#provide-feedback)部分中的说明提交任何有关您体验的反馈。<br>
->&#x200B;>请注意，以下云提供商未提供此测试版：
+>>请注意，以下云提供商未提供此测试版：
 >
 >* 自带Amazon Web Services密钥
 >* Azure
@@ -55,7 +55,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><p>访问级别配置</p></td> 
-   <td><p>编辑对报告、功能板和日历的访问权限</p>
+   <td><p>系统管理员访问权限以启用画布仪表板</p>
   </td> 
   </tr>  
 </tbody> 
@@ -73,9 +73,15 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   > 仅当您的组织受邀参加测试版时，**加入画布功能板Beta版**&#x200B;按钮才可用。
+   > 仅系统管理员可访问&#x200B;**加入画布功能板Beta版**&#x200B;按钮。 所有其他用户都将在已停用状态下看到此按钮。
 
 1. 查看&#x200B;**Beta协议**&#x200B;框中的条款，然后单击&#x200B;**同意**。 您现在已注册Beta版。 请注意，可能需要几分钟时间，您的Workfront数据才能在画布功能板中完全访问。
+
+   >[!NOTE]
+   >
+   >接受测试版条款后，将为Workfront环境中的所有用户启用“画布功能板”功能。 任何对功能板具有“查看和管理”权限的用户都可以按照其访问级别查看和编辑画布功能板。<br>
+   >请注意，画布功能板登陆页面的可见性通过用户分配的布局模板进行控制。 有关详细信息，请参阅[创建和管理布局模板](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。
+
 
 ## 提供反馈
 
