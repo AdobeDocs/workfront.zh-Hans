@@ -4,10 +4,10 @@ description: 记录类型是Adobe Workfront Planning的对象类型。 在Workfr
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
+source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 1%
+source-wordcount: '651'
+ht-degree: 0%
 
 ---
 
@@ -33,6 +33,8 @@ recommendations: noDisplay, noCatalog
 
 有关信息，请参阅[为记录类型配置跨工作区功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。
 
+在将记录从集中记录类型添加到工作区之前，请参阅文章[集中记录类型概述](/help/quicksilver/planning/architecture/centralized-record-types-overview.md)。
+
 ## 访问要求
 
 +++ 展开以查看本文中各项功能的访问要求。
@@ -48,7 +50,7 @@ recommendations: noDisplay, noCatalog
 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront包*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront包</p></td> 
    <td> 
 <ul><li><p>任何Workfront包</p></li>
 与
@@ -73,24 +75,9 @@ recommendations: noDisplay, noCatalog
 </tbody> 
 </table>
 
-*有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++   
-
-## 集中记录类型概述
-
-从其他工作区添加现有记录类型时的注意事项
-
-* 当没有将记录类型配置为添加到另一个工作区时，在创建记录类型时不会显示从另一个工作区导入记录类型的选项。<!--add this a tip in the steps below, and/ or add a Conditional step that this is possible only when these record types are first enabled-->
-* 从另一个工作区添加记录类型后，还将从现有记录类型添加以下信息：
-
-   * 字段
-   * 记录连接
-
-* 只有在您具有其他工作区的权限时，才能查看从这些工作区添加的记录。
-
-* 只能在其原始工作区中编辑记录类型，包括其字段。 不能从添加该代码的工作区对其进行编辑。
-* 从所有工作区添加的记录将对从所有工作区访问这些记录的所有用户可见，即使这些记录是在没有权限的工作区中创建的。
 
 ## 从现有记录类型创建记录类型
 
@@ -101,21 +88,41 @@ recommendations: noDisplay, noCatalog
 1. 单击&#x200B;**继续**。
 1. 在&#x200B;**选择记录类型**&#x200B;框中，单击要从现有工作区添加的记录类型的卡片，然后单击&#x200B;**添加**。
 
-   记录类型将添加到您选择的工作区，并且会发生以下情况：
+   记录类型将添加到您选择的工作区。
 
-   * **跨工作区记录类型**&#x200B;图标![跨工作区连接图标](assets/global-icon.png)已添加到导入记录类型的卡片中。
-   * 只读&#x200B;**Workspace**&#x200B;字段已添加到导入的记录类型。 字段显示每个记录创建时所在的工作区。
+   >[!TIP]
+   >
+   >当没有将记录类型配置为添加到另一个工作区时，在创建记录类型时不会显示从另一个工作区导入记录类型的选项。
+
+   出现以下情况：
+
+   * 还从现有的集中记录类型中添加了以下信息：
+
+      * 所有原始字段
+      * 所有记录连接
+   * 只有在您至少具有其他工作区的“查看”权限时，才能查看从这些工作区添加的记录。
+   * **集中式记录类型**&#x200B;图标![集中式记录类型图标](assets/global-icon.png)已添加到导入的记录类型的卡片中。
+   * 只读&#x200B;**Workspace**&#x200B;字段已添加到导入的记录类型表视图。 字段显示每个记录创建时所在的工作区。
 
      >[!NOTE]
      >
-     >* 您无法编辑导入的记录类型或其字段。 您可以从原始工作区中编辑记录类型及其字段。
+     >* 无法编辑导入的记录类型的外观、高级设置或原始字段。 只能从原始工作区编辑记录类型及其所有原始字段和设置。
+
+1. （可选）单击，然后将新添加的记录类型拖放到工作区中的任何部分。
+
+1. （可选）单击导入的记录类型卡片中的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，或该记录类型在其页面上的名称右侧，然后单击&#x200B;**共享**&#x200B;以与同一工作区中的其他用户共享。
 
 1. （可选）单击导入的记录类型卡片中的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，或该记录类型在其页面上的名称右侧，然后单击&#x200B;**删除**。
 1. （视情况而定）在提供的字段中键入&#x200B;**删除**，然后单击&#x200B;**永久删除**。
 
-   这会从所选工作区中删除导入的记录类型。 原始记录类型及其字段保留在其原始工作区中。
+   出现以下情况：
 
-   <!--**************************ASK LILIT ON THIS ONE, NOT SURE IF THIS IS TRUE: Any records added in the current workspace are saved in the original workspace.**********-->
+   * 从所选工作区中删除从集中式记录类型创建的记录类型。
+   * 原始记录类型及其字段保留在其原始工作区中。
+   * 从同一集中记录导入的所有其他记录类型都保留在其工作区中。
+   * 从当前工作区添加到记录类型的记录将被删除。 从添加了集中记录类型的附加工作区中添加的所有其他记录都将保留。
+
+
 
 
 

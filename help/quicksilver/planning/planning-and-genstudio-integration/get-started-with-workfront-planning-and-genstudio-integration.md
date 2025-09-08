@@ -4,9 +4,9 @@ description: 当您的公司同时购买这两个产品时，即可在Adobe Work
 hide: true
 hidefromtoc: true
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: 4745b93e02c9de087afbee752e0303280e52d688
+source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
 workflow-type: tm+mt
-source-wordcount: '1765'
+source-wordcount: '1855'
 ht-degree: 0%
 
 ---
@@ -47,8 +47,8 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
 <!--check this list and ensure it's accurate and add/ remove some of the benefits-->
 
 * 在Workfront Planning中查看GenStudio工作区。
-* 在GenStudio中修改营销活动，并在Workfront Planning中实时更新相同信息。
-* 在Workfront Planning中修改促销活动，并在GenStudio中实时更新相同信息。
+* 在GenStudio for Performance Marketing中修改营销活动，并在Workfront Planning中实时更新相同信息。
+* 在Workfront Planning中修改促销活动，并在GenStudio for Performance Marketing中实时更新相同信息。
 * 避免输入重复的数据。
 * 保持规划和激活工作的一致性。
 
@@ -66,9 +66,9 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
 
   有关信息，请参阅[适用于Workfront的Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
-* 同时使用Planning和GenStudio的用户必须只属于IMS组织中的一个Workfront实例。
+* 同时使用Workfront Planning和GenStudio for Performance Marketing的用户必须只属于IMS组织中的一个Workfront实例。
 
-  仅Workfront用户无法查看GenStudio工作区，即使它在Workfront中可用也是如此。
+  仅Workfront用户可以查看GenStudio工作区，即使他们不是GenStudio for Performance Marketing用户。
 
 <!--not sure: true for Planning? This is true for GenS and WF Proof: * The integration must be enabled in the Workfront Setup area.-->
 
@@ -103,7 +103,7 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing用户角色</p></td> 
    <td><p><ul><li>用于访问营销活动、产品和角色的任何GenStudio用户角色</li>
    <li>GenSudio System Manager访问激活和事件</li></ul>
-   有关信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">用户角色和权限</a>。 
+   有关信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">用户角色和权限</a>。 
    </p>
   </td> 
   </tr>   
@@ -112,9 +112,10 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
    <td>  
    <p>在Workfront规划中： </p>
    <ul>
-   <li><p>管理GenStudio工作区的权限以更改工作区的架构、记录类型和字段</p></li>
-   <li><p>向GenStudio工作区分配在GenStudio记录空间中添加、更新或删除记录的权限</p> </li>  
+   <li><p>管理GenStudio工作区的权限以向GenStudio工作区添加新字段或记录类型</p></li>
+   <li><p>向GenStudio工作区提供权限以在GenStudio工作区中添加、更新或删除记录</p> </li>  
    </ul>
+   <p>任何用户都不能从Workfront Planning的GenStudio for Performance Marketing工作区中删除GenStudio记录类型或字段</p>
    <p>在Adobe GenStudio for Performance Marketing中： <p>
    <ul>
    <li><p> Adobe GenStudio for Performance Marketing中的任何权限</p></li>
@@ -129,7 +130,7 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
 有关Adobe GenStudio for Performance Marketing的详细信息，请参阅[Adobe GenStudio for Performance Marketing用户指南](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/home)。
 
 
-## Workfront Planning和GenStudio集成功能概述
+## Workfront Planning和GenStudio for Performance Marketing集成功能概述
 
 根据贵组织拥有的Workfront实例数量，您在Planning中自动对GenStudio工作区具有以下权限：
 
@@ -144,36 +145,35 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
     <tr> 
     <td role="rowheader"><p>一个Workfront实例</p></td> 
    <td> 
-<p>Workfront Planning中有一个GenStudio工作区</p>
-<p>所有有权访问GenStudio和Workfront Planning的用户都拥有GenStudio工作区的“管理”权限</p> 
+<p>GenStudio工作区在您的Workfront Planning实例中可见</p>
+<p>Workfront管理员对Planning中的GenStudio工作区具有管理权限</p>
+<p>所有其他用户均具有在Planning中对GenStudio工作区的“参与”访问权限</p>
 </td> </tr>
    <tr> 
 <td> 
    <p> Workfront的多个实例</p> </td> 
    <td> 
-   <p>每个Workfront Planning实例都有一个GenStudio工作区</p>
-<p>所有有权访问GenStudio和Workfront Planning的用户都拥有每个实例的GenStudio工作区的Contribute权限</p> </td> 
+   <p>GenStudio工作区在所有Workfront实例中均可见</p>
+<p>所有有权访问GenStudio for Performance Marketing和Workfront Planning的用户都拥有对Planning中的GenStudio的“贡献”权限</p> </td> 
   </tr>
-
-</tbody> 
+   </tbody> 
 </table>
 
 有关Workfront Planning权限的信息，请参阅[在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 
 以下各节描述了以下内容：
 
-* 用于从GenStudio更新Workfront Planning信息的功能
-* 用于从Workfront Planning更新GenStudio信息的功能
+* 用于从GenStudio for Performance Marketing更新Workfront Planning信息的功能
+* 用于从Workfront Planning更新GenStudio for Performance Marketing信息的功能
 * 关于在GenStudio工作区中通过Workfront Planning可以管理或无法管理的内容的限制。
 
 <!--maybe make 2 sections here once Iskuhi answers - one for one instance and one for multiple WF instances??-->
 
 <!--add here a link from the GenS articles about what you can/ cannot do from GenStudio that might in the end reflect in Planning - this should come from the GenS team-->
 
-### GenStudio工作区
+### Workfront规划中的GenStudio工作区
 
-* 当您在GenStudio中更新GenStudio工作区时，更改在Planning的GenStudio工作区中可见。
-* GenStudio工作区在Workfront Planning中显示一个视觉指示器，以标识它。
+* GenStudio工作区在Workfront Planning中显示一个视觉指示器，将其标识为表示GenStudio for Performance Marketing工作区。
 
   Planning中的![GenStudio卡](assets/genstudio-card-with-tag-highlighted.png)
 
@@ -188,12 +188,11 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
      您可以与没有GenStudio帐户的其他人共享GenStudio工作区。 您只能与组织的Identity Management System (IMS)中可用的用户共享它。<!--check to see this is correct-->
      <!--* Delete the workspace - check to see if this is possible; the link is there, but???-->
 
-* 当您在Planning中拥有GenStudio工作区的Contribute权限时，无法从Planning中修改工作区。
+* 当您在Planning中拥有GenStudio工作区的Contribute权限时，无法从Workfront Planning中修改工作区。
 
 ### GenStudio工作区中的记录类型
 
-* 在GenStudio中编辑GenStudio记录类型时，更改在Planning的GenStudio工作区中可见。
-* 在GenStudio和Planning中可见的记录类型在Workfront Planning中具有GenStudio指示器。
+* 在GenStudio for Performance Marketing和Planning中可见的记录类型在Workfront Planning中具有GenStudio指示器。
 
   Workfront Planning中的![GenStudio记录类型卡片](assets/genstudio-record-type-with-tag-and-tooltip-highlighted.png)
 * 当您在Planning中拥有GenStudio工作区的管理权限时，您可以从Workfront Planning执行以下操作：
@@ -204,13 +203,13 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
 
 ### GenStudio工作区中的记录
 
-* 在GenStudio中编辑GenStudio记录时，更改在所有Workfront实例中的所有GenStudio工作区中均可见。
-* 您无法从Workfront Planning中创建或删除激活记录。
+* 从GenStudio for Performance Marketing编辑GenStudio记录时，您可以在GenStudio工作区中查看您所有Workfront实例中的更改。
+* 您不能在Workfront Planning的GenStudio工作区中创建或删除激活记录。
 * 当您在Planning中拥有GenStudio工作区的“管理”或“贡献”权限时，您可以从Workfront Planning执行以下操作：
-   * 添加或删除记录，记录便会在GenStudio中可见（或从中删除）。
+   * 添加或删除记录，记录便会在GenStudio for Performance Marketing中可见（或从中删除）。
 
-     从Workfront Planning或GenStudio中删除的记录将放在Workfront Planning最近删除的框中30天。 GenStudio没有最近删除的纸盒。
-   * 从最近删除的站中恢复记录。 恢复已删除的记录会将它们放回Workfront Planning和GenStudio。
+     从Workfront Planning或GenStudio for Performance Marketing中删除的记录将放在Workfront Planning最近删除的框中30天。 GenStudio for Performance Marketing没有最近删除的纸盒。
+   * 从最近删除的站中恢复记录。 恢复已删除的记录会将它们放回Workfront Planning和GenStudio for Performance Marketing。
    * 通过以下方式添加记录：
 
       * 使用“新建记录”按钮从任何视图中手动、从头开始
@@ -223,14 +222,15 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
 
   有关信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
 
-### GenStudio工作区中记录类型的字段
+### GenStudio工作区中的记录类型字段
 
-* 默认情况下，GenStudio记录字段会导入到Workfront Planning。
-* 您不能在GenStudio中添加字段以记录类型。
+* 默认情况下，记录类型字段会从GenStudio for Performance Marketing导入到Workfront Planning。
+* 您无法添加字段以从GenStudio for Performance Marketing记录类型。
+<!--Iskuhi said this is not possible but I can add fields: * You cannot create or delete Activation records' fields from the GenStudio workspace in Workfront Planning. -->
 * 当您在Planning中拥有GenStudio工作区的管理权限时，您可以从Workfront Planning执行以下操作：
 
    * 编辑GenStudio字段设置。
-   * 如果您在Gen Studio中具有“管理”权限，请为GenStudio记录类型创建字段。
+   * 如果您在Gen Studio工作区中具有“管理”访问权限，请为GenStudio记录类型创建字段。
 
      在Planning中为GenStudio记录类型创建字段时，可从以下区域看到它们：
 
@@ -242,7 +242,7 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
      >
      >在Workfront Planning中创建的字段在GenStudio列表视图中不可见。
 
-   * 在Planning中隐藏GenStudio记录类型的表视图中的字段。
+   * 在Workfront Planning中隐藏GenStudio记录类型的表视图中的字段。
 &lt;！—*从Workfront Planning中删除在Workfront Planning中为GenStudio记录类型创建的字段。  — 根据Iskuhi，这是不可能的；链接存在，但会生成错误 — >
 
   <!--this is not true: You cannot delete fields imported from GenStudio from Workfront Planning.-->
@@ -258,18 +258,19 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
 * 在“渠道”和“区域”记录类型中显示的记录将“系统”显示为由用户创建。 在Workfront Planning中创建GenStudio工作区时，会自动创建这些记录。
 * 在Workfront Planning中提供工作区后在GenStudio中创建的记录将显示在创建者字段中创建该记录的IMS用户的名称，即使该用户在GenStudio中创建了这些记录且不是Workfront用户也是如此。
 * 在提交请求表单以在Workfront Planning的GenStudio记录类型中创建记录时，“批准者”字段显示批准者的名称。
+* “创建者”和“批准者”字段显示在GenStudio for Performance Marketing中记录的详细信息中。 它们不显示在列表视图中。
 
 ### 在GenStudio工作区中记录视图
 
 >[!NOTE]
 >
->GenStudio记录类型显示在从GenStudio导入的默认表格视图中。
+>GenStudio记录类型显示在从GenStudio for Performance Marketing列表视图导入的默认表格视图中。
 >
->您无法删除默认从GenStudio导入的原始表格视图。
+>您无法删除默认从GenStudio for Performance Marketing导入的原始表格视图。
 
-* 无法在GenStudio中创建多个视图。
+* 无法在GenStudio for Performance Marketing中创建多个视图。
 
-* 当您在Planning中拥有GenStudio工作区的管理权限时，您可以在Workfront Planning中执行以下操作：
+* 当您在Planning中拥有GenStudio工作区的管理权限时，您可以从Workfront Planning执行以下操作：
 
    * 为GenStudio记录类型创建视图。
 
@@ -277,7 +278,7 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
 
    * 重命名、共享、导出、复制或删除GenStudio记录类型中的任何自定义视图。
 
-* 在Planning中拥有GenStudio工作区的Contribute权限后，您可以在Workfront Planning中执行以下操作：
+* 在Planning中拥有GenStudio工作区的Contribute权限后，您可以从Workfront Planning执行以下操作：
 
    * 为GenStudio记录类型创建视图。
 

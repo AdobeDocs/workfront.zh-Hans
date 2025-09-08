@@ -4,9 +4,9 @@ description: 您可以将记录类型添加到另一个工作区或从另一个�
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
+source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1131'
 ht-degree: 1%
 
 ---
@@ -78,7 +78,7 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront包*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront包</p></td> 
    <td> 
 <ul><li><p>任何Workfront包</p></li>
 与
@@ -103,7 +103,7 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 </tbody> 
 </table>
 
-*有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++   
 
@@ -116,7 +116,9 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 工作区管理员可以将集中式记录类型添加到他们管理的工作区。 还会添加记录类型的原始字段。
 
-用户可以从他们有权参与的任何工作区将记录添加到集中记录类型中，该记录类型被添加到何处，包括其主要工作区。 他们只能从他们有权查看的工作区中查看记录。
+用户可以从他们具有Contribute权限的任何工作区中将记录添加到集中记录类型，并可在其中添加集中记录类型（包括其原始工作区）。 用户可以从他们只有查看权限的工作区中查看记录。
+
+有关详细信息，请参阅[集中式记录类型概述](/help/quicksilver/planning/architecture/centralized-record-types-overview.md)
 
 要将添加记录类型配置为集中记录类型，请执行以下操作：
 
@@ -134,18 +136,29 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
    ![记录类型卡片中的更多菜单选项](assets/more-menu-options-from-record-type-card.png)
 
+   >[!TIP]
+   >
+   >如果记录类型已被指定为集中记录类型，并且已将其添加到其他工作区，则“编辑”选项将灰显。
+
 1. 在&#x200B;**编辑记录类型**&#x200B;框中，选择&#x200B;**高级设置**&#x200B;选项卡。
 1. 启用&#x200B;**允许将此记录类型添加到其他工作区**&#x200B;设置。
 
    ![使用“添加到其他工作区”编辑记录类型高级设置启用](assets/edit-record-type-advanced-settings-add-to-other-workspaces-enabled.png)
 
-1. 在&#x200B;**选择谁可以将此记录类型添加到他们管理的工作区**&#x200B;字段中，添加要允许将此记录类型添加到他们管理的工作区的用户。
+   >[!TIP]
+   >
+   >将集中式记录类型添加到另一个工作区后，此设置将不再被禁用。
+
+1. 在&#x200B;**选择谁可以将此记录类型添加到他们管理的工作区**&#x200B;字段中，添加要允许将此记录类型添加到他们管理的工作区的实体。
 
    您的姓名会自动添加到字段中。
 
    您可以添加要允许其用户将此记录类型添加到其管理的工作区的单个用户或组、团队、职位角色或公司。
 
+   必须至少指定一个实体（用户、团队、组、角色或公司）才能启用此设置。
+
    保存记录类型后，可以编辑此字段。
+
 1. （可选）从&#x200B;**选择谁可以将该记录类型添加到他们管理的工作区**&#x200B;字段中移除您的姓名。
 
 1. 单击&#x200B;**保存**。
@@ -156,10 +169,10 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
    >[!NOTE]
    >
-   >只能从原始工作区中编辑记录类型及其字段。
+   >只能从其原始工作区中编辑记录类型的外观和设置及其原始字段。
 
-   * 记录类型卡显示全局图标![全局记录类型图标](assets/global-icon.png)，以指示该记录类型可以添加到您在配置中指定的管理员所在的任何工作区。
-   * 系统生成的&#x200B;**Workspace**&#x200B;字段已添加到记录类型。
+   * 记录类型卡片显示一个集中式图标![集中式记录类型图标](assets/global-icon.png)，表示该记录类型可以添加到其他工作区。
+   * 系统生成的&#x200B;**Workspace**&#x200B;字段已添加到记录类型及其记录详细信息的表视图。
 
      Workspace字段显示从中创建每个记录的工作区。
 
@@ -178,7 +191,7 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 {{step1-to-planning}}
 
-1. 单击要编辑其记录类型的工作区，
+1. 单击要编辑其记录类型的工作区。
 
    此时会打开工作区页面，并显示记录类型。
 1. 执行下列操作之一：
@@ -194,20 +207,20 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
    ![启用从其他工作区连接的编辑记录类型“高级设置”选项卡](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)
 
-   启用后，记录类型可访问，并可从其他工作区连接。
+   启用后，记录类型可访问，并可从其他工作区连接到。
 
 1. 选择可以访问记录类型的工作区。 从以下选项中进行选择：
 
    * **系统范围**：用户可以从其拥有管理权限的所有工作区连接到此记录类型。
    * **特定工作区**：添加工作区管理员可以连接到此记录类型的工作区的名称。
-1. 单击&#x200B;**编辑**。
+1. 单击&#x200B;**保存**。
 
    出现以下情况：
 
-   * 现在，记录类型及其字段可用于从指定的工作区连接。
-   * 记录类型卡片显示一个跨工作区连接图标![跨工作区连接图标](assets/connect-from-other-workspaces-icon.png)，以指示可以从您在配置中指定的任何工作区连接记录类型。
+   * 现在，记录类型及其字段可用于从指定的工作区连接到。
+   * 记录类型卡片显示一个跨工作区连接图标![跨工作区连接图标](assets/connect-from-other-workspaces-icon.png)，以指示可以从您在配置中指定的任何工作区连接到该记录类型。
 
-   记录类型变为可以从指定的工作区连接。
+   记录类型将变为可以从指定的工作区连接到。
 1. （可选）转到另一个工作区，并将连接添加到在上述步骤中为跨工作区连接性启用的记录类型。
 
    有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
