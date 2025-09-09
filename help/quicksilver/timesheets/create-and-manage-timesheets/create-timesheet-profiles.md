@@ -146,7 +146,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       <td role="rowheader"><strong>可以编辑时间</strong> </td> 
       <td> <p> <p>选择此选项可允许审批者在时间表上编辑小时数。
 
-   <p>此选项与**限制对所有者和管理员编辑时间表**设置&gt;时间表和小时数&gt;首选项区域中的设置一起使用。 有关详细信息，请参阅<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">配置工时表和小时首选项</a>。</p>
+   <p>此选项与&#x200B;**限制对所有者和管理员编辑时间表**&#x200B;设置&gt;时间表和小时数&gt;首选项区域中的设置一起使用。 有关详细信息，请参阅<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">配置工时表和小时首选项</a>。</p>
 
    <p>存在以下情况： </p>
 
@@ -182,7 +182,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
     </tbody> 
     </table>
 
-1. <!--In the Production environment, or when creating group-level timesheet profiles,--> 单击&#x200B;**分配人员**&#x200B;选项卡，将时间表配置文件与特定用户、组或(如果您是Workfront管理员)团队关联。<!--Keep the reference to the group upon release to Prod-->
+1. &#x200B;<!--In the Production environment, or when creating group-level timesheet profiles,--> 单击&#x200B;**分配人员**&#x200B;选项卡，将时间表配置文件与特定用户、组或(如果您是Workfront管理员)团队关联。<!--Keep the reference to the group upon release to Prod-->
 
    <!--<span class="preview">In the Preview environment when creating timesheet profiles for the system, scroll towards the bottom of the page to find the Assign People section.</span>--> <!--Keep the reference to the system when releasing to Prod-->
 
