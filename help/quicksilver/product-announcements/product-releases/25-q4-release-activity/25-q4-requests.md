@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: c7c958b09caf7e15f128a729f6b327f6c3fa21e8
+source-git-commit: 9be63f4242db71b2e08ae528f39d639f8f59c75c
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 >* 生产快速发布： 2025年9月11日
 >* 适用于所有客户的生产： 2025年10月16日
 
-为简化统一请求体验，状态列现在会同时显示请求状态和审批状态，两者均适用于给定请求。
+为简化统一请求体验，“状态”列现在同时显示“请求状态”和“审批状态”（视适用于给定请求而定）。
 
 有关创建请求的更多信息，请参阅：
 
