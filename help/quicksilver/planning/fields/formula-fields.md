@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
+source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 5%
@@ -112,6 +112,18 @@ ht-degree: 5%
 
   有关详细信息，请参阅文章[创建字段](/help/quicksilver/planning/fields/create-fields.md)中的“公式”部分。
 * 您可以在新的公式中引用公式字段。 一旦在公式字段中引用的字段中更新了值，引用该字段的所有后续字段或包含该字段的公式字段将自动更新。
+
+<!--
+<div class="preview">
+
+* When you update a formula field or a field that could impact it, an alert notifies you of the impact of your change. The alert displays in the following cases:   
+
+   * When you update a formula field (excluding name and description changes) when that field has dependent formula or lookup fields. The alert lists those dependent fields and asks you whether you want to continue. 
+
+   * When you delete a field that is used in a formula expression or as a lookup field. The alert lists the dependent formula and lookup fields and asks you whether you want to continue with the deletion.
+
+</div>
+-->
 
 
 <div class="preview">

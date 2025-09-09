@@ -3,19 +3,21 @@ product-area: timesheets;system-administration
 navigation-topic: create-and-manage-timesheets
 title: 创建、编辑和分配时间表配置文件
 description: 您可以创建、编辑和分配时间表配置文件，以便为用户生成周期性时间表，而无需您的任何进一步干预。 这可以节省您的时间并确保用户之间的一致性。
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 5590477efa2beb6590581ce9e5e33e264fb95390
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 1%
+source-wordcount: '1610'
+ht-degree: 2%
 
 ---
 
 # 创建、编辑和分配时间表配置文件
 
 <!--Audited: 06/2025-->
+
+<!--at the Prod release, remove the Production and Preview references from this article-->
 
 <!--<div class="preview">
 
@@ -91,10 +93,10 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    要编辑现有时间表配置文件，请选择要编辑的时间表配置文件，然后单击&#x200B;**编辑**。
 
-   此时会显示新的或现有的周期性时间表。
+   此时会显示新的或现有的时间表配置文件页面。
 
 
-1. 单击&#x200B;**设置详细信息**&#x200B;选项卡，然后更新以下信息：
+1. 单击&#x200B;**设置详细信息**&#x200B;选项卡，然后更新以下信息： <!-- at the Production release, change the order of some of these rows, as they changed in the unshimmed UI-->
 
    <table style="table-layout:auto"> 
     <col> 
@@ -102,7 +104,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>名称</strong> </td> 
-      <td> <p> 为时间表配置文件添加名称。 它可以是一个团队或组的名称，其人员共享的时间表相同。 </p> </td> 
+      <td> <p> 为时间表配置文件添加名称。 它可以是一个团队或组的名称，其人员共享的时间表相同。 </p> <p>这是必填字段。</p> </td> 
      </tr>
 
    <tr> 
@@ -111,10 +113,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       </p> </td> 
      </tr>
 
-
-
    <tr> 
-      <td role="rowheader">具有管理访问权限的<strong>组</strong> </td> 
+   <td role="rowheader">具有管理访问权限的<strong>组</strong> </td> 
       <td> <p> 
       <ul> 
       <li> <p>如果要创建系统级时间表配置文件，请将此字段留空。</p> <p>任何可以编辑用户帐户的用户都可以将系统级时间表附加到其他用户。</p> <p>只有Workfront管理员可以编辑系统级时间表配置文件。</p> </li> 
@@ -132,10 +132,10 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 
    <p><b>注意</b>： Workfront始终同时创建两个时间表：第一个时间表始终包含当前日期，第二个时间表在第一时间表的时间范围结束时开始。</p> </p> </td> 
-    </tr> 
+   </tr> 
      <tr> 
       <td role="rowheader"><p><strong>审批者</strong></p> </td> 
-      <td> <p> <p>批准者是批准与时间表关联的用户的时间表的用户。 您最多可以在一个时间表上将7个用户识别为批准者。 确定多个用户对于确保审批者在某人不在办公室时可用非常有用。 当用户提交时间表进行批准时，所有批准者都会收到通知。 仅需要一个用户批准时间表才能将其批准。</p> <p>只有具有时间表管理权限的用户才能设置为批准者。 有关时间表管理权限的详细信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予用户对特定区域的管理访问权限</a>。</p> <p>使用下拉菜单选择时间表的批准者（如果需要批准者）。 您可以从以下选项中进行选择：</p> 
+      <td> <p> <p>批准者是批准与时间表关联的用户的时间表的用户。 您最多可以在一个时间表上将7个用户识别为批准者。 确定多个用户对于确保审批者在某人不在办公室时可用非常有用。 当用户提交时间表进行批准时，所有批准者都会收到通知。 仅需要一个用户批准时间表才能将其批准。</p> <p>只有具有时间表管理权限的用户才能设置为批准者。 有关时间表管理权限的详细信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予用户对特定区域的管理访问权限</a>。</p> <p>使用下拉菜单选择时间表的批准者（如果需要批准者）。 您可以从下列选项中进行选择：</p> 
       <ul> 
       <li><strong>无</strong>：不需要批准时间表。</li> 
       <li><strong>他们的经理</strong>：这是系统设置的默认审批者。 在这种情况下，在提交工时表供审批时，被指定为其经理的用户将审批该工时表。</li> 
@@ -146,9 +146,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       <td role="rowheader"><strong>可以编辑时间</strong> </td> 
       <td> <p> <p>选择此选项可允许审批者在时间表上编辑小时数。
 
-   此选项与“设置”>“时间表和小时数”>“首选项”区域中的&#x200B;**限制所有者和管理员编辑时间表**&#x200B;设置一起使用。 有关详细信息，请参阅<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">配置工时表和小时首选项</a>。
+   <p>此选项与**限制对所有者和管理员编辑时间表**设置&gt;时间表和小时数&gt;首选项区域中的设置一起使用。 有关详细信息，请参阅<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">配置工时表和小时首选项</a>。</p>
 
-   存在以下情况：
+   <p>存在以下情况： </p>
 
    <ul>
       <li>启用<b>限制对所有者和管理员编辑时间表</b>选项时：</li>
@@ -182,7 +182,11 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
     </tbody> 
     </table>
 
-1. 单击&#x200B;**分配人员**&#x200B;选项卡，将时间表配置文件与特定用户、组或(如果您是Workfront管理员)团队关联。 开始键入用户、组或团队的名称，然后当它出现在下拉列表中时单击它。
+1. <!--In the Production environment, or when creating group-level timesheet profiles,--> 单击&#x200B;**分配人员**&#x200B;选项卡，将时间表配置文件与特定用户、组或(如果您是Workfront管理员)团队关联。<!--Keep the reference to the group upon release to Prod-->
+
+   <!--<span class="preview">In the Preview environment when creating timesheet profiles for the system, scroll towards the bottom of the page to find the Assign People section.</span>--> <!--Keep the reference to the system when releasing to Prod-->
+
+   开始键入用户、组或团队的名称，然后当它出现在下拉列表中时单击它。
 
    如果您是组管理员，您可以将时间表配置文件分配给您管理的组，但不能分配给团队。 有关详细信息，请参阅本文中的[组管理员分配时间表配置文件](#limitations-for-a-group-administrator-assigning-a-timesheet-profile)的限制。
 
@@ -229,4 +233,4 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 * 不同用户集的独特审批者
 * 不同用户集的独特常规小时要求
 
-一个用户一次不能与多个时间表配置文件关联。 
+一个用户一次不能与多个时间表配置文件关联。

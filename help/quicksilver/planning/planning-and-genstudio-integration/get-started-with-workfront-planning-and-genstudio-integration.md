@@ -4,9 +4,9 @@ description: 当您的公司同时购买这两个产品时，即可在Adobe Work
 hide: true
 hidefromtoc: true
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
+source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
 workflow-type: tm+mt
-source-wordcount: '1855'
+source-wordcount: '1899'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing用户角色</p></td> 
    <td><p><ul><li>用于访问营销活动、产品和角色的任何GenStudio用户角色</li>
    <li>GenSudio System Manager访问激活和事件</li></ul>
-   有关信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">用户角色和权限</a>。 
+   有关信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">用户角色和权限</a>。 
    </p>
   </td> 
   </tr>   
@@ -146,15 +146,18 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
     <td role="rowheader"><p>一个Workfront实例</p></td> 
    <td> 
 <p>GenStudio工作区在您的Workfront Planning实例中可见</p>
-<p>Workfront管理员对Planning中的GenStudio工作区具有管理权限</p>
-<p>所有其他用户均具有在Planning中对GenStudio工作区的“参与”访问权限</p>
+<p>默认情况下，所有用户(包括Workfront管理员)都拥有对Planning中GenStudio工作区的参与权限</p>
+<p>Workfront管理员可以修改对GenStudio工作区的管理权限并将其授予任何人</p>
 </td> </tr>
    <tr> 
 <td> 
    <p> Workfront的多个实例</p> </td> 
    <td> 
    <p>GenStudio工作区在所有Workfront实例中均可见</p>
-<p>所有有权访问GenStudio for Performance Marketing和Workfront Planning的用户都拥有对Planning中的GenStudio的“贡献”权限</p> </td> 
+<p>默认情况下，所有有权访问GenStudio for Performance Marketing和Workfront Planning的用户都拥有对Planning中GenStudio的Contribute权限</p> 
+<p>Workfront管理员不能向任何人授予GenStudio工作区的“管理”权限</p>
+
+</td> 
   </tr>
    </tbody> 
 </table>
@@ -199,6 +202,8 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
    * 编辑GenStudio记录类型信息（其外观、高级设置）。
    * 与其他人共享GenStudio记录类型。
    * 创建记录类型。 这些记录类型仅保留在Workfront Planning中。 它们不会显示在GenStudio中。
+   * 启用GenStudio工作区中的记录，以连接其他工作区。
+   * 允许将来自GenStudio工作区的记录添加到其他工作区。
 * 当您在Planning中拥有GenStudio工作区的Contribute权限时，无法从Planning中修改GenStudio记录类型。
 
 ### GenStudio工作区中的记录
