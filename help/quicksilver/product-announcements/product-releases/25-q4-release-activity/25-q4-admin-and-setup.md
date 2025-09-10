@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: a4aa7a6f8909dc3f7212f78391f28068d50a2786
+source-git-commit: 2bcba734ebfa8efbef8f401394a576c59ae22d5d
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,11 @@ ht-degree: 0%
 有关启用AI功能的先决条件，请参阅[AI助手先决条件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
 
 ## Workfront用户个人资料的更新
+
+>[!IMPORTANT]
+>
+>此更新已暂时从预览和生产中删除。
+
 
 >[!NOTE]
 >
