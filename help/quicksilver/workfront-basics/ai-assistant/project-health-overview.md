@@ -7,10 +7,10 @@ feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
 hide: true
 hidefromtoc: true
-source-git-commit: 97b2118b1897f75dea0e45758e3d7f7c3409b234
+source-git-commit: 16e8213197e881d4d7b1a4b1bf8d3a43438ab938
 workflow-type: tm+mt
-source-wordcount: '1862'
-ht-degree: 0%
+source-wordcount: '1488'
+ht-degree: 2%
 
 ---
 
@@ -121,18 +121,47 @@ AI助手可以为以下对象生成项目运行状况评估：
     <tr>
         <td><b>项目完成情况</b></td>
         <td><b>项目进度状态</b></td>
+        <td><b>项目完成情况因素</b></td>
     </tr>
     <tr>
         <td>准时</td>
-        <td>当项目的进度状态为准时时，项目完成情况为准时。</td>
+        <td>当以下因素的平均风险级别处于健康阈值内时，将分配此分析。
+        </td>
+        <td> 
+        <ul><li>范围蔓延</li>
+        <li>缺少字段</li>
+        <li>计划变更</li>
+        <li>低估的工作</li>
+        <li>项目进度</li>
+        <li>逾期任务</li>
+        <li>预算</li>
+        </ul></td>
     </tr>
     <tr>
         <td>处于风险中</td>
-        <td>当项目的进度状态为落后或存在风险时，项目状态为存在风险。</td>
+        <td>当以下因素的平均风险水平刚好低于健康阈值时，即分配此分析。</td>
+        <td>
+        <ul><li>范围蔓延</li>
+        <li>缺少字段</li>
+        <li>计划变更</li>
+        <li>低估的工作</li>
+        <li>项目进度</li>
+        <li>逾期任务</li>
+        <li>预算</li>
+        </ul></td>
     </tr>
     <tr>
         <td>存在问题</td>
-        <td>当项目的进度状态为延迟时，项目状态为处于风险中。</td>
+        <td>当以下因素的平均风险级别低于健康阈值时，将分配此分析。</td>
+        <td>
+        <ul><li>范围蔓延</li>
+        <li>缺少字段</li>
+        <li>计划变更</li>
+        <li>低估的工作</li>
+        <li>项目进度</li>
+        <li>逾期任务</li>
+        <li>预算</li>
+        </ul></td>
     </tr>
     </tr>
    </table>
@@ -264,57 +293,60 @@ AI助手可以为以下对象生成项目运行状况评估：
 
 1. 查看项目的运行状况详细信息后，单击AI助手右上角的&#x200B;**关闭**&#x200B;图标![关闭图标](assets/close-icon.png)以将其关闭。
 
+<!--
 
-## 在画布功能板中构建项目运行状况表报告
+## Build a Project Health table report in a Canvas Dashboard
 
 >[!IMPORTANT]
 >
->画布功能板目前仅适用于参与Beta测试阶段的用户。 有关详细信息，请参阅[画布功能板测试版信息](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)。
+>The Canvas Dashboards feature is currently only available for users participating in the beta stage. For more information, see [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md). 
 
-您可以将表报表添加到画布功能板，以便轻松地以表格式显示项目运行状况数据。
+You can add a table report to a Canvas Dashboard in order to easily visualize your Project Health data in a table format.  
 
-### 先决条件
+### Prerequisites 
 
-必须先创建功能板，然后才能构建表格报表。
+You must create a dashboard before you can build a table report. 
 
-有关详细信息，请参阅[创建画布功能板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)。
+For more, see [Create a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
-### 生成项目运行状况表报告
+### Build a Project Health table report 
 
-有许多配置选项可用于构建项目运行状况表报告。 在本节中，我们将引导您完成创建显示以下列的列的过程：
+There are many configuration options available for building a Project Health table report. In this section, we'll walk you through the process of creating one that displays the following columns: 
 
-* **名称**：包含项目名称。
-* **项目运行状况分析**：包含项目运行状况评估的摘要。
-* **项目运行状况创建于**：包含上次生成项目运行状况评估的日期/时间。
-* **项目运行状况标签**：包含项目的标签(例如瞄准目标、处于风险或陷入困境)。
+* **Name**: Contains the project name. 
+* **Project Health Analysis**: Contains a summary of the Project Health assessment. 
+* **Project Health Created At**: Contains the date/time when the Project Health assessment was last generated. 
+* **Project Health Label**: Contains the project's label (e.g. On Target, At Risk, or In Trouble).
 
 {{step1-to-dashboards}}
 
-1. 在左侧面板中，单击&#x200B;**画布功能板**。
-1. 单击右上角的&#x200B;**新建仪表板**。
-1. 在&#x200B;**创建仪表板**&#x200B;框中，输入仪表板的&#x200B;**名称**&#x200B;和&#x200B;**描述**。
-1. 单击&#x200B;**创建**。
-1. 在&#x200B;**添加报告**&#x200B;框中，选择&#x200B;**创建报告**。
-1. 在左侧，选择&#x200B;**表**。
-1. 单击右上角的&#x200B;**创建报告**。
-1. （可选）请按照以下步骤配置&#x200B;**详细信息** ![详细信息图标](assets/details-icon.png)部分：
-   1. 输入报告&#x200B;**名称**。
-   1. 输入报告&#x200B;**描述**。
-1. 按照以下步骤配置&#x200B;**生成表** ![生成表图标](assets/drilldown-column.png)部分：
-   1. 在左侧面板中，单击&#x200B;**表列**&#x200B;图标。
-   1. 单击&#x200B;**添加列**，然后选择&#x200B;**项目** > **名称**。
-   1. 单击&#x200B;**添加列**，然后选择&#x200B;**项目** > **项目运行状况** > **运行状况分析**。
-   1. 单击&#x200B;**添加列**，然后选择&#x200B;**项目** > **项目运行状况** > **创建时间**。
-   1. 单击&#x200B;**添加列**，然后选择&#x200B;**项目** > **项目运行状况** > **运行状况标签**。
+1. In the left panel, click **Canvas Dashboards**. 
+1. In the upper-right corner, click **New Dashboard**. 
+1. In the **Create dashboard** box, enter the dashboard's **Name** and **Description**. 
+1. Click **Create**. 
+1. In the **Add report** box, select **Create report**. 
+1. On the left side, select **Table**. 
+1. In the upper-right corner, click **Create report**. 
+1. (Optional) Follow the steps below to configure the **Details** ![Details icon](assets/details-icon.png) section: 
+    1. Enter a report **Name**. 
+    1. Enter a report **Description**. 
+1. Follow the steps below to configure the **Build table** ![Build table icon](assets/drilldown-column.png) section: 
+    1. In the left panel, click the **Table columns** icon. 
+    1. Click **Add column**, then select **Project** > **Name**. 
+    1. Click **Add column**, then select **Project** > **Project Health** > **Health Analysis**. 
+    1. Click **Add column**, then select **Project** > **Project Health** > **Created At**. 
+    1. Click **Add column**, then select **Project** > **Project Health** > **Health Label**. 
 
-1. 按照以下步骤配置&#x200B;**筛选器** ![筛选器图标](assets/filter-icon.png)部分：
-   1. 在左侧面板中，单击&#x200B;**筛选器**&#x200B;图标。
-   1. 选择&#x200B;**编辑筛选器**。
-   1. 单击&#x200B;**添加条件**，然后指定要作为筛选依据的字段以及定义该字段必须符合何种条件的修饰符。 该列显示在右侧的预览部分中。
-   1. （可选）单击&#x200B;**添加筛选器组**&#x200B;以添加另一组筛选条件。 集合之间的缺省运算符是AND。 单击运算符以将其更改为OR。
+1. Follow the steps below to configure the **Filter** ![Filter icon](assets/filter-icon.png) section: 
+    1. In the left panel, click the **Filter** icon. 
+    1. Select **Edit filter**. 
+    1. Click **Add condition** and then specify the field you want to filter by and the modifier that defines what kind of condition the field must meet. The column appears in the preview section on the right.
+    1. (Optional) Click **Add filter group** to add another set of filtering criteria. The default operator between the sets is AND. Click the operator to change it to OR. 
 
-1. 按照以下步骤配置&#x200B;**深入分析组设置** ![组设置](assets/drilldown-group-icon.png)部分：
-   1. 在左侧面板中，单击&#x200B;**群组设置**&#x200B;图标。
-   1. 单击&#x200B;**添加分组**&#x200B;按钮，然后选择要创建为分组的字段。 分组列显示在右侧的预览部分中。
+1. Follow the steps below to configure the **Drilldown Group Settings** ![Group settings](assets/drilldown-group-icon.png) section: 
+    1. In the left panel, click the **Group Settings** icon. 
+    1. Click the **Add grouping** button and then select the field you want to create as a grouping. The grouping column appears in the preview section on the right. 
 
-1. 单击&#x200B;**保存**&#x200B;以创建报告。
+1. Click **Save** to create the report.
+
+-->
