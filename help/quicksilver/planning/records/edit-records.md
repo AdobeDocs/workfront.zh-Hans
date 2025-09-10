@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
 source-wordcount: '2688'
 ht-degree: 0%
@@ -246,6 +246,8 @@ ht-degree: 0%
 1. <span class="preview">将鼠标悬停在记录栏的末尾上，单击，将其边距拖放到其他日期。 这会自动更新记录的开始日期或结束日期。</span>
 
    时间轴视图上的<span class="preview">![左端栏可调整大小](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
+
+<!--1. <span class="preview">Click a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>-->
 
 1. 单击记录栏以打开其详细信息区域并编辑所有字段。
 

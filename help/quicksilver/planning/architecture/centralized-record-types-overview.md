@@ -3,7 +3,7 @@ title: 集中式记录类型概述
 description: 可在Adobe Workfront Planning中将集中记录类型从中央或主工作区添加到多个工作区。
 hidefromtoc: true
 hide: true
-source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 0%
@@ -96,7 +96,7 @@ recommendations: noDisplay, noCatalog
 
    * 编辑它
 
-     不能编辑其外观、跨工作区功能或从原始工作区导入的字段。
+     不能编辑其外观、跨工作区功能或从原始工作区添加的字段。
    * 创建请求表单
    * 管理申请表
 

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
-source-wordcount: '3910'
+source-wordcount: '3920'
 ht-degree: 2%
 
 ---
@@ -114,13 +114,6 @@ ht-degree: 2%
    * 当“开始”或“结束”日期没有值时
    * 当开始日期在结束日期之后时
 
-<div class="preview">
-
-* 您可以在时间线视图中创建和编辑记录。 有关信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
-* 您可以调整时间轴视图中记录栏的大小，方法是：单击，然后将其边距拖放到新位置。 调整记录栏的大小会立即更新其开始和结束日期。 有关信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
-
-</div>
-
 要管理时间线视图，请执行以下操作：
 
 1. 转到要查看其时间线的记录类型页面。
@@ -158,7 +151,7 @@ ht-degree: 2%
    >在“设置”区域中设置自定义季度后，时间线视图显示自定义季度，而不是传统季度。
    >有关信息，请参阅[启用自定义季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
-1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”**&#x200B;**，然后要求您的Workfront管理员设置自定义季度。
+1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”****，然后要求您的Workfront管理员设置自定义季度。
 
    >[!TIP]
    >
@@ -203,6 +196,20 @@ ht-degree: 2%
 1. （可选）单击&#x200B;**划分**&#x200B;以在时间轴上显示连接的记录。
 
    有关信息，请参阅本文中的[使用划分功能在时间线视图](#break-down-connected-records-in-the-timeline-view)中显示连接的记录。
+1. <span class="preview">要在时间轴视图中创建记录或编辑其日期，请执行下列操作之一：</span>
+
+   * <span class="preview">双击时间轴上的任意位置以创建记录。</span>
+
+     <span class="preview">有关信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。</span>
+
+   * <span class="preview">单击记录栏的末尾，然后将其拖放到新位置。 调整记录栏的大小会立即更新其开始和结束日期。</span>
+
+     <span class="preview">有关信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。</span>
+
+   <!--* <span class="preview">Drag and drop records to update their position and dates in the timeline.</span>
+        <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>-->
+
+
 
 ### 添加过滤器
 

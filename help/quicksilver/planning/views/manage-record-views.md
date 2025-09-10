@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
-source-wordcount: '1211'
-ht-degree: 1%
+source-wordcount: '1216'
+ht-degree: 2%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 1%
 
 ## 访问要求
 
-+++ 展开以查看访问要求。
++++ 展开以查看访问要求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -119,7 +119,7 @@ ht-degree: 1%
 
 *有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-+++
++++   
 
 ## 使用记录视图时的注意事项
 
@@ -146,7 +146,7 @@ ht-degree: 1%
 
 <!--some of these are NOT available right now; if you make this public, comment out the ones not there-->
 
-| 功能 | 表格视图 | 时间线视图 | 日历视图 |
+| 功能 | 表格视图 | 时间线视图 | 日程表视图 |
 |-----------------------------------------------------------------------|------------|---------------|--------------|
 | 在列表或表中显示记录 | ✓ |              | |
 | 默认情况下，将所有字段显示为表中的列 | ✓ |              |    |
@@ -170,6 +170,7 @@ ht-degree: 1%
 | 按周显示记录 |           |               | ✓ |
 | 从视图中导出信息 | ✓ |               |    |
 | <span class="preview">全屏显示</span> | ✓ | ✓ | ✓ |
+| <span class="preview">在视图中创建记录</span> | ✓ | ✓ | ✓ |
 
 ## 创建或编辑视图 {#create-or-edit-views}
 
@@ -187,6 +188,12 @@ ht-degree: 1%
    默认情况下，所选类型的所有记录都会显示在表格视图中。
 
 1. 单击&#x200B;**+视图**&#x200B;以添加新视图。
+
+   <!--at preview release, replace the step above with this one: 
+    1. Depending on which environment you use, do the following: 
+    * In the Production environment, click the **+View** tab. 
+    * <span class="preview">In the Preview environment, click the drop-down icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, then click **+New view**.</span>-->
+
 1. 从以下视图类型中选择：
 
    * 表
@@ -206,6 +213,8 @@ ht-degree: 1%
 >
 >否则，“时间轴”和“日历”选项将灰显。
 >
+
+<!-- replace screen shot at production??-->
 
 ![记录类型列表中的查看类型下拉列表](assets/view-types-drop-down-from-record-type-list.png)
 

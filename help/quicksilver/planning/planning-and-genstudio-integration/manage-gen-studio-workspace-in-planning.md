@@ -4,9 +4,9 @@ description: 当您的公司同时购买了两款产品，并且您的GenStudio 
 hide: true
 hidefromtoc: true
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
-source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
-source-wordcount: '1337'
+source-wordcount: '1335'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ recommendations: noDisplay, noCatalog
 >[!IMPORTANT]
 >
 >本文中描述的步骤说明了当您具有GenStudio工作区的“管理”权限时，如何从Workfront Planning中更新该工作区。
->&#x200B;> 当您对GenStudio工作区具有“贡献”权限时，并非所有功能都可用。
+>> 当您对GenStudio工作区具有“贡献”权限时，并非所有功能都可用。
 >
 >如果贵公司拥有多个Workfront实例，则所有用户都将在Workfront Planning中获得GenStudio工作区的Contribute权限。
 
@@ -78,8 +78,8 @@ recommendations: noDisplay, noCatalog
 <tr> 
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing用户角色</p></td> 
    <td><p><ul><li>用于访问营销活动、产品和角色的任何GenStudio用户角色</li>
-   <li>GenSudio System Manager访问激活和事件</li></ul>
-   有关信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">用户角色和权限</a>。 
+   <li>GenSudio System Manager访问激活 <!--and Events--></li></ul>
+   有关信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">用户角色和权限</a>。 
    </p>
   </td> 
   </tr>   
