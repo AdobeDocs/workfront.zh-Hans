@@ -6,9 +6,9 @@ description: 在Adobe Workfront中，计划工作由项目和任务表示。 但
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: b24b1e481bbe726aaf9810124fcf55bdac866cb0
+source-git-commit: 2c2ccbadd6470773808bbd5a205310fbb1e1944e
 workflow-type: tm+mt
-source-wordcount: '2841'
+source-wordcount: '2856'
 ht-degree: 1%
 
 ---
@@ -163,6 +163,7 @@ Workfront管理员必须创建请求队列的以下组件：
    >* <span class="preview">该列表包括Workfront请求队列和Workfront Planning请求表单。</span>
    >* <span class="preview">您可以按对象类型筛选列表。</span>
    >* <span class="preview">要仅显示Workfront请求队列，请筛选`Issue`对象类型。</span>
+   >* <span class="preview">在新的请求体验中，在与提交的请求相同的列表中找到草稿。</span>
 
 1. （视情况而定）如果切换到包含Workfront Planning的新体验，请选择主题组和队列主题，然后继续更新表单。
 
