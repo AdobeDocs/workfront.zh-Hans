@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: f9e1bfc5670754a8fc4aafb360b41c2721de4154
+source-git-commit: a6aa03157d44da8267faaa77bed83f07a03a24b3
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 使用新的请求体验时，请注意以下事项：
 
-* 现在可以在与已提交请求相同的列表中找到草稿
+* 您当前只能在旧版请求体验中找到草稿。 在新版Experience中，仅当在同一路径中有草稿时，才能在工作流队列中查看草稿。
 * 新Experience当前仅显示过去1.5个月内创建的请求。 要查看旧请求，您可以暂时禁用新体验，并通过旧体验访问旧请求。
 
 以前，Workfront和Workfront Planning请求位于不同的选项卡中，并且过滤器不可自定义。
