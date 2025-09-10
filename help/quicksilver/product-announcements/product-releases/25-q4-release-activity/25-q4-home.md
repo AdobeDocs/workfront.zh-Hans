@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2d8c5d2b-a026-4741-b907-aac4c0eac98f
-source-git-commit: 2fe55f61bd24ebb3ecfe09fff29c4aad2ca33608
+source-git-commit: f9e1bfc5670754a8fc4aafb360b41c2721de4154
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -34,4 +34,8 @@ ht-degree: 0%
 
 您必须启用新的请求体验才能查看新的构件。 您可以在请求区域中启用新的请求体验。
 
+新的“我的请求”小组件仅显示在新请求体验中创建的请求。
+
 有关新的“我的请求”小组件的详细信息，请参阅[使用我的请求](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)。
+
+有关新请求体验的发行说明，请参阅[请求体验的更新](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md#updates-to-requesting-experience)。

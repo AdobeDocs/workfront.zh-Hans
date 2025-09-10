@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: 9be63f4242db71b2e08ae528f39d639f8f59c75c
+source-git-commit: f9e1bfc5670754a8fc4aafb360b41c2721de4154
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,11 @@ ht-degree: 0%
 * 隐藏已提交请求列表中的列并重新排序。
 
 此更新还包含对页面外观的更改。
+
+使用新的请求体验时，请注意以下事项：
+
+* 现在可以在与已提交请求相同的列表中找到草稿
+* 新Experience当前仅显示过去1.5个月内创建的请求。 要查看旧请求，您可以暂时禁用新体验，并通过旧体验访问旧请求。
 
 以前，Workfront和Workfront Planning请求位于不同的选项卡中，并且过滤器不可自定义。
 
