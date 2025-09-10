@@ -42,7 +42,7 @@ recommendations: noDisplay, noCatalog
 >[!IMPORTANT]
 >
 >本文中描述的步骤说明了当您具有GenStudio工作区的“管理”权限时，如何从Workfront Planning中更新该工作区。
->> 当您对GenStudio工作区具有“贡献”权限时，并非所有功能都可用。
+>&#x200B;> 当您对GenStudio工作区具有“贡献”权限时，并非所有功能都可用。
 >
 >如果贵公司拥有多个Workfront实例，则所有用户都将在Workfront Planning中获得GenStudio工作区的Contribute权限。
 
