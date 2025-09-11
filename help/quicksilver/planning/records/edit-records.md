@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 38c397594449856a0f1404848a527b86083654b8
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
-source-wordcount: '2688'
+source-wordcount: '2701'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,6 @@ ht-degree: 0%
 
 +++   
 
-
 ## 有关编辑记录的注意事项
 
 * 如果您获得了工作区的权限，则可以编辑您创建的记录或由其他人创建的记录。
@@ -106,18 +105,7 @@ ht-degree: 0%
    * 记录视图中的记录预览
    * 记录的详细信息页面
    * 内联，在表格视图中。
-<!--* You can edit a record's dates from the following areas:
-        * All areas listed above
-        * <span class="preview">In a timeline view, by resizing the record bars</span>
-         * <span class="preview">In a calendar monthly view, by resizing the record bars</span>
-        For information, see [Create records](/help/quicksilver/planning/records/create-records.md). -->
-
-<!-- when drag and drop is available replace the last 2 points with this:
-
-* <span class="preview">In a timeline view, by resizing the record bars or dragging and dropping the record bars in a new position</span>
-* <span class="preview">In a calendar view, by resizing the record bars when viewing it by month, or by dragging and dropping the record bars in a new position</span>
-    For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
--->
+   * <span class="preview">日历和时间线视图，正在调整<!--or dragging and dropping-->记录的大小。 这将更新记录的日期。</span>
 
 * 当用户编辑视图中的记录时，更改会立即在所有视图中可见，并且记录页面对所有其他用户可见。
 
@@ -258,10 +246,17 @@ ht-degree: 0%
 <!--add another step about drag and drop here when that is available-->
 
 1. 在日历视图中打开记录类型页面。 有关信息，请参阅[管理日历视图](/help/quicksilver/planning/views/manage-the-calendar-view.md)。
-1. （视情况而定）在右上角下拉菜单中选择&#x200B;**月**。
-1. <span class="preview">将鼠标悬停在记录栏的末尾上，单击，将其边距拖放到其他日期。 这会自动更新记录的开始日期或结束日期。</span>
+1. <span class="preview">（视情况而定）将鼠标悬停在日历每月视图中记录栏的末尾上，然后单击，将其边距拖放到其他日期。 这会自动更新记录的开始日期或结束日期。</span>  <!--when the calendar weekly resize is released to Preview, take out "monthly" from the sentence above-->
 
    <span class="preview">![日历视图上的左侧栏以调整大小](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
+
+   <!--At preview release, add one of the following depending on which one is releasing: 
+    Scenario one: only drag and drop in the weekly view is releasing:
+    1. <span class="preview">Click a record bar in the calendar weekly view, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>
+    Scenario two: only drag and drop in the monthly view is releasing:
+    1. <span class="preview">Click a record bar in the calendar monthly view, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>
+    Scenario 3: both the weekly and monthly drag and drop are releasing at the same time:
+    1. <span class="preview">Click a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>-->
 
 1. 单击记录栏以打开其详细信息区域并编辑所有字段。
 

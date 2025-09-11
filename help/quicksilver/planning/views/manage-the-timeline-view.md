@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 38c397594449856a0f1404848a527b86083654b8
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
 source-wordcount: '3920'
 ht-degree: 2%
@@ -151,7 +151,7 @@ ht-degree: 2%
    >在“设置”区域中设置自定义季度后，时间线视图显示自定义季度，而不是传统季度。
    >有关信息，请参阅[启用自定义季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
-1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”**&#x200B;**，然后要求您的Workfront管理员设置自定义季度。
+1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”****，然后要求您的Workfront管理员设置自定义季度。
 
    >[!TIP]
    >
@@ -187,12 +187,6 @@ ht-degree: 2%
 
    1. <span class="preview">（可选）单击&#x200B;**全屏**&#x200B;图标![打开全屏图标](assets/open-full-screen-icon.png)以全屏方式打开视图，然后单击&#x200B;**退出全屏**&#x200B;图标![退出全屏图标](assets/exit-full-screen-icon.png)或键盘上的Escape以退出全屏。 </span>
 
-1. 更新以下视图元素，如以下子部分所述：
-   * [过滤器](#add-filters)
-   * [分组](#add-grouping)
-   * [设置](#edit-the-timeline-view-settings)
-     <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
-
 1. （可选）单击&#x200B;**划分**&#x200B;以在时间轴上显示连接的记录。
 
    有关信息，请参阅本文中的[使用划分功能在时间线视图](#break-down-connected-records-in-the-timeline-view)中显示连接的记录。
@@ -209,7 +203,11 @@ ht-degree: 2%
    <!--* <span class="preview">Drag and drop records to update their position and dates in the timeline.</span>
         <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>-->
 
-
+1. 更新以下视图元素，如以下子部分所述：
+   * [过滤器](#add-filters)
+   * [分组](#add-grouping)
+   * [设置](#edit-the-timeline-view-settings)
+     <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
 
 ### 添加过滤器
 

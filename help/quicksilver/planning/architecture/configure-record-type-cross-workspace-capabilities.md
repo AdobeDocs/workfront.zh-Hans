@@ -4,9 +4,9 @@ description: 您可以将记录类型添加到另一个工作区或从另一个�
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 38c397594449856a0f1404848a527b86083654b8
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1134'
 ht-degree: 1%
 
 ---
@@ -118,7 +118,7 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 用户可以从他们具有Contribute权限的任何工作区中将记录添加到集中记录类型，并可在其中添加集中记录类型（包括其原始工作区）。 用户可以从他们只有查看权限的工作区中查看记录。
 
-有关详细信息，请参阅[集中式记录类型概述](/help/quicksilver/planning/architecture/centralized-record-types-overview.md)
+有关详细信息，请参阅[跨工作区记录类型概述](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 
 要将添加记录类型配置为集中记录类型，请执行以下操作：
 
@@ -179,7 +179,7 @@ Then for the second setting for cross-workspace connections, we'll need a simila
      此字段为只读，无法删除。
 1. （可选）转到另一个工作区并使用现有记录类型创建记录类型。 选择在上述步骤中启用的记录类型。
 
-   有关信息，请参阅[添加现有记录类型](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md)。
+   有关信息，请参阅[从另一个工作区添加现有记录类型](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)。
 
 ## 配置可连接的记录类型
 

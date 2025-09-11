@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
-source-wordcount: '1860'
+source-wordcount: '1874'
 ht-degree: 4%
 
 ---
@@ -111,13 +111,6 @@ ht-degree: 4%
    * 当“开始”或“结束”日期没有值时，记录显示为一天事件
    * 当开始日期在结束日期之后时，该记录不会显示在日历上。
 
-<div class="preview">
-
-* 您可以在日历视图中创建和编辑记录。 有关信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
-* 您可以在日历每月视图中调整记录栏的大小，方法是单击，然后将它们的边距拖放到新位置。 调整记录栏的大小会立即更新其开始和结束日期。 有关信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
-
-</div>
-
 要管理日历视图，请执行以下操作：
 
 1. 转到要查看其日历的记录类型页面。
@@ -141,6 +134,25 @@ ht-degree: 4%
          * 持续一天或更短的记录，显示在日历视图的下半部分。 如果选择显示开始日期和结束日期的小时，则记录会在发生日期的相应时间显示。
 
 1. <span class="preview">（可选）单击&#x200B;**全屏**&#x200B;图标![打开全屏图标](assets/open-full-screen-icon.png)以全屏方式打开视图，然后单击&#x200B;**退出全屏**&#x200B;图标![退出全屏图标](assets/exit-full-screen-icon.png)或键盘上的Escape以退出全屏。 </span>
+
+1. <span class="preview">要在日历视图中创建记录或编辑其日期，请执行下列操作之一：</span>
+
+   * <span class="preview">双击日历上的任意位置以创建记录。</span>
+
+     <span class="preview">有关信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。</span>
+
+   * <span class="preview">在日历每月视图中，单击记录栏的末尾，然后将其拖放到新位置。 调整记录栏的大小会立即更新其开始和结束日期。</span> <!--when resizing in the calendar weekly view is released, modify the sentence above to take out 'monthly', since it will be available in both-->
+
+     <span class="preview">有关信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。</span>
+
+   <!--ADD ONE OF THE FOLLOWING DEPENDING ON WHAT RELEASES: 
+    Scenario 1: drag and drop in the calendar weekly view: 
+    * <span class="preview">In the weekly calendar view, drag and drop records to update their position and dates in the timeline.</span>
+    Scenario 2: drag and drop in the calendar monthly view: 
+    * <span class="preview">In the monthly calendar view, drag and drop records to update their position and dates in the timeline.</span>
+    Scenario 3: drag and drop in the calendar view (both weekly and monthly are supported): 
+    * <span class="preview">Drag and drop records to update their position and dates in the timeline.</span>
+        <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>-->
 
 1. 更新以下视图元素，如以下子部分所述：
    * [过滤器](#add-filters)
