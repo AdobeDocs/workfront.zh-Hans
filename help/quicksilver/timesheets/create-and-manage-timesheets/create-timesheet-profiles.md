@@ -6,9 +6,9 @@ description: 您可以创建、编辑和分配时间表配置文件，以便为�
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 5590477efa2beb6590581ce9e5e33e264fb95390
+source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
 workflow-type: tm+mt
-source-wordcount: '1610'
+source-wordcount: '1695'
 ht-degree: 2%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 2%
 
 <!--at the Prod release, remove the Production and Preview references from this article-->
 
-<!--<div class="preview">
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 从预览版本发布的一周后，所有客户还可以在生产环境中使用相同的功能。
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+有关详细信息，请参阅[接口现代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
 
-</div> -->
+</div>
 
 您可以创建、编辑和分配时间表配置文件，以便为用户生成周期性时间表，而无需您的任何进一步干预。 这节省了您的时间，并确保用户之间的以下内容保持一致：
 
@@ -67,7 +67,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 ## 创建或编辑周期性工时表
 
-<!--
+<!--Old info: 
 <div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p style="color: #ff1493;">Alina drafted an Important note under this heading because Tracy/WorkEx said this is not working as designed - the changes WILL take effect the minute to make them for existing timesheets - see this issue - https://hub.workfront.com/issue/5dba59f600c401cca536567c368aa299/overview</p>
 <p style="color: #ff1493;">Important: The changes you make to an existing timesheet profile are not automatically applied to timesheets that have already been generated. The changes you make to a timesheet prile are applied only to the timesheets that are&nbsp;generated after the timesheet profiles changes are made. To&nbsp;apply your&nbsp;changes to the timesheet profile for the timesheets that are already generated, you must delete the existing timesheets and manually generate&nbsp;them.For more information about deleting and manually generating timesheets, see&nbsp;Delete and manually generating Timesheets.</p>
@@ -146,7 +146,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       <td role="rowheader"><strong>可以编辑时间</strong> </td> 
       <td> <p> <p>选择此选项可允许审批者在时间表上编辑小时数。
 
-   <p>此选项与&#x200B;**限制对所有者和管理员编辑时间表**&#x200B;设置&gt;时间表和小时数&gt;首选项区域中的设置一起使用。 有关详细信息，请参阅<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">配置工时表和小时首选项</a>。</p>
+   <p>此选项与**限制对所有者和管理员编辑时间表**设置&gt;时间表和小时数&gt;首选项区域中的设置一起使用。 有关详细信息，请参阅<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">配置工时表和小时首选项</a>。</p>
 
    <p>存在以下情况： </p>
 
@@ -182,9 +182,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
     </tbody> 
     </table>
 
-1. &#x200B;<!--In the Production environment, or when creating group-level timesheet profiles,--> 单击&#x200B;**分配人员**&#x200B;选项卡，将时间表配置文件与特定用户、组或(如果您是Workfront管理员)团队关联。<!--Keep the reference to the group upon release to Prod-->
+1. 在生产环境中或创建组级时间表配置文件时，单击&#x200B;**分配人员**&#x200B;选项卡以将时间表配置文件与特定用户、组或(如果您是Workfront管理员)团队关联。<!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
 
-   <!--<span class="preview">In the Preview environment when creating timesheet profiles for the system, scroll towards the bottom of the page to find the Assign People section.</span>--> <!--Keep the reference to the system when releasing to Prod-->
+   <span class="preview">在为系统创建时间表配置文件时，在“预览”环境中，滚动到页面底部并找到&#x200B;**分配人员**&#x200B;部分。</span> <!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
 
    开始键入用户、组或团队的名称，然后当它出现在下拉列表中时单击它。
 

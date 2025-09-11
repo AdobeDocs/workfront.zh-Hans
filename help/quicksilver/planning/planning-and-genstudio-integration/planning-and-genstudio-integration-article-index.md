@@ -1,13 +1,15 @@
 ---
 title: Adobe Workfront Planning与Adobe GenStudio for Performance Marketing集成：文章索引
-description: 当您的公司同时购买这两个产品时，即可在Adobe Workfront Planning中使用GenStudio for Performance Marketing工作区。 此列表中的文章描述了此集成可用的功能。
-hide: true
-hidefromtoc: true
+description: 当您的公司同时购买GenStudio和Adobe Workfront时，Adobe GenStudio for Performance Marketing Planning中会提供Adobe Workfront工作区。 此部分中的文章介绍此集成可用的功能。
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
 exl-id: 2fb8fcb4-eb82-4ac5-8b09-8577fecb9bc4
-source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
+source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 3%
+source-wordcount: '101'
+ht-degree: 1%
 
 ---
 
@@ -24,6 +26,10 @@ recommendations: noDisplay, noCatalog
 -->
 
 # Adobe Workfront Planning与Adobe GenStudio for Performance Marketing集成：文章索引
+
+当您的公司同时购买GenStudio和Adobe Workfront时，Adobe GenStudio for Performance Marketing Planning中会提供Adobe Workfront工作区。
+
+此部分中的文章介绍此集成可用的功能。
 
 * [快速入门](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
 * 在Planning中[管理GenStudio工作区](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)

@@ -6,7 +6,7 @@ description: 您可以将“里程碑”视图应用于项目列表或报告。 
 author: Courtney, Alina
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 38c397594449856a0f1404848a527b86083654b8
+source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
 workflow-type: tm+mt
 source-wordcount: '1420'
 ht-degree: 1%
@@ -106,7 +106,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 有关如何切换到里程碑视图的信息，请参阅本文中的[切换到里程碑视图](#switch-to-the-milestone-view)部分。
 
-<!--add new screen shot for preview or prod release-->
+<!--add new screen shot for preview or production release-->
 
 具有里程碑视图的![项目](assets/project-with-milestone-view-with-complete.png)
 
@@ -145,7 +145,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
   您可以直接从“里程碑”视图中调整完成百分比，如本文中“里程碑”视图[中任务的](#adjust-percent-complete-for-tasks-in-the-milestone-view)调整完成百分比部分所述。
 
-* **任务进度状态图标：**&#x200B;里程碑视图中的每个项目和任务旁边会显示一个状态图标。<!--get new screen shots or hide them for preview or prod - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
+* **任务进度状态图标：**&#x200B;里程碑视图中的每个项目和任务旁边会显示一个状态图标。<!--get new screen shots or hide them for preview or production - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
 
   <!--A progress status icon in the shape of a colored circle displays next to each project and task in the Milestone view. The possible statuses and circle colors are: 
    * On Time - green
@@ -200,7 +200,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    * 当任务的进度状态为“风险”或“落后”时，不会为“开始”和“完成”列分配颜色底纹。
 
-  <!--add new screen shot for preview or prod release-->
+  <!--add new screen shot for preview or production release-->
 
   ![带有底纹的里程碑视图](assets/milestone-view-with-shading.png)
 
@@ -240,11 +240,11 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 单击&#x200B;**视图**&#x200B;下拉菜单，然后单击&#x200B;**里程碑**。
    <!--No longer available: If you are viewing a list of projects inside a Portfolio or a Program, select the **Milestone** subtab.  -->
 
-1. &#x200B;<!--In the Production environment,--> 单击里程碑视图右上角的&#x200B;**选项**。
+1. <!--In the Production environment,--> 单击里程碑视图右上角的&#x200B;**选项**。
 
    <!--<div class="preview">In the Preview environment, select from the options in the next step, from the upper-right corner of the Milestone view.</div>-->
 
-   <!--at Prod release, replace this screen shot and adjust the Production/ Preview text above-->
+   <!--at Production release, replace this screen shot and adjust the Production/ Preview text above-->
 
    ![milestone_view_options.png](assets/milestone-view-options-350x141.png)
 
@@ -277,6 +277,6 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. （视情况而定）如果完成百分比未在里程碑视图中当前显示，请启用查看任务和项目的完成百分比，如本文中[配置里程碑视图](#configure-what-information-displays-in-the-milestone-view)中显示的信息。
 
-1. &#x200B;<!--In the Production environment,--> 单击任务下方的完成百分比，指定新百分比，然后按Enter键。
+1. <!--In the Production environment,--> 单击任务下方的完成百分比，指定新百分比，然后按Enter键。
 
    <!--<div class="preview">In the Preview environment, move the Percent Complete slide to the new percent complete to update it. </div>-->

@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
+source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 5%
+source-wordcount: '990'
+ht-degree: 4%
 
 ---
 
@@ -113,17 +113,16 @@ ht-degree: 5%
   有关详细信息，请参阅文章[创建字段](/help/quicksilver/planning/fields/create-fields.md)中的“公式”部分。
 * 您可以在新的公式中引用公式字段。 一旦在公式字段中引用的字段中更新了值，引用该字段的所有后续字段或包含该字段的公式字段将自动更新。
 
-<!--
 <div class="preview">
 
-* When you update a formula field or a field that could impact it, an alert notifies you of the impact of your change. The alert displays in the following cases:   
+* 当您更新公式字段或可能影响该字段的字段时，警报会通知您更改的影响。 警报在以下情况下显示：
 
-   * When you update a formula field (excluding name and description changes) when that field has dependent formula or lookup fields. The alert lists those dependent fields and asks you whether you want to continue. 
+   * 当更新公式字段（不包括名称和说明更改）时，如果该字段具有从属公式或查找字段。 警报会列出这些依赖字段，并询问您是否要继续。
 
-   * When you delete a field that is used in a formula expression or as a lookup field. The alert lists the dependent formula and lookup fields and asks you whether you want to continue with the deletion.
+   * 删除在公式表达式中或用作查找字段的字段时。 警报会列出相关公式和查找字段，并询问您是否要继续删除。
 
 </div>
--->
+
 
 
 <div class="preview">

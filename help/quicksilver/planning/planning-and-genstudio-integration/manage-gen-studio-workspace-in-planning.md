@@ -1,10 +1,12 @@
 ---
 title: 在GenStudio Planning中管理Adobe Workfront Workspace
 description: 当您的公司同时购买了两款产品，并且您的GenStudio for Performance Marketing实例与公司的GenStudio实例集成时，Adobe Workfront Planning中会提供Workfront工作区。 您可以从Planning中查看GenStudio工作区，并更新两个系统中的信息。
-hide: true
-hidefromtoc: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
-source-git-commit: 38c397594449856a0f1404848a527b86083654b8
+source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
 workflow-type: tm+mt
 source-wordcount: '1335'
 ht-degree: 0%
@@ -42,7 +44,7 @@ recommendations: noDisplay, noCatalog
 >[!IMPORTANT]
 >
 >本文中描述的步骤说明了当您具有GenStudio工作区的“管理”权限时，如何从Workfront Planning中更新该工作区。
->&#x200B;> 当您对GenStudio工作区具有“贡献”权限时，并非所有功能都可用。
+>> 当您对GenStudio工作区具有“贡献”权限时，并非所有功能都可用。
 >
 >如果贵公司拥有多个Workfront实例，则所有用户都将在Workfront Planning中获得GenStudio工作区的Contribute权限。
 
@@ -79,7 +81,7 @@ recommendations: noDisplay, noCatalog
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing用户角色</p></td> 
    <td><p><ul><li>用于访问营销活动、产品和角色的任何GenStudio用户角色</li>
    <li>GenSudio System Manager访问激活 <!--and Events--></li></ul>
-   有关信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">用户角色和权限</a>。 
+   有关信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">用户角色和权限</a>。 
    </p>
   </td> 
   </tr>   
