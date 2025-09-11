@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
-source-git-commit: 09c41ed117660c67c3890ebbaabae73c60cd4a9a
+source-git-commit: d0fbeb7b04d2bf632e04e1764a3ffff9abcfb231
 workflow-type: tm+mt
-source-wordcount: '1450'
+source-wordcount: '1796'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,45 @@ To make it easier to find the request form you're looking for in Workfront Plann
 Previously, request forms were located only on the object for which they were created.
 
 For more information on request forms, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). -->
+
+## 更改或删除字段时显示的新信息框
+
+>[!NOTE]
+>
+>* 预览： 2025年9月11日
+>* 生产快速发布： 2025年10月15日
+>* 全部生产：2025年10月16日
+
+当您更新公式字段或可能影响该字段的字段时，警报会通知您更改的影响。 警报在以下情况下显示：
+
+* 当更新公式字段（不包括名称和说明更改）时，如果该字段具有从属公式或查找字段。 警报会列出这些依赖字段，并询问您是否要继续。
+
+* 删除在公式表达式中或用作查找字段的字段时。 警报会列出相关公式和查找字段，并询问您是否要继续删除。
+
+有关信息，请参阅[公式字段概述](/help/quicksilver/planning/fields/formula-fields.md)。
+
+## Adobe Workfront Planning与Adobe GenStudio for Performance Marketing的集成
+
+>[!NOTE]
+>
+>预览： 2025年9月11日
+>>适用于所有客户的生产： 2025年9月11日
+>>[!BADGE 超出计划]{type=Neutral}
+
+如果贵组织同时使用Adobe Workfront Planning和Adobe GenStudio for Performance Marketing，则可能需要比GenStudio默认支持的更详细地定义营销概念，如促销活动、产品和角色。
+
+借助GenStudio for Performance Marketing与Workfront Planning之间新的本机集成，您现在可以在Workfront Planning中管理GenStudio for Performance Marketing中使用的促销活动、产品、角色、激活、渠道和区域。 通过该集成，还可配置GenStudio for Performance Marketing以引用Workfront Planning中的现有记录类型，从而创建更加互联和一致的营销工作流程。
+
+现在，当您的公司同时购买这两个产品时，Adobe Workfront Planning中即可使用GenStudio for Performance Marketing工作区。
+通过Workfront Planning与GenStudio for Performance Marketing之间的集成，您可以：
+
+* 在Workfront Planning中查看GenStudio工作区。
+* 在GenStudio for Performance Marketing中修改促销活动、产品、角色和激活，并在Workfront Planning中实时更新相同信息。
+* 在Workfront Planning中修改营销活动、产品、角色和激活，并实时
+* 避免输入重复的数据。
+* 保持规划和激活工作的一致性。
+
+有关信息，请参阅[Adobe Workfront Planning与Adobe GenStudio for Performance Marketing集成入门](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)。
 
 ## 在日历每月视图中调整记录大小
 
@@ -184,8 +223,8 @@ For more information on request forms, see [Create and manage a request form in 
 >[!NOTE]
 >
 >预览： 2025年8月7日
->&#x200B;>所有客户的生产:August， 2025
->&#x200B;>[!BADGE 超出计划]{type=Neutral}
+>>所有客户的生产:August， 2025
+>>[!BADGE 超出计划]{type=Neutral}
 
 我们向Workfront Planning中的公式字段和Workfront中的计算自定义字段添加了具有以下用法的新表达式：
 
@@ -200,8 +239,8 @@ For more information on request forms, see [Create and manage a request form in 
 >[!NOTE]
 >
 >预览： 2025年7月31日
->&#x200B;>适用于所有客户的生产： 2025年7月31日
->&#x200B;>[!BADGE 超出计划]{type=Neutral}
+>>适用于所有客户的生产： 2025年7月31日
+>>[!BADGE 超出计划]{type=Neutral}
 
 我们在记录表视图中创建或编辑公式字段时，添加了“最大化”按钮以放大该字段。 此外，我们在新的放大窗口中添加了“最小化”按钮，以还原到字段创建框。
 
@@ -250,8 +289,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >预览： 2025年7月24日
->&#x200B;>生产快速发布： 2025年8月14日
->&#x200B;>适用于所有客户的生产： 2025年10月16日
+>>生产快速发布： 2025年8月14日
+>>适用于所有客户的生产： 2025年10月16日
 
 现在，您可以在时间轴上的任意位置双击来在记录类型的时间轴视图中创建记录。
 
@@ -266,8 +305,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >预览： 2025年7月24日
->&#x200B;>生产快速发布： 2025年8月14日
->&#x200B;>适用于所有客户的生产： 2025年10月16日
+>>生产快速发布： 2025年8月14日
+>>适用于所有客户的生产： 2025年10月16日
 
 您现在可以从工作区页面上记录类型卡片的更多菜单共享记录类型。 在此增强功能之前，购股权仅在记录类型页面内可用。
 
@@ -278,8 +317,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >预览： 2025年7月24日
->&#x200B;>生产快速发布： 2025年8月14日
->&#x200B;>适用于所有客户的生产： 2025年10月16日
+>>生产快速发布： 2025年8月14日
+>>适用于所有客户的生产： 2025年10月16日
 
 您现在可以在全屏模式下显示所有Workfront Planning视图（表、时间轴和日历）。 视图功能将保留，您也可以在全屏模式下更改视图。
 
@@ -292,8 +331,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >预览： 2025年7月22日
->&#x200B;>快速发布生产： 2025年8月14日
->&#x200B;>适用于所有客户的生产： 2025年10月16日
+>>快速发布生产： 2025年8月14日
+>>适用于所有客户的生产： 2025年10月16日
 
 为了使审批流程更灵活，我们增加了在Planning请求表单上添加团队作为审批者的功能。 现在，您可以在设置批准者时输入和选择团队名称。 任何团队成员都可以做出决定，这被视为整个团队的批准决定。
 
@@ -306,8 +345,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >预览： 2025年7月17日
->&#x200B;>快速发布生产： 2025年8月14日
->&#x200B;>适用于所有客户的生产： 2025年10月16日
+>>快速发布生产： 2025年8月14日
+>>适用于所有客户的生产： 2025年10月16日
 
 我们引进了以下字段，用于捕获通过提交经批准的请求而创建的记录的批准信息：
 
@@ -321,8 +360,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >预览： 2025年7月10日
->&#x200B;>生产快速发布： 2025年8月14日
->&#x200B;>适用于所有客户的生产： 2025年10月16日
+>>生产快速发布： 2025年8月14日
+>>适用于所有客户的生产： 2025年10月16日
 
 
 现在，当您将分组应用于表视图时，向表中添加记录将自动填充与您将记录添加到的分组相关联的字段。

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 09c41ed117660c67c3890ebbaabae73c60cd4a9a
+source-git-commit: abe76998e8d98bf47e45e01ff6b27610955177c5
 workflow-type: tm+mt
-source-wordcount: '7542'
+source-wordcount: '7673'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,16 @@ ht-degree: 0%
 有关Adobe Workfront的所有其他更改，请参阅[产品版本](/help/quicksilver/product-announcements/product-releases/product-releases.md)。
 
 ## 管理和设置
+
+### 在设置区域添加或编辑时间表配置文件时，界面更新
+
+**预览版本： 2025年9月11日；生产版本： 2025年9月18日**
+
+在编辑或添加系统范围的时间表配置文件时，我们已更新时间表配置文件页面的外观。
+
+要查看这些更改，请转到设置>时间表和小时数>时间表配置文件，然后添加新配置文件，或编辑现有配置文件。
+
+有关详细信息，请参阅[创建、编辑和分配时间表配置文件](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)。
 
 ### 新记分卡和复制记分卡框的界面更新
 
@@ -153,6 +163,14 @@ ht-degree: 0%
 有关信息，请参阅[编辑项目组合](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md)。
 
 ## 项目
+
+### 应用里程碑视图时，项目列表或报告的界面更新
+
+**预览版本： 2025年9月11日；生产版本： 2025年9月18日**
+
+在对项目列表或报告应用里程碑视图时，我们更新了它们的外观。
+
+项目列表或报表现在与Workfront其他区域的设计相匹配。 有关信息，请参阅[使用里程碑视图](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)。
 
 ### “将任务转换为没有模板的项目”的界面更改
 
@@ -357,6 +375,18 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 * [创建路由规则](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)。
 
 ## 用户
+
+<!--
+### Interface updates for the New User dialog
+
+**Preview release: September 11, 2025; Production release: September 18, 2025**
+
+We have updated the look and feel of the New User dialog to match the design in other areas of the application.
+
+To view this change, go to Users > New User > New User.
+
+For information, see [Add users](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) and [Updates to the Workfront user profile](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile) on the [Fourth Quarter 2025 Administrator enhancements page](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md).
+-->
 
 ### “导入用户”对话框的界面更新
 

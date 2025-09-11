@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 65012e89-3e3e-42b7-94af-8fa3687501ed
-source-git-commit: 0937f9b1246b92aa080349f0293674455d21ed70
+source-git-commit: 1dc8591dd0da3c3b6030bd643bf80dbe1ee97ea9
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,21 @@ ht-degree: 0%
 本页介绍了在2025年第四季度版本中对“预览”环境所做的项目增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2025年第四季度发布周期中此时可用的所有更改列表，请参阅[ 2025年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)。
+
+## 新的Project Health测试版
+
+>[!NOTE]
+>
+>* 预览： 2025年9月11日
+>* 适用于所有客户的生产： 2025年9月11日
+
+新的项目运行状况功能利用AI Assistant的强大功能，可立即为您提供项目执行情况以及需要关注的领域的评估。
+
+AI助手可以为一个项目、一个项目和多个项目生成项目运行状况评估。
+
+有关详细信息，请参阅[项目运行状况概述](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md)。
+
+此功能当前处于测试阶段。
 
 <!--
 ## Create project intake forms in Workfront

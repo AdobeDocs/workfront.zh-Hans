@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: 2bcba734ebfa8efbef8f401394a576c59ae22d5d
+source-git-commit: dcdd74e8293a5e695600f08536c8fc2ad36c3a31
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,18 @@ ht-degree: 0%
 本页介绍了管理员在2025年第四季度版本中对“预览”环境所做的增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2025年第四季度发布周期中此时可用的所有更改列表，请参阅[ 2025年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)。
+
+## 新的讨论区管理员视图
+
+>[!NOTE]
+>
+>* 预览： 2025年9月11日
+>* 生产快速发布： 2025年10月15日
+>* 适用于所有客户的生产： 2025年10月16日
+
+“展示板管理视图”包含您的帐户中每个展示板的列表，系统管理员可以使用它们快速获取整个展示板详细信息的快照，包括上次更新时间、每个展示板有多少张展示板等等。
+
+有关详细信息，请参阅[管理讨论区管理员视图](/help/quicksilver/agile/get-started-with-boards/manage-boards-admin-view.md)。
 
 ## 为您的组织启用AI Beta功能
 
