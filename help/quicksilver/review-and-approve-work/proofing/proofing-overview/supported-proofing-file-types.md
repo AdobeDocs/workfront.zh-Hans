@@ -7,9 +7,9 @@ description: 您可以与审阅人共享和审阅各种类型的文件，即使�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 1df1eff727ff2044eee0f5c0e79794c109d16c7a
+source-git-commit: 52b0389e9f5d8618106d9b511591afb0b6eb216f
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1101'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Workfront具有以下限制：
 * Mac - MacPaint
 * MIF - MapInfo交换
 * MNG — 多网络图形
-* MO：DCA — 混合对象：文档内容架构
+* MO:DCA — 混合对象：文档内容体系结构
 * MSP - Microsoft Paint
 * MRC - LEAD混合栅格内容
 * MRC - T.44混合栅格内容
@@ -133,6 +133,12 @@ Workfront具有以下限制：
 * PNM — 可移植位图实用程序
 * PPM — 可移植位图实用程序
 * PPT - PowerPoint演示
+
+  >[!NOTE]
+  >
+  >PowerPoint演示文稿文件当前无法上传的已知问题。 如果您遇到此问题，请将文件转换为PDF并上传PDF。 有关详细信息，请参阅[验证：无法从PowerPoint文件](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx)生成验证。
+
+
 * PPTX - PowerPoint演示文稿2007 PS - PostScript文件
 * PSD - PHOTOSHOP
 * PSP - Paint Shop Pro
