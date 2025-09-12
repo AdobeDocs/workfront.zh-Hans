@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
 source-wordcount: '2701'
 ht-degree: 0%
@@ -246,7 +246,7 @@ ht-degree: 0%
 <!--add another step about drag and drop here when that is available-->
 
 1. 在日历视图中打开记录类型页面。 有关信息，请参阅[管理日历视图](/help/quicksilver/planning/views/manage-the-calendar-view.md)。
-1. <span class="preview">（视情况而定）将鼠标悬停在日历每月视图中记录栏的末尾上，然后单击，将其边距拖放到其他日期。 这会自动更新记录的开始日期或结束日期。</span>  <!--when the calendar weekly resize is released to Preview, take out "monthly" from the sentence above-->
+1. <span class="preview">（视情况而定）将鼠标悬停在日历每月视图中记录栏的末尾上，然后单击，将其边距拖放到其他日期。 这会自动更新记录的开始日期或结束日期。</span>  <!--when the calendar weekly resize is released to Preview, take out "monthly" from the sentence above, at preview release-->
 
    <span class="preview">![日历视图上的左侧栏以调整大小](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
 

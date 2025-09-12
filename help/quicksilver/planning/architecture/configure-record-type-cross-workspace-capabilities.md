@@ -4,9 +4,9 @@ description: 您可以将记录类型添加到另一个工作区或从另一个�
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1124'
 ht-degree: 1%
 
 ---
@@ -83,11 +83,11 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 <ul><li><p>任何Workfront包</p></li>
 与
 <li><p>Planning Plus包</p></li></ul>
-或：
-<ul><li><p>任何工作流包</p> </li>
-与
-<li><p>规划Prime或Ultimate包</p></li></ul>
-<p>有关每个Workfront计划中包括的内容的更多信息，请联系您的Workfront客户经理。 </p> 
+<!--Or:
+<ul><li><p>Any Workflow package</p> </li>
+And
+<li><p>Planning Prime or Ultimate package</p></li></ul>-->
+<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户经理。 </p> 
    </td>
 
 <tr> 

@@ -4,9 +4,9 @@ description: 记录类型是Adobe Workfront Planning的对象类型。 在Workfr
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -55,11 +55,11 @@ recommendations: noDisplay, noCatalog
 <ul><li><p>任何Workfront包</p></li>
 与
 <li><p>Planning Plus包</p></li></ul>
-或：
-<ul><li><p>任何工作流包</p> </li>
-与
-<li><p>规划Prime或Ultimate包</p></li></ul>
-<p>有关每个Workfront计划中包括的内容的更多信息，请联系您的Workfront客户经理。 </p> 
+<!--Or:
+<ul><li><p>Any Workflow package</p> </li>
+And
+<li><p>Planning Prime or Ultimate package</p></li></ul>-->
+<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户经理。 </p> 
    </td>
 
 <tr> 

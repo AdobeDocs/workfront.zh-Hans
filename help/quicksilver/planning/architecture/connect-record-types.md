@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
-source-wordcount: '2499'
+source-wordcount: '2512'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 ## 访问要求
 
-+++ 展开以查看访问要求。
++++ 展开以查看访问要求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -144,7 +144,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      >[!TIP]
      >
-     >必须在&#x200B;**编辑记录类型**&#x200B;框的&#x200B;**高级设置**&#x200B;选项卡中为记录类型启用&#x200B;**允许连接到其他工作区中的此记录类型**&#x200B;设置，才能从其他工作区访问记录类型。 如果没有配置为从其他工作区连接的记录类型，则不会显示工作区部分。
+     >必须在&#x200B;**编辑记录类型**&#x200B;框的&#x200B;**高级设置**&#x200B;选项卡中为记录类型启用&#x200B;**允许连接到其他工作区中的此记录类型**设置，才能从其他工作区访问记录类型。 如果没有配置为从其他工作区连接的记录类型，则不会显示工作区部分。
      > ![编辑记录类型框高级设置选项卡](assets/edit-record-type-box-advanced-settings-tab.png)
 
      有关信息，请参阅[编辑记录类型](/help/quicksilver/planning/architecture/edit-record-types.md)。
@@ -159,61 +159,78 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      ![AEM Assets连接选择](assets/aem-assets-connection-selection.png)
 
-1. 更新以下信息：
+     将为您选择的记录或对象类型打开“新建连接”选项卡。
 
-   * **名称**：已连接字段的名称，它将显示在原始记录类型的表视图或记录页中。 这会在原始记录类型的表视图或原始记录的链接记录字段中创建链接记录列。 默认情况下，字段的名称是您连接到的记录或对象的名称。
+1. 使用新连接的字段的名称更新&#x200B;**Name**&#x200B;字段，因为该字段将显示在原始记录类型的表视图或记录页中。 这将在原始记录类型的表视图中创建连接的记录列（或字段）。 默认情况下，字段的名称是您连接到的记录或对象的名称。
 
    >[!TIP]
    >
    >您可以有多个与同一记录或对象类型的连接。 如果不编辑已连接的字段名称，Workfront会在已连接记录的名称后添加一个数字，以指示使用相同名称连接的记录类型的数量。
 
-   * **描述**：有关连接的记录字段的其他信息。 当您将鼠标悬停在表中的字段列上时，将显示字段的描述。
-   * **允许多条记录**：选择此选项可指示当链接记录类型字段显示在原始记录上时允许用户添加多条记录。 默认情况下，该选项处于选中状态。
+1. 通过添加有关连接的记录字段的信息来更新&#x200B;**描述**&#x200B;字段。 当您将鼠标悬停在表中的字段列上时，将显示字段的描述。
+1. （视情况而定）当您从两个不同的工作区或一个记录和Adobe Experience Manager资源对象连接记录类型时，请选择&#x200B;**允许多个记录**。 如果选择该字段，即表示当原始记录中显示“连接的记录类型”字段时，允许用户添加多个记录。 默认情况下，该选项处于选中状态。
 
-     仅当从两个不同的工作区连接记录或连接记录和Adobe Experience Manager资源对象时，此选项才可用。
+   ![新连接以允许多个记录框](assets/new-connection-allow-multiple-records-box.png)
 
-     ![新连接以允许多个记录框](assets/new-connection-allow-multiple-records-box.png)
+1. （视情况而定）从同一工作区连接记录类型或具有Workfront对象类型的Planning记录类型时，请选择以下&#x200B;**连接类型**&#x200B;选项之一以指示用户可以连接到多少条记录，也可以从多少条记录连接：
 
-   * **连接类型**：选择下列选项之一，以指示他们可以连接多少条记录，也可以连接多少条记录：
+   * 多对多
+   * 一对多
+   * 多对一
+   * 一对一
 
-      * 多对多
-      * 一对多
-      * 多对一
-      * 一对一
+   ![多对多连接选取器](assets/many-to-many-connection-picker.png)
 
-     仅当连接来自同一工作区的记录或记录和Workfront对象类型时，此选项才可用。
+   有关连接类型的详细信息，请参阅[连接的记录类型概述](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
 
-     ![多对多连接选取器](assets/many-to-many-connection-picker.png)
-
-     有关连接类型的详细信息，请参阅[连接的记录类型概述](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
-
-     >[!NOTE]
-     >
-     > 如果为“连接”类型选择“一对多”或“一对一”，并且以后要连接某个记录或已在其他地方连接的对象，您将收到一则警告，指出再次连接该记录或对象会将其从原始连接中删除。 您可以允许删除或选择其他记录。
-
-   * **选择查找字段**：选择此选项可从所选记录类型添加字段。 查找字段是与要链接到的记录或对象类型关联的字段。 链接它们将显示您链接到的记录或对象中的信息，以及您链接到的记录中的信息。 默认情况下，该选项处于选中状态。
-
-   >[!TIP]
+   >[!NOTE]
    >
-   >* 您无法添加Workfront预输入字段（包括项目所有者或项目发起人等字段）作为查找字段。
-   >
-   >* Workfront对象的日期字段信息在Workfront Planning中以24小时制显示，无论它在Workfront中如何显示。
-   >
-   >   例如，如果项目的计划开始日期在Workfront中显示为3:00 PM，它在Workfront Planning的导入查找字段中将显示为15:00。
+   > 如果为“连接”类型选择“一对多”或“一对一”，并且以后要连接某个记录或已在其他地方连接的对象，您将收到一则警告，指出再次连接该记录或对象会将其从原始连接中删除。 您可以允许删除或选择其他记录。
 
-1. （有条件，可选）如果您已选择连接Workfront对象，请从&#x200B;**仅链接符合这些条件的对象**&#x200B;部分中选择&#x200B;**自定义表单**。 只有附加了所选自定义表单的对象才能链接到所选记录类型。 您可以选择多个表单。
+
+   <!-- 
+        at the release to preview, replace the step above with this step; be careful with the numbering and ensure it keeps the correct step number in the preview window in MKD; there are spaces to be added between paragraphs too, when you make this live: 
+    1. (Conditional) When you connect record types from the same workspace, or a Planning record type with a Workfront object type, do one of the following, depending on which environment you are using: 
+        * In the Production environment, select one of the following **Connection type** options to indicate how many records users can connect to and from:
+            * Many to many
+            * One to many
+            * Many to one
+            * One to one      
+            ![Many to many connection picker](assets/many-to-many-connection-picker.png)
+        <div class="preview">
+        * In the Preview environment, do the following: 
+            1. Select one of the following:
+                * **Multi-select**: Select this to allow one record from the current record type to connect with multiple records from the connection record type.
+                * **Single-select**: Select this to allow one record from the current record type to connect with one record from the connection record type.
+            2. Enable the **Create corresponding field on linked record type**. When enabled, a connection field is created on the record type you are connected to, in addition to the connection field added to the current record type. This is disabled by default.
+                    >[!TIP]
+                    >
+                    >There is a limit of 500 connections for one record type. We recommend to keep this setting off, especially for taxonomical record types, to avoid reaching this limit. 
+            3. (Conditional) If you enabled **Create corresponding field on linked record type**, choose from the following options to indicate how many records users can connect to and from:
+                * Many to many
+                * One to many
+                * Many to one
+                * One to one  
+            </div>       
+             For more information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+                >[!NOTE]
+                >
+                >If you select One to many or One to one for the Connection type and you later want to connect a record or an object that is already connected elsewhere, you will receive a warning that connecting it again will remove it from the original connection. You can allow the removal or select another record.-->
+
+1. （有条件，可选）当您选择连接Workfront对象时，请从&#x200B;**仅链接符合这些条件的对象**&#x200B;部分中选择&#x200B;**自定义表单**。 只有附加了所选自定义表单的对象才能链接到所选记录类型。 您可以选择多个表单。
 
    >[!NOTE]
    >
    > 您必须先在Workfront中为选定对象创建自定义表单，然后它们才会显示在此列表中。
 
-1. （视情况而定）如果您已选择连接到Experience Manager Assets，请从&#x200B;**链接以下存储库中的资源**&#x200B;部分的&#x200B;**Experience Manager存储库**&#x200B;下拉菜单中选择一个存储库。 这是必填字段。 只有您在Experience Manager Assets中有权访问的存储库才会显示在此字段中。
+1. （视情况而定）当您选择连接到Experience Manager Assets时，请从&#x200B;**链接以下存储库中的资源**&#x200B;部分的&#x200B;**Experience Manager存储库**&#x200B;下拉菜单中选择一个存储库。 这是必填字段。 只有您在Experience Manager Assets中有权访问的存储库才会显示在此字段中。
 
    >[!NOTE]
    >
-   >Workfront管理员可以通过Workfront中的元数据映射，将Workfront Planning字段映射到Experience Manager Assets字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+   >Workfront管理员可以通过Workfront中的元数据映射，将Workfront Planning字段映射到Experience Manager Assets字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
-1. （视情况而定）如果您选择连接到Experience Manager Assets或Workfront Planning记录类型，请在&#x200B;**记录外观**&#x200B;区域中选择以下选项之一：
+
+1. （视情况而定）当您选择连接到Experience Manager Assets或Workfront Planning记录类型时，请在&#x200B;**记录外观**&#x200B;区域中选择以下选项之一：
 
    * **名称和图像**：连接的记录的名称和缩略图或图标都会显示在连接的记录字段中。 这是默认选项。
    * **名称**：只有已连接记录的名称将显示在已连接记录字段中。
@@ -230,6 +247,16 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    >* 选择Workfront对象类型时，无法选择记录外观。
    >
    >* 在“记录”外观区域中选择的内容将决定记录在系统所有位置（包括所有视图和详细信息页面）的连接中的显示方式。
+
+1. 选择&#x200B;**选择查找字段**&#x200B;以添加您连接到的记录类型中的字段。 查找字段是与要链接到的记录或对象类型关联的字段。 链接它们将显示您链接到的记录或对象中的信息，以及您链接到的记录中的信息。 默认情况下，该选项处于选中状态。
+
+   >[!TIP]
+   >
+   >* 您无法添加Workfront预输入字段（包括项目所有者或项目发起人等字段）作为查找字段。
+   >
+   >* Workfront对象的日期字段信息在Workfront Planning中以24小时制显示，无论它在Workfront中如何显示。
+   >
+   >   例如，如果项目的计划开始日期在Workfront中显示为3:00 PM，它在Workfront Planning的导入查找字段中将显示为15:00。
 
 1. 单击&#x200B;**创建**。
 
@@ -318,13 +345,15 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      例如，如果您链接了促销活动记录类型与项目群记录类型，并将项目群链接记录字段命名为“项目群信息”，然后选择还在Campaign表格视图中显示项目群预算字段，则链接字段在促销活动表格视图中自动命名为`Budget (from Program information)`。
 
-   * 当您将记录类型链接到另一个记录类型时，链接记录字段也会添加到要链接的记录类型上。 链接记录类型中链接的记录字段的名称是您链接来源的记录类型的名称。
+   * 当您将记录类型链接到彼此时，链接记录字段也会添加到要链接的记录类型上，<!--<span class="preview">only when you enable the Create corresponding field on linked record type setting.</span>-->链接记录类型上链接记录字段的名称是您链接来源的记录类型的名称。
 
      例如，如果您从“Campaign”记录类型中链接“Product”记录类型，并命名了Campaign“链接的产品”的已连接字段，则会为“Product”记录类型创建“Campaign”链接记录字段。
 
      >[!TIP]
      >
-     > 不会为对象创建链接记录字段，这些对象从另一个应用程序链接到您在Workfront Planning中链接的记录类型。
+     > 不会为对象创建链接记录字段，这些对象从另一个应用程序链接到您在Workfront Planning中链接的记录类型。<!--<span class="preview">We recommend not creating links on taxonomical record types, as there is a 500 connection field limit for every record type.</span>-->
+
+   <!--see the span preview text in the TIP above; it might not show up in green-->
 
 1. （可选，视情况而定）在原始记录类型或链接记录类型表格视图中，单击链接记录字段标题中的向下箭头，然后单击以下任一项：
 
