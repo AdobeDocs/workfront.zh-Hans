@@ -5,10 +5,10 @@ title: 管理讨论区管理员视图
 description: 讨论区管理员视图包含您的帐户中每个讨论区的列表，系统管理员可以使用它们快速了解讨论区的总体详细信息。
 author: Jenny
 feature: Agile
-source-git-commit: 464700fc84ee3d687d903a0c1f677ebbef11be60
+source-git-commit: 56263c3f868e7abdaf973c5c03411a2e63ba645d
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 0%
+source-wordcount: '618'
+ht-degree: 1%
 
 ---
 
@@ -38,8 +38,13 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td> <p>参与者或更高版本 </p>
-        <p> 请求或更高版本 </p></td> 
+   <td> <p>标准</p>
+        <p> 规划 </p></td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>系统管理员 </p>
+        </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,7 +71,7 @@ ht-degree: 0%
 
    1. （可选）单击&#x200B;**日历**&#x200B;图标![日历图标](assets/calendar-icon.png)，然后选择一个日期范围，以按该时间范围内最后修改的展示板进行筛选。
 
-   1. （可选）在&#x200B;**模板**&#x200B;部分中，选择列表将按其筛选的展示板模板类型。 您可以选择多个模板类型。
+   1. （可选）在&#x200B;**模板**部分中，选择列表将按其筛选的展示板模板类型。 您可以选择多个模板类型。
 有关展示板模板类型的详细信息，请参阅[创建或编辑展示板](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md)。
 
    1. （可选）在&#x200B;**Is Archived**&#x200B;部分中，选择是显示已存档还是未存档展示板。 您可以选择多个选项。
