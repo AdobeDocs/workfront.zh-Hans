@@ -4,7 +4,7 @@ description: 您可以使用模板文件在Excel中构建费率卡并将它们�
 author: Lisa
 hide: true
 hidefromtoc: true
-source-git-commit: b989a542602d6b7fd95b34f8b53d3f317e3f7644
+source-git-commit: 1deb72953599c24fa40eb7a5d77214f6576fec1e
 workflow-type: tm+mt
 source-wordcount: '1153'
 ht-degree: 0%
@@ -39,13 +39,13 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p>
-   <p>[!UICONTROL 计划]</p>
+   <td><p>[！UICONTROL标准版]</p>
+   <p>[！UICONTROL计划]</p>
    </td> 
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>编辑对[!UICONTROL 费率卡]的访问权限</td> 
+   <td>编辑对[！UICONTROL费率卡]的访问权限</td> 
   </tr> 
  </tbody> 
 </table>
@@ -98,7 +98,7 @@ ht-degree: 0%
    >[!NOTE]
    >
    >* 您必须至少为每个费率卡输入名称。
-   >* 每个费率卡都会根据其行位置自动指定一个序列号。 例如，您定义的第一个费率卡（在行2中）是序列1，下一个是序列2，依此类推。 这些序列号在RATE_RTCRD标签中用于附加费率。
+   >* 每个费率卡会根据其行位置自动指定一个序列号。 例如，您定义的第一个费率卡（在行2中）是序列1，下一个是序列2，依此类推。 这些序列号在RATE_RTCRD标签中用于附加费率。
 
 ### 填写RATE_RTCRD（汇率设置）选项卡
 
