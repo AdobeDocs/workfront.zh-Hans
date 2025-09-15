@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 资产和文档审阅和批准的可用功能
+title: 用于统一文档审批的可用功能
 description: 在Workfront中可供审阅和批准的系统概述。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: c55af795069a05de3eb3d0d8599ab61f00168ddc
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
-# 资产和文档审阅和批准的可用功能
+# 用于统一文档审批的可用功能
 
-Workfront中目前有3种不同的系统可用于资产和文档审阅和批准：
+Workfront中目前有3种不同的系统可用于统一文档审批：
 
 * [旧文档审批](#legacy-document-approvals)
 
@@ -61,6 +61,8 @@ Workfront中目前有3种不同的系统可用于资产和文档审阅和批准�
 * 创建多个阶段审批[!BADGE 即将推出]{type=Informative}
 
 * 访问主页区域中的我的审批小组件中的查看和审批请求
+
+* 使用AI审阅者可自动进行品牌合规性审阅。 有关详细信息，请参阅[Workfront AI查看器入门](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)。
 
 
 ## 验证审批

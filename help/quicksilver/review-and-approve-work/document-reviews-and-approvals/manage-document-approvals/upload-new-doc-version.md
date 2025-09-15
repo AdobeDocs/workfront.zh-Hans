@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront中上传新文档版本并请求其他�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
-source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
+source-git-commit: 42fbb40cb8a0f3c70e22fd04bd3d0ce625f58fec
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -23,12 +23,9 @@ ht-degree: 0%
 
 如果删除了最新的文档版本，则以前的版本仍保持锁定状态。 如果需要编辑以前的版本，则必须手动解锁该版本。
 
-
 ## 访问要求
 
 +++ 展开以查看本文中各项功能的访问要求。
-
-您必须具备以下条件：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,17 +34,16 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p> 任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>当前：请求或更高版本</p>
-   或
-   <p>新文档：参与者或更高版本</p> </td> 
+   <td> <p>请求或更高版本</p>
+   <p>参与者或更高版本</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">访问级别配置*</td> 
+   <td role="rowheader">访问级别配置</td> 
    <td> <p>编辑对文档的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -57,7 +53,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -67,26 +63,36 @@ ht-degree: 0%
 >
 >Internet Explorer无法执行拖放操作。
 
-1. 转到文档上传所在的文档区域。
-1. 从桌面或单独的浏览器选项卡中，将文档的新版本拖动到Workfront中现有版本的上方。
 
-   拖动新版本时，您可以将鼠标悬停在Workfront文档文件夹上以将其打开。 然后，可以通过将文件拖动到屏幕的顶部或底部来上下滚动。
+如果您需要对文档进行另一轮审核和批准，则可以在Workfront中创建新文档版本。
 
-1. 将新版本拖放到&#x200B;**文档**&#x200B;选项卡上的现有文件上。
+可添加先前的参与者、新参与者或两者的组合。 您可以在“文档详细信息”页面上查看有关先前版本和参与者的信息。
 
-1. 上传文档后，单击该文档并打开文档摘要面板。
+要添加新版本：
 
-1. 向下滚动到“文档摘要”窗格中的&#x200B;**审批**&#x200B;部分，然后单击&#x200B;**添加**。
+1. 导航到Workfront中的文档。
+1. 将新文件拖放到上一个文档上。 这会自动创建新版本。
 
-![在文档摘要中添加批准者](assets/doc-summary-add-approvers.png)
+1. 文档上传完成后，选择文档，然后单击&#x200B;**文档详细信息**。
+   ![打开文档详细信息页面](assets/open-doc-details.png)
+
+
+1. 在左侧面板中，单击&#x200B;**审批**，然后单击&#x200B;**添加**。
+
+1. 若要添加所有以前的参与者，请单击&#x200B;**添加所有**。 您也可以根据需要添加新参与者或删除以前的参与者。
+
+
+1. 要添加现有的审批模板，请单击“模板”按钮并开始键入模板名称。
+
+   >[!TIP]
+   >
+   >   具有Standard许可证的用户可以从设置区域创建可重复使用的审批模板。 有关详细信息，请参阅[为资源和文档创建批准模板](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)。
+
 
 1. （可选）设置审批的截止日期。 用户和团队将在指定截止日期前72小时（即24小时）通过电子邮件接收通知。
 
-1. 要从以前的版本快速添加审阅人和批准者，请单击下面列出的审阅人和批准者名称旁边的添加按钮。
-   <!--need screenshot when working-->
+1. 添加所有审阅人和批准者后，单击&#x200B;**提交请求**。 将通过电子邮件通知参与者。
 
-1. （可选）从审批者/审阅者更改角色。
+   ![提交新版本以供审批](assets/add-previous-participants.png)
 
-1. 要添加新的批准者和审阅者，请单击&#x200B;**审阅者**&#x200B;或&#x200B;**批准者**，然后开始键入用户或团队。
 
-   ![添加审批者和截止日期](assets/add-approver-and-deadline.png)

@@ -1,15 +1,15 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 统一文档审批概述
+title: 统一审批概述
 description: 您可以将附加批准者或审阅者添加到已具有待审批的文档。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 6da80f55fd4314c661c52bb2327ae8fa6c7e55b6
+source-git-commit: c55af795069a05de3eb3d0d8599ab61f00168ddc
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 1%
+source-wordcount: '324'
+ht-degree: 3%
 
 ---
 
@@ -49,30 +49,33 @@ ht-degree: 1%
 
 ## 使用统一审批
 
-对于希望创建或管理文档审批的用户，请参阅[设置和管理资产和文档审批中列出的文章：文章索引](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
+对于希望创建或管理文档审批的用户，请参阅[设置和管理统一审批：文章索引](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)中列出的文章
 
 对于希望审阅或批准其收到请求的文档的用户，请参阅[批准和审阅文档：文章索引](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)中列出的文章。
 
-## 新功能和设计目标
+<!--
 
->[!VIDEO](https://video.tv.adobe.com/v/3420544/)
+## New features and design goals
 
-* **利益相关者包容性参与**\
-    统一审批允许在审批流程中包含单个参与者和整个团队。 促进这种更广泛的参与可确保利益攸关方的全面参与，并培养一个更知情和更具协作性的决策环境。
+>[!VIDEO](https://video.tv.adobe.com/v/3420544/)  
 
-* **区分的审阅和批准角色**\
-     统一审批旨在识别和尊重审批流程中各种不同的角色。 通过提供识别和指定审阅人的能力（即收到通知以提供反馈但没有决策权限的用户），提高了反馈的质量，同时保证了最终批准权限的明确性。
+* **Inclusive stakeholder participation**\
+    Unified Approvals allow the inclusion of both individual contributors and entire teams in the approval process. Facilitating this broader participation ensures comprehensive stakeholder engagement and fosters a more informed and collaborative decision-making environment.
 
-* **特定于版本的审批**\
-    文档开发的迭代性质通常会导致同一文档出现多个版本。 统一审批通过为文档的每个版本提供唯一的审批链来适应这种现实。 这允许用户上传新版本，并根据需要添加新审批者或审阅者，确保反馈和审批特定于文档版本，并消除潜在的混淆。
+* **Differentiated review and approval roles**\
+     Unified Approvals is designed to recognize and respect the varying roles within the approval process. By providing the ability to identify and designate reviewers—users who are notified to provide feedback but do not have decision-making authority—the quality of feedback is enhanced while maintaining clarity of final approval authority.
 
-* **审核跟踪**\
-    使用统一审批，所有审批活动的审核跟踪都保留在活动流中，这为将来参考和合规性提供了宝贵的资源。
+* **Version-specific approvals**\
+    The iterative nature of document development often leads to multiple versions of the same document. Unified Approvals accommodates this reality by providing unique approval chains for each version of a document. This allows users to upload a new version and add new approvers or reviewers as needed, ensuring that feedback and approval are specific to the document version and eliminating potential confusion.
 
-## 发布计划
+* **Audit trails**\
+    With Unified Approvals, an audit trail of all approval activities is maintained in the activity stream, providing a valuable resource for future reference and compliance.
 
-我们正在多个版本中向用户提供统一批准。 除了添加新功能外，我们还将增加每个版本中可用统一审批的帐户数量。
+## Release plan
 
-如果您想在生产环境中启用统一批准，请联系您的客户成功经理或战略客户经理。
+We are making Unified Approvals available to users over the course of several releases. In addition to adding new features, we will also expand the number of accounts for which Unified Approvals are available with each release.
+
+If you would like to have Unified Approvals enabled in your production environment, please reach out to your Customer Success or Strategic Account Manager.
 
 
+-->

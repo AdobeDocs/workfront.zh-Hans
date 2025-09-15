@@ -6,9 +6,9 @@ description: 列出并解释文档决策状态
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: fcdb935b148ed7f8b9c49476f099f8285e02b0b5
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '178'
 ht-degree: 5%
 
 ---
@@ -98,6 +98,7 @@ ht-degree: 5%
                                 <p>至少有一位审批者已做出决定“已审批但有更改”</p>
                                 <p>其他批准者可能已作出“已批准”的决定
                             </li>
+                            <p>注意：如果您使用Frame.io集成进行审阅和批准，则此选项不可用。</p>
                         </ul>
                     </td>
                 </tr>
@@ -106,9 +107,9 @@ ht-degree: 5%
                     </td>
                     <td>
                         <ul>
-                            <li>
-                                <p>所有批准和审阅已完成</p>
-                            </li>
+                           <!--<li>
+                                <p>All approvals and reviews are complete</p>
+                            </li>-->
                             <li>
                                 <p>所有批准者可能已作出“已批准”的决定
                             </li>
