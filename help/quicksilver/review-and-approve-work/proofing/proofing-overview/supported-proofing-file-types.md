@@ -136,7 +136,7 @@ Workfront具有以下限制：
 
   >[!NOTE]
   >
-  >PowerPoint演示文稿文件当前无法上传的已知问题。 如果您遇到此问题，请将文件转换为PDF并上传PDF。 有关详细信息，请参阅[验证：无法从PowerPoint文件](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx)生成验证。
+  >PowerPoint演示文稿文件当前无法上传的已知问题。 如果您遇到此问题，请将文件转换为PDF并上传PDF。 有关详细信息，请参阅[验证：无法从PowerPoint文件](https://experienceleague.adobe.com/zh-hans/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx)生成验证。
 
 
 * PPTX - PowerPoint演示文稿2007 PS - PostScript文件
