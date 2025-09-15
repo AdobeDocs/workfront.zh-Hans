@@ -58,8 +58,8 @@ ht-degree: 1%
     </ul> <p>有关详细信息，请参阅<a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref" xrefformat="{para}">联系客户支持</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>[！UICONTROL与对等项连接]</strong> </td> 
-   <td>[！UICONTROL [!DNL Workfront]社区]提供一个由熟悉现代工作的专业人员组成的网络，这些专业人员会积极分享他们的见解和专业知识。 有关详细信息，请参阅<a href="../../workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md" class="MCXref xref" xrefformat="{para}">社区[!DNL Adobe Workfront]</a>。</td> 
+   <td><strong>[!UICONTROL 与对等项连接]</strong> </td> 
+   <td>[!UICONTROL [!DNL Workfront]社区]提供一个由熟悉现代工作的专业人员组成的网络，这些专业人员会积极分享他们的见解和专业知识。 有关详细信息，请参阅<a href="../../workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md" class="MCXref xref" xrefformat="{para}">社区[!DNL Adobe Workfront]</a>。</td> 
   </tr> 
   <tr> 
    <td><strong>查看任何</strong>[!DNL Workfront]<strong>产品的新增功能</strong></td> 
@@ -108,7 +108,7 @@ ht-degree: 1%
    <td> <p>以下资源可让您随时了解Workfront将发布哪些更新：</p> 
     <ul> 
      <li> <p><a href="https://experienceleague.adobe.com/zh-hans/docs/workfront/using/product-announcements/product-releases/product-releases">产品公告</a>：正在寻找Workfront产品路线图的更新吗？ 产品公告页面提供了版本更新和路线图演示文稿。</p> </li> 
-     <li> <p><strong>公告中心</strong>：查看您的通知，并接收我们[!DNL Workfront]产品团队关于所有客户信息的重要更新。 在顶部导航中，访问<a href="https://experience.workfront.com/s/article/View-and-manage-in-app-notifications-323912892">中的</a>[！UICONTROL "Notifications"][!DNL Workfront]部分。</p> </li> 
+     <li> <p><strong>公告中心</strong>：查看您的通知，并接收我们[!DNL Workfront]产品团队关于所有客户信息的重要更新。 在顶部导航中，访问<a href="https://experience.workfront.com/s/article/View-and-manage-in-app-notifications-323912892">中的</a>[!UICONTROL "Notifications"][!DNL Workfront]部分。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
