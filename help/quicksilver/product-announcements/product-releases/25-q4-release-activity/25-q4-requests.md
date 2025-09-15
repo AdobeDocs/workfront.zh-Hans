@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: a6aa03157d44da8267faaa77bed83f07a03a24b3
+source-git-commit: 3c21d2ac594d4dfe309ed4227e46a9cb535f0501
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,11 @@ ht-degree: 0%
 >* 生产快速发布： 2025年9月11日
 >* 适用于所有客户的生产： 2025年10月16日
 
-为了在Workfront和Workfront Planning中提出请求时提供更好的用户体验，我们更新了请求体验。 现在您可以：
+为了在Workfront和Workfront Planning中提出请求时提供更好的用户体验，我们更新了请求体验。
+
+要使用新的请求体验，请在请求区域中，启用屏幕右上角的使用新体验切换开关。
+
+在新版Experience中，您可以：
 
 * 在单个列表中查看Workfront和Workfront Planning请求。
 * 根据您指定的条件筛选已提交的请求。

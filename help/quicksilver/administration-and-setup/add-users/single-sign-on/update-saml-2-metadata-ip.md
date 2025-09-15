@@ -8,16 +8,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 75cd0ab5-8d76-40a4-96a8-00e9f0f4fec6
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 93f4c1691210d88531fcc269bd40ee7ed8633309
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
 
 # 在身份提供程序中更新SAML 2.0元数据
 
-{{important-admin-console-onboard}}
+>[!IMPORTANT]
+>
+>本页中介绍的过程仅适用于尚未载入Adobe Admin Console的组织。
+>
+>要映射已载入到Adobe Admin Console的组织中的用户属性，请参阅映射用户属性一文中的[在Adobe中映射用户属性](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience)。
 
 以下各节介绍在使用Active Directory联合身份验证服务(ADFS)作为身份提供程序时，如何更新安全声明标记语言(SAML) 2.0元数据。
 

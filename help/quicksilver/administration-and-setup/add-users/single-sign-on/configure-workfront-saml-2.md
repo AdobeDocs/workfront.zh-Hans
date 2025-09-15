@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: single-sign-on-in-workfront
-title: 使用SAML 2.0配置Adobe Workfront
+title: 使用 SAML 2.0 配置 Adobe Workfront
 description: 作为Adobe Workfront管理员，您可以配置Workfront Web和移动应用程序以与用于单点登录(SSO)的安全断言标记语言(SAML) 2.0解决方案集成。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: cf09859c-7d6f-4bf0-9b7f-c57096233c94
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: 93f4c1691210d88531fcc269bd40ee7ed8633309
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1061'
 ht-degree: 7%
 
 ---
 
-# 使用SAML 2.0配置Adobe Workfront
+# 使用 SAML 2.0 配置 Adobe Workfront
 
 <!--
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.** </p>
@@ -23,7 +23,13 @@ ht-degree: 7%
 
 <!-- Audited: 12/2023 -->
 
-{{important-admin-console-onboard}}
+
+
+>[!IMPORTANT]
+>
+>本页中介绍的过程仅适用于尚未载入Adobe Admin Console的组织。
+>
+>要映射已载入到Adobe Admin Console的组织中的用户属性，请参阅映射用户属性一文中的[在Adobe中映射用户属性](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience)。
 
 作为Adobe Workfront管理员，您可以配置Workfront Web和移动应用程序以与用于单点登录(SSO)的安全断言标记语言(SAML) 2.0解决方案集成。
 
@@ -92,7 +98,7 @@ ht-degree: 7%
        </ul> </td>
      </tr>
      <tr>
-      <td role="rowheader">填充身份提供程序元数据中的字段 </td> 
+      <td role="rowheader">填充身份标识提供程序元数据中的字段 </td> 
       <td>在SAML 2.0 Identity Provider解决方案中，导出服务提供程序元数据XML文件并将其保存到计算机上的临时位置。 选择<strong>选择文件</strong>，然后查找并选择保存的文件以将其添加到Workfront配置。</td> 
      </tr> 
      <tr> 
@@ -147,12 +153,12 @@ ht-degree: 7%
       <li> <p>工作角色</p> </li> 
       <li> <p>姓</p> </li> 
       <li> <p>布局模板</p> </li> 
-      <li> <p>管理器</p> </li> 
+      <li> <p>管理员</p> </li> 
       <li> <p>手机</p> </li> 
       <li> <p>电话号码</p> </li> 
       <li> <p>邮政编码</p> </li> 
       <li> <p>计划</p> </li> 
-      <li> <p>州/省</p> </li> 
+      <li> <p>State</p> </li> 
       <li> <p>时间表配置文件</p> </li> 
       <li> <p>标题</p> </li> 
       </ul>
