@@ -1,18 +1,18 @@
 ---
-title: AI Assistant概述
+title: Workfront的人工智能助手
 content-type: reference
-description: AI Assistant概述
+description: 了解Adobe Workfront中的AI助手
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: 657c2aa75d088f87f8e05b5089fccae2577842ee
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '831'
 ht-degree: 1%
 
 ---
 
-# AI Assistant概述
+# Workfront的人工智能助手
 
 Workfront的AI助手通过提供应用程序内信息和自然语言对话建议，帮助您完成工作。 AI助手可以通过以下方式为您提供更流畅的工作体验
 
