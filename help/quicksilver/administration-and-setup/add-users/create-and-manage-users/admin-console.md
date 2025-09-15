@@ -101,7 +101,7 @@ Adobe管理员可以使用Adobe Admin Console创建Adobe Workfront系统管理�
   >
   >请勿对产品配置文件本身进行任何更改。
 
-* Adobe Admin Console管理员可以设置自动分配规则，以自动将Adobe产品分配给组织中的用户。 您的组织必须迁移到Adobe Unified Experience才能使用此功能。 有关更多信息和说明，请参阅Adobe文档中的[管理自动分配规则](https://helpx.adobe.com/enterprise/using/automatic-assignment-rules.html)。
+* Adobe Admin Console管理员可以设置自动分配规则，以自动将Adobe产品分配给组织中的用户。 您的组织必须迁移到Adobe Unified Experience才能使用此功能。 有关更多信息和说明，请参阅Adobe文档中的[管理自动分配规则](https://helpx.adobe.com/cn/enterprise/using/automatic-assignment-rules.html)。
 
   >[!NOTE]
   >
@@ -236,16 +236,16 @@ Adobe管理员可以使用Adobe Admin Console创建Adobe Workfront系统管理�
 * 管理权限
 * 国家/地区
 
-有关在Adobe Admin Console中编辑单个用户的信息，请参阅Adobe文档中的单独管理用户一文中的[编辑用户详细信息](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#edit-user-details)。
+有关在Adobe Admin Console中编辑单个用户的信息，请参阅Adobe文档中的单独管理用户一文中的[编辑用户详细信息](https://helpx.adobe.com/cn/enterprise/using/manage-users-individually.html#edit-user-details)。
 
 有关在Adobe Admin Console中批量编辑用户的信息，请参阅
-在Adobe的“管理多个用户”一文中，[编辑用户详细信息](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html#edit-user-details)。
+在Adobe的“管理多个用户”一文中，[编辑用户详细信息](https://helpx.adobe.com/cn/enterprise/using/bulk-upload-users.html#edit-user-details)。
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p>You can create Adobe Workfront users and system administrators with the <a href="https://adminconsole.adobe.com/" alt="Admin Console link">Adobe Admin Console</a>. The console is a central location for managing the Adobe entitlements across your organization. For more information, see the <a href="https://helpx.adobe.com/enterprise/using/admin-console.html" alt="Admin Console Overview">Admin Console Overview</a>.</p>
+<p>You can create Adobe Workfront users and system administrators with the <a href="https://adminconsole.adobe.com/" alt="Admin Console link">Adobe Admin Console</a>. The console is a central location for managing the Adobe entitlements across your organization. For more information, see the <a href="https://helpx.adobe.com/cn/enterprise/using/admin-console.html" alt="Admin Console Overview">Admin Console Overview</a>.</p>
 <p>Before using the Admin Console for Workfront, you should receive a receive an email inviting you to the console. Click in the invitation to accept it and create an account. You can also use an existing account, if already available.</p>
 <h2>Create users</h2>
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Create users in WF with the Adobe admin console</p>
