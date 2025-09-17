@@ -6,9 +6,9 @@ description: 您可以将统一审批与验证结合使用。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
-source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
+source-git-commit: 601285fdbf26365dcaea14f990904d049816af21
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Workfront中的统一审批引入了一组新功能，可帮助您审阅和审�
 ## 上传文档并创建验证
 
 1. 转到要添加新文档的项目、任务或问题。
-1. 单击&#x200B;**文档**&#x200B;选项卡，然后单击&#x200B;**新增**&#x200B;下拉菜单。
+1. 单击&#x200B;**文档**&#x200B;选项卡，然后单击&#x200B;**新增**下拉菜单。
 或
 将文档拖放到文档列表中。
 
@@ -97,8 +97,6 @@ Workfront中的统一审批引入了一组新功能，可帮助您审阅和审�
 ## 查看证明并做出决定
 
 在所有分配的审批人选择“已批准”之前，文档不会移至“已批准”状态。
-
-如果有任何一位审批者选择“需要工作”，文档的状态将立即变为“需要工作”。 需要修订文档，并使用新的审批工作流将其上传为新版本。
 
 要审阅和批准文档，请执行以下操作：
 

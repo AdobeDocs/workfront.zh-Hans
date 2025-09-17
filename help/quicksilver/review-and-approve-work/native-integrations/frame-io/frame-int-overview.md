@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 701f3fc2c885363b5f61fb9d77049c7d4c41963d
+source-git-commit: c4e1961092883f523d04adaacd58129a0379783d
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -20,18 +20,18 @@ ht-degree: 0%
 
 Workfront和Frame.io集成允许项目协调员在Workfront中管理项目和计划工作，而创意人员、营销人员和利益相关者可以在Frame.io中查看和批准资源。
 
-## 构建于Adobe企业存储管理之上
+## 构建于Adobe企业级存储之上
 
-此集成的核心是Adobe企业存储管理(ESM)，它是一种基于云的存储解决方案，可作为Adobe企业产品(包括Workfront和Frame.io)中资产的中央存储库。
+此集成的核心是Adobe企业存储，它是一种基于云的存储解决方案，可作为Adobe企业产品(包括Workfront、Frame.io和Creative Cloud)中资产的中心存储库。
 
-Adobe企业存储管理的主要优势包括：
+Adobe企业存储的主要优势包括：
 
 * 用于创意和工作管理资产的统一存储层
 * 通过Adobe IMS集中管理权限以实现安全访问控制
 * 跨Workfront、Frame.io和Creative Cloud应用程序的端到端资源可见性<!--coming soon?-->
 * 满足企业需求的可扩展存储和配额管理
 
-有关详细信息，请参阅[Adobe企业存储管理概述](help/quicksilver/review-and-approve-work/esm-overview.md)。
+有关详细信息，请参阅[Adobe企业存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 ## 统一审查和批准
 
@@ -58,9 +58,13 @@ Workfront和Frame.io集成使用Workfront的统一审批功能来管理审阅和
 
 有关详细信息，请参阅[Frame.io集成入门](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)。
 
-#### 视频审阅限制
+#### 视频审查限制
 
-<!--need to confirm these-->
+视频验证请求的年度上限设置为组织的总付费Workfront用户许可证（标准和轻量级）的10%。 此上限在组织级别应用。
+
+当使用量达到上限的80%和100%时，Workfront管理员将收到通知。
+
+此限制不适用于Frame.io Enterprise客户。
 
 #### Frame.io查看器支持的文件类型
 
@@ -70,7 +74,7 @@ Frame.io查看器支持所有常见视频、图像、音频、PDF和MS® Office�
 
 Frame.io查看器适用于拥有付费许可证的所有Workfront用户。 使用Frame.io查看器审阅和批准此集成不需要其他Frame.io许可证。
 
-如果您的组织希望利用其他Frame.io功能（如将资产直接上传到Frame.io中的项目），则可以购买Frame.io企业许可证。<!--link to Frame.io enterprise license info or who to contacT?-->
+如果您的组织希望利用其他Frame.io功能（如将资产直接上传到Frame.io中的项目），则可以购买Frame.io企业许可证。 请联系您的Adobe客户代表以安排演示，并探索完整Frame.io解决方案的优势。
 
 Workfront校对功能在此集成中不可用。
 
@@ -78,7 +82,7 @@ Workfront校对功能在此集成中不可用。
 
 通过Workfront与Frame.io集成，项目协调员可以利用Workfront强大的项目管理功能来规划、跟踪和管理工作。
 
-有关在Workfront中管理项目的详细信息，请参阅[项目：文章索引](/help/quicksilver/manage-work/projects/projects-toc.md)。
+有关在Workfront中管理项目的详细信息，请参阅[项目：文章索引](/help/quicksilver/manage-work/projects/create-projects/create-project.md)。
 
 ### 强制的结构和命名约定
 
@@ -106,21 +110,21 @@ Workfront校对功能在此集成中不可用。
 
 以下功能将不会包含在此集成中：
 
-* 外部文档提供程序
+<!--* External document providers-->
 * 访问验证
 * Workfront中的文档查看器
-
-
-#### 临时限制
-
-目前，以下功能不可用：
-
 * 收藏的文档
 * 请求文档
-* 将文档发送到Adobe Experience Manager Assets
-* 多阶段审批
-* 在Workfront中将文档上传为评论或更新
-* 将文档上传到Workfront中的任务或问题
+
+
+<!--#### Temporary limitations
+
+For now, the following capabilities are not available:
+
+* Send documents to Adobe Experience Manager Assets
+* Multi-stage approvals
+* Upload documents to comments or updates in Workfront
+* Upload documents to tasks or issues in Workfront-->
 
 
 

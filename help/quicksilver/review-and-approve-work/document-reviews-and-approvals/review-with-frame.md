@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 19003988a8e164db225f8511f567d38e6eeaf627
+source-git-commit: 601285fdbf26365dcaea14f990904d049816af21
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 1. 转到审阅电子邮件通知，然后单击&#x200B;**转到审阅**。
 或
-转到Workfront主页，找到我的审批小组件，然后单击&#x200B;**打开审核**。
+转到Workfront主页，找到我的审批小组件，然后单击**打开审核**。
 
    >[!NOTE]
    > 
@@ -82,13 +82,11 @@ ht-degree: 0%
 
 在所有分配的审批人选择“已批准”之前，文档不会移至“已批准”状态。
 
-如果有任何一位审批者选择“需要工作”，文档的状态将立即变为“需要工作”。 需要修订文档，并使用新的审批工作流将其上传为新版本。
-
 要对文档做出决策，请执行以下操作：
 
 1. 转到审阅电子邮件通知，然后单击&#x200B;**转到审阅**。
 或
-转到Workfront主页，找到我的审批小组件，然后单击&#x200B;**打开审核**。
+转到Workfront主页，找到我的审批小组件，然后单击**打开审核**。
 
    >[!NOTE]
    > 
