@@ -6,14 +6,16 @@ description: 您可以编辑项目模板以反映未来项目流程和设置的�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
+source-git-commit: 5edda5b6d084c6c4df62f21e430ce9cd0c1cc8a4
 workflow-type: tm+mt
-source-wordcount: '5045'
+source-wordcount: '5161'
 ht-degree: 2%
 
 ---
 
 # 编辑项目模板
+
+{{highlighted-preview}}
 
 <!-- Audited: 7/2025 -->
 
@@ -112,7 +114,6 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    * [评论](#comment)
    <!--* [Linked folders](#linked-folders-conditional-availability) -->
 
-
 ### 模板名称{#template-name}
 
 1. 如上所述，开始编辑模板。
@@ -134,33 +135,33 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 更新以下字段：
 
    <table style="table-layout:auto"> 
-       <col> 
-       <col> 
-       <tbody> 
-         <tr> 
-         <td role="rowheader"><strong>描述</strong></td> 
-         <td>添加有关模板的其他信息。</td> 
-       </tr> 
-         <tr> 
-         <td role="rowheader"><strong>优先级</strong></td> 
-         <td><p>这只是一个可视标记，可让您为将来的项目设置优先级。 从以下选项中选择：</p> 
-         <ul> 
-         <li><p><strong>无</strong></p></li> 
-         <li><p><strong>低</strong></p></li> 
-         <li><p><strong>正常</strong></p></li> 
-         <li><p><strong>高</strong></p></li> 
-         <li><p><strong>紧急</strong></p></li> 
-         </ul><p><p>根据您的Workfront管理员选择的项目偏好设置，优先级名称可能有所不同。 有关编辑优先级的详细信息，请参阅<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">创建和自定义优先级</a>。</p></p></td> 
+    <col> 
+    <col> 
+    <tbody> 
+      <tr> 
+      <td role="rowheader"><strong>描述</strong></td> 
+      <td>添加有关模板的其他信息。</td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>优先级</strong></td> 
+      <td><p>这只是一个可视标记，可让您为将来的项目设置优先级。 从以下选项中选择：</p> 
+      <ul> 
+      <li><p><strong>无</strong></p></li> 
+      <li><p><strong>低</strong></p></li> 
+      <li><p><strong>正常</strong></p></li> 
+      <li><p><strong>高</strong></p></li> 
+      <li><p><strong>紧急</strong></p></li> 
+      </ul><p><p>根据您的Workfront管理员选择的项目偏好设置，优先级名称可能有所不同。 有关编辑优先级的详细信息，请参阅<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">创建和自定义优先级</a>。</p></p></td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>URL</strong></td> 
          <td>指定与此模板的信息相关的Web链接。</td> 
        </tr>
-<tr> 
+   <tr> 
       <td role="rowheader"><strong>为活动</strong></td> 
       <td><p>如果您希望模板处于活动状态，请打开此选项。 其他用户可以在创建项目时找到此模板并将其附加到项目。 如果要取消激活不再使用的模板，请关闭该选项。 无法将已停用的模板附加到项目。 默认情况下启用此功能。 </p><p><b>提示</b></p>
 
-<p>您可以从模板标题中停用模板，如本文的“激活或停用模板”部分中所述。</p></td> 
+   <p>您可以从模板标题中停用模板，如本文的“激活或停用模板”部分中所述。</p></td> 
      </tr>
 
 <tr> 
@@ -251,33 +252,33 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
        <td><p>为从此模板创建的项目指定预算。</p></td> 
        </tr>  
        <tr> 
-         <td role="rowheader"><strong>绩效指数方法</strong></td> 
-         <td><p>选择Workfront计算未来项目实现值指标的方式。 从以下内容中选择：
-         <ul>
-         <li>基于小时</li>
-         <li>基于成本</li>
-         </ul>
+       <td role="rowheader"><strong>绩效指数方法</strong></td> 
+       <td><p>选择Workfront计算未来项目实现值指标的方式。 从以下内容中选择：
+       <ul>
+       <li>基于小时</li>
+       <li>基于成本</li>
+       </ul>
 
-   有关绩效指数方法的详细信息，请参阅<a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">设置绩效指数方法(PIM)</a>。 </p></td>
-   </tr> 
-         <tr> 
-         <td role="rowheader"><strong>规划收益</strong></td> 
-         <td><p>指定从此模板创建的项目的计划收益。 计划收益用于项目的业务案例和Portfolio Optimizer。 </p><p>有关项目计划权益的详细信息，请参阅<a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">项目计划权益概述</a>。 在计算项目净值时，将考虑项目的计划收益。 </p><p>有关使用Portfolio优化器的更多信息，请参阅<a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">在Portfolio优化器中管理项目</a> </p></td> 
-       </tr> 
-       <tr> 
-         <td role="rowheader"><strong>固定成本</strong></td> 
-         <td><p>为从此模板创建的项目指定固定成本。 这与来自项目小时数的人工成本和来自项目费用金额的费用成本不同。 在计算项目的净值时，将考虑项目的固定成本，它也是预算成本的一部分。</p></td> 
-       </tr> 
-       <tr> 
-       <td role="rowheader"><strong>固定收入</strong></td> 
-       <td><p>为从此模板创建的项目指定固定收入。</p></td> 
-       </tr> 
-       <tr> 
-       <td role="rowheader"><strong>该项目需要批准时间</strong></td> 
-       <td><p>选择此选项可要求使用此模板创建的未来项目的项目所有者批准登录项目的时间。 如果您使用开单记录并选择此选项，则只有项目中的已批准小时数显示为开单记录的可用开单小时数。 项目中的批准时间与批准时间表无关。 有关项目需要批准时间的详细信息，请参阅<a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">项目需要批准时间</a>。</p></td> 
-       </tr> 
-       </tbody> 
-      </table>
+       有关绩效指数方法的详细信息，请参阅&lt;a href=&quot;../../../manage-work/projects/project-finances/set-pim.md&quot; class=&quot;MCXref xref&quot;>设置绩效指数方法(PIM)&lt;/a>。 &lt;/p>&lt;/td>
+       &lt;/tr>
+       &lt;tr>
+       &lt;td role=&quot;rowheader&quot;>&lt;strong>计划收益&lt;/strong>&lt;/td>
+       &lt;td>&lt;p>指定从此模板创建的项目的计划收益。 计划收益用于项目的业务案例和Portfolio Optimizer。 &lt;/p>&lt;p>有关项目计划权益的更多信息，请参阅&lt;a href=&quot;../../../manage-work/projects/project-finances/project-planned-benefit.md&quot; class=&quot;MCXref xref&quot;>项目计划权益概述&lt;/a>。 在计算项目净值时，将考虑项目的计划收益。 &lt;/p>&lt;p>有关使用Portfolio Optimizer的更多信息，请参阅&lt;a href=&quot;../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md&quot; class=&quot;MCXref xref&quot;>在Portfolio Optimizer中管理项目&lt;/a> &lt;/p>&lt;/td>
+       &lt;/tr>
+       &lt;tr>
+       &lt;td role=&quot;rowheader&quot;>&lt;strong>固定成本&lt;/strong>&lt;/td>
+       &lt;td>&lt;p>为从此模板创建的项目指定固定成本。 这与来自项目小时数的人工成本和来自项目费用金额的费用成本不同。 在计算项目的净值时，将考虑项目的固定成本，它也是预算成本的一部分。&lt;/p>&lt;/td>
+       &lt;/tr>
+       &lt;tr>
+       &lt;td role=&quot;rowheader&quot;>&lt;strong>固定收入&lt;/strong>&lt;/td>
+       &lt;td>&lt;p>为从此模板创建的项目指定固定收入。&lt;/p>&lt;/td>
+       &lt;/tr>
+       &lt;tr>
+       &lt;td role=&quot;rowheader&quot;>&lt;strong>此项目需要批准时间&lt;/strong>&lt;/td>
+       &lt;td>&lt;p>选择此选项可要求使用此模板创建的未来项目的项目所有者批准登录项目的时间。 如果您使用开单记录并选择此选项，则只有项目中的已批准小时数显示为开单记录的可用开单小时数。 项目中的批准时间与批准时间表无关。 有关项目需要批准时间的更多信息，请参阅&lt;a href=&quot;../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md&quot; class=&quot;MCXref xref&quot;>项目需要批准时间&lt;/a>。&lt;/p>&lt;/td>
+       &lt;/tr>
+       &lt;/tbody>
+   </table>
 
 1. （可选）根据要修改的信息，继续编辑以下部分。
 
@@ -330,12 +331,12 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
        <td> <p>选择模板的里程碑路径。 列表中只显示活动里程碑路径。<br>有关里程碑路径的更多信息，请参阅<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">创建里程碑路径</a>。</p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>完成模式</strong> </td> 
-         <td> <p>控制如何将未来的项目标记为完成。 <br>从以下选项中选择：</p> 
-         <ul> 
-         <li> <p><strong>自动</strong>：在所有任务和问题都完成时，项目被标记为“完成”。</p> </li> 
-         <li> <p><strong>手动</strong>：当所有任务和问题都完成时，您必须手动选择项目的“完成”状态。 </p> </li> 
-         </ul> </td> 
+       <td role="rowheader"><strong>完成模式</strong> </td> 
+       <td> <p>控制如何将未来的项目标记为完成。 <br>从以下选项中选择：</p> 
+       <ul> 
+       <li> <p><strong>自动</strong>：在所有任务和问题都完成时，项目被标记为“完成”。</p> </li> 
+       <li> <p><strong>手动</strong>：当所有任务和问题都完成时，您必须手动选择项目的“完成”状态。 </p> </li> 
+       </ul> </td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>摘要完成模式</strong> </td> 
@@ -346,72 +347,72 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
        </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>更新类型</strong> </td> 
-         <td> <p>控制何时将您对未来项目时间线所做的更改保存到项目中。 </p> 
-         <b>示例</b> 
-         <p>对项目进行以下更改会触发项目时间线的更新：</p> 
-         <ul> 
-         <li> <p>更新任务日期</p> </li> 
-         <li> <p>更改前置任务关系<br></p> </li> 
-         <li> <p>更改父子关系</p> </li> 
-         <li> <p>添加或删除分配，以及更改任务限制或持续时间类型。</p> </li> 
-         </ul> 
-         </div> <p>从以下选项中选择：<br></p> 
-         <ul> 
-         <li> <p><strong>更改时自动更新</strong>（默认设置）：每次在项目或时间线所依赖的其他项目中发生更改时，将来的项目时间线都会更新（根据更改）。 项目时间表也会每晚更新（自动）。<br>此字段是推荐的设置，因为它可确保项目时间线始终保持最新。<br>当您对触发时间表重新计算的任务或项目执行操作时，所有可用日期都会立即显示，允许您继续工作。 在具有100个以上任务的项目中，需要更长时间重新计算的日期会短暂显示为问号（介于1和5秒之间，对于大型项目，最多会显示一分钟）。 这表示重新计算尚未完成，并且日期可能会发生更改。<br></p> </li> 
-         </ul> 
-         <ul> 
-         <li> <p><strong>仅更改</strong>：每次在项目或时间线所依赖的其他项目中发生更改时，项目时间线都会更新。 如果项目或时间线所依赖的其他项目中很少发生更改，您可能需要选择此选项。<br></p> </li> 
-         </ul> 
-         <ul> 
-         <li> <p><strong>仅限自动</strong>：项目时间线每晚都会更新；更改后不会立即更新。<br>如果项目或时间线所依赖的其他项目中每天发生许多更改，您可能需要选择此选项。 但是，请注意，您选择了此设置，因为项目不会在进行更改的同时更新。<br></p> </li> 
-         </ul> 
-         <ul> 
-         <li> <p><strong>仅手动</strong>：仅当您选择重新计算时间线的选项时，项目时间线才会更新，如<a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">重新计算项目时间线</a>中所述。<br></p> </li> 
-         </ul> <p>如果要一次对项目进行多项更改，并且希望在所有更改完成后（而不是在每次更改后）重新计算时间线，则可能需要选择此选项。</p> </td> 
+       <td role="rowheader"><strong>更新类型</strong> </td> 
+       <td> <p>控制何时将您对未来项目时间线所做的更改保存到项目中。 </p> 
+       <b>示例</b> 
+       <p>对项目进行以下更改会触发项目时间线的更新：</p> 
+       <ul> 
+       <li> <p>更新任务日期</p> </li> 
+       <li> <p>更改前置任务关系<br></p> </li> 
+       <li> <p>更改父子关系</p> </li> 
+       <li> <p>添加或删除分配，以及更改任务限制或持续时间类型。</p> </li> 
+       </ul> 
+       </div> <p>从以下选项中选择：<br></p> 
+       <ul> 
+       <li> <p><strong>更改时自动更新</strong>（默认设置）：每次在项目或时间线所依赖的其他项目中发生更改时，将来的项目时间线都会更新（根据更改）。 项目时间表也会每晚更新（自动）。<br>此字段是推荐的设置，因为它可确保项目时间线始终保持最新。<br>当您对触发时间表重新计算的任务或项目执行操作时，所有可用日期都会立即显示，允许您继续工作。 在具有100个以上任务的项目中，需要更长时间重新计算的日期会短暂显示为问号（介于1和5秒之间，对于大型项目，最多会显示一分钟）。 这表示重新计算尚未完成，并且日期可能会发生更改。<br></p> </li> 
+       </ul> 
+       <ul> 
+       <li> <p><strong>仅更改</strong>：每次在项目或时间线所依赖的其他项目中发生更改时，项目时间线都会更新。 如果项目或时间线所依赖的其他项目中很少发生更改，您可能需要选择此选项。<br></p> </li> 
+       </ul> 
+       <ul> 
+       <li> <p><strong>仅限自动</strong>：项目时间线每晚都会更新；更改后不会立即更新。<br>如果项目或时间线所依赖的其他项目中每天发生许多更改，您可能需要选择此选项。 但是，请注意，您选择了此设置，因为项目不会在进行更改的同时更新。<br></p> </li> 
+       </ul> 
+       <ul> 
+       <li> <p><strong>仅手动</strong>：仅当您选择重新计算时间线的选项时，项目时间线才会更新，如<a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">重新计算项目时间线</a>中所述。<br></p> </li> 
+       </ul> <p>如果要一次对项目进行多项更改，并且希望在所有更改完成后（而不是在每次更改后）重新计算时间线，则可能需要选择此选项。</p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>计划</strong> </td> 
-         <td> <p>为您的模板选择计划。 这将成为从此模板创建的项目的计划。 该时间表应与分配给大多数参与项目工作的人员的时间表相同。 必须先创建计划，然后才能将其分配给模板。<br>有关创建计划的详细信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">创建计划</a>。 <br>如果尚未在系统中创建自定义计划，则选择“默认计划”。 </p> </td> 
+       <td role="rowheader"><strong>计划</strong> </td> 
+       <td> <p>为您的模板选择计划。 这将成为从此模板创建的项目的计划。 该时间表应与分配给大多数参与项目工作的人员的时间表相同。 必须先创建计划，然后才能将其分配给模板。<br>有关创建计划的详细信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">创建计划</a>。 <br>如果尚未在系统中创建自定义计划，则选择“默认计划”。 </p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>用户空闲时间</strong> </td> 
-         <td> <p>确定任务的主要被分配人的休息时间是否调整任务计划日期。 当您将模板附加到现有项目，并且模板的此字段设置与项目不同时，项目上的设置保持不变。 新模板的此设置的默认选项与系统级别项目首选项相同。 </p> <p>有关系统级别的项目首选项的信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">配置系统范围的项目首选项</a>。 </p> <p>有关此设置如何影响项目任务日期的信息，请参阅<a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">编辑项目</a>。<br>从以下选项中选择：<br></p> 
-         <ul> 
-         <li> <p><strong>考虑任务持续时间中的用户空闲时间</strong>：选择此选项时，如果空闲时间发生在任务持续时间内，则根据任务的主要被分配者的空闲时间，调整由此模板创建的项目上任务的计划日期。 </p> </li> 
-         <li> <p><strong>忽略任务持续时间中的用户空闲时间</strong>：选择此选项时，根据此模板创建的项目上任务的计划日期将保留为最初计划的日期，即使任务的主要被分配人在任务持续时间里有空闲时间。 </p> </li> 
-         </ul> </td> 
+       <td role="rowheader"><strong>用户空闲时间</strong> </td> 
+       <td> <p>确定任务的主要被分配人的休息时间是否调整任务计划日期。 当您将模板附加到现有项目，并且模板的此字段设置与项目不同时，项目上的设置保持不变。 新模板的此设置的默认选项与系统级别项目首选项相同。 </p> <p>有关系统级别的项目首选项的信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">配置系统范围的项目首选项</a>。 </p> <p>有关此设置如何影响项目任务日期的信息，请参阅<a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">编辑项目</a>。<br>从以下选项中选择：<br></p> 
+       <ul> 
+       <li> <p><strong>考虑任务持续时间中的用户空闲时间</strong>：选择此选项时，如果空闲时间发生在任务持续时间内，则根据任务的主要被分配者的空闲时间，调整由此模板创建的项目上任务的计划日期。 </p> </li> 
+       <li> <p><strong>忽略任务持续时间中的用户空闲时间</strong>：选择此选项时，根据此模板创建的项目上任务的计划日期将保留为最初计划的日期，即使任务的主要被分配人在任务持续时间里有空闲时间。 </p> </li> 
+       </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>资源均衡模式</strong> </td> 
-         <td> <p>从以下选项中选择：<br></p> 
-         <ul> 
-         <li> <p><strong>手动</strong>：您必须手动调配从此模板创建的项目上的资源（这是默认设置）</p> </li> 
-         <li> <p><strong>自动：</strong> Workfront为将来的项目调配资源。 <br>有关资源均衡的更多信息，请参阅甘特图<a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">中的</a>均衡资源。 </p> </li> 
-         </ul> </td> 
+       <td role="rowheader"><strong>资源均衡模式</strong> </td> 
+       <td> <p>从以下选项中选择：<br></p> 
+       <ul> 
+       <li> <p><strong>手动</strong>：您必须手动调配从此模板创建的项目上的资源（这是默认设置）</p> </li> 
+       <li> <p><strong>自动：</strong> Workfront为将来的项目调配资源。 <br>有关资源均衡的更多信息，请参阅甘特图<a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">中的</a>均衡资源。 </p> </li> 
+       </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>风险</strong> </td> 
-         <td> <p>定义从此模板创建的项目的风险级别。 风险只是一个指示器，表明一个项目可能有多大的风险。 您可以根据风险级别安排项目执行的优先级。<br>考虑从以下风险级别选择：<br></p> 
-         <ul> 
-         <li> <p><strong>非常低</strong> </p> </li> 
-         <li> <p><strong>低</strong> </p> </li> 
-         <li> <p><strong>Medium</strong> </p> </li> 
-         <li> <p><strong>高</strong> </p> </li> 
-         <li> <p><strong>非常高</strong> </p> </li> 
-         </ul> </td> 
+       <td role="rowheader"><strong>风险</strong> </td> 
+       <td> <p>定义从此模板创建的项目的风险级别。 风险只是一个指示器，表明一个项目可能有多大的风险。 您可以根据风险级别安排项目执行的优先级。<br>考虑从以下风险级别选择：<br></p> 
+       <ul> 
+       <li> <p><strong>非常低</strong> </p> </li> 
+       <li> <p><strong>低</strong> </p> </li> 
+       <li> <p><strong>Medium</strong> </p> </li> 
+       <li> <p><strong>高</strong> </p> </li> 
+       <li> <p><strong>非常高</strong> </p> </li> 
+       </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>资源池</strong> </td> 
-         <td> <p>指定与模板关联的资源池。 资源池是完成项目时同时需要的用户集合。 有关资源池的详细信息，请参阅<a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref">资源池概述</a>。</p> <p> <p><b>注释</b>
+       <td role="rowheader"><strong>资源池</strong> </td> 
+       <td> <p>指定与模板关联的资源池。 资源池是完成项目时同时需要的用户集合。 有关资源池的详细信息，请参阅<a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref">资源池概述</a>。</p> <p> <p><b>注释</b>
 
-   批量编辑模板时，此字段仅显示所有选定模板共有的资源池。 如果所选模板没有共享资源池，则此字段将为空。 您在此处指定的资源池将覆盖模板的单个资源池。</p> </p> </td>
-   </tr>
-
+       当您批量编辑模板时，此字段只会显示所有选定模板通用的资源池。 如果所选模板没有共享资源池，则此字段将为空。 您在此处指定的资源池将覆盖模板的单个资源池。&lt;/p> &lt;/p> &lt;/td>
+       &lt;/tr>
+   
    <tr> 
       <td role="rowheader"><strong>该项目需要批准时间</strong></td>
 
-<td><p>选择此选项可要求使用此模板创建的项目的未来项目所有者批准登录项目的时间。</p> 
+   <td><p>选择此选项可要求使用此模板创建的项目的未来项目所有者批准登录项目的时间。</p> 
    <p>如果您使用开单记录并选择此选项，则只有项目中的已批准小时数显示为开单记录的可用开单小时数。 </p>
    <p>项目中的批准时间与批准时间表无关。 有关项目需要批准时间的详细信息，请参阅<a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">项目需要批准时间</a>。</p>
    </td> 
@@ -431,8 +432,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    <li>列表中仅显示有效的审批流程。 </li> 
    <li> <p>系统范围及组特定的批准流程会显示在列表中。 与模板组以外的组关联的审批流程不会显示在列表中。</p> <p><b>重要</b>
 
-如果与模板关联的组发生更改，则组特定的审批流程将变为一次性审批流程。 有关对项目组的更改或审批流程中的更改如何影响审批设置的详细信息，请参阅<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">组和审批流程更改如何影响分配的审批流程</a>。 </p> </li>
-<li> <p>如果您添加了一次性审批流程，它在此字段显示为“自定义”。 有关信息，请参阅<a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">将新的或现有的审批流程与工作关联</a>。 </p> 
+   如果与模板关联的组发生更改，则组特定的审批流程将变为一次性审批流程。 有关对项目组的更改或审批流程中的更改如何影响审批设置的详细信息，请参阅<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">组和审批流程更改如何影响分配的审批流程</a>。 </p> </li>
+   <li> <p>如果您添加了一次性审批流程，它在此字段显示为“自定义”。 有关信息，请参阅<a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">将新的或现有的审批流程与工作关联</a>。 </p> 
       </li> 
       <li> <p>批量编辑模板时，存在以下情况：</p> 
       <ul> 
@@ -613,6 +614,10 @@ Editing templates in bulk differs depending on which environment you are using.
 
    将打开&#x200B;**编辑模板**&#x200B;对话框。
 
+   <span class="preview">预览环境中的示例图像：</span>
+   ![编辑模板](assets/bulk-edit-templates-0925.png)
+
+   生产环境中的示例图像：
    ![编辑模板](assets/edit-templates-in-bulk-box-nwe-350x327.png)
 
 1. 单击左侧的部分可编辑所有选定的模板。
@@ -631,7 +636,7 @@ Editing templates in bulk differs depending on which environment you are using.
    * 问题
    * 评论
 
-1. 单击&#x200B;**保存更改**。
+1. 单击&#x200B;<span class="preview">**保存**</span>&#x200B;或&#x200B;**保存更改**。
 
    现在，您所做的所有更改在所有选定的模板中均可见。
 
