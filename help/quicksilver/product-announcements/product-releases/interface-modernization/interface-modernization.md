@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: abe76998e8d98bf47e45e01ff6b27610955177c5
+source-git-commit: c17723aed4057e744d3c3dc967990163316d82f5
 workflow-type: tm+mt
-source-wordcount: '7673'
+source-wordcount: '7834'
 ht-degree: 0%
 
 ---
@@ -162,7 +162,25 @@ ht-degree: 0%
 
 有关信息，请参阅[编辑项目组合](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md)。
 
+## 项目群
+
+### “编辑程序”框的界面更新
+
+**预览版本： 2025年9月18日；生产版本： 2025年9月25日**
+
+我们更新了“编辑项目”框的外观，以匹配Workfront其他区域的设计。
+
+有关信息，请参阅[编辑程序](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/edit-programs.md)。
+
 ## 项目
+
+### 批量编辑模板时界面更新
+
+**预览版本： 2025年9月18日；生产版本： 2025年9月25日**
+
+在从模板列表中批量编辑模板时，我们更新了“编辑模板”框的外观。 编辑模板框上的信息组织现在与单模板编辑框匹配。
+
+有关信息，请参阅[编辑项目模板](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md)。
 
 ### 应用里程碑视图时，项目列表或报告的界面更新
 
@@ -376,17 +394,16 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 
 ## 用户
 
-<!--
-### Interface updates for the New User dialog
+### “新建用户”对话框的界面更新
 
-**Preview release: September 11, 2025; Production release: September 18, 2025**
+**预览版本： 2025年9月18日；生产版本： 2025年9月18日**
 
-We have updated the look and feel of the New User dialog to match the design in other areas of the application.
+我们更新了“新用户”对话框的外观，使其与应用程序其他方面的设计相匹配。
 
-To view this change, go to Users > New User > New User.
+要查看此更改，请转到“用户”>“新建用户”>“新建用户”。
 
-For information, see [Add users](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) and [Updates to the Workfront user profile](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile) on the [Fourth Quarter 2025 Administrator enhancements page](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md).
--->
+有关信息，请参阅[2025年第四季度管理员增强功能](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md)页面上的[将用户添加到Workfront用户配置文件](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile)和[更新](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md)。
+
 
 ### “导入用户”对话框的界面更新
 

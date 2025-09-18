@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: dcdd74e8293a5e695600f08536c8fc2ad36c3a31
+source-git-commit: 30e5358549291e5d04d42ab470dccd444521ecb8
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,22 @@ ht-degree: 0%
 本页介绍了管理员在2025年第四季度版本中对“预览”环境所做的增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2025年第四季度发布周期中此时可用的所有更改列表，请参阅[ 2025年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)。
+
+## Workfront用户个人资料的更新
+
+>[!NOTE]
+>
+>* 预览： 2025年8月28日
+>* 面向所有客户的生产：从2025年9月18日开始分阶段推出
+
+我们更新了Workfront用户配置文件的外观，使其采用与Workfront其他区域一致的现代化设计。 这些更新既适用于编辑单个配置文件的管理员，也适用于批量编辑多个配置文件的管理员，也适用于编辑自己配置文件的用户。
+
+与当前用户配置文件存在一些小的功能差异，包括：
+
+* 某些复选框（例如将用户标记为活动）已更改为切换或按钮。
+* 首选项下的“将我分配给自己的工作发送到我的工作选项卡上”选项已被删除，因为它引用了一个已弃用的功能。
+
+有关详细信息，请参阅[编辑用户配置文件](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
 ## 新的讨论区管理员视图
 
@@ -46,26 +62,7 @@ ht-degree: 0%
 
 有关启用AI功能的先决条件，请参阅[AI助手先决条件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
 
-## Workfront用户个人资料的更新
 
->[!IMPORTANT]
->
->此更新已暂时从预览和生产中删除。
-
-
->[!NOTE]
->
->* 预览： 2025年8月28日
->* 适用于所有客户的生产： 2025年9月4日
-
-我们更新了Workfront用户配置文件的外观，使其采用与Workfront其他区域一致的现代化设计。 这些更新既适用于编辑单个配置文件的管理员，也适用于批量编辑多个配置文件的管理员，也适用于编辑自己配置文件的用户。
-
-与当前用户配置文件存在一些小的功能差异，包括：
-
-* 某些复选框（例如将用户标记为活动）已更改为切换或按钮。
-* 首选项下的“将我分配给自己的工作发送到我的工作选项卡上”选项已被删除，因为它引用了一个已弃用的功能。
-
-有关详细信息，请参阅[编辑用户配置文件](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
 ## 将外部API中的多个值选项添加到自定义表单
 

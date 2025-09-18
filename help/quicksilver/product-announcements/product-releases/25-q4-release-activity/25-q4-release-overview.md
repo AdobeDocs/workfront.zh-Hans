@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: dcdd74e8293a5e695600f08536c8fc2ad36c3a31
+source-git-commit: 30e5358549291e5d04d42ab470dccd444521ecb8
 workflow-type: tm+mt
-source-wordcount: '2077'
+source-wordcount: '2073'
 ht-degree: 1%
 
 ---
@@ -78,8 +78,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>     
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Workfront用户个人资料的更新</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
-            <p><i>此更新已暂时从预览和生产中删除。</i></p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Workfront用户个人资料的更新</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
             <p>我们更新了Workfront用户配置文件的外观，使其采用与Workfront其他区域一致的现代化设计。 这些更新既适用于编辑单个配置文件的管理员，也适用于批量编辑多个配置文件的管理员，也适用于编辑自己配置文件的用户。</p>
             <p>与当前用户配置文件存在一些小的功能差异，包括：</p>
             <ul>
@@ -88,8 +87,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </ul>
         </td>
         <td>2025年8月28日</td>
-        <td>2025年9月4日</td>
-        <td>2025年9月4日</td>
+        <td>已从2025年9月18日开始分阶段推出</td>
+        <td>已从2025年9月18日开始分阶段推出</td>
     </tr>  
     <tr>
         <td>
@@ -139,7 +138,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">统一审批分阶段转出</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">统一审批分阶段转出</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
             <p>我们正在分阶段启用统一审批（以前称为“新文档审批”）。 在接下来的六个月中，此功能将自动在您的Workfront实例中启用。</p>
             <p>统一审批取代了旧文档审批，并提供了新的功能。 
 </p>
@@ -240,7 +239,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr> 
   <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">新表达式已添加到Planning中的公式字段和Workfront中的已计算自定义字段中</a><p><p>[!BADGE Off Schedule]{type=Neutral}</p></p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">新表达式已添加到Planning中的公式字段和Workfront中的已计算自定义字段中</a><p><p>[！BADGE Off Schedule]{type=Neutral}</p></p>
             <p>我们向Workfront Planning中的公式字段和Workfront中的计算自定义字段添加了具有以下用法的新表达式：</p>
             <ul>
             <li>REMOVEACCENTS(string)：从输入字符串中所有重音字符中删除变音标记。</li>
@@ -440,7 +439,7 @@ Workfront Planning中的新增功能已在生产环境中可用。 有关最新�
 * 适用于Salesforce的Workfront。
 
 为了满足贵组织与Google Workspace的集成需求，我们建议使用Workfront自动化和集成。
-有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 ### API版本20
 
@@ -452,8 +451,8 @@ Workfront API版本20于2025年5月4日发布。 对于API版本20，我们修�
 
 ### Workfront 维护更新
 
-有关2025年第一季度版本中所做维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hans)。
+有关2025年第一季度版本中所做维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
 
 ### 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hans)的“新增功能”部分。
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的“新增功能”部分。
