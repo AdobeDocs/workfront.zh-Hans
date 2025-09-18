@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: 9bdc36a76393acd2f0617cc5796cfd7279b2c97a
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1976'
 ht-degree: 1%
 
 ---
 
 # 连接的记录类型概述
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>   -->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 通过连接各个记录类型可以指出它们彼此相关，或与来自其他应用程序的对象相关。
 
@@ -75,12 +75,12 @@ ht-degree: 1%
 
      例如，如果将“Campaign”记录类型与“Product”记录类型连接，则会在Campaign记录类型上创建名为“链接的产品”的链接记录字段（连接字段）。 在产品记录类型上创建一个自动命名为“Campaign”的链接记录类型。
 
-     <!--<div class="preview">
-        
-        For example, the following scenarios exist: 
-        * When you enable the Create corresponding field on linked record type setting and you connect the "Campaign" record type with the "Product" record type, a linked record field (connection field) that you name "Linked Product" is created on the Campaign record type. A linked record type automatically named "Campaign" is created on the Product record type.
-        * When you disable the Create corresponding field on linked record type setting and you connect the "Campaign" record type with the "Product" record type, a linked record field (connection field) that you name "Linked Product" is created on the Campaign record type. A linked record type automatically named "Campaign" is not created on the Product record type.
-        </div>-->
+     <div class="preview">
+
+     例如，存在以下情况：
+      * 当您启用“在链接的记录类型上创建对应的字段”设置并将“Campaign”记录类型与“Product”记录类型连接时，会在“Campaign”记录类型上创建您命名为“链接的产品”的链接记录字段（连接字段）。 在产品记录类型上创建一个自动命名为“Campaign”的链接记录类型。
+      * 当您禁用“在链接的记录类型上创建对应的字段”设置并将“Campaign”记录类型与“Product”记录类型连接时，将在“Campaign”记录类型上创建您命名为“链接的产品”的链接记录字段（连接字段）。 产品记录类型上不会创建自动命名为“Campaign”的链接记录类型。
+     </div>
 
      有关详细信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
@@ -90,7 +90,7 @@ ht-degree: 1%
       * 无法从Workfront对象访问Planning记录字段。
       * Planning记录在Workfront对象的Planning选项卡中可见。 有关信息，请参阅[管理来自Workfront对象的记录连接](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
       * 您可以创建Planning连接自定义字段，并将其附加到Workfront对象的自定义表单。 有关信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
-      * 当Workfront管理员通过Experience Manager与Adobe Experience Manager Assets之间的集成配置元数据映射时，可以从Workfront Assets访问规划记录字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+      * 当Workfront管理员通过Experience Manager与Adobe Experience Manager Assets之间的集成配置元数据映射时，可以从Workfront Assets访问规划记录字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
 
    * **从您连接的记录或对象添加查找字段时**：除了创建链接记录字段外，您还可以从连接的记录或对象类型连接到称为查找字段的字段。 链接（或查找字段）包含所连接记录中的信息，该信息显示在您连接的记录中。
@@ -132,66 +132,65 @@ ht-degree: 1%
 
 您可以选择一次将一个记录连接到多个记录，还是一次将一个记录连接到其他记录。
 
-根据可添加到已连接记录字段<!--and the environment you use to create the connected fields-->中的记录数，在连接记录类型时可以选择以下连接类型：
-
-<!--replace the list of 4 connection types at the bottom of this commented-out section with this entire section, whenw e release to preview: 
+根据可添加到已连接记录字段的记录数量以及用于创建已连接字段的环境，在连接记录类型时可以选择以下连接类型：
 
 <div class="preview">
 
-* In the Preview environment: 
+* 在“预览”环境中：
 
-    * When the Create corresponding field on linked record type setting is disabled, you can choose from: 
+   * 禁用在链接的记录类型上创建对应字段设置时，您可以从以下内容中进行选择：
 
-        * [Multi-select](#multi-select-connection-type)
-        * [Single-select](#single-select-connection-type)
+      * [多选](#multi-select-connection-type)
+      * [单选](#single-select-connection-type)
 
 </div>
 
-* <span class="preview">In the Preview environment, when the Create corresponding field on linked record type setting is enabled,</span> or in the Production environment, you can choose from:
+* <span class="preview">在“预览”环境中，启用“在链接的记录类型上创建相应的字段”设置时，</span>或在生产环境中，您可以选择以下选项：
 
-    * [Many to many](#many-to-many-connection-type)
-    * [One to many](#one-to-many-connection-type)
-    * [Many to one](#many-to-one-connection-type)
-    * [One to one](#many-to-one-connection-type) 
+   * [多对多](#many-to-many-connection-type)
+   * [一对多](#one-to-many-connection-type)
+   * [多对一](#many-to-one-connection-type)
+   * [一对一](#many-to-one-connection-type)
 
 <div class="preview">
 
-### Multi-select connection type
+### 多选连接类型
 
-![Multi-select connection type](assets/multi-select-connection-picker.png)
+![多选连接类型](assets/multi-select-connection-picker.png)
 
-When you create a multi-select connection between record types, you can then select multiple connected records in the connection field from the original record type. 
+在记录类型之间创建多选连接时，您可以从原始记录类型在连接字段中选择多个连接的记录。
 
-For example, if you create a multi-select connection between campaigns and projects, you can select multiple projects for one campaign. A Campaign connected record type is not created for the Project object type.
+例如，如果在营销活动和项目之间创建多选连接，则可以为一个营销活动选择多个项目。 没有为Project对象类型创建Campaign连接的记录类型。
 
-After you select this connection type, you cannot change the connection type after you save it to any of the following types:
+选择此连接类型后，在将连接类型保存到以下任何类型后，就无法更改连接类型：
 
-    * Single-select
-    * One to many
-    * Many to one
-    * One to one
+    *单选
+    *一对多
+    *多对一
+    *一对一
 
-### Single-select connection type
+### 单选连接类型
 
-![Single select connection type](assets/single-select-connection-picker.png)
+![单选连接类型](assets/single-select-connection-picker.png)
 
-When you create a single-select connection between record types, you can then select one record in the connection field from the original record type. 
+在记录类型之间创建单选连接时，您可以从原始记录类型中选择连接字段中的一个记录。
 
-For example, if you create a single-select connection between campaigns and companies, you can select one company for one campaign. A Campaign connected record type is not created for the Company object type.
+例如，如果在营销活动与公司之间创建单选连接，则可以为一个营销活动选择一个公司。 没有为Company对象类型创建Campaign连接的记录类型。
 
-After you select this connection type, you cannot change the connection type after you save it to any of the following:
+选择此连接类型后，在将连接类型保存到以下任意类型后，将无法更改连接类型：
 
-    * One to many
-    * One to one
+* 一对多
+* 一对一
 
 </div>
 
+
+<!--
+* [Many to many](#many-to-many-connection-type)
+* [One to many](#one-to-many-connection-type)
+* [Many to one](#many-to-one-connection-type)
+* [One to one](#many-to-one-connection-type)
 -->
-
-* [多对多](#many-to-many-connection-type)
-* [一对多](#one-to-many-connection-type)
-* [多对一](#many-to-one-connection-type)
-* [一对一](#many-to-one-connection-type)
 
 ### 多对多连接类型
 
