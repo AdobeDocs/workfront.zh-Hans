@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: 30e5358549291e5d04d42ab470dccd444521ecb8
+source-git-commit: a7b220017e0dc42e91a0b518b4eadcae8bb9fb8a
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 预览： 2025年8月28日
->* 面向所有客户的生产：从2025年9月18日开始分阶段推出
+>* 面向所有客户的生产：从2025年9月25日开始分阶段推出
 
 我们更新了Workfront用户配置文件的外观，使其采用与Workfront其他区域一致的现代化设计。 这些更新既适用于编辑单个配置文件的管理员，也适用于批量编辑多个配置文件的管理员，也适用于编辑自己配置文件的用户。
 
