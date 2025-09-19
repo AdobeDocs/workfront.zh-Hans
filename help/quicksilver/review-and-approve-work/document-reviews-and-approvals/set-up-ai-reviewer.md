@@ -2,15 +2,15 @@
 product-area: documents
 navigation-topic: approvals
 title: 创建AI审阅者
-description: 在GenStudio Foundation中至少设置了一个品牌后，即可创建多个AI审阅人，然后将其分配给审批模板和单个审阅和审批请求。
+description: 在GenStudio Foundation中至少设置了一个品牌后，即可创建多个AI审阅人，并将其分配给审批模板和各个审阅和审批请求。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 4673049e-119e-4315-95f0-f10d8b286856
-source-git-commit: 7d7291539d4436f0c4700363b7800a5cc6ac4096
+source-git-commit: d088b40cd8d46a986998fde2176646aa1660cb6b
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >此功能当前处于测试阶段。
 
-在GenStudio Foundation中至少设置了一个品牌后，即可创建多个AI审阅人，然后将其分配给审批模板和单个审阅和审批请求。
+在GenStudio Foundation中至少设置了一个品牌后，即可创建多个AI审阅人，并将其分配给审批模板和各个审阅和审批请求。
 
 >[!NOTE]
 >
@@ -55,9 +55,9 @@ ht-degree: 0%
 
 ## 先决条件
 
-在开始之前，您必须在GenStudio基础中设置图像品牌指南。
+在开始之前，您必须在GenStudio Foundation中设置图像品牌指南。
 
-若要了解有关图像品牌准则的更多信息，请参阅[Adobe GenStudio for Performance Marketing入门](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/get-started)。
+若要了解有关图像品牌准则的更多信息，请参阅[Adobe GenStudio for Performance Marketing入门](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started)。
 
 ## 添加AI审阅者
 

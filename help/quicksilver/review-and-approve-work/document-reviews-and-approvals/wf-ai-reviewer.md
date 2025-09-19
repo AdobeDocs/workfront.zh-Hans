@@ -7,7 +7,7 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: e20e26ef11046ed252725f8c5431469642845b52
+source-git-commit: d088b40cd8d46a986998fde2176646aa1660cb6b
 workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 4%
@@ -55,12 +55,12 @@ AI审阅者可审阅以下文件类型：
 
 ## 设置品牌指南
 
-Workfront AI审阅者在审阅内容时，会使用Genstudio基础中设置的品牌准则。 目前，您只能设置图像的品牌指南。 有关详细信息，请参阅[Adobe GenStudio for Performance Marketing入门](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/get-started)。
+Workfront AI Reviewer在查看内容时使用Genstudio Foundation中设置的品牌准则。 目前，您只能设置图像的品牌指南。 有关详细信息，请参阅[Adobe GenStudio for Performance Marketing入门](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started)。
 
 
 ## 创建AI审阅者
 
-一旦在GenStudio Foundation中至少设置了一个品牌，Workfront管理员便可以在“设置”区域开始创建AI审阅者。 随后，可以将这些AI审阅人分配给审批模板以及单个审阅和审批请求。 目前，AI审阅者只能根据图像品牌指南进行审阅。
+在GenStudio Foundation中至少设置了一个品牌后，Workfront管理员便可以在“设置”区域开始创建AI审阅者。 随后，可以将这些AI审阅人分配给审批模板以及单个审阅和审批请求。 目前，AI审阅者只能根据图像品牌指南进行审阅。
 
 有关详细信息，请参阅[创建AI审阅者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)。
 
