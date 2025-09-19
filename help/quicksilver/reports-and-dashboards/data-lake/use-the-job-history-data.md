@@ -6,7 +6,7 @@ description: 借助Data Connect，Workfront管理员可以在“作业历史记�
 author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-source-git-commit: 79e8b2b1dd3b7374173c2a930abdf8a0bca2cda6
+source-git-commit: 05cf34fe6659c50da76d2478c6e79352346dc9a5
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 在“作业历史记录”视图中，Workfront管理员可以访问每个数据刷新作业的详细记录。 这些记录为让您的数据保持最新的作业提供了宝贵的insight，并帮助您确定理想的时间范围（确定何时执行流程和刷新业务可视化图表）。
 
-![作业历史记录视图](assets/job-history-tab.png)
+![作业历史记录视图](assets/job-history-overview.png)
 
 “作业历史记录”视图列包含以下信息：
 
