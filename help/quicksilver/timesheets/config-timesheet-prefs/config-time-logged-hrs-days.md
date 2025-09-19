@@ -6,9 +6,9 @@ description: 作为具有Plan许可证的用户，您可以配置是将时间记
 author: Alina
 feature: Timesheets
 exl-id: 4f801a13-182d-4e06-98ea-f6863f6a8edf
-source-git-commit: b4ab350af22afa44774f06d82daf1c3fb266d2b9
+source-git-commit: 106ef838bfee5e496cae864eca5c19fd12fdd18e
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
+   <td> <p>规划 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">访问级别配置*</td> 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 1. 在生成的对话框中，在&#x200B;**资源规划**&#x200B;部分中，找到&#x200B;**在**&#x200B;中记录时间选项。
 
-   ![](assets/new-timesheet-log-hours-350x249.png)
+   ![在选项中记录时间](assets/user-profile-log-time-options.png)
 
 1. （视情况而定）如果您是同时编辑多个用户的系统管理员，请选择&#x200B;**记录时间**。
 1. 从下列日志记录时间选项中选择：
