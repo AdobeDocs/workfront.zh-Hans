@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: bea983292d33a50bbe27bd116a74aba33e4c69dd
+source-git-commit: 2e6efb8fd15113eba6a20514791a8e9a57742e58
 workflow-type: tm+mt
 source-wordcount: '2082'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 系统管理员可以安装以下[!DNL Adobe Workfront] Blueprint。 有关Blueprint的详细信息，请参阅[Blueprint概述](/help/quicksilver/administration-and-setup/blueprints/blueprints-overview.md)。
 
-**活动用户分析报告（新）**&#x200B;此Blueprint包含一个仪表板，可帮助管理员验证用户设置、识别错位并确保配置支持预期应用程序用途&#x200B;。
+**[!BADGE 全新！]{type=Informative}个活动用户分析报告**&#x200B;此Blueprint包含一个仪表板，可帮助管理员验证用户设置、识别错位并确保配置支持预期应用程序用途&#x200B;。
 
 **[!UICONTROL 添加新的员工IT核对清单]**
 此Blueprint包含一个[!DNL Workfront]专业服务组织多年来在与公司IT团队开展实施合作期间用于组织新员工入门培训活动的模板。 使用此模板可让IT团队高效运营，从而带来积极的新员工体验并更快地跟踪工作效率。
