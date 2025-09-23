@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 357b5a80-424a-475c-9163-82cffbbd253e
-source-git-commit: e3c69f893785a1a09aaca3743f8538525e900d5d
+source-git-commit: 0c8d84cfcc87728e809061c01c56322f3fd1f2f6
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,30 @@ ht-degree: 0%
 
 有关2025年第四季度发布周期中此时可用的所有更改列表，请参阅[ 2025年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)。
 
-## 增强列表更新
+## Adobe Unified Experience现在可供更多Workfront组织使用
+
+>[!NOTE]
+>
+>* Adobe Unified Experiences正在分阶段推出。 组织将按照以下计划之一登记到Adobe Unified Experience：
+>
+>| 预览版本 | 生产版本 |
+>|---|---|
+>| 2021年9月11日 | 2025年10月16日（25.10版本） |
+>| 2025年12月11日 | 2026年1月15日（26.1版本） |
+
+为了让组织能够访问Adobe Unified Experience的优势，我们将继续将其提供给现有的Workfront客户。
+
+Adobe Unified Experience包括：
+
+* 通过Adobe Experience Cloud对所有Adobe应用程序进行单点登录
+* 用于在Workfront组织和环境之间切换的“组织切换器”
+* 包含Workfront页面、Adobe Experience Cloud首选项和Workfront配置文件的选项导航
+
+您的Workfront管理员将收到一则公告中心消息，告知贵组织迁移到Adobe Unified Experience的日期。
+
+有关详细信息，请参阅[适用于Workfront的Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+
+[观看此功能的视频演示。对增强列表的](https://video.tv.adobe.com/v/3412388/){target=_blank}##更新
 
 >[!NOTE]
 >
