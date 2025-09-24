@@ -3,11 +3,11 @@ content-type: reference
 product-area: resource-management;user-management
 navigation-topic: resource-planning
 title: 使用用户视图时查看资源规划者中的可用、计划和实际小时数或FTE
-description: 在RP中使用用户视图计划时，在资源计划员中查看可用小时数、计划小时数和实际小时数或FTE — 可能是“RP中的预算资源”或“RP中的管理资源”。 等等…… — 或者可能需要从其他POV重新调整用途?!)”
+description: 在RP中使用用户视图计划时查看资源计划员中的可用小时数、计划小时数和实际小时数或FTE — 可能是“RP中的预算资源”或“RP中的管理资源”。 等…… — 或可能需要从其他POV重新调整用途?!)
 author: LIsa
 feature: Resource Management
 exl-id: 6b532aa2-435f-4fda-b7ce-abe0a785638f
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
 workflow-type: tm+mt
 source-wordcount: '1739'
 ht-degree: 1%
@@ -64,7 +64,7 @@ ht-degree: 1%
 * [DIF（差异）列](#the-dif-difference-column)
 * [百分比（计划小时数分配百分比）列](#the-planned-hours-allocation-percentage-column)
 
-### AVL （可用）列 {#the-avl-available-column}
+### AVL（可用）列 {#the-avl-available-column}
 
 <table style="table-layout:auto"> 
  <col> 

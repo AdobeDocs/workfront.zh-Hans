@@ -3,11 +3,11 @@ content-type: reference
 product-area: projects
 navigation-topic: financials
 title: 计算预算成本
-description: 使用利用率报告计算预算成本跟踪项目进度”
+description: 使用利用率报告计算预算成本跟踪项目进度
 author: Lisa
 feature: Work Management
 exl-id: e96fe38f-58c2-4938-9d2d-81d1109123fa
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 2%
@@ -71,7 +71,7 @@ ht-degree: 2%
     </tr> 
     <tr> 
      <td>成本</td> 
-     <td> <p>Portfolio优化器</p> <p>提示：所有项目预算成本值的总计是项目组合的预算成本。</p> </td> 
+     <td> <p>Portfolio Optimizer</p> <p>提示：所有项目预算成本值的总计是项目组合的预算成本。</p> </td> 
     </tr> 
     <tr> 
      <td>项目预算成本</td> 

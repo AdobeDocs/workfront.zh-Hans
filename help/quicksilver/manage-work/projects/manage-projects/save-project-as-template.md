@@ -2,13 +2,13 @@
 product-area: projects;templates
 navigation-topic: manage-projects
 title: 将项目另存为模板
-description: 在项目级别将项目另存为模板另存为模板，以便用户在UI中看到该内容；还有一篇文章提供了更深入的链接（分步）。 此功能需要同时保留在项目和模板区域。)”
+description: 将项目另存为项目级别的模板，以便用户在UI中看到该模板；还有一篇文章提供了更深入的链接（分步）。 此功能需要同时停留在项目和模板区域。)
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: f7cb314067d105d5534f4be356024aea8e8f9a28
+source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '487'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -165,7 +165,7 @@ Saving a project as a template differs in the Production and the Preview environ
 1. 单击左侧面板中的&#x200B;**自定义Forms**&#x200B;以删除或重新排序表单。
 
    要重新排列表单，请以正确的顺序拖放表单。
-要删除表单，请选择它，然后单击&#x200B;**删除**。 单击&#x200B;**取消**&#x200B;可删除所选的表单。
+要删除表单，请选择它，然后单击**删除**。 单击&#x200B;**取消**&#x200B;可删除所选的表单。
 
    另存为模板框中的![自定义表单区域](assets/custom-forms-ara-in-save-as-template-box.png)
 
