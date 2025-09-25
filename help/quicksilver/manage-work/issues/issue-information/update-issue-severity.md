@@ -6,7 +6,7 @@ description: 您可以将严重程度与Adobe Workfront中的问题关联。 任
 author: Alina
 feature: Work Management
 exl-id: 81302e9c-8861-4a08-b8b3-c4eeac54524e
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 1fa62033f83a96ea5c1036598b832dd2ebfa19c4
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**基本信息**&#x200B;区域中的&#x200B;**严重性**&#x200B;字段。
 
-   ![问题严重性](assets/nwe-issue-severity-field-in-details-highlighted-350x112.png)
+   ![问题严重性](assets/issue-severity-field.png)
 
 1. 从下拉菜单中选择适当的&#x200B;**严重性**。
 
