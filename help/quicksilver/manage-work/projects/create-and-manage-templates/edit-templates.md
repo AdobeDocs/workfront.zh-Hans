@@ -6,16 +6,14 @@ description: 您可以编辑项目模板以反映未来项目流程和设置的�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 5edda5b6d084c6c4df62f21e430ce9cd0c1cc8a4
+source-git-commit: 221113266624a94fbecd04af46a5c602a4d33334
 workflow-type: tm+mt
-source-wordcount: '5161'
+source-wordcount: '5658'
 ht-degree: 2%
 
 ---
 
 # 编辑项目模板
-
-{{highlighted-preview}}
 
 <!-- Audited: 7/2025 -->
 
@@ -135,23 +133,23 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 更新以下字段：
 
    <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-      <tr> 
-      <td role="rowheader"><strong>描述</strong></td> 
-      <td>添加有关模板的其他信息。</td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>优先级</strong></td> 
-      <td><p>这只是一个可视标记，可让您为将来的项目设置优先级。 从以下选项中选择：</p> 
-      <ul> 
-      <li><p><strong>无</strong></p></li> 
-      <li><p><strong>低</strong></p></li> 
-      <li><p><strong>正常</strong></p></li> 
-      <li><p><strong>高</strong></p></li> 
-      <li><p><strong>紧急</strong></p></li> 
-      </ul><p><p>根据您的Workfront管理员选择的项目偏好设置，优先级名称可能有所不同。 有关编辑优先级的详细信息，请参阅<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">创建和自定义优先级</a>。</p></p></td> 
+       <col> 
+       <col> 
+       <tbody> 
+         <tr> 
+         <td role="rowheader"><strong>描述</strong></td> 
+         <td>添加有关模板的其他信息。</td> 
+       </tr> 
+         <tr> 
+         <td role="rowheader"><strong>优先级</strong></td> 
+         <td><p>这只是一个可视标记，可让您为将来的项目设置优先级。 从以下选项中选择：</p> 
+         <ul> 
+         <li><p><strong>无</strong></p></li> 
+         <li><p><strong>低</strong></p></li> 
+         <li><p><strong>正常</strong></p></li> 
+         <li><p><strong>高</strong></p></li> 
+         <li><p><strong>紧急</strong></p></li> 
+         </ul><p><p>根据您的Workfront管理员选择的项目偏好设置，优先级名称可能有所不同。 有关编辑优先级的详细信息，请参阅<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">创建和自定义优先级</a>。</p></p></td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>URL</strong></td> 
@@ -242,43 +240,92 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    <table style="table-layout:auto"> 
        <col> 
        <col> 
-       <tbody>
+       <tbody> 
+         <tr> 
+         <td role="rowheader"><strong>描述</strong></td> 
+         <td>添加有关模板的其他信息。</td> 
+       </tr> 
+         <tr> 
+         <td role="rowheader"><strong>优先级</strong></td> 
+         <td><p>这只是一个可视标记，可让您为将来的项目设置优先级。 从以下选项中选择：</p> 
+         <ul> 
+         <li><p><strong>无</strong></p></li> 
+         <li><p><strong>低</strong></p></li> 
+         <li><p><strong>正常</strong></p></li> 
+         <li><p><strong>高</strong></p></li> 
+         <li><p><strong>紧急</strong></p></li> 
+         </ul><p><p>根据您的Workfront管理员选择的项目偏好设置，优先级名称可能有所不同。 有关编辑优先级的详细信息，请参阅<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">创建和自定义优先级</a>。</p></p></td> 
+       </tr> 
        <tr> 
-         <td role="rowheader"><strong> 货币</strong></td> 
-         <td><p>如果将来项目的货币与系统的默认货币不同，请指定此货币。 如果系统中只有默认货币，则此字段不可见。<br>有关货币的详细信息，请参阅<a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">设置汇率</a>。</p></td> 
+       <td role="rowheader"><strong>URL</strong></td> 
+         <td>指定与此模板的信息相关的Web链接。</td> 
        </tr>
-       <tr> 
-       <td role="rowheader"><strong>预算</strong></td> 
-       <td><p>为从此模板创建的项目指定预算。</p></td> 
-       </tr>  
-       <tr> 
-       <td role="rowheader"><strong>绩效指数方法</strong></td> 
-       <td><p>选择Workfront计算未来项目实现值指标的方式。 从以下内容中选择：
-       <ul>
-       <li>基于小时</li>
-       <li>基于成本</li>
-       </ul>
+   <tr> 
+      <td role="rowheader"><strong>为活动</strong></td> 
+      <td><p>如果您希望模板处于活动状态，请打开此选项。 其他用户可以在创建项目时找到此模板并将其附加到项目。 如果要取消激活不再使用的模板，请关闭该选项。 无法将已停用的模板附加到项目。 默认情况下启用此功能。 </p><p><b>提示</b></p>
 
-       有关绩效指数方法的详细信息，请参阅&lt;a href=&quot;../../../manage-work/projects/project-finances/set-pim.md&quot; class=&quot;MCXref xref&quot;>设置绩效指数方法(PIM)&lt;/a>。 &lt;/p>&lt;/td>
-       &lt;/tr>
-       &lt;tr>
-       &lt;td role=&quot;rowheader&quot;>&lt;strong>计划收益&lt;/strong>&lt;/td>
-       &lt;td>&lt;p>指定从此模板创建的项目的计划收益。 计划收益用于项目的业务案例和Portfolio Optimizer。 &lt;/p>&lt;p>有关项目计划权益的更多信息，请参阅&lt;a href=&quot;../../../manage-work/projects/project-finances/project-planned-benefit.md&quot; class=&quot;MCXref xref&quot;>项目计划权益概述&lt;/a>。 在计算项目净值时，将考虑项目的计划收益。 &lt;/p>&lt;p>有关使用Portfolio Optimizer的更多信息，请参阅&lt;a href=&quot;../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md&quot; class=&quot;MCXref xref&quot;>在Portfolio Optimizer中管理项目&lt;/a> &lt;/p>&lt;/td>
-       &lt;/tr>
-       &lt;tr>
-       &lt;td role=&quot;rowheader&quot;>&lt;strong>固定成本&lt;/strong>&lt;/td>
-       &lt;td>&lt;p>为从此模板创建的项目指定固定成本。 这与来自项目小时数的人工成本和来自项目费用金额的费用成本不同。 在计算项目的净值时，将考虑项目的固定成本，它也是预算成本的一部分。&lt;/p>&lt;/td>
-       &lt;/tr>
-       &lt;tr>
-       &lt;td role=&quot;rowheader&quot;>&lt;strong>固定收入&lt;/strong>&lt;/td>
-       &lt;td>&lt;p>为从此模板创建的项目指定固定收入。&lt;/p>&lt;/td>
-       &lt;/tr>
-       &lt;tr>
-       &lt;td role=&quot;rowheader&quot;>&lt;strong>此项目需要批准时间&lt;/strong>&lt;/td>
-       &lt;td>&lt;p>选择此选项可要求使用此模板创建的未来项目的项目所有者批准登录项目的时间。 如果您使用开单记录并选择此选项，则只有项目中的已批准小时数显示为开单记录的可用开单小时数。 项目中的批准时间与批准时间表无关。 有关项目需要批准时间的更多信息，请参阅&lt;a href=&quot;../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md&quot; class=&quot;MCXref xref&quot;>项目需要批准时间&lt;/a>。&lt;/p>&lt;/td>
-       &lt;/tr>
-       &lt;/tbody>
-   </table>
+   <p>您可以从模板标题中停用模板，如本文的“激活或停用模板”部分中所述。</p></td> 
+     </tr>
+
+<tr> 
+<td role="rowheader"><strong>完成情况类型</strong></td> 
+   <td><p>在以下条件类型之间进行选择：</p> 
+   <ul> 
+   <li><strong>手动：</strong>项目所有者手动设置项目条件。 <strong></strong></li> 
+   <li><strong>进度状态：</strong> Workfront会根据关键路径上任务的进度状态自动设置未来项目的条件。 有关了解进度状态的详细信息，请参阅<a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">任务进度状态概述</a>。</li> 
+   </ul>
+   </td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>计划模式</strong></td> 
+   <td><p>指定使用此模板的项目是从<strong>开始日期</strong>开始计划，还是从<strong>完成日期</strong>开始计划。 此选择确定使用此模板的项目中未来任务的计划日期。 </p><p>从以下项中选择： </p> 
+   <ul> 
+   <li><p><strong>从开始日期开始计划</strong>：模板的开始日期实际上是开始日期。 从开始日期开始计划模板时，Adobe Workfront会根据所有模板任务的持续时间计算模板的完成日期。 模板的开始日期将成为将来项目的计划开始日期。</p></li> 
+   <li><p><strong>从完成日期开始计划</strong>：模板的完成日期实际上是完成日期。 从完成日期开始安排模板时，Workfront会根据所有模板任务的持续时间计算模板的开始日期。 模板的“完成日期”成为未来项目的计划完成日期。 </p></li> 
+   </ul><p>有关模板任务的开始日期和完成日期的详细信息，请参阅<a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">模板中的开始日期和完成日期概述</a>。 </p><p>模板的“计划自”设置与项目的设置类似。 您的Workfront管理员为系统中的项目选择默认的“计划自”设置。 有关设置项目默认设置的信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">配置系统范围的项目首选项</a>。</p></td> 
+   </tr>
+
+<tr> 
+   <td role="rowheader"><strong>组合</strong></td> 
+   <td><p>为从此模板创建的项目指定Portfolio。 必须先创建Portfolio，然后它才会显示在下拉列表中。 </p><p>只有有效的项目组合会显示在列表中。 有关创建项目组合的详细信息，请参阅<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">创建项目组合</a>。</p></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>项目群</strong></td> 
+   <td><p>如果您为模板选择了Portfolio，请为将来的项目指定<strong>项目</strong>。 某些项目组合可能没有程序。 必须先创建项目，然后它才会显示在此下拉列表中。 列表中只显示活动程序。</p><p>有关创建程序的详细信息，请参阅<a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">创建程序</a>。</p></td> 
+   </tr>  
+   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+   <td role="rowheader"><strong>组</strong></td> 
+   <td><p>在下拉列表中，选择要与从模板创建的项目关联的组。 它可以是一组任何级别。 </p><p>您可以确保选择正确的组，方法是将鼠标悬停在该组上，然后单击该组旁边显示的信息图标<img src="assets/info-icon.png">。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。</p> <p><b>注释</b>
+
+<ul> 
+   <li><p>在组页面的“项目”区域中，当有人使用未选择组的模板创建项目时，系统将当前打开的组与项目关联。</p><p>这不同于当用户使用未选择组的模板创建项目时，系统将用户的主组与项目关联的其他区域。</p></li> 
+   <li><p>如果用户在创建项目时或在将任务或问题转换为项目时选择选择了某个组的模板，则用户可以为该项目选择其他组。</p></li> 
+   <li>虽然此字段仅在新的Adobe Workfront Experience模板中可用，但您可在其中以及Adobe Workfront Classic的列表和报表中看到它。 </li> 
+   </ul> </p></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>公司</strong></td> 
+   <td><p>指定要与模板关联的公司。 列表中只显示有效的公司。</p></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>模板所有者</strong></td> 
+   <td><p>指定为模板所有者的用户必须是Workfront活动用户。 </p><p>有关指定为模板所有者的用户，请考虑以下事项： </p> 
+   <ul> 
+   <li>系统会自动为他们授予对模板的管理权限。 </li> 
+   <li>这些用户会添加到项目团队，并自动获得从模板创建的项目的管理权限。 </li> 
+   <li>从此模板创建项目时，他们成为项目所有者。 </li> 
+   <li> 如果指定为模板所有者的用户从访问级别对模板或项目具有有限的访问权限，则他们对模板和项目的管理权限将受到限制。 例如，如果他们在访问级别中只有模板或项目的查看权限，那么当他们被指定为模板所有者时，将自动获得对模板和项目的查看权限。</li>
+   </ul></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>模板赞助者</strong></td> 
+   <td><p>将模板添加到项目后，在此字段中指定的用户会成为项目发起人。 此用户已添加到项目团队，并自动获得项目的查看权限。 指定为模板发起人的用户必须是Workfront活动用户。 </p></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>资源管理器</strong></td> 
+   <td><p>将自动为指定的用户授予对未来项目的管理权限，并且可以为项目的任务和问题分配资源。 可以指定多个资源管理器。 </p></td> 
+   </tr> 
+</table>
 
 1. （可选）根据要修改的信息，继续编辑以下部分。
 
@@ -614,11 +661,7 @@ Editing templates in bulk differs depending on which environment you are using.
 
    将打开&#x200B;**编辑模板**&#x200B;对话框。
 
-   <span class="preview">预览环境中的示例图像：</span>
    ![编辑模板](assets/bulk-edit-templates-0925.png)
-
-   生产环境中的示例图像：
-   ![编辑模板](assets/edit-templates-in-bulk-box-nwe-350x327.png)
 
 1. 单击左侧的部分可编辑所有选定的模板。
 
@@ -636,7 +679,7 @@ Editing templates in bulk differs depending on which environment you are using.
    * 问题
    * 评论
 
-1. 单击&#x200B;<span class="preview">**保存**</span>&#x200B;或&#x200B;**保存更改**。
+1. 单击&#x200B;**保存**。
 
    现在，您所做的所有更改在所有选定的模板中均可见。
 
