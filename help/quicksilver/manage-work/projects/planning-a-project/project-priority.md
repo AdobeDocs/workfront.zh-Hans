@@ -7,9 +7,9 @@ description: 有几种方法可以将优先级用于项目，并且它们不会�
 author: Alina
 feature: Work Management
 exl-id: b1e0b6c5-f2a7-455b-836b-6c0ead85e3ad
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 7db80f5bacf52b7bbe540f4e38e88853af86a5e2
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '668'
 ht-degree: 1%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
+   <td> <p>规划 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
@@ -132,7 +132,7 @@ ht-degree: 1%
    * 高
    * 紧急
 
-   ![](assets/project-priority-picker-list-on-project-details-nwe-350x192.png)
+   ![项目的优先级列表](assets/project-priority-picker-list.png)
 
 1. 单击&#x200B;**保存更改**。
 

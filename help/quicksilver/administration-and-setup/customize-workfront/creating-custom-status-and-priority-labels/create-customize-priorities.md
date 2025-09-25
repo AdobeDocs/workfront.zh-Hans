@@ -5,14 +5,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 7db80f5bacf52b7bbe540f4e38e88853af86a5e2
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 2%
+source-wordcount: '761'
+ht-degree: 1%
 
 ---
 
 # 创建并自定义优先级
+
+{{highlighted-preview}}
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -44,7 +46,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td>
+   <td>[！UICONTROL系统管理员]</td>
   </tr> 
  </tbody> 
 </table>
@@ -60,11 +62,11 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 * 重命名优先级。
 * 对优先级重新排序。
 
-  有关如何对优先级重新排序的详细信息，请参阅[为项目任务或问题创建优先级](#create-a-priority-for-a-project-task-or-issue)。
+  有关如何对优先级重新排序的详细信息，请参阅[为项目、任务或问题创建优先级](#create-a-priority-for-a-project-task-or-issue)。
 
 * 更改默认优先级。
 
-  有关更改默认优先级的功能的详细信息，请参阅[为项目任务或问题创建优先级](#create-a-priority-for-a-project-task-or-issue)。
+  有关更改默认优先级的功能的详细信息，请参阅[为项目、任务或问题创建优先级](#create-a-priority-for-a-project-task-or-issue)。
 
 * 编辑优先级描述。
 * 为每个优先级设置一种颜色。
@@ -79,7 +81,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 * 隐藏优先级。
 
-  有关隐藏优先级功能的详细信息，请参阅[为项目任务或问题创建优先级](#create-a-priority-for-a-project-task-or-issue)。
+  有关隐藏优先级功能的详细信息，请参阅[为项目、任务或问题创建优先级](#create-a-priority-for-a-project-task-or-issue)。
 
   >[!NOTE]
   >
@@ -93,7 +95,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 * 高
 * 紧急
 
-## 为项目任务或问题创建优先级 {#create-a-priority-for-a-project-task-or-issue}
+## 为项目、任务或问题创建优先级 {#create-a-priority-for-a-project-task-or-issue}
 
 除了Workfront中提供的默认优先级之外，您还可以添加自己的优先级以反映组织的需求。
 
@@ -102,41 +104,49 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 1. 在左侧面板中，单击&#x200B;**项目首选项** > **优先级**。
 
 1. 单击您要为（**项目**、**任务**&#x200B;或&#x200B;**问题**）创建优先级的对象类型的选项卡。
-1. 单击&#x200B;**添加新优先级**。
-1. 为新优先级指定以下信息：
+1. 单击表&#x200B;<span class="preview">**底部的**&#x200B;新行</span>，或单击&#x200B;**添加新优先级**。
+1. 为优先级配置以下选项：
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">优先级名称</td> 
-      <td>键入优先级名称。</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">重要性</td> 
-      <td> <p>添加新优先级时，默认情况下会为其分配一个数字。 如果该数字与您的需求不匹配，请编辑该数字。</p> <p>对于您选择的对象，每个优先级的<strong>重要性</strong>编号必须是唯一的。<br>优先级的数量反映了项目、任务或问题的重要性：最高优先级对应于最高优先级。</p> <p><b>注意</b>：保存优先级后，无法编辑重要性数字。 </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">颜色</td> 
-      <td> <p>为您的优先级选择一种颜色。</p> <p>优先级的颜色在图表报表和“敏捷团队设置”中使用。 有关图表报表的详细信息，请参阅<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">将图表添加到报表</a>。</p> <p>有关Agile团队设置的更多信息，请参阅中的。</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">默认优先级</td> 
-      <td> <p>通过选择单选按钮，确定此优先级是否应为默认优先级。</p> <p>如果将某个优先级指定为<strong>默认优先级</strong>，则会自动为Workfront中的所有项目、任务或问题选择该优先级。 <strong>普通</strong>是Workfront中所有对象的默认优先级。</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">描述</td> 
-      <td>添加优先级说明以解释其功能。</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">隐藏</td> 
-      <td> <p>如果要隐藏优先级，请选择此框。</p><p>选择<b>隐藏</b>选项时，优先级不会在Workfront中的任何位置显示，用户无法为其项目、任务和问题选择它。</p> 
-      <p><b>重要信息</b>：我们建议您隐藏不想再使用的优先级，而不是删除它们。 通过隐藏它们，您仍然可以保留所有历史数据，以及已使用此优先级完成的对象，同时阻止人们将来选择此优先级。 </p>
-      <p>（可选）您可以通过按所需顺序拖放优先级来更改优先级列表顺序。 这会更改它们在项目、任务和问题中的显示顺序。 这不会更改<b>重要性</b>数字。 </p></td> 
-     </tr> 
-    </tbody> 
-   </table>
+   * **优先级名称**：键入优先级名称。
+   * **重要性**：添加新优先级时，默认情况下会为其分配一个数字。 如果该数字与您的需求不匹配，请编辑该数字。
+
+     每个优先级的重要性数字必须是唯一的。 优先级的数量反映了项目、任务或问题的重要性：最高优先级对应于最高优先级。
+
+     保存优先级后，无法编辑此数字。
+
+   * **颜色**：选择优先级的颜色。
+
+     优先级的颜色在图表报表和“敏捷团队设置”中使用。 有关图表报表的信息，请参阅[将图表添加到报表](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)。 有关Agile团队设置的信息，请参阅[创建Agile团队](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md)。
+
+   * **默认优先级**：选择您希望Workfront自动应用于所有新创建的项目、任务或问题的优先级。
+
+     **普通**&#x200B;是Workfront中所有对象的默认优先级。
+
+     您不能将隐藏优先级设置为默认值。
+
+     <div class="preview">
+
+     默认优先级以图标![默认优先级图标](assets/default-icon.png)指示。 要选择新的缺省值，请执行下列操作之一：
+
+      * 选中优先级名称旁边的复选框，然后在屏幕底部的操作栏中选择&#x200B;**设为默认值**。
+      * 将鼠标悬停在优先级名称上，然后单击显示的&#x200B;**更多**&#x200B;菜单。 然后，选择&#x200B;**设为默认值**。
+
+        新的默认优先级使用图标进行标记。
+
+     </div>
+
+   * **描述**：键入优先级描述以说明其功能。
+   * <span class="preview">**隐藏选择**</span>&#x200B;或&#x200B;**隐藏**： <span class="preview">选择&#x200B;**是**</span>&#x200B;或选中此复选框以隐藏不再需要的优先级。
+
+     隐藏的优先级不会在Workfront的任何位置显示，因此用户无法为其项目、任务或问题选择它。
+
+     >[!IMPORTANT]
+     >
+     >我们建议您隐藏这些优先级，而不是删除您不再想要使用的优先级。 这样，您就可以保留已使用优先级完成的对象上的所有历史数据，同时防止他人将来使用优先级。
+
+1. （可选）通过按所需的顺序拖放优先级，以更改优先级的列表顺序。
+
+   这会更改项目、任务或问题的显示顺序。 它不会更改&#x200B;**重要性**&#x200B;数字。
 
 1. 单击&#x200B;**保存**。
 
