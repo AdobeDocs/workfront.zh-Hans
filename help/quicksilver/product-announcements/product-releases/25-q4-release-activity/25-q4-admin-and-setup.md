@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: a7b220017e0dc42e91a0b518b4eadcae8bb9fb8a
+source-git-commit: aec301a72ce0864faaf61754552ab8b4ba9bfb49
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,20 @@ ht-degree: 0%
 本页介绍了管理员在2025年第四季度版本中对“预览”环境所做的增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2025年第四季度发布周期中此时可用的所有更改列表，请参阅[ 2025年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)。
+
+## 从对象中删除自定义表单时确认
+
+>[!NOTE]
+>
+>* 预览： 2025年9月25日
+>* 生产快速发布： 2025年10月15日
+>* 适用于所有客户的生产： 2025年10月16日
+
+为确保您保留对所需数据的访问权限，在从对象中删除自定义表单时，我们添加了确认对话框。 从对象中删除自定义表单会将该表单中的数据从对象中永久删除。 现在，通过对话框可确认您了解此数据将被删除，从而确保您不会删除所需的数据。
+
+以前，数据删除的唯一警告是删除选项附近的文本。
+
+有关删除自定义表单的详细信息，请参阅管理附加到对象的自定义表单一文中的[从对象删除自定义表单](/help/quicksilver/workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md#remove-a-custom-form-from-an-object)。
 
 ## Workfront用户个人资料的更新
 

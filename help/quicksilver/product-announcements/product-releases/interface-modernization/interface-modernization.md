@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: c17723aed4057e744d3c3dc967990163316d82f5
+source-git-commit: bfece1075b137f9fcbaf6046e626952b5f2bde2f
 workflow-type: tm+mt
-source-wordcount: '7834'
+source-wordcount: '8092'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,40 @@ ht-degree: 0%
 有关Adobe Workfront的所有其他更改，请参阅[产品版本](/help/quicksilver/product-announcements/product-releases/product-releases.md)。
 
 ## 管理和设置
+
+<!--### Interface updates when adding or editing group timesheet profiles
+
+**Preview release: September 25, 2025; Production release: October 2, 2025**
+
+We have updated the look and feel of the Timesheet Profile page when editing or adding a group timesheet profile.
+
+To view these changes, go to Setup > Groups > select a group name > Timesheet Profiles and either add a new profile, or edit an existing one.
+
+For more information, see [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md). -->
+
+### “设置”中“严重程度”区域的界面更新
+
+**预览版本： 2025年9月25日；生产版本： 2025年10月2日**
+
+我们更新了“严重程度”页面，使其设计更加现代化，与Workfront的其他区域保持一致。
+
+界面中的一个可见变化是，要使严重性成为默认严重性或删除严重性，必须选中严重性名称旁边的复选框，然后从屏幕底部的操作栏中选择一个选项。
+
+要查看这些更改，请转到“设置”>“项目首选项”>“严重程度”。
+
+有关详细信息，请参阅[创建或自定义问题严重程度](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md)。
+
+### 设置中优先级区域的界面更新
+
+**预览版本： 2025年9月25日；生产版本： 2025年10月2日**
+
+我们更新了“优先级”页面，更新了与Workfront其他区域一致的更加现代的设计。
+
+界面中一个可见的更改是，要将优先级设为默认优先级或删除优先级，必须选中优先级名称旁边的复选框，然后从屏幕底部的操作栏中选择一个选项。
+
+要查看这些更改，请转到“设置”>“项目首选项”>“优先级”。
+
+有关详细信息，请参阅[创建和自定义优先级](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md)。
 
 ### 在设置区域添加或编辑时间表配置文件时，界面更新
 
@@ -392,7 +426,27 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 * [创建主题组](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)。
 * [创建路由规则](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)。
 
+
+
 ## 用户
+
+<!--### Interface updates for the User Details page
+
+**Preview release: September 25, 2025; Production release: October 2, 2025**
+
+We have updated the look and feel of the User Details page to match other areas of the application.
+
+You can view the updated design by going to Users, selecting a user, and clicking Details in the left panel.-->
+
+### 个人休假的界面更新
+
+**预览版本： 2025年9月25日；生产版本： 2025年10月2日**
+
+我们更新了个人休息时间日程表的外观，包括委派审批以匹配应用程序其他方面的能力。
+
+要查看这些更改，请转到您的用户配置文件并单击左侧面板中的&#x200B;**休假**。
+
+有关详细信息，请参阅[配置个人休息时间](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)和[委托审批请求](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md)。
 
 ### “新建用户”对话框的界面更新
 
