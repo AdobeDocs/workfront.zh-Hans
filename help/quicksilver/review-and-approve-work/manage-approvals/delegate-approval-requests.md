@@ -6,7 +6,7 @@ description: 委托审批请求允许您分配另一个用户来审批您的请�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: e0f6078cfab1b325302dbda8a656d2a65ee0b95c
 workflow-type: tm+mt
 source-wordcount: '1209'
 ht-degree: 0%
@@ -133,6 +133,7 @@ ht-degree: 0%
    >[!NOTE]
    >
    >Workfront管理员可以从设置区域禁用审批委托。 如果禁用审批委托，您将不会看到委托审批按钮。
+
 1. 在“委托我的审批”部分指定以下信息：
 
    * **名称**：开始键入要向其委派审批的用户名称，然后在名称出现在下拉菜单中时单击该名称。
