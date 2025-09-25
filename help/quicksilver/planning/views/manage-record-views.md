@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: f32b2f9e5a511b83e5793299e47b9c1c12857bd8
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 2%
+source-wordcount: '1260'
+ht-degree: 1%
 
 ---
 
@@ -187,13 +187,12 @@ ht-degree: 2%
 
    默认情况下，所选类型的所有记录都会显示在表格视图中。
 
-1. 单击&#x200B;**+视图**&#x200B;以添加新视图。
+1. 根据您使用的环境，执行以下操作：
 
-   <!--at preview release, replace the step above with this one: 
-    1. Depending on which environment you use, do the following: 
-    * In the Production environment, click the **+View** tab. 
-    * <span class="preview">In the Preview environment, click the drop-down icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, then click **+New view**.</span>-->
-   <!--1. <span class="preview">From the view dropdown menu, drag and drop views in order of your preference.</span>-->
+   * 在生产环境中，单击&#x200B;**+查看**&#x200B;选项卡。
+   * <span class="preview">在“预览”环境中，单击当前视图名称旁边的下拉图标![下拉图标](assets/drop-down-icon.png)，然后单击&#x200B;**+新建视图**。</span>
+
+1. <span class="preview">从“视图”下拉菜单中，按您喜好的顺序拖放视图。</span>
 1. 从以下视图类型中选择：
 
    * 表
