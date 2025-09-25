@@ -36,15 +36,15 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>新文档： [！UICONTROL Standard] </p><p>或 </p><p>当前： [！UICONTROL计划] </p> </td> 
+   <td> <p>新文档： [!UICONTROL Standard] </p><p>或 </p><p>当前： [!UICONTROL 计划] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别</td> 
-   <td> <p>[！UICONTROL Edit]对程序的访问权限</p>  </td> 
+   <td> <p>[!UICONTROL Edit]对程序的访问权限</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>[！UICONTROL Manage]程序权限</p>  </td> 
+   <td> <p>[!UICONTROL Manage]程序权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -135,23 +135,23 @@ ht-degree: 1%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL名称]</td> 
+      <td role="rowheader">[!UICONTROL 名称]</td> 
       <td> <p>更新项目的名称。 </p> <p>提示：当您选择了多个项目时，此选项不可用。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL描述]</td> 
+      <td role="rowheader">[!UICONTROL 描述]</td> 
       <td> <p>键入Portfolio的描述以指示其独特之处。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL项目管理器]</td> 
-      <td> <p>开始键入要指定为项目经理的用户名，然后当名称出现在列表中时将其选定。 此人负责监督项目群项目中定义的工作。 </p> <p>重要信息：指定某个人员担任项目群管理员时，该人员会自动获得对项目和项目群中的[！UICONTROL管理]权限。 </p> <p>提示：您可以在项目标题中快速更新项目管理器。 </p> </td> 
+      <td role="rowheader">[!UICONTROL 项目管理器]</td> 
+      <td> <p>开始键入要指定为项目经理的用户名，然后当名称出现在列表中时将其选定。 此人负责监督项目群项目中定义的工作。 </p> <p>重要信息：指定某个人员担任项目群管理员时，该人员会自动获得对项目和项目群中的[!UICONTROL 管理]权限。 </p> <p>提示：您可以在项目标题中快速更新项目管理器。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL组]</td> 
-      <td> <p>添加单个组的名称（如果该组与项目群相关联或负责完成项目）。 </p> <p>提示：  <p>从[！UICONTROL程序详细信息]页面访问[！UICONTROL组]字段时，请执行以下操作： </p> <p>您可以通过将鼠标悬停在该组上并单击其旁边显示的[！UICONTROL信息]图标<img src="assets/info-icon.png">来确保选择正确的组。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>此选项在[！UICONTROL编辑程序]框中不可用。 </p> </p> </td> 
+      <td role="rowheader">[!UICONTROL 组]</td> 
+      <td> <p>添加单个组的名称（如果该组与项目群相关联或负责完成项目）。 </p> <p>提示：  <p>从[!UICONTROL 程序详细信息]页面访问[!UICONTROL 组]字段时，请执行以下操作： </p> <p>您可以通过将鼠标悬停在该组上并单击其旁边显示的[!UICONTROL 信息]图标<img src="assets/info-icon.png">来确保选择正确的组。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>此选项在[!UICONTROL 编辑程序]框中不可用。 </p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL处于活动状态]</td> 
+      <td role="rowheader">[!UICONTROL 处于活动状态]</td> 
       <td> <p> 如果希望程序处于活动状态，请选中此复选框。 其他用户可以找到活动的项目群，并将它们附加到项目群或添加到项目组合。 无法将非活动项目群附加到项目或项目组合。 默认情况下启用此功能。</p> </td> 
      </tr> 
     </tbody> 
