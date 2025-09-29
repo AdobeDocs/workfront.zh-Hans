@@ -4,17 +4,19 @@ description: 您可以使用模板文件在Excel中构建费率卡并将它们�
 author: Lisa
 hide: true
 hidefromtoc: true
-source-git-commit: 1deb72953599c24fa40eb7a5d77214f6576fec1e
+exl-id: debe90e7-08c2-4385-96fb-8d349dec6741
+source-git-commit: e94cbfd9c503936539dbe011e787533222896202
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1168'
 ht-degree: 0%
 
 ---
 
-
 # 从模板导入费率卡
 
 您可以使用模板文件在Excel中构建费率卡并将其导入Adobe Workfront，而不是手动添加所有工作角色和费率。
+
+要查看本文中描述的费率卡示例，请下载[示例文件](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/import-rate-cards/assets/rate-cards-sample.zip)。
 
 ## 使用模板文件的重要规则
 
@@ -39,13 +41,13 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p>
-   <p>[!UICONTROL 计划]</p>
+   <td><p>[！UICONTROL标准版]</p>
+   <p>[！UICONTROL计划]</p>
    </td> 
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>编辑对[!UICONTROL 费率卡]的访问权限</td> 
+   <td>编辑对[！UICONTROL费率卡]的访问权限</td> 
   </tr> 
  </tbody> 
 </table>
@@ -179,6 +181,3 @@ ht-degree: 0%
 1. 如果文件包含问题，则会显示错误消息。 单击&#x200B;**查看问题**&#x200B;可在单独的屏幕上查看问题。
 
    您必须更正Excel文件中的问题并再次导入它，然后费率卡才会存在于Workfront中。
-
-
-
