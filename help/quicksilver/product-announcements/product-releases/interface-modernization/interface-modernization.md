@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: bfece1075b137f9fcbaf6046e626952b5f2bde2f
+source-git-commit: 681d83661aff2c0484521ee11c8899dca14e65ed
 workflow-type: tm+mt
-source-wordcount: '8092'
+source-wordcount: '8031'
 ht-degree: 0%
 
 ---
@@ -216,13 +216,13 @@ For more information, see [Create, edit, and assign timesheet profiles](/help/qu
 
 有关信息，请参阅[编辑项目模板](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md)。
 
-### 应用里程碑视图时，项目列表或报告的界面更新
+<!--### Interface updates for a project list or report when applying the Milestone view
 
-**预览版本： 2025年9月11日；生产版本： 2025年9月18日**
+**Preview release: September 11, 2025; Production release: September 18, 2025**
 
-在对项目列表或报告应用里程碑视图时，我们更新了它们的外观。
+We have updated the look and feel of a project list or report when you apply the Milestone view to them.
 
-项目列表或报表现在与Workfront其他区域的设计相匹配。 有关信息，请参阅[使用里程碑视图](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)。
+The project list or report now matches the design of other areas of Workfront. For information, see [Use the Milestone view](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).-->
 
 ### “将任务转换为没有模板的项目”的界面更改
 
