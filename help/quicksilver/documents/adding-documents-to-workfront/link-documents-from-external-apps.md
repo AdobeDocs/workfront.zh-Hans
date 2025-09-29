@@ -6,9 +6,9 @@ description: 您可以从外部源将文档和文件夹链接到Adobe Workfront�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: a005c7114388e1c20a4847b3da3229667be0ded7
 workflow-type: tm+mt
-source-wordcount: '2620'
+source-wordcount: '2568'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
    <td role="rowheader">现有的第三方云文档提供商</td> 
    <td>这些功能包括： 
     <ul> 
-     <li>Box</li> 
+     <li>盒子</li> 
      <li>Dropbox</li> 
      <li>Dropbox业务</li> 
      <li>WebDAM</li> 
@@ -38,20 +38,17 @@ ht-degree: 0%
     </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workfront 验证 </td> 
-   <td>您可以使最初在Workfront Proof中创建的验证在Workfront中可用。 对于当前许可证，需要Pro Workfront计划或更高版本才能使用此功能。 对于新许可证，所有计划都包含此功能。 有关各种可用计划的详细信息，请参阅<a href="https://business.adobe.com/products/workfront/pricing.html">Workfront计划</a>。</td> 
+   <td role="rowheader">Workfront 校样 </td> 
+   <td>您可以使最初在Workfront Proof中创建的验证在Workfront中可用。</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
    <td>您可以从Experience Manager Assets Essentials将文档链接到Workfront。 有关详细信息，请参阅<a href="../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md" class="MCXref xref">适用于Experience Manager Assets Essentials的Adobe Workfront</a>。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Workfront DAM </td> 
-   <td>这需要进行额外购买。 </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
    <td role="rowheader">其他文档提供程序（通过自定义文档集成）</td> 
-   <td> <p class="workfront_plans">对于当前许可证，需要Pro Workfront计划或更高版本才能使用此功能。 对于新许可证，所有计划都包含此功能。 有关各种可用计划的详细信息，请参阅<a href="https://business.adobe.com/products/workfront/pricing.html">Workfront计划</a>。</p> </td>
+   <td> <p class="workfront_plans">这些集成可以在“设置”区域中配置。</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -100,6 +97,13 @@ ht-degree: 0%
 * 如果由文档服务提供，则缩略图和预览图像可能会存储在Workfront服务器上。
 * 在Workfront中使用验证时，文档将被复制并添加到验证服务器。
 
+## 文件大小限制
+
+第三方云提供商：
+
+* 单个文件：5 GB或更少
+* 多个文件：1 GB或更小（所有文件总数）
+
 ## 将文档从外部应用程序链接到Workfront
 
 您可以将现有文档与外部云提供商链接。 这包括任何共享文档。
@@ -117,7 +121,7 @@ ht-degree: 0%
 >Dropbox根据文件路径存储文档。 因此，如果移动、重命名或删除了从Dropbox链接的文件，则该文件将在Workfront中变得不可访问。
 
 1. 转到Workfront中您想要获取文档的&#x200B;**文档**&#x200B;区域。
-1. 单击“新建”**&#x200B;**，然后单击要将文档链接到Workfront的外部文档提供商。
+1. 单击“新建”****，然后单击要将文档链接到Workfront的外部文档提供商。
 
    例如，要链接来自Dropbox的文档，请单击&#x200B;**来自Dropbox**。
 
@@ -194,7 +198,7 @@ ht-degree: 0%
    >
    >对于链接到Box的文档，在刷新页面之前，不会显示Box中文档的链接。
 
-有关将您从文件系统上传到Workfront的文档的新版本添加的信息，请参阅[将文档从文件系统添加到Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)中的[将文档添加到Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#add-documents-to-workfront)。
+有关将您从文件系统上传到Workfront的文档的新版本添加的信息，请参阅[将文档从文件系统添加到Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#add-documents-to-workfront)中的[将文档添加到Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)。
 
 ### 链接Workfront Proof文档 {#link-workfront-proof-documents}
 
@@ -203,7 +207,7 @@ ht-degree: 0%
 您只能链接那些您在Workfront Proof中拥有查看权限的校样。
 
 1. 转到Workfront中您想要获取文档的&#x200B;**文档**&#x200B;区域。
-1. 单击&#x200B;**新增**，然后单击Workfront Proof中的&#x200B;**&#x200B;**。
+1. 单击&#x200B;**新增**，然后单击Workfront Proof中的&#x200B;****。
 
    >[!NOTE]
    >
@@ -280,7 +284,7 @@ ht-degree: 0%
 
 1. 转到Workfront中您希望文件夹所在的区域，然后单击左侧面板中的&#x200B;**文档** ![文档图标](assets/document-icon.png)。
 
-1. 单击“新建”**&#x200B;**，然后单击要将文件夹链接到Workfront的外部文档提供商。
+1. 单击“新建”****，然后单击要将文件夹链接到Workfront的外部文档提供商。
 1. （视情况而定）如果尚未授权外部服务，请为外部提供程序指定登录凭据，然后单击&#x200B;**登录**。
 
    您已经授权的外部提供程序将显示在列表顶部。
