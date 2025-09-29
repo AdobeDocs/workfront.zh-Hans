@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
-source-git-commit: 2fd35bef86be0728b346cb116f8f37662f84bc77
+source-git-commit: 4146dd1d11b54155ad5510625c761d66dd649245
 workflow-type: tm+mt
-source-wordcount: '2076'
+source-wordcount: '2235'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >预览： 2025年9月25日
->&#x200B;>生产快速发布： 2025年10月15日
->&#x200B;>全部生产：2025年10月16日
+>>生产快速发布： 2025年10月15日
+>>全部生产：2025年10月16日
 
 现在，您可以在“连接的记录”页面中内联编辑Workfront连接的对象。 您还可以更改连接对象的顺序、复制和粘贴行以及表格视图的其他功能。
 
@@ -101,6 +101,30 @@ For more information on creating a request form and configuring these options, s
 
 有关详细信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
 
+## 新设置，以防止从记录类型创建双向连接
+
+>[!NOTE]
+>
+>* 预览： 2025年9月18日
+>* 生产快速发布： 2025年10月15日
+>* 全部生产：2025年10月16日
+
+为了防止创建过多的连接字段并防止潜在地影响性能，我们引入了一个新设置，以允许工作区管理员选择性地在连接的记录类型上创建相应的连接字段。 启用后，连接数将计入两个记录，这将增加达到500连接限制的机会。 要避免出现这种情况，我们建议保持此设置，尤其是在链接到分类记录类型时。
+
+以下功能属于此改进的一部分：
+
+* “在链接的记录类型上创建相应的字段”的新设置已添加到“新建连接”选项卡中。
+
+* 已重新设计“新建连接”选项卡的“连接”类型区域。
+
+* 每个记录类型最多有500个连接。
+
+* 在创建和保存新连接后，可以更改新设置。
+
+
+
+有关详细信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
+
 ## 更改或删除字段时显示新信息框
 
 >[!NOTE]
@@ -122,8 +146,8 @@ For more information on creating a request form and configuring these options, s
 >[!NOTE]
 >
 >预览： 2025年9月11日
->&#x200B;>适用于所有客户的生产： 2025年9月11日
->&#x200B;>[!BADGE 超出计划]{type=Neutral}
+>>适用于所有客户的生产： 2025年9月11日
+>>[!BADGE 超出计划]{type=Neutral}
 
 如果贵组织同时使用Adobe Workfront Planning和Adobe GenStudio for Performance Marketing，则可能需要比GenStudio默认支持的更详细地定义营销概念，如促销活动、产品和角色。
 
@@ -288,8 +312,8 @@ For more information on creating a request form and configuring these options, s
 >[!NOTE]
 >
 >预览： 2025年8月7日
->&#x200B;>适用于所有客户的生产： 2025年8月
->&#x200B;>[!BADGE 超出计划]{type=Neutral}
+>>适用于所有客户的生产： 2025年8月
+>>[!BADGE 超出计划]{type=Neutral}
 
 我们向Workfront Planning中的公式字段和Workfront中的计算自定义字段添加了具有以下用法的新表达式：
 
@@ -304,8 +328,8 @@ For more information on creating a request form and configuring these options, s
 >[!NOTE]
 >
 >预览： 2025年7月31日
->&#x200B;>适用于所有客户的生产： 2025年7月31日
->&#x200B;>[!BADGE 超出计划]{type=Neutral}
+>>适用于所有客户的生产： 2025年7月31日
+>>[!BADGE 超出计划]{type=Neutral}
 
 我们在记录表视图中创建或编辑公式字段时，添加了“最大化”按钮以放大该字段。 此外，我们在新的放大窗口中添加了“最小化”按钮，以还原到字段创建框。
 
@@ -354,8 +378,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >预览： 2025年7月24日
->&#x200B;>生产快速发布： 2025年8月14日
->&#x200B;>适用于所有客户的生产： 2025年10月16日
+>>生产快速发布： 2025年8月14日
+>>适用于所有客户的生产： 2025年10月16日
 
 现在，您可以在时间轴上的任意位置双击来在记录类型的时间轴视图中创建记录。
 
@@ -370,8 +394,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >预览： 2025年7月24日
->&#x200B;>生产快速发布： 2025年8月14日
->&#x200B;>适用于所有客户的生产： 2025年10月16日
+>>生产快速发布： 2025年8月14日
+>>适用于所有客户的生产： 2025年10月16日
 
 您现在可以从工作区页面上记录类型卡片的更多菜单共享记录类型。 在此增强功能之前，购股权仅在记录类型页面内可用。
 
@@ -382,8 +406,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >预览： 2025年7月24日
->&#x200B;>生产快速发布： 2025年8月14日
->&#x200B;>适用于所有客户的生产： 2025年10月16日
+>>生产快速发布： 2025年8月14日
+>>适用于所有客户的生产： 2025年10月16日
 
 您现在可以在全屏模式下显示所有Workfront Planning视图（表、时间轴和日历）。 视图功能将保留，您也可以在全屏模式下更改视图。
 
@@ -396,8 +420,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >预览： 2025年7月22日
->&#x200B;>快速发布生产： 2025年8月14日
->&#x200B;>适用于所有客户的生产： 2025年10月16日
+>>快速发布生产： 2025年8月14日
+>>适用于所有客户的生产： 2025年10月16日
 
 为了使审批流程更灵活，我们增加了在Planning请求表单上添加团队作为审批者的功能。 现在，您可以在设置批准者时输入和选择团队名称。 任何团队成员都可以做出决定，这被视为整个团队的批准决定。
 
@@ -410,8 +434,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >预览： 2025年7月17日
->&#x200B;>快速发布生产： 2025年8月14日
->&#x200B;>适用于所有客户的生产： 2025年10月16日
+>>快速发布生产： 2025年8月14日
+>>适用于所有客户的生产： 2025年10月16日
 
 我们引进了以下字段，用于捕获通过提交经批准的请求而创建的记录的批准信息：
 
@@ -425,8 +449,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >预览： 2025年7月10日
->&#x200B;>生产快速发布： 2025年8月14日
->&#x200B;>适用于所有客户的生产： 2025年10月16日
+>>生产快速发布： 2025年8月14日
+>>适用于所有客户的生产： 2025年10月16日
 
 
 现在，当您将分组应用于表视图时，向表中添加记录将自动填充与您将记录添加到的分组相关联的字段。
