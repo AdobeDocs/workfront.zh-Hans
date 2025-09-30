@@ -6,9 +6,9 @@ description: 您可以编辑已创建的程序的信息，或其他用户已创�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: b47c87a1a3d7516f7b1fed6e1abf84a84c453609
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '988'
 ht-degree: 1%
 
 ---
@@ -36,15 +36,15 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>新文档： [!UICONTROL Standard] </p><p>或 </p><p>当前： [!UICONTROL 计划] </p> </td> 
+   <td> <p>新文档： [！UICONTROL Standard] </p><p>或 </p><p>当前： [！UICONTROL计划] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别</td> 
-   <td> <p>[!UICONTROL Edit]对程序的访问权限</p>  </td> 
+   <td> <p>[！UICONTROL Edit]对程序的访问权限</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>[!UICONTROL Manage]程序权限</p>  </td> 
+   <td> <p>[！UICONTROL Manage]程序权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -99,14 +99,14 @@ ht-degree: 1%
 
 1. 要编辑有关一个或多个程序的所有信息，请执行下列操作之一：
 
-   * 单击程序名称旁边的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单![更多菜单](assets/more-icon.png)，然后&#x200B;**[!UICONTROL 编辑]。**
+   * 单击程序名称旁边的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单![更多菜单](assets/more-icon.png)，然后单击&#x200B;**[!UICONTROL 编辑]。**
    * 转到程序列表，并选择要编辑的一个或多个程序，然后单击列表顶部的&#x200B;**[!UICONTROL 编辑]**&#x200B;图标![编辑图标](assets/edit-icon.png)。
 
-   此时将显示&#x200B;**[!UICONTROL 编辑程序]**&#x200B;对话框。
+     此时会显示&#x200B;**[!UICONTROL 编辑程序]**&#x200B;框。
 
-   ![编辑程序框](assets/edit-program-0925.png)
+     ![编辑程序框](assets/edit-program-0925.png)
 
-   所有项目群字段在[!UICONTROL 编辑项目群]框中均可用，并且按左侧面板中列出的区域分组。
+     所有项目群字段在[!UICONTROL 编辑项目群]框中均可用，并且按左侧面板中列出的区域分组。
 
 1. 请考虑在以下任意部分中指定信息：
 
@@ -135,27 +135,30 @@ ht-degree: 1%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 名称]</td> 
-      <td> <p>更新项目的名称。 </p> <p>提示：当您选择了多个项目时，此选项不可用。 </p> </td> 
+      <td role="rowheader">[！UICONTROL名称]</td> 
+      <td> <p>更新项目的名称。 </p> <p><b>提示</b></p><p>当您选择多个项目时，此选项不可用。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 描述]</td> 
-      <td> <p>键入Portfolio的描述以指示其独特之处。 </p> </td> 
+      <td role="rowheader">[！UICONTROL描述]</td> 
+      <td> <p>键入项目组合的描述以指示其独特之处。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 项目管理器]</td> 
-      <td> <p>开始键入要指定为项目经理的用户名，然后当名称出现在列表中时将其选定。 此人负责监督项目群项目中定义的工作。 </p> <p>重要信息：指定某个人员担任项目群管理员时，该人员会自动获得对项目和项目群中的[!UICONTROL 管理]权限。 </p> <p>提示：您可以在项目标题中快速更新项目管理器。 </p> </td> 
+      <td role="rowheader">[！UICONTROL项目管理器]</td> 
+      <td> <p>开始键入要指定为项目经理的用户名，然后当名称出现在列表中时将其选定。 此人负责监督项目群项目中定义的工作。 </p> <p><b><p>重要</b></p> <p>指定某个人作为项目群经理时，该人员会自动获得对项目和项目群中的[！UICONTROL管理]权限。 </p> <p><b>提示</b></p> <p>您可以在项目标题中快速更新项目管理器。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 组]</td> 
-      <td> <p>添加单个组的名称（如果该组与项目群相关联或负责完成项目）。 </p> <p>提示：  <p>从[!UICONTROL 程序详细信息]页面访问[!UICONTROL 组]字段时，请执行以下操作： </p> <p>您可以通过将鼠标悬停在该组上并单击其旁边显示的[!UICONTROL 信息]图标<img src="assets/info-icon.png">来确保选择正确的组。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>此选项在[!UICONTROL 编辑程序]框中不可用。 </p> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL 处于活动状态]</td> 
-      <td> <p> 如果希望程序处于活动状态，请选中此复选框。 其他用户可以找到活动的项目群，并将它们附加到项目群或添加到项目组合。 无法将非活动项目群附加到项目或项目组合。 默认情况下启用此功能。</p> </td> 
+      <td role="rowheader">[！UICONTROL组]</td> 
+      <td> <p>添加单个组的名称（如果该组与项目群相关联或负责完成项目）。 </p> <p><b>提示</b></p>  <p>从[！UICONTROL程序详细信息]页面访问[！UICONTROL组]字段时，请执行以下操作以确保选择正确的组： </p> <p>将鼠标悬停在组名称上，然后单击它旁边的[！UICONTROL信息]图标<img src="assets/info-icon.png">。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>此选项在[！UICONTROL编辑程序]框中不可用。 </p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
+
+   <!--this was removed from the unshimmed version - asking on the epic:
+   <tr> 
+      <td role="rowheader">[!UICONTROL Is Active]</td> 
+      <td> <p> Select this checkbox if you want the program to be active. Other users can find active programs and attach them to projects or add them to portfolios. Inactive programs cannot be attached to projects or portfolios. This is enabled by default.</p> </td> 
+     </tr> -->
+
 
 1. 单击&#x200B;**[!UICONTROL 保存]**，或继续编辑以下部分。
 
@@ -184,4 +187,5 @@ ht-degree: 1%
 1. （可选）选择&#x200B;[!UICONTROL **我的公司私有**]&#x200B;以锁定评论，并使其仅对公司中的用户私有。
 
    保存更改后，您添加的评论将显示在程序的[!UICONTROL 更新]选项卡中，并向其中所包含的用户发送电子邮件。
+1. 单击&#x200B;**[!UICONTROL 保存]**
 

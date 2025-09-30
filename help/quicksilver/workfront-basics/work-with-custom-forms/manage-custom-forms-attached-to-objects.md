@@ -6,9 +6,9 @@ description: 您可以更新附加到某个对象的自定义表单的显示顺�
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: b3534cccd4a06b8c5b8b7e742f63eeb898bd5b99
+source-git-commit: 322257a21f5d415b0ac04e6944c4aaa53fc3ab3b
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1088'
 ht-degree: 0%
 
 ---
@@ -28,25 +28,25 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
    <td> <p>请求或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑您对其管理自定义表单的对象的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑您对其管理自定义表单的对象的访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>为您管理自定义表单的对象分配或更高权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>为您管理自定义表单的对象分配或更高权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 先决条件
 
@@ -73,18 +73,13 @@ ht-degree: 0%
 >
 >从对象中删除自定义表单时，在表单的自定义字段中捕获的所有信息都将丢失且无法恢复。
 
-1. 转到要删除自定义表单的对象并开始编辑该对象。
+1. 转到要删除自定义表单的对象，然后单击该对象左侧面板中的&#x200B;**详细信息**&#x200B;部分。
 
-   例如，转到某个项目，单击&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)，然后单击&#x200B;**编辑** 。
+   例如，转到某个项目，单击&#x200B;**项目详细信息**&#x200B;部分。
 
-1. 单击&#x200B;**自定义Forms**。
-1. 对于项目、任务和问题自定义表单，请单击表单右侧的&#x200B;**X**&#x200B;图标以将其从对象中删除。
-
-   对于所有其他对象，请单击&#x200B;**管理Forms**，然后单击表单右侧的&#x200B;**X**&#x200B;图标以将其从对象中删除。
-
-1. <span class="preview">在打开的对话框中，单击&#x200B;**删除**。</span>
-
-1. 单击&#x200B;**保存** 。
+1. 单击对象页面右上角的&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)，然后单击&#x200B;**全部编辑**。
+1. 单击自定义表单名称右侧的&#x200B;**删除**&#x200B;图标![](assets/delete-icon.png)，然后单击&#x200B;**删除**&#x200B;以确认表单并将其从对象中删除，或单击&#x200B;**取消**&#x200B;以阻止删除。
+1. 单击&#x200B;**保存更改** 。
 
 ## 管理包含相同自定义字段的多个自定义表单
 

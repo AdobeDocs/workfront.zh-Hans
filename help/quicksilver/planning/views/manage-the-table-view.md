@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
 source-wordcount: '3494'
 ht-degree: 2%
@@ -34,7 +34,7 @@ ht-degree: 2%
 
 ## 访问要求
 
-+++ 展开以查看访问要求。
++++ 展开以查看访问要求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -100,7 +100,7 @@ ht-degree: 2%
 
 *有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-+++
++++   
 
 ## 使用表视图编辑记录
 
@@ -114,13 +114,13 @@ ht-degree: 2%
 
 要管理表视图，请执行以下操作：
 
-1. 创建表视图，如文章[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)中所述。
+1. <span class="preview">创建表视图，如文章[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)中所述。</span>
 
-   ![表视图示例](assets/table-view-example.png)
+   <span class="preview">![表视图示例](assets/table-view-example.png)</span>
 
 1. （可选）单击&#x200B;**行高**，然后从以下选项中进行选择以修改表行的高度：
    * 短
-   * 中
+   * 媒介
    * 高
 
 1. <span class="preview">（可选）单击&#x200B;**全屏**&#x200B;图标![打开全屏图标](assets/open-full-screen-icon.png)以全屏方式打开视图，然后单击&#x200B;**退出全屏**&#x200B;图标![退出全屏图标](assets/exit-full-screen-icon.png)或键盘上的Escape以退出全屏。 </span>
@@ -159,7 +159,11 @@ ht-degree: 2%
 
    * 单击表格工具栏中的&#x200B;**字段**，然后按所需顺序拖放这些字段，然后单击&#x200B;**字段可见性和顺序**&#x200B;框外部以将其关闭。
 
+     <div class="preview">
+
      ![字段设置表视图工具栏已展开](assets/fields-setting-table-view-toolbar-expanded.png)
+
+     </div>
 
 
      >[!TIP]
@@ -203,9 +207,9 @@ ht-degree: 2%
 
 1. 执行以下操作可快速查找与关键字匹配的记录：
 
-   1. 单击&#x200B;**搜索**&#x200B;图标![搜索图标](assets/search-icon.png)并开始键入与屏幕上显示的记录的任何字段相关联的关键字。 正确匹配的数量显示在搜索项目旁边，具有正确匹配的字段会高亮显示。
+   1. <span class="preview">在&#x200B;**搜索**&#x200B;框![搜索图标](assets/search-icon.png)中，开始键入与屏幕上显示的记录的任何字段关联的关键字。</span>搜索项旁边将显示正确匹配项的数目，并且高亮显示具有正确匹配的字段。
 
-      ![在表视图中具有结果蓝色轮廓的搜索框](assets/search-box-with-results-blue-outline-table-view.png)
+      <span class="preview">![在表视图中具有结果蓝色轮廓的搜索框](assets/search-box-with-results-blue-outline-table-view.png)</span>
 
       您可以使用屏幕上可见的任何单词或特殊字符。
 
@@ -434,7 +438,7 @@ ht-degree: 2%
 
 * 可以在表格视图和时间线视图中应用分组。 表格视图的分组独立于相同记录类型的时间线视图中的分组。
 * 您可以在视图中应用3个级别的分组。 这些记录按您选择的分组顺序分组。
-&lt;！—*在使用API时，您最多可以应用4个级别的分组。  — 现在查看此项 — >
+&lt;!—*在使用API时，您最多可以应用4个级别的分组。  — 现在查看此项 — >
 * 这些分组对于您选择的视图是唯一的。 同一记录类型的两个表视图可以应用不同的分组。 查看同一表格视图的两个用户会看到当前应用的相同分组。
 * 不能为表视图命名您构建的分组。
 * 删除分组会将其从与您访问相同记录类型以及显示与您相同视图的任何人中删除。
@@ -459,9 +463,13 @@ ht-degree: 2%
 
 1. （可选）单击&#x200B;**添加条件**&#x200B;并重复上述步骤以添加最多3个分组。
 
+   <div class="preview">
+
    为分组选择的字段数将显示在分组图标旁边。
 
    ![分组应用于表视图](assets/grouping-applied-in-table-view.png)
+
+   </div>
 
 1. （可选）在&#x200B;**按**&#x200B;对记录进行分组框中，单击为分组选择的字段右侧的&#x200B;**x**&#x200B;图标以删除该分组
 

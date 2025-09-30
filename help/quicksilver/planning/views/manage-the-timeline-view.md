@@ -6,14 +6,16 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '3920'
+source-wordcount: '3935'
 ht-degree: 2%
 
 ---
 
 # 管理时间线视图
+
+<!--remove preview and production references at production-->
 
 <span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
@@ -117,9 +119,9 @@ ht-degree: 2%
 要管理时间线视图，请执行以下操作：
 
 1. 转到要查看其时间线的记录类型页面。
-1. 创建时间线视图，如[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)一文中所述。
+1. <span class="preview">创建时间线视图，如[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)一文中所述。</span>
 
-   ![时间线视图示例](assets/timeline-view-example.png)
+   <span class="preview">![时间线视图示例](assets/timeline-view-example.png)</span>
 
    与所选记录类型关联的记录在时间轴中显示为条形，默认情况下，这些记录按其开始日期的时间顺序排序。
 
@@ -151,7 +153,7 @@ ht-degree: 2%
    >在“设置”区域中设置自定义季度后，时间线视图显示自定义季度，而不是传统季度。
    >有关信息，请参阅[启用自定义季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
-1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”**&#x200B;**，然后要求您的Workfront管理员设置自定义季度。
+1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”****，然后要求您的Workfront管理员设置自定义季度。
 
    >[!TIP]
    >
@@ -173,9 +175,9 @@ ht-degree: 2%
 
 1. 执行以下操作可快速查找与关键字匹配的记录：
 
-   1. 单击&#x200B;**搜索**&#x200B;图标![搜索图标](assets/search-icon.png)并开始键入与屏幕上显示的记录的任何字段相关联的关键字。 正确匹配的数量显示在搜索项目旁边，具有正确匹配的记录会高亮显示。
+   1. <span class="preview">单击&#x200B;**搜索**&#x200B;图标![搜索图标](assets/search-icon.png)并开始键入与屏幕上显示的记录的任何字段相关联的关键字。 正确匹配的数量显示在搜索项目旁边，具有正确匹配的记录会高亮显示。</span>
 
-      ![搜索框和结果时间线视图](assets/search-box-and-results-timeline-view.png)
+      <span class="preview">![搜索框和结果时间线视图](assets/search-box-and-results-timeline-view.png)</span>
 
       您可以使用屏幕上可见的任何单词或特殊字符。
 
@@ -353,23 +355,21 @@ ht-degree: 2%
 要在时间轴视图中添加分组，请执行以下操作：
 
 1. 为记录类型创建时间线视图，如[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)一文中所述。
-1. 单击时间轴视图右上角的&#x200B;**分组**。
+1. <span class="preview">单击时间轴视图右上角的&#x200B;**分组**。</span>
 
-   ![使用链接字段分组UI时间线视图](assets/grouping-ui-timeline-view-with-linked-fields.png)
+   <span class="preview">![使用链接字段分组UI时间线视图](assets/grouping-ui-timeline-view-with-linked-fields.png)</span>
 
 1. 单击其中一个建议的字段，或单击&#x200B;**选择其他字段**，搜索其他字段，然后在列表显示该字段时单击它。
 
    分组将自动应用于时间轴，并且记录显示在分组框中。
 
-   <!-- add a step that you can rearrange the groupings here, when this will be possible-->
-
 1. （可选）重复上述步骤以添加最多3个分组。
 
-   为分组选择的字段数将显示在分组图标旁边。
+   <span class="preview">为分组选择的字段数将显示在“分组”图标旁边。</span>
 
-   <!-- update screen shot with view redesign-->
+   <span class="preview">![在时间轴视图中应用分组](assets/grouping-applied-in-timeline-view.png)</span>
 
-   ![分组适用于时间线视图](assets/grouping-applied-in-timeline-view.png)
+1. 在&#x200B;**按**&#x200B;对记录进行分组框中，按正确的顺序拖放分组。
 
 1. （可选）在&#x200B;**按**&#x200B;对记录进行分组框中，单击为分组选择的字段右侧的&#x200B;**x**&#x200B;图标以删除该分组
 
@@ -530,7 +530,11 @@ this is not possible right now; if this is the same functionality as the table v
 1. 在&#x200B;**标准**&#x200B;或&#x200B;**紧凑**&#x200B;模式中，单击时间轴视图右上角的&#x200B;**划分**。
 1. 展开&#x200B;**选择链接记录类型**&#x200B;框并选择连接的记录类型。<!--add a new screen shot - submitted a bug to remove the "the"-->
 
+   <div class="preview">
+
    时间线视图上的![划分选取器和按钮](assets/breakdown-picker-and-button-on-timeline.png)
+
+   </div>
 
    >[!TIP]
    >
@@ -543,7 +547,7 @@ this is not possible right now; if this is the same functionality as the table v
    >    开始和结束日期必须是连续的。 如果结束日期早于开始日期，则时间轴中不会显示任何记录。
 
    如果所选记录与其他记录连接，则时间轴中的选定记录栏上将显示一个向右箭头。
-1. 单击向右箭头可展开记录类型并显示其连接。
+1. 单击向右箭头可展开记录类型并显示其连接。<!--update screen shot at production-->
 
    在时间线视图中![按项目细分的营销活动](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
 

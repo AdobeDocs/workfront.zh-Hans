@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 9bdc36a76393acd2f0617cc5796cfd7279b2c97a
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
 source-wordcount: '2752'
 ht-degree: 1%
@@ -144,7 +144,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      >[!TIP]
      >
-     >必须在&#x200B;**编辑记录类型**&#x200B;框的&#x200B;**高级设置**&#x200B;选项卡中为记录类型启用&#x200B;**允许连接到其他工作区中的此记录类型**&#x200B;设置，才能从其他工作区访问记录类型。 如果没有配置为从其他工作区连接的记录类型，则不会显示工作区部分。
+     >必须在&#x200B;**编辑记录类型**&#x200B;框的&#x200B;**高级设置**&#x200B;选项卡中为记录类型启用&#x200B;**允许连接到其他工作区中的此记录类型**设置，才能从其他工作区访问记录类型。 如果没有配置为从其他工作区连接的记录类型，则不会显示工作区部分。
      > ![编辑记录类型框高级设置选项卡](assets/edit-record-type-box-advanced-settings-tab.png)
 
      有关信息，请参阅[编辑记录类型](/help/quicksilver/planning/architecture/edit-record-types.md)。
@@ -195,7 +195,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
          >[!TIP]
          >
-         >一个记录类型最多有500个连接。 我们建议将此设置保持关闭（特别是对于分类记录类型），以避免达到此限制。
+         >一种记录类型最多有500个字段。 我们建议将此设置保持关闭（特别是对于分类记录类型），以避免达到此限制。
 
       3. （视情况而定）如果启用&#x200B;**在链接的记录类型**&#x200B;上创建对应的字段，则从以下选项中进行选择，以指示用户可以连接到多少条记录，也可以从多少条记录进行连接：
 
@@ -222,7 +222,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    >[!NOTE]
    >
-   >Workfront管理员可以通过Workfront中的元数据映射，将Workfront Planning字段映射到Experience Manager Assets字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+   >Workfront管理员可以通过Workfront中的元数据映射，将Workfront Planning字段映射到Experience Manager Assets字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
 
 1. （视情况而定）当您选择连接到Experience Manager Assets或Workfront Planning记录类型时，请在&#x200B;**记录外观**&#x200B;区域中选择以下选项之一：
@@ -346,7 +346,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      >[!TIP]
      >
-     > 不会为对象创建链接记录字段，这些对象从另一个应用程序链接到您在Workfront Planning中链接的记录类型。<!--<span class="preview">We recommend not creating links on taxonomical record types, as there is a 500 connection field limit for every record type.</span>-->
+     > 不会为对象创建链接记录字段，这些对象从另一个应用程序链接到您在Workfront Planning中链接的记录类型。<!--<span class="preview">We recommend not creating links on taxonomical record types, as there is a limit of 500 fields for every record type.</span>-->
 
    <!--see the span preview text in the TIP above; it might not show up in green-->
 

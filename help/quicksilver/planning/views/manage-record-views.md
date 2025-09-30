@@ -6,15 +6,17 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: f32b2f9e5a511b83e5793299e47b9c1c12857bd8
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1287'
 ht-degree: 1%
 
 ---
 
 
 # 管理记录视图
+
+<!-- take preview and production references out at production-->
 
 <span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
@@ -192,30 +194,32 @@ ht-degree: 1%
    * 在生产环境中，单击&#x200B;**+查看**&#x200B;选项卡。
    * <span class="preview">在“预览”环境中，单击当前视图名称旁边的下拉图标![下拉图标](assets/drop-down-icon.png)，然后单击&#x200B;**+新建视图**。</span>
 
-1. <span class="preview">从“视图”下拉菜单中，按您喜好的顺序拖放视图。</span>
 1. 从以下视图类型中选择：
 
    * 表
    * 时间线
    * 日程表
 
-   将使用选定的视图创建新选项卡。
+   在生产环境中，将使用选定的视图创建一个新选项卡。
 
    根据屏幕的宽度，**更多**&#x200B;菜单![更多](assets/more-menu.png)中可能会显示其他视图。
 
+   >[!TIP]
+   >
+   >创建记录类型时，缺省情况下还会创建表格视图。
+   >
+   >要创建时间轴或日历视图，您为其构建视图的记录类型必须至少有两个日期字段。
+   >
+   >否则，“时间轴”和“日历”选项将灰显。
+   >
 
->[!TIP]
->
->创建记录类型时，缺省情况下还会创建表格视图。
->
->要创建时间轴或日历视图，您为其构建视图的记录类型必须至少有两个日期字段。
->
->否则，“时间轴”和“日历”选项将灰显。
->
+   <span class="preview">在“预览”环境中，选择视图类型，然后单击“**创建**”。 新视图将添加到下拉菜单中。</span>
 
-<!-- replace screen shot at production??-->
+   <span class="preview">![创建视图框](assets/create-view-box.png)</span>
 
-![记录类型列表中的查看类型下拉列表](assets/view-types-drop-down-from-record-type-list.png)
+1. <span class="preview">从“视图”下拉菜单中，按您喜好的顺序拖放视图。</span>
+
+   <span class="preview">![记录类型列表中的查看类型下拉列表](assets/view-types-drop-down-from-record-type-list.png)</span>
 
 1. （视情况而定）创建时间线或日历视图时，单击&#x200B;**下一步**。
 

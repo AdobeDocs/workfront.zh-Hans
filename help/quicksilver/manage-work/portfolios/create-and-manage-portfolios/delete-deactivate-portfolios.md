@@ -6,7 +6,7 @@ description: 项目组合是Adobe Workfront中的项目或项目群的集合。 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: 8a4668a568fde2ca7ee26714caae3cd33efe4eda
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 1%
@@ -35,16 +35,16 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>[!UICONTROL 标准版]</p>
-   <p>[!UICONTROL 计划]</p> </td> 
+   <td> <p>[！UICONTROL标准版]</p>
+   <p>[！UICONTROL计划]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[!UICONTROL Edit]对项目和项目组合的访问权限</p>  </td> 
+   <td> <p>[！UICONTROL Edit]对项目和项目组合的访问权限</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>项目组合的[!UICONTROL Manage]权限 </p> </td> 
+   <td> <p>项目组合的[！UICONTROL Manage]权限 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,6 +68,18 @@ ht-degree: 1%
 * 停用项目组合可确保在创建项目时，项目组合及其项目的名称不再分配给项目。
 * 停用已附加到项目的项目组合不会将其从项目中删除。 如果您从项目中删除已停用的项目组合，则必须先将其重新激活，然后才能将其重新附加到项目。
 
+## 删除项目组合
+
+{{step1-to-portfolios}}
+
+1. 执行下列操作之一：
+
+   * 在列表中选择项目组合，然后单击&#x200B;**[!UICONTROL 删除]**&#x200B;图标![删除图标](assets/delete.png)。
+   * 单击项目组合以将其打开，然后单击项目组合名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-icon.png)，然后&#x200B;**删除Portfolio**。
+1. 单击&#x200B;**[!UICONTROL 是，将其删除]**&#x200B;以进行确认。
+
+   项目组合已删除，无法恢复。
+
 ## 取消激活项目组合
 
 当您停用项目组合时，您仍然可以从[!UICONTROL 项目组合]区域访问该项目组合，但在用户尝试将其添加到项目组合时，它不再显示在项目组合列表中。
@@ -84,14 +96,4 @@ ht-degree: 1%
 项目组合会立即停用。
 1. （可选）单击项目组合名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-icon.png)，然后单击&#x200B;**[!UICONTROL 激活Portfolio]**&#x200B;以重新激活它。
 
-## 删除项目组合
 
-{{step1-to-portfolios}}
-
-1. 执行下列操作之一：
-
-   * 在列表中选择项目组合，然后单击&#x200B;**[!UICONTROL 删除]**&#x200B;图标![删除图标](assets/delete.png)。
-   * 单击项目组合以将其打开，然后单击项目组合名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-icon.png)，然后&#x200B;**删除Portfolio**。
-1. 单击&#x200B;**[!UICONTROL 是，将其删除]**&#x200B;以进行确认。
-
-   项目组合已删除，无法恢复。
