@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: aec301a72ce0864faaf61754552ab8b4ba9bfb49
+source-git-commit: 4ec069376c398aa67ecfd6fad6973ad364f6a6a2
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
 与当前用户配置文件存在一些小的功能差异，包括：
 
 * 某些复选框（例如将用户标记为活动）已更改为切换或按钮。
-* 首选项下的“将我分配给自己的工作发送到我的工作选项卡上”选项已被删除，因为它引用了一个已弃用的功能。
+* “首选项”下的“将我分配给自己的工作发送至我的工作选项卡”选项已重命名为“当任务自行分配时，自动将任务状态设置为进行中”以反映其目的。
 
 有关详细信息，请参阅[编辑用户配置文件](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
