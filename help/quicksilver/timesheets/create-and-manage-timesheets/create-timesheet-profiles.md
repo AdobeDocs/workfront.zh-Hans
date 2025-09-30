@@ -137,7 +137,7 @@ ht-degree: 2%
       <td role="rowheader"><strong>可以编辑时间</strong> </td> 
       <td> <p> <p>选择此选项可允许审批者在时间表上编辑小时数。
 
-   <p>此选项与**限制对所有者和管理员编辑时间表**设置&gt;时间表和小时数&gt;首选项区域中的设置一起使用。 有关详细信息，请参阅<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">配置工时表和小时首选项</a>。</p>
+   <p>此选项与&#x200B;**限制对所有者和管理员编辑时间表**&#x200B;设置&gt;时间表和小时数&gt;首选项区域中的设置一起使用。 有关详细信息，请参阅<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">配置工时表和小时首选项</a>。</p>
 
    <p>存在以下情况： </p>
 
