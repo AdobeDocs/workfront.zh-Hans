@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: 4ec069376c398aa67ecfd6fad6973ad364f6a6a2
+source-git-commit: e32f759218a3addf63dad7aa207ccdde8acb1975
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 预览： 2025年9月25日
->* 生产快速发布： 2025年10月15日
->* 适用于所有客户的生产： 2025年10月16日
+>* 预览： 2025年9月24日
+>* 适用于所有客户的生产： 2025年9月25日
 
 为确保您保留对所需数据的访问权限，在从对象中删除自定义表单时，我们添加了确认对话框。 从对象中删除自定义表单会将该表单中的数据从对象中永久删除。 现在，通过对话框可确认您了解此数据将被删除，从而确保您不会删除所需的数据。
 
