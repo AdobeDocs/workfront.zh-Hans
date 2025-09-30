@@ -6,14 +6,16 @@ description: 您可以创建、编辑和分配时间表配置文件，以便为�
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 764200970aeb8d121cd99a8d4239e0b9853670a9
+source-git-commit: 939407f56b39617441f669d11b9439e445ceaf6e
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1641'
 ht-degree: 2%
 
 ---
 
 # 创建、编辑和分配时间表配置文件
+
+{{highlighted-preview}}
 
 <!--Audited: 06/2025-->
 
@@ -85,8 +87,7 @@ ht-degree: 2%
 
    此时会显示新的或现有的时间表配置文件页面。
 
-
-1. 单击&#x200B;**设置详细信息**&#x200B;选项卡，然后更新以下信息： <!-- at the Production release, change the order of some of these rows, as they changed in the unshimmed UI-->
+1. 更新以下信息：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -136,7 +137,7 @@ ht-degree: 2%
       <td role="rowheader"><strong>可以编辑时间</strong> </td> 
       <td> <p> <p>选择此选项可允许审批者在时间表上编辑小时数。
 
-   <p>此选项与&#x200B;**限制对所有者和管理员编辑时间表**&#x200B;设置&gt;时间表和小时数&gt;首选项区域中的设置一起使用。 有关详细信息，请参阅<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">配置工时表和小时首选项</a>。</p>
+   <p>此选项与**限制对所有者和管理员编辑时间表**设置&gt;时间表和小时数&gt;首选项区域中的设置一起使用。 有关详细信息，请参阅<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">配置工时表和小时首选项</a>。</p>
 
    <p>存在以下情况： </p>
 
@@ -155,6 +156,10 @@ ht-degree: 2%
    <b>注意</b>：提交时间表以供审批后，您无法再编辑小时数。 要将已提交工时表返回到可编辑状态，请撤消该工时表或让批准者拒绝该工时表。 有关详细信息，请参阅<a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">提交时间表以供审批</a>和<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">批准时间表</a>。</p> </p> </td>
    </tr> 
      <tr> 
+      <td role="rowheader"><strong>加班</strong> </td> 
+      <td>您可以选择在时间表中隐藏“加班”框。 默认禁用此选项。</td> 
+     </tr> 
+     <tr> 
       <td role="rowheader"><strong>可用小时类型</strong> </td> 
       <td><p>此设置仅引用常规小时类型，而不引用特定于项目的小时类型。 </p>
       <p>默认情况下，用户会在时间表上看到所有常规小时数。 但是，如果贵组织希望仅显示特定用户集的常规小时数，则可以通过在此字段内选择时间表配置文件中的常规小时数，选择需要在时间表上查看的常规小时数。 如果要禁用所有常规小时，请取消选择所有小时类型以生成不带常规小时分区的时间表。</p></td> 
@@ -165,14 +170,9 @@ ht-degree: 2%
       <td> <p> 添加提醒通知。 Workfront将向用户发送提醒，要求他们完成或批准时间表。 您必须先创建提醒通知，然后才能将其与时间表配置文件关联。  </p> </td> 
      </tr>
 
-   <tr data-mc-conditions=""> 
-      <td role="rowheader"><span style="font-weight: bold;">加班</span> </td> 
-      <td>您可以选择在时间表中隐藏“加班”框。 默认禁用此选项。</td> 
-     </tr> 
-    </tbody> 
-    </table>
+1. 在生产中创建组级时间表配置文件时，单击&#x200B;**分配人员**&#x200B;选项卡以将时间表配置文件与特定用户、组或(如果您是Workfront管理员)团队关联。<!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
 
-1. 创建组级别时间表配置文件时，单击&#x200B;**分配人员**&#x200B;选项卡以将时间表配置文件与特定用户、组或(如果您是Workfront管理员)团队关联。<!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
+   <span class="preview">在“预览”中创建组级时间表配置文件时，滚动到页面底部并找到&#x200B;**分配人员**&#x200B;部分。</span>
 
    为系统创建时间表配置文件时，滚动到页面底部并找到&#x200B;**分配人员**&#x200B;部分。<!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
 
@@ -188,13 +188,13 @@ ht-degree: 2%
 
 1. 单击&#x200B;**保存**。
 
-1. 在时间表配置文件列表顶部，单击系统级时间表配置文件的&#x200B;**更多**&#x200B;图标![更多图标](assets/more-icon.png)，或单击组时间表配置文件的&#x200B;**更多**，然后单击&#x200B;**生成时间表**。
+1. 在时间表配置文件列表顶部，单击&#x200B;**更多**&#x200B;图标![更多图标](assets/more-icon.png)，然后单击&#x200B;**生成时间表**。
 
    屏幕底部会显示一条确认消息，确认已成功生成时间表。 新时间表是根据您创建的新用户档案生成的。
 
    有关详细信息，请参阅[手动生成时间表](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)。
 
-   时间表用户档案首次生成时间表时，会为每个用户创建2个时间表，针对包括当前时间的时间范围以及下一个时间范围。
+   时间表用户档案首次生成时间表时，会为每个用户创建两个时间表，分别针对包含当前时间以及下一个时间范围的时间表。
 
    之后，每次生成新时间表时，都会为每个用户创建一个时间表。
 
