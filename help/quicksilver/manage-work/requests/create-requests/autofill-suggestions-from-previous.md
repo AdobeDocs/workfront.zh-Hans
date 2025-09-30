@@ -5,21 +5,14 @@ description: 您可以使用AI通过来自先前请求的数据自动完成请�
 author: Becky
 feature: Get Started with Workfront
 exl-id: a0cd1fbf-d3c6-454c-a85a-ceca4b1e8a7b
-source-git-commit: 1c2e382908ed8fead7c2222e8d46988656df29c4
+source-git-commit: 21039f9ab14529b56935d65e0261dc1ce068918c
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
 
 # 使用来自先前请求的数据自动完成请求
-
->[!NOTE]
->
->* 此功能将作为公开测试版在以下时间表中提供：
->
->   * 每月发布： 2025年9月11日
->   * 季度发布： 2025年10月16日
 
 AI可帮助您根据先前的请求自动完成请求字段。 您可以在提交请求之前批准或拒绝这些建议。
 
