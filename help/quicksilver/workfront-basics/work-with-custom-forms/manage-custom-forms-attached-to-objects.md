@@ -6,16 +6,16 @@ description: 您可以更新附加到某个对象的自定义表单的显示顺�
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b3534cccd4a06b8c5b8b7e742f63eeb898bd5b99
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1147'
 ht-degree: 0%
 
 ---
 
 # 管理附加到对象的自定义表单
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它适用于“预览”环境中的所有客户和“生产”环境中的选定客户组。</span>
 
 您可以更新附加到某个对象的自定义表单的显示顺序、删除它们或批量编辑自定义表单在多个对象上的显示方式。
 
@@ -41,7 +41,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>您管理自定义表单的对象的Contribute权限或更高版本</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>为您管理自定义表单的对象分配或更高权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -81,6 +81,8 @@ ht-degree: 0%
 1. 对于项目、任务和问题自定义表单，请单击表单右侧的&#x200B;**X**&#x200B;图标以将其从对象中删除。
 
    对于所有其他对象，请单击&#x200B;**管理Forms**，然后单击表单右侧的&#x200B;**X**&#x200B;图标以将其从对象中删除。
+
+1. <span class="preview">在打开的对话框中，单击&#x200B;**删除**。</span>
 
 1. 单击&#x200B;**保存** 。
 
