@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 8df1889997937b2a4238862eb2f86aeda84ed104
+source-git-commit: 6aa0aa5b8ffd088e3d79e7d1be66373a7f753f99
 workflow-type: tm+mt
 source-wordcount: '1310'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 * 自定义刷新沙盒
 
-  自定义刷新沙盒是一个单独的测试环境，由您手动刷新。 获取自定义刷新沙盒需要额外付费。 有关此环境的详细信息，请参阅[自定义刷新沙盒环境 [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)。
+  自定义刷新沙盒是一个单独的测试环境，由您手动刷新。 获取自定义刷新沙盒需要额外付费。 有关此环境的详细信息，请参阅[自定义刷新沙盒环境 [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,8 +39,8 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th> <p> </p> </th> 
-   <th> <p><strong>[!UICONTROL Standard]支持包</strong> </p> </th> 
-   <th> <p><strong>[!UICONTROL Plus]、[!UICONTROL Preferred]和[!UICONTROL Enterprise]支持包</strong> </p> </th> 
+   <th> <p><strong>[！UICONTROL Standard]支持包</strong> </p> </th> 
+   <th> <p><strong>[！UICONTROL Plus]、[！UICONTROL Preferred]和[！UICONTROL Enterprise]支持包</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -192,4 +192,4 @@ Workfront禁用来自“预览Sandbox”环境的所有电子邮件通信。 如
 
 * 将解决周末（星期六和星期日）对[!DNL Workfront]预览环境的任何中断，以使该环境在星期一的营业时间运行。
 
-* 验证在预览环境中不可用。
+* 验证在“预览”环境中不可用。
