@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 8df1889997937b2a4238862eb2f86aeda84ed104
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1310'
 ht-degree: 0%
 
 ---
@@ -39,8 +39,8 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th> <p> </p> </th> 
-   <th> <p><strong>[!UICONTROL Standard]支持包</strong> </p> </th> 
-   <th> <p><strong>[!UICONTROL Plus]、[!UICONTROL Preferred]和[!UICONTROL Enterprise]支持包</strong> </p> </th> 
+   <th> <p><strong>[！UICONTROL Standard]支持包</strong> </p> </th> 
+   <th> <p><strong>[！UICONTROL Plus]、[！UICONTROL Preferred]和[！UICONTROL Enterprise]支持包</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -191,3 +191,5 @@ Workfront禁用来自“预览Sandbox”环境的所有电子邮件通信。 如
 * 在常规工作时间内对[!DNL Workfront]预览环境的任何中断都将在解决任何生产问题（如果存在）后立即成为首要任务。
 
 * 将解决周末（星期六和星期日）对[!DNL Workfront]预览环境的任何中断，以使该环境在星期一的营业时间运行。
+
+* 验证在预览环境中不可用。
