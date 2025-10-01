@@ -5,16 +5,14 @@ title: Frame.io集成概述
 description: Frame.io集成概述
 author: Courtney
 feature: Work Management, Digital Content and Documents
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c4e1961092883f523d04adaacd58129a0379783d
+exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
+source-git-commit: 9825f095a7be7debb5150ca4bd50f7cf6fd12295
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '736'
 ht-degree: 0%
 
 ---
-
 
 # Frame.io集成概述
 
@@ -22,13 +20,13 @@ Workfront和Frame.io集成允许项目协调员在Workfront中管理项目和计
 
 ## 构建于Adobe企业级存储之上
 
-此集成的核心是Adobe企业存储，它是一种基于云的存储解决方案，可作为Adobe企业产品(包括Workfront、Frame.io和Creative Cloud)中资产的中心存储库。
+此集成的核心是Adobe企业存储，它是一种基于云的存储解决方案，可作为Adobe企业产品(包括Workfront和Frame.io)中资产的中央存储库。<!--, and Creative Cloud.-->
 
 Adobe企业存储的主要优势包括：
 
 * 用于创意和工作管理资产的统一存储层
 * 通过Adobe IMS集中管理权限以实现安全访问控制
-* 跨Workfront、Frame.io和Creative Cloud应用程序的端到端资源可见性<!--coming soon?-->
+* Workfront和Frame.io <!--, and Creative Cloud apps -->中的端到端资源可见性
 * 满足企业需求的可扩展存储和配额管理
 
 有关详细信息，请参阅[Adobe企业存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
@@ -60,7 +58,7 @@ Workfront和Frame.io集成使用Workfront的统一审批功能来管理审阅和
 
 #### 视频审查限制
 
-视频验证请求的年度上限设置为组织的总付费Workfront用户许可证（标准和轻量级）的10%。 此上限在组织级别应用。
+视频验证请求的年度上限设置为组织的Workfront付费用户许可证总数的10% — 标准和轻量级。 此上限在组织级别应用。
 
 当使用量达到上限的80%和100%时，Workfront管理员将收到通知。
 
@@ -72,9 +70,9 @@ Frame.io查看器支持所有常见视频、图像、音频、PDF和MS® Office�
 
 #### Frame.io查看器的访问和许可
 
-Frame.io查看器适用于拥有付费许可证的所有Workfront用户。 使用Frame.io查看器审阅和批准此集成不需要其他Frame.io许可证。
+Frame.io查看器是所有Workfront审阅和批准工作流的默认查看器。 它自动包含在具有付费许可证的所有Workfront用户中。 使用Frame.io查看器进行审阅和批准不需要其他Frame.io许可证。
 
-如果您的组织希望利用其他Frame.io功能（如将资产直接上传到Frame.io中的项目），则可以购买Frame.io企业许可证。 请联系您的Adobe客户代表以安排演示，并探索完整Frame.io解决方案的优势。
+如果您的组织希望利用此集成中提供的其他Frame.io功能（如将资产直接上传到Frame.io中的项目），则可以购买Frame.io企业许可证。 请联系您的Adobe客户代表以安排演示，并探索完整Frame.io解决方案的优势。
 
 Workfront校对功能在此集成中不可用。
 
@@ -94,24 +92,49 @@ Workfront校对功能在此集成中不可用。
 
 考虑到这些限制，Workfront会根据需要自动重命名对象或文档，以防止冲突。
 
+### 共享和权限
+
+作为集成的一部分，用户权限在Workfront中进行控制，并流向Frame.io。 这意味着您无法邀请用户加入Frame.io中的项目或修改Frame.io中的用户权限。 这些操作需要通过Workfront中的项目共享模式完成。
+
+下表显示了Workfront权限如何映射到Frame.io权限：
+
+<table>
+<tr>
+<th>Workfront用户权限</th>
+<th>Frame.io用户权限</th>
+</tr>
+<tr>
+<td>管理</td>
+<td>编辑和共享</td>
+</tr>
+<tr>
+<td>贡献</td>
+<td>编辑和共享</td>
+</tr>
+<tr>
+<td>视图</td>
+<td>仅注释</td>
+</tr>
+</table>
+
+
+
 ### Workfront中的文档管理
 
 文档通过此集成在项目级别进行管理，目前无法上传到任务或问题。
 
 文档访问也可在项目级别进行管理。 如果用户有权访问项目，则可以访问与该项目关联的所有文档。
 
-<!--Documents can't be dragged as full folders.-->
-
 ### 文档体验限制
 
-由于此集成是使用ESM构建的，因此Workfront中的原始文档体验存在一些限制：
+由于此集成是使用Adobe企业存储构建的，因此Workfront中的原始文档体验存在一些限制：
 
 #### 限制
 
 以下功能将不会包含在此集成中：
 
 <!--* External document providers-->
-* 访问验证
+* 在Workfront中访问校对
 * Workfront中的文档查看器
 * 收藏的文档
 * 请求文档
@@ -125,6 +148,3 @@ For now, the following capabilities are not available:
 * Multi-stage approvals
 * Upload documents to comments or updates in Workfront
 * Upload documents to tasks or issues in Workfront-->
-
-
-

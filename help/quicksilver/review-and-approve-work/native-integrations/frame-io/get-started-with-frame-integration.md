@@ -6,12 +6,10 @@ description: Frame.io集成入门。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
-source-git-commit: 19003988a8e164db225f8511f567d38e6eeaf627
+source-git-commit: 9825f095a7be7debb5150ca4bd50f7cf6fd12295
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -42,7 +40,7 @@ Workfront和Frame.io集成使创意人员、营销人员和利益相关者与无
 有关设置项目的更多信息，请参阅
 
 * [创建项目](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
-  <!--* [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)-->
+* [Frame.io集成概述](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
 
 ### 在Workfront中启动正式审查和批准
 
@@ -72,7 +70,7 @@ Workfront和Frame.io集成使创意人员、营销人员和利益相关者与无
 
 在Workfront中启动审阅和批准工作流后，审阅人和批准者可以访问Frame.io查看器以添加注释、标记资产并做出决策。
 
-<!--For more information, see [Review and approve with the Frame.io viewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md).-->
+有关详细信息，请参阅[使用Frame.io查看器审阅和批准](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md)。
 
 #### 访问Frame.io查看器
 
@@ -83,7 +81,7 @@ Workfront和Frame.io集成使创意人员、营销人员和利益相关者与无
 
 >[!NOTE]
 >
->外部Workfront用户会通过电子邮件收到通知，并被要求创建一个Frame.io登录名来查看和批准资源。<!--is this still accurate?-->
+>外部Workfront用户会通过电子邮件收到通知，并被要求创建一个Frame.io登录名来查看和批准资源。
 
 ![从主页打开帧查看器](assets/open-fio-viewwer.png)
 

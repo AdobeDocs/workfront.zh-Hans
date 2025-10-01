@@ -5,16 +5,14 @@ title: 使用Frame.io查看器审阅和批准
 description: 了解如何使用Frame.io查看器审阅和批准文档。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 601285fdbf26365dcaea14f990904d049816af21
+exl-id: 3190ad18-180e-42e5-aa10-bdad74303d3d
+source-git-commit: 9825f095a7be7debb5150ca4bd50f7cf6fd12295
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
-
 
 # 使用Frame.io查看器审阅和批准
 
@@ -22,11 +20,12 @@ ht-degree: 0%
 
 使用Frame.io查看器审阅Workfront文档时，您可以留下注释或标记文档、图像或视频的特定部分，以便与团队高效地协作，并确保反馈清晰且可操作。
 
-<!--For more information on the Frame.io integration with Workfront, see [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).-->
+有关Frame.io与Workfront集成的详细信息，请参阅[Frame.io集成概述](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)。
 
-## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
+<!--## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,28 +34,28 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p> 任何</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p> Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>请求或更高版本</p>
-   <p>参与者或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Request or higher</p>
+   <p>Contributor or higher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">访问级别配置</td> 
-   <td> <p>编辑对文档的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Documents</p>  </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">对象权限</td> 
-   <td> <p>编辑对与文档关联的对象的访问权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Edit access to the object associated with the document</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++ -->
 
 ## 审阅文档
 
@@ -64,14 +63,14 @@ ht-degree: 0%
 
 1. 转到审阅电子邮件通知，然后单击&#x200B;**转到审阅**。
 或
-转到Workfront主页，找到我的审批小组件，然后单击&#x200B;**打开审核**。
+转到Workfront主页，找到我的审批小组件，然后单击**打开审核**。
 
    >[!NOTE]
    > 
    >您可能需要将我的审批构件添加到您的主页。 有关详细信息，请参阅[添加、编辑或删除主页中的小组件](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)。
 
 1. 在Frame.io中，使用注释工具提供反馈或提出问题。
-注释和资产标记仅在Frame.io查看器中可见。 有关使用Frame.io查看器的详细信息，请参阅[在媒体上发表评论](https://help.frame.io/en/articles/9105251-commenting-on-your-media)。
+注释和资产标记仅在Frame.io查看器中可见。 评论未显示在Workfront中。 有关使用Frame.io查看器的详细信息，请参阅[在媒体上发表评论](https://help.frame.io/en/articles/9105251-commenting-on-your-media)。
 1. 对文档满意后，请导航回Workfront中的“文档详细信息”页面，并将您的审阅标记为完成。
 
    ![标记审阅完成](assets/mark-review-complete.png)
@@ -86,15 +85,14 @@ ht-degree: 0%
 
 1. 转到审阅电子邮件通知，然后单击&#x200B;**转到审阅**。
 或
-转到Workfront主页，找到我的审批小组件，然后单击&#x200B;**打开审核**。
+转到Workfront主页，找到我的审批小组件，然后单击**打开审核**。
 
    >[!NOTE]
    > 
    >您可能需要将我的审批构件添加到您的主页。 有关详细信息，请参阅[添加、编辑或删除主页中的小组件](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)。
 
 
-1. 在Frame.io中，使用注释工具提供反馈或提出问题。
-注释和资产标记仅在Frame.io查看器中可见。 有关使用Frame.io查看器的详细信息，请参阅[在媒体上发表评论](https://help.frame.io/en/articles/9105251-commenting-on-your-media)。
+1. 在Frame.io中，使用注释工具提供反馈或提出问题。 注释和资产标记仅在Frame.io查看器中可见。 有关使用Frame.io查看器的详细信息，请参阅[在媒体上发表评论](https://help.frame.io/en/articles/9105251-commenting-on-your-media)。
 1. 对文档满意后，您可以在Frame.io查看器中选择以下决策之一：
 
    * **批准**：该资产不需要更改，可以随时使用。
@@ -109,4 +107,3 @@ ht-degree: 0%
 
 
 <!--is document owner the correct term?-->
-

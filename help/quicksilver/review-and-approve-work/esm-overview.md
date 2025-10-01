@@ -5,16 +5,14 @@ title: Adobe企业存储概述
 description: Adobe企业存储概述
 author: Courtney
 feature: Work Management, Digital Content and Documents
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d24773df7eede3140eeecdea7f1c33b8466e887a
+exl-id: 16c564a9-abd7-4b07-be3e-9c823f40177d
+source-git-commit: e908d0ffd1a3397dead5909942b2b0bedb91ae1c
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
-
 
 # Adobe企业存储概述
 
@@ -40,4 +38,4 @@ Adobe企业存储是一种基于云的存储解决方案，它用作Adobe企业�
 
 Workfront和Frame.io集成利用Adobe企业存储以提供统一的审查和批准体验。 此集成允许项目协调员在Workfront中管理项目和计划工作，而创意人员、营销人员和利益相关者可以在Frame.io中查看和批准资源。 这可确保所有利益相关者均有权访问最新版本的资产，并将反馈集中到一处。
 
-<!--For more information about the Workfront and Frame.io integration, see [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).-->
+有关Workfront与Frame.io集成的详细信息，请参阅[Frame.io集成概述](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)。

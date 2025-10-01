@@ -8,9 +8,9 @@ feature: Work Management
 hide: true
 hidefromtoc: true
 exl-id: 230d8e62-a3c9-4e38-9b26-5ba1c4f56391
-source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
+source-git-commit: 321449202f629f75464870bea7fa3db8b4c0e0cb
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1168'
 ht-degree: 1%
 
 ---
@@ -68,7 +68,6 @@ ht-degree: 1%
 * 在Workfront设置区域中设置默认的Frame.io帐户
 * 在Workfront用户配置文件中启用Frame.io用户
 
-有关上述先决条件的更多信息，请参阅[配置 [!DNL Workfront] 和 [!DNL Frame.io] 集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md)。
 
 
 ## 创建新项目模板
@@ -104,7 +103,7 @@ Frame.io中的项目由连接到Workfront组的团队组织。 我们建议使�
 
    或
 
-   单击&#x200B;**新建模板任务**&#x200B;以一次添加一个任务并配置其他设置。
+   单击&#x200B;**新建模板任务**以一次添加一个任务并配置其他设置。
    ![将任务添加到模板](assets/add-tasks-to-template.png)
 1. 添加任务名称。
 1. 在&#x200B;**工作**&#x200B;区域，分配用户或团队。 如果单独或在团队中分配启用了Frame.io的用户，则会授予他们访问Frame.io项目的协作者权限，并通过电子邮件通知他们有关Frame.io项目中的任务的信息。 从该电子邮件中，他们可以加入Frame.io项目并开始工作。
@@ -175,7 +174,7 @@ Workfront具有强大的项目管理功能。 我们建议使用[编辑项目模
 
    或
 
-   单击&#x200B;**新建任务**&#x200B;以一次添加一个任务并配置其他设置。
+   单击&#x200B;**新建任务**以一次添加一个任务并配置其他设置。
    ![新任务](assets/add-project-tasks.png)
 1. 添加任务名称。
 1. 在&#x200B;**工作**&#x200B;区域，分配用户或团队。 如果单独或在团队中分配启用了Frame.io的用户，则会授予他们访问Frame.io项目的协作者权限，并通过电子邮件通知他们有关Frame.io项目中的任务的信息。 从该电子邮件中，他们可以加入Frame.io项目并开始工作。
