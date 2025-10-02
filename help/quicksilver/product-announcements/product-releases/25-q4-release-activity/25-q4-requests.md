@@ -16,15 +16,15 @@ ht-degree: 0%
 
 本页介绍了在2025年第四季度版本中对“预览”环境所做的请求增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2025年第四季度发布周期中此时可用的所有更改列表，请参阅[ 2025年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)。
+有关2025年第四季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2025年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)。
 
 ## 在请求区域创建和保存视图
 
 >[!NOTE]
 >
 >预览： 2025年10月2日
->>生产快速发布： 2025年10月15日
->>为每个人生产： 2025年10月16日
+>&#x200B;>生产快速发布： 2025年10月15日
+>&#x200B;>为每个人生产： 2025年10月16日
 
 为了更便于查看您需要的信息，我们在请求区域添加了创建和保存视图的功能。 现在，您可以保存视图（包括筛选器和列配置），并在视图之间切换。 Workfront管理员可以将新视图添加到布局模板。
 
