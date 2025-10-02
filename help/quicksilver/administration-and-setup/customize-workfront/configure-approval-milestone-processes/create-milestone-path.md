@@ -118,7 +118,7 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
 
 1. 单击左侧面板中的&#x200B;**里程碑**。
 
-1. 在生产环境中，单击&#x200B;**添加里程碑**以将里程碑添加到路径中。
+1. 在生产环境中，单击&#x200B;**添加里程碑**&#x200B;以将里程碑添加到路径中。
    <span class="preview">在“预览”环境中，单击&#x200B;**新行**&#x200B;以将里程碑添加到路径中。</span>
 1. 更新以下信息：
 
