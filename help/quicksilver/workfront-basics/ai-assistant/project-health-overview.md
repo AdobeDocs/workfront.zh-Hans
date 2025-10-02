@@ -5,9 +5,9 @@ description: 项目运行状况功能利用AI Assistant的强大功能即时为�
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: 1b0d47178085b6d971342a6a77d3341776ef62e6
+source-git-commit: 81f2787a5a9dd4f3737f3494c824502fe4abe59d
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1487'
 ht-degree: 2%
 
 ---
