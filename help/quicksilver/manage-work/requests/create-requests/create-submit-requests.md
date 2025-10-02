@@ -6,7 +6,7 @@ description: 在Adobe Workfront中，计划工作由项目和任务表示。 但
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 71149623643b1f08b88fdf8f5aaeb5d9b284d53f
+source-git-commit: 70f6200fc94bc923c651d614dfd0aba68ceda334
 workflow-type: tm+mt
 source-wordcount: '2840'
 ht-degree: 1%
@@ -155,7 +155,7 @@ Workfront管理员必须创建请求队列的以下组件：
    单击某个Workfront请求队列路径或表单，或者搜索其中一个路径或表单，然后在列表中显示时单击它。
 1. <span class="preview">（视情况而定）如果您切换到新Experience，请选择一个Workfront请求队列路径或表单，或者单击搜索栏。</span>
 
-   <span class="preview">单击搜索栏时，将出现一个下拉列表，首先显示最近使用的队列和表单。 从列表中选择一个，或开始键入并在队列或列表出现时将其选定。</span>
+   <span class="preview">单击搜索栏时，将出现一个下拉列表，首先显示最近使用的队列和表单。 从列表中选择一个队列，或开始键入并在队列或表单出现时将其选定。</span>
 
    >[!NOTE]
    >
