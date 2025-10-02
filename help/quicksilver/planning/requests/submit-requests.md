@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: b24b1e481bbe726aaf9810124fcf55bdac866cb0
+source-git-commit: 3942ba8d626a854344624bc5b7ea3ad01e8ad7fb
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '2075'
 ht-degree: 0%
 
 ---
@@ -149,8 +149,8 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 
 {{step1-to-requests}}
 
-1. 启用屏幕右上角的&#x200B;**切换到新体验**&#x200B;设置。
-启用此设置可使Workfront计划请求表单在Workfront的&#x200B;**请求**&#x200B;区域中可用。
+1. 启用屏幕右上角的&#x200B;**切换到新体验**设置。
+启用此设置可使Workfront计划请求表单在Workfront的**请求**&#x200B;区域中可用。
 
    >[!TIP]
    >
@@ -214,7 +214,7 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 
 1. （可选）在确认消息中单击&#x200B;**查看您的请求**&#x200B;以打开该请求，或单击&#x200B;**X**&#x200B;图标以关闭确认。
 
-1. （可选）单击&#x200B;**请求**&#x200B;区域中的&#x200B;**计划**&#x200B;选项卡以查看您的请求。
+1. （可选）单击&#x200B;**请求**&#x200B;区域中的&#x200B;**计划**选项卡以查看您的请求。
 提交至Planning请求表单的所有您有权查看的请求都会显示在列表中。
 1. （可选）执行以下任一操作：
 
@@ -231,7 +231,7 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
       * **状态**：请求的状态。
       * **输入者**：添加请求的用户的名称。 如果请求是由Workfront之外的人员添加的，则&#x200B;**输入者**&#x200B;字段显示`N/A`。
 
-        您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的筛选器。
+        您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**加入的筛选器。
 在添加筛选条件时，将自动筛选请求列表。
 
    * 单击&#x200B;**列**&#x200B;并隐藏、显示或重新排列请求列表中的列。
@@ -251,7 +251,14 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 
    ![请求详细信息页面](assets/request-details-page.png)
 
+   <div class="preview">
+      在预览中：
 
+   ![请求带有注释的页面](assets/new-request-page-with-comment.png)
+
+   </div>
+
+1. <span class="preview">（可选）在“注释”区域输入注释。
 1. （视情况而定）如果请求表单未与批准关联，或者请求已获批准，请单击请求的名称，然后单击&#x200B;**记录**&#x200B;字段中的记录名称。
 
    记录页面将在Workfront Planning中打开。
@@ -315,6 +322,14 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 
    ![请求详细信息页面](assets/request-details-page.png)
 
+   <div class="preview">
+   在预览中：
+
+   ![请求带有注释的页面](assets/new-request-page-with-comment.png)
+
+   </div>
+
+1. <span class="preview">（可选）在“注释”区域输入注释。
 1. （视情况而定）如果请求表单未与批准关联，或者请求已获批准，请单击请求的名称，然后单击&#x200B;**记录**&#x200B;字段中的记录名称。
 
    记录页面将在Workfront Planning中打开。
