@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: 3c21d2ac594d4dfe309ed4227e46a9cb535f0501
+source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -18,20 +18,34 @@ ht-degree: 0%
 
 有关2025年第四季度发布周期中此时可用的所有更改列表，请参阅[ 2025年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)。
 
-## 统一请求列表中新的组合状态列
+## 在请求区域创建和保存视图
 
 >[!NOTE]
 >
->* 预览： 2025年8月28日
->* 生产快速发布： 2025年9月11日
->* 适用于所有客户的生产： 2025年10月16日
+>预览： 2025年10月2日
+>>生产快速发布： 2025年10月15日
+>>为每个人生产： 2025年10月16日
 
-为简化统一请求体验，“状态”列现在同时显示“请求状态”和“审批状态”（视适用于给定请求而定）。
+为了更便于查看您需要的信息，我们在请求区域添加了创建和保存视图的功能。 现在，您可以保存视图（包括筛选器和列配置），并在视图之间切换。 Workfront管理员可以将新视图添加到布局模板。
 
-有关创建请求的更多信息，请参阅：
+以前，无法保存筛选器和列配置。
 
-* 对于Workfront： [创建并提交请求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
-* 对于Workfront Planning： [提交Adobe Workfront Planning请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)
+有关信息和说明，请参阅[在请求区域创建视图](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)。
+
+<!--## New combined Status column in unified Request list 
+
+>[!NOTE]
+>
+>* Preview: August 28, 2025
+>* Production fast release: September 11, 2025
+>* Production for all customers: October 16, 2025
+
+To simplify the unified request experience, the Status column now displays both Request Status and Approval Status, whichever applies to a given request.
+
+For more information on creating requests see:
+
+* For Workfront: [Create and submit requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
+* For Workfront Planning: [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)-->
 
 ## 更新了请求体验
 

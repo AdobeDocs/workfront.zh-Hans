@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 681d83661aff2c0484521ee11c8899dca14e65ed
+source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
 workflow-type: tm+mt
-source-wordcount: '8031'
+source-wordcount: '8402'
 ht-degree: 0%
 
 ---
@@ -24,19 +24,39 @@ ht-degree: 0%
 
 ## 管理和设置
 
-<!--### Interface updates when adding or editing group timesheet profiles
+### “新建里程碑路径”框和“编辑里程碑路径”框的新界面和功能
 
-**Preview release: September 25, 2025; Production release: October 2, 2025**
+**预览版本： 2025年10月2日；生产版本：从2025年10月9日开始的一周开始**
 
-We have updated the look and feel of the Timesheet Profile page when editing or adding a group timesheet profile.
+“新建里程碑路径”和“编辑里程碑路径”框现在具有新界面。 里程碑路径列表具有新外观，此区域中的某些功能可能已更改。
 
-To view these changes, go to Setup > Groups > select a group name > Timesheet Profiles and either add a new profile, or edit an existing one.
+有关信息，请参阅[创建里程碑路径](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)。
 
-For more information, see [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md). -->
+### 添加或编辑组时间表配置文件时界面更新
+
+**预览版本： 2025年9月30日；生产版本：从2025年10月2日起的一周开始**
+
+在编辑或添加组时间表配置文件时，我们更新了“时间表配置文件”页面的外观。
+
+要查看这些更改，请转到设置>组>选择组名称>时间表配置文件，然后添加新配置文件或编辑现有配置文件。
+
+有关详细信息，请参阅[创建、编辑和分配时间表配置文件](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)。
+
+
+### “状态”列表的界面更新
+
+**预览版本： 2025年10月2日；生产版本： 2025年10月9日**
+
+我们更新了Status列表的外观，以与应用程序其他区域中的设计相匹配。
+
+此更新会影响：
+
+* “设置”>“项目首选项”下的“状态”区域
+* 查看组时状态为
 
 ### “设置”中“严重程度”区域的界面更新
 
-**预览版本： 2025年9月25日；生产版本： 2025年10月2日**
+**预览版本： 2025年9月25日；生产版本： 2025年10月9日**
 
 我们更新了“严重程度”页面，使其设计更加现代化，与Workfront的其他区域保持一致。
 
@@ -48,7 +68,7 @@ For more information, see [Create, edit, and assign timesheet profiles](/help/qu
 
 ### 设置中优先级区域的界面更新
 
-**预览版本： 2025年9月25日；生产版本： 2025年10月2日**
+**预览版本： 2025年9月25日；生产版本： 2025年10月9日**
 
 我们更新了“优先级”页面，更新了与Workfront其他区域一致的更加现代的设计。
 
@@ -208,6 +228,38 @@ For more information, see [Create, edit, and assign timesheet profiles](/help/qu
 
 ## 项目
 
+### 记帐费率的界面更新
+
+**预览版本： 2025年10月2日；生产版本：从2025年10月9日开始的一周开始**
+
+我们更新了项目上“计费费率”页面的外观，以匹配应用程序的其他方面。 用于添加和编辑计费率的对话框也已更新。
+
+要查看此更改，请转到项目>记帐费率。
+
+有关信息，请参阅[覆盖项目级别](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)的工作角色记帐费率。
+
+### 应用里程碑视图时，项目列表或报告的界面更新
+
+**预览版本： 2025年10月2日；生产版本：从2025年10月9日开始的一周开始**
+
+在对项目列表或报告应用里程碑视图时，我们更新了它们的外观。
+
+项目列表或报表现在与Workfront其他区域的设计相匹配。 有关信息，请参阅[使用里程碑视图](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)。
+
+<!--### Interface updates for the Edit Tasks box
+
+**Preview release: October 2, 2025; Production release: Starting the week of October 9, 2025**
+
+ We have updated the look and feel of the Edit Tasks box when editing tasks in bulk. The Edit Tasks box now matches the design of a single-task Edit box.   
+
+The following changes are included in this update: 
+
+*There is a new experience for assigning resources to tasks, when editing a single task and when editing tasks in bulk.  
+
+*The Resource Scope field has been removed from the Edit task box.  
+
+For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).-->
+
 ### 批量编辑模板时界面更新
 
 **预览版本： 2025年9月18日；生产版本： 2025年9月25日**
@@ -215,14 +267,6 @@ For more information, see [Create, edit, and assign timesheet profiles](/help/qu
 在从模板列表中批量编辑模板时，我们更新了“编辑模板”框的外观。 编辑模板框上的信息组织现在与单模板编辑框匹配。
 
 有关信息，请参阅[编辑项目模板](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md)。
-
-<!--### Interface updates for a project list or report when applying the Milestone view
-
-**Preview release: September 11, 2025; Production release: September 18, 2025**
-
-We have updated the look and feel of a project list or report when you apply the Milestone view to them.
-
-The project list or report now matches the design of other areas of Workfront. For information, see [Use the Milestone view](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).-->
 
 ### “将任务转换为没有模板的项目”的界面更改
 
@@ -427,16 +471,15 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 * [创建路由规则](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)。
 
 
-
 ## 用户
 
-<!--### Interface updates for the User Details page
+### “用户详细信息”页面的界面更新
 
-**Preview release: September 25, 2025; Production release: October 2, 2025**
+**预览版本： 2025年10月2日；生产版本： 2025年10月9日**
 
-We have updated the look and feel of the User Details page to match other areas of the application.
+我们更新了“用户详细信息”页面的外观，以匹配应用程序的其他区域。
 
-You can view the updated design by going to Users, selecting a user, and clicking Details in the left panel.-->
+您可以转到用户，选择一个用户，然后单击左侧面板中的详细信息来查看更新的设计。
 
 ### 个人休假的界面更新
 
@@ -791,7 +834,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 ### Workfront功能板中不再支持包含/tile或/qstile的URL
 
-**预览版本： 5月13日；生产版本：即将宣布**
+**预览版本： 5月13日；生产版本：从2025年5月20日开始**
 
 如果您在仪表板上有一个外部页面，该页面的Workfront URL包含`/tile`或`/qstile`，则不会再加载该页面。
 
