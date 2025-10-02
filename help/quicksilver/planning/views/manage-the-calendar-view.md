@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '1874'
+source-wordcount: '1895'
 ht-degree: 4%
 
 ---
@@ -141,18 +141,11 @@ ht-degree: 4%
 
      <span class="preview">有关信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。</span>
 
-   * <span class="preview">在日历每月视图中，单击记录栏的末尾，然后将其拖放到新位置。 调整记录栏的大小会立即更新其开始和结束日期。</span> <!--when resizing in the calendar weekly view is released, modify the sentence above to take out 'monthly', since it will be available in both-->
+   * <span class="preview">单击记录栏的左边距或右边距，然后将其拖放到新位置。 调整记录栏的大小会立即更新其开始或结束日期。</span>
+
+   * <span class="preview">拖放记录栏以更新其位置和日期。 移动记录的栏会立即更新其开始和结束日期。</span>
 
      <span class="preview">有关信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。</span>
-
-   <!--ADD ONE OF THE FOLLOWING DEPENDING ON WHAT RELEASES: 
-    Scenario 1: drag and drop in the calendar weekly view: 
-    * <span class="preview">In the weekly calendar view, drag and drop records to update their position and dates in the timeline.</span>
-    Scenario 2: drag and drop in the calendar monthly view: 
-    * <span class="preview">In the monthly calendar view, drag and drop records to update their position and dates in the timeline.</span>
-    Scenario 3: drag and drop in the calendar view (both weekly and monthly are supported): 
-    * <span class="preview">Drag and drop records to update their position and dates in the timeline.</span>
-        <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>-->
 
 1. 更新以下视图元素，如以下子部分所述：
    * [过滤器](#add-filters)

@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: f98dd9c4bbb342e20ef77690ef20b0b14f5e9b6b
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '3723'
+source-wordcount: '3810'
 ht-degree: 3%
 
 ---
@@ -26,12 +26,22 @@ ht-degree: 3%
 </div>
 -->
 
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
+
 
 您可以编辑有关已创建、具有Contribute或Manage权限的任务的信息。
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,8 +53,8 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>新增：标准</p>
-   <p>当前：工作或更高</p> </td> 
+   <td> <p>标准</p>
+   <p>工作或更高</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别</td> 
@@ -183,6 +193,7 @@ ht-degree: 3%
    * [自定义表单](#Custom%C2%A0F)
    * [财务](#finance)
    * [设置](#settings)
+   * [评论](#comment)
 
    >[!NOTE]
    >
@@ -399,7 +410,7 @@ ht-degree: 3%
       <td>缩写</td> 
       </tr> 
       <tr> 
-      <td>分钟</td> 
+      <td>Minutes</td> 
       <td>一</td> 
       </tr> 
       <tr> 
@@ -411,11 +422,11 @@ ht-degree: 3%
       <td>D</td> 
       </tr> 
       <tr> 
-      <td>周</td> 
+      <td>Weeks</td> 
       <td>星期-</td> 
       </tr> 
       <tr> 
-      <td>月</td> 
+      <td>Months</td> 
       <td>T</td> 
       </tr> 
       <tr> 
@@ -605,9 +616,23 @@ ht-degree: 3%
    </table>
     </li>
 
-1. 单击&#x200B;**保存**。
+1. 单击&#x200B;**保存**&#x200B;或继续下面的部分。
 
 <!--notes from the table: <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)</p>       -->
+
+### 评论
+
+1. 开始编辑您的任务，如本文的[编辑任务](#Edit2)部分所述。
+1. 单击左侧面板中的&#x200B;**注释**。
+
+   ![编辑任务框上的评论部分](assets/comment-section-on-edit-task-box.png)
+
+1. 在提供的空间中添加更新。
+1. （可选）将以下项之一添加到更新中：
+
+   * 在&#x200B;**标记人员**&#x200B;区域将用户或团队添加到您的更新，或使用@将其包含在您的更新中。
+   * 选中&#x200B;**我的公司私有**&#x200B;复选框，将更新设为公司内部人员的私有。
+1. 单击&#x200B;**保存**。
 
 ## 在任务标题中编辑任务（受限）
 

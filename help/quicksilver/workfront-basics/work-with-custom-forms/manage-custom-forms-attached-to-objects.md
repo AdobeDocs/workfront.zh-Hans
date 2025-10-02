@@ -6,16 +6,16 @@ description: 您可以更新附加到某个对象的自定义表单的显示顺�
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 322257a21f5d415b0ac04e6944c4aaa53fc3ab3b
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1054'
 ht-degree: 0%
 
 ---
 
 # 管理附加到对象的自定义表单
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它适用于“预览”环境中的所有客户和“生产”环境中的选定客户组。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 您可以更新附加到某个对象的自定义表单的显示顺序、删除它们或批量编辑自定义表单在多个对象上的显示方式。
 

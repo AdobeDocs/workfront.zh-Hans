@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '2752'
+source-wordcount: '2764'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,12 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 本文介绍了如何将两个Workfront Planning记录类型或Workfront Planning记录类型与另一个应用程序中的对象连接。
 
-在记录或对象类型之间建立连接后，可以将各个记录相互连接，并在Workfront Planning记录上显示链接记录或对象类型中的字段。
+在记录或对象类型之间建立连接后，连接字段将添加到Planning记录类型中。 在连接字段中，可以将各个记录相互连接，并在Workfront Planning记录上显示链接记录或对象类型中的字段。
+
+<!--
+>[!CAUTION]
+>
+><span class="preview">One record type can have up to 30 connection fields.</span>-->
 
 有关连接类型的一般信息，请参阅[连接的记录类型概述](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
 
@@ -126,36 +131,35 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 1. 单击记录类型的卡以打开记录类型页面。
 1. 单击表格视图右上角的&#x200B;**+**&#x200B;图标，然后单击“**新建连接**”选项卡。
 
-   ![使用Workfront AEM选项新建连接选项卡](assets/new-connection-tab-with-workfront-aem-options.png)
+   ![使用Workfront AEM选项新建连接选项卡](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
 
-1. 在&#x200B;**记录类型**&#x200B;字段中，搜索记录类型，或选择以下选项之一：
+1. 搜索记录类型，或选择以下选项之一：
 
-   * 当前工作区中的其他记录类型
+   * <span class="preview">来自当前工作区的记录类型</span>
 
-     ![多对多连接选取器](assets/many-to-many-connection-picker.png)
+     <span class="preview">![相同工作区记录类型的多选连接选取器](assets/multi-select-connection-picker-record-type.png)</span>
 
      >[!TIP]
      >
      > 
      >如果所选工作区中没有其他记录类型，则不会显示工作区部分。
 
-
    * 另一个工作区中配置为从其他工作区连接的记录类型。
 
      >[!TIP]
      >
-     >必须在&#x200B;**编辑记录类型**&#x200B;框的&#x200B;**高级设置**&#x200B;选项卡中为记录类型启用&#x200B;**允许连接到其他工作区中的此记录类型**&#x200B;设置，才能从其他工作区访问记录类型。 如果没有配置为从其他工作区连接的记录类型，则不会显示工作区部分。
+     >必须在&#x200B;**编辑记录类型**&#x200B;框的&#x200B;**高级设置**&#x200B;选项卡中为记录类型启用&#x200B;**允许连接到其他工作区中的此记录类型**设置，才能从其他工作区访问记录类型。 如果没有配置为从其他工作区连接的记录类型，则不会显示工作区部分。
      > ![编辑记录类型框高级设置选项卡](assets/edit-record-type-box-advanced-settings-tab.png)
 
      有关信息，请参阅[编辑记录类型](/help/quicksilver/planning/architecture/edit-record-types.md)。
 
-     ![新连接以允许多个记录框](assets/new-connection-allow-multiple-records-box.png)
+     ![新连接以允许多个记录框](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
 
-   * 来自&#x200B;**Workfront对象类型**&#x200B;部分的&#x200B;**项目、Portfolio、项目群、公司**&#x200B;或&#x200B;**组**。
+   * <span class="preview">Workfront对象类型&#x200B;**部分中的**&#x200B;项目、Portfolio、计划、公司&#x200B;**或**&#x200B;组&#x200B;**。**</span>
 
-     ![Workfront项目连接选择](assets/workfront-project-connection-selection.png)
+     <span class="preview">![Workfront项目连接选择](assets/multi-select-connection-picker-project.png)</span>
 
-   * 来自&#x200B;**Experience Manager Assets应用程序**&#x200B;部分的&#x200B;**Adobe**。
+   * 来自&#x200B;**Experience Manager Assets应用程序**&#x200B;部分的&#x200B;**Adobe**。<!--update screen shot??-->
 
      ![AEM Assets连接选择](assets/aem-assets-connection-selection.png)
 
@@ -170,7 +174,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 1. 通过添加有关连接的记录字段的信息来更新&#x200B;**描述**&#x200B;字段。 当您将鼠标悬停在表中的字段列上时，将显示字段的描述。
 1. （视情况而定）当您从两个不同的工作区或一个记录和Adobe Experience Manager资源对象连接记录类型时，请选择&#x200B;**允许多个记录**。 如果选择该字段，即表示当原始记录中显示“连接的记录类型”字段时，允许用户添加多个记录。 默认情况下，该选项处于选中状态。
 
-   ![新连接以允许多个记录框](assets/new-connection-allow-multiple-records-box.png)
+   ![从另一个工作区新建记录类型连接](assets/new-connection-allow-multiple-records-box.png)
 
 1. （视情况而定）当从同一工作区连接记录类型或具有Workfront对象类型的Planning记录类型时，根据您使用的环境，执行以下操作之一：
 
@@ -197,6 +201,8 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
          >
          >一种记录类型最多有500个字段。 我们建议将此设置保持关闭（特别是对于分类记录类型），以避免达到此限制。
 
+         <!--<span class="preview">There is a limit of 30 connected fields for a record type.</span>-->
+
       3. （视情况而定）如果启用&#x200B;**在链接的记录类型**&#x200B;上创建对应的字段，则从以下选项中进行选择，以指示用户可以连接到多少条记录，也可以从多少条记录进行连接：
 
          * 多对多
@@ -222,7 +228,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    >[!NOTE]
    >
-   >Workfront管理员可以通过Workfront中的元数据映射，将Workfront Planning字段映射到Experience Manager Assets字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+   >Workfront管理员可以通过Workfront中的元数据映射，将Workfront Planning字段映射到Experience Manager Assets字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
 
 1. （视情况而定）当您选择连接到Experience Manager Assets或Workfront Planning记录类型时，请在&#x200B;**记录外观**&#x200B;区域中选择以下选项之一：

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '2308'
+source-wordcount: '2434'
 ht-degree: 1%
 
 ---
@@ -182,7 +182,7 @@ ht-degree: 1%
 
      或
 
-     单击&#x200B;**下移**&#x200B;以将节下移一个位置。
+     单击&#x200B;**下移**以将节下移一个位置。
 部分中的所有字段都会随部分一起移动。
 
    * 单击&#x200B;**删除**&#x200B;以删除该节。 该部分已被删除，无法恢复。 访问此类型记录的所有用户将不再查看已删除的分区。
@@ -332,7 +332,22 @@ ht-degree: 1%
 
      有关编辑表视图中的记录的信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
 
-   * 在“连接的记录”页上的表中内联编辑任何记录。 在“生产”环境中，所有Workfront对象都以只读表格视图显示，您无法对其进行编辑。 <span class="preview">您可以在“预览”环境中内联编辑Workfront项目。</span>
+   * 在“连接的记录”页上的表中内联编辑任何记录。
+
+     在“生产”环境中，所有Workfront对象都以只读表格视图显示，您无法对其进行编辑。
+
+     <span class="preview">在“预览”环境中，您可以在连接的记录页面中内联编辑项目。</span>
+
+1. <span class="preview">（视情况而定）在查看连接的项目列表时，执行以下任一操作：</span>
+
+   * <span class="preview">单击已连接记录页面右上角的&#x200B;**连接记录**&#x200B;以连接现有项目。</span>
+   * <span class="preview">在表中内联编辑项目信息。</span>
+   * <span class="preview">单击&#x200B;**新行**&#x200B;以创建没有模板的项目。</span>
+
+     有关详细信息，请参阅将Workfront对象连接到记录时[从Workfront Planning创建对象](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+   * <span class="preview">将鼠标悬停在项目上并单击&#x200B;**更多**&#x200B;菜单[更多](assets/more-menu.png)，然后单击以下任一项：</span>
+      * <span class="preview">**删除**&#x200B;以删除项目。 删除项目会断开它与记录的连接，并将其移至Workfront回收站。</span>
+      * <span class="preview">**断开连接**&#x200B;以断开项目与记录的连接。 正在断开项目</span>的连接
 
 1. （可选）双击“连接的记录”页选项卡的名称
 
@@ -356,7 +371,7 @@ ht-degree: 1%
 1. （视情况而定）要连接多个记录或对象，请执行下列操作之一：
 
    * 单击表底部的&#x200B;**连接**&#x200B;以添加或删除记录或除项目之外的任何Workfront对象<span class="preview">。</span>
-   * <span class="preview">在“预览”环境中，单击“连接的记录”页面右上角的&#x200B;**连接记录**，或单击表底部的&#x200B;**新行**&#x200B;以添加或删除项目。</span>
+   * <span class="preview">在“预览”环境中，单击“连接的记录”页面右上角的&#x200B;**连接记录**&#x200B;以连接现有项目，或者单击表底部的&#x200B;**新行**&#x200B;以创建项目并自动将它们连接到当前记录。</span>
 
    有关信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。
 1. （可选）将鼠标悬停在“连接的记录”页选项卡的名称上，单击&#x200B;**更多** ![更多菜单](assets/more-menu.png)，然后单击&#x200B;**删除**&#x200B;以移至“选项卡”。

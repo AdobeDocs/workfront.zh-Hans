@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 3%
+source-wordcount: '889'
+ht-degree: 2%
 
 ---
 
@@ -26,6 +26,14 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+
+<div class="preview">
+
+此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 从“预览”版本开始的一周后，生产环境中所有客户也可以使用相同的功能。
+
+有关详细信息，请参阅[接口现代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+
+</div>
 
 作为Adobe Workfront管理员，您可以创建里程碑路径，这些路径随后可以应用于系统中的任何项目。 您对此区域中的里程碑路径所做的更改会影响整个Workfront系统。
 
@@ -45,14 +53,18 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td>规划</td> 
+   <td><p>标准</p>
+   <p>规划</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>您必须是Workfront管理员。</p> <p><b>注意</b>：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td> <p>您必须是Workfront管理员。</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -72,7 +84,18 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
 
 1. 单击&#x200B;**进程** > **里程碑路径**。
 1. 单击&#x200B;**新建里程碑路径。**
-1. 在&#x200B;**基本信息**&#x200B;区域中指定以下信息：
+
+   <div class="preview">
+
+   “新建里程碑路径”框打开。
+
+   ![新里程碑路径框](assets/new-milestone-path-box.png)
+
+   </div>
+
+1. 单击左侧面板中的&#x200B;**基本信息**。
+
+   更新以下信息：
 
    <table style="table-layout:auto">
     <tr>
@@ -93,7 +116,10 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
     </tr>
    </table>
 
-1. 在&#x200B;**里程碑**&#x200B;区域中指定以下信息：
+1. 单击左侧面板中的&#x200B;**里程碑**。
+1.在生产环境中，单击**添加里程碑**以将里程碑添加到路径中。
+   <span class="preview">在“预览”环境中，单击&#x200B;**新行**&#x200B;以将里程碑添加到路径中。</span>
+1. 更新以下信息：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -114,15 +140,14 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
     </tbody> 
    </table>
 
-1. 单击&#x200B;**添加里程碑**&#x200B;并根据需要继续添加里程碑，直到路径完成。
-
+1. （可选）拖放每个里程碑以对其进行重新排序。
 1. 单击&#x200B;**创建里程碑路径**&#x200B;以保存更改。
 
    您的里程碑路径已准备好与项目关联。
 
    有关如何将里程碑路径与项目关联以及将里程碑与任务关联的更多信息，请参阅[将里程碑与任务关联](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)。
 
-
+1. （可选）从“里程碑路径”列表中选择一个里程碑，然后单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)以打开里程碑路径并编辑其信息。
 1. （可选）单击&#x200B;**导出**&#x200B;图标![导出图标](assets/export-icon.png)，然后从以下格式中选择以将里程碑路径列表导出到文件：
 
    * PDF
@@ -130,10 +155,12 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
    * Excel (xlsx)
    * 制表符分隔
 
-1. （可选）在里程碑列表中选择一个里程碑，然后单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)以编辑里程碑信息。
-1. （可选）在里程碑列表中选择一个里程碑，然后单击&#x200B;**删除**&#x200B;图标![删除图标](assets/delete-icon.png)将其删除。
+1. （可选）在里程碑列表中选择一个或多个里程碑，然后单击&#x200B;**删除**&#x200B;图标![删除图标](assets/delete-icon.png)以将其删除。
 1. 单击&#x200B;**是，将其删除**。
-该里程碑已被删除并且无法恢复。 与里程碑关联的任何项目信息以及与里程碑路径关联的任何任务信息也会被删除。
+
+   该里程碑已被删除并且无法恢复。 里程碑路径将从以前与其关联的任何项目中移除，并且所有里程碑都将从与其关联的任务中移除。
+
+   无法恢复已删除的里程碑。
 
 
 ## 在项目报告中查看里程碑路径详细信息
