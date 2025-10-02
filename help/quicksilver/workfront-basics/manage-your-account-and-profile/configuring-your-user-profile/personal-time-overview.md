@@ -58,7 +58,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>具有[！UICONTROL Edit User]访问权限的[！UICONTROL Manager] （更改其他用户的休息日日历）<br>
+   <td>具有[!UICONTROL Edit User]访问权限的[!UICONTROL Manager] （更改其他用户的休息日日历）<br>
    <strong>注意：</strong>如果经理编辑另一个用户的个人休息时间日历，则所有条目都按用户的时区显示，而不是按经理的时区显示。</td> 
   </tr> 
  </tbody> 
