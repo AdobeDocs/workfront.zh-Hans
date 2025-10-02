@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: configure-your-user-profile
 title: 创建自定义分区
 description: 默认情况下，您在 [!DNL Workfront] Web应用程序中看到的信息通常显示在左侧面板的部分中。 每个部分包含有关 [!DNL Workfront] 区域或对象的不同信息。
-author: Courtney
+author: Becky
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: ac34076ddc0b5815c262a61326534a1241c17a4c
+source-git-commit: ccaf637601c53e5d92dd3357fb07e84b5fd69166
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 1%
@@ -57,11 +57,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[!UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[！UICONTROL Review]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td>[!UICONTROL Reviewer]或更高版本</td> 
+   <td>[！UICONTROL Reviewer]或更高版本</td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 

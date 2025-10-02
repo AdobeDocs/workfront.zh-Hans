@@ -7,18 +7,18 @@ description: 在Adobe Workfront中指明何时发生批准的休息时间非常�
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: e0f6078cfab1b325302dbda8a656d2a65ee0b95c
+source-git-commit: ce2f1ebe7ea97f3c25ac6a7ef33fd3c066727220
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
 
 # 配置个人休息时间
 
-{{highlighted-preview}}
-
 <!-- Audited: 12/2023 -->
+
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用，正在分阶段发布到生产环境。</span>
 
 [!DNL Adobe Workfront]的设计目的不是复制或替换现有系统，用于管理、应计和跟踪个人休息时间。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>具有[!UICONTROL Edit User]访问权限的[!UICONTROL Manager] （更改其他用户的休息日日历）<br>
+   <td>具有[！UICONTROL Edit User]访问权限的[！UICONTROL Manager] （更改其他用户的休息日日历）<br>
    <strong>注意：</strong>如果经理编辑另一个用户的个人休息时间日历，则所有条目都按用户的时区显示，而不是按经理的时区显示。</td> 
   </tr> 
  </tbody> 

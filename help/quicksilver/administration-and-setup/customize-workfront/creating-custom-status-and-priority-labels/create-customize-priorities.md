@@ -5,7 +5,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-source-git-commit: 7db80f5bacf52b7bbe540f4e38e88853af86a5e2
+source-git-commit: 7cb1eed72b0f5ce4abd83013b7a2f224dbb2c229
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 1%
@@ -46,7 +46,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td>
+   <td>[！UICONTROL系统管理员]</td>
   </tr> 
  </tbody> 
 </table>
