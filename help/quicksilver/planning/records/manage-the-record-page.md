@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '2434'
+source-wordcount: '2458'
 ht-degree: 1%
 
 ---
@@ -182,7 +182,7 @@ ht-degree: 1%
 
      或
 
-     单击&#x200B;**下移**&#x200B;以将节下移一个位置。
+     单击&#x200B;**下移**以将节下移一个位置。
 部分中的所有字段都会随部分一起移动。
 
    * 单击&#x200B;**删除**&#x200B;以删除该节。 该部分已被删除，无法恢复。 访问此类型记录的所有用户将不再查看已删除的分区。
@@ -342,12 +342,12 @@ ht-degree: 1%
 
    * <span class="preview">单击已连接记录页面右上角的&#x200B;**连接记录**&#x200B;以连接现有项目。</span>
    * <span class="preview">在表中内联编辑项目信息。</span>
-   * <span class="preview">单击&#x200B;**新行**&#x200B;以创建没有模板的项目。</span>
+   * <span class="preview">单击&#x200B;**新建行**&#x200B;以创建没有模板的项目。 新项目立即连接到当前记录。</span>
 
      有关详细信息，请参阅将Workfront对象连接到记录时[从Workfront Planning创建对象](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
    * <span class="preview">将鼠标悬停在项目上并单击&#x200B;**更多**&#x200B;菜单[更多](assets/more-menu.png)，然后单击以下任一项：</span>
-      * <span class="preview">**删除**&#x200B;以删除项目。 删除项目会断开它与记录的连接，并将其移至Workfront回收站。</span>
-      * <span class="preview">**断开连接**&#x200B;以断开项目与记录的连接。 正在断开项目</span>的连接
+      * <span class="preview">**删除**&#x200B;以删除项目。 删除项目会断开它与记录的连接，并将其移到Workfront的回收站。</span>
+      * <span class="preview">**断开连接**&#x200B;以断开项目与记录的连接。 断开项目连接会将其及其查找字段的所有值从当前记录中删除。</span>
 
 1. （可选）双击“连接的记录”页选项卡的名称
 

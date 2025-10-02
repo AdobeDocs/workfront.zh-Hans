@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '1869'
+source-wordcount: '1971'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,11 @@ ht-degree: 0%
 
 # 共享视图
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--take out preview and production references at production-->
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -38,7 +40,7 @@ This article describes how you can share a view with others. For information abo
 
 ## 访问要求
 
-+++ 展开以查看访问要求。
++++ 展开以查看访问要求。 
 
 <!--at GA, check that the Workfront plans article linked below has Planning info-->
 
@@ -141,9 +143,13 @@ This article describes how you can share a view with others. For information abo
 
    这将打开记录类型页面。
 
-1. 在“视图”选项卡中，执行下列操作之一：
+1. 在视图的选项卡中，执行以下操作之一：
 
-   * 将鼠标悬停在要共享的视图的选项卡名称上，然后单击视图名称右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击&#x200B;**共享**。
+   * 根据您从中访问视图的环境，执行以下操作：
+
+      * 在生产环境中，将鼠标悬停在要共享的视图的选项卡名称上，然后单击视图名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**共享**。
+
+      * <span class="preview">在“预览”环境中，单击视图的选项卡，将鼠标悬停在下拉菜单中的视图上，单击&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**共享**。</span>
 
      视图的![更多菜单](assets/more-menu-for-views-expanded-with-share-option.png)
 
@@ -169,7 +175,7 @@ This article describes how you can share a view with others. For information abo
    ![与组共享视图](assets/sharing-a-view-ui-with-groups.png)
 
 1. 从下拉菜单中选择以下权限级别之一：
-   * 查看
+   * 视图
    * 管理
 
      有关权限级别以及用户可以针对每个级别执行的操作的信息，请参阅[在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
@@ -272,20 +278,18 @@ This article describes how you can share a view with others. For information abo
 1. （视情况而定）如果您是视图的管理者，则可能会收到其他用户发出的访问以下区域中的视图的请求：
 
    * 应用程序内通知
-
      ![视图访问请求的应用程序内通知](assets/in-app-notification-for-access-request-for-view.png)
    * 电子邮件通知
-
      ![视图访问请求的应用程序内通知](assets/in-app-notification-for-access-request-for-view.png)
 1. （视情况而定）在Workfront的通知区域中，单击应用程序内通知
 或
-在电子邮件通知中，单击&#x200B;**查看所有通知**，然后单击列表中的通知。
+在电子邮件通知中，单击**查看所有通知**，然后单击列表中的通知。
 
    显示&#x200B;**待处理访问请求**&#x200B;框。
 
    ![通知列表审批框](assets/notifications-list-approval-box.png)
 1. （可选）对于要批准其权限的用户，从用户名右侧的下拉菜单中选择以下选项之一：
-   * **视图**
+   * **查看**
    * **管理**
 1. 选择要批准或拒绝权限的用户，然后单击&#x200B;**全部批准**&#x200B;或&#x200B;**全部拒绝**。
 1. 单击&#x200B;**待处理访问请求**&#x200B;左侧的左箭头，然后单击&#x200B;**保存**。

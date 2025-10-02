@@ -6,9 +6,9 @@ description: 您可以编辑已创建的程序的信息，或其他用户已创�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '1070'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 您可以编辑已创建的程序的信息，或其他用户已创建程序的信息（如果他们与您共享这些程序）。
 
-您可以在程序页面中编辑程序，也可以在列表中编辑程序。
+您可以在程序页面中编辑程序，也可以在列表中批量编辑一个或多个程序。
 
 ## 访问要求
 
@@ -36,15 +36,16 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>新文档： [!UICONTROL Standard] </p><p>或 </p><p>当前： [!UICONTROL 计划] </p> </td> 
+   <td> <p>[！UICONTROL标准版]</p>
+   <p>[！UICONTROL计划]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别</td> 
-   <td> <p>[!UICONTROL Edit]对程序的访问权限</p>  </td> 
+   <td> <p>[！UICONTROL Edit]对程序的访问权限</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>[!UICONTROL Manage]程序权限</p>  </td> 
+   <td> <p>[！UICONTROL Manage]程序权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -135,20 +136,20 @@ ht-degree: 1%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 名称]</td> 
+      <td role="rowheader">[！UICONTROL名称]</td> 
       <td> <p>更新项目的名称。 </p> <p><b>提示</b></p><p>当您选择多个项目时，此选项不可用。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 描述]</td> 
+      <td role="rowheader">[！UICONTROL描述]</td> 
       <td> <p>键入项目组合的描述以指示其独特之处。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 项目管理器]</td> 
-      <td> <p>开始键入要指定为项目经理的用户名，然后当名称出现在列表中时将其选定。 此人负责监督项目群项目中定义的工作。 </p> <p><b><p>重要</b></p> <p>指定某个人作为项目群经理时，该人员会自动获得对项目和项目群中的[!UICONTROL 管理]权限。 </p> <p><b>提示</b></p> <p>您可以在项目标题中快速更新项目管理器。 </p> </td> 
+      <td role="rowheader">[！UICONTROL项目管理器]</td> 
+      <td> <p>开始键入要指定为项目经理的用户名，然后当名称出现在列表中时将其选定。 此人负责监督项目群项目中定义的工作。 </p> <p><b><p>重要</b></p> <p>指定某个人作为项目群经理时，该人员会自动获得对项目和项目群中的[！UICONTROL管理]权限。 </p> <p><b>提示</b></p> <p>您可以在项目标题中快速更新项目管理器。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 组]</td> 
-      <td> <p>添加单个组的名称（如果该组与项目群相关联或负责完成项目）。 </p> <p><b>提示</b></p>  <p>从[!UICONTROL 程序详细信息]页面访问[!UICONTROL 组]字段时，请执行以下操作以确保选择正确的组： </p> <p>将鼠标悬停在组名称上，然后单击它旁边的[!UICONTROL 信息]图标<img src="assets/info-icon.png">。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>此选项在[!UICONTROL 编辑程序]框中不可用。 </p> </p> </td> 
+      <td role="rowheader">[！UICONTROL组]</td> 
+      <td> <p>添加单个组的名称（如果该组与项目群相关联或负责完成项目）。 </p> <p><b>提示</b></p>  <p>从[！UICONTROL程序详细信息]页面访问[！UICONTROL组]字段时，请执行以下操作以确保选择正确的组： </p> <p>将鼠标悬停在组名称上，然后单击它旁边的[！UICONTROL信息]图标<img src="assets/info-icon.png">。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>此选项在[！UICONTROL编辑程序]框中不可用。 </p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -188,4 +189,21 @@ ht-degree: 1%
 
    保存更改后，您添加的评论将显示在程序的[!UICONTROL 更新]选项卡中，并向其中所包含的用户发送电子邮件。
 1. 单击&#x200B;**[!UICONTROL 保存]**
+
+
+## 批量编辑程序
+
+批量编辑程序时，所有更新的信息将应用于所有选定的程序，覆盖每个程序的原始信息。
+
+1. 转到项目列表并选择多个项目。
+1. 单击列表顶部的&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
+
+   将打开&#x200B;**编辑程序**&#x200B;框。
+1. 更新以下部分中的信息：
+
+   * 概述
+   * 自定义表单
+   * 评论
+
+   有关详细信息，请参阅本文中的[编辑程序](#edit-programs-1)部分，从步骤4开始。<!--ensure this stays accurate-->
 

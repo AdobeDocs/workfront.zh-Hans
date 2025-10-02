@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
 source-wordcount: '1895'
 ht-degree: 4%
@@ -116,9 +116,13 @@ ht-degree: 4%
 1. 转到要查看其日历的记录类型页面。
 1. 创建日历视图，如[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)一文中所述。
 
+   <div class="preview">
+
    ![日历视图示例](assets/calendar-view-example.png)
 
    与您选择的记录类型关联的记录在日历中显示为条形。 默认情况下，栏的颜色与记录图标的颜色匹配。
+
+   </div>
 
 1. 执行以下操作之一以浏览日历：
 

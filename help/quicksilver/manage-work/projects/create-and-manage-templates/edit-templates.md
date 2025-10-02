@@ -6,9 +6,9 @@ description: 您可以编辑项目模板以反映未来项目流程和设置的�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 221113266624a94fbecd04af46a5c602a4d33334
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '5658'
+source-wordcount: '5655'
 ht-degree: 2%
 
 ---
@@ -652,8 +652,6 @@ Editing templates in bulk differs depending on which environment you are using.
 
 *****************and hide the first line below************ -->
 
-要批量编辑模板，请执行以下操作：
-
 {{step1-to-templates}}
 
 1. 在列表中选择多个模板。
@@ -671,12 +669,11 @@ Editing templates in bulk differs depending on which environment you are using.
 
    * 概述
    * 财务
-   * 组合
-   * 设置
-   * 访问
    * 自定义表单
-   * 任务
-   * 问题
+   * 模板设置
+   * 任务设置
+   * 问题设置
+   * 访问
    * 评论
 
 1. 单击&#x200B;**保存**。

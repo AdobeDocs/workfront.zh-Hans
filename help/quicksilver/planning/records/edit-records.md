@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '2756'
+source-wordcount: '2764'
 ht-degree: 0%
 
 ---
@@ -235,7 +235,7 @@ ht-degree: 0%
 
    时间轴视图上的<span class="preview">![左端栏可调整大小](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
 
-1. <span class="preview">单击记录栏，然后将其拖放到其他位置以更新其时间轴和日期。 记录的开始日期和结束日期会自动更新。</span>
+1. <span class="preview">单击并按住记录栏，然后将其拖放到其他位置以更新其时间轴和日期。 记录的开始日期和结束日期会自动更新。</span>
 
 1. 单击记录栏以打开其详细信息区域并编辑所有字段。
 
@@ -250,7 +250,7 @@ ht-degree: 0%
 
    <span class="preview">![日历视图上的左侧栏以调整大小](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
 
-1. <span class="preview">单击记录栏，然后将其拖放到其他位置以更新其时间轴和日期。 记录的开始日期和结束日期会自动更新。</span>
+1. <span class="preview">单击并按住记录栏，然后将其拖放到其他位置以更新其时间轴和日期。 记录的开始日期和结束日期会自动更新。</span>
 
 1. 单击记录栏以打开其详细信息区域并编辑所有字段。
 
@@ -378,11 +378,11 @@ ht-degree: 0%
 
 <div class="preview">
 
-## 编辑有关单选或多选字段的信息
+## 在更新字段设置值时编辑单选或多选字段设置
 
 <!--some of this information is also available in Edit fields article - update both when necessary-->
 
-编辑单选或多选字段中的信息时，可以向该字段添加新选项，而无需编辑该字段。
+当更新单选或多选字段中的信息时，可以向该字段添加新选项，而无需编辑该字段。
 
 >[!IMPORTANT]
 >
