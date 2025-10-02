@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 793a856a963060cbade33a1c29f002cecf7f7e47
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '864'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 3%
 
 ## 访问要求
 
-+++ 展开以查看访问要求。
++++ 展开以查看访问要求。 
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -117,7 +117,7 @@ ht-degree: 3%
 
 {{step1-to-planning}}
 
-1. 单击要在其中添加记录的工作区。
+1. 单击要在其中共享表单的工作区。
 
    工作区将打开，记录类型显示为卡片。
 

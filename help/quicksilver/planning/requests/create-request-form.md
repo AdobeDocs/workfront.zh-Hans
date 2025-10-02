@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 359131cef04fdb46def64428a7a693c3f00b2cd4
+source-git-commit: de42feb0d5a349e6b4b403b790b4759f693f7f4c
 workflow-type: tm+mt
-source-wordcount: '2568'
+source-wordcount: '3138'
 ht-degree: 1%
 
 ---
@@ -135,11 +135,15 @@ ht-degree: 1%
    * 引用币种字段的公式字段显示值，不考虑汇率。
    * “段落”字段的值在请求表单上显示“不适用”值，并且在请求详细信息页面中显示html标记而不是带格式的文本。
 
-## 开始创建请求表单
+## 创建请求表单
+
+要创建请求表单，您必须开始创建表单、设置表单详细信息，然后通过发布和共享表单来完成。
+
+### 开始创建请求表单
 
 您可以从与表单<span class="preview">关联的记录类型或Workfront的“请求”区域创建请求表单。</span>
 
-### 根据记录类型创建请求表单
+#### 根据记录类型创建请求表单
 
 {{step1-to-planning}}
 
@@ -168,7 +172,7 @@ ht-degree: 1%
 
 <div class="preview">
 
-### 从Workfront的“请求”区域创建请求表单
+#### 从Workfront的“请求”区域创建请求表单
 
 1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**请求**。
 1. 单击屏幕右上角的&#x200B;**请求表单**。
@@ -186,16 +190,21 @@ ht-degree: 1%
 1. 单击&#x200B;**创建**。
 
    此时将在“表单”选项卡中打开选定记录类型的请求表单。
-1. 继续[配置表单](#configure-the-form)。
+1. 继续[设置请求表单](#set-up-details-for-the-request-form)的详细信息。
 
 </div>
 
-## 配置表单
+### 设置申请表单的详细信息
 
-1. 开始创建或编辑请求表单，如以下任一部分所述：
+表单详细信息分为选项卡。
 
-   * [根据记录类型创建请求表单](#create-a-request-form-from-a-record-type)
-   * <span class="preview">[从Workfront的请求区域创建请求表单](#create-a-request-form-from-the-requests-area-of-workfront)</span>
+* **表单**&#x200B;选项卡允许您向表单添加字段和内容元素
+* **配置**&#x200B;选项卡允许您设置表单<span class="preview">的批准流程并设置请求完成选项</span>。
+* <span class="preview">通过&#x200B;**Automations**&#x200B;选项卡，可根据使用表单发出的请求功能自动执行将发生的操作。</span>
+
+#### 设置表单详细信息
+
+1. 开始创建或编辑请求表单，如[开始创建请求表单](#begin-creating-a-request-form)部分中所述。
 
    此时将在“表单”选项卡中打开选定记录类型的请求表单。
 
@@ -248,6 +257,16 @@ ht-degree: 1%
    有关生成自定义表单的详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 1. （可选）单击&#x200B;**预览**&#x200B;以查看当其他用户使用表单提交新记录时，该表单将如何显示给其他用户。
+1. 如果要配置表单的更多详细信息，请继续[设置配置详细信息](#set-up-configuration-details)，或转到[完成请求表单创建](#complete-request-form-creation)。
+
+#### 设置配置详细信息
+
+在“配置”选项卡上，您可以设置批准流程<span class="preview">并配置何时将从此表单创建的请求标记为“已完成”</span>。
+
+1. 开始创建或编辑请求表单，如[开始创建请求表单](#begin-creating-a-request-form)部分中所述。
+
+   此时将在“表单”选项卡中打开选定记录类型的请求表单。
+1. （可选）设置任何表单详细信息，如[设置表单详细信息](#set-up-form-details)中所述。
 
 1. （可选）单击&#x200B;**配置**&#x200B;选项卡，然后将至少一个用户<span class="preview">或团队</span>添加到&#x200B;**审批者**&#x200B;字段，以审批此记录表单的新请求。
 
@@ -263,6 +282,39 @@ ht-degree: 1%
 
      有关将审批添加到请求表单的详细信息，请参阅[将审批添加到请求表单](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
 
+1. <span class="preview">（视情况而定）如果要在任何一位批准者批准记录后创建记录，请选中&#x200B;**仅需要一个决策**&#x200B;复选框。</span>
+
+1. <span class="preview">选择在创建请求的对象时还是完成请求的对象时，是否希望将从此表单创建的请求标记为完成。</span>
+1. <span class="preview">（有条件）如果已选择在请求的对象完成时将请求标记为完成，请选择指示对象完成时间的字段和值。 例如，当创建的对象的状态设置为Complete时，您可以选择字段Status和值Complete以完成请求。</span>
+1. 如果要配置表单的更多详细信息，请继续[设置自动详细信息](#set-up-configuration-details)，或转到[完成请求表单创建](#complete-request-form-creation)。
+
+<div class="preview">
+
+#### 设置自动化
+
+您可以在Adobe Workfront Planning中配置自动处理，激活自动处理后，可在从Planning记录触发时，在Workfront中创建对象，或在Workfront Planning中创建记录。
+
+有关在Workfront Planning的其他领域中创建自动化的信息，请参阅[配置Adobe Workfront Planning自动化](/help/quicksilver/planning/records/configure-automations-to-create-records.md)。
+
+1. 在自动化的详细信息页面上，更新&#x200B;**触发器**&#x200B;部分中的以下字段：
+
+   * **触发器**：选择将触发自动化的操作。 目前，唯一可用于请求表单自动化的触发器是`When request object status equals pending creation`。
+
+1. 更新&#x200B;**操作**&#x200B;部分中的以下字段： <!--submitted bugs for these fields - see if they need changing here-->
+   * **操作**：选择在触发自动操作时希望Workfront执行的操作。 这是必填字段。
+目前，唯一可用于请求表单自动化的操作是`Create record`。
+
+     >[!TIP]
+     >
+     >保存自动化后，无法再更改在此字段中选择的操作。
+1. 继续[完成请求表单创建](#complete-request-form-creation)。
+
+
+</div>
+
+### 完成请求表单创建
+
+1. 按照[开始创建请求表单](#begin-creating-a-request-form)和[设置请求表单的详细信息](#set-up-details-for-the-request-form)中的说明创建并设置表单。
 1. （可选）单击标题中表单名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**编辑**&#x200B;以更新表单名称。
 
 1. 单击&#x200B;**发布**&#x200B;发布表单并获取其唯一链接。
@@ -280,6 +332,21 @@ ht-degree: 1%
 1. 单击标题中表单名称左侧的向左箭头以关闭表单。
 
    将打开&#x200B;**请求表单**&#x200B;表格视图，并将表单添加到其中。
+
+## 管理现有请求表单
+
+
+1. 单击要在其中管理请求表单的工作区。
+
+   工作区将打开，记录类型显示为卡片。
+
+1. 单击记录类型卡片。 有关创建记录类型的信息，请参阅[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)。
+
+   记录类型页面将在您上次访问的视图中打开。 默认情况下，将在表格视图中打开记录类型页面。
+
+1. 单击页眉中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**管理请求表单**。
+
+   与记录类型关联的所有请求表单都会显示在表格视图中。
 
 1. （可选）将鼠标悬停在表视图中请求表单的名称上，然后单击表单名称右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击以下任一项：
 
