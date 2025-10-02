@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 3190ad18-180e-42e5-aa10-bdad74303d3d
-source-git-commit: 9825f095a7be7debb5150ca4bd50f7cf6fd12295
+source-git-commit: a3edfadc447a763c638cc926b386272890697f81
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -57,13 +57,17 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++ -->
 
+## 先决条件
+
+* 您必须在Workfront实例中设置Workfront和Frame.io集成。 有关详细信息，请参阅[Frame.io集成概述](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md#integration-requirements)。
+
 ## 审阅文档
 
 作为审阅人，您可以向资源添加注释和标记资源。 完成后，您可以在Workfront中将审核标记为完成。 资产无需在审批流程中继续前进，即可将审核标记为完成。
 
 1. 转到审阅电子邮件通知，然后单击&#x200B;**转到审阅**。
 或
-转到Workfront主页，找到我的审批小组件，然后单击&#x200B;**打开审核**。
+转到Workfront主页，找到我的审批小组件，然后单击**打开审核**。
 
    >[!NOTE]
    > 
@@ -85,7 +89,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. 转到审阅电子邮件通知，然后单击&#x200B;**转到审阅**。
 或
-转到Workfront主页，找到我的审批小组件，然后单击&#x200B;**打开审核**。
+转到Workfront主页，找到我的审批小组件，然后单击**打开审核**。
 
    >[!NOTE]
    > 
