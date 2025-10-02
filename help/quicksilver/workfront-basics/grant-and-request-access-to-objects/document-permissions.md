@@ -7,28 +7,32 @@ description: 当分配访问级别时，您的Adobe Workfront管理员会授予�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: eb4bf18407562b88bf0c946c905b202e5b62a5fe
+source-git-commit: 48c0f5c617f41a4ce51ea45c17817aa869ba5adb
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1392'
 ht-degree: 1%
 
 ---
 
 # 共享文档
 
-当分配访问级别时，您的Adobe Workfront管理员授予用户查看或编辑文档的访问权限，如[授予对文档的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)中所述。
+Workfront管理员控制谁可以在“设置”的“访问级别”区域查看或编辑文档。 有关详细信息，请参阅[授予对文档的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)。
 
-Workfront管理员授予用户的访问级别允许用户查看或编辑文档。 除此之外，其他用户还可以向其他人授予查看或管理他们自己上传或有权共享的特定文档的权限。
+用户还可以共享他们已上传或有权访问的文档，向其他人授予查看或管理这些文档的权限。
 
-权限特定于Workfront中的一个项目，并定义您可以对该项目执行的操作。 有关对象权限的信息，请参阅[对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
+* 权限适用于各个项目，并定义用户可以采取的操作。
+* 上传文档的用户会自动获得完全控制权（管理权限）。
+* 要共享整个文件夹，请参阅[共享文档文件夹](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)。
 
-默认情况下，将文档上传到Workfront的用户具有文档的管理权限。
+>[!NOTE]
+>
+>如果您的Workfront实例使用Adobe企业存储，则无法共享单个文档。 相反，您可以在项目级别授予访问权限。 请记住，共享项目可以授予对敏感项目信息（如财务信息）的访问权限，具体取决于选择的权限级别。
 
-有关共享整个文档文件夹的信息，请参阅[共享文档文件夹](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)。
+
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开以查看本文中各项功能的访问要求。 
 
 要共享对象，必须具备以下条件：
 
@@ -62,39 +66,11 @@ Workfront管理员授予用户的访问级别允许用户查看或编辑文档�
 
 +++
 
-## 有关共享文档的注意事项
 
-除了下面的注意事项外，另请参阅[对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
-
->[!NOTE]
->
->Workfront管理员可以为系统中的任何项目为所有用户添加或删除权限，而无需成为这些项目的所有者。
-
-* 共享文档与在Workfront中共享任何其他对象类似。 有关如何在Workfront中共享文档的信息，请参阅[共享对象](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
-* 您可以向文档授予以下权限：
-
-   * 查看
-   * 管理
-
-* 您还可以公开或系统范围共享文档。
-
-  >[!CAUTION]
-  >
-  >建议在与外部用户共享包含机密信息的对象时务必谨慎。 这样，他们便可以查看信息，而无需成为Workfront用户或您组织的一部分。
-
-* 通过在授予文档访问权限字段中添加其电子邮件地址，您可以与没有Workfront帐户的人共享文档。
-* 当您共享文档时，用户对所有文档版本和所有文档验证具有相同的访问权限。\
-  有关Workfront中校对的更多信息，请参阅[校对](../../review-and-approve-work/proofing/proofing.md)部分。
-
-* 您可以从文档关联的对象继承对文档的权限。 Workfront管理员可以限制访问级别中文档的权限继承。
-
-  有关限制文档继承权限的详细信息，请参阅[创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
-
-  您可以手动删除对文档的继承权限。 有关详细信息，请参阅[从对象中删除权限](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
-
-* 附加的文档仅从其附加的对象继承权限。 如果在对象上创建文件夹并将文档移动到该文件夹中，它会继承该文件夹的权限。 但是，如果您在父对象或祖父对象上创建文件夹，并将文档移动到该文件夹中，则它不会继承该文件夹的权限。
 
 ## 共享文档
+
+默认情况下，将文档上传到Workfront的用户具有文档的管理权限。
 
 {{step1-to-documents}}
 
@@ -172,8 +148,21 @@ Workfront管理员授予用户的访问级别允许用户查看或编辑文档�
 
 1. 单击&#x200B;**保存**。
 
+## 与Adobe企业存储共享文档
+
+Workfront正在过渡到Adobe企业级存储解决方案，以便提供与Adobe Creative Cloud产品的更大连接。 现有客户将分阶段迁移至新模型。 有关Adobe企业存储优势的详细信息，请访问[Adobe企业存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+
+如果您的Workfront实例使用Adobe企业存储，则无法直接共享单个文档。 相反，您必须在项目级别授予访问权限。
+
+>[!IMPORTANT]
+>
+>共享项目还可能会使用户能够访问敏感的项目信息，例如财务信息，具体取决于您选择的权限级别。
+>
+>在共享之前，请务必仔细查看权限设置。
 
 ## 文档权限
+
+权限特定于Workfront中的一个项目，并定义您可以对该项目执行的操作。 有关对象权限的信息，请参阅[对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
 
 下表显示了允许用户查看或管理文档时，您可以授予用户哪些权限：
 
@@ -185,7 +174,7 @@ Workfront管理员授予用户的访问级别允许用户查看或编辑文档�
   <tr> 
    <th> <p><strong>操作</strong> </p> </th> 
    <th> <p><strong>管理</strong> </p> </th> 
-   <th> <p><strong>视图</strong> </p> </th> 
+   <th> <p><strong>查看</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -330,3 +319,35 @@ Workfront管理员授予用户的访问级别允许用户查看或编辑文档�
 &#42;操作由文档和文档文件夹共享。
 
 &#42;&#42;您必须拥有与您的Workfront帐户关联的单独验证许可证才能验证文档。 有关获取验证许可证的信息，请与您的客户经理联系。 有关Workfront中校对的更多信息，请参阅[校对](../../review-and-approve-work/proofing/proofing.md)。
+
+## 有关共享文档的注意事项
+
+除了下面的注意事项外，另请参阅[对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
+
+>[!NOTE]
+>
+>Workfront管理员可以为系统中的任何项目为所有用户添加或删除权限，而无需成为这些项目的所有者。
+
+* 共享文档与在Workfront中共享任何其他对象类似。 有关如何在Workfront中共享文档的信息，请参阅[共享对象](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
+* 您可以向文档授予以下权限：
+
+   * 视图
+   * 管理
+
+* 您还可以公开或系统范围共享文档。
+
+  >[!CAUTION]
+  >
+  >建议在与外部用户共享包含机密信息的对象时务必谨慎。 这样，他们便可以查看信息，而无需成为Workfront用户或您组织的一部分。
+
+* 通过在授予文档访问权限字段中添加其电子邮件地址，您可以与没有Workfront帐户的人共享文档。
+* 当您共享文档时，用户对所有文档版本和所有文档验证具有相同的访问权限。\
+  有关Workfront中校对的更多信息，请参阅[校对](../../review-and-approve-work/proofing/proofing.md)部分。
+
+* 您可以从文档关联的对象继承对文档的权限。 Workfront管理员可以限制访问级别中文档的权限继承。
+
+  有关限制文档继承权限的详细信息，请参阅[创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
+
+  您可以手动删除对文档的继承权限。 有关详细信息，请参阅[从对象中删除权限](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
+
+* 附加的文档仅从其附加的对象继承权限。 如果在对象上创建文件夹并将文档移动到该文件夹中，它会继承该文件夹的权限。 但是，如果您在父对象或祖父对象上创建文件夹，并将文档移动到该文件夹中，则它不会继承该文件夹的权限。
