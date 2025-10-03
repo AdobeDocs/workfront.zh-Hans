@@ -6,9 +6,9 @@ description: 您可以编辑项目模板以反映未来项目流程和设置的�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '5655'
+source-wordcount: '5674'
 ht-degree: 2%
 
 ---
@@ -640,6 +640,10 @@ For instructions on editing Linked folders, see [Edit workflow values in a proje
 
    ![编辑模板框评论部分](assets/edit-template-box-comment-section.png)
 1. 添加有关您正在执行的更新的评论、标记其他用户，或选择&#x200B;**我的公司私有**&#x200B;框以将更新保持为公司用户私有，然后单击&#x200B;**保存**。
+
+   >[!TIP]
+   >
+   >仅当Workfront配置文件与某个公司关联时，**私有到我的公司**&#x200B;设置才可用。
 
 ## 批量编辑模板
 

@@ -6,9 +6,9 @@ description: 您可以对时间表、时间表中包含的工作项以及您记�
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开以查看本文中各项功能的访问要求。 
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -96,6 +96,10 @@ ht-degree: 0%
 1. 开始添加新注释或回复现有注释，如[更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)中所述。
 1. （可选）在&#x200B;**标记人员或团队**&#x200B;字段中添加人员或团队以将其他人包含在您的更新中。 有关详细信息，请参阅[为其他人标记更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)。
 1. （可选）如果只想让公司的人员查看更新，请选择&#x200B;**我的公司私有**&#x200B;选项。
+
+   >[!TIP]
+   >
+   >仅当Workfront配置文件与某个公司关联时，**私有到我的公司**&#x200B;设置才可用。
 1. 键入您的评论，然后单击&#x200B;**提交**。
 
    您的备注显示在时间表的[!UICONTROL 更新]部分的“备注”选项卡中。

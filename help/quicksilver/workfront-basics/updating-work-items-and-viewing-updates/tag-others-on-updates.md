@@ -6,9 +6,9 @@ description: 在Adobe Workfront对象上提供更新注释时，项目中的所�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开以查看本文中各项功能的访问要求。 
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -122,8 +122,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >* 仅当用户与公司关联时，才会显示此选项。
-   >* 公司外部的已标记用户仍可能会收到应用程序内通知或电子邮件，即使他们不会在“更新”选项卡上看到私人评论。 如果不想与外部用户共享信息，我们建议不要在更新时标记这些用户。
+   >公司外部的已标记用户仍可能会收到应用程序内通知或电子邮件，即使他们不会在“更新”选项卡上看到私人评论。 如果不想与外部用户共享信息，我们建议不要在更新时标记这些用户。
 
 1. （可选）要添加多个用户和团队，请重复步骤2。<!--insure this stays accurate-->
 

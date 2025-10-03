@@ -7,9 +7,9 @@ description: 通过Adobe Workfront，您可以快速轻松地将与任何工作�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: d16495a0686ae5e54d16b108c69645f8666b46bd
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '589'
 ht-degree: 0%
 
 ---
@@ -73,8 +73,12 @@ ht-degree: 0%
 
 1. （可选）选择&#x200B;**[!UICONTROL 我的公司私有]**，使此消息仅对您公司的其他用户可见。
 
+   >[!TIP]
+   >
+   >仅当Workfront配置文件与某个公司关联时，[!UICONTROL **私有到我的公司**]&#x200B;设置才可用。
+
 1. 单击&#x200B;**[!UICONTROL 更新]。**
-该消息发布在用户个人资料页上的&#x200B;**[!UICONTROL 更新]**&#x200B;选项卡上的消息列表的顶部。
+该消息发布在用户个人资料页上的**[!UICONTROL 更新]**&#x200B;选项卡上的消息列表的顶部。
 
 ## 从“用户”列表中向一个或多个用户发送消息
 
@@ -89,5 +93,9 @@ ht-degree: 0%
 
 1. （可选）单击&#x200B;**标记人员**&#x200B;以在邮件中标记任何其他用户。 有关详细信息，请参阅[为其他人标记更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)。
 1. （可选）选择&#x200B;**[!UICONTROL 我的公司私有]**，使此消息仅对您公司的其他用户可见。
+
+   >[!TIP]
+   >
+   >仅当Workfront配置文件与某个公司关联时，[!UICONTROL **私有到我的公司**]&#x200B;设置才可用。
 1. 单击&#x200B;[!UICONTROL **发送**]。
-该邮件发布在每个已标记用户个人资料页面上的&#x200B;**[!UICONTROL 更新]**&#x200B;选项卡上的邮件列表的顶部。
+该邮件发布在每个已标记用户个人资料页面上的**[!UICONTROL 更新]**&#x200B;选项卡上的邮件列表的顶部。

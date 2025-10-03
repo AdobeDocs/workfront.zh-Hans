@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: 编辑列表中的任务
-description: 您可以通过编辑列表中显示的字段来编辑任务列表中的任务信息。
+description: 您可以通过编辑列表中显示的字段来编辑任务列表中的任务信息。 您必须在任务列表中定义计划模式，以指示希望如何将更改保存到Workfront。 您可以手动或自动保存更改。
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 42243c1f09b9d7eaa6705a0722fd3650bbc95266
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '2756'
+source-wordcount: '2822'
 ht-degree: 2%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 2%
 
 有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-+++
++++ 
 
 ## 有关编辑列表中的任务的注意事项 {#considerations-about-editing-tasks-in-a-list}
 
@@ -84,15 +84,20 @@ ht-degree: 2%
      >
      >默认情况下，Workfront会自动将您对任务所做的更改保存在“子任务”部分或任务报告中。
 
-* 您可以控制Workfront何时将对任务所做的更改保存到列表中。 您的更改可以自动保存，也可以手动保存。
+* 在开始编辑任务之前，您可以通过定义“计划模式”来控制Workfront何时将您对列表中的任务所做的更改保存下来。
 
-  有关在Workfront保存您对列表中的任务所做的更改时进行配置的信息，请参阅本文中的“编辑列表中的任务时[选择保存选项”](#select-a-save-option-when-editing-tasks-in-a-list)部分。
+  您可以通过以下方式在Workfront保存您所做的更改之间做出决定：
+
+      *自动，每次更改后
+     *手动，仅在您单击“保存”后。
+  
+  有关在Workfront保存您对列表中的任务所做的更改时进行配置的信息，请参阅本文中的列表[部分中的](#modify-plan-mode-before-editing-tasks-in-a-list)在编辑任务之前修改计划模式。
 
 * 其他用户必须先刷新其页面，然后才能查看您对任务所做的更新。
 
-## 在列表中编辑任务时选择保存选项 {#select-a-save-option-when-editing-tasks-in-a-list}
+## 在编辑列表中的任务之前修改计划模式
 
-您可以决定对列表中的任务所做的更改是在发生时自动保存，还是要手动保存每个更改。
+您可以决定对列表中的任务所做的更改是在发生时自动保存，还是要手动保存每个更改。 要执行此操作，在编辑任务之前，必须修改任务列表中的计划模式。
 
 >[!IMPORTANT]
 >
@@ -100,17 +105,17 @@ ht-degree: 2%
 
 当您将更改保存在已选择自动或自动以及发生更改作为更新类型的项目的列表中，Workfront会更新项目时间线以及所有项目内和跨项目依赖关系。 如果项目较大或存在大量依赖关系，则时间线计算可能需要较长时间。 某些编辑任务列表的方法可能比其他方法更快，具体取决于您选择用于保存更改的方法。
 
-您可以控制Workfront何时将对任务所做的更改保存到列表中。 存在以下情况： 
+您可以控制Workfront何时将对任务所做的更改保存到列表中。 存在以下情况：
 
 * 您可以让Workfront在每次更新后自动保存更改。
 
-  有关信息，请参阅本文中的[编辑列表中的任务并自动保存更改](#edit-tasks-in-a-list-and-automatically-save-changes)部分。
+  有关信息，请参阅本文中的[设置计划模式以自动保存更改](#set-the-plan-mode-to-automatically-save-changes)部分。
 
 * 使用“保存”按钮可控制一次应用多个更改的时间。
 
-  有关信息，请参阅本文中的[编辑列表中的任务并手动保存更改](#edit-tasks-in-a-list-and-manually-save-changes)部分。
+  有关信息，请参阅本文中的[设置计划模式以手动保存更改](#set-the-plan-mode-to-manually-save-changes)部分。
 
-### 编辑列表中的任务并自动保存更改 {#edit-tasks-in-a-list-and-automatically-save-changes}
+### 设置计划模式以自动保存更改
 
 >[!TIP]
 >
@@ -162,7 +167,7 @@ ht-degree: 2%
       <td>在选定任务下插入任务</td> 
      </tr>
      <tr> 
-      <td role="rowheader">编辑</td> 
+      <td role="rowheader">Edit</td> 
       <td><p>打开“编辑任务”框，可在其中编辑任务。</p><p>有关编辑任务的信息，请参阅<a href="#edit-tasks-in-a-list" class="MCXref xref">编辑列表中的任务</a>。</p></td> 
      </tr> 
      <tr> 
@@ -192,7 +197,7 @@ ht-degree: 2%
     </tbody> 
    </table>
 
-### 编辑列表中的任务并手动保存更改 {#edit-tasks-in-a-list-and-manually-save-changes}
+### 设置计划模式以手动保存更改 {#edit-tasks-in-a-list-and-manually-save-changes}
 
 您可以手动保存对列表中的任务所做的更改。 以这种方式保存更改时，您可以灵活地在保存之前撤消更改。
 

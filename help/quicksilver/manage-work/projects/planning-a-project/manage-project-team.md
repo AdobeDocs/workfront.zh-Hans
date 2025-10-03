@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1418'
 ht-degree: 1%
 
 ---
@@ -193,7 +193,7 @@ You must have the following access to perform the steps in this article:
    用户将从未完成的工作项中删除和取消分配。
 
    有关详细信息，请参阅本文中有关从项目团队中删除用户的[注意事项](#considerations-for-removing-users-from-a-project-team)部分。
-1. （可选）若要将此项目的更新发送给用户，请单击“全部更新”**&#x200B;**&#x200B;将更新发送给团队中的每个人
+1. （可选）若要将此项目的更新发送给用户，请单击“全部更新”****&#x200B;将更新发送给团队中的每个人
 
    或
 
@@ -261,6 +261,10 @@ You must have the following access to perform the steps in this article:
    * 单击&#x200B;**标记人员**&#x200B;以标记接收相同更新的其他用户。
    * 选择&#x200B;**我的公司专用**&#x200B;选项，将更新设为公司用户专用。
    * 单击&#x200B;**发送**。
+
+     >[!TIP]
+     >
+     >仅当Workfront配置文件与某个公司关联时，**私有到我的公司**&#x200B;设置才可用。
 
    该更新已添加到每个已标记用户配置文件的&#x200B;**更新**&#x200B;部分。
 
