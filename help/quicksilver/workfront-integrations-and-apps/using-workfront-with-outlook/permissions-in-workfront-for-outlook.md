@@ -6,9 +6,9 @@ description: ' [!DNL Workfront for Outlook] 加载项需要读/写邮箱访问�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 704da044-21ed-4ca1-be6f-0e0aa832e069
-source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
+source-git-commit: 793c8c940c8cb7ac53169edf21ddf28af2554120
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -17,24 +17,22 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->[Microsoft正在禁用对旧版Exchange联机令牌](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens)的支持，Workfront Outlook加载项当前使用这些令牌进行身份验证。 Microsoft的这一更改已开始影响客户，并将在2025年10月之前继续分阶段推出。
+>[Microsoft已禁用对旧版Exchange Online令牌的支持](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens)，Workfront Outlook加载项已使用这些令牌进行身份验证。 Microsoft的此更改将分阶段推出，并自2025年10月1日起完成。
 >
->* **在Microsoft完全禁用这些令牌后，Workfront for Microsoft Outlook集成将无法再正常使用。**
->
->作为此更改的一部分，Microsoft已决定更改令牌的重新启用方式。 在&#x200B;**2025年6月30日**&#x200B;之后，管理员将无法再自行重新启用令牌 — 只有Microsoft支持部门可以授予例外。 **在2025年10月1日，将为所有租户关闭旧版令牌。 将不会授予例外。**
+>**由于Microsoft已禁用这些令牌，因此Workfront for Microsoft Outlook集成不再起作用。**
 
 [!DNL Workfront for Outlook]需要[!DNL Outlook]加载项中允许的四级权限中的最高级别。
 
-有关[!DNL Outlook]加载项中权限的详细信息，请参阅[!DNL Microsoft]文档中的[ [!DNL Outlook] 加载项的隐私、权限和安全性](https://docs.microsoft.com/en-us/office/dev/add-ins/outlook/privacy-and-security)。
+有关[!DNL Outlook]加载项中权限的详细信息，请参阅[文档中的 [!DNL Outlook] ](https://docs.microsoft.com/en-us/office/dev/add-ins/outlook/privacy-and-security)加载项的隐私、权限和安全性[!DNL Microsoft]。
 
 [!DNL Workfront for Outlook]加载项需要读取/写入邮箱访问权限(`ReadWriteMailbox`)，这是最高权限范围。
-[!DNL Workfront for Outlook]集成需要最高级别的权限，因为它具有从[!DNL Outlook] Exchange服务器下载电子邮件附件并将它们上载到[!DNL Workfront]的功能（当用户提交具有附件的电子邮件中的请求时）。 为使此功能正常工作，[!DNL Workfront for Outlook]使用来自[!DNL Office]外接程序JavaScript API的功能`mailbox.getCallbackTokenAsync()`获取令牌并使用该令牌从Exchange服务器下载电子邮件附件。 唯一允许使用该函数的权限是`ReadWriteMailbox`。 有关详细信息，请参阅Microsoft文档中的[Outlook加载项的隐私、权限和安全性](https://docs.microsoft.com/en-us/office/dev/add-ins/outlook/privacy-and-security)。
+[!DNL Workfront for Outlook]集成需要最高级别的权限，因为它具有从[!DNL Outlook] Exchange服务器下载电子邮件附件并将它们上载到[!DNL Workfront]的功能（当用户提交具有附件的电子邮件中的请求时）。 为使此功能正常工作，[!DNL Workfront for Outlook]使用来自`mailbox.getCallbackTokenAsync()`外接程序JavaScript API的功能[!DNL Office]获取令牌并使用该令牌从Exchange服务器下载电子邮件附件。 唯一允许使用该函数的权限是`ReadWriteMailbox`。 有关详细信息，请参阅Microsoft文档中的[Outlook加载项的隐私、权限和安全性](https://docs.microsoft.com/en-us/office/dev/add-ins/outlook/privacy-and-security)。
 
 [!DNL Workfront for Outlook]加载项还需要`ReadWriteItem`权限（包含在`ReadWriteMailbox`中），该权限用于读取电子邮件正文和读取/更新电子邮件元数据：
 
 * 阅读电子邮件正文：
 
-  当用户提交请求或将电子邮件正文作为更新发送到[!DNL Adobe Workfront]对象时，[!DNL Workfront for Outlook]会读取电子邮件正文。
+  当用户提交请求或将电子邮件正文作为更新发送到[!DNL Workfront for Outlook]对象时，[!DNL Adobe Workfront]会读取电子邮件正文。
 * 读取/更新电子邮件元数据：
 
   当用户通过电子邮件提交请求时，[!DNL Workfront for Outlook]会更新电子邮件标头。 此操作是为了存储有关已提交的[!DNL Adobe Workfront]对象的信息，因此下次用户打开同一电子邮件的加载项时，将显示有关该电子邮件中先前操作的信息。

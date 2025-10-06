@@ -6,9 +6,9 @@ description: 您可以将 [!DNL Outlook] 电子邮件转换为 [!DNL Adobe Workf
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: fcd02116-ffeb-43d3-8541-5e30e6cfdc5e
-source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
+source-git-commit: 793c8c940c8cb7ac53169edf21ddf28af2554120
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->[Microsoft正在禁用对旧版Exchange联机令牌](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens)的支持，Workfront Outlook加载项当前使用这些令牌进行身份验证。 Microsoft的这一更改已开始影响客户，并将在2025年10月之前继续分阶段推出。
+>[Microsoft已禁用对旧版Exchange Online令牌的支持](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens)，Workfront Outlook加载项已使用这些令牌进行身份验证。 Microsoft的此更改将分阶段推出，并自2025年10月1日起完成。
 >
->* **在Microsoft完全禁用这些令牌后，Workfront for Microsoft Outlook集成将无法再正常使用。**
->
->作为此更改的一部分，Microsoft已决定更改令牌的重新启用方式。 在&#x200B;**2025年6月30日**&#x200B;之后，管理员将无法再自行重新启用令牌 — 只有Microsoft支持部门可以授予例外。 **在2025年10月1日，将为所有租户关闭旧版令牌。 将不会授予例外。**
-
+>**由于Microsoft已禁用这些令牌，因此Workfront for Microsoft Outlook集成不再起作用。**
 
 您可以将[!DNL Outlook]电子邮件转换为[!DNL Adobe Workfront]任务。 电子邮件转换后，任务将在[!UICONTROL 主页]区域的[!UICONTROL 工作]列表中可用。
 
@@ -40,7 +37,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[!UICONTROL 工作]，[!UICONTROL 计划]</p> </td> 
+   <td> <p>[！UICONTROL工作]，[！UICONTROL计划]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,7 +46,7 @@ ht-degree: 0%
 
 ## 先决条件
 
-您的[!DNL Workfront]管理员必须使用[!DNL Workfront]启用[!DNL Outlook for Office]，然后才能使用此集成。
+您的[!DNL Workfront]管理员必须使用[!DNL Outlook for Office]启用[!DNL Workfront]，然后才能使用此集成。
 
 ## 将[!DNL Outlook]电子邮件作为任务添加到您的工作列表
 
@@ -72,7 +69,7 @@ ht-degree: 0%
 1. 单击&#x200B;**[!UICONTROL 添加]**。\
    任务已添加到主页区域中的[!UICONTROL 工作列表]，但没有提交日期。
 
-1. （可选）单击“在Workfront中查看”**&#x200B;**&#x200B;以在新选项卡中显示[!DNL Workfront]应用程序中的任务。
+1. （可选）单击“在Workfront中查看”****&#x200B;以在新选项卡中显示[!DNL Workfront]应用程序中的任务。
 
 1. （可选）导航回[!DNL Outlook]，然后选择原始电子邮件。\
    在[!DNL Workfront]加载项面板顶部，注意包含链接的确认，表明电子邮件已作为任务添加到Workfront。 该链接包含转换日期。\

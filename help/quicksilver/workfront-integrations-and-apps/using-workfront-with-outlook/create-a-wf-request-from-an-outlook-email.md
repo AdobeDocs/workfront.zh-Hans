@@ -6,22 +6,22 @@ description: 您可以在Outlook中通过电子邮件创建 [!DNL Adobe Workfron
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4ecfe632-5f2e-4dc2-8c88-6a8229887f53
-source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
+source-git-commit: 793c8c940c8cb7ac53169edf21ddf28af2554120
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
 
-# 从[!UICONTROL Outlook]电子邮件创建[!DNL Adobe Workfront]请求
+# 从[!DNL Adobe Workfront]Outlook[!UICONTROL 电子邮件创建]请求
+
+
 
 >[!IMPORTANT]
 >
->[Microsoft正在禁用对旧版Exchange联机令牌](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens)的支持，Workfront Outlook加载项当前使用这些令牌进行身份验证。 Microsoft的这一更改已开始影响客户，并将在2025年10月之前继续分阶段推出。
+>[Microsoft已禁用对旧版Exchange Online令牌的支持](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens)，Workfront Outlook加载项已使用这些令牌进行身份验证。 Microsoft的此更改将分阶段推出，并自2025年10月1日起完成。
 >
->* **在Microsoft完全禁用这些令牌后，Workfront for Microsoft Outlook集成将无法再正常使用。**
->
->作为此更改的一部分，Microsoft已决定更改令牌的重新启用方式。 在&#x200B;**2025年6月30日**&#x200B;之后，管理员将无法再自行重新启用令牌 — 只有Microsoft支持部门可以授予例外。 **在2025年10月1日，将为所有租户关闭旧版令牌。 将不会授予例外。**
+>**由于Microsoft已禁用这些令牌，因此Workfront for Microsoft Outlook集成不再起作用。**
 
 您可以在Outlook中通过电子邮件创建[!DNL Adobe Workfront]请求。
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->无法从共享[!UICONTROL Outlook]邮箱创建[!DNL Workfront]请求。
+>无法从共享[!DNL Workfront]Outlook[!UICONTROL 邮箱创建]请求。
 
 ## 访问要求
 
@@ -45,7 +45,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[!UICONTROL 工作]，[!UICONTROL 计划]</p> </td> 
+   <td> <p>[！UICONTROL工作]，[！UICONTROL计划]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,11 +54,11 @@ ht-degree: 0%
 
 ## 先决条件
 
-您的[!DNL Workfront]管理员必须使用[!DNL Workfront]启用[!DNL Outlook for Office]，然后才能使用此集成。
+您的[!DNL Workfront]管理员必须使用[!DNL Outlook for Office]启用[!DNL Workfront]，然后才能使用此集成。
 
 ## 通过[!DNL Outlook]电子邮件创建请求
 
-要从[!DNL Outlook]创建[!DNL Workfront]请求，请执行以下操作：
+要从[!DNL Workfront]创建[!DNL Outlook]请求，请执行以下操作：
 
 1. 选择包含要包含在[!DNL Workfront]请求中的信息的电子邮件。
 1. 单击电子邮件右上角的&#x200B;**[!DNL Workfront]**&#x200B;图标以显示Workfront加载项。\
