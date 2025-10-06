@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
+source-git-commit: 2d7022eae32d3266966ef6f424b1cff176622f86
 workflow-type: tm+mt
 source-wordcount: '8402'
 ht-degree: 0%
@@ -240,7 +240,7 @@ ht-degree: 0%
 
 ### 应用里程碑视图时，项目列表或报告的界面更新
 
-**预览版本： 2025年10月2日；生产版本：从2025年10月9日开始的一周开始**
+**预览版本： 2025年10月2日；生产版本：从2025年10月6日开始的一周开始**
 
 在对项目列表或报告应用里程碑视图时，我们更新了它们的外观。
 
