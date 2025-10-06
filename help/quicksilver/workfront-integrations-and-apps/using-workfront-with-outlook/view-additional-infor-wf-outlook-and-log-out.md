@@ -37,7 +37,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[！UICONTROL工作]，[！UICONTROL计划]</p> </td> 
+   <td> <p>[!UICONTROL 工作]，[!UICONTROL 计划]</p> </td> 
   </tr> 
  </tbody> 
 </table>

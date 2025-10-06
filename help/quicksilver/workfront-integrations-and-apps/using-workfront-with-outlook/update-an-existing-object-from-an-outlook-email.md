@@ -37,7 +37,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[！UICONTROL工作]，[！UICONTROL计划]</p> </td> 
+   <td> <p>[!UICONTROL 工作]，[!UICONTROL 计划]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -85,4 +85,4 @@ ht-degree: 0%
      ![o365_addin_lock.png](assets/o365-addin-lock.png)
 
 1. 单击&#x200B;**[!UICONTROL 更新]**。
-1. （可选）单击“在Workfront中查看”****，在[!DNL Workfront]Outlook[!UICONTROL 中查看与]集成的更新项。
+1. （可选）单击“在Workfront中查看”**&#x200B;**，在[!DNL Workfront]Outlook[!UICONTROL 中查看与]集成的更新项。

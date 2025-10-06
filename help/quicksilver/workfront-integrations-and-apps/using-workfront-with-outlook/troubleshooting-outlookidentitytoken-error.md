@@ -32,4 +32,4 @@ Unable to get the outlookIdentityToken
 
 有关启用 Microsoft 365 旧版令牌的说明，请参阅 Microsoft 文档中的[打开或关闭旧版 Exchange Online 令牌](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/turn-exchange-tokens-on-off)。
 
-有关旧版令牌的更多信息，请参阅[我可以重新打开 Exchange Online 旧版令牌吗？Microsoft 文档中的 ](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens#can-i-turn-exchange-online-legacy-tokens-back-on)。
+有关旧版令牌的更多信息，请参阅[我可以重新打开 Exchange Online 旧版令牌吗？Microsoft 文档中的 &#x200B;](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens#can-i-turn-exchange-online-legacy-tokens-back-on)。

@@ -23,7 +23,7 @@ ht-degree: 0%
 
 [!DNL Workfront for Outlook]需要[!DNL Outlook]加载项中允许的四级权限中的最高级别。
 
-有关[!DNL Outlook]加载项中权限的详细信息，请参阅[文档中的 [!DNL Outlook] ](https://docs.microsoft.com/en-us/office/dev/add-ins/outlook/privacy-and-security)加载项的隐私、权限和安全性[!DNL Microsoft]。
+有关[!DNL Outlook]加载项中权限的详细信息，请参阅[文档中的 [!DNL Outlook] &#x200B;](https://docs.microsoft.com/en-us/office/dev/add-ins/outlook/privacy-and-security)加载项的隐私、权限和安全性[!DNL Microsoft]。
 
 [!DNL Workfront for Outlook]加载项需要读取/写入邮箱访问权限(`ReadWriteMailbox`)，这是最高权限范围。
 [!DNL Workfront for Outlook]集成需要最高级别的权限，因为它具有从[!DNL Outlook] Exchange服务器下载电子邮件附件并将它们上载到[!DNL Workfront]的功能（当用户提交具有附件的电子邮件中的请求时）。 为使此功能正常工作，[!DNL Workfront for Outlook]使用来自`mailbox.getCallbackTokenAsync()`外接程序JavaScript API的功能[!DNL Office]获取令牌并使用该令牌从Exchange服务器下载电子邮件附件。 唯一允许使用该函数的权限是`ReadWriteMailbox`。 有关详细信息，请参阅Microsoft文档中的[Outlook加载项的隐私、权限和安全性](https://docs.microsoft.com/en-us/office/dev/add-ins/outlook/privacy-and-security)。
