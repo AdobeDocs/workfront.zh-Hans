@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
+source-git-commit: ea0ae13abe9373bef7a1d146ca1951c8c383f994
 workflow-type: tm+mt
 source-wordcount: '3829'
 ht-degree: 3%
@@ -633,9 +633,10 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    * 在&#x200B;**标记人员**&#x200B;区域将用户或团队添加到您的更新，或使用@将其包含在您的更新中。
    * 选中&#x200B;**我的公司私有**&#x200B;复选框，将更新设为公司内部人员的私有。
 
-     >[!TIP]
-     >
-     >仅当Workfront配置文件与某个公司关联时，**私有到我的公司**&#x200B;设置才可用。
+   >[!TIP]
+   >
+   >仅当Workfront配置文件与某个公司关联时，**私有到我的公司**&#x200B;设置才可用。
+
 1. 单击&#x200B;**保存**。
 
 ## 在任务标题中编辑任务（受限）

@@ -6,7 +6,7 @@ description: 您可以对时间表、时间表中包含的工作项以及您记�
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
+source-git-commit: ea0ae13abe9373bef7a1d146ca1951c8c383f994
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 0%
@@ -100,6 +100,7 @@ ht-degree: 0%
    >[!TIP]
    >
    >仅当Workfront配置文件与某个公司关联时，**私有到我的公司**&#x200B;设置才可用。
+
 1. 键入您的评论，然后单击&#x200B;**提交**。
 
    您的备注显示在时间表的[!UICONTROL 更新]部分的“备注”选项卡中。
