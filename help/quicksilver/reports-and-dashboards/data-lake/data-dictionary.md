@@ -7,10 +7,10 @@ description: 本页包含有关Workfront Data Connect中数据的结构和内容
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 5a7f61b9b5237e282c1a61fb49b85533497836e3
+source-git-commit: 8df633f7f0946f81d6e81578a3d47719f6d8975e
 workflow-type: tm+mt
-source-wordcount: '8114'
-ht-degree: 7%
+source-wordcount: '8733'
+ht-degree: 9%
 
 ---
 
@@ -22,23 +22,23 @@ ht-degree: 7%
 >
 >Data Connect中的数据每四小时刷新一次，因此最近的更改可能不会立即反映出来。
 
-## 表类型
+## 视图类型
 
-在Data Connect中，您可以利用多种表类型以可提供最多insight的方式查看Workfront数据。
+在Data Connect中，您可以利用多种视图类型以可提供最多insight的方式查看Workfront数据。
 
-* **当前表**
+* **当前视图**
 
-  当前表反映的数据与Workfront中的数据、每个对象及其当前状态类似。 但是，与Workfront相比，它可以以低得多的延迟进行导航。
+  “当前”视图反映的数据与Workfront中存在的数据、每个对象及其当前状态类似。 但是，与Workfront相比，它可以以低得多的延迟进行导航。
 
-* **事件表**
+* **事件视图**
 
-  “事件”表格将跟踪Workfront中的每个更改记录：即，每次对象更改状态时，都将创建一个记录以显示更改的时间、进行更改的人员以及更改的内容。 因此，此表对于时间点比较很有用。 此表仅包括过去三年的记录。
+  “事件”视图将跟踪Workfront中的每个更改记录：即，每次对象更改状态时，都将创建一个记录，以显示更改的时间、进行更改的人员以及更改的内容。 因此，此视图对于时间点比较非常有用。 此视图仅包含过去三年的记录。
 
-* **每日历史记录表**
+* **每日历史记录视图**
 
-  “每日历史记录”表提供了“事件”表的缩写版本，它以每日为基础显示每个对象的状态，而不是显示每个单独事件发生时的状态。 因此，此表可用于趋势分析。
+  “每日历史记录”视图提供了“事件”视图的缩写版本，它以每日为基础显示每个对象的状态，而不是每个单独事件发生时的状态。 因此，该视图对趋势分析非常有用。
 
-<!-- Custom table -->
+<!-- Custom view -->
 
 ## 实体关系图
 
@@ -48,20 +48,25 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
 
 >[!IMPORTANT]
 >
->实体关系图是正在进行的工作 — 因此，它仅供参考，并且可能会发生更改。
+>实体关系图是正在进行的工作。 因此，其仅供参考，并且可能会发生更改。
 
 ## 日期类型
 
 有许多日期对象提供有关特定事件发生时间的信息。
 
 * `DL_LOAD_TIMESTAMP`：此日期在成功完成数据刷新后更新，并包括提供最新版本记录的刷新作业开始的时间戳。
-* `CALENDAR_DATE`：此日期仅存在于“每日历史记录”表中。 此表记录了:59中指定的每个日期的数据在11`CALENDAR_DATE` UTC时的外观。
-* `BEGIN_EFFECTIVE_TIMESTAMP`：此日期同时存在于“事件”和“每日历史记录”表中，并且记录记录记录何时将&#x200B;_更改为_&#x200B;其在当前行中的值。
-* `END_EFFECTIVE_TIMESTAMP`：此日期同时存在于“事件”和“每日历史记录”表中，记录某记录何时将&#x200B;_从_&#x200B;当前行中的值更改为其他行中的值。 为了在`BEGIN_EFFECTIVE_TIMESTAMP`和`END_EFFECTIVE_TIMESTAMP`上的查询之间允许，此值从不为null，即使没有新值也是如此。 如果记录仍然有效（即值未更改），`END_EFFECTIVE_TIMESTAMP`的值将为2300-01-01。
+* `CALENDAR_DATE`：此日期仅存在于“每日历史记录”视图中。 “每日历史记录”视图记录了:59中指定的每个日期的数据在11`CALENDAR_DATE` UTC时的外观。
+* `BEGIN_EFFECTIVE_TIMESTAMP`：此日期同时存在于“事件”和“每日历史记录”视图中，表示记录成为应用程序中当前值的时间。
+* `END_EFFECTIVE_TIMESTAMP`：此日期同时存在于“事件”和“每日历史记录”视图中，并且记录记录何时记录将当前行中的值&#x200B;_从_&#x200B;更改为其他行中的值。 为了在`BEGIN_EFFECTIVE_TIMESTAMP`和`END_EFFECTIVE_TIMESTAMP`上的查询之间允许，此值从不为null，即使没有新值也是如此。 如果记录仍然有效（即值未更改），`END_EFFECTIVE_TIMESTAMP`的值将为2300-01-01。
 
 ## 术语表
 
-下表将Workfront中的对象名称（以及它们在接口和API中的名称）与它们在Data Connect中的等效名称相关联。
+下表将Workfront中的对象名称（以及它们在接口和API中的名称）与Data Connect中的等效名称相关联，并包含每个对象与其他Workfront对象的参考字段。
+
+>[!NOTE]
+>
+>可以将新字段添加到对象视图，而无需提前通知，以支持Workfront应用程序不断演变的数据需求。 如果下游数据收件人未准备好在添加列时处理其他列，我们建议不要使用“SELECT”查询。<br>
+>>如果需要重命名或删除列，我们将提前通知这些更改。
 
 ### 访问级别
 
@@ -70,7 +75,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -138,7 +143,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -208,7 +213,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -277,7 +282,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -335,7 +340,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -387,7 +392,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -499,7 +504,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -554,6 +559,12 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
              <td>CLASSIFIER_CURRENT</td>
              <td>CLASSIFIERID</td>
         </tr>
+      <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>用户ID</td>
+        </tr>
         <tr>
              <td>OPTASKID</td>
              <td>FK</td>
@@ -600,7 +611,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -723,7 +734,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -781,7 +792,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -851,7 +862,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -969,7 +980,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -1044,7 +1055,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -1150,7 +1161,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -1220,7 +1231,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -1278,7 +1289,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -1342,7 +1353,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -1406,7 +1417,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -1470,7 +1481,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -1546,7 +1557,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -1592,7 +1603,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -1667,7 +1678,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -1831,7 +1842,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -1903,7 +1914,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -1974,7 +1985,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -2035,7 +2046,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -2130,7 +2141,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -2248,7 +2259,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -2294,7 +2305,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -2352,7 +2363,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -2398,7 +2409,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -2495,7 +2506,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -2553,7 +2564,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -2671,7 +2682,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -2728,7 +2739,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -2808,24 +2819,24 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
     </tbody>
 </table>
 
-### 小时
+### Hour
 
 <table>
     <thead>
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-            <td>小时</td>
-            <td>小时</td>
+            <td>Hour</td>
+            <td>Hour</td>
             <td>HOUR</td>
-            <td>小时</td>
+            <td>Hour</td>
             <td>HOURS_CURRENT<br>HOURS_DAILY_HISTORY<br>HOURS_EVENT</td>
         </tr>
       </tbody>
@@ -2955,7 +2966,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -3012,7 +3023,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -3088,7 +3099,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -3274,7 +3285,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -3343,7 +3354,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -3401,7 +3412,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -3459,7 +3470,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -3535,7 +3546,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -3611,7 +3622,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -3675,7 +3686,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -3882,7 +3893,6 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         </tr>
 
 
-    &lt;/tbody>
 </table>
 
 ### 对象集成
@@ -3892,7 +3902,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -3941,7 +3951,6 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
              <td colspan="2">不是关系；用于内部应用目的</td>
         </tr>
 
-    &lt;/tbody>
 </table>
 
 ### 对象类别
@@ -3951,7 +3960,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -4009,7 +4018,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -4196,7 +4205,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -4253,7 +4262,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -4305,7 +4314,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -4357,7 +4366,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -4365,9 +4374,9 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
       <tbody>
         <tr>
             <td>门户部分</td>
-            <td>报告</td>
+            <td>报表</td>
             <td>PTLSEC</td>
-            <td>报告</td>
+            <td>报表</td>
             <td>PORTALSECTIONS_CURRENT<br>PORTALSECTIONS_DAILY_HISTORY<br>PORTALSECTIONS_EVENT</td>
         </tr>
       </tbody>
@@ -4479,7 +4488,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -4487,9 +4496,9 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
       <tbody>
         <tr>
             <td>门户选项卡</td>
-            <td>仪表板</td>
+            <td>功能板</td>
             <td>PTLTAB</td>
-            <td>仪表板</td>
+            <td>功能板</td>
             <td>PORTALTABLES_CURRENT<br>PORTALTABLES_DAILY_HISTORY<br>PORTALTABLES_EVENT</td>
         </tr>
       </tbody>
@@ -4547,7 +4556,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -4621,7 +4630,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -4672,24 +4681,24 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
     </tbody>
 </table>
 
-### 项目组合
+### 组合
 
 <table>
     <thead>
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-            <td>项目组合</td>
-            <td>项目组合</td>
+            <td>组合</td>
+            <td>组合</td>
             <td>端口</td>
-            <td>项目组合</td>
+            <td>组合</td>
             <td>项目组合_当前<br>项目组合_每日历史记录<br>项目组合_事件</td>
         </tr>
       </tbody>
@@ -4760,7 +4769,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -4811,7 +4820,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -4893,7 +4902,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -5109,7 +5118,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -5172,7 +5181,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -5236,7 +5245,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -5303,7 +5312,6 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
              <td colspan="2">不是关系；用于内部应用目的</td>
         </tr>
 
-    &lt;/tbody>
 </table>
 
 ### 报告文件夹
@@ -5313,7 +5321,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -5359,7 +5367,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -5411,7 +5419,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -5475,7 +5483,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -5533,7 +5541,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -5597,7 +5605,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -5655,7 +5663,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -5701,7 +5709,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -5752,7 +5760,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -5834,7 +5842,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -5880,7 +5888,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -5949,7 +5957,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -6006,6 +6014,178 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
     </tbody>
 </table>
 
+### 人员配置计划
+
+有限的客户可用性
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront实体名称</th>
+            <th>界面引用</th>
+            <th>API 参考</th>
+            <th>API标签</th>
+            <th>数据湖视图</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>人员配置计划</td>
+            <td>人员配置计划</td>
+            <td>员工</td>
+            <td>人员配置计划</td>
+            <td>EMPLOYEING_PLAN_CURRENT<br>EMPLOYEING_PLAN_DAILY_HISTORY<br>EMPLOYEING_PLAN_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主/外键</th>
+            <th>类型</th>
+            <th>相关表</th>
+            <th>相关字段</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ATTACHEDRATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>类别ID</td>
+             <td>FK</td>
+             <td>CATEGORY_CURRENT </td>
+             <td>类别ID</td>
+        </tr>
+        <tr>
+             <td>COMPANYID</td>
+             <td>FK</td>
+             <td>公司_当前</td>
+             <td>COMPANYID</td>
+        </tr>        
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>组_当前</td>
+             <td>GROUPID</td>
+        </tr>        
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>用户ID</td>
+        </tr>        
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>用户ID</td>
+        </tr>       
+         <tr>
+             <td>PRIVATERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID
+</td>
+        </tr>        
+        <tr>
+             <td>SCHEDULEID</td>
+             <td>FK</td>
+             <td>SCHEDULES_CURRENT</td>
+             <td>SCHEDULEID
+</td>
+        </tr>        
+        <tr>
+             <td>STAFFINGPLANID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### 人员配置计划资源
+
+有限的客户可用性
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront实体名称</th>
+            <th>界面引用</th>
+            <th>API 参考</th>
+            <th>API标签</th>
+            <th>数据湖视图</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>人员配置计划资源</td>
+            <td>人员配置计划资源</td>
+            <td>员工</td>
+            <td>人员配置计划资源</td>
+            <td>EMPLOYEING_PLAN_RESOURCE_CURRENT<br>EMPLOYEING_PLAN_RESOURCE_DAILY_HISTORY<br>EMPLOYEING_PLAN_RESOURCE_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主/外键</th>
+            <th>类型</th>
+            <th>相关表</th>
+            <th>相关字段</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>用户ID</td>
+        </tr>
+        <tr>
+             <td>ASSIGNEDTOID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>用户ID</td>
+        </tr>
+        <tr>
+             <td>类别ID</td>
+             <td>FK</td>
+             <td>CATEGORY_CURRENT</td>
+             <td>类别ID</td>
+        </tr>        
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>用户ID</td>
+        </tr>        
+        <tr>
+             <td>角色ID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>角色ID</td>
+        </tr>        
+        <tr>
+             <td>STAFFINGPLANID</td>
+             <td>FK</td>
+             <td>EMPLOYEING_PLAN_CURRENT</td>
+             <td>STAFFINGPLANID</td>
+        </tr>       
+         <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>        
+    </tbody>
+</table>
+
 ### 步骤审批者
 
 <table>
@@ -6013,7 +6193,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -6083,7 +6263,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -6277,7 +6457,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -6335,7 +6515,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -6428,7 +6608,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -6486,7 +6666,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -6550,7 +6730,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -6684,7 +6864,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -6777,7 +6957,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -6905,7 +7085,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -6956,6 +7136,146 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
     </tbody>
 </table>
 
+### 时间分段KPI组合
+
+有限的客户可用性
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront实体名称</th>
+            <th>界面引用</th>
+            <th>API 参考</th>
+            <th>API标签</th>
+            <th>数据湖视图</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>时间分段KPI组合</td>
+            <td>时间分段 KPI</td>
+            <td>TMPH</td>
+            <td>TimePhasedKPI</td>
+            <td>TIMEPHASED_COMBINED_CURRENT<br>TIMEPHASED_COMBINED_DAILY_HISTORY<br>TIMEPHASED_COMBINED_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主/外键</th>
+            <th>类型</th>
+            <th>相关表</th>
+            <th>相关字段</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNMENTID</td>
+             <td>FK</td>
+             <td>ASSIGNATIONS_CURRENT</td>
+             <td>ASSIGNMENTID</td>
+        </tr>
+                <tr>
+             <td>EVENT_ID    </td>
+             <td>PK</td>
+             <td>这是时间分段KPI条目的自然键</td>
+             <td>-</td>
+        </tr>
+                        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>组_当前</td>
+             <td>GROUPID</td>
+        </tr>
+                        <tr>
+             <td>位置ID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>CLASSIFIERID</td>
+        </tr>
+                        <tr>
+             <td>元数据辅助</td>
+             <td>FK</td>
+             <td>未提供元数据表</td>
+             <td>-</td>
+        </tr>
+                        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+                        <tr>
+             <td>PORTFOLIOID</td>
+             <td>FK</td>
+             <td>项目组合_当前</td>
+             <td>PORTFOLIOID</td>
+        </tr>
+                        <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>程序_当前</td>
+             <td>PROGRAMID</td>
+        </tr>
+                        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>项目当前</td>
+             <td>PROJECTID</td>
+        </tr>
+                        <tr>
+             <td>REFERENCEID</td>
+             <td>FK</td>
+             <td>变量，基于OBJCODE</td>
+             <td>OBJCODE字段中标识的对象的主键/ID
+</td>
+        </tr>
+                        <tr>
+             <td>角色ID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>角色ID</td>
+        </tr>
+                        <tr>
+             <td>架构ID</td>
+             <td>FK</td>
+             <td>未提供SCHEMA表；此表中的值提供在SCHEMANAME列中。 SCHEMANAME标识记录所连接的KPI（例如plannedHours、estimatedHours和actualHours）。</td>
+             <td>-</td>
+        </tr>
+                                <tr>
+             <td>SOURCETASKID</td>
+             <td>FK</td>
+             <td>任务_当前</td>
+             <td>TASKID</td>
+        </tr>
+                                <tr>
+             <td>STAFFINGPLANID</td>
+             <td>FK</td>
+             <td>EMPLOYEING_PLAN_CURRENT</td>
+             <td>STAFFINGPLANID</td>
+        </tr>
+                                <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>FK</td>
+             <td>EMPLOYEING_PLAN_RESOURCE_CURRENT</td>
+             <td>STAFFINGPLANRESOURCEID</td>
+        </tr>
+                                <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>任务_当前</td>
+             <td>TASKID</td>
+        </tr>
+                                <tr>
+             <td>用户ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>用户ID</td>
+        </tr>
+    </tbody>
+</table>
+
 ### 按时间分段的KPI货币
 
 有限的客户可用性
@@ -6965,7 +7285,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -7008,6 +7328,12 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
              <td>CLASSIFIER_CURRENT</td>
              <td>CLASSIFIERID</td>
         </tr>
+                <tr>
+             <td>元数据辅助</td>
+             <td>FK</td>
+             <td>未提供元数据表</td>
+             <td>-</td>
+        </tr>
         <tr>
              <td>OPTASKID</td>
              <td>FK</td>
@@ -7047,7 +7373,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
              <td>架构ID</td>
              <td>FK</td>
-             <td>即将添加</td>
+             <td>未提供SCHEMA表；此表中的值提供在SCHEMANAME列中。 SCHEMANAME标识记录所连接到的KPI（例如，plannedRevenueRate、plannedCostRate、actualRevenue等）。</td>
              <td>架构ID</td>
         </tr>
         <tr>
@@ -7055,6 +7381,18 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
              <td>FK</td>
              <td>任务_当前</td>
              <td>TASKID</td>
+        </tr>
+                <tr>
+             <td>STAFFINGPLANID</td>
+             <td>FK</td>
+             <td>EMPLOYEING_PLAN_CURRENT</td>
+             <td>STAFFINGPLANID</td>
+        </tr>
+          <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>FK</td>
+             <td>EMPLOYEING_PLAN_RESOURCE_CURRENT</td>
+             <td>STAFFINGPLANRESOURCEID</td>
         </tr>
         <tr>
              <td>SYSID</td>
@@ -7091,7 +7429,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -7134,6 +7472,12 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
              <td>CLASSIFIER_CURRENT</td>
              <td>CLASSIFIERID</td>
         </tr>
+                <tr>
+             <td>元数据辅助</td>
+             <td>FK</td>
+             <td>未提供元数据表</td>
+             <td>-</td>
+        </tr>
         <tr>
              <td>OPTASKID</td>
              <td>FK</td>
@@ -7173,7 +7517,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
              <td>架构ID</td>
              <td>FK</td>
-             <td>即将添加</td>
+             <td>未提供SCHEMA表；此表中的值提供在SCHEMANAME列中。 SCHEMANAME标识记录所连接的KPI（例如plannedHours、estimatedHours和actualHours）。</td>
              <td>架构ID</td>
         </tr>
         <tr>
@@ -7181,6 +7525,18 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
              <td>FK</td>
              <td>任务_当前</td>
              <td>TASKID</td>
+        </tr>
+                <tr>
+             <td>STAFFINGPLANID </td>
+             <td>FK</td>
+             <td>EMPLOYEING_PLAN_CURRENT</td>
+             <td>STAFFINGPLANID</td>
+        </tr>
+           <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>FK</td>
+             <td>EMPLOYEING_PLAN_RESOURCE_CURRENT</td>
+             <td>STAFFINGPLANRESOURCEID</td>
         </tr>
         <tr>
              <td>SYSID</td>
@@ -7208,6 +7564,151 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
     </tbody>
 </table>
 
+### 按时间分段的KPI数字
+
+有限的客户可用性
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront实体名称</th>
+            <th>界面引用</th>
+            <th>API 参考</th>
+            <th>API标签</th>
+            <th>数据湖视图</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>按时间分段的KPI数字</td>
+            <td>时间分段 KPI</td>
+            <td>TMPH</td>
+            <td>TimePhasedKPI</td>
+            <td>TIMEPHASED_NUMBERS_CURRENT<br>TIMEPHASED_NUMBERS_DAILY_HISTORY<br>TIMEPHASED_NUMBERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>主/外键</th>
+            <th>类型</th>
+            <th>相关表</th>
+            <th>相关字段</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNMENTID</td>
+             <td>FK</td>
+             <td>ASSIGNATIONS_CURRENT</td>
+             <td>ASSIGNMENTID</td>
+        </tr>
+        <tr>
+             <td>EVENT_ID</td>
+             <td>PK</td>
+             <td>这是时间分段KPI条目的自然键</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>组_当前</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>位置ID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>CLASSIFIERID</td>
+        </tr>
+        <tr>
+             <td>元数据辅助</td>
+             <td>FK</td>
+             <td>未提供元数据表</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>PORTFOLIOID</td>
+             <td>FK</td>
+             <td>项目组合_当前</td>
+             <td>PORTFOLIOID</td>
+        </tr>
+                <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>程序_当前</td>
+             <td>PROGRAMID</td>
+        </tr>
+                <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>项目当前</td>
+             <td>PROJECTID</td>
+        </tr>
+                <tr>
+             <td>REFERENCEID</td>
+             <td>FK</td>
+             <td>变量，基于OBJCODE</td>
+             <td>OBJCODE字段中标识的对象的主键/ID</td>
+        </tr>
+                <tr>
+             <td>角色ID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>角色ID</td>
+        </tr>
+                <tr>
+             <td>架构ID</td>
+             <td>FK</td>
+             <td>未提供SCHEMA表；此表中的值提供在SCHEMANAME列中。 SCHEMANAME标识记录所连接的KPI（例如plannedHours、estimatedHours和actualHours）。</td>
+             <td>-</td>
+        </tr>
+                <tr>
+             <td>SOURCETASKID</td>
+             <td>FK</td>
+             <td>任务_当前</td>
+             <td>TASKID</td>
+        </tr>
+                <tr>
+             <td>STAFFINGPLANID</td>
+             <td>FK</td>
+             <td>EMPLOYEING_PLAN_CURRENT</td>
+             <td>STAFFINGPLANID</td>
+        </tr>
+                <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>FK</td>
+             <td>EMPLOYEING_PLAN_RESOURCE_CURRENT</td>
+             <td>STAFFINGPLANRESOURCEID</td>
+        </tr>
+                <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>任务_当前</td>
+             <td>TASKID</td>
+        </tr>
+                <tr>
+             <td>TIMEPHASEDNUMBERSID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+                <tr>
+             <td>用户ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>用户ID</td>
+        </tr>
+    </tbody>
+</table>
+
 ### 时间表
 
 <table>
@@ -7215,7 +7716,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -7291,7 +7792,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -7355,7 +7856,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -7430,7 +7931,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -7505,7 +8006,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -7569,7 +8070,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -7577,9 +8078,9 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
       <tbody>
         <tr>
             <td>用户界面视图</td>
-            <td>查看</td>
+            <td>视图</td>
             <td>UIVIEW</td>
-            <td>查看</td>
+            <td>视图</td>
             <td>UIVIEWS_CURRENT<br>UIVIEWS_DAILY_HISTORY<br>UIVIEWS_EVENT</td>
         </tr>
       </tbody>
@@ -7644,7 +8145,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -7823,7 +8324,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -7881,7 +8382,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -7939,7 +8440,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -7997,7 +8498,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -8061,7 +8562,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -8113,7 +8614,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -8171,7 +8672,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
@@ -8223,7 +8724,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         <tr>
             <th>Workfront实体名称</th>
             <th>界面引用</th>
-            <th>API参考</th>
+            <th>API 参考</th>
             <th>API标签</th>
             <th>数据湖视图</th>
         </tr>
