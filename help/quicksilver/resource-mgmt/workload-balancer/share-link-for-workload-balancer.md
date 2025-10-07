@@ -6,7 +6,7 @@ description: 您可以与其他用户共享工作负载均衡器，其他用户�
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 1%
@@ -130,10 +130,10 @@ ht-degree: 1%
 1. 执行以下操作之一以与其他人共享链接：
 
    * 将其粘贴到电子邮件、聊天消息或任何其他应用程序中，并与其他用户共享。
-   * 将其作为外部页面添加到自定义分区，将自定义分区添加到用户的配置文件或布局模板，然后与用户、团队、工作角色或组共享布局模板。
+   * 将其作为外部页面添加到功能板，将功能板添加到用户的配置文件或布局模板，然后与用户、团队、工作角色或组共享布局模板。
 
-     有关创建外部页面的信息，请参阅[在仪表板中嵌入外部网页](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)。 有关将自定义分区添加到布局模板的信息，请参阅[使用布局模板自定义左侧面板](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)。
+     有关创建外部页面的信息，请参阅[在仪表板中嵌入外部网页](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)。 有关将功能板添加到布局模板的信息，请参阅[使用布局模板自定义左侧面板](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)。
 
      >[!IMPORTANT]
      >
-     >将工作负载均衡器添加到对象的自定义部分时，工作负载均衡器中的信息不按对象进行过滤。 工作负载均衡器显示按最初应用的过滤器过滤的信息。
+     >当您将工作负载均衡器作为仪表板添加到对象的左侧面板时，工作负载均衡器中的信息不按对象进行过滤。 工作负载均衡器显示按最初应用的过滤器过滤的信息。

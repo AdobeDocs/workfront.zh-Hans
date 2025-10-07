@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: f5b9f7eac2dd5bdc1f9634777b91737a8cc7fc53
+source-git-commit: 30b99255a2178f972f9a9f3f7eda5f2929a24978
 workflow-type: tm+mt
-source-wordcount: '13436'
+source-wordcount: '13446'
 ht-degree: 2%
 
 ---
@@ -842,7 +842,7 @@ ht-degree: 2%
       * [痕迹导航概述](workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
       * [对象标题概述](workfront-basics/the-new-workfront-experience/new-object-headers.md)
       * [固定页面以自定义工作区](workfront-basics/the-new-workfront-experience/pin-pages.md)
-      * [创建自定义分区](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
+      * [在Workfront对象或区域的左侧面板中添加仪表板](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
       * [访问Adobe Workfront帮助](workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
       * [[!DNL Adobe Workfront]对象概述](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
       * [了解工作许可证用户的导航](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
@@ -2505,8 +2505,8 @@ ht-degree: 2%
       * [使用JWT流配置和使用贵组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程配置和使用您组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-pkce-flow.md)
       * [弃用API — 内部](wf-api/api/deprecation-api-internal.md)
-      * [API版本20中的新增功能](wf-api/api/new-api-version-20.md)
-      * [API版本19中的新增功能](wf-api/api/new-api-version-19.md)
+      * [API版本20](wf-api/api/new-api-version-20.md)中的新增功能
+      * [API版本19](wf-api/api/new-api-version-19.md)中的新增功能
       * [API版本18中的新增功能](wf-api/api/new-api-version-18.md)
       * [API版本17中的新增功能](wf-api/api/new-api-version-17.md)
       * [API版本16中的新增功能](wf-api/api/new-api-version-16.md)

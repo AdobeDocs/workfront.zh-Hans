@@ -7,9 +7,9 @@ description: 报表常见问题解答
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 957c6e6955a828aa40ac996490d66e9c46f594bc
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## 访问要求
 
-+++ 展开以查看访问要求。
++++ 展开以查看访问要求。 
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -180,7 +180,7 @@ ht-degree: 0%
 有关刷新缓存报表的详细信息，请参阅[运行报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-report.md)。
 
 信息可在缓存的仪表板中手动刷新。\
-有关刷新缓存仪表板的更多信息，请参阅文章[仪表板入门](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)中的[显示仪表板](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md#running-dashboards)部分。
+有关刷新缓存仪表板的更多信息，请参阅文章[仪表板入门](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md#running-dashboards)中的[显示仪表板](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)部分。
 
 ## 我可以更改报告的所有者吗？
 
@@ -210,8 +210,7 @@ ht-degree: 0%
 
 在删除用户时，您仍然可以访问他们创建的任何报告，但是，也会删除包含该报告的任何仪表板。 这意味着您无法再访问以下内容：
 
-* 包含报表的信息板
-* 包含报表仪表板的自定义节
+* 包含报表（包括对象左侧面板中的仪表板）的仪表板
 
 若要了解有关删除用户影响的更多信息，请参阅[删除用户](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)。
 

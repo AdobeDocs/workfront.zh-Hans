@@ -7,9 +7,9 @@ description: 功能板的用途是提供对信息的快速访问。 您可以在
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
   <tr> 
    <td> <p><strong>Adobe Workfront许可证</strong></p> </td> 
       <td> 
-      <p>新增：</p>
+      <p>新：</p>
          <ul>
          <li><p>参与者或更高版本</p></li>
          </ul>
@@ -86,8 +86,8 @@ ht-degree: 0%
 * 按个人情况共享。\
   有关共享仪表板的详细信息，请参阅[共享报告、仪表板和日历](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)和[共享仪表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)。
 
-* 向Workfront中具有自定义分区的任何区域或对象添加功能板。\
-  有关创建自定义分区的详细信息，请参阅Adobe Workfront中的[左侧导航](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)。
+* 在左侧面板中将功能板添加到Workfront中的任何区域或对象。\
+  有关将功能板添加到左侧面板的详细信息，请参阅Adobe Workfront中的[左侧导航](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)。
 
 * 将功能板放置在布局模板上，以便与用户共享。\
   有关通过布局模板共享功能板的详细信息，请参阅[使用布局模板自定义左侧面板](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)。
@@ -95,7 +95,7 @@ ht-degree: 0%
 * 打印这些文件的硬拷贝以与用户共享。\
   有关打印仪表板的详细信息，请参阅[打印仪表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md)。
 
-* 将它们导出为PDF文件，以便您可以通过电子邮件发送给用户。\
+* 将它们导出为PDF文件，以便您可以通过电子邮件将其发送给用户。\
   有关将仪表板导出到PDF文件的详细信息，请参阅[导出仪表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md)。
 
 与用户共享功能板时，默认情况下，该功能板上的所有报告、日历和外部页面也会与相同用户共享。
@@ -108,8 +108,8 @@ ht-degree: 0%
 
 可通过以下方式显示操控板：
 
-* 访问放置仪表板的自定义部分。\
-  有关在自定义部分放置功能板的详细信息，请参阅[Adobe Workfront中的左侧导航](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)。
+* 通过对象的左侧面板访问仪表板。
+有关在左侧面板上放置仪表板的详细信息，请参阅[Adobe Workfront中的左侧导航](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)。
 
 * 搜索并手动访问仪表板。
 
