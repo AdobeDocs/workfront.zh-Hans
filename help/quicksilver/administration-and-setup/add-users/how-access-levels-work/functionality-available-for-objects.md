@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 82b184e18aa5520eb97aa9ac2f7ac84b251aca58
+source-git-commit: 02ca85404dfc2a00c94e21a6642748ab3ee39015
 workflow-type: tm+mt
 source-wordcount: '1313'
 ht-degree: 14%
@@ -145,7 +145,7 @@ ht-degree: 14%
 | 添加和删除项目 | ✓ |   |   |   |
 | 批准项目 | ✓ |   |   |   |
 | Portfolio优化 | ✓ |   |   |   |
-| 添加文档 | ✓ | ✓ |   |   |
+| 添加文档 | ✓ | ✓ | ✓ |   |
 | 添加更新和评论 | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}
@@ -169,7 +169,7 @@ ht-degree: 14%
 | 添加和删除项目 | ✓ |   |   |   |
 | 批准项目 | ✓ |   |   |   |
 | 项目组合的最优化 | ✓ |   |   |   |
-| 添加文档 | ✓ | ✓ |   |   |
+| 添加文档 | ✓ | ✓ | ✓ |   |
 | 添加添加更新和注释 | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}
