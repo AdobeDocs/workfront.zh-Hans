@@ -4,9 +4,10 @@ description: 2024年第四季度集成增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f5db7d32242ca11bf9e13dcd49b7e93369c03cab
+exl-id: 1559312e-2e51-4075-b9a9-923211abd125
+source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -24,5 +25,3 @@ ht-degree: 0%
 >预览版本： 2024年8月6日；生产版本： 2024年8月6日
 
 Outlook集成的登录体验已得到简化，因此所有客户都可以看到相同的按钮来登录Workfront，无论他们是否启用了IMS。 IMS和非IMS实例的后续登录步骤仍然不同，但所有用户的初始页面都相同。
-
-有关信息，请参阅[为Outlook设置Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)。

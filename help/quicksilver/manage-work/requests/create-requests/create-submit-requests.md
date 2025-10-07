@@ -6,9 +6,9 @@ description: 在Adobe Workfront中，计划工作由项目和任务表示。 但
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 70f6200fc94bc923c651d614dfd0aba68ceda334
+source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
 workflow-type: tm+mt
-source-wordcount: '2840'
+source-wordcount: '2790'
 ht-degree: 1%
 
 ---
@@ -369,12 +369,6 @@ Workfront管理员必须创建请求队列的以下组件：
 >请求进入Workfront时，HTML格式会被去除，但签名和现有的回复线程内容不会被去除并显示在请求描述中。
 
 有关如何启用请求队列以通过电子邮件接收请求的信息，请参阅[启用用户将问题通过电子邮件发送到请求队列项目](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md)。
-
-## 使用Outlook客户端创建请求
-
-您可以使用Outlook客户端提交请求。 您可以创建新请求，也可以将电子邮件转换为请求。
-
-有关使用Outlook客户端提交请求的信息，请参阅文章[从Outlook电子邮件创建Adobe Workfront请求](../../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md)。
 
 ## 使用Workfront移动设备应用程序创建请求
 

@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 6b93a6d7830d644520c38aa6010cd7df18c5a667
+source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '818'
 ht-degree: 4%
 
 ---
@@ -99,7 +99,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
      </tr> 
      <tr> 
       <td role="rowheader">允许人员使用Workfront的移动应用程序和Workfront Outlook加载项</td> 
-      <td> <p>允许用户访问移动设备应用程序(适用于iPad和移动设备应用程序的Workfront View)和Workfront Outlook应用程序。</p> <p>此选项默认处于启用状态。 </p> <p>有关Workfront视图的信息，请参阅<a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">使用Adobe Workfront视图</a>。 有关移动设备应用程序的详细信息，请参阅<a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">使用Adobe Workfront移动设备应用程序：文章索引</a>。</p> <p>有关Outlook插件的详细信息，请参阅<a href="../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md" class="MCXref xref">为Outlook设置Adobe Workfront</a>。</p> </td> 
+      <td> <p>允许用户访问移动设备应用程序(适用于iPad和移动设备应用程序的Workfront View)和Workfront Outlook应用程序。</p> <p>此选项默认处于启用状态。 </p> <p>有关Workfront视图的信息，请参阅<a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">使用Adobe Workfront视图</a>。 有关移动设备应用程序的详细信息，请参阅<a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">使用Adobe Workfront移动设备应用程序：文章索引</a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>使用电子邮件地址与没有Workfront帐户的人员协作</p> </td> 

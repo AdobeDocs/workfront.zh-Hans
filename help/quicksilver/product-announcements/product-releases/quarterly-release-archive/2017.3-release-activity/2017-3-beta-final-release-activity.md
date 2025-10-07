@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 880828f4-3908-4ef0-ab1f-774f8dee72b6
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
 workflow-type: tm+mt
-source-wordcount: '3821'
+source-wordcount: '3791'
 ht-degree: 0%
 
 ---
@@ -26,12 +26,12 @@ ht-degree: 0%
 
 2017.3 Beta最终版本包含面向Workfront管理员和其他用户的增强功能：
 
-管理员的&#x200B;**&#x200B;**
+管理员的&#x200B;****
 
 * [在审批设置区域重新调用请求的新配置](#new-configuration-for-recalling-requests-in-the-approval-settings-area)
 * [配置默认验证角色](#configure-default-proof-roles)
 
-所有用户&#x200B;**&#x200B;**
+所有用户&#x200B;****
 
 * [主页区域（已更新我的工作区）](#home-area-updated-my-work-area)
 
@@ -106,11 +106,11 @@ Workfront中的Scrum和Kanban敏捷方法在以下方面有所不同：
 
 * 配置积压中的物料，当其他物料移至等同于“完成”的状态时，这些物料自动添加到Kanban敏捷故事板。
 
-  有关详细信息，请参阅[配置Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)中的[配置要自动从积压工作中添加的故事](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5)。
+  有关详细信息，请参阅[配置Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5)中的[配置要自动从积压工作中添加的故事](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)。
 
 * 配置要在Kanban敏捷故事板上显示的进行中的工作(WIP)限制。
 
-  有关详细信息，请参阅[配置Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)中的[配置正在进行的工作(WIP)限制](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4)。
+  有关详细信息，请参阅[配置Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4)中的[配置正在进行的工作(WIP)限制](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)。
 
 **在Workfront中使用Scrum的好处**
 
@@ -118,14 +118,14 @@ Workfront中的Scrum和Kanban敏捷方法在以下方面有所不同：
 * 将问题包含在Scrum故事板上。
 * 包括Agile团队积压的问题。
 
-  有关详细信息，请参阅[配置Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)中的[配置将工作项添加到开发周期](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)时如何应用日期。
+  有关详细信息，请参阅[配置Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)中的[配置将工作项添加到开发周期](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)时如何应用日期。
 
 * 子任务可以显示在Scrum故事板上。
 * 查看燃尽图以查看迭代期间历程的进度。
 
   有关详细信息，请参阅[敏捷燃尽图概述](../../../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)。
 
-有关为Agile团队启用和配置Kanban的更多信息，请参阅[创建Agile团队](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)中的[确定Agile方法](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding)。
+有关为Agile团队启用和配置Kanban的更多信息，请参阅[创建Agile团队](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding)中的[确定Agile方法](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)。
 
 ## 包括有关Agile团队的Scrum积压的问题 {#include-issues-on-the-scrum-backlog-for-an-agile-team}
 
@@ -141,7 +141,7 @@ Workfront中的Scrum和Kanban敏捷方法在以下方面有所不同：
 
 有关在积压中使用问题的信息，请参阅  [管理Agile积压](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)。
 
-有关启用问题在Agile Scrum团队的积压中可用的信息，请参阅  [&#128279;](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)在[配置Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)中配置将工作项添加到迭代时如何应用日期。
+有关启用问题在Agile Scrum团队的积压中可用的信息，请参阅  [在](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)配置Scrum[中配置将工作项添加到迭代](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)时如何应用日期。
 
 ## 包含有关Scrum敏捷故事板的问题 {#include-issues-on-the-scrum-agile-story-board}
 
@@ -151,7 +151,7 @@ Workfront中的Scrum和Kanban敏捷方法在以下方面有所不同：
 
 在使用Scrum敏捷方法时，您现在可以在故事板上包含问题。
 
-有关详细信息，请参阅[配置Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)中的[在Agile故事板](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur2)上配置状态列。
+有关详细信息，请参阅[配置Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur2)中的[在Agile故事板](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)上配置状态列。
 
 ## 将分组和筛选器应用于Agile团队的积压 {#apply-groupings-and-filters-to-the-backlog-for-an-agile-team}
 
@@ -207,7 +207,7 @@ Workfront中的Scrum和Kanban敏捷方法在以下方面有所不同：
 
 ## 文档增强：简化的界面 {#document-enhancements-streamlined-interface}
 
-现在，向Workfront添加文档的用户体验更加简洁直观。 现在，您可以从文件系统上传文档、请求文档或从第三方应用程序(如Google或Dropbox)链接文件，所有这些操作都可以通过简单的下拉菜单完成。 
+现在，向Workfront添加文档的用户体验更加简洁直观。 现在，您可以通过简单的下拉菜单从文件系统上传文档、请求文档或从第三方应用程序(如Google或Dropbox)链接文件。 
 
 以前，通过启动“添加文档”对话框可以使用这些选项。 
 
@@ -270,9 +270,9 @@ Workfront中的Scrum和Kanban敏捷方法在以下方面有所不同：
 * [在HTML5视频校对查看器中重新启动并跳过（键盘快捷键）](#restart-and-skip-in-html5-video-proofing-viewer-keyboard-shortcuts)
 * [HTML5验证查看器更新](#html5-proofing-viewer-updates)
 
-### 在HTML5视频校对查看器中重新启动并跳过（键盘快捷键） {#restart-and-skip-in-html5-video-proofing-viewer-keyboard-shortcuts}
+### 在HTML5视频校对查看器中重新启动和跳过（键盘快捷键） {#restart-and-skip-in-html5-video-proofing-viewer-keyboard-shortcuts}
 
-现在，视频的HTML5校对查看器中提供了键盘快捷键，可让您从视频开始重新开始并跳到视频结尾。
+现在，在HTML5视频验证查看器中提供了键盘快捷键，可让您从头开始重新启动视频并跳到视频结尾。
 
 有关可用键盘快捷键的更多信息，请参阅Workfront Proof验证查看器中的[键盘快捷键](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)。
 
@@ -282,7 +282,7 @@ HTML5查看器现在支持静态校样。
 
 在此更改之前，HTML5查看器仅支持视频校样。 
 
-HTML查看器在校对静态内容时包括以下新功能：
+在校对静态内容时，HTML查看器包括以下新功能：
 
 * 在单个视图中时，在多个页面上添加带标记的单个注释
 
@@ -433,7 +433,7 @@ HTML5查看器尚不支持现有Flash查看器当前提供的所有功能。 以
 >
 >Slack集成当前不可用。 它将于2017年11月可用于您的生产环境。
 
-我们正在启动Workfront与Slack之间的新集成。 如果贵组织已经在使用Slack进行通信，则您现在可以将其与Workfront集成并执行常见的Workfront操作，而无需将通信渠道留在Slack中。 您现在可以从Slack帐户执行以下操作：
+我们正在启动Workfront与Slack之间的新集成。 如果贵组织已经在使用Slack进行通信，则您现在可以将其与Workfront集成并执行常见的Workfront操作，而无需在Slack中离开通信渠道。 您现在可以通过Slack帐户执行以下操作：
 
 * 在Workfront中搜索项目
 * 访问您的工作和审批列表
@@ -444,7 +444,7 @@ HTML5查看器尚不支持现有Flash查看器当前提供的所有功能。 以
 * 批准您的工作
 * 访问“收藏夹”和“最近项目”列表
 
-有关从Slack访问Workfront的更多信息，请参阅[在Slack中使用Workfront。](https://support.workfront.com/hc/en-us/sections/115000458033)
+有关从Slack访问Workfront的更多信息，请参阅[将Workfront与Slack结合使用。](https://support.workfront.com/hc/en-us/sections/115000458033)
 
 ## Outlook 365改进 {#outlook-365-improvements}
 
@@ -452,8 +452,6 @@ HTML5查看器尚不支持现有Flash查看器当前提供的所有功能。 以
 
 * 在Workfront中将任务或问题添加到项目：您现在可以使用Outlook 365加载项在Workfront中将电子邮件转换为任务或问题。 在此流程中，您可以指定要将任务或问题添加到的项目，以及被分派人和到期日期。 在此增强功能之前，您只能向请求队列提交请求，或向Outlook 365中的“正在处理”列表添加个人任务。 
 * 保留原始电子邮件中转换为任务、问题或请求的Workfront对象的链接：将来自Outlook 365的电子邮件转换为任务、问题或请求时，Outlook 365会保留原始电子邮件中从该电子邮件转换的任务或问题的链接。 在此更改之前，Outlook中没有任何指示电子邮件是否已转换为任务或作为请求提交。 
-
-  有关将电子邮件从Outlook 365转换为任务或问题的详细信息，请参阅[将Outlook电子邮件作为任务或问题添加到项目](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md)。
 
 ## API更改 {#api-changes}
 
