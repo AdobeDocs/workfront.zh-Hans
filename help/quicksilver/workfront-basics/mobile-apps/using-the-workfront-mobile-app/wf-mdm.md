@@ -7,16 +7,16 @@ description: Adobe [!DNL Workfront] 已与一些移动设备管理(MDM)平台合
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 6f989fb8-5e33-4626-92cf-1d3a629698b0
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 0b76f99627b154b216fc4ed6fb36e6a07805126e
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 0%
+source-wordcount: '120'
+ht-degree: 3%
 
 ---
 
-# [!DNL Mobile Device Management] (MDM)的[!DNL Adobe Workfront]
+# [!DNL Adobe Workfront] (MDM)的[!DNL Mobile Device Management]
 
-Adobe[!DNL Workfront]已与一些[!DNL Mobile Device Management] (MDM)平台合作，为组织提供更加安全和可控的移动体验。 [!DNL Workfront]移动设备应用程序在以下移动设备管理平台上可用：
+Adobe [!DNL Workfront]已与一些[!DNL Mobile Device Management] (MDM)平台合作，为组织提供更加安全和可控的移动体验。 [!DNL Workfront]移动设备应用程序在以下移动设备管理平台上可用：
 
 ## MobileIron
 
@@ -25,19 +25,13 @@ Adobe[!DNL Workfront]已与一些[!DNL Mobile Device Management] (MDM)平台合�
 * iOS
 * Android
 
-有关为[!DNL MobileIron]配置[!DNL Workfront]的信息，请参阅[为 [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)配置 [!DNL Adobe Workfront] 。
+有关为[!DNL Workfront]配置[!DNL MobileIron]的信息，请参阅[为 [!DNL Adobe Workfront] 配置 [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)。
 
-<!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Blackberry Dynamics</h2>
--->
+## Intune
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">See Blackberry Dynamics' help documentation to install the Workfront mobile app from their platform:</p>
--->
+Workfront移动应用现在可在[!DNL Microsoft Intune]应用商店中使用。 您的Workfront管理员可以通过Intune将应用程序分配给您的设备。
 
-<!--
-<ul data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<li>iOS</li>
-<li>Android</li>
-</ul>
--->
+* iOS
+* Android
+
+您的Workfront实例必须位于Adobe Identity Management System (IMS)上。
