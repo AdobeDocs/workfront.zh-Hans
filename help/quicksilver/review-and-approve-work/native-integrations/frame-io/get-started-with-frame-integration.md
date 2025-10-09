@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
-source-git-commit: a3edfadc447a763c638cc926b386272890697f81
+source-git-commit: 79851c46848b7897056e9953dc5a5bc004170a02
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,15 @@ Workfront和Frame.io集成使创意人员、营销人员和利益相关者与无
 
 您必须在Workfront实例中设置Workfront和Frame.io集成。 有关详细信息，请参阅[Frame.io集成概述](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md#integration-requirements)。
 
-<!--## Integration requirements
+## 集成要求
 
-* Workfront and Frame.io must be deployed to the same Identity Management system (IMS) organization.
+* Workfront和Frame.io必须部署到同一Identity Management system (IMS)组织。
 
-* Users can belong to only one Workfront instance within the IMS organization.
+* 用户只能属于IMS组织内的一个Workfront实例。
 
-* The Workfront instance must be enabled on the Adobe Unified Experience.
+* 必须在Adobe Unified Experience和Adobe企业存储上启用Workfront实例。
 
-* The integration is configured by Adobe Professional Services. -->
+* 该集成必须由Adobe Professional Services配置。
 
 ## Workfront中的工作启动和规划
 

@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
-source-git-commit: f8d81996846f7b719bf3e5e8aaa2ad9ba1805cff
+source-git-commit: 07fa7207960f424cc8580eb46fe13bd5af4e56a8
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -20,17 +20,14 @@ Workfront和Frame.io集成允许项目协调员在Workfront中管理项目和计
 
 ## 集成要求
 
-必须由Adobe Professional Services启用Workfront和Frame.io集成。
+* Workfront和Frame.io必须部署到同一Identity Management system (IMS)组织。
 
-<!--
-* Workfront and Frame.io must be deployed to the same Identity Management system (IMS) organization.
+* 用户只能属于IMS组织内的一个Workfront实例。
 
-* Users can belong to only one Workfront instance within the IMS organization.
+* 必须在Adobe Unified Experience和Adobe企业存储上启用Workfront实例。
 
-* The Workfront instance must be enabled on the Adobe Unified Experience.
+* 该集成必须由Adobe Professional Services配置。
 
-* The integration is configured by Adobe Professional Services. 
--->
 
 ## 构建于Adobe企业级存储之上
 
@@ -39,7 +36,7 @@ Workfront和Frame.io集成允许项目协调员在Workfront中管理项目和计
 Adobe企业存储的主要优势包括：
 
 * 用于创意和工作管理资产的统一存储层
-* 通过Adobe IMS集中管理权限以实现安全访问控制
+* 通过Adobe Identity Management system (IMS)集中管理权限以实现安全访问控制
 * Workfront和Frame.io <!--, and Creative Cloud apps -->中的端到端资源可见性
 * 满足企业需求的可扩展存储和配额管理
 
@@ -80,7 +77,7 @@ Workfront和Frame.io集成使用Workfront的统一审批功能来管理审阅和
 
 #### Frame.io查看器支持的文件类型
 
-Frame.io查看器支持所有常见视频、图像、音频、PDF和MS® Office类型。 有关支持的文件的详细列表，请参阅Frame.io[上的](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)类型。
+Frame.io查看器支持所有常见视频、图像、音频、PDF和MS® Office类型。 有关支持的文件的详细列表，请参阅Frame.io[上的](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)支持的文件类型。
 
 #### Frame.io查看器的访问和许可
 
@@ -98,11 +95,13 @@ Workfront校对功能在此集成中不可用。
 
 ### 强制的结构和命名约定
 
-由于此集成是使用ESM构建的，因此在管理项目和文档时，应注意一些强制性的结构和命名约定。
+由于此集成是使用Adobe Enterprise Storage构建的，因此在管理项目和文档时，应注意一些强制性的结构和命名约定。
 
 * 对象名称必须是唯一的，并且不能重复
-* ESM要求层次结构树中具有相同父级的对等对象具有唯一的名称
+* Adobe企业存储要求层次结构树中具有相同父级的对等对象具有唯一的名称
 * 如果文档属于同一项目，则不能具有相同的名称
+* 文档名称不能包含以下任何特殊字符：\ / ： * ？ &quot; | &lt; >
+* 文档名称限制为最多255个字符
 
 考虑到这些限制，Workfront会根据需要自动重命名对象或文档，以防止冲突。
 
