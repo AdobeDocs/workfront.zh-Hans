@@ -6,9 +6,9 @@ description: 主页可帮助您管理工作。 您可以自定义此灵活空间
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 884ade1102e685ec01af2790b17acb50c2114ca7
+source-git-commit: 1cb165e826ee57483989474c095553a08e33bc9a
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1106'
 ht-degree: 4%
 
 ---
@@ -57,7 +57,7 @@ Adobe Workfront中的新“主页”体验旨在改进当前的“主页”体�
 * **我的请求**\
     显示您已提交的所有请求，一个过滤器用于仅显示打开的请求，以及一个用于打开请求的摘要面板的按钮。
 
-  <span class="preview">在“预览”环境中，此构件显示您已提交的所有请求，一个筛选条件用于仅显示符合您指定条件的请求，以及一个允许您重新排列构件中的列的按钮。</span>
+  <span class="preview">在“预览”环境中，此构件显示您已提交的所有请求，一个筛选条件用于仅显示符合您指定条件的请求，以及一个允许您重新排列构件中的列的按钮。 如果您有权访问Workfront Planning，则您的Planning请求也会显示在此处。</span>
 
 
 * **团队请求**\
