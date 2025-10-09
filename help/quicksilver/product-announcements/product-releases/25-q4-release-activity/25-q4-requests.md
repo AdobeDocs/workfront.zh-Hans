@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
+source-git-commit: 94e81f50ca38ab8139684887c58e0f00353587d7
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -16,15 +16,15 @@ ht-degree: 0%
 
 本页介绍了在2025年第四季度版本中对“预览”环境所做的请求增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2025年第四季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2025年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)。
+有关2025年第四季度发布周期中此时可用的所有更改列表，请参阅[ 2025年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)。
 
 ## 在请求区域创建和保存视图
 
 >[!NOTE]
 >
 >预览： 2025年10月2日
->&#x200B;>生产快速发布： 2025年10月15日
->&#x200B;>为每个人生产： 2025年10月16日
+>>生产快速发布： 2025年10月15日
+>>为每个人生产： 2025年10月16日
 
 为了更便于查看您需要的信息，我们在请求区域添加了创建和保存视图的功能。 现在，您可以保存视图（包括筛选器和列配置），并在视图之间切换。 Workfront管理员可以将新视图添加到布局模板。
 
@@ -71,7 +71,7 @@ For more information on creating requests see:
 使用新的请求体验时，请注意以下事项：
 
 * 您当前只能在旧版请求体验中找到草稿。 在新版Experience中，仅当在同一路径中有草稿时，才能在工作流队列中查看草稿。
-* 新Experience当前仅显示过去1.5个月内创建的请求。 要查看旧请求，您可以暂时禁用新体验，并通过旧体验访问旧请求。
+* 新Experience当前仅显示在2025年7月之后创建的请求。 要查看旧请求，您可以暂时禁用新体验，并通过旧体验访问旧请求。
 
 以前，Workfront和Workfront Planning请求位于不同的选项卡中，并且过滤器不可自定义。
 
