@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 2d7022eae32d3266966ef6f424b1cff176622f86
+source-git-commit: d7f91e17294981c2c31681ca7f4732f9a79d4c61
 workflow-type: tm+mt
-source-wordcount: '8402'
+source-wordcount: '8483'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,14 @@ ht-degree: 0%
 有关Adobe Workfront的所有其他更改，请参阅[产品版本](/help/quicksilver/product-announcements/product-releases/product-releases.md)。
 
 ## 管理和设置
+
+### 更新了公司导入用户对话框的界面
+
+**预览版本： 2025年10月9日；适用于所有客户的生产版本：从2025年10月16日起一周**
+
+我们更新了用于通过电子表格文件在公司中导入新用户的对话框，以匹配应用程序的其他区域。
+
+要查看此更改，请转到设置>公司>选择公司>公司成员>添加成员>导入用户。
 
 ### “新建里程碑路径”框和“编辑里程碑路径”框的新界面和功能
 
@@ -56,7 +64,7 @@ ht-degree: 0%
 
 ### “设置”中“严重程度”区域的界面更新
 
-**预览版本： 2025年9月25日；生产版本： 2025年10月9日**
+**预览版本： 2025年9月25日；生产版本：待宣布**
 
 我们更新了“严重程度”页面，使其设计更加现代化，与Workfront的其他区域保持一致。
 
@@ -68,7 +76,7 @@ ht-degree: 0%
 
 ### 设置中优先级区域的界面更新
 
-**预览版本： 2025年9月25日；生产版本： 2025年10月9日**
+**预览版本： 2025年9月25日；生产版本：待宣布**
 
 我们更新了“优先级”页面，更新了与Workfront其他区域一致的更加现代的设计。
 
@@ -484,6 +492,11 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 ### 个人休假的界面更新
 
 **预览版本： 2025年9月25日；生产版本： 2025年10月2日**
+
+>[!NOTE]
+>
+>此功能已于2025年10月9日从预览和生产环境中暂时删除。
+
 
 我们更新了个人休息时间日程表的外观，包括委派审批以匹配应用程序其他方面的能力。
 
