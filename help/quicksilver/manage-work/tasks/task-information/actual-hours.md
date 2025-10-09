@@ -7,9 +7,9 @@ description: 您在Adobe Workfront中登录工作项的小时数被视为实际�
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: de42974a9a5c4c346ef3ae1cce09968befd1381c
+source-git-commit: d577fb1f84c2a91c7b4a37be271235ffa338c9fd
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1253'
 ht-degree: 0%
 
 ---
@@ -75,11 +75,14 @@ ht-degree: 0%
      >
      >项目的实际成本使用旧版实际小时数进行计算。
 
+* 在项目、任务或问题详细信息区域中，实际小时数可显示在以下字段中：
 
-* 在项目、任务或问题详细信息区域中：
+   * **实际小时数**：在“详细信息”选项卡中，这些是2021年5月之后为项目、任务或问题记录的小时数。 它们以小时为单位存储在Workfront数据库中，其valuefield为`actualWorkRequiredDouble`。
+   * **实际小时数**：在项目、任务或问题自定义表单中，当使用引用实际小时数本机字段的本机字段引用自定义字段访问时。 这些是2021年5月之后为项目、任务或问题记录的小时数。 它们以小时为单位存储在Workfront数据库中，其valuefield为`actualWorkRequiredDouble`。
 
-   * **实际小时数**： 2021年5月之后为项目、任务或问题记录的小时数。 它们以小时为单位存储在Workfront数据库中，其valuefield为`actualWorkRequiredDouble`。
-   * **实际小时数**：使用项目、任务或问题自定义表单中的本机字段引用自定义字段访问这些小时数时。
+>[!NOTE]
+>
+>建议尽可能使用实际小时数字段，因为旧版实际小时数字段可能会由于递增方式而显示不准确的小时数。
 
 ## 任务和问题的实际小时数与项目的实际小时数
 
