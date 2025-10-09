@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
+source-git-commit: e717e095f1995dbed0232789616d42492156d843
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 2%
+source-wordcount: '820'
+ht-degree: 3%
 
 ---
 
@@ -27,13 +27,13 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 从“预览”版本开始的一周后，生产环境中所有客户也可以使用相同的功能。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-有关详细信息，请参阅[接口现代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 作为Adobe Workfront管理员，您可以创建里程碑路径，这些路径随后可以应用于系统中的任何项目。 您对此区域中的里程碑路径所做的更改会影响整个Workfront系统。
 
@@ -85,13 +85,9 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
 1. 单击&#x200B;**进程** > **里程碑路径**。
 1. 单击&#x200B;**新建里程碑路径。**
 
-   <div class="preview">
-
    “新建里程碑路径”框打开。
 
    ![新里程碑路径框](assets/new-milestone-path-box.png)
-
-   </div>
 
 1. 单击左侧面板中的&#x200B;**基本信息**。
 
@@ -118,8 +114,7 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
 
 1. 单击左侧面板中的&#x200B;**里程碑**。
 
-1. 在生产环境中，单击&#x200B;**添加里程碑**&#x200B;以将里程碑添加到路径中。
-   <span class="preview">在“预览”环境中，单击&#x200B;**新行**&#x200B;以将里程碑添加到路径中。</span>
+1. 单击&#x200B;**新行**&#x200B;以将里程碑添加到路径中。
 1. 更新以下信息：
 
    <table style="table-layout:auto"> 

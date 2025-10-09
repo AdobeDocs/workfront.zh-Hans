@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: e717e095f1995dbed0232789616d42492156d843
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1308'
 ht-degree: 1%
 
 ---
@@ -217,6 +217,7 @@ ht-degree: 1%
 
    <span class="preview">![创建视图框](assets/create-view-box.png)</span>
 
+1. <span class="preview">要编辑现有视图，请在&#x200B;**搜索**&#x200B;字段中键入视图的名称，然后在键盘上按Enter。</span>
 1. <span class="preview">从“视图”下拉菜单中，按您喜好的顺序拖放视图。</span>
 
    <span class="preview">![记录类型列表中的查看类型下拉列表](assets/view-types-drop-down-from-record-type-list.png)</span>

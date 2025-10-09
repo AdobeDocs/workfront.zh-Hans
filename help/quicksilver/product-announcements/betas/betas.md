@@ -1,25 +1,38 @@
 ---
 navigation-topic: betas
 title: Beta项目
-description: 了解Adobe Workfront中的当前测试版。
+description: 了解Beta版中目前向所有或有限数量的客户提供的新Adobe Workfront功能。
 author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: e717e095f1995dbed0232789616d42492156d843
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 0%
+source-wordcount: '112'
+ht-degree: 1%
 
 ---
 
 # Beta项目
 
-本页链接的各篇文章介绍了Adobe Workfront中当前提供的测试版计划。 Beta版中提供的功能可能并非对所有客户都可用。
+本页链接的各篇文章介绍了Adobe Workfront中当前提供的测试版计划。
 
-以下文章包含有关当前处于Beta状态的功能的信息：
+以受限版本运行并私密管理的Beta程序可能不会在此页面上列出。
 
-* [Canvas功能板测试版信息](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
+Beta版中提供的功能可能并非对所有客户都可用。
+
+以下功能目前在Beta版中可用：
+
+* 画布功能板
+
+  有关信息，请参阅[画布功能板测试版信息](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)。
+
+* 项目健康
+
+  有关信息，请参阅[项目运行状况概述](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md)。
+
+* Workfront AI审阅者
+有关信息，请参阅[Workfront AI查看器入门](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)。
 
 
 <!--
