@@ -5,76 +5,82 @@ description: 您可以使用AI Assistant解决计算字段中的无效自定义�
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
-source-git-commit: bec1318d83938964697d76b83062ef11745802e3
+source-git-commit: 46fdc768adade4872d636014c0e215c5f129d1de
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '46'
 ht-degree: 0%
 
 ---
 
 # 使用AI助手生成或修订计算字段公式
 
-您可以使用AI Assistant根据提供的提示生成公式。 您还可以解决计算字段中的无效自定义表达式中的错误。
+>[!IMPORTANT]
+>
+>从Adobe Workfront中删除了使用AI助手生成公式的功能。
 
-## 访问要求
 
-您必须具有以下权限才能执行本文中的步骤：
+<!-- You can use AI Assistant to generate formulas based on a prompt you provide. You can also resolve errors in your invalid custom expressions in calculated fields.
+
+## Access requirements
+
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-   <td><p>新增：Prime或Ultimate</p>
-       <p>或</p>
-       <p>当前：不可用</p></td>
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td><p>New: Prime or Ultimate</p>
+       <p>or</p>
+       <p>Current: Not available</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td><p>新增：标准</p>
-       <p>或</p>
-       <p>当前：不可用</p></td>
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>New: Standard</p>
+       <p>or</p>
+       <p>Current: Not available</p></td>
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## 先决条件
+## Prerequisites
 
-* 您的Workfront管理员必须为贵组织启用AI助手。
+* Your Workfront administrator must have enabled AI Assistant for your organization.
 
-  有关详细信息，请参阅AI助手概述一文中的[AI助手先决条件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
-* 您的Workfront管理员必须已启用您访问级别的AI助手。
+    For more information, see [Prerequisites to AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) in the article AI Assistant overview.
+* Your Workfront administrator must have enabled AI Assistant for your access level.
 
-  有关详细信息，请参阅[启用或禁用AI助手](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)。
+   For more information, see [Enable or disable AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
 <!--## Generate a calculated field expression-->
 
-## 修订计算字段表达式
+<!-- ## Revise a calculated field expression
 
-在自定义表单生成器中创建计算字段时，如果公式无效，则该字段下会显示错误消息。
+When you are creating the calculated field in the custom form builder, an error message appears under the field if the formula is invalid.
 
-![无效表达式错误](assets/invalid-expression.png)
+![Invalid expression error](assets/invalid-expression.png)
 
-AI助手可以帮助您将公式修订为有效的计算字段表达式。
+AI Assistant can help you revise your formula into a valid calculated field expression.
 
-要修订无效的计算字段表达式，请执行以下操作：
+To revise an invalid calculated field expression:
 
-1. 单击屏幕右上角附近的&#x200B;**AI助手**&#x200B;图标![AI助手图标](assets/ai-assistant-icon.png)。
-1. 在“AI助手”面板底部附近的提示区域中，输入以下提示：
-   `Rewrite this formula to remove the invalid expression error`
-1. 从自定义表单生成器中复制无效的表达式，并将其粘贴到提示区域。
-1. 按&#x200B;**Enter**。
+1. Click the **AI Assistant** icon ![AI Assistant icon](assets/ai-assistant-icon.png) near the upper-right corner of the screen.
+1. in the prompt area near the bottom of the AI Assistant panel, enter a prompt such as:
+`Rewrite this formula to remove the invalid expression error`
+1. Copy the invalid expression from the custom form builder, and paste it into the prompt area.
+1. Press **Enter**.
 
-   AI Assistant可能需要一些时间来生成修订公式，具体取决于公式的大小或复杂程度。
-1. 在AI助手面板中查看修订的公式。
-1. （可选）从“AI助手”面板复制修订的公式，并将其粘贴到自定义表单生成器的计算字段中。
+   AI Assistant may take a few moments to generate the revised formula, depending on how large or complex the formula is.
+1. View the revised formula in the AI Assistant panel.
+1. (Optional) Copy the revised formula from the AI Assistant panel, and paste it into the calculated field in the custom form builder.
 
 >[!NOTE]
 >
->我们建议测试计算字段以确保其检索到预期结果。
+>We recommend testing the calculated field to ensure that it retrieves the expected result.
 
-有关Workfront中计算字段的详细信息，请参阅[将计算字段添加到表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)。
+For more information on calculated fields in Workfront, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
+-->
