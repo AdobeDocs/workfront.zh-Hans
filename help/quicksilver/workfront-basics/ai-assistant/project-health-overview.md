@@ -5,9 +5,9 @@ description: 项目运行状况功能利用AI Assistant的强大功能即时为�
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: 81f2787a5a9dd4f3737f3494c824502fe4abe59d
+source-git-commit: d1ded406b8c4da975e2ff4d6825954cabd483ed2
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1488'
 ht-degree: 2%
 
 ---
@@ -73,7 +73,7 @@ AI助手可以为以下对象生成项目运行状况评估：
 * 必须启用Adobe Unified Experience。
 * Adobe必须有一个已签署的Adobe Gen AI协议文件。
 * Workfront管理员必须为贵组织中的用户启用AI助手。 通过访问级别启用AI助手。
-* 必须在设置>首选项的AI首选项部分中，同时选择启用AI和项目运行状况选项。
+* 必须在设置>系统>首选项中的AI首选项部分选择启用AI和项目运行状况选项。
 
   ![AI首选项部分](assets/ai-preferences.png)
 
