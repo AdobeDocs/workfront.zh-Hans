@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: d088b40cd8d46a986998fde2176646aa1660cb6b
+source-git-commit: 0e6b43d0d9ca416fdd67907457e3b0afec66db63
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '657'
 ht-degree: 4%
 
 ---
@@ -36,6 +36,10 @@ ht-degree: 4%
 * Adobe必须有一个已签署的Adobe Gen AI协议文件。
 有关签署协议的更多信息，请参阅[签署Adobe Gen AI协议](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)。
 
+## 加入Beta
+
+要加入测试版，请转到&#x200B;**设置** > **审阅和批准** > **AI审阅者**，然后单击&#x200B;**接受条款**。
+
 
 ## 支持的文件类型 {#supported-file-types-ai-reviewer}
 
@@ -55,7 +59,7 @@ AI审阅者可审阅以下文件类型：
 
 ## 设置品牌指南
 
-Workfront AI Reviewer在查看内容时使用Genstudio Foundation中设置的品牌准则。 目前，您只能设置图像的品牌指南。 有关详细信息，请参阅[Adobe GenStudio for Performance Marketing入门](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/get-started)。
+Workfront AI Reviewer在查看内容时使用Genstudio Foundation中设置的品牌准则。 目前，您只能设置图像的品牌指南。 有关详细信息，请参阅[Adobe GenStudio for Performance Marketing入门](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started)。
 
 
 ## 创建AI审阅者
