@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 4a7362ae663b73ce48f049556145b4de3e6a6ac9
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 2%
@@ -18,6 +18,8 @@ ht-degree: 2%
 # 重置用户的首选项
 
 <!-- Audited: 12/2023 -->
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 作为Adobe Workfront管理员，您可以重置或删除Workfront系统中任何用户的用户首选项设置。
 
@@ -45,7 +47,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td>
+   <td>[！UICONTROL系统管理员]</td>
   </tr> 
  </tbody> 
 </table>
@@ -90,11 +92,11 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>用户首选项</td> 
-   <td> <p>已还原为系统默认值</p> <p>电子邮件通知将还原为系统默认值。 默认通知列在Adobe Workfront</a>中可用的<a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">事件通知中。</p> </td> 
+   <td> <p>已还原为系统默认值</p> <p>电子邮件通知将还原为系统默认值。 默认通知列在Adobe Workfront<a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">中可用的</a>事件通知中。</p> </td> 
   </tr> 
   <tr> 
    <td>用户定义的自定义选项卡</td> 
-   <td>已删除</td> 
+   <td>已移除</td> 
   </tr> 
   <tr> 
    <td>用户定义的全局导航选项</td> 
@@ -103,6 +105,17 @@ ht-degree: 2%
  </tbody> 
 </table>
 
+<!-- Display this table and hide the HTML table above, when the unshim is released.
+| Preference | Status after the reset |
+| --- | --- |
+| Views | Reverted to the system default <p>Existing views are not deleted. You can select them again.</p> |
+| Filters | Reverted to the system default <p>Existing filters are not deleted. You can select them again.</p> |
+| Groupings | Reverted to the system default <p>Existing groupings are not deleted. You can select them again.</p> |
+| Recent items list | Cleared |
+| Favorites list | Unaffected |
+| User Preferences | Reverted to the system default <p>Email notifications revert to the system defaults. The default notifications are listed in [Event notifications available in Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).</p> |
+-->
+
 ## 重置用户首选项
 
 {{step-1-to-setup}}
@@ -110,9 +123,9 @@ ht-degree: 2%
 1. 选择&#x200B;**登录身份**。
 1. 开始键入要重置其首选项的用户名，然后在名称出现在下拉列表中时单击该名称。
 1. 选择&#x200B;**登录**。
-1. 如果贵组织尚未载入AdobeUnified Experience，请按照以下步骤操作：
+1. 如果贵组织尚未载入Adobe Unified Experience，请按照以下步骤操作：
 
-   * 在Web浏览器顶部的URL字段中，在`workfront.com`之后添加`/resetUser`。
+   * 在Web浏览器顶部的URL字段中，在`/resetUser`之后添加`workfront.com`。
 
      >[!NOTE]
      >
@@ -120,9 +133,9 @@ ht-degree: 2%
      >
      >`https://company_domain.my.workfront.com/resetUser`
 
-1. 如果您的组织已载入到AdobeUnified Experience，请按照以下步骤操作：
+1. 如果您的组织已载入到Adobe Unified Experience，请按照以下步骤操作：
 
-   * 在Web浏览器顶部的URL字段中，在`workfront`之后添加`/resetUser`。
+   * 在Web浏览器顶部的URL字段中，在`/resetUser`之后添加`workfront`。
 
      >[!NOTE]
      >
@@ -133,6 +146,7 @@ ht-degree: 2%
 1. 按&#x200B;**Enter**。
 1. 要重置所有用户首选项，请选择&#x200B;**重置**。
 
-   或
+<!--When this is unshimmed, adjust the comment tags to hide these last two lines, because the Reset Tabs button is going away.-->
+或
 
-   要仅重置自定义选项卡，请选择&#x200B;**重置选项卡**。
+要仅重置自定义选项卡，请选择&#x200B;**重置选项卡**。

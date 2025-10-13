@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-source-git-commit: 7cb1eed72b0f5ce4abd83013b7a2f224dbb2c229
+source-git-commit: 4a7362ae663b73ce48f049556145b4de3e6a6ac9
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 3%
@@ -18,6 +18,8 @@ ht-degree: 3%
 # 创建或自定义问题严重性
 
 {{highlighted-preview}}
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -55,7 +57,7 @@ Linked to Understanding Issue Severity.
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td>
+   <td>[！UICONTROL系统管理员]</td>
   </tr> 
  </tbody> 
 </table>
