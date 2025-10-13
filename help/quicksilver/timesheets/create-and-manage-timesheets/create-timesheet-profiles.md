@@ -6,9 +6,9 @@ description: 您可以创建、编辑和分配时间表配置文件，以便为�
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 611c3c947855610cf86cdcbf96d1e9d847e34f38
+source-git-commit: 395a7788ddfda71264b7b964953435affd7761e9
 workflow-type: tm+mt
-source-wordcount: '1668'
+source-wordcount: '1597'
 ht-degree: 2%
 
 ---
@@ -16,8 +16,6 @@ ht-degree: 2%
 # 创建、编辑和分配时间表配置文件
 
 <!--Audited: 06/2025-->
-
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用，正在分阶段发布到生产环境。</span>
 
 您可以创建、编辑和分配时间表配置文件，以便为用户生成周期性时间表，而无需您的任何进一步干预。 这节省了您的时间，并确保用户之间的以下内容保持一致：
 
@@ -151,13 +149,11 @@ ht-degree: 2%
 
    * **提醒通知**：添加提醒通知。 Workfront将向用户发送提醒，要求他们完成或批准时间表。 您必须先创建提醒通知，然后才能将其与时间表配置文件关联。
 
-1. 在生产中创建组级时间表配置文件时，单击&#x200B;**分配人员**&#x200B;选项卡以将时间表配置文件与特定用户、组或(如果您是Workfront管理员)团队关联。<!--To associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams, scroll towards the bottom of the page and find the **Assign People** section.-->
-
-   <span class="preview">在“预览”中创建组级时间表配置文件时，滚动到页面底部并找到&#x200B;**分配人员**&#x200B;部分。</span>
-
-   为系统创建时间表配置文件时，滚动到页面底部并找到&#x200B;**分配人员**&#x200B;部分。
+1. 要将时间表配置文件与特定用户、组或(如果您是Workfront管理员)团队关联，请滚动到页面底部并找到&#x200B;**分配人员**&#x200B;部分。
 
    开始键入用户、组或团队的名称，然后当它出现在下拉列表中时单击它。
+
+   <!--To associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams, scroll towards the bottom of the page and find the **Assign People** section.-->
 
    如果您是组管理员，您可以将时间表配置文件分配给您管理的组，但不能分配给团队。 有关详细信息，请参阅本文中的[组管理员分配时间表配置文件](#limitations-for-a-group-administrator-assigning-a-timesheet-profile)的限制。
 
