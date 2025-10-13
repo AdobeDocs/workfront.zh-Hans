@@ -6,14 +6,16 @@ description: 您可以查看与项目、任务或开发周期关联的问题。
 author: Alina
 feature: Work Management
 exl-id: b6791c8f-b356-4235-8b0e-952e29a88952
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
 
 # 查看问题
+
+<!--Audited: 10/2025-->
 
 您可以查看与项目、任务或开发周期关联的问题。
 
@@ -78,7 +80,7 @@ ht-degree: 0%
 
    从以下项中选择：
 
-   * 打开
+   * Open
    * 已完成
    * 全部
 
@@ -134,15 +136,18 @@ ht-degree: 0%
 * **小时**：显示问题的小时条目列表。
 * **审批：**&#x200B;显示与问题关联的审批路径。
 
-  有关将审批与问题关联的更多信息，请参阅[为工作项创建审批流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)中的[将审批流程与工作项关联](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md#associating-the-approval-process-with-an-object)部分。
+  有关将审批与问题关联的更多信息，请参阅[为工作项创建审批流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md#associating-the-approval-process-with-an-object)中的[将审批流程与工作项关联](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)部分。
 
 ## 查看哪些项目和任务存在问题
 
-您可以在项目、任务报告或列表的视图中添加图标以显示它们是否附加了问题。 对于项目和任务，向报表或列表视图添加图标的方式很相似。
+您可以在项目、任务报告或列表的视图中添加图标以显示它们是否附加了问题。
+
+对于项目和任务，向报表或列表视图添加图标的方式很相似。
 
 要添加显示项目在项目报告中是否有问题的图标，请执行以下操作：
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)。
+{{step1-click-main-menu}}
+
 1. 单击&#x200B;**报告** > **新报告** > **项目报告**。
 1. 在&#x200B;**显示在此列**&#x200B;字段中，开始键入&#x200B;**状态图标**，然后当图标出现在列表中时将其选定。
 
@@ -150,4 +155,4 @@ ht-degree: 0%
 
    问题图标显示在&#x200B;**状态图标**&#x200B;列中有问题的项目中。
 
-   ![project_list_with_issue_icon.png](assets/project-list-with-issue-icon-350x132.png)
+   ![项目列表，带有问题图标](assets/project-list-with-issue-icon-350x132.png)

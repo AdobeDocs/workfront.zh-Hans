@@ -4,7 +4,7 @@ description: 记录类型是Adobe Workfront Planning的对象类型。 在Workfr
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
+source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 0%
@@ -29,13 +29,13 @@ recommendations: noDisplay, noCatalog
 
 本文介绍了如何从现有记录类型添加记录类型，以及在不再需要记录类型时如何删除记录类型。
 
-工作区管理员必须先将记录类型指定为集中类型，然后才能将其添加到作为现有记录类型管理的工作区。
+工作区管理员必须先将记录类型指定为全局记录类型，然后才能将其添加到作为现有记录类型管理的工作区中。
 
-在定义记录类型的高级设置时，您可以在创建或编辑记录类型时将记录类型指定为集中类型。
+在创建或编辑记录类型时，您可以在定义其跨工作区设置时将记录类型指定为全局记录类型。
 
 有关信息，请参阅[为记录类型配置跨工作区功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。
 
-在从集中式记录类型向工作区添加记录之前，请参阅文章[跨工作区记录类型概述](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)。
+在从全局记录类型向工作区中添加记录之前，请参阅文章[跨工作区记录类型概述](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)。
 
 
 ## 访问要求
@@ -58,7 +58,7 @@ recommendations: noDisplay, noCatalog
 <ul><li><p>任何Workfront包</p></li>
 <p>与</p>
 <li><p>用于创建可连接记录类型的任意Planning包</p></li>
-<li><p>用于创建集中记录类型的Planning Plus包</p></li>
+<li><p>用于创建全局记录类型的Planning Plus包</p></li>
 </ul>
 <!--Or:
 <ul><li><p>Any Workflow package</p> </li>
@@ -101,39 +101,39 @@ And
 
    出现以下情况：
 
-   * 还从现有的集中记录类型中添加了以下信息：
+   * 还从现有全局记录类型中添加了以下信息：
 
       * 所有原始字段
       * 所有记录连接
-   * 只有在您至少具有这些工作区的“查看”权限时，才能查看从使用相同集中记录类型的其它工作区添加的记录。
-   * **集中式记录类型**&#x200B;图标![集中式记录类型图标](assets/global-icon.png)已添加到新记录类型的卡片中。
+   * 只有在您至少具有这些工作区的“查看”权限时，才能查看从使用相同全局记录类型的其它工作区添加的记录。
+   * **全局记录类型**&#x200B;图标![全局记录类型图标](assets/global-icon.png)已添加到新记录类型的卡片中。
    * 只读&#x200B;**Workspace**&#x200B;字段已添加到新记录类型表视图中。 字段显示每个记录创建时所在的工作区。
 
      >[!NOTE]
      >
-     >您无法编辑新记录类型的外观、高级设置或原始字段。 只能从原始工作区编辑记录类型及其所有原始字段和设置。
+     >您无法编辑新记录类型的外观、其他设置或原始字段。 只能从原始工作区编辑记录类型及其所有原始字段和设置。
 
 1. （可选）单击，然后将新添加的记录类型拖放到工作区中的任何部分。
 
 <!--This will be released later with another epic: 1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) in the new record type's card, or to the right of the record type's name on its page, then click **Share** to share it with other users in the same workspace, or adjust their permissions to the record type.-->
 
-## 从辅助工作区中删除集中记录类型
+## 从辅助工作区中删除全局记录类型
 
 如果不再需要某个记录类型，您可以将其从另一个工作区中删除。 删除它只会将其从辅助工作区中删除，并且将删除该工作区中添加的记录。 原始记录类型会保留在其原始工作区中，以及已添加该记录的其他工作区中。
 
-要从辅助工作区中删除集中记录类型，请执行以下操作：
+要从辅助工作区中删除全局记录类型，请执行以下操作：
 
-1. 转到辅助工作区中的集中式记录类型。
+1. 转到辅助工作区中的全局记录类型。
 
 1. （可选）单击记录类型卡片上的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，或记录类型名称页面右侧，然后单击&#x200B;**删除**。
 1. （视情况而定）在提供的字段中键入&#x200B;**删除**，然后单击&#x200B;**永久删除**。
 
    出现以下情况：
 
-   * 从所选工作区中删除从集中式记录类型创建的记录类型。
+   * 从所选工作区中删除从全局记录类型创建的记录类型。
    * 原始记录类型及其字段保留在其原始工作区中。
    * 记录类型将保留在添加该记录的所有其他工作区中。
-   * 从当前工作区添加到记录类型的记录将被删除。 从添加了集中记录类型的附加工作区中添加的所有其他记录都将保留。
+   * 从当前工作区添加到记录类型的记录将被删除。 从添加全局记录类型的附加工作区中添加的所有其他记录都将保留。
 
 
 

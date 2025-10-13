@@ -4,10 +4,10 @@ description: 您可以将记录类型添加到另一个工作区或从另一个�
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
+source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 1%
+source-wordcount: '1230'
+ht-degree: 0%
 
 ---
 
@@ -20,12 +20,12 @@ recommendations: noDisplay, noCatalog
 
 -->
 
-<!--*******************THIS TITLE MIGHT NEED TO CHANGE WHEN WE HAVE THE FINAL NAME FOR THE "GLOBAL" RECORD TYPE - NOT SURE IF WE ARE GOING TO USE "GLOBAL" OR "DYNAMIC", OR ???? ***************; also update TOC file, the miniTOC,  etc when this is finalized-->
-
+<!--*******************REPLACE THE "ADVANCED SETTINGS" SECTION IN THE "EDIT RECORD TYPES" ARTICLE WITH A LINK TO THIS ARTILE INSTEAD AND REMOVE THE STEPS FROM THE "EDIT RECORD TYPES" ARTICLE ON HOW TO ALLOW CROSS-WORKSPACE SETTINGS FOR RECORD TYPES*************-->
 
 
 <!--this article is linked to the UI - do not delete or change the URL-->
-<!--add more info here about permissions, how users gain permissions from the original record type, per Lilit: users who add this to another space gain View permissions on that space when they add records to this added record type - this info is in the UI - this is what she sent in figma:
+
+<!--THIS MIGHT ALREADY BE ADDED TO THE "OVERVIEW" ARTICLE, BUT CHECK: add more info here about permissions, how users gain permissions from the original record type, per Lilit: users who add this to another space gain View permissions on that space when they add records to this added record type - this info is in the UI - this is what she sent in figma:
 
 Hey, Alina, Lusine. As this page contains not only the "global record types" but also cross-workspace connectivity setting, we shouldn't have this message that's highlighting only the global rt features. I think we should have explanation for each setting both in enabled and disabled states. 
 
@@ -43,7 +43,7 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 # 为记录类型配置跨工作区功能
 
-<!--this is linked to the UI in the info icon when you enable a record to be either centralized or connectable-->
+<!--this is linked to the UI in the info icon when you enable a record to be either global or connectable-->
 
 <span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
@@ -53,7 +53,7 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 以下是记录类型的跨工作区功能：
 
-* 您可以将记录类型指定为集中记录类型。 用户可以将集中式记录类型添加到他们可以管理的其他工作区。
+* 您可以将记录类型指定为全局记录类型。 用户可以将全局记录类型添加到他们可以管理的其他工作区。
 * 可以将记录类型指定为可连接。 用户可以从其他工作区连接到此记录类型。
 
 必须先定义记录类型的跨工作区功能，然后工作区管理员才能从记录类型连接记录类型或将记录类型添加到其他工作区。
@@ -85,7 +85,7 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 <ul><li><p>任何Workfront包</p></li>
 <p>与</p>
 <li><p>用于创建可连接记录类型的任意Planning包</p></li>
-<li><p>用于创建集中记录类型的Planning Plus包</p></li>
+<li><p>用于创建全局记录类型的Planning Plus包</p></li>
 </ul>
 <!--Or:
 <ul><li><p>Any Workflow package</p> </li>
@@ -111,46 +111,48 @@ And
 
 +++   
 
-## 配置集中记录类型
+## 配置全局记录类型
 
 <!--this is a UI term; don't change the title of this section-->
-<!--IMPORTANT: not sure if we can call these centralized yet - checking with Lilit as of Sept 2; you might need to revert this to what the screen shot shows below?????-->
 
-作为工作区管理员，您可以将记录类型配置为集中式记录类型。 集中记录类型可以添加到其他工作区。
+作为工作区管理员，您可以将记录类型配置为全局记录类型。 全局记录类型可以添加到其他工作区。
 
-工作区管理员可以将集中式记录类型添加到他们管理的工作区。 还会添加记录类型的原始字段。
+工作区管理员可以将全局记录类型添加到他们管理的工作区。 还会添加记录类型的原始字段。
 
-用户可以从他们具有Contribute权限的任何工作区中将记录添加到集中记录类型，并可在其中添加集中记录类型（包括其原始工作区）。 用户可以从他们只有查看权限的工作区中查看记录。
+用户可以从他们具有“贡献”权限的任何工作区将记录添加到全局记录类型，并可在其中添加全局记录类型，包括其原始工作区。 用户可以从他们只有查看权限的工作区中查看记录。
 
 有关详细信息，请参阅[跨工作区记录类型概述](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)。
 
-要将记录类型配置为集中式，请执行以下操作：
+要将记录类型配置为全局，请执行以下操作：
 
 {{step1-to-planning}}
 
-1. 单击要将其记录类型配置为集中式的工作区。
+1. 单击要将其记录类型配置为全局的工作区。
 
    此时会打开工作区页面，并显示记录类型。
 1. 执行下列操作之一：
 
    * 将鼠标悬停在记录类型的卡片上，然后单击记录类型卡片右上角的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)
-   * 单击记录类型卡以打开记录类型页面，然后单击记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)。
-1. 单击&#x200B;**编辑**。
 
-   ![记录类型卡片中的更多菜单选项](assets/more-menu-options-from-record-type-card.png)
+     ![记录类型卡片中的更多菜单选项](assets/more-menu-options-from-record-type-card.png)
+
+   * 单击记录类型卡以打开记录类型页面，然后单击记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)。
+1. 单击&#x200B;**编辑**&#x200B;或&#x200B;**设置**。
 
    >[!TIP]
    >
-   >如果记录类型已被指定为集中记录类型，并且已将其添加到其他工作区，则“编辑”选项将灰显。
+   >将记录类型添加到另一个工作区时，它将显示为该工作区中的全局记录类型。 在这种情况下，“编辑”和“设置”选项将灰显。
 
-1. 在&#x200B;**编辑记录类型**&#x200B;框中，单击&#x200B;**高级设置**&#x200B;选项卡。
+1. （视情况而定）如果您单击&#x200B;**编辑**，请在&#x200B;**编辑记录类型**&#x200B;框中单击&#x200B;**跨工作区设置**&#x200B;选项卡
+
+   或者，如果您已单击&#x200B;**设置**，请转到左侧面板中的&#x200B;**跨工作区设置**&#x200B;部分。
 1. 启用&#x200B;**允许将此记录类型添加到其他工作区**&#x200B;设置。
 
-   ![使用“添加到其他工作区”编辑记录类型高级设置启用](assets/edit-record-type-advanced-settings-add-to-other-workspaces-enabled.png)
+   ![启用“添加到其他工作区”的情况下编辑记录类型跨工作区设置](assets/edit-record-type-advanced-settings-add-to-other-workspaces-enabled.png)
 
    >[!TIP]
    >
-   >将集中式记录类型添加到另一个工作区后，此设置将不再被禁用。
+   >将全局记录类型添加到另一个工作区后，无法再禁用此设置。
 
 1. 在&#x200B;**选择谁可以将此记录类型添加到他们管理的工作区**&#x200B;字段中，添加要允许将此记录类型添加到他们管理的工作区的实体。
 
@@ -158,13 +160,16 @@ And
 
    您可以添加要允许其用户将此记录类型添加到其管理的工作区的单个用户或组、团队、职位角色或公司。
 
-   必须至少指定一个实体（用户、团队、组、角色或公司）才能启用此设置。
-
    保存记录类型后，可以编辑此字段。
 
 1. （可选）从&#x200B;**选择谁可以将该记录类型添加到他们管理的工作区**&#x200B;字段中移除您的姓名。
 
-1. 单击&#x200B;**保存**。
+   >[!TIP]
+   >
+   >必须至少指定一个实体（用户、团队、组、角色或公司）才能启用此设置。
+
+
+1. （视情况而定）在&#x200B;**编辑记录类型**&#x200B;框中单击&#x200B;**保存**，或者单击页眉中&#x200B;**设置**&#x200B;左侧的返回箭头以保存更改。
 
    出现以下情况：
 
@@ -174,7 +179,7 @@ And
    >
    >只能从其原始工作区中编辑记录类型的外观和设置及其原始字段。
 
-   * 记录类型卡片显示一个集中式图标![集中式记录类型图标](assets/global-icon.png)，表示该记录类型可以添加到其他工作区。
+   * 记录类型卡显示全局图标![全局记录类型图标](assets/global-icon.png)，以指示该记录类型可以添加到其他工作区。
    * 系统生成的&#x200B;**Workspace**&#x200B;字段已添加到记录类型及其记录详细信息的表视图。
 
      Workspace字段显示从中创建每个记录的工作区。
@@ -190,24 +195,29 @@ And
 
 在创建或编辑记录类型时，可以配置要从其他工作区连接的记录类型。
 
-要在编辑记录类型时配置记录类型以从其他工作区连接到，请执行以下操作：
+将记录类型配置为可连接：
 
 {{step1-to-planning}}
 
-1. 单击要编辑其记录类型的工作区。
+1. 单击要将其记录类型配置为可连接的工作区。
 
    此时会打开工作区页面，并显示记录类型。
 1. 执行下列操作之一：
 
-   * 将鼠标悬停在记录类型的卡片上，然后单击记录类型卡片右上角的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击&#x200B;**编辑**
-   * 单击记录类型卡以打开记录类型页面，单击记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击&#x200B;**编辑**。
+   * 将鼠标悬停在记录类型的卡片上，然后单击记录类型卡片右上角的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)
 
-   ![记录类型卡片中的更多菜单选项](assets/more-menu-options-from-record-type-card.png)
+     ![记录类型卡片中的更多菜单选项](assets/more-menu-options-from-record-type-card.png)
 
-1. 在&#x200B;**编辑记录类型**&#x200B;框中，单击&#x200B;**高级设置**&#x200B;选项卡。
+   * 单击记录类型卡以打开记录类型页面，然后单击记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)。
+1. 单击&#x200B;**编辑**&#x200B;或&#x200B;**设置**。
+
+1. （视情况而定）如果您单击&#x200B;**编辑**，请在&#x200B;**编辑记录类型**&#x200B;框中单击&#x200B;**跨工作区设置**&#x200B;选项卡
+
+   或者，如果您已单击&#x200B;**设置**，请转到左侧面板中的&#x200B;**跨工作区设置**&#x200B;部分。
+
 1. 启用&#x200B;**允许连接到其他工作区中的此记录类型**&#x200B;设置。<!-- check the setting name, I sent this to Lilit to say FROM instead of IN-->
 
-   ![启用从其他工作区连接的编辑记录类型“高级设置”选项卡](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)
+   ![启用从其他工作区连接的编辑记录类型跨工作区设置选项卡](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)
 
    启用后，记录类型可访问，并可从其他工作区连接到。
 
@@ -215,7 +225,7 @@ And
 
    * **系统范围**：用户可以从其拥有管理权限的所有工作区连接到此记录类型。
    * **特定工作区**：添加工作区管理员可以连接到此记录类型的工作区的名称。
-1. 单击&#x200B;**保存**。
+1. （视情况而定）在&#x200B;**编辑记录类型**&#x200B;框中单击&#x200B;**保存**，或者单击页眉中&#x200B;**设置**&#x200B;左侧的返回箭头以保存更改。
 
    出现以下情况：
 
