@@ -7,9 +7,9 @@ description: 在Adobe Workfront中指明何时发生批准的休息时间非常�
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: ce2f1ebe7ea97f3c25ac6a7ef33fd3c066727220
+source-git-commit: f10b0a4897d6250f0c4decf1fad069c598536a38
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用，正在分阶段发布到生产环境。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 [!DNL Adobe Workfront]的设计目的不是复制或替换现有系统，用于管理、应计和跟踪个人休息时间。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>具有[!UICONTROL Edit User]访问权限的[!UICONTROL Manager] （更改其他用户的休息日日历）<br>
+   <td>具有[！UICONTROL Edit User]访问权限的[！UICONTROL Manager] （更改其他用户的休息日日历）<br>
    <strong>注意：</strong>如果经理编辑另一个用户的个人休息时间日历，则所有条目都按用户的时区显示，而不是按经理的时区显示。</td> 
   </tr> 
  </tbody> 
@@ -79,10 +79,10 @@ ht-degree: 0%
 1. 在左侧面板中，单击&#x200B;**[!UICONTROL 空闲时间]**。
 1. 为您的个人休息时间选择所需的日期。
 
-   <span class="preview">预览环境中的示例图像：</span>
-   ![个人休息时间日历](assets/personal-time-off-calendar-0925.png)
+   <!--<span class="preview">Sample image in the Preview environment:</span>
+   ![Personal time off calendar](assets/personal-time-off-calendar-0925.png)-->
 
-   生产环境中的示例图像：
+   <!--Sample image in the Production environment:-->
    ![个人休息时间日历](assets/personal-time-off-calendar.png)
 
 1. 如果您要休一整天的假，请选择&#x200B;**[!UICONTROL 全天]**。
