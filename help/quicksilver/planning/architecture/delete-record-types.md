@@ -6,13 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 2%
 
 ---
 
+
+<!--keep the global record type reference in yellow till January 2026-->
 
 # 删除记录类型
 
@@ -32,7 +34,7 @@ ht-degree: 2%
 
 ## 访问要求
 
-+++ 展开以查看访问要求。
++++ 展开以查看访问要求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -92,7 +94,7 @@ ht-degree: 2%
 
 *有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-+++
++++   
 
 
 ## 删除记录类型时的注意事项
@@ -108,6 +110,21 @@ ht-degree: 2%
 * 记录类型将从所有访问工作区的用户中删除。
 * 无法恢复已删除的记录类型或其信息。
 * 我们建议在删除字段和记录之前，在其他记录类型上重新创建与要删除的记录类型关联的它们。
+
+<!--
+
+<div class="preview">
+
+* You cannot delete a global record type that has been added to other workspaces. 
+   
+   You must first delete it from the secondary workspaces where it's been added, before you can delete it from its original workspace. 
+
+   Deleting a global record type from their secondary workspaces only remove them, their records, and that workspace's fields from the secondary workspace. It does not delete the global record type from its original workspace.
+
+   For information, see the section "Delete a global record type from a secondary workspace" in the article [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). 
+
+</div>
+-->
 
 ## 删除记录类型
 
@@ -127,6 +144,13 @@ ht-degree: 2%
 
    ![永久删除记录类型确认](assets/permanently-delete-record-type-confirmation.png)
 
+   <!--[!TIP]
+   >
+   ><span class="preview">You cannot delete global record types added to other workspaces. First, delete the global record types form their secondary workspaces before deleting them from the original workspace.</span>-->
+
+
 1. 在确认框中键入&#x200B;**删除**，然后单击&#x200B;**永久删除**。 不区分大小写。
 
    所选的记录类型及其字段、关联的记录和视图将被删除并且无法恢复。
+
+

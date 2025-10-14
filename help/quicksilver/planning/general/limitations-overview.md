@@ -6,13 +6,15 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
+source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 2%
 
 ---
 
+
+<!--keep the 30 connection limit in yellow till Jan 2026-->
 
 # Adobe Workfront Planning对象限制概述
 
@@ -49,6 +51,10 @@ Adobe Workfront Planning对实例中可创建的对象数量存在限制。 设�
 | <span class="preview">一个记录类型的公式字段数</span> | <span class="preview">20</span> |
 | <span class="preview">公式字段表达式中的字符数</span> | <span class="preview">50,000</span> |
 
+
+<!-- Add this after the formula fields limit above:
+
+| <span class="preview">Number of connection fields for one record type</span> | <span class="preview">30</span> |-->
 
 *我们建议不要拥有太多工作区，因为它们可能会变得难以管理，并且您的工作流可能过于分散。
 

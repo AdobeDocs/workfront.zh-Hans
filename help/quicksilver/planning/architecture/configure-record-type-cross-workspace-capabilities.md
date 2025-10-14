@@ -1,12 +1,12 @@
 ---
 title: 为记录类型配置跨工作区功能
-description: 您可以将记录类型添加到另一个工作区或从另一个工作区连接。
+description: 您可以在Adobe Workfront Planning中启用记录类型，将其添加到另一个工作区或从另一个工作区连接。
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
+source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1329'
 ht-degree: 0%
 
 ---
@@ -20,28 +20,18 @@ recommendations: noDisplay, noCatalog
 
 -->
 
-<!--*******************REPLACE THE "ADVANCED SETTINGS" SECTION IN THE "EDIT RECORD TYPES" ARTICLE WITH A LINK TO THIS ARTILE INSTEAD AND REMOVE THE STEPS FROM THE "EDIT RECORD TYPES" ARTICLE ON HOW TO ALLOW CROSS-WORKSPACE SETTINGS FOR RECORD TYPES*************-->
+<!--*******************REPLACE THE "ADVANCED SETTINGS" SECTION IN THE "EDIT RECORD TYPES" ARTICLE WITH A LINK TO THIS ARTICLE INSTEAD AND REMOVE THE STEPS FROM THE "EDIT RECORD TYPES" ARTICLE ON HOW TO ALLOW CROSS-WORKSPACE SETTINGS FOR RECORD TYPES*************-->
 
 
 <!--this article is linked to the UI - do not delete or change the URL-->
 
-<!--THIS MIGHT ALREADY BE ADDED TO THE "OVERVIEW" ARTICLE, BUT CHECK: add more info here about permissions, how users gain permissions from the original record type, per Lilit: users who add this to another space gain View permissions on that space when they add records to this added record type - this info is in the UI - this is what she sent in figma:
-
-Hey, Alina, Lusine. As this page contains not only the "global record types" but also cross-workspace connectivity setting, we shouldn't have this message that's highlighting only the global rt features. I think we should have explanation for each setting both in enabled and disabled states. 
-
-So we'd have the "Allow adding this record type to other workspaces" setting in enabled or disabled state, and display an explanation text below it explaining the capability, as well as a link to help articles for more context. I'd like to include the following key points in the message:  
-
-Once enabled, this record type can be added in other workspaces by designated people 
-
-Members of those workspaces can create and manage records in scope of their workspace 
-
-Any records added by other workspace members will be rolled up to this workspace with view access so members of the current workspace can create views for cross-workspace records.  
-
-Then for the second setting for cross-workspace connections, we'll need a similar explanation text would highlight that the other workspaces can create connections and gain view access to the records in this record type, but will not see the record type in their workspace. (not sure what she means by this last bit, asking in figma also)
+<!--THIS MIGHT ALREADY BE ADDED TO THE "OVERVIEW" ARTICLE, BUT CHECK: add more info here about permissions, how users gain permissions from the original record type, per Lilit: users who add this to another space gain View permissions on that space when they add records to this added record type.
 
 -->
 
 # 为记录类型配置跨工作区功能
+
+{{planning-important-intro}}
 
 <!--this is linked to the UI in the info icon when you enable a record to be either global or connectable-->
 
@@ -49,14 +39,14 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 <span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
-您可以将记录类型配置为在多个工作区中工作。
+您可以在Adobe Workfront Planning中将记录类型配置为可在多个工作区中使用。
 
-以下是记录类型的跨工作区功能：
+可以将记录类型指定为下列类型之一：
 
-* 您可以将记录类型指定为全局记录类型。 用户可以将全局记录类型添加到他们可以管理的其他工作区。
-* 可以将记录类型指定为可连接。 用户可以从其他工作区连接到此记录类型。
+* **全局记录类型**：用户可以将全局记录类型添加到其可以管理的其他工作区。
+* **可连接的记录类型**：用户可以从其他工作区连接到此记录类型。
 
-必须先定义记录类型的跨工作区功能，然后工作区管理员才能从记录类型连接记录类型或将记录类型添加到其他工作区。
+必须先定义记录类型的跨工作区功能，然后工作区管理员才能将其添加到其他工作区或从其他工作区连接该记录类型。
 
 在创建或编辑记录类型时，可以定义记录类型的跨工作区功能。
 
@@ -85,23 +75,22 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 <ul><li><p>任何Workfront包</p></li>
 <p>与</p>
 <li><p>用于创建可连接记录类型的任意Planning包</p></li>
-<li><p>用于创建全局记录类型的Planning Plus包</p></li>
+<li><p>用于创建全局记录类型的Planning Plus程序包</p></li>
 </ul>
-<!--Or:
-<ul><li><p>Any Workflow package</p> </li>
-And
-<li><p>Planning Prime or Ultimate package</p></li></ul>-->
+或：
+<ul><li><p>工作流Prime或Ultimate包</p> </li>
+与
+<li><p>Planning Prime或Ultimate包</p></li></ul>
 <p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户经理。 </p> 
-   </td>
-
-<tr> 
+   </td> 
+  <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
    <td><p>标准</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
-   <td>   <p>管理工作区</a>的权限 </p>  
+   <td>   <p>管理对工作区和记录类型</a>的权限 </p>  
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>  </td> 
   </tr>  
 </tbody> 
@@ -117,9 +106,9 @@ And
 
 作为工作区管理员，您可以将记录类型配置为全局记录类型。 全局记录类型可以添加到其他工作区。
 
-工作区管理员可以将全局记录类型添加到他们管理的工作区。 还会添加记录类型的原始字段。
+工作区管理员可以将全局记录类型添加到他们管理的工作区。 记录类型的原始字段也会添加到辅助工作区。
 
-用户可以从他们具有“贡献”权限的任何工作区将记录添加到全局记录类型，并可在其中添加全局记录类型，包括其原始工作区。 用户可以从他们只有查看权限的工作区中查看记录。
+用户可以从他们具有Contribute权限以及已添加全局记录类型（包括其原始工作区）的任何工作区将记录添加到全局记录类型。 用户可以从其只有“查看”权限的工作区中查看记录。
 
 有关详细信息，请参阅[跨工作区记录类型概述](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)。
 
@@ -145,7 +134,7 @@ And
 
 1. （视情况而定）如果您单击&#x200B;**编辑**，请在&#x200B;**编辑记录类型**&#x200B;框中单击&#x200B;**跨工作区设置**&#x200B;选项卡
 
-   或者，如果您已单击&#x200B;**设置**，请转到左侧面板中的&#x200B;**跨工作区设置**&#x200B;部分。
+   或者，如果您单击了&#x200B;**设置**，请单击左侧面板中的&#x200B;**跨工作区设置**&#x200B;部分。
 1. 启用&#x200B;**允许将此记录类型添加到其他工作区**&#x200B;设置。
 
    ![启用“添加到其他工作区”的情况下编辑记录类型跨工作区设置](assets/edit-record-type-advanced-settings-add-to-other-workspaces-enabled.png)
@@ -158,7 +147,7 @@ And
 
    您的姓名会自动添加到字段中。
 
-   您可以添加要允许其用户将此记录类型添加到其管理的工作区的单个用户或组、团队、职位角色或公司。
+   您可以添加个人用户、组、团队、职位角色或公司，希望允许其用户将此记录类型添加到他们管理的工作区。
 
    保存记录类型后，可以编辑此字段。
 
@@ -167,7 +156,6 @@ And
    >[!TIP]
    >
    >必须至少指定一个实体（用户、团队、组、角色或公司）才能启用此设置。
-
 
 1. （视情况而定）在&#x200B;**编辑记录类型**&#x200B;框中单击&#x200B;**保存**，或者单击页眉中&#x200B;**设置**&#x200B;左侧的返回箭头以保存更改。
 
@@ -179,7 +167,7 @@ And
    >
    >只能从其原始工作区中编辑记录类型的外观和设置及其原始字段。
 
-   * 记录类型卡显示全局图标![全局记录类型图标](assets/global-icon.png)，以指示该记录类型可以添加到其他工作区。
+   * 记录类型卡片显示&#x200B;**全局记录类型**&#x200B;图标![全局记录类型图标](assets/global-icon.png)，以指示该记录类型可以添加到其他工作区。
    * 系统生成的&#x200B;**Workspace**&#x200B;字段已添加到记录类型及其记录详细信息的表视图。
 
      Workspace字段显示从中创建每个记录的工作区。
@@ -188,6 +176,13 @@ And
 1. （可选）转到另一个工作区并使用现有记录类型创建记录类型。 选择在上述步骤中启用的记录类型。
 
    有关信息，请参阅[从另一个工作区添加现有记录类型](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)。
+
+   从辅助工作区中的全局记录类型添加的记录类型还显示&#x200B;**全局记录类型**&#x200B;图标![全局记录类型图标](assets/global-icon.png)。
+1. （可选）返回创建全局记录类型的原始工作区，并按照以上<!--ensure this stays accurate-->的步骤1-4编辑该记录类型
+1. （可选）查看在使用此记录类型的&#x200B;**工作区第**&#x200B;节中添加了全局记录的工作区列表。
+
+   ![使用此记录类型的工作区](assets/workspaces-where-this-record-type-is-used.png)
+
 
 ## 配置可连接的记录类型
 
@@ -213,9 +208,11 @@ And
 
 1. （视情况而定）如果您单击&#x200B;**编辑**，请在&#x200B;**编辑记录类型**&#x200B;框中单击&#x200B;**跨工作区设置**&#x200B;选项卡
 
-   或者，如果您已单击&#x200B;**设置**，请转到左侧面板中的&#x200B;**跨工作区设置**&#x200B;部分。
+   或者，如果您单击了&#x200B;**设置**，请单击左侧面板中的&#x200B;**跨工作区设置**&#x200B;部分。
 
 1. 启用&#x200B;**允许连接到其他工作区中的此记录类型**&#x200B;设置。<!-- check the setting name, I sent this to Lilit to say FROM instead of IN-->
+
+   <!-- add new screen shot with new tab name-->
 
    ![启用从其他工作区连接的编辑记录类型跨工作区设置选项卡](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)
 
@@ -223,16 +220,17 @@ And
 
 1. 选择可以访问记录类型的工作区。 从以下选项中进行选择：
 
-   * **系统范围**：用户可以从其拥有管理权限的所有工作区连接到此记录类型。
-   * **特定工作区**：添加工作区管理员可以连接到此记录类型的工作区的名称。
+   <!--check names of the setting: System wide?? OR All workspaces??-->
+
+   * **所有工作区**：用户可以从其拥有管理权限的所有工作区连接到此记录类型。
+   * **特定工作区**：从下拉菜单中，添加工作区管理员可以连接到此记录类型的工作区的名称。
 1. （视情况而定）在&#x200B;**编辑记录类型**&#x200B;框中单击&#x200B;**保存**，或者单击页眉中&#x200B;**设置**&#x200B;左侧的返回箭头以保存更改。
 
    出现以下情况：
 
    * 现在，记录类型及其字段可用于从指定的工作区连接到。
-   * 记录类型卡片显示一个跨工作区连接图标![跨工作区连接图标](assets/connect-from-other-workspaces-icon.png)，以指示可以从您在配置中指定的任何工作区连接到该记录类型。
+   * 记录类型卡显示可连接的记录类型图标![可连接的记录类型图标](assets/connect-from-other-workspaces-icon.png)，以指示可从配置中指定的任何工作区连接到该记录类型。
 
-   记录类型将变为可以从指定的工作区连接到。
 1. （可选）转到另一个工作区，并将连接添加到在上述步骤中为跨工作区连接性启用的记录类型。
 
    有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
