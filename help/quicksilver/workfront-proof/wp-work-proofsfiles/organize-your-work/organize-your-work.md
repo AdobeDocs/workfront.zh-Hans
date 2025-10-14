@@ -24,7 +24,7 @@ ht-degree: 0%
 
 本节包含以下文章：
 
-* [ [!DNL Workfront Proof]中的文件夹](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md)
+* [&#x200B; [!DNL Workfront Proof]中的文件夹](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md)
 * [在 [!DNL Workfront Proof]中创建文件夹](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md)
 * [管理 [!DNL Workfront Proof]中的文件夹](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)
 * [管理 [!DNL Workfront Proof]中的文件夹及其内容](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md)

@@ -74,7 +74,7 @@ ht-degree: 1%
 ## 从[!DNL Slack]访问[!DNL Workfront]
 
 * [关于斜杠命令](#about-slash-commands-about-slash-commands)
-* [从 [!DNL Slack]中的共享链接访问 [!DNL Workfront] ](#access-workfront-from-a-shared-link-in-slack-access-workfront-from-a-shared-link-in-slack)
+* [从 [!DNL Slack]中的共享链接访问 [!DNL Workfront] &#x200B;](#access-workfront-from-a-shared-link-in-slack-access-workfront-from-a-shared-link-in-slack)
 
 ## 从[!DNL Slack]中的斜杠命令访问[!DNL Workfront] {#access-workfront-from-a-slash-command-in-slack}
 

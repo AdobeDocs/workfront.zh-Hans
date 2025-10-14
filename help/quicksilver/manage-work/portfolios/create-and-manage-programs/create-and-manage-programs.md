@@ -23,7 +23,7 @@ ht-degree: 0%
 
 本节包含以下文章：
 
-* [ [!DNL Adobe Workfront]中的项目概述](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/programs-overview.md)
+* [&#x200B; [!DNL Adobe Workfront]中的项目概述](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/programs-overview.md)
 * [创建程序](../../../manage-work/portfolios/create-and-manage-programs/create-program.md)
 * [编辑程序](../../../manage-work/portfolios/create-and-manage-programs/edit-programs.md)
 * [将现有项目添加到项目组合](../../../manage-work/portfolios/create-and-manage-programs/move-program.md)

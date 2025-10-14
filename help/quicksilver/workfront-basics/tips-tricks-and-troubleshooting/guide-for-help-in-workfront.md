@@ -151,7 +151,7 @@ ht-degree: 1%
 
 订阅[status.adobe.com](https://status.adobe.com/)以随时了解维护时间表和中断问题。
 
-若要了解有关[!DNL Workfront]状态站点的详细信息，请参阅[状态站点 [!DNL Adobe Workfront] ](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)。
+若要了解有关[!DNL Workfront]状态站点的详细信息，请参阅[状态站点 [!DNL Adobe Workfront] &#x200B;](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)。
 
 要了解每周维护更新中修复的内容，请参阅[维护更新](https://experienceleague.adobe.com/zh-hans/docs/workfront-known-issues/releases/current-updates)。
 

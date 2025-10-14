@@ -314,13 +314,13 @@ ht-degree: 0%
 
 API版本11随2020.1版发布。 有关新增功能和更新的信息，请参阅[API版本11的新增功能](../../../wf-api/api/new-api-version-11.md) [API版本11](https://experience.workfront.com/s/article/What-s-new-in-API-version-11-1760875145)的新增功能。
 
-有关API版本的更多信息，请参阅[API版本控制和支持计划](../../../wf-api/api/api-version-support-schedule.md) [API版本发布和支持计划](https://experience.workfront.com/s/article/API-Version-Release-and-Support-Schedule-272875487?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1)。
+有关API版本的更多信息，请参阅[API版本控制和支持计划](../../../wf-api/api/api-version-support-schedule.md) [API版本发布和支持计划](https://experience.workfront.com/s/article/API-Version-Release-and-Support-Schedule-272875487?language=en_US&r=13&ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&ui-self-service-components-controller.ArticleTopicList.getTopics=1&ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1)。
 
 ## 不再支持的功能
 
 ### 2020.1版本之后不再支持日历中的旧版工作
 
-2020.1版本将不再支持日历中的旧功能，并将在2020.2版本中移除。 有关旧版日历的详细信息，请参阅[使用团队的旧版工作日历](https://experience.workfront.com/s/article/Using-the-Legacy-Working-On-Calendar-for-Teams-1516477096?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1)。
+2020.1版本将不再支持日历中的旧功能，并将在2020.2版本中移除。 有关旧版日历的详细信息，请参阅[使用团队的旧版工作日历](https://experience.workfront.com/s/article/Using-the-Legacy-Working-On-Calendar-for-Teams-1516477096?language=en_US&r=13&ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&ui-self-service-components-controller.ArticleTopicList.getTopics=1&ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1)。
 
 2020.2版发布后，使用旧版“处理日历”的团队将自动切换到“团队”区域“计划”选项卡上的资源计划工具。
 

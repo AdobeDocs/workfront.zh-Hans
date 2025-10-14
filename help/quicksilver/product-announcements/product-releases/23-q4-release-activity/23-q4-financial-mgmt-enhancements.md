@@ -16,7 +16,7 @@ ht-degree: 0%
 
 本页介绍了在2023年第四季度发布到“预览”环境时执行的所有Financial Management增强功能。 这些增强功能在23.10版本的生产环境中提供。
 
-有关2023年第四季度发布周期中此时可用的所有更改列表，请参阅[ 2023年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)。
+有关2023年第四季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2023年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)。
 
 ## 日期有效成本和记帐费率
 

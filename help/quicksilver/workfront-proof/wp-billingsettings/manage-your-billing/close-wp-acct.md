@@ -28,7 +28,7 @@ ht-degree: 0%
 
 1. 打开[!UICONTROL 设置]菜单并选择&#x200B;**[!UICONTROL 帐单]** (1)以打开您帐户中的[!UICONTROL 帐单]页面。
 
-   有关计费页面的详细信息，请参阅[校对计费页面 [!DNL Workfront] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
+   有关计费页面的详细信息，请参阅[校对计费页面 [!DNL Workfront] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
 
    ![计费设置](assets/upgradesdowngrades-billing-settings-350x168.png)
 

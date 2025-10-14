@@ -790,7 +790,7 @@ The following headers are available in Home:
 
 ![](assets/nwe-plan-header-350x34.png)
 
-计划是[!DNL Workfront Scenario Planner]的对象。 有关[!DNL Scenario Planner]的信息，请参阅[概述 [!DNL Scenario Planner] ](../../scenario-planner/scenario-planner-overview.md)。
+计划是[!DNL Workfront Scenario Planner]的对象。 有关[!DNL Scenario Planner]的信息，请参阅[概述 [!DNL Scenario Planner] &#x200B;](../../scenario-planner/scenario-planner-overview.md)。
 
 计划题头显示以下信息：
 

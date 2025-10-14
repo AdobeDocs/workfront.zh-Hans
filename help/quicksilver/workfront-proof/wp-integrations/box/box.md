@@ -24,7 +24,7 @@ ht-degree: 4%
 
 本节包含以下文章：
 
-* [ [!DNL Workfront Proof] 和 [!DNL Box] 集成简介](../../../workfront-proof/wp-integrations/box/introduction-to-box.md)
+* [&#x200B; [!DNL Workfront Proof] 和 [!DNL Box] 集成简介](../../../workfront-proof/wp-integrations/box/introduction-to-box.md)
 * [通过您的 [!DNL Box] 帐户创建验证](../../../workfront-proof/wp-integrations/box/create-proof-box-account.md)
 * [将 [!DNL Box] 文件夹与 [!DNL Workfront Proof]同步](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md)
 * [在 [!DNL Box]中查看校对的原始文件](../../../workfront-proof/wp-integrations/box/view-proof-original-file-box.md)

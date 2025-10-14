@@ -78,7 +78,7 @@ ht-degree: 0%
 
 ![复选标记](assets/cleaner2.png)可以设置为拖放区域所有者。 有关详细信息，请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)中配置拖放区域。
 
-![复选标记](assets/cleaner2.png)可以访问帐单页面并编辑帐单详细信息。 有关详细信息，请参阅[帐单页面 [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
+![复选标记](assets/cleaner2.png)可以访问帐单页面并编辑帐单详细信息。 有关详细信息，请参阅[帐单页面 [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
 
 ![复选标记](assets/cleaner2.png)可以访问“帐户设置”页并编辑帐户详细信息。 有关详细信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的帐户设置。
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 有关帐户设置的信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的帐户设置。
 
-有关计费的信息，请参阅[计费页面 [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
+有关计费的信息，请参阅[计费页面 [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
 
 ### 管理员 {#administrator}
 
@@ -132,7 +132,7 @@ ht-degree: 0%
 
 ![红色X](assets/no2.png)无法删除其他用户的专用文件夹。 有关详细信息，请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)中管理文件夹。
 
-![红色X](assets/no2.png)无法访问帐单页面或编辑帐单详细信息。 有关详细信息，请参阅[帐单页面 [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
+![红色X](assets/no2.png)无法访问帐单页面或编辑帐单详细信息。 有关详细信息，请参阅[帐单页面 [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
 
 ### 监督人 {#supervisor}
 

@@ -37,7 +37,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->作为用户添加到您帐户的任何自由职业者都可以查看您的帐户，并且还可以查看客户端详细信息（具体取决于其用户配置文件）。 这可能不是您想要的，因此为自由职业者设置卫星帐户可能是一个更合适的选项；请参阅下面的[为自由职业者设置卫星帐户](https://support.workfront.com/knowledge/articles/115004259868/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004259868#Option-B---set-up-a-satellite-account-for-your-freelancers)。
+>作为用户添加到您帐户的任何自由职业者都可以查看您的帐户，并且还可以查看客户端详细信息（具体取决于其用户配置文件）。 这可能不是您想要的，因此为自由职业者设置卫星帐户可能是一个更合适的选项；请参阅下面的[为自由职业者设置卫星帐户](https://support.workfront.com/knowledge/articles/115004259868/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004259868#Option-B---set-up-a-satellite-account-for-your-freelancers)。
 
 ## 为您的自由职业者设置附属帐户
 

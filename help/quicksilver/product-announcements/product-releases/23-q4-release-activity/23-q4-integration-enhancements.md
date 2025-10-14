@@ -16,7 +16,7 @@ ht-degree: 0%
 
 本页介绍了2023年第四季度版本与预览环境集成的所有增强功能。 这些增强功能在23.10版本的生产环境中提供。
 
-有关2023年第四季度发布周期中此时可用的所有更改列表，请参阅[ 2023年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)。
+有关2023年第四季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2023年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)。
 
 ## 增强将文档发送到SharePoint (GraphAPI)时的体验
 

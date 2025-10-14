@@ -28,7 +28,7 @@ ht-degree: 3%
 * [开始使用 [!DNL Adobe Workfront]中的列表](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)
 * [报告入门](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
 
-有关项目、任务和问题字段的详细信息，请参阅[术语表 [!DNL Adobe Workfront] ](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
+有关项目、任务和问题字段的详细信息，请参阅[术语表 [!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
 
 
 ## [!UICONTROL 实际开始日期]

@@ -76,7 +76,7 @@ ht-degree: 0%
 1. 在列表视图或功能板中，选择要为其创建或管理标记的一个或多个项目。
 1. 单击列表上方的&#x200B;**[!UICONTROL 标记]** > **[!UICONTROL 管理标记]**。
 
-1. 在出现的[!UICONTROL 标记]选项卡上，按照上文[创建、编辑或删除选项卡中所述，管理您的标记。](https://support.workfront.com/knowledge/articles/115004379508/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004379508#CreatingEditingDeletingTag)\
+1. 在出现的[!UICONTROL 标记]选项卡上，按照上文[创建、编辑或删除选项卡中所述，管理您的标记。](https://support.workfront.com/knowledge/articles/115004379508/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004379508#CreatingEditingDeletingTag)\
    当标记旁边的复选框为深灰色时，标记将应用于所有选定项目。 如果是浅灰色，则所选批次中只有部分项目使用它进行标记。 如果要从所有选定项目中删除标记，请确保标记旁边的勾选框为空。\
    ![Tags_menu_-_Dark_and_light_checks.png](assets/tags-menu---dark-and-light-checks-350x217.png)
 

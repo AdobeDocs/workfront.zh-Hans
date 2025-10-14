@@ -75,7 +75,7 @@ ht-degree: 1%
 
 您可以从[!DNL Adobe Exchange]中自行安装[!DNL Adobe Workfront for XD]插件。
 
-1. 转到Adobe Exchange上的[Adobe Workfront for XD安装页面](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&amp;workflow=share)。
+1. 转到Adobe Exchange上的[Adobe Workfront for XD安装页面](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&workflow=share)。
 1. 在出现的对话框中，单击&#x200B;**打开[!DNL Adobe Creative Cloud]桌面应用程序**。
 1. 打开[!DNL Adobe XD]插件管理器后，单击&#x200B;**[!UICONTROL 安装]**。
 1. 读取对话框中的信息，然后单击&#x200B;**[!UICONTROL 确定]**。

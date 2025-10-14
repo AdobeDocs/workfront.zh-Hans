@@ -32,5 +32,5 @@ ht-degree: 0%
 * [在验证查看器中比较验证](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)
 * [在Web验证查看器中查看以前的验证版本](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-previous-proof-versions.md)
 * [在验证查看器中下载验证](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/download-proof.md)
-* [ [!DNL Workfront Proof] 验证查看器中的键盘快捷键](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
+* [&#x200B; [!DNL Workfront Proof] 验证查看器中的键盘快捷键](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
 * [已删除旧版验证查看器](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/lpv-removed.md)

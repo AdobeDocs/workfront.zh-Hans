@@ -73,7 +73,7 @@ ht-degree: 1%
 
 您可以从[!DNL Adobe Exchange]中自行安装[!DNL Adobe Workfront for Photoshop]插件。
 
-1. 转到Adobe Exchange上的[Adobe Workfront for Photoshop安装页面](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&amp;workflow=share)。
+1. 转到Adobe Exchange上的[Adobe Workfront for Photoshop安装页面](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&workflow=share)。
 1. 在出现的对话框中，单击&#x200B;**打开[!DNL Adobe Creative Cloud]桌面应用程序**。
 1. 打开[!DNL Adobe Photoshop]插件管理器后，单击&#x200B;**[!UICONTROL 安装]**。
 1. 读取对话框中的信息，然后单击&#x200B;**[!UICONTROL 确定]**。

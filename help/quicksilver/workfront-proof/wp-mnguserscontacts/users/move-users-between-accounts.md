@@ -33,7 +33,7 @@ ht-degree: 0%
 1. 从连接的帐户列表(2)中选择一个目标帐户。
 1. 分配此用户对新帐户应具有的配置文件权限(3)。
 1. 选择应拥有不会移动的项目的所有权的用户(4)。
-这包括您将决定保留在旧帐户上的项目以及无法移动的项目（请参阅下面的[无法移动的项目](https://support.workfront.com/knowledge/articles/115004087708/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004087708#Items-that-can&#39;t-be-moved)）。
+这包括您将决定保留在旧帐户上的项目以及无法移动的项目（请参阅下面的[无法移动的项目](https://support.workfront.com/knowledge/articles/115004087708/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004087708#Items-that-can&#39;t-be-moved)）。
 
 1. 如果要与用户一起移动校样(5)和文件(6)，请选中复选框。
 1. 为文件夹(7)创建一个名称，所有移动的项目都将存放在该文件夹中。

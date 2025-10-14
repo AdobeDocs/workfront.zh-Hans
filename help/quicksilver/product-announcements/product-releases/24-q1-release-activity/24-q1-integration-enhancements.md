@@ -16,7 +16,7 @@ ht-degree: 0%
 
 本页介绍了2024年第一季度版本与预览环境集成的所有增强功能。 这些增强功能将在2024年第一季度发行版的“生产”环境中提供。
 
-有关2024年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2024年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)。
+有关2024年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2024年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)。
 
 ## Experience Manager Assets Essentials中的映射元数据现在使用`xcm:keywords`而不是`dc:subject`
 

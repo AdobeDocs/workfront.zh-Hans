@@ -16,7 +16,7 @@ ht-degree: 0%
 
 本页介绍了在2024年第二季度版本中对“预览”环境进行的所有集成增强。 这些增强功能将在2024年第二季度版本的生产环境中提供。
 
-有关2024年第二季度发布周期中此时可用的所有更改列表，请参阅[ 2024年第二季度发布概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)。
+有关2024年第二季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2024年第二季度发布概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)。
 
 ## Adobe Experience Manager集成中自动文件夹创建工作流的增强功能
 

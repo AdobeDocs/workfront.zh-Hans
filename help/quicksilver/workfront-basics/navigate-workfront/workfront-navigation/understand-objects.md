@@ -80,7 +80,7 @@ ht-degree: 1%
 >[!DNL Workfront]文档始终引用对象的默认名称。 作为[!DNL Workfront]管理员，请确保将对象名称的更改通知用户，以便他们了解如何使用[!DNL Workfront]文档，以及应用程序中没有反映对象名称更改的区域。
 
 * [可以使用[!UICONTROL 布局模板]自定义的对象名称](#object-names-that-can-be-customized-using-a-layout-template)
-* [ [!DNL Workfront] 中反映自定义对象名称的区域](#areas-of-workfront-that-reflect-the-customized-object-names)
+* [&#x200B; [!DNL Workfront] 中反映自定义对象名称的区域](#areas-of-workfront-that-reflect-the-customized-object-names)
 * [未反映自定义对象名称的 [!DNL Workfront] 区域](#areas-of-workfront-that-do-not-reflect-the-customized-object-names)
 
 ### 可以使用[!UICONTROL 布局模板]自定义的对象名称

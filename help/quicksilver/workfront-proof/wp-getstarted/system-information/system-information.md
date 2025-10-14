@@ -25,5 +25,5 @@ ht-degree: 0%
 本节包含以下文章：
 
 * [预览沙盒测试环境 —  [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md)
-* [ [!DNL Workfront Proof]中的语言设置](../../../workfront-proof/wp-getstarted/system-information/language-settings.md)
-* [ [!DNL Workfront Proof]中的编解码器](../../../workfront-proof/wp-getstarted/system-information/codecs.md)
+* [&#x200B; [!DNL Workfront Proof]中的语言设置](../../../workfront-proof/wp-getstarted/system-information/language-settings.md)
+* [&#x200B; [!DNL Workfront Proof]中的编解码器](../../../workfront-proof/wp-getstarted/system-information/codecs.md)

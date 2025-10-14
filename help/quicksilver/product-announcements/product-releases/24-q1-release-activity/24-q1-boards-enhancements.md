@@ -16,7 +16,7 @@ ht-degree: 0%
 
 此页面介绍了在2024年第一季度发布到预览环境的所有展示板增强功能。 这些增强功能在24.1版本的生产环境中提供。
 
-有关2024年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2024年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)。
+有关2024年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2024年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)。
 
 有关如何在季度发布之前选择启用新展示板功能的详细信息，请参阅[Adobe Workfront展示板的早期功能选择启用](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md)。
 

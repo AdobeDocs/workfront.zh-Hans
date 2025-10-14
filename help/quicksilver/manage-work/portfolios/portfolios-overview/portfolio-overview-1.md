@@ -22,7 +22,7 @@ ht-degree: 0%
 本节包含以下文章：
 
 * [Portfolio管理概述](../../../manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
-* [ [!DNL Adobe Workfront]中的Portfolio概述](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)
+* [&#x200B; [!DNL Adobe Workfront]中的Portfolio概述](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)
 * [在项目组合中导航](../../../manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
 
 

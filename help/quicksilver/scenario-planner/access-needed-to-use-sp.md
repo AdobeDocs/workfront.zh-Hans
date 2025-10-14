@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!--Audited: 04/2024-->
 
-[!DNL Scenario Planner]具有额外的许可证要求。 有关[!DNL Workfront Scenario Planner]的信息，请参阅[概述 [!DNL Scenario Planner] ](../scenario-planner/scenario-planner-overview.md)。
+[!DNL Scenario Planner]具有额外的许可证要求。 有关[!DNL Workfront Scenario Planner]的信息，请参阅[概述 [!DNL Scenario Planner] &#x200B;](../scenario-planner/scenario-planner-overview.md)。
 
 <!--
 might need to add information about the permissions to plans/ initiatives if those will be coming later?

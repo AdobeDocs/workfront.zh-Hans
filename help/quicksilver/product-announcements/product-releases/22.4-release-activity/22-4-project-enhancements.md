@@ -112,7 +112,7 @@ ht-degree: 2%
 
 ### 我们需要您的反馈！
 
-借助此公共Beta，用户可以通过单击反馈按钮，直接向处理过滤器体验的团队提交反馈。 我们期待您和您的用户在公共测试版中了解新的过滤器体验。 如果您的团队希望直接与产品会面以提供其他反馈，请随时在此处安排会议： https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&amp;date=2022-08-25
+借助此公共Beta，用户可以通过单击反馈按钮，直接向处理过滤器体验的团队提交反馈。 我们期待您和您的用户在公共测试版中了解新的过滤器体验。 如果您的团队希望直接与产品会面以提供其他反馈，请随时在此处安排会议： https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&date=2022-08-25
 
 ### 接下来呢？
 

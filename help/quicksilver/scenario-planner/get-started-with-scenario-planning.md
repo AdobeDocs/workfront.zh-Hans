@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # 开始使用[!DNL Scenario Planner]
 
-[!DNL Scenario Planner]需要[!DNL Adobe Workfront]许可证的附加许可证。 有关Workfront [!DNL Scenario Planner]的信息，请参阅[概述 [!DNL Scenario Planner] ](../scenario-planner/scenario-planner-overview.md)。
+[!DNL Scenario Planner]需要[!DNL Adobe Workfront]许可证的附加许可证。 有关Workfront [!DNL Scenario Planner]的信息，请参阅[概述 [!DNL Scenario Planner] &#x200B;](../scenario-planner/scenario-planner-overview.md)。
 
 您可以使用[!DNL Adobe Workfront Scenario Planner]来构建概述公司总体战略成果的企业级计划。 您可以为计划定义多个计划，并将它们置于各种方案中，以找到执行计划的最佳解决方案。
 
-有关[!DNL Workfront Scenario Planner]的高级概述，请参阅[概述 [!DNL Scenario Planner] ](../scenario-planner/scenario-planner-overview.md)。
+有关[!DNL Workfront Scenario Planner]的高级概述，请参阅[概述 [!DNL Scenario Planner] &#x200B;](../scenario-planner/scenario-planner-overview.md)。
 
 ## 使用[!DNL Workfront Scenario Planner]的方法
 

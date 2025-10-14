@@ -392,7 +392,7 @@ This section will be updated with more information prior to the 20.4 release bei
 
 ### 21.1版本网络研讨会 {#21-1-release-webinar}
 
-Workfront 21.1版本网络研讨会将于2月3日上午11:00（东部夏令时间）/下午4:00（英国夏令时间）召开。 在[此处](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=ac&amp;eventid=2934272&amp;sessionid=1&amp;key=5C231B3385686D1E224A49EBE0BF0E37&amp;regTag=&amp;V2=false&amp;sourcepage=register)注册网络研讨会。
+Workfront 21.1版本网络研讨会将于2月3日上午11:00（东部夏令时间）/下午4:00（英国夏令时间）召开。 在[此处](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=ac&eventid=2934272&sessionid=1&key=5C231B3385686D1E224A49EBE0BF0E37&regTag=&V2=false&sourcepage=register)注册网络研讨会。
 
 ### 预览版本节奏中的更改 {#change-in-preview-release-cadence}
 

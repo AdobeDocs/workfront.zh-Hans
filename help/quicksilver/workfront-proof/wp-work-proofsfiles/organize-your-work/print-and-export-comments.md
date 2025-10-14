@@ -28,7 +28,7 @@ ht-degree: 0%
 
 * [校对查看器](#the-proof-viewer)
 * [校对详细信息页面](#the-proof-details-page)
-* [ [!DNL Proof] 操作菜单](#the-proof-actions-menu)
+* [&#x200B; [!DNL Proof] 操作菜单](#the-proof-actions-menu)
 
 ### 校对查看器 {#the-proof-viewer}
 

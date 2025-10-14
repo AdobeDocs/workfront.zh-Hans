@@ -29,7 +29,7 @@ ht-degree: 0%
 >
 >  此外，获取预览Sandbox不需要的自定义刷新Sandbox会额外产生成本。
 >
->  有关预览沙盒的更多信息，请参阅[预览Sandbox环境 [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)。
+>  有关预览沙盒的更多信息，请参阅[预览Sandbox环境 [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)。
 
 ## 访问要求
 

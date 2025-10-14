@@ -20,8 +20,8 @@ ht-degree: 0%
 
 * [在 [!DNL Adobe Workfront]中查找帮助的快速指南](../../workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md)
 * [联系客户支持](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)
-* [ [!DNL Adobe Workfront] 社区](../../workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md)
-* [ [!DNL Adobe Workfront] 状态网站](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)
+* [&#x200B; [!DNL Adobe Workfront] 社区](../../workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md)
+* [&#x200B; [!DNL Adobe Workfront] 状态网站](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)
 * [[!UICONTROL 创新实验室]](../../workfront-basics/tips-tricks-and-troubleshooting/idea-exchange.md)
 * [跨时区工作](../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md)
 * [[!DNL Workfront] [!UICONTROL 验证管理器]权限疑难解答](../../workfront-basics/tips-tricks-and-troubleshooting/wp-manager-permissions-troubleshooting.md)

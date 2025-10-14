@@ -19,4 +19,4 @@ ht-degree: 0%
 
 本节包含以下文章：
 
-* [ [!DNL Adobe Workfront] 移动应用程序上的错误消息：“[!UICONTROL 您的帐户未启用API。]”](../../../workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
+* [&#x200B; [!DNL Adobe Workfront] 移动应用程序上的错误消息：“[!UICONTROL 您的帐户未启用API。]”](../../../workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)

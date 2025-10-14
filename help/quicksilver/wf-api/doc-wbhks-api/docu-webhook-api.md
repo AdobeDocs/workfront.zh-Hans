@@ -893,7 +893,7 @@ GET /customAction
 
 指示成功或失败的JSON字符串，如下面的错误处理部分中所述。 出现故障时（即状态=“故障”），Workfront将向用户显示提供的错误消息。
 
-**示例：** https://sample.com/webhooks/customName?name=archive&amp;documentId=5502082c003a4f30 ddec2fb2b739cb7c&amp;documentVersionId=54b598a700e2342d6971597a5df1a8d3
+**示例：** https://sample.com/webhooks/customName?name=archive&documentId=5502082c003a4f30 ddec2fb2b739cb7c&amp;documentVersionId=54b598a700e2342d6971597a5df1a8d3
 
 响应
 

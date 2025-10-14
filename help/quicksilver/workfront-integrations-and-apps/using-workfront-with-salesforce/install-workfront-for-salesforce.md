@@ -74,8 +74,8 @@ ht-degree: 1%
 以下子部分介绍了如何为[!DNL Workfront]生产环境安装[!DNL Salesforce]。 您可以按照相同的步骤为[!DNL Workfront]沙盒环境安装[!DNL Salesforce]。
 
 * [正在安装 [!DNL Workfront for Salesforce] ，使其在 [!DNL AppExchange] 市场中可用](#installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace)
-* [正在 [!DNL Workfront for Salesforce] 框架中安装 [!DNL Salesforce Classic] ](#installing-workfront-for-salesforce-in-the-salesforce-classic-framework)
-* [正在 [!DNL Workfront for Salesforce] 框架中安装 [!DNL Salesforce Lightning Experience] ](#installing-workfront-for-salesforce-in-the-salesforce-lightning-experience-framework)
+* [正在 [!DNL Workfront for Salesforce] 框架中安装 [!DNL Salesforce Classic] &#x200B;](#installing-workfront-for-salesforce-in-the-salesforce-classic-framework)
+* [正在 [!DNL Workfront for Salesforce] 框架中安装 [!DNL Salesforce Lightning Experience] &#x200B;](#installing-workfront-for-salesforce-in-the-salesforce-lightning-experience-framework)
 
 ### 正在安装[!DNL Workfront for Salesforce]，以使其在[!DNL AppExchange]市场中可用 {#installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace}
 

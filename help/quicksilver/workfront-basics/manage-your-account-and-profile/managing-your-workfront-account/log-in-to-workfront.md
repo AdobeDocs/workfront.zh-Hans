@@ -22,14 +22,14 @@ ht-degree: 0%
 您需要以下信息才能登录到[!DNL Adobe Workfront]：
 
 * **登录URL：**&#x200B;这是您公司的唯一URL，其格式应为： **`yourCompanyDomain.my.workfront.com`**。\
-   如果您设置为单点登录(SSO)，则您的URL可能已被您的[!DNL Workfront]管理员更改。 有关使用SSO登录[!DNL Workfront]的详细信息，请参阅本文中的[使用SSO登录 [!DNL Workfront] ](#log-in-to-workfront-with-sso)。
+   如果您设置为单点登录(SSO)，则您的URL可能已被您的[!DNL Workfront]管理员更改。 有关使用SSO登录[!DNL Workfront]的详细信息，请参阅本文中的[使用SSO登录 [!DNL Workfront] &#x200B;](#log-in-to-workfront-with-sso)。
 
   您公司的域名由[!DNL Workfront]建立。 要更改您的域名，请联系我们的客户支持团队。 有关如何联系我们的客户支持团队的信息，请参阅[联系客户支持](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。
 
 * **用户名：**&#x200B;您的[!DNL Workfront]管理员设置您的用户名。
 * **密码：**&#x200B;如果系统未设置SSO，请在收到[!DNL Workfront]管理员的电子邮件邀请后设置[!DNL Workfront]密码。
 
-  有关使用SSO登录[!DNL Workfront]的详细信息，请参阅本文中的[使用SSO登录 [!DNL Workfront] ](#log-in-to-workfront-with-sso)。
+  有关使用SSO登录[!DNL Workfront]的详细信息，请参阅本文中的[使用SSO登录 [!DNL Workfront] &#x200B;](#log-in-to-workfront-with-sso)。
 
   有关接收电子邮件邀请和创建[!DNL Workfront]密码的详细信息，请参阅[接收电子邮件邀请并创建 [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)的密码。
 
@@ -135,7 +135,7 @@ ht-degree: 0%
 
 1. （视情况而定）如果您是首次登录，将显示一个页面，请求[!DNL Workfront]移动应用访问您的帐户的权限。 单击&#x200B;**允许访问**&#x200B;以继续。
 
-1. 系统会将您重定向到一个允许您以相同方式登录到桌面网站的网页。 此过程因您组织的Workfront配置而异，有关详细信息，请参阅[不使用SSO登录到 [!DNL Workfront] ](#log-in-to-workfront-without-sso)或上面[使用SSO登录到 [!DNL Workfront] ](#log-in-to-workfront-with-sso)。
+1. 系统会将您重定向到一个允许您以相同方式登录到桌面网站的网页。 此过程因您组织的Workfront配置而异，有关详细信息，请参阅[不使用SSO登录到 [!DNL Workfront] &#x200B;](#log-in-to-workfront-without-sso)或上面[使用SSO登录到 [!DNL Workfront] &#x200B;](#log-in-to-workfront-with-sso)。
 
    完成后，您会被重定向到移动设备应用程序并登录。
 

@@ -22,7 +22,7 @@ ht-degree: 0%
 
 在新计费期的第一天，您的订阅发票将发送给您帐户上的主计费联系人，以及[!UICONTROL 计费抄送]电子邮件地址（如果已定义）。
 
-该发票还显示在您[!DNL Workfront Proof]帐户的[!UICONTROL 帐单]部分，可供下载。 如需更多信息，请参阅[账单页面 [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
+该发票还显示在您[!DNL Workfront Proof]帐户的[!UICONTROL 帐单]部分，可供下载。 如需更多信息，请参阅[账单页面 [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
 
 您将在发票上找到以下信息：
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 ## 有用链接 {#useful-links}
 
-要更改您帐户的帐单信息，请转到帐单页面的“帐单联系人和地址”部分。 查看[校对帐单页面 [!DNL Workfront] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+要更改您帐户的帐单信息，请转到帐单页面的“帐单联系人和地址”部分。 查看[校对帐单页面 [!DNL Workfront] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 
 有关如何更改您帐户上的信用卡详细信息，请参阅[在Workfront Proof中选择付款方式](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)。
 

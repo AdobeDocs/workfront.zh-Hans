@@ -26,5 +26,5 @@ ht-degree: 0%
 
 * [疑难解答 — Mac上的验证查看器中的界面字体损坏](../../../workfront-proof/wp-tech-corner/troubleshooting/corrupted-interface-font-pv-mac.md)
 * [了解缓存和Cookie如何影响 [!DNL Workfront Proof]](../../../workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
-* [ [!DNL Workfront Proof]中的速度问题](../../../workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
+* [&#x200B; [!DNL Workfront Proof]中的速度问题](../../../workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
 * [疑难解答 —  [!DNL Workfront Proof] 校对查看器](../../../workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)

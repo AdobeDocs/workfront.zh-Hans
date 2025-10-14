@@ -23,7 +23,7 @@ ht-degree: 0%
 
 本节包含以下文章：
 
-* [ [!DNL Workfront Proof]中的仪表板](../../../workfront-proof/wp-work-proofsfiles/basic-features/dashboard.md)
-* [ [!DNL Workfront Proof]中“视图”选项卡上的“页面布局”](../../../workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md)
+* [&#x200B; [!DNL Workfront Proof]中的仪表板](../../../workfront-proof/wp-work-proofsfiles/basic-features/dashboard.md)
+* [&#x200B; [!DNL Workfront Proof]中“视图”选项卡上的“页面布局”](../../../workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md)
 * [正在搜索 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/basic-features/search.md)
 * [了解 [!DNL Workfront Proof] 活动审核记录](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)

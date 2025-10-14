@@ -248,7 +248,7 @@ To download this page in PDF&nbsp;format, go
 
 API版本11随2020.1版发布。 有关新增功能和更新的信息，请参阅[API版本11的新增功能](../../../wf-api/api/new-api-version-11.md) [API版本11](https://experience.workfront.com/s/article/What-s-new-in-API-version-11-1760875145)的新增功能。
 
-有关API版本的更多信息，请参阅[API版本控制和支持计划](../../../wf-api/api/api-version-support-schedule.md) [API版本发布和支持计划](https://experience.workfront.com/s/article/API-Version-Release-and-Support-Schedule-272875487?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1)。
+有关API版本的更多信息，请参阅[API版本控制和支持计划](../../../wf-api/api/api-version-support-schedule.md) [API版本发布和支持计划](https://experience.workfront.com/s/article/API-Version-Release-and-Support-Schedule-272875487?language=en_US&r=13&ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&ui-self-service-components-controller.ArticleTopicList.getTopics=1&ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1)。
 
 ## Workfront 维护更新
 

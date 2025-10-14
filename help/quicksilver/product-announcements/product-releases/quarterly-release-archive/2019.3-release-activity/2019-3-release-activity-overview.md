@@ -467,4 +467,4 @@ Replacement of Flash-based tools in Workfront
 
 ### 第3季度产品路线图网络研讨会 {#q3-product-roadmap-webinar}
 
-了解有关将于8月1日上午9:00举行的[第3季度路线图网络研讨会](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=Product&amp;eventid=2040896&amp;sessionid=1&amp;key=EFBB434E2FDF446E010DA62D1C27E9E5&amp;regTag=&amp;sourcepage=register)的更多内容。 山地标准时间
+了解有关将于8月1日上午9:00举行的[第3季度路线图网络研讨会](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=Product&eventid=2040896&sessionid=1&key=EFBB434E2FDF446E010DA62D1C27E9E5&regTag=&sourcepage=register)的更多内容。 山地标准时间

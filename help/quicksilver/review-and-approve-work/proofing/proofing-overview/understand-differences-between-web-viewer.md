@@ -44,7 +44,7 @@ Adobe Workfront提供两种不同的验证查看器：
 | 静态校对导航器 | ✓ {\f13 } | ✓ &#42; |
 | 文档搜索 | ✓ {\f13 } | ✓ &#42; |
 | 多个页面上的Post评论 | ✓ （适用于所有视图） | ✓ &#42; （适用于所有视图） |
-| 高级静态校对快捷键 | ✓ [ （如需详细资讯，请参阅校对检视器中的](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)键盘快捷键） | ✓ &#42;（如需详细资讯，请参阅校对检视器中的[键盘快捷键](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)） |
+| 高级静态校对快捷键 | ✓ [&#x200B; （如需详细资讯，请参阅校对检视器中的](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)键盘快捷键） | ✓ &#42;（如需详细资讯，请参阅校对检视器中的[键盘快捷键](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)） |
 
 {style="table-layout:auto"}
 
@@ -63,7 +63,7 @@ Adobe Workfront提供两种不同的验证查看器：
 | 全屏模式 | ✓ {\f13 } | ✓ &#42;  |
 | 范围注释 | ✓ {\f13 } | ✓ &#42;  |
 | 循环视频校样（视频完成和自动开始） | ✓ {\f13 } | ✓ &#42;  |
-| 高级视频快捷键 | ✓ [ （如需详细资讯，请参阅校对检视器中的](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)键盘快捷键） | ✓ &#42;  |
+| 高级视频快捷键 | ✓ [&#x200B; （如需详细资讯，请参阅校对检视器中的](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)键盘快捷键） | ✓ &#42;  |
 
 {style="table-layout:auto"}
 

@@ -23,7 +23,7 @@ ht-degree: 0%
 
 本节包含以下文章：
 
-* [ [!DNL Workfront Proof]中的基本校对过程](../../../workfront-proof/wp-getstarted/workflow-examples/basic-proof-process.md)
+* [&#x200B; [!DNL Workfront Proof]中的基本校对过程](../../../workfront-proof/wp-getstarted/workflow-examples/basic-proof-process.md)
 * [在 [!DNL Workfront Proof]中进行内部审核，然后再进行外部审核](../../../workfront-proof/wp-getstarted/workflow-examples/internal-external-review.md)
 * [在 [!DNL Workfront Proof]中与设计人员和项目经理合作](../../../workfront-proof/wp-getstarted/workflow-examples/work-designers-project-managers.md)
 * [在 [!DNL Workfront Proof]中与自由翻译人员合作](../../../workfront-proof/wp-getstarted/workflow-examples/work-freelancers.md)

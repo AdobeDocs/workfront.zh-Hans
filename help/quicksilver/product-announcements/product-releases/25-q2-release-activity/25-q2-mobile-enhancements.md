@@ -15,7 +15,7 @@ ht-degree: 0%
 
 本页介绍了在2025年第二季度发布时间范围内做出的所有移动设备增强功能。
 
-有关2025年第二季度发布周期中此时可用的所有更改列表，请参阅[ 2025年第二季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)。
+有关2025年第二季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2025年第二季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)。
 
 
 ## 移动应用程序中的验证增强功能(仅限iOS)

@@ -24,9 +24,9 @@ ht-degree: 0%
 
 本节包含以下子部分：
 
-* [ [!DNL Workfront Proof]中的帐户设置](../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)
+* [&#x200B; [!DNL Workfront Proof]中的帐户设置](../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)
 * [品牌 [!DNL Workfront Proof]](../../workfront-proof/wp-acct-admin/branding/branding.md)
 * [管理安全性](../../workfront-proof/wp-acct-admin/managing-security/manage-security.md)
-* [ [!DNL Workfront Proof]中的合作伙伴帐户](../../workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md)
-* [ [!DNL Workfront Proof]中的附属帐户](../../workfront-proof/wp-acct-admin/satellite-accounts/satellite-accounts.md)
+* [&#x200B; [!DNL Workfront Proof]中的合作伙伴帐户](../../workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md)
+* [&#x200B; [!DNL Workfront Proof]中的附属帐户](../../workfront-proof/wp-acct-admin/satellite-accounts/satellite-accounts.md)
 * [有关 [!DNL Workfront Proof] 帐户管理的提示、技巧和疑难解答](../../workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting.md)
