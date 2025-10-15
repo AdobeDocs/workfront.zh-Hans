@@ -282,7 +282,7 @@ API版本11随2020.1版发布。 有关新增功能和更新的信息，请参�
 
 借助Workfront One，您可以从Workfront中发现最重要的内容、资源和新闻 — 全部放在一个地方，只需登录一次。 我们统一了Experience、Community和Training站点，让您能够更轻松地找到您所寻找的内容。
 
-[进一步了解Workfront One](https://business.adobe.com/products/workfront.html)。
+[进一步了解Workfront One](https://business.adobe.com/cn/products/workfront.html)。
 
 ### 2020.1版网络研讨会 {#2020-1-release-webinar}
 

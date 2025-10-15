@@ -25,7 +25,7 @@ ht-degree: 1%
 >
 >有关Salesforce的Workfront自动化和集成模块的特定功能的信息，请参阅[Salesforce模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules)。
 
-需要[!UICONTROL Pro] [!DNL Workfront]计划才能使用此功能。 有关各种可用计划的详细信息，请参阅[[!DNL Workfront] 计划。](https://business.adobe.com/products/workfront/pricing.html)
+需要[!UICONTROL Pro] [!DNL Workfront]计划才能使用此功能。 有关各种可用计划的详细信息，请参阅[[!DNL Workfront] 计划。](https://business.adobe.com/cn/products/workfront/pricing.html)
 
 在以[!DNL Adobe Workfront]管理员身份安装[!DNL Salesforce]的[!DNL Workfront]后，您可以通过将其添加到用户的[!UICONTROL Opportunity]和[!UICONTROL Account]的新分区中，使其可供用户使用
 [!UICONTROL Salesforce]中的版面。

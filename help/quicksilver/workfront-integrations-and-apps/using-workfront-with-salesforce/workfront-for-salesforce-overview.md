@@ -38,7 +38,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->需要[!UICONTROL Pro] [!DNL Workfront]计划才能使用此功能。 有关各种可用计划的详细信息，请参阅[[!DNL Workfront] 计划。](https://business.adobe.com/products/workfront/pricing.html)
+>需要[!UICONTROL Pro] [!DNL Workfront]计划才能使用此功能。 有关各种可用计划的详细信息，请参阅[[!DNL Workfront] 计划。](https://business.adobe.com/cn/products/workfront/pricing.html)
 
 ## 访问要求
 

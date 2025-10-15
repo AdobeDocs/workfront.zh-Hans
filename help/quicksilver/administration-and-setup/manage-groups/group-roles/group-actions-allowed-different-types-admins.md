@@ -230,7 +230,7 @@ ht-degree: 3%
 
 &#42;&#42;在组管理员的访问级别中，必须启用对此操作的访问权限。 有关详细信息，请参阅[授予用户对特定区域的管理访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
 
-&#42;&#42;&#42;以下活动是高级企业控件的一部分，不适用于Select计划。 只有购买了Prime或Ultimate计划的组织才能访问这些功能。  有关计划的更多信息，请参阅[Adobe Workfront定价和打包页面](https://business.adobe.com/products/workfront/pricing.html)。 （对于使用旧版计划的组织，上表显示了组和子组管理员的活动。）
+&#42;&#42;&#42;以下活动是高级企业控件的一部分，不适用于Select计划。 只有购买了Prime或Ultimate计划的组织才能访问这些功能。  有关计划的更多信息，请参阅[Adobe Workfront定价和打包页面](https://business.adobe.com/cn/products/workfront/pricing.html)。 （对于使用旧版计划的组织，上表显示了组和子组管理员的活动。）
 
 * 在组级别配置项目、任务和问题首选项
 * 在组级别配置时间表和小时首选项

@@ -404,4 +404,4 @@ Workfront 21.1版本网络研讨会将于2月3日上午11:00（东部夏令时�
 
 借助Workfront One，您可以从Workfront中发现最重要的内容、资源和新闻 — 全部放在一个地方，只需登录一次。 我们统一了Experience、Community和Training站点，让您能够更轻松地找到您所寻找的内容。
 
-[进一步了解Workfront One](https://business.adobe.com/products/workfront.html)。
+[进一步了解Workfront One](https://business.adobe.com/cn/products/workfront.html)。

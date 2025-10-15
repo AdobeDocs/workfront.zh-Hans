@@ -38,7 +38,7 @@ Workfront文档操作方法文章包含一个表，其中说明了此过程所�
    <td role="rowheader">Adobe Workfront计划</td> 
    <td> Adobe Workfront计划是指贵组织已购买的一组功能。 大多数Workfront功能在所有计划中均可用，只有少数例外，这些功能主要与战略规划和企业控制相关。 
    <ul><li>要了解您的组织使用哪种Adobe Workfront计划（包括您的组织使用的是新打包模型还是当前打包模型），请联系您的Workfront管理员。</li>
-   <li>有关Workfront管理员如何查找您组织的Workfront计划的说明，请参阅<a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">查看您组织的群集和Workfront计划</a>。</li><li>有关新的Workfront计划的详细信息，请参阅<a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront定价和打包</a>。</li></ul> </td> 
+   <li>有关Workfront管理员如何查找您组织的Workfront计划的说明，请参阅<a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">查看您组织的群集和Workfront计划</a>。</li><li>有关新的Workfront计划的详细信息，请参阅<a href="https://business.adobe.com/cn/products/workfront/pricing.html">Adobe Workfront定价和打包</a>。</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

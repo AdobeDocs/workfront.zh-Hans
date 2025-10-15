@@ -81,11 +81,11 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td>突出显示客户的<a href="https://business.adobe.com/resources/main.html?Products=Workfront">[!DNL Workfront]资源</a> </td> 
+   <td>突出显示客户的<a href="https://business.adobe.com/cn/resources/main.html?Products=Workfront">[!DNL Workfront]资源</a> </td> 
    <td>这是您网络研讨会、电子书、白皮书、视频和报告的起始来源。</td> 
   </tr> 
   <tr> 
-   <td><a href="https://business.adobe.com/customer-success-stories.html?Products=Adobe%2520Workfront%22%3E">案例研究 </a></td> 
+   <td><a href="https://business.adobe.com/cn/customer-success-stories.html?Products=Adobe%2520Workfront%22%3E">案例研究 </a></td> 
    <td>阅读不断增加的60多个案例研究，其中重点介绍客户面临的挑战以及[!DNL Workfront]个解决方案和优势。</td> 
   </tr> 
   <tr> 
@@ -142,7 +142,7 @@ ht-degree: 1%
 
 | [[!DNL Adobe Workfront] 集成](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) | 您可以将[!DNL Workfront]与第三方应用程序集成。 集成可以扩展[!DNL Workfront]的实用工具，并根据贵组织的需求对其进行定制。 这篇知识库文章介绍了您的集成选项，并指出了下一步的方向。 |
 |---|---|
-| [[!DNL Workfront] 内置集成](https://business.adobe.com/products/workfront/integrations.html) | Workfront免费的内置集成让您和您的团队能够顺利过渡到Workfront平台，同时保持相同的工作流程和流程。 |
+| [[!DNL Workfront] 内置集成](https://business.adobe.com/cn/products/workfront/integrations.html) | Workfront免费的内置集成让您和您的团队能够顺利过渡到Workfront平台，同时保持相同的工作流程和流程。 |
 | [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/home) | 将[!DNL Workfront]连接到100多个应用程序，使您的业务关键流程无需代码即可轻松实现自动化。 |
 
 {style="table-layout:auto"}

@@ -54,5 +54,5 @@ Workfront for Experience Manager增强型连接器现在使您能够：
 
 ## 更多此类内容
 
-* 适用于Adobe Experience Manager的[Workfront](https://business.adobe.com/products/workfront/aem-integration.html)概述
+* 适用于Adobe Experience Manager的[Workfront](https://business.adobe.com/cn/products/workfront/aem-integration.html)概述
 * [适用于Experience Manager Assets Essentials的Adobe Workfront](../../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)

@@ -438,7 +438,7 @@ ht-degree: 2%
 * 工作流Prime和更高版本
 * Workfront Prime和更高版本
 
-有关包的详细信息，请参阅[Adobe Workfront定价和打包页面](https://business.adobe.com/products/workfront/pricing.html)。
+有关包的详细信息，请参阅[Adobe Workfront定价和打包页面](https://business.adobe.com/cn/products/workfront/pricing.html)。
 
 高级企业控制：
 

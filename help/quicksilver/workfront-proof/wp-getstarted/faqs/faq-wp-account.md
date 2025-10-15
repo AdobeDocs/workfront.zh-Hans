@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 如何打开新的[!DNL Workfront Proof]帐户？
 
-若要打开新帐户，请转到[试用注册页面](https://business.adobe.com/products/workfront/proofing-approvals.html)并打开试用帐户。 然后，我们团队的成员将与您联系，帮助您开始使用[!DNL Workfront Proof]。
+若要打开新帐户，请转到[试用注册页面](https://business.adobe.com/cn/products/workfront/proofing-approvals.html)并打开试用帐户。 然后，我们团队的成员将与您联系，帮助您开始使用[!DNL Workfront Proof]。
 
 如果您已经知道系统并且想要注册付费计划，请转到&#x200B;*[!UICONTROL 设置]* *>* *[!UICONTROL 帐单]*，并将您的帐户升级到我们的付费计划之一。
 

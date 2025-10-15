@@ -52,7 +52,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-有关Workfront计划的信息，请参阅[我们的计划](https://business.adobe.com/products/workfront/pricing.html)。
+有关Workfront计划的信息，请参阅[我们的计划](https://business.adobe.com/cn/products/workfront/pricing.html)。
 
 有关可以在Workfront中定位工作负载均衡器的信息，请参阅[定位工作负载均衡器](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)。
 

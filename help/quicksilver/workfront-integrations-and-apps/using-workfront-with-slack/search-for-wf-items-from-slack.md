@@ -30,7 +30,7 @@ ht-degree: 6%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront]计划]</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/cn/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront]计划]</a>*</td> 
    <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
   </tr> 
  </tbody> 

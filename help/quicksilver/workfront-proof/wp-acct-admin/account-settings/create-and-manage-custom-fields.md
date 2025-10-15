@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >本文提及独立产品[!DNL Workfront Proof]中的功能。 有关[!DNL Adobe Workfront]内部校对的信息，请参阅[校对](../../../review-and-approve-work/proofing/proofing.md)。
 
-需要Select或Premium [!DNL Workfront]计划才能使用此功能。 有关各种可用计划的详细信息，请参阅[Workfront计划](https://business.adobe.com/products/workfront/pricing.html)。
+需要Select或Premium [!DNL Workfront]计划才能使用此功能。 有关各种可用计划的详细信息，请参阅[Workfront计划](https://business.adobe.com/cn/products/workfront/pricing.html)。
 
 自定义字段允许您在创建新验证、用户或访客时捕获其他数据。 例如，创建新验证的用户可能希望包含附加部分，以便他们能够捕获工作编号、部门代码或供应商参考。
 
