@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: d7f91e17294981c2c31681ca7f4732f9a79d4c61
+source-git-commit: 21293cdd7a1c8f76149ee2e224fa8701e25e970e
 workflow-type: tm+mt
-source-wordcount: '8483'
+source-wordcount: '8497'
 ht-degree: 0%
 
 ---
@@ -334,6 +334,10 @@ For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tas
 ### 更新了项目的“编辑费用”框的界面
 
 **预览版本： 2025年8月28日；生产版本： 2025年9月4日**
+
+>[!NOTE]
+>
+>此功能已于2025年10月15日从预览和生产环境中暂时删除。
 
 我们更新了用于编辑项目费用的对话框，以匹配应用程序的其他区域。 在项目或模板中编辑费用时，可以使用更新的对话框。
 
