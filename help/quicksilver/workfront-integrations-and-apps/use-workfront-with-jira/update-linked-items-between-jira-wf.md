@@ -131,7 +131,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL 计划完成日期]</td> 
-   <td> <p>[!UICONTROL 到期日期]</p> <p>已更改的[!UICONTROL 截止日期]的注释已添加到[!DNL Workfront]问题的[!DNL Jira]选项卡中。 </p> <p>注意：必须为您的<strong>问题启用</strong>[!UICONTROL 到期日期][!DNL Jira]，才能在[!UICONTROL Jira]中看到此字段的更新。 </p> </td> 
+   <td> <p>[!UICONTROL 到期日期]</p> <p>已更改的[!UICONTROL 截止日期]的注释已添加到[!DNL Workfront]问题的[!DNL Jira]选项卡中。 </p> <p>注意：必须为您的<strong>问题启用</strong>[!UICONTROL 到期日期]&#x200B;[!DNL Jira]，才能在[!UICONTROL Jira]中看到此字段的更新。 </p> </td> 
   </tr> 
   <tr> 
    <td>自定义Forms和自定义字段</td> 
@@ -139,15 +139,15 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL 问题或任务优先级]</td> 
-   <td>显示在[!DNL Workfront]问题的[!DNL Jira]右侧面板中。 <br>它不更新<strong>中的问题</strong>[!UICONTROL 优先级][!DNL Jira]字段。 </td> 
+   <td>显示在[!DNL Workfront]问题的[!DNL Jira]右侧面板中。 <br>它不更新<strong>中的问题</strong>[!UICONTROL 优先级]&#x200B;[!DNL Jira]字段。 </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 日志时间] </td> 
-   <td> <p>有关记录时间的注释已添加到<strong>[!DNL Workfront]</strong>问题的[!DNL Jira]选项卡中。 这包括记录时间的用户的名称，以及在时间不同时为其记录时间的用户的名称。 <strong>中的</strong>[!UICONTROL 工作日志][!DNL Jira]选项卡中未记录任何时间。<br></p> </td> 
+   <td> <p>有关记录时间的注释已添加到<strong>[!DNL Workfront]</strong>问题的[!DNL Jira]选项卡中。 这包括记录时间的用户的名称，以及在时间不同时为其记录时间的用户的名称。 <strong>中的</strong>[!UICONTROL 工作日志]&#x200B;[!DNL Jira]选项卡中未记录任何时间。<br></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Comments]</td> 
-   <td> <p>该评论已添加到<strong>[!DNL Workfront]</strong>问题的[!DNL Jira]选项卡。 它未添加到<strong>问题的</strong>[!UICONTROL 评论][!DNL Jira]选项卡中</p> <p>注意：当您手动链接两个现有项时，在将其链接到[!DNL Workfront]之前添加到[!DNL Jira]项的注释不会同步到[!DNL Jira]问题。 </p> <p>Jira注释与Workfront同步。</td> 
+   <td> <p>该评论已添加到<strong>[!DNL Workfront]</strong>问题的[!DNL Jira]选项卡。 它未添加到<strong>问题的</strong>[!UICONTROL 评论]&#x200B;[!DNL Jira]选项卡中</p> <p>注意：当您手动链接两个现有项时，在将其链接到[!DNL Workfront]之前添加到[!DNL Jira]项的注释不会同步到[!DNL Jira]问题。 </p> <p>Jira注释与Workfront同步。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -193,7 +193,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> 评论 <br><br></td> 
-   <td> <p>如果[!UICONTROL Setup]选项卡的[!UICONTROL SYNCHRONIZE FROM JIRA TO WORKFRONT]部分中的[!DNL Workfront][!UICONTROL Comments]<strong>设置是</strong>[!UICONTROL Always]<strong>，则评论会添加到</strong>问题或任务的[!UICONTROL Updates]选项卡中。</p> <p>有关在[!DNL Jira]中配置Workfront设置的信息，请参阅<a href="../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md">配置[!DNL Workfront for Jira]</a>。</p> <p>有关对链接[!DNL Jira]问题中的项进行评论的信息，请参阅链接<a href="#comment-from-a-linked-jira-issue" class="MCXref xref">问题[!DNL Jira]中的</a>评论。</p> </td> 
+   <td> <p>如果[!UICONTROL Setup]选项卡的[!UICONTROL SYNCHRONIZE FROM JIRA TO WORKFRONT]部分中的[!DNL Workfront]&#x200B;[!UICONTROL Comments]<strong>设置是</strong>[!UICONTROL Always]<strong>，则评论会添加到</strong>问题或任务的[!UICONTROL Updates]选项卡中。</p> <p>有关在[!DNL Jira]中配置Workfront设置的信息，请参阅<a href="../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md">配置[!DNL Workfront for Jira]</a>。</p> <p>有关对链接[!DNL Jira]问题中的项进行评论的信息，请参阅链接<a href="#comment-from-a-linked-jira-issue" class="MCXref xref">问题[!DNL Jira]中的</a>评论。</p> </td> 
   </tr> 
  </tbody> 
 </table>

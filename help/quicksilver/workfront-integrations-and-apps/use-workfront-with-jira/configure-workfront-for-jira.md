@@ -250,7 +250,7 @@ ht-degree: 0%
         </tr>
         <tr>
          <td role="rowheader">[!UICONTROL 计划完成日期]</td>
-         <td><p>[!DNL Workfront]中任务或问题的[!UICONTROL 规划完成日期]将变为[!DNL Jira]中链接到的问题的[!UICONTROL 到期日期]。</p><p>注意：请确保在<strong>个问题上显示</strong>[!UICONTROL 到期日期][!DNL Jira]，以便同步该值。</p></td>
+         <td><p>[!DNL Workfront]中任务或问题的[!UICONTROL 规划完成日期]将变为[!DNL Jira]中链接到的问题的[!UICONTROL 到期日期]。</p><p>注意：请确保在<strong>个问题上显示</strong>[!UICONTROL 到期日期]&#x200B;[!DNL Jira]，以便同步该值。</p></td>
         </tr>
        </tbody>
       </table>

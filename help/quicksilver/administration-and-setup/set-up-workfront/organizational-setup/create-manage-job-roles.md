@@ -77,7 +77,7 @@ ht-degree: 0%
       <td role="rowheader"><span>[!UICONTROL 处于活动状态]</span> </td> 
       <td> 
        <ul> 
-        <li> <p>如果希望角色处于活动状态并且在<b>中的所有位置都可用，以便与用户、工作项等关联，请选择</b>[!UICONTROL 是][!DNL Workfront]。 </p> </li> 
+        <li> <p>如果希望角色处于活动状态并且在<b>中的所有位置都可用，以便与用户、工作项等关联，请选择</b>[!UICONTROL 是]&#x200B;[!DNL Workfront]。 </p> </li> 
         <li> <p>如果希望停用该角色且不能将其分配给用户、工作项等，请选择<b>[!UICONTROL 否]</b>。 </p> </li> 
        </ul> <p><span>有关停用工作角色的信息，请参阅</span> <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md" class="MCXref xref">停用工作角色</a>。 </p> </td> 
      </tr>

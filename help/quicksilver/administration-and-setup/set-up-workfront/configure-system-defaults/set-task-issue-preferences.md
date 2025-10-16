@@ -178,7 +178,7 @@ Linked to Converting Issues.-->
   <tbody> 
     <tr> 
     <td role="rowheader">[!UICONTROL 当任务或问题从“新”转换为“进行中”时，将实际开始日期设置为]</td> 
-    <td> <p>当任务或问题从[!DNL Workfront][!UICONTROL 新建]<strong>变为</strong>[!UICONTROL 正在进行]<strong>时，为</strong>中记录实际开始日期选择以下选项之一：</p> 
+    <td> <p>当任务或问题从[!DNL Workfront]&#x200B;[!UICONTROL 新建]<strong>变为</strong>[!UICONTROL 正在进行]<strong>时，为</strong>中记录实际开始日期选择以下选项之一：</p> 
       <ul> 
       <li><strong>[!UICONTROL 现在]：</strong>实际开始日期设置为当前日期。</li> 
       <li><strong>[!UICONTROL 计划开始日期]：</strong>实际开始日期设置为任务或问题的计划开始日期。</li> 
