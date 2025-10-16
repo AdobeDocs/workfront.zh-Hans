@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '3397'
+source-wordcount: '3352'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,61 @@ ht-degree: 1%
 
 ## 访问要求
 
-+++ 展开以查看访问要求。
++++ 展开以查看本文中各项功能的访问要求。 
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront包</p></td> 
+   <td> 
+<ul> 
+<li><p>任何Workfront和任何Planning包</p></li>
+或
+<li><p>任何工作流和任何计划包</p></li></ul>
+<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
+   </td> 
+<tr> 
+<td> 
+   <p> 其他产品</p> </td> 
+   <td> 
+    <p>除了Adobe Workfront之外，您必须拥有Adobe Experience Manager Assets许可证以及AEM Assets与Workfront之间的集成，才能将AEM资源与Planning记录相关联。</p>
+    <p>有关信息，请参阅适用于Experience Manager Assets和Assets Essentials的<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront：文章索引</a>。 </p>
+   </td> 
+  </tr>   
+<tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
+   <td><p>标准</p>
+   </td> 
+  </tr> 
+   <tr> 
+   <td role="rowheader"><p>访问级别配置</p></td> 
+   <td> <p>Adobe Workfront Planning没有访问级别控制</p> 
+   <p>在Workfront和AEM Assets中，查看或更高权限查看要连接其对象的对象类型。 </p>  
+</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader"><p>对象权限</p></td> 
+   <td>   <p>向工作区提供或更高权限以及连接记录的记录类型。 </p>  
+   <p>查看或更高的工作区权限并记录类型，以查看与其他应用程序中的对象和字段的所有连接，无论您对其他应用程序的访问权限如何。 </p>
+   <p>查看要从Workfront或Experience Manager Assets链接的对象或授予对这些对象的更高权限。 </p>
+   <p>系统管理员有权访问所有工作区，包括他们未创建的工作区。</p> </td> 
+  </tr>   
+</tbody> 
+</table>
+
+有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++   
+
+<!--Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -69,64 +123,60 @@ ht-degree: 1%
     <tr> 
 <tr> 
 <td> 
-   <p> 产品</p> </td> 
+   <p> Products</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront规划<p></li>
-   <li><p>Adobe Experience Manager Assets(如果要将AEM资源与Planning记录连接)<p>
-   <p>您必须具有Adobe Experience Manager Assets许可证以及AEM Assets与Workfront之间的集成。
-    有关信息，请参阅适用于Experience Manager Assets和Assets Essentials的<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront：文章索引</a>。 </p>
+   <li><p> Adobe Workfront Planning<p></li>
+   <li><p>Adobe Experience Manager Assets, if you want to connect AEM assets with Planning records<p>
+   <p>You must have an Adobe Experience Manager Assets license and an integration between AEM Assets and Workfront.
+    For information, see <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront for Experience Manager Assets and Assets Essentials: article index</a>. </p>
    </li>  
    </ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront计划*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
    <td> 
-<p>以下任意Workfront计划：</p> 
-<ul><li>选择</li> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
-<p>Workfront Planning不适用于旧版Workfront计划</p> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront规划包*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
    <td> 
-<p>任何 </p> 
-<p>有关每个Workfront计划中包括的内容的更多信息，请联系您的Workfront客户经理。 </p> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
    </td> 
  <tr> 
-   <td role="rowheader"><p>Adobe Workfront平台</p></td> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>贵组织的Workfront实例必须载入Adobe Unified Experience才能访问Workfront Planning。</p> 
-<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront许可证*</p></td> 
-   <td> 标准
-   <p>Workfront计划不适用于旧版Workfront许可证</p> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td> Standard
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>访问级别配置</p></td> 
-   <td> <p>Adobe Workfront Planning对象没有访问级别控制</p> 
-   <p>查看要从Workfront链接的对象类型的或更高权限。</p>   
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning objects</p> 
+   <p>View or higher permissions to the object types you want to link from Workfront.</p>   
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>对象权限</p></td> 
-   <td>   <p>向工作区提供或更高权限以及连接记录的记录类型 </p>  
-   <p>查看或更高的工作区权限并记录类型，以查看与其他应用程序中的对象和字段的所有连接，无论您对其他应用程序的访问权限如何。 </p>
-   <p>查看要从Workfront或Experience Manager Assets链接的对象或授予对这些对象的更高权限。 </p>
-   <p>系统管理员有权访问所有工作区，包括他们未创建的工作区。</p> </td> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Contribute or higher permissions to a workspace and record type to connect records </p>  
+   <p>View or higher permissions to a workspace and record type to view all connections to objects and fields from other applications, regardless of your access in the other application. </p>
+   <p>View or higher permissions to the objects you want to link from Workfront or Experience Manager Assets. </p>
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p> </td> 
   </tr> 
 </tbody> 
-</table>
-
-*有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
-
-+++
+</table> -->
 
 ## 连接记录的注意事项
 
@@ -337,7 +387,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->当Workfront管理员通过Experience Manager Assets与Workfront之间的集成配置元数据映射时，可从Adobe Experience Manager Assets访问Planning记录及其字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+>当Workfront管理员通过Experience Manager Assets与Workfront之间的集成配置元数据映射时，可从Adobe Experience Manager Assets访问Planning记录及其字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
 要将记录与Experience Manager资源连接，请执行以下操作：
 
@@ -434,7 +484,7 @@ ht-degree: 1%
    >
    >    默认情况下，仅显示已连接单个记录的已连接记录。
 
-1. （可选）单击“显示所有连接”**&#x200B;**&#x200B;可显示所有连接的记录类型，包括未连接记录的记录类型。
+1. （可选）单击“显示所有连接”****&#x200B;可显示所有连接的记录类型，包括未连接记录的记录类型。
 
 1. （可选）单击截面左侧的向下箭头以将其折叠。
 

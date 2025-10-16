@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: e717e095f1995dbed0232789616d42492156d843
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '3985'
+source-wordcount: '3876'
 ht-degree: 2%
 
 ---
@@ -17,9 +17,12 @@ ht-degree: 2%
 
 <!--remove preview and production references at production-->
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -29,7 +32,7 @@ ht-degree: 2%
 
 ## 访问要求
 
-+++ 展开以查看访问要求。 
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -39,47 +42,23 @@ ht-degree: 2%
 <tbody> 
     <tr> 
 <tr> 
-<td> 
-   <p> 产品</p> </td> 
-   <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront规划<p></li></ul></td> 
-  </tr>   
+</tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront计划*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront包</p></td> 
    <td> 
-<p>以下任意Workfront计划：</p> 
-<ul><li>选择</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning不适用于旧版Workfront计划</p> 
+<ul> 
+<li><p>任何Workfront和任何Planning包</p></li>
+或
+<li><p>任何工作流和任何计划包</p></li></ul>
+<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
    </td> 
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront规划包*</p></td> 
-   <td> 
-<p>任何 </p> 
-<p>有关每个Workfront计划中包括的内容的更多信息，请联系您的Workfront客户经理。 </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Adobe Workfront平台</p></td> 
-   <td> 
-<p>贵组织的Workfront实例必须载入Adobe Unified Experience才能访问Workfront Planning。</p> 
-<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p> 
-   </td> 
-   </tr> 
-  </tr> 
-    <td role="rowheader"><p>Adobe Workfront许可证*</p></td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
    <td><p> 用于创建和删除视图的标准</p>
    <p>更新视图元素的参与者或更高版本</p>
-   <p>Workfront计划不适用于旧版Workfront许可证</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>访问级别配置</p></td> 
-   <td> <p>Adobe Workfront Planning没有访问级别控制</p>   
-</td> 
-  </tr> 
-<tr> 
    <td role="rowheader"><p>对象权限</p></td> 
    <td>   <p>管理视图的权限</p>  
    <p>查看对视图的权限以临时更改视图设置或复制它</p> </td> 
@@ -89,13 +68,76 @@ ht-degree: 2%
    <td> 必须为具有轻度或参与者许可证的用户分配一个包括Planning的布局模板。
    <p>默认情况下，标准用户和系统管理员已启用Planning区域。</p></div></li></ul>
 </td>
-  </tr>
+  </tr> 
 </tbody> 
 </table>
 
-*有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-+++     
++++ 
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+    <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard to create and delete views</p>
+   <p>Contributor or higher to update view elements</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a view</p>  
+   <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+</td>
+  </tr>
+</tbody> 
+</table> -->
 
 ## 管理时间线视图 {#manage-a-timeline-view}
 
@@ -119,9 +161,9 @@ ht-degree: 2%
 要管理时间线视图，请执行以下操作：
 
 1. 转到要查看其时间线的记录类型页面。
-1. <span class="preview">创建时间线视图，如[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)一文中所述。</span>
+1. 创建时间线视图，如[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)一文中所述。
 
-   <span class="preview">![时间线视图示例](assets/timeline-view-example.png)</span>
+   ![时间线视图示例](assets/timeline-view-example.png)
 
    与所选记录类型关联的记录在时间轴中显示为条形，默认情况下，这些记录按其开始日期的时间顺序排序。
 
@@ -153,7 +195,7 @@ ht-degree: 2%
    >在“设置”区域中设置自定义季度后，时间线视图显示自定义季度，而不是传统季度。
    >有关信息，请参阅[启用自定义季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
-1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”**&#x200B;**，然后要求您的Workfront管理员设置自定义季度。
+1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”****，然后要求您的Workfront管理员设置自定义季度。
 
    >[!TIP]
    >
@@ -175,9 +217,9 @@ ht-degree: 2%
 
 1. 执行以下操作可快速查找与关键字匹配的记录：
 
-   1. <span class="preview">单击&#x200B;**搜索**&#x200B;图标![搜索图标](assets/search-icon.png)并开始键入与屏幕上显示的记录的任何字段相关联的关键字。 正确匹配的数量显示在搜索项目旁边，具有正确匹配的记录会高亮显示。</span>
+   1. 单击&#x200B;**搜索**&#x200B;图标![搜索图标](assets/search-icon.png)并开始键入与屏幕上显示的记录的任何字段相关联的关键字。 正确匹配的数量显示在搜索项目旁边，具有正确匹配的记录会高亮显示。
 
-      <span class="preview">![搜索框和结果时间线视图](assets/search-box-and-results-timeline-view.png)</span>
+      ![搜索框和结果时间线视图](assets/search-box-and-results-timeline-view.png)
 
       您可以使用屏幕上可见的任何单词或特殊字符。
 
@@ -187,30 +229,30 @@ ht-degree: 2%
    1. （可选）如果有多个匹配项，请单击搜索关键字右侧的向上箭头和向下箭头以查找表中的所有匹配项。
    1. 单击搜索框中的&#x200B;**x**&#x200B;图标以清除搜索关键字。
 
-   1. <span class="preview">（可选）单击&#x200B;**全屏**&#x200B;图标![打开全屏图标](assets/open-full-screen-icon.png)以全屏方式打开视图，然后单击&#x200B;**退出全屏**&#x200B;图标![退出全屏图标](assets/exit-full-screen-icon.png)或键盘上的Escape以退出全屏。 </span>
+   1. （可选）单击&#x200B;**全屏**&#x200B;图标![打开全屏图标](assets/open-full-screen-icon.png)以全屏方式打开视图，然后单击&#x200B;**退出全屏**&#x200B;图标![退出全屏图标](assets/exit-full-screen-icon.png)或键盘上的Escape以退出全屏。
 
 1. （可选）单击&#x200B;**划分**&#x200B;以在时间轴上显示连接的记录。
 
    有关信息，请参阅本文中的[使用划分功能在时间线视图](#break-down-connected-records-in-the-timeline-view)中显示连接的记录。
-1. <span class="preview">要在时间轴视图中创建记录或编辑其日期，请执行下列操作之一：</span>
+1. 要在时间轴视图中创建记录或编辑其日期，请执行下列操作之一：
 
-   * <span class="preview">双击时间轴上的任意位置以创建记录。</span>
+   * 双击时间轴上的任意位置以创建记录。
 
-     <span class="preview">有关信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。</span>
-
-   <!--Andrea verifying>[!TIP]
-    >
-    ><span class="preview">Double-clicking to create records in the timeline is not possible inside of a grouping.</span>-->
-
-   * <span class="preview">单击记录栏的左边距或右边距，然后将其拖放到新位置。 调整记录栏的大小会立即更新其开始或结束日期。</span>
-
-   * <span class="preview">拖放记录以更新它们在时间轴中的位置和日期。 移动记录的栏会立即更新其开始和结束日期。</span>
-     <span class="preview">有关信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。</span>
+     有关信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
 
    >[!TIP]
    >
-   ><span class="preview">对于划分中显示的Workfront和AEM Assets对象类型，无法在时间轴中调整记录大小和拖放记录。</span>
+   >在分组内无法双击在时间轴中创建记录。
 
+   * 单击记录栏的左边距或右边距，然后将其拖放到新位置。 调整记录栏的大小会立即更新其开始或结束日期。
+
+   * 拖放记录以更新它们在时间轴中的位置和日期。 移动记录的栏会立即更新其开始和结束日期。
+
+     有关信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
+
+   >[!TIP]
+   >
+   >对于划分中显示的Workfront和AEM Assets对象类型，无法在时间轴中调整记录大小并进行拖放。
 
 1. 更新以下视图元素，如以下子部分所述：
    * [过滤器](#add-filters)
@@ -362,9 +404,9 @@ ht-degree: 2%
 要在时间轴视图中添加分组，请执行以下操作：
 
 1. 为记录类型创建时间线视图，如[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)一文中所述。
-1. <span class="preview">单击时间轴视图右上角的&#x200B;**分组**。</span>
+1. 单击时间轴视图右上角的&#x200B;**分组**。
 
-   <span class="preview">![使用链接字段分组UI时间线视图](assets/grouping-ui-timeline-view-with-linked-fields.png)</span>
+   ![使用链接字段分组UI时间线视图](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
 1. 单击其中一个建议的字段，或单击&#x200B;**选择其他字段**，搜索其他字段，然后在列表显示该字段时单击它。
 
@@ -372,9 +414,9 @@ ht-degree: 2%
 
 1. （可选）重复上述步骤以添加最多3个分组。
 
-   <span class="preview">为分组选择的字段数将显示在“分组”图标旁边。</span>
+   为分组选择的字段数将显示在分组图标旁边。
 
-   <span class="preview">![在时间轴视图中应用分组](assets/grouping-applied-in-timeline-view.png)</span>
+   ![在时间轴视图中应用分组](assets/grouping-applied-in-timeline-view.png)
 
 1. 在&#x200B;**按**&#x200B;对记录进行分组框中，按正确的顺序拖放分组。
 
@@ -537,11 +579,7 @@ this is not possible right now; if this is the same functionality as the table v
 1. 在&#x200B;**标准**&#x200B;或&#x200B;**紧凑**&#x200B;模式中，单击时间轴视图右上角的&#x200B;**划分**。
 1. 展开&#x200B;**选择链接记录类型**&#x200B;框并选择连接的记录类型。<!--add a new screen shot - submitted a bug to remove the "the"-->
 
-   <div class="preview">
-
    时间线视图上的![划分选取器和按钮](assets/breakdown-picker-and-button-on-timeline.png)
-
-   </div>
 
    >[!TIP]
    >

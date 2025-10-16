@@ -6,15 +6,17 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 2%
+source-wordcount: '703'
+ht-degree: 1%
 
 ---
 
 
 # Adobe Workfront Planning访问概述
+
+<!--leave the global record type reference in yellow till Jan 2026-->
 
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 
@@ -42,7 +44,7 @@ ht-degree: 2%
 
 <!--*********ensure that the link ^^^^^^^^below^^^^^^^^ to Workfront Pricing and Packaging now also includes information about Workfront Planning. If not, talk with Lauren S.***************-->
 
-您必须具有以下权限才能访问Workfront Planning：
+您必须具有以下权限才能使用Workfront Planning：
 
 <table style="table-layout:auto">
  <col>
@@ -54,31 +56,30 @@ ht-degree: 2%
  <tr>
    <td role="rowheader"><p>Adobe Workfront包</p></td>
    <td>
-<p>以下任意Workfront包：</p>
-<ul><li>选择</li>
-<li>Prime</li>
-<li>Ultimate</li></ul>
-<p>Workfront计划不适用于旧版Workfront包</p>
-<p>以下任一Planning包：</p>
-<ul><li><p>Workfront Planning</p></li>
-<li><p>Workfront Planning Plus</p></li></ul>
-<p>有关每个Workfront计划中包括的内容的更多信息，请联系您的Workfront客户经理。 </p>
-   </td>
+   <p>任何Workfront和Planning包</p>
+   <p>或</p>
+   <p>任何工作流和计划包</p>
+   <!--<p><b>NOTE</b></p>
+<p><span class="preview">For access to global record types:</span></p>
+<ul><li><p><span class="preview">Any Workfront package and a Planning Plus package</span></p></li>
+<p>Or</p>
+<li><p><span class="preview">Workflow and Planning Prime and Ultimate packages</span></p></li></ul>--> </td>
 <tr>
    <td role="rowheader"><p>Adobe Workfront平台</p></td>
    <td>
-<p>贵组织的Workfront实例必须载入Adobe Unified Experience才能访问Workfront Planning。</p>
-<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p>
+   <p>贵组织的Workfront实例必须载入Adobe Unified Experience才能访问Workfront Planning。</p>
+   <p><b>重要</b></p>
+   <p>只有添加到Adobe Identity Management System (IMS)的用户才能获得权限并添加到Planning字段。</p>
+   <p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p>
    </td>
   </tr>
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront许可证</p></td>
    <td>
-   <ul><li><p>用于查看Workfront Planning信息的标准、浅色或参与者</p></li>
+   <ul><li><p>任意，用于查看Workfront规划信息</p></li>
    <li><p>标准，用于创建工作区和视图</p></li></ul>
-   <p>Workfront计划不适用于旧版Workfront许可证</p>
-  </td>
+    </td>
   </tr>
   <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
@@ -112,7 +113,7 @@ ht-degree: 2%
  </tbody>
 </table>
 
-*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 
 ## 使用布局模板共享Planning区域
@@ -149,9 +150,15 @@ ht-degree: 2%
 
    用户可以开始创建工作区、记录类型、记录和字段。
 
-## 授予访问权限
+## 向用户分配许可证
 
-Workfront Planning没有Workfront访问控制。
+您可以在编辑或创建用户时配置其访问级别时为其分配许可证。
+
+有关信息，请参阅[编辑用户配置文件](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
+
+## 配置访问级别
+
+Workfront Planning没有Workfront访问级别控制。
 
 拥有任何类型的Workfront许可证的用户都可以访问Workfront Planning。
 

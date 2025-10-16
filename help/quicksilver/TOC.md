@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 30b99255a2178f972f9a9f3f7eda5f2929a24978
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '13446'
+source-wordcount: '13454'
 ht-degree: 2%
 
 ---
@@ -450,7 +450,7 @@ ht-degree: 2%
          * [创建计划](administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
       * 组织设置 {#organization-setup}
          * [组织设置](administration-and-setup/set-up-workfront/organizational-setup/organizational-setup.md)
-         * [管理公司](administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)
+         * [创建和编辑公司](administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)
          * [管理公司成员资格](administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
          * [停用或重新激活公司](administration-and-setup/set-up-workfront/organizational-setup/deactivate-a-company.md)
          * [工作角色](administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md)
@@ -1226,7 +1226,7 @@ ht-degree: 2%
          * [为项目计划资源](manage-work/projects/manage-projects/schedule-resources-for-projects.md)
          * [与项目团队成员沟通](manage-work/projects/manage-projects/communicate-with-project-team-members.md)
          * [在Agile视图中管理项目](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
-         * [项目指标概述](manage-work/projects/manage-projects/project-metrics.md)
+         * [了解项目量度](manage-work/projects/manage-projects/project-metrics.md)
          * [项目限制概述](manage-work/projects/manage-projects/project-maximums.md)
          * [使用AI助手汇总更新](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
       * 创建和管理项目模板 {#create-and-manage-project-templates}
@@ -1375,7 +1375,7 @@ ht-degree: 2%
          * [使用简单持续时间类型更新任务的已计划小时数和持续时间](manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md)
          * [Adobe Workfront和Microsoft项目中的持续时间类型](manage-work/tasks/taskdurtn/workfront-ms-project-duration-types.md)
       * 使用任务前置任务 {#use-task-predecessors}
-         * [使用任务前置任务](manage-work/tasks/use-prdcssrs/use-task-predecessors.md)
+         * [使用任务前置任务：文章索引](manage-work/tasks/use-prdcssrs/use-task-predecessors.md)
          * [前置任务概述](manage-work/tasks/use-prdcssrs/predecessors-overview.md)
          * [在任务列表上创建前置任务关系](manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md)
          * [使用前置任务区域创建前置任务关系](manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md)
@@ -1390,24 +1390,24 @@ ht-degree: 2%
          * [任务常见问题解答](manage-work/tasks/tips-tricks-and-troubleshooting/tasks-faqs.md)
          * [预计持续时间与计划持续时间不匹配](manage-work/tasks/tips-tricks-and-troubleshooting/projected-and-planned-durations-dont-match.md)
    * 问题 {#issues}
-      * [问题](manage-work/issues/issues-overview.md)
+      * [问题：文章索引](manage-work/issues/issues-overview.md)
       * 转换问题 {#convert-issues}
-         * [转换问题](manage-work/issues/convert-issues/convert-issues-overview.md)
+         * [转换问题：文章索引](manage-work/issues/convert-issues/convert-issues-overview.md)
          * [在Adobe Workfront中转化问题概述](manage-work/issues/convert-issues/convert-issues.md)
-         * [在Adobe Workfront中将问题转化为项目](manage-work/issues/convert-issues/convert-issue-to-project.md)
-         * [在Adobe Workfront中将问题转化为任务](manage-work/issues/convert-issues/convert-issue-to-task.md)
+         * [将问题转化为项目](manage-work/issues/convert-issues/convert-issue-to-project.md)
+         * [将问题转化为任务](manage-work/issues/convert-issues/convert-issue-to-task.md)
          * [解析和可解析对象概述](manage-work/issues/convert-issues/resolving-and-resolvable-objects.md)
          * [将问题与其解析对象取消链接](manage-work/issues/convert-issues/unlink-issues-from-resolvable-objects.md)
          * [手动将问题的解决绑定到其他问题、任务或项目](manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md)
       * 问题信息 {#issue-information}
-         * [问题信息](manage-work/issues/issue-information/issue-info-overview.md)
+         * [问题信息：文章索引](manage-work/issues/issue-information/issue-info-overview.md)
          * [问题持续时间概述](manage-work/issues/issue-information/issue-duration.md)
          * [更新问题优先级](manage-work/issues/issue-information/update-issue-priority.md)
          * [更新问题严重性](manage-work/issues/issue-information/update-issue-severity.md)
          * [问题计划完成日期概述](manage-work/issues/issue-information/issue-planned-completion-date.md)
          * [在引用问题时使用“opTask”和“issue”](manage-work/issues/issue-information/use-optask-instead-of-issue.md)
       * 管理问题 {#manage-issues}
-         * [管理问题](manage-work/issues/manage-issues/manage-issues-overview.md)
+         * [管理问题：文章索引](manage-work/issues/manage-issues/manage-issues-overview.md)
          * [创建问题](manage-work/issues/manage-issues/create-issues.md)
          * [分配问题](manage-work/issues/manage-issues/assign-issues.md)
          * [查看问题](manage-work/issues/manage-issues/view-issues.md)
@@ -1436,9 +1436,9 @@ ht-degree: 2%
          * [组合：文章索引](manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
          * [在项目组合中导航](manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
          * [Portfolio管理概述](manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
-         * [Adobe Workfront中的Portfolio概述](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
+         * [了解项目组合方法](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
       * 创建和管理项目组合 {#create-and-manage-portfolios}
-         * [创建和管理项目组合](manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
+         * [创建和管理项目组合：文章索引](manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
          * [创建项目组合](manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
          * [删除和停用项目组合](manage-work/portfolios/create-and-manage-portfolios/delete-deactivate-portfolios.md)
          * [编辑项目组合](manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md)
@@ -1455,7 +1455,7 @@ ht-degree: 2%
          * [从项目群中删除项目](manage-work/portfolios/create-and-manage-programs/remove-project-from-program.md)
          * [删除和停用程序](manage-work/portfolios/create-and-manage-programs/delete-and-deactivate-programs.md)
       * 在Portfolio Optimizer管理项目 {#manage-projects-in-portfolio-optimizer}
-         * [在Portfolio Optimizer管理项目](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
+         * [在Portfolio Optimizer中管理项目：文章索引](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
          * [Portfolio Optimizer概述](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
          * [找到Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md)
          * [Portfolio Optimizer得分概述](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)
@@ -1507,7 +1507,7 @@ ht-degree: 2%
       * [查看组织图](people-teams-and-groups/work-directly-with-others/view-the-org-chart.md)
    * 与组和团队合作 {#work-with-groups-teams}
       * [与组和团队合作](people-teams-and-groups/work-with-groups-and-teams/work-with-groups-and-teams.md)
-      * [Adobe Workfront中的组与团队](people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)
+      * [Workfront中的组与团队](people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)
    * 处理团队请求 {#work-with-team-requests}
       * [处理团队请求](people-teams-and-groups/work-with-team-requests/work-with-team-requests.md)
       * [团队请求概述](people-teams-and-groups/work-with-team-requests/team-requests-overview.md)
@@ -1999,7 +1999,7 @@ ht-degree: 2%
       * [使用Adobe Workfront API跟踪小时记录](timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)
       * [无法记录未来日期的时间](timesheets/tips-tricks-and-troubleshooting/unable-to-log-time-future-dates.md)
 * Adobe Workfront Scenario Planner {#scenario-planner}
-   * [Adobe Workfront Scenario Planner](scenario-planner/scenario-planning.md)
+   * [[!DNL Adobe Workfront Scenario Planner]：文章索引](scenario-planner/scenario-planning.md)
    * [Scenario Planner入门](scenario-planner/get-started-with-scenario-planning.md)
    * [Scenario Planner概述](scenario-planner/scenario-planner-overview.md)
    * [使用Scenario Planner所需的访问权限](scenario-planner/access-needed-to-use-sp.md)
@@ -2087,6 +2087,7 @@ ht-degree: 2%
       * [通过从CSV或Excel文件导入信息创建记录类型](planning/architecture/import-file-to-create-record-types.md)
       * [跨工作区记录类型概述](planning/architecture/cross-workspace-record-types-overview.md)
       * [为记录类型配置跨工作区功能](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+      * [配置记录类型的设置区域](planning/architecture/configure-record-type-settings.md)
       * [从另一个工作区添加现有记录类型](planning/architecture/add-existing-record-types-from-another-workspace.md)
       * [连接记录类型概述](planning/architecture/connect-record-types-overview.md)
       * [连接记录类型](planning/architecture/connect-record-types.md)
@@ -2491,7 +2492,6 @@ ht-degree: 2%
    * API说明 {#api-notes}
       * [API说明](wf-api/api/api.md)
       * [通过API上传文件](wf-api/api/uploading-files-api.md)
-      * [结束对JSONP的支持](wf-api/api/ending-support-jsonp.md)
       * [获取用户可用时间](wf-api/api/api-user-available-time.md)
       * [更新使用默认API版本控制的集成](wf-api/api/update-default-api-versioning.md)
       * [过滤事件订阅消息](wf-api/api/filter-event-sub-messages.md)
@@ -2505,8 +2505,8 @@ ht-degree: 2%
       * [使用JWT流配置和使用贵组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程配置和使用您组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-pkce-flow.md)
       * [弃用API — 内部](wf-api/api/deprecation-api-internal.md)
-      * [API版本20中的新增功能](wf-api/api/new-api-version-20.md)
-      * [API版本19中的新增功能](wf-api/api/new-api-version-19.md)
+      * [API版本20](wf-api/api/new-api-version-20.md)中的新增功能
+      * [API版本19](wf-api/api/new-api-version-19.md)中的新增功能
       * [API版本18中的新增功能](wf-api/api/new-api-version-18.md)
       * [API版本17中的新增功能](wf-api/api/new-api-version-17.md)
       * [API版本16中的新增功能](wf-api/api/new-api-version-16.md)

@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '1878'
-ht-degree: 1%
+source-wordcount: '1828'
+ht-degree: 0%
 
 ---
 
@@ -31,54 +31,31 @@ ht-degree: 1%
 
 ## 访问要求
 
-+++ 展开以查看访问要求。 
++++ 展开以查看本文中各项功能的访问要求。 
 
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> 产品</p> </td>
-   <td>
-   <ul><li><p> Adobe Workfront</p></li>
-   <li><p> Adobe Workfront规划<p></li></ul></td>
-  </tr>  
- <tr>
-   <td role="rowheader"><p>Adobe Workfront计划*</p></td>
-   <td>
-<p>以下任意Workfront计划：</p>
-<ul><li>选择</li>
-<li>Prime</li>
-<li>Ultimate</li></ul>
-<p>Workfront Planning不适用于旧版Workfront计划</p>
-   </td>
-
-<tr>
-   <td role="rowheader"><p>Adobe Workfront规划包*</p></td>
-   <td>
-<p>任何</p>
-<p>有关每个Workfront计划中包括的内容的更多信息，请联系您的Workfront客户经理。 </p>
-   </td>
-
-<tr>
-   <td role="rowheader"><p>Adobe Workfront平台</p></td>
-   <td>
-<p>贵组织的Workfront实例必须载入Adobe Unified Experience才能访问Workfront Planning。</p>
-<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p>
-   </td>
-  </tr>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront许可证*</p></td>
-   <td>
-   <p>标准</p>
-   <p>Workfront计划不适用于旧版Workfront许可证</p>
-  </td>
-  </tr>
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront包</p></td> 
+   <td> 
+<ul> 
+<li><p>任何Workfront和任何Planning包</p></li>
+或
+<li><p>任何工作流和任何计划包</p></li></ul>
+<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
+   <td><p>标准</p>
+   </td> 
+  </tr> 
   <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
    <td> <p>查看或更高权限的项目、项目和项目组合</p>  
@@ -89,20 +66,88 @@ ht-degree: 1%
    <td role="rowheader"><p>对象权限</p></td>
    <td>
    <p>在Workfront中，查看项目、项目组合或项目群的权限或更高的权限</a> </p> 
-   <p>在Workfront规划中：
-   <ul><li>
-   查看对工作区和记录类型的权限以查看任何连接的记录 </li>
+   <p>在Workfront规划中：</p>
+   <ul><li>查看对工作区和记录类型的权限以查看任何连接的记录 </li>
    或
-   <li> 为工作区分配或更高权限以及记录类型以连接或断开记录</a></li></ul> </p>  
+   <li> 为工作区分配或更高权限以及记录类型以连接或断开记录</a></li></ul> 
    <p>系统管理员有权访问所有Workfront Planning工作区，包括他们未创建的工作区</p> 
+  </td>
+  </tr>   
+</tbody> 
+</table>
+
+有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++   
+
+
+<!--Old:
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>
+   <p> Products</p> </td>
+   <td>
+   <ul><li><p> Adobe Workfront</p></li>
+   <li><p> Adobe Workfront Planning<p></li></ul></td>
+  </tr>  
+ <tr>
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td>
+   <td>
+<p>Any of the following Workfront plans:</p>
+<ul><li>Select</li>
+<li>Prime</li>
+<li>Ultimate</li></ul>
+<p>Workfront Planning is not available for legacy Workfront plans</p>
+   </td>
+
+<tr>
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td>
+   <td>
+<p>Any</p>
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p>
+   </td>
+
+<tr>
+   <td role="rowheader"><p>Adobe Workfront platform</p></td>
+   <td>
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p>
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
+   </td>
+  </tr>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
+   <td>
+   <p>Standard</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p>
+  </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Access level configuration</p></td>
+   <td> <p>View or higher access to Projects, Programs, and Portfolios</p>  
+   <p>There is no access level configuration for Workfront Planning. </p>
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Object permissions</p></td>
+   <td>
+   <p>In Workfront, View or higher permissions to a project, portfolio, or program</a> </p> 
+   <p>In Workfront Planning:
+   <ul><li>
+   View permissions to a workspace and record type to view any connected records </li>
+   or
+   <li> Contribute or higher permissions to a workspace and record type  to connect or disconnect records</a></li></ul> </p>  
+   <p>System Administrators have permissions to all Workfront Planning workspaces, including the ones they did not create</p> 
   </td>
   </tr>
  </tbody>
-</table>
-
-*有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
-
-+++
+</table>-->
 
 
 ## 管理“计划”部分中的记录
@@ -164,7 +209,7 @@ ht-degree: 1%
 
    项目![的](assets/planning-section-on-project.png)计划部分
 
-1. （可选）单击“显示所有连接”**&#x200B;**&#x200B;可显示所有连接的记录类型，包括未连接记录的记录类型。 默认情况下，不显示没有连接记录的记录类型。
+1. （可选）单击“显示所有连接”****&#x200B;可显示所有连接的记录类型，包括未连接记录的记录类型。 默认情况下，不显示没有连接记录的记录类型。
 1. 单击记录卡以显示有关记录的更多信息。 此时将显示记录预览框。
 1. （可选）开始修改记录预览框中的字段。 您的更改会自动保存。
 1. （可选）单击预览框右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开详细信息](assets/open-details-in-a-new-tab-icon.png)以打开记录的详细信息页面。 此时将在Workfront Planning中打开记录的详细信息页面。

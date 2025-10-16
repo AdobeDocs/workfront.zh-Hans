@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: e717e095f1995dbed0232789616d42492156d843
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1145'
 ht-degree: 1%
 
 ---
@@ -16,12 +16,14 @@ ht-degree: 1%
 
 # 管理记录视图
 
-<!-- take preview and production references out at production-->
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -54,7 +56,7 @@ ht-degree: 1%
 
 ## 访问要求
 
-+++ 展开以查看访问要求。 
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -64,48 +66,23 @@ ht-degree: 1%
 <tbody> 
     <tr> 
 <tr> 
-<td> 
-   <p> 产品</p> </td> 
-   <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront规划<p></li></ul></td> 
-  </tr>   
+</tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront计划*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront包</p></td> 
    <td> 
-<p>以下任意Workfront计划：</p> 
-<ul><li>选择</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning不适用于旧版Workfront计划</p> 
+<ul> 
+<li><p>任何Workfront和任何Planning包</p></li>
+或
+<li><p>任何工作流和任何计划包</p></li></ul>
+<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
    </td> 
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront规划包*</p></td> 
-   <td> 
-<p>任何 </p> 
-<p>有关每个Workfront计划中包括的内容的更多信息，请联系您的Workfront客户经理。 </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Adobe Workfront平台</p></td> 
-   <td> 
-<p>贵组织的Workfront实例必须载入Adobe Unified Experience才能访问Workfront Planning。</p> 
-<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p> 
-   </td> 
-   </tr> 
-  </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront许可证*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
    <td><p> 用于创建和删除视图的标准</p>
    <p>更新视图元素的参与者或更高版本</p>
-   <p>Workfront计划不适用于旧版Workfront许可证</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>访问级别配置</p></td> 
-   <td> <p>Adobe Workfront Planning没有访问级别控制</p>   
-</td> 
-  </tr> 
-<tr> 
    <td role="rowheader"><p>对象权限</p></td> 
    <td>   <p>管理视图的权限</p>  
    <p>查看对视图的权限以临时更改视图设置或复制它</p> </td> 
@@ -115,13 +92,78 @@ ht-degree: 1%
    <td> 必须为具有轻度或参与者许可证的用户分配一个包括Planning的布局模板。
    <p>默认情况下，标准用户和系统管理员已启用Planning区域。</p></div></li></ul>
 </td>
-  </tr>
+  </tr> 
 </tbody> 
 </table>
 
-*有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-+++   
++++
+
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard to create and delete views</p>
+   <p>Contributor or higher to update view elements</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a view</p>  
+   <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+</td>
+  </tr>
+</tbody> 
+</table>-->
 
 ## 使用记录视图时的注意事项
 
@@ -171,8 +213,8 @@ ht-degree: 1%
 | 按月显示记录 |           | ✓ | ✓ |
 | 按周显示记录 |           |               | ✓ |
 | 从视图中导出信息 | ✓ |               |    |
-| <span class="preview">全屏显示</span> | ✓ | ✓ | ✓ |
-| <span class="preview">在视图中创建记录</span> | ✓ | ✓ | ✓ |
+| 全屏显示 | ✓ | ✓ | ✓ |
+| 在视图中创建记录 | ✓ | ✓ | ✓ |
 
 ## 创建或编辑视图 {#create-or-edit-views}
 
@@ -189,10 +231,7 @@ ht-degree: 1%
 
    默认情况下，所选类型的所有记录都会显示在表格视图中。
 
-1. 根据您使用的环境，执行以下操作：
-
-   * 在生产环境中，单击&#x200B;**+查看**&#x200B;选项卡。
-   * <span class="preview">在“预览”环境中，单击当前视图名称旁边的下拉图标![下拉图标](assets/drop-down-icon.png)，然后单击&#x200B;**+新建视图**。</span>
+1. 单击当前视图名称旁边的下拉图标![下拉图标](assets/drop-down-icon.png)，然后单击&#x200B;**+新建视图**。
 
 1. 从以下视图类型中选择：
 
@@ -200,9 +239,7 @@ ht-degree: 1%
    * 时间线
    * 日程表
 
-   在生产环境中，将使用选定的视图创建一个新选项卡。
-
-   根据屏幕的宽度，**更多**&#x200B;菜单![更多](assets/more-menu.png)中可能会显示其他视图。
+1. 选择视图类型，然后单击&#x200B;**创建**。 新视图将添加到下拉菜单中。
 
    >[!TIP]
    >
@@ -211,16 +248,14 @@ ht-degree: 1%
    >要创建时间轴或日历视图，您为其构建视图的记录类型必须至少有两个日期字段。
    >
    >否则，“时间轴”和“日历”选项将灰显。
-   >
+   >  
 
-   <span class="preview">在“预览”环境中，选择视图类型，然后单击“**创建**”。 新视图将添加到下拉菜单中。</span>
+   ![创建视图框](assets/create-view-box.png)
 
-   <span class="preview">![创建视图框](assets/create-view-box.png)</span>
+1. （可选）要编辑现有视图，请单击当前视图名称右侧的下拉菜单，然后在&#x200B;**搜索**&#x200B;字段中键入视图名称，然后按键盘上的Enter键。
+1. （可选）从视图下拉菜单中，按首选项的顺序拖放视图。
 
-1. <span class="preview">要编辑现有视图，请在&#x200B;**搜索**&#x200B;字段中键入视图的名称，然后在键盘上按Enter。</span>
-1. <span class="preview">从“视图”下拉菜单中，按您喜好的顺序拖放视图。</span>
-
-   <span class="preview">![记录类型列表中的查看类型下拉列表](assets/view-types-drop-down-from-record-type-list.png)</span>
+   ![记录类型列表中的查看类型下拉列表](assets/view-types-drop-down-from-record-type-list.png)
 
 1. （视情况而定）创建时间线或日历视图时，单击&#x200B;**下一步**。
 
@@ -254,7 +289,7 @@ ht-degree: 1%
 
    双击视图名称并开始键入新名称。 <!--ensure there is not another saving step here?!-->
 
-1. <span class="preview">（可选）单击&#x200B;**全屏**&#x200B;图标![打开全屏图标](assets/open-full-screen-icon.png)以全屏方式打开任何视图，然后单击&#x200B;**退出全屏**&#x200B;图标![退出全屏图标](assets/exit-full-screen-icon.png)或键盘上的Escape以退出全屏。 </span>
+1. （可选）单击&#x200B;**全屏**&#x200B;图标![打开全屏图标](assets/open-full-screen-icon.png)以全屏方式打开任何视图，然后单击&#x200B;**退出全屏**&#x200B;图标![退出全屏图标](assets/exit-full-screen-icon.png)或键盘上的Escape以退出全屏。
 
 1. （可选）要管理特定类型的视图，请参阅以下文章：
 

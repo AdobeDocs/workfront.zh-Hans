@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '2764'
+source-wordcount: '2645'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,12 @@ ht-degree: 0%
 
 <!--keep the choice values information in yellow till Jan 2026-->
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -36,7 +39,7 @@ ht-degree: 0%
 
 ## 访问要求
 
-+++ 展开以查看访问要求。
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -46,58 +49,87 @@ ht-degree: 0%
 <tbody> 
     <tr> 
 <tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront包</p></td> 
+   <td> 
+<ul> 
+<li><p>任何Workfront和任何Planning包</p></li>
+或
+<li><p>任何工作流和任何计划包</p></li></ul>
+<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
+   <td><p>标准</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>对象权限</p></td> 
+   <td>   <p>向工作区和记录类型提供或更高权限  </p>  
+   <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p> </td> 
+  </tr>   
+</tbody> 
+</table>
+
+有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++   
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
 <td> 
-   <p> 产品</p> </td> 
+   <p> Products</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront规划<p></li></ul></td> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront计划*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
    <td> 
-<p>以下任意Workfront计划：</p> 
-<ul><li>选择</li> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
-<p>Workfront Planning不适用于旧版Workfront计划</p> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront规划包*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
    <td> 
-<p>任何 </p> 
-<p>有关每个Workfront计划中包括的内容的更多信息，请联系您的Workfront客户经理。 </p> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
    </td> 
  <tr> 
-   <td role="rowheader"><p>Adobe Workfront平台</p></td> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>贵组织的Workfront实例必须载入Adobe Unified Experience才能访问Workfront Planning。</p> 
-<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront许可证*</p></td> 
-   <td> <p>标准</p> 
-   <p>Workfront计划不适用于旧版Workfront许可证</p> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td> <p>Standard</p> 
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>访问级别配置</p></td> 
-   <td> <p>Adobe Workfront Planning没有访问级别控制</p>   
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>对象权限</p></td> 
-   <td>  <p>为工作区和记录类型</a>贡献或更高权限 </p>  
-   <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>  </td> 
-  </tr>
-
-</tbody> 
-</table>
-
-*有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
-
-+++   
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>  <p>Contribute or higher permissions to a workspace and record type </a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
+  </tr> -->
 
 ## 有关编辑记录的注意事项
 
@@ -107,7 +139,7 @@ ht-degree: 0%
    * 记录视图中的记录预览
    * 记录的详细信息页面
    * 内联，在表格视图中。
-   * <span class="preview">日历和时间线视图，正在调整<!--or dragging and dropping-->记录的大小。 这将更新记录的日期。</span>
+   * 日历和时间轴视图，在调整记录大小或拖放记录时。 这将更新记录的日期。
 
 * 当用户编辑视图中的记录时，更改会立即在所有视图中可见，并且记录页面对所有其他用户可见。
 
@@ -233,11 +265,11 @@ ht-degree: 0%
 
 1. 在时间线视图中打开记录类型页面。 有关信息，请参阅[管理时间线视图](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
 
-1. <span class="preview">将鼠标悬停在记录栏的末尾上，单击，将其边距拖放到其他日期。 这会自动更新记录的开始日期或结束日期。</span>
+1. 将鼠标悬停在记录栏的末尾上，单击，将其边距拖放到另一个日期。 这会自动更新记录的开始日期或结束日期。
 
-   时间轴视图上的<span class="preview">![左端栏可调整大小](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
+   时间轴视图上的![左端栏可调整大小](assets/left-end-bar-handle-to-resize-timeline-view.png)
 
-1. <span class="preview">单击并按住记录栏，然后将其拖放到其他位置以更新其时间轴和日期。 记录的开始日期和结束日期会自动更新。</span>
+1. 单击并保留一个记录栏，然后将它拖放到另一个位置以更新其时间轴和日期。 记录的开始日期和结束日期会自动更新。
 
 1. 单击记录栏以打开其详细信息区域并编辑所有字段。
 
@@ -248,11 +280,11 @@ ht-degree: 0%
 <!--add another step about drag and drop here when that is available-->
 
 1. 在日历视图中打开记录类型页面。 有关信息，请参阅[管理日历视图](/help/quicksilver/planning/views/manage-the-calendar-view.md)。
-1. <span class="preview">（视情况而定）将鼠标悬停在日历视图中记录栏的末尾上，然后单击，将其边距拖放到其他日期。 这会自动更新记录的开始日期或结束日期。</span>
+1. （视情况而定）将鼠标悬停在日历视图中记录栏的末尾上，然后单击，将其边距拖放到其他日期。 这会自动更新记录的开始日期或结束日期。
 
-   <span class="preview">![日历视图上的左侧栏以调整大小](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
+   ![日历视图上的左侧栏以调整大小](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)
 
-1. <span class="preview">单击并按住记录栏，然后将其拖放到其他位置以更新其时间轴和日期。 记录的开始日期和结束日期会自动更新。</span>
+1. 单击并保留一个记录栏，然后将它拖放到另一个位置以更新其时间轴和日期。 记录的开始日期和结束日期会自动更新。
 
 1. 单击记录栏以打开其详细信息区域并编辑所有字段。
 
@@ -378,8 +410,6 @@ ht-degree: 0%
 
 有关详细信息，请参阅[管理来自Workfront对象的记录连接](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
 
-<div class="preview">
-
 ## 在更新字段设置值时编辑单选或多选字段设置
 
 <!--some of this information is also available in Edit fields article - update both when necessary-->
@@ -410,4 +440,3 @@ ht-degree: 0%
 
    <!--<span class="preview">A new choice value is also added to each choice. You can use the choice values in API calls or other integrations. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). </span>-->
 
-</div>

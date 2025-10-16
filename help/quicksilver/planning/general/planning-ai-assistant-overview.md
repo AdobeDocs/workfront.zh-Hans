@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: a36968bdae5756f0f8283da04a2afca83b4dd94a
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,41 @@ ht-degree: 0%
 您可以使用AI Assistant根据当前页面上下文和记录结构生成、更新或删除记录。
 
 用户的命令和AI执行这些命令共同工作，以确保AI所做的更改准确反映在您的环境中。
+
+## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。 
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront包</p></td> 
+   <td> 
+<p>任何Workfront和Planning包</p>
+<p>任何工作流和计划包</p>
+   </td> </tr>
+
+</tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
+   <td><p>标准</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>对象权限</p></td> 
+   <td>   <p>管理工作区</a>的权限 </p>  
+   <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>  </td> 
+  </tr>  
+</tbody> 
+</table>
+
+有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 关于AI助理的注意事项
 

@@ -4,9 +4,9 @@ description: 记录类型是Adobe Workfront Planning的对象类型。 在Workfr
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ recommendations: noDisplay, noCatalog
 
 有关信息，请参阅[为记录类型配置跨工作区功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。
 
-本文介绍了如何从现有记录类型添加记录类型，以及在不再需要记录类型时如何删除记录类型。
+本文介绍了如何从现有记录类型添加记录类型。
 
 在从全局记录类型向工作区中添加记录之前，另请参阅文章[跨工作区记录类型概述](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)。
 
@@ -49,32 +49,24 @@ recommendations: noDisplay, noCatalog
 </col> 
 <tbody> 
     <tr> 
-<tr>
-
+<tr> 
 </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront包</p></td> 
    <td> 
-<ul><li><p>任何Workfront包</p></li>
-<p>与</p>
-<li><p>用于创建可连接记录类型的任意Planning包</p></li>
-<li><p>用于创建全局记录类型的Planning Plus程序包</p></li>
-</ul>
-或：
-<ul><li><p>Prime或Ultimate工作流包</p> </li>
-与
-<li><p>Planning Prime或Ultimate包</p></li></ul>
-<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户经理。 </p> 
-   </td>
-
-<tr> 
+<ul><li><p>任何Workfront包和Planning Plus包</p></li>
+<p>或</p>
+<li><p>工作流和规划Prime和Ultimate包</p></p></li></ul>
+<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
+   </td> 
+  <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
    <td><p>标准</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
-   <td>   <p>管理对工作区和记录类型</a>的权限 </p>  
+   <td>   <p>管理工作区的权限</p>  
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>  </td> 
   </tr>  
 </tbody> 
@@ -83,6 +75,45 @@ recommendations: noDisplay, noCatalog
 有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++   
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<ul><li><p>Any Workfront package</p></li>
+<p>And</p>
+<li><p>Any Planning package to create connectable record types</p></li>
+<li><p>A Planning Plus package to create global record types</p></li>
+</ul>
+Or:
+<ul><li><p>A Prime or Ultimate Workflow package</p> </li>
+And
+<li><p>A Planning Prime or Ultimate package</p></li></ul>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account manager. </p> 
+   </td> 
+
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a workspace and to the record type</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
+  </tr>  
+</tbody> 
+</table>-->
 
 ## 通过从另一个工作区添加现有记录类型来创建记录类型
 
@@ -117,6 +148,9 @@ recommendations: noDisplay, noCatalog
      >您无法编辑新记录类型的外观、其他设置或原始字段。 只能从原始工作区编辑记录类型及其所有原始字段和设置。
 
 1. （可选）单击，然后将新添加的记录类型拖放到工作区中的任何部分。
+1. （可选）单击新记录类型卡片上的&#x200B;**更多**&#x200B;菜单或其页面上的记录类型名称右侧，然后单击&#x200B;**删除**。
+
+   有关详细信息，请参阅文章[删除记录类型](/help/quicksilver/planning/architecture/delete-record-types.md)中的“删除全局记录类型”部分。
 
 <!--This will be released later with another epic: 
 1. In the table view, click the **+** icon in the upper-right corner to add new fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
@@ -125,34 +159,7 @@ recommendations: noDisplay, noCatalog
 
 &lt;！ — 使用Lilit检查我们是否可以将自动化或请求表单添加到辅助全局RT?? — 添加步骤以及这些文章的链接（如果/当是时） — >
 
-## 从辅助工作区中删除全局记录类型
 
-如果不再需要某个记录类型，您可以将其从另一个工作区中删除。 删除它只会将其从辅助工作区中删除。
-
-从辅助工作区中删除全局记录类型时，也会删除以下内容：
-
-* 从辅助工作区添加的记录。
-* 从辅助工作区添加的字段。
-
-无法恢复从其辅助工作区中删除的全局记录类型。
-
-原始记录类型会保留在其原始工作区中，以及已添加该记录的其他工作区中。
-
-要从辅助工作区中删除全局记录类型，请执行以下操作：
-
-1. 转到辅助工作区中的全局记录类型。
-
-1. （可选）单击记录类型卡片上的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，或记录类型名称页面右侧，然后单击&#x200B;**删除**。
-1. （视情况而定）在提供的字段中键入&#x200B;**删除**，然后单击&#x200B;**永久删除**。
-
-   ![删除辅助全局记录类型确认框](assets/delete-secondary-global-record-type.png)
-
-   出现以下情况：
-
-   * 从所选工作区中删除从全局记录类型创建的记录类型。
-   * 原始记录类型及其字段保留在其原始工作区中。
-   * 记录类型将保留在添加该记录的所有其他工作区中。
-   * 从当前工作区添加到记录类型的记录和字段将被删除。 从添加全局记录类型的附加工作区中添加的所有其他记录都将保留。 字段会保留在添加它们的工作区中。
 
 
 

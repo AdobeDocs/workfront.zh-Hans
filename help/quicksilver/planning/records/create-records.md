@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '3278'
+source-wordcount: '3131'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,12 @@ ht-degree: 0%
 
 # 创建记录
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -28,14 +31,8 @@ ht-degree: 0%
 
 * [使用任何记录类型视图中的“新建记录”或“请求记录”按钮](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
 * [从记录类型表格视图内联添加它们](#create-records-by-adding-them-inline-from-the-record-type-table-view)
-
-<div class="preview">
-
 * [在记录类型时间线视图中添加它们](#create-records-by-adding-them-in-the-record-type-timeline-view)
 * [在记录类型日历视图中添加它们](#create-records-by-adding-them-in-the-record-type-calendar-view)
-
-</div>
-
 * [从外部列表中复制并粘贴记录列表](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [从表视图复制记录](#create-records-by-duplicating-them)
 * [从其他记录连接它们](#create-records-as-you-connect-them)
@@ -50,7 +47,7 @@ ht-degree: 0%
 
 ## 访问要求
 
-+++ 展开以查看访问要求。  
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -60,62 +57,97 @@ ht-degree: 0%
 <tbody> 
     <tr> 
 <tr> 
-<td> 
-   <p> 产品</p> </td> 
-   <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront规划<p></li></ul></td> 
-  </tr>   
+</tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront计划*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront包</p></td> 
    <td> 
-<p>以下任意Workfront计划：</p> 
-<ul><li>选择</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning不适用于旧版Workfront计划</p> 
+<ul> 
+<li><p>任何Workfront和任何Planning包</p></li>
+或
+<li><p>任何工作流和任何计划包</p></li></ul>
+<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
    </td> 
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront规划包*</p></td> 
-   <td> 
-<p>任何 </p> 
-<p>有关每个Workfront计划中包括的内容的更多信息，请联系您的Workfront客户经理。 </p> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
+   <td><p>标准</p>
    </td> 
- <tr> 
-   <td role="rowheader"><p>Adobe Workfront平台</p></td> 
-   <td> 
-<p>贵组织的Workfront实例必须载入Adobe Unified Experience才能访问Workfront Planning。</p> 
-<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p> 
-   </td> 
-   </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront许可证*</p></td> 
-   <td> 标准
-   <p>Workfront计划不适用于旧版Workfront许可证</p> 
-  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>访问级别配置</p></td> 
-   <td> <p>Adobe Workfront Planning没有访问级别控制</p> 
-   <p>在将记录连接到要创建的对象类型（项目、项目和项目组合）时，在Workfront中编辑对这些对象的访问权限。 </p>  
-</td> 
-  </tr> 
-<tr> 
    <td role="rowheader"><p>对象权限</p></td> 
    <td> <p>为要添加记录的工作区和记录类型分配或更高权限。 </p>
    <p>查看或更高权限的工作区和记录类型，以使用记录页面上的“请求记录”按钮创建记录</p>
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>
    <p>管理Workfront对象（项目组合）的权限以添加子对象（项目）。</p>
    </td> 
-  </tr>
-
+  </tr>  
 </tbody> 
 </table>
 
-*有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-+++
++++   
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td> Standard
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p> 
+   <p>Edit access in Workfront for the object types that you want to create (projects, programs, and portfolios) as you connect the records to them. </p>  
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td> <p>Contribute or higher permissions to the workspace and record type where you want to add records. </p>
+   <p>View or higher permissions to the workspace and record type to create records using the Request record button on the record page</p>
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+   <p>Manage permissions to Workfront objects (portfolios) to add children objects (projects).</p>
+   </td> 
+  </tr> 
+
+</tbody> 
+</table> -->
 
 ## 使用任何记录类型视图中的“新建记录”或“请求记录”按钮创建记录
 
@@ -275,8 +307,6 @@ You can import records from other applications by linking them to existing recor
    * 按CTRL + Shift + Z (⌘ + Shift + Z用于Mac)以重做更改
 
 
-<div class="preview">
-
 ## 通过在记录类型时间线视图中添加记录来创建记录
 
 您可以在记录类型页面的时间线视图中双击来创建记录。
@@ -341,9 +371,7 @@ You can import records from other applications by linking them to existing recor
    >
    >仅当在视图的“设置”中启用缩略图时，缩略图才会显示在时间轴视图中。
 
-</div>
 
-<div class="preview">
 
 ## 通过在记录类型日历视图中添加记录来创建记录
 
@@ -408,9 +436,6 @@ You can import records from other applications by linking them to existing recor
    >仅当在视图的“设置”中启用缩略图时，它才会显示在日历视图中。
 
    <!--(*********when this is available in both monthly and weekly, add more steps to show resizing the timeline and dragging and dropping the record in the calendar*******)-->
-
-   </div>
-
 
 ## 通过从外部列表中复制和粘贴记录来创建记录
 
@@ -482,7 +507,7 @@ You can import records from other applications by linking them to existing recor
 1. （视情况而定）如果在尝试连接时找不到记录，请单击&#x200B;**+添加**
 
    或
-开始键入名称，然后单击&#x200B;**+添加**。 **+ Add**&#x200B;按钮后跟您连接到的记录类型的名称。 例如，将品牌添加到现有营销活动时，“添加品牌”。 您键入的名称还遵循“添加”按钮。
+开始键入名称，然后单击**+添加**。 **+ Add**&#x200B;按钮后跟您连接到的记录类型的名称。 例如，将品牌添加到现有营销活动时，“添加品牌”。 您键入的名称还遵循“添加”按钮。
 
    ![添加按钮以在突出显示的上下文中创建记录](assets/add-button-to-create-records-in-context-highlighted.png)
 

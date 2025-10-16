@@ -4,9 +4,9 @@ description: 您可以在Adobe Workfront Planning中启用记录类型，将其�
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1337'
 ht-degree: 0%
 
 ---
@@ -66,22 +66,24 @@ recommendations: noDisplay, noCatalog
 </col> 
 <tbody> 
     <tr> 
-<tr>
-
+<tr> 
 </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront包</p></td> 
    <td> 
-<ul><li><p>任何Workfront包</p></li>
-<p>与</p>
-<li><p>用于创建可连接记录类型的任意Planning包</p></li>
-<li><p>用于创建全局记录类型的Planning Plus程序包</p></li>
-</ul>
-或：
-<ul><li><p>工作流Prime或Ultimate包</p> </li>
-与
-<li><p>Planning Prime或Ultimate包</p></li></ul>
-<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户经理。 </p> 
+<p>要配置可连接的记录类型，请执行以下操作： </p>
+<ul> 
+<li><p>任何Workfront包和任何Planning包</p></li>
+<p>或</p>
+<li><p>工作流和规划Prime和Ultimate包</p></li></ul>
+
+<p>要配置全局记录类型，请执行以下操作：</p>
+
+<ul> 
+<li><p>任何Workfront包和Planning Plus包</p></li>
+<p>或</p>
+<li><p>工作流和规划Prime和Ultimate包</p></li></ul>
+<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
@@ -90,7 +92,7 @@ recommendations: noDisplay, noCatalog
   </tr> 
   <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
-   <td>   <p>管理对工作区和记录类型</a>的权限 </p>  
+   <td>   <p>管理工作区的权限</p>  
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>  </td> 
   </tr>  
 </tbody> 
@@ -100,7 +102,46 @@ recommendations: noDisplay, noCatalog
 
 +++   
 
-## 配置全局记录类型
+<!--Old:
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<ul><li><p>Any Workfront package</p></li>
+<p>And</p>
+<li><p>Any Planning package to create connectable record types</p></li>
+<li><p>A Planning Plus package to create global record types</p></li>
+</ul>
+Or:
+<ul><li><p>A Workflow Prime or Ultimate package</p> </li>
+And
+<li><p>A Planning Prime or Ultimate package</p></li></ul>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account manager. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a workspace and to the record type</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
+  </tr>  
+</tbody> 
+</table> -- >
+
+## Configure global record types
 
 <!--this is a UI term; don't change the title of this section-->
 
@@ -121,7 +162,7 @@ recommendations: noDisplay, noCatalog
    此时会打开工作区页面，并显示记录类型。
 1. 执行下列操作之一：
 
-   * 将鼠标悬停在记录类型的卡片上，然后单击记录类型卡片右上角的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)
+   * 将鼠标悬停在记录类型的卡片上，然后单击记录类型卡片右上角的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)。<!--add new screen shot without Share for now-->
 
      ![记录类型卡片中的更多菜单选项](assets/more-menu-options-from-record-type-card.png)
 
@@ -179,7 +220,7 @@ recommendations: noDisplay, noCatalog
 
    从辅助工作区中的全局记录类型添加的记录类型还显示&#x200B;**全局记录类型**&#x200B;图标![全局记录类型图标](assets/global-icon.png)。
 1. （可选）返回创建全局记录类型的原始工作区，并按照以上<!--ensure this stays accurate-->的步骤1-4编辑该记录类型
-1. （可选）查看在使用此记录类型的&#x200B;**工作区第**&#x200B;节中添加了全局记录的工作区列表。
+1. （可选）查看在使用此记录类型的&#x200B;**工作区第**&#x200B;节中添加了全局记录的工作区列表。 工作区所有者的名称也会列在工作区名称旁边。
 
    ![使用此记录类型的工作区](assets/workspaces-where-this-record-type-is-used.png)
 
@@ -201,7 +242,7 @@ recommendations: noDisplay, noCatalog
 
    * 将鼠标悬停在记录类型的卡片上，然后单击记录类型卡片右上角的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)
 
-     ![记录类型卡片中的更多菜单选项](assets/more-menu-options-from-record-type-card.png)
+     ![记录类型卡片中的更多菜单选项](assets/more-menu-options-from-record-type-card.png) <!--add new screen shot without Share for now-->
 
    * 单击记录类型卡以打开记录类型页面，然后单击记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)。
 1. 单击&#x200B;**编辑**&#x200B;或&#x200B;**设置**。

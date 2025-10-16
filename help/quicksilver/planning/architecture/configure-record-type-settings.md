@@ -1,11 +1,11 @@
 ---
-title: 配置记录类型设置
+title: 配置记录类型的设置区域
 description: 记录类型在“设置”页面中保存后，您可以对其进行编辑。
 hide: true
 hidefromtoc: true
-source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '443'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ recommendations: noDisplay, noCatalog
 
 -->
 
-# 配置记录类型设置
+# 配置记录类型的设置区域
 
 <span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
@@ -66,10 +66,8 @@ recommendations: noDisplay, noCatalog
 <li><p>用于创建可连接记录类型的任意Planning包</p></li>
 <li><p>用于创建集中记录类型的Planning Plus包</p></li>
 </ul>
-或：
-<ul><li><p>任何工作流包</p> </li>
-与
-<li><p>规划Prime或Ultimate包</p></li></ul>
+<p>或：</p>
+<ul><li><p>工作流和计划Prime或Ultimate包</p> </li></ul>
 <p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户经理。 </p> 
    </td>
 
