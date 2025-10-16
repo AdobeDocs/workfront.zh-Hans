@@ -107,7 +107,7 @@ ht-degree: 1%
 >
 >您的公司必须具有业务或更高版本的Workfront计划才能在Portfolio Optimizer中优先处理项目。
 >
->有关Workfront计划的详细信息，请参阅[我们的计划](https://business.adobe.com/products/workfront/pricing.html)。
+>有关Workfront计划的详细信息，请参阅[我们的计划](https://business.adobe.com/cn/products/workfront/pricing.html)。
 >
 >有关在Portfolio Optimizer中排列项目优先顺序的信息，请参阅[在Portfolio Optimizer中排列项目优先顺序](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)。
 

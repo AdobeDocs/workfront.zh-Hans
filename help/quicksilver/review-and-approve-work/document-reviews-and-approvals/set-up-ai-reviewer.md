@@ -57,7 +57,7 @@ ht-degree: 3%
 
 在开始之前，您必须在GenStudio Foundation中设置图像品牌指南。
 
-若要了解有关图像品牌准则的更多信息，请参阅[Adobe GenStudio for Performance Marketing入门](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started)。
+若要了解有关图像品牌准则的更多信息，请参阅[Adobe GenStudio for Performance Marketing入门](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/get-started)。
 
 ## 添加AI审阅者
 

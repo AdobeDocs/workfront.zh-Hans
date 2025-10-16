@@ -111,7 +111,7 @@ ht-degree: 1%
 
 在开始之前，您必须
 
-* 在Experience Manager Assets Essentials中配置元数据架构，如[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)中所述。
+* 在Experience Manager Assets Essentials中配置元数据架构，如[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)中所述。
 * （可选）在Workfront中配置自定义表单字段。 Workfront提供了许多内置自定义字段。 但是，您也可以创建自己的自定义字段。 有关详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ## 支持的Workfront和Experience Manager Assets字段
@@ -126,7 +126,7 @@ ht-degree: 1%
 
 <!--
 Look for essentials article
-For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
+For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=zh-Hans).
 -->
 
 
