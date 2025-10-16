@@ -34,23 +34,23 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 许可证</p> </td> 
-   <td><p>[！UICONTROL计划]</p>
-   <p>[！UICONTROL标准版]</p>
+   <td><p>[!UICONTROL 计划]</p>
+   <p>[!UICONTROL 标准版]</p>
    </td> 
   </tr>
   <tr> 
    <td>访问级别配置</td> 
   <td> <p>您必须具备以下任一项：</p> 
     <ul> 
-     <li> <p>[！UICONTROL系统管理员]访问级别，允许您编辑系统中的任何公司。</p> </li> 
+     <li> <p>[!UICONTROL 系统管理员]访问级别，允许您编辑系统中的任何公司。</p> </li> 
      <li> <p>管理公司的管理权限，允许您编辑系统中的任何公司。</p> </li> 
     </ul> <p><b>注释</b>：  
      <ul> 
       <li> <p>您还可以管理与您被分配为组管理员的任何组关联的公司。</p> </li> 
       <li> <p>若要在[!DNL Workfront]系统中添加和删除用户，您必须具备以下任一项：</p> 
        <ul> 
-        <li> <p>[！UICONTROL系统管理员]访问级别。 </p> </li> 
-        <li> <p>您的访问级别中的<b>[！UICONTROL用户]</b>设置配置为<b>[！UICONTROL编辑]</b>访问权限，且<b>[！UICONTROL创建]</b>和在<b>[！UICONTROL微调您的设置]</b> <b>下启用的两个</b>[！UICONTROL用户管理]<img src="assets/gear-icon-in-access-levels.png">选项中的至少一个选项。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>在这两个选项中，如果启用了<b>[！UICONTROL用户管理员（组用户）]</b>，您必须是该用户所属组的组管理员。</p> </li> 
+        <li> <p>[!UICONTROL 系统管理员]访问级别。 </p> </li> 
+        <li> <p>您的访问级别中的<b>[!UICONTROL 用户]</b>设置配置为<b>[!UICONTROL 编辑]</b>访问权限，且<b>[!UICONTROL 创建]</b>和在<b>[!UICONTROL 微调您的设置]</b> <b>下启用的两个</b>[!UICONTROL 用户管理]<img src="assets/gear-icon-in-access-levels.png">选项中的至少一个选项。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>在这两个选项中，如果启用了<b>[!UICONTROL 用户管理员（组用户）]</b>，您必须是该用户所属组的组管理员。</p> </li> 
        </ul>
        </li> 
      </ul> </p> </td>
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 1. 选择一个或多个要停用或重新激活的公司。
 1. 单击&#x200B;**[!UICONTROL 编辑]**.<!--MAKE THIS A SEPARATE NUMBERED LINE<span class="preview">In the Preview environment, disable the **[!UICONTROL Is Active]** option to deactivate it, or enable the option to activate it.</span>-->
-1. <!--In the Production environment, -->对于单个公司，禁用&#x200B;**[!UICONTROL 处于活动状态]**&#x200B;选项以将其停用，或启用该选项以将其激活。
+1. &#x200B;<!--In the Production environment, -->对于单个公司，禁用&#x200B;**[!UICONTROL 处于活动状态]**&#x200B;选项以将其停用，或启用该选项以将其激活。
 
    或
 
