@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -46,10 +46,7 @@ ht-degree: 0%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront包</p></td> 
    <td> 
-<ul> 
-<li><p>任何Workfront和任何Planning包</p></li>
-或
-<li><p>任何工作流和任何计划包</p></li></ul>
+<p>任何Workfront和任何Planning包</p> <p>任何工作流和任何计划包</p>
 <p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
    </td> 
   <tr> 
@@ -150,7 +147,7 @@ ht-degree: 0%
   >不会通知其他用户字段配置已更改。
 
 * 您可以从连接的记录中编辑现有查找字段。
-* 除了按本文中[编辑字段设置](#edit-field-settings-1)部分所述编辑字段外，<span class="preview">当您在表格视图中编辑记录时，在更新字段值时，还可以编辑单选或多选字段的选项。 有关信息，请参阅本文中编辑表视图[中的记录时](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view)将新选择添加到现有选择字段。</span>
+* 除了按照本文的[编辑字段设置](#edit-field-settings-1)部分中所述编辑字段外，在表视图中编辑记录时，在更新字段值时，还可以编辑单选或多选字段的选项。 有关信息，请参阅本文中在表视图[中编辑记录时](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view)将新选择添加到现有选择字段。
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 

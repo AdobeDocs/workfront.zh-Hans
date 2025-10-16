@@ -6,18 +6,20 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 4%
+source-wordcount: '779'
+ht-degree: 5%
 
 ---
 
 # 公式字段概述
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -27,9 +29,11 @@ ht-degree: 4%
 
 有关信息，请参阅文章[创建字段](/help/quicksilver/planning/fields/create-fields.md)中的“公式”部分。
 
-## 访问要求
+<!--do we need these for an overview article?
 
-+++ 展开以查看本文中各项功能的访问要求。 
+## Access requirements
+
++++ Expand to view the access requirements for the functionality in this article. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -41,30 +45,30 @@ ht-degree: 4%
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront包</p></td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<ul> 
-<li><p>任何Workfront和任何Planning包</p></li>
-或
-<li><p>任何工作流和任何计划包</p></li></ul>
-<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
+<p>Any Workfront and any Planning package</p>
+<p>Any Workflow and any Planning package</p>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
    </td> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
-   <td><p>标准</p>
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Standard</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>对象权限</p></td> 
-   <td>   <p>管理工作区的权限</p>  
-   <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>  </td> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a workspace</p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
   </tr>  
 </tbody> 
-</table>
+</table> 
 
-有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
+
+-->
 
 <!--Old:
 
@@ -146,19 +150,11 @@ ht-degree: 4%
   有关详细信息，请参阅文章[创建字段](/help/quicksilver/planning/fields/create-fields.md)中的“公式”部分。
 * 您可以在新的公式中引用公式字段。 一旦在公式字段中引用的字段中更新了值，引用该字段的所有后续字段或包含该字段的公式字段将自动更新。
 
-<div class="preview">
-
 * 当您更新公式字段或可能影响该字段的字段时，警报会通知您更改的影响。 警报在以下情况下显示：
 
    * 当更新公式字段（不包括名称和说明更改）时，如果该字段具有从属公式或查找字段。 警报会列出这些依赖字段，并询问您是否要继续。
 
    * 删除在公式表达式中或用作查找字段的字段时。 警报会列出相关公式和查找字段，并询问您是否要继续删除。
-
-</div>
-
-
-
-<div class="preview">
 
 ## 公式字段的限制
 
@@ -177,7 +173,6 @@ ht-degree: 4%
 
      例如，如果我为公式字段的格式选择数字，并且公式中使用的字段是只显示非数字文本值的文本字段，则公式结果将显示为`#ERROR!`，因为它无法将文本解析为数字。
 
-</div>
 
 ## 支持的公式
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -46,10 +46,7 @@ ht-degree: 0%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront包</p></td> 
    <td> 
-<ul> 
-<li><p>任何Workfront和任何Planning包</p></li>
-或
-<li><p>任何工作流和任何计划包</p></li></ul>
+<p>任何Workfront和任何Planning包</p> <p>任何工作流和任何计划包</p>
 <p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
    </td> 
   <tr> 
@@ -181,7 +178,7 @@ ht-degree: 0%
    或
 
    将鼠标悬停在现有封面图像上，单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击&#x200B;**上传**。 <!--check the casing here; I logged a bug for this-->
-将在&#x200B;**上传**&#x200B;选项卡中打开&#x200B;**记录封面**&#x200B;框。
+将在**上传**&#x200B;选项卡中打开&#x200B;**记录封面**&#x200B;框。
 
    ![用于上载的记录封面盒](assets/record-cover-box-for-upload.png)
 

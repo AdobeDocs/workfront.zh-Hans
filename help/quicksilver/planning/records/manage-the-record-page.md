@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '2395'
+source-wordcount: '2262'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,10 @@ ht-degree: 0%
 
 # 管理记录页面布局
 
-<span class="preview">此页面上突出显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -54,10 +55,8 @@ ht-degree: 0%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront包</p></td> 
    <td> 
-<ul> 
-<li><p>任何Workfront和任何Planning包</p></li>
-或
-<li><p>任何工作流和任何计划包</p></li></ul>
+<p>任何Workfront和任何Planning包</p>
+<p>任何工作流和任何计划包</p>
 <p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
    </td> 
   <tr> 
@@ -216,7 +215,7 @@ ht-degree: 0%
 
      或
 
-     单击&#x200B;**下移**&#x200B;以将节下移一个位置。
+     单击&#x200B;**下移**以将节下移一个位置。
 部分中的所有字段都会随部分一起移动。
 
    * 单击&#x200B;**删除**&#x200B;以删除该节。 该部分已被删除，无法恢复。 访问此类型记录的所有用户将不再查看已删除的分区。
@@ -290,24 +289,15 @@ ht-degree: 0%
 
 ## 将“连接的记录”页面添加到记录
 
-通过将“连接的记录”页面的选项卡添加到记录，可以查看来自连接的记录或对象的信息。
-
-可以在表格视图中编辑来自连接记录的信息。 来自从其他应用程序连接的对象的信息在表视图中不可编辑。
+通过将“连接的记录”页面的选项卡添加到记录，可以查看来自连接的记录或对象的信息。 这会将表视图中的连接记录添加到选项卡。
 
 将“连接的记录”页面添加到记录时，请考虑以下事项：
 
 * 在将记录或对象类型从记录类型的表格视图连接到记录类型后，可以将“连接的记录”页添加到记录中。
 
-* 在“生产”环境中，无法从记录的预览添加“连接的记录”页面。
+* 您可以从记录的预览区域或记录的页面添加“连接的记录”页面。
 
-  <span class="preview">您可以从“预览”环境中记录的预览添加“连接的记录”页面。</span>
-
-* “连接的记录”页在表格视图中仅显示一个对象或记录类型中的连接对象或记录。 该页不会在表视图中显示该类型的所有记录。
-
-* 根据您使用的环境，您可能会注意到以下内容：
-
-   * 在“生产”环境中，将“连接的记录”页面添加到记录后，“页面”选项卡从记录的预览区域可见，但为空。 您必须转到整页以查看所连接记录的表视图。
-   * <span class="preview">在“预览”环境中，“连接的记录”页面在记录的预览区域和浏览器选项卡中均可见。</span>
+* “连接的记录”页在表格视图中仅显示一个对象或记录类型中的连接对象或记录。 页面不显示该类型的所有记录。
 
 * 可以为以下连接的记录或对象类型添加“连接的记录”页：
 
@@ -316,14 +306,14 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >   无法为连接的AEM Assets记录添加“连接的记录”页面。
+  > 无法为连接的AEM Assets记录添加“连接的记录”页面。
 
 要添加“连接的记录”页，请执行以下操作：
 
-1. 单击记录名称以将其打开。
+1. 单击记录名称，从记录类型页面的任意视图中将其打开。
 1. 从以下区域之一单击&#x200B;**添加页面**：
 
-   * <span class="preview">记录的预览窗口</span>
+   * 记录的预览窗口
    * 记录的详细信息页面，在单击预览页面右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开详细信息](assets/open-details-in-a-new-tab-icon.png)之后。
 
    将打开&#x200B;**创建页面**&#x200B;框。
@@ -332,86 +322,93 @@ ht-degree: 0%
 
 1. 添加&#x200B;**页面名称**，单击&#x200B;**连接的记录页面**，然后单击&#x200B;**创建**。
 
-   新选项卡将添加到记录的页面。
-1. 在列表中搜索或单击连接的记录或对象类型的名称。
-所选记录类型的表格视图将显示在新页面中，连接的记录将显示在表格视图中。
-已连接记录的所有字段都显示在已连接记录选项卡的表视图中。
+   新的已连接记录页面将作为新选项卡添加到记录页面。
 
-   默认情况下，将显示连接的记录表中的前五个字段。 默认情况下，不显示查找字段。
+   连接到当前记录的记录将显示在表格视图中。
+
+   >[!TIP]
+   >
+   >您必须在记录的表或详细信息区域中添加已连接的记录，然后才能在已连接的记录页面中显示它们。
+
+   <!--All fields of the connected record display in the table view of the connected record's tab.-->
+
+   默认情况下，将显示连接的记录的前五个字段。<!--No lookup fields display by default.-->
 
    在营销活动详细信息下![受众连接的表视图](assets/audience-connected-table-view-under-campaign-details-page.png)
 
-1. （可选）在连接的记录的表视图中，执行以下任一操作：
+1. （可选）搜索或单击列表中连接的记录或对象类型的名称。
+
+1. （可选且有条件）在“连接的记录”页面的表视图中，在查看连接的Planning记录或除项目之外的任何Workfront对象时，执行以下任一操作： <!--or AEM Assets--> <!--AEM is not available yet?? see note below-->
 
    * 单击记录名称。 这将在新选项卡中打开记录页面。
 
-     这将打开记录的预览页面。 单击右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开](assets/open-details-in-a-new-tab-icon.png)以打开连接的记录的页面。
+   * 单击表视图底部的&#x200B;**连接**&#x200B;以连接更多记录，然后单击连接框外部将其关闭。 新记录将自动添加到表中。
 
-   * 单击&#x200B;**连接**&#x200B;以连接更多记录，然后单击连接框外部以关闭它。 新记录将自动添加到表中。
-   * 在表视图中编辑来自连接记录的任何信息。
+     有关信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。
+   * 在表视图中内联编辑来自连接记录的任何信息。
 
-   * 将鼠标悬停在已连接记录的名称上，然后单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击以下选项之一：
-      * 视图
-      * 复制链接
-      * 编辑缩略图
-      * 复制
-      * 在上方或下方插入记录
-      * 删除
-   * 选择其中一个记录，然后单击屏幕底部蓝色栏中的以下选项之一：
-      * 视图
-      * 复制链接
-      * 编辑缩略图
-      * 复制
-      * 删除。 删除是选择多个记录时唯一可用的选项。
+   * 将鼠标悬停在已连接记录的名称上，然后单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)
+
+     或
+
+     选择其中一个记录，然后单击列表底部蓝色栏中的以下选项之一：
+
+      * **查看**&#x200B;以在新选项卡中打开记录页面
+      * **复制链接**&#x200B;以复制指向记录页面的链接
+      * **编辑缩略图**&#x200B;以打开&#x200B;**记录缩略图**&#x200B;框并编辑记录的缩略图图像
+      * **复制**&#x200B;以复制连接的记录。 重复记录也连接到当前记录。
+      * **在上方或下方插入记录**&#x200B;以将新记录添加到连接的记录类型。 此处添加的新记录也将连接到当前记录。 在表中选择记录时，此选项在蓝色栏中不可用。
+      * **删除**&#x200B;以删除记录。 删除已连接的记录会将其从记录类型以及连接记录的所有位置删除。
 
      有关编辑表视图中的记录的信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
 
-   * 在“连接的记录”页上的表中内联编辑任何记录。
+         >[！TIP]
+         >
+         >您可以选择多个记录或对象来删除它们。
+     
+   * 在“连接的记录”页面上的表中内联编辑任何Planning记录。
 
-     在“生产”环境中，所有Workfront对象都以只读表格视图显示，您无法对其进行编辑。
+     所有其他Workfront对象都以只读表格视图显示，您无法对其进行编辑。
 
-     <span class="preview">在“预览”环境中，您可以在连接的记录页面中内联编辑项目。</span>
+1. （可选且视情况而定）在“连接的记录”页面的表视图中，在查看连接的Workfront项目时执行以下任一操作：
 
-1. <span class="preview">（视情况而定）在查看连接的项目列表时，执行以下任一操作：</span>
+   * 单击已连接记录页面右上角的&#x200B;**连接记录**&#x200B;以连接现有项目。
 
-   * <span class="preview">单击已连接记录页面右上角的&#x200B;**连接记录**&#x200B;以连接现有项目。</span>
-   * <span class="preview">在表中内联编辑项目信息。</span>
-   * <span class="preview">单击&#x200B;**新建行**&#x200B;以创建没有模板的项目。 新项目立即连接到当前记录。</span>
+   有关信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。
+   * 在表中内联编辑项目信息。
+   * 单击&#x200B;**新建行**&#x200B;以创建没有模板的项目。 新项目立即连接到当前记录。
 
      有关详细信息，请参阅将Workfront对象连接到记录时[从Workfront Planning创建对象](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
-   * <span class="preview">将鼠标悬停在项目上并单击&#x200B;**更多**&#x200B;菜单[更多](assets/more-menu.png)，然后单击以下任一项：</span>
-      * <span class="preview">**删除**&#x200B;以删除项目。 删除项目会断开它与记录的连接，并将其移到Workfront的回收站。</span>
-      * <span class="preview">**断开连接**&#x200B;以断开项目与记录的连接。 断开项目连接会将其及其查找字段的所有值从当前记录中删除。</span>
+   * 将鼠标悬停在项目上并单击&#x200B;**更多**&#x200B;菜单[更多](assets/more-menu.png)
 
-1. （可选）双击“连接的记录”页选项卡的名称
+     或
+
+     选择一个或多个项目，并注意列表底部的蓝色栏，然后单击以下项之一：
+
+      * **删除**&#x200B;以删除项目。 删除项目会断开它与记录的连接，并将其移到Workfront的回收站。
+      * **断开连接**&#x200B;以断开项目与记录的连接。 断开项目连接会将其及其查找字段的所有值从当前记录中删除。
+
+1. （可选）双击&#x200B;**连接的记录页**&#x200B;选项卡的名称
 
    或
 
    将鼠标悬停在该选项卡的名称上，然后单击&#x200B;**更多** ![更多菜单](assets/more-menu.png)，然后单击&#x200B;**重命名**&#x200B;以重命名为新的“连接的视图”选项卡。
-1. （可选）使用工具栏中的以下任意视图元素来管理表格视图：
+1. （可选）在连接的记录页面的工具栏中使用以下任何视图元素来管理表格视图：
 
    * 过滤器
    * 排序
    * 分组
    * 字段，用于显示、隐藏或重新排列字段
+   * 行高
+   * 搜索
 
    有关信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)。
 
    >[!NOTE]
    >
-   >   不能在已连接记录选项卡的表视图中创建、编辑或删除字段。
-   >
+   >不能在已连接记录选项卡的表视图中创建、编辑或删除字段。
 
-1. （视情况而定）要连接多个记录或对象，请执行下列操作之一：
-
-   * 单击表底部的&#x200B;**连接**&#x200B;以添加或删除记录或除项目之外的任何Workfront对象<span class="preview">。</span>
-   * <span class="preview">在“预览”环境中，单击“连接的记录”页面右上角的&#x200B;**连接记录**&#x200B;以连接现有项目，或者单击表底部的&#x200B;**新行**&#x200B;以创建项目并自动将它们连接到当前记录。</span>
-
-   有关信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。
 1. （可选）将鼠标悬停在“连接的记录”页选项卡的名称上，单击&#x200B;**更多** ![更多菜单](assets/more-menu.png)，然后单击&#x200B;**删除**&#x200B;以移至“选项卡”。
-
-
-
 
 <!--
 ## Add a Brief page to a record's page

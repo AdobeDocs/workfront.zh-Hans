@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '1828'
+source-wordcount: '1767'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 # 管理来自Workfront对象的记录连接
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
 
 {{planning-important-intro}}
 
@@ -45,10 +45,8 @@ ht-degree: 0%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront包</p></td> 
    <td> 
-<ul> 
-<li><p>任何Workfront和任何Planning包</p></li>
-或
-<li><p>任何工作流和任何计划包</p></li></ul>
+<p>任何Workfront和任何Planning包</p>
+<p>任何工作流和任何计划包</p>
 <p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
    </td> 
   <tr> 
@@ -172,7 +170,7 @@ ht-degree: 0%
    * [连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [连接记录](/help/quicksilver/planning/records/connect-records.md)
 * 您可以从Workfront对象查看Planning部分，即使没有与Workfront对象关联的记录也是如此。
-* <span class="preview">只有在创建两个记录类型之间的连接时启用链接记录类型设置上的“创建对应字段”后，才会在Workfront对象的Planning区域中显示记录类型。</span>
+* 只有在创建两个记录类型之间的连接时启用链接记录类型设置上的创建对应字段后，记录类型才会显示在Workfront对象的Planning区域中。
 
   有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
@@ -209,7 +207,7 @@ ht-degree: 0%
 
    项目![的](assets/planning-section-on-project.png)计划部分
 
-1. （可选）单击“显示所有连接”**&#x200B;**&#x200B;可显示所有连接的记录类型，包括未连接记录的记录类型。 默认情况下，不显示没有连接记录的记录类型。
+1. （可选）单击“显示所有连接”****&#x200B;可显示所有连接的记录类型，包括未连接记录的记录类型。 默认情况下，不显示没有连接记录的记录类型。
 1. 单击记录卡以显示有关记录的更多信息。 此时将显示记录预览框。
 1. （可选）开始修改记录预览框中的字段。 您的更改会自动保存。
 1. （可选）单击预览框右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开详细信息](assets/open-details-in-a-new-tab-icon.png)以打开记录的详细信息页面。 此时将在Workfront Planning中打开记录的详细信息页面。
@@ -262,7 +260,7 @@ ht-degree: 0%
 
   例如，您可能可以将带有Planning连接字段的自定义表单附加到任务，但无法将Workfront Planning对象连接到任务。
 * 批量编辑Workfront对象时，无法编辑Planning连接字段。
-* <span class="preview">只有在创建两个记录类型之间的连接时启用链接记录类型设置上的“创建对应字段”后，才会在Workfront对象的Planning连接自定义字段中显示记录类型。</span>
+* 只有在创建两个记录类型之间的连接时启用链接记录类型设置上的“创建对应字段”后，才会在Workfront对象的Planning连接自定义字段中显示记录类型。
 
   有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
 

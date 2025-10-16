@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: c06baa45e52d77463f9f886b6f6eae4ff68e4ccd
 workflow-type: tm+mt
 source-wordcount: '2686'
 ht-degree: 1%
@@ -82,8 +82,8 @@ ht-degree: 1%
 
    * 您不能向请求表单添加以下类型的字段：
 
-      * 创建者，上次修改者，<span class="preview">批准者</span>
-      * 创建日期，上次修改日期，<span class="preview">批准日期</span>
+      * 创建者、上次修改者、批准者
+      * 创建日期、上次修改日期、批准日期
       * Workfront对象的查找字段
       * Workfront Planning已连接记录的查找字段
 
@@ -169,7 +169,7 @@ ht-degree: 1%
 表单详细信息分为选项卡。
 
 * **表单**&#x200B;选项卡允许您向表单添加字段和内容元素
-* **配置**&#x200B;选项卡允许您设置表单的批准流程并设置请求完成选项&lt;。
+* **配置**选项卡允许您设置表单的批准流程并设置请求完成选项&lt;。
   <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
 
 #### 设置表单详细信息

@@ -6,18 +6,20 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '3431'
+source-wordcount: '3370'
 ht-degree: 2%
 
 ---
 
 # 管理表视图
 
-<span class="preview">此页面上突出显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
 
 {{planning-important-intro}}
 
@@ -48,10 +50,8 @@ ht-degree: 2%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront包</p></td> 
    <td> 
-<ul> 
-<li><p>任何Workfront和任何Planning包</p></li>
-或
-<li><p>任何工作流和任何计划包</p></li></ul>
+<p>任何Workfront和任何Planning包</p>
+<p>任何工作流和任何计划包</p>
 <p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
    </td> 
   <tr> 
@@ -153,16 +153,16 @@ ht-degree: 2%
 
 要管理表视图，请执行以下操作：
 
-1. <span class="preview">创建表视图，如文章[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)中所述。</span>
+1. 创建表视图，如文章[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)中所述。
 
-   <span class="preview">![表视图示例](assets/table-view-example.png)</span>
+   ![表视图示例](assets/table-view-example.png)
 
 1. （可选）单击&#x200B;**行高**，然后从以下选项中进行选择以修改表行的高度：
    * 短
    * 媒介
    * 高
 
-1. <span class="preview">（可选）单击&#x200B;**全屏**&#x200B;图标![打开全屏图标](assets/open-full-screen-icon.png)以全屏方式打开视图，然后单击&#x200B;**退出全屏**&#x200B;图标![退出全屏图标](assets/exit-full-screen-icon.png)或键盘上的Escape以退出全屏。 </span>
+1. （可选）单击&#x200B;**全屏**&#x200B;图标![打开全屏图标](assets/open-full-screen-icon.png)以全屏方式打开视图，然后单击&#x200B;**退出全屏**&#x200B;图标![退出全屏图标](assets/exit-full-screen-icon.png)或键盘上的Escape以退出全屏。
 
 1. 更新以下视图元素，如以下子部分所述：
    * [列（或字段）](#add-columns-or-fields)
@@ -198,12 +198,7 @@ ht-degree: 2%
 
    * 单击表格工具栏中的&#x200B;**字段**，然后按所需顺序拖放这些字段，然后单击&#x200B;**字段可见性和顺序**&#x200B;框外部以将其关闭。
 
-     <div class="preview">
-
      ![字段设置表视图工具栏已展开](assets/fields-setting-table-view-toolbar-expanded.png)
-
-     </div>
-
 
      >[!TIP]
      >
@@ -246,9 +241,9 @@ ht-degree: 2%
 
 1. 执行以下操作可快速查找与关键字匹配的记录：
 
-   1. <span class="preview">在&#x200B;**搜索**&#x200B;框![搜索图标](assets/search-icon.png)中，开始键入与屏幕上显示的记录的任何字段关联的关键字。</span>搜索项旁边将显示正确匹配项的数目，并且高亮显示具有正确匹配的字段。
+   1. 在&#x200B;**搜索**&#x200B;框![搜索图标](assets/search-icon.png)中，开始键入与屏幕上显示的记录的任何字段相关联的关键字。 正确匹配的数量显示在搜索项目旁边，具有正确匹配的字段会高亮显示。
 
-      <span class="preview">![在表视图中具有结果蓝色轮廓的搜索框](assets/search-box-with-results-blue-outline-table-view.png)</span>
+      ![在表视图中具有结果蓝色轮廓的搜索框](assets/search-box-with-results-blue-outline-table-view.png)
 
       您可以使用屏幕上可见的任何单词或特殊字符。
 
@@ -502,13 +497,11 @@ ht-degree: 2%
 
 1. （可选）单击&#x200B;**添加条件**&#x200B;并重复上述步骤以添加最多3个分组。
 
-   <div class="preview">
-
    为分组选择的字段数将显示在分组图标旁边。
 
    ![分组应用于表视图](assets/grouping-applied-in-table-view.png)
 
-   </div>
+
 
 1. （可选）在&#x200B;**按**&#x200B;对记录进行分组框中，单击为分组选择的字段右侧的&#x200B;**x**&#x200B;图标以删除该分组
 
