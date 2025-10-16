@@ -4,10 +4,10 @@ product-area: timesheets
 navigation-topic: tips-tricks-and-troubleshooting-timesheets
 title: 在利率变化时，防止“重新计算财务”操作影响历史小时数
 description: 您需要更新用户或工作角色的小时成本（由于加薪或其他情况），但您不希望此更改影响之前已登录项目的小时数，或者希望它仅影响部分历史小时数。
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 29d3124b-cf7a-4a47-95c4-cd5379489810
-source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 0%

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
+source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
@@ -29,31 +29,27 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-   <td>任何</td> 
+   <td>[!DNL Adobe Workfront] 包</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td><p>新增：标准</p>
-   或
-   <p>当前：计划</p>
-   </td> 
+   <td>[!DNL Adobe Workfront] 许可证</td> 
+   <td><p>[！UICONTROL标准版]</p>
+       <p>[！UICONTROL计划]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
-   <td>系统管理员</td>
+   <td>访问级别配置</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -64,7 +60,7 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 * 计划的小时数，如用户的计划或Workfront系统的默认计划中定义。
 * 计划例外(根据使用的计划，它可以是用户计划的例外，也可以是与Workfront默认计划关联的例外)。
 * 用户的休息时间。
-* 用户或[!DNL Workfront]系统的等效全职([!UICONTROL FTE])值。 按照计划中的定义，当用户全职工作时，[!UICONTROL FTE]等于1。
+* 用户或[!UICONTROL 系统的等效全职(]FTE[!DNL Workfront])值。 按照计划中的定义，当用户全职工作时，[!UICONTROL FTE]等于1。
 * 用户的[!UICONTROL 工作时间]值，该值表示用户用于项目相关工作的时间。 这不包括额外的时间，如会议和培训。 当用户按照[!UICONTROL FTE]或计划指示的整个时间可用于工作时，[!UICONTROL 工作时间]等于1，这意味着他们不会花费任何时间在会议或培训等与项目无关的工作上。
 
 

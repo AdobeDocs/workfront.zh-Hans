@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '筛选器：当状态与不同组关联时，按同名状态显示项目'
+title: 筛选器：当状态与不同组关联时，按同名状态显示项目
 description: 您可以将具有3个字母键NST的任务状态分配给名为“组A”的新状态。 您可能会有另一个任务状态分配给组B，该任务状态也命名为“新状态”，带有3个字母的键NES。 虽然2个状态的名称可以相同，但3个字母的代码始终是唯一的。 有关组状态的详细信息，请参阅创建或编辑组状态。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8ddcd8b1-44a9-4341-80c7-76ba70d2953b
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -26,28 +26,21 @@ ht-degree: 0%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
-    <p>新增：</p>
-   <ul><li><p>修改过滤器的参与者 </p></li>
-   <li><p>用于修改报告的标准</p></li> </ul>
-
-<p>当前：</p>
-   <ul><li><p>请求修改筛选器 </p></li>
-   <li><p>计划修改报告</p></li> </ul></td> 
+   <p>修改过滤器的参与者或请求 </p>
+   <p>用于修改报告的标准或计划</p>
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -60,7 +53,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

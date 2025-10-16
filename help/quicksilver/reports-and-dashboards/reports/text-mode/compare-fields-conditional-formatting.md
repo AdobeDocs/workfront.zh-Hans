@@ -6,9 +6,9 @@ description: 您可以使用条件格式来比较视图中的2个不同字段，
 author: Nolan
 feature: Reports and Dashboards
 exl-id: da4447ba-6e76-4701-88ee-87a30393bed9
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '468'
 ht-degree: 1%
 
 ---
@@ -21,29 +21,21 @@ ht-degree: 1%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
-
-您必须具备以下条件：
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>标准</p></li>
-         </ul>
-      <p>当前：</p>
-         <ul>
-         <li><p>计划</p></li>
-         </ul>
+     <p>标准</p>
+     <p>规划</p>
    </td> 
   </tr> 
   <tr> 
@@ -57,7 +49,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -97,7 +89,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >如果要比较Workfront本地字段，请使用驼峰式大小写语法来表示该字段的名称。 如果要比较自定义字段，请将&#x200B;**DE：实际字段名称**&#x200B;用于要与第一个字段进行比较的名称字段。\
+   >如果要比较Workfront本地字段，请使用驼峰式大小写语法来表示该字段的名称。 如果要比较自定义字段，请将&#x200B;**DE:Actual字段**&#x200B;的名称用于要与第一个字段进行比较的名称字段。\
    >例如，如果要将&#x200B;**实际开始日期**&#x200B;与标记为&#x200B;**交付日期**&#x200B;的自定义字段进行比较，请在文本模式代码中添加以下语句：
    >
    >`styledef.case.0.comparison.rightmethod=DE:Delivery Date`

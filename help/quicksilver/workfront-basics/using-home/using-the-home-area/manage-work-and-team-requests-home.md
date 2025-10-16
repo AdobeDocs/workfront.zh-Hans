@@ -6,9 +6,9 @@ description: 当工作任务和问题分配给您时，它们会列在我的工�
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 79826743-eeb9-4849-b46f-cc3f086e3194
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '801'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 访问要求
 
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,25 +31,27 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[!UICONTROL Work]或更高版本</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证</strong></td> 
+   <td>
+   <p>标准</p>
+    <p>工作或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>[!UICONTROL Edit]对任务和问题的访问权限</p> <p>注意：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何修改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td role="rowheader"><strong>访问级别配置</strong></td> 
+   <td> <p>[！UICONTROL Edit]对任务和问题的访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>Contribute权限或更高权限可为您需要处理的任务和问题提供内容</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>Contribute权限或更高权限可为您需要处理的任务和问题提供内容</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -59,7 +61,7 @@ ht-degree: 0%
 
 您可以选择显示准备好处理的项目或您当前处理的项目的筛选器。
 
-本文介绍如何使用[!UICONTROL 主页]区域中的筛选器查看您当前正在处理或可能考虑开始处理的项目。 有关如何在[!UICONTROL 主页]区域中使用筛选器的信息，请参阅[!UICONTROL 主页]区域[&#128279;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)的[!UICONTROL 工作列表]中的显示项。
+本文介绍如何使用[!UICONTROL 主页]区域中的筛选器查看您当前正在处理或可能考虑开始处理的项目。 有关如何在[!UICONTROL 主页]区域中使用筛选器的信息，请参阅[主页[!UICONTROL 区域]的[!UICONTROL 工作列表]中的](/help/quicksilver/workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)显示项。
 
 要查看我的工作小部件中的工作项，请执行以下操作：
 
@@ -80,8 +82,8 @@ ht-degree: 0%
    * 这些任务及其父任务可能具有阻止它们进行处理的前置任务或任务限制。
    * 任务或问题的计划开始日期[!UICONTROL 为超过两周的未来]。
 
-1. 单击[!UICONTROL 任务]或[!UICONTROL 问题]下的&#x200B;**[!UICONTROL 处理]**&#x200B;以显示您当前处理的任务和问题。
-1. 单击“[!UICONTROL 问题]”下的“**[!UICONTROL 已请求]**”可显示已向您请求（您已被分派给他们）但尚未接受处理的问题。
+1. 单击&#x200B;**[!UICONTROL 任务]**&#x200B;或[!UICONTROL 问题]下的[!UICONTROL 处理]以显示您当前处理的任务和问题。
+1. 单击“**[!UICONTROL 问题]**”下的“[!UICONTROL 已请求]”可显示已向您请求（您已被分派给他们）但尚未接受处理的问题。
 
 ## 访问团队请求小组件中的团队请求
 
@@ -120,9 +122,9 @@ ht-degree: 0%
 1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
 1. （视情况而定）单击&#x200B;**自定义**&#x200B;以添加&#x200B;**我的工作**&#x200B;小组件。
 
-1. 在小部件工作列表中，将鼠标悬停在工作项上，然后单击&#x200B;**摘要**&#x200B;图标以查看有关该工作项的信息。
+1. 在小部件工作列表中，将鼠标悬停在工作项上，然后单击&#x200B;**摘要**图标以查看有关该工作项的信息。
    ![打开摘要](assets/open-summary-new-home.png)
-1. 在&#x200B;**工作**&#x200B;分区中，删除您的姓名。
+1. 在&#x200B;**工作**分区中，删除您的姓名。
    ![删除分配](assets/remove-assignment.png)
 
 

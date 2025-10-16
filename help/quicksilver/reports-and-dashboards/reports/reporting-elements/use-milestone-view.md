@@ -6,9 +6,9 @@ description: 您可以将“里程碑”视图应用于项目列表或报告。 
 author: Courtney, Alina
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1623'
 ht-degree: 1%
 
 ---
@@ -41,38 +41,30 @@ ht-degree: 1%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront计划</strong></td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront许可证</strong></td> 
+   <td role="rowheader">Adobe Workfront许可证</strong></td> 
    <td> 
-      <p>新：</p>
-         <ul>
-         <li><p>标准</p></li>
-         </ul>
-      <p>当前：</p>
-         <ul>
-         <li><p>工作或更高</p></li>
-         </ul>
+    <p>标准</p>
+    <p>工作或更高</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>查看或更高的报告、功能板和日历访问权限</p></td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>查看或更高的报告、功能板和日历访问权限</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>查看权限到项目报告以将里程碑视图应用于报告</p> </td> 
+   <td role="rowheader">对象权限</td> 
+    <td> <p>查看权限到项目报告以将里程碑视图应用于报告</p></td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>

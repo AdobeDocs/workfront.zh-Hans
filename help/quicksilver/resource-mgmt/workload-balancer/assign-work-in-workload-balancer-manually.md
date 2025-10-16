@@ -7,9 +7,9 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: d93bdaec834f5a66e663c7edc7d9ffa42ffa5918
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '747'
 ht-degree: 1%
 
 ---
@@ -26,25 +26,21 @@ ht-degree: 1%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-   <td> <p>任何 </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td><p>新增：标准</p>
-       <p>或</p>
-       <p>当前：计划，在资源区域使用工作负载均衡器时；</br>
-       工作，使用团队或项目的工作负载均衡器时</p></td>
+   <td>Adobe Workfront包</td> 
+   <td><p>任何</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
+   <td>Adobe Workfront许可证</td> 
+   <td><p>标准</p>
+       <p>在资源区域使用工作负载均衡器时进行规划；在使用团队或项目的工作负载均衡器时进行工作</p></td>
+  </tr>
+  <tr> 
+   <td>访问级别配置</td> 
    <td> <p>编辑对以下内容的访问权限：</p> 
     <ul> 
      <li>资源管理</li> 
@@ -55,13 +51,13 @@ ht-degree: 1%
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">对象权限</td> 
+   <td>对象权限</td> 
    <td>包含制定工作分派的项目、任务和问题的Contribute权限或更高版本</td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

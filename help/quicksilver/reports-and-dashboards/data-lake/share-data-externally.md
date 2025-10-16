@@ -7,10 +7,10 @@ description: Workfront Data Connect允许您将组织的Workfront数据与商业
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
+source-git-commit: 7764e512a3fb30a89e6645a4d8544a5fcffee231
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 1%
+source-wordcount: '570'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ Workfront Data Connect允许您将组织的Workfront数据与商业智能工具�
 
 | 字段名称 | 值 |
 |---------------|-------------|
-| 服务器 | 无`https://`部分的连接URL(可在Workfront*中的&#x200B;**Data Connect**&#x200B;页面上找到) |
+| Server | 无`https://`部分的连接URL(可在Workfront*中的&#x200B;**Data Connect**&#x200B;页面上找到) |
 | 端口 | `443` |
 | 数据库 | `WORKFRONT` |
 | 仓库 | `READER_WH` |
@@ -43,35 +43,27 @@ Workfront Data Connect允许您将组织的Workfront数据与商业智能工具�
 
 ## 访问要求
 
-+++ 展开以查看访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-   <td><p>包括在以下计划中：</p>
-    <ul>
-        <li><p>Ultimate</p></li> 
-    </ul>    
-   <!--<p>Can be purchased as an add-on to the following plans:</p> 
-    <ul>
-        <li>Select</li> 
-        <li>Prime</li>
-    </ul>--> 
-    <p>Workfront Data Connect不适用于旧版Workfront计划。</p> 
-   </td> </td> 
+   <td role="rowheader">Adobe Workfront包</td> 
+   <td><p>Ultimate</p>
+    <p>工作流 Ultimate</p>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td><p>计划</p></td> 
+   <td>
+   <p>标准</p>
+   <p>规划</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>您必须是Workfront管理员。</p></td> 
+   <td> <p>您必须是Workfront管理员</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -115,5 +107,5 @@ Workfront Data Connect允许您将组织的Workfront数据与商业智能工具�
 
 下面列出了许多常见的数据仓库；请访问其文档站点以了解有关连接到数据湖的更多信息。
 
-* 数据库
+* 数据块
 * AWS Redshift

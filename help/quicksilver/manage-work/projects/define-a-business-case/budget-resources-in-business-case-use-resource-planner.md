@@ -2,12 +2,12 @@
 navigation-topic: business-case-and-scorecards
 title: 使用资源规划程序在业务案例中预算资源
 description: 作为资源计划的一部分，您可以在构建业务案例时，使用项目层资源规划者来预算完成项目中的工作所需的职位角色。
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '1224'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
@@ -35,19 +35,17 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront计划*</p></td> 
-   <td> <p>当前：Prime或更高版本</p>
-   <p>旧版：专业版或更高版本</p> 
+   <td role="rowheader"><p>Adobe Workfront计划</p></td> 
+   <td> <p>Prime或更高版本</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront许可证*</p></td> 
-   <td> <p>当前：浅色或更高</p>
-   <p>旧版：审阅或更高版本</p>
+   <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
+   <td> <p>浅色或更高</p>
+   <p>审核或更高</p>
 
 <p><b>重要信息：</b></p> 
-   <p>当前：您必须拥有标准许可证才能修改资源预算信息。 </p> 
-   <p>旧版：您必须拥有计划许可证才能修改资源预算信息。 </p>
+   <p>您必须具有“标准”或“计划”许可证才能修改资源预算信息。 </p> 
    </td> 
   </tr> 
   <tr> 
@@ -66,7 +64,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

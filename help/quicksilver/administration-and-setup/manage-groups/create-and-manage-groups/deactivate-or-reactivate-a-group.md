@@ -8,18 +8,14 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 99b81090-8d09-4130-a746-44ed1d76f971
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
 
 # 停用或重新激活组
-
-<!--
-If Callisto adds the <b>Is active</b> checkbox to the Details page for groups you view, add that info to Manage groups/Create and manage groups/manage-a-group and to Manage groups/Create and manage groups/view-and-manage-a-groups-details
--->
 
 您可以停用您管理的不再使用的组。
 
@@ -27,32 +23,27 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-   <td>任何</td> 
+   <td>Adobe Workfront包</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
+   <td>Adobe Workfront许可证</td> 
+   <td><p>标准</p>
+       <p>规划</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td><p>新增：标准</p>
-       <p>或</p>
-       <p>当前：计划</p></td>
-  </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">访问级别配置</td> 
+   <td>访问级别配置</td> 
    <td>您必须是组的组管理员或系统管理员。</td>
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -64,9 +55,9 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 >
 >如果您需要重新激活其中一个，可以在执行以下操作之一之后重新激活：
 >
->* 将其从父组中移除。 有关详细信息，请参阅[管理子组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)一文中的[从父组中删除子组并使其成为顶级组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make)部分。
+>* 将其从父组中移除。 有关详细信息，请参阅[管理子组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make)一文中的[从父组中删除子组并使其成为顶级组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)部分。
 >
->* 将其移动到活动组下。 有关详细信息，请参阅文章[管理子组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)中的[创建、移动、查看、编辑、复制、重命名、导出或删除子组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#create)部分。
+>* 将其移动到活动组下。 有关详细信息，请参阅文章[管理子组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#create)中的[创建、移动、查看、编辑、复制、重命名、导出或删除子组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)部分。
 
 {{step-1-to-setup}}
 
@@ -119,4 +110,4 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 
 * 从父组中移除子组（使子组成为顶级组）。 然后为移动的组启用“活动”选项，如本文中的[停用或重新激活组](#View)部分所述。
 
-  有关从父组中删除子组的说明，请参阅[管理子组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)一文中的[从父组中删除子组并使其成为顶级组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make)部分。
+  有关从父组中删除子组的说明，请参阅[管理子组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make)一文中的[从父组中删除子组并使其成为顶级组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)部分。

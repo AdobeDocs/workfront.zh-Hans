@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '查看：前置任务详细信息'
+title: 查看：前置任务详细信息
 description: 此任务视图使用收藏集视图显示任务的前置任务的详细信息。 在收藏集视图中，您可以显示有关处于“一对多”关系中的对象的信息。 在这种情况下，每个任务（一个）可以有多个前置任务（多个）。 该视图显示任务名称，以及其前置任务名称、前置任务项目名称、前置任务计划完成日期和前置任务状态。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0187da94-4895-47b1-914f-284fed9e0fd0
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -28,44 +28,33 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td> <p> 当前： 
-   <ul>
-   <li>请求修改视图</li> 
-   <li>计划修改报告</li>
-   </ul>
-     </p>
-     <p> 新增： 
-   <ul>
-   <li>修改视图的参与者</li> 
-   <li>用于修改报告的标准</li>
-   </ul>
-     </p>
-    </td> 
+   <td> 
+   <p>修改视图的参与者或请求 </p>
+   <p>用于修改报告的标准或计划</p>
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
+   <td role="rowheader">访问级别配置</td> 
    <td> <p>编辑对报告、功能板和日历的访问权限以修改报告</p> <p>编辑对筛选器、视图和分组的访问权限以修改视图</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理报表的权限</p> </td> 
+   <td> <p>管理报表的权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
 有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
 
 +++
 

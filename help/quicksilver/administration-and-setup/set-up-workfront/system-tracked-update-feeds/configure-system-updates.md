@@ -8,16 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: 4fafdcea97874e791104260375617e3989af1870
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '930'
 ht-degree: 8%
 
 ---
 
 # 配置系统更新
 
-<!-- Audited: 6/2025 -->
+<!-- Audited: 08/2025 -->
 
 <!--
 
@@ -55,19 +55,18 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
-   <td>任何</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 包</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td><p>新文档： [!UICONTROL Standard]</p>
-   或
-   <p>当前： [!UICONTROL 计划]</p>
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
+   <td><p>[！UICONTROL标准版]</p>
+   <p>[！UICONTROL计划]</p>
    </td> 
   </tr>  
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td>
+   <td><p>[！UICONTROL系统管理员]</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -75,6 +74,29 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 *有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td><p>New: [!UICONTROL Standard]</p>
+   Or
+   <p>Current: [!UICONTROL Plan]</p>
+   </td> 
+  </tr>  
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td>[!UICONTROL System Administrator]</td>
+  </tr> 
+ </tbody> 
+</table> -->
 
 ## 确定对象类型的[!DNL Workfront]跟踪哪些字段
 
@@ -113,7 +135,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    * 项目
    * 任务
    * 问题
-   * 项目组合
+   * 组合
    * 项目群
    * 用户
 
@@ -125,7 +147,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    >如果[!DNL Workfront]已在跟踪该字段，则不能从列表中再次添加该字段。
 
 1. 添加所有您希望[!DNL Workfront]跟踪的字段后，单击&#x200B;**[!UICONTROL 添加]**。
-您添加的内置字段显示在&#x200B;**[!UICONTROL 内置字段]**&#x200B;子选项卡下，自定义字段显示在&#x200B;**[!UICONTROL 自定义字段]**&#x200B;子选项卡下。
+您添加的内置字段显示在**[!UICONTROL 内置字段]**&#x200B;子选项卡下，自定义字段显示在&#x200B;**[!UICONTROL 自定义字段]**子选项卡下。
 **[!UICONTROL 所有字段]**&#x200B;子选项卡同时显示[!DNL Workfront]跟踪的内置和自定义字段。
 
 ### 删除您不希望跟踪的字段 {#remove-fields-you-don-t-want-tracked}

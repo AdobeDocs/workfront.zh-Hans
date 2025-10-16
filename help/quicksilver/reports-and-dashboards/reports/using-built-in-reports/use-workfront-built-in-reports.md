@@ -6,9 +6,9 @@ description: Adobe Workfront提供了大量可供使用的内置报告。 Workfr
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '2986'
+source-wordcount: '2978'
 ht-degree: 10%
 
 ---
@@ -23,31 +23,23 @@ Workfront管理员可以隐藏内置报告，这样用户就无权访问它们�
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>参与者或更高版本</p></li>
-         </ul>
-      <p>当前：</p>
-         <ul>
-         <li><p>请求或更高版本</p></li>
-         </ul>
+      <p>参与者或更高版本</p>
+      <p>请求或更高版本</p>
    </td>
-  </tr> 
+  </tr>
   <tr> 
    <td role="rowheader">访问级别配置</td> 
    <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>查看或更高的报告、功能板和日历访问权限</p> </td> 
@@ -59,13 +51,13 @@ Workfront管理员可以隐藏内置报告，这样用户就无权访问它们�
  </tbody> 
 </table>
 
-*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
 ## 内置报告概述 {#overview-of-built-in-reports}
 
-您可以为内置报告创建副本，并将其另存为新报告。 有关创建内置报告副本的详细信息，请参阅[创建报告副本](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)一文中的[创建报告的新版本](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#create-a-new-version-of-a-report)。
+您可以为内置报告创建副本，并将其另存为新报告。 有关创建内置报告副本的详细信息，请参阅[创建报告副本](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#create-a-new-version-of-a-report)一文中的[创建报告的新版本](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)。
 
 以下报表随Workfront包提供。 对于在访问级别中至少拥有内置报告查看权限的所有用户，报表均可用。
 
@@ -108,7 +100,7 @@ Workfront管理员可以隐藏内置报告，这样用户就无权访问它们�
    <td>显示未结时间表的时间表报告。 该报表显示以下字段：日期范围、所有者名称、总小时数、加班时间、审批者名称和工时表的状态。</td> 
   </tr> 
   <tr> 
-   <td>批准工时表 (已提示)</td> 
+   <td>审批工时表（已提示）</td> 
    <td>显示批准者已提交或已拒绝时间表的时间表报告。 该报表显示以下字段：日期范围、所有者、总小时数、加班时间、审批者姓名和时间表状态。 报告提示自：时间表开始日期、时间表结束日期、时间表批准者姓名和用户名。</td> 
   </tr> 
   <tr> 

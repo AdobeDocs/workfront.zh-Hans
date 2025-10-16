@@ -7,9 +7,9 @@ description: 您可以在Workfront中删除或存档展示板。 删除展示板
 author: Lisa
 feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: 3e33ba722ff066fd7fec8c7762c63e8c8d3fc4b8
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -24,22 +24,19 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
-   <p>新文档： [!UICONTROL Contributor]或更高版本</p> 
-   <p>或</p>
-   <p>当前： [!UICONTROL Request]或更高版本</p>
+   <p>参与者或更高版本</p> 
+   <p>请求或更高版本</p>
    </td> 
   </tr> 
  </tbody> 

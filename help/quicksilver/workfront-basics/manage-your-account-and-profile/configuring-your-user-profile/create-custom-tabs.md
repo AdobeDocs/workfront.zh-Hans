@@ -6,9 +6,9 @@ description: 默认情况下，您在 [!DNL Workfront] Web应用程序中看到�
 author: Becky and Lisa
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: 0efbc6051443d8e0ed96512b72d0949b288f7c2d
+source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '638'
 ht-degree: 1%
 
 ---
@@ -44,34 +44,32 @@ ht-degree: 1%
 
 ## 访问要求
 
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- </col> 
- <col> 
- </col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
-   <td> <p>任何</p> </td> 
+   <td>Adobe Workfront包</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[!UICONTROL Review]或更高版本</p> </td> 
+   <td>Adobe Workfront许可证</td> 
+   <td>
+   <p>浅色或更高</p>
+   <p>审核或更高</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td>[!UICONTROL Reviewer]或更高版本</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">对象权限</td> 
-   <td>查看对对象类型的访问权限</td> 
+   <td>对象权限</td> 
+   <td><p>查看对对象类型的访问权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划或许可证类型，请与[!DNL Workfront]管理员联系。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 在[!DNL Workfront]对象或区域的左侧面板中添加仪表板
 

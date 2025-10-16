@@ -7,10 +7,10 @@ description: 计划收益是完成项目时组织可能从中受益的估计金�
 author: Lisa
 feature: Work Management
 exl-id: 1ded9d16-57be-40e0-b083-ee5273fd9b56
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 0%
+source-wordcount: '315'
+ht-degree: 1%
 
 ---
 
@@ -27,35 +27,32 @@ Adobe Workfront不计算计划收益。 作为项目所有者，您可以在业�
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-   <td>任何</td> 
+   <td>Adobe Workfront包</td> 
+   <td>任何 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td>Adobe Workfront许可证</td> 
    <td>
-   <p>新增：标准</p>
-   <p>或</p>
-   <p>当前：计划</p></td>  
+   <p>标准</p>
+   <p>规划</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
+   <td>访问级别配置</td> 
    <td>编辑对项目和财务数据的访问权限</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">对象权限</td> 
+   <td>对象权限</td> 
    <td>管理具有管理财务权限的项目权限</td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -69,8 +66,8 @@ Adobe Workfront不计算计划收益。 作为项目所有者，您可以在业�
 * 在项目报表中，将“计划的收益”列添加到报表的视图时。\
   有关在Workfront中生成报表的更多信息，请参阅文章[创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
-* 在Portfolio优化器中。\
-  有关Portfolio优化程序的详细信息，请参阅文章[Portfolio优化程序概述](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)。
+* 在Portfolio Optimizer中。\
+  有关Portfolio Optimizer的详细信息，请参阅文章[Portfolio Optimizer概述](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)。
 
 ## 更新项目的计划收益
 

@@ -2,22 +2,24 @@
 product-area: projects
 navigation-topic: manage-issues
 title: 删除问题
-description: 如果您拥有正确的访问权限，则可以删除Adobe Workfront中的问题或请求。
+description: 如果您拥有正确的访问权限，可以在Adobe Workfront中删除问题或请求，并在您发现不再需要它们时，再进行删除。 我们建议关闭这些项目，而不是删除它们，这样您可以保留项目的准确性。
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '757'
 ht-degree: 1%
 
 ---
 
 # 删除问题
 
-<!--Audited: 05/2025-->
+<!--Audited: 08/2025-->
 
-如果您拥有正确的访问权限，则可以删除Adobe Workfront中的问题或请求。
+如果您拥有正确的访问权限，可以在Adobe Workfront中删除问题或请求，并在您发现不再需要它们时，再进行删除。 我们建议关闭这些项目，而不是删除它们，这样您可以保留项目的准确性。
+
+Workfront管理员可以恢复已删除的问题。
 
 >[!TIP]
 >
@@ -25,22 +27,20 @@ ht-degree: 1%
 
 ## 访问要求
 
-+++ 展开以查看访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>新文档：参与者或更高版本</p>
-   <p>当前：请求或更高版本</p>
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p>参与者或更高版本</p>
+   <p>请求或更高版本</p>
  </td> 
   </tr> 
   <tr> 

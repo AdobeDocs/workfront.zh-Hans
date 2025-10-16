@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9bc5987b-6e32-47df-90c8-08ea4b1b7451
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 75fea812b4574191522af4721a013b57aa5d609f
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '839'
 ht-degree: 0%
 
 ---
@@ -27,26 +27,26 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-   <td>任何</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td>规划</td> 
+   <td><p>标准</p><p>规划</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>您必须是Workfront管理员。</p> <p><b>注意</b>：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td> <p>您必须是Workfront管理员。</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -129,7 +129,7 @@ ht-degree: 0%
    * 姓氏
    * 电子邮件地址
 
-1. 单击“完成”**&#x200B;**，然后在下一个屏幕上单击“确定”**&#x200B;**。
+1. 单击“完成”****，然后在下一个屏幕上单击“确定”****。
 1. 右键单击新的&#x200B;**信赖方信任**，然后选择&#x200B;**属性**。
 1. 选择&#x200B;**高级选项卡**。 在&#x200B;**安全哈希算法**&#x200B;下，选择SHA-1或SHA-256。
 

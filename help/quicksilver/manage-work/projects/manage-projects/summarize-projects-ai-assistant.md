@@ -6,10 +6,10 @@ description: 项目标题包括一个使用AI助手汇总项目的按钮。
 author: Becky
 feature: Get Started with Workfront
 exl-id: e0ac2a50-a75b-4453-8edf-850b8de74327
-source-git-commit: 769cacc12f35b019f8c97c243681f4adb3a3c0c9
+source-git-commit: a24180f95c89c76605eaa735467a791102254645
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 1%
+source-wordcount: '356'
+ht-degree: 0%
 
 ---
 
@@ -27,35 +27,31 @@ Workfront的AI Assistant可以汇总项目，从而让您快速了解项目目�
 
 ## 访问要求
 
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-   <td><p>新建：任何</p>
-       <p>或</p>
-       <p>当前：不可用</p></td>
+   <td role="rowheader">Adobe Workfront包</td> 
+   <td><p>任何</p>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td><p>新增：标准</p>
-       <p>或</p>
-       <p>当前：不可用</p></td>
+   <td><p>标准</p>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td><p>新增：标准</p>
-       <p>或</p>
-       <p>当前：不可用</p></td>
+   <td role="rowheader">对象权限</td> 
+   <td><p>您必须具有项目的查看访问权限</p>
   </tr> 
  </tbody> 
  </tbody> 
 </table>
 
 有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先决条件
 

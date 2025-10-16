@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 674c46b699ba445abba06bec3e4da4a710c60d63
+source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1505'
 ht-degree: 6%
 
 ---
@@ -34,21 +34,18 @@ ht-degree: 6%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td>新增：标准
-   <p>或</p>
-   <p>当前：计划</p></td> 
+   <td><p>标准</p>
+   <p>规划</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -66,9 +63,9 @@ ht-degree: 6%
 {{step-1-to-setup}}
 
 1. 单击左侧面板中的&#x200B;**访问级别**。
-1. &#x200B;
+1. 
    * 在生产环境中：
-选择要复制和自定义的访问级别，然后单击&#x200B;**复制**。
+选择要复制和自定义的访问级别，然后单击**复制**。
 
      或
 
@@ -178,7 +175,7 @@ ht-degree: 6%
     <tbody> 
      <tr> 
       <td role="rowheader">不要给分派任务或问题的整个项目授予访问权限</td> 
-      <td> 阻止分配给任务或问题的用户也获得父项目的权限，即使项目权限允许这样做。<p>有关配置项目权限的详细信息，请参阅文章<a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">编辑项目</a>中的部分<a href="../../../manage-work/projects/manage-projects/edit-projects.md#access" class="MCXref xref"></a>。</p></td> 
+      <td> 阻止分配给任务或问题的用户也获得父项目的权限，即使项目权限允许这样做。<p>有关配置项目权限的详细信息，请参阅文章<a href="../../../manage-work/projects/manage-projects/edit-projects.md#access" class="MCXref xref"></a>编辑项目<a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">中的部分</a>。</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">不要从项目、任务、问题等...继承文档访问权限</td> 

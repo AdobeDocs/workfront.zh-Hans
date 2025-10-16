@@ -6,10 +6,10 @@ description: 您可以将标记添加到信息卡以直观地显示它们相似�
 author: Lisa
 feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 1%
+source-wordcount: '543'
+ht-degree: 3%
 
 ---
 
@@ -25,22 +25,19 @@ ht-degree: 1%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
-   <p>新文档： [!UICONTROL Contributor]或更高版本</p> 
-   <p>或</p>
-   <p>当前： [!UICONTROL Request]或更高版本</p>
+   <p>参与者或更高版本</p> 
+   <p>请求或更高版本</p>
    </td> 
   </tr> 
  </tbody> 
@@ -59,7 +56,7 @@ ht-degree: 1%
 
    ![选择标记管理器](assets/boards-tagmanager-350x189.png)
 
-1. 在[!UICONTROL 标签管理器]对话框中，在[!UICONTROL 展示板标签]部分中选择&#x200B;[!UICONTROL **添加标签**]。
+1. 在[!UICONTROL 标签管理器]对话框中，在&#x200B;[!UICONTROL **展示板标签**]&#x200B;部分中选择[!UICONTROL 添加标签]。
 1. 在突出显示的框中键入标记名称，然后从下拉菜单中选择此标记的颜色。 标记将自动保存。
 1. （视情况而定）重复步骤4 - 5以创建其他标记。
 1. 单击框右上角的&#x200B;**[!UICONTROL 完成]**。

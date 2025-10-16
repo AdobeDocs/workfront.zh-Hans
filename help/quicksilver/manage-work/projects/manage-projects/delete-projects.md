@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '878'
 ht-degree: 1%
 
 ---
@@ -28,36 +28,59 @@ ht-degree: 1%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>Adobe Workfront包</p> </td> 
+   <td>任何</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront许可证</p> </td> 
+   <td> <p>标准</p>
+   <p>规划</p> 
+   </td> 
+  </tr> 
+    <td>访问级别配置</td> 
+   <td> <p>编辑对具有创建和删除项目功能的项目的访问权限</p> </td> 
+  </tr> 
+    <td> <p>对象权限</p> </td> 
+   <td> <p>编辑对项目、任务、问题的访问权限，并无法删除项目、任务和问题</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront计划</p> </td> 
-   <td>任何</td> 
+   <td> <p>Adobe Workfront plan</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront许可证*</p> </td> 
-   <td> <p>新许可证： Standard </p>
-   <p>当前许可证：计划 </p> 
+   <td> <p>Adobe Workfront license*</p> </td> 
+   <td> <p>New license: Standard </p>
+   <p>Current license: Plan </p> 
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>访问级别配置</td> 
-   <td> <p>编辑对具有创建和删除项目功能的项目的访问权限</p> </td> 
+   <td>Access level configuration</td> 
+   <td> <p>Edit access to Projects with ability to Create and Delete projects</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>对象权限 </p> </td> 
-   <td> <p>编辑对项目、任务、问题的访问权限，并无法删除项目、任务和问题</p> </td> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>Edit access to Projects, Tasks, Issues with ability to Delete projects, tasks, and issues</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
-
-+++
+</table>-->
 
 ## 了解删除项目的过程
 

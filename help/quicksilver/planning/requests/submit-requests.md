@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 3942ba8d626a854344624bc5b7ea3ad01e8ad7fb
+source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
 workflow-type: tm+mt
-source-wordcount: '2075'
+source-wordcount: '1996'
 ht-degree: 0%
 
 ---
@@ -41,70 +41,42 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 
 ## 访问要求
 
-+++ 展开以查看访问要求。 
++++ 展开以查看本文中各项功能的访问要求。 
 
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> 产品</p> </td>
-   <td>
-   <ul><li><p> Adobe Workfront</p></li>
-   <li><p> Adobe Workfront规划<p></li></ul></td>
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront包</p></td> 
+   <td> 
+<ul><li><p>任何Workfront包</p></li>
+与
+<li><p>任何规划包</p></li></ul>
+或
+<ul><li><p>任何工作流包</p></li>
+与
+<li><p>任何规划包</p></li></ul>
+   </td> </tr>
+
+</tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
+   <td><p>外部、参与者、轻度或标准许可证</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>对象权限</p></td> 
+   <td>   <p>查看或更高权限的工作区和记录类型(如果您是Workfront用户)</p>  </td> 
   </tr>  
- <tr>
-   <td role="rowheader"><p>Adobe Workfront计划*</p></td>
-   <td>
-<p>以下任意Workfront计划：</p>
-<ul><li>选择</li>
-<li>Prime</li>
-<li>Ultimate</li></ul>
-<p>Workfront Planning不适用于旧版Workfront计划</p>
-   </td>
-<tr>
-   <td role="rowheader"><p>Adobe Workfront规划包*</p></td>
-   <td>
-<p>任何 </p>  
-<p>有关每个Workfront计划中包括的内容的更多信息，请联系您的Workfront客户经理。 </td>
-<tr>
-   <td role="rowheader"><p>Adobe Workfront平台</p></td>
-   <td>
-<p>贵组织的Workfront实例必须载入Adobe Unified Experience才能访问Workfront Planning。</p>
-<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p>
-   </td>
-
-</tr>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront许可证*</p></td>
-   <td>
-   <p>外部、参与者、轻度或标准许可证</p>
-   <p>Workfront计划不适用于旧版Workfront许可证</p>
-  </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>访问级别配置</p></td>
-   <td> <p>Adobe Workfront Planning没有访问级别控制</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>对象权限</p></td>
-   <td>
-   <p>查看或更高权限的工作区和记录类型(如果您是Workfront用户)</p> 
-  </td>
-  </tr>
- </tbody>
+</tbody> 
 </table>
 
-*有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
-
 
 ## 先决条件
 
@@ -149,8 +121,8 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 
 {{step1-to-requests}}
 
-1. 启用屏幕右上角的&#x200B;**切换到新体验**&#x200B;设置。
-启用此设置可使Workfront计划请求表单在Workfront的&#x200B;**请求**&#x200B;区域中可用。
+1. 启用屏幕右上角的&#x200B;**切换到新体验**设置。
+启用此设置可使Workfront计划请求表单在Workfront的**请求**&#x200B;区域中可用。
 
    >[!TIP]
    >
@@ -214,7 +186,7 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 
 1. （可选）在确认消息中单击&#x200B;**查看您的请求**&#x200B;以打开该请求，或单击&#x200B;**X**&#x200B;图标以关闭确认。
 
-1. （可选）单击&#x200B;**请求**&#x200B;区域中的&#x200B;**计划**&#x200B;选项卡以查看您的请求。
+1. （可选）单击&#x200B;**请求**&#x200B;区域中的&#x200B;**计划**选项卡以查看您的请求。
 提交至Planning请求表单的所有您有权查看的请求都会显示在列表中。
 1. （可选）执行以下任一操作：
 
@@ -231,7 +203,7 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
       * **状态**：请求的状态。
       * **输入者**：添加请求的用户的名称。 如果请求是由Workfront之外的人员添加的，则&#x200B;**输入者**&#x200B;字段显示`N/A`。
 
-        您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的筛选器。
+        您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**加入的筛选器。
 在添加筛选条件时，将自动筛选请求列表。
 
    * 单击&#x200B;**列**&#x200B;并隐藏、显示或重新排列请求列表中的列。

@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '视图：显示列中两个字段之间的计算结果'
+title: 视图：显示列中两个字段之间的计算结果
 description: 您可以在列中使用文本模式来显示两个字段之间的计算。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 303f8824-311a-4de0-9777-cfa11ecad1e1
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -28,28 +28,21 @@ ht-degree: 0%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
-    <p>新增：</p>
-   <ul><li><p>修改过滤器的参与者 </p></li>
-   <li><p>用于修改报告的标准</p></li> </ul>
-
-<p>当前：</p>
-   <ul><li><p>请求修改筛选器 </p></li>
-   <li><p>计划修改报告</p></li> </ul></td> 
+   <p>修改过滤器的参与者或请求 </p>
+   <p>用于修改报告的标准或计划</p>
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -62,7 +55,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

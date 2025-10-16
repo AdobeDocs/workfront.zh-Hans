@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: 在任务详细信息概述区域管理任务信息
-description: 在任务详细信息概述区域管理任务信息
+description: 通过访问“任务详细信息”部分的“概述”区域，可以查看或编辑任务的信息。 在“任务详细信息”部分中，您可以查看或编辑的字段数量有限。
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '2089'
+source-wordcount: '2102'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,9 @@ ht-degree: 3%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, do it in both articles)</p>
 -->
 
-您可以通过访问任务详细信息部分的概述区域来查看或编辑任务的信息。 您可以在此区域中查看或编辑的字段数量有限。 有关编辑任务的所有信息，请参阅[编辑任务](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
+通过访问“任务详细信息”部分的“概述”区域，可以查看或编辑任务的信息。 在“任务详细信息”部分中，您可以查看或编辑的字段数量有限。
+
+有关编辑任务的所有信息，请参阅[编辑任务](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
 
 本文介绍了如何在任务详细信息的概述区域中查看或编辑信息。 有关更新任务详细信息的其他区域的信息，请参阅以下文章：
 
@@ -29,31 +31,29 @@ ht-degree: 3%
 
 ## 访问要求
 
-您必须具备以下条件：
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
- <caption style="text-align: left;">
-   *要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 
- </caption> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront<b>计划*</b> </p> </td> 
+   <td> <p>Adobe Workfront包</p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront<b>许可证*</b> </p> </td> 
-   <td> <p>工作或更高</p> </td> 
+   <td> <p>Adobe Workfront许可证 </p> </td> 
+   <td><p>标准</p> 
+   <p>工作或更高</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>访问级别配置*</strong> </td> 
-   <td> <p>查看或更高权限的项目和任务</p> <p>如果您拥有正确的访问级别，但仍无法编辑任务的“详细信息”部分，请询问您的Adobe Workfront是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td>访问级别配置</td> 
+   <td> <p>查看或更高权限的项目和任务</p> <p>如果您拥有正确的访问级别，但仍无法编辑任务的“详细信息”部分，请询问您的Adobe Workfront是否对您的访问级别设置了其他限制。 </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>对象权限</strong> </p> </td> 
+   <td> <p>对象权限</p> </td> 
    <td> <p>项目的Contribute或更高权限</p> <p>在“详细信息”部分中查看任务的权限以查看信息。 </p> 
-   <p>任务的Contribute权限，用于更新详细信息部分中的以下信息：</p>
+   <p>任务的Contribute权限用于更新详细信息部分中的以下信息：</p>
 
 <ul>
    <li>描述</li>
@@ -64,6 +64,42 @@ ht-degree: 3%
   </tr> 
  </tbody> 
 </table>
+
+有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>Adobe Workfront<b> plan*</b> </p> </td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront<b> license*</b> </p> </td> 
+   <td> <p>Work or higher</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td><strong>Access level configurations*</strong> </td> 
+   <td> <p>View or higher access to Projects and Tasks</p> <p>If you have the correct access level but still can't edit the Details  section  of the task, ask your Adobe Workfront if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><strong>Object permissions</strong> </p> </td> 
+   <td> <p>Contribute or higher permissions for the project</p> <p>View permissions for the task to view information in the Details section. </p> 
+   <p>Contribute permissions for the task to update the following information  in the Details section:</p>
+
+   <ul>
+   <li>Description</li>
+   <li>Status</li>
+   </ul>
+   
+   <p>Manage permissions for the task to update all information in the Details section.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 在任务详细信息概述部分中编辑任务信息
 
@@ -155,7 +191,7 @@ ht-degree: 3%
             <td>缩写</td> 
            </tr> 
            <tr> 
-            <td>分钟</td> 
+            <td>Minutes</td> 
             <td>一</td> 
            </tr> 
            <tr> 
@@ -167,11 +203,11 @@ ht-degree: 3%
             <td>D</td> 
            </tr> 
            <tr> 
-            <td>周</td> 
+            <td>Weeks</td> 
             <td>星期-</td> 
            </tr> 
            <tr> 
-            <td>月</td> 
+            <td>Months</td> 
             <td>T</td> 
            </tr> 
            <tr> 

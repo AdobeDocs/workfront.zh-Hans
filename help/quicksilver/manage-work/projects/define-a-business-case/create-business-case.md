@@ -2,12 +2,12 @@
 navigation-topic: business-case-and-scorecards
 title: 为项目创建业务案例
 description: 您可以使用业务案例来请求项目，并定义项目的目的、预算和潜在利益。 Portfolio经理或项目发起人在批准项目之前，会使用业务案例中的信息来分析和优先处理项目。
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
@@ -27,17 +27,16 @@ ht-degree: 0%
  <col> 
  <tbody> 
  <tr> 
-   <td role="rowheader"><p>Adobe Workfront计划*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront计划</p></td> 
    <td> 
-   <p>当前：Prime或更高版本</p> 
-   <p>旧版：专业版或更高版本</p> 
+   <p>Prime或更高版本</p> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront许可证*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
    <td> 
-   <p>当前：标准 </p> 
-   <p>旧版：计划 </p> </td> 
+   <p>标准 </p> 
+   <p>规划 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>访问级别配置</p></td> 
@@ -50,7 +49,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -88,15 +87,15 @@ ht-degree: 0%
 1. 在左侧面板中，单击&#x200B;**业务案例**。
 1. （可选）要编辑&#x200B;**项目信息**&#x200B;部分，请单击&#x200B;**编辑项目信息**。 
 
-   有关编辑&#x200B;**项目信息**&#x200B;分区字段的更多信息，请参阅[业务案例区域概述](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)一文中的[项目信息](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info)分区。
+   有关编辑&#x200B;**项目信息**&#x200B;分区字段的更多信息，请参阅[业务案例区域概述](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info)一文中的[项目信息](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)分区。
 
 1. （可选）要编辑&#x200B;**目标**&#x200B;部分，请单击&#x200B;**编辑目标**。
 
-   有关编辑业务案例的&#x200B;**目标**&#x200B;部分的更多信息，请参阅[业务案例领域概述](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)一文中的[目标](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#goals)部分。
+   有关编辑业务案例的&#x200B;**目标**&#x200B;部分的更多信息，请参阅[业务案例领域概述](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#goals)一文中的[目标](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)部分。
 
 1. （可选）要编辑&#x200B;**费用**&#x200B;部分，请单击&#x200B;**编辑费用**。
 
-   有关编辑业务案例的&#x200B;**费用**&#x200B;部分的详细信息，请参阅[业务案例领域概述](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)一文中的[费用](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#expenses)部分。
+   有关编辑业务案例的&#x200B;**费用**&#x200B;部分的详细信息，请参阅[业务案例领域概述](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#expenses)一文中的[费用](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)部分。
 
 1. （可选）单击&#x200B;**编辑资源预算**&#x200B;以预算您的资源并获得与项目上的工作角色关联的预算劳力成本。 有关详细信息，请参阅业务案例中的[预算资源](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)。
 
@@ -104,7 +103,7 @@ ht-degree: 0%
    >
    >此处显示的信息与系统级资源预算工具中显示的信息相同。
 
-1. （可选）单击&#x200B;**编辑风险**&#x200B;以向此项目添加潜在风险。 有关向业务案例添加风险的信息，请参阅[业务案例领域概述](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)一文中的[风险](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#risks)部分。
+1. （可选）单击&#x200B;**编辑风险**&#x200B;以向此项目添加潜在风险。 有关向业务案例添加风险的信息，请参阅[业务案例领域概述](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#risks)一文中的[风险](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)部分。
 1. （可选）在&#x200B;**将记分卡添加到此项目**&#x200B;下拉菜单中选择&#x200B;**记分卡**。
 
    必须先创建记分卡，然后才能将记分卡附加到项目。

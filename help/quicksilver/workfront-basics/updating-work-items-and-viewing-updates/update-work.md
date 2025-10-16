@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: c06f25de917474ffae9a7de3a00033fdf9c84b58
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '3234'
+source-wordcount: '3201'
 ht-degree: 0%
 
 ---
@@ -70,8 +70,6 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -79,15 +77,21 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront计划</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront包</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront许可证*</strong></td> 
-   <td> 
-   <p>新文档：问题和文档的参与者或更高版本：所有其他对象的轻量级或更高版本</p>
-   <p>当前：对问题和文档的请求或更高版本；对所有其他对象的审阅或更高版本</p>
-   </td> 
+   <td role="rowheader"><strong>Adobe Workfront许可证</strong></td> 
+   <td> <p>对于问题和文档：</p>
+
+<ul><li><p>参与者或更高版本</p></li>
+   <li><p>请求或更高版本</p></li></ul>
+
+<p>对于所有其他对象：</p>
+   <ul><li><p>浅色或更高</p></li>
+   <li><p>审核或更高</p></li></ul>
+
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置</strong></td> 
@@ -100,9 +104,39 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td> 
+   <p>New: Contributor or higher for issues and documents: Light or higher for all other objects</p>
+   <p>Current: Request or higher for issues and documents; Review or higher for all other objects</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Access level configurations</strong></td> 
+   <td> <p>View or Edit access for the object the update is on</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
+   <td> <p>View access to the object</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
 
 ## 有关对对象进行注释的注意事项
 
@@ -239,7 +273,7 @@ You can add updates to the following objects:
 
 1. 找到要添加注释的对象，然后单击其名称以打开该对象的页面。
 1. 单击左侧面板中的&#x200B;**更新**。
-默认情况下已选中&#x200B;**评论**&#x200B;选项卡。
+默认情况下已选中**评论**&#x200B;选项卡。
 
 1. <span class="preview">开始在&#x200B;**新评论**&#x200B;框中输入评论。</span>
 
@@ -250,8 +284,8 @@ You can add updates to the following objects:
    >在完成键入和提交评论之前导航离开更新部分，即使注销并重新登录后，页面上评论仍会以草稿模式保留。 添加到注释的任何图像也会保存在草稿中。 草稿会保存7天，之后将丢弃它们并且无法恢复。 草稿注释仅对输入它们的用户可见。
 
 1. （可选）要撤消或重做更改，请使用以下快捷键：
-   * CTRL + Z(Mac为⌘ + z)可撤消更改
-   * 按CTRL + Y(对于Mac，按⌘ + y)可重做更改
+   * 按CTRL + Z(对于Mac，按⌘ + z)可撤消更改
+   * 按CTRL + Y组合键(Mac为⌘+y)以重做更改
 
 1. <span class="preview">（可选）在&#x200B;**为人员或团队添加标签**&#x200B;区域，开始键入要包含在此评论中的用户或团队的名称或电子邮件，或者在列表中显示时将其选定。</span>
 1. （可选）使用富文本工具栏中的选项设置文本格式，在更新中添加表情符号、链接或图像，以增强内容。 有关详细信息，请参阅本文中的[在Workfront更新中使用富文本](#use-rich-text-in-a-workfront-update)部分。
@@ -332,7 +366,7 @@ You can add updates to the following objects:
    | 粗体 | ![粗体图标](assets/mceclip10.png) | ⌘+b | Ctrl+B |
    | 斜体 | ![斜体图标](assets/mceclip9.png) | ⌘+i | Ctrl+I |
    | 下划线 | ![为图标](assets/mceclip8.png)加下划线 | ⌘+u | Ctrl+U |
-   | 超链接 | ![超链接图标](assets/mceclip7.png) | <br>打开“添加链接”框： ⌘+K</br> <br>要在所选文本上粘贴链接： ⌘+V</br> | <br>打开“添加链接”框： Ctrl+K</br> <br>要在所选文本上粘贴链接： Ctrl+V</br> |
+   | 超链接 | ![超链接图标](assets/mceclip7.png) | <br>打开“添加链接”框： ⌘+K</br> <br>将链接粘贴到所选文本上： ⌘+V</br> | <br>打开“添加链接”框： Ctrl+K</br> <br>要在所选文本上粘贴链接： Ctrl+V</br> |
    | 项目符号列表 | ![项目符号列表图标](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
    | 编号列表 | ![编号列表图标](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
 
@@ -406,7 +440,7 @@ You can add updates to the following objects:
    >* 最大图像文件大小为7 MB。 支持的图像文件类型为.jpg、.gif和.png。
    >* 可从对象的“更新”部分访问图像，也可从主菜单下的“文档”区域访问图像。
    >您可以使用键盘组合或Print Screen功能（在Windows计算机上）从计算机中复制屏幕快照。
-   >* 您可以粘贴图像，方法是：在新评论中右键单击，然后单击&#x200B;**粘贴**，或者按键盘上的Ctrl + V （对于Windows）或⌘ + V (对于Mac)。
+   >* Mac您可以粘贴图像，方法是右键单击新评论，然后单击&#x200B;**粘贴**，或者按键盘上的CTRL + V （对于Windows，按⌘ + V ）。
    >* 您可以发送包含图像但不包含文本的更新。
    >* 删除包含图像的注释时，该图像会从“更新”部分和“文档”区域中删除。 编辑注释并删除图像时，也会从“文档”区域中删除图像。
    >* 当有人从“文档”区域删除附加到评论的图像时，该图像也会从评论中删除。
@@ -425,7 +459,7 @@ You can add updates to the following objects:
 您可以在对象的“更新”部分中搜索注释或回复。
 
 1. 转到对象的&#x200B;**更新**&#x200B;部分。
-1. 在&#x200B;**注释**&#x200B;选项卡右上角的&#x200B;**搜索**&#x200B;框中开始键入关键字<!--or a user's name -->。
+1. 在<!--or a user's name -->注释&#x200B;**选项卡右上角的**&#x200B;搜索&#x200B;**框中开始键入关键字**。
 
    <!--Add this tip or note instead of the note below - when it'll be possible: You can search for users who have been tagged or for comment owners.-->
 
@@ -567,7 +601,7 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 
 根据Workfront管理员赋予您的访问权限，您可能会删除在对象的“更新”部分添加的注释。
 
-有关详细信息，请参阅文章[创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)中的[创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch)。
+有关详细信息，请参阅文章[创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch)中的[创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 任何Workfront用户(包括Workfront管理员)都不能删除其他用户所做的更新。 但是，如果用户的访问级别允许他们删除自己的更新，则Workfront管理员可以以该用户的身份登录并删除他们所做的更新。 有关详细信息，请参阅[创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch)和[以其他用户身份登录](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)。
 

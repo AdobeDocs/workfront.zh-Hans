@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 0e7000597e2347bff0bc626d21aa9a6c9a839c0b
+source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '538'
 ht-degree: 4%
 
 ---
@@ -33,33 +33,24 @@ ht-degree: 4%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具备以下条件：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-   <td>任何</td> 
+   <td>Adobe Workfront包</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>标准</p></li>
-         </ul>
-      <p>当前：</p>
-         <ul>
-         <li><p>规划</p></li>
-         </ul>
-   </td>
+   <td>Adobe Workfront许可证</td> 
+   <td><p>标准</p>
+       <p>规划</p></td>
+  </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
-   <td> <p>要在系统级别执行这些步骤，您需要系统管理员访问级别。
-要为组执行这些操作，您必须是该组的经理。</p> </td> 
+   <td>访问级别配置</td> 
+   <td> <p>要在系统级别执行这些步骤，您需要系统管理员访问级别。</p>
+        <p>要为组执行这些操作，您必须是该组的经理。</p> </td> 
   </tr> 
  </tbody> 
 </table>

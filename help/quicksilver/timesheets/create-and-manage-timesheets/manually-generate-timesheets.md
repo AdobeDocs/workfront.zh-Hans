@@ -3,12 +3,12 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: 手动生成工时表
 description: 要使您对时间表用户档案所做的更改反映在当前时间表中，必须首先删除现有时间表，然后手动生成新时间表。 您可以在“设置”的“时间表”区域或“诊断”区域中手动生成时间表，如本文所述。
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 316c270a-c64e-4d83-a035-4128abe33f87
-source-git-commit: 311816df863d3c03a54d43c8fa3cac69d2d6d7d4
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -21,28 +21,30 @@ ht-degree: 0%
 
 ## 访问要求
 
-+++ 展开以查看访问要求。
++++ 展开以查看本文中各项功能的访问要求。
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-   <td> <p>任何</p> </td> 
+   <td>Adobe Workfront包</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td> <p>规划 </p> </td> 
+   <td>Adobe Workfront许可证</td> 
+   <td>
+   <p>标准</p>
+   <p>规划</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>您必须是Workfront管理员，或者，如果您正在处理组的时间表配置文件，则必须是组管理员(或Workfront管理员)。 有关详细信息，请参阅<a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">组管理员</a>。</p> <p>如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td>访问级别配置</td> 
+   <td><p>您必须是Workfront管理员，或者，如果您正在处理组的时间表配置文件，则必须是组管理员(或Workfront管理员)。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

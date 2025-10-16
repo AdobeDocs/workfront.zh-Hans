@@ -6,9 +6,9 @@ description: 当对象显示在列表或报表中时，您可以内联编辑对�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '696'
 ht-degree: 0%
 
 ---
@@ -31,47 +31,41 @@ ht-degree: 0%
   例如，您可以在“任务”报告中编辑任务的状态，但无法在同一报告中编辑与任务关联的项目的名称。 您只能在项目报告中编辑项目名称。
 * 当列表视图未显示默认货币时，您无法内联编辑字段。
 
-  有关显示默认货币的信息，请参阅[创建具有唯一汇率的财务数据报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)一文中的[编辑具有唯一货币的报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md#editing-reports-with-unique-currencies)部分。
+  有关显示默认货币的信息，请参阅[创建具有唯一汇率的财务数据报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md#editing-reports-with-unique-currencies)一文中的[编辑具有唯一货币的报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)部分。
 * 您无法编辑列表中显示的标志和图标。
 * 您无法内联编辑源自其他报表的报表字段。
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
-    <p>新增：</p>
-   <ul><li><p>参与者或更高版本 </p></li>
-   </ul>
-
-<p>当前：</p>
-   <ul><li><p>请求或更高版本</p></li>
-    </ul></td> 
+   <p>参与者或更高版本 </p>
+   <p>请求或更高版本</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[!UICONTROL Edit]对列表所在区域的访问权限</p> <p>例如，要在项目中内联编辑任务，您需要[!UICONTROL Edit]项目访问权限。</p></td> 
+   <td> <p>[！UICONTROL Edit]对列表所在区域的访问权限</p> <p>例如，要在项目中内联编辑任务，您需要[！UICONTROL Edit]项目访问权限。</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>[!UICONTROL 管理]</p> <p>您还必须有权编辑某些字段，例如自定义字段、状态等。</p>  </td> 
+   <td> <p>[！UICONTROL管理]</p> <p>您还必须有权编辑某些字段，例如自定义字段、状态等。</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

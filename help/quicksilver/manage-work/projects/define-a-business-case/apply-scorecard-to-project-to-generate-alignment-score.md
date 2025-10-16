@@ -2,12 +2,12 @@
 navigation-topic: business-case-and-scorecards
 title: 将记分卡应用于项目并生成一致性分数
 description: 您可以使用记分卡衡量项目与项目组合中先前建立的标准的匹配程度。 记分卡通常反映了组织的使命、价值观和战略目标。
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1211'
 ht-degree: 0%
 
 ---
@@ -29,18 +29,15 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td>
-   <p>当前：Prime或更高版本</p>
-   <p>或</p>
-   <p>旧版：商业版或更高版本</p> </td>
+   <p>Prime或更高版本</p>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
    <td>
-   <p>当前：标准</p>
-   <p>或</p>
-   <p>旧版：计划</p></td>  
+   <p>标准</p>
+   <p>规划</p></td>  
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -53,7 +50,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

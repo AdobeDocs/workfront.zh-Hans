@@ -5,9 +5,9 @@ description: 您可以使用“摘要”面板直接从任务问题、文档列�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: d7b8d7285d23d14f5390c9de1001de553c2b796f
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '893'
 ht-degree: 2%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 2%
 >* 完成百分比
 >* 承诺日期
 >* 规划完成日期
->* 完成情况
+>* 条件
 
 
 
@@ -54,10 +54,10 @@ ht-degree: 2%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 工作负载均衡器]的[!UICONTROL 未分配]和[!UICONTROL 已分配]工作区域中的任务</td> 
+   <td>[！UICONTROL工作负载均衡器]的[！UICONTROL未分配]和[！UICONTROL已分配]工作区域中的任务</td> 
   </tr> 
    <tr> 
-   <td>[!UICONTROL 时间表]中的任务</td> 
+   <td>[！UICONTROL时间表]中的任务</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><b>问题</b></td> 
@@ -71,24 +71,24 @@ ht-degree: 2%
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 工作负载均衡器]的[!UICONTROL 已分配工作]区域出现问题</td> 
+   <td>[！UICONTROL工作负载均衡器]的[！UICONTROL已分配工作]区域出现问题</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 请求]区域的[!UICONTROL 已提交]部分中的问题</td> 
+   <td>[！UICONTROL请求]区域的[！UICONTROL已提交]部分中的问题</td> 
   </tr> 
 </tr> 
    <tr> 
-   <td>[!UICONTROL 时间表]中的问题</td> 
+   <td>[！UICONTROL时间表]中的问题</td> 
   </tr>
 
 <tr data-mc-conditions=""> 
    <td><b>文档</b></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 文档]区域</td> 
+   <td>[！UICONTROL文档]区域</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>任何对象（项目、任务、问题、项目、项目组合、模板、模板任务、用户）的[!UICONTROL 文档]部分</td> 
+   <td>任何对象（项目、任务、问题、项目、项目组合、模板、模板任务、用户）的[！UICONTROL文档]部分</td> 
   </tr> 
  </tbody> 
 </table>
@@ -99,40 +99,10 @@ ht-degree: 2%
 
 本文介绍如何访问和使用[!UICONTROL 摘要]面板处理列表中的任务和问题。
 
-有关访问[!UICONTROL 工作负载均衡器]中的[!UICONTROL 摘要]的信息，请参阅[使用[!UICONTROL 摘要]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)更新[!UICONTROL 工作负载均衡器]中的工作项。
+有关访问[!UICONTROL 工作负载均衡器]中的[!UICONTROL 摘要]的信息，请参阅[使用[!UICONTROL 摘要]更新[!UICONTROL 工作负载均衡器]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)中的工作项。
 
-有关访问文档[!UICONTROL 摘要]的信息，请参阅文档概述[&#128279;](../../documents/managing-documents/summary-for-documents.md)的[!UICONTROL 摘要]。
+有关访问文档[!UICONTROL 摘要]的信息，请参阅文档概述[[!UICONTROL 的]摘要](../../documents/managing-documents/summary-for-documents.md)。
 
-## 访问要求
-
-您必须具有以下权限才能执行本文中的步骤：
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划</strong></td> 
-   <td> <p>任何</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>新文档：参与者或更高版本</p>
-   或
-   <p>当前：[!UICONTROL Request]或更高版本</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>访问级别配置</strong></td> 
-   <td> <p>[!UICONTROL 视图]或更高的任务、问题、文档访问权限</p> <p>[!UICONTROL View]或更高权限访问您要查看其文档[!UICONTROL Summary]的任何对象</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>[!UICONTROL 视图]或任务、问题或文档的更高权限</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-*要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。 有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 在任务或问题列表中查看[!UICONTROL 摘要]面板
 
@@ -141,7 +111,7 @@ ht-degree: 2%
 
    或
 
-   单击[!UICONTROL 请求]区域的[!UICONTROL 已提交]部分中的&#x200B;**[!UICONTROL 打开摘要]**&#x200B;图标![](assets/open-summary-with-text-nwe.png)。
+   单击&#x200B;**[!UICONTROL 请求]**&#x200B;区域的![](assets/open-summary-with-text-nwe.png)已提交[!UICONTROL 部分中的]打开摘要[!UICONTROL 图标]。
 
    打开“摘要”后，在单击或选择其他任务或问题时，它保持打开状态，直到手动关闭它为止。
 
@@ -157,7 +127,7 @@ ht-degree: 2%
 
      或
 
-     单击[!UICONTROL 摘要]面板右上角的&#x200B;**X**&#x200B;图标。
+     单击&#x200B;**摘要**&#x200B;面板右上角的[!UICONTROL X]图标。
 
    * 在[!UICONTROL 请求]区域的[!UICONTROL 已提交]部分中，单击&#x200B;**[!UICONTROL 关闭摘要]**&#x200B;图标![](assets/close-summary-with-text-nwe.png)
 

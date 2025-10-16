@@ -6,7 +6,7 @@ description: Adobe Workfront中的甘特图提供了任务或项目列表的时�
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 开始使用[!UICONTROL 甘特图]
 
-<!-- Audited: 01/2024 -->
+<!-- Audited: 08/2025 -->
 
 Adobe Workfront中的甘特图提供了任务或项目列表的时间线的可视表示形式。
 
@@ -41,7 +41,7 @@ Adobe Workfront中的甘特图提供了任务或项目列表的时间线的可�
 
 ## 访问[!UICONTROL 甘特图]
 
-[!DNL Workfront]中的[!UICONTROL 甘特图]提供了任务或项目列表的可视表示形式。
+[!UICONTROL 中的]甘特图[!DNL Workfront]提供了任务或项目列表的可视表示形式。
 
 您可以直接从项目的任务列表或任务报告中查看任务列表[!UICONTROL 甘特图]。
 
@@ -108,8 +108,8 @@ Adobe Workfront中的甘特图提供了任务或项目列表的时间线的可�
 1. 转到以下任一区域：
 
    * [!UICONTROL **项目**]&#x200B;区域
-   * [!UICONTROL Portfolio]的&#x200B;[!UICONTROL **项目**]&#x200B;部分
-   * [!UICONTROL 项目群]的&#x200B;[!UICONTROL **项目**]&#x200B;部分
+   * [!UICONTROL **Portfolio**]&#x200B;的[!UICONTROL 项目]部分
+   * [!UICONTROL **项目群**]&#x200B;的[!UICONTROL 项目]部分
    * [!UICONTROL **项目**]&#x200B;报告
 
 1. 单击项目列表顶部的&#x200B;[!UICONTROL **甘特图**]&#x200B;图标。

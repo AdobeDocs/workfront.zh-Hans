@@ -6,9 +6,9 @@ description: 您可以从列表或报告视图将任何任务或问题添加到A
 author: Lisa
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '585'
 ht-degree: 0%
 
 ---
@@ -25,27 +25,24 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto">
  <col>
  <col>
  <tbody>
   <tr>
-   <td role="rowheader">[!DNL Adobe Workfront] 计划</td>
+   <td role="rowheader">Adobe Workfront包</td>
    <td> <p>任何</p> </td>
   </tr>
   <tr>
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td>
+   <td role="rowheader">Adobe Workfront许可证</td>
    <td>
-   <p>新文档： [!UICONTROL Standard]</p> 
-   <p>或</p>
-   <p>当前： [!UICONTROL Work]或更高版本</p>
+   <p>标准</p> 
+   <p>工作或更高</p>
    </td>
   </tr>
   <tr>
    <td role="rowheader">对象权限</td>
-   <td>[!UICONTROL 视图]或任务或问题的更高权限 </td>
+   <td>查看任务或问题的权限或更高 </td>
   </tr>
  </tbody>
 </table>

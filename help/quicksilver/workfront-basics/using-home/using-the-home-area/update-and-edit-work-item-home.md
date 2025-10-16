@@ -6,10 +6,10 @@ description: 您可以在Adobe Workfront的[!UICONTROL 主页]区域查看工作
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 6%
+source-wordcount: '837'
+ht-degree: 7%
 
 ---
 
@@ -21,13 +21,11 @@ ht-degree: 6%
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
-您可以在[!DNL Adobe Workfront]的[!UICONTROL 主页]区域查看工作项并将更新添加到该区域。 如果您有权限编辑工作项，您还可以编辑与工作项相关的其他数据。
+您可以在[!UICONTROL 的]主页[!DNL Adobe Workfront]区域查看工作项并将更新添加到该区域。 如果您有权限编辑工作项，您还可以编辑与工作项相关的其他数据。
 
 ## 访问要求
 
 +++ 展开以查看本文中各项功能的访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,19 +34,17 @@ ht-degree: 6%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>新增：标准</p>
-   或
-
-<p>当前： [!UICONTROL Work]或更高版本</p> </td> 
+   <td> <p>标准</p>
+   <p>工作或更高</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置</strong></td> 
-   <td> <p>[!UICONTROL Edit]对任务和问题的访问权限</p> </td> 
+   <td> <p>[！UICONTROL Edit]对任务和问题的访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
@@ -57,7 +53,7 @@ ht-degree: 6%
  </tbody> 
 </table>
 
-*要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。 有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -152,7 +148,7 @@ You can view updates on any work item in the [!UICONTROL Work List]:
 1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![主菜单图标](assets/main-menu-icon.png)或左上角的&#x200B;**主菜单** ![主菜单行图标](assets/lines-main-menu.png)（如果可用），然后单击&#x200B;**[!UICONTROL 主页]**。
 1. （视情况而定）单击&#x200B;**自定义**&#x200B;以添加&#x200B;**我的工作**&#x200B;小组件。
 
-1. 将鼠标悬停在工作项上，然后单击&#x200B;**摘要**&#x200B;图标。
+1. 将鼠标悬停在工作项上，然后单击&#x200B;**摘要**图标。
    ![打开摘要](assets/open-summary-new-home.png)
 
 1. 在“摘要”面板中，将鼠标悬停在要编辑的字段上。

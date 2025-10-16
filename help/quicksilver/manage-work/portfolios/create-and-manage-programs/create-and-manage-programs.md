@@ -8,7 +8,7 @@ author: Alina
 feature: Work Management, Strategic Planning
 recommendations: noDisplay, noCatalog
 exl-id: 3c796bab-b468-451a-adf8-8180f67546ee
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 0%
@@ -17,13 +17,15 @@ ht-degree: 0%
 
 # 创建和管理程序：文章索引
 
+<!--Audited: 08/2025-->
+
 项目是有助于实现共同战略、目标或目标的项目集合。
 
 项目是项目组合的一个细分，它们不能存在于项目组合之外。
 
 本节包含以下文章：
 
-* [&#x200B; [!DNL Adobe Workfront]中的项目概述](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/programs-overview.md)
+* [ [!DNL Adobe Workfront]中的项目概述](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/programs-overview.md)
 * [创建程序](../../../manage-work/portfolios/create-and-manage-programs/create-program.md)
 * [编辑程序](../../../manage-work/portfolios/create-and-manage-programs/edit-programs.md)
 * [将现有项目添加到项目组合](../../../manage-work/portfolios/create-and-manage-programs/move-program.md)

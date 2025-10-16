@@ -2,12 +2,12 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: '持续时间类型概述：投入比导向'
+title: 持续时间类型概述：投入比导向
 description: 投入比导向是可以为Adobe Workfront中的任务设置的持续时间类型。 有关Workfront中持续时间类型的一般信息，请参阅任务持续时间和持续时间类型概述。
 author: Alina
 feature: Work Management
 exl-id: 3c8534f7-02d0-4404-a37b-0ef6360e8efc
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 1%

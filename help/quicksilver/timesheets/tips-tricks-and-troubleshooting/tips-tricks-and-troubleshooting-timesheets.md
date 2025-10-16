@@ -2,13 +2,13 @@
 content-type: tips-tricks-troubleshooting;reference
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
-title: “时间表的提示、技巧和疑难解答：文章索引”
+title: 时间表的提示、技巧和疑难解答：文章索引
 description: 请在以下文章中了解有关常见时间表行为或如何解决时间表潜在问题的更多信息。
-author: Alina
+author: Lisa
 feature: Timesheets
 recommendations: noDisplay, noCatalog
 exl-id: cf5f93d1-e517-421e-8740-1b80af2ed127
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 0%

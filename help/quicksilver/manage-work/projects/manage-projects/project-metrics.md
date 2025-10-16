@@ -3,38 +3,38 @@ content-type: overview;how-to-procedural
 product-area: projects
 keywords: analytics，量度，项目，任务，被分派人，完成，状态，超期，即将到来
 navigation-topic: manage-projects
-title: 项目指标概述
+title: 了解项目量度
 description: 项目量度可让您可视化项目中所发生的情况，从而快速评估项目的需求和状态。 了解如何解释项目左侧面板中的量度区域。
 author: Alina
 feature: Work Management
 exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1161'
 ht-degree: 0%
 
 ---
 
-# 项目指标概述
+# 了解项目量度
 
 项目量度以图表格式为您提供有关项目执行情况的常规视图。
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workfront许可证*</td> 
-   <td> <p>新增：浅色或更高 </p>
-   <p>当前：审阅或更高版本 </p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p>浅色或更高</p>
+   <p>审核或更高</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -50,6 +50,32 @@ ht-degree: 0%
 *有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Workfront license*</td> 
+   <td> <p>New: Light or higher </p>
+   <p>Current: Review or higher </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configuration</td> 
+   <td> <p>View access to Projects</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to a project</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 先决条件
 
@@ -92,7 +118,7 @@ ht-degree: 0%
 | 已完成的任务 | **已完成任务**&#x200B;显示处于完成状态的任务数。 此数字还包括具有相当于完成的自定义状态的任务。 |
 |---|---|
 | 未完成的任务 | **未完成任务**&#x200B;显示未处于“完成”或“已关闭”状态或等同于“完成”状态的任务数。 |
-| 超期任务 | **超期任务**&#x200B;显示已超过计划完成日期且未处于“完成”或“已关闭”状态，或等同于“完成”或“已关闭”状态的任务数。 |
+| 逾期任务 | **超期任务**&#x200B;显示已超过计划完成日期且未处于“完成”或“已关闭”状态，或等同于“完成”或“已关闭”状态的任务数。 |
 | 任务总数 | **任务总数**&#x200B;显示项目中的任务总数。 |
 
 >[!TIP]

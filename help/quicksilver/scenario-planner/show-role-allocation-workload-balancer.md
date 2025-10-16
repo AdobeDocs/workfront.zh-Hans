@@ -1,15 +1,15 @@
 ---
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: 在工作负载均衡器显示项目和计划的角色分配
+title: 在工作负载均衡器中显示项目和计划的角色分配
 description: 连接项目和计划后，您可以并排管理其资源分配以确保它们
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: cdc3a1b0-7021-4853-9b51-c3682fd55430
-source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
+source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 1%
+source-wordcount: '800'
+ht-degree: 0%
 
 ---
 
@@ -25,47 +25,79 @@ ht-degree: 1%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] 计划*</p> </td> 
-   <td> <ul></li>
-   <li><p>新增功能：Ultimate </p></li>
-   <p>Scenario Planner不可用于新的Workfront Select或Workfront Prime计划。 </p>
-   <li><p>当前： [!UICONTROL Business]或更高版本</p></ul>
+   <td> <p>[!DNL Adobe Workfront] 包</p> </td> 
+   <td> 
+   <p>Workfront Ultimate</p>
+<p><b>注释</b></p>
+<p>如果您拥有其他Workfront软件包，请与您的Workfront代表联系。</p>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] 许可证*</p> </td> 
-   <td> <p>新增：浅色或更高</p> 
-   <p>当前： [!UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] 许可证</p> </td> 
+   <td> <p>[！UICONTROL Light]或更高版本</p> 
+   <p>[！UICONTROL Review]或更高版本</p> </td> 
+  </tr> 
+    <tr> 
+   <td>访问级别配置</td> 
+   <td> <p>查看或更高权限的项目。</p></td> 
   </tr> 
   <tr> 
-   <td>产品* </td> 
-   <td> <ul><li><p>对于新的Workfront计划：</p><p> Adobe Workfront</li></p>
-   <li><p>对于当前Workfront计划： </p>
-   <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
-
-<p>有关详细信息，请参阅<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用[!DNL Scenario Planner]</a>所需的访问权限。 </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>访问级别 </td> 
-   <td> <p>查看或更高权限的项目。</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
    <td> <p>对象权限 </p> </td> 
-   <td> <p> 查看或更高权限的项目。</p> </td> 
+   <td> <p> 查看或更高权限的项目。</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*有关信息，请参阅[Workfront文档的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关访问Scenario Planner的详细信息，请参阅[使用 [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)所需的访问权限。
+
+有关Workfront访问要求的信息，请参阅[Workfront访问要求文档](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
+   <td> <ul></li>
+   <li><p>New: Ultimate </p></li>
+   <p>The Scenario Planner is not available for the new Workfront Select or Workfront Prime plans. </p>
+   <li><p>Current: [!UICONTROL Business] or higher</p></ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] license*</p> </td> 
+   <td> <p>New: Light or higher</p> 
+   <p>Current: [!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Product* </td> 
+   <td> <ul><li><p>For the new Workfront plans:</p><p> Adobe Workfront</li></p>
+   <li><p>For the current Workfront plans: </p>
+   <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
+   
+   <p>For more information, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Access level </td> 
+   <td> <p>View or higher access to Projects.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p> View or higher permission to a project.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 在[!UICONTROL 工作负载均衡器]中显示项目和计划的角色分配
 
@@ -96,7 +128,7 @@ ht-degree: 1%
 
    >[!CAUTION]
    >
-   >尽管即使您的组织未购买[!DNL Workfront Scenario Planner]许可证，您仍可以查看[!UICONTROL 角色分配]面板，但您无法查看有关计划工作角色的信息。
+   >尽管即使您的组织未购买[!UICONTROL 许可证，您仍可以查看]角色分配[!DNL Workfront Scenario Planner]面板，但您无法查看有关计划工作角色的信息。
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure this step stays 5 to match the mention of it in the section below)</p>
@@ -109,7 +141,7 @@ ht-degree: 1%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Job Role]</td> 
+      <td role="rowheader">[！UICONTROL Job Role]</td> 
       <td> <p>与以下任何一项关联的工作角色的名称：</p> 
        <ul> 
         <li> <p>项目中的任务</p> </li> 
@@ -118,16 +150,16 @@ ht-degree: 1%
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 计划小时数]</td> 
+      <td role="rowheader">[！UICONTROL计划小时数]</td> 
       <td>计划总持续时间内与计划上每个工作角色关联的所需小时数。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 已计划小时数]</td> 
+      <td role="rowheader">[！UICONTROL已计划小时数]</td> 
       <td>在项目总持续时间内，与项目任务或问题中的每个工作角色关联的已计划小时数。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 变量]</td> 
-      <td> <p>计划所需的小时数与项目工作相关的计划小时数之间的差额。 [!DNL Workfront]使用以下公式计算[!UICONTROL 方差]：</p> <p><code>Role Allocation Variance = Initiative Hours - Planned Hours</code> </p> <p>当计划的资源时间超过计划所需的小时数时，[!UICONTROL 差异]为负数并显示为红色。 这意味着您的资源被过度分配。 </p> </td> 
+      <td role="rowheader">[！UICONTROL变量]</td> 
+      <td> <p>计划所需的小时数与项目工作相关的计划小时数之间的差额。 [!DNL Workfront]使用以下公式计算[！UICONTROL方差]：</p> <p><code>Role Allocation Variance = Initiative Hours - Planned Hours</code> </p> <p>当计划的资源时间超过计划所需的小时数时，[！UICONTROL差异]为负数并显示为红色。 这意味着您的资源被过度分配。 </p> </td> 
      </tr> 
     </tbody> 
    </table>

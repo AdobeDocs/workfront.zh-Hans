@@ -3,19 +3,19 @@ product-area: timesheets;setup
 navigation-topic: configure-timesheet-preferences
 title: 配置时间是以小时还是天为单位记录
 description: 作为具有Plan许可证的用户，您可以配置是将时间记录在Adobe Workfront中是几小时还是几天。 系统管理员可以为单个用户或其组织中的多个用户配置此设置。 默认情况下，用户以小时为单位记录时间。
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 4f801a13-182d-4e06-98ea-f6863f6a8edf
-source-git-commit: 106ef838bfee5e496cae864eca5c19fd12fdd18e
+source-git-commit: b0a3a11a3c04a0969bee99f8e1cea231911f0e6a
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
 
 # 配置时间是以小时还是天为单位记录
 
-作为具有Planner许可证的用户，您可以配置以小时还是天为单位在Adobe Workfront中记录时间。 系统管理员可以为单个用户或其组织中的多个用户配置此设置。 默认情况下，用户以小时为单位记录时间。 有关如何在Workfront中记录时间的信息，请参阅[记录时间](../../timesheets/create-and-manage-timesheets/log-time.md)。
+作为具有Standard或Plan许可证的用户，您可以配置是将时间记录在Adobe Workfront中是几小时还是几天。 系统管理员可以为单个用户或其组织中的多个用户配置此设置。 默认情况下，用户以小时为单位记录时间。 有关如何在Workfront中记录时间的信息，请参阅[记录时间](../../timesheets/create-and-manage-timesheets/log-time.md)。
 
 >[!NOTE]
 >
@@ -23,34 +23,36 @@ ht-degree: 0%
 
 ## 访问要求
 
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- </col> 
- <col> 
- </col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>任何</p> </td> 
+   <td>Adobe Workfront包</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>规划 </p> </td> 
+   <td>Adobe Workfront许可证</td> 
+   <td>
+   <p>标准</p>
+   <p>规划</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>规划人员可以为自己配置时间。 只有Workfront管理员可以为其他用户配置时间。</p> </td> 
+  <tr> 
+   <td>访问级别配置</td> 
+   <td><p>Standard和Plan用户可以为自己配置时间。 只有Workfront管理员可以为其他用户配置时间。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 1. 根据您的目标和系统中的访问级别，执行以下任一操作：
 
-   * **Planner用户为自己配置时间日志记录：**&#x200B;单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击个人资料图片旁边的用户名。 然后，单击您姓名旁边的&#x200B;**更多**&#x200B;图标并选择&#x200B;**编辑**。
+   * **Standard或Plan用户为自己配置时间日志记录：**&#x200B;单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](assets/main-menu-icon.png)，然后单击配置文件图片旁边的用户名。 或者（如果可用），单击顶部导航区域中的配置文件图片，然后单击&#x200B;**[!UICONTROL Workfront配置文件]**。 然后，单击您姓名旁边的&#x200B;**更多**&#x200B;图标并选择&#x200B;**编辑**。
 
    * **系统管理员为其他人配置时间日志记录：**&#x200B;如[编辑用户配置文件](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)中所述，开始编辑一个或多个用户帐户。
 
@@ -58,7 +60,6 @@ ht-degree: 0%
 
    ![在选项中记录时间](assets/user-profile-log-time-options.png)
 
-1. （视情况而定）如果您是同时编辑多个用户的系统管理员，请选择&#x200B;**记录时间**。
 1. 从下列日志记录时间选项中选择：
 
    | 选项 | 描述 |

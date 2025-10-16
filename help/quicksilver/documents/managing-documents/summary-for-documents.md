@@ -7,9 +7,9 @@ description: 利用“摘要”，可直接与文档列表中的重要信息交�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '441'
 ht-degree: 2%
 
 ---
@@ -35,13 +35,13 @@ ht-degree: 2%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p> 任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td> <p>新文档：参与者或更高版本</p> 
-   <p>当前：请求或更高版本</p>
+   <td> <p>参与者或更高版本</p> 
+   <p>请求或更高版本</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 

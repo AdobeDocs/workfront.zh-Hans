@@ -1,14 +1,14 @@
 ---
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: 将项目导入方案规划器中的计划
+title: 将项目导入方案计划器中的计划
 description: 您可以将现有项目导入计划。 导入的项目将转换为计划，您可以在计划中管理它们，就像管理新计划一样。 原始项目仍与新计划关联。
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
-source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
+source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
 workflow-type: tm+mt
-source-wordcount: '1710'
+source-wordcount: '1677'
 ht-degree: 0%
 
 ---
@@ -27,48 +27,81 @@ ht-degree: 0%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
-
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] 计划*</p> </td> 
-   <td> <ul></li>
-   <li><p>新增功能：Ultimate </p></li>
-   <p>Scenario Planner不可用于新的Workfront Select或Workfront Prime计划。 </p>
-   <li><p>当前： [!UICONTROL Business]或更高版本</p></ul>
+   <td> <p>[!DNL Adobe Workfront] 包</p> </td> 
+   <td> 
+   <p>Workfront Ultimate</p>
+<p><b>注释</b></p>
+<p>如果您拥有其他Workfront软件包，请与您的Workfront代表联系。</p>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] 许可证*</p> </td> 
-   <td> <p>新增：浅色或更高</p> 
-   <p>当前： [!UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] 许可证</p> </td> 
+   <td> <p>[！UICONTROL Light]或更高版本</p> 
+   <p>[！UICONTROL Review]或更高版本</p> </td> 
+  </tr> 
+    <tr> 
+   <td>访问级别配置</td> 
+   <td> <p>[！UICONTROL Edit]访问 [!DNL Scenario Planner]</p> <p>查看或更高权限的项目。</p></td> 
   </tr> 
   <tr> 
-   <td>产品* </td> 
-   <td> <ul><li><p>对于新的Workfront计划：</p><p> Adobe Workfront</li></p>
-   <li><p>对于当前Workfront计划： </p>
-   <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
-
-<p>有关详细信息，请参阅<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用[!DNL Scenario Planner]</a>所需的访问权限。 </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>访问级别 </td> 
-   <td> <p>[!UICONTROL Edit]访问 [!DNL Scenario Planner]</p> <p>查看或更高权限的项目。</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
    <td> <p>对象权限 </p> </td> 
-   <td> <p>[!UICONTROL Manage]对计划的权限</p> <p>查看项目或授予项目更高的权限。</p><p>有关请求对计划的附加访问权限的信息，请参阅<a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中请求对计划的访问权限。</p> </td> 
+   <td> <p>[！UICONTROL Manage]对计划的权限</p> <p>查看项目或授予项目更高的权限。</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*有关信息，请参阅[Workfront文档的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关访问Scenario Planner的详细信息，请参阅[使用 [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)所需的访问权限。
+
+有关Workfront访问要求的信息，请参阅[Workfront访问要求文档](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
+   <td> <ul></li>
+   <li><p>New: Ultimate </p></li>
+   <p>The Scenario Planner is not available for the new Workfront Select or Workfront Prime plans. </p>
+   <li><p>Current: [!UICONTROL Business] or higher</p></ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] license*</p> </td> 
+   <td> <p>New: Light or higher</p> 
+   <p>Current: [!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Product* </td> 
+   <td> <ul><li><p>For the new Workfront plans:</p><p> Adobe Workfront</li></p>
+   <li><p>For the current Workfront plans: </p>
+   <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
+   
+   <p>For more information, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Access level </td> 
+   <td> <p>[!UICONTROL Edit] access to the [!DNL Scenario Planner]</p> <p>View or higher access to Projects.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>View or higher permissions to projects.</p><p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements to Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 ## 将项目作为新计划导入计划中的注意事项
 
@@ -114,15 +147,15 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>分配给任务和问题的工作角色</td> 
-   <td> <p>计划工作角色。 </p> <p>注意：   <p>如果用户在项目生命周期内更改角色，则导入的角色取决于导入项目时的分配状态。 存在以下情况：</p> 
+   <td> <p>计划工作角色。 </p> <p>注释：   <p>如果用户在项目生命周期内更改角色，则导入的角色取决于导入项目时的分配状态。 存在以下情况：</p> 
      <ul> 
-      <li> <p>如果分配给任务或问题的用户在将其分配标记为[!UICONTROL 完成]之后更改了角色，则[!DNL Workfront]会将用户在将分配标记为[!UICONTROL 完成]之前履行的角色导入计划。</p> </li> 
-      <li> <p>如果分配给任务或问题的用户在项目生命周期内更改了角色，但在导入项目时，他们在任务或问题上的分配未标记为[!UICONTROL 完成]，则[!DNL Workfront]将仅导入分配用户的当前角色。 </p> </li> 
-     </ul> <p>有关分配状态的信息，请参阅Adobe [!DNL Workfront]术语的<a href="../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md" class="MCXref xref">词汇表</a>中的“分配状态”。 </p> </p> </td> 
+      <li> <p>如果分配给任务或问题的用户在将其分配标记为[！UICONTROL完成]之后更改了角色，则[!DNL Workfront]会将用户在将分配标记为[！UICONTROL完成]之前履行的角色导入计划。</p> </li> 
+      <li> <p>如果分配给任务或问题的用户在项目生命周期内更改了角色，但在导入项目时，他们在任务或问题上的分配未标记为[！UICONTROL完成]，则[!DNL Workfront]将仅导入分配用户的当前角色。 </p> </li> 
+     </ul> <p>有关分配状态的信息，请参阅Adobe <a href="../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md" class="MCXref xref">术语的[!DNL Workfront]词汇表</a>中的“分配状态”。 </p> </p> </td> 
   </tr> 
   <tr> 
-   <td>与分配给任务或问题的工作角色关联的项目[!UICONTROL 计划小时数]</td> 
-   <td> <p><span>根据计划是设置为使用FTE还是使用小时数，项目任务中的[!UICONTROL 计划小时数]在计划</span>上变为</span> [!UICONTROL 必需FTE数] <span>或[!UICONTROL 必需要小时数]。 </p> <p>有关设置计划以使用FTE或小时数的信息，请参阅<a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中创建和编辑计划。 </p> <p>请考虑以下事项：</p> 
+   <td>与分配给任务或问题的工作角色关联的项目[！UICONTROL计划小时数]</td> 
+   <td> <p><span>根据计划是设置为使用FTE还是使用小时数，项目任务中的[！UICONTROL计划小时数]在计划</span>上变为<span> [！UICONTROL必需FTE数] </span>或[！UICONTROL必需要小时数]。 </p> <p>有关设置计划以使用FTE或小时数的信息，请参阅<a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中创建和编辑计划。 </p> <p>请考虑以下事项：</p> 
     <ul> 
      <li> <p>[!DNL Workfront] 使用分配给任务和问题的工作角色或分配给任务或问题的用户与项目相关联的工作角色，并将它们作为所需工作角色转移到新计划中。 </p> </li> 
      <li> <p>当计划设置为使用FTE时，与项目任务和问题中的工作角色关联的已计划小时数首先转换为FTE。 然后，此FTE将分配给计划的工作角色。 <span>计划小时数在[!DNL Workfront]中平均分配。 如果任务或问题跨越多个月，则计划持续时间中每个月的计划小时数将在每月FTE中转换为并转移到计划的每个月。</span></p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span><span>例如，如果一项任务在9月份被分配给工作角色80个计划小时数，那么在9月份，导入的工作角色为计划显示0.5 FTE。</span> </p> </li> 
@@ -132,7 +165,7 @@ ht-degree: 0%
          (NOTE: this used to be 1, not zero in Production) 
        </MadCap:conditionalText>
       --></li> 
-     <li>当工作角色被分配给具有零[!UICONTROL 持续时间]的项目中的任务时，计划的工作角色所需的FTE <span>或小时数</span>默认为零，即使任务具有计划的小时数。 </li> 
+     <li>当工作角色被分配给具有零[！UICONTROL持续时间]的项目中的任务时，计划的工作角色所需的FTE <span>或小时数</span>默认为零，即使任务具有计划的小时数。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -207,16 +240,16 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 计划持续时间]</td> 
+      <td role="rowheader">[！UICONTROL计划持续时间]</td> 
       <td>这是计划的持续时间（以月为单位）。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 计划]</td> 
+      <td role="rowheader">[！UICONTROL计划]</td> 
       <td>计划的开始日期和结束日期。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 项目]</td> 
-      <td> <p>链接项目的[!UICONTROL 计划开始日期]和[!UICONTROL 完成日期]。</p> <p>提示：如果[!UICONTROL 项目]信息缺失，则该项目已被删除。</p> </td> 
+      <td role="rowheader">[！UICONTROL项目]</td> 
+      <td> <p>链接项目的[！UICONTROL计划开始日期]和[！UICONTROL完成日期]。</p> <p>提示：如果[！UICONTROL项目]信息缺失，则该项目已被删除。</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -234,4 +267,4 @@ ht-degree: 0%
 1. （可选）要将您对计划所做的更改更新回从中导入计划的项目，请从计划发布该项目。 有关发布计划的信息，请参阅[通过在 [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)中发布计划来更新或创建项目。
 1. （可选）单击项目图标以访问链接的项目。
 
-   计划![&#128279;](assets/project-icon-on-initiative-highlighted-350x49.png)上的项目图标
+   计划![上的](assets/project-icon-on-initiative-highlighted-350x49.png)项目图标

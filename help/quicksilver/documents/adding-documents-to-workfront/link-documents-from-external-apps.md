@@ -6,9 +6,9 @@ description: 您可以从外部源将文档和文件夹链接到Adobe Workfront�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: a005c7114388e1c20a4847b3da3229667be0ded7
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '2568'
+source-wordcount: '2545'
 ht-degree: 0%
 
 ---
@@ -61,21 +61,18 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td>
+   <td role="rowheader">Adobe Workfront包</td>
    <td> <p> 任何</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td>
-   <td><p>新文档：参与者或更高版本</p>
-    <p>或</p>
-    <p>当前：请求或更高版本</p> </td>
+   <td><p>参与者或更高版本</p>
+    <p>请求或更高版本</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -84,7 +81,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -121,7 +118,7 @@ ht-degree: 0%
 >Dropbox根据文件路径存储文档。 因此，如果移动、重命名或删除了从Dropbox链接的文件，则该文件将在Workfront中变得不可访问。
 
 1. 转到Workfront中您想要获取文档的&#x200B;**文档**&#x200B;区域。
-1. 单击“新建”**&#x200B;**，然后单击要将文档链接到Workfront的外部文档提供商。
+1. 单击“新建”****，然后单击要将文档链接到Workfront的外部文档提供商。
 
    例如，要链接来自Dropbox的文档，请单击&#x200B;**来自Dropbox**。
 
@@ -207,7 +204,7 @@ ht-degree: 0%
 您只能链接那些您在Workfront Proof中拥有查看权限的校样。
 
 1. 转到Workfront中您想要获取文档的&#x200B;**文档**&#x200B;区域。
-1. 单击&#x200B;**新增**，然后单击Workfront Proof中的&#x200B;**&#x200B;**。
+1. 单击&#x200B;**新增**，然后单击Workfront Proof中的&#x200B;****。
 
    >[!NOTE]
    >
@@ -284,7 +281,7 @@ ht-degree: 0%
 
 1. 转到Workfront中您希望文件夹所在的区域，然后单击左侧面板中的&#x200B;**文档** ![文档图标](assets/document-icon.png)。
 
-1. 单击“新建”**&#x200B;**，然后单击要将文件夹链接到Workfront的外部文档提供商。
+1. 单击“新建”****，然后单击要将文件夹链接到Workfront的外部文档提供商。
 1. （视情况而定）如果尚未授权外部服务，请为外部提供程序指定登录凭据，然后单击&#x200B;**登录**。
 
    您已经授权的外部提供程序将显示在列表顶部。

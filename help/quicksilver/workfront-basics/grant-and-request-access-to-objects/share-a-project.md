@@ -6,9 +6,9 @@ description: 在分配访问级别时，Adobe Workfront管理员可以向您授�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1574'
 ht-degree: 2%
 
 ---
@@ -26,23 +26,20 @@ ht-degree: 2%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
-
-要共享对象，必须具备以下条件：
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-   <td> <p>任何 </p> </td> 
+   <td role="rowheader">Adobe Workfront包</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td> <p>新增：标准</p> 
-   或
-   <p>当前：工作或更高</p>
+   <td> <p>标准</p> 
+   <p>工作或更高</p> 
    </td> 
   </tr> 
   <tr> 
@@ -56,7 +53,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -71,13 +68,13 @@ ht-degree: 2%
 * 您可以单独共享项目，也可以一次共享多个项目。 共享项目与共享其他对象相同。 有关在Workfront中共享项目的详细信息，请参阅[共享对象](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
 * 您可以向项目授予以下权限：
 
-   * 查看
+   * 视图
    * 管理
-   * 参与
+   * 贡献
 
 * 共享项目时，除非另有指定，否则所有任务、问题和文档都将继承相同的权限。
 
-  有关基于用户对项目的权限管理项目上任务和问题的访问权限的信息，请参阅[编辑项目](../../manage-work/projects/manage-projects/edit-projects.md)一文中的[&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access)部分。
+  有关基于用户对项目的权限管理项目上任务和问题的访问权限的信息，请参阅[](../../manage-work/projects/manage-projects/edit-projects.md#access)编辑项目[一文中的](../../manage-work/projects/manage-projects/edit-projects.md)部分。
 
   Workfront管理员可以指定文档是否应从用户访问级别更高的对象继承权限。 有关限制文档继承权限的详细信息，请参阅[创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
@@ -255,7 +252,7 @@ The
    <th> <p><strong>操作</strong> </p> </th> 
    <th> <p><strong>管理</strong> </p> </th> 
    <th> <p><strong>参与</strong> </p> </th> 
-   <th> <p><strong>视图</strong> </p> </th> 
+   <th> <p><strong>查看</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -449,7 +446,7 @@ The
    <td> <p>设置队列属性</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
-   <td> <p>  </p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>在列表中批量编辑项目</p> </td> 

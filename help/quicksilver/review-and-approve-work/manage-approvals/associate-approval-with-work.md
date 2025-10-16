@@ -7,9 +7,9 @@ author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
+source-git-commit: 3d12c144552474439b247739b47de9454a2233f2
 workflow-type: tm+mt
-source-wordcount: '1891'
+source-wordcount: '1822'
 ht-degree: 0%
 
 ---
@@ -40,32 +40,32 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>工作或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> 
+   <p>标准</p>
+   <p>工作或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别*</td> 
-   <td> <p>编辑对项目、任务、问题或模板的访问权限或更高</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td role="rowheader">访问级别</td> 
+   <td> <p>编辑对项目、任务、问题或模板的访问权限或更高</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理项目、任务、问题或模板的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>管理项目、任务、问题或模板的权限</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -123,7 +123,7 @@ ht-degree: 0%
 1. 转到要关联审批流程的工作项。
 1. 单击左侧面板中的&#x200B;**审批**。
 
-   任务![&#128279;](assets/approvals-section-on-task-highlighted-nwe-350x246.png)上的审批分区
+   任务![上的](assets/approvals-section-on-task-highlighted-nwe-350x246.png)审批分区
 
 1. ![使用现有审批或创建单次使用审批](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
 
@@ -191,7 +191,7 @@ ht-degree: 0%
 1. 转到要关联审批流程的项目、任务、问题、模板或模板任务。
 1. 单击左侧面板中的&#x200B;**审批**。
 
-   任务![&#128279;](assets/approvals-section-on-task-highlighted-nwe-350x246.png)上的审批分区
+   任务![上的](assets/approvals-section-on-task-highlighted-nwe-350x246.png)审批分区
 
 1. 单击&#x200B;**创建一次性**。
 
@@ -228,7 +228,7 @@ ht-degree: 0%
 1. 转到要移除先前添加的审批流程的项目、任务、问题、模板或模板任务。
 1. 单击左侧面板中的&#x200B;**审批**。
 
-   任务![&#128279;](assets/approvals-section-on-task-highlighted-nwe-350x246.png)上的审批分区
+   任务![上的](assets/approvals-section-on-task-highlighted-nwe-350x246.png)审批分区
 
 1. 根据与项目关联的批准类型，单击“批准”部分右上角的以下图标之一：
 

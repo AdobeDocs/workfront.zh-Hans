@@ -6,9 +6,9 @@ description: 将用户或角色分配给任务时，会为其分配特定小时�
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -25,33 +25,33 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td>Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td> <p>新增：标准 </p>
-   <p>当前：工作或更高</p> </td> 
+   <td>Adobe Workfront许可证</td> 
+   <td> <p>标准</p>
+   <p>工作或更高</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
-   <td> <p>编辑任务访问权限</p> </td> 
+   <td>访问级别配置</td> 
+   <td>编辑任务访问权限</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">对象权限</td> 
-   <td> <p>为任务分配或更高权限</p> <p>在“编辑任务”框中编辑更新分配小时数的权限</p> </td> 
-  </tr> 
- </tbody> 
+   <td>对象权限</td>
+   <td><p>为任务分配或更高权限</p>
+   <p>在“编辑任务”框中编辑更新分配小时数的权限</p></td>
+  </tr>
+ </tbody>
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->在手动修改任务的每个分配的分配后，任务的已计划小时数可能会相应地更新。 有关详细信息，请参阅文章[计划小时概述](../../../manage-work/tasks/task-information/planned-hours.md)中的[管理用户分配时更新任务计划小时数](../../../manage-work/tasks/task-information/planned-hours.md#update)部分。
+>在手动修改任务的每个分配的分配后，任务的已计划小时数可能会相应地更新。 有关详细信息，请参阅文章[计划小时概述](../../../manage-work/tasks/task-information/planned-hours.md#update)中的[管理用户分配时更新任务计划小时数](../../../manage-work/tasks/task-information/planned-hours.md)部分。
 
 * 分配给分配给任务的各个资源的总小时数表示任务的计划小时数。
 * 如果任务分配了用户或角色，则分配给用户或角色的小时数与任务的计划小时数匹配。

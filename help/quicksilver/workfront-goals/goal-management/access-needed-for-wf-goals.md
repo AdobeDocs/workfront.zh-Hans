@@ -7,9 +7,9 @@ description: 在访问Adobe Workfront目标之前，您的Adobe Workfront管理�
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: dacfd8ef7475b197ac6ce5dd598c99df97037479
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -20,21 +20,28 @@ ht-degree: 0%
 
 在访问Adobe Workfront目标之前，您的Adobe Workfront管理员必须确保满足所有以下条件：
 
-* 您的组织必须购买Workfront Goals的正确许可证。 有关信息，请参阅本文中的[获取Workfront目标组织访问权限](#obtain-workfront-goals-organization-access)部分。
+* 您的组织以前购买过Adobe Workfront Goals包。 Adobe Workfront目标不再可供购买。
+
+  有关更多信息，请参阅本文中的[获取Workfront目标组织访问权限](#obtain-workfront-goals-organization-access)部分。
 
 * 为您分配正确类型的Workfront许可证。 有关分配许可证类型和访问级别的信息，请参阅本文中的[更新许可证类型和访问级别设置](#update-license-types-and-access-level-settings)部分。
 
->[!NOTE]
->
->具有外部许可证类型的用户无法访问Workfront目标。
+  >[!NOTE]
+  >
+  >具有外部许可证类型的用户无法访问Workfront目标。
 
 * 授予您访问访问级别中目标的权限。 有关信息，请参阅[授予对Adobe Workfront目标的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
+
+  >[!NOTE]
+  >
+  >默认情况下，用户无法访问其访问级别中的目标。
+
 
 * 为您分配包含主菜单中的目标区域的布局模板。
 
   >[!NOTE]
   >
-  >必须为包括Workfront管理员在内的所有用户分配一个布局模板，该模板应包括主菜单中的目标区域。
+  >必须为包括系统管理员在内的所有用户分配一个布局模板，该模板应包括主菜单中的目标区域。
 
   有关信息，请参阅本文中的[将Workfront目标添加到布局模板](#add-workfront-goals-to-a-layout-template)部分。
 
@@ -44,35 +51,50 @@ ht-degree: 0%
 
 ## 获取Workfront目标组织访问权限 {#obtain-workfront-goals-organization-access}
 
+最后一个包含Workfront目标的Adobe Workfront包是Adobe Workfront Ultimate。
+Workfront目标不再可用于购买较新的包。
+与您的客户代表联系以查询Workfront目标。
 
-根据贵公司当前使用的Workfront计划，存在以下情况：
+<!--Old: >
+Depending on which Workfront plan your company is currently on, the following scenarios exist: 
 
-* **新的Workfront计划**：您必须拥有Ultimate Workfront计划。 Workfront目标仅包含在此计划中。
+* **A new Workfront plan**: You must have an Ultimate Workfront plan. Workfront Goals are included only in this plan. 
 
-* **当前的Workfront计划**：您的组织必须在Workfront许可证之外购买其他许可证。
+* **A current Workfront plan**: Your organization must purchase an additional license, in addition to the Workfront license.
 
-  在您的组织购买附加许可证后，Workfront将为您的帐户启用Workfront目标。 有关为Workfront Goals购买许可证的信息，请联系您的Workfront客户经理。
+  After your organization purchases the additional license, Workfront enables Workfront Goals for your account. For information about purchasing a license for Workfront Goals contact your Workfront account manager.
 
-有关Workfront访问要求的信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+For information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 ## 更新许可证类型和访问级别设置  {#update-license-types-and-access-level-settings}
 
-根据贵公司当前使用的Workfront计划，存在以下情况：
+如果贵公司有权访问以前购买过的Workfront目标，则Workfront管理员必须授予您以下权限才能访问Workfront目标：
 
-* **新的访问级别模型**：您的Workfront管理员必须向您授予下列其中一种Workfront许可证类型才能访问Workfront目标：
+1. 以下许可证之一：
 
-   * 投稿人
-   * 轻量
-   * 标准
+   * 参与者或更高版本
+   * 请求或更高版本
 
-* **当前访问级别模型**：您的Workfront管理员必须向您授予下列其中一种Workfront许可证类型才能访问Workfront目标：
+<!--Old: 
+* **The new access level model**: Your Workfront administrator must grant you one of the following Workfront license types to access Workfront Goals: 
 
-   * 规划
-   * 工作
-   * 评论
-   * 请求
+  * Contributor
+  * Light
+  * Standard
 
-在您的Workfront管理员向您授予这些许可证类型之一后，他们还必须授予您访问级别中目标的访问权限。 有关访问目标的信息，请参阅[授予对Adobe Workfront目标的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)。
+* **The current access level model**: Your Workfront administrator must grant you one of the following Workfront license types to access Workfront Goals:
+
+  * Plan
+  * Work 
+  * Review
+  * Request
+-->
+
+1. 以下访问级别：
+
+   * 在访问级别中查看或拥有对目标的更高访问权限。
+
+   有关访问目标的信息，请参阅[授予对Adobe Workfront目标的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)。
 
 作为Workfront管理员，您可以查看系统中Workfront目标许可证的数量，并了解当前启用的数量。 有关详细信息，请参阅[管理系统中的可用许可证](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)。
 

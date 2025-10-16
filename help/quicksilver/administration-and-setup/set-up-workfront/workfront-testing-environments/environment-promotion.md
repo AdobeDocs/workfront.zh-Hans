@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: e9df34c206dd65ccc2edec00087248eb4ed16f54
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '2095'
+source-wordcount: '2088'
 ht-degree: 2%
 
 ---
@@ -32,26 +32,26 @@ ht-degree: 2%
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront]计划</strong>
+   <td>Adobe Workfront包
    </td>
-   <td> Prime或Ultimate（仅限新计划）
+   <td> <p>Prime或Ultimate</p>
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront]个许可证</strong>
+   <td><strong>Workfront许可证</strong>
    </td>
-   <td> [!UICONTROL 标准版]
+   <td> <p>标准</p>&gt;
    </td>
   </tr>
    <tr>
    <td>访问级别配置
    </td>
-   <td>您必须是[!DNL Workfront]管理员。
+   <td><p>您必须是Workfront管理员。</p>
    </td>
   </tr>
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 先决条件
 
@@ -61,7 +61,7 @@ ht-degree: 2%
 
 环境升级功能旨在提供与配置相关的对象从一个环境移动到另一个环境的功能。 它不支持移动事务性对象的功能（只有有限的例外）。
 
-有关可升级对象及其包含的可升级子对象的列表，请参阅[在Workfront环境之间移动对象概述](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)一文中的[环境升级支持的对象](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion)。
+有关可升级对象及其包含的可升级子对象的列表，请参阅[在Workfront环境之间移动对象概述](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion)一文中的[环境升级支持的对象](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)。
 
 ## 身份验证
 
@@ -364,7 +364,7 @@ _空_
   </tbody> 
 </table>
 
-此调用会更新促销活动正文中提供的促销PATCH包的任何内容。
+此调用会更新PATCH正文中提供的促销活动包的任何内容。
 
 可编辑的属性包括：
 
@@ -372,7 +372,7 @@ _空_
 1. description（字符串）
 1. 状态（带值验证的字符串）
 
-有关可用状态的详细说明，请参阅[在Workfront环境之间移动对象概述](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)一文中的[环境升级状态](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses)。
+有关可用状态的详细说明，请参阅[在Workfront环境之间移动对象概述](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses)一文中的[环境升级状态](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)。
 
 
 #### URL
@@ -523,11 +523,11 @@ Deleted
  <tbody> 
   <tr> 
    <td>创建</td> 
-   <td><p>当在目标环境中找不到相应的记录时，该操作将设置为CREATE。</p><p>当在提供给<code>/install</code>终结点的<code>translationmap</code>中设置此操作时，安装服务将创建记录。</p></td> 
+   <td><p>当在目标环境中找不到相应的记录时，该操作将设置为CREATE。</p><p>当在提供给<code>translationmap</code>终结点的<code>/install</code>中设置此操作时，安装服务将创建记录。</p></td> 
   </tr> 
   <tr> 
    <td>USEEXISTING</td> 
-   <td><p>在目标环境中找到相应的记录时，该操作将设置为USEEXISTING，并且还会在<code>translationmap</code>中捕获<code>targetId</code>。</p><p>当在提供给<code>/install</code>终结点的<code>translationmap</code>中设置此操作时，安装服务将不会创建记录。 但是，它将使用映射项中包含的<code>targetId</code>来查找可能引用此记录的其他对象。</p><p>例如，在包将部署到的目标环境中可以找到“默认组”。 由于不可能有两个“默认组”记录，因此安装服务将在任何其他包含对“默认组”的引用的对象创建操作中使用现有组的GUID，如项目、表单或与此组相关的任何其他实体。</p><p><b>注释：</b> <ul><li><p>分配USEEXISTING操作后，将不会修改目标环境中的现有记录。 </p><p>例如，如果在从中生成包的沙盒中“默认组”的描述已更改，并且描述值在目标环境中不同，则在使用此<code>translationmap</code>安装后，该值将保持不变。</li></ul></td> 
+   <td><p>在目标环境中找到相应的记录时，该操作将设置为USEEXISTING，并且还会在<code>targetId</code>中捕获<code>translationmap</code>。</p><p>当在提供给<code>translationmap</code>终结点的<code>/install</code>中设置此操作时，安装服务将不会创建记录。 但是，它将使用映射项中包含的<code>targetId</code>来查找可能引用此记录的其他对象。</p><p>例如，在包将部署到的目标环境中可以找到“默认组”。 由于不可能有两个“默认组”记录，因此安装服务将在任何其他包含对“默认组”的引用的对象创建操作中使用现有组的GUID，如项目、表单或与此组相关的任何其他实体。</p><p><b>注意：</b> <ul><li><p>分配USEEXISTING操作后，将不会修改目标环境中的现有记录。 </p><p>例如，如果在从中生成包的沙盒中“默认组”的描述已更改，并且描述值在目标环境中不同，则在使用此<code>translationmap</code>安装后，该值将保持不变。</li></ul></td> 
   </tr> 
   <tr> 
    <td>覆盖</td> 
@@ -535,7 +535,7 @@ Deleted
   </tr> 
   <tr> 
    <td>忽略</td> 
-   <td><p>此操作不会自动设置。</p><p>它能够在执行<code>/install</code>调用之前手动覆盖分配的CREATE或USEEXISTING操作。</p><p><b>注释： </b><ul><li><p>如果最初设置为CREATE的记录设置为IGNORE，则任何子记录也应设置为IGNORE。</p><p>例如，如果模板记录已使用CREATE操作进行映射，并且安装用户希望将其从部署中排除，则他们可以将模板的操作设置为IGNORE。</p><p>在这种情况下，如果安装用户未将模板任务、模板任务分配、模板任务前置任务、队列定义、队列主题、路由规则等也设置为IGNORE，则部署将导致安装尝试失败。</p></li><li><p>如果最初设置为USEEXISTING的记录设置为IGNORE，则安装过程中可能会产生一些不良影响。</p><p>例如，如果使用USEEXISTING操作映射了组记录，并且安装用户将操作更改为IGNORE，则对于需要组的对象（例如，如果没有分配组，项目不能存在），系统默认组将被分配给该项目。</p></li><li><p>如果最初设置为USEEXISTING的记录设置为CREATE，则安装过程中可能会产生一些不良影响，因为许多Workfront实体具有唯一名称约束。</p><p>例如，如果用USEEXISTING操作映射了“Default Group”记录，并且安装用户将操作更改为CREATE，因为已经有一个“Default Group”，安装尝试将无法完成所有步骤。 组名称必须是唯一的。</p><p>某些实体没有唯一名称约束。 对于这些对象，进行此更改将导致两个具有相同名称的记录。 例如，模板、项目、视图、筛选器、分组、报告和仪表板不需要唯一名称限制。 最佳做法是为这些记录指定唯一的名称，但不会强制执行。</p></li></ul></p></td> 
+   <td><p>此操作不会自动设置。</p><p>它能够在执行<code>/install</code>调用之前手动覆盖分配的CREATE或USEEXISTING操作。</p><p><b>注意： </b><ul><li><p>如果最初设置为CREATE的记录设置为IGNORE，则任何子记录也应设置为IGNORE。</p><p>例如，如果模板记录已使用CREATE操作进行映射，并且安装用户希望将其从部署中排除，则他们可以将模板的操作设置为IGNORE。</p><p>在这种情况下，如果安装用户未将模板任务、模板任务分配、模板任务前置任务、队列定义、队列主题、路由规则等也设置为IGNORE，则部署将导致安装尝试失败。</p></li><li><p>如果最初设置为USEEXISTING的记录设置为IGNORE，则安装过程中可能会产生一些不良影响。</p><p>例如，如果使用USEEXISTING操作映射了组记录，并且安装用户将操作更改为IGNORE，则对于需要组的对象（例如，如果没有分配组，项目不能存在），系统默认组将被分配给该项目。</p></li><li><p>如果最初设置为USEEXISTING的记录设置为CREATE，则安装过程中可能会产生一些不良影响，因为许多Workfront实体具有唯一名称约束。</p><p>例如，如果用USEEXISTING操作映射了“Default Group”记录，并且安装用户将操作更改为CREATE，因为已经有一个“Default Group”，安装尝试将无法完成所有步骤。 组名称必须是唯一的。</p><p>某些实体没有唯一名称约束。 对于这些对象，进行此更改将导致两个具有相同名称的记录。 例如，模板、项目、视图、筛选器、分组、报告和仪表板不需要唯一名称限制。 最佳做法是为这些记录指定唯一的名称，但不会强制执行。</p></li></ul></p></td> 
   </tr> 
   </tbody> 
 </table>
@@ -691,7 +691,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
   </tbody> 
 </table>
 
-此调用将尝试将升级包安装到POSTURL中标识的目标环境中。
+此调用将尝试将升级包安装到POST URL中标识的目标环境中。
 
 #### URL
 
@@ -1115,7 +1115,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 响应包括`{uuid of the created installation}`和`202 - ACCEPTED`状态。
 
-示例： `b6aa0af8-3520-4b25-aca3-86793dff44a6`
+示例：`b6aa0af8-3520-4b25-aca3-86793dff44a6`
 
 <!--table templates
 

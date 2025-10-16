@@ -6,14 +6,16 @@ description: 您可以编辑单个问题，也可以在问题列表或报告中�
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
 
 # 编辑列表中的问题
+
+<!--Audited: 08/2025-->
 
 您可以编辑单个问题，也可以在问题列表或报告中编辑问题。 本文介绍了如何编辑列表中的问题。
 
@@ -21,19 +23,26 @@ ht-degree: 0%
 
 ## 访问要求
 
-您必须具有以下权限才能执行本文中的操作：
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>请求或更高版本</p> <p>查看或更高许可证以编辑项目问题部分中的问题。</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td>
+
+<ul><li><p>参与者或更高版本</p> </li>
+   <li><p>较轻或更高许可证可在项目的“问题”部分中编辑问题</p></li></ul> 
+    或
+   <ul><li><p>申请人或以上</p> </li>
+   <li><p>查看者或更高许可证可以编辑项目问题分区中的问题</p></li></ul> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
@@ -46,7 +55,34 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> <p>Review or higher license to edit issues in the Issues section of a project.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Issues</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Contribute or higher permissions to the issue</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 内联编辑问题
 
@@ -76,17 +112,16 @@ ht-degree: 0%
 1. 转到项目或任务中的问题列表。
 1. 执行以下操作之一
 
-   * 在列表中选择问题，然后单击工具栏中的“编辑”图标![“编辑”图标](assets/qs-edit-icon.png)。
-   * 单击问题名称右侧的&#x200B;**更多菜单** ![更多菜单](assets/more-icon-task-list.png)，然后单击&#x200B;**在新选项卡中打开**。 这将在新选项卡中打开问题页面。 从问题页面单击&#x200B;**更多** > **编辑**。
-   * 单击问题名称右侧的&#x200B;**更多菜单** ![更多菜单](assets/more-icon-task-list.png)，然后单击&#x200B;**编辑**。
+   * 在列表中选择问题，然后单击工具栏中的&#x200B;**编辑**&#x200B;图标![编辑图标](assets/qs-edit-icon.png)。
+   * 单击问题的名称，然后单击&#x200B;**编辑**。
 
-     任何此类操作都会打开编辑问题框。
+     任何此类操作都会打开&#x200B;**编辑问题**&#x200B;框。
 
-     有关编辑“编辑问题”框中的问题的信息，请参阅[编辑问题](../../../manage-work/issues/manage-issues/edit-issues.md)。
+     有关编辑&#x200B;**编辑问题**&#x200B;框中的问题的信息，请参阅[编辑问题](../../../manage-work/issues/manage-issues/edit-issues.md)。
 
 ## 使用摘要编辑问题
 
-您可以使用摘要编辑列表中的问题。
+您可以使用“摘要”面板编辑列表中的问题。
 
 1. 转到要编辑其问题的项目。
 1. 单击左侧面板中的&#x200B;**问题**。
@@ -100,11 +135,12 @@ ht-degree: 0%
 1. （可选）在&#x200B;**更新**&#x200B;区域开始键入问题的更新。
 1. 单击以下任意图标或区域，转到问题并在问题级别编辑信息：
 
-   | 文档 | 单击&#x200B;**单击此处添加**&#x200B;将文档添加到问题。 |
+   | 图标 | 操作 |
    |---|---|
-   | 详细信息 | 单击以更新有关问题的信息。 |
-   | 小时 | 单击以记录小时数。 |
-   | 审批 | 单击以添加问题批准。 |
+   | 文档![文档图标](assets/documents-icon-in-summary.png) | 单击&#x200B;**单击此处添加**&#x200B;将文档添加到问题。 |
+   | 详细信息![详细信息图标](assets/details-icon-in-summary.png) | 单击以更新有关问题的信息。 |
+   | 小时![记录时间](assets/log-time-icon-in-summary.png) | 单击以记录小时数。 |
+   | 审批![审批图标](assets/approvals-icon-in-summary.png) | 单击以添加问题批准。 |
 
 1. （可选）再次单击&#x200B;**打开摘要**&#x200B;图标，或单击摘要右上角的&#x200B;**X图标**&#x200B;以关闭面板并编辑内联问题。
 

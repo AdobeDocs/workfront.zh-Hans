@@ -7,9 +7,9 @@ description: 预计完成日期是一个实时计算指示器，指示项目、�
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '860'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开以查看本文中各项功能的访问要求。 
 
 
 <table style="table-layout:auto"> 
@@ -32,23 +32,21 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
-   <p>新增： 
    <ul><li><p>参与者或更高版本以便在报告中查看预计完成日期</p></li> <li><p>用于创建报告的标准许可证</p></li> </ul>
-
-<p>当前： 
+   或
    <ul><li><p>查看或更高版本以查看报告中的预计完成日期</p></li> 
    <li><p>用于创建报告的计划许可证</p> </li></ul>
       </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别</td> 
-   <td> <p>查看项目或授予更高的项目访问权限</p> <p>您必须对报告、功能板和日历具有编辑权限才能创建报告</p> <p>您必须对筛选器、视图、分组具有编辑权限才能创建报告或修改列表视图</p>  </td> 
+   <td> <p>查看项目或授予更高的项目访问权限</p> <p>编辑对报告、功能板和日历的访问权限以创建报告</p> <p>编辑对筛选器、视图、分组的访问权限以创建报告或修改列表视图</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
@@ -57,7 +55,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

@@ -7,34 +7,41 @@ description: 目标协调确保组织中的每个人在将目标相互协调并�
 author: Alina
 feature: Workfront Goals
 exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '750'
 ht-degree: 1%
 
 ---
 
 # Adobe Workfront目标中的目标对齐概述
 
-<!--Audited P&P only: 4/2025-->
+<!--Audited: 10/2025-->
 
 >[!IMPORTANT]
 >
->您的组织必须具备以下条件才能使用本文中所述的功能：
+>如果您的公司以前购买过此包，则可能会选择继续使用Adobe Workfront Goals。 有关详细信息，请与您的客户代表联系。
 >
->* 对于新计划和许可证结构：
->
->   * Ultimate Workfront计划
->    
->* 对于当前计划和许可证结构：
->
->   * Pro或更高版本Workfront计划
->   * 除了Adobe Workfront许可证之外，还提供了Workfront目标许可证。
->
->请联系您的Workfront客户经理，了解有关Workfront Goals许可证的信息。
+>Adobe Workfront目标不再可供购买。
 > 
 >有关访问Workfront目标的更多信息，请参阅[使用Workfront目标的要求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
 
+
+<!--Old:
+>Your organization must have the following to use the functionality described in this article:
+>
+>* For the new plan and license structure:
+>
+>   * The Ultimate Workfront plan 
+>    
+>* For the current plan and license structure: 
+>
+>   * A Pro or higher Workfront plan
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
+>
+>Contact your Workfront account manager to learn about a Workfront Goals license.    
+> 
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).-->
 
 目标调整是目标管理中的重要组成部分。您可以确保组织中的每个人对于推进战略所必须实现的目标都持相同观点，即通过将他们的目标相互协调并与团队、组和公司的组织目标保持一致。
 
@@ -95,7 +102,7 @@ ht-degree: 1%
 -->
 您可以在以下区域查看子目标和父目标：
 
-* 目标页面上的“进度指示器”部分，位于“类型：目标”分组下。
+* 目标页面上类型:Goal分组下的进度指示器部分。
 * “目标”页面的“目标对齐方式”部分。
 
 

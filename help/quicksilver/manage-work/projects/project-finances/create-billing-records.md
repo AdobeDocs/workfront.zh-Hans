@@ -5,9 +5,9 @@ description: 除了设置收入和跟踪费用外，您还可以在项目上创�
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: 4805b93be7ce3dc098c7e160cdb872446f80ecbd
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '1645'
+source-wordcount: '1635'
 ht-degree: 0%
 
 ---
@@ -29,28 +29,27 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td>Adobe Workfront包</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td>Adobe Workfront许可证</td> 
    <td>
-   <p>新增：标准</p>
-   <p>或</p>
-   <p>当前：计划</p></td> 
+   <p>标准</p>
+   <p>规划</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
+   <td>访问级别配置</td> 
    <td>编辑对项目和财务数据的访问权限</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">对象权限</td> 
+   <td>对象权限</td> 
    <td>管理具有管理财务权限的项目权限</td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

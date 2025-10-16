@@ -7,9 +7,9 @@ description: 在Workfront中，您可以创建与Experience Manager Assets或Ass
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: e9c6a01e80d34bc873c9a06ae0782dc65afb2445
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -24,23 +24,23 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具备以下条件：
-
 <table>
   <tr>
-   <td><strong>Adobe Workfront计划*</strong>
+   <td><strong>Adobe Workfront包</strong>
    </td>
    <td>任何
    </td>
   </tr>
   <tr>
-   <td><strong>Adobe Workfront许可证*</strong>
+   <td><strong>Adobe Workfront许可证</strong>
    </td>
-   <td>计划
+   <td>
+   <p>标准</p>
+   <p>规划</p>
    </td>
   </tr>
   <tr>
-   <td><strong>产品</strong>
+   <td><strong>其他产品</strong>
    </td>
    <td>您必须安装了Experience Manager Assets as a Cloud Service或Assets Essentials，并且您必须作为用户添加到产品中。
    </td>
@@ -59,8 +59,7 @@ ht-degree: 0%
   </tr>
 </table>
 
-
-*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: 6b2d93d2573d72e4390761038d8078f47d96d55e
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1293'
 ht-degree: 2%
 
 ---
@@ -37,26 +37,26 @@ ht-degree: 2%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-   <td>任何</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td>规划</td> 
+   <td><p>标准</p><p>规划</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>您必须是Workfront管理员。</p> <p><b>注意</b>：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td> <p>您必须是Workfront管理员。</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -106,7 +106,7 @@ Workfront管理员还有唯一的API密钥。 当应用程序使用管理员API�
 
    1. 展开&#x200B;**系统**，然后单击&#x200B;**单点登录(SSO)**。
    1. 在&#x200B;**类型**&#x200B;字段中，选择贵组织使用的SSO类型。
-   1. 选定类型后，向下滚动并清除&#x200B;**启用**&#x200B;复选框。
+   1. 选定类型后，向下滚动并清除&#x200B;**启用**复选框。
       ![启用SSO](assets/sysadmin-security-sso-disable-31620-350x320.png)
    1. 单击&#x200B;**保存**。
 
@@ -159,7 +159,7 @@ Workfront管理员还有唯一的API密钥。 当应用程序使用管理员API�
 
 1. 展开&#x200B;**系统**，然后单击&#x200B;**客户信息**。
 
-1. 在&#x200B;**API密钥设置**&#x200B;区域中，单击&#x200B;**删除所有API密钥**，然后单击&#x200B;**删除**&#x200B;**全部**。
+1. 在&#x200B;**API密钥设置**&#x200B;区域中，单击&#x200B;**删除所有API密钥**，然后单击&#x200B;**删除****全部**。
 
 ## 使用X.509证书限制API登录
 

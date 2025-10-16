@@ -6,10 +6,10 @@ description: Adobe Workfront可以为资源规划者的用户视图生成唯一�
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-source-git-commit: af0f1b9baef20c5910b13a52207531887a8524c5
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 0%
+source-wordcount: '637'
+ht-degree: 1%
 
 ---
 
@@ -23,36 +23,32 @@ Adobe Workfront可以为资源规划者的用户视图生成唯一的URL，您�
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-    <td><p>新建：任何</p>
-       <p>或</p>
-       <p>当前： Pro或更高版本</p> </td> 
+  <tr> 
+   <td>Adobe Workfront包</td> 
+   <td><p>任何</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td><p>新增：标准</p>
-       <p>或</p>
-       <p>当前：计划</p></td> 
+   <td>Adobe Workfront许可证</td> 
+   <td><p>标准</p>
+       <p>规划</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
+   <td>访问级别配置</td> 
    <td> <p>查看资源管理、项目和用户的或更高访问权限</p> <p>查看对财务数据的访问权限以查看成本信息</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">对象权限</td> 
+   <td>对象权限</td> 
    <td> <p>查看您想在资源规划者中显示的项目或授予更高的权限</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -75,7 +71,7 @@ Adobe Workfront可以为资源规划者的用户视图生成唯一的URL，您�
 1. （可选）选择要在资源规划程序中查看信息所依据的时间范围。 从以下项中选择：
 
    * 周
-   * 月
+   * Month
    * 季度
 
 1. （可选）选择要按&#x200B;**FTE**&#x200B;还是&#x200B;**Hours**&#x200B;查看信息。\

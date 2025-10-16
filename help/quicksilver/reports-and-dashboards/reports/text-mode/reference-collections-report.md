@@ -6,7 +6,7 @@ description: 在报表中引用收藏集
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 6bd9dc626befc4dfa4054760e7ec7d677f6da6e5
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
 source-wordcount: '2615'
 ht-degree: 0%
@@ -25,28 +25,20 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具备以下条件：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>标准</p></li>
-         </ul>
-      <p>当前：</p>
-         <ul>
-         <li><p>规划</p></li>
-         </ul>
-   </td>
+     <p>标准</p>
+     <p>规划</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -59,7 +51,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -182,9 +174,9 @@ Workfront中的对象之间存在以下两个关系：
    ```
 
 1. 将&#x200B;**Column Name**&#x200B;替换为`displayname`行中的列名。
-1. 将&#x200B;**集合对象名称**&#x200B;替换为[API资源管理器](../../../wf-api/general/api-explorer.md)中显示的集合对象名称（位于`listmethod`行）。
+1. 将&#x200B;**集合对象名称**&#x200B;替换为`listmethod`API资源管理器[中显示的集合对象名称（位于](../../../wf-api/general/api-explorer.md)行）。
 
-1. 将&#x200B;**集合对象字段**&#x200B;替换为[API资源管理器](../../../wf-api/general/api-explorer.md)中显示的集合对象在`valuefield`行中的字段名称。
+1. 将&#x200B;**集合对象字段**&#x200B;替换为`valuefield`API资源管理器[中显示的集合对象在](../../../wf-api/general/api-explorer.md)行中的字段名称。
 
    如果要在视图中创建自定义表达式，可以使用&#x200B;**valueexpression**&#x200B;替换&#x200B;**valuefield**。
 
@@ -274,7 +266,7 @@ Workfront中的对象之间存在以下两个关系：
   </tr> 
   <tr> 
    <td><code>listdelimiter=&lt;p&gt;</code> </td> 
-   <td> <p>这是用于分隔列表中各个值的分隔符。<br>我们建议使用<code>&lt;p&gt;</code>，它在值之间添加换行符。</p> <p>您还可以使用以下命令：</p> <p><code>&zwj;</code> （零宽度连接符）。 集合的值之间没有分隔符。<br><strong>，</strong> =逗号分隔符。 收藏集的值由逗号分隔，后跟空格。<br><strong>/</strong> =斜杠分隔符。 集合的值用斜杠分隔。<br><strong>-</strong> =短划线分隔符。 集合的值用短划线分隔。<br>默认情况下，将此行留空将在集合的值之间添加一个逗号，后跟一个空格。</p> </td> 
+   <td> <p>这是用于分隔列表中各个值的分隔符。<br>我们建议使用<code>&lt;p&gt;</code>，它在值之间添加换行符。</p> <p>您还可以使用以下命令：</p> <p><code>&amp;zwj;</code> （零宽度连接符）。 集合的值之间没有分隔符。<br><strong>，</strong> =逗号分隔符。 收藏集的值由逗号分隔，后跟空格。<br><strong>/</strong> =斜杠分隔符。 集合的值用斜杠分隔。<br><strong>-</strong> =短划线分隔符。 集合的值用短划线分隔。<br>默认情况下，将此行留空将在集合的值之间添加一个逗号，后跟一个空格。</p> </td> 
   </tr> 
   <tr> 
    <td><code>displayname=</code><em>列名称</em> </td> 
@@ -398,12 +390,12 @@ Workfront中的对象之间存在以下两个关系：
 1. 单击&#x200B;**主菜单**&#x200B;菜单![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**报表**。
 1. 单击&#x200B;**新建报告**。
 1. 选择报表的对象。
-1. 使用集合引用生成筛选器，如本文中报表[&#128279;](#reference-a-collection-in-the-filter-of-a-report)的筛选器中的引用集合部分所述。
+1. 使用集合引用生成筛选器，如本文中报表[的筛选器中的](#reference-a-collection-in-the-filter-of-a-report)引用集合部分所述。
 1. 单击&#x200B;**报表设置**。
 1. 单击&#x200B;**报告提示**。
 1. 单击&#x200B;**添加提示**。
 1. 单击&#x200B;**自定义提示**。
-1. 在&#x200B;**字段{name**&#x200B;**1}字段中指定提示的名称。**
+1. 在&#x200B;**字段{name****1}字段中指定提示的名称。**
 
 1. 指定&#x200B;**下拉项目标签**。
 1. 在&#x200B;**条件**&#x200B;字段中指定以下内容：

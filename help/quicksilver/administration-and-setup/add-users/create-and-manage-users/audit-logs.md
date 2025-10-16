@@ -8,7 +8,7 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: aeb55124fa76192a5c39b504964fe9acc16c31d8
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
 source-wordcount: '1522'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # 审核日志概述
 
-<!--Audited: 01/2024-->
+<!--Audited: 08/2025-->
 
 作为Adobe Workfront管理员，您可以使用下述审核日志跟踪过去90天内系统中触发的用户更改。
 

@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -34,14 +34,14 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront计划</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront包</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront许可证*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront许可证</strong></td> 
    <td> 
-   <p>当前：查看者或更高版本</p>
-   <p>新增：浅色或更高</p> 
+   <p>审阅者或更高版本</p>
+   <p>浅色或更高</p> 
    </td> 
   </tr> 
   <tr> 
@@ -74,7 +74,7 @@ ht-degree: 0%
 {{step1-to-priorities}}
 
 1. 单击屏幕左侧的&#x200B;**列**。
-1. 单击&#x200B;**拖动**&#x200B;图标并将列移动到所需的位置。 自动移动列会更新工作列表。
+1. 单击&#x200B;**拖动**图标并将列移动到所需的位置。 自动移动列会更新工作列表。
    ![对列重新排序](assets/reorder-columns-new.png)
 
 >[!NOTE]

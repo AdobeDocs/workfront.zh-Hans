@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: f9455b5aa57585a0e037f024807c19d48296d518
+source-git-commit: 39b3ecde744625c070a5c4378938e297f50feeaa
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 3%
+source-wordcount: '661'
+ht-degree: 4%
 
 ---
 
@@ -37,34 +37,30 @@ ht-degree: 3%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront计划</strong></td> 
+   <td>Adobe Workfront包</td> 
    <td><p>任何</p>
-
-<p>将自定义应用程序添加到主菜单仅适用于获得Adobe App Builder许可的组织。</p></td> 
+       <p>将自定义应用程序添加到主菜单仅适用于获得Adobe App Builder许可的组织。</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront许可证*</strong></td> 
-   <td><p>当前：计划</p>
-   或
-   <p>新增：标准</p></td> 
+   <td>Adobe Workfront许可证</td> 
+   <td><p>标准</p>
+       <p>规划</p></td>
+  </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>访问级别配置</strong></td> 
+   <td>访问级别配置</td> 
    <td> <p>要在系统级别执行这些步骤，您需要系统管理员访问级别。</p>
-    <p>要为组执行这些操作，您必须是该组的经理。</p> 
-     </td> 
+        <p>要为组执行这些操作，您必须是该组的经理。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*有关访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

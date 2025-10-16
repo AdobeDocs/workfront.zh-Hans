@@ -7,9 +7,9 @@ description: 您可以将 [!DNL Adobe Workfront)] 未生成的外部电子邮件
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7a15f557-67d8-4be8-8538-4bce06536c0a
-source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
+source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '865'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 0%
 >
 >为了满足贵组织与Google Workspace的集成需求，我们建议使用Workfront自动化和集成。
 >
->有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 >
->有关Google Workspace的Workfront自动化和集成模块的特定功能的信息，请参阅[Gmail模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)和[Google日历模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)。
+>有关Google Workspace的Workfront自动化和集成模块的特定功能的信息，请参阅[Gmail模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)和[Google日历模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)。
 
 您可以将外部电子邮件（非[!DNL Adobe Workfront]生成）转换为[!DNL Workfront]问题。
 
@@ -38,24 +38,26 @@ ht-degree: 0%
 
 ## 访问要求
 
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[!UICONTROL 工作]，[!UICONTROL 计划]</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p>标准</p><p>工作或更高</p>
   </tr> 
-   </tbody> 
+ </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先决条件
 
@@ -79,28 +81,28 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 问题名称]</td> 
+      <td role="rowheader">[！UICONTROL问题名称]</td> 
       <td>编辑此文本的任何部分，这部分内容取自电子邮件的主题行。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 描述]</td> 
+      <td role="rowheader">[！UICONTROL描述]</td> 
       <td>编辑此文本的任何部分，这部分内容取自电子邮件的正文。</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL 分配给]</td> 
-      <td>单击<strong>[!UICONTROL 分配给]</strong>，单击显示的<strong>[!UICONTROL 将此分配给]</strong>选项，然后开始键入人员姓名，并在人员姓名出现在以下列表中时单击该姓名。 对要添加的每个人重复此操作，然后单击<strong>[!UICONTROL 保存]</strong>。</td> 
+      <td role="rowheader">[！UICONTROL分配给]</td> 
+      <td>单击<strong>[！UICONTROL分配给]</strong>，单击显示的<strong>[！UICONTROL将此分配给]</strong>选项，然后开始键入人员姓名，并在人员姓名出现在以下列表中时单击该姓名。 对要添加的每个人重复此操作，然后单击<strong>[！UICONTROL保存]</strong>。</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL 优先级]</td> 
+      <td role="rowheader">[！UICONTROL优先级]</td> 
       <td>单击下拉箭头，然后单击问题的优先级。</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL Include e-mail attachments]</td> 
-      <td> <p>（仅当电子邮件至少包含一个附件时才可用。） 单击此选项可将电子邮件中的附件保存到问题的[!UICONTROL 文档]区域。 </p> <p>如果不想保存附件，请单击附件名称右侧的X。 </p> <p>如果电子邮件包含指向[!DNL Google Drive]中文档的链接，则这些链接将保存到您正在创建的问题的[!UICONTROL 概述]选项卡中。 </p> <p>重要提示：为了使其正常工作，您的[!DNL Workfront]管理员必须授权[!DNL Google Drive]使用[!DNL Workfront]中的文档，如<a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md#configur" class="MCXref xref">配置文档集成</a>中的<a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref">配置集成以管理文档</a>部分所述。</p> <p>如果启用此选项，则对于您转换为任务、问题和更新的其他电子邮件，此选项将保持启用状态。</p> </td> 
+      <td role="rowheader">[！UICONTROL Include e-mail attachments]</td> 
+      <td> <p>（仅当电子邮件至少包含一个附件时才可用。） 单击此选项可将电子邮件中的附件保存到问题的[！UICONTROL文档]区域。 </p> <p>如果不想保存附件，请单击附件名称右侧的X。 </p> <p>如果电子邮件包含指向[!DNL Google Drive]中文档的链接，则这些链接将保存到您正在创建的问题的[！UICONTROL概述]选项卡中。 </p> <p>重要提示：为了使其正常工作，您的[!DNL Workfront]管理员必须授权[!DNL Google Drive]使用[!DNL Workfront]中的文档，如<a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md#configur" class="MCXref xref">配置文档集成</a>中的<a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref">配置集成以管理文档</a>部分所述。</p> <p>如果启用此选项，则对于您转换为任务、问题和更新的其他电子邮件，此选项将保持启用状态。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">包括电子邮件文件</td> 
-      <td> <p>单击此选项可将原始电子邮件作为电子邮件(EML) （电子邮件）文件<span>保存到问题的[!UICONTROL 文档]区域</span>。 从该位置，您可以双击文件以在电子邮件应用程序中打开电子邮件。</p> <p>如果启用此选项，则对于您转换为任务、问题和更新的其他电子邮件，此选项将保持启用状态。</p> </td> 
+      <td> <p>单击此选项可将原始电子邮件作为电子邮件(EML) （电子邮件）文件<span>保存到问题的[！UICONTROL文档]区域</span>。 从该位置，您可以双击文件以在电子邮件应用程序中打开电子邮件。</p> <p>如果启用此选项，则对于您转换为任务、问题和更新的其他电子邮件，此选项将保持启用状态。</p> </td> 
      </tr> 
     </tbody> 
    </table>

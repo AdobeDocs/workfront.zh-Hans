@@ -6,10 +6,10 @@ description: 目标进展受活动、结果或儿童目标等进度指标的驱�
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 0%
+source-wordcount: '795'
+ht-degree: 1%
 
 ---
 
@@ -17,23 +17,31 @@ ht-degree: 0%
 
 <!--Audited for P&P only: 4/2025-->
 
->[!IMPORTANT]
+>[!NOTE]
 >
->您的组织必须具备以下条件才能使用本文中所述的功能：
+>如果您的公司以前购买过此包，则可能会选择继续使用Adobe Workfront Goals。 有关详细信息，请与您的客户代表联系。
 >
->
->* 对于新计划和许可证结构：
->
->   * Ultimate计划
->    
->* 对于当前计划和许可证结构：
->
->   * Pro或更高版本
->   * 除了Adobe Workfront许可证之外，还提供了Workfront目标许可证。
->
-> 请联系您的Workfront客户经理，了解有关Workfront Goals许可证的信息。
+>Adobe Workfront目标不再可供购买。
 >
 >有关访问Workfront目标的更多信息，请参阅[使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)。
+
+<!--Old:
+>[!IMPORTANT]
+>
+>Your organization must have the following to use the functionality described in this article:
+>
+>
+>* For the new plan and license structure:
+>
+>   * An Ultimate plan 
+>    
+>* For the current plan and license structure: 
+>
+>   * A Pro or higher 
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
+>
+> Contact your Workfront account manager to learn about a Workfront Goals license.-->
+
 
 Adobe Workfront会根据其进度指示器的进度，自动计算目标进度。
 

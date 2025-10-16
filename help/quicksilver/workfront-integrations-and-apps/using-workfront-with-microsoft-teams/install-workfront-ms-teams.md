@@ -2,13 +2,13 @@
 product-area: workfront-integrations;setup
 navigation-topic: workfront-for-microsoft-teams
 title: '为Microsoft Teams安装 [!DNL Adobe Workfront] '
-description: ' [!DNL Adobe Workfront for Microsoft Teams] 应用允许您在不离开 [!DNL Microsoft Teams] 聊天频道的情况下在 [!DNL Workfront] 中执行基本操作。'
+description: ' [!DNL Adobe Workfront for Microsoft Teams] 应用允许您在不离开 [!DNL Workfront] 聊天频道的情况下在 [!DNL Microsoft Teams] 中执行基本操作。'
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-source-git-commit: 940cbfb34f12eacd5ba698f60fb7a3e67eb62b22
+source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -24,48 +24,48 @@ ht-degree: 0%
 >更新的Workfront集成现已可用，并与新团队体验完全兼容。 在大多数情况下，用户完成过渡后，Workfront会自动显示。 如果不包含，则可以从Microsoft Teams App Store手动安装集成。
 
 
-[!DNL Adobe Workfront for Microsoft Teams]应用允许您在不离开[!DNL Microsoft Teams]聊天渠道的情况下在[!DNL Workfront]中执行基本操作。
+[!DNL Adobe Workfront for Microsoft Teams]应用允许您在不离开[!DNL Workfront]聊天渠道的情况下在[!DNL Microsoft Teams]中执行基本操作。
 
 >[!NOTE]
 >
 >[!DNL Microsoft Teams]不再支持[!DNL Internet Explorer]。 要使用[!DNL Adobe Workfront for Microsoft Teams integration]，您必须使用[!DNL Internet Explorer]以外的Web浏览器。
 
 
+
+
 ## 访问要求
 
 +++ 展开以查看本文中各项功能的访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>新增：标准</p>
-    <p>当前： [!UICONTROL 工作]，[!UICONTROL 计划]</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p>标准</p>
+   <p>工作或更高</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
 ## 先决条件
 
-您必须是[!DNL Microsoft Teams]中的团队所有者才能为[!DNL Microsoft Teams]安装[!DNL Workfront]。
+您必须是[!DNL Microsoft Teams]中的团队所有者才能为[!DNL Workfront]安装[!DNL Microsoft Teams]。
 
 ## 安装[!DNL Workfront for Microsoft Teams]
 
-作为[!DNL Microsoft Teams]中的团队所有者，您可以通过[!DNL Microsoft]应用商店或[!DNL Workfront]提供的文件为每个团队安装[!DNL Workfront for Microsoft Teams]应用程序。
+作为[!DNL Microsoft Teams]中的团队所有者，您可以通过[!DNL Workfront for Microsoft Teams]应用商店或[!DNL Microsoft]提供的文件为每个团队安装[!DNL Workfront]应用程序。
 
-### 从[!DNL Microsoft]存储区安装[!DNL Workfront for Microsoft Teams]
+### 从[!DNL Workfront for Microsoft Teams]存储区安装[!DNL Microsoft]
 
 1. 以团队所有者的身份登录到[!DNL Microsoft Teams]。
 1. 选择要为其安装[!DNL Workfront for Microsoft Teams]应用程序的团队。
@@ -90,31 +90,31 @@ ht-degree: 0%
 要从专用文件安装[!DNL Workfront for Microsoft Teams]，请执行以下操作：
 
 1. 在计算机上保存您从[!DNL Workfront]收到的专用文件。
-1. 以[!DNL Microsoft]团队所有者的身份登录到[!DNL Microsoft Teams]。
-1. 单击要为其安装[!DNL Workfront for Microsoft Teams]的团队的&#x200B;**[!UICONTROL 更多]**&#x200B;图标。
+1. 以[!DNL Microsoft Teams]团队所有者的身份登录到[!DNL Microsoft]。
+1. 单击要为其安装&#x200B;**[!UICONTROL 的团队的]**&#x200B;更多[!DNL Workfront for Microsoft Teams]图标。
 
 1. 单击&#x200B;**[!UICONTROL 管理团队]**。
 1. 选择应用程序选项卡，然后单击屏幕左上角的上传应用程序。
 1. 浏览您保存在计算机上的专用文件，然后按照安装步骤安装[!DNL Workfront for Microsoft Teams]。
 1. 安装完成后，您选择的团队的“常规”渠道中会显示安装成功的通知。 团队的所有成员都可以看到此通知。
 
-## 从[!DNL Microsoft]团队登录到[!DNL Workfront]
+## 从[!DNL Workfront]团队登录到[!DNL Microsoft]
 
 作为[!DNL Microsoft Teams]团队所有者，您必须先为团队安装[!DNL Workfront for Microsoft Teams]应用，您或团队中的任何人都可以登录[!DNL Workfront from Microsoft Teams]。
 
-当您从[!DNL Microsoft Teams]登录到[!DNL Workfront]时，您可以在[!DNL Workfront]机器人频道中接收[!DNL Workfront]通知，或者您可以从[!DNL Microsoft Teams]在[!DNL Workfront]中执行某些操作。
+当您从[!DNL Workfront]登录到[!DNL Microsoft Teams]时，您可以在[!DNL Workfront]机器人频道中接收[!DNL Workfront]通知，或者您可以从[!DNL Workfront]在[!DNL Microsoft Teams]中执行某些操作。
 
 有关安装[!DNL Workfront]应用的信息，请参阅本文中的[安装 [!DNL Workfront for Microsoft Teams]](#install-workfront-for-microsoft-teams)部分。
 
-有关从[!DNL Microsoft Teams]访问[!DNL Workfront]以执行某些操作的信息，请参阅[从 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md)访问 [!DNL Adobe Workfront] 。
+有关从[!DNL Workfront]访问[!DNL Microsoft Teams]以执行某些操作的信息，请参阅[从 [!DNL Adobe Workfront] 访问 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md)。
 
-要从[!DNL Microsoft Teams]登录到[!DNL Workfront]，请执行以下操作：
+要从[!DNL Workfront]登录到[!DNL Microsoft Teams]，请执行以下操作：
 
-1. 转到已安装[!DNL Workfront for Microsoft Teams]应用程序的团队的&#x200B;**[!UICONTROL 常规]**&#x200B;渠道，然后单击&#x200B;**[!UICONTROL 登录到Workfront]**。
+1. 转到已安装&#x200B;**[!UICONTROL 应用程序的团队的]**&#x200B;常规[!DNL Workfront for Microsoft Teams]渠道，然后单击&#x200B;**[!UICONTROL 登录到Workfront]**。
 
    [!DNL Workfront]机器人聊天频道已添加到您的[!DNL Microsoft Teams]聊天频道。
 
-1. 转到[!DNL Microsoft Teams]中的[!DNL Workfront]机器人聊天频道，然后在&#x200B;**[!UICONTROL 中键入&#x200B;*[!UICONTROL 登录]*在此处键入您的问题]**&#x200B;或&#x200B;**键入消息**&#x200B;字段。
+1. 转到[!DNL Workfront]中的[!DNL Microsoft Teams]机器人聊天频道，然后在&#x200B;*[!UICONTROL 中键入]*&#x200B;登录&#x200B;**[!UICONTROL 在此处键入您的问题]**&#x200B;或&#x200B;**键入消息**&#x200B;字段。
 
    或
 

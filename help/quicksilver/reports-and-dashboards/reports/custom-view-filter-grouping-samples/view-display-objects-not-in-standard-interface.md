@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '视图：显示未包含在标准界面中的对象'
+title: 视图：显示未包含在标准界面中的对象
 description: 可在视图中显示未包含在标准模式界面中的对象。 您只能通过文本模式引用它们。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c0138730-494b-4443-865a-44f8f00d5342
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -30,28 +30,21 @@ ht-degree: 0%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
-    <p>新增：</p>
-   <ul><li><p>修改过滤器的参与者 </p></li>
-   <li><p>用于修改报告的标准</p></li> </ul>
-
-<p>当前：</p>
-   <ul><li><p>请求修改筛选器 </p></li>
-   <li><p>计划修改报告</p></li> </ul></td> 
+   <p>修改过滤器的参与者或请求 </p>
+   <p>用于修改报告的标准或计划</p>
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -64,7 +57,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -92,10 +85,10 @@ ht-degree: 0%
    linkedname=portfolio
    ```
 
-   在此特定示例中，报告将按Portfolio所有者ID对报告进行排序，如`querysort`行所示。
+   在此特定示例中，报表将按Portfolio所有者ID对报表进行排序，如`querysort`行所示。
 
    >[!TIP]
    >
-   >要使用文本模式将任何字段`ID`替换为字段`name`，请始终将`valuefield`行中的`ID`替换为`:name`。
+   >要使用文本模式将任何字段`ID`替换为字段`name`，请始终将`ID`行中的`:name`替换为`valuefield`。
 
 1. 单击&#x200B;**完成**，然后单击&#x200B;**保存视图**。

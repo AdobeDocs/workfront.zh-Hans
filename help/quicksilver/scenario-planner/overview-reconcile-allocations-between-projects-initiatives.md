@@ -1,12 +1,12 @@
 ---
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: 在项目和计划之间协调资源分配概述
+title: 在项目和计划之间调节资源分配概览
 description: 在项目和计划之间协调资源分配概述
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 82cd9641-1213-436c-935a-2f04a0425e9c
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 0%
@@ -44,7 +44,7 @@ ht-degree: 0%
 
   有关详细信息，请参阅[在 [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md)中将项目导入计划。
 
-* Publish计划到项目
+* 将计划发布到项目
 
   有关详细信息，请参阅[通过在 [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)中发布计划来更新或创建项目。
 
@@ -64,14 +64,14 @@ ht-degree: 0%
 
 * 您可以在项目的以下区域查看链接项目上的计划工作角色分配：
 
-   * 项目上[!UICONTROL 项目详细信息]区域的[!DNL Scenario Planner]部分。 有关更多信息，请参阅以下文章：
+   * 项目上[!DNL Scenario Planner]项目详细信息[!UICONTROL 区域的]部分。 有关更多信息，请参阅以下文章：
 
       * [通过在 [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)中发布计划来更新或创建项目
       * [管理项目[!UICONTROL 概述]区域中的信息](../manage-work/projects/manage-projects/understand-project-overview-area.md)
 
      >[!TIP]
      >
-     >在[!UICONTROL 项目详细信息]的[!DNL Scenario Planner]部分中，您无法并排查看项目和计划的工作角色信息。
+     >在[!DNL Scenario Planner]项目详细信息[!UICONTROL 的]部分中，您无法并排查看项目和计划的工作角色信息。
 
    * [!UICONTROL 角色分配]面板位于以下区域：
 

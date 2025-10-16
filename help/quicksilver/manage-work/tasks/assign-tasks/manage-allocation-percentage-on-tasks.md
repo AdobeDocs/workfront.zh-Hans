@@ -6,9 +6,9 @@ description: 分配百分比表示已分配资源在一天内计划处理一项�
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '429'
 ht-degree: 1%
 
 ---
@@ -25,33 +25,33 @@ ht-degree: 1%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td>Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td> <p>新增：标准</p> 
-   <p>当前：工作或更高</p> </td> 
+   <td>Adobe Workfront许可证</td> 
+   <td> <p>标准</p>
+   <p>工作或更高</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
-   <td> <p>编辑任务访问权限</p> </td> 
+   <td>访问级别配置</td> 
+   <td>编辑任务访问权限</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">对象权限</td> 
-   <td> <p>为任务分配或更高权限</p> <p>在“编辑任务”框中编辑权限以更新分配百分比</p>  </td> 
-  </tr> 
- </tbody> 
+   <td>对象权限</td>
+   <td><p>为任务分配或更高权限</p>
+   <p>在“编辑任务”框中编辑权限以更新分配百分比</p></td>
+  </tr>
+ </tbody>
 </table>
 
-有关此表中信息的更多详细信息，请参阅[Workfront的访问要求文档](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

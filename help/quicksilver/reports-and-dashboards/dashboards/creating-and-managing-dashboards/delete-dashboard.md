@@ -6,7 +6,7 @@ description: 如果您不再需要使用功能板，可以将其从Adobe Workfro
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 706a3e16-34d7-49d8-9688-109ce4f95c2f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%
@@ -21,43 +21,36 @@ ht-degree: 0%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
-
-您必须具备以下条件：
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront计划</strong></td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront许可证</strong></td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>标准</p></li>
-         </ul>
-      <p>当前：</p>
-         <ul>
-         <li><p>计划</p></li>
-         </ul>
-   </td>
+      <p>标准</p>
+      <p>规划</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>访问级别配置</strong></td> 
+   <td role="rowheader">访问级别配置</td> 
    <td> <p>编辑对报告、功能板和日历的访问权限</p></td> 
-  </tr> 
+  </tr>  
   <tr> 
-   <td role="rowheader"><strong>对象权限</strong></td> 
+   <td role="rowheader">对象权限</td> 
    <td> <p>管理仪表板的权限</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
 
 +++
 

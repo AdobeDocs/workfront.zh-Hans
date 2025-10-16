@@ -6,9 +6,9 @@ description: 在与Adobe Workfront中的其他用户共享报表时，请考虑�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1146'
 ht-degree: 2%
 
 ---
@@ -39,38 +39,35 @@ ht-degree: 2%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront计划*</strong></td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront许可证*</strong></td> 
-   <td> <p>新增：</p> 
-   <ul><li>报告视图的标准</li>
-  <li> 列表视图的参与者或更高版本</li></ul>
-   <p>当前：</p>
-   <ul>
-    <li> 规划报告视图 </li>
-    <li> 请求或更高版本以访问列表视图 </li> </ul></td> 
+   <td role="rowheader">Adobe Workfront许可证</strong></td> 
+   <td> 
+    <p>报告视图的标准或计划</p>
+    <p>参与者或请求列表视图</p>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报告、功能板、日历的访问权限以编辑报告中的视图</p></td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报告、功能板、日历的访问权限以编辑报告中的视图</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>管理对报告的权限以创建或编辑报告中的视图</p> <p>管理视图的权限</p></td> 
+   <td role="rowheader">对象权限</td> 
+    <td> <p>管理对报告的权限以创建或编辑报告中的视图</p> <p>管理视图的权限</p></td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

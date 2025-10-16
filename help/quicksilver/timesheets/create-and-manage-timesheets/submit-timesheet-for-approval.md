@@ -3,12 +3,12 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: 提交工时表以供审批
 description: 通过提交时间表以供审批，您的经理可以查看您的工作时间。 批准者可以验证记录的所有时间是否分配到了正确的区域，以及期间是否记录了足够的小时数。
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '839'
 ht-degree: 0%
 
 ---
@@ -23,33 +23,31 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td>Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>新增：浅色或更高 </p>
-   <p>当前：审阅或更高版本 </p>
+   <td>Adobe Workfront许可证</td> 
+   <td> <p>浅色或更高 </p>
+   <p>审核或更高 </p>
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
+   <td>访问级别配置</td> 
    <td> <p>查看或更高权限的任务和问题 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">对象权限</td> 
+   <td>对象权限</td> 
    <td> <p>查看时间表或更高权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -60,7 +58,7 @@ ht-degree: 0%
 
 ### 提交工时表以供审批
 
-设置时间表批准者后（如文章[批准时间表](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)中的[指定时间表批准者](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver)部分中所述），时间表底部的&#x200B;**关闭**&#x200B;按钮更改为&#x200B;**提交以供批准**&#x200B;按钮。
+设置时间表批准者后（如文章[批准时间表](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver)中的[指定时间表批准者](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)部分中所述），时间表底部的&#x200B;**关闭**&#x200B;按钮更改为&#x200B;**提交以供批准**&#x200B;按钮。
 
 要提交工时表以供审批，请执行以下操作：
 
@@ -127,7 +125,7 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">打开</td> 
+      <td role="rowheader">Open</td> 
       <td> <p>您的时间表当前处于打开状态，您可以记录时间。 </p> <p>撤回的工时表显示为“未结”状态。 有关信息，请参阅本文中的<a href="#recall-a-timesheet" class="MCXref xref">撤回时间表</a>部分。 </p> </td> 
      </tr> 
      <tr> 
@@ -158,7 +156,7 @@ ht-degree: 0%
 1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)。
 
 1. 单击&#x200B;**时间表**。
-1. 单击屏幕右上角的&#x200B;**我的时间表**，或从&#x200B;**筛选器**![](assets/filter-nwepng.png)下拉菜单中选择&#x200B;**我的时间表**。
+1. 单击屏幕右上角的&#x200B;**我的时间表**，或从&#x200B;**筛选器****下拉菜单中选择**&#x200B;我的时间表![](assets/filter-nwepng.png)。
 1. 单击状态为&#x200B;**已提交**&#x200B;的工时表的时间范围。
 1. 单击&#x200B;**撤消**。
 

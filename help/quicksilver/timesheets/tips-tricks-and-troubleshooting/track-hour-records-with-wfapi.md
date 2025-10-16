@@ -4,10 +4,10 @@ product-area: timesheets
 navigation-topic: tips-tricks-and-troubleshooting-timesheets
 title: 使用Adobe Workfront API跟踪小时记录
 description: 如果贵组织使用Adobe Workfront输入工作时数，但使用其他工具作为该数据的记录系统，则可以使用Workfront API在两种系统之间同步数据。
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: b26f8156-f9dc-43e7-8e0d-8c0905dc7a12
-source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 仅跟踪小时记录并不可行，因为如果删除小时条目，将删除整个记录，这要求您拉取整个数据集并将其与旧数据集进行比较。 幸运的是，所有小时交易记录都记录在Workfront日记帐分录中。
 
 在检索系统中所有当前小时数的初始集后，您可以通过日志条目跟踪任何和所有更改。
-<pre>GET/attask/api/v5.0/JRNLE/search？subObjCode=HOUR&amp;fields=changeType，aux2，newNumberVal，oldNumberVal，subObjCode，subObjID</pre><pre>{<br>"data"： [<br>{<br>"ID"： "5785406d008d93dd35665f14d90d4929"，<br>"objCode"： "JRNLE"，<br>"changeType"： "A"，<br>"aux2"： "Brad Littler"，<br>"newNumberVal"： 1，<br>"oldNumberVal"： null，<br>"subObjCode" "HOUR"，<br>"subObjID"： "5785406d008d93dce3f7f2e0e8eda4ea"<br>}，<br>{<br>"ID"： "57854124008da2b9f372c01f8b9054bf"，<br>"objCode"： "JRNLE"，<br>"changeType"： "D"，<br>"aux2"： brad Littler”，<br>"newNumberVal"： null，<br>"oldNumberVal"： 1，<br>"subObjCode"： "HOUR"，<br>"subObjID"： "5785406d008d93dce3f7f2e0e8eda4ea"<br>}，<br>{<br>"ID"： "5785416f08db05ecee934663968366"，<br>"objCode"： "JRNLE"，<br>"changeType"： "A"，<br>"aux2"： "Brad Littler"，<br>"newNumberVal"： 1，<br>"oldNumberVal"： null，<br>"subObjCode"： "HOUR"，<br>"subObjID"： "5785416f008db05d9d2925c 112b10f521"<br>}，<br>{<br>"ID"： "57854176008db22fe974b7c67feea6b2"，<br>"objCode"： "JRNLE"，<br>"changeType"： "E"，<br>"aux2"： "Brad Littler"，<br>"newNumberVal"： 2，<br>"oldNumberVal"： 1，<br>"subObjCode"： "HOUR"，<br>"subObjID"： "5785416f008db05d9d2925c12b10f521"<br>}<br>]<br>}</pre>以下是对所包含字段的描述：
+<pre>GET /attask/api/v5.0/JRNLE/search？subObjCode=HOUR&amp;fields=changeType，aux2，newNumberVal，oldNumberVal，subObjCode，subObjID</pre><pre>{<br>"data"： [<br>{<br>"ID"： "5785406d008d93dd35665f14d90d4929"，<br>"objCode"： "JRNLE"，<br>"changeType"： "A"，<br>"aux2"： "Brad Littler"，<br>"newNumberVal"： 1，<br>"oldNumberVal"： null，<br>"subObjCode" "HOUR"，<br>"subObjID"： "5785406d008d93dce3f7f2e0e8eda4ea"<br>}，<br>{<br>"ID"： "57854124008da2b9f372c01f8b9054bf"，<br>"objCode"： "JRNLE"，<br>"changeType"： "D"，<br>"aux2"： brad Littler”，<br>"newNumberVal"： null，<br>"oldNumberVal"： 1，<br>"subObjCode"： "HOUR"，<br>"subObjID"： "5785406d008d93dce3f7f2e0e8eda4ea"<br>}，<br>{<br>"ID"： "5785416f008db05ecee934663a968366"，<br>"objCode"： "JRNLE"，<br>"changeType"： "A"，<br>"aux2"： "Brad Littler"，<br>"newNumberVal"： 1，<br>"oldNumberVal"： null，<br>"subObjCode"： "HOUR"，<br>"subObjID"： "5785416f008db05d9d2925c12b10f521"<br>}，<br>{<br>"ID"： "57854176008db22fe974b7c67feea6b2"，<br>"objCode"： "JRNLE"，<br>"changeType"： "E"，<br>"aux2"： "Brad Littler}"，{36 val”： 1，<br>"subObjCode"： "HOUR"，<br>"subObjID"： "5785416f008db05d9d2925c12b10f521"<br>}<br>]<br>}<br><br></pre>以下是对所包含字段的描述：
 
 * **changeType：**&#x200B;对对象所做的更改类型：
 

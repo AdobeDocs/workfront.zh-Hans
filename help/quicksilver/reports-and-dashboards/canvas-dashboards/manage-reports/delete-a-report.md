@@ -6,9 +6,9 @@ description: 您可以从“画布”功能板中删除报表。
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 98d26160-a097-473d-8d66-e6d619cb2908
-source-git-commit: fb8b9a10aac45868e085fb5154ef02ce989b599d
+source-git-commit: b5fbff2b81efaf31d0a8abaf32d6195303876531
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '343'
 ht-degree: 1%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >画布功能板目前仅适用于参与Beta测试阶段的用户。 在此阶段，部分功能可能无法完成或无法按预期工作。 请按照“画布功能板测试版”概述文章中[提供反馈](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)部分的说明提交任何有关您体验的反馈。<br>
->&#x200B;>如果您对可能的错误或技术问题有反馈，请向Workfront支持提交票证。 有关详细信息，请参阅[联系客户支持](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
->&#x200B;>请注意，以下云提供商未提供此测试版：
+>>如果您对可能的错误或技术问题有反馈，请向Workfront支持提交票证。 有关详细信息，请参阅[联系客户支持](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
+>>请注意，以下云提供商未提供此测试版：
 >
 >* 自带Amazon Web Services密钥
 >* Azure
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 ## 访问要求
 
-+++ 展开以查看访问要求。 
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -40,7 +40,7 @@ ht-degree: 1%
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront计划</p></td> 
+   <td role="rowheader"><p>Adobe Workfront包</p></td> 
    <td> 
 <p>任何 </p> 
    </td> 
@@ -48,8 +48,8 @@ ht-degree: 1%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
    <td> 
-<p>当前：计划 </p> 
-<p>新增：标准</p> 
+<p>标准 </p> 
+<p>规划</p> 
    </td> 
    </tr> 
   </tr> 
@@ -80,7 +80,7 @@ ht-degree: 1%
 >[!WARNING]
 >
 >删除报告后，便无法恢复。<br>
->&#x200B;>如果您将现有的经典报告添加到画布仪表板，则从仪表板中删除它不会删除原始报告。
+>>如果您将现有的经典报告添加到画布仪表板，则从仪表板中删除它不会删除原始报告。
 
 {{step1-to-dashboards}}
 

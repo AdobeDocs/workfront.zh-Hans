@@ -2,12 +2,12 @@
 navigation-topic: business-case-and-scorecards
 title: 批准业务案例
 description: 在完成并提交项目请求的商业论证后，必须批准该商业论证。 这取决于您组织中的工作流。 项目可以在没有业务案例必须获得批准的情况下开始，但您的Adobe Workfront管理员和项目所有者可能认为不宜这样做。
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -29,18 +29,16 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront计划*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront包</p></td> 
    <td> 
-   <p>当前：Prime或更高版本</p>
-   <p>或</p>
-   <p>旧版：商业版或更高版本</p> 
+   <p>Prime或更高版本</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
-   <p>当前：标准 </p> 
-   <p>旧版：计划 </p> </td> 
+   <p>标准 </p> 
+   <p>规划 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -53,7 +51,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

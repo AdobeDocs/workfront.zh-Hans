@@ -5,7 +5,7 @@ title: 删除和停用程序
 description: 项目群表示共享跨项目边界的共同策略、目标或目标的项目集合。 项目是项目组合的一个细分，它们不能存在于项目组合之外。 项目通常与同一项目组合中的其他项目共享相同的资源。 当程序变得无关时，您可以将其删除或停用。
 author: Alina
 feature: Work Management, Strategic Planning
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -32,21 +32,21 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划</td>
+   <td role="rowheader">[!DNL Adobe Workfront] 包</td>
 
 <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>[!UICONTROL 标准版]</p><p>[!UICONTROL 计划]</p> </td> 
+   <td> <p>[！UICONTROL标准版]</p><p>[！UICONTROL计划]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[!UICONTROL Edit]对项目组合和程序的访问权限 </p>  </td> 
+   <td> <p>[！UICONTROL Edit]对项目组合和程序的访问权限 </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>项目组合的[!UICONTROL Manage]权限</p> <p>创建项目后，默认情况下，您拥有[!UICONTROL Manage]权限。</p>  </td> 
+   <td> <p>项目组合的[！UICONTROL Manage]权限</p> <p>创建项目后，默认情况下，您拥有[！UICONTROL Manage]权限。</p>  </td> 
   </tr> 
  </tbody> 
 </table>

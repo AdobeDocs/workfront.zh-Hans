@@ -6,9 +6,9 @@ description: 阅读本文，了解列宽指南以及如何在Workfront中更改�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1004'
 ht-degree: 0%
 
 ---
@@ -38,43 +38,37 @@ ht-degree: 0%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront计划*</strong></td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront许可证*</strong></td> 
+   <td role="rowheader">Adobe Workfront许可证</strong></td> 
    <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>参与者或更高版本</p></li>
-         </ul>
-      <p>当前：</p>
-         <ul>
-         <li><p>请求或更高版本</p></li>
-         </ul>
+    <p>参与者或更高版本</p>
+    <p>请求或更高版本</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报告、功能板和日历的访问权限以编辑报告中的视图</p></td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报告、功能板、日历的访问权限以编辑报告中的视图</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>管理对报告的权限以编辑报告中的视图</p> <p>管理视图的权限以编辑它</p></td> 
+   <td role="rowheader">对象权限</td> 
+    <td> <p>管理对报告的权限以编辑报告中的视图</p> <p>管理视图的权限以编辑它</p></td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -142,7 +136,7 @@ ht-degree: 0%
 
 ### 永久修改列的宽度和顺序 {#modify-width-and-order-of-columns-permanently}
 
-要永久重新排序列，请参阅Adobe Workfront中的[视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)一文中的[创建或自定义标准视图](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-a-standard-view)部分。
+要永久重新排序列，请参阅Adobe Workfront中的[视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-a-standard-view)一文中的[创建或自定义标准视图](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)部分。
 
 只有使用文本模式才能永久修改列的宽度。
 

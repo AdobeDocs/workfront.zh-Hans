@@ -6,10 +6,10 @@ description: 在分配访问级别时，您的Adobe Workfront管理员会授予�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 1%
+source-wordcount: '1237'
+ht-degree: 2%
 
 ---
 
@@ -24,23 +24,20 @@ ht-degree: 1%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
-
-要共享对象，必须具备以下条件：
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-   <td> <p>任何 </p> </td> 
+   <td role="rowheader">Adobe Workfront包</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td> <p>新增：标准</p> 
-   或
-   <p>当前：工作或更高</p>
+   <td> <p>标准</p> 
+   <p>工作或更高</p> 
    </td> 
   </tr> 
   <tr> 
@@ -54,7 +51,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -70,8 +67,8 @@ ht-degree: 1%
 * 您可以单独共享问题，也可以一次共享多个问题。 共享问题与在Workfront中共享其他项目相同。 有关在Workfront中共享项目的详细信息，请参阅[共享对象](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
 * 您可以向问题授予以下权限： 
 
-   * 查看
-   * 参与
+   * 视图
+   * 贡献
    * 管理
 
 * 当您共享问题时，所有附加到问题的文档都会继承相同的权限。
@@ -88,7 +85,7 @@ ht-degree: 1%
    * 指定问题的任何父对象的权限：项目、项目群或项目组合。 问题会从其父对象继承权限。 有关查看对象的继承权限的信息，请参阅[查看对象的继承权限](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)。
    * 在用于创建问题所在项目的模板上将实体添加到项目共享。 有关从模板共享项目的信息，请参阅[共享模板](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)。
 
-   * 在编辑项目时，指定项目中所有问题的权限。 有关基于用户对项目的权限管理对项目上问题或请求的访问权限的信息，请参阅文章[编辑项目](../../manage-work/projects/manage-projects/edit-projects.md)中的[&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access)部分。
+   * 在编辑项目时，指定项目中所有问题的权限。 有关基于用户对项目的权限管理对项目上问题或请求的访问权限的信息，请参阅文章[](../../manage-work/projects/manage-projects/edit-projects.md#access)编辑项目[中的](../../manage-work/projects/manage-projects/edit-projects.md)部分。
 
      >[!TIP]
      >
@@ -243,7 +240,7 @@ ht-degree: 1%
    <td><strong>操作</strong> </td> 
    <td><strong>管理</strong> </td> 
    <td><strong>参与</strong> </td> 
-   <td><strong>视图</strong> </td> 
+   <td><strong>查看</strong> </td> 
   </tr> 
   <tr> 
    <td> <p>添加问题</p> </td> 

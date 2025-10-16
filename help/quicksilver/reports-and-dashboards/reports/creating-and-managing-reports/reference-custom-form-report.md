@@ -6,9 +6,9 @@ description: 您可以在报表的视图、筛选器和分组中引用该对象�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8b0d2e7f-cc92-4f43-a91c-ab2b2d8a1c01
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '959'
 ht-degree: 2%
 
 ---
@@ -23,33 +23,25 @@ ht-degree: 2%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-      <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>标准</p></li>
-         </ul>
-      <p>当前：</p>
-         <ul>
-         <li><p>计划</p></li>
-         </ul>
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> 
+      <p>标准</p>
+      <p>规划</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
+   <td role="rowheader">访问级别配置</td> 
    <td> <p>编辑对报告、功能板和日历的访问权限</p> <p>编辑对筛选器、视图、分组的访问权限</p></td> 
   </tr> 
   <tr> 
@@ -59,7 +51,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -132,7 +124,7 @@ ht-degree: 2%
    * 空白
    * 不为空白
    * 包含
-   * 不包含
+   * Does Not Contain
    * 等于
    * 不等于
 
@@ -157,7 +149,7 @@ ht-degree: 2%
    * 空白
    * 不为空白
    * 包含
-   * 不包含
+   * Does Not Contain
    * 等于
    * 不等于
 

@@ -7,9 +7,9 @@ description: 当您具有工作项、用户、工作角色和团队的特定访�
 author: Lisa
 feature: Resource Management
 exl-id: d2bfc411-188a-4f8b-8180-0e984f01b5ab
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -30,23 +30,20 @@ ht-degree: 0%
 
 有关在Workfront中使用预算编制工具的先决条件的更多信息，请参阅[资源规划入门](../../resource-mgmt/resource-planning/get-started-resource-planning.md)。
 
-要预算资源、管理资源池并查看资源计划工具中的成本信息，您的公司和您必须具有以下访问权限： 
+要预算资源、管理资源池并查看资源计划工具中的成本信息，您的公司和您必须具有以下访问权限：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-   <td><p>新建：任何</p>
-       <p>或</p>
-       <p>当前： Pro或更高版本</p> </td> 
+   <td>Adobe Workfront包</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td><p>新增：标准</p>
-       <p>或</p>
-       <p>当前：计划</p></td>
+   <td>Adobe Workfront许可证</td> 
+   <td><p>标准</p>
+       <p>规划</p></td>
   </tr>  
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -66,11 +63,9 @@ ht-degree: 0%
    <td role="rowheader">对象权限</td> 
    <td> <p>管理项目权限，包括管理财务权限。</p> <p>有关项目权限的信息，请参阅文章<a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">在Adobe Workfront中共享项目</a>。</p> <p>有关项目的财务权限的信息，请参阅文章<a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">共享对象的财务权限</a></a>。</p>
 
-<p><b>注释</b>
-
-在“角色”视图中预算资源时，如果角色下列出的至少一个项目的管理权限不足，则不能为角色预算小时数、FTE或成本。 您只能为拥有管理权限的项目编制预算。</p> </td>
-</tr> 
+<p><b>注意：</b>在“角色”视图中预算资源时，如果角色下列出的至少一个项目的管理权限不足，则无法为该角色预算小时数、FTE或成本。 您只能为拥有管理权限的项目编制预算。</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。

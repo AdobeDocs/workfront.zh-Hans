@@ -6,9 +6,9 @@ description: 通过使用过滤器，您可以从存储在系统中的所有信�
 author: Lisa
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '2390'
+source-wordcount: '2361'
 ht-degree: 0%
 
 ---
@@ -25,42 +25,38 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-   <td><p>新建：任何</p>
-       <p>或</p>
-       <p>当前： Pro或更高版本</p> </td> 
+  <tr> 
+   <td>Adobe Workfront包</td> 
+   <td><p>任何</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td><p>新增：浅色或更高</p>
-       <p>或</p>
-       <p>当前：审阅或更高版本</p></td>
+   <td>Adobe Workfront许可证</td> 
+   <td><p>浅色或更高</p>
+       <p>审核或更高</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
-   <td> <p>查看对项目、用户和资源管理的访问权限或更高版本</p> </td> 
+   <td>访问级别配置</td> 
+   <td> <p>查看对项目、用户和资源管理的访问权限或更高版本</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">对象权限</td> 
-   <td> <p>查看项目的权限或更高版本</p> </td> 
+   <td>对象权限</td> 
+   <td> <p>查看项目或更高权限</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
 ## 资源规划者筛选器概览
 
-为了最大程度地减少资源规划者中显示的信息量，Adobe Workfront提供了一个具有预配置标准的默认过滤器。 有关默认筛选器的信息，请参阅本文中的资源规划者[&#128279;](#overview-of-the-default-filter-in-the-resource-planner)中默认筛选器的概述部分。
+为了最大程度地减少资源规划者中显示的信息量，Adobe Workfront提供了一个具有预配置标准的默认过滤器。 有关默认筛选器的信息，请参阅本文中的资源规划者[中默认筛选器的概述](#overview-of-the-default-filter-in-the-resource-planner)部分。
 
 您还可以构建自定义的过滤器。 有关在资源规划者中自定义筛选器的信息，请参阅本文中的[创建资源规划者筛选器](#create-resource-planner-filters)部分。
 
@@ -123,12 +119,12 @@ ht-degree: 0%
 
 默认显示&#x200B;**规划者**。
 
-默认情况下，首次访问资源规划者时应用<strong>默认筛选器</strong>。<br>有关默认筛选器的更多信息，请参阅本文的资源规划者</a>中的默认筛选器的<a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">概述部分。
+默认情况下，首次访问资源规划者时应用<strong>默认筛选器</strong>。<br>有关默认筛选器的更多信息，请参阅本文的资源规划者<a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">中的默认筛选器的</a>概述部分。
 
-1. 在的左上角，单击&#x200B;**筛选器**&#x200B;图标。
+1. 在的左上角，单击&#x200B;**筛选器**图标。
    ![filter_icon.png](assets/filter-icon.png)
 或
-展开&#x200B;**筛选器**&#x200B;下拉菜单，然后单击&#x200B;**添加新筛选器**。
+展开**筛选器**&#x200B;下拉菜单，然后单击&#x200B;**添加新筛选器**。
    ![筛选器下拉列表](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
 
 1. 要使用内置标准构建过滤器，请指定以下任意字段：
@@ -259,7 +255,7 @@ ht-degree: 0%
 1. 在&#x200B;**筛选器名称**&#x200B;字段中，为复制的筛选器指定新名称。\
    新筛选器的默认名称为&#x200B;*`<Original Filter Name>`（副本）*。
 
-1. 单击&#x200B;**保存**。 将创建一个与原始筛选器条件相同的新筛选器，并赋予新名称。
+1. 单击 **Save**。将创建一个与原始筛选器条件相同的新筛选器，并赋予新名称。
 
    >[!NOTE]
    >
@@ -269,7 +265,7 @@ ht-degree: 0%
 
 您可以删除不再需要的过滤器。 您不能删除默认筛选器。
 
-有关默认筛选器的信息，请参阅本文的资源规划者[&#128279;](#overview-of-the-default-filter-in-the-resource-planner)中的默认筛选器的概述部分。
+有关默认筛选器的信息，请参阅本文的资源规划者[中的默认筛选器的](#overview-of-the-default-filter-in-the-resource-planner)概述部分。
 
 删除过滤器时，将删除所有有权访问资源规划者的Workfront用户的过滤器。 在删除过滤器之前，请确保您要删除的过滤器不再由在资源规划者中工作的任何其他人员使用。 无法恢复已删除的筛选器。
 
@@ -294,7 +290,7 @@ ht-degree: 0%
 >
 >所有用户(包括Workfront管理员)都只能访问已构建或已与其共享的过滤器。 您可以与特定用户共享过滤器，以使过滤器可用于所有资源规划者用户。
 
-有关默认筛选器的信息，请参阅本文的资源规划者[&#128279;](#overview-of-the-default-filter-in-the-resource-planner)中的默认筛选器的概述部分。
+有关默认筛选器的信息，请参阅本文的资源规划者[中的默认筛选器的](#overview-of-the-default-filter-in-the-resource-planner)概述部分。
 
 有关复制筛选器的信息，请参阅本文中的[复制筛选器](#duplicate-a-filter)部分。
 
@@ -314,7 +310,7 @@ ht-degree: 0%
 1. 在&#x200B;**授予资源规划者筛选器访问权限：**&#x200B;框中，开始键入要与其共享筛选器的用户、团队、角色、组或公司的名称。
 1. 从以下权限级别中选择：
 
-   * 查看
+   * 视图
    * 管理
 
      有关Workfront中权限的信息，请参阅[对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)

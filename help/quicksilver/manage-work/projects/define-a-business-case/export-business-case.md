@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: business-case-and-scorecards
 title: 导出项目的业务案例
 description: 您可以将商业案例导出到PDF文件，以防您需要打印该文件，或以更精简的格式将其附加到电子邮件中。
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 834c56c4-ca11-4aff-b67e-0eac9fa23403
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -26,14 +26,14 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront计划*</p></td> 
-   <td> <p>当前：Prime或更高版本 </p> <p>旧版：专业版或更高版本 </p> </td> 
+   <td role="rowheader"><p>Adobe Workfront包</p></td> 
+   <td> <p>Prime或更高版本 </p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront许可证*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
    <td> 
-   <p>当前：浅色或更高</p>
-   <p>旧版：审阅或更高版本</p> </td> 
+   <p>浅色或更高</p>
+   <p>审核或更高</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -46,7 +46,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

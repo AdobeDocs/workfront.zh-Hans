@@ -9,16 +9,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # 系统跟踪更新概述
 
-<!-- Audited: 06/2025-->
+<!-- Audited: 08/2025-->
 
 [!DNL Adobe Workfront]通过在对象的[!UICONTROL 更新]部分中记录状态信息，捕获在某些对象上发生的活动。
 

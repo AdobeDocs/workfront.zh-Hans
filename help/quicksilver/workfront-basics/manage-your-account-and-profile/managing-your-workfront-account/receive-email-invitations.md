@@ -2,43 +2,18 @@
 product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: 接收电子邮件邀请并创建 [!DNL Adobe Workfront]的密码
-description: 当 [!DNL Workfront] 管理员创建新用户时，新用户可能会收到基于多个因素的邀请电子邮件。
+description: 当 [!DNL Workfront] 管理员创建新用户时，新用户可能会收到邀请他们创建密码的邀请电子邮件。
 author: Courtney
 feature: Get Started with Workfront
 exl-id: a13dbe33-f283-4732-a7f2-5a94a37855f0
-source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
+source-git-commit: c6272c7631941720e3ab1e1c80ed7d304a67d34b
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
 
 # 接收电子邮件邀请并创建[!DNL Adobe Workfront]的密码
-
-## 访问要求
-
-您必须具有以下权限才能执行本文中的步骤：
-
-<table style="table-layout:auto"> 
- <col> 
- </col> 
- <col> 
- </col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划*</strong></td> 
-   <td> <p>任何</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[!UICONTROL Request]或更高版本</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-要了解您拥有什么计划或许可证类型，请与[!DNL Workfront]管理员联系。
-
-## 接收电子邮件邀请
 
 当[!DNL Workfront]管理员创建新用户时，新用户可能会收到基于以下几个因素的邀请电子邮件：
 
@@ -50,6 +25,31 @@ ht-degree: 0%
 有关[!DNL Workfront]管理员如何在创建新用户时发送电子邮件邀请的更多信息，请参阅[管理新用户的电子邮件邀请](../../../administration-and-setup/manage-workfront/emails/manage-email-invitations.md)。
 
 有关Workfront管理员如何向[!DNL Adobe Workfront]添加新用户的详细信息，请参阅[添加用户](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)。
+
+## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
+
+<table style="table-layout:auto"> 
+ <col> 
+ </col>
+ <tbody> 
+  <tr> 
+   <td>Adobe Workfront包</td> 
+   <td> <p>任何</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Adobe Workfront许可证</td> 
+   <td> 
+   <p>参与者或更高版本</p>
+   <p>请求或更高版本</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 为[!DNL Workfront]创建密码
 

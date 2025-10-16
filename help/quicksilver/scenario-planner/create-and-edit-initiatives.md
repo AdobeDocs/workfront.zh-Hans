@@ -6,9 +6,9 @@ description: 使用Adobe Workfront Scenario Planner时，您可以在已创建�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: a811bad0-d3c0-4cba-8b78-d9a14ffc8482
-source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
+source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
 workflow-type: tm+mt
-source-wordcount: '1637'
+source-wordcount: '1604'
 ht-degree: 0%
 
 ---
@@ -21,53 +21,85 @@ ht-degree: 0%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] 计划*</p> </td> 
-   <td> <ul></li>
-   <li><p>新增功能：Ultimate </p></li>
-   <p>Scenario Planner不可用于新的Workfront Select或Workfront Prime计划。 </p>
-   <li><p>当前： [!UICONTROL Business]或更高版本</p></ul>
+   <td> <p>[!DNL Adobe Workfront] 包</p> </td> 
+   <td> 
+   <p>Workfront Ultimate</p>
+<p><b>注释</b></p>
+<p>如果您拥有其他Workfront软件包，请与您的Workfront代表联系。</p>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] 许可证*</p> </td> 
-   <td> <p>新增：浅色或更高</p> 
-   <p>当前： [!UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] 许可证</p> </td> 
+   <td> <p>[！UICONTROL Light]或更高版本</p> 
+   <p>[！UICONTROL Review]或更高版本</p> </td> 
+  </tr> 
+    <tr> 
+   <td>访问级别配置</td> 
+   <td> <p>[！UICONTROL Edit]访问 [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr> 
-   <td>产品* </td> 
-   <td> <ul><li><p>对于新的Workfront计划：</p><p> Adobe Workfront</li></p>
-   <li><p>对于当前Workfront计划： </p>
-   <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
-
-<p>有关详细信息，请参阅<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用[!DNL Scenario Planner]</a>所需的访问权限。 </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>访问级别 </td> 
-   <td> <p>[!UICONTROL Edit]访问 [!DNL Scenario Planner]</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
    <td> <p>对象权限 </p> </td> 
-   <td> <p>[!UICONTROL Manage]对计划的权限</p> <p>有关请求对计划的附加访问权限的信息，请参阅<a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中请求对计划的访问权限。</p> </td> 
+   <td> <p>[！UICONTROL Manage]对计划的权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*有关信息，请参阅[Workfront文档的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关访问Scenario Planner的详细信息，请参阅[使用 [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)所需的访问权限。
+
+有关Workfront访问要求的信息，请参阅[Workfront访问要求文档](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
+   <td> <ul></li>
+   <li><p>New: Ultimate </p></li>
+   <p>The Scenario Planner is not available for the new Workfront Select or Workfront Prime plans. </p>
+   <li><p>Current: [!UICONTROL Business] or higher</p></ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] license*</p> </td> 
+   <td> <p>New: Light or higher</p> 
+   <p>Current: [!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Product* </td> 
+   <td> <ul><li><p>For the new Workfront plans:</p><p> Adobe Workfront</li></p>
+   <li><p>For the current Workfront plans: </p>
+   <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
+   
+   <p>For more information, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Access level </td> 
+   <td> <p>[!UICONTROL Edit] access to the [!DNL Scenario Planner]</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 先决条件
 
 您必须先创建计划，或者另一个用户必须与您共享计划，然后才能在该计划中创建计划。 有关创建计划的信息，请参阅[在 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md)中创建和编辑计划。
 
-有关什么是计划的详细信息，请参阅 [!DNL Scenario Planner][&#128279;](../scenario-planner/initiatives-overview.md)中的计划概述。
+有关什么是计划的详细信息，请参阅[中的 [!DNL Scenario Planner]](../scenario-planner/initiatives-overview.md)计划概述。
 
 ## 创建计划
 
@@ -87,7 +119,7 @@ ht-degree: 0%
 {{step1-to-scenario-planner}}
 
 1. 单击要为其创建方案的计划的名称。
-1. 单击&#x200B;**[!UICONTROL 新计划]**&#x200B;左侧的&#x200B;**+图标**
+1. 单击&#x200B;**新计划**&#x200B;左侧的&#x200B;**[!UICONTROL +图标]**
 
    或
 
@@ -146,14 +178,14 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">“必需的工作角色”部分 </td> 
-      <td> <p>单击<strong>[!UICONTROL 开始键入工作角色]</strong>字段并从列表中选择一个角色，或开始键入<span>n活动</span>工作角色的名称。 </p> <p><span>根据计划是设置为使用FTE还是使用小时数，</span>添加此计划在FTE <span><span>或小时数</span></span><span>中计划每月所需的工作角色数</span>。 <span>默认情况下将显示计划的前三个月。</span></p> <p><span>更新计划的工作角色信息也会更新计划所需的工作角色信息。</span> </p> <p>有关设置计划以使用FTE或小时数的信息，请参阅<a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中创建和编辑计划。 </p>
+      <td> <p>单击<strong>[！UICONTROL开始键入工作角色]</strong>字段并从列表中选择一个角色，或开始键入<span>n活动</span>工作角色的名称。 </p> <p><span>根据计划是设置为使用FTE还是使用小时数，</span>添加此计划在FTE <span><span>或小时数</span></span><span>中计划每月所需的工作角色数</span>。 <span>默认情况下将显示计划的前三个月。</span></p> <p><span>更新计划的工作角色信息也会更新计划所需的工作角色信息。</span> </p> <p>有关设置计划以使用FTE或小时数的信息，请参阅<a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中创建和编辑计划。 </p>
       <p><b>重要</b></p>  
       <p>对于[!DNL Scenario Planner]中的所有计算，[!DNL Workfront]使用以下值： 1 FTE = 8小时。 </p>
 
    <p><b>提示</b></p>
 
    <ul> 
-       <li> <p><span>使用[!UICONTROL Tab]键移至下个月。</span> </p> </li> 
+       <li> <p><span>使用[！UICONTROL Tab]键移至下个月。</span> </p> </li> 
       <li> <p> 当您单击此字段时，系统中所有<span>活动</span>工作角色都会列出。 </p> </li> 
        <li> <p>已添加到计划的可用工作角色的工作角色将首先显示。 有关将可用工作角色添加到计划的信息，请参阅<a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">在Scenario Planner中创建和编辑计划</a>。 </p> </li> 
        <li> <p>[!DNL Workfront] 认为全职相当于一个月160小时。 </p> <p>对于Scenario Planner中的所有计算，Workfront使用以下值： 1 FTE = 8小时。 </p></li> 
@@ -161,21 +193,21 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td rowspan="3" role="rowheader">成本部分</td> 
-      <td> <p>计划的总成本显示在[!UICONTROL Costs]部分的右侧。 [!DNL Workfront]使用以下公式计算计划的成本：</p> <p><code>[!UICONTROL Initiative Costs] = [!UICONTROL Fixed Costs] + [!UICONTROL People] Costs</code> </p> </td> 
+      <td> <p>计划的总成本显示在[！UICONTROL Costs]部分的右侧。 [!DNL Workfront]使用以下公式计算计划的成本：</p> <p><code>[!UICONTROL Initiative Costs] = [!UICONTROL Fixed Costs] + [!UICONTROL People] Costs</code> </p> </td> 
      </tr> 
      <tr> 
-      <td> <p>在<strong>[!UICONTROL 固定成本]</strong>字段中，手动输入您认为完成此计划所需成本的粗略估计金额。 这不应包括与计划的估计工作角色相关的成本。</p> <p><span>使用Tab键从一个月移至下个月，从而输入计划每个月的金额。</span> </p> </td> 
+      <td> <p>在<strong>[！UICONTROL固定成本]</strong>字段中，手动输入您认为完成此计划所需成本的粗略估计金额。 这不应包括与计划的估计工作角色相关的成本。</p> <p><span>使用Tab键从一个月移至下个月，从而输入计划每个月的金额。</span> </p> </td> 
      </tr> 
      <tr> 
       <td> 
        <div> 
-        <p>根据计划是设置为使用FTE还是小时，[!UICONTROL Workfront]使用以下公式来计算[!UICONTROL 人员成本]：</p> 
+        <p>根据计划是设置为使用FTE还是小时，[！UICONTROL Workfront]使用以下公式来计算[！UICONTROL人员成本]：</p> 
         <ul> 
          <li> <p>使用FTE时： </p> <p><code>[!UICONTROL People Costs] = SUM(Job role hourly rate * Number of months in the Duration * 160 * Number of FTEs)</code>，其中160是每月的总工作时间。 </p> </li> 
          <li> <p style="font-weight: normal;">使用小时数时： </p> <p style="font-weight: normal;"><code>Monthly People Costs = SUM(Job role hourly rate * Number of hours estimated for an initiative)</code> </p> <p style="font-weight: normal;">有关将计划设置为使用小时数或FTE的信息，请参阅<a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">在Scenario Planner中创建和编辑计划</a>。</p> </li> 
         </ul> 
         <p>人员成本以您在“汇率”首选项中选择的基本货币计算。 有关汇率的信息，请参阅<a href="../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">设置汇率</a>。</p> 
-        <p>更新计划的成本信息也会更新计划的[!UICONTROL 成本]区域。 </p> 
+        <p>更新计划的成本信息也会更新计划的[！UICONTROL成本]区域。 </p> 
        </div> </td> 
      </tr> 
      <tr> 
@@ -187,7 +219,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">[!DNL Net Value] 部分</td> 
-      <td>在<strong>[!DNL Net Value]</strong>部分中，在<strong>[!UICONTROL 计划收益]</strong>字段中手动输入粗略估计金额。 这就是你相信实现这一倡议的好处所在。 </td> 
+      <td>在<strong>[!DNL Net Value]</strong>部分中，在<strong>[！UICONTROL计划收益]</strong>字段中手动输入粗略估计金额。 这就是你相信实现这一倡议的好处所在。 </td> 
      </tr> 
     </tbody> 
    </table>

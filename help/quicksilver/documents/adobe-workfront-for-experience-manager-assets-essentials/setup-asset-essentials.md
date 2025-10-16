@@ -6,9 +6,9 @@ description: 将您的工作与Experience Manager Assets Essentials中的内容�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '651'
 ht-degree: 1%
 
 ---
@@ -29,37 +29,37 @@ ht-degree: 1%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table>
   <tr>
-   <td>[!DNL Adobe Workfront] 计划
+   <td><strong>Adobe Workfront包</strong>
    </td>
    <td>任何
    </td>
   </tr>
   <tr>
-   <td>[!DNL Adobe Workfront] 许可证
+   <td><strong>Adobe Workfront许可证</strong>
    </td>
-   <td><p>当前： [!UICONTROL 计划]</p>
-   <p>新文档： [!UICONTROL Standard]</p></td>
-  </tr>
-  <tr>
-   <td>[!DNL Experience Manager] 许可证
-   </td>
-   <td>[!UICONTROL 标准版]
+   <td>
+   <p>标准</p>
+   <p>规划</p>
    </td>
   </tr>
   <tr>
-   <td>产品
+   <td><strong>其他产品</strong>
    </td>
-   <td>您必须具有Experience Manager Assets Essentials，并且您必须在Admin Console中作为用户添加到产品中。
+   <td>您必须安装了Experience Manager Assets as a Cloud Service或Assets Essentials，并且您必须作为用户添加到产品中。
    </td>
   </tr>
   <tr>
-   <td>访问级别配置
+   <td><strong>Experience Manager权限</strong>
    </td>
-   <td>您必须是[!DNL Workfront]管理员。
+   <td>您必须具有Experience Manger集成中目标文件夹的写入权限。
+   </td>
+  </tr>
+  <tr>
+   <td><strong>访问级别配置</strong>
+   </td>
+   <td>您必须是Workfront管理员才能配置Experience Manager集成。 配置该计划后，拥有计划许可证的用户可以在单个项目上设置链接文件夹。
    </td>
   </tr>
 </table>
@@ -111,7 +111,7 @@ ht-degree: 1%
 
 在开始之前，您必须
 
-* 在Experience Manager Assets Essentials中配置元数据架构，如[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)中所述。
+* 在Experience Manager Assets Essentials中配置元数据架构，如[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)中所述。
 * （可选）在Workfront中配置自定义表单字段。 Workfront提供了许多内置自定义字段。 但是，您也可以创建自己的自定义字段。 有关详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ## 支持的Workfront和Experience Manager Assets字段
@@ -126,7 +126,7 @@ ht-degree: 1%
 
 <!--
 Look for essentials article
-For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=zh-Hans).
+For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
 -->
 
 

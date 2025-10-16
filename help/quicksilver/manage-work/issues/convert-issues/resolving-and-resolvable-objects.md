@@ -7,16 +7,16 @@ description: 可解析对象是一个问题，其解决方案与解析对象绑�
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1760'
 ht-degree: 1%
 
 ---
 
 # 解析和可解析对象概述
 
-<!-- Audited: 5/2025 -->
+<!-- Audited: 08/2025 -->
 
 可解析对象是一个问题，其解决方案与解析对象绑定。 解决对象是项目、任务或其他问题。
 
@@ -76,7 +76,7 @@ The default status of the issue is controlled by the status of the project or ta
 
 ## 在转换为项目或任务期间处理可解析对象
 
-根据Workfront或组管理员配置系统或组级别问题首选项的方式，在将问题转换为项目或任务期间，您也许能够处理可解析对象。
+根据Workfront或组管理员配置系统级或组级问题首选项的方式，在将问题转换为项目或任务期间，您也许能够处理可解析对象。
 
 存在以下情况：
 

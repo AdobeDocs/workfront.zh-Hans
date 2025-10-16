@@ -6,9 +6,9 @@ description: 通过Adobe Experience Cloud访问 [!DNL Workfront] 可为您提供
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
+source-git-commit: 29083931a4910c99027edb856ab200c8a4345679
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
@@ -30,25 +30,23 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。 
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront包</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>新文档： [!UICONTROL Contributor]或更高版本</p> 
-   <p>当前： [!UICONTROL Request]或更高版本</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront许可证</strong></td> 
+   <td> <p>参与者或更高版本</p> 
+   <p>请求或更高版本</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

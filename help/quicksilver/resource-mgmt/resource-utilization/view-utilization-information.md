@@ -6,9 +6,9 @@ description: 您可以在“利用率”报表中查看资源的利用率。
 author: Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '7285'
+source-wordcount: '7259'
 ht-degree: 1%
 
 ---
@@ -46,26 +46,22 @@ ht-degree: 1%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-要访问“利用率”报告，您必须具备以下条件：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-   <td><p>新建：任何</p>
-       <p>或</p>
-       <p>当前： Pro或更高版本</p> </td> 
+  <tr> 
+   <td>Adobe Workfront包</td> 
+   <td><p>任何</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td><p>新增：标准</p>
-       <p>或</p>
-       <p>当前：计划</p> </td> 
+   <td>Adobe Workfront许可证</td> 
+   <td><p>标准</p>
+       <p>规划</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
+   <td>访问级别配置</td> 
    <td> <p>查看以下内容或更高访问权限：</p> 
     <ul> 
      <li> <p>资源管理 </p> </li> 
@@ -76,13 +72,13 @@ ht-degree: 1%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">对象权限</td> 
+   <td>对象权限</td> 
    <td> <p>查看对项目、项目组合和程序的访问权限，以访问“资源”区域中的“利用率”部分</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-utilization-section-highloighted-350x145.png" style="width: 350;height: 145;"> </p> <p>管理对项目的访问权限以访问项目的“利用率”部分</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-utilization-section-on-project-highloighted-350x289.png" style="width: 350;height: 289;"> </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -151,7 +147,7 @@ ht-degree: 1%
     </ul> 
     <ul> 
      <li> <p><strong>未分配小时数</strong>：当预算小时数与任务或问题关联，并且没有分配给任务或问题的用户或角色时，预算小时数显示在未分配小时数的利用率报告中。<br>仅当项目上的小时数与此描述匹配时，以及当项目查看利用率报告时，或项目查看利用率报告时，才会显示此部分。 </p> <p>仅当项目中的小时数与此描述匹配时，仅当按项目查看利用率报告时，或从项目查看利用率报告时，才会显示此部分。 </p> </li> 
-    </ul> <p>有关预算小时数的详细信息，请参阅<a href="/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md#locate-the-budgeted-hours-of-a-project">在<a href="/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md">了解项目的预算劳力成本和预算小时数</a>中查找项目的预算小时数</a>。</p> </td> 
+    </ul> <p>有关预算小时数的详细信息，请参阅<a href="/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md#locate-the-budgeted-hours-of-a-project">在</a>了解项目的预算劳力成本和预算小时数<a href="/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md">中查找项目的预算小时数</a>。</p> </td> 
   </tr> 
   <tr> 
    <td scope="col"><strong>计划小时数</strong> </td> 
@@ -247,7 +243,7 @@ ht-degree: 1%
 
 您可以通过查看预算成本和计划成本与实际成本的比较来跟踪成本。
 
-在跟踪项目、项目群或项目组合的成本时，“利用率”报告中的信息来自任务。 任务中的成本信息始终在利用率报表中可用。 根据任务的成本类型计算任务的成本。 有关任务的成本类型的信息，请参阅[跟踪成本](/help/quicksilver/manage-work/projects/project-finances/track-costs.md)中的[Workfront如何计算任务的成本类型](/help/quicksilver/manage-work/projects/project-finances/track-costs.md#how-workfront-calculates-cost-types-for-tasks)。
+在跟踪项目、项目群或项目组合的成本时，“利用率”报告中的信息来自任务。 任务中的成本信息始终在利用率报表中可用。 根据任务的成本类型计算任务的成本。 有关任务的成本类型的信息，请参阅[跟踪成本](/help/quicksilver/manage-work/projects/project-finances/track-costs.md#how-workfront-calculates-cost-types-for-tasks)中的[Workfront如何计算任务的成本类型](/help/quicksilver/manage-work/projects/project-finances/track-costs.md)。
 
 您可以通过以下方式在“利用率”报表中显示成本信息：
 
@@ -274,11 +270,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td scope="col"><strong>计划成本</strong> </td> 
-   <td scope="col"> <p>包含的项目上的总计划成本。 您可以查看所包含项目整个使用期的计划成本合计，也可以仅查看指定日期范围内的计划成本合计（您可以指定单个周或月）。</p> <p>请注意，对于周、月和季度视图，当工作角色或用户的成本率生效时，计划成本计算为所选期间的平均值。</p><p>有关如何计算项目计划成本的信息，请参阅<a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md">跟踪成本</a>中的<a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md#how-workfront-calculates-planned-budgeted-and-actual-costs">Workfront如何计算计划、预算和实际成本</a>。</p> </td>
+   <td scope="col"> <p>包含的项目上的总计划成本。 您可以查看所包含项目整个使用期的计划成本合计，也可以仅查看指定日期范围内的计划成本合计（您可以指定单个周或月）。</p> <p>请注意，对于周、月和季度视图，当工作角色或用户的成本率生效时，计划成本计算为所选期间的平均值。</p><p>有关如何计算项目计划成本的信息，请参阅<a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md#how-workfront-calculates-planned-budgeted-and-actual-costs">跟踪成本</a>中的<a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md">Workfront如何计算计划、预算和实际成本</a>。</p> </td>
   </tr> 
   <tr> 
    <td scope="col"><strong>实际成本</strong> </td> 
-   <td scope="col"> <p>所包含项目的总实际成本。 您可以查看所包含项目整个使用期的实际成本合计，也可以仅查看指定日期范围内的实际成本合计（您可以指定单个周或月）。</p> <p>有关如何计算项目实际成本的信息，请参阅<a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md">跟踪成本</a>中的<a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md#how-workfront-calculates-planned-budgeted-and-actual-costs">Workfront如何计算计划、预算和实际成本</a>。</p> </td>
+   <td scope="col"> <p>所包含项目的总实际成本。 您可以查看所包含项目整个使用期的实际成本合计，也可以仅查看指定日期范围内的实际成本合计（您可以指定单个周或月）。</p> <p>有关如何计算项目实际成本的信息，请参阅<a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md#how-workfront-calculates-planned-budgeted-and-actual-costs">跟踪成本</a>中的<a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md">Workfront如何计算计划、预算和实际成本</a>。</p> </td>
   </tr> 
   <tr> 
    <td><strong>预算差异（成本）</strong> </td> 
@@ -342,7 +338,7 @@ ht-degree: 1%
 </tr> 
   <tr> 
    <td><strong>实际收入</strong> </td>
-   <td> <p>实际收入是与任务和项目的实际小时数关联的收入。 有关实际收入的更多信息，请参阅<a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md">帐单和收入概览</a>中的<a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md#track-revenue-amounts">跟踪收入金额</a>。</p>
+   <td> <p>实际收入是与任务和项目的实际小时数关联的收入。 有关实际收入的更多信息，请参阅<a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md#track-revenue-amounts">帐单和收入概览</a>中的<a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md">跟踪收入金额</a>。</p>
 
 <p>根据任务上设置的收入类型，“利用率”报表计算所包含项目的实际收入的方式有所不同，如下所示：</p> <p><strong>固定收入：</strong>无论任务分配如何，任务的收入始终使用在任务上指定的固定金额进行计算。</p> <p><b>重要</b>
 
@@ -528,12 +524,12 @@ ht-degree: 1%
    * **程序：**&#x200B;开始键入包含要包括在利用率报告中的信息的程序名称，然后在下拉列表中出现该名称时单击该名称。\
      重复此过程以在利用率报告中包含多个任务的信息。\
      如果您已在筛选器中指定了任何项目组合，则您指定的项目组合必须来自已包含在筛选器中的项目组合。 如果不包含，则程序中的数据不会包含在利用率报表中。\
-     若要将系统中的所有程序包含在筛选器中，请单击“全部添加”**&#x200B;**。 （仅当系统中程序少于20个时，此选项才可用。）
+     若要将系统中的所有程序包含在筛选器中，请单击“全部添加”****。 （仅当系统中程序少于20个时，此选项才可用。）
 
    * **项目：**&#x200B;开始键入包含要包含在利用率报告中的信息的项目名称，然后在名称出现在下拉列表中时单击该名称。\
      重复此过程以在利用率报告中包含来自多个项目的信息。\
      如果您已在筛选器中指定了任何项目组合或程序，则指定的项目必须来自已包含在筛选中的项目组合或程序之一。 如果不包含，则项目中的数据不会包含在利用率报表中。\
-     若要在筛选器中包含系统中的所有项目，请单击“全部添加”**&#x200B;**。 （仅当系统中拥有的项目少于250个时，此选项才可用。）
+     若要在筛选器中包含系统中的所有项目，请单击“全部添加”****。 （仅当系统中拥有的项目少于250个时，此选项才可用。）
 
    * **任务：**&#x200B;开始键入包含要包含在利用率报告中的信息的任务名称，然后在名称出现在下拉列表中时单击该名称。\
      重复此过程以在利用率报告中包含多个任务的信息。\
@@ -544,7 +540,7 @@ ht-degree: 1%
      如果您已在筛选器中指定了任何项目组合、项目群或项目，则指定的问题必须来自已包含在筛选中的项目组合、项目群或项目群之一。 如果不包含，则问题中的数据不会包含在利用率报表中。\
      问题的成本信息并不总是包含在利用率报告中。 有关问题的成本信息何时包含在利用率报告中的详细信息，请参阅本文中的[使用利用率报告跟踪进度、成本和收入](#track-progress-cost-and-revenue-with-the-utilization-report)。
 
-   * **角色：**&#x200B;开始键入要在利用率报表中显示的角色的名称，然后在该名称出现在下拉列表中时单击该名称。 重复此过程以包含其他角色。
+   * **角色：**开始键入要在利用率报表中显示的角色的名称，然后在该名称出现在下拉列表中时单击该名称。 重复此过程以包含其他角色。
 利用率报告仅包含指定角色的信息。 例如，一项任务包含10个实际小时数。 其中6个小时来自Designer角色，4个小时来自开发人员角色。 如果您按角色过滤Designer的利用率报表，则报表中将排除来自开发人员角色的四个小时。
 
    * **添加筛选器规则：**&#x200B;单击&#x200B;**添加筛选器规则**，在文本字段中单击，然后开始键入要筛选的字段名称。 如果该字段可用，则会填充每个可关联该字段的对象。 单击字段名称以将其添加到过滤器。
@@ -559,7 +555,7 @@ ht-degree: 1%
 1. 要创建新筛选器，请单击&#x200B;**保存筛选器**。\
    或\
    要修改现有筛选器，请单击&#x200B;**保存筛选器**&#x200B;按钮旁边的箭头，然后单击&#x200B;**保存新筛选器**。
-在&#x200B;**筛选器名称**&#x200B;字段中，键入筛选器的名称，然后单击&#x200B;**保存**。
+在**筛选器名称**&#x200B;字段中，键入筛选器的名称，然后单击&#x200B;**保存**。
 “利用率”区域使用您在过滤器中包括的信息进行过滤。
 
 ### 应用已保存的过滤器 {#apply-a-saved-filter}
@@ -652,10 +648,10 @@ ht-degree: 1%
      选择&#x200B;**Letter - Portrait**、**Letter - Landscape**&#x200B;或&#x200B;**Other Sizes**(提供用于导出到法律行业(8.5&quot; x 14&quot;)、分类帐(11&quot; x 17&quot;)和A4的选项)。
 根据您使用的操作系统，您可以选择打开或保存文件。 使用关联的应用程序打开文件或将其保存到计算机。
 
-   * **Excel：**&#x200B;以XLSX格式导出报告。 如果您打算在Excel中进一步分析数据，则建议使用此格式。
+   * **Excel：**以XLSX格式导出报告。 如果您打算在Excel中进一步分析数据，则建议使用此格式。
 根据您使用的操作系统，您可以选择打开或保存文件。 使用关联的应用程序打开文件或将其保存到计算机。
 
-   * **制表符分隔：**&#x200B;以TSV格式导出报告。 如果您计划将数据导入第三方软件以进行进一步分析，则建议使用此格式。
+   * **制表符分隔：**以TSV格式导出报告。 如果您计划将数据导入第三方软件以进行进一步分析，则建议使用此格式。
 根据您使用的操作系统，您可以选择打开或保存文件。 使用关联的应用程序打开文件或将其保存到计算机。
 
 1. 阅读[导出数据](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md)一文中的信息以了解如何使用导出的文件。

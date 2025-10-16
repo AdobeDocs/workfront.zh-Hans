@@ -7,9 +7,9 @@ description: 您可以使用非Adobe Workfront电子邮件中的信息更新现�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
+source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -26,32 +26,34 @@ ht-degree: 0%
 >
 >为了满足贵组织与Google Workspace的集成需求，我们建议使用Workfront自动化和集成。
 >
->有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 >
->有关Google Workspace的Workfront自动化和集成模块的特定功能的信息，请参阅[Gmail模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)和[Google日历模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)。
+>有关Google Workspace的Workfront自动化和集成模块的特定功能的信息，请参阅[Gmail模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)和[Google日历模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)。
 
 您可以使用非[!DNL Adobe Workfront]电子邮件中的信息更新现有项目、任务或问题。
 
 ## 访问要求
 
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[!UICONTROL 工作]，[!UICONTROL 计划]</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p>标准</p><p>工作或更高</p>
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先决条件
 
@@ -80,17 +82,17 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 更新]</td> 
+      <td role="rowheader">[！UICONTROL更新]</td> 
       <td>编辑此文本的任何部分，这些部分取自电子邮件的主题行和正文文本。</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL Include e-mail attachments]</td> 
-      <td><p>（仅当电子邮件至少包含一个附件时才可用。） 单击此选项可在任务或问题的[!UICONTROL 文档]选项卡中保存附件。 </p><p>如果不想保存附件，请单击附件名称右侧的X。 </p><p>如果电子邮件包含指向[!DNL Google Drive]中文档的链接，则这些链接将保存到您正在创建的任务或问题的[!UICONTROL 概述]选项卡中。 </p><p>重要信息： <span style="color: #ff1493;"><span style="color: #000000;">要使此功能正常工作，您的</span></span>[!DNL Workfront]管理员<span style="color: #ff1493;"><span style="color: #000000;">必须授权[!DNL Google Drive]与[!DNL Workfront]</span></span>协作</p>
+      <td role="rowheader">[！UICONTROL Include e-mail attachments]</td> 
+      <td><p>（仅当电子邮件至少包含一个附件时才可用。） 单击此选项可在任务或问题的[！UICONTROL文档]选项卡中保存附件。 </p><p>如果不想保存附件，请单击附件名称右侧的X。 </p><p>如果电子邮件包含指向[!DNL Google Drive]中文档的链接，则这些链接将保存到您正在创建的任务或问题的[！UICONTROL概述]选项卡中。 </p><p>重要信息： <span style="color: #ff1493;"><span style="color: #000000;">要使此功能正常工作，您的</span></span>[!DNL Workfront]管理员<span style="color: #ff1493;"><span style="color: #000000;">必须授权[!DNL Google Drive]与[!DNL Workfront]</span></span>协作</p>
       <p>如果启用此选项，则对于您转换为任务、问题和更新的其他电子邮件，此选项将保持启用状态。</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">通知</td> 
-      <td>单击<strong>[!UICONTROL 通知]</strong>，单击显示的<strong>[!UICONTROL 搜索用户或团队]</strong>选项，然后开始键入人员或团队的名称，并在该名称出现在以下列表中时单击它。 对要添加的每个人员和团队重复此操作，然后单击<strong>[!UICONTROL 保存]</strong>。</td> 
+      <td>单击<strong>[！UICONTROL通知]</strong>，单击显示的<strong>[！UICONTROL搜索用户或团队]</strong>选项，然后开始键入人员或团队的名称，并在该名称出现在以下列表中时单击它。 对要添加的每个人员和团队重复此操作，然后单击<strong>[！UICONTROL保存]</strong>。</td> 
      </tr> 
     </tbody> 
    </table>

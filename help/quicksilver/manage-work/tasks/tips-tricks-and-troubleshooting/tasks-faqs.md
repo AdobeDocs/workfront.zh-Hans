@@ -3,13 +3,13 @@ content-type: faq
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-tasks
 title: 任务常见问题解答
-description: 默认情况下，任务请求者/分配者不会收到有关他们分配给其他用户的任务更改的电子邮件通知。 对于常规分配大量任务的人来说，这些任务的通知量会非常大。
+description: 本文提供了有关Adobe Workfront中任务的常见问题解答列表。
 author: Alina
 feature: Work Management
 exl-id: 6463efdd-02e0-42e1-8fe6-18a88f74db7b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '176'
 ht-degree: 1%
 
 ---

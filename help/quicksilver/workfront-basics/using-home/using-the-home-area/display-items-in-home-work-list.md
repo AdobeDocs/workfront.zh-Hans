@@ -6,9 +6,9 @@ description: 每个构件都包含自己的工作列表。 工作列表显示分
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '994'
 ht-degree: 4%
 
 ---
@@ -28,8 +28,6 @@ ht-degree: 4%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -37,17 +35,17 @@ ht-degree: 4%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证</strong></td> 
-   <td> <p>新增：</p><ul><li>[!UICONTROL Contributor]仅供审批</li> <li>[!UICONTROL Standard]或更高版本（适用于所有其他对象）</li> <p>或</p> 
-  </ul><p>当前：</p><ul><li>[!UICONTROL Review]仅供审批</li> <li>适用于所有其他对象的[!UICONTROL 工作]或更高版本</li> </td> 
+   <td><ul><li>[！UICONTROL Contributor]仅供审批</li> <li>[！UICONTROL Standard]或更高版本（适用于所有其他对象）</li> <p>或</p> 
+  </ul><ul><li>[！UICONTROL Review]仅供审批</li> <li>适用于所有其他对象的[！UICONTROL工作]或更高版本</li> </td> 
   </tr> </ul>
   <tr> 
    <td role="rowheader"><strong>访问级别配置</strong></td> 
-   <td> <p>[!UICONTROL 视图]或更高的项目、任务、问题和文档访问权限</p> </td> 
+   <td> <p>[！UICONTROL视图]或更高的项目、任务、问题和文档访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
@@ -56,7 +54,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -118,7 +116,7 @@ ht-degree: 4%
    | 我的审批 | 显示所有待处理、已分配、已委派和已提交的审批 |
 
 1. 单击小组件工作列表右上角的&#x200B;**筛选器**&#x200B;图标![筛选器图标](assets/filter-nwepng.png)。
-1. 选择一个&#x200B;**建议的**&#x200B;筛选器或您已创建的筛选器。
+1. 选择一个&#x200B;**建议的**筛选器或您已创建的筛选器。
 有关建议筛选器的详细信息，请参阅[主页小组件筛选器概述](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)。
 1. （可选）打开&#x200B;**栈栈筛选器**&#x200B;以选择多个筛选器选项。
 
@@ -145,7 +143,7 @@ ht-degree: 4%
    | 我的审批 | 显示所有待处理、已分配、已委派和已提交的审批 |
 
 1. 单击小组件工作列表右上角的&#x200B;**组**&#x200B;图标![组图标](assets/group-icon.png)。
-1. 选择一个&#x200B;**建议的**&#x200B;分组或您创建的分组。
+1. 选择一个&#x200B;**建议的**分组或您创建的分组。
    ![分组已展开](assets/grouping-expanded.png)
 
 

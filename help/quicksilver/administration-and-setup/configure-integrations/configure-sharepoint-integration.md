@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 711812d9fd4bf48bb7612c0339cee2cdbe08ef10
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '1711'
 ht-degree: 0%
 
 ---
@@ -47,28 +47,26 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具备以下条件才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
-   <td>任何</td> 
+   <td role="rowheader">Workfront包</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td>新增：标准 <p>或</p><p>当前：计划</p></td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td><p>标准</p> <p>规划</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td>您必须是[!DNL Workfront]管理员。 </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td>您必须是Workfront管理员。 </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -123,7 +121,7 @@ ht-degree: 0%
 
 ### 访问和权限
 
-当用户首次从[!DNL SharePoint]向[!DNL Workfront]添加文档时，他们将被定向到所请求的权限页面，他们可以在其中向其SharePoint集成授予权限。
+当用户首次从[!DNL Workfront]向[!DNL SharePoint]添加文档时，他们将被定向到所请求的权限页面，他们可以在其中向其SharePoint集成授予权限。
 
 >[!NOTE]
 >
@@ -142,7 +140,7 @@ ht-degree: 0%
 * 此访问权限在用户首次使用集成时授予，并可随时撤销。
 * 为此集成请求的权限是&#x200B;**已委派**&#x200B;权限。
 * [!DNL Workfront]请求在集成中执行操作所需的最低访问权限。
-* 查看、编辑或删除链接到[!DNL SharePoint]的[!DNL Adobe Workfront]文档的访问权限基于用户在[!DNL Workfront]中的访问权限。 但是，任何导航、下载或编辑[!DNL SharePoint]文件或文件夹都需要访问[!DNL SharePoint]，并且这些操作的访问权限由[!DNL SharePoint]控制。
+* 查看、编辑或删除链接到[!DNL Adobe Workfront]的[!DNL SharePoint]文档的访问权限基于用户在[!DNL Workfront]中的访问权限。 但是，任何导航、下载或编辑[!DNL SharePoint]文件或文件夹都需要访问[!DNL SharePoint]，并且这些操作的访问权限由[!DNL SharePoint]控制。
 * 用户可以查看源自[!DNL SharePoint]的缩略图和预览图像，并且无需登录[!DNL SharePoint]即可在[!DNL SharePoint]中查看文件和文件夹名称。
 * 仅当用户处于脱机状态且另一个用户查看链接到[!DNL Workfront]的文件夹的内容时，才会使用用户的访问令牌。 访问令牌用于发现文件夹中的任何文档是否已添加、删除或编辑。
 
@@ -172,7 +170,7 @@ ht-degree: 0%
 
 1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![设置图标](/help/_includes/assets/gear-icon-setup.png)。
 1. 在左侧导航中选择&#x200B;**[!UICONTROL 文档]**，然后选择&#x200B;**[!UICONTROL 云提供商]**。
-1. 确保同时启用了&#x200B;**[!DNL SharePoint]**&#x200B;选项和&#x200B;**[!UICONTROL [!DNL SharePoint] (Graph API)]**&#x200B;选项。
+1. 确保同时启用了&#x200B;**[!DNL SharePoint]**&#x200B;选项和&#x200B;**[!UICONTROL [!DNL SharePoint](Graph API)]**&#x200B;选项。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 1. 在左侧导航中选择&#x200B;**[!UICONTROL 文档]**，然后选择&#x200B;**[!UICONTROL [!DNL SharePoint]集成]**。
 1. 选择列表左侧的复选标记以查看所有现有集成，然后选择&#x200B;**[!UICONTROL 禁用]**。
@@ -185,7 +183,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> 由于[!DNL SharePoint]客户端密钥由[!DNL Microsoft]处理，因此客户端密钥功能和过程可能会根据[!DNL Microsoft]对[!DNL SharePoint]所做的更新而更改。 请始终查看[!DNL Microsoft]文档，以了解[!DNL SharePoint]中有关过程和功能的最新信息。
+> 由于[!DNL SharePoint]客户端密钥由[!DNL Microsoft]处理，因此客户端密钥功能和过程可能会根据[!DNL SharePoint]对[!DNL Microsoft]所做的更新而更改。 请始终查看[!DNL Microsoft]文档，以了解[!DNL SharePoint]中有关过程和功能的最新信息。
 
 <!--1. Go to the site that your [!DNL SharePoint] integration uses. This may be a site that you created when setting up the integrations, or it may be your organization's root site.
 
@@ -414,7 +412,7 @@ For instructions, see [Link an external document to [!DNL Workfront]](../../docu
 ## 故障排除
 
 * [问题：用户在使用 [!DNL SharePoint] 集成时遇到基于身份验证的错误。](#problem-users-experience-authentication-based-errors-when-using-the-sharepoint-integration)
-* [问题：尝试浏览 [!DNL Workfront]中的 [!DNL SharePoint] 文件时，我看不到任何或所有网站集。](#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections)
+* [问题：尝试浏览 [!DNL SharePoint] 中的 [!DNL Workfront]文件时，我看不到任何或所有网站集。](#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections)
 * [问题：我无法访问 [!DNL SharePoint]中以前链接的文件夹和文档。](#problem-i-cannot-access-previously-linked-folders-and-documents-in-sharepoint)
 
 ### 问题：用户在使用[!DNL SharePoint]集成时遇到基于身份验证的错误。 {#problem-users-experience-authentication-based-errors-when-using-the-sharepoint-integration}
@@ -430,19 +428,19 @@ For instructions, see [Link an external document to [!DNL Workfront]](../../docu
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 设计]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL设计]</p> </td> 
    <td> <p>可以查看、添加、更新、删除、批准和自定义</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 编辑]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL编辑]</p> </td> 
    <td> <p>可以添加、编辑和删除列表；可以查看、添加、更新和删除列表项和文档</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Contribute]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Contribute]</p> </td> 
    <td> <p>可以查看、添加、更新和删除列表项和文档</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 仅视图]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL仅视图]</p> </td> 
    <td> <p>可以查看页面、列表项和文档（具有服务器端文件处理程序的文档类型可以在浏览器中查看，但不能下载）</p> </td> 
   </tr> 
  </tbody> 
@@ -464,7 +462,7 @@ This can be caused by a number of things, originating in either [!DNL Workfront]
 
 -->
 
-### 问题：当尝试浏览[!DNL Workfront]中的[!DNL SharePoint]文件时，我看不到任何或所有网站集。 {#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections}
+### 问题：当尝试浏览[!DNL SharePoint]中的[!DNL Workfront]文件时，我看不到任何或所有网站集。 {#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections}
 
 解决方案：
 

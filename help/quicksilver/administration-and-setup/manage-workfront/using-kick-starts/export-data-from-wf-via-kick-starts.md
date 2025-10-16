@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 4c80802c8e0084aa9e7be350caefc8929c9c4e2b
+source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 7%
+source-wordcount: '1019'
+ht-degree: 8%
 
 ---
 
@@ -32,32 +32,27 @@ ht-degree: 7%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-   <td>任何</td> 
+   <td>Adobe Workfront包</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td>
-   <p>新增：标准</p>
-   或
-   <p>当前：计划</p>
-   </td> 
+   <td>Adobe Workfront许可证</td> 
+   <td><p>标准</p>
+       <p>规划</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td>
+   <td>访问级别配置</td> 
+   <td>系统管理员</td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -126,12 +121,12 @@ ht-degree: 7%
     </thead> 
     <tbody> 
      <tr> 
-      <td scope="col" valign="top"> <p>仪表板</p> <p> </p> <p> </p> </td> 
+      <td scope="col" valign="top"> <p>功能板</p> <p> </p> <p> </p> </td> 
       <td scope="col" valign="top"> <p>参数<br>参数选项<br>参数组<br>类别参数<br>类别<br>报表<br>门户选项卡节<br>仪表板<br>首选项</p> </td> 
       <td scope="col" valign="top"> ZIP</td> 
      </tr> 
      <tr> 
-      <td scope="col" valign="top"> <p>报告</p> <p> </p> <p> </p> </td> 
+      <td scope="col" valign="top"> <p>报表</p> <p> </p> <p> </p> </td> 
       <td scope="col" valign="top">参数<br>参数选项<br>参数组<br>类别参数<br>类别<br>报表<br>首选项</td> 
       <td scope="col" valign="top"> ZIP </td> 
      </tr> 
@@ -238,7 +233,7 @@ ht-degree: 7%
       <td valign="top">ZIP</td> 
      </tr> 
      <tr> 
-      <td valign="top">小时</td> 
+      <td valign="top">Hour</td> 
       <td valign="top"> 小时<br>首选项 </td> 
       <td valign="top">Excel</td> 
      </tr> 
@@ -263,7 +258,7 @@ ht-degree: 7%
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
-      <td valign="top">项目组合</td> 
+      <td valign="top">组合</td> 
       <td valign="top"> Portfolio<br>首选项  </td> 
       <td valign="top">Excel</td> 
      </tr> 
@@ -323,7 +318,7 @@ ht-degree: 7%
       <td valign="top">Excel  </td> 
      </tr> 
      <tr> 
-      <td valign="top"> 查看 </td> 
+      <td valign="top"> 视图 </td> 
       <td valign="top"> 查看<br>首选项  </td> 
       <td valign="top">ZIP</td> 
      </tr> 

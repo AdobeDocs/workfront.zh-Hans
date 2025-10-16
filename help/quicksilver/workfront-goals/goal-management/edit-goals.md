@@ -6,24 +6,28 @@ description: 您可以从任何时段和任何状态编辑现有目标。
 author: Alina
 feature: Workfront Goals
 exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '574'
 ht-degree: 1%
 
 ---
 
 # 在Adobe Workfront目标中编辑目标
 
-<!--Audited for P&P only: 4/2025-->
+<!--Audited for P&P only: 10/2025-->
 
 您可以从任何时段和任何状态编辑现有目标。
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
+>[!NOTE]
+>
+>如果您的公司以前购买过此包，则可能会选择继续使用Adobe Workfront Goals。 有关详细信息，请与您的客户代表联系。
+>
+>Adobe Workfront目标不再可供购买。
 
-您必须具备以下条件：
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto">
 <col>
@@ -31,34 +35,20 @@ ht-degree: 1%
 <col>
 </col>
 <tbody>
- <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+ <tr>
+  <td> <p>Adobe Workfront包</p> </td> 
    <td> 
-   <p>对于新计划和许可证结构：
-  <ul><li>Ultimate计划 </li></ul>
-   </p>
-<p>对于当前计划和许可证结构： 
-<ul><li> Pro或更高版本 </li>
-  <li>除了Adobe Workfront许可证之外，还提供了Workfront目标许可证。</li></ul></p>
-   </td>  
+   <p>Adobe Workfront Ultimate</p>
+   </td> 
   </tr>
  <tr>
- <tr>
- <td role="rowheader">Adobe Workfront许可证*</td>
+ <td role="rowheader">Adobe Workfront许可证</td>
  <td>
- <p>新许可证：参与者或更高版本</p>
- 或
- <p>当前许可证：请求或更高版本</p> <p>有关详细信息，请参阅<a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>。</p> </td>
+ <p>参与者或更高版本</p>
+<p>请求或更高版本</p></td>
  </tr>
- <tr>
- <td role="rowheader">产品*</td>
- <td>
-  <p> 新产品要求：Workfront</p>
- <p>或</p>
-  <p>当前产品要求：除了Workfront许可证之外，您必须为Adobe Workfront Goals购买许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
- </tr>
- <tr>
- <td role="rowheader">访问级别</td>
+  <tr>
+ <td role="rowheader">访问级别配置</td>
  <td> <p>编辑对目标的访问权限</p> </td>
  </tr>
  <tr data-mc-conditions="">
@@ -67,20 +57,73 @@ ht-degree: 1%
   <div>
   <p>查看目标的权限或更高以查看目标</p>
   <p>管理目标的权限以编辑它</p>
-  <p>有关共享目标的信息，请参阅<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目标中共享目标</a>。 </p>
   </div> </td>
  </tr>
 <tr>
    <td role="rowheader"><p>版面模板</p></td>
-   <td> <p>必须为包括Workfront管理员在内的所有用户分配一个布局模板，该模板应包括主菜单中的目标区域。 </p>  
+   <td> <p>必须为包括系统管理员在内的所有用户分配一个布局模板，该模板应包括主菜单中的目标区域。 </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> 
+   <p>For the new plan and license structure:
+  <ul><li>An Ultimate plan </li></ul>
+   </p>
+<p>For the current plan and license structure: 
+<ul><li> A Pro or higher </li>
+  <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
+   </td>  
+  </tr>
+ <tr>
+ <tr>
+ <td role="rowheader">Adobe Workfront license*</td>
+ <td>
+ <p>New license: Contributor or higher</p>
+ Or
+ <p>Current license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Product*</td>
+ <td>
+  <p> New product requirement: Workfront</p>
+ <p>Or</p>
+  <p>Current product requirement: In addition to a Workfront license, you must purchase a license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Access level</td>
+ <td> <p>Edit access to Goals</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Object permissions</td>
+ <td>
+  <div>
+  <p>View or higher permissions to the goal to view it</p>
+  <p>Manage permissions to the goal to edit it</p>
+  <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
+  </div> </td>
+ </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
+</td>
+  </tr>
+</tbody>
+</table>-->
 
 ## 有关编辑目标的注意事项
 
@@ -181,11 +224,11 @@ Editing goals differs depending on what environment you use.
 
       * **目标所有者**
       * **描述**：添加或更新有关目标的信息。
-   * 更新或查看“目标详细信息”部分中的信息。 有关详细信息，请参阅Adobe Workfront目标[&#128279;](../goal-management/update-goals-in-goal-details-panel.md)的“目标详细信息”部分中的更新目标。
+   * 更新或查看“目标详细信息”部分中的信息。 有关详细信息，请参阅Adobe Workfront目标[的“目标详细信息”部分中的](../goal-management/update-goals-in-goal-details-panel.md)更新目标。
 
    <!-- (should you update the title here after changing it at production??? - change it to Update goals in the goal Details section)-->
 
-1. （可选）单击左侧面板中的&#x200B;**进度指示器**&#x200B;以将结果、活动或项目添加到目标。 通过添加进度指示器，您可以确保可以跟踪目标的进度。
+1. （可选）单击左侧面板中的&#x200B;**进度指示器**以将结果、活动或项目添加到目标。 通过添加进度指示器，您可以确保可以跟踪目标的进度。
 有关更多信息，请参阅以下文章：
    * [将活动添加到Adobe Workfront目标中的目标](../results-and-activities/add-activities-to-goals.md)
    * [将结果添加到Adobe Workfront目标中的目标](../results-and-activities/add-results-to-goals.md)。

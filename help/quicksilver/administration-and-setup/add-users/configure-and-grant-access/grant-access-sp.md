@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4343f0ff-2f78-4556-801f-db9d94f80c95
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '609'
 ht-degree: 0%
 
 ---
@@ -22,36 +22,36 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具备以下条件：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Workfront计划*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront包</p> </td> 
    <td>业务或更高</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>查看或更高版本。 有关详细信息，请参阅<a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref" data-mc-variable-override="">许可证概述</a>。</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> 
+   <p>浅色或更高</p>
+   <p>审核或更高</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
-   <td> <p>您必须为Adobe Workfront Scenario Planner购买附加许可证，才能访问本文中描述的功能。</p> <p>有关获取Workfront Scenario Planner的信息，请参阅<a href="../../../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref" data-mc-variable-override="">使用Scenario Planner所需的访问权限</a>。 </p> </td> 
+   <td> <p>您必须为Adobe Workfront Scenario Planner购买附加许可证。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别*</td> 
-   <td> <p>查看对Scenario Planner的访问权限或更高</p> <p><b>注意</b>：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">创建或修改自定义访问级别</a>。</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>查看对Scenario Planner的访问权限或更高</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>对象权限</p> </td> 
-   <td> <p>查看计划的权限或更高</p> <p>有关请求对计划的附加访问权限的信息，请参阅<a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref" data-mc-variable-override="">在方案规划者中请求对计划的访问权限</a>。</p> </td> 
+   <td> <p>查看计划的权限或更高</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 ## 按许可证类型访问Scenario Planner
 
-有关每个访问级别中的用户可以对Scenario Planner执行哪些操作的信息，请参阅[可用于每个对象类型的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)一文中的[Scenario Planner区域](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#scenario)部分。
+有关每个访问级别中的用户可以对Scenario Planner执行哪些操作的信息，请参阅[可用于每个对象类型的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#scenario)一文中的[Scenario Planner区域](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)部分。
 
 ## 按访问级别设置显示的Scenario Planner访问权限
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 * [查看访问权限](#view-access)
 * [编辑访问权限](#edit-access)
 
-### 无权访问 {#no-access}
+### 无访问权限 {#no-access}
 
 无权访问Scenario Planner的用户既无法在主菜单中看到添加到其布局模板的“方案”图标，也无法查看与其共享的计划和计划。 如果与无权访问Scenario Planner的用户共享指向计划的链接，则用户无法查看或编辑计划。
 

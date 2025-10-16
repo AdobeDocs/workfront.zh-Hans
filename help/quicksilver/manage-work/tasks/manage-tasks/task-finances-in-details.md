@@ -2,14 +2,14 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: 在“任务详细信息”部分管理任务财务
-description: 在“任务详细信息”部分管理任务财务
+description: 通过访问“任务详细信息”部分的“概述”区域，可以查看或编辑任务的财务信息。 在“任务详细信息”部分中，您可以查看或编辑的字段数量有限。
 author: Alina
 feature: Work Management
 exl-id: 54ae48e5-bc8c-4e90-8fa1-0015523df4e6
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 4%
+source-wordcount: '830'
+ht-degree: 5%
 
 ---
 
@@ -19,36 +19,65 @@ ht-degree: 4%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, to it in both articles)</p>
 -->
 
-您可以通过访问任务详细信息部分的概述区域来查看或编辑任务的财务信息。 您可以在此区域中查看或编辑的字段数量有限。 有关编辑任务的所有财务信息的信息，请参阅[编辑任务](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
+通过访问“任务详细信息”部分的“概述”区域，可以查看或编辑任务的财务信息。 您可以在此区域中查看或编辑的字段数量有限。
+
+有关编辑任务的所有财务信息的信息，请参阅[编辑任务](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
 
 ## 访问要求
 
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>工作或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td><p>标准</p> 
+   <p>工作或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对项目和任务的访问权限</p> <p>查看对财务数据或更高版本的访问权限</p> <p>您必须具有财务数据的编辑权限才能编辑任务的财务信息</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑对项目和任务的访问权限</p> <p>查看对财务数据或更高版本的访问权限</p> <p>您必须具有财务数据的编辑权限才能编辑任务的财务信息</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看包含View Finance或更高版本的任务的权限</p> <p>您必须对包含“编辑财务”的任务具有“管理”权限，才能编辑任务的财务信息</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>查看包含View Finance或更高版本的任务的权限</p> <p>您必须对包含“编辑财务”的任务具有“管理”权限，才能编辑任务的财务信息</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Work or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Projects and Tasks</p> <p>View access to&nbsp;Financial&nbsp;Data or higher</p> <p>You must have Edit access to&nbsp;Financial Data to edit financial information on tasks</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to the task that include View Finance or higher</p> <p>You must have Manage permissions on the task that include Edit Finance to edit financial information on tasks</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 在“任务详细信息”部分中编辑任务财务
 
@@ -137,4 +166,4 @@ ht-degree: 4%
     </tbody> 
    </table>
 
-1. （视情况而定）如果您正在编辑“财务”部分中的字段，请单击&#x200B;**保存**&#x200B;**更改**。
+1. （视情况而定）如果您正在编辑“财务”部分中的字段，请单击&#x200B;**保存****更改**。

@@ -6,9 +6,9 @@ description: 您可以自动或手动将 [!DNL Jira] 问题链接到 [!DNL Adobe
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: 064418302767ad20e176080ba9a12db548750f3c
+source-git-commit: b1b55b8046aa771abb2cceda333940ccf827356a
 workflow-type: tm+mt
-source-wordcount: '1324'
+source-wordcount: '1378'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 0%
 >
 >为了满足贵组织与Jira的集成需求，我们建议使用Workfront自动化和集成。
 >
->有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 >
->有关Jira的Workfront自动化和集成模块的特定功能的信息，请参阅[Jira软件模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules)。
+>有关Jira的Workfront自动化和集成模块的特定功能的信息，请参阅[Jira软件模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules)。
 
 <!--
 
@@ -37,9 +37,9 @@ ht-degree: 0%
 >
 >Eight ready-to-use Workfront Automation and Integration templates for Jira will be available by August to help replicate common workflows and accelerate implementation. Templates are fully customizable to meet specific business needs and can be extended as requirements evolve. 
 > 
->For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
+>For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
 >
->For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
+>For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
 
 -->
 
@@ -49,8 +49,6 @@ ht-degree: 0%
 
 ## 访问要求
 
-您必须具备以下条件：
-
 +++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
@@ -58,35 +56,51 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/cn/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] 计划]</a></td> 
-   <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront包</td> 
+   <td><p>任何</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe [!DNL Workfront]许可证概述</a></td> 
-   <td> 
-   <p>新增：标准<p>
-   <p>或</p>
-   <p>当前：计划 </p>
-    </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td><p>标准 </p>
+       <p>规划 </p>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Jira访问</td> 
-   <td> <p>系统管理员访问权限</p> <p><b>重要</b>
-
-我们建议您在[!DNL Jira]和[!DNL Workfront]中创建单独的系统管理员帐户以专用于此集成，而不是使用可能附加到用户的现有帐户。</p> </td>
-</tr> 
+   <td> <p>系统管理员访问权限</p> <p>重要信息：我们建议您在Jira和Workfront中创建单独的系统管理员帐户以专门用于此集成，而不是使用可能附加到用户的现有帐户。</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>您必须是[!DNL Workfront]管理员。 有关[!DNL Workfront]管理员的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理访问权限</a>。</p> <p><b>注释</b>
-
-如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何修改访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
-</tr> 
+   <td> <p>您必须是Workfront管理员。</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+## 为[!DNL Workfront]安装[!DNL Jira]
+
+为[!DNL Workfront] OnDemand安装[!DNL Jira]与在[!DNL Jira]服务器实例上安装它相同。
+
+您必须是[!DNL Jira]管理员才能安装[!DNL Workfront]加载项。
+
+如果您不是[!DNL Jira]管理员，则可以浏览[!DNL Workfront]加载项并请求安装它。 您的请求将发送给[!DNL Jira]管理员进行批准和安装。
+
+有关请求在[!DNL Jira]应用程序上安装加载项的更多信息，请参阅[管理加载项的用户请求。](https://confluence.atlassian.com/upm/managing-user-requests-for-add-ons-781394968.html)
+
+要安装[!DNL Workfront for Jira]：
+
+1. 以[!DNL Jira]管理员身份登录[!DNL Jira]。
+1. 在&#x200B;**[!DNL Workfront for Jira]**[[!DNL Atlassian Marketplace]&#x200B;中找到](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview)加载项。
+
+1. 单击&#x200B;**[!UICONTROL 立即获取它]**&#x200B;以进行安装。
+
+   安装完成后，您可以从[!DNL Workfront]登录到[!DNL Jira]并配置集成。
+
+   有关详细信息，请参阅[配置Adobe Workfront for Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)。
 
 ## 先决条件
 

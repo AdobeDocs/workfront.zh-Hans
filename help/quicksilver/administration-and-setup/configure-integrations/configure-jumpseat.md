@@ -8,10 +8,10 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Nolan, Becky
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
-source-git-commit: 01b7eb79028eb3fe47f988a31cb62ace31bba3f1
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 4%
+source-wordcount: '257'
+ht-degree: 6%
 
 ---
 
@@ -23,32 +23,37 @@ ht-degree: 4%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
-   <td> <p>[!UICONTROL Enterprise] </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td>[!UICONTROL 计划]</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">产品</td> 
-   <td>您必须拥有有效的[!DNL JumpSeat]计划。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p> 您必须是[!DNL Workfront]管理员。 有关[!DNL Workfront]管理员的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理访问权限</a>。</p> </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+   <td>Adobe Workfront包
+   </td>
+    <p>工作流 Ultimate</p>
+   <td> <p>Prime或Ultimate</p>
+   </td>
+  </tr>
+    <tr>
+   <td>Adobe Workfront许可证
+   </td>
+   <td>标准
+   <p>规划</p>
+   </td>
+  </tr>
+  </tr>
+  <tr>
+   <td>产品
+   </td>
+   <td>您必须拥有有效的[!DNL JumpSeat]计划。
+   </td>
+  </tr>
+   <tr>
+   <td>访问级别配置
+   </td>
+   <td>您必须是[!DNL Workfront]管理员。
+   </td>
+  </tr>
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -56,11 +61,11 @@ ht-degree: 4%
 
 在开始之前，您必须
 
-* 在[!DNL JumpSeat]中添加并激活[!DNL Workfront]作为应用程序。 有关详细信息，请参阅[如何添加或删除应用程序](https://support.jumpseat.io/article/how-to-add-an-application/)。
+* 在[!DNL Workfront]中添加并激活[!DNL JumpSeat]作为应用程序。 有关详细信息，请参阅[如何添加或删除应用程序](https://support.jumpseat.io/article/how-to-add-an-application/)。
 
 >[!IMPORTANT]
 >
->如果您在AdobeUnified Experience上，则必须使用以下应用程序URL： `.workfront.adobe.com`。
+>如果您在Adobe Unified Experience上，则必须使用以下应用程序URL： `.workfront.adobe.com`。
 
 
 
@@ -70,7 +75,7 @@ ht-degree: 4%
 
 >[!TIP]
 >
->您需要在[!DNL JumpSeat]中添加和激活两个单独的[!DNL Workfront]应用程序 — 一个用于预览，一个用于生产。 有关详细信息，请参阅[如何添加或删除应用程序](https://support.jumpseat.io/article/how-to-add-an-application/)。
+>您需要在[!DNL Workfront]中添加和激活两个单独的[!DNL JumpSeat]应用程序 — 一个用于预览，一个用于生产。 有关详细信息，请参阅[如何添加或删除应用程序](https://support.jumpseat.io/article/how-to-add-an-application/)。
 
 要配置[!DNL JumpSeat]集成，请执行以下操作：
 
@@ -85,11 +90,11 @@ ht-degree: 4%
 
 https://{mycompanyname}.jumpseat.io
 
-&#x200B;>>
+>>
 
 >[!ENDSHADEBOX]
 
-1. 输入&#x200B;**[!UICONTROL [!DNL JumpSeat]集成令牌]**。 您可以在[!DNL JumpSeat]中的&#x200B;**[!UICONTROL 配置]**&#x200B;页面上找到此项。
+1. 输入&#x200B;**[!UICONTROL [!DNL JumpSeat]集成令牌]**。 您可以在&#x200B;**[!UICONTROL 中的]**&#x200B;配置[!DNL JumpSeat]页面上找到此项。
 
    **示例：** $2y$10$BevsKeQ8....OYR.LurSg2U64O
 
@@ -106,4 +111,4 @@ https://{mycompanyname}.jumpseat.io
 
 >[!TIP]
 >
->有关配置[!DNL JumpSeat]集成的更多信息，请参阅有关[JumpSeat+Workfront](https://jumpseat.io/landing-page/jumpseat-workfront/)的[!DNL JumpSeat]文档。
+>有关配置[!DNL JumpSeat]集成的更多信息，请参阅有关[!DNL JumpSeat]JumpSeat+Workfront[的](https://jumpseat.io/landing-page/jumpseat-workfront/)文档。

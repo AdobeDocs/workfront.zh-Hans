@@ -10,7 +10,7 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: b43b8583-41cb-4a96-8e61-77208eaa219a
-source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # 系统跟踪的更新信息源：文章索引
 
-<!--Audited: April, 2024-->
+<!--Audited: 04/2024-->
 
 Adobe Workfront会自动将某些对象上发生的活动作为系统更新记录在[!UICONTROL 更新]分区中。 系统更新包括描述对象发生了何种变化的简短说明。 [!DNL Workfront]管理员可以在[!UICONTROL 更新]部分中定义系统应跟踪的更改类型。
 

@@ -3,16 +3,16 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: “错误消息：无效参数：转化值”
-description: “尝试更改现有自定义表单中自定义字段的格式时，收到以下错误消息：‘无效参数：转化值'&amp；lt；..&amp；gt；"
+title: 错误消息：无效参数：转换值
+description: 尝试更改现有自定义表单中自定义字段的格式时，收到以下错误消息：“无效参数：转化值'&amp；lt；..&amp；gt；”
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4f7aac95-4afb-422d-877b-0fa49ef43883
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: 929502c256011b464d938ad1095c127407e4a795
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 0%
+source-wordcount: '311'
+ht-degree: 2%
 
 ---
 
@@ -33,25 +33,21 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
-   <td>任何</td> 
+   <td>[!DNL Adobe Workfront] 包</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td>
-   <p>新增：标准</p>
-   <p>或</p>
-   <p>当前：计划</p></td> 
-  </tr> 
+   <td>[!DNL Adobe Workfront] 许可证</td> 
+   <td><p>标准</p>
+       <p>规划</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
+   <td>访问级别配置</td> 
    <td> <p>编辑以下项的访问权限：</p> 
     <ul> 
      <li> <p>创建报告、功能板和日历</p> </li> 
@@ -61,7 +57,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

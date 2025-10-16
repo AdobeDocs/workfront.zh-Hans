@@ -2,13 +2,13 @@
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: 打印功能板
-description: 可以将仪表板打印或导出到。PDF文件。 要打印仪表板，您必须具有查看仪表板的权限。
+description: 可以将功能板打印或导出到。PDF文件。 要打印仪表板，您必须具有查看仪表板的权限。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 30f3481b-23b6-4dc9-be0d-9cffd5d4dfed
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!-- Audited: 1/2025 -->
 
-可以将仪表板打印或导出到。PDF文件。 要打印仪表板，您必须具有查看仪表板的权限。
+可以将功能板打印或导出到。PDF文件。 要打印仪表板，您必须具有查看仪表板的权限。
 
 >[!NOTE]
 >
@@ -25,43 +25,35 @@ ht-degree: 0%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
-
-您必须具备以下条件：
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront计划</strong></td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront许可证</strong></td> 
-      <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>标准</p></li>
-         </ul>
-      <p>当前：</p>
-         <ul>
-         <li><p>工作或更高</p></li>
-         </ul>
-   </td>
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> 
+      <p>标准</p>
+      <p>工作或更高</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>访问级别配置</strong></td> 
-   <td> <p>查看对报告、功能板和日历的访问权限</p> </td> 
-  </tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑对报告、功能板和日历的访问权限</p></td> 
+  </tr>  
   <tr> 
-   <td role="rowheader"><strong>对象权限</strong>/td&gt; 
+   <td role="rowheader">对象权限</td> 
    <td> <p>查看仪表板的权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -73,7 +65,7 @@ ht-degree: 0%
 
 ## 了解打印仪表板时打印的信息
 
-当打印仪表板或将其另存为。PDF文件时，仪表板的某些信息(如Adobe Workfront Web应用程序中的信息)可能不会显示在打印或导出的文件中。
+打印仪表板或将其另存为。PDF文件时，仪表板的某些信息(如Adobe Workfront Web应用程序中显示的内容)可能不会显示在打印或导出的文件中。
 
 * [显示什么？](#what-is-displayed)
 * [哪些内容未显示？](#what-is-not-displayed)
@@ -113,7 +105,7 @@ ht-degree: 0%
 1. 在&#x200B;**目标**&#x200B;字段中，从各种可用的打印选项中进行选择。\
    根据您使用的浏览器和浏览器版本，打印选项会有所不同。
 
-1. （可选）将仪表板另存为。PDF文件，然后单击&#x200B;**保存**&#x200B;以保存。PDF。\
+1. （可选）将功能板另存为。PDF文件，然后单击&#x200B;**保存**&#x200B;以保存。PDF。\
    要了解如何将仪表板另存为。PDF文件，请参阅[导出仪表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md)。
 
 1. 单击&#x200B;**打印**。

@@ -7,7 +7,7 @@ description: 依赖关系类型是指任务之间的前置任务关系。 它们
 author: Alina
 feature: Work Management
 exl-id: 30d1c60d-0632-4a32-b7e7-a9f8e81bf727
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 0%
@@ -38,5 +38,5 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->依赖关系类型的缩写在任务列表中用于定义前置任务关系。 有关详细信息，请参阅[任务前置任务概述](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md)中的[任务列表中的前置任务值示例](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md#examples-of-predecessor-values-in-a-task-list)。
+>依赖关系类型的缩写在任务列表中用于定义前置任务关系。 有关详细信息，请参阅[任务前置任务概述](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md#examples-of-predecessor-values-in-a-task-list)中的[任务列表中的前置任务值示例](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md)。
 

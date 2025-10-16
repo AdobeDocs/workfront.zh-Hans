@@ -9,22 +9,22 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: 76797ce2afb6a6a929531f02ed3a3b3f75240602
+source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 9%
+ht-degree: 25%
 
 ---
 
 # 关于默认Adobe Workfront布局
 
-默认布局是Adobe Workfront管理员使用布局模板进行任何更改之前的主菜单![主菜单图标](assets/main-menu-icon.png)或主菜单![主菜单图标](assets/main-menu-icon.png)（如果可用）的布局、左侧面板以及视图、分组和筛选器的布局。
+默认布局是Adobe Workfront管理员使用布局模板进行任何更改之前的主菜单![主菜单图标](assets/main-menu-icon.png)或主菜单![主菜单图标](assets/main-menu-icon-left-nav.png)（如果可用）的布局、左侧面板以及视图、分组和筛选器的布局。
 
 有关Workfront管理员如何通过为用户分配布局模板来修改用户默认布局的信息，请参阅[将用户分配给布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)。
 
 >[!NOTE]
 >
->用户可以通过编辑用户配置文件首选项来更改自己的布局。 有关详细信息，请参阅[配置我的设置](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)中的[首选项](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences)部分。
+>用户可以通过编辑用户配置文件首选项来更改自己的布局。 有关详细信息，请参阅[配置我的设置](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences)中的[首选项](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)部分。
 
 ## 每种许可证类型的默认主菜单项
 
@@ -51,7 +51,7 @@ ht-degree: 9%
     <th class="tg-0lax"><span style="font-weight:bold">规划者</span></th>
     <th class="tg-0lax"><span style="font-weight:bold">员工</span></th>
     <th class="tg-1wig">审阅者</th>
-    <th class="tg-1wig">请求人</th>
+    <th class="tg-1wig">请求者</th>
     <th class="tg-1wig">外部用户</th>
   </tr></thead>
 <tbody>

@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
-source-git-commit: 6f041459caf040846ffdec5bc75e9d74c99e318b
+source-git-commit: f9a154fa92217810b762ac48169512bc0bca7305
 workflow-type: tm+mt
 source-wordcount: '811'
 ht-degree: 0%
@@ -22,7 +22,7 @@ PKCE是一种安全授权流，可与动态刷新应用程序（如移动应用�
 
 PKCE流程具有以下步骤。 本节中的步骤仅供参考。 要执行这些步骤，请参阅本文中的其他部分。
 
-1. 客户端通过使用`S256`加密转换`code_verifier`来创建`code_challenge`。
+1. 客户端通过使用`code_challenge`加密转换`code_verifier`来创建`S256`。
 
 1. 客户端将浏览器以及生成的`code_challenge`引导至OAuth2登录页面。 您必须注册应用程序（客户端），以便OAuth2能够接受授权请求。 注册后，您的应用程序可以将浏览器重定向到OAuth2。
 
@@ -34,7 +34,7 @@ PKCE流程具有以下步骤。 本节中的步骤仅供参考。 要执行这�
 
 1. 您的应用程序将此代码与`code_verifier`一起发送到OAuth2。
 
-1. OAuth2授权服务器使用初始授权请求中的`code_challenge_method`转换`code_verifier`，并根据`code_challenge`检查结果。 如果两个字符串的值匹配，则服务器已验证请求是否来自同一客户端并将发出`access token`。
+1. OAuth2授权服务器使用初始授权请求中的`code_verifier`转换`code_challenge_method`，并根据`code_challenge`检查结果。 如果两个字符串的值匹配，则服务器已验证请求是否来自同一客户端并将发出`access token`。
 
 1. OAuth2返回`access token`，还可以选择返回`refresh token`。
 
@@ -47,7 +47,7 @@ PKCE流程具有以下步骤。 本节中的步骤仅供参考。 要执行这�
 
 在实施授权之前，您需要通过从Workfront创建应用程序集成，在OAuth2中注册应用程序。
 
-有关创建OAuth2应用程序的说明，请参阅[为Workfront集成创建OAuth2应用程序](../../administration-and-setup/configure-integrations/create-oauth-application.md)中的[使用PKCE创建OAuth2单页Web应用程序](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce)
+有关创建OAuth2应用程序的说明，请参阅[为Workfront集成创建OAuth2应用程序](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce)中的[使用PKCE创建OAuth2单页Web应用程序](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
 >[!NOTE]
 >
@@ -128,7 +128,7 @@ PKCE生成器代码创建与以下内容类似的输出：
 
 ## 交换令牌的代码
 
-要交换访问令牌的授权代码，请将其与`code_verifier`一起传递到授权服务器的`/token`端点。
+要交换访问令牌的授权代码，请将其与`/token`一起传递到授权服务器的`code_verifier`端点。
 
 >[!INFO]
 >

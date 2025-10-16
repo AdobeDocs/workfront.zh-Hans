@@ -7,10 +7,10 @@ description: 除Adobe Workfront许可证外，Scenario Planner还需要一个单
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: ba3b3525-cba8-44fe-856d-8ba50cd3b524
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 5%
+source-wordcount: '514'
+ht-degree: 6%
 
 ---
 
@@ -20,14 +20,7 @@ ht-degree: 5%
 
 [!DNL Workfront Scenario Planner] 的目的是加快组织级计划的执行速度，并帮助您作出关键决策，从而为您的企业带来可预测的、期望获得的结果。
 
-必须具有以下[!DNL Workfront]计划才能访问[!DNL Workfront Scenario Planner]：
-
-* 对于新的Workfront计划： [!UICONTROL Ultimate]计划。
-* 对于当前[!DNL Workfront]计划：除了购买[!DNL Scenario Planner]许可证之外，您必须拥有业务计划或更高计划。
-
-有关使用[!DNL Workfront Scenario Planner]所需的访问权限的详细信息，请参阅[使用 [!DNL Scenario Planner]](access-needed-to-use-sp.md)所需的访问权限。
-
-## [!DNL Scenario Planner]概述
+## [!DNL Scenario Planner] 概述
 
 使用[!DNL Workfront Scenario Planner]，您可以构建概述公司总体战略成果的企业级计划。 您可以为计划定义多个计划，并将它们置于各种方案中，以找到执行计划的最佳解决方案。
 
@@ -75,7 +68,7 @@ ht-degree: 5%
 
   有关将项目导入计划的信息，请参阅[在 [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md)中将项目导入计划。
 
-* Publish方案以创建或更新链接到方案中的计划的项目
+* 发布方案以创建或更新链接到方案中的计划的项目
 
   有关发布方案的信息，请参阅[通过在 [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)中发布计划来更新或创建项目。
 

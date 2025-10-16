@@ -6,9 +6,9 @@ description: 在创建团队期间或之后，您可以为Scrum敏捷团队配�
 author: Lisa
 feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1725'
 ht-degree: 0%
 
 ---
@@ -34,8 +34,6 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -43,15 +41,14 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>新文档： [!UICONTROL Standard]</p> 
-   或
-   <p>当前： [!UICONTROL Work]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p>标准</p> 
+   <p>工作或更高</p> </td> 
   </tr>
 
 <tr> 
@@ -138,7 +135,7 @@ ht-degree: 0%
 
 ### 配置项目的状态列 {#configure-status-columns-for-projects}
 
-有关如何配置项目状态列的信息，请参阅[在 [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)中创建或编辑视图一文中的[创建或自定义[!UICONTROL Agile]视图](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view)部分。
+有关如何配置项目状态列的信息，请参阅[在[!UICONTROL 中创建或编辑视图一文中的]创建或自定义](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view)Agile[视图 [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)部分。
 
 ## 配置要在敏捷故事板上的故事卡上显示的其他字段
 
@@ -226,7 +223,7 @@ ht-degree: 0%
 
    * **[!UICONTROL 修改规划开始日期和规划完成日期以匹配迭代开始日期和结束日期]**：将工作项添加到迭代时，工作项日期将更改为迭代日期。
 
-     有关如何修改日期的更多信息，请参阅[将故事添加到现有迭代](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)一文中的[了解添加故事如何影响任务日期](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understand-how-adding-stories-affects-task-dates)部分。
+     有关如何修改日期的更多信息，请参阅[将故事添加到现有迭代](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understand-how-adding-stories-affects-task-dates)一文中的[了解添加故事如何影响任务日期](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)部分。
    * **[!UICONTROL 不修改规划开始日期和规划完成日期以匹配迭代开始日期和结束日期]**：将工作项添加到迭代时，工作项保留其原始日期。
 
    如果更改日期选项，则不会调整迭代中已存在的工作项的日期。

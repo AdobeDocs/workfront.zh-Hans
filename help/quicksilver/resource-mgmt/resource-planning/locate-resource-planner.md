@@ -6,9 +6,9 @@ description: 您可以使用资源规划者管理资源到项目的分配。 您
 author: Lisa
 feature: Resource Management
 exl-id: 0de749df-5af9-4124-8539-06b82dca2ec4
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -25,38 +25,31 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-   <td><p>新建：任何</p>
-       <p>或</p>
-       <p>当前： Pro或更高版本</p> </td> 
+   <td>Adobe Workfront包</td> 
+   <td><p>任何</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td><p>新建：浅色或更高；</br>
-          在主菜单中查找资源规划者的标准</p>
-       <p>或</p>
-       <p>当前：审阅或更高；</br>
-       在主菜单中计划查找资源规划者</p></td>
+   <td>Adobe Workfront许可证</td> 
+   <td><p>一个项目的轻度或以上；多个项目的标准</p>
+       <p>审查一个项目或更高项目；计划多个项目</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
+   <td>访问级别配置</td> 
    <td> <p>查看对资源管理的访问权限或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">对象权限</td> 
+   <td>对象权限</td> 
    <td> <p>查看对项目和用户的权限 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -67,10 +60,6 @@ ht-degree: 0%
 有关资源规划者先决条件的信息，请参阅[资源规划入门](../../resource-mgmt/resource-planning/get-started-resource-planning.md)。
 
 ## 找到资源规划者
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(this was moved from the get-started-resource-planner article)</p>
--->
 
 您可以在Workfront的两个区域中找到资源规划者，具体取决于您是要为多个项目还是仅为一个项目预算资源。
 

@@ -6,9 +6,9 @@ description: 如果无法按如下所述打开验证，请联系Adobe Workfront�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: bff8bf09-fca7-41cb-b6bc-813f08d3e18f
-source-git-commit: 4311e93964c7161b7de5d5aa680e3a822c67012a
+source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '217'
 ht-degree: 5%
 
 ---
@@ -21,30 +21,34 @@ ht-degree: 5%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>当前计划：专业版或更高版本</p> <p>或</p> <p>旧版计划：选择或Premium</p> <p>有关使用其他计划进行验证访问的更多信息，请参阅<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">访问Workfront中的验证功能</a>。</p> </td> 
+   <td role="rowheader">Adobe Workfront包</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td> <p>当前计划：工作或计划</p> <p>旧版计划：任意（您必须为用户启用验证）</p> </td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">验证角色</td> 
-   <td>任何</td> 
+   <td role="rowheader">验证角色 </td> 
+   <td>审阅人、审批人、审阅人和审批人、作者、审阅人</td> 
   </tr> 
   <tr> 
    <td role="rowheader">校样权限配置文件 </td> 
    <td>经理或更高版本</td> 
   </tr> 
+  <tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑对文档的访问权限</p> </td> 
+  </tr> 
  </tbody> 
 </table>
+
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -56,7 +60,7 @@ ht-degree: 5%
 
 ## 从桌面校对查看器打开校对
 
-如果您定期在桌面验证查看器中查看交互式内容，则Workfront管理员可以将桌面验证查看器设置为默认查看器。 有关详细信息，请参阅文章[了解桌面验证查看器](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)中的[在桌面验证查看器中打开非交互式验证的用户设置](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs)。
+如果您定期在桌面验证查看器中查看交互式内容，则Workfront管理员可以将桌面验证查看器设置为默认查看器。 有关详细信息，请参阅文章[了解桌面验证查看器](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs)中的[在桌面验证查看器中打开非交互式验证的用户设置](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)。
 
 1. 在桌面验证查看器中，键入您的&#x200B;**验证URL**。
 

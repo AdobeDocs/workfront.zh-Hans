@@ -6,9 +6,9 @@ description: 如果项目与组关联，则您可以将系统级别状态以及�
 author: Alina
 feature: Work Management
 exl-id: 7564ab6a-8ddf-4e76-8e45-d59f9cf8d38b
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,37 @@ Alina, I moved this out of an admin article about statuses (Create and customize
 
 ## 访问要求
 
-<!--drafted for P&P:
++++ 展开以查看本文中各项功能的访问要求。 
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront包</td> 
+   <td> <p>任何</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p>标准</p>
+   <p>规划</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑对项目的访问权限</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">对象权限</td> 
+   <td> <p>管理项目的权限</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+<!--Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -39,10 +68,7 @@ Alina, I moved this out of an admin article about statuses (Create and customize
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p> 
-   </td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -55,37 +81,7 @@ Alina, I moved this out of an admin article about statuses (Create and customize
    <td> <p>Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
--->
-
-您必须具有以下权限才能执行本文中的步骤：
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>任何</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>规划 </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对项目的访问权限</p> <p><b>注释</b>
-
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
-</tr> 
-  <tr> 
-   <td role="rowheader">对象权限</td> 
-   <td> <p>管理项目的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+</table>-->
 
 ## 更新项目组和状态
 
@@ -103,7 +99,7 @@ Alina, I moved this out of an admin article about statuses (Create and customize
    >如果在&#x200B;**组**&#x200B;下拉菜单中选择其他组，则&#x200B;**状态**&#x200B;菜单中的自定义状态会自动更改以与新组关联。
    >
    >
-   >![状态下拉列表已展开为项目](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)的自定义状态   >
+   >![状态下拉列表已展开为项目](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)的自定义状态
    >
 
 1. 选择项目的状态。 您创建并应用于该组的自定义状态将显示在列表中。

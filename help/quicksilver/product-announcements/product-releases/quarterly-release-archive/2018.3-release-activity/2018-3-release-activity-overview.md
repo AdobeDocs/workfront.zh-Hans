@@ -2,14 +2,14 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: 2018.3发布活动概述
-description: '注意：2018.3版本在以下日期在“生产”环境中提供(有关详细日期和时间，请参阅trust.workfront.com)'
+description: 注意： 2018.3版本在以下日期内在生产环境中提供(有关详细日期和时间，请参阅trust.workfront.com)
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 55787c1e-45af-4b9f-bdbc-10cfacb326e6
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 3ac15b6527a727cfe95075405fa19164c06b102f
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1126'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ ht-degree: 0%
 * 不再支持[API版本3](#api-version-3-no-longer-supported)
 * [TLS支持即将结束](#tls-support-is-ending)
 * [JSONP支持即将结束](#jsonp-support-is-ending)
-* [Flash应用程序移除](#flash-application-removal)
+* 正在删除[Flash应用程序](#flash-application-removal)
 * [要删除的各种单点登录选项](#various-single-sign-on-options-to-be-removed)
 * [旧版Workfront FusionUpdate - 2018年9月20日](#legacy-workfront-fusionupdate-september-20-2018)
 
@@ -134,17 +134,17 @@ API版本10现已在“预览”环境中可用。 它将在18.3版本的生产�
 
 为了提供最佳安全性，Workfront要求将使用TLS 1.0或更早版本的所有集成和Web流量升级为使用TLS 1.1或更高版本。 此更改已在“预览”环境中生效。
 
-有关更多信息，请参阅  在Adobe Workfront[&#128279;](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md)中需要TLS 1.2。
+有关更多信息，请参阅  在Adobe Workfront[中需要](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md)TLS 1.2。
 
 ### JSONP支持即将结束 {#jsonp-support-is-ending}
 
-由于JSONP（带有Padding的Javascript）是一个存在已知安全漏洞的旧标准，因此，从2018年11月起，Workfront将不再支持JSONP。 有关详细信息，请参阅[结束对JSONP的支持](../../../../wf-api/api/ending-support-jsonp.md)。
+由于JSONP（带有Padding的Javascript）是一个存在已知安全漏洞的旧标准，因此，从2018年11月起，Workfront将不再支持JSONP。
 
 ### Flash应用程序删除 {#flash-application-removal}
 
-计划在2018.3版本中从Workfront删除所有依赖于Flash技术的功能，并将这些功能替换为新的解决方案。
+所有依赖于Flash技术的功能计划在2018.3版本中从Workfront删除，并替换为新的解决方案。
 
-有关旧版Flash工具及其替代的详细信息，请参阅[在Adobe Workfront中替换基于Flash的工具](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)。
+有关旧版Flash工具及其替代的详细信息，请参阅[在Adobe Workfront中替代基于Flash的工具](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)。
 
 ### 要删除的各种单点登录选项 {#various-single-sign-on-options-to-be-removed}
 

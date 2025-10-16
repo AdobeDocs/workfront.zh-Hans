@@ -7,10 +7,10 @@ description: 在Google Workspace中，打开Adobe [!DNL Workfront] 发送的通�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
+source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 0%
+source-wordcount: '572'
+ht-degree: 1%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 0%
 >
 >为了满足贵组织与Google Workspace的集成需求，我们建议使用Workfront自动化和集成。
 >
->有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 >
->有关Google Workspace的Workfront自动化和集成模块的特定功能的信息，请参阅[Gmail模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)和[Google日历模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)。
+>有关Google Workspace的Workfront自动化和集成模块的特定功能的信息，请参阅[Gmail模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)和[Google日历模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)。
 
 在[!DNL Google Workspace]中，当您打开已发送的通知电子邮件[!DNL Adobe Workfront]时，您可以查看相关工作项详细信息并在不离开[!UICONTROL 收件箱]的情况下做出回应。 如果操作可用（如批准请求），则可以直接从[!DNL Workfront for Google Workspace]执行这些操作。
 
@@ -38,24 +38,26 @@ ht-degree: 0%
 
 ## 访问要求
 
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[!UICONTROL 工作]，[!UICONTROL 计划]</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p>标准</p><p>工作或更高</p>
   </tr> 
-  </tbody> 
+ </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先决条件
 
@@ -86,23 +88,23 @@ ht-degree: 0%
     <tbody> 
      <tr> 
       <td>任务或问题</td> 
-      <td><strong>[!UICONTROL 批准]</strong>它，<strong>[!UICONTROL 拒绝]</strong>它，<strong>[!UICONTROL 授予]</strong>访问权限，<strong>[!UICONTROL 忽略]</strong>访问它的请求，<strong>[!UICONTROL 处理它]</strong>，或单击某个选项以指示您使用它<strong>[!UICONTROL 完成]</strong></td> 
+      <td><strong>[！UICONTROL批准]</strong>它，<strong>[！UICONTROL拒绝]</strong>它，<strong>[！UICONTROL授予]</strong>访问权限，<strong>[！UICONTROL忽略]</strong>访问它的请求，<strong>[！UICONTROL处理它]</strong>，或单击某个选项以指示您使用它<strong>[！UICONTROL完成]</strong></td> 
      </tr> 
      <tr> 
       <td>项目</td> 
-      <td><strong>[!UICONTROL 批准]</strong>它，<strong>[!UICONTROL 拒绝]</strong>它，<strong>[!UICONTROL 授予]</strong>对它的访问权限，或<strong>[!UICONTROL 忽略]</strong>对它的访问请求</td> 
+      <td><strong>[！UICONTROL批准]</strong>它，<strong>[！UICONTROL拒绝]</strong>它，<strong>[！UICONTROL授予]</strong>对它的访问权限，或<strong>[！UICONTROL忽略]</strong>对它的访问请求</td> 
      </tr> 
      <tr> 
       <td>文档</td> 
-      <td><strong>[!UICONTROL 批准]</strong>它，<strong>[!UICONTROL 拒绝]</strong>它，<strong>[!UICONTROL 授予]</strong>对它的访问权限，或<strong>[!UICONTROL 忽略]</strong>对它的访问请求</td> 
+      <td><strong>[！UICONTROL批准]</strong>它，<strong>[！UICONTROL拒绝]</strong>它，<strong>[！UICONTROL授予]</strong>对它的访问权限，或<strong>[！UICONTROL忽略]</strong>对它的访问请求</td> 
      </tr> 
      <tr> 
       <td>更新 </td> 
-      <td> <p>查看项目更新完整列表的任何部分，以便您拥有<strong>[!UICONTROL Post]</strong>新更新或<strong>[!UICONTROL 回复]</strong>所需的上下文。 您可以单击<strong>[!UICONTROL Notify]</strong>以提醒特定用户您的回复。 </p> <p>有关详细信息，请参阅<a href="../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md" class="MCXref xref">回复来自[!DNL Adobe Workfront]的[!DNL Google Workspace]</a>更新通知。</p> </td> 
+      <td> <p>查看项目更新完整列表的任何部分，以便您拥有<strong>[！UICONTROL Post]</strong>新更新或<strong>[！UICONTROL回复]</strong>所需的上下文。 您可以单击<strong>[！UICONTROL Notify]</strong>以提醒特定用户您的回复。 </p> <p>有关详细信息，请参阅<a href="../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md" class="MCXref xref">回复来自[!DNL Adobe Workfront]的[!DNL Google Workspace]</a>更新通知。</p> </td> 
      </tr> 
      <tr> 
       <td>审批请求</td> 
-      <td><strong>[!UICONTROL Approve]</strong>或<strong>[!UICONTROL Reject]</strong> （您可以通过单击其他选项改变主意）、下载、查看其所有者或查看其参考编号</td> 
+      <td><strong>[！UICONTROL Approve]</strong>或<strong>[！UICONTROL Reject]</strong> （您可以通过单击其他选项改变主意）、下载、查看其所有者或查看其参考编号</td> 
      </tr> 
      <tr> 
       <td>项目状态的更改</td> 

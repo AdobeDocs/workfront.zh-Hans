@@ -7,9 +7,9 @@ description: 在分配访问级别时，Adobe Workfront管理员可以向您授�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: eb4bf18407562b88bf0c946c905b202e5b62a5fe
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '892'
 ht-degree: 0%
 
 ---
@@ -26,23 +26,20 @@ ht-degree: 0%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
-
-要共享对象，必须具备以下条件：
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-   <td> <p>任何 </p> </td> 
+   <td role="rowheader">Adobe Workfront包</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td> <p>新增：标准</p> 
-   或
-   <p>当前：工作或更高</p>
+   <td> <p>标准</p> 
+   <p>工作或更高</p> 
    </td> 
   </tr> 
   <tr> 
@@ -56,7 +53,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -156,7 +153,7 @@ ht-degree: 0%
 
 下表显示了允许用户查看或管理项目群时，您可以授予用户哪些权限：
 
-| **操作** | **管理** | **视图** |
+| **操作** | **管理** | **查看** |
 |---|---|---|
 | 编辑项目详细信息 | ✓ |   |
 | 查看项目群 | ✓ | ✓ |

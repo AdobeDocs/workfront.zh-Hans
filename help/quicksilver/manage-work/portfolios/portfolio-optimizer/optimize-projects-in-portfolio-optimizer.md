@@ -6,9 +6,9 @@ description: 您可以使用[!UICONTROL Portfolio Optimizer]根据项目分数�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 25debc5b-5d7d-453f-ab0a-9bf3fba05693
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开以查看本文中各项功能的访问要求。 
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -28,23 +28,23 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
-   <td> 任何</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 包</td> 
+   <td> <p>Workfront Prime或更高版本</p>
+      <p>工作流Prime或更高版本</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>新文档： [!UICONTROL Standard] </p>
-   <p>当前： [!UICONTROL 计划] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
+   <td> <p>[！UICONTROL标准版]</p>
+   <p>[！UICONTROL计划]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>[!UICONTROL Edit]对项目和项目组合的访问权限</p> </td> 
-  </tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>[！UICONTROL Edit]对[！UICONTROL项目组合]和[！UICONTROL项目]的访问权限</p>  </td>
+</tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>项目组合的[!UICONTROL Manage]权限</p> <p>为项目分配或更高权限</p> 
-   <p>您必须对列表中的所有项目具有管理权限，才能使用<b>设置项目优先级</b>。</p>
-    </td> 
+   <td> <p>项目组合的[！UICONTROL Manage]权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,6 +52,33 @@ ht-degree: 0%
 *有关信息，请参阅Workfront文档的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> Any</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront licenses*</td> 
+   <td> <p>New: [!UICONTROL Standard] </p>
+   <p>Current: [!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>[!UICONTROL Edit] access to Projects and Portfolios</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions to the portfolio</p> <p>Contribute or higher permissions to the projects</p> 
+   <p>You must have Manage permissions to all the projects in the list to be able to use <b>Set project priority</b>.</p>
+    </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 在Portfolio Optimizer中优化项目
 
@@ -75,9 +102,9 @@ ht-degree: 0%
 
 1. 单击&#x200B;**x图标**&#x200B;以关闭优化类别。
 
-   这会更新&#x200B;**[!UICONTROL 得分]**&#x200B;列中每个项目的[!UICONTROL 得分]值。
+   这会更新[!UICONTROL 得分]列中每个项目的&#x200B;**[!UICONTROL 得分]**&#x200B;值。
 
-   有关[!UICONTROL Portfolio Optimizer]分数的信息，请参阅[Portfolio Optimizer]分数(../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)的概述。
+   有关[!UICONTROL Portfolio Optimizer]分数的信息，请参阅[Portfolio Optimizer[!UICONTROL 分数]的概述。](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)
 
 1. 为&#x200B;**[!UICONTROL 得分]**&#x200B;列设置正确的权重后，单击&#x200B;**[!UICONTROL 得分]**&#x200B;列的标题可按此列排序。 得分最高的项目显示在列表顶部。
 

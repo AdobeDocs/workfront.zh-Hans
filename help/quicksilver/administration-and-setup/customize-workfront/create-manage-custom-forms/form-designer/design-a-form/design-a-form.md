@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 75ac50d23c80aaf1b2100b02780adfe7fd7abb39
+source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
 workflow-type: tm+mt
-source-wordcount: '6606'
+source-wordcount: '6583'
 ht-degree: 5%
 
 ---
@@ -31,31 +31,27 @@ ht-degree: 5%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront计划</p> </td> 
-   <td>任何</td> 
+  <tr> 
+   <td>Adobe Workfront包</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td>
-   <p>新增：标准</p>
-   <p>或</p>
-   <p>当前：计划</p></td> 
+   <td>Adobe Workfront许可证</td> 
+   <td><p>标准</p>
+       <p>规划</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">访问级别配置</td> 
+  <tr> 
+   <td>访问级别配置</td> 
    <td> <p>对自定义表单的管理访问权限</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -135,7 +131,7 @@ ht-degree: 5%
 >[!NOTE]
 >
 >虽然可以这样做，但我们建议，在您或其他用户开始使用Workfront中的自定义表单后，不要更改此名称。 如果这样做，系统将不再能够识别Workfront其他区域中现在可能引用该字段的自定义字段。
->&#x200B;>例如，如果您将自定义字段添加到报表后更改其名称，Workfront将无法识别该字段在报表中的名称，并且除非您使用新名称将其重新添加到报表，否则该字段将在报表中停止正常工作。
+>>例如，如果您将自定义字段添加到报表后更改其名称，Workfront将无法识别该字段在报表中的名称，并且除非您使用新名称将其重新添加到报表，否则该字段将在报表中停止正常工作。
 >
 >我们建议您不要键入已用于内置Workfront字段的名称。
 >
@@ -150,7 +146,7 @@ ht-degree: 5%
 * `[`
 * `]`
 * (
-* )
+* ）
 * ：
 * `{`
 * `}`
@@ -453,7 +449,7 @@ ht-degree: 5%
    * 用户
    * 组
    * 工作角色
-   * 项目组合
+   * 组合
    * 项目群
    * 项目
    * 团队
@@ -607,7 +603,7 @@ ht-degree: 5%
      <tr> 
       <td role="rowheader">格式化</td>
       <td><p>选择将在自定义字段中捕获的数据类型。</p>
-      <p><strong>注意：</strong></p>
+      <p><strong>注释：</strong></p>
       <ul><li>保存表单后，可以更改格式类型，但有一个限制：对象上的所有现有值都必须能够转换为新类型。 （例如，如果格式类型为“文本”，并且对象正在存储“abc”值，则您无法转换该字段，并且会收到一个错误，说明系统无法将“abc”转换为数字/货币。） 如果要在数学计算中使用字段，请确保选择“数字”或“货币”格式。</li>
       <li>选择“数字”或“货币”时，系统会自动截断以0开头的数字。</li>
       <li>数字字段的字符限制为16。 您还可以使用文本字段输入数字并避免限制。</li>
@@ -634,12 +630,12 @@ ht-degree: 5%
       <td role="rowheader">JSON 路径</td>
       <td><p>键入或粘贴API的JSON路径。</p> <p>此选项允许从API URL返回的JSON中提取数据。 它提供了一种方法，用于选择在JSON内的哪些值将显示在下拉选项中。</p><p>例如，如果API URL按以下格式返回JSON，则可以使用“$.data[*].name”选择“美国”和“加拿大”作为下拉选项：</br>
       <pre>
-      &lbrace;
-       数据： &lbrace;
+      {
+       数据： {
          { name： "USA"}，
          { name： "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>有关JSON路径并确保编写正确JSON路径的更多信息，请参阅<a href="https://jsonpath.com/">https://jsonpath.com/</a>。</p></td>
@@ -787,14 +783,14 @@ The Workfront Mobile app -->
 
 此表列出了自定义表单中特定Workfront对象的可用本机字段。
 
-| 字段名称 | 项目 | 任务 | 问题 | 模板 | 模板任务 | 项目组合 | 项目群 | 组 |
+| 字段名称 | 项目 | 任务 | 问题 | 模板 | 模板任务 | 组合 | 项目群 | 组 |
 |--------------------------- |-------- |------- |------- |--------- |-------------- | --------- |-------- |------ |
 | 实际完成日期 | ✓ | ✓ | ✓ |   |   |   |   |   |
 | 实际持续时间 | ✓ |   |   |   |   |   |   |   |
 | 实际小时数 | ✓ |   | ✓ |   |   |   |   |   |
 | 实际开始日期 | ✓ | ✓ | ✓ |   |   |   |   |   |
 | 公司 | ✓ |   |   | ✓ |   |   |   |   |
-| 完成情况 | ✓ | ✓ | ✓ |   |   |   |   |   |
+| 条件 | ✓ | ✓ | ✓ |   |   |   |   |   |
 | 完成情况类型 | ✓ |   |   | ✓ |   |   |   |   |
 | 描述 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | 持续时间 |   | ✓ |   |   | ✓ |   |   |   |
@@ -811,7 +807,7 @@ The Workfront Mobile app -->
 | 计划持续时间 | ✓ |   |   | ✓ |   |   |   |   |
 | 规划小时数 | ✓ | ✓ | ✓ |   | ✓ |   |   |   |
 | 计划开始日期 | ✓ |   |   |   |   |   |   |   |
-| 项目组合 | ✓ |   |   | ✓ |   |   | ✓ |   |
+| 组合 | ✓ |   |   | ✓ |   |   | ✓ |   |
 | 优先级 | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | 项目群 | ✓ |   |   | ✓ |   |   |   |   |
 | 预计完成日期 | ✓ | ✓ |   |   |   |   |   |   |
@@ -1002,7 +998,7 @@ The Workfront Mobile app -->
       <td><p>（必需）选择连接到Workfront Planning中的记录类型的Workfront对象类型。</p>
       您可以从以下对象类型中进行选择：
       <ul><li> 项目</li>
-      <li> 项目组合</li><li> 项目群</li><li> 公司</li><li> 组</li></ul>
+      <li> 组合</li><li> 项目群</li><li> 公司</li><li> 组</li></ul>
        <p>只有表单对象类型的Workfront对象类型可用。</p> <p> 例如，如果表单设计器顶部的“对象类型”列表显示“项目”，则只能在此字段中选择“项目”，而不能选择“项目组合”，尽管项目组合也可以连接到记录类型。</p>
       </td>
      </tr>

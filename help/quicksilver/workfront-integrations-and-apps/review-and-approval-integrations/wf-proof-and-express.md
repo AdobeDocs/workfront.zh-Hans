@@ -8,9 +8,9 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: dce2d9413b3a363d6508cabec0147c260817ed98
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
  <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader">Adobe Workfront软件包</td> 
    <td> 
    <p>任何</p> 
    </td> 
@@ -51,15 +51,14 @@ ht-degree: 0%
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">产品</td> 
+   <td role="rowheader">其他产品</td> 
    <td> 
    <p> 您必须具有Adobe Express，并且您必须在Admin Console中作为用户添加到产品中。 </p> </td> 
   </tr>
-
-</tbody> 
+ </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -90,7 +89,7 @@ ht-degree: 0%
 
 用户必须具有Standard Workfront许可证才能请求Adobe Express的批准。
 
-了解如何[获得设计](https://helpx.adobe.com/cn/express/web/share-and-publish/share-and-collaborate/request-approval.html)的批准。
+了解如何[获得设计](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html)的批准。
 
 
 ## 重新组合Express模板并发送以供审阅和批准

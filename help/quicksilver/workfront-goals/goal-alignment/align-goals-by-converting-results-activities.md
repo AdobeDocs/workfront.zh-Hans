@@ -6,10 +6,10 @@ description: 您可以手动对齐两个目标，也可以将现有目标的结�
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 15%
+source-wordcount: '605'
+ht-degree: 17%
 
 ---
 
@@ -22,10 +22,50 @@ ht-degree: 15%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
+>[!NOTE]
+>
+>如果您的公司以前购买过此包，则可能会选择继续使用Adobe Workfront Goals。 有关详细信息，请与您的客户代表联系。
+>
+>Adobe Workfront目标不再可供购买。
 
-您需要以下访问权限才能执行本文中列出的活动：
++++展开以查看本文中各项功能的访问要求。 
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody>
+
+<td> <p>Adobe Workfront包</p> </td> 
+   <td> 
+   <p>Adobe Workfront Ultimate</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront许可证</p> </td> 
+   <td> <p>参与者或更高版本</p> 
+     <p>申请人或以上</p> </td> 
+  </tr>
+
+<td><p>访问级别配置</p> </td> 
+   <td> <p>编辑对目标的访问权限</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>对象权限 </p> </td> 
+   <td> <p>管理目标的权限</p>  </td> 
+  </tr> 
+  <tr>
+   <td role="rowheader"><p>版面模板</p></td>
+   <td> <p>必须为包括系统管理员在内的所有用户分配一个布局模板，该模板应包括主菜单中的目标区域。 </p>  
+</td>
+  </tr>
+ </tbody> 
+</table>
+
+有关信息，请参阅[Workfront文档的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+<!--Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -33,54 +73,50 @@ ht-degree: 15%
 </col>
 <tbody>
  <tr>
- <td role="rowheader">Adobe Workfront计划*</td>
+ <td role="rowheader">Adobe Workfront plan*</td>
  <td> 
-   <p>对于新计划和许可证结构：
-  <ul><li>Ultimate计划 </li></ul>
+   <p>For the new plan and license structure:
+  <ul><li>An Ultimate plan </li></ul>
    </p>
-<p>对于当前计划和许可证结构： 
-<ul><li> Pro或更高版本 </li>
-  <li>除了Adobe Workfront许可证之外，还提供了Workfront目标许可证。</li></ul></p>
+<p>For the current plan and license structure: 
+<ul><li> A Pro or higher </li>
+  <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
    </td> 
  </tr>
  <tr>
- <td role="rowheader">Adobe Workfront许可证*</td>
+ <td role="rowheader">Adobe Workfront license*</td>
  <td>
- <p>新许可证：参与者或更高版本</p>
- 或
- <p>当前许可证：请求或更高版本</p> <p>有关详细信息，请参阅<a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>。</p> </td>
+ <p>New license: Contributor or higher</p>
+ Or
+ <p>Current license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
  </tr>
  <tr>
- <td role="rowheader">产品*</td>
+ <td role="rowheader">Product*</td>
  <td>
-   <p> 新产品要求：Workfront</p>
-   或
-   <p>当前产品要求：除了Workfront许可证之外，您必须为Adobe Workfront Goals购买许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
+   <p> New product requirement: Workfront</p>
+   Or
+   <p>Current product requirement: In addition to a Workfront license, you must purchase a license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
- <td role="rowheader">访问级别</td>
- <td> <p>编辑对目标的访问权限</p> </td>
+ <td role="rowheader">Access level</td>
+ <td> <p>Edit access to Goals</p> </td>
  </tr>
  <tr data-mc-conditions="">
- <td role="rowheader">对象权限</td>
+ <td role="rowheader">Object permissions</td>
  <td>
   <div>
-  <p>查看目标的权限或更高以查看目标</p>
-  <p>管理目标的权限以编辑它</p>
-  <p>有关共享目标的信息，请参阅<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目标中共享目标</a>。 </p>
+  <p>View or higher permissions to the goal to view it</p>
+  <p>Manage permissions to the goal to edit it</p>
+  <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
   </div> </td>
  </tr>
 <tr>
-   <td role="rowheader"><p>版面模板</p></td>
-   <td> <p>必须为包括Workfront管理员在内的所有用户分配一个布局模板，该模板应包括主菜单中的目标区域。 </p>  
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
 </td>
   </tr>
 </tbody>
-</table>
-
-*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
-
-+++
+</table>-->
 
 ## 先决条件
 

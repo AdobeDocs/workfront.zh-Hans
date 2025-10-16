@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 6068c9c53568d3ebec9fae294bfee1cbd365714b
+source-git-commit: f8d04790caefd12c9811ea3ed94e1f892311d031
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -48,31 +48,31 @@ Some users, such as executives, need to be able to control which administrators 
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-   <td>任何</td> 
+   <td>Adobe Workfront包</td> 
+   <td><p>任何</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td> <p>新增：标准</p>
-   <p>或</p>
-   <p>当前：计划</p></td> 
-  </tr> 
+   <td>Adobe Workfront许可证</td> 
+   <td><p>标准</p>
+       <p>规划</p></td> 
+  </tr>
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
-   <td> <p>使用“系统管理员”访问级别，您可以作为任何人都登录。</p> <p>使用标准或Planner访问级别，如果访问级别中的用户设置配置为编辑访问权限，并且在“微调”设置<img src="assets/gear-icon-in-access-levels.png">下启用了创建以及至少两个用户管理员选项中的至少一个，则您可以作为较低许可证级别的用户登录。 </p> 
-   <p>注意：如果启用“用户管理员（组用户）”，则您必须是该用户所属的组的组管理员。</p></td>
+   <td>访问级别配置</td> 
+   <td> <p>您必须具备以下任一项：</p> 
+    <ul> 
+     <li> <p>系统管理员访问级别。 这允许您以任何人的身份登录。</li> 
+     <li> <p>访问级别中的<b>用户</b>设置配置为<b>编辑</b>访问，其中<b>创建</b>以及<b>微调设置</b> <b>下至少启用</b>用户管理员<img src="assets/gear-icon-in-access-levels.png">选项之一。 这允许您以较低许可证级别的用户身份登录。 </p> <p>在这两个选项中，如果启用了<b>用户管理员（组用户）</b>，您必须是该用户所属组的组管理员。</p> </li> 
+    </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

@@ -2,10 +2,10 @@
 navigation-topic: business-case-and-scorecards
 title: 业务案例中的预算资源
 description: 作为资源计划的一部分，您可以在构建业务案例时为完成项目中的工作而预算所需的工作角色。 有关创建业务案例的更多信息，请参阅为项目创建业务案例。
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 85aa13c7-e48d-4b8c-89f7-1ba7f66670b0
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
@@ -24,9 +24,9 @@ ht-degree: 0%
 
 * 使用资源规划者将资源池应用于项目和预算职位角色。
 
-  有关详细信息，请参阅使用资源规划者[&#128279;](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md)的业务案例中的预算资源。
+  有关详细信息，请参阅使用资源规划者[的业务案例中的](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md)预算资源。
 
-* 使用Scenario Planner创建具有所需工作角色的计划，并将它们链接到项目。 有关详细信息，请参阅使用场景规划器[&#128279;](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的业务案例中的预算资源。
+* 使用Scenario Planner创建具有所需工作角色的计划，并将它们链接到项目。 有关详细信息，请参阅使用场景规划器[的业务案例中的](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)预算资源。
 
   >[!NOTE]
   >

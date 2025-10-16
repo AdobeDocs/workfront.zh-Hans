@@ -6,9 +6,9 @@ description: 您可以更新任务的完成百分比，以指明完成任务的�
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -23,23 +23,20 @@ ht-degree: 0%
 
 ## 访问要求
 
-+++ 展开以查看访问要求。
-
-您必须具有以下权限才能手动更新任务：
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>新许可证： Standard</p> 
-   或
-   <p>当前许可证：工作或更高</p>
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p>标准</p> 
+   <p>工作或更高</p>
    </td> 
   </tr> 
   <tr> 
@@ -53,9 +50,36 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New license: Standard</p> 
+   Or
+   <p>Current license: Work or higher</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Tasks</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the task</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 您可以更新任务的完成百分比的区域
 
@@ -106,7 +130,7 @@ ht-degree: 0%
 
 1. 转到您要更新任务完成百分比的任何区域。
 
-   有关信息，请参阅本文中您可以更新任务[&#128279;](#areas-where-you-can-update-the-percent-complete-of-a-task)的完成百分比的区域部分。
+   有关信息，请参阅本文中您可以更新任务[的完成百分比的](#areas-where-you-can-update-the-percent-complete-of-a-task)区域部分。
 
 1. 找到要更新其完成百分比的任务的&#x200B;**完成百分比**&#x200B;字段。
 

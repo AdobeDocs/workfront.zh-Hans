@@ -3,12 +3,12 @@ product-area: requests
 navigation-topic: create-requests
 title: 创建并提交请求
 description: 在Adobe Workfront中，计划工作由项目和任务表示。 但是，您可能是在这样的环境中工作：随时都可能收到以随机请求形式出现的计划外工作。 Workfront通过使用请求队列提供了一个工作流来适应这种类型的环境。
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
+source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
 workflow-type: tm+mt
-source-wordcount: '2790'
+source-wordcount: '2767'
 ht-degree: 1%
 
 ---
@@ -52,22 +52,19 @@ ht-degree: 1%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td> <p>新文档：参与者或更高版本</p>
-   或
-   <p>当前：请求或更高版本</p>
+   <td> <p>参与者或更高版本</p>
+   <p>请求或更高版本</p>
     </td> 
   </tr> 
   <tr> 
@@ -81,7 +78,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

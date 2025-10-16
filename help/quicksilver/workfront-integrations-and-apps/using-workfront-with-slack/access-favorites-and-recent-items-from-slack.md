@@ -6,9 +6,9 @@ description: 为Slack安装并配置 [!DNL Adobe Workfront] 后，您可以查�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4bf62192-66fe-42a7-b8c0-23b7bdef45e8
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -21,20 +21,26 @@ ht-degree: 0%
 
 ## 访问要求
 
-您必须具备以下条件：
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/cn/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront]计划]</a>*</td> 
-   <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront包</td> 
+   <td> <p>任何</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p>任何</p>
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。\
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先决条件
 
@@ -43,10 +49,10 @@ ht-degree: 0%
 * 配置[!DNL Workfront for Slack]\
    有关配置[!DNL Workfront for Slack]的说明，请参阅[配置 [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)。
 
-## 从[!DNL Slack]访问您的[!UICONTROL 收藏夹]列表
+## 从[!UICONTROL 访问您的]收藏夹[!DNL Slack]列表
 
-1. 从[!DNL Slack]登录到[!DNL Slack]实例并登录到[!DNL Workfront]。\
-   有关从[!DNL Slack]登录到[!DNL Workfront]的详细信息，请参阅[访问 [!DNL Adobe Workfront] 从 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)中的“从[!DNL Slack]登录到[!DNL Workfront]”部分。
+1. 从[!DNL Slack]登录到[!DNL Workfront]实例并登录到[!DNL Slack]。\
+   有关从[!DNL Workfront]登录到[!DNL Slack]的详细信息，请参阅[!DNL Workfront]访问[!DNL Slack]从[中的“从 [!DNL Adobe Workfront] 登录到 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)”部分。
 
 1. 从任何渠道开始在[!UICONTROL 消息]字段中键入以下命令： `/workfront favorites`
 
@@ -62,7 +68,7 @@ ht-degree: 0%
 ## 从[!DNL Slack]访问您最近的项目列表
 
 1. 从Slack登录到[!DNL Slack]实例并登录到[!DNL Workfront]。\
-   有关从[!DNL Slack]登录到[!DNL Workfront]的详细信息，请参阅[访问 [!DNL Adobe Workfront] 从 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)中的“从[!DNL Slack]登录到[!DNL Workfront]”部分。
+   有关从[!DNL Workfront]登录到[!DNL Slack]的详细信息，请参阅[!DNL Workfront]访问[!DNL Slack]从[中的“从 [!DNL Adobe Workfront] 登录到 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)”部分。
 
 1. 从任何渠道开始在[!UICONTROL 消息]字段中键入以下命令： `/workfront recent`
 

@@ -7,9 +7,9 @@ description: 功能板的用途是提供对信息的快速访问。 您可以在
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
@@ -24,43 +24,34 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具备以下条件：
 
-<table style="table-layout:auto">
+<table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Adobe Workfront计划</strong></p> </td> 
-   <td>任何</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Adobe Workfront许可证</strong></p> </td> 
-      <td> 
-      <p>新：</p>
-         <ul>
-         <li><p>参与者或更高版本</p></li>
-         </ul>
-      <p>当前：</p>
-         <ul>
-         <li><p>审核或更高</p></li>
-         </ul>
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> 
+      <p>参与者或更高版本</p>
+      <p>审核或更高</p>
    </td> 
   </tr> 
   <tr> 
-   <td><strong>访问级别</strong> </td> 
-   <td> <p>查看或更高的报告、功能板和日历访问权限</p> </td> 
-  </tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>查看对报告、功能板和日历的访问权限</p></td> 
+  </tr>  
   <tr> 
-   <td> <p><strong>对象权限</strong> </p> </td> 
-   <td> <p>查看仪表板的权限</p>  </td> 
+   <td role="rowheader">对象权限</td> 
+   <td> <p>查看仪表板的权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

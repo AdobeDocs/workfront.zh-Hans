@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '589'
 ht-degree: 2%
 
 ---
@@ -23,28 +23,21 @@ ht-degree: 2%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> 
-   <p>新建：任何 </p>
-   <p>当前： Pro或更高版本</p>
+   <p>任何</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
-      <p><strong>上传文档</strong></p>
-   <p>新：参与者</p>
-   <p>当前：请求</p>
-      <p><strong>创建验证</strong></p>
-        <p>新增：标准</p>
-     <p>当前：工作或计划</p>
+   <p>参与者或更高版本上传文档；用于创建验证的标准</p>
+   <p>请求或更高版本上传文档；工作或更高版本创建验证</p>
    </td> 
   </tr> 
   <tr> 
@@ -52,7 +45,7 @@ ht-degree: 2%
    <td>经理或更高版本</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
+   <td role="rowheader">访问级别配置</td> 
    <td> <p>编辑对文档的访问权限</p> </td> 
   </tr> 
  </tbody> 
@@ -76,7 +69,7 @@ ht-degree: 2%
 1. 单击&#x200B;**上载文件**&#x200B;图标![上载文件图标](assets/upload-file-icon.png)。
 1. 拖放文件或按Cmd/Ctrl + V以从剪贴板粘贴
 或
-单击&#x200B;**添加文件**&#x200B;浏览文件或从Document Cloud提供程序导入文件。
+单击**添加文件**浏览文件或从Document Cloud提供程序导入文件。
    ![添加文件](assets/add-files.png)
 1. （可选）添加评论。
 1. （可选）添加更多文件。
@@ -95,7 +88,7 @@ ht-degree: 2%
 1. 单击右上角的&#x200B;**上传文档**，然后选择&#x200B;**文档**。
 1. 拖放文件或按Cmd/Ctrl + V以从剪贴板粘贴
 或
-单击&#x200B;**添加文件**&#x200B;浏览文件或从Document Cloud提供程序导入文件。
+单击**添加文件**浏览文件或从Document Cloud提供程序导入文件。
    ![添加文件](assets/add-files.png)
 1. （可选）添加评论。
 1. （可选）添加更多文件。

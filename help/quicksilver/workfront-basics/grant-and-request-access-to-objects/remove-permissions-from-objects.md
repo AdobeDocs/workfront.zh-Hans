@@ -6,9 +6,9 @@ description: 您可以删除其他用户对您有权共享的对象拥有的权�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 8e191b5e-31df-4291-8b9d-9ca69be27561
-source-git-commit: ce7b475dbd11f9cfd7fcf9879c0f34bf993f9113
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -19,35 +19,25 @@ ht-degree: 0%
 
 您可以删除其他用户对您有权共享的对象拥有的权限。 从对象中删除权限对于所有可共享的对象都是相同的。
 
-与共享对象类似的注意事项适用于从对象中删除权限。 有关详细信息，请参阅[对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)一文中的[有关共享对象的注意事项](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#consider)部分
+与共享对象类似的注意事项适用于从对象中删除权限。 有关详细信息，请参阅[对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#consider)一文中的[有关共享对象的注意事项](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)部分
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
-
-
-要共享对象，必须具备以下条件：
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workfront许可证*</td> 
-   <td> <p>新许可证：参与者或更高版本</p>
-   或  
-   <p>当前许可证：请求或更高版本</p>
-   <p><b>注释</b></p>
-
-<p>某些对象需要比请求更高的访问权限。 </p>
-
-<p>例如，对于新许可证，参与者可以共享问题，但只有Standard许可证用户可以共享项目。</p>
-
-<p>对于当前许可证，请求者可以共享问题，但只有工作人员或规划人员可以共享项目。</p> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p>参与者或更高版本</p> 
+   <p>请求或更高版本</p>
+   <p><strong>注意</strong>：某些对象需要比请求更高的访问权限。</p>
    </td> 
   </tr> 
   <tr> 
@@ -57,11 +47,11 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">对象权限</td> 
    <td> <p>查看要共享对象的权限或更高</p> <p>管理权限以移除对对象的继承权限</p>  </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关详细信息，请参阅Workfront文档的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -92,7 +82,7 @@ ht-degree: 0%
       ![共享](assets/new-share-button.png)
    1. 查找要从对象中移除的用户、角色、团队、组或公司。
    1. 单击&#x200B;**删除**。
-在&#x200B;**从**&#x200B;中删除&lt;用户名>下拉菜单中，选择是希望从所选对象中删除其访问权限，还是从与其关联的所有子对象中删除其访问权限。
+在**从**&#x200B;中删除&lt;用户名>下拉菜单中，选择是希望从所选对象中删除其访问权限，还是从与其关联的所有子对象中删除其访问权限。
 
       ![移除](assets/remove-permissions-on-project-nwe-350x479.png)
 

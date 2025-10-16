@@ -7,9 +7,9 @@ description: 通过Adobe Workfront，您可以快速轻松地将与任何工作�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
+source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -29,32 +29,28 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-   <td>任何</td> 
+  <tr> 
+   <td>Adobe Workfront包</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td>Adobe Workfront许可证</td> 
    <td>
-   <p>若要从用户的个人资料页面发送消息，您必须具有：<br>
-   新建：浅色或更高<br>
-   或<br>
-   当前：审阅或更高版本</p>
-   <p>若要从用户列表发送消息，您必须具有：<br>
-   新建： Standard<br>
-   或<br>
-   当前：工作或更高</p></td>
+   <p>要从用户的个人资料页面发送消息，您必须具有：</P>
+   <p>浅色或更高</p>
+   <p>审核或更高</p>
+   <p>要从用户列表中发送消息，您必须具有：</p>
+   <p>标准</p>
+   <p>工作或更高</p></td>
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -78,7 +74,7 @@ ht-degree: 0%
    >仅当Workfront配置文件与某个公司关联时，[!UICONTROL **私有到我的公司**]&#x200B;设置才可用。
 
 1. 单击&#x200B;**[!UICONTROL 更新]。**
-该消息发布在用户个人资料页上的&#x200B;**[!UICONTROL 更新]**&#x200B;选项卡上的消息列表的顶部。
+该消息发布在用户个人资料页上的**[!UICONTROL 更新]**&#x200B;选项卡上的消息列表的顶部。
 
 ## 从“用户”列表中向一个或多个用户发送消息
 
@@ -98,4 +94,4 @@ ht-degree: 0%
    >
    >仅当Workfront配置文件与某个公司关联时，[!UICONTROL **私有到我的公司**]&#x200B;设置才可用。
 1. 单击&#x200B;[!UICONTROL **发送**]。
-该邮件发布在每个已标记用户个人资料页面上的&#x200B;**[!UICONTROL 更新]**&#x200B;选项卡上的邮件列表的顶部。
+该邮件发布在每个已标记用户个人资料页面上的**[!UICONTROL 更新]**&#x200B;选项卡上的邮件列表的顶部。

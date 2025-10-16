@@ -6,10 +6,10 @@ description: 从展示板中删除信息卡时，该信息卡会被永久删除�
 author: Lisa
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: 81e87793905fd925db00c7a0ac107150263a1365
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 0%
+source-wordcount: '516'
+ht-degree: 1%
 
 ---
 
@@ -23,28 +23,25 @@ ht-degree: 0%
 
 存档信息卡会将其发送到存档，您可以稍后将其还原到展示板。
 
-已存档的信息卡不会同步到Workfront任务和问题。 如果恢复一张卡，它将再次同步。
+已存档的信息卡不会同步到Workfront任务和问题。 如果您还原一张卡，它将再次同步。
 
 ## 访问要求
 
 +++ 展开以查看本文中各项功能的访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
-   <p>新文档： [!UICONTROL Contributor]或更高版本</p> 
-   <p>或</p>
-   <p>当前： [!UICONTROL Request]或更高版本</p>
+   <p>参与者或更高版本</p> 
+   <p>请求或更高版本</p>
    </td> 
   </tr> 
  </tbody> 

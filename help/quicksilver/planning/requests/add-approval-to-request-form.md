@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: 83b3bd73fd30b5fba931e64783dee67485d98fe9
+source-git-commit: e69209f449ba1643667135c3a0137b93c6171ef8
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 1%
+source-wordcount: '690'
+ht-degree: 0%
 
 ---
 
@@ -35,74 +35,41 @@ ht-degree: 1%
 
 ## 访问要求
 
-+++ 展开以查看访问要求。
++++ 展开以查看本文中各项功能的访问要求。 
 
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> 产品</p> </td>
-   <td>
-   <ul><li><p> Adobe Workfront</p></li>
-   <li><p> Adobe Workfront规划<p></li></ul></td>
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront包</p></td> 
+   <td> 
+<ul><li><p>任何Workfront包</p></li>
+与
+<li><p>任何规划包</p></li></ul>
+或
+<ul><li><p>任何工作流包</p></li>
+与
+<li><p>任何规划包</p></li></ul>
+   </td> </tr>
+
+</tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
+   <td><p>标准</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>对象权限</p></td> 
+   <td>   <p>管理对工作区的权限并记录类型</a> </p>  
+   <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>  </td> 
   </tr>  
- <tr>
-   <td role="rowheader"><p>Adobe Workfront计划*</p></td>
-   <td>
-<p>以下任意Workfront计划：</p>
-<ul><li>选择</li>
-<li>Prime</li>
-<li>Ultimate</li></ul>
-<p>Workfront Planning不适用于旧版Workfront计划</p>
-   </td>
-
-<tr>
-   <td role="rowheader"><p>Adobe Workfront规划包*</p></td>
-   <td>
-<p>任何 </p>  
-<p>有关每个Workfront计划中包括的内容的更多信息，请联系您的Workfront客户经理。 </td>
-
-<tr>
-   <td role="rowheader"><p>Adobe Workfront平台</p></td>
-   <td>
-<p>贵组织的Workfront实例必须载入Adobe Unified Experience才能访问Workfront Planning。</p>
-<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p>
-   </td>
-  </tr>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront许可证*</p></td>
-   <td>
-   <p>标准</p>
-   <p>Workfront计划不适用于旧版Workfront许可证</p>
-  </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>访问级别配置</p></td>
-   <td> <p>Adobe Workfront Planning没有访问级别控制</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>对象权限</p></td>
-   <td>
-   <ul>
-   <li><p>管理对工作区和记录类型的权限</p></li>
-    <li><p>系统管理员可以管理他们未创建的工作区。 </p></li>
-    </ul>
-   <p>有关共享Workfront Planning对象权限的信息，请参阅  
-   <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">在Adobe Workfront Planning中共享权限概述</a> 
-  </td>
-  </tr>
-
-</tbody>
+</tbody> 
 </table>
 
-*有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

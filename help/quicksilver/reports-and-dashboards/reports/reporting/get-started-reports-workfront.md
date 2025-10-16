@@ -2,19 +2,19 @@
 content-type: overview;reference
 product-area: reporting
 navigation-topic: reporting-navigation-topic
-title: 报告入门
+title: 报告快速入门
 description: 通过报告，可查看用户和工作的最新动态。 使用报表，您可以显示有关Adobe Workfront中对象的信息。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '3293'
-ht-degree: 0%
+source-wordcount: '3292'
+ht-degree: 1%
 
 ---
 
-# 报告入门
+# 报告快速入门
 
 <!-- Audited: 12/2023 -->
 
@@ -31,7 +31,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">查看</td> 
+   <td role="rowheader">视图</td> 
    <td> <li>定义报表中的列以及每列可包含的信息。</li> <li>有关视图的信息，请参阅Adobe Workfront中的<a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">视图概述</a>。</li> </td> 
   </tr> 
   <tr> 
@@ -88,7 +88,7 @@ Workfront提供了多个默认加载到系统中的系统报告。\
 
 ### 创建报告的先决条件 {#prerequisites-for-creating-reports}
 
-* 您必须拥有Plan许可证（当前许可证）或Standard许可证（新许可证）才能创建自己的报告。
+* 您必须拥有Standard或Plan许可证才能创建自己的报告。
 
   有关Workfront许可证类型的信息，请参阅当前许可证的[许可证概述](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)和新许可证的[新许可证概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)。
 
@@ -118,7 +118,7 @@ Workfront提供了多个默认加载到系统中的系统报告。\
 我们建议您首先使用报表生成界面来生成新报表。 该界面提供了一组简化的工具，可指导您逐步将元素集中在一起，以创建所需的报表。 您有可从列表中选择并添加到所有报表元素的对象和字段。\
 有关在报告生成界面中创建报告的详细信息，请参阅[创建自定义报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
-有关可以报告的对象列表，请参阅文章[Adobe Workfront对象概述](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)中的[对象报告](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#report-on-objects)部分。
+有关可以报告的对象列表，请参阅文章[Adobe Workfront对象概述](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#report-on-objects)中的[对象报告](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)部分。
 
 有关可在报表中显示的字段的更多信息，请参阅[Adobe Workfront术语词汇表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
 
@@ -177,7 +177,7 @@ Workfront提供了多个默认加载到系统中的系统报告。\
 >[!IMPORTANT]
 >
 >根据您的时区，“详细信息”选项卡中的信息可能与“图表”选项卡中的信息显示方式不同。\
->例如，加利福尼亚的一位用户在2月12日晚上9:30 PST完成了一项任务。 当纽约用户查看包含此任务完成的报表时，实际完成日期在“详细信息”选项卡和“图表”详细信息中显示为2月13日，因为实际完成日期在2月13日东部标准时间凌晨12:30完成。 但是，在图表中，它包含在2月12日分组中，直到您展开图表元素为止。
+>例如，加利福尼亚的一位用户在2月12日晚上9:30 PST完成了一项任务。 当纽约用户查看包含此任务完成的报告时，实际完成日期在2月13日细节选项卡和图表细节中显示为2月13日，因为它在2月13日东部标准时间凌晨12:30完成。 但是，在图表中，它包含在2月12日分组中，直到您展开图表元素为止。
 
 ### “摘要”选项卡 {#summary-tab}
 
@@ -206,7 +206,7 @@ Workfront提供了多个默认加载到系统中的系统报告。\
 >[!IMPORTANT]
 >
 >单击某个图表元素时，展开的信息可能会根据您的时区显示与图表不同的内容。\
->例如，加利福尼亚的一位用户在2月12日晚上9:30 PST完成了一项任务。 当纽约用户查看包含此任务完成的报表时，实际完成日期在“详细信息”选项卡和“图表”详细信息中显示为2月13日，因为实际完成日期在2月13日东部标准时间凌晨12:30完成。 但是，在图表中，它包含在2月12日分组中，直到您展开图表元素为止。
+>例如，加利福尼亚的一位用户在2月12日晚上9:30 PST完成了一项任务。 当纽约用户查看包含此任务完成的报告时，实际完成日期在2月13日细节选项卡和图表细节中显示为2月13日，因为它在2月13日东部标准时间凌晨12:30完成。 但是，在图表中，它包含在2月12日分组中，直到您展开图表元素为止。
 
 有关使用图表构建报告的信息，请参阅文章[将图表添加到报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)。
 
@@ -310,7 +310,7 @@ Workfront提供了多个默认加载到系统中的系统报告。\
      <li>列</li> 
      <li>条形图</li> 
      <li>饼图</li> 
-     <li>行</li> 
+     <li>线形图</li> 
      <li>计量</li> 
      <li>气泡</li> 
     </ul> <p>有关将图表添加到报表的更多信息，请参阅文章<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">将图表添加到报表</a>。</p> </td> 
@@ -325,7 +325,7 @@ Workfront提供了多个默认加载到系统中的系统报告。\
   </tr> 
   <tr> 
    <td>字段</td> 
-   <td> <p>指对象的属性。 例如，“状态”是项目、任务或问题的字段。 “Portfolio管理器”是Portfolio对象的字段。</p> <p>您还可以具有您自己创建并添加到自定义表单中的自定义字段。<br>有关创建自定义表单的信息，请参阅文章<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">创建自定义表单</a>。</p> </td> 
+   <td> <p>指对象的属性。 例如，“状态”是项目、任务或问题的字段。 “Portfolio Manager”是Portfolio对象的字段。</p> <p>您还可以具有您自己创建并添加到自定义表单中的自定义字段。<br>有关创建自定义表单的信息，请参阅文章<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">创建自定义表单</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>字段名称 </td> 
@@ -365,7 +365,7 @@ Workfront提供了多个默认加载到系统中的系统报告。\
     </ul> <p>例如，在为计划完成日期为今天的任务构建过滤器时，您可以在“限定符”字段中选择<strong>等于</strong>，在“日期”字段中选择今天的日期：</p> <p><em>任务&gt;计划完成日期&gt;等于&gt;（今天的日期）</em> </p> <p>在此方案中，限定符为<strong>等于</strong>。<br>有关限定符的详细信息，请参阅文章<a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">筛选器和条件修饰符</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>报告 </td> 
+   <td>报表 </td> 
    <td>视图、筛选器和（有时）分组的组合。 报告的目的是跨界面显示一致的数据，分发信息，并消除定期运行相同搜索或查询的需要。</td> 
   </tr> 
   <tr> 

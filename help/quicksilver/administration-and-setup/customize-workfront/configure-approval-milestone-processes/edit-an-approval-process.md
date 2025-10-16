@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '1955'
-ht-degree: 1%
+source-wordcount: '1994'
+ht-degree: 2%
 
 ---
 
 # 编辑审批流程
+
+<!--Audited: 08/2025-->
 
 如果您是Adobe Workfront管理员，或您对审批流程具有管理访问权限，则可以查看和编辑系统中的所有审批流程。
 
@@ -37,30 +39,60 @@ ht-degree: 1%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具备以下条件：
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront包*</td> 
+   <td><p>对于系统级或一次性审批流程：</p><ul><li><p>任何包</p></li></ul>
+   <p>对于组级审批流程：</p>
+   <ul><li><p>工作流Prime或Ultimate</p></li>
+   <li><p>Workfront Prime或Ultimate</p></li></ul>
+   </td>
+
+</tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p>标准</p>
+ <p>规划</p> 
+</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>如果您是系统管理员或者对审批流程具有管理访问权限，则可以为特定组创建系统级审批流程或组级审批流程。</p> 
+   <p>如果您是组管理员，并且拥有审批流程的管理访问权限，则可以为您管理的组创建组级审批流程。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+<!--
+
+I made the above match what we had for Create approval process - seemed more complete; 
+For this article, the old access was: 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
-   <td>任何</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td>计划</td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>对审批流程的管理访问权限（如果您不是系统管理员）</p> <p><b>注意</b>：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Administrative access to Approval Processes if you are not a System Administrator</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
-
-+++
+</table>-->
 
 ## 编辑现有审批流程
 
@@ -89,8 +121,10 @@ ht-degree: 1%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">批准流程名称</td> 
-      <td>键入审批流程的描述性名称。 在将审批流程应用于对象时，用户会看到此名称，如<a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">将新的或现有的审批流程与工作关联</a>中所述。</td> 
+      <td role="rowheader">审批流程名称</td> 
+      <td><p>键入审批流程的描述性名称。 在将审批流程应用于对象时，用户会看到此名称，如<a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">将新的或现有的审批流程与工作关联</a>中所述。</p>
+      <p>这是必填字段。</p>
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">描述</td> 
@@ -101,12 +135,14 @@ ht-degree: 1%
       <td> <p>如果您希望其他用户能够将审批流程附加到他们创建的项目、任务和问题，请保持启用此选项。 </p> <p>此选项默认处于启用状态。</p> <p>提示：当您的组织不再需要使用审批流程，但希望保留有关其使用的历史信息时，将审批流程标记为不活动会很有用。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">此批准流程的使用者可以为 </td> 
+      <td role="rowheader">此审批流程的使用者可以为 </td> 
       <td> <p>如果您希望审批流程仅适用于特定组的项目、任务、问题和模板，请开始键入组的名称，然后在组出现时选择该名称：</p> 
        <ul> 
         <li>如果您是系统管理员或对审批流程具有管理访问权限，则键入组名时，可以在系统中看到任何组。 默认情况下选择<b>所有组</b>。 </li> 
         <li>如果您是组管理员，但没有审批流程的管理权限，则可以在键入审批流程名称时将审批流程分配给您管理的任何组。 <b>所有组</b>选项不可用。</li> 
-       </ul> <p>此选项不适用于一次性审批流程。</p> <p><b>警告</b>：对特定于组的审批流程进行更改时，已关联工作项的现有审批流程可能会发生更改。 有关这些更改的信息，请参阅<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">组和审批流程更改如何影响分配的审批流程</a>。</p> <p>有关从您组的页面列出和管理您组的审批流程的信息，请参阅<a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">组级审批流程</a>。 </p> <p>有关对审批流程的管理访问权限的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予用户对特定区域的管理访问权限</a>。</p> </td> 
+       </ul> 
+       <p>这是必填字段。</p>
+       <p>此选项不适用于一次性审批流程。</p> <p><b>警告</b>：对特定于组的审批流程进行更改时，已关联工作项的现有审批流程可能会发生更改。 有关这些更改的信息，请参阅<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">组和审批流程更改如何影响分配的审批流程</a>。</p> <p>有关从您组的页面列出和管理您组的审批流程的信息，请参阅<a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">组级审批流程</a>。 </p> <p>有关对审批流程的管理访问权限的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予用户对特定区域的管理访问权限</a>。</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -121,12 +157,14 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">启动审批流程（当状态设置为</p> </td> 
-      <td> <p>选择将触发工作项的审批流程的状态。 当有人将工作项更新为此状态时，其审批流程就会开始。 </p> <p>无法为多个审批流程路径选择相同状态。</p> <p>可用状态基于选项<b>下选择的内容。此批准可由</b>使用（在上表中说明）：</p> 
+      <td> <p>选择将触发工作项的审批流程的状态。 当有人将工作项更新为此状态时，其审批流程就会开始。 </p> 
+      <p>这是必填字段。</p>
+      <p>无法为多个审批流程路径选择相同状态。</p> <p>可用状态基于选项<b>下选择的内容。此批准可由</b>使用（在上表中说明）：</p> 
       <ul> 
       <li> 如果选择<b>所有组</b>，则只有系统范围的锁定状态可用。<!--Remove "locked" when story about using an unlocked status in approval processes goes to preview-->
       </li> 
       <li> <p>如果选择了特定组，则仅对该组可用的状态可用</p> </li> 
-      </ul> <p>有关审批流程如何处理状态的信息，请参阅文章<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">审批流程概述</a>中的<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">审批流程如何依赖状态</a>部分。</p> </td> 
+      </ul> <p>有关审批流程如何处理状态的信息，请参阅文章<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">审批流程概述</a>中的<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">审批流程如何依赖状态</a>部分。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">阶段名称</td> 
@@ -136,16 +174,18 @@ ht-degree: 1%
       <td role="rowheader">审批者</td> 
       <td> <p>开始键入要指定为此阶段的批准者的用户、团队或工作角色的名称，然后在该名称出现在下拉列表中时单击该名称。 您只能添加活动用户、工作角色和团队。 </p>
 
-   <p><b>提示</b>：</p>
+   <p>这是必填字段。</p>
+
+   <p><b>提示</b></p>
 
    <p>将用户添加为审批者时，请注意头像、用户的主要角色或其电子邮件地址，以区分具有相同名称的用户。 用户必须与至少一个工作角色关联，才能在添加时查看工作角色。</p>
       <p>您必须在访问级别中启用“查看联系信息”设置，用户才能查看用户的电子邮件。 有关信息，请参阅<a href="../../add-users/configure-and-grant-access/grant-access-other-users.md">授予用户访问权限</a></p>。
 
-   <p><b>注释</b>：
+   <p><b>注释</b>
 
    将用户、团队或角色添加为批准者，不会自动授予他们与该批准相关联的对象的权限。 在触发审批步骤时，用户会获得对对象的权限。 否则，必须先与他们共享对象，然后才能作出批准决定。 </p>
    <p>也可以通过指定个人的角色将个人指定为批准者。 例如，您可以将项目所有者、项目发起人、Portfolio所有者、项目群所有者或经理分配为批准者。 当您开始键入时，这些选项会自动显示。</p> 
-      <p><b>重要信息</b>：  
+      <p><b>重要信息</b>
       <ul> 
       <li> 当您将审批分配给项目发起人并且没有人被指定为项目发起人时，审批将重新分配给项目所有者。 如果没有指定任何人为项目的所有者，则会将审批分配给Workfront管理员。 </li> 
       <li> 当您将审批分配给角色并且选项<b>审批者不需要属于项目团队</b>被禁用，但项目团队中没有角色与审批中的角色匹配时，审批被重新分配给项目所有者。 有关审批设置的信息，请参阅<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">配置全局审批设置</a>。
@@ -177,7 +217,7 @@ ht-degree: 1%
       <li> <p><strong>将状态设置为</strong>：选择下列选项之一：</p> 
       <ul> <li><strong>以前的状态</strong>：被拒绝的项目、任务或问题恢复到激活审批流程状态之前的状态。</li> 
       <li> <p><strong>列表中的任何其他状态</strong>：被拒绝的对象将移动到您选择的状态，如“已搁置”。 您可以选择默认状态之一，也可以选择添加到Workfront系统中的自定义状态。</p> <p>如果您选择与审批流程关联的状态作为审批路径的拒绝状态，则被拒绝的对象将移动到选定状态，并将标记为“待审批”。</p>
-      <p>例如，如果您选择已搁置作为拒绝状态，并且该已搁置状态与审批流程相关联，被拒绝的对象置于“已搁置 — 待审批”状态，需要审批。</p>    <p>对于系统范围审批流程，仅提供系统范围状态。</p> <p>对于组特定的批准流程，所有组状态均可用。 这包括组管理员专门为组创建的任何自定义状态，以及任何系统范围的状态。 </p> <p>有关审批流程如何处理状态的信息，请参阅文章<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">审批流程概述</a>中的<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">审批流程如何依赖状态</a>部分。</p> </li>
+      <p>例如，如果您选择已搁置作为拒绝状态，并且该已搁置状态与审批流程相关联，被拒绝的对象置于“已搁置 — 待审批”状态，需要审批。</p>    <p>对于系统范围审批流程，仅提供系统范围状态。</p> <p>对于组特定的批准流程，所有组状态均可用。 这包括组管理员专门为组创建的任何自定义状态，以及任何系统范围的状态。 </p> <p>有关审批流程如何处理状态的信息，请参阅文章<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">审批流程概述</a>中的<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">审批流程如何依赖状态</a>部分。</p> </li>
       </ul> 
      </tr> 
     </tbody> 

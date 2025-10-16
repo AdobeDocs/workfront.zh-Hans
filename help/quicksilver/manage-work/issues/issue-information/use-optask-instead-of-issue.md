@@ -1,12 +1,12 @@
 ---
 product-area: projects
 navigation-topic: issue-information
-title: 在引用问题时使用“opTask”和“issue”
+title: 引用问题时使用“opTask”和“issue”
 description: 问题的名称在Adobe Workfront数据库中显示为opTask。 尽管有时需要使用问题字段名称来引用问题，但大多数情况下，在引用问题时您必须使用opTask字段名称而不是issue。
 author: Alina
 feature: Work Management
 exl-id: 91107c04-616c-49b2-aa78-10e373d11f6b
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 在引用问题时使用“opTask”和“issue”
+
+<!--Audited: 08/2025-->
 
 问题的名称在Adobe Workfront数据库中显示为`opTask`。 尽管有时您需要使用`issue`字段名称来引用问题，但在大多数情况下，在引用问题时您必须使用`opTask`字段名称而不是`issue`。
 

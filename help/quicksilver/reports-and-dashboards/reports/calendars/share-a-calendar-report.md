@@ -6,10 +6,10 @@ description: 您可以与其他用户共享日历，也可以公开显示该日�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
-source-git-commit: 0606dab832753543ceef4b5b505413967176aec4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 0%
+source-wordcount: '590'
+ht-degree: 1%
 
 ---
 
@@ -22,8 +22,6 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -31,22 +29,21 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>新建：浅色</p>
-       <p>或</p>
-       <p>当前：复查</p></td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td><p>轻量</p>
+       <p>评论</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[!UICONTROL View]或更高版本的[!UICONTROL Reports]、[!UICONTROL Dashboards]和[!UICONTROL Calendars]访问权限</p></td> 
+   <td> <p> 查看或更高的报告、功能板和日历访问权限</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td>[!UICONTROL 视图]或日历报表的更高权限，有权共享</td> 
+   <td>查看日历报表或更高权限，有权共享</td> 
   </tr> 
  </tbody> 
 </table>
@@ -99,9 +96,9 @@ ht-degree: 0%
 
 1. 转到要共享的日历。
 1. 单击&#x200B;**[!UICONTROL 日历操作]**，然后单击&#x200B;**[!UICONTROL 共享]**。
-1. 单击日历名称旁边的&#x200B;**更多**&#x200B;菜单。
+1. 单击日历名称旁边的&#x200B;**更多**菜单。
    ![日历更多菜单](assets/more-menu-calendar.png)
-单击&#x200B;**复制公共链接**。
+单击**复制公共链接**。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 ## 使用专用链接共享日历

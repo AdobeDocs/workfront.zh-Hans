@@ -6,9 +6,9 @@ description: 您可以使用Adobe Workfront工作负载均衡器批量将资源�
 author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1528'
 ht-degree: 1%
 
 ---
@@ -25,25 +25,21 @@ ht-degree: 1%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-   <td> <p>任何 </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td><p>新增：标准</p>
-       <p>或</p>
-       <p>当前：计划，在资源区域使用工作负载均衡器时；</br>
-       工作，使用团队或项目的工作负载均衡器时</p></td>
+   <td>Adobe Workfront包</td> 
+   <td><p>任何</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
+   <td>Adobe Workfront许可证</td> 
+   <td><p>标准</p>
+       <p>在资源区域使用工作负载均衡器时进行规划；在使用团队或项目的工作负载均衡器时进行工作</p></td>
+  </tr>
+  <tr> 
+   <td>访问级别配置</td> 
    <td> <p>编辑对以下内容的访问权限：</p> 
     <ul> 
      <li>资源管理</li> 
@@ -54,13 +50,13 @@ ht-degree: 1%
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">对象权限</td> 
+   <td>对象权限</td> 
    <td>包含制定工作分派的项目、任务和问题的Contribute权限或更高版本</td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -219,7 +215,7 @@ ht-degree: 1%
 
 * 如果将指定的用户分配给已完成的工作项，则该用户仍会分配给这些工作项。
 
-有关用户和工作角色分配的更多信息，请参阅在工作负载均衡器[&#128279;](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中分配工作的概述。
+有关用户和工作角色分配的更多信息，请参阅在工作负载均衡器[中分配工作的概述](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)。
 
 要从选定项目中的工作项取消分配用户，或为其分配的选定任务或问题取消分配用户，请执行以下操作：
 

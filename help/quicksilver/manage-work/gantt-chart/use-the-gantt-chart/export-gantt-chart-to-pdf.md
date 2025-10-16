@@ -5,43 +5,43 @@ description: 您可以将甘特图导出到PDF。 之后，您可以将其打印
 author: Alina
 feature: Work Management
 exl-id: 91aad9e0-25c9-4eae-aa66-8aab763d3b76
-source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
 source-wordcount: '979'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 # 将[!UICONTROL 甘特图]导出到PDF
 
-<!--Audited: 5/2025-->
+<!--Audited: 08/2025-->
 
 您可以将[!UICONTROL 甘特图]导出到PDF。 之后，您可以将其打印或附加到电子邮件中，以便与其他用户共享。
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront]计划</td> 
-   <td> <p>任何 </p> </td> 
+   <td role="rowheader">[！UICONTROL Adobe Workfront]包</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront]许可证</td> 
-   <td> <p>新：[!UICONTROL Light]或更高版本</p>
-   <p>当前：[!UICONTROL Review]或更高版本</p> </td> 
+   <td role="rowheader">[！UICONTROL Adobe Workfront]许可证</td> 
+   <td> <p>[！UICONTROL Light]或更高版本</p>
+   <p>[！UICONTROL Review]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[!UICONTROL 视图]或更高权限访问项目和任务</p> </td> 
+   <td> <p>[！UICONTROL视图]或更高权限访问项目和任务</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>[!UICONTROL 视图]或更高版本的项目访问权限</p> </td> 
+   <td> <p>[！UICONTROL视图]或更高权限访问项目和任务</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,6 +49,34 @@ ht-degree: 1%
 有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront] plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront] license</td> 
+   <td> <p>New:[!UICONTROL Light] or higher</p>
+   <p>Current:[!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL View] or higher access to Projects and Tasks</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL View] or higher access to the project</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+-->
 
 ## 导出[!UICONTROL 甘特图]
 
@@ -61,7 +89,7 @@ ht-degree: 1%
 
    配置以下任意信息：
 
-   * 单击[!UICONTROL 甘特图]上方的&#x200B;**筛选器**、**视图**&#x200B;和&#x200B;**分组**&#x200B;图标，并添加或编辑应用于[!UICONTROL 甘特图]中项目列表的现有筛选器、视图或分组。
+   * 单击&#x200B;**甘特图**&#x200B;上方的&#x200B;**筛选器**、**视图**&#x200B;和[!UICONTROL 分组]图标，并添加或编辑应用于[!UICONTROL 甘特图]中项目列表的现有筛选器、视图或分组。
 
      在查看[!UICONTROL 甘特图]时，将保留在列表视图中选择的任何筛选器和分组。 视图仅在第一页的[!UICONTROL 甘特图]旁边显示的列表中反映在导出的[!UICONTROL 甘特图]上。 视图未显示在[!UICONTROL 甘特图]本身。
 
@@ -105,7 +133,7 @@ ht-degree: 1%
    例如，如果您正在查看包含50个任务的项目的[!UICONTROL 甘特图]，但希望在导出的[!UICONTROL 甘特图]上仅显示10个任务，请选择要显示的10个任务。
 
 1. 单击甘特图右上角的打印机图标![打印机图标](assets/printer-icon.png)。
-此时会显示&#x200B;**[!UICONTROL 导出到PDF]**&#x200B;对话框。
+此时会显示**[!UICONTROL 导出到PDF]**&#x200B;对话框。
 
    ![导出到PDF对话框](assets/exported-gantt-ui-350x225.png)
 
@@ -133,8 +161,8 @@ ht-degree: 1%
      >   * 当它包含500个以上的项目时。
 
 
-1. 如果PDF在导出到PDF后要打印，请在&#x200B;**[!UICONTROL 页大小]**&#x200B;下拉菜单中选择要打印的纸张大小。
-您可以从以下选项中进行选择：
+1. 如果PDF在导出到PDF后要打印，请在&#x200B;**[!UICONTROL 页大小]**下拉菜单中选择要打印的纸张大小。
+您可以从下列选项中进行选择：
 
    * **[!UICONTROL 书信]**
    * **[!UICONTROL 法律]**

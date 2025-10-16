@@ -1,21 +1,21 @@
 ---
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
-title: 从 [!DNL Slack]中的共享链接访问 [!DNL Adobe Workfront] 对象
-description: 当在Slack渠道中与您共享指向 [!DNL Adobe Workfront] 对象的链接时，在安装和配置 [!DNL Workfront] 进行Slack后，您可以在Slack中查看有关这些对象的其他信息。
+title: 从 [!DNL Adobe Workfront] 中的共享链接访问 [!DNL Slack]对象
+description: 当您在Slack渠道中共享指向 [!DNL Adobe Workfront] 对象的链接时，在针对Slack安装并配置 [!DNL Workfront] 后，您可以在Slack中查看有关这些链接的其他信息。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 587c6ac7-cc56-480f-852d-f0bd36b3f3cf
-source-git-commit: eeb90d8f80b1680d880d07f41e9d80c0658495fa
+source-git-commit: dc4b6dc284c59281206a457395765e634067ba91
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1107'
 ht-degree: 0%
 
 ---
 
-# 从[!DNL Slack]中的共享链接访问[!DNL Adobe Workfront]对象
+# 从[!DNL Adobe Workfront]中的共享链接访问[!DNL Slack]对象
 
-当指向[!DNL Adobe Workfront]对象的链接在[!DNL Slack]渠道中与您共享时，安装并配置[!DNL Workfront for Slack]后，您可以在[!DNL Slack]中查看有关这些对象的附加信息。
+当指向[!DNL Adobe Workfront]对象的链接在[!DNL Slack]渠道中与您共享时，安装并配置[!DNL Slack]后，您可以在[!DNL Workfront for Slack]中查看有关这些对象的附加信息。
 
 有关配置[!DNL Workfront for Slack]的详细信息，请参阅[配置 [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)。
 
@@ -25,24 +25,26 @@ ht-degree: 0%
 
 ## 访问要求
 
-您必须具有以下权限才能使用本文中所述的功能：
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
-   <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront包</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[!UICONTROL 计划]</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p>任何</p>
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先决条件
 
@@ -55,7 +57,7 @@ ht-degree: 0%
 
 1. 登录到您的[!DNL Slack]实例并登录到[!DNL Workfront from Slack.]
 
-   有关从[!DNL Slack]登录到[!DNL Workfront]的更多信息，请参阅[访问 [!DNL Adobe Workfront from Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)中的“登录到[!DNL Workfront from Slack]”部分。
+   有关从[!DNL Workfront]登录到[!DNL Slack]的更多信息，请参阅[!DNL Workfront from Slack]访问[中的“登录到 [!DNL Adobe Workfront from Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)”部分。
 
 1. 导航到包含指向[!DNL Workfront]项目的链接的消息。
 
@@ -70,7 +72,7 @@ ht-degree: 0%
 
    * **[!UICONTROL 计划完成日期]**：有关计划完成日期的详细信息，请参阅[设置项目计划完成日期](../../manage-work/projects/planning-a-project/project-planned-completion-date.md)。
 
-   * **[!UICONTROL Portfolio]**&#x200B;名称：有关项目组合的详细信息，请参阅Adobe Workfront中的[Portfolio概述](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)。
+   * **[!UICONTROL Portfolio]**&#x200B;名称：有关项目组合的详细信息，请参阅[了解项目组合方法](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)。
 
    * **[!UICONTROL 完成情况]**：有关项目完成情况的详细信息，请参阅[项目完成情况和完成情况类型概览](../../manage-work/projects/manage-projects/project-condition-and-condition-type.md)。
 
@@ -86,7 +88,7 @@ ht-degree: 0%
 
 1. 登录到您的[!DNL Slack]实例并登录到[!DNL Workfront from Slack]。
 
-   有关从[!DNL Slack]登录到[!DNL Workfront]的更多信息，请参阅[访问 [!DNL Adobe Workfront from Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)中的“从[!DNL Slack]登录到[!DNL Workfront]”部分。
+   有关从[!DNL Workfront]登录到[!DNL Slack]的更多信息，请参阅[!DNL Workfront]访问[!DNL Slack]中的“从[登录到 [!DNL Adobe Workfront from Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)”部分。
 
 1. 导航到包含指向[!DNL Workfront]任务的链接的消息。
 
@@ -120,9 +122,9 @@ ht-degree: 0%
 
 ## 来自[!DNL Slack]的访问问题
 
-1. 从[!DNL Slack]登录到[!DNL Slack]实例并登录到[!DNL Workfront]。
+1. 从[!DNL Slack]登录到[!DNL Workfront]实例并登录到[!DNL Slack]。
 
-   有关从[!DNL Slack]登录到Workfront的更多信息，请参阅[访问 [!DNL Adobe Workfront] 从 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)中的“从[!DNL Slack]登录到[!DNL Workfront]”部分。
+   有关从[!DNL Slack]登录到Workfront的更多信息，请参阅[!DNL Workfront]访问[!DNL Slack]从[中的“从 [!DNL Adobe Workfront] 登录到 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)”部分。
 
 1. 导航到包含指向[!DNL Workfront]问题的链接的消息。
 
@@ -151,9 +153,9 @@ ht-degree: 0%
 
 ## 从[!DNL Slack]访问项目组合
 
-1. 从[!DNL Slack]登录到[!DNL Slack]实例并登录到[!DNL Workfront]。
+1. 从[!DNL Slack]登录到[!DNL Workfront]实例并登录到[!DNL Slack]。
 
-   有关从[!DNL Slack]登录到[!DNL Workfront]的详细信息，请参阅[访问 [!DNL Adobe Workfront] 从 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)中的“从[!DNL Slack]登录到[!DNL Workfront]”部分。
+   有关从[!DNL Workfront]登录到[!DNL Slack]的详细信息，请参阅[!DNL Workfront]访问[!DNL Slack]从[中的“从 [!DNL Adobe Workfront] 登录到 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)”部分。
 
 1. 导航到包含指向[!DNL Workfront]项目组合链接的消息。
 
@@ -172,13 +174,13 @@ ht-degree: 0%
    * **[!UICONTROL 预算]**
    * **[!UICONTROL 已对齐]**
 
-     有关项目组合量度的详细信息，包括[!UICONTROL ROI]、[!UICONTROL 净值]、[!UICONTROL 一致性]以及[!UICONTROL 准时]和[!UICONTROL 预算]值，请参阅[了解[!UICONTROL Portfolio优化器]。](../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
+     有关项目组合量度的更多信息，包括[!UICONTROL ROI]、[!UICONTROL 净值]、[!UICONTROL 一致性]以及[!UICONTROL 准时]和[!UICONTROL 预算]值，请参阅[了解[!UICONTROL Portfolio优化器]。](../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
 
 ## 从[!DNL Slack]访问程序
 
-1. 从[!DNL Slack]登录到[!DNL Slack]实例并登录到[!DNL Workfront]。
+1. 从[!DNL Slack]登录到[!DNL Workfront]实例并登录到[!DNL Slack]。
 
-   有关从[!DNL Slack]登录到[!DNL Workfront]的详细信息，请参阅[访问 [!DNL Adobe Workfront] 从 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)中的“从[!DNL Slack]登录到[!DNL Workfront]”部分。
+   有关从[!DNL Workfront]登录到[!DNL Slack]的详细信息，请参阅[!DNL Workfront]访问[!DNL Slack]从[中的“从 [!DNL Adobe Workfront] 登录到 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)”部分。
 
 1. 导航到包含指向[!DNL Workfront]节目的链接的消息。
 
@@ -197,9 +199,9 @@ ht-degree: 0%
 
 ## 从[!DNL Slack]访问报告
 
-1. 从[!DNL Slack]登录到[!DNL Slack]实例并登录到[!DNL Workfront]。
+1. 从[!DNL Slack]登录到[!DNL Workfront]实例并登录到[!DNL Slack]。
 
-   有关从[!DNL Slack]登录到[!DNL Workfront]的详细信息，请参阅[访问 [!DNL Adobe Workfront] 从 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)中的“从[!DNL Slack]登录到[!DNL Workfront]”部分。
+   有关从[!DNL Workfront]登录到[!DNL Slack]的详细信息，请参阅[!DNL Workfront]访问[!DNL Slack]从[中的“从 [!DNL Adobe Workfront] 登录到 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)”部分。
 
 1. 导航到包含指向[!DNL Workfront]报告的链接的消息。
 

@@ -8,9 +8,9 @@ author: Lisa, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: f7347ba6-68bf-45d8-b5d2-6136f3e696c9
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: e8c89b68a022ae1c0cf5da20257cd8bc36e94d4c
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '794'
 ht-degree: 0%
 
 ---
@@ -39,30 +39,27 @@ Linked to Editing Users, Editing Projects, Creating and managing groups
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
-   <td>任何</td> 
+   <td>[!DNL Adobe Workfront] 包</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>新文档： [!UICONTROL Standard]</p>
-       <p>或</p>
-       <p>当前： [!UICONTROL 计划]</p></td>
+   <td>[!DNL Adobe Workfront] 许可证</td> 
+   <td><p>[！UICONTROL标准版]</p>
+       <p>[！UICONTROL计划]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td>  
+   <td>访问级别配置</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -95,7 +92,7 @@ Linked to Editing Users, Editing Projects, Creating and managing groups
 
    <table style="table-layout:auto">
     <tr>
-     <td>具有管理访问权限的[!UICONTROL 组]</td>
+     <td>具有管理访问权限的[！UICONTROL组]</td>
      <td><p>选择其管理员有权编辑此计划的组。</p>
      <p><b>重要信息</b>：</p>
       <ul>
@@ -112,11 +109,11 @@ Linked to Editing Users, Editing Projects, Creating and managing groups
      </td>
     </tr>
     <tr>
-     <td>[!UICONTROL 组具有视图访问权限]</td>
-     <td><p>选择具有[!UICONTROL 视图]访问权限的组，这些组可以查看此计划。</p>
+     <td>[！UICONTROL组具有视图访问权限]</td>
+     <td><p>选择具有[！UICONTROL视图]访问权限的组，这些组可以查看此计划。</p>
      <p>只有此处指定的组中的用户在将其分配给用户或项目时，才能在下拉菜单中找到计划。</p></tr>
     <tr>
-     <td>[!UICONTROL 时区]</td>
+     <td>[！UICONTROL时区]</td>
      <td><p>选择计划的时区。</p>
      <p>如果将时间表与用户关联，我们建议时间表的时区与用户的时区匹配。 有关用户时区的信息，请参阅<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">编辑用户配置文件。
      </td>

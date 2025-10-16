@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2d4d104a-1465-43e2-8184-83dd63d9681c
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: dc4b6dc284c59281206a457395765e634067ba91
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -30,31 +30,27 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront计划</p> </td> 
-   <td>任何</td> 
+  <tr> 
+   <td>Adobe Workfront包</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td>
-   <p>新增：标准</p>
-   <p>或</p>
-   <p>当前：计划</p></td> 
+   <td>Adobe Workfront许可证</td> 
+   <td><p>标准</p>
+       <p>规划</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">访问级别配置</td> 
+  <tr> 
+   <td>访问级别配置</td> 
    <td> <p>对自定义表单的管理访问权限</p> </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -79,8 +75,8 @@ ht-degree: 0%
 1. 将其他对象添加到要转换的问题或任务的自定义表单中，如本文中[第一：将其他对象添加到自定义表单](#first-add-additonal-objects-to-the-custom-form)部分所述。
 1. 使用显示的框中的&#x200B;**自定义Forms**&#x200B;选项转换问题或任务，以选择所需的自定义表单。 有关说明，请参阅以下文章：
 
-   * [在Adobe Workfront中将问题转化为项目](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
-   * [在Adobe Workfront中将问题转化为任务](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
+   * [将问题转化为项目](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
+   * [将问题转化为任务](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
    * [将任务转换为项目](../../../manage-work/tasks/manage-tasks/convert-task-to-project.md)
 
 1. 在显示的&#x200B;**转换为（对象类型）**&#x200B;对话框中，单击&#x200B;**添加Forms**&#x200B;下拉菜单，然后选择您在上一节中复制的表单。

@@ -2,13 +2,13 @@
 navigation-topic: business-case-and-scorecards
 title: 使用方案规划器的业务案例中的预算资源
 description: 作为资源计划的一部分，您可以在构建业务案例时使用Adobe Workfront Scenario Planner来预算完成项目中的工作所需的工作角色。
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 0%
+source-wordcount: '959'
+ht-degree: 1%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,14 +44,13 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront计划*</p></td> 
-   <td><p>当前：Ultimate</p> 
-   <p>旧版：商业版或更高版本</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront包</p></td> 
+   <td><p>Prime或更高版本</p> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证*</p></td> 
-   <td><p>当前：浅色或更高 
-   <p>旧版：审阅或更高版本</p> </td> 
+   <td><p>浅色或更高 
+   <p>审核或更高</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>产品</p></td> 

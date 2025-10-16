@@ -6,9 +6,9 @@ description: 您可以将画板作为文档上传，以供快速审阅和审批�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 710035f7-339c-457c-b9b0-e51bc0e0061d
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '530'
 ht-degree: 1%
 
 ---
@@ -22,36 +22,36 @@ ht-degree: 1%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <!-- <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
+   <!-- <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Work] or [!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> 
+   <p>Standard</p>
+   <p>Work or higher</p> </td> 
   </tr> 
   <tr> -->
-   <td role="rowheader">产品</td> 
-   <td>除了[!DNL Workfront]许可证，您还必须具有[!DNL Adobe Creative Cloud]许可证。</td> 
+   <td role="rowheader">其他产品</td> 
+   <td>除了[!DNL Adobe Creative Cloud]许可证，您还必须具有[!DNL Workfront]许可证。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对[!UICONTROL 文档]的访问权限</p> <p>注意：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何修改访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑对[！UICONTROL文档]的访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>[!UICONTROL 视图]对要上载文档的对象的访问权限或更高版本。</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>[！UICONTROL视图]对要上载文档的对象的访问权限或更高版本。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -84,23 +84,23 @@ ht-degree: 1%
     <col>
     <tbody>
      <tr>
-      <td colspan="2" role="rowheader">[!UICONTROL 导出格式]</td>
+      <td colspan="2" role="rowheader">[！UICONTROL导出格式]</td>
      </tr>
      <tr>
       <td role="rowheader">PNG</td>
-      <td>画板将作为PNG上载到[!DNL Workfront]中的工作项的[!UICONTROL 文档]选项卡。 </td>
+      <td>画板将作为PNG上载到[!DNL Workfront]中的工作项的[！UICONTROL文档]选项卡。 </td>
      </tr>
      <tr>
       <td role="rowheader">JPG</td>
-      <td>画板将作为JPG上载到[!DNL Workfront]中的工作项的[!UICONTROL 文档]选项卡。 <br></td>
+      <td>画板将作为JPG上载到[!DNL Workfront]中的工作项的[！UICONTROL文档]选项卡。 <br></td>
      </tr>
      <tr>
       <td role="rowheader">SVG</td>
-      <td>画板将作为SVG上载到[!DNL Workfront]中的工作项的[!UICONTROL Documents]选项卡。 </td>
+      <td>画板将作为SVG上载到[!DNL Workfront]中的工作项的[！UICONTROL文档]选项卡。 </td>
      </tr>
      <tr>
       <td role="rowheader">PDF</td>
-      <td>选择希望所选画板上载为<strong>单个PDF文件</strong>还是<strong>多个PDF文件</strong>。 画板将作为PDF上载到[!DNL Workfront]中的工作项的[!UICONTROL Documents]选项卡。</td>
+      <td>选择希望将所选画板上载为<strong>单个PDF文件</strong>还是<strong>多个PDF文件</strong>。 画板将作为PDF上载到[!DNL Workfront]中的工作项的[！UICONTROL Documents]选项卡。</td>
      </tr>
     </tbody>
    </table>
@@ -139,19 +139,19 @@ ht-degree: 1%
      </tr>
      <tr>
       <td role="rowheader">PNG</td>
-      <td>画板将作为PNG上载到[!DNL Workfront]中的工作项的[!UICONTROL 文档]选项卡。 </td>
+      <td>画板将作为PNG上载到[!DNL Workfront]中的工作项的[！UICONTROL文档]选项卡。 </td>
      </tr>
      <tr>
       <td role="rowheader">JPG</td>
-      <td>画板将作为JPG上载到[!DNL Workfront]中的工作项的[!UICONTROL Documents]选项卡。 <br></td>
+      <td>画板将作为JPG上载到[!DNL Workfront]中的工作项的[！UICONTROL Documents]选项卡。 <br></td>
      </tr>
      <tr>
       <td role="rowheader">SVG</td>
-      <td>画板将作为SVG上载到[!DNL Workfront]中的工作项的[!UICONTROL Documents]选项卡。 </td>
+      <td>画板将作为SVG上载到[!DNL Workfront]中的工作项的[！UICONTROL Documents]选项卡。 </td>
      </tr>
      <tr>
       <td role="rowheader">PDF</td>
-      <td><p>画板将作为PDF上载到[!DNL Workfront]中的工作项的[!UICONTROL Documents]选项卡。</p>
+      <td><p>画板将作为PDF上载到[!DNL Workfront]中的工作项的[！UICONTROL文档]选项卡。</p>
       <p><strong>注意</strong>：对于新文档版本，您只能上传一个画板。</p>
       </td>
      </tr>

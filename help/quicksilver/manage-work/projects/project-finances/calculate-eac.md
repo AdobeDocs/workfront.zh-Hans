@@ -7,9 +7,9 @@ description: 作为性能量度，完工估算(EAC)表示项目或任务完工�
 author: Lisa
 feature: Work Management
 exl-id: 9061fa56-cff3-4fe2-866e-1fdda9d43efc
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -28,35 +28,32 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td>Adobe Workfront包</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td>Adobe Workfront许可证</td> 
    <td>
-   <p>新增：浅色或更高</p>
-   <p>或</p>
-   <p>当前：审阅或更高版本</p></td>  
+   <p>浅色或更高</p>
+   <p>审核或更高</p></td>  
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
+   <td>访问级别配置</td> 
    <td>查看对项目和财务数据的访问权限</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">对象权限</td> 
+   <td>对象权限</td> 
    <td>具有查看财务的权限的项目的查看权限或更高权限</td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -140,4 +137,4 @@ EAC = EAC Labor + EAC Expense
 
    EAC值显示在&#x200B;**完工估算**&#x200B;字段中。
 
-   项目![&#128279;](assets/eac-highlighted-on-project-350x112.png)上的EAC
+   项目![上的](assets/eac-highlighted-on-project-350x112.png)EAC

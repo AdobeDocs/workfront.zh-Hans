@@ -6,9 +6,9 @@ description: Adobe Workfront的默认配置包括“处理此项工作”按钮�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 9387c5ae-2835-4d8f-80ec-22fcd16c5b6e
-source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
@@ -27,22 +27,19 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront计划</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront包</p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td>
-   <p>新增：标准</p>
-   <p>或</p>
-   <p>当前：计划</p></td>
+   <p>标准</p>
+   <p>规划</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -79,7 +76,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;图标![](assets/more-icon.png)，然后单击&#x200B;**[!UICONTROL 编辑]**。
 
-1. 在[!UICONTROL 编辑团队]页面底部附近找到&#x200B;**[!UICONTROL 处理此工作]**&#x200B;按钮部分。
+1. 在&#x200B;**[!UICONTROL 编辑团队]**&#x200B;页面底部附近找到[!UICONTROL 处理此工作]按钮部分。
 1. 选中&#x200B;**[!UICONTROL 将“处理此项工作”按钮更改为“开始”按钮以自动更新项]**&#x200B;的状态。
 1. 为每个工作项类型选择一个或多个状态。 如果选择多个状态，则单击[!UICONTROL 开始]时会显示一个下拉菜单，您可以在其中选择所需的状态。
 1. 单击&#x200B;**[!UICONTROL 保存更改]**。 用户现在在分配工作项时看到[!UICONTROL 开始任务]或[!UICONTROL 开始问题]按钮，而不是[!UICONTROL 处理它]按钮。

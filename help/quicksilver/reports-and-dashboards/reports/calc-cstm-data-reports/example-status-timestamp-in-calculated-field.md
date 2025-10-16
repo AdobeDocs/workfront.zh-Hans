@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
-title: '计算自定义字段示例：在自定义表单中显示状态时间戳'
+title: 计算自定义字段示例：在自定义表单中显示状态时间戳
 description: 以下计算字段显示对象状态标记为进行中(INP)的日期。 您可以为问题、任务或项目的计算自定义字段使用相同的信息。
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 55817a68-3655-4288-8cc7-48547829c46e
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -24,35 +24,36 @@ ht-degree: 0%
 
 ## 访问要求
 
-您必须具备以下条件：
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
- <caption style="text-align: left;"> 
-  <p>*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。</p> 
- </caption> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront计划*</p> </td> 
-   <td>任何</td> 
+   <td> <p>Adobe Workfront包</p> </td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront许可证*</p> </td> 
-   <td> <p>计划 </p> </td> 
+   <td> <p>Adobe Workfront许可证</p> </td> 
+   <td>
+      <p>标准</p>
+      <p>规划</p></td>
   </tr> 
   <tr> 
-   <td><strong>访问级别配置*</strong> </td> 
-   <td> <p>编辑创建报告、功能板和日历的权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td><p>访问级别配置</p></td> 
+   <td> <p>编辑创建报告、功能板和日历的权限</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>对象权限</strong> </p> </td> 
-   <td> <p>管理附加表单的对象权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。<br>有关仪表板权限的更多信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md" class="MCXref xref">共享报告、仪表板和日历</a>。</p> </td> 
+   <td> <p>对象权限</p> </td> 
+   <td> <p>管理附加表单的对象权限</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先决条件
 

@@ -8,16 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
 
 # 配置用户更新的首选项
 
-<!--Audited: 06/2025-->
+<!--Audited: 08/2025-->
 
 您可以配置首选项，使用户在对象的[!UICONTROL 更新]区域中添加注释时能够访问某些功能。
 
@@ -25,26 +25,24 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
-   <td>任何</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 包</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td><p>新文档： [!UICONTROL Standard]</p>
-   或
-   <p>当前： [!UICONTROL 计划]</p>
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
+   <td><p>[！UICONTROL标准版]</p>
+   <p>[！UICONTROL计划]</p>
    </td> 
   </tr>  
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td><p>要在系统级别执行这些步骤，您需要[!UICONTROL 系统管理员]访问级别。</p><p>要为组执行这些操作，您必须是该组的经理。</p></td>
+   <td><p>系统管理员，在系统级别执行这些步骤。 </p>
+   <p>计划员，为组执行这些步骤，并且是该组的经理。</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -52,6 +50,30 @@ ht-degree: 0%
 *有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td><p>New: [!UICONTROL Standard]</p>
+   Or
+   <p>Current: [!UICONTROL Plan]</p>
+   </td> 
+  </tr>  
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td><p>To perform these steps at the system level, you need the [!UICONTROL System Administrator] access level.</p><p>To perform them for a group, you must be a manager of that group.</p></td>
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 允许用户在更新中添加图像
 
@@ -63,7 +85,7 @@ ht-degree: 0%
 >* 可通过对象上的[!UICONTROL 更新]选项卡访问图像，也可在[!UICONTROL 主菜单]下的[!UICONTROL 文档]区域访问图像。
 >
 
-1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 设置]**![齿轮设置图标](assets/gear-icon-settings.png)。
+1. 单击&#x200B;**[!UICONTROL 右上角的]**&#x200B;主菜单![图标](assets/main-menu-icon.png)主菜单图标[!DNL Adobe Workfront]，然后单击&#x200B;**[!UICONTROL 设置]**![齿轮设置图标](assets/gear-icon-settings.png)。
 1. 在左侧面板中，选择&#x200B;**[!UICONTROL 界面]** > **[!UICONTROL 更新源]**。
 1. 选择&#x200B;**[!UICONTROL 首选项]**&#x200B;选项卡。
 

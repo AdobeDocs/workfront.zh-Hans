@@ -3,13 +3,13 @@ content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
 title: 项目状态不会从完成更改为当前
-description: （尽管这可以添加为常见问题解答，但由于可搜索性的原因，我保留了其作为自己的文章）
+description: 本文描述了一个方案，其中您不能将项目状态从完成更新为当前。
 author: Alina
 feature: Work Management
 exl-id: 774c103f-8785-4d8b-83e9-a074e6518293
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 1. 转到要更新的项目。
 1. 单击项目名称右侧的&#x200B;**更多**&#x200B;图标![更多图标](assets/more-icon.png)，然后单击&#x200B;**编辑**。
-1. 单击&#x200B;**项目**&#x200B;**设置**。
+1. 单击&#x200B;**项目****设置**。
 
 1. 找到&#x200B;**完成模式**&#x200B;下拉菜单，然后选择&#x200B;**手动**。
 

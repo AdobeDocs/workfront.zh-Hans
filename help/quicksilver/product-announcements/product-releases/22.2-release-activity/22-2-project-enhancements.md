@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 43ea91db-d6f2-4218-9261-580a7e5b31d0
-source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1090'
 ht-degree: 1%
 
 ---
@@ -124,7 +124,7 @@ Workfront展示板现在提供以下其他改进：
 
 将问题转化为项目后，用户仍保留在列表、报表或功能板中，而不是被重定向到项目的页面。 转换完成后，将显示一个成功通知，其中包含指向项目的链接，以便您根据需要轻松导航到项目。
 
-有关详细信息，请参阅[在Adobe Workfront中将问题转化为项目](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)。
+有关详细信息，请参阅[将问题转化为项目](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)。
 
 ## 对分配进行更改时，不再删除分配小时数
 

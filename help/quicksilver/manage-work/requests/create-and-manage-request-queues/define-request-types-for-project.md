@@ -3,13 +3,13 @@ product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
 title: 定义项目的请求类型
 description: 您可以按“请求类型”来整理Adobe Workfront中登录的问题或请求类型。
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 627749bb-a8d7-4cc2-9d11-237811f82eb8
-source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 1%
+source-wordcount: '354'
+ht-degree: 3%
 
 ---
 
@@ -28,14 +28,14 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td>
-    <p>新增：标准</p>
-    <p>当前：计划</p></td>  
+    <p>标准</p>
+    <p>规划</p></td>  
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -48,7 +48,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -83,4 +83,4 @@ ht-degree: 1%
    >* 您必须至少选择一个请求类型。 您可以选择多种类型。
    >* 您的Workfront管理员可能已重命名其中一些选项。 有关信息，请参阅[配置请求类型](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md)。
 
-1. 单击&#x200B;**保存**。 在任务或项目上输入新问题时，或在向项目提交新请求时（如果项目已作为请求队列启用），您指定的请求类型将可供选择。
+1. 单击 **Save**。在任务或项目上输入新问题时，或在向项目提交新请求时（如果项目已作为请求队列启用），您指定的请求类型将可供选择。

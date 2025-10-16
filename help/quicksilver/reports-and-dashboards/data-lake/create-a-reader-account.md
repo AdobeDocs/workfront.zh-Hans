@@ -7,9 +7,9 @@ description: 要访问Data Connect数据，您必须首先创建一个Snowflake�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
+source-git-commit: 7764e512a3fb30a89e6645a4d8544a5fcffee231
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
@@ -18,41 +18,33 @@ ht-degree: 0%
 
 要访问Data Connect数据，您必须首先为贵组织创建Snowflake读取器（或服务）帐户，然后为要访问Data Connect的每个用户或工具创建新连接。
 
-创建连接后，您可以在&#x200B;**现有连接**&#x200B;选项卡下的&#x200B;**Data Connect**&#x200B;页面（**主菜单** > **设置** > **系统** > **Data Connect**）上单击该连接，找到其关联的URL和用户名。
+创建连接后，您可以通过在“现有连接”选项卡下的“数据连接”页面（“主菜单”>“设置”>“系统”>“数据连接”）上单击该连接，找到其关联的URL和用户名。
 
 有关将新创建的连接与外部产品结合使用的信息，请参阅[建立与Workfront Data Connect的连接](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)。
 
 ## 访问要求
 
-+++ 展开以查看访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-   <td><p>包括在以下计划中：</p>
-    <ul>
-        <li>Ultimate</li> 
-    </ul>    
-   <!--<p>Can be purchased as an add-on to the following plans:</p> 
-    <ul>
-        <li>Select</li> 
-        <li>Prime</li>
-    </ul>--> 
-    <p>Workfront Data Connect不适用于旧版Workfront计划。</p> 
+   <td role="rowheader">Adobe Workfront包</td> 
+   <td><p>Ultimate</p>
+    <p>工作流 Ultimate</p>
    </td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td><p>计划</p></td> 
+   <td>
+   <p>标准</p>
+   <p>规划</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>您必须是Workfront管理员。</p></td> 
+   <td> <p>您必须是Workfront管理员</p></td> 
   </tr> 
  </tbody> 
 </table>

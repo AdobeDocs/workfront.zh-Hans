@@ -1,21 +1,21 @@
 ---
 product-area: portfolios;projects
 navigation-topic: create-and-manage-portfolios
-title: 将项目添加到项目组合
+title: 将项目添加到Portfolio
 description: 我们建议您在启动项目时将项目添加到项目组合。 但是，您可以在其生命周期内的任何时间将其添加到项目组合。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
 
 # 将项目添加到项目组合
 
-<!--Audited: 5/2025-->
+<!--Audited: 08/2025-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
@@ -30,29 +30,29 @@ ht-degree: 0%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 包</td> 
    <td> <p>任何</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td><p>新增：标准</p> 
-   <p>当前： [!UICONTROL 计划] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
+   <td><p>标准</p> 
+   <p>[！UICONTROL计划] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别</td> 
-   <td> <p>[!UICONTROL Edit]访问项目组合</p> <p>[!UICONTROL Edit]对项目的访问权限</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>[！UICONTROL Edit]访问项目组合</p> <p>[！UICONTROL Edit]对项目的访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>项目组合的[!UICONTROL Manage]权限</p> <p>[!UICONTROL Manage]项目权限</p>  </td> 
+   <td> <p>项目组合的[！UICONTROL Manage]权限</p> <p>[！UICONTROL Manage]项目权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,6 +60,33 @@ ht-degree: 0%
 *有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Any</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td><p>New: Standard</p> 
+   <p>Current: [!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>[!UICONTROL Edit] access Portfolios</p> <p>[!UICONTROL Edit] access to Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions to the portfolio</p> <p>[!UICONTROL Manage] permissions to the projects</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 将项目添加到项目组合
 
@@ -80,23 +107,23 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 现有项目]</td> 
+      <td role="rowheader">[！UICONTROL现有项目]</td> 
       <td> <p>添加已创建的项目。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 新建项目]</td> 
+      <td role="rowheader">[！UICONTROL新建项目]</td> 
       <td> <p>添加新项目。 </p> <p>有关创建新项目的详细信息，请参阅<a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">创建项目</a>。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">&lbrack;！UICONTROL从[!DNL MS Project]导入项目 </td> 
+      <td role="rowheader">[！UICONTROL从[!DNL MS Project]导入项目 </td> 
       <td> <p>添加您之前从[!DNL MS Project]导出并在计算机上保存的项目。 </p> <p>有关通过从[!DNL Microsoft Project]导入项目来创建新项目的详细信息，请参阅<a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">从[!DNL Microsoft Project]</a>导入项目。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 请求项目]</td> 
+      <td role="rowheader">[！UICONTROL请求项目]</td> 
       <td> <p>请求批准项目。</p> <p>有关请求项目的信息，请参阅<a href="../../../manage-work/projects/create-projects/request-project.md">请求项目</a>。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL New from Template]</td> 
+      <td role="rowheader">[！UICONTROL New from Template]</td> 
       <td> <p>使用现有模板添加新项目。 </p> <p>有关从模板创建项目的详细信息，请参阅<a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">使用模板创建项目</a>。</p> </td> 
      </tr> 
     </tbody> 

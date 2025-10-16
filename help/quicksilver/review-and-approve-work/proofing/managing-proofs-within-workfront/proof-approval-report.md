@@ -6,9 +6,9 @@ description: 您可以使用验证审批报告查看有关您环境中验证的�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f8c924e-7c33-43f3-a9d6-75c56af28527
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -21,32 +21,33 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具备以下条件：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Workfront计划*</p> </td> 
+   <td role="rowheader"> <p>Workfront包</p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Workfront许可证概述*</p> </td> 
-   <td> <p>计划</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront许可证</p> </td> 
+   <td> 
+   <p>标准</p>
+   <p>规划</p>
+   </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"><strong>访问级别*</strong> </td> 
+   <td role="rowheader"><strong>访问级别配置</strong> </td> 
    <td> <p>编辑以下项的访问权限：</p> 
     <ul> 
      <li> <p>创建报告、功能板和日历</p> </li> 
      <li> <p>创建筛选器、视图和分组</p> </li> 
-    </ul> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+    </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

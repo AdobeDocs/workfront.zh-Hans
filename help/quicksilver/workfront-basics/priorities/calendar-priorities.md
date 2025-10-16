@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '522'
 ht-degree: 4%
 
 ---
@@ -37,14 +37,14 @@ ht-degree: 4%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
-   <p>当前：查看者或更高版本</p>
-   <p>新增：浅色或更高</p> 
+   <p>审阅者或更高版本</p>
+   <p>浅色或更高</p> 
    </td> 
   </tr> 
   <tr> 
@@ -68,7 +68,7 @@ ht-degree: 4%
 
 {{step1-to-priorities}}
 
-1. 单击工作列表顶部的&#x200B;**日历**&#x200B;图标。
+1. 单击工作列表顶部的&#x200B;**日历**图标。
    ![日历图标](assets/calendar-tab.png)
 1. 选择一个或多个筛选器以缩小工作项的范围。
 
@@ -148,11 +148,11 @@ ht-degree: 4%
 
 {{step1-to-priorities}}
 
-1. 单击工作列表顶部的&#x200B;**日历**&#x200B;图标。
+1. 单击工作列表顶部的&#x200B;**日历**图标。
    ![日历图标](assets/calendar-tab.png)
 1. 单击日历右角的&#x200B;**设置**&#x200B;图标。
 
-1. 在&#x200B;**栏样式**&#x200B;选项卡上，选择最多5个显示在日历工作项栏中的字段。
+1. 在&#x200B;**栏样式**选项卡上，选择最多5个显示在日历工作项栏中的字段。
    ![示例栏](assets/sample-task-for-field-config.png)
 
 1. 在&#x200B;**颜色**&#x200B;选项卡上，选择您希望工作项显示的方式。 例如，如果选择&#x200B;**项目**，则工作项将根据分配给工作列表上的项目的颜色显示。

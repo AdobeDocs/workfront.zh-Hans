@@ -6,9 +6,9 @@ description: 您可以创建功能板以快速访问Adobe Workfront中的信息�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '494'
 ht-degree: 1%
 
 ---
@@ -25,36 +25,33 @@ ht-degree: 1%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具备以下条件：
-
-<table style="table-layout:auto">
+<table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Adobe Workfront计划</strong></p> </td> 
-   <td>任何</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Adobe Workfront许可证</strong></p> </td> 
-   <td> <p>当前：计划 </p>
-   或
-   <p>新增：标准 </p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> 
+      <p>标准</p>
+      <p>规划</p>
+   </td> 
   </tr> 
   <tr> 
-   <td><strong>访问级别配置</strong> </td> 
-   <td> <p>编辑对报告、功能板和日历的访问权限</p> </td> 
-  </tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑对报告、功能板和日历的访问权限</p></td> 
+  </tr>  
   <tr> 
-   <td> <p><strong>对象权限</strong> </p> </td> 
+   <td role="rowheader">对象权限</td> 
    <td> <p>您将获得对所创建功能板的管理权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -86,7 +83,7 @@ ht-degree: 1%
       <td><p>这是仪表板的名称。 我们建议仅使用UTF-8字符以避免兼容性问题。</p><p>如果未指定名称，缺省情况下，操控板上第一个报表的名称将变为操控板的名称。</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>描述（非必要）</strong></td>
+      <td role="rowheader"><strong>描述（可选）</strong></td>
       <td>这是仪表板的描述。</td>
      </tr>
     </tbody>

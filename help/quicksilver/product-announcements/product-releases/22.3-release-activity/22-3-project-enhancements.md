@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1235ad4a-72dd-45c5-8513-d073b3e9a2da
-source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1535'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 * 在目标项目的“任务设置”区域中定义的默认自定义表单已添加到新任务。
 
 
-有关详细信息，请参阅[在Adobe Workfront中将问题转换为任务](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-task.md)。
+有关详细信息，请参阅[将问题转换为任务](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-task.md)。
 
 ## 在将问题转化为没有模板的项目时的新体验
 

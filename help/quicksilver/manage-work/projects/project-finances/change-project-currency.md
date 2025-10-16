@@ -6,9 +6,9 @@ description: 作为项目经理，您可以将项目配置为使用Adobe Workfro
 author: Lisa
 feature: Work Management
 exl-id: c496fe92-5c17-41a5-972b-1c063643bde3
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -23,35 +23,32 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-   <td>任何</td> 
+   <td>Adobe Workfront包</td> 
+   <td>任何 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td>Adobe Workfront许可证</td> 
    <td>
-   <p>新增：标准</p>
-   <p>或</p>
-   <p>当前：计划</p></td> 
+   <p>标准</p>
+   <p>规划</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
+   <td>访问级别配置</td> 
    <td>编辑对项目的访问权限</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">对象权限</td> 
+   <td>对象权限</td> 
    <td>管理项目的权限</td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -75,7 +72,7 @@ ht-degree: 0%
 1. 单击左侧面板中的&#x200B;**项目详细信息**，然后转到&#x200B;**财务**&#x200B;区域。
 1. 单击&#x200B;**货币**&#x200B;字段中的&#x200B;**添加**，然后选择要用作项目默认货币的货币。 显示Workfront管理员为Workfront实例设置的所有货币。
 
-   项目![&#128279;](assets/currency-on-project-expanded-nwe.png)上的货币
+   项目![上的](assets/currency-on-project-expanded-nwe.png)货币
 
 1. （视情况而定）如果您选择的货币不是为Workfront系统设置的默认货币，请指定所选货币的汇率，因为该汇率与系统中设置为基础货币的货币相关。
 1. 单击&#x200B;**保存更改**。

@@ -1,25 +1,25 @@
 ---
 product-area: projects
 navigation-topic: convert-issues
-title: 在Adobe Workfront中将问题转化为项目
-description: 在Adobe Workfront中将问题转化为项目
+title: 将问题转化为项目
+description: 如果在提交问题后需要完成更多工作，您可以将问题转换为Adobe Workfront中的项目。
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: 71ddeb83543c3c1491a412ac18deaa3ce1077c21
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2009'
 ht-degree: 1%
 
 ---
 
-# 在Adobe Workfront中将问题转化为项目
+# 将问题转化为项目
 
-<!--Audited: 01/2024-->
+<!--Audited: 08/2025-->
 
 如果在提交问题后需要完成更多工作，您可以将问题转化为项目。
 
-您可以将问题转换为新项目，也可以使用模板将其转换为项目。 本文介绍了将问题转化为项目的两种方式。
+您可以将问题转化为包含我们的项目，而无需使用项目模板。 本文介绍了将问题转化为项目的两种方式。
 
 >[!IMPORTANT]
 >
@@ -31,29 +31,27 @@ ht-degree: 1%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td>
-   <p>新增：标准 </p> 
-    <p>当前：计划 </p> </td> 
+   <p>标准</p> 
+    <p>规划</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
+   <td role="rowheader">访问级别配置</td> 
    <td> <p>编辑对问题、任务和项目的访问权限</p> <p>编辑对财务数据的访问权限以更新从问题转换而来的预计客户的财务信息</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看问题的权限</p> <p>在问题转化后，您可获得对项目的管理权限</p> </td> 
+   <td> <p>查看问题的权限</p> <p>在转换问题后，您可获得项目的管理权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,6 +59,34 @@ ht-degree: 1%
 有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td>
+   <p>New: Standard </p> 
+    <p>Current: Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Issues, Tasks, and Projects</p> <p>Edit access to Financial Data to update financial information for a projected converted from the issue</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to the issue</p> <p>You obtain Manage permissions to the project after the issue is converted</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
 
 ## 注意事项
 

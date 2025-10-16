@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: plan-a-project
 title: 在角色分配面板中查看项目计划小时数
 description: 您可以在项目的“角色分配”面板中查看分配给项目中工作项的所有工作角色的角色分配。
-author: Alina
+author: Alina, Lisa
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '476'
 ht-degree: 1%
 
 ---
@@ -24,14 +24,50 @@ ht-degree: 1%
 >* [在任务列表中显示项目和计划的角色分配](../../../scenario-planner/show-role-allocation-task-list-nwe.md)
 >* [在工作负载均衡器中显示项目和计划的角色分配](../../../scenario-planner/show-role-allocation-workload-balancer.md)
 >
->  您必须具有Scenario Planner许可证才能在“角色分配”面板中查看计划小时数。 有关Scenario Planner的信息，请参阅[Scenario Planner入门](../../../scenario-planner/get-started-with-scenario-planning.md) 。
+>  您必须具有Scenario Planner许可证才能在“角色分配”面板中查看计划小时数。 有关Scenario Planner的信息，请参阅[Scenario Planner入门](../../../scenario-planner/get-started-with-scenario-planning.md)。
 >
+>如果您的公司以前购买过Adobe Scenario Planner，则它已被保留。 Scenario Planner不再可供购买。
 
 ## 访问要求
 
-<!--drafted for P&P:
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront包</td> 
+   <td> <p>Adobe Workfront Ultimate</p>
+   <p>Adobe工作流程Ultimate</p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> 
+   <p>浅色或更高</p>
+   <p>审核或更高</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>查看项目或授予更高的项目访问权限</p>
+   <p>编辑对Scenario Planner的访问权限以更新计划小时</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">对象权限</td> 
+   <td> <p>查看项目或更高权限</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+<!--Old:
+
+able style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -41,10 +77,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Light or higher</p> 
-   Or
-   <p>Legacy license: Review or higher</p> 
-   </td> 
+   <td> <p>Review or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -55,36 +88,7 @@ ht-degree: 1%
    <td> <p>View or higher permissions on the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
--->
-
-您必须具备以下条件：
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>任何 </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>审核或更高</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>查看项目或授予更高的项目访问权限</p> <p>如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">对象权限</td> 
-   <td> <p>查看项目或更高权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+</table>-->
 
 ## 先决条件
 

@@ -6,14 +6,14 @@ description: 作为资源管理器，您可以将工作分配给用户，并通�
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: d588380201aa8bcc9e358d516b7e52ed5f60b78d
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '2886'
+source-wordcount: '2864'
 ht-degree: 0%
 
 ---
 
-# 在工作负载平衡器中管理用户分配
+# 管理工作负载均衡器中的用户分配
 
 <!-- Audited: 01/2024 -->
 
@@ -23,25 +23,21 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-   <td> <p>任何 </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td><p>新增：标准</p>
-       <p>或</p>
-       <p>当前：计划，在资源区域使用工作负载均衡器时；</br>
-       工作，使用团队或项目的工作负载均衡器时</p></td>
+   <td>Adobe Workfront包</td> 
+   <td><p>任何</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
+   <td>Adobe Workfront许可证</td> 
+   <td><p>标准</p>
+       <p>在资源区域使用工作负载均衡器时进行规划；在使用团队或项目的工作负载均衡器时进行工作</p></td>
+  </tr>
+  <tr> 
+   <td>访问级别配置</td> 
    <td> <p>编辑对以下内容的访问权限：</p> 
     <ul> 
      <li>资源管理</li> 
@@ -52,13 +48,13 @@ ht-degree: 0%
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">对象权限</td> 
+   <td>对象权限</td> 
    <td> <p>Contribute权限或更高，包括“分配至要为其管理分配的任务和问题”。 </p> <p>或 </p> <p>管理要为其更新计划小时数和更新分配的任务的权限。 有关在工作负载均衡器中更新已计划小时数的信息，请参阅本文中的<a href="#update-task-planned-hours-when-managing-user-allocations">管理用户分配时更新任务已计划小时数</a>部分。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -94,7 +90,7 @@ ht-degree: 0%
 
   >[!INFO]
   >
-  > 例如，任务的工期为2天，计划时间为2小时，任务的计划开始时间为工期第一天中午12:00，项目计划于下午5点结束。 用户第一天的容量为5小时。 用户第二天的产能为8小时（如果计划从上午9点开始）。
+  > 例如，任务可能具有2天的工期和2个计划小时，其计划开始时间为工期第一天晚上12:00，项目计划于下午5点结束。 用户第一天的容量为5小时。 用户第二天的产能为8小时（如果计划从上午9点开始）。
   >
   >Workfront使用以下公式计算工期2天内2小时的分配情况：
   >
@@ -175,7 +171,7 @@ ht-degree: 0%
 
 作为向用户分配工作的一部分，您可以修改工作负载均衡器中的用户分配，以确保不会过度分配用户分配，或确保资源之间的小时数准确平衡。 有关识别用户是否过度分配的信息，请参阅本文中的[用户分配概述](#user-allocation-overview)部分。
 
-1. 确保您已将任务和问题分配给用户。 有关在工作负载均衡器中将工作分配给用户的信息，请参阅在工作负载均衡器[&#128279;](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中分配工作的概述。
+1. 确保您已将任务和问题分配给用户。 有关在工作负载均衡器中将工作分配给用户的信息，请参阅在工作负载均衡器[中分配工作的概述](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)。
 1. 转到工作负载均衡器。
 1. （可选）单击&#x200B;**周**&#x200B;或&#x200B;**月**&#x200B;以管理用户的每周或每月分配。
 

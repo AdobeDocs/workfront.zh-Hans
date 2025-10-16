@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '625'
 ht-degree: 3%
 
 ---
@@ -37,19 +37,19 @@ ht-degree: 3%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td>计划</td> 
+   <td>
+   <p>标准</p>
+   <p>规划</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -57,6 +57,8 @@ ht-degree: 3%
   </tr> 
  </tbody> 
 </table>
+
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -109,7 +111,7 @@ ht-degree: 3%
 
 具有特定依赖关系类型的任务可能会在指定的开始日期之后交付，即使它们已过期。 例如，如果某个任务的前置任务具有完成 — 开始(fs)依赖关系，则即使该任务已超过指定的开始日期，它也不会包含在电子邮件中，因为在该前置任务完成之前，您无法启动该任务。
 
-有关接收自动提醒电子邮件的详细信息，请参阅[Adobe Workfront通知](../../../workfront-basics/using-notifications/wf-notifications.md)中的[自动提醒](../../../workfront-basics/using-notifications/wf-notifications.md#automatic-reminders)部分。
+有关接收自动提醒电子邮件的详细信息，请参阅[Adobe Workfront通知](../../../workfront-basics/using-notifications/wf-notifications.md#automatic-reminders)中的[自动提醒](../../../workfront-basics/using-notifications/wf-notifications.md)部分。
 
 ## 发送自动提醒
 

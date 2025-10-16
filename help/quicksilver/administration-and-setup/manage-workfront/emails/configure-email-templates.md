@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '808'
 ht-degree: 3%
 
 ---
@@ -32,21 +32,18 @@ ht-degree: 3%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td><p>新增：标准</p>
-   或
-   <p>当前：计划</p>
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td><p>标准</p>
+   <p>规划</p>
    </td> 
   </tr> 
   <tr> 
@@ -56,7 +53,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-*有关访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -102,7 +99,7 @@ ht-degree: 3%
      </tr> 
      <tr> 
       <td role="rowheader">正文 </td> 
-      <td> <p>为电子邮件的内容添加文本。</p> <p>您可以对电子邮件内容使用HTML格式，如本文中的<a href="#add-html-formatting-to-an-email-template" class="MCXref xref">将HTML格式添加到电子邮件模板</a>部分中所述。</p> </td> 
+      <td> <p>为电子邮件的内容添加文本。</p> <p>您可以对电子邮件内容使用HTML格式，如本文中<a href="#add-html-formatting-to-an-email-template" class="MCXref xref">将HTML格式添加到电子邮件模板</a>部分中所述。</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -111,13 +108,13 @@ ht-degree: 3%
 
 ## 将HTML格式添加到电子邮件模板 {#add-html-formatting-to-an-email-template}
 
-您可以将HTML标签添加到电子邮件模板中以生成自定义通知。\
+您可以将HTML标记添加到电子邮件模板中以生成自定义通知。\
 开始创建电子邮件模板，如[新建电子邮件模板](#create-a-new-email-template)中所述。
 
 HTML格式可以丰富您的电子邮件模板，如以下部分所示。
 
 * [链接到Workfront对象](#link-to-workfront-objects)
-* [链接到HTML为](#link-to-custom-fields-with-html)的自定义字段
+* [使用HTML链接到自定义字段](#link-to-custom-fields-with-html)
 * [HTML电子邮件示例](#html-email-examples)
 
 ### 链接到Workfront对象 {#link-to-workfront-objects}
@@ -154,11 +151,11 @@ HTML格式可以丰富您的电子邮件模板，如以下部分所示。
 
 `heading`值可以是对象的名称，如您希望在电子邮件正文中显示的那样。
 
-### 链接到具有HTML的自定义字段 {#link-to-custom-fields-with-html}
+### 用HTML链接到自定义字段 {#link-to-custom-fields-with-html}
 
 您可以使用`$$`通配符来指示电子邮件生成器从与该对象关联的数据库中查找值，从而包含指向用户和自定义字段的链接。 它们必须位于数据库属性引用的两侧。
 
-例如，将以下文本添加为HTML会将分配用户的名字添加到与任务关联的提醒通知中：
+例如，将以下文本添加为HTML会将已分配用户的名字添加到与任务关联的提醒通知中：
 
 `assignedTo:firstName`
 

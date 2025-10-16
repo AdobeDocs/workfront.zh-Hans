@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: db90cf52-7c8f-4972-b67f-401657ba9b13
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 7eaff1c74cd880bde062e6fdf169c73d6eeb7f75
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -29,39 +29,36 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-   <td>任何</td> 
+   <td>Adobe Workfront包</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td>
-   <td><p>新增：标准</p>
-       <p>或</p>
-       <p>当前：计划</p></td>
-  <tr> 
-   <td role="rowheader">访问级别配置</td> 
+   <td>Adobe Workfront许可证</td> 
+   <td><p>标准</p>
+       <p>规划</p></td>
+  </tr>
+  <tr>
+   <td>访问级别配置</td> 
    <td>您必须是组的组管理员或系统管理员。</td>
   </tr>
   <tr> 
-   <td role="rowheader">对象权限</td>
+   <td>对象权限</td>
    <td> 
     <ul> 
      <li> <p>项目必须与组或其任何子组关联。 </p> <p>有关将组分配到项目的信息，请参阅<a href="../../../manage-work/projects/manage-projects/understand-project-overview-area.md" class="MCXref xref">管理项目概述区域中的信息</a>。</p> </li> 
      <li> <p>此外，您必须具有编辑项目的权限，这可能是因为您创建了项目，也可能是因为与您共享了项目。</p></li> 
     </ul>
     <p><b>注意</b>：从组的页面创建项目时，系统会将该项目分配给该组。 这与其他Workfront区域中创建项目不同，在其他区域中，系统将项目分配给创建项目的用户的主组（项目所有者）。</p> </td>
-  </tr> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -88,7 +85,7 @@ ht-degree: 0%
       <td role="rowheader"> <p>为组创建新项目</p> </td> 
       <td> 
        <ol> 
-        <li value="1"> <p>单击<strong>新建项目</strong>，然后在下拉菜单中选择一个选项以指示创建项目的方式。 </p> <p>有关详细信息，请参阅文章<a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">创建项目</a>中的<a href="../../../manage-work/projects/create-projects/create-project.md#ways-to-create-projects" class="MCXref xref">创建项目的方法</a>部分。</p> </li> 
+        <li value="1"> <p>单击<strong>新建项目</strong>，然后在下拉菜单中选择一个选项以指示创建项目的方式。 </p> <p>有关详细信息，请参阅文章<a href="../../../manage-work/projects/create-projects/create-project.md#ways-to-create-projects" class="MCXref xref">创建项目</a>中的<a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">创建项目的方法</a>部分。</p> </li> 
         <li value="2">键入项目的名称并进行配置，如<a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">编辑项目</a>中所述。</li> 
        </ol> <p> 为组设置的项目首选项会影响您在组区域创建的所有项目。 有关详细信息，请参阅<a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md" class="MCXref xref">为组配置项目首选项</a>。</p> </td> 
      </tr> 

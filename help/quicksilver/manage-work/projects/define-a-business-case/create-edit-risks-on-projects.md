@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: business-case-and-scorecards
 title: 创建和编辑项目的风险
 description: 风险是阻止项目按时完成或在预算内完成的可能事件或因素。 您可以在创建项目的业务案例时记录项目风险，也可以使用“风险”选项卡进行记录。 您可以向项目和模板添加风险。 您不能将风险与任务或问题相关联。
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
+source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1059'
 ht-degree: 1%
 
 ---
@@ -35,8 +35,6 @@ ht-degree: 1%
 
 ## 访问要求
 
-您必须具有以下权限才能执行本文中的步骤：
-
 +++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
@@ -44,17 +42,15 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront计划*</p></td> 
-   <td> <p>当前计划：</p>
+   <td role="rowheader"><p>Adobe Workfront包</p></td> 
    <ul><li>任何计划，用于在项目的风险区域添加风险</p></li>
    <li><p>Prime或更高版本，以便在项目的商业论证中添加风险</p></li></ul>
-   <p>传统计划：任何计划</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront许可证*</p></td> 
-   <td> <p>当前：标准 </p>
-   <p>旧版：计划 </p> </td> 
+   <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
+   <td> <p>标准 </p>
+   <p>规划 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>访问级别配置</p></td> 
@@ -67,7 +63,8 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
 
 +++
 

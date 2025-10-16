@@ -7,9 +7,9 @@ description: 迭代是为完成工作而保留的设定时间。 某些Agile团�
 author: Lisa
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
@@ -26,24 +26,21 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
-   <p>新文档： [!UICONTROL Contributor]或更高版本</p> 
-   <p>或</p>
-   <p>当前： [!UICONTROL Request]或更高版本</p>
+   <p>参与者或更高版本</p> 
+   <p>请求或更高版本</p>
    </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
@@ -67,15 +64,15 @@ ht-degree: 0%
    <table style="table-layout:auto"> 
     <tbody> 
      <tr> 
-      <td><strong>[!UICONTROL 迭代名称]</strong></td> 
+      <td><strong>[！UICONTROL迭代名称]</strong></td> 
       <td>迭代的名称，如“Sprint 1”。</td> 
      </tr> 
      <tr> 
-      <td><strong>[!UICONTROL 迭代长度]</strong></td> 
+      <td><strong>[！UICONTROL迭代长度]</strong></td> 
       <td>迭代的长度，以天、周或月为单位。</td> 
      </tr>
      <tr> 
-      <td><strong>[!UICONTROL 开始日期]</strong></td> 
+      <td><strong>[！UICONTROL开始日期]</strong></td> 
       <td>迭代开始的日期。 根据迭代长度自动输入结束日期。</td> 
      </tr> 
     </tbody> 

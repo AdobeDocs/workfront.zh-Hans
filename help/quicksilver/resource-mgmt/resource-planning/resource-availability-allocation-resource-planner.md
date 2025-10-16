@@ -6,9 +6,9 @@ description: 您可以在资源规划者中查看资源的可用性以及项目�
 author: Lisa
 feature: Resource Management
 exl-id: 5b3e52a6-af9b-4e68-8d6e-43a5151a2a2c
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1199'
 ht-degree: 4%
 
 ---
@@ -21,26 +21,21 @@ ht-degree: 4%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-   <td><p>新建：任何</p>
-       <p>或</p>
-       <p>当前： Pro或更高版本</p> </td> 
+  <tr>
+   <td>Adobe Workfront包</td> 
+   <td><p>任何</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td><p>新增：浅色或更高</p>
-       <p>或</p>
-       <p>当前：审阅或更高版本</p></td>
+   <td>Adobe Workfront许可证</td> 
+   <td><p>浅色或更高</p>
+       <p>审核或更高</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
+   <td>访问级别配置</td> 
    <td> <p>查看以下内容或更高访问权限：</p> 
     <ul> 
      <li> <p>资源管理</p> </li> 
@@ -50,13 +45,13 @@ ht-degree: 4%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">对象权限</td> 
+   <td>对象权限</td> 
    <td> <p>查看您想在资源规划者中查看的项目或授予更高的权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -199,7 +194,7 @@ ht-degree: 4%
 
 1. 转到资源规划者。
 
-   有关访问资源规划者的详细信息，请参阅文章[资源规划者概述](../../resource-mgmt/resource-planning/get-started-resource-planner.md)中的[找到资源规划者](../../resource-mgmt/resource-planning/get-started-resource-planner.md#accessing-the-resource-planner)部分。
+   有关访问资源规划者的详细信息，请参阅文章[资源规划者概述](../../resource-mgmt/resource-planning/get-started-resource-planner.md#accessing-the-resource-planner)中的[找到资源规划者](../../resource-mgmt/resource-planning/get-started-resource-planner.md)部分。
 
 1. 选择&#x200B;**按用户查看**。
 

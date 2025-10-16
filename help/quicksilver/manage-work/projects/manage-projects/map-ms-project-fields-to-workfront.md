@@ -6,10 +6,10 @@ description: Adobe Workfront中的项目与Microsoft项目中的项目通常兼�
 author: Alina
 feature: Work Management
 exl-id: 381eb6ad-8084-406b-90f9-44460b58a04c
-source-git-commit: c566eb094e96abca6073554433434822c567bc34
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
 source-wordcount: '396'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -59,7 +59,7 @@ Adobe Workfront中的项目与Microsoft项目中的项目通常兼容。 使用�
 * Workfront注释
 * 问题
 * 具有开始/完成前置任务关系的任务中的负延迟（导入的任务没有延迟）
-* 分配
+* 任务
 * 任务限制
 
   >[!NOTE]

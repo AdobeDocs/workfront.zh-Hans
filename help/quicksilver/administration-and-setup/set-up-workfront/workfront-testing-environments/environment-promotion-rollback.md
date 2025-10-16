@@ -10,10 +10,10 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 70f7e2a8-bb27-4546-afb7-53e0eec30bf1
-source-git-commit: 7e15301dae4b761d19c85a3581bfdb4540ed40fd
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 1%
+source-wordcount: '384'
+ht-degree: 0%
 
 ---
 
@@ -31,26 +31,26 @@ ht-degree: 1%
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront]计划</strong>
+   <td>Adobe Workfront包
    </td>
-   <td> <p>新增：Prime或Ultimate</p><p>或</p><p>当前：不可用</p>
+   <td> <p>Prime或Ultimate</p>
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront]个许可证</strong>
+   <td><strong>Workfront许可证</strong>
    </td>
-   <td> <p>[!UICONTROL 标准版]</p><p>或</p><p>当前：不可用</p>
+   <td> <p>标准</p>&gt;
    </td>
   </tr>
    <tr>
    <td>访问级别配置
    </td>
-   <td>您必须是[!DNL Workfront]管理员。
+   <td><p>您必须是Workfront管理员。</p>
    </td>
   </tr>
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 先决条件
 

@@ -6,10 +6,10 @@ description: 您可以与其他用户共享您有权查看的筛选器、视图�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1178'
-ht-degree: 1%
+source-wordcount: '1170'
+ht-degree: 2%
 
 ---
 
@@ -30,49 +30,43 @@ ht-degree: 1%
 
 有关如何创建过滤器、视图或分组的信息，请参阅以下文章：
 
-* [筛选器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [过滤器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * 在Adobe Workfront中[查看概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Adobe Workfront中的分组概述](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront计划*</strong></td> 
-   <td> <p>任何 </p> </td> 
+   <td role="rowheader">Adobe Workfront包</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront许可证*</strong></td> 
+   <td role="rowheader">Adobe Workfront许可证</strong></td> 
    <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>参与者或更高版本</p></li>
-         </ul>
-      <p>当前：</p>
-         <ul>
-         <li><p>请求或更高版本</p></li>
-         </ul>
+    <p>参与者或更高版本</p>
+    <p>请求或更高版本</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>查看或更高权限的“筛选器”、“视图”、“分组”</p></td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>查看或更高权限的“筛选器”、“视图”、“分组”</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>对象权限</strong></td> 
-   <td><p>查看权限或更高权限可共享到视图、筛选器或分组</p></td> 
+   <td role="rowheader">对象权限</td> 
+    <td> <p>查看权限或更高权限可共享到视图、筛选器或分组</p></td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -136,7 +130,7 @@ ht-degree: 1%
 
 1. （可选）通过执行以下操作之一，启用或禁用实体的其他权限：
 
-   1. 单击&#x200B;**查看**&#x200B;并禁用&#x200B;**共享**&#x200B;选项。 默认情况下处于启用状态。
+   1. 单击&#x200B;**查看**&#x200B;并禁用&#x200B;**共享**&#x200B;选项。 默认情况下，它处于启用状态。
    1. 单击&#x200B;**管理**&#x200B;并禁用&#x200B;**共享**&#x200B;或&#x200B;**删除**&#x200B;选项。 默认情况下启用它们。
 
       >[!NOTE]
@@ -180,12 +174,12 @@ ht-degree: 1%
    >
    >与组共享会将筛选器、视图或分组的权限授予该组的成员和所有子组的成员。
 
-   **要与系统中的所有用户共享：**&#x200B;请单击“设置”图标&#x200B;**&#x200B;**，然后单击“在系统范围内可见”图标&#x200B;**&#x200B;**。\
+   **要与系统中的所有用户共享：**&#x200B;请单击“设置”图标&#x200B;****，然后单击“在系统范围内可见”图标&#x200B;****。\
    管理员必须选择“共享系统范围”选项才能使用此选项。 有关详细信息，请参阅文章[创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)和[共享报告、功能板和日历](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)。
 
 1. （视情况而定）如果要与个人用户、团队、角色、组或公司共享，请单击下拉菜单以定义要授予的访问权限级别。
 
-   您可以从以下选项中进行选择：
+   您可以从下列选项中进行选择：
 
    <table style="table-layout:auto"> 
     <col> 

@@ -6,9 +6,9 @@ description: 收藏夹菜单允许您快速访问项目。 项目会保留在“
 feature: Get Started with Workfront
 author: Courtney
 exl-id: bf9dc447-751c-4802-9e6a-ecd31538dba4
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,6 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -32,15 +30,14 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
    <td> <p>
-      <p>新文档：参与者或更高版本<p>
-      <p>或</p>
-      <p>当前：请求或更高版本</p> </td> 
+      <p>参与者或更高版本<p>
+      <p>请求或更高版本</td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +50,7 @@ ht-degree: 0%
 
 要查看您之前添加为收藏的项目：
 
-1. 单击任何[!DNL Adobe Workfront]页面右上角的&#x200B;**[!UICONTROL 收藏夹]**&#x200B;图标![收藏夹图标](assets/favorites-icon.png)。
+1. 单击任何&#x200B;**[!UICONTROL 页面右上角的]**&#x200B;收藏夹![图标](assets/favorites-icon.png)收藏夹图标[!DNL Adobe Workfront]。
 
 1. 在&#x200B;**收藏夹**&#x200B;列表中，单击要查看的项目。
 
@@ -66,7 +63,7 @@ ht-degree: 0%
 
 ### 将最近的项目添加为收藏
 
-1. 单击新[!DNL Adobe Workfront]体验中任何页面右上角的&#x200B;**[!UICONTROL 最近]**&#x200B;图标![最近](assets/recents-icon-40x43.png)。
+1. 单击新&#x200B;**[!UICONTROL 体验中任何页面右上角的]**&#x200B;最近![图标](assets/recents-icon-40x43.png)最近[!DNL Adobe Workfront]。
 1. 单击与要另存为收藏的项目对应的星标。 最近的项目显示在&#x200B;**收藏夹**&#x200B;菜单中。
 
    ![收藏最近的项目](assets/recents-section.png)
@@ -85,7 +82,7 @@ ht-degree: 0%
 
 ## 从[!UICONTROL 收藏夹]菜单删除项目
 
-1. 单击任何[!DNL Workfront]页面右上角的&#x200B;**[!UICONTROL 收藏夹]**&#x200B;图标![收藏夹图标](assets/favorites-icon.png)。
+1. 单击任何&#x200B;**[!UICONTROL 页面右上角的]**&#x200B;收藏夹![图标](assets/favorites-icon.png)收藏夹图标[!DNL Workfront]。
 
 1. 将鼠标悬停在要删除作为收藏项的项上，然后单击其旁边的&#x200B;**X**。
 

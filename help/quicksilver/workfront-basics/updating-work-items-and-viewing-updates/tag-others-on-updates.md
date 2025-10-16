@@ -6,9 +6,9 @@ description: 在Adobe Workfront对象上提供更新注释时，项目中的所�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '955'
 ht-degree: 0%
 
 ---
@@ -57,35 +57,65 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。 
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront计划</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront包</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront许可证*</strong></td> 
-   <td> <p>新文档：问题和文档的参与者或更高版本；所有其他对象的轻量级或更高版本</p>
-   <p>当前：对问题和文档的请求或更高版本；对所有其他对象的审阅或更高版本</p> </td> 
-  </tr> 
-  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront许可证</strong></td> 
+   <td> <p>对于问题和文档：</p>
+
+<ul><li><p>参与者或更高版本</p></li>
+   <li><p>请求或更高版本</p></li></ul>
+
+<p>对于所有其他对象：</p>
+   <ul><li><p>浅色或更高</p></li>
+   <li><p>审核或更高</p></li></ul>
+
+</td>  
+  </tr>
    <td role="rowheader"><strong>访问级别配置</strong></td> 
-   <td> <p>查看您要在其中发布回复的对象或对其拥有更高的访问权限</p> </td> 
+   <td> <p>查看或拥有对要为其标记用户的对象的更高访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>查看您想发布回复的对象或对其拥有更高权限</p> </td> 
+   <td> <p>查看要为其标记用户的对象的或更高权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关详细信息，请参阅Workfront文档的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td> <p>New: Contributor or higher for issues and documents; Light or higher for all other objects</p>
+   <p>Current: Request or higher for issues and documents; Review or higher for all other objects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Access level configuration</strong></td> 
+   <td> <p>View or higher access to the objects where you want to post the reply</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Object permission</strong></td> 
+   <td> <p>View or higher permissions to the objects where you want to post the reply</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 为其他人标记更新
 
@@ -118,7 +148,9 @@ ht-degree: 0%
 
    ![标记用户](assets/tag-others-unified-commenting-with-all-tab.png)
 
-1. （可选）要将更新设为私有，请在更新框的右下角启用&#x200B;**我的公司私有**。 这将使更新仅对您公司中的用户可见。 **私有到我的公司**&#x200B;选项仅在您的Workfront配置文件中指定了公司时才可用。
+1. （可选）要将更新设为私有，请在更新框的右下角启用&#x200B;**我的公司私有**。 这将使更新仅对您公司中的用户可见。
+
+   **私有到我的公司**&#x200B;选项仅在您的Workfront配置文件中指定了公司时才可用。
 
    >[!NOTE]
    >

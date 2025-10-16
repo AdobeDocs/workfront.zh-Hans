@@ -5,9 +5,9 @@ description: 应用程序内通知可让您随时了解以下两种类型的信�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c5da114-33cc-422b-84f4-67bc7fcd67c6
-source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
+source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## 访问要求
 
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,17 +37,21 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 包</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[!UICONTROL Request]或更高版本</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证</strong></td> 
+   <td> 
+   <p>参与者或更高版本</p>
+   <p>请求或更高版本</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有什么计划或许可证类型，请与[!DNL Workfront]管理员联系。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 查看通知
 
@@ -55,9 +59,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您可以从Web应用程序和移动应用程序中查看所有应用程序内通知。 在移动应用程序中，只有其中的一些通知会作为推送通知发送。 有关移动应用中的通知的更多信息，请参阅iOS的[[!DNL Adobe Workfront] &#x200B;](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)或Android的[[!DNL Adobe Workfront] &#x200B;](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)。
+>您可以从Web应用程序和移动应用程序中查看所有应用程序内通知。 在移动应用程序中，只有其中的一些通知会作为推送通知发送。 有关移动应用中的通知的更多信息，请参阅iOS的[[!DNL Adobe Workfront] ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)或Android的[[!DNL Adobe Workfront] ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)。
 
-1. 单击[!DNL Workfront]右上角的编号图标![通知图标](assets/notifications-icon-jewel.jpg)打开您的通知列表。
+1. 单击![右上角的编号图标](assets/notifications-icon-jewel.jpg)通知图标[!DNL Workfront]打开您的通知列表。
 
    最近的未读通知显示在编号图标的下方，最近的未读通知显示在顶部。
 
@@ -111,7 +115,7 @@ ht-degree: 0%
 
 要确认通知并从“通知”列表中清除通知，请执行以下操作：
 
-1. 单击[!DNL Workfront]右上角的编号图标![通知图标](assets/notifications-icon-jewel.jpg)打开您的通知列表。
+1. 单击![右上角的编号图标](assets/notifications-icon-jewel.jpg)通知图标[!DNL Workfront]打开您的通知列表。
 1. 执行下列操作之一：
 
    * 单击通知左上角的蓝色圆点。
@@ -123,7 +127,7 @@ ht-degree: 0%
 
 要查看您已确认的通知，请执行以下操作：
 
-1. 单击[!DNL Workfront]右上角的编号图标![通知图标](assets/notifications-icon-jewel.jpg)打开您的通知列表。
+1. 单击![右上角的编号图标](assets/notifications-icon-jewel.jpg)通知图标[!DNL Workfront]打开您的通知列表。
 1. 单击通知列表右下角的&#x200B;**[!UICONTROL 所有通知]**。
 1. 在显示的&#x200B;**[!UICONTROL 通知]**&#x200B;页面上，向下滚动以查看过去的通知。
 1. （可选）要将已确认的通知返回到您的通知列表，请单击通知旁边的蓝色圆圈。
@@ -139,7 +143,7 @@ ht-degree: 0%
 
 ### 删除公告
 
-1. 单击[!DNL Workfront]右上角的编号图标![通知图标](assets/notifications-icon-jewel.jpg)打开您的通知列表。
+1. 单击![右上角的编号图标](assets/notifications-icon-jewel.jpg)通知图标[!DNL Workfront]打开您的通知列表。
 1. 单击&#x200B;**[!UICONTROL 公告]**&#x200B;或&#x200B;**[!UICONTROL 查看所有公告]**。
 
 1. 在显示的&#x200B;**[!DNL Announcements]**&#x200B;页面上，单击左侧列表中要删除的公告，然后单击页面右上角的&#x200B;**[!UICONTROL 删除]**。
@@ -148,7 +152,7 @@ ht-degree: 0%
 
 您可以访问过去30天内删除的通知。
 
-1. 单击[!DNL Workfront]右上角的编号图标![通知图标](assets/notifications-icon-jewel.jpg)打开您的通知列表。
+1. 单击![右上角的编号图标](assets/notifications-icon-jewel.jpg)通知图标[!DNL Workfront]打开您的通知列表。
 1. 单击&#x200B;**[!UICONTROL 公告]**&#x200B;或&#x200B;**[!UICONTROL 查看所有公告]**。
 
 1. 在显示的&#x200B;**[!UICONTROL 公告]**&#x200B;页面中，单击&#x200B;**[!UICONTROL 已删除]**。

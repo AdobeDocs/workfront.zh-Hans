@@ -6,9 +6,9 @@ description: Portfolio或项目Portfolio管理(PPM)是对项目列表进行优�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 26fb28ce-0957-4db6-a275-174b1d149180
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '648'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 Portfolio或项目Portfolio管理(PPM)是对项目列表进行优先级划分和管理以实现特定业务目标的过程。
 
-本文介绍了项目组合管理的一般概念。 有关Adobe Workfront中项目组合管理的一般信息，请参阅Adobe Workfront中的[Portfolio概述](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-overview.md)。
+本文介绍了项目组合管理的一般概念。 有关Adobe Workfront中投资组合管理的一般信息，请参阅[了解投资组合方法](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-overview.md)。
 
 项目组合是指具有共同业务目标的项目的集合。 有效的PPM方法的结果使执行官能够：
 
@@ -63,7 +63,7 @@ Portfolio或项目Portfolio管理(PPM)是对项目列表进行优先级划分和
 
 提交项目请求后，Portfolio经理或执行团队会对其进行审核，并决定是否批准项目。 如果他们批准该项目，则为公司项目Portfolio选择该项目。
 
-有关项目组合的详细信息，请参阅 [!DNL Adobe Workfront][&#128279;](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)中的Portfolio概述。 有关批准业务案例的详细信息，请参阅[批准业务案例](../../../manage-work/projects/define-a-business-case/approve-business-case.md)。
+有关项目组合的详细信息，请参阅[了解项目组合方法](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)。 有关批准业务案例的详细信息，请参阅[批准业务案例](../../../manage-work/projects/define-a-business-case/approve-business-case.md)。
 
 ### 项目组合的最优化 {#portfolio-optimization}
 

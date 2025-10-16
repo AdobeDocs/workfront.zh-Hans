@@ -6,35 +6,39 @@ description: 您可以在Adobe Workfront中将Slack注释作为特定项目、�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 18b22f2c-2490-41e2-afb9-0551f9579973
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 0%
+source-wordcount: '279'
+ht-degree: 1%
 
 ---
 
 # 将[!DNL Slack]评论作为更新发布
 
-您可以在[!DNL Adobe Workfront]中将[!DNL Slack]注释作为特定项目、任务或问题的更新添加。
+您可以在[!DNL Slack]中将[!DNL Adobe Workfront]注释作为特定项目、任务或问题的更新添加。
 
 ## 访问要求
 
-您必须具备以下条件：
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/cn/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront]计划]</a>*</td> 
-   <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront包</td> 
+   <td> <p>任何</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p>任何</p>
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。\
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先决条件
 
@@ -43,7 +47,7 @@ ht-degree: 0%
 * 配置[!DNL Workfront for Slack]\
    有关配置[!DNL Workfront for Slack]的说明，请参阅[配置 [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)。
 
-## 在[!DNL Workfront]中发布[!DNL Slack]评论作为更新
+## 在[!DNL Slack]中发布[!DNL Workfront]评论作为更新
 
 1. 将鼠标悬停在您在[!DNL Slack]渠道中添加的评论上，然后单击&#x200B;**[!UICONTROL 更多操作]** （三个点）图标。
 
@@ -62,6 +66,6 @@ ht-degree: 0%
 
 1. （可选）单击发布更新的项目、任务或问题的名称，以在[!DNL Workfront]中访问该更新。
 
-   当评论源自[!DNL Slack]时，评论在[!DNL Workfront]中显示消息“[!UICONTROL 发帖自[!DNL Slack]]”。
+   当评论源自[!DNL Slack]时，评论在[!UICONTROL 中显示消息“[!DNL Slack]]发帖自[!DNL Workfront]”。
 
    从Slack发布了![更新](assets/slack-update-posted-from-slack-350x112.png)

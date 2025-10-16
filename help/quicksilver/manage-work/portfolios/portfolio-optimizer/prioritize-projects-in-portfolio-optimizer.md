@@ -6,9 +6,9 @@ description: 您可以在Portfolio Optimizer中安排项目的优先顺序，以
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 54e33746-5995-49de-8e21-bf973f0694a6
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -28,36 +28,34 @@ ht-degree: 0%
 
   有关在[!UICONTROL 资源规划程序]中排列项目优先顺序的信息，请参阅文章[在[!UICONTROL 资源规划程序]](../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md)中排列项目优先顺序。
 
-* 默认情况下，[!UICONTROL Portfolio优化器]的&#x200B;**[!UICONTROL 项目优先顺序]**&#x200B;区域按[!UICONTROL 计划开始日期]和[!UICONTROL 净值]的顺序显示项目。
+* 默认情况下，**[!UICONTROL Portfolio优化器]**&#x200B;的[!UICONTROL 项目优先顺序]区域按[!UICONTROL 计划开始日期]和[!UICONTROL 净值]的顺序显示项目。
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
-   <td> <p>任何 </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 包</td> 
+   <td> <p>Workfront Prime或更高版本</p>
+      <p>工作流Prime或更高版本</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>新增：标准</p>
-   <p>当前：计划</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
+   <td> <p>[！UICONTROL标准版]</p>
+   <p>[！UICONTROL计划]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>[!UICONTROL Edit]对项目和项目组合的访问权限</p></td> 
-  </tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>[！UICONTROL Edit]对[！UICONTROL项目组合]和[！UICONTROL项目]的访问权限</p>  </td>
+</tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>项目组合的[!UICONTROL Manage]权限</p> <p>为项目分配或更高权限</p> 
-   <p>您必须对列表中的所有项目具有管理权限，才能使用<b>设置项目优先级</b>。</p>
-    </td> 
+   <td> <p>项目组合的[！UICONTROL Manage]权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,6 +63,34 @@ ht-degree: 0%
 *有关信息，请参阅Workfront文档的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront licenses*</td> 
+   <td> <p>New: Standard</p>
+   <p>Current: Plan</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>[!UICONTROL Edit] access to Projects and Portfolios</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions to the portfolio</p> <p>Contribute or higher permissions to the projects</p> 
+   <p>You must have Manage permissions to all the projects in the list to be able to use <b>Set project priority</b>.</p>
+    </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 更改[!UICONTROL Portfolio优化器]中项目的优先级
 
@@ -86,6 +112,6 @@ ht-degree: 0%
    >
    >这不一定会更改[!UICONTROL Portfolio优化器]中项目的顺序，因为项目列表可能会按&#x200B;**#**&#x200B;列以外的列排序。 单击&#x200B;**#**&#x200B;列标题可按项目优先级对列表进行排序。
 
-   通过启用资源规划者中的&#x200B;**[!UICONTROL 显示Portfolio优先级]**&#x200B;设置，您可以看到项目在资源规划者的[!UICONTROL Portfolio优化器]中的优先级。
+   通过启用资源规划者中的[!UICONTROL 显示Portfolio优先级]设置，您可以看到项目在资源规划者的&#x200B;**[!UICONTROL Portfolio优化器]**&#x200B;中的优先级。
 
    有关在[!UICONTROL 资源规划程序]中排列项目优先顺序的信息，请参阅文章[在[!UICONTROL 资源规划程序]](../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md)中排列项目优先顺序。

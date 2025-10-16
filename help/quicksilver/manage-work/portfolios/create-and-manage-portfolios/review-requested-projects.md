@@ -6,16 +6,16 @@ description: 在Adobe Workfront中，项目请求显示为状态为[!UICONTROL �
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1acfb885-0da3-495d-ba66-e80e339e90de
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
 
 # 审核请求的项目
 
-当有多个项目请求被提交审查时，项目管理办公室或项目组合委员会可以开会审查提交的请求，确定项目请求的批准。 项目请求在[!DNL Adobe Workfront]中显示为状态为[!UICONTROL 已请求]的项目。
+当有多个项目请求被提交审查时，项目管理办公室或项目组合委员会可以开会审查提交的请求，确定项目请求的批准。 项目请求在[!UICONTROL 中显示为状态为]已请求[!DNL Adobe Workfront]的项目。
 
 您可以通过执行以下操作之一来提交项目请求以供审阅：
 
@@ -30,29 +30,28 @@ ht-degree: 0%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 包</td> 
    <td><p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[!UICONTROL 计划] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
+   <td> <p>[！UICONTROL标准版] </p> 
+   <p>[！UICONTROL计划]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>对项目组合的[!UICONTROL 视图]或更高访问权限</p> <p>[!UICONTROL Edit]对项目的访问权限</p>  </td> 
+   <td> <p>对项目组合的[！UICONTROL视图]或更高访问权限</p> <p>[！UICONTROL Edit]对项目的访问权限</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>项目组合上的[!UICONTROL View]权限或更高版本</p> <p>[!UICONTROL Manage]对项目的权限以更新其状态</p>  </td> 
+   <td> <p>项目组合上的[！UICONTROL View]权限或更高版本</p> <p>[！UICONTROL Manage]对项目的权限以更新其状态</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,11 +60,36 @@ ht-degree: 0%
 
 +++
 
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td><p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>[!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL View] access or higher to Portfolios</p> <p>[!UICONTROL Edit] access to Projects</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL View] permissions or higher on the portfolio</p> <p>[!UICONTROL Manage] permissions on the projects to update their status</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
+
 ## 在项目报告中查看请求的项目
 
 您可以生成项目报告，以查看哪些项目的状态为[!UICONTROL 已请求]。
 
-有关通过生成项目报告来批准项目请求的更多信息，请参阅[批准业务案例](../../../manage-work/projects/define-a-business-case/approve-business-case.md)中的[[!UICONTROL 通过生成项目报告来批准业务案例]](../../../manage-work/projects/define-a-business-case/approve-business-case.md#build-a-report)部分。 
+有关通过生成项目报告来批准项目请求的更多信息，请参阅[[!UICONTROL 批准业务案例]](../../../manage-work/projects/define-a-business-case/approve-business-case.md#build-a-report)中的[通过生成项目报告来批准业务案例](../../../manage-work/projects/define-a-business-case/approve-business-case.md)部分。 
 
 ## 查看项目组合中请求的项目
 
@@ -83,7 +107,7 @@ ht-degree: 0%
 1. 单击左侧面板中的&#x200B;**[!UICONTROL 项目详细信息]**。
 1. 执行以下任一操作：
 
-   * 单击&#x200B;**[!UICONTROL 业务案例]**，然后单击[!UICONTROL 业务案例摘要]区域中的&#x200B;**[!UICONTROL 批准]**&#x200B;或&#x200B;**[!UICONTROL 拒绝]**&#x200B;以批准或拒绝业务案例。
+   * 单击&#x200B;**[!UICONTROL 业务案例]**，然后单击&#x200B;**[!UICONTROL 业务案例摘要]**&#x200B;区域中的&#x200B;**[!UICONTROL 批准]**&#x200B;或[!UICONTROL 拒绝]以批准或拒绝业务案例。
 
      ![approve_or_reject_business_case.png](assets/approve-or-reject-business-case-350x563.png)
 

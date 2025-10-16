@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
+source-git-commit: 46e072d40cc881c3a903c8fd51475dc185f1f849
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 0%
@@ -53,11 +53,11 @@ Workfront使用特定的IP地址和域进行Web通信。 必须将这些组件�
   </tr> 
   <tr> 
    <td role="rowheader">您的群集</td> 
-   <td>要找到组织的群集，请参阅<a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">查看组织的群集和Workfront计划</a>。</td> 
+   <td>要找到组织的群集，请参阅<a href="#view-your-organization-s-cluster-and-workfront-package" class="MCXref xref">查看组织的群集和Workfront包</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">您的Workfront计划</td> 
-   <td> <p>要查找贵组织的计划，请参阅<a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">查看贵组织的群集和Workfront计划。</a></p> </td> 
+   <td role="rowheader">您的Workfront包</td> 
+   <td> <p>要找到您组织的包，请参阅<a href="#view-your-organization-s-cluster-and-workfront-package" class="MCXref xref">查看您组织的群集和Workfront包。</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">您的域</td> 
@@ -93,7 +93,7 @@ Workfront使用特定的IP地址和域进行Web通信。 必须将这些组件�
 >
 >如果以后添加这些产品、集成或功能，则必须联系网络管理员，以便他们调整允许列表。
 
-### 查看贵组织的集群和Workfront计划 {#view-your-organization-s-cluster-and-workfront-plan}
+### 查看贵组织的群集和Workfront包 {#view-your-organization-s-cluster-and-workfront-package}
 
 {{step-1-to-setup}}
 
@@ -104,8 +104,8 @@ Workfront使用特定的IP地址和域进行Web通信。 必须将这些组件�
 
    ![查找群集](assets/locate-cluster.png)
 
-1. 要查看您的Workfront计划，请选择&#x200B;**许可证**。
+1. 要查看您的Workfront包，请选择&#x200B;**许可证**。
 
-   您的计划将显示在页面的右上角附近。
+   您的包将显示在页面的右上角附近。
 
    ![查找计划](assets/locate-plan.png)

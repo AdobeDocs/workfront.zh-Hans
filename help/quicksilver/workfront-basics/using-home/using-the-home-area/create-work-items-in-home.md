@@ -6,9 +6,9 @@ description: 您可以从[!UICONTROL 主页]区域创建工作项和项目。
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: e3e297bc548338032bc8f321ad3e1214be9cdee4
+source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '816'
 ht-degree: 2%
 
 ---
@@ -27,39 +27,36 @@ ht-degree: 2%
 
 +++ 展开以查看本文中各项功能的访问要求。 
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证</strong></td> 
    <td>
-    <p>新文档： [!UICONTROL Standard]</p> 
-    <p>当前： [!UICONTROL Work]或更高版本</p> </td> 
+    <p>标准</p> 
+    <p>工作或更高</p> </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>[!UICONTROL Worker]</p> <p><b>注释</b></p> 
-   <p>如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何修改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+    <tr> 
+   <td role="rowheader"><strong>访问级别配置</strong></td> 
+   <td> <p>查看或编辑更新所在对象的访问权限</p> </td> 
+  </tr> 
+   <tr> 
+   <td role="rowheader"><strong>其他产品</strong></td> 
+   <td>您必须拥有Adobe Workfront Planning才能查看Planning请求或请求表单</td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>[!UICONTROL Edit]或更高版本对任务的访问权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Product]</strong></td> 
-   <td> <ul><li>Adobe Workfront</li><li>您必须拥有Adobe Workfront Planning才能查看Planning请求或请求表单</td> 
+   <td> <p>[！UICONTROL Edit]或更高版本对任务的访问权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

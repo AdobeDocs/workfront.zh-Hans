@@ -2,12 +2,12 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: '任务限制概述：固定日期'
+title: 任务限制概览：固定日期
 description: 当您想要明确了解任务的确切开始日期和结束日期时，可以使用固定日期任务限制。 有关任务限制的详细信息，请参阅任务限制概述。
 author: Alina
 feature: Work Management
 exl-id: 084f54a6-e757-405c-b388-5d5f61608e71
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%

@@ -7,9 +7,9 @@ description: 您可以使用校对查看器比较两个不同的校对或同一�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 515562f6-ed19-446c-8f8c-4ad5f07e6d11
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '284'
 ht-degree: 2%
 
 ---
@@ -22,32 +22,34 @@ ht-degree: 2%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>当前计划：专业版或更高版本</p> <p>或</p> <p>旧版计划：选择或Premium</p> <p>有关使用其他计划进行验证访问的更多信息，请参阅<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">访问Workfront中的验证功能</a>。</p> </td> 
+   <td role="rowheader">Adobe Workfront包</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>当前计划：复查</p> <p>旧版计划：审核</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p>任何</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">验证角色 </td> 
+   <td>审阅人、审阅人和审批人、作者、审查方</td> 
   </tr> 
   <tr> 
    <td role="rowheader">校样权限配置文件 </td> 
    <td>经理或更高版本</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对文档的访问权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑对文档的访问权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、角色或验证权限配置文件，请联系您的Workfront或Workfront Proof管理员。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -76,8 +78,8 @@ ht-degree: 2%
 
    ![比较校样痕迹导航](assets/compare-proofs-breadcrumbs-350x148.jpg)
 
-   有关可用于比较两个校样的工具的信息，请参见  [在验证查看者](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)的[比较验证中使用比较工具](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#using-compare-tools)。
+   有关可用于比较两个校样的工具的信息，请参见  [在验证查看者](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#using-compare-tools)的[比较验证中使用比较工具](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)。
 
 ## 比较同一校对的两个版本
 
-有关比较同一校对的两个版本的信息，请参阅[在校对查看器中比较校对](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)中的[比较校对版本](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#comparing-proof-versions)。
+有关比较同一校对的两个版本的信息，请参阅[在校对查看器中比较校对](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#comparing-proof-versions)中的[比较校对版本](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)。

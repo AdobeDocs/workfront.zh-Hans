@@ -7,9 +7,9 @@ description: Scenario Planner需要独立于Adobe Workfront的许可证和附加
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 1b06589a705cf218239ff1273b865c05e4ceb96f
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -18,101 +18,107 @@ ht-degree: 0%
 
 <!--Audited: 04/2024-->
 
-[!DNL Scenario Planner]具有额外的许可证要求。 有关[!DNL Workfront Scenario Planner]的信息，请参阅[概述 [!DNL Scenario Planner] &#x200B;](../scenario-planner/scenario-planner-overview.md)。
+<!--The [!DNL Scenario Planner] has additional license requirements. For information about the [!DNL Workfront Scenario Planner], see [The [!DNL Scenario Planner] overview](../scenario-planner/scenario-planner-overview.md).-->
 
 <!--
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
 -->
 
-如果没有正确的访问权限或权限，您可能无法查看[!DNL &#x200B; Adobe Workfront]的[!UICONTROL 方案]区域，也无法管理组织的计划或计划。 管理计划和计划包括创建、编辑和删除它们。
+如果没有正确的访问权限或权限，您可能无法查看[!UICONTROL 的]方案[!DNL  Adobe Workfront]区域，也无法管理组织的计划或计划。 管理计划和计划包括创建、编辑和删除它们。
 
 ## 查看和使用[!DNL Adobe Workfront Scenario Planner]所需的访问权限
 
 在访问[!DNL Workfront Scenario Planner]之前，必须确保满足以下所有条件：
 
-1. 您的组织必须具有如下所述的Workfront计划之一。
+1. 您的组织必须具有Workfront Ultimate包。
 
-   根据您使用的是新计划还是当前Workfront计划，您的组织必须具有以下任一项：
+   Scenario Planner不适用于Workfront Workflow包。
 
-   * 对于新计划，您的组织必须具有[!UICONTROL Ultimate] [!DNL Workfront]计划。 Scenario Planner仅包含在[!UICONTROL Ultimate]计划中。
+   如果您当前正在续订Workfront，并且想要保留Scenario Planner，请与您的Workfront客户代表联系。
 
-   * 对于当前的Workfront计划，您的组织必须同时具备以下两个条件：
+   如果您是新客户，则无法再购买Scenario Planner。
 
-      * 您的组织必须购买[!DNL Workfront] [!UICONTROL 业务]或更高版本[!DNL Workfront]计划。
+   <!--Old: 
+    Depending on whether you use the new or the current Workfront plan, your organization must have one of the following:
+    * For the new plans, your organization must have the  [!UICONTROL Ultimate] [!DNL Workfront] plan. The Scenario Planner is included only in the [!UICONTROL Ultimate] plan. 
+    * For the current Workfront plans, your organization must have both of the following: 
+      * Your organization must purchase a [!DNL Workfront] [!UICONTROL Business] or higher [!DNL Workfront] plan. 
+      
+      * Your organization must purchase a [!DNL Workfront Scenario Planner] license, in addition to a [!DNL Workfront] license. Contact your [!DNL Workfront] Account Representative to learn about [!DNL Workfront Scenario Planner] licenses. -->
 
-      * 除了购买[!DNL Workfront]许可证外，您的组织还必须购买[!DNL Workfront Scenario Planner]许可证。 请联系您的[!DNL Workfront]客户代表以了解[!DNL Workfront Scenario Planner]许可证。
+1. 您必须拥有以下Workfront许可证之一：
 
-1. 您必须拥有如下所述的Workfront许可证之一。
+   * [!UICONTROL 轻]或更高
+   * [!UICONTROL 审阅者]或更高版本
 
-   根据您使用新许可证还是当前许可证，[!DNL Workfront]管理员必须为您分配以下任意类型的许可证：
+   <!--Old: 
+      * For the current licenses: 
+        * [!UICONTROL Plan]
+        * [!UICONTROL Work]
+        * [!UICONTROL Review]-->
+   <!--Old: 
+      >[!NOTE]
+      > 
+      >* When using the new licenses, users with a [!UICONTROL Contributor] or [!UICONTROL External] license type cannot access the [!DNL Scenario Planner].
+      >
+      >* When using the current licenses, users with a Request or External license type cannot access the Scenario Planner. -->
 
-   * 对于新许可证：
-      * [!UICONTROL 标准]
-      * [!UICONTROL 亮]
-
-   * 对于当前许可证：
-
-      * [!UICONTROL 计划]
-      * [!UICONTROL 工作]
-      * [!UICONTROL 审核]
-
-   >[!NOTE]
-   > 
-   >* 使用新许可证时，具有[!UICONTROL 参与者]或[!UICONTROL 外部]许可证类型的用户无法访问[!DNL Scenario Planner]。
-   >
-   >* 使用当前许可证时，具有“请求”或“外部”许可证类型的用户无法访问Scenario Planner。
-
-1. 您的[!DNL Workfront]管理员必须为您授予访问级别为[!DNL Scenario Planner]的[!UICONTROL 查看]或[!UICONTROL 编辑]访问权限。
+1. 您的[!DNL Workfront]管理员必须为您授予访问级别为[!UICONTROL 的]查看[!UICONTROL 或]编辑[!DNL Scenario Planner]访问权限。
 
    有关授予[!DNL Workfront Scenario Planner]访问权限的信息，请参阅[授予 [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)访问权限。
 
 1. （可选且推荐）要查看或更新计划和计划的财务信息，您的[!DNL Workfront]管理员还必须授予您访问级别为[!UICONTROL 财务数据]的访问权限。 有关在访问级别授予财务数据的信息，请参阅[授予对财务数据的访问权限](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)。
 
-1. （可选）如果您需要访问未创建的计划，则计划创建者必须向您授予其计划的正确权限才能访问它。 有关访问未创建的计划和计划所需的权限的信息，请参阅本文中的[访问计划和计划所需的权限](#permissions-needed-to-access-plans-and-initiatives)部分。
+
+<!--1. (Optional) If you need to access plans you didn't create, a plan creator must give you the correct permissions to their plan to access it. For information about the permissions needed to access plans and initiatives that you didn't create, see the [Permissions needed to access plans and initiatives](#permissions-needed-to-access-plans-and-initiatives) section in this article.-->
 
 <!--this used to be true but not anymore:
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>(NOTE: this is no longer needed) </p> <p>Your Workfront administrator must assign you a layout template that includes the Scenarios area in the Main Menu. </p> <p>For information about customizing the Main Menu in a layout template, see <a href="../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md" class="MCXref xref" xrefformat="{para}">Customize the Main Menu using a layout template</a>. </p> <p>For information about assigning users to a Layout Template, see <a href="../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md" class="MCXref xref" xrefformat="{para}">Assign users to a layout template</a>.</p> </li>
   -->
 
-## 查看计划和计划所需的访问权限
+<!--Repetitive from above?? 
 
-除了您的公司获得[!DNL Workfront Scenario Planner]的正确许可证外，[!DNL Workfront]管理员还必须为您分配以下访问和设置，以便您可以查看[!DNL Workfront Scenario Planner]和此区域中的信息：
+## Access needed to view plans and initiatives
 
-* 对[!DNL Scenario Planner]具有至少[!UICONTROL 查看]访问权限的访问级别。
+In addition to your company acquiring the correct license for the [!DNL Workfront Scenario Planner], your [!DNL Workfront] administrator must also assign you the following access and setup so you can view the [!DNL Workfront Scenario Planner] and the information in this area:
 
-  有关[!DNL Scenario Planner]访问级别的信息，请参阅[授予对 [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)的访问权限。
+* An access level with at least [!UICONTROL View] access to [!DNL Scenario Planner].
 
-* 访问级别至少具有[!UICONTROL 查看]访问[!UICONTROL 财务数据]的权限（如果您还需要查看有关计划和计划的财务信息）。 财务信息的一些示例包括预算、成本或工作角色费率。
+  For information about the access level to [!DNL Scenario Planner], see [Grant access to [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
 
-  有关[!UICONTROL 财务数据]访问级别的信息，请参阅[授予对财务数据的访问权限](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)。
+* An access level with at least [!UICONTROL View] access to [!UICONTROL Financial Data] if you need to also view financial information about the plan and the initiatives. Some examples of financial information are budgets, costs, or job role rates.
 
-  >[!TIP]
-  >
-  >[!UICONTROL 请求者]和[!UICONTROL 外部]用户无权查看[!DNL Scenario Planner]。
-
-* 查看计划的权限。 有关访问未创建的计划和计划所需的权限的信息，请参阅本文中的[访问计划和计划所需的权限](#permissions-needed-to-access-plans-and-initiatives)部分。
-
-## 管理计划和计划所需的访问权限
-
-您的[!DNL Workfront]管理员必须为您分配以下访问权限，以便您可以在[!DNL Scenario Planner]中管理计划及其信息：
-
-* [!UICONTROL 计划]或[!UICONTROL 工作]许可证类型，具有访问级别中[!DNL Scenario Planner]的“编辑”访问权限。
-
-  所有其他许可证类型无权管理计划。
-
-  有关从访问级别授予对[!DNL Scenario Planner]的访问权限的信息，请参阅[授予对 [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)的访问权限。
-
-* 如果还需要更新计划的财务信息，则在您的访问级别具有[!UICONTROL 编辑]访问[!UICONTROL 财务数据]权限的[!UICONTROL 计划]许可证类型。
-
-  您可以编辑的财务信息示例包括[!UICONTROL 预算]、[!UICONTROL 计划收益]和[!UICONTROL 固定成本]。
+  For information about the [!UICONTROL Financial Data] access level, see [Grant access to financial data](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
   >[!TIP]
   >
-  >只有[!UICONTROL 计划]许可证持有人具有[!UICONTROL 编辑]权限，可访问[!UICONTROL 财务数据]。
+  >[!UICONTROL Requestors] and [!UICONTROL External] Users do not have access to view the [!DNL Scenario Planner].
 
-  有关[!UICONTROL 财务数据]访问级别的信息，请参阅[授予对财务数据的访问权限](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)。
+* View permissions to the plan. For information about the permissions needed to access plans and initiatives that you didn't create, see the [Permissions needed to access plans and initiatives](#permissions-needed-to-access-plans-and-initiatives) section in this article.
 
-* 管理您未创建计划的权限。 有关访问未创建的计划和计划所需的权限的信息，请参阅本文中的[访问计划和计划所需的权限](#permissions-needed-to-access-plans-and-initiatives)部分。
+## Access needed to manage plans and initiatives
+
+Your [!DNL Workfront] administrator must assign you the following access so you can manage plans and their information in the [!DNL Scenario Planner]:
+
+* A [!UICONTROL Plan] or [!UICONTROL Work] license type with Edit access to the [!DNL Scenario Planner] in your access level.
+
+  All other license types do not have access to manage plans.
+
+  For information about granting access to [!DNL Scenario Planner] from the Access Level, see [Grant access to [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
+
+* A [!UICONTROL Plan] license type with [!UICONTROL Edit] access to [!UICONTROL Financial Data] in your access level, if you need to also update financial information about the plan.
+
+  Some examples of financial information that you can edit are [!UICONTROL Budget], [!UICONTROL Planned Benefit], and [!UICONTROL Fixed Costs].
+
+  >[!TIP]
+  >
+  >Only [!UICONTROL Plan] license holders have [!UICONTROL Edit] access to [!UICONTROL Financial Data].
+
+  For information about the [!UICONTROL Financial Data] access level, see [Grant access to financial data](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+
+* Manage permissions to a plan that you didn't create. For information about the permissions needed to access plans and initiatives that you didn't create, see the [Permissions needed to access plans and initiatives](#permissions-needed-to-access-plans-and-initiatives) section in this article.
+
+-->
 
 ## 访问计划和计划所需的权限
 

@@ -6,9 +6,9 @@ description: 您可以通过过滤器限制在项目列表中屏幕上显示的�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '2419'
+source-wordcount: '2375'
 ht-degree: 1%
 
 ---
@@ -35,48 +35,35 @@ ht-degree: 1%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront计划*</strong></td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront许可证*</strong></td> 
+   <td role="rowheader">Adobe Workfront许可证</strong></td> 
    <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>修改过滤器的参与者</p></li>
-         <li><p>用于修改报表中过滤器的标准</p></li>
-         </ul>
-      <p>当前：</p>
-         <ul>
-         <li><p>请求修改筛选器</p></li>
-         <li><p>计划修改报告中的筛选器</p></li>
-         </ul>
+    <p>修改过滤器的参与者或请求</p>
+    <p>在报告中修改过滤器的标准或计划</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <ul><li><p>编辑对筛选器、视图和分组的访问权限</p></li></ul>
-
-要在报表中编辑筛选器，除了具有筛选器、视图和分组的编辑访问权限之外，还必须具有以下访问级别配置：
-
-<ul><li><p>编辑对报告、功能板和日历的访问权限</p></li></ul>   
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报告、功能板和日历的访问权限</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>对象权限*</strong></td> 
-   <td> <p>管理筛选器的权限</p></td> 
+   <td role="rowheader">对象权限</td> 
+   <td> <p>管理筛选器的权限</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -131,7 +118,7 @@ ht-degree: 1%
 在使用不同界面创建过滤器时，请考虑以下事项：
 
 * 您可以在上面表格中所列区域的旧版过滤器界面所在的相同位置找到标准生成器。
-* 标准生成器是所有可用区域的默认体验。 若要切换到旧版筛选器生成器，请单击&#x200B;[!UICONTROL **筛选器**]&#x200B;旁边的&#x200B;**更多**&#x200B;菜单，然后选择&#x200B;[!UICONTROL **返回旧版筛选器**]。
+* 标准生成器是所有可用区域的默认体验。 若要切换到旧版筛选器生成器，请单击&#x200B;**筛选器**&#x200B;旁边的&#x200B;[!UICONTROL **更多**]&#x200B;菜单，然后选择&#x200B;[!UICONTROL **返回旧版筛选器**]。
 
   ![返回旧版筛选器](assets/use-legacy-filters.png)
 

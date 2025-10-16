@@ -6,10 +6,10 @@ description: 您可以使用文本模式编辑列表或报表中的分组，以�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
 source-wordcount: '1539'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -25,30 +25,22 @@ ht-degree: 0%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
-
-您必须具备以下条件：
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>标准</p></li>
-         </ul>
-      <p>当前：</p>
-         <ul>
-         <li><p>计划</p></li>
-         </ul>
-   </td>
+     <p>标准</p>
+     <p>规划</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -57,11 +49,11 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">对象权限</td> 
    <td> <p>管理报告的权限以编辑报告中的分组</p> <p>管理群组权限以对其进行编辑</p></td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -195,18 +187,18 @@ ht-degree: 0%
         <li value="1"> <p> 如果显示的字段名称是短语而不是单个名词，则必须使用<code>valuefield</code>的驼峰式大小写语法。 例如，对于任务的计划开始日期，代码为：</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span><code>group.0.valuefield=plannedStartDate</code> </p> </li> 
         <li value="2"> <p>如果要显示自定义字段，则<code>valuefield</code>值是字段的实际名称，如您在界面中所见。 例如，对于名为“更多信息”的自定义字段，代码为：</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span><code>group.0.valuefield=More information</code> </p> </li> 
         <li value="3"> <p>如果要按使用<code>valuefield</code>行代码与其他对象相关的对象进行分组，则对象名称和属性用冒号分隔。</p> <p>例如，按Portfolio名称对任务列表进行分组时，valuefield行具有以下值：</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span><code>group.0.valuefield=project:portfolio:name</code> </p> <p>这表示您可以从报表（任务）的对象访问下一个相关对象（项目）；从那里，您可以从项目（项目组合）访问以下相关对象；然后访问项目组合名称（名称）。</p> </li> 
-       </ol> <p>有关对象如何相互连接的信息，请参阅<a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">了解Adobe Workfront中的对象</a>中的<a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects" class="MCXref xref">对象相互依赖性和层次结构</a>部分。</p> <p>注：如果在文本模式下选择的字段在标准界面中无效，并且切换到标准界面，则会删除该分组。</p> </td> 
+       </ol> <p>有关对象如何相互连接的信息，请参阅<a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects" class="MCXref xref">了解Adobe Workfront中的对象</a>中的<a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">对象相互依赖性和层次结构</a>部分。</p> <p>注：如果在文本模式下选择的字段在标准界面中无效，并且切换到标准界面，则会删除该分组。</p> </td> 
      </tr> 
      <tr> 
       <td><strong>valueformat=</strong> </td> 
-      <td> <p>此行表示用于显示<code>valuefield</code>的格式。 <code>valueformat</code>标识对象或字段是显示为文本、数字、百分比还是日期。</p> <p>我们建议对您的<code>valueformat</code>使用<code>HTML</code>，特别是在使用<code>valueexpression</code>时，以确保最准确地显示您的信息。</p> <p>有关此行的其他值的信息，请参阅<a href="../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md" class="MCXref xref">在文本模式下使用条件格式</a>。</p> </td> 
+      <td> <p>此行表示用于显示<code>valuefield</code>的格式。 <code>valueformat</code>标识对象或字段是显示为文本、数字、百分比还是日期。</p> <p>我们建议对您的<code>HTML</code>使用<code>valueformat</code>，特别是在使用<code>valueexpression</code>时，以确保最准确地显示您的信息。</p> <p>有关此行的其他值的信息，请参阅<a href="../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md" class="MCXref xref">在文本模式下使用条件格式</a>。</p> </td> 
      </tr> 
      <tr> 
       <td> <p><strong>valueexpression=</strong> </p> </td> 
-      <td> <p>如果要按多个字段之间的计算对列表进行分组，可添加此行以替换<code>valuefield</code>。</p> <p>每次在<code>valueexpression</code>中使用对象时，必须将对象的<code>valuefield</code>括在大括号中。</p> <p>存在以下情况：</p> 
+      <td> <p>如果要按多个字段之间的计算对列表进行分组，可添加此行以替换<code>valuefield</code>。</p> <p>每次在<code>valuefield</code>中使用对象时，必须将对象的<code>valueexpression</code>括在大括号中。</p> <p>存在以下情况：</p> 
        <ol> 
         <li value="1"> <p>如果要以大写形式显示分组的名称，您可以使用：</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span><code>group.0.valueexpression=UPPER({valuefield})</code> </p> <p>对象的<code>valuefield</code>在API Explorer中显示时拼写。</p> </li> 
-        <li value="2">如果要通过在<code>valueexpression </code>行中将多个<code>valuefields</code>字符串在一起来添加它们，则必须用句点分隔它们。<p>例如，如果要在任务列表中以大写显示项目组合的名称，可在<code>valueexpression</code>行中使用以下代码：</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span><code>group.0.valueexpression=UPPER({project}.{portfolio}.{name})</code></p><p>如果要在<code>valueexpression</code>行中使用自定义字段，则必须在字段名称前面加上<code>DE:</code>，以指示它是自定义字段。 字段的名称在界面中显示时拼写。</p><p>重要提示： <span>如果您使用的自定义字段位于对某些用户具有限制权限的自定义表单分区中，则当这些用户在报表中查看此计算时，<code>valueexpression </code>的计算为空白。 有关调整自定义表单分区权限的信息，请参阅</span> <span href="help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"><a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">创建自定义表单</a></span>。</p><p>例如，如果您有一个标记为“开发人员姓名”的自定义字段，并且您想按此字段分组并以大写显示，则可以使用以下<code>valueexpression</code>来指示这一点：</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span><code>group.0.valueexpression=UPPER({DE:Developer Name}</code>)</p><p>在引用“预输入”类型自定义字段时，使用以下表达式来引用在标记为“开发人员名称”的字段中选择的对象的名称：</p><p><code>valueexpression=UPPER({DE:Developer Name:name})</code></p></li> 
+        <li value="2">如果要通过在<code>valuefields</code>行中将多个<code>valueexpression </code>字符串在一起来添加它们，则必须用句点分隔它们。<p>例如，如果要在任务列表中以大写显示项目组合的名称，可在<code>valueexpression</code>行中使用以下代码：</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span><code>group.0.valueexpression=UPPER({project}.{portfolio}.{name})</code></p><p>如果要在<code>valueexpression</code>行中使用自定义字段，则必须在字段名称前面加上<code>DE:</code>，以指示它是自定义字段。 字段的名称在界面中显示时拼写。</p><p>重要提示： <span>如果您使用的自定义字段位于对某些用户具有限制权限的自定义表单分区中，则当这些用户在报表中查看此计算时，<code>valueexpression </code>的计算为空白。 有关调整自定义表单分区权限的信息，请参阅</span> <span href="help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"><a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">创建自定义表单</a></span>。</p><p>例如，如果您有一个标记为“开发人员姓名”的自定义字段，并且您想按此字段分组并以大写显示，则可以使用以下<code>valueexpression</code>来指示这一点：</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span><code>group.0.valueexpression=UPPER({DE:Developer Name}</code>)</p><p>在引用“预输入”类型自定义字段时，使用以下表达式来引用在标记为“开发人员名称”的字段中选择的对象的名称：</p><p><code>valueexpression=UPPER({DE:Developer Name:name})</code></p></li> 
        </ol> </td> 
      </tr> 
      <tr> 

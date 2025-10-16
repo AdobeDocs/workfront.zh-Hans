@@ -7,9 +7,9 @@ description: 您可以在文档详细信息和摘要面板中查看映射元数�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: cfad5855-033c-4a15-b5a2-7ff32ed65fe9
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -22,47 +22,43 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具备以下条件：
-
 <table>
   <tr>
-   <td><strong>Adobe Workfront计划*</strong>
+   <td><strong>Adobe Workfront包</strong>
    </td>
    <td>任何
    </td>
   </tr>
   <tr>
-   <td><strong>Adobe Workfront许可证*</strong>
+   <td><strong>Adobe Workfront许可证</strong>
    </td>
-   <td>请求或更高版本
-   </td>
-  </tr>
-  <tr>
-   <td><strong>产品</strong>
-   </td>
-   <td>您必须具有Experience Manager Assetsas a Cloud Service或Assets Essentials，并且您必须在Admin Console中作为用户添加到产品中。
+   <td>
+   <p>参与者或更高版本</p>
+   <p>请求或更高版本</p>
    </td>
   </tr>
   <tr>
-   <td><strong>访问级别配置*</strong>
+   <td><strong>其他产品</strong>
    </td>
-   <td>编辑对文档的访问权限
-<p>
-<strong>注意：</strong>如果您仍然没有访问权限，请询问Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<strong>创建或修改自定义访问级别</strong>。
+   <td>您必须安装了Experience Manager Assets as a Cloud Service或Assets Essentials，并且您必须作为用户添加到Admin Console的产品中。
+   </td>
+  </tr>
+  <tr>
+   <td><strong>访问级别配置</strong>
+   </td>
+   <td><p>编辑对文档的访问权限</p>
    </td>
   </tr>
   <tr>
    <td><strong>对象权限</strong>
    </td>
    <td>查看访问权限或更高版本
-<p>
-有关请求其他访问权限的信息，请参阅<strong>请求访问对象</strong>。
    </td>
   </tr>
 </table>
 
 
-*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -70,7 +66,7 @@ ht-degree: 0%
 
 开始之前，
 
-* 您的Workfront管理员必须配置Experience Manager集成。 有关详细信息，请参阅[配置Experience Manager Assetsas a Cloud Service集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)或[配置Experience Manager Assets Essentials集成](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)。
+* 您的Workfront管理员必须配置Experience Manager集成。 有关详细信息，请参阅[配置Experience Manager Assets as a Cloud Service集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)或[配置Experience Manager Assets Essentials集成](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)。
 
 
 ## 文档详细信息

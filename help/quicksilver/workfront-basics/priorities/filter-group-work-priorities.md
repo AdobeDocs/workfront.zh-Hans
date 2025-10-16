@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '651'
 ht-degree: 4%
 
 ---
@@ -32,14 +32,14 @@ ht-degree: 4%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront计划</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront包</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront许可证*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront许可证</strong></td> 
    <td> 
-   <p>当前：请求或更高版本</p>
-   <p>新文档：参与者或更高版本</p> 
+   <p>请求或更高版本</p>
+   <p>参与者或更高版本</p> 
    </td> 
   </tr> 
   <tr> 
@@ -64,8 +64,8 @@ ht-degree: 4%
 {{step1-to-priorities}}
 
 1. 单击工作列表左上角的&#x200B;**筛选器**。
-1. 在&#x200B;**标准筛选器**&#x200B;部分中，选择一个或多个筛选器以缩小工作项的范围。
-   ![筛选器](assets/filter-new.png)
+1. 在&#x200B;**标准筛选器**部分中，选择一个或多个筛选器以缩小工作项的范围。
+   ![过滤器](assets/filter-new.png)
 
 +++展开以查看有关可用筛选器的详细信息
 <table>
@@ -173,7 +173,7 @@ ht-degree: 4%
 按“我的优先级”或“状态”分组时，您可以在类别之间拖放单个工作项。
 
 1. 按&#x200B;**状态**&#x200B;或&#x200B;**我的优先级**&#x200B;对您的工作分组。
-2. 将鼠标悬停在工作项上以单击&#x200B;**拖动**&#x200B;图标并将其移动到所需类别。
+2. 将鼠标悬停在工作项上以单击&#x200B;**拖动**图标并将其移动到所需类别。
    ![拖动图标](assets/drag-and-drop.png)
 
 ## 对您的工作排序

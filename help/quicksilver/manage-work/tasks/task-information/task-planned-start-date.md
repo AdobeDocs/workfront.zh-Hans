@@ -2,12 +2,12 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: 任务计划开始日期概述
+title: 任务计划开始日期概览
 description: 任务的计划开始日期是您作为任务创建者决定开始任务工作的日期。 计划任务日期会影响项目的日期和时间线。 有关项目计划开始日期的信息，请参阅项目计划开始日期概览。
 author: Alina
 feature: Work Management
 exl-id: 2ac6327f-4a13-4fb8-ad8e-03d032221483
-source-git-commit: 0ff02569d3c7fb532a2faafc46fe4235ce77acd4
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 2%

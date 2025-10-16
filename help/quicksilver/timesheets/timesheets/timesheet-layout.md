@@ -4,10 +4,10 @@ product-area: timesheets
 navigation-topic: timesheets-navigation-topic
 title: 工时表布局概述
 description: 本文介绍了时间表在Adobe Workfront中的布局，使您能够更好地了解如何自定义和利用时间表来记录时间。
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 1%
@@ -75,7 +75,7 @@ ht-degree: 1%
 您可以在左侧面板中访问以下部分：
 
 * **时间表**：显示实际时间表。
-* **更新**：显示时间表的注释和系统更新。 有关详细信息，请参阅本文左侧面板[&#128279;](#updates-area-in-the-left-panel)中的更新区域。
+* **更新**：显示时间表的注释和系统更新。 有关详细信息，请参阅本文左侧面板[中的](#updates-area-in-the-left-panel)更新区域。
 
 ## 工作项
 

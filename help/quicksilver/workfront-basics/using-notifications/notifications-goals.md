@@ -6,9 +6,9 @@ description: 通知：目标
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: 585a65c497211c84cffafeeaa5016218fd66acd2
+source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '388'
 ht-degree: 2%
 
 ---
@@ -23,48 +23,43 @@ ht-degree: 2%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: because there are conditions for who sees this, I added this from the How To articles/ template although this is not a How To. But I like the format, so I thought keeping it consistent might help users. We may decide to update this when we have access and prereq for overview-type articles)</p>
 -->
 
-+++ 展开以查看本文中各项功能的访问要求。
-
-您必须具备以下条件：
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
-   <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[!UICONTROL Request]或更高版本</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证</strong></td> 
+   <td>
+   <p>参与者或更高版本</p>
+    <p>请求或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>产品</strong></td> 
+   <td role="rowheader"><strong>其他产品</strong></td> 
    <td>[!DNL Workfront Goals] <p>有关[!DNL Workfront Goals]的信息，请参阅<a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals]概述</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>[!UICONTROL View]对[!DNL Goals]或更高版本的访问权限</p> <p>注意：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何更改访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Object permissions</td> 
-    <td> <p>[Insert permissions needed]</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-   </tr>
-  --> 
+   <td> <p>[！UICONTROL View]对[!DNL Goals]或更高版本的访问权限</p></td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
 ## 先决条件
 
-* 您要更新其[!DNL Goals]通知的用户必须具有布局模板，该模板包括[!UICONTROL 主菜单]中的[!DNL Goals]区域。
+* 您要更新其[!DNL Goals]通知的用户必须具有布局模板，该模板包括[!DNL Goals]主菜单[!UICONTROL 中的]区域。
 
 
-## [!UICONTROL 用户配置文件]区域中的[!DNL Goals]通知
+## [!DNL Goals]用户配置文件[!UICONTROL 区域中的]通知
 
 下表列出的通知会提醒您有关[!DNL Workfront Goals]中发生的事件，例如有人为您分配目标、结果或活动，或者有人对您拥有的目标、结果或活动进行更新。 有关配置您收到的通知的信息，请参阅[修改您自己的电子邮件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
 
@@ -86,15 +81,15 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td><strong>有人已将“结果”/“活动”分派给我</strong></td> 
-   <td> <p>将结果或活动分配给您的人员的姓名</p> <p>结果或活动的目标时段</p> <p>结果或活动的名称</p> <p>打开[!UICONTROL 目标详细信息]面板的<strong>[!UICONTROL 在Web应用程序中打开]</strong>按钮</p> <p>允许您管理通知的<strong>[!UICONTROL 更改通知设置]</strong>按钮。</p> </td> 
+   <td> <p>将结果或活动分配给您的人员的姓名</p> <p>结果或活动的目标时段</p> <p>结果或活动的名称</p> <p>打开[！UICONTROL目标详细信息]面板的<strong>[！UICONTROL在Web应用程序中打开]</strong>按钮</p> <p>允许您管理通知的<strong>[！UICONTROL更改通知设置]</strong>按钮。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>有人为我创建了新的个人目标</strong> </td> 
-   <td> <p>分配目标的人员的姓名</p> <p>目标的周期</p> <p>目标的名称</p> <p>打开[!UICONTROL 目标详细信息]面板的<strong>[!UICONTROL 在Web应用程序中打开]</strong>按钮</p> <p>允许您管理通知的<strong>[!UICONTROL 更改通知设置]</strong>按钮。</p> </td> 
+   <td> <p>分配目标的人员的姓名</p> <p>目标的周期</p> <p>目标的名称</p> <p>打开[！UICONTROL目标详细信息]面板的<strong>[！UICONTROL在Web应用程序中打开]</strong>按钮</p> <p>允许您管理通知的<strong>[！UICONTROL更改通知设置]</strong>按钮。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>有人在我的“目标”中留言了</strong></td> 
-   <td> <p>留下评论的人员的姓名</p> <p>目标的周期 </p> <p>目标的名称</p> <p>评论的文本</p> <p>打开[!UICONTROL 目标详细信息]面板的<strong>[!UICONTROL 在Web应用程序中打开]</strong>按钮</p> <p>允许您管理通知的<strong>[!UICONTROL 更改通知设置]</strong>按钮。</p> </td> 
+   <td> <p>留下评论的人员的姓名</p> <p>目标的周期 </p> <p>目标的名称</p> <p>评论的文本</p> <p>打开[！UICONTROL目标详细信息]面板的<strong>[！UICONTROL在Web应用程序中打开]</strong>按钮</p> <p>允许您管理通知的<strong>[！UICONTROL更改通知设置]</strong>按钮。</p> </td> 
   </tr> 
   <tr> 
   </tbody> 

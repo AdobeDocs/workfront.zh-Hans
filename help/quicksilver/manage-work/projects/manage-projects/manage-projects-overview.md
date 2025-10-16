@@ -2,15 +2,15 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: “管理项目：文章索引”
+title: 管理项目：文章索引
 description: 有关管理项目的信息，请参阅以下文章。
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: a63ec4e0-ba39-42c1-8061-c29350ef4bbb
-source-git-commit: 11e7a376719e52db3f5e98afff44cb4b4d07db01
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '130'
 ht-degree: 1%
 
 ---
@@ -38,5 +38,5 @@ ht-degree: 1%
 * [与项目团队成员通信](../../../manage-work/projects/manage-projects/communicate-with-project-team-members.md)
 * [在Agile视图中管理项目](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
 * [项目限制概述](../../../manage-work/projects/manage-projects/project-maximums.md)
-* [项目指标概述](../../../manage-work/projects/manage-projects/project-metrics.md)
+* [了解项目量度](../../../manage-work/projects/manage-projects/project-metrics.md)
 * [使用AI助手汇总更新](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)

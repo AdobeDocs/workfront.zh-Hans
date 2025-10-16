@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: 7f95df7acfb1afd0974c0138152a68326631d265
+source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '379'
 ht-degree: 4%
 
 ---
@@ -27,31 +27,27 @@ ht-degree: 4%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
-   <td>任何</td> 
+   <td>[!DNL Adobe Workfront] 包</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>新文档： [!UICONTROL Standard]</p>
-   或
-   <p>当前： [!UICONTROL 计划]</p>
-   </td> 
+   <td>[!DNL Adobe Workfront] 许可证</td> 
+   <td><p>[！UICONTROL标准版]</p>
+       <p>[！UICONTROL计划]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td>
-  </tr>
+   <td>访问级别配置</td> 
+   <td>[！UICONTROL系统管理员]</td> 
+  </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -82,8 +78,8 @@ ht-degree: 4%
       * 千米
       * 千克
       * 美元
-      * 小时
-      * 天
+      * Hour
+      * Day
       * 其他 — 选择此选项将提示您命名度量单位，并将度量单位定义为组织所熟悉的单位。
 
    * **汇率** — 单价。 这是一个货币格式字段，它表示在&#x200B;**计算单位**&#x200B;字段中建立的每个单位的成本。 比率可以包含小数点后最多4个数字的数值。 例如，1.0375。

@@ -6,9 +6,9 @@ description: 您可以使用视图自定义在屏幕上显示的信息类型。 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: d98998627ac5161fd12bb2d86f65555550c82a48
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1721'
+source-wordcount: '1713'
 ht-degree: 1%
 
 ---
@@ -25,44 +25,35 @@ ht-degree: 1%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront计划</strong></td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront许可证*</strong></td> 
+   <td role="rowheader">Adobe Workfront许可证</strong></td> 
    <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>参与者或更高版本</p></li>
-         </ul>
-      <p>当前：</p>
-         <ul>
-         <li><p>请求或更高版本</p></li>
-         </ul>
+    <p>参与者或更高版本</p>
+    <p>请求或更高版本</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>访问级别配置*</strong></td> 
+   <td role="rowheader">访问级别配置</td> 
    <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报告、功能板、日历的访问权限以在报告中创建视图</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>对象权限*</strong></td> 
+   <td role="rowheader">对象权限</td> 
    <td> <p>管理对报告的权限以创建或编辑报告中的视图</p> <p>管理视图的权限以编辑它</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
-
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 +++
 
 ## 创建或自定义视图
@@ -78,10 +69,10 @@ ht-degree: 1%
 
 1. 在要创建或自定义视图的任何列表中单击&#x200B;**视图**&#x200B;下拉菜单。
 
-1. 单击&#x200B;**+新建视图**&#x200B;按钮以创建新视图。
+1. 单击&#x200B;**+新建视图**按钮以创建新视图。
 或
-单击鼠标上要编辑的现有视图右侧出现的&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
-将显示&#x200B;**自定义视图**&#x200B;对话框。
+单击鼠标上要编辑的现有视图右侧出现的**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
+将显示**自定义视图**&#x200B;对话框。
 
 1. 在&#x200B;**列预览**&#x200B;部分中，执行以下任一操作：
 
@@ -90,7 +81,6 @@ ht-degree: 1%
    * 通过将列标题拖动到新位置来调整列的显示顺序。
 
    * 在&#x200B;**列设置**&#x200B;区域中，单击&#x200B;**按**&#x200B;汇总此列，然后选择您希望数据在列中显示的方式。 此选项适用于以下列类型：
-
      <table style="table-layout:auto"> 
          <col> 
          <col> 
@@ -106,7 +96,7 @@ ht-degree: 1%
            <td role="rowheader"><strong>货币字段</strong></td> 
            <td><ul>
            <li>计数</li>
-         <li>总和</li>
+         <li>Sum</li>
            <li>平均</li>
          <li>最大</li>
            <li>最小</li>

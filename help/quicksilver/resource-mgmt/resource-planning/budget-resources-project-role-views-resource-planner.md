@@ -6,9 +6,9 @@ description: 您可以使用“项目”和“角色”视图在Adobe Workfront�
 author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '2127'
+source-wordcount: '2098'
 ht-degree: 0%
 
 ---
@@ -35,36 +35,31 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-    <td><p>新建：任何</p>
-       <p>或</p>
-       <p>当前： Pro或更高版本</p> </td> 
+   <td>Adobe Workfront包</td> 
+   <td><p>任何</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td><p>新增：标准</p>
-       <p>或</p>
-       <p>当前：计划</p></td> 
+   <td>Adobe Workfront许可证</td> 
+   <td><p>标准</p>
+       <p>规划</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
+   <td>访问级别配置</td> 
    <td> <p>编辑对资源管理的访问权限，包括访问资源规划者中的编辑优先级和预算小时数</p> <p>按成本编辑对预算资源的财务数据的访问权限</p> <p>编辑对项目和用户的访问权限</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">对象权限</td> 
+   <td>对象权限</td> 
    <td> <p>管理要为其编制预算信息的项目的权限</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -109,7 +104,7 @@ ht-degree: 0%
 
    * 单击项目的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**将角色的计划小时数设置为预算**。\
      使用以下公式计算每个角色的预算小时数：\
-     &#x200B;*
+     *
 
      `Role Budgeted Hours = Role Planned Hours`
 
@@ -158,7 +153,7 @@ ht-degree: 0%
 
 有关预算资源所需的访问权限的信息，请参阅文章[在Adobe Workfront中预算资源所需的访问权限](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md)。
 
-要在&#x200B;**&#x200B;**&#x200B;角色视图的资源规划者中分配预算，请执行以下操作：
+要在****角色视图的资源规划者中分配预算，请执行以下操作：
 
 1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)。
 
@@ -179,8 +174,8 @@ ht-degree: 0%
    * 在&#x200B;**BDG**&#x200B;列中，手动指定工作角色的预算小时数、FTE或成本。\
      这会将角色预算小时数分配给您有权管理的项目的项目预算小时数。
 
-   * 单击工作角色的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**将项目的计划小时数设置为已预算。**&#x200B;角色预算小时数使用以下公式计算：\
-     &#x200B;*
+   * 单击工作角色的&#x200B;**更多**&#x200B;菜单，然后单击**将项目的计划小时数设置为已预算。**角色预算小时数使用以下公式计算：\
+     *
 
      `Role Budgeted Hours = SUM(Project Budgeted Hours)`
 

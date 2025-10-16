@@ -6,9 +6,9 @@ description: “更新”是一个对象的，该对象包括一个使用AI助�
 author: Becky
 feature: Get Started with Workfront
 exl-id: d0c26f90-a01b-4226-b6a0-647808f71e08
-source-git-commit: 440d9af6915184b7e91ca257e02be4a234fb91e0
+source-git-commit: cf3d5daa739fa6ab413ee82a9f465441ef61ae6d
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -27,42 +27,70 @@ Workfront的AI助手可以汇总更新流的内容，以便您快速了解围绕
 
 ## 访问要求
 
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-   <td><p>新建：任何</p>
-       <p>或</p>
-       <p>当前：不可用</p></td>
+   <td role="rowheader">Adobe Workfront包</td> 
+   <td><p>任何工作流包</p>
+      </td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td><p>新增：标准</p>
-       <p>或</p>
-       <p>当前：不可用</p></td>
-  </tr> 
- </tbody> 
+   <td><p>标准</p>
+   </td>
+  </tr>
+
+<tr> 
+   <td role="rowheader">对象权限</td> 
+   <td><p>查看您想要查看其更新的对象的权限或更高的权限</p>
+   </td>
+  </tr>
+
+</tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td><p>New: Any</p>
+       <p>or</p>
+       <p>Current: Not available</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>New: Standard</p>
+       <p>or</p>
+       <p>Current: Not available</p></td>
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 先决条件
 
 * 您的Workfront管理员必须为贵组织启用AI助手。
 
   有关详细信息，请参阅AI助手概述一文中的[AI助手先决条件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
-* 您的Workfront管理员必须已启用您访问级别的AI助手。
+* 您的Workfront管理员必须启用访问级别的AI助手。
 
   有关详细信息，请参阅[启用或禁用AI助手](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)。
 
-## 使用“摘要内容”按钮进行摘要
+## 使用“摘要注释”按钮摘要
 
-1. 导航到要汇总的更新流。
-1. 单击&#x200B;**摘要内容**&#x200B;按钮。
+1. 转到要摘要其更新的对象。
+1. 单击左侧面板中的&#x200B;**更新**。
+1. 单击&#x200B;**更新**&#x200B;区域顶部的&#x200B;**摘要评论**&#x200B;按钮。
 
    AI助手将打开，并显示一条提示，总结更新流中过去7天的评论。
 

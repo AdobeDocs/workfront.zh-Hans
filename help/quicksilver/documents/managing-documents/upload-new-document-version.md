@@ -6,9 +6,9 @@ description: 您可以添加先前上载到Adobe Workfront的文档的新版本�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d475e0f0-112e-4d4e-b666-6e0af3ea7702
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
@@ -19,15 +19,13 @@ ht-degree: 0%
 
 如果新版本的文件名与先前版本的文件名不同，则Workfront显示具有新文件名的文档。
 
-如果文档包含校对，而您想创建校对文档的新版本，请参阅[为文档创建校对](../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md)一文中的[上传文档并创建新版本的校对](../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md#uploading-a-document-and-creating-a-new-version-of-a-proof)部分。
+如果文档包含校对，而您想创建校对文档的新版本，请参阅[为文档创建校对](../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md#uploading-a-document-and-creating-a-new-version-of-a-proof)一文中的[上传文档并创建新版本的校对](../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md)部分。
 
-有关从外部应用程序添加链接到Workfront的文档的新版本的信息，请参阅[链接来自外部应用程序的文档](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)中的[添加链接文档的新版本](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#add)。
+有关从外部应用程序添加链接到Workfront的文档的新版本的信息，请参阅[链接来自外部应用程序的文档](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#add)中的[添加链接文档的新版本](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)。
 
 ## 访问要求
 
 +++ 展开以查看本文中各项功能的访问要求。
-
-您必须具备以下条件：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,26 +34,27 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p> 任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>请求或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> 
+   <p>参与者或更高版本</p>
+   <p>请求或更高版本</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对文档的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td> <p>编辑对文档的访问权限</p>  </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>编辑对与文档关联的对象的访问权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>编辑对与文档关联的对象的访问权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
-
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 +++
 
 ## 使用拖放操作添加新版本

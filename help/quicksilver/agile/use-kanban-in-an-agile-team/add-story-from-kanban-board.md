@@ -6,9 +6,9 @@ description: 您可以直接从Kanban展示板快速创建新故事或问题。
 author: Lisa
 feature: Agile
 exl-id: 8f12b05c-d132-42ca-b617-bdd14e57acf2
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,6 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -30,18 +28,17 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>新文档： [!UICONTROL Standard]</p> 
-   或
-   <p>当前： [!UICONTROL Work]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p>标准</p> 
+   <p>工作或更高</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td>[!UICONTROL Manage]对任务或问题的访问权限 </td> 
+   <td>管理对任务或问题的访问权限 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,19 +57,19 @@ ht-degree: 0%
 
    <table style="table-layout:auto">
     <tr>
-        <td><strong>[!UICONTROL 名称]</strong></td>
+        <td><strong>[！UICONTROL名称]</strong></td>
         <td>（必需）故事或问题的名称。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 描述]</strong></td>
+        <td><strong>[！UICONTROL描述]</strong></td>
         <td>物料的描述。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 估计]</strong></td>
+        <td><strong>[！UICONTROL估计]</strong></td>
         <td>估计的项目小时数或点数。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 父项目]</strong></td>
+        <td><strong>[！UICONTROL父项目]</strong></td>
         <td>（必需）存储新文章或问题的项目。 开始键入项目的名称，然后在该项目显示在列表时将其选定。</td>
     </tr>
    </table>

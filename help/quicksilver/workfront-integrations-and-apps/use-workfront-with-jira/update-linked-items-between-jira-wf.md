@@ -6,9 +6,9 @@ description: 当您将 [!DNL Jira] 问题链接到 [!DNL Adobe Workfront] 任务
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 79ac6ff1-2f7d-4abc-8735-398f6aac5191
-source-git-commit: 064418302767ad20e176080ba9a12db548750f3c
+source-git-commit: b1b55b8046aa771abb2cceda333940ccf827356a
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1657'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 0%
 >
 >为了满足贵组织与Jira的集成需求，我们建议使用Workfront自动化和集成。
 >
->有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 >
->有关Jira的Workfront自动化和集成模块的特定功能的信息，请参阅[Jira软件模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules)。
+>有关Jira的Workfront自动化和集成模块的特定功能的信息，请参阅[Jira软件模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules)。
 
 <!--
 
@@ -35,9 +35,9 @@ ht-degree: 0%
 >
 >Eight ready-to-use Workfront Automation and Integration templates for Jira will be available by August to help replicate common workflows and accelerate implementation. Templates are fully customizable to meet specific business needs and can be extended as requirements evolve. 
 > 
->For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
+>For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
 >
->For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
+>For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
 
 -->
 
@@ -51,38 +51,37 @@ ht-degree: 0%
 
 ## 访问要求
 
-您必须具备以下条件：
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
-   <td><p>新建：任何</p>
-       <p>或</p>
-       <p>当前： [!UICONTROL Pro]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront包</td> 
+   <td><p>任何</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>新文档： [!UICONTROL Standard]</p>
-       <p>或</p>
-       <p>当前： [!UICONTROL 计划]</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td><p>标准 </p>
+       <p>规划 </p>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Jira] 访问</td> 
-   <td> <p>系统管理员访问权限</p> <p>重要提示：建议您在[!DNL Jira]和[!DNL Workfront]中创建单独的系统管理员帐户以专门用于此集成，而不是使用可能附加到用户的现有帐户。</p> </td> 
+   <td role="rowheader">Jira访问</td> 
+   <td> <p>系统管理员访问权限</p> <p>重要信息：我们建议您在Jira和Workfront中创建单独的系统管理员帐户以专门用于此集成，而不是使用可能附加到用户的现有帐户。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>您必须是[!DNL Workfront]管理员。</p> </td> 
+   <td> <p>您必须是Workfront管理员。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先决条件
 
@@ -119,36 +118,36 @@ ht-degree: 0%
  </thead> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL 问题或任务名称]</td> 
-   <td> <p>[!UICONTROL 问题名称]</p> <p>有关名称更改的注释已添加到<strong>[!DNL Workfront]</strong>问题的[!DNL Jira]选项卡中。 </p> </td> 
+   <td>[！UICONTROL问题或任务名称]</td> 
+   <td> <p>[！UICONTROL问题名称]</p> <p>有关名称更改的注释已添加到<strong>[!DNL Workfront]</strong>问题的[!DNL Jira]选项卡中。 </p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 问题或任务描述]</td> 
-   <td> <p> [!UICONTROL 问题说明]</p> <p>有关已更新描述的注释已添加到<strong>[!DNL Workfront]</strong>问题的[!DNL Jira]选项卡中。<br></p> </td> 
+   <td>[！UICONTROL问题或任务描述]</td> 
+   <td> <p> [！UICONTROL问题说明]</p> <p>有关已更新描述的注释已添加到<strong>[!DNL Workfront]</strong>问题的[!DNL Jira]选项卡中。<br></p> </td> 
   </tr> 
   <tr> 
-   <td> <p> [!UICONTROL 上载的文档]</p> <p>注意：链接到来自外部服务器的[!DNL Workfront]项的文档未传输到[!DNL Jira]问题。 只有直接上传到[!DNL Workfront]项的文档也会更新为链接的[!DNL Jira]问题。 </p> </td> 
-   <td> <p>[!UICONTROL 附件]</p> <p>有关已上载附件的注释已添加到<strong>[!DNL Workfront]</strong>问题的[!DNL Jira]选项卡中。<br></p> </td> 
+   <td> <p> [！UICONTROL上载的文档]</p> <p>注意：链接到来自外部服务器的[!DNL Workfront]项的文档未传输到[!DNL Jira]问题。 只有直接上传到[!DNL Workfront]项的文档也会更新为链接的[!DNL Jira]问题。 </p> </td> 
+   <td> <p>[！UICONTROL附件]</p> <p>有关已上载附件的注释已添加到<strong>[!DNL Workfront]</strong>问题的[!DNL Jira]选项卡中。<br></p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 计划完成日期]</td> 
-   <td> <p>[!UICONTROL 到期日期]</p> <p>已更改的[!UICONTROL 截止日期]的注释已添加到[!DNL Workfront]问题的[!DNL Jira]选项卡中。 </p> <p>注意：必须为您的<strong>问题启用</strong>[!UICONTROL 到期日期][!DNL Jira]，才能在[!UICONTROL Jira]中看到此字段的更新。 </p> </td> 
+   <td>[！UICONTROL计划完成日期]</td> 
+   <td> <p>[！UICONTROL到期日期]</p> <p>已更改的[！UICONTROL截止日期]的注释已添加到[!DNL Workfront]问题的[!DNL Jira]选项卡中。 </p> <p>注意：必须为您的<strong>问题启用</strong>[！UICONTROL到期日期][!DNL Jira]，才能在[！UICONTROL Jira]中看到此字段的更新。 </p> </td> 
   </tr> 
   <tr> 
    <td>自定义Forms和自定义字段</td> 
    <td> <p> 显示在[!DNL Workfront]问题的[!DNL Jira]右侧面板中。 <br>面板中仅显示具有实际值的自定义字段。<br></p> <p>注意：自定义表单分区以[!DNL Workfront]管理员的访问级别显示。 </p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 问题或任务优先级]</td> 
-   <td>显示在[!DNL Workfront]问题的[!DNL Jira]右侧面板中。 <br>它不更新<strong>中的问题</strong>[!UICONTROL 优先级][!DNL Jira]字段。 </td> 
+   <td>[！UICONTROL问题或任务优先级]</td> 
+   <td>显示在[!DNL Workfront]问题的[!DNL Jira]右侧面板中。 <br>它不更新<strong>中的问题</strong>[！UICONTROL优先级][!DNL Jira]字段。 </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 日志时间] </td> 
-   <td> <p>有关记录时间的注释已添加到<strong>[!DNL Workfront]</strong>问题的[!DNL Jira]选项卡中。 这包括记录时间的用户的名称，以及在时间不同时为其记录时间的用户的名称。 <strong>中的</strong>[!UICONTROL 工作日志][!DNL Jira]选项卡中未记录任何时间。<br></p> </td> 
+   <td>[！UICONTROL日志时间] </td> 
+   <td> <p>有关记录时间的注释已添加到<strong>[!DNL Workfront]</strong>问题的[!DNL Jira]选项卡中。 这包括记录时间的用户的名称，以及在时间不同时为其记录时间的用户的名称。 <strong>中的</strong>[！UICONTROL工作日志][!DNL Jira]选项卡中未记录任何时间。<br></p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Comments]</td> 
-   <td> <p>该评论已添加到<strong>[!DNL Workfront]</strong>问题的[!DNL Jira]选项卡。 它未添加到<strong>问题的</strong>[!UICONTROL 评论][!DNL Jira]选项卡中</p> <p>注意：当您手动链接两个现有项时，在将其链接到[!DNL Workfront]之前添加到[!DNL Jira]项的注释不会同步到[!DNL Jira]问题。 </p> <p>Jira注释与Workfront同步。</td> 
+   <td>[！UICONTROL Comments]</td> 
+   <td> <p>该评论已添加到<strong>[!DNL Workfront]</strong>问题的[!DNL Jira]选项卡。 它未添加到<strong>问题的</strong>[！UICONTROL评论][!DNL Jira]选项卡中</p> <p>注意：当您手动链接两个现有项时，在将其链接到[!DNL Workfront]之前添加到[!DNL Jira]项的注释不会同步到[!DNL Jira]问题。 </p> <p>Jira注释与Workfront同步。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -172,29 +171,29 @@ ht-degree: 0%
  </thead> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL 问题状态]</td> 
-   <td> <p> [!UICONTROL 问题或任务状态]</p> <p>[!DNL Jira]中的问题状态与Workfront中的以下状态或等于以下状态的状态同步：</p> 
+   <td>[！UICONTROL问题状态]</td> 
+   <td> <p> [！UICONTROL问题或任务状态]</p> <p>[!DNL Jira]中的问题状态与Workfront中的以下状态或等于以下状态的状态同步：</p> 
     <ul> 
-     <li> <p>[!UICONTROL New] ([!UICONTROL NEW])</p> </li> 
-     <li> <p>[!UICONTROL 正在进行中] ([!UICONTROL INP])</p> </li> 
-     <li> <p>[!UICONTROL 已关闭]/[!UICONTROL 完成] ([!UICONTROL CLS]/[!UICONTROL CPL])</p> </li> 
+     <li> <p>[！UICONTROL New] ([！UICONTROL NEW])</p> </li> 
+     <li> <p>[！UICONTROL正在进行中] ([！UICONTROL INP])</p> </li> 
+     <li> <p>[！UICONTROL已关闭]/[！UICONTROL完成] ([！UICONTROL CLS]/[！UICONTROL CPL])</p> </li> 
     </ul> <p>注意： [!DNL Jira]状态与对应于相应状态的前[!DNL Workfront]状态同步。</p> <p>有关[!DNL Workfront]中项目状态的详细信息，请参阅<a href="../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">创建或编辑状态</a>。</p> </td> 
   </tr>
   <tr> 
-   <td>[!UICONTROL 问题附件]</td> 
-   <td> [!UICONTROL 问题或任务文档]<br>有关在[!DNL Jira]中上传新文档的注释已添加到[!DNL Workfront]问题或任务的[!UICONTROL 更新]选项卡中。  </td> 
+   <td>[！UICONTROL问题附件]</td> 
+   <td> [！UICONTROL问题或任务文档]<br>有关在[!DNL Jira]中上传新文档的注释已添加到[!DNL Workfront]问题或任务的[！UICONTROL更新]选项卡中。  </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 到期日期]</td> 
-   <td> <p> 有关[!DNL Jira]中[!UICONTROL 截止日期]更改的注释已添加到[!DNL Workfront]问题或任务的[!UICONTROL 更新]选项卡中。 </p> <p>注意：[!DNL Workfront]问题或任务未更改日期。 </p> </td> 
+   <td>[！UICONTROL到期日期]</td> 
+   <td> <p> 有关[!DNL Jira]中[！UICONTROL截止日期]更改的注释已添加到[!DNL Workfront]问题或任务的[！UICONTROL更新]选项卡中。 </p> <p>注意：[!DNL Workfront]问题或任务未更改日期。 </p> </td> 
   </tr> 
   <tr> 
-   <td> 在[!DNL Workfront]右侧面板中或从[!DNL Jira]问题上的[!UICONTROL 更多]菜单记录时间<br></td> 
-   <td> <p>小时数<br>除了将在Jira中记录的小时数添加到链接的[!DNL Workfront]项目之外，还向[!DNL Workfront]项目的[!UICONTROL 更新]选项卡添加了有关记录时间的注释。</p> <p>有关在链接的[!DNL Jira]问题上记录时间的详细信息，包括更新在[!DNL Jira]中记录时间的[!DNL Workfront]用户，请参阅链接的<a href="#log-time-for-linked-jira-and-workfront-items" class="MCXref xref">和[!DNL Jira]项的[!DNL Workfront]记录时间</a>。</p> </td> 
+   <td> 在[!DNL Workfront]右侧面板中或从[!DNL Jira]问题上的[！UICONTROL更多]菜单记录时间<br></td> 
+   <td> <p>小时数<br>除了将在Jira中记录的小时数添加到链接的[!DNL Workfront]项目之外，还向[!DNL Workfront]项目的[！UICONTROL更新]选项卡添加了有关记录时间的注释。</p> <p>有关在链接的[!DNL Jira]问题上记录时间的详细信息，包括更新在[!DNL Jira]中记录时间的[!DNL Workfront]用户，请参阅链接的<a href="#log-time-for-linked-jira-and-workfront-items" class="MCXref xref">和[!DNL Jira]项的[!DNL Workfront]记录时间</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> 评论 <br><br></td> 
-   <td> <p>如果[!UICONTROL Setup]选项卡的[!UICONTROL SYNCHRONIZE FROM JIRA TO WORKFRONT]部分中的[!DNL Workfront][!UICONTROL Comments]<strong>设置是</strong>[!UICONTROL Always]<strong>，则评论会添加到</strong>问题或任务的[!UICONTROL Updates]选项卡中。</p> <p>有关在[!DNL Jira]中配置Workfront设置的信息，请参阅<a href="../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md">配置[!DNL Workfront for Jira]</a>。</p> <p>有关对链接[!DNL Jira]问题中的项进行评论的信息，请参阅链接<a href="#comment-from-a-linked-jira-issue" class="MCXref xref">问题[!DNL Jira]中的</a>评论。</p> </td> 
+   <td> <p>如果[！UICONTROL Setup]选项卡的[！UICONTROL SYNCHRONIZE FROM JIRA TO WORKFRONT]部分中的[!DNL Workfront][！UICONTROL Comments]<strong>设置是</strong>[！UICONTROL Always]<strong>，则评论会添加到</strong>问题或任务的[！UICONTROL Updates]选项卡中。</p> <p>有关在[!DNL Jira]中配置Workfront设置的信息，请参阅<a href="../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md">配置[!DNL Workfront for Jira]</a>。</p> <p>有关对链接[!DNL Jira]问题中的项进行评论的信息，请参阅链接<a href="#comment-from-a-linked-jira-issue" class="MCXref xref">问题[!DNL Jira]中的</a>评论。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -221,7 +220,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->如果在[!DNL Jira]中记录时间的用户在[!DNL Workfront]中不存在，则集成会在Workfront中创建一个新的活动用户(如果&#x200B;**[!UICONTROL 在[!DNL Workfront]中自动创建用户(&#x200B;如果[!DNL Jira]用户没有&#x200B;*[!DNL Workfront]帐&#x200B;户]**)设置为&#x200B;**[!UICONTROL &#x200B;始终&#x200B;]**)。 此用户未占用[!DNL Workfront]许可证。 您可以将活动用户分配给[!DNL Workfront]中的工作项，但不能将其包含在更新中。 有关配置从[!DNL Workfront]自动创建[!DNL Jira]用户的信息，请参阅[配置 [!DNL Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)。
+>如果在[!DNL Jira]中记录时间的用户在[!DNL Workfront]中不存在，则集成会在Workfront中创建一个新的活动用户(如果&#x200B;**[!UICONTROL 在[!DNL Workfront]中自动创建用户(&#x200B;如果[!DNL Jira]用户没有&#x200B;*[!DNL Workfront]帐&#x200B;户]**)设置为**[!UICONTROL &#x200B;始终&#x200B;]**)。 此用户未占用[!DNL Workfront]许可证。 您可以将活动用户分配给[!DNL Workfront]中的工作项，但不能将其包含在更新中。 有关配置从[!DNL Workfront]自动创建[!DNL Jira]用户的信息，请参阅[配置 [!DNL Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)。
 
 要在[!DNL Jira]中记录项目的时间，并在[!DNL Jira]和[!DNL Workfront]中记录该时间，请执行以下操作：
 

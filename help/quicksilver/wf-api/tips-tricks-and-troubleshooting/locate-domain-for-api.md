@@ -7,23 +7,52 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 8f5b78c9-b84f-4f56-b7cc-ba686fac2da1
-source-git-commit: c2ce6776ceebe3c1d3915e3791fc84eb0245ba4d
+source-git-commit: e9a9e45720c8b9ad25e3fa9340c813a73989fb4a
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 0%
+source-wordcount: '186'
+ht-degree: 1%
 
 ---
 
 # Adobe Workfront API调用的域格式
 
-当您对Workfront API进行API调用时，您在调用中使用组织的域。 此域URL的格式因您的组织是否已载入到AdobeUnified Shell而异。
+当您对Workfront API进行API调用时，您在调用中使用组织的域。 此域URL的格式因您的组织是否已载入Adobe Unified Shell而异。
 
-要了解您的组织是否位于Unified ShellAdobe上，请检查查看Workfront页面时显示的URL。
+要了解您的组织是否位于Adobe Unified Shell上，请检查查看Workfront页面时显示的URL。
 
 | Workfront URL开头为： | API调用的URL： |
 |---|---|
 | `<yourdomain>.my.workfront.com` | `<yourdomain>.my.workfront.com` |
 | `experience.adobe.com` | `<yourdomain>.my.workfront.adobe.com` |
+
+## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront包</td> 
+   <td> <p>任何 </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td><p>标准</p>
+   <p>规划</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>您必须是Workfront管理员</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
 
 要查找域，请执行以下操作：
 

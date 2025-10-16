@@ -7,9 +7,9 @@ description: 默认情况下， [!DNL Adobe Workfront] 视图中显示的项目�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 76db4ed0-a411-49aa-8acd-f149df1f38a4
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 访问要求
 
-您必须在[!DNL Workfront]中拥有以下访问权限，才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,17 +29,21 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront包</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[!UICONTROL Review]或更高版本</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront许可证</strong></td> 
+   <td> 
+   <p>参与者或更高版本</p>
+   <p>审核或更高</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 更改项目列表中的分组
 
@@ -66,13 +70,13 @@ ht-degree: 0%
 1. 从[!DNL Workfront]视图的主页中，点按列表中的任何项目以查看项目详细信息。\
    项目信息显示在屏幕上可用的小部件中。\
    一次最多可以显示四个小组件，并且您可以移除这些小组件并将其添加到每个项目，以查看有关项目的不同信息。\
-   有关将构件添加到[!UICONTROL 项目详细信息]视图的详细信息，请参阅[!UICONTROL 项目详细信息]视图[&#128279;](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)中的更新构件。
+   有关将构件添加到[!UICONTROL 项目详细信息]视图的详细信息，请参阅[项目详细信息[!UICONTROL 视图]中的](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)更新构件。
 
 ## 在[!DNL Workfront View]中浏览项目
 
 1. 点按[!DNL Workfront View]应用程序中项目列表中的项目名称。\
    有关项目的信息会显示在上传到屏幕上的小组件中。\
-   有关将构件添加到[!UICONTROL 项目详细信息]视图的详细信息，请参阅[!UICONTROL 项目详细信息]视图[&#128279;](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)中的更新构件。
+   有关将构件添加到[!UICONTROL 项目详细信息]视图的详细信息，请参阅[项目详细信息[!UICONTROL 视图]中的](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)更新构件。
 
 1. 从右向左轻扫以在列表中显示以下项目。\
    滚动每个项目时，将显示相同的构件。\

@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: IF语句概述
 description: 可以在通用编程语言中使用“IF”语句。 在Adobe Workfront中，“IF”语句允许您比较、设置数据字段的格式并将其字符串在一起，以用于报表和自定义数据。 此外，从数学上考虑“IF”语句可以更好地理解概念，因为表达式变量是常用的。
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 090a85fd-fdbe-4507-8bad-ce8c29bf8fc9
-source-git-commit: 23b5ba9564b514e11c1ca9d5cca276238ef11066
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 可以在通用编程语言中使用“IF”语句。 在Adobe Workfront中，“IF”语句允许您比较、设置数据字段的格式并将其字符串在一起，以用于报表和自定义数据。 此外，从数学上考虑“IF”语句可以更好地理解概念，因为表达式变量是常用的。
 
-## Recommendations中的“IF”语句
+## “IF”语句的建议
 
 在创建“IF”语句之前，请考虑以下事项：
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 * **条件运算符** =此运算符可帮助您构建“IF”语句的条件。 例如，“等于”或“大于”是条件运算符。 有关可在语句中使用的条件运算符列表，请参阅计算自定义表达式中的[条件运算符](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md)。
 
-* **True**&#x200B;**Expression** =这是“True”变量，它告知等式满足条件的条件（true指示器）后要显示的指示器。
+* **True****Expression** =这是“True”变量，它告知等式满足条件的条件（true指示器）后要显示的指示器。
 
 * **False表达式** =这是“False”变量，它告知公式当不符合条件的条件（false指示符）时要显示的指示符。
 

@@ -1,54 +1,58 @@
 ---
 product-area: workfront-integrations
 navigation-topic: workfront-for-slack
-title: 搜索来自 [!DNL Slack]的 [!DNL Adobe Workfront] 项
-description: 您可以从已安装的 [!DNL Slack], if your instance of Slack has had the [!DNL Workfront] 应用搜索 [!DNL Adobe Workfront] 项目。
+title: 搜索来自 [!DNL Adobe Workfront] 的 [!DNL Slack]项
+description: 您可以从已安装的 [!DNL Adobe Workfront] 应用搜索 [!DNL Slack], if your instance of Slack has had the [!DNL Workfront] 项目。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 85821f21-d4fd-4f28-bd7a-0c109a4433a8
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '213'
 ht-degree: 6%
 
 ---
 
-# 从[!DNL Slack]搜索[!DNL Adobe Workfront]项
+# 从[!DNL Adobe Workfront]搜索[!DNL Slack]项
 
-如果您的[!DNL Slack]实例安装了[!DNL Workfront]应用，则可以从[!DNL Slack]搜索[!DNL Adobe Workfront]项。
+如果您的[!DNL Adobe Workfront]实例安装了[!DNL Slack]应用，则可以从[!DNL Slack]搜索[!DNL Workfront]项。
 
-有关使用[!DNL Slack]配置[!DNL Workfront]的详细信息，请参阅[为 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)配置 [!DNL Adobe Workfront] 。
+有关使用[!DNL Workfront]配置[!DNL Slack]的详细信息，请参阅[为 [!DNL Adobe Workfront] 配置 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)。
 
 ## 访问要求
 
-您必须具备以下条件：
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/cn/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront]计划]</a>*</td> 
-   <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront包</td> 
+   <td> <p>任何</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p>任何</p>
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。\
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先决条件
 
-在从[!DNL Slack]中搜索[!DNL Workfront]项之前，您必须
+在从[!DNL Workfront]中搜索[!DNL Slack]项之前，您必须
 
-* 为[!DNL Slack]配置[!DNL Workfront]\
+* 为[!DNL Workfront]配置[!DNL Slack]\
    有关配置[!DNL Workfront for Slack]的说明，请参阅[配置 [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)。
 
-## 从[!DNL Slack]搜索[!DNL Workfront]项：
+## 从[!DNL Workfront]搜索[!DNL Slack]项：
 
-1. 从[!DNL Slack]登录到[!DNL Slack]实例并登录到[!DNL Workfront]。\
-   有关从[!DNL Slack]登录到[!DNL Workfront]的详细信息，请参阅[访问 [!DNL Adobe Workfront] 从 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)中的“从[!DNL Slack]登录到[!DNL Workfront]”部分。
+1. 从[!DNL Slack]登录到[!DNL Workfront]实例并登录到[!DNL Slack]。\
+   有关从[!DNL Workfront]登录到[!DNL Slack]的详细信息，请参阅[!DNL Workfront]访问[!DNL Slack]从[中的“从 [!DNL Adobe Workfront] 登录到 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)”部分。
 
 1. 从任何渠道中，开始在消息字段中键入以下任一命令：
 
@@ -67,13 +71,13 @@ ht-degree: 6%
    * 项目
    * 任务
    * 问题
-   * 报告
+   * 报表
    * 人员
    * 模板
    * 文档
-   * 项目组合
+   * 组合
    * 项目群
-   * 仪表板
+   * 功能板
    * 公司
    * 注释
 

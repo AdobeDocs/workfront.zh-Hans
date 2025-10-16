@@ -6,10 +6,10 @@ description: 安装Salesforce的 [!DNL Adobe Workfront] 后，您可以定义在
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b38c91ae-342b-4002-a947-7a0ab1aaca93
-source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
+source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
 workflow-type: tm+mt
-source-wordcount: '1581'
-ht-degree: 3%
+source-wordcount: '1573'
+ht-degree: 4%
 
 ---
 
@@ -21,32 +21,35 @@ ht-degree: 3%
 >
 >为了满足贵组织与Salesforce的集成需求，我们建议使用Workfront自动化和集成。
 >
->有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 >
->有关Salesforce的Workfront自动化和集成模块的特定功能的信息，请参阅[Salesforce模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules)。
+>有关Salesforce的Workfront自动化和集成模块的特定功能的信息，请参阅[Salesforce模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules)。
 
 为Salesforce安装[!DNL Adobe Workfront]后，您可以定义在[!DNL Workfront] [!DNL Salesforce]机会[!UICONTROL 和]帐户[!UICONTROL 上满足某些条件时创建]项目的触发器。
 
 ## 访问要求
 
-您必须具有以下权限才能使用本文中所述的功能：
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
-   <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront包</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[!UICONTROL 计划]</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p>标准</p>
+   <p>规划</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先决条件
 
@@ -159,7 +162,7 @@ ht-degree: 3%
       >项目仅在[!UICONTROL Opportunity]上更新阶段时创建。 为更新暂存字段时指定的每个产品创建一个唯一项目，而不是为添加到[!UICONTROL Opportunities]中的产品创建唯一项目。
 
 1. （可选）单击&#x200B;**[!UICONTROL 新建触发器]**。
-1. （可选）从&#x200B;**[!UICONTROL [!DNL Salesforce]对象]**&#x200B;下拉菜单中，选择**帐户
+1. （可选）从&#x200B;**[!UICONTROL [!DNL Salesforce]对象]**下拉菜单中，选择**帐户
 **。
 
    这是必填字段。
@@ -168,7 +171,7 @@ ht-degree: 3%
    1. 从&#x200B;**[!UICONTROL 类型]**&#x200B;下拉菜单中选择&#x200B;**[!UICONTROL 类型]**。
 
       当有任何**帐户时
-**被指定为**&#x200B;[!UICONTROL 中此处指定的]&#x200B;**&#x200B;类型[!DNL Salesforce]，在&#x200B;**&#x200B;[!UICONTROL 中创建了]**&#x200B;项目[!DNL Workfront]。
+**被指定为**[!UICONTROL 中此处指定的]**&#x200B;类型[!DNL Salesforce]，在&#x200B;**[!UICONTROL 中创建了]**&#x200B;项目[!DNL Workfront]。
 
       这是必填字段。
 
@@ -229,7 +232,7 @@ ht-degree: 3%
    * 输入日期
    * 所有者的名称
    * 状态
-   * 完成情况
+   * 条件
    * 规划完成日期
    * 完成百分比
 

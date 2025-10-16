@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront中上传新文档版本并请求其他�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
-source-git-commit: 42fbb40cb8a0f3c70e22fd04bd3d0ce625f58fec
+source-git-commit: b615236d2666ebcc6db0d1f796fb0baaf362e0f2
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -38,17 +38,19 @@ ht-degree: 0%
    <td> <p> 任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
    <td> <p>请求或更高版本</p>
-   <p>参与者或更高版本</p> </td> 
+   <p>参与者或更高版本</p>
+   <p>如果您使用的是Frame.io集成，则必须具有Standard许可证才能创建批准工作流。</p>
+    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>编辑对文档的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td> <p>编辑对文档的访问权限</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>编辑对与文档关联的对象的访问权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>编辑对与文档关联的对象的访问权限</p> </td> 
   </tr> 
  </tbody> 
 </table>

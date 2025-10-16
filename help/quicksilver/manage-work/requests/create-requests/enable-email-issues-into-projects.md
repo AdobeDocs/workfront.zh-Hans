@@ -3,12 +3,12 @@ product-area: requests
 navigation-topic: create-requests
 title: 允许用户通过电子邮件将问题发送到请求队列项目
 description: 您可以配置项目以允许用户通过电子邮件将问题添加到项目。
-author: Alina, Courtney
+author: Becky
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: bca543ad2ee8ead26cfa662900eb513af36f743c
+source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
@@ -27,21 +27,18 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td> <p>新文档：参与者或更高版本</p>
-   或
-   <p>当前：请求或更高版本</p>
+   <td> <p>参与者或更高版本</p>
+   <p>请求或更高版本</p>
     </td> 
   </tr> 
   <tr> 
@@ -55,7 +52,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -79,7 +76,7 @@ ht-degree: 0%
 >* Workfront允许在所有集群中为每个请求队列发送一封唯一的电子邮件。 如果选择禁用请求队列，则只要您创建的电子邮件地址仍在“接收电子邮件地址”框中，该电子邮件地址就会保留。 如果选择停止使用接收电子邮件，则必须从“接收电子邮件”字段中将其删除，以便将来可以使用该电子邮件。
 >
 >* 如果请求队列具有多个队列主题或主题组，Workfront将随机选择通过电子邮件发送的请求将转到的队列主题，从而使通过电子邮件发送的请求难以管理。
->  &#x200B;>我们建议，您设置为通过电子邮件接收请求的项目不应有多个队列主题。 如果提交的请求针对不同的资源或项目，则在提交请求后应手动路由或移动它们。
+>  >我们建议，您设置为通过电子邮件接收请求的项目不应有多个队列主题。 如果提交的请求针对不同的资源或项目，则在提交请求后应手动路由或移动它们。
 
 1. 转到要启用以通过电子邮件接收问题的项目。
 1. 单击左侧面板中的&#x200B;**队列详细信息**。

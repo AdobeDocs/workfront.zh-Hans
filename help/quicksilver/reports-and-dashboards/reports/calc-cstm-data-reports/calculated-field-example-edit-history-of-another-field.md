@@ -3,14 +3,14 @@ content-type: reference
 product-area: reporting
 keywords: 审核，跟踪，自定义，字段
 navigation-topic: calculate-custom-data-reports
-title: “计算自定义字段示例：显示字段的编辑历史记录”
+title: 计算自定义字段示例：显示字段的编辑历史记录
 description: 如果用户定期更新自定义字段，并且您希望捕获对字段所做的所有更改的日志以及发生更改的日期，则可以在计算的自定义字段中捕获此信息。
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: e233ef28-c95a-42a1-b2eb-448dad5feddb
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
@@ -35,35 +35,38 @@ ht-degree: 0%
 
 ## 访问要求
 
-您必须具备以下条件：
+## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
- <caption style="text-align: left;"> 
-  <p>*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。</p> 
- </caption> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront计划*</p> </td> 
-   <td>任何</td> 
+   <td> <p>Adobe Workfront包</p> </td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td> <p>Workfront许可证*</p> </td> 
-   <td> <p>计划 </p> </td> 
+   <td> <p>Adobe Workfront许可证</p> </td> 
+   <td>
+      <p>标准</p>
+      <p>规划</p></td>
   </tr> 
   <tr> 
-   <td><strong>访问级别配置*</strong> </td> 
-   <td> <p>对自定义Forms的管理访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td><p>访问级别配置</p></td> 
+   <td> <p>对自定义Forms的管理访问权限</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>对象权限</strong> </p> </td> 
-   <td> <p>管理自定义表单的权限 </p> <p>有关详细信息，请参阅<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">共享自定义表单</a>。<br></p> </td> 
+   <td> <p>对象权限</p> </td> 
+   <td> <p>管理自定义表单的权限</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先决条件
 

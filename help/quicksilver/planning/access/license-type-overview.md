@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: c879d06cfe7ba76df3e974c160a7349f1503f17f
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -46,22 +46,24 @@ ht-degree: 0%
 * 用户对于记录类型的权限不能超过其对于该记录类型所属的工作区的权限。
 * 删除用户对记录类型的权限不会删除他们对工作区中所有记录类型的查看访问权限，因为这不会删除他们对工作区的权限。
 
-| Adobe Workfront许可证类型* | Adobe Workfront Planning中允许的最高权限 |
+| Adobe Workfront许可证类型 | Adobe Workfront Planning中允许的最高权限 |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 标准 | <p>用户可以管理工作区、记录类型和视图。 他们可以创建、编辑或删除工作区、记录类型、记录、字段和视图。</p> <br> <p>系统管理员对所有工作区具有管理权限，包括他们未创建的工作区。</p> |
 | 浅色或参与者 | <p>用户可以查看与其共享的工作区，以及这些工作区的记录类型、记录和字段。</p> <br> <p>用户可以查看与其共享的视图，但不能创建自己的视图。 </p><br> <p>用户无法创建、编辑或删除工作区、记录类型、记录或字段。</p> |
 
-*Workfront Planning不适用于旧版Workfront许可证。
-有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+<!--Old: 
+*Workfront Planning is not available for legacy Workfront licenses. 
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
 
 ### 许可证类型以及工作区和记录类型的权限
 
 只有具有Standard许可证的用户才能对工作区和记录类型具有Contribute或Manage权限。 工作区和记录类型的Contribute和Manage权限也会传输到记录和字段。
 
+系统管理员可以查看系统中的所有工作区，包括他们未创建的工作区。
+
 具有所有其他许可证类型的用户均可以拥有对共享给他们的工作区和记录类型及其记录和字段的查看权限。
 
-系统管理员可以查看系统中的所有工作区，包括他们未创建的工作区。
 
 >[!INFO]
 >
@@ -76,7 +78,11 @@ ht-degree: 0%
 
 ### 许可证类型和视图权限
 
-只有具有Standard许可证的用户才能拥有视图的管理权限。 具有所有其他许可证类型的用户均可以拥有查看与其共享的视图的权限。
+只有具有Standard许可证的用户才能拥有视图的管理权限。
+
+系统管理员无法访问他们未创建的视图。 必须与他们共享。
+
+具有所有其他许可证类型的用户均可以拥有查看与其共享的视图的权限。
 
 >[!INFO]
 >

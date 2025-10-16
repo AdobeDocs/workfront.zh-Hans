@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d523584-dcb8-4aa6-8217-611f22dc1450
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 9e7d20fe165e08997c14e207406fb8bed7597a56
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '956'
 ht-degree: 1%
 
 ---
@@ -26,28 +26,26 @@ ht-degree: 1%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-   <td>任何</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td><p>新增：标准</p><p>或</p><p>当前：计划</p></td> 
+   <td><p>标准</p><p>规划</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td>
+   <td><p>您必须是Workfront管理员</p></td>
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -65,12 +63,12 @@ ht-degree: 1%
 
 根据您的组织是否使用Adobe统一体验，映射属性的过程会有所不同。
 
-要确定贵组织是否使用Adobe统一体验，请检查用于访问Workfront的URL。
+要确定您的组织是否位于Adobe统一体验中，请检查用于访问Workfront的URL。
 
 | URL | Adobe体验 |
 |---|---|
 | （公司名称）.my.workfront.com | 经典体验 |
-| experience.adobe.com | Adobe统一体验 |
+| experience.adobe.com | Adobe unified experience |
 
 * [在经典体验中映射用户属性](#map-user-attributes-in-the-classic-experience)
 * [在Adobe统一体验中映射用户属性](#map-user-attributes-in-the-adobe-unified-experience)
@@ -91,7 +89,7 @@ ht-degree: 1%
 
    您可以映射地址、经理、工作角色、主组等属性。
 
-   属性映射采用1:1的比率。 例如，您不能设置用户所属的每个组；您只能为每个用户设置一个。
+   属性映射以1:1的比率工作。 例如，您不能设置用户所属的每个组；您只能为每个用户设置一个。
 
    >[!IMPORTANT]
    >
@@ -142,7 +140,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >我们建议您在首次在AdobeUnified Experience中配置映射时迁移映射。 以后再迁移它们没有坏处，但不需要多次迁移。
+   >我们建议您在首次在Adobe Unified Experience中配置映射时迁移映射。 以后再迁移它们没有坏处，但不需要多次迁移。
 
 1. 要创建新的属性映射，请单击&#x200B;**添加映射**。
 

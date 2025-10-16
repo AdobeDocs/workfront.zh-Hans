@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
+source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '2851'
+source-wordcount: '2828'
 ht-degree: 6%
 
 ---
@@ -34,31 +34,27 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-   <td>任何</td> 
+   <td>Adobe Workfront包</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td>
-   <p> 新增：标准</p>
-   或
-   <p>当前：计划</p></td> 
+   <td>Adobe Workfront许可证</td> 
+   <td><p>标准</p>
+       <p>规划</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td> 
+   <td>访问级别配置</td> 
+   <td>系统管理员</td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -104,14 +100,14 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
     </thead> 
     <tbody> 
      <tr> 
-      <td scope="col"> <p>仪表板</p> <p>系统中所有公开共享的报告面板都可以导出。 无法在系统范围内导出非共享功能板。 在一次导出中，最多可以选择100个特定仪表板。</p> </td> 
+      <td scope="col"> <p>功能板</p> <p>系统中所有公开共享的报告面板都可以导出。 无法在系统范围内导出非共享功能板。 在一次导出中，最多可以选择100个特定仪表板。</p> </td> 
       <td scope="col">导出为ZIP文件</td> 
-      <td scope="col"> <p>参数</p> <p>说明文本</p><p>参数选项</p> <p>参数组</p> <p>类别参数</p> <p>类别</p> <p>报告</p> <p>门户选项卡部分</p> <p>仪表板</p> <p>首选项</p> </td> 
+      <td scope="col"> <p>参数</p> <p>说明文本</p><p>参数选项</p> <p>参数组</p> <p>类别参数</p> <p>类别</p> <p>报表</p> <p>门户选项卡部分</p> <p>功能板</p> <p>首选项</p> </td> 
      </tr> 
      <tr> 
-      <td scope="col"> <p>报告</p> <p>系统中的所有报告都可导出。 在单个导出中，最多可以选择100个特定报告。</p> <p>Kick-Starts不支持文本模式过滤器或分组。 为了成功导出，必须将报表过滤器和分组切换到“标准模式”。</p> </td> 
+      <td scope="col"> <p>报表</p> <p>系统中的所有报告都可导出。 在单个导出中，最多可以选择100个特定报告。</p> <p>Kick-Starts不支持文本模式过滤器或分组。 为了成功导出，必须将报表过滤器和分组切换到“标准模式”。</p> </td> 
       <td scope="col">导出为ZIP文件 </td> 
-      <td scope="col"> <p scope="col">参数</p> <p scope="col">说明文本</p> <p scope="col">参数选项</p> <p scope="col">参数组</p> <p scope="col">类别参数</p> <p scope="col">类别</p> <p scope="col">报告</p> <p scope="col">首选项</p> </td> 
+      <td scope="col"> <p scope="col">参数</p> <p scope="col">说明文本</p> <p scope="col">参数选项</p> <p scope="col">参数组</p> <p scope="col">类别参数</p> <p scope="col">类别</p> <p scope="col">报表</p> <p scope="col">首选项</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>审批</p> </td> 
@@ -189,9 +185,9 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
       <td> <p> 分组</p> <p>首选项 </p> </td> 
      </tr> 
      <tr> 
-      <td>小时</td> 
+      <td>Hour</td> 
       <td>导出为Excel文件</td> 
-      <td> <p> 小时</p> <p>首选项 </p> </td> 
+      <td> <p> Hour</p> <p>首选项 </p> </td> 
      </tr> 
      <tr> 
       <td>问题</td> 
@@ -216,9 +212,9 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
       <td> <p> 注释</p> <p>首选项 </p> </td> 
      </tr> 
      <tr> 
-      <td>项目组合</td> 
+      <td>组合</td> 
       <td>导出为Excel文件</td> 
-      <td> <p> 项目组合</p> <p>首选项 </p> </td> 
+      <td> <p> 组合</p> <p>首选项 </p> </td> 
      </tr> 
      <tr> 
       <td>项目</td> 
@@ -271,9 +267,9 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
       <td> <p> 时间表配置文件</p> <p>时间表</p> <p>首选项 </p> </td> 
      </tr> 
      <tr> 
-      <td>查看 </td> 
+      <td>视图 </td> 
       <td> <p>导出为ZIP文件</p> </td> 
-      <td> <p> 查看</p> <p>首选项 </p> </td> 
+      <td> <p> 视图</p> <p>首选项 </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -360,7 +356,7 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
    * 在列&#x200B;**setCategoryID**&#x200B;中，键入此自定义字段所在的现有自定义表单的GUID。 导入自定义数据时需要此字段。
    * 如果您需要在自定义字段中添加多个数据值（如单选按钮、复选框或列表），请使用首选项选项卡中列出的垂直条自定义数据分隔符“|”来分隔这些值。
 
-     **示例：**&#x200B;在DE：Departments列下键入A|D以填充自定义表单中的部门A和部门D。
+     **示例：**&#x200B;在DE:Departments列下键入A|D以填充自定义表单中的部门A和部门D。
 
      >[!NOTE]
      >
@@ -382,7 +378,7 @@ Workfront还接受时间值作为日期的一部分。
 
 如果忽略日期中的时间，Workfront会执行以下操作之一：
 
-* 假定时间为凌晨12:00。 要查看预期的日期结果，系统时区必须与您的时区匹配。
+* 假定时间为12:00 AM。 要查看预期的日期结果，系统时区必须与您的时区匹配。
 * 如果它位于与调度关联的对象上，则时间将推迟到调度允许的最早时间。
 
 >[!NOTE]

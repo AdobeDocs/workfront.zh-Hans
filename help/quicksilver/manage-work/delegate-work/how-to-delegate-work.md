@@ -3,10 +3,10 @@ filename: how-to-delegate-work
 navigation-topic: delegate-work
 title: 委派任务和问题
 description: 您可以在外出时临时委派分配给您的工作。 本文介绍了如何委派任务和问题分配。
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
 source-wordcount: '1547'
 ht-degree: 0%
@@ -55,12 +55,12 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>新文档：参与者或更高版本</p><p>或</p><p>当前：审阅或更高版本</p>
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p>参与者或更高版本</p><p>审核或更高</p>
 
 >[!NOTE]
 >
@@ -80,7 +80,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
  </tbody> 
 </table>
 
-*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -92,7 +92,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
 在执行本文中所述的活动之前，必须确保以下各项：
 
-* 您的[!DNL Workfront]或组管理员在[!DNL Workfront]实例的[!UICONTROL 设置]区域的[!UICONTROL 任务和问题偏好设置]部分启用了&#x200B;[!UICONTROL **允许用户委派其任务和问题**]&#x200B;设置。
+* 您的[!DNL Workfront]或组管理员在&#x200B;[!UICONTROL **实例的**]&#x200B;设置[!UICONTROL 区域的]任务和问题偏好设置[!UICONTROL 部分启用了]允许用户委派其任务和问题[!DNL Workfront]设置。
 
   有关详细信息，请参阅[配置系统范围的任务和问题首选项](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
 

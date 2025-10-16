@@ -7,10 +7,10 @@ description: 在创建或编辑任务时，您可以调整任务的“跟踪模�
 author: Alina
 feature: Work Management
 exl-id: 397b5593-ac01-40cf-b683-fcf671a53d26
-source-git-commit: d2836549ee3c615201ce5f3454258e9af31efa42
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 2%
 
 作为任务所有者或项目经理，您可以选择Workfront如何指示每个任务的进度状态。 有关如何设置任务的跟踪模式的信息，请参阅[为任务设置跟踪模式](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md)。
 
-您可以从以下选项中进行选择：
+您可以从下列选项中进行选择：
 
 * [用户必须更新](#user-must-update)
 * [假设发生时间](#assume-on-time)

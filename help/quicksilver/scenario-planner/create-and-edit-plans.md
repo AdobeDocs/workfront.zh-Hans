@@ -6,16 +6,16 @@ description: 在优先考虑公司的更高级别战略时，您可在使用Work
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
-source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
+source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
 workflow-type: tm+mt
-source-wordcount: '2434'
+source-wordcount: '2399'
 ht-degree: 0%
 
 ---
 
 # 在[!DNL Scenario Planner]中创建和编辑计划
 
-在优先处理公司更高级别的策略时，作为使用[!DNL Workfront Scenario Planner]的一部分，您可以创建计划。 有关计划的详细信息，请参阅 [!DNL Scenario Planner][&#128279;](../scenario-planner/plans-overview.md)中的计划概述。
+在优先处理公司更高级别的策略时，作为使用[!DNL Workfront Scenario Planner]的一部分，您可以创建计划。 有关计划的详细信息，请参阅[中的 [!DNL Scenario Planner]](../scenario-planner/plans-overview.md)计划概述。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -27,47 +27,78 @@ ht-degree: 0%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] 计划*</p> </td> 
-   <td> <ul></li>
-   <li><p>新增功能：Ultimate </p></li>
-   <p>Scenario Planner不可用于新的Workfront Select或Workfront Prime计划。 </p>
-   <li><p>当前： [!UICONTROL Business]或更高版本</p></ul>
+   <td> <p>[!DNL Adobe Workfront] 包</p> </td> 
+   <td> 
+   <p>Workfront Ultimate</p>
+<p><b>注释</b></p>
+<p>如果您拥有其他Workfront软件包，请与您的Workfront代表联系。</p>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] 许可证*</p> </td> 
-   <td> <p>新增：浅色或更高</p> 
-   <p>当前： [!UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] 许可证</p> </td> 
+   <td> <p>[！UICONTROL Light]或更高版本</p> 
+   <p>[！UICONTROL Review]或更高版本</p> </td> 
+  </tr> 
+    <tr> 
+   <td>访问级别配置</td> 
+   <td> <p>[！UICONTROL Edit]访问 [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr> 
-   <td>产品* </td> 
-   <td> <ul><li><p>对于新的Workfront计划：</p><p> Adobe Workfront</li></p>
-   <li><p>对于当前Workfront计划： </p>
-   <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
-
-<p>有关详细信息，请参阅<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用[!DNL Scenario Planner]</a>所需的访问权限。 </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>访问级别 </td> 
-   <td> <p>[!UICONTROL Edit]访问 [!DNL Scenario Planner]</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
    <td> <p>对象权限 </p> </td> 
-   <td> <p>[!UICONTROL Manage]对计划的权限</p> <p>有关请求对计划的附加访问权限的信息，请参阅<a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中请求对计划的访问权限。</p> </td> 
+   <td> <p>[！UICONTROL Manage]对计划的权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*有关信息，请参阅[Workfront文档的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关访问Scenario Planner的详细信息，请参阅[使用 [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)所需的访问权限。
+
+有关Workfront访问要求的信息，请参阅[Workfront访问要求文档](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
+   <td> <ul></li>
+   <li><p>New: Ultimate </p></li>
+   <p>The Scenario Planner is not available for the new Workfront Select or Workfront Prime plans. </p>
+   <li><p>Current: [!UICONTROL Business] or higher</p></ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] license*</p> </td> 
+   <td> <p>New: Light or higher</p> 
+   <p>Current: [!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Product* </td> 
+   <td> <ul><li><p>For the new Workfront plans:</p><p> Adobe Workfront</li></p>
+   <li><p>For the current Workfront plans: </p>
+   <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
+   
+   <p>For more information, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Access level </td> 
+   <td> <p>[!UICONTROL Edit] access to the [!DNL Scenario Planner]</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 创建或编辑计划
 
@@ -79,7 +110,7 @@ ht-degree: 0%
 
 本文介绍了如何从头开始创建计划或编辑现有计划。
 
-有关计划的所有注意事项，包括可用于计划的信息，请参阅 [!DNL Scenario Planner][&#128279;](../scenario-planner/plans-overview.md)中的计划概述。
+有关计划的所有注意事项，包括可用于计划的信息，请参阅[中的 [!DNL Scenario Planner]](../scenario-planner/plans-overview.md)计划概述。
 
 有关删除计划的信息，请参阅[删除 [!DNL Scenario Planner]](../scenario-planner/delete-plans.md)中的计划。
 
@@ -121,42 +152,42 @@ ht-degree: 0%
 
    ![新计划框](assets/new-plan-ui-adding-a-new-plan-350x306.png)
 
-1. （视情况而定）创建新计划时，请指定以下信息：
+1. （视情况而定）在创建计划时，请指定以下信息：
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 名称]</td> 
+      <td role="rowheader">[！UICONTROL名称]</td> 
       <td>键入计划的名称。 这是必填字段。</td> 
      </tr> 
      <tr> 
       <td role="rowheader" colspan="2"> <p>重要信息： <span style="font-weight: normal;">创建并保存计划后，无法修改以下选择。</span> </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>FTE （[!UICONTROL 全时等效项]）或[!UICONTROL 小时数]</span> </td> 
+      <td role="rowheader"><span>FTE （[！UICONTROL全时等效项]）或[！UICONTROL小时数]</span> </td> 
       <td> <p><span>选择以下选项之一以指示您希望如何估计此计划的工作角色信息：</span> </p> 
        <ul> 
       <li> <p><span><strong>FTE</strong>。 这是默认</span> </p> 
       <p><b>重要</b></p>  
       <p>对于[!DNL Scenario Planner]中的所有计算，[!DNL Workfront]使用以下值： 1 FTE = 8小时。 </p> </li> 
-      <li> <p><strong>[!UICONTROL 小时]</strong> </p> </li> 
+      <li> <p><strong>[！UICONTROL小时]</strong> </p> </li> 
        </ul> <p><b>重要</b></p>
 
    您在此处选择的选项决定了计划、计划方案和计划的工作角色信息的显示方式</p> </td>
    </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 开始日期]</td> 
+      <td role="rowheader">[！UICONTROL开始日期]</td> 
       <td> <p>选择计划要开始的月份和年份。 您只能在此字段中选择月份。 [!DNL Workfront]假定计划的开始日期是所选月份的第一天，结束日期是月份持续时间中结束的最后一天。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 持续时间]</td> 
+      <td role="rowheader">[！UICONTROL持续时间]</td> 
       <td> <p>从下拉菜单中选择以下持续时间：</p> 
        <ul> 
         <li>1年。 这是默认持续时间。 </li> 
-        <li>3年</li> 
-        <li> <p>5年</p> </li> 
+        <li>3 年</li> 
+        <li> <p>5 年</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -208,19 +239,19 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p role="rowheader">[!UICONTROL Max available]（适用于FTE） </p> <p role="rowheader">或 </p> <p role="rowheader"><span>[!UICONTROL 总计可用]（用于小时）</span> </p> </td> 
+      <td role="rowheader"> <p role="rowheader">[！UICONTROL Max available]（适用于FTE） </p> <p role="rowheader">或 </p> <p role="rowheader"><span>[！UICONTROL总计可用]（用于小时）</span> </p> </td> 
       <td> <p><span>根据您选择为计划使用小时数或FTE，在以下字段中键入</span>可用于对计划执行工作的工作角色FTE数<span>或小时数</span>： </p> 
        <ul> 
-        <li> <p style="font-weight: normal;"><strong>[!UICONTROL 总可用小时数]</strong>（表示小时数）：表示在方案持续期间所有月份的总小时数。 默认情况下，[!DNL Workfront]将总可用数平均除以方案持续时间中的所有月。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span>如果为Designer输入1200小时，则意味着在计划[!UICONTROL Duration]为1年时，Designer在计划持续时间每月有100小时可用。 </p> </li> 
-        <li> <p><b>[!UICONTROL 最大可用数量]</b>（对于FTE）：表示在计划持续时间内，工作角色每月可用的FTE数量。 默认情况下，<strong>Workfront</strong>在方案持续时间内每月分配[!UICONTROL Max available]数字。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span>如果您为顾问输入1 FTE，这意味着顾问在计划期间每月都有1 FTE可用。 </p> <p>您可以输入小于1 FTE的数字。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例：</b></span></span>0.5顾问工作角色意味着顾问将投入一半的FTE（通常为4小时，其中8小时是1 FTE）用于处理此计划。 对于Scenario Planner中的所有计算，Workfront使用以下值： 1 FTE = 8小时。 </p> </li> 
+        <li> <p style="font-weight: normal;"><strong>[！UICONTROL总可用小时数]</strong>（表示小时数）：表示在方案持续期间所有月份的总小时数。 默认情况下，[!DNL Workfront]将总可用数平均除以方案持续时间中的所有月。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span>如果为Designer输入1200小时，则意味着在计划[！UICONTROL Duration]为1年时，Designer在计划持续时间每月有100小时可用。 </p> </li> 
+        <li> <p><b>[！UICONTROL最大可用数量]</b>（对于FTE）：表示在计划持续时间内，工作角色每月可用的FTE数量。 默认情况下，<strong>Workfront</strong>在方案持续时间内每月分配[！UICONTROL Max available]数字。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span>如果您为顾问输入1 FTE，这意味着顾问在计划期间每月都有1 FTE可用。 </p> <p>您可以输入小于1 FTE的数字。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例：</b></span></span>0.5顾问工作角色意味着顾问将投入一半的FTE（通常为4小时，其中8小时是1 FTE）用于处理此计划。 对于Scenario Planner中的所有计算，Workfront使用以下值： 1 FTE = 8小时。 </p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p role="rowheader">[!UICONTROL Max required]（对于FTE）</p> <p role="rowheader">或 </p> <p role="rowheader"><span>[!UICONTROL Total required] （用于小时）</span> </p> </td> 
+      <td role="rowheader"> <p role="rowheader">[！UICONTROL Max required]（对于FTE）</p> <p role="rowheader">或 </p> <p role="rowheader"><span>[！UICONTROL Total required] （用于小时）</span> </p> </td> 
       <td> <p><span>根据您选择为计划使用小时数或FTE，查看</span>完成方案中的计划所需的工作角色FTE数<span>或</span>。 查看以下字段：</p> 
        <ul> 
-        <li> <p><strong>[!UICONTROL 所需总计]</strong>（小时数）：计划持续时间中所有月份所需的总小时数。</p> </li> 
-        <li> <p><strong>[!UICONTROL Max required]</strong> （对于FTE）：在计划持续时间内的任何月份所需的最大FTE数。 </p> </li> 
+        <li> <p><strong>[！UICONTROL所需总计]</strong>（小时数）：计划持续时间中所有月份所需的总小时数。</p> </li> 
+        <li> <p><strong>[！UICONTROL Max required]</strong> （对于FTE）：在计划持续时间内的任何月份所需的最大FTE数。 </p> </li> 
        </ul> <p>提示：开始添加计划后，将显示该工作角色所需的<span>最大</span>FTE数<span>或总小时数</span>。 有关将计划添加到计划的信息，请参阅<a href="../scenario-planner/create-and-edit-initiatives.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中创建和编辑计划。</p> </td> 
      </tr> <!--
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
@@ -233,8 +264,8 @@ ht-degree: 0%
       </tr>
      --> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 小时费率]</td> 
-      <td> <p>这是工作角色的[!UICONTROL 成本小时数]比率。 小时费率以系统的货币显示。 有关为系统设置汇率的信息，请参阅<a href="../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">设置汇率</a>。</p> </td> 
+      <td role="rowheader">[！UICONTROL小时费率]</td> 
+      <td> <p>这是工作角色的[！UICONTROL成本小时数]比率。 小时费率以系统的货币显示。 有关为系统设置汇率的信息，请参阅<a href="../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">设置汇率</a>。</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -254,35 +285,35 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 职位角色]（FTE或小时数）</td> 
+      <td role="rowheader">[！UICONTROL职位角色]（FTE或小时数）</td> 
       <td>可用于方案的工作角色和方案上的计划所需的工作角色都会显示在工作角色分配面板中。 在列标题中，指示工作角色估计是以FTE格式还是以小时为单位。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL 可用]（最大&lt;FTE数&gt;） </p> 
+      <td role="rowheader"> <p>[！UICONTROL可用]（最大&lt;FTE数&gt;） </p> 
        <div> 
         <p>或</p> 
-        <p>[!UICONTROL 可用] （总计&lt;小时数&gt;） </p> 
+        <p>[！UICONTROL可用] （总计&lt;小时数&gt;） </p> 
        </div> </td> 
       <td> <p><span>根据您选择为计划使用小时数或FTE，查看或更新</span>以下字段中可用于方案的每月工作角色FTE数<span>或</span>：</p> 
        <ul> 
-        <li> <p><strong>[!UICONTROL 可用] （最大&lt;FTE数&gt;）</strong>：括号中的数字显示方案任一月份可用角色的最大数量。 查看或更新方案每月的FTE数。 更改每月分配可能会更新括号中的FTE数量。 </p> </li> 
-        <li> <p><span><strong>[!UICONTROL 可用] （总计&lt;小时数&gt;）</strong>：括号中的数字显示方案中所有月的可用小时总数。 查看或更新方案每个月的小时数。 更改每月分配将更新括号中的小时数。</span> </p> </li> 
-       </ul> <p>手动更新每月工作角色分配是解决场景中计划之间的工作角色冲突的另一种方法。 </p> <p>提示：   <p><span>要更新每月角色可用状态几个月，请在任意月的[!UICONTROL Available]字段中键入小时数或FTE数，然后将该字段的边角拖动到相邻月份上，以复制每个月的相同值。 删除它以更新所有月份。</span> </p> <p> <img src="assets/job-role-distribution-draggable-corner-highlighted-350x83.png" style="width: 350;height: 83;"> </p> </p> </td> 
+        <li> <p><strong>[！UICONTROL可用] （最大&lt;FTE数&gt;）</strong>：括号中的数字显示方案任一月份可用角色的最大数量。 查看或更新方案每月的FTE数。 更改每月分配可能会更新括号中的FTE数量。 </p> </li> 
+        <li> <p><span><strong>[！UICONTROL可用] （总计&lt;小时数&gt;）</strong>：括号中的数字显示方案中所有月的可用小时总数。 查看或更新方案每个月的小时数。 更改每月分配将更新括号中的小时数。</span> </p> </li> 
+       </ul> <p>手动更新每月工作角色分配是解决场景中计划之间的工作角色冲突的另一种方法。 </p> <p>提示：   <p><span>要更新每月角色可用状态几个月，请在任意月的[！UICONTROL Available]字段中键入小时数或FTE数，然后将该字段的边角拖动到相邻月份上，以复制每个月的相同值。 删除它以更新所有月份。</span> </p> <p> <img src="assets/job-role-distribution-draggable-corner-highlighted-350x83.png" style="width: 350;height: 83;"> </p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p role="rowheader">[!UICONTROL 必需] （最大&lt;数字&gt;）</p> 
+      <td role="rowheader"> <p role="rowheader">[！UICONTROL必需] （最大&lt;数字&gt;）</p> 
        <div> 
         <p role="rowheader">或</p> 
-        <p role="rowheader">[!UICONTROL 必需] （总计&lt;数字&gt;）</p> 
+        <p role="rowheader">[！UICONTROL必需] （总计&lt;数字&gt;）</p> 
        </div> </td> 
       <td> <p><span>根据您选择为计划使用小时数还是FTE，在以下字段中查看</span>方案所需的工作角色FTE或小时数的月数： </p> 
        <ul> 
-        <li> <p><strong>[!UICONTROL Required] （最大&lt;FTE数&gt;）</strong>：括号中的数字显示方案任意一个月所需的最大角色数。 </p> </li> 
-        <li> <p><span><strong>[!UICONTROL 必需] （总计&lt;小时数&gt;）</strong>：括号中的数字显示方案中所有月份所需的总小时数。</span> </p> </li> 
+        <li> <p><strong>[！UICONTROL Required] （最大&lt;FTE数&gt;）</strong>：括号中的数字显示方案任意一个月所需的最大角色数。 </p> </li> 
+        <li> <p><span><strong>[！UICONTROL必需] （总计&lt;小时数&gt;）</strong>：括号中的数字显示方案中所有月份所需的总小时数。</span> </p> </li> 
        </ul> <p>提示：您无法修改工作角色所需的FTE数<span>或小时数</span>。 在您开始添加计划及其工作角色要求后，此数字将填充方案。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 差异]</td> 
+      <td role="rowheader">[！UICONTROL差异]</td> 
       <td> 
        <div> 
         <p>方案的所需工作角色数量与可用工作角色数量之间的每月差额。 [!DNL Workfront]使用以下公式计算每个工作角色每个月的差异：</p> 
@@ -291,7 +322,7 @@ ht-degree: 0%
        </div> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 利用率] %</td> 
+      <td role="rowheader">[！UICONTROL利用率] %</td> 
       <td> 
        <div> 
         <p>利用率的百分比显示了在场景中的计划上实际使用（或需要）的可用工作角色的数量。 </p> 
@@ -355,7 +386,7 @@ ht-degree: 0%
 
    有关添加计划的信息，请参阅文章[在 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md)中创建和编辑计划。
 
-1. （可选）复制现有方案以创建一个相同计划的新方案。 有关创建和使用多个方案的详细信息，请参阅[在 [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md)中创建和比较计划方案。
+1. （可选）复制现有方案以创建相同计划的方案。 有关创建和使用多个方案的详细信息，请参阅[在 [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md)中创建和比较计划方案。
 1. 单击&#x200B;**[!UICONTROL 保存计划]**。
 
    您的计划已创建或更新。

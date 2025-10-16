@@ -3,12 +3,12 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: 批准工时表
 description: 批准时间表的过程使经理能够了解其直接下属的工作时间。 审批者可以验证记录的所有时间是否分配到了正确的区域，以及期间是否记录了足够的小时数。
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
-source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
@@ -27,33 +27,28 @@ Adobe Workfront提供将时间表批准配置为支持此区域的功能。
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- </col> 
- <col> 
- </col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront计划</p></td> 
-   <td> <p>任何</p> </td> 
+   <td>Adobe Workfront包</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront许可证*</p></td> 
-   <td> <p>新增：标准</p>
-   <p>当前：计划 </p> 
-   <tr> 
-   <td role="rowheader">访问级别配置</td> 
-   <td> <p>对时间表和小时数的管理访问权限 </p> </td> 
-  </tr>
-
-</td> 
+   <td>Adobe Workfront许可证</td> 
+   <td>
+   <p>标准</p>
+   <p>规划</p></td>
+  </tr> 
+  <tr> 
+   <td>访问级别配置</td> 
+   <td><p>对时间表和小时数的管理访问权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -63,7 +58,7 @@ Adobe Workfront提供将时间表批准配置为支持此区域的功能。
 
 创建时间表配置文件时，会定义时间表批准者。 您必须拥有计划许可证才能被指定为批准者。
 
-有关指定时间表批准者的详细信息，请参阅文章[创建、编辑和分配时间表配置文件](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)中的[创建或编辑时间表配置文件](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md#create)部分。
+有关指定时间表批准者的详细信息，请参阅文章[创建、编辑和分配时间表配置文件](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md#create)中的[创建或编辑时间表配置文件](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)部分。
 
 ## 批准工时表
 
@@ -128,7 +123,7 @@ Adobe Workfront提供将时间表批准配置为支持此区域的功能。
 1. 单击以下按钮之一做出批准决定：
 
    * 批准
-   * 拒绝
+   * Reject
 
    审批将从&#x200B;**我的审批**&#x200B;构件中删除。
 

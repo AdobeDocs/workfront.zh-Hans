@@ -6,9 +6,9 @@ description: 为了高效地查找工作项并专注于您管理的用户或项�
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: fc82ce4b5abb2cd7411d62ac8bb428bc5337386f
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '2458'
+source-wordcount: '2437'
 ht-degree: 0%
 
 ---
@@ -36,27 +36,21 @@ ht-degree: 0%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
-
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-   <td> <p>任何</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td><p>新增：标准</p>
-       <p>当前：计划（在“资源”区域中使用工作负载均衡器时）</p>
-       <p>或</p>
-       <p>工作（使用团队或项目的工作负载均衡器时）</p></td>
+   <td>Adobe Workfront包</td> 
+   <td><p>任何</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
+   <td>Adobe Workfront许可证</td> 
+   <td><p>标准</p>
+       <p>在资源区域使用工作负载均衡器时进行规划；在使用团队或项目的工作负载均衡器时进行工作</p></td>
+  </tr>
+  <tr> 
+   <td>访问级别配置</td> 
    <td> <p>查看以下内容或更高访问权限：</p> 
     <ul> 
      <li>资源管理</li> 
@@ -68,7 +62,7 @@ ht-degree: 0%
     <p>在构建或编辑筛选器时编辑对筛选器、视图和分组的访问权限 </p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">对象权限</td> 
+   <td>对象权限</td> 
    <td> <p>查看或更高权限的项目、任务、问题</p>
    <p>管理要编辑或删除的筛选器的权限</p>
    </td> 
@@ -76,7 +70,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -153,7 +147,7 @@ ht-degree: 0%
 
 无论从何处访问工作负载均衡器，为工作负载均衡器中的未分配工作和分配的工作区域创建过滤器的过程都是相同的。 有关定位工作负载均衡器的信息，请参阅[定位工作负载均衡器](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)。
 
-您可以从头开始创建过滤器，或编辑某个预定义过滤器。 有关可编辑的现有筛选器的信息，请参阅本文的工作负载均衡器[&#128279;](#edit-an-existing-filter-in-the-workload-balancer)部分中的编辑现有筛选器。
+您可以从头开始创建过滤器，或编辑某个预定义过滤器。 有关可编辑的现有筛选器的信息，请参阅本文的工作负载均衡器[部分中的](#edit-an-existing-filter-in-the-workload-balancer)编辑现有筛选器。
 
 1. 转到工作负载均衡器。
 
@@ -235,11 +229,11 @@ ht-degree: 0%
    ![选择图标](assets/new-filters-select-icon.png)
 
 1. （可选）添加筛选器&#x200B;**描述**。 说明显示在过滤器列表的过滤器名称下。
-1. 单击&#x200B;**保存**。 保存的筛选器显示在筛选器框的&#x200B;**我的筛选器**&#x200B;区域中。
+1. 单击 **Save**。保存的筛选器显示在筛选器框的&#x200B;**我的筛选器**&#x200B;区域中。
 
    有关应用已保存过滤器的信息，请参阅本文中的[删除工作负载均衡器中的已保存过滤器](#delete-a-saved-filter-in-the-workload-balancer)部分。
 
-1. （视情况而定）将鼠标悬停在&#x200B;**未分配的工作**&#x200B;或&#x200B;**已分配的工作**&#x200B;区域的右上角的&#x200B;**筛选器**&#x200B;图标![筛选器图标](assets/filter-icon.png)上，以显示包含当前应用的筛选器名称或数量的工具提示。
+1. （视情况而定）将鼠标悬停在&#x200B;**未分配的工作**&#x200B;或![已分配的工作](assets/filter-icon.png)区域的右上角的&#x200B;**筛选器**&#x200B;图标&#x200B;**筛选器图标**&#x200B;上，以显示包含当前应用的筛选器名称或数量的工具提示。
 
    ![筛选器图标和筛选器的名称](assets/filter-icon-with-number-and-tooltip-with-name-of-filter-wb-nwe-350x98.png)
 
@@ -258,7 +252,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   > 编辑筛选器时，您可以单击&#x200B;**编辑筛选器**&#x200B;框左下角的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu-edit-filter.png)，然后单击&#x200B;**复制**。
+   > 编辑筛选器时，您可以单击&#x200B;**编辑筛选器**&#x200B;框左下角的![更多](assets/more-menu-edit-filter.png)菜单&#x200B;**更多**，然后单击&#x200B;**复制**。
 
 1. 为复制的过滤器编辑以下信息：
 
@@ -268,7 +262,7 @@ ht-degree: 0%
    * 任何字段、修饰符或值。
 
 1. （可选）单击&#x200B;**添加过滤器**&#x200B;以将更多语句添加到重复的过滤器。
-1. 单击“保存”**&#x200B;**&#x200B;以将复制的筛选器保存在&#x200B;**我的筛选器**&#x200B;区域。 原始筛选器保持不变，复制的筛选器另存为新筛选器。
+1. 单击“保存”****&#x200B;以将复制的筛选器保存在&#x200B;**我的筛选器**&#x200B;区域。 原始筛选器保持不变，复制的筛选器另存为新筛选器。
 
 ## 在工作负载均衡器中编辑现有过滤器 {#edit-an-existing-filter-in-the-workload-balancer}
 
@@ -294,7 +288,7 @@ ht-degree: 0%
 
 1. （可选）单击&#x200B;**应用**。 结果将在左侧的工作负载均衡器中更新，以说明您对过滤器所做的更改。
 
-1. 单击&#x200B;**保存**。 结果在左侧的工作负载均衡器中更新，过滤器使用您选择的新信息更新。
+1. 单击 **Save**。结果在左侧的工作负载均衡器中更新，过滤器使用您选择的新信息更新。
 
 ## 删除工作负载均衡器中保存的过滤器 {#delete-a-saved-filter-in-the-workload-balancer}
 
@@ -320,7 +314,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >编辑筛选器时，您可以单击&#x200B;**编辑筛选器**&#x200B;框左下角的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu-edit-filter.png)，然后单击&#x200B;**删除**。
+   >编辑筛选器时，您可以单击&#x200B;**编辑筛选器**&#x200B;框左下角的![更多](assets/more-menu-edit-filter.png)菜单&#x200B;**更多**，然后单击&#x200B;**删除**。
 
 1. （可选）单击&#x200B;**取消**&#x200B;以取消删除并返回筛选器列表。
 1. 单击&#x200B;**删除**&#x200B;以确认删除。 该过滤器将会为您和对其具有权限的所有用户删除。
@@ -349,7 +343,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   > 编辑筛选器时，您可以单击&#x200B;**编辑筛选器**&#x200B;框左下角的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu-edit-filter.png)，然后单击&#x200B;**共享**。
+   > 编辑筛选器时，您可以单击&#x200B;**编辑筛选器**&#x200B;框左下角的![更多](assets/more-menu-edit-filter.png)菜单&#x200B;**更多**，然后单击&#x200B;**共享**。
 
 1. 在&#x200B;**将访问权限授予**&#x200B;字段中，键入要与其共享该过滤器的用户、团队、角色、组或公司的名称，然后在它们出现时选择它们。
 

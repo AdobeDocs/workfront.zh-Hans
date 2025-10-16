@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: 计算的自定义字段与计算的列
 description: 要聚合Adobe Workfront中的多个字段并在新字段中显示聚合值，您可以在自定义表单中创建计算自定义字段，或在视图中创建计算列。
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
 source-wordcount: '817'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
   有关将计算自定义字段添加到自定义表单的详细信息，请参阅[将计算字段添加到表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)。
 
 * 视图中的计算列\
-  有关在视图中使用计算的更多信息，请参阅文章[文本模式的常见使用概述](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)中的[在视图](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#use-text-mode-in-views)中使用文本模式部分。
+  有关在视图中使用计算的更多信息，请参阅文章[文本模式的常见使用概述](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#use-text-mode-in-views)中的[在视图](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)中使用文本模式部分。
 
 虽然使用文本模式来构建计算字段和计算列，但构建它们的语法不同。 请参阅上面列出的文章，了解如何构建计算字段和计算列。 有关在计算数据表达式（如计算自定义字段和列）中使用的不同语法的信息，请参阅本文中的[计算自定义字段与计算自定义列的语法](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md#syntax-of-calculated-custom-fields-vs-calculated-custom-columns)部分。
 

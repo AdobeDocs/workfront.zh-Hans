@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d24f2aae-1c3d-41ed-ad17-6276bef2cf45
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1202'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ in January 2022
 
 重新设计的界面与我们最近更新的模板创建项目时的体验相匹配。
 
-有关详细信息，请参阅[在Adobe Workfront中将问题转化为项目](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)。
+有关详细信息，请参阅[将问题转化为项目](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)。
 
 ## 使用列表、报告和报告面板中的模板将问题转化为项目
 

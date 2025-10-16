@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 0c2a54406ceb690e638cdc0376a3dc01a7c2df76
+source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
 workflow-type: tm+mt
-source-wordcount: '2434'
+source-wordcount: '2412'
 ht-degree: 0%
 
 ---
@@ -47,31 +47,27 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具备以下条件才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront计划</p> </td> 
-   <td>任何</td> 
+  <tr> 
+   <td>Adobe Workfront包</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td>
-   <p>新增：标准</p>
-   <p>或</p>
-   <p>当前：计划</p></td>
+   <td>Adobe Workfront许可证</td> 
+   <td><p>标准</p>
+       <p>规划</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">访问级别配置</td> 
+  <tr> 
+   <td>访问级别配置</td> 
    <td> <p>对自定义表单的管理访问权限</p> </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -182,7 +178,7 @@ ht-degree: 0%
 
       每个字段都必须用大括号括起来。 当您开始键入字段名称时，系统会提供建议，您可以选择一个来将其插入到计算中。
 
-+++ **展开以查看计算自定义字段中所需的语法**
+      +++ **展开以查看计算自定义字段中所需的语法**
 
       每个字段都必须使用下面解释的语法，每个字段名称两侧都应使用大括号。 当您开始键入字段名称时，系统会提供建议，您可以选择一个来将其插入到计算中。 如果在计算中输入的数据不正确，则会出现警告消息，提醒您。 除非编辑计算以包含有效字段和有效计算表达式，否则无法保存表单。
 
@@ -194,7 +190,7 @@ ht-degree: 0%
 
       * 如果您希望计算引用内置字段，则该字段的名称必须用大括号括起来。
 
-        例如： `{actualRevenue}`
+        例如：`{actualRevenue}`
 
         字段名称区分大小写，且必须准确显示在计算中Workfront系统中的显示方式。
 
@@ -202,7 +198,7 @@ ht-degree: 0%
 
       * 如果您希望计算引用自定义字段，则该字段的名称必须用大括号括起来，并在括号内加上`DE:`。
 
-        例如： `{DE:Profit}`
+        例如：`{DE:Profit}`
 
         系统列出了键入`DE:`时可以选择的所有自定义字段。
 
@@ -282,7 +278,7 @@ ht-degree: 0%
            >
            ><div>在附加到对象的自定义表单中，计算自定义字段中的日期和时间语句通过协调世界时(UTC)进行计算和保存，而不是通过为组织的实例和用户配置文件设置的时区配置进行计算和保存。 自定义表单中的计算根据每个用户的各个时区生成。</div>
 
-+++
+        +++
 
    1. 单击大文本框，然后单击&#x200B;**表达式**&#x200B;和&#x200B;**字段**，它们可用于将其添加到计算中。
 
@@ -292,13 +288,13 @@ ht-degree: 0%
 
       如果键入左圆括号，则会自动添加右圆括号。
 
-+++ **展开以查看有用的提示**
+      +++ **展开以查看有用的提示**
 
       >[!TIP]
       >
       >您可以执行以下任一操作以获得有关计算的帮助：
       > 
-      >* 将鼠标悬停在计算中的表达式上可查看说明、如何使用该表达式的示例，以及文章[计算数据表达式概述](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)中有关更多信息&#x200B;**了解更多**&#x200B;链接。
+      >* 将鼠标悬停在计算中的表达式上可查看说明、如何使用该表达式的示例，以及文章&#x200B;**计算数据表达式概述**&#x200B;中有关更多信息[了解更多](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)链接。
       >  ![表达式帮助文本](assets/hover-expression-help-text.jpg)
       >* 使用颜色编码标识已添加的组件。 表达式以蓝色显示，字段以绿色显示。
       >  字段表达式的![颜色](assets/colors-fields-expressions.jpg)
@@ -309,7 +305,7 @@ ht-degree: 0%
       >  ![预览计算](assets/preview-calc.jpg)
       >* 使用左侧显示的行号在长计算中引用表达式。
 
-+++
+      +++
    1. 完成计算自定义字段的计算后，单击&#x200B;**最小化**。
 
    1. （可选）使用以下任意选项进一步配置计算出的自定义字段：

@@ -6,9 +6,9 @@ description: 您可以将画板作为验证直接上传到Adobe Workfront以进�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -21,36 +21,35 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
-   <td> <p>当前计划： [!UICONTROL Pro]或更高版本</p> <p>或</p> <p>旧版计划： [!UICONTROL Premium]</p> <p>有关验证不同规划的访问权限的更多信息，请参阅。</p> </td> 
+ <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] 包</td> 
+   <td>任何 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>当前计划： [!UICONTROL Work]或[!UICONTROL Proof]</p> <p>旧版计划：任意（您必须为用户启用验证）</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
+   <td> <p>标准</p> <p>工作或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">产品</td> 
-   <td>除了[!DNL Workfront]许可证，您还必须具有[!DNL Adobe Creative Cloud]许可证。</td> 
+   <td role="rowheader">其他产品</td> 
+   <td>除了[!DNL Adobe Creative Cloud]许可证，您还必须具有[!DNL Workfront]许可证。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">校样权限配置文件 </td> 
-   <td>[!UICONTROL Manager]或更高版本</td> 
+   <td>[！UICONTROL Manager]或更高版本</td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>编辑对[!UICONTROL 文档]的访问权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>编辑对[！UICONTROL文档]的访问权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、角色或验证权限配置文件，请联系您的[!DNL Workfront]或[!DNL Workfront Proof]管理员。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
 
 +++
 
@@ -88,17 +87,17 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Basic]： </td> 
+      <td role="rowheader">[！UICONTROL Basic]： </td> 
       <td> <p>基本审批流程是临时性的，可以根据需要包括不同的审阅人： </p> 
        <ul> 
         <li> <p>（可选）将<strong>审批者</strong>添加到框中。</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Automated]</td> 
+      <td role="rowheader">[！UICONTROL Automated]</td> 
       <td> <p>自动批准流程由管理员预先构建，并包括特定的审阅人和阶段。 有关详细信息，请参阅<a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">自动化工作流概述</a>。</p> 
        <ul> 
-        <li> <p>从下拉菜单中选择一个[!UICONTROL 工作流模板]。</p> </li> 
+        <li> <p>从下拉菜单中选择一个[！UICONTROL工作流模板]。</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -108,14 +107,14 @@ ht-degree: 0%
 
 1. （可选）在&#x200B;**[!UICONTROL 更新]**&#x200B;区域键入评论。
 
-   在XD中![校对审批](assets/proof-approvals-xd-350x396.png)
+   在XD中![验证审批](assets/proof-approvals-xd-350x396.png)
 
 1. 从&#x200B;**[!UICONTROL 资源类型]**&#x200B;下拉菜单中选择导出格式。
 
 
-1. （可选）如果您选择PDF作为资源类型并且选择了多个画板，请选择您要将画板导出为&#x200B;**[!UICONTROL 单个PDF文件]s**&#x200B;还是&#x200B;**M[!UICONTROL 多个PDF文件]**。
+1. （可选）如果您选择PDF作为资源类型并且选择了多个画板，请选择是要将画板导出为&#x200B;**[!UICONTROL 单个PDF文件]s**&#x200B;还是&#x200B;**M[!UICONTROL 多个PDF文件]**。
 
-1. （可选）为PDF命名。
+1. （可选）将PDF命名为。
 
    ![PDF选项](assets/pdf-options.png)
 
@@ -164,17 +163,17 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Basic]： </td> 
+      <td role="rowheader">[！UICONTROL Basic]： </td> 
       <td> <p>基本审批流程是临时性的，可以根据需要包括不同的审阅人： </p> 
        <ul> 
         <li> <p>（可选）将<strong>审批者</strong>添加到框中。</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Automated]</td> 
+      <td role="rowheader">[！UICONTROL Automated]</td> 
       <td> <p>自动批准流程由管理员预先构建，并包括特定的审阅人和阶段。 有关详细信息，请参阅<a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">自动化工作流概述</a>。</p> 
        <ul> 
-        <li> <p>从下拉菜单中选择一个[!UICONTROL 工作流模板]。</p> </li> 
+        <li> <p>从下拉菜单中选择一个[！UICONTROL工作流模板]。</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -184,10 +183,10 @@ ht-degree: 0%
 
 1. （可选）在&#x200B;**[!UICONTROL 更新]**&#x200B;区域键入评论。
 
-   在XD中![校对审批](assets/proof-approvals-xd-350x396.png)
+   在XD中![验证审批](assets/proof-approvals-xd-350x396.png)
 
 1. 在&#x200B;**[!UICONTROL 资产类型]**&#x200B;下拉菜单中，在&#x200B;**共享链接**&#x200B;选项卡下选择您刚刚创建的链接。 有关详细信息，请参阅[为画板创建交互式链接](#create-an-interactive-link-for-your-artboard)。\
-   ![在XD中共享链接](assets/shared-links-xd-350x870.png)
+   在XDS中![共享链接](assets/shared-links-xd-350x870.png)
 
 1. 单击&#x200B;**[!UICONTROL 上传]**。
 
@@ -223,17 +222,17 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Basic]： </td> 
+      <td role="rowheader">[！UICONTROL Basic]： </td> 
       <td> <p>基本审批流程是临时性的，可以根据需要包括不同的审阅人： </p> 
        <ul> 
         <li> <p>（可选）将<strong>审批者</strong>添加到框中。</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Automated]</td> 
+      <td role="rowheader">[！UICONTROL Automated]</td> 
       <td> <p>自动批准流程由管理员预先构建，并包括特定的审阅人和阶段。 有关详细信息，请参阅<a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">自动化工作流概述</a>。</p> 
        <ul> 
-        <li> <p>从下拉菜单中选择一个[!UICONTROL 工作流模板]。</p> </li> 
+        <li> <p>从下拉菜单中选择一个[！UICONTROL工作流模板]。</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -247,11 +246,11 @@ ht-degree: 0%
 
 1. （可选）在&#x200B;**[!UICONTROL 更新]**&#x200B;区域键入评论。
 
-   在XD中![校对审批](assets/proof-approvals-xd-350x396.png)
+   在XD中![验证审批](assets/proof-approvals-xd-350x396.png)
 
-1. （可选）如果您选择PDF作为资源类型并且选择了多个画板，请选择您要将画板导出为&#x200B;**[!UICONTROL 单个PDF文件]s**&#x200B;还是&#x200B;**M[!UICONTROL 多个PDF文件]**。
+1. （可选）如果您选择PDF作为资源类型并且选择了多个画板，请选择是要将画板导出为&#x200B;**[!UICONTROL 单个PDF文件]s**&#x200B;还是&#x200B;**M[!UICONTROL 多个PDF文件]**。
 
-1. （可选）为PDF命名。
+1. （可选）将PDF命名为。
 
    PDF选项
 

@@ -6,9 +6,9 @@ description: 在创建团队期间或之后，您可以为Kanban敏捷团队配�
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1484'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,6 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -46,15 +44,14 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>新文档： [!UICONTROL Standard]</p> 
-   或
-   <p>当前： [!UICONTROL Work]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p>标准</p> 
+   <p>工作或更高</p> </td> 
   </tr>
 
 <tr> 
@@ -164,7 +161,7 @@ ht-degree: 0%
 
 定义Kanban团队的WIP限制时，可以通过限制可在[!UICONTROL Kanban]展示板上的[!UICONTROL New]或[!UICONTROL In Progress]列中出现的任务数来控制团队当前正在处理的项目数。
 
-配置Kanban团队的WIP限制后，您可以查看WIP限制并从[!UICONTROL Kanban]敏捷故事板更新它，如[!UICONTROL Kanban]展示板[&#128279;](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)上的管理正在进行的工作(WIP)限制中所述。
+配置Kanban团队的WIP限制后，您可以查看WIP限制并从[!UICONTROL Kanban]敏捷故事板更新它，如[Kanban[!UICONTROL 展示板]上的](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)管理正在进行的工作(WIP)限制中所述。
 
 要限制Kanban团队的WIP，请执行以下操作：
 
@@ -204,7 +201,7 @@ WIP限制只是一个视觉上的警告，不会限制您的团队在一列中�
 
 1. 选择&#x200B;**[!UICONTROL 自动从积压工作]**&#x200B;添加下一个故事，以配置在项目移出&#x200B;**[!UICONTROL 进行中]**&#x200B;列时，积压工作中的下一个项目自动添加到&#x200B;**[!UICONTROL 新建]**&#x200B;列。
 
-   用户必须在[!UICONTROL Kanban]展示板上启用&#x200B;**显示积压**&#x200B;设置，此功能才能生效。 当用户启用[!UICONTROL Kanban展示板]上的[!UICONTROL 显示积压]设置时，将执行以下功能：
+   用户必须在&#x200B;**Kanban**&#x200B;展示板上启用[!UICONTROL 显示积压]设置，此功能才能生效。 当用户启用[!UICONTROL Kanban展示板]上的[!UICONTROL 显示积压]设置时，将执行以下功能：
 
    每当故事从[!UICONTROL 进行中]列移动到故事板上代表[!UICONTROL 完成]状态（或相当于[!UICONTROL 完成]状态）的列时，积压列中的故事就会自动移动到[!UICONTROL Kanban展示板]的[!UICONTROL 新建]列。
 从积压中添加时，具有最高优先级的故事会添加到故事板。

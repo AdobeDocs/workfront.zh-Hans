@@ -7,9 +7,9 @@ description: 请求表示待处理任务或问题分配。 向个人提出工作
 author: Lisa
 feature: People Teams and Groups, Work Management
 exl-id: ef96e520-0d5f-4180-a27a-1fbbffff8f2b
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -26,27 +26,23 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td>
    <p>要分配或处理请求，请执行以下操作：
-   <p>新建：浅色或更高</br>
-    或</br>
-   当前：审阅或更高版本</p>
+   <p>浅色或更高</p>
+  <p>审核或更高</p>
    <p>要重新分配请求，请执行以下操作：
-   <p>新建： Standard</br>
-    或</br>
-   当前：工作或更高</p></td>
+   <p>标准</p>
+   <p>工作或更高</p></td>
   </tr> 
  </tbody> 
 </table>

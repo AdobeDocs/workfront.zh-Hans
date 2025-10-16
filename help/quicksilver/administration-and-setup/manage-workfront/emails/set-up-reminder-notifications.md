@@ -5,9 +5,9 @@ author: Alina, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '1209'
 ht-degree: 2%
 
 ---
@@ -35,21 +35,18 @@ An example of how this can be used would be helpful here and/or in the section <
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td> <p>新增：标准 </p>
- <p>或</p> 
-<p>当前：计划</p> 
+   <td> <p>标准 </p>
+<p>规划</p> 
 </td> 
   </tr> 
   <tr> 
@@ -59,7 +56,7 @@ An example of how this can be used would be helpful here and/or in the section <
  </tbody> 
 </table>
 
-*有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -157,7 +154,7 @@ An example of how this can be used would be helpful here and/or in the section <
 
 当附加了提醒通知的项目满足条件时，将向提醒通知中定义的用户触发电子邮件通知。
 
-有关接收提醒通知的更多信息，请参阅[Adobe Workfront通知](../../../workfront-basics/using-notifications/wf-notifications.md)中的[提醒通知](../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications)部分。
+有关接收提醒通知的更多信息，请参阅[Adobe Workfront通知](../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications)中的[提醒通知](../../../workfront-basics/using-notifications/wf-notifications.md)部分。
 
 ## 测试提醒通知投放
 

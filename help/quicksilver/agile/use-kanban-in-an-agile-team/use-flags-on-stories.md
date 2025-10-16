@@ -6,9 +6,9 @@ description: 在 [!DNL Kanban] 展示板上，标记提供故事何时可以移�
 author: Lisa
 feature: Agile
 exl-id: e19a007d-737c-42d4-aa69-771d8a9e9fd8
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,6 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -39,14 +37,13 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>新文档： [!UICONTROL Standard]</p> 
-   或
-   <p>当前： [!UICONTROL Work]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p>标准</p> 
+   <p>工作或更高</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -65,7 +62,7 @@ ht-degree: 0%
 
 1. 转到[!UICONTROL Kanban]展示板，您要在该展示板上更改文章的标志。
 1. 展开故事拼贴以查看标志。
-默认情况下，每个文章的标志均设置为&#x200B;**[!UICONTROL 跟踪]**。
+默认情况下，每个文章的标志均设置为**[!UICONTROL 跟踪]**。
    ![看板卡](assets/agile-storycard-kanban-2021-350x308.png)
 
 1. 单击当前标志，然后从以下标志选项中选择：

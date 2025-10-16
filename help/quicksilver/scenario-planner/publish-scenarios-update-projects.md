@@ -2,14 +2,14 @@
 product-area: enterprise-scenario-planner-product-area
 keywords: 发布，计划，项目，方案，方案
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: 通过在场景规划程序中发布计划来更新或创建项目
+title: 通过在方案规划器中发布计划来更新或创建项目
 description: 您可以通过在Adobe Workfront方案规划程序中发布方案，从现有计划创建项目并更新先前链接到计划的项目。
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
-source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
+source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '1696'
 ht-degree: 0%
 
 ---
@@ -23,50 +23,87 @@ ht-degree: 0%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] 计划*</p> </td> 
-   <td> <ul></li>
-   <li><p>新增功能：Ultimate </p></li>
-   <p>Scenario Planner不可用于新的Workfront Select或Workfront Prime计划。 </p>
-   <li><p>当前： [!UICONTROL Business]或更高版本</p></ul>
+   <td> <p>[!DNL Adobe Workfront] 包</p> </td> 
+   <td> 
+   <p>Workfront Ultimate</p>
+<p><b>注释</b></p>
+<p>如果您拥有其他Workfront软件包，请与您的Workfront代表联系。</p>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] 许可证*</p> </td> 
-   <td> <p>新增：浅色或更高</p> 
-   <p>当前： [!UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] 许可证</p> </td> 
+   <td> <p>[！UICONTROL Light]或更高版本</p> 
+   <p>[！UICONTROL Review]或更高版本</p> </td> 
+  </tr> 
+    <tr> 
+   <td>访问级别配置</td> 
+   <td> <p>对[!DNL Scenario Planner]和[！UICONTROL项目的[！UICONTROL Edit]访问权限</p></td> 
   </tr> 
   <tr> 
-   <td>产品* </td> 
-   <td> <ul><li><p>对于新的Workfront计划：</p><p> Adobe Workfront</li></p>
-   <li><p>对于当前Workfront计划： </p>
-   <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
-
-<p>有关详细信息，请参阅<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用[!DNL Scenario Planner]</a>所需的访问权限。 </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>访问级别 </td> 
-   <td> <p>对[!DNL Scenario Planner]和&lbrack;！UICONTROL项目的[!UICONTROL Edit]访问权限</p></td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
    <td> <p>对象权限 </p> </td> 
-   <td>  <ul> 
-     <li>计划的[!UICONTROL Manage]权限 </li> 
-     <li>已发布项目的[!UICONTROL Manage]权限</li> 
-    </ul> <p>有关请求对计划的附加访问权限的信息，请参阅<a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中请求对计划的访问权限。</p> </td> 
+   <td> <ul> 
+     <li>计划的[！UICONTROL Manage]权限 </li> 
+     <li>已发布项目的[！UICONTROL Manage]权限</li> 
+    </ul>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*有关信息，请参阅[Workfront文档的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关访问Scenario Planner的详细信息，请参阅[使用 [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)所需的访问权限。
+
+有关Workfront访问要求的信息，请参阅[Workfront访问要求文档](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
+   <td> <ul></li>
+   <li><p>New: Ultimate </p></li>
+   <p>The Scenario Planner is not available for the new Workfront Select or Workfront Prime plans. </p>
+   <li><p>Current: [!UICONTROL Business] or higher</p></ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] license*</p> </td> 
+   <td> <p>New: Light or higher</p> 
+   <p>Current: [!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Product* </td> 
+   <td> <ul><li><p>For the new Workfront plans:</p><p> Adobe Workfront</li></p>
+   <li><p>For the current Workfront plans: </p>
+   <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
+   
+   <p>For more information, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Access level </td> 
+   <td> <p>[!UICONTROL Edit] access for the [!DNL Scenario Planner] and [!UICONTROL Projects]</p></td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Object permissions </p> </td> 
+   <td>  <ul> 
+     <li>[!UICONTROL Manage] permissions for the plan </li> 
+     <li>[!UICONTROL Manage] permissions for published projects</li> 
+    </ul> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
+
 
 ## 先决条件
 
@@ -112,16 +149,16 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL All]</td> 
+      <td role="rowheader">[！UICONTROL All]</td> 
       <td>显示您拥有或与您共享的所有计划。 这是默认设置。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 我的计划]</td> 
+      <td role="rowheader">[！UICONTROL我的计划]</td> 
       <td>显示您创建的计划。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 已与我共享]</td> 
-      <td> <p>显示您未创建但与您共享的计划。</p> <p>重要信息：您必须对与您共享的计划具有[!UICONTROL Manage]权限才能发布这些计划。 </p> </td> 
+      <td role="rowheader">[！UICONTROL已与我共享]</td> 
+      <td> <p>显示您未创建但与您共享的计划。</p> <p>重要信息：您必须对与您共享的计划具有[！UICONTROL Manage]权限才能发布这些计划。 </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -163,15 +200,15 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL All]</td> 
+      <td role="rowheader">[！UICONTROL All]</td> 
       <td>显示选定方案的所有计划。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 已发布]</td> 
+      <td role="rowheader">[！UICONTROL已发布]</td> 
       <td>显示您或其他用户之前发布的计划。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 已取消发布]</td> 
+      <td role="rowheader">[！UICONTROL已取消发布]</td> 
       <td> <p>显示未发布的计划。 </p> </td> 
      </tr> 
     </tbody> 
@@ -205,30 +242,30 @@ ht-degree: 0%
 
      ![项目详细信息中的方案规划者](assets/scenario-planner-on-project-details-350x135.png)
 
-     以下计划信息发布在[!UICONTROL 项目详细信息]部分的[!DNL Scenario Planner]区域：
+     以下计划信息发布在[!DNL Scenario Planner]项目详细信息[!UICONTROL 部分的]区域：
 
      <table style="table-layout:auto"> 
       <col> 
       <col> 
       <tbody> 
        <tr> 
-        <td role="rowheader"><span>[!UICONTROL 计划持续时间]</span> </td> 
+        <td role="rowheader"><span>[！UICONTROL计划持续时间]</span> </td> 
         <td><span>项目链接到计划时，相应计划的持续时间。 此字段不可编辑。</span> </td> 
        </tr> 
        <tr> 
-        <td role="rowheader"><span>[!UICONTROL 上次发布日期]</span> </td> 
+        <td role="rowheader"><span>[！UICONTROL上次发布日期]</span> </td> 
         <td><span>上次从相应的计划发布项目的日期。</span> </td> 
        </tr> 
        <tr> 
-        <td role="rowheader"><span>[!UICONTROL 计划开始日期]</span> </td> 
+        <td role="rowheader"><span>[！UICONTROL计划开始日期]</span> </td> 
         <td><span>项目链接到计划时，计划开始月份的第一天。</span> </td> 
        </tr> 
        <tr> 
-        <td role="rowheader"><span>[!UICONTROL 计划结束日期]</span> </td> 
+        <td role="rowheader"><span>[！UICONTROL计划结束日期]</span> </td> 
         <td><span>当项目链接到计划时，计划结束月份的最后一天。</span> </td> 
        </tr> 
        <tr> 
-        <td role="rowheader"><span>[!UICONTROL FTE和小时数中的计划工作角色]</span> </td> 
+        <td role="rowheader"><span>[！UICONTROL FTE和小时数中的计划工作角色]</span> </td> 
         <td> <p>有关相关工作角色及其为计划分配的时间的信息。 这包括：</p> 
          <ul> 
           <li>工作角色名称</li> 
@@ -244,12 +281,12 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >所有对该项目具有[!UICONTROL 查看]权限的用户都可以在[!UICONTROL 概述]区域中看到[!DNL Scenario Planner]部分。 您可以使用布局模板控制此区域是否显示在[!UICONTROL 详细信息]部分中。 如果用户没有与其关联的布局模板，则默认情况下将显示此区域。
+     >所有对该项目具有[!UICONTROL 查看]权限的用户都可以在[!DNL Scenario Planner]概述[!UICONTROL 区域中看到]部分。 您可以使用布局模板控制此区域是否显示在[!UICONTROL 详细信息]部分中。 如果用户没有与其关联的布局模板，则默认情况下将显示此区域。
      >
      >   
      >   
      >   * 有关使用布局模板在[!UICONTROL 详细信息]部分中添加或删除区域的信息，请参阅[使用布局模板自定义[!UICONTROL 详细信息]视图](../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)。
-     >   * 有关查看[!UICONTROL 项目详细信息]的[!UICONTROL 概述]区域中的信息的详细信息，请参阅项目[!UICONTROL 概述]区域[&#128279;](../manage-work/projects/manage-projects/understand-project-overview-area.md)中的[!UICONTROL 管理]信息。
+     >   * 有关查看[!UICONTROL 项目详细信息]的[!UICONTROL 概述]区域中的信息的详细信息，请参阅项目[[!UICONTROL 概述]区域[!UICONTROL 中的]管理](../manage-work/projects/manage-projects/understand-project-overview-area.md)信息。
      >   
      >
 
@@ -261,9 +298,9 @@ ht-degree: 0%
 
      对项目日期或资源所做的任何更改不会影响相应的计划或项目上包含计划信息的任何区域。
 
-   * **项目**&#x200B;的[!UICONTROL 业务案例]的[!UICONTROL 资源预算]区域：在项目的[!UICONTROL 业务案例]的[!UICONTROL 资源预算]区域中添加了一个用于使用[!DNL Scenario Planner]信息管理项目资源的新选项。
+   * **项目[!UICONTROL 的]业务案例[!UICONTROL 的]资源预算**&#x200B;区域：在项目的[!DNL Scenario Planner]业务案例[!UICONTROL 的]资源预算[!UICONTROL 区域中添加了一个用于使用]信息管理项目资源的新选项。
 
-     有关详细信息，请参阅[!UICONTROL 商业案例]中使用 [!DNL Scenario Planner][&#128279;](../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的预算资源。
+     有关详细信息，请参阅[商业案例[!UICONTROL 中使用]的 [!DNL Scenario Planner]](../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)预算资源。
 
      ![业务案例中的场景规划器](assets/sp-in-business-case-selected-350x110.png)
 

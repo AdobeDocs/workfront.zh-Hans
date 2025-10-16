@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 71ef7a50-7a9f-43c4-b67c-8d9fc722569f
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 0%
+source-wordcount: '406'
+ht-degree: 1%
 
 ---
 
@@ -30,6 +30,33 @@ Adobe Workfront有两种发布新功能和更新的模型。 您可以选择按�
 >
 >* 在23.3版（2023年7月）之后购买Workfront的客户在默认情况下会启用快速发布流程，并且可以选择退出。
 >* 对于在23.3版本之前购买了Workfront的客户，默认情况下会禁用快速发布流程，并且可以选择加入。
+
+## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Workfront包</td> 
+   <td><p>任何</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td><p>标准</p> <p>规划</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td>您必须是Workfront管理员。 </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 启用或禁用快速发布流程时的注意事项
 

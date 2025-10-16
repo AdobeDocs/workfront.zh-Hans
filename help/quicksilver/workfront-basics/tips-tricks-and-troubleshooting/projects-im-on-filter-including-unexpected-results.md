@@ -6,10 +6,10 @@ description: 阅读本文以对我的项目过滤器进行故障排除，包括�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 4701464a-4cf5-4be1-bcc0-0892019986ec
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 1%
+source-wordcount: '184'
+ht-degree: 3%
 
 ---
 
@@ -17,26 +17,34 @@ ht-degree: 1%
 
 ## 访问要求
 
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划</strong></td> 
-   <td> <p>任何</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Adobe[!DNL Workfront]许可证</strong></td> 
-   <td> <p>[!UICONTROL 计划] </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>访问级别配置</strong></td> 
-   <td> <p>[!UICONTROL 系统管理员]</p> </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+   <td>Adobe Workfront包
+   </td>
+   <td> <p>Prime或Ultimate</p>
+    <p>工作流 Ultimate</p>
+   </td>
+  </tr>
+  <tr>
+   <td>Adobe Workfront许可证
+   </td>
+   <td><p>标准</p>
+   <p>规划</p>
+   </td>
+  </tr>
+   <tr>
+   <td>访问级别配置
+   </td>
+   <td>您必须是[!DNL Workfront]管理员。
+   </td>
+  </tr>
 </table>
+
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
+
 
 ## 问题
 
@@ -48,7 +56,7 @@ ht-degree: 1%
 
 1. 检查筛选器包含的每个意外项目的&#x200B;[!UICONTROL **项目详细信息**]，并从所有字段中移除您的名称。
 
-   或
+   或者
 
 1. 尝试使用类似的过滤器，如&#x200B;[!UICONTROL **我拥有的项目**]，它仅包括专门分配给您的项目。
 

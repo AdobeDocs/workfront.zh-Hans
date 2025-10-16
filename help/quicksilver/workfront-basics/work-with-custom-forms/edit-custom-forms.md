@@ -7,50 +7,84 @@ description: 将自定义表单附加到对象后，您可以编辑该表单上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
 
 # 编辑自定义表单字段中的信息
 
+<!--Audited: 10/2025-->
+
 将自定义表单附加到对象后，您可以编辑该表单上的信息。 有关将自定义表单添加到对象的信息，请参阅[将自定义表单添加到对象](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)。
 
 ## 访问要求
 
-您必须具备以下条件：
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Workfront计划*</p> </td> 
-   <td>团队或更高</td> 
+   <td role="rowheader"> <p>Adobe Workfront包</p> </td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Workfront许可证*</p> </td> 
-   <td> <p>请求或更高版本</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront许可证</p> </td> 
+   <td> <p>参与者或更高版本</p> 
+   <p>请求或更高版本</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">访问级别*</td> 
-   <td> <p>编辑对要编辑其自定义表单的对象的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑对要编辑其自定义表单的对象的访问权限</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>对象权限</p> </td> 
    <td> 
     <ul> 
      <li> <p>要编辑自定义表单的对象的Contribute或更高权限</p> </li> 
-     <li>查看要编辑的字段的权限。 有关共享自定义字段权限的信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md" class="MCXref xref">配置自定义字段和小部件的共享</a>。</li> 
-     <li> <p>编辑表单上要编辑的字段所在区域的权限</p> </li> 
-    </ul> <p>有关请求对象的其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+     <li><p>查看要编辑的字段的权限。</p></li> 
+     <li><p>编辑表单上要编辑的字段所在区域的权限</p></li> 
+    </ul></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Workfront plan*</p> </td> 
+   <td>Team or higher</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Workfront licenses*</p> </td> 
+   <td> <p>Request or higher</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Access level*</td> 
+   <td> <p>Edit access to the object for which you want to edit the custom form</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Object permissions</p> </td> 
+   <td> 
+    <ul> 
+     <li> <p>Contribute or higher permissions on the object for which you want to edit the custom form</p> </li> 
+     <li>View permissions on the fields you want to edit. For information about sharing permissions for custom fields, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md" class="MCXref xref">Configure sharing for custom fields and widgets</a>.</li> 
+     <li> <p>Edit permissions for the sections on the form where the fields you want to edit are located</p> </li> 
+    </ul> <p>For information on requesting additional access for objects, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 先决条件
 
@@ -105,7 +139,7 @@ ht-degree: 0%
 
    修改页面上的依赖字段时，自定义表单上的计算字段会实时动态重新计算。 您可以在不保存表单的情况下查看新的计算字段值，但在保存更改之前，该值不会实际应用于表单和对象。 这适用于默认表单以及自定义表单中的计算字段。
 
-   当您与列表中的其他对象一起批量编辑对象时，也可以手动更新该对象的所有计算自定义字段。 有关说明，请参阅在编辑本文中的对象[&#128279;](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects)时，重新计算列表中多个对象的所有计算自定义字段。
+   当您与列表中的其他对象一起批量编辑对象时，也可以手动更新该对象的所有计算自定义字段。 有关说明，请参阅在编辑本文中的对象[时，重新计算列表中多个对象的所有计算自定义字段](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects)。
 
 ## 重新计算对象的所有已计算自定义字段  {#recalculate-all-calculated-custom-fields-for-an-object}
 
@@ -132,9 +166,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->根据项目的复杂性，我们建议不要在批量重新计算已计算的自定义字段时选择大量项目以确保最佳性能。 某些因素可能会使项目过于复杂，例如多个依赖项或分配或者大量自定义字段。
->
->要从项目列表中批量重新计算自定义表达式，请执行以下操作：
+>您还可以从对象列表中重新计算自定义表达式。 例如，要从项目列表中批量重新计算自定义表达式，请执行以下操作：
 >
 >1. 转到项目列表或报告，然后选择一个或多个项目。
 >1. 单击&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)，然后单击&#x200B;**重新计算自定义表达式**。
@@ -142,3 +174,7 @@ ht-degree: 0%
 >![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 >
 >Workfront会为所有选定项目计算所有自定义字段。
+>>并非所有对象的列表都具有此功能。
+>
+>根据项目的复杂性，我们建议不要在批量重新计算已计算的自定义字段时选择大量项目以确保最佳性能。 某些因素可能会使项目过于复杂，例如多个依赖项或分配或者大量自定义字段。
+

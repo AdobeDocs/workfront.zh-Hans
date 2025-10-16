@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
-title: “计算自定义字段示例：在问题自定义表单上显示问题创建者的经理”
+title: 计算自定义字段示例：在问题自定义表单上显示问题创建者的经理
 description: 使用计算自定义字段，您可以在附加到问题的自定义表单上显示问题创建者的经理姓名。 使用相同的语句，您可以为项目、问题和其他对象构建类似的计算字段。
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: f501ce1a-7a80-458b-9b30-2292426c9262
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -26,32 +26,36 @@ ht-degree: 0%
 
 ## 访问要求
 
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront计划*</p> </td> 
-   <td>任何</td> 
+   <td> <p>Adobe Workfront包</p> </td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront许可证*</p> </td> 
-   <td> <p>计划 </p> </td> 
+   <td> <p>Adobe Workfront许可证</p> </td> 
+   <td>
+      <p>标准</p>
+      <p>规划</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td>访问级别配置*</td> 
-   <td> <p>对自定义表单的管理访问权限<br>有关从访问级别授予管理访问权限的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予用户对特定区域的管理访问权限</a>。</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+  <tr> 
+   <td><p>访问级别配置</p></td> 
+   <td> <p>对自定义表单的管理访问权限</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td> <p>对象权限</p> </td> 
-   <td> <p>Contribute对表单附加到的对象的访问权限，以及对编辑自定义表单的访问权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>分配对表单所附加对象的访问权限，并具有编辑自定义表单的访问权限</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 在问题自定义表单上显示问题创建者的经理
 

@@ -7,9 +7,9 @@ description: 资源管理允许您配置系统，以便根据资源的可用性�
 author: Lisa
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
@@ -119,7 +119,7 @@ Workfront有几组用于管理资源的工具。 每个工具都有一个单独�
   有关资源规划和分配工作的详细信息，请参阅以下部分：
 
    * [资源计划：文章索引](../../resource-mgmt/resource-planning/resource-planning-overview.md)
-   * [Adobe Workfront Scenario Planner](../../scenario-planner/scenario-planning.md)
+   * [[!DNL Adobe Workfront Scenario Planner]：文章索引](../../scenario-planner/scenario-planning.md)
    * [工作负载均衡器：文章索引](../../resource-mgmt/workload-balancer/workload-balancer.md)
 
 <!--
@@ -167,8 +167,8 @@ Workfront有几组用于管理资源的工具。 每个工具都有一个单独�
 
 有关Workfront中每个资源管理工具的要求的信息，请参阅以下内容：
 
-* [资源规划者概述](../../resource-mgmt/resource-planning/get-started-resource-planner.md)文章中的[使用资源规划者的先决条件](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner)部分。
-* 文章[工作负载均衡器概述](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)中的[使用工作负载均衡器的最佳实践](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer)部分。
+* [资源规划者概述](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner)文章中的[使用资源规划者的先决条件](../../resource-mgmt/resource-planning/get-started-resource-planner.md)部分。
+* 文章[工作负载均衡器概述](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer)中的[使用工作负载均衡器的最佳实践](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)部分。
 * [在Adobe Workfront中预算资源所需的访问权限](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md)。
 * [在工作负载均衡器](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)中管理资源所需的访问权限。
 

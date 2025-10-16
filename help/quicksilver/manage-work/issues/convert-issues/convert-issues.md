@@ -1,27 +1,29 @@
 ---
 product-area: projects
 navigation-topic: convert-issues
-title: 在Adobe Workfront中转化问题概述
+title: 在Adobe Workfront中转换问题概述
 description: 如果在提交问题后需要完成更多工作，您可以将问题转化为项目或任务。
 author: Alina
 feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1506'
+source-wordcount: '1497'
 ht-degree: 2%
 
 ---
 
 # 在Adobe Workfront中转化问题概述
 
+<!--Audited: 08/2025-->
+
 如果在提交问题后需要完成更多工作，您可以将问题转化为项目或任务。
 
-有关将问题转化为任务的信息，请参阅[在Adobe Workfront中将问题转化为任务](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)。
+有关将问题转化为任务的信息，请参阅[将问题转化为任务](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)。
 
-有关将问题转化为项目的信息，请参阅[在Adobe Workfront中将问题转化为项目](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)。
+有关将问题转化为项目的信息，请参阅[将问题转化为项目](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)。
 
 ## 转化问题时的注意事项
 
@@ -62,7 +64,7 @@ ht-degree: 2%
 
 将问题转化为项目时，您可以将其转化为空白项目或使用模板。
 
-有关信息，请参阅[在Adobe Workfront中将问题转化为项目](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)。
+有关信息，请参阅[将问题转化为项目](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)。
 
 使用模板时，模板中填充的某些字段会传输到从转换的问题创建的项目。 其他字段从转换的问题转移到项目。
 
@@ -111,7 +113,7 @@ ht-degree: 2%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>项目组合</td> 
+   <td>组合</td> 
    <td>从模板进行传输。 否则，此字段为空。</td> 
   </tr> 
   <tr> 

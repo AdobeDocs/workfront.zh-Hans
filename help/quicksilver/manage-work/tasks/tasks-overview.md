@@ -2,15 +2,15 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: “任务：文章索引”
+title: 任务：文章索引
 description: 任务是Adobe Workfront中影响项目完成的较小工作项。 请参阅以下文章以了解有关管理任务的信息。
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 08a47320-b847-4b18-b4c0-1b9f67cfd248
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
@@ -27,5 +27,5 @@ ht-degree: 0%
 * [管理任务](../../manage-work/tasks/manage-tasks/manage-tasks.md)
 * [任务约束](../../manage-work/tasks/task-constraints/task-constraints.md)
 * [任务持续时间和持续时间类型：文章索引](../../manage-work/tasks/taskdurtn/task-duration-duration-type.md)
-* [使用任务前置任务](../../manage-work/tasks/use-prdcssrs/use-task-predecessors.md)
+* [使用任务前置任务：文章索引](../../manage-work/tasks/use-prdcssrs/use-task-predecessors.md)
 * [任务的提示、技巧和疑难解答](../../manage-work/tasks/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-tasks.md)

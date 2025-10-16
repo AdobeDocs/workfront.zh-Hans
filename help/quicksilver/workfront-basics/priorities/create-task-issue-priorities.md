@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 3%
+source-wordcount: '247'
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,6 @@ ht-degree: 3%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,14 +29,14 @@ ht-degree: 3%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront计划</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront包</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront许可证*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront许可证</strong></td> 
    <td> 
-   <p>当前：请求或更高请求；问题审查或更高请求；任务的工作或更高请求</p>
-   <p>新：请求的参与者或更高；问题和文档的轻度或更高：标准或更高任务</p> 
+   <p>请求或更高请求；问题查看或更高请求；任务的工作或更高请求</p>
+   <p>请求的参与者或更高；问题和文档的轻度或更高：标准或更高任务</p> 
    </td> 
   </tr> 
   <tr> 
@@ -75,7 +74,7 @@ ht-degree: 3%
    |---------------|-------------|
    | 工作项类型（可选） | 选择是要创建&#x200B;**任务**&#x200B;还是&#x200B;**问题**。 |
    | 名称 | 输入名称。 |
-   | 描述（非必要） | 输入说明。 |
+   | 描述（可选） | 输入说明。 |
    | 项目 | 开始键入项目名称，然后从下拉列表中选择该名称。 |
    | 被分派人（可选） | 将人员分配给工作项。 |
    | 截止日期（可选） | 选择截止日期。 |

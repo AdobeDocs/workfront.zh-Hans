@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 934cef1a-8157-45db-b000-24a08a94dd18
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 15063d937a5ba9b5285c66a0987e8deea6cc6d74
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '643'
 ht-degree: 1%
 
 ---
@@ -23,33 +23,31 @@ ht-degree: 1%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
+## 访问要求
 
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
-   <td> <p>任何 </p> </td> 
+   <td>[!DNL Adobe Workfront] 包</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td>
-   <p>新文档： [!UICONTROL Standard]</p>
-   <p>或</p>
-   <p>当前： [!UICONTROL 计划]</p></td> 
+   <td>[!DNL Adobe Workfront] 许可证</td> 
+   <td><p>[！UICONTROL标准版]</p>
+       <p>[！UICONTROL计划]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
-   <td>对工作角色的管理访问权限</td> 
+   <td>访问级别配置</td> 
+   <td>对工作角色的管理访问权限</td>
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -70,9 +68,9 @@ ht-degree: 1%
 * [!UICONTROL 资源池]中的[!UICONTROL 池成员]字段
 * 当用户覆盖项目的计费费率时，[!UICONTROL 计费费率]编辑屏幕的[!UICONTROL 工作角色]字段
 * 项目中的[!UICONTROL 将工作分配添加到Kanban展示板]对话框
-* 当有人使用[!DNL Adobe Workfront Scenario Planner]时，计划或计划的[!UICONTROL 工作角色]字段。
+* 当有人使用[!UICONTROL 时，计划或计划的]工作角色[!DNL Adobe Workfront Scenario Planner]字段。
 
-  [!DNL Scenario Planner]仅在新的[!DNL Adobe Workfront]体验中可用，并且需要额外的许可证。 有关[!DNL Workfront Scenario Planner]的信息，请参阅[概述 [!DNL Scenario Planner] &#x200B;](../../../scenario-planner/scenario-planner-overview.md)。
+  [!DNL Scenario Planner]仅在新的[!DNL Adobe Workfront]体验中可用，并且需要额外的许可证。 有关[!DNL Workfront Scenario Planner]的信息，请参阅[概述 [!DNL Scenario Planner] ](../../../scenario-planner/scenario-planner-overview.md)。
 
 >[!TIP]
 >

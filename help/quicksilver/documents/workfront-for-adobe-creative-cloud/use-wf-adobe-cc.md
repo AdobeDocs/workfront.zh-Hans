@@ -6,9 +6,9 @@ description: 您可以使用Workfront扩展将您在Adobe Illustrator和Adobe In
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 40945eac-e8de-42af-b6ba-f3082c208e02
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 3f9a824780f2ded914d461a473aef3b6ecfa8701
 workflow-type: tm+mt
-source-wordcount: '3107'
+source-wordcount: '3069'
 ht-degree: 0%
 
 ---
@@ -31,32 +31,30 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >我们建议使用适用于Photoshop[&#128279;](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)的新Adobe Workfront插件。
+  >我们建议使用适用于Photoshop[的新](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)Adobe Workfront插件。
 
 ## 访问要求
 
 +++ 展开以查看本文中各项功能的访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>当前： Pro或更高版本</p>
-   或
-   <p>新建：任何计划</p> </td> 
+   <td role="rowheader">Adobe Workfront包</td> 
+   <td> <p>任何</p>
+ </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>当前：工作或更高</p>
-   或
-   <p>新增：标准</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> 
+      <p>标准</p> 
+   <p>工作或更高</p>
+</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">产品</td> 
+   <td role="rowheader">其他产品</td> 
    <td>除了Adobe Creative Cloud许可证之外，您必须具有Workfront许可证。</td> 
   </tr> 
   <tr> 
@@ -66,7 +64,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。 有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -289,7 +287,7 @@ ht-degree: 0%
 
 ## 从Illustrator或InDesign生成验证 {#generate-a-proof-from-illustrator-or-indesign}
 
-如果您的组织使用自动工作流模板，则无需离开应用程序，即可为您在Adobe应用程序中创建的文档生成验证。 有关创建验证的信息，请参阅[创建验证](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)。 有关自动化工作流模板的信息，请参阅[自动化工作流概述](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)中的[自动化工作流模板](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate)。
+如果您的组织使用自动工作流模板，则无需离开应用程序，即可为您在Adobe应用程序中创建的文档生成验证。 有关创建验证的信息，请参阅[创建验证](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)。 有关自动化工作流模板的信息，请参阅[自动化工作流概述](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate)中的[自动化工作流模板](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)。
 
 1. 打开一个受支持的Adobe应用程序。
 1. 如果未显示Workfront扩展，请单击&#x200B;**窗口** > **扩展** > Workfront。

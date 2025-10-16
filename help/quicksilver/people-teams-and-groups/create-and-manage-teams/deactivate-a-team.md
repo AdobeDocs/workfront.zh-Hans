@@ -6,9 +6,9 @@ description: 您可以停用不再使用的团队，同时保留关联的历史�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 634e4c0f-aa1d-4197-92e3-54f414344ac0
-source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -28,41 +28,38 @@ ht-degree: 0%
     </ul> 
     <ul> 
      <li> <p>对象的“共享”对话框</p> </li> 
-     <li> <p>[!UICONTROL 用户配置文件]*</p> </li> 
+     <li> <p>[！UICONTROL用户配置文件]*</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL 团队]区域中的主选择下拉菜单</p> </li> 
-     <li> <p>[!UICONTROL Assignments]预输入</p> </li> 
-     <li> <p>项目中的[!UICONTROL 添加到Kanban]展示板对话框</p> </li> 
+     <li> <p>[！UICONTROL团队]区域中的主选择下拉菜单</p> </li> 
+     <li> <p>[！UICONTROL Assignments]预输入</p> </li> 
+     <li> <p>项目中的[！UICONTROL添加到Kanban]展示板对话框</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-当您搜索团队时，已停用的团队不会显示，但如果用户在停用之前被分配到团队，则仍会显示在[!UICONTROL 主团队]和其他团队中。
+当您搜索团队时，已停用的团队不会显示，但如果用户在停用之前被分配到团队，则仍将显示在[!UICONTROL 主团队]和其他团队中。
 
 ## 访问要求
 
 +++ 展开以查看本文中各项功能的访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader"> <p>Adobe Workfront包</p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td>
-   <p>新增：标准</p>
-   <p>或</p>
-   <p>当前：计划</p></td>
-  </tr>
+   <p>标准</p>
+   <p>规划</p></td>
+  </tr> 
   <tr>
    <td>访问级别配置</td>
    <td><p>要停用团队，不需要配置。</p>

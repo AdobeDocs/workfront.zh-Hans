@@ -7,9 +7,9 @@ description: Workfront目标将战略与工作执行和交付联系起来，帮�
 author: Alina
 feature: Workfront Goals
 exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -18,22 +18,34 @@ ht-degree: 0%
 
 <!--Audited: 4/2025-->
 
+>[!NOTE]
+>
+>如果您的公司以前购买过此包，则可能会选择继续使用Adobe Workfront Goals。 有关详细信息，请与您的客户代表联系。
+>
+>Adobe Workfront目标不再可供购买。
+>
+>有关访问Workfront目标的更多信息，请参阅[使用Workfront目标的要求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
+
+<!--Old: 
+
 >[!IMPORTANT]
 >
->您的组织必须具备以下条件才能使用本文中所述的功能：
+>Your organization must have the following to use the functionality described in this article:
 >
->* 对于新计划和许可证结构：
+>* For the new plan and license structure:
 >
->   * Ultimate Workfront计划
+>   * The Ultimate Workfront plan 
 >    
->* 对于当前计划和许可证结构：
+>* For the current plan and license structure: 
 >
->   * Pro或更高版本Workfront计划
->   * 除了Adobe Workfront许可证之外，还提供了Workfront目标许可证。
+>   * A Pro or higher Workfront plan
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
->请联系您的Workfront客户经理，了解有关Workfront Goals许可证的信息。
+>Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->有关访问Workfront目标的更多信息，请参阅[使用Workfront目标的要求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   
+
+-->
 
 Workfront目标将战略与工作执行和交付联系起来，帮助您定义、传达和实现战略成果。 您可以将每个人的努力集中在真正重要的事情上，使进展可衡量，并使团队能够取得令人惊叹的结果。 人们可以尽最大努力工作，因为他们知道自己的贡献会产生有意义的影响。
 
@@ -43,7 +55,9 @@ Workfront目标是核心Workfront工作管理平台的附加模块。 它旨在�
 
 >[!IMPORTANT]
 >
->您使用Workfront目标管理的战略目标不应与作为项目业务案例一部分的项目级目标混淆。 有关项目级目标的信息，请参阅[创建业务案例目标](../../manage-work/projects/define-a-business-case/create-business-case-goals.md)。
+>您不应将使用Workfront目标管理的战略目标与作为项目业务案例一部分的项目级目标混淆。
+>
+>有关项目级目标的信息，请参阅[创建业务案例目标](../../manage-work/projects/define-a-business-case/create-business-case-goals.md)。
 
 ## Workfront Goals功能
 

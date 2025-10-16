@@ -7,9 +7,9 @@ description: 工作流是一组可配置的展示板和卡片，用于协作处�
 author: Lisa
 feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '934'
 ht-degree: 1%
 
 ---
@@ -30,22 +30,19 @@ ht-degree: 1%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
-   <p>新文档： [!UICONTROL Contributor]或更高版本</p> 
-   <p>或</p>
-   <p>当前： [!UICONTROL Request]或更高版本</p>
+   <p>参与者或更高版本</p> 
+   <p>请求或更高版本</p>
    </td> 
   </tr> 
  </tbody> 
@@ -59,7 +56,7 @@ ht-degree: 1%
 
 {{step1-to-boards}}
 
-1. 在仪表板的[!UICONTROL 工作流]区域单击&#x200B;**[!UICONTROL 添加工作流]**。
+1. 在仪表板的&#x200B;**[!UICONTROL 工作流]**&#x200B;区域单击[!UICONTROL 添加工作流]。
 1. 键入名称以替换&#x200B;**[!UICONTROL 无标题工作流]**，然后按Enter。
 
    您可以将展示板添加到工作流，或单击&#x200B;[!UICONTROL **所有展示板**]&#x200B;返回到仪表板。
@@ -67,7 +64,7 @@ ht-degree: 1%
 ## 在工作流中创建新讨论区
 
 1. 如果您尚未在工作流中，请单击仪表板上的&#x200B;[!UICONTROL **查看工作流**]&#x200B;以打开现有的工作流。
-1. 在工作流的[!UICONTROL 讨论区]选项卡上单击&#x200B;**[!UICONTROL 添加讨论区]**。
+1. 在工作流的&#x200B;**[!UICONTROL 讨论区]**&#x200B;选项卡上单击[!UICONTROL 添加讨论区]。
 1. 为展示板选择模板。
 
 | 模板 | 描述 |

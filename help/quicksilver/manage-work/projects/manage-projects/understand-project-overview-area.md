@@ -2,15 +2,15 @@
 content-type: overview
 product-area: projects
 navigation-topic: manage-projects
-title: 在项目概述区域管理信息
-description: 在项目概述区域管理信息
+title: 管理项目概述区域中的信息
+description: 您可以通过访问项目详细信息部分的概述区域来查看或编辑项目信息。 您可以在此区域中查看或编辑的字段数量有限。
 author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1404'
 ht-degree: 3%
 
 ---
@@ -25,35 +25,64 @@ ht-degree: 3%
 
 ## 访问要求
 
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">Adobe Workfront许可证*</p> </td> 
-   <td> <p>审核或更高</p> </td> 
+   <td role="rowheader"> <p role="rowheader">Adobe Workfront许可证</p> </td> 
+   <td><p>浅色或更高</p> 
+   <p>审核或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>查看项目访问权限或更高版本 </p>
-
-<p>如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>查看项目访问权限或更高版本</p>
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看对项目的访问权限以查看有关项目的有限信息</p> 
-   <p>管理对项目的访问权限以编辑有关项目的信息</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p role="rowheader">Adobe Workfront license*</p> </td> 
+   <td> <p>Review or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>View access or higher to Projects </p>
+   
+   <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View access to the project to view limited information about the project</p> 
+   <p>Manage access to the project to edit information about the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 访问概述部分
 
@@ -109,7 +138,7 @@ ht-degree: 3%
       <td>确定经理是设置项目条件还是Workfront设置条件。 有关项目条件的信息，请参阅文章<a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">项目条件和条件类型概述</a>。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">排程模式</td> 
+      <td role="rowheader">计划模式</td> 
       <td>设置项目的计划方式。 例如，从开始日期还是从完成日期开始计划项目。 </td> 
      </tr> 
      <tr> 
@@ -121,7 +150,7 @@ ht-degree: 3%
       <td> 项目计划完成的时间。 当项目从完成日期开始安排时，这由项目经理手动设置。 当项目从开始日期开始安排时，Workfront会根据项目中任务的持续时间自动设置此日期。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">项目组合</td> 
+      <td role="rowheader">组合</td> 
       <td>与项目关联的项目组合。 必须先创建项目组合，然后才能将其添加到项目中。 </td> 
      </tr> 
      <tr> 

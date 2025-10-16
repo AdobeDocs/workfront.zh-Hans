@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: b89715649473ba13e1b6b7a250dfed7a468bb4b4
+source-git-commit: 15063d937a5ba9b5285c66a0987e8deea6cc6d74
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1387'
 ht-degree: 0%
 
 ---
@@ -27,36 +27,33 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
- <col data-mc-conditions=""> 
- <col data-mc-conditions=""> 
+ <col> 
+ <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Workfront] 计划</p> </td> 
-   <td>任何</td> 
+   <td> <p>[!DNL Workfront] 包</p> </td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Adobe Workfront] 许可证</p> </td> 
-   <td><p>当前： [!UICONTROL 计划]</p>
-   <p>或</p>
-   <p>新文档： [!UICONTROL Standard]</p>
+   <td> <p>[!DNL Adobe Workfront] 许可证</p> </td> 
+   <td><p>[！UICONTROL计划]</p>
+   <p>[！UICONTROL标准版]</p>
    </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">访问级别配置</td> 
-   <td> <p>下列选项之一：</p> 
+  <tr> 
+   <td>访问级别配置</td> 
+   <td> <p>您必须具备以下任一项：</p> 
     <ul> 
-     <li> <p>[!UICONTROL 系统管理员]访问级别，允许您编辑系统中的任何公司。</p> </li> 
+     <li> <p>[！UICONTROL系统管理员]访问级别，允许您编辑系统中的任何公司。</p> </li> 
      <li> <p>管理公司的管理权限，允许您编辑系统中的任何公司。</p> </li> 
     </ul> <p><b>注释</b>：  
      <ul> 
       <li> <p>您还可以管理与您被分配为组管理员的任何组关联的公司。</p> </li> 
       <li> <p>若要在[!DNL Workfront]系统中添加和删除用户，您必须具备以下任一项：</p> 
        <ul> 
-        <li> <p>[!UICONTROL 系统管理员]访问级别。 </p> </li> 
-        <li> <p>在访问级别中，必须为[!UICONTROL 用户]设置选择[!UICONTROL 编辑] 。 此外，对于[!UICONTROL 用户]设置，在[!UICONTROL 微调设置] <img src="assets/gear-icon-in-access-levels.png">下，必须启用[!UICONTROL 创建]选项以及两个[!UICONTROL 用户管理]选项中的至少一个。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>如果您使用[!UICONTROL 用户管理员（组用户）]选项，您必须是用户所属组的组管理员。</p> </li> 
+        <li> <p>[！UICONTROL系统管理员]访问级别。 </p> </li> 
+        <li> <p>您的访问级别中的<b>[！UICONTROL用户]</b>设置配置为<b>[！UICONTROL编辑]</b>访问权限，且<b>[！UICONTROL创建]</b>和在<b>[！UICONTROL微调您的设置]</b> <b>下启用的两个</b>[！UICONTROL用户管理]<img src="assets/gear-icon-in-access-levels.png">选项中的至少一个选项。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>在这两个选项中，如果启用了<b>[！UICONTROL用户管理员（组用户）]</b>，您必须是该用户所属组的组管理员。</p> </li> 
        </ul>
        </li> 
      </ul> </p> </td> 
@@ -64,7 +61,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -76,7 +73,7 @@ ht-degree: 0%
 
    * 来自同一公司的用户可以看到彼此的请求。
 
-     有关[!DNL Workfront]管理员如何根据用户的公司授予请求类似访问权限的更多信息，请参阅[配置系统范围的任务和问题偏好设置](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)文章中的[为 [!DNL Workfront]](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#changing-task-and-issue-preferences)中的每个人配置任务和问题偏好设置部分。
+     有关[!DNL Workfront]管理员如何根据用户的公司授予请求类似访问权限的更多信息，请参阅[配置系统范围的任务和问题偏好设置 [!DNL Workfront]](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#changing-task-and-issue-preferences)文章中的[为](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)中的每个人配置任务和问题偏好设置部分。
 
      有关组管理员如何根据用户的公司授予请求类似访问权限的详细信息，请参阅[配置组的任务和问题首选项](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)。
 
@@ -111,18 +108,18 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 基本信息]部分</td> 
+      <td role="rowheader">[！UICONTROL基本信息]部分</td> 
       <td> 
        <ul> 
-        <li> <p><b>[!UICONTROL 公司名称]</b>：键入公司的名称。</p> </li> 
-        <li> <p><b>[!UICONTROL 处于活动状态]</b>：启用此选项后，用户可以找到该公司并将其附加到他们创建和编辑的项目。 无法将非活动的公司附加到项目。 此选项默认处于启用状态。</p> </li> 
-        <li> <p><b>[!UICONTROL 这是主要公司]</b>：将公司指定为您组织的主要公司。 主要公司通常代表您大多数用户工作的[!DNL Workfront]帐户。</p> <p>您可以将一家公司指定为主要公司，也可以不指定任何公司，但不得将多家公司指定为主要公司。 有关详细信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> <p><b>注意</b>：通过修改其访问级别，您可以限制用户查看其他用户：仅查看其主要公司中的用户，或查看其关联公司和主要公司中的用户。 有关主公司如何与用户的访问级别配合使用的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </li> 
-        <li> <p><b>[!UICONTROL 组]</b>：如果有一个组与公司开展业务，您可以在此处添加该组的名称。 这对于需要报告和管理其组与其开展业务的所有公司的组管理员非常有用。</p> <p><b>重要信息</b>：如果您不关联将与此公司合作的组，则该组的管理员无法访问该公司，除非他们对具有访问级别的公司具有管理访问权限。 有关如何授予此访问权限的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予用户对特定区域的管理访问权限</a>。</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">开始键入组的名称，然后在该组出现时按<strong>[!UICONTROL Enter]</strong>。</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">将组分配给公司时，该组的组管理员将获得对公司的[!UICONTROL 管理]访问权限。 有关详细信息，请参阅本文中的<a href="#group-administrators-and-companies" class="MCXref xref">组管理员和公司</a>。</p> </li> 
-        <li> <p><b>[!UICONTROL 公司成员]</b>：将现有用户添加到公司。 这样，您就可以将这些用户与此公司相关联。</p> <p>您与一个公司关联的用户的数量没有限制，但一个用户不能与多个公司关联。</p> </li> 
+        <li> <p><b>[！UICONTROL公司名称]</b>：键入公司的名称。</p> </li> 
+        <li> <p><b>[！UICONTROL处于活动状态]</b>：启用此选项后，用户可以找到该公司并将其附加到他们创建和编辑的项目。 无法将非活动的公司附加到项目。 此选项默认处于启用状态。</p> </li> 
+        <li> <p><b>[！UICONTROL这是主要公司]</b>：将公司指定为您组织的主要公司。 主要公司通常代表您大多数用户工作的[!DNL Workfront]帐户。</p> <p>您可以将一家公司指定为主要公司，也可以不指定任何公司，但不得将多家公司指定为主要公司。 有关详细信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> <p><b>注意</b>：通过修改其访问级别，您可以限制用户查看其他用户：仅查看其主要公司中的用户，或查看其关联公司和主要公司中的用户。 有关主公司如何与用户的访问级别配合使用的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </li> 
+        <li> <p><b>[！UICONTROL组]</b>：如果有一个组与公司开展业务，您可以在此处添加该组的名称。 这对于需要报告和管理其组与其开展业务的所有公司的组管理员非常有用。</p> <p><b>重要信息</b>：如果您不关联将与此公司合作的组，则该组的管理员无法访问该公司，除非他们对具有访问级别的公司具有管理访问权限。 有关如何授予此访问权限的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予用户对特定区域的管理访问权限</a>。</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">开始键入组的名称，然后在该组出现时按<strong>[！UICONTROL Enter]</strong>。</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">将组分配给公司时，该组的组管理员将获得对公司的[！UICONTROL管理]访问权限。 有关详细信息，请参阅本文中的<a href="#group-administrators-and-companies" class="MCXref xref">组管理员和公司</a>。</p> </li> 
+        <li> <p><b>[！UICONTROL公司成员]</b>：将现有用户添加到公司。 这样，您就可以将这些用户与此公司相关联。</p> <p>您与一个公司关联的用户的数量没有限制，但一个用户不能与多个公司关联。</p> </li> 
        </ul> </td> 
      </tr>
      <tr> 
-      <td role="rowheader">[!UICONTROL 自定义Forms]部分</td> 
+      <td role="rowheader">[！UICONTROL自定义Forms]部分</td> 
       <td> <p>如果有一些要添加到公司的字段在[!DNL Workfront]中不可用，则可以构建自定义表单并将其与公司关联。 </p> <p>您可以从下拉菜单中选择此表单，以将其附加到您的公司。 菜单中仅列出活动的自定义表单。</p> <p><strong>注意：</strong>高级自定义表单功能，如外部查找字段和Workfront本地字段，仅在您打开详细信息页面上的公司记录时可用，而不是在“编辑公司”对话框中可用。 （在公司列表中，单击公司名称以打开详细信息。）</p> <p> 有关创建自定义表单的信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">创建自定义表单</a>。 </p> </td>
      </tr> 
     </tbody> 

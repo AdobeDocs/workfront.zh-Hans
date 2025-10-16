@@ -6,9 +6,9 @@ description: 在安装 [!DNL Adobe Workfront] 以管理员 [!DNL Workfront] 身�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 81481813-74db-4408-8c85-c3b5b844f932
-source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '762'
 ht-degree: 1%
 
 ---
@@ -21,11 +21,9 @@ ht-degree: 1%
 >
 >为了满足贵组织与Salesforce的集成需求，我们建议使用Workfront自动化和集成。
 >
->有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 >
->有关Salesforce的Workfront自动化和集成模块的特定功能的信息，请参阅[Salesforce模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules)。
-
-需要[!UICONTROL Pro] [!DNL Workfront]计划才能使用此功能。 有关各种可用计划的详细信息，请参阅[[!DNL Workfront] 计划。](https://business.adobe.com/cn/products/workfront/pricing.html)
+>有关Salesforce的Workfront自动化和集成模块的特定功能的信息，请参阅[Salesforce模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules)。
 
 在以[!DNL Adobe Workfront]管理员身份安装[!DNL Salesforce]的[!DNL Workfront]后，您可以通过将其添加到用户的[!UICONTROL Opportunity]和[!UICONTROL Account]的新分区中，使其可供用户使用
 [!UICONTROL Salesforce]中的版面。
@@ -34,26 +32,31 @@ ht-degree: 1%
 
 对于同时在[!DNL Workfront]和[!DNL Classic]框架中具有[!DNL Lightning Experience]的用户，必须将[!DNL WorkfrontOpportunities]和[!DNL WorkfrontAccounts] [!UICONTROL Visualforce]页面分别添加到[!UICONTROL Opportunity]和[!UICONTROL Accounts]页面布局。
 
+
+
 ## 访问要求
 
-您必须具有以下权限才能使用本文中所述的功能：
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
-   <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront包</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[!UICONTROL 计划]</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p>标准</p>
+   <p>规划</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先决条件
 
@@ -149,7 +152,7 @@ ht-degree: 1%
 1. 以系统管理员身份登录到[!DNL Salesforce]。
 1. 转到&#x200B;**[!UICONTROL 机会]**&#x200B;或&#x200B;**[!UICONTROL 帐户]**。
 
-1. 单击&#x200B;**[!UICONTROL 设置]**&#x200B;图标，然后单击&#x200B;**[!UICONTROL 编辑页面]**。\
+1. 单击&#x200B;**[!UICONTROL 设置]**&#x200B;图标，然后单击&#x200B;**[!UICONTROL 编辑页面]**。
 
 1. 展开&#x200B;**[!UICONTROL Custom-Managed]**&#x200B;部分。
 1. 将&#x200B;**[!DNL Workfront]**&#x200B;组件拖放到您的[!UICONTROL 机会]或帐户上

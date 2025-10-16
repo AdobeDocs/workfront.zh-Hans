@@ -6,16 +6,16 @@ description: 您可以从Adobe Marketplace安装 [!DNL Adobe Workfront for desig
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 9473926f1b90f4e76c82b7e5dd15c50a667102df
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 1%
+source-wordcount: '616'
+ht-degree: 2%
 
 ---
 
 # 安装并打开[!DNL Adobe Workfront for design and video]
 
-您可以从[!DNL Adobe Marketplace]安装[!DNL Adobe Workfront for design and video]。 此插件支持以下Creative Cloud应用程序：
+您可以从[!DNL Adobe Workfront for design and video]安装[!DNL Adobe Marketplace]。 此插件支持以下Creative Cloud应用程序：
 
 {{cc-plugin-app-list}}
 
@@ -30,7 +30,7 @@ ht-degree: 1%
 * 葡萄牙语
 * 简体中文
 * 繁体中文
-* 朝鲜语
+* 韩语
 
 >[!NOTE]
 >
@@ -41,28 +41,30 @@ ht-degree: 1%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
+ </col> 
  <col> 
+ </col> 
  <tbody> 
  <!-- <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package/td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Work] or [!UICONTROL Plan]</p> </td> 
+   <td>
+   <p>Standard</p>
+    <p>Work or higher</p> </td> 
   </tr> -->
   <tr> 
-   <td role="rowheader">产品</td> 
-   <td><p>除了[!DNL Workfront]许可证，您还必须具有[!DNL Adobe Creative Cloud]许可证。</p><p>有关详细信息，请参阅<a href="https://helpx.adobe.com/cn/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloud支持政策</a>。</p></td> 
+   <td role="rowheader">其他产品</td> 
+   <td><p>除了[!DNL Adobe Creative Cloud]许可证，您还必须具有[!DNL Workfront]许可证。</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -72,15 +74,15 @@ ht-degree: 1%
 
 ## 为您的组织安装[!DNL Workfront for design and video]
 
-如果您是[!DNL Adobe Admin Console]管理员，则可以在[!DNL Creative Cloud]部署包中包含[!DNL Adobe Workfront for design and video]。 有关详细信息，请参阅[在包中包含插件](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html)。
+如果您是[!DNL Adobe Admin Console]管理员，则可以在[!DNL Adobe Workfront for design and video]部署包中包含[!DNL Creative Cloud]。 有关详细信息，请参阅[在包中包含插件](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html)。
 
 [在此观看视频教程](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}。
 
-[!DNL Adobe Admin Console]管理员还可以创建仅用于分发给用户的插件包。 有关详细信息，请参阅 [!DNL Adobe Admin Console][&#128279;](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)中的为您的用户创建[!UICONTROL [!DNL Adobe Workfront]  for [!DNL Creative Cloud]] 包
+[!DNL Adobe Admin Console]管理员还可以创建仅用于分发给用户的插件包。 有关详细信息，请参阅[中的 [!DNL Adobe Workfront] 为您的用户创建[！UICONTROL [!DNL Creative Cloud]]  for [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)包
 
 ## 单独安装[!DNL Workfront for design and video]
 
-您可以从[!DNL Adobe Exchange]自行安装[!DNL Adobe Workfront for design and video]。
+您可以从[!DNL Adobe Workfront for design and video]自行安装[!DNL Adobe Exchange]。
 
 1. 转到Adobe Exchange上的[Adobe Workfront for Design and Video安装页面](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&workflow=share)。
 1. 在出现的对话框中，单击&#x200B;**打开[!DNL Adobe Creative Cloud]桌面应用程序**。
@@ -136,7 +138,7 @@ ht-degree: 1%
    >[!NOTE]
    >
    >* [!DNL Workfront]使用OAuth 2.0连接到[!DNL Adobe Creative Cloud]，这是大多数基于Web的集成用于用户身份验证和授权的安全标准。
-   >* 当提示您输入[!DNL Workfront]帐户的[域或主机]时，请使用此格式键入该帐户： *您的公司&#39;sDomain.my.workfront.com*。 您公司的域通常是您公司的名称。
+   >* 当提示您输入[帐户的]域或主机[!DNL Workfront]时，请使用此格式键入该帐户： *您的公司&#39;sDomain.my.workfront.com*。 您公司的域通常是您公司的名称。
 
 1. 单击&#x200B;**[!UICONTROL 允许访问]**&#x200B;以完成登录。
 1. 返回[!DNL Adobe Photoshop]查看您的工作。

@@ -7,10 +7,10 @@ author: Alina
 feature: Projects, Work Management
 role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 4%
+source-wordcount: '712'
+ht-degree: 5%
 
 ---
 
@@ -52,36 +52,6 @@ ht-degree: 4%
 
 ## 访问要求
 
-<!-- drafted for P&P:
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> <p>Adobe Workfront plan*</p> </td> 
-   <td>Any</td> 
-  </tr> 
-  <tr> 
-   <td> <p>Adobe Workfront license*</p> </td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p>
-   </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td><strong>Access level configurations*</strong> </td> 
-   <td> <p>Edit access to Projects with ability to Create <span>and Copy</span> projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p>View permissions or higher to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
 +++ 展开以查看本文中各项功能的访问要求。
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -90,23 +60,20 @@ ht-degree: 4%
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront计划</p> </td> 
+   <td> <p>Adobe Workfront包</p> </td>  
    <td>任何</td> 
   </tr> 
   <tr> 
    <td> <p>Adobe Workfront许可证</p> </td> 
-   <td> <p>新增：标准 </p> 
-   <p>或</p>
-   <p>当前：计划 </p>
+   <td> <p>标准</p> 
+   <p>规划</p>
+      </td> 
+  </tr> 
+     <td>访问级别配置 </td> 
+   <td> <p>编辑对项目的访问权限，并具有创建和复制项目的功能</p> </td> 
+  </tr>
 
-</td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>访问级别配置 </td> 
-   <td> <p>编辑对能够创建<span>和复制</span>项目的项目的访问权限</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> <p>对象权限 </p> </td> 
+<td> <p>对象权限 </p> </td> 
    <td> <p>查看项目的权限或更高版本</p>  </td> 
   </tr> 
  </tbody> 
@@ -115,6 +82,35 @@ ht-degree: 4%
 有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+ 
+ <table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>Adobe Workfront plan</p> </td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront license</p> </td> 
+   <td> <p>New: Standard </p> 
+   <p>Or</p>
+   <p>Current: Plan </p>
+   
+   </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Access level configurations </td> 
+   <td> <p>Edit access to Projects with ability to Create <span>and Copy</span> projects</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>View permissions or higher to the project</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 复制单个项目
 
@@ -130,7 +126,7 @@ ht-degree: 4%
 
    转到项目列表或报告并选择项目，然后单击列表顶部的&#x200B;**更多**&#x200B;图标![更多菜单](assets/more-icon.png)。
 
-1. 在&#x200B;**更多**&#x200B;下拉菜单中，单击&#x200B;**复制**。 出现[项目名称&#x200B;]&#x200B;**的**&#x200B;副本对话框。
+1. 在&#x200B;**更多**&#x200B;下拉菜单中，单击&#x200B;**复制**。 出现&#x200B;**项目名称[的]**&#x200B;副本对话框。
 
 1. （可选）更新&#x200B;**项目名称**。 默认情况下，新名称为&#x200B;**副本[原始项目名称]**。
 
@@ -184,7 +180,7 @@ ht-degree: 4%
       <td role="rowheader">预算小时</td> 
       <td> <p>从复制的项目中删除项目业务案例的资源计划区域中预算的小时数。</p> 
     <p>
-   绝不会将使用方案规划器的预算小时数复制到新项目，因为新项目未链接到方案规划器中的方案。 有关详细信息，请参阅使用场景规划器</a>的业务案例中的<a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">预算资源</p>
+   绝不会将使用方案规划器的预算小时数复制到新项目，因为新项目未链接到方案规划器中的方案。 有关详细信息，请参阅使用场景规划器<a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">的业务案例中的</a>预算资源</p>
    </tr></td>
     <tr> 
       <td role="rowheader">财务信息</td> 

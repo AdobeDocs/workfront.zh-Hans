@@ -7,7 +7,7 @@ description: 任务约束决定了任务在项目中的开始和结束时间。
 author: Alina
 feature: Work Management
 exl-id: 91b0844b-95a3-4d18-9fdb-a907dd42e1bf
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 6%
@@ -123,7 +123,7 @@ Workfront使用两个变量来确定默认情况下，为新任务选择哪个�
 
 * 您的Workfront或组管理员在&#x200B;**安装程序**&#x200B;的&#x200B;**任务和问题**&#x200B;区域中配置的&#x200B;**开始日期**&#x200B;首选项。
 
-  有关任务和问题首选项的信息，请参阅[配置系统范围的任务和问题首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)中的[新任务默认值](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#new-task-defaults)部分。
+  有关任务和问题首选项的信息，请参阅[配置系统范围的任务和问题首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#new-task-defaults)中的[新任务默认值](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)部分。
 
 下表显示了为项目和新任务选择不同变量时的默认任务限制：
 

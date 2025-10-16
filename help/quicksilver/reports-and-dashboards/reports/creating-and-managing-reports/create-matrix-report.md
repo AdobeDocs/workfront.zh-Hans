@@ -6,9 +6,9 @@ description: 矩阵报表以汇总表的格式显示摘要信息，因此与传�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 714f2802-089f-4a41-8205-f397cf474a24
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -34,43 +34,35 @@ ht-degree: 0%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-      <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>标准</p></li>
-         </ul>
-      <p>当前：</p>
-         <ul>
-         <li><p>计划</p></li>
-         </ul>
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> 
+      <p>标准</p>
+      <p>规划</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td><p>编辑对报告、功能板和日历的访问权限</p> <p>编辑对筛选器、视图、分组的访问权限</p></td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑对报告、功能板和日历的访问权限</p> <p>编辑对筛选器、视图、分组的访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理报表的权限</p></td> 
+ <td> <p>管理报表的权限</p></td>  
   </tr> 
  </tbody> 
 </table>
 
-*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -134,8 +126,9 @@ ht-degree: 0%
      >   * 数字和货币值的自定义数据字段汇总所有任务：父任务、子任务、父任务的父任务和独立任务。 如果您创建了矩阵报表，以在&#x200B;**值**&#x200B;列中显示计划小时数或实际小时数，请注意，任何父对象（如父任务）的小时数或成本信息都不会显示在矩阵报表中。 要查看父对象的小时数，必须查看&#x200B;**详细信息**&#x200B;选项卡。
      >   
      >   
-     >**条件规则：**&#x200B;为聚合的值设置任何格式规则。\
+     >
 
+   **条件规则：**&#x200B;为聚合的值设置任何格式规则。\
    添加规则后，您可以定义字段和文本样式，以显示与该规则匹配的字段。 完成规则定义后，单击&#x200B;**添加规则**，然后单击&#x200B;**完成**&#x200B;以保存规则。
 
 1. 单击&#x200B;**筛选器**&#x200B;选项卡以定义将在报告中显示的信息。

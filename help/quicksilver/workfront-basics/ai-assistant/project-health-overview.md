@@ -5,9 +5,9 @@ description: 项目运行状况功能利用AI Assistant的强大功能即时为�
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: d1ded406b8c4da975e2ff4d6825954cabd483ed2
+source-git-commit: dce36c38a626b4d3799fb1d1f673bdc49d81e274
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1508'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,8 @@ AI助手可以为以下对象生成项目运行状况评估：
 
 有关AI助手的详细信息，请参阅[AI助手概述](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)。
 
-+++ 展开以查看访问要求。 
++++ 展开以查看本文中各项功能的访问要求。
+
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -36,9 +37,10 @@ AI助手可以为以下对象生成项目运行状况评估：
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront计划</p></td> 
+   <td role="rowheader"><p>Adobe Workfront包</p></td> 
    <td> 
-<p>选择、Prime或Ultimate </p> 
+<p>选择或更高版本 </p> 
+<p>Workflow Select或更高版本</p>
    </td> 
 <tr> 
  <tr> 
@@ -50,9 +52,9 @@ AI助手可以为以下对象生成项目运行状况评估：
   </tr> 
   <tr> 
    <td role="rowheader"><p>访问级别配置</p></td> 
-   <td><p>管理员以管理项目运行状况配置 </p>
-   <p>编辑以应用项目运行状况配置 </p>
-     <p>查看以查看项目运行状况配置 </p>
+   <td><p>您必须是系统管理员才能管理项目运行状况配置 </p>
+   <p>编辑对项目的访问权限以应用项目运行状况配置 </p>
+     <p>查看对项目的访问权限以查看项目运行状况配置 </p>
   </td> 
   </tr>  
     </tr>  

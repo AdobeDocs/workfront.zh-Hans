@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '7643'
+source-wordcount: '7642'
 ht-degree: 1%
 
 ---
@@ -47,14 +47,13 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td><p>新增：标准 </p> 
-   或
-   <p>当前：计划 </p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td><p>标准</p> 
+   <p>规划</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -63,7 +62,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">对象权限</td> 
    <td> 
-     <p>管理项目的权限 </p> 
+     <p>管理项目的权限</p> 
      </td> 
   </tr> 
  </tbody> 
@@ -72,6 +71,37 @@ ht-degree: 1%
 *有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td><p>New: Standard </p> 
+   Or
+   <p>Current: Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> 
+     <p>Manage permissions to a project </p> 
+     </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
 ## 编辑项目的限制
 
@@ -245,7 +275,7 @@ ht-degree: 1%
          <td> <p>指定选择<strong>从完成日期</strong>开始计划的日期。 </p> <p>当您选择<strong>从开始日期</strong>开始计划，这是只读字段。<br></p> </td> 
       </tr> 
       <tr> 
-         <td role="rowheader"><strong>项目组合</strong></td> 
+         <td role="rowheader"><strong>组合</strong></td> 
          <td>指示项目所属的Portfolio。 必须先创建Portfolio，然后它才会显示在下拉列表中。 只有活动项目组合可以与项目关联。 有关创建项目组合的详细信息，请参阅<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">创建项目组合</a>。
          <p><b>注释</b></p>
          <p>您必须具有项目组合的管理权限才能将其添加到项目中或从中删除。</p>
@@ -403,7 +433,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>计划的收益</strong> </td> 
-      <td> <p>估计项目的计划收益。 这在项目的业务案例和Portfolio Optimizer中使用。 有关项目计划权益的详细信息，请参阅<a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">项目计划权益概述</a>。 在计算项目净值时，将考虑项目的计划收益。 </p> <p>有关详细信息，请参阅<a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">在Portfolio Optimizer中管理项目</a> 。<br></p> </td> 
+      <td> <p>估计项目的计划收益。 这在项目的业务案例和Portfolio Optimizer中使用。 有关项目计划权益的详细信息，请参阅<a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">项目计划权益概述</a>。 在计算项目净值时，将考虑项目的计划收益。 </p> <p>有关详细信息，请参阅<a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">在Portfolio Optimizer中管理项目：文章索引</a> 。<br></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>实际收益</strong> </td> 
@@ -488,7 +518,7 @@ ht-degree: 1%
       </tr> 
       <tr> 
        <td role="rowheader"><strong>资源均衡模式</strong> </td> 
-       <td> <p> <p>从以下选项中选择：</p> <p>- <strong>手动</strong>：您必须手动调配资源（这是默认设置）</p> <p>- <strong>自动</strong>： Workfront可分级您的资源。</p> <p>有关资源均衡的更多信息，请参阅甘特图</a>中的<a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">均衡资源。</p> </p> </td> 
+       <td> <p> <p>从以下选项中选择：</p> <p>- <strong>手动</strong>：您必须手动调配资源（这是默认设置）</p> <p>- <strong>自动</strong>： Workfront可分级您的资源。</p> <p>有关资源均衡的更多信息，请参阅甘特图<a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">中的</a>均衡资源。</p> </p> </td> 
       </tr> 
       <tr> 
        <td role="rowheader"><strong>风险</strong> </td> 
@@ -550,7 +580,7 @@ ht-degree: 1%
 
 您可以定义在将所有新任务添加到项目时将与它们关联的默认值。
 
-有关这些设置如何影响创建新任务的信息，请参阅[创建任务概述](../../../manage-work/tasks/create-tasks/create-tasks-overview.md)一文中的[将任务添加到项目时的任务默认值](../../../manage-work/tasks/create-tasks/create-tasks-overview.md#understa)部分。
+有关这些设置如何影响创建新任务的信息，请参阅[创建任务概述](../../../manage-work/tasks/create-tasks/create-tasks-overview.md#understa)一文中的[将任务添加到项目时的任务默认值](../../../manage-work/tasks/create-tasks/create-tasks-overview.md)部分。
 
 1. 按如上所述开始编辑项目。
 1. 单击左侧面板中的&#x200B;**任务设置**。
@@ -576,7 +606,7 @@ ht-degree: 1%
    | 大小 | 百分比 |
    |---|---|
    | 小 | 25% |
-   | 中 | 50% |
+   | 媒介 | 50% |
    | 大 | 75% |
 
    >[!TIP]
@@ -698,7 +728,7 @@ ht-degree: 1%
   >
   >仅当从完成日期开始计划项目时，您才可以编辑此字段。 从开始日期开始安排项目时，Workfront会根据任务的持续时间计算规划完成日期和时间。
 
-* 完成情况
+* 条件
 
   >[!NOTE]
   >
@@ -749,7 +779,7 @@ ht-degree: 1%
 
 1. 在列表中选择多个项目。
 1. 单击列表顶部的&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
-将打开&#x200B;**编辑项目**&#x200B;对话框。
+将打开**编辑项目**&#x200B;对话框。
 
    ![以批量模式编辑项目](assets/edit-projects-in-bulk-modal-unshimmed.png)
 
@@ -792,15 +822,15 @@ ht-degree: 1%
 
    有关编辑自定义表单的更多信息，请参阅本文中的[自定义Forms](#custom-forms)部分。
 
-1. 单击&#x200B;**财务**&#x200B;编辑所有选定项目的财务信息。
+1. 单击&#x200B;**财务**编辑所有选定项目的财务信息。
 有关编辑“财务”区域的详细信息，请参阅本文中的[财务](#finance)部分。
-1. 单击&#x200B;**项目设置**&#x200B;可编辑所有选定项目的设置。
+1. 单击&#x200B;**项目设置**可编辑所有选定项目的设置。
 有关编辑“项目设置”区域的详细信息，请参阅本文中的[项目设置](#project-settings)部分。
-1. 单击&#x200B;**任务设置**&#x200B;可编辑所有选定项目的任务设置。
+1. 单击&#x200B;**任务设置**可编辑所有选定项目的任务设置。
 有关编辑“任务设置”区域的详细信息，请参阅本文中的[任务设置](#task-settings)部分。
-1. 单击&#x200B;**问题设置**&#x200B;可编辑所有选定项目的问题设置。
+1. 单击&#x200B;**问题设置**可编辑所有选定项目的问题设置。
 有关编辑“问题设置”区域的详细信息，请参阅本文中的[问题设置](#issue-settings)部分。
-1. 单击&#x200B;**访问**&#x200B;可编辑所有选定项目的访问设置。
+1. 单击&#x200B;**访问**可编辑所有选定项目的访问设置。
 有关编辑“访问”区域的详细信息，请参阅本文中的[访问](#access)部分。
 1. 单击&#x200B;**评论**，然后在提供的空间中添加评论。 Workfront在每个项目的&#x200B;**更新**&#x200B;区域中添加注释。 有关更新工作的信息，请参阅[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 1. （可选）要删除您在“编辑项目”框中添加的任何信息，请将鼠标悬停在已编辑的字段上，然后单击该字段右上角的&#x200B;**x**&#x200B;放弃图标。

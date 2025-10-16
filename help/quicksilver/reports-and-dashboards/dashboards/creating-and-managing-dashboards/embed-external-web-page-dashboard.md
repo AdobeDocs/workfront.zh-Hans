@@ -6,9 +6,9 @@ description: 您可以将外部网页嵌入到功能板中，以提供对Adobe W
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1017'
 ht-degree: 0%
 
 ---
@@ -29,23 +29,23 @@ ht-degree: 0%
 >
 >
 >* 仪表板中不再支持将仪表板页面嵌入外部页面。 虽然不会自动修改现有功能板以删除这些外部页面，但在删除或更改引用之前，无法保存对包含此类引用的功能板所做的任何修改。
-> 具体而言，不再支持以下Workfront.com子域：
+>  > 具体而言，不再支持以下Workfront.com子域：
 >
 >     * /&#x200B;功能板
->     * /dashboard/：ID&#x200B;
->     * /portfolio/：ID/content-dashboard__：dashboardID&#x200B;
->     * /program/：ID/content-dashboard__：dashboardID&#x200B;
->     * /project/：ID/content-dashboard__：dashboardID&#x200B;
->     * /task/：ID/content-dashboard__：dashboardID&#x200B;
->     * /template/：ID/content-dashboard__：dashboardID&#x200B;
->     * /templatetask/：ID/content-dashboard__：dashboardID&#x200B;
->     * /resourcemanagement/：ID/
->     * content-dashboard__：dashboardID&#x200B;
->     * /team/：ID/content-dashboard__：dashboardID&#x200B;
->     * /iteration/：ID/content-dashboard__：dashboardID&#x200B;
->     * /requests/：ID/content-dashboard__：dashboardID&#x200B;
->     * /group/：ID/content-dashboard__：dashboardID&#x200B;
->     * /billingrecord/：ID/content-dashboard__：dashboardID
+>     * /dashboard/:ID&#x200B;
+>     * /portfolio/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /program/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /project/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /task/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /template/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /templatetask/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /resourcemanagement/:ID/
+>     * content-dashboard__:dashboardID&#x200B;
+>     * /team/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /iteration/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /requests/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /group/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /billingrecord/:ID/content-dashboard__:dashboardID
 >
 >作为替代解决方案，请考虑在您的信息板中包含列表报告，如[将报告添加到信息板](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)中所述
 
@@ -53,41 +53,34 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具备以下条件：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront计划</strong></td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront许可证</strong></td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>标准</p></li>
-         </ul>
-      <p>当前：</p>
-         <ul>
-         <li><p>计划</p></li>
-         </ul>
-   </td>
+      <p>标准</p>
+      <p>规划</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>访问级别配置</strong></td> 
-   <td> <p>编辑对报告、功能板和日历的访问权限</p> </td> 
-  </tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑对报告、功能板和日历的访问权限</p></td> 
+  </tr>  
   <tr> 
-   <td role="rowheader"><strong>对象权限</strong></td> 
+   <td role="rowheader">对象权限</td> 
    <td> <p>编辑对功能板的访问权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
 
 +++
 

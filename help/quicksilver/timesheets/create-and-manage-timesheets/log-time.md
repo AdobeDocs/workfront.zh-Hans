@@ -3,13 +3,13 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: 记录时间
 description: 您可以在&amp；nbsp；Adobe Workfront中记录工作项的时间，以指示您处理这些工作项的小时数。 您还可以记录与工作无关的时间，如假期、病假或会议时间。 您的登录时间显示在您的时间表中。
-author: Alina
+author: Lisa
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 8a4668a568fde2ca7ee26714caae3cd33efe4eda
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '4075'
+source-wordcount: '4080'
 ht-degree: 0%
 
 ---
@@ -35,39 +35,39 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 ## 访问要求
 
-+++ 展开以查看访问要求。
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td>Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
-   <ul><li> 在任务、问题或时间表上记录常规小时数的精简或更高</li>
-   <li>用于记录项目小时数的标准</li></ul>
+   <ul><li><p>在任务、问题或时间表上记录常规小时数的精简或更高</p></li>
+   <li><p>用于记录项目小时数的标准</p></li></ul>
 
 <p>或： </p>
 
-<ul><li>查看或更高版本以在时间表中记录常规小时数</li>
-   <li>用于记录项目、任务或问题的小时数的工作或更高</li></ul> </td> 
+<ul><li><p>查看或更高版本以在时间表中记录常规小时数</p></li>
+   <li><p>用于记录项目、任务或问题的小时数的工作或更高</p></li></ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
-   <td> <p>编辑您记录时间的工作项类型的访问权限 </p> <p>例如，您需要对问题的编辑访问权限，以记录问题的时间</p> </td> 
+   <td>访问级别配置</td> 
+   <td> <p>编辑您记录时间的工作项类型的访问权限 </p> <p>例如，您需要对问题的编辑访问权限，以记录问题的时间</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">对象权限</td> 
-   <td> <p>在您为其记录时间的工作项的Contribute或更高权限，包括“记录小时数”权限</p> </td> 
+   <td>对象权限</td>
+   <td> <p>在您为其记录时间的工作项的Contribute或更高权限，包括“记录小时数”权限</p> </td>
   </tr> 
  </tbody> 
 </table>
 
-*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -149,9 +149,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. （视情况而定）如果一次添加50个或更多项目，则会显示一条确认消息，其中显示添加到时间表的项目数。
 
-   单击&#x200B;**全部添加**&#x200B;以添加所有项
+   单击&#x200B;**全部添加**以添加所有项
 或
-单击&#x200B;**取消**&#x200B;停止添加选定项，然后单击&#x200B;**取消**&#x200B;关闭项列表。
+单击**取消**&#x200B;停止添加选定项，然后单击&#x200B;**取消**&#x200B;关闭项列表。
 
    任务和问题列在项目的名称下。
 

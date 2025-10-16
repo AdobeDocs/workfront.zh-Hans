@@ -6,9 +6,9 @@ description: 使用基本工作流，您可以让多个审阅人查看验证，�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '1858'
+source-wordcount: '1793'
 ht-degree: 1%
 
 ---
@@ -23,24 +23,21 @@ ht-degree: 1%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td>
-   <p>新建：任何</p>
-    <p>当前计划：专业版或更高版本</p>
-   <p>旧版计划：选择或更高版本</p> <p>有关使用其他计划进行验证访问的更多信息，请参阅<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">访问Workfront中的验证功能</a>。</p> </td> 
+   <p>任何</p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td>
-   <p>新增：标准</p>
-    <p>当前：工作或计划</p> <p>旧版计划：任意（您必须为用户启用验证）</p> </td> 
+   <p>标准</p>
+    <p>工作或计划</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">校样权限配置文件 </td> 
@@ -53,7 +50,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、角色或验证权限配置文件，请联系您的Workfront或Workfront Proof管理员。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -126,7 +123,7 @@ ht-degree: 1%
       <td> </td> 
      </tr> 
      <tr> 
-      <td> <p><strong>查看者</strong> </p> </td> 
+      <td> <p><strong>审阅者</strong> </p> </td> 
       <td> <p>✓</p> </td> 
       <td> <p>✓</p> </td> 
       <td> <p>✓</p> </td> 
@@ -225,7 +222,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">通过标记共享校样</td> 
-      <td> <p>允许查看者将任何Workfront用户添加到验证，如<a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md" class="MCXref xref">标记共享验证的用户</a>中所述。</p> <p>注意：  <p>如果这两个选项不可用（灰显），则用户已有权限配置文件，该配置文件允许解析注释、将操作应用于注释以及标记任何用户。 </p> <p>如果选项未显示，则您添加的人不是Workfront许可证所有者。</p> </p> </td> 
+      <td> <p>允许查看者将任何Workfront用户添加到验证，如<a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md" class="MCXref xref">标记共享验证的用户</a>中所述。</p> <p>注释：  <p>如果这两个选项不可用（灰显），则用户已有权限配置文件，该配置文件允许解析注释、将操作应用于注释以及标记任何用户。 </p> <p>如果选项未显示，则您添加的人不是Workfront许可证所有者。</p> </p> </td> 
      </tr> 
     </tbody> 
    </table>

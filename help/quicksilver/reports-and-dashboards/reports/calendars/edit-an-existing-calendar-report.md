@@ -6,10 +6,10 @@ description: 您可以通过添加或删除项目链接来修改现有日历。 
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-source-git-commit: 5c0278607faf65b58abeb9b813e403f97032a965
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 0%
+source-wordcount: '279'
+ht-degree: 1%
 
 ---
 
@@ -25,8 +25,6 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -34,22 +32,21 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>新增：标准</p>
-       <p>或</p>
-       <p>当前：计划</p></td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td><p>标准</p>
+       <p>规划</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[!UICONTROL 编辑]对[!UICONTROL 报表]、[!UICONTROL 功能板]和&lbrack;！UICONTROL日历的访问权限</p></td> 
+   <td> <p> 编辑对报告、功能板和日历的访问权限</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td>[!UICONTROL Manage]对日历报表的访问权限</td> 
+   <td>管理对日历报告的访问</td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,13 +67,11 @@ ht-degree: 0%
    1. 单击&#x200B;**[!UICONTROL 添加到日历]。**
    1. 开始键入要添加日历事件的项目名称，然后单击该名称以将其显示在下拉列表中。
    1. 单击&#x200B;**添加**。
-
       ![将项目添加到日历](assets/add-a-calendar-project.png)
 
 
 1. （可选）要添加日历分组或修改现有日历分组，请执行以下操作：
    1. 单击项目名称旁边的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**编辑**。
-
       ![在日历中编辑项目](assets/edit-project-in-calendar.png)
 
    1. 选择项目分组方式：

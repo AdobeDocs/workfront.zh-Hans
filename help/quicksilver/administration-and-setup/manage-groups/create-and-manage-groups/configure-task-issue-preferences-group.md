@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
 workflow-type: tm+mt
-source-wordcount: '2189'
+source-wordcount: '2166'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 2%
 >
 >* 通常，已解锁的首选项会无限期地保持解锁状态。 如果Workfront管理员将其重新锁定，则系统设置将再次生效，并且组管理员所做的首选项设置将丢失。
 >* 为与项目关联的组设置的首选项优先于为创建项目的用户的主组设置的首选项。
->* 某些组级首选项会影响您为组创建的项目模板。 有关详细信息，请参阅文章[创建和修改组的项目模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)中的“组”区域[&#128279;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view)中的查看、使用和创建组的模板。
+>* 某些组级首选项会影响您为组创建的项目模板。 有关详细信息，请参阅文章[创建和修改组的项目模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view)中的“组”区域[中的](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)查看、使用和创建组的模板。
 >
 >* Workfront管理员在系统级别解锁首选项后，您可以对其进行配置，然后将其锁定，以确保您的组及其子组中的每个人都使用相同的配置。 此功能与Workfront管理员为系统中的每个人配置和锁定首选项的功能相同。 有关详细信息，请参阅[锁定或解锁子组的项目、任务或问题偏好设置](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md)。
 >
@@ -45,32 +45,27 @@ ht-degree: 2%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-   <td>任何</td> 
+   <td>Adobe Workfront包</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
+   <td>Adobe Workfront许可证</td> 
+   <td><p>标准</p>
+       <p>规划</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td><p>新增：标准</p>
-       <p>或</p>
-       <p>当前：计划</p></td>
-  </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">访问级别配置</td> 
+   <td>访问级别配置</td> 
    <td>您必须是组的组管理员或系统管理员。</td>
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -86,7 +81,7 @@ ht-degree: 2%
 
 1. 单击要为其配置解锁任务和问题首选项的组的名称。
 1. 在显示的组页面上，在左侧面板中，单击&#x200B;**任务和问题偏好设置**。
-1. 在显示的页面上，继续执行以下步骤所列5个部分之一，配置“新任务默认值”、“问题”、“删除”、“实际日期”和“访问”区域的设置，然后单击“保存”**&#x200B;**。
+1. 在显示的页面上，继续执行以下步骤所列5个部分之一，配置“新任务默认值”、“问题”、“删除”、“实际日期”和“访问”区域的设置，然后单击“保存”****。
 
    如果您将鼠标悬停在锁定图标![锁定图标](assets/lock-toggle-button-dimmed.png)上需要配置的首选项，并显示工具提示以告知您已锁定，则可以要求Workfront管理员为组织中的所有组解锁该首选项。
 
@@ -98,7 +93,7 @@ ht-degree: 2%
    * [移动](#move)
    * [实际日期](#actual-dates)
    * [委派](#delegation)
-   * [访问权限](#access)
+   * [访问](#access)
 
 ### 新任务默认值 {#new-task-defaults}
 
@@ -176,7 +171,7 @@ ht-degree: 2%
         <p>请考虑以下事项：</p> 
         <ul> 
          <li> <p>选择该选项后，您在删除任务或问题时收到信息性警告。 警告提醒您，如果任务或问题已记录小时数，则将它们移至项目或删除它们。 您可以在“设置”的“时间表和小时首选项”区域中配置小时数是删除还是移动到项目。 确认看到警告后，任务或问题即被删除。 有关配置时间表和小时首选项的详细信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">配置时间表和小时首选项</a>。 </p> <p>提示： <span>当您删除包含已记录小时数的任务和问题的项目时，将删除已记录小时数，或者根据设置程序</span>的“时间表和小时数首选项”区域中的设置保留已记录小时数。 </p> </li> 
-         <li><span>取消选择此选项时，当您删除具有记录小时数的任务或问题时，或者当您删除具有记录其任务或问题的小时数的项目时，会收到禁止性警告</span> <span>。</span>警告指定管理员不允许删除具有记录小时数的任务或问题。 无法删除为任务和问题</span>记录小时数的任务、问题<span>或项目。 </li> 
+         <li><span>取消选择此选项时，当您删除具有记录小时数的任务或问题时，或者当您删除具有记录其任务或问题的小时数的项目时，会收到禁止性警告</span> <span>。</span>警告指定管理员不允许删除具有记录小时数的任务或问题。 无法删除为任务和问题<span>记录小时数的任务、问题</span>或项目。 </li> 
         </ul> 
        </div> </td> 
      </tr> 
@@ -257,7 +252,7 @@ ht-degree: 2%
 
 启用此设置后，组用户可以看到以下内容：
 
-* [!UICONTROL 主页]区域中的[!UICONTROL 我的工作]、[!UICONTROL 我的任务]或[!UICONTROL 我的问题]小组件中的&#x200B;[!UICONTROL **代理**]&#x200B;链接。 他们可以从此处委派任务和问题分配。
+* [!UICONTROL **主页**]&#x200B;区域中的[!UICONTROL 我的工作]、[!UICONTROL 我的任务]或[!UICONTROL 我的问题]小组件中的[!UICONTROL 代理]链接。 他们可以从此处委派任务和问题分配。
 
   >[!NOTE]
   >
@@ -273,7 +268,7 @@ ht-degree: 2%
 * [委派工作概述](../../../manage-work/delegate-work/delegate-work-overview.md)
 * [委派任务和问题](../../../manage-work/delegate-work/how-to-delegate-work.md)
 
-### 访问权限 {#access}
+### 访问 {#access}
 
 <table style="table-layout:auto"> 
     <col> 

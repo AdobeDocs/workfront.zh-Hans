@@ -6,7 +6,7 @@ description: 您可以使用文本模式在列表或报告中编辑过滤器，�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 1%
@@ -19,34 +19,26 @@ ht-degree: 1%
 
 您可以使用文本模式在列表或报告中编辑过滤器，以访问标准界面中不可用的字段，并创建更复杂的过滤器。
 
-有关创建筛选器时的更多文本模式示例，另请参阅文章[自定义视图、筛选器和分组示例：文章索引](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)中的[自定义筛选器的示例](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md#samples-of-custom-filters)部分。
+有关创建筛选器时的更多文本模式示例，另请参阅文章[自定义视图、筛选器和分组示例：文章索引](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md#samples-of-custom-filters)中的[自定义筛选器的示例](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)部分。
 
 ## 访问要求
 
 +++ 展开以查看本文中各项功能的访问要求。
-
-您必须具备以下条件：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>标准</p></li>
-         </ul>
-      <p>当前：</p>
-         <ul>
-         <li><p>计划</p></li>
-         </ul>
-   </td>
+     <p>标准</p>
+     <p>规划</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -59,7 +51,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -89,7 +81,7 @@ ht-degree: 1%
 
    要从列表中访问筛选器，请转到列表并单击&#x200B;**筛选器**&#x200B;图标，然后将鼠标悬停在要修改的&#x200B;**筛选器**&#x200B;侧面板中的筛选器上，然后单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。 **筛选器**&#x200B;侧面板显示您选择的筛选器或旧筛选器生成器打开。
 
-   或
+   或者
 
    若要从报表访问筛选器，请转到该报表，然后单击&#x200B;**报表操作** > **编辑** > **筛选器**&#x200B;选项卡。
 
@@ -97,7 +89,7 @@ ht-degree: 1%
 
    如果您在列表上使用&#x200B;**筛选器**&#x200B;侧面板，请单击&#x200B;**文本模式**。
 
-   或
+   或者
 
    如果您使用的是旧版筛选器生成器或在报表中，请单击&#x200B;**添加筛选器规则**&#x200B;以开始添加筛选器的条件。 然后，单击生成器右侧的&#x200B;**切换到文本模式**&#x200B;和&#x200B;**编辑文本模式**。
 

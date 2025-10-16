@@ -2,18 +2,22 @@
 product-area: resource-management
 navigation-topic: use-the-gantt-chart
 title: '[!UICONTROL 甘特图]中的均衡资源'
-description: 有关如何在甘特图中调配资源的信息。
+description: 如果将同一资源分配给两个不同的任务，则可以使用资源均衡调整任务的时间表，以使它们不会同时发生。 本文提供了有关如何在甘特图中调配资源的信息。
 author: Alina
 feature: Work Management
 exl-id: ba96c01d-03b8-4728-b5e3-b10d227f51b0
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL 甘特图]中的均衡资源
+
+<!--Audited: 08/2025-->
+
+您可以使用资源均衡调整任务的时间表，以便在同一时间将同一资源分配给多个任务时，任务不会同时发生。
 
 在项目中均衡资源有两个目的：
 
@@ -22,34 +26,62 @@ ht-degree: 0%
 
 ## 访问要求
 
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
-   <td> <p>任何 </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 包</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Workfront] 许可证*</td> 
-   <td> <p>[!UICONTROL 计划] </p> </td> 
+   <td role="rowheader">[!DNL Workfront] 许可证</td> 
+   <td> <p>[！UICONTROL标准版]</p>
+   <p>[！UICONTROL计划]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>[!UICONTROL Edit]对项目的访问权限</p> <p><b>注释</b>
-
-如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何修改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>[！UICONTROL Edit]对项目的访问权限</p></td>
 </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>[!UICONTROL Manage]对项目的访问权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>[！UICONTROL Manage]对项目的访问权限</p>
+</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Workfront] license*</td> 
+   <td> <p>[!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>[!UICONTROL Edit] access to Projects</p> <p><b>NOTE</b>
+
+If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td>
+</tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] access to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table> -->
 
 ## 资源均衡概览
 
@@ -75,7 +107,7 @@ ht-degree: 0%
 1. 转到要均衡的项目。
 1. 在&#x200B;**[!UICONTROL 任务]**&#x200B;区域中，单击&#x200B;**[!UICONTROL 甘特图]**&#x200B;图标。
 
-   启用&#x200B;**[!UICONTROL 自动保存]**&#x200B;选项后，将自动保存所有更改。 默认情况下处于启用状态。
+   启用&#x200B;**[!UICONTROL 自动保存]**&#x200B;选项后，将自动保存所有更改。 默认情况下，它处于启用状态。
 
 1. （可选）单击&#x200B;**[!UICONTROL 计划]模式**&#x200B;图标并选择&#x200B;**[!UICONTROL 手动保存标准]**&#x200B;或&#x200B;**[!UICONTROL 时间线计划]**&#x200B;以手动保存更改。
 
@@ -108,7 +140,7 @@ ht-degree: 0%
    >* Windows：使用[!UICONTROL Ctrl + Z]撤消和[!UICONTROL Ctrl + Y]重做。
 
 
-1. 单击[!UICONTROL 甘特图]右上角的&#x200B;**[!UICONTROL 保存]**。
+1. 单击&#x200B;**[!UICONTROL 甘特图]**&#x200B;右上角的[!UICONTROL 保存]。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

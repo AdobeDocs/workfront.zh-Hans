@@ -6,9 +6,9 @@ description: 您可以从文档区域共享文件夹及其内容。
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: 842c61cf6dfee0c79b1c95ff84888083c9f5b5a4
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >* 文件夹必须位于对象上文件夹层次结构的前五个级别中。 第六级或更低级别的每个文件夹都从其正上方的文件夹继承其共享配置。
 >
->  有关添加子文件夹以创建文件夹层次结构的信息，请参阅文章[创建文档文件夹](../../documents/organizing-documents/create-documents-folder.md)中的[创建文件夹和子文件夹](../../documents/organizing-documents/create-documents-folder.md#creating-folders)部分。
+>  有关添加子文件夹以创建文件夹层次结构的信息，请参阅文章[创建文档文件夹](../../documents/organizing-documents/create-documents-folder.md#creating-folders)中的[创建文件夹和子文件夹](../../documents/organizing-documents/create-documents-folder.md)部分。
 >
 >* 无法共享智能文件夹。
 >* 如果为模板中的文档文件夹配置共享选项，然后有人从该模板创建项目，则共享配置不会传输到新项目中的文档文件夹。
@@ -61,34 +61,34 @@ ht-degree: 0%
  </tbody> 
 </table>
 -->
-+++ 展开以查看本文中各项功能的访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>审核或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p>浅色或更高</p> 
+   <p>审核或更高</p> 
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>查看对文档的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>查看对文档的访问权限</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看对对象的访问权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>查看对对象的访问权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -144,7 +144,7 @@ ht-degree: 0%
 
 目前，当您共享文件夹时，收件人在其“文档”区域中看不到该文件夹。 但是，他们可以通过运行文档报告来访问其文档。
 
-有关运行报表的信息，请参阅[了解Adobe Workfront中的对象](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)一文中的[对象报表](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects)部分。 另请参阅[创建自定义报表](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
+有关运行报表的信息，请参阅[了解Adobe Workfront中的对象](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects)一文中的[对象报表](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)部分。 另请参阅[创建自定义报表](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
 <!--
 <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -7,9 +7,9 @@ description: 您可以为展示板上的每个列配置正在进行的工作(WIP
 author: Lisa
 feature: Agile
 exl-id: 7901c6e7-75a4-41e4-b288-d527c4a6d031
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -24,22 +24,19 @@ WIP限制只是一个视觉上的警告，不会限制每列中显示的项目�
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
-   <p>新文档： [!UICONTROL Contributor]或更高版本</p> 
-   <p>或</p>
-   <p>当前： [!UICONTROL Request]或更高版本</p>
+   <p>参与者或更高版本</p> 
+   <p>请求或更高版本</p>
    </td> 
   </tr> 
  </tbody> 
@@ -62,7 +59,7 @@ WIP限制只是一个视觉上的警告，不会限制每列中显示的项目�
 1. 在[!UICONTROL 列策略]下，启用&#x200B;**[!UICONTROL 正在进行的工作]限制**&#x200B;策略以限制可添加到列的卡片数量。
 1. 在&#x200B;**[!UICONTROL 设置限制]**&#x200B;字段中键入限制数。
 
-   列![&#128279;](assets/boards-wip-limit-in-column.png)的WIP限制
+   列![的](assets/boards-wip-limit-in-column.png)WIP限制
 
    卡片的数量和限制将显示在列顶部。 如果列包含的卡片数超过限制，则计数器将变为红色。
 

@@ -5,9 +5,9 @@ description: 在 [!DNL Adobe Workfront]中，您可以自定义列表的显示�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
@@ -34,41 +34,35 @@ ht-degree: 0%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
-    <p>新增：</p>
-   <ul><li><p>参与者或更高版本 </p></li>
-   </ul>
-
-<p>当前：</p>
-   <ul><li><p>请求或更高版本</p></li>
-    </ul></td> 
+   <p>参与者或更高版本 </p>
+   <p>请求或更高版本</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[!UICONTROL 视图]对列表所在区域的访问权限</p> <p>例如，要修改项目的视图，您需要具有[!UICONTROL 视图]的项目访问权限。</p></td> 
+   <td> <p>[！UICONTROL视图]对列表所在区域的访问权限</p> <p>例如，要修改项目的视图，您需要具有[！UICONTROL视图]的项目访问权限。</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>[!UICONTROL 视图]或应用于列表的视图的更高权限</p>  </td> 
+   <td> <p>[！UICONTROL视图]或应用于列表的视图的更高权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -104,7 +98,7 @@ ht-degree: 0%
    >为了在对象包含格式化文本字段的大型列表中获得最佳性能，我们建议将此数字限制为250。
    >
    >
-   >有关2种列表类型的详细信息，请参阅[在 [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)中开始使用列表[更新列表与旧列表之间的差异](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated)一节。
+   >有关2种列表类型的详细信息，请参阅[在](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated)中开始使用列表[更新列表与旧列表之间的差异 [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)一节。
 
    列表的结果按页面分页，以显示每页选定的项目数。 通过单击向后和向前箭头或选择特定页面，您可以访问其他页面上的结果。
 

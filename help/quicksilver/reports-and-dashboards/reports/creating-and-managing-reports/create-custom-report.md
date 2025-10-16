@@ -6,9 +6,9 @@ description: 您可以通过创建报告，提供对贵组织在Adobe Workfront�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1817'
+source-wordcount: '1816'
 ht-degree: 1%
 
 ---
@@ -30,34 +30,33 @@ ht-degree: 1%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具备以下条件：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td> <p>新增：标准 </p>
-   或
-   <p>当前：计划 </p> </td> 
+   <td> 
+      <p>标准</p>
+      <p>规划</p>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>编辑对报告、功能板和日历的访问权限</p> <p>编辑对筛选器、视图、分组的访问权限</p></td> 
+   <td> <p>编辑对报告、功能板和日历的访问权限</p> <p>编辑对筛选器、视图、分组的访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>您获取对所创建报告的管理权限。</p></td> 
+   <td> <p>您获取对所创建报告的管理权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -69,7 +68,7 @@ ht-degree: 1%
 
    加载Report Builder。
 
-   有关可用对象报表的特定信息，请参阅[了解Adobe Workfront中的对象](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)一文中的[对象报表](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects)部分。
+   有关可用对象报表的特定信息，请参阅[了解Adobe Workfront中的对象](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects)一文中的[对象报表](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)部分。
 
    ![选择新报告](assets/nwe-select-new-report-350x666.png)
 
@@ -127,7 +126,7 @@ ht-degree: 1%
 
    或
 
-   要更改现有列，请单击列，在Report Builder左上角的&#x200B;**在此列字段中显示**&#x200B;区域中单击当前字段右侧的&#x200B;**删除**&#x200B;图标![删除列图标](assets/remove-column-icon.png)，并开始键入新字段，然后当该字段显示在列表中时单击它。
+   要更改现有列，请单击列，在Report Builder左上角的&#x200B;**在此列字段中显示**&#x200B;区域中单击当前字段右侧的![删除](assets/remove-column-icon.png)图标&#x200B;**删除列图标**，并开始键入新字段，然后当该字段显示在列表中时单击它。
 
    有关您在列中看到的字段的更多信息，请参阅[Adobe Workfront术语词汇表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
 

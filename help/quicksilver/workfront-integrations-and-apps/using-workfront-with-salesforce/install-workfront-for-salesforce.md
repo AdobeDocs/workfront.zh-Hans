@@ -6,10 +6,10 @@ description: 要在应用程序在 [!DNL Salesforce] AppExchange中可用之前�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
+source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
 workflow-type: tm+mt
-source-wordcount: '1092'
-ht-degree: 1%
+source-wordcount: '1070'
+ht-degree: 2%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 1%
 >
 >为了满足贵组织与Salesforce的集成需求，我们建议使用Workfront自动化和集成。
 >
->有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 >
->有关Salesforce的Workfront自动化和集成模块的特定功能的信息，请参阅[Salesforce模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules)。
+>有关Salesforce的Workfront自动化和集成模块的特定功能的信息，请参阅[Salesforce模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules)。
 
 作为[!DNL Salesforce]和[!DNL Adobe Workfront]管理员，您可以安装[!DNL Workfront for Salesforce]以允许[!DNL Salesforce]用户提交[!DNL Workfront]请求并自动创建项目而无需离开Salesforce。
 
@@ -38,23 +38,23 @@ ht-degree: 1%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能使用本文中所述的功能：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
-   <td> <p>任何</p></td> 
+   <td role="rowheader">Adobe Workfront包</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>新文档： [!UICONTROL Standard]</p><p>或</p><p>当前： [!UICONTROL 计划]</p> </td> 
-  </tr>  </tbody> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p>标准</p>
+   <p>规划</p> </td> 
+  </tr> 
+ </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -74,8 +74,8 @@ ht-degree: 1%
 以下子部分介绍了如何为[!DNL Workfront]生产环境安装[!DNL Salesforce]。 您可以按照相同的步骤为[!DNL Workfront]沙盒环境安装[!DNL Salesforce]。
 
 * [正在安装 [!DNL Workfront for Salesforce] ，使其在 [!DNL AppExchange] 市场中可用](#installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace)
-* [正在 [!DNL Workfront for Salesforce] 框架中安装 [!DNL Salesforce Classic] &#x200B;](#installing-workfront-for-salesforce-in-the-salesforce-classic-framework)
-* [正在 [!DNL Workfront for Salesforce] 框架中安装 [!DNL Salesforce Lightning Experience] &#x200B;](#installing-workfront-for-salesforce-in-the-salesforce-lightning-experience-framework)
+* [正在 [!DNL Workfront for Salesforce] 框架中安装 [!DNL Salesforce Classic] ](#installing-workfront-for-salesforce-in-the-salesforce-classic-framework)
+* [正在 [!DNL Workfront for Salesforce] 框架中安装 [!DNL Salesforce Lightning Experience] ](#installing-workfront-for-salesforce-in-the-salesforce-lightning-experience-framework)
 
 ### 正在安装[!DNL Workfront for Salesforce]，以使其在[!DNL AppExchange]市场中可用 {#installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace}
 
@@ -110,7 +110,7 @@ ht-degree: 1%
 
 1. （视情况而定）如果添加站点，请指定&#x200B;**[!UICONTROL 远程站点名称]**。
 
-   例如，*[!DNL Workfront]*。
+   例如：*[!DNL Workfront]*。
 
 1. （视情况而定）如果添加站点，请指定&#x200B;**[!UICONTROL 远程站点URL]**。
 
@@ -148,7 +148,7 @@ ht-degree: 1%
 1. （视情况而定）如果在[!DNL Workfront]所有远程站点&#x200B;**[!UICONTROL 列表中未列出您的]** URL，请单击&#x200B;**[!UICONTROL 新建远程站点]**。
 
 1. （视情况而定）如果添加站点，请指定&#x200B;**[!UICONTROL 远程站点名称]**。
-例如，*[!DNL Workfront]*。
+例如：*[!DNL Workfront]*。
 
 1. （视情况而定）如果添加站点，请指定&#x200B;**[!UICONTROL 远程站点URL]**。
 例如，*yourDomain.my.workfront.com*。
@@ -192,7 +192,7 @@ ht-degree: 1%
 1. （视情况而定）如果在[!DNL Workfront]所有远程站点&#x200B;**[!UICONTROL 列表中未列出您的]** URL，请单击&#x200B;**[!UICONTROL 新建远程站点]**。
 
 1. （视情况而定）如果添加站点，请指定&#x200B;**[!UICONTROL 远程站点名称]**。
-例如，*[!DNL Workfront]*。
+例如：*[!DNL Workfront]*。
 
 1. （视情况而定）如果添加站点，请指定&#x200B;**[!UICONTROL 远程站点URL]**。
 例如，*yourDomain.my.workfront.com*。
@@ -209,7 +209,7 @@ ht-degree: 1%
 ### `workfront_business`的权限
 
 1. 导航到&#x200B;**设置** > **安全性** > **受信任的URL**。
-1. 从列表中选择`workfront_business`。
+1. 从列表中选择 `workfront_business`。
 1. 单击&#x200B;**编辑**。
 1. 在CSP指令下，选中以下选项：
 
@@ -226,7 +226,7 @@ ht-degree: 1%
 ### workfront_session的权限
 
 1. 导航到&#x200B;**设置** > **安全性** > **受信任的URL**。
-1. 从列表中选择`workfront_session`。
+1. 从列表中选择 `workfront_session`。
 1. 单击&#x200B;**编辑**。
 1. 在CSP指令下，选中以下选项：
 

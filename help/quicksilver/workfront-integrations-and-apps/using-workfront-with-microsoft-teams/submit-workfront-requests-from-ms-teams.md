@@ -1,19 +1,19 @@
 ---
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
-title: 提交来自 [!DNL Microsoft] 团队的 [!DNL Adobe Workfront] 请求
+title: 提交来自 [!DNL Adobe Workfront] 团队的 [!DNL Microsoft] 请求
 description: 在团队所有者安装适用于Microsoft Teams的Adobe Workfront后，您可以从Microsoft Teams帐户提交Workfront请求。 为此，您必须拥有有权提交请求的Workfront帐户。 有关安装适用于Microsoft Teams的Workfront的信息，请参阅安装适用于Microsoft Teams的Workfront 。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5975d773-eae6-44ae-8296-2013504da3a8
-source-git-commit: 940cbfb34f12eacd5ba698f60fb7a3e67eb62b22
+source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 0%
+source-wordcount: '598'
+ht-degree: 1%
 
 ---
 
-# 提交来自[!DNL Microsoft]团队的[!DNL Adobe Workfront]请求
+# 提交来自[!DNL Adobe Workfront]团队的[!DNL Microsoft]请求
 
 >[!IMPORTANT]
 >
@@ -21,41 +21,46 @@ ht-degree: 0%
 >
 >更新的Workfront集成现已可用，并与新团队体验完全兼容。 在大多数情况下，用户完成过渡后，Workfront会自动显示。 如果不包含，则可以从Microsoft Teams App Store手动安装集成。 若要在New Teams客户端中安装或验证Workfront集成，请参阅[安装 [!DNL Adobe Workfront] Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)。
 
-在团队所有者安装[!DNL Adobe Workfront for Microsoft Teams]后，您可以从您的[!DNL Microsoft Teams]帐户提交[!DNL Workfront]请求。 为此，您必须拥有有权提交请求的Workfront帐户。 有关安装[!DNL Workfront for Microsoft Teams]的信息，请参阅[正在安装 [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)。
+在团队所有者安装[!DNL Adobe Workfront for Microsoft Teams]后，您可以从您的[!DNL Workfront]帐户提交[!DNL Microsoft Teams]请求。 为此，您必须拥有有权提交请求的Workfront帐户。 有关安装[!DNL Workfront for Microsoft Teams]的信息，请参阅[正在安装 [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)。
 
 >[!NOTE]
 >
 >[!DNL Microsoft Teams]不再支持[!DNL Internet Explorer]。 要使用[!DNL Adobe Workfront for Microsoft Teams integration]，您必须使用[!DNL Internet Explorer]以外的Web浏览器。
 
 
+
+
 ## 访问要求
 
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>工作、计划、审查、请求</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p>参与者或更高版本</p>
+   <p>申请人或以上</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先决条件
 
-您的[!DNL Microsoft Teams]团队所有者必须先为[!DNL Microsoft Teams]安装[!DNL Workfront]，然后才能使用它。
+您的[!DNL Microsoft Teams]团队所有者必须先为[!DNL Workfront]安装[!DNL Microsoft Teams]，然后才能使用它。
 
-## 提交来自[!DNL Microsoft Teams]的[!DNL Workfront]请求
+## 提交来自[!DNL Workfront]的[!DNL Microsoft Teams]请求
 
-1. 单击[!DNL Microsoft Teams]左侧导航栏上的&#x200B;**[!UICONTROL 更多添加的应用]** （三个点）图标。
+1. 单击&#x200B;**[!UICONTROL 左侧导航栏上的]**&#x200B;更多添加的应用[!DNL Microsoft Teams] （三个点）图标。
 
 1. 在显示的列表中单击&#x200B;**[!DNL Workfront]**。
 1. 单击&#x200B;**[!UICONTROL 请求]**&#x200B;选项卡。
@@ -80,7 +85,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader"> </td> 
-      <td> <p>附加要包含在请求中的任何文档。 您可以通过拖放或单击[!UICONTROL 选择文件]并浏览到文件系统中并选择文档来附加文档。</p> </td> 
+      <td> <p>附加要包含在请求中的任何文档。 您可以通过拖放或单击[！UICONTROL选择文件]并浏览到文件系统中并选择文档来附加文档。</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -91,9 +96,9 @@ ht-degree: 0%
 
    该请求显示在指定请求队列的[!DNL Workfront]中。 您将收到一条确认消息，确认请求已成功提交。
 
-## 查看您在[!DNL Microsoft Teams]中提交的[!DNL Workfront]请求
+## 查看您在[!DNL Workfront]中提交的[!DNL Microsoft Teams]请求
 
-1. 单击[!DNL Microsoft Teams]左侧导航栏上的&#x200B;**[!UICONTROL 更多添加的应用]** （三个点）图标。
+1. 单击&#x200B;**[!UICONTROL 左侧导航栏上的]**&#x200B;更多添加的应用[!DNL Microsoft Teams] （三个点）图标。
 
 1. 在显示的列表中单击&#x200B;**[!DNL Workfront]**。
 1. 单击&#x200B;**[!UICONTROL 请求]**&#x200B;选项卡。

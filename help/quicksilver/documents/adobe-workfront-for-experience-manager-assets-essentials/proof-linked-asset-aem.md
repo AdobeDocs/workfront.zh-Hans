@@ -6,10 +6,10 @@ description: 从Experience Manager Assets Essentials链接资源后，您可以�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abd641a1-081b-4b86-95ee-f0ed030d704c
-source-git-commit: 5d818b2e3c3314c6af076df46f7f806214f97bab
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 1%
+source-wordcount: '441'
+ht-degree: 2%
 
 ---
 
@@ -23,36 +23,32 @@ ht-degree: 1%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具备以下条件：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p> 任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
-   <p>新增：标准</p>
-   <p>或</p>
-   <p>当前：工作或更高</p>
-   <p>您必须为用户启用验证。</p>
+   <p>标准</p>
+   <p>工作或更高</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">产品</td> 
+   <td role="rowheader">其他产品</td> 
    <td>您必须安装了Experience Manager as a Cloud Service或Assets Essentials，并且您必须作为用户添加到Admin Console的产品中。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>编辑对文档的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td> <p>编辑对文档的访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看访问权限或更高版本</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>查看访问权限或更高版本</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -111,7 +107,7 @@ ht-degree: 1%
 
 有关如何管理现有校样的更多信息，请参阅[在Adobe Workfront中管理校样：文章索引](../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)。
 
-## 审查验证
+## 审阅校对
 
 分配的审阅人可以执行以下操作：
 

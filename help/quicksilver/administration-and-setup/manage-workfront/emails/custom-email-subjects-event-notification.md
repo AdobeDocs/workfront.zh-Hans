@@ -6,10 +6,10 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
-source-git-commit: 3c8438fef3333c5f7ceab7b19b6755d4e4246cb9
+source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 4%
+source-wordcount: '575'
+ht-degree: 5%
 
 ---
 
@@ -35,8 +35,6 @@ ht-degree: 4%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -44,21 +42,24 @@ ht-degree: 4%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td>计划</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td>
+   <p>标准</p>
+   <p>规划</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>Planner或更高版本，具有提醒通知的管理访问权限</p> <p>有关授予计划用户管理访问权限的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予用户对特定区域的管理访问权限</a>。</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>Planner或更高版本，具有提醒通知的管理访问权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -84,9 +85,9 @@ ht-degree: 4%
 
 ![事件不是多个主题行](assets/ev-multiple-subject.png)
 
-如果某个用户包含在关于任务、问题、模板任务或文档的对话中，则会生成包含第一个主题行的电子邮件。 主题行包含“referenceObject：name”，系统定义对象并在主题字段显示适当的名称。 电子邮件主题行将类似于以下内容：“对项目ABC中的任务123的评论”。
+如果某个用户包含在关于任务、问题、模板任务或文档的对话中，则会生成包含第一个主题行的电子邮件。 主题行包含“referenceObject:name”，系统定义该对象并在主题字段中显示适当的名称。 电子邮件主题行将类似于以下内容：“对项目ABC中的任务123的评论”。
 
-如果添加到项目对话，将生成一封包含第二个主题的电子邮件。 在此处，主题行包含“topReferenceObject：name”，Workfront再次标识所引用的对象，并将返回该对象名称而不是主题中的“topReferenceObject：name”。 电子邮件主题行类似于：“对项目ABC的评论”。
+如果添加到项目对话，将生成一封包含第二个主题的电子邮件。 此处，主题行包含“topReferenceObject:name”，Workfront再次标识所引用的对象，并且将在主题中返回该对象名称而不是“topReferenceObject:name”。 电子邮件主题行类似于：“对项目ABC的评论”。
 
 要编辑电子邮件主题行并向任一主题行添加其他字段，请参阅本文中的[自定义事件通知的电子邮件主题行](#customize-email-subject-lines-for-event-notifications)。
 

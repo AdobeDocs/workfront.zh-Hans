@@ -6,9 +6,9 @@ description: 您可以将工作项从Agile团队Kanban展示板迁移到新的�
 author: Lisa
 feature: Agile
 exl-id: 72e3902b-af9a-497c-817f-63630c4fb73b
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 您可以将工作项从Agile团队Kanban展示板迁移到新的或现有的Workfront展示板。 运行迁移时，Kanban展示板上的所有信息卡都会复制到Workfront展示板。 您不得选择特定卡。
 
-在Workfront展示板上置入信息卡取决于列策略。 (例如，策略可以将所有状态为“进行中”的信息卡移动到特定列。 有关列策略的更多信息，请参阅[管理展示板列](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)。 如果没有策略或信息卡与策略不匹配，则信息卡会放置在展示板最左侧的列中。 目前，旧版展示板上积压工作列中的信息卡未添加到Workfront展示板中。
+在Workfront展示板上置入信息卡取决于列策略。 (例如，策略可以将所有状态为“进行中”的信息卡移动到特定列。 有关列策略的更多信息，请参阅[管理展示板列](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)。)如果没有策略或信息卡与策略不匹配，信息卡将放在展示板最左侧的列中。 目前，旧版展示板上积压工作列中的信息卡未添加到Workfront展示板中。
 
 未从敏捷团队Kanban展示板中删除信息卡，信息卡状态更改将同步到两个展示板。 在准备好切换到Workfront展示板之前，您可以保持两个展示板处于活动状态。
 
@@ -25,22 +25,19 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
-   <p>新文档： [!UICONTROL Contributor]或更高版本</p> 
-   <p>或</p>
-   <p>当前： [!UICONTROL Request]或更高版本</p>
+   <p>参与者或更高版本</p> 
+   <p>请求或更高版本</p>
    </td> 
   </tr> 
  </tbody> 

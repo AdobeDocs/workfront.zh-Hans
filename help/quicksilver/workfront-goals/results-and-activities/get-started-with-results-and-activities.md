@@ -7,31 +7,43 @@ description: 您必须将结果、活动或一致的目标添加到目标才能�
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 0%
+source-wordcount: '830'
+ht-degree: 3%
 
 ---
 
 # Adobe Workfront目标中的结果和活动入门
 
+<!--Audited for P& P only: 10/2025-->
+
+>[!NOTE]
+>
+>如果您的公司以前购买过此包，则可能会选择继续使用Adobe Workfront Goals。 有关详细信息，请与您的客户代表联系。
+>
+>Adobe Workfront目标不再可供购买。
+>
+>有关访问Workfront目标的更多信息，请参阅[使用Workfront目标的要求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
+
+<!--Old:
+
 >[!IMPORTANT]
 >
->您的组织必须具备以下条件才能使用本文中所述的功能：
+>Your organization must have the following to use the functionality described in this article:
 >
->* 对于新计划和许可证结构：
+>* For the new plan and license structure:
 >
->   * Ultimate Workfront计划
+>   * The Ultimate Workfront plan 
 >    
->* 对于当前计划和许可证结构：
+>* For the current plan and license structure: 
 >
->   * Pro或更高版本Workfront计划
->   * 除了Adobe Workfront许可证之外，还提供了Workfront目标许可证。
+>   * A Pro or higher Workfront plan
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
->请联系您的Workfront客户经理，了解有关Workfront Goals许可证的信息。
+>Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->有关访问Workfront目标的更多信息，请参阅[使用Workfront目标的要求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   -->
 
 在创建目标时，目标的状态为“草稿”。 有关创建目标的信息，请参阅[在Adobe Workfront目标中创建目标](../../workfront-goals/goal-management/create-goals.md)。
 
@@ -69,7 +81,7 @@ ht-degree: 0%
 * 它们是量度指标。 您可以从以下选项中进行选择，以指示结果的进度：
 
    * 货币
-   * 数字
+   * 数值
    * 百分比
 
 有关结果的更多信息，请参阅本文中[结果、活动和项目之间的相似性](#similarities-between-results-activities-and-projects)部分中的结果和活动之间的相似性列表。
@@ -189,7 +201,7 @@ This will have additional types in the future - add another section for types?
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
-  <tr> 
+  <tr> ****
    <td>它们提供了一系列介于开始值和结束值之间的值，这些值说明了您距离实现这些目标有多近。 接近结束值会计算目标的进度值。 </td> 
    <td>✔</td> 
    <td>✔</td> 

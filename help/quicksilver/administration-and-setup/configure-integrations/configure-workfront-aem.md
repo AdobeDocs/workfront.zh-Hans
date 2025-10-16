@@ -1,5 +1,5 @@
 ---
-title: '使用 [!DNL Adobe Experience Manager] 旧连接器配置 [!DNL Workfront] '
+title: '使用 [!DNL Workfront] 旧连接器配置 [!DNL Adobe Experience Manager] '
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
@@ -8,50 +8,47 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-source-git-commit: 51dfd1ff1ad0f5847db42cfc1d5f9b5f907f672d
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '1868'
+source-wordcount: '1855'
 ht-degree: 0%
 
 ---
 
-# 使用[!DNL Adobe Experience Manager]旧连接器配置[!DNL Workfront]
+# 使用[!DNL Workfront]旧连接器配置[!DNL Adobe Experience Manager]
+
+<!-- Audited: 4/2025 -->
 
 作为[!DNL Adobe Workfront]管理员，您可以将[!DNL Workfront]与[!UICONTROL Adobe Experience Manager (AEM) Assets]集成，并为您的组织提供用于在工作流中创建、共享和维护资源的全面内容管理解决方案。
 
 ## 访问要求
 
-<!-- Audited: 4/2025 -->
-
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
-   <td>任何</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>新增：标准</p>
-   <p>或</p>
-   <p>当前：计划</p>
- </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">访问级别配置</td> 
-   <td>系统管理员 </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+   <td>Adobe Workfront包
+   </td>
+   <td> <p>Prime或Ultimate</p>
+    <p>工作流 Ultimate</p>
+   </td>
+  </tr>
+  <tr>
+   <td>Adobe Workfront许可证
+   </td>
+   <td><p>标准</p>
+   <p>规划</p>
+   </td>
+  </tr>
+   <tr>
+   <td>访问级别配置
+   </td>
+   <td>您必须是[!DNL Workfront]管理员。
+   </td>
+  </tr>
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
-
-+++
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## [!DNL Workfront for AEM Assets]
 
@@ -72,9 +69,9 @@ ht-degree: 0%
 
 ## 安装[!DNL AEM Assets]连接器的先决条件
 
-在安装[!UICONTROL AEM Assets]的[!DNL Workfront]连接器之前，请确保满足以下先决条件：
+在安装[!DNL Workfront]AEM Assets[!UICONTROL 的]连接器之前，请确保满足以下先决条件：
 
-* [!UICONTROL AEM Assets]已安装和配置，版本6.5或更高版本。 有关安装[!UICONTROL AEM Assets]的信息，请参阅[[!DNL Adobe Experience Manager] 文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager)。
+* [!UICONTROL AEM Assets]已安装和配置，版本6.5或更高版本。 有关安装[!UICONTROL AEM Assets]的信息，请参阅[[!DNL Adobe Experience Manager] 文档](https://experienceleague.adobe.com/en/docs/experience-manager)。
 * （视情况而定）如果防火墙规则不允许按预期发送流量，请将群集的IP地址和/或域添加到列入允许列表中。 有关详细信息，请参阅[配置防火墙的允许列表](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
 
 ## 安装[!DNL Workfront for AEM Assets]连接器包 {#install-the-workfront-for-aem-assets-connector-package}
@@ -87,7 +84,7 @@ ht-degree: 0%
 
 1. 在已安装AEM的工作站上，下载[!DNL Workfront for AEM Assets]连接器安装文件。
 
-   您可以从[!DNL Workfront]代表处获取[!DNL Workfront for AEM Assets]连接器。
+   您可以从[!DNL Workfront for AEM Assets]代表处获取[!DNL Workfront]连接器。
 
 1. 使用管理员帐户登录AEM。
 1. 单击&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 部署]** > **[!UICONTROL 包]**。 将打开[!UICONTROL CRX包管理器]。
@@ -124,10 +121,10 @@ ht-degree: 0%
 在开始之前，必须启用workfront-service的权限：
 
 1. 在AEM中，转到&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 安全性]** > **[!UICONTROL 权限]**。
-1. 在左上角，从下拉菜单中选择&#x200B;**[!UICONTROL 用户]**&#x200B;，然后在&#x200B;**[!UICONTROL 搜索]**&#x200B;字段中输入&#x200B;*[!UICONTROL workfront-service{3&#x200B;}。]*&#x200B;选择[!UICONTROL workfront-service]用户。
+1. 在左上角，从下拉菜单中选择&#x200B;**[!UICONTROL 用户]**&#x200B;，然后在&#x200B;*[!UICONTROL 搜索]*&#x200B;字段中输入&#x200B;**[!UICONTROL workfront-service{3&#x200B;}。]**&#x200B;选择[!UICONTROL workfront-service]用户。
 1. 在屏幕右侧，选择&#x200B;**[!UICONTROL 添加ACE]**&#x200B;以创建新条目。
-1. 在{&#x200B;0}添加新条目&#x200B;**窗口&#x200B;中，选中**&#x200B;[!UICONTROL &#x200B;路径&#x200B;]&#x200B;**字段中的复选框图标，&#x200B;然后选择文件夹： */conf***
-1. 在&#x200B;**权限**&#x200B;字段中，输入： *jcr：read*
+1. 在{&#x200B;0}添加新条目&#x200B;**[!UICONTROL 窗口&#x200B;中，选中]**&#x200B;路径&#x200B;**[!UICONTROL 字段中的复选框图标，&#x200B;然后选择文件夹：]**/conf **
+1. 在&#x200B;**权限**&#x200B;字段中，输入： *jcr:read*
 1. 选择右上角的&#x200B;**添加**。
 1. （可选）重复上述步骤以创建更多条目。
 
@@ -143,7 +140,7 @@ ht-degree: 0%
 
       例如，[!DNL https]：//`<account>`.my.workfront.com，其中`<account>`是您用于与AEM集成的帐户。
 
-   1. 在{&#x200B;0}基本文件夹&#x200B;**字段中，选中复选框图标。**
+   1. 在{&#x200B;0}基本文件夹&#x200B;**[!UICONTROL 字段中，选中复选框图标。]**
    1. 在下拉菜单中，选择链接到[!DNL Workfront]对象的文档的存储路径。
    1. 在显示的AEM模式窗口中，将包含连接到[!DNL Workfront]对象的文档的文件夹路径置于之后。 选择文件夹，然后按右上角的&#x200B;**[!UICONTROL &#x200B;选择]**。
 
@@ -170,7 +167,7 @@ ht-degree: 0%
          1. 在&#x200B;**[!UICONTROL 您用户的API密钥]**&#x200B;标签下，单击&#x200B;**[!UICONTROL 生成API密钥]**。 [!DNL Workfront]的API密钥生成并显示。
       1. 将API密钥复制到剪贴板。
       1. 打开AEM Connector的浏览器选项卡，并在&#x200B;**[!DNL Workfront API Key]**&#x200B;框中粘贴您复制的API密钥。
-   1. （视情况而定）单击[!UICONTROL [!DNL Workfront]集成配置]页面左上角的&#x200B;**[!UICONTROL 高级]**&#x200B;选项卡，然后选择以下选项（如果适用）：
+   1. （视情况而定）单击&#x200B;**[!UICONTROL 集成配置]**&#x200B;页面左上角的[!UICONTROL [!DNL Workfront]高级]选项卡，然后选择以下选项（如果适用）：
 
       **[!UICONTROL 允许收藏集浏览]：**&#x200B;如果您的组织允许[!DNL Workfront]用户将AEM Assets收藏集链接到[!DNL Workfront]对象，请选择此选项。
 
@@ -238,13 +235,13 @@ ht-degree: 0%
    ![[!DNL Extenalizer].png](assets/extenalizer-350x128.png)
 
 1. （视情况而定）如有必要，请更新&#x200B;**[!UICONTROL 作者]**&#x200B;字段中的域。
-1. 单击&#x200B;**[!UICONTROL 保存]**。 [!UICONTROL AEM Assets]现已配置为将文档与[!DNL Workfront]链接。
+1. 单击 **[!UICONTROL Save]**。[!UICONTROL AEM Assets]现已配置为将文档与[!DNL Workfront]链接。
 
 1. 继续进行[配置 [!DNL Workfront] 以与 [!DNL AEM assets]](#configure-workfront-to-integrate-with-aem-assets)集成。
 
 ## 配置[!DNL Workfront]以与[!DNL AEM assets]集成 {#configure-workfront-to-integrate-with-aem-assets}
 
-在安装[!UICONTROL Workfront for AEM Assets]连接器(如[安装[!UICONTROL Workfront for AEM Assets]连接器包](#install-the-workfront-for-aem-assets-connector-package)中所述)并配置[!UICONTROL AEM Assets]&#x200B;(如[配置[!UICONTROL &#x200B; AEM Assets]以与 [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront)集成)之后，您需要配置[!DNL Workfront]以链接介于[!DNL Workfront]和[!DNL AEM Assets]之间的文档。
+在安装[!UICONTROL Workfront for AEM Assets]连接器(如[安装[!UICONTROL Workfront for AEM Assets]连接器包](#install-the-workfront-for-aem-assets-connector-package)中所述)并配置[!UICONTROL AEM Assets]&#x200B;(如[配置[!UICONTROL  AEM Assets]以与 [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront)集成)之后，您需要配置[!DNL Workfront]以链接介于[!DNL Workfront]和[!DNL AEM Assets]之间的文档。
 
 1. 以管理员身份登录到Workfront。
 
@@ -269,7 +266,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL 身份验证类型]**&#x200B;下拉菜单中，选择&#x200B;**[!UICONTROL ApiKey].**
 
-1. 在{&#x200B;0}API密钥&#x200B;**框中，粘贴您配置[!UICONTROL AEM Assets]时复制的AEM API密钥。**
+1. 在{&#x200B;0}API密钥&#x200B;**[!UICONTROL 框中，粘贴您配置]** AEM Assets[!UICONTROL 时复制的AEM API密钥。]
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 1. （可选）确保集成标记为[!UICONTROL 活动]。\
    ![aem_custom_integration_active.png](assets/aem-custom-integration-active-350x81.png)
@@ -289,7 +286,7 @@ ht-degree: 0%
 ### 在[!DNL AEM assets]中设置用户 {#set-up-users-in-aem-assets}
 
 1. 以Workfront管理员身份登录到[!DNL AEM Assets]。
-1. 单击&#x200B;**[!UICONTROL 工具]** > **{3&#x200B;}{&#x200B;4}安全性** > **[!UICONTROL 用户]**。**&#x200B;**
+1. 单击&#x200B;**[!UICONTROL 工具]** > **{3&#x200B;}{&#x200B;4}安全性** > **[!UICONTROL 用户]**。****
 
 1. （视情况而定）如果用户在AEM中没有用户配置文件，请创建AEM用户配置文件。
 
@@ -300,7 +297,7 @@ ht-degree: 0%
 
       唯一必填字段是&#x200B;**ID**&#x200B;字段。 用户的AEM ID必须与其[!DNL Workfront] ID（用户的[!DNL Workfront]电子邮件地址）匹配。
 
-      如果您在将AEM配置为与[!DNL Workfront]集成时选择了&#x200B;**[!UICONTROL 忽略电子邮件域]**&#x200B;选项，则AEM ID将与[!DNL Workfront]电子邮件地址不匹配。
+      如果您在将AEM配置为与&#x200B;**[!UICONTROL 集成时选择了]**&#x200B;忽略电子邮件域[!DNL Workfront]选项，则AEM ID将与[!DNL Workfront]电子邮件地址不匹配。
 
 1. （视情况而定）如果用户具有AEM配置文件，请打开用户的AEM配置文件：
 
@@ -312,7 +309,7 @@ ht-degree: 0%
 
    ![组选项卡](assets/groupstab.png)
 
-1. 确保用户至少属于一个访问级别包括&#x200B;**[!UICONTROL 创建]**&#x200B;和&#x200B;**[!UICONTROL 删除]**&#x200B;权限的[!DNL Workfront]组。
+1. 确保用户至少属于一个访问级别包括[!DNL Workfront]创建&#x200B;**[!UICONTROL 和]**&#x200B;删除&#x200B;**[!UICONTROL 权限的]**&#x200B;组。
 
    1. 要将用户添加到现有组，请在&#x200B;**[!UICONTROL 键入组名]**&#x200B;框中开始键入组名，然后在该组出现在下拉菜单中时选择该组。
 

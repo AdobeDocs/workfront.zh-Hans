@@ -3,12 +3,12 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: 导出时间表列表
 description: 作为人员经理或时间表批准者，您可能需要下载时间表列表以快速查看有关您负责人员时间表的信息。 您可以通过导出时间表列表来完成此操作。
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: cb5b1c6c-7800-48f4-ae2c-c4007a161a6c
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '466'
 ht-degree: 2%
 
 ---
@@ -23,33 +23,31 @@ ht-degree: 2%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td>Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td> <p>新增：浅色或更高 </p>
-   <p>当前：审阅或更高版本 </p>
+   <td>Adobe Workfront许可证</td> 
+   <td> <p>浅色或更高 </p>
+   <p>审核或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
-   <td> <p>查看或更高权限的任务和问题 </p> </td> 
+   <td>访问级别配置</td> 
+   <td> <p>查看或更高权限的任务和问题</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">对象权限</td> 
-   <td> <p>查看时间表或更高权限</p> </td> 
+   <td>对象权限</td> 
+   <td> <p>查看任务或问题的权限或更高</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -129,7 +127,7 @@ ht-degree: 2%
 
 1. 从以下选项中选择要将时间表列表导出到的文件类型：
 
-   * PDF横向
+   * PDF Ladscape
    * PDF纵向
    * PDF其他大小
    * Excel
@@ -138,7 +136,7 @@ ht-degree: 2%
 
    以选定格式下载到计算机中的时间表列表包含以下时间表信息：
 
-   * 日期范围
+   * Date Range
    * 所有者名称
    * 总小时数
    * 加班金额

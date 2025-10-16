@@ -6,9 +6,9 @@ description: 在验证查看者中评论验证时，您可以标记其他用户�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4efbfdeb-3834-48dd-aa5b-515891bac519
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: fe269b088c82e7045ffbb5155d54432e0b413cbe
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -26,42 +26,41 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>当前计划：专业版或更高版本</p> <p>或</p> <p>旧版计划：Premium</p> <p>有关使用其他计划进行验证访问的更多信息，请参阅<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">访问Workfront中的验证功能</a>。</p> </td> 
+   <td role="rowheader">Adobe Workfront包</td> 
+   <td><p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>当前计划：工作或计划</p> <p>旧版计划：任意（您必须为用户启用验证）</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p>任何</p>
+   </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">验证角色</td> 
    <td>作者、审查方</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">校样权限配置文件 </td> 
+   <td role="rowheader">校样权限配置文件</td> 
    <td>主管或管理员</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对文档的访问权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑对文档的访问权限</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、角色或验证权限配置文件，请联系您的Workfront或Workfront Proof管理员。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
 ## 标记要共享验证的用户
 
-默认情况下，具有上面[访问要求](#access-requirements)部分中概述的验证权限配置文件或验证角色的用户可以标记用户以共享验证。 如果您是验证所有者或创建者，则还可以标记用户以共享验证，而不管验证权限配置文件或验证角色如何。 您可以允许具有较低验证权限配置文件或验证角色的用户在创建验证时标记用户以共享验证。 有关详细信息，请参阅[使用基本工作流创建高级校对](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)文章中的[配置工作流并添加审阅者](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md#configur)部分。
+默认情况下，具有上面[访问要求](#access-requirements)部分中概述的验证权限配置文件或验证角色的用户可以标记用户以共享验证。 如果您是验证所有者或创建者，则还可以标记用户以共享验证，而不管验证权限配置文件或验证角色如何。 您可以允许具有较低验证权限配置文件或验证角色的用户在创建验证时标记用户以共享验证。 有关详细信息，请参阅[使用基本工作流创建高级校对](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md#configur)文章中的[配置工作流并添加审阅者](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)部分。
 
 >[!NOTE]
 >

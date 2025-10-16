@@ -6,10 +6,11 @@ title: 删除模板任务
 description: 如果不再需要某个模板任务，您可以删除该模板任务。 无法恢复已删除的模板任务。 从模板任务创建的项目任务不会被删除或修改。
 author: Alina
 feature: Work Management
-source-git-commit: bbf2d987bf3267117ab61b123141dd2cb2f82fc3
+exl-id: dd733e9f-8045-4b65-828b-fe6aa40d973f
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 3%
+source-wordcount: '275'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +25,7 @@ ht-degree: 3%
 
 ## 访问要求
 
-+++ 展开以查看访问要求。 
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,12 +36,12 @@ ht-degree: 3%
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront许可证*</p></td> 
-   <td> <p>标准 </p>
-   <p>规划 </p> </td> 
+   <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
+   <td> <p>标准</p>
+   <p>规划</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>访问级别</p></td> 
+   <td role="rowheader"><p>访问级别配置</p></td> 
    <td> <p>编辑对模板的访问权限</p>  </td> 
   </tr> 
   <tr> 
@@ -50,9 +51,35 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td> <p>Standard </p>
+   <p>Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level</p></td> 
+   <td> <p>Edit access to Templates</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p> </td> 
+   <td> <p>Manage permissions for a template.</p> <p>You cannot share a template task.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 删除模板任务
 
@@ -76,7 +103,3 @@ ht-degree: 3%
 >您可以单击模板任务左侧面板中的前置任务或子任务部分来删除前置任务或子任务。
 >
 >重复上述步骤以删除模板任务前置任务或子任务。
-
-
-
-

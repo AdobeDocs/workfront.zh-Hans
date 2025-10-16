@@ -6,7 +6,7 @@ description: 您可以使用EXISTS语句创建复杂的文本模式过滤器。 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
 source-wordcount: '2668'
 ht-degree: 0%
@@ -40,9 +40,9 @@ ht-degree: 0%
 
 构建过滤器时，您可以使用标准报表界面在最多2个级别的关系中引用连接到过滤器对象的其他对象。
 
-例如，您可以使用标准界面在问题筛选器中引用PortfolioID以仅显示与特定项目组合相关联的项目中的问题。 在这种情况下，项目组合与问题相差2级。
+例如，您可以在问题筛选器中引用Portfolio ID，以使用标准界面仅显示与特定项目组合关联的项目中的问题。 在这种情况下，项目组合与问题相差2级。
 
-但是，您不能使用标准界面在问题过滤器中引用Portfolio所有者，以仅显示与所有者为特定用户的项目组合相关联的项目中的问题。 您必须使用文本模式来访问“Portfolio所有者名称”字段，该字段与问题相差三个级别。
+但是，无法使用标准界面在问题过滤器中引用Portfolio所有者，以仅显示与所有者为特定用户的项目组合相关联的项目中的问题。 您必须使用文本模式来访问Portfolio所有者名称字段，该字段与问题相差三个级别。
 
 ![问题到项目组合所有者图标](assets/issue-to-portfolio-owner-sraight-line-icons-350x83.png)
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 * 当由于原始对象和目标对象直接连接而缺少链接对象时，您可以使用目标对象的对象代码而不是链接对象。
 * 您可以引用同一对象（目标对象）上的多个字段（目标字段），在这种情况下，必须通过AND连接引用这些字段的行。\
-  有关筛选属于Target对象的多个字段的示例，请参阅本文中的[示例4：按多个字段筛选：按Portfolio所有者名称和Portfolio对齐记分卡ID筛选任务](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id)部分。
+  有关过滤属于Target对象的多个字段的示例，请参阅本文中的[示例4：按多个字段过滤：按Portfolio所有者名称和Portfolio对齐记分卡ID过滤任务](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id)部分。
 
 * EXISTS语句唯一支持的修饰符是NOTEXISTS。
 
@@ -92,27 +92,19 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具备以下条件：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>标准</p></li>
-         </ul>
-      <p>当前：</p>
-         <ul>
-         <li><p>计划</p></li>
-         </ul>
+     <p>标准</p>
+     <p>规划</p>
    </td> 
   </tr> 
   <tr> 
@@ -121,12 +113,12 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理对报告的权限以编辑报告中的筛选器</p> <p>管理筛选器权限以编辑它</p></td> 
+   <td><p>管理对报告的权限以编辑报告中的筛选器</p> <p>管理筛选器权限以编辑它</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -148,11 +140,11 @@ ht-degree: 0%
    例如，问题。
 
 1. 标识要作为筛选依据的字段。 我们将此对象称为属于目标对象的目标字段。\
-   例如，所有者ID字段（目标字段），它属于Portfolio（目标对象）。
+   例如，所有者ID字段（目标字段），它属于Portfolio （目标对象）。
 
 1. （视情况而定）如果原始对象（问题）和目标字段（所有者ID）未直接相连，则必须找到第三个对象，即连接它们的链接对象（项目）。 链接对象必须至少有一个从原始对象的“字段”或“引用”选项卡（链接字段显示在原始对象上）中引用的字段，并且链接对象的“字段”或“引用”选项卡中还必须有一个指向目标对象的链接字段。 链接字段至链接对象上显示的目标对象（或链接对象上显示的链接字段）必须与目标字段匹配。
 
-   例如，（项目） ID（原始对象上显示的链接字段）是从“问题”（原始对象）中引用的。 (Portfolio)ownerID（将字段链接到目标对象）显示在项目（链接对象）的“字段”选项卡中。 PortfolioownerID也是目标对象(Portfolio)中的字段。 链接对象上的链接字段与目标字段匹配。\
+   例如，（项目） ID（原始对象上显示的链接字段）是从“问题”（原始对象）中引用的。 (Portfolio) ownerID（将字段链接到目标对象）显示在项目（链接对象）的“字段”选项卡中。 Portfolio ownerID也是目标对象(Portfolio)中的字段。 链接对象上的链接字段与目标字段匹配。\
    ![portfolio_id_in_the_project_api_object.PNG](assets/portfolio-id-in-the-project-api-object-350x88.png)
 
 1. 使用API资源管理器标识链接对象（项目）的&#x200B;**对象代码**。\
@@ -172,7 +164,7 @@ ht-degree: 0%
    EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>
    ```
 
-   有关使用上面标识的字段的示例，请参阅本文中的[示例1：按Portfolio所有者名称筛选问题](#example-1-filter-for-issues-by-portfolio-owner-name)部分。
+   有关使用我们前面标识的字段的示例，请参阅本文中的[示例1：按Portfolio所有者名称筛选问题](#example-1-filter-for-issues-by-portfolio-owner-name)部分。
 
 1. 单击&#x200B;**保存筛选器**。
 
@@ -257,7 +249,7 @@ ht-degree: 0%
    >[!NOTE]
    >
    >* 原始对象是报告的对象：问题
-   >* 目标对象Portfolio。
+   >* 目标对象是Portfolio。
    >* 链接对象为“项目”。
    >* 目标字段和链接到从链接对象引用的目标对象的链接字段是ownerID。
    >* 此处链接对象的对象代码为PROJ。
@@ -379,12 +371,12 @@ ht-degree: 0%
    >[!NOTE]
    >
    >* “原始对象”是滤镜：“任务”的对象。
-   >* 目标对象Portfolio。
+   >* 目标对象是Portfolio。
    >* 第一个目标字段是ownerID。
    >* 第二个目标字段是“对齐计分卡ID”。
    >* 链接对象为“项目”。
    >* 链接对象的对象代码为PROJ。
-   >* “与目标对象关联”字段是Portfolio的ID。
+   >* 与目标对象关联的字段是(Portfolio)的ID。
    >* 原始对象上显示的链接字段为projectID。
    >* 使用您环境中的用户ID替换ownerID。
 

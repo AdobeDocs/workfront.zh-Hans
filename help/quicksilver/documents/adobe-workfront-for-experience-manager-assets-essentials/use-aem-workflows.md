@@ -6,9 +6,9 @@ description: 在Experience Manager Assets Essentials集成中使用工作流
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 99924f690c53584c090d19fff90d23d84ec306d4
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1012'
 ht-degree: 0%
 
 ---
@@ -21,51 +21,47 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->工作流仅在Adobe Experience Manager as a Cloud Service集成中可用。 它们不可在与Adobe Experience Manager Assets Essentials的集成中使用。
+>工作流仅在Adobe Experience Manager as a Cloud Service集成中可用。 它们不可用于与Adobe Experience Manager Assets Essentials的集成。
 
 
 ## 访问要求
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具备以下条件：
-
-<table>
-  <tr>
-   <td><strong>Adobe Workfront计划*</strong>
-   </td>
-   <td>任何
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Adobe Workfront许可证*</strong>
-   </td>
-   <td>请求或更高版本
-   </td>
-  </tr>
-  <tr>
-   <td><strong>产品</strong>
-   </td>
-   <td><p>您必须具有Experience Manager Assetsas a Cloud Service或Assets Essentials，并且您必须在Admin Console中作为用户添加到产品中。</p><p>您必须对Adobe Experience Manager中的存储库具有写入权限。</p>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>访问级别配置*</strong>
-   </td>
-   <td>编辑对文档的访问权限
-<p>
-<strong>注意：</strong>如果您仍然没有访问权限，请询问Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<strong>创建或修改自定义访问级别</strong>。
-   </td>
-  </tr>
-  <tr>
-   <td><strong>对象权限</strong>
-   </td>
-   <td>管理项目中的访问权限或更高版本 
-<p>
-有关请求其他访问权限的信息，请参阅<strong>请求访问对象</strong>。
-   </td>
-  </tr>
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront包</td> 
+   <td> <p> 任何</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> 
+   <p>参与者或更高版本</p> 
+   <p>请求或更高版本</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">其他产品</td> 
+   <td>您必须安装了Experience Manager as a Cloud Service或Assets Essentials，并且您必须作为用户添加到Admin Console的产品中。</td> 
+  </tr> 
+   <tr> 
+    <td role="rowheader">Experience Manager权限</td> 
+    <td>您必须具有此文件夹的写入权限。</td> 
+   </tr>
+  <tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑对文档的访问权限</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">对象权限</td> 
+   <td> <p>查看访问权限或更高版本</p> </td> 
+  </tr> 
+ </tbody> 
 </table>
+
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -73,7 +69,7 @@ ht-degree: 0%
 
 开始之前，
 
-* 您的Workfront管理员必须在Adobe Experience Manager集成中配置工作流。 有关详细信息，请参阅[配置Experience Manager Assetsas a Cloud Service集成](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional)。
+* 您的Workfront管理员必须在Adobe Experience Manager集成中配置工作流。 有关详细信息，请参阅[配置Experience Manager Assets as a Cloud Service集成](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional)。
 
 ## 将工作流添加到模板
 
@@ -91,7 +87,7 @@ ht-degree: 0%
 
    有关特定工作流的说明，请参阅本文中的[编辑项目中的工作流值](#edit-workflow-values-in-a-project)。
 
-   只有已在“设置”的“Experience Manager”区域中激活的工作流才能在模板或项目中使用。
+   只有已在“设置”的“Experience Manager”区域中激活的工作流才能用于模板或项目。
 
 1. 您的更改会自动保存。<!-- do they though??-->
 
@@ -108,7 +104,7 @@ ht-degree: 0%
 1. 为项目选择模板时，请选择包含要用于此项目的工作流的模板。
 1. （可选）编辑项目的任何工作流值，如[编辑项目中的工作流值](#edit-workflow-values-in-a-project)中所述。
 
-   只有已在“设置”的“Experience Manager”区域中激活的工作流才能在模板或项目中使用。
+   只有已在“设置”的“Experience Manager”区域中激活的工作流才能用于模板或项目。
 
 
 ### 将工作流添加到现有项目
@@ -124,7 +120,7 @@ ht-degree: 0%
 1. 为项目选择模板时，请选择包含要用于此项目的工作流的模板。
 1. （可选）编辑项目的任何工作流值，如[编辑项目中的工作流值](#edit-workflow-values-in-a-project)中所述。
 
-   只有已在“设置”的“Experience Manager”区域中激活的工作流才能在模板或项目中使用。
+   只有已在“设置”的“Experience Manager”区域中激活的工作流才能用于模板或项目。
 
 
 
@@ -154,7 +150,7 @@ ht-degree: 0%
 
 1. 根据需要打开或关闭&#x200B;**[!UICONTROL 创建链接文件夹]**。 如果您将其打开，则可以编辑链接的文件夹配置。
 
-   有关链接文件夹配置的详细信息，请参阅[配置[!UICONTROL Adobe Experience Manageras a Cloud Service]集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)一文中的[创建Experience Manager Assets链接文件夹](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders)。
+   有关链接文件夹配置的详细信息，请参阅[配置](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders)Adobe Experience Manager as a Cloud Service[集成[!UICONTROL 一文中的]创建Experience Manager Assets链接文件夹](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)。
 
 1. （可选）如果您希望仅当附加到项目的自定义表单中存在某些值时才构建文件夹树，请单击该文件夹树的&#x200B;**应用过滤器**，然后选择包含字段、字段和字段值的自定义表单。 如果附加到新项目的自定义表单上的字段包含所选值，则将创建文件夹树。
 1. （可选）配置文件夹名称时，您可以从以下选项中进行选择：
@@ -176,6 +172,6 @@ ht-degree: 0%
 
 要编辑用于发布资产的工作流，请执行以下操作：
 
-1. 根据需要自动打开或关闭&#x200B;**Publish资源**。
+1. 根据需要自动打开或关闭&#x200B;**发布资源**。
 1. （视情况而定）如果您正在启用发布，请选择是要发布到发布服务还是Brand Portal或两者。
 1. 单击&#x200B;**[!UICONTROL 保存]**。

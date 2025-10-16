@@ -2,12 +2,12 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: '持续时间类型概述：计算的工作量'
+title: 持续时间类型概览：计算的工作量
 description: 计算的工作量是一种持续时间类型，您可以在Adobe Workfront中为任务设置此类型。 有关Workfront中持续时间类型的一般信息，请参阅任务持续时间和持续时间类型概述。
 author: Alina
 feature: Work Management
 exl-id: f521c2f5-8d58-44c0-af18-6940ad0950ea
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 计算的工作量确定完成任务所需的工作量（计划小时数）。 当分配给任务的资源被分配用于任务的整个持续时间时，我们建议您使用计算的工作持续时间类型。
 
-您的Workfront或组管理员可以将系统或组的默认持续时间类型设置为计算的工作量。 在这种情况下，将使用此持续时间类型创建所有新任务。 有关将任务和问题首选项作为系统级或组级项目首选项的一部分进行更改的信息，请参阅[配置系统范围的任务和问题首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
+您的Workfront或组管理员可以将系统或组的默认持续时间类型设置为计算的工作量。 在这种情况下，将使用此持续时间类型创建所有新任务。 有关将任务和问题首选项作为系统级或组级项目首选项的一部分进行更改的信息，请参阅[配置系统范围的任务和问题首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
 
 在将资源添加到任务时，项目经理可能会看到计划的工作量增加。 举例来说，一个有三种资源的1小时规划会议代表总共需要3个小时的工作，一个有十种资源的1小时规划会议代表需要10个小时的工作。 这假定每个资源都按100%的分配分配给任务。
 

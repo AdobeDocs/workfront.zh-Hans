@@ -7,9 +7,9 @@ description: 当分配访问级别时，您的Adobe Workfront管理员会授予�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: 48c0f5c617f41a4ce51ea45c17817aa869ba5adb
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '1392'
+source-wordcount: '1387'
 ht-degree: 1%
 
 ---
@@ -34,21 +34,18 @@ Workfront管理员控制谁可以在“设置”的“访问级别”区域查�
 
 +++ 展开以查看本文中各项功能的访问要求。 
 
-要共享对象，必须具备以下条件：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td> <p>新增：标准</p> 
-   或
-   <p>当前：工作或更高</p>
+   <td> <p>标准</p> 
+   <p>工作或更高</p>
    </td> 
   </tr> 
   <tr> 
@@ -62,7 +59,7 @@ Workfront管理员控制谁可以在“设置”的“访问级别”区域查�
  </tbody> 
 </table>
 
-有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

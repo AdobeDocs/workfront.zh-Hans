@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 1cf16fd93de383aae66ba810ad85dd00806b8237
+source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1323'
 ht-degree: 2%
 
 ---
@@ -35,15 +35,16 @@ ht-degree: 2%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr> 
-   <td>Adobe Workfront计划</td> 
-   <td>Ultimate</td> 
+  <tr>
+   <td>Adobe Workfront包
+   </td>
+   <td> <p>Ultimate</p>
+    <p>工作流 Ultimate</p>
+   </td>
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
@@ -56,7 +57,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -131,7 +132,7 @@ IF(
    * 项目
    * 任务
    * 问题/请求
-   * 项目组合
+   * 组合
    * 文档
    * 项目群
    * 费用
@@ -145,7 +146,7 @@ IF(
    * 工作角色
    * 资源池
    * 休息时间
-   * 小时
+   * Hour
    * 模板
 
 1. 在规则生成器对话框中键入业务规则的&#x200B;**名称**。

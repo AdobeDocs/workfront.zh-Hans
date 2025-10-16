@@ -1,51 +1,80 @@
 ---
 navigation-topic: use-the-gantt-chart
 title: 查看[!UICONTROL 甘特图]中的信息
-description: 任务列表甘特图和项目列表甘特图显示有关项目和任务的信息。
+description: Adobe Workfront任务和项目[!UICONTROL 甘特图]显示有关任务和项目的信息。
 author: Alina
 feature: Work Management
 exl-id: e6b55699-0831-40d4-a997-6fe3f8828ee1
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
 
 # 查看[!UICONTROL 甘特图]中的信息
 
-任务列表[!UICONTROL 甘特图]和项目列表[!UICONTROL 甘特图]显示有关项目和任务的信息。
+<!--Audited: 08/2025-->
+
+Adobe Workfront任务和项目[!UICONTROL 甘特图]显示有关任务和项目的信息。
 
 ## 访问要求
 
-您必须具备以下条件才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
-   <td> <p>任何 </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 包</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证概述*</td> 
-   <td> <p>[!UICONTROL Review]或更高版本</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
+   <td><p>[！UICONTROL Light]或更高版本</p>
+    <p>[！UICONTROL Review]或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>[!UICONTROL 视图]或更高权限访问项目和任务</p> <p><b>注释</b>
-
-如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何修改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>[！UICONTROL视图]或更高权限访问项目和任务</p></td>
 </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>[!UICONTROL 视图]或更高版本的项目访问权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>[！UICONTROL视图]或更高权限访问项目和任务</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++ 
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licenses overview*</td> 
+   <td> <p>[!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>[!UICONTROL View] or higher access to Projects and Tasks</p> <p><b>NOTE</b>
+
+If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td>
+</tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL View] or higher access to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 找到[!UICONTROL 甘特图]
 
@@ -55,7 +84,7 @@ ht-degree: 0%
 
 在项目列表[!UICONTROL 甘特图]中，不在[!UICONTROL 关键路径]上的任务显示为浅蓝色水平线。 位于项目[!UICONTROL 关键路径]上的任务显示为红色水平线。
 
-有关[!UICONTROL 关键路径]上任务的更多信息，请参阅项目[!UICONTROL 关键路径][&#128279;](../../../manage-work/tasks/manage-tasks/critical-path.md)的概述。
+有关[!UICONTROL 关键路径]上任务的更多信息，请参阅项目[关键路径[!UICONTROL 的]](../../../manage-work/tasks/manage-tasks/critical-path.md)概述。
 
 ## 查看项目列表[!UICONTROL 甘特图]中的任务信息
 
@@ -75,17 +104,13 @@ ht-degree: 0%
 
 1. 转至上述区域之一。
 
-   例如，从[!UICONTROL 主菜单]，单击&#x200B;**[!UICONTROL 项目]**。
+   例如，从Workfront中的&#x200B;[!UICONTROL **主菜单**] ![主菜单图标](assets/lines-main-menu.png)，单击&#x200B;**[!UICONTROL 项目]**。
 
    此时将显示项目列表。
 
 1. 单击屏幕右上角的&#x200B;**[!UICONTROL 甘特图]**&#x200B;图标![甘特图](assets/gantt-icon-nwe.png)。
 
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: images conditioned for classic and nwe) <br></p>
-   -->
-
-1. 单击&#x200B;**[!UICONTROL 显示任务列表]**&#x200B;图标。
+1. 单击&#x200B;**[!UICONTROL 显示任务列表]** ![显示任务列表图标](assets/show-task-list-icon.png)图标。
 
 1. 在左侧的项目列表中，单击项目名称旁边的下拉箭头，以显示该项目下的任何任务。\
    这会在[!UICONTROL 甘特图]上显示任务信息。\
@@ -132,7 +157,7 @@ ht-degree: 0%
    >
    >时间轴快照仅在单击水平滚动条之后显示。
 
-   ![stretchy_gantt_minimap_with_outline__1_.png](assets/stretchy-gantt-minimap-with-outline--1--350x140.png)
+   ![时间线快照迷你地图](assets/stretchy-gantt-minimap-with-outline--1--350x140.png)
 
 1. （可选）单击时间线快照中的任意位置，以导航到项目生命周期中的特定点。\
    或\
@@ -156,7 +181,7 @@ ht-degree: 0%
    应用到列表的分组将反映在[!UICONTROL 甘特图]中。\
    有关应用分组的信息，请参阅Adobe Workfront中的[分组概述](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)。
 
-视图未反映在[!UICONTROL 甘特图]上。 但是，在导出[!UICONTROL 甘特图] (如[将[!UICONTROL 甘特图]导出到PDF](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)中所述)时，除[!UICONTROL 甘特图]外，还将导出任务列表，并将当前视图应用于该列表。
+视图未反映在[!UICONTROL 甘特图]上。 但是，在导出[!UICONTROL 甘特图]&#x200B;(如[将[!UICONTROL 甘特图]导出到PDF](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)中所述)时，除[!UICONTROL 甘特图]外，还将导出任务列表，并将当前视图应用于该列表。
 
 ## 配置显示选项
 

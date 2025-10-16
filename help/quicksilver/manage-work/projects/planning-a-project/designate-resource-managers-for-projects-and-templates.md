@@ -6,9 +6,9 @@ description: 您可以为项目指定资源管理器，以指明谁负责管理�
 author: Alina
 feature: Work Management
 exl-id: ae2a89e7-8049-4ee6-9b28-ce247d3f2a6f
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '748'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,39 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
 
 ## 访问要求
 
-<!--drafted for P&P:
++++ 展开以查看本文中各项功能的访问要求。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront包</td> 
+   <td> <p>任何</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td><p>标准</p> 
+   <p>规划</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑对项目和模板的访问权限</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">对象权限</td> 
+   <td> <p>管理项目或模板的权限</p>
+
+</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,10 +83,7 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p>
-   </td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -71,41 +100,7 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
    Users who are added as Resource Managers to a project or a template immediately gain Manage permissions on the project or the template</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
--->
-
-您必须具有以下权限才能执行本文中的步骤：
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>任何</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对项目和模板的访问权限</p> <p><b>注释</b>
-
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
-</tr> 
-  <tr> 
-   <td role="rowheader">对象权限</td> 
-   <td> <p>管理项目或模板的权限</p>
-
-<p><b>注释</b>
-
-作为资源管理器添加到项目或模板的用户会立即获得对项目或模板的管理权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td>
-</tr> 
- </tbody> 
-</table>
-
-*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+</table>-->
 
 ## 关于资源管理器的注意事项
 
@@ -179,7 +174,7 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
 
      不会从正在编辑的模板中删除现有资源管理器；通过这种方式添加的任何用户都将作为现有资源管理器之外的模板上的资源管理器。
 
-   * 要将资源管理器添加到新模板，请单击“新建模板”**&#x200B;**，再单击模板名称旁边的&#x200B;**“更多”菜单**，然后单击&#x200B;**“编辑”**。
+   * 要将资源管理器添加到新模板，请单击“新建模板”****，再单击模板名称旁边的&#x200B;**“更多”菜单**，然后单击&#x200B;**“编辑”**。
 
 1. 在&#x200B;**概述**&#x200B;部分中，单击&#x200B;**资源管理器**&#x200B;字段。
 1. 开始键入要作为模板的资源管理器添加的用户名，然后在名称出现在列表中时单击该名称。

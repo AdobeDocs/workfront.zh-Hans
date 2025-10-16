@@ -6,9 +6,9 @@ description: 出于安全原因，请务必定期注销 [!DNL Adobe Workfront] �
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: c6272c7631941720e3ab1e1c80ed7d304a67d34b
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -31,32 +31,34 @@ ht-degree: 0%
 >
 >此页面上描述的过程仅适用于尚未载入[!DNL Adobe Experience Cloud]的组织。
 >
-> 如果贵组织已登记到[!DNL Adobe Experience Cloud]，您将通过单击顶部导航中的配置文件图片并从菜单中选择“[!UICONTROL **注销**]”来注销。 有关详细信息，请参阅 [!DNL Workfront][&#128279;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)的[!DNL Adobe Unified Experience] 。
+> 如果贵组织已登记到[!DNL Adobe Experience Cloud]，您将通过单击顶部导航中的配置文件图片并从菜单中选择“[!UICONTROL **注销**]”来注销。 有关详细信息，请参阅[[!DNL Adobe Unified Experience] 的 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 ## 访问要求
 
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ </col>
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划*</strong></td> 
+   <td>Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[!UICONTROL Request]或更高版本</p> </td> 
+   <td>Adobe Workfront许可证</td> 
+   <td> 
+   <p>参与者或更高版本</p>
+   <p>请求或更高版本</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划或许可证类型，请与[!DNL Workfront]管理员联系。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 注销[!DNL Workfront]帐户
 
-1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 注销]** ![注销图标](assets/logout-icon.png)。
+1. 单击&#x200B;**[!UICONTROL 右上角的]**&#x200B;主菜单![图标](assets/main-menu-icon.png)主菜单图标[!DNL Adobe Workfront]，然后单击&#x200B;**[!UICONTROL 注销]** ![注销图标](assets/logout-icon.png)。
 1. 这将返回登录页面，您可以在其中重新输入用户名和密码。

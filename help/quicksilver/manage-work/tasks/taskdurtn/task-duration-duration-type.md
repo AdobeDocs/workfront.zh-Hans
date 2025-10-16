@@ -2,13 +2,13 @@
 content-type: reference
 product-area: projects
 navigation-topic: tasks
-title: “任务持续时间和持续时间类型：文章索引”
+title: 任务持续时间和持续时间类型：文章索引
 description: 任务的持续时间类型确定分配给任务的资源数量、总工作量以及任务总持续时间之间的关系。 请在以下文章中了解任务持续时间和持续时间类型。
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: df6cd9bc-e34f-4e84-8a1b-484a6bffe53c
-source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 0%

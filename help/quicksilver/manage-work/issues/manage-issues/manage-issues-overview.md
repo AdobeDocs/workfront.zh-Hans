@@ -2,20 +2,24 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: issues
-title: 管理问题
-description: 以下文章包含有关管理问题的信息。
+title: 管理问题：文章索引
+description: 在处理项目时，您可能会发现出现意外事件。 您可以将这些意外事件记录为特定项目或任务的问题。 以下文章包含有关管理问题的信息。
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 12fa2d34-a7b4-47ba-825c-a00fb5f71efd
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
 
-# 管理问题
+# 管理问题：文章索引
+
+<!--Audited: 08/2025-->
+
+在处理项目时，您可能会发现出现意外事件。 您可以将这些意外事件记录为特定项目或任务的问题。
 
 本节包含以下文章：
 

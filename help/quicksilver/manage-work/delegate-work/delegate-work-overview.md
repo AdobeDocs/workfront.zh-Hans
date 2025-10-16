@@ -4,10 +4,10 @@ content-type: overview
 navigation-topic: delegate-work
 title: 委派工作概述
 description: 如果您计划在短时间内不在办公室，您可以暂时将工作委派给其他用户，以确保您的缺席不会成为完成工作的障碍。
-author: Lisa
+author: Becky
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 1%
@@ -79,7 +79,7 @@ ht-degree: 1%
 
 ## 任务和委托之间的区别和相似之处
 
-| 操作 | 分配 | 委派 |
+| 操作 | 任务 | 委派 |
 |--------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------------------------------------|
 | 已分配或已委派的用户可以编辑或删除他们已分配或已委派的工作项 | 基于权限和访问级别 | 基于权限和访问级别 |
 | 已分配或已委派的用户显示在工作项的标题中 | 是 | 是 |

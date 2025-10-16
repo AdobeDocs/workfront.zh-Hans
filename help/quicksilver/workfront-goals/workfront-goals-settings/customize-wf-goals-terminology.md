@@ -6,31 +6,43 @@ description: Workfront或组管理员可以自定义Workfront目标中的对象�
 author: Alina
 feature: Workfront Goals
 exl-id: a3b3e61e-c385-429b-856b-7579b02c9946
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '196'
 ht-degree: 1%
 
 ---
 
 # 自定义Adobe Workfront目标术语
 
+<!--Audited for P&P only: 10/2025-->
+
+>[!NOTE]
+>
+>如果您的公司以前购买过此包，则可能会选择继续使用Adobe Workfront Goals。 有关详细信息，请与您的客户代表联系。
+>
+>Adobe Workfront目标不再可供购买。
+>
+>有关访问Workfront目标的更多信息，请参阅[使用Workfront目标的要求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
+
+<!--Old:
+
 >[!IMPORTANT]
 >
->您的组织必须具备以下条件才能使用本文中所述的功能：
+>Your organization must have the following to use the functionality described in this article:
 >
->* 对于新计划和许可证结构：
+>* For the new plan and license structure:
 >
->   * 最终Workfront计划
+>   * The Ultimate Workfront plan 
 >    
->* 对于当前计划和许可证结构：
+>* For the current plan and license structure: 
 >
->   * Pro或更高版本Workfront计划
->   * 除了Adobe Workfront许可证之外，还提供了Workfront目标许可证。
+>   * A Pro or higher Workfront plan
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
->请联系您的Workfront客户经理，了解有关Workfront Goals许可证的信息。
+>Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->有关访问Workfront目标的更多信息，请参阅[使用Workfront目标的要求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).  -->
 
 Workfront或组管理员可以自定义Workfront目标中的对象名称，以更好地匹配您组织的术语。
 

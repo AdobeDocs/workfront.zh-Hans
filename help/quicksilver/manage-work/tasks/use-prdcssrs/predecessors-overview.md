@@ -7,9 +7,9 @@ description: 前置任务是另一个任务（称为后置任务或从属任务�
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1179'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MO
 
       **#**&#x200B;列中的数字显示前置任务编号。 例如，“6”表示项目中的第六个任务。
 
-      任务![&#128279;](assets/predecessors-area-with-task-header.png)的前置任务部分
+      任务![的](assets/predecessors-area-with-task-header.png)前置任务部分
 
 * 转到您正在处理的项目并执行以下操作：
 

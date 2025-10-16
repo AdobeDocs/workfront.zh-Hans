@@ -4,10 +4,10 @@ product-area: timesheets
 navigation-topic: tips-tricks-and-troubleshooting-timesheets
 title: 更正工时表的工作周开始日期
 description: 时间表上每周的开始日期与我预期的每周开始日期不匹配。
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 5c6c100f-2a04-4a6b-9f95-acc8de3a90f1
-source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 0%

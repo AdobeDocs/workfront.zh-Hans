@@ -2,26 +2,24 @@
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: 将积压添加到Kanban板
-description: 您可以直接在Kanban展示板上显示[!UICONTROL 积压]列。  [!DNL Kanban] 展示板上的[!UICONTROL 积压]列包含 [!DNL Kanban] 展示板上的积压中的前20个项目。 任务和问题必须属于某个项目，其状态相当于当前才能显示在积压中。
+description: 您可以直接在Kanban展示板上显示[!UICONTROL 积压]列。 [!UICONTROL 展示板上的]积压 [!DNL Kanban] 列包含 [!DNL Kanban] 展示板上的积压中的前20个项目。 任务和问题必须属于某个项目，其状态相当于当前才能显示在积压中。
 author: Lisa
 feature: Agile
 exl-id: 77c7f7c7-66d9-4aec-9a0c-bfdc470a58d7
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
 
 # 将积压工作添加到[!UICONTROL Kanban]展示板
 
-您可以直接在Kanban展示板上显示[!UICONTROL 积压]列。 [!DNL Kanban]展示板上的[!UICONTROL 积压]列包含[!DNL Kanban]展示板上的积压中的前20个项目。 任务和问题必须属于状态相当于[!UICONTROL 当前]的项目才能显示在积压中。
+您可以直接在Kanban展示板上显示[!UICONTROL 积压]列。 [!UICONTROL 展示板上的]积压[!DNL Kanban]列包含[!DNL Kanban]展示板上的积压中的前20个项目。 任务和问题必须属于状态相当于[!UICONTROL 当前]的项目才能显示在积压中。
 
 ## 访问要求
 
 +++ 展开以查看本文中各项功能的访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,14 +28,13 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>新文档： [!UICONTROL Standard]</p> 
-   或
-   <p>当前： [!UICONTROL Work]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p>标准</p> 
+   <p>工作或更高</p> </td> 
   </tr>
  </tbody> 
 </table>

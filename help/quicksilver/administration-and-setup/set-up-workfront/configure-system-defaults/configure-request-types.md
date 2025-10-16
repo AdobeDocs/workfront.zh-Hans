@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -25,31 +25,27 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
-   <td>任何</td> 
+   <td>[!DNL Adobe Workfront] 包</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>新文档： [!UICONTROL Standard]</p>
-   或
-   <p>当前： [!UICONTROL 计划]</p>
-   </td> 
-  </tr>
+   <td>[!DNL Adobe Workfront] 许可证</td> 
+   <td><p>[！UICONTROL标准版]</p>
+       <p>[！UICONTROL计划]</p></td>
+  </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td>
+   <td>访问级别配置</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -75,7 +71,7 @@ You must have at least one request type selected. You can select multiple reques
 作为[!DNL Workfront]管理员，您可以在系统中配置请求类型的名称。 新名称显示在[!DNL Workfront]中显示&#x200B;**[!UICONTROL 问题类型]**&#x200B;或&#x200B;**[!UICONTROL 请求类型]**&#x200B;字段的任何区域：
 
 * 在接收问题或请求的项目的&#x200B;**[!UICONTROL 队列详细信息]**&#x200B;区域中。
-* 如果您为请求队列选择了多个请求类型，则在创建新问题或提交新请求时，请在&#x200B;**[!UICONTROL 问题类型]**&#x200B;字段的&#x200B;**[!UICONTROL 新建问题]表单**&#x200B;中进行。
+* 如果您为请求队列选择了多个请求类型，则在创建新问题或提交新请求时，请在&#x200B;**[!UICONTROL 问题类型]字段的**&#x200B;新建问题&#x200B;**[!UICONTROL 表单]**&#x200B;中进行。
 
   有关在[!DNL Workfront]中创建问题的详细信息，请参阅[创建问题](../../../manage-work/issues/manage-issues/create-issues.md)
 

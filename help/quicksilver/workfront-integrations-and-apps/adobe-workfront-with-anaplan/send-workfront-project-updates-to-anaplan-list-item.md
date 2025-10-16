@@ -2,55 +2,60 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
 title: 将 [!DNL Adobe Workfront] 项目更新发送到 [!DNL Anaplan] 列表项
-description: 此集成方案共享具有 [!DNL Anaplan] 预算列表项的 [!DNL Adobe Workfront] 项目的进度、状态和关键计划详细信息。 共享此信息可让您更好地利用 [!DNL Anaplan] 提供的支出优化和财务分析。
+description: 此集成方案共享具有 [!DNL Adobe Workfront] 预算列表项的 [!DNL Anaplan] 项目的进度、状态和关键计划详细信息。 共享此信息可让您更好地利用 [!DNL Anaplan] 提供的支出优化和财务分析。
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: 97e9dac6-f5b5-4d6e-b58b-93acd19048ee
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: d3f234313677d916318c181c91cb951948454006
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '963'
 ht-degree: 0%
 
 ---
 
 # 将[!DNL Adobe Workfront]项目更新发送到[!DNL Anaplan]列表项
 
-此集成方案共享具有[!DNL Anaplan]预算列表项的[!DNL Adobe Workfront]项目的进度、状态和关键计划详细信息。 共享此信息可让您更好地利用[!DNL Anaplan]提供的支出优化和财务分析。
+此集成方案共享具有[!DNL Adobe Workfront]预算列表项的[!DNL Anaplan]项目的进度、状态和关键计划详细信息。 共享此信息可让您更好地利用[!DNL Anaplan]提供的支出优化和财务分析。
 
 >[!IMPORTANT]
 >
->本文中的“营销活动”是指此方案所代表的营销活动用例，并且绝不会连接到[!DNL Workfront Fusion] Adobe Campaign连接器或[!DNL Workfront]中最近弃用的[!UICONTROL 营销活动]对象。
+>本文中的“营销活动”是指此方案所代表的营销活动用例，并且绝不会连接到[!DNL Workfront Fusion] Adobe Campaign连接器或[!UICONTROL 中最近弃用的]营销活动[!DNL Workfront]对象。
 
 ## 访问要求
 
-您必须具有以下权限才能使用本文中的功能：
++++ 展开以查看本文中各项功能的访问要求。
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
-   <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront包</td> 
+   <td> <p>任何Adobe Workfront Workflow包和任何Adobe Workfront自动化和集成包</p><p>Workfront Ultimate</p><p>Workfront Prime和Select包，以及额外购买的Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[!UICONTROL 计划]，[!UICONTROL 工作]</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p>标准</p><p>工作或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] 许可证**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
+   <td role="rowheader">Adobe Workfront Fusion许可证</td> 
+   <td>
+   <p>基于操作：不需要Workfront Fusion许可证</p>
+   <p>基于连接器（旧版）：用于工作自动化和集成的Workfront Fusion </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
-   <td>您的组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文中介绍的功能。</td> 
-  </tr> 
+   <td>
+   <p>如果贵组织具有不包含Workfront Automation and Integration的Select或Prime Workfront包，则贵组织必须购买Adobe Workfront Fusion。</li></ul>
+   </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+有关此表中信息的更多详细信息，请参阅文档[中的](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)访问要求。
 
-&#42;&#42;有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
+有关Adobe Workfront Fusion许可证的信息，请参阅[Adobe Workfront Fusion许可证](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
 
 ## 触发事件
 
@@ -79,24 +84,24 @@ ht-degree: 0%
    </thead> 
    <tbody> 
     <tr> 
-     <td role="rowheader">[!UICONTROL 上市日期]</td> 
-     <td>[!UICONTROL 日期] </td> 
+     <td role="rowheader">[！UICONTROL上市日期]</td> 
+     <td>[！UICONTROL日期] </td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL 市场结束日期]</td> 
-     <td>[!UICONTROL 日期]</td> 
+     <td role="rowheader">[！UICONTROL市场结束日期]</td> 
+     <td>[！UICONTROL日期]</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL 营销活动概述]</td> 
-     <td>[!UICONTROL 段落文本字段]</td> 
+     <td role="rowheader">[！UICONTROL营销活动概述]</td> 
+     <td>[！UICONTROL段落文本字段]</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL Key Message]</td> 
-     <td>[!UICONTROL 段落文本字段]</td> 
+     <td role="rowheader">[！UICONTROL Key Message]</td> 
+     <td>[！UICONTROL段落文本字段]</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL 目标受众]</td> 
-     <td> <p>[!UICONTROL 下拉列表]</p> <p>包含适合您的流程的选项。</p> </td> 
+     <td role="rowheader">[！UICONTROL目标受众]</td> 
+     <td> <p>[！UICONTROL下拉列表]</p> <p>包含适合您的流程的选项。</p> </td> 
     </tr> 
    </tbody> 
   </table>
@@ -179,7 +184,7 @@ ht-degree: 0%
 
 完成以下步骤可将此集成方案部署到您的Fusion帐户。 此操作只应在完成所需的[!DNL Workfront]和[!DNL Anaplan]配置之后完成。
 
-1. 导航到[!DNL Workfront Fusion]中的[!UICONTROL 模板]菜单，然后单击&#x200B;**[!UICONTROL 将Workfront项目更新发送到[!DNL Anaplan]列表项]**&#x200B;方案模板。
+1. 导航到[!UICONTROL 中的]模板[!DNL Workfront Fusion]菜单，然后单击&#x200B;**[!UICONTROL 将Workfront项目更新发送到[!DNL Anaplan]列表项]**&#x200B;方案模板。
 1. 替换以下[!DNL Anaplan]个变量的变量值：
 
    <table style="table-layout:auto"> 
@@ -193,27 +198,27 @@ ht-degree: 0%
     </thead> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL [!DNL Anaplan] Workspace ID]</td> 
+      <td role="rowheader">[！UICONTROL [!DNL Anaplan] Workspace ID]</td> 
       <td>[!DNL Anaplan]帐户中的工作区ID。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL [!DNL Anaplan]模型ID] </td> 
+      <td role="rowheader">[！UICONTROL [!DNL Anaplan]模型ID] </td> 
       <td>[!DNL Anaplan]帐户和所选工作区的模型ID。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 营销活动列表名称]</td> 
+      <td role="rowheader">[！UICONTROL营销活动列表名称]</td> 
       <td>您的[!DNL Anaplan]帐户和所选工作区和模型的列表名称。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 文件名：项目更新导入]</td> 
+      <td role="rowheader">[！UICONTROL文件名：项目更新导入]</td> 
       <td>将接收项目更新数据的文件的名称。<p>（示例：WorkfrontUpdateLinkedProject.csv）</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 进程名称：项目更新导入]</td> 
+      <td role="rowheader">[！UICONTROL进程名称：项目更新导入]</td> 
       <td> <p>执行项目数据导入的进程的名称。</p> <p>（示例： WF Int — 更新促销活动详细信息）</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL [!DNL Workfront]子域]</td> 
+      <td role="rowheader">[！UICONTROL [!DNL Workfront]子域]</td> 
       <td>[!DNL Workfront]帐户的子域。 这用于在可能生成的注释中创建指向[!DNL Workfront]项目的链接。</td> 
      </tr> 
     </tbody> 
@@ -238,15 +243,15 @@ ht-degree: 0%
 
 此方案模板与以下支出优化方案模板相辅相成，这些模板也可部署：
 
-* [[!UICONTROL 向 [!DNL Anaplan] 列表项]发送 [!DNL Adobe Workfront] 实际小时更新](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+* [[!UICONTROL 向 [!DNL Adobe Workfront] 列表项 [!DNL Anaplan] 发送]实际小时更新](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
 * [[!UICONTROL 将 [!DNL Adobe Workfront] 费用发送到 [!DNL Anaplan] 列表项]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
 
 链接预算请求的其他方案：
 
-* [[!UICONTROL 根据 [!DNL Adobe Workfront] 预算请求创建 [!DNL Anaplan] 列表项]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
+* [[!UICONTROL 根据 [!DNL Anaplan] 预算请求创建 [!DNL Adobe Workfront] 列表项]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
 * [[!UICONTROL 将 [!DNL Anaplan] 预算分配应用于 [!DNL Adobe Workfront] 项目]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
 
 关联营销活动请求的其他方案：
 
-* [[!UICONTROL 根据 [!DNL Adobe Workfront] 营销活动请求创建 [!DNL Anaplan] 列表项]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
+* [[!UICONTROL 根据 [!DNL Anaplan] 营销活动请求创建 [!DNL Adobe Workfront] 列表项]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
 * [[!UICONTROL 将 [!DNL Anaplan] 预算分配应用于 [!DNL Adobe Workfront] 营销活动请求或营销活动项目]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)

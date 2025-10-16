@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: df10bc8f-b980-4c61-ae6d-bcea03103738
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 5fd855bec596926a4361fd07a1a763c7956e5e61
 workflow-type: tm+mt
-source-wordcount: '1856'
+source-wordcount: '1841'
 ht-degree: 0%
 
 ---
@@ -23,26 +23,23 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
    <td>
-   <p>新增：标准</p>
-   <p>或</p>
-   <p>当前：计划</p></td> 
+   <p>标准</p>
+   <p>规划</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>您必须是[!DNL Workfront]管理员。 </td> 
+   <td>Workfront管理员 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -92,19 +89,19 @@ ht-degree: 0%
 
    <table style="table-layout:auto">
     <tr>
-        <td><strong>[!UICONTROL 模板所有者]<strong></td>
-        <td>此人将获得模板的[!UICONTROL 管理]权限，并在使用模板创建项目时成为项目所有者。</td>
+        <td><strong>[！UICONTROL模板所有者]<strong></td>
+        <td>此人将获得模板的[！UICONTROL管理]权限，并在使用模板创建项目时成为项目所有者。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 模板发起人]</strong></td>
+        <td><strong>[！UICONTROL模板发起人]</strong></td>
         <td>此人通常是需要了解项目进展情况的经理、执行人员或利益相关者。 项目发起人不再获得对项目的任何其他访问权限，而是添加到项目的电子邮件通知中。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Portfolio]</strong></td>
+        <td><strong>[！UICONTROL Portfolio]</strong></td>
         <td>这是项目在创建时将属于的项目组合。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 项目]</strong></td>
+        <td><strong>[！UICONTROL项目]</strong></td>
         <td>这是项目在创建后所属的程序。</td>
     </tr>
    </table>
@@ -135,7 +132,7 @@ ht-degree: 0%
 
    >[!INFO]
    >
-   >**示例：**&#x200B;此Blueprint中的新问题首选项提供了四个队列主题。 用户在创建问题时选择以下主题之一。 （由于只有一个主题组，因此将自动应用该主题组，用户无需选择它。） 当用户完成并提交问题时，传送规则将确定它被分配给哪个工作角色或团队。
+   >**示例：**此Blueprint中的新问题首选项提供了四个队列主题。 用户在创建问题时选择以下主题之一。 （由于只有一个主题组，因此将自动应用该主题组，用户无需选择它。） 当用户完成并提交问题时，传送规则将确定它被分配给哪个工作角色或团队。
    >![新问题偏好设置示例](assets/Blueprints_IssuePrefsDetails.png)
    >![新问题的队列主题](assets/blueprints-newissueqtopicsexample-350x204.png)
    >![问题已路由到工作角色](assets/Blueprints_ProjectShowsIssueAssignment.png)

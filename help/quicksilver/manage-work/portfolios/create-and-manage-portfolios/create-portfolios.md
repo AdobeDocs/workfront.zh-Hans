@@ -1,21 +1,21 @@
 ---
 product-area: portfolios
 navigation-topic: create-and-manage-portfolios
-title: 创建项目组合
+title: 创建Portfolio
 description: Portfolio是争夺相同资源、预算和计划的项目集合。 Portfolio中的项目非常相似，以至于它们会使用相同的资源池并根据相同的记分卡进行衡量。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '667'
 ht-degree: 1%
 
 ---
 
 # 创建项目组合
 
-<!--Audited: 7/2024-->
+<!--Audited: 08/2025-->
 
 Portfolio是争夺相同资源、预算和计划的项目集合。 Portfolio中的项目非常相似，以至于它们会使用相同的资源池并根据相同的记分卡进行衡量。
 
@@ -23,28 +23,28 @@ Portfolio是争夺相同资源、预算和计划的项目集合。 Portfolio中�
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 包</td> 
    <td> <p>任何</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>新文档： [!UICONTROL Standard]</p>
-   <p>当前：[!UICONTROL 计划] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
+   <td> <p>[！UICONTROL标准版]</p>
+   <p>[！UICONTROL计划] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[!UICONTROL Edit]对项目组合的访问权限</p>  </td> 
+   <td> <p>[！UICONTROL Edit]对项目组合的访问权限</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>创建项目组合后，默认情况下，您拥有其管理权限</p>  </td> 
+   <td> <p>在创建项目组合后，您对其具有管理权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,6 +52,34 @@ Portfolio是争夺相同资源、预算和计划的项目集合。 Portfolio中�
 *有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Any</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>New: [!UICONTROL Standard]</p>
+   <p>Current:[!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to Portfolios</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>After you create a portfolio, you have Manage permissions to it, by default</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 ## 创建项目组合的方法
 
@@ -98,21 +126,21 @@ Portfolio是争夺相同资源、预算和计划的项目集合。 Portfolio中�
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 描述]</td> 
+      <td role="rowheader">[！UICONTROL描述]</td> 
       <td> <p>键入Portfolio的描述以指示其独特之处。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
-      <td> <p>开始键入要指定为项目组合经理的用户名称，然后当该用户出现在列表中时将其选定。 这与[!UICONTROL Portfolio Owner]相同。 他可以监督项目组合中定义的工作并批准业务案例。</p> <p>重要信息：当您指定某个用户作为[!UICONTROL Portfolio Manager]时，该用户会自动获得对该项目组合、该项目组合中项目群和项目群的[!UICONTROL Manager]权限。 </p> <p>提示：您还可以更新页面顶部标题中的[!UICONTROL Portfolio Manager]。</p> </td> 
+      <td role="rowheader">[！UICONTROL Portfolio Manager]</td> 
+      <td> <p>开始键入要指定为项目组合经理的用户名称，然后当该用户出现在列表中时将其选定。 这与[！UICONTROL Portfolio Owner]相同。 他可以监督项目组合中定义的工作并批准业务案例。</p> <p>重要信息：当您指定某个用户作为[！UICONTROL Portfolio Manager]时，该用户会自动获得对该项目组合、该项目组合中项目群和项目群的[！UICONTROL Manager]权限。 </p> <p>提示：您还可以更新页面顶部标题中的[！UICONTROL Portfolio Manager]。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">组 </td> 
-      <td> <p>添加单个组的名称（如果该组拥有项目组合或负责完成它）。 </p> <p>您可以通过将鼠标悬停在该组上并单击其旁边显示的[!UICONTROL 信息]图标<img src="assets/info-icon.png">来确保选择正确的组。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> </td> 
+      <td> <p>添加单个组的名称（如果该组拥有项目组合或负责完成它）。 </p> <p>您可以通过将鼠标悬停在该组上并单击其旁边显示的[！UICONTROL信息]图标<img src="assets/info-icon.png">来确保选择正确的组。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. （可选）在[!UICONTROL Portfolio详细信息]页面右上角的&#x200B;**[!UICONTROL 添加自定义表单]**&#x200B;框中单击，为项目组合选择自定义表单并更新自定义字段。
+1. （可选）在&#x200B;**[!UICONTROL Portfolio详细信息]**&#x200B;页面右上角的[!UICONTROL 添加自定义表单]框中单击，为项目组合选择自定义表单并更新自定义字段。
 
    >[!TIP]
    >

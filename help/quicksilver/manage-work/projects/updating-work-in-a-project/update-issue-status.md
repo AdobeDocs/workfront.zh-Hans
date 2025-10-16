@@ -6,9 +6,9 @@ description: 您可以更新问题的状态，以通知其他人该问题的位�
 author: Alina
 feature: Work Management
 exl-id: 6e09dfcf-dceb-4f33-9592-0769283369c7
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '629'
 ht-degree: 3%
 
 ---
@@ -21,23 +21,20 @@ ht-degree: 3%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>新文档：参与者或更高版本</p>
-   或
-   <p>当前：请求或更高版本</p>
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p>参与者或更高版本</p>
+   <p>请求或更高版本</p>
    </td> 
   </tr> 
   <tr> 
@@ -54,6 +51,34 @@ ht-degree: 3%
 *有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New: Contributor or higher</p>
+   Or
+   <p>Current: Request or higher</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Issues</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the issue</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 问题状态
 
@@ -165,7 +190,7 @@ When you are updating an issue status, you can also add an explanation about the
   <tr> 
    <td>更新附加到问题的解析对象的状态</td> 
    <td>各种状态</td> 
-   <td> <p>各种状态</p> <p>有关解析对象以及它们如何影响问题状态的信息，请参阅解析和可解析对象概述</a>一文<a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">中的“将可解析对象的状态与解析对象的状态同步”一节。</p> </td> 
+   <td> <p>各种状态</p> <p>有关解析对象以及它们如何影响问题状态的信息，请参阅解析和可解析对象概述<a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">一文</a>中的“将可解析对象的状态与解析对象的状态同步”一节。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span>单击“开始问题”按钮接受处理分配给您的问题</span> </td> 

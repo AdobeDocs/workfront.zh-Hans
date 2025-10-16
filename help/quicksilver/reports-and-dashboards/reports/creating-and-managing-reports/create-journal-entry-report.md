@@ -5,10 +5,10 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '2771'
-ht-degree: 3%
+source-wordcount: '2763'
+ht-degree: 4%
 
 ---
 
@@ -35,28 +35,20 @@ ht-degree: 3%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-      <td> 
-      <p>新增：</p>
-         <ul>
-         <li><p>标准</p></li>
-         </ul>
-      <p>当前：</p>
-         <ul>
-         <li><p>规划</p></li>
-         </ul>
-   </td> 
+   <td> 
+      <p>标准</p>
+      <p>规划</p>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -69,7 +61,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -111,11 +103,11 @@ ht-degree: 3%
    <td><strong>更改类型</strong> </td> 
    <td> <p>对受影响字段所做的更改类型。 根据您设置的过滤器规则以及用户执行的操作，此字段可能会显示以下内容：</p> 
     <ul> 
-     <li> <p>添加</p> </li> 
+     <li> <p>Add</p> </li> 
      <li> <p>审计</p> </li> 
      <li> <p>删除</p> </li> 
      <li> <p>摘要</p> </li> 
-     <li> <p>编辑</p> </li> 
+     <li> <p>Edit</p> </li> 
      <li> <p>还原</p> </li> 
     </ul> </td> 
   </tr> 

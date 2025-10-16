@@ -6,9 +6,9 @@ description: 计划自动报表提交
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 62f56486ccc590921b7dc8227d46cdede84df32d
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1293'
 ht-degree: 2%
 
 ---
@@ -27,35 +27,32 @@ ht-degree: 2%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader">Adobe Workfront包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-      <td> 
-      <p>新增：标准</p>
-      <p>或</p>
-
-<p>当前：计划</p>
-
-</td>
+   <td> 
+      <p>标准</p>
+      <p>规划</p>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>编辑对报告、功能板和日历的访问权限</p> <p>编辑对筛选器、视图、分组的访问权限</p> </td> 
+   <td> <p>编辑对报告、功能板和日历的访问权限</p>
+   <p>编辑对筛选器、视图、分组的访问权限</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理报表的权限</p></td> 
+     <td> <p>管理报表的权限</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -96,7 +93,7 @@ ht-degree: 2%
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>发送至</p> </td> 
-      <td> <p>开始键入要向其发送报告的用户、组、团队或角色的名称，然后在名称出现在下拉列表中时单击该名称。</p> <p>或</p> <p>输入您希望有权访问报告的Workfront系统外部人员的电子邮件地址。</p> <p>重复此过程可将报告发送给多个用户、组、团队或角色。</p> <p>注意：  <p>添加报告投放收件人时，请考虑以下事项：</p> 
+      <td> <p>开始键入要向其发送报告的用户、组、团队或角色的名称，然后在名称出现在下拉列表中时单击该名称。</p> <p>或</p> <p>输入您希望有权访问报告的Workfront系统外部人员的电子邮件地址。</p> <p>重复此过程可将报告发送给多个用户、组、团队或角色。</p> <p>注释：  <p>添加报告投放收件人时，请考虑以下事项：</p> 
         <ul> 
          <li><p>如果贵组织将Workfront通知限制在特定电子邮件域，则您只能向电子邮件允许列表中列出的电子邮件地址发送报告。</p> <p>例如，当用户被设置为报告收件人并且拥有之前允许的电子邮件地址时，并且更新允许列表以不再向该域投放电子邮件时，用户将不再接收投放的报告。</p><p>有关Workfront管理员如何更新电子邮件允许列表的信息，请参阅<a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref">配置电子邮件允许列表</a>部分。</p></li> 
          <li> <p>添加大量用户作为收件人可能会导致投放失败。 如果您遇到交付失败的情况，则可以使用较小的用户组安排多个报表交付。</p> </li> 

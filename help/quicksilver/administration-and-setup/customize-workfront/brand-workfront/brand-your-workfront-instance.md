@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 17aaf70977aa6ce0276676c6a30fd6c951be956c
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 1%
+source-wordcount: '881'
+ht-degree: 2%
 
 ---
 
@@ -59,32 +59,27 @@ ht-degree: 1%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-   <td>任何</td> 
+   <td>Adobe Workfront包</td> 
+   <td><p>任何</p></td> 
   </tr> 
   <tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td><p>新增：标准</p>
-       <p>或</p>
-       <p>当前：计划</p></td>
-  </tr> 
+   <td>Adobe Workfront许可证</td> 
+   <td><p>标准</p>
+       <p>规划</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td>
+   <td>访问级别配置</td> 
+   <td>系统管理员</td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -102,19 +97,19 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>标记主页图标<span style="font-weight: normal;">（显示在顶部导航区域的最左侧）</span></p> </td> 
-      <td> <p>在<strong>顶部导航区域</strong>部分的<strong>主页图标</strong>下，单击框中的任意位置，然后查找并选择您的徽标图像。 或将图像拖到框中。</p> <p>要裁切图像，请使用滚动控件并将图像拖动到指定空间内所需的位置。</p> <p>我们建议使用120 x 120图像。 它可以采用以下任意格式：GIF、JPG、PNG、SVG。</p> <p>此图标还会显示在用户导出为PDF文件的报表、列表、功能板和已传送报表中。</p> </td> 
+      <td> <p>在<strong>顶部导航区域</strong>部分的<strong>主页图标</strong>下，单击框中的任意位置，然后查找并选择您的徽标图像。 或将图像拖到框中。</p> <p>要裁切图像，请使用滚动控件并将图像拖动到指定空间内所需的位置。</p> <p>我们建议使用120 x 120图像。 它可以采用以下任何格式：GIF、JPG、PNG、SVG。</p> <p>此图标还会显示在用户导出为PDF文件的报表、列表、功能板和已传送报表中。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>标记主菜单<img src="assets/main-menu-icon.png">徽标<span style="font-weight: normal;">（显示在主菜单的右上角）</span></p> </td> 
-      <td> <p>在<strong>顶部导航区域</strong>部分的<strong>主菜单徽标</strong>下，单击框中的任意位置，然后查找并选择您的徽标图像。 或将图像拖到框中。</p> <p>要裁切图像，请使用滚动控件并将图像拖动到指定空间内所需的位置。</p> <p>我们建议使用300 x 120像素的图像。 它可以采用以下任意格式：GIF、JPG、PNG、SVG。</p> </td> 
+      <td> <p>在<strong>顶部导航区域</strong>部分的<strong>主菜单徽标</strong>下，单击框中的任意位置，然后查找并选择您的徽标图像。 或将图像拖到框中。</p> <p>要裁切图像，请使用滚动控件并将图像拖动到指定空间内所需的位置。</p> <p>我们建议使用300 x 120像素的图像。 它可以采用以下任何格式：GIF、JPG、PNG、SVG。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">将登录屏幕徽标<span style="font-weight: normal;">品牌化（显示在用户键入登录凭据的框的左上方）</span></td> 
-      <td> <p>在<strong>登录屏幕</strong>下，单击框中的任意位置，然后查找并选择您的徽标图像。 要裁切图像，请使用滚动控件并将图像拖动到指定空间内所需的位置。</p> <p>我们建议使用300 x 120像素的图像。 它可以采用以下任意格式：GIF、JPG、PNG、SVG。</p> </td> 
+      <td> <p>在<strong>登录屏幕</strong>下，单击框中的任意位置，然后查找并选择您的徽标图像。 要裁切图像，请使用滚动控件并将图像拖动到指定空间内所需的位置。</p> <p>我们建议使用300 x 120像素的图像。 它可以采用以下任何格式：GIF、JPG、PNG、SVG。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">将登录屏幕背景颜色标记为<span style="font-weight: normal;">（显示在用户键入登录凭据的框后）</span></td> 
-      <td> <p>在<strong>登录屏幕</strong>下，设置<strong>背景颜色</strong>。 </p> <p>可以使用RGB或十六进制颜色代码。</p> <p>仅当登录屏幕背景大于登录屏幕背景图像（请参阅此表中的下一行）或图像中存在任何透明度时，背景颜色才可见。</p> </td> 
+      <td> <p>在<strong>登录屏幕</strong>下，设置<strong>背景颜色</strong>。 </p> <p>您可以使用RGB或HEX颜色代码。</p> <p>仅当登录屏幕背景大于登录屏幕背景图像（请参阅此表中的下一行）或图像中存在任何透明度时，背景颜色才可见。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">标记登录屏幕背景图像<span style="font-weight: normal;">（显示在用户键入其登录凭据的框后）</span></td> 

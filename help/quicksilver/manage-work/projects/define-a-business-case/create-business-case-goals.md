@@ -2,13 +2,13 @@
 navigation-topic: business-case-and-scorecards
 title: 创建业务案例目标
 description: 在创建业务案例的过程中，您可以创建一组目标以定义项目目标。 业务案例目标用于向Portfolio经理或项目发起人传达完成项目的目的。
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 1%
+source-wordcount: '431'
+ht-degree: 2%
 
 ---
 
@@ -50,15 +50,14 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront计划*</p></td> 
-   <td> <p>当前：Prime或更高版本</p>
-   <p>旧版：专业版或更高版本</p>  </td> 
+   <td role="rowheader"><p>Adobe Workfront包</p></td> 
+   <td> <p>Prime或更高版本</p>
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront许可证*</p></td>
+   <td role="rowheader"><p>Adobe Workfront许可证</p></td>
    <td> 
-   <p>当前：标准</p> 
-   <p>旧版：计划 </p> 
+   <p>标准</p> 
+   <p>规划 </p> 
    </td> 
   </tr> 
   <tr> 
@@ -72,7 +71,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -104,6 +103,6 @@ ht-degree: 1%
    >
    >您无法自定义目标的重要性级别。
 
-1. （可选）要添加另一个目标，请单击“添加另一个目标”**&#x200B;**&#x200B;并重复步骤5-6。
+1. （可选）要添加另一个目标，请单击“添加另一个目标”****&#x200B;并重复步骤5-6。
 
 1. 单击&#x200B;**保存**。
