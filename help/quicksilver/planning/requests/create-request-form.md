@@ -169,7 +169,7 @@ ht-degree: 1%
 表单详细信息分为选项卡。
 
 * **表单**&#x200B;选项卡允许您向表单添加字段和内容元素
-* **配置**选项卡允许您设置表单的批准流程并设置请求完成选项&lt;。
+* **配置**&#x200B;选项卡允许您设置表单的批准流程并设置请求完成选项&lt;。
   <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
 
 #### 设置表单详细信息
