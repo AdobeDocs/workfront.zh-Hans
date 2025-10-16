@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '450'
 ht-degree: 2%
 
 ---
@@ -48,15 +48,11 @@ Adobe Workfront Planning对实例中可创建的对象数量存在限制。 设�
 | 可导入以创建记录类型的Excel文件的CSV大小 | 5MB |
 | 在CSV或Excel文件中可导入以创建记录类型的行数 | 25,000 |
 | 在CSV或Excel文件中可导入以创建记录类型的列数 | 500 |
-| <span class="preview">一个记录类型的公式字段数</span> | <span class="preview">20</span> |
-| <span class="preview">公式字段表达式中的字符数</span> | <span class="preview">50,000</span> |
+| 一种记录类型的公式字段数 | 20 |
+| <span class="preview">一个记录类型的连接字段数</span> | <span class="preview">30</span> |
+| 公式字段表达式中的字符数 | 50,000 |
 
-
-<!-- Add this after the formula fields limit above:
-
-| <span class="preview">Number of connection fields for one record type</span> | <span class="preview">30</span> |-->
-
-*我们建议不要拥有太多工作区，因为它们可能会变得难以管理，并且您的工作流可能过于分散。
+*我们建议不要有太多工作区，因为它们可能会变得难以管理，并且您的工作流可能过于分散。
 
 有关Workfront Planning定价和打包的信息，请联系您的客户经理。
 

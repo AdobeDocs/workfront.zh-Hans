@@ -1,26 +1,17 @@
 ---
 title: 配置记录类型的设置区域
-description: 记录类型在“设置”页面中保存后，您可以对其进行编辑。
-hide: true
-hidefromtoc: true
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
-workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 1%
-
----
-
-
-<!--add better metadata at release:
-
-title: Configure Record Type Settings
-description: You can edit record types after they have been saved in the Settings page. 
+description: 除了在“编辑记录类型”框中编辑记录类型外，您还可以在“设置”页面中编辑记录类型。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
-recommendations: noDisplay, noCatalog 
+recommendations: noDisplay, noCatalog
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+workflow-type: tm+mt
+source-wordcount: '483'
+ht-degree: 2%
 
--->
+---
+
 
 # 配置记录类型的设置区域
 
@@ -32,7 +23,7 @@ recommendations: noDisplay, noCatalog
 
 在Adobe Workfront Planning中保存记录类型后，您可以对其进行其他设置。
 
-根据要为记录类型定义的功能，可以通过执行以下操作之一为其配置其他设置：
+根据要为记录类型定义的功能，可以通过执行以下操作之一来配置其他设置：
 
 <!--the above will need to be reworded when we add automations and manage request forms to this area-->
 
@@ -46,7 +37,7 @@ recommendations: noDisplay, noCatalog
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开以查看本文中各项功能的访问要求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -55,30 +46,36 @@ recommendations: noDisplay, noCatalog
 </col> 
 <tbody> 
     <tr> 
-<tr>
-
+<tr> 
 </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront包</p></td> 
    <td> 
-<ul><li><p>任何Workfront包</p></li>
-<p>与</p>
-<li><p>用于创建可连接记录类型的任意Planning包</p></li>
-<li><p>用于创建集中记录类型的Planning Plus包</p></li>
-</ul>
-<p>或：</p>
-<ul><li><p>工作流和计划Prime或Ultimate包</p> </li></ul>
-<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户经理。 </p> 
-   </td>
+<p>任何Workfront和Planning包</p>
+<p>任何Workfront和Planning包</p>
+<p><b>注释</b></p>
+<p>要配置可连接的记录类型，请执行以下操作： </p>
+<ul> 
+<li><p>任何Workfront包和任何Planning包</p></li>
+<p>或</p>
+<li><p>任何工作流和计划Prime或Ultimate包</p></li></ul>
 
-<tr> 
+<p>要配置全局记录类型，请执行以下操作：</p>
+
+<ul> 
+<li><p>任何Workfront包和Planning Plus包</p></li>
+<p>或</p>
+<li><p>任何工作流和计划Prime或Ultimate包</p></li></ul>
+<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p>
+   </td> </tr>
+  <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
    <td><p>标准</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
-   <td>   <p>管理工作区</a>的权限 </p>  
+   <td>   <p>管理工作区的权限</p>  
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>  </td> 
   </tr>  
 </tbody> 
@@ -86,7 +83,7 @@ recommendations: noDisplay, noCatalog
 
 有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-+++   
++++    
 
 <!--Old:
 
@@ -164,12 +161,16 @@ recommendations: noDisplay, noCatalog
 1. 执行下列操作之一：
 
    * 将鼠标悬停在记录类型的卡片上，然后单击记录类型卡片右上角的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**设置**
-或
+
+     ![记录类型卡片中的更多菜单选项](assets/more-menu-options-from-record-type-card-with-settings-link.png)
+
+     或
+
    * 单击记录类型卡以打开记录类型页面，单击记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击&#x200B;**设置**。
 
-   <!--update screen shot at release-->
+   <!--update screen shot at prod??-->
 
-   ![记录类型卡片中的更多菜单选项](assets/more-menu-options-from-record-type-card.png)
+   设置页面上的![跨工作区设置](assets/settings-page-cross-workspace-settings.png)
 
 1. 默认情况下，**跨工作区设置**&#x200B;部分处于选中状态。
 1. 打开或关闭以下设置之一：
@@ -179,4 +180,4 @@ recommendations: noDisplay, noCatalog
 
    默认情况下，这些设置处于关闭状态。
 
-   有关信息，请参阅[为记录类型配置跨工作区功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+   有关详细信息，请参阅[为记录类型配置跨工作区功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)

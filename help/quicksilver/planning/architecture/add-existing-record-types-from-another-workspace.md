@@ -1,23 +1,18 @@
 ---
 title: 从其他Workspace添加现有记录类型
 description: 记录类型是Adobe Workfront Planning的对象类型。 在Workfront Planning中，您可以添加在另一个工作区中创建的现有记录类型。
-hidefromtoc: true
-hide: true
-exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
-workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 0%
-
----
-
-<!-- add these to the metadata, when making this public: 
-
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
--->
+exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+workflow-type: tm+mt
+source-wordcount: '630'
+ht-degree: 0%
+
+---
+
 
 # 从另一个工作区添加现有记录类型
 
@@ -56,7 +51,7 @@ recommendations: noDisplay, noCatalog
    <td> 
 <ul><li><p>任何Workfront包和Planning Plus包</p></li>
 <p>或</p>
-<li><p>工作流和规划Prime和Ultimate包</p></p></li></ul>
+<li><p>任何工作流和计划Prime或Ultimate包</p></p></li></ul>
 <p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
    </td> 
   <tr> 
@@ -120,6 +115,8 @@ And
 >[!NOTE]
 >
 >确保在至少一个其他工作区中至少有一个指定为全局的记录类型。
+>
+>有关信息，请参阅[为记录类型配置跨工作区功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。
 
 1. 开始创建记录类型，如文章[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)中所述，然后单击&#x200B;**添加现有**。<!--check this - the option might have been renamed in the UI-->
 

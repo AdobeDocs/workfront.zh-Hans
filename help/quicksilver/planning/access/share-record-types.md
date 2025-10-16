@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: c879d06cfe7ba76df3e974c160a7349f1503f17f
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1513'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >有权访问工作区的用户将自动获得对工作区中所有记录类型的至少“查看”权限。
->&#x200B;>共享视图不授予用户记录类型的权限。 只有共享工作区才能授予用户记录类型的权限。
+>>共享视图不授予用户记录类型的权限。 只有共享工作区才能授予用户记录类型的权限。
 >
 >* 有关在Workfront Planning中共享对象的一般信息，另请参阅[在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 >* 有关详细信息，请参阅本文中的[共享记录类型时的注意事项](#considerations-when-sharing-record-types)部分。
@@ -181,6 +181,17 @@ ht-degree: 0%
 * 您无法与Workfront之外的用户从外部共享记录类型。
 * 要向没有工作区权限高于查看权限的用户授予记录类型的权限，您必须首先以高于查看的权限与他们共享工作区。 工作区的较高权限随后将应用于记录类型。
 
+<div class="preview">
+
+* 共享全局记录类型时存在以下情况：
+
+   * 您可以从原始工作区共享全局记录类型。
+   * 将全局记录类型添加到辅助工作区后，就无法共享这些类型。
+
+  有关信息，请参阅[跨工作区记录类型概述](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)。
+
+</div>
+
 ## 共享记录类型的权限
 
 如果您具有工作区的管理权限，则可以调整对工作区的各个记录类型的权限。
@@ -191,7 +202,7 @@ ht-degree: 0%
 
 1. 执行下列操作之一：
 
-   * <span class="preview">从记录类型卡中，单击&#x200B;**更多**&#x200B;菜单> **共享**。</span>
+   * 从记录类型卡中，单击&#x200B;**更多**&#x200B;菜单> **共享**。
    * 单击记录类型卡以打开记录类型的页面，然后单击&#x200B;**共享** > **从任何记录类型视图中共享记录类型**。
 
    将打开&#x200B;**共享**&#x200B;框。

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '634'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 # 编辑记录类型
 
-<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
 <span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
@@ -40,20 +40,26 @@ ht-degree: 2%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront包</p></td> 
    <td> 
-<p>要启用可连接的记录类型，请执行以下操作： </p>
+<p>任何Workfront和Planning包</p>
+<p>任何Workfront和Planning包</p>
+<p><b>注释</b></p>
+<p>要配置可连接的记录类型，请执行以下操作： </p>
 <ul> 
 <li><p>任何Workfront包和任何Planning包</p></li>
 <p>或</p>
-<li><p>工作流和规划Prime和Ultimate包</p></li></ul>
+<li><p>任何工作流和计划Prime或Ultimate包</p></li></ul>
 
-<p>要启用全局记录类型，请执行以下操作：</p>
+<div class="preview">
+<p>要配置全局记录类型，请执行以下操作：</p>
 
 <ul> 
 <li><p>任何Workfront包和Planning Plus包</p></li>
 <p>或</p>
-<li><p>工作流和规划Prime和Ultimate包</p></li></ul>
-<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
-   </td> 
+<li><p>任何工作流和计划Prime或Ultimate包</p></li></ul>
+<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p>
+
+</div>
+   </td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
    <td><p>标准</p>
@@ -140,13 +146,13 @@ ht-degree: 2%
 1. 执行下列操作之一：
 
    * 将鼠标悬停在记录类型的卡片上，然后单击记录类型卡片右上角的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击&#x200B;**编辑**
-     <!--<span class="preview">or **Settings**</span>-->
+     <span class="preview">或&#x200B;**设置**</span>
 或
-   * <span class="preview">单击记录类型卡以打开记录类型页面，单击记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击&#x200B;**编辑**<!--<span class="preview">or **Settings**</span>. </span>-->
+   * 单击记录类型卡以打开记录类型页面，单击记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**编辑**<span class="preview">或&#x200B;**设置**</span>。
 
-   <!--<span class="preview">![More menu options from record type card](assets/more-menu-options-from-record-type-card.png)</span>-->
+   <span class="preview">![记录类型卡片中的更多菜单选项（设置）](assets/more-menu-options-from-record-type-card-with-settings-link.png)</span>
 
-1. 在&#x200B;**编辑记录类型**&#x200B;框中，**外观**&#x200B;选项卡默认打开。<!--update screen shot below at preview-->
+1. 在&#x200B;**编辑记录类型**&#x200B;框中，**外观**&#x200B;选项卡默认打开。<!--update screen shot below at production-->
 
    ![编辑记录类型框外观选项卡](assets/edit-record-type-box-appearance-tab.png)
 
@@ -158,26 +164,17 @@ ht-degree: 2%
       * 选择用于标识记录类型的颜色。 这是记录类型图标的颜色。
       * 从列表中选择一个图标，或开始键入图标的名称以描述其表示的内容，然后在显示时选择它。 这是记录类型的图标。 默认情况下，会选择一个文件图标。
 
+1. （可选且有条件）如果您是系统管理员，请单击&#x200B;**高级设置** <span class="preview">或&#x200B;**跨工作区设置**</span>&#x200B;选项卡，并更新有关记录类型的跨工作区功能的信息。
 
-1. （可选且有条件）如果您是系统管理员，请单击&#x200B;**高级设置**&#x200B;并在&#x200B;**跨工作区功能**&#x200B;部分中更新以下信息： <!--the info here is duplicated in the Create record types article-->
-   * 启用&#x200B;**允许在其他工作区中连接到此记录类型**&#x200B;设置：这允许工作区管理员从其他工作区连接到此记录类型。\
-     您可以指定此记录类型可以连接的工作区。 可使其可用于所有工作区，或指定可在其中导入它的特定工作区。
-有关详细信息，请参阅[为记录类型配置跨工作区功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。
+   有关详细信息，请参阅[为记录类型配置跨工作区功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。<!--update screen shot at production - Jan 2026-->
 
-
-   ![在“高级设置”选项卡上创建“记录类型”框](assets/create-record-type-box-advanced-settings-tab.png)
-
-   <!--replace last point with this when we release global record types; the preview tags might need to be edited, too:
-    1. <span class="preview">(Optional and conditional) If you are a system administrator, update the information in the **Cross-workspace settings** tab.</span>
-    <span class="preview">For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).</span>
-    ***********Add screenshot***********
-    -->
+   ![使用高级设置选项卡编辑记录类型框](assets/edit-record-type-box-advanced-settings-tab.png)
 
 1. 单击&#x200B;**保存**。
 
-   工作区上的记录类型卡片在右上角显示一个连接图标![从其他工作区连接图标](assets/connect-from-other-workspaces-icon.png)，表示现在可以从其他工作区访问该记录。
+   如果选择从其他工作区连接此记录，则记录卡上会显示&#x200B;**可连接的记录**&#x200B;图标![从其他工作区连接图标](assets/connect-from-other-workspaces-icon.png)。
 
-   <!--replace the blurb above after "Save" with this: <span class="preview">If you configured the cross-workspace capabilities for the record, the **connectable record type** icon ![Connectable record type icon](assets/connect-from-other-workspaces-icon.png) and the **global record type** icon ![Global record type icon](assets/global-icon.png) also display on the card. </span>-->
+   <span class="preview">如果您选择允许将此记录添加到其他工作区，则记录卡上会显示&#x200B;**全局记录**&#x200B;图标![全局记录类型图标](assets/global-icon.png)。</span>
 
 1. （可选）单击工作区区域中的记录类型卡以打开记录类型的页面，然后重命名标题中的记录类型。
 

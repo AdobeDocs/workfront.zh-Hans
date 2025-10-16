@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '5253'
+source-wordcount: '5463'
 ht-degree: 1%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=zh-Hans ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -238,8 +238,8 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
    * [创建日期](#created-date)
    * [上次修改者](#last-modified-by)
    * [上次修改日期](#last-modified-date)
-   * <span class="preview">[批准日期](#approved-date)</span>
-   * <span class="preview">[审批者](#approved-by)</span>
+   * [批准日期](#approved-date)
+   * [审批者](#approved-by)
      <!--* [Object](#object-field-type)-->
 
    >[!IMPORTANT]
@@ -299,7 +299,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 
 >[!NOTE]
 >
-><span class="preview">除了本节中介绍的功能外，您还可以在表视图中内联编辑记录的多选字段值时添加新选项。 有关详细信息，请参阅文章[编辑记录](/help/quicksilver/planning/records/edit-records.md).</span>中的“编辑有关单选或多选字段的信息”部分
+>除了本节中介绍的功能外，您还可以在表视图中内联编辑记录的多选字段值时添加新选项。 有关详细信息，请参阅文章[编辑记录](/help/quicksilver/planning/records/edit-records.md)中的“编辑有关单选或多选字段的信息”部分。
 >
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**多选**&#x200B;字段类型。
@@ -327,23 +327,20 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 
    新的多选字段作为列添加到记录类型，其值可以与记录相关联。
 
-<!--
-1. <span class="preview">(Optional) Hover over the field name in the table view, click the drop-down menu to the right of the field name, then click **Edit field**.</span>
-1. <span class="preview">Turn on the **Show values** setting to display the values for each choice. The values are the names of each choice, as they appear in the Workfront database. </span>
+1. <span class="preview">（可选）将鼠标悬停在表视图中的字段名称上，单击字段名称右侧的下拉菜单，然后单击&#x200B;**编辑字段**。</span>
+1. <span class="preview">打开&#x200B;**显示值**&#x200B;设置以显示每个选择的值。 值是每个选项的名称，如它们在Workfront数据库中显示的那样。</span>
 
-    >[!NOTE]
-    >
-    >* <span class="preview">Workfront assigns unique values for each choice. </span>
-    >
-    >* <span class="preview">Values match the choice name in lowercase format. Multiple words are separated by an underscore. </span>
-    >
-    >* <span class="preview">Values can be repeated between multiple fields, but they must be unique for one field.</span>
-    >
-    ><span class="preview"> ![Show value toggle](assets/show-values-toggle-and-choices-with-values.png)</span>
+   >[!NOTE]
+   >
+   >* <span class="preview">Workfront为每个选择分配唯一值。</span>
+   >
+   >* <span class="preview">值以小写格式匹配选项名称。 多个单词用下划线分隔。</span>
+   >
+   >* <span class="preview">值可以在多个字段之间重复，但是它们对于一个字段必须是唯一的。</span>
+   >
+   ><span class="preview"> ![显示值切换](assets/show-values-toggle-and-choices-with-values.png)</span>
 
-1. <span class="preview">(Optional) Use the choice values in your API calls and other integrations. </span> 
-
--->
+1. <span class="preview">（可选）在API调用和其他集成中使用选项值。</span>
 
 ### 单选 {#single-select}
 
@@ -351,13 +348,12 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 
 >[!NOTE]
 >
-><span class="preview">除了本节中介绍的功能外，您还可以在表视图中内联编辑记录的单选字段值时添加新选项。 有关详细信息，请参阅文章[编辑记录](/help/quicksilver/planning/records/edit-records.md).</span>中的“编辑有关单选或多选字段的信息”部分
+>除了本节中介绍的功能外，您还可以在表格视图中内联编辑记录的单选字段值时添加新选项。 有关详细信息，请参阅文章[编辑记录](/help/quicksilver/planning/records/edit-records.md)中的“编辑有关单选或多选字段的信息”部分。
 >
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**单选**&#x200B;字段类型。
 
    ![单选字段类型](assets/single-select-field-type.png)
-
 
 1. 在&#x200B;**新建字段**&#x200B;选项卡中添加以下信息：
    * **名称**：字段的名称，它将显示在表或记录的详细信息页面中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -379,24 +375,20 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 
    新的单选字段作为列添加到记录类型，其值可以与记录相关联。
 
-<!--
+1. <span class="preview">（可选）将鼠标悬停在表视图中的字段名称上，单击字段名称右侧的下拉菜单，然后单击&#x200B;**编辑字段**。</span>
+1. <span class="preview">打开&#x200B;**显示值**&#x200B;设置以显示每个选择的值。 值是每个选项的名称，如它们在Workfront数据库中显示的那样。</span>
 
-1. <span class="preview">(Optional) Hover over the field name in the table view, click the drop-down menu to the right of the field name, then click **Edit field**.</span>
-1. <span class="preview">Turn on the **Show values** setting to display the values for each choice. The values are the names of each choice, as they appear in the Workfront database. </span>
+   >[!NOTE]
+   >
+   >* <span class="preview">Workfront为每个选择分配唯一值。</span>
+   >
+   >* <span class="preview">值以小写格式匹配选项名称。 多个单词用下划线分隔。</span>
+   >
+   >* <span class="preview">值可以在多个字段之间重复，但是它们对于一个字段必须是唯一的。</span>
+   >
+   ><span class="preview"> ![显示值切换](assets/show-values-toggle-and-choices-with-values.png)</span>
 
-    >[!NOTE]
-    >
-    >* <span class="preview">Workfront assigns unique values for each choice. </span>
-    >
-    >* <span class="preview">Values match the choice name in lowercase format. Multiple words are separated by an underscore. </span>
-    >
-    >* <span class="preview">Values can be repeated between multiple fields, but they must be unique for one field.</span>
-    >
-    ><span class="preview"> ![Show value toggle](assets/show-values-toggle-and-choices-with-values.png)</span>
-
-1. <span class="preview">(Optional) Use the choice values in your API calls and other integrations. </span>
-
--->
+1. <span class="preview">（可选）在API调用和其他集成中使用选项值。</span>
 
 ### 日期 {#date}
 
@@ -438,7 +430,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 >数字字段在请求表单生成器中显示为单行文本字段类型。
 >
 >但是，字段格式将保留，并且这些字段的值将在提交请求后、记录类型和请求详细信息页面中显示为数字。
->&#x200B;>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
+>>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
 
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**数字**&#x200B;字段类型。
@@ -468,7 +460,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 >百分比字段在请求表单生成器中显示为单行文本字段类型。
 >
 >但是，字段格式将保留，并且这些字段的值将在提交请求后、记录类型和请求详细信息页面中显示为百分比。
->&#x200B;>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
+>>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
 
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**百分比**&#x200B;字段类型。
@@ -508,7 +500,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 >货币字段在请求表单生成器中显示为单行文本字段类型。
 >
 >但是，字段格式将保留，并且这些字段的值将在提交请求后、记录类型和请求详细信息页面中显示为货币。
->&#x200B;>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
+>>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**货币**&#x200B;字段类型。
 
@@ -696,7 +688,6 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 
    新的创建日期类型字段作为列添加到记录类型，其值预填充有创建记录的日期（或日期和时间）。
 
-
 ### 上次修改者
 
 您可以使用“上次修改人”字段类型将上次修改记录的用户添加到记录。 此字段为只读字段，并且会自动填充上次更新记录时登录的用户的名称。
@@ -713,7 +704,6 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 1. 单击&#x200B;**创建**。
 
    新的上次修改者类型字段作为列添加到记录类型，其值预填充有上次修改每个记录的用户的名称。
-
 
 ### 上次修改日期
 
@@ -748,8 +738,6 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 
    新的“上次修改日期 — 类型”字段作为列添加到记录类型中，其值预填充有上次修改记录的日期（或日期和时间）。
 
-<div class="preview">
-
 ### 批准日期
 
 您可以使用批准日期字段类型添加请求获得批准并导致创建记录的日期。 此字段为只读字段，会自动使用上次批准者批准请求的日期(以及（可选）时间填充。 在这种情况下，审批日期应与创建记录的日期一致。
@@ -759,7 +747,6 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 >“批准日期”字段将仅针对通过提交与批准者关联的请求表单而创建的记录填充信息。
 >
 >如果表单与多个审批者关联，则在“审批日期”字段中仅记录上次审批决策的日期。
-
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**创建日期**&#x200B;字段类型。
 
@@ -810,8 +797,6 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 1. 单击&#x200B;**创建**。
 
    新的Approved by-type字段作为列添加到记录类型，其值预填充有上次修改每个记录的用户的名称。
-
-</div>
 
 <!--
 

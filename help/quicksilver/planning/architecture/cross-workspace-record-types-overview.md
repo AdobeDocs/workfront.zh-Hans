@@ -1,25 +1,24 @@
 ---
 title: 跨工作区记录类型概述
-description: 全局记录类型可以从Adobe Workfront Planning中的中央或主工作区添加到多个工作区。
-hidefromtoc: true
-hide: true
-exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 95474ea813f4ea575942eea733caf2952b2daa75
-workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 0%
-
----
-
-<!-- add these to the metadata, when making this public: 
-
+description: 您可以将记录类型设置为全局或可连接。 全局记录类型可以从Adobe Workfront Planning中的中央或主工作区添加到多个工作区，而可连接的记录类型可以从其自身以外的其他工作区连接到。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
--->
+exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+workflow-type: tm+mt
+source-wordcount: '1534'
+ht-degree: 0%
+
+---
+
 
 # 跨工作区记录类型概述
+
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -32,11 +31,13 @@ recommendations: noDisplay, noCatalog
 
 以下是记录类型的跨工作区功能：
 
-* **全局记录类型**：用户可以将全局记录类型添加到其管理的其他工作区。
+* <span class="preview">**全局记录类型**：用户可以将全局记录类型添加到其管理的其他工作区。</span>
 
 * **可连接的记录类型**：用户可以从其他工作区连接到此记录类型。
 
 本文概述跨工作区记录类型。 有关定义记录类型的跨工作区功能的信息，请参阅[为记录类型配置跨工作区功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。
+
+<div class="preview">
 
 ## 全局记录类型概览
 
@@ -118,11 +119,12 @@ recommendations: noDisplay, noCatalog
     * Add request forms to it
     * Add automations to it-->
 
-* 任何用户都不能对从辅助工作区中的全局记录类型添加的记录类型执行以下操作：
+* 任何用户都不能对辅助工作区中的全局记录类型执行以下操作：
 
    * 编辑它
 
      不能编辑其外观、跨工作区功能或从原始工作区添加的字段。
+   * 共享
    * 创建和管理请求表单
    * 创建和管理自动化
 
@@ -151,6 +153,8 @@ recommendations: noDisplay, noCatalog
 * 如果用户具有访问权限，则会在全局记录类型的原始工作区中创建记录。
 
 * 如果用户没有访问权限，则用户会收到一个错误，表明他们无权访问全局记录类型的原始工作区，并且他们需要提供他们有权创建记录的工作区ID。
+
+</div>
 
 ## 可连接记录类型概述
 

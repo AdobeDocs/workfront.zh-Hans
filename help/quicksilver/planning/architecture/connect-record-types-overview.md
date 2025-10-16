@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '1973'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 1%
 
 有关连接记录类型，请考虑以下事项：
 
-<!--* <span class="preview">You can have up to 30 connected fields for one record type in Workfront Planning.</span>-->
+* <span class="preview">在Workfront Planning中，一个记录类型最多可以有30个连接的字段。</span>
 
 * 您可以在Adobe Workfront Planning中连接以下实体：
 
@@ -76,16 +76,14 @@ ht-degree: 1%
 
 * 将记录类型与另一个记录类型或另一个应用程序中的对象类型连接后，将出现以下情况：
 
-   * **当您连接两个Planning记录类型时**：在您要连接的记录类型上创建一个链接记录字段。 在您连接到<!--<span class="preview">, only when you enable the Create corresponding field on linked record type setting on the New connection tab.</span>-->的记录类型上创建了类似的链接记录字段。
+   * **当您连接两个Planning记录类型时**：在您要连接的记录类型上创建一个链接记录字段。 只有在启用“新建连接”选项卡上的“在链接的记录类型上创建相应的字段”设置时，才会在您连接的记录类型上创建类似的链接记录字段。
 
      例如，如果将“Campaign”记录类型与“Product”记录类型连接，则会在Campaign记录类型上创建名为“链接的产品”的链接记录字段（连接字段）。 在产品记录类型上创建一个自动命名为“Campaign”的链接记录类型。
 
-     <div class="preview">
-
      例如，存在以下情况：
+
       * 当您启用“在链接的记录类型上创建对应的字段”设置并将“Campaign”记录类型与“Product”记录类型连接时，会在“Campaign”记录类型上创建您命名为“链接的产品”的链接记录字段（连接字段）。 在产品记录类型上创建一个自动命名为“Campaign”的链接记录类型。
       * 当您禁用“在链接的记录类型上创建对应的字段”设置并将“Campaign”记录类型与“Product”记录类型连接时，将在“Campaign”记录类型上创建您命名为“链接的产品”的链接记录字段（连接字段）。 产品记录类型上不会创建自动命名为“Campaign”的链接记录类型。
-     </div>
 
      有关详细信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
@@ -95,7 +93,7 @@ ht-degree: 1%
       * 无法从Workfront对象访问Planning记录字段。
       * Planning记录在Workfront对象的Planning选项卡中可见。 有关信息，请参阅[管理来自Workfront对象的记录连接](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
       * 您可以创建Planning连接自定义字段，并将其附加到Workfront对象的自定义表单。 有关信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
-      * 当Workfront管理员通过Experience Manager与Adobe Experience Manager Assets之间的集成配置元数据映射时，可以从Workfront Assets访问规划记录字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+      * 当Workfront管理员通过Experience Manager与Adobe Experience Manager Assets之间的集成配置元数据映射时，可以从Workfront Assets访问规划记录字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
 
    * **从您连接的记录或对象添加查找字段时**：除了创建链接记录字段外，您还可以从连接的记录或对象类型连接到称为查找字段的字段。 链接（或查找字段）包含所连接记录中的信息，该信息显示在您连接的记录中。
@@ -137,27 +135,19 @@ ht-degree: 1%
 
 您可以选择一次将一个记录连接到多个记录，还是一次将一个记录连接到其他记录。
 
-根据可添加到已连接记录字段的记录数量以及用于创建已连接字段的环境，在连接记录类型时可以选择以下连接类型：
+以下是在连接记录类型时可以选择的连接类型：
 
-<div class="preview">
+* 禁用&#x200B;**在链接的记录类型**&#x200B;上创建对应的字段设置后，您可以从以下各项中选择：
 
-* 在“预览”环境中：
+   * [多选](#multi-select-connection-type)
+   * [单选](#single-select-connection-type)
 
-   * 禁用在链接的记录类型上创建对应字段设置时，您可以从以下内容中进行选择：
-
-      * [多选](#multi-select-connection-type)
-      * [单选](#single-select-connection-type)
-
-</div>
-
-* <span class="preview">在“预览”环境中，启用“在链接的记录类型上创建相应的字段”设置时，</span>或在生产环境中，您可以选择以下选项：
+* 启用&#x200B;**在链接的记录类型**&#x200B;上创建对应的字段设置后，您可以从以下各项中进行选择：
 
    * [多对多](#many-to-many-connection-type)
    * [一对多](#one-to-many-connection-type)
    * [多对一](#many-to-one-connection-type)
    * [一对一](#many-to-one-connection-type)
-
-<div class="preview">
 
 ### 多选连接类型
 
