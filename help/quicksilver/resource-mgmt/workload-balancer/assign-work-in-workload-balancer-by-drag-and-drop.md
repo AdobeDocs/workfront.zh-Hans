@@ -6,16 +6,14 @@ description: 您可以通过将工作项拖放到正确用户，使用Adobe Work
 author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: 2a52b1e401eae79c55076afd352cc83e1829140a
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
 
 # 通过拖放在工作负载均衡器中分配工作
-
-{{preview-fast-release-general}}
 
 您可以通过将工作项拖放到正确用户，使用Adobe Workfront工作负载均衡器分配工作项。
 
@@ -68,7 +66,7 @@ ht-degree: 0%
 
    您可以在项目或团队级别使用“资源”区域的工作负载均衡器将工作分配给用户。 有关工作负载均衡器在Workfront中的位置的更多信息，请参阅[找到工作负载均衡器](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)。
 
-1. （可选）转到&#x200B;**未分配的工作**&#x200B;区域并应用筛选器以查看未分配给用户的任务、问题、<span class="preview">和角色分配</span>
+1. （可选）转到&#x200B;**未分配的工作**&#x200B;区域并应用筛选器以查看未分配给用户的任务、问题和角色分配
 
    或
 
@@ -76,7 +74,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >启用“显示角色分配”设置后，<span class="preview">角色分配显示在“未分配工作”区域的工作项下。 有关详细信息，请参阅[在工作负载均衡器](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view)中导航[自定义视图](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。</span>
+   >启用“显示角色分配”设置后，角色分配会显示在“未分配工作”区域的工作项下。 有关详细信息，请参阅[导航工作负载均衡器](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view)中的[自定义视图](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
 1. （视情况而定）在项目的工作负载均衡器中，单击&#x200B;**显示所有用户**&#x200B;图标![显示所有用户](assets/show-all-users-icon-project-workload-balancer.png)以显示所有Workfront用户。
 
@@ -91,25 +89,21 @@ ht-degree: 0%
    >* 显示所有用户选项仅在项目的工作负载均衡器中可用。
    >* 使用筛选器可仅显示对您重要的用户。 例如，使用筛选器可仅显示团队或组中的用户。
 
-1. 单击工作项<span class="preview">或角色分配</span>的栏，该栏指示计划的或计划的时间表，并将其拖动到&#x200B;**已分配**&#x200B;区域中的用户的小时数。
+1. 单击工作项或角色分配栏以指示计划或预计时间线，并将其拖动到&#x200B;**已分配**&#x200B;区域中用户的小时数。
 
    将鼠标悬停在其上以将工作项放置到的用户会突出显示。
 
-   <span class="preview">拖放角色分配时，如果用户当前角色与角色分配不匹配，则以橙色突出显示。 当角色不匹配时，您仍然可以将工作分配给用户。</span>
+   在拖放角色分配时，如果用户当前角色与角色分配不匹配，则以橙色突出显示。 当角色不匹配时，您仍然可以将工作分配给用户。
 
    >[!TIP]
    >
    >您悬停在该工作项上的用户的计划小时数将实时更新为每日计划小时数，以指示添加新项目可能会对其总体分配产生的影响。
 
-   <span class="preview">预览环境中的示例图像：</span>
    ![删除要分配给用户的项](assets/wb-drag-drop-role-or-task-to-user.png)
 
-   生产环境中的示例图像：
-   ![删除要分配给用户的项](assets/drag-drop-item-from-unassigned-to-assigned-wb-nwe-350x152.png)
+1. 准备就绪后，将所选工作项或角色分配拖放到与分配区域中的用户名相同的行中。 已分配项目，并且使用工作项目中的新小时数为用户更新分配的计划小时数。
 
-1. 准备就绪后，将所选工作项<span class="preview">或角色分配</span>拖放到与分配区域中的用户名相同的行中。 已分配项目，并且使用工作项目中的新小时数为用户更新分配的计划小时数。
-
-   <span class="preview">如果未启用“显示角色分配”设置</span>，并且工作项分配给了用户无法完成的工作角色，则该工作项会显示在“已分配的工作”区域的用户名下。 它还会保留在未分配的工作区域中，以指示与其关联的工作角色尚未被用户替换。
+   如果未启用“显示角色分配”设置，并且工作项分配给了用户无法完成的工作角色，则该工作项会在“已分配的工作”区域中显示在用户名的下方。 它还会保留在未分配的工作区域中，以指示与其关联的工作角色尚未被用户替换。
 
    >[!TIP]
    >

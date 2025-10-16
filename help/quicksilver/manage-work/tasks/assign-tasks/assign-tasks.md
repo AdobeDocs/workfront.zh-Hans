@@ -7,16 +7,14 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
-source-wordcount: '1814'
+source-wordcount: '1820'
 ht-degree: 1%
 
 ---
 
 # 分配任务
-
-{{preview-fast-release-general}}
 
 <!--Audited: 07/2024-->
 
@@ -206,7 +204,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      <!--<span class="preview">When adding a job role assignment, you can search for the job role or location. Select a Job role to use the default billing rate for the assignment, or select a Rate Card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 
-1. （视情况而定）在“工作总揽”字段中，单击&#x200B;<span class="preview">**高级**</span>&#x200B;或工作总揽框右上角的&#x200B;**人员图标** ![人员图标](assets/teams.png)以打开&#x200B;**高级工作总揽**&#x200B;框并创建高级工作总揽。
+1. （视情况而定）在“工作总揽”字段中，单击列表底部的&#x200B;**高级**&#x200B;或工作总揽框右上角的&#x200B;**人员图标** ![人员图标](assets/teams.png)以打开&#x200B;**高级工作总揽**&#x200B;框并创建高级工作总揽。
 
    有关详细信息，请参阅[创建高级工作](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)。
 

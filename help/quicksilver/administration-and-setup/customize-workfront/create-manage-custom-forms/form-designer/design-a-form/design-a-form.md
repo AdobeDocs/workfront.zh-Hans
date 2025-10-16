@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
 source-wordcount: '6583'
 ht-degree: 5%
@@ -16,8 +16,6 @@ ht-degree: 5%
 ---
 
 # 创建自定义表单
-
-{{highlighted-preview}}
 
 <!-- Audited: 6/2025 -->
 
@@ -131,7 +129,7 @@ ht-degree: 5%
 >[!NOTE]
 >
 >虽然可以这样做，但我们建议，在您或其他用户开始使用Workfront中的自定义表单后，不要更改此名称。 如果这样做，系统将不再能够识别Workfront其他区域中现在可能引用该字段的自定义字段。
->&#x200B;>例如，如果您将自定义字段添加到报表后更改其名称，Workfront将无法识别该字段在报表中的名称，并且除非您使用新名称将其重新添加到报表，否则该字段将在报表中停止正常工作。
+>>例如，如果您将自定义字段添加到报表后更改其名称，Workfront将无法识别该字段在报表中的名称，并且除非您使用新名称将其重新添加到报表，否则该字段将在报表中停止正常工作。
 >
 >我们建议您不要键入已用于内置Workfront字段的名称。
 >
@@ -581,7 +579,7 @@ ht-degree: 5%
 
 要添加外部查找，请执行以下操作：
 
-1. 在屏幕左侧的&#x200B;**新字段**&#x200B;选项卡中，找到&#x200B;**外部查找**&#x200B;或&#x200B;<span class="preview">**多选外部查找**</span>，并将其拖动到画布上的部分。
+1. 在屏幕左侧的&#x200B;**新字段**&#x200B;选项卡中，找到&#x200B;**外部查找**&#x200B;或&#x200B;**多选外部查找**，并将其拖动到画布上的部分。
 1. 在屏幕右侧，配置自定义字段的选项：
 
    <table style="table-layout:auto"> 
@@ -630,12 +628,12 @@ ht-degree: 5%
       <td role="rowheader">JSON 路径</td>
       <td><p>键入或粘贴API的JSON路径。</p> <p>此选项允许从API URL返回的JSON中提取数据。 它提供了一种方法，用于选择在JSON内的哪些值将显示在下拉选项中。</p><p>例如，如果API URL按以下格式返回JSON，则可以使用“$.data[*].name”选择“美国”和“加拿大”作为下拉选项：</br>
       <pre>
-      &lbrace;
-       数据： &lbrace;
+      {
+       数据： {
          { name： "USA"}，
          { name： "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>有关JSON路径并确保编写正确JSON路径的更多信息，请参阅<a href="https://jsonpath.com/">https://jsonpath.com/</a>。</p></td>
@@ -645,8 +643,8 @@ ht-degree: 5%
       <td><p>单击<strong>添加标头</strong>，然后键入或粘贴使用API进行身份验证所需的密钥值对。</p><p><strong>注意：</strong>标头字段不是存储凭据的安全位置，您应该小心输入和保存的内容。</p></td>
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">多选下拉框</span></td>
-      <td><p><span class="preview">选择此选项可允许用户在下拉列表中选择多个值。</span></p></td>
+      <td role="rowheader">多选下拉框</td>
+      <td><p>选择此选项可允许用户在下拉列表中选择多个值。</p></td>
      </tr>
      </tr>
      <tr> 

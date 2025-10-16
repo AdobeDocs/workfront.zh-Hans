@@ -7,7 +7,7 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 1%
@@ -15,8 +15,6 @@ ht-degree: 1%
 ---
 
 # 使用工作负载均衡器手动分配工作
-
-{{preview-fast-release-general}}
 
 您可以使用Adobe Workfront工作负载均衡器手动将工作项分配给用户。
 
@@ -69,7 +67,7 @@ ht-degree: 1%
 
    您可以在项目或团队级别使用“资源”区域的工作负载均衡器将工作分配给用户。 有关工作负载均衡器在Workfront中的位置的更多信息，请参阅[找到工作负载均衡器](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)。
 
-1. （可选）转到&#x200B;**未分配的工作**&#x200B;区域并应用筛选器以查看任务、问题、<span class="preview">或角色分配</span>。
+1. （可选）转到&#x200B;**未分配的工作**&#x200B;区域并应用筛选器以查看任务、问题或角色分配。
 
    或
 
@@ -77,9 +75,9 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >启用“显示角色分配”设置后，<span class="preview">角色分配显示在“未分配工作”区域的工作项下。 有关详细信息，请参阅[在工作负载均衡器](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view)中导航[自定义视图](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。</span>
+   >启用“显示角色分配”设置后，角色分配会显示在“未分配工作”区域的工作项下。 有关详细信息，请参阅[导航工作负载均衡器](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view)中的[自定义视图](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
-1. 单击工作项名称&#x200B;**或角色分配**&#x200B;左侧的![更多菜单](assets/qs-more-menu.png) <span class="preview">更多菜单</span>，然后单击&#x200B;**将此工作项分配给**。
+1. 单击工作项名称或角色分配左侧的&#x200B;**更多菜单** ![更多菜单](assets/qs-more-menu.png)，然后单击&#x200B;**将此项分配给**。
 
    ![将此分配给](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 

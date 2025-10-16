@@ -5,7 +5,7 @@ description: 增强列表使用表格格式来显示列表项，并且它们具�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: dc820b4012fec494ce5ebb1baefb4ee0df214916
+source-git-commit: ad9739ac670f723203f1e5e9148c446b6356c126
 workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 1%
@@ -13,8 +13,6 @@ ht-degree: 1%
 ---
 
 # 使用增强列表
-
-{{preview-fast-release-general}}
 
 Adobe Workfront的某些区域提供了增强列表。 这些列表使用表格格式来显示列表项，并且它们具有与标准列表不同的外观。 视图的管理也得到了增强，包括筛选、分组、管理列和搜索。
 
@@ -126,7 +124,7 @@ Adobe Workfront的某些区域提供了增强列表。 这些列表使用表格�
    >
    >字段名称旁边的图标显示字段类型，如文本或日期字段。
 
-   当列隐藏时，<span class="preview">指示符出现在&#x200B;**列**&#x200B;按钮上。 重新排序列时未显示该指示符。</span>
+   隐藏列时，**列**&#x200B;按钮上会显示一个指示符。 重新排序列时，不显示该指示符。
 
    隐藏列的![指示器](assets/glist-columns-hidden-indicator.png)
 
@@ -149,7 +147,7 @@ Adobe Workfront的某些区域提供了增强列表。 这些列表使用表格�
 1. 单击&#x200B;**添加条件**&#x200B;以将另一个条件作为OR语句添加到筛选器。
 1. 应用筛选器后，您可以再次打开&#x200B;**筛选器**&#x200B;选项以更改筛选器选项或清除所有筛选器。
 
-   <span class="preview">将筛选器应用于列表时，**筛选器**&#x200B;按钮上将显示一个指示符。</span>
+   将筛选器应用于列表时，**筛选器**&#x200B;按钮上将显示一个指示器。
 
    ![已应用筛选指示器](assets/glist-filter-applied-indicator.png)
 
@@ -164,7 +162,7 @@ Adobe Workfront的某些区域提供了增强列表。 这些列表使用表格�
 
    ![在增强列表中分组](assets/glist-group-by-due-date-priorities.png)
 
-   <span class="preview">将分组应用于列表时，**组**&#x200B;按钮上将显示一个指示符。</span>
+   将分组应用于列表时，**组**&#x200B;按钮上将显示一个指示符。
 
    ![分组已应用指示器](assets/glist-grouping-applied-indicator.png)
 

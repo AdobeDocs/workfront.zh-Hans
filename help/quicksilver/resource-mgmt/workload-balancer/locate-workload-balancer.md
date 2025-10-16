@@ -7,7 +7,7 @@ description: 工作负载均衡器可用于资源区域中的多个项目、团�
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # 找到工作负载均衡器
-
-{{preview-fast-release-general}}
 
 您可以使用工作负载均衡器来计划工作的资源，或查看其可用性和当前分配。
 
@@ -136,8 +134,6 @@ ht-degree: 0%
      >
      >通过启用“显示所有用户”选项，可以显示系统中的所有用户，而不仅仅是项目中的用户（在“已分配的工作”区域中）。 有关信息，请参阅[在工作负载均衡器](../workload-balancer/navigate-the-workload-balancer.md)中导航。
 
-<div class="preview">
-
 ### 访问用户的工作负载均衡器
 
 所有用户都有权在其自己的配置文件上查看工作负载均衡器。 用户的工作负载均衡器数据是只读的。 您不能在用户层分配工作、取消分配工作或调整分配。
@@ -155,8 +151,6 @@ ht-degree: 0%
    默认情况下，用户的工作负载均衡器按信息显示以下内容：
 
    * **已分配的工作**：已分配给特定用户的任务和问题。
-
-</div>
 
 ## 将工作负载均衡器作为功能板添加到左侧面板
 

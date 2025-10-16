@@ -6,7 +6,7 @@ description: 作为资源管理器，您可以使用Adobe Workfront工作负载�
 author: Lisa
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: 6db33763294bc9fa343bb010b318fbcceccfff4c
+source-git-commit: ad9739ac670f723203f1e5e9148c446b6356c126
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 1%
@@ -14,8 +14,6 @@ ht-degree: 1%
 ---
 
 # 在工作负载均衡器中分配工作概述
-
-{{preview-fast-release-general}}
 
 <!-- Audited: 5/2025 -->
 
@@ -146,7 +144,7 @@ Workfront使用以下信息在工作负载均衡器中计算用户的容量：
  </tbody> 
 </table>
 
-&#42;将工作项分配给用户和角色时，仅当该角色是主要被分配人时，它才会显示在“未分配的工作”区域中。 启用<span class="preview">显示角色分配&#x200B;**设置时，**&#x200B;角色分配显示在未分配的工作区域的工作项下。</span>
+&#42;将工作项分配给用户和角色时，仅当该角色是主要被分配人时，它才会显示在“未分配的工作”区域中。 启用&#x200B;**显示角色分配**&#x200B;设置时，角色分配显示在未分配的工作区域的工作项下。
 
 &#42;&#42;将工作项分配给用户和另一个实体时，仅当用户是主要被分配人时，它才会显示在“已分配的工作”区域中。
 
