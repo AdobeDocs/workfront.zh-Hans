@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '3046'
+source-wordcount: '2686'
 ht-degree: 1%
 
 ---
@@ -107,7 +107,7 @@ ht-degree: 1%
 
 ### 开始创建请求表单
 
-您可以从与表单<span class="preview">关联的记录类型或Workfront的“请求”区域创建请求表单。</span>
+您可以从与表单<!--span class="preview">, or from the Requests area of Workfront.</span>-->关联的记录类型创建请求表单。
 
 #### 根据记录类型创建请求表单
 
@@ -136,37 +136,41 @@ ht-degree: 1%
    此时将在“表单”选项卡中打开选定记录类型的请求表单。
 1. 继续[配置表单](#configure-the-form)。
 
+<!--
+
 <div class="preview">
 
-#### 从Workfront的“请求”区域创建请求表单
+#### Create a request form from the Requests area of Workfront
 
-1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**请求**。
-1. 单击屏幕右上角的&#x200B;**请求表单**。
-1. （视情况而定）如果您正在编辑现有请求表单，请从列表中选择该表单，然后继续[配置表单](#confgure-the-form)。
-1. 如果要创建新的请求表单，请在屏幕的右上角单击&#x200B;**新建请求表单**。
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Requests**.
+1. In the upper-right corner of the screen, click **Request forms**.
+1. (Conditional) If you are editing an existing request form, select it from the list, then continue to [Configure the form](#confgure-the-form).
+1. If you are creating a new request form, in the upper-right corner of the screen, click **New request form**.
 
-   此时将打开“创建请求表单”框
+   The Create request form box opens
 
-1. 在创建请求表单框中，更新请求表单的名称。 默认情况下，表单的名称为&#x200B;**无标题表单**。
-1. 在对象类型字段中，选择要与请求表单关联的记录类型。 记录类型会分组到它们所在的工作区。
-1. （可选）为请求表单添加&#x200B;**描述**。
+1. In the Create request form box, update the name of the request form. By default, the name of the form is **Untitled form**. 
+1. In the Object types field, select the record type that the request form will be associated with. Record types are grouped into the workspace that they exist within.
+1. (Optional) Add a **Description** for the request form. 
 
-   <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
+1. Click **Create**. 
 
-1. 单击&#x200B;**创建**。
+   The request form for the selected record type opens in the Form tab.
+1. Continue to [Set up details for the request form](#set-up-details-for-the-request-form).
 
-   此时将在“表单”选项卡中打开选定记录类型的请求表单。
-1. 继续[设置请求表单](#set-up-details-for-the-request-form)的详细信息。
+
 
 </div>
+
+-->
 
 ### 设置申请表单的详细信息
 
 表单详细信息分为选项卡。
 
 * **表单**&#x200B;选项卡允许您向表单添加字段和内容元素
-* **配置**&#x200B;选项卡允许您设置表单<span class="preview">的批准流程并设置请求完成选项</span>。
-* <span class="preview">通过&#x200B;**Automations**&#x200B;选项卡，可根据使用表单发出的请求功能自动执行将发生的操作。</span>
+* **配置**选项卡允许您设置表单的批准流程并设置请求完成选项&lt;。
+  <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
 
 #### 设置表单详细信息
 
@@ -227,14 +231,14 @@ ht-degree: 1%
 
 #### 设置配置详细信息
 
-在“配置”选项卡上，您可以设置批准流程<span class="preview">并配置何时将从此表单创建的请求标记为“已完成”</span>。
+在配置选项卡上，您可以设置批准流程，并配置何时将从此表单创建的请求标记为“已完成”。
 
 1. 开始创建或编辑请求表单，如[开始创建请求表单](#begin-creating-a-request-form)部分中所述。
 
    此时将在“表单”选项卡中打开选定记录类型的请求表单。
 1. （可选）设置任何表单详细信息，如[设置表单详细信息](#set-up-form-details)中所述。
 
-1. （可选）单击&#x200B;**配置**&#x200B;选项卡，然后将至少一个用户<span class="preview">或团队</span>添加到&#x200B;**审批者**&#x200B;字段，以审批此记录表单的新请求。
+1. （可选）单击&#x200B;**配置**&#x200B;选项卡，然后将至少一个用户或团队添加到&#x200B;**审批者**&#x200B;字段，以审批此记录表单的新请求。
 
    ![配置选项卡](assets/configuration-tab.png)
 
@@ -244,39 +248,44 @@ ht-degree: 1%
    * 您可以将一个或多个批准者添加到请求表单。
    * 如果至少有一位审批者拒绝了请求，则该请求会被拒绝，并且不会创建记录。
    * 在批准或拒绝请求之前，所有批准者都必须做出决定。
-   * <span class="preview">如果将团队设置为批准者，则只需该团队做出一个决定。</span>
+   * 如果将团队设置为批准者，则只需从团队中做出一个决策。
 
      有关将审批添加到请求表单的详细信息，请参阅[将审批添加到请求表单](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
 
-1. <span class="preview">（视情况而定）如果要在任何一位批准者批准记录后创建记录，请选中&#x200B;**仅需要一个决策**&#x200B;复选框。</span>
+1. （视情况而定）如果希望在任何一位批准者批准记录后创建记录，请选中&#x200B;**仅需要一个决策**&#x200B;复选框。
 
-1. <span class="preview">选择在创建请求的对象时还是完成请求的对象时，是否希望将从此表单创建的请求标记为完成。</span>
-1. <span class="preview">（有条件）如果已选择在请求的对象完成时将请求标记为完成，请选择指示对象完成时间的字段和值。 例如，当创建的对象的状态设置为Complete时，您可以选择字段Status和值Complete以完成请求。</span>
-1. 如果要配置表单的更多详细信息，请继续[设置自动详细信息](#set-up-configuration-details)，或转到[完成请求表单创建](#complete-request-form-creation)。
+1. 选择在创建请求的对象时还是完成请求的对象时，是否希望将从此表单创建的请求标记为完成。
+1. （视情况而定）如果已选择在请求对象完成时将请求标记为完成，请选择指示对象完成时间的字段和值。 例如，当创建的对象的状态设置为Complete时，您可以选择字段Status和值Complete以完成请求。
+1. 继续<!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[完成请求表单创建](#complete-request-form-creation)。
 
+<!--
+ 
 <div class="preview">
 
-#### 设置自动化
+#### Set up Automations
 
-您可以在Adobe Workfront Planning中配置自动处理，激活自动处理后，可在从Planning记录触发时，在Workfront中创建对象，或在Workfront Planning中创建记录。
+You can configure automations in Adobe Workfront Planning that, when activated, create objects in Workfront or records in Workfront Planning when triggered from a Planning record. 
 
-有关在Workfront Planning的其他领域中创建自动化的信息，请参阅[配置Adobe Workfront Planning自动化](/help/quicksilver/planning/records/configure-automations-to-create-records.md)。
+For information on creating automations in other areas of Workfront Planning, see [Configure Adobe Workfront Planning automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
 
-1. 在自动化的详细信息页面上，更新&#x200B;**触发器**&#x200B;部分中的以下字段：
+1. On the automation's details page, update the following fields in the **Triggers** section: 
 
-   * **触发器**：选择将触发自动化的操作。 目前，唯一可用于请求表单自动化的触发器是`When request object status equals pending creation`。
+   * **Trigger**: Select the action that will trigger the automation. Currently, the only available trigger for request form automation is `When request object status equals pending creation`.
 
-1. 更新&#x200B;**操作**&#x200B;部分中的以下字段： <!--submitted bugs for these fields - see if they need changing here-->
-   * **操作**：选择在触发自动操作时希望Workfront执行的操作。 这是必填字段。
-目前，唯一可用于请求表单自动化的操作是`Create record`。
+1. Update the following fields in the **Actions** section: 
+
+   * **Actions**: Select the action that you want Workfront to perform when triggering the automation. This is a required field. 
+   Currently, the only available Action for request form automation is `Create record`.
 
      >[!TIP]
      >
-     >保存自动化后，无法再更改在此字段中选择的操作。
-1. 继续[完成请求表单创建](#complete-request-form-creation)。
+     >After you saved the automation, you can no longer change the action selected in this field.
+1. Continue to  [Complete request form creation](#complete-request-form-creation).
 
 
 </div>
+
+-->
 
 ### 完成请求表单创建
 

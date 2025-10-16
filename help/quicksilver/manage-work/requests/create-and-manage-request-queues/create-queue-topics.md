@@ -7,9 +7,9 @@ author: Becky
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 4a0cb96f5888819747f63472712f91c685621cf1
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '964'
 ht-degree: 2%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 2%
 # 创建队列主题
 
 <!-- Audited: 12/2023 -->
-
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 队列主题与路由规则配合使用，可自动将传入工作分配给用户、工作角色、团队，或将其置于项目中。 队列主题定义实施路由规则所需的条件。
 
@@ -179,8 +177,7 @@ ht-degree: 2%
 
 1. 转到包含要编辑的队列主题的项目或模板。
 1. 单击左侧面板中的&#x200B;**队列主题**。
-1. 在生产环境中，选择要编辑的队列主题。 在打开的详细信息页面上，单击&#x200B;**编辑队列主题**。
-1. <span class="preview">在预览环境中，单击要编辑的队列主题。
+1. 单击要编辑的队列主题。
 
 有关可用编辑选项的信息，请参阅本文中的[创建队列主题](#create-a-queue-topic)。
 

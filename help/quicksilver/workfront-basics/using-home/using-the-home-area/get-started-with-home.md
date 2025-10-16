@@ -6,9 +6,9 @@ description: 主页可帮助您管理工作。 您可以自定义此灵活空间
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 1cb165e826ee57483989474c095553a08e33bc9a
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1030'
 ht-degree: 4%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 4%
 >[!IMPORTANT]
 >
 >本文中的内容已被新主页入门文章中的内容替换。 新主页现在将称为主页。
-
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
 Adobe Workfront中的新“主页”体验旨在改进当前的“主页”体验，同时为您提供更灵活的方式以专注于正确的工作。
 
@@ -55,9 +53,7 @@ Adobe Workfront中的新“主页”体验旨在改进当前的“主页”体�
     在列表中显示分配给您的问题。 您可以使用现有的过滤器、视图或分组来自定义列表，也可以直接从小组件创建问题。 此构件仅包含其关联项目设置为当前的问题，不包括已完成的项目。 您还可以在外出时委派问题。
 
 * **我的请求**\
-    显示您已提交的所有请求，一个过滤器用于仅显示打开的请求，以及一个用于打开请求的摘要面板的按钮。
-
-  <span class="preview">在“预览”环境中，此构件显示您已提交的所有请求，一个筛选条件用于仅显示符合您指定条件的请求，以及一个允许您重新排列构件中的列的按钮。 如果您有权访问Workfront Planning，则您的Planning请求也会显示在此处。</span>
+    显示您已提交的所有请求；显示符合指定标准的请求的过滤器；以及允许您重新排列小部件中的列的按钮。 如果您有权访问Workfront Planning，则您的Planning请求也会显示在此处。
 
 
 * **团队请求**\

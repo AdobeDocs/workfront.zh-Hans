@@ -5,16 +5,15 @@ title: 在请求区域创建视图
 description: 如果您使用的是新的请求体验，则可以创建和保存请求区域的视图。
 author: Becky
 feature: Work Management
-source-git-commit: 1c7e2fb7de500083f0f7e42f1016323305054d88
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
 
 # 在请求区域创建或编辑视图
 
-<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 如果您使用的是新的请求体验，则可以创建和保存请求区域的视图。 这些视图包括筛选器和列安排。
 
@@ -103,7 +102,7 @@ ht-degree: 0%
    * **状态**：请求的状态。
    * **输入者**：添加请求的用户的名称。 如果请求是由Workfront之外的人员添加的，则&#x200B;**输入者**&#x200B;字段显示`N/A`。
 
-   您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的筛选器。
+   您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**加入的筛选器。
 在添加筛选条件时，将自动筛选请求列表。
 
 1. （可选）单击&#x200B;**列**&#x200B;并隐藏、显示或重新排列请求列表中的列。

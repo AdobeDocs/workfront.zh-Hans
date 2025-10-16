@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '735'
 ht-degree: 5%
 
 ---
@@ -22,10 +22,6 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 -->
 
 <!--Audited: 05/2024-->
-
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
-
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{important-admin-console-onboard}}
 
@@ -128,16 +124,16 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
       <td>允许您选择为用户启用或禁用“优先级”工作列表体验。 用户仍然可以在Workfront中看到优先级图标，但是他们无权访问该功能。 有关优先级的详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">开始使用优先级</a>。</td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">启用AI</span> </td> 
-      <td><span class="preview">允许您选择启用AI，包括AI助手。 <p><b>注意</b>：您的组织必须满足特定要求才能启用AI。 有关AI的详细信息（包括要求），请参阅<a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">AI助手概述</a>。</p></span></td> 
+      <td role="rowheader">启用 AI </td> 
+      <td>允许您选择启用AI，包括AI助手。 <p><b>注意</b>：您的组织必须满足特定要求才能启用AI。 有关AI的详细信息（包括要求），请参阅<a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">AI助手概述</a>。</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">表单自动完成 </span></td> 
-      <td><span class="preview">允许您选择启用根据先前的请求数据自动完成请求表单的功能。 有关表单自动完成的更多信息，请参阅<a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">从以前的数据中自动填写请求</a>。</span></td> 
+      <td role="rowheader">表单自动完成 </td> 
+      <td>允许您选择启用根据先前的请求数据自动完成请求表单的功能。 有关表单自动完成的更多信息，请参阅<a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">从以前的数据中自动填写请求</a>。</td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">选择加入 AI Beta </span></td> 
-      <td><span class="preview">允许您选择启用Beta中的当前人工智能功能。 如果启用此选项，则可以选择要启用的AI Beta功能。 有关每个AI Beta功能的更多信息，请单击该功能旁边的信息图标。</span></td> 
+      <td role="rowheader">选择加入 AI Beta </td> 
+      <td>&gt;允许您选择启用Beta中当前的AI功能。 如果启用此选项，则可以选择要启用的AI Beta功能。 有关每个AI Beta功能的更多信息，请单击该功能旁边的信息图标。</td> 
      </tr>
      <tr> 
       <td role="rowheader">测试环境</td> 

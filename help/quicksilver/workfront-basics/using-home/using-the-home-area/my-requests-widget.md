@@ -6,23 +6,20 @@ description: 您可以在“我的请求”小组件中提交请求。 您还可
 author: Becky
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '734'
 ht-degree: 3%
 
 ---
 
 # 使用我的请求小组件
 
-<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
-
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。
 
 >[!IMPORTANT]
 >
 >本文介绍了新的My Requests构件。 您必须启用新的请求体验才能查看新的构件。
->&#x200B;>您可以在请求区域中启用新的请求体验。
+>>您可以在请求区域中启用新的请求体验。
 
 “我的请求”小组件会显示已提交给贵组织的请求。 您可以筛选请求、搜索特定请求或调整列顺序和可见性。 您还可以从“我的请求”小组件创建新请求。
 
@@ -57,7 +54,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>[!UICONTROL 查看]对项目、任务、问题和文档的权限或更高，在这些项目、任务、问题和文档中，您被标记在对话中或需要解决审批问题</p> </td> 
+   <td> <p>[！UICONTROL查看]对项目、任务、问题和文档的权限或更高，在这些项目、任务、问题和文档中，您被标记在对话中或需要解决审批问题</p> </td> 
   </tr> 
  </tbody> 
 </table>

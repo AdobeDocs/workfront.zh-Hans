@@ -6,9 +6,9 @@ description: 在Adobe Workfront中，计划工作由项目和任务表示。 但
 author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '2767'
+source-wordcount: '2580'
 ht-degree: 1%
 
 ---
@@ -25,9 +25,6 @@ ht-degree: 1%
 </div>
 -->
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
-
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 在Adobe Workfront中，计划工作由项目和任务表示。 但是，您可能是在这样一种环境中工作：随时都可能以请求形式进行非计划工作。 Workfront通过使用请求队列提供了一个工作流来适应这种类型的环境。
 
@@ -144,23 +141,16 @@ Workfront管理员必须创建请求队列的以下组件：
 
    将打开&#x200B;**新请求**&#x200B;框。
 
-1. （视情况而定）如果您切换到新体验，并且正在生产环境中，则&#x200B;**新请求**&#x200B;框将显示以下内容：</span>
+1. （视情况而定）如果您已切换到新Experience，请选择一个Workfront请求队列路径或表单，或者单击搜索栏。
 
-   <ul><li>最近访问的6个Workfront请求队列和Planning请求表单将显示在“最近”部分中。 </li>
-    <li>所有其他Workfront和规划请求表单<b>所有请求表单</b>部分。 您可以搜索默认不显示的请求表单。 </li>
-    <li>所有其他Workfront和Planning请求队列路径都显示在<b>所有请求路径</b>部分。 您可以搜索默认不显示的请求队列。</li></ul>
-   单击某个Workfront请求队列路径或表单，或者搜索其中一个路径或表单，然后在列表中显示时单击它。
-1. <span class="preview">（视情况而定）如果您切换到新Experience，请选择一个Workfront请求队列路径或表单，或者单击搜索栏。</span>
-
-   <span class="preview">单击搜索栏时，将出现一个下拉列表，首先显示最近使用的队列和表单。 从列表中选择一个队列，或开始键入并在队列或表单出现时将其选定。</span>
+   单击搜索栏时，会显示一个下拉列表，其中首先显示最近使用的队列和表单。 从列表中选择一个队列，或开始键入并在队列或表单出现时将其选定。
 
    >[!NOTE]
    >
-   ><span class="preview">有关当前在预览中可用的新请求体验，请考虑以下事项：</span>
-   >* <span class="preview">该列表包括Workfront请求队列和Workfront Planning请求表单。</span>
-   >* <span class="preview">您可以按对象类型筛选列表。</span>
-   >* <span class="preview">要仅显示Workfront请求队列，请筛选`Issue`对象类型。</span>
-   >* <span class="preview">在新的请求体验中，在与提交的请求相同的列表中找到草稿。</span>
+   >有关新的请求体验，请考虑以下事项：
+   >* 该列表包括Workfront请求队列和Workfront Planning请求表单。
+   >* 您可以按对象类型筛选列表。
+   >* 在新的请求体验中，可在与提交请求相同的列表中找到草稿。
 
 1. （视情况而定）如果切换到新体验，请选择主题组和队列主题并继续更新表单。
 

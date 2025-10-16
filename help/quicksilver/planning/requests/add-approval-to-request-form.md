@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: e69209f449ba1643667135c3a0137b93c6171ef8
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -90,11 +90,11 @@ ht-degree: 0%
    显示&#x200B;**配置**&#x200B;区域。
 
    ![配置选项卡](assets/configuration-tab.png)
-1. 在&#x200B;**审批者**&#x200B;字段中，单击下拉图标，然后在列表中选择一个或多个用户<span class="preview">或团队</span>
+1. 在&#x200B;**审批者**&#x200B;字段中，单击下拉图标，然后在列表中选择一个或多个用户或团队
 
    或
 
-   开始键入要设置为审批者的用户<span class="preview">或团队</span>的名称，然后当该名称显示在列表中时将其选定。
+   开始键入要设置为审批者的用户或团队的名称，然后当该名称或团队显示在列表中时将其选定。
 
    <!--most of the Note below is duplicated in the Create a request form article-->
 
@@ -109,7 +109,7 @@ ht-degree: 0%
    >
    >* 在批准或拒绝请求之前，所有批准者都必须做出决定。
    >
-   >* <span class="preview">如果将团队设置为批准者，则只需该团队做出一个决定。</span>
+   >* 如果将团队设置为批准者，则只需从团队中做出一个决策。
 
 
 1. （可选）如果您以前从未共享过该请求表单，请单击&#x200B;**发布**

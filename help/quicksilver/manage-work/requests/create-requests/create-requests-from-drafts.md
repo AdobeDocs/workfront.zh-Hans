@@ -6,16 +6,14 @@ description: 除了使用Workfront在输入新请求时向您建议的可用草�
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '618'
 ht-degree: 1%
 
 ---
 
 # 从草稿创建请求
-
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
 除了使用Workfront在输入新请求时向您建议的可用草稿之外，您还可以从“草稿”部分访问草稿请求并从此处完成提交。
 
@@ -107,6 +105,6 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >* <span class="preview">在新请求体验中，草稿与提交的请求位于同一列表中。</span>
-   ><span class="preview">有关在新版Experience中创建请求的更多信息，请参阅“创建并提交请求”一文中的[在Workfront Web App中创建请求并生成草稿](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md#create-requests-and-generate-drafts-in-the-workfront-web-app)。</span>
+   >在新的请求体验中，草稿与提交的请求位于同一列表中。
+   >有关在新版Experience中创建请求的更多信息，请参阅创建并提交请求一文中的[在Workfront Web应用程序中创建请求并生成草稿](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md#create-requests-and-generate-drafts-in-the-workfront-web-app)。
 
