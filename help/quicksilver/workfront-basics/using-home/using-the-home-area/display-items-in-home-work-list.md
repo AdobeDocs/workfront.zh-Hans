@@ -40,12 +40,12 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证</strong></td> 
-   <td><ul><li>[！UICONTROL Contributor]仅供审批</li> <li>[！UICONTROL Standard]或更高版本（适用于所有其他对象）</li> <p>或</p> 
-  </ul><ul><li>[！UICONTROL Review]仅供审批</li> <li>适用于所有其他对象的[！UICONTROL工作]或更高版本</li> </td> 
+   <td><ul><li>[!UICONTROL Contributor]仅供审批</li> <li>[!UICONTROL Standard]或更高版本（适用于所有其他对象）</li> <p>或</p> 
+  </ul><ul><li>[!UICONTROL Review]仅供审批</li> <li>适用于所有其他对象的[!UICONTROL 工作]或更高版本</li> </td> 
   </tr> </ul>
   <tr> 
    <td role="rowheader"><strong>访问级别配置</strong></td> 
-   <td> <p>[！UICONTROL视图]或更高的项目、任务、问题和文档访问权限</p> </td> 
+   <td> <p>[!UICONTROL 视图]或更高的项目、任务、问题和文档访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
@@ -116,7 +116,7 @@ ht-degree: 4%
    | 我的审批 | 显示所有待处理、已分配、已委派和已提交的审批 |
 
 1. 单击小组件工作列表右上角的&#x200B;**筛选器**&#x200B;图标![筛选器图标](assets/filter-nwepng.png)。
-1. 选择一个&#x200B;**建议的**筛选器或您已创建的筛选器。
+1. 选择一个&#x200B;**建议的**&#x200B;筛选器或您已创建的筛选器。
 有关建议筛选器的详细信息，请参阅[主页小组件筛选器概述](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)。
 1. （可选）打开&#x200B;**栈栈筛选器**&#x200B;以选择多个筛选器选项。
 
@@ -143,7 +143,7 @@ ht-degree: 4%
    | 我的审批 | 显示所有待处理、已分配、已委派和已提交的审批 |
 
 1. 单击小组件工作列表右上角的&#x200B;**组**&#x200B;图标![组图标](assets/group-icon.png)。
-1. 选择一个&#x200B;**建议的**分组或您创建的分组。
+1. 选择一个&#x200B;**建议的**&#x200B;分组或您创建的分组。
    ![分组已展开](assets/grouping-expanded.png)
 
 

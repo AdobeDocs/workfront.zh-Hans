@@ -66,7 +66,7 @@ If a proof fails to generate after following the steps described in the followin
 1. 转到要创建新验证的项目、任务或问题。
 1. 单击&#x200B;**文档**&#x200B;选项卡。
 1. 单击左侧面板中的文档![文档图标](assets/document-icon.png)。
-1. 单击“新增”****，然后在出现的菜单中单击“校对”****。
+1. 单击“新增”**&#x200B;**，然后在出现的菜单中单击“校对”**&#x200B;**。
 
    >[!TIP]
    >

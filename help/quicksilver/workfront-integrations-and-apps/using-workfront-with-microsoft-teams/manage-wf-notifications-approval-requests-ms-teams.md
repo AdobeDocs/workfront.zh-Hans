@@ -140,11 +140,11 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th>[！UICONTROL Approve]</th> 
-   <th>[！UICONTROL拒绝]</th> 
-   <th> <p>[！UICONTROL更改]</p> </th> 
-   <th> <p>[！UICONTROL转至验证] </p> </th> 
-   <th>[！UICONTROL Comment]</th> 
+   <th>[!UICONTROL Approve]</th> 
+   <th>[!UICONTROL 拒绝]</th> 
+   <th> <p>[!UICONTROL 更改]</p> </th> 
+   <th> <p>[!UICONTROL 转至验证] </p> </th> 
+   <th>[!UICONTROL Comment]</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -275,9 +275,9 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th>[！UICONTROL开始]</th> 
-   <th>[！UICONTROL Comment]</th> 
-   <th> <p>[！UICONTROL状态]</p> </th> 
+   <th>[!UICONTROL 开始]</th> 
+   <th>[!UICONTROL Comment]</th> 
+   <th> <p>[!UICONTROL 状态]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -325,8 +325,8 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th>[！UICONTROL回复]</th> 
-   <th> <p>[！UICONTROL状态]</p> </th> 
+   <th>[!UICONTROL 回复]</th> 
+   <th> <p>[!UICONTROL 状态]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -390,8 +390,8 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th>[！UICONTROL回复]</th> 
-   <th> <p>[！UICONTROL状态]</p> </th> 
+   <th>[!UICONTROL 回复]</th> 
+   <th> <p>[!UICONTROL 状态]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -406,7 +406,7 @@ ht-degree: 0%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">有人将您的团队包含在[！UICONTROL定向更新]中</td> 
+   <td role="rowheader">有人将您的团队包含在[!UICONTROL 定向更新]中</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -427,8 +427,8 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th> <p>[！UICONTROL Comment]</p> </th> 
-   <th> <p>[！UICONTROL状态]</p> </th> 
+   <th> <p>[!UICONTROL Comment]</p> </th> 
+   <th> <p>[!UICONTROL 状态]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 

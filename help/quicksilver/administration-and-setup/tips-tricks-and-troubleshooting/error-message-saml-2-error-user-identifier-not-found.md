@@ -51,7 +51,7 @@ ADFS服务器上的声明不正确。
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[！UICONTROL系统管理员]</td> 
+   <td>[!UICONTROL 系统管理员]</td> 
   </tr> 
  </tbody> 
 </table>

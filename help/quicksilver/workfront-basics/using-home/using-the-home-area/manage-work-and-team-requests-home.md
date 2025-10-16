@@ -42,7 +42,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置</strong></td> 
-   <td> <p>[！UICONTROL Edit]对任务和问题的访问权限</p> </td> 
+   <td> <p>[!UICONTROL Edit]对任务和问题的访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
@@ -122,9 +122,9 @@ ht-degree: 0%
 1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
 1. （视情况而定）单击&#x200B;**自定义**&#x200B;以添加&#x200B;**我的工作**&#x200B;小组件。
 
-1. 在小部件工作列表中，将鼠标悬停在工作项上，然后单击&#x200B;**摘要**图标以查看有关该工作项的信息。
+1. 在小部件工作列表中，将鼠标悬停在工作项上，然后单击&#x200B;**摘要**&#x200B;图标以查看有关该工作项的信息。
    ![打开摘要](assets/open-summary-new-home.png)
-1. 在&#x200B;**工作**分区中，删除您的姓名。
+1. 在&#x200B;**工作**&#x200B;分区中，删除您的姓名。
    ![删除分配](assets/remove-assignment.png)
 
 

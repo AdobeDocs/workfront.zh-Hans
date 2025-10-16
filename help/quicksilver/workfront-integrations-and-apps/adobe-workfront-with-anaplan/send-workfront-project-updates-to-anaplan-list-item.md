@@ -84,24 +84,24 @@ ht-degree: 0%
    </thead> 
    <tbody> 
     <tr> 
-     <td role="rowheader">[！UICONTROL上市日期]</td> 
-     <td>[！UICONTROL日期] </td> 
+     <td role="rowheader">[!UICONTROL 上市日期]</td> 
+     <td>[!UICONTROL 日期] </td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL市场结束日期]</td> 
-     <td>[！UICONTROL日期]</td> 
+     <td role="rowheader">[!UICONTROL 市场结束日期]</td> 
+     <td>[!UICONTROL 日期]</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL营销活动概述]</td> 
-     <td>[！UICONTROL段落文本字段]</td> 
+     <td role="rowheader">[!UICONTROL 营销活动概述]</td> 
+     <td>[!UICONTROL 段落文本字段]</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL Key Message]</td> 
-     <td>[！UICONTROL段落文本字段]</td> 
+     <td role="rowheader">[!UICONTROL Key Message]</td> 
+     <td>[!UICONTROL 段落文本字段]</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL目标受众]</td> 
-     <td> <p>[！UICONTROL下拉列表]</p> <p>包含适合您的流程的选项。</p> </td> 
+     <td role="rowheader">[!UICONTROL 目标受众]</td> 
+     <td> <p>[!UICONTROL 下拉列表]</p> <p>包含适合您的流程的选项。</p> </td> 
     </tr> 
    </tbody> 
   </table>
@@ -198,27 +198,27 @@ ht-degree: 0%
     </thead> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL [!DNL Anaplan] Workspace ID]</td> 
+      <td role="rowheader">[!UICONTROL [!DNL Anaplan] Workspace ID]</td> 
       <td>[!DNL Anaplan]帐户中的工作区ID。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL [!DNL Anaplan]模型ID] </td> 
+      <td role="rowheader">[!UICONTROL [!DNL Anaplan]模型ID] </td> 
       <td>[!DNL Anaplan]帐户和所选工作区的模型ID。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL营销活动列表名称]</td> 
+      <td role="rowheader">[!UICONTROL 营销活动列表名称]</td> 
       <td>您的[!DNL Anaplan]帐户和所选工作区和模型的列表名称。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL文件名：项目更新导入]</td> 
+      <td role="rowheader">[!UICONTROL 文件名：项目更新导入]</td> 
       <td>将接收项目更新数据的文件的名称。<p>（示例：WorkfrontUpdateLinkedProject.csv）</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL进程名称：项目更新导入]</td> 
+      <td role="rowheader">[!UICONTROL 进程名称：项目更新导入]</td> 
       <td> <p>执行项目数据导入的进程的名称。</p> <p>（示例： WF Int — 更新促销活动详细信息）</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL [!DNL Workfront]子域]</td> 
+      <td role="rowheader">[!UICONTROL [!DNL Workfront]子域]</td> 
       <td>[!DNL Workfront]帐户的子域。 这用于在可能生成的注释中创建指向[!DNL Workfront]项目的链接。</td> 
      </tr> 
     </tbody> 

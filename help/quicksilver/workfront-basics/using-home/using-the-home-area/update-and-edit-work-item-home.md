@@ -44,7 +44,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置</strong></td> 
-   <td> <p>[！UICONTROL Edit]对任务和问题的访问权限</p> </td> 
+   <td> <p>[!UICONTROL Edit]对任务和问题的访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
@@ -148,7 +148,7 @@ You can view updates on any work item in the [!UICONTROL Work List]:
 1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![主菜单图标](assets/main-menu-icon.png)或左上角的&#x200B;**主菜单** ![主菜单行图标](assets/lines-main-menu.png)（如果可用），然后单击&#x200B;**[!UICONTROL 主页]**。
 1. （视情况而定）单击&#x200B;**自定义**&#x200B;以添加&#x200B;**我的工作**&#x200B;小组件。
 
-1. 将鼠标悬停在工作项上，然后单击&#x200B;**摘要**图标。
+1. 将鼠标悬停在工作项上，然后单击&#x200B;**摘要**&#x200B;图标。
    ![打开摘要](assets/open-summary-new-home.png)
 
 1. 在“摘要”面板中，将鼠标悬停在要编辑的字段上。

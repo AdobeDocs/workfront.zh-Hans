@@ -121,10 +121,10 @@ ht-degree: 0%
 
 默认情况下，首次访问资源规划者时应用<strong>默认筛选器</strong>。<br>有关默认筛选器的更多信息，请参阅本文的资源规划者<a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">中的默认筛选器的</a>概述部分。
 
-1. 在的左上角，单击&#x200B;**筛选器**图标。
+1. 在的左上角，单击&#x200B;**筛选器**&#x200B;图标。
    ![filter_icon.png](assets/filter-icon.png)
 或
-展开**筛选器**&#x200B;下拉菜单，然后单击&#x200B;**添加新筛选器**。
+展开&#x200B;**筛选器**&#x200B;下拉菜单，然后单击&#x200B;**添加新筛选器**。
    ![筛选器下拉列表](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
 
 1. 要使用内置标准构建过滤器，请指定以下任意字段：

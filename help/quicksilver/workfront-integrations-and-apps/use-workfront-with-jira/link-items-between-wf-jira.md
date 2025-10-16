@@ -94,7 +94,7 @@ ht-degree: 0%
 要安装[!DNL Workfront for Jira]：
 
 1. 以[!DNL Jira]管理员身份登录[!DNL Jira]。
-1. 在&#x200B;**[!DNL Workfront for Jira]**[[!DNL Atlassian Marketplace]&#x200B;中找到](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview)加载项。
+1. 在&#x200B;**[!DNL Workfront for Jira]**&#x200B;[[!DNL Atlassian Marketplace]&#x200B;中找到](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview)加载项。
 
 1. 单击&#x200B;**[!UICONTROL 立即获取它]**&#x200B;以进行安装。
 

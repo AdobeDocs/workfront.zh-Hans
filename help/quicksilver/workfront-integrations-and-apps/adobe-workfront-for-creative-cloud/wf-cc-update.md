@@ -46,7 +46,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>[！UICONTROL视图]对要更新的对象的访问权限。 </p></td> 
+   <td> <p>[!UICONTROL 视图]对要更新的对象的访问权限。 </p></td> 
   </tr> 
  </tbody> 
 </table>

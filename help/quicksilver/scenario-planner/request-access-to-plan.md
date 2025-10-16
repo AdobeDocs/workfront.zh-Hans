@@ -36,12 +36,12 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 许可证</p> </td> 
-   <td> <p>[！UICONTROL Light]或更高版本</p> 
-   <p>[！UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Light]或更高版本</p> 
+   <p>[!UICONTROL Review]或更高版本</p> </td> 
   </tr> 
     <tr> 
    <td>访问级别配置</td> 
-   <td> <p>[！UICONTROL View]或更高权限访问 [!DNL Scenario Planner]</p> </td> 
+   <td> <p>[!UICONTROL View]或更高权限访问 [!DNL Scenario Planner]</p> </td> 
   </tr> 
  </tbody> 
 </table>

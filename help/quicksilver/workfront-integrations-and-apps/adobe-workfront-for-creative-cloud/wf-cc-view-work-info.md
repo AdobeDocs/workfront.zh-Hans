@@ -45,7 +45,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[！UICONTROL View]对项目、任务或问题的访问权限</p>  </td> 
+   <td> <p>[!UICONTROL View]对项目、任务或问题的访问权限</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 

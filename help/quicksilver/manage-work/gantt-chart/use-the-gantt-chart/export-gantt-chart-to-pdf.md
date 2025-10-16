@@ -27,21 +27,21 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Adobe Workfront]包</td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront]包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Adobe Workfront]许可证</td> 
-   <td> <p>[！UICONTROL Light]或更高版本</p>
-   <p>[！UICONTROL Review]或更高版本</p> </td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront]许可证</td> 
+   <td> <p>[!UICONTROL Light]或更高版本</p>
+   <p>[!UICONTROL Review]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[！UICONTROL视图]或更高权限访问项目和任务</p> </td> 
+   <td> <p>[!UICONTROL 视图]或更高权限访问项目和任务</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>[！UICONTROL视图]或更高权限访问项目和任务</p> </td> 
+   <td> <p>[!UICONTROL 视图]或更高权限访问项目和任务</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -133,7 +133,7 @@ ht-degree: 2%
    例如，如果您正在查看包含50个任务的项目的[!UICONTROL 甘特图]，但希望在导出的[!UICONTROL 甘特图]上仅显示10个任务，请选择要显示的10个任务。
 
 1. 单击甘特图右上角的打印机图标![打印机图标](assets/printer-icon.png)。
-此时会显示**[!UICONTROL 导出到PDF]**&#x200B;对话框。
+此时会显示&#x200B;**[!UICONTROL 导出到PDF]**&#x200B;对话框。
 
    ![导出到PDF对话框](assets/exported-gantt-ui-350x225.png)
 
@@ -161,7 +161,7 @@ ht-degree: 2%
      >   * 当它包含500个以上的项目时。
 
 
-1. 如果PDF在导出到PDF后要打印，请在&#x200B;**[!UICONTROL 页大小]**下拉菜单中选择要打印的纸张大小。
+1. 如果PDF在导出到PDF后要打印，请在&#x200B;**[!UICONTROL 页大小]**&#x200B;下拉菜单中选择要打印的纸张大小。
 您可以从下列选项中进行选择：
 
    * **[!UICONTROL 书信]**

@@ -43,11 +43,11 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[！UICONTROL Edit]对任务或问题的访问权限</p></td> 
+   <td> <p>[!UICONTROL Edit]对任务或问题的访问权限</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>[！UICONTROL日志小时数]对任务或问题的权限</p> </td> 
+   <td> <p>[!UICONTROL 日志小时数]对任务或问题的权限</p> </td> 
   </tr> 
  </tbody> 
 </table>

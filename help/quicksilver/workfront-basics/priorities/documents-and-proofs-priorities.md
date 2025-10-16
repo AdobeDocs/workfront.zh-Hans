@@ -69,7 +69,7 @@ ht-degree: 2%
 1. 单击&#x200B;**上载文件**&#x200B;图标![上载文件图标](assets/upload-file-icon.png)。
 1. 拖放文件或按Cmd/Ctrl + V以从剪贴板粘贴
 或
-单击**添加文件**浏览文件或从Document Cloud提供程序导入文件。
+单击&#x200B;**添加文件**&#x200B;浏览文件或从Document Cloud提供程序导入文件。
    ![添加文件](assets/add-files.png)
 1. （可选）添加评论。
 1. （可选）添加更多文件。
@@ -88,7 +88,7 @@ ht-degree: 2%
 1. 单击右上角的&#x200B;**上传文档**，然后选择&#x200B;**文档**。
 1. 拖放文件或按Cmd/Ctrl + V以从剪贴板粘贴
 或
-单击**添加文件**浏览文件或从Document Cloud提供程序导入文件。
+单击&#x200B;**添加文件**&#x200B;浏览文件或从Document Cloud提供程序导入文件。
    ![添加文件](assets/add-files.png)
 1. （可选）添加评论。
 1. （可选）添加更多文件。

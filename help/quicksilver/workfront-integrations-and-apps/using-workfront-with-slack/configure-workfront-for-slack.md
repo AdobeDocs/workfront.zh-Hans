@@ -108,4 +108,4 @@ ht-degree: 0%
 1. 单击&#x200B;**[!UICONTROL 访问应用网站]**。
 1. 单击&#x200B;**[!UICONTROL 添加到[!DNL Slack]]**。
 1. 按照步骤完成安装。
-1. 安装完成后，您可以从[!DNL Workfront]访问[!DNL Slack]，如[的 [!DNL Workfront] [！UICONTROL访问 [!DNL Slack]]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#viewing-all-available-commands) section in [Access [!DNL Adobe Workfront] 中所述。 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)
+1. 安装完成后，您可以从[!DNL Workfront]访问[!DNL Slack]，如[的 [!DNL Workfront] [!UICONTROL 访问 [!DNL Slack]]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#viewing-all-available-commands) section in [Access [!DNL Adobe Workfront] 中所述。 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)

@@ -60,7 +60,7 @@ ht-degree: 0%
 
 1. 单击屏幕右上角的&#x200B;**主菜单** ![](assets/dots-main-menu.png)或左上角的&#x200B;**主菜单** ![](assets/lines-main-menu.png)（如果可用），然后单击&#x200B;**主页**
 或
-单击Adobe Workfront左上角的**主页**&#x200B;图标![](assets/home-icon-30x29.png)。
+单击Adobe Workfront左上角的&#x200B;**主页**&#x200B;图标![](assets/home-icon-30x29.png)。
 
    >[!NOTE]
    >

@@ -47,7 +47,7 @@ ht-degree: 0%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>每个故事和问题的[！UICONTROL完成百分比]。<br>[！UICONTROL迭代的完成百分比]是根据每个故事的[！UICONTROL完成百分比]计算的。<br></p> <p>更新故事或问题的[！UICONTROL完成百分比]时，您可以选择介于0和100之间的任意数字。</p> </td> 
+   <td> <p>每个故事和问题的[!UICONTROL 完成百分比]。<br>[!UICONTROL 迭代的完成百分比]是根据每个故事的[!UICONTROL 完成百分比]计算的。<br></p> <p>更新故事或问题的[!UICONTROL 完成百分比]时，您可以选择介于0和100之间的任意数字。</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 

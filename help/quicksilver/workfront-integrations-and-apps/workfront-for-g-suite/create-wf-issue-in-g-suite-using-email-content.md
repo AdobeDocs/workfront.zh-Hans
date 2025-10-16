@@ -81,28 +81,28 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL问题名称]</td> 
+      <td role="rowheader">[!UICONTROL 问题名称]</td> 
       <td>编辑此文本的任何部分，这部分内容取自电子邮件的主题行。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL描述]</td> 
+      <td role="rowheader">[!UICONTROL 描述]</td> 
       <td>编辑此文本的任何部分，这部分内容取自电子邮件的正文。</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[！UICONTROL分配给]</td> 
-      <td>单击<strong>[！UICONTROL分配给]</strong>，单击显示的<strong>[！UICONTROL将此分配给]</strong>选项，然后开始键入人员姓名，并在人员姓名出现在以下列表中时单击该姓名。 对要添加的每个人重复此操作，然后单击<strong>[！UICONTROL保存]</strong>。</td> 
+      <td role="rowheader">[!UICONTROL 分配给]</td> 
+      <td>单击<strong>[!UICONTROL 分配给]</strong>，单击显示的<strong>[!UICONTROL 将此分配给]</strong>选项，然后开始键入人员姓名，并在人员姓名出现在以下列表中时单击该姓名。 对要添加的每个人重复此操作，然后单击<strong>[!UICONTROL 保存]</strong>。</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[！UICONTROL优先级]</td> 
+      <td role="rowheader">[!UICONTROL 优先级]</td> 
       <td>单击下拉箭头，然后单击问题的优先级。</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[！UICONTROL Include e-mail attachments]</td> 
-      <td> <p>（仅当电子邮件至少包含一个附件时才可用。） 单击此选项可将电子邮件中的附件保存到问题的[！UICONTROL文档]区域。 </p> <p>如果不想保存附件，请单击附件名称右侧的X。 </p> <p>如果电子邮件包含指向[!DNL Google Drive]中文档的链接，则这些链接将保存到您正在创建的问题的[！UICONTROL概述]选项卡中。 </p> <p>重要提示：为了使其正常工作，您的[!DNL Workfront]管理员必须授权[!DNL Google Drive]使用[!DNL Workfront]中的文档，如<a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md#configur" class="MCXref xref">配置文档集成</a>中的<a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref">配置集成以管理文档</a>部分所述。</p> <p>如果启用此选项，则对于您转换为任务、问题和更新的其他电子邮件，此选项将保持启用状态。</p> </td> 
+      <td role="rowheader">[!UICONTROL Include e-mail attachments]</td> 
+      <td> <p>（仅当电子邮件至少包含一个附件时才可用。） 单击此选项可将电子邮件中的附件保存到问题的[!UICONTROL 文档]区域。 </p> <p>如果不想保存附件，请单击附件名称右侧的X。 </p> <p>如果电子邮件包含指向[!DNL Google Drive]中文档的链接，则这些链接将保存到您正在创建的问题的[!UICONTROL 概述]选项卡中。 </p> <p>重要提示：为了使其正常工作，您的[!DNL Workfront]管理员必须授权[!DNL Google Drive]使用[!DNL Workfront]中的文档，如<a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md#configur" class="MCXref xref">配置文档集成</a>中的<a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref">配置集成以管理文档</a>部分所述。</p> <p>如果启用此选项，则对于您转换为任务、问题和更新的其他电子邮件，此选项将保持启用状态。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">包括电子邮件文件</td> 
-      <td> <p>单击此选项可将原始电子邮件作为电子邮件(EML) （电子邮件）文件<span>保存到问题的[！UICONTROL文档]区域</span>。 从该位置，您可以双击文件以在电子邮件应用程序中打开电子邮件。</p> <p>如果启用此选项，则对于您转换为任务、问题和更新的其他电子邮件，此选项将保持启用状态。</p> </td> 
+      <td> <p>单击此选项可将原始电子邮件作为电子邮件(EML) （电子邮件）文件<span>保存到问题的[!UICONTROL 文档]区域</span>。 从该位置，您可以双击文件以在电子邮件应用程序中打开电子邮件。</p> <p>如果启用此选项，则对于您转换为任务、问题和更新的其他电子邮件，此选项将保持启用状态。</p> </td> 
      </tr> 
     </tbody> 
    </table>

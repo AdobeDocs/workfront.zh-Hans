@@ -56,11 +56,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[！UICONTROL Edit]对列表所在区域的访问权限</p> <p>例如，要在项目中内联编辑任务，您需要[！UICONTROL Edit]项目访问权限。</p></td> 
+   <td> <p>[!UICONTROL Edit]对列表所在区域的访问权限</p> <p>例如，要在项目中内联编辑任务，您需要[!UICONTROL Edit]项目访问权限。</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>[！UICONTROL管理]</p> <p>您还必须有权编辑某些字段，例如自定义字段、状态等。</p>  </td> 
+   <td> <p>[!UICONTROL 管理]</p> <p>您还必须有权编辑某些字段，例如自定义字段、状态等。</p>  </td> 
   </tr> 
  </tbody> 
 </table>

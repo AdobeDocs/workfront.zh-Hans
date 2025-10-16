@@ -37,16 +37,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[！UICONTROL标准版]</p> 
-   <p>[！UICONTROL计划]</p> </td> 
+   <td><p>[!UICONTROL 标准版]</p> 
+   <p>[!UICONTROL 计划]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[！UICONTROL Edit]对项目组合、项目和项目的访问权限</p> <p>您必须具有[！UICONTROL Delete]项目访问权限才能删除项目。</p> </td>
+   <td> <p>[!UICONTROL Edit]对项目组合、项目和项目的访问权限</p> <p>您必须具有[!UICONTROL Delete]项目访问权限才能删除项目。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>[！UICONTROL管理]对项目组合、项目和项目的权限</p> <p>您必须具有项目的[！UICONTROL Delete]权限才能删除项目。 </p> <p>创建项目后，默认情况下，您拥有[！UICONTROL Manage]权限。</p> </td> 
+   <td> <p>[!UICONTROL 管理]对项目组合、项目和项目的权限</p> <p>您必须具有项目的[!UICONTROL Delete]权限才能删除项目。 </p> <p>创建项目后，默认情况下，您拥有[!UICONTROL Manage]权限。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -93,6 +93,6 @@ ht-degree: 0%
 
    或
 
-   单击&#x200B;**[!UICONTROL 从程序]**&#x200B;中删除&#x200B;****&#x200B;以将其从所选程序中删除。
+   单击&#x200B;**[!UICONTROL 从程序]**&#x200B;中删除&#x200B;**&#x200B;**&#x200B;以将其从所选程序中删除。
 
    如果您单击[!UICONTROL 从项目群]中删除，该项目将不再与所选项目群关联。

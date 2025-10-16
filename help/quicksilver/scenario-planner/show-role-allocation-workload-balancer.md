@@ -41,8 +41,8 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 许可证</p> </td> 
-   <td> <p>[！UICONTROL Light]或更高版本</p> 
-   <p>[！UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Light]或更高版本</p> 
+   <p>[!UICONTROL Review]或更高版本</p> </td> 
   </tr> 
     <tr> 
    <td>访问级别配置</td> 
@@ -141,7 +141,7 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL Job Role]</td> 
+      <td role="rowheader">[!UICONTROL Job Role]</td> 
       <td> <p>与以下任何一项关联的工作角色的名称：</p> 
        <ul> 
         <li> <p>项目中的任务</p> </li> 
@@ -150,16 +150,16 @@ ht-degree: 0%
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL计划小时数]</td> 
+      <td role="rowheader">[!UICONTROL 计划小时数]</td> 
       <td>计划总持续时间内与计划上每个工作角色关联的所需小时数。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL已计划小时数]</td> 
+      <td role="rowheader">[!UICONTROL 已计划小时数]</td> 
       <td>在项目总持续时间内，与项目任务或问题中的每个工作角色关联的已计划小时数。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL变量]</td> 
-      <td> <p>计划所需的小时数与项目工作相关的计划小时数之间的差额。 [!DNL Workfront]使用以下公式计算[！UICONTROL方差]：</p> <p><code>Role Allocation Variance = Initiative Hours - Planned Hours</code> </p> <p>当计划的资源时间超过计划所需的小时数时，[！UICONTROL差异]为负数并显示为红色。 这意味着您的资源被过度分配。 </p> </td> 
+      <td role="rowheader">[!UICONTROL 变量]</td> 
+      <td> <p>计划所需的小时数与项目工作相关的计划小时数之间的差额。 [!DNL Workfront]使用以下公式计算[!UICONTROL 方差]：</p> <p><code>Role Allocation Variance = Initiative Hours - Planned Hours</code> </p> <p>当计划的资源时间超过计划所需的小时数时，[!UICONTROL 差异]为负数并显示为红色。 这意味着您的资源被过度分配。 </p> </td> 
      </tr> 
     </tbody> 
    </table>

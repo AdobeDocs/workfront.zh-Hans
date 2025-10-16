@@ -53,11 +53,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[！UICONTROL视图]对列表所在区域的访问权限</p> <p>例如，要修改项目的视图，您需要具有[！UICONTROL视图]的项目访问权限。</p></td> 
+   <td> <p>[!UICONTROL 视图]对列表所在区域的访问权限</p> <p>例如，要修改项目的视图，您需要具有[!UICONTROL 视图]的项目访问权限。</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>[！UICONTROL视图]或应用于列表的视图的更高权限</p>  </td> 
+   <td> <p>[!UICONTROL 视图]或应用于列表的视图的更高权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>

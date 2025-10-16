@@ -47,18 +47,18 @@ ht-degree: 1%
  <col> 
  <thead> 
   <tr> 
-   <th><strong>[！UICONTROL我的设置]区域</strong> </th> 
+   <th><strong>[!UICONTROL 我的设置]区域</strong> </th> 
    <th><strong>可见或可编辑</strong> </th> 
-   <th><strong>[！UICONTROL系统管理员]</strong> </th> 
-   <th><strong>[！UICONTROL Standard]或[！UICONTROL Planner]</strong> </th> 
-   <th><strong>[！UICONTROL Worker]</strong> </th> 
-   <th><strong>[！UICONTROL Light]或[！UICONTROL Reviewer]</strong> </th> 
-   <th><strong>[！UICONTROL Contributor]或[！UICONTROL Requestor]</strong> </th> 
+   <th><strong>[!UICONTROL 系统管理员]</strong> </th> 
+   <th><strong>[!UICONTROL Standard]或[!UICONTROL Planner]</strong> </th> 
+   <th><strong>[!UICONTROL Worker]</strong> </th> 
+   <th><strong>[!UICONTROL Light]或[!UICONTROL Reviewer]</strong> </th> 
+   <th><strong>[!UICONTROL Contributor]或[!UICONTROL Requestor]</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td rowspan="2">[！UICONTROL个人信息]</td> 
+   <td rowspan="2">[!UICONTROL 个人信息]</td> 
    <td> <p>可见</p> </td> 
    <td> <p>✔</p> </td> 
    <td> ✔</td> 
@@ -75,7 +75,7 @@ ht-degree: 1%
    <td>✔ </td> 
   </tr> 
   <tr> 
-   <td rowspan="2">[！UICONTROL首选项]</td> 
+   <td rowspan="2">[!UICONTROL 首选项]</td> 
    <td> <p>可见</p> </td> 
    <td> <p>✔</p> </td> 
    <td> ✔</td> 
@@ -92,7 +92,7 @@ ht-degree: 1%
    <td>✔ </td> 
   </tr> 
   <tr> 
-   <td rowspan="2">[！UICONTROL通知]</td> 
+   <td rowspan="2">[!UICONTROL 通知]</td> 
    <td> <p>可见</p> </td> 
    <td> <p>✔</p> </td> 
    <td>✔ </td> 
@@ -109,7 +109,7 @@ ht-degree: 1%
    <td> ✔</td> 
   </tr> 
   <tr> 
-   <td rowspan="2">[！UICONTROL访问]</td> 
+   <td rowspan="2">[!UICONTROL 访问]</td> 
    <td>可见</td> 
    <td> ✔</td> 
    <td>✔ </td> 
@@ -126,7 +126,7 @@ ht-degree: 1%
    <td> </td> 
   </tr> 
   <tr> 
-   <td rowspan="2">[！UICONTROL组织]</td> 
+   <td rowspan="2">[!UICONTROL 组织]</td> 
    <td>可见</td> 
    <td>✔</td> 
    <td>✔ </td> 
@@ -143,7 +143,7 @@ ht-degree: 1%
    <td> </td> 
   </tr> 
   <tr> 
-   <td rowspan="2">[！UICONTROL资源规划]</td> 
+   <td rowspan="2">[!UICONTROL 资源规划]</td> 
    <td>可见</td> 
    <td>✔</td> 
    <td>✔ </td> 
@@ -160,7 +160,7 @@ ht-degree: 1%
    <td> </td> 
   </tr> 
   <tr> 
-   <td rowspan="2">[！UICONTROL自定义Forms]</td> 
+   <td rowspan="2">[!UICONTROL 自定义Forms]</td> 
    <td>可见</td> 
    <td>✔</td> 
    <td>✔ </td> 
@@ -177,7 +177,7 @@ ht-degree: 1%
    <td> </td> 
   </tr> 
   <tr> 
-   <td rowspan="2">[！UICONTROL Comment]</td> 
+   <td rowspan="2">[!UICONTROL Comment]</td> 
    <td>可见</td> 
    <td>✔</td> 
    <td>✔ </td> 
@@ -234,27 +234,27 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[！UICONTROL First Name]</strong></td> 
+   <td role="rowheader"><strong>[!UICONTROL First Name]</strong></td> 
    <td>更新您的名字。 这是必填字段。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[！UICONTROL姓氏]</strong></td> 
+   <td role="rowheader"><strong>[!UICONTROL 姓氏]</strong></td> 
    <td>更新您的姓氏。 这是必填字段。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[！UICONTROL电子邮件地址]</strong></td> 
+   <td role="rowheader"><strong>[!UICONTROL 电子邮件地址]</strong></td> 
    <td> 更新您的电子邮件地址。 这是必填字段。 请记住，您的电子邮件地址也是您的[!DNL Workfront]用户名。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[！UICONTROL更改密码]</strong></td> 
+   <td role="rowheader"><strong>[!UICONTROL 更改密码]</strong></td> 
    <td>在此部分中重置您的密码。 有关重置密码的详细信息，请参阅<a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref">重置密码</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>（视情况而定） &lt;SSO配置&gt; [！UICONTROL用户名]</strong></td> 
+   <td role="rowheader"><strong>（视情况而定） &lt;SSO配置&gt; [!UICONTROL 用户名]</strong></td> 
    <td> 如果[!DNL Workfront]管理员启用了与[!DNL Workfront]的SSO集成，则您的SSO用户名将显示在此字段中。 此字段中显示为[!DNL Workfront]实例启用的SSO配置类型。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>（视情况而定） [！UICONTROL仅允许&lt;SSO Configuration&gt;身份验证]</strong></td> 
+   <td role="rowheader"><strong>（视情况而定） [!UICONTROL 仅允许&lt;SSO Configuration&gt;身份验证]</strong></td> 
    <td> <p> 如果您的[!DNL Workfront]管理员启用了与[!DNL Workfront]的SSO集成并更新了SSO的用户，则默认情况下会选择此字段。 此字段中显示为[!DNL Workfront]实例启用的SSO配置类型。</p> <p>选择此字段时，您需要使用SSO凭据登录[!DNL Workfront]。 取消选中它将允许您使用[!DNL Workfront]凭据登录到[!DNL Workfront]。</p> <p>有关使用SSO解决方案配置[!DNL Workfront]的详细信息，请参阅<a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">中的[!DNL Workfront]单点登录：文章索引</a>。 有关更新SSO用户的详细信息，请参阅<a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">更新单点登录的用户</a>。</p> </td> 
   </tr>
  </tbody> 
@@ -266,11 +266,11 @@ ht-degree: 1%
 
 <table style="table-layout:auto">
     <tr>
-        <td><strong>[！UICONTROL标题]</strong></td>
+        <td><strong>[!UICONTROL 标题]</strong></td>
         <td>指定您的标题。 这与您的工作角色不同。 您的标题不是资源计划的一部分，而您的工作角色是。 您的标题显示在[!DNL Workfront]界面中您姓名和头像显示的每个位置。 它对所有有权查看您的用户个人资料的人可见。</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL与我谈有关]</strong></td>
+        <td><strong>[!UICONTROL 与我谈有关]</strong></td>
         <td>在此字段中指定您的专业兴趣。</td>
     </tr>
 </table>
@@ -281,39 +281,39 @@ ht-degree: 1%
 
 <table style="table-layout:auto">
     <tr>
-        <td><strong>[！UICONTROL电话号码]</strong></td>
+        <td><strong>[!UICONTROL 电话号码]</strong></td>
         <td> </td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL扩展]</strong></td>
+        <td><strong>[!UICONTROL 扩展]</strong></td>
         <td> </td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL手机号码]</strong></td>
+        <td><strong>[!UICONTROL 手机号码]</strong></td>
         <td> </td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL地址]</strong></td>
+        <td><strong>[!UICONTROL 地址]</strong></td>
         <td> </td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL城市]</strong></td>
+        <td><strong>[!UICONTROL 城市]</strong></td>
         <td> </td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL状态]</strong></td>
+        <td><strong>[!UICONTROL 状态]</strong></td>
         <td> </td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL邮政编码]</strong></td>
+        <td><strong>[!UICONTROL 邮政编码]</strong></td>
         <td> </td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL国家/地区]</strong></td>
+        <td><strong>[!UICONTROL 国家/地区]</strong></td>
         <td> </td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL配置文件照片]</strong></td>
+        <td><strong>[!UICONTROL 配置文件照片]</strong></td>
         <td>您的个人资料照片会成为您的头像，并且无论您的姓名显示在何处，它都会在[!DNL Workfront]系统中显示。</td>
     </tr>
 </table>
@@ -333,16 +333,16 @@ ht-degree: 1%
  <col> 
  <tbody>
   <tr> 
-   <td role="rowheader"><strong>[！UICONTROL时区]</strong> </td> 
+   <td role="rowheader"><strong>[!UICONTROL 时区]</strong> </td> 
    <td><p>指定您的时区。 这会控制传出电子邮件中显示的时间。</p>
        <p>时区也会影响PTO日历报表中显示的内容。</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[！UICONTROL电子邮件区域设置]</strong> </td> 
+   <td role="rowheader"><strong>[!UICONTROL 电子邮件区域设置]</strong> </td> 
    <td><p>在此处指定首选语言。 这会控制传出电子邮件中使用的语言、日期和数字格式。</p>
    <p><strong>注意：</strong>当您的组织位于Adobe Unified Experience上时，语言首选项存储在您的Adobe配置文件中，并且不使用电子邮件区域设置。 有关详细信息，请参阅文章<a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Adobe Workfront支持的语言</a>中的<a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">更改Adobe Experience Cloud语言</a>。</p></td> 
   </tr>
-  <tr><td><strong>[！UICONTROL当任务是自分配任务时，自动将任务状态设置为“进行中”]</strong> </td>
+  <tr><td><strong>[!UICONTROL 当任务是自分配任务时，自动将任务状态设置为“进行中”]</strong> </td>
   <td>如果希望自动将分配给您自己的工作状态设置为“进行中”而不是“新建”，请选择此选项。</td>
   </tr>
   <tr> 
@@ -370,16 +370,16 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[！UICONTROL处于活动状态]</strong> </td> 
+   <td role="rowheader"><strong>[!UICONTROL 处于活动状态]</strong> </td> 
    <td>此字段仅对同时是[!DNL Workfront]管理员的用户可见，默认情况下应该启用它。 这表示用户处于活动状态并可以登录到 [!DNL Workfront]</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[！UICONTROL访问级别]</strong> </td> 
-   <td>此字段对具有[！UICONTROL Standard]、[！UICONTROL Plan]或[！UICONTROL Workfront Administrator]访问级别的用户可见，并且仅对[!DNL Workfront]管理员可编辑。 如果您是[!DNL Workfront]管理员，请注意在修改此字段时不要将您的访问级别更改为较低的级别。 </td> 
+   <td role="rowheader"><strong>[!UICONTROL 访问级别]</strong> </td> 
+   <td>此字段对具有[!UICONTROL Standard]、[!UICONTROL Plan]或[!UICONTROL Workfront Administrator]访问级别的用户可见，并且仅对[!DNL Workfront]管理员可编辑。 如果您是[!DNL Workfront]管理员，请注意在修改此字段时不要将您的访问级别更改为较低的级别。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[！UICONTROL布局模板]</strong> </td> 
-   <td>此字段对具有[！UICONTROL Standard]、[！UICONTROL Plan]或[！UICONTROL [!DNL Workfront] administrator]访问级别的用户可见，并且仅对[！UICONTROL [!DNL Workfront] administrators]或具有[！UICONTROL Standard]或[！UICONTROL Plan]许可证且还具有管理用户访问权限的用户可编辑。 在此处选择布局模板，以更新Workfront界面的外观和字段。 有关设置具有管理用户访问权限的用户的详细信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">向用户授予访问权限</a>中的<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">配置用户的访问权限，以使用自定义访问级别</a>编辑用户。<br>有关布局模板及其如何影响您的界面的详细信息，请参阅<a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">创建和管理布局模板</a></td> 
+   <td role="rowheader"><strong>[!UICONTROL 布局模板]</strong> </td> 
+   <td>此字段对具有[!UICONTROL Standard]、[!UICONTROL Plan]或[!UICONTROL [!DNL Workfront] administrator]访问级别的用户可见，并且仅对[!UICONTROL [!DNL Workfront] administrators]或具有[!UICONTROL Standard]或[!UICONTROL Plan]许可证且还具有管理用户访问权限的用户可编辑。 在此处选择布局模板，以更新Workfront界面的外观和字段。 有关设置具有管理用户访问权限的用户的详细信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">向用户授予访问权限</a>中的<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">配置用户的访问权限，以使用自定义访问级别</a>编辑用户。<br>有关布局模板及其如何影响您的界面的详细信息，请参阅<a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">创建和管理布局模板</a></td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader"><strong>Log in as</strong> </td> 
@@ -391,14 +391,14 @@ ht-degree: 1%
    </tr>
   --> 
   <tr> 
-   <td role="rowheader"><strong>（视情况而定） [！UICONTROL用户可生成验证（还剩……个验证许可证中的……个）]</strong></td> 
+   <td role="rowheader"><strong>（视情况而定） [!UICONTROL 用户可生成验证（还剩……个验证许可证中的……个）]</strong></td> 
    <td>仅当您的公司使用旧版[!DNL Workfront]包并已购买[!DNL Workfront Proof]组件时，此字段才可用。 选中后，您将启用为验证用户。 它还显示系统中使用的验证许可证的数量在购买验证许可证的总数中。 此字段仅对也是[!DNL Workfront]管理员的用户可见和可编辑。 有关[!DNL Workfront]中校对的计划选项的更多信息，请参阅<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md">访问[!DNL Workfront]</a>中的校对功能。</td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>（视情况而定） [！UICONTROL Permission Profile]</strong></td> 
+   <td role="rowheader"><strong>（视情况而定） [!UICONTROL Permission Profile]</strong></td> 
    <td> <p>此字段显示您在[!DNL Workfront Proof]中拥有的访问级别。 它仅在以下情况下可用：</p> 
     <ul> 
-     <li>您的公司使用旧版[!DNL Workfront]包并已购买[!DNL Workfront Proof]组件，或者您拥有较新[!DNL Workfront]包的[！UICONTROL Standard]、[！UICONTROL Work]或[！UICONTROL Plan]许可证。</li> 
+     <li>您的公司使用旧版[!DNL Workfront]包并已购买[!DNL Workfront Proof]组件，或者您拥有较新[!DNL Workfront]包的[!UICONTROL Standard]、[!UICONTROL Work]或[!UICONTROL Plan]许可证。</li> 
      <li>您已启用为验证用户。</li> 
     </ul> <p>[!DNL Workfront] 管理员可以编辑除自己之外的所有用户的字段，因此所有用户都可以在自己的配置文件中将字段视为仅查看。 有关权限配置文件的详细信息，请参阅<a href="../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md" class="MCXref xref">校对权限配置文件概述</a>。</p> </td> 
   </tr> 
@@ -416,32 +416,32 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[！UICONTROL Company]</strong></td> 
+   <td role="rowheader"><strong>[!UICONTROL Company]</strong></td> 
    <td>从下拉列表中选择您所属公司的名称。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>（视情况而定） [！UICONTROL报表到]</strong></td> 
-   <td>在为您的配置文件选择<strong>[！UICONTROL公司]</strong>后，您还可以在此字段中指定经理的名称。 您只能在此指定一个名称，我们建议您指定直属经理的名称。 开始键入其名称，并在该名称显示在列表中时单击以将其选中。</td> 
+   <td role="rowheader"><strong>（视情况而定） [!UICONTROL 报表到]</strong></td> 
+   <td>在为您的配置文件选择<strong>[!UICONTROL 公司]</strong>后，您还可以在此字段中指定经理的名称。 您只能在此指定一个名称，我们建议您指定直属经理的名称。 开始键入其名称，并在该名称显示在列表中时单击以将其选中。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>（视情况而定） [！UICONTROL直接报表]</strong></td> 
-   <td>在为您的个人资料选择<strong>[！UICONTROL公司]</strong>后，您还可以在此字段中指定直接下属的名称。 您可以在此根据需要指定任意数量的直接报告。 开始键入其名称，然后单击以在它们出现在列表中时将其选中。</td> 
+   <td role="rowheader"><strong>（视情况而定） [!UICONTROL 直接报表]</strong></td> 
+   <td>在为您的个人资料选择<strong>[!UICONTROL 公司]</strong>后，您还可以在此字段中指定直接下属的名称。 您可以在此根据需要指定任意数量的直接报告。 开始键入其名称，然后单击以在它们出现在列表中时将其选中。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[！UICONTROL主团队]</strong> </td> 
-   <td> <p>从下拉菜单中选择一个<strong>[！UICONTROL主团队]</strong>。 此字段对具有[！UICONTROL Standard]、[！UICONTROL Plan]或[！UICONTROL System Administrator]访问级别的用户可见，并且仅对[!DNL Workfront]管理员或具有[！UICONTROL Standard]或[！UICONTROL Plan]许可证且还拥有管理用户访问权限的用户可编辑。 有关设置具有管理用户访问权限的用户的详细信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">向用户授予访问权限</a>中的<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">配置用户的访问权限，以使用自定义访问级别</a>编辑用户。<br></p> <p>如果布局模板与您的团队关联，则您的<strong>主团队</strong>可能会影响[!DNL Workfront]界面的外观。 </p> <p>有关团队的详细信息，请参阅<a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">团队概述</a>。</p> </td>
+   <td role="rowheader"><strong>[!UICONTROL 主团队]</strong> </td> 
+   <td> <p>从下拉菜单中选择一个<strong>[!UICONTROL 主团队]</strong>。 此字段对具有[!UICONTROL Standard]、[!UICONTROL Plan]或[!UICONTROL System Administrator]访问级别的用户可见，并且仅对[!DNL Workfront]管理员或具有[!UICONTROL Standard]或[!UICONTROL Plan]许可证且还拥有管理用户访问权限的用户可编辑。 有关设置具有管理用户访问权限的用户的详细信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">向用户授予访问权限</a>中的<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">配置用户的访问权限，以使用自定义访问级别</a>编辑用户。<br></p> <p>如果布局模板与您的团队关联，则您的<strong>主团队</strong>可能会影响[!DNL Workfront]界面的外观。 </p> <p>有关团队的详细信息，请参阅<a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">团队概述</a>。</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[！UICONTROL其他团队]</strong> </td> 
-   <td> <p>您可以属于多个团队。 通过开始键入团队名称，然后在列表中显示团队时单击以选择您属于此字段的其他团队。 如果属于太多团队，可能会使分配给团队的工作产生混淆。 有关团队的详细信息，请参阅<a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">团队概述</a>。</p> <p>该字段对具有[！UICONTROL Standard]、[！UICONTROL Plan]或[！UICONTROL System Administrator]许可证的用户可见，并且仅对具有[！UICONTROL Standard]或[！UICONTROL Plan]许可证且拥有管理用户访问权限的[!DNL Workfront]管理员或用户可编辑。 有关设置具有管理用户访问权限的用户的详细信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">向用户授予访问权限</a>中的<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">配置用户的访问权限，以使用自定义访问级别</a>编辑用户。</p> </td>
+   <td role="rowheader"><strong>[!UICONTROL 其他团队]</strong> </td> 
+   <td> <p>您可以属于多个团队。 通过开始键入团队名称，然后在列表中显示团队时单击以选择您属于此字段的其他团队。 如果属于太多团队，可能会使分配给团队的工作产生混淆。 有关团队的详细信息，请参阅<a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">团队概述</a>。</p> <p>该字段对具有[!UICONTROL Standard]、[!UICONTROL Plan]或[!UICONTROL System Administrator]许可证的用户可见，并且仅对具有[!UICONTROL Standard]或[!UICONTROL Plan]许可证且拥有管理用户访问权限的[!DNL Workfront]管理员或用户可编辑。 有关设置具有管理用户访问权限的用户的详细信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">向用户授予访问权限</a>中的<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">配置用户的访问权限，以使用自定义访问级别</a>编辑用户。</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[！UICONTROL主组]</strong> </td> 
-   <td> <p>从下拉菜单中选择一个<strong>[！UICONTROL主组]</strong>。</p> <p>注：这是必填字段。 用户不能与组关联。<br></p> <p>此字段对具有[！UICONTROL Standard]、[！UICONTROL Plan]或[！UICONTROL系统管理员]级别的用户可见。 有关谁可以编辑<strong>[！UICONTROL主组]</strong>字段的更多信息，请参阅<a href="/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md"class="MCXref xref">编辑用户配置文件</a>。 您的<strong>[！UICONTROL主组]</strong>是所有项目的默认组，而您创建的所有新用户的默认组是<strong>[！UICONTROL主组]</strong>。 默认情况下，您创建的任何自定义表单都将与您的<strong>[！UICONTROL主组]</strong>共享。</p> <p>有关组的详细信息，请参阅<a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">组概述</a>。</p> </td> 
+   <td role="rowheader"><strong>[!UICONTROL 主组]</strong> </td> 
+   <td> <p>从下拉菜单中选择一个<strong>[!UICONTROL 主组]</strong>。</p> <p>注：这是必填字段。 用户不能与组关联。<br></p> <p>此字段对具有[!UICONTROL Standard]、[!UICONTROL Plan]或[!UICONTROL 系统管理员]级别的用户可见。 有关谁可以编辑<strong>[!UICONTROL 主组]</strong>字段的更多信息，请参阅<a href="/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md"class="MCXref xref">编辑用户配置文件</a>。 您的<strong>[!UICONTROL 主组]</strong>是所有项目的默认组，而您创建的所有新用户的默认组是<strong>[!UICONTROL 主组]</strong>。 默认情况下，您创建的任何自定义表单都将与您的<strong>[!UICONTROL 主组]</strong>共享。</p> <p>有关组的详细信息，请参阅<a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">组概述</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[！UICONTROL其他组]</strong> </td> 
-   <td> <p>您可以属于多个组。 通过开始键入组的名称，指定您在此字段中属于的其他组。 当它显示在列表中时，单击以将其选中。 此字段对具有[！UICONTROL Standard]、[！UICONTROL Plan]或[！UICONTROL System Administrator]访问级别的用户可见。 有关谁可以编辑<strong>[！UICONTROL其他组]</strong>字段的更多信息，请参阅<a href="/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md"class="MCXref xref">编辑用户配置文件</a>。</p> <p>有关组的详细信息，请参阅<a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">组概述</a>。</p> </td> 
+   <td role="rowheader"><strong>[!UICONTROL 其他组]</strong> </td> 
+   <td> <p>您可以属于多个组。 通过开始键入组的名称，指定您在此字段中属于的其他组。 当它显示在列表中时，单击以将其选中。 此字段对具有[!UICONTROL Standard]、[!UICONTROL Plan]或[!UICONTROL System Administrator]访问级别的用户可见。 有关谁可以编辑<strong>[!UICONTROL 其他组]</strong>字段的更多信息，请参阅<a href="/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md"class="MCXref xref">编辑用户配置文件</a>。</p> <p>有关组的详细信息，请参阅<a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">组概述</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -457,55 +457,55 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[！UICONTROL设置停用日期]</strong></td>
-   <td><p>如果您希望安排在一段时间后停用您的帐户，请单击此按钮。 在出现的<strong>[！UICONTROL计划取消激活日期]</strong>中，指定帐户取消激活的日期。 有关停用用户的信息，请参阅<a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">停用或重新激活用户</a>中的<a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">计划停用用户</a>。 </p><p>如果您拥有[！UICONTROL Standard]或[！UICONTROL Plan]许可证或者您是[!DNL Workfront]管理员，则可以编辑帐户的停用字段。 </p></td> 
+   <td role="rowheader"><strong>[!UICONTROL 设置停用日期]</strong></td>
+   <td><p>如果您希望安排在一段时间后停用您的帐户，请单击此按钮。 在出现的<strong>[!UICONTROL 计划取消激活日期]</strong>中，指定帐户取消激活的日期。 有关停用用户的信息，请参阅<a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">停用或重新激活用户</a>中的<a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">计划停用用户</a>。 </p><p>如果您拥有[!UICONTROL Standard]或[!UICONTROL Plan]许可证或者您是[!DNL Workfront]管理员，则可以编辑帐户的停用字段。 </p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[！UICONTROL Primary Role]</strong></td> 
-   <td> <p>这是您可以在Workfront中履行的主要工作角色。 默认情况下，分配给您的每个任务和问题也会分配给此工作角色。 工作角色在资源管理中至关重要。 有关工作角色的更多信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">创建和管理工作角色</a>。</p> <p>只有在您拥有具有管理用户访问权限的[！UICONTROL Standard]或[！UICONTROL Plan]许可证，或者您是[!DNL Workfront]管理员时，才能更新此字段。 有关设置具有管理用户访问权限的用户的详细信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">向用户授予访问权限</a>中的<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">配置用户的访问权限，以使用自定义访问级别</a>编辑用户。</p> </td> 
+   <td role="rowheader"><strong>[!UICONTROL Primary Role]</strong></td> 
+   <td> <p>这是您可以在Workfront中履行的主要工作角色。 默认情况下，分配给您的每个任务和问题也会分配给此工作角色。 工作角色在资源管理中至关重要。 有关工作角色的更多信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">创建和管理工作角色</a>。</p> <p>只有在您拥有具有管理用户访问权限的[!UICONTROL Standard]或[!UICONTROL Plan]许可证，或者您是[!DNL Workfront]管理员时，才能更新此字段。 有关设置具有管理用户访问权限的用户的详细信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">向用户授予访问权限</a>中的<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">配置用户的访问权限，以使用自定义访问级别</a>编辑用户。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>（视情况而定）如果您选择了[！UICONTROL Primary Role]，则会显示[！UICONTROL Percentage of FTE Availability]字段。</strong></td> 
-   <td>指定将计划时间的哪个百分比分配给此工作角色。 主角色的[！UICONTROL FTE可用性百分比]的默认值为100%。</td> 
+   <td role="rowheader"><strong>（视情况而定）如果您选择了[!UICONTROL Primary Role]，则会显示[!UICONTROL Percentage of FTE Availability]字段。</strong></td> 
+   <td>指定将计划时间的哪个百分比分配给此工作角色。 主角色的[!UICONTROL FTE可用性百分比]的默认值为100%。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[！UICONTROL其他角色]</strong> </td> 
-   <td> <p>您可以在[!DNL Workfront]中拥有多个工作角色。 工作角色在资源管理中至关重要。 有关工作角色的更多信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">创建和管理工作角色</a>。</p> <p>只有在您拥有具有管理用户访问权限的[！UICONTROL Standard]或[！UICONTROL Plan]许可证，或者您是[!DNL Workfront]管理员时，才能更新此字段。 有关设置具有管理用户访问权限的用户的详细信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">向用户授予访问权限</a>中的<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">配置用户的访问权限，以使用自定义访问级别</a>编辑用户。</p> </td> 
+   <td role="rowheader"><strong>[!UICONTROL 其他角色]</strong> </td> 
+   <td> <p>您可以在[!DNL Workfront]中拥有多个工作角色。 工作角色在资源管理中至关重要。 有关工作角色的更多信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">创建和管理工作角色</a>。</p> <p>只有在您拥有具有管理用户访问权限的[!UICONTROL Standard]或[!UICONTROL Plan]许可证，或者您是[!DNL Workfront]管理员时，才能更新此字段。 有关设置具有管理用户访问权限的用户的详细信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">向用户授予访问权限</a>中的<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">配置用户的访问权限，以使用自定义访问级别</a>编辑用户。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>（视情况而定）如果您选择了一个或多个其他角色，则会为每个角色显示[！UICONTROL FTE可用性百分比]字段。</strong></td> 
-   <td> <p>指定将计划时间的哪个百分比分配给每个工作角色。 [！UICONTROL其他角色]的[！UICONTROL FTE可用性百分比]的默认值为0%。</p> <p> <img src="assets/user-settings-roles-and-dte-boxes-rp-story--1--350x224.png" alt="user_settings_roles_and_dte_boxes_rp_story__1_.png" style="width: 350;height: 224;"> </p> <p>注释：  
+   <td role="rowheader"><strong>（视情况而定）如果您选择了一个或多个其他角色，则会为每个角色显示[!UICONTROL FTE可用性百分比]字段。</strong></td> 
+   <td> <p>指定将计划时间的哪个百分比分配给每个工作角色。 [!UICONTROL 其他角色]的[!UICONTROL FTE可用性百分比]的默认值为0%。</p> <p> <img src="assets/user-settings-roles-and-dte-boxes-rp-story--1--350x224.png" alt="user_settings_roles_and_dte_boxes_rp_story__1_.png" style="width: 350;height: 224;"> </p> <p>注释：  
      <ul> 
-      <li>如果[！UICONTROL其他角色]具有0% FTE可用性，除非将用户分配给这些角色中的任务，否则它们不会显示在[！UICONTROL资源规划者]中。</li> 
-      <li> <p>所有角色的所有<strong>[！UICONTROL百分比]</strong>的总和必须等于100%。 每个[！UICONTROL FTE可用性百分比]计算[！UICONTROL Resource Planner]中每个用户每个角色的[！UICONTROL Available Hours]。 </p> <p>每个用户每个角色的[！UICONTROL可用小时数]取决于用户的可用时间。 用户可用时间由[!DNL Workfront]计算，具体取决于[!DNL Workfront]管理员在[！UICONTROL资源管理首选项]中选择用于计算FTE的方法。 有关计算用户可用性的详细信息，请参阅<a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">计算资源规划者中用户和角色的小时和FTE的概述</a>。 有关配置资源管理首选项的详细信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">配置资源管理首选项</a>。</p> </li> 
+      <li>如果[!UICONTROL 其他角色]具有0% FTE可用性，除非将用户分配给这些角色中的任务，否则它们不会显示在[!UICONTROL 资源规划者]中。</li> 
+      <li> <p>所有角色的所有<strong>[!UICONTROL 百分比]</strong>的总和必须等于100%。 每个[!UICONTROL FTE可用性百分比]计算[!UICONTROL Resource Planner]中每个用户每个角色的[!UICONTROL Available Hours]。 </p> <p>每个用户每个角色的[!UICONTROL 可用小时数]取决于用户的可用时间。 用户可用时间由[!DNL Workfront]计算，具体取决于[!DNL Workfront]管理员在[!UICONTROL 资源管理首选项]中选择用于计算FTE的方法。 有关计算用户可用性的详细信息，请参阅<a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">计算资源规划者中用户和角色的小时和FTE的概述</a>。 有关配置资源管理首选项的详细信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">配置资源管理首选项</a>。</p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>计划</strong></td> 
-   <td> <p>只有[!DNL Workfront]个管理员或具有[！UICONTROL Standard]或[！UICONTROL Plan]许可证且对时间表和小时数也具有管理访问权限的用户才能更新此字段。 有关时间表和小时数的管理访问权限的详细信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予用户对特定区域的管理访问权限</a>中的“时间表和小时数”部分。</p> <p>从下拉菜单中选择适合您的工时表。 这将确保根据[!DNL Workfront]管理员设置的规范自动生成您的时间表。 </p> </td> 
+   <td> <p>只有[!DNL Workfront]个管理员或具有[!UICONTROL Standard]或[!UICONTROL Plan]许可证且对时间表和小时数也具有管理访问权限的用户才能更新此字段。 有关时间表和小时数的管理访问权限的详细信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予用户对特定区域的管理访问权限</a>中的“时间表和小时数”部分。</p> <p>从下拉菜单中选择适合您的工时表。 这将确保根据[!DNL Workfront]管理员设置的规范自动生成您的时间表。 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[！UICONTROL默认小时类型]</strong> </td> 
+   <td role="rowheader"><strong>[!UICONTROL 默认小时类型]</strong> </td> 
    <td>选择您的默认小时类型。 这是每当您在Workfront中记录时间时，系统默认使用的小时类型。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[！UICONTROL可用小时类型]</strong> </td> 
+   <td role="rowheader"><strong>[!UICONTROL 可用小时类型]</strong> </td> 
    <td>在记录时间时，选择可供您选择的小时类型。 此下拉菜单中的小时类型由[!DNL Workfront]管理员提供。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[！UICONTROL资源池]</strong> </td> 
+   <td role="rowheader"><strong>[!UICONTROL 资源池]</strong> </td> 
    <td>选择您所属的资源池。 此字段仅用于报告和提供信息。 这不会影响资源计划或计划。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[！UICONTROL FTE]</strong> </td> 
-   <td> <p>仅当系统级别的[！UICONTROL资源管理首选项]设置为<strong>[！UICONTROL默认计划]</strong>时，才会考虑此处指定的数字以根据默认计划计算可用性。</p> <p>例如，如果FTE值为0.5，而[！UICONTROL默认计划]为40小时，则您每周可以工作20小时。</p> <p>如果系统级别的[！UICONTROL资源管理首选项]设置为<strong>[！UICONTROL用户计划]</strong>，则在此处指定的值将被忽略，您可以根据计划中指定的内容工作。 在这种情况下，您的[！UICONTROL Resource Planner]的FTE按以下公式计算： </p> <p><code style="font-style: normal;">[!UICONTROL User Available FTE] = [!UICONTROL Hours from the Schedule of the User/ Default Schedule Hours]</code> </p> <p>有关计算用户FTE的更多信息，请参阅<a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">计算资源规划者中用户和角色的小时和FTE的概述</a>。</p> <p>有关在[!DNL Workfront]中创建计划的详细信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">创建计划</a>。</p> <p>有关配置资源管理首选项的详细信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">配置资源管理首选项</a>。</p> </td> 
+   <td role="rowheader"><strong>[!UICONTROL FTE]</strong> </td> 
+   <td> <p>仅当系统级别的[!UICONTROL 资源管理首选项]设置为<strong>[!UICONTROL 默认计划]</strong>时，才会考虑此处指定的数字以根据默认计划计算可用性。</p> <p>例如，如果FTE值为0.5，而[!UICONTROL 默认计划]为40小时，则您每周可以工作20小时。</p> <p>如果系统级别的[!UICONTROL 资源管理首选项]设置为<strong>[!UICONTROL 用户计划]</strong>，则在此处指定的值将被忽略，您可以根据计划中指定的内容工作。 在这种情况下，您的[!UICONTROL Resource Planner]的FTE按以下公式计算： </p> <p><code style="font-style: normal;">[!UICONTROL User Available FTE] = [!UICONTROL Hours from the Schedule of the User/ Default Schedule Hours]</code> </p> <p>有关计算用户FTE的更多信息，请参阅<a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">计算资源规划者中用户和角色的小时和FTE的概述</a>。</p> <p>有关在[!DNL Workfront]中创建计划的详细信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">创建计划</a>。</p> <p>有关配置资源管理首选项的详细信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">配置资源管理首选项</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[！UICONTROL每小时成本]</strong> </td> 
+   <td role="rowheader"><strong>[!UICONTROL 每小时成本]</strong> </td> 
    <td>为用户指定每小时的成本金额。 有关在[!DNL Workfront]中跟踪成本的更多信息，请参阅<a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">跟踪成本</a>。 除非您有权从访问级别访问财务数据，或者您是[!DNL Workfront]管理员，否则无法更新此信息。 有关财务访问权限的详细信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">授予对财务数据的访问权限</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[！UICONTROL每小时计费]</strong> </td> 
+   <td role="rowheader"><strong>[!UICONTROL 每小时计费]</strong> </td> 
    <td>指定用户的每小时计费金额。 有关跟踪帐单和收入的更多信息，请参阅<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">帐单和收入概览</a>。 除非您有权从访问级别访问财务数据，或者您是[!DNL Workfront]管理员，否则无法更新此信息。 有关财务访问权限的详细信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">授予对财务数据的访问权限</a>。</td> 
   </tr> 
  </tbody> 

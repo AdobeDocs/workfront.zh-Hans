@@ -43,7 +43,7 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[！UICONTROL Adobe Workfront]包</strong></td> 
+   <td role="rowheader"><strong>[!UICONTROL Adobe Workfront]包</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -54,11 +54,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置</strong></td> 
-   <td> <p>如果[!DNL Workfront]管理员已启用<strong>[！UICONTROL仅查看访问级别中已包含在对话]</strong>中的更新，则无法订阅[!DNL Workfront]中的项目。</p> </td> 
+   <td> <p>如果[!DNL Workfront]管理员已启用<strong>[!UICONTROL 仅查看访问级别中已包含在对话]</strong>中的更新，则无法订阅[!DNL Workfront]中的项目。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>[！UICONTROL视图]对项目、任务或问题（要订阅的）的访问权限或更高版本</p> <p>[！UICONTROL Manage]对项目、任务或问题的[！UICONTROL Share]访问权限和权限（订阅其他项目、任务或问题）</p> </td> 
+   <td> <p>[!UICONTROL 视图]对项目、任务或问题（要订阅的）的访问权限或更高版本</p> <p>[!UICONTROL Manage]对项目、任务或问题的[!UICONTROL Share]访问权限和权限（订阅其他项目、任务或问题）</p> </td> 
   </tr> 
  </tbody> 
 </table>

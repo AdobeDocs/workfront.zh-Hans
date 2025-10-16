@@ -35,12 +35,12 @@ Portfolio是争夺相同资源、预算和计划的项目集合。 Portfolio中�
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>[！UICONTROL标准版]</p>
-   <p>[！UICONTROL计划] </p> </td> 
+   <td> <p>[!UICONTROL 标准版]</p>
+   <p>[!UICONTROL 计划] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[！UICONTROL Edit]对项目组合的访问权限</p>  </td> 
+   <td> <p>[!UICONTROL Edit]对项目组合的访问权限</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
@@ -126,16 +126,16 @@ Portfolio是争夺相同资源、预算和计划的项目集合。 Portfolio中�
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL描述]</td> 
+      <td role="rowheader">[!UICONTROL 描述]</td> 
       <td> <p>键入Portfolio的描述以指示其独特之处。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL Portfolio Manager]</td> 
-      <td> <p>开始键入要指定为项目组合经理的用户名称，然后当该用户出现在列表中时将其选定。 这与[！UICONTROL Portfolio Owner]相同。 他可以监督项目组合中定义的工作并批准业务案例。</p> <p>重要信息：当您指定某个用户作为[！UICONTROL Portfolio Manager]时，该用户会自动获得对该项目组合、该项目组合中项目群和项目群的[！UICONTROL Manager]权限。 </p> <p>提示：您还可以更新页面顶部标题中的[！UICONTROL Portfolio Manager]。</p> </td> 
+      <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
+      <td> <p>开始键入要指定为项目组合经理的用户名称，然后当该用户出现在列表中时将其选定。 这与[!UICONTROL Portfolio Owner]相同。 他可以监督项目组合中定义的工作并批准业务案例。</p> <p>重要信息：当您指定某个用户作为[!UICONTROL Portfolio Manager]时，该用户会自动获得对该项目组合、该项目组合中项目群和项目群的[!UICONTROL Manager]权限。 </p> <p>提示：您还可以更新页面顶部标题中的[!UICONTROL Portfolio Manager]。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">组 </td> 
-      <td> <p>添加单个组的名称（如果该组拥有项目组合或负责完成它）。 </p> <p>您可以通过将鼠标悬停在该组上并单击其旁边显示的[！UICONTROL信息]图标<img src="assets/info-icon.png">来确保选择正确的组。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> </td> 
+      <td> <p>添加单个组的名称（如果该组拥有项目组合或负责完成它）。 </p> <p>您可以通过将鼠标悬停在该组上并单击其旁边显示的[!UICONTROL 信息]图标<img src="assets/info-icon.png">来确保选择正确的组。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> </td> 
      </tr> 
     </tbody> 
    </table>

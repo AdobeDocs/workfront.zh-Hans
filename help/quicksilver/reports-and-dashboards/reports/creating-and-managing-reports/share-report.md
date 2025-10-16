@@ -84,7 +84,7 @@ ht-degree: 1%
 
    或
 
-   单击一个报表的名称，然后单击**报表操作>****共享**。
+   单击一个报表的名称，然后单击&#x200B;**报表操作>**&#x200B;**共享**。
 
    ![](assets/unshimmed-report-actions-sharing.png)
 

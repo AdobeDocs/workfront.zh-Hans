@@ -116,7 +116,7 @@ Adobe Workfront将临时工作请求和待办事项保存为Wprfront自动为每
 
 1. 单击标题中用户名右侧的&#x200B;**更多菜单** ![](assets/more-menu.png)。
 1. 单击&#x200B;**发送工作请求**。
-显示**向用户发送工作请求**&#x200B;框。
+显示&#x200B;**向用户发送工作请求**&#x200B;框。
 
    ![](assets/personal-task-box.png)
 1. 更新以下信息：

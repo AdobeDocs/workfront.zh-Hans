@@ -31,7 +31,7 @@ ht-degree: 0%
 >来自Workfront的所有电子邮件都从该地址发送，以提高电子邮件的成功投放并消除电子邮件的欺骗。 这包括自动警报和用户到用户的通信。
 >
 >例如，您从名为Joan Harris的用户那里收到的Workfront电子邮件中的“发件人”行如下所示：
->>`Joan Harris <notifications@my.workfront.com>`
+>&#x200B;>`Joan Harris <notifications@my.workfront.com>`
 
 有关配置组织的防火墙以打开环境与Adobe Workfront服务器之间的通信的信息，请参阅[配置防火墙的允许列表](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
 

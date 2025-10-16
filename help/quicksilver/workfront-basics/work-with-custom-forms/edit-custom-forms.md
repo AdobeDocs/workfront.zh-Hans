@@ -174,7 +174,7 @@ ht-degree: 0%
 >![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 >
 >Workfront会为所有选定项目计算所有自定义字段。
->>并非所有对象的列表都具有此功能。
+>&#x200B;>并非所有对象的列表都具有此功能。
 >
 >根据项目的复杂性，我们建议不要在批量重新计算已计算的自定义字段时选择大量项目以确保最佳性能。 某些因素可能会使项目过于复杂，例如多个依赖项或分配或者大量自定义字段。
 

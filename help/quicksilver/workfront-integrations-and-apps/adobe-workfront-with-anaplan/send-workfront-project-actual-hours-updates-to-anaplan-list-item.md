@@ -133,27 +133,27 @@ ht-degree: 0%
     </thead> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL [!DNL Anaplan] Workspace ID]</td> 
+      <td role="rowheader">[!UICONTROL [!DNL Anaplan] Workspace ID]</td> 
       <td>[!DNL Anaplan]帐户中的工作区ID。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL [!DNL Anaplan]模型ID] </td> 
+      <td role="rowheader">[!UICONTROL [!DNL Anaplan]模型ID] </td> 
       <td>[!DNL Anaplan]帐户和所选工作区的模型ID。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL营销活动列表名称]</td> 
+      <td role="rowheader">[!UICONTROL 营销活动列表名称]</td> 
       <td>您的[!DNL Anaplan]帐户和所选工作区和模型的列表名称。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL文件名：实际小时数导入]</td> 
+      <td role="rowheader">[!UICONTROL 文件名：实际小时数导入]</td> 
       <td> <p>将接收项目实际小时数数据的文件的名称。</p> <p> （示例：WorkfrontUpdateLinkedProjects_HoursRoles.csv） </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL进程名称：实际小时数导入]</td> 
+      <td role="rowheader">[!UICONTROL 进程名称：实际小时数导入]</td> 
       <td> <p>将执行项目小时数据导入的进程的名称。</p> <p>（示例： WF Int — 按角色加载项目小时数）</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL [!DNL Workfront]子域]</td> 
+      <td role="rowheader">[!UICONTROL [!DNL Workfront]子域]</td> 
       <td>[!DNL Workfront]帐户的子域。 这用于在可能生成的注释中创建指向[!DNL Workfront]项目的链接。</td> 
      </tr> 
     </tbody> 

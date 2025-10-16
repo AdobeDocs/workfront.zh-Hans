@@ -87,11 +87,11 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">[！UICONTROL预算] </p> <p role="rowheader"> </p> </td> 
+   <td role="rowheader"> <p role="rowheader">[!UICONTROL 预算] </p> <p role="rowheader"> </p> </td> 
    <td>这是贵公司决定可用于执行计划的货币金额。 Workfront在计划持续时间内，为每个月平均分配预算。 预算通常设置为一年，但也可以设置为三年或五年期间。 “财务”框标题左侧的括号中的货币表示系统的货币。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL成本]</td> 
+   <td role="rowheader">[!UICONTROL 成本]</td> 
    <td> <p>这是计划中所有计划所产生的总成本。 Workfront使用以下公式计算计划的成本：</p> <p><code>Plan Costs = SUM(Initiative Costs)</code> </p> <p>有关如何计算计划成本的信息，请参阅<a href="../scenario-planner/create-and-edit-initiatives.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中创建和编辑计划。 </p> </td> 
   </tr> 
   <tr> 
@@ -99,7 +99,7 @@ ht-degree: 0%
    <td> <p>这是与计划关联的成本和为计划定义的预算之间的计算百分比。 </p> <p>[!DNL Workfront] 使用以下公式计算计划的预算利用率百分比： </p> <p><code>Utilization percentage = (Plan Costs* 100))/ Plan Budget</code> </p> <p>成本使用以下公式计算：</p> <p><code>Plan Costs = SUM(Initiatives People Costs, Initiatives Fixed Costs)</code> </p> <p>提示：“利用率”百分比四舍五入并带有一个小数。 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">[！UICONTROL Summary]框<span>中的[！UICONTROL净值]区域</span></p> <p role="rowheader"> </p> </td> 
+   <td role="rowheader"> <p role="rowheader">[!UICONTROL Summary]框<span>中的[!UICONTROL 净值]区域</span></p> <p role="rowheader"> </p> </td> 
    <td> <p>这是计划中所有计划的所有净值的计算。 </p> <p>Workfront使用以下公式计算计划的净值： </p> <p><code>Plan Net Value = SUM(Initiative Planned Benefit - People Costs)</code> </p> <p>或</p> <p><code>Plan Net Value = SUM(Initiative Net Value)</code> </p> <p>有关计划净值的信息，请参阅<a href="../scenario-planner/initiatives-overview.md" class="MCXref xref">中的文章[!DNL Scenario Planner]</a>计划概述。</p> </td> 
   </tr> 
  </tbody> 

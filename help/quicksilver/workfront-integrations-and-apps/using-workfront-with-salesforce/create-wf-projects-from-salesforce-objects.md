@@ -162,7 +162,7 @@ ht-degree: 4%
       >项目仅在[!UICONTROL Opportunity]上更新阶段时创建。 为更新暂存字段时指定的每个产品创建一个唯一项目，而不是为添加到[!UICONTROL Opportunities]中的产品创建唯一项目。
 
 1. （可选）单击&#x200B;**[!UICONTROL 新建触发器]**。
-1. （可选）从&#x200B;**[!UICONTROL [!DNL Salesforce]对象]**下拉菜单中，选择**帐户
+1. （可选）从&#x200B;**[!UICONTROL [!DNL Salesforce]对象]**&#x200B;下拉菜单中，选择**帐户
 **。
 
    这是必填字段。
@@ -171,7 +171,7 @@ ht-degree: 4%
    1. 从&#x200B;**[!UICONTROL 类型]**&#x200B;下拉菜单中选择&#x200B;**[!UICONTROL 类型]**。
 
       当有任何**帐户时
-**被指定为**[!UICONTROL 中此处指定的]**&#x200B;类型[!DNL Salesforce]，在&#x200B;**[!UICONTROL 中创建了]**&#x200B;项目[!DNL Workfront]。
+**被指定为**&#x200B;[!UICONTROL 中此处指定的]&#x200B;**&#x200B;类型[!DNL Salesforce]，在&#x200B;**&#x200B;[!UICONTROL 中创建了]**&#x200B;项目[!DNL Workfront]。
 
       这是必填字段。
 

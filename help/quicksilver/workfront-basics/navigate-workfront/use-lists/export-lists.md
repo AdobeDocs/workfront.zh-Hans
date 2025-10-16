@@ -45,7 +45,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>列表所在对象的[！UICONTROL View]权限</p>  </td> 
+   <td> <p>列表所在对象的[!UICONTROL View]权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>

@@ -228,7 +228,7 @@ Editing goals differs depending on what environment you use.
 
    <!-- (should you update the title here after changing it at production??? - change it to Update goals in the goal Details section)-->
 
-1. （可选）单击左侧面板中的&#x200B;**进度指示器**以将结果、活动或项目添加到目标。 通过添加进度指示器，您可以确保可以跟踪目标的进度。
+1. （可选）单击左侧面板中的&#x200B;**进度指示器**&#x200B;以将结果、活动或项目添加到目标。 通过添加进度指示器，您可以确保可以跟踪目标的进度。
 有关更多信息，请参阅以下文章：
    * [将活动添加到Adobe Workfront目标中的目标](../results-and-activities/add-activities-to-goals.md)
    * [将结果添加到Adobe Workfront目标中的目标](../results-and-activities/add-results-to-goals.md)。

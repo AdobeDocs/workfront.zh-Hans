@@ -28,13 +28,13 @@ ht-degree: 0%
     </ul> 
     <ul> 
      <li> <p>对象的“共享”对话框</p> </li> 
-     <li> <p>[！UICONTROL用户配置文件]*</p> </li> 
+     <li> <p>[!UICONTROL 用户配置文件]*</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>[！UICONTROL团队]区域中的主选择下拉菜单</p> </li> 
-     <li> <p>[！UICONTROL Assignments]预输入</p> </li> 
-     <li> <p>项目中的[！UICONTROL添加到Kanban]展示板对话框</p> </li> 
+     <li> <p>[!UICONTROL 团队]区域中的主选择下拉菜单</p> </li> 
+     <li> <p>[!UICONTROL Assignments]预输入</p> </li> 
+     <li> <p>项目中的[!UICONTROL 添加到Kanban]展示板对话框</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

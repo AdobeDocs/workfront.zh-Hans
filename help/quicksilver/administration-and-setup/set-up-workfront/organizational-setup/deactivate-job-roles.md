@@ -37,8 +37,8 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[！UICONTROL标准版]</p>
-       <p>[！UICONTROL计划]</p></td>
+   <td><p>[!UICONTROL 标准版]</p>
+       <p>[!UICONTROL 计划]</p></td>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
@@ -70,7 +70,7 @@ ht-degree: 1%
 * 项目中的[!UICONTROL 将工作分配添加到Kanban展示板]对话框
 * 当有人使用[!UICONTROL 时，计划或计划的]工作角色[!DNL Adobe Workfront Scenario Planner]字段。
 
-  [!DNL Scenario Planner]仅在新的[!DNL Adobe Workfront]体验中可用，并且需要额外的许可证。 有关[!DNL Workfront Scenario Planner]的信息，请参阅[概述 [!DNL Scenario Planner] ](../../../scenario-planner/scenario-planner-overview.md)。
+  [!DNL Scenario Planner]仅在新的[!DNL Adobe Workfront]体验中可用，并且需要额外的许可证。 有关[!DNL Workfront Scenario Planner]的信息，请参阅[概述 [!DNL Scenario Planner] &#x200B;](../../../scenario-planner/scenario-planner-overview.md)。
 
 >[!TIP]
 >

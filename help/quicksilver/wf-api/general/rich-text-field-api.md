@@ -123,4 +123,4 @@ GET /attask/api/v12.0/<OBJ Code>/<OBJ ID>?fields=parameterValues
 1. 使用上面概述的JSON上的stringify方法发出PUT请求并发送更新。
 
    <!-- [Copy](javascript:void(0);) -->
-   <pre><OBJ Code><OBJ ID></pre>
+   <pre>&lt;OBJ Code>&lt;OBJ ID></pre>

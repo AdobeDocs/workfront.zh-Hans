@@ -94,4 +94,4 @@ ht-degree: 0%
 1. （可选）单击&#x200B;**[!UICONTROL 在[!DNL Workfront]]**&#x200B;中查看以转到[!DNL Workfront]中的当前工作项。
 
 * 有关在[!UICONTROL 中使用]更新[!DNL Workfront for Google Workspace]选项卡的信息，请参阅[从 [!DNL Adobe Workfront] 更新 [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)对象。
-* 有关在[!UICONTROL 中使用]文档[!DNL Workfront for Google Workspace]选项卡的信息，请参阅[从[！DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)查看和管理文档。
+* 有关在[!UICONTROL 中使用]文档[!DNL Workfront for Google Workspace]选项卡的信息，请参阅[从[!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)查看和管理文档。

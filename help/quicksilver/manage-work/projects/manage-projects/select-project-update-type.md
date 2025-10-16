@@ -64,7 +64,7 @@ ht-degree: 0%
 1. 转到要指定其更新类型的项目。
 1. 单击项目名称旁边的更多菜单![更多图标](assets/more-icon.png)，然后单击&#x200B;**编辑** 。
 
-1. 单击&#x200B;**项目****设置**。
+1. 单击&#x200B;**项目**&#x200B;**设置**。
 
    ![](assets/update-type-field-on-project-edit-box-nwe-350x378.png)
 

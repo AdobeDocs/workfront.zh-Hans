@@ -35,8 +35,8 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[！UICONTROL标准版]</p>
-   <p>[！UICONTROL计划]</p>
+   <td><p>[!UICONTROL 标准版]</p>
+   <p>[!UICONTROL 计划]</p>
    </td> 
   </tr>  
   <tr> 

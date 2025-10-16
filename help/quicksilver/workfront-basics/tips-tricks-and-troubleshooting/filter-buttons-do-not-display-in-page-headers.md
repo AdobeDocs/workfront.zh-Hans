@@ -57,19 +57,19 @@ ht-degree: 3%
    <td><strong>筛选器按钮</strong></td> 
   </tr> 
   <tr> 
-   <td> <p>[！UICONTROL项目] </p> </td> 
+   <td> <p>[!UICONTROL 项目] </p> </td> 
    <td> 
     <ul> 
-     <li> <p>[！UICONTROL我参与的项目]</p> </li> 
-     <li> <p>[！UICONTROL我拥有的项目]</p> </li> 
+     <li> <p>[!UICONTROL 我参与的项目]</p> </li> 
+     <li> <p>[!UICONTROL 我拥有的项目]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><span>[！UICONTROL时间表]</span> </td> 
+   <td><span>[!UICONTROL 时间表]</span> </td> 
    <td> 
     <ul> 
-     <li> <p><span>[！UICONTROL我的工时表批准]</span> </p> </li> 
-     <li> <p><span>[！UICONTROL我的时间表]</span> </p> </li> 
+     <li> <p><span>[!UICONTROL 我的工时表批准]</span> </p> </li> 
+     <li> <p><span>[!UICONTROL 我的时间表]</span> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

@@ -215,10 +215,10 @@ ht-degree: 2%
    <td role="rowheader"> <p><strong>当一个用户被分派到一个任务时，使用……</strong>的计划 </p> </td> 
    <td> <p>如果项目未分配计划，或分配给其任务的用户未分配计划，则[!DNL Workfront]使用系统默认计划计算任务的时间表。</p>
 
-<p>如果您为项目中的任务分配了一个用户，并且项目和用户都有一个与之关联的计划，则[！UICONTROL Workfront]将使用以下计划：</p> 
+<p>如果您为项目中的任务分配了一个用户，并且项目和用户都有一个与之关联的计划，则[!UICONTROL Workfront]将使用以下计划：</p> 
     <ul> 
-     <li><strong>[！UICONTROL用户]</strong>：任务上已分配用户的计划以计算时间线。</li> 
-     <li><strong>[！UICONTROL项目]</strong>：用于计算任务时间线的项目计划。</li> 
+     <li><strong>[!UICONTROL 用户]</strong>：任务上已分配用户的计划以计算时间线。</li> 
+     <li><strong>[!UICONTROL 项目]</strong>：用于计算任务时间线的项目计划。</li> 
     </ul> <p>有关计划的详细信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">创建计划</a>。</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 

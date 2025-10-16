@@ -47,7 +47,7 @@ ht-degree: 0%
 
 [!DNL Workfront]和[!DNL Jira]中的所有用户都可从此集成中受益。 他们只需要许可证就可以使用他们最常使用的系统，而不需要许可证就可以同时使用两个系统。
 
-此加载项可用于[!UICONTROL 软件的]服务器[!UICONTROL 和]OnDemand[!UICONTROL  （或]云[!DNL Jira]）版本。 此加载项不可用于[!DNL Data Center]软件的[!DNL Jira]版本。
+此加载项可用于[!UICONTROL 软件的]服务器[!UICONTROL 和]OnDemand[!UICONTROL &#x200B; （或]云[!DNL Jira]）版本。 此加载项不可用于[!DNL Data Center]软件的[!DNL Jira]版本。
 
 有关[!DNL Jira]当前支持的[!DNL Workfront for Jira]版本的列表，请参阅Atlassian Marketplace上的[[!DNL [!DNL Workfront for Jira]]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview)。
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 要安装[!DNL Workfront for Jira]：
 
 1. 以[!DNL Jira]管理员身份登录[!DNL Jira]。
-1. 在&#x200B;**[!DNL Workfront for Jira]**[[!DNL Atlassian Marketplace]&#x200B;中找到](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview)加载项。
+1. 在&#x200B;**[!DNL Workfront for Jira]**&#x200B;[[!DNL Atlassian Marketplace]&#x200B;中找到](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview)加载项。
 
 1. 单击&#x200B;**[!UICONTROL 立即获取它]**&#x200B;以进行安装。
 
@@ -108,7 +108,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->这些要求不适用于[!UICONTROL 软件的]OnDemand[!UICONTROL  (]Cloud[!DNL Jira])版本。
+>这些要求不适用于[!UICONTROL 软件的]OnDemand[!UICONTROL &#x200B; (]Cloud[!DNL Jira])版本。
 
 尽管在两个[!DNL Workfront]环境中安装[!DNL Jira]加载项类似，但在使用[!DNL Jira Server]安装时必须考虑以下事项：
 

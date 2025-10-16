@@ -39,18 +39,18 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 许可证</p> </td> 
-   <td> <p>[！UICONTROL Light]或更高版本</p> 
-   <p>[！UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Light]或更高版本</p> 
+   <p>[!UICONTROL Review]或更高版本</p> </td> 
   </tr> 
     <tr> 
    <td>访问级别配置</td> 
-   <td> <p>对[!DNL Scenario Planner]和[！UICONTROL项目的[！UICONTROL Edit]访问权限</p></td> 
+   <td> <p>对[!DNL Scenario Planner]和&lbrack;！UICONTROL项目的[!UICONTROL Edit]访问权限</p></td> 
   </tr> 
   <tr> 
    <td> <p>对象权限 </p> </td> 
    <td> <ul> 
-     <li>计划的[！UICONTROL Manage]权限 </li> 
-     <li>已发布项目的[！UICONTROL Manage]权限</li> 
+     <li>计划的[!UICONTROL Manage]权限 </li> 
+     <li>已发布项目的[!UICONTROL Manage]权限</li> 
     </ul>  </td> 
   </tr> 
  </tbody> 
@@ -149,16 +149,16 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL All]</td> 
+      <td role="rowheader">[!UICONTROL All]</td> 
       <td>显示您拥有或与您共享的所有计划。 这是默认设置。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL我的计划]</td> 
+      <td role="rowheader">[!UICONTROL 我的计划]</td> 
       <td>显示您创建的计划。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL已与我共享]</td> 
-      <td> <p>显示您未创建但与您共享的计划。</p> <p>重要信息：您必须对与您共享的计划具有[！UICONTROL Manage]权限才能发布这些计划。 </p> </td> 
+      <td role="rowheader">[!UICONTROL 已与我共享]</td> 
+      <td> <p>显示您未创建但与您共享的计划。</p> <p>重要信息：您必须对与您共享的计划具有[!UICONTROL Manage]权限才能发布这些计划。 </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -200,15 +200,15 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL All]</td> 
+      <td role="rowheader">[!UICONTROL All]</td> 
       <td>显示选定方案的所有计划。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL已发布]</td> 
+      <td role="rowheader">[!UICONTROL 已发布]</td> 
       <td>显示您或其他用户之前发布的计划。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL已取消发布]</td> 
+      <td role="rowheader">[!UICONTROL 已取消发布]</td> 
       <td> <p>显示未发布的计划。 </p> </td> 
      </tr> 
     </tbody> 
@@ -249,23 +249,23 @@ ht-degree: 0%
       <col> 
       <tbody> 
        <tr> 
-        <td role="rowheader"><span>[！UICONTROL计划持续时间]</span> </td> 
+        <td role="rowheader"><span>[!UICONTROL 计划持续时间]</span> </td> 
         <td><span>项目链接到计划时，相应计划的持续时间。 此字段不可编辑。</span> </td> 
        </tr> 
        <tr> 
-        <td role="rowheader"><span>[！UICONTROL上次发布日期]</span> </td> 
+        <td role="rowheader"><span>[!UICONTROL 上次发布日期]</span> </td> 
         <td><span>上次从相应的计划发布项目的日期。</span> </td> 
        </tr> 
        <tr> 
-        <td role="rowheader"><span>[！UICONTROL计划开始日期]</span> </td> 
+        <td role="rowheader"><span>[!UICONTROL 计划开始日期]</span> </td> 
         <td><span>项目链接到计划时，计划开始月份的第一天。</span> </td> 
        </tr> 
        <tr> 
-        <td role="rowheader"><span>[！UICONTROL计划结束日期]</span> </td> 
+        <td role="rowheader"><span>[!UICONTROL 计划结束日期]</span> </td> 
         <td><span>当项目链接到计划时，计划结束月份的最后一天。</span> </td> 
        </tr> 
        <tr> 
-        <td role="rowheader"><span>[！UICONTROL FTE和小时数中的计划工作角色]</span> </td> 
+        <td role="rowheader"><span>[!UICONTROL FTE和小时数中的计划工作角色]</span> </td> 
         <td> <p>有关相关工作角色及其为计划分配的时间的信息。 这包括：</p> 
          <ul> 
           <li>工作角色名称</li> 

@@ -104,7 +104,7 @@ ht-degree: 0%
 
    * 单击项目的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**将角色的计划小时数设置为预算**。\
      使用以下公式计算每个角色的预算小时数：\
-     *
+     &#x200B;*
 
      `Role Budgeted Hours = Role Planned Hours`
 
@@ -153,7 +153,7 @@ ht-degree: 0%
 
 有关预算资源所需的访问权限的信息，请参阅文章[在Adobe Workfront中预算资源所需的访问权限](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md)。
 
-要在****角色视图的资源规划者中分配预算，请执行以下操作：
+要在&#x200B;**&#x200B;**&#x200B;角色视图的资源规划者中分配预算，请执行以下操作：
 
 1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)。
 
@@ -174,8 +174,8 @@ ht-degree: 0%
    * 在&#x200B;**BDG**&#x200B;列中，手动指定工作角色的预算小时数、FTE或成本。\
      这会将角色预算小时数分配给您有权管理的项目的项目预算小时数。
 
-   * 单击工作角色的&#x200B;**更多**&#x200B;菜单，然后单击**将项目的计划小时数设置为已预算。**角色预算小时数使用以下公式计算：\
-     *
+   * 单击工作角色的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**将项目的计划小时数设置为已预算。**&#x200B;角色预算小时数使用以下公式计算：\
+     &#x200B;*
 
      `Role Budgeted Hours = SUM(Project Budgeted Hours)`
 

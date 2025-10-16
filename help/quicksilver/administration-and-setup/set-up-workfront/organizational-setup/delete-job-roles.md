@@ -37,8 +37,8 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[！UICONTROL标准版]</p>
-       <p>[！UICONTROL计划]</p></td>
+   <td><p>[!UICONTROL 标准版]</p>
+       <p>[!UICONTROL 计划]</p></td>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 

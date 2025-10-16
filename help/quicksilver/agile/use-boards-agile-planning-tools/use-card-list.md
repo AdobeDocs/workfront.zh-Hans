@@ -62,27 +62,27 @@ ht-degree: 0%
    <table style="table-layout:auto"> 
     <tbody> 
      <tr> 
-      <td><strong>[！UICONTROL名称]</strong></td> 
+      <td><strong>[!UICONTROL 名称]</strong></td> 
       <td>卡的名称。</td> 
      </tr> 
      <tr> 
-      <td><strong>[！UICONTROL描述]</strong></td> 
+      <td><strong>[!UICONTROL 描述]</strong></td> 
       <td>信息卡的描述。</td> 
      </tr>
      <tr> 
-      <td><strong>[！UICONTROL估计]</strong></td> 
+      <td><strong>[!UICONTROL 估计]</strong></td> 
       <td>预计完成信息卡的小时数。 这只是一个手动输入。</td> 
      </tr>
      <tr> 
-      <td><strong>[！UICONTROL状态]</strong></td> 
+      <td><strong>[!UICONTROL 状态]</strong></td> 
       <td>选择卡的状态。</td> 
      </tr>
      <tr> 
-      <td><strong>[！UICONTROL迭代]</strong></td> 
+      <td><strong>[!UICONTROL 迭代]</strong></td> 
       <td>选择要为其分配信息卡的迭代。</td> 
      </tr>
      <tr> 
-      <td><strong>[！UICONTROL被分派人]</strong></td> 
+      <td><strong>[!UICONTROL 被分派人]</strong></td> 
       <td><p>要分配卡，请在搜索字段中开始键入名称，然后在此卡显示在列表中时将其选定。 您可以同时添加个人和团队，也可以将多个人员或团队分配给信息卡。</p><p>被分派人必须是工作流中的成员，否则他们不会出现在选择列表中。</p></td> 
      </tr>
     </tbody> 
