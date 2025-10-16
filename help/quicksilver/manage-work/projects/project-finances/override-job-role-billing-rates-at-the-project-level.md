@@ -6,16 +6,16 @@ description: 作为项目经理，您可以指定特定项目上工作角色的�
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
+source-git-commit: 1992e1c07e5e530a2e627ef5d2059b2384b31000
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
 
 # 覆盖项目级别的工作角色记帐费率
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用，正在分阶段发布到生产环境。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 作为项目经理，您可以指定特定项目上工作角色的记帐费率。 此项目级别的记帐费率将覆盖此工作角色的系统级别的记帐费率。 Workfront使用工作角色的项目级别记帐费率来计算收入，而不是使用系统级别的记帐费率。
 
@@ -102,11 +102,11 @@ ht-degree: 0%
    * **开始日期**：这是默认费率的结束日期。
    * **结束日期**：新计费率覆盖结束的日期。
 
-   <span class="preview">预览环境中的示例图像：</span>
+   <!--<span class="preview">Sample image in the Preview environment:</span>-->
    ![覆盖日期的记帐费率](assets/billing-rates-093025.png)
 
-   生产环境中的示例图像：
-   ![覆盖日期的记帐费率](assets/new-billing-rate-with-adjustment-dates-350x266.png)
+   <!--Sample image in the Production environment:
+   ![Billing rates with override dates](assets/new-billing-rate-with-adjustment-dates-350x266.png)-->
 
 1. 所选日期的时区将显示在“新建计费率”框的底部。 这是与您的Workfront实例关联的时区，如设置中的客户信息区域所示。 有关信息，请参阅[配置系统的基本信息](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md)。
 1. Workfront将覆盖工作角色费率应用于计算项目收入时指定的时间范围内发生的小时数。
