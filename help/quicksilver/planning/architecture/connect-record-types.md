@@ -201,7 +201,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      >[!TIP]
      >
-     >必须在&#x200B;**高级设置****或**&#x200B;编辑记录类型<span class="preview">框的&#x200B;**跨工作区设置**</span>&#x200B;选项卡中为记录类型启用&#x200B;**允许连接到其他工作区中的此记录类型**&#x200B;设置，才能从其他工作区访问记录类型。 如果没有配置为从其他工作区连接的记录类型，则不会显示工作区部分。
+     >必须在&#x200B;**高级设置**&#x200B;**或**&#x200B;编辑记录类型<span class="preview">框的&#x200B;**跨工作区设置**</span>&#x200B;选项卡中为记录类型启用&#x200B;**允许连接到其他工作区中的此记录类型**&#x200B;设置，才能从其他工作区访问记录类型。 如果没有配置为从其他工作区连接的记录类型，则不会显示工作区部分。
      >
      >有关信息，请参阅[为记录类型配置跨工作区功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。<!--update screen shot at production-->
      >
