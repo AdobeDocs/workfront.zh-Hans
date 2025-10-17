@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
+source-git-commit: 559044c44ca8d32d010188445403b4fc1e524002
 workflow-type: tm+mt
-source-wordcount: '6583'
+source-wordcount: '6642'
 ht-degree: 5%
 
 ---
@@ -129,7 +129,7 @@ ht-degree: 5%
 >[!NOTE]
 >
 >虽然可以这样做，但我们建议，在您或其他用户开始使用Workfront中的自定义表单后，不要更改此名称。 如果这样做，系统将不再能够识别Workfront其他区域中现在可能引用该字段的自定义字段。
->&#x200B;>例如，如果您将自定义字段添加到报表后更改其名称，Workfront将无法识别该字段在报表中的名称，并且除非您使用新名称将其重新添加到报表，否则该字段将在报表中停止正常工作。
+>>例如，如果您将自定义字段添加到报表后更改其名称，Workfront将无法识别该字段在报表中的名称，并且除非您使用新名称将其重新添加到报表，否则该字段将在报表中停止正常工作。
 >
 >我们建议您不要键入已用于内置Workfront字段的名称。
 >
@@ -628,12 +628,12 @@ ht-degree: 5%
       <td role="rowheader">JSON 路径</td>
       <td><p>键入或粘贴API的JSON路径。</p> <p>此选项允许从API URL返回的JSON中提取数据。 它提供了一种方法，用于选择在JSON内的哪些值将显示在下拉选项中。</p><p>例如，如果API URL按以下格式返回JSON，则可以使用“$.data[*].name”选择“美国”和“加拿大”作为下拉选项：</br>
       <pre>
-      &lbrace;
-       数据： &lbrace;
+      {
+       数据： {
          { name： "USA"}，
          { name： "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>有关JSON路径并确保编写正确JSON路径的更多信息，请参阅<a href="https://jsonpath.com/">https://jsonpath.com/</a>。</p></td>
@@ -1041,6 +1041,10 @@ The Workfront Mobile app -->
    * 从Workfront对象连接或断开记录。
 
    有关详细信息，请参阅[管理来自Workfront对象的记录连接](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
+
+### 添加UI扩展
+
+可以使用UI扩展字段类型将应用程序嵌入到Workfront自定义表单中。 要创建UI扩展，您必须有权访问Adobe Developer Console中的Adobe App Builder 。 有关信息，请参阅[使用Workfront App Builder为Workfront创建自定义应用程序](/help/quicksilver/app-builder/app-builder.md#embed-an-app-using-a-workfront-custom-form)一文中的[使用Adobe自定义表单嵌入应用程序](/help/quicksilver/app-builder/app-builder.md)。
 
 ## 使用表单设计器组织和预览表单
 
