@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '3130'
+source-wordcount: '3147'
 ht-degree: 0%
 
 ---
@@ -330,7 +330,12 @@ You can import records from other applications by linking them to existing recor
    **新记录**&#x200B;框打开。<!--might need a new screen shot for Production - might add a title etc-->
 
    ![时间轴上的新记录框（具有未命名的记录栏）](assets/new-record-small-box-on-timeline.png)
+
+   >[!NOTE]
+   >
+   >当记录栏显示在指定分组中时，无法在时间轴视图中创建记录。
 1. 更新以下信息：
+
 
    * **名称**：输入记录名称。 如果将其留空，Workfront会默认将其命名为&#x200B;**无标题**。
 
@@ -504,7 +509,7 @@ You can import records from other applications by linking them to existing recor
 1. （视情况而定）如果在尝试连接时找不到记录，请单击&#x200B;**+添加**
 
    或
-开始键入名称，然后单击&#x200B;**+添加**。 **+ Add**&#x200B;按钮后跟您连接到的记录类型的名称。 例如，将品牌添加到现有营销活动时，“添加品牌”。 您键入的名称还遵循“添加”按钮。
+开始键入名称，然后单击**+添加**。 **+ Add**&#x200B;按钮后跟您连接到的记录类型的名称。 例如，将品牌添加到现有营销活动时，“添加品牌”。 您键入的名称还遵循“添加”按钮。
 
    ![添加按钮以在突出显示的上下文中创建记录](assets/add-button-to-create-records-in-context-highlighted.png)
 

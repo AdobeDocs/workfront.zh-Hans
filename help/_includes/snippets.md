@@ -1,5 +1,5 @@
 ---
-source-git-commit: c879d06cfe7ba76df3e974c160a7349f1503f17f
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
 source-wordcount: '2607'
 ht-degree: 1%
@@ -291,7 +291,7 @@ ht-degree: 1%
 >
 >有关访问Workfront Planning的要求列表，请参阅[Adobe Workfront Planning访问概述](/help/quicksilver/planning/access/access-overview.md)。
 > 
->有关Workfront Planning的更多信息，请参阅[Adobe Workfront Planning概述](/help/quicksilver/planning/general/planning-overview.md)。
+>有关Workfront Planning的一般信息，请参阅[Adobe Workfront规划概述](/help/quicksilver/planning/general/planning-overview.md)。
 
 <!--Old - before Oct. 15, 2025:
 >[!IMPORTANT]

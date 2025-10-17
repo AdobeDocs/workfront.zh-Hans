@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: d950346c549d22c7a8db82ce032caa24202f9126
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '892'
 ht-degree: 0%
 
 ---
@@ -54,12 +54,12 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >根据记录小时数的时间，项目、任务或问题的实际小时数和旧版实际小时数之间可能存在差异。<br>
->&#x200B;>存在以下情况：
+>>存在以下情况：
 >
 >* 实际小时数表示自2021年5月以来为项目、任务和问题记录的小时数。
 >* 旧版实际小时数表示在项目、任务或问题的生命周期内为项目、任务和问题记录的小时数。 这包括2021年5月之前记录到当前时间的小时数。
->  &#x200B;><br>您可能需要更新报表以反映新字段及其值。
->  &#x200B;><br>Workfront使用旧版实际小时数计算实际劳力成本。
+>  ><br>您可能需要更新报表以反映新字段及其值。
+>  ><br>Workfront使用旧版实际小时数计算实际劳力成本。
 
 有关信息，请参阅[查看实际小时数](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md)。
 
@@ -71,6 +71,8 @@ ht-degree: 0%
 >* 预览：下一版API计划于2025年晚些时候发布
 >* 生产快速发布：带有下一版API，计划于2025年晚些时候发布
 >* 面向所有客户的生产：下一版API计划于2025年晚些时候推出
+>
+>有关API版本的信息，请参阅[API版本控制和支持计划](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
 
 此更新对项目、任务和问题的实际小时数在数据库中的存储方式进行了更改。 从此更新开始，实际小时数将使用`actualWorkRequiredDouble`的valuefield（值以小时为单位）。
 

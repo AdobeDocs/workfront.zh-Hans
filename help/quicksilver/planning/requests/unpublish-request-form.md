@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 4%
+source-wordcount: '680'
+ht-degree: 3%
 
 ---
 
@@ -45,13 +45,10 @@ ht-degree: 4%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront包</p></td> 
    <td> 
-<ul><li><p>任何Workfront包</p></li>
-与
-<li><p>任何规划包</p></li></ul>
+<p>任何Workfront包和任何Planning包</p>
 或
-<ul><li><p>任何工作流包</p></li>
-与
-<li><p>任何规划包</p></li></ul>
+<p>任何工作流包和任何计划包</p>
+<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。</p>
    </td> </tr>
 
 </tr> 

@@ -7,9 +7,9 @@ description: 您在Adobe Workfront中登录工作项的小时数被视为实际�
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 055228fd15d670a214039575dc076ab36f6e99eb
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1231'
 ht-degree: 0%
 
 ---
@@ -202,11 +202,13 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 * **实际小时数**： 2021年5月之后为项目、任务或问题记录的小时数。 它们以小时为单位存储在Workfront数据库中，其valuefield为`actualWorkRequiredDouble`。
 * **传统实际小时数**：随时为项目、任务或问题记录的小时数，包括2021年5月之前的小时数。 它们在Workfront数据库中以分钟为单位存储，其valuefield为`actualWorkRequired`。
 
-  >[!IMPORTANT]
-  >
-  >项目的实际成本使用旧版实际小时数进行计算。
+有关API版本的信息，请参阅[API版本控制和支持计划](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
 
-  有关在计算列或字段中使用实际小时数的信息，请参阅[报告常见问题解答](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)。
+>[!IMPORTANT]
+>
+>项目的实际成本使用旧版实际小时数进行计算。
+
+有关在计算列或字段中使用实际小时数的信息，请参阅[报告常见问题解答](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)。
 
 ## 记录时间
 
