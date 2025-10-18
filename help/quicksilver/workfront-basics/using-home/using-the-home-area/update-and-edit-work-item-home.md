@@ -3,10 +3,10 @@ product-area: projects
 navigation-topic: use-the-home-area
 title: 在主页区域更新或编辑工作项
 description: 您可以在Adobe Workfront的[!UICONTROL 主页]区域查看工作项并将更新添加到该区域。 如果您有权限编辑工作项，您还可以编辑与工作项相关的其他数据。
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 7%
@@ -44,7 +44,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置</strong></td> 
-   <td> <p>[!UICONTROL Edit]对任务和问题的访问权限</p> </td> 
+   <td> <p>[！UICONTROL Edit]对任务和问题的访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
@@ -148,7 +148,7 @@ You can view updates on any work item in the [!UICONTROL Work List]:
 1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![主菜单图标](assets/main-menu-icon.png)或左上角的&#x200B;**主菜单** ![主菜单行图标](assets/lines-main-menu.png)（如果可用），然后单击&#x200B;**[!UICONTROL 主页]**。
 1. （视情况而定）单击&#x200B;**自定义**&#x200B;以添加&#x200B;**我的工作**&#x200B;小组件。
 
-1. 将鼠标悬停在工作项上，然后单击&#x200B;**摘要**&#x200B;图标。
+1. 将鼠标悬停在工作项上，然后单击&#x200B;**摘要**图标。
    ![打开摘要](assets/open-summary-new-home.png)
 
 1. 在“摘要”面板中，将鼠标悬停在要编辑的字段上。

@@ -3,10 +3,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: 将临时事件添加到日历报表
 description: 您可以将临时事件添加到日历。 临时事件只是作为日历中的提醒，与项目、任务或问题无关。
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 4145119e-ef2c-4f0d-89e7-86669ca5b127
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 1%

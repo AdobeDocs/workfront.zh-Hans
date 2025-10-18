@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: 使用自定义状态作为组的默认状态
 description: 作为组管理员，您可以将自定义状态配置为您管理的组或子组的默认状态。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51018635-cd9a-402d-a136-c5bec4707cda
-source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 0%

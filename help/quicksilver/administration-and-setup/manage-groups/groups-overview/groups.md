@@ -5,11 +5,11 @@ content-type: reference;overview
 product-area: system-administration;user-management
 navigation-topic: groups-overview
 description: Workfront管理员可以创建与您的部门结构一致的用户组。 分组与类似，但与团队和公司不同。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1353ab04-7de7-4d30-a092-27807c950777
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '927'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Workfront管理员向组授予对需要工作和沟通的Workfront区域的访�
 
   有关将项目与组关联的说明，请参阅[管理项目概述区域中的信息](../../../manage-work/projects/manage-projects/understand-project-overview-area.md)。
 
-* **Portfolio、项目群或公司**：在创建或编辑项目组合、项目群或公司时，您可以为其分配单个组，以指示该组拥有或负责该组。 通过建立这种关联，管理员和用户可轻松识别其团队正在处理的项目组合、项目和公司。
+* **Portfolio、项目群或公司**：在创建或编辑项目组合、项目群或公司时，您可以为其分配单个组，以指示该组拥有它或对其负责。 通过建立这种关联，管理员和用户可轻松识别其团队正在处理的项目组合、项目和公司。
 
   例如，组管理员可以使用列表或报告列出组织中的所有项目组合，并在“组”列中注明哪些项目组合已分配给其组。
 
@@ -78,6 +78,6 @@ Workfront管理员向组授予对需要工作和沟通的Workfront区域的访�
 
 * **计划**：您可以授予组的管理员修改计划的权限。 有关详细信息，请参阅[创建计划](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
 * **团队**：您可以将组与团队关联，以便组及其子组的管理员可以查看组区域并与这些团队合作。 有关详细信息，请参阅[创建团队](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md)或[编辑团队设置](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md)。
-* **模板**：您可以将组分配给项目模板。 这可以帮助您简化项目创建过程，并帮助您更轻松地识别和报告哪些组拥有哪些项目模板。 有关详细信息，请参阅[编辑项目模板](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)一文中的[概述](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#overview)部分。
+* **模板**：您可以将组分配给项目模板。 这可以帮助您简化项目创建过程，并帮助您更轻松地识别和报告哪些组拥有哪些项目模板。 有关详细信息，请参阅[编辑项目模板](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#overview)一文中的[概述](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)部分。
 
 * **最近删除和还原的项目**：您可以查看和管理最近删除的组。 有关详细信息，请参阅[查看和管理组最近删除的项目](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-deleted-objects.md)和[查看和管理组最近恢复的项目](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md)。

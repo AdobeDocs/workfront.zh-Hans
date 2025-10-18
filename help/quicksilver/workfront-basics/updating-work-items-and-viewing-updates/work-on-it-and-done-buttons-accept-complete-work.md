@@ -4,11 +4,11 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: 处理此项工作并完成按钮概述
 description: 当您被分配到任务或问题时，您可以使用上下文按钮，该按钮会根据您参与工作项目的程度更改名称和功能。
-author: Lisa and Alina
+author: Becky and Alina
 feature: Get Started with Workfront
 role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 1%

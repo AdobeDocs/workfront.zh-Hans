@@ -3,10 +3,10 @@ content-type: reference
 navigation-topic: boards
 title: 将Agile团队Kanban卡迁移到Workfront展示板
 description: 您可以将工作项从Agile团队Kanban展示板迁移到新的或现有的Workfront展示板。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 72e3902b-af9a-497c-817f-63630c4fb73b
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%

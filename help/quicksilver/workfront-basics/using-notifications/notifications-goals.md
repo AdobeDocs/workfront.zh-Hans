@@ -3,10 +3,10 @@ content-type: reference
 navigation-topic: notifications
 title: 通知：目标
 description: 通知：目标
-author: Lisa
+author: Courtney, Alina
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 2%
@@ -45,7 +45,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>[!UICONTROL View]对[!DNL Goals]或更高版本的访问权限</p></td> 
+   <td> <p>[！UICONTROL View]对[!DNL Goals]或更高版本的访问权限</p></td> 
   </tr>
  </tbody> 
 </table>
@@ -81,15 +81,15 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td><strong>有人已将“结果”/“活动”分派给我</strong></td> 
-   <td> <p>将结果或活动分配给您的人员的姓名</p> <p>结果或活动的目标时段</p> <p>结果或活动的名称</p> <p>打开[!UICONTROL 目标详细信息]面板的<strong>[!UICONTROL 在Web应用程序中打开]</strong>按钮</p> <p>允许您管理通知的<strong>[!UICONTROL 更改通知设置]</strong>按钮。</p> </td> 
+   <td> <p>将结果或活动分配给您的人员的姓名</p> <p>结果或活动的目标时段</p> <p>结果或活动的名称</p> <p>打开[！UICONTROL目标详细信息]面板的<strong>[！UICONTROL在Web应用程序中打开]</strong>按钮</p> <p>允许您管理通知的<strong>[！UICONTROL更改通知设置]</strong>按钮。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>有人为我创建了新的个人目标</strong> </td> 
-   <td> <p>分配目标的人员的姓名</p> <p>目标的周期</p> <p>目标的名称</p> <p>打开[!UICONTROL 目标详细信息]面板的<strong>[!UICONTROL 在Web应用程序中打开]</strong>按钮</p> <p>允许您管理通知的<strong>[!UICONTROL 更改通知设置]</strong>按钮。</p> </td> 
+   <td> <p>分配目标的人员的姓名</p> <p>目标的周期</p> <p>目标的名称</p> <p>打开[！UICONTROL目标详细信息]面板的<strong>[！UICONTROL在Web应用程序中打开]</strong>按钮</p> <p>允许您管理通知的<strong>[！UICONTROL更改通知设置]</strong>按钮。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>有人在我的“目标”中留言了</strong></td> 
-   <td> <p>留下评论的人员的姓名</p> <p>目标的周期 </p> <p>目标的名称</p> <p>评论的文本</p> <p>打开[!UICONTROL 目标详细信息]面板的<strong>[!UICONTROL 在Web应用程序中打开]</strong>按钮</p> <p>允许您管理通知的<strong>[!UICONTROL 更改通知设置]</strong>按钮。</p> </td> 
+   <td> <p>留下评论的人员的姓名</p> <p>目标的周期 </p> <p>目标的名称</p> <p>评论的文本</p> <p>打开[！UICONTROL目标详细信息]面板的<strong>[！UICONTROL在Web应用程序中打开]</strong>按钮</p> <p>允许您管理通知的<strong>[！UICONTROL更改通知设置]</strong>按钮。</p> </td> 
   </tr> 
   <tr> 
   </tbody> 

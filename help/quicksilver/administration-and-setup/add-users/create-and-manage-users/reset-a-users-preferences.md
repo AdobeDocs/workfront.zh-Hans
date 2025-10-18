@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: 作为Adobe Workfront管理员，您可以重置或删除Workfront系统中任何用户的用户首选项设置。 个人用户也可以重置自己的用户首选项设置。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: b0b9b80b4eb718e3e131ee0cd022f54cb906f187
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 3%

@@ -5,11 +5,11 @@ keywords: 组，首选项，任务，组，问题，解锁
 navigation-topic: create-and-manage-groups
 title: 为组配置时间表和小时首选项
 description: 在系统级别，Adobe Workfront管理员可以使用解锁时间表和小时首选项部分“常规首选项”和“预填充时间表”。 这允许组管理员为自己的组独立配置这些部分中的选项。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1336'
 ht-degree: 1%

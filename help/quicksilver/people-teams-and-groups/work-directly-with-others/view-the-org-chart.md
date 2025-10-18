@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: collaboration
 title: 查看组织结构图
 description: 组织图功能允许您查看与特定Adobe Workfront用户关联的组织图。 组织图是可视化特定部门结构的好方法。
-author: Lisa
+author: Becky
 feature: People Teams and Groups
 exl-id: 10c1fc55-8df4-4c2a-9251-ee6db9ee6c0d
-source-git-commit: 722295463c1338a70ff42c26acf69b09cf33f725
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%

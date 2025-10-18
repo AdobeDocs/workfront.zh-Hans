@@ -5,11 +5,11 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Blueprint概述
 description: Blueprint是一组Workfront对象，用于处理Workfront中的常见用例。 您可以下载并安装Blueprint，然后根据特定用例配置对象。
-author: Becky
+author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c487598-2066-4507-8dfe-1a54d38f5eea
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Blueprint类型显示Blueprint中包含的内容。 类型列在目录的Bluepri
 
 若要查看当前Blueprint，请参阅[可用Blueprint的列表](/help/quicksilver/administration-and-setup/blueprints/list-of-available-blueprints.md)。
 
-### 查看详细信息
+### 查看详情
 
 每个Blueprint都包含一个“详细信息”页面。 在此页中，您可以：
 
@@ -94,6 +94,6 @@ Workfront管理员可以直接在任何环境（生产、预览或沙盒环境�
 
 Blueprint不会替换[!DNL Adobe Workfront]中的项目模板功能。 Blueprint是一种让您能够更快地创建新模板的方法，以在[!DNL Workfront]中组织更多工作。
 
-无法复制或编辑Blueprint。 但是，一旦您从Blueprint安装了解决方案，就可以修改从Blueprint创建的项目模板、工作角色或团队，就像在[!DNL Workfront]界面中更新这些记录一样。 此外，安装Blueprint时，模板存储在[!DNL Workfront]的[!UICONTROL 模板]区域中，而原始Blueprint保留在[!UICONTROL Blueprint]区域中。 在开始根据需要定制模板之前，您不需要制作模板的副本。
+无法复制或编辑Blueprint。 但是，一旦您从Blueprint安装了解决方案，就可以修改从Blueprint创建的项目模板、工作角色或团队，就像在[!DNL Workfront]界面中更新这些记录一样。 此外，安装Blueprint时，模板存储在[!UICONTROL 的]模板[!DNL Workfront]区域中，而原始Blueprint保留在[!UICONTROL Blueprint]区域中。 在开始根据需要定制模板之前，您不需要制作模板的副本。
 
 Blueprint不会移除或替换环境中配置的任何内容。 如果您打算通过安装可创建新模板的Blueprint来替换现有模板，我们建议您停用以前的版本，以避免从模板构建项目的规划人员混淆。

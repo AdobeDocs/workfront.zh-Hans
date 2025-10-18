@@ -5,11 +5,11 @@ keywords: 管理，子组，编辑
 navigation-topic: create-and-manage-subgroups
 title: 管理子组
 description: 作为子组的组管理员，您可以创建、移动、查看、编辑、复制、重命名、导出和删除子组。 您还可以通过从子组的父组中将其删除来将该子组设置为顶级组。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1386'
 ht-degree: 0%
@@ -180,7 +180,7 @@ ht-degree: 0%
 >[!TIP]
 >
 >当您取消激活下面具有子组的组时，这些子组也会变为非活动状态。 如果您希望其中一个处于活动状态，可以使用这些说明将其从父组中移除，然后重新激活它。
->&#x200B;>有关停用和重新激活组的说明，请参阅[停用或重新激活组](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)。
+>>有关停用和重新激活组的说明，请参阅[停用或重新激活组](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)。
 
 {{step-1-to-setup}}
 

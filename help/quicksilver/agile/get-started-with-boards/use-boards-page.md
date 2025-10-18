@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 使用展示板功能板
 description: '[!UICONTROL 展示板]仪表板显示您有权访问展示板的列表，包括您已创建的展示板和您已添加到其中的展示板。'
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 0%

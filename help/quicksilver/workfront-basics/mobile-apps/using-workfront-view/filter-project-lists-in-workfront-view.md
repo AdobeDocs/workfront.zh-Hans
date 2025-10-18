@@ -5,9 +5,9 @@ navigation-topic: use-workfront-view
 title: 在 [!DNL Adobe Workfront] 视图中筛选项目列表
 feature: Get Started with Workfront
 description: 默认情况下， [!DNL Adobe Workfront] 视图显示[!UICONTROL 中的]所有项目 [!DNL Workfront]列表，因此您有权查看的所有项目都会列出，而不管其状态如何。
-author: Nolan
+author: Lisa
 exl-id: 78efce1a-f144-4e47-bd7e-c0347e016bea
-source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 1%

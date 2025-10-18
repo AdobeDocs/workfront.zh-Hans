@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: 从Scrum展示板添加故事和问题
 description: 您可以直接从Scrum展示板快速创建新故事或问题，或从展示板添加现有故事或问题。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: d4eec3c5-8cea-467f-b1b4-3f9fab57b10f
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->工作项[!UICONTROL 计划开始日期]和[!UICONTROL 计划完成日期]受[!UICONTROL 编辑团队]页面上的设置影响。 有关信息，请参阅[配置Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)一文中的[[!UICONTROL 配置]将工作项添加到迭代时，日期的应用方式](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)部分。
+>工作项[!UICONTROL 计划开始日期]和[!UICONTROL 计划完成日期]受[!UICONTROL 编辑团队]页面上的设置影响。 有关信息，请参阅[[!UICONTROL 配置Scrum]一文中的](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)配置[将工作项添加到迭代时，日期的应用方式](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)部分。
 
 ## 访问要求
 
@@ -35,13 +35,13 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>新文档： [!UICONTROL Standard]</p> 
+   <td> <p>新文档： [！UICONTROL Standard]</p> 
    或
-   <p>当前： [!UICONTROL Work]或更高版本</p> </td> 
+   <p>当前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">对象权限</td> 
-   <td>[!UICONTROL Manage]对任务或问题所在项目的访问权限 </td> 
+   <td>[！UICONTROL Manage]对任务或问题所在项目的访问权限 </td> 
   </tr>
  </tbody> 
 </table>
@@ -61,19 +61,19 @@ ht-degree: 0%
 
    <table style="table-layout:auto">
     <tr>
-        <td><strong>[!UICONTROL 名称]</strong></td>
+        <td><strong>[！UICONTROL名称]</strong></td>
         <td>（必需）故事或问题的名称。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 描述]</strong></td>
+        <td><strong>[！UICONTROL描述]</strong></td>
         <td>物料的描述。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 估计]</strong></td>
+        <td><strong>[！UICONTROL估计]</strong></td>
         <td>估计的项目小时数或点数。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 父项目]</strong></td>
+        <td><strong>[！UICONTROL父项目]</strong></td>
         <td>（必需）存储新文章或问题的项目。 开始键入项目的名称，然后在该项目显示在列表时将其选定。</td>
     </tr>
    </table>

@@ -5,11 +5,11 @@ product-area: system-administration;user-management;setup
 keywords: 组，首选项，任务，问题，解锁
 navigation-topic: create-and-manage-groups
 description: 如果贵组织中的组需要独立于系统级别配置任务或问题首选项的方式对其进行配置，Adobe Workfront管理员可以解锁首选项。 然后，作为组管理员，您可以为组配置首选项，这将影响与组关联的所有任务或问题。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '2166'
 ht-degree: 2%
@@ -81,7 +81,7 @@ ht-degree: 2%
 
 1. 单击要为其配置解锁任务和问题首选项的组的名称。
 1. 在显示的组页面上，在左侧面板中，单击&#x200B;**任务和问题偏好设置**。
-1. 在显示的页面上，继续执行以下步骤所列5个部分之一，配置“新任务默认值”、“问题”、“删除”、“实际日期”和“访问”区域的设置，然后单击“保存”**&#x200B;**。
+1. 在显示的页面上，继续执行以下步骤所列5个部分之一，配置“新任务默认值”、“问题”、“删除”、“实际日期”和“访问”区域的设置，然后单击“保存”****。
 
    如果您将鼠标悬停在锁定图标![锁定图标](assets/lock-toggle-button-dimmed.png)上需要配置的首选项，并显示工具提示以告知您已锁定，则可以要求Workfront管理员为组织中的所有组解锁该首选项。
 

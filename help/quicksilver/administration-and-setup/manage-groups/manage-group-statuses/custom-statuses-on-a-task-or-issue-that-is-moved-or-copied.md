@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: 移动或复制的任务或问题的自定义状态
 description: 将任务或问题移动或复制到其他项目时，任务或问题上的某些状态可能会更新以匹配目标项目组使用的状态。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4bd9b89d-9c66-4af7-97bf-f9518ad55d7c
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%

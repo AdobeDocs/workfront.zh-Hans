@@ -4,10 +4,10 @@ product-area: user-management;agile-and-teams
 navigation-topic: people-teams-and-groups
 title: 管理工作和团队请求
 description: 请求表示待处理任务或问题分配。 向个人提出工作请求，向团队提出团队请求。
-author: Lisa
+author: Jenny
 feature: People Teams and Groups, Work Management
 exl-id: ef96e520-0d5f-4180-a27a-1fbbffff8f2b
-source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%

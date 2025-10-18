@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: use-kanban-in-an-agile-team
 title: Kanban概述
 description: 请参阅本文，以更好地了解Kanban展示板的运行方式。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: d7daa6c1-dae2-4e5c-a765-6a6ebdfaa331
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 有关详细信息，请参阅[在[!UICONTROL Kanban]展示板](../../agile/use-kanban-in-an-agile-team/update-the-status-of-stories.md)上更新故事的状态。
 
-通过修改Agile视图，可以为项目自定义故事状态，如[在 [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md)中创建或编辑视图中的[[!UICONTROL 创建或自定义Agile视图]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view)部分所述。
+通过修改Agile视图，可以为项目自定义故事状态，如[[!UICONTROL 在]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view)中创建或编辑视图中的[创建或自定义Agile视图 [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md)部分所述。
 
 >[!NOTE]
 >

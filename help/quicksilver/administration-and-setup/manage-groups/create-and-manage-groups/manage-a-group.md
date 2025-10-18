@@ -5,11 +5,11 @@ keywords: 管理，组，编辑，
 navigation-topic: create-and-manage-groups
 title: 管理组
 description: 作为组管理员，您可以从“设置”的“组”区域管理组。 如果您管理的组之上有任何组，则其管理员也可以为您的组执行此操作。 Workfront管理员也是如此（适用于任何组）。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 86c120de-16b8-4ca8-a7a1-76ece70c0505
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1292'
 ht-degree: 0%

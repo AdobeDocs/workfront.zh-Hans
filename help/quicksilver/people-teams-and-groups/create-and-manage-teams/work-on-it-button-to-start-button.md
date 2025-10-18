@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: 将“处理此项工作”按钮替换为“开始”按钮
 description: Adobe Workfront的默认配置包括“处理此项工作”按钮，用于显示分配给您的项目的任务和问题。
-author: Lisa
+author: Jenny
 feature: People Teams and Groups
 exl-id: 9387c5ae-2835-4d8f-80ec-22fcd16c5b6e
-source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%

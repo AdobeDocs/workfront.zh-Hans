@@ -4,10 +4,10 @@ product-area: user-management
 navigation-topic: workfront-navigation
 title: 了解工作许可证用户的导航
 description: 主菜单会随着 [!DNL Adobe Workfront] 管理员分配的访问级别而更改。 默认情况下，您仅有权访问包含您的访问级别所允许的功能在内的区域。
-author: Lisa
+author: Lisa and Courtney
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 * **[!UICONTROL 日历]**：此处显示与您共享的日历。 有关信息，请参阅[日历：文章索引](../../../reports-and-dashboards/reports/calendars/calendars.md)。
 
-* **[!UICONTROL 团队]**：分配给您团队的任务和问题将显示在此区域中。 作为工作人员，您是唯一在默认情况下看到[!UICONTROL 团队]区域的[!DNL Workfront]用户。
+* **[!UICONTROL 团队]**：分配给您团队的任务和问题将显示在此区域中。 作为工作人员，您是唯一在默认情况下看到[!DNL Workfront]团队[!UICONTROL 区域的]用户。
 
   有关信息，请参阅[创建和管理团队](../../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)。
 

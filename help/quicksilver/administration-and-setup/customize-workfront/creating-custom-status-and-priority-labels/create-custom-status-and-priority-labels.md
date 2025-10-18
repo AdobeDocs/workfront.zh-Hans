@@ -1,16 +1,16 @@
 ---
-title: “创建自定义状态和优先级标签：文章索引”
+title: 创建自定义状态和优先级标签：文章索引
 user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
 description: 作为Adobe Workfront管理员，您可以为项目、任务和问题创建自定义状态。 这些权限适用于整个Workfront系统或特定组或子组的用户。 工作项的状态表示其当前开发状态。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 94248a76-6531-4196-964d-6fd51ed02f6a
-source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 3%

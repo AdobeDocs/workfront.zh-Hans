@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: iterations
 title: 查看迭代
 description: 您可以查看给定团队的所有小版本，也可以查看单个小版本。 迭代显示有关迭代中包含的故事、问题和文档的数据。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 1ee14c40-8047-4885-96f0-cddfc2617028
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%

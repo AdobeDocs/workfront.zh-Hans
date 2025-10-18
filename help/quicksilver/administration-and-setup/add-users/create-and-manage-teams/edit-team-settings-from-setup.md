@@ -1,11 +1,11 @@
 ---
 title: 从设置区域编辑团队设置
 description: 作为Adobe Workfront管理员，您可以从设置区域编辑团队设置。 您可以将用户添加到团队、设置团队的布局模板以及设置当团队完成工作项时如何记录状态。
-author: Lisa
+author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: 648a36ce-5793-472f-9fee-9dedf71991ef
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 3%
@@ -47,7 +47,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td>
+   <td>[！UICONTROL系统管理员]</td>
   </tr> 
  </tbody> 
 </table>

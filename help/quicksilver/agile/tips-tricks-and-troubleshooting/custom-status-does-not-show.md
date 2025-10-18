@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: tips-tricks-and-troubleshooting-agile
 title: 自定义状态未显示在敏捷故事板上
 description: 如果要在敏捷故事板上使用自定义状态，您的 [!DNL Adobe Workfront] 管理员必须首先将该自定义状态创建为系统范围状态。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: dcf71cd0-da56-48e7-85bf-393f5cec3ae3
-source-git-commit: 3a565a58dfa6008e00722eca4f7b1dbc2b47a08e
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 0%

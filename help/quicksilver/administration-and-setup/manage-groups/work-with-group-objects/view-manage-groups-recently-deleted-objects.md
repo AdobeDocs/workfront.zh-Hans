@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: 查看和管理组最近删除的项目
 description: 查看在“组”区域中管理的组时，您可以查看、筛选、还原和导出其最近删除的工作项、文档和模板。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: d5fbc71b-3b22-48d1-a056-f2c4b32c220c
-source-git-commit: 7eaff1c74cd880bde062e6fdf169c73d6eeb7f75
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 1%

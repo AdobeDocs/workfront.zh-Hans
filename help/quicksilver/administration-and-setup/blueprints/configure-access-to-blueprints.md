@@ -4,11 +4,11 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: 配置对Blueprint的访问权限
 description: 作为系统管理员，您可以通过设置请求队列来存储请求，从而为用户启用请求安装Blueprint的访问权限。 在那里，您只有一个位置可以跟踪和更新请求。
-author: Becky
+author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: d85f363f-2ab4-45cb-b851-a7f33e1ca905
-source-git-commit: 5fd855bec596926a4361fd07a1a763c7956e5e61
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%

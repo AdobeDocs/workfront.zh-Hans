@@ -4,11 +4,11 @@ product-area: user-management;agile-and-teams
 navigation-topic: teams-and-groups
 title: 团队和组：文章索引
 description: 查看这些区域以了解如何使用团队和组。
-author: Lisa
+author: Jenny and Becky
 feature: People Teams and Groups
 recommendations: noDisplay, noCatalog
 exl-id: 1ff36a4b-637a-46f2-ac1a-6a8d2c146862
-source-git-commit: 0c2a54406ceb690e638cdc0376a3dc01a7c2df76
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 0%

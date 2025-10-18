@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: 创建和管理组的时间表配置信息
 description: 当您查看在组区域管理的组时，可以查看和使用组或其子组的管理员具有管理访问权限的时间表配置文件。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5c895e77-bd88-435f-a903-37c2325eab45
-source-git-commit: 7eaff1c74cd880bde062e6fdf169c73d6eeb7f75
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 0%

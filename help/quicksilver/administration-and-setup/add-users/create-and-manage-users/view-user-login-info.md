@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: 通过指示您希望在用户列表视图或用户报表中包含此信息，您可以查看用户登录Workfront的频率以及上次登录的时间。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b37c34a-d628-4d9b-9688-e4b9f89c666b
-source-git-commit: f8d04790caefd12c9811ea3ed94e1f892311d031
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 0%

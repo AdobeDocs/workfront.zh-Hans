@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 删除或存档展示板
 description: 您可以在Workfront中删除或存档展示板。 删除展示板会将其从Workfront中永久删除，而归档展示板会保留所有信息卡，并允许在以后恢复。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 0%

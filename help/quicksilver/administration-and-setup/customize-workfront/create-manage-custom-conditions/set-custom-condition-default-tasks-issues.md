@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: 当用户单击处理它或向已分配他们的新任务添加更新注释（不手动设置任务的条件）时，Adobe Workfront显示任务的默认条件，在“设置”中配置。 同样的情况也适用于问题。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 40b426f4-0a9c-49a6-91c7-b5f8aa48bd37
-source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 1%

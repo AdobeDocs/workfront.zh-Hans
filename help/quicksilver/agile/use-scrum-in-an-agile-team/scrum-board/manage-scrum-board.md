@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: scrum-board
 title: 管理Scrum展示板上的故事和问题
 description: 您可以将故事或问题从Scrum展示板移动到另一个迭代或积压工作，或从Scrum展示板删除它。 删除文章或问题后，该文章或问题将被移动到回收站保留30天，只有系统管理员才能恢复。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 72990251-0264-4e68-83ef-1a9cde5b685c
-source-git-commit: 95208e0f396d8eab9a71ca156c616891a7f56f7a
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
@@ -33,13 +33,13 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>新文档： [!UICONTROL Standard]</p> 
+   <td> <p>新文档： [！UICONTROL Standard]</p> 
    或
-   <p>当前： [!UICONTROL Work]或更高版本</p> </td> 
+   <p>当前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">对象权限</td> 
-   <td>[!UICONTROL Manage]对任务或问题的访问权限 </td> 
+   <td>[！UICONTROL Manage]对任务或问题的访问权限 </td> 
   </tr>
  </tbody> 
 </table>
@@ -62,18 +62,18 @@ ht-degree: 0%
 
    <table style="table-layout:auto">
     <tr>
-        <td><strong>[!UICONTROL 其他迭代]</strong></td>
+        <td><strong>[！UICONTROL其他迭代]</strong></td>
         <td>选择以将项目移动到另一个迭代，然后选择文章或问题将移动到哪个迭代。 如果未定义未来的小版本，则无法移动项目。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 积压]</strong></td>
+        <td><strong>[！UICONTROL积压]</strong></td>
         <td>选择以将故事或问题移动到团队的积压。</td>
     </tr>
    </table>
 
    >[!NOTE]
    >
-   >工作项[!UICONTROL 计划开始日期]和[!UICONTROL 计划完成日期]受[!UICONTROL 编辑团队]页面上的设置影响。 有关信息，请参阅[配置Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)一文中的[[!UICONTROL 配置]将工作项添加到迭代时，日期的应用方式](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)部分。
+   >工作项[!UICONTROL 计划开始日期]和[!UICONTROL 计划完成日期]受[!UICONTROL 编辑团队]页面上的设置影响。 有关信息，请参阅[[!UICONTROL 配置Scrum]一文中的](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)配置[将工作项添加到迭代时，日期的应用方式](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)部分。
 
 1. 单击&#x200B;**[!UICONTROL 移动]**。
 

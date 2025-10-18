@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: 组级批准流程
 description: 当您查看在组区域管理的组时，您可以查看和处理组的管理员或其子组之一具有管理访问权限的审批流程。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: d43e7488-28e5-47d2-9401-e3d20e0d0256
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 0%

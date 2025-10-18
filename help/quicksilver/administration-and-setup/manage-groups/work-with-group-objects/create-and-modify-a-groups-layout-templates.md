@@ -5,11 +5,11 @@ keywords: 组，布局，模板
 navigation-topic: work-with-a-groups-objects
 title: 创建和修改组的布局模板
 description: 在组区域查看您管理的组时，您可以查看和使用布局模板，组或其子组的管理员对此布局模板具有管理访问权限。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 2be211a8-df84-49c3-827f-1215c77159e0
-source-git-commit: 1554c067afcc548c7f7abd03dbc3a49404e3c89c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%

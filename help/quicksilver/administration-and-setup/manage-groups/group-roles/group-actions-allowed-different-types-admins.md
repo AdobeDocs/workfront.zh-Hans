@@ -4,11 +4,11 @@ product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: 允许组管理员执行的操作
 description: 此表比较了Adobe Workfront管理员(管理Workfront系统)、组管理员（管理顶级组）和组管理员（管理子组）可以使用的管理活动。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: 416be55e172e2e2f0a1d8b593fdcb27d123e2fcb
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 3%
@@ -235,7 +235,7 @@ ht-degree: 3%
 * 工作流Prime和更高版本
 * Workfront Prime和更高版本
 
-有关包的详细信息，请参阅[Adobe Workfront定价和打包页面](https://business.adobe.com/cn/products/workfront/pricing.html)。
+有关包的详细信息，请参阅[Adobe Workfront定价和打包页面](https://business.adobe.com/products/workfront/pricing.html)。
 
 高级企业控制：
 

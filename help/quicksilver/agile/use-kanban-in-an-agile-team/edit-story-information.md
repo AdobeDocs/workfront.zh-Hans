@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: 编辑故事信息
 description: 在Kanban展示板上查看故事拼贴时，某些信息可用于直接从故事拼贴内联编辑。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: a22a7b61-b331-4c98-9421-e7fccedcd096
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 0%
@@ -47,7 +47,7 @@ ht-degree: 0%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>每个故事和问题的[!UICONTROL 完成百分比]。<br>[!UICONTROL 迭代的完成百分比]是根据每个故事的[!UICONTROL 完成百分比]计算的。<br></p> <p>更新故事或问题的[!UICONTROL 完成百分比]时，您可以选择介于0和100之间的任意数字。</p> </td> 
+   <td> <p>每个故事和问题的[！UICONTROL完成百分比]。<br>[！UICONTROL迭代的完成百分比]是根据每个故事的[！UICONTROL完成百分比]计算的。<br></p> <p>更新故事或问题的[！UICONTROL完成百分比]时，您可以选择介于0和100之间的任意数字。</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 

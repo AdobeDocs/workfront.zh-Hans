@@ -3,10 +3,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: 编辑现有日历报告
 description: 您可以通过添加或删除项目链接来修改现有日历。 您还可以修改与日历报告关联的日历分组。
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 1%

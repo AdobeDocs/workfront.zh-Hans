@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: burndown
 title: 使用备用燃尽图小组计划
 description: 在 [!DNL Adobe Workfront] 中定义的计划通过从燃尽中排除休息日（周末和假日）而影响燃尽图。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 72650c19-434d-463a-8924-49219604ff01
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%

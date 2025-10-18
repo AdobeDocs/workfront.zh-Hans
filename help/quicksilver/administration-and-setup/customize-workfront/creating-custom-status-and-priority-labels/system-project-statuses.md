@@ -5,11 +5,11 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: 系统项目状态概述
 description: Workfront具有9个内置的系统项目状态。 下表中的前3个是必需的，这意味着您可以解锁、重命名和重新排序它们，但无法隐藏或删除它们。 更改项目状态通常是手动过程。 但是，有时项目状态会根据系统中发生的其他活动自动更改。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6b8dd52b-1696-4e5d-bcbb-5b6d3b736df0
-source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1607'
 ht-degree: 0%

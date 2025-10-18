@@ -4,10 +4,10 @@ navigation-topic: notifications
 keywords: 修改，电子邮件，通知，设置
 title: 修改您自己的电子邮件通知
 description: 本文介绍了如何在用户配置文件中管理电子邮件通知。
-author: Lisa
+author: Courtney, Becky
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 0%

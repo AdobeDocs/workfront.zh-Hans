@@ -5,12 +5,12 @@ content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
 description: 条件以可视化形式表示项目、任务或问题的进展情况。 作为Adobe Workfront管理员，您可以将Workfront创建的条件用于项目、任务和问题，也可以创建自定义条件以更密切地匹配组织的需求。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: bbe6f0a0-18bf-4229-a50a-aa7286b82626
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 1%

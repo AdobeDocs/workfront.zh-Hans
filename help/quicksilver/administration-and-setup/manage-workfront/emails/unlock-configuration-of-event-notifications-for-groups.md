@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: 解锁或锁定所有组的事件通知配置
 description: 如果您是Adobe Workfront管理员，则可以解锁或重新锁定组管理员为其管理的顶级组配置事件通知的功能。 事件通知的配置包括激活或停用该通知。
-author: Lisa, Nolan
+author: Courtney, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 056d76c1-7e9b-49b9-974a-75765e53b7fd
-source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%

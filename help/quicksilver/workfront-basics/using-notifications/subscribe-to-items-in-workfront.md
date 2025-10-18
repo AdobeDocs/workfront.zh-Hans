@@ -2,10 +2,10 @@
 navigation-topic: notifications
 title: 订阅Adobe Workfront中的项目
 description: Adobe Workfront会发送有关您分配到的项目或您拥有的项目的通知。 如果要关注未分配给您但可能影响工作的项目的通信，则可以订阅这些项目。
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 5eee62b8-d72e-4263-a0c5-749047bc6812
-source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 0%
@@ -43,7 +43,7 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL Adobe Workfront]包</strong></td> 
+   <td role="rowheader"><strong>[！UICONTROL Adobe Workfront]包</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -54,11 +54,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置</strong></td> 
-   <td> <p>如果[!DNL Workfront]管理员已启用<strong>[!UICONTROL 仅查看访问级别中已包含在对话]</strong>中的更新，则无法订阅[!DNL Workfront]中的项目。</p> </td> 
+   <td> <p>如果[!DNL Workfront]管理员已启用<strong>[！UICONTROL仅查看访问级别中已包含在对话]</strong>中的更新，则无法订阅[!DNL Workfront]中的项目。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>[!UICONTROL 视图]对项目、任务或问题（要订阅的）的访问权限或更高版本</p> <p>[!UICONTROL Manage]对项目、任务或问题的[!UICONTROL Share]访问权限和权限（订阅其他项目、任务或问题）</p> </td> 
+   <td> <p>[！UICONTROL视图]对项目、任务或问题（要订阅的）的访问权限或更高版本</p> <p>[！UICONTROL Manage]对项目、任务或问题的[！UICONTROL Share]访问权限和权限（订阅其他项目、任务或问题）</p> </td> 
   </tr> 
  </tbody> 
 </table>

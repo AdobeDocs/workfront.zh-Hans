@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: 将引入列添加到展示板
 description: 您可以选择向展示板添加引入列，以根据您定义的过滤器在Workfront中添加任务和问题时，自动将任务和问题提取为已连接的卡片。
-author: Courtney
+author: Jenny
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 3%

@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: 移动或删除的组中的自定义状态
 description: 本文介绍了在移动或删除组时组自定义状态所发生的情况。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 83885d86-eb00-46cc-93e9-e3364b6125e8
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%
@@ -80,6 +80,6 @@ ht-degree: 0%
 >* 组B版本状态的名称将覆盖组A版本的名称。
 >* 如果在删除某个组A中的某个人将该状态应用于该组，则该对象的状态名称将更新为组B使用的状态名称。
 >
->有关状态键的信息，请参阅本文中[创建或编辑自定义状态](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md#create) [创建或编辑组的状态](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md#create)下的表。
+>有关状态键的信息，请参阅本文中[创建或编辑自定义状态](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md#create)[创建或编辑组的状态](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md#create)下的表。
 >
 >有关删除组的信息，请参阅[删除组](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)。

@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: 创建和修改组的团队
 description: 查看在组区域管理的组时，可以查看与组及其任何子组关联的团队并使用该团队。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51967cd7-962e-4354-a04b-6df4e31e70c6
-source-git-commit: 1554c067afcc548c7f7abd03dbc3a49404e3c89c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 4%
@@ -103,7 +103,7 @@ ht-degree: 4%
       </tbody> 
      </table>
 
-   * **编辑团队**：至少选择一个团队，单击&#x200B;**&#x200B;**“编辑”图标![“编辑”图标](assets/edit-icon.png)，然后使用以下选项对其进行配置：
+   * **编辑团队**：至少选择一个团队，单击&#x200B;****“编辑”图标![“编辑”图标](assets/edit-icon.png)，然后使用以下选项对其进行配置：
 
      <table style="table-layout:auto"> 
       <col> 

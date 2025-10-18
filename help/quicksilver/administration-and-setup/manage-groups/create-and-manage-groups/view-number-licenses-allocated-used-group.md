@@ -1,11 +1,11 @@
 ---
 title: 查看组中已分配和使用许可证的数量
 description: 作为Adobe Workfront管理员，您可以查看您的组及其子组中当前使用的各个许可证类型的计数。 当您需要评估是否重新分发许可证时，此功能非常有用。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8d1870ea-3f9e-4358-8e14-3dcfc3805637
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%

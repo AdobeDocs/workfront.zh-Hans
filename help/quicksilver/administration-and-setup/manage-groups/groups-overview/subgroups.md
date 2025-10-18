@@ -5,11 +5,11 @@ product-area: system-administration;user-management
 navigation-topic: groups-overview
 title: 子组概述
 description: 您最多可以在一个组下创建14级子组。 在任意这些级别上，可以创建不限数量的并行子组。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a4280498-6719-4911-a69a-b715a5438eed
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 0%
@@ -54,7 +54,7 @@ ht-degree: 0%
 Group Admins of a subgroup can't manage statuses or project preferences of the subgroup YET (Sprint 22/Oct 28, 2020)</p>
 -->
 
-在创建或编辑子组时，您可以将子组成员指定为子组的组管理员。 有关说明，请参阅[创建组](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)一文中的[&#128279;](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create)。
+在创建或编辑子组时，您可以将子组成员指定为子组的组管理员。 有关说明，请参阅[](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create)创建组[一文中的](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)。
 
 或者，也可以将子组的管理权留给分配给其上方的组的组管理员。 创建子组时，其上组的组管理员具有管理该子组的自动访问权限。
 

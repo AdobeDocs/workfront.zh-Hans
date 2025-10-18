@@ -4,10 +4,10 @@ content-type: reference
 navigation-topic: boards
 title: ' [!DNL Workfront] 讨论区的早期功能选择启用'
 description: 阅读本文以了解有关 [!DNL Workfront Boards] 早期功能选择加入的信息。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
    <th><strong>状态</strong></th> 
   </tr>
   <tr>
-   <td>[!UICONTROL 主菜单]中的[!UICONTROL 展示板]区域</td>
+   <td>[！UICONTROL主菜单]中的[！UICONTROL展示板]区域</td>
    <td>已发布</td>
   </tr>
     <tr>
@@ -61,7 +61,7 @@ ht-degree: 0%
    <td>已发布</td>
   </tr>
   <tr>
-   <td>将[!UICONTROL 正在工作]限制添加到列</td>
+   <td>将[！UICONTROL正在工作]限制添加到列</td>
    <td>已发布</td>
   </tr>
   <tr>
@@ -218,7 +218,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->这不会阻止用户使用URL访问展示板。 它只会阻止他们在[!UICONTROL 主菜单]中看到[!DNL Boards]选项。
+>这不会阻止用户使用URL访问展示板。 它只会阻止他们在[!DNL Boards]主菜单[!UICONTROL 中看到]选项。
 
 ### 我加入后是否可以退出早期功能？
 

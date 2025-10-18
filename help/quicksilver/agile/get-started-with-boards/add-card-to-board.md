@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 向展示板添加临时信息卡
 description: 您可以快速将临时信息卡添加到展示板并将其分配给展示板上的成员。 信息卡可以表示任务、问题、人员、组或要包含在展示板中的任何类型的项目。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 0%
@@ -69,49 +69,49 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 名称]</strong> </td> 
+      <td role="rowheader"><strong>[！UICONTROL名称]</strong> </td> 
       <td>卡的名称。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 描述]</strong> </td> 
+      <td role="rowheader"><strong>[！UICONTROL描述]</strong> </td> 
       <td>信息卡的描述。 您可以在描述中添加URL，保存信息卡后，这些URL将成为可单击的链接。</td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 列]</strong> </td> 
-      <td>选择卡片的列。 如果将<strong>[!UICONTROL 列]</strong>字段留空，则该卡片会放置在展示板左侧的第一列中。</td>
+      <td role="rowheader"><strong>[！UICONTROL列]</strong> </td> 
+      <td>选择卡片的列。 如果将<strong>[！UICONTROL列]</strong>字段留空，则该卡片会放置在展示板左侧的第一列中。</td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 状态]</strong> </td> 
-      <td>选择卡的状态。 如果单击信息卡顶部的<strong>[!UICONTROL 标记完成]</strong>，则状态会自动更改为[!UICONTROL 完成]。</td> 
+      <td role="rowheader"><strong>[！UICONTROL状态]</strong> </td> 
+      <td>选择卡的状态。 如果单击信息卡顶部的<strong>[！UICONTROL标记完成]</strong>，则状态会自动更改为[！UICONTROL完成]。</td> 
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 到期日期]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL到期日期]</strong></td> 
       <td>选择卡的到期日期。 </td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 估计]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL估计]</strong></td> 
       <td>键入要完成的卡的估计小时数。 这只是一个手动输入。</td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 分配]</strong> </td> 
-      <td>要分配卡片，请单击<strong>[!UICONTROL 添加分配]</strong>，然后在搜索字段中开始键入名称。 然后，当它显示在结果列表中时将其选中。 您可以同时添加个人和团队，也可以将多个人员或团队分配给信息卡。</td>
+      <td role="rowheader"><strong>[！UICONTROL分配]</strong> </td> 
+      <td>要分配卡片，请单击<strong>[！UICONTROL添加分配]</strong>，然后在搜索字段中开始键入名称。 然后，当它显示在结果列表中时将其选中。 您可以同时添加个人和团队，也可以将多个人员或团队分配给信息卡。</td>
      </tr>     
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 标记]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL标记]</strong></td> 
       <td>搜索并选择卡片的标记。 有关创建新标记的信息，请参阅<a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">添加标记</a>。</td> 
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 连接]</strong> </td>
+      <td role="rowheader"><strong>[！UICONTROL连接]</strong> </td>
       <td>您可以将临时信息卡连接到[!DNL Workfront]任务或问题。 有关详细信息，请参阅文章<a href="/help/quicksilver/agile/get-started-with-boards/connected-cards.md">在展示板上使用连接的信息卡</a>中的“将临时信息卡转换为连接的信息卡”。</td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 清单]</strong> </td> 
-      <td> <p>单击<strong>[!UICONTROL 添加清单项目]</strong>。 然后，键入项目的标题并按Enter。 系统会自动添加另一个项目。 继续输入标题以添加更多项目。</p> <p>清单顶部的计数器显示已完成项目的数量和项目总数。</p> <p>有关清单项目的详细信息，请参阅<a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">管理卡片上的清单项目</a>。</p> </td> 
+      <td role="rowheader"><strong>[！UICONTROL清单]</strong> </td> 
+      <td> <p>单击<strong>[！UICONTROL添加清单项目]</strong>。 然后，键入项目的标题并按Enter。 系统会自动添加另一个项目。 继续输入标题以添加更多项目。</p> <p>清单顶部的计数器显示已完成项目的数量和项目总数。</p> <p>有关清单项目的详细信息，请参阅<a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">管理卡片上的清单项目</a>。</p> </td> 
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
-      <td><p>单击<strong>[!UICONTROL 新建评论]</strong>字段并键入您的评论。 使用格式设置工具设置文本的格式。 （图像在临时信息卡上的评论中不可用。） 要标记人员或团队，请使用评论区域底部的搜索框。 用户不必是讨论区的成员。</p><p><strong>注意：</strong>目前，在临时信息卡上标记为评论的用户不接收电子邮件通知。
-      </p><p>单击<strong>[!UICONTROL Submit]</strong>以将评论添加到卡片。</p>
+      <td role="rowheader"><strong>[！UICONTROL Comments]</strong></td>
+      <td><p>单击<strong>[！UICONTROL新建评论]</strong>字段并键入您的评论。 使用格式设置工具设置文本的格式。 （图像在临时信息卡上的评论中不可用。） 要标记人员或团队，请使用评论区域底部的搜索框。 用户不必是讨论区的成员。</p><p><strong>注意：</strong>目前，在临时信息卡上标记为评论的用户不接收电子邮件通知。
+      </p><p>单击<strong>[！UICONTROL Submit]</strong>以将评论添加到卡片。</p>
       <p>有关评论的更多信息，请参阅<a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">更新工作</a>。</p></td>
      </tr>
     </tbody> 

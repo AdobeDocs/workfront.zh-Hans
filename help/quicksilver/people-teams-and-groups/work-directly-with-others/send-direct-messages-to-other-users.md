@@ -4,10 +4,10 @@ product-area: user-management
 navigation-topic: people-teams-and-groups
 title: 向其他用户发送私信
 description: 通过Adobe Workfront，您可以快速轻松地将与任何工作项目无关的消息直接发送给其他Workfront用户。
-author: Lisa
+author: Becky
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 0%
@@ -74,7 +74,7 @@ ht-degree: 0%
    >仅当Workfront配置文件与某个公司关联时，[!UICONTROL **私有到我的公司**]&#x200B;设置才可用。
 
 1. 单击&#x200B;**[!UICONTROL 更新]。**
-该消息发布在用户个人资料页上的&#x200B;**[!UICONTROL 更新]**&#x200B;选项卡上的消息列表的顶部。
+该消息发布在用户个人资料页上的**[!UICONTROL 更新]**&#x200B;选项卡上的消息列表的顶部。
 
 ## 从“用户”列表中向一个或多个用户发送消息
 
@@ -94,4 +94,4 @@ ht-degree: 0%
    >
    >仅当Workfront配置文件与某个公司关联时，[!UICONTROL **私有到我的公司**]&#x200B;设置才可用。
 1. 单击&#x200B;[!UICONTROL **发送**]。
-该邮件发布在每个已标记用户个人资料页面上的&#x200B;**[!UICONTROL 更新]**&#x200B;选项卡上的邮件列表的顶部。
+该邮件发布在每个已标记用户个人资料页面上的**[!UICONTROL 更新]**&#x200B;选项卡上的邮件列表的顶部。

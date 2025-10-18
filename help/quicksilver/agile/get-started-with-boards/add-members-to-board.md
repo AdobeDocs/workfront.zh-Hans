@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 在讨论区中添加或删除成员
 description: 用户必须先作为成员添加到展示板，然后才能查看展示板并分配到信息卡。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 0%

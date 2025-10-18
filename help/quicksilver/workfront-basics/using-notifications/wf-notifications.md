@@ -3,10 +3,10 @@ content-type: overview;reference
 navigation-topic: notifications
 title: 通知概述
 description: Adobe Workfront会在您的移动设备上发送电子邮件通知、应用程序内通知和通知。
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '1395'
 ht-degree: 1%
@@ -49,7 +49,7 @@ ht-degree: 1%
 
 默认状态显示创建新用户时默认为新用户启用哪些通知（每天、即时或同时启用两者）。
 
-有关事件通知的完整列表，以及有关如何在系统级别、组级别或用户级别启用和配置这些通知的信息，请参阅 [!DNL Adobe Workfront][&#128279;](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)中提供的事件通知。
+有关事件通知的完整列表，以及有关如何在系统级别、组级别或用户级别启用和配置这些通知的信息，请参阅[中提供的 [!DNL Adobe Workfront]](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)事件通知。
 
 有关如何选择要接收哪些事件通知的信息，请参阅[修改您自己的电子邮件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
 
@@ -69,7 +69,7 @@ ht-degree: 1%
 
 接收每日摘要通知时应注意以下几点：
 
-* 您的&#x200B;**[!UICONTROL 我的设置]**&#x200B;面板中的每个[!UICONTROL 通知]部分都会生成自己的每日摘要电子邮件。 您每天的每日摘要电子邮件数量可以与为每日摘要电子邮件启用的通知设置数量相同。\
+* 您的[!UICONTROL 我的设置]面板中的每个&#x200B;**[!UICONTROL 通知]**&#x200B;部分都会生成自己的每日摘要电子邮件。 您每天的每日摘要电子邮件数量可以与为每日摘要电子邮件启用的通知设置数量相同。\
    例如，如果您选择在&#x200B;**[!UICONTROL 我拥有的项目信息]下接收多个操作的每日摘要电子邮件，**，则您将收到一封电子邮件通知，其中列出了此区域满足的所有事件。
 
 * 每日摘要电子邮件中的通知按各种标准进行分组。 例如，在&#x200B;**[!UICONTROL 我拥有的项目信息]**&#x200B;的情况下，事件按项目名称分组。
@@ -101,7 +101,7 @@ ht-degree: 1%
 
    打开一个回复框，您可以使用它来回复注释。
 
-有关配置电子邮件通知（包括启用每日摘要通知）的详细信息，请参阅[修改您自己的电子邮件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)中的[查看和修改您的电子邮件通知设置](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view-and-modify-your-email-notification-settings)。
+有关配置电子邮件通知（包括启用每日摘要通知）的详细信息，请参阅[修改您自己的电子邮件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view-and-modify-your-email-notification-settings)中的[查看和修改您的电子邮件通知设置](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
 
 ### 自动提醒
 

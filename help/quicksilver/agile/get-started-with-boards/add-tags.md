@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 添加标记
 description: 您可以将标记添加到信息卡以直观地显示它们相似。 然后，您可以按这些标记进行筛选以显示相关卡片。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 3%

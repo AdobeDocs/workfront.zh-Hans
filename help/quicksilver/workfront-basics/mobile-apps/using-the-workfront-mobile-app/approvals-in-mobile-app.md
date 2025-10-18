@@ -2,11 +2,11 @@
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: ' [!DNL Adobe Workfront] 移动设备应用程序中的审批'
-description: 您可以从 [!DNL Adobe Workfront] 移动设备应用程序的[!UICONTROL 审批]区域管理分配给您的审批或委托给您的审批。
-author: Nolan
+description: 您可以从[!UICONTROL 移动设备应用程序的]审批 [!DNL Adobe Workfront] 区域管理分配给您的审批或委托给您的审批。
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 92259a17-209b-4bc1-8c14-826969b08a63
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # [!DNL Adobe Workfront]移动应用程序中的审批
 
-您可以从[!DNL Adobe Workfront]移动设备应用程序的[!UICONTROL 审批]区域管理分配给您的审批或委托给您的审批。 从[!UICONTROL 审批]区域，您可以审批：
+您可以从[!UICONTROL 移动设备应用程序的]审批[!DNL Adobe Workfront]区域管理分配给您的审批或委托给您的审批。 从[!UICONTROL 审批]区域，您可以审批：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,7 +30,7 @@ ht-degree: 2%
     </ul> </td> 
    <td> 
     <ul> 
-     <li>工时表</li> 
+     <li>时间表</li> 
      <li>访问请求</li> 
     </ul> </td> 
   </tr> 
@@ -41,7 +41,7 @@ ht-degree: 2%
 
 ## 审核审批
 
-1. 在[!UICONTROL 我的工作]的[!UICONTROL 审批]区域中选择&#x200B;**[!UICONTROL 显示所有审批]**。
+1. 在&#x200B;**[!UICONTROL 我的工作]**&#x200B;的[!UICONTROL 审批]区域中选择[!UICONTROL 显示所有审批]。
 
    有关移动设备应用程序中[!UICONTROL 我的工作]的信息，请参阅移动设备应用程序中[[!UICONTROL 我的工作]部分](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md)。
 

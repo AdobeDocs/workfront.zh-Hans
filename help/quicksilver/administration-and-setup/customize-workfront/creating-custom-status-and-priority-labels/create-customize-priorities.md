@@ -1,11 +1,11 @@
 ---
 title: 创建和自定义优先级
 description: 您可以在Workfront的“设置”区域中控制项目、任务和问题的优先级。 优先级重视Adobe Workfront中的项目、任务或问题。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-source-git-commit: b0b9b80b4eb718e3e131ee0cd022f54cb906f187
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 2%

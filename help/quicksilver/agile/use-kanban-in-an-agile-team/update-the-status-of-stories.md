@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: 在Kanban板上更新故事的状态
 description: 您可以直接从Kanban展示板更改故事的状态，以反映故事的进展情况。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: fd75ab8e-08c4-4643-bc67-aada5b5c005e
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 0%

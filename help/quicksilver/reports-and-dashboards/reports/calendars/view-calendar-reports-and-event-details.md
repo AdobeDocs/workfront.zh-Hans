@@ -3,10 +3,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: 查看日历报告和事件详细信息
 description: 您可以在Adobe Workfront中查看您创建或与您共享的日历报告和事件详细信息。
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -71,7 +71,7 @@ ht-degree: 0%
 
      要了解如何共享日历，请参阅[[!UICONTROL 共享日历]报告](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)。
 
-1. （视情况而定）单击&#x200B;**[!UICONTROL 查看]**&#x200B;下拉列表，然后选择要查看的日历持续时间。
+1. （视情况而定）单击&#x200B;**[!UICONTROL 查看]**下拉列表，然后选择要查看的日历持续时间。
    ![日历持续时间](assets/view-menu-calendar-report-350x189.png)
 您可以从以下日历报表视图中进行选择：
 

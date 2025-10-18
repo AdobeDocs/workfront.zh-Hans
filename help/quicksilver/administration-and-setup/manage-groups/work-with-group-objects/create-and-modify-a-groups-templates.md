@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: 创建和修改组的项目模板
 description: 在组区域查看您管理的组时，您可以查看和使用与该组及其任何子组相关联的项目模板。
-author: Caroline
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f97a12eb-9002-4f11-908a-c68c1e6dc9c9
-source-git-commit: 10780ff51d5b1d9d73cb0a6fb0982abc320b0313
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 1%

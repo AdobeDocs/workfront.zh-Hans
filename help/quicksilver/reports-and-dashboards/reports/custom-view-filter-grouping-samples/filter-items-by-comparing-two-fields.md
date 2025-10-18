@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 筛选器：通过比较两个字段来消除列表中的项
 description: 您可以通过比较列表的两个字段来筛选列表中的项目。 例如，您可以仅显示任务的实际完成日期晚于计划完成日期的任务。
-author: Lisa and Nolan
+author: Lisa and Jenny
 feature: Reports and Dashboards
 exl-id: 6a41db8e-1456-4031-bf2a-ca6d4111ad44
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%

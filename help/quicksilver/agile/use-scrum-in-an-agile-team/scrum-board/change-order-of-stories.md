@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: 更改Scrum展示板上故事的顺序
 description: 故事在故事板上出现的顺序不指示优先级。 但是，它可以通过使故事更显眼来影响人们眼中的优先顺序。 默认情况下，故事会按字母顺序显示在故事板上的每个[!UICONTROL 状态]列中。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 326d78e0-06de-4b98-8fa6-102e0fd89d76
-source-git-commit: 4dc2d81cd6dc4249f96925b6339fb837c4f67254
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 0%
@@ -35,9 +35,9 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>新文档： [!UICONTROL Standard]</p> 
+   <td> <p>新文档： [！UICONTROL Standard]</p> 
    或
-   <p>当前： [!UICONTROL Work]或更高版本</p> </td> 
+   <p>当前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -59,4 +59,4 @@ ht-degree: 0%
 
 与敏捷迭代不同，在敏捷视图中查看项目时，无法更改故事顺序。 要修改项目的文章顺序，必须在标准视图中查看项目。
 
-有关如何更改项目视图的信息，请参阅[!UICONTROL Agile]视图[&#128279;](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)中的[!UICONTROL 管理项目]。 选择标准视图，而不是选择Agile视图。
+有关如何更改项目视图的信息，请参阅[[!UICONTROL Agile]视图[!UICONTROL 中的]管理项目](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)。 选择标准视图，而不是选择Agile视图。

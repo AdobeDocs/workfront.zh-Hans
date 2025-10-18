@@ -5,11 +5,11 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: 更改自动设置用户的密码
 description: 建议您将新用户的用户名更改为其Workfront邮件地址，然后允许他们更改密码。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 14124911-e5e1-4a4f-9b25-8b4fab0329e1
-source-git-commit: f8d04790caefd12c9811ea3ed94e1f892311d031
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%

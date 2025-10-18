@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: 在Kanban展示板上的故事上使用标志
 description: 在 [!DNL Kanban] 展示板上，标记提供故事何时可以移动到下一个状态的可视指示。 这使得Kanban团队在跨状态移动故事时能够使用“拉取”方法而不是“推送”方法。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: e19a007d-737c-42d4-aa69-771d8a9e9fd8
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 0%
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 1. 转到[!UICONTROL Kanban]展示板，您要在该展示板上更改文章的标志。
 1. 展开故事拼贴以查看标志。
-默认情况下，每个文章的标志均设置为&#x200B;**[!UICONTROL 跟踪]**。
+默认情况下，每个文章的标志均设置为**[!UICONTROL 跟踪]**。
    ![看板卡](assets/agile-storycard-kanban-2021-350x308.png)
 
 1. 单击当前标志，然后从以下标志选项中选择：

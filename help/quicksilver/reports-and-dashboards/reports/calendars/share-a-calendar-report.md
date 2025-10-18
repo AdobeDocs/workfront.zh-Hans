@@ -3,10 +3,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: 共享日历报告
 description: 您可以与其他用户共享日历，也可以公开显示该日历，从而允许没有 [!DNL Adobe Workfront] 许可证的用户查看该日历。
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 1%
@@ -96,9 +96,9 @@ ht-degree: 1%
 
 1. 转到要共享的日历。
 1. 单击&#x200B;**[!UICONTROL 日历操作]**，然后单击&#x200B;**[!UICONTROL 共享]**。
-1. 单击日历名称旁边的&#x200B;**更多**&#x200B;菜单。
+1. 单击日历名称旁边的&#x200B;**更多**菜单。
    ![日历更多菜单](assets/more-menu-calendar.png)
-单击&#x200B;**复制公共链接**。
+单击**复制公共链接**。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 ## 使用专用链接共享日历

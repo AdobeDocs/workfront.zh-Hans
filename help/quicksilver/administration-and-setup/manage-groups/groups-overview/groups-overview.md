@@ -3,14 +3,14 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: manage-groups
-title: “组：文章索引”
+title: 组：文章索引
 description: 分组与类似，但与团队和公司不同。 Workfront管理员向组授予对需要工作和沟通的Workfront区域的访问权限。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: afbbdda2-095b-429d-a672-2f53c541273c
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%

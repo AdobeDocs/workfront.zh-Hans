@@ -3,10 +3,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: 复制日历报告
 description: 如果您创建了日历，则可以复制该日历并将其用作新日历的起点。
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: f72cf896-294f-4166-b731-eaec0c2156b1
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 0%
@@ -59,7 +59,7 @@ ht-degree: 0%
 ## 复制日历报告
 
 1. 转到要复制的日历。
-1. 单击“日历”下拉菜单旁边的&#x200B;**更多**&#x200B;菜单。
+1. 单击“日历”下拉菜单旁边的&#x200B;**更多**菜单。
    ![日历更多菜单](assets/more-menu-calendar.png)
 
 1. 从下拉列表中选择&#x200B;**[!UICONTROL 复制]**。 此时将复制日历，并将您带入新副本。

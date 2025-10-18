@@ -3,10 +3,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: 删除日历报告
 description: 您可以删除自己拥有的日历或其他人与您共享的日历。 删除后，与您共享日历的用户将无法访问该日历。
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 6208442e-21af-4cd1-ad55-52215bd4d959
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 2%
@@ -57,7 +57,7 @@ ht-degree: 2%
 ## 删除日历报告
 
 1. 转到要删除的日历。
-1. 单击“日历”下拉菜单旁边的&#x200B;**更多**&#x200B;菜单。
+1. 单击“日历”下拉菜单旁边的&#x200B;**更多**菜单。
    ![日历更多菜单](assets/more-menu-calendar.png)
 
 1. 从下拉列表中选择&#x200B;**[!UICONTROL 删除]**。

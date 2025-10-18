@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: mobile-apps
 title: 适用于移动设备的Adobe Workfront展示板
 description: 在 [!DNL Workfront] 移动设备应用程序中，您可以在 [!DNL Workfront]的桌面版中看到您创建或添加到的所有主板。
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 34a009f6-6b4f-43ee-9689-2b9d1876db07
-source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1073'
 ht-degree: 0%

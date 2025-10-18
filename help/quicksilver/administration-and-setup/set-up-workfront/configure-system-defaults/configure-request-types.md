@@ -4,11 +4,11 @@ product-area: system-administration;setup
 navigation-topic: configure-system-defaults
 title: 配置请求类型
 description: 在处理项目时，您可能会发现出现意外事件。 您可以将这些意外事件记录为特定项目或任务的问题。 您也可以提交请求，在指定为请求队列的项目中，这些请求将记录为问题。 在Adobe Workfront中，问题和请求被视为可互换的。
-author: Lisa
+author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
-source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
@@ -35,12 +35,12 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p>
-       <p>[!UICONTROL 计划]</p></td>
+   <td><p>[！UICONTROL标准版]</p>
+       <p>[！UICONTROL计划]</p></td>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
  </tbody> 
 </table>

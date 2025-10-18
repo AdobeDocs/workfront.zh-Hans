@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: 展示板概述
 description: Adobe Workfront展示板是一种灵活的工具，通过提供对包含列和卡片的共享展示板的访问，允许团队协作。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 有关在项目中使用展示板的信息，请参阅[在Agile视图中管理项目](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md)。
 
-您还可以在移动应用程序中访问展示板。 有关信息，请参阅移动设备[&#128279;](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)的[!DNL Adobe Workfront] [!UICONTROL 讨论区]。
+您还可以在移动应用程序中访问展示板。 有关信息，请参阅移动设备[[!DNL Adobe Workfront] [!UICONTROL 的]讨论区](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)。
 
 有关展示板功能的视频演练，请参阅[[!DNL Adobe Workfront] [!UICONTROL 展示板]视频演示](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)。
 

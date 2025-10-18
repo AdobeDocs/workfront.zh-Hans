@@ -4,10 +4,10 @@ product-area: reporting;calendars
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: 日历上的错误消息：“此日历具有已停用用户的查看权限。”
 description: 了解“此日历具有查看已停用用户的权限”错误消息。
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: ba1e25f2-4960-47f7-ac7d-6f6b0f59cfe2
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 1%

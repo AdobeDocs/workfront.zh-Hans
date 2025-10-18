@@ -4,11 +4,11 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: 使用自定义状态作为默认状态
 description: 当自定义状态设置为默认状态时，新的默认状态将以各种方式在整个系统中使用。 其使用方式取决于其设置为默认的系统级状态，还是默认组级状态。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5b137cee-e03a-4176-a683-b77f2b27f5ce
-source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%

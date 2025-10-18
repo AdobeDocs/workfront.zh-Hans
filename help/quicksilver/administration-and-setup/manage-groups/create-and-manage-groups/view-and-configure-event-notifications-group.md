@@ -5,11 +5,11 @@ keywords: 视图，组，事件，通知，配置，启用，禁用
 navigation-topic: create-and-manage-groups
 title: 查看和配置组的事件通知
 description: 作为组管理员，您可以查看为您管理的组激活的事件通知。 此外，如果Adobe Workfront管理员解锁事件通知，则可以为您管理的顶级组配置该通知。 事件通知的配置包括激活或停用该通知。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a815aeb1-3403-4491-a8ad-7e47c519905c
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 0%

@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 管理展示板上的子任务
 description: 利用信息卡上的子任务，您可以在任务之间建立父子关系，并创建工作的层次结构。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 166a84d3-18ea-4a58-b0e8-f09df2a63caa
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 0%

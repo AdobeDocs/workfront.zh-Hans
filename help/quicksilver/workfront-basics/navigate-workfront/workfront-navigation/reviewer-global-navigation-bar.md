@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: workfront-navigation
 title: 了解审阅许可证用户的导航
 description: 主菜单会随着 [!DNL Adobe Workfront] 管理员分配的访问级别而更改。 默认情况下，您仅有权访问包含您的访问级别所允许的功能在内的区域。
-author: Lisa
+author: Lisa and Courtney
 feature: Get Started with Workfront
 exl-id: c646b3d2-2eca-47ef-b181-9358cef03ed7
-source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 0%

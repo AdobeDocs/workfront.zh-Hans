@@ -5,14 +5,14 @@ content-type: reference;overview
 product-area: system-administration;user-management
 navigation-topic: group-roles
 description: 在具有多个部门的大型组织中，Adobe Workfront管理员可能不希望管理这些部门中的所有部门和组。 相反，他们可以为该组中的每个部门和子组创建一个组，每个组由组管理员管理。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 589cf9fb-f195-4b69-a240-3f73e6ca623e
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1047'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >组管理员必须比他们管理的组管理员拥有更高的访问权限；否则，他们将无法查看或修改较低的访问级别。
->有关授予此访问权限的说明，请参阅[创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
+>>有关授予此访问权限的说明，请参阅[创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 对于需要为其组和子组中的用户分配时间表配置文件的组管理员，我们还建议对时间表和小时数的管理访问权限。 有关授予此访问权限的说明，请参阅[授予用户对特定区域的管理访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在新的定价和包装模型中，您必须拥有高级计划或更高版本才能执行以下操作：
+>在新的定价和打包模型中，您必须具有Prime计划或更高版本才能执行以下操作：
 >
 > * 创建组事件通知
 > * 配置组项目首选项

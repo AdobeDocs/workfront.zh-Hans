@@ -4,10 +4,10 @@ product-area: user-management;agile-and-teams
 navigation-topic: people-teams-and-groups
 title: 团队请求概述
 description: 团队请求位于主菜单的团队区域。
-author: Lisa
+author: Jenny
 feature: People Teams and Groups
 exl-id: c131c021-8bc0-4a48-a873-9ee0e189bcab
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%

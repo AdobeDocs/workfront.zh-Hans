@@ -5,11 +5,11 @@ keywords: 创建，组，子组，新建
 navigation-topic: create-and-manage-groups
 title: 创建组
 description: 作为Adobe Workfront管理员，您可以创建组以整理用户和项目并在Workfront中分配访问权限。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4a039619-0943-4b5b-ba7a-1ad9b5c11df0
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1633'
 ht-degree: 3%

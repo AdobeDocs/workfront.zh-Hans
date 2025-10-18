@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: work-in-an-agile-environment
 title: 管理Agile积压
 description: 任务和问题可分配给Agile团队，并作为故事添加到该团队的积压中，具体取决于团队使用的敏捷方法。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 0%
@@ -136,31 +136,31 @@ ht-degree: 0%
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 文章名称]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL文章名称]</strong></td>
       <td> 键入故事的名称。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 描述]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL描述]</strong></td>
       <td>（可选）键入文章的描述。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 就绪]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL就绪]</strong></td>
       <td> 选择文章是否准备好添加到开发周期。 此设置仅供参考。 可以将故事添加到开发周期，而不管此设置的状态如何。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 估计]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL估计]</strong></td>
       <td>指定文章的分值或每小时估计值。 估计值会影响燃尽图。 仅当每个故事都包含准确的估计值时，迭代的燃尽图才准确。 （如果提供点估计值，则必须在团队设置中指定每个点表示的小时数。）</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 父项目]</strong></td>
-      <td>开始键入将在其中创建此文章的项目名称，然后在名称出现在下拉列表中时单击该名称。<br>项目的状态必须设置为[!UICONTROL 当前]。 如果项目的状态不是[!UICONTROL 当前]，则它不会显示在下拉菜单中。</td>
+      <td role="rowheader"><strong>[！UICONTROL父项目]</strong></td>
+      <td>开始键入将在其中创建此文章的项目名称，然后在名称出现在下拉列表中时单击该名称。<br>项目的状态必须设置为[！UICONTROL当前]。 如果项目的状态不是[！UICONTROL当前]，则它不会显示在下拉菜单中。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 父任务]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL父任务]</strong></td>
       <td>（可选）开始键入此文章从属的父任务的名称，然后在名称出现在下拉列表中时单击该名称。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 自定义Forms]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL自定义Forms]</strong></td>
       <td> （可选）选择要添加到此文章的任何自定义表单。</td>
      </tr>
     </tbody>

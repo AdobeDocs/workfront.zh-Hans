@@ -4,10 +4,10 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: 将提醒通知附加到对象
 description: 您可以将提醒通知与多种不同的对象类型关联：项目、任务、问题、时间表、模板、模板任务和周期性时间表配置文件。
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: ea04d807-1a9f-4a23-96de-cd83f0821ba0
-source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 0%

@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: 关于iOS中校样的评论
 description: 您可以查看并解析验证上的现有注释，并向验证文档添加新注释和批注。
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: c38f0d80-11e0-4d5a-9591-602543177fe6
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '819'
 ht-degree: 0%
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 您可以查看并解析验证上的现有注释，并向验证文档添加新注释和批注。
 
-您对校样的评论访问权限与[!DNL Adobe Workfront]中的相同。 有关校对功能的信息，请参阅 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校对权限配置文件。
+您对校样的评论访问权限与[!DNL Adobe Workfront]中的相同。 有关校对功能的信息，请参阅[中的 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)校对权限配置文件。
 
 >[!NOTE]
 >
->如果验证所有者锁定了验证，则您无法对其进行评论。 有关详细信息，请参阅[查看并做出 [!DNL Adobe Workfront] 移动设备应用程序](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)中的验证决策一文中的[锁定和解锁验证](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md#lock)。
+>如果验证所有者锁定了验证，则您无法对其进行评论。 有关详细信息，请参阅[查看并做出](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md#lock)移动设备应用程序[中的验证决策一文中的 [!DNL Adobe Workfront] 锁定和解锁验证](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)。
 
 ## 查看验证中的现有评论
 

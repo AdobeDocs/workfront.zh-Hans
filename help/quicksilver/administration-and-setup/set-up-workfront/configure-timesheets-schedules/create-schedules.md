@@ -4,11 +4,11 @@ product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: 创建计划
 description: 您可以使用计划定义用户的工作周。 您可以将时间表与用户或项目关联。 这允许 [!DNL Workfront] 计算时间表和用户可用性。
-author: Lisa, Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f7347ba6-68bf-45d8-b5d2-6136f3e696c9
-source-git-commit: e8c89b68a022ae1c0cf5da20257cd8bc36e94d4c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '794'
 ht-degree: 0%
@@ -49,12 +49,12 @@ Linked to Editing Users, Editing Projects, Creating and managing groups
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p>
-       <p>[!UICONTROL 计划]</p></td>
+   <td><p>[！UICONTROL标准版]</p>
+       <p>[！UICONTROL计划]</p></td>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -92,7 +92,7 @@ Linked to Editing Users, Editing Projects, Creating and managing groups
 
    <table style="table-layout:auto">
     <tr>
-     <td>具有管理访问权限的[!UICONTROL 组]</td>
+     <td>具有管理访问权限的[！UICONTROL组]</td>
      <td><p>选择其管理员有权编辑此计划的组。</p>
      <p><b>重要信息</b>：</p>
       <ul>
@@ -109,11 +109,11 @@ Linked to Editing Users, Editing Projects, Creating and managing groups
      </td>
     </tr>
     <tr>
-     <td>[!UICONTROL 组具有视图访问权限]</td>
-     <td><p>选择具有[!UICONTROL 视图]访问权限的组，这些组可以查看此计划。</p>
+     <td>[！UICONTROL组具有视图访问权限]</td>
+     <td><p>选择具有[！UICONTROL视图]访问权限的组，这些组可以查看此计划。</p>
      <p>只有此处指定的组中的用户在将其分配给用户或项目时，才能在下拉菜单中找到计划。</p></tr>
     <tr>
-     <td>[!UICONTROL 时区]</td>
+     <td>[！UICONTROL时区]</td>
      <td><p>选择计划的时区。</p>
      <p>如果将时间表与用户关联，我们建议时间表的时区与用户的时区匹配。 有关用户时区的信息，请参阅<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">编辑用户配置文件。
      </td>

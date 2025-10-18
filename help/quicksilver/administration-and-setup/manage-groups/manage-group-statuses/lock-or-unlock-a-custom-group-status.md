@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: 锁定和未锁定的组状态
 description: 锁定组的自定义状态是一种方法，可确保组及其子组中的人员在其工作流程中使用相同的流程。 当组状态被锁定时，该组和较低组中的所有用户都可以使用该状态。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 3463e4cb-7336-49b7-b81a-c2acef72f61d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 0%

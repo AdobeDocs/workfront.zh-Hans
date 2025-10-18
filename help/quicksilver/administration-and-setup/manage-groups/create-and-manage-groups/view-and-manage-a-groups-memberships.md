@@ -5,11 +5,11 @@ keywords: 添加，用户，组，添加，其他，分配，管理员，删除�
 navigation-topic: create-and-manage-groups
 title: 查看和管理组的成员资格
 description: 作为Adobe Workfront管理员，您可以查看、添加、删除、导出、激活和停用您管理的任何组的成员。 您还可以编辑其用户档案，将更新添加到其用户档案，并将他们分配为组的附加组管理员。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 219e5fa3-cf25-477d-82f6-046e3ff30989
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 0%

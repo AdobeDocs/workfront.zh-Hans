@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 视图：显示列中两个字段之间的计算结果
 description: 您可以在列中使用文本模式来显示两个字段之间的计算。
-author: Lisa and Nolan
+author: Lisa and Jenny
 feature: Reports and Dashboards
 exl-id: 303f8824-311a-4de0-9777-cfa11ecad1e1
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 0%

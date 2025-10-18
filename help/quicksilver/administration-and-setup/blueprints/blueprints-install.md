@@ -5,11 +5,11 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: 安装Blueprint
 description: 您可以在生产环境或沙盒环境中安装Blueprint。
-author: Becky
+author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: 546e19ab-dc50-4d23-b5f6-31bde1c82b6a
-source-git-commit: 5fd855bec596926a4361fd07a1a763c7956e5e61
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 1%

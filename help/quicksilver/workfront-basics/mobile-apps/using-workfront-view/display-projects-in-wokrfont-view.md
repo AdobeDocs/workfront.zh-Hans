@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: use-workfront-view
 title: 在Adobe Workfront视图中显示项目
 description: 默认情况下， [!DNL Adobe Workfront] 视图中显示的项目列表显示最近的100个活动项目。 项目列表未按任何条件分组。
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 76db4ed0-a411-49aa-8acd-f149df1f38a4
-source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%

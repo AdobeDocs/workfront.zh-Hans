@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: 停用或删除团队
 description: 您可以停用不再使用的团队，同时保留关联的历史数据。 Adobe Workfront管理员可以随时从“设置”的团队区域重新激活团队。
-author: Lisa
+author: Jenny
 feature: People Teams and Groups
 exl-id: 634e4c0f-aa1d-4197-92e3-54f414344ac0
-source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 0%
@@ -28,13 +28,13 @@ ht-degree: 0%
     </ul> 
     <ul> 
      <li> <p>对象的“共享”对话框</p> </li> 
-     <li> <p>[!UICONTROL 用户配置文件]*</p> </li> 
+     <li> <p>[！UICONTROL用户配置文件]*</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL 团队]区域中的主选择下拉菜单</p> </li> 
-     <li> <p>[!UICONTROL Assignments]预输入</p> </li> 
-     <li> <p>项目中的[!UICONTROL 添加到Kanban]展示板对话框</p> </li> 
+     <li> <p>[！UICONTROL团队]区域中的主选择下拉菜单</p> </li> 
+     <li> <p>[！UICONTROL Assignments]预输入</p> </li> 
+     <li> <p>项目中的[！UICONTROL添加到Kanban]展示板对话框</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

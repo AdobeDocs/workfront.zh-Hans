@@ -3,10 +3,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: 在日历报表中使用计划日期
 description: 日历报告是一种动态报告，提供工作的可视化表示形式。 您可以在任务、问题和项目的日历报告中使用“规划日期”字段。
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 27bf6f03-2f6b-4556-a715-75c4a21bfbbb
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 2%
@@ -67,7 +67,7 @@ ht-degree: 2%
 
 1. 选择要向其添加新项目组的日历。
 或
-单击&#x200B;**[!UICONTROL +新建日历]**&#x200B;并输入日历名称。
+单击**[!UICONTROL +新建日历]**&#x200B;并输入日历名称。
 
    >[!NOTE]
    >
@@ -82,16 +82,16 @@ ht-degree: 2%
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 命名这组项目]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL命名这组项目]</strong></td>
       <td>键入项目组的名称。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 颜色]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL颜色]</strong></td>
       <td>选择项目组的颜色。 所有项目均以选定的颜色显示在日历报表中。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 日期字段]</strong></td>
-      <td><p>选择<strong>[!UICONTROL 计划日期]</strong>。 有关计划日期的详细信息，请参阅 </p>
+      <td role="rowheader"><strong>[！UICONTROL日期字段]</strong></td>
+      <td><p>选择<strong>[！UICONTROL计划日期]</strong>。 有关计划日期的详细信息，请参阅 </p>
        <ul>
         <li><a href="../../../manage-work/projects/planning-a-project/project-planned-start-date.md" class="MCXref xref">项目计划开始日期概述</a></li>
         <li><a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">任务计划开始日期概述</a></li>
@@ -103,14 +103,14 @@ ht-degree: 2%
       <td role="rowheader"><strong>在日历上，显示</strong></td>
       <td><p>选择日期的显示方式：</p>
        <ul>
-        <li><strong>[!UICONTROL 仅开始日期]</strong>：日历在单个日期显示对象。</li>
-        <li><strong>[!UICONTROL 仅结束日期]</strong>：日历在单个日期显示对象。</li>
-        <li><strong>[!UICONTROL Duration] （开始到结束）</strong>：日历显示跨天对象。</li>
+        <li><strong>[！UICONTROL仅开始日期]</strong>：日历在单个日期显示对象。</li>
+        <li><strong>[！UICONTROL仅结束日期]</strong>：日历在单个日期显示对象。</li>
+        <li><strong>[！UICONTROL Duration] （开始到结束）</strong>：日历显示跨天对象。</li>
        </ul></td>
      </tr>
      <tr data-mc-conditions="">
-      <td role="rowheader"><strong>[!UICONTROL 在可用时切换到实际日期]</strong></td>
-      <td><p>当日期可用时，日历会自动切换到实际日期。 <br>选择<strong>[!UICONTROL 是]</strong>或<strong>[!UICONTROL 否]</strong>以切换到实际日期（可用时）。 有关实际日期的详细信息，请参阅</p>
+      <td role="rowheader"><strong>[！UICONTROL在可用时切换到实际日期]</strong></td>
+      <td><p>当日期可用时，日历会自动切换到实际日期。 <br>选择<strong>[！UICONTROL是]</strong>或<strong>[！UICONTROL否]</strong>以切换到实际日期（可用时）。 有关实际日期的详细信息，请参阅</p>
        <ul>
         <li><a href="../../../manage-work/projects/planning-a-project/project-actual-start-date.md" class="MCXref xref">项目实际开始日期概览 </a></li>
         <li><a href="../../../manage-work/projects/planning-a-project/project-actual-completion-date.md" class="MCXref xref">项目实际完成日期概览 </a></li>

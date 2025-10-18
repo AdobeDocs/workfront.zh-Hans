@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 筛选器：仅显示处于审批状态的项目
 description: 您只能显示处于特定状态（当前处于“未决批准”中）的项目。 这同样适用于具有审批状态的任何其他对象。
-author: Lisa and Nolan
+author: Lisa and Jenny
 feature: Reports and Dashboards
 exl-id: c1de5193-d3d5-406c-aa68-e6ba6d6751ae
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 1%

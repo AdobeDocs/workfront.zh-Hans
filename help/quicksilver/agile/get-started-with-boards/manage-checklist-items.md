@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 管理信息卡上的清单项目
 description: 在信息卡上使用核对清单可让您将工作细分为较小的增量，或在信息卡中添加注释。 清单项目在临时信息卡和连接信息卡中均可用。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 60e47a0a-36fb-4a86-8ec7-b135f9725b79
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%

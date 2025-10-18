@@ -3,13 +3,13 @@ content-type: overview
 navigation-topic: notifications
 title: 应用程序内通知概述
 description: 本文列出了您可以收到的应用程序内通知。 应用程序内通知可让您随时了解以下两种类型的信息：公告通知和工作项通知。 它们可从Web应用程序和移动应用程序中获取。
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: afc8cfe7-d9a7-458a-b437-bd4c75838cb0
-source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '826'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -26,10 +26,10 @@ ht-degree: 0%
 
 公告有两种方式：
 
-* [!DNL Workfront]向您组织的[!DNL Workfront]管理员的[!UICONTROL 公告]页面发送消息
+* [!DNL Workfront]向您组织的[!UICONTROL 管理员的]公告[!DNL Workfront]页面发送消息
 * [!DNL Workfront]管理员从[!UICONTROL 公告]页面向用户发送消息
 
-在这两种情况下，当管理员或用户单击[!DNL Workfront]右上角的编号图标![通知图标](assets/notifications-icon-jewel.jpg)打开其通知列表时，消息的主题行显示有一个扩音器图标![公告图标](assets/announcement.png)和单词“[!UICONTROL 公告]”。
+在这两种情况下，当管理员或用户单击![右上角的编号图标](assets/notifications-icon-jewel.jpg)通知图标[!DNL Workfront]打开其通知列表时，消息的主题行显示有一个扩音器图标![公告图标](assets/announcement.png)和单词“[!UICONTROL 公告]”。
 
 ![[!UICONTROL 公告]通知](assets/notification-list-announcement-350x271.png)
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ## [!UICONTROL 工作项]通知
 
-当您单击[!DNL Workfront]右上角的编号图标![通知图标](assets/notifications-icon-jewel.jpg)打开您的通知列表时，工作项消息的主题行会显示一个图标和简要描述以标识其内容。 图标和描述类型如下所示。
+当您单击![右上角的编号图标](assets/notifications-icon-jewel.jpg)通知图标[!DNL Workfront]打开您的通知列表时，工作项消息的主题行会显示一个图标和简要描述以标识其内容。 图标和描述类型如下所示。
 
 ![工作项通知](assets/notification-list-work-items-350x247.png)
 

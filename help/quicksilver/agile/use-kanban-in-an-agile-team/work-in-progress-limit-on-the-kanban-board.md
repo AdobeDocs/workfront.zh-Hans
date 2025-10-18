@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: use-kanban-in-an-agile-team
 title: 在Kanban展示板上管理正在进行的工作(WIP)限制
 description: 您可以为Kanban展示板上的每个列配置正在进行的工作(WIP)限制。 WIP限制只是一个视觉上的警告，不会限制您的团队在每个状态列中包含的项目数量超过您设置的限制。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 540880ad-46af-416b-8e0b-5df869555424
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 0%

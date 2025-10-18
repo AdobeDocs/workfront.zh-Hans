@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: 查看和管理组最近恢复的项目
 description: 查看在组区域管理的组时，您可以查看、筛选、分组和恢复最近恢复的工作项、文档和模板。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8ec06363-080e-4f1d-8a50-fc14f06ad323
-source-git-commit: 7eaff1c74cd880bde062e6fdf169c73d6eeb7f75
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 2%

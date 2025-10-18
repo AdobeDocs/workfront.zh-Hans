@@ -4,10 +4,10 @@ product-area: system-administration;workfront-integrations
 navigation-topic: templates-navigation-topic
 title: 浏览Blueprint目录并请求Blueprint安装
 description: Blueprint提供基本的构建块，帮助您创建随增长而增长的工作管理系统。 所有 [!DNL Adobe Workfront] 用户都可以浏览Blueprint的目录。 此外，如果您的管理员启用了Blueprint请求，您还可以请求让 [!DNL Workfront] 管理员为您安装特定的Blueprint。
-author: Becky, Lisa
+author: Jenny
 feature: System Setup and Administration, Work Management
 exl-id: 932072e4-4d52-4b4b-a045-0cd38cb882d3
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 0%

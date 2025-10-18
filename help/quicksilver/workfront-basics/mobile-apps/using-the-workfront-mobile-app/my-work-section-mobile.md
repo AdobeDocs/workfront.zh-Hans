@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: 移动应用程序中的“我的工作”部分
 description: '[!UICONTROL 主页]区域的[!UICONTROL 我的工作]部分显示您的任务、问题、项目、审批、请求和时间表。'
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 006f6f5e-fe10-4530-a22a-4ab33a4e0da5
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 1%

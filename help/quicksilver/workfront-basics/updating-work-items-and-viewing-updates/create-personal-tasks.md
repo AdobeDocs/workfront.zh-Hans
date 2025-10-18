@@ -3,10 +3,10 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: 创建个人任务
 description: 个人任务是指您发送给用户、自己或您在“主页”区域中为自己创建的待办事项的临时工作请求。 Workfront将临时工作请求和待办事项保存为个人任务。
-author: Lisa
+author: Becky
 feature: Get Started with Workfront
 exl-id: b40d6b10-19c7-4e11-a74f-a8af3ebafb65
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 0%
@@ -116,7 +116,7 @@ Adobe Workfront将临时工作请求和待办事项保存为Wprfront自动为每
 
 1. 单击标题中用户名右侧的&#x200B;**更多菜单** ![](assets/more-menu.png)。
 1. 单击&#x200B;**发送工作请求**。
-显示&#x200B;**向用户发送工作请求**&#x200B;框。
+显示**向用户发送工作请求**&#x200B;框。
 
    ![](assets/personal-task-box.png)
 1. 更新以下信息：

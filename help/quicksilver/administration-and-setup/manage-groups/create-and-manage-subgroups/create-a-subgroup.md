@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-subgroups
 title: 创建子组
 description: 您可以在管理的组下创建子组，以组织用户和项目并在Adobe Workfront中分配访问权限。 通常，组管理员管理组和子组。 他们可以使用组页面在一个位置管理其组和子组。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: b59b1491-9a78-49c0-89c9-ab1ce0099e0b
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 0%

@@ -3,10 +3,10 @@ product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
 title: 配置Kanban
 description: 在创建团队期间或之后，您可以为Kanban敏捷团队配置以下选项。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1484'
 ht-degree: 0%

@@ -2,10 +2,10 @@
 navigation-topic: notifications
 title: 启用从预览Sandbox环境的电子邮件投放
 description: 如果您希望从预览Sandbox环境接收电子邮件通知，则必须在登录预览时在用户设置中启用此功能。
-author: Lisa
+author: Courtney, Becky
 feature: Get Started with Workfront
 exl-id: e5c7e387-d08d-42f6-a9e6-f44e514ef902
-source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 1%
@@ -56,9 +56,9 @@ ht-degree: 1%
    <td role="rowheader"><strong>访问级别配置</strong></td> 
    <td> <p>您必须具备以下任一项：</p> 
     <ul> 
-     <li> <p>[!UICONTROL 系统管理员]访问级别。</p> </li> 
-     <li> <p>在访问级别中，必须为[!UICONTROL 用户]设置选择[!UICONTROL 编辑] 。 对于[!UICONTROL 用户]设置，在[!UICONTROL 微调设置] <img src="assets/gear-icon-in-access-levels.png">下，必须启用[!UICONTROL 创建]选项以及两个[!UICONTROL 用户管理]选项中的至少一个。 </li> 
-     <li>如果您使用[!UICONTROL 用户管理员（组用户）]选项，您必须是用户所属组的组管理员。</li> 
+     <li> <p>[！UICONTROL系统管理员]访问级别。</p> </li> 
+     <li> <p>在访问级别中，必须为[！UICONTROL用户]设置选择[！UICONTROL编辑] 。 对于[！UICONTROL用户]设置，在[！UICONTROL微调设置] <img src="assets/gear-icon-in-access-levels.png">下，必须启用[！UICONTROL创建]选项以及两个[！UICONTROL用户管理]选项中的至少一个。 </li> 
+     <li>如果您使用[！UICONTROL用户管理员（组用户）]选项，您必须是用户所属组的组管理员。</li> 
     </ul> </td> 
   </tr> 
  </tbody> 

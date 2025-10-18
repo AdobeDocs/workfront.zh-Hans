@@ -5,11 +5,11 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: 安装Blueprint后要执行的操作
 description: 本文概述在 [!DNL Adobe Workfront] 中安装Blueprint以将Blueprint完全部署到系统用户后应该做什么。
-author: Becky
+author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e5da58f-105a-4edf-8fc1-65e8762d43c6
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1135'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ### 更新模板任务持续时间和工作估计 {#update-template-task-duration-and-effort-estimates}
 
-模板中的每个任务都包含计划持续时间和计划工作估计。 这些估计值作为这些活动的持续时间和逗留时间的起点。 但是，贵组织的能力、技能和步调各不相同。 您应该查看每个任务的预计持续时间和工作量，以调整它以反映贵组织的需求。 有关信息，请参阅[!UICONTROL 任务详细信息概述]区域[&#128279;](../../manage-work/tasks/manage-tasks/task-information-in-overview.md)中的管理任务信息。
+模板中的每个任务都包含计划持续时间和计划工作估计。 这些估计值作为这些活动的持续时间和逗留时间的起点。 但是，贵组织的能力、技能和步调各不相同。 您应该查看每个任务的预计持续时间和工作量，以调整它以反映贵组织的需求。 有关信息，请参阅[任务详细信息概述[!UICONTROL 区域]中的](../../manage-work/tasks/manage-tasks/task-information-in-overview.md)管理任务信息。
 
 ### 关联里程碑路径和里程碑 {#associate-a-milestone-path-and-milestones}
 
