@@ -27,27 +27,27 @@ ht-degree: 0%
 
    <table style="table-layout:auto">
     <tr>
-        <td><strong>[！UICONTROL复制/粘贴]</strong></td>
+        <td><strong>[!UICONTROL 复制/粘贴]</strong></td>
         <td>启用后，您可以选择让用户粘贴到其他安全应用程序，或者仅在[!DNL Workfront]应用程序的[!DNL MobileIron]内粘贴。</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL允许摄像头]</strong></td>
+        <td><strong>[!UICONTROL 允许摄像头]</strong></td>
         <td>启用此选项后，用户可以从[!DNL Workfront]中为[!DNL MobileIron]应用程序拍摄照片。</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL允许库]</strong></td>
+        <td><strong>[!UICONTROL 允许库]</strong></td>
         <td>启用此选项后，用户可以从照片库中附加照片。</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL允许媒体播放器]</strong></td>
+        <td><strong>[!UICONTROL 允许媒体播放器]</strong></td>
         <td>启用此选项后，用户可以从[!DNL Workfront]中播放[!DNL MobileIron]应用程序的媒体。</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL允许屏幕捕获]</strong></td>
+        <td><strong>[!UICONTROL 允许屏幕捕获]</strong></td>
         <td>启用此选项后，用户可以在[!DNL Workfront]应用程序的[!DNL MobileIron]内捕获屏幕。</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL允许Web]</strong></td>
+        <td><strong>[!UICONTROL 允许Web]</strong></td>
         <td>启用此选项后，用户可以从[!DNL Workfront]应用程序的[!DNL MobileIron]中导航到Web浏览器。</td>
     </tr>
    </table>
@@ -62,15 +62,15 @@ ht-degree: 0%
 
    <table style="table-layout:auto">
     <tr>
-        <td><strong>[！UICONTROL复制/粘贴]</strong></td>
+        <td><strong>[!UICONTROL 复制/粘贴]</strong></td>
         <td>启用后，您可以选择让用户粘贴到其他安全应用程序，还是仅粘贴到Workfront for MobileIron应用程序中。</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL允许打印]</strong></td>
+        <td><strong>[!UICONTROL 允许打印]</strong></td>
         <td>启用此选项后，用户可以从[!DNL Workfront for MobileIron]应用程序连接到AirPrint。</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL允许打开</strong></td>
+        <td><strong>&lbrack;！UICONTROL允许打开</strong></td>
         <td>启用此选项后，用户可以使用任何其他适用的应用程序打开URL。</td>
     </tr>
    </table>

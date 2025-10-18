@@ -66,7 +66,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >组管理员必须比他们管理的组管理员拥有更高的访问权限；否则，他们将无法查看或修改较低的访问级别。
->>有关授予此访问权限的说明，请参阅[创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
+>&#x200B;>有关授予此访问权限的说明，请参阅[创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 对于需要为其组和子组中的用户分配时间表配置文件的组管理员，我们还建议对时间表和小时数的管理访问权限。 有关授予此访问权限的说明，请参阅[授予用户对特定区域的管理访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
 

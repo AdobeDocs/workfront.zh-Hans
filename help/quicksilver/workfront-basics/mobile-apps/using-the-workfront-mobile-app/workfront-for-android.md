@@ -32,9 +32,9 @@ ht-degree: 2%
    <td> 
     <ul> 
      <li>开始处理任务和问题</li> 
-     <li>将任务和问题标记为[！UICONTROL完成]</li> 
+     <li>将任务和问题标记为[!UICONTROL 完成]</li> 
      <li>重新分配任务和问题</li> 
-     <li>更改[！UICONTROL提交日期]</li> 
+     <li>更改[!UICONTROL 提交日期]</li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -73,7 +73,7 @@ ht-degree: 2%
     <ul> 
      <li>更新项目状态</li> 
      <li>查看重要项目详细信息</li> 
-     <li>在[！UICONTROL更新]区域发布</li> 
+     <li>在[!UICONTROL 更新]区域发布</li> 
      <li>将任务、问题和请求转换为项目</li> 
     </ul> </td> 
    <td> 

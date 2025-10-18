@@ -69,12 +69,12 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[！UICONTROL标准版]</p>
-       <p>[！UICONTROL计划]</p></td>
+   <td><p>[!UICONTROL 标准版]</p>
+       <p>[!UICONTROL 计划]</p></td>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[！UICONTROL系统管理员]</td> 
+   <td>[!UICONTROL 系统管理员]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -118,19 +118,19 @@ Workfront附带一组内置小时类型。 这些小时类型无法编辑或隐�
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL名称]</td> 
+      <td role="rowheader">[!UICONTROL 名称]</td> 
       <td>输入易于在系统中识别的小时类型名称。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL描述]</td> 
+      <td role="rowheader">[!UICONTROL 描述]</td> 
       <td>添加对小时类型的描述。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL作用域]</td> 
-      <td> <p>在<strong>范围</strong>下拉菜单中选择小时类型是常规小时类型还是特定于项目的小时类型。</p> <p>常规小时类型仅在时间表中可见，并且不能与项目、任务或问题相关联。</p> <p><b>重要</b></p><p> 如果您具有特定于[！UICONTROL项目的自定义小时类型，并且您将其更改为[！UICONTROL常规]，则所有现有的任务、问题和项目小时数都会设置为它们的系统默认类型。</p> </td> 
+      <td role="rowheader">[!UICONTROL 作用域]</td> 
+      <td> <p>在<strong>范围</strong>下拉菜单中选择小时类型是常规小时类型还是特定于项目的小时类型。</p> <p>常规小时类型仅在时间表中可见，并且不能与项目、任务或问题相关联。</p> <p><b>重要</b></p><p> 如果您具有特定于&lbrack;！UICONTROL项目的自定义小时类型，并且您将其更改为[!UICONTROL 常规]，则所有现有的任务、问题和项目小时数都会设置为它们的系统默认类型。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL计为收入]</td> 
+      <td role="rowheader">[!UICONTROL 计为收入]</td> 
       <td><p>如果您希望与此小时类型关联的小时条目影响您的收入计算，请选择此选项。</p>
       <p>病假和休假时间不能计为收入。</p>
       <p><b>注释</b></p>
@@ -165,19 +165,19 @@ Workfront附带一组内置小时类型。 这些小时类型无法编辑或隐�
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL名称]</td> 
+      <td role="rowheader">[!UICONTROL 名称]</td> 
       <td>输入易于在系统中识别的小时类型名称。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL描述]</td> 
+      <td role="rowheader">[!UICONTROL 描述]</td> 
       <td>添加对小时类型的描述。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL作用域]</td> 
-      <td> <p>在<strong>范围</strong>下拉菜单中选择小时类型是常规小时类型还是特定于项目的小时类型。</p> <p>常规小时类型仅在时间表中可见，并且不能与项目、任务或问题相关联。</p> <p><b>重要</b></p> <p>如果您具有特定于[！UICONTROL项目的自定义小时类型，并且您将其更改为[！UICONTROL常规]，则所有现有的任务、问题和项目小时数都会设置为它们的系统默认类型。</p> </td> 
+      <td role="rowheader">[!UICONTROL 作用域]</td> 
+      <td> <p>在<strong>范围</strong>下拉菜单中选择小时类型是常规小时类型还是特定于项目的小时类型。</p> <p>常规小时类型仅在时间表中可见，并且不能与项目、任务或问题相关联。</p> <p><b>重要</b></p> <p>如果您具有特定于&lbrack;！UICONTROL项目的自定义小时类型，并且您将其更改为[!UICONTROL 常规]，则所有现有的任务、问题和项目小时数都会设置为它们的系统默认类型。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL计为收入]</td> 
+      <td role="rowheader">[!UICONTROL 计为收入]</td> 
       <td><p>如果您希望与此小时类型关联的小时条目影响您的收入计算，请选择此选项。</p>
       <p>病假和休假时间不能计为收入。</p>
       <p><b>注释</b></p>

@@ -42,12 +42,12 @@ ht-degree: 0%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>文章的完成点数或小时数以及分配给文章的点数或小时数<br>这些数字用于计算并显示每个文章的[！UICONTROL完成百分比]。</p> </td> 
+   <td> <p>文章的完成点数或小时数以及分配给文章的点数或小时数<br>这些数字用于计算并显示每个文章的[!UICONTROL 完成百分比]。</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>每个故事和问题的[！UICONTROL完成百分比]。<br>迭代的[！UICONTROL完成百分比]是根据每个故事的[！UICONTROL完成百分比]计算的。</p> <p>更新故事或问题的[！UICONTROL完成百分比]时，您可以选择介于0和100之间的任意数字。</p> </td> 
+   <td> <p>每个故事和问题的[!UICONTROL 完成百分比]。<br>迭代的[!UICONTROL 完成百分比]是根据每个故事的[!UICONTROL 完成百分比]计算的。</p> <p>更新故事或问题的[!UICONTROL 完成百分比]时，您可以选择介于0和100之间的任意数字。</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -62,7 +62,7 @@ ht-degree: 0%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>可能已通过修改Agile视图而添加到Agile视图的任何其他字段（包括自定义字段），如[！UICONTROL Adobe Workfront]<a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">中的</a>视图概述中的“创建和自定义[！UICONTROL Agile]视图”中所述。</p> </td> 
+   <td> <p>可能已通过修改Agile视图而添加到Agile视图的任何其他字段（包括自定义字段），如[!UICONTROL Adobe Workfront]<a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">中的</a>视图概述中的“创建和自定义[!UICONTROL Agile]视图”中所述。</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -83,13 +83,13 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>新文档： [！UICONTROL Standard]</p> 
+   <td> <p>新文档： [!UICONTROL Standard]</p> 
    或
-   <p>当前： [！UICONTROL Work]或更高版本</p> </td> 
+   <p>当前： [!UICONTROL Work]或更高版本</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">对象权限</td> 
-   <td>[！UICONTROL Contribute]或[！UICONTROL Manage]对任务或问题的访问权限</td> 
+   <td>[!UICONTROL Contribute]或[!UICONTROL Manage]对任务或问题的访问权限</td> 
   </tr>
  </tbody> 
 </table>

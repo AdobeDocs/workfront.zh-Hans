@@ -59,7 +59,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您可以从Web应用程序和移动应用程序中查看所有应用程序内通知。 在移动应用程序中，只有其中的一些通知会作为推送通知发送。 有关移动应用中的通知的更多信息，请参阅iOS的[[!DNL Adobe Workfront] ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)或Android的[[!DNL Adobe Workfront] ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)。
+>您可以从Web应用程序和移动应用程序中查看所有应用程序内通知。 在移动应用程序中，只有其中的一些通知会作为推送通知发送。 有关移动应用中的通知的更多信息，请参阅iOS的[[!DNL Adobe Workfront] &#x200B;](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)或Android的[[!DNL Adobe Workfront] &#x200B;](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)。
 
 1. 单击![右上角的编号图标](assets/notifications-icon-jewel.jpg)通知图标[!DNL Workfront]打开您的通知列表。
 

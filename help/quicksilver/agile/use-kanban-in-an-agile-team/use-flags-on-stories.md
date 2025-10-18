@@ -62,7 +62,7 @@ ht-degree: 0%
 
 1. 转到[!UICONTROL Kanban]展示板，您要在该展示板上更改文章的标志。
 1. 展开故事拼贴以查看标志。
-默认情况下，每个文章的标志均设置为**[!UICONTROL 跟踪]**。
+默认情况下，每个文章的标志均设置为&#x200B;**[!UICONTROL 跟踪]**。
    ![看板卡](assets/agile-storycard-kanban-2021-350x308.png)
 
 1. 单击当前标志，然后从以下标志选项中选择：

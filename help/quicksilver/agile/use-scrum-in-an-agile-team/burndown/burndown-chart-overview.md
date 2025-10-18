@@ -58,12 +58,12 @@ ht-degree: 0%
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="工作用绿点烧毁"> </td> 
    <td> <p>每当工作燃尽时，实际燃尽率上都会显示一个绿色或红色圆点。 （当当当天的实际燃尽率为红色时，圆点为红色；当当当天的实际燃尽率为绿色时，圆点为绿色。）</p> <p>出现以下任何情况时，工作都会被烧毁：</p> 
     <ul> 
-     <li> [！UICONTROL完成百分比]在文章中会增加。<br>[！UICONTROL完成百分比]在以下情况下增加： 
+     <li> [!UICONTROL 完成百分比]在文章中会增加。<br>[!UICONTROL 完成百分比]在以下情况下增加： 
       <ul> 
        <li> <p>手动更改</p> </li> 
        <li> <p>在文章中更新了点数或小时数</p> </li> 
       </ul></li>  
-     <li>故事的状态已更改为[！UICONTROL结束]</li> 
+     <li>故事的状态已更改为[!UICONTROL 结束]</li> 
     </ul> </td> 
   </tr> 
  </tbody> 

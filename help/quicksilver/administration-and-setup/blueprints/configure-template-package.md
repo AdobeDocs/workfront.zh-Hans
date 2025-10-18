@@ -89,19 +89,19 @@ ht-degree: 0%
 
    <table style="table-layout:auto">
     <tr>
-        <td><strong>[！UICONTROL模板所有者]<strong></td>
-        <td>此人将获得模板的[！UICONTROL管理]权限，并在使用模板创建项目时成为项目所有者。</td>
+        <td><strong>[!UICONTROL 模板所有者]<strong></td>
+        <td>此人将获得模板的[!UICONTROL 管理]权限，并在使用模板创建项目时成为项目所有者。</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL模板发起人]</strong></td>
+        <td><strong>[!UICONTROL 模板发起人]</strong></td>
         <td>此人通常是需要了解项目进展情况的经理、执行人员或利益相关者。 项目发起人不再获得对项目的任何其他访问权限，而是添加到项目的电子邮件通知中。</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL Portfolio]</strong></td>
+        <td><strong>[!UICONTROL Portfolio]</strong></td>
         <td>这是项目在创建时将属于的项目组合。</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL项目]</strong></td>
+        <td><strong>[!UICONTROL 项目]</strong></td>
         <td>这是项目在创建后所属的程序。</td>
     </tr>
    </table>
@@ -132,7 +132,7 @@ ht-degree: 0%
 
    >[!INFO]
    >
-   >**示例：**此Blueprint中的新问题首选项提供了四个队列主题。 用户在创建问题时选择以下主题之一。 （由于只有一个主题组，因此将自动应用该主题组，用户无需选择它。） 当用户完成并提交问题时，传送规则将确定它被分配给哪个工作角色或团队。
+   >**示例：**&#x200B;此Blueprint中的新问题首选项提供了四个队列主题。 用户在创建问题时选择以下主题之一。 （由于只有一个主题组，因此将自动应用该主题组，用户无需选择它。） 当用户完成并提交问题时，传送规则将确定它被分配给哪个工作角色或团队。
    >![新问题偏好设置示例](assets/Blueprints_IssuePrefsDetails.png)
    >![新问题的队列主题](assets/blueprints-newissueqtopicsexample-350x204.png)
    >![问题已路由到工作角色](assets/Blueprints_ProjectShowsIssueAssignment.png)
