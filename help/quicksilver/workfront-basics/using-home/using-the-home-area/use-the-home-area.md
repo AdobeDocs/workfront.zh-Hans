@@ -7,9 +7,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+source-git-commit: e05b15bbb9e9148cc6f2940ae33f7ea9f98b7444
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,7 @@ ht-degree: 0%
 * [使用[!UICONTROL 我的更新]区域](../../../workfront-basics/using-home/using-the-home-area/my-updates-area.md)
 * [在[!UICONTROL 主页]区域的[!UICONTROL 工作列表]中显示项目](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
 * [主页小组件过滤器概述](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)
+* [使用我的审批构件管理您的审批](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-approvals-widget.md)
 * [在[!UICONTROL 主页]区域管理工作和团队请求](../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
 * [在[!UICONTROL 主页]区域更新或编辑工作项](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
 * [从[!UICONTROL 主页]区域创建工作项和项目](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
