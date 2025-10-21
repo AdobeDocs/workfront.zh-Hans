@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 0841594c855c39fedf4eab5492994ff4f7acfbdf
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 1%
@@ -33,7 +33,7 @@ ht-degree: 1%
 >
 >Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].
 >
->  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/cn/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
@@ -107,19 +107,19 @@ ht-degree: 1%
    * 任务、问题、项目、项目组合
    * 仪表板
 
-  <!--
+<!--
      >[!NOTE]
      >
      >You also lose access to custom sections that contained dashboards associated to the deleted user.  
      >To learn more, see the [How do I access a dashboard that contains a report owned by a deleted user?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) section of the [Reports FAQs](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) article.
-     -->
+-->
 
-   * 更新
-   * 小时
+* 更新
+* 小时
 
-     >[!NOTE]
-     >
-     >这些对象仍保留在Workfront中，但对象的所有者现在为空。
+  >[!NOTE]
+  >
+  >这些对象仍保留在Workfront中，但对象的所有者现在为空。
 
 * 如果用户在“全局导航栏”的“文档”区域下上载了任何文档，则也会删除这些文档。
 * 如果用户已签出他们拥有的文档，并且文档上载到主文档区域（从主菜单访问），则文档将随用户一起删除。 有关签出文档的更多信息，请参阅[签出文档](../../../documents/managing-documents/check-out-documents.md)。

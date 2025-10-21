@@ -7,7 +7,7 @@ description: 您可以创建您有权访问的任何报表的副本。 您可以
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 0841594c855c39fedf4eab5492994ff4f7acfbdf
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 0%
@@ -71,7 +71,7 @@ ht-degree: 0%
 
    ![复制报告](assets/unshimmed-report-actions-copy.png)
 
-   原始报告的副本是使用原始报告的默认名称&#x200B;_[名称] （副本）_&#x200B;创建的。 例如，报告“第4季度完成的任务”的副本将被命名为“第4季度完成的任务（副本）”。
+   使用原始报告的&#x200B;_[名称]_ _（副本）_&#x200B;的默认名称创建原始报告的副本。 例如，报告“第4季度完成的任务”的副本将被命名为“第4季度完成的任务（副本）”。
 
 1. （可选）要重命名报表，请单击&#x200B;**报表操作**，然后单击&#x200B;**编辑**。 在左上角的文本框中键入新名称，完成后，单击&#x200B;**保存+关闭**。
 

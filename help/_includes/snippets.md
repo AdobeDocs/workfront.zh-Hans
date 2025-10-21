@@ -1,5 +1,5 @@
 ---
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 0841594c855c39fedf4eab5492994ff4f7acfbdf
 workflow-type: tm+mt
 source-wordcount: '2607'
 ht-degree: 1%
@@ -170,6 +170,7 @@ ht-degree: 1%
 ## 先决条件 {#cc-install-prereq}
 
 您必须为您正在使用的 Adobe Creative Cloud 应用程序安装正确的插件：
+
 * 对于Photoshop，请参阅[安装适用于Photoshop的Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * 对于XD，请参阅[安装适用于XD的Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
 * 对于InDesign、Illustrator、Premiere Pro和After Effects，请参阅[安装Adobe Workfront以进行设计和视频](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
@@ -369,6 +370,7 @@ ht-degree: 1%
 ## 最新DPV版本 {#latest-version}
 
 **最新版本**：
+
 * Mac：截至2025年7月31日，2.1.52
 * Windows：2025年7月31日的2.1.52
 
