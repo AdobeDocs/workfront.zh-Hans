@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -157,12 +157,15 @@ ht-degree: 0%
 {{step1-to-planning}}
 
 您上次访问的工作区随即打开。
+
 1. 单击记录类型卡片。
 
    此时将打开记录类型页面。
+
 1. （视情况而定）从表右上角的&#x200B;**视图**&#x200B;下拉菜单中，选择一个表视图。 这应为默认视图，除非您在上次访问时查看了时间轴视图中的记录类型。
 
    与所选记录类型关联的记录将显示在表格视图中。
+
 1. 右键单击记录行
 
    或

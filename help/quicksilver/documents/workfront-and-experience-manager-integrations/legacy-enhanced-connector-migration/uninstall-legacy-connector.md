@@ -6,7 +6,7 @@ description: 文本
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4b3834bf-2e6d-4588-8d77-671e14390115
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -15,14 +15,16 @@ ht-degree: 0%
 
 # 使用Adobe Experience Manager旧版连接器卸载Workfront
 
-您必须将Workfront与Adobe Experience Manager旧版连接器卸载到连接Workfront和Adobe Experience Manager Assetsas a Cloud Service的最新本机集成。
+您必须将Workfront与Adobe Experience Manager的旧版连接器卸载到连接Workfront和Adobe Experience Manager Assets as a Cloud Service的最新本机集成。
 
 ## 取消订阅Workfront
 
-1. 打开AdobeExperience Manger。
-1. 在Experience Manager中，转到&#x200B;**Cloud Service** > **工具** > **Workfront集成配置**。
+1. 打开Adobe Experience Manger。
+1. 在Experience Manager中，转到&#x200B;**工具** > **Cloud Services** > **Workfront集成配置**。
 1. 选择您的配置（默认为global-workfront），然后单击&#x200B;**属性**。
+
    ![取消订阅workfront](assets/unsubscribe-from-workfront.png)
+
 1. 禁用文档、注释和元数据同步。 该标签天应为“禁用”。
 这将删除Workfront中的订阅，并允许用户使用Day CQ Link Externalizer中定义的相同URL创建新订阅。
 
@@ -31,6 +33,7 @@ ht-degree: 0%
 现在，在删除订阅后，可以安全地删除Workfront集成配置。
 
 1. 打开配置，然后选择&#x200B;**删除**。
+
    ![删除配置](assets/delete-wf-configuration.png)
 
 ## 删除映射
@@ -53,7 +56,7 @@ ht-degree: 0%
 
 ## Day CQ链接外部化器
 
-如果您不需要Day CQ Link Externalizer，可以通过转到`/system/console/configMgr`并查找“Day CQ Link Externalizer”将此链接还原为`localhost:4502`。
+如果您不需要Day CQ Link Externalizer，可以通过转到`localhost:4502`并查找“Day CQ Link Externalizer”将此链接还原为`/system/console/configMgr`。
 
 >[!NOTE]
 >

@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 0%
@@ -26,11 +26,8 @@ ht-degree: 0%
 ## Adobe Workfront增强功能
 
 * [项目和资源管理增强功能](#project-and-resource-management-enhancements)
-
 * [Agile增强功能](#agile-enhancements)
-
 * [移动增强功能](#mobile-enhancements)
-
 * [其他增强功能](#other-enhancements)
 
 ### 项目和资源管理增强功能
@@ -51,7 +48,7 @@ ht-degree: 0%
                 </tr>
                  <tr>
                     <td>
-                        在工作负载均衡器</a>中批量分配项目时，<a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">辅助工作角色已添加到其他分配列表中</p>
+                        在工作负载均衡器<a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">中批量分配项目时，</a>辅助工作角色已添加到其他分配列表中</p>
                         <p>在“角色分配”字段中选择工作角色后，在工作负载均衡器中批量分配用户时，“要分配的用户”字段的“其他分配”列表中填充的用户列表现在将显示与每个用户在其名称下关联的所有工作角色。 在此增强功能之前，仅显示用户的主要角色。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -524,7 +521,7 @@ Workfront Goals 23.1版本中的新增功能即将发布到目标版本中。 �
 
 ### Workfront 维护更新
 
-有关22.3版本期间所做的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/zh-hans/docs/workfront-known-issues/releases/current-updates)。
+有关22.3版本期间所做的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)。
 
 ### 培训更新
 
@@ -556,6 +553,7 @@ Workfront Goals 23.1版本中的新增功能即将发布到目标版本中。 �
 我们正在将适用于Illustrator和InDesign的[Workfront扩展](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)替换为更新的Creative Cloud插件。 从2022年末开始，此扩展将不再可用于在Adobe Exchange中安装。
 
 此扩展中的功能以及几项增强功能在更新的Adobe Workfront for Creative Cloud插件中提供：
+
 * [适用于Photoshop的Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * [适用于XD的Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
 * [Adobe Workfront设计和视频](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)

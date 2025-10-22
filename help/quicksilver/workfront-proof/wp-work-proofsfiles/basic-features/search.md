@@ -8,7 +8,7 @@ description: 您可以在Workfront Proof网站中搜索内容。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1596b3d2-d513-4e36-98b7-92e349aca5bc
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 1%
@@ -46,11 +46,14 @@ ht-degree: 1%
 
 1. （可选）在显示的搜索结果中，单击列顶部的标题可按列排序。 （可选）通过单击标题行末尾的[!UICONTROL 搜索]图标，为结果添加筛选。 ![Search_filter_in_Search_results.png](assets/search-filter-in-search-results-350x90.png)
 
-这会添加下拉菜单，您可以在其中选择过滤器以缩小搜索范围。
-1. ![Search_filter_boxes_appear_in_Search_results.png](assets/search-filter-boxes-appear-in-search-results-350x154.png)
+   这会添加下拉菜单，您可以在其中选择过滤器以缩小搜索范围。
 
-1. （可选）通过打开[!UICONTROL 标记]选项卡并单击左侧导航侧边栏中的标记来缩小搜索范围。 与该标记相关的项目会显示在搜索结果中。\
-   ![Searching_by_tag.png](assets/searching-by-tag-350x209.png)\
+   ![Search_filter_boxes_appear_in_Search_results.png](assets/search-filter-boxes-appear-in-search-results-350x154.png)
+
+1. （可选）通过打开[!UICONTROL 标记]选项卡并单击左侧导航侧边栏中的标记来缩小搜索范围。 与该标记相关的项目会显示在搜索结果中。
+
+   ![Searching_by_tag.png](assets/searching-by-tag-350x209.png)
+
    标记名称显示在Workfront Proof右上角的搜索字段中。 您可以通过选择其他标记或在搜索字段中键入更多关键字来优化搜索。 您可以通过单击标记名称旁边的x图标，从搜索字段中移除标记。
 
 有关在验证内容中搜索文本的信息，请参阅[在验证中搜索内容](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md)。

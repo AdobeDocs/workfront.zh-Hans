@@ -7,7 +7,7 @@ description: Adobe Workfront管理员向您授予对Adobe Workfront目标的正�
 author: Alina
 feature: Workfront Goals
 exl-id: 922a05f9-2995-4401-a6d2-e5a331270fd3
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 1%
@@ -241,9 +241,10 @@ Editing activities differs depending on which environment you use.
    ![编辑活动框](assets/edit-activity-box-unshimmed.png)
 
 1. 编辑以下信息：
+
    * **活动名称**：活动的名称。 使用说明性名称，说明应该执行哪些活动以指示目标完成。
-   * **活动所有者：**&#x200B;该活动的所有者。 所有者必须是活动的Workfront用户。\
-     有关活动字段的详细信息，请参阅[将活动添加到目标](../results-and-activities/add-activities-to-goals.md)。
+   * **活动所有者：**&#x200B;该活动的所有者。 所有者必须是活动的Workfront用户。
+
+   有关活动字段的详细信息，请参阅[将活动添加到目标](../results-and-activities/add-activities-to-goals.md)。
+
 1. 单击&#x200B;**保存**。
-
-

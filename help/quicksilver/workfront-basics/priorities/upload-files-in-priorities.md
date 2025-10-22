@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 1. （可选）在&#x200B;**上传文件**&#x200B;框中，选择一个文件夹。
 1. 拖放文件或按Cmd/Ctrl + V以从剪贴板粘贴
 或
-单击&#x200B;**添加文件**&#x200B;浏览文件或从Document Cloud提供程序导入文件。
+单击**添加文件**浏览文件或从Document Cloud提供程序导入文件。
    ![添加文件](assets/add-files.png)
 1. （可选）添加评论。
 1. （可选）添加更多文件。
@@ -75,14 +75,19 @@ ht-degree: 0%
 1. 单击工作项名称以打开&#x200B;**概述**&#x200B;页面。
 1. 在&#x200B;**快速操作**&#x200B;部分中，单击&#x200B;**上传**，然后选择&#x200B;**文档**。
 1. （可选）在&#x200B;**上传文件**&#x200B;框中，选择一个文件夹。
-1. 拖放文件或按Cmd/Ctrl + V以从剪贴板粘贴
-或
-单击&#x200B;**添加文件**&#x200B;浏览文件或从Document Cloud提供程序导入文件。
+1. 拖放文件或按 Cmd/Ctrl + V 以从剪贴板进行粘贴
+
+   或
+
+   单击&#x200B;**添加文件**&#x200B;浏览文件或从Document Cloud提供程序导入文件。
+
    ![添加文件](assets/add-files.png)
+
 1. （可选）添加评论。
 1. （可选）添加更多文件。
 
    >[!NOTE]
    >
    >其他文件作为单独的文档上传。
+
 1. 单击&#x200B;**上传**。

@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8a55d364-962a-4eef-8968-b2233a71cf31
-source-git-commit: 75fea812b4574191522af4721a013b57aa5d609f
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 1%
@@ -30,9 +30,7 @@ ht-degree: 1%
 >[!NOTE]
 >
 >如果您组织的Workfront实例使用自定义SSO门户，则此项不可用。>
-><!--
->or is enabled with Adobe IMS>
->-->
+>
 >如果需要更多信息，请咨询您的网络或IT管理员。
 
 ## 访问要求

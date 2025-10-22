@@ -7,7 +7,7 @@ description: 预算执行工作成本(BCWP)也称为实现值，是一个项目�
 author: Lisa
 feature: Work Management
 exl-id: 203709a7-e522-4875-b3eb-40b967a938ec
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 0%
@@ -85,7 +85,7 @@ Adobe Workfront计算项目和任务的已执行工作预算成本(BCWP)。
 
 1. 单击&#x200B;**保存更改**。
 
-项目上任务的BCWP使用小时数或成本计算。
+   项目上任务的BCWP使用小时数或成本计算。
 
 ## 计算BCWP
 

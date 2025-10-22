@@ -6,7 +6,7 @@ description: 将 [!DNL Adobe Workfront] 与 [!DNL Slack] 集成允许您从Slack
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5f531217-3bd6-4156-8b9f-eabc95d4df10
-source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 1%
@@ -188,7 +188,7 @@ ht-degree: 1%
 
      将您从[!DNL Workfront]登录到[!DNL Slack]。
 
-   * `/wf log out `
+   * `/wf log out`
 
      将您从[!DNL Workfront]注销[!DNL Slack]。 如果您在另一个应用程序的另一个浏览器选项卡中打开了单独的[!DNL Workfront]实例，则您仍会登录到[!DNL Workfront]。
    * `/wf settings`

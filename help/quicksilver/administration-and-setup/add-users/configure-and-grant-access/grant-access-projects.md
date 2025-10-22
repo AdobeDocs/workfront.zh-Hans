@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ba6a9e68-68a1-4152-b024-cd39e06d556f
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 0%
@@ -20,6 +20,7 @@ ht-degree: 0%
 <!-- Audited: 12/2023 -->
 
 作为Adobe Workfront管理员，您可以使用访问级别来定义用户对项目的访问权限，如以下文章所述：
+
 * [访问级别概述](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
 * [新访问级别概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
 

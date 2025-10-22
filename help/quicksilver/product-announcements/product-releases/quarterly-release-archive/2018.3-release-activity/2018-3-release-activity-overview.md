@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 55787c1e-45af-4b9f-bdbc-10cfacb326e6
-source-git-commit: 3ac15b6527a727cfe95075405fa19164c06b102f
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 > 2018.3版本在以下日期在“生产”环境中提供(有关详细日期和时间，请参阅trust.workfront.com)：
 
 * *Workfront Proof生产环境 — 11月6日*
-* *用于群集2和4的Workfront生产环境*
+* 群集2和4 *的* Workfront生产环境
 * *群集1、3和5*&#x200B;的Workfront生产环境
 
 2018.3版本包含面向Workfront管理员和其他用户的增强功能：

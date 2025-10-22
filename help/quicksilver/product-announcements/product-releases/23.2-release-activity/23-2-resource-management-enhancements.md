@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b225ae19-eee7-4329-a42d-2a2bf9adad01
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 0%
@@ -36,9 +36,9 @@ ht-degree: 0%
 作为本次更新的结果，Workfront将使用以下公式计算用户可用性，具体取决于您在“资源管理”首选项区域中的选择：
 
 * 默认计划：
-* 用户产能= [（计划小时数 — 计划例外） * FTE — 休息时间] *工作时间
+* 用户产能= [（计划小时数 — 计划异常） `*` FTE — 休息时间] `*`工作时间
 * 用户计划：
-* 用户能力=（计划小时数 — 计划例外 — 休息时间）*工作时间。
+* 用户产能= （计划小时数 — 计划例外 — 休息时间） `*`工作时间。
 
 有关详细信息，请参阅[配置[!UICONTROL 资源管理]首选项](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)。
 

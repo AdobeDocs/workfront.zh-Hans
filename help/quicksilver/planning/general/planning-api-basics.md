@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1009'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -202,7 +202,7 @@ Workfront Planning支持以下搜索修饰符：
 | 日期 | $is， $isNot， $isAfter， $isBefore， $isBetween， $isNotBetween， $isEmpty， $isNotEmpty |
 | 单选 | $is， $isNot， $isAnyOf， $isNoneOf， $isEmpty， $isNotEmpty |
 | 多选 | $hasAnyOf， $hasAllOf， $isExactly， $hasNoneOf， $isEmpty， $isNotEmpty |
-| 布尔值 | $is |
+| 布尔 | $is |
 | 用户 | $hasAnyOf， $hasAllOf， $isExactly， $hasNoneOf， $isEmpty， $isNotEmpty |
 | 公式 | $contains， $doesNotContain， $is， $isNot， $isEmpty， $isNotEmpty |
 | url | $contains， $doesNotContain， $is， $isNot， $isEmpty， $isNotEmpty |
@@ -349,7 +349,7 @@ Workfront Planning支持以下搜索修饰符：
 
 例如，如果要返回结果2001-4000，可以使用以下请求。 此示例返回2000条处于活动状态的记录，从2001年的结果开始：
 
-`POST /v1/records/search `
+`POST /v1/records/search`
 
 
 

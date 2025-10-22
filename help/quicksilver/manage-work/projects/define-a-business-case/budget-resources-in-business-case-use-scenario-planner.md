@@ -5,7 +5,7 @@ description: 作为资源计划的一部分，您可以在构建业务案例时�
 author: Becky
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 1%
@@ -109,11 +109,12 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >您可以按15年的周期预算您的资源。 如果您为工期超过15年的项目预算资源，预算信息可能不准确。
-><!--
+
+<!--
 ><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">>
 >(is this still accurate for the Scenario Planner?)>
 ></MadCap:conditionalText>>
->-->
+-->
 
 1. 转到要为其预算资源的项目。
 

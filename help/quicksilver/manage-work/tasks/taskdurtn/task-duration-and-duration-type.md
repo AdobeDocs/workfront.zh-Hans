@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
-source-wordcount: '1649'
+source-wordcount: '1653'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 1%
 >[!BEGINSHADEBOX]
 
 **示例**
-如果您的计划从上午9:00开始到中午12:00结束，并且任务计划从下午2:00开始到下午4:00结束，则任务的持续时间为零。
+如果您的计划从上午9:00开始到下午12:00结束，并且任务计划从下午2:00开始到下午4:00结束，则任务的持续时间为零。
 
 
 >[!ENDSHADEBOX]
@@ -73,11 +73,11 @@ ht-degree: 1%
 
 | 时间单位 | 缩写 |
 |---|---|
-| 分钟 | 一 |
+| Minutes | 一 |
 | 小时 | H |
 | 天。 这是默认设置。 | D |
-| 周 | 星期- |
-| 月 | T， MO |
+| Weeks | 星期- |
+| Months | T， MO |
 | 经过的分钟数 | EM |
 | 经过的小时数 | EH |
 | 经过的天数 | ED |

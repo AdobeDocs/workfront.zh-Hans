@@ -6,7 +6,7 @@ description: 在验证查看者中评论验证时，您可以标记其他用户�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4efbfdeb-3834-48dd-aa5b-515891bac519
-source-git-commit: fe269b088c82e7045ffbb5155d54432e0b413cbe
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 0%
@@ -64,10 +64,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->仅当满足以下任一条件时，才可以使用外部协作者的电子邮件地址为其添加标记：>
+>仅当满足以下任一条件时，您才可以使用外部协作者的电子邮件地址为其添加标记：
+>
 >* 您组织的Workfront帐户中的用户之前已将协作者电子邮件地址添加到验证中。
 >* 协作者之前使用电子邮件地址订阅了您组织的Workfront帐户中的验证。
->
 
 要标记某人并在评论中共享验证，请执行以下操作：
 

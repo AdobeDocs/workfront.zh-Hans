@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements, Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: c76c2dba-1497-414a-8979-712f093efd73
-source-git-commit: 517c080ed4e6096ac0a2028125d62d33b2db2359
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -31,11 +31,11 @@ in January 2022
 
 >[!NOTE]
 >
->仅向2021年7月6日之前创建的具有集成校对的EMEA客户发布。 此功能从1月13日开始分阶段推出，到1月17日结束，适用于以下客户：>
+>仅向2021年7月6日之前创建的具有集成校对的EMEA客户发布。 此功能从1月13日开始分阶段推出，到1月17日结束，适用于以下客户：
+>
 >* 具有集成和独立校对功能的EMEA客户
 >* 2021年7月6日之后创建的具有集成校对的EMEA客户
 >* 所有美国客户
->
 
 为了在Workfront和Proof之间提供更集成的体验，我们针对查看者和请求者的校对功能进行了几项改进：
 

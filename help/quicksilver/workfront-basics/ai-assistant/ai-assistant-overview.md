@@ -5,7 +5,7 @@ description: 了解Adobe Workfront中的AI助手
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 657c2aa75d088f87f8e05b5089fccae2577842ee
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 1%
@@ -149,7 +149,7 @@ AI助手当前提供以下功能：
 | 关键词 | 效果 |
 |---|---|
 | `workfront` | 与Workfront交互。 |
-| `planning ` | 与Workfront Planning交互。 |
+| `planning` | 与Workfront Planning交互。 |
 | `help` | 从Experience League文档返回信息。 |
 | `formula` | 检查并返回用于Planning、设置或自定义表单的公式。 |
 | `health` | 使用项目运行状况顾问检查项目运行状况。 |

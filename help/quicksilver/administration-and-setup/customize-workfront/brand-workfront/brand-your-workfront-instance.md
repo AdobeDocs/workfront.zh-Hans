@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: 17aaf70977aa6ce0276676c6a30fd6c951be956c
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 2%
@@ -48,10 +48,8 @@ ht-degree: 2%
 >[!NOTE]
 >
 >* 如果您组织的Workfront实例使用自定义SSO门户，则更改登录背景图像和颜色将不可用。 如果需要更多信息，请咨询您的网络或IT管理员。
-><!--
->or is enabled with Adobe IMS  >
->  >
->-->
+>
+><!-- or is enabled with Adobe IMS -->
 >
 >* Workfront管理员或组管理员还可以使用布局模板为某些组和用户设置Workfront品牌。 布局模板中的品牌策略会覆盖本文中介绍的系统级品牌策略。 有关在布局模板中进行品牌化的说明，请参阅[使用布局模板创建Adobe Workfront](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)。
 
@@ -134,10 +132,8 @@ ht-degree: 2%
    >[!NOTE]
    >
    >如果您组织的Workfront实例使用自定义SSO门户，则此项不可用。
-   ><!--   >
-   >or is enabled with Adobe IMS   >
-   >   >
-   >-->
+   >
+   ><!--  or is enabled with Adobe IMS -->
    >
    >如果需要更多信息，请咨询您的网络或IT管理员。
 

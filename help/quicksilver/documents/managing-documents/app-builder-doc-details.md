@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: dcdae47ffd4a02ac9a0bbd3cd9bd1418f6c59e1a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1357'
 ht-degree: 0%
@@ -92,41 +92,56 @@ ht-degree: 0%
 Adobe提供了一个开源CLI，可用于帮助创建App Builder应用程序。 可以在此处找到文档： [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli)以及Adobe App Builder说明[https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app)。
 
 1. 安装
-   1. 要安装该工具，（确保您首先在节点v18上）运行： `npm install -g @adobe/aio-cli `。
+
+   1. 要安装该工具，（确保您首先在节点v18上）运行： `npm install -g @adobe/aio-cli`。
 
 1. 在终端中进行身份验证
+
    1. 启动终端并使用以下命令登录AIO： `aio login`。
 
 1. 初始化应用程序
+
    1. 通过运行`aio app init example-app`开始设置您的应用程序。
 
 1. 配置选择
-   1. 继续从提供的选项中选择您的组织和项目。\
+
+   1. 继续从提供的选项中选择您的组织和项目。
+
       ![选择组织](assets/select-org.png)
+
       ![选择项目](assets/select-project.png)
 
 1. 模板选择和设置
+
    1. 浏览所有可用的模板，并为您的项目选择&#x200B;**@adobe/aem-cf-editor-ui-ext-tpl**&#x200B;模板。
+
       ![搜索模板](assets/search-template.png)
+
       ![选择模板](assets/select-template.png)
 
 1. 定义扩展
+
    1. 命名扩展。
    1. 提供扩展功能的描述性摘要。
    1. 选择要开始的初始版本号。
    1. 选择&#x200B;**我已完成**&#x200B;以确认完成。
-      ![定义扩展](assets/define-extension.png)
+
+   ![定义扩展](assets/define-extension.png)
 
 1. 导航到您的项目文件夹
+
    1. 访问src文件夹
+
    1. 将文件夹`aem-cf-editor-1`重命名为`workfront-doc-details-1`。
 
 1. 修改配置文件
+
    1. 打开app.config.yaml
    1. 将行从`aem/cf-editor/1`更新为`workfront/doc-details/1`。
    1. 将包含路径从`src/aem-cf-editor-1/ext.config.yaml`调整为`src/workfront-doc-details-1/ext.config.yaml`。
 
 1. 编辑扩展注册组件
+
    1. 打开`src/workfront-doc-details-1/web-src/src/components/ExtensionRegistration.js`。
    1. 在方法部分中，添加包含异步函数`secondaryNav`的函数`getButtons`。
    1. `getButtons`应接收具有以下结构的对象：
@@ -317,20 +332,22 @@ Adobe提供了一个开源CLI，可用于帮助创建App Builder应用程序。 
 要在Workfront中加载来宾应用程序，需要将该应用程序推送到生产工作区并提交以供审批。
 
 1. 将应用程序部署到生产工作区
-   1. `aio app use -w Production `
-   1. `aio app deploy `
+
+   1. `aio app use -w Production`
+   1. `aio app deploy`
 
 1. 导航到[https://developer-stage.adobe.com/](https://developer-stage.adobe.com/)或[https://developer.adobe.com/](https://developer.adobe.com/)。
+
    1. 单击右上角的&#x200B;**控制台**。
 
 1. 查找用于创建AppBuilder应用程序的项目。
-
 1. 选择生产Workspace。
+
    ![选择生产工作区](assets/find-application.png)
 
 1. 提交隐私审查申请（您会收到我们未发布到App Exchange Marketplace的警告，没有问题）。
-
 1. 填写表单（标题、描述、图标和审阅人注释）。
+
    ![填写私人审阅表单](assets/submission-details.png)
 
 >[!IMPORTANT]

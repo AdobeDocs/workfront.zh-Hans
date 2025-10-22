@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
-source-git-commit: f9a154fa92217810b762ac48169512bc0bca7305
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '811'
 ht-degree: 0%
@@ -118,11 +118,8 @@ PKCE生成器代码创建与以下内容类似的输出：
   有关说明，请参阅为Workfront集成创建OAuth2应用程序中的使用PKCE创建OAuth2单页Web应用程序。
 
 * `response_type`是`code`，因为应用程序使用授权代码授予类型。
-
 * `redirect_uri`是用户代理与`code`一起被定向到的回调位置。 此名称必须匹配您在创建OAuth2应用程序时指定的重定向URL之一。
-
 * `code_challenge_method`是用于生成质询的哈希方法，对于使用PKCE的Workfront Oauth2应用程序，此方法始终为`S256`。
-
 * `code_challenge`是用于PKCE的代码质询。
 
 

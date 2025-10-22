@@ -6,7 +6,7 @@ description: 您可以从Adobe Workfront Marketplace安装适用于Photoshop的A
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 2%
@@ -36,16 +36,6 @@ ht-degree: 2%
  <col> 
  <col> 
  <tbody> 
-  <!--<tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
-   <td>Any</td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td> 
-   <p>Standard</p>
-   <p>Work or higher</p> </td> 
-  </tr> -->
   <tr> 
    <td role="rowheader">其他产品</td> 
    <td><p>除了[!DNL Adobe Creative Cloud]许可证，您还必须具有[!DNL Workfront]许可证。</p></td> 
@@ -67,7 +57,7 @@ ht-degree: 2%
 
 [在此观看视频教程](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}。
 
-[!DNL Adobe Admin Console]管理员还可以创建仅用于分发给用户的插件包。 有关详细信息，请参阅[中的 [!DNL Adobe Workfront] 为您的用户创建[!UICONTROL [!DNL Creative Cloud]]  for [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)包
+[!DNL Adobe Admin Console]管理员还可以创建仅用于分发给用户的插件包。 有关详细信息，请参阅[中的 [!DNL Adobe Workfront] 为您的用户创建[！UICONTROL [!DNL Creative Cloud]]  for [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)包
 
 ## 单独安装[!DNL Adobe Workfront for Photoshop]插件
 
@@ -109,7 +99,7 @@ ht-degree: 2%
    >* 要查找您的域，请打开浏览器，导航到您的[!DNL Workfront]实例，并复制URL的第一部分：\
    >![查找域](assets/domain-350x50.png)
    >
-   > * 如果您的Workfront实例已与Experience Cloud集成，请要求您的管理员为您提供Admin Console中产品> Workfront下的Workfront域。
+   >* 如果您的Workfront实例已与Experience Cloud集成，请要求您的管理员为您提供Admin Console中产品> Workfront下的Workfront域。
 
 1. 在浏览器中，输入您的[!DNL Workfront]凭据，然后单击&#x200B;**[!UICONTROL 登录]**。 如果贵公司使用单点登录(SSO)，则会将您引导至您的SSO提供商页面以进行登录。
 

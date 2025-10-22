@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1144'
 ht-degree: 1%
@@ -199,11 +199,11 @@ ht-degree: 1%
 | 在时间轴中显示记录 |            | ✓ |             |
 | 筛选记录 | ✓ | ✓ | ✓ |
 | 显示日历中的记录 |           |              | ✓ |
-| 组记录 | ✓ | ✓ |
-| 排序记录 | ✓ |              |
+| 组记录 | ✓ | ✓ |  |
+| 排序记录 | ✓ |              |  |
 | 颜色代码记录 | ✓ | ✓ | ✓ |
-| 颜色代码分组 |           | ✓ |
-| 搜索特定记录 | ✓ | ✓ |
+| 颜色代码分组 |           | ✓ |  |
+| 搜索特定记录 | ✓ | ✓ |  |
 | 与他人共享视图 | ✓ | ✓ | ✓ |
 | 从视图打开记录的页面 | ✓ | ✓ |    |
 | 按年份和季度显示记录 |           | ✓ |    |

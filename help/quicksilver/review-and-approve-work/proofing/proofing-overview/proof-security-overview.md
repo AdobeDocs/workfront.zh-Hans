@@ -7,7 +7,7 @@ description: 您可以为验证添加额外的安全措施。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2f6737d5-627d-463f-8127-504755bd0380
-source-git-commit: 157ab840d63388b342db624824db9538d43b70b1
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 0%
@@ -32,10 +32,10 @@ ht-degree: 0%
 
 >[!TIP]
 >
->要简化登录过程，我们建议在Workfront和Workfront proof中设置SSO。 有关启用SSO的更多信息，请参阅>
+>要简化登录过程，我们建议在Workfront和Workfront proof中设置SSO。 有关启用SSO的详细信息，请参阅
+>
 >* [Workfront中的单点登录：文章索引](../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
 >* [为Workfront Proof用户配置单点登录](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
->
 
 ## 电子签名
 
@@ -47,6 +47,6 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->要使用SSO凭据以电子方式签署验证，您必须在Workfront Proof中设置SSO。 有关启用SSO的更多信息，请参阅>
->* [为Workfront Proof用户配置单点登录](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+>要使用SSO凭据以电子方式签署验证，您必须在Workfront Proof中设置SSO。 有关启用SSO的详细信息，请参阅
 >
+>* [为Workfront Proof用户配置单点登录](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)

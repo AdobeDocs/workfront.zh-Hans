@@ -4,7 +4,7 @@ description: Workfront UI Extensions 由 Adobe App Builder 提供支持，允许
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: 6355bbbabf233a6e3b577c45084236b4a46144e5
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '2178'
 ht-degree: 0%
@@ -112,12 +112,16 @@ GitHub和Adobe Developer网站上提供了其他说明：
 1. 启动终端并使用以下命令登录AIO： `aio login`。 如果您在登录到正确的IMS组织时遇到问题，请尝试`aio login -f`以强制显示登录提示。 使用`aio where`查看您登录到正确IMS组织的组织。 有关详细信息，请使用`aio config`。
 1. 通过运行`aio app init example-app`开始设置应用程序，请确保将“example-app”替换为应用程序名称。 如果您不确定应用程序名称，则可以使用命令`aio console project list`查看应用程序名称列表。
 1. 从提供的选项中选择您的组织和项目。
+
    ![命令结果](assets/1-command-result.png)
    ![选择项目](assets/2-select-a-project.png)
 
 1. 浏览所有可用的模板，并为您的项目选择&#x200B;**@adobe/workfront-ui-ext-tpl**。
+
    ![选择模板](assets/3-choose-template.png)
+
 1. 选择并输入您在Adobe Developer Console中创建的项目名称。
+
    ![选择并输入项目名称](assets/4-select-and-enter-project-name.png)
 
 1. 回答应用程序的提示：
@@ -130,7 +134,9 @@ GitHub和Adobe Developer网站上提供了其他说明：
    ![选择完成](assets/5-select-done.png)
 
 1. 选择“我已完成”以确认完成。 正在从模板生成代码。
+
    正在生成![](assets/6-generation-in-process.png)
+
 1. 等待您看到应用程序初始化已完成的消息。 然后，您可以在IDE中打开该项目（建议使用Visual Studio代码）并访问src文件夹。
 
    有关项目中文件夹和文件的详细信息，请参阅[Adobe开发人员网站](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application)。
@@ -154,13 +160,13 @@ GitHub和Adobe Developer网站上提供了其他说明：
 在ExtensionRegistration函数中，您应该会看到以下代码。 此代码由模板为您创建。 可以添加此代码以创建其他菜单项。 请务必替换ID和URL。
 
     “
-    mainMenu： &lbrace;
+    mainMenu： {
     
-    getItems() &lbrace;
+    getItems() {
     
-    return &lbrack;
+    return [
     
-    &lbrace;
+    {
     
     id： &#39;main-menu-label&#39;，
     
@@ -170,18 +176,20 @@ GitHub和Adobe Developer网站上提供了其他说明：
     
     icon： icon1，
     
-    &rbrace;，
+    }，
     
-    &rbrack;；
+    ]；
     
     ，
     
-    &rbrace;
+    }
     “
 ”
 1. 添加以下代码片段：
+
    ![代码段](assets/7-extension-registration-step1-from-sam.png)
-此示例显示了一个主菜单项。 您必须将ID、标签、图标和URL更新为应用程序的正确名称。 添加多个项目时，请确保ID是唯一的。
+
+   此示例显示了一个主菜单项。 您必须将ID、标签、图标和URL更新为应用程序的正确名称。 添加多个项目时，请确保ID是唯一的。
 
 1. 保存您所做的工作。
 
@@ -193,7 +201,7 @@ GitHub和Adobe Developer网站上提供了其他说明：
 1. 在ExtensionRegistration函数中，添加以下代码片段：
 
    ```
-   secondaryNav: {  
+   secondaryNav: {
    
    TASK: {  
    
@@ -215,7 +223,6 @@ GitHub和Adobe Developer网站上提供了其他说明：
    ![扩展注册](assets/8-extension-registration-file-step2.png)
 
    * 此示例显示了一个名为“我的任务”的左侧面板导航项。 您必须将ID、标签、图标和URL更新为应用程序的正确名称。
-
    * 此示例显示了Project对象类型的左侧面板导航项。 您必须为Workfront中支持的每个对象单独创建这些项目。 以下对象可用：项目、任务、问题、项目组合和项目群。
 
 1. 保存您所做的工作。
@@ -410,7 +417,7 @@ dimensions: {
 
 Workfront的UI扩展共享用户数据。 通过共享上下文提供的用户对象包括Workfront用户ID和用户的电子邮件地址。
 
-`user = (conn?.sharedContext?.get("user")); // {ID: '1', email: 'test@aaa.com'} userID = user.ID userEmail = user.email `
+`user = (conn?.sharedContext?.get("user")); // {ID: '1', email: 'test@aaa.com'} userID = user.ID userEmail = user.email`
 
 ### 应用程序上下文
 
@@ -418,7 +425,7 @@ Workfront的UI扩展共享用户数据。 通过共享上下文提供的用户�
 
 下面是获取文档应用程序上下文的示例：
 
-`context = conn?.sharedContext; // Using the connection created above, grab the document details from the host tunnel. // conn?.host?.document?.getDocumentDetails().then(setDocDetails); `
+`context = conn?.sharedContext; // Using the connection created above, grab the document details from the host tunnel. // conn?.host?.document?.getDocumentDetails().then(setDocDetails);`
 
 ## 在Workfront中测试应用程序
 

@@ -6,9 +6,9 @@ description: 此集成方案共享来自具有 [!DNL Adobe Workfront] 预算列�
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: f9198017-9bbb-4776-86aa-3f78705dbb22
-source-git-commit: d3f234313677d916318c181c91cb951948454006
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '974'
 ht-degree: 1%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 1%
 
 有关此表中信息的更多详细信息，请参阅文档[中的](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)访问要求。
 
-有关Adobe Workfront Fusion许可证的信息，请参阅[Adobe Workfront Fusion许可证](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
+有关Adobe Workfront Fusion许可证的信息，请参阅[Adobe Workfront Fusion许可证](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
 
 ## 触发事件
 
@@ -65,7 +65,7 @@ ht-degree: 1%
 
 [!DNL Workfront]中必须具有下列内容才能使用此方案：
 
-* [!DNL Workfront]中名为&#x200B;*[!UICONTROL *[!DNL Anaplan]集成]**的用户配置文件，具有系统管理员权限。
+* [!DNL Workfront]中名为&#x200B;*Anaplan集成*&#x200B;的用户配置文件，具有系统管理员权限。
 
   有关在[!DNL Workfront]中创建用户的信息，请参阅[添加用户](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)。
 
@@ -182,27 +182,27 @@ ht-degree: 1%
     </thead> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL [!DNL Anaplan] Workspace ID]</td> 
+      <td role="rowheader">[！UICONTROL [!DNL Anaplan] Workspace ID]</td> 
       <td>您要用于此方案的[!DNL Anaplan]帐户中的工作区ID。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL [!DNL Anaplan]模型ID] </td> 
+      <td role="rowheader">[！UICONTROL [!DNL Anaplan]模型ID] </td> 
       <td>[!DNL Anaplan]帐户中的模型ID以及要用于此方案的选定工作区。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 营销活动列表名称]</td> 
+      <td role="rowheader">[！UICONTROL营销活动列表名称]</td> 
       <td>[!DNL Anaplan]帐户中的列表名称，以及要用于此方案的选定工作区和模型。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 文件名：实际费用导入]</td> 
+      <td role="rowheader">[！UICONTROL文件名：实际费用导入]</td> 
       <td> <p>将接收项目实际费用数据的文件的名称。</p> <p> （示例：WorkfrontUpdateLinkedProjects_ActExpenses.csv） </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 文件名：计划费用导入]</td> 
+      <td role="rowheader">[！UICONTROL文件名：计划费用导入]</td> 
       <td> <p>将接收项目计划费用数据的文件的名称。</p> <p> （示例：WorkfrontUpdateLinkedProjects_PlannedExpenses.csv） </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 进程名称：项目更新导入]</td> 
+      <td role="rowheader">[！UICONTROL进程名称：项目更新导入]</td> 
       <td> <p>将执行项目费用数据导入的进程的名称。</p> <p>（示例： WF Int — 加载项目费用）</p> </td> 
      </tr> 
     </tbody> 

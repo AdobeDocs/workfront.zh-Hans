@@ -7,7 +7,7 @@ author: Courtney and Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: d82bb8a2-a2a6-43d6-a62e-e90f69229533
-source-git-commit: 56d0b9281387cc7b35055461e7868c7e4a194f81
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 2%
@@ -18,9 +18,11 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->画布功能板目前仅适用于参与Beta测试阶段的用户。 在此阶段，部分功能可能无法完成或无法按预期工作。 请按照“画布功能板测试版”概述文章中[提供反馈](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)部分的说明提交任何有关您体验的反馈。<br>
->&#x200B;>如果您对可能的错误或技术问题有反馈，请向Workfront支持提交票证。 有关详细信息，请参阅[联系客户支持](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
->&#x200B;>请注意，以下云提供商未提供此测试版：
+>画布功能板目前仅适用于参与Beta测试阶段的用户。 在此阶段，部分功能可能无法完成或无法按预期工作。 请按照“画布功能板测试版”概述文章中[提供反馈](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)部分的说明提交任何有关您体验的反馈。
+>
+>如果您对可能的错误或技术问题有反馈，请向Workfront支持提交票证。 有关详细信息，请参阅[联系客户支持](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。
+>
+>请注意，以下云提供商未提供此测试版：
 >
 >* 自带Amazon Web Services密钥
 >* Azure
@@ -34,30 +36,37 @@ ht-degree: 2%
 ## 先决条件
 
 * 您的组织必须属于Canvas功能板测试版。 有关信息，请参阅[画布功能板测试版信息](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)。
-
 * 您必须拥有计划许可证（当前许可证）或标准许可证（新许可证）才能创建画布功能板。 有关Workfront许可证类型的信息，请参阅[许可证概述](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)或[新许可证概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)。
-
 * 要创建或编辑画布功能板，您的Workfront管理员必须向您授予访问级别中功能板的编辑权限。 有关授予编辑访问权限的信息，请参阅[授予对报告、功能板和日历的访问权限](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)。
 
 ## 画布功能板文章
 
 * Canvas Dashboards测试版
+
    * [Canvas功能板测试版信息](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
+
 * 创建仪表板
+
    * [创建画布功能板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)
+
 * 添加报告
+
    * [将现有报表添加到画布功能板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)
    * [在画布功能板中构建KPI报告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
    * [在画布功能板中构建图表报告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
    * [在画布功能板中构建表报告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
+
 * 管理画布功能板
+
    * [共享画布功能板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
    * [在画布功能板中排列报表](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/arrange-reports-in-dashboard.md)
    * [筛选画布功能板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)
    * [更改画布功能板的名称或描述](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
    * [删除画布功能板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
    * [将画布功能板添加到布局模板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-dashboard-to-layout-template.md)
+
 * 管理报告
+
    * [在画布功能板中编辑报告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
    * [在画布功能板中编辑报告过滤器](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
    * [删除画布仪表板中的报告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)

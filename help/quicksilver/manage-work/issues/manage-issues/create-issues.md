@@ -8,7 +8,7 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1461'
 ht-degree: 0%
@@ -173,8 +173,9 @@ ht-degree: 0%
    >[!TIP]
    >
    >必须在“队列详细信息”中以及创建队列主题时启用请求类型，以在“新建问题”表单中显示为选项。 有关信息，请参阅以下文章：
+   >
    >* [创建请求队列](../../requests/create-and-manage-request-queues/create-request-queue.md)
-   >  * [创建队列主题](../../requests/create-and-manage-request-queues/create-queue-topics.md)
+   >* [创建队列主题](../../requests/create-and-manage-request-queues/create-queue-topics.md)
 
 1. 继续指定&#x200B;**新问题**&#x200B;表单中可用的字段。 有关输入新问题时可用字段的更多信息，请参阅[编辑问题](../../../manage-work/issues/manage-issues/edit-issues.md)。
 

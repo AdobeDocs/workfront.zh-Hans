@@ -2,7 +2,7 @@
 title: 向自定义表单添加显示逻辑和跳过逻辑
 description: 向自定义表单添加显示逻辑和跳过逻辑
 draft: Probably
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1475'
 ht-degree: 0%
@@ -53,7 +53,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
+   <td> <p>规划 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">访问级别配置*</td> 
@@ -141,7 +141,7 @@ ht-degree: 0%
 
    *成员资格*
 
-1. 打开&#x200B;**添加字段**&#x200B;选项卡，创建带有格式的&#x200B;**文本字段**&#x200B;名为&#x200B;*的字段。网站的目标是什么？*，然后单击&#x200B;**应用**。
+1. 打开&#x200B;**添加字段**&#x200B;选项卡，创建包含格式的&#x200B;**文本字段**&#x200B;字段，名为&#x200B;*网站的目标是什么？*，然后单击&#x200B;**应用**。
 
    在此组织中，帮助文档站点由技术写作团队创建，而不是由营销部门创建。 因此，当用户在第二个字段中选择帮助文档时，无需提供更多信息。 我们将创建一行文本（描述性文本字段），告知他们改为咨询技术写作团队。 我们将使用跳过逻辑规则将该用户跳转到该文本行。
 

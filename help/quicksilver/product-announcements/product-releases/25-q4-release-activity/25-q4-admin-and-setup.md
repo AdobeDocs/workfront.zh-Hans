@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: e32f759218a3addf63dad7aa207ccdde8acb1975
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 本页介绍了管理员在2025年第四季度版本中对“预览”环境所做的增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2025年第四季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2025年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)。
+有关2025年第四季度发布周期中此时可用的所有更改列表，请参阅[ 2025年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)。
 
 ## 从对象中删除自定义表单时确认
 

@@ -6,7 +6,7 @@ description: 作为对时间表具有管理访问权限的用户，您可以在A
 author: Lisa
 feature: Timesheets
 exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 1%
@@ -112,8 +112,8 @@ ht-degree: 1%
      <tr> 
       <td role="rowheader"><strong>结束日期</strong> </td> 
       <td> 这是时间表的结束日期。</td> 
-     </tr>
-<tr> 
+     </tr> 
+     <tr> 
       <td role="rowheader"><strong>状态</strong> </td> 
       <td> 这是时间表的状态。
       以下是可能的工时表状态选项： 
@@ -121,7 +121,7 @@ ht-degree: 1%
       <li><b>已提交</b>：工时表已提交指定批准者审批。</li>
       <li><b>已拒绝</b>：批准者未批准时间表，该时间表现在再次可供用户编辑时间条目。</li>
       <li><b>已关闭</b>：时间表已被用户关闭或由批准者批准，因此现在已关闭。 您不能向已关闭的工时表添加时间。</li>
-   </td> 
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>审批者</strong> </td> 

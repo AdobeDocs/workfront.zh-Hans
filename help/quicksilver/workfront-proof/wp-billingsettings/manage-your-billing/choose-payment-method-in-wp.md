@@ -7,7 +7,7 @@ description: 进一步了解Workfront Proof中的支付。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cc23012f-ea1a-41e6-b101-877b85605775
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 | **每月订阅** | **年度订阅** |
 |---|---|
 | 信用卡 | 信用卡 |
-| 银行转帐 |
+| 银行转帐 |  |
 
 {style="table-layout:auto"}
 
@@ -57,7 +57,7 @@ ht-degree: 0%
    如果只想更改信用卡详细信息，请只用新信用卡数据填充信用卡详细信息(4)字段，然后保存更改(5)。 您可以随时更改信用卡详细信息。 新卡用于所有订购付款，立即生效。\
    我们接受[!DNL Visa]、[!DNL American Express]和[!DNL MasterCard]。
 
-1. 单击&#x200B;**[!UICONTROL 保存]**。 (4)\
+1. 单击 **[!UICONTROL Save]**。(4)\
    ![Payment_and_CC_details.png](assets/payment-and-cc-details-350x217.png)
 
 ## 更改附属帐户的付款方法详细信息
@@ -65,7 +65,7 @@ ht-degree: 0%
 如果您拥有附属帐户，则需要分别为每个帐户更新信用卡详细信息和支付方式。 有关附属帐户的详细信息，请参阅[附属帐户。](https://support.workfront.com/hc/en-us/sections/115000921108-Satellite-accounts)
 
 1. 转到中心帐户中的[!UICONTROL 帐单]页面。\
-   有关计费页面的详细信息，请参阅[校对计费页面 [!DNL Workfront] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
+   有关计费页面的详细信息，请参阅[校对计费页面 [!DNL Workfront] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
 
 1. 打开[!UICONTROL 帐户列表]下拉菜单。 (1)
 1. 选择与要更新的信用卡关联的附属帐户(2)。
