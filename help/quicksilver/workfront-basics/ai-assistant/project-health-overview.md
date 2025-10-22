@@ -5,7 +5,7 @@ description: 项目运行状况功能利用AI Assistant的强大功能即时为�
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: dce36c38a626b4d3799fb1d1f673bdc49d81e274
+source-git-commit: 5ce0206c8a7e596dac0bfdf836ca51c2cdbd1d0d
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 2%
@@ -257,7 +257,7 @@ AI助手可以为以下对象生成项目运行状况评估：
    >如果您正在从Workfront中的其他页面访问AI助手，则可以键入&#x200B;*项目[项目名称]的运行状况如何？*&#x200B;或&#x200B;*程序[程序名称]的运行状况如何？* <br>
    >有关可输入的当前提示的完整列表，请参阅本文中的以下部分：[AI助手提示列表](#ai-assistant-prompts-list)。
 
-1. 点击&#x200B;**发送**&#x200B;图标![发送图标](assets/send-icon.png)。 项目运行状况评估将生成并显示在面板中。 每个项目运行状况评估顶部都会显示一个徽章，反映项目的当前状态。
+1. 单击&#x200B;**发送**&#x200B;图标![发送图标](assets/send-icon.png)。 项目运行状况评估将生成并显示在面板中。 每个项目运行状况评估顶部都会显示一个徽章，反映项目的当前状态。
 
    ![项目运行状况评估](assets/health-assessment.png)
 
@@ -283,7 +283,7 @@ AI助手可以为以下对象生成项目运行状况评估：
 
    有关可输入的当前提示的完整列表，请参阅本文中的以下部分：[AI助手提示列表](#ai-assistant-prompts-list)。
 
-1. 点击&#x200B;**发送**&#x200B;图标![发送图标](assets/send-icon.png)。 项目运行状况评估将生成并显示在面板中。
+1. 单击&#x200B;**发送**&#x200B;图标![发送图标](assets/send-icon.png)。 项目运行状况评估将生成并显示在面板中。
 
    ![多个项目评估](assets/multiple-projects-assessment.png)
 
