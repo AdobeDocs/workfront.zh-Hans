@@ -6,7 +6,7 @@ description: ' [!DNL Workfront] 和Adobe Experience Cloud的一些功能不同�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
+source-git-commit: b9547764abd4f1f61d93da6bc66d9e6776954f4d
 workflow-type: tm+mt
 source-wordcount: '1397'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 | 导航除[!DNL Adobe]导航栏外，还包括[!DNL Adobe]产品、[!DNL Workfront]通知、帮助和您的用户配置文件的顶级导航区域 | 导航仅包括[!DNL Workfront]导航栏 |
 | 可通过[!UICONTROL 主菜单]和顶部导航区域访问帮助 | 可通过[!UICONTROL 主菜单]和[!DNL Workfront]导航栏访问帮助 |
 | 验证查看器将在新选项卡中打开 | 验证查看器在Workfront中打开 |
-| 用于访问Workfront的URL为`experience.adobe.com` | 用于访问Workfront的URL为`(CompanyName).my.workfront.com` |
+| 用于访问Workfront的URL为`experience.adobe.com` | 用于访问Workfront的URL为`(CompanyName).my.workfront.adobe.com` |
 | 日期格式（如YYYY/MM/DD）基于Unified Experience语言设置。 如果用户未更新其语言设置，则使用`en-US`设置。 | 日期格式（如YYYY/MM/DD）基于浏览器首选项 |
 
 {style="table-layout:auto"}
@@ -61,9 +61,9 @@ ht-degree: 0%
 
 将与现有客户联系以安排迁移。 迁移团队支持同事将引导客户完成该过程，提出[!DNL Admin Console]设置的建议，并提供所需的文档链接以使迁移尽可能简单和轻松。
 
-* [[!DNL Adobe Workfront] 支持概述](https://experienceleague.adobe.com/zh-hans/docs/customer-one/using/workfront/overview)
-* [[!DNL Workfront Admin Console] 信息](https://experienceleague.adobe.com/zh-hans/docs/customer-one/using/workfront/landing)
-* [[!DNL Adobe Business Platform] 和 [!DNL Admin Console] 常见问题解答](https://experienceleague.adobe.com/zh-hans/docs/customer-one/using/workfront/faq)
+* [[!DNL Adobe Workfront] 支持概述](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/overview)
+* [[!DNL Workfront Admin Console] 信息](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/landing)
+* [[!DNL Adobe Business Platform] 和 [!DNL Admin Console] 常见问题解答](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/faq)
 
 ### 对于已为Federated ID启用此选项与设置[!DNL Adobe Admin Console] SSO不同的公司，您如何处理[!DNL Workfront]？
 
