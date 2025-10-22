@@ -6,7 +6,7 @@ description: 您可以通过编辑列表中显示的字段来编辑任务列表�
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
 source-wordcount: '2764'
 ht-degree: 2%
@@ -16,6 +16,16 @@ ht-degree: 2%
 # 编辑列表中的任务 {#edit-tasks-in-a-list}
 
 <!-- Audited: 5/2025 -->
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
 
 您可以通过编辑列表中显示的字段来编辑任务列表中的任务信息。 有关编辑任务的其他方法的信息，请参阅[编辑任务](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
 
@@ -517,7 +527,17 @@ ht-degree: 2%
 
    您只能编辑表单上附加到所有选定任务且您有权编辑的字段。
 
+   <!--1. (Optional and conditional) Depending what environment you use to edit the tasks, do one of the following to recalculate custom expressions for all tasks:
+   1. In the Production environment, ADD THE SENTENCE FROM THE NEXT STEP HERE:-->
+
 1. （可选）在“自定义Forms”部分中，选择&#x200B;**重新计算自定义表达式**&#x200B;选项，以确保附加到所选任务的自定义表单上的所有计算自定义字段都是最新的。
+
+   <!--
+   <div class="preview">
+
+   1. In the Preview environment, with all the tasks selected in the list, click the **More** menu ![More menu](assets/more-icon.png) at the top of the task list, then click **Recalculate Expressions**. This is only available when you automatically save your changes. 
+
+   -->
 1. 单击&#x200B;**保存更改**。 您所做的所有更改现在在所有选定任务中均可见。
 
 有关批量编辑自定义表单的信息，请参阅[管理附加到对象的自定义表单](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)。

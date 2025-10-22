@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 30b61b32add4c6d062b5b524773d309008c9563d
+source-git-commit: 2e86369ae4c8e9fe2678773c20c02f6dbf8d5247
 workflow-type: tm+mt
 source-wordcount: '1399'
 ht-degree: 0%
@@ -39,23 +39,23 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 许可证</p> </td> 
-   <td><p>[!UICONTROL 计划]</p>
-   <p>[!UICONTROL 标准版]</p>
+   <td><p>[！UICONTROL计划]</p>
+   <p>[！UICONTROL标准版]</p>
    </td> 
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
    <td> <p>您必须具备以下任一项：</p> 
     <ul> 
-     <li> <p>[!UICONTROL 系统管理员]访问级别，允许您编辑系统中的任何公司。</p> </li> 
+     <li> <p>[！UICONTROL系统管理员]访问级别，允许您编辑系统中的任何公司。</p> </li> 
      <li> <p>管理公司的管理权限，允许您编辑系统中的任何公司。</p> </li> 
     </ul> <p><b>注释</b>：  
      <ul> 
       <li> <p>您还可以管理与您被分配为组管理员的任何组关联的公司。</p> </li> 
       <li> <p>若要在[!DNL Workfront]系统中添加和删除用户，您必须具备以下任一项：</p> 
        <ul> 
-        <li> <p>[!UICONTROL 系统管理员]访问级别。 </p> </li> 
-        <li> <p>您的访问级别中的<b>[!UICONTROL 用户]</b>设置配置为<b>[!UICONTROL 编辑]</b>访问权限，且<b>[!UICONTROL 创建]</b>和在<b>[!UICONTROL 微调您的设置]</b> <b>下启用的两个</b>[!UICONTROL 用户管理]<img src="assets/gear-icon-in-access-levels.png">选项中的至少一个选项。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>在这两个选项中，如果启用了<b>[!UICONTROL 用户管理员（组用户）]</b>，您必须是该用户所属组的组管理员。</p> </li> 
+        <li> <p>[！UICONTROL系统管理员]访问级别。 </p> </li> 
+        <li> <p>您的访问级别中的<b>[！UICONTROL用户]</b>设置配置为<b>[！UICONTROL编辑]</b>访问权限，且<b>[！UICONTROL创建]</b>和在<b>[！UICONTROL微调您的设置]</b> <b>下启用的两个</b>[！UICONTROL用户管理]<img src="assets/gear-icon-in-access-levels.png">选项中的至少一个选项。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>在这两个选项中，如果启用了<b>[！UICONTROL用户管理员（组用户）]</b>，您必须是该用户所属组的组管理员。</p> </li> 
        </ul>
        </li> 
      </ul> </p> </td> 
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 1. 更新&#x200B;**基本信息**&#x200B;部分中的以下信息：
 
-   * **公司名称**<!--<span class="preview">or **Name**</span>-->：键入公司的名称。
+   * **公司名称**<!--<span class="preview"> or **Name**</span>-->：键入公司的名称。
    * **处于活动状态**：启用此选项后，用户可以找到该公司并将其附加到他们创建和编辑的项目。 无法将非活动的公司附加到项目。 此选项默认处于启用状态。
    * **这是主要公司**<!--<span class="preview">or **Is Primary**</span>-->：将公司指定为组织的主要公司。 主要公司通常表示您的大多数用户工作的Workfront帐户。
 

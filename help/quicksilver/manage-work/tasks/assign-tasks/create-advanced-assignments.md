@@ -7,7 +7,7 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 0%
@@ -17,6 +17,16 @@ ht-degree: 0%
 # 创建高级工作
 
 <!-- Audited: 07/2024-->
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
 
 您可以使用“高级工作”管理任务或问题工作。
 
@@ -40,6 +50,7 @@ ht-degree: 0%
 
 * 在列表和报表中，当“工作总揽”字段显示在视图中时。
 * 编辑任务时显示在“工作总揽”部分。 有关详细信息，请参阅[编辑任务](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
+  <!--* In the Production environment, in the Assignments section when editing a task. <span class="preview">This has been removed from the Preview environment.</span> For more information, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).-->
 * 在任务或问题标题的工作区区域中。
 * 在工作负载均衡器中。 有关详细信息，请参阅[使用工作负载均衡器手动分配工作](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md)。
 
@@ -83,7 +94,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >您可以直接在任务或问题列表中进行高级分配。 单击任务或问题所在行上的&#x200B;**工作**&#x200B;字段，然后单击列表底部的&#x200B;**高级**&#x200B;或工作框右上角的&#x200B;**人员图标**&#x200B;以打开“高级工作”窗口。 跳至步骤5以继续创建高级工作。
+   >您可以直接在任务或问题列表中进行高级分配。 单击任务或问题所在行上的&#x200B;**工作**&#x200B;字段，然后单击列表底部的&#x200B;**高级**&#x200B;或工作框右上角的&#x200B;**人员图标**以打开“高级工作”窗口。 跳至步骤5以继续创建高级工作。
    >![单击“高级”或“人员”图标](assets/access-aa-from-lists.png)
 
 1. 单击任务或问题标题中&#x200B;**工作**&#x200B;字段中的&#x200B;**分配给**

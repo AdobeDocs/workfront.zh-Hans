@@ -6,7 +6,7 @@ description: 分配百分比表示已分配资源在一天内计划处理一项�
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 1%
@@ -14,6 +14,16 @@ ht-degree: 1%
 ---
 
 # 管理任务的用户或角色分配百分比
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
 
 分配百分比表示已分配资源在一天内计划处理一项任务的时间量。 它是任务整个持续时间中资源分配的工作日百分比（根据用户或项目计划）。
 
@@ -54,6 +64,13 @@ ht-degree: 1%
 有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--
+Change this sentence in the table:
+<p>Edit permissions to update allocation hours in the Edit Task box</p>
+To this:
+<p>Edit permissions to update allocation hours in the Edit Task box in the Production environment. <span class="preview">You can no longer manage allocation percentage in the Edit task box in the Preview environment.</span></p>
+-->
 
 ## 有关修改任务的百分比分配的注意事项
 

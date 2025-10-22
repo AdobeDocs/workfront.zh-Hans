@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 460090a1102465c34e92433e52c0beb240d8e9b9
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
-source-wordcount: '2602'
+source-wordcount: '2578'
 ht-degree: 2%
 
 ---
@@ -18,6 +18,16 @@ ht-degree: 2%
 # 编辑问题
 
 <!--Audited: 03/2025-->
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
 
 您可以编辑有关您创建的问题或其他用户创建的问题（如果他们与您共享问题）的信息。
 
@@ -238,8 +248,6 @@ ht-degree: 2%
    </ul> </td> 
      </tr>
 
-
-
    <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>键入与问题相关信息相关的Web链接。</p> </td> 
@@ -262,7 +270,6 @@ ht-degree: 2%
 
    <p>添加主要联系人用户时，请注意头像、用户的主要角色及其电子邮件地址，以区分具有相同名称的用户。 用户必须与至少一个工作角色关联，才能在添加时查看工作角色。</p>
       <p> 您必须在访问级别中启用“查看联系信息”设置，用户才能查看用户的电子邮件。 有关信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">授予用户访问权限</a>。</p>
-
 
    </td> 
      </tr> 
@@ -323,7 +330,7 @@ ht-degree: 2%
 
    ![问题分派分区](assets/assignments-section-edit-issue-box-nwe-350x230.png)
 
-1. 单击&#x200B;**搜索人员、角色和团队**，然后开始键入要分配给任务的用户、角色或团队的名称，然后单击该名称，或当该名称显示在列表中时按Enter键。
+1. 单击&#x200B;**搜索人员、角色和团队**，然后开始键入要分配给问题的用户、角色或团队的名称，然后单击该名称或当它显示在列表上时按Enter。
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure this is still called this; asked Anna to change it to "roles" and add a comma)</p>
@@ -333,9 +340,9 @@ ht-degree: 2%
    >
    >如果用户名包含特殊字符，则必须在搜索字段中包含特殊字符。
 
+   您可以分配多个用户、工作角色或团队。 您只能分配活动用户、工作角色和团队。
+
    >[!TIP]
-   >
-   >您可以分配多个用户、工作角色或团队。 您只能分配活动用户、工作角色和团队。
    >
    >
    >如果在停用用户、工作角色或团队之前已分配用户、工作角色或团队，则仍将其分配给工作项目。 在这种情况下，我们建议执行以下操作：
@@ -343,7 +350,10 @@ ht-degree: 2%
    >* 将工作项重新分配给活动资源。
    >* 将已停用团队中的用户与活动团队关联，并将工作项重新分配给活动团队。
 
-1. （可选）将鼠标悬停在受让人的名称上并单击&#x200B;**设为主要受让人**，以指示受让人是问题中的主要受让人。 团队不能是问题的主要被分配人。
+   <!--1. (Conditional) Depending on what environment you are editing issues in, do one of the following:
+
+   1. In the Production environment, INDENT THE FOLLOWING STEPS FURTHER AT RELEASE: (Optional) Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue. -->
+
 1. 更新以下字段：
 
    <table style="table-layout:auto"> 
@@ -354,7 +364,7 @@ ht-degree: 2%
     <tbody> 
      <tr> 
       <td role="rowheader">规划小时数</td> 
-      <td> <p>这是问题的被分派人完成该问题所需的实际时间。 键入问题的已计划小时数。<br></p> <p>注意：更改问题的已计划小时数不会更改问题的已计划完成日期。 </p> </td> 
+      <td> <p>这是问题的被分派人完成该问题所需的实际时间。 键入问题的已计划小时数。<br></p> <p><b>注释</b></p>  <p>更改问题的已计划小时数不会更改问题的已计划完成日期。 </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">受让人的角色</td> 
@@ -364,6 +374,15 @@ ht-degree: 2%
    </tr> 
     </tbody> 
    </table>
+
+   <!--
+   <div class="preview">
+   1. (Conditional) In the Preview environment, update the **Planned Hours** field
+      Or 
+      Click **Assign to me** to assign the issue to yourself. (********ADD DEFINITION OF PLANNED HOURS FROM THE TABLE AT PROD RELEASE*********)
+   </div> -->
+
+1. 要从所有问题中删除分配，请参阅[分配问题](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md)。
 
 1. 单击&#x200B;**保存**&#x200B;或继续编辑以下部分。
 

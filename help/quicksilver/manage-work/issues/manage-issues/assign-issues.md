@@ -7,7 +7,7 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
 source-wordcount: '1424'
 ht-degree: 0%
@@ -17,6 +17,16 @@ ht-degree: 0%
 # 分配问题
 
 <!--Audited: 07/2024-->
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
 
 您可以将问题分配给用户、角色和团队，以指示负责完成问题的人员。 有关分配问题的一般信息，请参阅[修改问题分配的概述](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)。
 
@@ -188,6 +198,11 @@ ht-degree: 0%
 
 ## 批量分配问题
 
+<!--
+Assigning issues in bulk is different depending on what environment you choose to do this. 
+
+### Assign issues in bulk in the Production environment -->
+
 1. 转到要批量分配的问题列表。
 1. 选择列表中的多个问题。
 1. 单击&#x200B;**编辑图标** ![编辑图标](assets/qs-edit-icon.png)。
@@ -210,3 +225,34 @@ ht-degree: 0%
 
 1. 单击&#x200B;**保存更改**。
 1. （可选，视情况而定）当问题列表中显示“分配给”或“工作总揽”字段时，单击其中一列以查找问题，然后单击被分配人名称旁边的&#x200B;**X图标**&#x200B;以将其从问题中删除。
+
+<!--
+<div class="preview">
+
+### Assign issues in bulk in the Preview environment
+
+1. Go to a list of issues that you want to assign in bulk. 
+1. Select several issues in the list. 
+1. Click the **Edit icon** ![Edit icon](assets/qs-edit-icon.png).
+
+   The **Edit Issues** dialog box opens.
+
+1. Click **Assignments** in the left panel, and in the **Assignments** area, start typing the name of a user, role, or team in the **Search people, roles, or teams** field, then click it when it displays in the list
+
+   Or
+
+   Click **Assign to me** to assign the issues to yourself.
+
+   >[!IMPORTANT]
+   >
+   >If any of the issues is already assigned, the resources you indicate here are added to the issues instead of replacing the existing resources on the issues. 
+   
+1. (Optional) If you want to remove existing assignees from all issues, click the **x** next to their name.
+
+1. (Optional) Update the Planned Hours field. For more information, see [Edit issues](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md). 
+
+1. Click **Save**.
+1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of issues, click inside one of these columns for an issue, then click the **X icon** next to the name of an assignee to remove it from the issue.
+
+</div>
+-->

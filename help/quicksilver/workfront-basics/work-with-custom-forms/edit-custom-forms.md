@@ -7,9 +7,9 @@ description: 将自定义表单附加到对象后，您可以编辑该表单上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -143,6 +143,11 @@ ht-degree: 0%
 
 ## 重新计算对象的所有已计算自定义字段  {#recalculate-all-calculated-custom-fields-for-an-object}
 
+>[!IMPORTANT]
+>
+>您必须先将带有计算字段的自定义表单附加到对象，然后才能执行本节中的步骤。
+
+
 1. 转到要重新计算其自定义字段的对象的主页。
 1. 单击对象名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)，然后单击&#x200B;**重新计算表达式**。
 
@@ -154,7 +159,12 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to be edited when the bulk edit for objects update in NW)</p>
 -->
 
-您可以通过从列表或报表中批量编辑多个对象的自定义字段来手动重新计算它们。
+根据要为其重新计算自定义表达式的对象，可以在以下区域重新计算自定义表达式：
+
+* 在对象列表中，从列表顶部的“更多”菜单。
+* 在“编辑”框中，批量选择和编辑多个对象时。
+
+要通过从列表或报表中批量编辑多个对象来手动重新计算这些对象的自定义字段，请执行以下操作：
 
 1. 转到包含带有计算字段的自定义表单的对象列表。
 1. 选择要更新其计算自定义字段的对象。
@@ -164,17 +174,17 @@ ht-degree: 0%
 
    Workfront会为所有选定对象计算所有自定义字段。
 
->[!TIP]
->
->您还可以从对象列表中重新计算自定义表达式。 例如，要从项目列表中批量重新计算自定义表达式，请执行以下操作：
->
->1. 转到项目列表或报告，然后选择一个或多个项目。
->1. 单击&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)，然后单击&#x200B;**重新计算自定义表达式**。
->
->![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
->
->Workfront会为所有选定项目计算所有自定义字段。
->&#x200B;>并非所有对象的列表都具有此功能。
+要从对象列表中重新计算自定义表达式，请执行以下操作：
+
+1. 转到项目列表或报告，然后选择一个或多个项目。
+1. 单击&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)，然后单击&#x200B;**重新计算自定义表达式**。
+
+![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+
+Workfront会立即计算所有选定项目的所有自定义字段。
+并非所有对象的列表都具有此功能。
+
+>[!NOTE]
 >
 >根据项目的复杂性，我们建议不要在批量重新计算已计算的自定义字段时选择大量项目以确保最佳性能。 某些因素可能会使项目过于复杂，例如多个依赖项或分配或者大量自定义字段。
 
