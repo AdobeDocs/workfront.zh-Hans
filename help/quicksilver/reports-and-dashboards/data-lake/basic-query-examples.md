@@ -182,10 +182,10 @@ FROM
 >[!NOTE]
 >
 >建议您将此查询用作其自身在PowerBI或Tableau中的“视图”。  如果要从`<object>_event view`引入其他字段，请将此查询的输出连接回`<object>_event view`。  连接字段应为： <br>
->>对于projects_event： 
->>`From projects_event p`
->>`Join <above query> c on c.projectid = p.projectid  `
->>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
+>&#x200B;>对于projects_event： 
+>&#x200B;>`From projects_event p`
+>&#x200B;>`Join <above query> c on c.projectid = p.projectid  `
+>&#x200B;>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
 
 
 
