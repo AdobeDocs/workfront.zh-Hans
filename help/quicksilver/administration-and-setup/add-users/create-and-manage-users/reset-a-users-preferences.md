@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: e25ea757129e9645f7b5f0729cd498d5947f49f2
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '390'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 <!-- Audited: 12/2023 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用，正在分阶段发布到生产环境。</span>
 
 作为Adobe Workfront管理员，您可以重置或删除Workfront系统中任何用户的用户首选项设置。
 
@@ -57,61 +57,67 @@ ht-degree: 3%
 
 重置用户首选项时，某些首选项将恢复为系统默认值，而其他首选项将清除或删除：
 
+<!--
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
   <tr> 
-   <th><strong>首选项</strong> </th> 
-   <th>重置后的<strong>状态</strong> </th> 
+   <th><strong>Preference</strong> </th> 
+   <th><strong>Status after the reset</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>视图</td> 
-   <td> <p> 已还原为系统默认值</p> <p>不会删除现有视图。 您可以再次选择它们。</p> </td> 
+   <td>Views</td> 
+   <td> <p> Reverted to the system default</p> <p>Existing views are not deleted. You can select them again.</p> </td> 
   </tr> 
   <tr> 
-   <td>过滤器</td> 
-   <td> <p>已还原为系统默认值</p> <p>不会删除现有筛选器。 您可以再次选择它们。</p> </td> 
+   <td>Filters</td> 
+   <td> <p>Reverted to the system default</p> <p>Existing filters are not deleted. You can select them again.</p> </td> 
   </tr> 
   <tr> 
-   <td>分组</td> 
-   <td> <p>已还原为系统默认值</p> <p>现有分组不会被删除。 您可以再次选择它们。</p> </td> 
+   <td>Groupings</td> 
+   <td> <p>Reverted to the system default</p> <p>Existing groupings are not deleted. You can select them again.</p> </td> 
   </tr> 
   <tr> 
-   <td>最新项目列表</td> 
-   <td>已清除</td> 
+   <td>Recent Items list</td> 
+   <td>Cleared</td> 
   </tr> 
   <tr> 
-   <td>收藏夹列表</td> 
-   <td>未受影响</td> 
+   <td>Favorites list</td> 
+   <td>Unaffected</td> 
   </tr> 
   <tr> 
-   <td>用户首选项</td> 
-   <td> <p>已还原为系统默认值</p> <p>电子邮件通知将还原为系统默认值。 默认通知列在Adobe Workfront<a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">中可用的</a>事件通知中。</p> </td> 
+   <td>User Preferences</td> 
+   <td> <p>Reverted to the system default</p> <p>Email notifications revert to the system defaults. The default notifications are listed in <a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">Event notifications available in Adobe Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>用户定义的自定义选项卡</td> 
-   <td>已移除</td> 
+   <td>User-Defined Custom Tabs</td> 
+   <td>Removed</td> 
   </tr> 
   <tr> 
-   <td>用户定义的全局导航选项</td> 
-   <td>设置为布局模板定义，如果未分配布局模板，则设置为系统默认值。</td> 
+   <td>User-Defined Global Navigation Options</td> 
+   <td>Set back to layout template definition, or system default if no layout template is assigned.</td> 
   </tr> 
  </tbody> 
 </table>
-
-<!-- Display this table and hide the HTML table above, when the unshim is released.
-| Preference | Status after the reset |
-| --- | --- |
-| Views | Reverted to the system default <p>Existing views are not deleted. You can select them again.</p> |
-| Filters | Reverted to the system default <p>Existing filters are not deleted. You can select them again.</p> |
-| Groupings | Reverted to the system default <p>Existing groupings are not deleted. You can select them again.</p> |
-| Recent items list | Cleared |
-| Favorites list | Unaffected |
-| User Preferences | Reverted to the system default <p>Email notifications revert to the system defaults. The default notifications are listed in [Event notifications available in Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).</p> |
 -->
+
+<!--Display this table and hide the HTML table above, when the unshim is released.-->
+
+<div class="preview">
+
+| 首选项 | 重置后的状态 |
+| --- | --- |
+| 视图 | 已还原为系统默认值 <p>不会删除现有视图。 您可以再次选择它们。</p> |
+| 过滤器 | 已还原为系统默认值 <p>不会删除现有筛选器。 您可以再次选择它们。</p> |
+| 分组 | 已还原为系统默认值 <p>现有分组不会被删除。 您可以再次选择它们。</p> |
+| 最新项目列表 | 已清除 |
+| 收藏夹列表 | 未受影响 |
+| 用户首选项 | 已还原为系统默认值 <p>电子邮件通知将还原为系统默认值。 默认通知列在Adobe Workfront[中可用的](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)事件通知中。</p> |
+
+</div>
 
 ## 重置用户首选项
 
@@ -141,9 +147,13 @@ ht-degree: 3%
      >`https://experience.adobe.com/#/@company/so:(domain)-(environment)/workfront/resetUser`
 
 1. 按&#x200B;**Enter**。
-1. 要重置所有用户首选项，请选择&#x200B;**重置**。
 
-   <!--When this is unshimmed, adjust the comment tags to hide these last two lines, because the Reset Tabs button is going away.-->
-或
+<div class="preview">
 
-   要仅重置自定义选项卡，请选择&#x200B;**重置选项卡**。
+1. 要重置所有用户首选项，请单击&#x200B;**重置**。
+
+   或
+
+   要仅重置自定义选项卡，请单击&#x200B;**重置左侧导航**。
+
+</div>

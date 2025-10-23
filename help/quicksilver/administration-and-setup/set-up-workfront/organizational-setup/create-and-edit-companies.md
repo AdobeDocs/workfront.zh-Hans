@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 2e86369ae4c8e9fe2678773c20c02f6dbf8d5247
+source-git-commit: e25ea757129e9645f7b5f0729cd498d5947f49f2
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1440'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用，正在分阶段发布到生产环境。</span>
 
 公司是[!DNL Adobe Workfront]中的组织单位，可以代表您的组织、组织内的部门或与您合作的客户。 您可以将公司添加到[!DNL Workfront]中，并将它们用于财务规划、报告、定义对象权限以及保密信息。
 
@@ -39,23 +39,23 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 许可证</p> </td> 
-   <td><p>[!UICONTROL 计划]</p>
-   <p>[!UICONTROL 标准版]</p>
+   <td><p>[！UICONTROL计划]</p>
+   <p>[！UICONTROL标准版]</p>
    </td> 
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
    <td> <p>您必须具备以下任一项：</p> 
     <ul> 
-     <li> <p>[!UICONTROL 系统管理员]访问级别，允许您编辑系统中的任何公司。</p> </li> 
+     <li> <p>[！UICONTROL系统管理员]访问级别，允许您编辑系统中的任何公司。</p> </li> 
      <li> <p>管理公司的管理权限，允许您编辑系统中的任何公司。</p> </li> 
     </ul> <p><b>注释</b>：  
      <ul> 
       <li> <p>您还可以管理与您被分配为组管理员的任何组关联的公司。</p> </li> 
       <li> <p>若要在[!DNL Workfront]系统中添加和删除用户，您必须具备以下任一项：</p> 
        <ul> 
-        <li> <p>[!UICONTROL 系统管理员]访问级别。 </p> </li> 
-        <li> <p>您的访问级别中的<b>[!UICONTROL 用户]</b>设置配置为<b>[!UICONTROL 编辑]</b>访问权限，且<b>[!UICONTROL 创建]</b>和在<b>[!UICONTROL 微调您的设置]</b> <b>下启用的两个</b>[!UICONTROL 用户管理]<img src="assets/gear-icon-in-access-levels.png">选项中的至少一个选项。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>在这两个选项中，如果启用了<b>[!UICONTROL 用户管理员（组用户）]</b>，您必须是该用户所属组的组管理员。</p> </li> 
+        <li> <p>[！UICONTROL系统管理员]访问级别。 </p> </li> 
+        <li> <p>您的访问级别中的<b>[！UICONTROL用户]</b>设置配置为<b>[！UICONTROL编辑]</b>访问权限，且<b>[！UICONTROL创建]</b>和在<b>[！UICONTROL微调您的设置]</b> <b>下启用的两个</b>[！UICONTROL用户管理]<img src="assets/gear-icon-in-access-levels.png">选项中的至少一个选项。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>在这两个选项中，如果启用了<b>[！UICONTROL用户管理员（组用户）]</b>，您必须是该用户所属组的组管理员。</p> </li> 
        </ul>
        </li> 
      </ul> </p> </td> 
@@ -105,9 +105,9 @@ ht-degree: 0%
 
 1. 更新&#x200B;**基本信息**&#x200B;部分中的以下信息：
 
-   * **公司名称**<!--<span class="preview"> or **Name**</span>-->：键入公司的名称。
+   * **公司名称**<span class="preview">&#x200B;或&#x200B;**名称**</span>：键入公司的名称。
    * **处于活动状态**：启用此选项后，用户可以找到该公司并将其附加到他们创建和编辑的项目。 无法将非活动的公司附加到项目。 此选项默认处于启用状态。
-   * **这是主要公司**<!--<span class="preview">or **Is Primary**</span>-->：将公司指定为组织的主要公司。 主要公司通常表示您的大多数用户工作的Workfront帐户。
+   * **这是主要公司**<span class="preview">&#x200B;或&#x200B;**是主要公司**</span>：将公司指定为组织的主要公司。 主要公司通常表示您的大多数用户工作的Workfront帐户。
 
      您可以将一家公司指定为主要公司，也可以不指定任何公司，但不得将多家公司指定为主要公司。 有关详细信息，请参阅[创建和修改自定义访问级别](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
@@ -141,11 +141,11 @@ ht-degree: 0%
 
    有关创建自定义表单的信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
-1. （视情况而定）如果您正在创建公司，请单击&#x200B;**[!UICONTROL 创建公司]**<!--<span class="preview">or **Save**</span>-->。
+1. （视情况而定）如果您正在创建公司，请单击&#x200B;**[!UICONTROL 创建公司]**<span class="preview">或**&#x200B;保存&#x200B;**。</span>
 
    或
 
-   如果您正在编辑现有公司，请单击&#x200B;**[!UICONTROL 保存更改]**<!--<span class="preview">or **Save**</span>-->。
+   如果您正在编辑现有公司，请单击&#x200B;**[!UICONTROL 保存更改]**<span class="preview">或**&#x200B;保存&#x200B;**。</span>
 
 ## 管理公司成员资格
 
