@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 3606b6c3-b373-47ea-9cb5-813bd3af8da7
-source-git-commit: 2c5a4ff65088652b67099d187e6ee4c11d80a3b3
+source-git-commit: 0921cc0e45a0a845404df90fc8789efc764f5790
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -104,16 +104,16 @@ Listen 443
 | -- | -- | -- |
 | 生产 | *.prod.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront， Inc./CN=*.prod.eventsubscriptions.workfront.com |
 | 预览 | *.preview.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront， Inc./CN=*.preview.eventsubscriptions.workfront.com |
-| Sandbox 1 | *.sandbox.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront， Inc./CN=*.sandbox.eventsubscriptions.workfront.com |
-| Sandbox 2 | *.sandbox.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront， Inc./CN=*.sandbox.eventsubscriptions.workfront.com |
+| 沙盒 1 | *.sandbox.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront， Inc./CN=*.sandbox.eventsubscriptions.workfront.com |
+| 沙盒 2 | *.sandbox.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront， Inc./CN=*.sandbox.eventsubscriptions.workfront.com |
 
 ## 下载证书
 
 单击以下链接以下载客户端证书。
 
-* [客户端证书 — 生产环境](assets/prod-environment-nov-2024.crt)
-* [客户端证书 — 预览环境](assets/preview-environment-nov-2024.crt)
-* [客户端证书 — 沙盒环境](assets/sandbox-environment-nov-2024.crt)
+* [客户端证书 — 生产环境](assets/prod-ES-client-cert-oct25.crt)
+* [客户端证书 — 预览环境](assets/preview-ES-client-cert-oct25.crt)
+* [客户端证书 — 沙盒环境](assets/sandbox-ES-client-cert-oct25.crt)
 
 >[!NOTE]
 >
