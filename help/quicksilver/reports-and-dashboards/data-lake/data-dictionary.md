@@ -7,9 +7,9 @@ description: 本页包含有关Workfront Data Connect中数据的结构和内容
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 8df633f7f0946f81d6e81578a3d47719f6d8975e
+source-git-commit: e06db80d752d79157c758b3ecf3a8d4e7040e96d
 workflow-type: tm+mt
-source-wordcount: '8733'
+source-wordcount: '8788'
 ht-degree: 9%
 
 ---
@@ -48,7 +48,8 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
 
 >[!IMPORTANT]
 >
->实体关系图是正在进行的工作。 因此，其仅供参考，并且可能会发生更改。
+>提供的实体关系图(ERD)故意不完整，因为由于应用程序内的关系数太多，完整的ERD将变得不可读。<br>
+>>此图提供了一个示例，说明如何使用以下[术语表](#terminology-table)部分的Project表中记录的关系将数据从Project数据视图连接到相邻对象。 预计，一旦项目对象关系了解了此模式，就不需要完整的ERD
 
 ## 日期类型
 
@@ -66,7 +67,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
 >[!NOTE]
 >
 >可以将新字段添加到对象视图，而无需提前通知，以支持Workfront应用程序不断演变的数据需求。 如果下游数据收件人未准备好在添加列时处理其他列，我们建议不要使用“SELECT”查询。<br>
->&#x200B;>如果需要重命名或删除列，我们将提前通知这些更改。
+>>如果需要重命名或删除列，我们将提前通知这些更改。
 
 ### 访问级别
 
