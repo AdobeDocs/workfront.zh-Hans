@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 699ce13472ee70149fba7c8c34dde83c7db5f5de
+source-git-commit: f6f3df61286a360324963c872718be224a7ab413
 workflow-type: tm+mt
-source-wordcount: '2739'
+source-wordcount: '3054'
 ht-degree: 3%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 3%
 
 列入允许列表要通过防火墙接收事件订阅负载，必须将以下IP地址添加到您的：
 
-对于欧洲的客户：**&#x200B;**
+对于欧洲的客户：****
 
 * 52.30.133.50
 * 52.208.159.124
@@ -816,7 +816,7 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 >[!NOTE]
 >
 >下面带有给定过滤器的订阅将只返回任务名称在`again`上包含`oldState`的消息，该名称与更新任务之前所包含的内容相同。
->&#x200B;>此功能的用例是查找从一个对象更改到另一个对象的对象代码消息。 例如，查找从“Research Some name”更改为“Research TeamName Some name”的所有任务
+>>此功能的用例是查找从一个对象更改到另一个对象的对象代码消息。 例如，查找从“Research Some name”更改为“Research TeamName Some name”的所有任务
 
 ```
 {
@@ -904,6 +904,86 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
     "filterConnector": "AND"
 }
 ```
+
+### 使用过滤器组
+
+利用过滤器组，可在事件订阅过滤器中创建嵌套逻辑(AND/OR)条件。
+
+每个过滤器组可以具有以下属性：
+
+* 它自己的连接器（AND或OR）。
+* 多个过滤器，每个过滤器遵循与独立过滤器相同的语法和行为。
+
+>[!IMPORTANT]
+>
+>组必须具有至少2个过滤器。
+
+
+组内的所有筛选器都支持以下内容：
+
+* 比较运算符：eq、ne、gt、gte、lt、lte、contains、notContains、containsOnly、changed。
+* State选项： newState、oldState。
+* 字段定位：任何有效的对象字段名称。
+
+```
+{
+  "objCode": "TASK",
+  "eventType": "UPDATE",
+  "authToken": "token",
+  "url": "https://domain-for-subscription.com/API/endpoint/UpdatedTasks",
+  "filters": [
+    {
+      "fieldName": "percentComplete",
+      "fieldValue": "100",
+      "comparison": "lt"
+    },
+    {
+      "type": "group",
+      "connector": "OR",
+      "filters": [
+        {
+          "fieldName": "status",
+          "fieldValue": "CUR",
+          "comparison": "eq"
+        },
+        {
+          "fieldName": "priority",
+          "fieldValue": "1",
+          "comparison": "eq"
+        }
+      ]
+    }
+  ],
+  "filterConnector": "AND"
+}
+```
+
+上述示例包含以下组件：
+
+1. 顶级过滤器（组外）：
+   * { &quot;fieldName&quot;： &quot;percentComplete&quot;， &quot;fieldValue&quot;： &quot;100&quot;， &quot;comparison&quot;： &quot;lt&quot; }
+   * 此筛选器检查更新任务的percentComplete字段是否小于100。
+
+1. 筛选器组（嵌套有OR的筛选器）：
+   * { &quot;type&quot;： &quot;group&quot;， &quot;connector&quot;： &quot;OR&quot;， &quot;filters&quot;： [{ &quot;fieldName&quot;： &quot;status&quot;， &quot;fieldValue&quot;： &quot;CUR&quot;， &quot;comparison&quot;： &quot;eq&quot; }， { &quot;fieldName&quot;： &quot;priority&quot;， &quot;fieldValue&quot;： &quot;1&quot;， &quot;comparison&quot;： &quot;eq&quot; }] }
+   * 此组评估两个内部筛选器：
+      * 第一个检查任务状态是否等于“CUR”（当前）。
+      * 第二个检查优先级是否等于“1”（高优先级）。
+   * 由于连接器为“OR”，因此如果任一条件为true，则此组将通过。
+
+1. 顶级连接器(filterConnector： AND)：
+   * 顶级过滤器之间的最外层连接器为“AND”。 这意味着顶级过滤器和组都必须通过，事件才能匹配。
+
+1. 当满足以下条件时，将触发订阅：
+   * percentComplete小于100。
+   * 状态为“CUR”或优先级等于“1”。
+
+>[!NOTE]
+>
+>在使用筛选器组时，存在确保系统性能一致的限制，这些筛选器组包括：<br>
+>* 每个订阅最多支持10个过滤器组（每个组包含多个过滤器）。
+>* 每个过滤器组最多可以包含5个过滤器，以防止在事件处理期间性能潜在的下降。
+>* 虽然支持最多10个过滤器组（每个过滤器有5个），但具有复杂过滤器逻辑的大量活动订阅可能会导致事件评估期间的延迟。
 
 ## 删除事件订阅
 
