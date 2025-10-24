@@ -6,9 +6,9 @@ description: Adobe Workfront审阅工具是一种浏览器扩展，它允许您�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
-source-git-commit: 7bff0a8c43355472453403fcd404388a3d95d471
+source-git-commit: 78d9e8e47f8f6777f9211d8f85a3dfbc9405d798
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '607'
 ht-degree: 1%
 
 ---
@@ -42,6 +42,9 @@ Adobe Workfront审阅工具是一个基于Web的浏览器扩展，它允许您�
 * [Chrome扩展](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml)
 
 * [Edge](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen)
+
+* [Safari扩展](https://apps.apple.com/us/app/adobe-workfront-review-tool/id6741517062?mt=12)
+
 
 
 要使交互式校样在Adobe Workfront审核工具中自动打开，Workfront管理员必须更新workfront中的校样设置，如下节所述。
