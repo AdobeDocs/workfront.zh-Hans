@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 35fbf2f5792edb844264b15e298411819c0f5081
+source-git-commit: 987eea4d0ad7f8e30b944418836280728ee63812
 workflow-type: tm+mt
 source-wordcount: '3054'
 ht-degree: 3%
@@ -29,7 +29,7 @@ ht-degree: 3%
 
 列入允许列表要通过防火墙接收事件订阅负载，必须将以下IP地址添加到您的：
 
-对于欧洲的客户：**&#x200B;**
+对于欧洲的客户：****
 
 * 52.30.133.50
 * 52.208.159.124
@@ -816,7 +816,7 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 >[!NOTE]
 >
 >下面带有给定过滤器的订阅将只返回任务名称在`again`上包含`oldState`的消息，该名称与更新任务之前所包含的内容相同。
->&#x200B;>此功能的用例是查找从一个对象更改到另一个对象的对象代码消息。 例如，查找从“Research Some name”更改为“Research TeamName Some name”的所有任务
+>>此功能的用例是查找从一个对象更改到另一个对象的对象代码消息。 例如，查找从“Research Some name”更改为“Research TeamName Some name”的所有任务
 
 ```
 {
