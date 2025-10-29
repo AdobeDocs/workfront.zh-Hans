@@ -6,10 +6,10 @@ description: Adobe Workfront于2025年10月23日发布了API版本21。 API版�
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 50edbfa342ed7f51d1fe2b9654b55b579bb3f5af
+source-git-commit: f47e0bce61322c971f3a815ec01e7c243b090910
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 4%
+source-wordcount: '833'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Workfront于2025年10月23日发布了API版本21。 API版本21具有对�
 
 ## 已添加资源
 
-### 人员配备计划模板(SPTMPL)
+### 原始请求(ORGREQ)
 
 <table>
   <col/>
@@ -29,8 +29,10 @@ Adobe Workfront于2025年10月23日发布了API版本21。 API版本21具有对�
       <td role="rowheader">直接字段</td>
       <td>
         <ul>
+          <li>entryDate</li>
           <li>ID</li>
-          <li>name</li>
+          <li>requestID</li>
+          <li>请求名称</li>
         </ul>
       </td>
     </tr>
@@ -39,20 +41,48 @@ Adobe Workfront于2025年10月23日发布了API版本21。 API版本21具有对�
       <td>
         <ul>
           <li>ID</li>
-          <li>name</li>
           <li>对象代码</li>
         </ul>
       </td>
-   <tr>
-      <td role="rowheader">运营</td>
+ </tbody>
+</table>
+
+<!--
+
+### StaffingPlanTemplate (SPTMPL)
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
       <td>
         <ul>
-          <li>添加</li>
-          <li>计数</li>
-          <li>删除</li>
-          <li>编辑</li>
+          <li>ID</li>
+          <li>name</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Core fields</td>
+      <td>
+        <ul>
+          <li>ID</li>
+          <li>name</li>
+          <li>objCode</li>
+        </ul>
+      </td>
+   <tr>
+      <td role="rowheader">Operations</td>
+      <td>
+        <ul>
+          <li>ADD</li>
+          <li>COUNT</li>
+          <li>DELETE</li>
+          <li>EDIT</li>
           <li>GET</li>
-          <li>报告</li>
+          <li>REPORT</li>
           <li>SEARCH</li>
         </ul>
       </td>
@@ -60,6 +90,8 @@ Adobe Workfront于2025年10月23日发布了API版本21。 API版本21具有对�
     </tr>
  </tbody>
 </table>
+
+-->
 
 ## 已删除资源
 
@@ -710,30 +742,32 @@ ScoreCardQuestion对象表示已添加到记分卡的问题。 这些问题通�
  </tbody>
 </table>
 
-### 人员配备计划
+<!--
+
+### StaffingPlan
 
 <table>
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">直接字段</td>
+      <td role="rowheader">Direct fields</td>
       <td>
         <ul>
           <li>
             <p><b>totalEstimatedCost</b>
             </p>
-            <p>已添加</p>
+            <p>Added</p>
               </li>
          <li>
             <p><b>totalEstimatedHours</b>
             </p>
-            <p>已添加</p>
+            <p>Added</p>
               </li>
          <li>
             <p><b>totalEstimatedRevenue</b>
             </p>
-            <p>已添加</p>
+            <p>Added</p>
               </li>
             </ul>
          </li>
@@ -742,30 +776,34 @@ ScoreCardQuestion对象表示已添加到记分卡的问题。 这些问题通�
   </tbody>
 </table>
 
-### 人员配备计划资源
+-->
+
+<!--
+
+### StaffingPlanResource
 
 <table>
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">直接字段</td>
+      <td role="rowheader">Direct fields</td>
       <td>
         <ul>
           <li>
             <p><b>totalEstimatedCost</b>
             </p>
-            <p>已添加</p>
+            <p>Added</p>
               </li>
          <li>
             <p><b>totalEstimatedHours</b>
             </p>
-            <p>已添加</p>
+            <p>Added</p>
               </li>
          <li>
             <p><b>totalEstimatedRevenue</b>
             </p>
-            <p>已添加</p>
+            <p>Added</p>
               </li>
             </ul>
          </li>
@@ -773,6 +811,8 @@ ScoreCardQuestion对象表示已添加到记分卡的问题。 这些问题通�
     </tr>
   </tbody>
 </table>
+
+-->
 
 ### 任务（任务）
 
