@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1181'
 ht-degree: 1%
 
 ---
@@ -171,8 +171,13 @@ ht-degree: 1%
 * 虽然某些视图元素可以应用于同一记录的多个视图，但它们对每个记录视图都是唯一的：
 
    * 筛选条件
+   * 排序（针对表格视图）
+   * 行颜色（用于表格视图）
+   * 字段（用于表格视图）
+   * 划分（适用于时间线视图）
    * 分组（针对表格和时间线视图）
    * 条形图外观（用于时间轴和日历视图）
+   * 行高（适用于表和每月日历视图）
 
   例如，在表格视图中创建筛选器时，筛选器结果仅在选定视图（表格视图）中可见，而不在与记录类型关联的所有视图中可见。
 
@@ -212,6 +217,7 @@ ht-degree: 1%
 | 从视图中导出信息 | ✓ |               |    |
 | 全屏显示 | ✓ | ✓ | ✓ |
 | 在视图中创建记录 | ✓ | ✓ | ✓ |
+| 按连接划分记录 |          | ✓ |    |
 
 ## 创建或编辑视图 {#create-or-edit-views}
 

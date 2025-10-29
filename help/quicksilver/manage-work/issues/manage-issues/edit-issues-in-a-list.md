@@ -6,10 +6,10 @@ description: 您可以编辑单个问题，也可以在问题列表或报告中�
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 0%
+source-wordcount: '884'
+ht-degree: 1%
 
 ---
 
@@ -177,8 +177,22 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    * 概述
    * 设置
+   * 自定义表单
    * 任务
    * 评论
+
+   <!--at release for unshim, replace the list above with this:
+
+   <div class="preview">
+
+   * Overview
+   * Assignments
+   * Custom Forms 
+   * Settings
+   * Comment
+
+   </div>
+   -->
 
    有关编辑问题的详细信息，请参阅[编辑问题](../../../manage-work/issues/manage-issues/edit-issues.md)。
 

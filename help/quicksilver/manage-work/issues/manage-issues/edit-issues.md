@@ -8,16 +8,16 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
 workflow-type: tm+mt
 source-wordcount: '2578'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 # 编辑问题
 
-<!--Audited: 03/2025-->
+<!--Audited: 10/2025-->
 
 <!--
 <div class="preview"> 
@@ -333,7 +333,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 单击&#x200B;**搜索人员、角色和团队**，然后开始键入要分配给问题的用户、角色或团队的名称，然后单击该名称或当它显示在列表上时按Enter。
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure this is still called this; asked Anna to change it to "roles" and add a comma)</p>
+   (NOTE: ensure this is still called this; asked Anna to change it to "roles" and add a comma)
    -->
 
    >[!NOTE]
@@ -351,7 +351,6 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    >* 将已停用团队中的用户与活动团队关联，并将工作项重新分配给活动团队。
 
    <!--1. (Conditional) Depending on what environment you are editing issues in, do one of the following:
-
    1. In the Production environment, INDENT THE FOLLOWING STEPS FURTHER AT RELEASE: (Optional) Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue. -->
 
 1. 更新以下字段：
@@ -377,16 +376,21 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    <!--
    <div class="preview">
-   1. (Conditional) In the Preview environment, update the **Planned Hours** field
-      Or 
-      Click **Assign to me** to assign the issue to yourself. (********ADD DEFINITION OF PLANNED HOURS FROM THE TABLE AT PROD RELEASE*********)
+   1. (Conditional) In the Preview environment, do one of the following:
+         * Click **Assign to me** to assign the issue to yourself
+      * Update the **Planned Hours** field.
+         The **Planned Hours** is the amount of hours it would take the assignees of the issue to complete it. 
+         >[!NOTE]
+         >
+         >Changing the Planned Hours of the issue will not change the issue Planned Completion Date. 
    </div> -->
+
 
 1. 要从所有问题中删除分配，请参阅[分配问题](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md)。
 
 1. 单击&#x200B;**保存**&#x200B;或继续编辑以下部分。
 
-### 自定义Forms
+### 自定义表单
 
 1. 按如上所述开始编辑问题。
 1. 单击&#x200B;**自定义Forms**。

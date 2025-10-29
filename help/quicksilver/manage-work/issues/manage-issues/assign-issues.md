@@ -7,16 +7,16 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1465'
 ht-degree: 0%
 
 ---
 
 # 分配问题
 
-<!--Audited: 07/2024-->
+<!--Audited: 10/2024-->
 
 <!--
 <div class="preview"> 
@@ -116,7 +116,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 </div>
 -->
 
-## 分配单个问题
+## 在问题标题中分配单个问题
 
 1. 转到要分配的问题。
 1. 单击问题标题右上角的&#x200B;**任务**&#x200B;区域中的&#x200B;**分配给**
@@ -155,9 +155,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 单击&#x200B;**保存**&#x200B;以完成问题分配。
 1. （可选）单击问题标题上任务区域任务名称旁边的&#x200B;**X图标**&#x200B;以删除任务。
 
-## 在列表中分配问题
+## 通过在列表中内联编辑来分配问题
 
-当任何分配字段在列表视图中可见时，您可以在列表或报告中分配问题。 这是指派问题的更快方式。
+当任何分配字段在列表视图中可见时，您可以在列表或报告中分配问题。 这是分配问题的更快方式。
 
 根据视图中可见的字段，可以将以下实体分配给问题：
 
@@ -195,6 +195,12 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    >您不能从“分配至”或“已分配”字段进行高级分配。
 
 1. 将您的代理人添加到问题中后，按Enter或单击页面上的任意位置以保存更改。
+
+## 在“编辑问题”框中分配问题
+
+您可以在“编辑问题”框中分配问题。
+
+有关信息，请参阅文章[编辑问题](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md)中的“工作”部分。
 
 ## 批量分配问题
 
