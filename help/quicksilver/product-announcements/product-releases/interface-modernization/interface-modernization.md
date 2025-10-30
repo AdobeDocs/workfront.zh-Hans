@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 7fb12a3fbdad661baf2d0ad472ce8017e178ddef
+source-git-commit: c17a50542553db5b836ff82f3d0c6ed93ae3c3ad
 workflow-type: tm+mt
-source-wordcount: '8978'
+source-wordcount: '8980'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ### “添加和编辑公司”对话框的界面更新
 
-**预览版本： 2025年10月23日；生产版本：从2025年10月30日开始**
+**预览版本： 2025年10月23日；生产版本：从2025年11月6日的一周开始**
 
 我们更新了用于添加和编辑公司的对话框，这些公司的设计更加现代化，与Workfront的其他区域一致。
 

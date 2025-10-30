@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: e5416fab4f4ad1f2c31edf962554ddd6a4c2f1e5
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '631'
 ht-degree: 0%
 
 ---
@@ -98,11 +98,7 @@ or billing record
 ## 自定义用户在详细信息视图中看到的内容
 
 1. 开始处理布局模板，如[创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
-1. 单击![自定义用户看到的内容](assets/dropdown-arrow-12x12.png)下的向下箭头&#x200B;**向下箭头**，然后单击&#x200B;**项目**、**任务**、**问题**、**项目**&#x200B;或&#x200B;**Portfolio。**
-<!--
-, or billing record
--->
-
+1. 单击![自定义用户看到的内容](assets/dropdown-arrow-12x12.png)下的向下箭头&#x200B;**向下箭头**，然后单击&#x200B;**项目**、**任务**、**问题**、**项目**&#x200B;或&#x200B;**Portfolio。**<!--, or billing record-->
 1. 在&#x200B;**详细信息**&#x200B;部分中，执行以下任一操作以自定义用户在“详细信息”视图中看到的内容：
 
    * 拖动任何节标题![移动图标](assets/move-icon---dots.png)以更改其顺序。
@@ -112,6 +108,10 @@ or billing record
 
      所有字段默认处于启用状态。 您可以选中或清除某个区域中的&#x200B;**全选**&#x200B;复选框，以显示或隐藏该区域中的所有字段。
 
+   <span class="preview">预览环境中的示例图像：</span>
+   ![布局模板中的详细信息视图](assets/layout-template-details-view-updated-save-buttons.png)
+
+   生产环境中的示例图像：
    ![布局模板中的详细信息视图](assets/layout-template-details-view.png)
 
 1. 在“预览”环境中：继续自定义布局模板。 <span class="preview">您可以随时单击&#x200B;**应用**&#x200B;以保存进度。</span>
