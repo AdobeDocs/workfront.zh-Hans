@@ -6,14 +6,16 @@ description: Adobe Workfront于2025年10月23日发布了API版本21。 API版�
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: f47e0bce61322c971f3a815ec01e7c243b090910
+source-git-commit: 1c3272c7830bf0a6feddea0281b0e2879b87eacf
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '893'
 ht-degree: 3%
 
 ---
 
 # API版本21中的新增功能
+
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 Adobe Workfront于2025年10月23日发布了API版本21。 API版本21具有对版本20的以下更改。
 
@@ -673,6 +675,42 @@ Rate对象表示Workfront中的记帐费率。
     </tr>
   </tbody>
 </table>
+
+### 角色(ROLE)
+
+角色对象（工作角色）表示用户可能填充的功能能力或技能集，如Designer或产品经理。
+
+<div class="preview">
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">直接字段</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>覆盖货币</b>
+            </p>
+            <p>已移除</p>
+              </li>
+          <li>
+            <p><b>覆盖成本率</b>
+            </p>
+            <p>已移除</p>
+              </li>
+          <li>
+            <p><b>覆盖记帐费率</b>
+            </p>
+            <p>已移除</p>
+              </li>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
 
 ### 计划报告(SCHREP)
 
