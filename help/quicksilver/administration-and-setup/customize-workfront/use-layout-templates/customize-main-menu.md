@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 39b3ecde744625c070a5c4378938e297f50feeaa
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '695'
 ht-degree: 4%
 
 ---
 
 # 使用布局模板自定义主菜单
+
+{{preview-fast-release-general}}
 
 <!--Audited: 01/2024-->
 
@@ -131,7 +133,13 @@ ht-degree: 4%
 
    如果要放弃更改，还可以随时单击&#x200B;**取消**。
 
-1. 继续自定义布局模板。
+1. 在“预览”环境中：继续自定义布局模板。 <span class="preview">您可以随时单击&#x200B;**应用**&#x200B;以保存进度。</span>
+
+   <span class="preview">或</span>
+
+   <span class="preview">如果您已完成自定义，请单击&#x200B;**保存并关闭**。</span>
+
+1. 在生产环境中：继续自定义布局模板。
 
    或
 

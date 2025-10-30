@@ -4,18 +4,20 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: 您可以使用布局模板配置用户在Adobe Workfront中打开主页时看到的内容。
-author: Lisa
+author: Lisa and Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '862'
 ht-degree: 1%
 
 ---
 
 # 使用布局模板自定义主页
+
+{{preview-fast-release-general}}
 
 您可以使用布局模板配置用户首次打开主页时看到的内容。
 
@@ -134,11 +136,11 @@ ht-degree: 1%
    >
    >* 筛选器、列和组选项链接到布局模板中的列表自定义选项。 此处所做的更改也将应用于这些设置。
    >* 用户必须至少具有视图的“创建”访问权限，管理员列配置才能正确应用于其主页。
-   ></p>
-   >   <li><p>将鼠标悬停在某个选项上，然后单击<b>设置为默认值</b>，为构件设置默认筛选器或组。 当前默认值在其右侧显示蓝色<b>默认</b>徽章。</p></li>
-   >   <li><p>单击每个列表底部的加号按钮，将现有的筛选器、列或组添加到可用选项列表中，以向该列表中添加选项。 请注意，只能通过这种方式添加现有筛选器、字段（用于列）或组。</p></li>
-   >   </ul>
-   >   <p>
+   </p>
+      <li><p>将鼠标悬停在某个选项上，然后单击<b>设置为默认值</b>，为构件设置默认筛选器或组。 当前默认值在其右侧显示蓝色<b>默认</b>徽章。</p></li>
+      <li><p>单击每个列表底部的加号按钮，将现有的筛选器、列或组添加到可用选项列表中，以向该列表中添加选项。 请注意，只能通过这种方式添加现有筛选器、字段（用于列）或组。</p></li>
+      </ul>
+      <p>
 
    >[!NOTE]
    >
@@ -150,7 +152,13 @@ ht-degree: 1%
       </tbody> 
       </table>
 
-1. 继续自定义布局模板。
+1. 在“预览”环境中：继续自定义布局模板。 <span class="preview">您可以随时单击&#x200B;**应用**&#x200B;以保存进度。</span>
+
+   <span class="preview">或</span>
+
+   <span class="preview">如果您已完成自定义，请单击&#x200B;**保存并关闭**。</span>
+
+1. 在生产环境中：继续自定义布局模板。
 
    或
 

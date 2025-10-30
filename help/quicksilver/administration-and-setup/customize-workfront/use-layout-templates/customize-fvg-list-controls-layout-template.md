@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
 
 # 使用布局模板自定义筛选器、视图和分组
+
+{{preview-fast-release-general}}
 
 作为Adobe Workfront管理员，您可以使用布局模板来指定在筛选器、视图和分组下拉菜单中显示的列表控件。 这些菜单出现在整个Workfront的上方列表中，例如项目的任务列表：
 
@@ -116,7 +118,13 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. 继续自定义布局模板。
+1. 在“预览”环境中：继续自定义布局模板。 <span class="preview">您可以随时单击&#x200B;**应用**&#x200B;以保存进度。</span>
+
+   <span class="preview">或</span>
+
+   <span class="preview">如果您已完成自定义，请单击&#x200B;**保存并关闭**。</span>
+
+1. 在生产环境中：继续自定义布局模板。
 
    或
 
@@ -124,4 +132,4 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >您可以随时单击保存以保存进度，然后继续修改模板。
+   >您可以随时单击&#x200B;**保存**&#x200B;以保存进度，然后稍后继续修改模板。

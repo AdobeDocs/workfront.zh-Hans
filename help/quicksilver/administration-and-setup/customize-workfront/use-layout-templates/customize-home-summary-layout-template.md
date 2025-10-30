@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '806'
 ht-degree: 2%
 
 ---
@@ -19,10 +19,7 @@ ht-degree: 2%
 
 <!--Audited: 11/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
-
+{{preview-fast-release-general}}
 
 您可以使用布局模板配置用户在单击任务或问题时在“摘要”面板中看到的内容。 您使用以下步骤进行的每项配置都会影响摘要面板。 这些自定义不适用于“文档摘要”面板。
 
@@ -171,10 +168,20 @@ ht-degree: 2%
     </tbody> 
    </table>
 
-1. 继续自定义布局模板。
+1. 在“预览”环境中：继续自定义布局模板。 <span class="preview">您可以随时单击&#x200B;**应用**&#x200B;以保存进度。</span>
+
+   <span class="preview">或</span>
+
+   <span class="preview">如果您已完成自定义，请单击&#x200B;**保存并关闭**。</span>
+
+1. 在生产环境中：继续自定义布局模板。
 
    或
 
    如果您已完成自定义，请单击&#x200B;**保存**。
+
+   >[!TIP]
+   >
+   >您可以随时单击&#x200B;**保存**&#x200B;以保存进度，然后稍后继续修改模板。
 
 有关布局模板的更多信息，请参阅[创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。

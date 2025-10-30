@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 3%
+source-wordcount: '659'
+ht-degree: 2%
 
 ---
 
 # 使用布局模板自定义用户界面术语
+
+{{preview-fast-release-general}}
 
 作为Adobe Workfront管理员，您可以使用布局模板更改显示在Workfront中的某些对象的标签，以匹配您在组织中使用的术语。
 
@@ -137,7 +139,13 @@ ht-degree: 3%
    >
    >单击“完成”（甚至在保存布局模板后）后，您始终可以返回“设置术语”设置，然后单击任何自定义术语旁边的“重置”(Reset)，以将它们返回到默认状态。
 
-1. 继续自定义布局模板。
+1. 在“预览”环境中：继续自定义布局模板。 <span class="preview">您可以随时单击&#x200B;**应用**&#x200B;以保存进度。</span>
+
+   <span class="preview">或</span>
+
+   <span class="preview">如果您已完成自定义，请单击&#x200B;**保存并关闭**。</span>
+
+1. 在生产环境中：继续自定义布局模板。
 
    或
 

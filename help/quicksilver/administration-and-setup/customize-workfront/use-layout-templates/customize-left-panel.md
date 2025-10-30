@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1132'
 ht-degree: 0%
 
 ---
 
 # 使用布局模板自定义左侧面板
+
+{{preview-fast-release-general}}
 
 <!--Audited: 10/2024-->
 
@@ -86,39 +88,39 @@ ht-degree: 0%
     </thead> 
     <tbody> 
      <tr> 
-      <td>[!UICONTROL 项目]</td> 
+      <td>[！UICONTROL项目]</td> 
       <td>项目的名称</td> 
-      <td>[!UICONTROL 任务]、[!UICONTROL 项目详细信息]、[!UICONTROL 业务案例]、[!UICONTROL 更新]、[!UICONTROL 文档]、[!UICONTROL 问题]、[!UICONTROL 风险]、[!UICONTROL 批准]、[!UICONTROL 基线]、[!UICONTROL 记帐费率]、[!UICONTROL 记帐记录]、[!UICONTROL uicontrol支出]、[!UICONTROL 小时数]、[!UICONTROL 工作负载均衡器]、[!UICONTROL 人员]、[!UICONTROL 利用率]、[!UICONTROL 队列详细信息]、[!UICONTROL 路由规则]、[!UICONTROL 队列主题]、[!UICONTROL 主题组]、[!UICONTROL 量度]、[!UICONTROL 规划]*、[!UICONTROL 自定义应用程序]**</td> 
+      <td>[！UICONTROL任务]、[！UICONTROL项目详细信息]、[！UICONTROL业务案例]、[！UICONTROL更新]、[！UICONTROL文档]、[！UICONTROL问题]、[！UICONTROL风险]、[！UICONTROL批准]、[！UICONTROL基线]、[！UICONTROL记帐费率]、[！UICONTROL记帐记录]、[！UICONTROL uicontrol支出]、[！UICONTROL小时数]、[！UICONTROL工作负载均衡器]、[！UICONTROL人员]、[！UICONTROL利用率]、[！UICONTROL队列详细信息]、[！UICONTROL路由规则]、[！UICONTROL队列主题]、[！UICONTROL主题组]、[！UICONTROL量度]、[！UICONTROL规划]*、[！UICONTROL自定义应用程序]**</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL 任务]</td> 
+      <td>[！UICONTROL任务]</td> 
       <td>任务的名称</td> 
-      <td> [!UICONTROL 更新]、[!UICONTROL 文档]、[!UICONTROL 任务详细信息]、[!UICONTROL 子任务]、[!UICONTROL 问题]、[!UICONTROL 小时数]、[!UICONTROL 审批]、[!UICONTROL 费用]、[!UICONTROL 前置任务]、[!UICONTROL 自定义应用程序]**</td> 
+      <td> [！UICONTROL更新]、[！UICONTROL文档]、[！UICONTROL任务详细信息]、[！UICONTROL子任务]、[！UICONTROL问题]、[！UICONTROL小时数]、[！UICONTROL审批]、[！UICONTROL费用]、[！UICONTROL前置任务]、[！UICONTROL自定义应用程序]**</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL 问题]</td> 
+      <td>[！UICONTROL问题]</td> 
       <td>问题的名称</td> 
-      <td> [!UICONTROL 更新]、[!UICONTROL 文档]、[!UICONTROL 问题详细信息]、[!UICONTROL 小时]、[!UICONTROL 审批]、[!UICONTROL 自定义应用程序]**</td> 
+      <td> [！UICONTROL更新]、[！UICONTROL文档]、[！UICONTROL问题详细信息]、[！UICONTROL小时]、[！UICONTROL审批]、[！UICONTROL自定义应用程序]**</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Portfolio]</td> 
+      <td>[！UICONTROL Portfolio]</td> 
       <td>项目组合的名称</td> 
-      <td>[!UICONTROL 项目]、[!UICONTROL 项目]、[!UICONTROL Portfolio详细信息]、[!UICONTROL Portfolio] [!UICONTROL 优化]、[!UICONTROL 文档]、[!UICONTROL 更新]、[!UICONTROL 规划]*、[!UICONTROL 自定义应用程序]**</td> 
+      <td>[！UICONTROL项目]、[！UICONTROL项目]、[！UICONTROL Portfolio详细信息]、[！UICONTROL Portfolio] [！UICONTROL优化]、[！UICONTROL文档]、[！UICONTROL更新]、[！UICONTROL规划]*、[！UICONTROL自定义应用程序]**</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL 项目]</td> 
+      <td>[！UICONTROL项目]</td> 
       <td>项目的名称</td> 
-      <td>[!UICONTROL 项目]、[!UICONTROL 项目详细信息]、[!UICONTROL 更新]、[!UICONTROL 文档]、[!UICONTROL 规划]*、[!UICONTROL 自定义应用程序]**</td> 
+      <td>[！UICONTROL项目]、[！UICONTROL项目详细信息]、[！UICONTROL更新]、[！UICONTROL文档]、[！UICONTROL规划]*、[！UICONTROL自定义应用程序]**</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL 模板]</td> 
+      <td>[！UICONTROL模板]</td> 
       <td>项目模板的名称</td> 
-      <td>[!UICONTROL 模板任务]、[!UICONTROL 模板详细信息]、[!UICONTROL 更新]、[!UICONTROL 文档]、[!UICONTROL 风险]、[!UICONTROL 费用]、[!UICONTROL 人员]、[!UICONTROL 批准]、[!UICONTROL 计费率]、[!UICONTROL 队列详细信息]、[!UICONTROL 路由规则]、[!UICONTROL uicontrol队列主题]，[!UICONTROL 主题组]</td> 
+      <td>[！UICONTROL模板任务]、[！UICONTROL模板详细信息]、[！UICONTROL更新]、[！UICONTROL文档]、[！UICONTROL风险]、[！UICONTROL费用]、[！UICONTROL人员]、[！UICONTROL批准]、[！UICONTROL计费率]、[！UICONTROL队列详细信息]、[！UICONTROL路由规则]、[！UICONTROL uicontrol队列主题]，[！UICONTROL主题组]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL 模板任务]</td> 
+      <td>[！UICONTROL模板任务]</td> 
       <td>模板任务的名称</td> 
-      <td>[!UICONTROL 更新]、[!UICONTROL 文档]、[!UICONTROL 模板任务详细信息]、[!UICONTROL 子任务]、[!UICONTROL 费用]、[!UICONTROL 审批]、[!UICONTROL 前置任务]</td>
+      <td>[！UICONTROL更新]、[！UICONTROL文档]、[！UICONTROL模板任务详细信息]、[！UICONTROL子任务]、[！UICONTROL费用]、[！UICONTROL审批]、[！UICONTROL前置任务]</td>
      </tr>
      <!--
       <tr> 
@@ -128,44 +130,44 @@ ht-degree: 0%
       </tr>
      --> 
      <tr> 
-      <td> [!UICONTROL 开票记录]</td> 
+      <td> [！UICONTROL开票记录]</td> 
       <td>项目的开票记录名称</td> 
-      <td>[!UICONTROL 计费记录详细信息]、[!UICONTROL 可计费小时数]、[!UICONTROL 可计费费用]、[!UICONTROL 固定收入]</td> 
+      <td>[！UICONTROL计费记录详细信息]、[！UICONTROL可计费小时数]、[！UICONTROL可计费费用]、[！UICONTROL固定收入]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL 项目]</td> 
-      <td>[!UICONTROL 主菜单]中的项目<img src="assets/projects-in-main-menu.png"> <img src="assets/main-menu-icon.png"></td> 
-      <td>[!UICONTROL 项目]</td> 
+      <td>[！UICONTROL项目]</td> 
+      <td>[！UICONTROL主菜单]中的项目<img src="assets/projects-in-main-menu.png"> <img src="assets/main-menu-icon.png"></td> 
+      <td>[！UICONTROL项目]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL 请求]</td> 
+      <td>[！UICONTROL请求]</td> 
       <td>请求的名称</td> 
-      <td>[!UICONTROL 新请求]、[!UICONTROL 提交的请求]、[!UICONTROL 所有请求]、[!UICONTROL 草稿]</td> 
+      <td>[！UICONTROL新请求]、[！UICONTROL提交的请求]、[！UICONTROL所有请求]、[！UICONTROL草稿]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL 功能板]</td> 
+      <td>[！UICONTROL功能板]</td> 
       <td>仪表板的名称</td> 
-      <td>[!UICONTROL 我的仪表板]、[!UICONTROL 共享仪表板]、[!UICONTROL 所有仪表板]</td> 
+      <td>[！UICONTROL我的仪表板]、[！UICONTROL共享仪表板]、[！UICONTROL所有仪表板]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Scrum团队]</td> 
+      <td>[！UICONTROL Scrum团队]</td> 
       <td>Scrum团队的名称</td> 
-      <td><p>[!UICONTROL 迭代]、[!UICONTROL 当前迭代]、[!UICONTROL 积压]、[!UICONTROL 工作负载均衡器]、[!UICONTROL 更新]、[!UICONTROL 团队设置]</p> <p><strong>注意：</strong> <strong>[!UICONTROL 当前迭代]</strong>项仅在迭代中至少有一个任务或问题时才会显示在左侧面板中。</p></td> 
+      <td><p>[！UICONTROL迭代]、[！UICONTROL当前迭代]、[！UICONTROL积压]、[！UICONTROL工作负载均衡器]、[！UICONTROL更新]、[！UICONTROL团队设置]</p> <p><strong>注意：</strong> <strong>[！UICONTROL当前迭代]</strong>项仅在迭代中至少有一个任务或问题时才会显示在左侧面板中。</p></td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Kanban团队]</td> 
+      <td>[！UICONTROL Kanban团队]</td> 
       <td>Kanban团队的名称</td> 
-      <td>[!UICONTROL 工作负载均衡器]、[!UICONTROL Kanban board]、[!UICONTROL 积压]、[!UICONTROL 更新]、[!UICONTROL 团队设置]</td> 
+      <td>[！UICONTROL工作负载均衡器]、[！UICONTROL Kanban board]、[！UICONTROL积压]、[！UICONTROL更新]、[！UICONTROL团队设置]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Waterfall Team]</td> 
+      <td>[！UICONTROL Waterfall Team]</td> 
       <td>瀑布团队的名称</td> 
-      <td>[!UICONTROL 工作负载均衡器]、[!UICONTROL 更新]、[!UICONTROL 团队请求]、[!UICONTROL 团队设置]</td> 
+      <td>[！UICONTROL工作负载均衡器]、[！UICONTROL更新]、[！UICONTROL团队请求]、[！UICONTROL团队设置]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL 迭代]</td> 
+      <td>[！UICONTROL迭代]</td> 
       <td>迭代的名称</td> 
-      <td>[!UICONTROL Stories]、[!UICONTROL Issues]、[!UICONTROL Story Board]、[!UICONTROL Overview]、[!UICONTROL Custom Forms]、[!UICONTROL Updates] </td> 
+      <td>[！UICONTROL Stories]、[！UICONTROL Issues]、[！UICONTROL Story Board]、[！UICONTROL Overview]、[！UICONTROL Custom Forms]、[！UICONTROL Updates] </td> 
      </tr> 
      <!--
       <tr> 
@@ -222,10 +224,10 @@ ht-degree: 0%
    >* [使用布局模板自定义筛选器、视图和分组](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >* [使用布局模板自定义[!UICONTROL 摘要面板]](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
    >* [使用布局模板自定义主页](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
-   >* 使用布局模板[品牌Adobe [!DNL Workfront] &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
+   >* 使用布局模板[品牌Adobe [!DNL Workfront] ](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
-1. （可选）如果要添加链接到贵组织某个功能板的左侧面板项，请单击“添加功能板”**&#x200B;**，键入该项的&#x200B;**[!UICONTROL 快速链接名称]**，然后选择该功能板。
+1. （可选）如果要添加链接到贵组织某个功能板的左侧面板项，请单击“添加功能板”****，键入该项的&#x200B;**[!UICONTROL 快速链接名称]**，然后选择该功能板。
 
    必须先构建仪表板，然后才能将其显示在列表中。
 
@@ -237,12 +239,18 @@ ht-degree: 0%
    >
    >有关功能板的信息，请参阅[功能板](../../../reports-and-dashboards/dashboards/dashboards-overview.md)。
 
-1. 继续自定义布局模板。
+1. 在“预览”环境中：继续自定义布局模板。 <span class="preview">您可以随时单击&#x200B;**应用**&#x200B;以保存进度。</span>
+
+   <span class="preview">或</span>
+
+   <span class="preview">如果您已完成自定义，请单击&#x200B;**保存并关闭**。</span>
+
+1. 在生产环境中：继续自定义布局模板。
 
    或
 
-   如果您已完成自定义，请单击&#x200B;**[!UICONTROL 保存]**。
+   如果您已完成自定义，请单击&#x200B;**保存**。
 
    >[!TIP]
    >
-   >您可以随时单击&#x200B;[!UICONTROL **保存**]&#x200B;以保存进度（这将关闭布局模板编辑器），然后继续修改模板。
+   >您可以随时单击&#x200B;**保存**&#x200B;以保存进度，然后稍后继续修改模板。

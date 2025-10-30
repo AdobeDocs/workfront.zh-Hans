@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 # 使用布局模板的Brand Adobe Workfront
 
 <!--Audited: 09/2024-->
+
+{{preview-fast-release-general}}
 
 >[!IMPORTANT]
 >
@@ -86,7 +88,13 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. 继续自定义布局模板。
+1. 在“预览”环境中：继续自定义布局模板。 <span class="preview">您可以随时单击&#x200B;**应用**&#x200B;以保存进度。</span>
+
+   <span class="preview">或</span>
+
+   <span class="preview">如果您已完成自定义，请单击&#x200B;**保存并关闭**。</span>
+
+1. 在生产环境中：继续自定义布局模板。
 
    或
 
@@ -94,8 +102,6 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >您可以随时单击保存以保存进度，然后继续修改模板。
-
-1. 单击&#x200B;**保存**。
+   >您可以随时单击&#x200B;**保存**&#x200B;以保存进度，然后稍后继续修改模板。
 
 有关布局模板的更多信息，请参阅[创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。

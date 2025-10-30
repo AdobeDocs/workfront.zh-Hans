@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
 
 # 使用布局模板自定义对象标题
+
+{{preview-fast-release-general}}
 
 作为Adobe Workfront管理员或组管理员，您可以使用布局模板配置用户在打开对象页面时显示在对象标题中的字段。
 
@@ -95,9 +97,15 @@ ht-degree: 0%
    ![添加字段到标头](assets/add-field-to-header-in-lt-list.png)
 
 
-1. （可选）拖放以不同顺序添加的字段。
+1. （可选）以不同的顺序拖放字段。
 
-1. 继续自定义布局模板。
+1. 在“预览”环境中：继续自定义布局模板。 <span class="preview">您可以随时单击&#x200B;**应用**&#x200B;以保存进度。</span>
+
+   <span class="preview">或</span>
+
+   <span class="preview">如果您已完成自定义，请单击&#x200B;**保存并关闭**。</span>
+
+1. 在生产环境中：继续自定义布局模板。
 
    或
 
@@ -105,4 +113,4 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >您可以随时单击保存以保存进度，然后继续修改模板。
+   >您可以随时单击&#x200B;**保存**&#x200B;以保存进度，然后稍后继续修改模板。

@@ -8,16 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
 
 # 使用布局模板自定义详细信息视图
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
+{{preview-fast-release-general}}
 
 作为Adobe Workfront管理员，您可以使用布局模板来确定当用户查看任务、问题、文档、项目或项目组合时单击左侧面板中的“详细信息”图标![详细信息图标](assets/project-details-icon.png)时显示哪些信息。
 
@@ -114,7 +114,13 @@ or billing record
 
    ![布局模板中的详细信息视图](assets/layout-template-details-view.png)
 
-1. 继续自定义布局模板。
+1. 在“预览”环境中：继续自定义布局模板。 <span class="preview">您可以随时单击&#x200B;**应用**&#x200B;以保存进度。</span>
+
+   <span class="preview">或</span>
+
+   <span class="preview">如果您已完成自定义，请单击&#x200B;**保存并关闭**。</span>
+
+1. 在生产环境中：继续自定义布局模板。
 
    或
 
@@ -122,4 +128,4 @@ or billing record
 
    >[!TIP]
    >
-   >您可以随时单击保存以保存进度，然后继续修改模板。
+   >您可以随时单击&#x200B;**保存**&#x200B;以保存进度，然后稍后继续修改模板。

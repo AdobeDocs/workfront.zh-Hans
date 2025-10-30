@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '861'
 ht-degree: 0%
 
 ---
 
 # 将用户分配给布局模板
+
+{{preview-fast-release-general}}
 
 您可以将已创建的布局模板分配给需要使用该模板的任何用户、工作角色、团队或组。
 
@@ -78,7 +80,7 @@ ht-degree: 0%
 
    一次最多可以分配100个用户。
 
-1. 单击&#x200B;**完成**，然后单击左下角的&#x200B;**保存**。
+1. 单击&#x200B;**完成**，然后单击左下角的&#x200B;**保存**&#x200B;或&#x200B;<span class="preview">**保存并关闭**</span>。
 
    此步骤将完成创建和分配布局模板的过程。
 
