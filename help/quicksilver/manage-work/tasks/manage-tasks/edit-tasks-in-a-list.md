@@ -6,7 +6,7 @@ description: 您可以通过编辑列表中显示的字段来编辑任务列表�
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: ac5552f1c235f595b1c0d2558fcf88b1e03f5a8e
 workflow-type: tm+mt
 source-wordcount: '2764'
 ht-degree: 2%
@@ -15,12 +15,12 @@ ht-degree: 2%
 
 # 编辑列表中的任务 {#edit-tasks-in-a-list}
 
-<!-- Audited: 5/2025 -->
+<!-- Audited: 10/2025 -->
 
 <!--
 <div class="preview"> 
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
@@ -533,9 +533,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. （可选）在“自定义Forms”部分中，选择&#x200B;**重新计算自定义表达式**&#x200B;选项，以确保附加到所选任务的自定义表单上的所有计算自定义字段都是最新的。
 
    <!--
-   <div class="preview">
-
-   1. In the Preview environment, with all the tasks selected in the list, click the **More** menu ![More menu](assets/more-icon.png) at the top of the task list, then click **Recalculate Expressions**. This is only available when you automatically save your changes. 
+   1. <span class="preview">In the Preview environment, with all the tasks selected in the list, click the **More** menu ![More menu](assets/more-icon.png) at the top of the task list, then click **Recalculate Expressions**. This is only available when you automatically save your changes. </span>
 
    -->
 1. 单击&#x200B;**保存更改**。 您所做的所有更改现在在所有选定任务中均可见。

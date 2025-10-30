@@ -7,16 +7,16 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: ac5552f1c235f595b1c0d2558fcf88b1e03f5a8e
 workflow-type: tm+mt
-source-wordcount: '1820'
+source-wordcount: '1829'
 ht-degree: 1%
 
 ---
 
 # 分配任务
 
-<!--Audited: 07/2024-->
+<!--Audited: 10/2025-->
 
 <!--
 <div class="preview"> 
@@ -175,7 +175,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. 单击&#x200B;**保存**。
 1. （可选且有条件）单击任务右侧面板中任务名称旁边的&#x200B;**X图标**&#x200B;可删除任务（如果您单击了&#x200B;**高级**）。
 
-## 在列表中分配任务
+## 内联编辑任务时分配列表中的任务
 
 当任何任务字段在列表视图中可见时，您可以在列表或报表中分配任务。 这是分配任务的更快方式。 本文介绍了如何修改列表中一项任务的分配。 有关修改列表中多个任务的多个分配的信息，请参阅[修改任务列表中的多个用户分配](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)。
 
@@ -224,7 +224,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
 1. 将任务负责人添加到任务后，按Enter键或单击页面上的任意位置保存更改（如果已选择“自动保存”）。 否则，请单击&#x200B;**保存**。
 
-## 将多个任务分配给用户
+## 从列表向用户批量分配多个任务
 
 <!--Assigning multiple tasks to a user is different, depending on what environment you use to assign the tasks. 
 
