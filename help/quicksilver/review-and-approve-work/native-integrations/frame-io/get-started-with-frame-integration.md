@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
-source-git-commit: 79851c46848b7897056e9953dc5a5bc004170a02
+source-git-commit: 8233bcad8409b6f293d365fe871338e643a410dc
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '921'
 ht-degree: 0%
 
 ---
@@ -122,3 +122,9 @@ Workfront和Frame.io集成使创意人员、营销人员和利益相关者与无
 * **自定义仪表板**：在“画布仪表板”区域创建一个报告仪表板，以显示有关具有统一审批功能的审阅和审批的高级和详细信息。 有关如何开始的信息，请参阅[创建报表仪表板以供审阅和批准](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)。
 * **文档审批量度主页小组件**：显示2个图表，其中包含有关平均审批时间和决策的信息以及待审批和超期审批的列表视图。
   ![所有审批](assets/all-approvals.png)
+
+## 将完成的资源发送到Adobe Experience Manager
+
+您可以使用&#x200B;[!DNL Experience Manager Assets]&#x200B;管理和存储已过审阅和批准周期的数字资产。 此集成允许您利用Adobe Experience Manager、Frame.io和Workfront的功能来简化内容管理和协作流程。
+
+有关详细信息，请参阅[将Adobe Experience Manager与Frame.io集成一起使用](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)。
