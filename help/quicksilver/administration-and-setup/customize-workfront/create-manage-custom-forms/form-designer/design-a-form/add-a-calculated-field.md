@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: f6e0329ec63038b33006325701007c564c4126cc
 workflow-type: tm+mt
-source-wordcount: '2412'
+source-wordcount: '2446'
 ht-degree: 0%
 
 ---
 
 # 将计算字段添加到表单
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 5/2025 -->
 
@@ -169,6 +171,10 @@ ht-degree: 0%
       <p><b>重要信息</b>：在选择格式之前，请考虑新字段的正确格式。 保存自定义表单后无法编辑格式字段。 此外，选择错误的格式可能会影响报告和列表分组中的未来计算和汇总值。</p>
       <p><strong>注意</strong>：采用<strong>货币</strong>格式的计算字段不应包含引号。 （例如，使用800.00而不是“800.00”。） 由于货币类型的语言格式存在细微差异，使用引号可能会导致意外后果。</p></td>
      </tr> 
+     <tr>
+      <td><span class="preview">活动</span></td>
+      <td><span class="preview"><p>此选项默认处于打开状态。<p><p>将字段设置为“不活动”时，该字段将从报表、筛选器和视图中排除，并且在自定义表单字段库中不再可用。</p></span></td>
+     </tr>
     </tbody> 
    </table>
 
@@ -278,7 +284,7 @@ ht-degree: 0%
            >
            ><div>在附加到对象的自定义表单中，计算自定义字段中的日期和时间语句通过协调世界时(UTC)进行计算和保存，而不是通过为组织的实例和用户配置文件设置的时区配置进行计算和保存。 自定义表单中的计算根据每个用户的各个时区生成。</div>
 
-      +++
+        +++
 
    1. 单击大文本框，然后单击&#x200B;**表达式**&#x200B;和&#x200B;**字段**，它们可用于将其添加到计算中。
 

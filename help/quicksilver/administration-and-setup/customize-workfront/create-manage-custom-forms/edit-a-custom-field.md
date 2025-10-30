@@ -8,18 +8,22 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: f6e0329ec63038b33006325701007c564c4126cc
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '367'
 ht-degree: 1%
 
 ---
 
 # 添加或编辑自定义字段、分区界限或小组件
 
+{{preview-fast-release-general}}
+
 您可以直接从Workfront中的字段区域添加新的自定义字段或构件，而无需打开自定义表单来创建字段。
 
 您还可以编辑在自定义表单中使用的自定义字段、分区界限或小组件的属性。 这些资源包括项目的标签、名称、说明等。
+
+<span class="preview">将自定义字段设置为“不活动”会将其从报表、筛选器和视图中排除，并且该字段在自定义表单字段库中不再可用。 默认情况下，所有新字段均设置为“活动”。</span>
 
 如果从自定义表单中删除自定义字段，则它仍然存在于添加到的所有其他表单中，并且您可以在表单或“字段”区域中编辑它。 有关删除字段的信息，请参阅[从系统中删除自定义字段或小组件](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)。
 

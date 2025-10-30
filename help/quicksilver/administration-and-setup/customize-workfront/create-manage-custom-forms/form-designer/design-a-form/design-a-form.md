@@ -8,20 +8,18 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 559044c44ca8d32d010188445403b4fc1e524002
+source-git-commit: f6e0329ec63038b33006325701007c564c4126cc
 workflow-type: tm+mt
-source-wordcount: '6642'
+source-wordcount: '6933'
 ht-degree: 5%
 
 ---
 
 # 创建自定义表单
 
+{{preview-fast-release-general}}
+
 <!-- Audited: 6/2025 -->
-
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 您可以使用Adobe Workfront中的表单设计器设计自定义表单。 您可以将自定义表单附加到不同的Workfront对象，以捕获有关这些对象的数据。
 
@@ -129,7 +127,7 @@ ht-degree: 5%
 >[!NOTE]
 >
 >虽然可以这样做，但我们建议，在您或其他用户开始使用Workfront中的自定义表单后，不要更改此名称。 如果这样做，系统将不再能够识别Workfront其他区域中现在可能引用该字段的自定义字段。
->&#x200B;>例如，如果您将自定义字段添加到报表后更改其名称，Workfront将无法识别该字段在报表中的名称，并且除非您使用新名称将其重新添加到报表，否则该字段将在报表中停止正常工作。
+>>例如，如果您将自定义字段添加到报表后更改其名称，Workfront将无法识别该字段在报表中的名称，并且除非您使用新名称将其重新添加到报表，否则该字段将在报表中停止正常工作。
 >
 >我们建议您不要键入已用于内置Workfront字段的名称。
 >
@@ -259,6 +257,15 @@ ht-degree: 5%
     <td>超链接</td>
     <td> 如果要将超链接应用于已键入的描述性文本，请在此处添加它。 描述性文本在附加表单的对象上显示为链接。</td>
     <td><ul><li>描述性文本</li></ul></td>
+    </tr>
+    <tr>
+     <td><span class="preview">活动</span></td>
+     <td><span class="preview"><p>此选项默认处于打开状态。<p><p>将字段设置为“不活动”时，该字段将从报表、筛选器和视图中排除，并且在自定义表单字段库中不再可用。</p></span></td>
+     <td><ul><span class="preview">
+     <li>单行文本</li>
+     <li>段落</li>
+     <li>带格式文本</li>
+     <li>描述性文本</li></span></ul></td>
     </tr>
     <tr> 
       <td role="rowheader">设为必填字段</td>
@@ -408,8 +415,17 @@ ht-degree: 5%
     <li>多选下拉框</li>
     </ul>
     </td>
-     </tr> 
-          <tr> 
+     </tr>
+    <tr>
+     <td><span class="preview">活动</span></td>
+     <td><span class="preview"><p>此选项默认处于打开状态。<p><p>将字段设置为“不活动”时，该字段将从报表、筛选器和视图中排除，并且在自定义表单字段库中不再可用。</p></span></td>
+     <td><ul><span class="preview">
+     <li>单选按钮</li>
+     <li>复选框组</li>
+     <li>单选下拉菜单</li>
+     <li>多选下拉框</li></span></ul></td>
+    </tr>
+    <tr> 
     <td role="rowheader">设为必填字段</td> 
     <td>如果希望该字段是用户完成自定义表单所必需的，请选择此选项。 </td> 
     <td><ul>
@@ -541,6 +557,13 @@ ht-degree: 5%
        </ul>
       </td>
      </tr>
+     <tr>
+      <td><span class="preview">活动</span></td>
+      <td><span class="preview"><p>此选项默认处于打开状态。<p><p>将字段设置为“不活动”时，该字段将从报表、筛选器和视图中排除，并且在自定义表单字段库中不再可用。</p></span></td>
+      <td><ul><span class="preview">
+      <li>键盘缓冲</li>
+      <li>日期</li></span></ul></td>
+     </tr>
      <tr> 
       <td role="rowheader">设为必填字段</td> 
       <td>如果希望该字段是用户完成自定义表单所必需的，请选择此选项。 </td> 
@@ -628,12 +651,12 @@ ht-degree: 5%
       <td role="rowheader">JSON 路径</td>
       <td><p>键入或粘贴API的JSON路径。</p> <p>此选项允许从API URL返回的JSON中提取数据。 它提供了一种方法，用于选择在JSON内的哪些值将显示在下拉选项中。</p><p>例如，如果API URL按以下格式返回JSON，则可以使用“$.data[*].name”选择“美国”和“加拿大”作为下拉选项：</br>
       <pre>
-      &lbrace;
-       数据： &lbrace;
+      {
+       数据： {
          { name： "USA"}，
          { name： "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>有关JSON路径并确保编写正确JSON路径的更多信息，请参阅<a href="https://jsonpath.com/">https://jsonpath.com/</a>。</p></td>
@@ -646,6 +669,9 @@ ht-degree: 5%
       <td role="rowheader">多选下拉框</td>
       <td><p>选择此选项可允许用户在下拉列表中选择多个值。</p></td>
      </tr>
+     <tr>
+      <td><span class="preview">活动</span></td>
+      <td><span class="preview"><p>此选项默认处于打开状态。<p><p>将字段设置为“不活动”时，该字段将从报表、筛选器和视图中排除，并且在自定义表单字段库中不再可用。</p></span></td>
      </tr>
      <tr> 
       <td role="rowheader">设为必填字段</td>
@@ -736,6 +762,10 @@ The Workfront Mobile app -->
       <td role="rowheader">说明</td> 
       <td> <p>键入有关构件的任何其他信息。 当用户填写自定义表单时，可以将光标悬停在问号图标上，以查看包含您在此处键入的信息的工具提示。</p> </td> 
      </tr> 
+     <tr>
+      <td><span class="preview">活动</span></td>
+      <td><span class="preview"><p>此选项默认处于打开状态。<p><p>将字段设置为“不活动”时，该字段将从报表、筛选器和视图中排除，并且在自定义表单字段库中不再可用。</p></span></td>
+     </tr>
     </tbody> 
    </table>
 
@@ -869,6 +899,10 @@ The Workfront Mobile app -->
         </ul></p></td> 
       <td>
      </tr>
+     <tr>
+      <td><span class="preview">活动</span></td>
+      <td><span class="preview"><p>此选项默认处于打开状态。<p><p>将字段设置为“不活动”时，该字段将从报表、筛选器和视图中排除，并且在自定义表单字段库中不再可用。</p></span></td>
+     </tr>
      <tr> 
       <td role="rowheader">设为必填字段</td>
       <td><p>如果希望该字段是用户完成自定义表单所必需的，请选择此选项。</p></td>
@@ -921,7 +955,11 @@ The Workfront Mobile app -->
       <td role="rowheader">说明</td> 
       <td> <p>键入有关构件的任何其他信息。 当用户填写自定义表单时，可以将光标悬停在问号图标上，以查看包含您在此处键入的信息的工具提示。
     <img src="assets/instructions-form-designer.png"></p> </td> 
-     </tr> 
+     </tr>
+     <tr>
+      <td><span class="preview">活动</span></td>
+      <td><span class="preview"><p>此选项默认处于打开状态。<p><p>将字段设置为“不活动”时，该字段将从报表、筛选器和视图中排除，并且在自定义表单字段库中不再可用。</p></span></td>
+     </tr>
     </tbody> 
    </table>
 
@@ -1017,6 +1055,10 @@ The Workfront Mobile app -->
       <td role="rowheader">记录类型字段</td> 
       <td><p>（可选）从连接的记录类型中选择最多7个查找字段以在自定义表单中显示。 默认情况下，主字段处于选中状态，无法编辑。 </p> <p> 您选择的已连接记录的字段显示在自定义表单的表视图中。 将表单附加到Workfront对象时，表格视图为只读。 </p>  
     <img src="assets/planning-connections-field-with-table-on-form-preview.png"></td> 
+     </tr>
+     <tr>
+      <td><span class="preview">活动</span></td>
+      <td><span class="preview"><p>此选项默认处于打开状态。<p><p>将字段设置为“不活动”时，该字段将从报表、筛选器和视图中排除，并且在自定义表单字段库中不再可用。</p></span></td>
      </tr>
       </tbody> 
    </table>
