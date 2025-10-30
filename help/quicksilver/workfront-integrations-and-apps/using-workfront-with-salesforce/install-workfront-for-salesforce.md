@@ -6,9 +6,9 @@ description: 要在应用程序在 [!DNL Salesforce] AppExchange中可用之前�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
+source-git-commit: dc72ef4a3c5d55c418330af984f146f61f202d84
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1080'
 ht-degree: 2%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 2%
 >
 >为了满足贵组织与Salesforce的集成需求，我们建议使用Workfront自动化和集成。
 >
->有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 >
->有关Salesforce的Workfront自动化和集成模块的特定功能的信息，请参阅[Salesforce模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules)。
+>有关Salesforce的Workfront自动化和集成模块的特定功能的信息，请参阅[Salesforce模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules)。
 
 作为[!DNL Salesforce]和[!DNL Adobe Workfront]管理员，您可以安装[!DNL Workfront for Salesforce]以允许[!DNL Salesforce]用户提交[!DNL Workfront]请求并自动创建项目而无需离开Salesforce。
 
@@ -33,6 +33,10 @@ ht-degree: 2%
 
 * [安装和使用 [!DNL Workfront for Salesforce]的先决条件](#prerequisites-for-installing-and-using-workfront-for-salesforce)
 * [正在安装 [!DNL Workfront for Salesforce]](#installing-workfrontfor-salesforce)
+
+>[!NOTE]
+>
+>此集成的最新版本于2025年10月30日发布。
 
 ## 访问要求
 
@@ -74,8 +78,8 @@ ht-degree: 2%
 以下子部分介绍了如何为[!DNL Workfront]生产环境安装[!DNL Salesforce]。 您可以按照相同的步骤为[!DNL Workfront]沙盒环境安装[!DNL Salesforce]。
 
 * [正在安装 [!DNL Workfront for Salesforce] ，使其在 [!DNL AppExchange] 市场中可用](#installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace)
-* [正在 [!DNL Workfront for Salesforce] 框架中安装 [!DNL Salesforce Classic] &#x200B;](#installing-workfront-for-salesforce-in-the-salesforce-classic-framework)
-* [正在 [!DNL Workfront for Salesforce] 框架中安装 [!DNL Salesforce Lightning Experience] &#x200B;](#installing-workfront-for-salesforce-in-the-salesforce-lightning-experience-framework)
+* [正在 [!DNL Workfront for Salesforce] 框架中安装 [!DNL Salesforce Classic] ](#installing-workfront-for-salesforce-in-the-salesforce-classic-framework)
+* [正在 [!DNL Workfront for Salesforce] 框架中安装 [!DNL Salesforce Lightning Experience] ](#installing-workfront-for-salesforce-in-the-salesforce-lightning-experience-framework)
 
 ### 正在安装[!DNL Workfront for Salesforce]，以使其在[!DNL AppExchange]市场中可用 {#installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace}
 
@@ -85,11 +89,11 @@ ht-degree: 2%
 
 1. 在生产环境中，转到
 
-   [https://login.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqk](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqk)
+   [https://login.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqp](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqp)
 
    在沙盒环境中，转到
 
-   [https://test.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqk](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqk)
+   [https://test.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqp](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqp)
 
    >[!NOTE]
    >
