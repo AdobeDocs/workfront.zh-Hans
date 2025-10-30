@@ -15,7 +15,7 @@ ht-degree: 0%
 
 本页介绍了2026年第一季度版本与预览环境之间的集成增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
 
 
 ## Salesforce集成的新版本现已可用
@@ -23,7 +23,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >预览： 2025年10月30日
->>生产快速发布： 2025年10月30日\
+>&#x200B;>生产快速发布： 2025年10月30日\
 >为每个人生产： 2025年10月30日
 
 为了及时了解Workfront API的最新更改，我们创建了一个新的Salesforce集成。 新的集成具有与以前版本相同的功能，并且进行了更新以避免丢失API中已弃用的功能。
