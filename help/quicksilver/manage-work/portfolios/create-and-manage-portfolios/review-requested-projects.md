@@ -44,16 +44,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>[！UICONTROL标准版] </p> 
-   <p>[！UICONTROL计划]</p> </td> 
+   <td> <p>[!UICONTROL 标准版] </p> 
+   <p>[!UICONTROL 计划]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>对项目组合的[！UICONTROL视图]或更高访问权限</p> <p>[！UICONTROL Edit]对项目的访问权限</p>  </td> 
+   <td> <p>对项目组合的[!UICONTROL 视图]或更高访问权限</p> <p>[!UICONTROL Edit]对项目的访问权限</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>项目组合上的[！UICONTROL View]权限或更高版本</p> <p>[！UICONTROL Manage]对项目的权限以更新其状态</p>  </td> 
+   <td> <p>项目组合上的[!UICONTROL View]权限或更高版本</p> <p>[!UICONTROL Manage]对项目的权限以更新其状态</p>  </td> 
   </tr> 
  </tbody> 
 </table>
