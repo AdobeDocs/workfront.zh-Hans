@@ -4,10 +4,10 @@ description: 本页介绍了2026年第一季度版本中包含的功能。 这�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: faaea3fef9be0fb03c2ed4991bad575f23b08559
+source-git-commit: 1c4f81babf6cdc6579fa633c1a776c151219a6bf
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 3%
+source-wordcount: '1268'
+ht-degree: 2%
 
 ---
 
@@ -37,6 +37,88 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfront增强功能
 
+* [管理员增强功能](#administrator-enhancements)
+* [文档和审批增强功能](#documents-and-approvals-enhancements)
+* [其他增强功能](#other-enhancements)
+
+### 管理员增强功能
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>功能</strong>
+        </td>
+        <td><strong>预览</strong></td>
+        <td><strong>快速发布</strong></td>
+        <td><strong>每季度</strong></td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">编辑布局模板时更新按钮名称</a>
+            <p>为了与“设置”的其他区域（如自定义表单设计器）更加一致，您在编辑布局模板时看到的按钮已更改为“应用”、“保存并关闭”和“取消”。 新选项“应用”允许您保存对布局模板所做的更改并继续编辑。 以前，可用的选项为“保存”和“取消”。 </p>
+        </td>
+        <td>2025年10月30日</td>
+        <td>2025年11月13日</td>
+        <td>2026年1月15日</td>
+    </tr>  
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">自定义字段上使用活动标志改进了字段管理</a>
+            <p>当系统中具有大量自定义字段时，在自定义表单和报告中管理这些字段可能比较困难。 您现在可以使用新的<b>活动</b>标志将自定义字段标记为不活动。 在自定义表单中使用字段，或者从“字段”列表添加或编辑字段时，此标志可用。 </p>
+        </td>
+        <td>2025年10月30日</td>
+        <td>2025年11月13日</td>
+        <td>2026年1月15日</td>
+    </tr>   
+  </tbody>
+</table>
+
+### 文档和批准增强功能
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>功能</strong>
+        </td>
+        <td><strong>预览</strong></td>
+        <td><strong>快速发布</strong></td>
+        <td><strong>每季度</strong></td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager现在可与Frame.io集成一起使用 <p>[！BADGE Off Schedule]{type=Neutral}</p> </a>
+            <p>现在，您可以使用Experience Manager Assets​管理和存储已经过审核和批准周期的数字资源。 此集成允许您利用Adobe Experience Manager、Frame.io和Workfront的功能来简化内容管理和协作流程。 </p>
+        </td>
+        <td>2025年10月30日</td>
+        <td>2025年10月30日</td>
+        <td>2025年10月30日</td>
+    </tr>   
+  </tbody>
+</table>
+
+### 集成增强功能
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>功能</strong>
+        </td>
+        <td><strong>预览</strong></td>
+        <td><strong>快速发布</strong></td>
+        <td><strong>每季度</strong></td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">Salesforce集成的新版本现已可用</a>
+            <p>为了及时了解Workfront API的最新更改，我们创建了一个新的Salesforce集成。 新的集成具有与以前版本相同的功能，并且进行了更新以避免丢失API中已弃用的功能。</p>
+        </td>
+        <td>2025年10月30日</td>
+        <td>2025年10月30日</td>
+        <td>2025年10月30日</td>
+    </tr>   
+  </tbody>
+</table>
+
 ### 其他增强功能
 
 <table>
@@ -52,7 +134,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">在2025年第四季度发布时间范围内的外观更新</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md" class="MCXref xref" xrefformat="{para}">在2025年第四季度发布时间范围内的外观更新</a>
                         <p>在2025年第四季度发布时间范围内，对Adobe Workfront应用程序各个区域的外观和工作方式做出了小幅更新。 </p>
                     </td>
                     <td><p>整个2025年第四季度发布时间范围<br /></p>
@@ -61,14 +143,28 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </ul>
                     </td>
                 </tr>
+                <tr>
+                 <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md" class="MCXref xref" xrefformat="{para}">多选字段的选择限制</a>
+              <p>现在，当用户填写表单时，允许进行多选择的字段（例如复选框和多选下拉列表）限制为5000个选择。</p>
+             </td>
+        <td>2025年10月30日</td>
+        <td>2025年11月13日</td>
+        <td>2026年1月15日</td>
+             </tr>   
             </tbody>
         </table>
 
-<!--
-### Functionality soon to be removed from Workfront
 
-* 
--->
+### 即将从Workfront中删除的功能
+
+#### 在25.11版本中弃用了工作角色上的覆盖货币
+
+作为财务模型简化的一部分，我们将通过25.11版本在10月30日的“预览”和“生产”版中为所有客户弃用工作角色的覆盖货币。 此更改会影响货币和汇率在“设置”区域中的工作角色配置方式。
+
+* 工作角色中的&#x200B;**覆盖货币**&#x200B;字段将不再可用。
+* 每个工作角色将具有与其关联的成本和记帐费率的单一货币。
+* 所有现有的覆盖货币及其汇率值将自动迁移以成为该工作角色的唯一货币和汇率。
 
 ## 界面现代化
 
@@ -135,13 +231,13 @@ Workfront API版本21于2025年10月23日发布。 对于API版本21，我们修
 * 适用于Salesforce的Workfront。
 
 为了满足贵组织与Google Workspace的集成需求，我们建议使用Workfront自动化和集成。
-有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 
 ### Workfront 维护更新
 
-有关2025年第一季度版本中所做维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hans)。
+有关2025年第一季度版本中所做维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
 
 ### 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hans)的“新增功能”部分。
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的“新增功能”部分。

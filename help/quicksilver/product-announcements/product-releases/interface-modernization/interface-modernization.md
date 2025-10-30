@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: bf4764cc1e20bf87fb1069ca432ee6303096313c
+source-git-commit: 7fb12a3fbdad661baf2d0ad472ce8017e178ddef
 workflow-type: tm+mt
-source-wordcount: '8788'
+source-wordcount: '8978'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,54 @@ ht-degree: 0%
 有关详细信息，请参阅[创建和编辑公司](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)。
 
 ## 项目
+
+### 使用模板将任务转化为项目时界面更新
+
+**预览版本： 2025年10月30日；生产版本：从2025年11月6日开始**
+
+使用模板将任务转化为项目时，我们更新了“转化为项目”框。 该框的设计现在与编辑项目框匹配。
+
+有关信息，请参阅[将任务转换为项目](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md)。
+
+<!--### New experience when bulk editing and single- or bulk-assigning tasks
+
+**Preview release: October 30, 2025; Production release: Starting on November 6, 2025**
+
+We have updated the Edit Tasks box when editing single tasks or editing them in bulk. The following changes are included in this update:
+
+* The Recalculate Custom Expressions option has been removed when updating tasks in bulk and has been added to the More menu in a task list, after selecting multiple tasks.
+
+* There is a new experience for assigning resources to tasks. This is now available both when editing one task or editing several tasks in bulk. The following fields have been removed from the Edit tasks box:
+
+* Allocations
+* Owner or Task Owner
+* Assignee's Role
+
+You can still find the removed fields when making advanced assignments on tasks.
+
+You will have a chance to switch between the old and the new experience for editing tasks for a limited time.
+
+For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).-->
+
+### 在批量编辑和单个或批量分配问题时的新体验
+
+**预览版本： 2025年10月30日；生产版本：从2025年11月6日开始**
+
+在编辑单个问题或批量编辑问题时，我们更新了编辑问题框。
+
+此更新中包含以下更改：
+
+* 批量更新问题时删除了重新计算自定义表达式选项。 在选择多个问题后，该选项已添加到问题列表中的更多菜单。
+
+* 为问题分配资源提供了新的体验。 现在，在编辑一个问题或编辑多个问题时均可使用此功能。 以下字段已从编辑问题框中删除：
+
+* 分配
+* 所有者或问题所有者
+* 受让人的角色
+
+在就问题进行高级分配时，您可以更新已删除的字段。
+
+有关信息，请参阅[编辑问题](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md)。
 
 ### 项目自定义仪表板中“新建和编辑风险”框的界面更新
 
