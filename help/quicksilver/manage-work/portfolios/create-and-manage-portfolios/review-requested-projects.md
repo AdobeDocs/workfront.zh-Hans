@@ -6,7 +6,7 @@ description: 在Adobe Workfront中，项目请求显示为状态为[!UICONTROL �
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1acfb885-0da3-495d-ba66-e80e339e90de
-source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
+source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 审核请求的项目
+
+<!--Audited: 10/2025-->
 
 当有多个项目请求被提交审查时，项目管理办公室或项目组合委员会可以开会审查提交的请求，确定项目请求的批准。 项目请求在[!UICONTROL 中显示为状态为]已请求[!DNL Adobe Workfront]的项目。
 
@@ -42,16 +44,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>[!UICONTROL 标准版] </p> 
-   <p>[!UICONTROL 计划]</p> </td> 
+   <td> <p>[！UICONTROL标准版] </p> 
+   <p>[！UICONTROL计划]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>对项目组合的[!UICONTROL 视图]或更高访问权限</p> <p>[!UICONTROL Edit]对项目的访问权限</p>  </td> 
+   <td> <p>对项目组合的[！UICONTROL视图]或更高访问权限</p> <p>[！UICONTROL Edit]对项目的访问权限</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>项目组合上的[!UICONTROL View]权限或更高版本</p> <p>[!UICONTROL Manage]对项目的权限以更新其状态</p>  </td> 
+   <td> <p>项目组合上的[！UICONTROL View]权限或更高版本</p> <p>[！UICONTROL Manage]对项目的权限以更新其状态</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -89,7 +91,7 @@ ht-degree: 0%
 
 您可以生成项目报告，以查看哪些项目的状态为[!UICONTROL 已请求]。
 
-有关通过生成项目报告来批准项目请求的更多信息，请参阅[[!UICONTROL 批准业务案例]](../../../manage-work/projects/define-a-business-case/approve-business-case.md#build-a-report)中的[通过生成项目报告来批准业务案例](../../../manage-work/projects/define-a-business-case/approve-business-case.md)部分。 
+有关通过生成项目报告来批准项目请求的更多信息，请参阅[[!UICONTROL 批准业务案例]](../../../manage-work/projects/define-a-business-case/approve-business-case.md#build-a-report)中的[通过生成项目报告来批准业务案例](../../../manage-work/projects/define-a-business-case/approve-business-case.md)部分。
 
 ## 查看项目组合中请求的项目
 
@@ -101,7 +103,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   > 除了具有&#x200B;**[!UICONTROL 已请求]**&#x200B;的状态外，项目还必须与选定的Portfolio关联才能显示在此列表中。
+   > 除了具有&#x200B;**[!UICONTROL 已请求]**&#x200B;的状态外，项目还必须与选定的Portfolio关联才能显示在此列表中。
 
 1. 单击列表中的项目名称以将其打开。
 1. 单击左侧面板中的&#x200B;**[!UICONTROL 项目详细信息]**。
@@ -117,13 +119,13 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >没有通知可提醒提交业务案例批准的用户其项目请求是否被批准或拒绝。 
+     >没有通知可提醒提交业务案例批准的用户其项目请求是否被批准或拒绝。
 
      或
 
    * 在&#x200B;**[!UICONTROL 状态]**&#x200B;下拉菜单中，将项目的状态更改为任何其他状态。
 
      ![从下拉列表中更改项目状态](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
- 
 
- 
+
+

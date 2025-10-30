@@ -6,28 +6,25 @@ description: 您可以编辑单个问题，也可以在问题列表或报告中�
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
+source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 1%
+source-wordcount: '992'
+ht-degree: 0%
 
 ---
 
 # 编辑列表中的问题
 
-<!--Audited: 08/2025-->
+<!--Audited: 10/2025-->
 
-<!--Audited: 03/2025-->
 
-<!--
-<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 从“预览”版本开始的一周后，生产环境中所有客户也可以使用相同的功能。
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+有关详细信息，请参阅[接口现代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
 
-</div> 
--->
+</div>
 
 您可以编辑单个问题，也可以在问题列表或报告中编辑问题。 本文介绍了如何编辑列表中的问题。
 
@@ -175,24 +172,15 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    编辑所有问题的信息与在编辑以下区域时编辑一个问题的信息相同：
 
-   * 概述
-   * 设置
-   * 自定义表单
-   * 任务
-   * 评论
-
-   <!--at release for unshim, replace the list above with this:
-
    <div class="preview">
 
-   * Overview
-   * Assignments
-   * Custom Forms 
-   * Settings
-   * Comment
+   * 概述
+   * 任务
+   * 自定义表单
+   * 设置
+   * 评论
 
    </div>
-   -->
 
    有关编辑问题的详细信息，请参阅[编辑问题](../../../manage-work/issues/manage-issues/edit-issues.md)。
 
@@ -206,16 +194,11 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    您只能编辑表单上附加到所有选定问题并且您有权编辑的字段。
 
-   <!--1. (Optional and conditional) Depending what environment you use to edit the issues, do one of the following to recalculate custom expressions for all issues:
-   1. In the Production environment, ADD THE SENTENCE FROM THE NEXT STEP HERE:-->
+1. （可选且视情况而定）根据用于编辑问题的环境，执行以下操作之一以重新计算所有问题的自定义表达式：
 
-1. （可选）在&#x200B;**自定义Forms**&#x200B;区域，选择&#x200B;**重新计算自定义表达式**&#x200B;选项，以确保附加到所选问题的自定义Forms上的所有已计算自定义字段都是最新的。
+   1. 在生产环境的&#x200B;**自定义Forms**&#x200B;区域中，选择&#x200B;**重新计算自定义表达式**&#x200B;选项，以确保附加到所选问题的自定义Forms上的所有已计算自定义字段都是最新的。
 
-   <!--  
-   <div class="preview">
-
-   1. In the Preview environment, with all the issues selected in the list, click the **More** menu ![More menu](assets/more-icon.png) at the top of the issue list, then click **Recalculate Expressions**.
-   -->
+   1. <span class="preview">在“预览”环境中，在列表中选择了所有问题，单击问题列表顶部的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-icon.png)，然后单击&#x200B;**重新计算表达式**。</span>
 
    >[!IMPORTANT]
    >
