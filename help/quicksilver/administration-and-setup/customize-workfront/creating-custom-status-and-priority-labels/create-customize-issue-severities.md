@@ -8,16 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
+source-git-commit: 5c80dca8a9f7dd5a693db9bf22738602da8b521b
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 3%
+source-wordcount: '629'
+ht-degree: 4%
 
 ---
 
 # 创建或自定义问题严重性
-
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在预览Sandbox环境中可用，正在分阶段发布到生产环境。
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -97,7 +95,7 @@ Workfront有五个内置的问题严重性：
 
 1. 在左侧面板中，单击&#x200B;**项目首选项** > **严重程度**。
 
-1. 如果要创建新的严重程度，请单击表&#x200B;<span class="preview">**底部的**&#x200B;新行</span>，或单击&#x200B;**添加新严重程度**。
+1. 如果要创建新的严重程度，请单击表底部的&#x200B;**新建行**。
 1. 为新严重性配置以下选项或编辑现有严重性的选项：
 
    * **严重性名称**：键入严重性的名称。
@@ -117,8 +115,6 @@ Workfront有五个内置的问题严重性：
 
      您不能将隐藏严重性设置为默认值。
 
-     <div class="preview">
-
      默认严重性以图标![默认严重性图标](assets/default-icon.png)表示。 要选择新的缺省值，请执行下列操作之一：
 
       * 选中严重性名称旁边的复选框，然后在屏幕底部的操作栏中选择&#x200B;**设为默认值**。
@@ -126,10 +122,8 @@ Workfront有五个内置的问题严重性：
 
         新的默认严重性带有图标的标签。
 
-     </div>
-
    * **描述**：键入严重程度的描述以说明其功能。
-   * <span class="preview">**隐藏选择**</span>&#x200B;或&#x200B;**隐藏**： <span class="preview">选择&#x200B;**是**</span>&#x200B;或选中此复选框以隐藏不再需要的严重程度。
+   * **隐藏选择**：选择&#x200B;**是**&#x200B;可隐藏不再需要的严重程度。
 
      隐藏的严重性未在Workfront的任何位置显示，因此用户无法为其问题选择它。
 

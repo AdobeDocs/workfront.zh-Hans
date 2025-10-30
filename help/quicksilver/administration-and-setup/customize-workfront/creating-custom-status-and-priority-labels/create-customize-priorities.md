@@ -5,16 +5,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
+source-git-commit: 5c80dca8a9f7dd5a693db9bf22738602da8b521b
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 1%
+source-wordcount: '725'
+ht-degree: 2%
 
 ---
 
 # 创建并自定义优先级
-
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用，正在分阶段发布到生产环境。</span>
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -99,7 +97,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 1. 在左侧面板中，单击&#x200B;**项目首选项** > **优先级**。
 
 1. 单击您要为（**项目**、**任务**&#x200B;或&#x200B;**问题**）创建优先级的对象类型的选项卡。
-1. 单击表&#x200B;<span class="preview">**底部的**&#x200B;新行</span>，或单击&#x200B;**添加新优先级**。
+1. 单击表底部的&#x200B;**新行**。
 1. 为优先级配置以下选项：
 
    * **优先级名称**：键入优先级名称。
@@ -119,8 +117,6 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
      您不能将隐藏优先级设置为默认值。
 
-     <div class="preview">
-
      默认优先级以图标![默认优先级图标](assets/default-icon.png)指示。 要选择新的缺省值，请执行下列操作之一：
 
       * 选中优先级名称旁边的复选框，然后在屏幕底部的操作栏中选择&#x200B;**设为默认值**。
@@ -128,10 +124,8 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
         新的默认优先级使用图标进行标记。
 
-     </div>
-
    * **描述**：键入优先级描述以说明其功能。
-   * <span class="preview">**隐藏选择**</span>&#x200B;或&#x200B;**隐藏**： <span class="preview">选择&#x200B;**是**</span>&#x200B;或选中此复选框以隐藏不再需要的优先级。
+   * **隐藏选择**：选择&#x200B;**是**&#x200B;以隐藏不再需要的优先级。
 
      隐藏的优先级不会在Workfront的任何位置显示，因此用户无法为其项目、任务或问题选择它。
 
