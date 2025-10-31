@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: cccef57d9a83fa138282200d85c2851570a4b9b1
+source-git-commit: 62177a9cedcaf3155f95e91fc4ee506d7f6a04aa
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 18%
+source-wordcount: '481'
+ht-degree: 17%
 
 ---
 
@@ -23,6 +23,10 @@ Adobe Workfront会定期发布新的API版本，通常每年两次。 API版本�
 有关标识和使用API版本的更多信息，请参阅[在您的集成中指定API版本](/help/quicksilver/wf-api/api/specify-api-version-integrations.md)。
 
 下表显示了Workfront API的发布和支持计划。
+
+>[!NOTE]
+>
+>旧版Workfront连接器使用Workfront API版本20，该版本计划在28.4版本（2028年4月）中弃用。 在此时间之前，旧版连接器中的模块将继续工作。
 
 <table style="table-layout:auto"> 
  <col> 
