@@ -6,16 +6,16 @@ description: 您可以将模板用作在Adobe Workfront中创建项目的框架�
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1150'
 ht-degree: 1%
 
 ---
 
 # 使用模板创建项目
 
-<!-- Audited: 01/2024 -->
+<!-- Audited: 10/2025 -->
 
 您可以将模板用作在Adobe Workfront中创建项目的框架。 如果您的项目经常重复，则使用模板作为新项目的常规时间线可让您避免重复构建相同的项目。
 
@@ -120,7 +120,7 @@ ht-degree: 1%
 
 1. 执行下列操作之一：
 
-   * 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)。 单击&#x200B;**项目**，然后展开&#x200B;**新建项目**。
+   * 单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，或Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)（如果可用），然后单击&#x200B;**项目**&#x200B;并展开&#x200B;**新建项目**。
    * 转到项目组合，然后展开&#x200B;**新建项目**。
 
      >[!TIP]
@@ -153,7 +153,7 @@ ht-degree: 1%
 
    执行以下操作：
 
-   1. 从模板&#x200B;**中选择**&#x200B;新建项目。
+   1. 单击&#x200B;**从模板新建项目**。
    1. 在&#x200B;**搜索模板**&#x200B;字段中，开始键入模板的名称，并在模板显示在列表中时单击该名称。
    1. 查看右侧的模板详细信息。
 
@@ -179,19 +179,25 @@ ht-degree: 1%
 
       ![模板详细信息](assets/new-project-from-template-small-box-with-template-details-panel.png)
 
+      <!--no longer available, after unshimming - Oct 2025:
       >[!NOTE]
       >
-      >如果您已将里程碑视图应用于项目列表，请在&#x200B;**从模板新建**&#x200B;部分中单击模板的名称。
+      >If you have the Milestone View applied to the list of projects, click the name of a template in the **New from Template section**.
       >
       >
-      >从模板创建项目的![里程碑视图](assets/create-project-from-template-box-from-milestone-view-nwe-350x275.png)
+      >![Milestone view of creating a project from a template](assets/create-project-from-template-box-from-milestone-view-nwe-350x275.png)
       >
+      -->
 
    将打开&#x200B;**新项目**&#x200B;框。
 
    ![新项目框](assets/new-project-from-template-box.png)
 
-1. 如果模板中已填充了某个字段，则该字段会预填充到&#x200B;**新建项目**&#x200B;框中。 您可以编辑预填充的值以更好地匹配您的项目。 有关详细信息，请参阅[编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md)。
+1. （视情况而定）如果模板中已填充某个字段，则该字段会预填充到&#x200B;**新建项目**&#x200B;框中。
+
+   编辑预填充的值以更好地匹配您的项目。
+
+   有关详细信息，请参阅[编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md)。
 1. 单击&#x200B;**创建项目**。
 
    如果您在上一步中没有更改模板中定义的所有详细信息，则它们会自动与新创建的项目关联。
@@ -203,17 +209,21 @@ ht-degree: 1%
 {{step1-to-templates}}
 
 1. 单击要使用的模板的名称。
-1. 单击&#x200B;**更多**&#x200B;菜单![更多图标](assets/more-icon.png)，然后单击&#x200B;**创建项目**。
+1. 单击标题中模板名称右侧的&#x200B;**更多**&#x200B;菜单![更多图标](assets/more-icon.png)，然后单击&#x200B;**创建项目**。
 
    ![从模板创建项目](assets/project-sharing-on-template.png)
 
    将打开&#x200B;**新项目**&#x200B;框。
 
-1. 输入项目的名称，然后查看每个部分并进行任何必要的更改。
+1. 输入项目的名称。 Workfront使用模板名称来命名新项目。
+
+1. 查看&#x200B;**新建项目**&#x200B;框中的每个部分，并进行任何必要的更改。
 
    ![新项目框](assets/new-project-from-template-box.png)
 
-   如果模板中已填充了某个字段，则该字段会预填充到&#x200B;**新建项目**&#x200B;框中。 您可以编辑预填充的值以更好地匹配您的项目。 有关详细信息，请参阅[编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md)。
+   如果模板中已填充了某个字段，则该字段会预填充到&#x200B;**新建项目**&#x200B;框中。 您可以编辑预填充的值以更好地匹配您的项目。
+
+   有关信息，请参阅[编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md)。
 
 1. 单击&#x200B;**创建项目**。
 

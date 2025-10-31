@@ -6,7 +6,7 @@ description: 除了从头开始创建项目模板之外，您还可以复制现�
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 3%
@@ -102,7 +102,7 @@ ht-degree: 3%
 <!--ensure steps and casing on the fields and buttons is accurate with unshim-->
 
 1. 转到要复制的模板。
-1. 单击标题中模板名称右侧的&#x200B;**更多**&#x200B;菜单![更多图标](assets/qs-more-icon-on-an-object.png)，然后单击&#x200B;**复制**。
+1. 单击标题中模板名称右侧的&#x200B;**更多**&#x200B;菜单![更多图标](assets/more-icon.png)，然后单击&#x200B;**复制**。
 
    将打开&#x200B;**复制模板**&#x200B;框。
 

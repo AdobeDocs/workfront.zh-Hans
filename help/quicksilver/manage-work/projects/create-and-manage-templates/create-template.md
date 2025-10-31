@@ -6,16 +6,16 @@ description: 您可以在“模板”区域中创建和删除模板。 在构建
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 2%
+source-wordcount: '648'
+ht-degree: 5%
 
 ---
 
 # 创建项目模板
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 10/2025 -->
 
 您可以在“模板”区域中创建和删除模板。 在构建新模板时，您可以为所有任务和未来项目设置输入信息。 然后，此信息将传输到您从模板创建的任何项目。
 
@@ -94,7 +94,7 @@ ht-degree: 2%
 
 ## 创建模板
 
-1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**模板**。
+{{step1-to-templates}}
 
 1. 单击&#x200B;**新建模板**。
 
@@ -104,33 +104,69 @@ ht-degree: 2%
 
 1. 在模板标题中指定新模板的名称，然后按&#x200B;**Enter。**
 1. 单击左侧面板中的&#x200B;**模板任务**&#x200B;部分。
-1. 单击&#x200B;**开始添加模板任务**。
+1. 单击&#x200B;**开始添加模板任务**&#x200B;以添加内联任务
 
    或
 
-   单击&#x200B;**新建模板任务**&#x200B;以开始向模板添加任务。
+   单击&#x200B;**新建模板任务**，开始在&#x200B;**新建模板任务**&#x200B;框中将任务添加到模板。
 
-   将模板任务添加到模板与将任务添加到项目相同。
+   ![新模板任务框](assets/new-template-task-box.png)
 
-   有关将任务添加到项目的详细信息，请参阅[在项目中创建任务](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)。
+1. 更新以下方面的信息：
+
+   * 概述
+   * 财务
+   * 设置
+   * 任务
+   * 自定义表单
+   * 附加文档
+
+     更新模板任务的信息与编辑项目中的任务类似。 有关详细信息，请参阅[编辑任务](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)。
 
    >[!NOTE]
    >
    >您无法将周期性任务添加到模板。
 
-1. （可选）单击任务列表右上角的&#x200B;**甘特图**&#x200B;图标以查看模板任务列表的可视表示形式。
+1. 单击下列选项之一：
+
+   * **保存模板任务**&#x200B;以保存当前模板任务并关闭“新建模板任务”框。
+   * **保存模板任务并启动另一个模板任务**&#x200B;以保存当前模板任务并打开另一个新模板任务框以添加另一个任务。
+   * **取消**&#x200B;关闭该框而不保存模板任务。
+1. （可选）添加模板任务后，在“模板任务”部分中，单击任务列表右上角的&#x200B;**甘特图**&#x200B;图标，查看模板任务列表的可视表示形式。
 
    >[!TIP]
    >
    >不能直接从该甘特图编辑任务。
 
-1. 若要向新模板添加信息，请单击&#x200B;**更多**&#x200B;菜单![更多图标](assets/more-icon.png)，然后单击&#x200B;**编辑**。
+1. 若要向新模板添加信息，请单击标题中模板名称左侧的&#x200B;**更多**&#x200B;菜单![更多图标](assets/more-icon.png)，然后单击&#x200B;**编辑**。
 
    有关编辑模板的信息，请参阅[编辑项目模板](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)。
 
-1. 单击&#x200B;**保存更改**。
-1. （可选）如果要向模板添加其他项，请参阅文章[编辑项目模板](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#add-additional-items-to-a-template)中的[向模板添加其他项](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)部分。
+   >[!NOTE]
+   >
+   >   项目模板与组（或缺少组）的关联会影响项目、任务和问题首选项如何确定模板中的某些设置。
+   >
+   >有关详细信息，请参阅[创建和修改组的项目模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)一文中的“首选项如何应用于模板和模板任务”一节。
 
-## 由组关联确定的模板设置
+1. 单击&#x200B;**保存**。
+1. （可选）将以下项目添加到模板
 
-项目模板与组（或缺少组）的关联会影响项目、任务和问题首选项如何确定模板中的某些设置。 有关详细信息，请参阅文章[创建和修改组的项目模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#create-and-modify-a-groups-project-templates)中的[创建和修改组的项目模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)部分。
+   * 文档
+   * 风险
+   * 审批流程
+   * 记帐费率
+   * 费用
+   * 队列详细信息
+   * 主题组和队列主题
+
+1. （可选）将以下项目添加到模板中的任务：
+
+   * 文档
+   * 费用
+   * 审批
+
+   有关信息，请参阅[编辑项目模板](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)一文中的“向模板添加更多项”一节。
+
+
+
+

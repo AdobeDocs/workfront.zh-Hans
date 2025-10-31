@@ -6,7 +6,7 @@ description: 您可以编辑项目模板以反映未来项目流程和设置的�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
 source-wordcount: '5672'
 ht-degree: 2%
@@ -126,7 +126,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    >
    >有关详细信息区域中显示的所有字段的信息，请使用下面的编辑模板框继续编辑所有字段。
 
-1. （视情况而定）要编辑有关模板的所有信息，请单击模板名称旁边的&#x200B;**更多**&#x200B;菜单![更多图标](assets/qs-more-icon-on-an-object.png)，然后单击&#x200B;**编辑**。
+1. （视情况而定）要编辑有关模板的所有信息，请单击模板名称旁边的&#x200B;**更多**&#x200B;菜单![更多图标](assets/more-icon.png)，然后单击&#x200B;**编辑**。
 
    将打开&#x200B;**编辑模板**&#x200B;框。 此框中的部分包含“模板详细信息”部分中可用的字段以及其他字段。
 
@@ -820,12 +820,12 @@ To edit templates in bulk:
 
 要停用模板，请执行以下操作：
 
-1. 转到活动模板，然后单击模板名称旁边的&#x200B;**更多** ![更多图标](assets/qs-more-icon-on-an-object.png)菜单，然后单击&#x200B;**停用**。
+1. 转到活动模板，然后单击模板名称旁边的&#x200B;**更多** ![更多图标](assets/more-icon.png)菜单，然后单击&#x200B;**停用**。
 
    ![停用模板](assets/deactivate-template-link-in-more-menu.png)
 
    该模板不再处于活动状态，用户无法再找到它来从中创建项目。
-1. （可选）要激活模板，请单击模板名称旁边的&#x200B;**更多** ![更多图标](assets/qs-more-icon-on-an-object.png)菜单，然后单击&#x200B;**激活**。
+1. （可选）要激活模板，请单击模板名称旁边的&#x200B;**更多** ![更多图标](assets/more-icon.png)菜单，然后单击&#x200B;**激活**。
 
    该模板现在处于活动状态，可附加到项目或用于创建项目。
 
@@ -850,7 +850,7 @@ Editing a template differs depending on what environment you choose.
    >
    >For information about all fields that display in the Details area, continue with editing all fields using the Edit Template box below.
 
-1. (Conditional) To edit all information about the template, click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png) next to the name of the template, then click **Edit**.
+1. (Conditional) To edit all information about the template, click the **More** menu ![More icon](assets/more-icon.png) next to the name of the template, then click **Edit**.
 
    The **Edit Template** box opens. The sections in this box contain the same fields available in  the Template Details section .
 

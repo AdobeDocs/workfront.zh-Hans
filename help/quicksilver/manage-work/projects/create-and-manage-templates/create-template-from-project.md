@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '470'
 ht-degree: 1%
 
 ---
 
 # 从项目创建模板
+
+<!--Audited: 10/2025-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Note: Keep this article in the Creating and Managing Templates area with the detailed information that this contains. Since this is an article about creating TEMPLATES, this needs to be detailed under Templates; there is a similar article with almost the same title in Managing projects that points to this one - since this functionality is in the UI under Projects, this article must have a presence in that areas as well. Keep both, but make this one the only editable one (iterative))</p>
@@ -89,7 +91,7 @@ ht-degree: 1%
 ## 从项目创建模板
 
 1. 转到要另存为模板的项目。
-1. 单击&#x200B;**更多**&#x200B;菜单![更多图标](assets/qs-more-icon-on-an-object.png)，然后单击&#x200B;**另存为模板**。
+1. 单击&#x200B;**更多**&#x200B;菜单![更多图标](assets/more-icon.png)，然后单击&#x200B;**另存为模板**。
 1. 为模板指定以下信息：
 
    <table style="table-layout:auto"> 
@@ -97,7 +99,7 @@ ht-degree: 1%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">名称</td> 
+      <td role="rowheader">模板名称</td> 
       <td>指定模板的名称。</td> 
      </tr> 
      <tr> 
@@ -112,29 +114,32 @@ ht-degree: 1%
         <li><strong>否</strong>：其他用户找不到该模板，也无法将其附加到项目。</li> 
        </ul> </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">自定义表单</td> 
-      <td>使用下拉列表选择要附加到模板的任何自定义表单。 如果有任何自定义表单已与项目关联，则会显示这些自定义表单中的所有数据字段。<br>在一个模板中最多可以包含10个自定义表单。</td> 
-     </tr> 
     </tbody> 
    </table>
 
-1. 单击&#x200B;**管理Forms**&#x200B;以删除或重新排序表单。 有关如何删除模板上的自定义表单并重新排序的信息，请参阅[自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)。
+1. 单击左侧面板中的&#x200B;**自定义Forms**。
+1. 单击&#x200B;**添加自定义表单**&#x200B;字段，然后开始键入自定义项目的名称，或从列表中选择一个名称。
 
-   ![第一步](assets/save-as-template-first-step-350x159.png)另存为模板
+   如果有任何自定义表单已与项目关联，则这些自定义表单中现有字段中的所有信息将显示在表单上。
 
-1. 单击&#x200B;**下一步。**
-1. 在&#x200B;**选项**&#x200B;部分中，选中要从模板中清除的任何信息旁边的复选框。
+   在一个模板中最多可以包含10个自定义表单。
 
-   ![另存为模板选项](assets/save-as-template-options-step-350x109.png)
+1. 将鼠标悬停在表单名称上，然后单击以将其拖放到新位置。
 
-1. 单击&#x200B;**下一步。**
-1. 在&#x200B;**排除**&#x200B;部分中，选择要从项目中排除的任何任务。
+   ![将项目另存为框顶部的模板](assets/save-project-as-template-top-of-the-form.png)
 
-   ![另存为模板排除](assets/save-as-template-exclude-350x205.png)
+1. 单击左侧面板中的&#x200B;**选项**，然后选择要传输到模板的字段或项。
+
+   默认情况下，将选中所有项目。 取消选择的项目不会转移到模板。
+
+   ![另存为模板选项](assets/save-project-as-template-options-area.png)
+
+1. 单击左侧面板中的&#x200B;**排除**，然后选择要从项目中排除的任何任务。
+
+   ![另存为模板排除](assets/save-project-as-template-exclude-area.png)
 
 1. 单击&#x200B;**完成并保存模板。**
 
-   您的模板现在显示在可用模板的列表中，并可附加到现有项目或用于创建新项目。
+   您的模板现在会显示在可用模板列表中。 用户可以将新模板附加到现有项目，也可以使用它来创建项目。
 
- 
+

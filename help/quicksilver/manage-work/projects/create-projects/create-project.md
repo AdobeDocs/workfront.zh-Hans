@@ -6,9 +6,9 @@ description: 项目是Adobe Workfront中的一个大型工作单位。 您可以
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1295'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--remove Preview and Production references-->
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 110/2025 -->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -169,7 +169,7 @@ ht-degree: 1%
 
 1. 执行下列操作之一：
 
-   * 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)。 单击&#x200B;**项目**，然后展开&#x200B;**新建项目**。
+   * 单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，或Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)（如果可用），然后单击&#x200B;**项目**&#x200B;并展开&#x200B;**新建项目**。
    * 转到项目组合，然后展开&#x200B;**新建项目**。
    * 转到项目群，然后展开&#x200B;**新建项目**。
    * 如果您是组管理员，则还可以在所管理组的项目部分中创建项目。 有关详细信息，请参阅[创建和修改组的项目](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)。
@@ -191,13 +191,21 @@ ht-degree: 1%
 
    有关将任务添加到项目的详细信息，请参阅[在项目中创建任务](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)。
 
-1. 通过单击项目名称旁边的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**编辑** ![编辑图标](assets/qs-edit-icon.png)来编辑项目详细信息。
+1. 通过单击项目名称右侧的&#x200B;**更多**&#x200B;菜单（在标题中），然后单击项目名称旁边的&#x200B;**编辑** ![编辑图标](assets/qs-edit-icon.png)来编辑项目详细信息。
 
-   将打开&#x200B;**编辑项目**&#x200B;对话框。
+   将打开&#x200B;**编辑项目**&#x200B;框。
+
+1. 添加有关项目的信息。
 
    有关编辑项目的详细信息，请参阅[编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md)。
 
-1. （可选）配置项目设置并添加任务后，您可以将项目状态更改为&#x200B;**当前**。
+   >[!TIP]
+   >
+   >项目的状态应为Planning，或其他非当前状态。 这样，您就可以对项目进行更改，而无需向项目参与者生成通知。
+
+1. 单击&#x200B;**保存**&#x200B;以保存更改。
+
+1. （可选）配置项目设置并添加任务后，您可以在项目标题中将项目状态更改为&#x200B;**当前**。
 
    这表示项目现在已准备好开始，并且分配给任务的用户现在可以开始处理这些任务。
 

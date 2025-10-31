@@ -6,16 +6,16 @@ description: 您可以在开始处理项目之前请求批准该项目。 我们
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '557'
 ht-degree: 2%
 
 ---
 
 # 请求项目
 
-<!--Audited: April 2024-->
+<!--Audited: 10/2025-->
 
 您可以在开始处理项目之前请求批准该项目。
 
@@ -114,10 +114,12 @@ ht-degree: 2%
 
    * 遵循与定义业务案例时创建项目相同的步骤。 （推荐）
 
-     有关定义业务案例和请求项目的信息，请参阅[为项目创建业务案例](../../../manage-work/projects/define-a-business-case/create-business-case.md)。
+     有关信息，请参阅[为项目创建业务案例](../../../manage-work/projects/define-a-business-case/create-business-case.md)。
 
    * 从头开始或使用模板创建项目，并将状态更改为&#x200B;**已请求**。
 
-     有关创建项目的信息，请参阅[创建项目](../../../manage-work/projects/create-projects/create-project.md)或[使用模板创建项目](../../../manage-work/projects/create-projects/create-project-from-template.md)。
+     有关信息，请参阅[创建项目](../../../manage-work/projects/create-projects/create-project.md)或[使用模板创建项目](../../../manage-work/projects/create-projects/create-project-from-template.md)。
 
-   您请求的项目具有&#x200B;**已请求**&#x200B;状态，如果您将其与Portfolio关联，它将显示在Portfolio的&#x200B;**已请求项目**&#x200B;选项卡上。 项目组合经理现在可以审阅它并批准或拒绝它，在这种情况下，项目的状态将更改为&#x200B;**已批准**&#x200B;或&#x200B;**已拒绝**。
+   您请求的项目具有&#x200B;**已请求**&#x200B;状态，如果您将其与Portfolio关联，它将显示在Portfolio的&#x200B;**已请求项目**&#x200B;选项卡上。
+
+   项目组合经理现在可以审阅它并批准或拒绝它，在这种情况下，项目的状态将更改为&#x200B;**已批准**&#x200B;或&#x200B;**已拒绝**。
