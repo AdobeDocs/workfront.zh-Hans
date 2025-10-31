@@ -6,9 +6,9 @@ description: Adobe Workfront于2025年10月23日发布了API版本21。 API版�
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 1c3272c7830bf0a6feddea0281b0e2879b87eacf
+source-git-commit: 155323314712e020a638619d9bf10d678078645e
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '891'
 ht-degree: 3%
 
 ---
@@ -343,9 +343,6 @@ Category对象是自定义表单。
             <p>添加了以下可能值：</p>
              <ul>
               <li>
-                <p><code>SPTMPL</code> (enum.categorytypeenum.staffingplantemplate)</p>
-              </li>
-              <li>
                 <p><code>TEAMOB</code> （团队）</p>
               </li>
             </ul>
@@ -355,9 +352,6 @@ Category对象是自定义表单。
             </p>
             <p>添加了以下可能值：</p>
              <ul>
-              <li>
-                <p><code>SPTMPL</code> (enum.categorytypeenum.staffingplantemplate)</p>
-              </li>
               <li>
                 <p><code>TEAMOB</code> （团队）</p>
               </li>
