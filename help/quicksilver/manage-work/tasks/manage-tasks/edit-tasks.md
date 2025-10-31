@@ -384,7 +384,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    &lt;！ — 在发布时再次缩进下面的项目符号以显示Prod，然后为预览显示另一个新项目符号：
    1. （视情况而定）根据您访问任务的环境，执行以下操作：
-   1. <!--In the Production environment,AND ADD THIS TO THE STEP BELOW-->
+   1. &#x200B;<!--In the Production environment,AND ADD THIS TO THE STEP BELOW-->
 
 1. 单击&#x200B;**搜索人员、角色和团队**，然后开始键入要分配给任务的用户、角色或团队的名称，然后单击该名称，或当该名称显示在列表中时按Enter键。
 
