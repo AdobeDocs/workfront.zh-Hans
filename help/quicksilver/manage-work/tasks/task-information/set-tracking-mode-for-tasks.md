@@ -6,9 +6,9 @@ description: 任务的跟踪模式决定任务进度状态在Adobe Workfront中�
 author: Alina
 feature: Work Management
 exl-id: 751071b4-3716-4153-97fe-4fe0ebc7cbb0
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '194'
 ht-degree: 6%
 
 ---
@@ -85,8 +85,6 @@ ht-degree: 6%
 -->
 
 ## 为任务设置跟踪模式
-
-要设置跟踪模式，请执行以下操作：
 
 1. 转到要为其设置跟踪模式的任务。
 1. 单击任务名称旁边的&#x200B;**更多**&#x200B;图标![](assets/qs-more-icon-on-an-object.png)，然后单击&#x200B;**编辑**。

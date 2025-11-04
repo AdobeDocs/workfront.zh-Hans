@@ -6,9 +6,9 @@ description: 您可以与用户共享模板，或者通过在模板级别使用�
 author: Alina
 feature: Work Management
 exl-id: 99c6b241-a2c9-4b6c-b605-177bbbc3f21a
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '720'
 ht-degree: 3%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 3%
 
 要共享模板：
 
-1. 从&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)中，单击&#x200B;**模板**。
+{{step1-to-templates}}
 
 1. 执行下列操作之一：\
    单击模板名称以将其打开，然后单击&#x200B;**更多**&#x200B;菜单![更多图标](assets/more-icon.png)，然后单击&#x200B;**模板共享**。

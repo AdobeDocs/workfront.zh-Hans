@@ -6,9 +6,9 @@ description: 在项目级别将项目另存为模板另存为模板，以便用�
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '485'
 ht-degree: 1%
 
 ---
@@ -159,7 +159,7 @@ Saving a project as a template differs in the Production and the Preview environ
 -->
 
 1. 转到要另存为模板的项目。
-1. 单击&#x200B;**更多**&#x200B;菜单![更多图标](assets/qs-more-icon-on-an-object.png)，然后单击&#x200B;**另存为模板**。
+1. 单击标题中项目名称右侧的&#x200B;**更多**&#x200B;菜单![更多图标](assets/qs-more-icon-on-an-object.png)，然后单击&#x200B;**另存为模板**。
 1. 在&#x200B;**另存为模板**&#x200B;部分中，为模板指定以下信息：
 
    <table style="table-layout:auto"> 
@@ -192,7 +192,7 @@ Saving a project as a template differs in the Production and the Preview environ
 1. 单击左侧面板中的&#x200B;**自定义Forms**&#x200B;以删除或重新排序表单。
 
    要重新排列表单，请以正确的顺序拖放表单。
-要删除表单，请选择它，然后单击&#x200B;**删除**。 单击&#x200B;**取消**&#x200B;可删除所选的表单。
+要删除表单，请选择它，然后单击**删除**。 单击&#x200B;**取消**&#x200B;可删除所选的表单。
 
    另存为模板框中的![自定义表单区域](assets/custom-forms-ara-in-save-as-template-box.png)
 
