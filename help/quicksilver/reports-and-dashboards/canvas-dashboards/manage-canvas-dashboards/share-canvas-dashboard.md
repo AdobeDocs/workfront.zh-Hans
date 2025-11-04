@@ -6,9 +6,9 @@ description: 您可以与其他Adobe Workfront用户共享画布功能板，以�
 author: Jenny
 feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: ed5a8725442a0b3de993a4e8f47280bfc7d88160
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >画布功能板目前仅适用于参与Beta测试阶段的用户。 在此阶段，部分功能可能无法完成或无法按预期工作。 请按照“画布功能板测试版”概述文章中[提供反馈](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)部分的说明提交任何有关您体验的反馈。<br>
->&#x200B;>如果您对可能的错误或技术问题有反馈，请向Workfront支持提交票证。 有关详细信息，请参阅[联系客户支持](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
->&#x200B;>请注意，以下云提供商未提供此测试版：
+>如果您对可能的错误或技术问题有反馈，请向Workfront支持提交票证。 有关详细信息，请参阅[联系客户支持](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
+>请注意，以下云提供商未提供此测试版：
 >
 >* 自带Amazon Web Services密钥
 >* Azure
@@ -93,6 +93,8 @@ ht-degree: 0%
 1. 在&#x200B;**画布功能板**&#x200B;页面上，选择要共享的功能板。
 
 1. 在页面的右上角，单击&#x200B;**共享**&#x200B;按钮。 出现&#x200B;**仪表板共享**&#x200B;对话框。
+
+   ![共享按钮](assets/share-button.png)
 
 1. 在&#x200B;**将访问权限授予**&#x200B;字段中，开始键入要与共享画布功能板的特定用户、团队、角色、组或公司的名称，然后当它出现在下拉列表中时将其选定。
 

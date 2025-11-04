@@ -5,9 +5,9 @@ description: 项目运行状况功能利用AI Assistant的强大功能即时为�
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: 8ece3c614febb6f480b352323721bcc9dcc940b6
+source-git-commit: ed5a8725442a0b3de993a4e8f47280bfc7d88160
 workflow-type: tm+mt
-source-wordcount: '1969'
+source-wordcount: '1965'
 ht-degree: 1%
 
 ---
@@ -89,7 +89,7 @@ AI Assistant通过为项目分配一个可用的项目运行状况状态，为�
 * 处于风险中
 * 存在问题
 
-此状态使用项目和项目群组件进行计算，例如项目进度、低估的工作量等。 有关用于测量项目运行状况的组件的完整列表，请参阅[项目和项目群状态列表](#project-and-program-states-list)部分。
+此状态是使用项目组件计算的，例如项目进度、低估的工作等等。 有关用于测量项目运行状况的组件的完整列表，请参阅[项目和项目群状态列表](#project-and-program-states-list)部分。
 
 每个项目组件都分配了一个数值风险分数，该分数介于(0-100)之间，然后计算该分数的平均值，以创建项目的整体运行状况状态：
 
@@ -110,7 +110,7 @@ AI Assistant通过为项目分配一个可用的项目运行状况状态，为�
 * 1处于风险中（45个风险分数）
 * 1有麻烦（20个风险分数）
 
-当你把这些分数取平均时，结果是61。 使用上面列出的项目运行状况状态标准，该项目将处于风险状态。
+当你把这些分数取平均时，结果是61。 使用上面列出的项目运行状况标准，该项目将处于风险状态。
 
 在下一个示例中，1天的时间表更改已在项目时间表的早期发生。 在此方案中，AI Assistant将评估相对于项目总持续时间的更改时间和影响：
 
