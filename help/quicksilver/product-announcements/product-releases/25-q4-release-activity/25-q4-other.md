@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 357b5a80-424a-475c-9163-82cffbbd253e
-source-git-commit: 0c8d84cfcc87728e809061c01c56322f3fd1f2f6
+source-git-commit: b78f794ece181da3f4db3a1b9b78e794b16a09ed
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,35 @@ ht-degree: 0%
 
 本页介绍了在2025年第四季度发行版中对“预览”环境所做的增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2025年第四季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2025年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)。
+有关2025年第四季度发布周期中此时可用的所有更改列表，请参阅[ 2025年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)。
+
+## 报告摘要选项卡更新
+
+>[!NOTE]
+>
+>* 预览： 2025年10月13日
+>* 生产快速发布： 2025年10月13日
+>* 适用于所有客户的生产： 2025年10月13日
+>[!BADGE 超出计划]{type=Neutral}
+
+报告的“摘要”选项卡已更新，其中包含以下增强功能：
+
+* 每一行的前缀的分组字段名称已移至第一列标题。
+
+* 现在，当对报表应用多个分组级别时，名称列会以斜杠分隔（用正斜杠分隔）。
+
+* 已从每个聚合中删除聚合类型前缀(“Sum： ”、“Max： ”、“Min： ”、“Avg： ”)。
+
+* 现在，每列的聚合类型显示为列标题值的附录。
+
+* 子分组（2或3个分组）在第一列中显示为缩进级别。 顶级分组仍以粗体显示。
+
+* 您现在可以调整列宽。 刷新页面时，列将恢复为默认宽度分布。
+
+>[!NOTE]
+>
+>前四个更改还适用于摘要选项卡导出（如果适用）。 级别缩进和粗体字体不会传输到导出的制表符分隔的文本文件。
+
 
 ## Adobe Unified Experience现在可供更多Workfront组织使用
 
