@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
-source-git-commit: 699ce13472ee70149fba7c8c34dde83c7db5f5de
+source-git-commit: 3a538a15daad5fa0dced8d45bb260d6087be81ff
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 0%
@@ -50,9 +50,7 @@ ht-degree: 0%
 
 要创建、查询或删除事件订阅，您的Workfront用户需要：
 
-* **系统管理员**&#x200B;的访问级别
+* **系统管理员**的访问级别
 要了解更多信息，请参阅[授予用户完全管理访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)或[授予用户对特定区域的管理访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
 
-* 需要`sessionID`标头才能使用事件订阅API
-
-  有关详细信息，请参阅[API基础知识](api-basics.md#authentication)中的[身份验证](api-basics.md)。
+* 如果您的组织使用Adobe IMS (Identity Management System)，请包含在`X-User-Token`标头中传递的IMS用户令牌。
