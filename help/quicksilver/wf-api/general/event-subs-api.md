@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 3a538a15daad5fa0dced8d45bb260d6087be81ff
+source-git-commit: 0fd415767680d877c9dd1de448f7903e6616d155
 workflow-type: tm+mt
-source-wordcount: '3060'
+source-wordcount: '3097'
 ht-degree: 3%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 3%
 
 列入允许列表要通过防火墙接收事件订阅负载，必须将以下IP地址添加到您的：
 
-对于欧洲的客户：**&#x200B;**
+对于欧洲的客户：****
 
 * 52.30.133.50
 * 52.208.159.124
@@ -153,6 +153,10 @@ ht-degree: 3%
         <td scope="col">DOCU </td> 
        </tr> 
        <tr> 
+        <td scope="col"><p>文档版本</p></td> 
+        <td scope="col">DOCV </td> 
+       </tr> 
+       <tr> 
         <td scope="col"><p>费用</p></td> 
         <td scope="col">展开</td> 
        </tr> 
@@ -185,6 +189,10 @@ ht-degree: 3%
         <td scope="col"><p>项目</p></td> 
        </tr> 
        <tr> 
+        <td scope="col"><p>校样审批</p></td> 
+        <td scope="col"><p>PRFAPI</p></td> 
+       </tr> 
+       <tr> 
         <td scope="col"><p>记录</p></td> 
         <td scope="col"><p>记录</p></td> 
        </tr> 
@@ -195,6 +203,30 @@ ht-degree: 3%
        <tr> 
         <td scope="col"><p>报表</p></td> 
         <td scope="col"><p>PTLSEC</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>人员配置计划</p></td> 
+        <td scope="col"><p>员工</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>人员配备计划参数值</p></td> 
+        <td scope="col"><p>SPVAL</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>人员配置计划资源</p></td> 
+        <td scope="col"><p>员工</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>人员配备计划资源属性值</p></td> 
+        <td scope="col"><p>SPAVAL</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>人员配备计划资源属性值集</p></td> 
+        <td scope="col"><p>存储集</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>人员配备计划资源参数值</p></td> 
+        <td scope="col"><p>SRPVAL</p></td> 
        </tr> 
        <tr> 
         <td scope="col"><p>任务</p></td> 
