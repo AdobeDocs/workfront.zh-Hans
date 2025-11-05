@@ -7,20 +7,28 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
 
 # 修改任务列表中的多个用户分配
 
-<!--Audited: 07/2024-->
+<!--Audited: 11/2025-->
 
 <!--
-<p>There is a similar article in Resource Scheduling and a similar one for Issues; when things change, you might need to update all 3</p>
+this article is similar and updates on this one might need to be repeated here: help/quicksilver/manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md</p>
 -->
+
+<!--<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> -->
 
 在管理任务分配时，可以使用任务列表中的批量编辑功能一次为多个任务同时修改它们。
 
@@ -117,14 +125,17 @@ When assigning users to work, their availability according to their schedules af
 
 1. 选择要修改分配的任务，然后单击&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)。
 
-   此时将显示“编辑任务”页。 您编辑的项目将显示在页面的左上角。
+   **编辑任务**&#x200B;框打开<!--<span class="preview">in the new experience</span>-->。
+
+   <!--1. <span class="preview">(Optional) Click **Switch to old experience** at the bottom of the **Edit Tasks** box.</span> 
+   <span class="preview">The **Edit Tasks** box opens in the old experience.</span>-->
 
 1. 转到&#x200B;**工作总揽**&#x200B;部分。
-1. 执行以下操作之一以添加或移除被分配人：
 
    >[!IMPORTANT]
    >
    >移除被分配者可能会影响任务小时数和分配百分比。 有关详细信息，请参阅本文中的[移除被分配者如何影响任务小时数和分配百分比](#how-removing-assignees-affects-task-hours-and-allocation-percentages)部分。
+1. 执行以下操作之一以添加或移除被分配人：
 
    * 要添加新的被分派人，请执行以下操作：
 
@@ -180,3 +191,17 @@ When assigning users to work, their availability according to their schedules af
    * **被分派人的角色**：从下拉列表中选择一个角色。 如果保持未选中状态，Adobe Workfront将自动选择用户的主要角色。
 
 1. 单击&#x200B;**保存更改。**
+
+<!--
+1. <span class="preview"> (Optional) Click **Try new experience** in the upper-right corner of the **Edit Tasks** box. The Edit Tasks box opens in the new experience. Do one of the following:</span>
+
+   <div class="preview">
+
+   * To add assignees, start typing the name of an assignee in the **Search people, roles, or teams** field, then select them when they display in the list. 
+   * To remove assignees, click the **x** icon to the right of their name. Only assignees that are common to all tasks display in the list. 
+   * Click Assign to me to assign the selected tasks to yourself.
+
+   </div>
+1. <span class="preview">(Conditional) When using the new experience, click **Save**.</span>
+
+-->

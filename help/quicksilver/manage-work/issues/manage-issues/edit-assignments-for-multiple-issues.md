@@ -6,9 +6,9 @@ description: 修改列表中多个问题的用户分配
 author: Lisa
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: ac5552f1c235f595b1c0d2558fcf88b1e03f5a8e
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '968'
 ht-degree: 1%
 
 ---
@@ -19,6 +19,14 @@ ht-degree: 1%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: similar article exists for tasks)</p>
 -->
+
+<div class="preview">
+
+此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 从“预览”版本开始的一周后，生产环境中所有客户也可以使用相同的功能。
+
+有关详细信息，请参阅[接口现代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+
+</div>
 
 您可以同时将用户分配修改为多个问题。 有关编辑问题或一次分配一个问题的信息，另请参阅以下文章：
 
@@ -128,7 +136,7 @@ ht-degree: 1%
 
             或
 
-            如果要删除的被分配人由于仅分配给您选择的某些问题而未显示在“工作总揽”部分中，请单击“删除被分配人”**&#x200B;**，然后开始键入要删除的被分配人的名称，然后在该名称出现在下拉列表中时单击该名称。
+            如果要删除的被分配人由于仅分配给您选择的某些问题而未显示在“工作总揽”部分中，请单击“删除被分配人”****，然后开始键入要删除的被分配人的名称，然后在该名称出现在下拉列表中时单击该名称。
 
          1. 再次单击&#x200B;**移除被分派人**&#x200B;以添加另一个要移除的被分派人。
 

@@ -6,7 +6,7 @@ description: 将用户或角色分配给任务时，会为其分配特定小时�
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: ac5552f1c235f595b1c0d2558fcf88b1e03f5a8e
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -71,7 +71,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 Change this sentence in the table when unshimmming assignments on Edit task:
 <p>Edit permissions to update allocation hours in the Edit Task box</p>
 To this:
-<p>Edit permissions to update allocation hours in the Edit Task box in the Production environment. <span class="preview">You can no longer manage allocation hours in the Edit task box in the Preview environment.</span></p>
+<p>Edit permissions to update allocation hours in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation hours in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.
 -->
 
 ## 修改任务的分配小时数的注意事项

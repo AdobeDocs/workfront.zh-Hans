@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: ac5552f1c235f595b1c0d2558fcf88b1e03f5a8e
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1826'
 ht-degree: 1%
 
 ---
@@ -224,11 +224,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
 1. 将任务负责人添加到任务后，按Enter键或单击页面上的任意位置保存更改（如果已选择“自动保存”）。 否则，请单击&#x200B;**保存**。
 
-## 从列表向用户批量分配多个任务
-
-<!--Assigning multiple tasks to a user is different, depending on what environment you use to assign the tasks. 
-
-### Assign multiple tasks to a user in the Production environment-->
+## 从列表批量分配多个任务
 
 1. 转到要批量分配的任务的列表。
 1. （视情况而定）如果您在项目下的任务列表中，请确保已选择&#x200B;**自动保存**&#x200B;选项。
@@ -240,7 +236,11 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. 在任务列表中选择多个任务。
 1. 单击&#x200B;**编辑**。
 
-   将打开&#x200B;**编辑任务**&#x200B;对话框。
+   **编辑任务**&#x200B;对话框打开<!--<span class="preview">in the new experience</span>-->。
+
+   <!--1. Continue assigning the tasks <span class="preview">using the new experience</span>. <span class="preview">For more information, see the section Assign multiple tasks in bulk from a list in the new experience in this article.</span> (^^^^^^^^^^^^add anchor here at release^^^^^^^^^^^^) -->
+
+   <!--1. <span class="preview">(Optional) Click **Switch back to old experience** at the bottom of the Edit Tasks box.</span> -->
 
 1. 在&#x200B;**分配**&#x200B;区域，选择&#x200B;**代理人**&#x200B;框，然后开始键入要分配给所有任务的用户、工作角色或团队的名称。
 
@@ -274,7 +274,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 <!--
 <div class="preview">
 
-### Assign multiple tasks to a user in the Preview environment
+### Assign multiple tasks in bulk from a list in the new experience
 
 1. Go to a list of tasks that you want to assign in bulk in the Preview environment. 
 1. (Conditional) Ensure that the **Autosave** option is selected if you are on a list of tasks under a project.

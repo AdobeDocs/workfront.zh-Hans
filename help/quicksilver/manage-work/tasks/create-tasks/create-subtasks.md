@@ -6,9 +6,9 @@ description: 在Adobe Workfront中，任务可以具有父子关系。 子任务
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!-- Audited: 01/2025 -->
 
-在Adobe Workfront中，任务可以具有父子关系。 子任务称为子任务。 通过将主任务设置为子任务，可以在任务列表中创建子任务。 您还可以将子任务设置为主任务。
+在Adobe Workfront中，任务可以具有父子关系。 子任务称为子任务。 通过将主任务设为另一个任务的子任务，可以在任务列表中创建子任务。 您还可以将子任务设置为主任务。
 
 ## 访问要求
 
@@ -84,6 +84,11 @@ ht-degree: 0%
 
 您可以从任务列表或任务子任务部分创建子任务。
 
+>[!TIP]
+>
+>为项目创建子任务与创建模板子任务与创建模板子任务类似。
+
+
 ### 从任务列表创建子任务 {#create-subtasks-from-the-task-list}
 
 1. 转到要创建子任务的项目。
@@ -113,12 +118,14 @@ ht-degree: 0%
 1. 转到要创建子任务的项目。
 1. 单击左侧面板中的&#x200B;**任务**&#x200B;部分。
 1. 单击要在其中创建子任务的任务的名称。
-1. 单击左侧面板中的&#x200B;**子任务**&#x200B;部分（如果存在）。
+1. 单击左侧面板中的&#x200B;**子任务**&#x200B;部分（如果可用）。
 1. 单击&#x200B;**新建任务。**
 
-   按照以下文章中的步骤继续创建子任务：[在项目中创建任务](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)。
+   有关创建任务的信息，请参阅[在项目中创建任务](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)。
 
 1. 单击&#x200B;**创建任务。**
+
+   新任务将作为您在步骤3中选择的任务的子任务创建。<!--ensure this is accurate-->
 
 ## 将子任务变为主任务
 

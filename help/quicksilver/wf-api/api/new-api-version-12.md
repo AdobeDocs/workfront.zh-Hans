@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1ffba3b5-ab24-4ca2-a1ef-f7e5b77e776c
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '2422'
+source-wordcount: '2421'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Workfront API版本12中新增了以下资源。
 
 ### BreadCrumb {#breadcrumb}
 
-BreadCrumb对象表示Adobe Workfront工作项的父/子层次结构中的元素。 痕迹导航指示工作项如何适应Portfolio、项目、项目和任务的较大结构。
+BreadCrumb对象表示Adobe Workfront工作项的父/子层次结构中的元素。 痕迹导航指示工作项如何适应项目组合、项目、项目和任务的更大结构。
 
 有关Workfront中的痕迹导航的更多信息，请参阅新Adobe Workfront体验中的[痕迹导航概述](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
 
@@ -175,7 +175,7 @@ AccessLevelPermissions对象表示访问、创建或修改Workfront对象的特�
     <ul> 
      <li> <p><strong>coreAction</strong> </p> <p>添加了以下possibleValues：</p> 
       <ul> 
-       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>具有包括此权限的访问级别的用户可以在工作负载均衡器中更新计划的小时数。</p> <p>有关详细信息，请参阅<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">管理工作负载均衡器</a>中的管理用户分配</a>中的<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">更新任务规划小时数。</p> </li> 
+       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>具有包括此权限的访问级别的用户可以在工作负载均衡器中更新计划的小时数。</p> <p>有关详细信息，请参阅<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">管理工作负载均衡器</a>中的管理用户分配<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">中的</a>更新任务规划小时数。</p> </li> 
        <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>具有包含此权限的访问级别的用户可以将字段添加到自定义表单。</p> <p>有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">创建或编辑自定义表单</a>。</p> </li> 
        <li> <p>EDIT_SYSTEM范围 </p> <p>具有包含此权限的访问级别的用户可以在系统范围内使用“删除”权限共享自定义字段。</p> </li> 
       </ul> </li> 
@@ -246,7 +246,7 @@ AccessLevelPermissions对象表示访问、创建或修改Workfront对象的特�
     <ul> 
      <li> <p style="font-weight: bold;">操作</p> <p>添加了以下possibleValues：</p> 
       <ul> 
-       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>具有包括此权限的访问级别的用户可以在工作负载均衡器中更新计划的小时数。</p> <p>有关详细信息，请参阅<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">管理工作负载均衡器</a>中的管理用户分配</a>中的<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">更新任务规划小时数。</p> </li> 
+       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>具有包括此权限的访问级别的用户可以在工作负载均衡器中更新计划的小时数。</p> <p>有关详细信息，请参阅<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">管理工作负载均衡器</a>中的管理用户分配<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">中的</a>更新任务规划小时数。</p> </li> 
        <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>具有包含此权限的访问级别的用户可以将字段添加到自定义表单。</p> <p>有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">创建或编辑自定义表单</a>。</p> </li> 
        <li> <p>EDIT_SYSTEM范围 </p> <p>具有包含此权限的访问级别的用户可以在系统范围内使用“删除”权限共享自定义字段。</p> </li> 
       </ul> </li> 
@@ -269,7 +269,7 @@ AccessRule对象表示自定义访问级别中的规则集，该规则集确定�
     <ul> 
      <li><strong>coreAction</strong> <p>添加了以下possibleValues：</p> 
       <ul> 
-       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>具有包括此权限的访问级别的用户可以在工作负载均衡器中更新计划的小时数。</p> <p>有关详细信息，请参阅<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">管理工作负载均衡器</a>中的管理用户分配</a>中的<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">更新任务规划小时数。</p> </li> 
+       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>具有包括此权限的访问级别的用户可以在工作负载均衡器中更新计划的小时数。</p> <p>有关详细信息，请参阅<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">管理工作负载均衡器</a>中的管理用户分配<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">中的</a>更新任务规划小时数。</p> </li> 
        <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>具有包含此权限的访问级别的用户可以将字段添加到自定义表单。</p> <p>有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">创建或编辑自定义表单</a>。</p> </li> 
        <li> <p>EDIT_SYSTEM范围 </p> <p>具有包含此权限的访问级别的用户可以在系统范围内使用“删除”权限共享自定义字段。</p> </li> 
       </ul> </li> 
@@ -560,7 +560,7 @@ DocumentVersion对象表示文件的特定版本（如书面材料、图像或�
 
 ### 链接文件夹 {#linkedfolder}
 
-LinkedFolder对象表示从外部文档提供商(如Google驱动器或Dropbox)链接的文件夹。
+LinkedFolder对象表示从外部文档提供商(如Google Drive或Dropbox)链接的文件夹。
 
 有关链接文件夹的详细信息，请参阅[链接来自外部应用程序的文档](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)。
 
@@ -656,7 +656,7 @@ Parameter资源添加了标记SHARABLE。
  </tbody> 
 </table>
 
-### 项目组合 {#portfolio}
+### 组合 {#portfolio}
 
 Portfolio对象是争夺相同资源（通常是资金或人员来完成这些资源）的项目集合。
 
@@ -724,7 +724,7 @@ QueueDef对象表示队列，这是一个已发布到技术支持区域以允许
     <ul> 
      <li><strong>requestorCoreAction</strong> <p>添加了以下possibleValues：</p> 
       <ul> 
-       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>具有包括此权限的访问级别的用户可以在工作负载均衡器中更新计划的小时数。</p> <p>有关详细信息，请参阅<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">管理工作负载均衡器</a>中的管理用户分配</a>中的<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">更新任务规划小时数。</p> </li> 
+       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>具有包括此权限的访问级别的用户可以在工作负载均衡器中更新计划的小时数。</p> <p>有关详细信息，请参阅<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">管理工作负载均衡器</a>中的管理用户分配<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">中的</a>更新任务规划小时数。</p> </li> 
        <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>具有包含此权限的访问级别的用户可以将字段添加到自定义表单。</p> <p>有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">创建或编辑自定义表单</a>。</p> </li> 
        <li> <p>EDIT_SYSTEM范围 </p> <p>具有包含此权限的访问级别的用户可以在系统范围内使用“删除”权限共享自定义字段。</p> </li>
        <ul> 
@@ -762,7 +762,7 @@ ScheduledReport对象表示已配置为计划提交的报表。
 
 ### 记分卡问题 {#scorecardquestion}
 
-ScoreCardQuestion对象表示已添加到记分卡的问题。 这些问题通常由Portfolio经理决定，这些问题的答案让经理能够了解项目与项目组合目标的符合程度。
+ScoreCardQuestion对象表示已添加到记分卡的问题。 这些问题通常由Portfolio经理决定，这些问题的答案让经理能够了解项目与项目组合目标的对齐情况。
 
 有关记分卡问题的详细信息，请参阅[创建记分卡](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)。
 
@@ -906,7 +906,7 @@ TemplateTask对象表示属于Template一部分的Task。 模板任务将成为�
       <ul> 
        <li> <p>initiativeAdd (enum.updatetypeenum.initiativeadd)</p> </li> 
        <li> <p>initiativeEdit (enum.updatetypeenum.initiativeedit)</p> </li> 
-      </ul> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">有关计划的详细信息，请参阅Scenario Planner</a>中的<a href="../../scenario-planner/initiatives-overview.md" class="MCXref xref">计划概述。</p> </li> 
+      </ul> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">有关计划的详细信息，请参阅Scenario Planner<a href="../../scenario-planner/initiatives-overview.md" class="MCXref xref">中的</a>计划概述。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -927,9 +927,9 @@ User对象表示在Workfront中拥有帐户的人员，该帐户可以登录并�
      <li> <p><strong>actualDeactivationDate</strong> </p> <p>这表示停用用户的日期和时间。</p> <p>有关已停用用户的详细信息，请参阅<a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">停用或重新激活用户</a>。</p> </li> 
      <li> <p><strong>alignAccessType</strong> </p> <p>此字段显示用户对Workfront目标的访问权限。 可能的值包括：</p> 
       <ul> 
-       <li> <p>无权访问</p> </li> 
-       <li> <p>查看</p> </li> 
-       <li> <p>编辑</p> </li> 
+       <li> <p>无访问权限</p> </li> 
+       <li> <p>视图</p> </li> 
+       <li> <p>Edit</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
