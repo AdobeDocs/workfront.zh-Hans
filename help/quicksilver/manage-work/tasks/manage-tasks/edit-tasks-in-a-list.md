@@ -6,9 +6,9 @@ description: 您可以通过编辑列表中显示的字段来编辑任务列表�
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
-source-wordcount: '2762'
+source-wordcount: '2903'
 ht-degree: 3%
 
 ---
@@ -17,15 +17,13 @@ ht-degree: 3%
 
 <!-- Audited: 10/2025 -->
 
-<!--
-<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
+此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 从“预览”版本开始的一周后，生产环境中所有客户也可以使用相同的功能。
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+有关详细信息，请参阅[接口现代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
 
-</div> 
--->
+</div>
 
 您可以通过编辑列表中显示的字段来编辑任务列表中的任务信息。 有关编辑任务的其他方法的信息，请参阅[编辑任务](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
 
@@ -509,44 +507,51 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    >手动保存任务时无法批量编辑任务。
 
 1. 在任务列表中选择多个任务。
-   <!--1. <span class="preview">(Optional) Click the **More** menu ![More menu](assets/more-icon.png) at the top of the task list, then **Recalculate Expressions** to update all information in calculated custom fields.</span> -->
-1. 单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/qs-edit-icon.png)。 **编辑任务**&#x200B;对话框打开<!--<span class="preview">in the new experience</span>-->。
+1. <span class="preview">（可选）单击任务列表顶部的&#x200B;**更多**&#x200B;菜单![更多](assets/more-icon.png)菜单，然后&#x200B;**重新计算表达式**&#x200B;以更新已计算自定义字段中的所有信息。</span>
+1. 单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/qs-edit-icon.png)。 **编辑任务**&#x200B;对话框将在新体验<span class="preview">中打开</span>。
 
    编辑所有任务的信息与编辑一个任务的信息相同。
-有关编辑任务的详细信息，请参阅[编辑任务](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
 
-   <!--<span class="preview">1. In the new experience, do the following:</span> (******keep the below indented******)
-      1. Specify the information you want to change for all the tasks you selected in any of the following areas: 
+   有关编辑任务的详细信息，请参阅[编辑任务](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
+
+1. <span class="preview">（有条件）在新体验中，执行以下操作：</span>
+
+   1. 在下列任一区域指定您要更改的所有选定任务的信息：
+
       <div class="preview">
-      * Overview
-      * Assignments
-      * Custom Forms
-      * Finance
-      * Settings
-      * Settings
-      * Comment
-      </div>-->
-   <!--<span class="preview">1. Click **Save**.</span>
-   <!--1. <span class="preview">(Optional) Click **Switch back to old experience** at the bottom of the Edit Tasks box.</span>-->
-1. &#x200B;<!--<span class="preview">In the old experience,, do the following:</span> (**********indent the steps below*********)--> 在下列任一区域指定您要更改的所有选定任务的信息：
 
-   * 概述
-   * 设置
-   * 任务
-   * 自定义表单
-   * 评论
+      * 概述
+      * 任务
+      * 自定义表单
+      * 财务
+      * 设置
+      * 设置
+      * 评论
 
-     <!-- at release, move the below tip under the first set of bullet points, for the new experience-->
-
-     >[!NOTE]
-     >
-     >* 您在所有选定任务上更改的信息将覆盖单个任务上的现有信息，但&#x200B;**工作总揽**&#x200B;字段除外。 在批量编辑中添加新的被分配人会将该被分配人添加到所有选定的任务。 如果为所选任务分配了其他被分配人，则除了通过批量编辑添加的被分配人外，这些被分配人仍将保持分配状态。
-     >* 如果要编辑任务持续时间，所选任务必须具有相同的任务限制。 否则，**Duration**&#x200B;字段不会填充。
-     >
-     >* 列表中仅显示活动的自定义表单。 如果所选任务没有任何常见的自定义表单，则此部分中未列出任何表单。
-     >* 您只能编辑表单上附加到所有选定任务且您有权编辑的字段。  有关批量编辑自定义表单的信息，请参阅[管理附加到对象的自定义表单](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)。
+      </div>
 
 
-1. （可选）在&#x200B;**自定义Forms**&#x200B;部分中，选择&#x200B;**重新计算自定义表达式**&#x200B;选项，以确保附加到所选任务的自定义表单上的所有计算自定义字段都是最新的。
-1. 单击&#x200B;**保存更改**。 您所做的所有更改现在在所有选定任务中均可见。
+      >[!NOTE]
+      >
+      >* 您在所有选定任务上更改的信息将覆盖单个任务上的现有信息，但&#x200B;**工作总揽**&#x200B;字段除外。 在批量编辑中添加新的被分配人会将该被分配人添加到所有选定的任务。 如果为所选任务分配了其他被分配人，则除了通过批量编辑添加的被分配人外，这些被分配人仍将保持分配状态。
+      >* 如果要编辑任务持续时间，所选任务必须具有相同的任务限制。 否则，**Duration**&#x200B;字段不会填充。
+      >
+      >* 列表中仅显示活动的自定义表单。 如果所选任务没有任何常见的自定义表单，则此部分中未列出任何表单。
+      >* 您只能编辑表单上附加到所有选定任务且您有权编辑的字段。  有关批量编辑自定义表单的信息，请参阅[管理附加到对象的自定义表单](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)。
+
+   1. <span class="preview">单击&#x200B;**保存**。</span>
+   1. <span class="preview">（可选）单击“编辑任务”框底部的&#x200B;**切换回旧体验**。</span>
+
+1. <span class="preview">（有条件）在旧体验中，执行以下操作：</span>
+
+   1. 在下列任一区域指定您要更改的所有选定任务的信息：
+
+      * 概述
+      * 设置
+      * 任务
+      * 自定义表单
+      * 评论
+
+   1. （可选）在&#x200B;**自定义Forms**&#x200B;部分中，选择&#x200B;**重新计算自定义表达式**&#x200B;选项，以确保附加到所选任务的自定义表单上的所有计算自定义字段都是最新的。
+   1. 单击&#x200B;**保存更改**。 您所做的所有更改现在在所有选定任务中均可见。
 

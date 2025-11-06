@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
-source-wordcount: '1826'
+source-wordcount: '2212'
 ht-degree: 1%
 
 ---
@@ -18,15 +18,15 @@ ht-degree: 1%
 
 <!--Audited: 10/2025-->
 
-<!--
-<div class="preview"> 
+<!--remove production/ preview and old/ new experience references at prod-->
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+<div class="preview">
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 从“预览”版本开始的一周后，生产环境中所有客户也可以使用相同的功能。
 
-</div> 
--->
+有关详细信息，请参阅[接口现代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+
+</div>
 
 您可以将任务分配给用户、工作角色或团队，以指明负责完成任务的人员。 您可以一次将任务分配给多个资源。
 
@@ -236,13 +236,20 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. 在任务列表中选择多个任务。
 1. 单击&#x200B;**编辑**。
 
-   **编辑任务**&#x200B;对话框打开<!--<span class="preview">in the new experience</span>-->。
+   **编辑任务**&#x200B;对话框将在新体验中打开<span class="preview">。</span>
 
-   <!--1. Continue assigning the tasks <span class="preview">using the new experience</span>. <span class="preview">For more information, see the section Assign multiple tasks in bulk from a list in the new experience in this article.</span> (^^^^^^^^^^^^add anchor here at release^^^^^^^^^^^^) -->
+1. 使用新体验继续分配任务<span class="preview">。</span>
 
-   <!--1. <span class="preview">(Optional) Click **Switch back to old experience** at the bottom of the Edit Tasks box.</span> -->
+   <span class="preview">有关详细信息，请参阅本文中[从新版Experience](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience)的列表中批量分配多个任务</span>部分。
 
-1. 在&#x200B;**分配**&#x200B;区域，选择&#x200B;**代理人**&#x200B;框，然后开始键入要分配给所有任务的用户、工作角色或团队的名称。
+1. <span class="preview">（可选）单击&#x200B;**编辑任务**&#x200B;框底部的&#x200B;**切换回旧体验**&#x200B;以打开旧体验。</span>
+
+   >[!TIP]
+   >
+   >在生产环境中分配任务仅适用于旧体验。
+
+
+1. （视情况而定）使用旧体验，在&#x200B;**分配**&#x200B;区域，选择&#x200B;**被分配人**&#x200B;框，然后开始键入要分配给所有任务的用户、工作角色或团队的名称。
 
    >[!IMPORTANT]
    >
@@ -271,53 +278,51 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. 单击&#x200B;**保存更改**。
 1. （可选且有条件）当任务列表中显示“分配给”或“工作总揽”字段时，单击其中一列中的任务的，然后单击被分配人名称旁边的&#x200B;**X图标**&#x200B;以将其从任务中删除。
 
-<!--
+
 <div class="preview">
 
-### Assign multiple tasks in bulk from a list in the new experience
+### 从新Experience的列表中批量分配多个任务
 
-1. Go to a list of tasks that you want to assign in bulk in the Preview environment. 
-1. (Conditional) Ensure that the **Autosave** option is selected if you are on a list of tasks under a project.
-
-   >[!IMPORTANT]
-   >
-   >You cannot edit tasks in bulk when saving tasks manually on a project.
-
-1. Select several tasks in the tasks list. 
-1. Click **Edit**.
-
-   The **Edit Tasks** dialog box opens.
-
-1. In the **Assignments** area, start typing the name of users, teams, or roles in the **Search people, roles, or teams** field provided, then click them when they display in the list
-
-   Or 
-
-   Click **Assign to me** to assign it to yourself.
+1. 转到要在“预览”环境中批量分配的任务列表。
+1. （视情况而定）如果您在项目下的任务列表中，请确保已选择&#x200B;**自动保存**&#x200B;选项。
 
    >[!IMPORTANT]
    >
-   >If any of the tasks is already assigned, the resources you indicate here are added to the tasks instead of replacing the existing resources on the tasks.
+   >在项目中手动保存任务时，无法批量编辑任务。
 
-1. Click inside the **Duration Type** field and choose a Duration Type. 
+1. 在任务列表中选择多个任务。
+1. 单击&#x200B;**编辑**。
 
-   For information about Duration Type on tasks, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   将打开&#x200B;**编辑任务**&#x200B;对话框。
 
-1. (Conditional) Depending on what **Duration Type** you selected, update the following fields: 
+1. 在&#x200B;**工作**&#x200B;区域，在提供的&#x200B;**搜索人员、角色或团队**&#x200B;字段中开始键入用户、团队或角色的名称，然后在用户、团队或角色显示在列表中时单击它们
 
-   * Duration
-   * Planned Hours
+   或
 
-      For more information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md). 
+   单击&#x200B;**分配给我**&#x200B;以将其分配给您自己。
 
-1. (Optional) If you want to remove existing assignees from all tasks, click the **x** next to their name in the **Search people, roles, or teams** field.
+   >[!IMPORTANT]
+   >
+   >如果已经分配了任何任务，您在此处指定的资源将添加到任务中，而不是替换任务上的现有资源。
 
-1. Click **Save**.
-1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of tasks, click inside one of these columns for a task, then click the **X icon** next to the name of an assignee to remove it from the task.
+1. 单击&#x200B;**持续时间类型**&#x200B;字段并选择持续时间类型。
+
+   有关任务的持续时间类型的信息，请参阅[任务持续时间和持续时间类型概览](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)。
+
+1. （视情况而定）根据您选择的&#x200B;**持续时间类型**，更新以下字段：
+
+   * 持续时间
+   * 规划小时数
+
+     有关详细信息，请参阅[编辑任务](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)。
+
+1. （可选）如果要从所有任务中移除现有被分配人，请在&#x200B;**搜索人员、角色或团队**&#x200B;字段中单击其名称旁边的&#x200B;**x**。
+
+1. 单击&#x200B;**保存**。
+1. （可选且有条件）当任务列表中显示&#x200B;**分配给**&#x200B;或&#x200B;**工作总揽**&#x200B;字段时，单击其中一列的任务内容，然后单击被分配人名称旁边的&#x200B;**X图标**&#x200B;以将其从任务中删除。
 
 
 </div>
--->
-
 
 
 <!--

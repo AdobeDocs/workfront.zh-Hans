@@ -7,7 +7,7 @@ description: 创建模板后，可以编辑有关模板任务的信息。 在使
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
 source-wordcount: '4716'
 ht-degree: 3%
@@ -576,35 +576,35 @@ ht-degree: 3%
    单击&#x200B;**分配给我**&#x200B;以将模板任务分配给您自己。
 1. 请考虑更新以下信息：
 
-<table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody>
+   <table style="table-layout:auto"> 
+      <col> 
+      <col> 
+      <tbody>
 
-<tr> 
-      <td role="rowheader"><strong>持续时间类型</strong> </td> 
-      <td> <p>从此模板创建的未来任务将具有此持续时间类型。 <br>持续时间类型标识以下各项之间的关系：</p> 
-      <ul>
-      <li><p>分配给任务的资源数</p> </li>
-      <li><p>完成任务所需的总工作量</p></li> 
-      <li><p>任务的总持续时间 </p></li></ul> <p>通过使用持续时间类型，您可以根据任务的需求设置一致的资源分配。 有关任务的持续时间类型的详细信息，请参阅<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">任务持续时间和持续时间类型概览</a>。</p> <p>从以下选项中选择：</p> 
-       <ul> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">计算的工作分配</span> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">计算的工作量</span> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">投入比导向</span> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">简单</span> <br> </p> </li> 
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>持续时间</strong> </td> 
-      <td> <p>指定未来任务的持续时间，以分钟、小时、天、周或月为单位。 从此模板创建的未来任务将具有此处指定的持续时间。</p> <p>默认情况下，Workfront会以天为单位测量持续时间。 这是您允许任务在必须完成之前保持未完成的时间。 当任务的<strong>持续时间类型</strong>为<strong>简单</strong>或<strong>任务限制</strong>为<strong>固定日期</strong>时，无法指定任务的持续时间。</p> <p><b>重要</b></p> <p>持续时间通常是模板任务的计划开始日期与计划完成日期之间的时间量，因此，它会影响模板的时间表。 这会确定从模板创建的未来项目的时间线。 </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>计划小时数</strong> </td> 
-      <td> <p>指定使用此模板创建的项目上未来任务的计划小时数。 这是任务被分派人完成任务所花费的实际时间。 当<strong>持续时间类型</strong>设置为<strong>计算的工作分配</strong>时，您只能指定任务的计划小时数。 </p> </td> 
-     </tr> 
-  </tbody> 
-   </table>
+   <tr> 
+         <td role="rowheader"><strong>持续时间类型</strong> </td> 
+         <td> <p>从此模板创建的未来任务将具有此持续时间类型。 <br>持续时间类型标识以下各项之间的关系：</p> 
+         <ul>
+         <li><p>分配给任务的资源数</p> </li>
+         <li><p>完成任务所需的总工作量</p></li> 
+         <li><p>任务的总持续时间 </p></li></ul> <p>通过使用持续时间类型，您可以根据任务的需求设置一致的资源分配。 有关任务的持续时间类型的详细信息，请参阅<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">任务持续时间和持续时间类型概览</a>。</p> <p>从以下选项中选择：</p> 
+         <ul> 
+         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">计算的工作分配</span> </p> </li> 
+         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">计算的工作量</span> </p> </li> 
+         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">投入比导向</span> </p> </li> 
+         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">简单</span> <br> </p> </li> 
+         </ul> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>持续时间</strong> </td> 
+         <td> <p>指定未来任务的持续时间，以分钟、小时、天、周或月为单位。 从此模板创建的未来任务将具有此处指定的持续时间。</p> <p>默认情况下，Workfront会以天为单位测量持续时间。 这是您允许任务在必须完成之前保持未完成的时间。 当任务的<strong>持续时间类型</strong>为<strong>简单</strong>或<strong>任务限制</strong>为<strong>固定日期</strong>时，无法指定任务的持续时间。</p> <p><b>重要</b></p> <p>持续时间通常是模板任务的计划开始日期与计划完成日期之间的时间量，因此，它会影响模板的时间表。 这会确定从模板创建的未来项目的时间线。 </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>计划小时数</strong> </td> 
+         <td> <p>指定使用此模板创建的项目上未来任务的计划小时数。 这是任务被分派人完成任务所花费的实际时间。 当<strong>持续时间类型</strong>设置为<strong>计算的工作分配</strong>时，您只能指定任务的计划小时数。 </p> </td> 
+      </tr> 
+   </tbody> 
+      </table>
 
 1. （可选）根据要修改的信息，继续编辑以下部分。
 

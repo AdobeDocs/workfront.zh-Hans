@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '1110'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,13 @@ ht-degree: 0%
 this article is similar and updates on this one might need to be repeated here: help/quicksilver/manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md</p>
 -->
 
-<!--<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
+此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 从“预览”版本开始的一周后，生产环境中所有客户也可以使用相同的功能。
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+有关详细信息，请参阅[接口现代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
 
-</div> -->
+</div>
 
 在管理任务分配时，可以使用任务列表中的批量编辑功能一次为多个任务同时修改它们。
 
@@ -125,83 +125,88 @@ When assigning users to work, their availability according to their schedules af
 
 1. 选择要修改分配的任务，然后单击&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)。
 
-   **编辑任务**&#x200B;框打开<!--<span class="preview">in the new experience</span>-->。
-
-   <!--1. <span class="preview">(Optional) Click **Switch to old experience** at the bottom of the **Edit Tasks** box.</span> 
-   <span class="preview">The **Edit Tasks** box opens in the old experience.</span>-->
-
-1. 转到&#x200B;**工作总揽**&#x200B;部分。
-
-   >[!IMPORTANT]
-   >
-   >移除被分配者可能会影响任务小时数和分配百分比。 有关详细信息，请参阅本文中的[移除被分配者如何影响任务小时数和分配百分比](#how-removing-assignees-affects-task-hours-and-allocation-percentages)部分。
-1. 执行以下操作之一以添加或移除被分配人：
-
-   * 要添加新的被分派人，请执行以下操作：
-
-      1. 在&#x200B;**工作总揽**&#x200B;部分中，选择&#x200B;**被分派人**。
-
-         将显示所有选定任务中通用的信息。 例如，如果将同一用户分配到所有任务，则该用户会显示在&#x200B;**被分派人**&#x200B;列中。 如果所选任务中的信息不常见，则不会显示任何信息。
-
-      1. 开始键入用户、角色或团队的名称，然后在该名称显示在列表中时将其选定。 分配已添加，且不会替换选定任务上的当前分配。
-
-
-     >[!TIP]
-     >
-     > * 您可以分配多个用户、工作角色或团队。 您只能分配活动用户、工作角色和团队。
-     >   
-     > * 添加用户分配时，请注意头像、用户的主要角色或其电子邮件地址，以区分具有相同名称的用户。 用户必须与至少一个工作角色关联，才能在添加时查看工作角色。 您必须在访问级别中启用“查看联系信息”设置，用户才能查看用户的电子邮件。 有关信息，请参阅[授予用户访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)。
-     > 
-     >   如果在停用用户、工作角色或团队之前已分配用户、工作角色或团队，则它们仍会分配给工作项。 在这种情况下，我们建议执行以下操作：
-     >   
-     >     * 将工作项重新分配给活动资源。
-     >     * 将已停用团队中的用户与活动团队关联，并将工作项重新分配给活动团队。
-
-
-   * 要移除单个被分配人，请执行以下操作：
-
-      1. 如果被分派人显示在“工作总揽”列表中，则单击要删除的被分派人名称旁边的&#x200B;**X图标**。
-
-         或
-
-         （视情况而定）如果要移除的被分配人未显示在“工作总揽”部分中，因为该被分配人仅被分配到您选择的某些任务，请单击&#x200B;**移除被分配人**，然后开始键入要移除的被分配人的名称，然后在该名称出现在下拉列表中时单击该名称。
-
-   * 要删除所有现有被分配人，请执行以下操作：
-
-      1. 单击&#x200B;**删除所有现有被分配人**，然后单击&#x200B;**是，删除所有被分配人**。
-
-         这不仅会删除常见的被分配人（显示在“编辑”对话框中的被分配人），还会删除所有选定任务中的所有被分配人。
-
-     从任务中移除用户可能会影响任务小时数和分配百分比。
-
-     有关详细信息，请参阅[修改任务分配的概述](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)。
-
-1. （可选）修改受让人的以下任意选项：
-
-   * （视情况而定） **分配%或小时数**：指定新的分配百分比或小时数。
-
-     >[!NOTE]
-     >
-     >仅当所有正在编辑的任务的“持续时间类型”相同时，才能修改此选项。 当持续时间类型为已计算的工作或投入比驱动时，您可以更新分配%。 当持续时间类型为简单时，您可以更新小时数。 有关持续时间类型的信息，请参阅[任务持续时间和持续时间类型概览](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)。
-     >
-     >
-     >如果字段为空，则意味着值在各任务中是不同的；但是，您仍然能够修改它。
-
-   * **任务所有者**：选择此选项可让被分派人成为所有正在编辑任务的所有者。
-   * **被分派人的角色**：从下拉列表中选择一个角色。 如果保持未选中状态，Adobe Workfront将自动选择用户的主要角色。
-
-1. 单击&#x200B;**保存更改。**
-
-<!--
-1. <span class="preview"> (Optional) Click **Try new experience** in the upper-right corner of the **Edit Tasks** box. The Edit Tasks box opens in the new experience. Do one of the following:</span>
+   “**编辑任务**”框将在新Experience中打开<span class="preview">。 执行以下操作之一：</span>
 
    <div class="preview">
 
-   * To add assignees, start typing the name of an assignee in the **Search people, roles, or teams** field, then select them when they display in the list. 
-   * To remove assignees, click the **x** icon to the right of their name. Only assignees that are common to all tasks display in the list. 
-   * Click Assign to me to assign the selected tasks to yourself.
+   * 要添加被分配人，请在&#x200B;**搜索人员、角色或团队**&#x200B;字段中开始键入被分配人的姓名，然后当他们显示在列表中时选择他们。
+   * 要删除被分配人，请单击其姓名右侧的&#x200B;**x**&#x200B;图标。 只有所有任务通用的被分配者才会显示在列表中。
+   * 单击分配给我可将所选的任务分配给您自己。
 
    </div>
-1. <span class="preview">(Conditional) When using the new experience, click **Save**.</span>
 
--->
+1. <span class="preview">（视情况而定）使用新体验时，单击&#x200B;**保存**。</span>
+
+1. <span class="preview">（可选）单击&#x200B;**编辑任务**&#x200B;框底部的&#x200B;**切换到旧体验**。</span>
+
+   <span class="preview">在旧体验中打开&#x200B;**编辑任务**&#x200B;框。</span>
+
+   >[!TIP]
+   >
+   >默认情况下，生产环境中提供旧体验。
+
+1. （视情况而定）在旧体验中，执行以下操作以修改被分配人：
+
+   1. 转到&#x200B;**工作总揽**&#x200B;部分。
+
+      >[!IMPORTANT]
+      >
+      >移除被分配者可能会影响任务小时数和分配百分比。 有关详细信息，请参阅本文中的[移除被分配者如何影响任务小时数和分配百分比](#how-removing-assignees-affects-task-hours-and-allocation-percentages)部分。
+
+   1. 执行以下操作之一以添加或移除被分配人：
+
+      * 要添加新的被分派人，请执行以下操作：
+
+         1. 在&#x200B;**工作总揽**&#x200B;部分中，选择&#x200B;**被分派人**。
+
+            将显示所有选定任务中通用的信息。 例如，如果将同一用户分配到所有任务，则该用户会显示在&#x200B;**被分派人**&#x200B;列中。 如果所选任务中的信息不常见，则不会显示任何信息。
+
+         1. 开始键入用户、角色或团队的名称，然后在该名称显示在列表中时将其选定。 分配已添加，且不会替换选定任务上的当前分配。
+
+
+        >[!TIP]
+        >
+        > * 您可以分配多个用户、工作角色或团队。 您只能分配活动用户、工作角色和团队。
+        >   
+        > * 添加用户分配时，请注意头像、用户的主要角色或其电子邮件地址，以区分具有相同名称的用户。 用户必须与至少一个工作角色关联，才能在添加时查看工作角色。 您必须在访问级别中启用“查看联系信息”设置，用户才能查看用户的电子邮件。 有关信息，请参阅[授予用户访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)。
+        > 
+        >   如果在停用用户、工作角色或团队之前已分配用户、工作角色或团队，则它们仍会分配给工作项。 在这种情况下，我们建议执行以下操作：
+        >   
+        >     * 将工作项重新分配给活动资源。
+        >     * 将已停用团队中的用户与活动团队关联，并将工作项重新分配给活动团队。
+
+
+      * 要移除单个被分配人，请执行以下操作：
+
+         1. 如果被分派人显示在“工作总揽”列表中，则单击要删除的被分派人名称旁边的&#x200B;**X图标**。
+
+            或
+
+            （视情况而定）如果要移除的被分配人未显示在“工作总揽”部分中，因为该被分配人仅被分配到您选择的某些任务，请单击&#x200B;**移除被分配人**，然后开始键入要移除的被分配人的名称，然后在该名称出现在下拉列表中时单击该名称。
+
+      * 要删除所有现有被分配人，请执行以下操作：
+
+         1. 单击&#x200B;**删除所有现有被分配人**，然后单击&#x200B;**是，删除所有被分配人**。
+
+            这不仅会删除常见的被分配人（显示在“编辑”对话框中的被分配人），还会删除所有选定任务中的所有被分配人。
+
+        从任务中移除用户可能会影响任务小时数和分配百分比。
+
+        有关详细信息，请参阅[修改任务分配的概述](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)。
+
+   1. （可选）修改受让人的以下任意选项：
+
+      * （视情况而定） **分配%或小时数**：指定新的分配百分比或小时数。
+
+      >[!NOTE]
+      >
+      >仅当所有正在编辑的任务的“持续时间类型”相同时，才能修改此选项。 当持续时间类型为已计算的工作或投入比驱动时，您可以更新分配%。 当持续时间类型为简单时，您可以更新小时数。 有关持续时间类型的信息，请参阅[任务持续时间和持续时间类型概览](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)。
+      >
+      >
+      >如果字段为空，则意味着值在各任务中是不同的；但是，您仍然能够修改它。
+
+      * **任务所有者**：选择此选项可让被分派人成为所有正在编辑任务的所有者。
+      * **被分派人的角色**：从下拉列表中选择一个角色。 如果保持未选中状态，Adobe Workfront将自动选择用户的主要角色。
+
+   1. 单击&#x200B;**保存更改。**
+
