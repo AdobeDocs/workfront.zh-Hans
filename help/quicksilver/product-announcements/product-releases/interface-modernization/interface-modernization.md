@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: e9b96508d27da15472506aa36bdaa507ca9831ba
+source-git-commit: 829b3d343286b63922614b3855f9227667ad57a4
 workflow-type: tm+mt
-source-wordcount: '8992'
+source-wordcount: '9336'
 ht-degree: 0%
 
 ---
@@ -34,33 +34,68 @@ ht-degree: 0%
 
 ## 项目
 
+### 处理模板任务时的新体验
+
+**预览版本： 2025年11月6日；生产版本：从2025年11月13日的一周开始**
+
+我们更新了使用模板任务时的体验。
+
+>[!NOTE]
+>
+>在有限的时间内，您将有机会切换添加或编辑模板任务的旧体验和新体验。
+
+此更新中包含以下更改：
+
+* 现在，模板任务的“子任务”部分中的模板任务列表与Workfront中的大多数列表相匹配
+
+* “新建模板任务”框和“编辑模板任务”框具有新外观
+
+* 现在，您可以在编辑模板任务时更新外部查找自定义字段
+
+* 新增了将资源分配给模板任务的体验。 现在，在编辑一个任务或编辑多个任务时，都可以使用新版Experience。 以下字段已从“编辑任务”框中删除：
+
+* 分配
+   * 所有者或任务所有者
+   * 受让人的角色
+
+在模板任务中进行高级工作分配时，您仍然可以找到已删除的字段。
+
+有关信息，请参阅[编辑模板任务](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md)。
+
+
+### 在批量编辑和单次或批量分配任务时的新体验
+
+**预览版本： 2025年11月6日；生产版本：从2025年11月13日的一周开始**
+
+在编辑单个任务或批量编辑这些任务时，我们更新了“编辑任务”框。
+
+>[!NOTE]
+>
+>您将有机会在旧体验和新体验之间切换，以在有限的时间内编辑任务。
+
+此更新中包含以下更改：
+
+* 批量更新任务时删除了“重新计算自定义表达式”选项，在选择多个任务后，该选项已添加到任务列表的“更多”菜单中。
+
+* 您现在可以更新外部查找自定义字段
+
+* 为任务分配资源提供了新的体验。 现在，在编辑一个任务或编辑多个任务时，都可以使用此功能。 以下字段已从“编辑任务”框中删除：
+
+   * 分配
+   * 所有者或任务所有者
+   * 受让人的角色
+
+在任务中进行高级工作分配时，您仍然可以找到已删除的字段。
+
+有关信息，请参阅[编辑任务](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)。
+
 ### 使用模板将任务转化为项目时界面更新
 
-**预览版本： 2025年10月30日；生产版本：从2025年11月6日开始**
+**预览版本： 2025年10月30日；生产版本：从2025年11月6日的一周开始**
 
 使用模板将任务转化为项目时，我们更新了“转化为项目”框。 该框的设计现在与编辑项目框匹配。
 
 有关信息，请参阅[将任务转换为项目](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md)。
-
-<!--### New experience when bulk editing and single- or bulk-assigning tasks
-
-**Preview release: October 30, 2025; Production release: Starting on November 6, 2025**
-
-We have updated the Edit Tasks box when editing single tasks or editing them in bulk. The following changes are included in this update:
-
-* The Recalculate Custom Expressions option has been removed when updating tasks in bulk and has been added to the More menu in a task list, after selecting multiple tasks.
-
-* There is a new experience for assigning resources to tasks. This is now available both when editing one task or editing several tasks in bulk. The following fields have been removed from the Edit tasks box:
-
-* Allocations
-* Owner or Task Owner
-* Assignee's Role
-
-You can still find the removed fields when making advanced assignments on tasks.
-
-You will have a chance to switch between the old and the new experience for editing tasks for a limited time.
-
-For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).-->
 
 ### 在批量编辑和单个或批量分配问题时的新体验
 
@@ -72,11 +107,13 @@ For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tas
 
 * 批量更新问题时删除了重新计算自定义表达式选项。 在选择多个问题后，该选项已添加到问题列表中的更多菜单。
 
+* 现在，您可以在编辑问题时更新外部查找自定义字段。
+
 * 为问题分配资源提供了新的体验。 现在，在编辑一个问题或编辑多个问题时均可使用此功能。 以下字段已从编辑问题框中删除：
 
-* 分配
-* 所有者或问题所有者
-* 受让人的角色
+   * 分配
+   * 所有者或问题所有者
+   * 受让人的角色
 
 在就问题进行高级分配时，您可以更新已删除的字段。
 

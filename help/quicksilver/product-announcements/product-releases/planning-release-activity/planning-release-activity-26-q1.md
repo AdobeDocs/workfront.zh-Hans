@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 7fb12a3fbdad661baf2d0ad472ce8017e178ddef
+source-git-commit: 3ba6468327ca390ddc75ff1c18440283daa6eee4
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '585'
 ht-degree: 0%
 
 ---
@@ -22,19 +22,19 @@ ht-degree: 0%
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
 
-<!--## New field search box in the Filters, Fields, and Row colors icons in Planning views
+## Planning视图中的筛选器、字段和行颜色图标中的新字段搜索框
 
 >[!NOTE]
 >
->Preview: October 30, 2025 
->Production fast release: November 13, 2025 
->Production for everyone:  January 15, 2026 
+>预览： 2025年11月6日
+>生产快速发布： 2025年12月11日
+>适用于所有人的生产： 2026年1月15日
 
+在记录类型视图中构建视图元素时，您现在可以搜索特定字段。 当您构建过滤器、排序、分组或配置字段或行颜色时，我们添加了搜索框。 在此增强功能之前，您只需滚动浏览可用字段列表即可。
 
-You can now search for a specific field when building a view element in record type view. The new search boxes have been added when you build a filter, sort, grouping, or when you configure your fields or row colors. Prior to this enhancement, you could simply scroll through the list of available fields.
-This improvement is available in all views.
+此改进适用于所有记录类型视图。
 
-For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).-->
+有关信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)。
 
 
 ## 全局记录类型以及将它们作为现有记录类型添加到其他工作区的功能
@@ -42,8 +42,8 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >[!NOTE]
 >
 >预览： 2025年10月16日
->&#x200B;>生产快速发布： 2025年11月13日
->&#x200B;>适用于所有人的生产： 2026年1月15日
+>生产快速发布： 2025年11月13日
+>适用于所有人的生产： 2026年1月15日
 
 在使用通用工作流为多团队组织实施Workfront Planning时，您可能需要为关键记录类型（如营销活动或交付项）定义一个凝聚结构和元数据，这些记录类型可以添加到每个团队的工作区中以捕获和管理其工作。
 
@@ -66,8 +66,8 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >[!NOTE]
 >
 >预览： 2025年10月16日
->&#x200B;>生产快速发布： 2025年11月13日
->&#x200B;>适用于所有人的生产： 2026年1月15日
+>生产快速发布： 2025年11月13日
+>适用于所有人的生产： 2026年1月15日
 
 我们引入了每个记录类型30个连接字段的限制。
 
@@ -80,8 +80,8 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >[!NOTE]
 >
 >预览： 2025年10月16日
->&#x200B;>生产快速发布： 2025年11月13日
->&#x200B;>适用于所有人的生产： 2026年1月15日
+>生产快速发布： 2025年11月13日
+>适用于所有人的生产： 2026年1月15日
 
 向单选或多选字段添加字段选项时，Workfront现在将为每个选项分配唯一的用户友好型值。 在此改进之前，Workfront生成了一个字母数字ID，在API调用和其他集成中难以理解和使用。
 
