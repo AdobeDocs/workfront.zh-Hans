@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
+source-git-commit: f1fe1a2fe6e123d8a039e8d7e3547c0b0a8141df
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '365'
 ht-degree: 3%
 
 ---
@@ -18,8 +18,6 @@ ht-degree: 3%
 # 重置用户的首选项
 
 <!-- Audited: 12/2023 -->
-
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用，正在分阶段发布到生产环境。</span>
 
 作为Adobe Workfront管理员，您可以重置或删除Workfront系统中任何用户的用户首选项设置。
 
@@ -106,8 +104,6 @@ ht-degree: 3%
 
 <!--Display this table and hide the HTML table above, when the unshim is released.-->
 
-<div class="preview">
-
 | 首选项 | 重置后的状态 |
 | --- | --- |
 | 视图 | 已还原为系统默认值 <p>不会删除现有视图。 您可以再次选择它们。</p> |
@@ -116,8 +112,6 @@ ht-degree: 3%
 | 最新项目列表 | 已清除 |
 | 收藏夹列表 | 未受影响 |
 | 用户首选项 | 已还原为系统默认值 <p>电子邮件通知将还原为系统默认值。 默认通知列在Adobe Workfront[中可用的](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)事件通知中。</p> |
-
-</div>
 
 ## 重置用户首选项
 
@@ -148,8 +142,8 @@ ht-degree: 3%
 
 1. 按&#x200B;**Enter**。
 
-1. <span class="preview">要重置所有用户首选项，请单击&#x200B;**重置**。</span>
+1. 要重置所有用户首选项，请单击&#x200B;**重置**。
 
-   <span class="preview">或</span>
+   或
 
-   <span class="preview">要将用户的左侧导航重置为原始布局模板配置，请单击&#x200B;**重置左侧导航**。</span>
+   要将用户的左侧导航重置为原始布局模板配置，请单击&#x200B;**重置左侧导航**。
