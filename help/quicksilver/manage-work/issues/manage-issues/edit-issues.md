@@ -8,10 +8,10 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
+source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
 workflow-type: tm+mt
-source-wordcount: '2741'
-ht-degree: 2%
+source-wordcount: '2532'
+ht-degree: 3%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 2%
 
 <!--Audited: 10/2025-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 从“预览”版本开始的一周后，生产环境中所有客户也可以使用相同的功能。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-有关详细信息，请参阅[接口现代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div>-->
 
 您可以编辑有关您创建的问题或其他用户创建的问题（如果他们与您共享问题）的信息。
 
@@ -348,14 +348,9 @@ ht-degree: 2%
    >* 将工作项重新分配给活动资源。
    >* 将已停用团队中的用户与活动团队关联，并将工作项重新分配给活动团队。
 
-1. （视情况而定）根据您在中编辑问题的环境，执行以下操作之一：
-
-   1. 在生产环境中：
-
-      1. 通过将鼠标悬停在受让人的名称上并单击&#x200B;**设为主要受让人**，指示受让人是问题中的主要受让人。 团队不能是问题的主要被分配人。
-
-      1. 更新以下字段：
-
+   <!--1. In the Production environment:
+         1. Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue.
+         1. Update the following fields: 
          <table style="table-layout:auto"> 
          <col> 
          </col> 
@@ -363,30 +358,27 @@ ht-degree: 2%
          </col> 
          <tbody> 
          <tr> 
-            <td role="rowheader">规划小时数</td> 
-            <td> <p>这是问题的被分派人完成该问题所需的实际时间。 键入问题的已计划小时数。<br></p> <p><b>注释</b></p>  <p>更改问题的已计划小时数不会更改问题的已计划完成日期。 </p> </td> 
+            <td role="rowheader">Planned Hours</td> 
+            <td> <p>This is the amount of actual time it would take the assignees of the issue to complete it. Type the number of Planned Hours for the issue.<br></p> <p><b>NOTE</b></p>  <p>Changing the Planned Hours of the issue will not change the issue Planned Completion Date. </p> </td> 
          </tr> 
          <tr data-mc-conditions=""> 
-            <td role="rowheader">受让人的角色</td> 
-            <td> <p>选择人员作为被分派人时，请从<strong>被分派人的角色</strong>下拉菜单中选择一个角色。 这是被分派人可以在这个问题上发挥的作用。 </p> <p><b>提示</b>
-
-         下拉菜单中仅显示与其配置文件中每个被分配人关联的工作角色。</p> </td>
+            <td role="rowheader">Assignee's Role</td> 
+            <td> <p>Select a role from the <strong>Assignee's Role</strong> drop-down menu when you selected a person as an assignee. This is the role that the assignee can fulfill on this issue. </p> <p><b>TIP</b>
+            
+            Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
          </tr> 
          </tbody> 
-         </table>
+         </table>-->
 
 
+1. （可选）单击&#x200B;**分配给我**&#x200B;以将问题分配给您自己。
+1. （可选）更新&#x200B;**计划小时数**&#x200B;字段。
 
-   1. <span class="preview">（有条件）在“预览”环境中，执行以下操作之一：</span>
+   **计划小时数**&#x200B;是问题的被分派人完成该问题所需的小时数。
 
-      * <span class="preview">单击&#x200B;**分配给我**&#x200B;以将问题分配给您自己</span>
-      * <span class="preview">更新&#x200B;**计划小时数**&#x200B;字段。</span>
-
-        **计划小时数**&#x200B;是问题的被分派人完成该问题所需的小时数。
-
-        >[!NOTE]
-        >
-        >更改问题的已计划小时数不会更改问题的已计划完成日期。
+   >[!NOTE]
+   >
+   >更改问题的已计划小时数不会更改问题的已计划完成日期。
 
 1. 要从所有问题中删除分配，请参阅[分配问题](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md)。
 

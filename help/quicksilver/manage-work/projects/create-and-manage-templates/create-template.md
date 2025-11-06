@@ -6,16 +6,24 @@ description: 您可以在“模板”区域中创建和删除模板。 在构建
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 46133f435c665dd82d134f18d0b5de4e70bab7d7
+source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 5%
+source-wordcount: '779'
+ht-degree: 6%
 
 ---
 
 # 创建项目模板
 
 <!-- Audited: 10/2025 -->
+
+<div class="preview">
+
+此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 从“预览”版本开始的一周后，生产环境中所有客户也可以使用相同的功能。
+
+有关详细信息，请参阅[接口现代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+
+</div>
 
 您可以在“模板”区域中创建和删除模板。 在构建新模板时，您可以为所有任务和未来项目设置输入信息。 然后，此信息将传输到您从模板创建的任何项目。
 
@@ -112,23 +120,32 @@ ht-degree: 5%
 
    ![新模板任务框](assets/new-template-task-box.png)
 
-   <!--<span class="preview">The Create Template Task opens in the new experience.</span>-->
+   <span class="preview">在新体验中打开&#x200B;**创建模板任务**&#x200B;框。</span>
 
-   <!--
-   1. <span class="preview">(Conditional) Using the new experience, update information in the following areas in the **Create Template Task** box:</span>
+1. <span class="preview">（视情况而定）使用新体验，在&#x200B;**创建模板任务**&#x200B;框的以下区域中更新信息：</span>
+
    <div class="preview">
-   * Template Task Name
-   * Overview
-   * Assignments
-   * Finance
-   * Custom Forms
-   * Documents
-   * Settings 
+
+   * 模板任务名称
+   * 概述
+   * 任务
+   * 财务
+   * 自定义表单
+   * 文档
+   * 设置
+
    </div>
-   1. Click **Save**
-   Or (*******remove the 1. from the step below and continue with those steps here*********)
-   1. (Optional) Click **Switch back to old experience** at the bottom of the **Create Template Task** box.
-   The **New Template Task** opens. (************add screen shot***********)-->
+
+1. 单击&#x200B;**创建模板任务**
+
+   或
+
+   <span class="preview">单击&#x200B;**创建模板任务**&#x200B;框底部的&#x200B;**切换回旧体验**。</span>
+   <span class="preview">在旧体验中打开&#x200B;**新模板任务**。</span>
+
+   >[!TIP]
+   >
+   >在生产环境中，默认情况下会打开旧体验。
 
 1. 在&#x200B;**新模板任务**&#x200B;框中更新以下区域的信息：
 
@@ -148,7 +165,7 @@ ht-degree: 5%
 1. 单击下列选项之一：
 
    * **保存模板任务**&#x200B;以保存当前模板任务并关闭“新建模板任务”框。
-   * **保存模板任务并启动另一个模板任务**&#x200B;以保存当前模板任务并打开另一个新模板任务框以添加另一个任务。
+   * **保存模板任务并启动另一个**&#x200B;以保存当前的模板任务，并打开另一个&#x200B;**新模板任务**&#x200B;框以添加另一个任务。
    * **取消**&#x200B;关闭该框而不保存模板任务。
 1. （可选）添加模板任务后，在“模板任务”部分中，单击任务列表右上角的&#x200B;**甘特图**&#x200B;图标，查看模板任务列表的可视表示形式。
 

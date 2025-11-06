@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
+source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
 workflow-type: tm+mt
-source-wordcount: '1731'
+source-wordcount: '1366'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 <!--Audited: 10/2024-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 从“预览”版本开始的一周后，生产环境中所有客户也可以使用相同的功能。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-有关详细信息，请参阅[接口现代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 您可以将问题分配给用户、角色和团队，以指示负责完成问题的人员。 有关分配问题的一般信息，请参阅[修改问题分配的概述](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)。
 
@@ -202,36 +202,39 @@ ht-degree: 0%
 
 ## 批量分配问题
 
-根据您选择执行的操作环境，批量分配问题会有所不同。
+<!--
+Assigning issues in bulk is different depending on what environment you choose to do this. 
 
-### 在生产环境中批量分配问题
+### Assign issues in bulk in the Production environment 
 
-1. 转到要批量分配的问题列表。
-1. 选择列表中的多个问题。
-1. 单击&#x200B;**编辑图标** ![编辑图标](assets/qs-edit-icon.png)。
+1. Go to a list of issues that you want to assign in bulk. 
+1. Select several issues in the list. 
+1. Click the **Edit icon** ![Edit icon](assets/qs-edit-icon.png).
 
-   将打开&#x200B;**编辑问题**&#x200B;对话框。
+   The **Edit Issues** dialog box opens.
 
-1. 在&#x200B;**分配**&#x200B;区域，选择&#x200B;**代理人**&#x200B;框，然后开始键入要分配给所有问题的用户、工作角色或团队的名称。
+1. In the **Assignments** area, select the **Assignee** box, then start typing the name of a user, job role, or team that you want to assign to all the issues.
 
    >[!IMPORTANT]
    >
-   >如果任何问题已分配，则您在此处指示的资源将添加到问题中，而不是替换问题中的现有资源。
+   >If any of the issues is already assigned, the resources you indicate here are added to the issues instead of replacing the existing resources on the issues. 
+   
+1. (Optional) Select the radio button in the **Issue Owner** column to indicate which resource is the primary assignee or the Owner of the issue, when you assign more than one resource to the issue. This is not available for teams. 
+1. (Optional) Select a role that the user should fulfill on the issue from the **Pick a role** drop-down menu in the **Assignee's Role** column when you assign users to issues. If you do not select a role, Workfront automatically selects the user's Primary Role. 
 
-1. （可选）当您为问题分配多个资源时，选择&#x200B;**问题所有者**&#x200B;列中的单选按钮以指示哪个资源是问题的主要被分配者或所有者。 这不适用于团队。
-1. （可选）在将用户分配给问题时，从&#x200B;**受分配人角色**&#x200B;列的&#x200B;**选择角色**&#x200B;下拉菜单中选择用户在问题中应履行的角色。 如果不选择角色，Workfront会自动选择用户的主要角色。
+1. (Optional) If you want to remove existing assignees from all issues do one of the following:
 
-1. （可选）如果要从所有问题中删除现有被分配人，请执行下列操作之一：
+   1. Start typing the name of a user, role, or team you want to remove from the issue, then select it when it appears on the list and click **Remove Assignee** to add additional assignees to remove. 
+   1. Click **Remove All Existing Assignees** to remove all assignees from all selected issues.
 
-   1. 开始键入要从问题中移除的用户、角色或团队的名称，然后当该名称出现在列表中时将其选中，然后单击&#x200B;**移除被分配人**&#x200B;以添加要移除的其他被分配人。
-   1. 单击&#x200B;**移除所有现有被分配人**&#x200B;可从所有已选问题中移除所有被分配人。
-
-1. 单击&#x200B;**保存更改**。
-1. （可选，视情况而定）当问题列表中显示“分配给”或“工作总揽”字段时，单击其中一列以查找问题，然后单击被分配人名称旁边的&#x200B;**X图标**&#x200B;以将其从问题中删除。
+1. Click **Save Changes**.
+1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of issues, click inside one of these columns for an issue, then click the **X icon** next to the name of an assignee to remove it from the issue.
 
 <div class="preview">
 
-### 在预览环境中批量分配问题
+### Assign issues in bulk in the Preview environment
+
+-->
 
 1. 转到要批量分配的问题列表。
 1. 选择列表中的多个问题。
@@ -251,10 +254,9 @@ ht-degree: 0%
 
 1. （可选）如果要从所有问题中移除现有被分配人，请单击其名称旁边的&#x200B;**x**。
 
-1. （可选）更新计划小时数字段。 有关详细信息，请参阅[编辑问题](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md)。
+1. （可选）更新P **规划小时数**&#x200B;字段。 有关详细信息，请参阅[编辑问题](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md)。
 
 1. 单击&#x200B;**保存**。
-1. （可选，视情况而定）当问题列表中显示“分配给”或“工作总揽”字段时，单击其中一列以查找问题，然后单击被分配人名称旁边的&#x200B;**X图标**&#x200B;以将其从问题中删除。
+1. （可选且有条件）当问题列表中显示&#x200B;**分配给**&#x200B;或&#x200B;**工作总揽**&#x200B;字段时，单击其中一列以查找问题，然后单击被分配人名称旁边的&#x200B;**X图标**&#x200B;以将其从问题中删除。
 
-</div>
 

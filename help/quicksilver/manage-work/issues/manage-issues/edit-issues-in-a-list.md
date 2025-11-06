@@ -6,10 +6,10 @@ description: 您可以编辑单个问题，也可以在问题列表或报告中�
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
+source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 0%
+source-wordcount: '875'
+ht-degree: 1%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 0%
 <!--Audited: 10/2025-->
 
 
-<div class="preview">
+<!--<div class="preview"> 
 
-此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 从“预览”版本开始的一周后，生产环境中所有客户也可以使用相同的功能。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-有关详细信息，请参阅[接口现代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 您可以编辑单个问题，也可以在问题列表或报告中编辑问题。 本文介绍了如何编辑列表中的问题。
 
@@ -172,15 +172,11 @@ ht-degree: 0%
 
    编辑所有问题的信息与在编辑以下区域时编辑一个问题的信息相同：
 
-   <div class="preview">
-
    * 概述
    * 任务
    * 自定义表单
    * 设置
    * 评论
-
-   </div>
 
    有关编辑问题的详细信息，请参阅[编辑问题](../../../manage-work/issues/manage-issues/edit-issues.md)。
 
@@ -194,16 +190,16 @@ ht-degree: 0%
 
    您只能编辑表单上附加到所有选定问题并且您有权编辑的字段。
 
-1. （可选且视情况而定）根据用于编辑问题的环境，执行以下操作之一以重新计算所有问题的自定义表达式：
+   <!--1. In the Production environment, in the **Custom Forms** area, select the **Recalculate Custom Expressions** option to ensure that all Calculated Custom Fields that are on the Custom Forms attached to the issues selected are up to date.-->
 
-   1. 在生产环境的&#x200B;**自定义Forms**&#x200B;区域中，选择&#x200B;**重新计算自定义表达式**&#x200B;选项，以确保附加到所选问题的自定义Forms上的所有已计算自定义字段都是最新的。
+1. 单击&#x200B;**保存**。
 
-   1. <span class="preview">在“预览”环境中，在列表中选择了所有问题，单击问题列表顶部的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-icon.png)，然后单击&#x200B;**重新计算表达式**。</span>
+   您所做的所有更改现在在所有选定问题中均可见。
+
+1. （可选）选择列表中的所有问题，单击问题列表顶部的&#x200B;**更多**&#x200B;菜单![更多](assets/more-icon.png)，然后单击&#x200B;**重新计算表达式**。
 
    >[!IMPORTANT]
    >
    >建议不要在重新计算自定义表达式时选择超过500个问题。
 
-1. 单击&#x200B;**保存更改**。
 
-   您所做的所有更改现在在所有选定问题中均可见。
