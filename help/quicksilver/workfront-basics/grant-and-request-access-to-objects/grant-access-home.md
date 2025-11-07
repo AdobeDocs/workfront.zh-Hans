@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: grant-and-request-access-to-objects
 title: 授予对“主页”区域中对象的访问权限
 description: 用户可以请求访问Adobe Workfront中的对象。 有关请求访问的更多信息，请参阅请求访问对象。
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 1. 单击屏幕右上角的&#x200B;**主菜单** ![](assets/dots-main-menu.png)或左上角的&#x200B;**主菜单** ![](assets/lines-main-menu.png)（如果可用），然后单击&#x200B;**主页**
 或
-单击Adobe Workfront左上角的&#x200B;**主页**&#x200B;图标![](assets/home-icon-30x29.png)。
+单击Adobe Workfront左上角的**主页**&#x200B;图标![](assets/home-icon-30x29.png)。
 
    >[!NOTE]
    >

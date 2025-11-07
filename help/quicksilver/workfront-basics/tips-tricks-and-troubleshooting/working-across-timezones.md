@@ -4,8 +4,9 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: 跨时区工作
 description: 了解 [!DNL Adobe Workfront] 如何使用时区计算对象的时间字段和其他区域（如电子邮件）中的时间可能很有帮助。
 feature: Get Started with Workfront
+author: Becky
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 7697bb68e2042291e5290048cfc2f626145979af
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '1249'
 ht-degree: 0%

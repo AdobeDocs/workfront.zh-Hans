@@ -7,9 +7,9 @@ description: 您在Adobe Workfront中登录工作项的小时数被视为实际�
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
-source-wordcount: '1231'
+source-wordcount: '1276'
 ht-degree: 0%
 
 ---
@@ -93,8 +93,10 @@ ht-degree: 0%
 
 * 在项目、任务和问题报告和列表中：
 
-   * **实际小时数**： 2021年5月之后为项目、任务或问题记录的小时数。 它们以小时为单位存储在Workfront数据库中，其valuefield为`actualWorkRequiredDouble`。
-   * **传统实际小时数**：随时为项目、任务或问题记录的小时数，包括2021年5月之前的小时数。 它们在Workfront数据库中以分钟为单位存储，其valuefield为`actualWorkRequired`。
+   * **实际小时数**：从2021年5月到今天为项目、任务或问题记录的小时数。 它们以小时为单位存储在Workfront数据库中，其valuefield为`actualWorkRequiredDouble`。
+   * **传统实际小时数**：在2021年5月之前的任何日期至今天的任何时间中为项目、任务或问题记录的小时数。 它们在Workfront数据库中以分钟为单位存储，其valuefield为`actualWorkRequired`。
+
+     当前记录的小时数将同时更新实际小时数和旧版实际小时数。
 
      >[!IMPORTANT]
      >
@@ -102,12 +104,14 @@ ht-degree: 0%
 
 * 在项目、任务或问题详细信息区域中，实际小时数可显示在以下字段中：
 
-   * **实际小时数**：在“详细信息”选项卡中，这些是2021年5月之后为项目、任务或问题记录的小时数。 它们以小时为单位存储在Workfront数据库中，其valuefield为`actualWorkRequiredDouble`。
-   * **实际小时数**：在项目、任务或问题自定义表单中，当使用引用实际小时数本机字段的本机字段引用自定义字段访问时。 这些是2021年5月之后为项目、任务或问题记录的小时数。 它们以小时为单位存储在Workfront数据库中，其valuefield为`actualWorkRequiredDouble`。
+   * **实际小时数**：在“详细信息”选项卡中，这些是2021年5月到今天期间为项目、任务或问题记录的小时数。 它们以小时为单位存储在Workfront数据库中，其valuefield为`actualWorkRequiredDouble`。
+   * **实际小时数**：在项目、任务或问题自定义表单中，当使用引用实际小时数本机字段的本机字段引用自定义字段访问时。 这些是记录2021年5月之前和今天的任何日期之间的项目、任务或问题的小时数。 它们以小时为单位存储在Workfront数据库中，其valuefield为`actualWorkRequiredDouble`。
+
+     当前记录的小时数将同时更新实际小时数和旧版实际小时数。
 
 >[!NOTE]
 >
->建议尽可能使用实际小时数字段，因为旧版实际小时数字段可能会由于递增方式而显示不准确的小时数。
+>建议尽可能使用实际小时数字段，因为旧版实际小时数字段显示的小时数可能不准确，这是因为在小时数以分钟为单位存储时，递增方式导致此情况。
 
 ## 任务和问题的实际小时数与项目的实际小时数
 

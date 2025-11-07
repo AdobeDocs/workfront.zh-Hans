@@ -2,10 +2,9 @@
 title: 共享项目组合
 description: 如果您有访问项目组合的权限，则可以与其他用户共享项目组合。
 author: Courtney
-draft: Probably
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%

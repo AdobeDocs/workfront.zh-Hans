@@ -4,10 +4,10 @@ content-type: reference
 product-area: user-management;reports;dashboards;calendars
 navigation-topic: grant-and-request-access-to-objects
 description: 当用户分配访问级别时，您的Adobe Workfront管理员会授予他们查看或编辑报告、功能板和日历的访问权限。 有关授予对报表、功能板和日历的访问权限的更多信息，请参阅授予对报表、功能板和日历的访问权限。
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: c2dac54b-6506-41b0-a7f2-6fafab12c2d1
-source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 权限特定于Workfront中的一个项目，并定义您可以对该项目执行的操作。
 
-有关每个访问级别中的用户可以如何处理问题的信息，请参阅[适用于每个对象类型的功能](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)一文中的[报告](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#reports)部分。
+有关每个访问级别中的用户可以如何处理问题的信息，请参阅[适用于每个对象类型的功能](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#reports)一文中的[报告](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)部分。
 
 ## 有关共享报表、功能板或日历的注意事项
 
@@ -53,13 +53,13 @@ ht-degree: 0%
 
 * 您可以向报表、功能板和日历授予以下权限：
 
-   * 查看
+   * 视图
    * 管理
 
 * 共享功能板时，用户默认对功能板上的所有报告、日历和外部页面具有查看权限。
 * 具有“请求”许可证的用户无法查看系统范围的报告。 如果请求者需要查看报告，则必须单独与请求者共享报告。
 * 如果报告有提示并且您公开共享它，则访问报告的用户必须登录到Workfront才能使用提示运行报告。 如果他们无法登录Workfront，将看到未应用提示的报告。\
-  有关共享带有提示的报告限制的更多信息，请参阅文章[向报告添加提示](../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)中的[共享提示报告的限制](../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports)部分。
+  有关共享带有提示的报告限制的更多信息，请参阅文章[向报告添加提示](../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports)中的[共享提示报告的限制](../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)部分。
 
 * 您可以从报表或日历中删除继承的权限。
 

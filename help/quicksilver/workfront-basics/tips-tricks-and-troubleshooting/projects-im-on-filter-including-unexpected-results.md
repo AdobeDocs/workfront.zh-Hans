@@ -4,9 +4,9 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: 我参与的项目过滤器包括意外结果
 description: 阅读本文以对我的项目过滤器进行故障排除，包括意外结果。
 feature: Get Started with Workfront
-author: Nolan
+author: Alina
 exl-id: 4701464a-4cf5-4be1-bcc0-0892019986ec
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 3%
@@ -44,6 +44,7 @@ ht-degree: 3%
 
 有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
++++
 
 
 ## 问题

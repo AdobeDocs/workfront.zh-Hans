@@ -3,10 +3,10 @@ content-type: overview
 navigation-topic: grant-and-request-access-to-objects
 title: 对象权限共享概述
 description: 您可以共享或删除您创建的对象或与您共享对象的权限。
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
@@ -38,7 +38,7 @@ ht-degree: 1%
 
 * **模板**：有关详细信息，请参阅[共享项目模板](../../manage-work/projects/create-and-manage-templates/share-project-template.md)。
 
-* **Portfolio**：有关详细信息，请参阅[共享项目组合](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)。
+* **项目组合**：有关详细信息，请参阅[共享项目组合](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)。
 
 * **程序**：有关信息，请参阅[共享程序](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md)。
 
@@ -72,7 +72,7 @@ ht-degree: 1%
 
 * 您只能共享您对对象的相同级别或更低级别的权限。
 
-  例如，如果您拥有对象的Contribute权限，则无法向其他用户授予对该对象的“管理”权限。
+  例如，如果您拥有对象的Contribute权限，则无法向其他用户授予该对象的“管理”权限。
 
 * 您无法共享权限级别高于用户访问级别的对象。
 
@@ -103,25 +103,25 @@ ht-degree: 1%
 
 ## 共享对象的权限
 
-下表说明了共享对象时可以选择的权限级别。 并非所有对象都具有所有这些设置。 您可以向其他实体授予查看或管理对象的权限。 如果要共享项目、任务或问题，还可以向其授予Contribute的权限。
+下表说明了共享对象时可以选择的权限级别。 并非所有对象都具有所有这些设置。 您可以向其他实体授予查看或管理对象的权限。 如果要共享项目、任务或问题，还可以向Contribute授予对它的权限。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>查看</strong></td> 
+   <td role="rowheader"><strong>视图</strong></td> 
    <td> <p>您可以对对象执行以下操作：</p> 
     <ul> 
      <li><p>查看对象</p></li> 
      <li><p>将文档添加到对象</p></li> 
      <li><p>将问题添加到对象（如果它是任务或项目）</p></li> 
      <li><p>查看有关对象的财务信息</p></li> 
-     <li> <p>共享对象<br></p> <p>当您共享对象时，您可以授予其他用户您仅对对象拥有的相同权限级别，而不是更高的级别。</p> </li> 
+     <li> <p>分享对象<br></p> <p>当您共享对象时，您可以授予其他用户您仅对对象拥有的相同权限级别，而不是更高的级别。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>参与</strong></td> 
+   <td role="rowheader"><strong>贡献</strong></td> 
    <td> <p>您可以对对象执行以下操作：</p> 
     <ul> 
      <li>查看权限包含的所有操作。</li> 
@@ -136,7 +136,7 @@ ht-degree: 1%
    <td role="rowheader"><strong>管理</strong></td> 
    <td> <p>您可以对对象执行以下操作：</p> 
     <ul> 
-     <li>查看和Contribute权限中包含的所有操作</li> 
+     <li>“查看”和“贡献”权限包含的所有操作</li> 
      <li>删除它</li> 
      <li>管理其中的财务信息</li> 
     </ul> </td> 
@@ -158,11 +158,11 @@ ht-degree: 1%
 
 Workfront中的权限是分层继承的。 这意味着，如果您授予用户对父对象的权限，则默认情况下这些用户将获得与其关联的子对象的相同权限。
 
-例如，如果您授予用户Contribute项目权限，则该用户拥有与该项目关联的所有任务和问题（子对象）的Contribute权限。
+例如，如果您为某个项目授予用户“参与”权限，则该用户将拥有与该项目关联的所有任务和问题（子对象）的“参与”权限。
 
-继续上面的示例，您不能限制对子对象的权限。 如果您不希望用户拥有与项目关联的子对象的Contribute权限，则必须手动从对象中删除继承的权限，然后调整单个用户的权限，包括任何高级设置。 
+继续上面的示例，您不能限制对子对象的权限。 如果您不希望用户拥有与项目关联的子对象的Contribute权限，则必须手动从对象中删除“继承的权限”，然后调整单个用户的权限，包括任何高级设置。 
 
-有关Workfront中对象的层次和相互依赖关系的详细信息，请参阅文章[Adobe Workfront对象概述](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)中的[对象相互依赖关系和层次](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#interdependency-and-hierarchy-of-objects)部分。
+有关Workfront中对象的层次和相互依赖关系的详细信息，请参阅文章[Adobe Workfront对象概述](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#interdependency-and-hierarchy-of-objects)中的[对象相互依赖关系和层次](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)部分。
 
 >[!NOTE]
 >

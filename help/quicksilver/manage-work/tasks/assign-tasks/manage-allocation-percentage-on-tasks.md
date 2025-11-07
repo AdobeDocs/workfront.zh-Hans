@@ -6,7 +6,7 @@ description: 分配百分比表示已分配资源在一天内计划处理一项�
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 1%
@@ -59,7 +59,7 @@ ht-degree: 1%
   <tr> 
    <td>对象权限</td>
    <td><p>为任务分配或更高权限</p>
-   <p>当<span class="preview">使用旧体验编辑任务时，编辑权限以在“编辑任务”框中更新分配百分比。 在新版Experience中编辑任务时，您无法再在“编辑任务”框中管理分配百分比。</span></p> <p>有关信息，请参阅<a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">编辑任务</a></p>。</td>
+   <p>当<span class="preview">使用旧体验编辑任务时，编辑权限以在“编辑任务”框中更新分配百分比。 在新版Experience中编辑任务时，您无法再在“编辑任务”框中管理分配百分比。</span></p> <p>有关信息，请参阅<a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">编辑任务</a>。</p></td>
   </tr>
  </tbody>
 </table>

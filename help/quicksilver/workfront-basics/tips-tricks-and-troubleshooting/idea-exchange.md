@@ -4,8 +4,9 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: 创新实验室
 description: '[!UICONTROL 创新实验室]使经过身份验证的用户能够提交、投票并与其他客户讨论想法。'
 feature: Get Started with Workfront
+author: Becky
 exl-id: 4775ece1-2841-4acc-b3f0-66cd2783669f
-source-git-commit: 3583368918cf9eb4c64faeda4730e2be08375aed
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
@@ -24,7 +25,7 @@ ht-degree: 0%
 
 投票支持一个想法：
 
-1. 登录以下URL的[!DNL Adobe Experience League]网站上的[!DNL Adobe Workfront]社区： [[!DNL Adobe Workfront] 社区](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)。
+1. 登录以下URL的[!DNL Adobe Workfront]网站上的[!DNL Adobe Experience League]社区： [[!DNL Adobe Workfront] 社区](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)。
 
 1. 单击&#x200B;**[!UICONTROL 想法]**&#x200B;选项卡。
 

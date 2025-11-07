@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
-source-wordcount: '5463'
+source-wordcount: '5487'
 ht-degree: 1%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=zh-Hans ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -410,7 +410,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
       * **长**：2023年5月16日
       * **欧洲**： 16/05/2023
       * **ISO**： 2023-05-16
-      * **包含时间**：如果要包含时间戳，请选择此选项。 默认情况下，该选项处于未选中状态。 您不能在字段安全后添加时间。
+   * **包含时间**：如果要包含时间戳，请选择此选项。 默认情况下，该选项处于未选中状态。 保存字段后不能包含时间。
 
      从以下选项中选择：
 
@@ -430,7 +430,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 >数字字段在请求表单生成器中显示为单行文本字段类型。
 >
 >但是，字段格式将保留，并且这些字段的值将在提交请求后、记录类型和请求详细信息页面中显示为数字。
->&#x200B;>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
+>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
 
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**数字**&#x200B;字段类型。
@@ -460,7 +460,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 >百分比字段在请求表单生成器中显示为单行文本字段类型。
 >
 >但是，字段格式将保留，并且这些字段的值将在提交请求后、记录类型和请求详细信息页面中显示为百分比。
->&#x200B;>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
+>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
 
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**百分比**&#x200B;字段类型。
@@ -500,7 +500,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 >货币字段在请求表单生成器中显示为单行文本字段类型。
 >
 >但是，字段格式将保留，并且这些字段的值将在提交请求后、记录类型和请求详细信息页面中显示为货币。
->&#x200B;>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
+>有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**货币**&#x200B;字段类型。
 
@@ -677,7 +677,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
       * **长**：2023年5月16日
       * **欧洲**： 16/05/2023
       * **ISO**： 2023-05-16
-   * **包含时间字段**：如果要包含时间戳，请选择此选项。 默认情况下，该选项处于未选中状态。<!--submitted a UI text change for this - check the UI-->
+   * **包含时间**：如果要包含时间戳，请选择此选项。 默认情况下，该选项处于未选中状态。 保存字段后不能包含时间。
 
      从以下选项中选择：
 
@@ -726,8 +726,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
       * **长**：2023年5月16日
       * **欧洲**： 16/05/2023
       * **ISO**： 2023-05-16
-
-   * **包含时间字段**：如果要包含时间戳，请选择此选项。 默认情况下，该选项处于未选中状态。<!--submitted a UI text change for this - check the UI-->
+   * **包含时间**：如果要包含时间戳，请选择此选项。 默认情况下，该选项处于未选中状态。 保存字段后不能包含时间。
 
      从以下选项中选择：
 
@@ -764,7 +763,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
       * **欧洲**： 16/05/2023
       * **ISO**： 2023-05-16
 
-   * **包含时间字段**：如果要包含时间戳，请选择此选项。 默认情况下，该选项处于未选中状态。
+   * **包含时间**：如果要包含时间戳，请选择此选项。 默认情况下，该选项处于未选中状态。 保存字段后不能包含时间。
 
      从以下选项中选择：
 

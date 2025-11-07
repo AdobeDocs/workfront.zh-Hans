@@ -4,9 +4,9 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: 过滤器按钮未显示在页眉中
 description: 阅读本文以解决页眉中不显示过滤器按钮的问题。
 feature: Get Started with Workfront
-author: Nolan and Alina
+author: Courtney
 exl-id: 327564ed-60df-441a-a38b-a17a8c57adb0
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 3%
@@ -44,6 +44,8 @@ ht-degree: 3%
 
 有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
++++
+
 ## 问题
 
 以下筛选按钮不在其各自的区域显示：
@@ -57,19 +59,19 @@ ht-degree: 3%
    <td><strong>筛选器按钮</strong></td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL 项目] </p> </td> 
+   <td> <p>[！UICONTROL项目] </p> </td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL 我参与的项目]</p> </li> 
-     <li> <p>[!UICONTROL 我拥有的项目]</p> </li> 
+     <li> <p>[！UICONTROL我参与的项目]</p> </li> 
+     <li> <p>[！UICONTROL我拥有的项目]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><span>[!UICONTROL 时间表]</span> </td> 
+   <td><span>[！UICONTROL时间表]</span> </td> 
    <td> 
     <ul> 
-     <li> <p><span>[!UICONTROL 我的工时表批准]</span> </p> </li> 
-     <li> <p><span>[!UICONTROL 我的时间表]</span> </p> </li> 
+     <li> <p><span>[！UICONTROL我的工时表批准]</span> </p> </li> 
+     <li> <p><span>[！UICONTROL我的时间表]</span> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

@@ -4,9 +4,9 @@ navigation-topic: get-started-with-workfront
 title: Adobe Workfront支持的语言
 description: 您可以通过调整浏览器上的语言首选项以及Adobe Workfront中的默认电子邮件区域设置，更改显示来自Workfront的Workfront和电子邮件的语言。
 feature: Get Started with Workfront
-author: Nolan
+author: Becky
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 046c1eada53631c9ab50bb0c8233adb012223bb3
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '1156'
 ht-degree: 0%
@@ -92,7 +92,7 @@ Workfront中的Web验证查看器支持Workfront支持的大多数语言。
 * Workfront Fusion不支持在用户输入的字段中使用非英语文本字符。
 
 贵公司必须购买Workfront Fusion许可证才能访问Workfront Fusion。\
-有关Workfront Fusion的详细信息，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+有关Workfront Fusion的详细信息，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 ## 更改语言
 

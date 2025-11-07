@@ -4,8 +4,9 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: ' [!DNL Adobe Workfront] 社区'
 description: Adobe [!DNL Workfront] 社区是一个超过10,000 [!DNL Workfront] 个用户的在线组。 通过社区，您可以及时了解产品发布的最新信息、了解客户活动并与其他用户讨论 [!DNL Workfront] 产品和服务。 您将找到问题的答案，并与其他 [!DNL Workfront] 客户建立联系。
 feature: Get Started with Workfront
+author: Becky
 exl-id: 1b581917-2e71-4e8a-b38c-775ade578f09
-source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 0%

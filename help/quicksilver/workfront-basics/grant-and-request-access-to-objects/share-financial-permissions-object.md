@@ -3,10 +3,10 @@ title: 共享对象的财务权限
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 description: 在分配访问级别时，Adobe Workfront管理员可以向您授予查看或编辑财务数据的权限。 有关详细信息，请参阅授予对财务数据的访问权限。
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 1%

@@ -1,10 +1,11 @@
 ---
 title: ' [!DNL Adobe Workfront] 状态网站'
-description: 通过访问 [!DNL Workfront Status] 站点，您可以查看 [!DNL Workfront] 平台的运行状况，包括事件、计划的维护时段以及所有 [!DNL Workfront] 群集的当前状态。
+description: 通过访问 [!DNL Workfront] 站点，您可以查看 [!DNL Workfront] 平台的运行状况，包括事件、计划的维护时段以及所有 [!DNL Workfront Status] 群集的当前状态。
 draft: Probably
 feature: Get Started with Workfront
+author: Becky
 exl-id: 2d8509b4-b0fc-435c-8c2f-3154fe152e7a
-source-git-commit: 108ebd3b8677124085056cf2812fa86e70a11887
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 ## Status网站概述
 
-通过访问[!DNL Workfront Status]站点，您可以查看[!DNL Workfront]平台的运行状况，包括事件、计划的维护时段以及所有[!DNL Workfront]群集的当前状态。
+通过访问[!DNL Workfront]站点，您可以查看[!DNL Workfront]平台的运行状况，包括事件、计划的维护时段以及所有[!DNL Workfront Status]群集的当前状态。
 
 您可以在Status网站上访问以下信息：
 
@@ -44,7 +45,7 @@ ht-degree: 0%
    ![](assets/manage-subs.png)
 1. 如果您现有帐户，请登录到该帐户；否则，请创建一个新帐户。
 1. 单击&#x200B;**[!UICONTROL 创建订阅]**&#x200B;按钮。
-1. 选择&#x200B;**[!UICONTROL Experience Cloud]**&#x200B;标题下的&#x200B;**[!UICONTROL Adobe Workfront]**，然后单击&#x200B;**[!UICONTROL 继续]**。
+1. 在&#x200B;**[!UICONTROL Adobe Workfront]**&#x200B;标题下选择&#x200B;**[!UICONTROL Experience Cloud]**，然后单击&#x200B;**[!UICONTROL 继续]**。
 1. 选择您的地区和事件类型首选项，然后单击&#x200B;**[!UICONTROL 继续]**。
 1. 单击&#x200B;**[!UICONTROL 完成]**&#x200B;以确认您的订阅。
 
