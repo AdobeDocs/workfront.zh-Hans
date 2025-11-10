@@ -4,9 +4,9 @@ description: 本页介绍了2026年第一季度版本中包含的功能。 这�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7900629ccffae809ed97dbeae5d27ddff69536d5
+source-git-commit: e92910e553f08aea12e9e1b17a17413731c37d2f
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1331'
 ht-degree: 2%
 
 ---
@@ -86,7 +86,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager现在可与Frame.io集成一起使用 <p>[!BADGE Off Schedule]{type=Neutral}</p> </a>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager现在可与Frame.io集成一起使用 <p>[！BADGE Off Schedule]{type=Neutral}</p> </a>
             <p>现在，您可以使用Experience Manager Assets​管理和存储已经过审核和批准周期的数字资源。 此集成允许您利用Adobe Experience Manager、Frame.io和Workfront的功能来简化内容管理和协作流程。 </p>
         </td>
         <td>2025年10月30日</td>
@@ -204,6 +204,12 @@ Workfront Planning中的新增功能已在生产环境中可用。 有关最新�
 
 Workfront API版本21于2025年10月23日发布。 对于API版本21，我们修改了一些资源和端点。 一些更改支持新功能，而其他更改使您能够更轻松地使用通过API获得的信息。
 
+>[!IMPORTANT]
+>
+>此API版本更改具有可能影响现有API调用的重大更改。 这是由于API版本21使用事件订阅版本2。
+>
+> 对于多选字段，事件订阅版本2始终以数组形式发送。 如果选择了多个值，则版本1会发送一个数组。 如果只选择一个值，则会发送一个字符串。
+
 有关新增功能和更新的信息，请参阅[API版本21](/help/quicksilver/wf-api/api/new-api-version-21.md)中的新增功能。
 
 有关API版本的信息，请参阅[API版本控制和支持计划](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
@@ -231,13 +237,13 @@ Workfront API版本21于2025年10月23日发布。 对于API版本21，我们修
 * 适用于Salesforce的Workfront。
 
 为了满足贵组织与Google Workspace的集成需求，我们建议使用Workfront自动化和集成。
-有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 
 ### Workfront 维护更新
 
-有关2025年第一季度版本中所做维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hans)。
+有关2025年第一季度版本中所做维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
 
 ### 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hans)的“新增功能”部分。
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的“新增功能”部分。
