@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 1ed84baeacda2717c4f58058fb754e7a79b48baf
 workflow-type: tm+mt
-source-wordcount: '2262'
+source-wordcount: '2261'
 ht-degree: 0%
 
 ---
@@ -215,7 +215,7 @@ ht-degree: 0%
 
      或
 
-     单击&#x200B;**下移**&#x200B;以将节下移一个位置。
+     单击&#x200B;**下移**以将节下移一个位置。
 部分中的所有字段都会随部分一起移动。
 
    * 单击&#x200B;**删除**&#x200B;以删除该节。 该部分已被删除，无法恢复。 访问此类型记录的所有用户将不再查看已删除的分区。
@@ -362,10 +362,10 @@ ht-degree: 0%
 
      有关编辑表视图中的记录的信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
 
-         >[！TIP]
-         >
-         >您可以选择多个记录或对象来删除它们。
-     
+     >[!TIP]
+     >
+     >您可以选择多个记录或对象来删除它们。
+
    * 在“连接的记录”页面上的表中内联编辑任何Planning记录。
 
      所有其他Workfront对象都以只读表格视图显示，您无法对其进行编辑。

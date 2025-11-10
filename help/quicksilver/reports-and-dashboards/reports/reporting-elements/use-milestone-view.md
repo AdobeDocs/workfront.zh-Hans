@@ -6,10 +6,10 @@ description: 您可以将“里程碑”视图应用于项目列表或报告。 
 author: Courtney, Alina
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 1ed84baeacda2717c4f58058fb754e7a79b48baf
 workflow-type: tm+mt
-source-wordcount: '1623'
-ht-degree: 1%
+source-wordcount: '1370'
+ht-degree: 0%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 1%
 
 <!--remove Preview and Production mentions from the article when this comes out live-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 从“预览”版本开始的一周后，生产环境中所有客户也可以使用相同的功能。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-有关详细信息，请参阅[接口现代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 您可以将“里程碑”视图应用于项目列表或报告。 您可以使用“里程碑”视图查看与您正在查看的项目中的任务关联的所有里程碑。
 
@@ -85,13 +85,9 @@ ht-degree: 1%
 
 ## 里程碑视图概述 {#milestone-view-overview}
 
-<div class="preview">
-
 里程碑视图在项目列表和项目报告中可用。 您可以快速查看与您正在查看的项目中的任务关联的所有里程碑。
 
 具有里程碑视图的![项目](assets/project-with-milestone-view-with-complete.png)
-
-</div>
 
 >[!NOTE]
 >
@@ -137,34 +133,23 @@ ht-degree: 1%
 
   您可以直接从“里程碑”视图中调整完成百分比，如本文中“里程碑”视图[中任务的](#adjust-percent-complete-for-tasks-in-the-milestone-view)调整完成百分比部分所述。
 
-* **任务进度状态图标：**&#x200B;根据您用于查看里程碑视图的环境而定，以下图标指示任务的进度状态：
+* **任务进度状态图标：**&#x200B;以下图标指示任务的进度状态：
 
-   * 在生产环境中，里程碑视图中的每个项目和任务旁边会显示以下状态图标：
+   * 准时 — 绿色
+   * 滞后 — 黄色
+   * 处于风险中 — 蓝色
+   * 延迟 — 红色
 
-      * 准时\
-        ![准时图标](assets/gantt-ontime.png)
-
-      * 滞后\
-        ![隐藏图标](assets/gantt-behind.png)
-
-      * 处于风险中\
-        ![风险图标](assets/gantt-atrisk.png)
-
-      * 迟到\
-        ![迟到图标](assets/gantt-late.png)
-
-     <!--get new screen shots or hide them for preview or production - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
-
-  <div class="preview">
-
-   * 在“预览”环境中，“里程碑”视图中的每个项目和任务旁边会显示以下彩色圆圈：
-
-      * 准时 — 绿色
-      * 滞后 — 黄色
-      * 处于风险中 — 蓝色
-      * 延迟 — 红色
-
-  </div>
+  <!--* In the Production environment, the following status icons display next to each project and task in the Milestone view: 
+      * On Time  
+      ![On time icon](assets/gantt-ontime.png)
+      * Behind  
+      ![Behind icon](assets/gantt-behind.png)
+      * At Risk  
+      ![At risk icon](assets/gantt-atrisk.png)
+      * Late  
+      ![Late icon](assets/gantt-late.png)
+      <!--get new screen shots or hide them for preview or production - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
 
   您可以禁止显示这些状态图标，如本文中[配置里程碑视图](#configure-what-information-displays-in-the-milestone-view)中显示的信息部分所述。
 
@@ -205,23 +190,16 @@ ht-degree: 1%
   ![带有底纹的里程碑视图](assets/milestone-view-with-shading.png)
 
 * **项目名称**：显示项目名称时带有指向项目的链接。
-* **项目完成情况图标**：根据您访问里程碑视图的环境，以下指示器显示项目完成情况：
+* **项目完成情况图标**：以下指示器显示项目完成情况：
 
-   * 在生产环境中，项目名称旁边会显示一个图标，指示项目的条件。 项目的完成情况可能是以下情况之一：
+   * 准时 — 绿色
+   * 处于风险中 — 黄色
+   * 存在问题 — 红色
 
-      * 准时
-      * 处于风险中
-      * 存在问题
-
-  <div class="preview">
-
-   * 在“预览”环境中，每个项目旁边会显示一个彩色圆形条件图标。 可能的投影条件和圆形颜色包括：
-
-      * 准时 — 绿色
-      * 处于风险中 — 黄色
-      * 存在问题 — 红色
-
-     </div>
+  <!--* In the Production environment, an icon displays next to the project name, indicating the condition of the project. The Condition of the project might be one of the following:
+      * On Target
+      * At Risk
+      * In Trouble -->
 
 
 ## 配置里程碑视图中显示的信息 {#configure-what-information-displays-in-the-milestone-view}
@@ -241,15 +219,6 @@ ht-degree: 1%
 
 1. 单击&#x200B;**视图**&#x200B;下拉菜单，然后单击&#x200B;**里程碑**。
 
-1. 在“生产”环境中，单击“里程碑”视图右上角的&#x200B;**选项**，然后从下一步的选项中进行选择。
-
-   ![milestone_view_options.png](assets/milestone-view-options-350x141.png)
-
-   <div class="preview">在“预览”环境中，从“里程碑”视图右上角的下一个步骤中的选项中进行选择。</div>
-
-   <!--at Production release, replace this screen shot and adjust the Production/ Preview text above-->
-
-
 1. 从以下选项中选择：
 
    <table style="table-layout:auto"> 
@@ -267,6 +236,8 @@ ht-degree: 1%
     </tbody> 
    </table>
 
+   ![里程碑视图选项](assets/milestone-view-options-350x141.png)
+
 ## 调整“里程碑”视图中任务的完成百分比 {#adjust-percent-complete-for-tasks-in-the-milestone-view}
 
 您可以在“里程碑”视图中调整任务的完成百分比。 您无法调整父任务（包含子任务的任务）或项目的完成百分比。
@@ -279,6 +250,6 @@ ht-degree: 1%
 
 1. （视情况而定）如果完成百分比未在里程碑视图中当前显示，请启用查看任务和项目的完成百分比，如本文中[配置里程碑视图](#configure-what-information-displays-in-the-milestone-view)中显示的信息。
 
-1. 在生产环境中，单击任务下面的完成百分比，指定新百分比，然后按Enter键。
+1. 将&#x200B;**完成百分比幻灯片**&#x200B;移动到新完成百分比以对其进行更新。
 
-   <div class="preview">在预览环境中，将完成百分比幻灯片移动到新完成百分比以对其进行更新。 </div>
+   <!--In the Production environment, click the completion percentage below a task, specify a new percentage, then press Enter.-->
