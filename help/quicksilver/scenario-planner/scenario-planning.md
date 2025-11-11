@@ -19,7 +19,7 @@ ht-degree: 0%
 
 本节包含以下文章：
 
-* [概述 [!DNL Scenario Planner] ](../scenario-planner/scenario-planner-overview.md)
+* [概述 [!DNL Scenario Planner] &#x200B;](../scenario-planner/scenario-planner-overview.md)
 * [开始使用 [!DNL Scenario Planner]](../scenario-planner/get-started-with-scenario-planning.md)
 * [使用 [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)所需的访问权限
 * [中的 [!DNL Scenario Planner]](../scenario-planner/plans-overview.md)计划概述
