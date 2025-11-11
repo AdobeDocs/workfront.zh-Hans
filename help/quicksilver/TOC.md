@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 8b44aaa935b4c2fa8d9f9408b9b17d927488cfb4
 workflow-type: tm+mt
-source-wordcount: '13515'
+source-wordcount: '13522'
 ht-degree: 2%
 
 ---
@@ -1548,6 +1548,7 @@ ht-degree: 2%
          * [管理报告：文章索引](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/manage-reports-article-index.md)
          * [在画布功能板中编辑报告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
          * [在画布功能板中编辑报告过滤器](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
+         * [在画布功能板中复制报告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/duplicate-a-report)
          * [删除画布仪表板中的报告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
    * 报告 {#reports}
       * [报告](reports-and-dashboards/reports/reports-overview.md)
@@ -2515,8 +2516,8 @@ ht-degree: 2%
       * [使用PKCE流程配置和使用您组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-pkce-flow.md)
       * [弃用API — 内部](wf-api/api/deprecation-api-internal.md)
       * [API版本21中的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-      * [API版本20中的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [API版本19中的新增功能](wf-api/api/new-api-version-19.md)
+      * [API版本20](/help/quicksilver/wf-api/api/new-api-version-20.md)中的新增功能
+      * [API版本19](wf-api/api/new-api-version-19.md)中的新增功能
       * [API版本18中的新增功能](wf-api/api/new-api-version-18.md)
       * [API版本17中的新增功能](wf-api/api/new-api-version-17.md)
       * [API版本16中的新增功能](wf-api/api/new-api-version-16.md)
