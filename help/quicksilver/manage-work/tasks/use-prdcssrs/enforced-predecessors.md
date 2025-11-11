@@ -6,16 +6,16 @@ description: 前置任务是指其他任务需要完成才能执行的任务。 
 author: Alina
 feature: Work Management
 exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '475'
 ht-degree: 1%
 
 ---
 
 # 强制前置任务
 
-<!-- Audited: 2/2024 -->
+<!-- Audited: 11/2025 -->
 
 前置任务是指其他任务需要完成才能执行的任务。 前置任务关系影响任务的开始和完成日期，并最终影响项目的时间表。
 
@@ -119,4 +119,6 @@ ht-degree: 1%
 1. 在&#x200B;**前置任务**&#x200B;列中，开始输入前置任务的编号，然后输入“e”。 例如，键入“1e”将任务编号1作为前置任务添加到所选任务。
 1. 单击Enter保存任务的前置任务信息。
 
-   ![前置任务_强制_in_list.png](assets/predecessor-enforced-in-list-350x308.png)
+   ![前置任务强制列表](assets/predecessor-enforced-in-list-350x308.png)
+
+   随即会立即保存有关正在强制实施的前置任务的信息。

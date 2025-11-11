@@ -8,7 +8,7 @@ author: Alina
 feature: Workfront Scenario Planner
 recommendations: noDisplay, noCatalog
 exl-id: 3d942ea6-6860-4463-b610-8c120a109071
-source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 本节包含以下文章：
 
-* [概述 [!DNL Scenario Planner] &#x200B;](../scenario-planner/scenario-planner-overview.md)
+* [概述 [!DNL Scenario Planner] ](../scenario-planner/scenario-planner-overview.md)
 * [开始使用 [!DNL Scenario Planner]](../scenario-planner/get-started-with-scenario-planning.md)
 * [使用 [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)所需的访问权限
 * [中的 [!DNL Scenario Planner]](../scenario-planner/plans-overview.md)计划概述
@@ -33,7 +33,7 @@ ht-degree: 0%
 * [删除 [!DNL Scenario Planner]](../scenario-planner/delete-initiatives.md)中的计划
 * [解决 [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md)中的计划冲突
 * [将项目导入 [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md)中的计划
-* [请求访问 [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)中的计划
+* [在 [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)中请求计划的权限
 * 在[中 [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md)共享计划
 * [通过在 [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)中发布计划来更新或创建项目
 * [项目和计划之间协调资源分配概述](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)

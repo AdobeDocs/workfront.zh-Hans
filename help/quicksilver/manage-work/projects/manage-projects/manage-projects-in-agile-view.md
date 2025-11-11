@@ -6,20 +6,22 @@ description: 您可以利用项目的Agile功能，而无需Agile实践通常伴
 author: Alina, Courtney
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
 
 # 在Agile视图中管理项目
 
-<!-- Audited: 2/2024 -->
+<!-- Audited: 11/2025 -->
 
 您可以利用项目的Agile功能，而无需Agile实践通常伴随的管理挑战（例如管理团队积压或创建迭代）。
 
-如果要在使用团队积压工作的Agile环境中工作，并允许您从积压工作上的任务创建迭代，请按照[在Agile环境中工作](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md)中的说明操作。
+您可在使用团队积压工作的敏捷环境中工作，并允许您从积压工作的任务创建迭代。
+
+有关信息，请参阅[在Agile环境中工作](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md)。
 
 ## 访问要求
 
@@ -95,7 +97,9 @@ ht-degree: 0%
 
 ## 在Agile视图中查看项目
 
-1. 转到任务列表或问题列表中的要在Agile视图中查看的项目。
+您可以在Agile视图而不是列表中查看项目中的任务或问题，以利用Agile功能进行项目开发。
+
+1. 转到要在Agile视图中查看的项目，然后单击左侧面板中的&#x200B;**任务**&#x200B;或&#x200B;**问题**。
 1. 单击&#x200B;**展示板视图**&#x200B;图标![展示板图标](assets/board-icon-for-agile-view.png)。
 
    默认情况下，将显示项目的讨论区视图。
@@ -107,4 +111,6 @@ ht-degree: 0%
 
    有关详细信息，请参阅[管理展示板列](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)和[自定义信息卡上显示的字段](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)。 请注意，您无法在项目的展示板视图中定义列策略。
 
-1. （可选）要返回到列表视图，请单击&#x200B;**列表**&#x200B;图标。
+1. （可选）要返回列表视图，请单击&#x200B;**列表**&#x200B;图标![列表图标](assets/list-icon.png)。
+
+   此时将显示任务或问题列表。

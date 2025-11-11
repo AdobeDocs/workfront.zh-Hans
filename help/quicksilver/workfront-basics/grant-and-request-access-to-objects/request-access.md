@@ -6,7 +6,7 @@ description: 您对Adobe Workfront中对象的可见性取决于您对该类型�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
 source-wordcount: '1327'
 ht-degree: 1%
@@ -23,7 +23,7 @@ ht-degree: 1%
 >
 >本文介绍了如何请求对所有对象的权限，以下对象除外：
 >
->* Adobe Workfront Scenario Planner中的Scenario Planner计划。 有关详细信息，请参阅[在Scenario Planner](../../scenario-planner/request-access-to-plan.md)中请求对计划的访问权限。 这需要额外的许可证。
+>* Adobe Workfront Scenario Planner中的Scenario Planner计划。 有关详细信息，请参阅[在Scenario Planner](../../scenario-planner/request-access-to-plan.md)中请求计划的权限。 这需要额外的许可证。
 >
 >* Workfront Planning中的视图和工作区。 有关详细信息，请参阅[在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。 这需要额外的许可证。
 

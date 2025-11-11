@@ -7,7 +7,7 @@ description: 您可以将在Adobe Workfront Scenario Planner中创建的计划�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 0%
@@ -42,16 +42,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 许可证</p> </td> 
-   <td> <p>[!UICONTROL Light]或更高版本</p> 
-   <p>[!UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[！UICONTROL Light]或更高版本</p> 
+   <p>[！UICONTROL Review]或更高版本</p> </td> 
   </tr> 
     <tr> 
    <td>访问级别配置</td> 
-   <td> <p>[!UICONTROL Edit]访问 [!DNL Scenario Planner]</p> </td> 
+   <td> <p>[！UICONTROL Edit]访问 [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr> 
    <td> <p>对象权限 </p> </td> 
-   <td> <p>[!UICONTROL Manage]对计划的权限</p> </td> 
+   <td> <p>[！UICONTROL Manage]对计划的权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -118,7 +118,7 @@ ht-degree: 0%
 * 您无法查看未创建或未与您共享的计划。
 * 您只能与其他用户共享计划。 您无法与组、团队或公司共享计划。
 * 必须先保存计划，然后才能共享它。
-* 您可以与其他用户共享计划的URL。 如果用户没有权限至少查看计划，则可以在收到URL时向其他用户请求对计划的访问权限。 有关请求访问计划的信息，请参阅[在 [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)中请求访问计划。
+* 您可以与其他用户共享计划的URL。 如果用户没有权限至少查看计划，则可以在收到URL时向其他用户请求对计划的访问权限。 有关请求访问计划的信息，请参阅[在 [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)中请求对计划的权限。
 * 在共享已与其他人共享的多个计划时，与您共享的用户不会替换，而是会添加到您选择的每个计划的现有用户。
 
 ## 计划权限选项
@@ -132,8 +132,8 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th> <p><strong>操作</strong> </p> </th> 
-   <th> <p><strong>[!UICONTROL 管理]</strong> </p> </th> 
-   <th> <p><strong>[!UICONTROL 视图]</strong> </p> </th> 
+   <th> <p><strong>[！UICONTROL管理]</strong> </p> </th> 
+   <th> <p><strong>[！UICONTROL视图]</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -237,11 +237,11 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 视图]</td> 
+      <td role="rowheader">[！UICONTROL视图]</td> 
       <td>与共享计划的用户将有权查看计划。 他们无法编辑有关计划的信息、添加计划、方案或发布方案。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 管理]</td> 
+      <td role="rowheader">[！UICONTROL管理]</td> 
       <td> <p>您共享计划的用户具有管理计划的权限，其中包括编辑信息、添加计划、方案和发布计划。 </p> </td> 
      </tr> 
     </tbody> 

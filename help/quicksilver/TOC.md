@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: ddbee8110fbfb76a3a6bfe8bca66e1ba1cc40fb4
+source-git-commit: 52c907abde5c96ad50e4ccb031414baf6475186c
 workflow-type: tm+mt
 source-wordcount: '13522'
 ht-degree: 2%
@@ -2025,7 +2025,7 @@ ht-degree: 2%
    * [在场景规划器中更新计划优先级](scenario-planner/prioritize-initiatives.md)
    * [通过在场景规划程序中发布计划来更新或创建项目](scenario-planner/publish-scenarios-update-projects.md)
    * [在项目和计划之间协调资源分配概述](scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)
-   * [在Scenario Planner中请求对计划的访问权限](scenario-planner/request-access-to-plan.md)
+   * [在Scenario Planner中请求计划的权限](scenario-planner/request-access-to-plan.md)
    * [在场景规划程序中解决方案冲突](scenario-planner/resolve-conflicts-in-sp.md)
    * [在Scenario Planner中共享计划](scenario-planner/share-a-plan.md)
    * [在任务列表中显示项目和计划的角色分配](scenario-planner/show-role-allocation-task-list-nwe.md)
@@ -2516,8 +2516,8 @@ ht-degree: 2%
       * [使用PKCE流程配置和使用您组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-pkce-flow.md)
       * [弃用API — 内部](wf-api/api/deprecation-api-internal.md)
       * [API版本21中的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-      * [API版本20中的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [API版本19中的新增功能](wf-api/api/new-api-version-19.md)
+      * [API版本20](/help/quicksilver/wf-api/api/new-api-version-20.md)中的新增功能
+      * [API版本19](wf-api/api/new-api-version-19.md)中的新增功能
       * [API版本18中的新增功能](wf-api/api/new-api-version-18.md)
       * [API版本17中的新增功能](wf-api/api/new-api-version-17.md)
       * [API版本16中的新增功能](wf-api/api/new-api-version-16.md)

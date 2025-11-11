@@ -7,9 +7,9 @@ description: 要聚合Adobe Workfront中的多个字段并在新字段中显示�
 author: Jenny
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '834'
 ht-degree: 0%
 
 ---
@@ -87,8 +87,9 @@ ht-degree: 0%
 
 * 在对象的主页上，单击“更多”图标![更多图标](assets/more-icon.png)，然后单击&#x200B;**重新计算表达式**
 
-* 启用&#x200B;**重新计算自定义表达式**&#x200B;时批量编辑多个对象
-* 在为计算的自定义字段启用&#x200B;**更新以前的计算**&#x200B;时编辑自定义表单
+* 启用&#x200B;**重新计算自定义表达式**&#x200B;时批量编辑多个对象。
+* 从对象列表的“更多”菜单中单击&#x200B;**重新计算表达式**&#x200B;时，批量编辑多个对象。
+* 在为计算的自定义字段启用&#x200B;**更新以前的计算**&#x200B;时编辑自定义表单。
 
 ## 何时在视图中使用计算列
 

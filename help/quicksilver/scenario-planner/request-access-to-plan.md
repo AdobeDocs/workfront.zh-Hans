@@ -2,21 +2,23 @@
 product-area: enterprise-scenario-planner-product-area
 keywords: 计划、权限、共享、计划、方案、方案、方案
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: 在Scenario Planner中请求计划的访问权限
+title: 在Scenario Planner中请求计划的权限
 description: 当您共享指向计划的链接时，您可以在Adobe Workfront Scenario Planner中请求对计划的访问权限。
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: fa47cb8c-a3ca-4748-b67d-2d8ed34b9b4a
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 0%
 
 ---
 
-# 请求访问[!DNL Scenario Planner]中的计划
+# 在[!DNL Scenario Planner]中请求计划的权限
 
-当计划的链接与您共享时，您可以在[!DNL Adobe Workfront Scenario Planner]中请求对计划的访问权限。
+<!--Audited: 11/2025-->
+
+当计划的链接与您共享时，您可以在[!DNL Adobe Workfront Scenario Planner]中请求对计划的权限。
 
 ## 访问要求
 
@@ -36,12 +38,12 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 许可证</p> </td> 
-   <td> <p>[!UICONTROL Light]或更高版本</p> 
-   <p>[!UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[！UICONTROL Light]或更高版本</p> 
+   <p>[！UICONTROL Review]或更高版本</p> </td> 
   </tr> 
     <tr> 
    <td>访问级别配置</td> 
-   <td> <p>[!UICONTROL View]或更高权限访问 [!DNL Scenario Planner]</p> </td> 
+   <td> <p>[！UICONTROL View]或更高权限访问 [!DNL Scenario Planner]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -95,7 +97,7 @@ ht-degree: 0%
 >
 >如果您没有[!DNL Scenario Planner]的访问权限级别权限，并尝试从链接访问计划，则无法请求对该计划的访问权限。 而是显示一个屏幕，通知您联系[!DNL Workfront]管理员。
 
-## 请求访问[!DNL Workfront Scenario Planner]中的计划
+## 请求[!DNL Workfront Scenario Planner]中计划的权限
 
 如果您还没有对某个计划的权限，并且从与您共享的链接导航到该计划，则会显示一个屏幕，通知您无权查看该计划。 系统会提示您向计划创建者请求权限。
 
@@ -107,7 +109,7 @@ ht-degree: 0%
 
 1. 单击指向计划的链接。
 
-   ![请求访问计划](assets/request-access-to-plan-350x277.png)
+   ![请求对计划的权限](assets/request-access-to-plan-350x277.png)
 
 1. 在&#x200B;**[!UICONTROL 请求访问]**&#x200B;下拉菜单中，指示您希望授予的权限级别。 从以下项中选择：
 

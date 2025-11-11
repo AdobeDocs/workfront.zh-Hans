@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 按多选自定义字段绘制报表图表
 description: 只有在您创建捕获多选自定义字段中选定选项的附加计算字段后，才能按多选自定义字段绘制报表的图表。
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
 source-wordcount: '1005'
 ht-degree: 0%
@@ -146,7 +146,7 @@ ht-degree: 0%
 1. 添加您创建的<strong>计算的多选字段</strong>作为您的分组。
 1. 选择<strong>图表</strong>选项卡，并将图表添加到您的报告中。
 
-   例如，选择一个&#x200B;**列**&#x200B;图表。
+   例如，选择一个&#x200B;**列**图表。
    <br>有关将图表添加到报表的信息，请参阅<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md#add-a-chart" class="MCXref xref">创建自定义报表</a>一文中的<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">将图表添加到报表</a>部分。
 1. 在&#x200B;**底部(X)轴**&#x200B;字段中，选择要显示在图表中的<strong>计算的多选字段</strong>。
 1. 单击<strong>保存+关闭</strong>。

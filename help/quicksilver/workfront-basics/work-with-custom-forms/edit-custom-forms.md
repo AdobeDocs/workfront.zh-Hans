@@ -7,10 +7,10 @@ description: 将自定义表单附加到对象后，您可以编辑该表单上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 53269f4932a752a833df8e41891706934214e062
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 0%
+source-wordcount: '1207'
+ht-degree: 1%
 
 ---
 
@@ -97,27 +97,20 @@ ht-degree: 0%
 
 ## 编辑自定义表单上的信息
 
-对于所有对象，编辑附加到对象的自定义表单上的信息都是相同的。 有关哪些对象可以具有自定义表单的信息，请参阅[自定义表单概述](../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)。
+对于大多数对象，编辑附加到对象的自定义表单上的信息是相似的。
 
-1. 转到要编辑其自定义表单信息的对象。
-1. 单击左侧面板中的&#x200B;**`<Object type>`详细信息**。
+有关哪些对象可以具有自定义表单的信息，请参阅[自定义表单概述](../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)。
 
-   例如，在编辑项目自定义表单上的信息时，单击&#x200B;**项目详细信息**。
+1. 转到要编辑自定义表单上信息的任何对象列表，小版本列表除外。
+1. 选择列表中的一个或多个对象，然后单击列表顶部的&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
+1. 单击左侧面板中&#x200B;**编辑&lt;对象>**&#x200B;框内的&#x200B;**自定义Forms**。
 
-1. 滚动到自定义表单。 当有自定义表单附加到对象时，表单的名称在详细信息部分显示为区域。
-1. 如有必要，请单击自定义表单名称左侧的箭头![](assets/expand-arrow-right.png)以展开该表单。
-1. 在页面的右上角附近，单击编辑图标![](assets/edit-icon.png)。
+   当有自定义表单附加到对象时，表单的名称在&#x200B;**自定义Forms**&#x200B;分区中显示为一个区域。
 1. 开始在您有权访问的任何字段中输入信息。
 
-   ![](assets/click-in-field-to-edit-info-350x132.png)
+   ![在账单记录中编辑带有自定义表单的框](assets/edit-box-with-custom-forms-on-billing-record.png)
 
-   或
-
-   如果尚未在表单上输入任何信息，请单击您有权访问的任何字段的&#x200B;**添加+**&#x200B;并开始输入信息。
-
-   ![](assets/plus-add-to-edit-info-350x180.png)
-
-   如果将多个自定义表单附加到对象，您可以对每个表单执行此操作。
+   如果将多个自定义表单附加到对象，请对每个表单执行此操作。
 
    根据您使用的字段类型，请考虑以下事项：
 
@@ -133,7 +126,7 @@ ht-degree: 0%
 
    有关所有字段类型的信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
-1. 单击&#x200B;**保存更改**。
+1. 单击&#x200B;**保存**。
 
    >[!IMPORTANT]
    >
@@ -147,19 +140,50 @@ ht-degree: 0%
 
    当您与列表中的其他对象一起批量编辑对象时，也可以手动更新该对象的所有计算自定义字段。 有关说明，请参阅在编辑本文中的对象[时，重新计算列表中多个对象的所有计算自定义字段](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects)。
 
-## 重新计算对象的所有已计算自定义字段  {#recalculate-all-calculated-custom-fields-for-an-object}
+1. （视情况而定）要更新迭代自定义表单的自定义字段，请执行以下操作：
+
+   1. 转到迭代。
+   1. 单击左侧面板中的&#x200B;**自定义Forms**。
+   1. 要添加自定义表单，请在页面右上角的&#x200B;**添加自定义表单**&#x200B;字段中开始键入表单的名称
+
+      或
+
+      单击同一区域中的&#x200B;**编辑**&#x200B;图标以开始编辑附加表单上的字段。
+
+      ![编辑迭代自定义表单](assets/edit-iteration-custom-form.png)
+
+   1. 单击&#x200B;**保存更改**。
+
+## 重新计算对象的自定义字段
+
+根据自定义表单可能发生更改的情况，或者根据自定义字段中引用的字段发生更改的情况，计算的自定义字段的值可能会定期过期。 在这种情况下，您可能需要重新计算自定义字段，或重新计算对象的自定义表达式。
+
+以下各节介绍如何使用自定义表单重新计算对象的自定义表达式。
+
+>[!NOTE]
+>
+>您无法重新计算组的自定义表达式。
+
+### 从对象页面重新计算所有计算的自定义字段
 
 >[!IMPORTANT]
 >
 >您必须先将带有计算字段的自定义表单附加到对象，然后才能执行本节中的步骤。
 
+1. 转到要重新计算其自定义字段的以下对象之一的主页：
 
-1. 转到要重新计算其自定义字段的对象的主页。
+   * 项目
+   * 任务
+   * 问题
+   * 组合
+   * 项目群
+   * 文档
+
 1. 单击对象名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)，然后单击&#x200B;**重新计算表达式**。
 
    这会重新计算对象表单上的所有自定义字段。
 
-## 编辑对象时，重新计算列表中多个对象的所有计算自定义字段 {#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects}
+### 编辑对象时，重新计算列表中多个对象的所有计算自定义字段 {#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to be edited when the bulk edit for objects update in NW)</p>
@@ -172,17 +196,29 @@ ht-degree: 0%
 
 要通过从列表或报表中批量编辑多个对象来手动重新计算这些对象的自定义字段，请执行以下操作：
 
-1. 转到包含带有计算字段的自定义表单的对象列表。
+1. 转到以下对象类型的列表，这些对象类型的对象包含带有计算字段的自定义表单：
+
+   * 用户
+   * 公司
+   * 开票记录
+
 1. 选择要更新其计算自定义字段的对象。
 1. 单击&#x200B;**编辑图标**。
 1. 单击左侧菜单中的&#x200B;**自定义Forms**，然后选择&#x200B;**重新计算自定义表达式**。
-1. 单击&#x200B;**保存** **更改**。
+1. 单击&#x200B;**保存**&#x200B;或&#x200B;**保存更改**。
 
    Workfront会为所有选定对象计算所有自定义字段。
 
 要从对象列表中重新计算自定义表达式，请执行以下操作：
 
-1. 转到项目列表或报告，然后选择一个或多个项目。
+1. 转到项目列表或报告，然后选择以下一个或多个对象类型：
+
+   * 项目
+   * 任务
+   * 问题
+   * 项目组合
+   * 项目群
+   * 费用
 1. 单击&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)，然后单击&#x200B;**重新计算自定义表达式**。
 
 ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
@@ -192,5 +228,7 @@ Workfront会立即计算所有选定项目的所有自定义字段。
 
 >[!NOTE]
 >
->根据项目的复杂性，我们建议不要在批量重新计算已计算的自定义字段时选择大量项目以确保最佳性能。 某些因素可能会使项目过于复杂，例如多个依赖项或分配或者大量自定义字段。
+>在重新计算多个项目的表达式时（取决于其复杂性），我们建议不要选择太多的项目以确保最佳性能。
+>
+>某些因素可能会使项目过于复杂，例如多个依赖项或分配或者大量自定义字段。
 
