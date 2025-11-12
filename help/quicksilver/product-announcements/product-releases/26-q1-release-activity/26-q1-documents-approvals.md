@@ -4,9 +4,9 @@ description: 2026年第一季度文档和批准增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7fb12a3fbdad661baf2d0ad472ce8017e178ddef
+source-git-commit: 5f05c1a13c6c0d0ed1d69b850a0cb07ce53fc271
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,19 @@ ht-degree: 0%
 
 本页介绍了在2026年第一季度发布中对“预览”环境所做的文档和批准增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+
+## 对带有Workfront校对的Adobe Express的跨组织支持
+
+>[!NOTE]
+>
+>预览： 2025年11月13日
+>生产快速发布： 2025年11月13日\
+>适用于所有人的生产： 2025年11月13日
+
+我们正在引入对具有Workfront Proofing的Adobe Express的跨组织支持。 此增强功能允许跨多个IMS组织运营的客户无缝使用和管理验证工作流。
+
+有关详细信息，请参阅[Adobe Express与Workfront Proof集成入门](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)。
 
 
 ## Adobe Experience Manager现在可与Frame.io集成一起使用
@@ -23,7 +35,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >预览： 2025年10月30日
->&#x200B;>生产快速发布： 2025年10月30日\
+>生产快速发布： 2025年10月30日\
 >为每个人生产： 2025年10月30日
 
 现在，您可以使用Experience Manager Assets&#x200B;管理和存储已经过审核和批准周期的数字资源。 此集成允许您利用Adobe Experience Manager、Frame.io和Workfront的功能来简化内容管理和协作流程。

@@ -8,9 +8,9 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+source-git-commit: 752c39b90e9206a335435350f8844c746a7127e0
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -64,13 +64,7 @@ ht-degree: 0%
 
 ## 集成要求
 
-* Workfront和Adobe Express必须部署到同一IMS组织。
-
-* 必须由Adobe产品团队为您的帐户启用集成。
-
-  >[!IMPORTANT]
-  >
-  >Adobe Express和Workfront Proof集成将在多个版本中提供给用户，首先是在Adobe Admin Console中将Workfront和Adobe Express与同一组织ID关联的客户，其次是跨IMS组织工作的客户。 如果您希望启用集成，请联系您的客户成功案例或战略客户经理。
+* 您必须有权使用Adobe Express Standard许可证访问Workfront和至少一个Workfront环境。
 
 * 用户必须先安装[使用Adobe Workfront审阅工具](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md)审阅交互式内容，然后才能在Adobe Express中开始审阅草稿。
 
@@ -89,7 +83,7 @@ ht-degree: 0%
 
 用户必须具有Standard Workfront许可证才能请求Adobe Express的批准。
 
-了解如何[获得设计](https://helpx.adobe.com/cn/express/web/share-and-publish/share-and-collaborate/request-approval.html)的批准。
+了解如何[获得设计](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html)的批准。
 
 
 ## 重新组合Express模板并发送以供审阅和批准
