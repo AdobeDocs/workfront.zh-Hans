@@ -83,7 +83,7 @@ ht-degree: 0%
 
 用户必须具有Standard Workfront许可证才能请求Adobe Express的批准。
 
-了解如何[获得设计](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html)的批准。
+了解如何[获得设计](https://helpx.adobe.com/cn/express/web/share-and-publish/share-and-collaborate/request-approval.html)的批准。
 
 
 ## 重新组合Express模板并发送以供审阅和批准
