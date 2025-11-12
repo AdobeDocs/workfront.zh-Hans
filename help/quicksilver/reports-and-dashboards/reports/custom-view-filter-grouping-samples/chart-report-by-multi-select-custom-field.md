@@ -7,9 +7,9 @@ description: 只有在您创建捕获多选自定义字段中选定选项的附�
 author: Jenny
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: ce986a912c2ee231b9dc2e1c7a3e9587b20aa0ba
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '947'
 ht-degree: 0%
 
 ---
@@ -131,13 +131,15 @@ ht-degree: 0%
 
 ### 构建引用计算自定义字段的图表 {#build-a-chart-that-references-a-calculated-custom-field}
 
-1. （可选）要确保您要按其绘制图表的所有计算字段均填充了值，请从报表的详细信息选项卡中选择包含具有多选自定义字段和计算自定义字段的自定义表单的所有对象，然后单击&#x200B;**编辑**。
-1. （可选且有条件）选择&#x200B;**重新计算自定义表达式**&#x200B;字段，然后单击&#x200B;**保存更改**。\
-   ![重新计算自定义表达式](assets/recalculate-custom-expressions-350x259.png)
+1. （可选）要确保要使用图表绘制的所有计算字段都填充了值，必须重新计算报表中所有对象的自定义表达式。
+有关重新计算表达式的信息，请参阅[编辑自定义字段中的信息](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md)。
 
+   <!--from the Details tab of the report select all the objects that contain the custom form with both the multi-select custom field and the calculated custom field, then click **Edit**. 
+   1. (Optional and conditional) Select the **Recalculate Custom Expressions** field, then click **Save Changes**.  
+   ![Recalculate custom expressions](assets/recalculate-custom-expressions-350x259.png) 
    >[!NOTE]
    >
-   >此选项已从批量编辑项目中消除。  您仍然可以批量重新计算项目的表达式，方法是单击项目列表顶部的&#x200B;**更多**&#x200B;图标![更多](assets/more-icon-45x33.png)，然后&#x200B;**重新计算表达式**。
+   >This option has been eliminated from editing projects in bulk.  You can still recalculate expressions for projects in bulk by clicking the **More** icon ![More icon](assets/more-icon-45x33.png) at the top of a project list, then **Recalculate Expressions**. -->
 
 1. 转到要在其中添加引用多选自定义字段的计算字段的图表的报表。
 1. 单击&#x200B;**报告操作**，然后单击&#x200B;**编辑**。
@@ -146,7 +148,7 @@ ht-degree: 0%
 1. 添加您创建的<strong>计算的多选字段</strong>作为您的分组。
 1. 选择<strong>图表</strong>选项卡，并将图表添加到您的报告中。
 
-   例如，选择一个&#x200B;**列**&#x200B;图表。
+   例如，选择一个&#x200B;**列**图表。
    <br>有关将图表添加到报表的信息，请参阅<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md#add-a-chart" class="MCXref xref">创建自定义报表</a>一文中的<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">将图表添加到报表</a>部分。
 1. 在&#x200B;**底部(X)轴**&#x200B;字段中，选择要显示在图表中的<strong>计算的多选字段</strong>。
 1. 单击<strong>保存+关闭</strong>。
