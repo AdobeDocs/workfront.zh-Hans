@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '3951'
+source-wordcount: '3968'
 ht-degree: 2%
 
 ---
@@ -190,7 +190,7 @@ ht-degree: 2%
    >在“设置”区域中设置自定义季度后，时间线视图显示自定义季度，而不是传统季度。
    >有关信息，请参阅[启用自定义季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
-1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”**&#x200B;**，然后要求您的Workfront管理员设置自定义季度。
+1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”****，然后要求您的Workfront管理员设置自定义季度。
 
    >[!TIP]
    >
@@ -563,6 +563,8 @@ this is not possible right now; if this is the same functionality as the table v
   例如，任务连接到Workfront中的项目。 使用“细分”功能，您可以在Planning中显示与营销活动相关的项目，但不能显示与Workfront项目相关的任务。
 
   如果要在Workfront Planning记录类型的时间线视图中显示项目组合和项目，则项目组合和项目都必须连接到Planning记录，或连接到其时间线视图由您管理的Planning记录的记录。
+* 无法显示连接到Planning记录类型的Adobe GenStudio Brands。
+有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
 * 您只能显示与至少两个日期字段关联的记录类型。
 * 要在时间轴视图中显示的记录类型的日期字段必须在所选记录类型的表视图中可见，如查找字段。
 * 要在时间轴视图中显示的记录类型的开始日期和结束日期必须按时间顺序排列。 例如，如果记录的开始日期为1月31日，结束日期为1月1日，则它不会显示在时间线视图中。 有关详细信息，请参阅本文中的[管理时间线视图](#manage-a-timeline-view)部分。

@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
 source-wordcount: '2731'
 ht-degree: 0%
@@ -226,7 +226,7 @@ ht-degree: 0%
       * Workfront Planning连接字段。
       * 人员字段。 仅支持具有一个值的字段。
 
-     您无法从外部源复制信息并将其粘贴到任何其他字段类型中，包括Workfront或AEM Assets连接字段。
+     您无法从外部源复制信息并将其粘贴到任何其他字段类型中，包括Workfront或其他应用程序的连接字段。
 
    >[!NOTE]
    >

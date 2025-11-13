@@ -6,9 +6,9 @@ description: 分配百分比表示已分配资源在一天内计划处理一项�
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '457'
 ht-degree: 1%
 
 ---
@@ -17,13 +17,13 @@ ht-degree: 1%
 
 <!--remove new/old experience references when they remove the New/ Old experience toggle from the Edit Tasks box-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 从“预览”版本开始的一周后，生产环境中所有客户也可以使用相同的功能。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-有关详细信息，请参阅[接口现代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 
 分配百分比表示已分配资源在一天内计划处理一项任务的时间量。 它是任务整个持续时间中资源分配的工作日百分比（根据用户或项目计划）。
@@ -59,7 +59,7 @@ ht-degree: 1%
   <tr> 
    <td>对象权限</td>
    <td><p>为任务分配或更高权限</p>
-   <p>当<span class="preview">使用旧体验编辑任务时，编辑权限以在“编辑任务”框中更新分配百分比。 在新版Experience中编辑任务时，您无法再在“编辑任务”框中管理分配百分比。</span></p> <p>有关信息，请参阅<a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">编辑任务</a>。</p></td>
+   <p>编辑权限可在使用旧体验编辑任务时，在编辑任务框中更新分配百分比。 在新版Experience中编辑任务时，您无法再在“编辑”任务框中管理分配百分比。</p> <p>有关信息，请参阅<a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">编辑任务</a>。</p></td>
   </tr>
  </tbody>
 </table>

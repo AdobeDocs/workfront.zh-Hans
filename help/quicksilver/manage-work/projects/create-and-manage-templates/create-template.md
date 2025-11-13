@@ -6,9 +6,9 @@ description: 您可以在“模板”区域中创建和删除模板。 在构建
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '734'
 ht-degree: 6%
 
 ---
@@ -17,13 +17,15 @@ ht-degree: 6%
 
 <!-- Audited: 10/2025 -->
 
-<div class="preview">
+<!--remove all instances of new/ old experience and redo the steps when the toggle is removed-->
 
-此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 从“预览”版本开始的一周后，生产环境中所有客户也可以使用相同的功能。
+<!--<div class="preview"> 
 
-有关详细信息，请参阅[接口现代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-</div>
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> -->
 
 您可以在“模板”区域中创建和删除模板。 在构建新模板时，您可以为所有任务和未来项目设置输入信息。 然后，此信息将传输到您从模板创建的任何项目。
 
@@ -118,13 +120,11 @@ ht-degree: 6%
 
    单击&#x200B;**新建模板任务**，开始在&#x200B;**新建模板任务**&#x200B;框中将任务添加到模板。
 
-   ![新模板任务框](assets/new-template-task-box.png)
+   此时将在新Experience中打开&#x200B;**创建模板任务**&#x200B;框。
 
-   <span class="preview">在新体验中打开&#x200B;**创建模板任务**&#x200B;框。</span>
+   ![新模板任务的新体验](assets/new-template-task-box-unshimmed.png)
 
-1. <span class="preview">（视情况而定）使用新体验，在&#x200B;**创建模板任务**&#x200B;框的以下区域中更新信息：</span>
-
-   <div class="preview">
+1. （视情况而定）使用新体验，更新&#x200B;**创建模板任务**&#x200B;框中的以下区域的信息：
 
    * 模板任务名称
    * 概述
@@ -134,14 +134,15 @@ ht-degree: 6%
    * 文档
    * 设置
 
-   </div>
-
 1. 单击&#x200B;**创建模板任务**
 
    或
 
-   <span class="preview">单击&#x200B;**创建模板任务**&#x200B;框底部的&#x200B;**切换回旧体验**。</span>
-   <span class="preview">在旧体验中打开&#x200B;**新模板任务**。</span>
+   单击&#x200B;**创建模板任务**&#x200B;框底部的&#x200B;**切换回旧体验**。
+
+   **新模板任务**&#x200B;将在旧体验中打开。
+
+   ![新模板任务框](assets/new-template-task-box.png)
 
    >[!TIP]
    >

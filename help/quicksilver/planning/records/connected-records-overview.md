@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,11 @@ ht-degree: 0%
 
 在以下区域中，您可以将记录连接到其他记录或从其他应用程序连接到对象：
 
-* 您可以将Workfront Planning中的记录连接到Planning记录的以下区域中的Workfront对象或Experience Manager Assets对象：
+* 您可以将Workfront Planning中的记录连接到Planning记录的以下区域中的Workfront对象、Experience Manager Assets对象或GenStudio Brands：
 
    * Planning中记录类型的表视图中的已连接记录字段。
-   * 在“详细信息”选项卡上的已连接记录字段中，记录的预览或页面。
-   * 记录在“连接”选项卡上的预览或页面。
+   * 在“详细信息”选项卡上的已连接记录字段中，记录的预览或详细信息页面。
+   * 记录在“连接”选项卡上的预览或详细信息页面。
    * 已连接记录的已连接记录页选项卡中的记录页。
 
 * 您可以在Workfront的以下区域中将Workfront对象连接到Workfront Planning记录：

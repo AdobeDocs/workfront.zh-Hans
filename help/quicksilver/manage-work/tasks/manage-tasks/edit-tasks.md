@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '4464'
+source-wordcount: '4416'
 ht-degree: 4%
 
 ---
@@ -28,13 +28,13 @@ ht-degree: 4%
 </div>
 -->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 从“预览”版本开始的一周后，生产环境中所有客户也可以使用相同的功能。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-有关详细信息，请参阅[接口现代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 您可以编辑有关已创建、具有Contribute或Manage权限的任务的信息。
 
@@ -377,19 +377,17 @@ ht-degree: 4%
 1. 按如上所述开始编辑任务。
 1. 单击左侧面板中的&#x200B;**工作**。
 
-   <span class="preview">在新体验中打开“工作总揽”区域。</span>
+   在新版Experience中打开工作区域。
 
 1. （视情况而定）使用新体验，执行以下操作：
 
-   1. <span class="preview">开始在&#x200B;**搜索人员、角色或团队**&#x200B;字段中键入用户、工作角色或团队的名称</span>，然后在他们显示在列表中时选择他们
+   1. 开始在&#x200B;**搜索人员、角色或团队**&#x200B;字段中键入用户、工作角色或团队的名称，然后在他们显示在列表中时选择他们
 
       或
 
-      <span class="preview">单击&#x200B;**分配给我**&#x200B;以将该任务分配给您自己。</span>
+      单击&#x200B;**分配给我**&#x200B;以将任务分配给您自己。
 
-   1. <span class="preview">更新以下信息：</span>
-
-      <div class="preview">
+   1. 更新以下信息：
 
       <table style="table-layout:auto"> 
          <col> 
@@ -501,7 +499,6 @@ ht-degree: 4%
          </tbody> 
          </table>
 
-      </div>
 
       <!--<tr> 
       <td role="rowheader">Allocation</td> 
@@ -520,9 +517,9 @@ ht-degree: 4%
          </tbody> 
          </table>-->
 
-   1. <span class="preview">（可选）单击&#x200B;**编辑任务**&#x200B;框底部的&#x200B;**切换到旧体验**。</span>
-      <span class="preview">在旧体验中打开“工作总揽”区域。</span>
-      ![](assets/nwe-assignments-section-edit-task-box-350x217.png)
+   1. （可选）单击&#x200B;**编辑任务**&#x200B;框底部的&#x200B;**切换到旧体验**。
+“任务”区域将在旧体验中打开。
+      编辑任务框中的![分配分区](assets/nwe-assignments-section-edit-task-box-350x217.png)
 
 1. 单击&#x200B;**搜索人员、角色或团队**，然后开始键入要分配给任务的用户、角色或团队的名称，然后单击该名称，或当该名称显示在列表中时按Enter键。
 
@@ -670,7 +667,7 @@ ht-degree: 4%
    </tbody>
    </table>
 
-1. 单击&#x200B;**保存更改** <span class="preview">或&#x200B;**保存** </span>，或者继续下面的部分。
+1. 单击&#x200B;**保存**&#x200B;或继续以下部分。
 
 ### 自定义表单
 

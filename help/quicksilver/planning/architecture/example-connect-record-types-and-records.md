@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '2047'
-ht-degree: 0%
+source-wordcount: '2050'
+ht-degree: 1%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 您要创建记录类型“促销活动”的字段，以便显示记录类型“产品”的“预算”字段的值。
 
-为此，请执行以下操作：
+操作步骤：
 
 1. 在工作区中打开Campaign记录类型的表视图。
 1. 单击表格视图右上角的&#x200B;**+**&#x200B;图标以添加新字段，然后单击“**新建连接**”，然后单击所选工作区部分中的“**产品**”。
@@ -53,7 +53,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >从不同工作区连接记录或连接Experience Manager资源时，**连接类型**&#x200B;选项不可用。 有关详细信息，请参阅[连接的记录类型概述](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
+     >在连接来自不同工作区的记录或连接Experience Manager资源或GenStudio Brands时，**连接类型**&#x200B;选项不可用。 有关详细信息，请参阅[连接的记录类型概述](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
 
    * **记录外观**：从以下选项中选择：
       * **名称和图像**：显示已连接记录的名称和缩略图或图标。 默认情况下，该选项处于选中状态。
@@ -141,7 +141,7 @@ ht-degree: 0%
 
 您想在Campaign的记录类型上创建一个连接字段，以便在Workfront中显示与Workfront Planning中的营销活动相关的项目的“计划收入”字段值。
 
-为此，请执行以下操作：
+操作步骤：
 
 1. 转到要将Campaign记录类型与Workfront项目连接的Workspace。
 1. 在所选工作区中打开Campaign记录类型的表视图。

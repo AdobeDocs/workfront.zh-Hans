@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '801'
 ht-degree: 0%
 
 ---
@@ -134,8 +134,8 @@ ht-degree: 0%
 * 不支持空工作表。
 * 以下类型的字段不受支持，无法映射到导入工作表中的字段：
 
-   * 将字段连接到Workfront和AEM Assets对象类型。
-   * 从连接的Planning记录或Workfront和AEM Assets对象查找字段
+   * 将字段连接到Workfront、AEM Assets对象类型或GenStudio Brands。
+   * 从连接的Planning记录、Workfront、AEM Assets对象或GenStudio Brands查找字段。
    * 公式字段
    * 创建日期，创建者
    * 上次修改日期，上次修改人
@@ -190,7 +190,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >您只能映射到Workfront Planning连接记录中的字段。 您无法从Workfront或AEM Assets连接映射到字段。 有关详细信息，请参阅本文中关于使用Excel或CSV文件导入记录类型的注意事项[部分。](#considerations-about-importing-record-types-using-an-excel-or-csv-file)
+   >您只能映射到Workfront Planning连接记录中的字段。 您无法从Workfront、AEM Assets或GenStudio Brands连接映射到字段。 有关详细信息，请参阅本文中关于使用Excel或CSV文件导入记录类型的注意事项[部分。](#considerations-about-importing-record-types-using-an-excel-or-csv-file)
 
 1. （视情况而定）更新字段相关信息后，单击&#x200B;**保存**。
 

@@ -7,9 +7,9 @@ description: 创建模板后，可以编辑有关模板任务的信息。 在使
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '4716'
+source-wordcount: '4633'
 ht-degree: 3%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 3%
 
 <!--take out production and preview references and new/ old experiences at release-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 从“预览”版本开始的一周后，生产环境中所有客户也可以使用相同的功能。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-有关详细信息，请参阅[接口现代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 创建模板后，可以编辑模板任务的信息。 在使用模板创建项目或将模板附加到项目后，您在模板任务上更新的信息将与项目任务相关联。
 
@@ -138,15 +138,21 @@ ht-degree: 3%
 1. （可选）要批量编辑多个模板任务，请选择多个模板任务，然后单击模板列表顶部的&#x200B;**编辑**。
 1. （视情况而定）要同时编辑有关模板任务或多个任务的所有信息，请单击以从列表中选择这些任务，然后单击列表顶部的&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
 
-   此时会显示&#x200B;**编辑模板任务**&#x200B;框。
+   新体验中会显示&#x200B;**编辑模板任务**&#x200B;框。
+
+   ![编辑模板任务的新体验](assets/edit-template-task-box-unshimmed.png)
 
    >[!TIP]
    >
    >您还可以在列表中选择模板任务，然后单击标题中模板任务名称右侧的&#x200B;**编辑**&#x200B;以打开&#x200B;**编辑模板任务**&#x200B;框。
 
+   继续编辑模板任务，如本文中的[使用新体验](#edit-a-template-task-using-the-new-experience)编辑模板任务部分中所述。
+
+1. （可选）单击&#x200B;**编辑模板任务**&#x200B;框底部的&#x200B;**切换回旧体验**&#x200B;以打开旧体验中的&#x200B;**编辑模板任务**&#x200B;框。
+
    ![编辑模板任务](assets/edit-template-tasks-box-classic-350x356.png)
 
-1. （视情况而定）在生产环境中，请考虑在以下任意部分中指定信息：
+1. 请考虑在以下任意部分中指定信息：
 
    * [概述](#overview)
    * [财务](#finance)
@@ -156,9 +162,6 @@ ht-degree: 3%
    * [评论](#comment)
 
 1. 继续编辑模板任务，如本文中的[使用旧体验](#edit-a-template-task-using-the-old-experience)编辑模板任务部分所述。
-
-1. <span class="preview">（视情况而定）在“预览”环境中，将在新体验中打开“编辑模板任务”框。 继续编辑模板任务，如本文中的[使用新体验](#edit-a-template-task-using-the-new-experience)编辑模板任务部分中所述。</span>
-1. <span class="preview">（可选）单击&#x200B;**编辑模板任务**&#x200B;框底部的&#x200B;**切换回旧体验**&#x200B;以打开旧体验中的&#x200B;**编辑模板任务**&#x200B;框。 继续编辑模板任务，如本文中的[使用旧体验](#edit-a-template-task-using-the-old-experience)编辑模板任务部分中所述。</span>
 
 ### 使用旧体验编辑模板任务
 
@@ -438,8 +441,6 @@ ht-degree: 3%
 1. 单击&#x200B;**保存更改**。
 
    当您或其他用户从此模板创建项目时，应用到模板任务的所有设置都将成为项目任务的设置。
-
-<div class="preview">
 
 ### 使用新体验编辑模板任务
 
@@ -767,4 +768,3 @@ ht-degree: 3%
 
    当您或其他用户从此模板创建项目时，应用到模板任务的所有设置都将成为项目任务的设置。
 
-</div>

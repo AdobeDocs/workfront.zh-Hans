@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1047'
 ht-degree: 0%
 
 ---
@@ -18,17 +18,19 @@ ht-degree: 0%
 
 <!--Audited: 11/2025-->
 
+<!--remove the old/new experience references when the toggles are removed-->
+
 <!--
 this article is similar and updates on this one might need to be repeated here: help/quicksilver/manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md</p>
 -->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 从“预览”版本开始的一周后，生产环境中所有客户也可以使用相同的功能。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-有关详细信息，请参阅[接口现代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div>-->
 
 在管理任务分配时，可以使用任务列表中的批量编辑功能一次为多个任务同时修改它们。
 
@@ -125,25 +127,22 @@ When assigning users to work, their availability according to their schedules af
 
 1. 选择要修改分配的任务，然后单击&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)。
 
-   “**编辑任务**”框将在新Experience中打开<span class="preview">。 执行以下操作之一：</span>
-
-   <div class="preview">
+   将在新Experience中打开&#x200B;**编辑任务**&#x200B;框。 执行下列操作之一：
 
    * 要添加被分配人，请在&#x200B;**搜索人员、角色或团队**&#x200B;字段中开始键入被分配人的姓名，然后当他们显示在列表中时选择他们。
    * 要删除被分配人，请单击其姓名右侧的&#x200B;**x**&#x200B;图标。 只有所有任务通用的被分配者才会显示在列表中。
    * 单击分配给我可将所选的任务分配给您自己。
 
-   </div>
+1. （视情况而定）使用新体验时，单击&#x200B;**保存**。
 
-1. <span class="preview">（视情况而定）使用新体验时，单击&#x200B;**保存**。</span>
+1. （可选）单击&#x200B;**编辑任务**&#x200B;框底部的&#x200B;**切换到旧体验**。
 
-1. <span class="preview">（可选）单击&#x200B;**编辑任务**&#x200B;框底部的&#x200B;**切换到旧体验**。</span>
+   将在旧体验中打开&#x200B;**编辑任务**&#x200B;框。
 
-   <span class="preview">在旧体验中打开&#x200B;**编辑任务**&#x200B;框。</span>
-
+   <!--
    >[!TIP]
    >
-   >默认情况下，生产环境中提供旧体验。
+   >The old experience is available by default in the Production environment.-->
 
 1. （视情况而定）在旧体验中，执行以下操作以修改被分配人：
 

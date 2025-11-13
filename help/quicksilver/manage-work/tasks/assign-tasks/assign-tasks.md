@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '2212'
+source-wordcount: '2156'
 ht-degree: 1%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 1%
 
 <!--remove production/ preview and old/ new experience references at prod-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 从“预览”版本开始的一周后，生产环境中所有客户也可以使用相同的功能。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-有关详细信息，请参阅[接口现代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 您可以将任务分配给用户、工作角色或团队，以指明负责完成任务的人员。 您可以一次将任务分配给多个资源。
 
@@ -236,13 +236,13 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. 在任务列表中选择多个任务。
 1. 单击&#x200B;**编辑**。
 
-   **编辑任务**&#x200B;对话框将在新体验中打开<span class="preview">。</span>
+   将在新Experience中打开&#x200B;**编辑任务**&#x200B;对话框。
 
-1. 使用新体验继续分配任务<span class="preview">。</span>
+1. 继续使用新Experience分配任务。
 
-   <span class="preview">有关详细信息，请参阅本文中[从新版Experience](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience)的列表中批量分配多个任务</span>部分。
+   有关详细信息，请参阅本文的新版Experience[中的](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience)从列表中批量分配多个任务部分。
 
-1. <span class="preview">（可选）单击&#x200B;**编辑任务**&#x200B;框底部的&#x200B;**切换回旧体验**&#x200B;以打开旧体验。</span>
+1. （可选）单击&#x200B;**编辑任务**&#x200B;框底部的&#x200B;**切换回旧体验**&#x200B;以打开旧体验。
 
    >[!TIP]
    >
@@ -279,11 +279,9 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. （可选且有条件）当任务列表中显示“分配给”或“工作总揽”字段时，单击其中一列中的任务的，然后单击被分配人名称旁边的&#x200B;**X图标**&#x200B;以将其从任务中删除。
 
 
-<div class="preview">
-
 ### 从新Experience的列表中批量分配多个任务
 
-1. 转到要在“预览”环境中批量分配的任务列表。
+1. 转到要批量分配的任务的列表。
 1. （视情况而定）如果您在项目下的任务列表中，请确保已选择&#x200B;**自动保存**&#x200B;选项。
 
    >[!IMPORTANT]
@@ -319,10 +317,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. （可选）如果要从所有任务中移除现有被分配人，请在&#x200B;**搜索人员、角色或团队**&#x200B;字段中单击其名称旁边的&#x200B;**x**。
 
 1. 单击&#x200B;**保存**。
-1. （可选且有条件）当任务列表中显示&#x200B;**分配给**&#x200B;或&#x200B;**工作总揽**&#x200B;字段时，单击其中一列的任务内容，然后单击被分配人名称旁边的&#x200B;**X图标**&#x200B;以将其从任务中删除。
-
-
-</div>
+1. （可选且有条件）当任务列表中显示&#x200B;**分配给**&#x200B;或&#x200B;**工作总揽**&#x200B;字段时，单击其中一列的任务内容，然后单击被分配人名称旁边的&#x200B;**X图标**&#x200B;以将其从任务中删除
 
 
 <!--
