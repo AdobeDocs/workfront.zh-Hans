@@ -4,9 +4,9 @@ description: 本页介绍了2026年第一季度版本中包含的功能。 这�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b0fb8f0ca72800c2befe4f1f8194be17c4f75c95
+source-git-commit: 00483638948941c933e5f8bc8cb3edaf8e43fea1
 workflow-type: tm+mt
-source-wordcount: '1450'
+source-wordcount: '1680'
 ht-degree: 2%
 
 ---
@@ -39,6 +39,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 * [管理员增强功能](#administrator-enhancements)
 * [文档和审批增强功能](#documents-and-approvals-enhancements)
+* [集成增强功能](#integration-enhancements)
+* [报表增强功能](#reporting-enhancements)
 * [其他增强功能](#other-enhancements)
 
 ### 管理员增强功能
@@ -54,7 +56,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">输入日期和输入者ID存储在自定义对象中</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">输入日期和输入者ID存储在自定义对象中</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
             <p>输入日期和按ID输入的内容现在存储在自定义表单、字段和部分中。 您可以在报表中将这些数据选项用作过滤器、视图或分组。 要在“设置”中的自定义表单、字段或节列表中显示它们，请添加“输入日期”和“输入者：名称”作为新视图或现有视图中的列。</p>
         </td>
         <td>2025年11月13日</td>
@@ -95,7 +97,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
      <tr>
         <td>
-            对具有Workfront校对的Adobe Express的<a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">跨组织支持<p>[!BADGE Off Schedule]{type=Neutral}</p> </a>
+            对具有Workfront校对的Adobe Express的<a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">跨组织支持<p>[！BADGE Off Schedule]{type=Neutral}</p> </a>
             <p>我们正在引入对具有Workfront Proofing的Adobe Express的跨组织支持。 此增强功能允许跨多个IMS组织运营的客户无缝使用和管理验证工作流。</p>
         </td>
         <td>2025年11月13日</td>
@@ -104,7 +106,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>   
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager现在可与Frame.io集成一起使用 <p>[!BADGE Off Schedule]{type=Neutral}</p> </a>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager现在可与Frame.io集成一起使用 <p>[！BADGE Off Schedule]{type=Neutral}</p> </a>
             <p>现在，您可以使用Experience Manager Assets​管理和存储已经过审核和批准周期的数字资源。 此集成允许您利用Adobe Experience Manager、Frame.io和Workfront的功能来简化内容管理和协作流程。 </p>
         </td>
         <td>2025年10月30日</td>
@@ -133,6 +135,69 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>2025年10月30日</td>
         <td>2025年10月30日</td>
         <td>2025年10月30日</td>
+    </tr>   
+  </tbody>
+</table>
+
+### 报表增强功能
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>功能</strong>
+        </td>
+        <td><strong>预览</strong></td>
+        <td><strong>快速发布</strong></td>
+        <td><strong>每季度</strong></td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">在画布仪表板中复制报告</a><p>！[BADGE Off Schedule]{type=Neutral}</p>
+            <p>现在，您可以在创建KPI、表或图表报表后，将其复制到画布仪表板中。 复制后，您可以在保存之前根据需要编辑报表。</p>
+        </td>
+        <td>2025年10月23日</td>
+        <td>2025年10月23日</td>
+        <td>2025年10月23日</td>
+    </tr>   
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">正在从报告筛选器中删除字段选项</a>
+            <p>我们删除了以下之前在将过滤器应用于报表时可用的字段选项：
+            <ul>
+            <li>其他组ID</li>
+            <li>其他角色ID</li>
+            <li>其他团队ID</li>
+            </ul>
+            </p>
+        </td>
+        <td>2025年11月6日</td>
+        <td>2025年11月13日</td>
+        <td>2026年1月15日</td>
+    </tr>   
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">已改进画布功能板中分组计数的显示</a>
+            <p>当表报告有多个结果页并且表配置了分组时，该表现在显示当前页的记录数量和所有页的总记录计数。 例如，如果表报表分为7个分组，且第一页显示为3个，则表将显示第3页（共7页）。</p>
+        </td>
+       <td>2025年11月6日</td>
+        <td>2025年11月13日</td>
+        <td>2026年1月15日</td>
+    </tr>   
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">新护栏可缩短画布仪表板中的加载时间</a>
+            <p>为了避免加载时间延迟并提高画布仪表板中的整体性能，我们对可以向仪表板添加多少仪表板组件施加了限制：
+            <ul>
+            <li>每个仪表板的报表数：25个限制</li>
+            <li>表视图上的分组：5个限制</li>
+            <li>与报表的基本对象的距离：10限制</li>
+            <li>表格视图中的列：25个限制</li>
+            <li>仪表板级别筛选器提示： 10次限制</li>
+            </ul></p>
+        </td>
+       <td>2025年11月6日</td>
+        <td>2025年11月13日</td>
+        <td>2026年1月15日</td>
     </tr>   
   </tbody>
 </table>
@@ -255,13 +320,13 @@ Workfront API版本21于2025年10月23日发布。 对于API版本21，我们修
 * 适用于Salesforce的Workfront。
 
 为了满足贵组织与Google Workspace的集成需求，我们建议使用Workfront自动化和集成。
-有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 
 ### Workfront 维护更新
 
-有关2025年第一季度版本中所做维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hans)。
+有关2025年第一季度版本中所做维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
 
 ### 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hans)的“新增功能”部分。
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的“新增功能”部分。
