@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 90d472307ffb6b524154696b4c14d725db44b079
 workflow-type: tm+mt
-source-wordcount: '2764'
+source-wordcount: '2838'
 ht-degree: 0%
 
 ---
@@ -85,8 +85,11 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 <td> 
    <p> 其他产品</p> </td> 
    <td> 
-   <p> 除了Adobe Workfront之外，您必须拥有Adobe Experience Manager Assets许可证以及AEM Assets与Workfront之间的集成，才能将AEM资源与Planning记录类型连接。<p>
-    有关信息，请参阅适用于Experience Manager Assets和Assets Essentials的<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront：文章索引</a>。 </p>
+   <p> 除了Adobe Workfront之外，如果要将记录类型与以下应用程序中的对象连接起来，还必须具备以下功能：</p>
+   <ul><li><p>Adobe Experience Manager Assets许可证以及AEM Assets与Workfront之间的集成，用于连接AEM资源与Planning记录类型。</p>
+   <p>有关信息，请参阅适用于Experience Manager Assets和Assets Essentials的<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront：文章索引</a>。 </p></li>
+   <li><p> 用于连接记录类型与GenStudio Brands的Adobe GenStudio for Performance Marketing许可证</p>
+   <p>有关信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing入门</a>。</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -201,7 +204,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      >[!TIP]
      >
-     >必须在&#x200B;**高级设置**&#x200B;**或**&#x200B;编辑记录类型<span class="preview">框的&#x200B;**跨工作区设置**</span>&#x200B;选项卡中为记录类型启用&#x200B;**允许连接到其他工作区中的此记录类型**&#x200B;设置，才能从其他工作区访问记录类型。 如果没有配置为从其他工作区连接的记录类型，则不会显示工作区部分。
+     >必须在&#x200B;**高级设置****或**&#x200B;编辑记录类型<span class="preview">框的&#x200B;**跨工作区设置**</span>&#x200B;选项卡中为记录类型启用&#x200B;**允许连接到其他工作区中的此记录类型**&#x200B;设置，才能从其他工作区访问记录类型。 如果没有配置为从其他工作区连接的记录类型，则不会显示工作区部分。
      >
      >有关信息，请参阅[为记录类型配置跨工作区功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。<!--update screen shot at production-->
      >
@@ -225,6 +228,10 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      将为您选择的记录或对象类型打开“新建连接”选项卡。
 
+   * 来自Adobe GenStudio for Performance Marketing的&#x200B;**Adobe GenStudio**&#x200B;部分的&#x200B;**Brand**
+
+     ![GenStudio Brand Connection选择](assets/brand-genstudio-connection-selection.png)
+
 1. 使用新连接的字段的名称更新&#x200B;**Name**&#x200B;字段，因为该字段将显示在原始记录类型的表视图或记录页中。 这将在原始记录类型的表视图中创建连接的记录列（或字段）。 默认情况下，字段的名称是您连接到的记录或对象的名称。
 
    >[!TIP]
@@ -232,7 +239,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    >您可以有多个与同一记录或对象类型的连接。 如果不编辑已连接的字段名称，Workfront会在已连接记录的名称后添加一个数字，以指示使用相同名称连接的记录类型的数量。
 
 1. 通过添加有关连接的记录字段的信息来更新&#x200B;**描述**&#x200B;字段。 当您将鼠标悬停在表中的字段列上时，将显示字段的描述。
-1. （视情况而定）当您从两个不同的工作区或一个记录和Adobe Experience Manager资源对象连接记录类型时，请选择&#x200B;**允许多个记录**。 如果选择该字段，即表示当原始记录中显示“连接的记录类型”字段时，允许用户添加多个记录。 默认情况下，该选项处于选中状态。
+1. （视情况而定）当您从两个不同的工作区(记录类型和Adobe Experience Manager资源对象，或记录类型和GenStudio Brand)连接记录类型时，请选择&#x200B;**允许多个记录**。 如果选择该字段，即表示当原始记录中显示“连接的记录类型”字段时，允许用户添加多个记录。 默认情况下，该选项处于选中状态。
 
    ![从另一个工作区新建记录类型连接](assets/new-connection-allow-multiple-records-box.png)
 
@@ -271,10 +278,10 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    >[!NOTE]
    >
-   >Workfront管理员可以通过Workfront中的元数据映射，将Workfront Planning字段映射到Experience Manager Assets字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+   >Workfront管理员可以通过Workfront中的元数据映射，将Workfront Planning字段映射到Experience Manager Assets字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
 
-1. （视情况而定）当您选择连接到Experience Manager Assets或Workfront Planning记录类型时，请在&#x200B;**记录外观**&#x200B;区域中选择以下选项之一：
+1. （视情况而定）当您选择连接到Experience Manager Assets、Workfront Planning记录类型或GenStudio Brand时，请在&#x200B;**记录外观**&#x200B;区域中选择以下选项之一：
 
    * **名称和图像**：连接的记录的名称和缩略图或图标都会显示在连接的记录字段中。 这是默认选项。
    * **名称**：只有已连接记录的名称将显示在已连接记录字段中。
@@ -349,7 +356,10 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    >[!NOTE]
    >
-   > 将记录类型连接到Experience Manager Assets时，聚合不可用。
+   > 将记录类型连接到以下内容时，聚合器不可用：
+   >* Experience Manager Assets
+   >* GenStudio品牌。
+   >
 
    从以下项中选择：
 
