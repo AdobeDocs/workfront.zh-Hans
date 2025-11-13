@@ -56,7 +56,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">输入日期和输入者ID存储在自定义对象中</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">输入日期和输入者ID存储在自定义对象中</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
             <p>输入日期和按ID输入的内容现在存储在自定义表单、字段和部分中。 您可以在报表中将这些数据选项用作过滤器、视图或分组。 要在“设置”中的自定义表单、字段或节列表中显示它们，请添加“输入日期”和“输入者：名称”作为新视图或现有视图中的列。</p>
         </td>
         <td>2025年11月13日</td>
@@ -97,7 +97,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
      <tr>
         <td>
-            对具有Workfront校对的Adobe Express的<a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">跨组织支持<p>[！BADGE Off Schedule]{type=Neutral}</p> </a>
+            对具有Workfront校对的Adobe Express的<a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">跨组织支持<p>[!BADGE Off Schedule]{type=Neutral}</p> </a>
             <p>我们正在引入对具有Workfront Proofing的Adobe Express的跨组织支持。 此增强功能允许跨多个IMS组织运营的客户无缝使用和管理验证工作流。</p>
         </td>
         <td>2025年11月13日</td>
@@ -106,7 +106,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>   
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager现在可与Frame.io集成一起使用 <p>[！BADGE Off Schedule]{type=Neutral}</p> </a>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager现在可与Frame.io集成一起使用 <p>[!BADGE Off Schedule]{type=Neutral}</p> </a>
             <p>现在，您可以使用Experience Manager Assets​管理和存储已经过审核和批准周期的数字资源。 此集成允许您利用Adobe Experience Manager、Frame.io和Workfront的功能来简化内容管理和协作流程。 </p>
         </td>
         <td>2025年10月30日</td>
@@ -152,7 +152,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">在画布仪表板中复制报告</a><p>！[BADGE Off Schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">在画布仪表板中复制报告</a><p>！[!BADGE Off Schedule]{type=Neutral}</p>
             <p>现在，您可以在创建KPI、表或图表报表后，将其复制到画布仪表板中。 复制后，您可以在保存之前根据需要编辑报表。</p>
         </td>
         <td>2025年10月23日</td>
