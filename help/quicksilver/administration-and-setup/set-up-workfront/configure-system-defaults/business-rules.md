@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: b6731b9877237916259a862863b30c8ef65ad343
 workflow-type: tm+mt
-source-wordcount: '1323'
+source-wordcount: '1318'
 ht-degree: 2%
 
 ---
@@ -136,18 +136,14 @@ IF(
    * 文档
    * 项目群
    * 费用
-   * 用户
    * 公司
    * 开发周期
    * 账单记录
    * 组
+   * 非劳动力资源
    * 风险
+   * 费率卡
    * 任务分配
-   * 工作角色
-   * 资源池
-   * 休息时间
-   * Hour
-   * 模板
 
 1. 在规则生成器对话框中键入业务规则的&#x200B;**名称**。
 1. 在&#x200B;**处于活动状态**&#x200B;字段中，选择保存规则时该规则是否应处于活动状态。
