@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 829b3d343286b63922614b3855f9227667ad57a4
+source-git-commit: f22f00417cd0bfbe53cfee513e8be95a8719f785
 workflow-type: tm+mt
-source-wordcount: '9336'
+source-wordcount: '9416'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,23 @@ ht-degree: 0%
 有关Adobe Workfront的所有其他更改，请参阅[产品版本](/help/quicksilver/product-announcements/product-releases/product-releases.md)。
 
 ## 管理和设置
+
+### 删除正在使用的项目时对话框的更新
+
+**预览版本： 2025年11月13日；生产版本： 2025年11月20日**
+
+删除正在使用的项目时，以下对象现在具有更新的对话框：
+
+* 访问级别
+* 公司
+* 费用类型
+* 组/周期性工时表
+* 小时数类型
+* 风险类型
+* 计划
+* 时间表配置文件
+
+现在，新的对话与Workfront的其他领域是一致的。 功能没有变化。
 
 ### “添加和编辑公司”对话框的界面更新
 
@@ -131,9 +148,8 @@ ht-degree: 0%
 
 ### 个人休假的界面更新
 
-**预览版本： 2025年10月23日；适用于所有客户的生产版本：从2025年10月30日起一周**
+**预览版本： 2025年10月23日；适用于所有客户的生产版本：从2025年11月13日起一周**
 
-<!--This feature was in Preview and Prod starting on Sept 25 and it was removed on Oct 9. It was released to Preview again on Oct 23 and Prod rollout started Oct 30. Then it was removed from Prod again on Nov 4. -->
 
 >[!NOTE]
 >
@@ -476,7 +492,7 @@ For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tas
 
 >[!NOTE]
 >
->此功能已于2025年10月15日从预览和生产环境中暂时删除。
+>此功能已于10月15日从“预览”和“生产”页面中临时移除。 该工具将在“预览”中提供，并将从2025年11月13日起分阶段在“生产”中提供。
 
 我们更新了用于编辑项目费用的对话框，以匹配应用程序的其他区域。 在项目或模板中编辑费用时，可以使用更新的对话框。
 

@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 3ba6468327ca390ddc75ff1c18440283daa6eee4
+source-git-commit: 21cab3964ffd79b4b58835fcb992f59eefee78ee
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,18 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 将GenStudio for Performance Marketing Brands与Workfront Planning记录类型联系起来
+
+>[!NOTE]
+>
+>预览： 2025年11月13日
+>生产快速发布： 2025年11月13日
+>适用于所有人的生产： 2026年11月13日
+
+您现在可以将Workfront Planning记录类型与Adobe GenStudio for Performance Marketing中的品牌联系起来。 您的组织必须同时具有Workfront Planning和Adobe GenStudio for Performance Marketing。
+
+有关详细信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
 
 ## Planning视图中的筛选器、字段和行颜色图标中的新字段搜索框
