@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 6fb64986260842c419c61fe386e9ccf1a0da8f14
+source-git-commit: 5d7cc28ebb1c7d7401a60ef4fc383fc90ed20631
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1549'
 ht-degree: 0%
 
 ---
@@ -39,23 +39,23 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 许可证</p> </td> 
-   <td><p>[!UICONTROL 计划]</p>
-   <p>[!UICONTROL 标准版]</p>
+   <td><p>[！UICONTROL计划]</p>
+   <p>[！UICONTROL标准版]</p>
    </td> 
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
    <td> <p>您必须具备以下任一项：</p> 
     <ul> 
-     <li> <p>[!UICONTROL 系统管理员]访问级别，允许您编辑系统中的任何公司。</p> </li> 
+     <li> <p>[！UICONTROL系统管理员]访问级别，允许您编辑系统中的任何公司。</p> </li> 
      <li> <p>管理公司的管理权限，允许您编辑系统中的任何公司。</p> </li> 
     </ul> <p><b>注释</b>：  
      <ul> 
       <li> <p>您还可以管理与您被分配为组管理员的任何组关联的公司。</p> </li> 
       <li> <p>若要在[!DNL Workfront]系统中添加和删除用户，您必须具备以下任一项：</p> 
        <ul> 
-        <li> <p>[!UICONTROL 系统管理员]访问级别。 </p> </li> 
-        <li> <p>您的访问级别中的<b>[!UICONTROL 用户]</b>设置配置为<b>[!UICONTROL 编辑]</b>访问权限，且<b>[!UICONTROL 创建]</b>和在<b>[!UICONTROL 微调您的设置]</b> <b>下启用的两个</b>[!UICONTROL 用户管理]<img src="assets/gear-icon-in-access-levels.png">选项中的至少一个选项。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>在这两个选项中，如果启用了<b>[!UICONTROL 用户管理员（组用户）]</b>，您必须是该用户所属组的组管理员。</p> </li> 
+        <li> <p>[！UICONTROL系统管理员]访问级别。 </p> </li> 
+        <li> <p>您的访问级别中的<b>[！UICONTROL用户]</b>设置配置为<b>[！UICONTROL编辑]</b>访问权限，且<b>[！UICONTROL创建]</b>和在<b>[！UICONTROL微调您的设置]</b> <b>下启用的两个</b>[！UICONTROL用户管理]<img src="assets/gear-icon-in-access-levels.png">选项中的至少一个选项。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>在这两个选项中，如果启用了<b>[！UICONTROL用户管理员（组用户）]</b>，您必须是该用户所属组的组管理员。</p> </li> 
        </ul>
        </li> 
      </ul> </p> </td> 
@@ -146,6 +146,18 @@ ht-degree: 0%
    或
 
    如果您正在编辑现有公司，请单击&#x200B;**[!UICONTROL 保存更改]** <span class="preview">或&#x200B;**保存**。</span>
+
+## 删除公司
+
+{{step-1-to-setup}}
+
+1. 单击&#x200B;**[!UICONTROL 公司]**。
+
+   此时将显示公司列表。
+
+1. 单击要删除的公司旁边的复选框，然后单击页面顶部附近的“删除”图标![删除图标](assets/delete-icon.png)。
+1. 如果要删除设置为主要公司或在另一对象中使用的公司，请选择一个公司以替换要删除的公司。 您选择的公司会成为“主要公司”，或者在公司分配到的对象上替换已删除的公司。
+1. 单击&#x200B;**删除**。
 
 ## 管理公司成员资格
 

@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 5d7cc28ebb1c7d7401a60ef4fc383fc90ed20631
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -90,6 +90,10 @@ ht-degree: 0%
    >如果您对访问级别的公司具有管理访问权限，则还可以单击列表底部的“添加更多公司” 。 这会添加一行，您可以在其中快速配置新公司。
 
 1. （可选）要编辑或删除公司，请至少选择一个公司，然后使用工具栏按钮编辑![编辑图标](assets/edit-icon.png)或删除![删除图标](assets/delete.png)。
+
+   >[!NOTE]
+   >
+   >如果要删除公司，而公司被设置为主要公司或正用于其他对象，则系统会提示您选择其他公司来替换要删除的公司。 您选择的公司会成为“主要公司”，或者在公司分配到的对象上替换已删除的公司。
 
    有关编辑公司的信息，请参阅文章[创建和编辑公司](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront)中的[在Workfront中创建或编辑公司](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)部分。
 
