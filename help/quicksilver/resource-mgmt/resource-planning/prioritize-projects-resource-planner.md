@@ -107,7 +107,7 @@ ht-degree: 1%
 >
 >贵公司必须具有Prime或更高版本的Workfront包，以便在Portfolio Optimizer中优先处理项目。
 >
->有关Workfront包的详细信息，请参阅[Adobe Workfront包和定价](https://business.adobe.com/products/workfront/pricing.html)。
+>有关Workfront包的详细信息，请参阅[Adobe Workfront包和定价](https://business.adobe.com/cn/products/workfront/pricing.html)。
 >
 >有关在Portfolio Optimizer中排列项目优先顺序的信息，请参阅[在Portfolio Optimizer中排列项目优先顺序](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)。
 
