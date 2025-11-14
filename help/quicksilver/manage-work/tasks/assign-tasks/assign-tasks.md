@@ -7,7 +7,7 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
 workflow-type: tm+mt
 source-wordcount: '2156'
 ht-degree: 1%
@@ -162,13 +162,11 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      >
      >您必须在访问级别中启用“查看联系信息”设置，用户才能查看用户的电子邮件。 有关信息，请参阅[授予用户访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)。
 
-     <!--When adding a job role assignment, you can search for the job role or location. Select a role from the Job roles list to use the default billing rate for the assignment, or select a Rate card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). -->
-
    * （视情况而定）显示&#x200B;**用户和团队**&#x200B;或&#x200B;**工作角色**&#x200B;列表时，单击其中的一个名称。 有关详细信息，请参阅[智能分配概述](../../../manage-work/tasks/assign-tasks/smart-assignments.md)。
 
      您可以开始键入要分配给任务的任何用户、团队或工作角色的名称，然后当该名称显示在列表中时将其选定。
 
-   * 单击&#x200B;**高级**
+   * 单击&#x200B;**高级**。
 
      有关如何进行高级分配的信息，请参阅[创建高级分配](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)。
 

@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: start-with-workfront-administration
 title: 管理系统中的可用许可证
 description: 作为Adobe Workfront管理员，您可以访问有关您的Workfront帐户的信息，包括为您的组织购买的许可证数量，以及当前正在使用的许可证数量。
-author: Lisa, Becky
+author: Lisa, Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 15ea03bf586054f7ef421f8cacede6f42835a6e4
+source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -49,15 +49,15 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->以下语句仅适用于新计划。
+>以下语句适用于Select、Prime和Ultimate包。
 >
->对于Select计划：
+>对于Select包：
 >
 >1. 系统管理员无法设置主组的限制。
 >2. 系统管理员只能看到所有主组使用的许可证总数。
 >3. 组管理员根本无法访问许可证页面。
 >
->对于Prime和Ultimate计划：
+>对于Prime和Ultimate包：
 >
 >1. 系统管理员可以将主组添加到“许可证”页面以查看这些组中许可证的使用情况，还可以设置许可证限制。
 >2. 组管理员可以访问“许可证”页面，并查看他们管理的组中系统管理员添加到“许可证”页面中的许可证的使用情况。
@@ -133,8 +133,6 @@ If an organization has other paid add-on products, their license information als
 ![每月决策分配](assets/monthly-decision-allotment.png)
 
 ## 在“许可证”页面中添加或删除主组 {#add-or-remove-a-home-group-to-the-licenses-page}
-
-<!--A Business or Enterprise Workfront Plan is required to use this feature. For more information about the various plans available, see [Workfront Plans.](https://www.workfront.com/plans)-->
 
 每个用户只能分配给一个主组。 Workfront通过计算每个主组中分配和当前使用的许可证数，提供了面向组的许可证计数。
 

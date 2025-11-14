@@ -7,7 +7,7 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
 workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 0%
@@ -94,7 +94,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    >[!TIP]
    >
-   >您可以直接在任务或问题列表中进行高级分配。 单击任务或问题所在行上的&#x200B;**工作**&#x200B;字段，然后单击列表底部的&#x200B;**高级**&#x200B;或工作框右上角的&#x200B;**人员图标**&#x200B;以打开“高级工作”窗口。 跳至步骤5以继续创建高级工作。
+   >您可以直接在任务或问题列表中进行高级分配。 单击任务或问题所在行上的&#x200B;**工作**&#x200B;字段，然后单击列表底部的&#x200B;**高级**&#x200B;或工作框右上角的&#x200B;**人员图标**以打开“高级工作”窗口。 跳至步骤5以继续创建高级工作。
    >![单击“高级”或“人员”图标](assets/access-aa-from-lists.png)
 
 1. 单击任务或问题标题中&#x200B;**工作**&#x200B;字段中的&#x200B;**分配给**
@@ -129,10 +129,6 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    >   
    >   * 将工作项重新分配给活动资源。
    >   * 将已停用团队中的用户与活动团队关联，并将工作项重新分配给活动团队。
-
-   <!-- SHOULD BE THIRD BULLET POINT IN TIP TABLE WHEN THIS FEATURE IS RELEASED 
-    * <span class="preview">When adding a job role assignment, you can search for the job role or location. Select the System/Default Job Role to use the default billing rate for the assignment, or select a Rate Card Job Role to override the rate at the assignment level. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
-    -->
 
 1. 对于&#x200B;**代理人**&#x200B;列中的每个用户，请指定以下信息：
 

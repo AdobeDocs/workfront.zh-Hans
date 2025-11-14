@@ -6,9 +6,9 @@ description: 当记帐费率乘以项目所花费的小时数时，可以使用�
 author: Lisa
 feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
 workflow-type: tm+mt
-source-wordcount: '3860'
+source-wordcount: '3859'
 ht-degree: 0%
 
 ---
@@ -18,40 +18,6 @@ ht-degree: 0%
 {{highlighted-preview}}
 
 当记帐费率乘以项目所花费的小时数时，可以使用记帐费率计算项目收入。 有关记帐费率和收入的更多信息，请参阅文章[记帐和收入概览](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)。
-
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE: drafted because the only procedure here was moved to a different article.&nbsp;This stays as an overview)</p>
-<h2>Access requirements</h2>
-<p>You must have the following access to perform the steps in this article:</p>
-<table style="table-layout:auto">
-<col>
-<col>
-<tbody>
-<tr>
-<td role="rowheader">Adobe Workfront plan*</td>
-<td> <p>Any</p> </td>
-</tr>
-<tr>
-<td role="rowheader">Adobe Workfront license*</td>
-<td> <p>Plan </p> </td>
-</tr>
-<tr>
-<td role="rowheader">Access level configurations*</td>
-<td> <p>Edit access to Projects and Financial&nbsp;Data</p> <note type="note">
-If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see
-<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.
-</note> </td>
-</tr>
-<tr>
-<td role="rowheader">Object permissions</td>
-<td> <p>Manage permissions to the project with permissions to Manage Finance</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td>
-</tr>
-</tbody>
-</table>
-<p>*To find out what plan, license type, or access you have, contact your Workfront administrator.</p>
-</div>
--->
 
 ## 工作角色开单费率和角色每小时收入类型概览
 
@@ -120,38 +86,6 @@ If you still don't have access, ask your Workfront administrator if they set add
 >[!NOTE]
 >
 >在实际收入中，应用到标记为已记帐的记帐记录的小时数的记帐费率，不应受记帐记录记帐后发生的记帐费率覆盖的影响。
-
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE: drafted and linked above to the stand-alone article for overriding billing rates on projects.)</p>
-<p>You can override the billing rate of a job role on a project in the following ways:</p>
-<ul>
-<li>One time, by selecting a new rate for the job role.<br>The new rate is used for the entire duration of the project, to calculate revenue. </li>
-</ul>
-<ul>
-<li>Several times, by selecting several new rates for specific date ranges. <br>A different rate can be used during each specified date range.</li>
-</ul>
-<p>To override a billing rate for a project:</p>
-<ol>
-<li value="1">Go to the project you want to override billing rates for.</li>
-<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <strong>Billing Rates</strong> in the left panel. </p> </li>
-<li value="3"> <p>Click <strong>Add Billing Rate</strong> > <strong>New Billing Rate</strong>.</p> <p>The New Billing Rate box opens</p> <p> <img src="assets/override-billing-rate-on-project-nwe-350x310.png" style="width: 350;height: 310;"> </p> <p> <br>The <strong>Default Billing Rate</strong> field displays the system-level rate for this job role.</p> </li>
-<li value="4">In the <strong>Job Role</strong> field, select the job role you want to change the billing rate for.<br></li>
-<li value="5">In the <strong>Billing Rates 1</strong> field, enter the one time billing rate override, then click <strong>Save</strong> to override the billing rate one time, <br>Or Click <strong>Add Rate</strong> to add more billing rate overrides.</li>
-<li value="6">(Conditional) If you are adding more than one billing rate override, specify the following information:<br>- <strong>Billing Rates 1</strong>: the value of the Billing Rate from the beginning of the project to the first date of the first override. This is typically the same amount as the <strong>Default Rate</strong>.<br>- <strong>Start Date</strong>: this is the date when the Default Rate ends.<br>- <strong>End Date</strong>: the date when the new billing rate override ends. <br>Workfront applies the override job role rate to the hours that occur during the time frames specified when calculating revenue on the project.<br>There should be no gaps between the time frames of two override rates. The <strong>Start Date</strong> of an override rate should be the day immediately following the <strong>End Date</strong> of the previous override date.<br><note type="note">
-You cannot specify a
-<strong>Start Date</strong> for the first override rate, nor an
-<strong>End Date</strong> for the last override rate. We recommend that you use the Default Rate for the first override rate.
-<br>Workfront assumes that the first override rate is applied for all hours with a date older than the
-<strong>End Date</strong> of the first override, and that the last override rate is applied for all hours with a date newer than the
-<strong>Start Date</strong> of the last override.
-<br>If an hour is logged before the Planned Start Date of the project the very first billing rate is used.
-<br>If an hour is logged after the Planned Completion Date of the project the very last billing rate is used.
-</note><br></li>
-<li value="7">Click <strong>Save</strong>.</li>
-</ol>
-</div>
--->
 
 ## 项目的“记帐费率”部分概述
 
@@ -359,7 +293,7 @@ You cannot specify a
 ## 使用API添加新记帐费率
 
 要使用API为工作角色添加新的记帐费率，请使用&#x200B;*PUT方法*&#x200B;为&#x200B;**Rate**&#x200B;对象执行&#x200B;*setRatesForRole*操作。
-**Rate**&#x200B;对象上的操作和日期字段在API版本8.0中可用。
+**Rate**对象上的操作和日期字段在API版本8.0中可用。
 如果您已经为项目中的工作角色定义了多个记帐费率，并且想要为它添加新日期范围的记帐费率，则必须在同一API调用中同时包含现有费率和要添加的费率。 这类似于更新对象集合的方式。
 
-以下API调用是一个示例，其中&#x200B;**attachableID**&#x200B;是您添加费率的项目的&#x200B;**项目ID**，**RoleID**&#x200B;是您为其添加新计费率的&#x200B;**工作角色ID**。<pre>{</pre><pre>&quot;attachableID&quot;：&quot;593f01500000557d75fdd4fdfcc624f2&quot;，</pre><pre>&quot;attachableObjCode&quot;：&quot;PROJ&quot;，</pre><pre>&quot;roleID&quot;：&quot;544820df000014148cda5136d4b79d09&quot;， </pre><pre>&quot;rates&quot;：[</pre><pre>         {&quot;rateValue&quot;：&quot;0.00&quot;，&quot;startDate&quot;：null，&quot;endDate&quot;：&quot;2017-06-11&quot;}，</pre><pre>         {&quot;rateValue&quot;：&quot;45.00&quot;，&quot;startDate&quot;：&quot;2017-06-12&quot;，&quot;endDate&quot;：&quot;2017-06-17&quot;}，</pre><pre>         {&quot;rateValue&quot;：&quot;95.00&quot;，&quot;startDate&quot;：&quot;2017-06-21&quot;，&quot;endDate&quot;：null}</pre><pre>]</pre><pre>}</pre>有关使用Workfront API的更多信息，请参阅文章[API基础知识](https://experience.workfront.com/s/article/API-Basics-638808549)。
+以下API调用是一个示例，其中&#x200B;**attachableID**&#x200B;是您添加费率的项目的&#x200B;**项目ID**，**RoleID**&#x200B;是您为其添加新计费率的&#x200B;**工作角色ID**。<pre>{</pre><pre>&quot;attachableID&quot;：&quot;593f01500000557d75fdd4fdfcc624f2&quot;，</pre><pre>&quot;attachableObjCode&quot;：&quot;PROJ&quot;，</pre><pre>&quot;roleID&quot;：&quot;544820df000014148cda5136d4b79d09&quot;， </pre><pre>&quot;rates&quot;：[</pre><pre>         {&quot;rateValue&quot;：&quot;0.00&quot;，&quot;startDate&quot;:null，&quot;endDate&quot;：&quot;2017-06-11&quot;}，</pre><pre>         {&quot;rateValue&quot;：&quot;45.00&quot;，&quot;startDate&quot;：&quot;2017-06-12&quot;，&quot;endDate&quot;：&quot;2017-06-17&quot;}，</pre><pre>         {&quot;rateValue&quot;：&quot;95.00&quot;，&quot;startDate&quot;：&quot;2017-06-21&quot;，&quot;endDate&quot;:null}</pre><pre>]</pre><pre>}</pre>有关使用Workfront API的更多信息，请参阅文章[API基础知识](https://experience.workfront.com/s/article/API-Basics-638808549)。

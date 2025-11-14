@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-source-git-commit: 15ea03bf586054f7ef421f8cacede6f42835a6e4
+source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 2%
@@ -60,7 +60,7 @@ ht-degree: 2%
 
 1. 在左侧面板中，单击&#x200B;**系统** > **客户信息**。
 
-   根据您购买的Workfront计划，“客户信息”页面中可能缺少某些部分。 如果您需要了解贵组织使用哪个Workfront计划，请联系您的客户代表。
+   根据您购买的Workfront软件包，“客户信息”页面中可能缺少某些部分。 如果您需要了解贵组织使用哪个Workfront包，请联系您的客户代表。
 
    “客户信息”区域中提供的部分包括：
 
