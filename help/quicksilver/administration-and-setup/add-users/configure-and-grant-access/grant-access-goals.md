@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8639da14-d545-4f9a-894b-12c29699b0db
-source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 1%
+source-wordcount: '269'
+ht-degree: 0%
 
 ---
 
@@ -30,29 +30,49 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront计划</td> 
-   <td> <p>专业或专业以上</p> </td> 
+   <td role="rowheader">Workfront包</td> 
+   <td> <p>Workfront或工作流Ultimate</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td>规划</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td><p>标准</p>
+   <p>规划</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">产品</td> 
-   <td>Workfront Goals <p>请联系您的Workfront客户经理，了解有关Workfront Goals许可证的信息。 </p> <p>Workfront目标仅在新的Adobe Workfront Experience中可用。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>您必须具有系统管理员访问级别。</p> <p><b>注意</b>：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">创建或修改自定义访问级别</a>。</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>您必须具有系统管理员访问级别。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问级别，请与Workfront管理员联系。
-
-有关访问Workfront目标的更多信息，请参阅[使用Workfront目标的要求](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Workfront plan</td> 
+   <td> <p>Pro or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td>Plan</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td>Workfront Goals <p>Contact your Workfront account manager to learn about a Workfront Goals license. </p> <p>Workfront Goals is available only in the new Adobe Workfront experience.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configuration*</td> 
+   <td> <p>You must have the System Administrator access level.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 使用自定义访问级别授予用户访问Workfront目标的权限
 
@@ -69,4 +89,9 @@ ht-degree: 1%
 
 ## 按许可证类型访问Workfront目标
 
-Workfront管理员可以使用访问级别，向拥有计划、工作、请求或审阅许可证的用户授予对Workfront目标的访问权限。
+Workfront管理员可以使用访问级别向具有以下许可证的用户授予对Workfront目标的访问权限：
+
+* 标准、轻量、参与者
+* 计划、工作、请求或审查许可证。
+
+有关访问Workfront目标的更多信息，请参阅[使用Workfront目标的要求](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md)。

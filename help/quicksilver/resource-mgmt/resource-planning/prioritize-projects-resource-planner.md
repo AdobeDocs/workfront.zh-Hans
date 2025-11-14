@@ -6,9 +6,9 @@ description: 项目按优先级在资源规划程序中列出，最重要的项�
 author: Lisa
 feature: Resource Management
 exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1282'
 ht-degree: 1%
 
 ---
@@ -105,9 +105,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->您的公司必须具有业务或更高版本的Workfront计划才能在Portfolio Optimizer中优先处理项目。
+>贵公司必须具有Prime或更高版本的Workfront包，以便在Portfolio Optimizer中优先处理项目。
 >
->有关Workfront计划的详细信息，请参阅[我们的计划](https://business.adobe.com/cn/products/workfront/pricing.html)。
+>有关Workfront包的详细信息，请参阅[Adobe Workfront包和定价](https://business.adobe.com/products/workfront/pricing.html)。
 >
 >有关在Portfolio Optimizer中排列项目优先顺序的信息，请参阅[在Portfolio Optimizer中排列项目优先顺序](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)。
 

@@ -6,9 +6,9 @@ description: 将用户或角色分配给任务时，会为其分配特定小时�
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,10 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   <tr> 
    <td>对象权限</td>
    <td><p>为任务分配或更高权限</p>
-   <p>编辑权限可在使用旧体验编辑任务时，在“编辑任务”框中更新分配小时数。 在新版Experience中编辑任务时，您无法再在“编辑”任务框中管理分配小时数。</p> <p>有关信息，请参阅<a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">编辑任务</a>。</p></td>
+   <p>编辑权限可在使用旧体验编辑任务时，在“编辑任务”框中更新分配小时数。</p> 
+   <p><b>注释</b></p>
+   <p>
+   在新版Experience中编辑任务时，您无法再在“编辑”任务框中管理分配小时数。</p> <p>有关信息，请参阅<a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">编辑任务</a>。</p></td>
   </tr>
  </tbody>
 </table>
