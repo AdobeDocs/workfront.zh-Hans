@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
-source-git-commit: 469242118429fa37835766737b88d35d2baefb69
+source-git-commit: c1c30696dc9ef324103467f3bdcb83609cf5d1d8
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,6 @@ ht-degree: 0%
 Workfront文档操作方法文章包含一个表，其中说明了此过程所需的访问和权限要求。 通过此访问要求表，您可以了解您是否可以在Workfront中执行特定操作，或者为什么您可能无法执行。 本文介绍“访问要求”表的每个元素，并提供故障排除提示以及指向更深入信息的链接。
 
 如果给定文章的“访问要求”表中没有行，则该操作没有此类型的要求。
-
-某些行包含标记为“新”和“当前”的信息。 这是因为Workfront正在过渡到一个新的定价和打包模式，一些组织在该新模式下运营，而其他组织则仍在使用当前模式。 要了解贵组织使用哪种模型，请与Workfront管理员联系。 您可以在本文的[访问要求表](#the-access-requirements-table)部分中找到详细信息和指向信息的链接。
 
 >[!NOTE]
 >
@@ -37,16 +35,16 @@ Workfront文档操作方法文章包含一个表，其中说明了此过程所�
   <tr> 
    <td role="rowheader">Adobe Workfront包</td> 
    <td> Adobe Workfront包是指您的组织已购买的一组功能。 大多数Workfront功能在所有资源包中都可用，只有少数例外，这些功能主要与战略规划和企业控制相关。 <p>2022年以前存在的包不在列表中。</p>
-   <p>Workfront包分为三个区域。 每个区域提供不同的包，如Select、Prime和Ultimate。<p>
+   <p>Workfront包分为三个区域。 某些区域提供了不同的包，如Select、Prime和Ultimate。<p>
    <ul>
-   <li><b>Workfront工作流</b>：包含与操作相关的功能，如任务管理、审批和工时表。</li>
-   <li><b>Workfront计划</b>：包含与战略计划相关的功能。</li>
+   <li><b>Workfront工作流</b>：包含与操作相关的功能，如任务管理、审批和工时表。 此包进一步分为工作流选择、工作流Prime和工作流Ultimate包。</li>
+   <li><b>Workfront计划</b>：包含与战略计划相关的功能。 此包进一步分为Planning Select、Planning Prime和Planning Ultimate包。</li>
    <li><b>Workfront自动化和集成</b>：包括与自动化流程以及与其他应用程序集成相关的功能。</li>
    </ul>
   <p>贵组织可能在这些区域中的一个或多个区域购买了Workfront包。</p>
   <p>以前，Workfront提供Workfront Select、Workfront Prime和Workfront Ultimate包，而不区分工作流、规划以及自动化和集成。 您的组织可能位于这些旧包之一。 
    <ul><li>要了解贵组织使用哪个Adobe Workfront包（包括贵组织使用的是当前打包模型还是旧打包模型），请与Workfront管理员联系。</li>
-   <li>有关Workfront管理员如何找到您组织的Workfront包的说明，请参阅<a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">查看您组织的群集和Workfront包</a>。</li><li>有关Workfront包的更多信息，请参阅<a href="https://business.adobe.com/cn/products/workfront/pricing.html">Adobe Workfront定价和打包</a>。</li></ul> </td> 
+   <li>有关Workfront管理员如何找到您组织的Workfront包的说明，请参阅<a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">查看您组织的群集和Workfront包</a>。</li><li>有关Workfront包的更多信息，请参阅<a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront定价和打包</a>。</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -97,7 +95,7 @@ Workfront文档操作方法文章包含一个表，其中说明了此过程所�
    <ul><li>当前许可证模型基于执行的操作数，对组织可以执行的操作没有限制。 </li>
    <li>旧版许可证基于方案是否能够连接到第三方应用程序，或者方案是否仅用于Workfront自动化。 </li>
    </ul>
-   有关Fusion许可的信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion许可证</a>。
+   有关Fusion许可的信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion许可证</a>。
    </td> 
   </tr> 
  </tbody> 
