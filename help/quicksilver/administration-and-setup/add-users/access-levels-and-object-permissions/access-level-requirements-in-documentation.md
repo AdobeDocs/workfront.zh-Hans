@@ -44,7 +44,7 @@ Workfront文档操作方法文章包含一个表，其中说明了此过程所�
   <p>贵组织可能在这些区域中的一个或多个区域购买了Workfront包。</p>
   <p>以前，Workfront提供Workfront Select、Workfront Prime和Workfront Ultimate包，而不区分工作流、规划以及自动化和集成。 您的组织可能位于这些旧包之一。 
    <ul><li>要了解贵组织使用哪个Adobe Workfront包（包括贵组织使用的是当前打包模型还是旧打包模型），请与Workfront管理员联系。</li>
-   <li>有关Workfront管理员如何找到您组织的Workfront包的说明，请参阅<a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">查看您组织的群集和Workfront包</a>。</li><li>有关Workfront包的更多信息，请参阅<a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront定价和打包</a>。</li></ul> </td> 
+   <li>有关Workfront管理员如何找到您组织的Workfront包的说明，请参阅<a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">查看您组织的群集和Workfront包</a>。</li><li>有关Workfront包的更多信息，请参阅<a href="https://business.adobe.com/cn/products/workfront/pricing.html">Adobe Workfront定价和打包</a>。</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -95,7 +95,7 @@ Workfront文档操作方法文章包含一个表，其中说明了此过程所�
    <ul><li>当前许可证模型基于执行的操作数，对组织可以执行的操作没有限制。 </li>
    <li>旧版许可证基于方案是否能够连接到第三方应用程序，或者方案是否仅用于Workfront自动化。 </li>
    </ul>
-   有关Fusion许可的信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion许可证</a>。
+   有关Fusion许可的信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion许可证</a>。
    </td> 
   </tr> 
  </tbody> 
