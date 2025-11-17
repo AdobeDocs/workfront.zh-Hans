@@ -6,9 +6,9 @@ description: 在项目组合中导航
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+source-git-commit: 6948f9462c59bad9e6db67d6169e5f9dec4157fe
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
@@ -40,16 +40,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>[!UICONTROL 标准版] </p>
-   <p>[!UICONTROL 计划] </p> </td> 
+   <td> <p>[！UICONTROL标准版] </p>
+   <p>[！UICONTROL计划] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[!UICONTROL Edit]对[!UICONTROL 项目]和[!UICONTROL 项目组合]的访问权限</p>  </td> 
+   <td> <p>[！UICONTROL Edit]对[！UICONTROL项目]和[！UICONTROL项目组合]的访问权限</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>项目组合的[!UICONTROL Manage]权限</p> <p>查看项目或更高权限</p>  </td> 
+   <td> <p>项目组合的[！UICONTROL Manage]权限</p> <p>查看项目或更高权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -88,9 +88,8 @@ ht-degree: 0%
 
 ## 在项目组合中导航
 
-1. 单击&#x200B;**[!UICONTROL 右上角的]**&#x200B;主菜单![图标](assets/main-menu-icon.png)主菜单[!DNL Adobe Workfront]。
+{{step1-to-portfolios}}
 
-1. 单击[!UICONTROL 项目组合]。
 1. 从&#x200B;**[!UICONTROL 筛选器]**&#x200B;下拉菜单中，选择以下内容：
 
    * **[!UICONTROL 我拥有的项目组合]**：包含您被指定为[!UICONTROL Portfolio经理]的项目组合列表。
@@ -130,7 +129,7 @@ ht-degree: 0%
      有关创建筛选器的更多信息，请参阅[筛选器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
 
-1. 单击左侧面板中的&#x200B;**[!UICONTROL 程序]**&#x200B;可在项目组合中创建程序或管理现有程序。
+1. 单击左侧面板中的&#x200B;**[!UICONTROL 程序]**可在项目组合中创建程序或管理现有程序。
 有关程序的信息，请参阅[创建和管理程序](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)部分。
 
 1. （可选）展开左侧面板中的&#x200B;**[!UICONTROL Portfolio详细信息]**&#x200B;区域，然后单击&#x200B;**[!UICONTROL 概述]**&#x200B;或&#x200B;**[!UICONTROL 自定义Forms]**&#x200B;以编辑有关项目组合的信息。

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: 8f4c1be156094d18df4bc3628d4f1fca90372119
+source-git-commit: 48bfeb3b950ca1149a919aa204d77db6aa501e01
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '172'
 ht-degree: 1%
 
 ---
@@ -45,3 +45,4 @@ ht-degree: 1%
 * [管理记录页面布局](/help/quicksilver/planning/records/manage-the-record-page.md)
 * [导出记录的详细信息](/help/quicksilver/planning/records/export-the-record-page.md)
 * [从表视图中导出记录](/help/quicksilver/planning/records/export-records-from-the-table-view.md)
+* [将“连接的记录”页面添加到记录](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)

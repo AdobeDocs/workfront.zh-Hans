@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 1ed84baeacda2717c4f58058fb754e7a79b48baf
+source-git-commit: 48bfeb3b950ca1149a919aa204d77db6aa501e01
 workflow-type: tm+mt
-source-wordcount: '2261'
+source-wordcount: '1384'
 ht-degree: 0%
 
 ---
@@ -215,7 +215,7 @@ ht-degree: 0%
 
      或
 
-     单击&#x200B;**下移**&#x200B;以将节下移一个位置。
+     单击&#x200B;**下移**以将节下移一个位置。
 部分中的所有字段都会随部分一起移动。
 
    * 单击&#x200B;**删除**&#x200B;以删除该节。 该部分已被删除，无法恢复。 访问此类型记录的所有用户将不再查看已删除的分区。
@@ -291,127 +291,129 @@ ht-degree: 0%
 
 通过将“连接的记录”页面的选项卡添加到记录，可以查看来自连接的记录或对象的信息。 这会将表视图中的连接记录添加到选项卡。
 
-将“连接的记录”页面添加到记录时，请考虑以下事项：
+有关详细信息，请参阅[将“连接的记录”页面添加到记录](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)。
 
-* 在将记录或对象类型从记录类型的表格视图连接到记录类型后，可以将“连接的记录”页添加到记录中。
+<!--this content has been moved to the page linked above
+Consider the following when adding a Connected records page to a record: 
 
-* 您可以从记录的预览区域或记录的页面添加“连接的记录”页面。
+* You can add a Connected records page to a record after you connected record or object types to the record type from the table view of a record type.
 
-* “连接的记录”页在表格视图中仅显示一个对象或记录类型中的连接对象或记录。 页面不显示该类型的所有记录。
+* You can add a Connected records page from a record's preview area or the record's page.
 
-* 可以为以下连接的记录或对象类型添加“连接的记录”页：
+* Connected records pages display only the connected objects or records from one object or record type in a table view. The page does not display all records of that type. 
 
-   * Workfront Planning记录类型
-   * Workfront项目、项目、项目组合、组或公司。 您可以查看连接的Workfront对象，即使您无权在Workfront中访问它们。
+* You can add Connected records pages for the following connected record or object types:
 
-  >[!NOTE]
-  >
-  > 无法为连接的AEM Assets记录添加“连接的记录”页面。
+   * Workfront Planning record types
+   * Workfront projects, programs, portfolios, groups, or companies. You can view the connected Workfront objects even when you do not have permissions to access them in Workfront. 
 
-要添加“连接的记录”页，请执行以下操作：
+To add a Connected records page:
 
-1. 单击记录名称，从记录类型页面的任意视图中将其打开。
-1. 从以下区域之一单击&#x200B;**添加页面**：
+1. Click the name of the record to open it from any view of a record type page. 
+1. Click **Add page** from one of the following areas: 
 
-   * 记录的预览窗口
-   * 记录的详细信息页面，在单击预览页面右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开详细信息](assets/open-details-in-a-new-tab-icon.png)之后。
+   * The record's preview window
+   * The record's details page, after clicking the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview page.  
 
-   将打开&#x200B;**创建页面**&#x200B;框。
+   The **Create page** box opens.
 
-   ![添加连接的记录页面模式](assets/add-connection-view-page-modal.png)
+   ![Add Connected records page modal](assets/add-connection-view-page-modal.png) 
 
-1. 添加&#x200B;**页面名称**，单击&#x200B;**连接的记录页面**，然后单击&#x200B;**创建**。
+1. Add the **Page name**, click **Connected records page**, then click **Create**.
 
-   新的已连接记录页面将作为新选项卡添加到记录页面。
+   A new connected records page is added as a new tab to the record's page.
+   
+   The records that are connected to the current record display in the table view.  
 
-   连接到当前记录的记录将显示在表格视图中。
+      >[!TIP]
+      >
+      >You must add connected records in the table or Details area of a record before you can display them in a connected records page.
 
-   >[!TIP]
-   >
-   >您必须在记录的表或详细信息区域中添加已连接的记录，然后才能在已连接的记录页面中显示它们。
+   (^^^^^^All fields of the connected record display in the table view of the connected record's tab.^^^^^^^^)
+   
+   The first five fields of the connected records display by default. (^^^^No lookup fields display by default.^^^^^^^)
 
-   <!--All fields of the connected record display in the table view of the connected record's tab.-->
+   ![Audience connected table view under campaign details](assets/audience-connected-table-view-under-campaign-details-page.png)
 
-   默认情况下，将显示连接的记录的前五个字段。<!--No lookup fields display by default.-->
+1. (Optional) Search for or click the name of a connected record or object type in the list.
 
-   在营销活动详细信息下![受众连接的表视图](assets/audience-connected-table-view-under-campaign-details-page.png)
+1. (Optional and conditional) In the table view of the connected records page, do any of the following when viewing connected Planning records or any Workfront objects except for projects: 
 
-1. （可选）搜索或单击列表中连接的记录或对象类型的名称。
+   * Click the name of a record. This opens the record's page in a new tab. 
 
-1. （可选且有条件）在“连接的记录”页面的表视图中，在查看连接的Planning记录或除项目之外的任何Workfront对象时，执行以下任一操作： <!--or AEM Assets--> <!--AEM is not available yet?? see note below-->
+   * Click **Connect** at the bottom of the table view to connect more records, then click outside the connection box to close it. The new records are automatically added to the table. 
 
-   * 单击记录名称。 这将在新选项卡中打开记录页面。
+      For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+   * Edit any information from the connected records inline in the table view. 
 
-   * 单击表视图底部的&#x200B;**连接**&#x200B;以连接更多记录，然后单击连接框外部将其关闭。 新记录将自动添加到表中。
+   * Hover over a connected record's name, then click the **More** menu ![More menu](assets/more-menu.png)
+   
+      Or 
+      
+      Select one of the records, then click one of the following options in the blue bar at the bottom of the list: 
 
-     有关信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。
-   * 在表视图中内联编辑来自连接记录的任何信息。
+      * **View** to open the record page in a new tab
+      * **Copy link** to copy a link to the record page
+      * **Edit thumbnail** to open the **Record thumbnail** box and edit the record's thumbnail image
+      * **Duplicate** to duplicate the connected record. The duplicated record is also connected to the current record.
+      * **Insert record above or below** to add new records to the connected record type. New records added here are also connected to the current record. This option is not available in the blue bar when selecting a record in the table.
+      * **Delete** to delete the record. Deleting a connected record deletes it from its record type and from everywhere where the record is connected.
 
-   * 将鼠标悬停在已连接记录的名称上，然后单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)
+      For information about editing records in the table view, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
 
-     或
+      >[!TIP]
+      >
+      >You can select more than one record or object to delete them.
 
-     选择其中一个记录，然后单击列表底部蓝色栏中的以下选项之一：
+   * Inline edit any of the Planning records in the table on the Connected records page. 
+   
+      All other Workfront objects display in a read-only table view and you cannot edit them. 
+   
+1. (Optional and conditional) In the table view of the connected records page, do any of the following when viewing connected Workfront projects:
 
-      * **查看**&#x200B;以在新选项卡中打开记录页面
-      * **复制链接**&#x200B;以复制指向记录页面的链接
-      * **编辑缩略图**&#x200B;以打开&#x200B;**记录缩略图**&#x200B;框并编辑记录的缩略图图像
-      * **复制**&#x200B;以复制连接的记录。 重复记录也连接到当前记录。
-      * **在上方或下方插入记录**&#x200B;以将新记录添加到连接的记录类型。 此处添加的新记录也将连接到当前记录。 在表中选择记录时，此选项在蓝色栏中不可用。
-      * **删除**&#x200B;以删除记录。 删除已连接的记录会将其从记录类型以及连接记录的所有位置删除。
+     * Click **Connect records** in the upper-right corner of the connected record page to connect existing projects.
 
-     有关编辑表视图中的记录的信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
+      For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+     * Inline edit project information in the table.
+     * Click **New row** to create a project without a template. The new project is connected to the current record immediately.
 
-     >[!TIP]
-     >
-     >您可以选择多个记录或对象来删除它们。
+         For more information, see [Create Workfront objects from Workfront Planning as you connect them to records](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+     * Hover over a project and click the **More** menu [More menu](assets/more-menu.png)
+     
+         Or
 
-   * 在“连接的记录”页面上的表中内联编辑任何Planning记录。
+         Select one or more projects, and notice the blue bar at the bottom of the list, then click one of the following:
+         
+         * **Delete** to delete the project. Deleting a project disconnects it from the record and moves it to the Workfront's Recycle Bin. 
+         * **Disconnect** to disconnect the project from the record. Disconnecting a project removes it and all the values of its lookup fields from the current record.
+      
+1. (Optional) Double-click the name of the **Connected records page** tab
 
-     所有其他Workfront对象都以只读表格视图显示，您无法对其进行编辑。
+   Or
 
-1. （可选且视情况而定）在“连接的记录”页面的表视图中，在查看连接的Workfront项目时执行以下任一操作：
+   Hover over the name of the tab, then click **More** ![More menu](assets/more-menu.png), then click **Rename** to rename to new Connected view tab.
+1. (Optional) Use any of the following view elements in the toolbar of a connected record page to manage the table view:
 
-   * 单击已连接记录页面右上角的&#x200B;**连接记录**&#x200B;以连接现有项目。
+   * Filters
+   * Sort
+   * Grouping
+   * Fields, to display, hide, or rearrange fields
+   * Row height
+   * Search
 
-   有关信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。
-   * 在表中内联编辑项目信息。
-   * 单击&#x200B;**新建行**&#x200B;以创建没有模板的项目。 新项目立即连接到当前记录。
-
-     有关详细信息，请参阅将Workfront对象连接到记录时[从Workfront Planning创建对象](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
-   * 将鼠标悬停在项目上并单击&#x200B;**更多**&#x200B;菜单[更多](assets/more-menu.png)
-
-     或
-
-     选择一个或多个项目，并注意列表底部的蓝色栏，然后单击以下项之一：
-
-      * **删除**&#x200B;以删除项目。 删除项目会断开它与记录的连接，并将其移到Workfront的回收站。
-      * **断开连接**&#x200B;以断开项目与记录的连接。 断开项目连接会将其及其查找字段的所有值从当前记录中删除。
-
-1. （可选）双击&#x200B;**连接的记录页**&#x200B;选项卡的名称
-
-   或
-
-   将鼠标悬停在该选项卡的名称上，然后单击&#x200B;**更多** ![更多菜单](assets/more-menu.png)，然后单击&#x200B;**重命名**&#x200B;以重命名为新的“连接的视图”选项卡。
-1. （可选）在连接的记录页面的工具栏中使用以下任何视图元素来管理表格视图：
-
-   * 过滤器
-   * 排序
-   * 分组
-   * 字段，用于显示、隐藏或重新排列字段
-   * 行高
-   * 搜索
-
-   有关信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)。
+   For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
 
    >[!NOTE]
    >
-   >不能在已连接记录选项卡的表视图中创建、编辑或删除字段。
+   >You cannot create, edit, or delete fields in the table view of a connected record's tab.
+   
+1. (Optional)  Hover over the name of the Connected records page tab, click **More** ![More menu](assets/more-menu.png), then click **Delete** to remove to tab.-->
 
-1. （可选）将鼠标悬停在“连接的记录”页选项卡的名称上，单击&#x200B;**更多** ![更多菜单](assets/more-menu.png)，然后单击&#x200B;**删除**&#x200B;以移至“选项卡”。
 
 <!--
-## Add a Brief page to a record's page
+## Add a Brief page to a record
+
+(^^^^^^^^^^move this content to its own article, like you did above - leave the header here with a link^^^^^^^^^^^^)
 
 You can add a Brief page to the record's preview or pages. 
 

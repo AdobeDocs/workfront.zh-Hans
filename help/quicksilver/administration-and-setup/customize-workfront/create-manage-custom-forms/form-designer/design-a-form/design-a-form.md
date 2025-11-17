@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: f741cee4fffc3bc4d686709bc35eda2d5954b04e
+source-git-commit: d6a54f22cfae73403278868b9c22727d1cb58e39
 workflow-type: tm+mt
-source-wordcount: '6933'
+source-wordcount: '6897'
 ht-degree: 5%
 
 ---
@@ -651,12 +651,12 @@ ht-degree: 5%
       <td role="rowheader">JSON 路径</td>
       <td><p>键入或粘贴API的JSON路径。</p> <p>此选项允许从API URL返回的JSON中提取数据。 它提供了一种方法，用于选择在JSON内的哪些值将显示在下拉选项中。</p><p>例如，如果API URL按以下格式返回JSON，则可以使用“$.data[*].name”选择“美国”和“加拿大”作为下拉选项：</br>
       <pre>
-      &lbrace;
-       数据： &lbrace;
+      {
+       数据： {
          { name： "USA"}，
          { name： "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>有关JSON路径并确保编写正确JSON路径的更多信息，请参阅<a href="https://jsonpath.com/">https://jsonpath.com/</a>。</p></td>
@@ -983,13 +983,9 @@ The Workfront Mobile app -->
 >
 >本节中的信息介绍了Adobe Workfront Planning，它是Adobe Workfront的一项附加功能。
 >
->要访问Workfront Planning，您必须具备以下条件：
+>要访问Workfront Planning，您必须具有其他包。
 >
->* 新的Workfront包和许可证。 Workfront Planning不适用于旧版Workfront计划或许可证。
->* Workfront Planning的附加包。
->* 您组织的Workfront实例必须载入到Adobe Unified Experience。
->
-> 有关访问Workfront Planning的完整要求列表，请参阅[Adobe Workfront Planning访问概述](/help/quicksilver/planning/access/access-overview.md)。
+>有关访问Workfront Planning的完整要求列表，请参阅[Adobe Workfront Planning访问概述](/help/quicksilver/planning/access/access-overview.md)。
 > 
 >有关Workfront Planning的更多信息，请参阅[Adobe Workfront Planning概述](/help/quicksilver/planning/general/planning-overview.md)。
 
