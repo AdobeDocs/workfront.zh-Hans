@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+source-git-commit: f741cee4fffc3bc4d686709bc35eda2d5954b04e
 workflow-type: tm+mt
 source-wordcount: '6933'
 ht-degree: 5%
@@ -60,7 +60,7 @@ ht-degree: 5%
 1. 单击&#x200B;**新建自定义表单。**
 1. 选择要将自定义表单附加到的对象类型，然后单击&#x200B;**继续**。
 
-   ![选择对象类型](assets/choose-object-type.jpg)
+   ![选择对象类型](assets/new-custom-form-select-objects.png)
 
 1. 在&#x200B;**添加表单名称**&#x200B;区域，键入自定义表单标题。
 1. （可选）如果要向表单中添加更多对象类型，以便可以将其附加到更多对象，请单击&#x200B;**对象类型**&#x200B;旁边的![添加](assets/add-objects-icon.png)图标&#x200B;**添加对象图标**，然后在显示的菜单中选择所需的类型。 您可以重复此操作，以添加所需数量的对象类型。
@@ -651,12 +651,12 @@ ht-degree: 5%
       <td role="rowheader">JSON 路径</td>
       <td><p>键入或粘贴API的JSON路径。</p> <p>此选项允许从API URL返回的JSON中提取数据。 它提供了一种方法，用于选择在JSON内的哪些值将显示在下拉选项中。</p><p>例如，如果API URL按以下格式返回JSON，则可以使用“$.data[*].name”选择“美国”和“加拿大”作为下拉选项：</br>
       <pre>
-      &lbrace;
-       数据： &lbrace;
+      {
+       数据： {
          { name： "USA"}，
          { name： "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>有关JSON路径并确保编写正确JSON路径的更多信息，请参阅<a href="https://jsonpath.com/">https://jsonpath.com/</a>。</p></td>
