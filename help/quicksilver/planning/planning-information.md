@@ -87,7 +87,7 @@ ht-degree: 0%
 
 * [Adobe Workfront Planning API基础知识](/help/quicksilver/planning/general/planning-api-basics.md)： Adobe Workfront Planning API的目标是通过引入通过HTTP运行的REST-ful架构，简化与Planning的生成集成。
 
-* [适用于Workfront Fusion的Adobe Workfront规划模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：使用Adobe Workfront规划模块，可以在Workfront规划中发生事件时触发方案。 您还可以创建、读取、更新和删除记录，或对Adobe Workfront Planning帐户执行自定义API调用。
+* [适用于Workfront Fusion的Adobe Workfront规划模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：使用Adobe Workfront规划模块，可以在Workfront规划中发生事件时触发方案。 您还可以创建、读取、更新和删除记录，或对Adobe Workfront Planning帐户执行自定义API调用。
 
 * [Adobe Workfront Planning AI助手概述](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)：使用Workfront AI Assistant for Planning，您可以使用命令搜索记录，或者创建、更新和删除记录，并让助手为您完成工作。
 
