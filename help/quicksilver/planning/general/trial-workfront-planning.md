@@ -7,9 +7,9 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: ce986a912c2ee231b9dc2e1c7a3e9587b20aa0ba
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 # Adobe Workfront Planning免费试用版快速入门
 
 Adobe Workfront目前提供Adobe Workfront Planning的60天免费试用。
+
+此案将于以下日期进行审理：2025年2月1日至4月1日。
 
 这次试用让您有机会了解Planning如何将大局战略与日常工作联系起来，从而使其实现。
 
@@ -46,14 +48,33 @@ Planning提供了营销生命周期的集中可视性，实现了跨团队更好
 要查阅并接受法律协议，请执行以下操作：
 
 1. 以系统管理员身份登录到Adobe Workfront。
-1. 转到&#x200B;**设置** > **系统** > **首选项**。
-1. 在&#x200B;**其他首选项**&#x200B;部分中单击&#x200B;**查看试用协议**。
+1. （视情况而定）当审判开庭时，系统管理员将收到审判邀请，并附上他们接受法律协议的链接。
 
-<!-- finish these steps-->
+   或
+
+   转到&#x200B;**设置** > **系统** > **首选项**。
+1. 在&#x200B;**其他首选项**&#x200B;部分中单击&#x200B;**查看试用协议**。
+1. 查看协议后，单击&#x200B;**接受**。
+
+   贵组织现已注册Workfront Planning试用版，有效期至2025年4月1日。
+
+   以下权限授予&#x200B;**计划试用版**&#x200B;区域的&#x200B;**最佳实践工作区**&#x200B;选项卡中的可用数据：
+
+   * 所有系统管理员都具有管理权限。
+   * 所有其他用户均具有查看权限。
+1. （可选）开始浏览&#x200B;**最佳实践工作区**&#x200B;选项卡并与他人共享工作区或其对象。
+
+   有关使用Workfront Planning的更多信息，请参阅[Adobe Workfront Planning入门](/help/quicksilver/planning/general/planning-overview.md)。
+
+<!-- finish these steps and check to see if the UI elements are spelled correctly; also if the trial agreement is accessible according to the steps aboe - ???  -->
 
 ## 重要日期概述
 
 以下是与Adobe Workfront Planning免费试用产品相关的一些重要日期：
+
+* 2025年2月1日 — Workfront计划试用版
+* 2025年4月1日 — Workfront计划试验结束。 Workfront可保护您的数据在试用期结束后6个月内的安全。
+* 2025年11月30日 — 在此日期之后，Workfront不再提供您的数据。
 
 <!--## Overview of the access to Workfront Planning -->
 

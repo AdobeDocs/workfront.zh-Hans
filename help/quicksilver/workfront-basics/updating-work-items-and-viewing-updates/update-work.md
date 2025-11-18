@@ -6,10 +6,10 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '3201'
-ht-degree: 0%
+source-wordcount: '3203'
+ht-degree: 1%
 
 ---
 
@@ -66,9 +66,9 @@ ht-degree: 0%
 
 * [管理记录注释](/help/quicksilver/planning/records/manage-record-comments.md)
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -77,7 +77,7 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront包</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront 包</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -273,7 +273,7 @@ You can add updates to the following objects:
 
 1. 找到要添加注释的对象，然后单击其名称以打开该对象的页面。
 1. 单击左侧面板中的&#x200B;**更新**。
-默认情况下已选中&#x200B;**评论**&#x200B;选项卡。
+默认情况下已选中**评论**&#x200B;选项卡。
 
 1. <span class="preview">开始在&#x200B;**新评论**&#x200B;框中输入评论。</span>
 
@@ -421,7 +421,7 @@ You can add updates to the following objects:
    >
    >* 目标
    >* 展示板上的临时信息卡
-   >* Workfront规划中的记录。 有关信息，请参阅[Adobe Workfront规划概述](/help/quicksilver/planning/general/planning-overview.md)
+   >* Workfront规划中的记录。 有关信息，请参阅[Adobe Workfront规划入门](/help/quicksilver/planning/general/planning-overview.md)
    >
 
    要将图像附加到更新，请执行下列操作之一：

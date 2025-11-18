@@ -1,19 +1,19 @@
 ---
-title: Adobe Workfront规划概述
+title: Adobe Workfront Planning入门
 description: Adobe Workfront Planning是Adobe Workfront的一项附加功能。 您可以创建完全可自定义的工作区，以定义满足企业中每个组织单位需求的工作流。
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '2040'
+source-wordcount: '2046'
 ht-degree: 1%
 
 ---
 
-# Adobe Workfront规划概述
+# Adobe Workfront Planning入门
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
@@ -38,7 +38,7 @@ ht-degree: 1%
 
 本文包含有关Workfront Planning的一般信息。
 
-有关包含Workfront Planning文档的文章的完整列表，请参阅[Adobe Workfront Planning：文章索引](/help/quicksilver/planning/planning-information.md)。
+有关包含Workfront Planning文档的完整文章列表，请参阅[有关Adobe Workfront Planning的一般信息](/help/quicksilver/planning/planning-information.md)。
 
 ## Adobe Workfront Planning简介
 
@@ -394,7 +394,7 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
 ## Workfront Planning的其他资源
 
-* [Adobe Workfront Planning：文章索引](/help/quicksilver/planning/planning-information.md)：包含有关Workfront Planning文档的所有文章的索引，按关注区域分组。
+* [有关Adobe Workfront Planning的一般信息](/help/quicksilver/planning/planning-information.md)：包含有关Workfront Planning文档的所有文章的索引，按关注区域分组。
 * [Adobe Workfront Planning AI助手概述](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)：使用Workfront AI Assistant for Planning，您可以使用命令搜索记录，或者创建、更新和删除记录，并让助手为您完成工作。
 
   <!--
@@ -402,7 +402,7 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
 
-* [适用于Workfront Fusion的Adobe Workfront规划模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：使用Adobe Workfront规划模块，可以在Workfront规划中发生事件时触发方案。 您还可以创建、读取、更新和删除记录，或对Adobe Workfront Planning帐户执行自定义API调用。
+* [适用于Workfront Fusion的Adobe Workfront规划模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：使用Adobe Workfront规划模块，可以在Workfront规划中发生事件时触发方案。 您还可以创建、读取、更新和删除记录，或对Adobe Workfront Planning帐户执行自定义API调用。
 
 * [Adobe Workfront Planning API基础知识](/help/quicksilver/planning/general/planning-api-basics.md)： Adobe Workfront Planning API的目标是通过引入通过HTTP运行的REST-ful架构，简化与Planning的生成集成。
 

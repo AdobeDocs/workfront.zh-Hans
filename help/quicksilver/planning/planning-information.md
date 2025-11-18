@@ -1,19 +1,22 @@
 ---
-title: Adobe Workfront规划信息：文章索引
+title: 有关Adobe Workfront Planning的一般信息
 description: 作为营销运营负责人，您可以使用Adobe Workfront Planning为所有团队在营销生命周期中组织工作。 此部分中的文章介绍如何配置规划功能，以及如何开始将它们用作营销活动管理操作的一部分。
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront规划：文章索引
+# 有关Adobe Workfront Planning的一般信息
+
+<!--DO NOT CHANGE LINK OR CONTENT:  this is linked to an Experience League article that is hard coded by Adobe: https://experienceleague.adobe.com/en/docs/workfront-->
+<!--this articles used to be called "Adobe Workfront Planning: article index"-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -26,20 +29,7 @@ ht-degree: 0%
 
 以下各节中的文章介绍了如何配置Workfront Planning并开始使用它。
 
-<!--consider removing the IMPORTANT below after GA-->
-
->[!IMPORTANT]
->
->在将功能发布到生产环境后的某个时间，将可以使用以下部分中引用的文档。
-
-## 有关Adobe Workfront Planning的一般信息
-
-访问以下文章，了解有关新Workfront规划的常规信息：
-
-* [Adobe Workfront计划概述](/help/quicksilver/planning/general/planning-overview.md)： Adobe Workfront计划高级概述，包括此解决方案特有的术语和概念。 我们建议您在此处通过Workfront规划开始您的历程。
-* [Adobe Workfront Planning对象限制概述](/help/quicksilver/planning/general/limitations-overview.md)：您可以在Workfront Planning中创建的对象数限制列表。
-* [Adobe Workfront Planning发行活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)： Workfront Planning所有发行说明的列表，从2024年第四季度发行开始。
-* [Adobe Workfront Planning最佳实践](/help/quicksilver/planning/general/planning-best-practices.md)：有关使用Workfront Planning的常见问题和最佳实践的集合。
+有关一般信息和了解Adobe Workfront Planning的术语，请参阅[Adobe Workfront Planning入门](/help/quicksilver/planning/general/planning-overview.md)
 
 ## Workfront规划架构和功能
 
@@ -57,6 +47,7 @@ ht-degree: 0%
 
    * 创建、编辑、删除工作区
    * 创建、编辑和删除记录类型
+   * 创建全局记录类型
    * 连接记录类型和连接记录类型的示例
    * Workspace模板
 
@@ -96,7 +87,7 @@ ht-degree: 0%
 
 * [Adobe Workfront Planning API基础知识](/help/quicksilver/planning/general/planning-api-basics.md)： Adobe Workfront Planning API的目标是通过引入通过HTTP运行的REST-ful架构，简化与Planning的生成集成。
 
-* [适用于Workfront Fusion的Adobe Workfront规划模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：使用Adobe Workfront规划模块，可以在Workfront规划中发生事件时触发方案。 您还可以创建、读取、更新和删除记录，或对Adobe Workfront Planning帐户执行自定义API调用。
+* [适用于Workfront Fusion的Adobe Workfront规划模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：使用Adobe Workfront规划模块，可以在Workfront规划中发生事件时触发方案。 您还可以创建、读取、更新和删除记录，或对Adobe Workfront Planning帐户执行自定义API调用。
 
 * [Adobe Workfront Planning AI助手概述](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)：使用Workfront AI Assistant for Planning，您可以使用命令搜索记录，或者创建、更新和删除记录，并让助手为您完成工作。
 

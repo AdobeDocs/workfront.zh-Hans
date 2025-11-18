@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: b333ea67bb909ca55306f6474832c275ebad590c
+source-git-commit: 29af5a01c1d5fcec35ac0061a478e5721f6770c0
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '411'
 ht-degree: 23%
 
 ---
@@ -39,107 +39,107 @@ ht-degree: 23%
     </tr>
     <tr>
         <td>项目</td>
-        <td>编辑</td>
-        <td>查看</td>
-        <td>查看</td>
+        <td>Edit</td>
+        <td>视图</td>
+        <td>视图</td>
         <td>无访问权限</td>
     </tr>
     <tr>
         <td>任务</td>
-        <td>编辑</td>
-        <td>查看</td>
-        <td>查看</td>
-        <td>查看</td>
+        <td>Edit</td>
+        <td>视图</td>
+        <td>视图</td>
+        <td>无访问权限</td>
     </tr>
     <tr>
         <td>问题</td>
-        <td>编辑</td>
-        <td>编辑</td>
-        <td>编辑</td>
+        <td>Edit</td>
+        <td>Edit</td>
+        <td>Edit</td>
         <td>无访问权限</td>
     </tr>
     <tr>
         <td>项目组合</td>
-        <td>编辑</td>
-        <td>查看</td>
-        <td>查看</td>
+        <td>Edit</td>
+        <td>视图</td>
+        <td>视图</td>
         <td>无访问权限</td>
     </tr>
     <tr>
         <td>项目群</td>
-        <td>编辑</td>
-        <td>查看</td>
-        <td>查看</td>
+        <td>Edit</td>
+        <td>视图</td>
+        <td>视图</td>
         <td>无访问权限</td>
     </tr>
     <tr>
         <td>报告、功能板和日历</td>
-        <td>编辑</td>
-        <td>查看</td>
+        <td>Edit</td>
+        <td>视图</td>
         <td>视图*</td>
         <td>查看（仅用于日历，无共享权限）</td>
     </tr>
     <tr>
         <td>过滤器、视图和分组</td>
-        <td>编辑</td>
-        <td>编辑</td>
-        <td>编辑</td>
+        <td>Edit</td>
+        <td>Edit</td>
+        <td>Edit</td>
         <td>无访问权限</td>
     </tr>
     <tr>
         <td>文档</td>
-        <td>编辑</td>
-        <td>编辑</td>
-        <td>编辑</td>
+        <td>Edit</td>
+        <td>Edit</td>
+        <td>Edit</td>
         <td>查看（无共享权限）</td>
     </tr>
     <tr>
         <td>用户</td>
-        <td>编辑</td>
-        <td>查看</td>
-        <td>查看</td>
-        <td>查看</td>
+        <td>Edit</td>
+        <td>视图</td>
+        <td>视图</td>
+        <td>视图</td>
     </tr>
     <tr>
         <td>团队</td>
-        <td>编辑</td>
-        <td>查看</td>
-        <td>查看</td>
+        <td>Edit</td>
+        <td>视图</td>
+        <td>视图</td>
         <td>无访问权限</td>
     </tr>
     <tr>
         <td>模板</td>
-        <td>编辑</td>
+        <td>Edit</td>
         <td>无访问权限</td>
         <td>无访问权限</td>
         <td>无访问权限</td>
     </tr>
     <tr>
         <td>财务数据</td>
-        <td>编辑</td>
+        <td>Edit</td>
         <td>无访问权限</td>
         <td>无访问权限</td>
         <td>无访问权限</td>
     </tr>
     <tr>
         <td>资源管理</td>
-        <td>编辑</td>
-        <td>查看</td>
+        <td>Edit</td>
+        <td>视图</td>
         <td>无访问权限</td>
         <td>无访问权限</td>
     </tr>
     <tr>
         <td>场景计划器</td>
-        <td>编辑</td>
-        <td>查看</td>
+        <td>Edit</td>
+        <td>视图</td>
         <td>无访问权限</td>
         <td>无访问权限</td>
     </tr>
     <tr>
         <td>Workfront Goals</td>
-        <td>编辑</td>
-        <td>编辑</td>
-        <td>编辑</td>
+        <td>Edit</td>
+        <td>Edit</td>
+        <td>Edit</td>
         <td>无访问权限</td>
     </tr>
 </table>

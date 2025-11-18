@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 718ed3efd56c532693d26cc067041bedbc71cca0
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '7386'
+source-wordcount: '7392'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ ht-degree: 0%
 作为工作区管理员，您现在可以为公式字段中显示的值定义格式。 您可以从以下格式中进行选择：
 
 * 单行文本
-* 数字
+* 数值
 * 百分比
 * 货币
 * 日期
@@ -615,7 +615,7 @@ AI Assistant当前处于测试阶段，可供某些客户使用。 请联系您�
 
 * Workfront Planning快速入门教程
 
-有关详细信息，请参阅[Adobe Workfront规划概述](/help/quicksilver/planning/general/planning-overview.md)。
+有关详细信息，请参阅[Adobe Workfront规划入门](/help/quicksilver/planning/general/planning-overview.md)。
 
 ### Workfront Planning的新用户引导体验
 
@@ -663,7 +663,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 预览：待定
 
-我们更新了主菜单中Planning区域图标的外观。 有关信息，请参阅[Adobe Workfront规划概述](/help/quicksilver/planning/general/planning-overview.md)。
+我们更新了主菜单中Planning区域图标的外观。 有关信息，请参阅[Adobe Workfront规划入门](/help/quicksilver/planning/general/planning-overview.md)。
 
 ### 重命名Workfront计划程序
 
@@ -918,7 +918,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 我们已将主菜单中的Maestro区域重命名为Planning。
 
-有关Adobe Workfront规划的概述，请参阅[Adobe Workfront规划概述](/help/quicksilver/planning/general/planning-overview.md)。
+有关Adobe Workfront Planning的概述，请参阅[Adobe Workfront Planning入门](/help/quicksilver/planning/general/planning-overview.md)。
 
 ### 删除记录类型时的新体验
 
@@ -1058,7 +1058,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 您可以将行高度更新为以下大小之一：
 
 * 短
-* 中
+* 媒介
 * 高。
 
 有关详细信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)。

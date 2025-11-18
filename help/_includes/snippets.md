@@ -1,7 +1,7 @@
 ---
-source-git-commit: 0841594c855c39fedf4eab5492994ff4f7acfbdf
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '2607'
+source-wordcount: '2609'
 ht-degree: 1%
 
 ---
@@ -292,7 +292,7 @@ ht-degree: 1%
 >
 >有关访问Workfront Planning的要求列表，请参阅[Adobe Workfront Planning访问概述](/help/quicksilver/planning/access/access-overview.md)。
 > 
->有关Workfront Planning的一般信息，请参阅[Adobe Workfront规划概述](/help/quicksilver/planning/general/planning-overview.md)。
+>有关Workfront Planning的一般信息，请参阅[Adobe Workfront Planning入门](/help/quicksilver/planning/general/planning-overview.md)。
 
 <!--Old - before Oct. 15, 2025:
 >[!IMPORTANT]
@@ -307,7 +307,7 @@ ht-degree: 1%
 >
 > For a complete list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
 > 
->For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).-->
+>For more information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).-->
 
 <!--OLD: 
 >[!IMPORTANT]
@@ -320,7 +320,7 @@ ht-degree: 1%
 >
 >Your account representative will inform you if you are part of this stage.
 >
->For more information, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
+>For more information, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 -->
 
 <!-- Manage Work -->

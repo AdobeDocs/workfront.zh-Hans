@@ -6,10 +6,10 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 1%
+source-wordcount: '811'
+ht-degree: 2%
 
 ---
 
@@ -32,13 +32,13 @@ ht-degree: 1%
 >
 >有关更多信息，请与您的客户经理联系
 >
->有关Workfront Planning的更多信息，请参阅[Adobe Workfront Planning概述](/help/quicksilver/planning/general/planning-overview.md)。
+>有关Workfront Planning的更多信息，请参阅[Adobe Workfront Planning入门](/help/quicksilver/planning/general/planning-overview.md)。
 
 使用Adobe Workfront Planning时，存在许可证和共享权限限制。
 
 本文介绍了使用Workfront Planning功能所需的访问和设置。
 
-## 访问要求
+## 访问权限要求
 
 <!--do not collapse the access requirements below - this is the main article about Access overview-->
 
@@ -54,7 +54,7 @@ ht-degree: 1%
  <tbody>
     <tr>
  <tr>
-   <td role="rowheader"><p>Adobe Workfront包</p></td>
+   <td role="rowheader"><p>Adobe Workfront 包</p></td>
    <td>
    <p>任何Workfront和Planning包</p>
    <p>任何工作流和计划包</p>
@@ -174,7 +174,7 @@ Workfront Planning没有Workfront访问级别控制。
 
 您可以在Workfront Planning中向以下实体授予权限：
 
-* Workspace
+* 工作区
 * 记录类型
 * 视图
 
