@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8c4e4fbb-2f21-43a1-bfb0-d23ac1a33705
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: 15ffe027c281782bcaa4df229badc134d91195a0
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -14,8 +14,9 @@ ht-degree: 0%
 ---
 
 
-
 # Adobe Workfront规划一般信息：文章索引
+
+{{planning-important-intro}}
 
 作为营销运营负责人，您可以使用Adobe Workfront Planning为所有团队在营销生命周期中组织工作。 此部分中的文章介绍有关Workfront Planning的一般概念以及如何实施的最佳实践，并概述当前可用的一些功能。
 
@@ -29,6 +30,6 @@ ht-degree: 0%
 * [Adobe Workfront 2023年计划发布活动](/help/quicksilver/planning/general/release-activity-archives-2023.md)
 * [Adobe Workfront Planning对象限制概述](/help/quicksilver/planning/general/limitations-overview.md)
 * [Adobe Workfront规划最佳实践](/help/quicksilver/planning/general/planning-best-practices.md)
-
+  <!--* [Get started with the Adobe Workfront Planning free trial](/help/quicksilver/planning/general/trial-workfront-planning.md)-->
 
 
