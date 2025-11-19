@@ -4,9 +4,9 @@ description: Workfront UI Extensions 由 Adobe App Builder 提供支持，允许
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 1c2422f61e3db6fbe05cd03b9fbc1f17e906ebad
 workflow-type: tm+mt
-source-wordcount: '2178'
+source-wordcount: '2285'
 ht-degree: 0%
 
 ---
@@ -160,13 +160,13 @@ GitHub和Adobe Developer网站上提供了其他说明：
 在ExtensionRegistration函数中，您应该会看到以下代码。 此代码由模板为您创建。 可以添加此代码以创建其他菜单项。 请务必替换ID和URL。
 
     “
-    mainMenu： &lbrace;
+    mainMenu： {
     
-    getItems() &lbrace;
+    getItems() {
     
-    return &lbrack;
+    return [
     
-    &lbrace;
+    {
     
     id： &#39;main-menu-label&#39;，
     
@@ -176,13 +176,13 @@ GitHub和Adobe Developer网站上提供了其他说明：
     
     icon： icon1，
     
-    &rbrace;，
+    }，
     
-    &rbrack;；
+    ]；
     
     ，
     
-    &rbrace;
+    }
     “
 ”
 1. 添加以下代码片段：
@@ -438,6 +438,19 @@ Workfront的UI扩展共享用户数据。 通过共享上下文提供的用户�
 如果配置正确完成，则在Workfront中重新加载布局模板页面时，您将看到App Builder应用程序中的按钮。 将应用程序按钮添加到对象的主菜单和左侧面板，并验证它们是否正确显示在这些区域中。
 
 Adobe Developer网站上提供了其他说明，例如，AEM网站： https://developer.adobe.com/uix/docs/guides/preview-extension-locally/
+
+### 禁用标记以允许在Chrome版本142及更高版本上进行本地测试
+
+Chrome版本142引入了本地网络访问限制。 这些限制可能会干扰本地测试环境。
+
+要解决此问题，必须通过关闭Chrome设置中的相应标志来禁用本地网络访问检查： `chrome://flags/#local-network-access-check`。
+
+禁用标记
+
+1. 打开Chrome并在地址栏中键入`chrome://flags`，然后按&#x200B;**Enter**。
+1. 在顶部的搜索栏中，键入&#x200B;**本地网络访问检查**。
+1. 单击&#x200B;**本地网络访问检查**&#x200B;标记旁边的下拉菜单，然后选择“禁用”。
+1. 单击屏幕底部显示的&#x200B;**重新启动**&#x200B;按钮以应用更改。
 
 ## 发布应用程序并批准提交
 
