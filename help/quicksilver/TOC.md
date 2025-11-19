@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: e73965653f1923168ff331dfdf05713f1902ba5a
+source-git-commit: 18e1bc979e252b2daddc68ae8e51e0af6265d72a
 workflow-type: tm+mt
-source-wordcount: '13556'
+source-wordcount: '13565'
 ht-degree: 2%
 
 ---
@@ -1756,6 +1756,7 @@ ht-degree: 2%
       * [Workfront Data Connect查询示例](reports-and-dashboards/data-lake/basic-query-examples.md)
       * [查看Workfront Data Connect使用情况量度](reports-and-dashboards/data-lake/view-usage-metrics.md)
       * [在Data Connect中使用“作业历史记录数据”视图](/help/quicksilver/reports-and-dashboards/data-lake/use-the-job-history-data.md)
+      * [在Data Connect中使用监控数据刷新视图](/help/quicksilver/reports-and-dashboards/data-lake/use-the-monitoring-data-refreshes-view.md)
       * 增强的Analytics查询{#enhanced-analytics-queries}
          * [增强的Analytics查询](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/enhanced-analytics-queries.md)
          * [KPI查询](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
