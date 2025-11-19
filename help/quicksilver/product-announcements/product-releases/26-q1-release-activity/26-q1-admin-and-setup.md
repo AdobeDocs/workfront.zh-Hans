@@ -4,9 +4,9 @@ description: 2026年第一季度管理员增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f6b46a3c9d3ad792fd55309a5aaf5e23a83e233d
+source-git-commit: eead7c3c22dff242cd2a875381f5a2ac901cc2bd
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 本页介绍了管理员在2026年第一季度发布中对“预览”环境所做的增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
 
 ## 输入日期和输入者ID存储在自定义对象中
 
@@ -27,6 +27,9 @@ ht-degree: 0%
 
 输入日期和按ID输入的内容现在存储在自定义表单、字段和部分中。 您可以在报表中将这些数据选项用作过滤器、视图或分组。 要在“设置”中的自定义表单、字段或节列表中显示它们，请添加“输入日期”和“输入者：名称”作为新视图或现有视图中的列。
 
+>[!NOTE]
+>
+>输入日期和按ID输入的内容仅适用于在2025年11月13日或之后创建的自定义表单、字段和分区。
 
 ## 编辑布局模板时更新按钮名称
 
