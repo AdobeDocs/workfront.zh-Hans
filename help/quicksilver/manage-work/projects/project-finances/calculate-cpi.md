@@ -7,10 +7,10 @@ description: 成本绩效指数(CPI)描述了项目或任务层的计划成本�
 author: Lisa
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: f88b6ec019963ff6256e35b9c94eb4d1b7e99730
 workflow-type: tm+mt
 source-wordcount: '583'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -22,20 +22,20 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.)</p>
 -->
 
-成本绩效指数(CPI)描述了项目或任务层的计划成本与实际成本之间的关系。 项目经理审查此量度，以确定当前在给定时间点跟踪成本不足或超过成本的任务或项目。 成本可以用小时或美元来衡量，具体取决于您的绩效指数方法(PIM)。 有关设置绩效指数方法的详细信息，请参阅[设置绩效指数方法(PIM)](../../../manage-work/projects/project-finances/set-pim.md)。
+成本绩效指数(CPI)描述了项目或任务层的计划成本与实际成本之间的关系。 项目经理审查此量度，以确定当前在给定时间点跟踪成本不足或超过成本的任务或项目。 成本可以用小时或货币来衡量，具体取决于绩效指数方法(PIM)。 有关设置绩效指数方法的详细信息，请参阅[设置绩效指数方法(PIM)](../../../manage-work/projects/project-finances/set-pim.md)。
 
 只有需要输入时间的组织才能使用CPI。 此外，基于成本的PIM值只有在为任务受分配人（职务角色或用户）定义了成本费率的组织中才准确。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
+   <td>Adobe Workfront 包</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
