@@ -6,10 +6,10 @@ description: 将Adobe Experience Manager与Frame.io集成一起使用
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: cb2a17991a5562c6e734eaa0ada781d706dc5a77
+source-git-commit: 8c5202bcdb367266d31a2e056eed9a286f286518
 workflow-type: tm+mt
-source-wordcount: '1614'
-ht-degree: 0%
+source-wordcount: '1615'
+ht-degree: 1%
 
 ---
 
@@ -31,20 +31,20 @@ ht-degree: 0%
 >
 >您还可以跨组织ID将多个[!DNL Experience Manager Assets]存储库连接到一个[!UICONTROL Workfront]环境，或将多个[!DNL Workfront]环境连接到一个[!DNL Experience Manager Assets]存储库。 对于要设置的每个集成，请按照本文中的配置说明进行操作。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table>
   <tr>
-   <td>Adobe Workfront包
+   <td>Adobe Workfront 包
    </td>
    <td> <p>Prime或Ultimate</p>
     <p>工作流 Ultimate</p>
    </td>
   </tr>
     <tr>
-   <td>Adobe Workfront许可证
+   <td>Adobe Workfront 许可证
    </td>
    <td>
   <p>要配置集成，请执行以下操作：</p>
@@ -121,7 +121,7 @@ ht-degree: 0%
 
 要配置元数据字段，请执行以下操作：
 
-1. 在[!DNL Experience Manager Assets]中配置元数据架构，如[配置Adobe [!DNL Workfront] 和 [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)之间的资源元数据映射中所述。
+1. 在[!DNL Experience Manager Assets]中配置元数据架构，如[配置Adobe [!DNL Workfront] 和 [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)之间的资源元数据映射中所述。
 
 
 1. 在Workfront中配置自定义表单字段。 [!DNL Workfront]有许多您可以使用的内置自定义字段。 但是，您也可以创建自己的自定义字段，如[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)中所述。
@@ -151,7 +151,7 @@ ht-degree: 0%
 
 在Experience Manager Assets中创建标记后，这些标记将显示在元数据部分的标记下拉列表下。 要将字段链接到标记，请在元数据映射区域的Experience Manager Assets字段下拉列表中选择`xcm:keywords`。
 
-有关Experience Manager Assets中的标记（包括如何创建和管理标记）的更多信息，请参阅[管理标记](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-64/administering/contentmanagement/tags)。
+有关Experience Manager Assets中的标记（包括如何创建和管理标记）的更多信息，请参阅[管理标记](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags)。
 
 **Experience Manager Assets自定义元数据架构字段**
 
@@ -221,7 +221,7 @@ link to documentation about creating schema - waiting on response from Anuj abou
 
 您可以将文档从Workfront发送到Experience Manager Assets或Assets Essentials。 从Workfront上传并发送到Assets Essentials的文档仍会计入您的总体文档存储中。
 
-通过此集成发送到Experience Manager的Assets具有&#x200B;**5 GB**&#x200B;的大小限制。
+通过此集成发送到Experience Manager的Assets具有&#x200B;**5o TB**&#x200B;的大小限制。
 
 <!--In the Preview environment, Assets sent to Experience Manager through this integration have a size limit of **30 GB**.-->
 
