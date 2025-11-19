@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: 9507e04be7cdd33658b4958f3030b0d3359a9ef1
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 0%
+source-wordcount: '537'
+ht-degree: 3%
 
 ---
 
@@ -33,16 +33,16 @@ ht-degree: 0%
 
 配置布局模板后，必须将其分配给用户，以使您所做的更改对其他人可见。 有关将布局模板分配给用户的信息，请参阅[将用户分配给布局模板](../use-layout-templates/assign-users-to-layout-template.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
+   <td>Adobe Workfront 包</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
    <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
 
-1. 在[!UICONTROL 标题字段]部分中，将鼠标悬停在显示的字段上并执行以下操作之一：
+1. 在[!UICONTROL 标题字段]部分中，将鼠标悬停在当前字段上并执行以下操作之一：
    * 单击&#x200B;**x**&#x200B;图标可删除字段
 
      或
@@ -83,19 +83,15 @@ ht-degree: 0%
 
 1. 一个对象的标题中最多可以有五个字段。
 如果已选择五个字段，则必须先移除一个字段，然后才能添加新字段。
-1. 在&#x200B;**添加字段**&#x200B;框中，开始键入要添加的不可编辑的Workfront字段的名称，然后当该字段显示在列表中时将其选定。 该字段即被添加到“添加字段”框的右侧，并将作为第一个字段显示在对象标题的左上角。
+1. 在&#x200B;**添加字段**&#x200B;框中，开始键入要添加的自定义字段或本机Workfront字段的名称，然后当该字段显示在列表中时将其选定。 该字段即被添加到“添加字段”框的右上角，并将作为第一个字段显示在对象标题的右上角。
 
    >[!TIP]
    >
-   >* 您只能添加显示在对象详细信息部分的概述区域中且不可编辑的字段。 不可编辑字段是用户无法手动编辑的字段。 它们由Workfront自动计算。
-   >
-   >* 您可以添加已是默认标题一部分的可编辑字段（例如，项目所有者、状态、完成百分比、分配）。
+   >* 您可以添加任何自定义字段，或添加在对象详细信息部分的概述区域中可用的任何本地字段。 例如，只有问题具有严重程度字段，并且该字段不可添加到项目或任务。
    >
    >* 将“解决者”字段添加到问题的标题时，如果存在与问题关联的解决对象，则该字段将更改为“解决问题、任务或项目”。
 
-
    ![添加字段到标头](assets/add-field-to-header-in-lt-list.png)
-
 
 1. （可选）以不同的顺序拖放字段。
 
