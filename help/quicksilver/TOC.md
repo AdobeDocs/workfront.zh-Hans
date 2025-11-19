@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: e73965653f1923168ff331dfdf05713f1902ba5a
 workflow-type: tm+mt
-source-wordcount: '13547'
+source-wordcount: '13556'
 ht-degree: 2%
 
 ---
@@ -921,6 +921,7 @@ ht-degree: 2%
       * [管理附加到对象的自定义表单](workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
    * 使用通知 {#use-notifications}
       * [使用通知：文章索引](workfront-basics/using-notifications/use-notifications.md)
+      * [Experience Cloud通知概述](/help/quicksilver/workfront-basics/using-notifications/exp-cloud-notifications-overview.md)
       * [通知概述](workfront-basics/using-notifications/wf-notifications.md)
       * [修改您自己的电子邮件通知](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
       * [订阅Adobe Workfront中的项目](workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
@@ -2126,6 +2127,7 @@ ht-degree: 2%
       * [共享工作区](planning/access/share-workspaces.md)
       * [共享记录类型](planning/access/share-record-types.md)
       * [共享视图](planning/access/share-views.md)
+      * [共享记录](planning/access/share-records.md)
       * [请求对视图或工作区的权限](planning/access/request-permissions.md)
    * Adobe Workfront Planning记录 {#adobe-workfront-planning-records}
       * [记录：文章索引](planning/records/records-information.md)
@@ -2136,7 +2138,7 @@ ht-degree: 2%
       * [编辑记录](planning/records/edit-records.md)
       * [删除记录](planning/records/delete-records.md)
       * [恢复已删除的记录](planning/records/restore-deleted-records.md)
-      * [共享记录](planning/records/share-records.md)
+      * [使用链接共享记录](planning/records/share-records.md)
       * [重复记录](planning/records/copy-or-duplicate-records.md)
       * [管理记录注释](planning/records/manage-record-comments.md)
       * [“历史记录”部分概述](planning/records/history-section-overview.md)
@@ -2519,8 +2521,8 @@ ht-degree: 2%
       * [使用PKCE流程配置和使用您组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-pkce-flow.md)
       * [弃用API — 内部](wf-api/api/deprecation-api-internal.md)
       * [API版本21中的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-      * [API版本20中的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [API版本19中的新增功能](wf-api/api/new-api-version-19.md)
+      * [API版本20](/help/quicksilver/wf-api/api/new-api-version-20.md)中的新增功能
+      * [API版本19](wf-api/api/new-api-version-19.md)中的新增功能
       * [API版本18中的新增功能](wf-api/api/new-api-version-18.md)
       * [API版本17中的新增功能](wf-api/api/new-api-version-17.md)
       * [API版本16中的新增功能](wf-api/api/new-api-version-16.md)
