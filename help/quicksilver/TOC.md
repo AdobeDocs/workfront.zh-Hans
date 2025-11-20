@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: b68b15f7c36b9988a2fd4f34d0e8b8c3c8ce2908
+source-git-commit: 019c3246edf14f8ceafefbd80ca2c3d509b6ca6b
 workflow-type: tm+mt
-source-wordcount: '13570'
+source-wordcount: '13590'
 ht-degree: 2%
 
 ---
@@ -229,6 +229,9 @@ ht-degree: 2%
          * [Adobe Workfront Planning 2025年第二季度发布活动](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
          * [Adobe Workfront Planning 2025年第一季度发布活动](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
          * [Adobe Workfront Planning 2024年第四季度发布活动](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
+      * Adobe Workfront代理发布活动{#agencies-release-activity}
+         * [Adobe Workfront代理发布活动](/help/quicksilver/product-announcements/product-releases/agencies-release-activity/agencies-release-activity-article-index.md)
+         * [Adobe Workfront代理功能的2026年第一季度发布活动](/help/quicksilver/product-announcements/product-releases/agencies-release-activity/agencies-release-activity-26-q1.md)
       * Adobe Workfront Scenario Planner发布活动 {#scenario-planner-release}
          * [Adobe Workfront Scenario Planner发布活动](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
          * [带有21.3版本的Adobe Workfront Scenario Planner](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
@@ -2523,8 +2526,8 @@ ht-degree: 2%
       * [使用PKCE流程配置和使用您组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-pkce-flow.md)
       * [弃用API — 内部](wf-api/api/deprecation-api-internal.md)
       * [API版本21中的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-      * [API版本20中的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [API版本19中的新增功能](wf-api/api/new-api-version-19.md)
+      * [API版本20](/help/quicksilver/wf-api/api/new-api-version-20.md)中的新增功能
+      * [API版本19](wf-api/api/new-api-version-19.md)中的新增功能
       * [API版本18中的新增功能](wf-api/api/new-api-version-18.md)
       * [API版本17中的新增功能](wf-api/api/new-api-version-17.md)
       * [API版本16中的新增功能](wf-api/api/new-api-version-16.md)
