@@ -82,7 +82,7 @@ GET /attask/api/v15.0/proj/4c7c08b20000002de5ca1ebc19edf2d5
 返回类似于以下内容的JSON响应：
 
 
-<pre>&lbrace;<br>    "data"： [<br>        {<br>            "percentComplete"： 0，<br>            "status"： "CUR"，<br>            "priority"： 2，<br>            "name"： "Brand New Project"，<br>            "ID"： "4c7c08b20000002de5ca1ebc19edf2d5" <br>        } <br>    ] <br></pre>
+<pre>{<br>    "data"： [<br>        {<br>            "percentComplete"： 0，<br>            "status"： "CUR"，<br>            "priority"： 2，<br>            "name"： "Brand New Project"，<br>            "ID"： "4c7c08b20000002de5ca1ebc19edf2d5" <br>        } <br>    ] <br></pre>
 
 >[!NOTE]
 >
@@ -350,7 +350,7 @@ OR语句仅返回API调用中符合OR语句筛选条件的记录。 OR语句级�
 <pre>/attask/api/v15.0/project/search？fields=DE：CustomText</pre>会返回
 <pre>{<br>    "name"： "custom data project"，<br>    "ID"： "4c9a954f0000001afad0687d7b1b4e43"，<br>    "DE：CustomText"： "任务b" <br>}</pre>您还可以通过请求parameterValues字段来检索对象的所有自定义数据。 例如， 
 <pre>/attask/api/v15.0/project/search？fields=parameterValues</pre>返回类似于以下内容的数据：
-<pre>&lbrace;<br>    "name"： "custom data project"，<br>    "ID"： "4c9a954f0000001afad0687d7b1b4e43"，<br>    parameterValues： { <br>        "DE：CustomText"： "任务b"， <br>        "DE：CustomNumber"： 1.4， <br>        "DE：CustomCheckBoxes"：["first"， "second"， "third"] <br>    } <br></pre>
+<pre>{<br>    "name"： "custom data project"，<br>    "ID"： "4c9a954f0000001afad0687d7b1b4e43"，<br>    parameterValues： { <br>        "DE：CustomText"： "任务b"， <br>        "DE：CustomNumber"： 1.4， <br>        "DE：CustomCheckBoxes"：["first"， "second"， "third"] <br>    } <br></pre>
 
 #### 使用命名查询
 
@@ -367,7 +367,7 @@ OR语句仅返回API调用中符合OR语句筛选条件的记录。 OR语句级�
 
 您可以执行报表请求，其中只需要一个或多个分组的某些字段的汇总。 如以下示例所示，报表语法与SOAP API的语法相同：
 <pre>GET /attask/api/v15.0/hour/report？project：name_1_GroupBy=true&amp;hours_AggFunc=sum</pre>将返回以下结果
-<pre>&lbrace;<br>    “第一个项目”： { <br>        "sum_hours"： 15 <br>    }， <br>     “第二个项目”： { <br>        "sum_hours"： 30 <br>    } <br></pre>添加$$ROLLUP=true参数将包含每个分组级别的总数：
+<pre>{<br>    “第一个项目”： { <br>        "sum_hours"： 15 <br>    }， <br>     “第二个项目”： { <br>        "sum_hours"： 30 <br>    } <br></pre>添加$$ROLLUP=true参数将包含每个分组级别的总数：
 <pre>{<br>    “第一个项目”： { <br>        "sum_hours"： 15 <br>    }， <br>    “第二个项目”： { <br>        "sum_hours"： 30 <br>    }， <br>    "$$ROLLUP"： { <br>        "sum_hours"： 45 <br>    } <br>}</pre>
 
 ### 在API中对查询结果进行排序
@@ -497,7 +497,7 @@ PUT的响应与GET相同。 在这两种情况下，服务器都会在更新后�
 ### 进行嵌套更新
 
 某些对象具有可以更新的私有集合。 例如，以下示例演示了如何覆盖给定任务的现有分配：
-<pre>PUT /attask/api/v15.0/task/4c7...？更新= <br>&lbrace;<br>    工作： [ <br>        { <br>            assignedToID： "2222...54d0， <br>            assignmentPercent： 50.0 <br>        }，{ <br>            roleID： "1111...54d0"<br>        } <br>    ] <br></pre>
+<pre>PUT /attask/api/v15.0/task/4c7...？更新= <br>{<br>    工作： [ <br>        { <br>            assignedToID： "2222...54d0， <br>            assignmentPercent： 50.0 <br>        }，{ <br>            roleID： "1111...54d0"<br>        } <br>    ] <br></pre>
 
 >[!NOTE]
 >
@@ -524,7 +524,7 @@ PUT的响应与GET相同。 在这两种情况下，服务器都会在更新后�
 
 以下示例演示了与团队共享项目的语法：
 <pre>PUT /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxx/share？accessorID=123abcxxxxxxxxxxxxxxxxxxxxxx&amp;accessorObjCode=TEAMOB</pre>在编辑对象时，您可以通过执行PUT并发送类似于以下示例的更新来替换对象上的所有访问规则：
-<pre>PUT /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxx？method=PUT&amp;updates=&lbrace;accessRules：[{accessorID：'123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxx'，accessorObjCode：'TEAMOB'，coreAction：'VIEW'}]</pre>以下示例显示了将任务从一个项目移动到另一个项目的语法：
+<pre>PUT /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxx？method=PUT&amp;updates={accessRules：[{accessorID：'123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxx'，accessorObjCode：'TEAMOB'，coreAction：'VIEW'}]</pre>以下示例显示了将任务从一个项目移动到另一个项目的语法：
 <pre>PUT /attask/api/v15.0/task/4c7.../move？projectID=5d8...</pre>
 
 ## DELETE行为
@@ -536,9 +536,9 @@ DELETE删除对象。 在每种情况下，URI都可以包含参数force=true �
 
 批量更新语句在单次API调用中同时更新多个对象。 批量创建API调用的构建方式与普通更新调用类似，如以下示例所示：
 <pre>PUT /attask/api/v15.0/proj？updates=[{"name"："Test_Project_1"}，{"name"："Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>或 <pre>PUSH /attask/api/v15.0/proj？updates=[{"name"："Test_Project_1"}，{"name"："Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>将导致返回类似于以下内容的内容：
-<pre>数据： [{<br>}    ID： "53ff8d3d003b438b57a8a784df38f6b3"，<br>    名称：“Test_Project_1”，<br>    对象代码：“项目”，<br>    percentComplete： 0，<br>    plannedCompletionDate： "2014-08-28T11:00:00:000-0400"，<br>    plannedStartDate： "2014-08-28T11:00:00:000-0400"，<br>    优先级： 0，<br>    projectedCompletionDate： "2014-08-28T16:12:00:000-0400"，<br>    状态：“CUR”<br>&rbrace;，<br>{<br>    ID： "53ff8d49003b43a2562aa34eea3b6b10"，<br>    名称：“Test_Project_2”，<br>    对象代码：“项目”，<br>    完成百分比： 0usi，<br>    plannedCompletionDate： "2014-08-28T11:00:00:000-0400"，<br>    plannedStartDate： "2014-08-28T11:00:00:000-0400"，<br>    优先级： 0，<br>    projectedCompletionDate： "2014-08-28T16:12:00:000-0400"，<br>    状态： "CUR"<br>}]</pre>您还可以执行与以下内容类似的批量更新：
+<pre>数据： [{<br>}    ID： "53ff8d3d003b438b57a8a784df38f6b3"，<br>    名称：“Test_Project_1”，<br>    对象代码：“项目”，<br>    percentComplete： 0，<br>    plannedCompletionDate： "2014-08-28T11:00:00:000-0400"，<br>    plannedStartDate： "2014-08-28T11:00:00:000-0400"，<br>    优先级： 0，<br>    projectedCompletionDate： "2014-08-28T16:12:00:000-0400"，<br>    状态：“CUR”<br>}，<br>{<br>    ID： "53ff8d49003b43a2562aa34eea3b6b10"，<br>    名称：“Test_Project_2”，<br>    对象代码：“项目”，<br>    完成百分比： 0usi，<br>    plannedCompletionDate： "2014-08-28T11:00:00:000-0400"，<br>    plannedStartDate： "2014-08-28T11:00:00:000-0400"，<br>    优先级： 0，<br>    projectedCompletionDate： "2014-08-28T16:12:00:000-0400"，<br>    状态： "CUR"<br>}]</pre>您还可以执行与以下内容类似的批量更新：
 <pre>PUT /attask/api/v15.0/proj？Umethod=PUT&amp;updates=[{"ID"："123abcxxxxxxxxxxxxxxxxxxxxxxxxxx"，"name"："Test_Project_1_ Edit"}，{"ID"："123abcxxxxxxxxxxxxxxxxxxxxxxxx"，"name"："Test_Project_2_Edit"}]&amp;apiKey=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>将导致返回类似于以下内容的内容：
-<pre>数据： [ {<br>}     ID： "53ff8e15003b461d4560f7f65a440078"，<br>     名称：“Test_Project_1_Edit”，<br>     对象代码：“项目”，<br>     percentComplete： 0，<br>     plannedCompletionDate： "2014-08-28T11:00:00:000-0400"，<br>     plannedStartDate： "2014-08-28T11:00:00:000-0400"，<br>     优先级： 0，<br>     projectedCompletionDate： "2014-08-28T16:16:00:000-0400"，<br>     状态：“CUR”<br>&rbrace;，<br>{<br>    ID： "53ff8e19003b46238a58d303608de502"，<br>    名称：“Test_Project_2_Edit”，<br>    对象代码：“项目”，<br>    percentComplete： 0，<br>    plannedCompletionDate： "2014-08-28T11:00:00:000-0400"，<br>    plannedStartDate： "2014-08-28T11:00:00:000-0400"，<br>    优先级： 0，<br>    projectedCompletionDate： "2014-08-28T16:16:00:000-0400"，<br>    状态： "CUR"<br>}]</pre>如果希望所有操作在同一事务中发生，请将“atomic=true”作为请求参数添加到批处理API调用中。 这样，如果有任何操作失败，则所有操作都将回退。
+<pre>数据： [ {<br>}     ID： "53ff8e15003b461d4560f7f65a440078"，<br>     名称：“Test_Project_1_Edit”，<br>     对象代码：“项目”，<br>     percentComplete： 0，<br>     plannedCompletionDate： "2014-08-28T11:00:00:000-0400"，<br>     plannedStartDate： "2014-08-28T11:00:00:000-0400"，<br>     优先级： 0，<br>     projectedCompletionDate： "2014-08-28T16:16:00:000-0400"，<br>     状态：“CUR”<br>}，<br>{<br>    ID： "53ff8e19003b46238a58d303608de502"，<br>    名称：“Test_Project_2_Edit”，<br>    对象代码：“项目”，<br>    percentComplete： 0，<br>    plannedCompletionDate： "2014-08-28T11:00:00:000-0400"，<br>    plannedStartDate： "2014-08-28T11:00:00:000-0400"，<br>    优先级： 0，<br>    projectedCompletionDate： "2014-08-28T16:16:00:000-0400"，<br>    状态： "CUR"<br>}]</pre>如果希望所有操作在同一事务中发生，请将“atomic=true”作为请求参数添加到批处理API调用中。 这样，如果有任何操作失败，则所有操作都将回退。
 
 >[!NOTE]
 >
