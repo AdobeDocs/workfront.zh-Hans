@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 9507e04be7cdd33658b4958f3030b0d3359a9ef1
+source-git-commit: edc83693ef068e50aed06324f006cd8aa70ac019
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '571'
 ht-degree: 3%
 
 ---
@@ -88,6 +88,8 @@ ht-degree: 3%
    >[!TIP]
    >
    >* 您可以添加任何自定义字段，或添加在对象详细信息部分的概述区域中可用的任何本地字段。 例如，只有问题具有严重程度字段，并且该字段不可添加到项目或任务。
+   >
+   >* 当用户编辑标题中的自定义字段并且该字段包含在未附加到对象的自定义表单中时，自定义表单会自动添加到对象中。
    >
    >* 将“解决者”字段添加到问题的标题时，如果存在与问题关联的解决对象，则该字段将更改为“解决问题、任务或项目”。
 
