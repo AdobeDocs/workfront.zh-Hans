@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 40722f2b-f8b2-4dc5-805e-2b434a0d46c3
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: f4043daeb7a7dad84b6232b5ac133fd59ca64292
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 0%
+source-wordcount: '360'
+ht-degree: 5%
 
 ---
 
@@ -21,16 +21,16 @@ ht-degree: 0%
 
 有关自定义表单中的自定义字段和小部件的信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
+   <td>Adobe Workfront 包</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -51,8 +51,25 @@ ht-degree: 0%
 
 ## 了解哪些自定义表单使用特定自定义字段或小组件
 
+要在所有自定义字段列表中查看字段的用法，请执行以下操作：
+
 {{step-1-to-setup}}
 
 1. 在左侧面板中，单击&#x200B;**自定义Forms**。
 1. 单击&#x200B;**字段**，在&#x200B;**名称**&#x200B;列中查找该字段或小组件，然后查看&#x200B;**Forms**&#x200B;列，以查看哪些自定义表单使用该字段或小组件。
 1. （可选）单击任意这些自定义表单的名称以转到表单，并考虑在修改字段或构件时可能需要在该表单进行的更改。
+
+要查看自定义表单中字段的用法，请执行以下操作：
+
+{{step-1-to-setup}}
+
+1. 在左侧面板中，单击&#x200B;**自定义Forms**。
+1. 打开自定义表单并从库中添加字段，或选择表单上的现有字段。
+
+   表单设计器右侧的使用情况指示器显示了有多少其他自定义表单使用此字段。
+
+1. 单击&#x200B;**查看相关的Forms**。
+
+   在表单列表中，您可以单击任意表单名称以打开表单并查看字段的使用方式。 指示器显示每个表单是活动的还是不活动的。
+
+
