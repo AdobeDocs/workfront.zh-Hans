@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 56f63dad88c9ea7d51297bcad181983dc88acf50
+source-git-commit: 4f0ab97409ea959d195dd0bf856d53982402e7fc
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 0%
@@ -53,7 +53,7 @@ Workfront是Adobe的digital experience产品套件的一部分。 迁移到Exper
 
 1. 在Workfront的右上角，单击&#x200B;**通知**&#x200B;图标![通知图标](assets/bell-icon.png)。
 
-1. 在打开的&#x200B;**Experience Cloud通知**&#x200B;面板中，选择&#x200B;**通知**。 系统将显示通知列表，最近的通知将显示在列表顶部。
+1. 在打开的&#x200B;**Experience Cloud通知**&#x200B;面板中，选择&#x200B;**通知**。 此时将显示通知列表，最近的通知将显示在列表顶部。
 
 1. 单击通知以将其标记为&#x200B;*读取*，并将其从最近通知列表中删除。
 
