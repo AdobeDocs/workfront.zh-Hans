@@ -6,7 +6,7 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 21cab3964ffd79b4b58835fcb992f59eefee78ee
+source-git-commit: 0964ad24535bf43a23c740cd63abcf8fea705b8d
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 >
 >预览： 2025年11月13日
 >生产快速发布： 2025年11月13日
->适用于所有人的生产： 2026年11月13日
+>适用于所有人的生产： 2025年11月13日
 
 您现在可以将Workfront Planning记录类型与Adobe GenStudio for Performance Marketing中的品牌联系起来。 您的组织必须同时具有Workfront Planning和Adobe GenStudio for Performance Marketing。
 
