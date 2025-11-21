@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: bd0c365fcf5431a6b540d302385315d28688e558
+source-git-commit: 0c13d3da9e42085bfa1db5a0fb2227c23b8b40be
 workflow-type: tm+mt
-source-wordcount: '13594'
+source-wordcount: '13597'
 ht-degree: 2%
 
 ---
@@ -1493,7 +1493,7 @@ ht-degree: 2%
          * [允许用户通过电子邮件将问题发送到请求队列项目](manage-work/requests/create-requests/enable-email-issues-into-projects.md)
          * [查找已提交的请求](manage-work/requests/create-requests/locate-submitted-requests.md)
          * [共享请求队列的链接](manage-work/requests/create-requests/share-link-to-request-queue.md)
-         * [删除请求草稿](manage-work/requests/create-requests/delete-request-draft.md)
+         * [删除提交的请求或请求草稿](manage-work/requests/create-requests/delete-request-draft.md)
          * [复制并提交请求](manage-work/requests/create-requests/copy-and-submit-requests.md)
          * [使用以前的数据自动填写请求](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
          * [使用提示或文档自动填写请求](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
@@ -2526,8 +2526,8 @@ ht-degree: 2%
       * [使用PKCE流程配置和使用您组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-pkce-flow.md)
       * [弃用API — 内部](wf-api/api/deprecation-api-internal.md)
       * [API版本21中的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-      * [API版本20中的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [API版本19中的新增功能](wf-api/api/new-api-version-19.md)
+      * [API版本20](/help/quicksilver/wf-api/api/new-api-version-20.md)中的新增功能
+      * [API版本19](wf-api/api/new-api-version-19.md)中的新增功能
       * [API版本18中的新增功能](wf-api/api/new-api-version-18.md)
       * [API版本17中的新增功能](wf-api/api/new-api-version-17.md)
       * [API版本16中的新增功能](wf-api/api/new-api-version-16.md)
