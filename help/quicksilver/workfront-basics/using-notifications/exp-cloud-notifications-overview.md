@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 4f0ab97409ea959d195dd0bf856d53982402e7fc
+source-git-commit: 5068386e314e9c4c75ec5f9142c9f101b2c1e43f
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '664'
 ht-degree: 0%
 
 ---
@@ -16,12 +16,11 @@ ht-degree: 0%
 
 # Experience Cloud通知概述
 
-Adobe Workfront正在将所有数字体验(DX)产品统一到一个名为Experience Cloud Notifications的单个一致通知系统下。 从2026年2月开始，您的旧版Workfront Notification Services将自动开始迁移到Adobe的集中式通知系统。
+Adobe Workfront正在将所有数字体验(DX)产品统一到一个名为Experience Cloud Notifications的单个一致通知系统下。 从2026年2月或前后开始，您的旧版Workfront Notification Services将自动开始迁移到Adobe的集中式通知系统。
 
-迁移后，您可以在一个位置访问跨Adobe Workfront和其他Adobe DX应用程序的所有通知，从而简化您随时了解信息并管理首选项的方式。
+完成此过渡后，您可以在一个位置访问跨Adobe Workfront和其他Adobe DX应用程序的所有通知，从而简化您随时了解信息并管理首选项的方式。
 
 ![公告](assets/announcements-center.png)
-
 
 ## 我们为什么要做出这种改变
 
@@ -35,8 +34,9 @@ Workfront是Adobe的digital experience产品套件的一部分。 迁移到Exper
 ## 更改内容
 
 * 单个通知图标已替换顶部标题中的Workfront通知图标。
-* 现在，可通过新的Experience Cloud“通知”面板和“所有通知”页面访问您的通知设置。
+* 现在，您可以通过新的“Experience Cloud通知”面板和“所有通知”页面访问您的个人通知设置。 以前，在您的用户配置文件中访问它们。
 * 提供了新的筛选和投放选项。
+* 自定义电子邮件通知主题行将不再可用。
 
 ## 什么保持原样
 
@@ -47,7 +47,6 @@ Workfront是Adobe的digital experience产品套件的一部分。 迁移到Exper
 * Workfront将继续根据您的工作项触发通知。
 
 * Workfront数据和权限将保持不变。
-
 
 ## 在Experience Cloud中查看新通知
 
@@ -69,7 +68,6 @@ Workfront是Adobe的digital experience产品套件的一部分。 迁移到Exper
 >
 >如果您无法访问个人通知设置，请联系管理员。
 
-
 1. 在Workfront的右上角，单击&#x200B;**通知**&#x200B;图标![通知图标](assets/bell-icon.png)。
 
 1. 在&#x200B;**Experience Cloud**&#x200B;面板的右上角，单击&#x200B;**设置**&#x200B;图标![设置图标](assets/settings-icon.png)。
@@ -82,8 +80,6 @@ Workfront是Adobe的digital experience产品套件的一部分。 迁移到Exper
 
 1. （可选）要停止接收某些类型的通知，请取消选中当前选定每种类型的框。 您的更改会自动保存。
 
-   ![通知类型选择](assets/select-notification-types.png)
-
 ## 常见问题解答
 
 +++我的现有通知是否会丢失？
@@ -93,15 +89,16 @@ Workfront是Adobe的digital experience产品套件的一部分。 迁移到Exper
 
 +++ 我的用户是否需要执行任何操作？
 
-一般而言，不会。 Workfront管理员将首先验证设置，然后在迁移到Experience Cloud后，用户会注意到新的“通知”图标。
+一开始不会。 Workfront管理员将首先验证设置，然后在迁移到Experience Cloud后，用户会注意到新的“通知”图标。 在那里，他们需要学习如何访问其个人通知。
 +++
 
 +++如果我的组织还没有准备好过渡到Experience Cloud，该怎么办？
 
-如果您需要重新计划过渡，请与Adobe服务团队协调。 但是，所有客户都必须迁移到新通知体验，因此建议提前采用。
+如果您需要重新计划过渡，请与您的客户团队或客户支持部门进行协调。 但是，所有客户都必须迁移到新通知体验，因此建议提前采用。
 +++
 
 +++这会影响Workfront集成或自动化吗？
 
 不可以。所有现有的集成和自动化都将继续正常运行。
 +++
+
