@@ -6,27 +6,30 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: 59a53f7355032810a05fce2d3f0dfe30d64bbd40
 workflow-type: tm+mt
-source-wordcount: '1338'
-ht-degree: 2%
+source-wordcount: '1588'
+ht-degree: 3%
 
 ---
 
 # 复制并提交请求
 
+
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
+
 当您频繁提交类似请求时，可以复制已提交的现有请求。 在这种情况下，您可以复制现有请求，对请求进行最小更改，然后将其作为新请求重新提交。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
@@ -91,7 +94,7 @@ ht-degree: 2%
   >
   >复制的请求未链接到解析对象。
 
-## 复制并提交请求
+## 在旧版请求体验中复制并提交请求
 
 {{step1-to-requests}}
 
@@ -220,3 +223,44 @@ ht-degree: 2%
 1. 单击&#x200B;**提交**。
 
    复制的请求将作为新请求提交到您指定的请求队列中。
+
+<div class="preview">
+
+## 在新的请求体验中复制并提交请求
+
+您可以在Workfront的请求区域或主页的“我的请求”小组件中复制并提交请求。
+
+1. 要访问“请求”列表，请单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 请求]**。
+
+1. 要在主页访问“我的请求”小组件，请执行以下操作：
+
+   1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
+   1. 找到“我的请求”构件。
+
+      有关“我的请求”小组件的详细信息，请参阅[使用我的请求](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)。
+
+1. 在“请求”列表或“我的请求”小组件中，将鼠标悬停在要复制的请求上。
+
+   出现“More（更多）”三点菜单。
+   ![](assets/more-menu.png)
+
+1. 单击请求名称右侧的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**复制**。
+
+   或
+
+   右键单击所选请求，然后单击&#x200B;**复制**。
+
+   >[!TIP]
+   >
+   >当您无权创建问题时，您会收到一则警告，指出管理员限制您创建请求。
+
+1. （可选）更新复制请求中的任何信息。 可用字段取决于用于请求的请求队列或请求表单。
+
+   <!--When you enter or change any field values in the copied request, it is saved as a draft.-->
+
+1. 单击&#x200B;**提交**。
+
+   复制的请求将作为新请求提交。
+
+</div>
+
