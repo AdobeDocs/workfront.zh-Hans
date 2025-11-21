@@ -6,14 +6,16 @@ description: 在Adobe Workfront中，计划工作由项目和任务表示。 但
 author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: 8851a67e992152b05c44063e67070c0942a463bc
 workflow-type: tm+mt
-source-wordcount: '2580'
+source-wordcount: '2607'
 ht-degree: 1%
 
 ---
 
 # 创建并提交请求
+
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 <!--Audited: 12/2023-->
 
@@ -45,9 +47,9 @@ ht-degree: 1%
 
   贵组织必须购买Workfront规划包。 有关信息，请参阅[提交Adobe Workfront计划请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -55,7 +57,7 @@ ht-degree: 1%
  <tbody> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
@@ -107,7 +109,7 @@ Workfront管理员必须创建请求队列的以下组件：
 
 在Workfront Web应用程序中创建请求时，Workfront会先将请求另存为草稿，然后再提交。 当您选择请求队列并开始输入信息时，Workfront会立即创建草稿。
 
-您可以继续提交请求，也可以填写现有的所有信息，然后离开该请求以稍后完成。 Workfront会保存您在“草稿”文件夹中启动的草稿请求。
+您可以继续提交请求，也可以填写现有的所有信息，然后离开该请求以稍后完成。 Workfront保存您在“草稿”文件夹<span class="preview">或请求列表中启动的草稿请求。</span>
 
 >[!IMPORTANT]
 >
@@ -150,7 +152,7 @@ Workfront管理员必须创建请求队列的以下组件：
    >有关新的请求体验，请考虑以下事项：
    >* 该列表包括Workfront请求队列和Workfront Planning请求表单。
    >* 您可以按对象类型筛选列表。
-   >* 在新的请求体验中，可在与提交请求相同的列表中找到草稿。
+   >* <span class="preview">在新的请求体验中，在与提交的请求相同的列表中找到草稿</span>。
 
 1. （视情况而定）如果切换到新体验，请选择主题组和队列主题并继续更新表单。
 

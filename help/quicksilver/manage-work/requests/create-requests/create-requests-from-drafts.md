@@ -6,27 +6,29 @@ description: 除了使用Workfront在输入新请求时向您建议的可用草�
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: 38843e2c093d5af9d74d8b4442fd28e194996e8d
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 1%
+source-wordcount: '840'
+ht-degree: 3%
 
 ---
 
 # 从草稿创建请求
 
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
+
 除了使用Workfront在输入新请求时向您建议的可用草稿之外，您还可以从“草稿”部分访问草稿请求并从此处完成提交。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
@@ -52,13 +54,55 @@ ht-degree: 1%
 
 ## 从草稿创建请求的先决条件
 
-您必须先执行以下操作，然后才能从草稿创建请求： 
+您必须先执行以下操作，然后才能从草稿创建请求：
 
 * 开始创建请求。 这会自动将请求保存为“草稿”部分中的草稿。
 
   有关创建请求的信息，请参阅[创建和提交Adobe Workfront请求](../../../manage-work/requests/create-requests/create-submit-requests.md)。
 
 ## 从草稿创建请求
+
+从草稿创建请求的过程因新请求体验和旧请求体验而异。
+
+* <span class="preview">[从新请求体验中的草稿创建请求](#create-requests-from-drafts-in-the-new-requesting-experience)</span>
+* [从旧版请求体验中的草稿创建请求](#create-requests-from-drafts-in-the-legacy-requesting-experience)
+
+<div class="preview">
+
+### 从新请求体验中的草稿创建请求
+
+
+
+<!--
+   
+1. Open the draft.
+
+   Drafts can be found in the following locations:
+
+   * In the requests list in the Requests area
+   * In the requests list in the My Requests widget in Home
+   * In the New request dialog (includes only drafts of requests created with the selected form)
+   
+-->
+1. 打开草稿。
+
+   草稿可以在“新建请求”对话框中找到（仅包含使用选定表单创建的请求草稿）。
+1. 按照[创建和提交Adobe Workfront请求](../../../manage-work/requests/create-requests/create-submit-requests.md)中的说明更新请求的信息。
+1. （可选且有条件）在输入请求期间，如果想要删除草稿，可随时单击&#x200B;**放弃**&#x200B;草稿。 这将删除草稿。
+
+   如果错误地丢弃了草稿，可以立即单击屏幕底部消息中的&#x200B;**撤消**。 此选项仅可用几秒钟。
+
+   有关删除草稿的更多信息，请参阅[删除提交的请求或请求草稿](../../../manage-work/requests/create-requests/delete-request-draft.md)。
+
+1. （可选）要保存对草稿的更改而不提交草稿，请离开新请求页面。 更改将自动保存。
+
+1. 完成请求信息后，单击&#x200B;**提交**。
+
+   提交请求时，草稿将被删除并且无法恢复。
+
+</div>
+
+### 从旧版请求体验中的草稿创建请求
 
 {{step1-to-requests}}
 
