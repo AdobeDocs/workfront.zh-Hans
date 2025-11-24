@@ -8,9 +8,9 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: bd0c365fcf5431a6b540d302385315d28688e558
+source-git-commit: a335b035e82ebe3daa6a9687b362a9117f348e0e
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->生产发布日期： 2025年11月xx日
+>生产发布日期： 2025年11月20日
 
 您现在可以对费率卡中的一个或多个工作角色记帐费率应用基于百分比的更改。 您可以在一项操作中将更改应用于所有选定费率，而不是逐个手动更新每个费率。
 
