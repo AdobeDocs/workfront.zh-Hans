@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 0c83d47e21148d2c6234e0c157da3381146a7128
+source-git-commit: 49706e7fd44571742ccf602b7418bb429fddc7f8
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,7 @@ Workfront是Adobe的digital experience产品套件的一部分。 迁移到Exper
 
 ## 什么保持原样
 
-* 在过渡的第一个阶段，您将会收到应用程序内通知，稍后还会收到应用程序内通知和电子邮件通知。
-
-* 现有的通知首选项将自动延续。
+* 您将在过渡的第一阶段收到应用程序内通知，并稍后收到电子邮件通知。
 
 * Workfront将继续根据您的工作项触发通知。
 
