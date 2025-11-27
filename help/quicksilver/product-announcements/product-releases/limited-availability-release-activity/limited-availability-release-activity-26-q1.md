@@ -8,9 +8,9 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: a335b035e82ebe3daa6a9687b362a9117f348e0e
+source-git-commit: bc222ec76ac94a44c33ee166036d84c164b1da01
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,11 @@ ht-degree: 0%
 
 有关为Adobe Workfront发布的所有有限可用性功能的列表，请参阅[Adobe Workfront有限可用性功能发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md)。
 
-## 调整费率卡中的工作角色费率
+## 有限可用性功能的发行说明
+
+此部分包含新功能的发行说明。
+
+### 调整费率卡中的工作角色费率
 
 >[!NOTE]
 >
@@ -32,4 +36,29 @@ ht-degree: 0%
 
 您现在可以对费率卡中的一个或多个工作角色记帐费率应用基于百分比的更改。 您可以在一项操作中将更改应用于所有选定费率，而不是逐个手动更新每个费率。
 
+## 针对有限可用性功能的维护更新
 
+此部分介绍每周Workfront更新中修复的有限可用性功能问题。
+
+### 2025年11月23日至29日为期一周的维护更新
+
+从高级工作分配的高级搜索中删除的&#x200B;**小时/约当全职数/百分比**
+
+在高级工作分配高级搜索中，选择&#x200B;**小时/FTE/百分比**&#x200B;的选项未更改搜索显示。 下拉菜单已从工具栏中删除。
+
+当任务持续时间为0 **时，无法在高级工作分配中编辑**&#x200B;计划小时数
+
+当任务持续时间为0时，“高级工作”屏幕上的“已计划小时数”KPI不再可编辑。 以前，您可以编辑计划小时数，但不会保存更改。
+
+<!--### Maintenance Updates week of November 30-December 6, 2025
+
+**Title**
+
+text
+
+### Maintenance Updates week of December 7-13, 2025
+
+**Title**
+
+text
+-->
