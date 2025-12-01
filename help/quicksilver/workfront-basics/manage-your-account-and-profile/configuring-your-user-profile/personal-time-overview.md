@@ -7,18 +7,18 @@ description: 在Adobe Workfront中指明何时发生批准的休息时间非常�
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: e25ea757129e9645f7b5f0729cd498d5947f49f2
+source-git-commit: 0e37a5a519770d3d48192f1799491aa53a871508
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 0%
+source-wordcount: '431'
+ht-degree: 4%
 
 ---
 
 # 配置个人休息时间
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 12/2025 -->
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用，正在分阶段发布到生产环境。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 [!DNL Adobe Workfront]的设计目的不是复制或替换现有系统，用于管理、应计和跟踪个人休息时间。
 
@@ -36,16 +36,16 @@ ht-degree: 0%
 >* [编辑用户配置文件](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 >
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  </col>
  <tbody> 
   <tr> 
-   <td> Adobe Workfront包</td> 
+   <td> Adobe Workfront 包</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -72,18 +72,17 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您在Adobe Unified Experience上，则可以通过单击顶部导航区域中的Adobe帐户菜单（您的配置文件图片），然后选择Workfront配置文件来访问您的Workfront配置文件。
+>如果您的组织位于Adobe Unified Experience，请单击顶部导航区域右上角的&#x200B;**Adobe**&#x200B;帐户菜单（您的配置文件图片），然后单击&#x200B;**Workfront配置文件**。
 >
 >![workfront配置文件](assets/aue-profile.png)
 
 1. 在左侧面板中，单击&#x200B;**[!UICONTROL 空闲时间]**。
 1. 为您的个人休息时间选择所需的日期。
 
-   <span class="preview">预览环境中的示例图像：</span>
    ![个人休息时间日历](assets/personal-time-off-calendar-0925.png)
 
-   生产环境中的示例图像：
-   ![个人休息时间日历](assets/personal-time-off-calendar.png)
+   <!--Sample image in the Production environment:
+   ![Personal time off calendar](assets/personal-time-off-calendar.png)-->
 
 1. 如果您要休一整天的假，请选择&#x200B;**[!UICONTROL 全天]**。
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6e039b80-e3bf-412c-8c86-8f801f5861e3
-source-git-commit: 1926500c76e4f9cfdac829f8d9f0cdfa6231e31d
+source-git-commit: 0e37a5a519770d3d48192f1799491aa53a871508
 workflow-type: tm+mt
-source-wordcount: '3304'
+source-wordcount: '3344'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 配置最佳实践
 
-### Workspace
+### 工作区
 
 工作区是团队计划工作的集中位置。 工作区是团队使用的记录类型的集合，表示团队的工作生命周期。
 
@@ -43,17 +43,16 @@ ht-degree: 0%
    * 他们要放进日历里的东西叫什么？
 营销活动？ 战术？ 计划？ 活动？ 活动？
    * 他们想用这个日程表回答什么样的问题？
-   * 对于同一受众，我们是否有任何重叠的营销活动？
-   * 我们在该活动、策略、活动或活动方面的预算是多少？
+   * 他们是否为同一受众开展了重叠的营销活动？
+   * 该活动、策略、活动或事件的预算是多少？
 
   这些问题的答案将决定您需要在Workfront Planning中构建什么。
 
-  此外，请考虑可能有其他规划人员当前不是Workfront用户。 这些规划人员可以使用Excel电子表格、Word文档、PowerPoints等进行操作。 考虑他们可以如何在Workfront Planning中访问您的信息。
+  此外，请考虑可能有其他规划人员当前不是Workfront用户。 这些规划者可以利用Excel电子表格、Word文档、PowerPoint演示文稿等进行操作。 考虑他们可以如何在Workfront Planning中访问您的信息。
 
-* ✅要充分利用Workfront Planning，请考虑将Workfront Workflow中的项目组合和程序用作Workfront Planning中的其他一些上层结构。
+* ✅要充分利用Workfront Planning，请考虑将Workfront中的项目组合和程序用作Workfront Planning中的其他上层结构。
 
   如今，Workfront客户通过项目组合和项目组合来代表他们的战略工作，在某些情况下，他们作为不同类型的项目进行展现。 随着Planning的推出，所有此类战略性工作都应通过Workfront Planning中的自定义记录类型来处理，而Workfront将围绕以项目和任务形式呈现的工作的执行阶段来处理。
-
 
 #### 何时应创建新工作区而不是修改现有工作区？
 
@@ -86,15 +85,13 @@ ht-degree: 0%
 
 记录类型是Workfront Planning Workspace的构建块。 您可以定义记录类型的互连方式。
 
-
 #### 如何在我的工作区中定义记录类型？
 
 * ✅请花一些时间确定您需要跟踪哪些信息（我需要哪些记录类型）以及需要如何连接这些信息。 与将使用该工作区考虑其所有需求的利益相关者交谈。 您还可以创建具有不同记录类型的自定义分区，以便以非常方便使用的方式呈现信息。
 
-
 * ⛔不要在不同的时间段重复记录类型（例如，不要为&#x200B;**营销活动2024**&#x200B;和&#x200B;**营销活动2025**）创建单独的记录类型。
 
-  每当您想要比较多个年份的数据时，创建不同的记录类型都会中断数据流。 今天的视图是按记录类型划分的，因此一旦一年结束，该记录类型的视图将不再显示未来的项目。 最佳实践是为工作类型创建一种记录类型，并在需要时使用过滤器或归档功能对数据进行分段。
+  每当您想要比较多个年份的数据时，创建不同的记录类型都会中断数据流。 今天的视图是按记录类型划分的，因此一旦一年结束，该记录类型的视图将不再显示未来的项目。 最佳实践是为工作类型创建一个记录类型，并使用基于不同字段的过滤器对数据进行分段，或根据需要进行存档。
 
 #### 与链接记录类型相比，何时应使用单选或多选字段？
 
@@ -107,7 +104,7 @@ ht-degree: 0%
   例如，渠道记录类型（如&#x200B;**电子邮件**）可能会存储支持交付项的列表，这些交付项既可以存储为本机元数据，也可以存储为与独立&#x200B;**交付项**&#x200B;记录类型的连接。
 * ⛔如果您存储的数据只与单个记录类型相关，请不要添加新记录类型。
 
-  例如，**促销活动**&#x200B;记录类型可能具有名为&#x200B;**促销活动大小**&#x200B;的单选字段，该字段仅在与特定促销活动直接关联时才相关。
+  例如，**促销活动**&#x200B;记录类型可能具有名为&#x200B;**促销活动大小**&#x200B;的单选字段，该字段仅在与特定促销活动直接关联时才相关。 请创建一个字段来捕获此信息。
 
 #### 如何标记我的记录类型？
 
@@ -120,9 +117,7 @@ ht-degree: 0%
 
 字段是记录类型的属性，在表格视图中显示为列。 您可以为记录类型创建自定义字段，然后将这些字段与Workfront Planning记录关联以增强记录信息。
 
-
 #### 建议将哪个字段定义为“主”字段？
-
 
 * ✅确实使用唯一的主字段值，以便在建立连接时更容易查找和“挑选”这些记录。 
 
@@ -135,7 +130,7 @@ ht-degree: 0%
 
 #### 如何开始连接工作区中的数据？
 
-* ✅创建连接是Workfront Planning最强大的功能之一。 您可以将记录类型相互连接或记录类型与其他应用程序(如Adobe Workfront)的对象类型（与项目、项目组合、程序、公司和组的连接）以及Adobe Experience Manager Assets（与资源和文件夹的连接）连接。
+* ✅创建连接是Workfront Planning最强大的功能之一。 您可以将记录类型相互连接或记录类型与其他应用程序(如Adobe Workfront（与项目、项目组合、程序、公司和组的连接）、Adobe Experience Manager Assets（与资源和文件夹的连接）和Adobe GenStudio for Performance Marketing的对象类型连接。
 
   连接对象和记录类型为您提供了公司中所有内容的连接方式的完整概述。
 
@@ -147,7 +142,7 @@ ht-degree: 0%
 
 * ✅在记录或对象类型之间建立连接后，可以将各个记录相互连接，并在Workfront Planning记录中显示链接记录或对象类型中的字段。 您将减少必须更新同一段信息的位置数量，并确保它们完全匹配。
 
-  例如，一旦您在&#x200B;**促销活动**&#x200B;记录类型与&#x200B;**战术**&#x200B;记录类型之间建立连接，您将看到主要字段信息，但当您添加查找字段时，您将能够从该记录类型引入其他信息，如该&#x200B;**战术**&#x200B;的&#x200B;**启动日期**。 添加记录后，将自动填充这些查找字段的数据。
+  例如，一旦您在&#x200B;**促销活动**&#x200B;记录类型与&#x200B;**战术**&#x200B;记录类型之间建立连接，您将会看到主要字段信息，但是当您添加查找字段时，您将能够从相应记录类型中获取其他信息，例如&#x200B;**战术**&#x200B;的&#x200B;**启动日期**。 添加记录后，将自动填充这些查找字段的数据。
 
 #### 对于URL，建议使用什么字段类型？ 
 
@@ -175,9 +170,9 @@ ht-degree: 0%
 
 #### 为什么我在时间线视图中看不到所有记录？
 
-* ✅请记住为记录定义2个日期字段。 仅当至少有两个日期字段与记录类型关联时，才能创建时间线视图。 当开始日期或结束日期或两者均没有值并且开始日期在结束日期之后时，某些记录可能不会显示在时间轴视图中。
+* ✅请记住为记录定义2个日期字段。 仅当至少有两个日期字段与记录类型关联时，才能创建时间线视图。 当开始日期或结束日期或两者均没有值或者开始日期在结束日期之后时，某些记录可能不会显示在时间轴视图中。
 
-#### 如何使用时间线视图设置
+#### 应如何使用时间线视图设置？
 
 * ✅定义时间轴视图的设置，如&#x200B;**条形样式**&#x200B;和&#x200B;**颜色**，以获得更直观的视图。 通过定义您是否希望看到带有有意义图像的缩略图以及添加更多字段以在栏上显示（例如，**所有者**&#x200B;或&#x200B;**状态**），您可以自定义&#x200B;**栏样式**。
 
@@ -187,15 +182,15 @@ ht-degree: 0%
 
 ### 权限和共享
 
-使用共享功能为员工授予查看和工作区的相应权限。
+使用共享功能向他人授予查看和工作区的相应权限。
 
 #### 我该如何管理对工作区的权限？
 
-* ✅当您创建&#x200B;**工作区**&#x200B;时，它仅供您使用。 除系统管理员之外的任何其他人都将无法找到它。 定义工作区并准备好将您的团队引入开始协作后，您需要与他们共享该工作区并定义其权限级别。
+* ✅当您创建&#x200B;**工作区**&#x200B;时，它仅供您使用。 不是系统管理员的任何其他人将无法找到它。 定义工作区并准备好将您的团队引入开始协作后，您需要与他们共享该工作区并定义其权限级别。
 
   您可以从以下权限级别中进行选择：
 
-   * **管理**：用户可以编辑、删除和共享工作区。
+   * **管理**：用户可以编辑、删除和共享工作区、记录类型，以及编辑、删除和创建记录。
    * **Contribute**：人员可以创建、编辑和删除记录。
    * **查看**：人员可以查看记录。
 
@@ -203,16 +198,11 @@ ht-degree: 0%
 
   需要有标准用户许可证，用户才能拥有工作区的管理权限。
 
-* ✅如果您希望用户只能创建、编辑和删除记录，但不希望他们更改工作区的结构和架构，请授予用户&#x200B;**Contribute**&#x200B;权限。 他们具有&#x200B;**Contribute**&#x200B;权限，无法创建记录类型或更改现有记录类型上的字段。
+* ✅如果您希望用户只能创建、编辑和删除记录，但不希望他们更改工作区的结构，请授予用户&#x200B;**Contribute**&#x200B;权限。 他们具有&#x200B;**Contribute**&#x200B;权限，无法创建记录类型或更改现有记录类型上的字段。
 
   对于具有工作区的&#x200B;**Contribute**&#x200B;权限的用户，需要标准用户许可证。
 
 * 如果您希望用户仅查看记录，请✅授予用户&#x200B;**查看**&#x200B;权限。
-
-  >[!NOTE]
-  >
-  >目前，我们对于记录类型或记录没有特定的权限，这意味着如果您授予某人&#x200B;**查看**&#x200B;工作区访问权限，则任何记录类型中的所有记录均可见。
-
 
 #### 如何管理记录类型的权限？
 
@@ -222,18 +212,17 @@ ht-degree: 0%
 
 #### 我应如何管理视图的权限？
 
-* ✅确实要限制&#x200B;**管理**&#x200B;权限给希望能够编辑、删除和共享视图的用户。 这意味着他们可以更改筛选器、分组字段或视图的某些配置。 这些更改将影响同时使用该视图的其他所有用户的视图的主配置。
+* ✅确实为想要编辑、删除和共享视图的人员保留&#x200B;**管理**&#x200B;权限。 这意味着他们可以更改筛选器、分组字段或视图的某些配置。 这些更改将影响同时使用该视图的其他所有用户的视图的主配置。
 
   需要有标准用户许可证，用户才能拥有视图的管理权限。
 
-* ✅授予用户&#x200B;**视图**&#x200B;访问权限，以便能够应用该视图。 他们将能够更改某些过滤器或分组和排序，但这些更改将是临时的；更改不会为访问视图的所有其他用户保存。 这些更改不会影响同时使用该视图的其他所有用户的视图的主配置。  他们的更改仅对应用修改后的设置的用户可见。 刷新屏幕后，更改将重置为默认设置。
+* ✅授予用户&#x200B;**视图**&#x200B;权限以便应用该视图。 他们将能够更改某些过滤器或分组和排序，但这些更改将是临时的；更改不会为访问视图的所有其他用户保存。 这些更改不会影响同时使用该视图的其他所有用户的视图的主配置。  他们的更改仅对应用修改后的设置的用户可见。 刷新屏幕后，更改将重置为默认设置。
 
 * ✅授予&#x200B;**当您希望可以查看工作区的每个人都可以查看该特定视图中的记录及其字段时，工作区中的每个人都可以查看**&#x200B;权限。 这样，您就不需要手动将任何人添加到视图的共享权限框中。
 
   >[!NOTE]
   >
   >如果尚未共享某个视图，而您与其他人共享指向该视图的链接，则他们将能够在&#x200B;**默认表视图**&#x200B;中查看记录。 如果他们拥有标准Workfront许可证，则可以构建自己的视图。
-
 
 #### **Workspace共享**&#x200B;与&#x200B;**视图共享**&#x200B;有何不同？
 
@@ -245,8 +234,7 @@ ht-degree: 0%
 
 * 对于&#x200B;**Workspace共享**： Light和Contribute许可证用户只能获得对工作区的查看访问权限。 要向某人授予对工作区的“贡献”或“管理”权限，此人需要具有Standard许可证。
 
-* **视图共享**：具有工作区管理权限的标准许可证用户将能够创建视图。 Light和Contribute许可证用户只能使用Standard用户已创建并与他们共享的视图。 否则，如果未共享任何内容，则用户将能够看到&#x200B;**默认表视图**。
-
+* **视图共享**：具有工作区管理权限的标准许可证用户可以创建视图。 Light和Contribute许可证用户只能使用Standard用户已创建并与他们共享的视图。 否则，如果未共享任何内容，则用户将能够看到&#x200B;**默认表视图**。
 
 #### 当Workspace所有者更改时，我该怎么做？
 
@@ -260,13 +248,13 @@ ht-degree: 0%
 
 #### 何时应开始创建记录类型的请求表单？
 
-* ✅您应确保先通过向表中添加必要的字段来设置记录类型结构。 这些字段描述了您的记录，并可在表单生成器中访问。
+* ✅您应确保先通过向表中添加必要的字段来设置记录类型结构。 这些字段描述了您的记录，可在表单生成器中访问。
 
   理想情况下，在记录类型结构最终确定后构建请求或引入表单，以避免缺少任何关键字段。
 
 #### 谁可以创建请求表单？
 
-* ✅任何对工作区具有“管理”访问权限的用户都可以创建或编辑请求表单。 确保正确分配用户的权限以允许此功能。
+* ✅任何对工作区具有“管理”访问权限的用户都可以创建或编辑记录类型的请求表单。 确保正确分配用户的权限以允许此功能。
 
 #### 如何创建或编辑记录类型的请求表单？
 
@@ -279,12 +267,16 @@ ht-degree: 0%
 
   在表单生成器中，发布表单后，您可以管理权限以控制谁可以提交请求。
 
-  您可以从以下三个共享选项中进行选择：
+  您可以从以下共享选项中进行选择：
 
-   * **具有工作区查看权限或更高权限的任何人：**&#x200B;允许具有工作区查看权限或更高权限的所有用户提交创建记录的请求。
-   * **对工作区具有Contribute或更高访问权限的任何人**：限制向对工作区具有Contribute或更高权限的用户提交。
-   * **具有此链接的任何人：**&#x200B;允许具有此表单链接的任何人提交请求。
-   * **过期日期：**&#x200B;请确保为公共链接设置过期日期以增强安全性。
+   * 要与Workfront中的人员内部共享，请执行以下操作：
+
+      * **具有工作区查看权限或更高权限的任何人：**&#x200B;允许具有工作区查看权限或更高权限的所有用户提交创建记录的请求。
+      * **对工作区具有Contribute或更高访问权限的任何人**：限制向对工作区具有Contribute或更高权限的用户提交。
+      * **只有受邀人员才能访问**：添加可向表单提交请求的人员、团队、角色、组或公司。
+   * 对于与没有Workfront帐户的用户进行外部共享：
+      * **创建公共链接**，然后复制该链接并与任何人共享，甚至与没有Workfront帐户的人共享：允许拥有该表单链接的任何人提交请求。
+      * **链接到期日期：**&#x200B;请确保为公共链接设置到期日期以增强安全性。
 
 ### 管理请求表单的最佳实践
 
@@ -294,6 +286,8 @@ ht-degree: 0%
 * 使用清晰的标签：确保字段标签和描述清晰易懂，可供所有用户使用。
 * 测试表单：在将新表单推广到更广泛的受众之前，请使用表单链接和表单预览选项测试表单，以确保所有字段和逻辑都按预期运行。
 * 保持表单更新：定期审查表单并更新表单，以匹配记录类型结构或操作流程中的任何更改。
+
+<!--do we need to add anything for the Configuration tab of a request form?? -->
 
 <!-- this is hidden, per Andrea:  
 
@@ -349,10 +343,10 @@ Here is a summary of how you can define the data flow within Workfront Planning 
 
 * **Planning (or Connections) tab** **in Workfront _-[ [E] Global Connect capability in Planning connections area](https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/6617d7760001e250f5ffb9ebf04baacc/overview?source-id=unifiedShareMFE)_** 
 
-    When you go to the Planning section of Adobe Workfront objects, you can display both connections with linked records or any available connections with Planning record types. With that, you can view and edit any connection field without having to navigate away from the current section in Workfront to other areas. The Planning section is available for the following Workfront objects: Project, Portfolio and Program. For more information, see [Manage records in the Planning section of Adobe Workfront objects](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/manage-records-in-planning-section).   
+    When you go to the Planning section of Adobe Workfront objects, you can display both connections with linked records or any available connections with Planning record types. With that, you can view and edit any connection field without having to navigate away from the current section in Workfront to other areas. The Planning section is available for the following Workfront objects: Project, Portfolio and Program. For more information, see [Manage records in the Planning section of Adobe Workfront objects](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/manage-records-in-planning-section).   
 
 
-* Create new records within the connection fields - In-context creation of connected records https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/6656c1a30026b903c6edf0210b8cbb23/overview?source-id=unifiedShareMFE  When you need to link records through a connection field but cannot find the required records in the connected record type, you can also create new records in the connected record type directly within the connection fields, with that you can efficiently establish necessary links without having to leave the current record type context. For more information, see Create records https://experienceleague.adobe.com/zh-hans/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/create-records.   
+* Create new records within the connection fields - In-context creation of connected records https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/6656c1a30026b903c6edf0210b8cbb23/overview?source-id=unifiedShareMFE  When you need to link records through a connection field but cannot find the required records in the connected record type, you can also create new records in the connected record type directly within the connection fields, with that you can efficiently establish necessary links without having to leave the current record type context. For more information, see Create records https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/create-records.   
 
      
 
@@ -360,7 +354,7 @@ Here is a summary of how you can define the data flow within Workfront Planning 
 
      
 
-* **Connection between Workspaces with Record types accessible from multiple workspaces** – ~~Epic – "[Connect to record types across workspaces](https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/64dfad3100027190324dcc35b2176e76/overview?source-id=unifiedShareMFE)"~~ When you are creating a workspace in Planning, you can define certain record types once and then configure them to be accessible from multiple workspaces so you can create connections with them from anywhere. This way, you can streamline the data management process, eliminate duplicative work, and ensure data consistency across teams. As a result, your teams can tag their records with common taxonomies and unlock better visualization, filtering, grouping, and reporting of cross-team work.  For more information, see [Edit record types](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/edit-record-types). 
+* **Connection between Workspaces with Record types accessible from multiple workspaces** – ~~Epic – "[Connect to record types across workspaces](https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/64dfad3100027190324dcc35b2176e76/overview?source-id=unifiedShareMFE)"~~ When you are creating a workspace in Planning, you can define certain record types once and then configure them to be accessible from multiple workspaces so you can create connections with them from anywhere. This way, you can streamline the data management process, eliminate duplicative work, and ensure data consistency across teams. As a result, your teams can tag their records with common taxonomies and unlock better visualization, filtering, grouping, and reporting of cross-team work.  For more information, see [Edit record types](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/edit-record-types). 
 
      
 
