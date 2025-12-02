@@ -7,9 +7,9 @@ description: 本页包含有关Workfront Data Connect中数据的结构和内容
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: e06db80d752d79157c758b3ecf3a8d4e7040e96d
+source-git-commit: 815bee06ce413005e362d2e38068d591696cad5b
 workflow-type: tm+mt
-source-wordcount: '8788'
+source-wordcount: '8878'
 ht-degree: 9%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->Data Connect中的数据每四小时刷新一次，因此最近的更改可能不会立即反映出来。
+>Data Connect中的数据每4小时刷新一次，因此最近的更改可能不会立即反映出来。
 
 ## 视图类型
 
@@ -49,7 +49,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
 >[!IMPORTANT]
 >
 >提供的实体关系图(ERD)故意不完整，因为由于应用程序内的关系数太多，完整的ERD将变得不可读。<br>
->&#x200B;>此图提供了一个示例，说明如何使用以下[术语表](#terminology-table)部分的Project表中记录的关系将数据从Project数据视图连接到相邻对象。 预计，一旦项目对象关系了解了此模式，就不需要完整的ERD
+>此图提供了一个示例，说明如何使用以下[术语表](#terminology-table)部分的Project表中记录的关系将数据从Project数据视图连接到相邻对象。 预计，一旦项目对象关系了解了此模式，就不需要完整的ERD
 
 ## 日期类型
 
@@ -67,7 +67,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
 >[!NOTE]
 >
 >可以将新字段添加到对象视图，而无需提前通知，以支持Workfront应用程序不断演变的数据需求。 如果下游数据收件人未准备好在添加列时处理其他列，我们建议不要使用“SELECT”查询。<br>
->&#x200B;>如果需要重命名或删除列，我们将提前通知这些更改。
+>如果需要重命名或删除列，我们将提前通知这些更改。
 
 ### 访问级别
 
@@ -498,7 +498,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
     </tbody>
 </table>
 
-### 任务分配
+### 任务
 
 <table>
     <thead>
@@ -512,10 +512,10 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
       </thead>
       <tbody>
         <tr>
-            <td>任务分配</td>
-            <td>任务分配</td>
+            <td>任务</td>
+            <td>任务</td>
             <td>分配</td>
-            <td>任务分配</td>
+            <td>任务</td>
             <td>ASSIGNMENTS_CURRENT<br>ASSIGNMENTS_DAILY_HISTORY<br>ASSIGNMENTS_EVENT</td>
         </tr>
       </tbody>
@@ -1660,17 +1660,21 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         </tr>
     </tbody>
 </table>
-<div>*记录类型通过“enumClass”属性标识。 以下是所需的类型：<br>
-<ul><li>CONDITION_OPTASK</li>
-<li>CONDITION_PROJ</li>
-<li>CONDITION_TASK</li>
-<li>PRIORITY_OPTASK</li>
-<li>PRIORITY_PROJ</li>
-<li>PRIORITY_TASK</li>
-<li>SEVERITY_OPTASK</li>
-<li>STATUS_OPTASK</li>
-<li>STATUS_PROJ</li>
-<li>STATUS_TASK</li></ul></div>
+
+>[!NOTE]
+>
+>记录类型通过`enumClass`属性标识。 以下是所需的类型：<br>
+><ul><li>CONDITION_OPTASK</li>
+&gt;<li>CONDITION_PROJ</li>
+&gt;<li>CONDITION_TASK</li>
+&gt;<li>PRIORITY_OPTASK</li>
+&gt;<li>PRIORITY_PROJ</li>
+&gt;<li>PRIORITY_TASK</li>
+&gt;<li>SEVERITY_OPTASK</li>
+&gt;<li>STATUS_OPTASK</li>
+&gt;<li>STATUS_PROJ</li>
+&gt;<li>STATUS_TASK</li></ul>
+
 
 ### 文档
 
@@ -2820,7 +2824,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
     </tbody>
 </table>
 
-### Hour
+### 小时
 
 <table>
     <thead>
@@ -2834,10 +2838,10 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
       </thead>
       <tbody>
         <tr>
-            <td>Hour</td>
-            <td>Hour</td>
+            <td>小时</td>
+            <td>小时</td>
             <td>HOUR</td>
-            <td>Hour</td>
+            <td>小时</td>
             <td>HOURS_CURRENT<br>HOURS_DAILY_HISTORY<br>HOURS_EVENT</td>
         </tr>
       </tbody>
@@ -3093,7 +3097,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
     </tbody>
 </table>
 
-### 日志条目
+### 日记帐条目
 
 <table>
     <thead>
@@ -3107,10 +3111,10 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
       </thead>
       <tbody>
         <tr>
-            <td>日志条目</td>
-            <td>日志条目</td>
+            <td>日记帐条目</td>
+            <td>日记帐条目</td>
             <td>JRNLE</td>
-            <td>日志条目</td>
+            <td>日记帐条目</td>
             <td>JOURNALENTRIES_CURRENT<br>JOURNALENTRIES_DAILY_HISTORY<br>JOURNALENTRIES_EVENT</td>
         </tr>
       </tbody>
@@ -4375,9 +4379,9 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
       <tbody>
         <tr>
             <td>门户部分</td>
-            <td>报表</td>
+            <td>报告</td>
             <td>PTLSEC</td>
-            <td>报表</td>
+            <td>报告</td>
             <td>PORTALSECTIONS_CURRENT<br>PORTALSECTIONS_DAILY_HISTORY<br>PORTALSECTIONS_EVENT</td>
         </tr>
       </tbody>
@@ -4497,9 +4501,9 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
       <tbody>
         <tr>
             <td>门户选项卡</td>
-            <td>功能板</td>
+            <td>仪表板</td>
             <td>PTLTAB</td>
-            <td>功能板</td>
+            <td>仪表板</td>
             <td>PORTALTABLES_CURRENT<br>PORTALTABLES_DAILY_HISTORY<br>PORTALTABLES_EVENT</td>
         </tr>
       </tbody>
@@ -4682,7 +4686,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
     </tbody>
 </table>
 
-### 组合
+### 项目组合
 
 <table>
     <thead>
@@ -4696,10 +4700,10 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
       </thead>
       <tbody>
         <tr>
-            <td>组合</td>
-            <td>组合</td>
+            <td>项目组合</td>
+            <td>项目组合</td>
             <td>端口</td>
-            <td>组合</td>
+            <td>项目组合</td>
             <td>项目组合_当前<br>项目组合_每日历史记录<br>项目组合_事件</td>
         </tr>
       </tbody>
@@ -6601,6 +6605,11 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
         </tr>
     </tbody>
 </table>
+
+>[!NOTE]
+>
+>团队对象表中存储有3种团队类型： PROJECT、TEMPLATE和ADHOC。<br>
+>每种团队类型在Data Connect数据湖视图中一起表示。 要隔离您希望返回的特定类型的团队，您需要筛选`teamtype`列。 例如，如果您只希望将传统团队作为组织结构的一部分（在应用程序的“团队”区域中配置），则查询可能如下所示：<code>select * from teams_current where teamtype = &#39;ADHOC&#39;；</code>
 
 ### 团队成员
 
