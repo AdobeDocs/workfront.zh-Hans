@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: de568156315ff9094d938600c91b55e185d53765
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 0%
+source-wordcount: '885'
+ht-degree: 1%
 
 ---
 
@@ -47,9 +47,9 @@ ht-degree: 0%
 
 * 对于通过提交请求表单而创建的记录，您可以在“批准者”和“批准日期”字段中显示批准信息。 有关信息，请参阅[创建字段](/help/quicksilver/planning/fields/create-fields.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -99,7 +99,7 @@ ht-degree: 0%
 
 要批准请求，请执行以下操作：
 
-1. 执行下列操作之一：
+1. （视情况而定）如果您在Workfront中使用旧版请求体验，请通过执行以下操作之一打开该请求：
 
    * 如果您有权访问Workfront Planning并且可以查看至少一个工作区，请单击屏幕右上角的&#x200B;**主菜单** ![圆点主菜单](assets/dots-menu.png)，或单击左上角的&#x200B;**主菜单** ![行主菜单](assets/lines-menu.png)（如果可用），然后单击&#x200B;**请求** > **已提交** > **Planning**，然后单击状态为&#x200B;**待审核**&#x200B;或&#x200B;**审核中**&#x200B;的请求。
 
@@ -113,7 +113,7 @@ ht-degree: 0%
    请求页面将以只读模式打开。
 
    ![处于审核状态的只读请求页面](assets/read-only-reqeust-page-in-review-status.png)
-
+1. 如果您在Workfront中使用新的请求体验，请单击屏幕右上角的&#x200B;**主菜单** ![圆点主菜单](assets/dots-menu.png)，或左上角的&#x200B;**主菜单** ![行主菜单](assets/lines-menu.png)（如果可用），然后单击&#x200B;**请求**，然后单击要审批的请求（状态为&#x200B;**待审核**&#x200B;或&#x200B;**正在审核**）。
 1. （可选）单击请求右上角的&#x200B;**批准**&#x200B;图标![批准图标](assets/approvals-icon.png)以查看批准者。
 1. 单击&#x200B;**审核并批准**，然后选择以下选项之一：
 

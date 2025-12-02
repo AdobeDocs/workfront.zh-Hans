@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: de568156315ff9094d938600c91b55e185d53765
 workflow-type: tm+mt
-source-wordcount: '2643'
+source-wordcount: '2684'
 ht-degree: 1%
 
 ---
@@ -32,9 +32,9 @@ ht-degree: 1%
 
 有关向记录类型提交请求以创建记录的信息，请参阅[提交Adobe Workfront Planning请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -166,7 +166,7 @@ ht-degree: 1%
 表单详细信息分为选项卡。
 
 * **表单**&#x200B;选项卡允许您向表单添加字段和内容元素
-* **配置**&#x200B;选项卡允许您设置表单的批准流程并设置请求完成选项&lt;。
+* **配置**选项卡允许您设置表单的批准流程并设置请求完成选项&lt;。
   <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
 
 #### 设置表单详细信息
@@ -241,13 +241,13 @@ ht-degree: 1%
 
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
-   * 将请求表单与批准者关联时，任何新请求都必须首先由所有批准者批准，然后才能生成新记录。
    * 您可以将一个或多个批准者添加到请求表单。
-   * 如果至少有一位审批者拒绝了请求，则该请求会被拒绝，并且不会创建记录。
-   * 在批准或拒绝请求之前，所有批准者都必须做出决定。
+   * 如果添加多个审批人，但未启用“仅需要一个决策”选项，则所有审批人必须在Workfront Planning创建记录之前审批该请求。
+   * 如果至少有一位审批者拒绝了请求，则该请求会被拒绝，并且不会创建记录。 该请求将保留在Workfront请求区域的已提交部分的“计划”选项卡中。
+   * 如果您添加多个审批者，但未启用“只需一个决策”选项，则所有审批者必须在请求被批准或拒绝之前做出决策。
    * 如果将团队设置为批准者，则只需从团队中做出一个决策。
 
-     有关将审批添加到请求表单的详细信息，请参阅[将审批添加到请求表单](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
+   有关将审批添加到请求表单的详细信息，请参阅[将审批添加到请求表单](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
 
 1. （视情况而定）如果希望在任何一位批准者批准记录后创建记录，请选中&#x200B;**仅需要一个决策**&#x200B;复选框。
 

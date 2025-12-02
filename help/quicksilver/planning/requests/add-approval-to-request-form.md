@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: de568156315ff9094d938600c91b55e185d53765
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 0%
+source-wordcount: '688'
+ht-degree: 2%
 
 ---
 
@@ -35,9 +35,9 @@ ht-degree: 0%
 
 有关向记录类型提交请求以创建记录的信息，请参阅[提交Adobe Workfront Planning请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -90,11 +90,8 @@ ht-degree: 0%
    显示&#x200B;**配置**&#x200B;区域。
 
    ![配置选项卡](assets/configuration-tab.png)
-1. 在&#x200B;**审批者**&#x200B;字段中，单击下拉图标，然后在列表中选择一个或多个用户或团队
-
-   或
-
-   开始键入要设置为审批者的用户或团队的名称，然后当该名称或团队显示在列表中时将其选定。
+1. 在&#x200B;**审批者**&#x200B;字段中，开始键入要设置为审批者的用户或团队的名称，然后当该名称或团队显示在列表中时将其选定。
+1. （可选且有条件）如果您设置了多个审批者，并且只需要一个审批者即可做出决策，请启用&#x200B;**仅需要一个决策**&#x200B;选项。
 
    <!--most of the Note below is duplicated in the Create a request form article-->
 
@@ -103,11 +100,11 @@ ht-degree: 0%
    >
    >* 您可以将一个或多个批准者添加到请求表单。
    >
-   >* 如果添加多个审批者，则在Workfront Planning创建记录之前，所有审批者都必须审批该请求。
+   >* 如果添加多个审批人，但未启用“仅需要一个决策”选项，则所有审批人必须在Workfront Planning创建记录之前审批该请求。
    >
    >* 如果至少有一位审批者拒绝了请求，则该请求会被拒绝，并且不会创建记录。 该请求将保留在Workfront请求区域的已提交部分的“计划”选项卡中。
    >
-   >* 在批准或拒绝请求之前，所有批准者都必须做出决定。
+   >* 如果您添加多个审批者，但未启用“只需一个决策”选项，则所有审批者必须在请求被批准或拒绝之前做出决策。
    >
    >* 如果将团队设置为批准者，则只需从团队中做出一个决策。
 
