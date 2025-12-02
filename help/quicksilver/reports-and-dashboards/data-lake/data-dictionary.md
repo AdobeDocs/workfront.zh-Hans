@@ -1665,15 +1665,15 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
 >
 >记录类型通过`enumClass`属性标识。 以下是所需的类型：<br>
 ><ul><li>CONDITION_OPTASK</li>
-&gt;<li>CONDITION_PROJ</li>
-&gt;<li>CONDITION_TASK</li>
-&gt;<li>PRIORITY_OPTASK</li>
-&gt;<li>PRIORITY_PROJ</li>
-&gt;<li>PRIORITY_TASK</li>
-&gt;<li>SEVERITY_OPTASK</li>
-&gt;<li>STATUS_OPTASK</li>
-&gt;<li>STATUS_PROJ</li>
-&gt;<li>STATUS_TASK</li></ul>
+>&gt;<li>CONDITION_PROJ</li>
+>&gt;<li>CONDITION_TASK</li>
+>&gt;<li>PRIORITY_OPTASK</li>
+>&gt;<li>PRIORITY_PROJ</li>
+>&gt;<li>PRIORITY_TASK</li>
+>&gt;<li>SEVERITY_OPTASK</li>
+>&gt;<li>STATUS_OPTASK</li>
+>&gt;<li>STATUS_PROJ</li>
+>&gt;<li>STATUS_TASK</li></ul>
 
 
 ### 文档
