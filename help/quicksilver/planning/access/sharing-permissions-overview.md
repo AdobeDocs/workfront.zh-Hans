@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1165'
 ht-degree: 5%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 5%
 
 您可以在Workfront Planning中手动共享以下对象：
 
-* Workspace
+* 工作区
 
    * 您可以与组织内的人员共享工作区。
    * 共享工作区时，也将共享与工作区关联的所有记录类型、记录和字段。
@@ -66,21 +66,6 @@ ht-degree: 5%
 
   有关详细信息，请参阅[共享视图](/help/quicksilver/planning/access/share-views.md)。
 
-在内部，您可以与以下Workfront实体共享工作区、视图或记录类型：
-
-* 用户
-* 组
-* 团队
-* 公司
-* 工作角色
-
-当您与他人共享工作区和记录类型时，记录类型中的权限级别会自动继承到与其关联的记录和字段。
-
->[!IMPORTANT]
->
->如果您组织的Workfront实例已载入到Adobe Unified Experience，则必须将要与共享Planning对象的用户添加到Adobe Admin Console。 您无法与尚未添加到Adobe Admin Console的Workfront用户共享Planning对象。
-
-
 ## 关于在Adobe Workfront Planning中共享对象的注意事项
 
 * 您的Adobe Workfront许可证类型与Workfront Planning权限配合使用，允许您查看、贡献或管理工作区及其对象。
@@ -88,14 +73,30 @@ ht-degree: 5%
   有关许可证类型如何影响Workfront Planning权限级别的信息，请参阅[使用Adobe Workfront Planning时的许可证类型概述](/help/quicksilver/planning/access/license-type-overview.md)。
 * 系统管理员可以管理系统中的所有工作区，包括他们未创建的工作区。
 * 其他用户（包括系统管理员）只能访问他们自己创建的或与他们共享的视图。 只能向系统管理员授予管理视图的权限。
-* 您可以与他人共享指向工作区或视图的链接。
 
-  存在以下情况：
-   * 接收工作区链接的用户必须是活动用户并登录到Workfront才能访问工作区。
-   * 收到视图链接的用户可以通过以下方式访问该视图：
+* 当您与他人共享工作区和记录类型时，记录类型中的权限级别会自动继承到与其关联的记录和字段。
 
-      * 如果指向视图的链接在内部共享，则必须是活动用户并登录到Workfront。
-      * 可以是Workfront的外部用户，无需登录到Workfront即可从公共共享链接访问视图。
+  >[!IMPORTANT]
+  >
+  >如果您组织的Workfront实例已载入到Adobe Unified Experience，则必须将要与共享Planning对象的用户添加到Adobe Admin Console。 您无法与尚未添加到Adobe Admin Console的Workfront用户共享Planning对象。
+
+* 您可以通过以下方式共享Planning对象：
+
+   * 在内部，您可以与以下Workfront实体共享工作区、视图或记录类型：
+
+      * 用户
+      * 组
+      * 团队
+      * 公司
+      * 工作角色
+
+     您最多可以将Planning对象与每个对象100个实体共享。
+
+   * 在内部，通过与其他Planning用户共享指向工作区或视图的链接。 存在以下情况：
+
+      * 接收工作区链接的用户必须是活动用户，并且必须登录到Workfront才能访问工作区。
+      * 收到视图的内部共享链接的用户必须是活动用户，并且必须登录到Workfront才能访问该视图。
+   * 从外部来看，是通过与没有Workfront帐户的外部用户共享指向视图的公开共享链接。
 
 ## 共享Adobe Workfront Planning对象的权限
 
@@ -116,19 +117,19 @@ ht-degree: 5%
 
 您必须向用户授予工作区权限，以便他们能够访问以下实体：
 
-* Workspace
+* 工作区
 * 记录类型
 * 记录
 * 字段
 
 以下是工作区的权限级别：
 
-|        | 管理 | 贡献 | 查看 |
+|        | 管理 | 贡献 | 视图 |
 |--------|--------|------------|-------|
-| 编辑 | ✓ |            |       |
+| Edit | ✓ |            |       |
 | 共享 | ✓ |            |       |
 | 删除 | ✓ |            |       |
-| 查看 | ✓ | ✓ | ✓ |
+| 视图 | ✓ | ✓ | ✓ |
 
 ### 记录类型的权限
 
@@ -165,11 +166,11 @@ The following are the levels of permissions for record types:
 |--------|--------|-------------|
 | 管理 | 管理 | 管理，删除权限* |
 | 贡献 | 贡献 | Contribute、View、Remove权限* |
-| 查看 | 查看 | 查看，删除权限* |
+| 视图 | 视图 | 查看，删除权限* |
 
 >[!NOTE]
 >
->*当您从记录类型中删除权限时，用户仍保留对工作区和所有记录类型的“查看”权限，除非您从工作区中删除其权限。
+>从记录类型中删除权限时，用户仍保留对工作区和所有记录类型的“查看”权限，除非从工作区中删除其权限。
 
 ### 记录的权限
 
@@ -178,12 +179,12 @@ The following are the levels of permissions for record types:
 以下是记录的权限级别：
 
 
-|        | 管理 | 贡献 | 查看 |
+|        | 管理 | 贡献 | 视图 |
 |--------|--------|------------|-------|
 | 创建 | ✓ | ✓ |       |
 | 删除 | ✓ | ✓ |       |
-| 编辑 | ✓ | ✓ |       |
-| 查看 | ✓ | ✓ | ✓ |
+| Edit | ✓ | ✓ |       |
+| 视图 | ✓ | ✓ | ✓ |
 
 ### 记录字段的权限
 
@@ -191,12 +192,12 @@ The following are the levels of permissions for record types:
 
 以下权限是指字段本身，而不是与每个字段关联的值。 要编辑字段值，您必须具有编辑记录的权限。
 
-|        | 管理 | 贡献 | 查看 |
+|        | 管理 | 贡献 | 视图 |
 |--------|--------|------------|-------|
 | 创建 | ✓ |            |       |
 | 删除 | ✓ |            |       |
-| 编辑 | ✓ |            |       |
-| 查看 | ✓ | ✓ | ✓ |
+| Edit | ✓ |            |       |
+| 视图 | ✓ | ✓ | ✓ |
 
 
 ### 查看权限
@@ -218,15 +219,15 @@ The following are the levels of permissions for record types:
 
 | 内部共享 | 管理（只有受邀人员才能访问） | 查看（只有受邀人员才能访问） | 工作区中的每个人都可以查看* |
 |--------|--------|-------|------------------------------|
-| 编辑 | ✓ |       |                            |
+| Edit | ✓ |       |                            |
 | 删除 | ✓ |       |                            |
 | 共享 | ✓ |       |                           |
-| 查看 | ✓ | ✓ | ✓ |
+| 视图 | ✓ | ✓ | ✓ |
 | 应用 | ✓ | ✓ | ✓ |
 
-| 公开共享 | 查看 |
+| 公开共享 | 视图 |
 |--------|-------|
-| 查看 | ✓ |
+| 视图 | ✓ |
 | 应用 | ✓ |
 
 *用户必须具有工作区的“查看”或更高权限才能获得此查看访问权限。

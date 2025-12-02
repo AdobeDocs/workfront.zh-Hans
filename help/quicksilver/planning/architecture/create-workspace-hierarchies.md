@@ -4,10 +4,10 @@ description: 您可以在工作区中的记录类型之间创建多个工作区�
 hide: true
 hidefromtoc: true
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -30,7 +30,7 @@ hidefromtoc: yes
 
 您可以在工作区中的记录类型之间创建多个工作区层次结构。
 
-## 访问要求
+## 访问权限要求
 
 <!--check the access to see if you oversimplified???-->
 
@@ -48,11 +48,11 @@ hidefromtoc: yes
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront包</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
 <ul> 
 <li><p>任何Workfront和任何Planning包</p></li>
-<p>或</p>
+或
 <li><p>任何工作流和任何计划包</p></li></ul>
 <p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
    </td> 

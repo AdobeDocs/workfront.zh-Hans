@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 0%
+source-wordcount: '647'
+ht-degree: 1%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 在从全局记录类型向工作区中添加记录之前，另请参阅文章[跨工作区记录类型概述](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)。
 
 
-## 访问要求
+## 访问权限要求
 
 +++ 展开以查看本文中各项功能的访问要求。
 
@@ -47,10 +47,10 @@ ht-degree: 0%
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront包</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
 <ul><li><p>任何Workfront包和Planning Plus包</p></li>
-<p>或</p>
+或
 <li><p>任何工作流和计划Prime或Ultimate包</p></p></li></ul>
 <p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
    </td> 
@@ -114,10 +114,11 @@ And
 
 >[!NOTE]
 >
->确保在至少一个其他工作区中至少有一个指定为全局的记录类型。
+>确保在至少一个其他主工作区中至少有一个指定为全局的记录类型。
 >
 >有关信息，请参阅[为记录类型配置跨工作区功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。
 
+1. 转到要创建记录类型的工作区（辅助工作区）。
 1. 开始创建记录类型，如文章[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)中所述，然后单击&#x200B;**添加现有**。<!--check this - the option might have been renamed in the UI-->
 
    ![模式以添加记录类型，并带有从另一个工作区添加的选项](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
@@ -129,7 +130,7 @@ And
 1. 单击&#x200B;**继续**。
 1. 在&#x200B;**选择记录类型**&#x200B;框中，单击要从现有工作区添加的记录类型的卡片，然后单击&#x200B;**添加**。
 
-   记录类型已添加到您选择的工作区，**全局记录类型**&#x200B;图标![](assets/global-icon.png)将显示在记录类型的卡片上。
+   该记录类型已添加到您选择的辅助工作区，**全局记录类型**&#x200B;图标![](assets/global-icon.png)将显示在记录类型的卡片上。
 
    出现以下情况：
 

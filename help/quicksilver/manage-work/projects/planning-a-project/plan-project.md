@@ -2,25 +2,26 @@
 product-area: projects
 navigation-topic: plan-a-project
 title: 计划项目概述
-description: 了解什么是项目，如何建立项目的范围和结构，以及计划、时间表以及开始和完成日期等关键概念。
+description: 项目是Adobe Workfront中的一个大型工作项。 您可以将项目划分为较小工作项的任务。 任务可以分配给负责完成任务的用户或团队。 当所有用户完成其任务时，项目也会完成。
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 3cbcc2dd2efb457f5f0c4213110af54230a23eb0
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1606'
 ht-degree: 0%
 
 ---
 
 # 计划项目概述
 
-<!--Audited: 01/2024-->
+<!--Audited: 12/2025-->
 
 <!--
-< see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
--->
+< see if you need to add something about approval settings, issue for ad-hoc happenings and how to work with documents??-->
+
+<!--this article is linked to the ESM area in the UI; the ESM team on the Adobe side linked to this article for their -->
 
 项目是Adobe Workfront中的一个大型工作项。 您可以将项目划分为较小工作项的任务。 任务可以分配给负责完成任务的用户或团队。 当所有用户完成其任务时，项目也会完成。
 
@@ -30,9 +31,13 @@ ht-degree: 0%
 
 项目计划意味着确切地确定完成项目必须完成的主要目标。
 
-在项目的初始阶段，您可能尚未确定是否实际应执行此项目。 这样做可能没有成本效益，或者您可能没有资源。 在此规划阶段，您可以在Workfront中创建项目而不添加任何任务，并将状态设置为planning。
+在项目的初始阶段，您可能尚未确定是否实际应执行此项目。 这样做可能没有成本效益，或者您可能没有资源。 在此规划阶段，您可以在Workfront中创建项目，而无需添加任何任务，并将其状态设置为Planning。
+
+或者，您可以提交项目请求，询问您的Portfolio经理是否可以创建项目。 这使您能够提交项目的业务案例，您可以在其中估计完成项目所需的内容。 这将创建一个状态为“已请求”的项目。
 
 有关创建项目的详细信息，请参阅文章[创建项目](../../../manage-work/projects/create-projects/create-project.md)。
+
+有关创建项目请求的信息，请参阅[请求项目](/help/quicksilver/manage-work/projects/create-projects/request-project.md)。
 
 在计划项目之前，请考虑以下问题：
 
@@ -54,13 +59,19 @@ ht-degree: 0%
 
 ### 定义项目的开始日期和完成日期 {#define-the-start-and-completion-date-of-the-project}
 
-在计划项目时，首先必须确定的是时间线：项目何时可以开始，以及必须何时完成。 确定是否已为必须完成项目设置了截止时间，或者您是否应设置起始点并从该点开始工作。
+在计划项目时，首先必须确定的是时间线：确定项目何时可以开始，以及必须何时完成。
+
+确定是否已为必须完成项目设置了截止时间，或者您是否应设置起始点并从该点开始工作。
 
 您可以从起始日期计划项目，也可以从完成日期计划项目。 可在最初创建项目时设置此属性，并可随时通过编辑项目来更改此属性。
+
+有关信息，请参阅[编辑项目](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md)。
 
 ### 定义项目计划 {#define-the-project-schedule}
 
 您必须确定一个时间表，并将其与项目以及负责完成项目任务的用户关联。
+
+时间表定义用户可在项目上使用的时间。
 
 考虑在计划上定义以下内容：
 
@@ -70,7 +81,7 @@ ht-degree: 0%
 
 了解用户何时可以工作对于了解项目任务的进度很重要。
 
-您可以创建多个项目计划并将默认计划应用于项目。 其他自定义计划可能会应用于不同的个人。
+您可以在Workfront实例中创建多个计划，并应用将用于所有项目的默认计划。 您还可以创建其他自定义计划以将它们与不同的个人关联。
 
 有关计划的详细信息，请参阅文章[创建计划](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
 
@@ -80,14 +91,19 @@ ht-degree: 0%
 
 请考虑提出以下问题：
 
-* 是否有法规要求您保留事件和过程的记录？ 如果是这样的话，您需要跟踪哪些内容？\
+* 是否有法规要求您保留事件和过程的记录？ 如果是这样的话，您需要跟踪哪些内容？
+
   Workfront允许您记录编辑、范围更改、状态更改和操作，以便您能够遵守特定于您行业的法规。\
   有关定义要在Workfront中跟踪哪些更新的详细信息，请参阅文章[系统跟踪的更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)。
 
-* 是否有任何您需要跟踪的信息，但在Workfront中没有用于存储该信息的字段？ 如果是，请为可以存储此信息的项目或任务创建自定义Forms 。\
+* 是否有任何您需要跟踪的信息，但在Workfront中没有用于存储该信息的字段？
+
+  如果是，请为可以存储此信息的项目或任务创建自定义Forms 。
+
   有关创建自定义表单的详细信息，请参阅文章[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
-* 在项目工作能够继续之前，是否必须授予任何批准检查点？ 如果是，请为可在构建项目时使用的项目或任务创建批准流程。\
+* 在项目工作能够继续之前，是否必须授予任何批准检查点？ 如果是，请为可在构建项目时使用的项目或任务创建批准流程。
+
   有关审批流程的详细信息，请参阅文章[为工作项创建审批流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)。
 
 ## 构建项目时间线
@@ -95,11 +111,12 @@ ht-degree: 0%
 在确定项目的主要目标并决定该项目值得追求后，应计算每个目标的时间表。 每个目标都可以成为您项目中的一项任务。
 
 这有助于确定目标的优先级并相应地规划工作细分结构。 工作分解结构定义项目的时间表。\
-有关在项目中创建任务的更多信息，请参阅[定义任务](#define-tasks)部分。
+有关在项目中创建任务的更多信息，请参阅本文中的[定义任务](#define-tasks)部分。
 
 在构建项目的时间表时，请考虑以下事项：
 
 * 将较大的目标划分为子任务，并定义其开始日期和完成日期。
+* 将任务分配给个人或团队，以便您知道谁负责完成任务。 您可以将任务分配给工作角色，但仅限于项目的初始计划阶段，此时您不太确定可以将谁分配给任务。 启动项目后，最好将工作角色替换为用户或团队分配。
 * 确定您的目标是否依赖于其他目标。
 
   您可以将这些依赖项设置为前置任务。
@@ -124,7 +141,7 @@ ht-degree: 0%
 
 您可以通过以下方式在项目中创建任务：
 
-* 在内联编辑中将任务添加到项目。
+* 在内联编辑项目中的任务列表时，手动将任务添加到项目。
 * 使用具有已定义模板任务的模板，并将其添加到您的项目中。
 
   模板任务成为项目的任务。

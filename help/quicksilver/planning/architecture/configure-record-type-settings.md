@@ -5,10 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 2%
+source-wordcount: '462'
+ht-degree: 3%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 2%
 
   本文介绍了如何通过配置记录类型的“设置”页面来编辑记录类型。
 
-## 访问要求
+## 访问权限要求
 
 +++ 展开以查看本文中各项功能的访问要求。 
 
@@ -49,24 +49,20 @@ ht-degree: 2%
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront包</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
 <p>任何Workfront和Planning包</p>
-<p>任何Workfront和Planning包</p>
+<p>任何工作流和计划包</p>
+<div class="preview">
 <p><b>注释</b></p>
-<p>要配置可连接的记录类型，请执行以下操作： </p>
-<ul> 
-<li><p>任何Workfront包和任何Planning包</p></li>
-<p>或</p>
-<li><p>任何工作流和计划Prime或Ultimate包</p></li></ul>
-
 <p>要配置全局记录类型，请执行以下操作：</p>
 
 <ul> 
 <li><p>任何Workfront包和Planning Plus包</p></li>
-<p>或</p>
-<li><p>任何工作流和计划Prime或Ultimate包</p></li></ul>
-<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p>
+或
+<li><p>任何工作流包和计划Prime或Ultimate包</p></li></ul>
+<p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
+</div>
    </td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 

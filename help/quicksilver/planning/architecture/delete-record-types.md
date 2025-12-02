@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
 source-wordcount: '1062'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 <!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
-## 访问要求
+## 访问权限要求
 
 +++ 展开以查看本文中各项功能的访问要求。 
 
@@ -46,16 +46,16 @@ ht-degree: 0%
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront包</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
 <ul> 
 <li><p>任何Workfront和任何Planning包</p></li>
-<p>或</p>
+或
 <li><p>任何工作流和任何计划包</p></li></ul>
 <div class="preview">
 <p>要删除全局记录类型，请执行以下操作：</p>
 <ul><li><p>任何Workfront包和Planning Plus包</p></li>
-<p>或</p>
+或
 <li><p>任何工作流和计划Prime或Ultimate包</p></li></ul>
 </div>
 <p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 

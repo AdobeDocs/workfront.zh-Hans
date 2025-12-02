@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: f88b6ec019963ff6256e35b9c94eb4d1b7e99730
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1569'
 ht-degree: 0%
 
 ---
@@ -112,6 +112,11 @@ ht-degree: 0%
 
      有关详细信息，请参阅[删除记录类型](/help/quicksilver/planning/architecture/delete-record-types.md)。
    * 共享记录类型的视图。
+
+     在辅助工作区中，不能通过全局记录类型公开共享视图。 您只能从辅助工作区内部共享视图。
+
+     有关信息，请参阅[共享视图](/help/quicksilver/planning/access/share-views.md)。
+
 
      <!-- when they will be able to add fields to the secondary space, this bullet will need this extra information: 
          After adding fields to the global record type in the secondary workspace, shared views might not open for other users in workspaces. The fields exist only in the secondary workspace and they would not be visible in any other workspace. Only fields created in the primary workspace are visible in all secondary workspaces where there the record type is added. -->

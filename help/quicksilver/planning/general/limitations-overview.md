@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 2%
+source-wordcount: '461'
+ht-degree: 3%
 
 ---
 
@@ -35,8 +35,8 @@ Adobe Workfront Planning对实例中可创建的对象数量存在限制。 设�
 | 一个工作区的部分数 | 50 |
 | 一个工作区的记录类型数 | 100（这包括来自所有部分的记录类型以及在使用工作区模板时创建的记录类型） |
 | 一种记录类型的记录数 | 25,000 |
-| 一个工作区的记录数 | 25,000（计划为<br>的客户）500,000（计划为Planning Plus的客户） |
-| Workfront Planning的一个实例的总记录数 | 500,000（计划为<br>200万的客户）适用于计划为Planning Plus的客户 |
+| 一个工作区的记录数 | 计划选择：25,000 <br>计划Prime：500,000 <br>计划Ultimate：1,000,000 |
+| Workfront Planning的一个实例的总记录数 | Planning Select： 500,000 <br>计划Prime： 2,000,000 <br>计划Ultimate：无限制 |
 | 一种记录类型或分类的字段数 | 500 |
 | 单行文本字段的字符数 | 1,000 个字符 |
 | 段落字段的字符数 | 10,000 个字符 |
@@ -51,6 +51,7 @@ Adobe Workfront Planning对实例中可创建的对象数量存在限制。 设�
 | 一种记录类型的公式字段数 | 20 |
 | <span class="preview">一个记录类型的连接字段数</span> | <span class="preview">30</span> |
 | 公式字段表达式中的字符数 | 50,000 |
+| 可与Planning对象共享的实体（用户、角色、团队、公司、组）的数量 | 100 |
 
 *我们建议不要有太多工作区，因为它们可能会变得难以管理，并且您的工作流可能过于分散。
 
