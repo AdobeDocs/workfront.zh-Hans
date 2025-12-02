@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
+source-git-commit: 5b5f9083ed4b60fa6642100cfb9b0da46799dffa
 workflow-type: tm+mt
-source-wordcount: '1719'
-ht-degree: 0%
+source-wordcount: '1741'
+ht-degree: 1%
 
 ---
 
@@ -29,11 +29,11 @@ ht-degree: 0%
 >
 >  此外，获取预览Sandbox不需要的自定义刷新Sandbox会额外产生成本。
 >
->  有关预览沙盒的更多信息，请参阅[预览Sandbox环境 [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)。
+>  有关预览沙盒的更多信息，请参阅[预览Sandbox环境 [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -223,3 +223,8 @@ If you are a Workfront Goals customer, Workfront Goals data does not transfer to
 * [!DNL Workfront]自定义刷新沙盒环境旨在始终可用。 在解决任何生产问题（如果存在）之后，在常规工作时间内对Workfront自定义刷新沙盒环境的任何中断都将成为首要任务。 将解决周末（周六和周日）对Workfront自定义刷新沙盒环境的任何中断，以便该环境在星期一的营业时间运行。
 
 * 验证在自定义刷新沙盒环境中不可用。
+
+* 以下通知不可在自定义刷新沙盒环境中使用：
+
+   * 提醒通知
+   * 自动延迟或提前提醒通知
