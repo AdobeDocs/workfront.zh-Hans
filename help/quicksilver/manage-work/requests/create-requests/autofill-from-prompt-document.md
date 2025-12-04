@@ -1,18 +1,18 @@
 ---
-title: 使用AI表单填写可使用提示或文档填写请求
+title: 使用由AI提供支持的表单填写功能，使用提示或文档填写请求
 content-type: reference
 description: 可以通过输入提示或提供文档来使用AI自动填写请求字段。
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
+source-git-commit: 3c319ff406ca7705e618f3159edcf87d27d8229e
 workflow-type: tm+mt
-source-wordcount: '1345'
-ht-degree: 2%
+source-wordcount: '1370'
+ht-degree: 3%
 
 ---
 
-# 使用AI表单填写可使用提示或文档填写请求
+# 使用由AI提供支持的表单填写功能，使用提示或文档填写请求
 
 >[!NOTE]
 >
@@ -29,9 +29,9 @@ AI表单填写不会覆盖您已填写的任何字段。
 
 用户不会收到他们无权访问的数据建议。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -169,7 +169,7 @@ AI表单填写可根据文本（如电子邮件）建议字段值。 将粘贴�
 
 ## 根据您上传的文档获取建议
 
-自动填写可以根据您上传的文档来建议字段值。
+由AI提供支持的表单填写功能可使用提示填写请求，或者文档可以根据您上传的文档建议字段值。
 
 此类建议还会检查以前对类似上下文的请求。 例如，如果提示提及请求是针对特定客户的，Workfront可以根据之前的请求自动查找并输入该客户的账单地址。
 
@@ -234,8 +234,8 @@ Workfront字段类型会影响给定字段是否可以自动填写。
 
 <table>
 <tr>
-<td><b>支持的</b><br>自动填写可以填写</td>
-<td><b>不支持</b> <br>自动填写未填写</td>
+<td><b>受支持的</b><br>由AI提供支持的表单填写功能可以填写</td>
+<td><b>不支持</b> <br>AI支持的表单填写未填写</td>
 </tr>
 <tr>
 <td>
