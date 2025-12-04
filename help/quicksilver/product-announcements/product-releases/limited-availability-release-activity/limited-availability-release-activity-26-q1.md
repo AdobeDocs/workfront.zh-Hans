@@ -8,9 +8,9 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: bc222ec76ac94a44c33ee166036d84c164b1da01
+source-git-commit: fb1b5bb34810652e5098f0dcad70062670d7c137
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -50,13 +50,19 @@ ht-degree: 0%
 
 当任务持续时间为0时，“高级工作”屏幕上的“已计划小时数”KPI不再可编辑。 以前，您可以编辑计划小时数，但不会保存更改。
 
-<!--### Maintenance Updates week of November 30-December 6, 2025
+### 2025年11月30日至12月6日为期一周的维护更新
+
+**未使用日期有效汇率时隐藏的“汇率日期”字段**
+
+现在，如果未选中&#x200B;**使用系统中的日期有效汇率**&#x200B;复选框，项目详细信息>财务区域中的&#x200B;**汇率日期**&#x200B;字段会隐藏。 以前，在编辑项目时，即使未启用生效日期的汇率，日期字段也会显示在项目详细信息中。
+
+<!--### Maintenance Updates week of December 7-13, 2025
 
 **Title**
 
 text
 
-### Maintenance Updates week of December 7-13, 2025
+### Maintenance Updates week of January 4-10, 2026
 
 **Title**
 
