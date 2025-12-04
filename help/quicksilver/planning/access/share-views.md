@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 0c890cc535c61c5402a334e43ed45b3ec3f9f748
 workflow-type: tm+mt
-source-wordcount: '1902'
+source-wordcount: '1901'
 ht-degree: 1%
 
 ---
@@ -277,7 +277,7 @@ This article describes how you can share a view with others. For information abo
 
    >[!TIP]
    >
-   ><span class="preview">对于辅助工作区中的全局记录类型，**创建公共链接**&#x200B;设置灰显。</span>
+   ><span class="preview">为辅助工作区中的全局记录类型删除了&#x200B;**公共共享**&#x200B;选项卡。</span>
 
 
 1. 单击&#x200B;**复制链接**&#x200B;图标![复制链接视图](assets/copy-link-view.png)以将链接复制到剪贴板。
@@ -335,7 +335,7 @@ This article describes how you can share a view with others. For information abo
      ![视图访问请求的应用程序内通知](assets/in-app-notification-for-access-request-for-view.png)
 1. （视情况而定）在Workfront的通知区域中，单击应用程序内通知
 或
-在电子邮件通知中，单击&#x200B;**查看所有通知**，然后单击列表中的通知。
+在电子邮件通知中，单击**查看所有通知**，然后单击列表中的通知。
 
    显示&#x200B;**待处理访问请求**&#x200B;框。
 

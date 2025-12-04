@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 0c890cc535c61c5402a334e43ed45b3ec3f9f748
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1586'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 0%
      有关详细信息，请参阅[删除记录类型](/help/quicksilver/planning/architecture/delete-record-types.md)。
    * 共享记录类型的视图。
 
-     在辅助工作区中，不能通过全局记录类型公开共享视图。 您只能从辅助工作区内部共享视图。
+     在辅助工作区中，不能通过全局记录类型公开共享视图。 您只能从辅助工作区内部共享视图。 您可以在原始工作区中为全局记录类型在内部和公开共享视图。
 
      有关信息，请参阅[共享视图](/help/quicksilver/planning/access/share-views.md)。
 

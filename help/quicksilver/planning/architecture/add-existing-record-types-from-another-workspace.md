@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 0c890cc535c61c5402a334e43ed45b3ec3f9f748
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 1%
@@ -144,6 +144,7 @@ And
      >[!NOTE]
      >
      >您无法编辑新记录类型的外观、其他设置或原始字段。 只能从原始工作区编辑记录类型及其所有原始字段和设置。
+     >
 
 1. （可选）单击，然后将新添加的记录类型拖放到工作区中的任何部分。
 1. （可选）单击新记录类型卡片上的&#x200B;**更多**&#x200B;菜单或其页面上的记录类型名称右侧，然后单击&#x200B;**删除**。

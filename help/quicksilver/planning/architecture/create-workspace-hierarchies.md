@@ -1,13 +1,13 @@
 ---
 title: 创建Workspace层级
-description: 您可以在工作区中的记录类型之间创建多个工作区层次结构。
+description: 作为工作区管理员，您可以在Adobe Workfront Planning中的记录类型之间创建多个工作区层次结构。 在工作区中连接记录类型并创建层级后，记录类型会相互连接，其中一个记录类型指定为父级，而最多6个其他记录类型配置为子级。
 hide: true
 hidefromtoc: true
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: ff9371b639e7684a94c08b8cd6293b632fac9edf
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 5%
+source-wordcount: '248'
+ht-degree: 2%
 
 ---
 
@@ -28,7 +28,14 @@ hidefromtoc: yes
 
 # 创建工作区层次结构
 
-您可以在工作区中的记录类型之间创建多个工作区层次结构。
+作为工作区管理员，您可以在Adobe Workfront Planning中的记录类型之间创建多个工作区层次结构。
+
+在工作区中连接记录类型并创建层级后，记录类型会相互连接，其中一个记录类型指定为父级，而最多6个其他记录类型配置为子级。<!--asking Robert how many we can have in one hierarchy; I think 7 total but not sure-->
+
+层次结构将为记录类型和在其标题中显示的记录<!--ensure this is the case: does the breadcrumb show for both the RT and the record??-->生成痕迹导航。 这样，用户就可以在工作流的任何阶段了解自己在层级中的位置。
+
+有关层次结构和痕迹导航的一般信息，请参阅[层次结构和痕迹导航概述](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)。
+
 
 ## 访问权限要求
 
@@ -72,3 +79,5 @@ hidefromtoc: yes
 有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+## 创建工作区层级
