@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: f22f00417cd0bfbe53cfee513e8be95a8719f785
+source-git-commit: 1ef57b73a77d0c622b3dbd57057c51d0ccbad7db
 workflow-type: tm+mt
-source-wordcount: '9416'
+source-wordcount: '9457'
 ht-degree: 0%
 
 ---
@@ -1416,6 +1416,13 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 有关信息，请参阅[创建里程碑路径](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)。
 
+
+#### 项目组合的项目部分的新外观
+
+**预览和生产： 2025年3月18日**
+
+我们改进了项目组合的项目分区中的项目列表。 该列表现在与Workfront中的大多数列表匹配。
+
 +++
 
 
@@ -1466,7 +1473,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 * 费用类型
 * 组
 * 小时数类型
-* 日志条目
+* 日记帐条目
 * 非人工资源（仅适用于特定客户）
 * 非人工资源类别（仅适用于特定客户）
 * 队列主题

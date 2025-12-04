@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 0964ad24535bf43a23c740cd63abcf8fea705b8d
+source-git-commit: 34e6f4386c768b94c3835d4a4d7e7deadc3fecda
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,21 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 在辅助工作区中删除了全局记录类型上的视图的公共共享
+
+
+>[!NOTE]
+>
+>预览： 2025年12月3日
+>生产快速发布： 2025年12月4日
+>适用于所有人的生产： 2026年1月15日
+
+
+在辅助工作区中共享全局记录的视图时，我们删除了“公共共享”选项卡。 不能通过从现有全局记录类型添加到另一个工作区的全局记录类型公开共享视图。 您可以从全局记录类型视图的原始工作区公开共享该视图。
+
+有关信息，请参阅[共享视图](/help/quicksilver/planning/access/share-views.md)。
+
 
 ## 将GenStudio for Performance Marketing Brands与Workfront Planning记录类型联系起来
 
