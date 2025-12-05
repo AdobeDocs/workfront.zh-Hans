@@ -6,9 +6,9 @@ description: 除了使用Workfront在输入新请求时向您建议的可用草�
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 38843e2c093d5af9d74d8b4442fd28e194996e8d
+source-git-commit: bc7312a10f1851b9f85b2c1ceac5b01dba078f32
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '863'
 ht-degree: 3%
 
 ---
@@ -73,20 +73,15 @@ ht-degree: 3%
 
 
 
-<!--
-   
-1. Open the draft.
 
-   Drafts can be found in the following locations:
-
-   * In the requests list in the Requests area
-   * In the requests list in the My Requests widget in Home
-   * In the New request dialog (includes only drafts of requests created with the selected form)
-   
--->
 1. 打开草稿。
 
-   草稿可以在“新建请求”对话框中找到（仅包含使用选定表单创建的请求草稿）。
+   可以在以下位置找到草稿：
+
+   * 在请求区域的请求列表中
+   * 在主页我的请求小组件中的请求列表中
+   * 在“新建请求”对话框中（仅包含使用选定表单创建的请求草稿）
+
 1. 按照[创建和提交Adobe Workfront请求](../../../manage-work/requests/create-requests/create-submit-requests.md)中的说明更新请求的信息。
 1. （可选且有条件）在输入请求期间，如果想要删除草稿，可随时单击&#x200B;**放弃**&#x200B;草稿。 这将删除草稿。
 
