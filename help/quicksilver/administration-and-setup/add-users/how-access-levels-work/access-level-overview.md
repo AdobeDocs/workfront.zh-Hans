@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 364d1263070c0249d13290700d705e29eb646012
+source-git-commit: 5cea1b349867dbb408af97e6c2402a0d799af87b
 workflow-type: tm+mt
-source-wordcount: '1691'
-ht-degree: 7%
+source-wordcount: '1698'
+ht-degree: 6%
 
 ---
 
@@ -102,8 +102,6 @@ Workfront具有5个新的内置访问级别：
 | 财务数据 |   |   | ✓ |
 | 资源管理 |   |   | ✓ |
 | 场景计划器 |   |   | ✓ （默认设置为“无访问权限”。） |
-| 展示板 |   |   | ✓ |
-| 主页 |   |   | ✓ |
 | 目标 |   |   | ✓ |
 
 {style="table-layout:auto"}
@@ -155,8 +153,8 @@ Workfront具有5个新的内置访问级别：
   <tr> 
    <td>任务</td> 
    <td> </td> 
-   <td>✓</td> 
-   <td> </td> 
+   <td></td> 
+   <td>✓（有限）</td> 
   </tr> 
   <tr> 
    <td>问题</td> 
@@ -215,7 +213,7 @@ Workfront具有5个新的内置访问级别：
   <tr> 
    <td>财务数据</td> 
    <td></td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓（默认设置为“无访问权限”）</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -229,23 +227,13 @@ Workfront具有5个新的内置访问级别：
    <td> </td> 
    <td> </td> 
    <td>✓（默认设置为“无访问权限”。）</td> 
-  </tr> 
-  <tr> 
-   <td>展示板 </td> 
-   <td> </td> 
-   <td> </td> 
-   <td>✓</td> 
-     <tr> 
-   <td>主页 </td> 
-   <td> </td> 
-   <td> </td> 
-   <td>✓</td> 
-  </tr> 
-  <tr>   
+  </tr>
+
+<tr>   
    <td>目标 </td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓（默认设置为“无访问权限”）</td> 
  </tbody> 
 </table>
 
@@ -282,8 +270,8 @@ Workfront具有5个新的内置访问级别：
 
 | Workfront对象类型 | 无访问权限 | 查看访问权限 | 编辑访问权限 |
 |---|---|---|---|
-| 项目 |   | ✓ |   |
-| 任务 |   | ✓ |   |
+| 项目 |   | ✓ （有限） |   |
+| 任务 |   | ✓（有限） |   |
 | 问题 |   |   | ✓ |
 | 项目组合 |   | ✓ |   |
 | 项目群 |   | ✓ |   |
@@ -296,9 +284,7 @@ Workfront具有5个新的内置访问级别：
 | 财务数据 | ✓ |   |   |
 | 资源管理 | ✓ |   |   |
 | 场景计划器 | ✓ |   |   |
-| 展示板 |   |   | ✓ （简单卡片） |
-| 主页 |   | ✓ （我的更新） |   |
-| 目标 |   |   | ✓ |
+| 目标 |   |   | ✓ （默认设置为“无访问权限”） |
 
 {style="table-layout:auto"}
 
@@ -347,8 +333,6 @@ Workfront具有5个新的内置访问级别：
 | 财务数据 | ✓ |   |   |
 | 资源管理 | ✓ |   |   |
 | 场景计划器 | ✓ |   |   |
-| 展示板 | ✓ |   |   |
-| 主页 | ✓ |   |   |
 | 目标 | ✓ |   |   |
 
 

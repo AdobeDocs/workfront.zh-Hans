@@ -6,7 +6,7 @@ description: 在Workfront中可供审阅和批准的系统概述。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: c55af795069a05de3eb3d0d8599ab61f00168ddc
+source-git-commit: f4dc0d28f7565b9dbc3c9ff4ee388eb8cf748b7f
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%

@@ -2,20 +2,24 @@
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
-title: 审阅和批准集成：文章索引
-description: 审阅和批准集成：文章索引
-author: Courtney
+title: 审阅和批准本机集成：文章索引
+description: 以下文章包含有关与Adobe Workfront的本机文档集成的信息：GenStudio for Performance Marketing、Creative Cloud Express、Frame.io、Adobe Experience Manager等。
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
+author: Courtney
 exl-id: b5fed2b5-aa58-4cf1-b7d8-2573216b79f5
-source-git-commit: 62d8ab81b8d34db7ec5ee00d4b122b80d2eb7055
+source-git-commit: f4dc0d28f7565b9dbc3c9ff4ee388eb8cf748b7f
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
 
 # 审核和批准本机集成：文章索引
+
+<!--Audited: 12/2025-->
+
+以下文章包含有关本机文档与Adobe Workfront集成的信息
 
 * [校对与GenStudio for Performance Marketing集成快速入门](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
 * [校对和Creative Cloud Express入门](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)

@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: fb57f04a4031eaf38f88c3a1b2542d64ee230a8c
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1673'
 ht-degree: 0%
 
 ---
@@ -85,27 +85,6 @@ ht-degree: 0%
 
 有关计划的详细信息，请参阅文章[创建计划](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
 
-### 管理规划项目所需的其他信息 {#manage-additional-information-needed-for-planning-the-project}
-
-在计划项目时，必须先设置附加信息，然后才能开始处理项目。
-
-请考虑提出以下问题：
-
-* 是否有法规要求您保留事件和过程的记录？ 如果是这样的话，您需要跟踪哪些内容？
-
-  Workfront允许您记录编辑、范围更改、状态更改和操作，以便您能够遵守特定于您行业的法规。\
-  有关定义要在Workfront中跟踪哪些更新的详细信息，请参阅文章[系统跟踪的更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)。
-
-* 是否有任何您需要跟踪的信息，但在Workfront中没有用于存储该信息的字段？
-
-  如果是，请为可以存储此信息的项目或任务创建自定义Forms 。
-
-  有关创建自定义表单的详细信息，请参阅文章[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
-
-* 在项目工作能够继续之前，是否必须授予任何批准检查点？ 如果是，请为可在构建项目时使用的项目或任务创建批准流程。
-
-  有关审批流程的详细信息，请参阅文章[为工作项创建审批流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)。
-
 ## 构建项目时间线
 
 在确定项目的主要目标并决定该项目值得追求后，应计算每个目标的时间表。 每个目标都可以成为您项目中的一项任务。
@@ -172,3 +151,32 @@ ht-degree: 0%
    * 将任务重新分配给没有其他限制的可用用户。\
      有关计划项目资源的详细信息，请参阅文章[资源计划：文章索引](../../../resource-mgmt/resource-planning/resource-planning-overview.md)。\
      有关安排资源完成项目工作的详细信息，请参阅[工作负载均衡器概述](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)。
+
+## 管理规划项目所需的其他信息 {#manage-additional-information-needed-for-planning-the-project}
+
+在计划项目时，必须先设置附加信息，然后才能开始处理项目。
+
+请考虑提出以下问题：
+
+* 是否有法规要求您保留事件和过程的记录？ 如果是这样的话，您需要跟踪哪些内容？
+
+  Workfront允许您记录编辑、范围更改、状态更改和操作，以便您能够遵守特定于您行业的法规。\
+  有关定义要在Workfront中跟踪哪些更新的详细信息，请参阅文章[系统跟踪的更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)。
+
+* 是否有任何您需要跟踪的信息，但在Workfront中没有用于存储该信息的字段？
+
+  如果是，请为可以存储此信息的项目或任务创建自定义Forms 。
+
+  有关创建自定义表单的详细信息，请参阅文章[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+
+* 您是否需要记录流程，并使用属于日常工作或决定项目解决方案的资产？ 如果是，请创建用于存储文档的系统。
+
+  有关信息，请参阅[文档：文章索引](/help/quicksilver/documents/documents-overview.md)。
+
+* 在项目工作能够继续之前，是否必须授予任何批准检查点？ 如果是，请为可在构建项目时使用的项目或任务创建批准流程，并清点必须批准哪些文档或验证才能继续工作。
+
+  有关审批的更多信息，请参阅以下文章：
+
+   * [为工作项创建批准流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
+   * [审阅和批准工作](/help/quicksilver/review-and-approve-work/review-and-approve-work.md)
+   * [可用于统一文档审批的功能](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
