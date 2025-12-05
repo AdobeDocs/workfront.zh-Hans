@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: bda5c6057b51f6ead5424b6a7563b6d83f2a5bca
+source-git-commit: 7960f134874ae2a2587dd2b6cb0ec5740955339d
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1047'
 ht-degree: 9%
 
 ---
@@ -234,7 +234,7 @@ ht-degree: 9%
    <td>状态</td> 
   </tr> 
   <tr> 
-   <td>任务分配</td> 
+   <td>任务</td> 
    <td>分配</td> 
    <td>actualWorkCompleted</td> 
   </tr> 
@@ -382,7 +382,7 @@ ht-degree: 9%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>workPerDate <p>[!BADGE 已删除]{type=negative tooltip="此字段已于2023年10月26日删除。"}</span></td> 
+   <td>workPerDate <p>[！BADGE已删除]{type=negative tooltip="此字段已于2023年10月26日删除。"}</span></td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -455,7 +455,7 @@ ht-degree: 9%
   </tr> 
   <tr> 
   <tr> 
-   <td>功能板</td> 
+   <td>仪表板</td> 
    <td>PTLTAB</td> 
    <td>accessourcides</td> 
   </tr> 
@@ -1135,7 +1135,7 @@ ht-degree: 9%
    <td> userOptions </td> 
   </tr> 
   <tr> 
-   <td>Hour</td> 
+   <td>小时</td> 
    <td>HOUR</td> 
    <td>accessourcides</td> 
   </tr> 
@@ -1705,7 +1705,7 @@ ht-degree: 9%
    <td>userID</td> 
   </tr> 
   <tr> 
-   <td>组合</td> 
+   <td>项目组合</td> 
    <td>端口</td> 
    <td>accessourcides</td> 
   </tr> 
@@ -1893,6 +1893,11 @@ ht-degree: 9%
    <td> </td> 
    <td> </td> 
    <td>attachedRateCard：sourceID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>预算</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2325,7 +2330,7 @@ ht-degree: 9%
    <td>更新者</td> 
   </tr> 
   <tr> 
-   <td>报表</td> 
+   <td>报告</td> 
    <td>PTLSEC</td> 
    <td>accessourcides</td> 
   </tr> 
