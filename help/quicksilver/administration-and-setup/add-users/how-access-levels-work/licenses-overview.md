@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '370'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 2%
 # 新许可证概述
 
 <!-- Audited: 12/2023 -->
+
+>[!NOTE]
+>
+>本文中的信息指的是新的访问级别。 有关旧版访问级别的信息，请参阅[访问级别概述](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)。
 
 您的组织在购买Adobe Workfront时购买了特定数量的许可证。 作为Workfront管理员，您在为每个用户分配访问级别时，可为该用户提供2种类型的Workfront许可证之一。
 

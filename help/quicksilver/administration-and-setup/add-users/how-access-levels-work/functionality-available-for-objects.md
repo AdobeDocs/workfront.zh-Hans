@@ -2,7 +2,7 @@
 user-type: administrator
 content-type: reference
 product-area: system-administration
-keywords: 访问，模型，漏斗，图表，级别，权限
+keywords: 访问，模型，funnel，图表，级别，权限
 navigation-topic: access-levels
 title: 可用于新访问级别的每种对象类型的功能
 description: 下表列出了各种访问级别中每种对象类型的可用功能。
@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 02ca85404dfc2a00c94e21a6642748ab3ee39015
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1335'
 ht-degree: 14%
 
 ---
@@ -21,6 +21,10 @@ ht-degree: 14%
 
 {{highlighted-preview}}
 
+>[!NOTE]
+>
+>本文中的信息指的是新的访问级别。 有关旧版访问级别的信息，请参阅[访问级别概述](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)。
+
 下表列出了各种访问级别中每种对象类型的可用功能。
 
 它还指示了Workfront管理员可以使用访问级别禁用或启用的操作。
@@ -28,7 +32,7 @@ ht-degree: 14%
 >[!NOTE]
 >
 >* 本文介绍了可用于访问新Workfront计划模型中的级别的功能。 要查看当前计划模型中可用的功能，请参阅[各种访问级别中每种对象类型可用的功能](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)。
->* 有关新计划模型中其他计划可用的功能列表，请参阅[Adobe Workfront定价和打包](https://business.adobe.com/cn/products/workfront/pricing.html)。
+>* 有关新计划模型中其他计划可用的功能列表，请参阅[Adobe Workfront定价和打包](https://business.adobe.com/products/workfront/pricing.html)。
 
 ## 项目
 

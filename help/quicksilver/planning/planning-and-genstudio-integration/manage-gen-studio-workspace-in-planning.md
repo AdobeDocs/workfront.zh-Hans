@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: e6fc6def1553df3faa8e1200f7ec2ca2bb97eb04
 workflow-type: tm+mt
 source-wordcount: '1358'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -44,11 +44,11 @@ recommendations: noDisplay, noCatalog
 >[!IMPORTANT]
 >
 >本文中描述的步骤说明了当您具有GenStudio工作区的“管理”权限时，如何从Workfront Planning中更新该工作区。
->&#x200B;> 当您对GenStudio工作区具有“贡献”权限时，并非所有功能都可用。
+> 当您对GenStudio工作区具有“贡献”权限时，并非所有功能都可用。
 >
 >如果贵公司拥有多个Workfront实例，则所有用户都将在Workfront Planning中获得GenStudio工作区的Contribute权限。
 
-## 访问要求
+## 访问权限要求
 
 +++ 展开以查看本文中各项功能的访问要求。 
 
@@ -62,7 +62,7 @@ recommendations: noDisplay, noCatalog
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront包</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
 <p>任何Workfront和任何Planning包</p>
 <p>任何工作流和任何计划包</p>
@@ -83,7 +83,7 @@ recommendations: noDisplay, noCatalog
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing用户角色</p></td> 
    <td><p><ul><li>用于访问营销活动、产品和角色的任何GenStudio用户角色</li>
    <li>GenSudio System Manager访问激活 <!--and Events--></li></ul>
-   有关信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">用户角色和权限</a>。 
+   有关信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">用户角色和权限</a>。 
    </p>
   </td> 
   </tr>   
@@ -141,7 +141,7 @@ recommendations: noDisplay, noCatalog
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****** and Events*********</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -225,7 +225,7 @@ CAN YOU DO THIS??
 
    * 营销活动
    * 产品
-   * 角色
+   * 用户画像
    * 激活
    * 渠道
    * 区域
@@ -248,6 +248,11 @@ CAN YOU DO THIS??
 1. 单击右上角的&#x200B;**共享**&#x200B;以与他人共享工作区。
 
    有关信息，请参阅[共享工作区](/help/quicksilver/planning/access/share-workspaces.md)
+
+   <!--
+   >[!NOTE]
+   >
+   >You cannot remove GenStudio users from the GenStudio workspace, after you share that workspace with them.-->
 
 1. 单击任何记录类型卡片以查看该类型的记录。
 
@@ -288,6 +293,11 @@ CAN YOU DO THIS??
 指向视图的链接已复制到您的剪贴板中。
       * **导出当前视图**
 有关信息，请参阅[从表视图](/help/quicksilver/planning/records/export-records-from-the-table-view.md)导出记录。
+
+        <!--
+         >[!NOTE]
+         >
+         >You cannot remove GenStudio users from record types in the GenStudio workspace, after you share that workspace or the record types with them.-->
 
 1. 要管理记录类型视图，请执行以下操作：
 
@@ -360,6 +370,15 @@ CAN YOU DO THIS??
      >[!TIP]
      >
      >在Workfront Planning中创建的字段在GenStudio的列表视图中不可见。
+
+     <!--when this releases, replace the tip above with this: 
+      
+      >[!NOTE]
+      >
+      >* Fields created in Workfront Planning are not visible in the list view in GenStudio.
+      >
+      >* You can connect any GenStudio record type to the Brands GenStudio record type. 
+      >  Products and Personas are connected to Brands by default. -->
 
 1. 将鼠标悬停在表视图中的字段上，然后单击下拉菜单以执行以下操作之一：
 

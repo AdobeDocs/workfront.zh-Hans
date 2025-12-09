@@ -10,16 +10,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: e894c1e2134d025420205c6575329a2a9079fadf
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '1563'
-ht-degree: 13%
+source-wordcount: '1586'
+ht-degree: 14%
 
 ---
 
 # 可用于各种访问级别的每种对象类型的功能
 
 {{highlighted-preview}}
+
+>[!NOTE]
+>
+>本文中的信息是指旧版访问级别。 有关新访问级别的信息，请参阅[新访问级别概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)。
 
 下表列出了各种访问级别中每种对象类型的可用功能。
 

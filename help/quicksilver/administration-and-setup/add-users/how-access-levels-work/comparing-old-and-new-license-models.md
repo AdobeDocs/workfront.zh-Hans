@@ -5,21 +5,26 @@ content-type: reference
 product-area: system-administration
 keywords: 访问，级别，系统，管理员，标准，轻量级，参与者
 navigation-topic: access-levels
-description: 请参阅旧许可模式与新许可模式中不同许可证可用功能的比较。
+description: 请参阅旧版许可模式与新版许可模式中不同许可证可用功能的比较。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 101a0ce2-dfa6-44ea-a197-22bc85ef50f5
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 0%
+source-wordcount: '349'
+ht-degree: 37%
 
 ---
 
 # 比较不同许可证模型的功能
 
-此表显示了旧版和新版许可模式中许可证可用的功能。
+Adobe Workfront中有两种类型的访问级别：
+
+* 新增访问级别。 有关信息，请参阅[新访问级别概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)。
+* 旧版访问级别。 有关信息，请参阅[访问级别概述](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)。
+
+下表显示了旧版和新版许可模式中许可证可用的功能。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,23 +38,23 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th> </th> 
-   <th colspan="5">[!UICONTROL 旧版]</th> 
+   <th colspan="5">[！UICONTROL旧版]</th> 
    <!--<th>[!UICONTROL Requestor]</th> 
    <th>[!UICONTROL External]</th> -->
-   <th colspan="3">[!UICONTROL 新建]</th> 
+   <th colspan="3">[！UICONTROL新建]</th> 
    </tr> 
  </thead> 
  <thead> 
   <tr> 
    <th> </th> 
-   <th>[!UICONTROL Planner]</th> 
-   <th>[!UICONTROL Worker]</th> 
-   <th>[!UICONTROL Reviewer]</th> 
-  <th>[!UICONTROL 请求者]</th> 
-   <th>[!UICONTROL External]</th>
-   <th>[!UICONTROL 标准版]</th> 
-   <th>[!UICONTROL Light]</th> 
-   <th>[!UICONTROL 参与者]</th> 
+   <th>[！UICONTROL Planner]</th> 
+   <th>[！UICONTROL Worker]</th> 
+   <th>[！UICONTROL Reviewer]</th> 
+  <th>[！UICONTROL请求者]</th> 
+   <th>[！UICONTROL External]</th>
+   <th>[！UICONTROL标准版]</th> 
+   <th>[！UICONTROL Light]</th> 
+   <th>[！UICONTROL参与者]</th> 
   </tr> 
  </thead> 
  <tbody> 

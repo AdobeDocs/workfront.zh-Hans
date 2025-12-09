@@ -10,16 +10,21 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 0%
+source-wordcount: '328'
+ht-degree: 3%
 
 ---
 
 # 访问级别概述
 
 <!-- Audited: 12/2023 -->
+
+>[!NOTE]
+>
+>本文中的信息是指旧版访问级别。 有关新访问级别的信息，请参阅[新访问级别概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)。
+
 
 作为Adobe Workfront管理员，您可以为用户分配访问级别，以实现以下两种目的：
 
@@ -57,8 +62,18 @@ ht-degree: 0%
    <td> <p>有关如何将访问级别分配给用户的说明，请参阅<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">编辑用户的配置文件</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>访问级别标准、轻度、参与者</td> 
-   <td> <p>如果您在环境中看到这些访问级别，而不是“计划”、“工作”、“审阅”或“请求”，则您的组织将使用新的访问级别模型。 有关新模型的信息，请参阅<a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">新访问级别概述</a>。</p> </td> 
+   <td><b>访问级别类型</b></td> 
+   <td><p>Workfront中有两种类型的访问级别：</p>
+   <ul><li>旧版访问级别</li>
+   <ul><li>规划</li>
+   <li>工作</li>
+   <li>审阅</li>
+   <li>请求</li></ul>
+   <li>新访问级别：</li>
+   <ul><li>标准</li>
+   <li>轻量</li>
+   <li>投稿人</li></ul></ul> 
+   <p>有关新访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">新访问级别概述</a>。</p> </td> 
   </tr> 
   <!--
   <tr> 

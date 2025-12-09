@@ -9,14 +9,18 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 14cf53be-e8b5-4508-b0df-c024f1e4f3a7
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 0%
+source-wordcount: '185'
+ht-degree: 1%
 
 ---
 
 # 访问级别的工作方式
+
+>[!NOTE]
+>
+>本文中的信息是指旧版访问级别。 有关新访问级别的信息，请参阅[新访问级别概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)。
 
 作为Adobe Workfront管理员，您可以通过为用户分配访问级别，授予用户查看或编辑对象的权限。 以下文章解释了访问级别的工作方式。
 

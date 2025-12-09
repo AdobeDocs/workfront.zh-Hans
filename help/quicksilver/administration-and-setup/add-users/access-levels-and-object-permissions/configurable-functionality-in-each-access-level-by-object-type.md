@@ -5,14 +5,18 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
-source-git-commit: 5d924e510ad94098b9f417494f9fc6e8696c90d6
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '3485'
-ht-degree: 9%
+source-wordcount: '3508'
+ht-degree: 10%
 
 ---
 
 # 可配置访问每种对象类型的功能
+
+>[!NOTE]
+>
+>本文中的信息是指旧版访问级别。 有关新访问级别的信息，请参阅[新访问级别概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)。
 
 在为组织配置访问级别时，您可以确定哪些特定操作可用于访问级别。
 
@@ -41,13 +45,13 @@ ht-degree: 9%
    <td> 
     <ul> 
      <li> <b>无访问权限</b> </li> 
-     <li><p> <b>视图</b></p> <p>要优化此设置，您可以配置共享项目的功能。 单击“查看”按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>共享</b>选项（默认启用）。</p> </li> 
-     <li> <p><b>编辑</b>（默认选择）：允许对项目进行完全编辑访问。</p> <p>要优化此设置，请单击<b>编辑</b>按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用以下任何选项。 默认情况下，将启用所有这些功能。</p> 
+     <li><p> <b>查看</b></p> <p>要优化此设置，您可以配置共享项目的功能。 单击“查看”按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>共享</b>选项（默认启用）。</p> </li> 
+     <li> <p><b>编辑</b>（默认选择）：允许对项目进行完全编辑访问。</p> <p>要优化此设置，请单击<img src="assets/gear-icon-in-access-levels.png">编辑<b>按钮上的齿轮图标</b>，然后禁用或启用以下任何选项。 默认情况下，将启用所有这些功能。</p> 
       <ul> 
        <li> <p>创建</p> </li> 
        <li> <p>复制</p> </li> 
        <li> <p>删除</p> </li> 
-       <li> <p>查看</p> </li> 
+       <li> <p>视图</p> </li> 
        <li> <p>共享</p> </li> 
        <li> <p>在系统范围内共享</p> </li> 
       </ul> </li> 
@@ -58,12 +62,12 @@ ht-degree: 9%
    <td> 
     <ul> 
      <li> <b>无访问权限</b> </li> 
-     <li><p> <b>视图</b></p> <p>要优化此设置，您可以配置共享项目的功能。 单击“查看”按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>共享</b>选项（默认启用）。</p> </li> 
-     <li> <p><b>编辑</b>（默认选择）：允许有限的项目编辑权限。 要了解与“规划者”访问级别（允许对项目的完全编辑访问权限）相比，“辅助进程”访问级别中的“编辑”访问权限如何受限，请参阅可用于每个对象类型</a>的<a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md" class="MCXref xref">功能一文中的<a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#projects" class="MCXref xref">项目</a>部分。</p> <p>要优化此设置，您可以配置共享项目的功能。 单击“编辑”按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>共享</b>选项（默认启用）。</p> </li> 
+     <li><p> <b>查看</b></p> <p>要优化此设置，您可以配置共享项目的功能。 单击“查看”按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>共享</b>选项（默认启用）。</p> </li> 
+     <li> <p><b>编辑</b>（默认选择）：允许有限的项目编辑权限。 要了解与“规划者”访问级别（允许对项目的完全编辑访问权限）相比，“辅助进程”访问级别中的“编辑”访问权限如何受限，请参阅可用于每个对象类型<a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#projects" class="MCXref xref">的</a>功能一文中的<a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md" class="MCXref xref">项目</a>部分。</p> <p>要优化此设置，您可以配置共享项目的功能。 单击“编辑”按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>共享</b>选项（默认启用）。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>查看者</td> 
+   <td>审阅者</td> 
    <td> 
     <ul> 
      <li> <b>无访问权限</b> </li> 
@@ -71,11 +75,11 @@ ht-degree: 9%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>请求人</td> 
+   <td>请求者</td> 
    <td> 
     <ul> 
      <li> <b>无访问权限</b> </li> 
-     <li><p> <b>视图</b></p> （默认选择） <p>查看权限受限，因为无法对其进行微调以启用或禁用项目共享。</p> </li> 
+     <li><p> <b>查看</b></p> （默认选择） <p>查看权限受限，因为无法对其进行微调以启用或禁用项目共享。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -100,12 +104,12 @@ ht-degree: 9%
  </thead> 
  <tbody> 
   <tr> 
-   <td>规划器 </td> 
+   <td>规划者 </td> 
    <td> 
     <ul> 
      <li> <b>无访问权限</b> </li> 
-     <li><p> <b>视图</b></p> <p>要微调此功能，您可以配置共享任务的功能。 单击“查看”按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>共享</b>选项（默认启用）。</p> </li> 
-     <li> <p><b>编辑</b> （默认选择）：允许对任务进行完全编辑访问。</p> <p>要优化此设置，请单击<b>编辑</b>按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用以下任何选项。 默认情况下，将启用所有这些功能。</p> 
+     <li><p> <b>查看</b></p> <p>要微调此功能，您可以配置共享任务的功能。 单击“查看”按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>共享</b>选项（默认启用）。</p> </li> 
+     <li> <p><b>编辑</b> （默认选择）：允许对任务进行完全编辑访问。</p> <p>要优化此设置，请单击<img src="assets/gear-icon-in-access-levels.png">编辑<b>按钮上的齿轮图标</b>，然后禁用或启用以下任何选项。 默认情况下，将启用所有这些功能。</p> 
       <ul> 
        <li> <p>创建</p> </li> 
        <li> <p>删除</p> </li> 
@@ -119,8 +123,8 @@ ht-degree: 9%
    <td> 
     <ul> 
      <li> <b>无访问权限</b> </li> 
-     <li><p> <b>视图</b></p> <p>要微调此功能，您可以配置共享任务的功能。 单击“查看”按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>共享</b>选项（默认启用）。</p> </li> 
-     <li> <p><b>编辑</b> （默认选择）：允许对任务进行完全编辑访问。</p> <p>要优化此设置，请单击<b>编辑</b>按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用以下任何选项。 默认情况下，将启用所有这些功能。</p> 
+     <li><p> <b>查看</b></p> <p>要微调此功能，您可以配置共享任务的功能。 单击“查看”按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>共享</b>选项（默认启用）。</p> </li> 
+     <li> <p><b>编辑</b> （默认选择）：允许对任务进行完全编辑访问。</p> <p>要优化此设置，请单击<img src="assets/gear-icon-in-access-levels.png">编辑<b>按钮上的齿轮图标</b>，然后禁用或启用以下任何选项。 默认情况下，将启用所有这些功能。</p> 
       <ul> 
        <li> <p>创建</p> </li> 
        <li> <p>删除</p> </li> 
@@ -129,7 +133,7 @@ ht-degree: 9%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>查看者</td> 
+   <td>审阅者</td> 
    <td> 
     <ul> 
      <li> <b>无访问权限</b> </li> 
@@ -137,11 +141,11 @@ ht-degree: 9%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>请求人</td> 
+   <td>请求者</td> 
    <td> 
     <ul> 
      <li> <b>无访问权限</b> </li> 
-     <li><p> <b>视图</b></p> （默认选择）<p>查看权限受限，因为无法对其进行微调以启用或禁用项目共享。</p> </li> 
+     <li><p> <b>查看</b></p> （默认选择）<p>查看权限受限，因为无法对其进行微调以启用或禁用项目共享。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -166,12 +170,12 @@ ht-degree: 9%
  </thead> 
  <tbody> 
   <tr> 
-   <td>规划器 </td> 
+   <td>规划者 </td> 
    <td> 
     <ul> 
      <li> <b>无访问权限</b> </li> 
-     <li> <p><b>查看</b></p><p>要优化此设置，您可以配置共享问题的功能。 单击“查看”按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>共享</b>选项（默认启用）。</p> </li> 
-     <li> <p><b>编辑</b>（默认选择）：允许对问题进行完全编辑访问。</p> <p>要优化此设置，请单击<b>编辑</b>按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用以下任何选项。 默认情况下，将启用所有这些功能。</p> 
+     <li> <p><b>视图</b></p><p>要优化此设置，您可以配置共享问题的功能。 单击“查看”按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>共享</b>选项（默认启用）。</p> </li> 
+     <li> <p><b>编辑</b>（默认选择）：允许对问题进行完全编辑访问。</p> <p>要优化此设置，请单击<img src="assets/gear-icon-in-access-levels.png">编辑<b>按钮上的齿轮图标</b>，然后禁用或启用以下任何选项。 默认情况下，将启用所有这些功能。</p> 
       <ul> 
        <li> <p>创建</p> </li> 
        <li> <p>删除</p> </li> 
@@ -185,8 +189,8 @@ ht-degree: 9%
    <td> 
     <ul> 
      <li> <b>无访问权限</b> </li> 
-     <li><p> <b>视图</b></p> <p>要优化此设置，您可以配置共享问题的功能。 单击“查看”按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>共享</b>选项（默认启用）。</p> </li> 
-     <li> <p><b>编辑</b>（默认选择）：允许对问题进行完全编辑访问。</p> <p>要优化此设置，请单击<b>编辑</b>按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用以下任何选项。 默认情况下，将启用所有这些功能。</p> 
+     <li><p> <b>查看</b></p> <p>要优化此设置，您可以配置共享问题的功能。 单击“查看”按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>共享</b>选项（默认启用）。</p> </li> 
+     <li> <p><b>编辑</b>（默认选择）：允许对问题进行完全编辑访问。</p> <p>要优化此设置，请单击<img src="assets/gear-icon-in-access-levels.png">编辑<b>按钮上的齿轮图标</b>，然后禁用或启用以下任何选项。 默认情况下，将启用所有这些功能。</p> 
       <ul> 
        <li> <p>创建</p> </li> 
        <li> <p>删除</p> </li> 
@@ -195,12 +199,12 @@ ht-degree: 9%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>查看者</td> 
+   <td>审阅者</td> 
    <td> 
     <ul> 
      <li> <b>无访问权限</b> </li> 
-     <li><p> <b>视图</b></p> <p>要优化此设置，您可以配置共享问题的功能。 单击“查看”按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>共享</b>选项（默认启用）。</p> </li> 
-     <li> <p><b>编辑</b>（默认选择）：允许对问题进行完全编辑访问。</p> <p>要优化此设置，请单击<b>编辑</b>按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用以下任何选项。 默认情况下，将启用所有这些功能。</p> 
+     <li><p> <b>查看</b></p> <p>要优化此设置，您可以配置共享问题的功能。 单击“查看”按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>共享</b>选项（默认启用）。</p> </li> 
+     <li> <p><b>编辑</b>（默认选择）：允许对问题进行完全编辑访问。</p> <p>要优化此设置，请单击<img src="assets/gear-icon-in-access-levels.png">编辑<b>按钮上的齿轮图标</b>，然后禁用或启用以下任何选项。 默认情况下，将启用所有这些功能。</p> 
       <ul> 
        <li> <p>创建</p> </li> 
        <li> <p>删除</p> </li> 
@@ -209,12 +213,12 @@ ht-degree: 9%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>请求人</td> 
+   <td>请求者</td> 
    <td> 
     <ul> 
      <li> <b>无访问权限</b> </li> 
-     <li><p> <b>视图</b></p> <p>要优化此设置，您可以配置共享问题的功能。 单击“查看”按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>共享</b>选项（默认启用）。</p> </li> 
-     <li> <p><b>编辑</b>（默认选择）：允许对问题进行完全编辑访问。</p> <p>要优化此设置，请单击<b>编辑</b>按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用以下任何选项。 默认情况下，将启用所有这些功能。</p> 
+     <li><p> <b>查看</b></p> <p>要优化此设置，您可以配置共享问题的功能。 单击“查看”按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>共享</b>选项（默认启用）。</p> </li> 
+     <li> <p><b>编辑</b>（默认选择）：允许对问题进行完全编辑访问。</p> <p>要优化此设置，请单击<img src="assets/gear-icon-in-access-levels.png">编辑<b>按钮上的齿轮图标</b>，然后禁用或启用以下任何选项。 默认情况下，将启用所有这些功能。</p> 
       <ul> 
        <li> <p>创建</p> </li> 
        <li> <p>删除</p> </li> 
@@ -244,12 +248,12 @@ ht-degree: 9%
  </thead> 
  <tbody> 
   <tr> 
-   <td>规划器 </td> 
+   <td>规划者 </td> 
    <td> 
     <ul> 
      <li> <b>无访问权限</b> </li> 
-     <li><p> <b>视图</b></p> <p>要优化此设置，您可以配置共享项目组合的功能。 单击“查看”按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>共享</b>选项（默认启用）。</p> </li> 
-     <li> <p><b>编辑</b>（默认选择）：允许对项目组合进行完全编辑访问。</p> <p>要优化此设置，请单击<b>编辑</b>按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用以下任何选项。 默认情况下，将启用所有这些功能。</p> 
+     <li><p> <b>查看</b></p> <p>要优化此设置，您可以配置共享项目组合的功能。 单击“查看”按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>共享</b>选项（默认启用）。</p> </li> 
+     <li> <p><b>编辑</b>（默认选择）：允许对项目组合进行完全编辑访问。</p> <p>要优化此设置，请单击<img src="assets/gear-icon-in-access-levels.png">编辑<b>按钮上的齿轮图标</b>，然后禁用或启用以下任何选项。 默认情况下，将启用所有这些功能。</p> 
       <ul> 
        <li> <p>创建</p> </li> 
        <li> <p>删除</p> </li> 
@@ -267,7 +271,7 @@ ht-degree: 9%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>查看者</td> 
+   <td>审阅者</td> 
    <td> 
     <ul> 
      <li> <b>无访问权限</b> </li> 
@@ -275,7 +279,7 @@ ht-degree: 9%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>请求人</td> 
+   <td>请求者</td> 
    <td> <p>组合访问权限不可用。</p> </td> 
   </tr> 
   <tr> 
@@ -300,12 +304,12 @@ ht-degree: 9%
  </thead> 
  <tbody> 
   <tr> 
-   <td>规划器 </td> 
+   <td>规划者 </td> 
    <td> 
     <ul> 
      <li> <b>无访问权限</b> </li> 
-     <li><p> <b>视图</b></p> <p>要微调这一点，您可以配置共享程序的功能。 单击“查看”按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>共享</b>选项（默认启用）。</p> </li> 
-     <li> <p><b>编辑</b> （默认选择）：允许对程序进行完全编辑访问。</p> <p>要优化此设置，请单击<b>编辑</b>按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用以下任何选项。 默认情况下，将启用所有这些功能。</p> 
+     <li><p> <b>查看</b></p> <p>要微调这一点，您可以配置共享程序的功能。 单击“查看”按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>共享</b>选项（默认启用）。</p> </li> 
+     <li> <p><b>编辑</b> （默认选择）：允许对程序进行完全编辑访问。</p> <p>要优化此设置，请单击<img src="assets/gear-icon-in-access-levels.png">编辑<b>按钮上的齿轮图标</b>，然后禁用或启用以下任何选项。 默认情况下，将启用所有这些功能。</p> 
       <ul> 
        <li> <p>创建</p> </li> 
        <li> <p>删除</p> </li> 
@@ -323,7 +327,7 @@ ht-degree: 9%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>查看者</td> 
+   <td>审阅者</td> 
    <td> 
     <ul> 
      <li> <b>无访问权限</b> </li> 
@@ -331,7 +335,7 @@ ht-degree: 9%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>请求人</td> 
+   <td>请求者</td> 
    <td> <p>无法访问程序。</p> </td> 
   </tr> 
   <tr> 
@@ -356,20 +360,20 @@ ht-degree: 9%
  </thead> 
  <tbody> 
   <tr> 
-   <td>规划器 </td> 
+   <td>规划者 </td> 
    <td> 
     <ul> 
      <li> <b>无访问权限</b> </li> 
-     <li> <p><b>查看</b></p><p>要优化此操作，请单击<b>编辑</b>按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用以下任何操作。 默认情况下，这两个选项都处于启用状态：</p> 
+     <li> <p><b>视图</b></p><p>要优化此操作，请单击<img src="assets/gear-icon-in-access-levels.png">编辑<b>按钮上的齿轮图标</b>，然后禁用或启用以下任何操作。 默认情况下，这两个选项都处于启用状态：</p> 
       <ul> 
-       <li> <p>查看嵌入报表</p> </li> 
+       <li> <p>查看内置报表</p> </li> 
        <li> <p>共享</p> </li> 
       </ul> </li> 
-     <li> <p><b>编辑</b>（默认选择）：允许对报告、功能板和日历进行完全编辑访问。</p> <p>要优化此设置，请单击<b>编辑</b>按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用以下任何选项。 除<b>查看内置报告</b>、<b>公开共享报告</b>和<b>共享系统范围</b>外，默认启用所有这些功能。</p> 
+     <li> <p><b>编辑</b>（默认选择）：允许对报告、功能板和日历进行完全编辑访问。</p> <p>要优化此设置，请单击<img src="assets/gear-icon-in-access-levels.png">编辑<b>按钮上的齿轮图标</b>，然后禁用或启用以下任何选项。 除<b>查看内置报告</b>、<b>公开共享报告</b>和<b>共享系统范围</b>外，默认启用所有这些功能。</p> 
       <ul> 
        <li> <p>创建</p> </li> 
        <li> <p>删除</p> </li> 
-       <li> <p>查看嵌入报表</p> </li> 
+       <li> <p>查看内置报表</p> </li> 
        <li> <p>共享</p> </li> 
        <li> <p>公开共享报表（外部）</p> </li> 
        <li> <p>在系统范围内共享</p> </li> 
@@ -381,31 +385,31 @@ ht-degree: 9%
    <td> 
     <ul> 
      <li> <b>无访问权限</b> </li> 
-     <li><p> <b>视图</b></p> （默认选择）<p>要优化此操作，请单击<b>编辑</b>按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用以下任何操作。 默认情况下，这两个选项都处于启用状态：</p> 
+     <li><p> <b>查看</b></p> （默认选择）<p>要优化此操作，请单击<img src="assets/gear-icon-in-access-levels.png">编辑<b>按钮上的齿轮图标</b>，然后禁用或启用以下任何操作。 默认情况下，这两个选项都处于启用状态：</p> 
       <ul> 
-       <li> <p>查看嵌入报表</p> </li> 
+       <li> <p>查看内置报表</p> </li> 
        <li> <p>共享</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>查看者</td> 
+   <td>审阅者</td> 
    <td> 
     <ul> 
      <li> <b>无访问权限</b> </li> 
-     <li> <p><b>查看</b> （默认选择）<p>要优化此操作，请单击<b>编辑</b>按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用以下任何操作。 默认情况下，仅启用“共享”选项。</p> 
+     <li> <p><b>查看</b> （默认选择）<p>要优化此操作，请单击<img src="assets/gear-icon-in-access-levels.png">编辑<b>按钮上的齿轮图标</b>，然后禁用或启用以下任何操作。 默认情况下，仅启用“共享”选项。</p> 
       <ul> 
-       <li> <p>查看嵌入报表</p> </li> 
+       <li> <p>查看内置报表</p> </li> 
        <li> <p>共享</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>请求人</td> 
+   <td>请求者</td> 
    <td> 
     <ul> 
      <li> <b>无访问权限</b> </li> 
-     <li> <p><b>查看</b>（默认选择）：允许对与其共享的报告、功能板和日历进行仅查看访问。</p> <p>要微调此功能，您可以配置查看内置报表的功能。 单击<b>查看</b>按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>查看内置</b>（默认情况下处于禁用状态）。</p> </li> 
+     <li> <p><b>查看</b>（默认选择）：允许对与其共享的报告、功能板和日历进行仅查看访问。</p> <p>要微调此功能，您可以配置查看内置报表的功能。 单击<img src="assets/gear-icon-in-access-levels.png">查看<b>按钮上的齿轮图标</b>，然后禁用或启用<b>查看内置</b>（默认情况下处于禁用状态）。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -430,11 +434,11 @@ ht-degree: 9%
  </thead> 
  <tbody> 
   <tr> 
-   <td>规划器 </td> 
+   <td>规划者 </td> 
    <td> 
     <ul> 
-     <li> <p><b>查看</b></p><p>要优化此设置，您可以配置共享筛选器、视图和分组的功能。 单击“查看”按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>共享</b>选项（默认启用）。</p> </li> 
-     <li> <p><b>编辑</b>（默认选择）：允许对筛选器、视图和分组的完全编辑访问权限。</p> <p>要优化此设置，请单击<b>编辑</b>按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用以下任何选项。 默认情况下，将启用所有这些功能。</p> 
+     <li> <p><b>视图</b></p><p>要优化此设置，您可以配置共享筛选器、视图和分组的功能。 单击“查看”按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>共享</b>选项（默认启用）。</p> </li> 
+     <li> <p><b>编辑</b>（默认选择）：允许对筛选器、视图和分组的完全编辑访问权限。</p> <p>要优化此设置，请单击<img src="assets/gear-icon-in-access-levels.png">编辑<b>按钮上的齿轮图标</b>，然后禁用或启用以下任何选项。 默认情况下，将启用所有这些功能。</p> 
       <ul> 
        <li> <p>创建</p> </li> 
        <li> <p>删除</p> </li> 
@@ -447,8 +451,8 @@ ht-degree: 9%
    <td>员工 </td> 
    <td> 
     <ul> 
-     <li> <p><b>查看</b></p><p>要优化此设置，您可以配置共享筛选器、视图和分组的功能。 单击“查看”按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>共享</b>选项（默认启用）。</p> </li> 
-     <li> <p><b>编辑</b>（默认选择）：允许对筛选器、视图和分组的完全编辑访问权限。</p> <p>要优化此设置，请单击<b>编辑</b>按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用以下任何选项。 默认情况下，将启用所有这些功能。</p> 
+     <li> <p><b>视图</b></p><p>要优化此设置，您可以配置共享筛选器、视图和分组的功能。 单击“查看”按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>共享</b>选项（默认启用）。</p> </li> 
+     <li> <p><b>编辑</b>（默认选择）：允许对筛选器、视图和分组的完全编辑访问权限。</p> <p>要优化此设置，请单击<img src="assets/gear-icon-in-access-levels.png">编辑<b>按钮上的齿轮图标</b>，然后禁用或启用以下任何选项。 默认情况下，将启用所有这些功能。</p> 
       <ul> 
        <li> <p>创建</p> </li> 
        <li> <p>删除</p> </li> 
@@ -458,11 +462,11 @@ ht-degree: 9%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>查看者</td> 
+   <td>审阅者</td> 
    <td> 
     <ul> 
-     <li><p> <b>视图</b></p> <p>要优化此设置，您可以配置共享筛选器、视图和分组的功能。 单击“查看”按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>共享</b>选项（默认启用）。</p> </li> 
-     <li> <p><b>编辑</b>（默认选择）：允许对筛选器、视图和分组的完全编辑访问权限。</p> <p>要优化此设置，请单击<b>编辑</b>按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用以下任何选项。 默认情况下，将启用所有这些功能。</p> 
+     <li><p> <b>查看</b></p> <p>要优化此设置，您可以配置共享筛选器、视图和分组的功能。 单击“查看”按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>共享</b>选项（默认启用）。</p> </li> 
+     <li> <p><b>编辑</b>（默认选择）：允许对筛选器、视图和分组的完全编辑访问权限。</p> <p>要优化此设置，请单击<img src="assets/gear-icon-in-access-levels.png">编辑<b>按钮上的齿轮图标</b>，然后禁用或启用以下任何选项。 默认情况下，将启用所有这些功能。</p> 
       <ul> 
        <li> <p>创建</p> </li> 
        <li> <p>删除</p> </li> 
@@ -472,11 +476,11 @@ ht-degree: 9%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>请求人</td> 
+   <td>请求者</td> 
    <td> 
     <ul> 
      <li> <p><b>视图</b>：</p> <p>要优化此设置，您可以配置共享筛选器、视图和分组的功能。 单击“查看”按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>共享</b>选项（默认启用）。</p> </li> 
-     <li> <p><b>编辑</b>（默认选择）：允许对筛选器、视图和分组的完全编辑访问权限。</p> <p>要优化此设置，请单击<b>编辑</b>按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用以下任何选项。 默认情况下，将启用所有这些功能。</p> 
+     <li> <p><b>编辑</b>（默认选择）：允许对筛选器、视图和分组的完全编辑访问权限。</p> <p>要优化此设置，请单击<img src="assets/gear-icon-in-access-levels.png">编辑<b>按钮上的齿轮图标</b>，然后禁用或启用以下任何选项。 默认情况下，将启用所有这些功能。</p> 
       <ul> 
        <li> <p>创建</p> </li> 
        <li> <p>删除</p> </li> 
@@ -507,12 +511,12 @@ ht-degree: 9%
  </thead> 
  <tbody> 
   <tr> 
-   <td>规划器 </td> 
+   <td>规划者 </td> 
    <td> 
     <ul> 
      <li> <b>无访问权限</b> </li> 
-     <li><p> <b>视图</b></p> <p>要微调此功能，您可以配置共享文档的功能。 单击“查看”按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>共享</b>选项（默认启用）。</p> </li> 
-     <li> <p><b>编辑</b>（默认选择）：允许对文档的完全编辑权限。</p> <p>要优化此设置，请单击<b>编辑</b>按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用以下任何选项。 除<b>公开共享文档</b>和<b>在系统范围内共享文档</b>外，默认启用所有这些功能。</p> 
+     <li><p> <b>查看</b></p> <p>要微调此功能，您可以配置共享文档的功能。 单击“查看”按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>共享</b>选项（默认启用）。</p> </li> 
+     <li> <p><b>编辑</b>（默认选择）：允许对文档的完全编辑权限。</p> <p>要优化此设置，请单击<img src="assets/gear-icon-in-access-levels.png">编辑<b>按钮上的齿轮图标</b>，然后禁用或启用以下任何选项。 除<b>公开共享文档</b>和<b>在系统范围内共享文档</b>外，默认启用所有这些功能。</p> 
       <ul> 
        <li> <p>创建</p> </li> 
        <li> <p>删除</p> </li> 
@@ -527,8 +531,8 @@ ht-degree: 9%
    <td> 
     <ul> 
      <li> <b>无访问权限</b> </li> 
-     <li> <p><b>查看</b></p><p>要微调此功能，您可以配置共享文档的功能。 单击“查看”按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>共享</b>选项（默认启用）。</p> </li> 
-     <li> <p><b>编辑</b>（默认选择）：允许对文档的完全编辑权限。</p> <p>要优化此设置，请单击<b>编辑</b>按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用以下任何选项。 除<b>公开共享文档</b>和<b>在系统范围内共享文档</b>外，默认启用所有这些功能。</p> 
+     <li> <p><b>视图</b></p><p>要微调此功能，您可以配置共享文档的功能。 单击“查看”按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>共享</b>选项（默认启用）。</p> </li> 
+     <li> <p><b>编辑</b>（默认选择）：允许对文档的完全编辑权限。</p> <p>要优化此设置，请单击<img src="assets/gear-icon-in-access-levels.png">编辑<b>按钮上的齿轮图标</b>，然后禁用或启用以下任何选项。 除<b>公开共享文档</b>和<b>在系统范围内共享文档</b>外，默认启用所有这些功能。</p> 
       <ul> 
        <li> <p>创建</p> </li> 
        <li> <p>删除</p> </li> 
@@ -539,12 +543,12 @@ ht-degree: 9%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>查看者</td> 
+   <td>审阅者</td> 
    <td> 
     <ul> 
      <li> <b>无访问权限</b> </li> 
-     <li><p> <b>视图</b></p> <p>要微调此功能，您可以配置共享文档的功能。 单击“查看”按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>共享</b>选项（默认启用）。</p> </li> 
-     <li> <p><b>编辑</b>（默认选择）：允许对文档的完全编辑权限。</p> <p>要优化此操作，请单击<b>编辑</b>按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用以下任何操作。 默认情况下启用所有这些功能，但最后两个<b>共享公开文档</b>和<b>共享系统范围</b>除外。</p> 
+     <li><p> <b>查看</b></p> <p>要微调此功能，您可以配置共享文档的功能。 单击“查看”按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>共享</b>选项（默认启用）。</p> </li> 
+     <li> <p><b>编辑</b>（默认选择）：允许对文档的完全编辑权限。</p> <p>要优化此操作，请单击<img src="assets/gear-icon-in-access-levels.png">编辑<b>按钮上的齿轮图标</b>，然后禁用或启用以下任何操作。 默认情况下启用所有这些功能，但最后两个<b>共享公开文档</b>和<b>共享系统范围</b>除外。</p> 
       <ul> 
        <li> <p>创建</p> </li> 
        <li> <p>删除</p> </li> 
@@ -555,12 +559,12 @@ ht-degree: 9%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>请求人</td> 
+   <td>请求者</td> 
    <td> 
     <ul> 
      <li> <b>无访问权限</b> </li> 
-     <li> <p><b>查看</b></p><p>要微调此功能，您可以配置共享文档的功能。 单击“查看”按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>共享</b>选项（默认启用）。</p> </li> 
-     <li> <p><b>编辑</b>（默认选择）：允许对文档的完全编辑权限。</p> <p>要优化此设置，请单击<b>编辑</b>按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用以下任何选项。 默认情况下，将启用所有这些功能。</p> 
+     <li> <p><b>视图</b></p><p>要微调此功能，您可以配置共享文档的功能。 单击“查看”按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>共享</b>选项（默认启用）。</p> </li> 
+     <li> <p><b>编辑</b>（默认选择）：允许对文档的完全编辑权限。</p> <p>要优化此设置，请单击<img src="assets/gear-icon-in-access-levels.png">编辑<b>按钮上的齿轮图标</b>，然后禁用或启用以下任何选项。 默认情况下，将启用所有这些功能。</p> 
       <ul> 
        <li> <p>创建</p> </li> 
        <li> <p>删除</p> </li> 
@@ -590,38 +594,38 @@ ht-degree: 9%
  </thead> 
  <tbody> 
   <tr> 
-   <td>规划器 </td> 
+   <td>规划者 </td> 
    <td> 
     <ul> 
-     <li> <p><b>查看</b></p><p>要优化此功能，您可以配置查看用户联系信息的功能。 单击<b>查看</b>按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>查看联系人信息</b>选项（默认启用）。</p> </li> 
-     <li> <p><b>编辑</b>（默认选择）：允许用户拥有完整的编辑权限。</p> <p>要优化此操作，请单击<b>编辑</b>按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用以下任何操作。 默认情况下仅启用前两个选项<b>创建</b>和<b>删除</b>。</p> 
+     <li> <p><b>视图</b></p><p>要优化此功能，您可以配置查看用户联系信息的功能。 单击<img src="assets/gear-icon-in-access-levels.png">查看<b>按钮上的齿轮图标</b>，然后禁用或启用<b>查看联系人信息</b>选项（默认启用）。</p> </li> 
+     <li> <p><b>编辑</b>（默认选择）：允许用户拥有完整的编辑权限。</p> <p>要优化此操作，请单击<img src="assets/gear-icon-in-access-levels.png">编辑<b>按钮上的齿轮图标</b>，然后禁用或启用以下任何操作。 默认情况下仅启用前两个选项<b>创建</b>和<b>删除</b>。</p> 
       <ul> 
        <li> <p>创建</p> </li> 
        <li> <p>删除</p> </li> 
        <li>用户管理员 (所有用户)</li> 
        <li> <p>用户管理员（组用户）</p> </li> 
-      </ul> <p>有关两个“用户管理”选项的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">向用户授予访问权限</a>一文中的<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">配置用户的访问权限，以使用自定义访问级别</a>编辑用户部分。</p> </li> 
+      </ul> <p>有关两个“用户管理”选项的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">向用户授予访问权限</a>一文中的<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">配置用户的访问权限，以使用自定义访问级别</a>编辑用户部分。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>员工 </td> 
    <td> 
     <ul> 
-     <li><p> <b>查看</b> （仅选项可用）</p><p>要优化此功能，您可以配置查看用户联系信息的功能。 单击<b>查看</b>按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>查看联系人信息</b>选项（默认启用）。</p> </li> 
+     <li><p> <b>查看</b> （仅选项可用）</p><p>要优化此功能，您可以配置查看用户联系信息的功能。 单击<img src="assets/gear-icon-in-access-levels.png">查看<b>按钮上的齿轮图标</b>，然后禁用或启用<b>查看联系人信息</b>选项（默认启用）。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>查看者</td> 
+   <td>审阅者</td> 
    <td> 
     <ul> 
-     <li><p> <b>查看</b> （仅选项可用）</p> <p>要优化此功能，您可以配置查看用户联系信息的功能。 单击<b>查看</b>按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后启用或禁用<b>查看联系人信息</b>选项（默认情况下处于禁用状态）。</p> </li> 
+     <li><p> <b>查看</b> （仅选项可用）</p> <p>要优化此功能，您可以配置查看用户联系信息的功能。 单击<img src="assets/gear-icon-in-access-levels.png">查看<b>按钮上的齿轮图标</b>，然后启用或禁用<b>查看联系人信息</b>选项（默认情况下处于禁用状态）。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>请求人</td> 
+   <td>请求者</td> 
    <td> 
     <ul> 
-     <li> <p><b>查看</b> （仅选项可用）</p><p>要优化此功能，您可以配置查看用户联系信息的功能。 单击<b>查看</b>按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后启用或禁用<b>查看联系人信息</b>选项（默认情况下处于禁用状态）。</p> </li> 
+     <li> <p><b>查看</b> （仅选项可用）</p><p>要优化此功能，您可以配置查看用户联系信息的功能。 单击<img src="assets/gear-icon-in-access-levels.png">查看<b>按钮上的齿轮图标</b>，然后启用或禁用<b>查看联系人信息</b>选项（默认情况下处于禁用状态）。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -646,15 +650,15 @@ ht-degree: 9%
  </thead> 
  <tbody> 
   <tr> 
-   <td>规划器 </td> 
+   <td>规划者 </td> 
    <td> 
     <ul> 
-     <li><b>视图</b> <p>要微调此设置，请单击<b>查看</b>按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用以下任何选项*。 默认情况下禁用这两个选项。</p> 
+     <li><b>查看</b> <p>要微调此设置，请单击<img src="assets/gear-icon-in-access-levels.png">查看<b>按钮上的齿轮图标</b>，然后禁用或启用以下任何选项*。 默认情况下禁用这两个选项。</p> 
       <ul> 
        <li>查看所有团队</li> 
        <li> <p>查看与我的组关联的团队</p> </li> 
       </ul> </li> 
-     <li> <p><b>编辑</b>（默认选择）：允许对团队进行完全编辑访问。</p> <p>要微调此设置，请单击<b>查看</b>按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用以下任何选项*。 默认启用所有这些组，但<b>编辑我所在的团队</b>除外。</p> 
+     <li> <p><b>编辑</b>（默认选择）：允许对团队进行完全编辑访问。</p> <p>要微调此设置，请单击<img src="assets/gear-icon-in-access-levels.png">查看<b>按钮上的齿轮图标</b>，然后禁用或启用以下任何选项*。 默认启用所有这些组，但<b>编辑我所在的团队</b>除外。</p> 
       <ul> 
        <li>创建</li> 
        <li>删除</li> 
@@ -669,13 +673,13 @@ ht-degree: 9%
    <td>员工 </td> 
    <td> 
     <ul> 
-     <li> <b>视图</b>
-      <p>要微调此设置，请单击<b>查看</b>按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用以下任何选项*。 默认情况下，这两个选项都处于启用状态。</p> 
+     <li> <b>查看</b>
+      <p>要微调此设置，请单击<img src="assets/gear-icon-in-access-levels.png">查看<b>按钮上的齿轮图标</b>，然后禁用或启用以下任何选项*。 默认情况下，这两个选项都处于启用状态。</p> 
       <ul> 
        <li>查看所有团队</li> 
        <li> <p>查看与我的组关联的团队</p> </li> 
       </ul> </li> 
-     <li> <p><b>编辑</b>（默认选择）：允许对团队进行完全编辑访问。</p> <p>要微调此设置，请单击<b>查看</b>按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用以下任何选项*。 默认情况下仅禁用第一个选项<b>编辑我所在的团队</b>。</p> 
+     <li> <p><b>编辑</b>（默认选择）：允许对团队进行完全编辑访问。</p> <p>要微调此设置，请单击<img src="assets/gear-icon-in-access-levels.png">查看<b>按钮上的齿轮图标</b>，然后禁用或启用以下任何选项*。 默认情况下仅禁用第一个选项<b>编辑我所在的团队</b>。</p> 
       <ul> 
        <li> <p>编辑我所在的团队</p> </li> 
        <li> <p>查看所有团队</p> </li> 
@@ -684,10 +688,10 @@ ht-degree: 9%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>查看者</td> 
+   <td>审阅者</td> 
    <td> 
     <ul> 
-     <li> <p><b>查看</b> （仅选项可用）</p> <p>要微调此设置，请单击<b>查看</b>按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用以下任何选项*。 默认情况下，这两个选项都处于启用状态。</p> 
+     <li> <p><b>查看</b> （仅选项可用）</p> <p>要微调此设置，请单击<img src="assets/gear-icon-in-access-levels.png">查看<b>按钮上的齿轮图标</b>，然后禁用或启用以下任何选项*。 默认情况下，这两个选项都处于启用状态。</p> 
       <ul> 
        <li> <p>查看所有团队</p> </li> 
        <li>查看与我的组关联的团队</li> 
@@ -695,10 +699,10 @@ ht-degree: 9%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>请求人</td> 
+   <td>请求者</td> 
    <td> 
     <ul> 
-     <li> <p><b>查看</b> （仅选项可用）</p> <p>要微调此设置，请单击<b>查看</b>按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用以下任何选项*。 默认情况下，这两个选项都处于启用状态。</p> 
+     <li> <p><b>查看</b> （仅选项可用）</p> <p>要微调此设置，请单击<img src="assets/gear-icon-in-access-levels.png">查看<b>按钮上的齿轮图标</b>，然后禁用或启用以下任何选项*。 默认情况下，这两个选项都处于启用状态。</p> 
       <ul> 
        <li> <p>查看所有团队</p> </li> 
        <li>查看与我的组关联的团队</li> 
@@ -728,12 +732,12 @@ ht-degree: 9%
  </thead> 
  <tbody> 
   <tr> 
-   <td>规划器 </td> 
+   <td>规划者 </td> 
    <td> 
     <ul> 
      <li> <b>无访问权限</b> </li> 
-     <li><p> <b>视图</b></p> <p>要优化此设置，您可以配置共享模板的功能。 单击“查看”按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>共享</b>选项（默认启用）。</p> </li> 
-     <li> <p><b>编辑</b> （默认选择）：允许对模板进行完全编辑访问。</p> <p>要优化此设置，请单击<b>编辑</b>按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用以下任何选项。 默认情况下，将启用所有这些功能。</p> 
+     <li><p> <b>查看</b></p> <p>要优化此设置，您可以配置共享模板的功能。 单击“查看”按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用<b>共享</b>选项（默认启用）。</p> </li> 
+     <li> <p><b>编辑</b> （默认选择）：允许对模板进行完全编辑访问。</p> <p>要优化此设置，请单击<img src="assets/gear-icon-in-access-levels.png">编辑<b>按钮上的齿轮图标</b>，然后禁用或启用以下任何选项。 默认情况下，将启用所有这些功能。</p> 
       <ul> 
        <li> <p>创建</p> </li> 
        <li> <p>删除</p> </li> 
@@ -750,14 +754,14 @@ ht-degree: 9%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>查看者</td> 
+   <td>审阅者</td> 
    <td> 
     <ul> 
      <li> <p><b>无访问权限</b> （仅选项可用）</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>请求人</td> 
+   <td>请求者</td> 
    <td> 
     <ul> 
      <li> <p><b>无访问权限</b> （仅选项可用）</p> </li> 
@@ -785,16 +789,16 @@ ht-degree: 9%
  </thead> 
  <tbody> 
   <tr> 
-   <td>规划器 </td> 
+   <td>规划者 </td> 
    <td> 
     <ul> 
      <li> <b>无访问权限</b> </li> 
-     <li> <p><b>视图</b>：</p> <p>要微调此设置，请单击<b>查看</b>按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用以下任何选项*。 默认情况下，这两个选项都处于启用状态。</p> 
+     <li> <p><b>视图</b>：</p> <p>要微调此设置，请单击<img src="assets/gear-icon-in-access-levels.png">查看<b>按钮上的齿轮图标</b>，然后禁用或启用以下任何选项*。 默认情况下，这两个选项都处于启用状态。</p> 
       <ul> 
        <li>查看角色计费 &amp; 成本费率</li> 
        <li> <p>查看用户计费 &amp; 成本费率</p> </li> 
       </ul> </li> 
-     <li> <p><b>编辑</b>（默认选择）：允许对财务数据进行完全编辑访问。</p> <p>要微调此设置，请单击<b>查看</b>按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用以下任何选项*。 默认情况下只启用最后两个选项，<b>查看角色帐单和成本费率</b>和<b>查看用户帐单和成本费率</b>。</p> 
+     <li> <p><b>编辑</b>（默认选择）：允许对财务数据进行完全编辑访问。</p> <p>要微调此设置，请单击<img src="assets/gear-icon-in-access-levels.png">查看<b>按钮上的齿轮图标</b>，然后禁用或启用以下任何选项*。 默认情况下只启用最后两个选项，<b>查看角色帐单和成本费率</b>和<b>查看用户帐单和成本费率</b>。</p> 
       <ul> 
        <li>编辑角色计费 &amp; 成本费率</li> 
        <li> <p>编辑用户计费 &amp; 成本费率</p> </li> 
@@ -808,19 +812,19 @@ ht-degree: 9%
    <td> 
     <ul> 
      <li> <p><b>无访问权限</b> （默认选择）</p> </li> 
-     <li> <b>视图</b> </li> 
+     <li> <b>查看</b> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>查看者</td> 
+   <td>审阅者</td> 
    <td> 
     <ul> 
      <li> <p><b>无访问权限</b> （默认选择）</p> </li> 
-     <li><b>视图</b> </li> 
+     <li><b>查看</b> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>请求人</td> 
+   <td>请求者</td> 
    <td> 
     <ul> 
      <li> <p><b>无访问权限</b> （仅选项可用）</p> </li> 
@@ -850,12 +854,12 @@ ht-degree: 9%
  </thead> 
  <tbody> 
   <tr> 
-   <td>规划器 </td> 
+   <td>规划者 </td> 
    <td> 
     <ul> 
      <li> <b>无访问权限</b> </li> 
-     <li> <b>视图</b> </li> 
-     <li> <p><b>编辑</b> （默认选择）：允许对资源管理进行完全编辑访问。</p> <p>要优化此设置，请单击<b>编辑</b>按钮上的齿轮图标<img src="assets/gear-icon-in-access-levels.png">，然后禁用或启用以下任何选项。 默认情况下仅启用第一个选项<b>在规划者</b>中编辑优先级和预算小时数。</p> 
+     <li> <b>查看</b> </li> 
+     <li> <p><b>编辑</b> （默认选择）：允许对资源管理进行完全编辑访问。</p> <p>要优化此设置，请单击<img src="assets/gear-icon-in-access-levels.png">编辑<b>按钮上的齿轮图标</b>，然后禁用或启用以下任何选项。 默认情况下仅启用第一个选项<b>在规划者</b>中编辑优先级和预算小时数。</p> 
       <ul> 
        <li> <p> 在“规划者”中编辑优先级和预算小时数</p> </li> 
        <li> <p>管理资源池</p> <p><b>注意</b>：为了管理资源池，用户需要更多财务数据的访问权限和项目财务的权限。 如果您向无权访问财务数据的规划者用户授予资源管理访问权限，则该用户仍可以在资源规划者中查看小时分配，但无法切换到成本视图或查看业务案例。 有关详细信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">授予对财务数据的访问权限</a>和<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">共享对象的财务权限</a>。</p> </li> 
@@ -872,7 +876,7 @@ ht-degree: 9%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>查看者</td> 
+   <td>审阅者</td> 
    <td> 
     <ul> 
      <li> <b>无访问权限</b> </li> 
@@ -880,7 +884,7 @@ ht-degree: 9%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>请求人</td> 
+   <td>请求者</td> 
    <td> 
     <ul> 
      <li> <b>无访问权限</b> （仅选项可用） </li> 

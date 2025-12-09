@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: e6fc6def1553df3faa8e1200f7ec2ca2bb97eb04
 workflow-type: tm+mt
-source-wordcount: '2065'
+source-wordcount: '2063'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
 
 <!--not sure: true for Planning? This is true for GenS and WF Proof: * The integration must be enabled in the Workfront Setup area.-->
 
-## 访问要求
+## 访问权限要求
 
 下表介绍了将Adobe Workfront规划与Adobe GenStudio for Performance Marketing一起使用的访问和权限要求：
 
@@ -89,7 +89,7 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront包</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
 <p>任何Workfront和任何Planning包</p> <p>任何工作流和任何计划包</p>
 <p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
@@ -109,7 +109,7 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing用户角色</p></td> 
    <td><p><ul><li>用于访问营销活动、产品和角色的任何GenStudio用户角色</li>
    <li>GenSudio System Manager访问激活 <!--and Events--></li></ul>
-   有关信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">用户角色和权限</a>。 
+   有关信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">用户角色和权限</a>。 
    </p>
   </td> 
   </tr>   
@@ -164,7 +164,7 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****and Events****</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -249,7 +249,13 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
    * 添加记录类型
    * 与其他人共享
 
-     您可以与没有GenStudio帐户的其他人共享GenStudio工作区。 您只能与组织的Identity Management System (IMS)中可用的用户共享它。<!--check to see this is correct-->
+     您可以与没有GenStudio帐户的其他人共享GenStudio工作区。 您只能与组织的Identity Management System (IMS)中可用的用户共享它。
+
+     <!--
+        >[!NOTE]
+        >
+        >You cannot remove GenStudio users from the GenStudio workspace or its record types' sharing. -->
+     <!--check to see this is correct-->
      <!--* Delete the workspace - check to see if this is possible; the link is there, but???-->
 
 * 当您在Planning中拥有GenStudio工作区的Contribute权限时，无法从Workfront Planning中修改工作区。
@@ -378,9 +384,20 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
 
 ### 从Workfront Planning工作区连接到GenStudio Brands
 
-当贵组织中的Workfront Planning与Adobe GenStudio集成时，您可以从Workfront Planning的任何工作区中的任何记录类型将Planning记录类型连接到GenStudio Brands。
+当贵组织在Workfront Planning与Adobe GenStudio之间集成时，您可以从Workfront Planning的任何工作区中的任何记录类型将Planning记录类型连接到GenStudio Brands。
 
 品牌在GenStudio工作区中不可见为记录类型卡片。 品牌商可以从任何Workfront Planning记录类型(包括GenStudio工作区中的记录类型)创建新连接。
+
+<!-- when this releases, replace the paragraph above with these:
+
+Brands are connected by default to the following GenStudio workspace record types:
+
+    * Products
+    * Personas
+
+Brands are available for manually connecting to all other GenStudio workspace record types, or record types from all other workspaces you have permissions to manage. 
+
+-->
 
 ## 预览环境
 
