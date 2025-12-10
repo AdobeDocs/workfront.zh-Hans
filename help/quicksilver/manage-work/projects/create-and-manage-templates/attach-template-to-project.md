@@ -6,10 +6,10 @@ description: 您可以在项目的初始创建阶段或创建项目后，将模�
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
-source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
+source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 0%
+source-wordcount: '1126'
+ht-degree: 2%
 
 ---
 
@@ -21,16 +21,16 @@ ht-degree: 0%
 
 有关使用模板创建项目的详细信息，请参阅[使用模板创建项目](../../../manage-work/projects/create-projects/create-project-from-template.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -159,15 +159,23 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">以下选定的模板任务已导入到项目。 取消选择要排除的项目。 </td> 
-      <td>在将模板附加到项目之前，取消选择要从模板中排除的任何任务。</td> 
+      <td><p>在将模板附加到项目之前，取消选择要从模板中排除的任何任务。</p>
+      <p><b>提示</b></p>
+      <p>您只能选择一个任务。</p>
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">选择要作为此模板中任务的前置任务的项目任务。</td> 
-      <td> <p>单击该字段以显示项目任务列表，然后选择在模板任务开始之前必须完成的任务。 或者，您可以跳过此步骤，并在附加模板后在项目中设置关系。 </p> <p> 选择<strong>依赖项类型</strong>、<strong>滞后时间</strong>信息，如果您希望通过选中<strong>强制执行前置任务</strong>复选框来强制执行前置任务，请选中该复选框。 </p> </td> 
+      <td> <p>单击字段框以显示项目任务列表，然后选择在模板任务开始之前必须完成的任务。 或者，您可以跳过此步骤，并在附加模板后在项目中设置关系。 </p> <p> 选择<strong>依赖项类型</strong>、<strong>滞后时间</strong>信息，如果您希望通过选中<strong>强制执行前置任务</strong>复选框来强制执行前置任务，请选中该复选框。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">选择要作为此模板中任务的父级的项目任务。</td> 
-      <td> 选择要指定为所有模板任务的父级任务的项目任务。 如果不进行选择，则所有模板任务都会显示在当前项目任务的末尾。 您可以跳过此步骤，并在附加模板后在项目中移动任务。</td> 
+      <td> <p>选择要指定为所有模板任务的父级任务的项目任务。 如果不进行选择，则所有模板任务都会显示在当前项目任务的末尾。 您可以跳过此步骤，并在附加模板后在项目中移动任务。</p>
+      <p><b>注释</b></p>
+      <p>如果您选择了具有其他子项的父模板任务，则只有父项会在将项目任务添加到项目后将其显示为前置任务。 子模板任务不会显示前置任务。</p>
+      <p>如果仅选择子模板任务，则项目任务在添加到项目后将显示为前置任务。 </p>
+
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader" colspan="2"> <p role="rowheader" colspan="2">“选项”部分</p> <p role="rowheader" colspan="2"> <img src="assets/attach-template-large-box-options-section-nwe-350x78.png" style="width: 350;height: 78;"> </p> </td> 

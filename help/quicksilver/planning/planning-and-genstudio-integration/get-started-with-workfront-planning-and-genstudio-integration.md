@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: e6fc6def1553df3faa8e1200f7ec2ca2bb97eb04
+source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
 workflow-type: tm+mt
-source-wordcount: '2063'
+source-wordcount: '2118'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing用户角色</p></td> 
    <td><p><ul><li>用于访问营销活动、产品和角色的任何GenStudio用户角色</li>
    <li>GenSudio System Manager访问激活 <!--and Events--></li></ul>
-   有关信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">用户角色和权限</a>。 
+   有关信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">用户角色和权限</a>。 
    </p>
   </td> 
   </tr>   
@@ -164,7 +164,7 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****and Events****</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -242,6 +242,7 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
   Planning中的![GenStudio卡](assets/genstudio-card-with-tag-highlighted.png)
 
   有关信息，请参阅[在Adobe Workfront规划中管理GenStudio工作区](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)。
+* GenStudio工作区会自动与所有在Workfront Planning中创建时有权访问Workfront的GenStudio用户共享。
 * 当您在Planning中拥有GenStudio工作区的管理权限时，您可以：
 
    * 在Planning中更新GenStudio工作区（名称、描述、图标）
@@ -254,9 +255,8 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
      <!--
         >[!NOTE]
         >
-        >You cannot remove GenStudio users from the GenStudio workspace or its record types' sharing. -->
-     <!--check to see this is correct-->
-     <!--* Delete the workspace - check to see if this is possible; the link is there, but???-->
+        >You cannot remove GenStudio users from the GenStudio workspace or its record types'sharing. -->
+  <!--* Delete the workspace - check to see if this is possible; the link is there, but???-->
 
 * 当您在Planning中拥有GenStudio工作区的Contribute权限时，无法从Workfront Planning中修改工作区。
 
@@ -265,16 +265,18 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
 * 在GenStudio for Performance Marketing和Planning中可见的记录类型在Workfront Planning中具有GenStudio指示器。
 
   Workfront Planning中的![GenStudio记录类型卡片](assets/genstudio-record-type-with-tag-and-tooltip-highlighted.png)
+* 在Planning中创建工作区时，GenStudio工作区中的记录类型会自动与同时拥有Workfront访问权限的所有GenStudio用户共享。
 * 当您在Planning中拥有GenStudio工作区的管理权限时，您可以从Workfront Planning执行以下操作：
    * 编辑GenStudio记录类型信息（其外观、高级设置）。
    * 与其他人共享GenStudio记录类型。
    * 创建记录类型。 这些记录类型仅保留在Workfront Planning中。 它们不会显示在GenStudio中。
-   * 启用GenStudio工作区中的记录，以连接其他工作区。
-   * 允许将来自GenStudio工作区的记录添加到其他工作区。
+   * 启用GenStudio工作区中的记录类型以从其他工作区连接。
+   * 允许将GenStudio工作区中的记录类型添加到其他工作区。
 * 当您在Planning中拥有GenStudio工作区的Contribute权限时，无法从Planning中修改GenStudio记录类型。
 
 ### GenStudio工作区中的记录
 
+* 在Planning中创建工作区时，所有GenStudio记录会自动与同时拥有Workfront访问权限的所有GenStudio用户共享。
 * 从GenStudio for Performance Marketing编辑GenStudio记录时，您可以在GenStudio工作区中查看您所有Workfront实例中的更改。
 * 您不能在Workfront Planning的GenStudio工作区中创建或删除激活记录。
 * 当您在Planning中拥有GenStudio工作区的“管理”或“贡献”权限时，您可以从Workfront Planning执行以下操作：
@@ -313,12 +315,10 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
 
      >[!TIP]
      >
-     >在Workfront Planning中创建的字段在GenStudio中不可见。
+     >在Workfront Planning中创建的字段在GenStudio列表中不可见。
 
    * 在Workfront Planning中隐藏GenStudio记录类型的表视图中的字段。
-&lt;！—*从Workfront Planning中删除在Workfront Planning中为GenStudio记录类型创建的字段。  — 根据Iskuhi，这是不可能的；链接存在，但会生成错误 — >
-
-  <!--this is not true: You cannot delete fields imported from GenStudio from Workfront Planning.-->
+   * 您无法从Workfront Planning中删除在GenStudio中创建的字段。
 
 * 在Planning中拥有GenStudio工作区的“Contribute”权限时：
 
