@@ -6,7 +6,7 @@ description: 您可以将附加批准者或审阅者添加到已具有待审批�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: c55af795069a05de3eb3d0d8599ab61f00168ddc
+source-git-commit: 72915fc9f3c262d9c90fd205c6be3776ac20e303
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 3%
@@ -19,7 +19,7 @@ ht-degree: 3%
 >
 >本文内容介绍更新的文档审批功能，该功能仅适用于特定帐户。 有关标准审批流程的信息，请参阅[工作审批](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md)中列出的文章。
 
-统一批准（以前称为“新文档批准”）是对当前为Adobe Workfront开发的现有批准流程的全面重新设计。 目前，该解决方案限时发布，旨在为需要全面利益相关者参与和特定版本文档审批的企业提供实用而有效的解决方案。 其深思熟虑的设计和有针对性的新功能有助于在审批过程中实现协作、角色明确和版本控制，从而提高效率和问责制。
+统一审批以前称为“新建文档审批”，它是对当前为Adobe Workfront开发的现有审批流程进行整体重新设计。 目前，该解决方案限时发布，旨在为需要全面利益相关者参与和特定版本文档审批的企业提供实用而有效的解决方案。 其深思熟虑的设计和有针对性的新功能有助于在审批过程中实现协作、角色明确和版本控制，从而提高效率和问责制。
 
 ## 与验证和旧文档审批的主要区别
 
