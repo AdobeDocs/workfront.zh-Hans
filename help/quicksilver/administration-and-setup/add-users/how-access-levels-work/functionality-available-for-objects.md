@@ -32,7 +32,7 @@ ht-degree: 14%
 >[!NOTE]
 >
 >* 本文介绍了可用于访问新Workfront包模型中的级别的功能。 要查看当前包模型中可用的功能，请参阅[各种访问级别中每种对象类型可用的功能](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)。
->* 有关最新模型中其他包可用的功能列表，请参阅[Adobe Workfront定价和打包](https://business.adobe.com/products/workfront/pricing.html)。
+>* 有关最新模型中其他包可用的功能列表，请参阅[Adobe Workfront定价和打包](https://business.adobe.com/cn/products/workfront/pricing.html)。
 
 ## 项目
 
