@@ -8,9 +8,9 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: ebdb1803fe57386a84d3d882b02a53ec4344b225
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '1249'
 ht-degree: 2%
 
 ---
@@ -34,16 +34,16 @@ ht-degree: 2%
    * [提交Adobe Workfront Planning请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)
 
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
@@ -73,7 +73,44 @@ ht-degree: 2%
 
 ## 查找已提交的请求
 
-要查找您或其他用户已提交的请求，请执行以下操作：
+根据您使用的是新请求体验还是旧请求体验，查找已提交的请求会有所不同。
+
+### 在新请求体验中找到已提交的请求
+
+要查找您或其他用户在新的请求体验中提交的请求，请执行以下操作：
+
+{{step1-to-requests}}
+
+1. 请确保已启用屏幕右上角的&#x200B;**使用新体验**&#x200B;切换开关。
+
+   此时将显示“请求”列表。
+
+1. （可选）要搜索请求，请开始在列表右上角的搜索栏中键入。 搜索结果会随键入内容一起显示。
+1. （可选）单击&#x200B;**筛选器**&#x200B;并开始为要查找的请求添加条件。
+
+   您可以按以下字段进行筛选：
+
+   * **Workspace**：与请求表单关联的工作区。
+   * **记录类型**：与请求表单关联的记录类型。
+   * **输入日期**：提交请求的日期。
+   * **请求表单**：用于提交请求的请求表单的名称。
+   * **状态**：请求的状态。
+   * **输入者**：添加请求的用户的名称。 如果请求是由Workfront之外的人员添加的，则&#x200B;**输入者**&#x200B;字段显示`N/A`。
+
+   您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**加入的筛选器。
+在添加筛选条件时，将自动筛选请求列表。
+1. （可选）使用视图来关注要查找的请求。
+
+   有关说明，请参阅[在请求区域](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)中创建或编辑视图。
+
+>[!NOTE]
+>
+>* 如果您有Workfront Planning，则Workfront和Planning请求将显示在同一列表中。 Workfront请求在“对象类型”列中显示值`Issue`。
+>* 此时将显示请求列表，其中显示50个请求。 要查看更多请求，请滚动到列表底部。
+
+### 在旧版请求体验中查找已提交的请求
+
+要查找您或其他用户在旧版请求体验中提交的请求，请执行以下操作：
 
 {{step1-to-requests}}
 
