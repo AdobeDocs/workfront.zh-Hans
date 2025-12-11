@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 527a5de08a89bdd4d27d508113b8b0f4b2d73089
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1334'
 ht-degree: 14%
 
 ---
@@ -31,8 +31,8 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->* 本文介绍了可用于访问新Workfront计划模型中的级别的功能。 要查看当前计划模型中可用的功能，请参阅[各种访问级别中每种对象类型可用的功能](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)。
->* 有关新计划模型中其他计划可用的功能列表，请参阅[Adobe Workfront定价和打包](https://business.adobe.com/cn/products/workfront/pricing.html)。
+>* 本文介绍了可用于访问新Workfront包模型中的级别的功能。 要查看当前包模型中可用的功能，请参阅[各种访问级别中每种对象类型可用的功能](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)。
+>* 有关最新模型中其他包可用的功能列表，请参阅[Adobe Workfront定价和打包](https://business.adobe.com/products/workfront/pricing.html)。
 
 ## 项目
 
@@ -53,7 +53,7 @@ ht-degree: 14%
 | 添加任务 | ✓ |   |   |   |
 | 提供更新/评论 | ✓ | ✓ | ✓ |   |
 | 更改状态 | ✓ |   |   |   |
-| 记录小时数 | ✓ |   |   |   |
+| 记录小时数 | ✓ | <span class="preview">✓</span> |   |   |
 | 编辑分配 | ✓ |   |   |   |
 | 管理基线 | ✓ |   |   |   |
 | 管理风险 | ✓ |   |   |   |
