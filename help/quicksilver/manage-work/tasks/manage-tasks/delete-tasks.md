@@ -6,10 +6,10 @@ description: 您可以删除可能重复或创建有误的任务。
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 2%
+source-wordcount: '810'
+ht-degree: 5%
 
 ---
 
@@ -19,22 +19,22 @@ ht-degree: 2%
 
 对于具有历史信息（更新、计划更改、状态或其他字段）的任务，我们建议您关闭它们或将其标记为废弃，而不是删除它们。 这有助于您保留项目的历史信息。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td><p>标准</p> 
-   <p>工作或更高</p> </td> 
+   <p>工作版或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -98,37 +98,40 @@ ht-degree: 2%
 
 删除任务时，会影响链接到该任务的其他对象。
 
-当您删除任务时，也会删除附加到任务的以下对象：
+请考虑以下事项：
 
-* 文档
+* 当您删除任务时，也会删除附加到任务的以下对象：
+
+   * 文档
 
   您不能删除附加了已签出文档的任务。 有关签出文档的更多信息，请参阅[签出文档](../../../documents/managing-documents/check-out-documents.md)。
 
-* 问题
-* 子任务
-* 注释
-* 审批
+   * 问题
+   * 子任务
+   * 注释
+   * 审批
 
-根据Workfront管理员在Workfront实例的时间表和小时首选项中配置项目、任务或问题删除首选项的方式，在删除任务时，以下列方式之一处理为任务记录的小时：
+* 根据Workfront管理员在Workfront实例的时间表和小时首选项中配置项目、任务或问题删除首选项的方式，在删除任务时，以下列方式之一处理为任务记录的小时：
 
-* 移动到项目，如果稍后恢复任务，则不会在任务上恢复。
-* 将被删除，如果稍后恢复任务，则会在任务上恢复该任务。
+   * 移动到项目，如果稍后恢复任务，则不会在任务上恢复。
+   * 将被删除，如果稍后恢复任务，则会在任务上恢复该任务。
 
   当您尝试删除具有已登录小时数的任务的项目时，这也适用。
 
-  <!--
+  有关为登录问题的小时数配置删除首选项的详细信息，请参阅[配置时间表和小时首选项](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。
+   * 任务上的费用将移至项目。
+
+   * 分配给任务或任务批准的用户仍保留在项目团队中。
+
+  有关项目团队的详细信息，请参阅[项目团队概述](../../../manage-work/projects/planning-a-project/project-team-overview.md)。
+
+* 当删除子任务并将其父任务移动到另一个项目，然后恢复已删除的子任务时，该任务将作为主任务添加回原始项目。
+
+<!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   (NOTE: this stays NWE; not possible in classic;)
   </MadCap:conditionalText>
   -->
-
-  有关为登录问题的小时数配置删除首选项的详细信息，请参阅[配置时间表和小时首选项](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。
-
-* 任务上的费用将移至项目。
-
-* 分配给任务或任务批准的用户仍保留在项目团队中。
-
-  有关项目团队的详细信息，请参阅[项目团队概述](../../../manage-work/projects/planning-a-project/project-team-overview.md)。
 
 ## 删除任务
 
