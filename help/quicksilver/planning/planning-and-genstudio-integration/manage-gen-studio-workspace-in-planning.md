@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
-source-git-commit: e6fc6def1553df3faa8e1200f7ec2ca2bb97eb04
+source-git-commit: ca16652aa06b4652d0d1b41156ed1ef96225c49a
 workflow-type: tm+mt
-source-wordcount: '1358'
+source-wordcount: '1384'
 ht-degree: 1%
 
 ---
@@ -83,7 +83,7 @@ recommendations: noDisplay, noCatalog
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing用户角色</p></td> 
    <td><p><ul><li>用于访问营销活动、产品和角色的任何GenStudio用户角色</li>
    <li>GenSudio System Manager访问激活 <!--and Events--></li></ul>
-   有关信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">用户角色和权限</a>。 
+   有关信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">用户角色和权限</a>。 
    </p>
   </td> 
   </tr>   
@@ -141,7 +141,7 @@ recommendations: noDisplay, noCatalog
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****** and Events*********</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -208,7 +208,7 @@ CAN YOU DO THIS??
 
 >[!NOTE]
 >
->在管理GenStudio工作区之前，请参阅文章[Workfront Planning与GenStudio for Performance Marketing集成入门](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)以了解更多信息。
+>在管理GenStudio工作区之前，请参阅文章[Adobe Workfront Planning与Adobe GenStudio for Performance Marketing集成入门](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)以了解更多信息。
 >
 
 1. 以也可访问GenStudio的用户身份登录Workfront。
@@ -263,7 +263,7 @@ CAN YOU DO THIS??
 
 >[!NOTE]
 >
->在管理GenStudio工作区之前，请参阅文章[Workfront Planning与GenStudio for Performance Marketing集成入门](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)以了解更多信息。
+>在管理GenStudio工作区之前，请参阅文章[Adobe Workfront Planning与Adobe GenStudio for Performance Marketing集成入门](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)以了解更多信息。
 >
 
 1. 转到Workfront Planning中的GenStudio工作区，然后打开记录类型页面，如本文中[从Workfront Planning管理GenStudio工作区](#manage-the-genstudio-workspace-from-workfront-planning)部分所述。
@@ -367,29 +367,24 @@ CAN YOU DO THIS??
       * Workfront Planning记录详细信息
       * GenStudio记录详细信息
 
-     >[!TIP]
+     >[!NOTE]
      >
-     >在Workfront Planning中创建的字段在GenStudio的列表视图中不可见。
-
-     <!--when this releases, replace the tip above with this: 
-      
-      >[!NOTE]
-      >
-      >* Fields created in Workfront Planning are not visible in the list view in GenStudio.
-      >
-      >* You can connect any GenStudio record type to the Brands GenStudio record type. 
-      >  Products and Personas are connected to Brands by default. -->
+     >* 在Workfront Planning中创建的字段在GenStudio的列表视图中不可见。
+     >
+     >* 您可以将任何GenStudio记录类型连接到Brands GenStudio记录类型。
+     >  默认情况下，产品和角色会连接到品牌。
 
 1. 将鼠标悬停在表视图中的字段上，然后单击下拉菜单以执行以下操作之一：
 
    * 按其排序
    * 隐藏它
    * 编辑其设置
-     <!--* Delete it - not possible now, per Iskuhi; the link is there but it will generate an error-->
 
-     <!--GenStudio-native fields are note removed from GenStudio. -->
+   <!--* Delete it - not possible now, per Iskuhi; the link is there but it will generate an error-->
 
-     >[!NOTE]
-     >
-     >仅当您在GenStudio中具有“管理”权限时，才能编辑字段的配置并添加更多字段。
+   <!--GenStudio-native fields are note removed from GenStudio. -->
+
+   >[!NOTE]
+   >
+   >仅当您在GenStudio中具有“管理”权限时，才能编辑字段的配置并添加更多字段。
 

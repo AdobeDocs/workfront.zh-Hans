@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: bedfd278f59f8cd8ba287cca1d68a7ec3371c7fd
+source-git-commit: df508366dd8cd1c237ad1beffcf86bfb6392c8bb
 workflow-type: tm+mt
-source-wordcount: '13621'
+source-wordcount: '13623'
 ht-degree: 2%
 
 ---
@@ -2182,7 +2182,7 @@ ht-degree: 2%
       * [管理Adobe Workfront Planning应用程序内通知](planning/notifications/manage-planning-in-app-notifications.md)
    * Adobe Workfront规划和Gen Studio高性能营销集成 {#planning-and-genstudio-integration}
       * [Adobe Workfront Planning与Adobe GenStudio for Performance Marketing集成：文章索引](planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md)
-      * [Workfront Planning与GenStudio for Performance Marketing集成入门](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
+      * [Adobe Workfront Planning与Adobe GenStudio for Performance Marketing集成入门](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
       * [在Adobe Workfront Planning中管理GenStudio工作区](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
       * [将Workfront规划工作区提升到GenStudio](planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)
 * Adobe Workfront集成 {#adobe-workfront-integrations}
@@ -2529,8 +2529,8 @@ ht-degree: 2%
       * [使用PKCE流程配置和使用您组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-pkce-flow.md)
       * [弃用API — 内部](wf-api/api/deprecation-api-internal.md)
       * [API版本21中的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-      * [API版本20中的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [API版本19中的新增功能](wf-api/api/new-api-version-19.md)
+      * [API版本20](/help/quicksilver/wf-api/api/new-api-version-20.md)中的新增功能
+      * [API版本19](wf-api/api/new-api-version-19.md)中的新增功能
       * [API版本18中的新增功能](wf-api/api/new-api-version-18.md)
       * [API版本17中的新增功能](wf-api/api/new-api-version-17.md)
       * [API版本16中的新增功能](wf-api/api/new-api-version-16.md)
