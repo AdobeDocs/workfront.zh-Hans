@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: c879d06cfe7ba76df3e974c160a7349f1503f17f
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 您的Adobe Workfront许可证类型可与Adobe Workfront Planning权限配合使用，以提供以下访问权限：
 
 * 查看、参与或管理工作区或记录类型
-* 查看或管理视图。
+* 查看或管理视图。<!--<span class="preview">and records</span>-->
 
 有关Workfront Planning中对象权限的信息，请参阅[Adobe Workfront Planning中的权限共享概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 | Adobe Workfront许可证类型 | Adobe Workfront Planning中允许的最高权限 |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 标准 | <p>用户可以管理工作区、记录类型和视图。 他们可以创建、编辑或删除工作区、记录类型、记录、字段和视图。</p> <br> <p>系统管理员对所有工作区具有管理权限，包括他们未创建的工作区。</p> |
+| 标准 | <p>用户可以管理工作区、记录类型、<!--<span class="preview">records</span>-->和视图。 他们可以创建、编辑或删除工作区、记录类型、记录、字段和视图。</p><br><p>系统管理员对所有工作区具有管理权限，包括他们未创建的工作区。</p> |
 | 浅色或参与者 | <p>用户可以查看与其共享的工作区，以及这些工作区的记录类型、记录和字段。</p> <br> <p>用户可以查看与其共享的视图，但不能创建自己的视图。 </p><br> <p>用户无法创建、编辑或删除工作区、记录类型、记录或字段。</p> |
 
 <!--Old: 

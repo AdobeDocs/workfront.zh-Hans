@@ -7,9 +7,9 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: e6fc6def1553df3faa8e1200f7ec2ca2bb97eb04
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1831'
 ht-degree: 2%
 
 ---
@@ -115,7 +115,12 @@ ht-degree: 2%
 <!--checking on the below with Lilit-->
 
 * 您可以与以下实体共享记录：人员、组、团队、公司或工作角色。
-* 默认情况下，当您与用户共享工作区时，他们也将获得工作区中记录的相同权限。
+* 您可以向记录授予以下级别的权限：
+
+   * 视图
+   * 管理
+* 当用户共享工作区和记录类型时，默认情况下，他们也会获得工作区中记录的相同权限。
+当用户具有工作区或记录类型的Contribute权限时，他们将获得该记录类型的记录的管理权限。
 * 从工作区中删除实体时，所有共享权限都将从记录类型及其中的所有记录中删除。
 * 用户对该记录的访问权限通过以下3个设置的组合来确定：
 
@@ -126,10 +131,10 @@ ht-degree: 2%
       * **工作区中的每个人都可以查看**：这将使工作区<!-- is this OK to say "workspace? should it be "record"??-->中的每个人都可以查看记录
       * **只有受邀人员才能访问**：默认情况下选中此选项，允许限制特定人员对记录的访问。
 
-* 您可以向记录授予以下级别的权限：
+     >[!NOTE]
+     >
+     >如果选择授予&#x200B;**工作区中的每个人可查看记录类型或记录的权限**，则工作区权限共享列表中列出的每个人对记录类型和记录都将具有相同的权限，即使继承的权限被禁用也是如此。
 
-   * 视图
-   * 管理
 
 * 与用户共享记录时，默认情况下会以与记录类型相同的权限添加用户。
 
@@ -138,13 +143,15 @@ ht-degree: 2%
    * 如果他们具有记录类型的查看权限，他们将获得记录的查看权限
    * 如果他们拥有记录类型的Contribute或Manage权限，他们将获得该记录的Manage权限
 
-* 作为工作区管理员，您可以与不属于工作区的用户共享记录。 在这种情况下，添加的实体旁边会显示一条警告，通知他们无权访问工作区。 您可以继续将用户添加到记录（该记录还会将用户添加到工作区），或停止将用户添加到记录（该记录不会将用户添加到工作区）。
+* 作为工作区管理员，您可以与对记录类型或工作区没有权限的用户共享记录。 在这种情况下，添加的实体旁边会显示一个警告，通知他们无权访问工作区或记录类型。 <!--ensure this is this way, because in devtest the warning only shows record type, but logged a bug to add "workspace" to the warning too-->您可以继续将用户添加到记录，这也会将用户添加到记录类型和工作区，或者取消共享。
 
-* 当您与对工作区具有管理权限的用户共享记录时，他们也将默认获得该记录的管理权限。 “查看”权限将灰显。
+* 当用户对工作区和记录类型具有“管理”或“贡献”权限，并且您将其添加到记录权限时，“查看”权限将灰显。 他们保留对记录的相同权限，就像对记录类型一样，您不能为他们授予较低的记录权限。<!--Lilit is checking on this, it is not working correctly-->
 
-* 如果您没有将人员添加到工作区的权限，您将只看到并添加已添加到工作区的用户、团队、组、角色和公司。 您无法添加尚未成为工作区一部分的任何其他实体。
+  当他们拥有工作区或记录类型的查看权限时，他们保留对记录的查看权限。 您可以通过禁用“继承权限”并选择“只有受邀人员才能访问”设置来向他们授予记录的“管理”权限。<!-- I think this is right, but because of the above not working, I can't test-->
 
-* 您可以禁用单个记录的继承权限，在这种情况下，您可以授予他们针对单个记录的权限，或者，如果他们属于&#x200B;**工作区中的每个人都可以查看**&#x200B;选项，则他们可以获得权限。<!-- is this OK to say "workspace? should it be "record"??-->
+<!-- not sure what this means, confusing, hiding for now: * If you don't have permissions to add people to the workspace, you will only see and add users, teams, groups, roles, and companies that are already added to the workspace. You cannot add any other entity that is not already part of the workspace.-->
+
+* 您可以禁用单个记录的继承权限，在这种情况下，您可以授予他们针对单个记录的权限，或者，如果他们属于&#x200B;**工作区中的每个人都可以查看**&#x200B;选项，则他们可以获得权限。
 
 * 如果同一用户申请了多个共享权限，他们将获得这些权限的最高权限。
 
@@ -163,7 +170,7 @@ If the inherited permissions are disabled, the user gets the maximum of wildcard
 
 ## 共享记录权限
 
-如果您具有工作区的管理权限，则可以调整单个记录的权限。
+作为工作区管理员，您可以调整单个记录的权限。
 
 {{step1-to-planning}}
 
@@ -173,13 +180,14 @@ If the inherited permissions are disabled, the user gets the maximum of wildcard
 1. 执行下列操作之一：
 
    * 在表视图中，将鼠标悬停在记录名称上，单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击&#x200B;**共享**。
+   * 从表格视图中，选择一个记录，然后单击列表底部蓝色工具栏上的&#x200B;**共享**。
    * 从任何视图中，单击记录的名称，然后单击记录详细信息页面右上角的&#x200B;**共享**。
 
    将打开&#x200B;**共享**&#x200B;框。
 
    ![具有继承权限的记录的权限：](assets/permissions-for-records-with-inherited-permissions-on.png)
 
-1. （可选）在&#x200B;**谁具有访问权限**&#x200B;区域中，默认情况下选中&#x200B;**工作区中的每个人都可以查看**&#x200B;选项。  所有对工作区和记录类型具有查看或更高权限的用户都可以查看记录。
+1. （可选）在&#x200B;**谁具有访问权限**&#x200B;区域中，默认情况下选中&#x200B;**工作区中的每个人都可以查看**&#x200B;选项。  对工作区和记录类型具有&#x200B;**查看**&#x200B;或更高权限的所有用户对该记录具有相同的权限。
 
 1. （可选）单击&#x200B;**继承的权限**&#x200B;选项下的用户数，以查看从工作区继承权限的用户、团队、组、公司或工作角色。
 
@@ -187,7 +195,7 @@ If the inherited permissions are disabled, the user gets the maximum of wildcard
    >
    >您无法从继承的权限列表中删除单个实体。
 
-1. （可选且视情况而定）如果要与特定实体共享记录类型，并授予他们与工作区已存在的记录类型不同的访问权限，请执行以下操作：
+1. （可选且视情况而定）如果要与特定实体共享记录，并授予他们与工作区已存在的记录类型不同的访问权限，请执行以下操作：
 
    1. 从&#x200B;**继承权限**&#x200B;下拉菜单中选择&#x200B;**禁用**。
 
@@ -208,13 +216,13 @@ If the inherited permissions are disabled, the user gets the maximum of wildcard
    >[!IMPORTANT]
    >
    >* 除了团队、组、公司和职位角色之外，您只能与已添加到Adobe Admin Console的用户共享。 您无法添加仅限Workfront的用户。 有关信息，请参阅[在Adobe Admin Console中管理用户](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)。
-   >* 如果用户具有工作区和记录类型的“贡献”或“管理”权限，他们将保留记录的“管理”权限。 “查看”权限灰显
-   >* 如果用户具有Contribute或更高权限，则无法授予用户较低的记录权限。
+   >* 如果用户具有工作区和记录类型的“贡献”或“管理”权限，他们将保留记录的“管理”权限。 “查看”权限将灰显。<!--this is not dimmed at this time, Lilit to check-->
+   >* 如果用户拥有记录类型的Contribute或更高权限，则无法授予用户较低的记录权限。
    > 有关详细信息，请参阅[在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 
 1. 要向没有工作区访问权限的用户授予查看记录的权限，请在&#x200B;**授予此视图**&#x200B;的访问权限字段中，开始键入用户、组、团队、公司或工作角色的名称，然后当该名称显示在列表中时单击它。
 
-   您选择的实体已添加到记录和工作区，具有&#x200B;**查看**&#x200B;权限。
+   您选择的实体已添加到记录，也添加到记录类型和工作区，具有&#x200B;**查看**&#x200B;权限。
 
    系统管理员始终获得与他们共享的记录的管理权限，并且用户是系统管理员的指示。
 
@@ -222,32 +230,37 @@ If the inherited permissions are disabled, the user gets the maximum of wildcard
 1. 单击&#x200B;**保存**。
 
    现在，该记录已与其他用户共享。
-   <!--Checking with Lilit on this: The users you shared the record with receive both an in-app and email notification about having given permissions to the following entities:
 
-   * The record
-   * The record type, if they never had permissions before
-   * The workspace, if they had not had permissions to the workspace before the record was shared with them. -->
+   您与其共享记录的用户会收到有关已授予以下实体权限的应用程序内通知和电子邮件通知：
+
+   * 记录
+   * 记录类型（如果他们以前从未拥有权限）
+   * 工作区（如果在与他们共享记录之前，他们无权访问工作区）。
+
+   有关信息，请参阅[Adobe Workfront计划通知：文章索引](/help/quicksilver/planning/notifications/notifications-information.md)。
 
 1. 与他人共享复制的链接。 接收链接的用户必须是活动用户并登录到Workfront才能访问记录类型页面并在选定视图中显示该页面。 他们必须有权查看记录类型。 有关详细信息，另请参阅[使用链接共享记录](/help/quicksilver/planning/records/share-records.md)。
 
-## 删除对记录的权限(**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;***&#x200B;这是从记录类型复制的，需要为记录编辑它，但等待LILIT的SLACK响应&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**)
+## 删除记录的权限
 
-您可以从记录中删除用户的权限。 但是，他们至少将保留对记录工作区的查看权限，这也会为他们提供对记录类型的至少查看权限。 如果您希望他们无权访问工作区中的记录类型，则必须从工作区中删除他们的访问权限。
+您可以从记录中删除用户的权限。 但是，他们至少将保留对工作区的查看权限，这也会为他们提供对记录类型的查看权限。 如果您希望他们无权访问工作区中的记录类型或记录，则必须从工作区中删除他们的访问权限。
 
 {{step1-to-planning}}
 
-1. 打开要停止共享其记录类型的工作区，然后单击记录类型信息卡。 这将打开记录类型页面。
+1. 打开要停止共享其记录的工作区，然后单击记录类型卡。 这将打开记录类型页面。
+1. 执行下列操作之一：
 
-1. 从任何视图的选项卡中，单击记录类型右上角的&#x200B;**共享**。
-1. 单击&#x200B;**共享记录类型**。
+   * 在表视图中，将鼠标悬停在记录名称上，单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击&#x200B;**共享**。
+   * 从表格视图中，选择一个记录，然后单击列表底部蓝色工具栏上的&#x200B;**共享**。
+   * 从任何视图中，单击记录的名称，然后单击记录详细信息页面右上角的&#x200B;**共享**。
 
    将打开&#x200B;**共享**&#x200B;框。
 1. 查找要删除其权限的用户、组、团队、公司或工作角色，展开其名称右侧的权限下拉菜单，然后单击“**删除**”。<!--check the screen shot below - the UI text for View might not be accurate-->
 
-   ![删除记录类型共享下拉列表上的选项](assets/remove-option-on-record-type-sharing-drop-down.png)
+   ![删除记录权限](assets/remove-option-on-record-sharing-drop-down.png)
 
 1. 单击&#x200B;**保存**。
 
-   人员不再具有对记录类型的指定权限。 但是，他们仍具有工作区的权限，除非您同时从工作区权限中删除他们。
+   用户不再具有指定的记录权限。 但是，除非您还从这些权限中移除记录类型和工作区，否则他们仍有权访问这些记录类型和工作区。
 
-   对于已从访问视图中删除的用户，不会通知他们不再具有此访问权限。
+   对于已从访问记录中删除的用户，不会通知他们不再具有这些权限。

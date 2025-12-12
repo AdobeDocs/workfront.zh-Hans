@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: f2fe6ef78b3032f7a89d4c816cb11b525634c067
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 1%
+source-wordcount: '789'
+ht-degree: 3%
 
 ---
 
@@ -31,9 +31,9 @@ This article describes how you can share a view with others. For information abo
 >向工作区授予权限不会向其他用户授予对记录类型页面上的视图的权限。 您必须向记录类型页面中的各个视图授予权限才能与其他用户共享它们。 有关信息，请参阅[共享视图](/help/quicksilver/planning/access/share-views.md)。
 
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <!--at GA, check that the Workfront plans article linked below has Planning info-->
 
@@ -44,7 +44,7 @@ This article describes how you can share a view with others. For information abo
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront包</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
 <p>任何Workfront和Planning包</p> 
 或
@@ -184,7 +184,7 @@ This article describes how you can share a view with others. For information abo
      ![访问请求的电子邮件通知](assets/email-notification-for-access-request.png)
 1. （视情况而定）在Workfront的通知区域中，单击应用程序内通知
 或
-在电子邮件通知中，单击&#x200B;**查看所有通知**，然后单击列表中的通知。
+在电子邮件通知中，单击**查看所有通知**，然后单击列表中的通知。
 
    显示&#x200B;**待处理访问请求**&#x200B;框。
 
@@ -210,3 +210,5 @@ This article describes how you can share a view with others. For information abo
 1. 单击&#x200B;**保存**。
 
    被删除的用户不再具有对工作区或其对象的访问权限。
+
+   对于已从访问工作区中删除的用户，不会通知他们不再具有这些权限。

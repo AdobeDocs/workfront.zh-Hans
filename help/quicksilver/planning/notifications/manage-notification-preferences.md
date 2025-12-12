@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 1%
 在Workfront Planning中发生以下操作时，您可能会收到应用程序内通知或电子邮件通知：
 
 * 有人将您或您的团队添加到记录页面上的评论中
-* 有人请求访问视图或工作区的权限
-* 有人授予您访问视图或工作区<!--I could not test this but Isk confirmed-->的权限
+* 有人请求访问视图或工作区<!--or <span class="preview">or a record</span>-->的权限
+* 有人授予您访问视图或工作区<!--or <span class="preview">or a record</span>-->的权限 <!--I could not test this but Isk confirmed-->
 * 提交Workfront Planning请求。
 * 某人批准或拒绝了您提交的Workfront Planning请求。
 * 状态将更改为您提交的Workfront Planning请求。
 
-## 访问要求
+## 访问权限要求
 
 
 +++ 展开以查看本文中各项功能的访问要求。 
@@ -46,7 +46,7 @@ ht-degree: 1%
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront包</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
 <p>任何Workfront和任何Planning包</p> <p>任何工作流和任何计划包</p>
 <p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
@@ -177,7 +177,7 @@ The following scenarios exist:
 
 * Adobe Unified Experience customers receive both an in-app notification and an email notification. They can manage their in-app and email notification preferences in the Preferences area of their Adobe Experience Cloud profile for the Workfront product. 
 
-    For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/account-preferences).
+    For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 * Customers who are not on the Adobe Unified Experience receive only an email notification. They cannot manage their email notifications preferences and will always receive an email when someone adds them to a comment on a record in Workfront Planning.   
 

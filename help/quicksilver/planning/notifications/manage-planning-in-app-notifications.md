@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 0%
+source-wordcount: '359'
+ht-degree: 1%
 
 ---
 
@@ -23,10 +23,10 @@ ht-degree: 0%
 * 有人在记录评论中标记您或您的团队
 
   有关在记录评论中标记其他人的信息，请参阅[管理记录评论](/help/quicksilver/planning/records/manage-record-comments.md)。
-* 有人要求您授予访问视图或工作区的权限
-* 有人确认已授予您查看或工作区的访问权限<!--Isk confirmed there is no notification for denying permissions - did not test-->
+* 有人要求您授予访问视图或工作区<!--<span class="preview">or record</span>-->的权限
+* 有人确认已授予您查看或工作区的访问权限<!--<span class="preview">or record</span>--> <!--Isk confirmed there is no notification for denying permissions - did not test-->
 
-## 访问要求
+## 访问权限要求
 
 +++ 展开以查看本文中各项功能的访问要求。 
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront包</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
 <p>任何Workfront和任何Planning包</p> <p>任何工作流和任何计划包</p>
 <p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
@@ -155,8 +155,8 @@ OLD:
 
 ## 在请求和授予权限时管理应用程序内通知
 
-当有人请求或授予您查看或工作区的权限时，您会收到应用程序内通知。
+当有人请求或授予您查看或工作区的权限时，您会收到应用程序内通知。<!--<span class="preview">or record</span>-->
 
-有关请求、授予或拒绝视图或工作区的权限的信息，请参阅[请求视图或工作区的权限](/help/quicksilver/planning/access/request-permissions.md)。
+有关请求、授予或拒绝权限的信息，请参阅[请求视图或工作区的权限](/help/quicksilver/planning/access/request-permissions.md)。
 
 有关管理Workfront Planning通知的信息，请参阅[管理Adobe Workfront Planning通知首选项](/help/quicksilver/planning/notifications/manage-notification-preferences.md)。

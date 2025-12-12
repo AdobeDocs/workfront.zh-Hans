@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
-source-wordcount: '1513'
-ht-degree: 0%
+source-wordcount: '1514'
+ht-degree: 1%
 
 ---
 
@@ -31,14 +31,14 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >有权访问工作区的用户将自动获得对工作区中所有记录类型的至少“查看”权限。
->&#x200B;>共享视图不授予用户记录类型的权限。 只有共享工作区才能授予用户记录类型的权限。
+>共享视图不授予用户记录类型的权限。 只有共享工作区才能授予用户记录类型的权限。
 >
 >* 有关在Workfront Planning中共享对象的一般信息，另请参阅[在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 >* 有关详细信息，请参阅本文中的[共享记录类型时的注意事项](#considerations-when-sharing-record-types)部分。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <!--at GA, check that the Workfront plans article linked below has Planning info-->
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 <tbody> 
     <tr> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront包</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
 <p>任何Workfront和Planning包</p> 
 或
@@ -275,7 +275,7 @@ ht-degree: 0%
 
    人员不再具有对记录类型的指定权限。 但是，他们仍具有工作区的权限，除非您同时从工作区权限中删除他们。
 
-   对于已从访问视图中删除的用户，不会通知他们不再具有此访问权限。
+   对于已从访问记录类型中删除的用户，不会通知他们不再具有这些权限。
 
 <!-- This is not working yet: *************************** edit this before publishing, because this was not tested with record types - this section came from sharing views *******************: 
 

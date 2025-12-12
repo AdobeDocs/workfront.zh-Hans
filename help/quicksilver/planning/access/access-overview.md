@@ -6,7 +6,7 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
 source-wordcount: '811'
 ht-degree: 2%
@@ -177,6 +177,7 @@ Workfront Planning没有Workfront访问级别控制。
 * 工作区
 * 记录类型
 * 视图
+  <!--move this above Views: * <span class="preview">Records</span>-->
 
 有关详细信息，请参阅[在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 
