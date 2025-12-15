@@ -5,9 +5,9 @@ description: 了解Adobe Workfront中的AI助手
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 44db621643c76ab1f2c1b51d5e81cb0d1f827a58
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '851'
 ht-degree: 1%
 
 ---
@@ -139,6 +139,10 @@ AI助手当前提供以下功能：
 1. 输入贵组织内将签署Adobe Gen AI协议的人员的姓名和电子邮件地址。
 
    协议将发送给此人签署。 签署并返回协议后，Adobe会审核协议，然后为您的组织启用AI助手。
+
+   >[!NOTE]
+   >
+   >请在签署并返回协议后留出1-3个工作日以便Adobe审查和启用AI助手。
 
 ## 在AI助手中创建提示的提示
 
