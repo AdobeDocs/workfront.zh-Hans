@@ -83,7 +83,7 @@ ht-degree: 2%
 
 用户必须具有Standard Workfront许可证才能请求Adobe Express的批准。
 
-了解如何[获得设计](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html)的批准。
+了解如何[获得设计](https://helpx.adobe.com/cn/express/web/share-and-publish/share-and-collaborate/request-approval.html)的批准。
 
 
 ## 重新组合Express模板并发送以供审阅和批准
@@ -103,7 +103,7 @@ Adobe Express用户可以根据自己的需求重新组合Express模板。 发�
 
 如果未选择任何项目，则验证将默认进入特定于Express的项目。
 
-有关详细信息，请参阅[发送模板以供审阅和批准](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html)。
+有关详细信息，请参阅[发送模板以供审阅和批准](https://helpx.adobe.com/cn/express/web/invite-collaborate/request-approval.html)。
 
 ## 审阅并批准重新混合的Express文件
 
