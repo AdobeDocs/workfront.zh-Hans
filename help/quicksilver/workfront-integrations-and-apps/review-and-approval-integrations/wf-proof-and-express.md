@@ -8,10 +8,10 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: 752c39b90e9206a335435350f8844c746a7127e0
+source-git-commit: 53aca72d33236e8680a8fd1c538f86ce14ac05a8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '494'
+ht-degree: 2%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 0%
 
 * 使用高级验证模板将快速模板映射到多阶段审阅和审批工作流
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 用户必须具有Standard Workfront许可证才能请求Adobe Express的批准。
 
-了解如何[获得设计](https://helpx.adobe.com/cn/express/web/share-and-publish/share-and-collaborate/request-approval.html)的批准。
+了解如何[获得设计](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html)的批准。
 
 
 ## 重新组合Express模板并发送以供审阅和批准
@@ -97,8 +97,13 @@ Adobe Express用户可以根据自己的需求重新组合Express模板。 发�
 * 阅读评论
 * 等等
 
-<!--Learn how to get approval on designs.   
-need link to help article-->
+### 在请求审批时选择Workfront项目
+
+请求审批重新混合的Express模板时，用户可以选择要将验证发送到的Workfront项目。 这有助于将所有相关的资源和验证组织在同一项目中。
+
+如果未选择任何项目，则验证将默认进入特定于Express的项目。
+
+有关详细信息，请参阅[发送模板以供审阅和批准](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html)。
 
 ## 审阅并批准重新混合的Express文件
 
