@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
+source-git-commit: 6aba4316228a320cf33e419249a64b3cf56e8f39
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1513'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,18 @@ ht-degree: 1%
 
 * 您可以从记录的预览区域或记录的页面添加“连接的记录”页面。
 
-* “连接的记录”页在表格视图中仅显示一个对象或记录类型中的连接对象或记录。 页面不显示该类型的所有记录。
+* “连接的记录”页面仅显示来自一个对象或记录类型的连接的对象或记录。 页面不显示该类型的所有记录。
+
+* 您可以在表格视图的已连接记录页面中显示对象。
+
+<!--replace the above bullet with this: 
+
+* You can display the objects in a connected records page in the following types of views:
+
+   * Table
+   * <span class="preview">Timeline</span>
+   * <span class="preview">Calendar</span>
+-->
 
 * 可以为以下连接的记录或对象类型添加“连接的记录”页：
 
@@ -62,7 +73,7 @@ ht-degree: 1%
    <ul><li><p>Adobe Experience Manager Assets许可证以及AEM Assets与Workfront之间的集成，用于连接AEM资源与Planning记录类型。</p>
    <p>有关信息，请参阅适用于Experience Manager Assets和Assets Essentials的<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 用于连接记录类型与GenStudio Brands的Adobe GenStudio for Performance Marketing许可证</p>
-   <p>有关信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing入门</a>。</p></li></ul>
+   <p>有关信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing入门</a>。</p></li></ul>
    </td> 
   </tr>
 
@@ -85,8 +96,9 @@ ht-degree: 1%
 
 +++   
 
-
 ## 将“连接的记录”页面添加到记录
+
+在将连接的记录页添加到记录之前，必须先将记录类型与其他记录或对象类型连接。
 
 1. 单击记录名称，从记录类型页面的任意视图中将其打开。
 1. 从以下区域之一单击&#x200B;**添加页面**：
@@ -114,15 +126,18 @@ ht-degree: 1%
 
    在营销活动详细信息下![受众连接的表视图](assets/audience-connected-table-view-under-campaign-details-page.png)
 
-1. （可选）搜索或单击列表中连接的记录或对象类型的名称。
+1. （可选）单击列表中已连接记录或对象类型的名称或搜索该名称，然后在列表中显示时单击它。
 
-1. （可选且有条件）在“连接的记录”页面的表视图中，在查看连接的Planning记录或除项目之外的任何Workfront对象时，执行以下任一操作： <!--or AEM Assets--> <!--AEM is not available yet?? see note below-->
+1. （可选且视情况而定）如果表视图或记录的详细信息页面中显示了多个已连接的字段，请单击要在已连接的记录页面中显示其记录的字段。
+
+   所选已连接记录类型的表视图将添加到已连接记录页。
+
+1. （可选且有条件）为连接的Planning记录创建连接的记录页面时，请执行以下任一操作： <!--or AEM Assets--> <!--AEM is not available yet?? see note below-->
 
    * 单击记录名称。 这将在新选项卡中打开记录页面。
+   * 单击表视图底部的&#x200B;**连接**&#x200B;以连接现有记录，从连接框中选择它们，然后单击框外部将其关闭。 记录将自动添加到表中。 在添加记录之前，这些记录必须存在。
 
-   * 单击表视图底部的&#x200B;**连接**&#x200B;以连接更多记录，然后单击连接框外部将其关闭。 新记录将自动添加到表中。
-
-     有关信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。
+   有关详细信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。
    * 在表视图中内联编辑来自连接记录的任何信息。
 
    * 将鼠标悬停在已连接记录的名称上，然后单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)
@@ -138,17 +153,39 @@ ht-degree: 1%
       * **在上方或下方插入记录**&#x200B;以将新记录添加到连接的记录类型。 此处添加的新记录也将连接到当前记录。 在表中选择记录时，此选项在蓝色栏中不可用。
       * **删除**&#x200B;以删除记录。 删除已连接的记录会将其从记录类型以及连接记录的所有位置删除。
 
-     有关编辑表视图中的记录的信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
+        有关编辑表视图中的记录的信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
 
-     >[!TIP]
-     >
-     >您可以选择多个记录或对象来删除它们。
+        >[!TIP]
+        >
+        >您可以选择多个记录或对象来删除它们。
 
    * 在“连接的记录”页面上的表中内联编辑任何Planning记录。
 
-     所有其他Workfront对象都以只读表格视图显示，您无法对其进行编辑。
+1. （可选且视情况而定）在为以下Workfront对象类型创建连接的记录页面时：
 
-1. （可选且视情况而定）在“连接的记录”页面的表视图中，在查看连接的Workfront项目时执行以下任一操作：
+   * 项目组合
+   * 项目群
+   * 组
+   * 公司
+
+   在“连接的记录”页面的表视图中执行以下任一操作：
+
+   * 单击对象的名称。 这将在新选项卡中打开对象的页面。
+   * 单击表格视图底部的&#x200B;**连接**&#x200B;以连接现有对象，从连接框中选择它们，然后单击框外部将其关闭。 对象会自动添加到表中。 对象必须先存在，然后才能添加它们。
+
+   有关详细信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。
+
+   * 在表格视图中选择一个对象，然后单击列表底部蓝色栏中的以下选项之一：
+
+   * **查看**&#x200B;以在新选项卡中打开记录页面
+   * **复制链接**&#x200B;以复制指向记录页面的链接
+   * **断开连接**&#x200B;以断开对象与您正在查看的记录的连接。
+
+   >[!TIP]
+   >
+   >您可以选择多个记录或对象来断开它们的连接。
+
+1. （可选且视情况而定）在为连接的Workfront项目创建连接的记录页面时：
 
    * 单击已连接记录页面右上角的&#x200B;**连接记录**&#x200B;以连接现有项目。
 
@@ -166,6 +203,19 @@ ht-degree: 1%
       * **删除**&#x200B;以删除项目。 删除项目会断开它与记录的连接，并将其移到Workfront的回收站。
       * **断开连接**&#x200B;以断开项目与记录的连接。 断开项目连接会将其及其查找字段的所有值从当前记录中删除。
 
+     >[!TIP]
+     >
+     >您可以选择多个项目来断开它们的连接或删除它们。
+   * 单击表格视图右上角的&#x200B;**+**&#x200B;图标以将现有字段添加到表格中。 字段必须先存在，然后才能添加它们。
+
+     将打开&#x200B;**列管理器**&#x200B;框。 执行以下操作：
+
+      1. 在&#x200B;**可用**&#x200B;列中搜索现有对象字段，然后单击该字段名称右侧的&#x200B;**+**&#x200B;以将其添加到&#x200B;**已选定**&#x200B;列。
+
+         您选择的字段将添加到已连接记录页的表视图中。
+      1. 单击&#x200B;**Selected**&#x200B;列中某个字段右侧的&#x200B;**-**&#x200B;以将其从表视图中删除。
+      1. 单击&#x200B;**保存**&#x200B;以保存连接的记录页表视图。
+
 1. （可选）双击&#x200B;**连接的记录页**&#x200B;选项卡的名称
 
    或
@@ -174,10 +224,10 @@ ht-degree: 1%
 1. （可选）在连接的记录页面的工具栏中使用以下任何视图元素来管理表格视图：
 
    * 过滤器
-   * 排序
-   * 分组
-   * 字段，用于显示、隐藏或重新排列字段
-   * 行高
+   * 排序。 不可用于项目。
+   * 分组。 不可用于项目。
+   * 列，用于显示、隐藏或重新排列字段
+   * 行高。 不可用于项目。
    * 搜索
 
    有关信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)。
@@ -195,7 +245,11 @@ ht-degree: 1%
 
 ## Manage multiple views from the connected records page
 
-You can add and manage views from the connected records page of a record. 
+You can add and manage multiple view types from the connected records page of a record. 
+
+The views you create in the Connected records page of a record type are available everywhere in Workfront Planning where that record type page displays. Views created for the same record type anywhere else in Workfront Planning are also accessible in all connected records pages of that record type. 
+
+To manage multiple views from the connected records page: 
 
 1. From the connected records page of a record, click the dropdown menu to the right of the view name, then click **New view** to add a view, then select from the following options: 
 

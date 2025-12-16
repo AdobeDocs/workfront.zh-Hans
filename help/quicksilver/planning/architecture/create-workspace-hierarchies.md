@@ -4,9 +4,9 @@ description: 作为工作区管理员，您可以在Adobe Workfront Planning中�
 hide: true
 hidefromtoc: true
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 6aba4316228a320cf33e419249a64b3cf56e8f39
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '662'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,10 @@ hidefromtoc: yes
 
 作为工作区管理员，您可以在Adobe Workfront Planning中的记录类型之间创建多个工作区层次结构。
 
-在工作区中连接记录类型并创建层级后，记录类型会相互连接，其中一个记录类型指定为父级，而最多6个其他记录类型配置为子级。<!--asking Robert how many we can have in one hierarchy; I think 7 total but not sure-->
+
+在工作区中连接记录类型后，您可以创建一个层次结构来组织这些连接。 层次结构将记录类型组织为父子关系，最多可以包含四个级别的对象类型。
+
+如果两个记录类型之间的连接尚不存在，则可以在设置层次结构时创建该连接。 定义后，该层级将在工作区内的相关记录类型之间建立结构化路径。
 
 层次结构将为记录类型和在其标题中显示的记录<!--ensure this is the case: does the breadcrumb show for both the RT and the record??-->生成痕迹导航。 这样，用户就可以在工作流的任何阶段了解自己在层级中的位置。
 
@@ -87,9 +90,9 @@ hidefromtoc: yes
 1. 单击工作区名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**设置**。
 默认情况下，**层次结构**&#x200B;部分打开。
 1. 单击&#x200B;**层次结构**&#x200B;页面右上角的&#x200B;**新建层次结构**。
-1. 单击&#x200B;**添加对象**，然后从下拉菜单中选择一个对象。 这将是层级中的父对象。
-您可以从当前工作区中选择记录类型，或从Workfront中选择项目。
-1. 单击&#x200B;**添加对象**&#x200B;以添加第二个对象，该对象是层次结构中的第一个子项，然后在下拉菜单中选择另一个对象。
+1. 单击&#x200B;**添加对象**，然后从下拉菜单中选择一个对象。 这将是层级中的第一个父对象。
+第一个父项只能是Planning记录类型。 不能选择Workfront项目作为层次结构中其他对象类型的父级。
+1. 单击&#x200B;**添加对象**以添加第二个对象，该对象是层次结构中的第一个子项，然后在下拉菜单中选择另一个对象。
    ![未选择字段的新层次结构框](assets/new-hierarchy-modal-without-connecte-fielf-selected.png)
 1. 单击&#x200B;**选择连接的字段**&#x200B;以指示连接两个对象的字段。
 1. （视情况而定）如果两个对象类型之间存在连接的字段，请从列表中选择该字段。 否则，请单击&#x200B;**添加新连接**。
