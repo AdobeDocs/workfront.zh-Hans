@@ -4,7 +4,7 @@ description: 2026年第一季度请求增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: cf4c5888f58cb51c26176eae4aa1c8e011bbecf8
+source-git-commit: d77568db7ad1af56302c8460db603d242274a8cf
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 本页介绍了在2026年第一季度版本中对“预览”环境所做的请求增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
 
 ## 由AI提供支持的Form Fill现在可用于请求
 
@@ -51,7 +51,7 @@ For information on request views, including sharing, see [Create and manage view
 >[!NOTE]
 >
 >预览： 2025年11月20日
->生产快速发布： 2026年12月11日\
+>生产快速发布： 2026年1月14日\
 >适用于所有人的生产： 2026年1月15日
 
 为了更便于创建和提交请求，我们添加了将草稿保存到新请求体验的功能。 现在，当您开始填写并关闭请求时，请求将保存为草稿状态，并可在用于创建草稿的请求表单上找到。 之后，您可以随时重新打开、更新和提交草稿。
