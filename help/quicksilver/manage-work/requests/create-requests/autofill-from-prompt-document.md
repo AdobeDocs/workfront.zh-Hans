@@ -5,9 +5,9 @@ description: 可以通过输入提示或提供文档来使用AI自动填写请�
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 59aa98645583fb79a5d61a248dca535a3460956f
+source-git-commit: b34d7f48a51acf4bd6ddfa203c9e0024b2e8c280
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: '1352'
 ht-degree: 3%
 
 ---
@@ -184,24 +184,25 @@ AI表单填写可根据文本（如电子邮件）建议字段值。 将粘贴�
 <li>DOCX</li>
 <li>GIF</li>
 <li>JPEG</li>
+<li>ODP</li>
 </ul>
 </td>
 <td>
 <ul>
-<li>ODP</li>
 <li>ODS</li>
 <li>ODT</li>
 <li>PDF</li>
 <li>PNG</li>
 <li>PPT</li>
+<li>PPTX</li>
 </ul>
 </td>
 <td>
 <ul>
-<li>PPTX</li>
 <li>RTF</li>
 <li>TIFF</li>
 <li>TXT</li>
+<li>WEBP</li>
 <li>XLS</li>
 <li>XLSX</li>
 </ul>
