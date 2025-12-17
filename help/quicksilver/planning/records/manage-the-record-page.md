@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 48bfeb3b950ca1149a919aa204d77db6aa501e01
+source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1417'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 * [创建记录](/help/quicksilver/planning/records/create-records.md)
 
-## 访问要求
+## 访问权限要求
 
 +++ 展开以查看本文中各项功能的访问要求。 
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront包</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
 <p>任何Workfront和任何Planning包</p>
 <p>任何工作流和任何计划包</p>
@@ -142,9 +142,9 @@ ht-degree: 0%
  </tbody>
 </table>-->
 
-## 有关编辑记录页面的注意事项
+## 有关使用记录页面的注意事项
 
-* 默认情况下，记录的详细信息和预览页面显示与该记录关联的所有字段。
+* 默认情况下，记录的详细信息页面显示与该记录关联的所有字段。
 
 * 您不能在预览或详细信息页面中为记录添加新字段。 您必须在表格视图中添加新字段，才能在预览和详细信息页面中显示它们。
 
@@ -154,10 +154,17 @@ ht-degree: 0%
 
    * 重新排列字段
    * 添加或删除部分
+   * 添加或删除连接的记录页面
 
 * 显示在记录预览中所做的更改会立即显示在记录详细信息页面中。 在记录页面中所做的更改也会显示在记录预览框中。
 
 * 向记录添加封面图像或缩略图不是记录预览或页面整体布局的一部分。 您可以为每个记录添加唯一的封面图像或缩略图。 有关信息，请参阅[将封面图像添加到记录](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)和[将缩略图添加到记录](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
+
+* 您可以将以下类型的其他页面添加到记录的页面：
+
+   * 已连接的记录页面
+
+     有关信息，请参阅[将“连接的记录”页面添加到记录](#add-a-connected-records-page-to-a-record)部分。
 
 ## 向记录预览或页面添加分区
 
@@ -215,7 +222,7 @@ ht-degree: 0%
 
      或
 
-     单击&#x200B;**下移**&#x200B;以将节下移一个位置。
+     单击&#x200B;**下移**以将节下移一个位置。
 部分中的所有字段都会随部分一起移动。
 
    * 单击&#x200B;**删除**&#x200B;以删除该节。 该部分已被删除，无法恢复。 访问此类型记录的所有用户将不再查看已删除的分区。

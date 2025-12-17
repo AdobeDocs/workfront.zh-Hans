@@ -5,7 +5,7 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 6aba4316228a320cf33e419249a64b3cf56e8f39
+source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
-通过将“连接的记录”页面的选项卡添加到记录，可以查看来自连接的记录或对象的信息。 这会将表视图中的连接记录添加到选项卡。
+通过在Adobe Workfront Planning中将已连接记录页面的选项卡添加到记录，可以查看已连接记录或对象中的信息。 这会将表视图中的连接记录添加到选项卡。
 
 将“连接的记录”页面添加到记录时，请考虑以下事项：
 
@@ -38,12 +38,17 @@ ht-degree: 1%
    * Table
    * <span class="preview">Timeline</span>
    * <span class="preview">Calendar</span>
+
+* <span class="preview">You can create one page per one object or record type. For example, you cannot create two connected record pages for connected projects or tactics.</span>
+
 -->
 
 * 可以为以下连接的记录或对象类型添加“连接的记录”页：
 
    * Workfront Planning记录类型
-   * Workfront项目、项目、项目组合、组或公司。 您可以查看连接的Workfront对象，即使您无权在Workfront中访问它们。
+   * Workfront项目
+
+     即使您无权在Workfront中访问连接的Workfront项目，也可以查看这些项目。
 
 ## 访问权限要求
 
@@ -73,7 +78,7 @@ ht-degree: 1%
    <ul><li><p>Adobe Experience Manager Assets许可证以及AEM Assets与Workfront之间的集成，用于连接AEM资源与Planning记录类型。</p>
    <p>有关信息，请参阅适用于Experience Manager Assets和Assets Essentials的<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 用于连接记录类型与GenStudio Brands的Adobe GenStudio for Performance Marketing许可证</p>
-   <p>有关信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing入门</a>。</p></li></ul>
+   <p>有关信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing入门</a>。</p></li></ul>
    </td> 
   </tr>
 
@@ -98,7 +103,7 @@ ht-degree: 1%
 
 ## 将“连接的记录”页面添加到记录
 
-在将连接的记录页添加到记录之前，必须先将记录类型与其他记录或对象类型连接。
+在将连接的记录页面添加到记录之前，必须先将记录类型与其他记录类型或Workfront项目连接起来。
 
 1. 单击记录名称，从记录类型页面的任意视图中将其打开。
 1. 从以下区域之一单击&#x200B;**添加页面**：
