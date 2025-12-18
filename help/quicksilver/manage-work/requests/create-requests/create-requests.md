@@ -8,9 +8,9 @@ author: Becky
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: de161674-5b61-4853-a16a-c70db10a1c95
-source-git-commit: 3c319ff406ca7705e618f3159edcf87d27d8229e
+source-git-commit: 684f7fc62fe341a59b1b7f7ae6c7118a5e511513
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -39,5 +39,5 @@ ht-degree: 0%
 * [共享请求队列的链接](../../../manage-work/requests/create-requests/share-link-to-request-queue.md)
 * [删除提交的请求或请求草稿](../../../manage-work/requests/create-requests/delete-request-draft.md)
 * [使用以前的数据自动填写请求](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
+* [在请求区域创建和管理视图](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)
 * [使用由AI提供支持的表单填写功能，使用提示或文档填写请求](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
-* [在请求区域创建视图](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)

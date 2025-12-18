@@ -6,10 +6,10 @@ description: 在Adobe Workfront中，计划工作由项目和任务表示。 但
 author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 8851a67e992152b05c44063e67070c0942a463bc
+source-git-commit: 684f7fc62fe341a59b1b7f7ae6c7118a5e511513
 workflow-type: tm+mt
-source-wordcount: '2607'
-ht-degree: 1%
+source-wordcount: '2546'
+ht-degree: 2%
 
 ---
 
@@ -125,14 +125,7 @@ Workfront管理员必须创建请求队列的以下组件：
 
 {{step1-to-requests}}
 
-1. （可选且视情况而定）如果以下各项适用于您的组织和Workfront实例，请选择屏幕右上角的&#x200B;**切换到新体验**&#x200B;设置：
-
-   * 您的组织已购买Workfront包
-   * 您的组织已载入到Adobe Unified Experience。
-   * 您的管理员已向您授予Workfront Planning的访问权限
-   * 您至少具有Workfront规划工作区的查看权限
-
-   有关详细信息，请参阅[提交Adobe Workfront计划请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)
+1. （可选且视情况而定）选择屏幕右上角的&#x200B;**切换到新体验**&#x200B;设置。
 
 1. 单击页面右上角的&#x200B;**新建请求**。
 

@@ -1,22 +1,28 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: 在请求区域创建视图
+title: 在请求区域创建和管理视图
 description: 如果您使用的是新的请求体验，则可以创建和保存请求区域的视图。
 author: Becky
 feature: Work Management
-source-git-commit: d2e938cabc5123a89335a42ed06bccaa77fcad83
+source-git-commit: 684f7fc62fe341a59b1b7f7ae6c7118a5e511513
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '1004'
 ht-degree: 2%
 
 ---
 
-# 在请求区域创建或编辑视图
+# 在请求区域创建和管理视图
 
 <span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 如果您使用的是新的请求体验，则可以创建和保存请求区域的视图。 这些视图包括筛选器和列安排。
+
+可在Workfront的请求区域以及主页中的我的请求小组件中创建和管理视图。 视图设置保留在“请求”区域与构件之间。
+
+>[!IMPORTANT]
+>
+>此功能仅在新的请求体验中可用。
 
 ## 访问权限要求
 
@@ -55,18 +61,18 @@ ht-degree: 2%
 
 ## 在请求区域创建视图
 
-{{step1-to-requests}}
+您可以在Workfront的请求区域或主页中的我的请求小部件中创建视图。
 
-1. （可选且视情况而定）如果以下各项适用于您的组织和Workfront实例，请选择屏幕右上角的&#x200B;**切换到新体验**&#x200B;设置：
+1. 要访问“请求”列表，请单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 请求]**。
 
-   * 您的组织已购买Workfront包
-   * 您的组织已载入到Adobe Unified Experience。
-   * 您的管理员已向您授予Workfront Planning的访问权限
-   * 您至少具有Workfront规划工作区的查看权限
+1. 要在主页访问“我的请求”小组件，请执行以下操作：
 
-   有关详细信息，请参阅[提交Adobe Workfront计划请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)
+   1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
+   1. 找到“我的请求”构件。
 
-1. 单击&#x200B;**视图**&#x200B;下拉列表![视图下拉列表](assets/view-icon-requests.png)并选择&#x200B;**新视图**。
+      有关“我的请求”小组件的详细信息，请参阅[使用我的请求](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)。
+
+1. 在“请求”列表或“我的请求”小部件中，单击&#x200B;**视图**&#x200B;下拉列表![视图](assets/view-icon-requests.png)，然后选择&#x200B;**新视图**。
 
    ![新视图](assets/create-new-view.png)
 
@@ -77,16 +83,16 @@ ht-degree: 2%
 
 您可以编辑现有视图，包括刚刚创建的视图。
 
-{{step1-to-requests}}
+1. 要访问“请求”列表，请单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 请求]**。
 
-1. （可选且视情况而定）如果以下各项适用于您的组织和Workfront实例，请选择屏幕右上角的&#x200B;**切换到新体验**&#x200B;设置：
+1. 要在主页访问“我的请求”小组件，请执行以下操作：
 
-   * 您的组织已购买Workfront包
-   * 您的组织已载入到Adobe Unified Experience。
-   * 您的管理员已向您授予Workfront Planning的访问权限
-   * 您至少具有Workfront规划工作区的查看权限
+   1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
+   1. 找到“我的请求”构件。
 
-   有关详细信息，请参阅[提交Adobe Workfront计划请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)1。
+      有关“我的请求”小组件的详细信息，请参阅[使用我的请求](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)。
+
+1. 在请求列表或我的请求小部件中，找到要编辑的视图。
 
 1. （可选）要重命名视图，请单击&#x200B;**视图**&#x200B;下拉列表![视图下拉列表](assets/view-icon-requests.png)，然后单击视图旁边的三个点菜单，选择&#x200B;**重命名**，然后键入视图的新名称。
 1. 单击&#x200B;**视图**&#x200B;下拉列表![视图下拉列表](assets/view-icon-requests.png)，然后选择要编辑的视图。
@@ -120,7 +126,7 @@ ht-degree: 2%
 
    <span class="preview">在“预览”环境中，您还可以按已添加到视图的任何自定义字段进行筛选。</span>
 
-   您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的筛选器。
+   您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**加入的筛选器。
 在添加筛选条件时，将自动筛选请求列表。
 
 
@@ -135,3 +141,23 @@ ht-degree: 2%
 Workfront管理员可以将新视图添加到布局模板。
 
 有关说明，请参阅[使用布局模板自定义筛选器、视图和分组](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)。
+
+## 共享视图
+
+您可以与其他用户、团队或组共享您创建的视图。
+
+1. 要访问“请求”列表，请单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 请求]**。
+
+1. 要在主页访问“我的请求”小组件，请执行以下操作：
+
+   1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
+   1. 找到“我的请求”构件。
+
+      有关“我的请求”小组件的详细信息，请参阅[使用我的请求](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)。
+
+1. 在请求列表或我的请求小部件中，找到要共享的视图。
+1. 将鼠标悬停在要共享的视图上，然后在出现时单击三个圆点菜单。
+1. 选择&#x200B;**共享**。
+1. 在打开的对话框中，输入要与其共享视图的用户、团队或组的名称，然后在它们出现时从列表中选择它们。
+1. 单击&#x200B;**保存**。
+

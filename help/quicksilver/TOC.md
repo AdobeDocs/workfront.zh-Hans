@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 95ddfe6139d225527ba5539903ba8ef100589a75
+source-git-commit: 684f7fc62fe341a59b1b7f7ae6c7118a5e511513
 workflow-type: tm+mt
-source-wordcount: '13623'
+source-wordcount: '13625'
 ht-degree: 2%
 
 ---
@@ -1497,8 +1497,8 @@ ht-degree: 2%
          * [删除提交的请求或请求草稿](manage-work/requests/create-requests/delete-request-draft.md)
          * [复制并提交请求](manage-work/requests/create-requests/copy-and-submit-requests.md)
          * [使用以前的数据自动填写请求](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
+         * [在请求区域创建和管理视图](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)
          * [使用由AI提供支持的表单填写功能，使用提示或文档填写请求](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
-         * [在请求区域创建视图](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)
    * 委派工作 {#delegate-work}
       * [委派工作](manage-work/delegate-work/delegate-work.md)
       * [委派任务和问题概述](manage-work/delegate-work/delegate-work-overview.md)
@@ -2529,8 +2529,8 @@ ht-degree: 2%
       * [使用PKCE流程配置和使用您组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-pkce-flow.md)
       * [弃用API — 内部](wf-api/api/deprecation-api-internal.md)
       * [API版本21中的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-      * [API版本20中的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [API版本19中的新增功能](wf-api/api/new-api-version-19.md)
+      * [API版本20](/help/quicksilver/wf-api/api/new-api-version-20.md)中的新增功能
+      * [API版本19](wf-api/api/new-api-version-19.md)中的新增功能
       * [API版本18中的新增功能](wf-api/api/new-api-version-18.md)
       * [API版本17中的新增功能](wf-api/api/new-api-version-17.md)
       * [API版本16中的新增功能](wf-api/api/new-api-version-16.md)
