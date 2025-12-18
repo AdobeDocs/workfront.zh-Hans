@@ -6,10 +6,10 @@ description: 您可以删除已提交的请求或请求草稿。
 author: Becky
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: 8b08336431d2e4ebfcb078d8329f8748fac66eda
+source-git-commit: d87df92f548b19901374e982d1759efade644e17
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 3%
+source-wordcount: '772'
+ht-degree: 2%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 3%
 * Workfront Planning工作区管理员可以删除他们管理的Planning工作区中的请求<!--and drafts-->。
 * 用户可以删除他们提交的<!--and drafts-->请求。
 
-要删除新请求体验中的请求或草稿，请执行以下操作：
+### 从三个圆点式菜单中删除请求
 
 1. 要访问“请求”列表，请单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 请求]**。
 
@@ -103,6 +103,24 @@ ht-degree: 3%
 1. 在打开的对话框中，单击&#x200B;**删除**。
 
    请求<!--or draft-->已删除。
+
+### 批量删除请求
+
+1. 要访问“请求”列表，请单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 请求]**。
+
+1. 要在主页访问“我的请求”小组件，请执行以下操作：
+
+   1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
+   1. 找到“我的请求”构件。
+
+      有关“我的请求”小组件的详细信息，请参阅[使用我的请求](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)。
+
+1. 在请求列表或我的请求小部件中，单击要删除的每个请求左侧的框。
+1. 在页面底部的蓝色栏中，单击&#x200B;**删除**。
+
+   >[!NOTE]
+   >
+   >如果“删除”选项在蓝色栏中不可见，则您没有权限删除一个或多个选定的请求。
 
 </div>
 
