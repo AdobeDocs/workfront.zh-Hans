@@ -8,9 +8,9 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: fb1b5bb34810652e5098f0dcad70062670d7c137
+source-git-commit: 2e75f6aaba089a91a2306ad06a0f0d79a7524f75
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,17 @@ ht-degree: 0%
 
 您现在可以对费率卡中的一个或多个工作角色记帐费率应用基于百分比的更改。 您可以在一项操作中将更改应用于所有选定费率，而不是逐个手动更新每个费率。
 
+### 高级搜索中的KPI限制
+
+>[!NOTE]
+>
+>生产发布日期： 2025年12月18日
+
+为了提高高级分配和人员配备计划中高级搜索的可用性，您可在表列中显示的KPI列表现在有限。 仅显示关键量度有助于更快地查找信息。
+
+* 在高级工作分配高级搜索中，**可用容量** KPI可用。 此量度表示用户的基本总容量。
+* 在人员配备计划高级搜索中，**剩余人员配备分配能力** KPI可用。 此量度反映了在分配后还有多少容量可用。
+
 ## 针对有限可用性功能的维护更新
 
 此部分介绍每周Workfront更新中修复的有限可用性功能问题。
@@ -56,13 +67,13 @@ ht-degree: 0%
 
 现在，如果未选中&#x200B;**使用系统中的日期有效汇率**&#x200B;复选框，项目详细信息>财务区域中的&#x200B;**汇率日期**&#x200B;字段会隐藏。 以前，在编辑项目时，即使未启用生效日期的汇率，日期字段也会显示在项目详细信息中。
 
-<!--### Maintenance Updates week of December 7-13, 2025
+<!--### Maintenance Updates week of January 4-10, 2026
 
 **Title**
 
 text
 
-### Maintenance Updates week of January 4-10, 2026
+### Maintenance Updates week of January 11-17, 2026
 
 **Title**
 
