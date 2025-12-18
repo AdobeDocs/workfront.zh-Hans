@@ -6,10 +6,10 @@ description: 主页可帮助您管理工作。 您可以自定义此灵活空间
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
+source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
 workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 4%
+source-wordcount: '1135'
+ht-degree: 3%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 4%
 
 <!--Audited: 12/2023-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 >[!IMPORTANT]
 >
@@ -70,13 +70,13 @@ Adobe Workfront中的新“主页”体验旨在改进当前的“主页”体�
         显示2个图表，其中包含有关平均文档审批时间和决策的信息，以及未决和超期审批的列表视图。 您必须启用[统一审批](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)才能使用此小组件。
 
 * **提及**\
-    <!--In the Production environment, it--> 显示来自Workfront的最近评论线程，类似于“我的更新”页面。 您可以使用回复按钮在小组件中撰写回复。 只要任务或问题在过去30天内已更新，此构件还显示有关您分配到的任务或问题、您分配给另一个用户、您拥有、您是其主要联系人或您创建的任务或问题的评论。
+    在生产环境中，它会显示整个Workfront中最近的评论线程，类似于“我的更新”页面。 您可以使用回复按钮在小组件中撰写回复。 只要任务或问题在过去30天内已更新，此构件还显示有关您分配到的任务或问题、您分配给另一个用户、您拥有、您是其主要联系人或您创建的任务或问题的评论。
 
-  <!--<div class="preview">
+  <div class="preview">
 
-    In the Preview environment, it displays recent comments that you made or comments where other users tagged you that have been added in the past 2 weeks. You can use the reply button to compose a reply within the widget. 
+  在“预览”环境中，它会显示您最近发表的评论，或其他用户在过去两周内给您添加了标记。 您可以使用回复按钮在小组件中撰写回复。
 
-    </div>-->
+  </div>
 
 * **待办事项**\
     这个独特的构件允许您向个人清单添加项目，以便您自由编辑。 会将待办事项作为个人项目中的任务进行跟踪，并在完成后保留长达两周。

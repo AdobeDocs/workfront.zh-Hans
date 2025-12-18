@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 1%
+source-wordcount: '1067'
+ht-degree: 3%
 
 ---
 
@@ -24,16 +24,16 @@ ht-degree: 1%
 
 您可以在项目列表中或在项目级别删除项目。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront包</p> </td> 
+   <td> <p>Adobe Workfront 包</p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 
@@ -174,6 +174,34 @@ ht-degree: 1%
 1. 单击&#x200B;**是，将其删除**。
 
    该项目将被删除并存储在回收站中30天。 在此期间，您的Workfront管理员可以从回收站恢复它。
+
+## 从Workfront Planning记录的“连接的记录”页面中删除项目
+
+>[!NOTE]
+>
+>本节中的信息介绍了Adobe Workfront Planning，它是Adobe Workfront的一项附加功能。
+>
+>有关访问Workfront Planning的要求列表，请参阅[Adobe Workfront Planning访问概述](/help/quicksilver/planning/access/access-overview.md)。
+> 
+>有关Workfront Planning的一般信息，请参阅[Adobe Workfront Planning入门](/help/quicksilver/planning/general/planning-overview.md)。
+
+在Workfront Planning连接的记录页面中访问和删除项目之前，您必须具备以下各项：
+
+* 规划记录类型已连接到Workfront项目。 有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
+* 计划记录。 有关信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
+* 显示连接到Planning记录的项目的已连接记录页面。 有关信息，请参阅[将“连接的记录”页面添加到记录](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)。
+
+要从连接的记录页面中删除记录，请执行以下操作：
+
+1. 在显示连接到记录的项目的已连接记录页面中，将鼠标悬停在项目名称上，然后单击&#x200B;**更多**&#x200B;图标![更多图标](assets/more-icon.png)
+
+   或
+
+   在列表中选择一个或多个项目。 请注意项目列表底部的蓝色栏。
+
+1. 单击&#x200B;**删除**，然后单击&#x200B;**删除**&#x200B;进行确认。
+
+   项目将被删除并放置到Workfront回收站中。
 
 ## 恢复已删除的项目
 

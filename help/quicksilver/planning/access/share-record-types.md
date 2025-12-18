@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
+source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1538'
 ht-degree: 1%
 
 ---
@@ -212,6 +212,11 @@ ht-degree: 1%
    ![具有继承权限的记录类型的权限：](assets/permissions-for-record-types-with-inherited-permissions-on.png)
 
 1. （可选）在&#x200B;**谁具有访问权限**&#x200B;区域中，默认情况下选中&#x200B;**工作区中的每个人都可以查看**&#x200B;选项。  所有对工作区具有“查看”或更高权限的用户都可以查看记录类型。
+
+   >[!WARNING]
+   >
+   >不能与个人用户共享记录类型。 如果将个人用户添加到记录类型，则他们也会添加到工作区中。
+
 
 1. （可选）单击&#x200B;**继承的权限**&#x200B;选项下的用户数，以查看从工作区继承权限的用户、团队、组、公司或工作角色。
 

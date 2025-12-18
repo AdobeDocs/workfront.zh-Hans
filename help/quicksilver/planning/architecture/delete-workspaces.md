@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 57592455c61f0ddd14f6d2bcc033b58a8cdc7028
+source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '444'
 ht-degree: 2%
 
 ---
@@ -134,7 +134,12 @@ ht-degree: 2%
 
 {{step1-to-planning}}
 
-1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**我所在的工作区**&#x200B;以访问您创建的工作区，或单击&#x200B;**其他工作区**&#x200B;以访问他人与您共享的工作区。
+1. （视情况而定）如果您是Workfront管理员，请单击以下任一项：
+
+   * **我所在的工作区**，用于访问您创建的工作区
+   * **其他工作区**访问与您共享的其他工作区
+或
+     <span class="preview">**所有工作区**&#x200B;用于访问与您共享的工作区或您创建的工作区</span>
 
 1. （可选）单击&#x200B;**显示全部**&#x200B;以显示其他工作区。 仅当您拥有两行以上的工作区信息卡时，才会显示&#x200B;**显示所有**&#x200B;链接。
 1. （可选） ClicK **显示更少**&#x200B;以限制屏幕上显示的工作区数。

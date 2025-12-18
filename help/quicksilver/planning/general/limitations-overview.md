@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 3%
+source-wordcount: '467'
+ht-degree: 2%
 
 ---
 
@@ -41,8 +41,8 @@ Adobe Workfront Planning对实例中可创建的对象数量存在限制。 设�
 | 单行文本字段的字符数 | 1,000 个字符 |
 | 段落字段的字符数 | 10,000 个字符 |
 | 一种记录类型的段落字段数 | 20个段落字段 |
-| 可粘贴到记录类型表中的文件大小 | 1MB |
-| 可通过API为记录类型表导入的文件的大小 | 1.5兆字节 |
+| 可用于在记录类型表中导入信息的文件大小 | 1MB |
+| 可用于通过API在记录类型表中导入信息的文件大小 | 1.5兆字节 |
 | 发出API请求的速率 | 每分钟200个请求 |
 | 一个用户可以为一个记录类型创建的视图数 | 100 |
 | 可导入以创建记录类型的Excel文件的CSV大小 | 5MB |
