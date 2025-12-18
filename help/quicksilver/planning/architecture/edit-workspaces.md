@@ -6,19 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 57592455c61f0ddd14f6d2bcc033b58a8cdc7028
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 1%
+source-wordcount: '742'
+ht-degree: 0%
 
 ---
 
 
 # 编辑工作区
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -125,22 +125,24 @@ ht-degree: 1%
 </tbody> 
 </table> -->
 
-
 ## 编辑工作区
 
 {{step1-to-planning}}
 
-1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**我所在的工作区**&#x200B;以访问您创建的工作区，或单击&#x200B;**其他工作区**&#x200B;以访问他人与您共享的工作区。
+1. （视情况而定）如果您是Workfront管理员，请单击以下任一项：
 
-<!--***********Replace the steps from the next below till the "Update the following information in the Edit workspace box:" (but keep this last step)*******-->
+   * **我所在的工作区**，用于访问您创建的工作区
+   * **其他工作区**访问与您共享的其他工作区
+或
+     <span class="preview">**所有工作区**&#x200B;用于访问与您共享的工作区或您创建的工作区</span>
 
 1. （可选）单击&#x200B;**显示全部**&#x200B;以显示其他工作区。 仅当您拥有两行以上的工作区信息卡时，才会显示&#x200B;**显示所有**&#x200B;链接。
 1. （可选） ClicK **显示更少**&#x200B;以限制屏幕上显示的工作区数。
 1. 要编辑工作区，请执行下列操作之一：
 
    * 将鼠标悬停在工作区信息卡上，然后单击该信息卡右上角的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)
-或<!--Add this to the next bullet: <span class="preview"> Search for a workspace by name and</span>-->
-   * 单击工作区卡以打开工作区，然后单击工作区名称右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)。
+或
+   * <span class="preview">单击“工作区”页面右上角的&#x200B;**搜索**&#x200B;图标![搜索图标](assets/search-icon.png)以按名称搜索工作区</span>，单击工作区卡以打开工作区，然后单击工作区名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)。
 1. 单击&#x200B;**编辑**。
 
    此时会显示&#x200B;**编辑工作区**&#x200B;框。

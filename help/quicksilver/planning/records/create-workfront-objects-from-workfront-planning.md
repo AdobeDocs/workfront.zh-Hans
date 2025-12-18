@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 57592455c61f0ddd14f6d2bcc033b58a8cdc7028
 workflow-type: tm+mt
-source-wordcount: '1271'
-ht-degree: 1%
+source-wordcount: '1267'
+ht-degree: 2%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 1%
 
    * 记录类型的表格视图
    * 连接字段中记录的详细信息区域
-   * 记录的已连接记录页面，在详细信息区域
+   * 记录的“已连接”记录页
 
 * 您可以从Workfront Planning的以下区域创建项目组合和程序：
 
@@ -69,7 +69,7 @@ ht-degree: 1%
 
 有关将Planning记录与Workfront对象连接的信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。
 
-## 访问要求
+## 访问权限要求
 
 +++ 展开以查看本文中各项功能的访问要求。 
 
@@ -83,7 +83,7 @@ ht-degree: 1%
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront包</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
 <p>任何Workfront和任何Planning包</p> <p>任何工作流和任何计划包</p>
 <p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
@@ -202,7 +202,7 @@ ht-degree: 1%
 
 1. （视情况而定）单击&#x200B;**添加项目**
 或
-开始键入项目的名称，如果找不到，请单击&#x200B;**添加项目**。 添加按钮后跟您键入的项目名称。
+开始键入项目的名称，如果找不到，请单击**添加项目**。 添加按钮后跟您键入的项目名称。
 
    ![从连接字段连接项目时添加项目](assets/add-project-when-connecting-it-from-connection-field.png)
 
