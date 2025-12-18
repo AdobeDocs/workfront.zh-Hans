@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
+source-git-commit: a3ce37193025ff8bb2e0be88ef5556fcadbb542c
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '1116'
 ht-degree: 1%
 
 ---
@@ -97,7 +97,12 @@ ht-degree: 1%
 >
 >贵组织的Workfront实例必须载入到Adobe Unified Experience，用户才能接收电子邮件和应用程序内通知。
 
-要批准请求，请执行以下操作：
+您可以批准从请求本身<span class="preview">或从主页中的“我的审批”小组件创建记录的请求。</span>
+
+* [在Workfront Planning中批准来自请求的请求](#approve-a-request-from-the-request-in-workfront-planning)
+* [在主页中批准我的审批小部件中的请求](#approve-a-request-from-the-my-approvals-widget-in-home)
+
+### 在Workfront Planning中批准来自请求的请求
 
 1. （视情况而定）如果您在Workfront中使用旧版请求体验，请通过执行以下操作之一打开该请求：
 
@@ -128,3 +133,31 @@ ht-degree: 1%
    * **已拒绝**：请求被拒绝。
 
    该请求将保留在Workfront请求区域的已提交部分的“计划”选项卡中。
+
+<div class="preview">
+
+### 在主页中批准我的审批小部件中的请求
+
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
+
+   或
+
+   单击Adobe Workfront左上角的[!UICONTROL 主页]图标![主页图标](/help/_includes/assets/home-icon-30x29.png)。
+
+1. 找到要批准或拒绝的对象。
+
+1. （可选）通过单击“批准”或“拒绝”旁边的下拉箭头，在注释中键入并单击“添加”来添加注释。
+
+1. 选择下列选项之一：
+
+   * **批准**：这将批准请求。 在所有批准者批准请求后，将立即为与请求表单关联的记录类型创建记录。
+   * **拒绝**：这将拒绝请求，即使您是唯一拒绝该请求的审批者。 没有为与请求表单关联的记录类型创建记录。
+
+   当提交请求的请求被批准或拒绝时，提交请求的用户会收到电子邮件和应用内通知。
+
+   请求的状态将更改为以下内容，具体取决于批准决定：
+
+   * **已完成**：请求已被批准。
+   * **已拒绝**：请求被拒绝。
+
+</div>

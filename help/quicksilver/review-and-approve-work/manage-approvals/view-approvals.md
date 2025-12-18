@@ -6,14 +6,16 @@ description: 批准流程提供了灵活性，可以为项目、任务和问题�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: 2503b6e628e4860a5652c620d8e4d0eea2414443
+source-git-commit: a3ce37193025ff8bb2e0be88ef5556fcadbb542c
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 0%
+source-wordcount: '752'
+ht-degree: 2%
 
 ---
 
 # 查看审批
+
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 批准流程提供了灵活性，可以为项目、任务和问题创建多步批准。 Adobe Workfront管理员定义审批流程，以在整个系统中提供一致性。
 
@@ -21,16 +23,16 @@ ht-degree: 0%
 
 有关将审批与Workfront中的工作关联的信息，请参阅[将新的或现有的审批流程与工作关联](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -63,7 +65,7 @@ ht-degree: 0%
 
 * 在“主页”区域
 
-   * 所有等待您审批的项目、任务、问题、时间表、文档和访问权限都将显示在主页区域的“我的审批”小组件中。
+   * 等待您审批的所有项目、任务、问题、时间表、文档、访问权限和<span class="preview">Workfront计划请求</span>将显示在主页区域的“我的审批”小组件中。
    * 当您选择我已提交的审批过滤器选项时，您自己提交的审批也会显示在主页区域的我的审批小部件中。 有关详细信息，请参阅本文中“主页”区域[部分中的](#review-work-you-submit-for-approval-in-the-home-area)审核您提交供审批的工作。
    * 当关联的项目、任务或问题标记为“已解决”、“已搁置”、“已关闭”或“已取消”时，审批将从“主页”区域的“我的审批”构件中删除。
 
