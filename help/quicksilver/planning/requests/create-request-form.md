@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: de568156315ff9094d938600c91b55e185d53765
+source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
 workflow-type: tm+mt
-source-wordcount: '2684'
+source-wordcount: '2678'
 ht-degree: 1%
 
 ---
@@ -166,12 +166,16 @@ ht-degree: 1%
 表单详细信息分为选项卡。
 
 * **表单**&#x200B;选项卡允许您向表单添加字段和内容元素
-* **配置**&#x200B;选项卡允许您设置表单的批准流程并设置请求完成选项&lt;。
+* **配置**选项卡允许您设置表单的批准流程并设置请求完成选项&lt;。
   <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
 
 #### 设置表单详细信息
 
 1. 开始创建或编辑请求表单，如[开始创建请求表单](#begin-creating-a-request-form)部分中所述。
+
+   或
+
+   在请求表单列表中找到请求表单，单击表单名称旁边的框，然后单击屏幕底部蓝色栏中的&#x200B;**编辑表单**。
 
    此时将在“表单”选项卡中打开选定记录类型的请求表单。
 
@@ -195,8 +199,6 @@ ht-degree: 1%
      向此记录类型提交请求的每个人均可看到请求表单中包含的字段。
 
 1. （可选）将鼠标悬停在要删除的表单上的任何字段上，然后单击&#x200B;**x**&#x200B;图标以删除它们。 它们已添加到表单左侧的&#x200B;**字段**&#x200B;选项卡中。
-
-   例如，删除&#x200B;**主题**&#x200B;字段，因为此字段在Workfront Planning中不可见。<!--remove this example if this becomes visible in Planning?-->
 
 1. （可选）要从表单中删除&#x200B;**默认节**，请执行以下操作：
 
@@ -235,14 +237,13 @@ ht-degree: 1%
    此时将在“表单”选项卡中打开选定记录类型的请求表单。
 1. （可选）设置任何表单详细信息，如[设置表单详细信息](#set-up-form-details)中所述。
 
-1. （可选）单击&#x200B;**配置**&#x200B;选项卡，然后将至少一个用户或团队添加到&#x200B;**审批者**&#x200B;字段，以审批此记录表单的新请求。
+1. （可选）如果要添加批准者，请单击&#x200B;**配置**&#x200B;选项卡，然后将至少一个用户或团队添加到&#x200B;**批准者**&#x200B;字段，以批准此记录表单的新请求。
 
    ![配置选项卡](assets/configuration-tab.png)
 
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
    * 您可以将一个或多个批准者添加到请求表单。
-   * 如果添加多个审批人，但未启用“仅需要一个决策”选项，则所有审批人必须在Workfront Planning创建记录之前审批该请求。
    * 如果至少有一位审批者拒绝了请求，则该请求会被拒绝，并且不会创建记录。 该请求将保留在Workfront请求区域的已提交部分的“计划”选项卡中。
    * 如果您添加多个审批者，但未启用“只需一个决策”选项，则所有审批者必须在请求被批准或拒绝之前做出决策。
    * 如果将团队设置为批准者，则只需从团队中做出一个决策。

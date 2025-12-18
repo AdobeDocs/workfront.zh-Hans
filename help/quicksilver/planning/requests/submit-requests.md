@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
+source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
 workflow-type: tm+mt
-source-wordcount: '1945'
-ht-degree: 0%
+source-wordcount: '1871'
+ht-degree: 1%
 
 ---
 
@@ -106,7 +106,8 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 * 在Workfront Planning中，通过提交请求表单创建的记录无法与通过任何其他方法添加的记录区分开来。
 
   有关信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
-* 已提交的请求将显示在Workfront请求区域的已提交分区的计划选项卡中。
+* 已提交的请求将显示在Workfront的请求区域中。
+* 提交的规划请求仅在新的请求体验中可见。 您无法在旧版请求体验中看到Planning请求。
 * 在提交表单后，某些字段类型在请求表单或请求详细信息页面中的显示方式存在限制。
 
   有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
@@ -118,8 +119,8 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 
 {{step1-to-requests}}
 
-1. 启用屏幕右上角的&#x200B;**切换到新体验**&#x200B;设置。
-启用此设置可使Workfront计划请求表单在Workfront的&#x200B;**请求**&#x200B;区域中可用。
+1. 启用屏幕右上角的&#x200B;**切换到新体验**设置。
+启用此设置可使Workfront计划请求表单在Workfront的**请求**&#x200B;区域中可用。
 
    >[!TIP]
    >
@@ -130,19 +131,10 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
    >* 您有权查看至少一个工作区。
    >
 
-<!--Production-->
+1. 单击&#x200B;**您要提交什么请求**&#x200B;栏打开请求表单列表。
+1. 从列表中选择一个请求表单，或开始键入请求表单名称，然后在此表单出现在列表中时将其选定。
 
-1. 在生产环境中，单击&#x200B;**新请求**。
-
-   <!--![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png-->
-
-   打开&#x200B;**新请求**&#x200B;框，其中包含以下信息：
-
-   * 最近访问的6个Workfront请求队列和Planning请求表单将显示在“最近”部分中。
-   * 另外50个Workfront请求队列和计划请求表单按字母顺序显示在&#x200B;**所有请求表单**&#x200B;部分中。 您可以搜索默认不显示的请求队列。
-
-1. 从最近访问的请求表单区域中选择一个请求表单或队列，或者在列表中开始键入该表单或队列名称，然后在该表单或队列出现时将其选定。
-
+   此时将打开一个窗口，其中顶部显示请求表单名称。
 1. 更新请求表单中可用的字段。 带有红色星号的字段为必填字段。
 1. 单击&#x200B;**提交**。
 
@@ -150,19 +142,13 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 
    您的表单已提交，并且发生了以下情况：
 
-   * 如果申请表单与批准无关，申请会添加到Workfront申请区域已提交分区的Planning选项卡中，新记录会添加到与表单关联的记录类型中。
+   * 如果申请表单与批准无关，申请会添加到“Workfront申请”区域和“我的申请”小组件的“申请”列表中，新记录会添加到与表单关联的记录类型中。
 
-   * 如果申请表单与批准关联，则该申请会添加到Workfront申请区域已提交部分的Planning选项卡中。 只有在所有批准者都批准记录类型后，才会将新记录添加到该记录类型页面。
+   * 如果申请表单与批准关联，则该申请会添加到“Workfront申请”区域和“我的申请”小组件的“申请”列表中。 只有在批准者批准记录类型页面后，才会将新记录添加到该页面。
 
      有关信息，请参阅[向请求表单添加批准](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
 
-     ![带有统一工作流计划选项卡切换的“请求”区域](assets/requests-area-with-toggle-for-unified-workflow-planning-tab-open.png)
-
-     >[!IMPORTANT]
-     >
-     >至少有权访问一个工作区的所有用户都可以查看请求区域中的Planning选项卡。 您只能查看您或其他人提交到您至少拥有查看权限的工作区的请求。 Workfront管理员可以查看提交到系统中任何工作区的所有请求。
-
-   * 该请求仅对所有者、审批者和至少具有工作区查看权限的人员可见。
+   * 该请求仅对所有者、审批者和至少具有工作区查看权限的人员可见。 Workfront管理员可以查看提交到系统中任何工作区的所有请求。
 
    * 您会收到应用程序内和电子邮件通知，告知您请求已成功提交或已发送以供审阅。
    * 如果请求表单与批准关联，则批准者会收到应用程序内和电子邮件通知，以供审阅和批准请求。
@@ -174,9 +160,6 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
      >电子邮件确认或审批通知中有一个指向请求的链接。
 
 1. （可选）在确认消息中单击&#x200B;**查看您的请求**&#x200B;以打开该请求，或单击&#x200B;**X**&#x200B;图标以关闭确认。
-
-1. （可选）单击&#x200B;**请求**&#x200B;区域中的&#x200B;**计划**&#x200B;选项卡以查看您的请求。
-提交至Planning请求表单的所有您有权查看的请求都会显示在列表中。
 1. （可选）执行以下任一操作：
 
    * 单击&#x200B;**筛选器**，开始为要在“规划”选项卡中查看的请求添加条件。
@@ -192,7 +175,7 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
       * **状态**：请求的状态。
       * **输入者**：添加请求的用户的名称。 如果请求是由Workfront之外的人员添加的，则&#x200B;**输入者**&#x200B;字段显示`N/A`。
 
-        您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的筛选器。
+        您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**加入的筛选器。
 在添加筛选条件时，将自动筛选请求列表。
 
    * 单击&#x200B;**列**&#x200B;并隐藏、显示或重新排列请求列表中的列。
@@ -243,17 +226,15 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 
    您的表单已提交，并且发生了以下情况：
 
-   * 如果申请表单与批准无关，申请会添加到Workfront申请区域已提交分区的Planning选项卡中，新记录会添加到与表单关联的记录类型中。
+   * 如果申请表单与批准无关，申请会添加到“Workfront申请”区域和“我的申请”小组件的“申请”列表中，新记录会添加到与表单关联的记录类型中。
 
-   * 如果申请表单与批准关联，则该申请会添加到Workfront申请区域已提交部分的Planning选项卡中。 只有在所有批准者都批准记录类型后，才会将新记录添加到该记录类型页面。
+   * 如果申请表单与批准关联，则该申请会添加到“Workfront申请”区域和“我的申请”小组件的“申请”列表中。 只有在所有批准者都批准记录类型后，才会将新记录添加到该记录类型页面。
 
      有关信息，请参阅[向请求表单添加批准](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
 
-     请求中的![计划选项卡](assets/planning-tab-in-requests.png)
-
      >[!IMPORTANT]
      >
-     >至少有权访问一个工作区的所有用户都可以查看请求区域中的Planning选项卡。 您只能查看您或其他人提交到您至少拥有查看权限的工作区的请求。 Workfront管理员可以查看提交到系统中任何工作区的所有请求。<!--ensure this is correct; asking team in slack-->
+     >您只能查看您或其他人提交到您至少拥有查看权限的工作区的请求。 Workfront管理员可以查看提交到系统中任何工作区的所有请求。<!--ensure this is correct; asking team in slack-->
 
    * 您会收到应用程序内和电子邮件通知，告知您请求已成功提交或已发送以供审阅。
    * 如果请求表单与批准关联，则批准者会收到应用程序内和电子邮件通知，以供审阅和批准请求。
@@ -262,7 +243,7 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
      >
      >仅当贵组织的Workfront实例载入到Adobe Unified Experience时，电子邮件和应用程序内通知才可见。
 
-   * <span class="preview">在请求获得批准并创建记录后，“批准者”和“已批准”日期字段显示有关记录上批准的信息。</span>
+   <!-- <span class="preview"> After the request was approved and the record was created, the Approved by and Approved date fields display information about the approval on the record.</span>-->
 
 1. （可选）单击&#x200B;**查看您的请求**&#x200B;以在Workfront中打开该请求。
 
@@ -293,6 +274,24 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 
    此时将在Workfront Planning中打开记录类型页面。
 
+<div class="preview">
 
+## 通过复制现有请求创建请求
+
+您可以在Workfront的请求列表中复制请求，然后编辑详细信息并将其作为新请求提交。
+
+这仅在新的请求体验中可用。
+
+有关说明，请参阅[复制并提交请求](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md)。
+
+## 从现有草稿创建草稿和请求
+
+您可以创建请求的草稿，然后返回草稿并稍后作为请求提交。
+
+这仅在新的请求体验中可用。
+
+有关说明，请参阅[从草稿创建请求](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md)。
+
+</div>
 
 

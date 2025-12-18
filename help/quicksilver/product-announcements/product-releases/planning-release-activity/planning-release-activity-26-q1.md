@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a58e7da96c43dd308a213c6d7ef74d5085a2e1ba
+source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1263'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 为了更便于确保查看您需要的信息，我们添加了将视图共享到“连接的项目”记录页面的功能。 现在，您可以与其他用户、团队或组共享视图。
 
-有关请求视图（包括共享）的信息，请参阅[在请求区域](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)中创建和管理视图。
+有关信息，请参阅[将“连接的记录”页面添加到记录](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)。
 
 ## 项目连接视图筛选器中现在提供当前用户通配符
 
