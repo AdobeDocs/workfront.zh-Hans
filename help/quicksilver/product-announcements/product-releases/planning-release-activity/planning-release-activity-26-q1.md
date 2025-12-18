@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1e830ccb4e87c231f57ae39e59988bb261737188
+source-git-commit: a58e7da96c43dd308a213c6d7ef74d5085a2e1ba
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,122 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 在“连接的项目”记录页面中共享视图
+
+>[!NOTE]
+>
+>预览： 2025年12月18日
+>生产快速发布： 2026年1月14日\
+>适用于所有人的生产： 2026年1月15日
+
+为了更便于确保查看您需要的信息，我们添加了将视图共享到“连接的项目”记录页面的功能。 现在，您可以与其他用户、团队或组共享视图。
+
+有关请求视图（包括共享）的信息，请参阅[在请求区域](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)中创建和管理视图。
+
+## 项目连接视图筛选器中现在提供当前用户通配符
+
+>[!NOTE]
+>
+>预览： 2025年12月18日
+>生产快速发布： 2026年1月14日\
+>适用于所有人的生产： 2026年1月15日
+
+为了更便于筛选适用于您的项目连接，我们创建了一个当前用户通配符。 现在，在筛选时，您可以选择“我（已登录用户）”。 该过滤器随后将应用于正在查看请求列表的用户。
+
+当向多个用户将使用的视图添加过滤器时，这会很方便。 每个用户都将看到适用于他们的筛选结果。
+
+通配符在值为用户的字段中可用。
+
+有关配置项目连接视图（包括筛选器）的详细信息，请参阅[将连接的记录页添加到记录](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)。
+
+<!--
+
+## Create record type hierarchies in workspaces
+
+>[!NOTE]
+>
+>Preview: December 18, 2025 
+>Production fast: January 14, 2026 
+>Production all: January 15, 2026 
+
+You can now define flexible but structured hierarchies between record or object types.  
+
+Hierarchies are connections between record types. You can have up to 4 record and object types connected in one hierarchy, and you can have multiple hierarchies in one workspace. The first record type in the hierarchy is a parent, and all the other record or object types are its children objects.  
+
+You can use hierarchies to organize work in a way that reflects how your teams actually plan, operate, and deliver and to visualize how strategy flows into execution. 
+
+Consider the following when building hierarchies: 
+
+* You can have multiple hierarchies in a workspace 
+* You can connect only Planning record types from one workspace and Workfront projects in a hierarchy.  
+* A record type or a project can only have one parent in the same workspace. 
+* A record type can be the parent in multiple hierarchies 
+* Connectable record types cannot be used in hierarchies in other workspaces than their own. 
+* Global record types can be used in hierarchies only in the workspaces that they were created in or have been added to.  
+
+When you create hierarchies between record types, they generate breadcrumbs for records that belong to those record types. 
+
+For more information, see [Hierarchy and breadcrumb overview](help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
+-->
+
+<!--
+
+## New unified breadcrumbs added to records' pages
+
+>[!NOTE]
+>
+>Preview: December 18, 2025 
+>Production fast: January 14, 2026 
+>Production for all: January 15, 2026 
+
+We have added breadcrumbs to a record's page to reflect its spot in a hierarchy. After you create hierarchies, you can see a record's breadcrumb at the top of its page, indicating what other parent or children objects are connected to it. Hierarchies are consistent across Workfront and Planning.  
+
+For example, you can view a project's Planning hierarchy when it's connected to Planning record types in its Planning breadcrumb, and its Workfront hierarchy when it's connected to Workfront object types, like Portfolios or Programs, in Workfront.  
+
+For information, see [Hierarchy and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
+-->
+
+## Workspace主页改进
+
+>[!NOTE]
+>
+>预览： 2025年12月18日
+>快速生产： 2026年1月14日
+>全部生产： 2026年1月15日
+
+我们对Workfront Planning中的Workspaces主页进行了以下改进：
+
+* 更快、更动态的滚动体验。 如果您的组织拥有大量工作区并且是系统管理员可以看到的情况，则这一点尤为明显。
+
+* 我们添加了一个搜索框，现在可让您按名称搜索特定工作区。
+
+* **其他工作区**&#x200B;选项卡已重命名为&#x200B;**所有工作区**，并且其中包含您至少拥有查看权限的所有工作区，包括您创建的那些工作区。
+
+有关信息，请参阅[编辑工作区](/help/quicksilver/planning/architecture/edit-workspaces.md)。
+
+<!--
+
+## Improvements to connected records pages
+
+>[!NOTE]
+>
+>Preview: December 18, 2025 
+>Production fast: January 14, 2026 
+>Production for all: January 15, 2026 
+
+To give you more flexibility when working with connected records pages, we have enhanced the functionality of views in this area of Workfront Planning. The following are improvements in the connected records pages of a record that are coming with this release:
+
+* You can now add a timeline and a calendar view to a record's connected records page.
+* You can now share views from a connected records page. The views shared from these pages are visible system-wide by all users you share them with in any other area of Workfront Planning. All views shared in any other areas of Planning are also visible in the connected records page for the same users they are shared with.
+* We have added a restriction to only allow one connected records page per each record or object type. Prior to this enhancement, you could add multiple pages for the same record or object type. Now, you can use multiple views for the same record type in one connected records page.
+* We have added a **New row** link at the bottom of a table view and a **Connect records** button in the upper-right area of the connected records page. Prior to this enhancement, the **New row** link and the **Connect records** button existed only on a project connected page. 
+
+For information, see [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
+
+-->
 
 ## 在GenStudio工作区中，默认将Brand Connection字段添加到“产品和角色”
 
@@ -154,3 +270,9 @@ ht-degree: 0%
 * 选择值以小写显示，在多词选择的情况下使用下划线分隔。 如果您使用已用作同一字段的另一个选择名称的标签，Workfront会向该值添加一个序列号。
 
 有关信息，请参阅[创建字段](/help/quicksilver/planning/fields/create-fields.md)。
+
+
+
+
+
+

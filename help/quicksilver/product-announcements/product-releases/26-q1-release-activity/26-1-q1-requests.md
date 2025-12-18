@@ -4,9 +4,9 @@ description: 2026年第一季度请求增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d77568db7ad1af56302c8460db603d242274a8cf
+source-git-commit: ac1857f4cf4c6b3823773902ae8be439e2dcd55a
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '913'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,89 @@ ht-degree: 0%
 
 本页介绍了在2026年第一季度版本中对“预览”环境所做的请求增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+
+## 现在，创建的对象链接在请求区域和我的请求小组件中可用
+
+>[!NOTE]
+>
+>预览： 2025年12月18日
+>生产快速发布： 2026年1月14日\
+>适用于所有人的生产： 2026年1月15日
+
+为了让您更轻松地转到由特定请求创建的对象，我们添加了指向“已创建对象”列的链接。 现在，您可以单击此列中的链接以直接转到所创建对象的页面。
+
+以前，此列仅包含对象的名称，而不包含其链接。
+
+有关查找这些链接的信息，请参阅有关添加列的说明，请参阅：
+
+* [查找已提交的请求](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md)
+* [使用我的请求小组件](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)
+
+<!--
+
+## Create groupings in the Requests list and My Requests widget
+
+>[!NOTE]
+>
+>Preview: December 18, 2025 
+>Production fast release: January 14, 2026  
+>Production for everyone: January 15, 2026  
+
+To make it easier for you to find the requests you need, we've added groupings to the Requests list and the My Requests widget. Now, you can group requests by any column on the list. These groupings become part of the view that you are using when you create the grouping.
+
+For more information on creating views for the Request list and My Requests widget, including adding groupings, see [Create or edit views in the Requests area and My Requests widget](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+
+-->
+
+## 在“请求”区域和“我的请求”构件中共享视图
+
+>[!NOTE]
+>
+>预览： 2025年12月18日
+>生产快速发布： 2026年1月14日\
+>适用于所有人的生产： 2026年1月15日
+
+为了更便于确保看到您需要的信息，我们添加了将视图共享到新请求体验的功能。 现在，您可以与其他用户、团队或组共享视图。
+
+您可以从Workfront的请求区域和“主页”的“我的请求”小组件共享请求列表视图。 共享功能在两个位置都相同，且在我的请求小部件和请求区域之间移动时，会保留视图设置（包括共享）。
+
+有关请求视图（包括共享）的信息，请参阅[在请求区域](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)中创建和管理视图。
+
+## 将自定义字段添加到请求列表和我的请求小组件
+
+>[!NOTE]
+>
+>预览： 2025年12月18日
+>生产快速发布： 2026年1月14日\
+>适用于所有人的生产： 2026年1月15日
+
+为了更便于您查看所需信息，我们添加了将自定义字段作为列添加到请求列表和我的请求小组件（位于主页）的功能。 现在，您可以从自定义表单中将字段添加为列，并且该字段中有信息的请求将在列表或小部件中显示该信息。
+
+此功能仅在新的请求体验中可用。
+
+以前，自定义字段在请求列表或我的请求小组件中不可用。
+
+有关添加列的说明，请参阅：
+
+* [在请求区域创建或编辑视图](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)
+* [使用我的请求小组件](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)
+
+## 当前用户通配符现在可在请求过滤器中使用
+
+>[!NOTE]
+>
+>预览： 2025年12月18日
+>生产快速发布： 2026年1月14日\
+>适用于所有人的生产： 2026年1月15日
+
+为了更便于筛选适用于您的请求，我们创建了一个当前用户通配符。 现在，在筛选时，您可以选择“我（已登录用户）”。 该过滤器随后将应用于正在查看请求列表的用户。
+
+当向多个用户将使用的视图添加过滤器时，这会很方便。 每个用户都将看到适用于他们的筛选结果。
+
+通配符在值为用户的字段中可用。
+
+有关配置请求列表中的视图（包括筛选器）的详细信息，请参阅[在请求区域创建或编辑视图](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)。
 
 ## 由AI提供支持的Form Fill现在可用于请求
 
@@ -30,20 +112,6 @@ ht-degree: 0%
 您的组织必须启用AI才能访问此功能。
 
 有关由AI提供支持的Form Fill的更多信息，包括为您的组织启用AI所需的内容，请参阅[使用AI支持的表单填写功能通过提示或文档填写请求](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)。
-
-<!--## Share views in the Requests area and the My Requests widget
-
->[!NOTE]
->
->Preview: December 4, 2025 
->Production fast release: December 11, 2025  
->Production for everyone: January 16, 2026  
-
-To make it easier to ensure to see the information you need, we've added the ability to share views to the new reporting experience. Now, you can share views with other users, teams, or groups.
-
-You can share request list views from both the Requests area in Workfront and the My Requests widget in Home. Sharing functionality is identical in both places, and view settings, including sharing, are preserved when moving between the My Requests widget and the Requests area.
-
-For information on request views, including sharing, see [Create and manage views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).-->
 
 
 ## 将请求草稿保存在新的请求体验中

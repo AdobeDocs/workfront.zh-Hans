@@ -4,9 +4,9 @@ description: 本页介绍了2026年第一季度版本中包含的功能。 这�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8f126e75845e15ff5d4e0b327abcfafb1dbffd99
+source-git-commit: bed931281d7d0b3184914ed7649d9cb889bcf39a
 workflow-type: tm+mt
-source-wordcount: '2152'
+source-wordcount: '2888'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,25 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">输入日期和输入者ID存储在自定义对象中</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">管理布局模板中的优先级</a>
+            <p>您现在可以在布局模板中启用或禁用特定用户的优先级。 如果之前已为您的组织禁用了优先级，则进行此更改后，布局模板中将保持禁用状态。</p>
+        </td>
+        <td>2025年12月18日</td>
+        <td>2025年1月14日</td>
+        <td>2025年1月15日</td>
+    </tr>  
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">检查已计算的自定义字段是否存在多表单冲突</a>
+            <p>为了能够查看在自定义字段上编辑表达式时可能受影响的对象，我们添加了一个用于检查冲突的选项。 此对话框显示可能受更改公式影响的所有对象，按对象类型分组。 您可以导航到每个对象的详细信息并查看字段，以确定是应从任何表单中删除字段还是表达式应保持不变。</p>
+        </td>
+        <td>2025年12月18日</td>
+        <td>2025年1月14日</td>
+        <td>2025年1月15日</td>
+    </tr>  
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">输入日期和输入者ID存储在自定义对象中</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
             <p>输入日期和按ID输入的内容现在存储在自定义表单、字段和部分中。 您可以在报表中将这些数据选项用作过滤器、视图或分组。 要在“设置”中的自定义表单、字段或节列表中显示它们，请添加“输入日期”和“输入者：名称”作为新视图或现有视图中的列。</p>
         </td>
         <td>2025年11月13日</td>
@@ -99,7 +117,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
        <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">在Creative Cloud Express中发送审核时选择Workfront项目<p>[!BADGE Off Schedule]{type=Neutral}</p> </a>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">在Creative Cloud Express中发送审核时选择Workfront项目<p>[！BADGE Off Schedule]{type=Neutral}</p> </a>
             <p>您可以选择要向其发送验证的Workfront项目。 这有助于将所有相关的资源和验证组织在同一项目中。</p>
         </td>
         <td>2025年12月15日</td>
@@ -108,7 +126,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr> 
      <tr>
         <td>
-            对具有Workfront校对的Adobe Express的<a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">跨组织支持<p>[!BADGE Off Schedule]{type=Neutral}</p> </a>
+            对具有Workfront校对的Adobe Express的<a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">跨组织支持<p>[！BADGE Off Schedule]{type=Neutral}</p> </a>
             <p>我们正在引入对具有Workfront Proofing的Adobe Express的跨组织支持。 此增强功能允许跨多个IMS组织运营的客户无缝使用和管理验证工作流。</p>
         </td>
         <td>2025年11月13日</td>
@@ -117,12 +135,37 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>   
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager现在可与Frame.io集成一起使用 <p>[!BADGE Off Schedule]{type=Neutral}</p> </a>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager现在可与Frame.io集成一起使用 <p>[！BADGE Off Schedule]{type=Neutral}</p> </a>
             <p>现在，您可以使用Experience Manager Assets​管理和存储已经过审核和批准周期的数字资源。 此集成允许您利用Adobe Experience Manager、Frame.io和Workfront的功能来简化内容管理和协作流程。 </p>
         </td>
         <td>2025年10月30日</td>
         <td>2025年10月30日</td>
         <td>2025年10月30日</td>
+    </tr>   
+  </tbody>
+</table>
+
+
+
+### 集成增强功能
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>功能</strong>
+        </td>
+        <td><strong>预览</strong></td>
+        <td><strong>快速发布</strong></td>
+        <td><strong>每季度</strong></td>
+    </tr>
+         <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-home.md" class="MCXref xref" xrefformat="{para}">更新到主页中的提及小组件</a>
+            <p>我们对主页中的提及次数构件进行了以下改进： <ul><li>在大多数Workfront对象的更新区域中，相同的体验现在也可在主页中的提及小组件中获得。 </li><li>“提及次数”小组件现在包含用户在过去两周内发表或标记为的评论</li><ul></p>
+        </td>
+        <td>2025年12月17日</td>
+        <td>2026年1月14日</td>
+        <td>2026年1月15日</td>
     </tr>   
   </tbody>
 </table>
@@ -140,6 +183,16 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
          <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">在Creative Cloud Express中发送审核时选择Workfront项目</a><p>！[BADGE Off Schedule]{type=Neutral}</p>
+            <p>您可以选择要向其发送验证的Workfront项目。 这有助于将所有相关的资源和验证组织在同一项目中。 </p>
+        </td>
+        <td>2025年12月15日</td>
+        <td>2025年12月15日</td>
+        <td>2025年12月15日</td>
+    </tr>   
+    </tr>
+         <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">已为Experience Manager Assets本机集成更新Adobe Workfront的资源选择器</a>
             <p>我们已在Adobe Workfront中为Experience Manager Assets集成升级了资源选择器。 通过此升级，您现在可以选择并将AEM收藏集直接拉入Workfront。 </p>
         </td>
@@ -150,7 +203,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">Salesforce集成的新版本现已可用</a>
-            <p>为了及时了解Workfront API的最新更改，我们创建了一个新的Salesforce集成。 新的集成具有与以前版本相同的功能，并且进行了更新以避免丢失API中已弃用的功能。</p><p>注意：适用于Salesforce的Workfront集成（包括新版本）在&#x200B;**2026年2月28日**&#x200B;之后将不再可用。 </p>
+            <p>为了及时了解Workfront API的最新更改，我们创建了一个新的Salesforce集成。 新的集成具有与以前版本相同的功能，并且进行了更新以避免丢失API中已弃用的功能。</p><p>注意：适用于Salesforce的Workfront集成（包括新版本）在**2026年2月28日**之后将不再可用。 </p>
         </td>
         <td>2025年10月30日</td>
         <td>2025年10月30日</td>
@@ -193,9 +246,72 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>快速发布</strong></td>
         <td><strong>每季度</strong></td>
     </tr>
+ <!--    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Currency updates in Canvas Dashboards</a>
+            <p>We have made the following updates for currency fields:<ul><li>When multiple currencies are defined in Workfront, you can now choose a default currency for the dashboard during creation. </li><li>When creating a report, you can lock a currency field. This ensures that the dashboard-level currency preference does not affect the display of these values.</li><li>When viewing a dashboard, users can toggle between any defined currencies in Workfront. These changes apply to the entire dashboard with the exception of locked currency fields</li></ul></p>
+        </td>
+        <td>December 18, 2025</td>
+        <td>January 14, 2026</td>
+        <td>January 15, 2026</td>
+    </tr>-->
+ <!--    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}"> Quick search table results in Canvas Dashboards</a>
+            <p>We have added a quick search to Table reports. This search works across all pages, so you can find data even if it's not currently visible.</p>
+        </td>
+        <td>December 18, 2025</td>
+        <td>January 14, 2026</td>
+        <td>January 15, 2026</td>
+    </tr>-->
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">在画布仪表板中复制报告</a><p>！[!BADGE Off Schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">新的饼图显示总计选项</a>
+            <p>我们引入了一个新的“显示总计”选项，该选项可将饼图转换为圆环图。 此功能允许用户显示一个中心值，代表图表中所有区段的总数。</p>
+        </td>
+        <td>2025年12月18日</td>
+        <td>2026年1月14日</td>
+        <td>2026年1月15日</td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">画布仪表板中饼图的新配置选项</a>
+            <p>我们为饼图引入了两个新的配置选项： <ul><li>隐藏区段标签：现在，您可以选择在饼图上隐藏区段标签（如果区段标签太长并影响图表可读性）。</li><li>隐藏和重新定位图表图例：您现在可以选择隐藏饼图图例。 您还可以将图例的位置设置为图表的右侧（默认）、左侧、顶部或底部。 </li></ul></p>
+        </td>
+        <td>2025年12月18日</td>
+        <td>2026年1月14日</td>
+        <td>2026年1月15日</td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">画布功能板分组计数改进</a>
+            <p>我们更新了画布仪表板中的分组栏，以显示当前页面的记录计数以及跨所有页面的分组的整体记录计数。 </p>
+        </td>
+        <td>2025年12月18日</td>
+        <td>2026年1月14日</td>
+        <td>2026年1月15日</td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">画布功能板报告中的新参考线功能</a>
+            <p>现在，您可以在条形图、柱形图和折线图中定义参考线，以设置基于系列报表的目标或阈值。 </p>
+        </td>
+        <td>2025年12月18日</td>
+        <td>2026年1月14日</td>
+        <td>2026年1月15日</td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">自定义画布仪表板中图表报表的轴标签</a>
+            <p>您现在可以自定义图表报表上的轴标签。 此新功能允许您输入要显示的替换轴标签，而不是默认对象和字段路径。 此外，您可以选择完全隐藏轴标签。</p>
+        </td>
+        <td>2025年12月18日</td>
+        <td>2026年1月14日</td>
+        <td>2026年1月15日</td>
+    </tr>   
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">在画布仪表板中复制报告</a><p>！[BADGE Off Schedule]{type=Neutral}</p>
             <p>现在，您可以在创建KPI、表或图表报表后，将其复制到画布仪表板中。 复制后，您可以在保存之前根据需要编辑报表。</p>
         </td>
         <td>2025年10月23日</td>
@@ -258,22 +374,58 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">已创建的对象链接现在可在“请求”区域和“我的请求”小组件中使用</a>
+            <p>为了让您更轻松地转到由特定请求创建的对象，我们添加了指向“已创建对象”列的链接。 现在，您可以单击此列中的链接以直接转到所创建对象的页面。/p&gt;
+        </td>
+        <td>2025年12月18日</td>
+        <td>2026年1月14日</td>
+        <td>2026年1月15日</td>
+    </tr> 
+    <!--<tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Create groupings in the Requests list and My Requests widget</a>
+            <p>To make it easier for you to find the requests you need, we've added groupings to the Requests list and the My Requests widget. Now, you can group requests by any column on the list. These groupings become part of the view that you are using when you create the grouping.</p>
+        </td>
+        <td>December 18, 2025</td>
+        <td>January 14, 2026</td>
+        <td>January 15, 2026</td>
+    </tr> -->
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">将自定义字段添加到请求列表和我的请求小组件</a>
+            <p>为了更便于您查看所需信息，我们添加了将自定义字段作为列添加到请求列表和我的请求小组件（位于主页）的功能。 现在，您可以从自定义表单中将字段添加为列，并且该字段中有信息的请求将在列表或小部件中显示该信息。</p><p>此功能仅在新的请求体验中可用。</p>
+        </td>
+        <td>2025年12月18日</td>
+        <td>2026年1月14日</td>
+        <td>2026年1月15日</td>
+    </tr> 
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">当前用户通配符在请求筛选器中可用</a>
+            <p>为了更便于筛选适用于您的请求，我们创建了一个当前用户通配符。 现在，在筛选时，您可以选择“我（已登录用户）”。 该过滤器随后将应用于正在查看请求列表的用户。   </p>
+        </td>
+        <td>2025年12月18日</td>
+        <td>2026年1月14日</td>
+        <td>2026年1月15日</td>
+    </tr> 
+    <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">由AI提供支持的Form Fill现在可用于请求</a>
-            <p>为了更便于创建请求，我们创建了由AI提供支持的“表单填写”。 现在，您可以粘贴提示或将文档上传到请求表单，AI将提取相关信息并填写表单。  </p>
+            <p>为了更便于创建请求，我们创建了由AI提供支持的表单填写。 现在，您可以粘贴提示或将文档上传到请求表单，AI将提取相关信息并填写表单。  </p>
         </td>
         <td>2025年12月11日</td>
         <td>2025年12月11日</td>
         <td>2025年12月11日</td>
     </tr> 
     <tr>
-        <!--<td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Share views in the Requests area and the My Requests widget</a>
-            <p>To make it easier to ensure to see the information you need, we've added the ability to share views to the new reporting experience. Now, you can share views with other users, teams, or groups. </p>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">在“请求”区域和“我的请求”小组件中共享视图</a>
+            <p>为了更便于确保查看您需要的信息，我们添加了将视图共享到新报告体验的功能。 现在，您可以与其他用户、团队或组共享视图。 </p>
         </td>
-        <td>December 4, 2025</td>
-        <td>December 11, 2025</td>
-        <td>January 15, 2026</td>
-    </tr> -->
+        <td>2025年12月4日</td>
+        <td>2026年1月14日</td>
+        <td>2026年1月15日</td>
+    </tr> 
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">将请求草稿保存在新的请求体验中</a>
@@ -441,13 +593,13 @@ Workfront API版本21于2025年10月23日发布。 对于API版本21，我们修
 * 适用于Salesforce的Workfront。
 
 为了满足贵组织与Google Workspace的集成需求，我们建议使用Workfront自动化和集成。
-有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 
 ### Workfront 维护更新
 
-有关2025年第一季度版本中所做维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hans)。
+有关2025年第一季度版本中所做维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
 
 ### 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hans)的“新增功能”部分。
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的“新增功能”部分。

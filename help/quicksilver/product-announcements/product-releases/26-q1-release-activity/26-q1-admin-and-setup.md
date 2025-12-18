@@ -4,9 +4,9 @@ description: 2026年第一季度管理员增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: eead7c3c22dff242cd2a875381f5a2ac901cc2bd
+source-git-commit: e9e7b76dc8e4b9d1cc91987d0ea63b5e2ee58224
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,37 @@ ht-degree: 0%
 
 本页介绍了管理员在2026年第一季度发布中对“预览”环境所做的增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+
+## 管理布局模板中的优先级
+
+>[!NOTE]
+>
+>预览： 2025年12月2日
+>生产快速发布： 2026年1月14日
+>适用于所有人的生产： 2026年1月15日
+
+您现在可以在布局模板中启用或禁用特定用户的优先级。 如果之前已为您的组织禁用了优先级，则进行此更改后，布局模板中将保持禁用状态。
+
+对于具有默认请求访问权限的许可证类型，会自动包含优先级。 例如，参与者许可证将默认在主菜单中看到请求、展示板和优先级，而外部许可证将仅看到文档和展示板，因为它无权查看或提交请求。
+
+
+有关详细信息，请参阅[使用布局模板自定义主菜单](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)。
+
+## 检查已计算的自定义字段是否存在多表单冲突
+
+>[!NOTE]
+>
+>预览： 2025年12月18日
+>生产快速发布： 2026年1月14日
+>适用于所有人的生产： 2026年1月15日
+
+同一计算字段在附加到不同的自定义表单时可以有不同的公式。 如果将包含相同计算字段的两个或多个表单附加到对象，则所有表单上的公式必须相同。 如果更改可能导致冲突，则不允许编辑公式。
+
+为了能够查看在自定义字段上编辑表达式时可能受影响的对象，我们添加了一个用于检查冲突的选项。 此对话框显示可能受更改公式影响的所有对象，按对象类型分组。 您可以导航到每个对象的详细信息并查看字段，以确定是应从任何表单中删除字段还是表达式应保持不变。
+
+有关详细信息，请参阅[将计算字段添加到表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)。
+
 
 ## 输入日期和输入者ID存储在自定义对象中
 
@@ -61,3 +91,7 @@ ht-degree: 0%
 * 在字段库中无法将其添加到其他自定义表单
 
 有关详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+
+
+
+

@@ -4,9 +4,9 @@ description: 2026年第一季度集成增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 192df9ef08f75b3a6a6e9a50908b6da6e861bdd6
+source-git-commit: d0434e500daa257ec9070c5bb0279eb30545f64d
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -15,10 +15,24 @@ ht-degree: 0%
 
 本页介绍了2026年第一季度版本与预览环境之间的集成增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+
+
+## 在Creative Cloud Express中发送审核时选择Workfront项目
+
+>[!NOTE]
+>
+>预览： 2025年12月15日
+>生产快速发布： 2025年12月15日\
+>为每个人生产： 2025年12月15日
+
+您可以选择要向其发送验证的Workfront项目。 这有助于将所有相关的资源和验证组织在同一项目中。
+
+以前，验证会自动添加到特定于Express的项目中。
+
+有关详细信息，请参阅[Adobe Express与Workfront Proof集成](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)。
 
 ## 为Experience Manager Assets本机集成更新了Adobe Workfront的资源选择器
-
 
 >[!NOTE]
 >
@@ -43,3 +57,4 @@ ht-degree: 0%
 为了及时了解Workfront API的最新更改，我们创建了一个新的Salesforce集成。 新的集成具有与以前版本相同的功能，并且进行了更新以避免丢失API中已弃用的功能。
 
 有关下载和安装新集成的说明和链接，请参阅[安装Adobe Workfront for Salesforce](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)。
+
