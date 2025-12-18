@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: f6e0329ec63038b33006325701007c564c4126cc
+source-git-commit: e95701bdce2388f7f2b249b1fbf5b27d0ded08af
 workflow-type: tm+mt
-source-wordcount: '2446'
-ht-degree: 0%
+source-wordcount: '2506'
+ht-degree: 1%
 
 ---
 
@@ -45,16 +45,16 @@ ht-degree: 0%
 >
 >对直接字段的更改会自动触发计算字段值的更新。 (直接字段是Workfront API Explorer中可用的字段，或者是附加到对象的自定义表单中的自定义字段。) 对引用或公式的更改需要手动重新计算字段值。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
+   <td>Adobe Workfront 包</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -107,6 +107,10 @@ ht-degree: 0%
    ![字段库](assets/field-library.png)
 
 1. 使用搜索框或展开&#x200B;**计算的**&#x200B;分区以找到所需的计算字段，然后将字段拖动到要在自定义表单中显示的位置。
+
+1. <span class="preview">（视情况而定）单击&#x200B;**检查冲突**&#x200B;以查看所有可能受更改此计算字段上的公式影响的对象。</span>
+
+   <span class="preview">如果将包含相同计算字段的两个或多个表单附加到对象，则所有表单上的公式必须相同。 如果更改可能导致冲突，则不允许编辑公式。</span>
 
 1. （可选）重复上一步以添加任何其他字段。
 
@@ -284,7 +288,7 @@ ht-degree: 0%
            >
            ><div>在附加到对象的自定义表单中，计算自定义字段中的日期和时间语句通过协调世界时(UTC)进行计算和保存，而不是通过为组织的实例和用户配置文件设置的时区配置进行计算和保存。 自定义表单中的计算根据每个用户的各个时区生成。</div>
 
-      +++
+        +++
 
    1. 单击大文本框，然后单击&#x200B;**表达式**&#x200B;和&#x200B;**字段**，它们可用于将其添加到计算中。
 
