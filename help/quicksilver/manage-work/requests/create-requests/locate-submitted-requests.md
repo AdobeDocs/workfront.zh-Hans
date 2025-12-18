@@ -8,15 +8,16 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: ebdb1803fe57386a84d3d882b02a53ec4344b225
+source-git-commit: 9ea9f5741794641409d47ada006e3b9b78025cbd
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1309'
 ht-degree: 2%
 
 ---
 
 # 查找已提交的请求
 
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 您可以找到您或其他人提交的以下类型的请求，或者您已开始但从未完成提交的请求。 您可以在Adobe Workfront的以下区域中找到这些请求：
 
@@ -71,11 +72,16 @@ ht-degree: 2%
 
 +++
 
-## 查找已提交的请求
+## 在请求区域找到已提交的请求
 
 根据您使用的是新请求体验还是旧请求体验，查找已提交的请求会有所不同。
 
+* [在新请求体验中找到已提交的请求](#locate-submitted-requests-in-the-new-requesting-experience)
+* [在旧版请求体验中查找已提交的请求](#locate-submitted-requests-in-the-legacy-requesting-experience)
+
 ### 在新请求体验中找到已提交的请求
+
+您可以在“请求”区域<span class="preview">中找到已提交的请求，该区域包含这些请求所创建对象的链接。</span>
 
 要查找您或其他用户在新的请求体验中提交的请求，请执行以下操作：
 
@@ -97,7 +103,7 @@ ht-degree: 2%
    * **状态**：请求的状态。
    * **输入者**：添加请求的用户的名称。 如果请求是由Workfront之外的人员添加的，则&#x200B;**输入者**&#x200B;字段显示`N/A`。
 
-   您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的筛选器。
+   您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**加入的筛选器。
 在添加筛选条件时，将自动筛选请求列表。
 1. （可选）使用视图来关注要查找的请求。
 

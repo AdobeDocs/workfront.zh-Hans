@@ -6,9 +6,9 @@ description: 您可以在“我的请求”小组件中提交请求。 您还可
 author: Becky
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 1acffcc2d3511d70fc7d0b263102335d7234e797
+source-git-commit: ef44dcdc88da66d9cf357be53270ec717c06efe7
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '957'
 ht-degree: 4%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>[!UICONTROL 查看]对项目、任务、问题和文档的权限或更高，在这些项目、任务、问题和文档中，您被标记在对话中或需要解决审批问题</p> </td> 
+   <td> <p>[！UICONTROL查看]对项目、任务、问题和文档的权限或更高，在这些项目、任务、问题和文档中，您被标记在对话中或需要解决审批问题</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -152,3 +152,18 @@ ht-degree: 4%
    包含术语的请求以橙色突出显示。
 
 1. （可选）要跳转到突出显示的请求，请单击搜索栏中的向上或向下箭头。
+
+<div class="preview">
+
+## 转至请求创建的对象
+
+您可以在“我的请求”小组件中找到由请求创建的对象。
+
+1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
+1. （视情况而定）将&#x200B;**我的请求**&#x200B;构件添加到您的主屏幕。 单击&#x200B;**自定义**，查找&#x200B;**我的请求**。
+1. 找到创建对象的请求。
+1. 单击该请求的&#x200B;**创建对象**&#x200B;列中的对象名称。
+
+   将打开对象的页面。
+
+</div>
