@@ -6,10 +6,10 @@ description: 您可以在“我的请求”小组件中提交请求。 您还可
 author: Becky
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 59a53f7355032810a05fce2d3f0dfe30d64bbd40
+source-git-commit: 1acffcc2d3511d70fc7d0b263102335d7234e797
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 5%
+source-wordcount: '882'
+ht-degree: 4%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>[!UICONTROL 查看]对项目、任务、问题和文档的权限或更高，在这些项目、任务、问题和文档中，您被标记在对话中或需要解决审批问题</p> </td> 
+   <td> <p>[！UICONTROL查看]对项目、任务、问题和文档的权限或更高，在这些项目、任务、问题和文档中，您被标记在对话中或需要解决审批问题</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -98,6 +98,8 @@ ht-degree: 5%
    * 状态
    * 输入者
 
+   <span class="preview">在“预览”环境中，您还可以按已添加为列的任何自定义字段进行筛选      到视图。</span>
+
 1. 在下一个字段中，选择要用于此筛选条件的运算符。 可用的运算符取决于所选的字段。
 1. （视情况而定）如果运算符右侧显示了字段，请选择要作为筛选依据的值。
 1. （可选）要添加其他筛选条件，请单击&#x200B;**添加条件**&#x200B;并重复步骤4-6。
@@ -112,7 +114,7 @@ ht-degree: 5%
 >* 要仅筛选Workfront请求，请将筛选器设置为&#x200B;**对象类型** > **具有任何** > **问题**。
 >* 要仅筛选Workfront Planning请求，请将筛选器设置为&#x200B;**对象类型** > **不包含** > **问题**。
 
-## 调整列
+## 调整或添加列
 
 您可以选择哪些可用列出现在“我的请求”小部件上，并设置其顺序。
 
@@ -133,6 +135,9 @@ ht-degree: 5%
 1. 在“我的请求”小部件中，单击&#x200B;**列**。
 1. （可选）要重新排序列，请单击要移动的列的拖动手柄![拖动手柄](assets/drag-handle.png)，然后将其拖动到所需的位置。 列表顶部的列在“我的请求”小部件中显示为最左侧的列。
 1. （可选）使用切换开关可控制某列是否显示在“我的请求”小部件中。
+1. <span class="preview">要将自定义字段添加为列，请单击屏幕右侧附近的&#x200B;**添加列**&#x200B;图标![添加列](assets/add-column.png)，然后单击要作为列添加到小组件的自定义表单字段旁边的加号图标。</span>
+
+   <span class="preview">附加到列表中对象的表单上的自定义字段可以添加为列。</span>
 
 列首选项会自动保存。
 

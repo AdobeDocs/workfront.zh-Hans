@@ -5,21 +5,22 @@ title: 在请求区域创建视图
 description: 如果您使用的是新的请求体验，则可以创建和保存请求区域的视图。
 author: Becky
 feature: Work Management
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: d2e938cabc5123a89335a42ed06bccaa77fcad83
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 0%
+source-wordcount: '702'
+ht-degree: 2%
 
 ---
 
 # 在请求区域创建或编辑视图
 
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 如果您使用的是新的请求体验，则可以创建和保存请求区域的视图。 这些视图包括筛选器和列安排。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 
 <table style="table-layout:auto"> 
@@ -28,7 +29,7 @@ ht-degree: 0%
  <tbody> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
@@ -89,6 +90,21 @@ ht-degree: 0%
 
 1. （可选）要重命名视图，请单击&#x200B;**视图**&#x200B;下拉列表![视图下拉列表](assets/view-icon-requests.png)，然后单击视图旁边的三个点菜单，选择&#x200B;**重命名**，然后键入视图的新名称。
 1. 单击&#x200B;**视图**&#x200B;下拉列表![视图下拉列表](assets/view-icon-requests.png)，然后选择要编辑的视图。
+1. <span class="preview">要将自定义字段添加为列，请单击屏幕右侧附近的&#x200B;**添加列**&#x200B;图标![添加列](assets/add-column.png)，然后单击要作为列添加到视图的自定义表单字段旁边的加号图标。</span>
+
+   <span class="preview">附加到列表中对象的表单上的自定义字段可以添加为列。</span>
+
+   >[!TIP]
+   >
+   >您当前无法在生产环境中添加列。
+1. （可选）单击&#x200B;**列**&#x200B;并隐藏、显示或重新排列请求列表中的列。
+
+   ![列框](assets/columns-editing-box-in-requests-planning-tab.png)
+
+   >[!TIP]
+   >
+   >您当前无法在生产环境中添加任何其他列。
+
 1. （可选）单击&#x200B;**筛选器**&#x200B;并开始为要在Planning选项卡中查看的请求添加条件。
 
    ![在Planning请求选项卡中编辑筛选器](assets/filters-editing-box-in-requests-planning-tab.png)
@@ -102,16 +118,12 @@ ht-degree: 0%
    * **状态**：请求的状态。
    * **输入者**：添加请求的用户的名称。 如果请求是由Workfront之外的人员添加的，则&#x200B;**输入者**&#x200B;字段显示`N/A`。
 
-   您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的筛选器。
+   <span class="preview">在“预览”环境中，您还可以按已添加到视图的任何自定义字段进行筛选。</span>
+
+   您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**加入的筛选器。
 在添加筛选条件时，将自动筛选请求列表。
 
-1. （可选）单击&#x200B;**列**&#x200B;并隐藏、显示或重新排列请求列表中的列。
 
-   ![列框](assets/columns-editing-box-in-requests-planning-tab.png)
-
-   >[!TIP]
-   >
-   >您无法再添加任何列。
 
 >[!IMPORTANT]
 >
