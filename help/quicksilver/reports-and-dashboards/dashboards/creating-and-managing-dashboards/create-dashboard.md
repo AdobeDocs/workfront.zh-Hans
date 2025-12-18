@@ -6,10 +6,10 @@ description: 您可以创建功能板以快速访问Adobe Workfront中的信息�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 39a8d670baa19aa37e29b0312e6c9a296569f44c
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 1%
+source-wordcount: '549'
+ht-degree: 4%
 
 ---
 
@@ -17,20 +17,23 @@ ht-degree: 1%
 
 <!--Audited: 01/2025-->
 
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。</span>
+
+
 您可以创建功能板以快速访问Adobe Workfront中的信息。 最多可以将25个报告、日历和外部页面添加到功能板，您可以与其他人共享这些功能板以实现最佳协作。
 
 要了解有关仪表板的更多信息，请参阅[仪表板入门](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -85,6 +88,11 @@ ht-degree: 1%
      <tr>
       <td role="rowheader"><strong>描述（可选）</strong></td>
       <td>这是仪表板的描述。</td>
+     </tr>
+      <tr>
+      <td role="rowheader"><strong>货币</strong></td>
+      <td><span class="preview">这是仪表板的默认货币类型。 <br>
+      <br>用户可在筛选仪表板时切换不同的货币类型。 有关详细信息，请参阅<a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">按货币类型筛选仪表板</a>。</span></td>
      </tr>
     </tbody>
    </table>

@@ -4,9 +4,9 @@ description: 2026年第一季度报告增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bed931281d7d0b3184914ed7649d9cb889bcf39a
+source-git-commit: bb07096ce69e7d52c9332b6f9d230440a03c5f59
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '1009'
 ht-degree: 0%
 
 ---
@@ -15,41 +15,37 @@ ht-degree: 0%
 
 本页介绍了在2026年第一季度发布中对“预览”环境所做的报表增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
 
-<!--
 
-## Currency updates in Canvas Dashboards
 
->[!NOTE]
->
->Preview: December 18, 2025 
->Production fast release: January 14, 2026 
->Production for everyone: January 15, 2026 
-
-We have made the following updates for currency fields:
-
-* When multiple currencies are defined in Workfront, you can now choose a default currency for the dashboard during creation. 
-
-* When creating a report, you can lock a currency field. This ensures that the dashboard-level currency preference does not affect the display of these values.
-
-* When viewing a dashboard, users can toggle between any defined currencies in Workfront. These changes apply to the entire dashboard with the exception of locked currency fields.
-
--->
-
-<!--
-
-## Quick search table results in Canvas Dashboards
+## Canvas功能板中的货币更新
 
 >[!NOTE]
 >
->Preview: December 18, 2025 
->Production fast release: January 14, 2026 
->Production for everyone: January 15, 2026 
+>预览： 2025年12月18日
+>生产快速发布： 2026年1月14日
+>适用于所有人的生产： 2026年1月15日
 
-We have added a quick search to Table reports. This search works across all pages, so you can find data even if it's not currently visible.
+我们对货币字段进行了以下更新：
 
--->
+* 在Workfront中定义多种货币后，您现在可以在创建过程中为功能板选择默认货币。
+
+* 创建报告时，您可以锁定货币字段。 这可确保仪表板级别的货币首选项不会影响这些值的显示。
+
+* 查看功能板时，用户可以在Workfront中定义的任何货币之间进行切换。 这些更改适用于整个仪表板，但锁定的货币字段除外。
+
+
+## Canvas仪表板中的快速搜索表结果
+
+>[!NOTE]
+>
+>预览： 2025年12月18日
+>生产快速发布： 2026年1月14日
+>适用于所有人的生产： 2026年1月15日
+
+我们在表格报表中添加了快速搜索。 此搜索适用于所有页面，因此即使数据当前不可见，您也可以找到数据。
+
 
 ## 饼图的新显示总计选项
 
