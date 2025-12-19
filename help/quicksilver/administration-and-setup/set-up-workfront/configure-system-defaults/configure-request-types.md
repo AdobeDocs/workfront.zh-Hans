@@ -8,10 +8,10 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 31e5f5e039e25fa25f3038c23ee579ba1f830bb7
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 0%
+source-wordcount: '445'
+ht-degree: 2%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 有关在[!DNL Workfront]中创建问题的信息，请参阅[创建问题](../../../manage-work/issues/manage-issues/create-issues.md)。 有关在[!DNL Workfront]中创建请求的信息，请参阅[创建并提交 [!DNL Adobe Workfront] 请求](../../../manage-work/requests/create-requests/create-submit-requests.md)。 有关将请求类型与项目关联的信息，请参阅[为项目定义请求类型](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,12 +35,12 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p>
-       <p>[!UICONTROL 计划]</p></td>
+   <td><p>[！UICONTROL标准版]</p>
+       <p>[！UICONTROL计划]</p></td>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -87,7 +87,7 @@ You must have at least one request type selected. You can select multiple reques
 1. 单击&#x200B;**[!UICONTROL 项目首选项]** > **[!UICONTROL 状态]**。
 
 1. 单击&#x200B;**[!UICONTROL 问题]**&#x200B;选项卡。
-1. 在&#x200B;**[!UICONTROL 问题]**&#x200B;选项卡的顶部，将鼠标悬停在请求类型的名称上，然后单击显示的&#x200B;**[!UICONTROL 编辑]**&#x200B;图标。
+1. 在&#x200B;**[!UICONTROL 问题]**&#x200B;选项卡顶部，单击下拉列表，选择请求类型，然后单击显示的&#x200B;**[!UICONTROL 编辑]**&#x200B;图标。
 
    ![编辑请求类型名称](assets/edit-request-type-name-nwe.png)
 

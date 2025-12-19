@@ -6,10 +6,10 @@ description: 通过Adobe Experience Cloud访问 [!DNL Workfront] 可为您提供
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 29083931a4910c99027edb856ab200c8a4345679
+source-git-commit: 5304f25ecb198f45c024b71185747f47fa8307d4
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 0%
+source-wordcount: '718'
+ht-degree: 3%
 
 ---
 
@@ -26,16 +26,16 @@ ht-degree: 0%
 | （公司名称）.my.workfront.com | Workfront体验 |
 | experience.adobe.com | Adobe Unified Experience |
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront包</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront 包</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -108,6 +108,9 @@ ht-degree: 0%
 
 * 为&#x200B;**[!UICONTROL 选择]**&#x200B;深色主题[!DNL Adobe Experience Cloud]格式。
 * 为&#x200B;**[!UICONTROL 设置]**&#x200B;首选项[!DNL Adobe Experience Cloud]，包括主要语言首选项和次要语言首选项。
+  >[!NOTE]
+  >
+  >您的日期设置基于您的主要语言设置。 例如，选择&#x200B;**英语（美国）**&#x200B;会以MM/DD/YYYY格式显示日期，而选择&#x200B;**英语（英国）**&#x200B;则会以DD/MM/YYYY格式显示日期。
 * 访问您的&#x200B;**[!UICONTROL [!DNL Workfront]配置文件]**。 进入配置文件后，单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单![更多](assets/more-icon.png)，然后选择&#x200B;**[!UICONTROL 编辑]**。 有关配置文件的详细信息，请参阅[配置我的设置](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)。
 * **[!UICONTROL 注销]** Adobe Experience Cloud。
 

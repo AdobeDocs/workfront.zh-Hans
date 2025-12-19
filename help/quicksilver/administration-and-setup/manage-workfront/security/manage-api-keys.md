@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 6b2d93d2573d72e4390761038d8078f47d96d55e
+source-git-commit: 87d3443c7b08c59d435e852c6a17df297e7023d6
 workflow-type: tm+mt
-source-wordcount: '1293'
-ht-degree: 2%
+source-wordcount: '1356'
+ht-degree: 3%
 
 ---
 
@@ -19,6 +19,21 @@ ht-degree: 2%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
+
+
+
+>[!IMPORTANT]
+>
+>Workfront不再建议使用`/login`端点或API密钥。 请改用以下身份验证方法之一：
+>
+>* 使用JWT进行服务器身份验证
+>* 使用OAuth2进行用户身份验证
+>
+>有关设置这些身份验证方法的说明，请参阅[为Workfront集成创建OAuth2应用程序](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)
+>
+>有关在Workfront中使用服务器身份验证的说明，请参阅[使用JWT流配置和使用您组织的自定义OAuth 2应用程序](/help/quicksilver/wf-api/api/oauth-app-jwt-flow.md)
+>
+>有关在Workfront中使用用户身份验证的说明，请参阅[使用授权代码流配置和使用您组织的自定义OAuth 2应用程序](/help/quicksilver/wf-api/api/oauth-app-code-token-flow.md)
 
 为了最大程度地降低API安全漏洞，Adobe Workfront管理员可以管理用于使应用程序能够代表用户访问Workfront的API密钥。
 
@@ -33,16 +48,16 @@ ht-degree: 2%
 >
 >重置或删除API密钥时，必须重新配置任何利用Workfront API并通过此API密钥向Workfront进行身份验证的应用程序，才能重新获得对Workfront的访问权限。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -74,10 +89,6 @@ Workfront管理员还有唯一的API密钥。 当应用程序使用管理员API�
 
 您可以为管理员用户帐户生成、重置或删除API密钥。
 
->[!NOTE]
->
->您还可以通过API生成API密钥。 有关详细信息，请参阅[事件订阅API](../../../wf-api/general/event-subs-api.md)中的[事件订阅API](../../../wf-api/general/event-subs-api.md)部分。
-
 {{step-1-to-setup}}
 
 1. 单击&#x200B;**系统>** **客户信息。**
@@ -106,7 +117,7 @@ Workfront管理员还有唯一的API密钥。 当应用程序使用管理员API�
 
    1. 展开&#x200B;**系统**，然后单击&#x200B;**单点登录(SSO)**。
    1. 在&#x200B;**类型**&#x200B;字段中，选择贵组织使用的SSO类型。
-   1. 选定类型后，向下滚动并清除&#x200B;**启用**&#x200B;复选框。
+   1. 选定类型后，向下滚动并清除&#x200B;**启用**复选框。
       ![启用SSO](assets/sysadmin-security-sso-disable-31620-350x320.png)
    1. 单击&#x200B;**保存**。
 
@@ -159,7 +170,7 @@ Workfront管理员还有唯一的API密钥。 当应用程序使用管理员API�
 
 1. 展开&#x200B;**系统**，然后单击&#x200B;**客户信息**。
 
-1. 在&#x200B;**API密钥设置**&#x200B;区域中，单击&#x200B;**删除所有API密钥**，然后单击&#x200B;**删除**&#x200B;**全部**。
+1. 在&#x200B;**API密钥设置**&#x200B;区域中，单击&#x200B;**删除所有API密钥**，然后单击&#x200B;**删除****全部**。
 
 ## 使用X.509证书限制API登录
 

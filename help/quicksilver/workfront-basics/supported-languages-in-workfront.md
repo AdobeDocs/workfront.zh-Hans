@@ -6,9 +6,9 @@ description: 您可以通过调整浏览器上的语言首选项以及Adobe Work
 feature: Get Started with Workfront
 author: Becky
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 5304f25ecb198f45c024b71185747f47fa8307d4
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1168'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Workfront中的Web验证查看器支持Workfront支持的大多数语言。
 * Workfront Fusion不支持在用户输入的字段中使用非英语文本字符。
 
 贵公司必须购买Workfront Fusion许可证才能访问Workfront Fusion。\
-有关Workfront Fusion的详细信息，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+有关Workfront Fusion的详细信息，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 ## 更改语言
 
@@ -106,10 +106,10 @@ Workfront中的Web验证查看器支持Workfront支持的大多数语言。
 
 要确定您的组织是否已迁移到Adobe Admin Console，请检查用于查看Workfront的URL。
 
-| URL | Adobe体验 |
-|---|---|
-| （公司名称）.my.workfront.com | 未迁移到Adobe Admin Console |
-| experience.adobe.com | 已迁移到Adobe Admin Console |
+| URL | Adobe体验 | 语言控制 |
+|---|---|---|
+| （公司名称）.my.workfront.com | 未迁移到Adobe Admin Console | [更改浏览器语言](#change-the-browser-language) |
+| experience.adobe.com | 已迁移到Adobe Admin Console | [更改Adobe Experience Cloud语言](#change-the-adobe-experience-cloud-language) |
 
 * [更改浏览器语言](#change-the-browser-language)
 * [更改Adobe Experience Cloud语言](#change-the-adobe-experience-cloud-language)

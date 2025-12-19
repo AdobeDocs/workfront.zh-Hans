@@ -6,14 +6,18 @@ description: 在20.3版（计划于2020年8月发布）中，Adobe Workfront将�
 author: Luke
 feature: Product Announcements
 exl-id: 73abd185-81c6-43fc-b8b0-cad14d15b348
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 31e5f5e039e25fa25f3038c23ee579ba1f830bb7
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
 
 # 删除自定义SMTP作为传出电子邮件选项
+
+>[!NOTE]
+>
+>本文中描述的功能不再可用，并且文章将在不久的将来被删除。
 
 在20.3版（计划于2020年8月发布）中，Adobe Workfront将转移到新的电子邮件系统，该系统将极大地增强Workfront更新和通知电子邮件投放的可靠性。 因此，客户将无法再使用自己的SMTP电子邮件服务器将电子邮件从Workfront平台中继到目标收件人。 所有电子邮件都将直接从Workfront邮件服务器发送。
 
@@ -25,4 +29,4 @@ ht-degree: 0%
 
 如果您已配置自定义SMTP邮件服务器，**我们强烈建议您联系IT团队**，以确保不会阻止来自notifications@my.workfront.com的电子邮件接收系统电子邮件。 您还可以参考配置防火墙，了解有关流量和电子邮件来自哪些IP地址的详细信息。
 
-如果您有任何其他问题或顾虑，请联系[Workfront支持团队](https://experienceleague.adobe.com/zh-hans?support-tab=home#support)。
+如果您有任何其他问题或顾虑，请联系[Workfront支持团队](https://experienceleague.adobe.com/?support-tab=home#support)。

@@ -8,10 +8,10 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Becky
 exl-id: 158430e5-8857-4bd8-86a6-2ba106b1638c
-source-git-commit: 711812d9fd4bf48bb7612c0339cee2cdbe08ef10
+source-git-commit: 31e5f5e039e25fa25f3038c23ee579ba1f830bb7
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 0%
+source-wordcount: '649'
+ht-degree: 2%
 
 ---
 
@@ -24,14 +24,14 @@ ht-degree: 0%
 >* 在OAuth2的上下文中，“Oauth2应用程序”是指应用程序和服务器（如[!DNL Workfront]）之间的此类访问链接。 有关详细信息，请参阅[为 [!DNL Workfront] 集成创建OAuth2应用程序](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 >* 您一次最多可以拥有10个OAuth2应用程序。
 
-* 有关创建自定义OAuth2应用程序的信息，请参阅[为 [!DNL Workfront] 集成创建OAuth2应用程序](../../administration-and-setup/configure-integrations/create-oauth-application.md)
-* 有关通过用户凭据（授权代码流）配置和使用OAuth2应用程序的说明，请参阅[使用授权代码流配置和使用您组织的自定义OAuth2应用程序](../../wf-api/api/oauth-app-code-token-flow.md)。
-* 有关使用服务器身份验证（JWT流）配置和使用OAuth2应用程序的说明，请参阅[使用JWT流配置和使用您组织的自定义OAuth2应用程序](../../wf-api/api/oauth-app-jwt-flow.md)。
+* 有关创建自定义OAuth2应用程序的信息、说明和详细信息，请参阅[为 [!DNL Workfront] 集成创建OAuth2应用程序](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+* 有关通过用户凭据（授权代码流）配置和使用OAuth2应用程序的信息、说明和详细信息，请参阅[使用授权代码流配置和使用您组织的自定义OAuth2应用程序](../../wf-api/api/oauth-app-code-token-flow.md)。
+* 有关使用服务器身份验证（JWT流）配置和使用OAuth2应用程序的信息、说明和详细信息，请参阅[使用JWT流配置和使用您组织的自定义OAuth2应用程序](../../wf-api/api/oauth-app-jwt-flow.md)。
 * 有关使用PKCE配置和使用OAuth2应用程序的说明，请参阅[使用PKCE流程配置和使用您组织的自定义OAuth2应用程序](../../wf-api/api/oauth-app-pkce-flow.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
