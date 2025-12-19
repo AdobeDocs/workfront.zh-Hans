@@ -406,7 +406,7 @@ ht-degree: 0%
    * **时间线**。 有关详细信息，请参阅[管理时间线视图](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
    * **日历**。 有关详细信息，请参阅[管理日历视图](/help/quicksilver/planning/views/manage-the-calendar-view.md)。
 
-1. （可选）将鼠标悬停在“连接的记录”页面中的视图名称上，然后单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击以下任一选项： *************&#x200B;检查以确保所有这些都可行&#x200B;*********
+1. （可选）将鼠标悬停在“连接的记录”页面中的视图名称上，然后单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击以下任一选项： **&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;***&#x200B;检查以确保所有这些都可行&#x200B;**&#x200B;**&#x200B;**&#x200B;***
 
    * **重命名**
    * **共享**。 有关详细信息，请参阅[共享视图](/help/quicksilver/planning/access/share-views.md)。
