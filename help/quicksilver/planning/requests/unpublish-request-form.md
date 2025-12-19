@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 3%
+source-wordcount: '676'
+ht-degree: 5%
 
 ---
 
@@ -32,9 +32,9 @@ ht-degree: 3%
 
 如果您希望让一小部分人可以使用请求表单，则还可以更改与共享请求表单的实体。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -133,4 +133,4 @@ ht-degree: 3%
 
    之前使用请求表单添加的任何记录都保留在记录类型页面上。
 
-   之前添加的任何请求都会保留在Workfront的请求区域的规划选项卡上。
+   之前添加的任何请求都保留在Workfront的请求区域中。

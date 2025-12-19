@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1103'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 ## 有关批准请求的注意事项
 
-* 已提交的请求将显示在Workfront请求区域的已提交部分的“计划”选项卡中，并具有以下请求状态之一：
+* 已提交的请求将显示在Workfront的请求区域中，并具有以下请求状态之一：
 
    * **等待审阅**：当没有批准者打开请求对象时，将显示此状态。
    * **审核中**：当至少有一个批准者打开请求对象时，**待审核中**&#x200B;状态更改为&#x200B;**审核中**。 在所有批准者都批准请求之前，请求的状态保持为&#x200B;**正在审核**。
@@ -118,7 +118,7 @@ ht-degree: 1%
    请求页面将以只读模式打开。
 
    ![处于审核状态的只读请求页面](assets/read-only-reqeust-page-in-review-status.png)
-1. 如果您在Workfront中使用新的请求体验，请单击屏幕右上角的&#x200B;**主菜单** ![圆点主菜单](assets/dots-menu.png)，或左上角的&#x200B;**主菜单** ![行主菜单](assets/lines-menu.png)（如果可用），然后单击&#x200B;**请求**，然后单击要审批的请求（状态为&#x200B;**待审核**&#x200B;或&#x200B;**正在审核**）。
+1. 如果您在Workfront中使用新的请求体验，请单击屏幕右上角的&#x200B;**主菜单** ![圆点主菜单](assets/dots-menu.png)，或左上角的&#x200B;**主菜单** ![行主菜单](assets/lines-menu.png)（如果可用），然后单击&#x200B;**请求**，然后单击您要审批的请求并显示&#x200B;**待审核**&#x200B;状态。
 1. （可选）单击请求右上角的&#x200B;**批准**&#x200B;图标![批准图标](assets/approvals-icon.png)以查看批准者。
 1. 单击&#x200B;**审核并批准**，然后选择以下选项之一：
 
@@ -132,7 +132,7 @@ ht-degree: 1%
    * **已完成**：请求已被批准。
    * **已拒绝**：请求被拒绝。
 
-   该请求将保留在Workfront请求区域的已提交部分的“计划”选项卡中。
+   该请求仍保留在Workfront的请求区域中。
 
 <div class="preview">
 

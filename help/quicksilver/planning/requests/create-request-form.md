@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '2678'
+source-wordcount: '2670'
 ht-degree: 1%
 
 ---
@@ -166,7 +166,7 @@ ht-degree: 1%
 表单详细信息分为选项卡。
 
 * **表单**&#x200B;选项卡允许您向表单添加字段和内容元素
-* **配置**&#x200B;选项卡允许您设置表单的批准流程并设置请求完成选项&lt;。
+* **配置**选项卡允许您设置表单的批准流程并设置请求完成选项&lt;。
   <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
 
 #### 设置表单详细信息
@@ -244,7 +244,7 @@ ht-degree: 1%
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
    * 您可以将一个或多个批准者添加到请求表单。
-   * 如果至少有一位审批者拒绝了请求，则该请求会被拒绝，并且不会创建记录。 该请求将保留在Workfront请求区域的已提交部分的“计划”选项卡中。
+   * 如果至少有一位审批者拒绝了请求，则该请求会被拒绝，并且不会创建记录。 该请求仍保留在Workfront的请求区域中。
    * 如果您添加多个审批者，但未启用“只需一个决策”选项，则所有审批者必须在请求被批准或拒绝之前做出决策。
    * 如果将团队设置为批准者，则只需从团队中做出一个决策。
 

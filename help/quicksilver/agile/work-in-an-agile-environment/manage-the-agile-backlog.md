@@ -2,20 +2,20 @@
 product-area: agile-and-teams
 navigation-topic: work-in-an-agile-environment
 title: 管理Agile积压
-description: 任务和问题可分配给Agile团队，并作为故事添加到该团队的积压中，具体取决于团队使用的敏捷方法。
+description: 任务和问题可分配给Agile团队，并作为故事添加到该团队的积压中，具体取决于团队使用的Agile方法。
 author: Jenny
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '1334'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # 管理Agile积压
 
-以下工作项可以分配给Agile团队，并作为故事添加到该团队的积压中，具体取决于团队使用的敏捷方法：
+以下工作项可以分配给Agile团队，并作为故事添加到该团队的积压中，具体取决于团队使用的Agile方法：
 
 * **[!UICONTROL Scrum Agile团队]：**&#x200B;任务和问题可以分配给Agile团队并添加到积压中。
 * **[!UICONTROL Kanban Agile团队]：**&#x200B;任务可以分配给Agile团队并添加到积压中。 用户可以直接从Agile故事板查看积压，如[[!UICONTROL 将积压]添加到Kanban板](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)中所述。 团队使用此积压事项来排列工作队列的优先顺序并管理其工作队列。
@@ -26,9 +26,9 @@ ht-degree: 0%
 >
 >如果将多个团队添加到积压项目，则任务或问题仅显示在主要团队的积压中。 主要团队是首先分配的团队。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,13 +37,13 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> <p>标准</p> 
-   <p>工作或更高</p> </td> 
+   <p>工作版或更高版本</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">对象权限</td> 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 您可以使用拖放方法重新排序积压事项列表中的故事。
 
-1. 转到要重新排序故事的Agile积压。
+1. 转到Agile积压，您要在其中重新排序故事。
 1. 在&#x200B;**[!UICONTROL 视图]**&#x200B;下拉菜单中，选择&#x200B;**[!UICONTROL 积压]**&#x200B;视图或包含&#x200B;**[!UICONTROL 顺序]**&#x200B;列的自定义视图。
 
    >[!NOTE]
@@ -136,7 +136,7 @@ ht-degree: 0%
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 文章名称]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL文章名称]</strong></td>
       <td> 键入故事的名称。</td>
      </tr>
      <tr>
@@ -144,23 +144,23 @@ ht-degree: 0%
       <td>（可选）键入文章的描述。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 就绪]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL就绪]</strong></td>
       <td> 选择文章是否准备好添加到开发周期。 此设置仅供参考。 可以将故事添加到开发周期，而不管此设置的状态如何。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 估计]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL估计]</strong></td>
       <td>指定文章的分值或每小时估计值。 估计值会影响燃尽图。 仅当每个故事都包含准确的估计值时，迭代的燃尽图才准确。 （如果提供点估计值，则必须在团队设置中指定每个点表示的小时数。）</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 父项目]</strong></td>
-      <td>开始键入将在其中创建此文章的项目名称，然后在名称出现在下拉列表中时单击该名称。<br>项目的状态必须设置为[!UICONTROL 当前]。 如果项目的状态不是[!UICONTROL 当前]，则它不会显示在下拉菜单中。</td>
+      <td role="rowheader"><strong>[！UICONTROL父项目]</strong></td>
+      <td>开始键入将在其中创建此文章的项目名称，然后在名称出现在下拉列表中时单击该名称。<br>项目的状态必须设置为[！UICONTROL当前]。 如果项目的状态不是[！UICONTROL当前]，则它不会显示在下拉菜单中。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 父任务]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL父任务]</strong></td>
       <td>（可选）开始键入此文章从属的父任务的名称，然后在名称出现在下拉列表中时单击该名称。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 自定义Forms]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL自定义Forms]</strong></td>
       <td> （可选）选择要添加到此文章的任何自定义表单。</td>
      </tr>
     </tbody>
@@ -180,7 +180,7 @@ ht-degree: 0%
 1. 单击&#x200B;**[!UICONTROL 分配]**。
 1. （可选）删除任何现有的被分配人。
 1. 单击&#x200B;**[!UICONTROL 添加代理人]**。
-1. 开始键入要分配给任务或问题的Agile团队名称，然后单击出现在下拉列表中的团队名称。
+1. 开始键入要指派给任务或问题的Agile团队名称，然后在团队名称出现在下拉列表中时单击该名称。
 1. 单击&#x200B;**[!UICONTROL 保存更改]**。
 任务或问题现在可在团队积压中找到。
 

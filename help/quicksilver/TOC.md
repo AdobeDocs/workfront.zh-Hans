@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '13631'
 ht-degree: 2%
@@ -1110,8 +1110,8 @@ ht-degree: 2%
          * [在Scrum展示板上更新故事和子任务的状态](agile/use-scrum-in-an-agile-team/scrum-board/update-status-of-stories-and-subtasks.md)
          * [在Scrum展示板上查看和编辑故事信息](agile/use-scrum-in-an-agile-team/scrum-board/view-and-edit-story-info.md)
    * 在敏捷环境中工作 {#work-in-agile-environment}
-      * [在敏捷环境中工作](agile/work-in-an-agile-environment/work-in-an-agile-environment.md)
-      * [创建敏捷故事](agile/work-in-an-agile-environment/create-an-agile-story.md)
+      * [在Agile环境中工作](agile/work-in-an-agile-environment/work-in-an-agile-environment.md)
+      * [创建Agile故事](agile/work-in-an-agile-environment/create-an-agile-story.md)
       * [管理Agile积压](agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
       * [移动敏捷故事](agile/work-in-an-agile-environment/move-an-agile-story.md)
    * 敏捷提示、技巧和疑难解答 {#tips-tricks-agile}
@@ -1241,7 +1241,7 @@ ht-degree: 2%
          * [从项目中删除用户](manage-work/projects/manage-projects/remove-users-from-projects.md)
          * [为项目计划资源](manage-work/projects/manage-projects/schedule-resources-for-projects.md)
          * [与项目团队成员沟通](manage-work/projects/manage-projects/communicate-with-project-team-members.md)
-         * [在展示板视图中管理Agile项目](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
+         * [在“展示板”视图中管理Agile项目](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
          * [了解项目量度](manage-work/projects/manage-projects/project-metrics.md)
          * [项目限制概述](manage-work/projects/manage-projects/project-maximums.md)
          * [使用AI助手汇总更新](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
@@ -2530,8 +2530,8 @@ ht-degree: 2%
       * [使用PKCE流程配置和使用您组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-pkce-flow.md)
       * [弃用API — 内部](wf-api/api/deprecation-api-internal.md)
       * [API版本21中的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-      * [API版本20中的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [API版本19中的新增功能](wf-api/api/new-api-version-19.md)
+      * [API版本20](/help/quicksilver/wf-api/api/new-api-version-20.md)中的新增功能
+      * [API版本19](wf-api/api/new-api-version-19.md)中的新增功能
       * [API版本18中的新增功能](wf-api/api/new-api-version-18.md)
       * [API版本17中的新增功能](wf-api/api/new-api-version-17.md)
       * [API版本16中的新增功能](wf-api/api/new-api-version-16.md)

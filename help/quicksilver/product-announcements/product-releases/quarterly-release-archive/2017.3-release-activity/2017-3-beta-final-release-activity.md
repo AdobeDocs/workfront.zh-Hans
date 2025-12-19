@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 880828f4-3908-4ef0-ab1f-774f8dee72b6
-source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '3791'
 ht-degree: 0%
@@ -26,12 +26,12 @@ ht-degree: 0%
 
 2017.3 Beta最终版本包含面向Workfront管理员和其他用户的增强功能：
 
-管理员的&#x200B;**&#x200B;**
+管理员的&#x200B;****
 
 * [在审批设置区域重新调用请求的新配置](#new-configuration-for-recalling-requests-in-the-approval-settings-area)
 * [配置默认验证角色](#configure-default-proof-roles)
 
-所有用户&#x200B;**&#x200B;**
+所有用户&#x200B;****
 
 * [主页区域（已更新我的工作区）](#home-area-updated-my-work-area)
 
@@ -94,17 +94,17 @@ ht-degree: 0%
 
 ## 适用于敏捷的Kanban  {#kanban-for-agile}
 
-除了已支持的Scrum敏捷方法之外，Agile团队现在还可以在Workfront中使用Kanban方法。
+除了已支持的Scrum Agile方法之外，Agile团队现在还可以在Workfront中使用Kanban方法。
 
-Workfront中的Scrum和Kanban敏捷方法在以下方面有所不同：
+Workfront中的Scrum和Kanban Agile方法在以下方面有所不同：
 
 **在Workfront中使用Kanban的好处**
 
-* 在Kanban敏捷故事板上显示积压。
+* 在Kanban Agile故事板上显示积压。
 
   有关更多信息，请参阅中的。
 
-* 配置积压中的物料，当其他物料移至等同于“完成”的状态时，这些物料自动添加到Kanban敏捷故事板。
+* 配置积压中的物料，当其他物料移至等同于“完成”的状态时，这些物料自动添加到Kanban Agile故事板。
 
   有关详细信息，请参阅[配置Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5)中的[配置要自动从积压工作中添加的故事](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)。
 
@@ -133,7 +133,7 @@ Workfront中的Scrum和Kanban敏捷方法在以下方面有所不同：
 >
 >此功能已于2017年11月14日从生产环境中删除。 计划于2018年初将其重新引入预览环境，并增强设计和稳定性。 它将在2018.1版本的生产环境中可用。
 
-使用Scrum敏捷方法时，您现在可以在敏捷团队的积压中包括问题（使用Kanban方法时，问题未显示在敏捷团队的积压中）。 现有的Scrum Agile团队必须启用此功能才能包含问题。 在2017.3版本之后创建的Scrum敏捷团队的积压中自动包含问题。
+使用Scrum敏捷方法时，您现在可以在敏捷团队的积压中包括问题（使用Kanban方法时，问题未显示在敏捷团队的积压中）。 现有的Scrum Agile团队必须启用此功能才能包含问题。 对于在2017.3版本之后创建的Scrum Agile团队，问题会自动包含在积压中。
 
 在此更改之前，只能将任务添加到积压。 如果要添加问题，必须先将问题转化为任务，然后才能添加问题。
 
@@ -149,7 +149,7 @@ Workfront中的Scrum和Kanban敏捷方法在以下方面有所不同：
 >
 >此功能已于2017年11月14日从生产环境中删除。 计划于2018年初将其重新引入预览环境，并增强设计和稳定性。 它将在2018.1版本的生产环境中可用。
 
-在使用Scrum敏捷方法时，您现在可以在故事板上包含问题。
+在使用Scrum敏捷方法时，您现在可以在故事板中包含问题。
 
 有关详细信息，请参阅[配置Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur2)中的[在Agile故事板](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)上配置状态列。
 

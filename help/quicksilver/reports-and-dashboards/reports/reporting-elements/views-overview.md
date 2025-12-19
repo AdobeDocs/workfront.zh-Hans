@@ -7,7 +7,7 @@ description: 通过管理列表或报表的视图，可以自定义在列表或�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
 <table style="table-layout:auto">
     <tr>
         <td><strong>标准视图</strong></td>
-        <td>您可以将它们应用于任何对象列表或报表。 标准视图可高度自定义。 您可以自定义标准视图并与他人共享。 有关信息，请参阅<a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">在Adobe Workfront中创建或编辑视图</a>。</td>
+        <td>您可以将其应用于任何对象列表或报表。 标准视图可高度自定义。 您可以自定义标准视图并与他人共享。 有关信息，请参阅<a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">在Adobe Workfront中创建或编辑视图</a>。</td>
     </tr>
     <tr>
         <td><strong>展示板视图</strong></td>

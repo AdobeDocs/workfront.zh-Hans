@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 26bbc4a0-e5ed-4b5f-bfc2-f888362c1d22
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '1850'
 ht-degree: 0%
@@ -26,11 +26,11 @@ ht-degree: 0%
 
 2018.1 Beta 3版本包含面向Workfront管理员和其他用户的增强功能：
 
-管理员的&#x200B;**&#x200B;**
+管理员的&#x200B;****
 
 * [组管理员改进](#group-administrator-improvements)
 
-所有用户&#x200B;**&#x200B;**
+所有用户&#x200B;****
 
 * [HTML5验证查看器改进](#html5-proofing-viewer-improvements)
 * Workfront中的[验证改进](#proofing-improvements-within-workfront)
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 ### 比较模式 {#compare-mode}
 
-现在，您可以在查看HTML5校对查看器中查看静态和视频校对时使用比较模式。 
+现在，您可以在查看静态和视频验证时，在HTML5验证查看器中使用比较模式。 
 
 HTML5验证查看器中的比较模式与旧版验证查看器在以下方面不同：
 
@@ -156,7 +156,7 @@ HTML5验证查看器中的比较模式与旧版验证查看器在以下方面不
 
 除了标准审批之外，您现在还可以在主页区域查看验证审批。
 
-以前，您可以查看Workfront审批，但无法查看验证的审批。  
+以前，您可以查看Workfront审批，但无法查看验证的审批。 
 
 有关详细信息，请参阅[使用主页区域](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)。
 
