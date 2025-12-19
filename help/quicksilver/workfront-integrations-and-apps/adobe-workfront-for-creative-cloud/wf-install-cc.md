@@ -6,10 +6,10 @@ description: 您可以从Adobe Marketplace安装 [!DNL Adobe Workfront for desig
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: c21e1c1d8e45b7c6407e8741b31055bfed9f4717
+source-git-commit: 281733f00654911e2c1114485fca018b6a0feec1
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 2%
+source-wordcount: '585'
+ht-degree: 4%
 
 ---
 
@@ -37,9 +37,9 @@ ht-degree: 2%
 >[!DNL Photoshop]和[!DNL XD]有单独的安装说明。 有关详细信息，请参阅[安装 [!DNL Adobe Workfront for Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)和[安装 [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)。
 
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -78,7 +78,7 @@ ht-degree: 2%
 
 [在此观看视频教程](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}。
 
-[!DNL Adobe Admin Console]管理员还可以创建仅用于分发给用户的插件包。 有关详细信息，请参阅[中的 [!DNL Adobe Workfront] 为您的用户创建[!UICONTROL [!DNL Creative Cloud]]  for [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)包
+[!DNL Adobe Admin Console]管理员还可以创建仅用于分发给用户的插件包。 有关详细信息，请参阅[中的 [!DNL Adobe Workfront] 为您的用户创建[！UICONTROL [!DNL Creative Cloud]]  for [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)包
 
 ## 单独安装[!DNL Workfront for design and video]
 
@@ -159,7 +159,7 @@ ht-degree: 2%
 
    >[!TIP]
    >
-   >在Mac上，转到Finder，按&#x200B;**Command+Shift+。**&#x200B;要显示隐藏文件夹，请导航到&#x200B;**/Users//Library/Application Support**，然后删除&#x200B;**Workfront**&#x200B;文件夹。
+   >在Mac上，转到Finder，按&#x200B;**Command+Shift+G**，导航到  `~/Library/Application Support/Workfront`，然后删除&#x200B;**Workfront**&#x200B;文件夹。
 
 
 1. 导航回插件，然后输入您的Workfront域。 域必须是`company-name.my.workfront.com`而不是`experience.adobe.com`。
