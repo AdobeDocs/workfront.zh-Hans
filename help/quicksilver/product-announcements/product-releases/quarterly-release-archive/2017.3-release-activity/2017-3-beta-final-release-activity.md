@@ -26,12 +26,12 @@ ht-degree: 0%
 
 2017.3 Beta最终版本包含面向Workfront管理员和其他用户的增强功能：
 
-管理员的&#x200B;****
+管理员的&#x200B;**&#x200B;**
 
 * [在审批设置区域重新调用请求的新配置](#new-configuration-for-recalling-requests-in-the-approval-settings-area)
 * [配置默认验证角色](#configure-default-proof-roles)
 
-所有用户&#x200B;****
+所有用户&#x200B;**&#x200B;**
 
 * [主页区域（已更新我的工作区）](#home-area-updated-my-work-area)
 
