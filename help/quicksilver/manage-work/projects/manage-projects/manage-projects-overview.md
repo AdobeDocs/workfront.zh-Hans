@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: a63ec4e0-ba39-42c1-8061-c29350ef4bbb
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '131'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 1%
 * [从项目中删除用户](../../../manage-work/projects/manage-projects/remove-users-from-projects.md)
 * [为项目安排资源](../../../manage-work/projects/manage-projects/schedule-resources-for-projects.md)
 * [与项目团队成员通信](../../../manage-work/projects/manage-projects/communicate-with-project-team-members.md)
-* [在Agile视图中管理项目](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
+* [在讨论区视图中管理Agile项目](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
 * [项目限制概述](../../../manage-work/projects/manage-projects/project-maximums.md)
 * [了解项目量度](../../../manage-work/projects/manage-projects/project-metrics.md)
 * [使用AI助手汇总更新](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)

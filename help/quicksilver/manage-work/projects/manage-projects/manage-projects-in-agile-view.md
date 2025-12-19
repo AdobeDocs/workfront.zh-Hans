@@ -1,31 +1,31 @@
 ---
 product-area: projects;agile-and-teams
 navigation-topic: manage-projects
-title: 在Agile视图中管理项目
-description: 您可以利用项目的Agile功能，而无需Agile实践通常伴随的管理挑战（例如管理团队积压或创建迭代）。
+title: 在展示板视图中管理Agile项目
+description: 您可以将Agile功能用于项目，而无需解决Agile实践通常伴随的管理挑战（例如管理团队积压或创建迭代）。
 author: Alina, Courtney
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 0%
+source-wordcount: '314'
+ht-degree: 5%
 
 ---
 
-# 在Agile视图中管理项目
+# 在“展示板”视图中管理Agile项目
 
 <!-- Audited: 11/2025 -->
 
-您可以利用项目的Agile功能，而无需Agile实践通常伴随的管理挑战（例如管理团队积压或创建迭代）。
+您可以将Agile功能用于项目，而无需解决Agile实践通常伴随的管理挑战（例如管理团队积压或创建迭代）。
 
-您可在使用团队积压工作的敏捷环境中工作，并允许您从积压工作的任务创建迭代。
+您可以在使用团队积压的Agile环境中工作，并允许您从积压上的任务创建迭代。
 
 有关信息，请参阅[在Agile环境中工作](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -34,7 +34,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -95,11 +95,11 @@ ht-degree: 0%
 </table>-->
 
 
-## 在Agile视图中查看项目
+## 在讨论区视图中查看项目
 
-您可以在Agile视图而不是列表中查看项目中的任务或问题，以利用Agile功能进行项目开发。
+您可以在展示板视图（而非列表）中查看项目中的任务或问题，以利用Agile功能进行项目开发。
 
-1. 转到要在Agile视图中查看的项目，然后单击左侧面板中的&#x200B;**任务**&#x200B;或&#x200B;**问题**。
+1. 转到要按Agile方法管理的项目，然后单击左侧面板中的&#x200B;**任务**&#x200B;或&#x200B;**问题**。
 1. 单击&#x200B;**展示板视图**&#x200B;图标![展示板图标](assets/board-icon-for-agile-view.png)。
 
    默认情况下，将显示项目的讨论区视图。

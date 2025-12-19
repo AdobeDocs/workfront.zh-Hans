@@ -7,9 +7,9 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '1772'
+source-wordcount: '1838'
 ht-degree: 2%
 
 ---
@@ -117,6 +117,9 @@ ht-degree: 2%
 <!--checking on the below with Lilit-->
 
 * 您可以与以下实体共享记录：人员、组、团队、公司或工作角色。
+* 当您共享记录时，用户在系统中出现该记录的所有位置都具有相同的访问权限。
+* 如果限制对记录的权限，则用户不再在添加该记录的系统中的任何位置查看该记录及其查找字段的值。
+* Workfront检查连接中的记录权限，最多深层检查5条记录，确保用户只能看到与其共享的记录。
 * 您可以向记录授予以下级别的权限：
 
    * 视图

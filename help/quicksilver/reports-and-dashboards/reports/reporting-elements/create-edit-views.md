@@ -6,9 +6,9 @@ description: 您可以使用视图自定义在屏幕上显示的信息类型。 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '893'
 ht-degree: 4%
 
 ---
@@ -60,10 +60,7 @@ ht-degree: 4%
 
 ## 创建或自定义视图
 
-创建或自定义视图的过程因您是创建或自定义标准视图、Agile视图还是展示板视图而异。
-
-* [创建或自定义标准视图](#create-or-customize-a-standard-view)
-* [创建或自定义敏捷视图](#create-or-customize-an-agile-view)
+创建或自定义视图的过程因您是创建或自定义标准视图还是板视图而异。
 
 ### 创建或自定义标准视图 {#create-or-customize-a-standard-view}
 
@@ -71,10 +68,10 @@ ht-degree: 4%
 
 1. 在要创建或自定义视图的任何列表中单击&#x200B;**视图**&#x200B;下拉菜单。
 
-1. 单击&#x200B;**+新建视图**&#x200B;按钮以创建新视图。
+1. 单击&#x200B;**+新建视图**按钮以创建新视图。
 或
-单击鼠标上要编辑的现有视图右侧出现的&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
-将显示&#x200B;**自定义视图**&#x200B;对话框。
+单击鼠标上要编辑的现有视图右侧出现的**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
+将显示**自定义视图**&#x200B;对话框。
 
 1. 在&#x200B;**列预览**&#x200B;部分中，执行以下任一操作：
 
@@ -161,13 +158,15 @@ ht-degree: 4%
 
    您的访问权限规定了视图的保存方式。 如果最初创建了该视图，则可以保存更改；否则，系统会提示您保存版本。 请记住，您对视图所做的更改会影响与其共享该视图的用户。
 
-### 创建或自定义敏捷视图 {#create-or-customize-an-agile-view}
+### 创建或自定义展示板视图 {#create-or-customize-an-agile-view}
 
-Agile视图（也称为展示板视图）仅显示项目中的任务和问题列表。
+您可以使用展示板视图，按照敏捷方法管理项目。
+
+讨论区视图仅适用于项目的任务和问题列表。
 
 它们已预配置，但您可以为其修改某些设置。
 
-有关Agile视图或展示板视图的详细信息，请参阅文章[在Agile视图中管理项目](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)。
+有关Agile视图或展示板视图的详细信息，请参阅文章[在展示板视图下管理Agile项目](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)。
 
 <!-- Legacy Agile views were deprecated with 25.3. This is old: 
 

@@ -7,9 +7,9 @@ description: 通过管理列表或报表的视图，可以自定义在列表或�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
@@ -42,8 +42,8 @@ ht-degree: 0%
         <td>您可以将它们应用于任何对象列表或报表。 标准视图可高度自定义。 您可以自定义标准视图并与他人共享。 有关信息，请参阅<a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">在Adobe Workfront中创建或编辑视图</a>。</td>
     </tr>
     <tr>
-        <td><strong>Agile视图</strong></td>
-        <td>您可以将展示板或敏捷视图应用到项目“任务”部分中的任务列表，或项目“问题”部分中的问题列表。 有关信息，请参阅<a href="/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md">在Agile视图中管理项目</a>。</td>
+        <td><strong>展示板视图</strong></td>
+        <td>您可以将讨论区视图应用到项目“任务”部分的任务列表或项目“问题”部分的问题列表，以使用敏捷方法管理您的项目。 有关信息，请参阅<a href="/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md">在讨论区视图中管理Agile项目</a>。</td>
     </tr>
     <tr>
         <td><strong>甘特视图</strong></td>
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 有关如何共享标准视图的信息，请参阅[共享筛选器、视图或分组](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)。
 
-您无法共享Gantt和Agile视图。 有权访问这些视图显示区域的每个人都可以查看相同的信息。
+您无法共享甘特图和展示板视图。 有权访问这些视图显示区域的每个人都可以查看相同的信息。
 
 <!-- add something about the enhanced views here, when we have a link-->
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 删除视图的功能会因您最初是创建视图还是与您共享视图而有所不同。 不能删除默认视图。
 
-无法移除“甘特图”或“敏捷”视图。
+不能移除甘特图或展示板视图。
 
 有关删除标准视图的详细信息，请参阅[删除筛选器、视图和分组](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)。
 

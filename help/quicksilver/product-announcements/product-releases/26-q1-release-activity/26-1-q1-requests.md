@@ -4,9 +4,9 @@ description: 2026年第一季度请求增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ac1857f4cf4c6b3823773902ae8be439e2dcd55a
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '918'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 本页介绍了在2026年第一季度版本中对“预览”环境所做的请求增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
 
 ## 现在，创建的对象链接在请求区域和我的请求小组件中可用
 
@@ -140,7 +140,7 @@ For more information on creating views for the Request list and My Requests widg
 
 为了更便于保持请求的组织性和整洁，我们向新的请求体验添加了删除请求的功能。 现在，您可以删除已提交的请求。 Workfront管理员和Workfront Planning Workspace管理员也可以删除请求。
 
-以前，删除请求不可用。
+以前，此功能在新的请求体验中不可用。
 
 有关信息和说明，请参阅[删除提交的请求或请求草稿](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md)。
 

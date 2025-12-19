@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '1871'
+source-wordcount: '1869'
 ht-degree: 1%
 
 ---
@@ -82,7 +82,7 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 * Workfront Planning中必须存在以下项：
 
    * 工作区
-   * 记录类型。
+   * 记录类型
    * 与记录类型关联的请求表单。
 
      有关信息，请参阅[在Adobe Workfront Planning中创建申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
@@ -119,8 +119,8 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 
 {{step1-to-requests}}
 
-1. 启用屏幕右上角的&#x200B;**切换到新体验**&#x200B;设置。
-启用此设置可使Workfront计划请求表单在Workfront的&#x200B;**请求**&#x200B;区域中可用。
+1. 启用屏幕右上角的&#x200B;**切换到新体验**设置。
+启用此设置可使Workfront计划请求表单在Workfront的**请求**&#x200B;区域中可用。
 
    >[!TIP]
    >
@@ -162,7 +162,7 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 1. （可选）在确认消息中单击&#x200B;**查看您的请求**&#x200B;以打开该请求，或单击&#x200B;**X**&#x200B;图标以关闭确认。
 1. （可选）执行以下任一操作：
 
-   * 单击&#x200B;**筛选器**，开始为要在“规划”选项卡中查看的请求添加条件。
+   * 单击&#x200B;**筛选器**，开始添加条件以便在“请求”列表中查看哪些请求。
 
      ![在Planning请求选项卡中编辑筛选器](assets/filters-editing-box-in-requests-planning-tab.png)
 
@@ -175,7 +175,7 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
       * **状态**：请求的状态。
       * **输入者**：添加请求的用户的名称。 如果请求是由Workfront之外的人员添加的，则&#x200B;**输入者**&#x200B;字段显示`N/A`。
 
-        您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的筛选器。
+        您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**加入的筛选器。
 在添加筛选条件时，将自动筛选请求列表。
 
    * 单击&#x200B;**列**&#x200B;并隐藏、显示或重新排列请求列表中的列。
@@ -251,16 +251,14 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 
    <!--Click [Submit another request](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) to open the request form and add a new request.-->
 
-1. （可选）单击&#x200B;**主菜单** > **请求** > **计划**&#x200B;选项卡以查看您的请求，然后单击请求的名称。
+1. （可选）单击&#x200B;**主菜单** > **请求**&#x200B;以查看您的请求，然后单击请求的名称。
 
    此时将打开请求详细信息页面。
 
    ![请求带有注释的页面](assets/new-request-page-with-comment.png)
 
-
-
 1. （可选）在“注释”(Comments)区域输入注释。
-1. （视情况而定）如果请求表单未与批准关联，或者请求已获批准，请单击请求的名称，然后单击&#x200B;**记录**&#x200B;字段中的记录名称。
+1. （视情况而定）如果请求表单未与批准关联，或者请求已获批准，请单击请求的名称，然后单击&#x200B;**创建的对象**&#x200B;字段中的记录名称。
 
    记录页面将在Workfront Planning中打开。
 
@@ -270,7 +268,7 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
    >
    >* 如果请求表单与批准关联，则必须先获得批准，然后才能从请求页面访问记录。
 
-1. （可选）单击&#x200B;**记录类型**&#x200B;的名称。
+1. （可选）单击&#x200B;**对象类型**&#x200B;的名称。
 
    此时将在Workfront Planning中打开记录类型页面。
 
