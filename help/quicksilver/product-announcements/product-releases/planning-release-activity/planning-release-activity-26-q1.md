@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 066f678d4b13371eeca6aced586e1853a973cc03
+source-git-commit: 46f3be50925d2e830c572ce9bbad0d3b320f6a95
 workflow-type: tm+mt
-source-wordcount: '1497'
+source-wordcount: '1501'
 ht-degree: 0%
 
 ---
@@ -142,6 +142,7 @@ For information, see [Hierarchy and breadcrumb overview](/help/quicksilver/plann
 >预览： 2025年12月11日
 >生产快速发布： 2025年12月11日
 >适用于所有人的生产： 2025年12月11日
+>[!BADGE 超出计划]{type=Neutral}
 
 现在，与GenStudio for Performance Marketing品牌的连接字段默认添加到Workfront Planning的GenStudio工作区中的“产品”和“角色”记录类型。
 
@@ -158,6 +159,7 @@ For information, see [Hierarchy and breadcrumb overview](/help/quicksilver/plann
 >预览： 2025年12月11日
 >生产快速发布： 2025年12月11日
 >适用于所有人的生产： 2025年12月11日
+>[!BADGE 超出计划]{type=Neutral}
 
 我们添加了护栏，用于防止从Workfront Planning对象中删除GenStudio for Performance Marketing用户的权限。 经过这项改进后，您无法再从Planning的GenStudio工作区中移除GenStudio用户，也无法在GenStudio工作区中禁用记录类型的继承权限(如果这些权限包括GenStudio用户)。 在此改进之前，当您从Planning的GenStudio工作区中删除这些用户时，他们也将失去在GenStudio中记录类型的权限。
 
