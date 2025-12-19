@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
+source-git-commit: 066f678d4b13371eeca6aced586e1853a973cc03
 workflow-type: tm+mt
-source-wordcount: '1263'
+source-wordcount: '1497'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,23 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 改进了“连接的记录”页面
+
+>[!NOTE]
+>
+>预览： 2025年12月19日
+>快速生产： 2026年1月14日
+>全部生产： 2026年1月15日
+
+为了让您在处理连接的记录页面时拥有更大的灵活性，我们增强了Workfront Planning此区域中的视图功能。 以下是对记录的已连接记录页面的改进：
+
+* 您现在可以将时间轴和日历视图添加到记录的“连接的记录”页面。
+* 您现在可以从连接的记录页面共享所有视图。 在Workfront Planning的任何其他区域中，与您共享这些页面的用户可以在系统范围内查看这些页面的共享视图。 在Planning的任何其他区域共享的所有视图也会在与其共享这些视图的相同用户的已连接记录页面中可见。
+* 我们添加了限制，每个记录或对象类型仅允许一个连接的记录页面。 在此增强功能之前，您可以为同一记录或对象类型添加多个页面。 现在，您可以在一个连接的记录页面中为同一记录类型使用多个视图。
+* 我们在表视图底部添加了&#x200B;**新行**&#x200B;链接，并在连接的记录页面的右上角区域添加了&#x200B;**连接记录**&#x200B;按钮。 在此增强功能之前，**新行**&#x200B;链接和&#x200B;**连接记录**&#x200B;按钮仅存在于连接的项目页面上。
+
+有关信息，请参阅[将“连接的记录”页面添加到记录](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)。
 
 ## 在“连接的项目”记录页面中共享视图
 
@@ -116,26 +133,7 @@ For information, see [Hierarchy and breadcrumb overview](/help/quicksilver/plann
 
 有关信息，请参阅[编辑工作区](/help/quicksilver/planning/architecture/edit-workspaces.md)。
 
-<!--
 
-## Improvements to connected records pages
-
->[!NOTE]
->
->Preview: December 18, 2025 
->Production fast: January 14, 2026 
->Production for all: January 15, 2026 
-
-To give you more flexibility when working with connected records pages, we have enhanced the functionality of views in this area of Workfront Planning. The following are improvements in the connected records pages of a record that are coming with this release:
-
-* You can now add a timeline and a calendar view to a record's connected records page.
-* You can now share views from a connected records page. The views shared from these pages are visible system-wide by all users you share them with in any other area of Workfront Planning. All views shared in any other areas of Planning are also visible in the connected records page for the same users they are shared with.
-* We have added a restriction to only allow one connected records page per each record or object type. Prior to this enhancement, you could add multiple pages for the same record or object type. Now, you can use multiple views for the same record type in one connected records page.
-* We have added a **New row** link at the bottom of a table view and a **Connect records** button in the upper-right area of the connected records page. Prior to this enhancement, the **New row** link and the **Connect records** button existed only on a project connected page. 
-
-For information, see [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
-
--->
 
 ## 在GenStudio工作区中，默认将Brand Connection字段添加到“产品和角色”
 
