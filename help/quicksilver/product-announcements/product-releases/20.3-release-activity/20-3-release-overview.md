@@ -151,32 +151,32 @@ For specific release dates and times for each cluster, see the
 >您必须具备以下条件：
 >
 ><table style="table-layout:auto"> 
-&gt; <col> 
-&gt; <col> 
-&gt; <tbody> 
-&gt;  <tr> 
-&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Workfront计划</a>*</p> </td> 
-&gt;   <td>业务或更高</td> 
-&gt;  </tr> 
-&gt;  <tr> 
-&gt;   <td role="rowheader"> <p>许可证类型*</p> </td> 
-&gt;   <td> <p>查看或更高版本。 有关详细信息，请参阅<a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>。</p> </td> 
-&gt;  </tr> 
-&gt;  <tr> 
-&gt;   <td role="rowheader">产品</td> 
-&gt;   <td>Workfront 场景计划器 <p>有关Workfront Scenario Planner的信息，请参阅<a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Scenario Planner概述</a>。</p> </td> 
-&gt;  </tr> 
-&gt;  <tr data-mc-conditions=""> 
-&gt;   <td role="rowheader"><strong>访问级别*</strong> </td> 
-&gt;   <td> <p>查看对Scenario Planner的访问权限或更高</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
-&gt;  </tr> 
-&gt;  <tr data-mc-conditions=""> 
-&gt;   <td role="rowheader"> <p><strong>对象权限</strong> </p> </td> 
-&gt;   <td> <p>查看计划的权限或更高</p> <p>有关请求对计划的附加访问权限的信息，请参阅<a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref">在方案规划者中请求对计划的访问权限</a>。</p> </td> 
-&gt;  </tr> 
-&gt; </tbody> 
-&gt;</table>
-&gt;*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+>&gt; <col> 
+>&gt; <col> 
+>&gt; <tbody> 
+>&gt;  <tr> 
+>&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Workfront计划</a>*</p> </td> 
+>&gt;   <td>业务或更高</td> 
+>&gt;  </tr> 
+>&gt;  <tr> 
+>&gt;   <td role="rowheader"> <p>许可证类型*</p> </td> 
+>&gt;   <td> <p>查看或更高版本。 有关详细信息，请参阅<a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>。</p> </td> 
+>&gt;  </tr> 
+>&gt;  <tr> 
+>&gt;   <td role="rowheader">产品</td> 
+>&gt;   <td>Workfront 场景计划器 <p>有关Workfront Scenario Planner的信息，请参阅<a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Scenario Planner概述</a>。</p> </td> 
+>&gt;  </tr> 
+>&gt;  <tr data-mc-conditions=""> 
+>&gt;   <td role="rowheader"><strong>访问级别*</strong> </td> 
+>&gt;   <td> <p>查看对Scenario Planner的访问权限或更高</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+>&gt;  </tr> 
+>&gt;  <tr data-mc-conditions=""> 
+>&gt;   <td role="rowheader"> <p><strong>对象权限</strong> </p> </td> 
+>&gt;   <td> <p>查看计划的权限或更高</p> <p>有关请求对计划的附加访问权限的信息，请参阅<a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref">在方案规划者中请求对计划的访问权限</a>。</p> </td> 
+>&gt;  </tr> 
+>&gt; </tbody> 
+>&gt;</table>
+>&gt;*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
 
  
 
