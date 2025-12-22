@@ -6,10 +6,10 @@ description: 您可以将表格报表添加到画布功能板，以便以表格�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: d7caaa0871263fb8ef4224a9c298778f3ee2454a
 workflow-type: tm+mt
-source-wordcount: '1074'
-ht-degree: 1%
+source-wordcount: '1199'
+ht-degree: 2%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >画布功能板目前仅适用于参与Beta测试阶段的用户。 在此阶段，部分功能可能无法完成或无法按预期工作。 请按照“画布功能板测试版”概述文章中[提供反馈](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)部分的说明提交任何有关您体验的反馈。<br>
->&#x200B;>如果您对可能的错误或技术问题有反馈，请向Workfront支持提交票证。 有关详细信息，请参阅[联系客户支持](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
->&#x200B;>请注意，以下云提供商未提供此测试版：
+>如果您对可能的错误或技术问题有反馈，请向Workfront支持提交票证。 有关详细信息，请参阅[联系客户支持](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
+>请注意，以下云提供商未提供此测试版：
 >
 >* 自带Amazon Web Services密钥
 >* Azure
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
 <col> 
@@ -40,7 +40,7 @@ ht-degree: 1%
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront包</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
 <p>任何 </p> 
    </td> 
@@ -203,6 +203,16 @@ ht-degree: 1%
 1. 单击屏幕右上角的&#x200B;**保存**。
 
 ## 构建表报表时的注意事项
+
+### 带有财务数据的报表
+
+在访问级别对财务数据具有“查看”或“编辑”权限的用户仍可在画布功能板可视化图表中查看财务数据，即使已在任务或项目级别删除了“查看财务”权限。
+
+* 在访问级别没有财务数据权限的用户在报表中看不到财务数据。
+* 查看财务数据的用户仅限于他们已具有查看权限（项目、任务、问题等）的记录。 他们不会看到他们无法访问记录的财务值。
+* 报表创建者应在功能板中包含财务数据时务必谨慎，并注意他们与谁共享功能板，以防止意外访问。
+
+这是一个已知的限制，我们计划尽快解决它。
 
 ### 利用字段选择器
 

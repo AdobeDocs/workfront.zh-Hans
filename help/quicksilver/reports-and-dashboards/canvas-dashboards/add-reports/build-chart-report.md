@@ -6,9 +6,9 @@ description: 可以将您的数据显示为条形图、柱状图、折线图或�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: bb65fa45f6fce762920627ad0fb6fd1d832f23a3
+source-git-commit: 56af1b6c8e4ae7bb990288d9e6a4326ffd18c2c9
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: '1838'
 ht-degree: 1%
 
 ---
@@ -283,6 +283,16 @@ ht-degree: 1%
 1. 单击&#x200B;**保存**&#x200B;以创建报告并将其添加到仪表板。
 
 ## 构建图表报表时的注意事项
+
+### 带有财务数据的报表
+
+在访问级别对财务数据具有“查看”或“编辑”权限的用户仍可在画布功能板可视化图表中查看财务数据，即使已在任务或项目级别删除了“查看财务”权限。
+
+* 在访问级别没有财务数据权限的用户在报表中看不到财务数据。
+* 查看财务数据的用户仅限于他们已具有查看权限（项目、任务、问题等）的记录。 他们不会看到他们无法访问记录的财务值。
+* 报表创建者应在功能板中包含财务数据时务必谨慎，并注意他们与谁共享功能板，以防止意外访问。
+
+这是一个已知的限制，我们计划尽快解决它。
 
 ### 利用字段选择器
 
