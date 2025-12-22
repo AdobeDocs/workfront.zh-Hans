@@ -5,7 +5,7 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a47d2592-0f00-4bcd-bc8e-75f8e707a573
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 0%
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您组织的Workfront实例已载入到AdobeUnified Experience，则可以通过首选项菜单（您的配置文件图片）为所有Adobe Experience Cloud启用深色主题格式，并且您将不会看到适用于Workfront展示板的单独深色模式选项。
+>如果您组织的Workfront实例已载入到Adobe Unified Experience，则可以通过首选项菜单（您的配置文件图片）为所有Adobe Experience Cloud启用深色主题格式，并且您将不会看到适用于Workfront展示板的单独深色模式选项。
 
 有关详细信息，请参阅[讨论区电子邮件通知和首选项](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)。
 
@@ -118,15 +118,15 @@ ht-degree: 0%
 
 [观看此功能的视频演示](https://video.tv.adobe.com/v/3418600/){target=_blank}
 
-## 将敏捷团队Kanban卡迁移到展示板
+## 将Agile团队Kanban卡迁移到展示板
 
-敏捷团队Kanban展示板上的新&#x200B;**添加到展示板**&#x200B;按钮允许您将Kanban展示板中的所有卡片添加到Workfront展示板。 您可以选择创建新的Workfront展示板或将卡片添加到现有展示板。
+在Agile团队Kanban展示板上，新增了&#x200B;**添加到展示板**&#x200B;按钮允许您将Kanban展示板中的所有卡片添加到Workfront展示板。 您可以选择创建新的Workfront展示板或将卡片添加到现有展示板。
 
 在Workfront展示板上置入信息卡取决于列策略。 （例如，策略可以将所有状态为“进行中”的信息卡移动到特定列。） 如果没有策略或信息卡与策略不匹配，则信息卡放在最左侧的列中。 目前，旧版展示板上积压工作列中的信息卡未添加到Workfront展示板中。
 
 未从敏捷团队Kanban展示板中删除信息卡，信息卡状态更改将同步到两个展示板。 在准备好切换到Workfront展示板之前，您可以保持两个展示板处于活动状态。
 
-有关详细信息，请参阅[将Agile团队Kanban卡迁移到Workfront展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)。
+有关详细信息，请参阅[将Agile团队的Kanban卡迁移到Workfront展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)。
 
 [观看此功能的视频演示](https://video.tv.adobe.com/v/3420425/){target=_blank}
 

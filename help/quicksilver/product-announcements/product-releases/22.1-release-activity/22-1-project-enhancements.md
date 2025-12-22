@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d24f2aae-1c3d-41ed-ad17-6276bef2cf45
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1202'
 ht-degree: 0%
@@ -117,7 +117,7 @@ in January 2022
 
 有关详细信息，请参阅[在Adobe Workfront中将问题转化为项目](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)。
 
-## 在敏捷展示板上按用户列表筛选，显示分配最多的用户排在首位
+## 在“敏捷”展示板上按用户列表筛选，显示分配最多的用户排在首位
 
 >[!NOTE]
 >

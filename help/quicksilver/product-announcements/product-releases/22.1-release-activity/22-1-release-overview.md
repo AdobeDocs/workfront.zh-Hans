@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: daf977fe-957a-40ad-a37f-1c164cb4ada3
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '4758'
 ht-degree: 0%
@@ -184,7 +184,7 @@ For specific release dates and times for each cluster, see the
    <td><strong>在以下日期可用：</strong> <p>预览版本： 2021年11月18日 <br></p> <p>生产版本：随22.1版一起提供 </p> <p><strong>在以下环境中可用：</strong> </p> <p>新的Adobe Workfront体验 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#filter" class="MCXref xref" xrefformat="{para}">在敏捷展示板上按用户列表筛选，显示分配最多的用户排在前</a> </p> <p>现在，过滤器先显示分配最多的用户，这样用户无需滚动列表即可更轻松地找到。</p> <p>以前，Kanban和Scrum展示板上的按用户列表筛选条件按字母顺序显示。 </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#filter" class="MCXref xref" xrefformat="{para}">在Agile展示板上按用户列表筛选，显示分配最多的用户排在前</a> </p> <p>现在，过滤器先显示分配最多的用户，这样用户无需滚动列表即可更轻松地找到。</p> <p>以前，Kanban和Scrum展示板上的按用户列表筛选条件按字母顺序显示。 </p> </td> 
    <td><strong>在以下日期可用：</strong> <p>预览版本： 2021年11月11日 <br></p> <p>生产版本：使用22.1版本<b style="color: #ff0000;">（从22.1版本中删除）。 预览中不再可用。)</b></p> <p><strong>在以下环境中可用：</strong> </p> <p>新的Adobe Workfront体验 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -401,7 +401,7 @@ Workfront Proof中的新增功能现已可用。 有关详细信息，请参阅[
 
 ## 22.1版本网络研讨会
 
-Workfront 22.1版本网络研讨会于2022年1月12日发布。 您可以在Workfront One[&#128279;](https://one.workfront.com/s/event)的活动页面上查看网络研讨会录像。
+Workfront 22.1版本网络研讨会于2022年1月12日发布。 您可以在Workfront One[的](https://one.workfront.com/s/event)活动页面上查看网络研讨会录像。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

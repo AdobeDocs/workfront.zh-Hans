@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 7a29fcef1ee9a3010b7efc0713b5bbe9ca48b5cc
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '13634'
 ht-degree: 2%
@@ -1053,7 +1053,7 @@ ht-degree: 2%
       * [将引入列添加到展示板](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
       * [在展示板上使用组](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
       * [配置信息卡减少](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
-      * [将敏捷团队Kanban卡迁移到Workfront展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
+      * [将Agile团队Kanban卡迁移到Workfront展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
       * [管理工作流](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
       * [使用信息卡列表](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
       * [在工作流中创建迭代](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
@@ -1062,11 +1062,11 @@ ht-degree: 2%
    * [Agile概述](agile/agile-overview.md)
    * Adobe Workfront中的Agile入门 {#agile-in-workfront}
       * [Adobe Workfront中的Agile入门](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
-      * [创建敏捷团队](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
+      * [创建Agile团队](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
       * [配置Kanban](agile/get-started-with-agile-in-workfront/configure-kanban.md)
       * [配置Scrum](agile/get-started-with-agile-in-workfront/configure-scrum.md)
-   * 敏捷团队中的Kanban {#kanban}
-      * [敏捷团队中的Kanban](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
+   * Agile团队中的Kanban {#kanban}
+      * [Agile团队中的Kanban](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
       * [Kanban概述](agile/use-kanban-in-an-agile-team/kanban-overview.md)
       * [将子任务添加到Kanban展示板上的现有故事](agile/use-kanban-in-an-agile-team/add-a-subtask-to-an-existing-story.md)
       * [将现有任务或问题添加到Kanban板](agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md)
@@ -1109,12 +1109,12 @@ ht-degree: 2%
          * [管理Scrum展示板上的故事和问题](agile/use-scrum-in-an-agile-team/scrum-board/manage-scrum-board.md)
          * [在Scrum展示板上更新故事和子任务的状态](agile/use-scrum-in-an-agile-team/scrum-board/update-status-of-stories-and-subtasks.md)
          * [在Scrum展示板上查看和编辑故事信息](agile/use-scrum-in-an-agile-team/scrum-board/view-and-edit-story-info.md)
-   * 在敏捷环境中工作 {#work-in-agile-environment}
+   * 在Agile环境中工作 {#work-in-agile-environment}
       * [在Agile环境中工作](agile/work-in-an-agile-environment/work-in-an-agile-environment.md)
       * [创建Agile故事](agile/work-in-an-agile-environment/create-an-agile-story.md)
       * [管理Agile积压](agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
       * [移动敏捷故事](agile/work-in-an-agile-environment/move-an-agile-story.md)
-   * 敏捷提示、技巧和疑难解答 {#tips-tricks-agile}
+   * Agile的提示、技巧和疑难解答 {#tips-tricks-agile}
       * [敏捷提示、技巧和疑难解答](agile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-agile.md)
       * [自定义状态未显示在敏捷故事板上](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
 * 文档 {#documents}
@@ -2531,8 +2531,8 @@ ht-degree: 2%
       * [使用PKCE流程配置和使用您组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-pkce-flow.md)
       * [弃用API — 内部](wf-api/api/deprecation-api-internal.md)
       * [API版本21中的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-      * [API版本20中的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [API版本19中的新增功能](wf-api/api/new-api-version-19.md)
+      * [API版本20](/help/quicksilver/wf-api/api/new-api-version-20.md)中的新增功能
+      * [API版本19](wf-api/api/new-api-version-19.md)中的新增功能
       * [API版本18中的新增功能](wf-api/api/new-api-version-18.md)
       * [API版本17中的新增功能](wf-api/api/new-api-version-17.md)
       * [API版本16中的新增功能](wf-api/api/new-api-version-16.md)

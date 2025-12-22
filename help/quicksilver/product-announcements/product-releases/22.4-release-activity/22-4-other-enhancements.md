@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4e41eed3-1a3b-4247-8c0c-630efc9c1b69
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 0%
@@ -19,13 +19,13 @@ ht-degree: 0%
 
 有关22.4版本的所有可用更改列表，请参阅[22.4版本概述](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md)。
 
-## 用于InDesign的Adobe Workfront
+## 适用于InDesign的Adobe Workfront
 
-此插件现在可以在InDesign中安装。 它允许您访问工作项详细信息，与更新区域中的同事协作，以及提交校样以供全部查看，而无需离开XD。 立即转到Adobe Creative Cloud Marketplace以下载插件。
+此插件现在可以在InDesign中安装。 它允许您访问工作项详细信息，在更新区域与同事协作，以及在不离开XD的情况下提交验证以供全部审阅。 立即转到Adobe Creative Cloud Marketplace以下载插件。
 
-有关该插件的详细信息，请参阅 [!DNL Creative Cloud] 应用程序[&#128279;](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)的[!DNL Adobe Workfront] 插件。
+有关该插件的详细信息，请参阅[[!DNL Adobe Workfront] 应用程序 [!DNL Creative Cloud] 的](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)插件。
 
-[立即下载Adobe Workfront以便在商城中进行InDesign](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign)。
+[立即在商城中下载适用于InDesign的Adobe Workfront](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign)。
 
 管理员还可以从Admin Console中[使用插件](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html)创建包，并以托管或自管理方式部署到用户。
 
@@ -33,11 +33,11 @@ ht-degree: 0%
 
 现在，Workfront项目组合、计划、项目、任务、问题和文档字段在Workfront中更改时会自动更新。
 
-要允许对象元数据自动同步，您必须在设置>Experience Manager集成中为集成启用同步对象元数据切换开关。
+要允许对象元数据自动同步，您必须在设置> Experience Manager集成中为集成启用同步对象元数据切换开关。
 
 以前，只有项目字段会自动更新。
 
-有关详细信息，请参阅[配置Experience Manager Assetsas a Cloud Service集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)。
+有关详细信息，请参阅[配置Experience Manager Assets as a Cloud Service集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)。
 
 ## 项目和项目组合父对象的元数据推送
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 以前，只发送父项目数据。
 
-有关详细信息，请参阅[向Experience Manager Assets或Assets Essentials发送文档](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)。
+有关详细信息，请参阅[将文档发送到Experience Manager Assets或Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)。
 
 ## 扩展的团队描述
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 以前，在狭窄区域中滚动描述是查看所有内容的唯一方法。
 
-对描述的这种增强适用于敏捷和非敏捷团队。
+对描述的这种增强适用于Agile和非Agile团队。
 
 有关详细信息，请参阅[创建团队](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/create-a-team.md)。
 

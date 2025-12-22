@@ -6,10 +6,10 @@ description: Workfront管理员和具有计划或工作许可证的用户可以�
 author: Jenny
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -19,23 +19,23 @@ ht-degree: 0%
 
 您可以将用户添加到团队、设置团队布局模板以及设置当团队完成工作项时如何记录状态。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront包</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront 包</p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td>
    <p>标准</p>
-   <p>工作或更高</p></td>
+   <p>工作版或更高版本</p></td>
   </tr> 
  </tbody> 
 </table>

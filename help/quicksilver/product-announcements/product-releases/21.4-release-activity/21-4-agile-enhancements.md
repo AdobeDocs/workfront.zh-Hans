@@ -5,7 +5,7 @@ author: Luke
 draft: Probably
 feature: Product Announcements, Agile
 exl-id: 2c59b8b2-7239-4d20-a8c6-5938c2c4db93
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 0%
@@ -41,9 +41,9 @@ ht-degree: 0%
 >
 >此功能于2021年9月16日发布到“预览”环境。
 
-在21.3版本中，我们改进了敏捷信息卡标题和故事板（请参阅[敏捷信息卡标题和故事板更新](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)）。 这些更新应用于迭代以及项目的敏捷视图。
+在21.3版本中，我们改进了Agile卡页眉和故事板（请参阅[Agile卡页眉和故事板更新](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)）。 这些更新应用于迭代以及项目的Agile视图。
 
-在21.4版本中，我们将恢复这些增强功能，以用于“项目的敏捷视图”。 未对Agile迭代进行任何更改。
+在21.4版本中，我们将恢复为项目上的Agile视图提供这些增强功能。 未对Agile迭代进行任何更改。
 
 以下是关于项目中的Agile视图所还原的更改：
 

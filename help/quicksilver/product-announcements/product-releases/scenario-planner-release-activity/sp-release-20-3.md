@@ -8,7 +8,7 @@ description: Workfront Scenario Planner在“生产”20.3版本中仅在新的A
 author: Luke
 feature: Product Announcements, Workfront Scenario Planner
 exl-id: 9f89b6d6-8ca7-4b03-a8fe-fddb4c0c750b
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Scenario Planner使您能够：
 
   创建和比较场景，促进协作和共识，执行，然后在必要时重新计划。
 
-Scenario Planner帮助您在规划中更灵活。 无论您是公司战略计划的所有者，还是在为单个业务部门、部门或团队进行季度计划，Scenario Planner都可以提供帮助。 根据约束（如预算或团队资源）快速轻松地创建和比较多个方案。
+Scenario Planner帮助您在规划中更加敏捷。 无论您是公司战略计划的所有者，还是在为单个业务部门、部门或团队进行季度计划，Scenario Planner都可以提供帮助。 根据约束（如预算或团队资源）快速轻松地创建和比较多个方案。
 
 使用Scenario Planner，您可以在Scenario Planner中按目标或计划对方案建模，以回答以下问题：
 

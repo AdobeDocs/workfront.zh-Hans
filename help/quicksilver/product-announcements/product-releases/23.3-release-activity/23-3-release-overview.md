@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '2799'
 ht-degree: 0%
@@ -281,8 +281,8 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">将敏捷团队Kanban卡迁移到讨论区</a></p>
-                        <p>敏捷团队Kanban展示板上的新<b>添加到展示板</b>按钮允许您将Kanban展示板中的所有卡片添加到Workfront展示板。 您可以选择创建新的Workfront展示板或将卡片添加到现有展示板。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">将Agile团队Kanban卡迁移到展示板</a></p>
+                        <p>在Agile团队Kanban展示板上，新增了<b>添加到展示板</b>按钮允许您将Kanban展示板中的所有卡片添加到Workfront展示板。 您可以选择创建新的Workfront展示板或将卡片添加到现有展示板。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -768,7 +768,7 @@ Workfront Goals将在23.3版本发布时间范围内发布的新功能。 有关
 
 ### Workfront 维护更新
 
-有关22.3版本期间所做的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/zh-hans/docs/workfront-known-issues/releases/current-updates)。
+有关22.3版本期间所做的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)。
 
 ### 培训更新
 

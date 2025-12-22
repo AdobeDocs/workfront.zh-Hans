@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '2770'
 ht-degree: 0%
@@ -149,7 +149,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">迭代功能在Adobe Workfront讨论区中可用</a></p>
-                        <p>Workfront展示板中提供了几项新功能，使您能够使用敏捷Scrum功能。 这些功能包括：
+                        <p>Workfront展示板中提供了几项新功能，使您能够使用Agile Scrum功能。 这些功能包括：
                         <ul>
                         <li>用于分组与同一团队相关的展示板和协作处理工作的工作流</li>
                         <li>信息卡列表或积压的工作，可选择使用源将信息卡连接到Workfront任务和问题</li>
@@ -653,7 +653,7 @@ API版本16将随22.3版一起发布。 对于API版本16，我们修改了一�
 
 ### Workfront 维护更新
 
-有关23.2版本期间所做的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/zh-hans/docs/workfront-known-issues/releases/current-updates)。
+有关23.2版本期间所做的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)。
 
 ### 培训更新
 

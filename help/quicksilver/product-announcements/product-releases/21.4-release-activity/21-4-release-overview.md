@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0897b269-c6f3-4b63-8956-b7f9fbe0a553
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '4718'
 ht-degree: 0%
@@ -252,7 +252,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
    <td><strong>在以下日期可用：</strong> <p>预览版本： 2021年9月9日<br></p> <p>生产版本：随21.4版一起提供</p> <p><strong>在以下环境中可用：</strong> </p> <p>新的Adobe Workfront体验 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-agile-enhancements.md#changes" class="MCXref xref" xrefformat="{para}">项目的Agile视图更改</a> </p> <p>在21.3版本中，我们改进了敏捷信息卡标题和故事板（请参阅<a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile" class="MCXref xref" xrefformat="{para}">敏捷信息卡标题和故事板更新</a>）。 这些更新应用于迭代以及项目的敏捷视图。</p> <p>在21.4版本中，我们将恢复这些增强功能，以用于“项目的敏捷视图”。 未对Agile迭代进行任何更改。</p> <p>以下是关于项目中的Agile视图所还原的更改：</p> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-agile-enhancements.md#changes" class="MCXref xref" xrefformat="{para}">项目中的Agile视图更改</a> </p> <p>在21.3版本中，我们改进了Agile卡页眉和故事板（请参阅<a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile" class="MCXref xref" xrefformat="{para}">Agile卡页眉和故事板更新</a>）。 这些更新应用于迭代以及项目的Agile视图。</p> <p>在21.4版本中，我们将恢复为项目上的Agile视图提供这些增强功能。 未对Agile迭代进行任何更改。</p> <p>以下是关于项目中的Agile视图所还原的更改：</p> 
     <ul> 
      <li> <p>故事卡和板柱的宽度可调节。</p> </li> 
      <li> <p>列没有背景阴影。</p> </li> 
@@ -449,7 +449,7 @@ Workfront Scenario Planner版本21.4即将推出新功能。 有关这些现在�
 
 ## 21.4版本网络研讨会
 
-Workfront 21.4版本网络研讨会于2021年9月23日举行。 您可以从Workfront One[&#128279;](https://one.workfront.com/s/event)上的活动页面查看网络研讨会录像。
+Workfront 21.4版本网络研讨会于2021年9月23日举行。 您可以从Workfront One[上的](https://one.workfront.com/s/event)活动页面查看网络研讨会录像。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

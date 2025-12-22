@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4bd041a5-a6e3-4fe3-ae23-45980701e904
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## Workfront展示板的Scrum规划
 
-Adobe Workfront展示板中的新Scrum规划功能提供了灵活的选项来管理您的敏捷流程。 使用这些工具，您可以：
+Adobe Workfront展示板中的新Scrum规划功能提供了灵活的选项来管理您的Agile流程。 使用这些工具，您可以：
 
 * 跟踪迭代或冲刺中的工作
 * 使用Velocity指导团队承诺

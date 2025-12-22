@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6ad93735-652f-4a94-bc24-6c22bb2c8826
-source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 0%
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 我们已将“迭代详细信息”>“自定义Forms”页面更新为更加现代的设计，此设计与Workfront的其他区域一致。 该页面现在支持高级自定义表单功能，例如外部查找字段。
 
-有关信息，请参阅[在迭代中创建敏捷故事](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md)。
+有关信息，请参阅[在迭代中创建Agile故事](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md)。
 
 ## 群组区域的外观更新
 

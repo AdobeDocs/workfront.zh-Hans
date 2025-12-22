@@ -7,10 +7,10 @@ description: 迭代是为完成工作而保留的设定时间。 某些Agile团�
 author: Jenny
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -22,16 +22,16 @@ ht-degree: 0%
 
 迭代是为完成工作而保留的设定时间。 某些Agile团队可能会将开发周期称为冲刺。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -64,15 +64,15 @@ ht-degree: 0%
    <table style="table-layout:auto"> 
     <tbody> 
      <tr> 
-      <td><strong>[!UICONTROL 迭代名称]</strong></td> 
+      <td><strong>[！UICONTROL迭代名称]</strong></td> 
       <td>迭代的名称，如“Sprint 1”。</td> 
      </tr> 
      <tr> 
-      <td><strong>[!UICONTROL 迭代长度]</strong></td> 
+      <td><strong>[！UICONTROL迭代长度]</strong></td> 
       <td>迭代的长度，以天、周或月为单位。</td> 
      </tr>
      <tr> 
-      <td><strong>[!UICONTROL 开始日期]</strong></td> 
+      <td><strong>[！UICONTROL开始日期]</strong></td> 
       <td>迭代开始的日期。 根据迭代长度自动输入结束日期。</td> 
      </tr> 
     </tbody> 

@@ -6,10 +6,10 @@ description: 在Kanban展示板上查看故事拼贴时，某些信息可用于�
 author: Jenny
 feature: Agile
 exl-id: 88d156ea-0913-425e-b3eb-6ae81d2d2336
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '466'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -37,17 +37,17 @@ ht-degree: 0%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>带有直接指向项目的链接的项目名称<br>当在开发周期上使用敏捷视图时，此链接仅显示在故事中（父任务而非子任务）；当在项目上使用敏捷视图时，不显示此链接。</p> </td> 
+   <td> <p>带有直接指向项目<br>链接的项目名称；在开发周期上使用敏捷视图时，此链接仅显示在故事中（父任务而非子任务）；在项目上使用敏捷视图时，不显示此链接。</p> </td> 
    <td>✓ </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>文章的完成点数或小时数以及分配给文章的点数或小时数<br>这些数字用于计算并显示每个文章的[!UICONTROL 完成百分比]。</p> </td> 
+   <td> <p>文章的完成点数或小时数以及分配给文章的点数或小时数<br>这些数字用于计算并显示每个文章的[！UICONTROL完成百分比]。</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>每个故事和问题的[!UICONTROL 完成百分比]。<br>迭代的[!UICONTROL 完成百分比]是根据每个故事的[!UICONTROL 完成百分比]计算的。</p> <p>更新故事或问题的[!UICONTROL 完成百分比]时，您可以选择介于0和100之间的任意数字。</p> </td> 
+   <td> <p>每个故事和问题的[！UICONTROL完成百分比]。<br>迭代的[！UICONTROL完成百分比]是根据每个故事的[！UICONTROL完成百分比]计算的。</p> <p>更新故事或问题的[！UICONTROL完成百分比]时，您可以选择介于0和100之间的任意数字。</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -62,16 +62,16 @@ ht-degree: 0%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>可能已通过修改Agile视图而添加到Agile视图的任何其他字段（包括自定义字段），如[!UICONTROL Adobe Workfront]<a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">中的</a>视图概述中的“创建和自定义[!UICONTROL Agile]视图”中所述。</p> </td> 
+   <td> <p>通过修改Agile视图可能已添加到Agile视图的任何其他字段（包括自定义字段），如[！UICONTROL Adobe Workfront]<a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">中的</a>视图概述中的“创建和自定义[！UICONTROL Agile]视图”中所述。</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
  </tbody> 
 </table>
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -83,13 +83,13 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>新文档： [!UICONTROL Standard]</p> 
+   <td> <p>新文档： [！UICONTROL Standard]</p> 
    或
-   <p>当前： [!UICONTROL Work]或更高版本</p> </td> 
+   <p>当前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">对象权限</td> 
-   <td>[!UICONTROL Contribute]或[!UICONTROL Manage]对任务或问题的访问权限</td> 
+   <td>[！UICONTROL Contribute]或[！UICONTROL Manage]对任务或问题的访问权限</td> 
   </tr>
  </tbody> 
 </table>
@@ -106,7 +106,7 @@ ht-degree: 0%
 
 1. 在左侧面板中，选择&#x200B;**[!UICONTROL 迭代]**&#x200B;以选择特定迭代，或选择&#x200B;**[!UICONTROL 当前迭代]**。
 
-1. 转到[!UICONTROL Scrum]敏捷故事板。
+1. 转到[!UICONTROL Scrum] Agile故事板。
 1. 展开[!UICONTROL 文章]拼贴以查看与文章关联的所有字段。
 
    ![故事卡](assets/agile-storycard-scrum-2021-350x333.png)

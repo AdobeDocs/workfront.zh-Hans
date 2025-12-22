@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 57592455c61f0ddd14f6d2bcc033b58a8cdc7028
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1257'
 ht-degree: 2%
 
 ---
@@ -202,7 +202,7 @@ ht-degree: 2%
 
 1. （视情况而定）单击&#x200B;**添加项目**
 或
-开始键入项目的名称，如果找不到，请单击&#x200B;**添加项目**。 添加按钮后跟您键入的项目名称。
+开始键入项目的名称，如果找不到，请单击**添加项目**。 添加按钮后跟您键入的项目名称。
 
    ![从连接字段连接项目时添加项目](assets/add-project-when-connecting-it-from-connection-field.png)
 
@@ -227,7 +227,7 @@ ht-degree: 2%
 
 1. 为项目添加&#x200B;**连接的记录页**。
 
-   有关信息，请参阅文章[管理记录页布局](/help/quicksilver/planning/records/manage-the-record-page.md)中的“将连接的记录页添加到记录”部分。
+   有关信息，请参阅[将“连接的记录”页面添加到记录](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)。
 
    “连接的记录”页显示在表视图中。 连接的项目将显示在表中。
 

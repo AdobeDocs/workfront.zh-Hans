@@ -6,10 +6,10 @@ description: 故事在故事板上出现的顺序不指示优先级。 但是，
 author: Jenny
 feature: Agile
 exl-id: 326d78e0-06de-4b98-8fa6-102e0fd89d76
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 当您重新排序故事板上的列时，您所做的任何更改都保存在迭代或项目中，因此下次您或其他用户查看故事板时，更改会保留。 （清除浏览器缓存时，您所做的更改不会还原。）
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -35,9 +35,9 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>新文档： [!UICONTROL Standard]</p> 
+   <td> <p>新文档： [！UICONTROL Standard]</p> 
    或
-   <p>当前： [!UICONTROL Work]或更高版本</p> </td> 
+   <p>当前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -57,6 +57,6 @@ ht-degree: 0%
 
 ## 更改项目中的文章顺序
 
-与敏捷迭代不同，在敏捷视图中查看项目时，无法更改故事顺序。 要修改项目的文章顺序，必须在标准视图中查看项目。
+与Agile迭代不同，在Agile视图中查看项目时无法更改故事顺序。 要修改项目的文章顺序，必须在标准视图中查看项目。
 
 有关如何更改项目视图的信息，请参阅[[!UICONTROL Agile]视图[!UICONTROL 中的]管理项目](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)。 选择标准视图，而不是选择Agile视图。

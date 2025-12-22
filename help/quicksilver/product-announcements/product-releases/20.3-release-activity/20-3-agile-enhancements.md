@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f86122a2-17c7-4df5-a958-177cc3d14f73
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 0%
@@ -30,4 +30,4 @@ ht-degree: 0%
 
 ## 敏捷展示板一次加载50个工作项
 
-为了提高敏捷工具的速度和性能，现在可以在不同位置加载最多50张卡。 如果敏捷展示板上有超过50个工作项，则展示板或积压的底部会显示一个按钮，允许您加载其他工作项。
+为了提高敏捷工具的速度和性能，现在可以在不同位置加载最多50张卡。 如果Agile展示板上有超过50个工作项，则展示板或积压的底部会显示一个按钮，允许您加载其他工作项。

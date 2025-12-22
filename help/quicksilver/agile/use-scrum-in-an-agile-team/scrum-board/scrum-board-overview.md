@@ -7,7 +7,7 @@ description: Scrum敏捷故事板与完成状态和燃尽图一起显示。
 author: Jenny
 feature: Agile
 exl-id: 584288bb-2d98-4b69-8deb-d3b8e54d328c
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 0%
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 <!-- Audited: 5/2025 -->
 
-[!UICONTROL Scrum]敏捷故事板与完成状态和燃尽图一起显示。 这些Agile组件在[!UICONTROL Adobe Workfront]的以下情况下可用：
+[!UICONTROL Scrum] Agile故事板与完成状态和燃尽图一起显示。 这些Agile组件在[!UICONTROL Adobe Workfront]的以下情况下可用：
 
-* 在敏捷迭代中。 有关在纯Agile环境（包含积压和迭代）中使用Agile故事板、燃尽图和完成状态的更多详细信息，请参阅[在Agile环境中工作](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md)。
+* 在Agile迭代中。 有关在纯Agile环境（包含积压和迭代）中使用Agile故事板、燃尽图和完成状态的更多详细信息，请参阅[在Agile环境中工作](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md)。
 * 在Agile视图中查看项目时。 有关如何在现有项目中利用Agile故事板、燃尽图和完成状态的信息，请参阅[在Agile视图中管理项目](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)。
 
 ![Agile迭代](assets/agile-iteration-with-callouts.png)
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 * **任务状态**：根据文章所处的状态列，指示文章在迭代或项目中的进度。
 
-  通过修改敏捷视图，可以为项目自定义任务状态。
+  通过修改Agile视图，可以为项目自定义任务状态。
 
 * **泳道**：当父故事及其子任务显示在故事板上时，将专门为故事及其子任务创建泳道。 这提供了一种视觉区别，以便更好地查看故事的子任务在整个故事板中的进度。
 
@@ -69,8 +69,8 @@ ht-degree: 0%
 
 迭代积压事项仅显示可设置估算的故事或子任务。 如果父故事具有显示在故事板上的子任务（因为它们被分配到同一敏捷团队并属于迭代），则父任务不会显示在积压中。 在这种情况下，积压中仅显示子任务，而子任务和父故事显示在故事板上。
 
-例如，假设故事A包含子任务1和子任务2（这两个子任务均分配给同一敏捷团队）。 在这种情况下，故事A显示在包含子任务1和子任务2的泳道中的故事板上。 但是，积压中只显示子任务1和子任务2。
+例如，假设故事A包含子任务1和子任务2（且这两个子任务都分配给同一个Agile团队）。 在这种情况下，故事A显示在包含子任务1和子任务2的泳道中的故事板上。 但是，积压中只显示子任务1和子任务2。
 
-此逻辑同样适用于第二级子任务（子任务的子任务）。 如果子任务具有分配给同一敏捷团队的一个或多个第二级子任务且属于迭代，则积压中仅显示第二级子任务。
+此逻辑同样适用于第二级子任务（子任务的子任务）。 如果子任务有一个或多个分配给同一Agile团队的第二级子任务且属于迭代，则积压中仅显示第二级子任务。
 
 有关积压工作的详细信息，请参阅[管理Agile积压工作](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)。

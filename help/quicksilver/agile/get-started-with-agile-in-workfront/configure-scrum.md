@@ -2,25 +2,25 @@
 product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
 title: 配置Scrum
-description: 在创建团队期间或之后，您可以为Scrum敏捷团队配置以下选项。
+description: 在创建团队期间或之后，您可以为Scrum Agile团队配置以下选项。
 author: Jenny
 feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1725'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # 配置[!UICONTROL Scrum]
 
-您可以在[!DNL Adobe Workfront]中创建Agile团队，如[创建Agile团队](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md)中所述。 在创建Agile团队时，您可以选择团队用于完成其工作的方法。 您可以从以下选项中进行选择：
+您可以在[!DNL Adobe Workfront]中创建Agile团队，如[创建Agile团队](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md)中所述。 创建Agile团队时，您可以选择团队用于完成工作的方法。 您可以从以下选项中进行选择：
 
 * Scrum
-* Kanban
+* 看板
 
-本文介绍了如何配置Scrum团队的设置。 在创建Agile团队并选择Scrum方法之后，您可以参考本文以更新以下设置：
+本文介绍了如何配置Scrum团队的设置。 在创建Agile团队并选择Scrum方法之后，您可以参阅本文以更新以下设置：
 
 * 故事的估计单位是点还是小时
 * 敏捷故事板上的迭代和项目状态列
@@ -30,9 +30,9 @@ ht-degree: 0%
 
 有关配置Kanban团队的信息，请参阅[配置Kanban](/help/quicksilver/agile/get-started-with-agile-in-workfront/configure-kanban.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,14 +41,14 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr>
 
 <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> <p>标准</p> 
-   <p>工作或更高</p> </td> 
+   <p>工作版或更高版本</p> </td> 
   </tr>
 
 <tr> 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 您可以将故事配置为使用点数或小时进行估计。
 
-要配置如何为您的Agile团队估计故事：
+要配置如何为您的Agile团队估计故事，请执行以下操作：
 
 {{step1-to-team}}
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 ## 在敏捷故事板上配置状态列
 
-对于分配给团队的所有小版本或给定项目，您可以配置在敏捷故事板上显示的列。
+对于分配给团队的所有小版本或给定项目，您可以配置哪些列显示在敏捷故事板上。
 
 * [配置迭代的状态列](#configure-status-columns-for-iterations)
 * [配置项目的状态列](#configure-status-columns-for-projects)
@@ -179,9 +179,9 @@ ht-degree: 0%
 
 ## 配置颜色指示器如何用于敏捷故事板上的故事
 
-默认情况下，敏捷迭代中的故事板图块会根据故事关联的项目进行颜色编码。 每个项目都会在故事板上任意指定一种颜色。 您可以更改每个Agile团队的默认行为。 敏捷故事的颜色可以与故事优先级、所有者等关联。
+默认情况下，敏捷开发周期中的故事板图块会根据与故事关联的项目进行颜色编码。 每个项目都会在故事板上任意指定一种颜色。 您可以更改每个Agile团队的默认行为。 Agile故事的颜色可以与故事优先级、所有者等关联。
 
-要更改将颜色分配给敏捷团队故事的行为：
+要更改将颜色分配给Agile团队故事的行为：
 
 {{step1-to-team}}
 

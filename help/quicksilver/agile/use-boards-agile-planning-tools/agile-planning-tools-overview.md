@@ -3,11 +3,11 @@ content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: Agile规划工具概述：文章索引
-description: 使用临时信息卡和连接的信息卡创建展示板时，您可以利用展示板上的其他敏捷计划工具。
+description: 当您使用临时信息卡和连接的信息卡创建展示板时，您可以利用展示板上的其他敏捷计划工具。
 author: Jenny
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!-- Audited: 5/2025 -->
 
-当您使用临时信息卡和连接的信息卡创建展示板时，您可以利用其他的敏捷规划工具。
+当您使用临时信息卡和连接的信息卡创建展示板时，您可以利用其他敏捷规划工具。
 
 适用于Kanban的工具包括：
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 * [将引入列添加到展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
 * [在展示板上使用组](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md)
 * [配置信息卡减少](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)
-* [将敏捷团队Kanban卡迁移到Workfront展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
+* [将Agile团队Kanban卡迁移到Workfront展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
 * [管理工作流](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
 * [使用信息卡列表](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
 * [在工作流中创建迭代](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)

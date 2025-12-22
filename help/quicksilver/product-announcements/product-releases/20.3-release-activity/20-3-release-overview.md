@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d25fda7-8116-42ba-961b-12aed4678614
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '3829'
 ht-degree: 0%
@@ -118,7 +118,7 @@ For specific release dates and times for each cluster, see the
 >
 >您的组织必须具备以下条件才能使用本文中所述的功能：
 >
->* Pro或更高版本[Adobe Workfront计划](https://business.adobe.com/cn/products/workfront/pricing.html)。
+>* Pro或更高版本[Adobe Workfront计划](https://business.adobe.com/products/workfront/pricing.html)。
 >* 除了Adobe Workfront许可证之外，还提供了Workfront目标许可证。
 >
 >  请联系您的Workfront客户经理，了解有关Workfront Goals许可证的信息。
@@ -151,32 +151,32 @@ For specific release dates and times for each cluster, see the
 >您必须具备以下条件：
 >
 ><table style="table-layout:auto"> 
->&gt; <col> 
->&gt; <col> 
->&gt; <tbody> 
->&gt;  <tr> 
->&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/cn/products/workfront/pricing.html" target="_blank">Workfront计划</a>*</p> </td> 
->&gt;   <td>业务或更高</td> 
->&gt;  </tr> 
->&gt;  <tr> 
->&gt;   <td role="rowheader"> <p>许可证类型*</p> </td> 
->&gt;   <td> <p>查看或更高版本。 有关详细信息，请参阅<a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>。</p> </td> 
->&gt;  </tr> 
->&gt;  <tr> 
->&gt;   <td role="rowheader">产品</td> 
->&gt;   <td>Workfront 场景计划器 <p>有关Workfront Scenario Planner的信息，请参阅<a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Scenario Planner概述</a>。</p> </td> 
->&gt;  </tr> 
->&gt;  <tr data-mc-conditions=""> 
->&gt;   <td role="rowheader"><strong>访问级别*</strong> </td> 
->&gt;   <td> <p>查看对Scenario Planner的访问权限或更高</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
->&gt;  </tr> 
->&gt;  <tr data-mc-conditions=""> 
->&gt;   <td role="rowheader"> <p><strong>对象权限</strong> </p> </td> 
->&gt;   <td> <p>查看计划的权限或更高</p> <p>有关请求对计划的附加访问权限的信息，请参阅<a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref">在方案规划者中请求对计划的访问权限</a>。</p> </td> 
->&gt;  </tr> 
->&gt; </tbody> 
->&gt;</table>
->&gt;*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&gt; <col> 
+&gt; <col> 
+&gt; <tbody> 
+&gt;  <tr> 
+&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Workfront计划</a>*</p> </td> 
+&gt;   <td>业务或更高</td> 
+&gt;  </tr> 
+&gt;  <tr> 
+&gt;   <td role="rowheader"> <p>许可证类型*</p> </td> 
+&gt;   <td> <p>查看或更高版本。 有关详细信息，请参阅<a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>。</p> </td> 
+&gt;  </tr> 
+&gt;  <tr> 
+&gt;   <td role="rowheader">产品</td> 
+&gt;   <td>Workfront 场景计划器 <p>有关Workfront Scenario Planner的信息，请参阅<a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Scenario Planner概述</a>。</p> </td> 
+&gt;  </tr> 
+&gt;  <tr data-mc-conditions=""> 
+&gt;   <td role="rowheader"><strong>访问级别*</strong> </td> 
+&gt;   <td> <p>查看对Scenario Planner的访问权限或更高</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+&gt;  </tr> 
+&gt;  <tr data-mc-conditions=""> 
+&gt;   <td role="rowheader"> <p><strong>对象权限</strong> </p> </td> 
+&gt;   <td> <p>查看计划的权限或更高</p> <p>有关请求对计划的附加访问权限的信息，请参阅<a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref">在方案规划者中请求对计划的访问权限</a>。</p> </td> 
+&gt;  </tr> 
+&gt; </tbody> 
+&gt;</table>
+&gt;*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
 
  
 
@@ -227,7 +227,7 @@ For specific release dates and times for each cluster, see the
    <td> <p>Beta预览版本： 2020年6月17日</p> <p>生产版本： 2020年7月2日</p> <p><strong>在以下环境中可用：</strong> </p> <p>新的Adobe Workfront体验 </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-agile-enhancements.md#agile" class="MCXref xref">Agile展示板一次加载50个工作项</a> </p> <p>为了提高敏捷工具的速度和性能，现在可以在不同位置加载最多50张卡。 如果敏捷展示板上有超过50个工作项，则展示板或积压的底部会显示一个按钮，允许您加载其他工作项。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-agile-enhancements.md#agile" class="MCXref xref">Agile展示板一次加载50个工作项</a> </p> <p>为了提高敏捷工具的速度和性能，现在可以在不同位置加载最多50张卡。 如果Agile展示板上有超过50个工作项，则展示板或积压的底部会显示一个按钮，允许您加载其他工作项。</p> </td> 
    <td><strong>在以下日期可用：</strong> <p>Beta预览版本： 2020年6月19日</p> <p>生产版本：随20.3版提供</p> <p><strong>在以下环境中可用：</strong> </p> <p>新的Adobe Workfront体验 </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
@@ -451,7 +451,7 @@ API版本11随2020.1版发布。 有关新增功能和更新的信息，请参�
 
 借助Workfront One，您可以从Workfront中发现最重要的内容、资源和新闻 — 全部放在一个地方，只需登录一次。 我们统一了Experience、Community和Training站点，让您能够更轻松地找到您所寻找的内容。
 
-[进一步了解Workfront One](https://business.adobe.com/cn/products/workfront.html)。
+[进一步了解Workfront One](https://business.adobe.com/products/workfront.html)。
 
 ### 20.3版本网络研讨会 {#20-3-release-webinar}
 

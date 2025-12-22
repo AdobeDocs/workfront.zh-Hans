@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: dc97f4a2-9c51-4ccd-8121-c00fd1ac6988
-source-git-commit: ba11f324f6ad68f841bf4266e5eb27f59e25ddae
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1198'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 23.2 Agile增强功能
 
-本页介绍了23.2版本对“预览”环境所做的所有敏捷增强。 这些增强功能将在23.2版本的生产环境中提供。
+本页介绍了23.2版本对“预览”环境所做的所有Agile增强。 这些增强功能将在23.2版本的生产环境中提供。
 
 有关23.2发行周期此刻所有可用更改的列表，请参阅[23.2发行版概述](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)。
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## Adobe Workfront展示板中可用的迭代功能
 
-Workfront展示板中提供了几项新功能，使您能够使用敏捷Scrum功能。 这些功能包括：
+Workfront展示板中提供了几项新功能，使您能够使用Agile Scrum功能。 这些功能包括：
 
 * 用于分组与同一团队相关的展示板和协作处理工作的工作流
 * 信息卡列表或积压的工作，可选择使用源将信息卡连接到Workfront任务和问题

@@ -3,9 +3,9 @@ title: 层次结构和痕迹导航概述
 description: 您可以在工作区中的记录类型之间创建多个工作区层次结构。
 hide: true
 hidefromtoc: true
-source-git-commit: 6aba4316228a320cf33e419249a64b3cf56e8f39
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '887'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,10 @@ hidefromtoc: yes
 
 # 层次结构和痕迹导航概述
 
+<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 作为工作区管理员，您可以在Adobe Workfront Planning中的记录类型和其他对象类型之间定义灵活但结构化的层次结构。
 
 层级是记录类型之间或记录类型与Workfront项目之间的连接。
@@ -45,17 +49,17 @@ hidefromtoc: yes
 * 在一个层次结构中最多可以连接4个记录和对象类型。
 * 在工作区层次结构中，只能连接以下对象类型：
    * 记录属于您正在构建层次的工作区的类型。
-   * Workfront项目。 无法将Workfront项目添加为其他记录类型的父项。 它们始终是层级中的最后一个子级。
+   * Workfront项目。 无法将Workfront项目添加为其他记录类型的父项。 它们始终是层级中的最后一个对象类型。
 * 您不能在层次结构中添加以下对象类型：
-   * 来自其他工作区的记录类型，即使它们设置为可连接或全局记录类型也是如此。 只有在将全局记录类型添加到构建层次的工作区时，您才可以将全局记录类型添加到层级中。
+   * 来自其他工作区的记录类型，即使它们设置为可连接或全局记录类型也是如此。 仅当全局记录类型已添加到构建层次的工作区时，您才可以将全局记录类型添加到层次。
    * 所有其他Workfront对象。
-   * AEM Assets
+   * AEM Assets。
 * 层次结构可以同时包括Planning记录类型和Workfront项目。
 
       例如，您可以将Campaign记录类型与Planning Tactics和Workfront Projects作为同一工作区层次结构中的子项。
   * 如果所选记录类型之间已经存在连接，则系统将重用现有连接。
 * 如果不存在连接，Workfront将在层次结构设置中创建一个。
-* 必须为要包含在层次结构中的记录和对象的已连接字段打开&#x200B;**在链接记录类型上创建对应字段**&#x200B;设置。
+* 对于要包含在层次结构中的记录和对象类型，必须为连接的字段打开&#x200B;**在链接的记录类型上创建对应的字段**&#x200B;设置。
 * 以下是层次结构设置的规则：
    * 在给定工作区中，记录类型只能有一个父记录类型。
 
@@ -64,16 +68,19 @@ hidefromtoc: yes
 
      例如，一个工作区中可以有三个不同的层次结构，每个层次结构都可以将促销活动作为其父记录类型。
    * 当您将一个记录连接到多个或多个或多个记录类型时，可以将一个记录连接到多个相同类型的父记录。
-例如，策略A可以同时属于促销活动X和促销活动Y。
-   * 记录类型可以连接到多个子记录类型。
 
-     例如，Campaign记录类型可以是多个其他记录类型（如战术、测试和其他记录类型）的父级。
+     例如，策略A可以同时属于促销活动X和促销活动Y。
+   * 记录类型一次只能连接到一个子记录类型。 子记录类型也可以是另一个记录类型的父记录类型。
+
+     例如，一个Campaign记录类型只能是同一层级(Tactics)中一个其他记录类型的父级，而Tactics又可以是Programs的父级，后者可以是Projects的父级。
+   * 记录类型不能是同一工作区中一个层次结构的父级和另一个层次结构的子级。
    * 将全局记录类型添加到多个工作区后，它们可能会显示在多个层次结构内的多个工作区中。
 
      例如，如果促销活动是全局记录类型，并且是Workspace 1中层次结构的一部分，则它可作为现有记录类型添加到Workspace 2，并且可以是该处的层次结构的一部分。 但是，只有在Workspace 1中指定为全局记录类型，但未将其添加到Workspace 2时，它才能成为Workspace 2中层级的一部分。
 
-
 ## 查看痕迹导航时的注意事项
+
+<!-- this might be incomplete, because I have no UI for this yet-->
 
 在记录类型之间创建层级时，这些记录类型会为属于这些记录类型的记录生成痕迹导航。
 
@@ -87,5 +94,6 @@ hidefromtoc: yes
   例如，在查看与Planning营销活动和战术以及Workfront项目组合和项目群相关的项目时，您可以从痕迹导航在Planning和Workfront对象类型之间切换。
 
   有关详细信息，请参阅[创建工作区层次结构](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)。
+* 编辑记录时，更改将显示在所有工作区和记录所属的所有层次结构中。
 
 

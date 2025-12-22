@@ -7,7 +7,7 @@ description: Adobe Workfront展示板是一种灵活的工具，通过提供对�
 author: Jenny
 feature: Agile
 exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%

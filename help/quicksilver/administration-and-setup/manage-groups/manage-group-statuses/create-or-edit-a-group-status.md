@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1321'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -25,20 +25,20 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->在敏捷视图中查看项目时，无法对项目显示自定义组状态。 在敏捷视图中查看项目时，仅默认锁定状态和自定义锁定状态可见。 有关为项目自定义Agile视图的信息，请参阅[在Adobe Workfront中创建或编辑视图](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view)一文中的[创建或自定义Agile视图](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md)部分。
+>在Agile视图中查看项目时，自定义组状态无法显示在项目上。 在Agile视图中查看项目时，仅默认锁定状态和自定义锁定状态可见。 有关为项目自定义Agile视图的信息，请参阅[在Adobe Workfront中创建或编辑视图](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view)一文中的[创建或自定义Agile视图](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md)部分。
 
 有关状态的一般信息，请参阅[状态概述](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
+   <td>Adobe Workfront 包</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 

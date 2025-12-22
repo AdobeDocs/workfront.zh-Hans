@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '2731'
+source-wordcount: '2940'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 &lt;！ — 在此提及，详细信息视图中的字段与表格视图中的字段相同 — 本文从“管理记录”视图链接，其中一个引用此信息 — >
 
-## 访问要求
+## 访问权限要求
 
 +++ 展开以查看本文中各项功能的访问要求。 
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront包</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
 <p>任何Workfront和任何Planning包</p> <p>任何工作流和任何计划包</p>
 <p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
@@ -142,11 +142,14 @@ ht-degree: 0%
    * 来自其他记录的链接字段
    * 公式类型字段
    * 系统字段（“创建者”、“创建日期”、“上次修改者”、“上次修改日期”）
-* 如果显示的记录链接到其他记录，则您正在编辑的记录的新信息将反映在链接的记录上。
+* 如果显示的记录链接到其他记录，则您正在编辑的记录的新信息将反映在链接该记录的所有工作区中的链接记录上。
 * 不能批量编辑记录。<!--this will probably change-->
 * 只有当URL以以下内容开头时，才会被识别为单行文本字段类型中的链接： http://、https://、ftp://或www。.
 * 您可以向每张记录添加封面图像。 每个记录的图像都是唯一的，并且不适用于同一时间的所有记录。
 * 您可以编辑记录页中的字段顺序并为记录添加封面图像。 有关详细信息，请参阅[管理记录页布局](/help/quicksilver/planning/records/manage-the-record-page.md)。
+* 通过调整时间轴和日历视图中的记录大小或重新定位这些记录，可以编辑记录的开始日期和结束日期。
+
+  当为记录选择的开始日期和结束日期为只读时，不能调整记录大小或重新定位记录。 例如，对记录的开始日期和结束日期使用查找或公式字段不允许您在时间轴和日历视图中调整记录大小或重新定位记录。<!--this also repeats below, for the timeline and the calendar views; also update there, if this changes-->
 
 ## 编辑记录
 
@@ -266,6 +269,10 @@ ht-degree: 0%
 
 1. 单击并保留一个记录栏，然后将它拖放到另一个位置以更新其时间轴和日期。 记录的开始日期和结束日期会自动更新。
 
+   >[!IMPORTANT]
+   >
+   >如果为记录选择的开始日期和结束日期为只读，则不能拖放记录栏的结尾，也不能将记录拖放到另一个日期。 例如，对记录的开始日期和结束日期使用查找或公式字段不允许您在时间线视图中调整记录大小或重新定位记录。<!--this also repeats in Considerations and in editing in the calendar view; also update there, if this changes-->
+
 1. 单击记录栏以打开其详细信息区域并编辑所有字段。
 
    有关信息，请参阅本文中[在视图](#edit-a-record-from-the-records-preview-in-a-view)中编辑记录预览中的记录。
@@ -280,6 +287,10 @@ ht-degree: 0%
    ![日历视图上的左侧栏以调整大小](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)
 
 1. 单击并保留一个记录栏，然后将它拖放到另一个位置以更新其时间轴和日期。 记录的开始日期和结束日期会自动更新。
+
+   >[!IMPORTANT]
+   >
+   >如果为记录选择的开始日期和结束日期为只读，则不能拖放记录栏的结尾，也不能将记录拖放到另一个日期。 例如，对记录的开始日期和结束日期使用查找或公式字段不允许您在日历视图中调整记录大小或重新定位记录。<!--this also repeats in Considerations and in editing in the timeline view; also update there, if this changes-->
 
 1. 单击记录栏以打开其详细信息区域并编辑所有字段。
 

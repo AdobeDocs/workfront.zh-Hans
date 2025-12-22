@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51967cd7-962e-4354-a04b-6df4e31e70c6
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '989'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -25,16 +25,16 @@ ht-degree: 4%
 
 有关Workfront管理员如何创建团队的信息，请参阅[从设置区域创建团队](../../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
+   <td>Adobe Workfront 包</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -103,7 +103,7 @@ ht-degree: 4%
       </tbody> 
      </table>
 
-   * **编辑团队**：至少选择一个团队，单击&#x200B;**&#x200B;**“编辑”图标![“编辑”图标](assets/edit-icon.png)，然后使用以下选项对其进行配置：
+   * **编辑团队**：至少选择一个团队，单击&#x200B;****“编辑”图标![“编辑”图标](assets/edit-icon.png)，然后使用以下选项对其进行配置：
 
      <table style="table-layout:auto"> 
       <col> 

@@ -6,10 +6,10 @@ description: Scrum展示板故事的默认颜色关联因故事板位于开发�
 author: Jenny
 feature: Agile
 exl-id: 8e351505-73d1-4c8f-b369-53c965b88c95
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '427'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 0%
 
 根据故事板位于开发周期还是项目上，故事的默认颜色关联会有所不同：
 
-* **[!UICONTROL 迭代]**：在迭代中，故事板图块会根据与故事关联的项目进行颜色编码。 （每个项目都会在故事板上任意指定一种颜色。） 您可以更改每个Agile团队的默认行为。 开发周期上Agile文章的颜色可以与项目（默认）、文章优先级、所有者或自由格式绑定。 有关详细信息，请参阅[配置Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur4)一文中的[配置Agile故事板上的故事如何使用颜色指示器](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)。
+* **[!UICONTROL 迭代]**：在迭代中，故事板图块会根据与故事关联的项目进行颜色编码。 （每个项目都会在故事板上任意指定一种颜色。） 您可以更改每个Agile团队的默认行为。 开发周期上的Agile故事的颜色可以与项目（默认）、故事优先级、所有者或自由格式绑定。 有关详细信息，请参阅[配置Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur4)一文中的[配置Agile故事板上的故事如何使用颜色指示器](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)。
 
-* **[!UICONTROL 项目]**：在项目中，任何子任务均与父任务的颜色匹配，因此任何给定泳道中所有故事的颜色均相同。 如果任务没有任何子任务或没有父任务，则颜色在创建时随机分配给任务。 您可以通过修改敏捷视图来更改此默认行为。 项目上的Agile文章的颜色可以与父文章（默认）、文章优先级、所有者或自由格式绑定。 有关详细信息，请参阅[中的[!UICONTROL 视图概述中的]创建或自定义](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view)Agile[视图 [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)。
+* **[!UICONTROL 项目]**：在项目中，任何子任务均与父任务的颜色匹配，因此任何给定泳道中所有故事的颜色均相同。 如果任务没有任何子任务或没有父任务，则颜色在创建时随机分配给任务。 您可以通过修改Agile视图来更改此默认行为。 项目上的Agile文章的颜色可以与父文章（默认）、文章优先级、所有者或自由格式绑定。 有关详细信息，请参阅[中的[!UICONTROL 视图概述中的]创建或自定义](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view)Agile[视图 [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -37,9 +37,9 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>新文档： [!UICONTROL Standard]</p> 
+   <td> <p>新文档： [！UICONTROL Standard]</p> 
    或
-   <p>当前： [!UICONTROL Work]或更高版本</p> </td> 
+   <p>当前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr>
  </tbody> 
 </table>

@@ -6,7 +6,7 @@ description: 您可以通过多种方式将故事添加到开发周期。
 author: Jenny
 feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 3%
@@ -96,7 +96,7 @@ ht-degree: 3%
 转到项目、报告或仪表板，其中包含要添加到开发周期的任务或问题。 然后选择一个或多个任务或问题。
 
 1. 单击&#x200B;**[!UICONTROL 更多]** ![更多图标](assets/more-icon.png) > **[!UICONTROL 添加到迭代]**。
-您无法将任务或问题分配给非敏捷团队。
+您不能将任务或问题分配给非Agile团队。
 
 1. 在&#x200B;**[!UICONTROL 添加到]**&#x200B;框中，开始键入迭代的名称，并在该迭代出现在列表中时将其选定。
 

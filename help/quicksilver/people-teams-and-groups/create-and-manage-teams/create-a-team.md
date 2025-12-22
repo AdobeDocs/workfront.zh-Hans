@@ -6,10 +6,10 @@ description: 默认情况下，创建团队后，您会成为团队所有者。
 author: Jenny
 feature: People Teams and Groups
 exl-id: 4bef734c-de86-4c58-a0e8-fbb3c5785f4c
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '471'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -21,16 +21,16 @@ ht-degree: 0%
 
 有关[!DNL Adobe Workfront]管理员如何从[!UICONTROL 设置]区域创建团队的信息，请参阅[从[!UICONTROL 设置]区域创建团队](../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront包</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront 包</p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 

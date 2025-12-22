@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 0%
@@ -123,7 +123,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront展示板的Scrum规划</a><span style="color: #ff0000;">即将推出！</span></p>
-                        <p>Adobe Workfront展示板中的新Scrum规划功能提供了灵活的选项来管理您的敏捷流程。 使用这些工具，您可以：
+                        <p>Adobe Workfront展示板中的新Scrum规划功能提供了灵活的选项来管理您的Agile流程。 使用这些工具，您可以：
                         <ul>
                         <li>跟踪迭代或冲刺中的工作</li>
                         <li>使用Velocity指导团队承诺</li>
@@ -521,7 +521,7 @@ Workfront Goals 23.1版本中的新增功能即将发布到目标版本中。 �
 
 ### Workfront 维护更新
 
-有关22.3版本期间所做的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/zh-hans/docs/workfront-known-issues/releases/current-updates)。
+有关22.3版本期间所做的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)。
 
 ### 培训更新
 

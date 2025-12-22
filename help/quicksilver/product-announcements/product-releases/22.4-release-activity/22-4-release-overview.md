@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: f4c1f2170d826b4b6f1e8189e1fecc1edb6e0d97
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '3231'
+source-wordcount: '3232'
 ht-degree: 0%
 
 ---
@@ -678,7 +678,7 @@ ht-degree: 0%
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">扩展的团队描述</a></p>
                         <p>在团队区域，您现在可以通过单击描述来查看完整的团队描述，并在弹出窗口中显示描述。 可以在弹出窗口中单击描述中的任何URL，并且您可以单击描述文本对其进行编辑（如果您有权编辑团队设置）。</p>
                         <p>以前，在狭窄区域中滚动描述是查看所有内容的唯一方法。</p>
-<p>对描述的这种增强适用于敏捷和非敏捷团队。</p>
+<p>对描述的这种增强适用于Agile和非Agile团队。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -733,11 +733,11 @@ Workfront Fusion中的新增功能在22.4版本发行计划之外的生产环境
 
 ### Workfront 维护更新
 
-有关22.3版本期间所做的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/zh-hans/docs/workfront-known-issues/releases/current-updates)。
+有关22.3版本期间所做的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)。
 
 ### 22.4版本网络研讨会
 
-22.4版本网络研讨会将于2022年9月22日星期四上午9:00（太平洋夏令时间）举行。 您可以[在此注册网络研讨会](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt)。
+22.4版本网络研讨会将于2022年9月22日星期四太平洋夏季时间上午9:00举行。 :00您可以[在此注册网络研讨会](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt)。
 
 ### 培训更新
 

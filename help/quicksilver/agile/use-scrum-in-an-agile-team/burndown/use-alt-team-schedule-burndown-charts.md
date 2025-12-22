@@ -6,10 +6,10 @@ description: 在 [!DNL Adobe Workfront] 中定义的计划通过从燃尽中排�
 author: Jenny
 feature: Agile
 exl-id: 72650c19-434d-463a-8924-49219604ff01
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -17,15 +17,15 @@ ht-degree: 0%
 
 在[!DNL Adobe Workfront]中定义的计划通过从燃尽中排除休息日（周末和节假日）而影响燃尽图。
 
-默认情况下，燃尽图使用默认计划。 除了默认计划之外，Agile团队还可以选择使用替代计划以合并团队特定的非工作日。 然后，此备用计划会反映在分配给团队的任何迭代的燃尽图中。 替代计划仅影响燃尽图。 （有关默认计划以及[!DNL Workfront]管理员如何创建团队特定计划的详细信息，请参阅[创建计划](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。）
+默认情况下，燃尽图使用默认计划。 除了默认计划之外，Agile团队还可以选择使用替代计划，以合并团队特定的非工作日。 然后，此备用计划会反映在分配给团队的任何迭代的燃尽图中。 替代计划仅影响燃尽图。 （有关默认计划以及[!DNL Workfront]管理员如何创建团队特定计划的详细信息，请参阅[创建计划](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。）
 
 燃尽图未将部分天数考虑在内。 例如，如果您的团队每个星期五工作4小时，则燃尽图中显示为全天。
 
 有关使用燃尽图的更多信息，请参阅[Agile燃尽图概述](../../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,13 +34,13 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> <p>标准</p> 
-   <p>工作或更高</p> </td> 
+   <p>工作版或更高版本</p> </td> 
   </tr>
  </tbody> 
 </table>

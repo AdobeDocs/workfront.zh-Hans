@@ -2,14 +2,14 @@
 product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
 title: 配置Kanban
-description: 在创建团队期间或之后，您可以为Kanban敏捷团队配置以下选项。
+description: 在创建团队期间或之后，您可以为Kanban Agile团队配置以下选项。
 author: Jenny
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1484'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -17,12 +17,12 @@ ht-degree: 0%
 
 <!--Audited: 12/2023-->
 
-您可以在[!DNL Adobe Workfront]中创建Agile团队，如[创建Agile团队](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)中所述。 在创建Agile团队时，您可以选择团队用于完成其工作的方法。 您可以从以下选项中进行选择：
+您可以在[!DNL Adobe Workfront]中创建Agile团队，如[创建Agile团队](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)中所述。 创建Agile团队时，您可以选择团队用于完成工作的方法。 您可以从以下选项中进行选择：
 
 * Scrum
-* Kanban
+* 看板
 
-本文介绍了如何配置Kanban团队的设置。 在创建敏捷团队并选择Kanban方法之后，您可以参考本文以更新以下设置：
+本文介绍了如何配置Kanban团队的设置。 在创建Agile团队并选择Kanban方法之后，您可以参考本文以更新以下设置：
 
 * 故事的估计单位是点还是小时
 * 敏捷故事板上的状态列
@@ -33,9 +33,9 @@ ht-degree: 0%
 
 有关配置Scrum团队的信息，请参阅[配置Scrum](../get-started-with-agile-in-workfront/configure-scrum.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,14 +44,14 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr>
 
 <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> <p>标准</p> 
-   <p>工作或更高</p> </td> 
+   <p>工作版或更高版本</p> </td> 
   </tr>
 
 <tr> 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 您可以将故事配置为使用点数或小时进行估计。
 
-要配置如何为您的Agile团队估计故事：
+要配置如何为您的Agile团队估计故事，请执行以下操作：
 
 {{step1-to-team}}
 
@@ -161,7 +161,7 @@ ht-degree: 0%
 
 定义Kanban团队的WIP限制时，可以通过限制可在[!UICONTROL Kanban]展示板上的[!UICONTROL New]或[!UICONTROL In Progress]列中出现的任务数来控制团队当前正在处理的项目数。
 
-配置Kanban团队的WIP限制后，您可以查看WIP限制并从[!UICONTROL Kanban]敏捷故事板更新它，如[Kanban[!UICONTROL 展示板]上的](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)管理正在进行的工作(WIP)限制中所述。
+配置Kanban团队的WIP限制后，您可以查看WIP限制并从[!UICONTROL Kanban] Agile故事板更新它，如[Kanban[!UICONTROL 展示板]上的](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)管理正在进行的工作(WIP)限制中所述。
 
 要限制Kanban团队的WIP，请执行以下操作：
 
@@ -176,7 +176,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL Agile]**&#x200B;部分的&#x200B;**[!UICONTROL 方法]**&#x200B;部分中，确保已选择Kanban。
 
-1. 在&#x200B;**[!UICONTROL 故事板]**&#x200B;部分的&#x200B;**[!UICONTROL WIP限制]**&#x200B;字段中，指定[!UICONTROL Kanban]敏捷故事板每列允许的最大项目数。 您可以为每个列设置不同的限制。 您可以为每个列设置的最大限制为100。
+1. 在&#x200B;**[!UICONTROL 故事板]**&#x200B;部分的&#x200B;**[!UICONTROL WIP限制]**&#x200B;字段中，指定[!UICONTROL Kanban] Agile故事板每列允许的最大项目数。 您可以为每个列设置不同的限制。 您可以为每个列设置的最大限制为100。
 设置后，每当超过故事板上任何列的限制，WIP限制会在[!UICONTROL Kanban]敏捷故事板上显示警告消息。 此警告消息仅在第一次超出WIP限制时显示。 此警告消息不显示在任何状态等于[!UICONTROL Complete]的列上。
 WIP限制只是一个视觉上的警告，不会限制您的团队在一列中拥有超过您设置的限制数量的项目。
 
