@@ -733,7 +733,7 @@ Workfront Fusion中的新增功能在22.4版本发行计划之外的生产环境
 
 ### Workfront 维护更新
 
-有关22.3版本期间所做的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)。
+有关22.3版本期间所做的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/zh-hans/docs/workfront-known-issues/releases/current-updates)。
 
 ### 22.4版本网络研讨会
 

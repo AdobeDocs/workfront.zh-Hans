@@ -653,7 +653,7 @@ API版本16将随22.3版一起发布。 对于API版本16，我们修改了一�
 
 ### Workfront 维护更新
 
-有关23.2版本期间所做的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)。
+有关23.2版本期间所做的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/zh-hans/docs/workfront-known-issues/releases/current-updates)。
 
 ### 培训更新
 
