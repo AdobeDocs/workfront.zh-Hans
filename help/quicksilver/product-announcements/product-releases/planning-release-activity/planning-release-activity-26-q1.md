@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 46f3be50925d2e830c572ce9bbad0d3b320f6a95
+source-git-commit: d956671b535d5c7a11d0fb17dc003a665a4f0597
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1798'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,54 @@ ht-degree: 0%
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
+## 在工作区中创建记录类型层次结构
+
+>[!NOTE]
+>
+>预览： 2025年12月23日
+>生产快速发布： 2026年1月14日
+>适用于所有人的生产： 2026年1月15日
+
+您现在可以在记录或对象类型之间定义灵活但结构化的层次结构。
+
+层级是记录类型之间的连接。 您最多可以将4个记录和对象类型连接到一个层级中，并且在一个工作区中最多可以有5个层级。 层次结构中的第一个记录类型是第一个父级。
+
+您可以使用层级来组织工作，并可视化策略如何进入执行。
+
+构建层次结构时，请考虑以下事项：
+
+* 您只能从层次结构中的一个工作区和Workfront项目中连接Planning记录类型。
+* 在同一工作区中，记录类型或项目只能有一个父级。
+* 记录类型可以是多个层次结构中的父级。
+* 可连接的记录类型不能用于工作区中与其自身不同的层次结构中。
+* 全局记录类型只能在其创建或添加的工作区中的层级中使用。
+
+有关详细信息，请参阅[层次结构和痕迹导航概述](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)。
+
+## 在记录页面中添加了新的统一痕迹导航
+
+>[!NOTE]
+>
+>预览： 2025年12月23日
+>生产快速发布： 2026年1月14日
+>适用于所有人的生产： 2026年1月15日
+
+在记录类型之间创建层级时，这些记录类型会为属于这些记录类型的记录生成痕迹导航。
+
+记录痕迹导航反映了它们在层次结构中的位置。 创建层级后，您可以在其页面顶部看到记录的痕迹导航，指示哪些其他父对象或子对象连接到该记录。 Workfront和Planning中的层级是一致的。
+
+例如，当某个项目连接到其Planning痕迹导航中的Planning记录类型时，您可以查看该项目的Planning层次结构，当它连接到Workfront中的Workfront对象类型（如项目组合或程序）时，您可以查看其Workfront层次结构。
+
+有关信息，请参阅[层次结构和痕迹导航概述](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)。
+
+
 ## 改进了“连接的记录”页面
 
 >[!NOTE]
 >
 >预览： 2025年12月19日
 >快速生产： 2026年1月14日
->全部生产： 2026年1月15日
+>适用于所有人的生产： 2026年1月15日
 
 为了让您在处理连接的记录页面时拥有更大的灵活性，我们增强了Workfront Planning此区域中的视图功能。 以下是对记录的已连接记录页面的改进：
 
@@ -66,54 +107,6 @@ ht-degree: 0%
 
 有关配置项目连接视图（包括筛选器）的详细信息，请参阅[将连接的记录页添加到记录](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)。
 
-<!--
-
-## Create record type hierarchies in workspaces
-
->[!NOTE]
->
->Preview: December 18, 2025 
->Production fast: January 14, 2026 
->Production all: January 15, 2026 
-
-You can now define flexible but structured hierarchies between record or object types.  
-
-Hierarchies are connections between record types. You can have up to 4 record and object types connected in one hierarchy, and you can have multiple hierarchies in one workspace. The first record type in the hierarchy is a parent, and all the other record or object types are its children objects.  
-
-You can use hierarchies to organize work in a way that reflects how your teams actually plan, operate, and deliver and to visualize how strategy flows into execution. 
-
-Consider the following when building hierarchies: 
-
-* You can have multiple hierarchies in a workspace 
-* You can connect only Planning record types from one workspace and Workfront projects in a hierarchy.  
-* A record type or a project can only have one parent in the same workspace. 
-* A record type can be the parent in multiple hierarchies 
-* Connectable record types cannot be used in hierarchies in other workspaces than their own. 
-* Global record types can be used in hierarchies only in the workspaces that they were created in or have been added to.  
-
-When you create hierarchies between record types, they generate breadcrumbs for records that belong to those record types. 
-
-For more information, see [Hierarchy and breadcrumb overview](help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
-
--->
-
-<!--
-
-## New unified breadcrumbs added to records' pages
-
->[!NOTE]
->
->Preview: December 18, 2025 
->Production fast: January 14, 2026 
->Production for all: January 15, 2026 
-
-We have added breadcrumbs to a record's page to reflect its spot in a hierarchy. After you create hierarchies, you can see a record's breadcrumb at the top of its page, indicating what other parent or children objects are connected to it. Hierarchies are consistent across Workfront and Planning.  
-
-For example, you can view a project's Planning hierarchy when it's connected to Planning record types in its Planning breadcrumb, and its Workfront hierarchy when it's connected to Workfront object types, like Portfolios or Programs, in Workfront.  
-
-For information, see [Hierarchy and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
-
--->
 
 ## Workspace主页改进
 
@@ -121,7 +114,7 @@ For information, see [Hierarchy and breadcrumb overview](/help/quicksilver/plann
 >
 >预览： 2025年12月18日
 >快速生产： 2026年1月14日
->全部生产： 2026年1月15日
+>适用于所有人的生产： 2026年1月15日
 
 我们对Workfront Planning中的Workspaces主页进行了以下改进：
 
@@ -132,7 +125,6 @@ For information, see [Hierarchy and breadcrumb overview](/help/quicksilver/plann
 * **其他工作区**&#x200B;选项卡已重命名为&#x200B;**所有工作区**，并且其中包含您至少拥有查看权限的所有工作区，包括您创建的那些工作区。
 
 有关信息，请参阅[编辑工作区](/help/quicksilver/planning/architecture/edit-workspaces.md)。
-
 
 
 ## 在GenStudio工作区中，默认将Brand Connection字段添加到“产品和角色”

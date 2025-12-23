@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
+source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 2%
+source-wordcount: '514'
+ht-degree: 3%
 
 ---
 
@@ -52,6 +52,10 @@ Adobe Workfront Planning对实例中可创建的对象数量存在限制。 设�
 | <span class="preview">一个记录类型的连接字段数</span> | <span class="preview">30</span> |
 | 公式字段表达式中的字符数 | 50,000 |
 | 可与Planning对象共享的实体（用户、角色、团队、公司、组）的数量 | 100 |
+| <span class="preview">层次结构中的记录类型数</span> | 4 |
+| <span class="preview">工作区中的层次结构数</span> | 5 |
+| <span class="preview">层次结构中一个子项的父连接记录数</span> | 10 |
+| 在多选连接类型中连接到一个记录的记录数，<span class="preview">在记录之间没有配置层次结构</span> | 500 |
 
 *我们建议不要有太多工作区，因为它们可能会变得难以管理，并且您的工作流可能过于分散。
 

@@ -1,30 +1,18 @@
 ---
 title: 创建Workspace层级
-description: 作为工作区管理员，您可以在Adobe Workfront Planning中的记录类型之间创建多个工作区层次结构。 在工作区中连接记录类型并创建层级后，记录类型会相互连接，其中一个记录类型指定为父级，而最多6个其他记录类型配置为子级。
-hide: true
-hidefromtoc: true
-exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
-workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 1%
-
----
-
-<!--update the metadata with real information when making this available in TOC and in the left nav:
-
----
-title: Create Workspace Hierarchies
-description: You can create multiple workspace hierarchies between the record types in a workspace. 
+description: 作为工作区管理员，您可以在Adobe Workfront Planning中的记录类型之间创建多个工作区层次结构。 在工作区中连接记录类型并创建层级后，记录类型会相互连接，其中一个记录类型指定为父级，而最多3个其他记录类型配置为子级。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hide: yes 
-hidefromtoc: yes 
+exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
+source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
+workflow-type: tm+mt
+source-wordcount: '953'
+ht-degree: 1%
+
 ---
 
--->
 
 # 创建工作区层次结构
 
@@ -38,13 +26,11 @@ hidefromtoc: yes
 
 如果两个记录类型之间的连接尚不存在，则可以在设置层次结构时创建该连接。 定义后，该层级将在工作区内的相关记录类型之间建立结构化路径。
 
-层次结构将为记录类型及其各自的记录<!--ensure this is the case: does the breadcrumb show for both the RT and the record??-->生成痕迹导航，这些记录类型及其各自的记录将显示在其标题中。 这样，用户就可以在工作流的任何阶段了解自己在层级中的位置。
+层级会为其各自的记录生成痕迹导航，这些痕迹导航会显示在它们的标题中。 这样，用户就可以在工作流的任何阶段了解自己在层级中的位置。
 
 有关层次结构和痕迹导航的一般信息，请参阅[层次结构和痕迹导航概述](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)。
 
 ## 访问权限要求
-
-<!--check the access to see if you oversimplified???-->
 
 +++ 展开以查看访问要求以执行本文中的步骤：  
 
@@ -85,6 +71,8 @@ hidefromtoc: yes
 
 ## 创建工作区层级
 
+在一个工作区中最多可创建5个层次结构。
+
 {#step1-to-planning}
 
 1. 单击工作区信息卡。
@@ -113,7 +101,7 @@ hidefromtoc: yes
 
    如果您正在创建与Workfront项目的连接，则不会在该项目上创建字段。
 
-1. （视情况而定）如果没有可用的连接字段，请单击“创建连接”**&#x200B;**&#x200B;并添加新连接，然后单击“保存”**&#x200B;**。
+1. （视情况而定）如果没有可用的连接字段，请单击“创建连接”****&#x200B;并添加新连接，然后单击“保存”****。
 
 1. （视情况而定）如果要添加新连接，请执行以下操作：
 
@@ -135,7 +123,7 @@ hidefromtoc: yes
 
    1. 单击&#x200B;**保存**。
 
-1. （视情况而定）如果在创建连接的字段时未选择&#x200B;**在链接的记录类型**&#x200B;上创建对应的字段，您将收到错误，必须首先执行以下操作：<!--check back on these steps; this is supposed to be seamless, but now you have to abandon creating a hierarchy to do this-->
+1. （视情况而定）如果在创建连接的字段时未选择&#x200B;**在链接的记录类型**&#x200B;上创建对应的字段，则您将收到错误，必须首先执行以下操作：<!--check back on these steps; this is supposed to be seamless, but now you have to abandon creating a hierarchy to do this-->
 
    1. 在&#x200B;**新建层次结构**&#x200B;框中单击&#x200B;**取消**。
    1. 单击工作区名称左侧的返回箭头，然后单击要选择作为父项的记录类型的卡片。
@@ -155,6 +143,13 @@ hidefromtoc: yes
 
    * 该层次结构已添加到工作区的&#x200B;**层次结构**&#x200B;部分。
    * 当您转到记录的页面时，填充连接字段的记录在其痕迹导航中显示所有连接。
+
+   >[!NOTE]
+   >
+   >您可以将子记录类型中的一个记录连接到父记录类型中的最多10个记录。
+   >
+   >有关详细信息，请参阅[层次结构和痕迹导航概述](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)。
+
 1. （可选）将鼠标悬停在层次结构上，然后单击&#x200B;**更多**&#x200B;菜单。
 
    ![层次结构更多菜单已展开](assets/hierarchy-more-menu-expanded.png)

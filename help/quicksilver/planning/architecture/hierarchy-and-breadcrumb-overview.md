@@ -1,28 +1,18 @@
 ---
 title: 层次结构和痕迹导航概述
-description: 您可以在工作区中的记录类型之间创建多个工作区层次结构。
-hide: true
-hidefromtoc: true
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
-workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 0%
-
----
-
-<!--update the metadata with real information when making this available in TOC and in the left nav:
-
----
-title: Hierarchy and Breadcrumb Overview
-description: You can create multiple workspace hierarchies between the record types in a workspace. 
+description: 连接记录类型后，您可以在工作区中的记录类型之间创建多个工作区层次结构。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hide: yes 
-hidefromtoc: yes 
+source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
+workflow-type: tm+mt
+source-wordcount: '1042'
+ht-degree: 0%
+
 ---
--->
+
+
 
 # 层次结构和痕迹导航概述
 
@@ -30,7 +20,7 @@ hidefromtoc: yes
 
 <span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
-作为工作区管理员，您可以在Adobe Workfront Planning中的记录类型和其他对象类型之间定义灵活但结构化的层次结构。
+作为工作区管理员，您可以在Adobe Workfront Planning中的连接的记录类型和其他对象类型之间定义灵活但结构化的层次结构。
 
 层级是记录类型之间或记录类型与Workfront项目之间的连接。
 
@@ -45,7 +35,7 @@ hidefromtoc: yes
 
 ## 使用层级时的注意事项
 
-* 您可以为一个工作区创建多个层次结构。
+* 您最多可以为一个工作区创建5个层次结构。
 * 在一个层次结构中最多可以连接4个记录和对象类型。
 * 在工作区层次结构中，只能连接以下对象类型：
    * 记录属于您正在构建层次的工作区的类型。
@@ -60,6 +50,9 @@ hidefromtoc: yes
   * 如果所选记录类型之间已经存在连接，则系统将重用现有连接。
 * 如果不存在连接，Workfront将在层次结构设置中创建一个。
 * 对于要包含在层次结构中的记录和对象类型，必须为连接的字段打开&#x200B;**在链接的记录类型上创建对应的字段**&#x200B;设置。
+* 如果记录类型是层次结构的一部分，则无法删除该记录类型。
+* 如果连接字段中引用的记录类型是层次结构的一部分，则无法删除该字段。 必须先从层次结构中删除记录类型或删除层次结构，然后才能删除记录类型。
+* 您可以从连接的记录类型中删除查找字段。 无法恢复字段中的信息。
 * 以下是层次结构设置的规则：
    * 在给定工作区中，记录类型只能有一个父记录类型。
 
@@ -77,18 +70,22 @@ hidefromtoc: yes
    * 将全局记录类型添加到多个工作区后，它们可能会显示在多个层次结构内的多个工作区中。
 
      例如，如果促销活动是全局记录类型，并且是Workspace 1中层次结构的一部分，则它可作为现有记录类型添加到Workspace 2，并且可以是该处的层次结构的一部分。 但是，只有在Workspace 1中指定为全局记录类型，但未将其添加到Workspace 2时，它才能成为Workspace 2中层级的一部分。
+   * 如果连接的记录类型是层次结构的一部分，则可从子记录类型将一个记录连接到父记录类型的多达10个记录。
+
+     例如，如果您在作为父项的营销活动和作为子项的角色之间创建层次结构，则可以将同一角色连接到最多10个营销活动。
 
 ## 查看痕迹导航时的注意事项
-
-<!-- this might be incomplete, because I have no UI for this yet-->
 
 在记录类型之间创建层级时，这些记录类型会为属于这些记录类型的记录生成痕迹导航。
 
 例如，如果您创建一个层次结构，然后将“促销活动”与“战术”、“活动”连接，然后再与“项目”连接，则当您导航到层次结构中连接的任何类型的记录时，可以查看该记录在层次结构中的放置位置。
 
+![痕迹导航](assets/breadcrumbs-on-project.png)
+
 请考虑以下事项：
 
 * 如果记录类型属于多个层次结构，则可以从记录页面上的记录痕迹导航在层次结构之间切换。
+* 如果层次结构中的记录类型具有多个记录，则可以从痕迹导航中选择记录。
 * 痕迹导航可以在Workfront和Planning中使用。
 
   例如，在查看与Planning营销活动和战术以及Workfront项目组合和项目群相关的项目时，您可以从痕迹导航在Planning和Workfront对象类型之间切换。

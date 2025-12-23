@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,8 @@ ht-degree: 0%
 * 有权访问Workfront Planning和“查看”或者对工作区有更高权限且具有记录类型的每个人都可以查看您在记录之间或记录与其他应用程序的对象之间建立的连接。 他们可以查看连接的记录和对象，无论他们在您连接的应用程序中的权限如何。
 * 如果您对工作区和所连接记录的记录类型具有管理权限，则可以查看和编辑其他人的连接。
 * 您可以将一个记录连接到另一个应用程序的一个或多个对象。具体取决于您在连接记录类型时选择的连接类型。 有关详细信息，请参阅文章[连接的记录类型概述](/help/quicksilver/planning/architecture/connect-record-types-overview.md)中的“连接类型”部分。
-  <!--* <span class="preview">If connected record types are part of hierarchies, you can access any object type within the hierarchy from the records' pages. For information, see [Hierarchy and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md). </span>-->
+* <span class="preview">如果连接的记录类型是层次结构的一部分，则可以从记录的页面访问层次结构中的任何对象类型。 有关信息，请参阅[层次结构和痕迹导航概述](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)。</span>
+* <span class="preview">*当连接的记录类型是层次结构的一部分时，您可以将子记录类型中的一个记录连接到父记录类型中的最多10个记录。 有关信息，请参阅[层次结构和痕迹导航概述](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)。</span>
 
 ## 可连接记录的区域
 
