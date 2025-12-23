@@ -5,7 +5,7 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
+source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
 workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 0%
@@ -46,8 +46,9 @@ ht-degree: 0%
    * AEM Assets。
 * 层次结构可以同时包括Planning记录类型和Workfront项目。
 
-      例如，您可以将Campaign记录类型与Planning Tactics和Workfront Projects作为同一工作区层次结构中的子项。
-  * 如果所选记录类型之间已经存在连接，则系统将重用现有连接。
+  例如，您可以将Campaign记录类型与Planning Tactics和Workfront Projects作为同一工作区层次结构中的子项。
+
+* 如果所选记录类型之间已经存在连接，则系统将重用现有连接。
 * 如果不存在连接，Workfront将在层次结构设置中创建一个。
 * 对于要包含在层次结构中的记录和对象类型，必须为连接的字段打开&#x200B;**在链接的记录类型上创建对应的字段**&#x200B;设置。
 * 如果记录类型是层次结构的一部分，则无法删除该记录类型。
