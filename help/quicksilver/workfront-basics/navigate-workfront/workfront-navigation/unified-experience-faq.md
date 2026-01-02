@@ -61,8 +61,8 @@ ht-degree: 0%
 
 将与现有客户联系以安排迁移。 迁移团队支持同事将引导客户完成该过程，提出[!DNL Admin Console]设置的建议，并提供所需的文档链接以使迁移尽可能简单和轻松。
 
-* [[!DNL Adobe Workfront] 支持概述](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/workfront/overview)
-* [[!DNL Adobe Business Platform] 和 [!DNL Admin Console] 常见问题解答](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/workfront/faq)
+* [[!DNL Adobe Workfront] 支持概述](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/workfront/overview)
+* [[!DNL Adobe Business Platform] 和 [!DNL Admin Console] 常见问题解答](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/workfront/faq)
 
 ### 对于已为Federated ID启用此选项与设置[!DNL Adobe Admin Console] SSO不同的公司，您如何处理[!DNL Workfront]？
 
