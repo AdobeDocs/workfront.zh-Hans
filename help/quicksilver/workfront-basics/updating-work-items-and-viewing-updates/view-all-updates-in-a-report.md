@@ -6,10 +6,10 @@ description: 要查看任何用户为对象输入的所有更新，您可以创�
 author: Alina
 feature: Get Started with Workfront
 exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 0%
 >
 >您可以构建一个报表，以使用日记条目报表在预览中查看对象的更新。 有关详细信息，请参阅日志条目报告[的](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)更新区域报告。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +38,7 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -108,9 +108,9 @@ ht-degree: 0%
 
 1. 在页面的左上角，单击&#x200B;**新建报告**，然后选择&#x200B;**注释**。
 
-1. （可选）单击&#x200B;**（列）视图**，然后单击&#x200B;**添加列**&#x200B;以将&#x200B;**项目**&#x200B;的&#x200B;**名称**&#x200B;添加到报表视图中。 
+1. （可选）单击&#x200B;**（列）视图**，然后单击&#x200B;**添加列**&#x200B;以将&#x200B;**项目**&#x200B;的&#x200B;**名称**&#x200B;添加到报表视图中。
 
-1. （可选）如果同时报告多个项目，请单击&#x200B;**分组**，然后单击&#x200B;**将分组**&#x200B;按&#x200B;**项目**&#x200B;的&#x200B;**名称**&#x200B;添加到分组中。 这可确保按其各自的项目对注释进行分组，从而使报告更易于阅读。 
+1. （可选）如果同时报告多个项目，请单击&#x200B;**分组**，然后单击&#x200B;**将分组**&#x200B;按&#x200B;**项目**&#x200B;的&#x200B;**名称**&#x200B;添加到分组中。 这可确保按其各自的项目对注释进行分组，从而使报告更易于阅读。
 
 1. （可选）单击&#x200B;**筛选器**，然后单击&#x200B;**添加筛选器规则**。
 1. 为&#x200B;**注释** > **注释文本** > **添加筛选器不是空白的**。

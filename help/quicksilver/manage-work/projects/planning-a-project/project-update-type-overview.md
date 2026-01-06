@@ -7,7 +7,7 @@ description: 项目的更新类型指示Adobe Workfront计算项目时间线的�
 author: Alina
 feature: Work Management
 exl-id: a6394961-2ac8-4b95-aa1b-dba8108c612f
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 >
 >如果项目的时间表超过15年，Workfront不会自动计算时间表或在发生更改时计算时间表。 超过15年的项目的更新类型始终为手动。
 
-* **更改时自动更新：**&#x200B;这是默认设置。 每次在项目或时间线所依赖的其他项目中发生更改时，项目时间线都会更新。 项目的时间表每晚也会更新。 \
+* **更改时自动更新：**&#x200B;这是默认设置。 每次在项目或时间线所依赖的其他项目中发生更改时，项目时间线都会更新。 项目的时间表每晚也会更新。\
   这是推荐的设置，因为它可确保项目时间线始终保持最新。
 
   当您更新任务或项目并触发时间表重新计算时，所有可用日期都会立即显示，让您能够继续工作。 在具有100个以上任务的项目中，需要更长时间计算的日期将灰显。

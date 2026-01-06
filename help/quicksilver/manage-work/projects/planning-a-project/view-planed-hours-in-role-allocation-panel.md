@@ -6,10 +6,10 @@ description: 您可以在项目的“角色分配”面板中查看分配给项�
 author: Alina, Lisa
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 1%
+source-wordcount: '458'
+ht-degree: 4%
 
 ---
 
@@ -28,16 +28,16 @@ ht-degree: 1%
 >
 >如果您的公司以前购买过Adobe Scenario Planner，则它已被保留。 Scenario Planner不再可供购买。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>Adobe Workfront Ultimate</p>
    <p>Adobe工作流程Ultimate</p>
     </td> 
@@ -104,8 +104,9 @@ able style="table-layout:auto">
 
 ## 在角色分配面板中查看项目计划小时数
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**项目**。
-1. 单击项目名称以访问它。 这将打开“项目”页面。
+{{step1-to-projects}}
+
+1. 单击项目名称以访问它。 这将打开“项目”页面。
 1. 在左侧面板中单击以下选项之一：
 
    * **任务**

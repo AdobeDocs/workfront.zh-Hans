@@ -7,10 +7,10 @@ author: Alina
 feature: Projects, Work Management
 role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '712'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -50,9 +50,9 @@ ht-degree: 5%
 >
 > 原始项目的任务日期将复制到新项目中。 您必须更改项目的开始日期或完成日期（取决于其计划模式）以更新任务日期。 任务限制可能会阻止您更改项目的日期。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -60,7 +60,7 @@ ht-degree: 5%
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront包</p> </td>  
+   <td> <p>Adobe Workfront 包</p> </td>  
    <td>任何</td> 
   </tr> 
   <tr> 

@@ -6,10 +6,10 @@ description: 在分配访问级别时，Adobe Workfront管理员可以向您授�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 7025f097-ea99-41bf-965e-617b0f532ff7
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 有关Workfront中对象层次结构的信息，请参阅[了解Adobe Workfront中的对象](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)。
 
-## 访问要求
+## 访问权限要求
 
 <!--drafted for P&P:
 
@@ -55,20 +55,20 @@ ht-degree: 0%
 </table>
 -->
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> <p>标准</p> 
-   <p>工作或更高</p> 
+   <p>工作版或更高版本</p> 
    </td> 
   </tr> 
   <tr> 
@@ -107,6 +107,6 @@ ht-degree: 0%
    >
    >您必须对对象具有管理权限才能删除继承的权限。
 
- 
 
- 
+
+

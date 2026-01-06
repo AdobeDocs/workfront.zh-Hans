@@ -6,10 +6,10 @@ description: 您可以从任何时段和任何状态编辑现有目标。
 author: Alina
 feature: Workfront Goals
 exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 1%
+source-wordcount: '563'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 您可以从任何时段和任何状态编辑现有目标。
 
-## 访问要求
+## 访问权限要求
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 1%
 >
 >Adobe Workfront目标不再可供购买。
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto">
 <col>
@@ -36,7 +36,7 @@ ht-degree: 1%
 </col>
 <tbody>
  <tr>
-  <td> <p>Adobe Workfront包</p> </td> 
+  <td> <p>Adobe Workfront 包</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -191,8 +191,10 @@ Editing goals differs depending on what environment you use.
 
 -->
 
-1. 单击&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**目标**。\
-   随即会显示目标列表。
+{{step1-to-goals}}
+
+随即会显示目标列表。
+
 1. 单击目标。\
    此时将显示目标页面。
 
@@ -228,7 +230,7 @@ Editing goals differs depending on what environment you use.
 
    <!-- (should you update the title here after changing it at production??? - change it to Update goals in the goal Details section)-->
 
-1. （可选）单击左侧面板中的&#x200B;**进度指示器**&#x200B;以将结果、活动或项目添加到目标。 通过添加进度指示器，您可以确保可以跟踪目标的进度。
+1. （可选）单击左侧面板中的&#x200B;**进度指示器**以将结果、活动或项目添加到目标。 通过添加进度指示器，您可以确保可以跟踪目标的进度。
 有关更多信息，请参阅以下文章：
    * [将活动添加到Adobe Workfront目标中的目标](../results-and-activities/add-activities-to-goals.md)
    * [将结果添加到Adobe Workfront目标中的目标](../results-and-activities/add-results-to-goals.md)。

@@ -7,7 +7,7 @@ description: Adobe Workfront中的某些字段会限制可包含在该字段中�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f09dadf4-24f2-46d9-85ae-6081731d917d
-source-git-commit: e2a2a8cfe402c1f9f810ca360db4912d804b0a57
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 5%
@@ -57,7 +57,7 @@ Workfront或组管理员无法修改字段中的字符限制。
    <td>4,000</td> 
   </tr> 
   <tr> 
-   <td> <p>自定义数据段落或单行文本 </p> </td> 
+   <td> <p>自定义数据段落或单行文本  </p> </td> 
    <td> <p>2,000</p> </td> 
   </tr> 
   <tr> 

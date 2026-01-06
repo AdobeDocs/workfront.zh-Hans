@@ -6,10 +6,10 @@ description: 您可以在Portfolio Optimizer中安排项目的优先顺序，以
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 54e33746-5995-49de-8e21-bf973f0694a6
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 714e6e09f1429f0382c36d17d3f2aca95edcfbc6
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 0%
+source-wordcount: '491'
+ht-degree: 2%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 0%
 
 * 默认情况下，**[!UICONTROL Portfolio优化器]**&#x200B;的[!UICONTROL 项目优先顺序]区域按[!UICONTROL 计划开始日期]和[!UICONTROL 净值]的顺序显示项目。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,16 +46,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>[!UICONTROL 标准版]</p>
-   <p>[!UICONTROL 计划]</p> </td> 
+   <td> <p>[！UICONTROL标准版]</p>
+   <p>[！UICONTROL计划]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[!UICONTROL Edit]对[!UICONTROL 项目组合]和[!UICONTROL 项目]的访问权限</p>  </td>
+   <td> <p>[！UICONTROL Edit]对[！UICONTROL项目组合]和[！UICONTROL项目]的访问权限</p>  </td>
 </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>项目组合的[!UICONTROL Manage]权限</p>  </td> 
+   <td> <p>项目组合的[！UICONTROL Manage]权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,9 +94,8 @@ ht-degree: 0%
 
 ## 更改[!UICONTROL Portfolio优化器]中项目的优先级
 
-1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)。
+{{step1-to-portfolios}}
 
-1. 单击&#x200B;**[!UICONTROL 项目组合]**。
 1. （可选）在&#x200B;**[!UICONTROL 筛选器]**&#x200B;下拉菜单中选择正确的筛选器，以查看项目组合的正确列表。
 1. 单击项目组合名称以将其打开。
 1. 单击左侧面板中的&#x200B;**[!UICONTROL Portfolio优化]**。

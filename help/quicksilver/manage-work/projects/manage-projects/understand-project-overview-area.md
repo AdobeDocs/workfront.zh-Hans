@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1404'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -23,16 +23,16 @@ ht-degree: 3%
 
 您可以通过访问项目详细信息部分的概述区域来查看或编辑项目信息。 您可以在此区域中查看或编辑的字段数量有限。 有关编辑项目的所有信息，请参阅[编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -135,11 +135,11 @@ ht-degree: 3%
      </tr> 
      <tr> 
       <td role="rowheader">完成情况类型</td> 
-      <td>确定经理是设置项目条件还是Workfront设置条件。 有关项目条件的信息，请参阅文章<a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">项目条件和条件类型概述</a>。</td> 
+      <td>确定经理是设置项目条件还是Workfront设置条件。 有关项目条件的信息，请参阅文章<a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">项目条件和条件类型概述</a>。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">计划模式</td> 
-      <td>设置项目的计划方式。 例如，从开始日期还是从完成日期开始计划项目。 </td> 
+      <td>设置项目的计划方式。 例如，从开始日期还是从完成日期开始计划项目。 </td> 
      </tr> 
      <tr> 
       <td role="rowheader">计划开始日期和时间</td> 
@@ -150,7 +150,7 @@ ht-degree: 3%
       <td> 项目计划完成的时间。 当项目从完成日期开始安排时，这由项目经理手动设置。 当项目从开始日期开始安排时，Workfront会根据项目中任务的持续时间自动设置此日期。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">组合</td> 
+      <td role="rowheader">项目组合</td> 
       <td>与项目关联的项目组合。 必须先创建项目组合，然后才能将其添加到项目中。 </td> 
      </tr> 
      <tr> 
@@ -209,7 +209,7 @@ ht-degree: 3%
    | 输入者 | 创建项目的用户的名称。 |
    | 上次更新日期 | 上次更新项目的日期和时间。 |
    | 上次更新者 | 上次更新项目的用户的名称。 |
-   | 模板 |   |
+   | 模板 |  |
 
 
 1. 如果贵公司已为Adobe Workfront Scenario Planner购买附加许可证，并且项目具有从链接的计划发布的信息，请在Scenario Planner区域中查看以下计划信息：
@@ -236,15 +236,15 @@ ht-degree: 3%
      </tr> 
      <tr> 
       <td role="rowheader"><span>计划结束日期</span> </td> 
-      <td><span>当项目链接到计划时，计划结束月份的最后一天。 </span> </td> 
+      <td><span>当项目链接到计划时，计划结束月份的最后一天。</span> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">FTE和小时数中的<span>计划工作角色</span> </td> 
-      <td> <p>有关相关工作角色及其为计划分配的时间的信息。 这包括：</p> 
+      <td> <p>有关相关工作角色及其为计划分配的时间的信息。 这包括：</p> 
        <ul> 
         <li>工作角色名称</li> 
         <li>FTE数量</li> 
-        <li> <p>所有FTE的时数</p> <p>您可以使用小时数或FTE估计计划或计划所需的工作角色的数量。 </p> <p>有关详细信息，请参阅<a href="../../../scenario-planner/create-and-edit-plans.md" class="MCXref xref">在Scenario Planner</a>中创建和编辑计划。 </p> </li> 
+        <li> <p>所有FTE的时数</p> <p>您可以使用小时数或FTE估计计划或计划所需的工作角色的数量。 </p> <p>有关详细信息，请参阅<a href="../../../scenario-planner/create-and-edit-plans.md" class="MCXref xref">在Scenario Planner</a>中创建和编辑计划。 </p> </li> 
        </ul> <p>提示： <span>如果计划中的每个月工作角色的数量不同，则此字段显示计划所需的最大角色数量。 例如，如果您在1月需要1名顾问，在2月需要2名顾问，则列会显示2FTE以及所有月份中2个FTE的相应小时数。</span> </p> </td> 
      </tr> 
     </tbody> 

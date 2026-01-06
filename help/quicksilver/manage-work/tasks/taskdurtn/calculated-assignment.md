@@ -7,7 +7,7 @@ description: 计算分配是一种持续时间类型，您可以在Adobe Workfro
 author: Alina
 feature: Work Management
 exl-id: 5f1f6109-5d54-4c3f-9aa5-dc6ce165a1cd
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 -->
 
 * 使用计算的分配持续时间类型时，必须为任务指定持续时间和计划小时数。 然后，Workfront将计划小时数除以持续时间中的小时数，再除以分配给任务的资源数，从而计算每个资源的分配百分比（计算分配）。 每个资源的分配百分比值都将相同。 在这种情况下，您无法修改每个资源的分配值。
-* 您的Workfront或组管理员可以将系统或组的默认持续时间类型设置为计算分配。 在这种情况下，将使用此持续时间类型创建所有新任务。 有关将任务和问题首选项作为系统级或组级项目首选项的一部分进行更改的信息，请参阅[配置系统范围的任务和问题首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
+* 您的Workfront或组管理员可以将系统或组的默认持续时间类型设置为计算分配。 在这种情况下，将使用此持续时间类型创建所有新任务。 有关将任务和问题首选项作为系统级或组级项目首选项的一部分进行更改的信息，请参阅[配置系统范围的任务和问题首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
 
   在这种情况下，任务的默认值为1天持续时间，默认值为0小时计划小时数。 除非项目经理设置更准确的持续时间并使用实际估计值填充计划小时数字段，否则资源似乎未充分分配。
 

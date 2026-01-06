@@ -7,7 +7,7 @@ description: 作为项目经理，您可以使用记帐费率来获取项目收�
 author: Lisa
 feature: Work Management
 exl-id: 400abcde-e368-4a70-89a9-05027900ab81
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '3691'
 ht-degree: 0%
@@ -176,7 +176,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p>固定收入</p> </td> 
-   <td> <p>此类型可用于项目和任务。 </p> <p>将模板附加到项目时，模板中的固定收入会添加到项目的固定收入。 有关信息，请参阅<a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">将模板附加到项目的概述</a>。 </p> <p>对于任务，无论任务分配如何，始终使用任务上指定的固定金额计算任务收入。 </p> <p>子任务的固定收入将累计至父任务的收入，然后累计至项目的收入。 如果在父任务和/或项目上定义了固定金额，则该金额会添加到从任何子任务累计的计划收入中。</p> <p>任务的固定收入金额可以包含在项目的记帐记录中。</p> </td> 
+   <td> <p>此类型可用于项目和任务。 </p> <p>将模板附加到项目时，模板中的固定收入会添加到项目的固定收入。 有关信息，请参阅<a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">将模板附加到项目的概述</a>。 </p> <p>对于任务，无论任务分配如何，始终使用任务上指定的固定金额计算任务收入。 </p> <p>子任务的固定收入将累计至父任务的收入，然后累计至项目的收入。 如果在父任务和/或项目上定义了固定金额，则该金额会添加到从任何子任务累计的计划收入中。</p> <p>任务的固定收入金额可以包含在项目的记帐记录中。</p> </td> 
   </tr> 
   <tr> 
    <td> <p>用户每小时</p> </td> 

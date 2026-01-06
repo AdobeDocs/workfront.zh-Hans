@@ -6,10 +6,10 @@ description: 您可以向可在Adobe Workfront目标中查看的所有目标添�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 0%
+source-wordcount: '209'
+ht-degree: 8%
 
 ---
 
@@ -32,7 +32,7 @@ After the monthly releases to Production, the same features are also available i
 
 您可以向所有可以在Adobe Workfront目标中查看的目标添加注释。
 
-## 访问要求
+## 访问权限要求
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ After the monthly releases to Production, the same features are also available i
 >
 >Adobe Workfront目标不再可供购买。
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto">
 <col>
@@ -49,7 +49,7 @@ After the monthly releases to Production, the same features are also available i
 </col>
 <tbody>
  <tr>
-  <td> <p>Adobe Workfront包</p> </td> 
+  <td> <p>Adobe Workfront 包</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -138,8 +138,10 @@ After the monthly releases to Production, the same features are also available i
 
 您可以在目标页面的“更新”部分中向目标添加评论。
 
-1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)或左上角的&#x200B;**主菜单**&#x200B;图标![主菜单行](assets/lines-main-menu.png)（如果可用），然后单击&#x200B;**目标**。
+{{step1-to-goals}}
+
 这将打开目标列表。
+
 1. 找到要添加注释的目标，然后单击其名称以打开目标页面。
 1. 单击左侧面板中的&#x200B;**更新**。
 

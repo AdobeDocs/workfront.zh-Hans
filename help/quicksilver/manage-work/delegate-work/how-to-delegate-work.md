@@ -6,10 +6,10 @@ description: 您可以在外出时临时委派分配给您的工作。 本文介
 author: Becky
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1547'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -30,9 +30,9 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
 有关委托工作的一般信息，请参阅[委托工作概述](../../manage-work/delegate-work/delegate-work-overview.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 >[!IMPORTANT]
 >
@@ -55,7 +55,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -85,7 +85,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 +++
 
 <!--note from the table for Object permissions:
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Contribute or higher permissions to the projects where you are designated as the Project&nbsp;Owner (NOTE:&nbsp;you cannot delegate projects yet)</p>
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Contribute or higher permissions to the projects where you are designated as the Project Owner (NOTE: you cannot delegate projects yet)</p>
     -->
 
 ## 先决条件
@@ -154,7 +154,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
    * [!UICONTROL **主页**]&#x200B;区域中的&#x200B;[!UICONTROL **委派**]&#x200B;按钮更改为&#x200B;[!UICONTROL **编辑委派**]&#x200B;以指示存在委派。
      <!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-      (NOTE: is this shot correct?&nbsp;See UI - this is a mock)
+      (NOTE: is this shot correct? See UI - this is a mock)
       </MadCap:conditionalText>
       -->
 

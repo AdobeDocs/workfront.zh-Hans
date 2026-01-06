@@ -6,9 +6,9 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: bc7312a10f1851b9f85b2c1ceac5b01dba078f32
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1539'
 ht-degree: 3%
 
 ---
@@ -141,7 +141,7 @@ ht-degree: 3%
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>主题</strong> </td> 
-      <td>显示原始请求的名称。 如有必要，请更新它。 否则，Workfront会将复制的请求命名为<b>&lt;原始请求的名称&gt;</b>的副本。 这是必填字段。</td> 
+      <td>显示原始请求的名称。 如有必要，请更新它。 否则，Workfront会将复制的请求命名为<b>&lt;原始请求的名称&gt;</b>的副本。 这是必填字段。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>描述</strong> </td> 
@@ -230,11 +230,12 @@ ht-degree: 3%
 
 您可以在Workfront的请求区域或主页的“我的请求”小组件中复制并提交请求。
 
-1. 要访问“请求”列表，请单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 请求]**。
+{{step1-to-requests}}
 
 1. 要在主页访问“我的请求”小组件，请执行以下操作：
 
-   1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
+   {{step1-to-home}}
+
    1. 找到“我的请求”构件。
 
       有关“我的请求”小组件的详细信息，请参阅[使用我的请求](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)。

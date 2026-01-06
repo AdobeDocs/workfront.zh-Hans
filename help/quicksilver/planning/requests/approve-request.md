@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1072'
 ht-degree: 1%
 
 ---
@@ -138,11 +138,11 @@ ht-degree: 1%
 
 ### 在主页中批准我的审批小部件中的请求
 
-1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
+{{step1-to-home}}
 
-   或
+或
 
-   单击Adobe Workfront左上角的[!UICONTROL 主页]图标![主页图标](/help/_includes/assets/home-icon-30x29.png)，然后找到我的审批小组件。
+单击Adobe Workfront左上角的[!UICONTROL 主页]图标![主页图标](/help/_includes/assets/home-icon-30x29.png)，然后找到我的审批小组件。
 
 1. 找到要批准或拒绝的对象。
 

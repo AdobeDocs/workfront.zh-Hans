@@ -6,7 +6,7 @@ description: 您可以通过访问项目详细信息部分的财务区域来查�
 author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: f01ce9bcbb795097d39e276a734300f5059e35c4
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 3%
@@ -130,12 +130,12 @@ ht-degree: 3%
       <td> <p>向客户或其他方记帐的收入，这些收入记录在帐单记录中。 有关开票记录的详细信息，请参阅文章<a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">创建开票记录</a>。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> </td> 
-      <td> </td> 
+      <td role="rowheader"> </td> 
+      <td> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> </td> 
-      <td> </td> 
+      <td role="rowheader"> </td> 
+      <td> </td> 
      </tr> 
     </tbody> 
    </table>

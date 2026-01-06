@@ -6,10 +6,10 @@ description: 默认情况下，您在 [!DNL Workfront] Web应用程序中看到�
 author: Becky and Lisa
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '638'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -28,30 +28,30 @@ ht-degree: 1%
 | **[!DNL Workfront]区域或对象** | **默认系统节** | **仪表板** |
 |---|---|---|
 | [!UICONTROL 项目]区域 | ✓ | ✓ |
-| [!UICONTROL 团队] | ✓ |   |
-| [!UICONTROL 请求]区域 | ✓ |   |
-| [!UICONTROL 时间表]区域 | ✓ |   |
+| [!UICONTROL 团队] | ✓ |    |
+| [!UICONTROL 请求]区域 | ✓ |    |
+| [!UICONTROL 时间表]区域 | ✓ |    |
 | [!UICONTROL Portfolio] | ✓ | ✓ |
 | [!UICONTROL 计划] | ✓ | ✓ |
 | [!UICONTROL 项目] | ✓ | ✓ |
-| [!UICONTROL 任务] | ✓ |  ✓ |
-| [!UICONTROL 问题] |  ✓ |  ✓ |
-| [!UICONTROL 用户] |  ✓ |  ✓ |
-| [!UICONTROL 文档] |  ✓ |  ✓ |
+| [!UICONTROL 任务] | ✓ | ✓ |
+| [!UICONTROL 问题] | ✓ | ✓ |
+| [!UICONTROL 用户] | ✓ | ✓ |
+| [!UICONTROL 文档] | ✓ | ✓ |
 | [!UICONTROL 资源]区域 | ✓ | ✓ |
 
 {style="table-layout:auto"}
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto">
  <col> 
  <col>
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
+   <td>Adobe Workfront 包</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 

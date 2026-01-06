@@ -7,10 +7,10 @@ description: 投资回报率(ROI)是一个Adobe Workfront指标，它允许项�
 author: Lisa
 feature: Work Management
 exl-id: 1a3d16cb-8cb1-472e-8102-0ea8e0bc0edd
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '348'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -40,19 +40,19 @@ Project ROI = [(Project Planned Benefit - Project Budgeted Cost) / Project Budge
 
 您可以在Workfront的以下区域查看项目的ROI值：
 
-* 在Portfolio优化器中（如果项目与项目组合关联）
+* 在Portfolio Optimizer中（如果项目与项目组合关联）
 
   >[!NOTE]
   >
   >所有项目ROI值的总和即为项目组合的ROI。
 
-  有关Portfolio优化程序的信息，请参阅文章[Portfolio优化程序概述](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)。
+  有关Portfolio Optimizer的信息，请参阅文章[Portfolio Optimizer概述](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)。
 
-* 在项目ROI字段中，将以下列表和报告添加到： 
+* 在项目ROI字段中，将以下列表和报告添加到：
 
    * 项目
    * 任务
    * 问题
-   * 项目（财务数据）
+   * 项目 (财务数据)
 
   有关在Workfront中生成报表的更多信息，请参阅文章[创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。

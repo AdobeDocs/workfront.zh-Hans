@@ -6,10 +6,10 @@ description: 任务约束决定了任务在项目中的开始和结束时间。 
 author: Alina
 feature: Work Management
 exl-id: 54b54892-f8b3-4704-8221-03bbb9f07917
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '298'
-ht-degree: 10%
+ht-degree: 19%
 
 ---
 
@@ -17,22 +17,22 @@ ht-degree: 10%
 
 任务约束决定了任务在项目中的开始和结束时间。 有关详细信息，请参阅[任务约束概述](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td><p>标准</p> 
-   <p>工作或更高</p> </td> 
+   <p>工作版或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -91,7 +91,7 @@ ht-degree: 10%
    | 尽可能早 | 有关信息，请参阅[任务限制概述：尽快](../../../manage-work/tasks/task-constraints/as-soon-as-possible.md)。 |
    | 尽可能迟 | 有关信息，请参阅[任务限制概述：尽可能晚一些](../../../manage-work/tasks/task-constraints/as-late-as-possible.md)。 |
    | 最早可用时间 | 有关信息，请参阅[任务约束概述：最早可用时间](../../../manage-work/tasks/task-constraints/earliest-available-time.md)。 |
-   | 最新可用时间 | 有关信息，请参阅[任务约束概述：最新可用时间](../../../manage-work/tasks/task-constraints/latest-available-time.md)。 |
+   | 最晚可用时间 | 有关信息，请参阅[任务约束概述：最新可用时间](../../../manage-work/tasks/task-constraints/latest-available-time.md)。 |
    | 开始时间不晚于 | 有关信息，请参阅[任务限制概述：开始时间不晚于](../../../manage-work/tasks/task-constraints/start-no-later-than.md)。 |
    | 开始时间不早于 | 有关信息，请参阅[任务限制概述：开始时间不早于](../../../manage-work/tasks/task-constraints/start-no-earlier-than.md)。 |
    | 完成时间不晚于 | 有关信息，请参阅[任务限制概述：完成时间不晚于](../../../manage-work/tasks/task-constraints/finish-no-later-than.md)。 |
@@ -101,4 +101,4 @@ ht-degree: 10%
 
 1. 单击&#x200B;**保存** **更改**。
 
- 
+

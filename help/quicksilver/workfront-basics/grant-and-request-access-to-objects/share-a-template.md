@@ -6,10 +6,10 @@ description: 作为 Adobe Workfront 管理员，您可以在分配用户访问�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -42,13 +42,13 @@ ht-degree: 14%
       * 视图
       * 管理
 
-   * 使用该模板创建的未来项目。 您可以为从模板创建的项目授予与对单个项目相同的权限级别。 
+   * 使用该模板创建的未来项目。 您可以为从模板创建的项目授予与对单个项目相同的权限级别。
 
      有关如何从模板级别共享项目的信息，请参阅[共享项目模板](../../manage-work/projects/create-and-manage-templates/share-project-template.md)。
 
 * 共享模板或使用该模板创建的项目时，默认情况下，用户将继承与模板或项目关联的所有子对象的相同权限。
 
-  有关Workfront中对象层次结构的详细信息，请参阅  [了解Adobe Workfront中的对象](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)。
+  有关Workfront中对象层次结构的详细信息，请参阅   [了解Adobe Workfront中的对象](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)。
 
 * 在共享模板时，除非另有指定，否则所有模板任务和文档以及使用该模板创建的未来项目上的问题都将继承相同的权限。
 
@@ -61,7 +61,7 @@ ht-degree: 14%
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Share a template</h2>
-<p>(NOTE: drafted because this is also linked above: Share project templates >> which is an article in the Manage Work section>> Templates)&nbsp;</p>
+<p>(NOTE: drafted because this is also linked above: Share project templates >> which is an article in the Manage Work section>> Templates)  </p>
 <ol>
 <li value="1"> <p>Go to the template you want to share with other entities, click <strong>Template Actions</strong>, then <strong>Template Sharing</strong>.<br>Or</p> <p>Navigate to a list of templates, and select multiple templates from the list, then click <strong>Share Template</strong>.</p> <note type="note">
 If you select multiple templates, you cannot view who already has permissions to the individual templates.
@@ -90,9 +90,9 @@ You can share an object only with active users, teams,
 </note> </li>
 <li value="3">From the drop-down menu, select which level of permissions you want to grant.<br>Select from the following:<br>
 <ul>
-<li><strong>No access</strong>: You can specify which users will not have any access to the template.<br>This option is available only when bulk sharing projects from templates.&nbsp;</li>
+<li><strong>No access</strong>: You can specify which users will not have any access to the template.<br>This option is available only when bulk sharing projects from templates.  </li>
 <li><strong>View</strong>: Users with these permissions can view projects created from the template.</li>
-<li><strong>Contribute</strong>: Users with these permissions can contribute to projects created from the template&nbsp;</li>
+<li><strong>Contribute</strong>: Users with these permissions can contribute to projects created from the template  </li>
 <li><strong>Manage</strong>: Users with these permissions can manage or delete projects created from this template.<br><img src="assets/share-project-from-template-350x268.png" alt="share_project_from_template.png" style="width: 350;height: 268;"></li>
 </ul></li>
 <li value="4">(Optional) Click <strong>Advanced Settings</strong> to fine-tune your settings for each level of permissions. </li>
@@ -120,17 +120,17 @@ You can share an object only with active users, teams,
   <tr> 
    <td>复制</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>删除</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>编辑模板详细信息</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>查看模板</td> 
@@ -144,12 +144,12 @@ You can share an object only with active users, teams,
   </tr> 
   <tr> 
    <td>在系统范围内共享</td> 
-   <td> </td> 
+   <td>  </td> 
    <td>✓</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>添加文档</p> <p>提示：有时候，人们在将文档添加到项目模板时以为自己正在将文档添加到项目中。 通过禁用此设置，可以为收件人阻止这种情况。</p> </td> 
-   <td> </td> 
+   <td>  </td> 
    <td>✓</td> 
   </tr> 
  </tbody> 

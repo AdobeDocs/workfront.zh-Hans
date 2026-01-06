@@ -6,10 +6,10 @@ description: 出于安全原因，请务必定期注销 [!DNL Adobe Workfront] �
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
-source-git-commit: c6272c7631941720e3ab1e1c80ed7d304a67d34b
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 0%
+source-wordcount: '206'
+ht-degree: 7%
 
 ---
 
@@ -33,16 +33,16 @@ ht-degree: 0%
 >
 > 如果贵组织已登记到[!DNL Adobe Experience Cloud]，您将通过单击顶部导航中的配置文件图片并从菜单中选择“[!UICONTROL **注销**]”来注销。 有关详细信息，请参阅[[!DNL Adobe Unified Experience] 的 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  </col>
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
+   <td>Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -60,5 +60,7 @@ ht-degree: 0%
 
 ## 注销[!DNL Workfront]帐户
 
-1. 单击&#x200B;**[!UICONTROL 右上角的]**&#x200B;主菜单![图标](assets/main-menu-icon.png)主菜单图标[!DNL Adobe Workfront]，然后单击&#x200B;**[!UICONTROL 注销]** ![注销图标](assets/logout-icon.png)。
+{{step1-click-main-menu}}
+
+1. 单击&#x200B;**[!UICONTROL 注销]** ![注销图标](assets/logout-icon.png)。
 1. 这将返回登录页面，您可以在其中重新输入用户名和密码。

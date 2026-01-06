@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '7642'
 ht-degree: 1%
@@ -38,16 +38,16 @@ ht-degree: 1%
 
 理想情况下，当项目处于规划状态时，应编辑项目。 有关项目团队的信息，请参阅[项目团队概述](../../../manage-work/projects/planning-a-project/project-team-overview.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -199,7 +199,7 @@ ht-degree: 1%
    * [任务设置](#task-settings)
    * [问题设置](#issue-settings)
    * [访问](#access)
-   * [评论](#comment)
+   * [注释](#comment)
 
 
    >[!NOTE]
@@ -275,7 +275,7 @@ ht-degree: 1%
          <td> <p>指定选择<strong>从完成日期</strong>开始计划的日期。 </p> <p>当您选择<strong>从开始日期</strong>开始计划，这是只读字段。<br></p> </td> 
       </tr> 
       <tr> 
-         <td role="rowheader"><strong>组合</strong></td> 
+         <td role="rowheader"><strong>项目组合</strong></td> 
          <td>指示项目所属的Portfolio。 必须先创建Portfolio，然后它才会显示在下拉列表中。 只有活动项目组合可以与项目关联。 有关创建项目组合的详细信息，请参阅<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">创建项目组合</a>。
          <p><b>注释</b></p>
          <p>您必须具有项目组合的管理权限才能将其添加到项目中或从中删除。</p>
@@ -690,7 +690,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>当授予某人此项目的访问权限时：指示的默认访问权限……</strong></td> 
-      <td><p>选择您希望用户在项目上拥有的访问选项（如果项目与其共享）。 如果在与他们共享项目时，他们被指定为<strong>查看者</strong>、<strong>参与者</strong>或<strong>经理</strong>，请选择他们访问的特定选项。 </p><p><strong>管理</strong>权限级别中的<strong>删除</strong>权限决定了用户是否可以删除项目本身。 如果对任务和问题具有<strong>管理</strong>权限，则对项目具有<strong>管理</strong>访问权限的用户可以删除项目中的任务和问题，而不管是否选择了此选项。 </p></td> 
+      <td><p>选择您希望用户在项目上拥有的访问选项（如果项目与其共享）。 如果在与他们共享项目时，他们被指定为<strong>查看者</strong>、<strong>参与者</strong>或<strong>经理</strong>，请选择他们访问的特定选项。 </p><p><strong>管理</strong>权限级别中的<strong>删除</strong>权限决定了用户是否可以删除项目本身。 如果对任务和问题具有<strong>管理</strong>权限，则对项目具有<strong>管理</strong>访问权限的用户可以删除项目中的任务和问题，而不管是否选择了此选项。 </p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -698,7 +698,7 @@ ht-degree: 1%
 1. 单击&#x200B;**保存**。
 
 
-### 评论
+### 注释
 
 1. 按如上所述开始编辑项目。
 1. 单击左侧面板中的&#x200B;**注释**。
@@ -779,7 +779,7 @@ ht-degree: 1%
 
 1. 在列表中选择多个项目。
 1. 单击列表顶部的&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
-将打开&#x200B;**编辑项目**&#x200B;对话框。
+将打开**编辑项目**&#x200B;对话框。
 
    ![以批量模式编辑项目](assets/edit-projects-in-bulk-modal-unshimmed.png)
 
@@ -822,15 +822,15 @@ ht-degree: 1%
 
    有关编辑自定义表单的更多信息，请参阅本文中的[自定义Forms](#custom-forms)部分。
 
-1. 单击&#x200B;**财务**&#x200B;编辑所有选定项目的财务信息。
+1. 单击&#x200B;**财务**编辑所有选定项目的财务信息。
 有关编辑“财务”区域的详细信息，请参阅本文中的[财务](#finance)部分。
-1. 单击&#x200B;**项目设置**&#x200B;可编辑所有选定项目的设置。
+1. 单击&#x200B;**项目设置**可编辑所有选定项目的设置。
 有关编辑“项目设置”区域的详细信息，请参阅本文中的[项目设置](#project-settings)部分。
-1. 单击&#x200B;**任务设置**&#x200B;可编辑所有选定项目的任务设置。
+1. 单击&#x200B;**任务设置**可编辑所有选定项目的任务设置。
 有关编辑“任务设置”区域的详细信息，请参阅本文中的[任务设置](#task-settings)部分。
-1. 单击&#x200B;**问题设置**&#x200B;可编辑所有选定项目的问题设置。
+1. 单击&#x200B;**问题设置**可编辑所有选定项目的问题设置。
 有关编辑“问题设置”区域的详细信息，请参阅本文中的[问题设置](#issue-settings)部分。
-1. 单击&#x200B;**访问**&#x200B;可编辑所有选定项目的访问设置。
+1. 单击&#x200B;**访问**可编辑所有选定项目的访问设置。
 有关编辑“访问”区域的详细信息，请参阅本文中的[访问](#access)部分。
 1. 单击&#x200B;**评论**，然后在提供的空间中添加评论。 Workfront在每个项目的&#x200B;**更新**&#x200B;区域中添加注释。 有关更新工作的信息，请参阅[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 1. （可选）要删除您在“编辑项目”框中添加的任何信息，请将鼠标悬停在已编辑的字段上，然后单击该字段右上角的&#x200B;**x**&#x200B;放弃图标。
@@ -884,7 +884,7 @@ To edit projects in bulk:
      For information, continue with step 7 below.
 
      <!--   
-     <p>(NOTE:&nbsp;make sure this stays accurate)</p>   
+     <p>(NOTE: make sure this stays accurate)</p>   
      
 
    * **Tasks**

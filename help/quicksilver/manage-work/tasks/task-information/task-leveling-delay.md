@@ -6,10 +6,10 @@ description: 有时，项目中的任务计划之间可能存在冲突。 您可
 author: Alina
 feature: Work Management
 exl-id: 6695448c-76ce-460c-aa59-63a3d5e2e18d
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
@@ -21,22 +21,22 @@ ht-degree: 3%
 
 向任务添加均衡延迟可调整任务的预计完成日期。 有关预计完成日期的信息，请参阅[项目、任务和问题的预计完成日期概览](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> <p>标准</p>
-   <p>工作或更高</p> </td> 
+   <p>工作版或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -93,7 +93,7 @@ ht-degree: 3%
    从以下选项中选择时间单位：
 
    * Minutes
-   * 小时。 这是默认设置。
+   * 小时。 这是默认设置。
    * Days
    * Weeks
    * Months
@@ -107,6 +107,6 @@ ht-degree: 3%
    >
    >占用时间是任务持续时间的时间单位。 该时间是任务的计划开始日期与计划完成日期之间的时间，包括假日、周末和休息时间。 换言之，经过的时间就是行事历的日数。
 
-1. 单击&#x200B;**保存**。 
+1. 单击&#x200B;**保存**。
 
- 
+

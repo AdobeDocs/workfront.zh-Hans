@@ -6,10 +6,10 @@ description: 当您的Adobe Workfront管理员分配访问级别时，可以授�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1196'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -22,22 +22,22 @@ ht-degree: 1%
 权限特定于Workfront中的一个项目，并定义您可以对该项目执行的操作。
 
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> <p>标准</p> 
-   <p>工作或更高</p> 
+   <p>工作版或更高版本</p> 
    </td> 
   </tr> 
   <tr> 
@@ -63,18 +63,18 @@ ht-degree: 1%
 * 您可以单独共享任务，也可以一次批量共享多个任务。\
   共享任务与共享其他对象相同。 有关在Workfront中共享项目的详细信息，请参阅[共享对象](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
 
-* 您可以向任务授予以下权限： 
+* 您可以向任务授予以下权限：
 
    * 视图
    * 管理
    * 贡献
 * 共享任务时，默认情况下，用户将继承与该任务关联的所有子对象的相同权限。 例如，他们对附加到任务的子任务、问题和文档继承相同的权限。\
-  有关Workfront中对象层次结构的详细信息，请参阅  [了解Adobe Workfront中的对象](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)。
+  有关Workfront中对象层次结构的详细信息，请参阅   [了解Adobe Workfront中的对象](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)。
 
   Workfront管理员可以指定文档是否应从用户访问级别更高的对象继承权限。 有关限制文档继承权限的详细信息，请参阅[创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 * 您可以从任务中删除继承的权限。\
-  有关从对象中删除继承权限的详细信息，请参阅  [从对象中删除权限](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)。
+  有关从对象中删除继承权限的详细信息，请参阅   [从对象中删除权限](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)。
 
 ## 共享任务的方法
 
@@ -87,7 +87,7 @@ ht-degree: 1%
    * 指定任务的任何父对象的权限：项目、项目群或项目组合。 任务从其父对象继承权限。 有关查看对象的继承权限的信息，请参阅[查看对象的继承权限](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)。
    * 在用于创建任务所在项目的模板上，将实体添加到项目共享。 有关从模板共享项目的信息，请参阅[共享模板](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)。
 
-   * 在编辑项目时，指定项目中所有任务的权限。 有关基于用户对项目的权限管理项目上任务的访问权限的信息，请参阅[&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access)编辑项目[一文中的](../../manage-work/projects/manage-projects/edit-projects.md)部分。
+   * 在编辑项目时，指定项目中所有任务的权限。  有关基于用户对项目的权限管理项目上任务的访问权限的信息，请参阅[](../../manage-work/projects/manage-projects/edit-projects.md#access)编辑项目[一文中的](../../manage-work/projects/manage-projects/edit-projects.md)部分。
 
   >[!TIP]
   >
@@ -185,13 +185,13 @@ ht-degree: 1%
    <td scope="row">添加任务</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">添加前置任务</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">添加问题</td> 
@@ -202,26 +202,26 @@ ht-degree: 1%
   <tr> 
    <td scope="row">删除任务</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row"> <p>常规任务编辑<br></p> </td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">更改任务状态</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">编辑任务限制</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">查看任务</td> 
@@ -244,50 +244,50 @@ ht-degree: 1%
   <tr> 
    <td scope="row">移动任务*</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">记录小时数</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">修改计划日期</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">接受分配</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">进行分配</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">附上自定义表单</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">编辑自定义字段</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">创建批准流程</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">批准任务</td> 
@@ -298,14 +298,14 @@ ht-degree: 1%
   <tr> 
    <td scope="row">编辑财务*</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">添加/编辑费用</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">查看财务状况</td> 
@@ -327,8 +327,8 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td scope="row">在系统范围内共享</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
    <td>✓</td> 
   </tr> 
  </tbody> 

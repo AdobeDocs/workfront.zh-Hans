@@ -6,10 +6,10 @@ description: 通过访问“任务详细信息”部分的“概述”区域，�
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '2102'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -29,22 +29,22 @@ ht-degree: 3%
 * [将自定义表单添加到对象](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
 * [管理附加到对象的自定义表单](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront包</p> </td> 
+   <td> <p>Adobe Workfront 包</p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 
    <td> <p>Adobe Workfront许可证 </p> </td> 
    <td><p>标准</p> 
-   <p>工作或更高</p> </td> 
+   <p>工作版或更高版本</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>访问级别配置</td> 
@@ -122,7 +122,7 @@ ht-degree: 3%
 1. 编辑任何可编辑的字段，方法是单击该字段或单击&#x200B;**+添加**&#x200B;将信息添加到空字段。
 1. 查看或编辑下列任何列出的字段。
 
-   并非所有字段都可以编辑。  
+   并非所有字段都可以编辑。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -199,7 +199,7 @@ ht-degree: 3%
             <td>H</td> 
            </tr> 
            <tr> 
-            <td>天。 这是默认设置。 </td> 
+            <td>天。 这是默认设置。 </td> 
             <td>D</td> 
            </tr> 
            <tr> 
@@ -248,7 +248,7 @@ ht-degree: 3%
       <td> <p>实际开始日期与实际完成日期之间的天数差。 这是完成这项工作实际所需的时间。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">计划小时数</td> 
+      <td role="rowheader">规划小时数</td> 
       <td> <p>指定任务的计划小时数（以小时为单位）。 这是任务被分派人完成任务所花费的实际时间。 您只能在“持续时间类型”设置为“计算分配”时指定任务的已计划小时数。 有关持续时间类型的详细信息，请参阅<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">任务持续时间和持续时间类型的概述</a>。</p> </td> 
      </tr> 
      <tr> 
@@ -313,7 +313,7 @@ ht-degree: 3%
       <td> <p>指定任务的实际开始日期。 将任务的状态更改为进行中时，通常会自动填充默认值。 项目经理或任务所有者也可以手动修改实际开始日期。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">计划完成日期</td> 
+      <td role="rowheader">规划完成日期</td> 
       <td> <p>计划的任务时显示的预计完成日期。 计划完成日期可由以下因素设置：</p> 
        <ul> 
         <li>从计划开始日期通过将任务的持续时间添加到计划开始日期来计算计划完成日期。 当项目经理或Workfront指定任务的持续时间时，将触发对计划完成日期的更新。 如果计划日期发生更改，通常是因为持续时间已更新。</li> 
@@ -365,7 +365,7 @@ ht-degree: 3%
    -->
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Custom Forms</strong> to add or forms or edit information on the existing custom forms.&nbsp;</p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Custom Forms</strong> to add or forms or edit information on the existing custom forms. </p>
    -->
 
    <!--
@@ -385,7 +385,7 @@ ht-degree: 3%
      -->
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click&nbsp;<strong>Finance</strong>, then <strong>Edit Finance</strong> to view or edit financial information for the task. </p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Finance</strong>, then <strong>Edit Finance</strong> to view or edit financial information for the task. </p>
    -->
 
    <!--

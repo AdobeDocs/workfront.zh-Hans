@@ -7,10 +7,10 @@ description: 活动衡量目标的进度。 如果没有关联的结果、活动
 author: Alina
 feature: Workfront Goals
 exl-id: 4d6ef324-4b5c-402b-b64d-b1a2a7d2ab57
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '389'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 活动衡量目标的进度。 如果不关联结果、活动、项目或瞄准的目标，则无法激活目标，也无法记录相关进度。
 
-## 访问要求
+## 访问权限要求
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ ht-degree: 2%
 >
 >Adobe Workfront目标不再可供购买。
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto">
 <col>
@@ -37,7 +37,7 @@ ht-degree: 2%
 </col>
 <tbody>
  <tr>
-  <td> <p>Adobe Workfront包</p> </td> 
+  <td> <p>Adobe Workfront 包</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -152,7 +152,7 @@ Adding activities to goals differs depending on which environment you use.
 
    ![Add activity inside goal](assets/add-activity-inside-goal-details-highlighted-350x152.png)
 
-1. From the **Activity Type** drop-down menu, select the type of activity you want to associate with your goal.&nbsp;Select **Manual progress bar** or **Project**. Manual progress bar is the default selection. 
+1. From the **Activity Type** drop-down menu, select the type of activity you want to associate with your goal. Select **Manual progress bar** or **Project**. Manual progress bar is the default selection. 
 1. (Conditional) Depending on which activity type you selected, do the following:
 
    1. If you selected **Manual progress bar**:

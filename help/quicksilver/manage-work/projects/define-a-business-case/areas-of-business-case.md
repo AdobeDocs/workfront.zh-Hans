@@ -6,7 +6,7 @@ description: 本文介绍了项目的业务案例的方面。
 author: Becky
 feature: Work Management
 exl-id: 0646e4f0-e8fb-48f2-b533-358229543081
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1553'
 ht-degree: 1%
@@ -133,7 +133,7 @@ Workfront管理员可以设置自定义费用类型。
 * 此处显示的信息也会显示在系统层的资源规划者或方案规划者中。
 
   <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the "or" stays in&nbsp;NWE&nbsp;only)<br></p>
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the "or" stays in NWE only)<br></p>
   -->
 
 * 在预算您的资源后，如果角色与每小时成本费率关联，则项目的预算劳力成本显示在资源预算区域。 预算劳力成本以项目的货币显示。
@@ -221,14 +221,14 @@ Workfront管理员可以设置自定义费用类型。
 <ol>
 <li value="1">Go to the <strong>Business Case</strong> area of a project. </li>
 <li value="2"> <p>In the<strong>Business Case Summary</strong> area, click <strong>Export</strong>.<br>A PDF file is downloaded to your computer. The file contains all areas of the Business Case in an easy to read format.</p> <p> <img src="assets/bc-summary-exported-350x160.png" alt="BC_Summary_exported.png" style="width: 350;height: 160;"> </p> </li>
-<li value="3">(Optional) You can attach the PDF file to an email, or print it.&nbsp;</li>
+<li value="3">(Optional) You can attach the PDF file to an email, or print it. </li>
 </ol>
 </div>
 -->
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>You can export the Business Case to a PDF file, in case you need to print it or attach it to an email in a more condensed format.&nbsp; The file contains all areas of the Business Case in an easy to read format.</p>
+<p>You can export the Business Case to a PDF file, in case you need to print it or attach it to an email in a more condensed format.  The file contains all areas of the Business Case in an easy to read format.</p>
 <p>For information about how to export the Business Case, see <a href="../../../manage-work/projects/define-a-business-case/export-business-case.md" class="MCXref xref">Export the Business Case of a project </a></p> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted and will replace the info above, when the standalone arrticle is live >> Becky!)</p>
 -->

@@ -7,7 +7,7 @@ description: 与任务、问题或项目关联的已计划小时数表示已分�
 author: Alina
 feature: Work Management
 exl-id: 0b86c760-691a-436e-9beb-31e9ac36440a
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '2815'
 ht-degree: 0%
@@ -159,7 +159,7 @@ The daily hour amount represents one of the following:
 
 您可以在工作负载均衡器中查看分配给任务或问题的每个用户的每日计划小时数分配。
 
-计划小时数的每日小时数表示以下小时数之一： 
+计划小时数的每日小时数表示以下小时数之一：
 
 * Workfront在任务、问题或项目持续时间的每天平均分配的默认金额
 * 由资源管理器管理的调整后的每日分配
@@ -195,7 +195,7 @@ The daily hour amount represents one of the following:
 
 >[!IMPORTANT]
 >
->请注意，“利用率”报告中的“计划小时数”与分配相关联，而不是与任务和问题本身相关联。 利用率报告中的计划小时数与项目任务和问题的计划小时数并不总是匹配。 但是，计划小时数与任务和问题的工作分配关联的小时数不匹配。
+>请注意，“利用率”报告中的“计划小时数”与分配相关联，而不是与任务和问题本身相关联。 利用率报告中的计划小时数与项目任务和问题的计划小时数并不总是匹配。 但是，计划小时数与任务和问题的工作分配关联的小时数不匹配。
 
 您可以在“利用率”报表中查看以下类型的计划小时数：
 
@@ -280,7 +280,7 @@ The daily hour amount represents one of the following:
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>Anna Asatryan</p>
 <p>3/22/2022 At 3:16 PM</p>
-<p>&nbsp;</p>
+<p> </p>
 <p>to Mark Paul, Corrie Butler, Arman Simonyan, Gagik Khalatyan, Alina Wilson, Artur Sargsyan, Vazgen Babayan, Anna Asatryan</p>
 <p>I have done some rough calculations on what the planned hours/revenues should look like Book.xlsx . And if we look, for example at the 2 users highlighted in one of the screenshots their planned hours look way off from what the calculation looks like in the spreadsheet (i.e. equally distributed allocation). When looking at the Workload balancer (the second screenshot), as an example for the user Yashas Mitta, I can see that the allocation has been modified. Obviously the utilization report calculates the allocations based on the modified contouring using the new work per day calculation. The project financial report uses the old, equal distribution of allocation along the full duration of the task. Hence. there is a difference when grouping per periods.</p>
 <p>Vazgen Babayan</p>

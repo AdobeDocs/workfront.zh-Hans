@@ -7,10 +7,10 @@ description: 创建模板后，可以编辑有关模板任务的信息。 在使
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '4633'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -38,16 +38,16 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 >
 >您无法批量编辑属于不同模板的模板任务。 您只能编辑属于同一模板的模板任务。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -159,7 +159,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    * [设置](#settings)
    * [任务](#assignments)
    * [自定义表单](#custom-forms)
-   * [评论](#comment)
+   * [注释](#comment)
 
 1. 继续编辑模板任务，如本文中的[使用旧体验](#edit-a-template-task-using-the-old-experience)编辑模板任务部分所述。
 
@@ -430,7 +430,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    单击&#x200B;**保存更改**。
 
-#### 评论 {#comment}
+#### 注释 {#comment}
 
 1. 按如上所述开始编辑模板任务。
 1. 单击&#x200B;**评论**。
@@ -452,7 +452,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 * [财务](#finance-1)
 * [自定义表单](#custom-forms-1)
 * [设置](#settings-1)
-* [评论](#comment-1)
+* [注释](#comment-1)
 
 #### 模板任务名称
 
@@ -756,7 +756,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    单击&#x200B;**保存**。
 
-#### 评论 {#comment-1}
+#### 注释 {#comment-1}
 
 1. 按如上所述开始编辑模板任务。
 1. 在&#x200B;**编辑模板任务**&#x200B;框中，单击左侧面板中的&#x200B;**注释**。

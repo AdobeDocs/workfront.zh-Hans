@@ -6,9 +6,9 @@ description: 您可以通过调整浏览器上的语言首选项以及Adobe Work
 feature: Get Started with Workfront
 author: Becky
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 5304f25ecb198f45c024b71185747f47fa8307d4
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1137'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Workfront中的Web验证查看器支持Workfront支持的大多数语言。
 * Workfront Fusion不支持在用户输入的字段中使用非英语文本字符。
 
 贵公司必须购买Workfront Fusion许可证才能访问Workfront Fusion。\
-有关Workfront Fusion的详细信息，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+有关Workfront Fusion的详细信息，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 ## 更改语言
 
@@ -146,7 +146,8 @@ Workfront中的Web验证查看器支持Workfront支持的大多数语言。
 要更改默认的Workfront电子邮件区域设置，请执行以下操作：
 
 1. 以Workfront管理员身份登录到Workfront。
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+
+{{step-1-to-setup}}
 
 1. 单击&#x200B;**系统** > **客户信息。**
 
@@ -164,7 +165,9 @@ Workfront中的Web验证查看器支持Workfront支持的大多数语言。
 
 要更改用户电子邮件区域设置，请执行以下操作：
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击您的用户配置文件图片。
+{{step1-click-main-menu}}
+
+1. 单击您的用户个人资料图片。
 
 1. 单击“更多”菜单![](assets/more-icon.png)，然后单击&#x200B;**编辑**。
 

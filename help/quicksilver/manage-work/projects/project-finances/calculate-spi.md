@@ -7,10 +7,10 @@ description: 计划绩效指数(SPI)描述了计划计划与实际计划之间�
 author: Lisa
 feature: Work Management
 exl-id: 38259774-f22b-4b69-9e22-5b541118a7de
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '396'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -22,16 +22,16 @@ ht-degree: 0%
 
 计划绩效指数(SPI)描述了计划计划与实际计划之间的关系。 Adobe Workfront在项目和任务级别计算SPI。 项目经理审查此量度，以确定任务或项目当前正在跟踪的时间是提前还是晚于。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
+   <td>Adobe Workfront 包</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 ### SPI值显示的内容 {#what-the-spi-value-shows}
 
-项目经理了解，SPI值为1表示项目按计划或按计划进行。  值大于1表示项目提前于计划，值小于1表示项目落后于计划。  与1越远，与计划的偏差越大。
+项目经理了解，SPI值为1表示项目按计划或按计划进行。  值大于1表示项目提前于计划，值小于1表示项目落后于计划。  与1越远，与计划的偏差越大。
 
 | **SPI值** | **指示“按计划”** |
 |---|---|
@@ -82,9 +82,9 @@ SPI = (Total Planned Hours x % Complete) / Planned Hours Scheduled to Date*
 
 *&#42;如果计划小时数截止日期= 0，则SPI = 1*。
 
-“至今的计划小时数”计划是在您执行计算的分钟计算的。 它显示到当前日期的计划小时数。 当您将财务数据更改为准确时，会自动重新计算此值。 Workfront中没有指示此值的字段。
+“至今的计划小时数”计划是在您执行计算的分钟计算的。 它显示到当前日期的计划小时数。 当您将财务数据更改为准确时，会自动重新计算此值。 Workfront中没有指示此值的字段。
 
-例如，如果您有一个具有1个任务的项目，并且该任务具有10个计划小时数和10天持续时间，则第5天的计划小时数计划至今为5。 
+例如，如果您有一个具有1个任务的项目，并且该任务具有10个计划小时数和10天持续时间，则第5天的计划小时数计划至今为5。
 
 ## 在项目或任务中找到SPI
 

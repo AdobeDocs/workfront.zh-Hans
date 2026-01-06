@@ -6,10 +6,10 @@ description: 项目群表示共享跨项目边界的共同策略、目标或目�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 0%
+source-wordcount: '1244'
+ht-degree: 1%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 0%
 
 例如，您可以有一个包含营销部门所有项目的2024年营销财政年度Portfolio。 您可能需要考虑进一步将您的项目整理到财务季度中，并在2024年营销财政年度Portfolio中添加2024年营销财政季度1-4计划。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,16 +43,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>[!UICONTROL 标准版]</p>
-   <p>[!UICONTROL 计划]</p> </td> 
+   <td> <p>[！UICONTROL标准版]</p>
+   <p>[！UICONTROL计划]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[!UICONTROL Edit]对项目组合和程序的访问权限 </p>  </td> 
+   <td> <p>[！UICONTROL Edit]对项目组合和程序的访问权限 </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>项目组合的[!UICONTROL Manage]权限</p> <p>创建项目后，默认情况下，您拥有[!UICONTROL Manage]权限。</p>  </td> 
+   <td> <p>项目组合的[！UICONTROL Manage]权限</p> <p>创建项目后，默认情况下，您拥有[！UICONTROL Manage]权限。</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 ## 创建项目
 
-1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)。
+{{step1-click-main-menu}}
 
 1. 执行以下操作之一。
 
@@ -158,12 +158,12 @@ ht-degree: 0%
       <td> <p>指定程序的描述。</p> <p>该描述将显示在项目的登陆页面上。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 项目管理器]</td> 
-      <td> <p>开始键入要充当项目管理员的用户名，然后在用户名出现在下拉列表中时单击该用户名。 这与[!UICONTROL 项目所有者]相同。 </p> <p>提示：您也可以在项目标题中更新项目管理器。 </p> </td> 
+      <td role="rowheader">[！UICONTROL项目管理器]</td> 
+      <td> <p>开始键入要充当项目管理员的用户名，然后在用户名出现在下拉列表中时单击该用户名。 这与[！UICONTROL项目所有者]相同。 </p> <p>提示：您也可以在项目标题中更新项目管理器。 </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL 组] </td> 
-      <td> <p>添加单个组的名称（如果该组拥有项目或负责完成项目）。 </p> <p>您可以通过将鼠标悬停在该组上并单击其旁边显示的[!UICONTROL 信息]图标<img src="assets/info-icon.png">来确保选择正确的组。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。</p> 
+      <td role="rowheader">[！UICONTROL组] </td> 
+      <td> <p>添加单个组的名称（如果该组拥有项目或负责完成项目）。 </p> <p>您可以通过将鼠标悬停在该组上并单击其旁边显示的[！UICONTROL信息]图标<img src="assets/info-icon.png">来确保选择正确的组。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。</p> 
        <div data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
         <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> 
        </div> </td> 
@@ -212,14 +212,14 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">对象类型和激活状态的名称</td> 
-   <td>当您查看项目时，“项目”一词会显示一个橙色图标。 单词“[!UICONTROL 已停用]”显示在旁边，如果程序未标记为[!UICONTROL 活动]，则大纲为灰色。 </td> 
+   <td>当您查看项目时，“项目”一词会显示一个橙色图标。 单词“[！UICONTROL已停用]”显示在旁边，如果程序未标记为[！UICONTROL活动]，则大纲为灰色。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">计划的操作区域 </td> 
    <td> <p>单击以下任一选项以访问程序的更多信息或编辑选项：</p> 
     <ul> 
      <li>星形图标，用于将程序添加到收藏夹列表</li> 
-     <li> <p>[!UICONTROL More]菜单<img src="assets/qs-more-menu.png">用于执行以下操作之一： </p> 
+     <li> <p>[！UICONTROL More]菜单<img src="assets/qs-more-menu.png">用于执行以下操作之一： </p> 
       <ul> 
        <li>编辑项目</li> 
        <li>取消激活它。 停用项目群时，您无法再将其与项目级别的项目关联。 </li> 
@@ -229,20 +229,20 @@ ht-degree: 0%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 完成百分比]</td> 
-   <td> <p>您无法在标题中编辑项目的[!UICONTROL 完成百分比]。 将从项目群的项目中更新此信息。 默认情况下，项目的完成百分比是属于该项目且处于[!UICONTROL 当前]或[!UICONTROL 已批准]状态的项目的平均完成百分比值。</p> </td> 
+   <td role="rowheader">[！UICONTROL完成百分比]</td> 
+   <td> <p>您无法在标题中编辑项目的[！UICONTROL完成百分比]。 将从项目群的项目中更新此信息。 默认情况下，项目的完成百分比是属于该项目且处于[！UICONTROL当前]或[！UICONTROL已批准]状态的项目的平均完成百分比值。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 项目管理器]</td> 
-   <td> <p>您可以在标题中编辑项目管理器。 这与[!UICONTROL 项目所有者]相同。 </p> </td> 
+   <td role="rowheader">[！UICONTROL项目管理器]</td> 
+   <td> <p>您可以在标题中编辑项目管理器。 这与[！UICONTROL项目所有者]相同。 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 计划完成日期]</td> 
+   <td role="rowheader">[！UICONTROL计划完成日期]</td> 
    <td>您无法在标题中编辑项目的规划完成日期。 将从项目群的项目中更新此信息。 项目群中最新项目的计划完成日期变为项目的计划完成日期。  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 活动项目条件]</td> 
-   <td>这是计算在项目群中，将[!UICONTROL Condition]设置为[!UICONTROL On Target]、[!UICONTROL At Risk]或[!UICONTROL In Trouble]的项目所占的百分比。 此处表示的项目是状态为[!UICONTROL 当前]和[!UICONTROL 已批准]的项目。 </td> 
+   <td role="rowheader">[！UICONTROL活动项目条件]</td> 
+   <td>这是计算在项目群中，将[！UICONTROL Condition]设置为[！UICONTROL On Target]、[！UICONTROL At Risk]或[！UICONTROL In Trouble]的项目所占的百分比。 此处表示的项目是状态为[！UICONTROL当前]和[！UICONTROL已批准]的项目。 </td> 
   </tr> 
  </tbody> 
 </table>

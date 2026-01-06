@@ -6,10 +6,10 @@ description: 您可以更新附加到某个对象的自定义表单的显示顺�
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1054'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -19,16 +19,16 @@ ht-degree: 0%
 
 您可以更新附加到某个对象的自定义表单的显示顺序、删除它们或批量编辑自定义表单在多个对象上的显示方式。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
@@ -180,6 +180,6 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 
    或
 
-   单击&#x200B;**展开Forms**&#x200B;以同时展开所有表单。 
+   单击&#x200B;**展开Forms**&#x200B;以同时展开所有表单。
 
 1. 单击&#x200B;**保存更改**。

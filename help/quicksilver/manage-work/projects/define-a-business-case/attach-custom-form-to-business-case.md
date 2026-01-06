@@ -5,31 +5,31 @@ description: 自定义Forms用于收集未显示在现有Adobe Workfront字段�
 author: Becky
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '326'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 # 将自定义表单附加到业务案例
 
-自定义Forms用于收集未显示在现有Adobe Workfront字段中的信息。 
+自定义Forms用于收集未显示在现有Adobe Workfront字段中的信息。
 
 有关创建自定义Forms的更多信息，请参阅文章[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
-## 访问要求
+## 访问权限要求
 
 <!--Audit: 06/2025-->
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront包</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> <p>Prime或更高版本</p>
   </tr> 
   <tr> 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
    ![展开自定义表单详细信息](assets/expand-custom-form-details.png)
 
-<!--1. (Optional) Select&nbsp;**Edit Custom Form**.  
+<!--1. (Optional) Select **Edit Custom Form**.  
   ![Edit custom form](assets/acf1-350x122.png)
 
-1. (Optional) Specify information in the fields of the custom form, then click&nbsp;**Save** . -->
+1. (Optional) Specify information in the fields of the custom form, then click **Save** . -->

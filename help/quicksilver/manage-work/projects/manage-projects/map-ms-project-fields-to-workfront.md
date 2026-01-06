@@ -6,7 +6,7 @@ description: Adobe Workfront中的项目与Microsoft项目中的项目通常兼�
 author: Alina
 feature: Work Management
 exl-id: 381eb6ad-8084-406b-90f9-44460b58a04c
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 4%
@@ -18,13 +18,13 @@ ht-degree: 4%
 Adobe Workfront中的项目与Microsoft项目中的项目通常兼容。 使用这两个应用程序，您可以执行以下操作：
 
 * 从Microsoft项目导出项目并将它们导入Workfront
-* 从Workfront导出项目并将它们导入Microsoft项目。 
+* 从Workfront导出项目并将它们导入Microsoft项目。
 
 有关将项目从Microsoft项目导入到Workfront的更多信息，请参阅[从Microsoft项目导入项目](../../../manage-work/projects/create-projects/import-project-from-ms-project.md)。
 
 有关从Workfront导出项目以将其导入Microsoft项目的详细信息，请参阅[将项目导出到Microsoft项目](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md)。
 
-在执行此类数据导入时，了解信息如何从一个应用程序转换为另一个应用程序非常重要。 大多数情况下，在完成导入后，您需要对项目进行一些手动修改。 
+在执行此类数据导入时，了解信息如何从一个应用程序转换为另一个应用程序非常重要。 大多数情况下，在完成导入后，您需要对项目进行一些手动修改。
 
 ## 字段映射概述
 
@@ -64,4 +64,4 @@ Adobe Workfront中的项目与Microsoft项目中的项目通常兼容。 使用�
 
   >[!NOTE]
   >
-  >由于约束不会在Microsoft项目和Workfront之间映射，因此请确保任务之间具有前置任务关系。 否则，任务的计划开始日期和计划完成日期在导入项目中可能不准确。 
+  >由于约束不会在Microsoft项目和Workfront之间映射，因此请确保任务之间具有前置任务关系。 否则，任务的计划开始日期和计划完成日期在导入项目中可能不准确。

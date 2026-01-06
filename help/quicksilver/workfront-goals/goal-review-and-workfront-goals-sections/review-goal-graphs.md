@@ -6,10 +6,10 @@ description: 您可以在Adobe Workfront目标的“图形”部分中查看目�
 author: Alina
 feature: Workfront Goals
 exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 0%
+source-wordcount: '899'
+ht-degree: 2%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->您可以在图形部分中，查看选定时间段内的目标总数。 但是，在计算整体目标进度状态和完成百分比时，Workfront目标只考虑状态为“活动”和“已关闭”的目标。
+>您可以在图形部分中，查看选定时间段内的目标总数。 但是，在计算整体目标进度状态和完成百分比时，Workfront目标只考虑状态为“活动”和“已关闭”的目标。
 
-## 访问要求
+## 访问权限要求
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ ht-degree: 0%
 >
 >Adobe Workfront目标不再可供购买。
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto">
 <col>
@@ -40,7 +40,7 @@ ht-degree: 0%
 </col>
 <tbody>
  <tr>
-  <td> <p>Adobe Workfront包</p> </td> 
+  <td> <p>Adobe Workfront 包</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -157,12 +157,9 @@ ht-degree: 0%
 
 ## 在图形中查看目标进度
 
-1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png) > **目标**。
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   这将打开Workfront目标区域。
+这将打开Workfront目标区域。
 
 1. 单击左侧面板中的&#x200B;**图形**。
 
@@ -224,4 +221,4 @@ ht-degree: 0%
 
    单击进度图底部的&#x200B;**基线**&#x200B;以从图表中删除预期的进度。
 
- 
+

@@ -6,7 +6,7 @@ description: 您可以使用项目模板捕获与组织中项目关联的大多�
 author: Alina
 feature: Work Management
 exl-id: caa0e7b1-37c3-4973-92ce-cc93df4e4186
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 0%

@@ -7,10 +7,10 @@ description: 在Adobe Workfront中，项目、任务和问题具有实际开始�
 author: Alina
 feature: Work Management
 exl-id: 4357b072-24f6-4f89-b624-f066f8af0722
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 0%
+source-wordcount: '525'
+ht-degree: 3%
 
 ---
 
@@ -18,16 +18,16 @@ ht-degree: 0%
 
 在Adobe Workfront中，项目、任务和问题具有实际开始日期。 对于任务和问题，这是将其标记为进行中的日期。 对于项目，这是将项目中的第一个任务标记为进行中或完成的日期。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 ## 关于Workfront中实际开始日期的注意事项
 
-* 实际开始日期位于项目、任务和问题的详细信息部分。 
+* 实际开始日期位于项目、任务和问题的详细信息部分。
 * 创建项目、任务或问题时，不会填充这些项目的实际开始日期。
 * 当项目、任务或问题中的工作实际开始时，将填写“实际开始日期”。
 * 如果项目上的工作尚未开始，则“项目详细信息”选项卡上不显示“实际开始日期”。
@@ -96,7 +96,7 @@ ht-degree: 0%
 
      >[!IMPORTANT]
      >
-     >将项目标记为当前时，不会填充项目实际开始日期。 实际工作必须在填入项目实际开始日期之前开始于项目任务。
+     >将项目标记为当前时，不会填充项目实际开始日期。 实际工作必须在填入项目实际开始日期之前开始于项目任务。
 
      在这些情况下，项目的“实际开始日期”设置为针对项目中最早的任务发生这些操作的日期和时间。 这表明项目实际在此日期和时间开始。
 
@@ -111,7 +111,8 @@ ht-degree: 0%
 
 要在项目的详细信息部分找到实际开始日期，请执行以下操作：
 
-1. 单击Workfront右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**项目**。
+{{step1-to-projects}}
+
 1. 单击要查看其实际开始日期的项目。
 1. 单击左侧面板中的&#x200B;**项目详细信息**，然后转到&#x200B;**概述**&#x200B;部分。
 

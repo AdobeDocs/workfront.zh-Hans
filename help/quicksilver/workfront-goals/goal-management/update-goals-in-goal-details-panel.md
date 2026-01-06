@@ -6,10 +6,10 @@ description: 您可以通过访问目标详细信息面板来更新各个目标�
 author: Alina
 feature: Workfront Goals
 exl-id: e9df0d98-05a1-4977-b7f1-426b8f5b3eae
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 1%
 >
 >您无法更新状态为“已关闭”的目标。
 
-## 访问要求
+## 访问权限要求
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ ht-degree: 1%
 >
 >Adobe Workfront目标不再可供购买。
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto">
 <col>
@@ -40,7 +40,7 @@ ht-degree: 1%
 </col>
 <tbody>
  <tr>
-  <td> <p>Adobe Workfront包</p> </td> 
+  <td> <p>Adobe Workfront 包</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -201,7 +201,7 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
    ![Goal details updates](assets/goal-details-updates-tab-350x280.png)
 
-1. (Optional) Deselect any of the following options if you want to not display them in the Updates tab.&nbsp;They are selected by default: 
+1. (Optional) Deselect any of the following options if you want to not display them in the Updates tab. They are selected by default: 
 
    | Option |Description  |
    |---|---|

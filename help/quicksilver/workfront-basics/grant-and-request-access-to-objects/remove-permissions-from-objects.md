@@ -6,10 +6,10 @@ description: 您可以删除其他用户对您有权共享的对象拥有的权�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 8e191b5e-31df-4291-8b9d-9ca69be27561
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '767'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -21,16 +21,16 @@ ht-degree: 0%
 
 与共享对象类似的注意事项适用于从对象中删除权限。 有关详细信息，请参阅[对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#consider)一文中的[有关共享对象的注意事项](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)部分
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
@@ -82,7 +82,7 @@ ht-degree: 0%
       ![共享](assets/new-share-button.png)
    1. 查找要从对象中移除的用户、角色、团队、组或公司。
    1. 单击&#x200B;**删除**。
-在&#x200B;**从**&#x200B;中删除&lt;用户名>下拉菜单中，选择是希望从所选对象中删除其访问权限，还是从与其关联的所有子对象中删除其访问权限。
+在**从**&#x200B;中删除&lt;用户名>下拉菜单中，选择是希望从所选对象中删除其访问权限，还是从与其关联的所有子对象中删除其访问权限。
 
       ![移除](assets/remove-permissions-on-project-nwe-350x479.png)
 
@@ -115,7 +115,7 @@ You can remove entities (users, job roles, teams, groups, companies) from severa
 1. In the `<User Name>`'s Workfront access will be removed from this drop-down menu, select whether you want their access to be removed just from the objects that you have selected, or from all other children objects associated with it.  
    The following scenarios exist:
 
-   * If you remove the entity only from the object, that entity loses their permissions on the object, and their inherited permissions to the children objects. If they were previously granted permissions to the children items individually, they retain the same permissions on all children objects associated with it when you select this option.&nbsp;
+   * If you remove the entity only from the object, that entity loses their permissions on the object, and their inherited permissions to the children objects. If they were previously granted permissions to the children items individually, they retain the same permissions on all children objects associated with it when you select this option.  
    * If you remove the entity from the object and all the children objects, that entity loses their permissions to the object as well as all children objects, even when they were previously given individual permission on each child object.
 
    **Example:** Select whether to remove permissions to just the tasks you selected in a list, or to the issues and documents attached to the tasks as well.
@@ -150,11 +150,11 @@ You can remove entities (users, job roles, teams, groups, companies) from severa
    >
    >您无法从继承的权限列表中删除单个实体。 您只能对列出的所有实体禁用继承权限。
 
-1. 单击&#x200B;**保存**。 
+1. 单击&#x200B;**保存**。
 
 ## 将对象设为私有
 
-如果已在系统范围内共享对象，或者已通过将对象设为公共对象与外部用户共享对象，则可以通过删除系统范围或公共权限来再次将其设为私有对象。 
+如果已在系统范围内共享对象，或者已通过将对象设为公共对象与外部用户共享对象，则可以通过删除系统范围或公共权限来再次将其设为私有对象。
 
 有关使对象在系统范围内或公开可用的详细信息，请参阅[共享对象](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
 

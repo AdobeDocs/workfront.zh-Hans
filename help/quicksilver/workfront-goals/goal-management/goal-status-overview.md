@@ -7,7 +7,7 @@ description: 目标状态指示目标是否处于活动状态且当前正在记�
 author: Alina
 feature: Workfront Goals
 exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 4%
@@ -58,7 +58,7 @@ ht-degree: 4%
   | 已关闭 | 否 | 是 | 否 | - |
 
 * 打开已关闭的目标也会更新目标的进度。
-* 您对目标执行的某些操作也会更新其状态。 有关如何更新目标状态的信息，请参阅以下文章：
+* 您对目标执行的某些操作也会更新其状态。 有关如何更新目标状态的信息，请参阅以下文章：
 
    * [在Adobe Workfront目标中创建目标](../../workfront-goals/goal-management/create-goals.md)
    * [在Adobe Workfront目标中激活目标](../../workfront-goals/goal-management/activate-goals.md)

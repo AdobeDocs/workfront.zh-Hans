@@ -7,10 +7,10 @@ description: 在分配访问级别时，Adobe Workfront管理员可以向您授�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '892'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -24,22 +24,22 @@ ht-degree: 0%
 权限特定于Workfront中的每个项目，并定义用户可以对该项目执行的操作。
 
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> <p>标准</p> 
-   <p>工作或更高</p> 
+   <p>工作版或更高版本</p> 
    </td> 
   </tr> 
   <tr> 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
   有关Workfront中对象层次结构的详细信息，请参阅[了解Adobe Workfront中的对象](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)。
 
-* 您可以从项目群中删除继承的权限。 有关从对象中删除权限的详细信息，请参阅  [从对象中删除权限](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)。
+* 您可以从项目群中删除继承的权限。 有关从对象中删除权限的详细信息，请参阅   [从对象中删除权限](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)。
 
 ## 共享项目
 
@@ -155,18 +155,18 @@ ht-degree: 0%
 
 | **操作** | **管理** | **查看** |
 |---|---|---|
-| 编辑项目详细信息 | ✓ |   |
+| 编辑项目详细信息 | ✓ |   |
 | 查看项目群 | ✓ | ✓ |
-| 删除项目 | ✓ |   |
-| 附加自定义表单 | ✓ |   |
-| 编辑自定义字段 | ✓ |   |
-| 添加或删除项目&#42; | ✓ |   |
-| 批准项目 | ✓ |   |
+| 删除项目 | ✓ |   |
+| 附加自定义表单 | ✓ |   |
+| 编辑自定义字段 | ✓ |   |
+| 添加或删除项目&#42; | ✓ |   |
+| 批准项目 | ✓ |   |
 | 添加文档文件夹&#42; | ✓ | ✓ |
 | 添加文档 | ✓ | ✓ |
 | 添加更新/评论 | ✓ | ✓ |
 | 共享 | ✓ | ✓ |
-| 在系统范围内共享 |   | ✓ |
+| 在系统范围内共享 |   | ✓ |
 
 *这些权限由访问级别和其他对象（如项目）的权限控制。
 

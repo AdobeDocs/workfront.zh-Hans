@@ -4,10 +4,10 @@ description: 如果您有访问项目组合的权限，则可以与其他用户�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '870'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -20,22 +20,22 @@ ht-degree: 0%
 权限特定于Workfront中的一个项目，并定义用户可以对该项目执行的操作。
 
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> <p>标准</p> 
-   <p>工作或更高</p> 
+   <p>工作版或更高版本</p> 
    </td> 
   </tr> 
   <tr> 
@@ -146,19 +146,19 @@ ht-degree: 0%
 
 | **操作** | **管理** | **查看** |
 |---|---|---|
-| 编辑Portfolio详细信息 | ✓ |   |
+| 编辑Portfolio详细信息 | ✓ |   |
 | 查看Portfolio | ✓ | ✓ |
-| 删除Portfolio | ✓ |   |
-| 附加自定义表单 | ✓ |   |
-| 编辑自定义字段 | ✓ |   |
-| 添加或删除程序&#42; | ✓ |   |
-| 添加或删除项目&#42; | ✓ |   |
-| 批准项目 | ✓ |   |
-| Portfolio优化&#42; | ✓ |   |
+| 删除Portfolio | ✓ |   |
+| 附加自定义表单 | ✓ |   |
+| 编辑自定义字段 | ✓ |   |
+| 添加或删除程序&#42; | ✓ |   |
+| 添加或删除项目&#42; | ✓ |   |
+| 批准项目 | ✓ |   |
+| Portfolio优化&#42; | ✓ |   |
 | 添加文档文件夹&#42; | ✓ | ✓ |
 | 添加文档 | ✓ | ✓ |
 | 更新/评论 | ✓ | ✓ |
 | 共享 | ✓ | ✓ |
-| 在系统范围内共享 |   | ✓ |
+| 在系统范围内共享 |   | ✓ |
 
 *这些权限由其他对象（如项目、项目群、文档）的访问级别和权限控制。

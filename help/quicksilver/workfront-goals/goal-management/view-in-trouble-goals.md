@@ -6,10 +6,10 @@ description: 在“Adobe Workfront目标”中，拥有进度条的Oals存在无
 author: Alina
 feature: Workfront Goals
 exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 0%
+source-wordcount: '748'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 “进展存在问题”的目标有无法实现的危险，在“Adobe Workfront目标”中有红色进度条表示。 您应该经常审查目标并了解进度滞后的原因。 有关目标进度的信息，请参阅[Adobe Workfront目标中的目标进度和条件概述](../../workfront-goals/goal-management/calculate-goal-progress.md)。
 
-## 访问要求
+## 访问权限要求
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ ht-degree: 0%
 >
 >Adobe Workfront目标不再可供购买。
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto">
 <col>
@@ -40,7 +40,7 @@ ht-degree: 0%
 </col>
 <tbody>
  <tr>
-  <td> <p>Adobe Workfront包</p> </td> 
+  <td> <p>Adobe Workfront 包</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -130,7 +130,7 @@ ht-degree: 0%
 
 ## 防止目标取得有问题的进展的建议
 
-在目标达到“存在问题”的进度之前，您可以经常监控这些目标，并在目标达到“有风险”的进度时调整其进度。 有风险的目标有陷入麻烦的危险。 有关目标进度的更多信息，请参阅[Adobe Workfront目标中的目标进度和条件概述](../../workfront-goals/goal-management/calculate-goal-progress.md)
+在目标达到“存在问题”的进度之前，您可以经常监控这些目标，并在目标达到“有风险”的进度时调整其进度。 有风险的目标有陷入麻烦的危险。 有关目标进度的更多信息，请参阅[Adobe Workfront目标中的目标进度和条件概述](../../workfront-goals/goal-management/calculate-goal-progress.md)
 
 在您的目标达到“存在问题”进度之前，我们建议执行以下操作：
 
@@ -139,16 +139,13 @@ ht-degree: 0%
 
 ## 查看目标列表中的存在问题的目标
 
-您可以在Workfront目标的任何部分中查看目标。 有关Workfront目标部分的信息，请参阅[Adobe Workfront目标概述部分](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)。
+您可以在Workfront目标的任何部分中查看目标。 有关Workfront目标部分的信息，请参阅[Adobe Workfront目标概述部分](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)。
 
 本文介绍了如何查看目标列表中的目标。
 
-1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png) > **目标**。
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   这将打开Workfront目标区域，默认情况下将显示目标列表部分。
+这将打开Workfront目标区域，默认情况下将显示目标列表部分。
 
 1. （推荐）为“目标列表”区域调整以下过滤器，以查看风险目标：
 

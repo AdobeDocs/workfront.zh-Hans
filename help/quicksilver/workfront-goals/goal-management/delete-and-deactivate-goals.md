@@ -6,10 +6,10 @@ description: 当您开始处理某个目标时，如果它在您的组织中变�
 author: Alina
 feature: Workfront Goals
 exl-id: 3089adeb-3e56-492a-82fe-536f57079b73
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 0%
+source-wordcount: '590'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 当您开始处理某个目标时，如果它在您的组织中变得无关紧要，我们建议您停用它，而不是删除它。 停用目标会保留其历史信息，并让您有机会稍后重新激活它。 但是，有时删除目标可能比较合理，这样可以保持目标列表的准确性。
 
-## 访问要求
+## 访问权限要求
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 0%
 >
 >Adobe Workfront目标不再可供购买。
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto">
 <col>
@@ -36,7 +36,7 @@ ht-degree: 0%
 </col>
 <tbody>
  <tr>
-  <td> <p>Adobe Workfront包</p> </td> 
+  <td> <p>Adobe Workfront 包</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -178,12 +178,10 @@ Deactivating goals differs depending on which environment you use.
 1. Click the **X** icon in the upper-right to close Goal Details.
 -->
 
-1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**目标**。
+{{step1-to-goals}}
 
-   此时将显示目标列表。
+此时将显示目标列表。
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
 
 1. （可选）修改筛选器以仅显示处于活动状态的目标。
 
@@ -235,12 +233,10 @@ Deleting  goals differs depending on which environment you use.
    The goal is removed from the Goal List and cannot be recovered.
 -->
 
-1. 单击右上角的主菜单图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**目标**。
+{{step1-to-goals}}
 
-   此时将显示目标列表。
+此时将显示目标列表。
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
 1. 单击目标的名称。 这将打开目标页面。
 1. 单击目标名称右侧的&#x200B;**更多**&#x200B;菜单![更多图标](assets/more-icon.png)，然后单击&#x200B;**删除目标**，然后单击&#x200B;**删除**。
 

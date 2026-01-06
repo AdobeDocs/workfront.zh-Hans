@@ -6,10 +6,10 @@ description: 您可以与用户共享模板，或者通过在模板级别使用�
 author: Alina
 feature: Work Management
 exl-id: 99c6b241-a2c9-4b6c-b605-177bbbc3f21a
-source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 3%
+source-wordcount: '724'
+ht-degree: 5%
 
 ---
 
@@ -23,16 +23,16 @@ ht-degree: 3%
 
 有关共享模板时可以向用户授予的权限的信息，请参阅[共享模板](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -97,7 +97,7 @@ ht-degree: 3%
 
    或
 
-   从列表中选择模板，单击“共享”图标![](assets/share-icon.png)，然后单击&#x200B;**模板。**
+   从列表中选择模板，单击“共享”图标![共享模板](assets/share-icon.png)，然后单击&#x200B;**模板。**
 
    >[!TIP]
    >
@@ -117,7 +117,7 @@ ht-degree: 3%
 
    * **管理**：具有这些权限的用户能够编辑或删除模板。
 
-     有关此处提供的高级设置![](assets/gear-icon-in-access-levels.png)的信息，请参阅文章[共享模板](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md#template-permissions)中的[模板共享高级设置](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)部分。
+     有关此处提供的高级设置![齿轮图标](assets/gear-icon-in-access-levels.png)的信息，请参阅[共享模板](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md#template-permissions)一文中的[模板共享高级设置](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)部分。
 
 1. 单击&#x200B;**保存**。
 
@@ -145,9 +145,9 @@ ht-degree: 3%
 1. 从每个实体的下拉菜单中，选择以下选项：
 
    * **无访问权限**：您可以指定哪些用户无权访问模板。\
-     仅当从模板批量共享项目时，此选项才可用。 
+     仅当从模板批量共享项目时，此选项才可用。
    * **视图**：具有这些权限的用户可以查看从模板创建的项目。
-   * **Contribute**：具有这些权限的用户可以参与从模板创建的项目 
+   * **Contribute**：具有这些权限的用户可以参与从模板创建的项目
    * **管理**：具有这些权限的用户可以管理或删除从此模板创建的项目。
 
 1. （可选）单击&#x200B;**选项**&#x200B;图标以使项目在系统范围内可用。

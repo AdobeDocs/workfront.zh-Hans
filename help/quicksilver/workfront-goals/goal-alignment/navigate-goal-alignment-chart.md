@@ -6,10 +6,10 @@ description: 使用“目标对齐方式”部分可在流程图中显示整个�
 author: Alina
 feature: Workfront Goals
 exl-id: e79ced31-4680-4af7-b083-3d615c747af8
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 1%
+source-wordcount: '883'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 * Adobe Workfront目标中的[目标对齐概述](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
 * [通过在Adobe Workfront目标中连接目标来调整目标](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
 
-## 访问要求
+## 访问权限要求
 
 >[!NOTE]
 >
@@ -32,14 +32,14 @@ ht-degree: 1%
 >
 >Adobe Workfront目标不再可供购买。
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr>
-  <td> <p>Adobe Workfront包</p> </td> 
+  <td> <p>Adobe Workfront 包</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -125,9 +125,8 @@ Or
 
 ## 导航到目标对齐方式部分
 
-1. 单击屏幕右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](../goal-alignment/assets/dots-main-menu-icon.png)，然后单击&#x200B;**目标**。
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-alignment/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+{{step1-to-goals}}
+
 1. 单击左侧面板中的&#x200B;**目标对齐方式**。
 1. 使用对齐图表右上角的过滤器，仅选择对您很重要的目标。 有关在Workfront目标中使用过滤器的信息，请参阅[Adobe Workfront目标中的过滤信息](../../workfront-goals/goal-management/filter-information-wf-goals.md)。
 
@@ -159,7 +158,7 @@ Or
       <td role="rowheader">目标进度条<span>和进度</span></td> 
       <td> <p>目标进度指示当前已实现目标的程度。 这是根据自目标时间段开始以来经过的时间，自动计算所有瞄准的目标、结果和目标活动的平均进度。 有关计算目标进度的信息，请参阅<a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Adobe Workfront目标中的目标进度和条件概述</a>。 </p> 
        <div> 
-        <p>到当前日期的目标实际进度。 以下进度值和颜色指示按时实现目标的可能性： </p> 
+        <p>到当前日期的目标实际进度。 以下进度值和颜色指示按时实现目标的可能性： </p> 
         <ul> 
          <li><span>准时</span>（绿色指示器）：目标准时，将准时实现。</li> 
          <li> <span>处于风险中</span>（黄色指示器）：目标进度落后，可能无法按时实现。</li> 

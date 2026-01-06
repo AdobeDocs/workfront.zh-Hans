@@ -6,10 +6,10 @@ description: 您可以从文档区域共享文件夹及其内容。
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 0%
+source-wordcount: '839'
+ht-degree: 2%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 >* 如果为工作项中的文档文件夹配置共享选项，然后复制该工作项，则共享配置不会转移到新工作项中的文档文件夹。
 >
 
-## 访问要求
+## 访问权限要求
 
 <!--drafted for P&P
 (I am putting Contributor and higher here because this is what I found in testing. Normally, Review equals Light but I found out that Contributor can also have manage rights to documents and can share them.)
@@ -61,14 +61,14 @@ ht-degree: 0%
  </tbody> 
 </table>
 -->
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -94,11 +94,11 @@ ht-degree: 0%
 
 ## 共享文件夹
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**文档**。
+{{step1-to-documents}}
 
-   或
+或
 
-   打开Workfront对象后，单击左侧面板中的&#x200B;**文档**。
+打开Workfront对象后，单击左侧面板中的&#x200B;**文档**。
 
 1. 选择文件夹，然后单击工具栏中的共享图标![](assets/share-icon.png)。
 
@@ -139,7 +139,7 @@ ht-degree: 0%
 ## 用户如何访问与其共享的文件夹的内容
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete these 2 paragraphs when the story &nbsp;<a href="https://hub.workfront.com/task/622f8d6f000897c9a4a11bdfd9b2cf34/overview">Handle email notification content when a folder is shared</a> goes to Preview:</p>
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete these 2 paragraphs when the story   <a href="https://hub.workfront.com/task/622f8d6f000897c9a4a11bdfd9b2cf34/overview">Handle email notification content when a folder is shared</a> goes to Preview:</p>
 -->
 
 目前，当您共享文件夹时，收件人在其“文档”区域中看不到该文件夹。 但是，他们可以通过运行文档报告来访问其文档。

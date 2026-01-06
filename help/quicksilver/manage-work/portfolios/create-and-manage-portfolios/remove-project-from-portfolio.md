@@ -6,10 +6,10 @@ description: 您可以从项目组合中删除项目并将其与其他项目组�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 8982097e-76ee-497a-aa7c-74c6fbd3002d
-source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 您还可以从项目组合中删除项目，这也会从[!DNL Adobe Workfront]中删除项目。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,17 +35,17 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>[!UICONTROL 标准版]</p>
-   <p>[!UICONTROL 计划] </p> </td> 
+   <td> <p>[！UICONTROL标准版]</p>
+   <p>[！UICONTROL计划] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[!UICONTROL Edit]对项目的访问权限</p> <p>[!UICONTROL Edit]对项目组合的访问权限</p>  </td> 
+   <td> <p>[！UICONTROL Edit]对项目的访问权限</p> <p>[！UICONTROL Edit]对项目组合的访问权限</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>项目组合和项目的[!UICONTROL Manage]权限以移除项目</p>
-   <p>[!UICONTROL Manage]具有对项目的[!UICONTROL Delete]访问权限，可从项目组合中删除这些项目</p> </td> 
+   <td> <p>项目组合和项目的[！UICONTROL Manage]权限以移除项目</p>
+   <p>[！UICONTROL Manage]具有对项目的[！UICONTROL Delete]访问权限，可从项目组合中删除这些项目</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -86,11 +86,11 @@ ht-degree: 0%
 ## 从项目组合中删除项目
 
 1. 转到Portfolio并单击左侧面板中的&#x200B;**[!UICONTROL 项目]**。
-1. 选择要删除的项目。 
+1. 选择要删除的项目。
 
    ![删除项目按钮](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
 
 1. 单击&#x200B;**[!UICONTROL 删除项目]**。
-1. 单击&#x200B;**[!UICONTROL 删除]**&#x200B;以从[!DNL Workfront]中删除项目，或单击&#x200B;**[!UICONTROL 从Portfolio]**&#x200B;中删除&#x200B;**&#x200B;**&#x200B;以从所选Portfolio中删除该项目。
+1. 单击&#x200B;**[!UICONTROL 删除]**&#x200B;以从[!DNL Workfront]中删除项目，或单击&#x200B;**[!UICONTROL 从Portfolio]**&#x200B;中删除&#x200B;****&#x200B;以从所选Portfolio中删除该项目。
 
 1. （可选且有条件）查找您从项目组合中删除的项目，并将其与另一个项目组合关联。 有关将项目与项目组合关联的信息，请参阅[将项目添加到项目组合](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)。

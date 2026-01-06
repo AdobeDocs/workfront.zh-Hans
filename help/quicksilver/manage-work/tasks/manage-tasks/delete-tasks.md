@@ -6,9 +6,9 @@ description: 您可以删除可能重复或创建有误的任务。
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '782'
 ht-degree: 5%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 您可以删除可能重复或创建有误的任务。
 
-对于具有历史信息（更新、计划更改、状态或其他字段）的任务，我们建议您关闭它们或将其标记为废弃，而不是删除它们。 这有助于您保留项目的历史信息。
+对于具有历史信息（更新、计划更改、状态或其他字段）的任务，我们建议您关闭它们或将其标记为废弃，而不是删除它们。 这有助于您保留项目的历史信息。
 
 ## 访问权限要求
 
@@ -68,7 +68,7 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects with access to&nbsp;Delete</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to tasks, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Grant access to tasks</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+   <td> <p>Edit access to Tasks and Projects with access to Delete</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to tasks, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Grant access to tasks</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -89,7 +89,7 @@ ht-degree: 5%
 * 如果任务已记录小时数，Workfront或组管理员必须通过在Workfront实例中配置任务和问题首选项来允许删除这些任务。 当您尝试删除具有已登录小时数的任务的项目时，这也适用。
 
   <!--
-  (NOTE: the last statement is NWE&nbsp;only; not possible in classic)
+  (NOTE: the last statement is NWE only; not possible in classic)
   -->
 
   有关启用删除记录小时数的任务的详细信息，请参阅[配置系统范围的任务和问题首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)中的“删除”部分。
@@ -140,9 +140,8 @@ ht-degree: 5%
 
 ### 同时删除项目中的多个任务  {#delete-multiple-tasks-in-a-project-simultaneously}
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)。
+{{step1-to-projects}}
 
-1. 单击&#x200B;**项目**。
 1. 单击包含要删除的任务的项目名称。
 1. 单击左侧面板中的&#x200B;**任务**。
 1. 执行下列操作之一：
@@ -170,9 +169,8 @@ ht-degree: 5%
 
 ### 删除单个任务 {#delete-a-single-task}
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)。
+{{step1-to-projects}}
 
-1. 单击&#x200B;**项目**。
 1. 单击包含要删除的任务的项目名称。
 1. 单击左侧面板中的&#x200B;**任务**。
 1. 单击要删除的任务的名称。

@@ -7,7 +7,7 @@ description: 您必须将结果、活动或一致的目标添加到目标才能�
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 3%
@@ -145,7 +145,7 @@ This will have additional types in the future - add another section for types?
    <td><b><p>功能</p></b></td> 
    <td><b><p>结果</p></b></td> 
    <td><b><p>活动</p></b></td> 
-   <td> <p><strong>项目</strong> </p> <p> </p> </td> 
+   <td> <p><strong>项目</strong> </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td><span style="font-weight: normal;">您可以在Workfront界面中自定义对象名称</span> </td> 
@@ -167,8 +167,8 @@ This will have additional types in the future - add another section for types?
   </tr> 
   <tr> 
    <td>您可以将其中一个与多个目标关联。</td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>✔</td> 
   </tr> 
   <tr> 
@@ -181,13 +181,13 @@ This will have additional types in the future - add another section for types?
    <td>必须在Workfront目标中手动更新它们</td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>这些任务应在目标的结束日期完成</td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>它们只能分配给用户，而不能分配给团队、组或公司。 </td> 
@@ -201,7 +201,7 @@ This will have additional types in the future - add another section for types?
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
-  <tr> **&#x200B;**
+  <tr> ****
    <td>它们提供了一系列介于开始值和结束值之间的值，这些值说明了您距离实现这些目标有多近。 接近结束值会计算目标的进度值。 </td> 
    <td>✔</td> 
    <td>✔</td> 

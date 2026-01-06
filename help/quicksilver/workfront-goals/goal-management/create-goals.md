@@ -6,10 +6,10 @@ description: 无论您是CEO、经理还是个人投稿人，都可以在Adobe W
 author: Alina
 feature: Workfront Goals
 exl-id: 14bf48b6-eb0c-4b00-a1a4-0d070ccc1392
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 5%
+source-wordcount: '635'
+ht-degree: 8%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 5%
 
 无论您是CEO、经理还是个人投稿人，都可以在Adobe Workfront目标中创建目标，以使您的工作与概述组织策略的目标保持一致。
 
-## 访问要求
+## 访问权限要求
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 5%
 >
 >Adobe Workfront目标不再可供购买。
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto">
 <col>
@@ -36,7 +36,7 @@ ht-degree: 5%
 </col>
 <tbody>
  <tr>
-  <td> <p>Adobe Workfront包</p> </td> 
+  <td> <p>Adobe Workfront 包</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -219,12 +219,10 @@ Creating goals differs depending on what environment you use.
 
 -->
 
-1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**目标**。
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+此时将显示目标列表。
 
-   此时将显示目标列表。
 1. 单击&#x200B;**新建目标**。
 
    此时将显示新建目标框。

@@ -6,7 +6,7 @@ description: 您可以编辑项目模板以反映未来项目流程和设置的�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '5672'
 ht-degree: 2%
@@ -39,7 +39,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 您可以一次编辑一个模板，也可以批量编辑模板。
 
-## 访问要求
+## 访问权限要求
 
 +++ 展开以查看访问要求。
 
@@ -48,11 +48,11 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td role="rowheader">Adobe Workfront 许可证</td> 
    <td>
       <p>标准</p>
       <p>规划</p>
@@ -140,7 +140,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    * [任务设置](#task-settings)
    * [问题设置](#issue-settings)
    * [访问](#access-preview)
-   * [评论](#comment)
+   * [注释](#comment)
    <!--* [Linked folders](#linked-folders-conditional-availability) -->
 
 ### 模板名称{#template-name}
@@ -212,7 +212,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       </tr>
 
    <tr> 
-      <td role="rowheader"><strong>组合</strong></td> 
+      <td role="rowheader"><strong>项目组合</strong></td> 
       <td><p>为从此模板创建的项目指定Portfolio。 必须先创建Portfolio，然后它才会显示在下拉列表中。 </p><p>只有有效的项目组合会显示在列表中。 有关创建项目组合的详细信息，请参阅<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">创建项目组合</a>。</p></td> 
       </tr> 
       <tr> 
@@ -317,7 +317,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       </tr>
 
    <tr> 
-      <td role="rowheader"><strong>组合</strong></td> 
+      <td role="rowheader"><strong>项目组合</strong></td> 
       <td><p>为从此模板创建的项目指定Portfolio。 必须先创建Portfolio，然后它才会显示在下拉列表中。 </p><p>只有有效的项目组合会显示在列表中。 有关创建项目组合的详细信息，请参阅<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">创建项目组合</a>。</p></td> 
       </tr> 
       <tr> 
@@ -664,7 +664,7 @@ For instructions on editing Linked folders, see [Edit workflow values in a proje
 
 -->
 
-### 评论
+### 注释
 
 1. 如上所述，开始编辑模板。
 1. 在&#x200B;**编辑模板**&#x200B;框中，单击&#x200B;**评论**。
@@ -709,7 +709,7 @@ Editing templates in bulk differs depending on which environment you are using.
    * 任务设置
    * 问题设置
    * 访问
-   * 评论
+   * 注释
 
 1. 单击&#x200B;**保存**。
 
@@ -1258,7 +1258,7 @@ For information about how these settings affect creating new tasks, see [Create 
 
 1. In the **Task Default Approval Process** box, select the Approval Process you want to associate with all new tasks when you add them to a project created from this template. You must create an Approval Process for tasks before you can associate it with tasks. Only active approval processes display in the list. For more information about creating Approval Processes, see [Creating Approval Processes](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 1. In the **Task Default Custom Forms** box, select the custom form or forms that you want to associate with all new tasks when you add them to a project created from this template. You must build the custom forms before they are available to select in this field. Only active custom forms display in the list. You can associate up to ten custom forms with a task.
-1. (Optional) **Select Use Work Effort to automatically calculate task Planned Hours** if you want to enable managing task effort by using&nbsp;Work Effort instead of Planned Hours in the project created from the template.
+1. (Optional) **Select Use Work Effort to automatically calculate task Planned Hours** if you want to enable managing task effort by using Work Effort instead of Planned Hours in the project created from the template.
 1. (Conditional and optional) If you selected Use Work Effort to automatically calculate task Planned Hours, click the drop-down menu to update the percentage for each level of Work Effort. The following percentage values are the defaults:
  
    | Work Effort level |Percentage value|

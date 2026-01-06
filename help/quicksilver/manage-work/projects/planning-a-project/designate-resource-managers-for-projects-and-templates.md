@@ -6,10 +6,10 @@ description: 您可以为项目指定资源管理器，以指明谁负责管理�
 author: Alina
 feature: Work Management
 exl-id: ae2a89e7-8049-4ee6-9b28-ce247d3f2a6f
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 0%
+source-wordcount: '731'
+ht-degree: 2%
 
 ---
 
@@ -37,16 +37,16 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
 >* <span class="preview"> For more information about the deprecation and removal of the Scheduling tools, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).</span> 
 -->
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -162,9 +162,7 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
 
 ## 为模板指定资源管理器
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)。
-
-1. 单击&#x200B;**模板**。
+{{step1-to-templates}}
 
 1. 执行以下任一操作：
 
@@ -174,7 +172,7 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
 
      不会从正在编辑的模板中删除现有资源管理器；通过这种方式添加的任何用户都将作为现有资源管理器之外的模板上的资源管理器。
 
-   * 要将资源管理器添加到新模板，请单击“新建模板”**&#x200B;**，再单击模板名称旁边的&#x200B;**“更多”菜单**，然后单击&#x200B;**“编辑”**。
+   * 要将资源管理器添加到新模板，请单击“新建模板”****，再单击模板名称旁边的&#x200B;**“更多”菜单**，然后单击&#x200B;**“编辑”**。
 
 1. 在&#x200B;**概述**&#x200B;部分中，单击&#x200B;**资源管理器**&#x200B;字段。
 1. 开始键入要作为模板的资源管理器添加的用户名，然后在名称出现在列表中时单击该名称。

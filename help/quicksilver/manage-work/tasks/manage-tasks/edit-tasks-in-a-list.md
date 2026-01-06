@@ -6,10 +6,10 @@ description: 您可以通过编辑列表中显示的字段来编辑任务列表�
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '2851'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -29,22 +29,22 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 您可以通过编辑列表中显示的字段来编辑任务列表中的任务信息。 有关编辑任务的其他方法的信息，请参阅[编辑任务](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> <p>标准<p>
-   <p>工作或更高</p>
+   <p>工作版或更高版本</p>
     </td> 
   </tr> 
   <tr> 
@@ -79,7 +79,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>Edit access to Tasks and&nbsp;Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -526,7 +526,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       * 财务
       * 设置
       * 设置
-      * 评论
+      * 注释
 
       >[!NOTE]
       >
@@ -547,7 +547,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       * 设置
       * 任务
       * 自定义表单
-      * 评论
+      * 注释
 
    1. （可选）在&#x200B;**自定义Forms**&#x200B;部分中，选择&#x200B;**重新计算自定义表达式**&#x200B;选项，以确保附加到所选任务的自定义表单上的所有计算自定义字段都是最新的。
    1. 单击&#x200B;**保存更改**。 您所做的所有更改现在在所有选定任务中均可见。

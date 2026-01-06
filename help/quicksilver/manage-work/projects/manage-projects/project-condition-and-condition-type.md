@@ -7,7 +7,7 @@ description: 项目完成情况以可视化形式表示项目的进展情况。 
 author: Alina
 feature: Work Management
 exl-id: 0c847b26-b0cb-49bb-84be-32534c72d5b6
-source-git-commit: e4de185f172b173dcc3ad966afa69ffb3bc479eb
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 1%
@@ -78,25 +78,25 @@ ht-degree: 1%
    <td><strong>项目完成情况</strong></td> 
    <td><strong>项目进度状态</strong></td> 
    <td><strong>Workfront条件指示器</strong></td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>准时</td> 
    <td>当项目的进度状态为“按时”时，项目的状态为<strong>位于目标</strong>上。 </td> 
    <td> <img src="assets/on-target-condition-icon.png"> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>处于风险中</td> 
    <td>当项目的进度状态为<strong>落后</strong>或<strong>有风险</strong>时，项目的状态为<strong>有风险</strong>。</td> 
    <td> <img src="assets/at-risk-project-condition-icon.png"> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>存在问题</td> 
    <td>当项目的进度状态为<strong>延迟</strong>时，项目的状况为<strong>存在问题</strong>。 </td> 
    <td> <img src="assets/in-trouble-project-condition-icon.png"> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>

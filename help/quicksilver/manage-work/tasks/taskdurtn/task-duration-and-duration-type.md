@@ -8,7 +8,7 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1653'
 ht-degree: 1%
@@ -75,7 +75,7 @@ ht-degree: 1%
 |---|---|
 | Minutes | 一 |
 | 小时 | H |
-| 天。 这是默认设置。 | D |
+| 天。 这是默认设置。 | D |
 | Weeks | 星期- |
 | Months | T， MO |
 | 经过的分钟数 | EM |

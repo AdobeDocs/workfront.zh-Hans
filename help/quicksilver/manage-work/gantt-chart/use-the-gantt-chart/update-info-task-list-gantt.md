@@ -6,10 +6,10 @@ description: Adobe Workfront任务列表的甘特图显示有关项目或模板�
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1006'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -31,9 +31,9 @@ Adobe Workfront任务列表的[!UICONTROL 甘特图]显示有关项目或模板�
 * 更新完成百分比
 * 均衡项目资源
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,16 +45,16 @@ Adobe Workfront任务列表的[!UICONTROL 甘特图]显示有关项目或模板�
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>[!UICONTROL 标准版]</p>
-   <p>[!UICONTROL 计划]</p> </td> 
+   <td> <p>[！UICONTROL标准版]</p>
+   <p>[！UICONTROL计划]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[!UICONTROL Edit]对项目和任务的访问权限</p> </td> 
+   <td> <p>[！UICONTROL Edit]对项目和任务的访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>[!UICONTROL Manage]对项目和任务的访问权限</p> </td> 
+   <td> <p>[！UICONTROL Manage]对项目和任务的访问权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -246,7 +246,7 @@ Adobe Workfront任务列表的[!UICONTROL 甘特图]显示有关项目或模板�
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE:&nbsp;this is drafted because I moved the whole content to the article linked above)</p>
+<p>(NOTE: this is drafted because I moved the whole content to the article linked above)</p>
 <ol>
 <li value="1">Go to the project you want to level.</li>
 <li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> In the <strong>Tasks</strong> area, click the <strong>Gantt chart</strong> icon.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">All changes are saved automatically when the <strong>Autosave</strong> option is enabled. It is enabled by default. </p> </li>

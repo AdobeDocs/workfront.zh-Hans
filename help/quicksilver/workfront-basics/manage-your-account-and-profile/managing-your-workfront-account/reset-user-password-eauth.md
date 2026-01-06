@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: 72f955e9-75ff-4ff7-b434-7a2b2d5ee0e8
-source-git-commit: 1d7d094a682a02b09651023f94e81ee0b330163c
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 0%
+source-wordcount: '199'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 为您的[!DNL Workfront]环境启用增强身份验证(eAuth)后，[!DNL Workfront]管理员无法重置其他用户的登录凭据。 这与没有eAuth的[!DNL Workfront]环境或启用了单点登录(SSO)的环境不同。
 
-## 访问要求
+## 访问权限要求
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -35,7 +35,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[!UICONTROL 计划]</p> </td> 
+   <td> <p>[！UICONTROL计划]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置*</strong></td> 
@@ -48,14 +48,12 @@ ht-degree: 0%
 
 ## 在启用eAuth的环境中重置用户密码
 
-1. 单击[!DNL Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 用户]** ![用户图标](assets/users-icon-in-main-menu.png)。
-
-
+{{step-1-to-users}}
 
 1. 选择需要重置密码的&#x200B;**[!UICONTROL 用户]**。
    ![选择用户](assets/100520classicnweselectuser-350x105.png)
 
-1. 单击选择所需的&#x200B;**[!UICONTROL 用户]**&#x200B;后显示的&#x200B;**[!UICONTROL 更多]按钮**，然后从下拉菜单中选择&#x200B;**[!UICONTROL 发送忘记密码电子邮件]**&#x200B;选项。
+1. 单击选择所需的&#x200B;**[!UICONTROL 用户]后显示的**&#x200B;更多&#x200B;**[!UICONTROL 按钮]**，然后从下拉菜单中选择&#x200B;**[!UICONTROL 发送忘记密码电子邮件]**&#x200B;选项。
 
    ![发送忘记密码电子邮件](assets/100520classicnwesendemail-350x134.png)
 

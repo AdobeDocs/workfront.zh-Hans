@@ -7,7 +7,7 @@ description: 将前置任务关系添加到任务时，您可能会遇到依赖�
 author: Alina
 feature: Work Management
 exl-id: 142e9637-841c-43d1-b297-e42c28a9e010
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 依赖性循环概述
 
-当有两个或多个任务相互依赖而需要完成时，就会发生依赖性循环。 如果Adobe Workfront创建依赖性循环，则不允许您在任务之间创建前置任务关系。
+当有两个或多个任务相互依赖而需要完成时，就会发生依赖性循环。 如果Adobe Workfront创建依赖性循环，则不允许您在任务之间创建前置任务关系。
 
 **示例：**&#x200B;任务2是任务1的前置任务，这意味着您必须先完成任务2，然后才能开始处理任务1。
 
@@ -36,4 +36,4 @@ ht-degree: 0%
 * 如果您尝试将父项设置为子项的前置项，则也会发生依赖关系循环。
 * 如果存在依赖性循环，则无法保存任务或项目。 为了修复依赖性循环，您必须重新评估错误消息中列出的任务之间的前置任务关系，并在保存任务或项目之前删除冲突。
 
- 
+

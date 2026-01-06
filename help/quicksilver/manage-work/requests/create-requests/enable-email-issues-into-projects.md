@@ -6,10 +6,10 @@ description: 您可以配置项目以允许用户通过电子邮件将问题添�
 author: Becky
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '789'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -18,21 +18,21 @@ ht-degree: 0%
 <!-- Audited: 4/2025 -->
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
 -->
 
 您可以配置项目以允许用户通过电子邮件将问题添加到项目。 仅当项目被指定为请求队列时，您才允许通过电子邮件将问题发送到项目中。 有关创建请求队列项目的详细信息，请参阅[创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
@@ -76,7 +76,7 @@ ht-degree: 0%
 >* Workfront允许在所有集群中为每个请求队列发送一封唯一的电子邮件。 如果选择禁用请求队列，则只要您创建的电子邮件地址仍在“接收电子邮件地址”框中，该电子邮件地址就会保留。 如果选择停止使用接收电子邮件，则必须从“接收电子邮件”字段中将其删除，以便将来可以使用该电子邮件。
 >
 >* 如果请求队列具有多个队列主题或主题组，Workfront将随机选择通过电子邮件发送的请求将转到的队列主题，从而使通过电子邮件发送的请求难以管理。
->  &#x200B;>我们建议，您设置为通过电子邮件接收请求的项目不应有多个队列主题。 如果提交的请求针对不同的资源或项目，则在提交请求后应手动路由或移动它们。
+>我们建议，您设置为通过电子邮件接收请求的项目不应有多个队列主题。 如果提交的请求针对不同的资源或项目，则在提交请求后应手动路由或移动它们。
 
 1. 转到要启用以通过电子邮件接收问题的项目。
 1. 单击左侧面板中的&#x200B;**队列详细信息**。
@@ -94,7 +94,7 @@ ht-degree: 0%
    >
    >* 由于此电子邮件地址必须是唯一的，因此如果将其删除，则将来可能不可用。
    <!--
-   >This was the case previously, but it's not working this way anymore, since August 2022: * Emails forwarded to this email address are not added as issues to the project in&nbsp;Workfront. Only emails created from this email address are added as issues.
+   >This was the case previously, but it's not working this way anymore, since August 2022: * Emails forwarded to this email address are not added as issues to the project in Workfront. Only emails created from this email address are added as issues.
    -->
 
 1. （可选）选择&#x200B;**转发所有无法通过电子邮件提交的问题**，然后在以下框中输入转发电子邮件地址。

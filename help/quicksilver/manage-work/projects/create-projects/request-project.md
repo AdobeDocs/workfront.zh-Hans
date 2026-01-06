@@ -6,10 +6,10 @@ description: 您可以在开始处理项目之前请求批准该项目。 我们
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '557'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -32,16 +32,16 @@ ht-degree: 2%
 * 在项目群的项目区域中
 * 在项目组的组区域中，当您是组管理员时。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -101,7 +101,7 @@ ht-degree: 2%
 
 1. 执行下列操作之一：
 
-   * 单击右上角的&#x200B;**主菜单** ![主菜单图标](assets/main-menu-icon.png)，或左上角的&#x200B;**主菜单** ![主菜单行](assets/lines-main-menu.png)。如果可用，请单击&#x200B;**项目**，然后展开&#x200B;**新建项目**。
+   * 单击左上角的&#x200B;**主菜单**&#x200B;图标![主菜单行](assets/lines-main-menu.png)或右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，单击&#x200B;**项目**，然后展开&#x200B;**新建项目**。
    * 转到项目组合，然后展开&#x200B;**新建项目**。
    * 转到项目群，然后展开&#x200B;**新建项目**。
    * 如果您是组管理员，则还可以在所管理组的项目部分中创建项目。 有关详细信息，请参阅[创建和修改组的项目](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)。

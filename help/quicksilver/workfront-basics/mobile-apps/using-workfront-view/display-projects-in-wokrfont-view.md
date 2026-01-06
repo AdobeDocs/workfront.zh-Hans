@@ -7,10 +7,10 @@ description: 默认情况下， [!DNL Adobe Workfront] 视图中显示的项目�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 76db4ed0-a411-49aa-8acd-f149df1f38a4
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '360'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 默认情况下，[!DNL Adobe Workfront View]中显示的项目列表显示最近的100个活动项目。 项目列表未按任何条件分组。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,7 +29,7 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront包</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront 包</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -80,4 +80,4 @@ ht-degree: 0%
 
 1. 从右向左轻扫以在列表中显示以下项目。\
    滚动每个项目时，将显示相同的构件。\
-   ![Image-1__6__copy.jpg](assets/image-1--6--copy-350x262.jpg) 
+   ![Image-1__6__copy.jpg](assets/image-1--6--copy-350x262.jpg)

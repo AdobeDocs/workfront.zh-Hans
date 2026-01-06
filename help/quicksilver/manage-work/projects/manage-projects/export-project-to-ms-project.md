@@ -6,34 +6,34 @@ description: 您可以将Adobe Workfront项目导出到Microsoft项目。
 author: Alina
 feature: Work Management
 exl-id: 3f0f3644-a763-4b72-a93a-85af8626b5b3
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 # 将项目导出到Microsoft项目
 
-您可以将Adobe Workfront项目导出到Microsoft项目。 
+您可以将Adobe Workfront项目导出到Microsoft项目。
 
 >[!IMPORTANT]
 >
 >* 并非所有Workfront字段都在Microsoft项目文件中传输。\
 >  有关Workfront和Microsoft项目之间字段兼容性的更多信息，请参阅文章[将Microsoft项目字段映射到Adobe Workfront项目](../../../manage-work/projects/manage-projects/map-ms-project-fields-to-workfront.md)。
->* 我们建议您限制从一个应用程序向另一个应用程序转移项目的次数。 
+>* 我们建议您限制从一个应用程序向另一个应用程序转移项目的次数。
 >
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -101,4 +101,4 @@ ht-degree: 0%
 
 1. 单击&#x200B;**导出MS项目**。
 
-   该项目将作为XML文件下载到您的计算机，并且已准备好将其导入Microsoft项目。 
+   该项目将作为XML文件下载到您的计算机，并且已准备好将其导入Microsoft项目。

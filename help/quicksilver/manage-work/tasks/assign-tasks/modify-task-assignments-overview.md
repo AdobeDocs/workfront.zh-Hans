@@ -7,7 +7,7 @@ description: 您可以将任务分配给用户、团队或工作角色，也可�
 author: Lisa
 feature: Work Management
 exl-id: e774f2db-494d-4f93-8727-3c073e5f930b
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '875'
 ht-degree: 0%
