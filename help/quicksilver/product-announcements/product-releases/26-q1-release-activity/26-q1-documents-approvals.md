@@ -4,9 +4,9 @@ description: 2026年第一季度文档和批准增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0197be82879cbd2abfd053e4a93002884db252b4
+source-git-commit: 6b6500b0db40a959d87d97c89d85e3564445cca4
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 本页介绍了在2026年第一季度发布中对“预览”环境所做的文档和批准增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
 
-## 在Creative Cloud Express中发送审核时选择Workfront项目
+## 在Adobe Express中发送审核时选择Workfront项目
 
 >[!NOTE]
 >
