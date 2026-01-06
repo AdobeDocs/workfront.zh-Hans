@@ -4,9 +4,9 @@ description: 2026年第一季度集成增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d0434e500daa257ec9070c5bb0279eb30545f64d
+source-git-commit: 353b71e59fc2dc2e1f806a560f04076586a32424
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 本页介绍了2026年第一季度版本与预览环境之间的集成增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
 
 
 ## 在Creative Cloud Express中发送审核时选择Workfront项目
@@ -42,19 +42,23 @@ ht-degree: 0%
 
 我们已在Adobe Workfront中为Experience Manager Assets集成升级了资源选择器。 通过此升级，您现在可以选择并将AEM收藏集直接拉入Workfront。
 
-## Salesforce集成的新版本现已可用
+<!--
+
+## New version of Salesforce integration now available
 
 >[!IMPORTANT]
 >
->为了提供更稳定和可扩展的集成，我们正在使用Workfront自动化与集成(Fusion)转向一种现代、灵活的集成方法。 在此过渡过程中，适用于Salesforce的Workfront集成（包括新版本）将在&#x200B;**2026年2月28日**&#x200B;之后不可用。
+>To deliver more stable and scalable integrations, we're shifting to a modern, flexible integration approach using Workfront Automation and Integration (Fusion). As part of this transition process, the Workfront for Salesforce integration, including the new version, will not be available after **February 28, 2026**. 
 
 >[!NOTE]
 >
->预览： 2025年10月30日
->生产快速发布： 2025年10月30日\
->为每个人生产： 2025年10月30日
+>Preview: October 30, 2025 
+>Production fast release: October 30, 2025  
+>Production for everyone: October 30, 2025  
 
-为了及时了解Workfront API的最新更改，我们创建了一个新的Salesforce集成。 新的集成具有与以前版本相同的功能，并且进行了更新以避免丢失API中已弃用的功能。
+To stay up-to-date with recent changes to the Workfront API, we've created a new Salesforce integration. The new integration features the same functionality as the previous version, and was updated to avoid losing functionality deprecated in the API.
 
-有关下载和安装新集成的说明和链接，请参阅[安装Adobe Workfront for Salesforce](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)。
+For instructions and links for downloading and installing the new integration, see [Install Adobe Workfront for Salesforce](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
+
+-->
 
