@@ -4,9 +4,9 @@ description: 2026年第一季度报告增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bb07096ce69e7d52c9332b6f9d230440a03c5f59
+source-git-commit: ad16dfe737f33a7d1025d8cef00605595d0476c2
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 本页介绍了在2026年第一季度发布中对“预览”环境所做的报表增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
 
 
 
@@ -151,16 +151,6 @@ ht-degree: 0%
 * 其他组： ID
 * 其他角色： ID
 * 其他团队： ID
-
-## 改进了画布功能板中分组计数的显示
-
->[!NOTE]
->
->预览： 2025年11月6日
->生产快速发布： 2025年11月13日
->适用于所有人的生产： 2026年1月15日
-
-当表报告有多个结果页并且表配置了分组时，该表现在显示当前页的记录数量和所有页的总记录计数。 例如，如果表报表分为7个分组，且第一页显示为3个，则表将显示第3页（共7页）。
 
 
 ## 新护栏可缩短Canvas仪表板中的加载时间
