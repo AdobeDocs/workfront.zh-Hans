@@ -7,9 +7,9 @@ description: 本页包含有关Workfront Data Connect中数据的结构和内容
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 815bee06ce413005e362d2e38068d591696cad5b
+source-git-commit: c669086f5954f9e2cf850887f4100e53c0c3e716
 workflow-type: tm+mt
-source-wordcount: '8878'
+source-wordcount: '8904'
 ht-degree: 9%
 
 ---
@@ -42,14 +42,57 @@ ht-degree: 9%
 
 ## 实体关系图
 
-Workfront中的对象（因此也就是Data Connect数据湖中的对象）不仅由其各个值定义，而且由其与其他对象的关系定义。 下面的实体关系图提供了数据连接中对象关系的高级映射。 可以使用以下链接查看和下载图表：
+Workfront中的对象（因此也就是Data Connect数据湖中的对象）不仅由其各个值定义，而且由其与其他对象的关系定义。
 
-[Data Connect实体关系图](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
+下面的实体关系图(ERD)为核心Workfront对象提供了数据连接中对象关系的高级映射。
 
 >[!IMPORTANT]
 >
->提供的实体关系图(ERD)故意不完整，因为由于应用程序内的关系数太多，完整的ERD将变得不可读。<br>
->此图提供了一个示例，说明如何使用以下[术语表](#terminology-table)部分的Project表中记录的关系将数据从Project数据视图连接到相邻对象。 预计，一旦项目对象关系了解了此模式，就不需要完整的ERD
+>这些图以单个对象为中心，并不表示整个Workfront应用程序的完整实体关系图。<br>
+>这些图旨在提供如何使用关系将数据连接到相邻对象的示例。
+
+### 实体关系图示例
+
++++ 展开以查看示例图表
+
+>[!TIP]
+>
+>若要查看图表的详细信息，请右键单击该图像，然后选择&#x200B;**在新选项卡中打开图像**。
+
+
+### 任务
+
+![分配实体关系图](assets/Assignment-centered-ERD.png)
+
+
+### 文档和文档审批
+
+![文档和文档审批实体关系图](assets/Document-and-Document-Approvals-centered-ERD.png)
+
+### 小时和工时表
+
+![小时和工时表实体关系图](assets/Hours-and-Timesheet-centered-ERD.png)
+
+
+### 问题
+
+![问题实体关系图](assets/Issue-centered-ERD.png)
+
+### 项目
+
+![项目实体关系图](assets/Project-centered-ERD.png)
+
+
+### 任务
+
+![任务实体关系图](assets/Task-centered-ERD.png)
+
+
+### 用户
+
+![用户实体关系图](assets/User-centered-ERD.png)
+
++++
 
 ## 日期类型
 
@@ -1665,15 +1708,15 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
 >
 >记录类型通过`enumClass`属性标识。 以下是所需的类型：<br>
 ><ul><li>CONDITION_OPTASK</li>
->&gt;<li>CONDITION_PROJ</li>
->&gt;<li>CONDITION_TASK</li>
->&gt;<li>PRIORITY_OPTASK</li>
->&gt;<li>PRIORITY_PROJ</li>
->&gt;<li>PRIORITY_TASK</li>
->&gt;<li>SEVERITY_OPTASK</li>
->&gt;<li>STATUS_OPTASK</li>
->&gt;<li>STATUS_PROJ</li>
->&gt;<li>STATUS_TASK</li></ul>
+&gt;<li>CONDITION_PROJ</li>
+&gt;<li>CONDITION_TASK</li>
+&gt;<li>PRIORITY_OPTASK</li>
+&gt;<li>PRIORITY_PROJ</li>
+&gt;<li>PRIORITY_TASK</li>
+&gt;<li>SEVERITY_OPTASK</li>
+&gt;<li>STATUS_OPTASK</li>
+&gt;<li>STATUS_PROJ</li>
+&gt;<li>STATUS_TASK</li></ul>
 
 
 ### 文档
