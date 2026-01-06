@@ -1,35 +1,37 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: 查找已提交的请求
-description: 了解Adobe Workfront的各个区域，您可以在这些区域找到您或其他人提交的请求，或者您从未提交并另存为草稿的请求。
+title: 查看已提交的请求
+description: 了解Adobe Workfront的各个区域，您可以在其中查看您或其他人提交的请求，或者您从未提交并另存为草稿的请求。
 author: Becky
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 9ea9f5741794641409d47ada006e3b9b78025cbd
+source-git-commit: b0060470156728a7ad98838378a7d963e2b5fd01
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 2%
+source-wordcount: '1406'
+ht-degree: 3%
 
 ---
 
-# 查找已提交的请求
+# 查看提交的请求
 
 <span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
-您可以找到您或其他人提交的以下类型的请求，或者您已开始但从未完成提交的请求。 您可以在Adobe Workfront的以下区域中找到这些请求：
+您可以查看自己或其他人提交的请求，或者查看您已开始但从未完成提交的请求。 您可以在Adobe Workfront的以下区域中找到这些请求：
 
-* Workfront中“请求”区域的&#x200B;**Workfront**&#x200B;选项卡：请在以下部分中查找提交到Workfront请求队列的请求：
+* Workfront中“请求”区域的&#x200B;**Workfront**&#x200B;选项卡：查看提交到Workfront请求队列的请求，具体位于以下部分：
    * **已提交节**：您或其他人提交的所有请求，您至少有权查看。
    * **草稿部分** ：您已开始但从未完成且从未提交的所有请求。 有关草稿请求的更多信息，请参阅[创建和提交Adobe Workfront请求](../../../manage-work/requests/create-requests/create-submit-requests.md)。
 
-  >[!TIP]
+  >[!NOTE]
   >
-  >您只能查看自己的草稿请求。
+  >* 您只能查看自己的草稿请求。
+  >* <span class="preview">在新请求体验中，提交的请求和草稿位于同一列表中。</span>
+  >* <span class="preview">在旧版体验中创建的草稿未出现在新请求体验中。</span>
 
-* Workfront中“请求”区域的&#x200B;**计划**&#x200B;选项卡：找到提交到Workfront计划请求表单的请求。 贵组织必须购买Workfront规划包。 有关信息，请参阅以下文章：
+* Workfront中“请求”区域的&#x200B;**计划**&#x200B;选项卡：查看提交到Workfront计划请求表单的请求。 贵组织必须购买Workfront规划包。 有关信息，请参阅以下文章：
 
    * [在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)
    * [提交Adobe Workfront Planning请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)
@@ -72,18 +74,18 @@ ht-degree: 2%
 
 +++
 
-## 在请求区域找到已提交的请求
+## 在请求区域查看已提交的请求
 
-根据您使用的是新请求体验还是旧请求体验，查找已提交的请求会有所不同。
+根据您使用的是新请求体验还是旧请求体验，查看已提交的请求会有所不同。
 
-* [在新请求体验中找到已提交的请求](#locate-submitted-requests-in-the-new-requesting-experience)
-* [在旧版请求体验中查找已提交的请求](#locate-submitted-requests-in-the-legacy-requesting-experience)
+* [在新的请求体验中查看已提交的请求](#view-submitted-requests-in-the-new-requesting-experience)
+* [在旧版中查看已提交的请求请求体验](#view-submitted-requests-in-the-legacy-requesting-experience)
 
-### 在新请求体验中找到已提交的请求
+### 在新的请求体验中查看已提交的请求
 
-您可以在“请求”区域<span class="preview">中找到已提交的请求，该区域包含这些请求所创建对象的链接。</span>
+您可以在“请求”区域<span class="preview">中查看已提交的请求，该区域包含指向由这些请求创建的对象的链接。</span>
 
-要查找您或其他用户在新的请求体验中提交的请求，请执行以下操作：
+要查看您或其他用户在新的请求体验中提交的请求，请执行以下操作：
 
 {{step1-to-requests}}
 
@@ -92,7 +94,7 @@ ht-degree: 2%
    此时将显示“请求”列表。
 
 1. （可选）要搜索请求，请开始在列表右上角的搜索栏中键入。 搜索结果会随键入内容一起显示。
-1. （可选）单击&#x200B;**筛选器**&#x200B;并开始为要查找的请求添加条件。
+1. （可选）单击&#x200B;**筛选器**&#x200B;并开始为要显示的请求添加条件。
 
    您可以按以下字段进行筛选：
 
@@ -103,20 +105,28 @@ ht-degree: 2%
    * **状态**：请求的状态。
    * **输入者**：添加请求的用户的名称。 如果请求是由Workfront之外的人员添加的，则&#x200B;**输入者**&#x200B;字段显示`N/A`。
 
-   您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的筛选器。
+   您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**加入的筛选器。
 在添加筛选条件时，将自动筛选请求列表。
-1. （可选）使用视图来关注要查找的请求。
+1. （可选）使用视图将焦点置于要显示的请求上。
 
    有关说明，请参阅[在请求区域](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)中创建或编辑视图。
+1. （可选）通过检查状态列来检查请求的状态。 新请求体验中提供了以下状态：
+
+   * 草稿：此请求尚未提交。
+   * 等待审阅
+   * 审核中
+   * 被拒绝
+   * 正在进行中
+   * 完成
 
 >[!NOTE]
 >
 >* 如果您有Workfront Planning，则Workfront和Planning请求将显示在同一列表中。 Workfront请求在“对象类型”列中显示值`Issue`。
 >* 此时将显示请求列表，其中显示50个请求。 要查看更多请求，请滚动到列表底部。
 
-### 在旧版请求体验中查找已提交的请求
+### 在旧版中查看已提交的请求请求体验
 
-要查找您或其他用户在旧版请求体验中提交的请求，请执行以下操作：
+要查看您或其他用户在旧版请求体验中提交的请求，请执行以下操作：
 
 {{step1-to-requests}}
 
@@ -253,5 +263,12 @@ ht-degree: 2%
    ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
 
    有关信息，请参阅[提交Adobe Workfront计划请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。
+
+
+1. （可选）通过检查状态列来检查请求的状态。 新请求体验中提供了以下状态：
+
+   * 草稿：此请求尚未提交。
+   * 正在进行中
+   * 完成
 
 
