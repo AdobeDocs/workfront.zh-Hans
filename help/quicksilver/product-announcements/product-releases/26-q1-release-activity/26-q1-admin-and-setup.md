@@ -4,9 +4,9 @@ description: 2026年第一季度管理员增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: e9e7b76dc8e4b9d1cc91987d0ea63b5e2ee58224
+source-git-commit: a49c8f2ad345f0ea8cdfd38ad79c6c0a5f636e95
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 本页介绍了管理员在2026年第一季度发布中对“预览”环境所做的增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
 
 ## 管理布局模板中的优先级
 
@@ -73,8 +73,6 @@ ht-degree: 0%
 
 有关详细信息，请参阅[创建和管理布局模板](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。
 
-
-
 ## 改进了自定义字段上使用活动标志的字段管理
 
 >[!NOTE]
@@ -89,6 +87,10 @@ ht-degree: 0%
 
 * 它从Workfront中可添加自定义字段的报表、过滤器、视图或其他位置中排除
 * 在字段库中无法将其添加到其他自定义表单
+
+>[!NOTE]
+>
+>在字段变为不活动状态后，会发生从报表、过滤器、视图和分组中排除的情况。 将字段标记为不活动时，不会更改或删除使用该字段的现有报表元素。
 
 有关详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
