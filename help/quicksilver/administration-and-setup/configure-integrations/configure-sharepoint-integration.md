@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '1711'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -43,9 +43,9 @@ ht-degree: 0%
 
 此集成仅与[!DNL SharePoint Online]兼容。 不支持[!DNL SharePoint]的内部部署实例。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -170,7 +170,7 @@ ht-degree: 0%
 
 1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![设置图标](/help/_includes/assets/gear-icon-setup.png)。
 1. 在左侧导航中选择&#x200B;**[!UICONTROL 文档]**，然后选择&#x200B;**[!UICONTROL 云提供商]**。
-1. 确保同时启用了&#x200B;**[!DNL SharePoint]**&#x200B;选项和&#x200B;**[!UICONTROL [!DNL SharePoint] (Graph API)]**&#x200B;选项。
+1. 确保同时启用了&#x200B;**[!DNL SharePoint]**&#x200B;选项和&#x200B;**[!UICONTROL [!DNL SharePoint](Graph API)]**&#x200B;选项。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 1. 在左侧导航中选择&#x200B;**[!UICONTROL 文档]**，然后选择&#x200B;**[!UICONTROL [!DNL SharePoint]集成]**。
 1. 选择列表左侧的复选标记以查看所有现有集成，然后选择&#x200B;**[!UICONTROL 禁用]**。
@@ -428,19 +428,19 @@ For instructions, see [Link an external document to [!DNL Workfront]](../../docu
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 设计]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL设计]</p> </td> 
    <td> <p>可以查看、添加、更新、删除、批准和自定义</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 编辑]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL编辑]</p> </td> 
    <td> <p>可以添加、编辑和删除列表；可以查看、添加、更新和删除列表项和文档</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Contribute]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Contribute]</p> </td> 
    <td> <p>可以查看、添加、更新和删除列表项和文档</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 仅视图]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL仅视图]</p> </td> 
    <td> <p>可以查看页面、列表项和文档（具有服务器端文件处理程序的文档类型可以在浏览器中查看，但不能下载）</p> </td> 
   </tr> 
  </tbody> 

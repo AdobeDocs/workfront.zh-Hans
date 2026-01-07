@@ -6,7 +6,7 @@ description: 您可以使用 [!DNL Adobe Workfront] for [!DNL Jira] 来集成 [!
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: f6e0feb1-349f-459f-9f93-c7492cb15f11
-source-git-commit: e06713b8871ba5e7bfae58f67ee246c9c1163a63
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 3%
@@ -21,9 +21,9 @@ ht-degree: 3%
 >
 >为了满足贵组织与Jira的集成需求，我们建议使用Workfront自动化和集成。
 >
->有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 >
->有关Jira的Workfront自动化和集成模块的特定功能的信息，请参阅[Jira软件模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-modules-new)。
+>有关Jira的Workfront自动化和集成模块的特定功能的信息，请参阅[Jira软件模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-modules-new)。
 
 <!--
 
@@ -35,9 +35,9 @@ ht-degree: 3%
 >
 >Eight ready-to-use Workfront Automation and Integration templates for Jira will be available by August to help replicate common workflows and accelerate implementation. Templates are fully customizable to meet specific business needs and can be extended as requirements evolve. 
 > 
->For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
+>For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
 >
->For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
+>For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
 
 -->
 
@@ -47,7 +47,7 @@ ht-degree: 3%
 
 [!DNL Workfront]和[!DNL Jira]中的所有用户都可从此集成中受益。 他们只需要许可证就可以使用他们最常使用的系统，而不需要许可证就可以同时使用两个系统。
 
-此加载项可用于[!UICONTROL 软件的]服务器[!UICONTROL 和]OnDemand[!UICONTROL &#x200B; （或]云[!DNL Jira]）版本。 此加载项不可用于[!DNL Data Center]软件的[!DNL Jira]版本。
+此加载项可用于[!UICONTROL 软件的]服务器[!UICONTROL 和]OnDemand[!UICONTROL  （或]云[!DNL Jira]）版本。 此加载项不可用于[!DNL Data Center]软件的[!DNL Jira]版本。
 
 有关[!DNL Jira]当前支持的[!DNL Workfront for Jira]版本的列表，请参阅Atlassian Marketplace上的[[!DNL [!DNL Workfront for Jira]]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview)。
 
@@ -83,7 +83,9 @@ ht-degree: 3%
 
 有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-+++##为[!DNL Workfront]安装[!DNL Jira]
++++
+
+## 为[!DNL Workfront]安装[!DNL Jira]
 
 为[!DNL Workfront] OnDemand安装[!DNL Jira]与在[!DNL Jira]服务器实例上安装它相同。
 
@@ -96,7 +98,7 @@ ht-degree: 3%
 要安装[!DNL Workfront for Jira]：
 
 1. 以[!DNL Jira]管理员身份登录[!DNL Jira]。
-1. 在&#x200B;**[!DNL Workfront for Jira]**&#x200B;[[!DNL Atlassian Marketplace]&#x200B;中找到](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview)加载项。
+1. 在&#x200B;**[!DNL Workfront for Jira]**[[!DNL Atlassian Marketplace]&#x200B;中找到](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview)加载项。
 
 1. 单击&#x200B;**[!UICONTROL 立即获取它]**&#x200B;以进行安装。
 
@@ -108,7 +110,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->这些要求不适用于[!UICONTROL 软件的]OnDemand[!UICONTROL &#x200B; (]Cloud[!DNL Jira])版本。
+>这些要求不适用于[!UICONTROL 软件的]OnDemand[!UICONTROL  (]Cloud[!DNL Jira])版本。
 
 尽管在两个[!DNL Workfront]环境中安装[!DNL Jira]加载项类似，但在使用[!DNL Jira Server]安装时必须考虑以下事项：
 

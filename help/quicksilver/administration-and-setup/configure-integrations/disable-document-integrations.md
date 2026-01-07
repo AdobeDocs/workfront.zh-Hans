@@ -8,10 +8,10 @@ feature: System Setup and Administration, Workfront Integrations and Apps, Digit
 role: Admin
 author: Courtney, Becky
 exl-id: 78281bca-1fa1-4e78-96e5-70be12142bbd
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 2%
+ht-degree: 9%
 
 ---
 
@@ -21,20 +21,20 @@ ht-degree: 2%
 
 当您禁用[!DNL Workfront]与文档提供程序之间的连接时，指向文档的链接从[!DNL Workfront]中消失。 用户无法再查看链接的文档，也无法通过[!DNL Workfront]链接对文档进行任何更改，也无法向该提供程序添加更多文档。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++展开可查看本文所述功能的访问权限要求。
 
 <table>
   <tr>
-   <td>Adobe Workfront包
+   <td>Adobe Workfront 包
    </td>
    <td> <p>Prime或Ultimate</p>
     <p>工作流 Ultimate</p>
    </td>
   </tr>
   <tr>
-   <td>Adobe Workfront许可证
+   <td>Adobe Workfront 许可证
    </td>
    <td><p>标准</p>
    <p>规划</p>
@@ -49,6 +49,8 @@ ht-degree: 2%
 </table>
 
 有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 禁用云提供程序集成
 

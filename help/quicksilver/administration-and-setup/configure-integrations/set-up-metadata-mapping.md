@@ -8,10 +8,10 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '558'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -19,20 +19,20 @@ ht-degree: 1%
 
 元数据是与文档关联的描述性信息。 您可以设置[!DNL Adobe Workfront]以包含发送至[!DNL Workfront]应用程序的文档的元数据。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table>
   <tr>
-   <td>Adobe Workfront包
+   <td>Adobe Workfront 包
    </td>
    <td> <p>Prime或Ultimate</p>
     <p>工作流 Ultimate</p>
    </td>
   </tr>
   <tr>
-   <td>Adobe Workfront许可证
+   <td>Adobe Workfront 许可证
    </td>
    <td><p>标准</p>
    <p>规划</p>
@@ -47,6 +47,8 @@ ht-degree: 1%
 </table>
 
 有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 关于[!DNL Workfront]元数据
 

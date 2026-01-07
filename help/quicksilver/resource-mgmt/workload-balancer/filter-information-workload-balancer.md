@@ -6,10 +6,10 @@ description: 为了高效地查找工作项并专注于您管理的用户或项�
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '2437'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -34,14 +34,14 @@ ht-degree: 0%
 
 本文包含有关工作负载均衡器中的过滤器的信息。 有关Workfront中筛选器的信息，请参阅[筛选器概述](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
-## 访问要求
+## 访问权限要求
 
 <table style="table-layout:auto"> 
  <col> 
  <col>
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
+   <td>Adobe Workfront 包</td> 
    <td><p>任何</p></td>
   </tr>
   <tr> 
@@ -71,8 +71,6 @@ ht-degree: 0%
 </table>
 
 有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
-
-+++
 
 ## 工作负载均衡器中的过滤器概述
 
@@ -262,7 +260,7 @@ ht-degree: 0%
    * 任何字段、修饰符或值。
 
 1. （可选）单击&#x200B;**添加过滤器**&#x200B;以将更多语句添加到重复的过滤器。
-1. 单击“保存”**&#x200B;**&#x200B;以将复制的筛选器保存在&#x200B;**我的筛选器**&#x200B;区域。 原始筛选器保持不变，复制的筛选器另存为新筛选器。
+1. 单击“保存”****&#x200B;以将复制的筛选器保存在&#x200B;**我的筛选器**&#x200B;区域。 原始筛选器保持不变，复制的筛选器另存为新筛选器。
 
 ## 在工作负载均衡器中编辑现有过滤器 {#edit-an-existing-filter-in-the-workload-balancer}
 

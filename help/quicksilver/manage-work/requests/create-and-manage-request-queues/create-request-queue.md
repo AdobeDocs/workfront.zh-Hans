@@ -8,7 +8,7 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '2843'
 ht-degree: 2%
@@ -50,16 +50,16 @@ ht-degree: 2%
 
 有关如何在Workfront Planning中配置请求表单的信息，请参阅[在Adobe Workfront Planning中创建和管理请求表单](/help/quicksilver/planning/requests/create-request-form.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
@@ -294,8 +294,8 @@ To create a Request Queue:
 
    * **Show all selected and unselected fields to:** Select which users you want to see all the fields on the new request form. The following options control the access to the fields on the form.
     
-      |Which users can see all fields on the request form | Description|  
-      |---|---| 
+      |Which users can see all fields on the request form | Description|
+      |---|---|
       | All Users (Plan Licenses) |All users who have a Plan license can see the selected as well as the unselected fields. |
       | People with view access to this project (Plan License) |Those users with a Plan license that also have View rights to this project can see the selected as well as the unselected fields. The rest of the users who can submit requests to this project can see just the selected fields. |
       | No Users |No users can see the unselected fields. All users who can submit requests to this project can only see the fields selected.  |
@@ -512,7 +512,7 @@ To create a Request Queue:
    * **将所有选定和未选定的字段显示给：**&#x200B;选择哪些用户应看到新请求表单上的所有字段。 以下选项控制对表单上字段的访问。
 
      | 哪些用户可以查看请求表单上的所有字段 | 描述 |
-     |---|---| 
+     |---|---|
      | 所有用户（计划许可证） | 所有拥有计划许可证的用户都可以看到选定和未选定的字段。 |
      | 拥有查看此项目权限的用户（计划许可） | 那些拥有计划许可证并且拥有此项目的查看权限的用户可以查看选定和未选定的字段。 其他可以向此项目提交请求的用户只能看到选定的字段。 |
      | 无用户 | 没有用户可以看到未选择的字段。 所有能够向此项目提交请求的用户只能看到所选的字段。 这是默认选项。 |

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 1ef57b73a77d0c622b3dbd57057c51d0ccbad7db
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
-source-wordcount: '9457'
+source-wordcount: '9443'
 ht-degree: 0%
 
 ---
@@ -1563,9 +1563,13 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 +++
 
-### 更新和注释
+<!--
+### Updates and Comments
 
-+++展开以查看第二季度进行的“更新和评论”界面更新
++++Expand to view Updates and Comments interface updates made in Q2
+
++++
+-->
 
 ### 注释的“更多”菜单选项的界面更新
 

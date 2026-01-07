@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '606'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 7%
 您可以导入现有Workfront字段的副本。 从Workfront导入字段会为Workfront Planning记录类型创建每个字段的副本。
 
 
-## 访问要求
+## 访问权限要求
 
 +++ 展开以查看本文中各项功能的访问要求。 
 
@@ -41,7 +41,7 @@ ht-degree: 7%
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront包</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
 <p>任何Workfront和任何Planning包</p> <p>任何工作流和任何计划包</p>
 <p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
@@ -128,7 +128,7 @@ ht-degree: 7%
 * 导入Workfront字段会创建相同字段的副本，并在Workfront Planning中保留字段名称。 在将字段复制到Workfront Planning后，这些字段与原始Workfront字段无关，并且不共享信息。
 <!--check this: * You do not need permissions or access to Workfront objects to be able to add their fields to Workfront Planning. -->
 * 您可以从以下Workfront对象添加本机或自定义字段：
-   * 组合
+   * 项目组合
    * 项目群
    * 项目
    * 任务
@@ -138,8 +138,8 @@ ht-degree: 7%
    * 组
    * 用户
    * 工作角色
-   * 任务分配
-   * Hour
+   * 任务
+   * 小时
    * 账单记录
      <!--Available only to Preview, but might not come to Prod:* Rate card - visible in Production but asking PM if it should be hidden-->
    * 费用

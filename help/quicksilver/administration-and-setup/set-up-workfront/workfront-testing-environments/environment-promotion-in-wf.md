@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 0cc1ab3a7412b7200ddab1a789ef5e9d86c3949f
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '1046'
 ht-degree: 2%
@@ -29,7 +29,7 @@ ht-degree: 2%
    * [创建或编辑环境升级包](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
    * [安装环境升级包](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
-* 有关通过Workfront API执行此过程的说明，请参阅[使用 [!DNL Workfront] API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)在 [!DNL Workfront] 环境之间移动对象。
+* 有关通过Workfront API执行此过程的说明，请参阅[使用 [!DNL Workfront] API [!DNL Workfront] 在](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)环境之间移动对象。
 
 [观看此功能的视频演示](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
@@ -153,7 +153,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>ASSEMBLY_FAILED</td> 
-   <td><p>如果ASSEMBLY阶段失败，则升级包会自动处于此状态。</p><p>要将软件包返回到ASSEMBLY阶段，必须再次触发装配过程。</p><p>有关汇编包的详细信息，请参阅创建或编辑环境升级包一文中的<a href="https://experienceleague.adobe.com/zh-hans/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">编辑或汇编现有包</a>部分。</td> 
+   <td><p>如果ASSEMBLY阶段失败，则升级包会自动处于此状态。</p><p>要将软件包返回到ASSEMBLY阶段，必须再次触发装配过程。</p><p>有关汇编包的详细信息，请参阅创建或编辑环境升级包一文中的<a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">编辑或汇编现有包</a>部分。</td> 
   </tr> 
   </tbody> 
 </table>

@@ -6,10 +6,10 @@ description: 当工作任务和问题分配给您时，它们会列在我的工�
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 79826743-eeb9-4849-b46f-cc3f086e3194
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 0%
+source-wordcount: '790'
+ht-degree: 2%
 
 ---
 
@@ -18,11 +18,9 @@ ht-degree: 0%
 
 当工作任务和问题分配给您时，它们会列在我的工作小组件、我的任务小部件和我的问题小部件中。  您可以查看、处理或移除工作项和请求。
 
-+++ 展开以查看本文中各项功能的访问要求。
+## 访问权限要求
 
-## 访问要求
-
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,11 +36,11 @@ ht-degree: 0%
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证</strong></td> 
    <td>
    <p>标准</p>
-    <p>工作或更高</p> </td> 
+    <p>工作版或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置</strong></td> 
-   <td> <p>[!UICONTROL Edit]对任务和问题的访问权限</p> </td> 
+   <td> <p>[！UICONTROL Edit]对任务和问题的访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
@@ -122,9 +120,9 @@ ht-degree: 0%
 1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
 1. （视情况而定）单击&#x200B;**自定义**&#x200B;以添加&#x200B;**我的工作**&#x200B;小组件。
 
-1. 在小部件工作列表中，将鼠标悬停在工作项上，然后单击&#x200B;**摘要**&#x200B;图标以查看有关该工作项的信息。
+1. 在小部件工作列表中，将鼠标悬停在工作项上，然后单击&#x200B;**摘要**图标以查看有关该工作项的信息。
    ![打开摘要](assets/open-summary-new-home.png)
-1. 在&#x200B;**工作**&#x200B;分区中，删除您的姓名。
+1. 在&#x200B;**工作**分区中，删除您的姓名。
    ![删除分配](assets/remove-assignment.png)
 
 

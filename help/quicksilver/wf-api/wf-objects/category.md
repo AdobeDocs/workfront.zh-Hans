@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 24c900ee-a8f1-458e-a18b-c098c6314e0c
-source-git-commit: 8c72a44c49d137c6c73f7c213cb411e45f5a6e24
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 28%
@@ -129,7 +129,7 @@ message: "APIModel INTERNAL does not support field projectid (OpTask)"-->
    <td> <p><span class="dtGrp">不可分组</span> </p> </td> 
   </tr> 
   <tr> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;name&quot;}"><strong>名称</strong> </td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;name&quot;}"><strong>name</strong> </td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Name&quot;}">名称</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">字符串</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Name of the Object&quot;}">对象的名称</td> 
@@ -139,7 +139,7 @@ message: "APIModel INTERNAL does not support field projectid (OpTask)"-->
  </tbody> 
 </table>
 
-## 引用
+## 参考
 
 | 名称 | 标签 | 类型 | 键入对象代码 |
 |---|---|---|---|
@@ -149,7 +149,7 @@ message: "APIModel INTERNAL does not support field projectid (OpTask)"-->
 | 上次更新者 | lastUpdatedBy | 用户 | 用户 |
 
 
-## 集合
+## 收藏集
 
 | 名称 | 标签 | 类型 | 键入对象代码 |
 |---|---|---|---|

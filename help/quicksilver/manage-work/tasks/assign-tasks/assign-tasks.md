@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '2156'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -56,22 +56,22 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 * [配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)
 * [在工作负载均衡器中分配工作概述](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
+   <td>Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
    <td> <p>标准</p>
-   <p>工作或更高</p>
+   <p>工作版或更高版本</p>
    </td> 
   </tr> 
   <tr> 
@@ -191,7 +191,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. （可选）单击&#x200B;**自动保存**&#x200B;下拉菜单，然后从以下选项中选择：
 
    | 选项 | 选项说明 |
-   |---|---| 
+   |---|---|
    | 自动保存 | 您对任务所做的更改会自动保存，并且您无法还原这些更改 |
    | 手动保存 | 您必须手动保存更改。 在保存更改之前，您可以还原这些更改。 |
    | 时间线规划 | 您必须手动保存更改。 在保存更改之前，您可以还原这些更改。 保存更改和所有项目依赖项比选择手动保存更快。 |

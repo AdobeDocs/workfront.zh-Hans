@@ -4,9 +4,9 @@ description: Workfront UI Extensions 由 Adobe App Builder 提供支持，允许
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: 1c2422f61e3db6fbe05cd03b9fbc1f17e906ebad
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
-source-wordcount: '2285'
+source-wordcount: '2269'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,6 @@ Workfront UI扩展提供了几项主要优势：
 >请确保为以下所有步骤选择了正确的IMS组织。 如果您属于多个组织，则可能会选择错误的组织。 确保您在正确的组织下操作，该组织通常位于右上角。
 
 1. 导航到生产： https://adminconsole.adobe.com/
-
 1. 在&#x200B;**用户**&#x200B;部分中，单击&#x200B;**开发人员** > **添加开发人员**。
 
    ![在管理控制台中添加用户](assets/manage-users-admin-console.png)
@@ -63,8 +62,8 @@ Workfront UI扩展提供了几项主要优势：
    >如果您看不到用于管理开发人员的选项，则表示您没有允许开发人员访问权限的产品。
 
 1. 添加用户的电子邮件。 它应该搜索已从Admin Console中添加的现有用户。
+1. 将必要的产品添加到开发人员配置文件中，然后单击&#x200B;**保存**。
 
-1. 将必要的产品添加到开发人员配置文件中，然后单击&#x200B;**保存**。\
    ![添加开发人员](assets/add-developer.png)
 
 ### 访问App Builder
@@ -80,9 +79,7 @@ Workfront UI扩展提供了几项主要优势：
 [Adobe Developer网站](https://developer.adobe.com/uix/docs/guides/creating-project-in-dev-console/)上提供了其他说明。
 
 1. 使用您的Adobe ID登录到Adobe Developer Console 。
-
 1. 选择您的帐户，以及您的个人资料或组织。
-
 1. 在“快速入门”区域单击&#x200B;**从模板创建项目**，或单击&#x200B;**从模板创建新项目>项目**。
 
    >[!IMPORTANT]
@@ -92,11 +89,8 @@ Workfront UI扩展提供了几项主要优势：
    ![从模板创建](assets/create-from-template.png)
 
 1. 选择&#x200B;**App Builder**。
-
 1. 输入&#x200B;**项目标题**&#x200B;和&#x200B;**应用程序名称**。 两者都有默认值，但如果您自定义值，则以后可以更轻松地识别所需的项目。
-
 1. 保留&#x200B;**包含运行时**&#x200B;处于选中状态。
-
 1. 单击&#x200B;**保存**。
 
 ## 使用Adobe Developer (aio) CLI
@@ -157,34 +151,34 @@ GitHub和Adobe Developer网站上提供了其他说明：
 
 1. 转到ExtensionRegistration.js。
 
-在ExtensionRegistration函数中，您应该会看到以下代码。 此代码由模板为您创建。 可以添加此代码以创建其他菜单项。 请务必替换ID和URL。
+   在ExtensionRegistration函数中，您应该会看到以下代码。 此代码由模板为您创建。 可以添加此代码以创建其他菜单项。 请务必替换ID和URL。
 
-    “
-    mainMenu： &lbrace;
-    
-    getItems() &lbrace;
-    
-    return &lbrack;
-    
-    &lbrace;
-    
-    id： &#39;main-menu-label&#39;，
-    
-    url： &#39;/index.html#/main-menu-label&#39;，
-    
-    label： &#39;Main menu label&#39;，
-    
-    icon： icon1，
-    
-    &rbrace;，
-    
-    &rbrack;；
-    
-    ，
-    
-    &rbrace;
-    “
-”
+   ```
+   mainMenu: { 
+   
+           getItems() { 
+   
+               return [ 
+   
+               { 
+   
+                   id: 'main-menu-label', 
+   
+                   url: '/index.html#/main-menu-label', 
+   
+                   label: 'Main menu label', 
+   
+                   icon: icon1, 
+   
+               }, 
+   
+               ]; 
+   
+           }, 
+   
+           } 
+   ```
+
 1. 添加以下代码片段：
 
    ![代码段](assets/7-extension-registration-step1-from-sam.png)

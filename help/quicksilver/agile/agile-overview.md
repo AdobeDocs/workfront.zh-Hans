@@ -7,7 +7,7 @@ description: Agile是一种工作方法，它允许团队以一致的节奏完�
 author: Jenny
 feature: Agile
 exl-id: 35b329e5-f360-416c-adbb-ec39ab7a50cc
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Agile是一种工作方法，它允许团队以一致的节奏完成少量可管
 
 1. 创建Agile团队。
 
-   有关信息，请参阅[创建Agile团队](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md/#create-an-agile-team-1)一文中的[创建Agile团队](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#converting-an-existing-team-into-an-agaile-team)或[将现有团队转换为Agile团队](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)部分。
+   有关信息，请参阅[创建Agile团队](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#create-an-agile-team-1)一文中的[创建Agile团队](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#converting-an-existing-team-into-an-agaile-team)或[将现有团队转换为Agile团队](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)部分。
 
 1. 配置Agile团队以使用Kanban或Scrum。
 

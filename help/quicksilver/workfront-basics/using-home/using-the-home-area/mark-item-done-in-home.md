@@ -6,10 +6,10 @@ description: 如果您是任务或问题受分配人，则可以将任务或问�
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 4c3638aa-5ee3-422a-9fee-41c4749fe48b
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 0%
+source-wordcount: '796'
+ht-degree: 2%
 
 ---
 
@@ -21,11 +21,9 @@ ht-degree: 0%
 >
 >除非您是分配给任务或问题的资源之一，否则不会看到[!UICONTROL 完成]按钮。
 
-+++ 展开以查看本文中各项功能的访问要求。
+## 访问权限要求
 
-## 访问要求
-
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,11 +39,11 @@ ht-degree: 0%
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证</strong></td> 
    <td> 
    <p>标准</p>
-   <p>工作或更高</p> </td> 
+   <p>工作版或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置</strong></td> 
-   <td> <p>[!UICONTROL Edit]对任务和问题的访问权限</p></td> 
+   <td> <p>[！UICONTROL Edit]对任务和问题的访问权限</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
@@ -73,7 +71,7 @@ ht-degree: 0%
 
 1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
 1. （视情况而定）单击&#x200B;**自定义**&#x200B;以添加&#x200B;**我的任务**&#x200B;或&#x200B;**我的问题**&#x200B;小组件。
-1. 将鼠标悬停在工作项上，然后单击&#x200B;**摘要**&#x200B;图标。
+1. 将鼠标悬停在工作项上，然后单击&#x200B;**摘要**图标。
    ![打开摘要](assets/open-summary-new-home.png)
 1. 单击摘要面板顶部的&#x200B;**标记为完成**。
 
