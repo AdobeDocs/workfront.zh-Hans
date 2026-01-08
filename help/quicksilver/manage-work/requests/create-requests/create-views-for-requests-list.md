@@ -5,10 +5,10 @@ title: 在请求区域创建和管理视图
 description: 如果您使用的是新的请求体验，则可以创建和保存请求区域的视图。
 author: Becky
 feature: Work Management
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 4061163b8b761bc3922bfb95da6c0110b6ee5871
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 2%
+source-wordcount: '706'
+ht-degree: 3%
 
 ---
 
@@ -18,11 +18,12 @@ ht-degree: 2%
 
 如果您使用的是新的请求体验，则可以创建和保存请求区域的视图。 这些视图包括筛选器和列安排。
 
-可在Workfront的请求区域以及主页中的我的请求小组件中创建和管理视图。 视图设置保留在“请求”区域与构件之间。
+可以在Workfront的“请求”区域创建和管理视图。
 
 >[!IMPORTANT]
 >
->此功能仅在新的请求体验中可用。
+>* 此功能仅在新的请求体验中可用。
+>* 视图设置在“我的请求”小组件的“主页”中不可用。
 
 ## 访问权限要求
 
@@ -61,21 +62,13 @@ ht-degree: 2%
 
 ## 在请求区域创建视图
 
-您可以在Workfront的请求区域或主页中的我的请求小部件中创建视图。
+您可以在Workfront的请求区域中创建视图。
 
 1. 要访问请求列表，请执行以下操作：
 
    {{step1-to-requests}}
 
-1. 要在主页访问“我的请求”小组件，请执行以下操作：
-
-   {{step1-to-home}}
-
-   1. 找到“我的请求”构件。
-
-      有关“我的请求”小组件的详细信息，请参阅[使用我的请求](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)。
-
-1. 在“请求”列表或“我的请求”小部件中，单击&#x200B;**视图**&#x200B;下拉列表![视图](assets/view-icon-requests.png)，然后选择&#x200B;**新视图**。
+1. 在请求列表中，单击&#x200B;**视图**&#x200B;下拉列表![视图下拉列表](assets/view-icon-requests.png)，然后选择&#x200B;**新视图**。
 
    ![新视图](assets/create-new-view.png)
 
@@ -89,16 +82,7 @@ ht-degree: 2%
 1. 要访问请求列表，请执行以下操作：
 
    {{step1-to-requests}}
-
-1. 要在主页访问“我的请求”小组件，请执行以下操作：
-
-   {{step1-to-home}}
-
-   1. 找到“我的请求”构件。
-
-      有关“我的请求”小组件的详细信息，请参阅[使用我的请求](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)。
-
-1. 在请求列表或我的请求小部件中，找到要编辑的视图。
+1. 在请求列表中，找到要编辑的视图。
 
 1. （可选）要重命名视图，请单击&#x200B;**视图**&#x200B;下拉列表![视图下拉列表](assets/view-icon-requests.png)，然后单击视图旁边的三个点菜单，选择&#x200B;**重命名**，然后键入视图的新名称。
 1. 单击&#x200B;**视图**&#x200B;下拉列表![视图下拉列表](assets/view-icon-requests.png)，然后选择要编辑的视图。
@@ -132,7 +116,7 @@ ht-degree: 2%
 
    <span class="preview">在“预览”环境中，您还可以按已添加到视图的任何自定义字段进行筛选。</span>
 
-   您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的筛选器。
+   您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**加入的筛选器。
 在添加筛选条件时，将自动筛选请求列表。
 
 
@@ -156,15 +140,7 @@ Workfront管理员可以将新视图添加到布局模板。
 
    {{step1-to-requests}}
 
-1. 要在主页访问“我的请求”小组件，请执行以下操作：
-
-   {{step1-to-home}}
-
-   1. 找到“我的请求”构件。
-
-      有关“我的请求”小组件的详细信息，请参阅[使用我的请求](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)。
-
-1. 在请求列表或我的请求小部件中，找到要共享的视图。
+1. 在请求列表中，找到要共享的视图。
 1. 将鼠标悬停在要共享的视图上，然后在出现时单击三个圆点菜单。
 1. 选择&#x200B;**共享**。
 1. 在打开的对话框中，输入要与其共享视图的用户、团队或组的名称，然后在它们出现时从列表中选择它们。

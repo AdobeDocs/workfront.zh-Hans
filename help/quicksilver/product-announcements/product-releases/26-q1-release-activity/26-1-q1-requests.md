@@ -4,9 +4,9 @@ description: 2026年第一季度请求增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 319c45bc6617269f358af1e7b5f6132a8694710b
+source-git-commit: 4061163b8b761bc3922bfb95da6c0110b6ee5871
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 本页介绍了在2026年第一季度版本中对“预览”环境所做的请求增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
 
 ## 现在，创建的对象链接在请求区域和我的请求小组件中可用
 
@@ -59,8 +59,6 @@ For more information on creating views for the Request list and My Requests widg
 >适用于所有人的生产： 2026年1月15日
 
 为了更便于确保看到您需要的信息，我们添加了将视图共享到新请求体验的功能。 现在，您可以与其他用户、团队或组共享视图。
-
-您可以从Workfront的请求区域和“主页”的“我的请求”小组件共享请求列表视图。 共享功能在两个位置都相同，且在我的请求小部件和请求区域之间移动时，会保留视图设置（包括共享）。
 
 有关请求视图（包括共享）的信息，请参阅[在请求区域](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)中创建和管理视图。
 
