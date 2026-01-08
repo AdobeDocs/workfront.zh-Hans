@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: f6e0329ec63038b33006325701007c564c4126cc
+source-git-commit: f2c3abc4e47e004faf7ce2a5e7a3bf4edfdaa566
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 1%
+source-wordcount: '400'
+ht-degree: 5%
 
 ---
 
@@ -25,20 +25,24 @@ ht-degree: 1%
 
 <span class="preview">将自定义字段设置为“不活动”会将其从报表、筛选器和视图中排除，并且该字段在自定义表单字段库中不再可用。 默认情况下，所有新字段均设置为“活动”。</span>
 
+>[!NOTE]
+>
+>在字段变为不活动状态后，会发生从报表、过滤器、视图和分组中排除的情况。 将字段标记为不活动时，不会更改或删除使用该字段的现有报表元素。
+
 如果从自定义表单中删除自定义字段，则它仍然存在于添加到的所有其他表单中，并且您可以在表单或“字段”区域中编辑它。 有关删除字段的信息，请参阅[从系统中删除自定义字段或小组件](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)。
 
 有关自定义表单中的自定义字段和小部件的信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
+   <td>Adobe Workfront 包</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
