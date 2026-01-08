@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: 4fdfa1107034a48e149a5414475fbc0d7ce97564
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '698'
 ht-degree: 6%
 
 ---
@@ -78,6 +78,8 @@ ht-degree: 6%
      >
      >默认情况下，主菜单中的“主页”图标会为Review-license用户（在当前许可证计划中）显示“我的更新”区域，除非他们有一个与其配置文件关联的布局模板，该模板除了“主页”区域外，还包括主菜单中的“我的更新”区域。
 
+
+   * <span class="preview">优先级</span>
    * 项目组合
    * 项目群
    * 项目
@@ -85,7 +87,7 @@ ht-degree: 6%
    * 仪表板
    * 日程表
    * 资源
-   * 方案
+   * 场景
 
      >[!NOTE]
      >

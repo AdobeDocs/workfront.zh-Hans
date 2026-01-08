@@ -6,14 +6,16 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: 4e3c2e50bb3dc1c49939a4c2064e6d89d20e4c24
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1017'
 ht-degree: 3%
 
 ---
 
 # 开始使用 [!DNL Priorities]
+
+{{preview-fast-release-general}}
 
 优先级是为任务所有者定制的简化、直观的体验。 优先事项将从工作清单开始分阶段推出。
 
@@ -24,6 +26,8 @@ ht-degree: 3%
 * 个性化功能：从专为任务所有者设计的功能中获益
 
 优先级工作列表和日历显示分配给您的工作项。 您看不到分配给您团队的工作项。
+
+<span class="preview">Workfront管理员可以在布局模板中为您的用户启用优先级。 有关详细信息，请参阅[使用布局模板自定义主菜单](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)。</span>
 
 ## 查找并组织您的工作
 
@@ -202,7 +206,8 @@ ht-degree: 3%
 
 您可以在任务或问题的详细信息页面上查看实时更新。 您还可以通过实时在线状态指示器查看其他人是否与您同时查看页面。
 
-## 注意事项
 
-* 目前，Workfront管理员无法通过布局模板自定义优先级。
-* 访问“优先级”中的任务是在多个选项卡中进行的。 我们计划在未来添加其他选项卡，如文档、子任务、批准等。 使用&#x200B;**提供反馈**&#x200B;按钮提交反馈时，告知我们需要这些项目。
+<!--
+## Considerations
+
+* Accessing tasks in Priorities is across tabs. We plan to add additional tabs, like Documents, Subtasks, Approvals, etc, in the future. Let us know you need these items by submitting feedback using the **Give Feedback** button.-->
