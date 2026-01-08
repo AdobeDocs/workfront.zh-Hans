@@ -4,9 +4,9 @@ description: 2026年第一季度请求增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4061163b8b761bc3922bfb95da6c0110b6ee5871
+source-git-commit: ab0721e11415f4c41b8020a2678c3a483f108cb3
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '900'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 本页介绍了在2026年第一季度版本中对“预览”环境所做的请求增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
 
 ## 现在，创建的对象链接在请求区域和我的请求小组件中可用
 
@@ -26,6 +26,8 @@ ht-degree: 0%
 >适用于所有人的生产： 2026年1月15日
 
 为了让您更轻松地转到由特定请求创建的对象，我们添加了指向“已创建对象”列的链接。 现在，您可以单击此列中的链接以直接转到所创建对象的页面。
+
+仅当请求本身创建了对象时，此链接才可用。 如果请求被转换为项目或其他对象，则指向该转换对象的链接在新请求体验的请求列表中不可用。
 
 以前，此列仅包含对象的名称，而不包含其链接。
 
