@@ -4,9 +4,9 @@ description: 2026年第一季度管理员增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a49c8f2ad345f0ea8cdfd38ad79c6c0a5f636e95
+source-git-commit: 5a1af10b7e3e59eb203c0507aeea15db5689e24b
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,17 @@ ht-degree: 0%
 
 本页介绍了管理员在2026年第一季度发布中对“预览”环境所做的增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
 
 ## 管理布局模板中的优先级
 
 >[!NOTE]
 >
+>此功能在预览环境中暂时不可用
 >预览： 2025年12月2日
 >生产快速发布： 2026年1月14日
 >适用于所有人的生产： 2026年1月15日
+
 
 您现在可以在布局模板中启用或禁用特定用户的优先级。 如果之前已为您的组织禁用了优先级，则进行此更改后，布局模板中将保持禁用状态。
 

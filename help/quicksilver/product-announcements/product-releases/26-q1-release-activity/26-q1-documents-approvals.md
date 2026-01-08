@@ -4,9 +4,9 @@ description: 2026年第一季度文档和批准增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6b6500b0db40a959d87d97c89d85e3564445cca4
+source-git-commit: bde12a27b918fc98c7596d16b78b46d465c9e90a
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,19 @@ ht-degree: 0%
 
 本页介绍了在2026年第一季度发布中对“预览”环境所做的文档和批准增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+
+## 在Workfront中为AI审阅者设置品牌
+
+>[!NOTE]
+>
+>预览： 2026年1月8日
+>生产快速发布： 2026年1月8日\
+>适用于所有人的生产： 2026年1月8日
+
+您现在可以在Workfront设置区域为AI审阅者设置品牌。 这允许您根据组织的品牌指南自定义AI审核流程。
+
+AI审阅者当前处于测试阶段。
 
 ## 在Adobe Express中发送审核时选择Workfront项目
 
