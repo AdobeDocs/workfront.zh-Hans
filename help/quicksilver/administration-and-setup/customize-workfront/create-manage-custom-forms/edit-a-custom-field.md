@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: f2c3abc4e47e004faf7ce2a5e7a3bf4edfdaa566
+source-git-commit: 2f7b5c9d3a934708f3128ed9e4efa76b12619913
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 5%
+source-wordcount: '409'
+ht-degree: 4%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->在字段变为不活动状态后，会发生从报表、过滤器、视图和分组中排除的情况。 将字段标记为不活动时，不会更改或删除使用该字段的现有报表元素。
+>如果将现有字段标记为不活动，则以后在报表元素和自定义表单中将无法使用。 如果非活动字段当前用在报表或表单中，则字段及其历史数据将保持不变。
 
 如果从自定义表单中删除自定义字段，则它仍然存在于添加到的所有其他表单中，并且您可以在表单或“字段”区域中编辑它。 有关删除字段的信息，请参阅[从系统中删除自定义字段或小组件](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)。
 

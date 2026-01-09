@@ -4,9 +4,9 @@ description: 2026年第一季度管理员增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5a1af10b7e3e59eb203c0507aeea15db5689e24b
+source-git-commit: a524dd5519f450543e486d83bff6134a15f548d7
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 本页介绍了管理员在2026年第一季度发布中对“预览”环境所做的增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
 
 ## 管理布局模板中的优先级
 
@@ -92,9 +92,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在字段变为不活动状态后，会发生从报表、过滤器、视图和分组中排除的情况。 将字段标记为不活动时，不会更改或删除使用该字段的现有报表元素。
+>如果将现有字段标记为不活动，则以后在报表元素和自定义表单中将无法使用。 如果非活动字段当前用在报表或表单中，则字段及其历史数据将保持不变。
 
-有关详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+有关详细信息，请参阅[添加或编辑自定义字段、分区界限或小组件](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)。
 
 
 
