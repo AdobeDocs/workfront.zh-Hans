@@ -4,9 +4,9 @@ description: 本页介绍了2026年第一季度版本中包含的功能。 这�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8d177d1081590f6a6733f29e0d615828394394c7
+source-git-commit: d3f58a1d25b353b45e68e4910a4340052a49c4d4
 workflow-type: tm+mt
-source-wordcount: '2886'
+source-wordcount: '2885'
 ht-degree: 1%
 
 ---
@@ -78,7 +78,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>  
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">输入日期和输入者ID存储在自定义对象中</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">输入日期和输入者ID存储在自定义对象中</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
             <p>输入日期和按ID输入的内容现在存储在自定义表单、字段和部分中。 您可以在报表中将这些数据选项用作过滤器、视图或分组。 要在“设置”中的自定义表单、字段或节列表中显示它们，请添加“输入日期”和“输入者：名称”作为新视图或现有视图中的列。</p>
         </td>
         <td>2025年11月13日</td>
@@ -130,7 +130,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
        <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">在Adobe Express中发送审阅时选择Workfront项目<p>[!BADGE Off Schedule]{type=Neutral}</p> </a>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">在Adobe Express中发送审阅时选择Workfront项目<p>[！BADGE Off Schedule]{type=Neutral}</p> </a>
             <p>您可以选择要向其发送验证的Workfront项目。 这有助于将所有相关的资源和验证组织在同一项目中。</p>
         </td>
         <td>2025年12月15日</td>
@@ -139,7 +139,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr> 
      <tr>
         <td>
-            对具有Workfront校对的Adobe Express的<a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">跨组织支持<p>[!BADGE Off Schedule]{type=Neutral}</p> </a>
+            对具有Workfront校对的Adobe Express的<a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">跨组织支持<p>[！BADGE Off Schedule]{type=Neutral}</p> </a>
             <p>我们正在引入对具有Workfront Proofing的Adobe Express的跨组织支持。 此增强功能允许跨多个IMS组织运营的客户无缝使用和管理验证工作流。</p>
         </td>
         <td>2025年11月13日</td>
@@ -148,7 +148,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>   
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager现在可与Frame.io集成一起使用 <p>[!BADGE Off Schedule]{type=Neutral}</p> </a>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager现在可与Frame.io集成一起使用 <p>[！BADGE Off Schedule]{type=Neutral}</p> </a>
             <p>现在，您可以使用Experience Manager Assets​管理和存储已经过审核和批准周期的数字资源。 此集成允许您利用Adobe Experience Manager、Frame.io和Workfront的功能来简化内容管理和协作流程。 </p>
         </td>
         <td>2025年10月30日</td>
@@ -196,7 +196,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
          <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">在Creative Cloud Express中发送审核时选择Workfront项目</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">在Creative Cloud Express中发送审核时选择Workfront项目</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
             <p>您可以选择要向其发送验证的Workfront项目。 这有助于将所有相关的资源和验证组织在同一项目中。 </p>
         </td>
         <td>2025年12月15日</td>
@@ -324,7 +324,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>   
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">在画布仪表板中复制报告</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">在画布仪表板中复制报告</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
             <p>现在，您可以在创建KPI、表或图表报表后，将其复制到画布仪表板中。 复制后，您可以在保存之前根据需要编辑报表。</p>
         </td>
         <td>2025年10月23日</td>
@@ -379,7 +379,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">已创建的对象链接现在可在“请求”区域和“我的请求”小组件中使用</a>
-            <p>为了让您更轻松地转到由特定请求创建的对象，我们添加了指向“已创建对象”列的链接。 现在，您可以单击此列中的链接以直接转到所创建对象的页面。/p&gt;
+            <p>为了让您更轻松地转到由特定请求创建的对象，我们添加了指向“已创建对象”列的链接。 现在，您可以单击此列中的链接以直接转到所创建对象的页面。</p>
         </td>
         <td>2025年12月18日</td>
         <td>2026年1月14日</td>
@@ -424,7 +424,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">在“请求”区域和“我的请求”小组件中共享视图</a>
-            <p>为了更便于确保查看您需要的信息，我们添加了将视图共享到新报告体验的功能。 现在，您可以与其他用户、团队或组共享视图。 </p>
+            <p>为了更便于确保看到您需要的信息，我们添加了将视图共享到新请求体验的功能。 现在，您可以与其他用户、团队或组共享视图。 </p>
         </td>
         <td>2025年12月4日</td>
         <td>2026年1月14日</td>
@@ -597,13 +597,13 @@ Workfront API版本21于2025年10月23日发布。 对于API版本21，我们修
 * 适用于Salesforce的Workfront。
 
 为了满足贵组织与Google Workspace的集成需求，我们建议使用Workfront自动化和集成。
-有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 
 ### Workfront 维护更新
 
-有关2025年第一季度版本中所做维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hans)。
+有关2025年第一季度版本中所做维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
 
 ### 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hans)的“新增功能”部分。
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的“新增功能”部分。
