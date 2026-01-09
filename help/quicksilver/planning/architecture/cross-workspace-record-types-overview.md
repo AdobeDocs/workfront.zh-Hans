@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 0c890cc535c61c5402a334e43ed45b3ec3f9f748
+source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1646'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,23 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->增强了Workfront包要求，以便能够为系统中的记录类型启用跨工作区功能。 有关信息，请参阅[Adobe Workfront计划访问概述](/help/quicksilver/planning/access/access-overview.md)。
+>您的组织必须购买以下资源包，才能为记录类型启用跨工作区功能：
+>
+>* 要配置可连接的记录类型，请执行以下操作：
+>
+>   * 任何Workfront包和任何Planning包
+>
+>     或
+>
+>   * 任何工作流和计划Prime或Ultimate包
+>* <span class="preview">要配置全局记录类型：</span>
+>  * <span class="preview">任何Workfront包和Planning Plus包</span>
+>     
+>    或
+>
+>  * <span class="preview">任何工作流和计划Prime或Ultimate包</span>
+>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。
+>有关信息，请参阅[Adobe Workfront计划访问概述](/help/quicksilver/planning/access/access-overview.md)。
 
 
 以下是记录类型的跨工作区功能：
@@ -45,7 +61,7 @@ ht-degree: 0%
 
 在使用通用工作流为多团队组织实施Workfront Planning时，您可能需要为关键记录类型（如营销活动或交付项）定义一个凝聚结构和元数据，这些记录类型可以添加到每个团队的工作区中以捕获和管理其工作。
 
-此外，您可能需要每个团队的工作汇总到一个中心级别。
+您可能还需要每个团队的工作汇总到一个中心级别。
 
 在此类工作流中，您可以确保团队以一致的方式捕获他们的工作，同时解锁跨团队的可见性，而无需将所有内容添加到一个工作区，或组织中的每个人都添加到每个工作区。 您可以使用全局记录类型来实现这一点。
 

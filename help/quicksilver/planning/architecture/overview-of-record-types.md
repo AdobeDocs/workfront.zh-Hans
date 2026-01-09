@@ -6,15 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
 
 
 # 记录类型概述
+
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -47,6 +51,7 @@ Workfront Planning对象类型称为“记录类型”，它们仅在用户创�
 * 在创建记录类型时，只有您和您授予工作区访问权限的用户才能查看记录类型。
 * 必须先创建工作区，然后才能为工作区创建记录类型。
 * 有关在一个工作区或Workfront实例中可以有多少记录类型的限制，请参阅[Adobe Workfront Planning对象限制概述](/help/quicksilver/planning/general/limitations-overview.md)。
+* <span class="preview">您可以将记录类型指定为全局记录类型。 全局记录类型可以作为现有记录类型添加到其他工作区。 有关详细信息，请参阅[ConfConfigure记录typesigure](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)的跨工作区功能。</span>
 
 
 <!--

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
+source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
 workflow-type: tm+mt
-source-wordcount: '2055'
+source-wordcount: '2066'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 1%
 
    * 两种记录类型。
 
-     默认情况下，您可以从同一工作区连接两种记录类型。 您还可以设置记录类型以与其他工作区的记录类型连接。 有关信息，请参阅[编辑记录类型](/help/quicksilver/planning/architecture/edit-record-types.md)。
+     默认情况下，您可以从同一工作区连接两种记录类型。 如果您的组织购买了更高的Workfront或Planning包，您还可以设置记录类型以与其他工作区的记录类型连接。 有关详细信息，请参阅[编辑记录类型](/help/quicksilver/planning/architecture/edit-record-types.md)。
    * 来自另一个应用程序的记录类型和对象类型。
 
 * 您可以将Workfront Planning记录类型与以下应用程序中的以下对象类型连接起来：
@@ -99,7 +99,7 @@ ht-degree: 1%
       * 无法从Workfront对象访问Planning记录字段。
       * 规划记录在Workfront对象的Planning部分中可见。 有关信息，请参阅[管理来自Workfront对象的记录连接](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
       * 您可以创建Planning连接自定义字段，并将其附加到Workfront对象的自定义表单。 有关信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
-      * 当Workfront管理员通过Experience Manager与Adobe Experience Manager Assets之间的集成配置元数据映射时，可以从Workfront Assets访问规划记录字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+      * 当Workfront管理员通过Experience Manager与Adobe Experience Manager Assets之间的集成配置元数据映射时，可以从Workfront Assets访问规划记录字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
       * 无法从GenStudio for Performance Marketing中的“品牌”访问规划记录字段。
 
    * **从您连接的记录或对象添加查找字段时**：除了创建链接记录字段外，您还可以从连接的记录或对象类型连接到称为查找字段的字段。 链接（或查找字段）包含所连接记录中的信息，该信息显示在您连接的记录中。
