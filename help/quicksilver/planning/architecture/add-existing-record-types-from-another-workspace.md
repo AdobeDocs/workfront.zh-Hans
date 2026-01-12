@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 0c890cc535c61c5402a334e43ed45b3ec3f9f748
+source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 1%
@@ -138,7 +138,7 @@ And
 
       * 所有原始字段
       * 所有记录连接
-   * 只有在您至少具有这些工作区的“查看”权限时，才能查看从使用相同全局记录类型的其它工作区添加的记录。
+   * 只有在您至少具有这些工作区的“查看”权限时，才能查看从使用相同全局记录类型的其它工作区添加的记录。<!--replace this bullet by this with Jan 15 release: You can view records added from the original workspace of the global record type only when you have at least View permissions to that workspace.-->
    * 只读&#x200B;**Workspace**&#x200B;字段已添加到新记录类型表视图中。 字段显示创建每个记录的工作区。
 
      >[!NOTE]

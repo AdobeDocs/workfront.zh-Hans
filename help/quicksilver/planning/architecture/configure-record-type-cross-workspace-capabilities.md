@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
+source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1677'
 ht-degree: 1%
 
 ---
@@ -212,9 +212,10 @@ And
 
    从辅助工作区中的全局记录类型添加的记录类型还显示&#x200B;**全局记录类型**&#x200B;图标![全局记录类型图标](assets/global-icon.png)。
 1. （可选）返回创建全局记录类型的原始工作区，并按照以上<!--ensure this stays accurate-->的步骤1-4编辑该记录类型
-1. （可选）查看在使用此记录类型的&#x200B;**工作区第**&#x200B;节中添加了全局记录的工作区列表。 工作区所有者的名称也会列在工作区名称旁边。
+1. （可选）查看已添加全局记录的工作区列表，该全局记录已添加到使用此记录类型的&#x200B;**工作区中**。 工作区所有者的名称也会列在工作区名称旁边。
 
    ![使用此记录类型的工作区](assets/workspaces-where-this-record-type-is-used.png)
+1. （可选）单击&#x200B;**工作区中列出的其中一个工作区的名称以打开该工作区，其中工作区使用此记录类型**。
 
 </div>
 

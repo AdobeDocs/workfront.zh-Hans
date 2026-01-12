@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
+source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
 workflow-type: tm+mt
-source-wordcount: '1646'
+source-wordcount: '1663'
 ht-degree: 0%
 
 ---
@@ -28,19 +28,23 @@ ht-degree: 0%
 >
 >您的组织必须购买以下资源包，才能为记录类型启用跨工作区功能：
 >
->* 要配置可连接的记录类型，请执行以下操作：
+>要配置可连接的记录类型，请执行以下操作：
 >
->   * 任何Workfront包和任何Planning包
 >
->     或
+>* 任何Workfront包和任何Planning包
 >
->   * 任何工作流和计划Prime或Ultimate包
->* <span class="preview">要配置全局记录类型：</span>
->  * <span class="preview">任何Workfront包和Planning Plus包</span>
+>   或
+>
+>* 任何工作流和计划Prime或Ultimate包
+>
+><span class="preview">要配置全局记录类型：</span>
+>
+>* <span class="preview">任何Workfront包和Planning Plus包</span>
 >     
->    或
+>   或
 >
->  * <span class="preview">任何工作流和计划Prime或Ultimate包</span>
+>* <span class="preview">任何工作流和计划Prime或Ultimate包</span>
+>
 >有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。
 >有关信息，请参阅[Adobe Workfront计划访问概述](/help/quicksilver/planning/access/access-overview.md)。
 
@@ -96,23 +100,36 @@ ht-degree: 0%
    * 编辑它
 
      编辑全局记录类型包括编辑其外观、跨工作区功能以及在原始工作区中创建的所有字段。
+   * 共享
+
+     共享记录类型会将用户添加到工作区，并且还会与这些用户共享记录。
+   * 删除它
+
+     只有在从添加全局记录类型的所有辅助工作区中删除if的所有实例之后，才能将其从原始工作区中删除。
+
+     有关详细信息，请参阅[删除记录类型](/help/quicksilver/planning/architecture/delete-record-types.md)。
+   * 使其可与其他工作区连接
    * 创建和管理请求表单
    * 创建和管理自动化
 
-* 仅当全局记录类型尚未添加到辅助工作区时，才能将其删除。 必须先从辅助工作区中删除它（通过删除它），然后才能从原始工作区中删除它。
-
-  有关详细信息，请参阅[删除记录类型](/help/quicksilver/planning/architecture/delete-record-types.md)。
-* 您添加到全局记录类型的记录仅对具有对其所添加的工作区的查看权限的用户可见。
+* 您添加到全局记录类型的记录仅对具有对其所添加的工作区的查看权限的用户可见。<!-- this needs to be more specific: what does "o the workspace where they were added" mean? - added in which kind of workspaces? secondary or primary; asking Lilit-->
 * 从辅助工作区添加的记录将汇总并显示在原始工作区中。 原始工作区的所有成员都将获得对其的“查看”权限。
 * 将原始全局记录类型添加到多个辅助工作区时，存在以下情况：
 
    * 原始工作区的成员将自动获得从任何工作区添加的所有记录的查看权限，即使他们不是这些工作区的成员。
-   * 辅助工作区成员只能查看其所属工作区的记录。
-* 全局记录类型的已连接记录类型将可用于从添加此记录类型的工作区进行连接。
+   * 辅助工作区成员只能查看其所属工作区的记录。<!--change this to: Secondary workspace members can view only records from the workspace the records were added and where they have at least permissions to view the record workspace and the record type.-->
+
+* 连接到全局记录类型的记录类型将可用于从添加此记录类型的工作区进行连接。
 
   例如，如果您的Campaign全局记录类型与区域记录类型相关联，并且您将Campaign记录类型添加到辅助工作区，则区域将从辅助工作区变为可跨工作区连接。 辅助工作区成员现在可以创建营销活动并将它们链接到区域。
 
-* 从原始工作区中为全局记录类型创建的字段在添加该记录类型的所有工作区中均可见。 您只能从原始工作区中编辑字段设置。 在原始工作区中创建的字段设置对于所有成员在辅助工作区中都是只读的，无论这些成员在辅助工作区中拥有什么权限。 辅助工作区管理员无法修改在原始工作区中配置的字段的字段设置。 只有原始工作区的工作区管理员才能修改原始工作区中的字段设置。
+* 从原始工作区中为全局记录类型创建的字段在添加该记录类型的所有工作区中均可见。
+
+  您只能从原始工作区中编辑字段设置。
+
+  在原始工作区中创建的字段设置对于所有成员在辅助工作区中都是只读的，无论这些成员在辅助工作区中拥有什么权限。
+
+  辅助工作区管理员无法修改在原始工作区中配置的字段的字段设置。 只有原始工作区的工作区管理员才能修改原始工作区中的字段设置。
 
 ### 有关辅助工作区中全局记录类型的注意事项
 
@@ -133,23 +150,28 @@ ht-degree: 0%
 
      有关信息，请参阅[共享视图](/help/quicksilver/planning/access/share-views.md)。
 
+<!--Uncomment this at prod on Jan 15: * Share it-->
 
-     <!-- when they will be able to add fields to the secondary space, this bullet will need this extra information: 
-         After adding fields to the global record type in the secondary workspace, shared views might not open for other users in workspaces. The fields exist only in the secondary workspace and they would not be visible in any other workspace. Only fields created in the primary workspace are visible in all secondary workspaces where there the record type is added. -->
+<!--You can share a global record type added to a secondary workspace from the secondary space. By sharing a global record type in a secondary workspace, the following also occur:
 
-  <!--These two capabilities will come later - and edit some of the bullets below after these capabilities are released:
-    * Add new fields
-        Fields added to a global record from a secondary workspace are visible only from the secondary workspace. 
-    * Share it
-    * Add request forms to it
-    * Add automations to it-->
+    * Users are added to the workspace with View permissions.
+    * Users receive the same permissions to all the records of the global record type in the secondary workspace.-->
+
+<!--when they will be able to add fields to the secondary space, this bullet will need this extra information: 
+    After adding fields to the global record type in the secondary workspace, shared views might not open for other users in workspaces. The fields exist only in the secondary workspace and they would not be visible in any other workspace. Only fields created in the primary workspace are visible in all secondary workspaces where there the record type is added.-->
+
+<!--These two capabilities will come later - and edit some of the bullets below after these capabilities are released:
+* Add new fields
+    Fields added to a global record from a secondary workspace are visible only from the secondary workspace. 
+* Add request forms to it
+* Add automations to it-->
 
 * 任何用户都不能对辅助工作区中的全局记录类型执行以下操作：
 
    * 编辑它
 
      不能编辑其外观、跨工作区功能或从原始工作区添加的字段。
-   * 共享
+   * 共享<!-- remove this at Prod on Jan 15-->
    * 创建和管理请求表单
    * 创建和管理自动化
 
@@ -159,11 +181,17 @@ ht-degree: 0%
    * 全局记录类型的原始工作区。
    * 添加全局工作区的所有其他工作区。
 
+  <!--replace he above bullet with this: 
+        * Records added in a secondary workspace are visible from the following workspaces, only if you have View or higher permissions to these workspaces:
+        * The secondary place where they were added
+        * The global record type's original workspace
+    -->
+
 * 在辅助工作区中创建的记录存在以下情况：
 
    * 如果您对原始工作区具有“管理”权限，而对辅助工作区没有权限，则可以查看从原始工作区中的辅助工作区添加的记录，但无法从原始工作区管理这些记录。
    * 如果您对辅助工作区具有管理权限，则可以从全局记录类型的原始工作区以及添加这些记录的辅助工作区中管理记录。
-   * 您只能在添加全局记录类型的附加辅助工作区中查看记录，但前提是您对这些工作区具有查看权限。
+   * 您只能在添加全局记录类型的附加辅助工作区中查看记录，但前提是您对这些工作区具有查看权限。<!-- take this bullet out when we change this functionality on Jan 15-->
 
 ### 访问全局记录类型的连接
 

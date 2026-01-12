@@ -1,5 +1,5 @@
 ---
-title: Adobe Workfront Planning试用计划概述
+title: Adobe Workfront计划免费试用版快速入门
 description: Adobe Workfront目前提供Adobe Workfront Planning的60天免费试用。 这次试用让您有机会了解Planning如何将大局战略与日常工作联系起来，从而使其实现。 Planning提供了营销生命周期的集中可视性，实现了跨团队更好的协作、实时活动跟踪和自动化工作流。 您可以创建自定义工作区，并使用交互式时间表和日历将工作可视化。 通过此次试用，您将亲眼看到Planning如何帮助日常工作与战略目标保持一致、简化执行并为您的组织带来可衡量的结果。
 author: Alina
 feature: Workfront Planning
@@ -7,7 +7,7 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 0964ad24535bf43a23c740cd63abcf8fea705b8d
+source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Adobe Workfront目前提供Adobe Workfront Planning的60天免费试用。
 
 >[!NOTE]
 >
->Workfront Planning试用版不适用于当前的Workfront Planning客户。 此试用版为那些不打算进行Workfront规划的Workfront客户提供了一个机会，让他们能够体验到Planning，并了解它如何将宏观战略与日常工作联系起来，从而实现这一点。
+>Workfront Planning试用版不适用于当前的Workfront Planning客户。 此试用版为那些不打算使用Workfront Planning的Workfront <!-- is it Workfront or Adobe, or anyone-->客户提供了一个机会，让他们能够体验到Planning，并了解它如何将宏观战略与日常工作结合起来，从而使其实现。
 
 
 Planning提供了营销生命周期的集中可视性，实现了跨团队更好的协作、实时活动跟踪和自动化工作流。 您可以创建自定义工作区，并使用交互式时间表和日历将工作可视化。

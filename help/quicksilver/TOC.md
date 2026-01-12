@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
 workflow-type: tm+mt
-source-wordcount: '13638'
+source-wordcount: '13655'
 ht-degree: 2%
 
 ---
@@ -2187,6 +2187,9 @@ ht-degree: 2%
       * [Adobe Workfront Planning与Adobe GenStudio for Performance Marketing集成入门](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
       * [在Adobe Workfront Planning中管理GenStudio工作区](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
       * [将Workfront规划工作区提升到GenStudio](planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)
+   * Adobe Workfront独立规划 {#planning-standalone}
+      * [Adobe Workfront Planning独立：文章索引](planning/planning-sta/planning-sta-article-index.md)
+      * [Adobe Workfront Planning Standlone入门](planning/planning-sta/get-started-with-planning-sta.md)
 * Adobe Workfront集成 {#adobe-workfront-integrations}
    * [Adobe Workfront集成](workfront-integrations-and-apps/workfront-integrations.md)
    * [Adobe Workfront内置集成概述](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
@@ -2530,8 +2533,8 @@ ht-degree: 2%
       * [使用PKCE流程配置和使用您组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-pkce-flow.md)
       * [弃用API — 内部](wf-api/api/deprecation-api-internal.md)
       * [API版本21中的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-      * [API版本20中的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [API版本19中的新增功能](wf-api/api/new-api-version-19.md)
+      * [API版本20](/help/quicksilver/wf-api/api/new-api-version-20.md)中的新增功能
+      * [API版本19](wf-api/api/new-api-version-19.md)中的新增功能
       * [API版本18中的新增功能](wf-api/api/new-api-version-18.md)
       * [API版本17中的新增功能](wf-api/api/new-api-version-17.md)
       * [API版本16中的新增功能](wf-api/api/new-api-version-16.md)

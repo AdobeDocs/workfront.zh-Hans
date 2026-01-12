@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
 workflow-type: tm+mt
-source-wordcount: '3143'
+source-wordcount: '3165'
 ht-degree: 0%
 
 ---
@@ -146,16 +146,26 @@ ht-degree: 0%
 </tbody> 
 </table> -->
 
+## 创建记录时的注意事项
+
+<!--
+* Depending which workspace they are added from, records added to global record types are visible by the following types of users:
+
+    * Records added to the original workspace of a global record type are visible from the original workspace and all secondary workspaces where the record type is added. (***************check with Lilit on this one*************)
+    * Records added to a secondary workspace of a global record type are visible only from the workspace they were created and the original workspace of the global record type. 
+    For more information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). -->
+
+* 根据用户对Workspace和记录类型的权限，用户可以通过以下方式创建记录：
+
+   * 对工作区以及记录类型具有查看权限的用户只能使用记录类型页面上的“请求记录”按钮来创建记录。
+   * 对工作区和记录类型具有Contribute和“管理”权限的用户可以使用记录类型页面上的“新建记录”按钮创建记录。
+
+  >[!IMPORTANT]
+  >
+  >工作区管理员必须为记录类型创建请求表单，以便具有查看权限的用户使用请求表单添加记录。 否则，查看权限用户无法创建记录。
+
+
 ## 使用任何记录类型视图中的“新建记录”或“请求记录”按钮创建记录
-
-对工作区以及记录类型具有查看权限的用户只能使用记录类型页面上的“请求记录”按钮来创建记录。
-
-对工作区和记录类型具有Contribute和“管理”权限的用户可以使用记录类型页面上的“新建记录”按钮创建记录。
-
-
->[!IMPORTANT]
->
->工作区管理员必须为记录类型创建请求表单，以便具有查看权限的用户使用请求表单添加记录。 否则，查看权限用户无法创建记录。
 
 {{step1-to-planning}}
 
@@ -509,7 +519,7 @@ You can import records from other applications by linking them to existing recor
 1. （视情况而定）如果在尝试连接时找不到记录，请单击&#x200B;**+添加**
 
    或
-开始键入名称，然后单击&#x200B;**+添加**。 **+ Add**&#x200B;按钮后跟您连接到的记录类型的名称。 例如，将品牌添加到现有营销活动时，“添加品牌”。 您键入的名称还遵循“添加”按钮。
+开始键入名称，然后单击**+添加**。 **+ Add**&#x200B;按钮后跟您连接到的记录类型的名称。 例如，将品牌添加到现有营销活动时，“添加品牌”。 您键入的名称还遵循“添加”按钮。
 
    ![添加按钮以在突出显示的上下文中创建记录](assets/add-button-to-create-records-in-context-highlighted.png)
 
