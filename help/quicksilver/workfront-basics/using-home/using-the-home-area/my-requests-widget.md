@@ -6,7 +6,7 @@ description: 您可以在“我的请求”小组件中提交请求。 您还可
 author: Becky
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 4061163b8b761bc3922bfb95da6c0110b6ee5871
+source-git-commit: 9e4f67b4f5b03e1fc4f8e1a9ab00cc42b9796325
 workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 4%
@@ -22,7 +22,7 @@ ht-degree: 4%
 >本文介绍了新的My Requests构件。 您必须启用新的请求体验才能查看新的构件。
 >您可以在请求区域中启用新的请求体验。
 
-我的请求小组件会显示您已提交的请求。 您可以筛选请求、搜索特定请求或调整列顺序和可见性。 您还可以从“我的请求”小组件创建新请求。
+“我的请求”小组件会显示您已提交的请求。 您可以筛选请求、搜索特定请求或调整列顺序和可见性。 您还可以从“我的请求”小组件创建新请求。
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>[!UICONTROL 查看]对项目、任务、问题和文档的权限或更高，在这些项目、任务、问题和文档中，您被标记在对话中或需要解决审批问题</p> </td> 
+   <td> <p>[！UICONTROL查看]对项目、任务、问题和文档的权限或更高，在这些项目、任务、问题和文档中，您被标记在对话中或需要解决审批问题</p> </td> 
   </tr> 
  </tbody> 
 </table>
