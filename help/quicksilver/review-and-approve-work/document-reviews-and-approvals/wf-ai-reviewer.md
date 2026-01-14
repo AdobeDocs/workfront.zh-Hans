@@ -7,33 +7,33 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: 0a6e94c285cc5aaea97d840d644dc9b3ceea305e
+source-git-commit: cf1d4bfeedb94e8607dad47177d804169254ee85
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 4%
+source-wordcount: '657'
+ht-degree: 5%
 
 ---
 
 # Workfront AI Reviewer入门
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >此功能当前处于测试阶段。
 
+
 借助Workfront AI审阅者，您可以在审阅和批准工作流程中提高内容速度并优化品牌合规性。 您可以在Workfront中将AI审阅人添加到批准模板或单个审阅和批准请求。
 
-## 访问要求
+## 访问权限要求
 
 要在Workfront中设置AI审阅者，您必须是系统管理员。
 
 任何用户都可以将AI审阅者添加到审阅和批准请求。
 
-
 ## 先决条件
 
 * 贵组织必须已迁移到Adobe IMS (Identity Management System)。
 * 您的Workfront实例必须启用统一批准。
-* 您的组织必须具有GenStudio Foundation。
+  <!--* Your organization must have GenStudio Foundation.-->
 * Adobe必须有一个已签署的Adobe Gen AI协议文件。
 有关签署协议的更多信息，请参阅[签署Adobe Gen AI协议](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)。
 
@@ -60,12 +60,14 @@ AI审阅者可审阅以下文件类型：
 
 ## 设置品牌指南
 
-Workfront AI Reviewer在查看内容时使用Genstudio Foundation中设置的品牌准则。 目前，您只能设置图像的品牌指南。 有关详细信息，请参阅[Adobe GenStudio for Performance Marketing入门](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/get-started)。
+Workfront AI审核者在审核内容时使用品牌准则。 Workfront管理员可以在Workfront设置区域中设置品牌指南。 &lt;！ — 在GenStudio Foundation中创建的品牌也可以在Workfront中使用。
+
+有关详细信息，请参阅[为AI审阅者设置品牌](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)。
 
 
 ## 创建AI审阅者
 
-在GenStudio Foundation中至少设置了一个品牌后，Workfront管理员便可以在“设置”区域开始创建AI审阅者。 随后，可以将这些AI审阅人分配给审批模板以及单个审阅和审批请求。 目前，AI审阅者只能根据图像品牌指南进行审阅。
+至少设置了一个品牌后，Workfront管理员便可以在“设置”区域开始创建AI审阅者。 随后，可以将这些AI审阅人分配给审批模板以及单个审阅和审批请求。 目前，AI审阅者只能根据图像品牌指南进行审阅。
 
 有关详细信息，请参阅[创建AI审阅者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)。
 
@@ -110,6 +112,6 @@ AI审阅者并非旨在成为审阅和批准工作流中的决策者。 它仅�
 ![AI审核者反馈](assets/ai-reviewer-feedback.png)
 
 
-## 视频演练
+<!--## Video Walkthrough
 
->[!VIDEO](https://video.tv.adobe.com/v/3470847/)
+>[!VIDEO](https://video.tv.adobe.com/v/3470847/)-->
