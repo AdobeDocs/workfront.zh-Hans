@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
+source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%
@@ -39,14 +39,9 @@ ht-degree: 0%
 * [删除工作区](/help/quicksilver/planning/architecture/delete-workspaces.md)
 * [编辑工作区](/help/quicksilver/planning/architecture/edit-workspaces.md)
 * [删除记录类型](/help/quicksilver/planning/architecture/delete-record-types.md)
-
-<div class="preview">
-
 * [跨工作区记录类型概述](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 * [为记录类型配置跨工作区功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
 * [从另一个工作区添加现有记录类型](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
 * [配置记录类型的设置区域](/help/quicksilver/planning/architecture/configure-record-type-settings.md)
 * [层次结构和痕迹导航概述](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)
 * [创建工作区层次结构](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)
-
-</div>

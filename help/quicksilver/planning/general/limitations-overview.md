@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
+source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 3%
+source-wordcount: '464'
+ht-degree: 4%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 3%
 
 # Adobe Workfront Planning对象限制概述
 
-<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，对于启用快速发布的客户，生产环境中也提供了相同的功能。</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases.</span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -49,13 +49,13 @@ Adobe Workfront Planning对实例中可创建的对象数量存在限制。 设�
 | 在CSV或Excel文件中可导入以创建记录类型的行数 | 25,000 |
 | 在CSV或Excel文件中可导入以创建记录类型的列数 | 500 |
 | 一种记录类型的公式字段数 | 20 |
-| <span class="preview">一个记录类型的连接字段数</span> | <span class="preview">30</span> |
+| 一种记录类型的连接字段数 | 30 |
 | 公式字段表达式中的字符数 | 50,000 |
 | 可与Planning对象共享的实体（用户、角色、团队、公司、组）的数量 | 100 |
-| <span class="preview">层次结构中的记录类型数</span> | 4 |
-| <span class="preview">工作区中的层次结构数</span> | 5 |
-| <span class="preview">层次结构内父记录类型与子记录类型的一个记录连接的记录数</span> | 10 |
-| 在多选连接类型中连接到一个记录的记录数，<span class="preview">在记录之间没有配置层次结构</span> | 500 |
+| 层次结构中的记录类型数 | 4 |
+| 工作区中的层级数 | 5 |
+| 层次结构内与子记录类型的一个记录连接的父记录类型中的记录数 | 10 |
+| 在多选连接类型中连接到一个记录的记录数，这些记录之间未配置层次结构 | 500 |
 
 *我们建议不要有太多工作区，因为它们可能会变得难以管理，并且您的工作流可能过于分散。
 

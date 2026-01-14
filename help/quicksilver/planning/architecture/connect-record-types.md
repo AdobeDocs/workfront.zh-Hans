@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
+source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
 workflow-type: tm+mt
-source-wordcount: '2853'
+source-wordcount: '2877'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 >[!NOTE]
 >
-><span class="preview">一个记录类型最多可以有30个连接字段。</span>
+>一个记录类型最多可以有30个连接字段。
 
 本文介绍了如何将两个Workfront Planning记录类型或Workfront Planning记录类型与另一个应用程序中的对象连接。
 
@@ -89,7 +89,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    <ul><li><p>Adobe Experience Manager Assets许可证以及AEM Assets与Workfront之间的集成，用于连接AEM资源与Planning记录类型。</p>
    <p>有关信息，请参阅适用于Experience Manager Assets和Assets Essentials的<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 用于连接记录类型与GenStudio Brands的Adobe GenStudio for Performance Marketing许可证</p>
-   <p>有关信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing入门</a>。</p></li></ul>
+   <p>有关信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing入门</a>。</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -204,7 +204,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      >[!TIP]
      >
-     >必须在&#x200B;**高级设置**&#x200B;**或**&#x200B;编辑记录类型<span class="preview">框的&#x200B;**跨工作区设置**</span>&#x200B;选项卡中为记录类型启用&#x200B;**允许连接到其他工作区中的此记录类型**&#x200B;设置，才能从其他工作区访问记录类型。 如果没有配置为从其他工作区连接的记录类型，则不会显示工作区部分。
+     >必须在&#x200B;**编辑记录类型**&#x200B;框的&#x200B;**高级设置**&#x200B;或&#x200B;**跨工作区设置**&#x200B;选项卡中为记录类型启用&#x200B;**允许连接到其他工作区中的此记录类型**&#x200B;设置，才能从其他工作区访问记录类型。 如果没有配置为从其他工作区连接的记录类型，则不会显示工作区部分。
      >
      >有关信息，请参阅[为记录类型配置跨工作区功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。<!--update screen shot at production-->
      >
@@ -252,9 +252,9 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    >[!TIP]
    >
-   >* 除了<span class="preview">一个记录类型</span>的30个连接字段限制外，一个记录类型还有500个字段的限制。 我们建议将此设置保持关闭（特别是对于分类记录类型），以避免达到此限制。
+   >* 除了为一个记录类型限制30个连接字段外，还为一个记录类型限制500个字段。 我们建议将此设置保持关闭（特别是对于分类记录类型），以避免达到此限制。
    >
-   >* <span class="preview">选择&#x200B;**在链接的记录类型上创建相应的字段**&#x200B;是创建层次结构的先决条件。</span>
+   >* 选择链接记录类型&#x200B;**上的**&#x200B;创建对应字段是创建层次结构的先决条件。
 
 1. （视情况而定）如果启用&#x200B;**在链接的记录类型**&#x200B;上创建对应的字段，则从以下选项中进行选择，以指示用户可以连接到多少条记录，也可以从多少条记录进行连接：
 
@@ -279,7 +279,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    >[!NOTE]
    >
-   >Workfront管理员可以通过Workfront中的元数据映射，将Workfront Planning字段映射到Experience Manager Assets字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+   >Workfront管理员可以通过Workfront中的元数据映射，将Workfront Planning字段映射到Experience Manager Assets字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
 
 1. （视情况而定）当您选择连接到Experience Manager Assets、Workfront Planning记录类型或GenStudio Brand时，请在&#x200B;**记录外观**&#x200B;区域中选择以下选项之一：
@@ -309,6 +309,8 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    >* Workfront对象的日期字段信息在Workfront Planning中以24小时制显示，无论它在Workfront中如何显示。
    >
    >   例如，如果项目的计划开始日期在Workfront中显示为3:00 PM，它在Workfront Planning的导入查找字段中将显示为15:00。
+   >* 在生产环境中，您无法添加人员字段作为查找字段。 <span class="preview">您可以在预览环境中添加人员字段作为查找字段。</span>
+   >
 
 1. 单击&#x200B;**创建**。
 
@@ -407,7 +409,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
      >[!TIP]
      >
      > 不会为来自各自应用程序中的其他应用程序的对象创建链接记录字段。
-     >我们建议不要创建指向分类记录类型的链接，因为每个记录类型具有500个字段的限制，<span class="preview">以及连接的30个字段的限制</span>。
+     >我们建议不要创建指向分类记录类型的链接，因为除了每个记录类型有30个连接字段的限制外，还限制了500个字段。
 
    <!--see the span preview text in the TIP above; it might not show up in green-->
 

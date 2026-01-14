@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 527a5de08a89bdd4d27d508113b8b0f4b2d73089
+source-git-commit: 8f7249e08268a8cb784d4c0ecc8c534542fa80cf
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 14%
@@ -32,7 +32,7 @@ ht-degree: 14%
 >[!NOTE]
 >
 >* 本文介绍了可用于访问新Workfront包模型中的级别的功能。 要查看当前包模型中可用的功能，请参阅[各种访问级别中每种对象类型可用的功能](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)。
->* 有关最新模型中其他包可用的功能列表，请参阅[Adobe Workfront定价和打包](https://business.adobe.com/cn/products/workfront/pricing.html)。
+>* 有关最新模型中其他包可用的功能列表，请参阅[Adobe Workfront定价和打包](https://business.adobe.com/products/workfront/pricing.html)。
 
 ## 项目
 
@@ -125,7 +125,7 @@ ht-degree: 14%
 | 将问题转化为项目 | ✓ |   |   |   |
 | 将问题转换为任务 | ✓ |   |   |   |
 | 接受分配 | ✓ |   |   |   |
-| 制定工作 | ✓ |   |   |   |
+| 制定工作 | ✓ | ✓ | ✓ |   |
 | 添加更新和评论 | ✓ | ✓ | ✓ |   |
 
 {style="table-layout:auto"}

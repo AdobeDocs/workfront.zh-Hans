@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
 workflow-type: tm+mt
-source-wordcount: '2743'
+source-wordcount: '2004'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 # 将“连接的记录”页面添加到记录
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 通过在Adobe Workfront Planning中将已连接记录页面的选项卡添加到记录，可以查看已连接记录或对象中的信息。 这会将表视图中的连接记录添加到选项卡。
 
@@ -27,18 +27,18 @@ ht-degree: 0%
 
 * 您可以从记录的预览区域或记录的页面添加“连接的记录”页面。
 
-* <span class="preview">对于特定记录类型，只能有一个连接的记录页面。</span>
+* 对于特定记录类型，只能有一个连接的记录页面。
 
-  <span class="preview">例如，如果为营销活动创建了一个连接的记录页面，并且要显示其连接的角色，则只能有一个连接的角色记录页面。</span>
+  例如，如果为营销活动创建了“连接的记录”页面，并且要显示其连接的角色，则只能为“角色”创建一个连接的记录页面。
 
 * “连接的记录”页面仅显示来自一个对象或记录类型的连接的对象或记录。 页面不显示该类型的所有记录。
 
 * 根据在连接的记录页面中显示的对象或记录类型，可以使用以下视图显示它们：
 
-   * 您可以在以下视图中显示连接的Planning记录：
+   * 您可以在下列类型的视图中显示连接的Planning记录：
       * 表
-      * <span class="preview">时间线</span>
-      * <span class="preview">日历</span>
+      * 时间线
+      * 日程表
    * 您可以在列表视图中显示连接的Workfront项目。
 
 * 可以为以下连接的记录或对象类型添加“连接的记录”页：
@@ -76,7 +76,7 @@ ht-degree: 0%
    <ul><li><p>Adobe Experience Manager Assets许可证以及AEM Assets与Workfront之间的集成，用于连接AEM资源与Planning记录类型。</p>
    <p>有关信息，请参阅适用于Experience Manager Assets和Assets Essentials的<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 用于连接记录类型与GenStudio Brands的Adobe GenStudio for Performance Marketing许可证</p>
-   <p>有关信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing入门</a>。</p></li></ul>
+   <p>有关信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing入门</a>。</p></li></ul>
    </td> 
   </tr>
 
@@ -118,7 +118,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   ><span class="preview">您可以为每个记录类型创建一个连接的记录页。 如果连接的记录类型已具有页面，则该页面不再显示为选项。</span>
+   >您可以为每个记录类型创建一个连接的记录页。 如果连接的记录类型已具有页面，则不再显示为选项。
    >
 
 1. （可选且有条件）如果要为显示构建页面的记录或对象类型有多个已连接字段，请从&#x200B;**选择引用字段**&#x200B;列表中单击要在已连接记录页面中显示其记录或对象的字段。
@@ -157,62 +157,62 @@ ht-degree: 0%
 
 ### 管理Planning记录的“连接的记录”页面
 
-根据您使用的环境，管理Planning记录的已连接记录页面会有所不同。
+<!--
 
-#### 管理生产环境中Planning记录的“连接的记录”页面
+#### Manage the connected records page for Planning records in the Production environment
 
-在生产环境中为连接的Planning记录创建连接的记录页面时，请执行以下操作： <!--or AEM Assets--> <!--AEM is not available yet?? see note below-->
+When you create a connected records page for  connected Planning records in the Production environment, do the following: (****or AEM Assets - AEM is not available yet?? see note below********)
 
-1. 转到记录类型页面并单击记录名称。 这将打开记录的预览页面。
-1. 单击显示Planning记录的已连接记录页的标签。
-连接到所选记录的记录将显示在表格视图中。
-1. 单击表视图底部的&#x200B;**连接**&#x200B;以连接现有记录，从连接框中选择它们，然后单击框外部将其关闭。 记录会自动添加到表中，并连接到您选择的记录。 在添加记录之前，这些记录必须存在。
+1. Go to a record type page and click the name of a record. This opens the record's preview page.
+1. Click the tab for a connected records page that display Planning records.
+   The records connected to the record you selected display in the table view. 
+1. Click **Connect** at the bottom of the table view to connect existing records, select them from the connection box, then click outside the box to close it. The records are automatically added to the table and connected to the record you selected. The records must exist before you can add them.
 
-   有关详细信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。
+   For more information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
 
-1. 在表视图中内联编辑来自连接记录的任何信息。
-1. 将鼠标悬停在已连接记录的名称上，然后单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)
+1. Edit any information from the connected records inline in the table view. 
+1. Hover over a connected record's name, then click the **More** menu ![More menu](assets/more-menu.png)
 
-   或
+   Or 
+   
+   Select one of the records, then click one of the following options in the blue bar at the bottom of the list: 
 
-   选择其中一个记录，然后单击列表底部蓝色栏中的以下选项之一：
+   * **View** to open the record page in a new tab
+   * **Copy link** to copy a link to the record page
+   * **Edit thumbnail** to open the **Record thumbnail** box and edit the record's thumbnail image
+   * **Duplicate** to duplicate the connected record. The duplicated record is also connected to the current record.
+   * **Insert record above or below** to add new records to the connected record type. New records added here are also connected to the current record. This option is not available in the blue bar when selecting a record in the table.
+   * **Delete** to delete the record. Deleting a connected record deletes it from its record type and from everywhere where the record is connected. The deleted records move to the **Recently deleted** bin of their record type.
 
-   * **查看**&#x200B;以在新选项卡中打开记录页面
-   * **复制链接**&#x200B;以复制指向记录页面的链接
-   * **编辑缩略图**&#x200B;以打开&#x200B;**记录缩略图**&#x200B;框并编辑记录的缩略图图像
-   * **复制**&#x200B;以复制连接的记录。 重复记录也连接到当前记录。
-   * **在上方或下方插入记录**&#x200B;以将新记录添加到连接的记录类型。 此处添加的新记录也将连接到当前记录。 在表中选择记录时，此选项在蓝色栏中不可用。
-   * **删除**&#x200B;以删除记录。 删除已连接的记录会将其从记录类型以及连接记录的所有位置删除。 删除的记录移至其记录类型的&#x200B;**最近删除的**&#x200B;个框。
+      For information about editing records in the table view, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
 
-     有关编辑表视图中的记录的信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
+      >[!TIP]
+      >
+      >You can select more than one record or object to delete them.
+      >
 
-     >[!TIP]
-     >
-     >您可以选择多个记录或对象来删除它们。
-     >
+1. Inline edit any of the records in the table on the connected records page.
+1. Use any of the following view elements in the toolbar of a connected record page to manage the table view:
 
-1. 在“连接的记录”页面上的表中内联编辑任何记录。
-1. 在连接的记录页面的工具栏中使用以下任何视图元素来管理表格视图：
+   * **Filters**
+   * **Sort**
+   * **Grouping**
+   * **Fields**, to display, hide, or rearrange fields
+   * **Row height**
+   * **Search**
 
-   * **过滤器**
-   * **排序**
-   * **分组**
-   * **字段**，用于显示、隐藏或重新排列字段
-   * **行高**
-   * **搜索**
-
-   有关信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)。
+   For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
 
    >[!NOTE]
    >
-   >不能在已连接记录选项卡的表视图中创建、编辑或删除字段。
+   >You cannot create, edit, or delete fields in the table view of a connected record's tab.
    >
 
-<div class="preview">
+#### Manage the connected records page for Planning records in the Preview environment
 
-#### 在“预览”环境中管理Planning记录的“连接的记录”页面
+When you create a connected records page for connected Planning records in the Preview environment, do the following: (***********or AEM Assets -- AEM is not available yet?? see note below**********)
 
-在“预览”环境中为连接的Planning记录创建连接的记录页面时，请执行以下操作：<!--or AEM Assets--> <!--AEM is not available yet?? see note below-->
+-->
 
 1. 转到记录类型页面并单击记录名称。 这将打开记录的预览页面。
 1. 单击显示Planning记录的已连接记录页的标签。
@@ -259,7 +259,7 @@ ht-degree: 0%
    >不能在已连接记录选项卡的表视图中创建、编辑或删除字段。
    >
 
-1. 单击“视图”下拉菜单，然后单击&#x200B;**新建视图**&#x200B;以添加该页面的新视图，然后执行以下操作：
+1. 单击已连接记录页面右上角的视图下拉菜单，然后单击&#x200B;**新建视图**&#x200B;以添加该页面的新视图，然后执行以下操作：
 
    1. 添加&#x200B;**视图名称**。
    1. 从&#x200B;**视图类型**&#x200B;区域，选择以下视图类型之一：
@@ -282,17 +282,16 @@ ht-degree: 0%
       * **共享**
 
         有关详细信息，请参阅[共享视图](/help/quicksilver/planning/access/share-views.md)。
-
-        >[!NOTE]
-        >
-        >您无法共享Workfront创建的系统视图。
+      * **导出**
 
       * **删除**
 有关信息，请参阅[删除记录视图](/help/quicksilver/planning/views/delete-record-views.md)。
 
         ![](assets/view-more-menu-projects-connected-records-page.png)
 
-</div>
+        >[!NOTE]
+        >
+        >不能删除Workfront创建的系统视图。
 
 ### 管理Workfront项目的“连接的记录”页面
 
@@ -328,30 +327,30 @@ ht-degree: 0%
    1. 添加&#x200B;**视图名称**。
    1. 从&#x200B;**视图类型**&#x200B;区域中选择&#x200B;**列表**。
    1. 单击&#x200B;**创建**。
-新的列表视图将添加到视图下拉菜单中。
+新的列表视图已添加到**我的视图**&#x200B;区域的视图下拉菜单中。
 
       有关详细信息，请参阅本文中[从连接的记录页面](#manage-multiple-views-from-the-connected-records-page)管理多个视图。
 
    1. （可选）将鼠标悬停在您创建的视图的名称上，单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击以下选项之一：
       * **重命名**，为视图添加新名称。
-      * <span class="preview">**共享**</span>
+      * **共享**
 
         有关详细信息，请参阅[共享视图](/help/quicksilver/planning/access/share-views.md)。
-
-        >[!NOTE]
-        >
-        >您无法共享Workfront创建的系统视图。
 
       * **删除**
 有关信息，请参阅[删除记录视图](/help/quicksilver/planning/views/delete-record-views.md)。
 
         ![](assets/view-more-menu-projects-connected-records-page.png)
 
+        >[!NOTE]
+        >
+        >无法重命名、共享或删除Workfront创建的系统视图。
+
    1. 单击&#x200B;**筛选器**&#x200B;图标![筛选器图标](assets/filter-icon.png)，然后使用该筛选器显示特定项目。
 
       >[!TIP]
       >
-      ><span class="preview">对于人员类型字段，如&#x200B;**所有者**&#x200B;或&#x200B;**发起人**，您可以使用通配符显示登录用户分配给这些角色的项目。</span>
+      >对于人员类型字段，如&#x200B;**所有者**&#x200B;或&#x200B;**发起人**，您可以使用通配符显示将登录用户分配给这些角色的项目。
       >
       >![使用用户通配符筛选已连接项目的记录页](assets/filter-with-user-wildcard-project-connected-records-page.png)
       >
@@ -367,41 +366,40 @@ ht-degree: 0%
       1. 单击&#x200B;**Selected**&#x200B;列中某个字段右侧的&#x200B;**-**&#x200B;以将其从表视图中删除。
       1. 单击&#x200B;**保存**&#x200B;以保存连接的记录页表视图。
 
+<!-- this is repetitive from an earlier section above: 
 
-<div class="preview">
+## Manage multiple views from the connected records page
 
-## 从“连接的记录”页面管理多个视图
+You can add and manage multiple view types from the connected records page of a record. 
 
-您可以从记录的已连接记录页面添加和管理多个视图类型。
+The views you create in the Connected records page of a record type are available everywhere in Workfront Planning where that record type page displays. Views created for the same record type anywhere else in Workfront Planning are also accessible in all connected records pages of that record type. 
 
-在记录类型的“连接的记录”页面中创建的视图在Workfront Planning中任何显示记录类型页面的位置都可用。 在Workfront Planning中的任何其他位置为同一记录类型创建的视图也可在该记录类型的所有连接记录页中访问。
+To manage multiple views from the connected records page: 
 
-要从连接的记录页面管理多个视图，请执行以下操作：
+1. (Conditional) When displaying Planning records in the connected records page, click the dropdown menu to the right of the view name, then click **New view** to add a view, then select from the following options: 
 
-1. 在记录的已连接记录页面中，单击视图名称右侧的下拉菜单，然后单击&#x200B;**新建视图**&#x200B;以添加视图，然后从以下选项中选择：
+   * **Table**. For more information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
+   * **Timeline**. For more information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+   * **Calendar**. For more information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md). 
 
-   * **表**。 有关详细信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)。
-   * **时间线**。 有关详细信息，请参阅[管理时间线视图](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
-   * **日历**。 有关详细信息，请参阅[管理日历视图](/help/quicksilver/planning/views/manage-the-calendar-view.md)。
+1. (Optional) Hover over the name of a view in the Connected records page, then click the **More** menu ![More menu](assets/more-menu.png), then click one of the following: 
 
-1. （可选）将鼠标悬停在“连接的记录”页面中的视图名称上，然后单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击以下任一选项：
-
-   * **重命名**
-   * **共享**。 有关详细信息，请参阅[共享视图](/help/quicksilver/planning/access/share-views.md)。
+   * **Rename**
+   * **Share**. For more information, see [Share views](/help/quicksilver/planning/access/share-views.md).
 
    >[!TIP]
    >
-   >共享“连接的记录”页面中的视图可让Workfront Planning中显示视图的所有区域的用户访问这些视图。
-   >此外，如果从Workfront Planning的任何其他区域共享视图，则该视图也在“连接的记录”页面中可供相同用户使用。
+   >Sharing views from Connected records pages makes them accessible to users in all areas of Workfront Planning where the view displays. 
+   >Also, if a view is shared from any other area of Workfront Planning, it is also available to the same users in Connected records pages. 
 
-   * **导出**
-   * **重复**。 有关详细信息，请参阅[重复记录视图](/help/quicksilver/planning/views/duplicate-record-views.md)。
+   * **Export** 
+   * **Delete**
 
-     >[!TIP]
-     >
-     >从“连接的记录”页面中复制视图时，该视图可在Workforce计划的所有其他区域中使用，同时查看相同的记录类型。
+   <!--not possible right now: * **Duplicate**. For more information, see [Duplicate record views](/help/quicksilver/planning/views/duplicate-record-views.md).
+      >[!TIP]
+      >
+      >Duplicating a view from Connected records pages makes it available in all other areas of Workfornt planning, when viewing the same record types. -->
 
-</div>
 
 <!--No longer possible: 1. (Optional and conditional) When you create a connected records page for the following Workfront object types:
          * Portfolios

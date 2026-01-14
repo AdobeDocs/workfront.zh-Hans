@@ -6,10 +6,10 @@ description: 修改列表中多个问题的用户分配
 author: Lisa
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 8f7249e08268a8cb784d4c0ecc8c534542fa80cf
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 1%
+source-wordcount: '523'
+ht-degree: 4%
 
 ---
 
@@ -39,21 +39,21 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 >
 >您必须至少具有问题的Contribute权限，才能为该问题分配工作。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
+   <td>Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
-   <td> <p>标准</p>
+   <td> <p>参与者或更高版本</p>
    <p>请求或更高版本</p> </td> 
   </tr> 
   <tr> 
