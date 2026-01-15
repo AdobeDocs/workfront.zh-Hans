@@ -9,16 +9,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: 3ebff5f28d4142203c6ce5486ce40484d88f0a5d
+source-git-commit: 091d343b5c36ab6bca09aecfc8cba248adcd11e3
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '470'
 ht-degree: 20%
 
 ---
 
 # 通过新许可证访问对象和区域
-
-{{highlighted-preview}}
 
 <!-- Audited: 2/2024 -->
 
@@ -46,7 +44,7 @@ ht-degree: 20%
     <tr>
         <td>项目</td>
         <td>Edit</td>
-        <td><span class="preview">编辑**</span></td>
+        <td>编辑**</td>
         <td>视图</td>
         <td>无访问权限</td>
     </tr>
@@ -152,7 +150,7 @@ ht-degree: 20%
 
 &#42;拥有参与者许可证的用户只能查看与其共享的报告、功能板和日历。
 
-<span class="preview">&#42;&#42;启用编辑访问后，拥有轻量级许可证的用户只能在项目级别记录时间。 他们无法创建、编辑、删除或共享项目。 Light用户的默认级别为View。</span>
+&#42;&#42;启用了编辑访问权限时，拥有轻量级许可证的用户只能在项目级别记录时间。 他们无法创建、编辑、删除或共享项目。 对于轻量级用户，“项目”的默认访问级别为“查看”。
 
 >[!NOTE]
 >

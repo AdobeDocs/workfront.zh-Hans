@@ -7,16 +7,14 @@ author: Lisa
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 3ebff5f28d4142203c6ce5486ce40484d88f0a5d
+source-git-commit: a23708b2534330cf942c5f950c4bee1a90583ea7
 workflow-type: tm+mt
-source-wordcount: '4145'
+source-wordcount: '4139'
 ht-degree: 1%
 
 ---
 
 # 记录时间
-
-{{highlighted-preview}}
 
 <!--Audited: 5/2025-->
 
@@ -42,8 +40,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
-   <ul><li><p>在任务、问题、<span class="preview">项目</span>或工时表上的常规小时数上记录小时数的较短或更高</p></li>
-   <li><p>用于记录项目小时数的标准</p></li></ul>
+   <p>在时间表上记录项目、任务、问题或常规小时数的精简或更高</p>
 
 <p>或： </p>
 
@@ -143,9 +140,9 @@ ht-degree: 1%
 
 1. （视情况而定）如果一次添加50个或更多项目，则会显示一条确认消息，其中显示添加到时间表的项目数。
 
-   单击&#x200B;**全部添加**&#x200B;以添加所有项
+   单击&#x200B;**全部添加**以添加所有项
 或
-单击&#x200B;**取消**&#x200B;停止添加选定项，然后单击&#x200B;**取消**&#x200B;关闭项列表。
+单击**取消**&#x200B;停止添加选定项，然后单击&#x200B;**取消**&#x200B;关闭项列表。
 
    任务和问题列在项目的名称下。
 
@@ -390,7 +387,7 @@ ht-degree: 1%
 
 要在项目、任务或问题的更新部分中记录时间，您必须具备以下各项：
 
-* 正确的访问和权限，如本文的[访问要求](#access-requirements)部分中所述。 <span class="preview">如果您的访问级别为轻量级，并且您正在记录项目的时间，则还必须具有项目的Contribute或更高权限以及对“记录小时数”的访问权限。 有关授予项目权限的详细信息，请参阅[共享项目](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-project.md)。</span>
+* 正确的访问和权限，如本文的[访问要求](#access-requirements)部分中所述。 如果您的访问级别为轻量级，并且您正在记录项目时间，则您还必须具有项目的Contribute或更高权限，并且有权访问记录小时数。 有关授予项目权限的详细信息，请参阅[共享项目](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-project.md)。
 
 * 如果要直接将时间记录到项目，您的Workfront管理员必须在系统区域的&#x200B;[!UICONTROL **时间表和小时数**]> [!UICONTROL **首选项**]&#x200B;下直接启用项目记录时间设置。
 
@@ -430,13 +427,13 @@ ht-degree: 1%
 
 #### “小时”部分{#hours-section}
 
-您必须是Workfront管理员才能在小时数部分中记录项目、任务和问题的时间。
+您必须是Workfront管理员才能在小时部分记录项目、任务和问题的时间。
 
 或
 
 您必须具备以下所有条件：
 
-* 具有对时间表和小时数的管理访问权限的标准或计划许可证，<span class="preview">或具有对项目</span>的编辑访问权限的轻量级许可证。 有关授予对时间表和小时数的管理访问权限的详细信息，请参阅[授予用户对特定区域的管理访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。 <span class="preview">对时间表和小时数的管理访问权限不可用于轻量级许可证。</span>
+* 对时间表和小时数具有管理访问权限的标准或计划许可证，或对项目具有编辑访问权限的轻量级许可证。 有关授予对时间表和小时数的管理访问权限的详细信息，请参阅[授予用户对特定区域的管理访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。 对时间表和小时数的管理访问权限不适用于轻量级许可证。
 * 为项目分配或更高权限，并具有对记录小时数的访问权限。 有关授予项目权限的详细信息，请参阅[在Adobe Workfront中共享项目](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)。
 * 如果要直接将时间记录到项目，您的Workfront管理员必须在“设置”区域的&#x200B;**时间表和小时数>首选项**&#x200B;部分中启用直接在项目上记录时间设置。 有关允许用户直接将小时数记录到项目的详细信息，请参阅[配置工时表和小时首选项](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。
 

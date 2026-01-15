@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 091d343b5c36ab6bca09aecfc8cba248adcd11e3
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1749'
 ht-degree: 6%
 
 ---
@@ -117,7 +117,7 @@ Workfront具有5个新的内置访问级别：
 * 查看与工作相关的所有项目和更新
 * 批准项目、任务和问题
 * 查看功能板和报表
-* 跟踪任务和问题的时间并批准工时表
+* 跟踪项目、任务和问题的时间并批准时间表
 * 创建和管理问题
 
 具有轻度访问级别的用户：
@@ -125,6 +125,7 @@ Workfront具有5个新的内置访问级别：
 * 可以分配工作项，但无法完成它们。
 * 可以通过主菜单访问请求和文档。
 * 创建对象的能力有限 — 无法创建项目、项目组合、项目群或报告。
+* 启用“编辑”权限后，只能在项目级别记录时间。 他们无法创建、编辑、删除或共享项目。
 
 >[!NOTE]
 >
@@ -151,8 +152,8 @@ Workfront具有5个新的内置访问级别：
   <tr> 
    <td>项目</td> 
    <td> </td> 
-   <td>✓</td> 
    <td> </td> 
+   <td>✓（用于在项目级别记录时间）</td> 
   </tr> 
   <tr> 
    <td>任务</td> 
