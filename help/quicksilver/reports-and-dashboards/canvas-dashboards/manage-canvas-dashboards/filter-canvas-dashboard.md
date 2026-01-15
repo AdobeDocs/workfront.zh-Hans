@@ -6,16 +6,14 @@ description: 您可以在创建筛选器后将筛选器应用到画布功能板�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
-source-git-commit: 39a8d670baa19aa37e29b0312e6c9a296569f44c
+source-git-commit: c6458d777726092d74e8b031f5c14dfd58710e11
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 1%
+source-wordcount: '989'
+ht-degree: 2%
 
 ---
 
 # 筛选画布功能板
-
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。</span>
 
 >[!IMPORTANT]
 >
@@ -175,12 +173,11 @@ ht-degree: 1%
 
 1. 在仪表板详细信息页面的左上角，单击&#x200B;**筛选器**。 将打开过滤器侧面板。
 
-1. 在&#x200B;**显示记录……**&#x200B;部分中，为显示的一个或多个提示选择条件。 应用了提示，并且在报告小部件的角落显示应用了&#x200B;**功能板筛选器**&#x200B;标记。
+1. 在&#x200B;**显示记录……**&#x200B;部分中，为显示的一个或多个提示选择条件。 应用了提示，并且在报告小部件的角落显示应用了&#x200B;**功能板筛选器**标记。
    ![选择条件](assets/prompts-list.png)
 
 1. 单击右上角的&#x200B;**关闭**&#x200B;图标![关闭图标](assets/close-icon.png)以隐藏面板。
 
-<span class="preview">
 
 ## 按货币类型筛选仪表板
 
@@ -196,5 +193,3 @@ ht-degree: 1%
 1. 从列表中选择所需的货币类型。
 
    ![更改货币下拉框](assets/filter-by-currency.png)
-
-</span>
