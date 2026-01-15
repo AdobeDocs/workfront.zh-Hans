@@ -4,9 +4,9 @@ description: 本页介绍了2026年第二季度版本中包含的功能。 这�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
+source-git-commit: 5e12cf9e34adda0a2fb9e8026f2c94cdfc0b41fd
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '708'
 ht-degree: 3%
 
 ---
@@ -37,10 +37,49 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfront增强功能
 
-
+* [管理员增强功能](#administrator-enhancements)
 * [其他增强功能](#other-enhancements)
 
+### 管理员增强功能
 
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 25%;" />
+            <tbody>
+               <tr>
+        <td><strong>功能</strong>
+        </td>
+        <td><strong>预览</strong></td>
+        <td><strong>快速发布</strong></td>
+        <td><strong>每季度</strong></td>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Workfront电子邮件通知的新IP地址</a><p></p>
+            <p>我们正在更新用于从Workfront发送电子邮件通知的IP地址。 如果贵组织维护电子邮件或防火墙允许列表，则<b>必须</b>在下面添加新的IP地址，以确保继续发送Workfront通知。</p><p>这些更新适用于Workfront应用程序生成的所有出站电子邮件，包括批准、提醒、验证通知和其他系统消息。</p>
+            <ul>
+            <li>美国：
+            <ul>
+            <li>206.55.149.212</li>
+            <li>206.55.149.214</li>
+            <li>206.55.149.215</li>
+            <li>206.55.149.213</li>
+            <li>206.55.149.211</li>
+            </ul>
+            </li>
+            <li>欧盟： 
+            <ul>
+            <li>24.110.76.224</li>
+            <li>24.110.76.223</li>
+            </ul>
+            </li>
+            </ul> </p>
+        </td>
+        <td><p>2026年1月15日</p></td>
+        <td><p>2026年1月15日</p></td>
+        <td><p>2026年1月15日</p></td>
+    <tr>
+            </tbody>
+        </table>
 
 ### 其他增强功能
 
@@ -130,13 +169,13 @@ Workfront API版本21于2025年10月23日发布。 对于API版本21，我们修
 * 适用于Salesforce的Workfront。
 
 为了满足贵组织与Google Workspace的集成需求，我们建议使用Workfront自动化和集成。
-有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 
 ### Workfront 维护更新
 
-有关2025年第二季度版本中进行的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hans)。
+有关2025年第二季度版本中进行的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
 
 ### 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hans)的“新增功能”部分。
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的“新增功能”部分。
