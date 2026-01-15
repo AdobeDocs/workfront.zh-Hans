@@ -8,9 +8,9 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
+source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1440'
 ht-degree: 2%
 
 ---
@@ -19,21 +19,14 @@ ht-degree: 2%
 
 您可以查看自己或其他人提交的请求，或者查看您已开始但从未完成提交的请求。 您可以在Adobe Workfront的以下区域中找到这些请求：
 
-* Workfront中“请求”区域的&#x200B;**Workfront**&#x200B;选项卡：查看提交到Workfront请求队列的请求，具体位于以下部分：
-   * **已提交节**：您或其他人提交的所有请求，您至少有权查看。
-   * **草稿部分** ：您已开始但从未完成且从未提交的所有请求。 有关草稿请求的更多信息，请参阅[创建和提交Adobe Workfront请求](../../../manage-work/requests/create-requests/create-submit-requests.md)。
+* Workfront的“请求”区域
+* 主页中的“我的请求”构件
 
   >[!NOTE]
   >
   >* 您只能查看自己的草稿请求。
   >* 在新的请求体验中，提交的请求和草稿可在同一列表中找到。
   >* 在旧版Experience中创建的草稿不会出现在新的“请求体验”中。
-
-* Workfront中“请求”区域的&#x200B;**计划**&#x200B;选项卡：查看提交到Workfront计划请求表单的请求。 贵组织必须购买Workfront规划包。 有关信息，请参阅以下文章：
-
-   * [在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)
-   * [提交Adobe Workfront Planning请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)
-
 
 ## 访问权限要求
 
@@ -107,7 +100,7 @@ ht-degree: 2%
    * **状态**：请求的状态。
    * **输入者**：添加请求的用户的名称。 如果请求是由Workfront之外的人员添加的，则&#x200B;**输入者**&#x200B;字段显示`N/A`。
 
-   您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的筛选器。
+   您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**加入的筛选器。
 在添加筛选条件时，将自动筛选请求列表。
 1. （可选）使用视图将焦点置于要显示的请求上。
 

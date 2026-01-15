@@ -5,9 +5,9 @@ title: 在请求区域创建和管理视图
 description: 如果您使用的是新的请求体验，则可以创建和保存请求区域的视图。
 author: Becky
 feature: Work Management
-source-git-commit: d8e5e6d313eb39c9ac26e7cb60113beac5637890
+source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '693'
 ht-degree: 3%
 
 ---
@@ -93,15 +93,7 @@ ht-degree: 3%
    >您当前无法在生产环境中添加列。
 1. （可选）单击&#x200B;**列**&#x200B;并隐藏、显示或重新排列请求列表中的列。
 
-   ![列框](assets/columns-editing-box-in-requests-planning-tab.png)
-
-   >[!TIP]
-   >
-   >您当前无法在生产环境中添加任何其他列。
-
-1. （可选）单击&#x200B;**筛选器**&#x200B;并开始为要在Planning选项卡中查看的请求添加条件。
-
-   ![在Planning请求选项卡中编辑筛选器](assets/filters-editing-box-in-requests-planning-tab.png)
+1. （可选）单击&#x200B;**筛选器**，然后开始为要查看的请求添加条件。
 
    您可以按以下字段进行筛选：
 
@@ -114,7 +106,7 @@ ht-degree: 3%
 
    您还可以按已添加到视图的任何自定义字段进行筛选。
 
-   您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的筛选器。
+   您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**加入的筛选器。
 在添加筛选条件时，将自动筛选请求列表。
 
 
