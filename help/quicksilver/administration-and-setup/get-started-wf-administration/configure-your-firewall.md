@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: d890d467dfdade676a5c93f061a5cbeda53556b6
+source-git-commit: 3c680b39685e650dd442adbb49e4091d558d1410
 workflow-type: tm+mt
-source-wordcount: '1609'
+source-wordcount: '1603'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >本页中介绍的过程仅适用于尚未载入Admin Console的组织。 如果贵组织已载入到Adobe Admin Console，则必须通过Adobe Admin Console执行此操作。
 >
->若要在贵组织已登记到Adobe Admin Console的情况下配置您的允许列表，请参阅[允许使用Adobe应用程序和服务的域](https://helpx.adobe.com/cn/enterprise/kb/network-endpoints.html)。
+>若要在贵组织已登记到Adobe Admin Console的情况下配置您的允许列表，请参阅[允许使用Adobe应用程序和服务的域](https://helpx.adobe.com/enterprise/kb/network-endpoints.html)。
 >
 >有关因贵组织是否已登记到Adobe Admin Console而不同的过程列表，请参阅[基于平台的管理差异(Adobe Workfront/Adobe业务平台)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
@@ -124,13 +124,16 @@ ht-degree: 0%
      <li>35.161.82.137</li> 
      <li>52.14.70.114</li> 
      <li>52.15.230.220</li> 
-     <li>54.71.252.65</li> 
-    </ul> <p>有关以下IP地址的信息，请参阅<a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md" class="MCXref xref">Adobe Workfront 21.1版本的电子邮件新IP地址</a></p> 
-    <ul> 
+     <li>54.71.252.65</li>
      <li>23.251.237.107</li> 
      <li>23.251.237.108</li> 
      <li>23.251.237.109</li> 
      <li>23.251.237.106</li> 
+     <li>206.55.149.212</li>
+     <li>206.55.149.214</li>
+     <li>206.55.149.215</li>
+     <li>206.55.149.213</li>
+     <li>206.55.149.211</li>
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -161,11 +164,10 @@ ht-degree: 0%
 * 34.242.62.80/32
 * 46.51.194.192/32
 * 54.229.129.66/32
-
-有关以下IP地址的信息，请参阅[Adobe Workfront 21.1版本的电子邮件新IP地址](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
-
 * 23.251.239.98
 * 23.251.239.99
+* 24.110.76.224
+* 24.110.76.223
 
 ### 允许群集6的IP地址 {#ip-addresses-to-allow-for-cluster-6}
 
@@ -187,6 +189,11 @@ ht-degree: 0%
      <li>34.66.82.65</li> 
      <li>34.66.82.66</li> 
      <li>34.66.82.67</li> 
+    <li>206.55.149.212</li>
+   <li>206.55.149.214</li>
+   <li>206.55.149.215</li>
+   <li>206.55.149.213</li>
+   <li>206.55.149.211</li>
     </ul> </td> 
   </tr> 
   <tr> 
@@ -220,6 +227,13 @@ ht-degree: 0%
 * 20.36.133.48/28
 * 20.81.156.240/28
 * 172.172.84.48/28
+
+### 允许群集11使用的IP地址
+
+要从群集11上的Workfront应用程序接收电子邮件，请添加以下IP地址：
+
+* 24.110.76.224
+* 24.110.76.223
 
 ### 用于允许测试驱动器的IP地址
 
