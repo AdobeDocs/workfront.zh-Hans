@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1847'
-ht-degree: 4%
+source-wordcount: '1776'
+ht-degree: 5%
 
 ---
 
 # 管理日历视图
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -26,7 +26,7 @@ ht-degree: 4%
 
 有关Adobe Workfront Planning视图以及如何管理这些视图的信息，请参阅[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)。
 
-## 访问要求
+## 访问权限要求
 
 +++ 展开以查看本文中各项功能的访问要求。 
 
@@ -40,7 +40,7 @@ ht-degree: 4%
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront包</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
 <p>任何Workfront和任何Planning包</p>
 <p>任何工作流和任何计划包</p>
@@ -221,7 +221,7 @@ ht-degree: 4%
 1. 选择一个日历视图，然后单击日历工具栏中的&#x200B;**筛选器**。
 1. 单击&#x200B;**添加条件**&#x200B;并添加以下信息：
 
-   * **选择一个字段**&#x200B;到<span class="preview">搜索一个字段，或者</span>单击下拉菜单以显示字段列表并从列表中选择它
+   * **选择字段**&#x200B;以搜索字段并从列表中选择它
 
    * **选择一个选项**（或筛选器修饰符）以定义字段必须满足哪种条件
 

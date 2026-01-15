@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1465'
 ht-degree: 1%
 
 ---
@@ -16,13 +16,11 @@ ht-degree: 1%
 
 <!-- take the Remove permissions section out, at the end - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
 
-<!--keep global record types in yellow till Jan 2026-->
-
 # 共享记录类型
 
-<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -183,16 +181,11 @@ ht-degree: 1%
 * 您无法与Workfront之外的用户从外部共享记录类型。
 * 要向没有工作区权限高于查看权限的用户授予记录类型的权限，您必须首先以高于查看的权限与他们共享工作区。 工作区的较高权限随后将应用于记录类型。
 
-<div class="preview">
-
-* 共享全局记录类型时存在以下情况：
-
-   * 您可以从原始工作区共享全局记录类型。
-   * 将全局记录类型添加到辅助工作区后，就无法共享这些类型。
+* 您可以从添加全局记录类型的原始工作区和其他辅助工作区共享该全局记录类型。
 
   有关信息，请参阅[跨工作区记录类型概述](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)。
 
-</div>
+
 
 ## 共享记录类型的权限
 

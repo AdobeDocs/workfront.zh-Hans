@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '3968'
+source-wordcount: '3912'
 ht-degree: 2%
 
 ---
 
 # 管理时间线视图
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -26,7 +26,7 @@ ht-degree: 2%
 
 有关记录视图的信息，请参阅[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)。
 
-## 访问要求
+## 访问权限要求
 
 +++ 展开以查看本文中各项功能的访问要求。 
 
@@ -40,7 +40,7 @@ ht-degree: 2%
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront包</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
 <p>任何Workfront和任何Planning包</p>
 
@@ -190,7 +190,7 @@ ht-degree: 2%
    >在“设置”区域中设置自定义季度后，时间线视图显示自定义季度，而不是传统季度。
    >有关信息，请参阅[启用自定义季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
-1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”**&#x200B;**，然后要求您的Workfront管理员设置自定义季度。
+1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”****，然后要求您的Workfront管理员设置自定义季度。
 
    >[!TIP]
    >
@@ -282,9 +282,9 @@ ht-degree: 2%
 1. 选择一个时间线视图，然后单击表右上角的&#x200B;**筛选器**。
 1. 单击&#x200B;**添加条件**&#x200B;并添加以下信息：
 
-   * **选择一个字段**&#x200B;至<span class="preview">搜索一个字段或</span>单击下拉菜单以显示一个字段列表并从列表中选择它
+   * **选择一个字段**&#x200B;以搜索某个字段，或从列表中选择该字段。
 
-   * **选择一个选项**（或筛选器修饰符）以定义字段必须满足哪种条件
+   * **选择选项**（或筛选器修饰符）以定义字段必须满足的条件类型。
 
      下表显示了每种字段类型的可用修饰符。
 
@@ -548,6 +548,8 @@ this is not possible right now; if this is the same functionality as the table v
 使用“划分”功能，可以在记录的时间线视图中显示连接的记录。 按连接划分记录允许您查看其他连接记录的时间表，并了解它们可能会如何影响记录的性能和截止日期。
 
 #### 使用划分功能时的注意事项
+
+按连接的记录类型划分记录的时间线时，请考虑以下事项：
 
 * 可以在时间轴视图的选定记录类型的记录下显示连接的记录或对象。
 * 仅当在“标准”模式下查看记录时，才可以在时间轴视图中显示连接的记录。 在时间轴视图的紧凑模式下，不能使用划分选项。

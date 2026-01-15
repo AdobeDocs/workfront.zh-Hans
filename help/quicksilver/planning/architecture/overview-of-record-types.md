@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 记录类型概述
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -45,13 +45,19 @@ Workfront Planning对象类型称为“记录类型”，它们仅在用户创�
    * **操作记录类型**：表示战略计划、计划或计划工作的记录类型。 例如， Campaign 、 Activity 、 Tactics 、 Opportunity都是操作记录类型。
    * **分类**：捕获有关操作记录类型的属性的记录类型。 例如，区域、地址、受众是分类。
 
-  可重命名或删除这些截面或创建更多截面。
+  可重命名或删除截面和记录类型，或创建更多类型。
 
 * 在自头创建的工作区中创建记录类型时，可以将记录类型放置到工作区中创建的任何部分中。
-* 在创建记录类型时，只有您和您授予工作区访问权限的用户才能查看记录类型。
+* 在创建记录类型时，只有您和您授予访问工作区以及记录类型访问权限的人才能访问它。
 * 必须先创建工作区，然后才能为工作区创建记录类型。
-* 有关在一个工作区或Workfront实例中可以有多少记录类型的限制，请参阅[Adobe Workfront Planning对象限制概述](/help/quicksilver/planning/general/limitations-overview.md)。
-* <span class="preview">您可以将记录类型指定为全局记录类型。 全局记录类型可以作为现有记录类型添加到其他工作区。 有关详细信息，请参阅[ConfConfigure记录typesigure](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)的跨工作区功能。</span>
+
+  有关在一个工作区或Workfront实例中可以有多少记录类型的限制，请参阅[Adobe Workfront Planning对象限制概述](/help/quicksilver/planning/general/limitations-overview.md)。
+* 要在多个工作区中使用记录类型，可以将记录类型指定为全局或可连接。
+
+   * 全局记录类型可以作为现有记录类型添加到其他工作区。
+   * 可连接的记录类型可以从其他工作区连接到。
+
+  有关详细信息，请参阅[为记录类型配置跨工作区功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。
 
 
 <!--

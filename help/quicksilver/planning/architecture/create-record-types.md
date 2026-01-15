@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1199'
+source-wordcount: '1136'
 ht-degree: 2%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 2%
 
 # 创建记录类型
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -55,7 +55,6 @@ ht-degree: 2%
 或
 <li><p>任何工作流和计划Prime或Ultimate包</p></li></ul>
 
-<div class="preview">
 <p>要配置全局记录类型，请执行以下操作：</p>
 
 <ul> 
@@ -64,8 +63,7 @@ ht-degree: 2%
 <li><p>任何工作流和计划Prime或Ultimate包</p></li></ul>
 <p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p>
 
-</div>
-   </td> </tr>
+</td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
    <td><p>标准</p>
@@ -163,8 +161,8 @@ ht-degree: 2%
 
         本文介绍了如何从头开始创建记录类型。
 
-      * <span class="preview">通过从另一个工作区添加它们</span>
-        <span class="preview">有关信息，请参阅[从另一个工作区添加现有记录类型](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)。</span>
+      * 通过从另一个工作区添加它们
+有关信息，请参阅[从另一个工作区添加现有记录类型](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)。
 
 
 * 您可以在分区内移动记录类型，也可以在工作区的一个分区之间移动记录类型。 不能将记录类型从一个工作区移动到另一个工作区。
@@ -208,9 +206,9 @@ ht-degree: 2%
       * 选择用于标识新记录类型的颜色。 这是记录类型图标的颜色。 默认情况下选中“灰色”。
       * 从列表中选择一个图标，或在搜索字段中开始键入图标名称以描述其表示的内容，然后在显示时将其选定。 这是记录类型的图标。 默认情况下，会选择一个文件图标。
 
-1. （可选且有条件）如果您是系统管理员，请单击&#x200B;**高级设置** <span class="preview">或&#x200B;**跨工作区设置**</span>&#x200B;选项卡并<span class="preview">更新有关记录类型的跨工作区功能的信息。
+1. （可选且有条件）如果您是系统管理员，请单击&#x200B;**跨工作区设置**&#x200B;选项卡并更新有关记录类型的跨工作区功能的信息。
 
-   ![使用高级设置选项卡编辑记录类型框](assets/edit-record-type-box-advanced-settings-tab.png) </span>
+   ![使用跨工作区设置选项卡编辑记录类型框](assets/edit-record-type-box-advanced-settings-tab.png) </span>
 
    有关详细信息，请参阅[为记录类型配置跨工作区功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。
 
@@ -223,9 +221,9 @@ ht-degree: 2%
 
    如果选择从其他工作区连接此记录，则记录卡上会显示&#x200B;**可连接的记录**&#x200B;图标![从其他工作区连接图标](assets/connect-from-other-workspaces-icon.png)。
 
-   <span class="preview">如果您选择允许将此记录添加到其他工作区，则记录卡上会显示&#x200B;**全局记录**&#x200B;图标![全局记录类型图标](assets/global-icon.png)。</span>
+   如果您选择允许将此记录添加到其他工作区，则记录卡上会显示&#x200B;**全局记录**&#x200B;图标![全局记录类型图标](assets/global-icon.png)。
 
-1. （可选）将鼠标悬停在记录类型卡片上，单击右上角的&#x200B;**更多**&#x200B;图标![更多菜单](assets/more-menu.png)，然后单击&#x200B;**编辑**&#x200B;或&#x200B;<span class="preview">**设置**</span>&#x200B;以修改有关记录类型的信息。
+1. （可选）将鼠标悬停在记录类型卡片上，单击右上角的&#x200B;**更多**&#x200B;图标![更多菜单](assets/more-menu.png)，然后单击&#x200B;**编辑**&#x200B;或&#x200B;**设置**&#x200B;以修改有关记录类型的信息。
 
    有关信息，请参阅[编辑记录类型](/help/quicksilver/planning/architecture/edit-record-types.md)。
 
@@ -277,12 +275,8 @@ ht-degree: 2%
 
 有关详细信息，请参阅[通过从CSV或Excel文件导入信息来创建记录类型](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md)。
 
-<div class="preview">
-
 ## 通过从其他工作区添加现有记录类型来创建记录类型
 
 通过从另一个工作区添加现有记录类型，可以将记录类型添加到工作区。 您只能添加已配置为全局记录类型的记录类型。
 
 有关信息，请参阅[从另一个工作区添加现有记录类型](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)。
-
-</div>

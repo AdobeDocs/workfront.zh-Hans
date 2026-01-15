@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '2940'
+source-wordcount: '2899'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,9 @@ ht-degree: 0%
 
 # 编辑记录
 
-<!--keep the choice values information in yellow till Jan 2026-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
-
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -141,15 +139,21 @@ ht-degree: 0%
 * 以下类型的字段会自动更新，您无法手动编辑其值：
    * 来自其他记录的链接字段
    * 公式类型字段
-   * 系统字段（“创建者”、“创建日期”、“上次修改者”、“上次修改日期”）
+   * 系统字段（“创建者”、“创建日期”、“上次修改者”、“上次修改日期”、“批准日期”、“批准者”）
 * 如果显示的记录链接到其他记录，则您正在编辑的记录的新信息将反映在链接该记录的所有工作区中的链接记录上。
 * 不能批量编辑记录。<!--this will probably change-->
 * 只有当URL以以下内容开头时，才会被识别为单行文本字段类型中的链接： http://、https://、ftp://或www。.
-* 您可以向每张记录添加封面图像。 每个记录的图像都是唯一的，并且不适用于同一时间的所有记录。
-* 您可以编辑记录页中的字段顺序并为记录添加封面图像。 有关详细信息，请参阅[管理记录页布局](/help/quicksilver/planning/records/manage-the-record-page.md)。
+* 您可以向每张记录添加封面图像。 每个记录的图像都是唯一的，并且不适用于同一时间的所有记录。 有关信息，请参阅[将封面图像添加到记录](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)。
+* 您可以在记录的详细信息页面中编辑字段的顺序。 有关详细信息，请参阅[管理记录页布局](/help/quicksilver/planning/records/manage-the-record-page.md)。
 * 通过调整时间轴和日历视图中的记录大小或重新定位这些记录，可以编辑记录的开始日期和结束日期。
 
-  当为记录选择的开始日期和结束日期为只读时，不能调整记录大小或重新定位记录。 例如，对记录的开始日期和结束日期使用查找或公式字段不允许您在时间轴和日历视图中调整记录大小或重新定位记录。<!--this also repeats below, for the timeline and the calendar views; also update there, if this changes-->
+  当为记录选择的开始日期和结束日期为只读时，不能调整记录大小或重新定位记录。 例如，在对记录的开始日期和结束日期使用查找或公式字段时，无法在时间轴和日历视图中调整记录大小或重新定位记录。<!--this also repeats below, for the timeline and the calendar views; also update there, if this changes-->
+
+  要编辑记录的日期，请参阅本文中的以下部分之一：
+
+   * [在记录类型的日历视图中编辑记录](#edit-a-record-in-the-calendar-view-of-a-record-type)
+   * [在记录类型的时间线视图中编辑记录](#edit-a-record-in-the-timeline-view-of-a-record-type)
+
 
 ## 编辑记录
 
@@ -161,10 +165,6 @@ ht-degree: 0%
 * [在视图中预览记录](#edit-a-record-from-the-records-preview-in-a-view)
 * [记录的页面](#edit-a-record-from-the-records-page)
 * [“规划”部分中的Workfront对象](#edit-a-record-from-a-workfront-object-in-the-planning-section)
-
-要编辑记录的日期，请执行以下操作：
-
-* [调整时间轴和日历视图中记录栏的大小]
 
 ### 在记录类型的表视图中编辑内联记录
 
@@ -271,15 +271,13 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >如果为记录选择的开始日期和结束日期为只读，则不能拖放记录栏的结尾，也不能将记录拖放到另一个日期。 例如，对记录的开始日期和结束日期使用查找或公式字段不允许您在时间线视图中调整记录大小或重新定位记录。<!--this also repeats in Considerations and in editing in the calendar view; also update there, if this changes-->
+   >如果为记录选择的开始日期和结束日期为只读，则不能拖放记录栏的结尾，也不能将记录拖放到另一个日期。 例如，在对记录的开始日期和结束日期使用查找或公式字段时，不能在时间轴视图中调整记录大小或重新定位记录。<!--this also repeats in Considerations and in editing in the calendar view; also update there, if this changes-->
 
 1. 单击记录栏以打开其详细信息区域并编辑所有字段。
 
    有关信息，请参阅本文中[在视图](#edit-a-record-from-the-records-preview-in-a-view)中编辑记录预览中的记录。
 
 ### 在记录类型的日历视图中编辑记录
-
-<!--add another step about drag and drop here when that is available-->
 
 1. 在日历视图中打开记录类型页面。 有关信息，请参阅[管理日历视图](/help/quicksilver/planning/views/manage-the-calendar-view.md)。
 1. （视情况而定）将鼠标悬停在日历视图中记录栏的末尾上，然后单击，将其边距拖放到其他日期。 这会自动更新记录的开始日期或结束日期。
@@ -290,7 +288,7 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >如果为记录选择的开始日期和结束日期为只读，则不能拖放记录栏的结尾，也不能将记录拖放到另一个日期。 例如，对记录的开始日期和结束日期使用查找或公式字段不允许您在日历视图中调整记录大小或重新定位记录。<!--this also repeats in Considerations and in editing in the timeline view; also update there, if this changes-->
+   >如果为记录选择的开始日期和结束日期为只读，则不能拖放记录栏的结尾，也不能将记录拖放到另一个日期。 例如，在对记录的开始日期和结束日期使用查找或公式字段时，不能在日历视图中调整记录大小或重新定位记录。<!--this also repeats in Considerations and in editing in the timeline view; also update there, if this changes-->
 
 1. 单击记录栏以打开其详细信息区域并编辑所有字段。
 
@@ -444,5 +442,5 @@ ht-degree: 0%
 
    新选项会立即添加到单选字段中。
 
-   <span class="preview">每个选择中还新增了一个选择值。 您可以在API调用或其他集成中使用选择值。 有关信息，请参阅[创建字段](/help/quicksilver/planning/fields/create-fields.md)。</span>
+   此外，还会为每个选择添加一个新的选择值。 您可以在API调用或其他集成中使用选择值。 有关信息，请参阅[创建字段](/help/quicksilver/planning/fields/create-fields.md)。
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1075'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 # 删除记录类型
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -52,12 +52,12 @@ ht-degree: 1%
 <li><p>任何Workfront和任何Planning包</p></li>
 或
 <li><p>任何工作流和任何计划包</p></li></ul>
-<div class="preview">
+
 <p>要删除全局记录类型，请执行以下操作：</p>
 <ul><li><p>任何Workfront包和Planning Plus包</p></li>
 或
 <li><p>任何工作流和计划Prime或Ultimate包</p></li></ul>
-</div>
+
 <p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
    </td> 
   <tr> 
@@ -150,13 +150,9 @@ ht-degree: 1%
 * 无法恢复已删除的记录类型或其信息。
 * 我们建议在删除字段和记录之前，在其他记录类型上重新创建与要删除的记录类型关联的它们。
 
-<div class="preview">
-
 * 您无法删除已添加到其他工作区的全局记录类型。
 
   有关详细信息，请参阅本文中的[删除全局记录类型](#delete-global-record-types)部分。
-
-</div>
 
 ## 删除记录类型
 
@@ -174,14 +170,16 @@ ht-degree: 1%
    * 将鼠标悬停在记录类型卡片上，单击&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**删除**。
    * 单击要删除的记录类型的卡片，然后在记录类型页面中，单击记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击&#x200B;**删除**。
 
-   ![永久删除记录类型确认](assets/permanently-delete-record-type-confirmation.png)
+     >[!TIP]
+     >
+     >无法从从记录类型页面添加的辅助工作区中删除全局记录类型。 您只能从工作区中的记录类型卡中删除它。
+
+     ![永久删除记录类型确认](assets/permanently-delete-record-type-confirmation.png)
 
 
 1. 在确认框中键入&#x200B;**删除**，然后单击&#x200B;**永久删除**。 不区分大小写。
 
    所选的记录类型及其字段、关联的记录和视图将被删除并且无法恢复。
-
-<div class="preview">
 
 ## 删除全局记录类型
 
@@ -189,11 +187,13 @@ ht-degree: 1%
 
 * 如果配置为全局的记录类型尚未添加到另一个工作区，则可以从其原始工作区中删除它。
 
-* 如果配置为全局记录类型的记录类型已添加到至少一个其他工作区，则不能将其从原始工作区中删除。 首先，必须从添加全局记录类型的辅助工作区中删除（通过删除）全局记录类型，然后才能从其原始工作区中永久删除全局记录类型。
+* 如果配置为全局记录类型的记录类型已添加到至少一个其他工作区，则不能将其从原始工作区中删除。 首先，必须从添加全局记录类型的辅助工作区中删除（通过删除）该全局记录类型，然后才能从该全局记录类型的原始工作区中永久删除该全局记录类型。
 
 ### 从原始工作区中删除全局记录类型
 
 如果记录类型不再相关，您可以将其从原始工作区中删除。
+
+所有记录和字段也被删除，无法恢复。
 
 1. 转到其原始工作区中的全局记录类型。
 
@@ -209,7 +209,7 @@ ht-degree: 1%
    出现以下情况：
 
    * 全局记录类型将从原始工作区中删除，并且无法恢复该记录类型、其记录和字段。
-   * 辅助工作区中的所有全局记录类型及其记录也将被删除。
+   * 辅助工作区中的所有全局记录及其记录也将从此工作区中删除。
 
 ### 从辅助工作区中删除全局记录类型
 
@@ -217,11 +217,13 @@ ht-degree: 1%
 
 请考虑以下事项：
 
-* 从辅助工作区中删除全局记录类型只会将其从辅助工作区中删除。 记录类型仍保留在原始工作区中。
+* 从辅助工作区中删除全局记录类型时，该记录类型将保留在原始工作区中。
 
 * 从辅助工作区中删除全局记录类型时，也会删除以下内容：
 
-   * 从辅助工作区添加的记录。
+   * 从辅助工作区中添加的记录将从辅助工作区中删除，并且无法恢复。
+
+     在辅助工作区中添加的记录保留在全局记录类型的主工作区中。 全局记录类型主工作区中这些记录的&#x200B;**Workspace**&#x200B;字段为空。<!--checking on this with Lilit-->
 
   <!--Coming later: * The fields added from the secondary workspace.-->
 
@@ -233,16 +235,16 @@ ht-degree: 1%
 
 1. 转到辅助工作区中的全局记录类型。
 
-1. （可选）单击记录类型卡片上的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，或记录类型名称页面右侧，然后单击&#x200B;**删除**。
+1. （可选）单击记录类型卡上的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**删除**。
 1. （视情况而定）在提供的字段中键入&#x200B;**删除**，然后单击&#x200B;**永久删除**。
 
    ![删除辅助全局记录类型确认框](assets/delete-secondary-global-record-type.png)
 
    出现以下情况：
 
-   * 从所选工作区中删除从全局记录类型创建的记录类型。
+   * 从选定的辅助工作区中删除从全局记录类型创建的记录类型。
    * 原始记录类型及其字段保留在其原始工作区中。
    * 记录类型将保留在添加该记录的所有其他工作区中。
-   * 删除从当前工作区添加到记录类型的记录<!--and fields-->。 从添加全局记录类型的附加工作区中添加的所有其他记录将保留在各自的工作区和原始工作区中。 &lt;！ — 字段保留在添加它们的工作区中。
+   * 从辅助工作区添加到记录类型的记录<!--and fields-->将被删除。 从添加全局记录类型的附加工作区中添加的所有其他记录将保留在各自的工作区和原始工作区中。 &lt;！ — 字段保留在添加它们的工作区中。
 
-</div>
+

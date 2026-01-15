@@ -6,9 +6,9 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 author: Alina
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '584'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 # 删除字段
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -50,10 +50,10 @@ ht-degree: 1%
 或
 <li><p>任何工作流和任何计划包</p></li></ul>
 
-<p><span class="preview">要从全局记录类型中删除字段，请执行以下操作：</span></p>
-<ul><li><p><span class="preview">任何Workfront包和Planning Plus包</span></p></li>
+<p>要从全局记录类型中删除字段，请执行以下操作：</p>
+<ul><li><p>任何Workfront包和Planning Plus包</p></li>
 或
-<li><p><span class="preview">任何工作流和计划Prime和Ultimate包</span></p></li></ul>
+<li><p>任何工作流和计划Prime和Ultimate包</p></li></ul>
 
 <p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
    </td> 
@@ -149,7 +149,7 @@ ht-degree: 1%
 
 <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
-* <span class="preview">您无法从全局记录中删除从辅助工作区添加到辅助工作区的字段。</span>
+* 不能从全局记录中删除已从辅助工作区添加到辅助工作区的字段。
 
 ## 删除字段
 
@@ -184,4 +184,4 @@ ht-degree: 1%
    * 如果删除属于所选记录的字段，则该字段会被删除，并且无法再与任何记录相关联。 如果此字段作为查找字段添加到其他记录中，则这些字段也会被删除。
    * 如果删除连接字段，则该字段将从您选择的记录中删除。 此外，其原始记录中的对应连接字段也被删除。
    * 如果删除从已连接记录中添加的查找字段，则该字段将从您选择的记录类型中删除，但它将保留在其原始记录类型中。
-   * <span class="preview">如果从全局记录类型的主工作区中删除字段，则该字段会从已添加该记录类型的所有工作区中删除。 无法从全局记录类型的辅助工作区中删除字段。</span>
+   * 如果从全局记录类型的主工作区中删除字段，则该字段会从已添加该记录类型的所有工作区中删除。 不能从全局记录类型的辅助工作区中删除字段。

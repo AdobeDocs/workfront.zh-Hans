@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '375'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 2%
 
 # 删除工作区
 
-<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -137,9 +137,7 @@ ht-degree: 2%
 1. （视情况而定）如果您是Workfront管理员，请单击以下任一项：
 
    * **我所在的工作区**，用于访问您创建的工作区
-   * **其他工作区**&#x200B;访问与您共享的其他工作区
-或
-     <span class="preview">**所有工作区**&#x200B;用于访问与您共享的工作区或您创建的工作区</span>
+   * **所有工作区**，用于访问与您共享的工作区或您创建的工作区
 
 1. （可选）单击&#x200B;**显示全部**&#x200B;以显示其他工作区。 仅当您拥有两行以上的工作区信息卡时，才会显示&#x200B;**显示所有**&#x200B;链接。
 1. （可选） ClicK **显示更少**&#x200B;以限制屏幕上显示的工作区数。
@@ -147,7 +145,7 @@ ht-degree: 2%
 
    * 将鼠标悬停在工作区信息卡上，然后单击该信息卡右上角的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)
 或
-   * <span class="preview">单击“工作区”页面右上角的&#x200B;**搜索**&#x200B;图标![搜索图标](assets/search-icon.png)以按名称搜索工作区</span>，单击工作区卡以打开工作区，然后单击工作区名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)。
+   * 单击“工作区”页面右上角的&#x200B;**搜索**&#x200B;图标![搜索图标](assets/search-icon.png)可按名称搜索工作区，单击工作区卡可打开工作区，然后单击工作区名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)。
 1. 单击&#x200B;**删除**。
 
    ![永久删除工作区确认](assets/permanently-delete-workspace-confirmation.png)

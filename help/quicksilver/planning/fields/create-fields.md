@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '5487'
+source-wordcount: '5427'
 ht-degree: 1%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=zh-Hans ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -24,9 +24,9 @@ ht-degree: 1%
 
 <!--information about choice values must stay in yellow till Jan 2026-->
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -327,20 +327,20 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 
    新的多选字段作为列添加到记录类型，其值可以与记录相关联。
 
-1. <span class="preview">（可选）将鼠标悬停在表视图中的字段名称上，单击字段名称右侧的下拉菜单，然后单击&#x200B;**编辑字段**。</span>
-1. <span class="preview">打开&#x200B;**显示值**&#x200B;设置以显示每个选择的值。 值是每个选项的名称，如它们在Workfront数据库中显示的那样。</span>
+1. （可选）将鼠标悬停在表视图中的字段名称上，单击字段名称右侧的下拉菜单，然后单击&#x200B;**编辑字段**。
+1. 打开&#x200B;**显示值**&#x200B;设置以显示每个选择的值。 值是每个选项的名称，如它们在Workfront数据库中显示的那样。
 
    >[!NOTE]
    >
-   >* <span class="preview">Workfront为每个选择分配唯一值。</span>
+   >* Workfront会为每个选择分配唯一值。
    >
-   >* <span class="preview">值以小写格式匹配选项名称。 多个单词用下划线分隔。</span>
+   >* 值以小写格式匹配选项名称。 多个单词用下划线分隔。
    >
-   >* <span class="preview">值可以在多个字段之间重复，但是它们对于一个字段必须是唯一的。</span>
+   >* 多个字段之间的值可以重复，但一个字段的值必须是唯一的。
    >
-   ><span class="preview"> ![显示值切换](assets/show-values-toggle-and-choices-with-values.png)</span>
+   > ![显示值切换](assets/show-values-toggle-and-choices-with-values.png)
 
-1. <span class="preview">（可选）在API调用和其他集成中使用选项值。</span>
+1. （可选）在API调用和其他集成中使用选项值。
 
 ### 单选 {#single-select}
 
@@ -375,20 +375,20 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 
    新的单选字段作为列添加到记录类型，其值可以与记录相关联。
 
-1. <span class="preview">（可选）将鼠标悬停在表视图中的字段名称上，单击字段名称右侧的下拉菜单，然后单击&#x200B;**编辑字段**。</span>
-1. <span class="preview">打开&#x200B;**显示值**&#x200B;设置以显示每个选择的值。 值是每个选项的名称，如它们在Workfront数据库中显示的那样。</span>
+1. （可选）将鼠标悬停在表视图中的字段名称上，单击字段名称右侧的下拉菜单，然后单击&#x200B;**编辑字段**。
+1. 打开&#x200B;**显示值**&#x200B;设置以显示每个选择的值。 值是每个选项的名称，如它们在Workfront数据库中显示的那样。
 
    >[!NOTE]
    >
-   >* <span class="preview">Workfront为每个选择分配唯一值。</span>
+   >* Workfront会为每个选择分配唯一值。
    >
-   >* <span class="preview">值以小写格式匹配选项名称。 多个单词用下划线分隔。</span>
+   >* 值以小写格式匹配选项名称。 多个单词用下划线分隔。
    >
-   >* <span class="preview">值可以在多个字段之间重复，但是它们对于一个字段必须是唯一的。</span>
+   >* 多个字段之间的值可以重复，但一个字段的值必须是唯一的。
    >
-   ><span class="preview"> ![显示值切换](assets/show-values-toggle-and-choices-with-values.png)</span>
+   > ![显示值切换](assets/show-values-toggle-and-choices-with-values.png)
 
-1. <span class="preview">（可选）在API调用和其他集成中使用选项值。</span>
+1. （可选）在API调用和其他集成中使用选项值。
 
 ### 日期 {#date}
 

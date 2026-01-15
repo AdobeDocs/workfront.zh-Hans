@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '3500'
+source-wordcount: '3418'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 2%
 # 管理表视图
 
 
-<span class="preview">此页面上突出显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 有关将表视图导出为Excel或CSV文件的信息，请参阅[从表视图导出记录](/help/quicksilver/planning/records/export-records-from-the-table-view.md)。
 
-## 访问要求
+## 访问权限要求
 
 +++ 展开以查看本文中各项功能的访问要求。 
 
@@ -47,7 +47,7 @@ ht-degree: 2%
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront包</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
 <p>任何Workfront和任何Planning包</p>
 <p>任何工作流和任何计划包</p>
@@ -191,7 +191,7 @@ ht-degree: 2%
 
    您添加的列对访问记录类型的所有用户都可见，并且作为新字段添加到记录的页面上。
 
-1. （可选）单击工具栏中的&#x200B;**字段**&#x200B;图标![字段图标](assets/fields-icon.png)，在列表中查找该字段或<span class="preview">搜索字段</span>，然后取消选择字段名称右侧的切换以隐藏该字段。
+1. （可选）单击工具栏中的&#x200B;**字段**&#x200B;图标![字段图标](assets/fields-icon.png)，搜索字段，然后取消选择字段名称右侧的切换以隐藏该字段。
 
 1. 执行以下操作之一以重新排序表中的列：
 
@@ -311,7 +311,7 @@ ht-degree: 2%
 1. 选择一个表视图，然后单击该表右上角的&#x200B;**筛选器**。
 1. 单击&#x200B;**添加条件**&#x200B;并添加以下信息：
 
-   * <span class="preview">搜索字段或</span>单击下拉菜单以显示字段列表并从列表中选择它。
+   * 搜索字段，并在字段在列表中显示时将其选定。
 
    * **选择一个选项**（或筛选器修饰符）以定义字段必须满足哪种条件
 
@@ -542,7 +542,7 @@ To sort grouped records:
 
 1. （可选）单击&#x200B;**行颜色**&#x200B;以定义条件并选择为表行配置不同的颜色。
 
-1. 单击&#x200B;**添加颜色**，然后<span class="preview">搜索字段，或者</span>单击下拉菜单以显示字段列表并从列表中选择它。 这是要确定其值的字段。
+1. 单击&#x200B;**添加颜色**，然后搜索某个字段，并在该字段显示在列表中时将其选定。 这是要确定其值的字段。
 
    例如，要以绿色显示状态为“活动”的促销活动，请选择&#x200B;**状态**，然后为字段选择修饰符和值。
 

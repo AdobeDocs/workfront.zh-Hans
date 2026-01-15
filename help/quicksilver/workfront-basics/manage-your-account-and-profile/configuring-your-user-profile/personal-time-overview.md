@@ -7,7 +7,7 @@ description: 在Adobe Workfront中指明何时发生批准的休息时间非常�
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 0e37a5a519770d3d48192f1799491aa53a871508
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 4%
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 <!-- Audited: 12/2025 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment, and is being released in a phased rollout to Production.</span>-->
 
 [!DNL Adobe Workfront]的设计目的不是复制或替换现有系统，用于管理、应计和跟踪个人休息时间。
 

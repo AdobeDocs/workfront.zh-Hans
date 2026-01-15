@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1674'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 跨工作区记录类型概述
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span> -->
 
 {{planning-important-intro}}
 
@@ -37,27 +37,24 @@ ht-degree: 0%
 >
 >* 任何工作流和计划Prime或Ultimate包
 >
-><span class="preview">要配置全局记录类型：</span>
+>要配置全局记录类型，请执行以下操作：
 >
->* <span class="preview">任何Workfront包和Planning Plus包</span>
+>* 任何Workfront包和Planning Plus包
 >     
 >   或
 >
->* <span class="preview">任何工作流和计划Prime或Ultimate包</span>
+>* 任何工作流和计划Prime或Ultimate包
 >
 >有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。
 >有关信息，请参阅[Adobe Workfront计划访问概述](/help/quicksilver/planning/access/access-overview.md)。
 
-
 以下是记录类型的跨工作区功能：
 
-* <span class="preview">**全局记录类型**：用户可以将全局记录类型添加到其管理的其他工作区。</span>
+* **全局记录类型**：用户可以将全局记录类型添加到其管理的其他工作区。
 
 * **可连接的记录类型**：用户可以从其他工作区连接到此记录类型。
 
 本文概述跨工作区记录类型。 有关定义记录类型的跨工作区功能的信息，请参阅[为记录类型配置跨工作区功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。
-
-<div class="preview">
 
 ## 全局记录类型概览
 
@@ -141,21 +138,22 @@ ht-degree: 0%
 
    * 删除它。
 
-     从辅助工作区中删除记录类型只会将其从辅助工作区中删除。 从辅助工作区添加到该工作区的记录和字段也会被删除。 这不会从其原始工作区或已添加记录类型的任何其他辅助工作区中删除该记录类型。
+     从辅助工作区中删除记录类型只会将其从辅助工作区中删除。 从辅助工作区添加到该工作区的记录和字段也会从辅助空间中删除。 在辅助空间中添加的记录将保留在主工作区中。 这不会从其原始工作区或已添加记录类型的任何其他辅助工作区中删除该记录类型。
 
      有关详细信息，请参阅[删除记录类型](/help/quicksilver/planning/architecture/delete-record-types.md)。
+
+   * 共享
+
+     通过在辅助工作区中共享全局记录类型，还会出现以下情况：
+
+      * 用户将添加到工作区，并具有“查看”权限。
+      * 用户将获得对辅助工作区中所有全局记录类型的相同权限。
    * 共享记录类型的视图。
 
      在辅助工作区中，不能通过全局记录类型公开共享视图。 您只能从辅助工作区内部共享视图。 您可以在原始工作区中为全局记录类型在内部和公开共享视图。
 
      有关信息，请参阅[共享视图](/help/quicksilver/planning/access/share-views.md)。
 
-<!--Uncomment this at prod on Jan 15: * Share it-->
-
-<!--You can share a global record type added to a secondary workspace from the secondary space. By sharing a global record type in a secondary workspace, the following also occur:
-
-    * Users are added to the workspace with View permissions.
-    * Users receive the same permissions to all the records of the global record type in the secondary workspace.-->
 
 <!--when they will be able to add fields to the secondary space, this bullet will need this extra information: 
     After adding fields to the global record type in the secondary workspace, shared views might not open for other users in workspaces. The fields exist only in the secondary workspace and they would not be visible in any other workspace. Only fields created in the primary workspace are visible in all secondary workspaces where there the record type is added.-->
@@ -171,7 +169,6 @@ ht-degree: 0%
    * 编辑它
 
      不能编辑其外观、跨工作区功能或从原始工作区添加的字段。
-   * 共享<!-- remove this at Prod on Jan 15-->
    * 创建和管理请求表单
    * 创建和管理自动化
 
@@ -192,6 +189,7 @@ ht-degree: 0%
    * 如果您对原始工作区具有“管理”权限，而对辅助工作区没有权限，则可以查看从原始工作区中的辅助工作区添加的记录，但无法从原始工作区管理这些记录。
    * 如果您对辅助工作区具有管理权限，则可以从全局记录类型的原始工作区以及添加这些记录的辅助工作区中管理记录。
    * 您只能在添加全局记录类型的附加辅助工作区中查看记录，但前提是您对这些工作区具有查看权限。<!-- take this bullet out when we change this functionality on Jan 15-->
+* 不能在辅助工作区中公开共享全局记录类型的视图。
 
 ### 访问全局记录类型的连接
 
@@ -206,8 +204,6 @@ ht-degree: 0%
 * 如果用户具有访问权限，则会在全局记录类型的原始工作区中创建记录。
 
 * 如果用户没有访问权限，则用户会收到一个错误，表明他们无权访问全局记录类型的原始工作区，并且他们需要提供他们有权创建记录的工作区ID。
-
-</div>
 
 ## 可连接记录类型概述
 

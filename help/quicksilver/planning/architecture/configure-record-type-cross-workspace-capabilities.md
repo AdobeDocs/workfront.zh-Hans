@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: '1314'
 ht-degree: 1%
 
 ---
@@ -22,15 +22,15 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-<span class="preview">此页面上突出显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 您可以在Adobe Workfront Planning中将记录类型配置为可在多个工作区中使用。
 
 可以将记录类型指定为下列类型之一：
 
-* <span class="preview">**全局记录类型**：用户可以将全局记录类型添加到他们可以管理的其他工作区。</span>
+* **全局记录类型**：用户可以将全局记录类型添加到其可以管理的其他工作区。
 * **可连接的记录类型**：用户可以从其他工作区连接到此记录类型。
 
 必须先定义记录类型的跨工作区功能，然后工作区管理员才能将其添加到其他工作区或从其他工作区连接该记录类型。
@@ -64,7 +64,7 @@ ht-degree: 1%
 或
 <li>任何工作流和计划Prime或Ultimate包</p></li></ul>
 
-<div class="preview">
+
 <p>要配置全局记录类型，请执行以下操作：</p>
 
 <ul> 
@@ -73,8 +73,7 @@ ht-degree: 1%
 <li><p>任何工作流和计划Prime或Ultimate包</p></li></ul>
 <p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p>
 
-</div> 
-   </td> 
+</td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
    <td><p>标准</p>
@@ -131,7 +130,6 @@ And
 </tbody> 
 </table> -->
 
-<div class="preview">
 
 ## 配置全局记录类型
 
@@ -154,7 +152,7 @@ And
    此时会打开工作区页面，并显示记录类型。
 1. 执行下列操作之一：
 
-   * 将鼠标悬停在记录类型的卡片上，然后单击记录类型卡片右上角的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)。<!--add new screen shot without Share for now-->
+   * 将鼠标悬停在记录类型的卡片上，然后单击记录类型卡片右上角的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)。
 
      ![记录类型卡片中的更多菜单选项](assets/more-menu-options-from-record-type-card.png)
 
@@ -163,7 +161,7 @@ And
 
    >[!TIP]
    >
-   >将记录类型添加到另一个工作区时，它将显示为该工作区中的全局记录类型。 在这种情况下，“编辑”和“设置”选项将灰显。
+   >将记录类型添加到另一个工作区时，它将显示为该工作区中的全局记录类型。 在这种情况下，将删除编辑和设置选项。
 
 1. （视情况而定）如果您单击&#x200B;**编辑**，请在&#x200B;**编辑记录类型**&#x200B;框中单击&#x200B;**跨工作区设置**&#x200B;选项卡
 
@@ -190,7 +188,7 @@ And
    >
    >必须至少指定一个实体（用户、团队、组、角色或公司）才能启用此设置。
 
-1. （视情况而定）在&#x200B;**编辑记录类型**&#x200B;框中单击&#x200B;**保存**，或者单击页眉中&#x200B;**设置**&#x200B;左侧的返回箭头以保存更改。
+1. （视情况而定）在&#x200B;**编辑记录类型**&#x200B;框中单击&#x200B;**保存**，或者单击页眉中&#x200B;**设置**&#x200B;部分左侧的返回箭头以保存更改。
 
    出现以下情况：
 
@@ -206,7 +204,13 @@ And
      Workspace字段显示从中创建每个记录的工作区。
 
      此字段为只读，无法删除。
+
+     >[!TIP]
+     >
+     >如果&#x200B;**Workspace**&#x200B;字段的字段值为空，则记录是从创建记录后已删除全局记录类型的辅助工作区创建的。
+
 1. （可选）转到另一个工作区并使用现有记录类型创建记录类型。 选择在上述步骤中启用的记录类型。
+
 
    有关信息，请参阅[从另一个工作区添加现有记录类型](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)。
 
@@ -217,59 +221,10 @@ And
    ![使用此记录类型的工作区](assets/workspaces-where-this-record-type-is-used.png)
 1. （可选）单击&#x200B;**工作区中列出的其中一个工作区的名称以打开该工作区，其中工作区使用此记录类型**。
 
-</div>
 
 ## 配置可连接的记录类型
 
 <!--this is a UI term; don't change the title of this section-->
-
-在创建或编辑记录类型时，可以配置要从其他工作区连接的记录类型。
-
-将记录类型配置为可连接会因您为配置选择的环境而异。
-
-### 在生产环境中配置可连接的记录类型
-
-{{step1-to-planning}}
-
-1. 单击要将其记录类型配置为可连接的工作区。
-
-   此时会打开工作区页面，并显示记录类型。
-1. 执行下列操作之一：
-
-   * 将鼠标悬停在记录类型的卡片上，然后单击记录类型卡片右上角的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)
-
-     ![记录类型卡片中的更多菜单选项](assets/more-menu-options-from-record-type-card.png)
-
-   * 单击记录类型卡以打开记录类型页面，然后单击记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击&#x200B;**编辑**。
-
-1. 单击&#x200B;**高级设置**&#x200B;选项卡。
-
-1. 启用&#x200B;**允许从其他工作区**&#x200B;设置连接到此记录类型。
-
-   ![启用从其他工作区连接的编辑记录高级设置选项卡](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)
-
-   启用后，记录类型将变为可连接，并可从其他工作区连接到。
-
-1. 选择可以访问记录类型的工作区。 从以下选项中进行选择：
-
-   <!--check names of the setting: System wide?? OR All workspaces??-->
-
-   * **系统范围**：用户可以从其拥有管理权限的所有工作区连接到此记录类型。
-   * **特定工作区**：从下拉菜单中，添加工作区管理员可以连接到此记录类型的工作区的名称。
-1. （视情况而定）在&#x200B;**编辑记录类型**&#x200B;框中单击&#x200B;**保存**&#x200B;以保存更改。
-
-   出现以下情况：
-
-   * 现在，记录类型及其字段可用于从指定的工作区连接到。
-   * 记录类型卡显示可连接的记录类型图标![可连接的记录类型图标](assets/connect-from-other-workspaces-icon.png)，以指示可从配置中指定的任何工作区连接到该记录类型。
-
-1. （可选）转到另一个工作区，并将连接添加到在上述步骤中为跨工作区连接性启用的记录类型。
-
-   有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
-
-<div class="preview">
-
-### 在预览环境中配置可连接记录类型
 
 {{step1-to-planning}}
 
@@ -314,7 +269,9 @@ And
 
    有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
-</div>
+
+
+
 
 
 
