@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: e95701bdce2388f7f2b249b1fbf5b27d0ded08af
+source-git-commit: 6dce5e15a41587cd9febf82ffc0a62d3b7e121d1
 workflow-type: tm+mt
 source-wordcount: '2506'
 ht-degree: 1%
@@ -16,8 +16,6 @@ ht-degree: 1%
 ---
 
 # 将计算字段添加到表单
-
-{{preview-fast-release-general}}
 
 <!-- Audited: 5/2025 -->
 
@@ -95,10 +93,6 @@ ht-degree: 1%
 
 1. 在左侧面板中，单击&#x200B;**自定义Forms**，然后单击&#x200B;**Forms**。
 
-   <!-- >[!TIP]
-    >
-    >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
-
 1. 单击&#x200B;**新建自定义表单**。
 
 1. 在&#x200B;**新建自定义表单**&#x200B;对话框中，选择要将自定义表单附加到的对象类型，然后单击&#x200B;**继续**。
@@ -108,9 +102,9 @@ ht-degree: 1%
 
 1. 使用搜索框或展开&#x200B;**计算的**&#x200B;分区以找到所需的计算字段，然后将字段拖动到要在自定义表单中显示的位置。
 
-1. <span class="preview">（视情况而定）单击&#x200B;**检查冲突**&#x200B;以查看所有可能受更改此计算字段上的公式影响的对象。</span>
+1. （视情况而定）单击&#x200B;**检查冲突**&#x200B;以查看所有可能受更改此计算字段上的公式影响的对象。
 
-   <span class="preview">如果将包含相同计算字段的两个或多个表单附加到对象，则所有表单上的公式必须相同。 如果更改可能导致冲突，则不允许编辑公式。</span>
+   如果将包含相同计算字段的两个或多个表单附加到对象，则所有表单上的公式必须相同。 如果更改可能导致冲突，则不允许编辑公式。
 
 1. （可选）重复上一步以添加任何其他字段。
 
@@ -138,10 +132,6 @@ ht-degree: 1%
 1. 在左侧面板中，单击&#x200B;**自定义Forms**，然后单击&#x200B;**Forms**。
 
 1. 单击&#x200B;**新建自定义表单**。
-
-   <!-- >[!TIP]
-    >
-    >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
 1. 在&#x200B;**新建自定义表单**&#x200B;对话框中，选择要将自定义表单附加到的对象类型，然后单击&#x200B;**继续**。
 
@@ -176,8 +166,8 @@ ht-degree: 1%
       <p><strong>注意</strong>：采用<strong>货币</strong>格式的计算字段不应包含引号。 （例如，使用800.00而不是“800.00”。） 由于货币类型的语言格式存在细微差异，使用引号可能会导致意外后果。</p></td>
      </tr> 
      <tr>
-      <td><span class="preview">活动</span></td>
-      <td><span class="preview"><p>此选项默认处于打开状态。<p><p>将字段设置为“不活动”时，该字段将从报表、筛选器和视图中排除，并且在自定义表单字段库中不再可用。</p></span></td>
+      <td>活动</td>
+      <td><p>此选项默认处于打开状态。<p><p>将字段设置为“不活动”时，该字段将从报表、筛选器和视图中排除，并且在自定义表单字段库中不再可用。</p></td>
      </tr>
     </tbody> 
    </table>
@@ -288,7 +278,7 @@ ht-degree: 1%
            >
            ><div>在附加到对象的自定义表单中，计算自定义字段中的日期和时间语句通过协调世界时(UTC)进行计算和保存，而不是通过为组织的实例和用户配置文件设置的时区配置进行计算和保存。 自定义表单中的计算根据每个用户的各个时区生成。</div>
 
-      +++
+        +++
 
    1. 单击大文本框，然后单击&#x200B;**表达式**&#x200B;和&#x200B;**字段**，它们可用于将其添加到计算中。
 

@@ -7,31 +7,29 @@ description: 将自定义表单附加到对象后，您可以编辑该表单上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: 6dce5e15a41587cd9febf82ffc0a62d3b7e121d1
 workflow-type: tm+mt
 source-wordcount: '1207'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 # 编辑自定义表单字段中的信息
 
-{{preview-fast-release-general}}
-
 <!--Audited: 10/2025-->
 
 将自定义表单附加到对象后，您可以编辑该表单上的信息。 有关将自定义表单添加到对象的信息，请参阅[将自定义表单添加到对象](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Workfront包</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront 包</p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 
@@ -122,7 +120,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   ><span class="preview">允许多项选择的字段可能会限制您可以选择的选项数量。 复选框和多选下拉列表限制为5000个选择。</span>
+   >允许进行多个选择的字段可能会限制您可以选择的选项数量。 复选框和多选下拉列表限制为5000个选择。
 
    有关所有字段类型的信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
@@ -175,7 +173,7 @@ ht-degree: 1%
    * 项目
    * 任务
    * 问题
-   * 组合
+   * 项目组合
    * 项目群
    * 文档
 

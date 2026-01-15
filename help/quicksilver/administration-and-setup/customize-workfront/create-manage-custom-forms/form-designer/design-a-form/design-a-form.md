@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: f23414b3c4810e47fa084d303e640a289de1f98d
+source-git-commit: 45bc1820e4f6416e3d47139bbcf1a2156c5900dc
 workflow-type: tm+mt
 source-wordcount: '6941'
 ht-degree: 5%
@@ -16,8 +16,6 @@ ht-degree: 5%
 ---
 
 # 创建自定义表单
-
-{{preview-fast-release-general}}
 
 <!-- Audited: 6/2025 -->
 
@@ -263,13 +261,13 @@ ht-degree: 5%
     <td><ul><li>描述性文本</li></ul></td>
     </tr>
     <tr>
-     <td><span class="preview">活动</span></td>
-     <td><span class="preview"><p>此选项默认处于打开状态。<p><p>将字段设置为“不活动”时，该字段将从报表、筛选器和视图中排除，并且在自定义表单字段库中不再可用。</p></span></td>
-     <td><ul><span class="preview">
+     <td>活动</td>
+     <td><p>此选项默认处于打开状态。<p><p>将字段设置为“不活动”时，该字段将从报表、筛选器和视图中排除，并且在自定义表单字段库中不再可用。</p></td>
+     <td><ul>
      <li>单行文本</li>
      <li>段落</li>
      <li>带格式文本</li>
-     <li>描述性文本</li></span></ul></td>
+     <li>描述性文本</li></ul></td>
     </tr>
     <tr> 
       <td role="rowheader">设为必填字段</td>
@@ -421,13 +419,13 @@ ht-degree: 5%
     </td>
      </tr>
     <tr>
-     <td><span class="preview">活动</span></td>
-     <td><span class="preview"><p>此选项默认处于打开状态。<p><p>将字段设置为“不活动”时，该字段将从报表、筛选器和视图中排除，并且在自定义表单字段库中不再可用。</p></span></td>
-     <td><ul><span class="preview">
+     <td>活动</td>
+     <td><p>此选项默认处于打开状态。<p><p>将字段设置为“不活动”时，该字段将从报表、筛选器和视图中排除，并且在自定义表单字段库中不再可用。</p></td>
+     <td><ul>
      <li>单选按钮</li>
      <li>复选框组</li>
      <li>单选下拉菜单</li>
-     <li>多选下拉框</li></span></ul></td>
+     <li>多选下拉框</li></ul></td>
     </tr>
     <tr> 
     <td role="rowheader">设为必填字段</td> 
@@ -562,11 +560,11 @@ ht-degree: 5%
       </td>
      </tr>
      <tr>
-      <td><span class="preview">活动</span></td>
-      <td><span class="preview"><p>此选项默认处于打开状态。<p><p>将字段设置为“不活动”时，该字段将从报表、筛选器和视图中排除，并且在自定义表单字段库中不再可用。</p></span></td>
-      <td><ul><span class="preview">
+      <td>活动</td>
+      <td><p>此选项默认处于打开状态。<p><p>将字段设置为“不活动”时，该字段将从报表、筛选器和视图中排除，并且在自定义表单字段库中不再可用。</p></td>
+      <td><ul>
       <li>键盘缓冲</li>
-      <li>日期</li></span></ul></td>
+      <li>日期</li></ul></td>
      </tr>
      <tr> 
       <td role="rowheader">设为必填字段</td> 
@@ -655,12 +653,12 @@ ht-degree: 5%
       <td role="rowheader">JSON 路径</td>
       <td><p>键入或粘贴API的JSON路径。</p> <p>此选项允许从API URL返回的JSON中提取数据。 它提供了一种方法，用于选择在JSON内的哪些值将显示在下拉选项中。</p><p>例如，如果API URL按以下格式返回JSON，则可以使用“$.data[*].name”选择“美国”和“加拿大”作为下拉选项：</br>
       <pre>
-      &lbrace;
-       数据： &lbrace;
+      {
+       数据： {
          { name： "USA"}，
          { name： "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>有关JSON路径并确保编写正确JSON路径的更多信息，请参阅<a href="https://jsonpath.com/">https://jsonpath.com/</a>。</p></td>
@@ -674,8 +672,8 @@ ht-degree: 5%
       <td><p>选择此选项可允许用户在下拉列表中选择多个值。</p></td>
      </tr>
      <tr>
-      <td><span class="preview">活动</span></td>
-      <td><span class="preview"><p>此选项默认处于打开状态。<p><p>将字段设置为“不活动”时，该字段将从报表、筛选器和视图中排除，并且在自定义表单字段库中不再可用。</p></span></td>
+      <td>活动</td>
+      <td><p>此选项默认处于打开状态。<p><p>将字段设置为“不活动”时，该字段将从报表、筛选器和视图中排除，并且在自定义表单字段库中不再可用。</p></td>
      </tr>
      <tr> 
       <td role="rowheader">设为必填字段</td>
@@ -767,8 +765,8 @@ The Workfront Mobile app -->
       <td> <p>键入有关构件的任何其他信息。 当用户填写自定义表单时，可以将光标悬停在问号图标上，以查看包含您在此处键入的信息的工具提示。</p> </td> 
      </tr> 
      <tr>
-      <td><span class="preview">活动</span></td>
-      <td><span class="preview"><p>此选项默认处于打开状态。<p><p>将字段设置为“不活动”时，该字段将从报表、筛选器和视图中排除，并且在自定义表单字段库中不再可用。</p></span></td>
+      <td>活动</td>
+      <td><p>此选项默认处于打开状态。<p><p>将字段设置为“不活动”时，该字段将从报表、筛选器和视图中排除，并且在自定义表单字段库中不再可用。</p></td>
      </tr>
     </tbody> 
    </table>
@@ -904,8 +902,8 @@ The Workfront Mobile app -->
       <td>
      </tr>
      <tr>
-      <td><span class="preview">活动</span></td>
-      <td><span class="preview"><p>此选项默认处于打开状态。<p><p>将字段设置为“不活动”时，该字段将从报表、筛选器和视图中排除，并且在自定义表单字段库中不再可用。</p></span></td>
+      <td>活动</td>
+      <td><p>此选项默认处于打开状态。<p><p>将字段设置为“不活动”时，该字段将从报表、筛选器和视图中排除，并且在自定义表单字段库中不再可用。</p></td>
      </tr>
      <tr> 
       <td role="rowheader">设为必填字段</td>
@@ -961,8 +959,8 @@ The Workfront Mobile app -->
     <img src="assets/instructions-form-designer.png"></p> </td> 
      </tr>
      <tr>
-      <td><span class="preview">活动</span></td>
-      <td><span class="preview"><p>此选项默认处于打开状态。<p><p>将字段设置为“不活动”时，该字段将从报表、筛选器和视图中排除，并且在自定义表单字段库中不再可用。</p></span></td>
+      <td>活动</td>
+      <td><p>此选项默认处于打开状态。<p><p>将字段设置为“不活动”时，该字段将从报表、筛选器和视图中排除，并且在自定义表单字段库中不再可用。</p></td>
      </tr>
     </tbody> 
    </table>
@@ -1057,8 +1055,8 @@ The Workfront Mobile app -->
     <img src="assets/planning-connections-field-with-table-on-form-preview.png"></td> 
      </tr>
      <tr>
-      <td><span class="preview">活动</span></td>
-      <td><span class="preview"><p>此选项默认处于打开状态。<p><p>将字段设置为“不活动”时，该字段将从报表、筛选器和视图中排除，并且在自定义表单字段库中不再可用。</p></span></td>
+      <td>活动</td>
+      <td><p>此选项默认处于打开状态。<p><p>将字段设置为“不活动”时，该字段将从报表、筛选器和视图中排除，并且在自定义表单字段库中不再可用。</p></td>
      </tr>
       </tbody> 
    </table>

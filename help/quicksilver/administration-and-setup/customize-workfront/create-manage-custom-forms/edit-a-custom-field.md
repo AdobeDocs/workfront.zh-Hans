@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: 2f7b5c9d3a934708f3128ed9e4efa76b12619913
+source-git-commit: 45bc1820e4f6416e3d47139bbcf1a2156c5900dc
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 4%
@@ -17,13 +17,11 @@ ht-degree: 4%
 
 # 添加或编辑自定义字段、分区界限或小组件
 
-{{preview-fast-release-general}}
-
 您可以直接从Workfront中的字段区域添加新的自定义字段或构件，而无需打开自定义表单来创建字段。
 
 您还可以编辑在自定义表单中使用的自定义字段、分区界限或小组件的属性。 这些资源包括项目的标签、名称、说明等。
 
-<span class="preview">将自定义字段设置为“不活动”会将其从报表、筛选器和视图中排除，并且该字段在自定义表单字段库中不再可用。 默认情况下，所有新字段均设置为“活动”。</span>
+将自定义字段设置为“不活动”会将其从报表、筛选器和视图中排除，并且该字段在自定义表单字段库中不再可用。 默认情况下，所有新字段均设置为“活动”。
 
 >[!NOTE]
 >
