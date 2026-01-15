@@ -6,16 +6,14 @@ description: 您可以删除已提交的请求或请求草稿。
 author: Becky
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '618'
 ht-degree: 3%
 
 ---
 
 # 删除提交的请求或请求草稿
-
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
 
 您可以删除在新请求体验中创建的已提交的请求或请求草稿。 Workfront管理员和Planning工作区管理员也可以删除请求。
 
@@ -63,16 +61,13 @@ ht-degree: 3%
 
 +++
 
-
-<div class="preview">
-
-## 删除新请求体验中的请求<!--or request drafts -->
+## 删除新请求体验中的请求或请求草稿
 
 您可以在Workfront的请求区域或主页的“我的请求”小组件中删除请求。
 
-* Workfront管理员可以删除其组织中的请求<!-- and drafts-->。
-* Workfront Planning工作区管理员可以删除他们管理的Planning工作区中的请求<!--and drafts-->。
-* 用户可以删除他们提交的<!--and drafts-->请求。
+* Workfront管理员可以删除其组织中的请求和草稿。
+* Workfront Planning工作区管理员可以删除Planning工作区中他们管理的请求和草稿。
+* 用户可以删除他们提交的请求和草稿。
 
 ### 从三个圆点式菜单中删除请求
 
@@ -86,12 +81,12 @@ ht-degree: 3%
 
       有关“我的请求”小组件的详细信息，请参阅[使用我的请求](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)。
 
-1. 在“请求”列表或“我的请求”小部件中，将鼠标悬停在要删除的请求<!--or draft -->上。
+1. 在“请求”列表或“我的请求”小部件中，将鼠标悬停在要删除的请求或草稿上。
 
    出现“More（更多）”三点菜单。
    ![](assets/more-menu.png)
 
-1. 单击请求&#x200B;**名称右侧的**&#x200B;更多<!--or draft-->菜单，然后单击&#x200B;**删除**。
+1. 单击请求或草稿名称右侧的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**删除**。
 
    或
 
@@ -103,7 +98,7 @@ ht-degree: 3%
 
 1. 在打开的对话框中，单击&#x200B;**删除**。
 
-   请求<!--or draft-->已删除。
+   删除请求或草稿。
 
 ### 批量删除请求
 

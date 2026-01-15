@@ -8,7 +8,7 @@ author: Becky
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: de161674-5b61-4853-a16a-c70db10a1c95
-source-git-commit: 684f7fc62fe341a59b1b7f7ae6c7118a5e511513
+source-git-commit: 3c5f7d54e29398b61ffd15b71dbfd462aabd7a0c
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 0%
@@ -16,10 +16,6 @@ ht-degree: 0%
 ---
 
 # 创建请求
-
-<!--
-{{highlighted-preview}}
--->
 
 在Adobe Workfront中，请求和问题可以互换。 您可以通过执行以下操作之一来创建请求：
 

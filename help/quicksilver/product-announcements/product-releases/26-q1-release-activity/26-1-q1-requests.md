@@ -4,9 +4,9 @@ description: 2026年第一季度请求增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 3fe7e6f530e15ebdb4a658de89b77c1bf39671fe
+source-git-commit: d8f563bdbde76ae86b5e130a07d2dc66c8d2e034
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '900'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 本页介绍了在2026年第一季度版本中对“预览”环境所做的请求增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
 
 ## 现在，创建的对象链接在请求区域和我的请求小组件中可用
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 以前，此列仅包含对象的名称，而不包含其链接。
 
-有关查找这些链接的信息，请参阅有关添加列的说明，请参阅：
+有关查找这些链接的信息，请参阅：
 
 * [查找已提交的请求](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md)
 * [使用我的请求小组件](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)

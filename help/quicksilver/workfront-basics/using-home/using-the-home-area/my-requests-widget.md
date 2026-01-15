@@ -6,16 +6,14 @@ description: 您可以在“我的请求”小组件中提交请求。 您还可
 author: Becky
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 9e4f67b4f5b03e1fc4f8e1a9ab00cc42b9796325
+source-git-commit: cdb1c365d8fc8f90a8a3488b3c641c97457c8c8d
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '982'
 ht-degree: 4%
 
 ---
 
 # 使用我的请求小组件
-
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 >[!IMPORTANT]
 >
@@ -55,7 +53,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>[!UICONTROL 查看]对项目、任务、问题和文档的权限或更高，在这些项目、任务、问题和文档中，您被标记在对话中或需要解决审批问题</p> </td> 
+   <td> <p>[！UICONTROL查看]对项目、任务、问题和文档的权限或更高，在这些项目、任务、问题和文档中，您被标记在对话中或需要解决审批问题</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,15 +68,11 @@ ht-degree: 4%
 
 有关说明，请参阅从主页区域创建工作项和项目一文中的[创建请求](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request)。
 
-<div class="preview">
-
 ## 复制请求
 
 您可以在“我的请求”小部件中复制请求，对其进行编辑，然后将其作为新请求提交。
 
 有关说明，请参阅文章复制和提交请求中的[在新的请求体验](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience)中复制和提交请求。
-
-</div>
 
 ## 筛选请求
 
@@ -98,7 +92,7 @@ ht-degree: 4%
    * 状态
    * 输入者
 
-   <span class="preview">在“预览”环境中，您还可以按已添加为列的任何自定义字段进行筛选      到视图。</span>
+   您还可以按已作为列添加到视图的任何自定义字段进行筛选。
 
 1. 在下一个字段中，选择要用于此筛选条件的运算符。 可用的运算符取决于所选的字段。
 1. （视情况而定）如果运算符右侧显示了字段，请选择要作为筛选依据的值。
@@ -135,9 +129,9 @@ ht-degree: 4%
 1. 在“我的请求”小部件中，单击&#x200B;**列**。
 1. （可选）要重新排序列，请单击要移动的列的拖动手柄![拖动手柄](assets/drag-handle.png)，然后将其拖动到所需的位置。 列表顶部的列在“我的请求”小部件中显示为最左侧的列。
 1. （可选）使用切换开关可控制某列是否显示在“我的请求”小部件中。
-1. <span class="preview">要将自定义字段添加为列，请单击屏幕右侧附近的&#x200B;**添加列**&#x200B;图标![添加列](assets/add-column.png)，然后单击要作为列添加到小组件的自定义表单字段旁边的加号图标。</span>
+1. 要将自定义字段添加为列，请单击屏幕右侧附近的&#x200B;**添加列**&#x200B;图标![添加列](assets/add-column.png)，然后单击要作为列添加到小组件的自定义表单字段旁边的加号图标。
 
-   <span class="preview">附加到列表中对象的表单上的自定义字段可以添加为列。</span>
+   表单上的自定义字段附加到列表中的对象，这些字段可添加为列。
 
 列首选项会自动保存。
 
@@ -153,11 +147,13 @@ ht-degree: 4%
 
 1. （可选）要跳转到突出显示的请求，请单击搜索栏中的向上或向下箭头。
 
-<div class="preview">
-
 ## 转至请求创建的对象
 
 您可以在“我的请求”小组件中找到由请求创建的对象。
+
+>[!NOTE]
+>
+>只有在请求本身创建了对象的情况下，新请求体验中才提供指向已创建对象的链接，以供Planning请求使用。 如果Workfront请求转换为项目或其他对象，则指向该转换对象的链接在新请求体验的请求列表中不可用。
 
 1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
 1. （视情况而定）将&#x200B;**我的请求**&#x200B;构件添加到您的主屏幕。 单击&#x200B;**自定义**，查找&#x200B;**我的请求**。
@@ -166,4 +162,3 @@ ht-degree: 4%
 
    将打开对象的页面。
 
-</div>

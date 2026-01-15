@@ -6,17 +6,15 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1517'
 ht-degree: 3%
 
 ---
 
 # 复制并提交请求
 
-
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 当您频繁提交类似请求时，可以复制已提交的现有请求。 在这种情况下，您可以复制现有请求，对请求进行最小更改，然后将其作为新请求重新提交。
 
@@ -224,8 +222,6 @@ ht-degree: 3%
 
    复制的请求将作为新请求提交到您指定的请求队列中。
 
-<div class="preview">
-
 ## 在新的请求体验中复制并提交请求
 
 您可以在Workfront的请求区域或主页的“我的请求”小组件中复制并提交请求。
@@ -263,5 +259,4 @@ ht-degree: 3%
 
    复制的请求将作为新请求提交。
 
-</div>
 

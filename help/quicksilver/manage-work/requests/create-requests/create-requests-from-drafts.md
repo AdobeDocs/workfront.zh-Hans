@@ -6,16 +6,14 @@ description: 除了使用Workfront在输入新请求时向您建议的可用草�
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 319c45bc6617269f358af1e7b5f6132a8694710b
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '814'
 ht-degree: 3%
 
 ---
 
 # 从草稿创建请求
-
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 除了使用Workfront在输入新请求时向您建议的可用草稿之外，您还可以从“草稿”部分访问草稿请求并从此处完成提交。
 
@@ -64,15 +62,10 @@ ht-degree: 3%
 
 从草稿创建请求的过程因新请求体验和旧请求体验而异。
 
-* <span class="preview">[从新请求体验中的草稿创建请求](#create-requests-from-drafts-in-the-new-requesting-experience)</span>
+* [从新请求体验中的草稿创建请求](#create-requests-from-drafts-in-the-new-requesting-experience)
 * [从旧版请求体验中的草稿创建请求](#create-requests-from-drafts-in-the-legacy-requesting-experience)
 
-<div class="preview">
-
 ### 从新请求体验中的草稿创建请求
-
-
-
 
 1. 打开草稿。
 
@@ -98,8 +91,6 @@ ht-degree: 3%
 1. 完成请求信息后，单击&#x200B;**提交**。
 
    提交请求时，草稿将被删除并且无法恢复。
-
-</div>
 
 ### 从旧版请求体验中的草稿创建请求
 

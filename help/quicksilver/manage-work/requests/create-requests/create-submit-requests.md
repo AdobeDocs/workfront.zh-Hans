@@ -6,16 +6,14 @@ description: 在Adobe Workfront中，计划工作由项目和任务表示。 但
 author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 684f7fc62fe341a59b1b7f7ae6c7118a5e511513
+source-git-commit: 2b4c13babecd3675f82699282c3dd42191c73df1
 workflow-type: tm+mt
-source-wordcount: '2546'
+source-wordcount: '2532'
 ht-degree: 2%
 
 ---
 
 # 创建并提交请求
-
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 <!--Audited: 12/2023-->
 
@@ -109,7 +107,10 @@ Workfront管理员必须创建请求队列的以下组件：
 
 在Workfront Web应用程序中创建请求时，Workfront会先将请求另存为草稿，然后再提交。 当您选择请求队列并开始输入信息时，Workfront会立即创建草稿。
 
-您可以继续提交请求，也可以填写现有的所有信息，然后离开该请求以稍后完成。 Workfront保存您在“草稿”文件夹<span class="preview">或请求列表中启动的草稿请求。</span>
+您可以继续提交请求，也可以填写现有的所有信息，然后离开该请求以稍后完成。 Workfront会保存您启动的草稿请求。 您可以在以下位置找到它们：
+
+* 新的请求体验：请求列表
+* 旧版请求体验：“草稿”文件夹
 
 >[!IMPORTANT]
 >
@@ -145,7 +146,7 @@ Workfront管理员必须创建请求队列的以下组件：
    >有关新的请求体验，请考虑以下事项：
    >* 该列表包括Workfront请求队列和Workfront Planning请求表单。
    >* 您可以按对象类型筛选列表。
-   >* <span class="preview">在新的请求体验中，在与提交的请求相同的列表中找到草稿</span>。
+   >* 在新的请求体验中，可在与提交请求相同的列表中找到草稿。
 
 1. （视情况而定）如果切换到新体验，请选择主题组和队列主题并继续更新表单。
 

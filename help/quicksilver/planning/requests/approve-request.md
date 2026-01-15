@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ec72e2af00bb5010288eaae725b67ad7dad55486
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 1%
@@ -97,7 +97,7 @@ ht-degree: 1%
 >
 >贵组织的Workfront实例必须载入到Adobe Unified Experience，用户才能接收电子邮件和应用程序内通知。
 
-您可以批准从请求本身<span class="preview">或从主页中的“我的审批”小组件创建记录的请求。</span>
+您可以批准请求，以从请求本身创建记录，或从主页的“我的批准”小组件创建记录。
 
 * [在Workfront Planning中批准来自请求的请求](#approve-a-request-from-the-request-in-workfront-planning)
 * [在主页中批准我的审批小部件中的请求](#approve-a-request-from-the-my-approvals-widget-in-home)
@@ -134,8 +134,6 @@ ht-degree: 1%
 
    该请求仍保留在Workfront的请求区域中。
 
-<div class="preview">
-
 ### 在主页中批准我的审批小部件中的请求
 
 {{step1-to-home}}
@@ -160,4 +158,3 @@ ht-degree: 1%
    * **已完成**：请求已被批准。
    * **已拒绝**：请求被拒绝。
 
-</div>
