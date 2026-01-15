@@ -1,36 +1,21 @@
 ---
-title: 2026年第一季度发布时间范围内的其他增强功能
-description: 2026年第一季度发布时间框架内的其他增强功能
-author: Courtney
+title: 2026年第二季度发布时间范围内的其他增强功能
+description: 2026年第二季度发布时间框架内的其他增强功能
+author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 source-git-commit: d3db97d2b36bdba955d8cbf6a9bd784dff5a440c
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
 
-# 2026年第一季度发布时间范围内的其他增强功能
+# 2026年第二季度发布时间范围内的其他增强功能
 
-本页介绍了在2026年第一季度发布中对“预览”环境所做的增强。 如上所述，这些增强功能将在“生产”环境中提供。
+本页介绍了在2026年第二季度版本中对“预览”环境所做的增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
-
-
-## 多选字段的选择限制
-
->[!NOTE]
->
->预览： 2025年10月30日
->生产快速发布： 2025年11月13日
->适用于所有人的生产： 2026年1月15日
-
-现在，当用户填写表单时，允许进行多选择的字段（例如复选框和多选下拉列表）限制为5000个选择。
-
-有关详细信息，请参阅[编辑自定义表单字段中的信息](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md)。
-
-
+有关2026年第二季度发布周期中此时可用的所有更改列表，请参阅[2026年第二季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)。
 
 
 ## Adobe Unified Experience现在可供更多Workfront组织使用

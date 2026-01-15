@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: d956671b535d5c7a11d0fb17dc003a665a4f0597
+source-git-commit: bbb0399787938033886807d0372e9958ce2fcc00
 workflow-type: tm+mt
-source-wordcount: '1798'
+source-wordcount: '2003'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,40 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+
+## 全局记录类型可以从辅助工作区共享
+
+>[!NOTE]
+>
+>预览： 2026年1月15日
+>生产快速发布： 2026年1月15日
+>适用于所有人的生产： 2026年1月15日
+>[!BADGE 超出计划]{type=Neutral}
+
+现在，您可以共享从该工作区添加到辅助工作区的全局记录类型。 用户还将获得与您共享的辅助工作区中所有记录的相同权限。
+
+>[!NOTE]
+>
+>在主工作区或添加记录类型的任何其他辅助工作区中，用户可以对同一全局记录类型拥有不同的权限。 Workspace和记录类型权限转移到记录。
+
+在此更改之前，您只能从其原始的主要工作区共享全局记录类型。
+
+有关详细信息，请参阅[跨工作区记录类型概述](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)。
+
+
+## 添加到辅助工作区中全局记录类型的记录在其他辅助工作区中不可见
+
+>[!NOTE]
+>
+>预览： 2026年1月15日
+>生产快速发布： 2026年1月15日
+>适用于所有人的生产： 2026年1月15日
+>[!BADGE 超出计划]{type=Neutral}
+
+添加到辅助工作区中全局记录类型的记录仅在该工作区或记录类型的原始主工作区中可见。 在此更新之前，添加到辅助工作区的记录在其他辅助工作区中也可见，您可能具有查看这些工作区的权限。
+
+有关详细信息，请参阅[跨工作区记录类型概述](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)。
 
 ## 在工作区中创建记录类型层次结构
 
