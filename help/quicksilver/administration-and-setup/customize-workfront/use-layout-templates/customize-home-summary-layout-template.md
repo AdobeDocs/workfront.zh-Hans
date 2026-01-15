@@ -8,18 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 2%
+source-wordcount: '767'
+ht-degree: 4%
 
 ---
 
 # 使用布局模板自定义摘要面板
 
 <!--Audited: 11/2024-->
-
-{{preview-fast-release-general}}
 
 您可以使用布局模板配置用户在单击任务或问题时在“摘要”面板中看到的内容。 您使用以下步骤进行的每项配置都会影响摘要面板。 这些自定义不适用于“文档摘要”面板。
 
@@ -38,16 +36,16 @@ ht-degree: 2%
 
 配置布局模板后，必须将其分配给用户，以使您所做的更改对其他人可见。 有关将布局模板分配给用户的信息，请参阅[将用户分配给布局模板](../use-layout-templates/assign-users-to-layout-template.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
+   <td>Adobe Workfront 包</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -168,20 +166,10 @@ ht-degree: 2%
     </tbody> 
    </table>
 
-1. 在“预览”环境中：继续自定义布局模板。 <span class="preview">您可以随时单击&#x200B;**应用**&#x200B;以保存进度。</span>
-
-   <span class="preview">或</span>
-
-   <span class="preview">如果您已完成自定义，请单击&#x200B;**保存并关闭**。</span>
-
-1. 在生产环境中：继续自定义布局模板。
+1. 继续自定义布局模板。 您可以随时单击&#x200B;**应用**&#x200B;以保存进度。
 
    或
 
-   如果您已完成自定义，请单击&#x200B;**保存**。
-
-   >[!TIP]
-   >
-   >您可以随时单击&#x200B;**保存**&#x200B;以保存进度，然后稍后继续修改模板。
+   如果您已完成自定义，请单击&#x200B;**保存并关闭**。
 
 有关布局模板的更多信息，请参阅[创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。

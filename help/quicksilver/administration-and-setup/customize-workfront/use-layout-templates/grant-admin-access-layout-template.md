@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 066a55ef-1904-4678-8866-c59428f78bc1
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 0%
+source-wordcount: '429'
+ht-degree: 4%
 
 ---
 
 # 授予对布局模板的管理访问权限
-
-{{preview-fast-release-general}}
 
 作为Adobe Workfront管理员，您可以向特定组的组管理员授予对布局模板的管理访问权限，以便他们能够编辑该模板。 这不会将模板分配给组中的用户。
 
@@ -27,16 +25,16 @@ ht-degree: 0%
 
 有关组的布局模板的信息，请参阅[创建和修改组的布局模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
+   <td>Adobe Workfront 包</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -71,4 +69,8 @@ ht-degree: 0%
    >   
    >* 如果不向特定组中的组管理员授予管理权限，则所有可以编辑用户帐户的用户，都具有对布局模板的管理权限。 有些Workfront管理员特意选择不授予对布局模板的管理访问权限，以使布局模板成为系统级别的布局模板。
 
-1. 您可以随时单击&#x200B;<span class="preview">**应用**</span>&#x200B;或&#x200B;**保存**&#x200B;以保存进度，然后继续修改模板。
+1. 继续自定义布局模板。 您可以随时单击&#x200B;**应用**&#x200B;以保存进度。
+
+   或
+
+   如果您已完成自定义，请单击&#x200B;**保存并关闭**。

@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 4fdfa1107034a48e149a5414475fbc0d7ce97564
+source-git-commit: 0f96a4d941eb4595ac60302b579cff31461272a7
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '659'
 ht-degree: 6%
 
 ---
 
 # 使用布局模板自定义主菜单
-
-{{preview-fast-release-general}}
 
 <!--Audited: 01/2024-->
 
@@ -78,8 +76,7 @@ ht-degree: 6%
      >
      >默认情况下，主菜单中的“主页”图标会为Review-license用户（在当前许可证计划中）显示“我的更新”区域，除非他们有一个与其配置文件关联的布局模板，该模板除了“主页”区域外，还包括主菜单中的“我的更新”区域。
 
-
-   * <span class="preview">优先级</span>
+   * 优先次序
    * 项目组合
    * 项目群
    * 项目
@@ -135,20 +132,10 @@ ht-degree: 6%
 
    如果要放弃更改，还可以随时单击&#x200B;**取消**。
 
-1. 在“预览”环境中：继续自定义布局模板。 <span class="preview">您可以随时单击&#x200B;**应用**&#x200B;以保存进度。</span>
-
-   <span class="preview">或</span>
-
-   <span class="preview">如果您已完成自定义，请单击&#x200B;**保存并关闭**。</span>
-
-1. 在生产环境中：继续自定义布局模板。
+1. 继续自定义布局模板。 您可以随时单击&#x200B;**应用**&#x200B;以保存进度。
 
    或
 
-   如果您已完成自定义，请单击&#x200B;**保存**。
-
-   >[!TIP]
-   >
-   >您可以随时单击&#x200B;**保存**&#x200B;以保存进度，然后稍后继续修改模板。
+   如果您已完成自定义，请单击&#x200B;**保存并关闭**。
 
 有关布局模板的更多信息，请参阅[创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。

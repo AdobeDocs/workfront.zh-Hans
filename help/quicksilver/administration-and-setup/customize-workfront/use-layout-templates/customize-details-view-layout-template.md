@@ -8,22 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: e5416fab4f4ad1f2c31edf962554ddd6a4c2f1e5
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 0%
+source-wordcount: '575'
+ht-degree: 3%
 
 ---
 
 # 使用布局模板自定义详细信息视图
 
-{{preview-fast-release-general}}
-
 作为Adobe Workfront管理员，您可以使用布局模板来确定当用户查看任务、问题、文档、项目或项目组合时单击左侧面板中的“详细信息”图标![详细信息图标](assets/project-details-icon.png)时显示哪些信息。
-
-<!--
-or billing record
--->
 
 您还可以更改此信息出现的顺序。 例如，对于用户看到的所有任务，对于用户看到的所有任务，您可以将自定义Forms信息移动到详细信息视图的顶部。
 
@@ -65,16 +59,16 @@ or billing record
 
 有关组的布局模板的信息，请参阅[创建和修改组的布局模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
+   <td>Adobe Workfront 包</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -108,24 +102,11 @@ or billing record
 
      所有字段默认处于启用状态。 您可以选中或清除某个区域中的&#x200B;**全选**&#x200B;复选框，以显示或隐藏该区域中的所有字段。
 
-   <span class="preview">预览环境中的示例图像：</span>
-   ![布局模板中的详细信息视图](assets/layout-template-details-view-updated-save-buttons.png)
+     ![布局模板中的详细信息视图](assets/layout-template-details-view-updated-save-buttons.png)
 
-   生产环境中的示例图像：
-   ![布局模板中的详细信息视图](assets/layout-template-details-view.png)
-
-1. 在“预览”环境中：继续自定义布局模板。 <span class="preview">您可以随时单击&#x200B;**应用**&#x200B;以保存进度。</span>
-
-   <span class="preview">或</span>
-
-   <span class="preview">如果您已完成自定义，请单击&#x200B;**保存并关闭**。</span>
-
-1. 在生产环境中：继续自定义布局模板。
+1. 继续自定义布局模板。 您可以随时单击&#x200B;**应用**&#x200B;以保存进度。
 
    或
 
-   如果您已完成自定义，请单击&#x200B;**保存**。
+   如果您已完成自定义，请单击&#x200B;**保存并关闭**。
 
-   >[!TIP]
-   >
-   >您可以随时单击&#x200B;**保存**&#x200B;以保存进度，然后稍后继续修改模板。

@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 8%
+source-wordcount: '395'
+ht-degree: 9%
 
 ---
 
 # 使用布局模板自定义登陆页面
-
-{{preview-fast-release-general}}
 
 作为Adobe Workfront管理员，您可以使用布局模板指定用户每次登录到Workfront时要查看的区域。
 
@@ -85,7 +83,7 @@ ht-degree: 8%
    * 报告
    * 请求
    * 资源
-   * 方案
+   * 场景
    * 团队
    * 模板
    * 时间表
@@ -103,18 +101,8 @@ ht-degree: 8%
    >
    >* 有关Workfront Planning的信息，请参阅[Adobe Workfront Planning入门](/help/quicksilver/planning/general/planning-overview.md)。
 
-1. 在“预览”环境中：继续自定义布局模板。 <span class="preview">您可以随时单击&#x200B;**应用**&#x200B;以保存进度。</span>
-
-   <span class="preview">或</span>
-
-   <span class="preview">如果您已完成自定义，请单击&#x200B;**保存并关闭**。</span>
-
-1. 在生产环境中：继续自定义布局模板。
+1. 继续自定义布局模板。 您可以随时单击&#x200B;**应用**&#x200B;以保存进度。
 
    或
 
-   如果您已完成自定义，请单击&#x200B;**保存**。
-
-   >[!TIP]
-   >
-   >您可以随时单击&#x200B;**保存**&#x200B;以保存进度，然后稍后继续修改模板。
+   如果您已完成自定义，请单击&#x200B;**保存并关闭**。

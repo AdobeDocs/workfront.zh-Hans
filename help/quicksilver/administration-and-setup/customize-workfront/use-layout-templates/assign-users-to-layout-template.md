@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 0%
+source-wordcount: '859'
+ht-degree: 2%
 
 ---
 
 # 将用户分配给布局模板
-
-{{preview-fast-release-general}}
 
 您可以将已创建的布局模板分配给需要使用该模板的任何用户、工作角色、团队或组。
 
@@ -31,16 +29,16 @@ ht-degree: 0%
 
 有关组的布局模板的信息，请参阅[创建和修改组的布局模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
+   <td>Adobe Workfront 包</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -80,7 +78,7 @@ ht-degree: 0%
 
    一次最多可以分配100个用户。
 
-1. 单击&#x200B;**完成**，然后单击左下角的&#x200B;**保存**&#x200B;或&#x200B;<span class="preview">**保存并关闭**</span>。
+1. 单击&#x200B;**完成**，然后单击左下角的&#x200B;**保存并关闭**。
 
    此步骤将完成创建和分配布局模板的过程。
 

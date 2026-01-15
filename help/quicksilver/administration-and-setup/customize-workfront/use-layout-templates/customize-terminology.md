@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 2%
+source-wordcount: '638'
+ht-degree: 5%
 
 ---
 
 # 使用布局模板自定义用户界面术语
-
-{{preview-fast-release-general}}
 
 作为Adobe Workfront管理员，您可以使用布局模板更改显示在Workfront中的某些对象的标签，以匹配您在组织中使用的术语。
 
@@ -45,16 +43,16 @@ ht-degree: 2%
 
 配置布局模板后，必须将其分配给用户，以使您所做的更改对其他人可见。 有关将布局模板分配给用户的信息，请参阅[将用户分配给布局模板](../use-layout-templates/assign-users-to-layout-template.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
+   <td>Adobe Workfront 包</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -99,7 +97,7 @@ ht-degree: 2%
        <tr>
         <td role="rowheader"><p>Workfront对象</p></td>
         <td>
-          <p>组合</p>
+          <p>项目组合</p>
           <p>项目群</p>
           <p>项目</p>
           <p>任务</p>
@@ -125,7 +123,7 @@ ht-degree: 2%
         <td>
          <ul>
           <p>计划</p>
-          <p>方案</p>
+          <p>场景</p>
           <p>规划 </p>
          </ul></td>
         <td><p>这些对象需要额外的许可证。 有关信息，请参阅<a href="../../../scenario-planner/get-started-with-scenario-planning.md" class="MCXref xref">Scenario Planner入门</a>。</p></td>
@@ -139,17 +137,11 @@ ht-degree: 2%
    >
    >单击“完成”（甚至在保存布局模板后）后，您始终可以返回“设置术语”设置，然后单击任何自定义术语旁边的“重置”(Reset)，以将它们返回到默认状态。
 
-1. 在“预览”环境中：继续自定义布局模板。 <span class="preview">您可以随时单击&#x200B;**应用**&#x200B;以保存进度。</span>
-
-   <span class="preview">或</span>
-
-   <span class="preview">如果您已完成自定义，请单击&#x200B;**保存并关闭**。</span>
-
-1. 在生产环境中：继续自定义布局模板。
+1. 继续自定义布局模板。 您可以随时单击&#x200B;**应用**&#x200B;以保存进度。
 
    或
 
-   如果您已完成自定义，请单击&#x200B;**保存**。
+   如果您已完成自定义，请单击&#x200B;**保存并关闭**。
 
 1. 要查看术语更改，请执行以下操作：
 

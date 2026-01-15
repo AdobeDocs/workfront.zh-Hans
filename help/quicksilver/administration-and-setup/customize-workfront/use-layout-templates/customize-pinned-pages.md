@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '535'
 ht-degree: 7%
 
 ---
 
 # 使用布局模板自定义固定页面
-
-{{preview-fast-release-general}}
 
 在布局模板中，您可以将希望用户始终可用的页面固定在Adobe Workfront顶部。 这些页面可以通过主菜单![主菜单图标](assets/main-menu-icon.png)或主菜单![主菜单图标](assets/main-menu-icon-left-nav.png)（可用时）访问或功能板访问。
 
@@ -82,7 +80,7 @@ ht-degree: 7%
       * 报告
       * 请求
       * 资源
-      * 方案
+      * 场景
       * 团队
       * 模板
       * 时间表
@@ -113,18 +111,8 @@ ht-degree: 7%
 
 1. （可选）若要删除pin，请将鼠标悬停在pin上，单击pin名称旁边的“更多”菜单图标![更多图标](assets/more-icon.png)，然后单击&#x200B;**删除pin**。
 
-1. 在“预览”环境中：继续自定义布局模板。 <span class="preview">您可以随时单击&#x200B;**应用**&#x200B;以保存进度。</span>
-
-   <span class="preview">或</span>
-
-   <span class="preview">如果您已完成自定义，请单击&#x200B;**保存并关闭**。</span>
-
-1. 在生产环境中：继续自定义布局模板。
+1. 继续自定义布局模板。 您可以随时单击&#x200B;**应用**&#x200B;以保存进度。
 
    或
 
-   如果您已完成自定义，请单击&#x200B;**保存**。
-
-   >[!TIP]
-   >
-   >您可以随时单击&#x200B;**保存**&#x200B;以保存进度，然后稍后继续修改模板。
+   如果您已完成自定义，请单击&#x200B;**保存并关闭**。
