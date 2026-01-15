@@ -6,9 +6,9 @@ description: 使用画布功能板
 author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-source-git-commit: 96be3dbf57e87da19cef79426b1c8cd2290f60df
+source-git-commit: f49197b1d49437cd3b1b981d093ae2a357d13072
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '477'
 ht-degree: 1%
 
 ---
@@ -72,17 +72,46 @@ Once you open a Canvas Dashboard, you can interact with the reports displayed on
    >
    >这些更改仅适用于当前会话，不会影响原始报告配置。 若要永久设置这些更改，您需要编辑报告。
 
-<!--
-### Filter
+<!--### Use drilldowns
 
-### Drilldowns
+You can use drilldowns in Canvas Dashboards to sort and group data within reports.
+
+1. In the left panel, click **Canvas Dashboards**.
+1. Click the name of an existing dashboard to open it.
+    ![Open a dashboard](assets/open-dashboard.png)
+1. Locate the report that you want to look at.
+1. Click on a data point within the report to drill down into more detailed information.
+1. Click the Show build table icon to open the drilldown settings. 
+1. Click Add Column to add additional columns to the drilldown table.
+
+ >[!IMPORTANT]
+>
+>These changes only apply to your current session and do not affect the original report configuration. To make permanent these changes, you need to edit the report.
 
 ### Add additional columns to table reports
 
-### Exporting Data
+
+## View reports with grouped data
+
+Report creators can configure reports to display grouped data. When viewing these reports on a Canvas Dashboard, you can expand or collapse the grouped data to see more or less detail.
+
+Data within groups is sorted alphabetically or chronologically by default, depending on the data type. You can click the column headers to sort the data within each group based on different attributes. When you sort by a different attribute, the order of the groups remains unchanged.
+
+When you sort by the same field that your report is grouped by, the group order can flip. For example, a text-based grouping that normally runs A–Z can switch to Z–A. This only happens when the sort column and the grouping attribute are the same.
+
 
 ## Saving and Sharing Dashboards
 
 After customizing your Canvas Dashboard, you can save your changes. Additionally, you can share the dashboard with other users in your organization, provided you have the appropriate sharing permissions.
 
 For more detailed instructions on creating, managing, and customizing Canvas Dashboards, refer to the related articles in the [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md) section.-->
+
+## 查看包含分组数据的报表
+
+报告创建者可以配置报告以显示分组数据。 当报表具有分组时，您可以展开或折叠分组的数据以查看更多或更少的详细信息。
+
+默认情况下，分组本身将按字母顺序或时间顺序排序，具体取决于字段类型。 每个分组中的数据与分组排序顺序无关。
+
+您可以单击列标题对每个组中的数据进行排序。 当按与分组字段不同的字段排序时，组的顺序不会更改。
+
+但是，当您按报告分组依据的相同字段排序时，分组顺序可能会更改。 例如，通常运行A-Z的基于文本的分组可能会切换到Z-A。
