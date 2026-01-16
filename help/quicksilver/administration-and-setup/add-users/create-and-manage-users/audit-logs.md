@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+source-git-commit: 85c6985d27ef0806e9152ecf2cbd90ca63a588c6
 workflow-type: tm+mt
-source-wordcount: '1522'
+source-wordcount: '1523'
 ht-degree: 3%
 
 ---
@@ -236,7 +236,7 @@ Business Rules仅适用于已购买Ultimate Workfront计划的客户。 有关�
    * 添加或删除用户
    * 添加或删除子组
 
-### s {#job-role}
+### 职位角色 {#job-role}
 
 当用户执行以下操作之一时，系统会生成“工作角色”审核日志条目：
 

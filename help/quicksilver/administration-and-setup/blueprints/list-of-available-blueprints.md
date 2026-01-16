@@ -8,9 +8,9 @@ author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: a31b6f9af4682c64da9e5a887f2bd2e13f259ce3
+source-git-commit: 08305c9e82b7ba56a1a03fa351e643916bbfe44e
 workflow-type: tm+mt
-source-wordcount: '2145'
+source-wordcount: '2143'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 系统管理员可以安装以下[!DNL Adobe Workfront] Blueprint。 有关Blueprint的详细信息，请参阅[Blueprint概述](/help/quicksilver/administration-and-setup/blueprints/blueprints-overview.md)。
 
-[!BADGE 全新！]{type=Informative} **[!UICONTROL 活动用户分析报告]**
+**[!UICONTROL 活动用户分析报告]**
 此Blueprint包含一个功能板，可帮助管理员验证用户设置、识别对齐方式错误并确保配置支持预期应用程序用途&#x200B;。
 
 **[!UICONTROL 添加新的员工IT核对清单]**
@@ -30,7 +30,7 @@ ht-degree: 0%
 **[!UICONTROL 年度预算计划]**
 此Blueprint包含一个[!DNL Workfront]专业服务组织在与财务团队开展实施合作期间使用多年的模板，用于组织围绕年度预算规划的活动。 该模板有助于为业务部门负责人设定预期，并指导他们在年度规划过程中申请和保留预算。
 
-[!BADGE 全新！]{type=Informative} **[!UICONTROL 基线仪表板]**
+**[!UICONTROL 基线仪表板]**
 此Blueprint包含一个功能板，可帮助您做出更智能、更快的项目决策。 基线使您能够比较计划的内容和发生的情况，让您一眼就发现问题任务、范围潜移和项目趋势。 “基线仪表板”包括以下报表：基线 | 进行中的项目，基线 | 已完成的项目，基线 | 正在进行的任务和基线 | 已完成任务。
 
 **[!UICONTROL 签约服务交付计划]**
