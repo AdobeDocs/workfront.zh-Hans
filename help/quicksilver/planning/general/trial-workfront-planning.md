@@ -7,9 +7,9 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
+source-git-commit: 1158a49fc0b39ef49f23326935d4635530501687
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '718'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Adobe Workfront目前提供Adobe Workfront Planning的60天免费试用。
 
-审判日期为2026年3月1日至5月1日。
+审判日期为2026年3月2日至5月1日。
 
 >[!NOTE]
 >
@@ -52,13 +52,13 @@ Workfront计划试用版不适用于旧版Workfront包
 
 在您的组织中的每个人获得对Workfront Planning免费试用版的访问权限之前，您的Workfront管理员必须查看并签署法律协议。
 
-在2026年3月1日审判开始之前，您将能够审查和签署协议。
+在2026年3月2日审判开始之前，您将能够审查和签署协议。
 
 <!--check the steps here at release-->
 
 1. 要查阅并接受法律协议，请执行下列操作之一：
 
-   1. 在2026年3月1日之前，执行以下操作：
+   1. 在2026年3月2日之前，执行以下操作：
       1. 以系统管理员身份登录到Adobe Workfront。
       1. 遵循包含有关&#x200B;**Workfront Planning试用**&#x200B;信息的应用程序内横幅
 
@@ -68,7 +68,7 @@ Workfront计划试用版不适用于旧版Workfront包
       1. 单击&#x200B;**查看试用协议**。<!--not sure if this will be available in the email/ banner, or if they can go to System Preferences to do this - might need to adjust the steps here-->
       1. 查看协议后，单击&#x200B;**接受**。
 
-   1. 在2026年3月1日启动试用版后，执行以下操作：
+   1. 2026年3月2日试用版启动后，请执行以下操作：
 
       1. 以系统管理员身份登录到Adobe Workfront。
       1. 遵循包含有关&#x200B;**Workfront Planning试用**&#x200B;信息的应用程序内横幅
@@ -85,11 +85,11 @@ Workfront计划试用版不适用于旧版Workfront包
 
          贵组织现已注册Workfront Planning试用版，截止日期为2026年5月1日。
 
-         2026年3月1日之后，将向&#x200B;**计划试用版**&#x200B;区域的&#x200B;**最佳实践工作区**&#x200B;选项卡中的可用数据授予以下权限：
+         2026年3月2日之后，将向&#x200B;**计划试用版**&#x200B;区域的&#x200B;**最佳实践工作区**&#x200B;选项卡中的可用数据授予以下权限：
 
          * 所有系统管理员都具有管理权限。
          * 所有其他用户均具有查看权限。
-      1. （视情况而定）在2026年3月1日之后，开始浏览&#x200B;**最佳实践工作区**&#x200B;选项卡，并与他人共享工作区或其对象。
+      1. （视情况而定）在2026年3月2日之后，开始浏览&#x200B;**最佳实践工作区**&#x200B;选项卡并与他人共享工作区或其对象。
 
          有关使用Workfront Planning的更多信息，请参阅[Adobe Workfront Planning入门](/help/quicksilver/planning/general/planning-overview.md)。
 
@@ -101,9 +101,10 @@ Workfront计划试用版不适用于旧版Workfront包
 
 以下是与Adobe Workfront Planning免费试用产品相关的一些重要日期：
 
-* **2026年3月1日** - Workfront计划试用版。
+* **2026年3月2日** - Workfront计划试用版。
 * **2026年5月1日** - Workfront Planning试用期已关闭，您对Planning的访问权限已移除。 在试用期结束之后，Workfront可保护您的数据安全，直到2026年11月30日。 如果在此期间购买Workfront Planning，您将重新获得对Planning和数据的访问权限。
-* **2026年11月30日** - Workfront在此日期之后不再提供您的数据。 您仍可以购买Workfront Planning，但您的数据在此日期之后会被删除。
+<!--Lauren wanted this out: 
+* **November 30, 2026** - Workfront no longer makes your data available after this date. You can still purchase Workfront Planning, but your data is removed after this date. -->
 
 <!--## Overview of the access to Workfront Planning -->
 
