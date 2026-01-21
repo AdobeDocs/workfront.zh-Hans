@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: cf1d4bfeedb94e8607dad47177d804169254ee85
+source-git-commit: b926138cca96849f8c4490ec9550fecfd17da69a
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '647'
 ht-degree: 5%
 
 ---
@@ -60,7 +60,7 @@ AI审阅者可审阅以下文件类型：
 
 ## 设置品牌指南
 
-Workfront AI审核者在审核内容时使用品牌准则。 Workfront管理员可以在Workfront设置区域中设置品牌指南。 &lt;！ — 在GenStudio Foundation中创建的品牌也可以在Workfront中使用。
+Workfront AI审核者在审核内容时使用品牌准则。 Workfront管理员可以在Workfront设置区域中设置品牌指南。<!--Brands created in GenStudio Foundation are also available in Workfront.-->
 
 有关详细信息，请参阅[为AI审阅者设置品牌](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)。
 
