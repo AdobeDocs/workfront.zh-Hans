@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 43668525-5572-4d82-8eed-0e320249f296
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 8b93842d7ce61c7c84b07639b6329bedf4254ffd
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1345'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,15 @@ ht-degree: 0%
 * 在附加到对象的所有自定义表单中，添加新的计算自定义字段（包含所需的计算），并将旧的计算自定义字段标记为过时。
 
 本文介绍如何通过这三种方法之一找到对象并解决问题。
+
+>[!NOTE]
+>
+>如果看到此错误，但找不到包含自定义字段的多个对象，请检查回收站。 回收站中的某个对象可能包含该字段。 由于回收站中的对象可以随时恢复，因此多形式冲突错误将继续发生，直到冲突得到解决。
+>
+>要添加具有不同表达式的字段，必须通过执行以下操作之一来解决此冲突：
+>
+>* 从冲突的自定义表单中删除字段
+>* 恢复已删除的对象，分离冲突自定义表单之一，然后根据需要再次删除对象。
 
 ## 查找附加自定义表单的对象 {#find-the-object-where-the-custom-forms-are-attached}
 
