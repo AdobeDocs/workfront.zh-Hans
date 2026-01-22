@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1547'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 # 共享记录类型
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -186,7 +186,6 @@ ht-degree: 1%
   有关信息，请参阅[跨工作区记录类型概述](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)。
 
 
-
 ## 共享记录类型的权限
 
 如果您具有工作区的管理权限，则可以调整对工作区的各个记录类型的权限。
@@ -205,11 +204,6 @@ ht-degree: 1%
    ![具有继承权限的记录类型的权限：](assets/permissions-for-record-types-with-inherited-permissions-on.png)
 
 1. （可选）在&#x200B;**谁具有访问权限**&#x200B;区域中，默认情况下选中&#x200B;**工作区中的每个人都可以查看**&#x200B;选项。  所有对工作区具有“查看”或更高权限的用户都可以查看记录类型。
-
-   >[!WARNING]
-   >
-   >不能与个人用户共享记录类型。 如果将个人用户添加到记录类型，则他们也会添加到工作区中。
-
 
 1. （可选）单击&#x200B;**继承的权限**&#x200B;选项下的用户数，以查看从工作区继承权限的用户、团队、组、公司或工作角色。
 
@@ -235,6 +229,7 @@ ht-degree: 1%
    >* 您不能授予比“管理”更小的用户记录类型权限（如果他们具有工作区的管理权限）。
    >* 如果用户具有工作区的“贡献”权限，则可以授予他们较少的记录类型权限。
    > 有关详细信息，请参阅[在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
+   >* 与用户共享记录类型时，其主要工作角色<span class="preview">及其电子邮件</span>也会显示在字段中。 您必须为访问级别中的“用户”对象启用“查看联系信息”设置，才能查看用户的电子邮件。
 
 1. 要向没有工作区访问权限的用户授予查看记录类型的权限，请在&#x200B;**授予此视图的访问权限**&#x200B;字段中，开始键入用户、组、团队、公司或工作角色的名称，然后当该名称显示在列表中时单击它。
 

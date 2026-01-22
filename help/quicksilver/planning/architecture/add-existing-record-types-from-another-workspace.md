@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '657'
 ht-degree: 1%
 
 ---
@@ -138,7 +138,8 @@ And
 
       * 所有原始字段
       * 所有记录连接
-   * 只有在您至少具有这些工作区的“查看”权限时，才能查看从使用相同全局记录类型的其它工作区添加的记录。<!--replace this bullet by this with Jan 15 release: You can view records added from the original workspace of the global record type only when you have at least View permissions to that workspace.-->
+   * 不能从辅助工作区查看从记录类型的原始工作区添加的记录。
+   * 只有在您至少具有原始工作区的“查看”权限时，您才能查看从该工作区中的记录类型的原始工作区添加的记录。
    * 只读&#x200B;**Workspace**&#x200B;字段已添加到新记录类型表视图中。 字段显示创建每个记录的工作区。
 
      >[!NOTE]
@@ -147,7 +148,12 @@ And
      >
 
 1. （可选）单击，然后将新添加的记录类型拖放到工作区中的任何部分。
-1. （可选）单击新记录类型卡片上的&#x200B;**更多**&#x200B;菜单或其页面上的记录类型名称右侧，然后单击&#x200B;**删除**。
+1. （可选）单击新记录类型卡片上的&#x200B;**更多**&#x200B;菜单或其页面上的记录类型名称右侧，然后单击以下任一项：
+
+   * **共享**&#x200B;以共享辅助工作区中的记录类型。
+   * **删除**&#x200B;以从辅助工作区中删除记录类型。 从辅助工作区中删除记录类型也会删除从辅助工作区添加的记录。
+
+     不会删除从辅助工作区添加的视图。<!--checking with Lilit - not sure if this is by design??-->
 
    有关详细信息，请参阅文章[删除记录类型](/help/quicksilver/planning/architecture/delete-record-types.md)中的“删除全局记录类型”部分。
 
@@ -156,7 +162,7 @@ And
 1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) in the new record type's card, or to the right of the record type's name on its page, then click **Share** to share it with other users in the same workspace, or adjust their permissions to the record type.
 -->
 
-&lt;！ — 使用Lilit检查我们是否可以将自动化或请求表单添加到辅助全局RT?? — 添加步骤以及这些文章的链接（如果/当是时） — >
+&lt;! — 使用Lilit检查我们是否可以将自动化或请求表单添加到辅助全局RT?? — 添加步骤以及这些文章的链接（如果/当是时） — >
 
 
 

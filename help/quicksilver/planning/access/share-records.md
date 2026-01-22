@@ -7,9 +7,9 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
 workflow-type: tm+mt
-source-wordcount: '1838'
+source-wordcount: '1883'
 ht-degree: 2%
 
 ---
@@ -198,7 +198,7 @@ If the inherited permissions are disabled, the user gets the maximum of wildcard
 
    >[!TIP]
    >
-   >您无法从继承的权限列表中删除单个实体。
+   >您无法从继承的权限列表中删除单个实体。<!--test this!-->
 
 1. （可选且视情况而定）如果要与特定实体共享记录，并授予他们与工作区已存在的记录类型不同的访问权限，请执行以下操作：
 
@@ -224,6 +224,7 @@ If the inherited permissions are disabled, the user gets the maximum of wildcard
    >* 如果用户具有工作区和记录类型的“贡献”或“管理”权限，他们将保留记录的“管理”权限。 “查看”权限将灰显。<!--this is not dimmed at this time, Lilit to check-->
    >* 如果用户拥有记录类型的Contribute或更高权限，则无法授予用户较低的记录权限。
    > 有关详细信息，请参阅[在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
+   >* 与用户共享记录时，其主要工作角色<span class="preview">及其电子邮件</span>也会显示在字段中。 您必须为访问级别中的“用户”对象启用“查看联系信息”设置，才能查看用户的电子邮件。
 
 1. 要向没有工作区访问权限的用户授予查看记录的权限，请在&#x200B;**授予此视图**&#x200B;的访问权限字段中，开始键入用户、组、团队、公司或工作角色的名称，然后当该名称显示在列表中时单击它。
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
+source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
 workflow-type: tm+mt
-source-wordcount: '3165'
+source-wordcount: '3240'
 ht-degree: 0%
 
 ---
@@ -148,12 +148,11 @@ ht-degree: 0%
 
 ## 创建记录时的注意事项
 
-<!--
-* Depending which workspace they are added from, records added to global record types are visible by the following types of users:
+* 根据从哪个工作区添加记录，添加到全局记录类型的记录对以下类型的用户可见：
 
-    * Records added to the original workspace of a global record type are visible from the original workspace and all secondary workspaces where the record type is added. (***************check with Lilit on this one*************)
-    * Records added to a secondary workspace of a global record type are visible only from the workspace they were created and the original workspace of the global record type. 
-    For more information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). -->
+   * 添加到全局记录类型的原始工作区中的记录从原始工作区中可见。
+   * 添加到全局记录类型辅助工作区的记录仅在创建它们的工作区和全局记录类型的原始工作区中可见。
+有关详细信息，请参阅[跨工作区记录类型概述](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)。
 
 * 根据用户对Workspace和记录类型的权限，用户可以通过以下方式创建记录：
 
@@ -519,7 +518,7 @@ You can import records from other applications by linking them to existing recor
 1. （视情况而定）如果在尝试连接时找不到记录，请单击&#x200B;**+添加**
 
    或
-开始键入名称，然后单击&#x200B;**+添加**。 **+ Add**&#x200B;按钮后跟您连接到的记录类型的名称。 例如，将品牌添加到现有营销活动时，“添加品牌”。 您键入的名称还遵循“添加”按钮。
+开始键入名称，然后单击**+添加**。 **+ Add**&#x200B;按钮后跟您连接到的记录类型的名称。 例如，将品牌添加到现有营销活动时，“添加品牌”。 您键入的名称还遵循“添加”按钮。
 
    ![添加按钮以在突出显示的上下文中创建记录](assets/add-button-to-create-records-in-context-highlighted.png)
 

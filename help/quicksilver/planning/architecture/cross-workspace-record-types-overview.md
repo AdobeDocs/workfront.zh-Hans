@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1640'
 ht-degree: 0%
 
 ---
@@ -109,12 +109,12 @@ ht-degree: 0%
    * 创建和管理请求表单
    * 创建和管理自动化
 
-* 您添加到全局记录类型的记录仅对具有对其所添加的工作区的查看权限的用户可见。<!-- this needs to be more specific: what does "o the workspace where they were added" mean? - added in which kind of workspaces? secondary or primary; asking Lilit-->
+* 您添加到全局记录类型的记录仅对具有对其所添加的工作区的查看权限的用户可见。
 * 从辅助工作区添加的记录将汇总并显示在原始工作区中。 原始工作区的所有成员都将获得对其的“查看”权限。
 * 将原始全局记录类型添加到多个辅助工作区时，存在以下情况：
 
    * 原始工作区的成员将自动获得从任何工作区添加的所有记录的查看权限，即使他们不是这些工作区的成员。
-   * 辅助工作区成员只能查看其所属工作区的记录。<!--change this to: Secondary workspace members can view only records from the workspace the records were added and where they have at least permissions to view the record workspace and the record type.-->
+   * 辅助工作区成员只能查看其所属工作区的记录。
 
 * 连接到全局记录类型的记录类型将可用于从添加此记录类型的工作区进行连接。
 
@@ -172,23 +172,16 @@ ht-degree: 0%
    * 创建和管理请求表单
    * 创建和管理自动化
 
-* 只有在您具有辅助工作区的“查看”或更高权限时，才可以看到从以下工作区添加到辅助工作区的记录：
+* 如果您对辅助工作区具有“查看”或更高权限，则可从以下工作区查看这些工作区中添加的记录：
 
-   * 在其中添加它们的辅助工作区。
-   * 全局记录类型的原始工作区。
-   * 添加全局工作区的所有其他工作区。
-
-  <!--replace he above bullet with this: 
-        * Records added in a secondary workspace are visible from the following workspaces, only if you have View or higher permissions to these workspaces:
-        * The secondary place where they were added
-        * The global record type's original workspace
-    -->
+   * 添加这些区段的次要位置
+   * 全局记录类型的原始工作区
 
 * 在辅助工作区中创建的记录存在以下情况：
 
    * 如果您对原始工作区具有“管理”权限，而对辅助工作区没有权限，则可以查看从原始工作区中的辅助工作区添加的记录，但无法从原始工作区管理这些记录。
    * 如果您对辅助工作区具有管理权限，则可以从全局记录类型的原始工作区以及添加这些记录的辅助工作区中管理记录。
-   * 您只能在添加全局记录类型的附加辅助工作区中查看记录，但前提是您对这些工作区具有查看权限。<!-- take this bullet out when we change this functionality on Jan 15-->
+     <!--not anymore: * You can view the records in additional secondary workspaces where the global record type is added only if you have View permissions to those workspaces-->
 * 不能在辅助工作区中公开共享全局记录类型的视图。
 
 ### 访问全局记录类型的连接
