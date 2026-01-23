@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 179a20f1ae6ab723963cc78e9573560968500ac5
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 0%
+source-wordcount: '797'
+ht-degree: 1%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 0%
 
 用户的命令和AI执行这些命令共同工作，以确保AI所做的更改准确反映在您的环境中。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 * AI助手代表用户所做的更改在记录的历史记录面板中进行跟踪。
 
-* 您可以使用命令撤消操作。 例如，您可以键入“撤消上次更改”以恢复更改。
+* AI助理采取的行动是永久性的，而且可能不可逆转。 例如，删除字段操作不能撤销。 在接受之前，请查看AI助手建议的所有操作。
 
 * 通过AI助手创建、更新或删除对象时，AI助手会显示预期操作并请求确认。 然后，您可以确认或取消操作。
 
