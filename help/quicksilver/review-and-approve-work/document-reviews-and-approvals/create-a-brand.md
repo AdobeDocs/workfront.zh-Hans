@@ -6,9 +6,9 @@ description: 为AI审阅者设置品牌
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: cf1d4bfeedb94e8607dad47177d804169254ee85
+source-git-commit: cd2a5560fdf446e8e971afcb640af38b4d301d40
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '410'
 ht-degree: 5%
 
 ---
@@ -57,7 +57,7 @@ AI审阅者使用品牌准则在审阅过程中评估内容。 您可以通过�
 
 * 贵组织必须已迁移到Adobe IMS (Identity Management System)。
 * 您的Workfront实例必须启用统一批准。
-  <!--* Your organization must have GenStudio Foundation.-->
+* 您的组织必须具有GenStudio Foundation。
 * Adobe必须有一个已签署的Adobe Gen AI协议文件。
 有关签署协议的更多信息，请参阅[签署Adobe Gen AI协议](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)。
 

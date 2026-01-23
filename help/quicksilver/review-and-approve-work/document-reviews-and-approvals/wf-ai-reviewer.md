@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: b926138cca96849f8c4490ec9550fecfd17da69a
+source-git-commit: cd2a5560fdf446e8e971afcb640af38b4d301d40
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '663'
 ht-degree: 5%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 5%
 
 * 贵组织必须已迁移到Adobe IMS (Identity Management System)。
 * 您的Workfront实例必须启用统一批准。
-  <!--* Your organization must have GenStudio Foundation.-->
+* 您的组织必须具有GenStudio Foundation。
 * Adobe必须有一个已签署的Adobe Gen AI协议文件。
 有关签署协议的更多信息，请参阅[签署Adobe Gen AI协议](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)。
 
@@ -60,7 +60,7 @@ AI审阅者可审阅以下文件类型：
 
 ## 设置品牌指南
 
-Workfront AI审核者在审核内容时使用品牌准则。 Workfront管理员可以在Workfront设置区域中设置品牌指南。<!--Brands created in GenStudio Foundation are also available in Workfront.-->
+Workfront AI审核者在审核内容时使用品牌准则。 Workfront管理员可以在Workfront设置区域中设置品牌指南。 在GenStudio Foundation中创建的品牌也可以在Workfront中使用。
 
 有关详细信息，请参阅[为AI审阅者设置品牌](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)。
 
