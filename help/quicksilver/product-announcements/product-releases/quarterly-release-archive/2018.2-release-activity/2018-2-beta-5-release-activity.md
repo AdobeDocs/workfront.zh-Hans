@@ -155,7 +155,7 @@ ht-degree: 1%
 
 有关调整列表中列重新排序大小的信息，请参阅[修改列宽和顺序](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)。
 
-要参加我们的测试版测试计划以改进当前列表，请参阅[新列表研究。](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront) （需要登录）
+要参加我们的测试版测试计划以改进当前列表，请参阅[新列表研究。](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=zh-Hans) （需要登录）
 
 ## 图标对新项目列表的支持 {#icon-support-for-the-new-project-lists}
 

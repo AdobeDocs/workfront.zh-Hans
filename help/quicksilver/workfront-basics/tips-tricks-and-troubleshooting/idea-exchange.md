@@ -25,7 +25,7 @@ ht-degree: 0%
 
 投票支持一个想法：
 
-1. 登录以下URL的[!DNL Adobe Workfront]网站上的[!DNL Adobe Experience League]社区： [[!DNL Adobe Workfront] 社区](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)。
+1. 登录以下URL的[!DNL Adobe Workfront]网站上的[!DNL Adobe Experience League]社区： [[!DNL Adobe Workfront] 社区](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=zh-Hans)。
 
 1. 单击&#x200B;**[!UICONTROL 想法]**&#x200B;选项卡。
 
@@ -48,4 +48,4 @@ ht-degree: 0%
 * **[!UICONTROL 已交付]：**&#x200B;已创建并交付解决方案。 将不再提供进一步的更新，并将禁用评论。
 * **[!UICONTROL 已存档]**：达到18个月标记（从提交日期起）且分数少于300的创意将被存档。
 
-若要开始使用或了解详细信息，请登录[创新实验室](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)。
+若要开始使用或了解详细信息，请登录[创新实验室](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=zh-Hans)。

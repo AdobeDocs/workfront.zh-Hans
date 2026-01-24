@@ -125,4 +125,4 @@ ht-degree: 22%
 
 ### 在社区论坛中查找答案
 
-* **提问**：如果文档不能回答您的问题，请尝试在[Workfront社区论坛](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en)中发帖，其他用户和专家可以在其中提供帮助。
+* **提问**：如果文档不能回答您的问题，请尝试在[Workfront社区论坛](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=zh-Hans)中发帖，其他用户和专家可以在其中提供帮助。

@@ -145,7 +145,7 @@ ht-degree: 0%
 
 有关将资源规划者数据导出到Excel的更多信息，请参阅[资源规划者导航概述](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md)中的“导出选项”部分。
 
-要参与我们当前针对资源规划者的测试版计划，请参阅[资源规划者绩效Beta。](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)
+要参与我们当前针对资源规划者的测试版计划，请参阅[资源规划者绩效Beta。](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=zh-Hans)
 
 ## 系统设置：外部页面中的会话信息 {#system-setting-session-information-in-external-pages}
 

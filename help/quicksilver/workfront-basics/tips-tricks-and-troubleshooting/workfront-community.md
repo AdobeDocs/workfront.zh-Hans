@@ -54,7 +54,7 @@ Adobe [!DNL Workfront]社区是超过10,000个[!DNL Workfront]用户的在线组
 
 ### [!DNL Workfront]社区的URL是什么？
 
-[!DNL Workfront]社区位于[!DNL Adobe Experience League]网站上的以下URL： [[!DNL Workfront] 社区](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)。
+[!DNL Workfront]社区位于[!DNL Adobe Experience League]网站上的以下URL： [[!DNL Workfront] 社区](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=zh-Hans)。
 
 ### 我的子域是什么？ {#what-s-my-subdomain}
 
