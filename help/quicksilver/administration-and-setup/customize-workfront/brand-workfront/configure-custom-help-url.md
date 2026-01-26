@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d2b63508-1943-4f9e-888e-8f1bfb54c33e
-source-git-commit: 17aaf70977aa6ce0276676c6a30fd6c951be956c
+source-git-commit: 5fac387d598e2959566547df5d2d11078ec25154
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 4%
+source-wordcount: '254'
+ht-degree: 12%
 
 ---
 
@@ -19,22 +19,22 @@ ht-degree: 4%
 
 如果您创建自定义内部帮助站点，其中包含有关贵组织如何使用Workfront的信息，则可以配置主菜单帮助图标以转到该站点。
 
-![自定义帮助按钮](assets/custom-help-button.png)
+![自定义帮助按钮](assets/custom-help-with-left-menu.png)
 
 这不会影响整个Workfront中的上下文相关帮助链接，这些链接会将用户转到Workfront帮助站点。
 
 有关用户如何访问您在Workfront中配置的自定义帮助URL和常规Workfront帮助网站的信息，请参阅[访问Adobe Workfront帮助](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
+   <td>Adobe Workfront 包</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -53,7 +53,7 @@ ht-degree: 4%
 
 +++
 
-## 配置自定义帮助URL
+## 配置自定义帮助 URL
 
 {{step-1-to-setup}}
 
@@ -64,4 +64,4 @@ ht-degree: 4%
 
 1. 单击&#x200B;**保存**。
 
-   保存自定义帮助URL后，可以通过删除自定义URL并单击“保存”**返回到默认的Workfront帮助站点。**
+   保存自定义帮助URL后，您可以通过删除自定义URL并单击“保存”****&#x200B;来返回使用默认Workfront帮助站点。
