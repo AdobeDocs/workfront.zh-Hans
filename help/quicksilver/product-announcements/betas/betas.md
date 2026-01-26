@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
-source-git-commit: d84264110fe6abe2a260cc46483c78b9b0034b9b
+source-git-commit: b52c188d767ee37699ead71ed90642458d9889fa
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '143'
 ht-degree: 1%
 
 ---
@@ -34,6 +34,9 @@ Beta版中提供的功能可能并非对所有客户都可用。
 * Workfront AI审阅者
 有关信息，请参阅[Workfront AI查看器入门](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)。
 
+* Adobe Workfront计划Designer在已关闭的Beta中提供。 您可以发送电子邮件给我们，请求访问此程序。
+
+  有关信息，请参阅[Adobe Workfront规划Designer入门](/help/quicksilver/planning/general/planning-ai-designer.md)。
 
 
 <!--

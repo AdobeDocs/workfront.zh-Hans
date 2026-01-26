@@ -1,11 +1,11 @@
 ---
 title: Adobe Workfront计划免费试用版快速入门
-description: Adobe Workfront目前提供Adobe Workfront Planning的60天免费试用。 这次试用让您有机会了解Planning如何将大局战略与日常工作联系起来，从而使其实现。 Planning提供了营销生命周期的集中可视性，实现了跨团队更好的协作、实时活动跟踪和自动化工作流。 您可以创建自定义工作区，并使用交互式时间表和日历将工作可视化。 通过此次试用，您将亲眼看到Planning如何帮助日常工作与战略目标保持一致、简化执行并为您的组织带来可衡量的结果。
+description: Adobe Workfront提供Adobe Workfront Planning的60天免费试用。 这次试用让您有机会了解Planning如何将大局战略与日常工作联系起来，从而使其实现。 Planning提供了营销生命周期的集中可视性，实现了跨团队更好的协作、实时活动跟踪和自动化工作流。 您可以创建自定义工作区，并使用交互式时间表和日历将工作可视化。 通过此次试用，您将亲眼看到Planning如何帮助日常工作与战略目标保持一致、简化执行并为您的组织带来可衡量的结果。
 hidefromtoc: true
 hide: true
-source-git-commit: 01627468b106d2bea721f867512cf3b7f9b65a89
+source-git-commit: b52c188d767ee37699ead71ed90642458d9889fa
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '1134'
 ht-degree: 1%
 
 ---
@@ -25,15 +25,19 @@ recommendations: noDisplay, noCatalog-->
 <!--remove the best practice link below and replace it with the folder for best practice instead-->
 <!--check the names of areas, buttons, and links: Learn more, Open Planning, Review trial agreement, etc-->
 
-Adobe Workfront目前提供Adobe Workfront Planning的60天免费试用。
+Adobe Workfront Planning可集中查看您的营销生命周期，从而改善跨团队协作、实时跟踪营销活动和自动化工作流。 您可以创建自定义工作区，并使用交互式时间表和日历将工作可视化。
 
-审判日期为2026年3月2日至5月1日。
-
-Workfront Planning试用版不适用于当前的Workfront Planning客户。 此试用版为那些不打算进行Workfront规划的Adobe Workfront客户提供了一个机会，让他们能够体验到Planning，并了解它如何将宏观战略与日常工作联系起来，从而实现这一点。
-
-Workfront Planning可集中查看您的营销生命周期，从而改善跨团队协作、实时跟踪营销活动和自动化工作流。 您可以创建自定义工作区，并使用交互式时间表和日历将工作可视化。
+>[!IMPORTANT]
+>
+>* Adobe Workfront提供Adobe Workfront Planning的60天免费试用。
+>
+>* 审判日期为2026年3月2日至5月1日。
+>
+>* 请注意，试用版自启动后有60天可用，自您加入后有60天可用。
 
 通过此次试用，您将亲眼看到Planning如何帮助日常工作与战略目标保持一致、简化执行并为您的组织带来可衡量的结果。
+
+在您的Workfront管理员接受协议并注册免费试用后，贵组织中的每个人都可以在2026年3月2日开始使用Workfront Planning。
 
 免费的Workfront Planning试用版提供以下功能：
 
@@ -44,21 +48,38 @@ Workfront Planning可集中查看您的营销生命周期，从而改善跨团�
 
 ## 加入试用版的先决条件
 
-贵公司必须具备以下条件才能加入Workfront计划免费试用：
+贵公司必须满足以下要求才能加入Workfront计划免费试用：
 
-* 任何新的Adobe Workfront或工作流包
-Workfront计划试用版不适用于旧版Workfront包。
+* 具有以下任何新的Adobe Workfront或Workflow包：
+
+   * 选择
+   * Prime
+   * Ultimate
+
+  Workfront计划试用版不适用于旧版Workfront包。
 有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
-* 对Adobe Admin Console的访问权限
-* 成为Identity Management System (IMS)的一部分
-* 您组织的Workfront实例中提供的已签署的法律试用协议
+* 有权访问Adobe Admin Console
+* 是Identity Management System (IMS)的一部分
+* 接受贵组织的Workfront实例中提供的法律试用协议，从2026年1月26日开始。 您必须是Workfront管理员才能接受试用协议。
 
 ## 重要日期概述
 
 以下是与Adobe Workfront Planning免费试用产品相关的重要日期：
 
+* **2026年1月26日**： Workfront Planning免费试用横幅已发布给Workfront客户。 横幅包括以下内容：
+   * 此文档的链接。
+   * 试用协议接受窗口。 只有Workfront管理员可以接受协议。 自此日期起，您可以随时接受试用协议。
 * **2026年3月2日**： Workfront计划试用。
-* **2026年5月1日**： Workfront Planning试用期已结束，您对Planning的访问权限已删除。 Workfront会在试用期结束后保护您的数据。
+
+  存在以下情况：
+
+   * 如果您的Workfront管理员在此日期之前已接受协议，则可以在主菜单中找到Planning区域，并开始使用Workfront Planning。
+   * 如果您的Workfront管理员在此日期之前未接受协议，则必须先接受协议，然后才能访问Workfront Planning。
+* **2026年5月1日**： Workfront Planning试用期已结束，您对Planning的访问权限已删除。
+
+  Workfront会在试用期结束后保护您的数据，但您将无法再访问这些数据。
+
+  无论您何时接受协议，您对Planning的访问权限都将在此日期终止。
 * **2026年11月30日**：在此日期之后，Workfront不再保护您的数据。 如果在此日期之前购买Workfront Planning，您将重新获得对Planning和数据的访问权限。
 
 <!--Lauren wanted this out: 
@@ -105,13 +126,13 @@ Workfront计划试用版不适用于旧版Workfront包。
 
       接受试用协议后，会发生以下情况：
 
-      * 计划区域将添加到您和系统中所有具有&#x200B;**试用版**&#x200B;徽章的用户的主菜单。
-      * 您获得“计划”区域中&#x200B;**最佳实践工作区**&#x200B;选项卡的管理访问权限。
-      * 您系统中的所有用户都将获得对“规划”区域中&#x200B;**最佳实践工作区**&#x200B;选项卡的查看权限。
+      * 计划区域将添加到您和系统中所有用户的主菜单，并显示&#x200B;**试用版**&#x200B;徽章。
+      * 作为系统管理员，您获得对“规划”区域中&#x200B;**最佳实践工作区**&#x200B;选项卡的管理访问权限。
+      * 您系统中所有不是系统管理员的用户都将获得对Planning区域的&#x200B;**最佳实践工作区**&#x200B;选项卡的查看访问权限。
    1. （视情况而定）如果您不是系统管理员，并且系统管理员尚未接受试用协议，请按照包含&#x200B;**Workfront Planning试用**&#x200B;相关信息的应用程序内横幅进行操作，然后单击&#x200B;**了解详情**。
 
       您可以阅读有关Workfront Planning试用版和Workfront Planning的更多信息。
-   1. （视情况而定）如果您不是系统管理员，并且系统管理员已接受试用协议，请按照包含&#x200B;**Workfront Planning试用**&#x200B;相关信息的应用程序内vanner进行操作，然后单击&#x200B;**打开Planning**。
+   1. （视情况而定）如果您不是系统管理员，并且系统管理员已接受试用协议，请按照包含&#x200B;**Workfront Planning试用**&#x200B;相关信息的应用程序内横幅进行操作，然后单击&#x200B;**打开Planning**。
 
       开始浏览&#x200B;**最佳实践工作区**&#x200B;选项卡，并与他人共享工作区或其对象。
 
@@ -121,16 +142,16 @@ Workfront计划试用版不适用于旧版Workfront包。
 
 ## 免费试用期间的Workfront Planning数据权限
 
-* 2026年3月2日至5月1日：
+* **2026年3月2日至5月1日期间**：
 
   您被授予对&#x200B;**计划试用版**&#x200B;区域的&#x200B;**最佳实践工作区**&#x200B;选项卡中可用数据的以下权限：
 
-   * 所有系统管理员都具有管理权限。
-   * 所有其他用户均具有查看权限。
+   * 所有系统管理员都拥有对Planning区域中的“最佳实践工作区”选项卡的管理权限。
+   * 所有其他用户都拥有对Planning区域中的“最佳实践工作区”选项卡的查看权限。
 
-* 2026年5月1日之后：
+* **在2026年5月1日之后：**
 
-  您对Workfront Planning的访问权限已删除，Workfront可保护您的数据。
+  您系统中的所有用户都已删除对Workfront Planning的访问权限，Workfront可保护您的数据。
 
 
 

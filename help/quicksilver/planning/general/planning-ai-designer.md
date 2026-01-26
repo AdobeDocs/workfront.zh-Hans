@@ -1,32 +1,33 @@
 ---
 title: Adobe Workfront规划Designer快速入门
-description: 使用Adobe Planning Designer，您可以生成新的工作区，在Workfront Planning中填写记录类型和字段，将对象添加到工作区，或查看记录的更改历史记录。
+description: 您可以使用由AI提供支持的Adobe Planning Designer来轻松配置工作区和数据结构。 Planning Designer支持从创建和配置工作区到定义字段和公式、管理记录、查看更改历史记录和构建自定义视图的所有功能。 无论直接使用还是通过AI Assistant，Planning Designer都为构建和维护结构化、关联的信息提供了一个灵活、强大的环境。
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
-hide: true
-source-git-commit: bd3dde54d986416af847b2f3b2a1e8570d5ce3f2
+author: Alina, Becky
+feature: Workfront Planning
+role: User, Admin
+source-git-commit: b52c188d767ee37699ead71ed90642458d9889fa
 workflow-type: tm+mt
-source-wordcount: '1278'
-ht-degree: 1%
+source-wordcount: '1480'
+ht-degree: 0%
 
 ---
 
 
-<!--add these at release to the metadata:
-
-author: Alina, Becky
-feature: Workfront Planning
-role: User, Admin -->
-
 # Adobe Workfront规划Designer快速入门
-
-{{planning-important-intro}}
-
-您可以使用由AI提供支持的Adobe Planning Designer来生成新工作区，向工作区中添加对象（记录类型、记录、视图或字段），或查看记录的更改历史记录。
 
 >[!IMPORTANT]
 >
 >Planning Designer目前仅适用于参与“已关闭的Beta”计划的用户。
+>
+>本文中的信息介绍了Adobe Workfront Planning，它是Adobe Workfront的一项附加功能。
+>
+>有关访问Workfront Planning的要求列表，请参阅[Adobe Workfront Planning访问概述](/help/quicksilver/planning/access/access-overview.md)。
+> 
+>有关Workfront Planning的一般信息，请参阅[Adobe Workfront Planning入门](/help/quicksilver/planning/general/planning-overview.md)。
+
+您可以使用由AI提供支持的Adobe Planning Designer来轻松配置工作区和数据结构。 Planning Designer支持从创建和配置工作区到定义字段和公式、管理记录、查看更改历史记录和构建自定义视图的所有功能。
+
+无论直接使用还是通过AI Assistant，Planning Designer都为构建和维护结构化、关联的信息提供了一个灵活、强大的环境。
 
 有关Workfront Planning的信息，请参阅以下文章：
 
@@ -70,7 +71,7 @@ role: User, Admin -->
 
 +++
 
-## 在封闭式Beta项目中注册计划Designer
+## 注册已关闭的Beta项目以规划Designer
 
 目前，您可以通过向我们发送电子邮件(sargism@adobe.com)来请求参加计划Designer的已关闭Beta计划。
 
@@ -79,6 +80,22 @@ role: User, Admin -->
 >[!IMPORTANT]
 >
 >您的公司必须首先接受AI助手协议，然后才能在系统中使用规划Designer。
+
+## 提交关于Planning Designer的反馈
+
+您可以在测试版计划期间提交关于Planning Designer的反馈。
+
+1. 登录到Workfront，然后单击左上角的&#x200B;**主菜单**&#x200B;图标![行主菜单](assets/lines-main-menu.png)，然后单击&#x200B;**计划**。
+
+   **计划**&#x200B;区域打开。
+
+1. 单击&#x200B;**使用AI创建**。<!--update this tag name when they change it-->
+
+   将打开&#x200B;**计划Designer**&#x200B;窗口的&#x200B;**Workspace设置**&#x200B;区域。<!--replace shot below when they rename the area to Planning Designer-->
+
+1. 单击页面底部的&#x200B;**在此提交反馈**。
+1. 在提供的共享空间中添加您的反馈，然后单击&#x200B;**提交**。
+您的反馈将提交给工程和产品团队。
 
 ## 关于Planning Designer的注意事项
 
@@ -93,7 +110,7 @@ role: User, Admin -->
    * Workfront管理员必须接受AI Assistant协议，然后为所有其他用户打开AI Assistant。
 
      有关详细信息，请参阅[启用或禁用AI助手](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)。
-* 系统管理员为您的组织启用AI助手后，如果已经为您的组织提供了Planning助手，则默认情况下所有用户都可以使用该助手。
+* 系统管理员为您的组织启用AI助手后，如果已经为您的组织提供了Planning Designer，则默认情况下它可供所有用户使用。
 * 在Planning区域使用Planning Designer时，AI助手也可以执行由Planning Assistant执行的操作。
 * AI助手在“规划”区域中执行的操作或由Planning Designer执行的操作与您的Workfront Planning权限和Workfront访问级别相关。
 
@@ -155,13 +172,13 @@ role: User, Admin -->
 
 1. 登录到Workfront，然后单击左上角的&#x200B;**主菜单**&#x200B;图标![行主菜单](assets/lines-main-menu.png)，然后单击&#x200B;**计划**。
 
-   **计划**&#x200B;区域打开。
+   **计划**&#x200B;区域打开。<!--update screen shot when they change the name of the button-->
 
    ![“工作区”页面上的“使用AI设计”按钮](assets/design-with-ai-button-on-workspaces-page.png)
 
-1. 单击&#x200B;**使用AI设计**。
+1. 单击&#x200B;**使用AI创建**。<!--update this when they change it-->
 
-   将打开&#x200B;**计划Designer**&#x200B;窗口。
+   将打开&#x200B;**计划Designer**&#x200B;窗口的&#x200B;**Workspace设置**&#x200B;区域。<!--replace shot below when they rename the area to Planning Designer-->
 
    ![计划Designer窗口](assets/planning-designer-window.png)
 
@@ -216,7 +233,7 @@ role: User, Admin -->
 1. 以系统管理员身份登录到Workfront。
 1. 单击屏幕左上角的&#x200B;**主菜单** ![主菜单图标](assets/main-menu-shell.png)，然后单击&#x200B;**设置**。
 1. 单击左侧面板中的&#x200B;**系统** >，然后转到&#x200B;**AI首选项**&#x200B;区域。
-1. 关闭&#x200B;**计划Designer**&#x200B;设置。<!--add new screen shot with info icon-->
+1. 关闭&#x200B;**Planning Onboarding**&#x200B;设置。<!--add new screen shot with info icon and new name of the toggle; ensure you don't show the AI Reviewer if it is not in Prod yet-->
 
    系统首选项中的![规划Designer设置](assets/planning-designer-toggle-in-system-preferences.png)
 1. 单击&#x200B;**保存**。
