@@ -4,20 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: 访问，模型，funnel，图表，级别，权限
 navigation-topic: access-levels
-title: 内置访问级别
+title: 内置访问级别（旧版）
 description: 当前六个内置访问级别中的每一个都针对特定类型的用户而设计，这些用户包括系统管理员、规划者、工作人员、查看者、请求者和外部用户。 通过这些访问级别，您可以控制用户在系统中可以编辑和查看的内容。 如果您需要自定义访问级别，则可以复制内置访问级别，并根据您希望它允许各种Workfront对象类型的访问量对其进行修改。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1656'
 ht-degree: 7%
 
 ---
 
-# 内置访问级别
+# 内置访问级别（旧版）
 
 <!--Audited: 01/2024-->
 

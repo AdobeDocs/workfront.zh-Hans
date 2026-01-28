@@ -1,5 +1,5 @@
 ---
-title: 对新许可计划中的非付费用户禁用自动升级选项
+title: 禁用非付费用户的自动升级选项
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,14 +10,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 58c76187-fc74-4ab4-80e8-c3e296a84f27
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 2%
+source-wordcount: '188'
+ht-degree: 10%
 
 ---
 
-# 对新许可计划上的非付费用户禁用自动升级选项
+# 禁用非付费用户的自动升级选项
 
 对于新计划上的所有未付费Workfront许可证，验证和文档决策受到限制。 当用户达到其分配数量的决策时，默认情况下会升级到轻量级许可证。
 
@@ -27,16 +27,16 @@ ht-degree: 2%
 >
 >禁用后，任何超出分配数量的决策的非付费用户都不会自动升级。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td>任何</td> 
   </tr> 
   <tr> 

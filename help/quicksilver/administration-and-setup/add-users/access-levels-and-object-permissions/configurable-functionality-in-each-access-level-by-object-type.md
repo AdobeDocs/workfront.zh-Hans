@@ -1,18 +1,18 @@
 ---
-title: 可配置访问每种对象类型的功能
+title: 可配置访问每种对象类型的功能（旧版）
 description: 本文介绍了作为Adobe Workfront管理员，您可以对每个对象类型在每个访问级别允许什么。 它还说明了每种访问级别的默认配置。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '3508'
+source-wordcount: '3510'
 ht-degree: 10%
 
 ---
 
-# 可配置访问每种对象类型的功能
+# 可配置访问每种对象类型的功能（旧版）
 
 >[!NOTE]
 >

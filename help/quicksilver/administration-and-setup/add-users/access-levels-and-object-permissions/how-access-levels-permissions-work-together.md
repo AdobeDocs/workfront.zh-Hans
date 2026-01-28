@@ -1,5 +1,5 @@
 ---
-title: 访问级别和权限如何协同工作
+title: 旧版访问级别和权限如何协同工作
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,14 +10,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '901'
 ht-degree: 2%
 
 ---
 
-# 访问级别和权限如何协同工作
+# 旧版访问级别和权限如何协同工作
 
 >[!NOTE]
 >

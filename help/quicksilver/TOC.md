@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: bf34bfa2059d227eca3faa3d719adcf4d711e457
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '13724'
+source-wordcount: '13721'
 ht-degree: 2%
 
 ---
@@ -516,25 +516,25 @@ ht-degree: 2%
          * [查看和导出审核日志](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
          * [查看用户登录信息](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
          * [在Adobe Admin Console中管理用户](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
-      * 新访问级别的工作方式 {#access-levels}
-         * [新访问级别的工作方式](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
-         * [新访问级别概述](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-         * [新许可证概述](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
-         * [通过新许可证访问对象和区域](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
-         * [可用于新访问级别的每种对象类型的功能](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
-         * [对新许可计划上的非付费用户禁用自动升级选项](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
+      * 访问级别的工作方式 {#access-levels}
+         * [访问级别的工作方式](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
+         * [访问级别概述](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+         * [许可证概述](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
+         * [按许可证访问对象和区域](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+         * [可用于每种对象类型的功能](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+         * [禁用非付费用户的自动升级选项](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
          * [比较不同许可证模型的功能](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/comparing-old-and-new-license-models.md)
          * [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
-      * 访问级别的工作方式 {#legacy-access-levels}
-         * [访问级别的工作方式](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
-         * [访问概述](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
-         * [许可证概述](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
-         * [访问级别和权限](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
-         * [按许可证类型访问对象和区域](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
-         * [每种对象类型的功能](administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
-         * [针对每种对象类型的可配置访问](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
-         * [内置访问级别](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
-         * [列出用户的访问级别和许可证](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
+      * 旧版访问级别的工作方式 {#legacy-access-levels}
+         * [旧版访问级别的工作方式](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
+         * [旧版访问级别概述](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
+         * [旧版许可证概述](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
+         * [旧版访问级别和权限](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
+         * [按许可证类型访问对象和区域（旧版）](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+         * [每种对象类型的功能（旧版）](administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
+         * [针对每种对象类型的可配置访问（旧版）](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
+         * [内置访问级别（旧版）](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
+         * [列出用户的访问级别和许可证（旧版）](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
       * 配置对Workfront的访问权限 {#configure-access}
          * [配置访问权限](administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
          * [创建或修改自定义访问级别](administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)
@@ -2544,8 +2544,8 @@ ht-degree: 2%
       * [使用PKCE流程配置和使用您组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-pkce-flow.md)
       * [弃用API — 内部](wf-api/api/deprecation-api-internal.md)
       * [API版本21中的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-      * [API版本20中的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [API版本19中的新增功能](wf-api/api/new-api-version-19.md)
+      * [API版本20](/help/quicksilver/wf-api/api/new-api-version-20.md)中的新增功能
+      * [API版本19](wf-api/api/new-api-version-19.md)中的新增功能
       * [API版本18中的新增功能](wf-api/api/new-api-version-18.md)
       * [API版本17中的新增功能](wf-api/api/new-api-version-17.md)
       * [API版本16中的新增功能](wf-api/api/new-api-version-16.md)

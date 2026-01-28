@@ -3,20 +3,20 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: access-levels
-title: 按许可证类型访问对象和区域
+title: 按许可证类型访问对象和区域（旧版）
 description: 下表告诉您每个Adobe Workfront许可证对Workfront中的对象和区域允许的最高访问级别（编辑或查看）。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '482'
 ht-degree: 23%
 
 ---
 
-# 按许可证类型访问对象和区域
+# 按许可证类型访问对象和区域（旧版）
 
 <!-- Audited: 11/2025 -->
 

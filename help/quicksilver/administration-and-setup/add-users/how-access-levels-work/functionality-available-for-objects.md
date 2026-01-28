@@ -4,20 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: 访问，模型，funnel，图表，级别，权限
 navigation-topic: access-levels
-title: 可用于新访问级别的每种对象类型的功能
+title: 可用于每种对象类型的功能
 description: 下表列出了各种访问级别中每种对象类型的可用功能。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: eec482dceb9a35225cb28cccc13811a91536cc83
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1326'
 ht-degree: 14%
 
 ---
 
-# 可用于新访问级别的每种对象类型的功能
+# 可用于每种对象类型的功能
 
 {{highlighted-preview}}
 
@@ -32,7 +32,7 @@ ht-degree: 14%
 >[!NOTE]
 >
 >* 本文介绍了可用于访问新Workfront包模型中的级别的功能。 要查看当前包模型中可用的功能，请参阅[各种访问级别中每种对象类型可用的功能](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)。
->* 有关最新模型中其他包可用的功能列表，请参阅[Adobe Workfront定价和打包](https://business.adobe.com/cn/products/workfront/pricing.html)。
+>* 有关最新模型中其他包可用的功能列表，请参阅[Adobe Workfront定价和打包](https://business.adobe.com/products/workfront/pricing.html)。
 
 ## 项目
 

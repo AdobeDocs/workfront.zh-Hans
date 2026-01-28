@@ -1,5 +1,5 @@
 ---
-title: 新建访问级别概述
+title: 访问级别概述
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,14 +10,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 091d343b5c36ab6bca09aecfc8cba248adcd11e3
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '1749'
+source-wordcount: '1747'
 ht-degree: 6%
 
 ---
 
-# 新访问级别概述
+# 访问级别概述
 
 >[!NOTE]
 >
