@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 2ffd06f2f50d14b6d33bc79c92616ebed1d58fed
 workflow-type: tm+mt
-source-wordcount: '2670'
+source-wordcount: '3518'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 1%
 
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 
 {{planning-important-intro}}
@@ -131,7 +131,7 @@ ht-degree: 1%
 1. 单击&#x200B;**创建**。
 
    此时将在“表单”选项卡中打开选定记录类型的请求表单。
-1. 继续[配置表单](#configure-the-form)。
+1. 继续[设置请求表单](#set-up-details-for-the-request-form)的详细信息。
 
 <!--
 
@@ -166,7 +166,11 @@ ht-degree: 1%
 表单详细信息分为选项卡。
 
 * **表单**&#x200B;选项卡允许您向表单添加字段和内容元素
-* **配置**&#x200B;选项卡允许您设置表单的批准流程并设置请求完成选项&lt;。
+* **配置**&#x200B;选项卡允许您设置表单的批准流程并设置请求完成选项。
+
+  >[!NOTE]
+  >
+  ><span class="preview">在“预览”环境中，“设置”选项卡将取代“配置”选项卡。</span>
   <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
 
 #### 设置表单详细信息
@@ -226,9 +230,17 @@ ht-degree: 1%
    有关生成自定义表单的详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 1. （可选）单击&#x200B;**预览**&#x200B;以查看当其他用户使用表单提交新记录时，该表单将如何显示给其他用户。
-1. 如果要配置表单的更多详细信息，请继续[设置配置详细信息](#set-up-configuration-details)，或转到[完成请求表单创建](#complete-request-form-creation)。
+1. 继续执行以下操作之一：
+
+   * [设置配置详细信息](#set-up-configuration-details)（如果要在生产环境中为表单配置更多详细信息）
+   * <span class="preview">[如果要为生产环境中的表单配置更多详细信息，请配置设置](#configure-settings)</span>
+   * 如果您不想配置进一步的设置，请[完成请求表单创建](#complete-request-form-creation)。
 
 #### 设置配置详细信息
+
+>[!NOTE]
+>
+>此选项卡仅在生产环境中可用。
 
 在配置选项卡上，您可以设置批准流程，并配置何时将从此表单创建的请求标记为“已完成”。
 
@@ -255,6 +267,82 @@ ht-degree: 1%
 1. 选择在创建请求的对象时还是完成请求的对象时，是否希望将从此表单创建的请求标记为完成。
 1. （视情况而定）如果已选择在请求对象完成时将请求标记为完成，请选择指示对象完成时间的字段和值。 例如，当创建的对象的状态设置为Complete时，您可以选择字段Status和值Complete以完成请求。
 1. 继续<!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[完成请求表单创建](#complete-request-form-creation)。
+
+<div class="preview">
+
+### 配置设置
+
+>[!NOTE]
+>
+>此选项卡仅在“预览”环境中可用。
+
+在设置选项卡上，您可以设置批准规则并配置何时将从此表单创建的请求标记为已完成。
+
+#### 配置审批规则
+
+审批规则根据已提交请求中的字段值定义审批流程。
+
+例如，如果请求表单具有“Campaign type”字段，则可以创建一个规则，在字段的值为“Digital”时将请求发送给一个人，在字段的值为“Print”时将请求发送给另一个人。
+
+添加审批规则时，请考虑以下事项：
+
+* 规则按顺序排定优先级。 如果满足第一个规则条件，则应用该规则，即使还满足列表下面规则的条件。
+* 如果不满足任何条件，则应用默认规则。
+* 您可以将一个或多个批准者添加到批准规则。
+* 如果至少有一位审批者拒绝了请求，则该请求会被拒绝，并且不会创建记录。 该请求仍保留在Workfront的请求区域中。
+* 如果您添加多个审批者，但未启用“只需一个决策”选项，则所有审批者必须在请求被批准或拒绝之前做出决策。
+* 如果将团队设置为批准者，则只需从团队中做出一个决策。
+
+有关添加审批的详细信息，请参阅[将审批添加到请求表单](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
+
+要为请求表单设置批准规则，请执行以下操作：
+
+1. 开始创建或编辑请求表单，如[开始创建请求表单](#begin-creating-a-request-form)部分中所述。
+
+   此时将在“表单”选项卡中打开选定记录类型的请求表单。
+1. （可选）设置任何表单详细信息，如[设置表单详细信息](#set-up-form-details)中所述。
+
+1. 要开始配置审批规则，请单击左侧导航中的审批![审批图标](assets/approvals-icon-on-form.png)。
+
+1. （可选）如果要设置默认审批流程，请将至少一个用户或团队添加到默认审批规则区域的&#x200B;**审批者**&#x200B;字段中，然后单击&#x200B;**只需一个决策**&#x200B;复选框（如果要在任何默认审批者批准记录后创建记录）。
+
+   ![默认审批规则区域](assets/default-approvers.png)
+
+   <!--below bullet list is duplicated in the Add approval to a request form article-->
+
+1. （可选）对于每个附加批准规则，执行以下操作：
+
+   1. 单击&#x200B;**添加批准规则**
+   1. 单击占位符标题“无标题的批准规则”并输入批准规则的名称。
+   1. 单击&#x200B;**选择字段**&#x200B;并选择激活规则的字段。
+   1. 选择规则的运算符。 运算符因字段类型而异。
+   1. 如果选定的运算符需要一个值，请单击加号图标并添加一个或多个值。
+   1. （可选）使用AND或OR添加更多条件，方法是单击添加条件并配置其他条件。
+   1. 在审批规则的“操作”区域的&#x200B;**审批者**&#x200B;字段中，添加至少一位满足条件时要在审批者处设置的用户或团队。
+   1. （视情况而定）如果希望在任何一位批准者批准记录后创建记录，请选中&#x200B;**仅需要一个决策**&#x200B;复选框。
+
+1. （可选）要重新排序路由规则，请单击规则左侧的拖动手柄，然后将规则拖动到所需位置。
+
+   无法对默认规则重新排序。
+
+1. （可选）要删除路由规则，请单击规则右侧的&#x200B;**X**。
+1. 单击&#x200B;**保存**&#x200B;以保存审批规则。
+1. 继续[设置请求完成选项](#set-request-completion-options)
+
+#### 设置请求完成选项
+
+完成选项允许您设置请求是在创建请求对象时标记为完成，还是在创建对象完成时标记为完成。 您可以根据指定的条件定义对象的完成时间。
+
+1. 开始创建或编辑请求表单，如[开始创建请求表单](#begin-creating-a-request-form)部分中所述。
+
+   此时将在“表单”选项卡中打开选定记录类型的请求表单。
+1. （可选）设置任何表单详细信息，如[设置表单详细信息](#set-up-form-details)中所述。
+
+1. 选择在创建请求的对象时还是完成请求的对象时，是否希望将从此表单创建的请求标记为完成。
+1. （视情况而定）如果已选择在请求对象完成时将请求标记为完成，请选择指示对象完成时间的字段和值。 例如，当创建的对象的状态设置为Complete时，您可以选择字段Status和值Complete以完成请求。
+1. 继续<!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[完成请求表单创建](#complete-request-form-creation)。
+
+</div>
 
 <!--
  
