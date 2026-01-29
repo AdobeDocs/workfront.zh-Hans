@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 45bc1820e4f6416e3d47139bbcf1a2156c5900dc
+source-git-commit: 9fcfea189bfc8827e41098823402f5e392b36d1b
 workflow-type: tm+mt
-source-wordcount: '6941'
+source-wordcount: '7040'
 ht-degree: 5%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 5%
 # 创建自定义表单
 
 <!-- Audited: 6/2025 -->
+
+{{preview-fast-release-general}}
 
 您可以使用Adobe Workfront中的表单设计器设计自定义表单。 您可以将自定义表单附加到不同的Workfront对象，以捕获有关这些对象的数据。
 
@@ -157,6 +159,10 @@ ht-degree: 5%
 
 * **单行文本字段**：允许用户在该字段中键入单行文本。
 * **段落字段**：允许用户在该字段中键入多行文本。
+* <span class="preview">**富文本**：允许用户在字段中键入多行文本，并用粗体、斜体、下划线、项目符号、编号、下标和上标、超链接、块引号、标题和表格设置文本的格式。 15,000的字符限制为文本和格式提供了很大的空间。</span>
+
+  <span class="preview">富文本字段类型正在将文本替换为格式字段类型。 通过单击右侧字段选项中的&#x200B;**转换为富文本**&#x200B;按钮，可以快速将带格式字段的现有文本转换为富文本。</span>
+
 * **带格式的文本字段**：允许用户在该字段中键入多行文本，并用粗体、斜体、下划线、项目符号、编号、超链接和块引号设置文本的格式。 15,000个字符的限制允许使用大量文本和格式。
 
   列表和报告上的过滤器不支持此自定义字段类型。
@@ -177,6 +183,7 @@ ht-degree: 5%
 
    * 单行文本
    * 段落
+   * <span class="preview">富文本</span>
    * 带格式文本
    * 描述性文本
 
@@ -197,6 +204,7 @@ ht-degree: 5%
     <td><ul>
     <li>单行文本</li>
     <li>段落</li>
+    <li><span class="preview">丰富文本</span></li>
     <li>带格式文本</li>
     <li>描述性文本</li>
     </ul></td>
@@ -208,6 +216,7 @@ ht-degree: 5%
     <td><ul>
     <li>单行文本</li>
     <li>段落</li>
+    <li><span class="preview">丰富文本</span></li>
     <li>带格式文本</li>
     </ul></td>
     </tr>
@@ -219,6 +228,7 @@ ht-degree: 5%
     <td><ul>
     <li>单行文本</li>
     <li>段落</li>
+    <li><span class="preview">丰富文本</span></li>
     <li>带格式文本</li>
     <li>描述性文本</li>
     </ul></td>
@@ -231,6 +241,7 @@ ht-degree: 5%
     <td><ul>
     <li>单行文本</li>
     <li>段落</li>
+    <li><span class="preview">丰富文本</span></li>
     <li>带格式文本</li>
     </ul></td>
     </tr>
@@ -266,15 +277,17 @@ ht-degree: 5%
      <td><ul>
      <li>单行文本</li>
      <li>段落</li>
+     <li><span class="preview">丰富文本</span></li>
      <li>带格式文本</li>
      <li>描述性文本</li></ul></td>
     </tr>
     <tr> 
-      <td role="rowheader">设为必填字段</td>
+      <td>设为必填字段</td>
       <td><p>如果希望该字段是用户完成自定义表单所必需的，请选择此选项。</p></td>
     <td><ul>
     <li>单行文本</li>
     <li>段落</li>
+    <li><span class="preview">丰富文本</span></li>
     <li>带格式文本</li>
     </ul></td> 
     </tr> 
@@ -653,12 +666,12 @@ ht-degree: 5%
       <td role="rowheader">JSON 路径</td>
       <td><p>键入或粘贴API的JSON路径。</p> <p>此选项允许从API URL返回的JSON中提取数据。 它提供了一种方法，用于选择在JSON内的哪些值将显示在下拉选项中。</p><p>例如，如果API URL按以下格式返回JSON，则可以使用“$.data[*].name”选择“美国”和“加拿大”作为下拉选项：</br>
       <pre>
-      &lbrace;
-       数据： &lbrace;
+      {
+       数据： {
          { name： "USA"}，
          { name： "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>有关JSON路径并确保编写正确JSON路径的更多信息，请参阅<a href="https://jsonpath.com/">https://jsonpath.com/</a>。</p></td>
