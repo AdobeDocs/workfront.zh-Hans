@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 665e753880be59cf07062d75c66a7be5f2056aa1
+source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1568'
 ht-degree: 0%
 
 ---
@@ -221,7 +221,7 @@ ht-degree: 0%
 
      或
 
-     单击&#x200B;**下移**&#x200B;以将节下移一个位置。
+     单击&#x200B;**下移**以将节下移一个位置。
 部分中的所有字段都会随部分一起移动。
 
    * 单击&#x200B;**删除**&#x200B;以删除该节。 该部分已被删除，无法恢复。 访问此类型记录的所有用户将不再查看已删除的分区。
@@ -275,12 +275,6 @@ ht-degree: 0%
 
    ![详细信息框](assets/details-box.png)
 
-1. （可选）单击记录预览右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签图标中打开详细信息框](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->以在新标签中打开记录页面。
-
-   默认情况下将打开记录的&#x200B;**详细信息**&#x200B;选项卡。
-
-   ![详细信息页面](assets/details-page.png)
-
 1. <span class="preview">（可选且有条件）根据要在“详细信息”页面中显示的字段，执行以下操作之一：</span>
 
    <div class="preview">
@@ -288,12 +282,23 @@ ht-degree: 0%
    * 选择&#x200B;**显示表字段**&#x200B;设置可仅查看未在记录表视图中隐藏的字段。 这是默认设置
    * 取消选择&#x200B;**显示表字段**&#x200B;设置以查看记录表视图中的所有字段，包括隐藏字段。
 
+   >[!TIP]
+   >
+   >**显示表字段**&#x200B;设置仅在记录的“详细信息”预览框中可用。 在记录的“详细信息”页面中不可用。
+
+
    <!--replace with this when they fix the UI text:
    * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
    * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
    -->
 
    </div>
+
+1. （可选）单击记录预览右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签图标中打开详细信息框](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->以在新标签中打开记录页面。
+
+   默认情况下将打开记录的&#x200B;**详细信息**&#x200B;选项卡。
+
+   ![详细信息页面](assets/details-page.png)
 
 1. 在记录&#x200B;**详细信息**&#x200B;选项卡中，单击字段名称左侧的&#x200B;**抓取**&#x200B;图标![抓取图标](assets/grab-icon.png)，然后将其拖放到所需位置。
 

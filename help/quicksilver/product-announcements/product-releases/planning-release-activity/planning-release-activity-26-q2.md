@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 03142ce47e7b123eea63b409749346469f5feb14
+source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
-## 配置记录详细信息页面中显示的字段
+## 配置在记录的“详细信息”预览框中显示的字段
 
 >[!NOTE]
 >
@@ -29,9 +29,9 @@ ht-degree: 0%
 >生产快速发布： 2026年2月12日
 >适用于所有人的生产： 2026年4月16日
 
-我们引入了一个设置，该设置允许您根据表格视图中显示的字段，在“详细信息”预览和页面区域中显示或隐藏记录字段。
+我们引入了一个设置，允许您根据表格视图中显示的字段在记录的“详细信息”预览框中显示或隐藏记录字段。 
 
-您可以从记录的详细信息区域选择是包括还是排除表格视图中隐藏的字段。 关闭此设置时，隐藏字段不会显示在详细信息区域。
+使用此新设置，您可以选择是包括还是排除记录的“详细信息”预览区域在表格视图中隐藏的字段。
 
 有关信息，请参阅[管理记录页布局](/help/quicksilver/planning/records/manage-the-record-page.md)。
 

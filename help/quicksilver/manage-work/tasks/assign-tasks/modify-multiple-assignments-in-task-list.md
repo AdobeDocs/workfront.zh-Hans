@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 4167910f36921e04351190f722ea1e7fac9641c7
+source-git-commit: b1d5122dd66d84a0e2a21f24eeb01fd3298374ad
 workflow-type: tm+mt
-source-wordcount: '1496'
+source-wordcount: '1551'
 ht-degree: 1%
 
 ---
@@ -24,13 +24,13 @@ ht-degree: 1%
 this article is similar and updates on this one might need to be repeated here: help/quicksilver/manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md</p>
 -->
 
-<!--<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
+此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 从“预览”版本开始的一周后，生产环境中所有客户也可以使用相同的功能。
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+有关详细信息，请参阅[2026年第二季度发行版概述](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)。
 
-</div>-->
+</div>
 
 在管理任务分配时，可以使用任务列表中的批量编辑功能一次为多个任务同时修改它们。
 
@@ -208,61 +208,60 @@ When assigning users to work, their availability according to their schedules af
       1. 单击&#x200B;**保存更改。**
 
 
+1. <span class="preview">（视情况而定）如果您使用预览环境分配任务，将打开&#x200B;**编辑任务**&#x200B;框。 在“预览”环境中执行以下操作： </span>
 
-   1. <span class="preview">（视情况而定）如果您使用预览环境分配任务，将打开&#x200B;**编辑任务**&#x200B;框。 在“预览”环境中执行以下操作： </span>
+   <div class="preview">
 
-      <div class="preview">
+   1. 要添加或移除被分配人，请执行下列操作之一：
 
-      1. 要添加或移除被分配人，请执行下列操作之一：
+      * 要添加被分配人，请在&#x200B;**搜索人员、角色或团队**&#x200B;字段中开始键入被分配人的姓名，然后当他们显示在列表中时选择他们。
 
-         * 要添加被分配人，请在&#x200B;**搜索人员、角色或团队**&#x200B;字段中开始键入被分配人的姓名，然后当他们显示在列表中时选择他们。
+        新被分配人会添加到选定任务上的现有被分配人。
+      * 要删除被分配人，请在&#x200B;**删除被分配人**&#x200B;框中单击被分配人的姓名
 
-           新被分配人会添加到选定任务上的现有被分配人。
-         * 要删除被分配人，请在&#x200B;**删除被分配人**&#x200B;框中单击被分配人的姓名
+        或
 
-           或
+        单击&#x200B;**删除所有现有被分配人**。
 
-           单击&#x200B;**删除所有现有被分配人**。
+        将从所有选定任务中删除被分配人。
 
-           将从所有选定任务中删除被分配人。
+        从任务中移除用户可能会影响任务小时数和分配百分比。
 
-           从任务中移除用户可能会影响任务小时数和分配百分比。
-
-           有关详细信息，请参阅[修改任务分配的概述](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)。
-
-
-           >[!TIP]
-           >
-           >* 您可以分配多个用户、工作角色或团队。 您只能分配活动用户、工作角色和团队。
-           >   
-           >* 添加用户分配时，请注意头像、用户的主要角色或其电子邮件地址，以区分具有相同名称的用户。 用户必须与至少一个工作角色关联，才能在添加时查看工作角色。 您必须在访问级别中启用“查看联系信息”设置，用户才能查看用户的电子邮件。 有关信息，请参阅[授予用户访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)。
-           > 
-           >   如果在停用用户、工作角色或团队之前已分配用户、工作角色或团队，则它们仍会分配给工作项。 在这种情况下，我们建议执行以下操作：
-           >   
-           >* 将工作项重新分配给活动资源。
-           >* 将已停用团队中的用户与活动团队关联，并将工作项重新分配给活动团队。
+        有关详细信息，请参阅[修改任务分配的概述](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)。
 
 
-      1. （可选）修改受让人的以下任意选项：
+        >[!TIP]
+        >
+        >* 您可以分配多个用户、工作角色或团队。 您只能分配活动用户、工作角色和团队。
+        >   
+        >* 添加用户分配时，请注意头像、用户的主要角色或其电子邮件地址，以区分具有相同名称的用户。 用户必须与至少一个工作角色关联，才能在添加时查看工作角色。 您必须在访问级别中启用“查看联系信息”设置，用户才能查看用户的电子邮件。 有关信息，请参阅[授予用户访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)。
+        > 
+        >   如果在停用用户、工作角色或团队之前已分配用户、工作角色或团队，则它们仍会分配给工作项。 在这种情况下，我们建议执行以下操作：
+        >   
+        >* 将工作项重新分配给活动资源。
+        >* 将已停用团队中的用户与活动团队关联，并将工作项重新分配给活动团队。
 
-         * （视情况而定） **分配%或小时数**：指定新的分配百分比或小时数。
 
-         >[!NOTE]
-         >
-         >仅当所有正在编辑的任务的“持续时间类型”相同时，才能修改此选项。 当持续时间类型为已计算的工作或投入比驱动时，您可以更新分配%。 当持续时间类型为简单时，您可以更新小时数。 有关持续时间类型的信息，请参阅[任务持续时间和持续时间类型概览](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)。
-         >
-         >
-         >如果字段为空，则意味着值在各任务中是不同的；但是，您仍然能够修改它。
+   1. （可选）修改受让人的以下任意选项：
 
-         * **设为主要**：将鼠标悬停在所选任务上并选择此选项，以使被分派人成为正在编辑的所有任务的所有者。
-         * **被分派人的角色**：从下拉列表中选择一个角色。 如果保持未选中状态，Adobe Workfront将自动选择用户的主要角色。
-         * **持续时间类型**
-         * **持续时间**
-         * **计划小时数**
+      * （视情况而定） **分配%或小时数**：指定新的分配百分比或小时数。
 
-      1. 单击&#x200B;**保存**。
+      >[!NOTE]
+      >
+      >仅当所有正在编辑的任务的“持续时间类型”相同时，才能修改此选项。 当持续时间类型为已计算的工作或投入比驱动时，您可以更新分配%。 当持续时间类型为简单时，您可以更新小时数。 有关持续时间类型的信息，请参阅[任务持续时间和持续时间类型概览](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)。
+      >
+      >
+      >如果字段为空，则意味着值在各任务中是不同的；但是，您仍然能够修改它。
 
-         </div>
+      * **设为主要**：将鼠标悬停在所选任务上并选择此选项，以使被分派人成为正在编辑的所有任务的所有者。
+      * **被分派人的角色**：从下拉列表中选择一个角色。 如果保持未选中状态，Adobe Workfront将自动选择用户的主要角色。
+      * **持续时间类型**
+      * **持续时间**
+      * **计划小时数**
+
+   1. 单击&#x200B;**保存**。
+
+      </div>
 
 
 

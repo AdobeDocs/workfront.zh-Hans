@@ -3,9 +3,9 @@ title: Adobe Workfront计划免费试用版快速入门
 description: Adobe Workfront提供Adobe Workfront Planning的60天免费试用。 这次试用让您有机会了解Planning如何将大局战略与日常工作联系起来，从而使其实现。 Planning提供了营销生命周期的集中可视性，实现了跨团队更好的协作、实时活动跟踪和自动化工作流。 您可以创建自定义工作区，并使用交互式时间表和日历将工作可视化。 通过此次试用，您将亲眼看到Planning如何帮助日常工作与战略目标保持一致、简化执行并为您的组织带来可衡量的结果。
 hidefromtoc: true
 hide: true
-source-git-commit: b52c188d767ee37699ead71ed90642458d9889fa
+source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1148'
 ht-degree: 1%
 
 ---
@@ -144,10 +144,11 @@ Adobe Workfront Planning可集中查看您的营销生命周期，从而改善�
 
 * **2026年3月2日至5月1日期间**：
 
-  您被授予对&#x200B;**计划试用版**&#x200B;区域的&#x200B;**最佳实践工作区**&#x200B;选项卡中可用数据的以下权限：
+  在免费试用期间，您将被授予对Planning区域中的工作区的以下权限：
 
-   * 所有系统管理员都拥有对Planning区域中的“最佳实践工作区”选项卡的管理权限。
-   * 所有其他用户都拥有对Planning区域中的“最佳实践工作区”选项卡的查看权限。
+   * 所有系统管理员都具有“工作区”选项卡的管理权限。
+   * 所有其他用户均具有“工作区”选项卡的“查看”权限，但系统管理员可以向他们授予对工作区的“管理”权限。
+   * 所有用户（包括系统管理员）都拥有对Planning区域中“最佳实践工作区”选项卡的“查看”权限。
 
 * **在2026年5月1日之后：**
 

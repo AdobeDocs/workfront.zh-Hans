@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 2ffd06f2f50d14b6d33bc79c92616ebed1d58fed
+source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
 workflow-type: tm+mt
 source-wordcount: '3518'
 ht-degree: 1%
@@ -121,7 +121,7 @@ ht-degree: 1%
 1. 单击页眉中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**创建请求表单**&#x200B;或&#x200B;**管理请求表单**（如果已拥有表单且要创建其他表单）。
 1. （视情况而定）如果要添加其他表单，请单击&#x200B;**新建请求表单**。
 
-   此时将打开“创建请求表单”框。
+   将打开&#x200B;**创建请求表单**&#x200B;框。
 
 1. 在创建请求表单框中，更新请求表单的名称。 默认情况下，表单的名称为&#x200B;**无标题表单**。<!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. （可选）为请求表单添加&#x200B;**描述**。
@@ -170,7 +170,7 @@ ht-degree: 1%
 
   >[!NOTE]
   >
-  ><span class="preview">在“预览”环境中，“设置”选项卡将取代“配置”选项卡。</span>
+  ><span class="preview">在“预览”环境中，“设置”选项卡取代了“配置”选项卡。</span>
   <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
 
 #### 设置表单详细信息
