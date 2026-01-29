@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 665e753880be59cf07062d75c66a7be5f2056aa1
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1545'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,9 @@ ht-degree: 0%
 
 # 管理记录页面布局
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上突出显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -172,7 +171,7 @@ ht-degree: 0%
 
 * 一个页面上可以具有的节数没有限制。
 * 分区不能为空。 在一个部分中，必须至少有一个字段。
-* 可以将字段从一个区域拖放到另一个区域。 有关详细信息，请参阅本文中记录预览或详细信息页面中的[重新排列字段](#rearrange-fields-in-the-record-preview-or-details-page)部分。
+* 可以将字段从一个区域拖放到另一个区域。 有关详细信息，请参阅本文中记录预览或详细信息页面中的[管理字段](#manage-fields-in-the-records-details-tab)部分。
 * 从分区中删除所有字段时，该分区将自动删除且无法恢复。
 
 要将节添加到记录预览或页面，请执行以下操作：
@@ -205,7 +204,7 @@ ht-degree: 0%
 
 1. 在记录预览或页面的&#x200B;**详细信息**&#x200B;选项卡中，将鼠标悬停在字段左侧的空格上，然后单击&#x200B;**添加节**&#x200B;图标![添加节图标](assets/add-section-icon.png)以添加节。
 1. 单击该节的名称并用名称替换&#x200B;**无标题节**，然后单击Enter。 在部分下显示的字段自动成为新部分的一部分。
-1. 开始将字段拖放到新部分，如本文中记录预览或详细信息页面[中的](#rearrange-fields-in-the-record-preview-or-details-page)重新排列字段部分所述。
+1. 开始将字段拖放到新部分，如本文中记录预览或详细信息页面[中的](#manage-fields-in-the-records-details-tab)管理字段部分所述。
 
 1. （可选）将鼠标悬停在节名称上，然后单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)。
 
@@ -222,7 +221,7 @@ ht-degree: 0%
 
      或
 
-     单击&#x200B;**下移**&#x200B;以将节下移一个位置。
+     单击&#x200B;**下移**以将节下移一个位置。
 部分中的所有字段都会随部分一起移动。
 
    * 单击&#x200B;**删除**&#x200B;以删除该节。 该部分已被删除，无法恢复。 访问此类型记录的所有用户将不再查看已删除的分区。
@@ -254,7 +253,7 @@ ht-degree: 0%
    * Workfront对象也将从Workfront Planning中的记录的“已连接”字段中删除。
    * 连接到Planning记录的Workfront查找字段的值也会被删除。
 
-## 重新排列记录详细信息选项卡中的字段
+## 管理记录的“详细信息”选项卡中的字段
 
 {{step1-to-planning}}
 
@@ -281,6 +280,20 @@ ht-degree: 0%
    默认情况下将打开记录的&#x200B;**详细信息**&#x200B;选项卡。
 
    ![详细信息页面](assets/details-page.png)
+
+1. <span class="preview">（可选且有条件）根据要在“详细信息”页面中显示的字段，执行以下操作之一：</span>
+
+   <div class="preview">
+
+   * 选择&#x200B;**显示表字段**&#x200B;设置可仅查看未在记录表视图中隐藏的字段。 这是默认设置
+   * 取消选择&#x200B;**显示表字段**&#x200B;设置以查看记录表视图中的所有字段，包括隐藏字段。
+
+   <!--replace with this when they fix the UI text:
+   * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
+   * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
+   -->
+
+   </div>
 
 1. 在记录&#x200B;**详细信息**&#x200B;选项卡中，单击字段名称左侧的&#x200B;**抓取**&#x200B;图标![抓取图标](assets/grab-icon.png)，然后将其拖放到所需位置。
 

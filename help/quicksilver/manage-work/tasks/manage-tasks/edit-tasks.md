@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 665e753880be59cf07062d75c66a7be5f2056aa1
 workflow-type: tm+mt
-source-wordcount: '4416'
+source-wordcount: '5366'
 ht-degree: 4%
 
 ---
@@ -28,32 +28,32 @@ ht-degree: 4%
 </div>
 -->
 
-<!--<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 从“预览”版本开始的一周后，生产环境中所有客户也可以使用相同的功能。
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+有关详细信息，请参阅[接口现代化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)。
 
-</div> -->
+</div>
 
 您可以编辑有关已创建、具有Contribute或Manage权限的任务的信息。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> <p>标准</p>
-   <p>工作或更高</p> </td> 
+   <p>工作版或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别</td> 
@@ -230,7 +230,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    * [自定义表单](#Custom%C2%A0F)
    * [财务](#finance)
    * [设置](#settings)
-   * [评论](#comment)
+   * [注释](#comment)
 
    >[!NOTE]
    >
@@ -372,7 +372,11 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. 单击&#x200B;**保存**&#x200B;或继续以下部分。
 
-### 任务 {#assignments}
+### 分配 {#assignments}
+
+根据您选择的环境，在“编辑任务”框中编辑工作分配会有所不同。
+
+#### 编辑生产环境中的“工作”区域
 
 1. 按如上所述开始编辑任务。
 1. 单击左侧面板中的&#x200B;**工作**。
@@ -519,24 +523,185 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    1. （可选）单击&#x200B;**编辑任务**&#x200B;框底部的&#x200B;**切换到旧体验**。
 “任务”区域将在旧体验中打开。
+
       编辑任务框中的![分配分区](assets/nwe-assignments-section-edit-task-box-350x217.png)
+
+1. （视情况而定）使用旧体验，执行以下操作：
+
+   1. 单击&#x200B;**搜索人员、角色或团队**，然后开始键入要分配给任务的用户、角色或团队的名称，然后单击该名称，或当该名称显示在列表中时按Enter键。
+
+      >[!TIP]
+      >
+      >* 如果用户名包含特殊字符，则必须在搜索字段中包含特殊字符。
+      >* 您可以分配多个用户、工作角色或团队。 您只能分配活动用户、工作角色和团队。
+      >
+      >* 如果在停用用户、工作角色或团队之前已分配用户、工作角色或团队，则它们仍会分配给工作项。 在这种情况下，我们建议执行以下操作：
+      >
+      >* 将工作项重新分配给活动资源。
+      >* 将已停用团队中的用户与活动团队关联，并将工作项重新分配给活动团队。
+
+   1. （可选）将鼠标悬停在任务接受者的姓名上，然后单击&#x200B;**设为主要**&#x200B;以指示任务接受者是任务的主要负责人还是所有者。 团队不能是任务的主要被分配人。
+   1. （可选）更新以下字段：
+
+      <table style="table-layout:auto"> 
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
+         <td role="rowheader">持续时间类型</td> 
+         <td> <p>这确定了以下各项之间的关系： </p> 
+         <ul> 
+         <li> <p>分配给任务的资源数 </p> </li> 
+         <li> <p>完成任务所需的总工作量 </p> </li> 
+         <li> <p> 任务的总持续时间。 </p> </li> 
+         </ul> <p>您的Workfront管理员或组管理员为您的系统或组中的任务选择默认持续时间类型设置。 有关设置项目默认设置的信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">配置系统范围的任务和问题首选项</a>。 </p> <p>持续时间类型使您能够根据任务的需要设置一致的资源分配。 有关任务的持续时间类型的详细信息，请参阅<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">任务持续时间和持续时间类型概览</a>。 </p> <p>从以下选项中选择： </p> 
+         <ul> 
+         <li> <p>计算的分配量 </p> </li> 
+         <li> <p> 计算的工作量 </p> </li> 
+         <li> <p>投入比导向 </p> </li> 
+         <li> <p>简单</p> </li> 
+         </ul> </td> 
+      </tr> 
+      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+         <td role="rowheader">每次发生的持续时间</td> 
+         <td> <p>这仅在周期性任务的父级上显示。 它显示每个周期性任务的持续时间，如创建任务时定义。 有关创建周期性任务的信息，请参阅<a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">创建周期性任务</a>。 </p> <p> <b>注释</b>
+
+      在单个周期性任务中修改的持续时间不显示此字段中指示的值。 </p> </td>
+      </tr> 
+      <tr> 
+         <td role="rowheader">持续时间</td> 
+         <td> 
+         <div> 
+         <div> 
+         <p>这是在任务完成之前您允许任务保持打开状态的时长。 </p> 
+         <p><b>重要</b>
+
+      由于任务持续时间通常是计划开始日期和计划完成日期之间的时间量，因此它会影响项目的时间表。</p>
+
+      <p>要指明任务的持续时间和时间单位，请执行以下操作：</p> 
+         <ul> 
+         <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">键入时间长度，并从下拉菜单中的可用时间单位中选择。</p> <p><b>提示</b></p>
+         更新任务列表中的任务持续时间时，可以使用时间单位的缩写。 </p> </li> 
+         </ul> 
+         <p> 您可以从下表中的常规时间或占用时间选项中进行选择： </p> 
+         <table style="table-layout:auto"> 
+         <col> 
+         <col data-mc-conditions=""> 
+         <tbody> 
+         <tr> 
+         <td>时间单位</td> 
+         <td>缩写</td> 
+         </tr> 
+         <tr> 
+         <td>Minutes</td> 
+         <td>一</td> 
+         </tr> 
+         <tr> 
+         <td>小时</td> 
+         <td>H</td> 
+         </tr> 
+         <tr> 
+         <td>天。 这是默认设置。 </td> 
+         <td>D</td> 
+         </tr> 
+         <tr> 
+         <td>Weeks</td> 
+         <td>星期-</td> 
+         </tr> 
+         <tr> 
+         <td>Months</td> 
+         <td>T</td> 
+         </tr> 
+         <tr> 
+         <td>经过的分钟数</td> 
+         <td>EM</td> 
+         </tr> 
+         <tr> 
+         <td>经过的小时数</td> 
+         <td>EH</td> 
+         </tr> 
+         <tr> 
+         <td>经过的天数</td> 
+         <td>ED</td> 
+         </tr> 
+         <tr> 
+         <td>经过的周数</td> 
+         <td>EW</td> 
+         </tr> 
+         <tr> 
+         <td>经过的月数</td> 
+         <td>ET</td> 
+         </tr> 
+         </tbody> 
+      </table>
+
+      <p><b>注释</b>
+
+      <p>占用时间是任务持续时间的时间单位。 该时间是任务的计划开始日期与计划完成日期之间的时间，包括假日、周末和休息时间。 换言之，经过的时间就是行事历的日数。
+
+      常规时间会考虑假日、周末和休息时间，并将它们排除在任务的持续时间之外。 有关任务持续时间的详细信息，请参阅<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">任务持续时间和持续时间类型概述</a>。 </p>
+      </div> 
+         </div> </td> 
+         </tr> 
+         <tr> 
+         <td role="rowheader">规划小时数</td> 
+         <td> <p>指定任务的计划小时数（以小时为单位）。 这是任务被分派人完成任务所花费的实际时间。 当“持续时间类型”设置为“计算的工作分配”时，您只能指定任务的已计划小时数。 有关持续时间类型的详细信息，请参阅<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">任务持续时间和持续时间类型的概述</a>。</p> 
+         <b>注释</b>
+         <p>
+         创建周期性任务时，计划小时数是每个事件的小时数。 父任务的计划小时数是所有发生的所有计划小时数的总和。 有关创建周期性任务的信息，请参阅<a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">创建周期性任务</a>。
+         </p>
+
+      </td> 
+         </tr> 
+         <tr> 
+         <td role="rowheader">分配</td> 
+         <td> <p>如果您的任务限制是计算的工作或投入比导向，请为每个被分派人指定<strong>分配%</strong>（分配百分比）。 这是指从被分派人计划起他们可在此任务上花费的时间。 更改被分配人的分配百分比将更改任务的已计划小时数。 </p> <p>当“任务约束”为“简单”时，可以指定以下内容：</p> 
+            <ul> 
+            <li> <p>每个被分配人的分配小时数。</p> </li> 
+            <li> <p>任务的已计划小时数</p> </li> 
+            <li> <p>任务持续时间</p> </li> 
+            </ul> </td> 
+         </tr> 
+         <tr> 
+         <td role="rowheader">受让人的角色</td> 
+         <td> <p>选择人员作为被分派人时，请从<strong>被分派人的角色</strong>下拉菜单中选择一个角色。 这是被分派人可以在这项任务上履行的职责。 </p> <p><b>提示</b>
+
+      下拉菜单中仅显示与其配置文件中每个被分配人关联的工作角色。</p> </td>
+      </tr>
+      </tbody>
+      </table>
+
+1. 单击&#x200B;**保存**&#x200B;或继续以下部分。
+
+<div class="preview">
+
+#### 在“预览”环境中编辑“工作总揽”区域
+
+>[!TIP]
+>
+>在批量编辑任务分配时，您会看到多个值指示器，指示这些字段的值在所选任务之间有所不同。
+>
+>您无法看到每个选定任务的单个分配。
+
+
+1. 按如上所述开始编辑任务。
+1. 单击左侧面板中的&#x200B;**工作**。
+
+   编辑任务框中的![分配分区](assets/nwe-assignments-section-edit-task-box-350x217.png)
 
 1. 单击&#x200B;**搜索人员、角色或团队**，然后开始键入要分配给任务的用户、角色或团队的名称，然后单击该名称，或当该名称显示在列表中时按Enter键。
 
-   >[!NOTE]
-   >
-   >如果用户名包含特殊字符，则必须在搜索字段中包含特殊字符。
-
    >[!TIP]
    >
-   >您可以分配多个用户、工作角色或团队。 您只能分配活动用户、工作角色和团队。
+   >* 如果用户名包含特殊字符，则必须在搜索字段中包含特殊字符。
+   >* 您可以分配多个用户、工作角色或团队。 您只能分配活动用户、工作角色和团队。
    >
-   >如果在停用用户、工作角色或团队之前已分配用户、工作角色或团队，则它们仍会分配给工作项。 在这种情况下，我们建议执行以下操作：
+   >* 如果在停用用户、工作角色或团队之前已分配用户、工作角色或团队，则它们仍会分配给工作项。 在这种情况下，我们建议执行以下操作：
    >
    >* 将工作项重新分配给活动资源。
    >* 将已停用团队中的用户与活动团队关联，并将工作项重新分配给活动团队。
 
-1. （可选）通过选择任务负责人名称旁边的&#x200B;**所有者**&#x200B;单选按钮，指明任务负责人是否为任务的主要任务负责人。 团队不能是任务的主要被分配人。
+1. （可选）将鼠标悬停在任务接受者的姓名上，然后单击&#x200B;**设为主要**&#x200B;以指示任务接受者是任务的主要负责人还是所有者。 团队不能是任务的主要被分配人。
 1. （可选）更新以下字段：
 
    <table style="table-layout:auto"> 
@@ -669,6 +834,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. 单击&#x200B;**保存**&#x200B;或继续以下部分。
 
+</div>
+
 ### 自定义表单
 
 可定义在将任务添加到项目时自动附加到任务的默认自定义表单。 有关设置项目以包含所有新任务的默认任务自定义表单的信息，请参阅[编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md)一文中的“任务”一节。
@@ -799,7 +966,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 <!--notes from the table: <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)</p>       -->
 
-### 评论
+### 注释
 
 1. 开始编辑您的任务，如本文的[编辑任务](#Edit2)部分所述。
 1. 单击左侧面板中的&#x200B;**注释**。
@@ -833,7 +1000,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 * 完成百分比
 
   有关信息，请参阅[查看和更新任务的完成百分比](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md)。
-* 任务
+* 分配
 * 规划完成日期
 
   >[!CAUTION]

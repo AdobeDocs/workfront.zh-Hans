@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 4167910f36921e04351190f722ea1e7fac9641c7
 workflow-type: tm+mt
-source-wordcount: '3418'
+source-wordcount: '3440'
 ht-degree: 2%
 
 ---
@@ -236,6 +236,8 @@ ht-degree: 2%
    >[!TIP]
    >
    >隐藏字段的数量显示在工具栏中的字段图标的左侧。
+   >
+   ><span class="preview">默认情况下，隐藏字段不显示在记录的&#x200B;**详细信息**&#x200B;页面中。 有关信息，请参阅[管理记录页布局](/help/quicksilver/planning/records/manage-the-record-page.md)</span>
 
 
 1. 单击&#x200B;**字段**&#x200B;图标，然后启用与要显示在表格列中的字段关联的切换。 默认显示所有字段。

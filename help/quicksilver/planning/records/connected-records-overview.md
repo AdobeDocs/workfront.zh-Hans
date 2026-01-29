@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
+source-git-commit: 11d856aeee3bd9edcdc1dbca3964f37bdf83bd00
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '748'
 ht-degree: 0%
 
 ---
@@ -23,14 +23,23 @@ ht-degree: 0%
 
 您可以将Adobe Workfront Planning记录相互连接或与其他应用程序中的对象连接。
 
-本文介绍了在Adobe Workfront Planning中连接记录时必须考虑的注意事项。
+本文介绍了在Workfront Planning中连接记录时必须考虑的注意事项。
 
 有关如何将记录相互连接或连接到另一个对象的信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。
+
+## 先决条件
+
+在Workfront Planning中连接记录之前，必须连接以下各项：
+
+* 两种记录类型
+* 带有来自另一个应用程序的对象的记录类型
+
+有关详细信息，请参阅[连接的记录类型概述](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
 
 
 ## 有关连接记录的注意事项
 
-* 连接记录类型后，连接的记录类型在从中链接的记录类型表格中以及在记录页面上显示为链接记录字段。
+* 连接记录类型后，连接的记录类型在它们链接到的记录类型表中以及记录页面上显示为连接字段。
 * 您可以从链接的记录字段中浏览和添加链接记录的记录和对象以及对象类型。
 * 您可以在要链接的记录类型的表中添加链接记录类型的字段（查找字段）。
 
@@ -49,14 +58,17 @@ ht-degree: 0%
 
 ## 可连接记录的区域
 
-在以下区域中，您可以将记录连接到其他记录或从其他应用程序连接到对象：
+您可以在Workfront中手动或自动连接记录。
+
+### 手动连接记录
+
+您可以在以下区域中手动将记录连接到其他记录或从其他应用程序连接到对象：
 
 * 您可以将Workfront Planning中的记录连接到Planning记录的以下区域中的Workfront对象、Experience Manager Assets对象或GenStudio Brands：
 
    * Planning中记录类型的表视图中的已连接记录字段。
-   * 在“详细信息”选项卡上的已连接记录字段中，记录的预览或详细信息页面。
-   * 记录在“连接”选项卡上的预览或详细信息页面。
-   * 已连接记录的已连接记录页选项卡中的记录页。
+   * 记录的预览或详细信息页面中的已连接记录字段。
+   * 记录的“连接的记录”页面上的记录的预览或详细信息页面。
 
 * 您可以在Workfront的以下区域中将Workfront对象连接到Workfront Planning记录：
 
@@ -64,3 +76,25 @@ ht-degree: 0%
    * Workfront对象的自定义表单上的Planning连接字段。
 
   有关信息，请参阅[管理来自Workfront对象的记录连接](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
+
+### 自动连接记录
+
+在将记录类型相互连接或将记录类型从另一个应用程序连接到对象类型后，可以通过以下方式自动连接记录和对象：
+
+* 使用自动化
+
+  您可以从配置自动化的Planning记录中创建记录或Workfront对象。
+
+  当满足您定义的条件时，将创建记录或对象，并且自动连接到从中触发自动操作的记录。
+
+  有关信息，请参阅[配置Adobe Workfront计划自动化](/help/quicksilver/planning/records/configure-automations-to-create-records.md)。
+
+* 使用请求表单创建记录
+
+  您可以在提交Planning请求时创建记录。 请求和记录会自动连接。
+
+  >[!NOTE]
+  >
+  >无法断开记录与其原始请求的连接。
+
+  有关信息，请参阅[提交Adobe Workfront计划请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。
