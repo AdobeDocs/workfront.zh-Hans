@@ -6,9 +6,9 @@ description: 重新计算时间表使经理能够了解与项目相关的不同�
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1077'
 ht-degree: 1%
 
 ---
@@ -96,7 +96,7 @@ ht-degree: 1%
 > 复杂项目的示例可能包括具有多个依赖项、大量任务、多个跨项目前置任务或多个任务缩进的项目。
 > Workfront在项目页面上的项目名称右侧放置警告，以建议用户必须手动重新计算项目时间线。 只有具有项目管理权限的用户才能手动重新计算时间线。
 >
->   ![](assets/project-warning-to-manually-recalculate-timeline.png)
+>   ![要重新计算时间线的项目警告](assets/project-warning-to-manually-recalculate-timeline.png)
 >
 
 * [项目时间线的自动重新计算](#automatic-recalculation-of-project-timelines)
@@ -183,7 +183,7 @@ If the timeline of a project is longer than 15 years, the automatic recalculatio
 
    转到项目列表或报告并选择一个或多个项目，然后单击列表顶部的&#x200B;**更多**&#x200B;图标![更多菜单](assets/qs-more-menu.png)。
 
-   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![使用财务下拉列表重新计算表达式时间表](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >

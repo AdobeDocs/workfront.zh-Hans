@@ -8,19 +8,26 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1483'
 ht-degree: 2%
 
 ---
 
 # 查看提交的请求
 
-您可以查看自己或其他人提交的请求，或者查看您已开始但从未完成提交的请求。 您可以在Adobe Workfront的以下区域中找到这些请求：
+您可以查看自己或其他人提交的请求，或者查看您已开始但从未完成提交的请求。 未完成的请求将另存为草稿。
+
+您可以在Adobe Workfront的以下区域找到已提交的请求：
 
 * Workfront的“请求”区域
 * 主页中的“我的请求”构件
+
+请求区域根据您选择的查看方式显示以下请求：
+
+* 使用旧版Experience时的Workfront请求
+* 使用新Experience时Workfront以及Planning请求。
 
   >[!NOTE]
   >
@@ -100,23 +107,23 @@ ht-degree: 2%
    * **状态**：请求的状态。
    * **输入者**：添加请求的用户的名称。 如果请求是由Workfront之外的人员添加的，则&#x200B;**输入者**&#x200B;字段显示`N/A`。
 
-   您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的筛选器。
+   您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**加入的筛选器。
 在添加筛选条件时，将自动筛选请求列表。
 1. （可选）使用视图将焦点置于要显示的请求上。
 
    有关说明，请参阅[在请求区域](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)中创建或编辑视图。
 1. （可选）通过检查状态列来检查请求的状态。 新请求体验中提供了以下状态：
 
-   * 草稿：此请求尚未提交。
-   * 待定复查：（仅限Planning）此请求具有审批人，且没有审批人打开该请求。
-   * 复查中：（仅限Planning）此请求具有审批人，并且至少有一个审批人已打开请求，但尚未做出任何决定。
-   * 已拒绝：（仅限Planning）此请求具有审批者且已被拒绝。
-   * 进行中：
-      * Workfront工作流：请求已转换，工作正在进行。
-      * Workfront Planning：请求完成映射至特定的Planning字段，并且该字段值与完成值不匹配。
+   * **草稿**：此请求尚未提交。
+   * **等待审阅**： （仅限Planning）此请求具有批准者，并且没有批准者打开该请求。
+   * **审核中**：（仅限Planning）此请求有批准者，且至少有一个批准者已打开该请求，但尚未做出任何决定。
+   * **已拒绝**： （仅限Planning）此请求具有审批者且已被拒绝。
+   * **正在进行**：
+      * Workfront请求：请求已转换，工作正在进行。
+      * Workfront Planning请求：请求完成映射至特定的Planning字段，并且该字段值与完成值不匹配。
 
         有关详细信息，请参阅在Adobe Workfront Planning中创建和管理请求表单一文中的[设置配置详细信息](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details)。
-   * 完成：请求已完成。
+   * **完成**：请求已完成。
 
 >[!NOTE]
 >
@@ -267,7 +274,7 @@ ht-degree: 2%
 1. （可选）通过检查状态列来检查请求的状态。 新请求体验中提供了以下状态：
 
    * 草稿：此请求尚未提交。
-   * 正在进行中
+   * 进行中
    * 完成
 
 

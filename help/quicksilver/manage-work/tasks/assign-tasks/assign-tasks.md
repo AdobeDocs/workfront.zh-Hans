@@ -7,7 +7,7 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: b1d5122dd66d84a0e2a21f24eeb01fd3298374ad
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
 source-wordcount: '2479'
 ht-degree: 2%
@@ -276,7 +276,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. （可选且有条件）当任务列表中显示“分配给”或“工作总揽”字段时，单击其中一列中的任务的，然后单击被分配人名称旁边的&#x200B;**X图标**&#x200B;以将其从任务中删除。
 
 
-### 从新Experience的列表中批量分配多个任务
+#### 从新Experience的列表中批量分配多个任务
 
 1. 转到要批量分配的任务的列表。
 1. （视情况而定）如果您在项目下的任务列表中，请确保已选择&#x200B;**自动保存**&#x200B;选项。

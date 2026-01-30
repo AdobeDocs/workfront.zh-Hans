@@ -6,10 +6,10 @@ description: 任务或问题的完成情况是指在任务或问题上放置一�
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 2d8ad8baa6c470fd82b61202cb42443f568b1968
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 1%
+source-wordcount: '1070'
+ht-degree: 2%
 
 ---
 
@@ -29,16 +29,16 @@ ht-degree: 1%
 
 默认情况下，我们在此文章中引用的条件值在Workfront中可用。 Adobe Workfront管理员可以为您的环境创建自定义条件，如[创建或编辑自定义条件](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)中所述。
 
-## 访问要求 {#access-requirements}
+## 访问权限要求 {#access-requirements}
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -167,7 +167,7 @@ Updating the Condition of a task or issue differs depending on whether you are a
    * 一些问题
    * 主要障碍
 
-   ![](assets/condition-in-task-header-0925.png)
+   任务标题中的![条件](assets/condition-in-task-header-0925.png)
 
 <!--1. Click Enter to save the Condition.-->
 
@@ -185,7 +185,7 @@ Updating the Condition of a task or issue differs depending on whether you are a
 
 1. 通过双击现有条件并从下拉菜单中选择新值，更新问题或任务内联的&#x200B;**条件**。
 
-   ![](assets/condition-values-in-task-list-0925.png)
+   ![任务列表中的条件值](assets/condition-values-in-task-list-0925.png)
 
    >[!NOTE]
    >

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '3518'
+source-wordcount: '3550'
 ht-degree: 1%
 
 ---
@@ -190,13 +190,14 @@ ht-degree: 1%
    * 所选记录类型的表视图中可用的记录字段。<!--they are working on removing the limitation below-->
 
    * **默认的分区**：这是Workfront应用于请求表单的默认分区界限。 所有记录字段都显示在&#x200B;**默认部分**&#x200B;区域。
-   * **主题**&#x200B;字段：将在Workfront中标识该请求的字段。 “主题”字段的配置和值不可编辑。
+   * **主题**&#x200B;字段：将在Workfront中标识该请求的字段。 **主题**&#x200B;字段的配置和值不可编辑。
 
      >[!NOTE]
      >
      >* **Subject**&#x200B;字段在请求表单上可见时需要值。 但是，如果需要，您可以删除&#x200B;**主题**&#x200B;字段，而请求者在提交请求时将不会在表单上看到该字段。
-     >* 当请求表单中缺少“主题”字段，但未来记录的名称具有“名称”字段时，将自动为请求名称分配与创建的记录相同的名称。
-     >* 当请求表单中缺少“主题”和“名称”字段时，请求使用以下模式命名： `< Record name > request form < Entry date of the request >`；记录名为&#x200B;**无标题**。
+     >* 当请求表单中缺少&#x200B;**主题**&#x200B;字段，但未来记录的名称具有“名称”字段时，将自动为请求名称分配与所创建记录相同的名称。
+     >* 当请求表单中缺少&#x200B;**主题**&#x200B;和&#x200B;**名称**&#x200B;字段时，请求使用以下模式命名： `< Request form name > < Entry date of the request >`；记录名为&#x200B;**无标题**。
+     >* <span class="preview">要在Workfront Planning中查看&#x200B;**主题**&#x200B;字段的信息，可以将&#x200B;**原始请求**&#x200B;连接字段添加到与请求表单关联的记录类型。 有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。</span>
 
    * 与记录类型关联的所有字段。
 

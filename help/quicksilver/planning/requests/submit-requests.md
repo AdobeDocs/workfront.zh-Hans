@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '2176'
+source-wordcount: '2200'
 ht-degree: 0%
 
 ---
@@ -106,15 +106,22 @@ Workfront用户和外部用户可以向Planning记录类型提交请求。 请�
 
   有关信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
 * 通过提交请求表单创建的记录将连接到原始请求。 无法删除此连接。
-* 您可以在以下区域查看已创建的记录和请求：
+* 您可以在以下区域查看创建的记录以及用于创建这些记录的请求：
    * Workfront中的“请求”区域
 
   <div class="preview">
 
-   * 原始请求连接字段中任何记录类型页面中的记录
-   * 原始请求连接字段中记录的“详细信息”预览框
+   * Workfront Planning中的记录类型页面
+   * Workfront Planning中记录的详细信息区域
 
   </div>
+
+  >[!TIP]
+  >
+  ><span class="preview">您可以在Workfront的请求区域的主题字段或Workfront Planning的原始请求连接字段中查看请求名称。</span>
+
+
+
 * 已提交的请求将显示在Workfront的请求区域中。
 * 提交的规划请求仅在新的请求体验中可见。 您无法在旧版请求体验中看到Planning请求。
 有关信息，请参阅[创建并提交请求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)。
@@ -129,8 +136,8 @@ Workfront用户和外部用户可以向Planning记录类型提交请求。 请�
 
 {{step1-to-requests}}
 
-1. 启用屏幕右上角的&#x200B;**切换到新体验**&#x200B;设置。
-启用此设置可使Workfront计划请求表单在Workfront的&#x200B;**请求**&#x200B;区域中可用。
+1. 启用屏幕右上角的&#x200B;**切换到新体验**设置。
+启用此设置可使Workfront计划请求表单在Workfront的**请求**&#x200B;区域中可用。
 
    >[!TIP]
    >
@@ -167,7 +174,7 @@ Workfront用户和外部用户可以向Planning记录类型提交请求。 请�
 
      有关信息，请参阅[向请求表单添加批准](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
 
-   * <span class="preview">您可以将“原始请求连接”字段添加到显示原始请求名称的Planning记录类型中。 有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。</span>
+   * <span class="preview">您可以将“原始请求连接”字段添加到Planning中的记录类型，以显示创建记录的原始请求的名称。 有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。</span>
    * 该请求仅对所有者、审批者和至少具有工作区查看权限的人员可见。 Workfront管理员可以查看提交到系统中任何工作区的所有请求。
 
    * 您会收到应用程序内和电子邮件通知，告知您请求已成功提交或已发送以供审阅。
@@ -196,7 +203,7 @@ Workfront用户和外部用户可以向Planning记录类型提交请求。 请�
       * **输入者**：添加请求的用户的名称。 如果请求是由Workfront之外的人员添加的，则&#x200B;**输入者**&#x200B;字段显示`N/A`。
       * **已创建对象状态**：已创建记录的状态。
 
-     您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的筛选器。
+     您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**加入的筛选器。
 在添加筛选条件时，将自动筛选请求列表。
 
    * 单击&#x200B;**列**&#x200B;打开&#x200B;**字段可见性和顺序**&#x200B;框，然后隐藏、显示或重新排列请求列表中的列。

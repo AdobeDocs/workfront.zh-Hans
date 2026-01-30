@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
 source-wordcount: '1568'
 ht-degree: 0%
@@ -221,7 +221,7 @@ ht-degree: 0%
 
      或
 
-     单击&#x200B;**下移**&#x200B;以将节下移一个位置。
+     单击&#x200B;**下移**以将节下移一个位置。
 部分中的所有字段都会随部分一起移动。
 
    * 单击&#x200B;**删除**&#x200B;以删除该节。 该部分已被删除，无法恢复。 访问此类型记录的所有用户将不再查看已删除的分区。
@@ -282,9 +282,11 @@ ht-degree: 0%
    * 选择&#x200B;**显示表字段**&#x200B;设置可仅查看未在记录表视图中隐藏的字段。 这是默认设置
    * 取消选择&#x200B;**显示表字段**&#x200B;设置以查看记录表视图中的所有字段，包括隐藏字段。
 
+   </div>
+
    >[!TIP]
    >
-   >**显示表字段**&#x200B;设置仅在记录的“详细信息”预览框中可用。 在记录的“详细信息”页面中不可用。
+   ><span class="preview">**显示表字段**&#x200B;设置仅在记录的“详细信息”预览框中可用。 在记录的“详细信息”页面中不可用。</span>
 
 
    <!--replace with this when they fix the UI text:
@@ -296,7 +298,7 @@ ht-degree: 0%
 
 1. （可选）单击记录预览右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签图标中打开详细信息框](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->以在新标签中打开记录页面。
 
-   默认情况下将打开记录的&#x200B;**详细信息**&#x200B;选项卡。
+   记录&#x200B;**详细信息**&#x200B;页面将在新选项卡中打开。
 
    ![详细信息页面](assets/details-page.png)
 

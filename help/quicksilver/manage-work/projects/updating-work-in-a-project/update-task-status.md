@@ -6,10 +6,10 @@ description: 您可以更新任务的状态，以告知其他人该任务在何�
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 1%
+source-wordcount: '635'
+ht-degree: 4%
 
 ---
 
@@ -23,22 +23,22 @@ ht-degree: 1%
 
 您可以手动更新任务状态，也可以让Workfront在某些操作发生时自动更新任务状态。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> <p>标准</p> 
-   <p>工作或更高</p>
+   <p>工作版或更高版本</p>
    </td> 
   </tr> 
   <tr> 
@@ -113,7 +113,7 @@ ht-degree: 1%
 
    双击&#x200B;**完成百分比**&#x200B;气泡内部以手动输入新百分比。
 
-   ![](assets/percent-complete-status-widgets-task-header.png)
+   ![完成百分比状态小组件任务标题](assets/percent-complete-status-widgets-task-header.png)
 
 1. （可选）执行以下任一操作以提供有关更新的其他信息：
 
@@ -142,7 +142,7 @@ ht-degree: 1%
    
    * To update the Commit Date of the task, expand the **Commit Date** drop-down calendar, and select a new Commit Date. 
    * To provide a visual indication of task completion, drag the bubble under Percent Complete or double-click it to enter a percent value.   
-     ![](assets/drag-the-progress-bar-350x155.png)-->
+     ![Drag the progress bar]](assets/drag-the-progress-bar-350x155.png)-->
 
 ## 自动更新任务状态
 
@@ -170,7 +170,7 @@ ht-degree: 1%
   <tr> 
    <td>将任务完成百分比从100%更新为较低数字</td> 
    <td>完成</td> 
-   <td>正在进行中</td> 
+   <td>进行中</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span>单击“开始任务”按钮接受处理分配给您的任务</span> </td> 

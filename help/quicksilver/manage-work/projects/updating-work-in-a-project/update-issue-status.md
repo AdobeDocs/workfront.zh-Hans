@@ -6,10 +6,10 @@ description: 您可以更新问题的状态，以通知其他人该问题的位�
 author: Alina
 feature: Work Management
 exl-id: 6e09dfcf-dceb-4f33-9592-0769283369c7
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 3%
+source-wordcount: '640'
+ht-degree: 5%
 
 ---
 
@@ -19,16 +19,16 @@ ht-degree: 3%
 
 您可以更新问题的状态，以通知其他人该问题的位置及其进展情况。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -84,8 +84,8 @@ ht-degree: 3%
 
 以下是Workfront中问题的默认状态：
 
-* 新建
-* 正在进行中
+* 新
+* 进行中
 * 等待反馈
 * 暂停
 * 不会解决
@@ -122,13 +122,13 @@ Adobe Workfront管理员可以为您的组织添加问题的自定义状态。 �
 
    在问题标题中的气泡内单击以输入百分比。
 
-   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+   在标题![中](assets/nwe-updatetaskpercentinheader-350x54.png)更新任务完成百分比
 
 1. （可选）执行以下任一操作以提供有关更新的其他信息：
 
    * 若要添加有关更新的注释，请转到&#x200B;**更新**&#x200B;部分，然后单击&#x200B;**新建注释**，然后键入注释。
 
-     ![](assets/nwe-issue-update-stream-message-box-350x125.png)
+     ![问题更新流消息框](assets/nwe-issue-update-stream-message-box-350x125.png)
 
    * 若要将更新通知给某些用户，请在键入评论时显示的&#x200B;**标记人员或团队**&#x200B;字段中键入其名称。 有关详细信息，请参阅[为其他人标记更新](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)。
    * 要更新问题的提交日期，请单击&#x200B;**问题详细信息**，然后编辑&#x200B;**提交日期**&#x200B;字段。 有关信息，请参阅[编辑问题](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md)。
@@ -147,7 +147,7 @@ When you are updating an issue status, you can also add an explanation about the
 1. Go to an issue that you are assigned to for which you want to update the status.
 1. Click the **Status** field in the issue header and select a new status.
 
-   ![](assets/nwe-issue-status-expanded-in-header-350x370.png)
+   ![Issue status expanded in header](assets/nwe-issue-status-expanded-in-header-350x370.png)
 
 1. To provide a visual indication of issue completion, drag or double-click the bubble under **Percent Complete** in the header of the issue.
 
@@ -155,7 +155,7 @@ When you are updating an issue status, you can also add an explanation about the
 
    Click inside the bubble in the header of the issue to enter a percentage.
 
-   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+   ![Update task percent in header](assets/nwe-updatetaskpercentinheader-350x54.png)
 
 -->
 
@@ -185,7 +185,7 @@ When you are updating an issue status, you can also add an explanation about the
   <tr> 
    <td>将问题完成百分比从100%更新为较低数字</td> 
    <td>已关闭 </td> 
-   <td>正在进行中</td> 
+   <td>进行中</td> 
   </tr> 
   <tr> 
    <td>更新附加到问题的解析对象的状态</td> 

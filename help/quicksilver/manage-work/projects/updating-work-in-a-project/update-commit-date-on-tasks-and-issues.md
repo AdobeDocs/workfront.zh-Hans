@@ -6,10 +6,10 @@ description: 您可以手动更新任务或您分配到的问题的提交日期�
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 0%
+source-wordcount: '599'
+ht-degree: 3%
 
 ---
 
@@ -26,18 +26,18 @@ ht-degree: 0%
 
 您可以手动更新任务或您分配到的问题的提交日期。 有关Adobe Workfront中提交日期的详细信息，请参阅[提交日期概述](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)。
 
-## 访问要求
+## 访问权限要求
 
 <!--Audited: 01/2024-->
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -143,13 +143,13 @@ ht-degree: 0%
 
 1. （视情况而定，可选）如果Workfront或组管理员将提交日期添加到任务或问题标题，请单击标题中的&#x200B;**提交日期**&#x200B;字段，然后从日历中选择日期。 如果提交日期不在标题中，请继续执行以下步骤。
 
-   ![](assets/commit-date-task-header.png)
+   任务标题中的![提交日期](assets/commit-date-task-header.png)
 
 1. 单击左侧面板中的&#x200B;**任务详细信息**&#x200B;或&#x200B;**问题详细信息**。
 1. 单击&#x200B;**概述**&#x200B;展开它。
 1. 更新&#x200B;**提交日期**&#x200B;字段。
 
-   ![](assets/task-commit-date-edit-highlighted-details-page.png)
+   ![在详细信息页面中高亮显示任务提交日期编辑](assets/task-commit-date-edit-highlighted-details-page.png)
 
 1. 单击&#x200B;**保存更改**。
 
@@ -159,15 +159,15 @@ ht-degree: 0%
 
      相反，任务或问题的提交日期和预计完成日期变为相同。
 
-     ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
+     ![任务预计完成日期（详细信息突出显示）](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
    * 在Workfront应用程序内通知中，项目所有者收到您为任务或问题建议了新的提交日期的通知。
    * 在更新部分中通知项目所有者，您已建议新的提交日期，此时，他们可以更新任务或问题的规划完成日期，以匹配您建议的提交日期。
 
-     ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
+     ![更新流中提交日期影响项目时间线的项目所有者通知](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
 
 
-     <!--![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
+     <!--![Project owner notification in update stream that commit date affects the project timeline](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
 
      有关此更改触发的通知和更新的信息，请参阅提交日期概述[一文中的“更改提交日期触发的通知和更新”部分。](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
 

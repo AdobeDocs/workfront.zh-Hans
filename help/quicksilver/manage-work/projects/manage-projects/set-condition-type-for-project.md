@@ -6,10 +6,10 @@ description: 作为项目经理，您可以通过更新项目的“条件类型�
 author: Alina
 feature: Work Management
 exl-id: e6b99c48-5ccc-4956-8465-6f22f14468ef
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 2%
+source-wordcount: '304'
+ht-degree: 7%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 2%
 
 作为项目经理，您可以通过更新项目的“条件类型”来确定如何计算项目的条件。 项目完成情况以可视化形式表示项目的进展情况。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 
 <table style="table-layout:auto"> 
@@ -27,7 +27,7 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -91,7 +91,7 @@ ht-degree: 2%
    * 单击项目名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/qs-more-menu.png)，然后单击&#x200B;**编辑**。
    * 单击左侧面板中的&#x200B;**项目详细信息**。
 
-   ![](assets/update-condition-type-nwe-350x108.png)
+   ![更新条件类型](assets/update-condition-type-nwe-350x108.png)
 
 1. 在&#x200B;**条件类型**&#x200B;字段中，选择下列选项之一：
 

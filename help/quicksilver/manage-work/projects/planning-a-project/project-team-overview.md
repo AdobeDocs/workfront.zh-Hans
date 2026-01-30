@@ -7,9 +7,9 @@ description: 以某种能力与项目相关联的用户构成了项目团队。 
 author: Alina
 feature: Work Management
 exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '479'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 1%
 
 您可以在项目区域标题中查看我所在的项目过滤器是否处于选中状态。 您可以从“筛选器”面板或标题中应用它。
 
-![](assets/nwe-project-list-buttons-350x187.png)
+![项目筛选器按钮](assets/nwe-project-list-buttons-350x187.png)
 
 >[!NOTE]
 >

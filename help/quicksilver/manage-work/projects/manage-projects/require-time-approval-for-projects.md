@@ -6,10 +6,10 @@ description: 您可以将项目配置为要求针对项目记录的小时数由�
 author: Alina
 feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 0%
+source-wordcount: '790'
+ht-degree: 2%
 
 ---
 
@@ -24,16 +24,16 @@ ht-degree: 0%
 >
 >启用此选项不会移除时间表批准者批准时间表上时间的能力。 如果项目所有者不批准或拒绝时间，时间表批准者仍然可以批准时间表上的时间。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -152,12 +152,12 @@ ht-degree: 0%
 1. 为问题、任务和项目显示记录的小时数，其状态应为&#x200B;**已提交**。\
    单击小时条目左侧的框以选择要批准的小时。
 
-1. 单击小时列表顶部的&#x200B;**批准**&#x200B;图标![](assets/approve-hours-icon.png)。\
+1. 单击小时列表顶部的&#x200B;**批准**&#x200B;图标![批准图标](assets/approve-hours-icon.png)。\
    小时数状态更改为&#x200B;**已批准**。\
    如果您稍后拒绝批准的小时数，小时数的状态将更改为&#x200B;**未批准**。\
    当您在开票记录中包含批准的小时数时，小时数的状态将更改为&#x200B;**已开票和已批准**。 无法删除添加到开票记录的小时数。 有关创建开票记录的更多信息，请参阅文章[创建开票记录](../../../manage-work/projects/project-finances/create-billing-records.md)
 
-1. （可选）单击&#x200B;**拒绝**&#x200B;图标![](assets/reject-hours-icon.png)以拒绝项目上的时间条目。\
+1. （可选）单击&#x200B;**拒绝**&#x200B;图标![拒绝小时数图标](assets/reject-hours-icon.png)以拒绝项目上的时间条目。\
    小时数状态更改为&#x200B;**已拒绝**。
 
    >[!NOTE]

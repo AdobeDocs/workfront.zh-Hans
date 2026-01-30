@@ -6,9 +6,9 @@ description: 项目的状态为置于其上的标志，用于指示与其关联�
 author: Alina
 feature: Work Management
 exl-id: 1f46386e-e1ae-4845-8cc4-09dd7d39076f
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '531'
 ht-degree: 3%
 
 ---
@@ -110,7 +110,7 @@ Adobe Workfront管理员可以为您的环境创建自定义条件，如[创建�
 
 1. 确保&#x200B;**条件类型**&#x200B;字段设置为&#x200B;**手动**。
 
-   ![](assets/project-details-overview-select-condition.png)
+   ![项目详细信息概述选择条件](assets/project-details-overview-select-condition.png)
 
 1. 在&#x200B;**条件**&#x200B;字段中，从以下选项中选择一个符合您对与其关联的工作是否顺利进行或是否有任何延迟的理解的选项：
 

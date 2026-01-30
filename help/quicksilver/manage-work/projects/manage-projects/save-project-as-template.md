@@ -6,10 +6,10 @@ description: 在项目级别将项目另存为模板另存为模板，以便用�
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
 source-wordcount: '485'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -33,16 +33,16 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 如果您决定某个项目在未来某个时间再次出现，则可以从现有项目创建模板。 然后，您可以再次使用该模板来创建未来项目，这些项目可能包含类似信息或可能与现有项目共享相同的时间表或工作分配。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -135,17 +135,17 @@ Saving a project as a template differs in the Production and the Preview environ
 
 1. Click **Manage Forms** to remove or reorder the forms. For information about how to remove and reorder custom forms on the template, see [Custom forms](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
 
-   ![](assets/save-as-template-first-step-350x159.png)
+   ![Save as template first step](assets/save-as-template-first-step-350x159.png)
 
 1. Click **Next Step.**
 1. In the **Options** section, select the checkbox beside any information you want to clear from the template.
 
-   ![](assets/save-as-template-options-step-350x109.png)
+   ![Save as template options step](assets/save-as-template-options-step-350x109.png)
 
 1. Click **Next Step.**
 1. In the **Exclude** section, select any tasks that you want to exclude from the project.
 
-   ![](assets/save-as-template-exclude-350x205.png)
+   ![Save as template exclude](assets/save-as-template-exclude-350x205.png)
 
 1. Click **Finish and Save Template.**
 
@@ -192,7 +192,7 @@ Saving a project as a template differs in the Production and the Preview environ
 1. 单击左侧面板中的&#x200B;**自定义Forms**&#x200B;以删除或重新排序表单。
 
    要重新排列表单，请以正确的顺序拖放表单。
-要删除表单，请选择它，然后单击&#x200B;**删除**。 单击&#x200B;**取消**&#x200B;可删除所选的表单。
+要删除表单，请选择它，然后单击**删除**。 单击&#x200B;**取消**&#x200B;可删除所选的表单。
 
    另存为模板框中的![自定义表单区域](assets/custom-forms-ara-in-save-as-template-box.png)
 

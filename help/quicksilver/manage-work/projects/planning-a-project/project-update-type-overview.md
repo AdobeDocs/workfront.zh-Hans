@@ -7,9 +7,9 @@ description: 项目的更新类型指示Adobe Workfront计算项目时间线的�
 author: Alina
 feature: Work Management
 exl-id: a6394961-2ac8-4b95-aa1b-dba8108c612f
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
   当您更新任务或项目并触发时间表重新计算时，所有可用日期都会立即显示，让您能够继续工作。 在具有100个以上任务的项目中，需要更长时间计算的日期将灰显。
 
-  ![](assets/dates-dimmed-when-insline-editing-350x146.png)
+  内联编辑时![日期变暗](assets/dates-dimmed-when-insline-editing-350x146.png)
 
   这表示重新计算尚未完成，并且日期可能会发生更改。
 
