@@ -6,10 +6,10 @@ description: 默认情况下，Adobe Workfront会根据已计划小时数计算�
 author: Alina
 feature: Work Management
 exl-id: 47a9b095-2b7d-4ed0-8cb6-e6bd5e37ce9c
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 1%
+source-wordcount: '450'
+ht-degree: 5%
 
 ---
 
@@ -23,22 +23,22 @@ ht-degree: 1%
 
 本文介绍如何在任务级别的“工作总揽”区域使用“简单持续时间类型”更新任务的已计划小时数和持续时间。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td><p>标准或更高版本</p> 
-   <p>工作或更高</p> </td> 
+   <p>工作版或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -91,13 +91,13 @@ ht-degree: 1%
 1. 在任务列表中，单击要更改持续时间类型的任务的名称。
 1. 执行下列操作之一：
 
-   * 单击任务名称旁边的&#x200B;**更多**&#x200B;图标![](assets/qs-more-icon-on-an-object.png)，单击&#x200B;**编辑**，然后单击&#x200B;**分配**。
+   * 单击任务名称旁边对象&#x200B;**上的**&#x200B;更多![图标](assets/qs-more-icon-on-an-object.png)更多，单击&#x200B;**编辑**，然后单击&#x200B;**分配**。
    * 单击任务标题的“工作总揽”区域中的&#x200B;**分配给**&#x200B;或工作总揽的名称，然后单击&#x200B;**高级**。
 
 1. 为所有分配输入&#x200B;**计划小时数**&#x200B;的总值，例如10小时。 计划小时数总数在分配给任务的所有资源之间平均分配。
 1. （可选）手动调整分配给任务的每个资源的计划小时数。 任务更新的计划小时数总数，以反映单独分配给资源的新小时数。
 1. 输入任务&#x200B;**持续时间**&#x200B;的值，例如2天。
 
-   ![](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)
+   ![高级工作分配简单持续时间多个资源](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)
 
 1. 单击&#x200B;**保存**。

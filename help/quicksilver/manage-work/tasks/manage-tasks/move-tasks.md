@@ -6,10 +6,10 @@ description: 您可以在Adobe Workfront中将任务移动到其他项目或不�
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 2%
+source-wordcount: '1377'
+ht-degree: 3%
 
 ---
 
@@ -34,22 +34,22 @@ ht-degree: 2%
 
 您可以移动单个任务，也可以从任务列表中一次移动多个任务。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> <p>标准 </p> 
- <p>工作或更高</p> </td> 
+ <p>工作版或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -133,7 +133,7 @@ ht-degree: 2%
 
    * 单击任务列表顶部的&#x200B;**更多**&#x200B;菜单![更多图标](assets/main-more-icon.png)，然后单击&#x200B;**移至**。
    * 右键单击选定的任务，然后单击&#x200B;**移至**。
-   * 选择一个任务时，单击列表中任务名称旁边的&#x200B;**更多**&#x200B;菜单![](assets/more-icon-task-list.png)，然后单击&#x200B;**移至**。
+   * 选择一项任务时，单击任务列表中任务名称旁边的&#x200B;**更多**&#x200B;菜单![更多图标](assets/more-icon-task-list.png)，然后单击&#x200B;**移至**。
 
    显示&#x200B;**移动任务**&#x200B;框。
 
@@ -207,7 +207,7 @@ ht-degree: 2%
    有关详细信息，请参阅<a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">任务约束概述</a>。</p> </td>
    </tr> 
      <tr> 
-      <td role="rowheader">任务</td> 
+      <td role="rowheader">分配</td> 
       <td> <p>将从任务中删除所有分配。 </p> </td> 
      </tr> 
      <tr> 

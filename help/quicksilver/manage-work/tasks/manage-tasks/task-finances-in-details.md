@@ -6,9 +6,9 @@ description: 通过访问“任务详细信息”部分的“概述”区域，�
 author: Alina
 feature: Work Management
 exl-id: 54ae48e5-bc8c-4e90-8fa1-0015523df4e6
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '838'
 ht-degree: 7%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 7%
 1. 单击&#x200B;**任务详细信息**。
 1. （可选）单击“任务详细信息”页面右上角的&#x200B;**全部折叠**&#x200B;图标。
 
-   ![](assets/collapse-all-icon-on-details-page.png)
+   ![折叠详细信息页面上的所有图标](assets/collapse-all-icon-on-details-page.png)
 
    >[!NOTE]
    >
@@ -100,7 +100,7 @@ ht-degree: 7%
 
 1. 单击&#x200B;**财务**&#x200B;展开并查看任务的财务信息。
 
-   单击“详细信息”部分右上角的&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)，然后单击&#x200B;**财务**。
+   单击“详细信息”部分右上角的&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)，然后单击&#x200B;**财务**。
 
 1. 编辑任何可编辑的字段，方法是单击该字段或单击&#x200B;**+添加**&#x200B;将信息添加到空字段。
 1. 在&#x200B;**财务**&#x200B;区域查看或编辑以下信息：
@@ -166,4 +166,4 @@ ht-degree: 7%
     </tbody> 
    </table>
 
-1. （视情况而定）如果您正在编辑“财务”部分中的字段，请单击&#x200B;**保存**&#x200B;**更改**。
+1. （视情况而定）如果您正在编辑“财务”部分中的字段，请单击&#x200B;**保存****更改**。

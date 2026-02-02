@@ -7,9 +7,9 @@ description: 项目的完成百分比值根据项目中任务的计划持续时�
 author: Alina
 feature: Work Management
 exl-id: d2395569-9fe5-42e7-a392-cff49eb519d9
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
@@ -54,13 +54,13 @@ Workfront使用单个任务的完成百分比来计算其父任务的完成百�
 
   父级的总计划小时数表示每个子级的所有计划小时数的总和。
 
-  ![](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
+  ![具有任务完成百分比和计划小时数的项目](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
 
 * 如果系统根据“持续时间”计算完成百分比，则父任务完成百分比使用以下公式计算：
 
   `Parent Task Percent Complete = (((Task 1 Duration * Task 1 Percent Complete) + (Task 2 Duration * Task 2 Percent Complete))/ Total Duration of Parent)*100`
 
-  ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
+  ![具有任务完成百分比和持续时间计算的项目](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
   >[!IMPORTANT]
   >
@@ -77,7 +77,7 @@ Workfront使用单个任务的完成百分比来计算其父任务的完成百�
 
   项目的总计划小时数是项目中所有主要任务的计划小时数的总和。
 
-  ![](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
+  ![具有任务完成百分比和计划小时数计算的项目](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
 
   >[!NOTE]
   >
@@ -91,7 +91,7 @@ Workfront使用单个任务的完成百分比来计算其父任务的完成百�
   >
   >项目持续时间是显示完成百分比的所有主任务的总持续时间。 例如，对于工期为2天的独立任务和工期为5天的父任务，如果在其上已完成工作，则项目的总工期为7天，即使这两个任务可以在同一天开始。
 
-  ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
+  ![具有任务完成百分比和持续时间计算的项目](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
   >[!NOTE]
   >
@@ -101,7 +101,7 @@ Workfront使用单个任务的完成百分比来计算其父任务的完成百�
 
 使用任务的持续时间计算项目的完成百分比时，请考虑以下示例：
 
-![](assets/project-with-tasks-percent-complete-duration-calculation.png)
+![具有任务完成百分比和持续时间计算的项目](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
 以下信息用于计算项目的完成百分比
 

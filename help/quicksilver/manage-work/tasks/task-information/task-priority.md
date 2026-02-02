@@ -7,10 +7,10 @@ description: 您可以定义任务的优先级，以指明任务的重要性。
 author: Alina
 feature: Work Management
 exl-id: 653b62fe-6195-4288-ac05-f89e4a6113fd
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 4%
+source-wordcount: '277'
+ht-degree: 10%
 
 ---
 
@@ -18,22 +18,22 @@ ht-degree: 4%
 
 您可以定义任务的优先级，以指明任务的重要性。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td><p>标准</p> 
-   <p>工作或更高</p> </td> 
+   <p>工作版或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -102,5 +102,5 @@ ht-degree: 4%
 
 1. 转到要修改其优先级的任务。
 1. 单击左侧面板中的&#x200B;**任务详细信息**。
-1. 单击&#x200B;**编辑**&#x200B;图标![](assets/qs-edit-icon.png)，然后在&#x200B;**概述**&#x200B;区域，为&#x200B;**优先级**&#x200B;字段选择一个值。
+1. 单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/qs-edit-icon.png)，然后在&#x200B;**概述**&#x200B;区域，为&#x200B;**优先级**&#x200B;字段选择一个值。
 1. 单击&#x200B;**保存** **更改**。

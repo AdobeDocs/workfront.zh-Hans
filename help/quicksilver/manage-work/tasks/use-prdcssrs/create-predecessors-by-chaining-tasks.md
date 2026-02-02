@@ -6,10 +6,10 @@ description: 在Adobe Workfront中，您可以通过多种方式创建前置任�
 author: Alina
 feature: Work Management
 exl-id: 38ea13a5-ab95-4617-a47f-9dde5f752fb4
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 0%
+source-wordcount: '282'
+ht-degree: 6%
 
 ---
 
@@ -21,16 +21,16 @@ ht-degree: 0%
 
 通过链接任务，您可以允许系统在选定任务上自动创建前置任务关系，而不是在每项任务上自己手动创建关系。 任务之间仍可以使用不同的前置任务关系类型。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -85,7 +85,7 @@ ht-degree: 0%
 1. 单击左侧面板中的&#x200B;**任务**。
 1. （视情况而定）选择任务列表右上角的&#x200B;**自动保存**，然后选择要链接的任务。
 
-   ![](assets/nwe-autosave-icon-on-highlighted-350x295.png)
+   ![自动保存图标高亮显示](assets/nwe-autosave-icon-on-highlighted-350x295.png)
 
    >[!IMPORTANT]
    >

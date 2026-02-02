@@ -7,10 +7,10 @@ description: 确定项目的关键路径是Adobe Workfront的一种自动方式�
 author: Alina
 feature: Work Management
 exl-id: 9cbc84bf-d02b-4bb7-8d5d-922554d1262e
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 0%
+source-wordcount: '689'
+ht-degree: 3%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 0%
      >当任务的后续任务日期不直接影响其依赖任务的日期或项目的日期时，后续任务不在“关键路径”上。
      >
      >
-     >![](assets/successor-not-on-critical-path-350x150.png)     >
+     >![后置任务不在关键路径上](assets/successor-not-on-critical-path-350x150.png)     >
      >
 
    * 当子任务被标识为“关键路径”任务时，如果计划起始日期和父任务的时间与子任务的时间相同，则父任务也被标识为“关键路径”任务。
@@ -47,23 +47,23 @@ ht-degree: 0%
 
 关键路径上任务活动的任何延迟都会直接影响项目的预计完成日期（关键路径上没有浮点）。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
    <p>标准<p>
-   <p>工作或更高</p>
+   <p>工作版或更高版本</p>
     </td> 
   </tr> 
   <tr> 

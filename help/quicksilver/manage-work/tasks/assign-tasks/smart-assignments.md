@@ -7,7 +7,7 @@ description: 在管理任务和问题分配时，您可以使用智能分配来�
 author: Lisa
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 0%
@@ -63,12 +63,12 @@ ht-degree: 0%
 
 <!--* The Assignments field in the New Task box, when adding a task to a project
 
-  ![](assets/smart-assignments-new-task-modal.png)-->
+  (![Smart assignments new task]assets/smart-assignments-new-task-modal.png)-->
 
 <!--this is not possible in the new home  - we have Summary there: 
 * The Assignments field for an item listed in the Home area, when you open a task or issue
 
-  ![](assets/smart-assignments-in-home-nwe-350x216.png)
+  ![Smart assignments in Home](assets/smart-assignments-in-home-nwe-350x216.png)
 -->
 
 * 分配任务或问题时位于已分配此区域的工作负载均衡器
@@ -85,7 +85,7 @@ The task smart assignments calculation works in <span class="preview">two phases
 
 <span class="preview">Depending on which algorithm finds the smart assignment, the assignments are listed under two separate sections in the Assignments field.</span> For information, see [Make smart assignments](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md). 
 
-![](assets/smart-assignments-task-list.png)
+![Smart assignments in tasks list](assets/smart-assignments-task-list.png)
 
 <div class="preview">
 

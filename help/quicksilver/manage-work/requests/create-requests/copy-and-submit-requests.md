@@ -6,9 +6,9 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1517'
+source-wordcount: '1520'
 ht-degree: 3%
 
 ---
@@ -104,19 +104,19 @@ ht-degree: 3%
 
 1. 找到要复制并作为新请求提交的请求，然后执行以下操作之一：
 
-   * 选择它，然后单击已提交请求列表左上角的&#x200B;**复制** ![](assets/copy-and-submit-as-new-requests-area-nwe.png)。
+   * 选择它，然后单击“已提交的请求”列表左上角的&#x200B;**复制**![复制并提交图标](assets/copy-and-submit-as-new-requests-area-nwe.png)。
 
    >[!TIP]
    >
    > 如果未先选择请求，则复制图标将灰显。
 
-   * 单击请求名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)，然后单击&#x200B;**复制并以新形式提交**
+   * 单击请求名称右侧的&#x200B;**更多**&#x200B;菜单![更多图标](assets/more-icon.png)，然后单击&#x200B;**复制并作为新内容提交**
 
      或
 
      右键单击所选请求，然后单击&#x200B;**复制并作为新请求提交**。
 
-     ![](assets/request-selected-more-menu-options-nwe-350x191.png)
+     ![请求选择更多菜单选项](assets/request-selected-more-menu-options-nwe-350x191.png)
 
      >[!TIP]
      >
@@ -236,12 +236,9 @@ ht-degree: 3%
 
       有关“我的请求”小组件的详细信息，请参阅[使用我的请求](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)。
 
-1. 在“请求”列表或“我的请求”小组件中，将鼠标悬停在要复制的请求上。
+1. 在&#x200B;**请求**&#x200B;列表或主页中的&#x200B;**我的请求**&#x200B;构件中，将鼠标悬停在要复制的请求上，然后单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)。
 
-   出现“More（更多）”三点菜单。
-   ![](assets/more-menu.png)
-
-1. 单击请求名称右侧的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**复制**。
+1. 单击&#x200B;**复制**
 
    或
 

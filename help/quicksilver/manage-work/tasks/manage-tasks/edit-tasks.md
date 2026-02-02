@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: b1d5122dd66d84a0e2a21f24eeb01fd3298374ad
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '5369'
+source-wordcount: '5428'
 ht-degree: 4%
 
 ---
@@ -162,7 +162,7 @@ ht-degree: 4%
 1. 单击要编辑的任务。
 1. （视情况而定）要编辑有关任务的有限信息，请单击左侧面板中的&#x200B;**任务详细信息**。
 
-   ![](assets/nwe-task-details-expanded-350x273.png)
+   ![任务详细信息已展开](assets/nwe-task-details-expanded-350x273.png)
 
    请考虑编辑“任务详细信息”部分中以下区域的信息：
 
@@ -184,15 +184,15 @@ ht-degree: 4%
 
    要编辑“详细信息”部分中的信息，请执行以下操作：
 
-   1. （可选）单击右上角的&#x200B;**全部折叠**&#x200B;图标![](assets/collapse-all-icon.png)以折叠所有区域。
-   1. （可选且有条件）折叠区域时，单击每个区域旁边的&#x200B;**向右箭头** ![](assets/right-pointing-arrow.png)以展开要编辑的区域。
+   1. （可选）单击右上角的&#x200B;**全部折叠**&#x200B;图标![全部折叠图标](assets/collapse-all-icon.png)以折叠所有区域。
+   1. （可选且有条件）当某个区域折叠时，单击每个区域旁边的&#x200B;**向右箭头** ![向右箭头](assets/right-pointing-arrow.png)以展开要编辑的区域。
    1. 有关在“任务详细信息”选项卡中编辑信息的详细信息，请参阅以下文章：
 
       * [在任务详细信息概述区域管理任务信息](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
       * [在“任务详细信息”部分管理任务财务](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
 
    1. （可选）如果没有自定义表单附加到任务，请在&#x200B;**添加自定义表单**&#x200B;字段中开始键入表单的名称，然后在表单显示在列表中时将其选定，然后单击&#x200B;**保存更改**。
-   1. （可选）单击&#x200B;**导出**&#x200B;图标![](assets/export.png)以将概述和自定义表单信息导出到PDF文件，然后单击&#x200B;**导出**。 从以下项中选择：
+   1. （可选）单击&#x200B;**导出**&#x200B;图标![导出图标](assets/export.png)以将概述和自定义表单信息导出到PDF文件，然后单击&#x200B;**导出**。 从以下项中选择：
 
       * 选择全部（仅在至少附加一个自定义表单时显示）
       * 概述
@@ -200,15 +200,15 @@ ht-degree: 4%
 
       PDF文件将下载到您的计算机。
 
-      ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![使用“导出”按钮导出问题详细信息选择框](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       有关详细信息，请参阅[导出自定义表单和对象详细信息](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)。
 
-1. （视情况而定）要编辑有关任务的所有信息，请以具有任务管理权限的用户身份，单击任务名称旁边的&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)，然后单击&#x200B;**编辑**。
+1. （视情况而定）要编辑有关任务的所有信息，请以具有任务管理权限的用户身份，单击任务名称旁边的&#x200B;**更多**&#x200B;菜单![更多图标](assets/more-icon.png)，然后单击&#x200B;**编辑**。
 
    或
 
-   从任务列表中选择任务，然后单击列表顶部的&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)。
+   从任务列表中选择任务，然后单击列表顶部的&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
 
    将打开“编辑任务”框。
 
@@ -241,7 +241,7 @@ ht-degree: 4%
 1. 按如上所述开始编辑任务。
 1. 单击左侧面板中的&#x200B;**任务名称**。
 
-   ![](assets/nwe-task-name-section-edit-task-box-350x122.png)
+   编辑任务框中的![任务名称部分](assets/nwe-task-name-section-edit-task-box-350x122.png)
 
 1. 更新任务的名称。
 
@@ -252,7 +252,7 @@ ht-degree: 4%
 1. 按如上所述开始编辑任务。
 1. 单击左侧面板中的&#x200B;**概述**。
 
-   ![](assets/nwe-overview-section-edit-task-box-350x257.png)
+   ![概述分区编辑任务框](assets/nwe-overview-section-edit-task-box-350x257.png)
 
 1. 更新关于任务的以下信息：
 
@@ -843,7 +843,7 @@ ht-degree: 4%
 1. 按如上所述开始编辑任务。
 1. 单击左侧面板中的&#x200B;**自定义Forms**，或者单击已附加的自定义表单的名称。
 
-   ![](assets/nwe-custom-forms-section-edit-task-box-350x127.png)
+   ![自定义表单分区编辑任务框](assets/nwe-custom-forms-section-edit-task-box-350x127.png)
 
 1. 单击&#x200B;**添加自定义表单**，然后选择要与任务关联的一个或多个自定义表单。 您必须先构建自定义表单，然后才可在此字段中选择它们。 列表中仅显示活动的自定义表单。
 
@@ -862,7 +862,7 @@ ht-degree: 4%
 1. 开始编辑您的任务，如本文的[编辑任务](#Edit2)部分所述。
 1. 单击左侧面板中的&#x200B;**财务**。
 
-   ![](assets/nwe-finance-section-edit-task-box-350x298.png)
+   ![财务分区编辑任务框](assets/nwe-finance-section-edit-task-box-350x298.png)
 
 1. 更新以下字段：
 
@@ -905,7 +905,7 @@ ht-degree: 4%
 1. 开始编辑您的任务，如本文的[编辑任务](#Edit2)部分所述。
 1. 单击左侧面板中的&#x200B;**设置**。
 
-   ![](assets/nwe-settings-section-edit-task-box-350x304.png)
+   编辑任务框上的![设置部分](assets/nwe-settings-section-edit-task-box-350x304.png)
 
 1. 更新以下字段：
 
@@ -992,7 +992,7 @@ ht-degree: 4%
 您的系统或组管理员可以自定义您在任务标题中看到的字段。 有关详细信息，请参阅[使用布局模板自定义对象标头](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)。
 
 
-![](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
+![没有审批且依赖项的任务标头](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
 
 默认情况下，任务标题中包含以下字段：
 

@@ -7,9 +7,9 @@ description: 计算的工作量是一种持续时间类型，您可以在Adobe W
 author: Alina
 feature: Work Management
 exl-id: f521c2f5-8d58-44c0-af18-6940ad0950ea
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '568'
 ht-degree: 1%
 
 ---
@@ -68,7 +68,7 @@ Work Required (Planned Hours) = SUM[(Duration of the task in hours) x (Percent a
   <tr> 
    <td> <p>2</p> </td> 
    <td> <p>1天</p> </td> 
-   <td> <p>16小时</p> <p>（1天x每个工作日8小时x 2被分派人= 16计划小时）</p> </td> 
+   <td> <p>16 小时</p> <p>（1天x每个工作日8小时x 2被分派人= 16计划小时）</p> </td> 
   </tr> 
   <tr> 
    <td> <p>3</p> </td> 
@@ -80,7 +80,7 @@ Work Required (Planned Hours) = SUM[(Duration of the task in hours) x (Percent a
 
 在这种情况下，每个被分派人100%分配给“计算的工作”任务。
 
-![](assets/calcwork-350x71.png)
+![计算的工作持续时间类型](assets/calcwork-350x71.png)
 
 ## 将任务的持续时间类型更改为计算的工作量
 

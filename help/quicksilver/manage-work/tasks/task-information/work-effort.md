@@ -7,10 +7,10 @@ description: 工作投入概述
 author: Alina
 feature: Work Management
 exl-id: 70f51e4b-43cc-427a-99e4-ebb056bb1070
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1474'
-ht-degree: 0%
+source-wordcount: '1488'
+ht-degree: 1%
 
 ---
 
@@ -57,16 +57,16 @@ ht-degree: 0%
 >
 >计划小时数和工作投入会相互影响。 更新已计划小时数可以更新工作投入，更新工作投入可以更新任务的已计划小时数。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -130,15 +130,15 @@ ht-degree: 0%
 
 ## 允许使用工作投入而不是计划小时数
 
-1. 转到项目并单击&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)，然后单击&#x200B;**编辑**。
+1. 转到项目并单击&#x200B;**更多**&#x200B;菜单![更多图标](assets/more-icon.png)，然后单击&#x200B;**编辑**。
 1. 单击&#x200B;**任务设置**，然后选择选项&#x200B;**使用工作量自动计算任务已计划小时数**。 默认情况下，该选项处于取消选中状态。
 
-   ![](assets/nwe-work-effort-on-projects-350x182.png)
+   ![项目上的工作投入](assets/nwe-work-effort-on-projects-350x182.png)
 
    有关在项目上启用工作投入的详细信息，请参阅[编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md)文章中的“任务设置”部分。
 
 1. 单击左侧面板上的&#x200B;**任务**，然后单击任务的名称以访问它。
-1. 单击&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)，然后单击&#x200B;**编辑**。 确保任务具有简单的持续时间类型。
+1. 单击&#x200B;**更多**&#x200B;菜单![更多图标](assets/more-icon.png)，然后单击&#x200B;**编辑**。 确保任务具有简单的持续时间类型。
 
    >[!TIP]
    >
@@ -146,7 +146,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**概述**&#x200B;区域中，单击工作投入下拉菜单以更正完成任务所需的工作量。
 
-   ![](assets/work-effort-on-edit-task-page-350x239.png)
+   ![在编辑任务页面上的工作投入](assets/work-effort-on-edit-task-page-350x239.png)
 
    有关更新任务的工作投入字段的更多信息，请参阅以下文章：
 

@@ -6,9 +6,9 @@ description: 任务约束决定了任务在项目中的开始和结束时间。 
 author: Alina
 feature: Work Management
 exl-id: 54b54892-f8b3-4704-8221-03bbb9f07917
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '304'
 ht-degree: 19%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 19%
 1. 单击左侧面板中的&#x200B;**任务**&#x200B;部分。
 1. 单击左侧面板中的&#x200B;**任务详细信息**，然后在“概述”区域中，单击&#x200B;**任务限制**。
 
-   ![](assets/task-constraint-all-options-in-overview-350x254.png)
+   ![任务限制概述](assets/task-constraint-all-options-in-overview-350x254.png)中的所有选项
 
 1. 从以下选项中选择
 

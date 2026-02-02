@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 8164cce259c48ccd92d3cb73a9fcc0ca1907b612
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '13726'
+source-wordcount: '13750'
 ht-degree: 2%
 
 ---
@@ -2110,7 +2110,10 @@ ht-degree: 2%
    * Adobe Workfront规划最佳实践 {#adobe-workfront-planning-best-practices}
       * [Adobe Workfront最佳实践：文章索引](planning/best-practices.md/best-practices-article-index.md)
       * [30天的启动台：推出您的战略主页](planning/best-practices.md/30-day-launchpad.md)
-      * [成功框架：为营销活动层次结构建模](planning/best-practices.md/model-campaign-hierarchy.md)
+      * [成功的体系结构：为您的营销活动层次结构建模](planning/best-practices.md/model-campaign-hierarchy.md)
+      * [你错过的营销日历：没有书桌，只是清晰明了](planning/best-practices.md/marketing-calendar.md)
+      * [行动手册：首次获胜后管理扩展](planning/best-practices.md/playbook-how-to-scale.md)
+      * [桥梁：将战略意图与项目联系起来](planning/best-practices.md/the-bridge-connect-strategy-with-projects.md)
    * Adobe Workfront规划架构 {#adobe-workfront-planning-architecture}
       * [架构：文章索引](planning/architecture/architecture-information.md)
       * [工作区概述](planning/architecture/workspaces-overview.md)
@@ -2545,8 +2548,8 @@ ht-degree: 2%
       * [使用PKCE流程配置和使用您组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-pkce-flow.md)
       * [弃用API — 内部](wf-api/api/deprecation-api-internal.md)
       * [API版本21中的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-      * [API版本20中的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [API版本19中的新增功能](wf-api/api/new-api-version-19.md)
+      * [API版本20](/help/quicksilver/wf-api/api/new-api-version-20.md)中的新增功能
+      * [API版本19](wf-api/api/new-api-version-19.md)中的新增功能
       * [API版本18中的新增功能](wf-api/api/new-api-version-18.md)
       * [API版本17中的新增功能](wf-api/api/new-api-version-17.md)
       * [API版本16中的新增功能](wf-api/api/new-api-version-16.md)

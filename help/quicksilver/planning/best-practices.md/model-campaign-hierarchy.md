@@ -1,5 +1,5 @@
 ---
-title: 成功框架：为营销活动层次结构建模
+title: 成功的架构：为Campaign层次结构建模
 description: 了解如何使用“重心”和多工作区架构，将复杂的业务流程转换为可扩展、受管理的活动层次结构。
 feature: Workfront Planning
 role: User, Admin
@@ -7,7 +7,7 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# 成功框架：为营销活动层次结构建模
+# 成功的架构：为您的营销活动层次结构建模
 
 <!--see the file again for additional comments from Seth and others-->
 

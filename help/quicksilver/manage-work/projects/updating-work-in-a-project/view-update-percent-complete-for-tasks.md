@@ -6,10 +6,10 @@ description: 您可以更新任务的完成百分比，以指明完成任务的�
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 0%
+source-wordcount: '692'
+ht-degree: 3%
 
 ---
 
@@ -23,20 +23,20 @@ ht-degree: 0%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> <p>标准</p> 
-   <p>工作或更高</p>
+   <p>工作版或更高版本</p>
    </td> 
   </tr> 
   <tr> 
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 * **在任务标题中**：您可以在任务标题中更新任务的完成百分比。
 
-  ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+  ![更新标头](assets/nwe-updatetaskpercentinheader-350x54.png)中的百分比
 
 * **在任务的“摘要”面板中**：您可以在查看以下区域中的任务时更新摘要面板顶部的任务完成百分比：
 
@@ -108,7 +108,7 @@ ht-degree: 0%
    * 时间表
    * 工作负载均衡器
 
-  ![](assets/update-percent-complete-in-task-summary-highlighted.png)
+  ![更新任务摘要中突出显示的百分比](assets/update-percent-complete-in-task-summary-highlighted.png)
 
   有关详细信息，请参阅[摘要概述](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
 

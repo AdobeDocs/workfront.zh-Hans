@@ -6,10 +6,10 @@ description: 在Adobe Workfront中，任务可以具有父子关系。 子任务
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 0%
+source-wordcount: '578'
+ht-degree: 3%
 
 ---
 
@@ -19,22 +19,22 @@ ht-degree: 0%
 
 在Adobe Workfront中，任务可以具有父子关系。 子任务称为子任务。 通过将主任务设为另一个任务的子任务，可以在任务列表中创建子任务。 您还可以将子任务设置为主任务。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> <p>标准</p> 
-   <p>工作或更高</p> </td> 
+   <p>工作版或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -96,12 +96,12 @@ ht-degree: 0%
 1. （视情况而定）如果要生成子任务的任务尚未位于要生成父任务的任务的正下方，请将其拖放到任务列表中的适当位置。
 1. 选择要创建子任务的任务，然后执行以下操作之一：
 
-   * 单击&#x200B;**缩进**&#x200B;图标![](assets/indent-icon-nwe-33x29.png)，使所选任务成为其正上方的任务的子任务。
+   * 单击&#x200B;**缩进**&#x200B;图标![缩进图标](assets/indent-icon-nwe-33x29.png)，使所选任务成为其正上方任务的子任务。
    * 使用标准英语QWERTY键盘时，按键盘上的Option + > (Mac)或Alt + > (Windows)。 其他语言可能使用命令Option + 、 (Mac)或Alt + 、 (Windows)进行缩进。
 
      >[!TIP]
      >
-     >在内联编辑中编辑任务时，键盘快捷键不起作用。 在这种情况下，请使用缩进图标![](assets/indent-icon-nwe-33x29.png)创建子任务。
+     >在内联编辑中编辑任务时，键盘快捷键不起作用。 在这种情况下，请使用“缩进”图标![缩进图标](assets/indent-icon-nwe-33x29.png)创建子任务。
 
    * 将任务拖放到要指定为父级任务的任务上。
 
@@ -132,7 +132,7 @@ ht-degree: 0%
 1. 转到要将子任务作为主任务的项目。
 1. 单击左侧面板中的&#x200B;**任务**&#x200B;部分。
 1. 选择要作为主任务的子任务。
-1. 单击&#x200B;**减少缩进**&#x200B;图标![](assets/outdent-icon-nwe-31x29.png)使子任务成为主任务。
+1. 单击&#x200B;**减少缩进**&#x200B;图标![减少缩进图标](assets/outdent-icon-nwe-31x29.png)使子任务成为主任务。
 
    或
 

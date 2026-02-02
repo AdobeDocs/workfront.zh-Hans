@@ -7,9 +7,9 @@ description: 最新可用时间(LAT)是Adobe Workfront中的一种任务限制�
 author: Alina
 feature: Work Management
 exl-id: acf55004-9424-4e24-9ff5-90f6fd7f72a6
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -58,13 +58,13 @@ ht-degree: 0%
 
   **示例：**&#x200B;例如，任务A是任务B的前置任务。任务A具有最新可用时间限制，而任务B具有“尽快”限制。 在此情况下，任务A被安排在尽可能接近项目开始的时间。
 
-  ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
+  ![任务列表中的最新可用时间任务限制](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
 
 * **尽可能迟：**&#x200B;在此方案中，对前置任务使用尽可能晚的限制将优先处理前置任务。
 
   **示例：**&#x200B;例如，任务A是任务B的前置任务。任务A具有尽可能晚的限制，而任务B具有尽可能早的限制。 在这种情况下，任务A被安排在尽可能接近项目结束的时间。
 
-  ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
+  ![在任务列表中尽可能晚的任务限制](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

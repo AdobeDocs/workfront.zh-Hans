@@ -6,10 +6,10 @@ description: 任务的跟踪模式决定任务进度状态在Adobe Workfront中�
 author: Alina
 feature: Work Management
 exl-id: 751071b4-3716-4153-97fe-4fe0ebc7cbb0
-source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 6%
+source-wordcount: '207'
+ht-degree: 14%
 
 ---
 
@@ -21,23 +21,23 @@ ht-degree: 6%
 
 有关任务跟踪模式的信息，请参阅[任务跟踪模式概述](../../../manage-work/tasks/task-information/task-tracking-mode.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> <p>标准</p>
 
-<p>工作或更高</p> 
+<p>工作版或更高版本</p> 
    </td> 
   </tr> 
   <tr> 
@@ -87,13 +87,13 @@ ht-degree: 6%
 ## 为任务设置跟踪模式
 
 1. 转到要为其设置跟踪模式的任务。
-1. 单击任务名称旁边的&#x200B;**更多**&#x200B;图标![](assets/qs-more-icon-on-an-object.png)，然后单击&#x200B;**编辑**。
+1. 单击任务名称旁边对象&#x200B;**上的**&#x200B;更多![图标](assets/qs-more-icon-on-an-object.png)更多，然后单击&#x200B;**编辑**。
 
    将打开“编辑任务”对话框。
 
 1. 在&#x200B;**设置**&#x200B;部分中，使用&#x200B;**跟踪模式**&#x200B;下拉菜单选择任务的跟踪模式。
 
-   ![](assets/tracking-mode-field-in-edit-task-settings-nwe-350x233.png)
+   编辑任务设置部分中的![跟踪模式字段](assets/tracking-mode-field-in-edit-task-settings-nwe-350x233.png)
 
 1. 从以下选项中选择：
 

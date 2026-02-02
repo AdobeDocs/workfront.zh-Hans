@@ -6,10 +6,10 @@ description: 您可以将任务从项目复制到另一个项目，也可以复�
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1679'
-ht-degree: 1%
+source-wordcount: '1744'
+ht-degree: 2%
 
 ---
 
@@ -19,22 +19,22 @@ ht-degree: 1%
 
 您可以一次复制或复制一个或多个任务或父任务。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> <p>标准</p> 
-   <p>工作或更高</p> </td> 
+   <p>工作版或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -108,9 +108,9 @@ ht-degree: 1%
    转到任务报告。
 
 1. （视情况而定）如果您打开了包含任务的项目，请单击左侧面板中的&#x200B;**任务**。
-1. 单击&#x200B;**计划模式**&#x200B;图标![](assets/qs-list-mode-or-save-mode-icon-small.png)，并确保已启用&#x200B;**自动保存**&#x200B;选项。
+1. 单击&#x200B;**计划模式**&#x200B;图标![列表模式或保存模式图标](assets/qs-list-mode-or-save-mode-icon-small.png)，并确保启用&#x200B;**自动保存**&#x200B;选项。
 
-   ![](assets/autosave-icon-on-highlighted-350x202.png)
+   ![自动保存图标打开并突出显示](assets/autosave-icon-on-highlighted-350x202.png)
 
    >[!IMPORTANT]
    >
@@ -120,9 +120,9 @@ ht-degree: 1%
 
    * 单击任务列表顶部的&#x200B;**更多菜单**，然后单击&#x200B;**复制到**。
    * 右键单击选定的任务，然后单击&#x200B;**复制到**。
-   * 选择一项任务时，单击列表中任务名称旁边的&#x200B;**更多**&#x200B;菜单![](assets/more-icon-task-list.png)，然后单击&#x200B;**复制到**。
+   * 选择一个任务时，单击该列表中任务名称旁边的任务列表&#x200B;**上的**&#x200B;更多![菜单](assets/more-icon-task-list.png)更多图标，然后单击&#x200B;**复制到**。
 
-   ![](assets/copy-task-in-list-nwe-350x131.png)
+   ![复制列表中的任务](assets/copy-task-in-list-nwe-350x131.png)
 
 1. 继续复制任务，如从步骤4开始的[复制任务级别](#copy-a-task-at-the-task-level)的任务一节中所述。
 
@@ -136,9 +136,9 @@ ht-degree: 1%
 
 1. 通过搜索在Workfront系统中查找任务。
 1. 单击任务的名称以将其打开。
-1. 单击任务名称旁边的&#x200B;**更多**&#x200B;下拉菜单![](assets/qs-more-menu.png)，然后单击&#x200B;**复制到**。
+1. 单击任务名称旁边的&#x200B;**更多**&#x200B;下拉菜单![更多菜单](assets/qs-more-menu.png)，然后单击&#x200B;**复制到**。
 
-   ![](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
+   任务级别的![任务复制到选项](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
 
    此时将显示“复制任务”框。
 
@@ -148,7 +148,7 @@ ht-degree: 1%
    >
    >选择复制列表中的多个任务时，此字段将灰显且不可编辑。 您可以将鼠标悬停在“任务名称”字段上，此时将显示所有选定任务的列表。
    >
-   >![](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)
+   >![在多个任务框中复制任务](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)
 
 1. 在&#x200B;**选择目标项目**&#x200B;字段中键入要复制任务的&#x200B;**目标项目**&#x200B;的名称。
 
@@ -163,7 +163,7 @@ ht-degree: 1%
 1. （视情况而定）如果您没有所选项目的访问权限，请单击&#x200B;**请求访问权限**&#x200B;以请求对该项目的访问权限。
 1. （视情况而定）如果您有权将任务添加到目标项目上的任务之一，请继续将任务复制到选定的目标项目，而不请求访问权限。
 
-   ![](assets/copy-task-request-access-from-project-nwe-350x125.png)
+   ![从项目复制任务请求访问权限](assets/copy-task-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >
@@ -186,7 +186,7 @@ ht-degree: 1%
       <td> <p>任务限制被设置为“尽可能早”或“尽可能晚”，基于项目计划模式设置。</p> <p> 选中后，任务的当前限制将转移到复制的任务。 </p> <p>注：在将具有日期特定约束的任务移动或复制到另一个项目时，如果任务的约束日期在新项目的日期之外，则任务约束会更改为尽可能早或尽可能晚或者调整项目的计划起始日期或计划完成日期。 日期特定约束的一些示例必须开始于、必须结束于、开始时间不早于、开始时间不晚于等。 有关任务限制以及任务限制或项目日期如何受到影响的信息，请参阅<a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">任务限制概述</a>并查找特定限制。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">任务</td> 
+      <td role="rowheader">分配</td> 
       <td> <p>将从任务中删除所有分配。 </p> </td> 
      </tr> 
      <tr> 
@@ -290,11 +290,11 @@ ht-degree: 1%
 1. 单击左侧面板中的&#x200B;**任务**。
 1. 执行下列操作之一：
 
-   * （视情况而定）单击&#x200B;**计划模式**&#x200B;图标![](assets/qs-list-mode-or-save-mode-icon-small.png)并确保启用了&#x200B;**自动保存**&#x200B;选项，选择要复制的任务，然后单击&#x200B;**更多菜单** ![](assets/qs-more-menu-29x11.png) > **复制**。
+   * （视情况而定）单击&#x200B;**计划模式**&#x200B;图标![列表模式或保存模式小图标](assets/qs-list-mode-or-save-mode-icon-small.png)并确保启用了&#x200B;**自动保存**&#x200B;选项，选择要复制的任务，然后单击&#x200B;**更多菜单** ![更多菜单](assets/qs-more-menu-29x11.png) > **复制**。
 
-     ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
+     ![列表菜单项中的重复任务](assets/duplicate-tasks-in-list-nwe-350x196.png)
 
-   * （视情况而定）单击&#x200B;**计划模式**&#x200B;图标![](assets/qs-list-mode-or-save-mode-icon-small.png) > **手动保存** > **标准**&#x200B;或&#x200B;**时间线计划**，然后执行以下操作：
+   * （视情况而定）单击&#x200B;**计划模式**&#x200B;图标![列表模式或保存模式小图标](assets/qs-list-mode-or-save-mode-icon-small.png) > **手动保存** > **标准**&#x200B;或&#x200B;**时间线计划**，然后执行以下操作：
 
       1. 选择要复制的一个或多个任务，然后单击&#x200B;**复制**。
       1. （可选）单击&#x200B;**撤消**&#x200B;以撤消您的更改并且不复制任务。

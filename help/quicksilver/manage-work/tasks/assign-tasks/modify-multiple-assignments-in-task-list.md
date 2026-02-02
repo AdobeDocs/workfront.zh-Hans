@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: b1d5122dd66d84a0e2a21f24eeb01fd3298374ad
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1553'
 ht-degree: 1%
 
 ---
@@ -125,7 +125,7 @@ When assigning users to work, their availability according to their schedules af
    >
    >不要使用&#x200B;**分配给**&#x200B;字段。 此操作仅查找任务的主要所有者，而不是查找可分配给任务的任何用户。
 
-1. 选择要修改分配的任务，然后单击&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)。
+1. 选择要修改分配的任务，然后单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
 
    根据您选择的环境，编辑任务中的分配会有所不同。
 

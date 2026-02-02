@@ -7,9 +7,9 @@ description: 计算分配是一种持续时间类型，您可以在Adobe Workfro
 author: Alina
 feature: Work Management
 exl-id: 5f1f6109-5d54-4c3f-9aa5-dc6ce165a1cd
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Planned Hours / Duration / Number of Resources = Allocation Percentage for each 
 
 例如，在下面列出的方案中，每个任务的持续时间均为3天。 项目经理人工输入持续时间（3天或24小时）和计划小时数，因此计算分配百分比（或分配百分比）：
 
-![](assets/calcassign-350x80.png)
+![计算的分配持续时间类型](assets/calcassign-350x80.png)
 
 ## 将任务的工期类型更改为计算的分配
 

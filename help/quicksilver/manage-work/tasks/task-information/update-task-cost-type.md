@@ -6,10 +6,10 @@ description: 任务的计划和实际成本及其人工成本由每个任务的�
 author: Alina
 feature: Work Management
 exl-id: bc30ecab-7347-4dff-8e06-e8ea3f50d5b3
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 12%
+source-wordcount: '223'
+ht-degree: 11%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 12%
 1. 单击左侧面板中的&#x200B;**任务详细信息**，然后展开&#x200B;**财务**&#x200B;区域。
 1. 双击&#x200B;**成本类型**&#x200B;并选择要应用于任务的成本类型。
 
-   ![](assets/task-cost-type-options-in-tasks-details-nwe-350x233.png)
+   任务详细信息中的![任务成本类型选项](assets/task-cost-type-options-in-tasks-details-nwe-350x233.png)
 
    从以下选项中选择：
 

@@ -6,9 +6,9 @@ description: 您可以删除已提交的请求或请求草稿。
 author: Becky
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '608'
 ht-degree: 3%
 
 ---
@@ -81,12 +81,9 @@ ht-degree: 3%
 
       有关“我的请求”小组件的详细信息，请参阅[使用我的请求](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)。
 
-1. 在“请求”列表或“我的请求”小部件中，将鼠标悬停在要删除的请求或草稿上。
+1. 在&#x200B;**请求**&#x200B;列表或主页中的&#x200B;**我的请求**&#x200B;小组件中，将鼠标悬停在要删除的请求或草稿上，然后单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)
 
-   出现“More（更多）”三点菜单。
-   ![](assets/more-menu.png)
-
-1. 单击请求或草稿名称右侧的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**删除**。
+1. 单击&#x200B;**删除**
 
    或
 

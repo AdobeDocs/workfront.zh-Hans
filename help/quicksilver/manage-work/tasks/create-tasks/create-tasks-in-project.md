@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1061'
 ht-degree: 2%
 
 ---
@@ -116,8 +116,8 @@ ht-degree: 2%
 
 1. 转到要创建任务的项目。
 1. 单击左侧面板中的&#x200B;**任务**。
-1. （视情况而定）如果您当前在Agile视图中查看任务列表，请单击右上角的&#x200B;**列表视图**&#x200B;图标![](assets/list-view-in-agile-view-for-tasks.png)以显示任务列表。
-1. （可选）单击&#x200B;**计划模式**&#x200B;图标![](assets/nwe-plan-mode-icon-task-list.png)并选择&#x200B;**手动保存**，然后选择&#x200B;**标准**&#x200B;或&#x200B;**时间表计划**。 这将禁用默认启用的&#x200B;**自动保存**&#x200B;选项。
+1. （视情况而定）如果您当前在Agile视图中查看任务列表，请单击右上角的Agile视图中的&#x200B;**列表视图**&#x200B;图标![列表视图](assets/list-view-in-agile-view-for-tasks.png)以显示任务列表。
+1. （可选）单击任务列表&#x200B;**的**&#x200B;计划模式![图标](assets/nwe-plan-mode-icon-task-list.png)计划模式图标&#x200B;**手动保存**，然后选择&#x200B;**标准**&#x200B;或&#x200B;**时间表计划**。 这将禁用默认启用的&#x200B;**自动保存**&#x200B;选项。
 
    ![选择手动保存](assets/manual-save-option.png)
 
@@ -130,7 +130,7 @@ ht-degree: 2%
    * 单击任务列表顶部的&#x200B;**新建任务**。
    * 单击任务列表底部的&#x200B;**添加更多任务**。
 
-   ![](assets/qs-new-task-or-add-task-buttons-in-list-highlighted-350x242.png)
+   ![在突出显示的列表中新建任务或添加任务按钮](assets/qs-new-task-or-add-task-buttons-in-list-highlighted-350x242.png)
 
 1. （视情况而定）如果您单击&#x200B;**新建任务**，请执行以下操作：
 
@@ -140,11 +140,11 @@ ht-degree: 2%
 
       要更新任务的所有字段，请单击&#x200B;**更多选项**&#x200B;以打开&#x200B;**创建任务**&#x200B;框。
 
-      ![](assets/nwe-create-task-small-screen-350x272.png)
+      ![创建任务小框](assets/nwe-create-task-small-screen-350x272.png)
 
       将打开&#x200B;**创建任务**&#x200B;框。
 
-      ![](assets/create-task-larger-box-nwe-350x244.png)
+      ![创建任务大框](assets/create-task-larger-box-nwe-350x244.png)
 
 
       >[!NOTE]
@@ -155,7 +155,7 @@ ht-degree: 2%
 
       * 任务名称
       * 概述
-      * 任务
+      * 分配
       * 自定义表单
       * 财务
       * 设置
@@ -173,7 +173,7 @@ ht-degree: 2%
 
    我们建议使用此选项，尤其是在将多个任务添加到列表时。
 
-   ![](assets/add-more-tasks-inline.png)
+   ![添加更多内联任务](assets/add-more-tasks-inline.png)
 
 1. （视情况而定）执行以下操作之一：
 
@@ -213,11 +213,11 @@ ht-degree: 2%
 
    有关信息，请参阅[筛选器：个人任务](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)。
 
-   ![](assets/personal-tasks-report.png)
+   ![个人任务报告](assets/personal-tasks-report.png)
 1. 单击个人任务报告中的任务名称以将其打开。
 
    Workfront将个人任务保存在未列出的个人项目中，该项目始终按以下模式命名：“&lt;用户全名>”任务。 例如，可以将个人项目命名为“Rick&#39;s Tasks”。
 
-1. 在任务页面中，单击&#x200B;**更多菜单** ![](assets/more-icon.png)，然后单击&#x200B;**移动**。 有关移动任务的详细信息，请参阅[移动任务](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md)。
+1. 在任务页面中，单击&#x200B;**更多菜单** ![更多图标](assets/more-icon.png)，然后单击&#x200B;**移动**。 有关移动任务的详细信息，请参阅[移动任务](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md)。
 
    移动完任务后，该任务将显示在您选择的项目上。 项目时间表可能受新任务时间表的影响。

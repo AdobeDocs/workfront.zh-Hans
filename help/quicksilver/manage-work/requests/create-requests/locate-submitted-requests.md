@@ -8,9 +8,9 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1483'
+source-wordcount: '1506'
 ht-degree: 2%
 
 ---
@@ -107,7 +107,7 @@ ht-degree: 2%
    * **状态**：请求的状态。
    * **输入者**：添加请求的用户的名称。 如果请求是由Workfront之外的人员添加的，则&#x200B;**输入者**&#x200B;字段显示`N/A`。
 
-   您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的筛选器。
+   您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**加入的筛选器。
 在添加筛选条件时，将自动筛选请求列表。
 1. （可选）使用视图将焦点置于要显示的请求上。
 
@@ -145,7 +145,7 @@ ht-degree: 2%
    >
    >您无法自定义已提交的请求列表中的列。
 
-   ![](assets/nwe-submitted-requests-new-list-350x57.png)
+   ![已提交请求新列表](assets/nwe-submitted-requests-new-list-350x57.png)
 
 
 1. 默认情况下，将显示以下列：
@@ -189,17 +189,17 @@ ht-degree: 2%
    >
    >当您离开提交的请求列表时，所选的排序选项会保留。
 
-1. （可选）在列表中选择请求，然后单击&#x200B;**打开摘要**&#x200B;图标![](assets/open-summary-with-text-nwe.png)以打开“摘要”面板并显示有关该请求的其他信息、添加注释、文档或分配它。 有关摘要面板的信息，请参阅[摘要概述](../../../workfront-basics/the-new-workfront-experience/summary-overview.md)。
+1. （可选）在列表中选择请求，然后单击&#x200B;**打开摘要**&#x200B;图标![打开包含文本的摘要](assets/open-summary-with-text-nwe.png)以打开“摘要”面板并显示有关该请求的其他信息、添加注释、文档或分配该请求。 有关摘要面板的信息，请参阅[摘要概述](../../../workfront-basics/the-new-workfront-experience/summary-overview.md)。
 
    >[!TIP]
    >
    >如果“摘要”面板已经打开，则“打开摘要”图标将变为“关闭摘要”。
 
-1. （可选且有条件）单击右上角的&#x200B;**X**&#x200B;图标或&#x200B;**关闭摘要**&#x200B;图标![](assets/close-summary-with-text-nwe.png)以关闭摘要面板。
+1. （可选且有条件）单击右上角的&#x200B;**X**&#x200B;图标或&#x200B;**关闭摘要**&#x200B;图标![关闭包含文本的摘要](assets/close-summary-with-text-nwe.png)以关闭摘要面板。
 
    如果问题被转换为任务或项目，并且该问题在转换过程中被删除，则“摘要”面板为空白。 有关转换问题的信息，请参阅[在Adobe Workfront中转换问题的概述](../../../manage-work/issues/convert-issues/convert-issues.md)。
 
-1. 从列表右上角的&#x200B;**筛选器图标** ![](assets/filter-nwepng.png)中，选择下表中列出的任何筛选器。
+1. 从列表右上角的&#x200B;**过滤器图标** ![过滤器图标](assets/filter-nwepng.png)中，选择下表中列出的任何过滤器。
 
    >[!TIP]
    >
@@ -232,7 +232,7 @@ ht-degree: 2%
     </tbody> 
    </table>
 
-1. （可选）单击列表顶部的&#x200B;**筛选器页面**&#x200B;图标![](assets/search-icon.png)以按名称搜索请求。 列表会更新为符合搜索条件的结果。
+1. （可选）单击列表顶部的&#x200B;**筛选器页面**&#x200B;图标![搜索图标](assets/search-icon.png)以按名称搜索请求。 列表会更新为符合搜索条件的结果。
 
 1. （视情况而定）要仅显示Workfront请求队列，请搜索或筛选`Issue`对象类型。</span>
 
@@ -266,7 +266,7 @@ ht-degree: 2%
 
    使用&#x200B;**筛选器**&#x200B;和&#x200B;**列**&#x200B;更新Planning请求列表中的信息。
 
-   ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+   在请求区域![“计划”选项卡已提交部分](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
 
    有关信息，请参阅[提交Adobe Workfront计划请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。
 

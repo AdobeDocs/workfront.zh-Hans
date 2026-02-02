@@ -7,9 +7,9 @@ description: 将前置任务关系添加到任务时，您可能会遇到依赖�
 author: Alina
 feature: Work Management
 exl-id: 142e9637-841c-43d1-b297-e42c28a9e010
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 0%
 
 如果尝试将任务1设置为任务2的前置任务，则会出现依赖关系循环错误，因为只有在任务2完成之后才能启动任务1，但在任务1完成之前无法启动任务2。
 
-![](assets/dependency-loop-error-message-350x209.png)
+![依赖性循环错误消息](assets/dependency-loop-error-message-350x209.png)
 
-![](assets/dependency-loop-in-task-list-nwe-350x97.png)
+任务列表中的![依赖关系循环](assets/dependency-loop-in-task-list-nwe-350x97.png)
 
 ## 关于依赖性循环的注意事项
 

@@ -6,9 +6,9 @@ description: 在Adobe Workfront中，计划工作由项目和任务表示。 但
 author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 2b4c13babecd3675f82699282c3dd42191c73df1
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '2532'
+source-wordcount: '2575'
 ht-degree: 2%
 
 ---
@@ -158,7 +158,7 @@ Workfront管理员必须创建请求队列的以下组件：
      >
      >仅当您实际向路径提交请求时，Workfront才会保存路径。 它不会为草拟的请求创建路径。
 
-     ![](assets/list-of-recent-paths-and-request-queues-when-entering-new-request-nwe-350x295.png)
+     ![输入新请求时最近的路径和请求队列列表](assets/list-of-recent-paths-and-request-queues-when-entering-new-request-nwe-350x295.png)
 
    * 从&#x200B;**请求队列**&#x200B;部分，选择一个请求队列。
    * 输入属于先前访问路径的关键字，以搜索请求队列。
@@ -169,7 +169,7 @@ Workfront管理员必须创建请求队列的以下组件：
      >
      >键入包含特殊字符的名称时，即使省略键入字符，也会显示请求队列、队列主题或主题组。
 
-     ![](assets/request-queue-search-findings-with-highlighted-results-350x210.png)
+     ![请求包含突出显示的结果的队列搜索结果](assets/request-queue-search-findings-with-highlighted-results-350x210.png)
 
      可用请求队列和最近路径列表会动态更新，以仅包含结果中突出显示的关键字的路径。
 
@@ -206,7 +206,7 @@ Workfront管理员必须创建请求队列的以下组件：
 
      默认情况下，将显示三个不同队列主题中的三个最新草稿。
 
-     ![](assets/new-drafts-after-new-request-area-was-removed-350x162.png)
+     ![新请求区域移除后的新草稿](assets/new-drafts-after-new-request-area-was-removed-350x162.png)
 
    * 开始在所选队列中输入新请求。
 
@@ -219,7 +219,7 @@ Workfront管理员必须创建请求队列的以下组件：
    >将鼠标悬停在主题组或队列主题上时，“说明”字段将显示在右侧。 其中包含有关主题组或队列主题的附加信息。
    >
    >
-   >![](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)
+   >提交请求时![显示队列主题的描述](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)
    >
 
    您的请求队列中最多可以包含10层主题组。\
@@ -327,7 +327,7 @@ Workfront管理员必须创建请求队列的以下组件：
 
      如果您还没有完全准备好提交，请单击&#x200B;**关闭**，稍后可能会返回并完成提交。 您的请求将保存在草稿部分，下次您提交此请求队列的请求时，将可以使用该草稿。
 
-     ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
+     ![新请求上的“提交”、“关闭”、“放弃草稿”按钮](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
    提交请求时，草稿将自动删除且无法恢复。
 

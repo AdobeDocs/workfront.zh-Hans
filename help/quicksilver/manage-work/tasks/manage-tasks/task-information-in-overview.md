@@ -6,9 +6,9 @@ description: 通过访问“任务详细信息”部分的“概述”区域，�
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '2102'
+source-wordcount: '2104'
 ht-degree: 5%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 5%
    >
    >根据Workfront管理员或组管理员如何设置布局模板，任务详细信息部分中的字段可能会重新排列或不显示。 有关信息，请参阅[使用布局模板自定义详细信息视图](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)。
 
-1. 单击“详细信息”部分右上角的&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)，然后单击&#x200B;**概述**。
+1. 单击“详细信息”部分右上角的&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)，然后单击&#x200B;**概述**。
 
    >[!TIP]
    >

@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 0%
+source-wordcount: '890'
+ht-degree: 2%
 
 ---
 
@@ -22,22 +22,22 @@ ht-degree: 0%
 
 有关周期性任务的一般信息，包括编辑现有周期性任务的影响，请参阅[周期性任务概述](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> <p>标准</p> 
-   <p>工作或更高</p> </td> 
+   <p>工作版或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -97,7 +97,7 @@ ht-degree: 0%
 
    此时将显示“新建任务”对话框。
 
-   ![](assets/nwe-create-task-small-screen-350x272.png)
+   ![创建任务小屏幕](assets/nwe-create-task-small-screen-350x272.png)
 
 1. 单击&#x200B;**更多选项**，然后在&#x200B;**任务名称**&#x200B;字段中输入任务名称。
 1. 继续以添加新任务时所用的相同方式更新任务。 有关添加新任务的详细信息，请参阅[在项目中创建任务](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)。
@@ -109,7 +109,7 @@ ht-degree: 0%
 1. 单击左侧面板中的&#x200B;**概述**。
 1. 向下滚动到&#x200B;**周期性计划**&#x200B;部分，然后选择&#x200B;**将此任务设为周期性任务**&#x200B;选项。
 
-   ![](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
+   ![周期性计划选择新周期性任务](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
 
 1. 在&#x200B;**频率**&#x200B;下拉列表中，选择您希望任务发生的时间单位数以及时间单位类型。 从以下选项中选择：
 
@@ -163,7 +163,7 @@ ht-degree: 0%
 
    有关从父周期性任务自动填写哪些字段的更多信息，请参阅[周期性任务概述](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md)。
 
-   ![](assets/recurring-tasks-in-task-list-nwe-350x87.png)
+   ![重新组织任务列表中的任务](assets/recurring-tasks-in-task-list-nwe-350x87.png)
 
 1. （可选）像修改项目中的任何其他任务一样修改每个周期性任务。
 

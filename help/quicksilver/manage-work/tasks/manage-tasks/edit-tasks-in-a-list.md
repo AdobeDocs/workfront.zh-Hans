@@ -6,9 +6,9 @@ description: 您可以通过编辑列表中显示的字段来编辑任务列表�
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: b1d5122dd66d84a0e2a21f24eeb01fd3298374ad
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '3236'
+source-wordcount: '3254'
 ht-degree: 3%
 
 ---
@@ -179,7 +179,7 @@ ht-degree: 3%
 
    或
 
-   单击任务名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-icon-task-list.png)。
+   单击任务名称右侧的任务列表&#x200B;**上的**&#x200B;更多![菜单](assets/more-icon-task-list.png)更多图标。
 
 1. （可选）从以下选项中选择：
 
@@ -299,7 +299,7 @@ ht-degree: 3%
 
    或
 
-   单击&#x200B;**更多**&#x200B;菜单![](assets/more-icon-task-list.png)。
+   单击任务列表&#x200B;**上的**&#x200B;更多![菜单](assets/more-icon-task-list.png)模式图标。
 
 1. （可选）从以下选项中选择：
 
@@ -407,7 +407,7 @@ ht-degree: 3%
 
    或
 
-   单击&#x200B;**更多**&#x200B;菜单![](assets/more-icon-task-list.png)。
+   单击任务列表&#x200B;**上的**&#x200B;更多![菜单](assets/more-icon-task-list.png)更多图标。
 
 1. 从以下选项中选择：
 

@@ -6,10 +6,10 @@ description: 任务的持续时间类型确定分配给任务的资源数量、�
 author: Alina
 feature: Work Management
 exl-id: 2f01566c-c3e0-4f59-bf53-2a67806a205c
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 5%
+source-wordcount: '292'
+ht-degree: 11%
 
 ---
 
@@ -17,22 +17,22 @@ ht-degree: 5%
 
 任务的持续时间类型确定分配给任务的资源数量、总工作量以及任务总持续时间之间的关系。 有关详细信息，请参阅[任务持续时间和持续时间类型概述](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td><p>标准或更高版本</p> 
-   <p>工作或更高</p> </td> 
+   <p>工作版或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -87,7 +87,7 @@ ht-degree: 5%
 1. 单击左侧面板中的&#x200B;**任务**&#x200B;部分。
 1. 单击左侧面板中的&#x200B;**任务详细信息**，然后在“概述”区域中，单击&#x200B;**持续时间类型**。
 
-   ![](assets/duration-type-all-options-on-overview-350x155.png)
+   ![持续时间键入概述](assets/duration-type-all-options-on-overview-350x155.png)上的所有选项
 
 1. 从以下选项中选择
 

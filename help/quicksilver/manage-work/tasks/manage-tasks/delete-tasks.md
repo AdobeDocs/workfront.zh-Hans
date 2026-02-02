@@ -6,9 +6,9 @@ description: 您可以删除可能重复或创建有误的任务。
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '790'
 ht-degree: 5%
 
 ---
@@ -174,9 +174,9 @@ ht-degree: 5%
 1. 单击包含要删除的任务的项目名称。
 1. 单击左侧面板中的&#x200B;**任务**。
 1. 单击要删除的任务的名称。
-1. 单击右上角的&#x200B;**更多**&#x200B;图标![](assets/qs-more-menu.png)。
+1. 单击右上角的&#x200B;**更多**&#x200B;图标![更多菜单](assets/qs-more-menu.png)。
 
-   ![](assets/delete-tasks-task-level-nwe-350x225.png)
+   ![删除任务级别的任务](assets/delete-tasks-task-level-nwe-350x225.png)
 
 1. 单击&#x200B;**删除任务**。
 1. 如果允许删除，请单击&#x200B;**删除**。

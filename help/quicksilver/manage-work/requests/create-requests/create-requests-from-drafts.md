@@ -6,9 +6,9 @@ description: 除了使用Workfront在输入新请求时向您建议的可用草�
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '827'
 ht-degree: 3%
 
 ---
@@ -100,7 +100,7 @@ ht-degree: 3%
 
    此列表中将显示每个请求队列的每个队列主题的草稿。
 
-   ![](assets/nwe-drafts-section-with-list-of-drafts-350x169.png)
+   ![包含草稿列表的草稿节](assets/nwe-drafts-section-with-list-of-drafts-350x169.png)
 
 1. （可选）单击列标题可按该列对列表进行排序。
 
@@ -133,7 +133,7 @@ ht-degree: 3%
 
      如果您还没有完全准备好提交，请单击&#x200B;**关闭**，稍后可能会返回并完成提交。 您的请求将保存在草稿部分，下次您提交此请求队列的请求时，将可以使用该草稿。
 
-     ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
+     ![新请求上的“提交”、“关闭”、“放弃”按钮](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
      提交请求时，草稿将被删除并且无法恢复。
 

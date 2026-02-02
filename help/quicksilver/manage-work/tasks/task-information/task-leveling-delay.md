@@ -6,9 +6,9 @@ description: 有时，项目中的任务计划之间可能存在冲突。 您可
 author: Alina
 feature: Work Management
 exl-id: 6695448c-76ce-460c-aa59-63a3d5e2e18d
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '391'
 ht-degree: 9%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 9%
 
 1. 单击&#x200B;**设置**。
 
-   ![](assets/leveling-delay-edit-task-nwe-350x345.png)
+   ![编辑任务时均衡延迟](assets/leveling-delay-edit-task-nwe-350x345.png)
 
 1. 指定&#x200B;**均衡延迟**（以小时为单位），然后选择时间单位。\
    这是由于资源冲突导致资源延迟启动任务的时间。

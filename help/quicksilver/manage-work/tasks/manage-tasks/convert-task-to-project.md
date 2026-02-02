@@ -6,9 +6,9 @@ description: 当项目中的任务需要比您最初计划更大的工作量完�
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1152'
 ht-degree: 4%
 
 ---
@@ -199,13 +199,13 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 ## 将任务转换为项目
 
 1. 转到要转换为项目的任务。
-1. 单击&#x200B;**更多**&#x200B;图标![](assets/more-icon.png)，然后单击&#x200B;**转换为项目**。
+1. 单击&#x200B;**更多**&#x200B;图标![更多图标](assets/more-icon.png)，然后单击&#x200B;**转换为项目**。
 1. 选择以下任一选项：
 
    * **新建项目**，在不使用模板的情况下创建项目
    * **从模板中选择**&#x200B;部分中的模板
 
-     ![](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
+     ![将任务转换为项目模板选项下拉菜单](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
 
 1. 在出现的通知上单击&#x200B;**继续**。
 1. 在&#x200B;**转换为项目**&#x200B;框中，指定以下内容：
