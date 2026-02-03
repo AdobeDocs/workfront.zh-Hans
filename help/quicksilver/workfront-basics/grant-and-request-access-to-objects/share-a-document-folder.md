@@ -6,9 +6,9 @@ description: 您可以从文档区域共享文件夹及其内容。
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '847'
 ht-degree: 2%
 
 ---
@@ -100,7 +100,7 @@ ht-degree: 2%
 
 打开Workfront对象后，单击左侧面板中的&#x200B;**文档**。
 
-1. 选择文件夹，然后单击工具栏中的共享图标![](assets/share-icon.png)。
+1. 选择文件夹，然后单击工具栏中的共享图标![共享图标](assets/share-icon.png)。
 
    文件夹必须位于对象上文件夹层次结构的前五个级别中，并且不能是智能文件夹。
 
@@ -132,7 +132,7 @@ ht-degree: 2%
    </table>
 
 1. （可选）重复步骤3 - 4以向列表中添加其他名称并配置其选项。
-1. （可选）如果希望系统中的每个人都可以查看文件夹及其内容，请单击共享框右上角的齿轮图标![](assets/gear-icon-settings-with-dn-arrow.jpg)，然后单击&#x200B;**使其在系统范围内可见。**
+1. （可选）如果希望系统中的每个人都可以查看文件夹及其内容，请单击共享框右上角的齿轮图标![带下箭头的齿轮图标设置](assets/gear-icon-settings-with-dn-arrow.jpg)，然后单击&#x200B;**在系统范围内可见。**
 
    如果您改变主意，可以单击&#x200B;**删除系统范围访问权限**（默认选项）。
 

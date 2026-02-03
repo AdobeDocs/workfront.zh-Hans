@@ -6,9 +6,9 @@ description: 您可以更新附加到某个对象的自定义表单的显示顺�
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1064'
 ht-degree: 1%
 
 ---
@@ -86,10 +86,10 @@ ht-degree: 1%
 
 1. 转到要更改所添加自定义表单顺序的对象，然后开始编辑该对象。
 
-   **示例：**&#x200B;例如，要管理项目的自定义表单，请转到该项目，单击&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)，然后单击&#x200B;**编辑**。
+   **示例：**&#x200B;例如，要管理项目的自定义表单，请转到该项目，单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-icon.png)，然后单击&#x200B;**编辑**。
 
-1. 在项目、任务和问题的&#x200B;**自定义Forms**&#x200B;分区中，单击自定义表单名称旁边的![](assets/move-icon---dots.png)图标。 对于所有其他对象，单击&#x200B;**管理Forms**。 只有在对象上附加了至少一个自定义表单时，才会显示此选项。
-1. 将表单![](assets/move-icon---dots.png)拖到列表中的新位置。
+1. 在项目、任务和问题的&#x200B;**自定义Forms**&#x200B;分区中，单击自定义表单名称旁边的![移动图标](assets/move-icon---dots.png)图标。 对于所有其他对象，单击&#x200B;**管理Forms**。 只有在对象上附加了至少一个自定义表单时，才会显示此选项。
+1. 将表单![移动图标](assets/move-icon---dots.png)拖动到列表中的新位置。
 1. 对于项目、任务和问题自定义表单，单击&#x200B;**保存**。
 
    对于所有其他对象，单击&#x200B;**我已完成管理** > **保存更改**。
@@ -105,7 +105,7 @@ ht-degree: 1%
    例如，转到某个项目，单击&#x200B;**项目详细信息**&#x200B;部分。
 
 1. 单击对象页面右上角的&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)，然后单击&#x200B;**全部编辑**。
-1. 单击自定义表单名称右侧的&#x200B;**删除**&#x200B;图标![](assets/delete-icon.png)，然后单击&#x200B;**删除**&#x200B;以确认表单并将其从对象中删除，或单击&#x200B;**取消**&#x200B;以阻止删除。
+1. 单击自定义表单名称右侧的&#x200B;**删除**&#x200B;图标![删除图标](assets/delete-icon.png)，然后单击&#x200B;**删除**&#x200B;以确认表单并将其从对象中删除，或单击&#x200B;**取消**&#x200B;以阻止删除。
 1. 单击&#x200B;**保存更改** 。
 
 ## 管理包含相同自定义字段的多个自定义表单
@@ -135,7 +135,7 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 
 要在批量编辑对象时编辑多个自定义表单，请执行以下操作：
 
-1. 在列表对象中，选择附加了自定义表单的对象，然后单击&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)。
+1. 在列表对象中，选择附加了自定义表单的对象，然后单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
 1. 单击&#x200B;**自定义Forms**。
 
    您只能编辑附加到所有选定对象的自定义表单。

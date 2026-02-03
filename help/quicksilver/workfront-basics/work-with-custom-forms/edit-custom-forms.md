@@ -7,9 +7,9 @@ description: 将自定义表单附加到对象后，您可以编辑该表单上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 6dce5e15a41587cd9febf82ffc0a62d3b7e121d1
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1222'
 ht-degree: 2%
 
 ---
@@ -130,7 +130,7 @@ ht-degree: 2%
    >
    >在保存表单之前，必须填写表单上的所有必填字段。 必填字段的名称后跟一个星号。
    >
-   >![](assets/nwe-required-custom-field.png)
+   >![必需的自定义字段](assets/nwe-required-custom-field.png)
 
    当有人更改对象中计算自定义字段引用的其他对象中的数据时，更改不会自动反映在对象中。 有关手动更新对象中所有计算自定义字段的信息，请参阅本文中的[重新计算对象的所有计算自定义字段](#recalculate-all-calculated-custom-fields-for-an-object)。
 
@@ -177,7 +177,7 @@ ht-degree: 2%
    * 项目群
    * 文档
 
-1. 单击对象名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)，然后单击&#x200B;**重新计算表达式**。
+1. 单击对象名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-icon.png)，然后单击&#x200B;**重新计算表达式**。
 
    这会重新计算对象表单上的所有自定义字段。
 
@@ -217,9 +217,9 @@ ht-degree: 2%
    * 项目组合
    * 项目群
    * 费用
-1. 单击&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)，然后单击&#x200B;**重新计算自定义表达式**。
+1. 单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-icon.png)，然后单击&#x200B;**重新计算自定义表达式**。
 
-![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+![重新计算项目列表中的表达式时间表财务下拉列表](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
 Workfront会立即计算所有选定项目的所有自定义字段。
 并非所有对象的列表都具有此功能。

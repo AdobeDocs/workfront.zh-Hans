@@ -1,13 +1,13 @@
 ---
 content-type: overview
 title: 摘要概述
-description: 您可以使用“摘要”面板直接从任务问题、文档列表或显示任务和问题的 [!DNL Adobe Workfront] 的其他区域查看和更新工作项信息。
+description: 可以使用“摘要”面板直接从任务问题、文档列表或显示任务和问题的 [!DNL Adobe Workfront] 的其他区域查看和更新工作项信息。
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: d7b8d7285d23d14f5390c9de1001de553c2b796f
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '908'
 ht-degree: 2%
 
 ---
@@ -54,10 +54,10 @@ ht-degree: 2%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 工作负载均衡器]的[!UICONTROL 未分配]和[!UICONTROL 已分配]工作区域中的任务</td> 
+   <td>[！UICONTROL工作负载均衡器]的[！UICONTROL未分配]和[！UICONTROL已分配]工作区域中的任务</td> 
   </tr> 
    <tr> 
-   <td>[!UICONTROL 时间表]中的任务</td> 
+   <td>[！UICONTROL时间表]中的任务</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><b>问题</b></td> 
@@ -71,24 +71,24 @@ ht-degree: 2%
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 工作负载均衡器]的[!UICONTROL 已分配工作]区域出现问题</td> 
+   <td>[！UICONTROL工作负载均衡器]的[！UICONTROL已分配工作]区域出现问题</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 请求]区域的[!UICONTROL 已提交]部分中的问题</td> 
+   <td>[！UICONTROL请求]区域的[！UICONTROL已提交]部分中的问题</td> 
   </tr> 
 </tr> 
    <tr> 
-   <td>[!UICONTROL 时间表]中的问题</td> 
+   <td>[！UICONTROL时间表]中的问题</td> 
   </tr>
 
 <tr data-mc-conditions=""> 
    <td><b>文档</b></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 文档]区域</td> 
+   <td>[！UICONTROL文档]区域</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>任何对象（项目、任务、问题、项目、项目组合、模板、模板任务、用户）的[!UICONTROL 文档]部分</td> 
+   <td>任何对象（项目、任务、问题、项目、项目组合、模板、模板任务、用户）的[！UICONTROL文档]部分</td> 
   </tr> 
  </tbody> 
 </table>
@@ -107,11 +107,11 @@ ht-degree: 2%
 ## 在任务或问题列表中查看[!UICONTROL 摘要]面板
 
 1. 转到任务或问题，然后在列表中选择一个项目。
-1. 单击&#x200B;**[!UICONTROL 摘要]**&#x200B;图标![](assets/qs-summary-in-new-toolbar-small.png)
+1. 单击新工具栏中的&#x200B;**[!UICONTROL 摘要]**&#x200B;图标![摘要](assets/qs-summary-in-new-toolbar-small.png)
 
    或
 
-   单击&#x200B;**[!UICONTROL 请求]**&#x200B;区域的![](assets/open-summary-with-text-nwe.png)已提交[!UICONTROL 部分中的]打开摘要[!UICONTROL 图标]。
+   单击&#x200B;**[!UICONTROL 请求]**&#x200B;区域的![已提交](assets/open-summary-with-text-nwe.png)部分中的[!UICONTROL 打开摘要]图标[!UICONTROL 打开摘要并包含文本]。
 
    打开“摘要”后，在单击或选择其他任务或问题时，它保持打开状态，直到手动关闭它为止。
 
@@ -123,13 +123,13 @@ ht-degree: 2%
 
 1. （可选）要关闭[!UICONTROL 摘要]面板，请执行下列操作之一：
 
-   * 在任务或问题列表中，单击&#x200B;**[!UICONTROL 打开摘要]**&#x200B;图标![](assets/summary-panel-icon.png)
+   * 在任务或问题列表中，单击&#x200B;**[!UICONTROL 打开摘要]**&#x200B;图标![摘要面板图标](assets/summary-panel-icon.png)
 
      或
 
      单击&#x200B;**摘要**&#x200B;面板右上角的[!UICONTROL X]图标。
 
-   * 在[!UICONTROL 请求]区域的[!UICONTROL 已提交]部分中，单击&#x200B;**[!UICONTROL 关闭摘要]**&#x200B;图标![](assets/close-summary-with-text-nwe.png)
+   * 在[!UICONTROL 请求]区域的[!UICONTROL 已提交]部分中，单击&#x200B;**[!UICONTROL 关闭摘要]**&#x200B;图标![包含文本的关闭摘要](assets/close-summary-with-text-nwe.png)
 
      或
 

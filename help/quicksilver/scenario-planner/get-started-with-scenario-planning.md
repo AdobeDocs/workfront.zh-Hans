@@ -2,10 +2,9 @@
 title: Scenario Planner入门
 description: 您可以使用Adobe Workfront Scenario Planner来构建概述公司整体战略成果的企业级计划。 您可以为计划定义多个计划，并将它们置于各种方案中，以找到执行计划的最佳解决方案。
 author: Alina
-draft: Probably
 feature: Workfront Scenario Planner
 exl-id: a6afe39f-1663-493d-a582-0a396ce138c2
-source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 0%
@@ -16,7 +15,7 @@ ht-degree: 0%
 
 您可以使用[!DNL Adobe Workfront Scenario Planner]来构建概述公司总体战略成果的企业级计划。 您可以为计划定义多个计划，并将它们置于各种方案中，以找到执行计划的最佳解决方案。
 
-有关[!DNL Workfront Scenario Planner]的高级概述，请参阅[概述 [!DNL Scenario Planner] &#x200B;](../scenario-planner/scenario-planner-overview.md)。
+有关[!DNL Workfront Scenario Planner]的高级概述，请参阅[概述 [!DNL Scenario Planner] ](../scenario-planner/scenario-planner-overview.md)。
 
 
 ## 使用[!DNL Workfront Scenario Planner]的方法
@@ -69,5 +68,5 @@ ht-degree: 0%
 | 对象名称 | 描述 |
 |---|---|
 | [!UICONTROL 计划] | 一个父对象，可从中规划贵组织在未来1年、3年或5年即将实行的高级战略。 您可以设置预算以及在执行计划直至完成过程中可能可用的人员数量。 |
-| [!UICONTROL 方案] | 相同计划的版本。 您可以创建同一计划的多个副本或版本，以分别绘制每个计划中的计划，并查看哪些内容最有利于最终的计划。 |
+| [!UICONTROL 场景] | 相同计划的版本。 您可以创建同一计划的多个副本或版本，以分别绘制每个计划中的计划，并查看哪些内容最有利于最终的计划。 |
 | [!UICONTROL 计划] | 计划的一个子对象，它仍在高级别上定义了实现计划定义的策略所需完成的实际工作。 您可以手动添加计划，也可以从现有项目导入计划。 您可以添加完成计划所需的可能成本和人员数。 在定义所有计划并将它们与成本和资源数量关联后，如果计划与计划的可用预算之间发生冲突，您可以重新计划它们，以更好地使彼此和计划保持一致。 |

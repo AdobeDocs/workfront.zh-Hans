@@ -6,9 +6,9 @@ description: 要查看任何用户为对象输入的所有更新，您可以创�
 author: Alina
 feature: Get Started with Workfront
 exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '380'
 ht-degree: 4%
 
 ---
@@ -115,7 +115,7 @@ ht-degree: 4%
 1. （可选）单击&#x200B;**筛选器**，然后单击&#x200B;**添加筛选器规则**。
 1. 为&#x200B;**注释** > **注释文本** > **添加筛选器不是空白的**。
 
-   ![](assets/note-note-text-not-blank-filter.png)
+   ![注释文本字段不是空白筛选器](assets/note-note-text-not-blank-filter.png)
 
    >[!TIP]
    >

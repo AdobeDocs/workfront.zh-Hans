@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '662'
 ht-degree: 1%
 
 ---
@@ -130,7 +130,7 @@ And
 1. 单击&#x200B;**继续**。
 1. 在&#x200B;**选择记录类型**&#x200B;框中，单击要从现有工作区添加的记录类型的卡片，然后单击&#x200B;**添加**。
 
-   该记录类型已添加到您选择的辅助工作区，**全局记录类型**&#x200B;图标![](assets/global-icon.png)将显示在记录类型的卡片上。
+   记录类型已添加到您选择的辅助工作区，并且记录类型的卡片上会显示&#x200B;**全局记录类型**&#x200B;图标![全局记录图标主工作区](assets/global-icon.png)。
 
    出现以下情况：
 

@@ -8,9 +8,9 @@ author: Becky and Alina
 feature: Get Started with Workfront
 role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '776'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 1%
 
 * 当任务或问题首次分配给您并且状态为新建时，按钮显示为处理它。
 
-  ![](assets/nwe-work-on-it-button.png)
+  ![处理按钮](assets/nwe-work-on-it-button.png)
 
   >[!TIP]
   >
@@ -44,12 +44,12 @@ ht-degree: 1%
 
 * 单击“处理此项接受”后，按钮将变为“标记为完成”。 有关您可以在何处访问“处理它”按钮的信息，请参阅本文中的[找到处理它并完成按钮](#locate-the-work-on-it-and-done-button)部分。
 
-  ![](assets/nwe-mark-as-done-button-350x122.png)
+  ![标记为“完成”按钮](assets/nwe-mark-as-done-button-350x122.png)
 
 
 <!--If you are not the only one assigned to the task or issue and you are accessing your work item from the My Work widget in the Home area, the button changes to Done with my part.
 
-  ![](assets/home-left-done-with-my-part-button-350x184.png)-->
+  ![Home left Done with my part button](assets/home-left-done-with-my-part-button-350x184.png)-->
 
 ## 找到处理此项工作并完成按钮 {#locate-the-work-on-it-and-done-button}
 

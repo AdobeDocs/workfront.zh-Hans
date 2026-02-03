@@ -7,9 +7,9 @@ description: 您可以将现有的自定义表单添加到下面列出的任何�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '740'
 ht-degree: 4%
 
 ---
@@ -114,7 +114,7 @@ ht-degree: 4%
 ### 通过编辑对象向对象添加自定义表单 {#add-a-custom-form-to-an-object-by-editing-the-object}
 
 1. 转到要添加自定义表单的对象。
-1. 单击&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)，然后单击&#x200B;**编辑** ![](assets/edit-icon.png)。
+1. 单击&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-icon.png)，然后单击&#x200B;**编辑**![编辑图标](assets/edit-icon.png)。
 1. 单击&#x200B;**自定义Forms** > **添加Forms**，然后从下拉菜单中选择最多10个表单。
 
 1. （可选）更新自定义表单上可编辑字段中的信息。
@@ -158,11 +158,11 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 1. 导航到对象列表。
 1. 在列表中选择多个对象。
 
-1. 单击&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)，然后单击&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)。
+1. 单击&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-icon.png)，然后单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
 
    或
 
-   单击列表顶部的&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)。
+   单击列表顶部的&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
 1. 单击左侧面板中的&#x200B;**自定义Forms**。
 1. 在&#x200B;**进行选择**&#x200B;下拉菜单中，选择要与所有选定对象关联的表单。
 

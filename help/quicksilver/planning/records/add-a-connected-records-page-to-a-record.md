@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '2004'
+source-wordcount: '2020'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 0%
    <ul><li><p>Adobe Experience Manager Assets许可证以及AEM Assets与Workfront之间的集成，用于连接AEM资源与Planning记录类型。</p>
    <p>有关信息，请参阅适用于Experience Manager Assets和Assets Essentials的<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 用于连接记录类型与GenStudio Brands的Adobe GenStudio for Performance Marketing许可证</p>
-   <p>有关信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing入门</a>。</p></li></ul>
+   <p>有关信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing入门</a>。</p></li></ul>
    </td> 
   </tr>
 
@@ -287,7 +287,7 @@ When you create a connected records page for connected Planning records in the P
       * **删除**
 有关信息，请参阅[删除记录视图](/help/quicksilver/planning/views/delete-record-views.md)。
 
-        ![](assets/view-more-menu-projects-connected-records-page.png)
+        ![在“连接的项目”记录页面上查看更多菜单](assets/view-more-menu-projects-connected-records-page.png)
 
         >[!NOTE]
         >
@@ -327,7 +327,7 @@ When you create a connected records page for connected Planning records in the P
    1. 添加&#x200B;**视图名称**。
    1. 从&#x200B;**视图类型**&#x200B;区域中选择&#x200B;**列表**。
    1. 单击&#x200B;**创建**。
-新的列表视图已添加到&#x200B;**我的视图**&#x200B;区域的视图下拉菜单中。
+新的列表视图已添加到**我的视图**&#x200B;区域的视图下拉菜单中。
 
       有关详细信息，请参阅本文中[从连接的记录页面](#manage-multiple-views-from-the-connected-records-page)管理多个视图。
 
@@ -340,7 +340,7 @@ When you create a connected records page for connected Planning records in the P
       * **删除**
 有关信息，请参阅[删除记录视图](/help/quicksilver/planning/views/delete-record-views.md)。
 
-        ![](assets/view-more-menu-projects-connected-records-page.png)
+        ![在“连接的项目”记录页面上查看更多菜单](assets/view-more-menu-projects-connected-records-page.png)
 
         >[!NOTE]
         >

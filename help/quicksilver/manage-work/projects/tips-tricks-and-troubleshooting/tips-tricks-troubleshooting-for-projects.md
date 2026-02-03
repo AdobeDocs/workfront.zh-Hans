@@ -2,11 +2,10 @@
 title: 项目的提示、技巧和疑难解答：文章索引
 description: 本文提供了有关如何对在Adobe Workfront中处理项目时遇到的常见问题进行故障排除的提示。
 author: Alina
-draft: Probably
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: dd849f4e-aa48-4e27-80b7-af321f730708
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 0%

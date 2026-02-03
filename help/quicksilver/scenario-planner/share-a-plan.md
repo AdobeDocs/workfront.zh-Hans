@@ -7,10 +7,10 @@ description: 您可以将在Adobe Workfront Scenario Planner中创建的计划�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '880'
-ht-degree: 0%
+source-wordcount: '882'
+ht-degree: 4%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 0%
 >
 >如果您将指向计划的链接发送给其他人，则还必须与他们共享该计划，以便他们能够查看该计划。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,16 +42,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 许可证</p> </td> 
-   <td> <p>[!UICONTROL Light]或更高版本</p> 
-   <p>[!UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[！UICONTROL Light]或更高版本</p> 
+   <p>[！UICONTROL Review]或更高版本</p> </td> 
   </tr> 
     <tr> 
    <td>访问级别配置</td> 
-   <td> <p>[!UICONTROL Edit]访问 [!DNL Scenario Planner]</p> </td> 
+   <td> <p>[！UICONTROL Edit]访问 [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr> 
    <td> <p>对象权限 </p> </td> 
-   <td> <p>[!UICONTROL Manage]对计划的权限</p> </td> 
+   <td> <p>[！UICONTROL Manage]对计划的权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -132,8 +132,8 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th> <p><strong>操作</strong> </p> </th> 
-   <th> <p><strong>[!UICONTROL 管理]</strong> </p> </th> 
-   <th> <p><strong>[!UICONTROL 视图]</strong> </p> </th> 
+   <th> <p><strong>[！UICONTROL管理]</strong> </p> </th> 
+   <th> <p><strong>[！UICONTROL视图]</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -173,7 +173,7 @@ ht-degree: 0%
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>创建方案</p> </td> 
+   <td> <p>创建场景</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
@@ -221,7 +221,7 @@ ht-degree: 0%
 
    或
 
-   如果选择多个计划来批量共享它们，请单击计划列表顶部的&#x200B;**[!UICONTROL 共享]**&#x200B;图标![](assets/share-icon-26x26.png)以打开[!UICONTROL 计划]访问框。
+   如果选择多个计划来批量共享它们，请单击计划列表顶部的&#x200B;**[!UICONTROL 共享]**&#x200B;图标![共享图标](assets/share-icon-26x26.png)以打开[!UICONTROL 计划]访问框。
 
    >[!TIP]
    >
@@ -237,11 +237,11 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 视图]</td> 
+      <td role="rowheader">[！UICONTROL视图]</td> 
       <td>与共享计划的用户将有权查看计划。 他们无法编辑有关计划的信息、添加计划、方案或发布方案。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 管理]</td> 
+      <td role="rowheader">[！UICONTROL管理]</td> 
       <td> <p>您共享计划的用户具有管理计划的权限，其中包括编辑信息、添加计划、方案和发布计划。 </p> </td> 
      </tr> 
     </tbody> 

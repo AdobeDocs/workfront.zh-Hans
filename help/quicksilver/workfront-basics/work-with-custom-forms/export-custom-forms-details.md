@@ -1,14 +1,13 @@
 ---
-title: 导出自定义表单和对象详细信息
-description: 导出自定义表单和对象详细信息
+title: 导出自定义Forms和对象详细信息
+description: 您可以将对象的“概述”和“自定义表单”信息从“详细信息”部分导出到PDF文件。 然后，您可以打印或与其他用户共享PDF。
 author: Alina
-draft: Probably
 feature: Get Started with Workfront
 exl-id: 4dc32da0-9680-4b7f-a959-d4a0652618c5
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 1%
+source-wordcount: '579'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +22,7 @@ ht-degree: 1%
 * 项目
 * 任务
 * 问题
-* 组合
+* 项目组合
 * 项目群
 
 <!--
@@ -34,16 +33,16 @@ ht-degree: 1%
 >
 >Workfront或组管理员使用布局模板删除的详细信息部分中的字段不显示。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Workfront包</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront 包</p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 
@@ -125,7 +124,7 @@ ht-degree: 1%
 
    如果要导出概述区域和所有自定义表单，您还可以选择&#x200B;**全选**。
 
-   ![](assets/export-custom-form-button-menu.png)
+   ![导出自定义表单按钮](assets/export-custom-form-button-menu.png)
 
    >[!TIP]
    >
