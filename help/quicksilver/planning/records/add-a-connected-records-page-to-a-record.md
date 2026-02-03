@@ -327,7 +327,7 @@ When you create a connected records page for connected Planning records in the P
    1. 添加&#x200B;**视图名称**。
    1. 从&#x200B;**视图类型**&#x200B;区域中选择&#x200B;**列表**。
    1. 单击&#x200B;**创建**。
-新的列表视图已添加到**我的视图**&#x200B;区域的视图下拉菜单中。
+新的列表视图已添加到&#x200B;**我的视图**&#x200B;区域的视图下拉菜单中。
 
       有关详细信息，请参阅本文中[从连接的记录页面](#manage-multiple-views-from-the-connected-records-page)管理多个视图。
 
