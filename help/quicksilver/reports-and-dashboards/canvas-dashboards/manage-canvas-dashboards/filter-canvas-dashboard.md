@@ -6,9 +6,9 @@ description: 您可以在创建筛选器后将筛选器应用到画布功能板�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
-source-git-commit: c6458d777726092d74e8b031f5c14dfd58710e11
+source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '892'
 ht-degree: 2%
 
 ---
@@ -173,23 +173,9 @@ ht-degree: 2%
 
 1. 在仪表板详细信息页面的左上角，单击&#x200B;**筛选器**。 将打开过滤器侧面板。
 
-1. 在&#x200B;**显示记录……**&#x200B;部分中，为显示的一个或多个提示选择条件。 应用了提示，并且在报告小部件的角落显示应用了&#x200B;**功能板筛选器**&#x200B;标记。
+1. 在&#x200B;**显示记录……**&#x200B;部分中，为显示的一个或多个提示选择条件。 应用了提示，并且在报告小部件的角落显示应用了&#x200B;**功能板筛选器**标记。
    ![选择条件](assets/prompts-list.png)
 
 1. 单击右上角的&#x200B;**关闭**&#x200B;图标![关闭图标](assets/close-icon.png)以隐藏面板。
 
 
-## 按货币类型筛选仪表板
-
-您可以在功能板级别的不同货币类型之间进行切换。 包含货币字段的报表将更新以反映所选的货币类型。
-
->[!NOTE]
->
->可以在报表级别锁定货币字段。 如果货币字段已锁定，则当您更改仪表板的货币类型时，该报表的货币类型将不会更改。
-
-要更改仪表板的货币类型，
-
-1. 单击功能板详细信息页面右上角的货币下拉菜单。
-1. 从列表中选择所需的货币类型。
-
-   ![更改货币下拉框](assets/filter-by-currency.png)

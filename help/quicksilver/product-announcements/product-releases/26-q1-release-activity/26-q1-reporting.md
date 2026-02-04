@@ -4,9 +4,9 @@ description: 2026年第一季度报告增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ad16dfe737f33a7d1025d8cef00605595d0476c2
+source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '934'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 本页介绍了在2026年第一季度发布中对“预览”环境所做的报表增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
 
 
 
@@ -27,13 +27,14 @@ ht-degree: 0%
 >生产快速发布： 2026年1月14日
 >适用于所有人的生产： 2026年1月15日
 
-我们对货币字段进行了以下更新：
+我们已对本机货币字段进行了以下更新：
 
 * 在Workfront中定义多种货币后，您现在可以在创建过程中为功能板选择默认货币。
 
 * 创建报告时，您可以锁定货币字段。 这可确保仪表板级别的货币首选项不会影响这些值的显示。
 
 * 查看功能板时，用户可以在Workfront中定义的任何货币之间进行切换。 这些更改适用于整个仪表板，但锁定的货币字段除外。
+
 
 
 ## Canvas仪表板中的快速搜索表结果
