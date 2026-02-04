@@ -5,10 +5,10 @@ title: 在画布功能板中使用货币字段
 description: 您可以在画布功能板中使用货币字段。
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
+source-git-commit: 3e4ab2dfc66efd262c0c2ad30a9c62758084f8ce
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 3%
+source-wordcount: '622'
+ht-degree: 4%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 3%
 
    >[!IMPORTANT]
    >
-   >本文中介绍的功能仅适用于本机货币字段。 如果您设置了货币汇率，则对自定义货币字段的支持即将推出。
+   >本文中介绍的功能仅适用于本机货币字段。 即将支持自定义货币字段。
 
 
 ## 为画布功能板设置默认货币
