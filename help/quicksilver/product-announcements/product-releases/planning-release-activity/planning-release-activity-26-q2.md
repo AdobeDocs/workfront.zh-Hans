@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: f722940bd7222ebec85aad143378f8f849357e5a
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,22 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 改进辅助工作区中的全局记录类型
+
+>[!NOTE]
+>
+>预览：2026年2月5日
+>生产快速发布： 2026年3月12日
+>适用于所有人的生产： 2026年4月16日
+
+我们改进了从主工作区添加到辅助工作区的全局记录类型的可见性。 这些改进包括：
+
+* 稍作修改的全局图标，指示记录类型是从另一个工作区添加的。
+
+* 改进了新图标上的工具提示，用于明确标识创建记录类型的工作区。
+
+有关信息，请参阅[从另一个工作区添加现有记录类型](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)。
 
 ## 配置在记录的“详细信息”预览框中显示的字段
 
