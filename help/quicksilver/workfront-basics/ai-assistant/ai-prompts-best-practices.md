@@ -1,18 +1,18 @@
 ---
-title: AI助手提示最佳实践
+title: AI助手提示和最佳实践
 content-type: reference
 description: 了解使用AI助手的最佳实践，并查看提示示例列表。
 author: Jenny
 feature: Get Started with Workfront
 exl-id: 34a60482-e060-49f9-bbaf-8aed85845e26
-source-git-commit: 4bab0129d694d7134a5dae90474678226368ca78
+source-git-commit: dc472e93541641ee1c960ec7246365200f522a17
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '743'
 ht-degree: 4%
 
 ---
 
-# AI助手提示最佳实践
+# AI助手提示和最佳实践
 
 Workfront的AI助手是一款功能强大的工具，可提供有关帐户数据和特定对象类型的有用信息，从而帮助您更有效地完成工作。
 
@@ -42,7 +42,7 @@ AI助手可以为以下对象类型提供数据：
 >
 >您必须具有对象访问级别的必需权限，然后才能从AI助手请求其数据。
 
-## 最佳实践
+## 最佳做法
 
 ### 输入清除提示
 
