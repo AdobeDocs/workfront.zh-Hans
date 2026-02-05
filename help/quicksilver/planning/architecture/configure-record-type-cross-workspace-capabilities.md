@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1411'
 ht-degree: 1%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上突出显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 您可以在Adobe Workfront Planning中将记录类型配置为可在多个工作区中使用。
 
@@ -198,7 +198,7 @@ And
    >
    >只能从其原始工作区中编辑记录类型的外观和设置及其原始字段。
 
-   * 记录类型卡片显示&#x200B;**全局记录类型**&#x200B;图标![全局记录类型图标](assets/global-icon.png)，以指示该记录类型可以添加到其他工作区。
+   * 记录类型卡片显示&#x200B;**全局记录类型**&#x200B;图标![全局记录类型图标主工作区](assets/global-icon.png)，以指示该记录类型可以添加到其他工作区。
    * 系统生成的&#x200B;**Workspace**&#x200B;字段已添加到记录类型及其记录详细信息的表视图。
 
      Workspace字段显示从中创建每个记录的工作区。
@@ -214,7 +214,7 @@ And
 
    有关信息，请参阅[从另一个工作区添加现有记录类型](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)。
 
-   从辅助工作区中的全局记录类型添加的记录类型还显示&#x200B;**全局记录类型**&#x200B;图标![全局记录类型图标](assets/global-icon.png)。
+   从辅助工作区中的全局记录类型添加的记录类型在辅助工作区<span class="preview">上显示&#x200B;**类似的**&#x200B;全局记录类型![图标](assets/global-icon-secondary-workspace.png)全局记录类型图标，该图标包含箭头，指示该记录类型是从其他工作区导入的。 当您将鼠标悬停在辅助工作区全局图标上时，您可以了解原始工作区的名称。</span>
 1. （可选）返回创建全局记录类型的原始工作区，并按照以上<!--ensure this stays accurate-->的步骤1-4编辑该记录类型
 1. （可选）查看已添加全局记录的工作区列表，该全局记录已添加到使用此记录类型的&#x200B;**工作区中**。 工作区所有者的名称也会列在工作区名称旁边。
 

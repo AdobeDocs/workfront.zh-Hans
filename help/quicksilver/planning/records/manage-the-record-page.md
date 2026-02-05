@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
 workflow-type: tm+mt
 source-wordcount: '1568'
 ht-degree: 0%
@@ -192,7 +192,7 @@ ht-degree: 0%
 
    从表格视图中，单击第一列中的&#x200B;**打开详细信息**&#x200B;图标![在表格名称字段](assets/open-details-icon-in-table-name-field.png)中打开详细信息图标。
 
-   记录的预览将在视图中打开。
+   <span class="preview">记录的预览在视图中打开。</span>
 
    ![详细信息框](assets/details-box.png)
 
@@ -221,7 +221,7 @@ ht-degree: 0%
 
      或
 
-     单击&#x200B;**下移**&#x200B;以将节下移一个位置。
+     单击&#x200B;**下移**以将节下移一个位置。
 部分中的所有字段都会随部分一起移动。
 
    * 单击&#x200B;**删除**&#x200B;以删除该节。 该部分已被删除，无法恢复。 访问此类型记录的所有用户将不再查看已删除的分区。
@@ -271,7 +271,7 @@ ht-degree: 0%
 
    从表格视图中，单击第一列中的&#x200B;**打开详细信息**&#x200B;图标![在表格名称字段](assets/open-details-icon-in-table-name-field.png)中打开详细信息图标。
 
-   记录的预览将在视图中打开。
+   <span class="preview">记录的预览在视图中打开。</span>
 
    ![详细信息框](assets/details-box.png)
 

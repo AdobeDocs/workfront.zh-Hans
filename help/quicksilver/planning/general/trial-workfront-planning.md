@@ -3,9 +3,9 @@ title: Adobe Workfront计划免费试用版快速入门
 description: Adobe Workfront提供Adobe Workfront Planning的60天免费试用。 这次试用让您有机会了解Planning如何将大局战略与日常工作联系起来，从而使其实现。 Planning提供了营销生命周期的集中可视性，实现了跨团队更好的协作、实时活动跟踪和自动化工作流。 您可以创建自定义工作区，并使用交互式时间表和日历将工作可视化。 通过此次试用，您将亲眼看到Planning如何帮助日常工作与战略目标保持一致、简化执行并为您的组织带来可衡量的结果。
 hidefromtoc: true
 hide: true
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1255'
 ht-degree: 1%
 
 ---
@@ -71,15 +71,29 @@ Adobe Workfront Planning可集中查看您的营销生命周期，从而改善�
    * 试用协议接受窗口。 只有Workfront管理员可以接受协议。 自此日期起，您可以随时接受试用协议。
 * **2026年3月2日**： Workfront计划试用。
 
+  以下项目已添加到您的Workfront实例：
+
+   * Workfront计划横幅将继续向所有用户显示。
+   * **审阅试用协议**&#x200B;首选项已添加到&#x200B;**设置**&#x200B;区域。
+
   存在以下情况：
 
    * 如果您的Workfront管理员在此日期之前已接受协议，则可以在主菜单中找到Planning区域，并开始使用Workfront Planning。
    * 如果您的Workfront管理员在此日期之前未接受协议，则必须先接受协议，然后才能访问Workfront Planning。
+* **2026年4月1日**：您无法再注册试用版。
+
+  以下项目将从您的Workfront实例中删除：
+
+   * Workfront Planning试用横幅。
+   * **审阅试用协议**&#x200B;首选项已从&#x200B;**设置**&#x200B;区域删除。
+
 * **2026年5月1日**： Workfront Planning试用期已结束，您对Planning的访问权限已删除。
 
-  Workfront会在试用期结束后保护您的数据，但您将无法再访问这些数据。
+  如果您参与了试用，Workfront会在试用结束后保护您的数据。 但是，在此日期之后，您再也无法访问它。
 
   无论您何时接受协议，您对Planning的访问权限都将在此日期终止。
+
+  所有Workfront Planning试用版
 * **2026年11月30日**：在此日期之后，Workfront不再保护您的数据。 如果在此日期之前购买Workfront Planning，您将重新获得对Planning和数据的访问权限。
 
 <!--Lauren wanted this out: 
@@ -144,7 +158,9 @@ Adobe Workfront Planning可集中查看您的营销生命周期，从而改善�
 
 * **2026年3月2日至5月1日期间**：
 
-  在免费试用期间，您将被授予对Planning区域中的工作区的以下权限：
+  无论Workfront或Workflow许可证访问级别如何，当您接受参与Workfront Planning试用计划时，您都会收到Workfront Planning Prime许可证。
+
+  在免费试用期间，您系统中的用户将获得Planning区域中工作区的以下权限：
 
    * 所有系统管理员都具有“工作区”选项卡的管理权限。
    * 所有其他用户均具有“工作区”选项卡的“查看”权限，但系统管理员可以向他们授予对工作区的“管理”权限。
