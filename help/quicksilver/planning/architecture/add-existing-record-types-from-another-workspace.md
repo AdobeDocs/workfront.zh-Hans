@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
+source-git-commit: c9fa6d97607990710e6c2a74f3b373d06201d721
 workflow-type: tm+mt
 source-wordcount: '784'
 ht-degree: 1%
@@ -147,6 +147,7 @@ And
      >
      >您无法编辑新记录类型的外观、其他设置或原始字段。 只能从原始工作区编辑记录类型及其所有原始字段和设置。
      >
+
 1. <span class="preview">（可选）将鼠标悬停在辅助工作区![上的全局记录类型图标](assets/global-icon-secondary-workspace.png)全局记录图标上，以查看从中添加记录类型的原始工作区的名称。</span>
 1. （可选）单击，然后将新添加的记录类型拖放到工作区中的任何部分。
 1. （可选）单击新记录类型卡片上的&#x200B;**更多**&#x200B;菜单或其页面上的记录类型名称右侧，然后单击以下任一项：

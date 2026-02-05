@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: c9fa6d97607990710e6c2a74f3b373d06201d721
 workflow-type: tm+mt
-source-wordcount: '5428'
+source-wordcount: '5475'
 ht-degree: 4%
 
 ---
@@ -377,6 +377,12 @@ ht-degree: 4%
 根据您选择的环境，在“编辑任务”框中编辑工作分配会有所不同。
 
 #### 编辑生产环境中的“工作”区域
+
+>[!NOTE]
+>
+><span class="preview">某些客户可以像在预览环境中编辑任务一样，在其生产环境中编辑任务框中的工作分配。</span>
+>
+><span class="preview">有关在预览环境中编辑任务的信息，请参阅本文中的[在预览环境中编辑工作分配区域](#edit-the-assignments-area-in-the-preview-environment)部分。</span>
 
 1. 按如上所述开始编辑任务。
 1. 单击左侧面板中的&#x200B;**工作**。
