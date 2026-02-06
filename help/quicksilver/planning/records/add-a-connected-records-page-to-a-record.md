@@ -309,7 +309,7 @@ When you create a connected records page for connected Planning records in the P
    * 单击&#x200B;**新建行**&#x200B;以创建没有模板的项目。 新项目将自动连接到当前记录。
 
      有关详细信息，请参阅将Workfront对象连接到记录时[从Workfront Planning创建对象](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)。
-   * 单击视图右上角的**创建记录**以添加现有项目。 项目将立即连接到所选记录。
+   * 单击视图右上角的&#x200B;**创建记录**&#x200B;以添加现有项目。 项目将立即连接到所选记录。
 
    * 将鼠标悬停在列表中的项目名称上，然后单击&#x200B;**更多**&#x200B;菜单[更多菜单](assets/more-menu.png)，然后单击&#x200B;**查看**&#x200B;以在其他选项卡中打开该项目
 
