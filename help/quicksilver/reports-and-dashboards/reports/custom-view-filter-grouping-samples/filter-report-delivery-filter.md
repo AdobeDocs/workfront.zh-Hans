@@ -7,10 +7,10 @@ description: 此报表过滤器显示所有计划在Adobe Workfront中自动交�
 author: Lisa and Jenny
 feature: Reports and Dashboards
 exl-id: 7b937384-80c9-4bc7-94be-5573cf86b35b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: be102fd5f490b12837a231774253c030973c1c4f
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -20,16 +20,16 @@ ht-degree: 0%
 
 此报表过滤器显示所有计划在Adobe Workfront中自动交付的报表。 最好将其用于标准视图。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -66,8 +66,7 @@ ht-degree: 0%
 1. 在&#x200B;**为报表**&#x200B;设置筛选规则区域中，复制并粘贴以下代码：
 
    ```
-   scheduledReportID=0
-   scheduledReportID_Mod=notnull
+    scheduledReportsOM:ID_Mod=notblank
    ```
 
 1. 单击&#x200B;**保存筛选器**。
