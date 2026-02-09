@@ -4,9 +4,10 @@ description: 2026年第二季度管理员增强功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7cde2f693336649d3d965100e33b71795ddc65a2
+exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
+source-git-commit: f55ab45a7c11a4f0e4cdbe65ea890ba452b9bbba
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -29,7 +30,7 @@ ht-degree: 0%
 
 自定义表单中的新&#x200B;**富文本**&#x200B;字段类型是一个强大的文本编辑器，除了粗体、斜体、下划线、项目符号、编号、超链接和块引号等传统选项外，还具有格式选项，如上标和下标、标题和表格。 字符限制仍为15,000。
 
-富文本字段类型正在将文本替换为格式字段类型。 您可以通过单击右侧字段选项中的按钮，快速将带格式字段的现有文本转换为富文本。
+富文本字段类型正在将文本替换为格式字段类型。 您可以通过单击右侧字段选项中的按钮，快速将带格式字段的现有文本转换为富文本。 转换时，历史数据将保留在字段中，并在报表中以相同的方式使用。
 
 有关详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
@@ -53,6 +54,3 @@ ht-degree: 0%
 * 24.110.76.223
 
 有关详细信息，请参阅[配置防火墙的允许列表](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
-
-
-
