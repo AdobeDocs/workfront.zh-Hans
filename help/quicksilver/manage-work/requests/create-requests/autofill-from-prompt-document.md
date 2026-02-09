@@ -5,9 +5,9 @@ description: 可以通过输入提示或提供文档来使用AI自动填写请�
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: b34d7f48a51acf4bd6ddfa203c9e0024b2e8c280
+source-git-commit: 8e04117c08985f3ad5de86e4a08cb4aa53ac7706
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1416'
 ht-degree: 3%
 
 ---
@@ -20,10 +20,6 @@ ht-degree: 3%
 
 AI表单填写可以帮助您根据输入的提示自动填写请求字段。 它还可以基于文本填写字段，例如电子邮件和上传的文档。 您可以在提交请求之前批准或拒绝这些建议。
 
-AI表单填写不会覆盖您已填写的任何字段。
-
-用户不会收到他们无权访问的数据建议。
-
 ## 访问权限要求
 
 +++ 展开可查看本文所述功能的访问权限要求。
@@ -34,7 +30,7 @@ AI表单填写不会覆盖您已填写的任何字段。
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划</td> 
-   <td> <p>任何 </p> </td> 
+   <td> <p>“任一” </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -59,7 +55,7 @@ AI表单填写不会覆盖您已填写的任何字段。
 
 ## 先决条件
 
-若要使用AI表单填写功能通过提示或文档填写请求，必须应用以下的&#x200B;**所有**：
+要使用由AI提供支持的表单填写功能来使用提示或文档填写请求，必须应用以下的&#x200B;**所有**：
 
 * 您的组织必须已迁移到Adobe IMS (Identity Management System)
 * 必须启用Adobe Unified Experience
@@ -70,6 +66,15 @@ AI表单填写不会覆盖您已填写的任何字段。
 * 必须在组织的系统设置中启用AI助手。 此项由Workfront管理员管理。
 
   有关在系统设置中启用AI助手的详细信息，请参阅[启用或禁用AI助手](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)。
+
+## 使用由AI提供支持的表单填写时的注意事项
+
+使用由AI提供支持的表单填写时，请考虑以下事项
+
+* AI表单填写不会覆盖您已填写的任何字段。
+* 用户不会收到他们无权访问的数据建议。
+* 您在由AI提供支持的Form Fill中使用的文件将上传到Azure存储，并持续加载24小时。 这是文档处理所必需的。
+* 当前上载到Azure的所有文件都存储在US Azure群集中，存储时间为24小时。
 
 ## 从文本提示获取建议
 
