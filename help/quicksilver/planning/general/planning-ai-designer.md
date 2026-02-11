@@ -5,15 +5,17 @@ recommendations: noDisplay, noCatalog
 author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
-source-git-commit: b52c188d767ee37699ead71ed90642458d9889fa
+exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
+source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
 workflow-type: tm+mt
-source-wordcount: '1480'
+source-wordcount: '1470'
 ht-degree: 0%
 
 ---
 
-
 # Adobe Workfront规划Designer快速入门
+
+<!--remove the Beta tags in the screen shots on this page when this is released to GA - maybe March 2, 2026-->
 
 >[!IMPORTANT]
 >
@@ -91,7 +93,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**使用AI创建**。<!--update this tag name when they change it-->
 
-   将打开&#x200B;**计划Designer**&#x200B;窗口的&#x200B;**Workspace设置**&#x200B;区域。<!--replace shot below when they rename the area to Planning Designer-->
+   将打开&#x200B;**计划Designer**&#x200B;窗口。
 
 1. 单击页面底部的&#x200B;**在此提交反馈**。
 1. 在提供的共享空间中添加您的反馈，然后单击&#x200B;**提交**。
@@ -178,7 +180,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**使用AI创建**。<!--update this when they change it-->
 
-   将打开&#x200B;**计划Designer**&#x200B;窗口的&#x200B;**Workspace设置**&#x200B;区域。<!--replace shot below when they rename the area to Planning Designer-->
+   将打开&#x200B;**计划Designer**&#x200B;窗口。<!--remove the Beta tag here when this removes from Beta-->
 
    ![计划Designer窗口](assets/planning-designer-window.png)
 
@@ -239,9 +241,3 @@ ht-degree: 0%
 1. 单击&#x200B;**保存**。
 
    这将删除系统中所有用户的Planning Designer。
-
-
-
-
-
-

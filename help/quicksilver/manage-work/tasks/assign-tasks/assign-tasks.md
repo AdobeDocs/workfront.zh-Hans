@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
 workflow-type: tm+mt
-source-wordcount: '2479'
+source-wordcount: '1617'
 ht-degree: 2%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 2%
 
 <!--remove production/ preview and old/ new experience references at prod-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 从“预览”版本开始的一周后，生产环境中所有客户也可以使用相同的功能。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-有关详细信息，请参阅[2026年第二季度发行版概述](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)。
+For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md). 
 
-</div>
+</div>-->
 
 您可以将任务分配给用户、工作角色或团队，以指明负责完成任务的人员。 您可以一次将任务分配给多个资源。
 
@@ -66,7 +66,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 包</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
@@ -224,102 +224,6 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
 ## 从列表批量分配多个任务
 
-根据您选择的环境，从列表中批量分配多个任务会有所不同。
-
-### 从生产环境中的列表批量分配多个任务
-
-1. 转到要批量分配的任务的列表。
-1. （视情况而定）如果您在项目下的任务列表中，请确保已选择&#x200B;**自动保存**&#x200B;选项。
-
-   >[!IMPORTANT]
-   >
-   >在项目中手动保存任务时，无法批量编辑任务。
-
-1. 在任务列表中选择多个任务。
-1. 单击&#x200B;**编辑**。
-
-   将在新Experience中打开&#x200B;**编辑任务**&#x200B;对话框。
-
-1. 继续使用新Experience分配任务。
-
-   有关详细信息，请参阅本文的新版Experience[中的](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience)从列表中批量分配多个任务部分。
-
-1. （可选）单击&#x200B;**编辑任务**&#x200B;框底部的&#x200B;**切换回旧体验**&#x200B;以打开旧体验。
-
-1. （视情况而定）使用旧体验，在&#x200B;**分配**&#x200B;区域，选择&#x200B;**被分配人**&#x200B;框，然后开始键入要分配给所有任务的用户、工作角色或团队的名称。
-
-   >[!IMPORTANT]
-   >
-   >如果已经分配了任何任务，您在此处指定的资源将添加到任务中，而不是替换任务上的现有资源。
-
-1. （可选）为任务分配多个资源时，选择&#x200B;**任务所有者**&#x200B;列中的单选按钮以指示哪个资源是任务的主要被分配者或所有者。 这不适用于团队。
-1. （视情况而定）如果您选择的所有任务的持续时间类型均为投入比导向或计算的工作分配，请为分配给任务的每个资源指定&#x200B;**分配%**。 这指示这些资源应在完成任务上花费多少时间。 这仅适用于用户和职位角色。
-
-   或
-
-   如果您选择的所有任务的持续时间类型为“简单”，请为分配给任务的每个资源指定&#x200B;**小时数**。 所有资源的所有小时总数应等于任务的计划小时数。
-
-   >[!IMPORTANT]
-   >
-   >如果所选任务具有不同的持续时间类型或所选任务具有不同的持续时间类型，则无法指定每个资源的分配百分比或小时数。
-
-   有关任务的持续时间类型的信息，请参阅[任务持续时间和持续时间类型概览](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)。
-
-1. （可选）在将用户分配给任务时，从&#x200B;**任务接受者的角色**&#x200B;列的&#x200B;**选择角色**&#x200B;下拉菜单中选择用户在任务上应履行的角色。 如果不选择角色，Workfront会自动选择用户的主要角色。
-
-1. （可选）如果要从所有任务中删除现有被分配人，请执行下列操作之一：
-
-   1. 开始键入要从任务中删除的用户、角色或团队的名称，然后选中该名称使其出现在列表中，然后单击&#x200B;**删除被分配人**&#x200B;以删除更多被分配人。
-   1. 单击“**移除所有现有被分配人**”可从所有选定任务中移除所有被分配人。
-
-1. 单击&#x200B;**保存更改**。
-1. （可选且有条件）当任务列表中显示“分配给”或“工作总揽”字段时，单击其中一列中的任务的，然后单击被分配人名称旁边的&#x200B;**X图标**&#x200B;以将其从任务中删除。
-
-
-#### 从新Experience的列表中批量分配多个任务
-
-1. 转到要批量分配的任务的列表。
-1. （视情况而定）如果您在项目下的任务列表中，请确保已选择&#x200B;**自动保存**&#x200B;选项。
-
-   >[!IMPORTANT]
-   >
-   >在项目中手动保存任务时，无法批量编辑任务。
-
-1. 在任务列表中选择多个任务。
-1. 单击&#x200B;**编辑**。
-
-   将打开&#x200B;**编辑任务**&#x200B;对话框。
-
-1. 在&#x200B;**工作**&#x200B;区域，在提供的&#x200B;**搜索人员、角色或团队**&#x200B;字段中开始键入用户、团队或角色的名称，然后在用户、团队或角色显示在列表中时单击它们
-
-   或
-
-   单击&#x200B;**分配给我**&#x200B;以将其分配给您自己。
-
-   >[!IMPORTANT]
-   >
-   >如果已经分配了任何任务，您在此处指定的资源将添加到任务中，而不是替换任务上的现有资源。
-
-1. 单击&#x200B;**持续时间类型**&#x200B;字段并选择持续时间类型。
-
-   有关任务的持续时间类型的信息，请参阅[任务持续时间和持续时间类型概览](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)。
-
-1. （视情况而定）根据您选择的&#x200B;**持续时间类型**，更新以下字段：
-
-   * 持续时间
-   * 规划小时数
-
-     有关详细信息，请参阅[编辑任务](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)。
-
-1. （可选）如果要从所有任务中移除现有被分配人，请在&#x200B;**搜索人员、角色或团队**&#x200B;字段中单击其名称旁边的&#x200B;**x**。
-
-1. 单击&#x200B;**保存**。
-1. （可选且有条件）当任务列表中显示&#x200B;**分配给**&#x200B;或&#x200B;**工作总揽**&#x200B;字段时，单击其中一列的任务内容，然后单击被分配人名称旁边的&#x200B;**X图标**&#x200B;以将其从任务中删除。
-
-<div class="preview">
-
-### 从预览环境中的列表批量分配多个任务
-
 1. 转到要批量分配的任务的列表。
 1. （视情况而定）如果您在项目下的任务列表中，请确保已选择&#x200B;**自动保存**&#x200B;选项。
 
@@ -355,7 +259,6 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. 单击&#x200B;**保存**。
 1. （可选且有条件）当任务列表中显示&#x200B;**分配给**&#x200B;或&#x200B;**工作总揽**&#x200B;字段时，单击其中一列的任务内容，然后单击被分配人名称旁边的&#x200B;**X图标**&#x200B;以将其从任务中删除。
 
-</div>
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -372,3 +275,98 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 -->
 
 
+<!--Assigning multiple tasks in bulk from a list differs depending on which environment you choose. 
+
+### Assign multiple tasks in bulk from a list in the Production environment
+
+1. Go to a list of tasks that you want to assign in bulk. 
+1. (Conditional) Ensure that the **Autosave** option is selected if you are on a list of tasks under a project.
+
+   >[!IMPORTANT]
+   >
+   >You cannot edit tasks in bulk when saving tasks manually on a project.
+
+1. Select several tasks in the tasks list. 
+1. Click **Edit**.
+
+   The **Edit Tasks** dialog box opens in the new experience.
+
+1. Continue assigning the tasks using the new experience.
+
+   For more information, see the section [Assign multiple tasks in bulk from a list in the new experience](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) in this article.
+
+1. (Optional) Click **Switch back to old experience** at the bottom of the **Edit Tasks** box to open the old experience.
+
+1. (Conditional) Using the old experience, in the **Assignments** area, select the **Assignee** box, then start typing the name of a user, job role, or team that you want to assign to all the tasks.
+
+   >[!IMPORTANT]
+   >
+   >If any of the tasks is already assigned, the resources you indicate here are added to the tasks instead of replacing the existing resources on the tasks. 
+
+1. (Optional) Select the radio button in the **Task Owner** column to indicate which resource is the primary assignee or the Owner of the task, when you assign more than one resource to the task. This is not available for teams. 
+1. (Conditional) Specify the **Allocation %** for each resource assigned to the task if all the tasks you selected have a Duration Type of Effort Driven or Calculated Assignment. This indicates how much of their time these resources should spend on completing the task. This is only available for users and job roles.
+
+   Or
+
+   Specify the amount of **Hours** for each resource assigned to the task if all the tasks you selected have a Duration Type of Simple. The total of all hours for all resources should equal the number of Planned Hours for the task.
+
+   >[!IMPORTANT]
+   >
+   >You cannot specify the allocation percentage or the number of hours per resource if the tasks you selected have different Duration Types or of the tasks you selected have different Duration Types.
+
+   For information about Duration Type on tasks, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+
+1. (Optional) Select a role that the user should fulfill on the task from the **Pick a role** drop-down menu in the **Assignee's Role** column when you assign users to tasks. If you do not select a role, Workfront automatically selects the user's Primary Role. 
+
+1. (Optional) If you want to remove existing assignees from all tasks do one of the following:
+
+   1. Start typing the name of a user, role, or team you want to remove from the task, then select it when it appears on the list and click **Remove Assignee** to remove more assignees.
+   1. Click **Remove All Existing Assignees** to remove all assignees from all selected tasks.
+
+1. Click **Save Changes**.
+1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of tasks, click inside one of these columns for a task, then click the **X icon** next to the name of an assignee to remove it from the task.
+
+
+#### Assign multiple tasks in bulk from a list in the new experience
+
+1. Go to a list of tasks that you want to assign in bulk.
+1. (Conditional) Ensure that the **Autosave** option is selected if you are on a list of tasks under a project.
+
+   >[!IMPORTANT]
+   >
+   >You cannot edit tasks in bulk when saving tasks manually on a project.
+
+1. Select several tasks in the tasks list. 
+1. Click **Edit**.
+
+   The **Edit Tasks** dialog box opens.
+
+1. In the **Assignments** area, start typing the name of users, teams, or roles in the **Search people, roles, or teams** field provided, then click them when they display in the list
+
+   Or 
+
+   Click **Assign to me** to assign it to yourself.
+
+   >[!IMPORTANT]
+   >
+   >If any of the tasks is already assigned, the resources you indicate here are added to the tasks instead of replacing the existing resources on the tasks.
+
+1. Click inside the **Duration Type** field and choose a Duration Type. 
+
+   For information about Duration Type on tasks, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+
+1. (Conditional) Depending on what **Duration Type** you selected, update the following fields: 
+
+   * Duration
+   * Planned Hours
+
+      For more information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md). 
+
+1. (Optional) If you want to remove existing assignees from all tasks, click the **x** next to their name in the **Search people, roles, or teams** field.
+
+1. Click **Save**.
+1. (Optional and conditional) When the **Assigned to** or the **Assignments** fields display in your list of tasks, click inside one of these columns for a task, then click the **X icon** next to the name of an assignee to remove it from the task.
+
+<div class="preview">
+### Assign multiple tasks in bulk from a list in the Preview environment
+-->
