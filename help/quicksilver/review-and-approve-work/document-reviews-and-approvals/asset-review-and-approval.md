@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 用于统一文档审批的可用功能
+title: 用于文档审批的可用功能
 description: 在Workfront中可供审阅和批准的系统概述。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: f4dc0d28f7565b9dbc3c9ff4ee388eb8cf748b7f
+source-git-commit: aa3645e2ed8c36a3b07caad72083a43467889fce
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
 
-# 用于统一文档审批的可用功能
+# 用于文档审批的可用功能
 
-Workfront中目前有3种不同的系统可用于统一文档审批：
+Workfront中目前有3种不同的系统可用于文档审批：
 
 * [旧文档审批](#legacy-document-approvals)
 
@@ -25,7 +25,7 @@ Workfront中目前有3种不同的系统可用于统一文档审批：
 
 ## 旧文档审批
 
-旧文档审批将于2025年从Workfront中删除。 统一审批系统已设计为替换旧版文档审批。
+未来某个日期将从Workfront中删除旧文档审批。 统一审批系统已设计为替换旧版文档审批。
 
 可用于旧文档审批的主要功能：
 

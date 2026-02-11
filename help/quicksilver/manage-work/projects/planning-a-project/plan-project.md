@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: fb57f04a4031eaf38f88c3a1b2542d64ee230a8c
+source-git-commit: aa3645e2ed8c36a3b07caad72083a43467889fce
 workflow-type: tm+mt
-source-wordcount: '1673'
+source-wordcount: '1672'
 ht-degree: 0%
 
 ---
@@ -179,4 +179,4 @@ ht-degree: 0%
 
    * [为工作项创建批准流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
    * [审阅和批准工作](/help/quicksilver/review-and-approve-work/review-and-approve-work.md)
-   * [可用于统一文档审批的功能](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
+   * [可用于文档审批的功能](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)

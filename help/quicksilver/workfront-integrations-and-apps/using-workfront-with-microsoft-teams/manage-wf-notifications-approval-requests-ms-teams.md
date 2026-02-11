@@ -6,10 +6,10 @@ description: 您可以从 [!DNL Adobe Workfront] 接收有关需要批准的项�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
+source-git-commit: 7720d51864428e6d7cf493f88bbee13b5203774b
 workflow-type: tm+mt
-source-wordcount: '1434'
-ht-degree: 0%
+source-wordcount: '1466'
+ht-degree: 5%
 
 ---
 
@@ -32,22 +32,22 @@ ht-degree: 0%
 
 
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> <p>标准</p>
-   <p>工作或更高</p> </td> 
+   <p>工作版或更高版本</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -140,11 +140,11 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th>[!UICONTROL Approve]</th> 
-   <th>[!UICONTROL 拒绝]</th> 
-   <th> <p>[!UICONTROL 更改]</p> </th> 
-   <th> <p>[!UICONTROL 转至验证] </p> </th> 
-   <th>[!UICONTROL Comment]</th> 
+   <th>[！UICONTROL Approve]</th> 
+   <th>[！UICONTROL拒绝]</th> 
+   <th> <p>[！UICONTROL更改]</p> </th> 
+   <th> <p>[！UICONTROL转至验证] </p> </th> 
+   <th>[！UICONTROL Comment]</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -221,7 +221,7 @@ ht-degree: 0%
    <td> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">您请求的文档审批请求已审批</td> 
+   <td role="rowheader">您请求的文档审批请求已审批*</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -229,7 +229,7 @@ ht-degree: 0%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">您请求的文档审批请求已审批，但有更改</td> 
+   <td role="rowheader">您请求的文档审批请求已审批，但有更改*</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -237,7 +237,7 @@ ht-degree: 0%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">您请求的文档审批请求被拒绝</td> 
+   <td role="rowheader">您请求的文档审批请求被拒绝*</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -254,6 +254,8 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
+
+*这些通知指旧版文档审批。 [!DNL Microsoft Teams]当前不支持统一文档审批通知。 有关Workfront中各种审批制度的详细信息，请参阅[可用于文档审批的功能](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)。
 
 ### 任务通知 {#assignment-notifications}
 
@@ -275,9 +277,9 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th>[!UICONTROL 开始]</th> 
-   <th>[!UICONTROL Comment]</th> 
-   <th> <p>[!UICONTROL 状态]</p> </th> 
+   <th>[！UICONTROL开始]</th> 
+   <th>[！UICONTROL Comment]</th> 
+   <th> <p>[！UICONTROL状态]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -325,8 +327,8 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th>[!UICONTROL 回复]</th> 
-   <th> <p>[!UICONTROL 状态]</p> </th> 
+   <th>[！UICONTROL回复]</th> 
+   <th> <p>[！UICONTROL状态]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -390,8 +392,8 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th>[!UICONTROL 回复]</th> 
-   <th> <p>[!UICONTROL 状态]</p> </th> 
+   <th>[！UICONTROL回复]</th> 
+   <th> <p>[！UICONTROL状态]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -406,7 +408,7 @@ ht-degree: 0%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">有人将您的团队包含在[!UICONTROL 定向更新]中</td> 
+   <td role="rowheader">有人将您的团队包含在[！UICONTROL定向更新]中</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -427,8 +429,8 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th> <p>[!UICONTROL Comment]</p> </th> 
-   <th> <p>[!UICONTROL 状态]</p> </th> 
+   <th> <p>[！UICONTROL Comment]</p> </th> 
+   <th> <p>[！UICONTROL状态]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
