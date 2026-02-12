@@ -6,9 +6,9 @@ description: 您可以共享或删除您创建的对象或与您共享对象的�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 97f5adc8811a3be7be23137a82d10d45b76ec605
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1332'
 ht-degree: 1%
 
 ---
@@ -99,7 +99,9 @@ ht-degree: 1%
 
 ## 共享限制
 
-您最多可以与100个实体（用户、团队、组、工作角色、公司）共享对象。 我们建议您与组、团队或公司共享对象，而不是与个人用户共享对象，以避免此限制。
+* 您最多可以与100个实体（用户、团队、组、工作角色、公司）共享对象。 我们建议您与组、团队或公司共享对象，而不是与个人用户共享对象，以避免此限制。
+* 访问级别不允许访问财务数据的用户无法授予允许其他人查看财务数据的访问权限。 这包括授予显示财务数据的项目的访问权限，或修改访问级别以允许查看财务数据。
+
 
 ## 共享对象的权限
 

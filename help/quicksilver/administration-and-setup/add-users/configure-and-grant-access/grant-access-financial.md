@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: bf4a37ee-9435-4c1c-b18c-a7338a548ab7
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: 97f5adc8811a3be7be23137a82d10d45b76ec605
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 0%
+source-wordcount: '823'
+ht-degree: 2%
 
 ---
 
@@ -24,17 +24,17 @@ ht-degree: 0%
 * Workfront中项目的财务信息
 * 资源规划工具中的资源预算信息
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td>任何</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td>“任一”</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -58,6 +58,7 @@ ht-degree: 0%
 
 授予用户访问Workfront中财务数据的权限时，请考虑以下事项：
 
+* 访问级别不允许访问财务数据的用户无法授予允许其他人查看财务数据的访问权限。 这包括授予显示财务数据的项目的访问权限，或修改访问级别以允许查看财务数据。
 * 访问级别不允许访问财务数据的用户无法为项目创建风险。 有关详细信息，请参阅[创建和编辑项目中的风险](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)。
 * 您还可以使用访问级别来确定用户可以采用哪些Resource Management活动来预算或查看资源分配。 有关信息，请参阅[授予对资源管理的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)。
 
