@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
+source-git-commit: 5a725e747e8776a867cb0dc4129544f6a28ce8e0
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1420'
 ht-degree: 1%
 
 ---
@@ -139,7 +139,7 @@ And
 
 工作区管理员可以将全局记录类型添加到他们管理的工作区。 记录类型的原始字段也会添加到辅助工作区。
 
-用户可以从他们具有Contribute权限以及已添加全局记录类型（包括其原始工作区）的任何工作区将记录添加到全局记录类型。 用户可以从其只有“查看”权限的工作区中查看记录。
+用户可以从他们具有Contribute权限以及已添加全局记录类型（包括其原始工作区）的任何工作区将记录添加到全局记录类型。 用户可以从全局记录类型的主工作区中查看其只有查看权限的工作区中的记录。
 
 有关详细信息，请参阅[跨工作区记录类型概述](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)。
 

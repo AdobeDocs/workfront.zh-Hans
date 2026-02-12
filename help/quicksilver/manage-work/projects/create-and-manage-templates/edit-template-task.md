@@ -7,7 +7,7 @@ description: 创建模板后，可以编辑有关模板任务的信息。 在使
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: e812338b1f20c6f8dc8679afe3215dbecc8ffc60
+source-git-commit: e186b4aa0b5c229015cf8f3dcd8993f8f0443c44
 workflow-type: tm+mt
 source-wordcount: '2958'
 ht-degree: 5%
@@ -404,7 +404,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    </tr> 
    </tbody> 
    </table>
-1. 将鼠标悬停在被分配人的名称上，然后单击设为主项。 这将是未来项目任务的所有者。
+1. 将鼠标悬停在被分配人的名称上，然后单击&#x200B;**设为主项**。 这将是未来项目任务的&#x200B;**所有者**。
 
    >[!TIP]
    >

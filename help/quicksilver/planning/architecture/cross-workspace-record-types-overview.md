@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
+source-git-commit: 5a725e747e8776a867cb0dc4129544f6a28ce8e0
 workflow-type: tm+mt
-source-wordcount: '1640'
+source-wordcount: '1709'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 0%
 
    以下各节介绍了有关全局记录类型以及它们在其原始工作区或辅助工作区中如何工作的注意事项。
 
-### 有关其原始工作区中全局记录类型的注意事项
+### 关于其原始主工作区中全局记录类型的注意事项
 
 配置为全局的记录类型具有以下属性：
 
@@ -109,12 +109,24 @@ ht-degree: 0%
    * 创建和管理请求表单
    * 创建和管理自动化
 
-* 您添加到全局记录类型的记录仅对具有对其所添加的工作区的查看权限的用户可见。
-* 从辅助工作区添加的记录将汇总并显示在原始工作区中。 原始工作区的所有成员都将获得对其的“查看”权限。
-* 将原始全局记录类型添加到多个辅助工作区时，存在以下情况：
+* 以下记录显示在全局记录类型的“主”工作区中：
 
-   * 原始工作区的成员将自动获得从任何工作区添加的所有记录的查看权限，即使他们不是这些工作区的成员。
-   * 辅助工作区成员只能查看其所属工作区的记录。
+   * 从主工作区中的全局记录类型添加的记录
+   * 从添加的辅助工作区中的全局记录类型添加的记录
+
+     从辅助工作区添加的记录将汇总并显示在主工作区中。 原始主工作区的所有成员都将获得对他们的查看权限，并且只有从主工作区中才能看到记录，即使他们无权访问辅助工作区也是如此。
+* 根据记录的添加位置，对于主工作区中显示的记录存在以下各种权限：
+
+   * 您对在主工作区中创建的记录具有对工作区和原始全局记录类型的相同权限。
+   * 您对在辅助工作区中创建的记录拥有与对辅助工作区以及该工作区中的全局记录类型相同的权限。
+
+<!--Removed this as this was too confusing: 
+
+* When the original global record type is added to multiple secondary workspaces, users gain the following visibility to the records added to the global record types: 
+
+    * Members of the original workspace automatically gain View permissions to all records added from any workspace, even if they are  not members of those workspaces. They can view these records in the following workspaces, only if they are a member of these following workspaces: 
+        * The primary workspace
+        * The secondary workspace where the records were added. Secondary workspace members can view only records from workspaces where they are a member.-->
 
 * 连接到全局记录类型的记录类型将可用于从添加此记录类型的工作区进行连接。
 
@@ -172,15 +184,15 @@ ht-degree: 0%
    * 创建和管理请求表单
    * 创建和管理自动化
 
-* 如果您对辅助工作区具有“查看”或更高权限，则可从以下工作区查看这些工作区中添加的记录：
+* 当您对辅助工作区具有“查看”或更高权限时，可在以下工作区中看到这些工作区中添加的记录：
 
    * 添加这些区段的次要位置
-   * 全局记录类型的原始工作区
+   * 全局记录类型的原始主工作区
 
-* 在辅助工作区中创建的记录存在以下情况：
+* 以下情形可用于访问在辅助工作区中创建的记录：
 
    * 如果您对原始工作区具有“管理”权限，而对辅助工作区没有权限，则可以查看从原始工作区中的辅助工作区添加的记录，但无法从原始工作区管理这些记录。
-   * 如果您对辅助工作区具有管理权限，则可以从全局记录类型的原始工作区以及添加这些记录的辅助工作区中管理记录。
+   * 如果您对原始工作区和辅助工作区具有管理权限，则可以从全局记录类型的原始工作区以及添加它们的辅助工作区管理记录。
      <!--not anymore: * You can view the records in additional secondary workspaces where the global record type is added only if you have View permissions to those workspaces-->
 * 不能在辅助工作区中公开共享全局记录类型的视图。
 
