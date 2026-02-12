@@ -6,10 +6,10 @@ description: 您可以在 [!DNL Experience Manager Assets]中将您的工作与�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: 315428ec517b3a6c0edae387b3a866093a49a2b2
 workflow-type: tm+mt
-source-wordcount: '1702'
-ht-degree: 0%
+source-wordcount: '1713'
+ht-degree: 1%
 
 ---
 
@@ -35,20 +35,20 @@ ht-degree: 0%
 >
 >您还可以跨组织ID将多个[!DNL Experience Manager Assets]存储库连接到一个[!UICONTROL Workfront]环境，或将多个[!DNL Workfront]环境连接到一个[!DNL Experience Manager Assets]存储库。 对于要设置的每个集成，请按照本文中的配置说明进行操作。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table>
   <tr>
-   <td>Adobe Workfront包
+   <td>Adobe Workfront 包
    </td>
    <td> <p>Prime或Ultimate</p>
     <p>工作流 Ultimate</p>
    </td>
   </tr>
     <tr>
-   <td>Adobe Workfront许可证
+   <td>Adobe Workfront 许可证
    </td>
    <td>标准
    <p>规划</p>
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 要配置元数据字段，请执行以下操作：
 
-1. 在[!DNL Experience Manager Assets]中配置元数据架构，如[配置Adobe [!DNL Workfront] 和 [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)之间的资源元数据映射中所述。
+1. 在[!DNL Experience Manager Assets]中配置元数据架构，如[配置Adobe [!DNL Workfront] 和 [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)之间的资源元数据映射中所述。
 
 
 1. 在Workfront中配置自定义表单字段。 [!DNL Workfront]有许多您可以使用的内置自定义字段。 但是，您也可以创建自己的自定义字段，如[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)中所述。
@@ -152,7 +152,7 @@ ht-degree: 0%
 
 在Experience Manager Assets中创建标记后，这些标记将显示在元数据部分的标记下拉列表下。 要将字段链接到标记，请在元数据映射区域的Experience Manager Assets字段下拉列表中选择`xcm:keywords`。
 
-有关Experience Manager Assets中的标记（包括如何创建和管理标记）的更多信息，请参阅[管理标记](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-64/administering/contentmanagement/tags)。
+有关Experience Manager Assets中的标记（包括如何创建和管理标记）的更多信息，请参阅[管理标记](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags)。
 
 **Experience Manager Assets自定义元数据架构字段**
 
@@ -285,11 +285,15 @@ Adobe Experience Manager集成中提供了以下工作流：
 
 1. 单击&#x200B;**[!UICONTROL 保存]**，或转到本文中发送到Adobe Experience Manager Assets的[发布资源](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)部分。
 
+
 >[!NOTE]
 >
->* 此集成创建的文件夹数不会超过100个，这与创建的文件夹树数量无关。 例如，与4个文件夹树集成最多可创建100个文件夹，而不是400个文件夹。
->* 文件夹树中的第一个文件夹会自动标记为已链接到Workfront。 如果不希望链接此文件夹，可以取消其链接。
+>* Workfront AEM本机集成可以为每个项目创建&#x200B;**不超过100个文件夹（无论包含多少文件夹树）（每个集成**）。
+>   * 示例：与单个项目中4个文件夹树集成最多可创建100个文件夹，而不是400个。
+>* 每个文件夹树中的第一个文件夹会自动标记为已链接到Workfront。 如果不希望链接此文件夹，可以取消其链接。
 >* 如果未提供文件夹树，则根文件夹将变为链接的文件夹。
+
+
 
 
 ### 发布发送到Adobe Experience Manager Assets的资源
