@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 509b3454344d3775172b899e3bd4559416f54adc
+source-git-commit: 11fe205b9590b6f8330e0923bbe47d2ed693cf16
 workflow-type: tm+mt
-source-wordcount: '1049'
-ht-degree: 9%
+source-wordcount: '1050'
+ht-degree: 11%
 
 ---
 
@@ -382,7 +382,7 @@ ht-degree: 9%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>workPerDate <p>[!BADGE 已删除]{type=negative tooltip="此字段已于2023年10月26日删除。"}</span></td> 
+   <td>workPerDate <p>[！BADGE已删除]{type=negative tooltip="此字段已于2023年10月26日删除。"}</span></td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2207,7 +2207,7 @@ ht-degree: 9%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>id</td> 
+   <td>ID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2287,7 +2287,7 @@ ht-degree: 9%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>id</td> 
+   <td>ID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2546,6 +2546,11 @@ ht-degree: 9%
    <td> </td> 
    <td> </td> 
    <td>parametervalues</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>preserveBilling</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -3554,7 +3559,7 @@ ht-degree: 9%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>id</td> 
+   <td>ID</td> 
   </tr> 
   <tr> 
    <td> </td> 
