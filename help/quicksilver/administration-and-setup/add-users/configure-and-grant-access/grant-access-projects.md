@@ -68,7 +68,7 @@ ht-degree: 2%
    >* 具有“审阅”许可证的用户对转化问题中的项目具有“查看”权限，但其“查看”权限受限。
    >* 有关用户在与他人共享项目时可以授予的权限的信息，请参阅[在Adobe Workfront中共享项目](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)。
    >* 在为特定类型的对象配置访问级别设置时，该配置不会影响用户对较低排名的对象的访问。 例如，您可以限制用户删除其访问级别中的项目，但这不会限制他们删除比项目级别低的任务。有关对象层次结构的详细信息，请参阅文章[了解Adobe Workfront中的对象](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects)中的[相互依赖性和对象层次结构](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)部分。
-   * 访问级别不允许访问财务数据的用户无法授予允许其他人查看财务数据的访问权限。 这包括授予显示财务数据的项目的访问权限，或修改访问级别以允许查看财务数据。
+   >* 访问级别不允许访问财务数据的用户无法授予允许其他人查看财务数据的访问权限。 这包括授予显示财务数据的项目的访问权限，或修改访问级别以允许查看财务数据。
 
 
 1. （可选）单击“创建”选项右侧的&#x200B;**设置共享默认值**，然后单击&#x200B;**添加规则**&#x200B;为新项目添加共享规则。
