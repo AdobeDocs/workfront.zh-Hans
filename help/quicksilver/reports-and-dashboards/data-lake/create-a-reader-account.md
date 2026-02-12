@@ -7,10 +7,10 @@ description: 要访问Data Connect数据，您必须首先创建一个Snowflake�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: 7764e512a3fb30a89e6645a4d8544a5fcffee231
+source-git-commit: 9cf221bda04614856a6a3670100742340fb73aee
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 0%
+source-wordcount: '630'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 有关将新创建的连接与外部产品结合使用的信息，请参阅[建立与Workfront Data Connect的连接](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)。
 
-## 访问要求
+## 访问权限要求
 
 +++ 展开以查看访问要求。 
 
@@ -31,7 +31,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td><p>Ultimate</p>
     <p>工作流 Ultimate</p>
    </td>
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 1. 在左侧面板中，单击&#x200B;**系统** > **数据连接**。
 
-1. 单击&#x200B;**创建Reader帐户**&#x200B;按钮开始创建贵组织的读者帐户。 该过程是自动的，但可能需要几分钟才能完成。
+1. 单击&#x200B;**创建Reader帐户**&#x200B;按钮开始创建贵组织的读者帐户。 该过程是自动的，但可能需要长达24小时才能完成。
 
 1. 完成后，将显示一个对话框窗口，说明您的阅读器帐户现在处于活动状态。 刷新浏览器页面以获得对&#x200B;**新建连接**&#x200B;按钮的访问权限。
 
