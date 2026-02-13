@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: f55ab45a7c11a4f0e4cdbe65ea890ba452b9bbba
+source-git-commit: 9160a68653999c35de32dd417b18ea8197ef446f
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,10 @@ ht-degree: 0%
 >[!NOTE]
 >
 >预览： 2026年1月29日
->生产快速发布： 2026年2月12日\
+>生产快速发布： 2026年2月12日
 >适用于所有人的生产： 2026年4月16日
+>
+>此功能已于2026年2月13日从生产环境中暂时删除。
 
 自定义表单中的新&#x200B;**富文本**&#x200B;字段类型是一个强大的文本编辑器，除了粗体、斜体、下划线、项目符号、编号、超链接和块引号等传统选项外，还具有格式选项，如上标和下标、标题和表格。 字符限制仍为15,000。
 
