@@ -5,10 +5,8 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
-hide: true
 exl-id: 567ab223-b282-4b98-9655-7b9766fba869
-source-git-commit: 52bf41e146a11a4af4fbebfe5bb20a9765f2bc7b
+source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
 workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 0%
@@ -97,7 +95,7 @@ ht-degree: 0%
 
 此方法需要Adobe Workfront Fusion的许可证。
 
-有关详细信息，请参阅[设置和管理Workfront Fusion：文章索引](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc)。
+有关详细信息，请参阅[设置和管理Workfront Fusion：文章索引](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc)。
 
 * **使用提交触发器：**&#x200B;由于表单提供单个干净的提交事件，因此它们可以用作Fusion自动化的触发器。 Fusion场景可以检测表单提交并立即在Workfront中生成链接项目。
 

@@ -6,9 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: d60123df6e18025a886809fa390137bdf9287e6e
+exl-id: af1a54ea-1717-45fa-bb94-55774eb28f28
+source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
 workflow-type: tm+mt
-source-wordcount: '2014'
+source-wordcount: '2017'
 ht-degree: 0%
 
 ---
@@ -146,7 +147,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->该功能已从预览和生产环境中暂时删除。
+>2026年1月20日至2月17日，该功能暂时从预览和生产环境中移除。
 
 >[!NOTE]
 >
@@ -300,9 +301,3 @@ ht-degree: 0%
 * 选择值以小写显示，在多词选择的情况下使用下划线分隔。 如果您使用已用作同一字段的另一个选择名称的标签，Workfront会向该值添加一个序列号。
 
 有关信息，请参阅[创建字段](/help/quicksilver/planning/fields/create-fields.md)。
-
-
-
-
-
-

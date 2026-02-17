@@ -3,13 +3,13 @@ title: Adobe Workfront计划免费试用版快速入门
 description: Adobe Workfront提供Adobe Workfront Planning的60天免费试用。 这次试用让您有机会了解Planning如何将大局战略与日常工作联系起来，从而使其实现。 Planning提供了营销生命周期的集中可视性，实现了跨团队更好的协作、实时活动跟踪和自动化工作流。 您可以创建自定义工作区，并使用交互式时间表和日历将工作可视化。 通过此次试用，您将亲眼看到Planning如何帮助日常工作与战略目标保持一致、简化执行并为您的组织带来可衡量的结果。
 hidefromtoc: true
 hide: true
-source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
+exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
+source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1290'
 ht-degree: 1%
 
 ---
-
 
 <!--add at release to the metadata:
 author: Alina
@@ -154,6 +154,12 @@ Adobe Workfront Planning可集中查看您的营销生命周期，从而改善�
 
       有关使用Workfront Planning的最佳实践，请参阅[Adobe Workfront Planning最佳实践](/help/quicksilver/planning/general/planning-best-practices.md)。
 
+## 有关Workfront规划的其他信息
+
+有关Workfront Planning的一般信息，请参阅[Adobe Workfront Planning入门](/help/quicksilver/planning/general/planning-overview.md)。
+
+有关如何实施Workfront Planning的最佳实践，请参阅[Adobe Workfront Planning最佳实践：文章索引](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md)。
+
 ## 免费试用期间的Workfront Planning数据权限
 
 * **2026年3月2日至5月1日期间**：
@@ -169,7 +175,3 @@ Adobe Workfront Planning可集中查看您的营销生命周期，从而改善�
 * **在2026年5月1日之后：**
 
   您系统中的所有用户都已删除对Workfront Planning的访问权限，Workfront可保护您的数据。
-
-
-
-
