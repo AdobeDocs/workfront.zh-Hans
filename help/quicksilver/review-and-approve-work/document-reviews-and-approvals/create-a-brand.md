@@ -6,9 +6,10 @@ description: 为AI审阅者设置品牌
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: cd2a5560fdf446e8e971afcb640af38b4d301d40
+exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
+source-git-commit: 07b401c70dfd209d13c34cf62844f334f3260af1
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '429'
 ht-degree: 5%
 
 ---
@@ -31,7 +32,7 @@ AI审阅者使用品牌准则在审阅过程中评估内容。 您可以通过�
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 包</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -42,11 +43,17 @@ AI审阅者使用品牌准则在审阅过程中评估内容。 您可以通过�
    <td> <p>您必须是系统管理员。</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Admin Console权限</td> 
-   <td> <p>您必须安装GenStudio Brand Manager。</p></td> 
+   <td role="rowheader">Admin Console权限*</td> 
+   <td> <p>您必须安装GenStudio Brand Manager。</p>
+    <p>注意：要选择GenStudio Brand Manager，您必须按照<a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/configure-brand-permissions">分配品牌权限</a>中概述的步骤操作。</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
+
+
+
+
 
 有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
@@ -60,6 +67,7 @@ AI审阅者使用品牌准则在审阅过程中评估内容。 您可以通过�
 * 您的组织必须具有GenStudio Foundation。
 * Adobe必须有一个已签署的Adobe Gen AI协议文件。
 有关签署协议的更多信息，请参阅[签署Adobe Gen AI协议](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)。
+
 
 ## 使用PDF创建品牌
 
