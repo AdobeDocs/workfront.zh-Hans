@@ -5,9 +5,9 @@ description: 可以通过输入提示或提供文档来使用AI自动填写请�
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 8e04117c08985f3ad5de86e4a08cb4aa53ac7706
+source-git-commit: 8dc094718999af291443bd1a703cdc742d13f57e
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1374'
 ht-degree: 3%
 
 ---
@@ -73,8 +73,11 @@ AI表单填写可以帮助您根据输入的提示自动填写请求字段。 �
 
 * AI表单填写不会覆盖您已填写的任何字段。
 * 用户不会收到他们无权访问的数据建议。
-* 您在由AI提供支持的Form Fill中使用的文件将上传到Azure存储，并持续加载24小时。 这是文档处理所必需的。
-* 当前上载到Azure的所有文件都存储在US Azure群集中，存储时间为24小时。
+
+<!--
+* Files that you use in Form Fill powered by AI are uploaded to Azure storage for 24 hours. This is necessary for document processing. 
+* All files uploaded to Azure are currently stored in US Azure clusters for the 24 hour storage window. 
+-->
 
 ## 从文本提示获取建议
 
