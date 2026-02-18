@@ -7,9 +7,9 @@ author: Alina
 feature: Projects, Work Management
 role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 93db334537b5ec12dc0c77d51f8b2d83d8348f3d
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '751'
 ht-degree: 7%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td> <p>Adobe Workfront 包</p> </td>  
-   <td>任何</td> 
+   <td>“任一”</td> 
   </tr> 
   <tr> 
    <td> <p>Adobe Workfront许可证</p> </td> 
@@ -112,6 +112,10 @@ ht-degree: 7%
  </tbody> 
 </table>-->
 
+## 注意事项
+
+* 复制项目时有5分钟的处理限制。 如果项目附加了大量文档且复制失败，您可能需要删除一些文档并重试。
+
 ## 复制单个项目
 
 复制项目也会将原始项目中的一些信息复制到新项目中。 您还可以指定在复制过程中不应将哪些项复制到新项目。
@@ -148,7 +152,7 @@ ht-degree: 7%
    <p> 取消选择此选项将取消选择所有项。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">任务</td> 
+      <td role="rowheader">分配</td> 
       <td>删除所有项目和任务分配。</td> 
      </tr> 
      <tr> 
