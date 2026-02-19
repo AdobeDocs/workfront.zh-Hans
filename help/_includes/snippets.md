@@ -1,7 +1,7 @@
 ---
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 8fe1b2dc00c7b64b47717a17a51c0124da26d238
 workflow-type: tm+mt
-source-wordcount: '2609'
+source-wordcount: '2644'
 ht-degree: 1%
 
 ---
@@ -68,6 +68,18 @@ ht-degree: 1%
 ## 第1步 — 单击您的个人资料图片 —  {#step1-click-profile-pic}
 
 1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，然后单击配置文件图片旁边的用户名。 或者（如果可用），单击顶部导航区域中的配置文件图片，然后单击&#x200B;**[!UICONTROL Workfront配置文件]**。
+
+## Ultimate工作流注释 {#ultimate-package}
+
+>[!IMPORTANT]
+>
+>您必须具有Workflow Ultimate包才能使用此功能。
+
+## Prime/Ultimate工作流注释 {#prime-or-ultimate-package}
+
+>[!IMPORTANT]
+>
+>要使用此功能，您必须具有工作流Prime或工作流Ultimate包。
 
 <!-- Admin and Setup -->
 
