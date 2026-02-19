@@ -6,16 +6,24 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: e95ca8a2-6261-4f04-8c7c-1a0bfb1925f3
-source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
+source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1080'
 ht-degree: 0%
 
 ---
 
 # 构建营销日历：无平台，只需清晰明了
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>本文中的信息介绍了Adobe Workfront Planning，它是Adobe Workfront的一项附加功能。
+>
+>您的组织必须具有Workfront Planning Prime或更高版本包，才能支持本文中推荐的功能。
+>
+>有关访问Workfront Planning的要求列表，请参阅[Adobe Workfront Planning访问概述](/help/quicksilver/planning/access/access-overview.md)。
+> 
+>有关Workfront Planning的一般信息，请参阅[Adobe Workfront Planning入门](/help/quicksilver/planning/general/planning-overview.md)。
 
 每周，营销团队都会损失一整天的报告，而不是战略或创意工作。
 

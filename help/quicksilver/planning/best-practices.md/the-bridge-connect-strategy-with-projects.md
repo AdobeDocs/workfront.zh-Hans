@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 567ab223-b282-4b98-9655-7b9766fba869
-source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
+source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1156'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,15 @@ ht-degree: 0%
 
 # 搭建桥梁：将战略意图与项目联系起来
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>本文中的信息介绍了Adobe Workfront Planning，它是Adobe Workfront的一项附加功能。
+>
+>您的组织必须具有Workfront Planning Prime或更高版本包，才能支持本文中推荐的功能。
+>
+>有关访问Workfront Planning的要求列表，请参阅[Adobe Workfront Planning访问概述](/help/quicksilver/planning/access/access-overview.md)。
+> 
+>有关Workfront Planning的一般信息，请参阅[Adobe Workfront Planning入门](/help/quicksilver/planning/general/planning-overview.md)。
 
 了解如何在Adobe Workfront Planning中的高级计划与Workfront中的日常执行之间创建战略线程。 您可以使用连接在策略和执行之间构建桥梁。
 
@@ -95,7 +103,7 @@ ht-degree: 0%
 
 此方法需要Adobe Workfront Fusion的许可证。
 
-有关详细信息，请参阅[设置和管理Workfront Fusion：文章索引](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc)。
+有关详细信息，请参阅[设置和管理Workfront Fusion：文章索引](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc)。
 
 * **使用提交触发器：**&#x200B;由于表单提供单个干净的提交事件，因此它们可以用作Fusion自动化的触发器。 Fusion场景可以检测表单提交并立即在Workfront中生成链接项目。
 

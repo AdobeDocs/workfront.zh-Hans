@@ -6,16 +6,24 @@ role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 90b0e019-1b42-4ab2-8b4c-69f85e4c4d78
-source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
+source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
 
 # 推出您的战略主页：30天的启动台
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>本文中的信息介绍了Adobe Workfront Planning，它是Adobe Workfront的一项附加功能。
+>
+>您的组织必须具有Workfront Planning Prime或更高版本包，才能支持本文中推荐的功能。
+>
+>有关访问Workfront Planning的要求列表，请参阅[Adobe Workfront Planning访问概述](/help/quicksilver/planning/access/access-overview.md)。
+> 
+>有关Workfront Planning的一般信息，请参阅[Adobe Workfront Planning入门](/help/quicksilver/planning/general/planning-overview.md)。
 
 使用本指南了解如何推出Adobe Workfront Planning来设计优先考虑心理安全、尽量减少中断并提供快速入选的策略。
 
