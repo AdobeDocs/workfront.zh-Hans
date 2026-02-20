@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 54df36b3-01a3-4fd3-b2d3-64ffb2fe5918
-source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
-source-wordcount: '2549'
+source-wordcount: '2574'
 ht-degree: 0%
 
 ---
@@ -91,6 +91,8 @@ ht-degree: 0%
 
 * **规则**：这些字段已共享且是必填字段。
 
+有关信息，请参阅[跨工作区记录类型概述](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)。
+
 ### 当地游乐场（或“辐条”）
 
 以下是当地游乐场的特点
@@ -171,6 +173,8 @@ ht-degree: 0%
 * **级别2：模式识别**：管理员注意到团队B和C正在使用或请求类似的字段。
 
 * **级别3：企业标准化**：管理员在全局分类Workspace中创建该字段的单个标准化版本作为记录类型并将其联合到团队。
+
+  有关信息，请参阅[跨工作区记录类型概述](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)。
 
 ### 如何停用字段
 
@@ -334,6 +338,8 @@ ht-degree: 0%
 * [ ] **授予全局可见性**：在第1天授予他们对相关主工作区和全局分类工作区的只读访问权限。
 
 * [ ] **建立移交**：其工作如何馈送相关的主工作区？ 例如，他们的工作可能通过全局记录类型或特定查找字段进入相关的主工作区。
+
+  有关全局记录类型的信息，请参阅[跨工作区记录类型概述](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)。
 
 <!--original content: 
 

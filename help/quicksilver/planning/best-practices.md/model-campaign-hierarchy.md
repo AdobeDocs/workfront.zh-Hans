@@ -6,9 +6,9 @@ role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 02e3b55f-9188-42bf-8d0b-c9fed86c63c4
-source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1541'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,11 @@ ht-degree: 0%
 
 您必须首先为全局分类建立一个集中式工作区，以定义组织中每个人都必须了解的主要概念。 例如，在中央工作区中创建以下记录类型：品牌、地区、产品、角色。
 
-有关信息，请参阅[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)。
+有关信息，请参阅：
+
+* [创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)
+
+* [跨工作区记录类型概述](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 
 在创建分类时建立以下内容：
 

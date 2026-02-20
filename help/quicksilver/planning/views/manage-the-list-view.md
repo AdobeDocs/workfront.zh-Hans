@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
-source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
@@ -93,6 +93,8 @@ ht-degree: 0%
 
    “连接的记录”页面在列表视图中显示与记录连接的项目。
 
+   <!--add new screen shot when they release Row colors/ special formatting for rows-->
+
    ![列表视图中已连接记录页上的项目](assets/projects-on-connected-records-page-list-view.png)
 
 1. （可选）执行以下操作之一以修改列表视图：
@@ -108,10 +110,12 @@ ht-degree: 0%
 
       >[!NOTE]
       >
-      >您必须对视图具有管理权限才能编辑、共享或删除该视图。
+      >* 您必须对视图具有管理权限才能编辑、共享或删除该视图。
       >
-      >不能修改系统视图。
+      >* 不能修改系统视图。
       >
+      <!--* <span class="preview">You can reset a view that was shared with you after you modified it to restore its original preferences, or you can copy it with your changes and share the copy. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+        -->
    1. 单击&#x200B;**筛选器**&#x200B;图标![筛选器图标](assets/filter-icon.png)将筛选器添加到视图。 结果会立即在列表中过滤。 您无法保存并命名筛选器。 在将来的访问页面时，将会记住过滤器，并且这些过滤器是共享视图的一部分。
    1. 单击&#x200B;**列**&#x200B;图标![列图标](assets/columns-icon.png)以选择要显示或隐藏的列。
    1. 将鼠标悬停在列名上，单击该列名左侧的向下箭头，然后单击下列选项之一：
@@ -123,7 +127,30 @@ ht-degree: 0%
 
       您只能将现有字段添加到列表视图。
 不能删除第一列中显示的列表视图中的主字段。
+
+
+   <!--
+    1. <span class="preview">Click **Row colors** <!-insert icon and edit the name of the icon if they changed it->. The **Format** box opens. <!-change the name of the box when they update it-></span>
+        <span class="preview">Do the following: </span>
+        <div class="preview">
+        1. Define the formatting conditions in the **If** area by clicking **Add condition**, then select a field you want to format by and choose a field value. 
+            >[!TIP]
+            >
+            >Only field visible in the list view are available for conditional formatting.
+        1. (Optional) Click **Add condition** in the If area to add more conditions. 
+        1. Click the **Or** connector between conditions to change to **And**. **Or** is the default connector.  
+        1. In the **Format** area, select a field to indicate which column will be formatted. <!-edit this area, if it changes names???->
+        1. Click on the color circle to expand and choose another color.
+        1. Turn on the **Apply to row** setting to apply the formatting to the entire row that meets the conditions. 
+        1. (Optional) Click **Clear all** to remove all formatting.
+            The formatting is applies immediately.
+        1. Click outside the **Format** box to close it. 
+            This returns you to the list view. There is a blue dot next to the **Row colors** icon to indicate that the view has special formatting applied. <!-might need to edit the icon name and get a screen shot of the icon with the dot and insert it here->
+        </div>
+    -->
+
 1. （可选）在列表右上角的搜索框中添加关键字以搜索项目。
+
 
    与搜索词匹配的项目会在列表中突出显示。
 1. （可选）要将更多项添加到列表并自动将它们连接到所选记录，请执行下列操作之一：

@@ -6,9 +6,9 @@ role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 90b0e019-1b42-4ab2-8b4c-69f85e4c4d78
-source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1310'
 ht-degree: 0%
 
 ---
@@ -79,6 +79,8 @@ ht-degree: 0%
 通过这种团队优先的架构，您可以：
 
 * **设计中心以支持分支：**&#x200B;您可以将全局分类工作区专门集中在对您的试点团队最重要的对象（其特定的品牌或产品）上。 这加强了企业治理和团队自主性之间的协作握手，同时使设计工作保持在可控范围内。
+
+  有关信息，请参阅[跨工作区记录类型概述](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)。
 
 * **充当启用者，而不是守护者：**&#x200B;将您的角色从规则设置转移到功能构建。 与团队合作构建规划环境。
 
