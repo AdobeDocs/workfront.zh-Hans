@@ -6,7 +6,7 @@ description: 您可以通过调整浏览器上的语言首选项以及Adobe Work
 feature: Get Started with Workfront
 author: Becky
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 976cfce04c2dd4526265f9427007b97a768c8d6a
 workflow-type: tm+mt
 source-wordcount: '1137'
 ht-degree: 0%
@@ -26,11 +26,11 @@ Workfront支持以下语言：
 * 英语(en-US)
 * 法语(fr-FR)
 * 德语(de-DE)
-* 日语(ja)
-* 西班牙语(es)
-* 意大利语(it_IT)
+* 日语(ja-JP)
+* 西班牙语(es-ES)
+* 意大利语(it-IT)
 * 葡萄牙语(pt-BR)
-* 韩语(ko)
+* 韩语(ko-KR)
 * 中文 — 简体(zh-CN)
 * 繁体中文(zh-TW)
 
@@ -92,7 +92,7 @@ Workfront中的Web验证查看器支持Workfront支持的大多数语言。
 * Workfront Fusion不支持在用户输入的字段中使用非英语文本字符。
 
 贵公司必须购买Workfront Fusion许可证才能访问Workfront Fusion。\
-有关Workfront Fusion的详细信息，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+有关Workfront Fusion的详细信息，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 ## 更改语言
 
