@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: 0f2923851230e830eb647d422f2862a0c5d5472b
 workflow-type: tm+mt
-source-wordcount: '1505'
-ht-degree: 6%
+source-wordcount: '1468'
+ht-degree: 7%
 
 ---
 
@@ -30,17 +30,17 @@ ht-degree: 6%
 >
 >我们强烈建议您保持内置访问级别不变，以便在设置用户后可以参考这些级别。 要自定义访问级别，请复制默认访问级别并修改副本。 您可以对每个访问级别（系统管理员和外部用户除外）执行此操作。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td>任何</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td>“任一”</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -63,21 +63,11 @@ ht-degree: 6%
 {{step-1-to-setup}}
 
 1. 单击左侧面板中的&#x200B;**访问级别**。
-1. &#x200B;
-   * 在生产环境中：
-选择要复制和自定义的访问级别，然后单击&#x200B;**复制**。
+1. 选择要复制和自定义的访问级别，然后单击&#x200B;**复制**&#x200B;图标![复制图标](assets/copy-icon.png)。
 
-     或
+   或
 
-     如果您正在编辑现有的访问级别（您之前复制过的），请单击其名称。
-
-   * 在预览环境中<span class="preview">：</span>
-
-     <span class="preview">选择要复制和自定义的访问级别，然后单击&#x200B;**复制**&#x200B;图标![复制图标](assets/copy-icon.png)。</span>
-
-     <span class="preview">或</span>
-
-     <span class="preview">如果您正在编辑现有的访问级别，请通过单击该访问级别左侧的框选择访问级别，然后单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。</span>
+   如果您正在编辑现有的访问级别，请通过单击该访问级别左侧的框选择访问级别，然后单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
 
 1. 在显示的框中，执行以下任一操作以开始配置自定义访问级别：
 
