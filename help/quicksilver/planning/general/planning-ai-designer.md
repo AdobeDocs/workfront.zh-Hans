@@ -6,7 +6,7 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
-source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
+source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
 workflow-type: tm+mt
 source-wordcount: '1470'
 ht-degree: 0%
@@ -137,6 +137,8 @@ ht-degree: 0%
 
 * 创建和配置工作区
 
+<!--On March 2: * Edit workspaces-->
+
 * 创建记录类型，包括定义全局记录类型并将其添加到工作区
 
 * 设计字段或公式字段
@@ -178,7 +180,7 @@ ht-degree: 0%
 
    ![“工作区”页面上的“使用AI设计”按钮](assets/design-with-ai-button-on-workspaces-page.png)
 
-1. 单击&#x200B;**使用AI创建**。<!--update this when they change it-->
+1. 单击&#x200B;**使用AI创建**。<!--update this when they change it to Generate with AI-->
 
    将打开&#x200B;**计划Designer**&#x200B;窗口。<!--remove the Beta tag here when this removes from Beta-->
 
@@ -225,6 +227,12 @@ ht-degree: 0%
 1. 单击&#x200B;**在新选项卡中打开工作区** ![在新选项卡中打开工作区](assets/open-workspace-on-new-tab-icon.png)以在新选项卡中打开要更新的工作区。
 1. 单击&#x200B;**关闭**&#x200B;图标&#x200B;**X**&#x200B;以关闭Planning Designer并打开“工作区”区域。
 1. 打开使用Planning Designer编辑的工作区，然后对其对象进行进一步更改。
+
+<!-- for March 2 -- replace the last step with this: 
+1. (Optional) To edit a workspace, do one of the following:
+
+    * Open the workspace and manually make changes to it. For information, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md). 
+    * Click **Edit with AI**. This opens the Planning Designer. Repeat the steps above to use AI and make further changes to the workspace.-->
 
 ## 为您的组织关闭Planing Designer
 
