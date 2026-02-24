@@ -5,16 +5,24 @@ title: 在请求区域创建和管理视图
 description: 如果您使用的是新的请求体验，则可以创建和保存请求区域的视图。
 author: Becky
 feature: Work Management
-source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
+exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
+source-git-commit: 8db8382d63d06c23f93a74a326ddb0e1227f44c8
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '689'
 ht-degree: 3%
 
 ---
 
+
 # 在请求区域创建和管理视图
 
-如果您使用的是新的请求体验，则可以创建和保存请求区域的视图。 这些视图包括筛选器和列安排。
+<!--
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
+-->
+
+如果您使用的是新的请求体验，则可以创建和保存请求区域的视图。 这些视图包括筛选器和列安排。<!--<span class="preview"> and groupings.</span> -->
 
 可以在Workfront的“请求”区域创建和管理视图。
 
@@ -35,7 +43,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 包</td> 
-   <td> <p>任何 </p> </td> 
+   <td> <p>“任一” </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -58,7 +66,7 @@ ht-degree: 3%
 
 +++
 
-## 在请求区域创建视图
+## 创建请求视图
 
 您可以在Workfront的请求区域中创建视图。
 
@@ -73,7 +81,7 @@ ht-degree: 3%
 1. 输入新视图的名称，然后单击&#x200B;**创建**。
 1. 继续[在请求区域](#edit-a-view-in-the-requests-area)中编辑视图。
 
-## 在请求区域中编辑视图
+## 编辑请求视图
 
 您可以编辑现有视图，包括刚刚创建的视图。
 
@@ -106,10 +114,14 @@ ht-degree: 3%
 
    您还可以按已添加到视图的任何自定义字段进行筛选。
 
-   您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的筛选器。
+   您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**加入的筛选器。
 在添加筛选条件时，将自动筛选请求列表。
 
 
+<!--
+1. <Span class="preview">(Optional) Click **Group** and select the column that you want to group by.</span>
+
+-->
 
 >[!IMPORTANT]
 >
@@ -136,4 +148,3 @@ Workfront管理员可以将新视图添加到布局模板。
 1. 选择&#x200B;**共享**。
 1. 在打开的对话框中，输入要与其共享视图的用户、团队或组的名称，然后在它们出现时从列表中选择它们。
 1. 单击&#x200B;**保存**。
-
