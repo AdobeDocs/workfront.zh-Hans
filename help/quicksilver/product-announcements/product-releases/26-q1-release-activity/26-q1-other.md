@@ -4,9 +4,10 @@ description: 2026年第一季度发布时间框架内的其他增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d3db97d2b36bdba955d8cbf6a9bd784dff5a440c
+exl-id: 42fe3f53-6f83-4769-aaa6-953875cdfb7d
+source-git-commit: 58a04a3c2eb9d0db195f89391e607c3061f2d784
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -15,7 +16,13 @@ ht-degree: 0%
 
 本页介绍了在2026年第一季度发布中对“预览”环境所做的增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+有关2026年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2026年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+
+## 事件订阅现在支持筛选条件
+
+事件订阅现在支持筛选器组以及独立筛选器，以支持嵌套逻辑条件。 公共文档需要更新以反映新的更改。
+
+有关详细信息，请参阅文章事件订阅API中的[使用筛选器组](/help/quicksilver/wf-api/general/event-subs-api.md#using-filter-groups)。
 
 
 ## 多选字段的选择限制

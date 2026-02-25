@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 159c3b4a3627e29123afd96115e965d3bba8329c
+source-git-commit: 3afa0fbfb8a82a7dc1a2e9c65d04aa1be7b6f1f8
 workflow-type: tm+mt
-source-wordcount: '3387'
+source-wordcount: '3190'
 ht-degree: 5%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 5%
 
 列入允许列表要通过防火墙接收事件订阅负载，必须将以下IP地址添加到您的：
 
-对于欧洲的客户：**&#x200B;**
+对于欧洲的客户：****
 
 * 52.30.133.50
 * 52.208.159.124
@@ -919,92 +919,6 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 "filterConnector": 'AND'
 ```
 
-### 使用过滤器组（组合过滤器）
-
-事件订阅支持筛选器组以及标准筛选器，以支持嵌套逻辑条件。
-
-过滤器组允许您在事件订阅过滤器中创建嵌套逻辑条件(AND/OR)。
-
-每个筛选器组可以具有：
-
-* 自己的连接器： `AND`或`OR`
-* 多个过滤器，每个过滤器遵循与独立过滤器相同的语法和行为
-
-组内的所有过滤器支持：
-
-* 比较运算符： `eq`、`ne`、`gt`、`gte`、`lt`、`lte`、`contains`、`notContains`、`containsOnly`、`changed`
-* 状态选项： `newState`，`oldState`
-* 字段定位：任何有效的对象字段名称
-
-组必须至少包含2个过滤器
-
-```
-{
-  "objCode": "TASK",
-  "eventType": "UPDATE",
-  "authToken": "token",
-  "url": "https://domain-for-subscription.com/API/endpoint/UpdatedTasks",
-  "filters": [
-    {
-      "fieldName": "percentComplete",
-      "fieldValue": "100",
-      "comparison": "lt"
-    },
-    {
-      "type": "group",
-      "connector": "OR",
-      "filters": [
-        {
-          "fieldName": "status",
-          "fieldValue": "CUR",
-          "comparison": "eq"
-        },
-        {
-          "fieldName": "priority",
-          "fieldValue": "1",
-          "comparison": "eq"
-        }
-      ]
-    }
-  ],
-  "filterConnector": "AND"
-}
-```
-
-此示例显示：
-
-
-* 顶级过滤器（组外）：
-
-  { &quot;`fieldName`&quot;： &quot;`percentComplete`&quot;， &quot;`fieldValue`&quot;： &quot;`100`&quot;， &quot;`comparison`&quot;： &quot;`lt`&quot; }
-
-  此筛选器检查更新任务的percentComplete字段是否小于100。
-
-* 筛选器组（具有`OR`的嵌套筛选器）：
-
-  { &quot;`type`&quot;： &quot;`group`&quot;， &quot;`connector`&quot;： &quot;`OR`&quot;， &quot;`filters`&quot;： [{ &quot;`fieldName`&quot;： &quot;`status`&quot;， &quot;`fieldValue`&quot;： &quot;`CUR`&quot;， &quot;`comparison`&quot;： &quot;`eq`&quot; }， { &quot;`fieldName`&quot;： &quot;`priority`&quot;， &quot;`fieldValue`&quot;： &quot;`1`&quot;， &quot;`comparison`&quot;： &quot;`eq`&quot; }] }
-
-  此组评估两个内部筛选器：
-
-   * 第一个检查任务状态是否等于“CUR”（当前）。
-
-   * 第二个检查优先级是否等于“1”（高优先级）。
-
-  由于连接器为“OR”，因此如果任一条件为true，则此组将通过。
-
-* 顶级连接器(filterConnector： `AND`)：
-
-  顶级过滤器之间的最外部连接器为`AND`。
-
-  这意味着顶级过滤器和组都必须通过，事件才能匹配。
-
-* 订阅在以下情况下触发：
-
-  percentComplete小于100
-
-  和
-
-  状态为“CUR”或优先级等于“1”。
 
 #### 性能和限制
 
