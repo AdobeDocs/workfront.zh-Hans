@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 0fd415767680d877c9dd1de448f7903e6616d155
+source-git-commit: 159c3b4a3627e29123afd96115e965d3bba8329c
 workflow-type: tm+mt
-source-wordcount: '3097'
-ht-degree: 3%
+source-wordcount: '3387'
+ht-degree: 5%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 3%
 
 列入允许列表要通过防火墙接收事件订阅负载，必须将以下IP地址添加到您的：
 
-对于欧洲的客户：**&#x200B;**
+对于欧洲的客户：****
 
 * 52.30.133.50
 * 52.208.159.124
@@ -56,23 +56,23 @@ ht-degree: 3%
 * 审批
 * 审批阶段
 * 审批阶段参与者
-* 任务分配
+* 任务
 * 公司
-* 功能板
+* 仪表板
 * 文档
 * 文档版本
 * 费用
 * 字段
-* Hour
+* 小时
 * 问题
 * 注释
-* 组合
+* 项目组合
 * 项目群
 * 项目
 * 校样审批
 * 记录
 * 记录类型
-* 报表
+* 报告
 * 人员配置计划
 * 人员配备计划参数值
 * 人员配置计划资源
@@ -100,7 +100,7 @@ ht-degree: 3%
 
 ## 避免使事件订阅过载
 
-事件订阅服务旨在为所有用户提供可靠的事件交付。 为确保这一点，已实施保护措施以防止单个用户产生过多事件，这可能会对所有用户造成潜在服务质量问题。 因此，在短时间内以高速率生成过多事件的用户可能会遇到沙箱处理和事件投放延迟的情况。
+事件订阅服务旨在为所有用户提供可靠的事件交付。 为此，系统已引入防护机制，以防止单个用户在短时间内产生过多事件，从而可能对所有用户的服务质量造成影响。因此，如果某位用户在短时间内以较高频率生成大量事件，可能会被隔离到沙盒环境，并出现事件投递延迟。
 
 ## 形成订阅资源
 
@@ -137,7 +137,7 @@ ht-degree: 3%
         <td scope="col"><p>approval_stage_participant</p></td> 
        </tr> 
        <tr> 
-        <td scope="col">任务分配</td> 
+        <td scope="col">任务</td> 
         <td scope="col"><p>分配</p></td> 
        </tr> 
        <tr> 
@@ -145,7 +145,7 @@ ht-degree: 3%
         <td scope="col"><p>CMPY</p></td> 
        </tr> 
        <tr> 
-        <td scope="col">功能板</td> 
+        <td scope="col">仪表板</td> 
         <td scope="col">PTLTAB</td> 
        </tr> 
        <tr> 
@@ -165,7 +165,7 @@ ht-degree: 3%
         <td scope="col"><p>字段</p></td> 
        </tr> 
       <tr> 
-        <td scope="col"><p>Hour</p></td> 
+        <td scope="col"><p>小时</p></td> 
         <td scope="col">HOUR</td> 
        </tr> 
        <tr> 
@@ -177,7 +177,7 @@ ht-degree: 3%
         <td scope="col">注释</td> 
        </tr> 
        <tr> 
-        <td scope="col"><p>组合</p></td> 
+        <td scope="col"><p>项目组合</p></td> 
         <td scope="col"><p>端口</p></td> 
        </tr> 
        <tr> 
@@ -201,7 +201,7 @@ ht-degree: 3%
         <td scope="col"><p>记录类型</p></td> 
        </tr> 
        <tr> 
-        <td scope="col"><p>报表</p></td> 
+        <td scope="col"><p>报告</p></td> 
         <td scope="col"><p>PTLSEC</p></td> 
        </tr> 
        <tr> 
@@ -287,7 +287,7 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
  <col> 
  <thead> 
   <tr> 
-   <th> <p>标题名称</p> </th> 
+   <th> <p>标头名称</p> </th> 
    <th> <p>标头值</p> </th> 
   </tr> 
  </thead> 
@@ -375,7 +375,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
  <col> 
  <thead> 
   <tr> 
-   <th> <p>标题名称</p> </th> 
+   <th> <p>标头名称</p> </th> 
    <th> <p>标头值</p> </th> 
   </tr> 
  </thead> 
@@ -457,7 +457,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
  <col> 
  <thead> 
   <tr> 
-   <th> <p>标题名称</p> </th> 
+   <th> <p>标头名称</p> </th> 
    <th> <p>标头值</p> </th> 
   </tr> 
  </thead> 
@@ -877,7 +877,7 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 
 ### 使用嵌套筛选器
 
-事件订阅支持使用嵌套字段名称对事件的嵌套字段进行筛选。 例如，要筛选其中`newState.data.customField1 = 'myCustomeFieldValue'`的消息，可以创建以下带筛选器的订阅：
+事件订阅支持使用嵌套字段名称对事件的嵌套字段进行筛选。 例如，要筛选其中`newState.data.customField1 = 'myCustomFieldValue'`的消息，可以创建以下带筛选器的订阅：
 
 ```
 {
@@ -918,6 +918,103 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 ],
 "filterConnector": 'AND'
 ```
+
+### 使用过滤器组（组合过滤器）
+
+事件订阅支持筛选器组以及标准筛选器，以支持嵌套逻辑条件。
+
+过滤器组允许您在事件订阅过滤器中创建嵌套逻辑条件(AND/OR)。
+
+每个筛选器组可以具有：
+
+* 自己的连接器： `AND`或`OR`
+* 多个过滤器，每个过滤器遵循与独立过滤器相同的语法和行为
+
+组内的所有过滤器支持：
+
+* 比较运算符： `eq`、`ne`、`gt`、`gte`、`lt`、`lte`、`contains`、`notContains`、`containsOnly`、`changed`
+* 状态选项： `newState`，`oldState`
+* 字段定位：任何有效的对象字段名称
+
+组必须至少包含2个过滤器
+
+```
+{
+  "objCode": "TASK",
+  "eventType": "UPDATE",
+  "authToken": "token",
+  "url": "https://domain-for-subscription.com/API/endpoint/UpdatedTasks",
+  "filters": [
+    {
+      "fieldName": "percentComplete",
+      "fieldValue": "100",
+      "comparison": "lt"
+    },
+    {
+      "type": "group",
+      "connector": "OR",
+      "filters": [
+        {
+          "fieldName": "status",
+          "fieldValue": "CUR",
+          "comparison": "eq"
+        },
+        {
+          "fieldName": "priority",
+          "fieldValue": "1",
+          "comparison": "eq"
+        }
+      ]
+    }
+  ],
+  "filterConnector": "AND"
+}
+```
+
+此示例显示：
+
+
+* 顶级过滤器（组外）：
+
+  { &quot;`fieldName`&quot;： &quot;`percentComplete`&quot;， &quot;`fieldValue`&quot;： &quot;`100`&quot;， &quot;`comparison`&quot;： &quot;`lt`&quot; }
+
+  此筛选器检查更新任务的percentComplete字段是否小于100。
+
+* 筛选器组（具有`OR`的嵌套筛选器）：
+
+  { &quot;`type`&quot;： &quot;`group`&quot;， &quot;`connector`&quot;： &quot;`OR`&quot;， &quot;`filters`&quot;： [{ &quot;`fieldName`&quot;： &quot;`status`&quot;， &quot;`fieldValue`&quot;： &quot;`CUR`&quot;， &quot;`comparison`&quot;： &quot;`eq`&quot; }， { &quot;`fieldName`&quot;： &quot;`priority`&quot;， &quot;`fieldValue`&quot;： &quot;`1`&quot;， &quot;`comparison`&quot;： &quot;`eq`&quot; }] }
+
+  此组评估两个内部筛选器：
+
+   * 第一个检查任务状态是否等于“CUR”（当前）。
+
+   * 第二个检查优先级是否等于“1”（高优先级）。
+
+  由于连接器为“OR”，因此如果任一条件为true，则此组将通过。
+
+* 顶级连接器(filterConnector： `AND`)：
+
+  顶级过滤器之间的最外部连接器为`AND`。
+
+  这意味着顶级过滤器和组都必须通过，事件才能匹配。
+
+* 订阅在以下情况下触发：
+
+  percentComplete小于100
+
+  和
+
+  状态为“CUR”或优先级等于“1”。
+
+#### 性能和限制
+
+为确保一致的性能和可维护性：
+
+* 每个订阅最多支持10个过滤器组（每个组包含多个过滤器）。
+* 每个过滤器组最多可以包含5个过滤器，以防止在事件处理期间性能潜在的下降。
+* 虽然支持最多10个过滤器组（每个有5个过滤器），但请注意，具有复杂过滤器逻辑的大量活动订阅可能会导致事件评估期间的延迟。
+
+如果您发现自己超出了这些限制，请考虑简化逻辑或将订阅拆分为多个较小的订阅。
 
 ### 使用连接器字段
 
@@ -1048,7 +1145,7 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
  <col> 
  <thead> 
   <tr> 
-   <th> <p>标题名称</p> </th> 
+   <th> <p>标头名称</p> </th> 
    <th> <p>标头值</p> </th> 
   </tr> 
  </thead> 
@@ -1295,7 +1392,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
  <col> 
  <thead> 
   <tr> 
-   <th> <p>标题名称</p> </th> 
+   <th> <p>标头名称</p> </th> 
    <th> <p>标头值</p> </th> 
   </tr> 
  </thead> 

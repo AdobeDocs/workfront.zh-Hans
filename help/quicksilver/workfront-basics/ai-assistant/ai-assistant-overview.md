@@ -5,7 +5,7 @@ description: 了解Adobe Workfront中的AI助手
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+source-git-commit: e8e10f02f77f6c1df9f0af380eb16cc6bbc3b5d1
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 1%
@@ -151,7 +151,7 @@ AI助手当前提供以下功能：
 输入提示时，请包含短语`using (keyword)`。
 
 | 关键词 | 效果 |
-|---|---|
+| --- | --- | 
 | `workfront` | 与Workfront交互。 |
 | `planning` | 与Workfront Planning交互。 |
 | `help` | 从Experience League文档返回信息。 |
