@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
-source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
+source-git-commit: bddf24f667f0538786caf0b19af75d0adf99da91
 workflow-type: tm+mt
 source-wordcount: '1600'
 ht-degree: 3%
@@ -169,7 +169,21 @@ ht-degree: 3%
       1. <span class="preview">Choose a field from the drop-down menu. These are fields associated with the record type you selected.</span> 
       1. <span class="preview">Continue defining conditions for the selected field.</span>
       1. <span class="preview">Click **Add condition** to add up to 5 fields and define their condition.</span>
+
+         <span class="preview">You can add any of the following types of fields:</span> 
+
+         <div class="preview">
+
+         * Single-select
+         * Multi-select
+         * Single-line text
+         * Paragraph
+         * Number
+         * Checkbox
+         * Date
          
+         </div>
+
          <span class="preview">Workfront Planning will create objects automatically when the conditions are met. </span>
 
          ![Field value change trigger selected](assets/field-value-change-trigger-selected.png)
@@ -177,6 +191,8 @@ ht-degree: 3%
          >[!TIP]
          >
          ><span class="preview">The modifier in each condition changes with the type of fields you select.</span>
+         >
+         
    
    -->
 
@@ -236,7 +252,7 @@ ht-degree: 3%
         这是必填字段。
 
         <!--submitted a change in functionality and UI text for this - revise??-->
-在&#x200B;**映射字段**&#x200B;区域中，更新以下信息：
+在**映射字段**&#x200B;区域中，更新以下信息：
 
          * **传输自**：从创建自动化的记录类型中选择字段，以将其映射到连接的记录类型的字段。
          * **传输到**：从新创建的记录中选择将使用您运行自动化的记录中的信息填充的字段。

@@ -3,13 +3,13 @@ title: Adobe Planning独立版入门
 description: 本文介绍了如何从使用Adobe Workfront Planning的独立版本中获益。
 hidefromtoc: true
 hide: true
-source-git-commit: 1bed49602d05ade2d6cb6689fc4be0083dcba038
+exl-id: 99ebed04-0440-4990-a122-4d29f73c2201
+source-git-commit: bddf24f667f0538786caf0b19af75d0adf99da91
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
-
 
 <!--Update metadata with this at release:
 
@@ -25,11 +25,13 @@ recommendations: noDisplay, noCatalog
 
 # Adobe Planning独立版入门
 
-本文介绍了如何从使用Adobe Workfront Planning的独立版本中获益。
+<!--I think we will need to delete this folder and just use the Planning existing folder with all capabilities to speak about Planning; then, we'll speak about WF proper as a third party application (like GenS and AEM etc)>
 
-## 贵公司如何获得Adobe Workfront Standalone Planning许可证
+This article describes how you can benefit from using the standalone version of Adobe Workfront Planning.
 
-无论您是否为Adobe Workfront客户，都可以与Adobe客户代表就Workfront Planning Standalone许可证进行交谈。<!--do people HAVE to be WF or Adobe customers at all, or can anyone buy this?-->
+## How your company can acquire an Adobe Workfront Standalone Planning license
+
+Whether you are an Adobe Workfront customer or not, you can speak with your Adobe account representation about a Workfront Planning Standalone license. <!--do people HAVE to be WF or Adobe customers at all, or can anyone buy this?-->
 
 ## 集成版与独立Workfront规划版
 
@@ -48,4 +50,3 @@ recommendations: noDisplay, noCatalog
 ## Workfront Planning独立术语
 
 <!--should we link to the regular Planning terminology? - help/quicksilver/planning/general/planning-overview.md -->
-
