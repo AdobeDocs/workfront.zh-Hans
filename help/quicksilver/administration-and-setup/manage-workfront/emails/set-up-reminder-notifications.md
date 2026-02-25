@@ -5,10 +5,10 @@ author: Alina, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
+source-git-commit: bb9ccfa61fa1a8ef41b0e873d5aa6313803c636d
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 2%
+source-wordcount: '1216'
+ht-degree: 3%
 
 ---
 
@@ -31,17 +31,17 @@ An example of how this can be used would be helpful here and/or in the section <
 
 -->
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td>任何</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td>“任一”</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -100,7 +100,8 @@ An example of how this can be used would be helpful here and/or in the section <
         <ul> 
          <li> <p>满足所有条件后，在指定日期的24小时后开始提醒通知。</p> </li> 
          <li> <p>项目、任务和问题的提醒通知在山地时间的每晚午夜触发。 当天起所有符合提醒通知条件的对象都会在该时间过后不久触发通知给指定用户。</p> </li> 
-         <li> <p>在指定的时间（基于您的时区以及时间表的结束日期、开始日期或上次更新日期）发送时间表的提醒通知。</p> </li> 
+         <li> <p>时间表提醒基于您组织的时区以及时间表的结束日期、开始日期或上次更新日期。 单个用户时区不影响提醒通知的时机。</p> 
+      </li> 
         </ul> </p> </td> 
      </tr> 
      <tr> 
