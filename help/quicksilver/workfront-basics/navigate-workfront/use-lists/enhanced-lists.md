@@ -5,9 +5,9 @@ description: 增强列表使用表格格式来显示列表项，并且它们具�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: 2b01a9b4c697ae814ff894120fcc61df1a461e4e
+source-git-commit: 8e2f41f18b57aca77fd6af905ff8e04486879e39
 workflow-type: tm+mt
-source-wordcount: '2342'
+source-wordcount: '2315'
 ht-degree: 1%
 
 ---
@@ -62,7 +62,8 @@ Adobe Workfront的某些区域提供了增强列表。 这些列表使用表格�
 | 优先次序 | <ul><li>主页>选择左侧菜单中的“优先级”图标</li><li>主菜单>优先级</li></ul> |
 | 请求列表 | <ul><li>请求（仅限新体验）</li><li>主页上的我的请求小组件</li></ul> |
 | “设置”中的状态、优先级、严重程度和汇率列表 | <ul><li>设置>项目首选项>状态</li><li>设置>项目首选项>优先级</li><li>设置>项目首选项>严重程度</li><li>设置>项目首选项>汇率</li></ul> |
-| <span class="preview">报告列表</span> | <span class="preview">主菜单>报告</span> <p><span class="preview">仅在打开&#x200B;**使用可共享文件夹**&#x200B;时应用增强列表格式。 有关信息，请参阅[使用可共享报告文件夹](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md)。</span> |
+
+<!--|<span class="preview">List of reports</span> | <span class="preview">Main Menu &gt; Reports</span> <p><span class="preview">The enhanced list format is only applied when **Use shareable folders** is turned on. For information, see [Use shareable report folders](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md).</span> |-->
 
 ## 将项目添加到增强列表
 
