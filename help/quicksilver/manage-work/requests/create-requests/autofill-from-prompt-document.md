@@ -5,9 +5,9 @@ description: 可以通过输入提示或提供文档来使用AI自动填写请�
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 8dc094718999af291443bd1a703cdc742d13f57e
+source-git-commit: b55cb2df33ebba0d61d4254f17a49f92b7d6553e
 workflow-type: tm+mt
-source-wordcount: '1374'
+source-wordcount: '1391'
 ht-degree: 3%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 3%
 >要使用此功能，您的组织必须满足使用Workfront AI Assistant的要求。 有关详细信息，请参阅[AI助手先决条件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
 
 AI表单填写可以帮助您根据输入的提示自动填写请求字段。 它还可以基于文本填写字段，例如电子邮件和上传的文档。 您可以在提交请求之前批准或拒绝这些建议。
+
+在Workfront请求区域和Workfront Planning中创建请求时，可使用此功能。
 
 ## 访问权限要求
 

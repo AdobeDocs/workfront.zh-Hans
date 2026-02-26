@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+source-git-commit: b55cb2df33ebba0d61d4254f17a49f92b7d6553e
 workflow-type: tm+mt
-source-wordcount: '2200'
+source-wordcount: '2252'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Workfront用户和外部用户可以向Planning记录类型提交请求。 请�
 </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
-   <td><p>任何</p> 
+   <td><p>“任一”</p> 
   </td> 
   </tr> 
   <tr> 
@@ -136,8 +136,8 @@ Workfront用户和外部用户可以向Planning记录类型提交请求。 请�
 
 {{step1-to-requests}}
 
-1. 启用屏幕右上角的&#x200B;**切换到新体验**&#x200B;设置。
-启用此设置可使Workfront计划请求表单在Workfront的&#x200B;**请求**&#x200B;区域中可用。
+1. 启用屏幕右上角的&#x200B;**切换到新体验**设置。
+启用此设置可使Workfront计划请求表单在Workfront的**请求**&#x200B;区域中可用。
 
    >[!TIP]
    >
@@ -154,6 +154,9 @@ Workfront用户和外部用户可以向Planning记录类型提交请求。 请�
 
    此时将打开一个窗口，其中顶部显示请求表单名称。
 1. 更新请求表单中可用的字段。 带有红色星号的字段为必填字段。
+1. （视情况而定）如果贵组织允许使用由AI提供支持的表单填充，则可以将文档作为提示上传。 AI使用这些文档填写表单，您可以接受或拒绝AI建议。
+
+   有关说明，请参阅[使用由AI提供支持的表单填写功能填写提示或文档的请求](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)。
 1. 单击&#x200B;**提交**。
 
    请求表单关闭，您将返回&#x200B;**请求**&#x200B;区域。
@@ -203,7 +206,7 @@ Workfront用户和外部用户可以向Planning记录类型提交请求。 请�
       * **输入者**：添加请求的用户的名称。 如果请求是由Workfront之外的人员添加的，则&#x200B;**输入者**&#x200B;字段显示`N/A`。
       * **已创建对象状态**：已创建记录的状态。
 
-     您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的筛选器。
+     您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**加入的筛选器。
 在添加筛选条件时，将自动筛选请求列表。
 
    * 单击&#x200B;**列**&#x200B;打开&#x200B;**字段可见性和顺序**&#x200B;框，然后隐藏、显示或重新排列请求列表中的列。
