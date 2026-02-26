@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
-source-git-commit: 9160a68653999c35de32dd417b18ea8197ef446f
+source-git-commit: 4c12d32523bcca10962b56d9abd5854e8400ce3f
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 3%
+source-wordcount: '1074'
+ht-degree: 2%
 
 ---
 
@@ -39,7 +39,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Adobe Workfront增强功能
 
 * [管理员增强功能](#administrator-enhancements)
+* [文档增强功能](#document-enhancements)
 * [项目增强功能](#project-enhancements)
+* [报表增强功能](#reporting-enhancements)
+* [请求增强功能](#requesting-enhancements)
 * [其他增强功能](#other-enhancements)
 
 ### 管理员增强功能
@@ -54,6 +57,14 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>预览</strong></td>
         <td><strong>快速发布</strong></td>
         <td><strong>每季度</strong></td>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">默认情况下折叠自定义表单分区</a><p>默认情况下，当窗体本身展开时，自定义窗体上的所有部分都会展开。 自定义表单设计器上的新选项允许您在用户打开表单时将节标记为默认折叠。 此选项在部分级别应用，而不是在字段应用。</p>
+        </td>
+        <td><p>2025年2月26日</p></td>
+        <td><p>2026年3月12日</p></td>
+        <td><p>2026年4月16日</p></td>
+    </tr>
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">富文本字段类型现在可用于自定义表单</a><p>自定义表单中的新<b>富文本</b>字段类型是一个强大的文本编辑器，除了粗体、斜体、下划线、项目符号、编号、超链接和块引号等传统选项外，还具有格式选项，如上标和下标、标题和表格。 字符限制仍为15,000。</p>
@@ -92,6 +103,43 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </tbody>
         </table>
 
+<!--
+
+### Document enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 25%;" />
+            <tbody>
+               <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Multi‑stage approval workflows available for unified approvals</a><p></p>
+            <p>Multi‑stage approval workflows are now available in unified approvals, helping organizations enforce structured, repeatable approval processes that reflect how work is reviewed in the real world. </p>
+        </td>
+        <td><p>February 26, 2025</p></td>
+        <td><p>March 12, 2026</p></td>
+        <td><p>April 16, 2026</p></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Set up and use multi-stage approval workflow templates</a><p></p>
+            <p>You can now configure and reuse multi-stage approval workflow templates, making it easier to apply consistent governance across repeatable approval workflows. </p>
+        </td>
+        <td><p>February 26, 2025</p></td>
+        <td><p>March 12, 2026</p></td>
+        <td><p>April 16, 2026</p></td>
+    </tr>
+             </tbody>
+        </table>   
+
+-->
+
 ### 项目增强功能
 
 <table>
@@ -106,7 +154,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>每季度</strong></td>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}">更新了单次或批量分配模板任务时的体验</a><p>[!BADGE Off Schedule]{type=Neutral}</p><p> 在编辑单个模板任务或批量编辑这些任务时，我们更新了“编辑模板任务”框中的“工作总揽”部分。  </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}">更新了单次或批量分配模板任务时的体验</a><p>[！BADGE Off Schedule]{type=Neutral}</p><p> 在编辑单个模板任务或批量编辑这些任务时，我们更新了“编辑模板任务”框中的“工作总揽”部分。  </p>
         </td>
         <td><p>2026年2月5日</p></td>
         <td><p>自2026年2月5日起</p></td>
@@ -114,12 +162,78 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}">在单次或批量分配任务时更新体验</a><p>[!BADGE Off Schedule]{type=Neutral}</p><p> 在编辑单个任务或批量编辑这些任务时，我们更新了“编辑任务”框中的“工作总揽”部分。 </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">在单次或批量分配任务时更新体验</a><p>[！BADGE Off Schedule]{type=Neutral}</p><p> 在编辑单个任务或批量编辑这些任务时，我们更新了“编辑任务”框中的“工作总揽”部分。 </p>
         </td>
         <td><p>2026年1月26日</p></td>
         <td><p>自2026年2月5日起</p></td>
         <td><p>自2026年2月5日起</p></td>
     </tr>
+            </tbody>
+        </table>
+
+### 报表增强功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 25%;" />
+            <tbody>
+               <tr>
+        <td><strong>功能</strong>
+        </td>
+        <td><strong>预览</strong></td>
+        <td><strong>快速发布</strong></td>
+        <td><strong>每季度</strong></td>
+    <tr>
+        <td>
+            构建报告时显示<a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">自定义字段标签</a><p></p>
+            <p>现在，自定义字段标签显示在报告构建工具中的字段名称和对象之前，这有助于您更轻松地查找字段。 在列表中定义筛选器、视图和分组时，还会显示字段标签。</p>
+        </td>
+        <td><p>2025年2月26日</p></td>
+        <td><p>2026年3月12日</p></td>
+        <td><p>2026年4月16日</p></td>
+    </tr>
+<!--    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Shareable Report Folders</a><p></p>
+            <p>You can now organize and share reports using shareable report folders. This new feature helps teams that manage large volumes of reports maintain scalable and consistent access control.</p>
+        </td>
+        <td><p>February 26, 2025</p></td>
+        <td><p>March 12, 2026</p></td>
+        <td><p>April 16, 2026</p></td>
+    </tr>-->
+    <!--<tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Improved Date Labels for Chart Groupings in Canvas Dashboards</a><p></p>
+            <p>Charts that group data by date now display clearer, more readable date labels. With this update, date labels dynamically adjust based on the selected Group by option—such as day, week, month, or year—making charts easier to read and interpret at a glance.</p>
+        </td>
+        <td><p>February 26, 2025</p></td>
+        <td><p>March 12, 2026</p></td>
+        <td><p>April 16, 2026</p></td>
+    </tr>-->
+             </tbody>
+        </table>
+
+### 请求增强功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 25%;" />
+            <tbody>
+               <tr>
+        <td><strong>功能</strong>
+        </td>
+        <td><strong>预览</strong></td>
+        <td><strong>快速发布</strong></td>
+        <td><strong>每季度</strong></td>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md" class="MCXref xref" xrefformat="{para}">已更新增强型视图的共享体验</a><p></p>
+            <p>在新请求区域中，当您与用户共享增强型视图并授予他们查看权限时，用户可以修改视图元素，并且这些更改将保存到用户的个人偏好设置中。 用户现在可以选择保存包含其更改的视图副本，或将共享视图重置为其原始设置。 他们可以进一步与他人共享复制的视图。 </p>
+        </td>
+           <td><p>2025年2月26日</p></td>
+        <td><p>2026年3月12日</p></td>
+        <td><p>2026年4月16日</p></td>
+ </tr>
             </tbody>
         </table>
 
@@ -211,13 +325,13 @@ Workfront API版本21于2025年10月23日发布。 对于API版本21，我们修
 * 适用于Salesforce的Workfront。
 
 为了满足贵组织与Google Workspace的集成需求，我们建议使用Workfront自动化和集成。
-有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 
 ### Workfront 维护更新
 
-有关2025年第二季度版本中进行的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hans)。
+有关2025年第二季度版本中进行的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
 
 ### 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hans)的“新增功能”部分。
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的“新增功能”部分。
