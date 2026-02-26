@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: e716869407ff88b090b223708c688c7ed0da3e8e
+source-git-commit: 860bd4bef75a90f4e1c5a21f38de95962804c00c
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,12 @@ ht-degree: 0%
 
 ## 默认情况下折叠自定义表单部分
 
+>[!NOTE]
+>
+>预览：2026年2月26日
+>生产快速发布： 2026年3月12日
+>适用于所有人的生产： 2026年4月16日
+
 默认情况下，当窗体本身展开时，自定义窗体上的所有部分都会展开。 自定义表单设计器上的新选项允许您在用户打开表单时将节标记为默认折叠。 此选项在部分级别应用，而不是在字段应用。
 
 有关详细信息，请参阅[组织和预览表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)。
@@ -29,7 +35,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >预览： 2026年1月29日
->生产快速发布：待定
+>生产快速发布： 2026年2月12日
 >为所有人生产：待定
 >
 >此功能已于2026年2月13日从生产环境中暂时删除。

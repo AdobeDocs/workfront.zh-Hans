@@ -7,16 +7,16 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: baa50860-e23a-4be8-8192-f0400099294f
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 255b4b83b6d1d37bb6ffff975f1b1f44130170bc
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1066'
 ht-degree: 1%
 
 ---
 
 # 2019.2发布活动概述
 
-本页介绍了2019.2版本中包含的功能。 若要以PDF格式下载此内容，请转到[此处](https://documentation.my.workfront.com/library/a/6626eb71-16b2-4460-bd81-9adcd4953eb5)。
+此页面提供有关2019.2版本中包含的功能的信息。<!-- To download this content in PDF format, go [here](https://documentation.my.workfront.com/library/a/6626eb71-16b2-4460-bd81-9adcd4953eb5).-->
 
 >[!NOTE]
 >
@@ -98,9 +98,9 @@ ht-degree: 1%
 
   Workfront for Adobe Creative Cloud扩展现在包含与Workfront Library的集成。
 
-* [WorkfrontMicrosoft Teams改进](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-integration-enhancements.md#workfron)
+* [Workfront的Microsoft Teams改进](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-integration-enhancements.md#workfron)
 
-  在使用Workfront进行Microsoft Teams时，您现在可以提交工作请求并管理Workfront通知。
+  在使用Workfront for Microsoft Teams时，您现在可以提交工作请求并管理Workfront通知。
 
 ### 校对增强功能
 
@@ -136,7 +136,7 @@ ht-degree: 1%
 * [Workfront库现已可用](#workfront-library-now-available)
 * 不再支持[API版本3](#api-version-3-no-longer-supported)
 * [TLS支持即将结束](#tls-support-is-ending)
-* [Flash应用程序移除](#flash-application-removal)
+* 正在删除[Flash应用程序](#flash-application-removal)
 * [要删除的各种单点登录选项](#various-single-sign-on-options-to-be-removed)
 
 ### Workfront库现已可用 {#workfront-library-now-available}
@@ -151,13 +151,13 @@ Workfront Library是一个企业数字内容中心，可用于管理组织数字
 
 为了提供最佳安全性，Workfront要求将使用TLS 1.0或更早版本的所有集成和Web流量升级为使用TLS 1.1或更高版本。 此更改已在“预览”环境中生效。
 
-有关详细信息，请参阅Adobe Workfront[&#128279;](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md)中需要的TLS 1.2。
+有关详细信息，请参阅Adobe Workfront[中需要的](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md)TLS 1.2。
 
 ### Flash应用程序删除 {#flash-application-removal}
 
-自2018.3版发布以来，Workfront中删除了所有依赖于Flash技术的功能，并用新解决方案替换了这些功能。
+自2018.3版发布以来，Workfront中删除了所有依赖于Flash技术的功能，并替换为新的解决方案。
 
-有关旧版Flash工具及其替代的详细信息，请参阅[在Adobe Workfront中替换基于Flash的工具](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)。
+有关旧版Flash工具及其替代的详细信息，请参阅[在Adobe Workfront中替代基于Flash的工具](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)。
 
 ### 要删除的各种单点登录选项 {#various-single-sign-on-options-to-be-removed}
 

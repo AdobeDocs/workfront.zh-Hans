@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4162cfb7-d5e1-4152-857a-fc4a6eb09cd7
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 255b4b83b6d1d37bb6ffff975f1b1f44130170bc
 workflow-type: tm+mt
-source-wordcount: '2566'
+source-wordcount: '2556'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 这些增强功能目前在“预览”环境中可用，并且将在2020年3月30日这一周的“生产”环境中可用。
 
-若要以PDF格式下载此页面，请转到[此处](https://documentation.my.workfront.com/library/a/9f5c9e44-c9a9-4f33-beec-9e5dc2e0fdc2)。
+<!--To download this page in PDF format, go [here](https://documentation.my.workfront.com/library/a/9f5c9e44-c9a9-4f33-beec-9e5dc2e0fdc2).-->
 
 一些功能在2020.1版之前发布。 要查看2020.1版之前发布的内容，请参阅[2020.1版之前发布到生产环境的其他Workfront Classic功能](../../../product-announcements/product-releases/2020.1-release-activity/prior-to-2020-1.md)。
 
@@ -280,9 +280,9 @@ ht-degree: 0%
    <td> <p><strong>发行日期</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>将校样添加到允许列表</a><!--
+   <td> <p>将校样添加到允许列表<a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#change" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">所需的</a><!--
       <a href="https://experience.workfront.com/s/article/2020-1-Other-enhancements-1407923545?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Change required for whitelisting proofs</a>
-     -->所需的<a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#change" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">更改 </p> <p>校对域正在从proofhq.com更改为workfront.com。 </p> </td> 
+     -->更改 </p> <p>校对域正在从proofhq.com更改为workfront.com。 </p> </td> 
    <td> <p>Beta预览版本： 2020年3月10日</p> <p>生产版本：对于2020.1版本<span style="color: #ff0000;">（从版本中删除）</span></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -358,7 +358,7 @@ API版本11随2020.1版发布。 有关新增功能和更新的信息，请参�
 
 借助Workfront One，您可以从Workfront中发现最重要的内容、资源和新闻 — 全部放在一个地方，只需登录一次。 我们统一了Experience、Community和Training站点，让您能够更轻松地找到您所寻找的内容。
 
-[进一步了解Workfront One](https://business.adobe.com/cn/products/workfront.html)。
+[进一步了解Workfront One](https://business.adobe.com/products/workfront.html)。
 
 ### 2020.1版网络研讨会 {#2020-1-release-webinar}
 
@@ -366,7 +366,7 @@ API版本11随2020.1版发布。 有关新增功能和更新的信息，请参�
 
 ### 第1季度产品路线图网络研讨会 {#q1-product-roadmap-webinar}
 
-在[第1季度路线图网络研讨会](https://webinars.on24.com/workfront/product_roadmap032620?partnerref=announcementcenter)期间了解更多相关信息。 该网络研讨会将于2020年3月26日上午9:00举行mt. 单击链接进行注册
+在[第1季度路线图网络研讨会](https://webinars.on24.com/workfront/product_roadmap032620?partnerref=announcementcenter)期间了解更多相关信息。 该网络研讨会将于2020年3月26日上午9:00举行。mt. :00a单击链接进行注册
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -433,7 +433,7 @@ and watch the recording on demand
 
 为了提供最佳安全性，Workfront要求所有使用TLS 1.1或更早版本的集成和Web流量都升级到使用TLS 1.2。在“预览”环境中，TLS 1.0已禁用。
 
-有关详细信息，请参阅Adobe Workfront[&#128279;](../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md)中需要的TLS 1.2。
+有关详细信息，请参阅Adobe Workfront[中需要的](../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md)TLS 1.2。
 
 ### Flash应用程序删除 {#flash-application-removal}
 
