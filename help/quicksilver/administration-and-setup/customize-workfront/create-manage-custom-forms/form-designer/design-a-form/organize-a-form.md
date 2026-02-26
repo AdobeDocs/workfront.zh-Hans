@@ -8,28 +8,30 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: 796c7e0a15a7a26c5cd3f0115d72946f0f28bcf2
 workflow-type: tm+mt
-source-wordcount: '1318'
-ht-degree: 0%
+source-wordcount: '1353'
+ht-degree: 2%
 
 ---
 
 # 组织和预览表单
 
+{{preview-fast-release-general}}
+
 您可以使用表单设计器组织自定义表单，并预览该表单以验证设置是否正确。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td>Adobe Workfront 包</td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
@@ -81,6 +83,10 @@ ht-degree: 0%
       <td role="rowheader">描述</td> 
       <td>如果要向用户说明此部分的用途，请键入文本。 这会显示在自定义表单上部分的标签下方。</td> 
      </tr> 
+      <td><span class="preview">默认折叠</span></td>
+      <td><span class="preview">默认情况下，当窗体本身展开时，自定义窗体上的所有部分都会展开。 选择此选项可在用户打开表单时默认折叠部分。</span></td>
+     <tr>
+     </tr>
      <tr> 
       <td role="rowheader"> <p>授予访问权限</p> </td> 
       <td> <p> 选择用户在附加自定义表单的对象上所需的权限，以便查看此分区并编辑其字段值。 
