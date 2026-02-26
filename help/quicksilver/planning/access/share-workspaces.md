@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: bddf24f667f0538786caf0b19af75d0adf99da91
+source-git-commit: 973a095e8ff08e382010247d9ed38e48d4b2c564
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '959'
 ht-degree: 2%
 
 ---
@@ -153,15 +153,14 @@ This article describes how you can share a view with others. For information abo
 
    <!--only for March 4: * <span class="preview">(Conditional) Depending on your access level, the following scenarios exist: </span>-->
 
-   <!--For Feb 26:
-   1. <span class="preview">(Conditional) If you are a System Administrator, select from the following options:</span>
+1. <span class="preview">（视情况而定）如果您是系统管理员，请从以下选项中选择：</span>
 
-         <div class="preview">
+   <div class="preview">
 
-         * **Only invited people can access**: You must select entities in the sharing box and choose their access to the workspace. This is the default selection. 
-         * **Everyone in the system can view**: Everyone in the system with access to Planning can view the workspace in their **Workspaces** area in Planning.
-         
-         </div> -->
+   * **只有受邀人员才能访问**：您必须选择共享框中的实体并选择他们对工作区的访问权限。 这是默认选项。
+   * **系统中的每个人都可以查看**：系统中有权访问Planning的所有人都可以在Planning的&#x200B;**工作区**&#x200B;区域查看工作区。
+
+   </div>
 
    <!--only  for March 4:
 
@@ -208,7 +207,7 @@ This article describes how you can share a view with others. For information abo
      ![访问请求的电子邮件通知](assets/email-notification-for-access-request.png)
 1. （视情况而定）在Workfront的通知区域中，单击应用程序内通知
 或
-在电子邮件通知中，单击&#x200B;**查看所有通知**，然后单击列表中的通知。
+在电子邮件通知中，单击**查看所有通知**，然后单击列表中的通知。
 
    显示&#x200B;**待处理访问请求**&#x200B;框。
 

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
-source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
+source-git-commit: 973a095e8ff08e382010247d9ed38e48d4b2c564
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1342'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 在Adobe Workfront Planning中管理列表视图
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上突出显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -114,8 +114,8 @@ ht-degree: 0%
       >
       >* 不能修改系统视图。
       >
-      <!--For Feb 26 and add the Preview disclaimer at the top: * <span class="preview">You can reset a view that was shared with you after you modified it to restore its original preferences, or you can copy it with your changes and share the copy. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
-        -->
+      >* <span class="preview">您可以在修改视图以恢复其原始首选项后，重置与您共享的视图，也可以随更改一起复制并共享副本。 有关详细信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。</span>
+
    1. 单击&#x200B;**筛选器**&#x200B;图标![筛选器图标](assets/filter-icon.png)将筛选器添加到视图。 结果会立即在列表中过滤。 您无法保存并命名筛选器。 在将来的访问页面时，将会记住过滤器，并且这些过滤器是共享视图的一部分。
    1. 单击&#x200B;**列**&#x200B;图标![列图标](assets/columns-icon.png)以选择要显示或隐藏的列。
    1. 将鼠标悬停在列名上，单击该列名左侧的向下箭头，然后单击下列选项之一：
@@ -129,35 +129,41 @@ ht-degree: 0%
 不能删除第一列中显示的列表视图中的主字段。
 
 
-   <!--For Feb 26: make available at release and fix the formatting - this will be broken, if not: 
-    1. <span class="preview">Click the **Format cells** icon ![Format cells icon](assets/format-cells-icon.png). The **Format** box opens. (*********change the name of the box when they update it***********)</span>
-        <span class="preview">Do the following: </span>
-        <div class="preview">
-        1. In the **If** line, click **Add condition**, then select a field you want to format by and choose a field value. 
-            >[!TIP]
-            >
-            >Only fields visible in the list view are available for conditional formatting.
-        1. (Optional) Click **Add condition** in the **If** line to add more conditions to same rule. 
-            >[!TIP]
-            >
-            >You can add up to 10 conditions in a conditioning rule and you can have up to 20 rules for a field.
-        1. Click the **Or** connector between conditions to change to **And** and to indicate that multiple conditions must be met at the same time. **Or** is the default connector.  
-        1. In the **Format** line, select a field to indicate which column will be formatted. (*******edit this area, if it changes names??***********)
-        1. (Optional) Click the **color circle** icon ![Color circle icon](assets/color-circle.png) next to the field selected, to expand it and choose another color.
-        1. Turn on the **Apply to row** setting to apply the formatting to the entire row of the field that meets the conditions. 
-        1. (Optional) Click **Add condition** in the **Format** box to add another rule for another field and the repeat the steps above. 
-        1. (Optional) Click **Clear all** to remove all formatting.
-        1. Click outside the **Format** box to close it. 
-            This returns you to the list view. 
-            The formatting is applied immediately to the list view.
-            There is a blue dot next to the **Format cells** icon to indicate that the view has special formatting applied.
-        </div>
-    -->
+   1. <span class="preview">单击&#x200B;**格式化单元格**&#x200B;图标![格式化单元格图标](assets/format-cells-icon.png)。 **格式**&#x200B;框打开。</span> <!--change the name of the box when they update it-->
+      <span class="preview">执行以下操作：</span>
+
+      <div class="preview">
+
+      1. 在&#x200B;**If**&#x200B;行中，单击&#x200B;**添加条件**，然后选择要作为格式化依据的字段并选择字段值。
+
+         >[!TIP]
+         >
+         >只有列表视图中可见的字段可用于条件格式。
+
+      1. （可选）单击&#x200B;**If**&#x200B;行中的&#x200B;**添加条件**&#x200B;以将更多条件添加到同一规则。
+
+         >[!TIP]
+         >
+         >在一个条件规则中最多可添加10个条件，一个字段最多可有20个规则。
+
+      1. 单击条件之间的&#x200B;**Or**&#x200B;连接器以更改为&#x200B;**And**，并指示必须同时满足多个条件。 **或**&#x200B;是默认连接器。
+      1. 在&#x200B;**格式**&#x200B;行中，选择一个字段以指示将设置哪一列的格式。<!--edit this area, if it changes names??-->
+      1. （可选）单击所选字段旁边的&#x200B;**颜色圆圈**&#x200B;图标![颜色圆圈图标](assets/color-circle.png)以展开该字段并选择其他颜色。
+      1. 打开&#x200B;**应用到行**&#x200B;设置以将格式应用到满足条件的字段的整行。
+      1. （可选）在&#x200B;**格式**&#x200B;框中单击&#x200B;**添加条件**&#x200B;为其他字段添加其他规则并重复上述步骤。
+      1. （可选）单击&#x200B;**全部清除**&#x200B;以删除所有格式。
+      1. 单击&#x200B;**格式**&#x200B;框外部以将其关闭。
+
+         这会将您返回到列表视图。
+格式设置将立即应用于列表视图。
+**设置单元格格式**&#x200B;图标旁有一个蓝点，表示该视图应用了特殊格式。
+
+      </div>
 
 1. （可选）在列表右上角的搜索框中添加关键字以搜索项目。
 
-
    与搜索词匹配的项目会在列表中突出显示。
+
 1. （可选）要将更多项添加到列表并自动将它们连接到所选记录，请执行下列操作之一：
 
    * 单击列表右上角的&#x200B;**连接记录**&#x200B;以添加现有项。
