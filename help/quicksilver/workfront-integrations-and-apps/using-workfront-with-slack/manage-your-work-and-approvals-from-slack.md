@@ -6,10 +6,10 @@ description: 您可以访问主页工作列表，查看和同意处理任务和�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 802a2f16-d827-455e-9e49-f58f4c5fc482
-source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
+source-git-commit: e6f61cdde9e8ad14a9226de4cc61fbcdcb6f839b
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 1%
+source-wordcount: '937'
+ht-degree: 3%
 
 ---
 
@@ -23,21 +23,21 @@ ht-degree: 1%
 
 有关使用[!DNL Workfront]配置[!DNL Slack]的详细信息，请参阅[配置 [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td> <p>任何</p>
+   <td> <p>“任一”</p>
   </tr> 
  </tbody> 
 </table>
@@ -157,6 +157,8 @@ ht-degree: 1%
    [!UICONTROL 处理此项工作]按钮消失。
 
 ## 从[!DNL Slack]管理您的审批 {#manage-your-approvals-from-slack}
+
+审批指旧文档审批。 [!DNL Microsoft Teams]当前不支持统一文档审批。 有关Workfront中各种审批制度的详细信息，请参阅[可用于文档审批的功能](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)。
 
 1. 从[!DNL Slack]登录到[!DNL Workfront]实例并登录到[!DNL Slack]。\
    有关从[!DNL Workfront]登录到[!DNL Slack]的详细信息，请参阅[!DNL Workfront]访问[!DNL Slack]从[中的“从 [!DNL Adobe Workfront] 登录到 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)”部分。

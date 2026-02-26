@@ -6,10 +6,10 @@ description: 在 [!DNL Adobe Workfront] 中接收 [!DNL Slack]通知
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: bc1ce4ea-58be-4cd7-ab59-7dddb82949b9
-source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
+source-git-commit: e6f61cdde9e8ad14a9226de4cc61fbcdcb6f839b
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 0%
+source-wordcount: '614'
+ht-degree: 3%
 
 ---
 
@@ -27,21 +27,21 @@ ht-degree: 0%
 电子邮件通知独立于[!DNL Workfront]界面通知工作。 您或您的[!DNL Workfront]管理员可以禁用电子邮件通知，而无法在[!DNL Workfront]中禁用界面通知。\
 但是，如果您希望仅关注[!DNL Workfront]界面中的通知，则可以禁用[!DNL Slack]中可能收到的[!DNL Workfront]通知。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td> <p>任何</p>
+   <td> <p>“任一”</p>
   </tr> 
  </tbody> 
 </table>
@@ -76,6 +76,12 @@ ht-degree: 0%
    * [!UICONTROL 我已分配到新任务或问题]
    * [!UICONTROL 我的团队已分派至新任务或问题]
    * [!UICONTROL 我收到新的审批或访问请求]
+
+     >[!NOTE]
+     >
+     >审批指旧文档审批。 [!DNL Slack]当前不支持统一文档审批。 有关Workfront中各种审批制度的详细信息，请参阅[可用于文档审批的功能](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)。
+
+
    * [!UICONTROL 有人将我包含在定向更新中]
    * [!UICONTROL 某人备注我所在的线程]
    * [!UICONTROL 我订阅的任务、问题或项目已更新]
