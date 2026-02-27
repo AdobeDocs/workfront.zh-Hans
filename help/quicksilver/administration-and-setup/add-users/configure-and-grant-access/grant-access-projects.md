@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ba6a9e68-68a1-4152-b024-cd39e06d556f
-source-git-commit: 97f5adc8811a3be7be23137a82d10d45b76ec605
+source-git-commit: f6aa8519748d98ba135fb0f572b7daade716c50f
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '674'
 ht-degree: 2%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 2%
    >* 具有“审阅”许可证的用户对转化问题中的项目具有“查看”权限，但其“查看”权限受限。
    >* 有关用户在与他人共享项目时可以授予的权限的信息，请参阅[在Adobe Workfront中共享项目](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)。
    >* 在为特定类型的对象配置访问级别设置时，该配置不会影响用户对较低排名的对象的访问。 例如，您可以限制用户删除其访问级别中的项目，但这不会限制他们删除比项目级别低的任务。有关对象层次结构的详细信息，请参阅文章[了解Adobe Workfront中的对象](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects)中的[相互依赖性和对象层次结构](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)部分。
-   >* 访问级别不允许访问财务数据的用户无法授予允许其他人查看财务数据的访问权限。 这包括授予显示财务数据的项目的访问权限，或修改访问级别以允许查看财务数据。
+   * 访问级别不允许访问财务数据的用户无法授予允许其他人查看财务数据的访问权限。 这包括授予显示财务数据的项目的访问权限，或修改访问级别以允许查看财务数据。
 
 
 1. （可选）单击“创建”选项右侧的&#x200B;**设置共享默认值**，然后单击&#x200B;**添加规则**&#x200B;为新项目添加共享规则。
@@ -93,9 +93,9 @@ ht-degree: 2%
 
    创建访问级别后，可将其分配给用户。 有关详细信息，请参阅[编辑用户配置文件](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
-## 按许可证类型访问报告、功能板和日历
+## 按许可证类型访问项目
 
-有关每个访问级别中的用户可以如何处理问题的信息，请参阅[适用于每个对象类型的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#projects)一文中的[项目](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)部分。
+有关每个访问级别的用户可以对项目执行哪些操作的信息，请参阅[可用于每个对象类型的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#projects)一文中的[项目](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)部分。
 
 ## 访问共享项目
 

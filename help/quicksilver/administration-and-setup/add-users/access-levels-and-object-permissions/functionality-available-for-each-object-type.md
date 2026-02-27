@@ -10,16 +10,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+source-git-commit: 57632f1949e849aca3f26874382f1101b9b0cf89
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1585'
 ht-degree: 14%
 
 ---
 
 # 适用于各种访问级别的每种对象类型的功能（旧版）
-
-{{highlighted-preview}}
 
 >[!NOTE]
 >
@@ -506,7 +504,6 @@ ht-degree: 14%
 | 管理账单记录 | ✓ |  |  |
 | 管理费用 | ✓ | ✓ |  |
 | 查看财务数据 | ✓&#42; | ✓&#42; | ✓&#42; |
-| <span class="preview">管理费率卡</span> | ✓ |  |  |
 | 在资源计划工具中按成本查看信息 | ✓ |  |  |
 | 资源规划工具中的预算资源&#42;&#42; | ✓ |  |  |
 | 在资源计划工具&#42;中查看资源分配 | ✓ | ✓ | ✓ |
