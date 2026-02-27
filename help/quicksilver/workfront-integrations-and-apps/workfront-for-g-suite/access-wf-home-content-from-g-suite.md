@@ -7,9 +7,9 @@ description: 无需离开Google Workspace，即可访问您的 [!DNL Adobe Workf
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
-source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
+source-git-commit: 228fd22f1894689c0d256270350cc82954901641
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->为了提供更稳定和可扩展的集成，我们正在使用Workfront自动化与集成(Fusion)转向一种现代、灵活的集成方法。 在此过渡过程中，以下适用于Google Workspace的Workfront功能在&#x200B;**2026年2月28日**&#x200B;之后将不可用：
+>为了提供更稳定、更可扩展的集成，我们已转为使用Workfront自动化与集成(Fusion)的现代、灵活集成方法。 在此过渡过程中，以下Workfront for Google Workspace功能&#x200B;**不再可用**：
 >
 >* 从Workfront访问Google Workspace功能
 >
@@ -26,65 +26,69 @@ ht-degree: 0%
 >
 >为了满足贵组织与Google Workspace的集成需求，我们建议使用Workfront自动化和集成。
 >
->有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 >
->有关Google Workspace的Workfront自动化和集成模块的特定功能的信息，请参阅[Gmail模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)和[Google日历模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)。
+>有关Google Workspace的Workfront自动化和集成模块的特定功能的信息，请参阅[Gmail模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)和[Google日历模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)。
 
-无需离开Google Workspace，即可访问您的[!DNL Adobe Workfront] [!UICONTROL 主页]内容，包括分配给您的所有任务、问题、批准和访问请求。
+<!--
 
-## 访问要求
+You can access your [!DNL Adobe Workfront] [!UICONTROL Home] content, including all tasks, issues, approvals, and access requests assigned to you, without leaving Google Workspace.
 
-+++ 展开以查看本文中各项功能的访问要求。
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td> <p>标准</p><p>工作或更高</p>
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p><p>Work or higher</p>
   </tr> 
  </tbody> 
 </table>
 
-有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## 先决条件
+## Prerequisites
 
-在从[!UICONTROL 访问]主页[!DNL Google Workspace]内容之前，您必须
+Before you can access [!UICONTROL Home] content from [!DNL Google Workspace], you must
 
-* 安装[!DNL Workfront for Google Workspace]\
-   有关说明，请参阅[安装 [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)。
+* Install [!DNL Workfront for Google Workspace]\
+   For instructions, see [Install [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## 从[!DNL Workfront]访问主页[!DNL Google Workspace]
+## Access [!DNL Workfront] [!UICONTROL Home] from [!DNL Google Workspace]
 
-1. 确保您已登录到[!DNL Workfront]。
-1. 如果未显示[!UICONTROL Workfront for Google Workspace]面板，请单击页面最右侧[!DNL Workfront]加载项侧边栏中的![图标](assets/wf-lion-icon.png)Workfront图标[!DNL Google Workspace]。
-1. 如果您在[!DNL Workfront]的[!DNL Google Workspace]顶部看到向左箭头，请单击该箭头以转到[!UICONTROL 主页]区域。
+1. Make sure you are logged in to [!DNL Workfront].
+1. If the [!UICONTROL Workfront for Google Workspace] panel is not displayed, click the [!DNL Workfront] icon ![Workfront icon](assets/wf-lion-icon.png) in the [!DNL Google Workspace] add-ons sidebar at the far-right of the page.
+1. If you see a left arrow at the top of [!DNL Workfront] for [!DNL Google Workspace], click the arrow to go to the [!UICONTROL Home] area.
 
-1. 在&#x200B;**[!UICONTROL 排序依据]**&#x200B;区域中，单击展开箭头![展开箭头](assets/dropdown-arrow.png)，然后单击选项以指定工作项的分组方式，以便找到所需工作项。
+1. In the **[!UICONTROL Sort by]** area, click the expand arrow ![Expand arrow](assets/dropdown-arrow.png), then click an option to specify how you want to group your work items so you can find the one you want.
 
-   当您按&#x200B;**[!UICONTROL 提交日期]**&#x200B;或&#x200B;**[!UICONTROL 计划完成日期]**&#x200B;排序时，最早的工作项位于顶部。
+   When you sort by **[!UICONTROL Commit date]** or **[!UICONTROL Planned completion]** date, the oldest work items are at the top.
 
-   按&#x200B;**[!UICONTROL 项目]**&#x200B;排序时，工作项按其父项目的顺序显示，按字母顺序从A到Z列出。无父项目的工作项显示在&#x200B;**[!UICONTROL 无项目]**&#x200B;下。
+   When you sort by **[!UICONTROL Project]**, work items appear in the order of their parent projects, listed alphabetically from A to Z. Work items without a parent project display under **[!UICONTROL No Project]**.
 
-1. 单击要查看的分组的展开箭头![展开箭头](assets/dropdown-arrow.png)。
+1. Click the expand arrow ![Expand arrow](assets/dropdown-arrow.png) for the grouping you want to view.
 
-   每个组中包含的项目数显示在括号中。 单击[!UICONTROL 展开]箭头时，将显示组中的所有工作项。
+   The number of items contained within each group displays in parenthesis. When you click the [!UICONTROL expand] arrow, all the work items in the group display.
 
-   工作项如下所示：
+   Work items appear as follows:
 
-   * ![任务图标](assets/task-icon.png) **任务**&#x200B;显示父项目名称、任务名称和计划完成日期。
+   * ![Task icon](assets/task-icon.png) **Tasks** display the parent project name, task name, and planned completion date.
 
-   * ![问题图标](assets/issue-icon.png) **问题**&#x200B;显示父项目名称、问题名称和计划完成日期。
+   * ![Issue icon](assets/issue-icon.png) **Issues** display the parent project name, issue name, and planned completion date.
 
-   * ![文档图标](assets/document-icon.png) **审批**&#x200B;显示请求者的姓名、文档名称和提交日期。
-   * **访问请求**&#x200B;显示请求者的姓名、对象名称和提交日期。 左侧将显示对象类型的图标。
+   * ![Document icon](assets/document-icon.png)  **Approvals** display the requester's name, document name, and submission date.
+   * **Access requests** display the requester's name, object name, and submission date. The icon for the object type displays on the left.
 
-1. 单击工作项上的任意位置可查看其详细信息、更新和文档。
+1. Click anywhere on a work item to see its details, updates, and documents.
+
+-->

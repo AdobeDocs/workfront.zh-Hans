@@ -7,9 +7,9 @@ description: 您可以从Google Workspace Marketplace安装 [!DNL Adobe Workfron
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: eb11d62d-86ed-49fc-8bbc-6f04eb30865d
-source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
+source-git-commit: 228fd22f1894689c0d256270350cc82954901641
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->为了提供更稳定和可扩展的集成，我们正在使用Workfront自动化与集成(Fusion)转向一种现代、灵活的集成方法。 在此过渡过程中，以下适用于Google Workspace的Workfront功能在&#x200B;**2026年2月28日**&#x200B;之后将不可用：
+>为了提供更稳定、更可扩展的集成，我们已转为使用Workfront自动化与集成(Fusion)的现代、灵活集成方法。 在此过渡过程中，以下Workfront for Google Workspace功能&#x200B;**不再可用**：
 >
 >* 从Workfront访问Google Workspace功能
 >
@@ -26,44 +26,48 @@ ht-degree: 0%
 >
 >为了满足贵组织与Google Workspace的集成需求，我们建议使用Workfront自动化和集成。
 >
->有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 >
->有关Google Workspace的Workfront自动化和集成模块的特定功能的信息，请参阅[Gmail模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)和[Google日历模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)。
+>有关Google Workspace的Workfront自动化和集成模块的特定功能的信息，请参阅[Gmail模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)和[Google日历模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)。
 
-您可以从[!DNL Adobe Workfront for Google Workspace]市场安装[!DNL Google Workspace]加载项。
+<!--
 
-## 访问要求
+You can install the [!DNL Adobe Workfront for Google Workspace] add-on from the [!DNL Google Workspace] Marketplace.
 
-+++ 展开以查看本文中各项功能的访问要求。
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td> <p>标准</p><p>工作或更高</p>
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p><p>Work or higher</p>
   </tr> 
  </tbody> 
 </table>
 
-有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## 安装[!DNL Workfront for Google Workspace]
+## Install [!DNL Workfront for Google Workspace]
 
-1. 单击以下链接： [[!DNL Workfront for Google Workspace]](https://workspace.google.com/marketplace/app/adobe_workfront/811980987828)
+1. Click the following link: [[!DNL Workfront for Google Workspace]](https://workspace.google.com/marketplace/app/adobe_workfront/811980987828)
 
-   或
+   Or
 
-   单击[!DNL Google Workspace]应用程序（[!DNL Google Workspace]、[!DNL Gmail]或[!DNL Google Calendar]）最右侧的[!DNL Google Drive]加载项侧边栏中的加号图标。 搜索&#x200B;*[!DNL Workfront for Google Workspace]*，然后单击显示的[!DNL Workfront for Google Workspace]应用项。
+   Click the plus sign icon in the [!DNL Google Workspace] add-ons sidebar at the far-right of a [!DNL Google Workspace] app ([!DNL Gmail], [!DNL Google Calendar], or [!DNL Google Drive]). Search for *[!DNL Workfront for Google Workspace]*, then click the [!DNL Workfront for Google Workspace] app item that appears.
 
-1. 单击&#x200B;**[!UICONTROL 安装]**，然后按照出现的提示操作。
-1. （视情况而定）在您的[!DNL Google Workspace]应用程序中，如果在页面最右侧的[!DNL Workfront]加载项侧边栏中未看到![图标](assets/wf-lion-icon.png)Workfront图标[!DNL Google Workspace]，请刷新页面。
+1. Click **[!UICONTROL Install]**, then follow the prompts that appear.
+1. (Conditional) In your [!DNL Google Workspace] app, if you don't see the [!DNL Workfront] icon ![Workfront icon](assets/wf-lion-icon.png) in the [!DNL Google Workspace] add-ons sidebar at the far-right of the page, refresh the page.
 
-有关登录的信息，请参阅[登录和注销 [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)。
+For information about logging in, see [Log in and out of [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md).
+
+-->

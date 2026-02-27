@@ -7,9 +7,9 @@ description: 您无需离开Google Workspace，即可查看 [!DNL Adobe Workfron
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 13cd0478-4557-4d4c-915e-5b7b70aee8ce
-source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
+source-git-commit: 228fd22f1894689c0d256270350cc82954901641
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->为了提供更稳定和可扩展的集成，我们正在使用Workfront自动化与集成(Fusion)转向一种现代、灵活的集成方法。 在此过渡过程中，以下适用于Google Workspace的Workfront功能在&#x200B;**2026年2月28日**&#x200B;之后将不可用：
+>为了提供更稳定、更可扩展的集成，我们已转为使用Workfront自动化与集成(Fusion)的现代、灵活集成方法。 在此过渡过程中，以下Workfront for Google Workspace功能&#x200B;**不再可用**：
 >
 >* 从Workfront访问Google Workspace功能
 >
@@ -26,49 +26,53 @@ ht-degree: 0%
 >
 >为了满足贵组织与Google Workspace的集成需求，我们建议使用Workfront自动化和集成。
 >
->有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 >
->有关Google Workspace的Workfront自动化和集成模块的特定功能的信息，请参阅[Gmail模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)和[Google日历模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)。
+>有关Google Workspace的Workfront自动化和集成模块的特定功能的信息，请参阅[Gmail模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)和[Google日历模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)。
 
-在不离开[!DNL Google Workspace]的情况下，您可以查看[!DNL Adobe Workfront]对象上的更新和更新回复。
+<!--
 
-## 访问要求
+Without leaving [!DNL Google Workspace], you can view updates and replies to updates on a [!DNL Adobe Workfront] object.
 
-+++ 展开以查看本文中各项功能的访问要求。
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td> <p>标准</p><p>工作或更高</p>
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p><p>Work or higher</p>
   </tr> 
  </tbody> 
 </table>
 
-有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## 先决条件
+## Prerequisites
 
-在[!DNL Google Workspace]中查看对象更新之前，您必须
+Before you can view object updates in [!DNL Google Workspace], you must
 
-* 安装[!DNL Workfront for Google Workspace]\
-   有关说明，请参阅[安装 [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)。
+* Install [!DNL Workfront for Google Workspace]\
+   For instructions, see [Install [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## 在[!DNL Google Workspace]中查看对象更新
+## View object updates in [!DNL Google Workspace]
 
-1. 查看[!DNL Google Workspace]中的对象，如[从 [!DNL Adobe Workfront] 查看和管理 [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)对象详细信息中所述。
-1. 单击&#x200B;**[!UICONTROL 更新]**&#x200B;选项卡。
-1. 使用显示的选项，该选项由已添加到对象的更新决定：
+1. View the object in [!DNL Google Workspace] as described in [View and manage [!DNL Adobe Workfront] object details from [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md).
+1. Click the **[!UICONTROL Updates]** tab.
+1. Use the option that appears, which is determined by the updates already added to the object:
 
-   * 如果更新包含注释，请单击&#x200B;**[!UICONTROL 显示注释]**&#x200B;以查看注释线程。
-   * 如果要将第一个回复添加到更新，请单击&#x200B;**[!UICONTROL 回复]**，然后键入您的评论。
+   * If the update has comments, click **[!UICONTROL Show Comments]** to view the comments thread.
+   * If you want to add the first reply to the update, click **[!UICONTROL Reply]**, then type your comment.
 
-1. 要返回&#x200B;**[!UICONTROL 更新]**&#x200B;选项卡，请单击&#x200B;**[!UICONTROL 查看所有更新]**。
+1. To return to the **[!UICONTROL Updates]** tab, click **[!UICONTROL View All Updates]**.
+
+-->

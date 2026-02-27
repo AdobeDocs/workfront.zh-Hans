@@ -7,9 +7,9 @@ description: 您可以为Salesforce安装 [!DNL Adobe Workfront] 以允许Salesf
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 65d4cdae-1d34-4a8a-a1c0-706cd41fc75e
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: 6af620284ed9c710196d8976a9f6cac1b3b36cf1
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
@@ -20,80 +20,84 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->为了提供更稳定和可扩展的集成，我们正在使用Workfront自动化与集成(Fusion)转向一种现代、灵活的集成方法。 在此过渡过程中，Workfront for Salesforce集成在&#x200B;**2026年2月28日**&#x200B;后不可用。
+>为了提供更稳定、更可扩展的集成，我们已转为使用Workfront自动化与集成(Fusion)的现代、灵活集成方法。 在此过渡过程中，Workfront for Salesforce集成&#x200B;**不再可用**。
 >
 >为了满足贵组织与Salesforce的集成需求，我们建议使用Workfront自动化和集成。
 >
->有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 >
->有关Salesforce的Workfront自动化和集成模块的特定功能的信息，请参阅[Salesforce模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules)。
+>有关Salesforce的Workfront自动化和集成模块的特定功能的信息，请参阅[Salesforce模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules)。
 
-您可以安装[!DNL Adobe Workfront for Salesforce]以允许[!DNL Salesforce]用户提交[!DNL Workfront]请求并自动创建项目而无需离开[!DNL Salesforce]。
+<!--
 
-作为[!DNL Workfront]管理员，您可以下载和配置[!DNL Workfront for Salesforce]。 然后，您可以将其与所有其他[!DNL Salesforce]用户共享。
+You can install [!DNL Adobe Workfront for Salesforce] to allow your [!DNL Salesforce] users to submit [!DNL Workfront] requests and automatically create projects without ever leaving [!DNL Salesforce].
 
-有关安装[!DNL Workfront for Salesforce]的详细信息，请参阅[安装 [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)。
+As a [!DNL Workfront] administrator, you can download and configure [!DNL Workfront for Salesforce]. Then, you can share it with all other [!DNL Salesforce] users.
 
-有关为所有用户配置[!DNL Workfront]中的[!DNL Salesforce]节的详细信息，请参阅[为 [!DNL Adobe Workfront] 用户配置 [!DNL Salesforce] 节](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)。
+For more information about installing [!DNL Workfront for Salesforce], see [Install [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
 
-## 访问要求
+For more information about configuring the [!DNL Workfront] section in [!DNL Salesforce] for all users, see [Configure the [!DNL Adobe Workfront] section for [!DNL Salesforce] users](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
 
-+++ 展开以查看本文中各项功能的访问要求。
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td> <p>标准</p>
-   <p>规划</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p>
+   <p>Plan</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
 ## [!DNL Workfront for Salesforce]
 
-使用[!DNL Workfront for Salesforce]时，您可以执行以下操作：
+You can do the following when using [!DNL Workfront for Salesforce]:
 
-* 在Opportunity或Account中从[!DNL Workfront]手动创建新[!DNL Salesforce]请求。
+* Manually create new [!DNL Workfront] requests from [!DNL Salesforce] within an Opportunity or an Account.
 
-  有关详细信息，请参阅来自[对象的 [!DNL Adobe Workfront] 提交 [!DNL Salesforce] 请求](../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)。
+   For more information, see [Submit [!DNL Adobe Workfront] requests from [!DNL Salesforce] objects](../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md).
 
-* 当[!DNL Workfront]中满足某些条件时，在[!DNL Salesforce]中自动触发项目创建。 您的[!DNL Salesforce]系统管理员必须配置触发器以从[!DNL Salesforce]创建项目。
+* Automatically trigger the creation of projects in [!DNL Workfront] when certain criteria are met in [!DNL Salesforce]. Your [!DNL Salesforce] system administrator must configure triggers for creating projects from [!DNL Salesforce].
 
-  有关从[!DNL Workfront]创建[!DNL Salesforce]项目的详细信息，请参阅[从 [!DNL Adobe Workfront] 对象创建 [!DNL Salesforce] 项目](../../workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md)。
+   For more information about creating [!DNL Workfront] projects from [!DNL Salesforce], see [Create [!DNL Adobe Workfront] projects from [!DNL Salesforce] objects](../../workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md).
 
-处理[!DNL Workfront]的[!DNL Salesforce]时，请考虑以下事项：
+Consider the following when working with [!DNL Workfront] for [!DNL Salesforce]:
 
-* 我们同时支持[!DNL Salesforce Classic]和[!DNL Lightning Experience]框架。
-* 只能创建从[!DNL Salesforce]到[!DNL Workfront]的项。
-* 您可以查看有关[!DNL Workfront]中[!DNL Salesforce]项的一些信息。 无法自定义此信息。
+* We support both the [!DNL Salesforce Classic] and [!DNL Lightning Experience] frameworks.
+* Items can be created only from [!DNL Salesforce] to [!DNL Workfront].
+* You can view some information about the [!DNL Workfront] items in [!DNL Salesforce]. This information cannot be customized.
 
-  有关可以从[!DNL Workfront]查看的[!DNL Salesforce]字段的列表，请参阅来自[对象的 [!DNL Adobe Workfront] 提交 [!DNL Salesforce] 请求](../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)和来自[对象的 [!DNL Adobe Workfront] 创建 [!DNL Salesforce] 项目](../../workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md)。
+   For a list of [!DNL Workfront] fields that you can view from [!DNL Salesforce], see  [Submit [!DNL Adobe Workfront] requests from [!DNL Salesforce] objects](../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)  and [Create [!DNL Adobe Workfront] projects from [!DNL Salesforce] objects](../../workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md).
 
-* 通过单击Workfront中的[!DNL Salesforce]转到Salesforce[!UICONTROL 链接，您可以直接访问链接到]的项。
+* You can directly access items linked to [!DNL Salesforce] by clicking the [!UICONTROL Go to Salesforce] link from Workfront.
 
-  您无法在[!DNL Salesforce]中查看有关[!DNL Workfront]项的任何信息，但Workfront中有一个链接，该链接会将您转到Salesforce中的项，以便您能够在其中查看它。
+   You cannot view any information about the [!DNL Salesforce] items in [!DNL Workfront], but there's a link in Workfront that takes you to the item in Salesforce so you can review it there.
 
-  [!UICONTROL 转到Salesforce]链接显示在以下区域中：
+   [!UICONTROL The Go to Salesforce] link displays in the following areas:
 
-   * 项目或问题的[!UICONTROL 详细信息]部分。
-   * 项目或问题的标头。
+    * The [!UICONTROL Details] section of a project or an issue.
+    * The header of a project or an issue.
 
-     您的系统或组管理员必须将[!UICONTROL 集成]字段添加到您的布局模板中，才能查看项目或问题标题中的[!UICONTROL 转到Salesforce]链接。
-   * 在列表中选择问题时，单击列表工具栏中的[!DNL Summary]打开摘要摘要面板图标![后问题的](assets/summary-panel-icon.png)面板。
+      Your system or group administrator must add the [!UICONTROL Integrations] field to your Layout Template to view the [!UICONTROL Go to Salesforce] link in the project or issue header.
+    * The [!DNL Summary] panel  of an issue when selecting the issue in a list, after clicking [!UICONTROL Open Summary] ![Summary panel icon](assets/summary-panel-icon.png) in the list's toolbar.
 
-     >[!NOTE]
-     >
-     >[!UICONTROL 转到Salesforce]链接对可以查看项目或问题的所有[!DNL Workfront]用户可见。 您必须拥有[!DNL Salesforce]帐户才能转到记录问题的[!DNL Salesforce]机会或帐户。
+      >[!NOTE]
+      >
+      >The [!UICONTROL Go to Salesforce] link is visible to all [!DNL Workfront] users who can view the project or the issue. You must have a [!DNL Salesforce] account to be able to go to the [!DNL Salesforce] Opportunity or Account where the issue was logged.
 
-* 更新一个应用程序中一个项目的字段不会更新另一个应用程序中链接项目的任何信息。
+* Updating fields on one item in one application does not update any information on linked items in the other application.
+
+-->

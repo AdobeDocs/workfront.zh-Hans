@@ -6,10 +6,10 @@ description: 在安装 [!DNL Adobe Workfront] 以管理员 [!DNL Workfront] 身�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 81481813-74db-4408-8c85-c3b5b844f932
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: 6af620284ed9c710196d8976a9f6cac1b3b36cf1
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 1%
+source-wordcount: '125'
+ht-degree: 0%
 
 ---
 
@@ -17,154 +17,158 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->为了提供更稳定和可扩展的集成，我们正在使用Workfront自动化与集成(Fusion)转向一种现代、灵活的集成方法。 在此过渡过程中，Workfront for Salesforce集成在&#x200B;**2026年2月28日**&#x200B;后不可用。
+>为了提供更稳定、更可扩展的集成，我们已转为使用Workfront自动化与集成(Fusion)的现代、灵活集成方法。 在此过渡过程中，Workfront for Salesforce集成&#x200B;**不再可用**。
 >
 >为了满足贵组织与Salesforce的集成需求，我们建议使用Workfront自动化和集成。
 >
->有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 >
->有关Salesforce的Workfront自动化和集成模块的特定功能的信息，请参阅[Salesforce模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules)。
+>有关Salesforce的Workfront自动化和集成模块的特定功能的信息，请参阅[Salesforce模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules)。
 
-在以[!DNL Adobe Workfront]管理员身份安装[!DNL Salesforce]的[!DNL Workfront]后，您可以通过将其添加到用户的[!UICONTROL Opportunity]和[!UICONTROL Account]的新分区中，使其可供用户使用
-[!UICONTROL Salesforce]中的版面。
+<!--
 
-有关安装[!DNL Workfront for Salesforce]的信息，请参阅[安装 [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)。
+After you install [!DNL Adobe Workfront] for [!DNL Salesforce] as a [!DNL Workfront] administrator, you can make it available to your users by adding it in a new section to their [!UICONTROL Opportunity] and [!UICONTROL Account]
+ page layouts in [!UICONTROL Salesforce]. 
 
-对于同时在[!DNL Workfront]和[!DNL Classic]框架中具有[!DNL Lightning Experience]的用户，必须将[!DNL WorkfrontOpportunities]和[!DNL WorkfrontAccounts] [!UICONTROL Visualforce]页面分别添加到[!UICONTROL Opportunity]和[!UICONTROL Accounts]页面布局。
+For information about installing [!DNL Workfront for Salesforce], see [Install [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
+
+For users to have [!DNL Workfront] available in both the [!DNL Classic] and [!DNL Lightning Experience] frameworks, you must add the [!DNL WorkfrontOpportunities] and the [!DNL WorkfrontAccounts] [!UICONTROL Visualforce] pages to the [!UICONTROL Opportunity] and [!UICONTROL Accounts] page layouts, respectively.
 
 
 
-## 访问要求
+## Access requirements
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td> <p>标准</p>
-   <p>规划</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p>
+   <p>Plan</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## 先决条件
+## Prerequisites
 
-* 您必须拥有有权访问系统管理员帐户的[!DNL Salesforce]实例。
-* 您必须拥有有权访问系统管理员帐户的[!DNL Workfront]实例。
+* You must have a [!DNL Salesforce] instance with access to a system administrator account.
+* You must have a [!DNL Workfront] instance with access to a system administrator account.
 
-## 在[!DNL Workfront]框架中配置[!DNL Salesforce Classic]部分
+## Configure the [!DNL Workfront] section in the [!DNL Salesforce Classic] framework
 
-1. 以Workfront管理员身份登录到[!DNL Salesforce]。
-1. 单击&#x200B;**[!UICONTROL 设置].**
-1. 在&#x200B;**[!UICONTROL 生成]**&#x200B;部分中，展开&#x200B;**[!UICONTROL 自定义].**
+1. Log in to [!DNL Salesforce] as a Workfront administrator.
+1. Click **[!UICONTROL Setup].**
+1. In the **[!UICONTROL Build]** section, expand **[!UICONTROL Customize].**
 
-1. 展开&#x200B;**[!UICONTROL Opportunities]**，然后单击&#x200B;**[!UICONTROL 页面布局]**&#x200B;以将[!DNL Workfront]部分添加到Opportunity。
+1. Expand **[!UICONTROL Opportunities]**, then click **[!UICONTROL Page Layouts]** to add the [!DNL Workfront] section to an Opportunity.
 
-   或
+   Or
 
-   展开&#x200B;**[!UICONTROL 帐户]**，然后单击&#x200B;**[!UICONTROL 页面布局]**&#x200B;以将[!DNL Workfront]部分添加到帐户
+   Expand **[!UICONTROL Accounts]**, then click **[!UICONTROL Page Layouts]** to add the [!DNL Workfront] section to an Account
 .
 
-1. 在现有布局上单击&#x200B;**[!UICONTROL 编辑]**。
+1. Click **[!UICONTROL Edit]** on an existing layout.
 
-   或
+   Or
 
-   单击&#x200B;**[!UICONTROL 新建]**&#x200B;以添加新布局。
+   Click **[!UICONTROL New]** to add a new layout. 
 
-1. （可选）将&#x200B;**[!UICONTROL Section]**&#x200B;组件拖到布局中，并将其放到所需位置。\
+1. (Optional) Drag the **[!UICONTROL Section]** component to the layout and drop it in the desired position.\
 
-1. （可选）为新节指定名称。
+1. (Optional) Specify a name for the new section.
 
-   我们建议您将此分区命名为&#x200B;**[!DNL Workfront]**。
+   We recommend that you name this section **[!DNL Workfront]**.
 
-1. （可选）为新节指定所需的&#x200B;**[!UICONTROL 布局]**&#x200B;和&#x200B;**[!UICONTROL Tab键顺序]**。
+1. (Optional) Specify the desired **[!UICONTROL Layout]** and **[!UICONTROL Tab-key Order]** for the new section.
 
-   我们建议您为&#x200B;**[!UICONTROL 分区选择]** 1 — 列[!DNL Workfront]布局。
+   We recommend that you select **[!UICONTROL 1-Column]** layout for the [!DNL Workfront] section. 
 
-1. 单击&#x200B;**[!UICONTROL 确定]**。
-1. 在&#x200B;**[!UICONTROL 布局]**&#x200B;区域中，单击&#x200B;**[!UICONTROL Visualforce页面].**
+1. Click **[!UICONTROL OK]**.
+1. In the **[!UICONTROL Layout]** area, click **[!UICONTROL Visualforce Pages].**
 
-1. 将&#x200B;**[!UICONTROL WorkfrontOpportunities]**&#x200B;组件拖放到&#x200B;**[!UICONTROL Opportunities]**&#x200B;布局中的新分区。
+1. Drag and drop the **[!UICONTROL WorkfrontOpportunities]** component to the new section in the **[!UICONTROL Opportunities]** Layout.
 
-   或
+   Or
 
-   将&#x200B;**[!UICONTROL WorkfrontAccounts]**&#x200B;组件拖放到&#x200B;**[!UICONTROL 帐户]**&#x200B;布局中的新分区。\
+   Drag and drop the **[!UICONTROL WorkfrontAccounts]** component to the new section in the  **[!UICONTROL Account]** Layout.\
 
-1. 单击新添加的组件右上角的&#x200B;**[!UICONTROL 属性]**&#x200B;图标。\
+1. Click the **[!UICONTROL Properties]** icon in the upper right of the newly added component.\
 
-1. 要获得最佳显示，请为[!DNL Workfront Visualforce]页面指定以下属性：
+1. To achieve an optimal display, specify the following properties for the [!DNL Workfront Visualforce] page:
 
-   * **[!UICONTROL 宽度（以像素或%为单位）]**： 100%
-   * **[!UICONTROL 高度（以像素为单位）]**： 600
-   * 选择&#x200B;**[!UICONTROL 显示滚动条]**。
+   * **[!UICONTROL Width (in pixels or %)]**: 100%
+   * **[!UICONTROL Height (in pixels)]**: 600
+   * Select **[!UICONTROL Show scrollbars]**.
 
-1. 单击&#x200B;**[!UICONTROL 确定]**。
-1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以保存布局。
+1. Click **[!UICONTROL OK]**. 
+1. Click **[!UICONTROL Save]** to save your layout.
 
-   现在，所有已为其分配此布局的用户都可以在其[!DNL Workfront]机会[!UICONTROL 或]帐户[!UICONTROL 对象上看到]部分。
+   All users who have this layout assigned to them are now able to see the [!DNL Workfront] section on their [!UICONTROL Opportunities] or [!UICONTROL Accounts] objects.
 
-   用户在[!DNL Workfront]部分看到[!DNL Workfront]登录屏幕。 如果他们没有[!DNL Workfront]帐户，则可以折叠该部分，但不会将其从布局中删除。
+   Users see a [!DNL Workfront] login screen on the [!DNL Workfront] section. If they do not have a [!DNL Workfront] account, they can collapse the section, but not remove it from their layout. 
 
-## 在[!DNL Workfront]框架中配置[!DNL Salesforce Lightning Experience]部分
+## Configure the [!DNL Workfront] section in the [!DNL Salesforce Lightning Experience] framework
 
-您可以将[!DNL Workfront]部分添加到[!DNL Salesforce] [!UICONTROL 机会]或帐户的布局中
-通过访问[!DNL Salesforce Lightning Experience]Setup[!UICONTROL 区域或帐户在]框架中
-或[!UICONTROL 机会]对象。
+You can add the [!DNL Workfront] section to the layout of a [!DNL Salesforce] [!UICONTROL Opportunity] or Account
+ in the [!DNL Salesforce Lightning Experience] framework either by accessing the [!UICONTROL Setup] area, or from an Account
+ or [!UICONTROL Opportunity] object. 
 
-* [在 [!DNL Workfront] 设置[!UICONTROL 级别配置]部分](#configure-the-workfront-section-at-the-setup-level-configure-the-workfront-section-at-the-setup-level)
-* [在机会或帐户级别配置 [!DNL Workfront] 部分](#configure-the-workfront-section-at-the-opportunity-or-account-level-configure-the-workfront-section-at-the-opportunity-or-account-level)
+* [Configure the [!DNL Workfront] section at the [!UICONTROL Setup] level](#configure-the-workfront-section-at-the-setup-level-configure-the-workfront-section-at-the-setup-level)
+* [Configure the [!DNL Workfront] Section at the Opportunity or Account level](#configure-the-workfront-section-at-the-opportunity-or-account-level-configure-the-workfront-section-at-the-opportunity-or-account-level)
 
-### 在[!DNL Workfront]设置[!UICONTROL 级别配置]部分 {#configure-the-workfront-section-at-the-setup-level}
+### Configure the [!DNL Workfront] section at the [!UICONTROL Setup] level {#configure-the-workfront-section-at-the-setup-level}
 
-1. 以系统管理员身份登录[!DNL Salesforce]。
-1. 单击&#x200B;**[!UICONTROL 设置]**&#x200B;图标，然后单击&#x200B;**[!UICONTROL 设置]**。
+1. Log into [!DNL Salesforce] as a system administrator. 
+1. Click the **[!UICONTROL Setup]** icon, then click **[!UICONTROL Setup]**.
 
-1. 展开&#x200B;**[!UICONTROL 对象和字段]**，然后单击&#x200B;**[!UICONTROL 对象管理器]**。
+1. Expand **[!UICONTROL Object and Fields]**, then click **[!UICONTROL Object Manager]**.
 
-1. 单击&#x200B;**[!UICONTROL Opportunity]**&#x200B;以自定义Opportunity的布局。
+1. Click **[!UICONTROL Opportunity]** to customize the layout of an Opportunity.
 
-   或
+   Or
 
-   单击&#x200B;**[!UICONTROL 帐户]**&#x200B;以自定义帐户的布局。
+   Click **[!UICONTROL Account]** to customize the layout of an Account.
 
-1. 单击&#x200B;**[!UICONTROL 页面布局]**。
-1. 单击现有页面布局的名称以对其进行编辑。
+1. Click **[!UICONTROL Page Layouts]**.
+1. Click the name of an existing page layout to edit it.
 
-   或
+   Or
 
-   单击&#x200B;**[!UICONTROL 新建]**&#x200B;以创建新的页面布局。
+   Click **[!UICONTROL New]** to create a new page layout.
 
-1. 继续[在下面的机会或帐户级别 [!DNL Workfront] 配置](#configure-the-workfront-section-at-the-opportunity-or-account-level-configure-the-workfront-section-at-the-opportunity-or-account-level)部分。
+1. Continue with [Configure the [!DNL Workfront] Section at the Opportunity or Account level](#configure-the-workfront-section-at-the-opportunity-or-account-level-configure-the-workfront-section-at-the-opportunity-or-account-level) below.
 
-### 在机会或帐户级别配置[!DNL Workfront]部分 {#configure-the-workfront-section-at-the-opportunity-or-account-level}
+### Configure the [!DNL Workfront] Section at the Opportunity or Account level {#configure-the-workfront-section-at-the-opportunity-or-account-level}
 
-1. 以系统管理员身份登录到[!DNL Salesforce]。
-1. 转到&#x200B;**[!UICONTROL 机会]**&#x200B;或&#x200B;**[!UICONTROL 帐户]**。
+1. Log in to [!DNL Salesforce] as a system administrator. 
+1. Go to an **[!UICONTROL Opportunity]** or **[!UICONTROL Account]**.
 
-1. 单击&#x200B;**[!UICONTROL 设置]**&#x200B;图标，然后单击&#x200B;**[!UICONTROL 编辑页面]**。
+1. Click the **[!UICONTROL Setup]** icon, then click **[!UICONTROL Edit Page]**.
 
-1. 展开&#x200B;**[!UICONTROL Custom-Managed]**&#x200B;部分。
-1. 将&#x200B;**[!DNL Workfront]**&#x200B;组件拖放到您的[!UICONTROL 机会]或帐户上
-页面。
+1. Expand the **[!UICONTROL Custom-Managed]** section.
+1. Drag and drop the **[!DNL Workfront]** component on your [!UICONTROL Opportunity] or Account
+ page.
 
-   我们建议对[!DNL Workfront]部分使用页面的完整宽度，而不是布局的其中一列。
+   We recommend using the full width of the page for the [!DNL Workfront] section instead of one of the columns of the layout.
 
-1. 单击&#x200B;**[!UICONTROL 保存]**。
+1. Click **[!UICONTROL Save]**.
 
-   现在，所有已为其分配此布局的用户都可以在其[!DNL Workfront]机会[!UICONTROL 或]帐户[!UICONTROL 对象上看到]部分。
+   All users who have this layout assigned to them are now able to see the [!DNL Workfront] section on their [!UICONTROL Opportunities] or [!UICONTROL Accounts] objects.
 
    >[!NOTE]
    >
-   >用户在[!DNL Workfront]部分看到[!DNL Workfront]登录屏幕。 如果他们没有[!DNL Workfront]帐户，则可以折叠该部分，但不会将其从布局中删除。 用户可以使用您启用的身份验证方法登录：增强型身份验证或您的安全断言标记语言(SAML) URL。
+   >Users see a [!DNL Workfront] login screen on the [!DNL Workfront] section. If they do not have a [!DNL Workfront] account, they can collapse the section, but not remove it from their layout. Users can log in using the authentication method you have enabled: Enhanced Authentication or your Security Assertion Markup Language (SAML) URL.
+
+   -->
 
