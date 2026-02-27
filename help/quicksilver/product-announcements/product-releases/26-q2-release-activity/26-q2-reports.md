@@ -4,10 +4,11 @@ description: 2026年第二季度报表增强功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8bcea5cec9f68deacc5f89ca7703303a1b00769f
+exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
+source-git-commit: aceb9f7bd6c62036838b15d74ee2a9b7843e5c11
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 1%
+source-wordcount: '428'
+ht-degree: 0%
 
 ---
 
@@ -31,29 +32,25 @@ ht-degree: 1%
 
 有关详细信息，请参阅[创建自定义报表](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
-<!--
-
-## Shareable Report Folders
+## 可共享报告文件夹
 
 >[!NOTE]
 >
->Preview: February 26, 2026
->Production fast release: March 12, 2026
->Production for everyone: April 16, 2026
+>预览：2026年2月26日
+>生产快速发布： 2026年3月12日
+>适用于所有人的生产： 2026年4月16日
 
-You can now organize and share reports using shareable report folders. This new feature helps teams that manage large volumes of reports maintain scalable and consistent access control:
+您现在可以使用可共享报告文件夹来组织和共享报告。 此新功能可帮助管理大量报表的团队维护可扩展且一致的访问控制：
 
-* **Create organized folder structures**: System administrators can create top-level folders, and users with manage access can create subfolders up to 4 levels deep.
-* **Granular permission controls**: Share folders with two permission levels:
-   * View: Users can open reports and share folders
-   * Manage: Users can edit folder details, add/remove items, and automatically receive manage access to all reports within the folder
-* **Inherited permissions**: Permissions cascade from parent folders to all subfolders and reports within the folder tree
-* **Enhanced list experience**: When you enable sharable folders, you will have access to the enhanced list experience. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+* **创建有组织的文件夹结构**：系统管理员可以创建顶层文件夹，具有管理权限的用户可以创建最多4层深的子文件夹。
+* **粒度权限控制**：共享具有两个权限级别的文件夹：
+   * 查看：用户可以打开报表和共享文件夹
+   * 管理：用户可以编辑文件夹详细信息，添加/删除项目，并自动获得对文件夹中所有报表的管理访问权限
+* **继承的权限**：权限从父文件夹级联到文件夹树中的所有子文件夹和报告
+* **增强型列表体验**：启用可共享文件夹后，您将有权访问增强型列表体验。 有关详细信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
 
 
-For more information, see [Use shareable report folders](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md).
-
--->
+有关详细信息，请参阅[使用可共享报表文件夹](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md)。
 
 ## 改进了画布功能板中图表分组的日期标签
 
@@ -63,10 +60,12 @@ For more information, see [Use shareable report folders](/help/quicksilver/repor
 >生产快速发布： 2026年3月12日
 >适用于所有人的生产： 2026年4月16日
 
+>[!NOTE]
+>
+>Canvas功能板当前处于Beta版。
+
 按日期分组数据的图表现在显示更清晰、更易读的日期标签。 通过此更新，日期标签会根据所选的“分组依据”选项（如日、周、月或年）进行动态调整，使图表更容易阅读和解释：
 
 <table> <tbody> <tr> <td>Day</td> <td>显示完整日期。 示例： 3/12/2026</td> </tr> <tr> <td>周</td> <td>显示已设置好格式的周开始日期。 例如，2026年3月8日</td> </tr> <tr> <td>Month</td> <td>显示月份和年份。 示例2026年3月</td> </tr> <tr> <td>Year</td> <td>仅显示年份。 示例：2026</td> </tr> </tbody> </table>
 
 以前，图表分组始终以数字格式显示选定时段的开始日期。
-
-

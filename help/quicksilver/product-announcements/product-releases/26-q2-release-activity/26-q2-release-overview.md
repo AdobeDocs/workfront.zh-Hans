@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
-source-git-commit: 860bd4bef75a90f4e1c5a21f38de95962804c00c
+source-git-commit: b889ba54594275587c97fe3a5073f2e28df97350
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1169'
 ht-degree: 2%
 
 ---
@@ -154,7 +154,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>每季度</strong></td>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}">更新了单次或批量分配模板任务时的体验</a><p>[!BADGE Off Schedule]{type=Neutral}</p><p> 在编辑单个模板任务或批量编辑这些任务时，我们更新了“编辑模板任务”框中的“工作总揽”部分。  </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}">更新了单次或批量分配模板任务时的体验</a><p>[！BADGE Off Schedule]{type=Neutral}</p><p> 在编辑单个模板任务或批量编辑这些任务时，我们更新了“编辑模板任务”框中的“工作总揽”部分。  </p>
         </td>
         <td><p>2026年2月5日</p></td>
         <td><p>自2026年2月5日起</p></td>
@@ -162,7 +162,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">在单次或批量分配任务时更新体验</a><p>[!BADGE Off Schedule]{type=Neutral}</p><p> 在编辑单个任务或批量编辑这些任务时，我们更新了“编辑任务”框中的“工作总揽”部分。 </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">在单次或批量分配任务时更新体验</a><p>[！BADGE Off Schedule]{type=Neutral}</p><p> 在编辑单个任务或批量编辑这些任务时，我们更新了“编辑任务”框中的“工作总揽”部分。 </p>
         </td>
         <td><p>2026年1月26日</p></td>
         <td><p>自2026年2月5日起</p></td>
@@ -192,24 +192,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><p>2026年3月12日</p></td>
         <td><p>2026年4月16日</p></td>
     </tr>
-<!--    <tr>
+   <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Shareable Report Folders</a><p></p>
-            <p>You can now organize and share reports using shareable report folders. This new feature helps teams that manage large volumes of reports maintain scalable and consistent access control.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">可共享报告文件夹</a><p></p>
+            <p>您现在可以使用可共享报告文件夹来组织和共享报告。 此新功能可帮助管理大量报表的团队保持可扩展和一致的访问控制。</p>
         </td>
-        <td><p>February 26, 2025</p></td>
-        <td><p>March 12, 2026</p></td>
-        <td><p>April 16, 2026</p></td>
-    </tr>-->
-    <!--<tr>
+        <td><p>2025年2月26日</p></td>
+        <td><p>2026年3月12日</p></td>
+        <td><p>2026年4月16日</p></td>
+    </tr>
+    <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Improved Date Labels for Chart Groupings in Canvas Dashboards</a><p></p>
-            <p>Charts that group data by date now display clearer, more readable date labels. With this update, date labels dynamically adjust based on the selected Group by option—such as day, week, month, or year—making charts easier to read and interpret at a glance.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">画布功能板中图表分组的日期标签已得到改进</a><p></p>
+            <p>按日期分组数据的图表现在显示更清晰、更易读的日期标签。 通过此更新，日期标签会根据选定的“分组依据”选项（如日、周、月或年）进行动态调整，使图表更易于一目了然地阅读和解释。</p><p>注意：画布功能板当前为测试版。</p>
         </td>
-        <td><p>February 26, 2025</p></td>
-        <td><p>March 12, 2026</p></td>
-        <td><p>April 16, 2026</p></td>
-    </tr>-->
+        <td><p>2025年2月26日</p></td>
+        <td><p>2026年3月12日</p></td>
+        <td><p>2026年4月16日</p></td>
+    </tr>
              </tbody>
         </table>
 
@@ -325,13 +325,13 @@ Workfront API版本21于2025年10月23日发布。 对于API版本21，我们修
 * 适用于Salesforce的Workfront。
 
 为了满足贵组织与Google Workspace的集成需求，我们建议使用Workfront自动化和集成。
-有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 
 ### Workfront 维护更新
 
-有关2025年第二季度版本中进行的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hans)。
+有关2025年第二季度版本中进行的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
 
 ### 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hans)的“新增功能”部分。
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的“新增功能”部分。
