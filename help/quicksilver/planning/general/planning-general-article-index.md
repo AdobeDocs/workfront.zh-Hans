@@ -1,15 +1,15 @@
 ---
 title: Adobe Workfront规划一般信息：文章索引
-description: 作为营销运营负责人，您可以使用Adobe Workfront Planning为所有团队在营销生命周期中组织工作。 此部分中的文章介绍有关Workfront Planning的一般概念以及如何实施的最佳实践，并概述当前可用的一些功能。
+description: 作为营销运营负责人，您可以使用 Adobe Workfront 规划来统筹整个营销生命周期内的团队工作。此部分中的文章介绍有关Workfront Planning的一般概念以及如何实施的最佳实践，并概述当前可用的一些功能。
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8c4e4fbb-2f21-43a1-bfb0-d23ac1a33705
-source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
+source-git-commit: 61c6bc0770416e02390f4e3de869d9e2565897d4
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 0%
+source-wordcount: '187'
+ht-degree: 23%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-作为营销运营负责人，您可以使用Adobe Workfront Planning为所有团队在营销生命周期中组织工作。 此部分中的文章介绍有关Workfront Planning的一般概念以及如何实施的最佳实践，并概述当前可用的一些功能。
+作为营销运营负责人，您可以使用 Adobe Workfront 规划来统筹整个营销生命周期内的团队工作。此部分中的文章介绍有关Workfront Planning的一般概念以及如何实施的最佳实践，并概述当前可用的一些功能。
 
 查看以下文章：
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 * [Adobe Workfront 2023年计划发布活动](/help/quicksilver/planning/general/release-activity-archives-2023.md)
 * [Adobe Workfront Planning对象限制概述](/help/quicksilver/planning/general/limitations-overview.md)
 * [Adobe Workfront Planning实施建议](/help/quicksilver/planning/general/planning-best-practices.md)
-* [Adobe Workfront规划Designer入门](/help/quicksilver/planning/general/planning-ai-designer.md)
-  <!--* [Get started with the Adobe Workfront Planning free trial](/help/quicksilver/planning/general/trial-workfront-planning.md)-->
+* [Adobe Workfront规划Designer快速入门](/help/quicksilver/planning/general/planning-ai-designer.md)
+* [Adobe Workfront Planning免费试用版快速入门](/help/quicksilver/planning/general/trial-workfront-planning.md)
 
 
