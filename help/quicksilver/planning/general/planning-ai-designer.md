@@ -6,9 +6,9 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
-source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1501'
 ht-degree: 0%
 
 ---
@@ -226,13 +226,10 @@ ht-degree: 0%
 1. （可选）单击&#x200B;**显示或隐藏预览屏幕**&#x200B;图标![隐藏或显示预览屏幕图标](assets/hide-show-preview-screen-in-planning-designer.png)以打开或关闭右侧的预览屏幕。
 1. 单击&#x200B;**在新选项卡中打开工作区** ![在新选项卡中打开工作区](assets/open-workspace-on-new-tab-icon.png)以在新选项卡中打开要更新的工作区。
 1. 单击&#x200B;**关闭**&#x200B;图标&#x200B;**X**&#x200B;以关闭Planning Designer并打开“工作区”区域。
-1. 打开使用Planning Designer编辑的工作区，然后对其对象进行进一步更改。
+1. （可选）要编辑工作区，请执行以下操作之一：
 
-<!-- for March 2 -- replace the last step with this: 
-1. (Optional) To edit a workspace, do one of the following:
-
-    * Open the workspace and manually make changes to it. For information, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md). 
-    * Click **Edit with AI**. This opens the Planning Designer. Repeat the steps above to use AI and make further changes to the workspace.-->
+   * 打开工作区并手动对其进行更改。 有关信息，请参阅[编辑工作区](/help/quicksilver/planning/architecture/edit-workspaces.md)。
+   * 单击&#x200B;**使用AI编辑**。 这将打开Planning Designer。 重复上述步骤以使用AI，并对工作区进行进一步更改。
 
 ## 为您的组织关闭Planing Designer
 

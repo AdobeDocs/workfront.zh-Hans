@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 973a095e8ff08e382010247d9ed38e48d4b2c564
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '1025'
 ht-degree: 2%
 
 ---
@@ -151,31 +151,23 @@ This article describes how you can share a view with others. For information abo
 
    工作区右上方的![共享按钮](assets/share-button-on-workspace-top-right.png)
 
-   <!--only for March 4: * <span class="preview">(Conditional) Depending on your access level, the following scenarios exist: </span>-->
+1. <span class="preview">（视情况而定）根据您拥有的访问级别，执行以下操作之一：
 
-1. <span class="preview">（视情况而定）如果您是系统管理员，请从以下选项中选择：</span>
+   * 如果您是系统管理员，请从以下选项中选择：</span>
 
-   <div class="preview">
+      * <span class="preview">**只有受邀人员才能访问**：您必须选择共享框中的实体并选择他们对工作区的访问权限。 这是默认选项。</span>
+      * <span class="preview">**系统中的每个人都可以查看**：系统中有权访问Planning的所有人都可以在Planning的&#x200B;**工作区**&#x200B;区域查看工作区。</span>
 
-   * **只有受邀人员才能访问**：您必须选择共享框中的实体并选择他们对工作区的访问权限。 这是默认选项。
-   * **系统中的每个人都可以查看**：系统中有权访问Planning的所有人都可以在Planning的&#x200B;**工作区**&#x200B;区域查看工作区。
+   * <span class="preview">（视情况而定）如果您是具有Standard许可证的工作区经理，则可以看到以下选择之一，但无法更改它们：</span>
 
-   </div>
+      * <span class="preview">**只有受邀人员才能访问**。 这是默认设置。</span>
+      * <span class="preview">**系统中的每个人都可以查看**</span>
 
-   <!--only  for March 4:
+     <span class="preview">必须要求系统管理员更改工作区的全局权限。</span>
 
-      * <span class="preview">If you are a workspace manager with a Standard license, you can see one of the following selections but you cannot change them:</span>
+1. 在&#x200B;**授予此工作区的访问权限**&#x200B;字段中，开始键入用户、组、团队、公司或工作角色的名称，然后在列表显示该名称时单击该名称。
 
-         <div class="preview">
-         
-         * **Only invited people can access**
-         * **Everyone in the system can view**
-         
-         </div>-->
-
-1. 在&#x200B;**授予此工作区的访问权限**&#x200B;字段中，开始键入用户、组、团队、公司或工作角色的名称，然后在列表显示该名称时单击该名称。<!--update screen shot at the release of system-wide permissions for workspaces-->
-
-   ![与组共享UI](assets/sharing-ui-with-groups.png)
+   <span class="preview">![与组共享UI](assets/sharing-ui-with-groups.png)</span>
 
    >[!NOTE]
    >
@@ -207,7 +199,7 @@ This article describes how you can share a view with others. For information abo
      ![访问请求的电子邮件通知](assets/email-notification-for-access-request.png)
 1. （视情况而定）在Workfront的通知区域中，单击应用程序内通知
 或
-在电子邮件通知中，单击&#x200B;**查看所有通知**，然后单击列表中的通知。
+在电子邮件通知中，单击**查看所有通知**，然后单击列表中的通知。
 
    显示&#x200B;**待处理访问请求**&#x200B;框。
 

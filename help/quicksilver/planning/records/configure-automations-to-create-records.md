@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
-source-git-commit: f28d2eef57f63cede3a08b06053e8dc6431f21d4
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
 source-wordcount: '1777'
 ht-degree: 3%
@@ -161,7 +161,7 @@ ht-degree: 3%
       * 按钮点击
       * <span class="preview">字段值更改</span>
 
-   1. （视情况而定）如果您选择&#x200B;**按钮，请单击**，请转到下面描述&#x200B;**操作**&#x200B;区域的步骤。
+   1. （视情况而定）如果您选择&#x200B;**按钮，请单击**，请转到下面描述&#x200B;**操作**&#x200B;区域的步骤9。<!--ensure this number stays accurate-->
 
    1. <span class="preview">（视情况而定）如果您选择了&#x200B;**字段值更改**，请在&#x200B;**设置**&#x200B;分区中执行以下操作：</span>
 
@@ -247,7 +247,7 @@ ht-degree: 3%
         这是必填字段。
 
         <!--submitted a change in functionality and UI text for this - revise??-->
-在&#x200B;**映射字段**&#x200B;区域中，更新以下信息：
+在**映射字段**&#x200B;区域中，更新以下信息：
 
          * **传输自**：从创建自动化的记录类型中选择字段，以将其映射到连接的记录类型的字段。
          * **传输到**：从新创建的记录中选择将使用您运行自动化的记录中的信息填充的字段。

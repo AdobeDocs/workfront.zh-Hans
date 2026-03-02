@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: f28d2eef57f63cede3a08b06053e8dc6431f21d4
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '3588'
+source-wordcount: '3563'
 ht-degree: 2%
 
 ---
@@ -504,8 +504,6 @@ ht-degree: 2%
 
    ![分组应用于表视图](assets/grouping-applied-in-table-view.png)
 
-1. <span class="preview">（可选）从选定字段右侧的排序下拉菜单中选择A-Z或Z-A。 这将相应地为时间轴中的分组排序。</span>
-
 1. （可选）在&#x200B;**按**&#x200B;对记录进行分组框中，单击为分组选择的字段右侧的&#x200B;**x**&#x200B;图标以删除该分组
 
    或
@@ -596,7 +594,7 @@ To sort grouped records:
 
    ![实时指示器表字段和头像连接](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
-<!--maybe include a screen shot after release if they update the UI text in this list of users-->
+   <!--maybe include a screen shot after release if they update the UI text in this list of users-->
 
 1. <span class="preview">（可选）单击包含其他人编辑的字段的单元格右上角的三角形。 将显示当前正在编辑该字段的用户列表。</span>
 

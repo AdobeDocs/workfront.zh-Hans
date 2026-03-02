@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
-source-git-commit: 973a095e8ff08e382010247d9ed38e48d4b2c564
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1341'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-在Adobe Workfront Planning的记录的“连接的记录”页面中访问对象时，您可以在列表视图中显示对象及其字段。
+在Adobe Workfront Planning的记录的“连接的记录”页面中访问项目时，您可以在列表视图中显示项目及其字段。<!--change 'projects' to other objects when they become available and the location of the list view-->
 
-本文介绍了如何在记录的“连接的记录”页面中创建或编辑列表视图，以及如何编辑视图中的对象。
+本文介绍了如何创建或编辑在记录的“连接的记录”页面中显示项目的列表视图，以及如何在视图中编辑项目。<!--change 'projects' to other objects when they become available and the location of the list view-->
 
 ## 访问权限要求
 
@@ -72,18 +72,19 @@ ht-degree: 0%
 
 ## 有关列表视图的注意事项
 
-* 您不能在列表视图的记录类型页中查看记录。 在记录的“连接的记录”页中查看下列对象时，只能在列表视图中显示这些对象：
+* 您不能在列表视图中查看记录类型页面中的所有对象类型。
+
+  在记录的“连接的记录”页中查看下列对象时，只能在列表视图中显示这些对象：
 
    * Workfront项目
 
   有关创建连接的记录页面的信息，请参阅[将连接的记录页面添加到记录](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)。
 * 在记录的已连接记录页面中查看列表视图之前，您必须将Workfront项目与Planning记录类型连接。 有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
-* 列表视图与增强型列表类似。 有关详细信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
 
 
 ## 管理列表视图 {#manage-a-list-view}
 
-有关在Workfront中管理列表视图的详细信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
+列表视图与增强型列表类似。 有关详细信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
 
 {{step1-to-planning}}
 
@@ -114,7 +115,7 @@ ht-degree: 0%
       >
       >* 不能修改系统视图。
       >
-      >* <span class="preview">您可以在修改视图以恢复其原始首选项后，重置与您共享的视图，也可以随更改一起复制并共享副本。 有关详细信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。</span>
+      >* <span class="preview">您可以重置与您共享的视图，在您修改它以恢复其原始首选项后，您只能查看该视图，或者您可以将其与更改一起复制并共享副本。 有关详细信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。</span>
 
    1. 单击&#x200B;**筛选器**&#x200B;图标![筛选器图标](assets/filter-icon.png)将筛选器添加到视图。 结果会立即在列表中过滤。 您无法保存并命名筛选器。 在将来的访问页面时，将会记住过滤器，并且这些过滤器是共享视图的一部分。
    1. 单击&#x200B;**列**&#x200B;图标![列图标](assets/columns-icon.png)以选择要显示或隐藏的列。
@@ -128,23 +129,23 @@ ht-degree: 0%
       您只能将现有字段添加到列表视图。
 不能删除第一列中显示的列表视图中的主字段。
 
-
    1. <span class="preview">单击&#x200B;**格式化单元格**&#x200B;图标![格式化单元格图标](assets/format-cells-icon.png)。 **格式**&#x200B;框打开。</span> <!--change the name of the box when they update it-->
       <span class="preview">执行以下操作：</span>
 
+      1. 单击&#x200B;**添加条件**。
+      1. <span class="preview">在&#x200B;**If**&#x200B;行中，选择一个字段并选择一个字段值，然后单击&#x200B;**添加条件**。</span>
+
+         >[!TIP]
+         >
+         ><span class="preview">只有列表视图中可见的字段可用于条件格式。</span>
+
+      1. <span class="preview">（可选）单击&#x200B;**If**&#x200B;行中的&#x200B;**添加条件**&#x200B;以向同一规则添加更多条件。</span>
+
+         >[!TIP]
+         >
+         ><span class="preview">在一个条件规则中最多可以添加10个条件，一个字段最多可以有20个规则。</span>
+
       <div class="preview">
-
-      1. 在&#x200B;**If**&#x200B;行中，单击&#x200B;**添加条件**，然后选择要作为格式化依据的字段并选择字段值。
-
-         >[!TIP]
-         >
-         >只有列表视图中可见的字段可用于条件格式。
-
-      1. （可选）单击&#x200B;**If**&#x200B;行中的&#x200B;**添加条件**&#x200B;以将更多条件添加到同一规则。
-
-         >[!TIP]
-         >
-         >在一个条件规则中最多可添加10个条件，一个字段最多可有20个规则。
 
       1. 单击条件之间的&#x200B;**Or**&#x200B;连接器以更改为&#x200B;**And**，并指示必须同时满足多个条件。 **或**&#x200B;是默认连接器。
       1. 在&#x200B;**格式**&#x200B;行中，选择一个字段以指示将设置哪一列的格式。<!--edit this area, if it changes names??-->
