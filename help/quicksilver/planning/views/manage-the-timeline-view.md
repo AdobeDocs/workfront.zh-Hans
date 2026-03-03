@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+source-git-commit: 892a86f053fb170872b0b4b6126b67974129d372
 workflow-type: tm+mt
-source-wordcount: '4014'
+source-wordcount: '4067'
 ht-degree: 2%
 
 ---
@@ -190,7 +190,7 @@ ht-degree: 2%
    >在“设置”区域中设置自定义季度后，时间线视图显示自定义季度，而不是传统季度。
    >有关信息，请参阅[启用自定义季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
-1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”**&#x200B;**，然后要求您的Workfront管理员设置自定义季度。
+1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”****，然后要求您的Workfront管理员设置自定义季度。
 
    >[!TIP]
    >
@@ -401,12 +401,23 @@ ht-degree: 2%
 1. 为记录类型创建时间线视图，如[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)一文中所述。
 1. 单击时间轴视图右上角的&#x200B;**分组**。
 
-   ![使用链接字段分组UI时间线视图](assets/grouping-ui-timeline-view-with-linked-fields.png)
+   <span class="preview">![使用链接字段分组UI时间线视图](assets/grouping-ui-timeline-view-with-linked-fields.png)</span>
 
 1. 单击其中一个建议的字段，或单击&#x200B;**选择其他字段**，然后搜索其他字段，然后在列表中显示该字段时单击它。
 
    分组将自动应用于时间轴，并且记录显示在分组框中。
-1. <span class="preview">（可选）单击所选字段名称旁边的&#x200B;**A -> Z**&#x200B;或&#x200B;**Z -> A**&#x200B;下拉菜单，以选择分组的升序或降序排序顺序。 这些分组按您在时间轴视图中选择的字母顺序显示。</span>
+1. <span class="preview">（可选且有条件）根据您选择作为分组依据的字段类型，选择以下排序选项之一以对分组进行升序或降序排序： </span>
+
+   <div class="preview">
+
+   * 选择字段、文本字段、段落字段、连接的记录或对象、人员字段的&#x200B;**A -> Z**&#x200B;或&#x200B;**Z -> A**
+   * 数字、货币或百分比字段的&#x200B;**0 -> 9**&#x200B;或&#x200B;**9 -> 0**。
+   * 日期字段的&#x200B;**最早 — >最晚**&#x200B;或&#x200B;**最晚 — >最早**
+
+   </div>
+
+   <span class="preview">时间线视图中的分组将相应地排序。 分组内的记录按其&#x200B;**开始日期**（默认排序）的顺序排序。</span>
+
 1. （可选）重复上述步骤以添加最多3个分组。
 
    为分组选择的字段数将显示在分组图标旁边。
