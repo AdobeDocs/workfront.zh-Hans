@@ -6,9 +6,9 @@ description: 使用可共享报表文件夹整理您创建的报表，并与Adob
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 65831f2e-9092-4e99-a86b-40df42c713bf
-source-git-commit: 650d24c36c3ccee810b8918ccdf456f607b055e9
+source-git-commit: 6a56485ef5a36aac92fbed73bd6749ed63796a58
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '771'
 ht-degree: 2%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 2%
 
 ## 与其他用户共享报表文件夹
 
-当用户共享文件夹时，他们将继承对该文件夹树中所有子文件夹的访问权限。 用户还必须有权访问每个报表，可以通过文件夹权限或直接报表共享进行访问。
+当用户共享文件夹时，他们将继承对该文件夹树中所有子文件夹的访问权限。
 
 {{step1-to-reports}}
 
@@ -135,3 +135,7 @@ ht-degree: 2%
 ## 可共享文件夹的新列表体验
 
 当您在报告区域访问可共享文件夹时，您将看到新的列表体验，该体验允许您轻松查看和管理文件夹和报告。 有关新列表体验的详细信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
+
+>[!NOTE]
+>
+>增强列表体验不支持高级字段。 要使用这些字段，您可以创建报告。
