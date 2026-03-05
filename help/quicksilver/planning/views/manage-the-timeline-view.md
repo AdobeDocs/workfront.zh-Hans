@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 892a86f053fb170872b0b4b6126b67974129d372
+source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
 workflow-type: tm+mt
-source-wordcount: '4067'
+source-wordcount: '4066'
 ht-degree: 2%
 
 ---
@@ -176,7 +176,7 @@ ht-degree: 2%
 
      >[!TIP]
      >
-     >此消息应仅在您的组织购买后立即显示，在购买前已启用了计划和自定义季度。 为您的组织启用Workfront规划后，不允许季度之间出现重叠和间隔。
+     >此消息应在您的组织购买后立即显示。在购买前已启用了计划和自定义季度。 为您的组织启用Workfront规划后，不允许季度之间出现重叠和间隔。
 
    * 如果季度已部分设置，并且同一年中的某些月份缺失，您可能会在滚动显示本年度其余时间需要使用缺失的季度来设置缺失的季度时收到通知。
 
@@ -190,7 +190,7 @@ ht-degree: 2%
    >在“设置”区域中设置自定义季度后，时间线视图显示自定义季度，而不是传统季度。
    >有关信息，请参阅[启用自定义季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
-1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”**&#x200B;**，然后要求您的Workfront管理员设置自定义季度。
+1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”****，然后要求您的Workfront管理员设置自定义季度。
 
    >[!TIP]
    >

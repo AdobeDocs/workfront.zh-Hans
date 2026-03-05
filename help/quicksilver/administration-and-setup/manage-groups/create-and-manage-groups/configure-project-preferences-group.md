@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
 workflow-type: tm+mt
-source-wordcount: '2742'
+source-wordcount: '2839'
 ht-degree: 2%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 2%
 # 配置组的项目首选项
 
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 如果您是组管理员并且Adobe Workfront管理员为系统中的所有组解锁了项目首选项，则可以为组配置该首选项，以影响您的组创建的所有后续项目。
 
@@ -39,17 +39,17 @@ ht-degree: 2%
 
 有关Workfront管理员如何解锁项目首选项的信息，请参阅[锁定或解锁系统中所有组的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td>Adobe Workfront 包</td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
@@ -113,7 +113,7 @@ ht-degree: 2%
 </td></tr>
   <tr> 
    <td role="rowheader">将新项目的状态设置为</td> 
-   <td> <p>确定新项目的状态。</p> <p><b>注释</b>   
+   <td> <p>确定新项目的状态。</p> <p><b>注意</b>   
      <ul> 
       <li>如果您或其他Workfront管理员隐藏此处选择的状态，则默认状态将更改为状态列表中的第一个状态。</li> 
      </ul> 
@@ -166,7 +166,7 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">时间表开始日期</td> 
+   <td role="rowheader"><b>时间表开始日期</b></td> 
    <td> <p>确定从创建新项目开始日期还是从创建项目完成日期开始计划新项目。</p> 
     <ul> 
      <li><strong>开始日期</strong>：新任务默认为尽快任务限制，并提示项目经理提供项目的计划开始日期。</li> 
@@ -174,7 +174,7 @@ ht-degree: 2%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">用户空闲时间</td> 
+   <td role="rowheader"><b>用户空闲时间</b></td> 
    <td> <p>确定任务的主要被分配人的休假是否调整了项目上该任务的计划日期。</p> 
     <ul> 
      <li> <p><strong>考虑任务持续时间中的用户休息时间</strong>：如果休息时间发生在任务持续时间内，则为任务的主要被分配者安排的任何休息时间都会调整任务的计划日期。 这是默认设置。 </p> <p>例如，如果一项带有尽可能早限制的任务的计划于6月1日开始并在6月3日完成，而主要被分配人将6月2日标记为休假，则该任务的计划日期将调整为6月1日至6月4日。</p> <p><b>重要信息</b>：选择此设置时，任务的持续时间不会更改。 根据任务限制，只有计划的日期会更改。</p> </li> 
@@ -215,14 +215,14 @@ ht-degree: 2%
    <td role="rowheader"> <p><strong>当一个用户被分派到一个任务时，使用……</strong>的计划 </p> </td> 
    <td> <p>如果项目未分配计划，或分配给其任务的用户未分配计划，则[!DNL Workfront]使用系统默认计划计算任务的时间表。</p>
 
-<p>如果您为项目中的任务分配了一个用户，并且项目和用户都有一个与之关联的计划，则[!UICONTROL Workfront]将使用以下计划：</p> 
+<p>如果您为项目中的任务分配了一个用户，并且项目和用户都有一个与之关联的计划，则[！UICONTROL Workfront]将使用以下计划：</p> 
     <ul> 
-     <li><strong>[!UICONTROL 用户]</strong>：任务上已分配用户的计划以计算时间线。</li> 
-     <li><strong>[!UICONTROL 项目]</strong>：用于计算任务时间线的项目计划。</li> 
+     <li><strong>[！UICONTROL用户]</strong>：任务上已分配用户的计划以计算时间线。</li> 
+     <li><strong>[！UICONTROL项目]</strong>：用于计算任务时间线的项目计划。</li> 
     </ul> <p>有关计划的详细信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">创建计划</a>。</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>时间线计算 </p> </td> 
+   <td role="rowheader"> <p><b>时间线计算</b></p> </td> 
    <td> 
     <ul> 
      <li><strong>每个工作日的典型小时数</strong>：为将处理项目的用户设置典型工作日的小时数。 默认值为8小时。</li> 
@@ -233,7 +233,12 @@ ht-degree: 2%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p><strong>自定义季度</strong> </p> </td> 
-   <td> <p>为将处理项目的用户配置自定义年度季度。 自定义季度通常是不匹配日历年内传统季度划分的季度。 您可以添加多个自定义季度。 有关详细信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">启用自定义季度</a>。</p> <p><b>注意</b>： Workfront管理员无法解锁自定义季度首选项。</p> </td> 
+   <td> 
+   <span class="preview">自定义季度区域已从预览环境中的组的项目偏好设置分区中删除。</span>
+   <p>自定义季度通常是不匹配日历年内传统季度划分的季度。 Workfront管理员可以在<b>设置</b>区域中添加多个自定义季度。 有关详细信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">启用自定义季度</a>。</p>  
+   <p><b>重要<b></p>
+   <p>您无法作为组管理员更改“自定义季度”配置。 <p>Workfront管理员无法解锁“自定义季度”首选项，因此组管理员可以对其进行管理。</p> <p>对组管理员而言，“自定义季度”区域是只读的。</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>

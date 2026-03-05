@@ -8,16 +8,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f643d36-6235-4fd3-b6d3-54fbd03c9b33
-source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
+source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 0%
+source-wordcount: '451'
+ht-degree: 3%
 
 ---
 
 # 启用自定义季度
 
-<!--Audited: 11/2024-->
+<!--Audited: 03/2026-->
+
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 出于报告目的，如果贵组织的季度基于日历日期以外的特定标准（如工作日或购物日），则可能需要创建自定义季度。
 
@@ -26,9 +30,9 @@ ht-degree: 0%
 * 仅购买[!DNL Workfront]的客户最多可以为其[!DNL Adobe Workfront]系统配置八个自定义季度。
 * 购买[!DNL Workfront]和[!DNL Workfront Planning]的客户可以为其[!DNL Workfront]系统配置最多100个季度，这些季度也在[!DNL Planning]中提供。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,16 +40,16 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] 包</td> 
-   <td><p>任何</p></td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p>
-       <p>[!UICONTROL 计划]</p></td>
+   <td><p>[！UICONTROL标准版]</p>
+       <p>[！UICONTROL计划]</p></td>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,9 +62,12 @@ ht-degree: 0%
 
 {{step-1-to-setup}}
 
-1. 单击&#x200B;**[!UICONTROL 项目首选项]** > **[!UICONTROL 项目].**
+1. （视情况而定）根据您从中访问自定义季度的环境，执行以下操作之一：
 
-1. 在&#x200B;**[!UICONTROL 时间线]**&#x200B;部分中，选择&#x200B;**[!UICONTROL 启用自定义季度]**。
+   * 在生产环境中，单击&#x200B;**[!UICONTROL 项目首选项]** > **[!UICONTROL 项目].**
+   * <span class="preview">在“预览”环境中，单击&#x200B;**[!UICONTROL 自定义季度]**。</span>
+
+1. 选择&#x200B;**[!UICONTROL 启用自定义季度]**。
 
 1. 键入自定义季度的名称，如“Fiscal Q1 2021”。
 1. 选择自定义季度的开始和结束日期。
@@ -77,7 +84,6 @@ ht-degree: 0%
 
 1. （可选且有条件）如果贵公司只购买了[!DNL Workfront]，而没有购买[!DNL Workfront Planning]，请创建引用会计季度的报表元素。
 
-
    **示例：**&#x200B;为[!UICONTROL 项目]列表创建过滤器，并包含引用自定义季度项目的计划完成日期。
 
    ![包含自定义季度的“项目”筛选器](assets/example-of-project-filter-with-custom-quarters.png)
@@ -87,5 +93,5 @@ ht-degree: 0%
    有关报表元素的信息，请参阅[报表元素：筛选器、视图和分组](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)。
 
    有关创建筛选器的信息，请参阅[在 [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)中创建或编辑筛选器。
-1. （可选且有条件）如果您有权访问[!DNL Workfront Planning]，请转到记录类型页面并打开时间线视图。 视图将显示新的自定义季度。
+1. （可选且有条件）如果您的公司购买了Workfront Planning并且您有权访问[!DNL Workfront Planning]，请转到记录类型页面并打开时间线视图。 视图将显示新的自定义季度。
 有关信息，请参阅[管理时间线视图](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
