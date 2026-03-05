@@ -1,14 +1,14 @@
 ---
 title: Workfront的人工智能助手
 content-type: reference
-description: 了解Adobe Workfront中的AI助手
+description: 了解 Adobe Workfront 中的 AI 助手
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: e8e10f02f77f6c1df9f0af380eb16cc6bbc3b5d1
+source-git-commit: 2619aa432a8c0b12d0d910df8eb05447fa50f387
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 1%
+source-wordcount: '834'
+ht-degree: 4%
 
 ---
 
@@ -22,28 +22,26 @@ Workfront的AI助手通过提供应用程序内信息和自然语言对话建议
 
 ## 访问权限要求
 
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-   <td><p>新建：任何</p>
-       <p>或</p>
-       <p>当前：不可用</p></td>
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>选择或更高版本 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td><p>新增：标准</p>
-       <p>或</p>
-       <p>当前：不可用</p></td>
+   <td><p>标准</p>
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## AI助理的先决条件
 
