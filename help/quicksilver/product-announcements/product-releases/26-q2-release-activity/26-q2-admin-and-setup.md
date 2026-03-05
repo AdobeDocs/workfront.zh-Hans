@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: 860bd4bef75a90f4e1c5a21f38de95962804c00c
+source-git-commit: d3a7c3c03b6be87f3adf2fd67b9136bc2be9c24b
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,23 @@ ht-degree: 0%
 本页介绍了在2026年第二季度版本中对“预览”环境所做的管理员增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2026年第二季度发布周期中此时可用的所有更改列表，请参阅[2026年第二季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+
+## 现在，自定义季度在设置中作为单独页面提供
+
+>[!NOTE]
+>
+>预览：2026年3月5日
+>生产快速发布： 2026年4月15日
+>适用于所有人的生产： 2026年4月16日
+
+我们已从“项目首选项”部分移动了“自定义季度”区域。 它现在是“设置”中的独立部分。 
+此更新包括以下内容：
+
+* 自定义季度区域将从设置中的项目偏好设置部分中移除
+* 自定义季度部分已添加到设置左侧面板。 功能保持不变。 
+* “自定义季度”部分已从组的项目偏好设置部分中移除。 组管理员无法再查看自定义季度设置。 
+
+有关信息，请参阅[启用自定义季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
 ## 默认情况下折叠自定义表单部分
 
