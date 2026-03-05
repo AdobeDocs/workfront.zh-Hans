@@ -270,7 +270,7 @@ And
 
    启用后，记录类型可访问，并可从其他工作区连接到。
 
-1. <!--<span class="preview">(Conditional) Depending on which license you have,</span>--> 选择可以访问记录类型的工作区。 从以下选项中进行选择：
+1. &#x200B;<!--<span class="preview">(Conditional) Depending on which license you have,</span>--> 选择可以访问记录类型的工作区。 从以下选项中进行选择：
 
    <!--check names of the setting: System wide?? OR All workspaces??-->
 
