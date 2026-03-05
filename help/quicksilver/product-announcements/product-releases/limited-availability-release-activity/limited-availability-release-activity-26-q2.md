@@ -9,10 +9,10 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 32c616b2-5bba-434e-9918-c27f6518693d
-source-git-commit: 56e5af94e0e98cf680db182f10143f5503e4260b
+source-git-commit: caad1c709da790e28df39a4a6092ef1ebfa42357
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 1%
+source-wordcount: '367'
+ht-degree: 0%
 
 ---
 
@@ -44,6 +44,26 @@ ht-degree: 1%
 
 有关信息，请参阅[编辑任务](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)。
 
+### 保留人员配备计划的记帐费率
+
+>[!NOTE]
+>
+>生产发布日期： 2026年3月5日
+
+我们已在“人员配备计划详细信息”页面的“财务”部分添加了&#x200B;**保留帐单**&#x200B;字段。
+
+当此标志设置为False（关）时，不会保留记帐费率，并且费率层次结构用于记帐费率计算。
+
+当此标志设置为True （开）时：
+
+* 人员配置计划上所分配资源的当前记帐费率将保留，层次结构中费率的任何变动都不会反映在人员配置计划的“资源”区域。
+* 如果向“资源”表添加新行，则保留来自记帐费率层次结构的初始记帐费率。
+* 如果用户在启用标记之前手动覆盖了记帐费率值，则覆盖率将保留。 启用此标志后，不允许手动覆盖记帐费率。
+
+激活保存后，无法将其关闭。
+
+在复制启用了标志的人员配备计划时，系统会自动关闭此标志。 如果新人员配备计划需要此标志，资源经理必须将其打开。
+
 <!--### Title
 
 >[!NOTE]
@@ -53,23 +73,27 @@ ht-degree: 1%
 text
 -->
 
-## 针对有限可用性功能的维护更新
+<!--
 
-此部分介绍每周Workfront更新中修复的有限可用性功能问题。
+## Maintenance Updates for limited availability features
 
-<!--### Maintenance Updates week of February 8-14, 2026
+This section describes the issues fixed in the weekly Workfront updates for limited availability features.
 
-**Title**
 
-text
 
-### Maintenance Updates week of February 15-21, 2026
+### Maintenance Updates week of March 1-7, 2026
 
 **Title**
 
 text
 
-### Maintenance Updates week of February 22-28, 2026
+### Maintenance Updates week of March 8-14, 2026
+
+**Title**
+
+text
+
+### Maintenance Updates week of March 15-21, 2026
 
 **Title**
 
