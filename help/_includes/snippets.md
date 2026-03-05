@@ -1,7 +1,7 @@
 ---
-source-git-commit: 703d2bb511109a68d2917fd83fd1b7f7a562f5a9
+source-git-commit: 550a4e94ce340083937ad89f5dad9e151abe9075
 workflow-type: tm+mt
-source-wordcount: '2670'
+source-wordcount: '2688'
 ht-degree: 1%
 
 ---
@@ -60,6 +60,10 @@ ht-degree: 1%
 ## 第1步 — 仅单击主菜单 {#step1-click-main-menu}
 
 1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)。
+
+## 步骤1 — 仅单击主菜单外壳 {#step1-click-main-menu-shell-only}
+
+1. 单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)。
 
 ## 步骤1 — 单击主菜单，然后单击 —  {#step1-click-mm-then-click}
 
