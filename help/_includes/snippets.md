@@ -1,5 +1,5 @@
 ---
-source-git-commit: 550a4e94ce340083937ad89f5dad9e151abe9075
+source-git-commit: c13d893ba3f8748666c8c2d36d66367a6ec4e855
 workflow-type: tm+mt
 source-wordcount: '2688'
 ht-degree: 1%
@@ -7,7 +7,8 @@ ht-degree: 1%
 ---
 # 片段
 
-<!-- Add snippets within the section that the snippet is used. Snippets that are used throughout the Workfront documentation set should be added to the "General" section. -->
+<!-- 
+Add snippets within the section that the snippet is used. Snippets that are used throughout the Workfront documentation set should be added to the "General" section. -->
 
 <!-- General -->
 
@@ -220,78 +221,66 @@ ht-degree: 1%
 1. （可选）调整自动验证工作流设置
 
    <table>
-      <tr>
-         <td colspan="2" ><strong>校对阶段</strong>
-         </td>
-      </tr>
-      <tr>
-         <td>禁用阶段
-         </td>
-         <td>
+   <tr>
+      <td colspan="2" ><strong>校对阶段</strong>
+      </td>
+   </tr>
+   <tr>
+      <td>禁用阶段
+      </td>
+      <td>
       <ol>
-
-   <li>切换全选可禁用所有阶段。 
+      <li>切换全选可禁用所有阶段。 
       <p>或</p></li>
       <li>切换各个阶段。</li>
-
-   </ol>
-         </td>
-      </tr>
-      <tr>
-         <td>添加收件人
-         </td>
-         <td>
+      </ol>
+      </td>
+   </tr>
+   <tr>
+      <td>添加收件人
+      </td>
+      <td>
       <ol>
-
-   <li>在添加新收件人框中，开始键入用户名。
-
-   <li>指定验证角色。
-
-   <li>选择收件人的电子邮件警报类型。 
+      <li>在添加新收件人框中，开始键入用户名。</li>
+      <li>指定验证角色。</li>
+      <li>选择收件人的电子邮件警报类型。</li>
+      </ol>
+      </td>
+   </tr>
+   <tr>
+      <td>设置截止日期
+      </td>
+      <td>
+      <ol>
+      <li>选择截止日期。</li>
+      </ol>
+      </td>
+   </tr>
+   <tr>
+      <td colspan="2" ><strong>电子邮件通知</strong>
+      </td>
+   </tr>
+   <tr>
+      <td>将证明通知收件人
+      </td>
+      <td>
+      <ol>
+      <li>启用此复选框可在创建验证时通知用户。</li>
+      </ol>
+      </td>
+   </tr>
+   <tr>
+      <td>添加自定义消息
+      </td>
+      <td>
+      <ol>
+      <li>键入主题。
+      <li>键入自定义消息。
       </li>
       </ol>
-         </td>
+      </td>
       </tr>
-      <tr>
-         <td>设置截止日期
-         </td>
-         <td>
-      <ol>
-
-   <li>选择截止日期。
-      </li>
-      </ol>
-         </td>
-      </tr>
-      <tr>
-         <td colspan="2" ><strong>电子邮件通知</strong>
-         </td>
-      </tr>
-      <tr>
-         <td>将证明通知收件人
-         </td>
-         <td>
-      <ol>
-
-   <li>启用此复选框可在创建验证时通知用户。
-      </li>
-      </ol>
-         </td>
-      </tr>
-      <tr>
-         <td>添加自定义消息
-         </td>
-         <td>
-      <ol>
-
-   <li>键入主题。
-
-   <li>键入自定义消息。
-      </li>
-      </ol>
-         </td>
-      </tr>
-      </table>
+   </table>
 
 <!-- Workfront Planning -->
 
@@ -318,7 +307,8 @@ ht-degree: 1%
 > 
 >有关Workfront Planning的一般信息，请参阅[Adobe Workfront Planning入门](/help/quicksilver/planning/general/planning-overview.md)。
 
-<!--Old - before Oct. 15, 2025:
+<!--
+Old - before Oct. 15, 2025:
 >[!IMPORTANT]
 >
 >The information in this article refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
@@ -331,9 +321,11 @@ ht-degree: 1%
 >
 > For a complete list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
 > 
->For more information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).-->
+>For more information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+-->
 
-<!--OLD: 
+<!--
+OLD: 
 >[!IMPORTANT]
 >
 >The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
@@ -464,11 +456,11 @@ ht-degree: 1%
    >* 问题类型可自定义，并且它们的名称可能与您的环境中下面列出的不同。\
    >  以下是默认的任务和问题类型：
    >     
-   >   * 任务
-   >   * 问题
-   >   * 请求
-   >   * 更改顺序
-   >   * 错误报告
+   >  * 任务
+   >  * 问题
+   >  * 请求
+   >  * 更改顺序
+   >  * 错误报告
 
    如果任务或问题分配给多个用户，则除了为团队选择的多个状态外，您还会在下拉菜单中看到“完成我的部分”选项。
 
@@ -530,5 +522,4 @@ For each snippets, create a head 2 section and add an anchor, such as
 In any .md file, add {{classic-note}} where you want that shared snippet content to appear.
 
 -->
-
 
