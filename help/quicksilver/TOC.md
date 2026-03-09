@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 14794bc7c65cd1863412ea278a1a199b6452c4e0
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '13790'
+source-wordcount: '13793'
 ht-degree: 2%
 
 ---
@@ -2101,7 +2101,7 @@ ht-degree: 2%
       * [在Workfront目标中共享目标](workfront-goals/workfront-goals-settings/share-a-goal.md)
       * [启用Adobe Workfront Goals通知](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
 * Adobe Workfront 规划 {#adobe-workfront-planning}
-   * [有关Adobe Workfront Planning的一般信息](planning/planning-information.md)
+   * [Adobe Workfront Planning的一般信息和文章索引](planning/planning-information.md)
    * Adobe Workfront规划一般信息 {#adobe-workfront-planning-general-information}
       * [Adobe Workfront规划一般信息：文章索引](planning/general/planning-general-article-index.md)
       * [Adobe Workfront Planning入门](planning/general/planning-overview.md)
@@ -2555,8 +2555,8 @@ ht-degree: 2%
       * [使用PKCE流程配置和使用您组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-pkce-flow.md)
       * [弃用API — 内部](wf-api/api/deprecation-api-internal.md)
       * [API版本21中的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-      * [API版本20中的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [API版本19中的新增功能](wf-api/api/new-api-version-19.md)
+      * [API版本20](/help/quicksilver/wf-api/api/new-api-version-20.md)中的新增功能
+      * [API版本19](wf-api/api/new-api-version-19.md)中的新增功能
       * [API版本18中的新增功能](wf-api/api/new-api-version-18.md)
       * [API版本17中的新增功能](wf-api/api/new-api-version-17.md)
       * [API版本16中的新增功能](wf-api/api/new-api-version-16.md)

@@ -1,5 +1,5 @@
 ---
-title: 有关Adobe Workfront Planning的一般信息
+title: Adobe Workfront Planning的一般信息和文章索引
 description: 作为营销运营负责人，您可以使用 Adobe Workfront 规划来统筹整个营销生命周期内的团队工作。本部分文章介绍如何配置规划功能，以及如何将其应用于您的营销活动管理流程。
 short-description: 通过相关文档和补充资源，了解如何在您的组织中实施并高效使用 Adobe Workfront 规划。
 author: Alina
@@ -7,14 +7,14 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: 550a4e94ce340083937ad89f5dad9e151abe9075
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '612'
 ht-degree: 12%
 
 ---
 
-# 有关Adobe Workfront Planning的一般信息
+# Adobe Workfront Planning的一般信息和文章索引
 
 <!--DO NOT CHANGE LINK OR CONTENT:  this is linked to an Experience League article that is hard coded by Adobe: https://experienceleague.adobe.com/en/docs/workfront-->
 <!--this articles used to be called "Adobe Workfront Planning: article index"-->
@@ -88,15 +88,17 @@ ht-degree: 12%
 
 * [Adobe Workfront Planning API基础知识](/help/quicksilver/planning/general/planning-api-basics.md)： Adobe Workfront Planning API的目标是通过引入通过HTTP运行的REST-ful架构，简化与Planning的生成集成。
 
-* [适用于Workfront Fusion的Adobe Workfront规划模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：使用Adobe Workfront规划模块，可以在Workfront规划中发生事件时触发方案。 您还可以创建、读取、更新和删除记录，或对Adobe Workfront Planning帐户执行自定义API调用。
+* [适用于Workfront Fusion的Adobe Workfront规划模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：使用Adobe Workfront规划模块，可以在Workfront规划中发生事件时触发方案。 您还可以创建、读取、更新和删除记录，或对Adobe Workfront Planning帐户执行自定义API调用。
 
 * [Adobe Workfront Planning AI助手概述](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)：使用Workfront AI Assistant for Planning，您可以使用命令搜索记录，或者创建、更新和删除记录，并让助手为您完成工作。
 
 * [配置Adobe Workfront Planning自动化](/help/quicksilver/planning/records/configure-automations-to-create-records.md)：您可以在Adobe Workfront Planning中配置自动化，这些自动化在激活时会在从Planning记录触发时在Workfront中创建对象，或在Workfront Planning中创建记录。
 
-* [Adobe Workfront Planning与Adobe GenStudio for Performance Marketing集成入门](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)：您可以在Workfront Planning的GenStudio工作区中管理GenStudio for Performance Marketing中的记录。
+* [Adobe Workfront Planning与Adobe GenStudio for Performance Marketing集成：文章索引](/help/quicksilver/planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md)：您可以在Workfront Planning的GenStudio for Performance Marketing工作区中管理GenStudio中的记录。
 
-* **Workfront Planning报告功能**：您现在可以使用Workfront Canvas Dashboard在报告中查看Workfront Planning信息。 有关信息，请参阅[画布功能板概述](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)。
+* **Workfront Planning报告功能**：您可以使用Workfront Canvas Dashboard在报告中查看Workfront Planning信息。 有关信息，请参阅[画布功能板概述](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)。
+
+* [Adobe Workfront计划最佳实践：文章索引](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md)：了解有关如何使用优先重视安全、尽量减少中断并提供快速入选的策略在您的组织中推广Adobe Workfront计划的提示。
 
 ## Workfront Planning发布活动
 

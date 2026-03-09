@@ -3,14 +3,14 @@ product-area: requests
 navigation-topic: create-requests
 title: 查看已提交的请求
 description: 了解Adobe Workfront的各个区域，您可以在其中查看您或其他人提交的请求，或者您从未提交并另存为草稿的请求。
-author: Becky
+author: Alina
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '1506'
+source-wordcount: '1363'
 ht-degree: 2%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 包</td> 
-   <td> <p>任何 </p> </td> 
+   <td> <p>“任一” </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -85,39 +85,32 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->只有在请求本身创建了对象的情况下，新请求体验中才提供指向已创建对象的链接，以供Planning请求使用。 如果Workfront请求转换为项目或其他对象，则指向该转换对象的链接在新请求体验的请求列表中不可用。
+>只有在请求本身创建了记录的情况下，新请求体验中才提供指向已创建对象的链接，以供Planning请求使用。
+>
+>如果Workfront请求转换为项目或其他对象，则指向该转换对象的链接在新请求体验的请求列表中不可用。
 
 要查看您或其他用户在新的请求体验中提交的请求，请执行以下操作：
 
 {{step1-to-requests}}
 
-1. 请确保已启用屏幕右上角的&#x200B;**使用新体验**&#x200B;切换开关。
+1. 确保打开了屏幕右上角的&#x200B;**使用新体验**&#x200B;设置。
 
-   此时将显示“请求”列表。
+   此时将显示请求列表。
 
 1. （可选）要搜索请求，请开始在列表右上角的搜索栏中键入。 搜索结果会随键入内容一起显示。
 1. （可选）单击&#x200B;**筛选器**&#x200B;并开始为要显示的请求添加条件。
 
-   您可以按以下字段进行筛选：
+   有关筛选器的详细信息，请参阅[在请求区域创建和管理视图](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)。
 
-   * **Workspace**：与请求表单关联的工作区。
-   * **记录类型**：与请求表单关联的记录类型。
-   * **输入日期**：提交请求的日期。
-   * **请求表单**：用于提交请求的请求表单的名称。
-   * **状态**：请求的状态。
-   * **输入者**：添加请求的用户的名称。 如果请求是由Workfront之外的人员添加的，则&#x200B;**输入者**&#x200B;字段显示`N/A`。
+1. （可选）单击&#x200B;**视图**&#x200B;下拉菜单以更新您的视图或将其与其他人共享。
 
-   您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的筛选器。
-在添加筛选条件时，将自动筛选请求列表。
-1. （可选）使用视图将焦点置于要显示的请求上。
-
-   有关说明，请参阅[在请求区域](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)中创建或编辑视图。
-1. （可选）通过检查状态列来检查请求的状态。 新请求体验中提供了以下状态：
+   有关信息，请参阅[在请求区域](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)中创建或编辑视图。
+1. （可选）通过检查&#x200B;**状态**&#x200B;列来检查请求的状态。 新请求体验中提供了以下状态：
 
    * **草稿**：此请求尚未提交。
    * **等待审阅**： （仅限Planning）此请求具有批准者，并且没有批准者打开该请求。
    * **审核中**：（仅限Planning）此请求有批准者，且至少有一个批准者已打开该请求，但尚未做出任何决定。
-   * **已拒绝**： （仅限Planning）此请求具有审批者且已被拒绝。
+   * **已拒绝**： （仅限Planning）此请求具有审批者且已被拒绝。 此请求将不会创建记录。
    * **正在进行**：
       * Workfront请求：请求已转换，工作正在进行。
       * Workfront Planning请求：请求完成映射至特定的Planning字段，并且该字段值与完成值不匹配。
@@ -127,8 +120,8 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->* 如果您有Workfront Planning，则Workfront和Planning请求将显示在同一列表中。 Workfront请求在“对象类型”列中显示值`Issue`。
->* 此时将显示请求列表，其中显示50个请求。 要查看更多请求，请滚动到列表底部。
+>* 如果您有Workfront Planning，则Workfront和Planning请求将显示在同一列表中。 Workfront请求在`Issue`对象类型&#x200B;**列中显示**&#x200B;值。
+>* 默认情况下，请求区域的列表中最多显示50个请求。 要查看更多请求，请滚动到列表底部。
 
 ### 在旧版中查看已提交的请求请求体验
 
@@ -234,15 +227,17 @@ ht-degree: 2%
 
 1. （可选）单击列表顶部的&#x200B;**筛选器页面**&#x200B;图标![搜索图标](assets/search-icon.png)以按名称搜索请求。 列表会更新为符合搜索条件的结果。
 
-1. （视情况而定）要仅显示Workfront请求队列，请搜索或筛选`Issue`对象类型。</span>
-
-
    <!--
-   <li value="9" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the <strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>
+
+   1. (Conditional) To display only Workfront Request queues, search or filter for `Issue` object types.</span>
    -->
 
    <!--
-   <li value="10" data-mc-conditions="QuicksilverOrClassic.Draft mode">(Optional) Select an option from the <strong>Sort by</strong> drop-down menu to sort the requests by the following criteria:   (NOTE: this step will stay drafted even after release. We can't see Completed at this time!)  
+   <li> <p>Click the <strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>
+   -->
+
+   <!--
+   <li>(Optional) Select an option from the <strong>Sort by</strong> drop-down menu to sort the requests by the following criteria:   (NOTE: this step will stay drafted even after release. We can't see Completed at this time!)  
    <ul>
    <li><strong>Assigned To</strong>: Requests are sorted alphabetically by the name of the assignee using the following criteria: 
    <ul>
@@ -262,19 +257,18 @@ ht-degree: 2%
 
 1. 单击&#x200B;**草稿**&#x200B;查看所有草稿的请求。 Workfront会为此文件夹中的每个请求队列保存无限数量的草稿。 为已具有草稿的队列主题输入新请求时，系统将提示您使用现有的草稿。 有关详细信息，请参阅[从草稿创建请求](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)。
 
-1. （可选且有条件）如果贵组织购买了Workfront Planning包，请单击&#x200B;**Planning**&#x200B;选项卡，然后单击左侧面板中的&#x200B;**Submitted**&#x200B;以查看Workfront Planning请求。
+   <!--Planning tab has been removed and no longer visible in legacy Requests area: 
+   (Optional and conditional) If your organization purchased a Workfront Planning package, click the **Planning** tab, then click **Submitted** in the left panel to view Workfront Planning requests. 
+      Use **Filters** and **Columns** to update the information in the Planning request list. 
+      ![Planning tab submitted section in Requests area](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+      For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
+   -->
 
-   使用&#x200B;**筛选器**&#x200B;和&#x200B;**列**&#x200B;更新Planning请求列表中的信息。
 
-   在请求区域![“计划”选项卡已提交部分](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+1. （可选）通过检查&#x200B;**状态**&#x200B;列来检查请求的状态。 新请求体验中提供了以下状态：
 
-   有关信息，请参阅[提交Adobe Workfront计划请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。
-
-
-1. （可选）通过检查状态列来检查请求的状态。 新请求体验中提供了以下状态：
-
-   * 草稿：此请求尚未提交。
-   * 进行中
-   * 完成
+   * **草稿**：此请求尚未提交。
+   * **正在进行中**
+   * **完成**
 
 

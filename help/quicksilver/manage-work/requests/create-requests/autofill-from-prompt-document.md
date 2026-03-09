@@ -2,10 +2,10 @@
 title: 使用由AI提供支持的表单填写功能，使用提示或文档填写请求
 content-type: reference
 description: 可以通过输入提示或提供文档来使用AI自动填写请求字段。
-author: Becky
+author: Alina
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: b55cb2df33ebba0d61d4254f17a49f92b7d6553e
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '1391'
 ht-degree: 3%

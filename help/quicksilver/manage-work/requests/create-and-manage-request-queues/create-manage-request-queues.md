@@ -4,13 +4,13 @@ product-area: requests
 navigation-topic: requests-navigation-topic
 title: 创建和管理请求队列
 description: 您可以在Adobe Workfront中创建请求队列以捕获您组织中的计划外工作。 以下文章介绍如何配置项目以使其用作请求队列。
-author: Becky
+author: Alina
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0aaa54e2-c887-425e-bdd6-6bbc60d21319
-source-git-commit: a5827c25cf3a10a8664cabbd2f23bdc635ab8041
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 0%

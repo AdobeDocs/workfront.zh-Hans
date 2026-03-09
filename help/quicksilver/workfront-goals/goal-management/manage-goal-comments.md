@@ -6,10 +6,10 @@ description: 您可以向可在Adobe Workfront目标中查看的所有目标添�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 8%
+source-wordcount: '222'
+ht-degree: 9%
 
 ---
 
@@ -51,13 +51,14 @@ After the monthly releases to Production, the same features are also available i
  <tr>
   <td> <p>Adobe Workfront 包</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>注释</b></p>
+<p>如果您拥有其他Workfront软件包，请与您的Workfront代表联系。</p>
    </td> 
   </tr>
  <tr>
  <td role="rowheader">Adobe Workfront许可证</td>
  <td>
- <p>任何</p></td>
+ <p>“任一”</p></td>
  </tr>
   <tr>
  <td role="rowheader">访问级别配置</td>

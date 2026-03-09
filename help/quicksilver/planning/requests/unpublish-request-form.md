@@ -3,10 +3,10 @@ title: 在Adobe Workfront Planning中取消发布请求表单
 description: 如果请求表单不再需要或不再相关，您可以取消发布该表单。 取消发布后，您将删除每个人访问该表单的权限。
 feature: Workfront Planning
 role: User, Admin
-author: Alina, Becky
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 5%

@@ -6,9 +6,9 @@ description: 在“Adobe Workfront目标”中，拥有进度条的Oals存在无
 author: Alina
 feature: Workfront Goals
 exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '761'
 ht-degree: 2%
 
 ---
@@ -42,7 +42,8 @@ ht-degree: 2%
  <tr>
   <td> <p>Adobe Workfront 包</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>注释</b></p>
+<p>如果您拥有其他Workfront软件包，请与您的Workfront代表联系。</p>
    </td> 
   </tr>
  <tr>

@@ -3,10 +3,10 @@ title: 在Adobe Workfront Planning中批准请求
 description: 当用户将请求提交到与Adobe Workfront Planning中的批准关联的请求表单时，批准者会收到有关未决批准的通知，并收到电子邮件。 他们必须先批准请求，Workfront Planning才能创建对象。
 feature: Workfront Planning
 role: User, Admin
-author: Alina, Becky
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: ec72e2af00bb5010288eaae725b67ad7dad55486
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 1%
@@ -69,7 +69,7 @@ ht-degree: 1%
 </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
-   <td><p>任何</p> 
+   <td><p>“任一”</p> 
   </td> 
   </tr> 
   <tr> 

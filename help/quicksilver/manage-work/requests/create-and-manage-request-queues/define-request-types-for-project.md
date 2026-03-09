@@ -3,13 +3,13 @@ product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
 title: 定义项目的请求类型
 description: 您可以按“请求类型”来整理Adobe Workfront中登录的问题或请求类型。
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: 627749bb-a8d7-4cc2-9d11-237811f82eb8
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '354'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
@@ -19,17 +19,17 @@ ht-degree: 3%
 
 您可以按“请求类型”来整理Adobe Workfront中登录的问题或请求类型。 这对于报告相关原因以及帮助用户了解在项目存留期内可能会发生何种意外工作非常有用。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

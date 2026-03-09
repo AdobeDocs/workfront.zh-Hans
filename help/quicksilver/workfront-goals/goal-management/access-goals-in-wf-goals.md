@@ -6,9 +6,9 @@ description: 本文介绍了如何在Adobe Workfront中找到和管理目标。
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '376'
 ht-degree: 5%
 
 ---
@@ -39,7 +39,8 @@ ht-degree: 5%
   <tr>
   <td> <p>Adobe Workfront 包</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>注释</b></p>
+<p>如果您拥有其他Workfront软件包，请与您的Workfront代表联系。</p>
    </td> 
   </tr>
   <tr> 

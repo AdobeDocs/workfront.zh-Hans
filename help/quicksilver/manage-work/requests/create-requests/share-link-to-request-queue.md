@@ -1,10 +1,10 @@
 ---
 title: 共享请求队列的链接
 description: 在提交请求时，可以共享指向请求队列、主题组或队列主题的链接。
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: 91e456ae-a192-4f3a-afff-b3c48854e295
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 10%
@@ -29,7 +29,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 包</td> 
-   <td> <p>任何 </p> </td> 
+   <td> <p>“任一” </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

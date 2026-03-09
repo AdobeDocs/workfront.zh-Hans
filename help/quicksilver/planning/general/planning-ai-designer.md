@@ -6,9 +6,9 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1504'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 有关Workfront Planning的信息，请参阅以下文章：
 
-* [有关Adobe Workfront Planning的一般信息](/help/quicksilver/planning/planning-information.md)
+* [Adobe Workfront Planning的一般信息和文章索引](/help/quicksilver/planning/planning-information.md)
 * [Adobe Workfront Planning入门](/help/quicksilver/planning/general/planning-overview.md)
 * [Adobe Workfront Planning访问概述](/help/quicksilver/planning/access/access-overview.md)
 

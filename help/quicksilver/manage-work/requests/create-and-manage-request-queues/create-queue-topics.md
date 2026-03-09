@@ -3,14 +3,14 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: 创建队列主题
 description: 队列主题与路由规则配合使用，可自动将传入工作分配给用户、工作角色、团队，或将其置于项目中。 队列主题定义实施路由规则所需的条件。
-author: Becky
+author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '964'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 2%
 
 创建后，无法将队列主题从一个项目或模板移动到另一个项目或模板。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <!--drafted - replace table with P&P:
 
@@ -63,8 +63,8 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何 </p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一” </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

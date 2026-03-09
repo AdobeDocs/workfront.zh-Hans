@@ -7,10 +7,10 @@ description: 结果衡量目标的进度。 如果不将结果、活动或瞄准
 author: Alina
 feature: Workfront Goals
 exl-id: 30e22482-22e2-432d-bb73-7f9a9160aba2
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 3%
+source-wordcount: '540'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 结果衡量目标的进度。 如果不将结果、活动或瞄准的目标与某个目标相关联，则无法激活该目标，并且无法记录其进度。
 
-## 访问要求
+## 访问权限要求
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ ht-degree: 3%
 >
 >Adobe Workfront目标不再可供购买。
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto">
 <col>
@@ -37,9 +37,10 @@ ht-degree: 3%
 </col>
 <tbody>
  <tr>
-  <td> <p>Adobe Workfront包</p> </td> 
+  <td> <p>Adobe Workfront 包</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>注释</b></p>
+<p>如果您拥有其他Workfront软件包，请与您的Workfront代表联系。</p>
    </td> 
   </tr>
  <tr>

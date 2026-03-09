@@ -3,12 +3,12 @@ title: 在Adobe Workfront Planning中为申请表单添加批准
 description: 您可以在Adobe Workfront Planning请求表单中添加批准流程，以在创建记录之前为每个提交的请求启动批准。
 feature: Workfront Planning
 role: User, Admin
-author: Alina, Becky
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1210'
 ht-degree: 1%
 
 ---
@@ -123,17 +123,15 @@ ht-degree: 1%
 
 <div class="preview">
 
-## 将审批规则添加到请求表单
-
->[!NOTE]
->
->此功能仅在“预览”环境中可用。
+## 在预览环境中将审批规则添加到请求表单
 
 审批规则根据已提交请求中的字段值定义审批流程。
 
 例如，如果请求表单具有“Campaign type”字段，则可以创建一个规则，在字段的值为“Digital”时将请求发送给一个人，在字段的值为“Print”时将请求发送给另一个人。
 
 添加审批规则时，请考虑以下事项：
+
+<!--below bullet list is duplicated in the Add approval to a request form in the Production environment section above-->
 
 * 您可以将一个或多个批准者添加到批准规则。
 * 如果至少有一位审批者拒绝了请求，则该请求会被拒绝，并且不会创建记录。 该请求仍保留在Workfront的请求区域中。
@@ -142,18 +140,16 @@ ht-degree: 1%
 
 要为请求表单设置批准规则，请执行以下操作：
 
-1. 开始为记录类型创建请求表单，如[在Adobe Workfront Planning中创建和管理请求表单](/help/quicksilver/planning/requests/create-request-form.md)中所述。
-1. 单击&#x200B;**设置**。
+1. 开始为记录类型创建请求表单，如[在Adobe Workfront Planning中创建和管理请求表单](/help/quicksilver/planning/requests/create-request-form.md)一文中所述。
+1. 打开请求表单时，单击&#x200B;**设置**。
 
-   此时将显示“设置”选项卡。
+   **设置**&#x200B;选项卡打开。
 
 1. 要开始配置审批规则，请单击左侧面板中的&#x200B;**审批** ![审批图标](assets/approvals-icon-on-form.png)。
 
 1. （可选）如果要设置默认审批流程，请至少向&#x200B;**默认审批规则**&#x200B;区域的&#x200B;**审批者**&#x200B;字段添加一个用户或团队，然后单击&#x200B;**仅需要一个决策**&#x200B;复选框（如果要在任何默认审批者批准记录后创建记录）。
 
    ![默认审批规则区域](assets/default-approvers.png)
-
-   <!--below bullet list is duplicated in the Add approval to a request form article-->
 
 1. （可选）开始添加审批规则。 对于每个批准规则，执行以下操作：
 
@@ -163,8 +159,8 @@ ht-degree: 1%
    1. 选择规则的运算符。 运算符因字段类型而异。
    1. 如果选定的运算符需要一个值，请单击加号图标并添加一个或多个值。
    1. （可选）单击&#x200B;**添加条件**&#x200B;以添加更多条件，并通过配置步骤C-E中的其他条件通过&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;语句连接这些条件。
-   1. 在审批规则的&#x200B;**操作**&#x200B;区域的&#x200B;**审批者**&#x200B;字段中，添加在满足条件时要在审批者处设置的至少一个用户或团队。
-   1. （视情况而定）如果希望在任何一位批准者批准记录后创建记录，请选中&#x200B;**仅需要一个决策**&#x200B;复选框。
+   1. 在审批规则的&#x200B;**操作**&#x200B;区域的&#x200B;**审批者**&#x200B;字段中，添加满足条件时要在审批者处设置的至少一个用户或团队。
+   1. （有条件，可选）如果希望在任何一位批准者批准记录后创建记录，请选中&#x200B;**仅需要一个决策**&#x200B;复选框。 否则，所有批准者必须在接受或拒绝请求之前决定批准。
 
 1. 单击&#x200B;**保存**&#x200B;以保存审批规则。
 1. （可选）如果您以前从未共享过该请求表单，请单击&#x200B;**发布**。

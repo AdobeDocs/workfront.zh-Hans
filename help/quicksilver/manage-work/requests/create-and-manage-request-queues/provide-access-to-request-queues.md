@@ -3,13 +3,13 @@ product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
 title: 提供对请求队列的访问权限
 description: 提供对请求队列的访问权限时，您可以确定组织中的哪些人可以在Adobe Workfront的请求区域查看请求队列。
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: eb88c32a-f8b8-42d3-9a3a-72c62fd1dc3a
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '474'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -23,17 +23,17 @@ ht-degree: 1%
 
 这在邀请外部利益相关者进入Workfront并希望限制用户对特定区域的访问权限的组织中很有用。 在这种情况下，仅对与项目公司或组关联的用户打开的请求队列限制了外部利益相关者可见。 将访问权限授予任何人都可以让内部和外部利益相关者看到该请求。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何 </p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一” </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

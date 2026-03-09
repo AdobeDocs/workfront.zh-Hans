@@ -6,9 +6,9 @@ description: 您可以从任何时段和任何状态编辑现有目标。
 author: Alina
 feature: Workfront Goals
 exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '576'
 ht-degree: 3%
 
 ---
@@ -38,7 +38,8 @@ ht-degree: 3%
  <tr>
   <td> <p>Adobe Workfront 包</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>注释</b></p>
+<p>如果您拥有其他Workfront软件包，请与您的Workfront代表联系。</p>
    </td> 
   </tr>
  <tr>
@@ -230,7 +231,7 @@ Editing goals differs depending on what environment you use.
 
    <!-- (should you update the title here after changing it at production??? - change it to Update goals in the goal Details section)-->
 
-1. （可选）单击左侧面板中的&#x200B;**进度指示器**&#x200B;以将结果、活动或项目添加到目标。 通过添加进度指示器，您可以确保可以跟踪目标的进度。
+1. （可选）单击左侧面板中的&#x200B;**进度指示器**以将结果、活动或项目添加到目标。 通过添加进度指示器，您可以确保可以跟踪目标的进度。
 有关更多信息，请参阅以下文章：
    * [将活动添加到Adobe Workfront目标中的目标](../results-and-activities/add-activities-to-goals.md)
    * [将结果添加到Adobe Workfront目标中的目标](../results-and-activities/add-results-to-goals.md)。
