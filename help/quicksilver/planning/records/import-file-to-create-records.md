@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 有关创建记录的详细信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
 
-## 访问要求
+## 访问权限要求
 
 +++ 展开以查看本文中各项功能的访问要求。 
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront包</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
 <p>任何Workfront和任何Planning包</p> <p>任何工作流和任何计划包</p>
 <p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
@@ -147,6 +147,7 @@ ht-degree: 0%
    * 上次修改日期，上次修改人
    * 批准日期，批准者
    * 人员
+     <!--* <span class="preview">Record ID</span>-->
    * 如果导入了多选或单选字段，并且该字段与Planning中的类似字段相比，具有更多选项，则在导入期间会创建附加选项。 只有对工作区具有“管理”权限的用户才能导入新选项。
 
 ## 通过导入CSV或Excel文件创建记录

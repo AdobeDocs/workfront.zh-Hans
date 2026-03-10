@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 5a725e747e8776a867cb0dc4129544f6a28ce8e0
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
 source-wordcount: '1709'
 ht-degree: 0%
@@ -120,13 +120,13 @@ ht-degree: 0%
    * 您对在主工作区中创建的记录具有对工作区和原始全局记录类型的相同权限。
    * 您对在辅助工作区中创建的记录拥有与对辅助工作区以及该工作区中的全局记录类型相同的权限。
 
-<!--Removed this as this was too confusing: 
-
-* When the original global record type is added to multiple secondary workspaces, users gain the following visibility to the records added to the global record types: 
-
-    * Members of the original workspace automatically gain View permissions to all records added from any workspace, even if they are  not members of those workspaces. They can view these records in the following workspaces, only if they are a member of these following workspaces: 
-        * The primary workspace
-        * The secondary workspace where the records were added. Secondary workspace members can view only records from workspaces where they are a member.-->
+  <!--
+    Removed this as this was too confusing: 
+    * When the original global record type is added to multiple secondary workspaces, users gain the following visibility to the records added to the global record types: 
+        * Members of the original workspace automatically gain View permissions to all records added from any workspace, even if they are  not members of those workspaces. They can view these records in the following workspaces, only if they are a member of these following workspaces: 
+            * The primary workspace
+            * The secondary workspace where the records were added. Secondary workspace members can view only records from workspaces where they are a member.
+    -->
 
 * 连接到全局记录类型的记录类型将可用于从添加此记录类型的工作区进行连接。
 
@@ -167,14 +167,18 @@ ht-degree: 0%
      有关信息，请参阅[共享视图](/help/quicksilver/planning/access/share-views.md)。
 
 
-<!--when they will be able to add fields to the secondary space, this bullet will need this extra information: 
-    After adding fields to the global record type in the secondary workspace, shared views might not open for other users in workspaces. The fields exist only in the secondary workspace and they would not be visible in any other workspace. Only fields created in the primary workspace are visible in all secondary workspaces where there the record type is added.-->
+<!--
+when they will be able to add fields to the secondary space, this bullet will need this extra information: 
+After adding fields to the global record type in the secondary workspace, shared views might not open for other users in workspaces. The fields exist only in the secondary workspace and they would not be visible in any other workspace. Only fields created in the primary workspace are visible in all secondary workspaces where there the record type is added.
+-->
 
-<!--These two capabilities will come later - and edit some of the bullets below after these capabilities are released:
+<!--
+These two capabilities will come later - and edit some of the bullets below after these capabilities are released:
 * Add new fields
     Fields added to a global record from a secondary workspace are visible only from the secondary workspace. 
 * Add request forms to it
-* Add automations to it-->
+* Add automations to it
+-->
 
 * 任何用户都不能对辅助工作区中的全局记录类型执行以下操作：
 
@@ -193,7 +197,9 @@ ht-degree: 0%
 
    * 如果您对原始工作区具有“管理”权限，而对辅助工作区没有权限，则可以查看从原始工作区中的辅助工作区添加的记录，但无法从原始工作区管理这些记录。
    * 如果您对原始工作区和辅助工作区具有管理权限，则可以从全局记录类型的原始工作区以及添加它们的辅助工作区管理记录。
-     <!--not anymore: * You can view the records in additional secondary workspaces where the global record type is added only if you have View permissions to those workspaces-->
+  <!--
+    not anymore: * You can view the records in additional secondary workspaces where the global record type is added only if you have View permissions to those workspaces
+    -->
 * 不能在辅助工作区中公开共享全局记录类型的视图。
 
 ### 访问全局记录类型的连接
@@ -223,6 +229,10 @@ ht-degree: 0%
    工作区管理员可以选择指定的记录类型可以连接到哪些工作区。
 
    原始记录类型将存在于其原始工作区中，并且可从其他工作区访问它以连接到。
+
+   <!--
+    <span class="preview">Only System Administrators can designate a record type to be connectable from all workspaces in the system. All other workspace managers can designate specific workspaces to connect to the record type from. </span>
+    -->
 
    有关信息，请参阅[为记录类型配置跨工作区功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。
 1. 从您管理的另一个工作区连接到指定为可连接的记录类型。

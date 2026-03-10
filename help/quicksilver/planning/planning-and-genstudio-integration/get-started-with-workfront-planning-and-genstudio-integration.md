@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: ca16652aa06b4652d0d1b41156ed1ef96225c49a
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
-source-wordcount: '2170'
+source-wordcount: '2185'
 ht-degree: 0%
 
 ---
@@ -107,7 +107,7 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing用户角色</p></td> 
    <td><p><ul><li>用于访问营销活动、产品和角色的任何GenStudio用户角色</li>
    <li>GenSudio System Manager访问激活 <!--and Events--></li></ul>
-   有关信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">用户角色和权限</a>。 
+   有关信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">用户角色和权限</a>。 
    </p>
   </td> 
   </tr>   
@@ -162,7 +162,7 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****and Events****</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -296,6 +296,8 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
 ### GenStudio工作区中的记录类型字段
 
 默认情况下，记录类型字段会从GenStudio for Performance Marketing导入到Workfront Planning。
+
+您还可以从Planning为GenStudio工作区中的记录类型创建Planning字段。
 
 有关GenStudio记录类型字段，请考虑以下事项：
 

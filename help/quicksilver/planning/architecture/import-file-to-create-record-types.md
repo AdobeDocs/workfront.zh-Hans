@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 1%
@@ -141,6 +141,7 @@ ht-degree: 1%
    * 上次修改日期，上次修改人
    * 批准日期，批准者
    * 人员
+     <!--* <span class="preview">Record ID</span>-->
 
 要使用Excel或CSV文件导入记录类型，请执行以下操作：
 

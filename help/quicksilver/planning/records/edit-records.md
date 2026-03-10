@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
 source-wordcount: '2899'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 有关创建记录的信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
 
-&lt;！ — 在此提及，详细信息视图中的字段与表格视图中的字段相同 — 本文从“管理记录”视图链接，其中一个引用此信息 — >
+&lt;! — 在此提及，详细信息视图中的字段与表格视图中的字段相同 — 本文从“管理记录”视图链接，其中一个引用此信息 — >
 
 ## 访问权限要求
 
@@ -139,7 +139,7 @@ ht-degree: 0%
 * 以下类型的字段会自动更新，您无法手动编辑其值：
    * 来自其他记录的链接字段
    * 公式类型字段
-   * 系统字段（“创建者”、“创建日期”、“上次修改者”、“上次修改日期”、“批准日期”、“批准者”）
+   * 系统字段（“创建者”、“创建日期”、“上次修改者”、“上次修改日期”、“批准日期”、“批准者<!--, <span class="preview">Record ID</span>-->”）
 * 如果显示的记录链接到其他记录，则您正在编辑的记录的新信息将反映在链接该记录的所有工作区中的链接记录上。
 * 不能批量编辑记录。<!--this will probably change-->
 * 只有当URL以以下内容开头时，才会被识别为单行文本字段类型中的链接： http://、https://、ftp://或www。.

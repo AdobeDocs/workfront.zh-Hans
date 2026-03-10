@@ -7,28 +7,34 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
+exl-id: 9ffad1aa-3c96-40fa-9c62-7a3e00699f18
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
-source-wordcount: '1883'
+source-wordcount: '1886'
 ht-degree: 2%
 
 ---
-
 
 <!--update metadata with real information at release-->
 
 # 共享记录
 
-<!--this will NOT be available in Preview ever - find a way to add this in this article that is prominent-->
+<!--
+this will NOT be available in Preview ever - find a way to add this in this article that is prominent
+-->
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
-
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
-您可以调整人员对记录类型中单个记录的权限。
+您可以在Adobe Workfront Planning中调整人员对记录类型中单个记录的权限。
+
+>[!WARNING]
+>
+>本文中描述的信息在“预览”环境中不可用。 它仅适用于生产环境中的所有Workfront Planning客户。
 
 您可以通过以下方式共享Adobe Workfront Planning记录：
 
@@ -44,23 +50,24 @@ ht-degree: 2%
 
    * [共享记录类型](/help/quicksilver/planning/access/share-record-types.md)
 
-* 使用&#x200B;**共享**&#x200B;选项共享记录。
+* 使用&#x200B;**共享**&#x200B;选项共享单个记录或批量共享多个记录。
 
   本文介绍如何使用&#x200B;**共享**&#x200B;选项与他人共享记录。
 
 >[!IMPORTANT]
 >
->有权访问工作区的用户将自动获得对工作区中所有记录的至少“查看”权限。
->共享视图不会授予用户对记录的权限。 只有共享工作区才能授予用户记录类型和记录的权限。
+>* 有权访问工作区的用户将自动获得对工作区中所有记录的至少“查看”权限。
+>* 共享视图不会授予用户对记录的权限。 只有共享工作区才能授予用户记录类型和记录的权限。
 >
 >有关在Workfront Planning中共享对象的一般信息，另请参阅[在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
-
 
 ## 访问权限要求
 
 +++ 展开可查看本文所述功能的访问权限要求。 
 
-<!--at GA, check that the Workfront plans article linked below has Planning info-->
+<!--
+at GA, check that the Workfront plans article linked below has Planning info
+-->
 
 <table style="table-layout:auto"> 
 <col> 
@@ -79,7 +86,7 @@ ht-degree: 2%
 
 <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
-   <td><p>任何</p> 
+   <td><p>“任一”</p> 
    <p><b>注释</b></p>
    <p>只有拥有Standard许可证的人员才能获得记录的管理权限。 所有其他许可证只能具有“查看”权限，并且它们的“管理”选项为灰色。</p>
   </td> 
@@ -112,13 +119,14 @@ ht-degree: 2%
 
 ## 共享记录时的注意事项
 
-<!--maybe use the Share record types as example here and touch on the same points: help/quicksilver/planning/access/share-record-types.md; in addition to using Lilit's information-->
+<!--
+maybe use the Share record types as example here and touch on the same points: help/quicksilver/planning/access/share-record-types.md; in addition to using Lilit's information
+-->
 
 <!--checking on the below with Lilit-->
 
 * 您可以与以下实体共享记录：人员、组、团队、公司或工作角色。
-* 当您共享记录时，用户在系统中出现该记录的所有位置都具有相同的访问权限。
-* 如果限制对记录的权限，则用户不再在添加该记录的系统中的任何位置查看该记录及其查找字段的值。
+* 如果限制对记录的权限，则用户将不能再查看该记录以及该记录所在系统中任何位置的查找字段值。
 * Workfront检查连接中的记录权限，最多深层检查5条记录，确保用户只能看到与其共享的记录。
 * 您可以向记录授予以下级别的权限：
 
@@ -140,7 +148,6 @@ ht-degree: 2%
      >
      >如果选择授予&#x200B;**工作区中的每个人可查看记录类型或记录的权限**，则工作区权限共享列表中列出的每个人对记录类型和记录都将具有相同的权限，即使继承的权限被禁用也是如此。
 
-
 * 与用户共享记录时，默认情况下会以与记录类型相同的权限添加用户。
 
   例如：
@@ -148,13 +155,24 @@ ht-degree: 2%
    * 如果他们具有记录类型的查看权限，他们将获得记录的查看权限
    * 如果他们拥有记录类型的Contribute或Manage权限，他们将获得该记录的Manage权限
 
-* 作为工作区管理员，您可以与对记录类型或工作区没有权限的用户共享记录。 在这种情况下，添加的实体旁边会显示一个警告，通知他们无权访问工作区或记录类型。 <!--ensure this is this way, because in devtest the warning only shows record type, but logged a bug to add "workspace" to the warning too-->您可以继续将用户添加到记录，这也会将用户添加到记录类型和工作区，或者取消共享。
+* 作为工作区管理员，您可以与对记录类型或工作区没有权限的用户共享记录。 在这种情况下，添加的实体旁边会出现警告，通知您他们无权访问工作区或记录类型。  您可以继续将用户添加到记录，这也会将用户添加到记录类型和工作区，或者取消共享。
 
-* 当用户对工作区和记录类型具有“管理”或“贡献”权限，并且您将其添加到记录权限时，“查看”权限将灰显。 他们保留对记录的相同权限，就像对记录类型一样，您不能为他们授予较低的记录权限。<!--Lilit is checking on this, it is not working correctly-->
+<!--
+ensure this is this way, because in devtest the warning only shows record type, but logged a bug to add "workspace" to the warning too
+-->
 
-  当他们拥有工作区或记录类型的查看权限时，他们保留对记录的查看权限。 您可以通过禁用“继承权限”并选择“只有受邀人员才能访问”设置来向他们授予记录的“管理”权限。<!-- I think this is right, but because of the above not working, I can't test-->
+* 当用户对工作区和记录类型具有“管理”或“贡献”权限，并且您将其添加到记录权限时，“查看”权限将灰显。 他们保留对记录的相同权限，就像对记录类型一样，您不能为他们授予较低的记录权限。
+<!--
+Lilit is checking on this, it is not working correctly
+-->
 
-<!-- not sure what this means, confusing, hiding for now: * If you don't have permissions to add people to the workspace, you will only see and add users, teams, groups, roles, and companies that are already added to the workspace. You cannot add any other entity that is not already part of the workspace.-->
+<!--
+   check on this: I cannot disable inherited permissions when this setting is ON and this documented in a TIP below: When they have View permissions to the workspace or the record type, they retain View permissions to the records. You can grant them Manage permissions to the record by disabling Inherited permissions and selecting the Only invited people can access setting.
+   -->
+
+<!-- 
+   not sure what this means, confusing, hiding for now: * If you don't have permissions to add people to the workspace, you will only see and add users, teams, groups, roles, and companies that are already added to the workspace. You cannot add any other entity that is not already part of the workspace.
+   -->
 
 * 您可以禁用单个记录的继承权限，在这种情况下，您可以授予他们针对单个记录的权限，或者，如果他们属于&#x200B;**工作区中的每个人都可以查看**&#x200B;选项，则他们可以获得权限。
 
@@ -162,16 +180,17 @@ ht-degree: 2%
 
   例如，如果记录与具有查看权限的用户共享，并且与具有管理访问权限的用户共享，则他们可获得该记录的管理权限。
 
-<!--Too granular??
-
-If the inheritance has not been disabled, the user gets the maximum of inherited+individual+wildcard access 
-
-If the inherited permissions are disabled, the user gets the maximum of wildcard+individual permissions -->
+  <!--
+   Too granular??
+   If the inheritance has not been disabled, the user gets the maximum of inherited+individual+wildcard access 
+   If the inherited permissions are disabled, the user gets the maximum of wildcard+individual permissions 
+   -->
 
 * 如果公式字段或来自已连接记录的查找字段基于您无权访问的记录上的字段，您将看到正确的计算，其中哪些是您无法访问记录的因素。
 
-<!-- not sure if any of the Share record types points might match here - ask Lilit??-->
-
+  <!--
+   not sure if any of the Share record types points might match here - ask Lilit??
+   -->
 
 ## 共享记录权限
 
@@ -208,7 +227,12 @@ If the inherited permissions are disabled, the user gets the maximum of wildcard
    >
    >Workspace管理员继续对记录类型和记录具有管理权限。
 
-   1. （可选）选择&#x200B;**只有受邀人员才能从**&#x200B;谁有访问权限&#x200B;**区域访问**。
+   1. （可选）选择&#x200B;**只有受邀人员才能从**&#x200B;谁有访问权限&#x200B;**区域访问**。 您必须指明要与之共享记录的个别用户、组、团队或公司。
+
+      >[!TIP]
+      >
+      >选择此设置时，您无法禁用或启用继承权限。
+
 
    1. 在&#x200B;**授予对此记录类型的访问权限**&#x200B;字段中，添加要授予不同于工作区或记录类型的权限级别的用户、团队、组、公司或工作角色。
    1. 选择以下权限级别之一：
