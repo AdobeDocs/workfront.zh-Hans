@@ -7,7 +7,7 @@ description: Scenario Planner需要独立于Adobe Workfront的许可证和附加
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: 68dee7bc9643b7b9446ff4737ff70f4b850e7bbb
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
 -->
 
-如果没有正确的访问权限或权限，您可能无法查看[!UICONTROL 的]方案[!DNL &#x200B; Adobe Workfront]区域，也无法管理组织的计划或计划。 管理计划和计划包括创建、编辑和删除它们。
+如果没有正确的访问权限或权限，您可能无法查看[!UICONTROL 的]方案[!DNL  Adobe Workfront]区域，也无法管理组织的计划或计划。 管理计划和计划包括创建、编辑和删除它们。
 
 ## 查看和使用[!DNL Adobe Workfront Scenario Planner]所需的访问权限
 
@@ -56,6 +56,7 @@ might need to add information about the permissions to plans/ initiatives if tho
         * [!UICONTROL Plan]
         * [!UICONTROL Work]
         * [!UICONTROL Review]-->
+
   <!--Old: 
       >[!NOTE]
       > 
