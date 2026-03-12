@@ -1,19 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 创建文档审阅或审批请求
+title: 创建文档审批工作流
 description: 您可以在Adobe Workfront中请求其他用户批准文档。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: b615236d2666ebcc6db0d1f796fb0baaf362e0f2
+source-git-commit: 149c8adcf886f837bc94ac78f8a3ea54c47e375c
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 0%
+source-wordcount: '1002'
+ht-degree: 2%
 
 ---
 
-# 创建文档审阅或审批请求
+# 创建文档审批工作流
+
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 您可以在Adobe Workfront中请求其他用户或团队批准文档，或请求他们审核文档而无需批准。
 
@@ -21,17 +23,17 @@ ht-degree: 0%
 >
 >本文内容介绍更新的文档审批功能，该功能仅适用于特定帐户。 有关标准审批流程的信息，请参阅[工作审批](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md)中列出的文章。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td>  
@@ -56,14 +58,15 @@ ht-degree: 0%
 
 +++
 
-## 从文档页面创建文档审阅或审批请求
+
+## 从生产环境的文档页面创建文档审阅或审批请求
 
 1. 将鼠标悬停在文档上，然后单击“文档详细信息”。
    ![文档详细信息](assets/doc-details.png)
 
-1. 在文档名称附近，在版本下拉菜单中选择要创建批准的文档版本。 默认情况下将选择最新版本。
+1. 在文档名称附近，在版本下拉菜单中选择要创建批准的文档版本。 默认情况下会选择最新版本。
 
-1. 在左窗格中单击&#x200B;**审批**。
+1. 单击左侧面板中的&#x200B;**审批**。
 
 1. （可选）设置审批的截止日期。 用户和团队将在指定截止日期前72小时（即24小时）通过电子邮件接收通知。
 
@@ -75,13 +78,13 @@ ht-degree: 0%
 
 1. 重复上一步骤以添加其他批准者或审阅者。
 
-## 从文档摘要面板创建文档审阅或审批请求
+## 从生产环境中的“文档摘要”面板创建文档审阅或审批请求
 
 1. 转到包含文档的项目、任务或问题，然后选择&#x200B;**文档**。
 
-1. 单击所需的文档，该文档的“文档摘要”窗格将打开。
+1. 单击所需的文档，该文档的“文档摘要”左侧面板将打开。
 
-1. 在版本下拉列表中选择要创建批准的文档版本。 默认情况下将选择最新版本。
+1. 在版本下拉列表中选择要创建批准的文档版本。 默认情况下会选择最新版本。
 
 1. 向下滚动到“文档摘要”窗格中的&#x200B;**审批**&#x200B;部分，然后单击&#x200B;**添加**。
 
@@ -97,7 +100,94 @@ ht-degree: 0%
 
 1. 重复上一步骤以添加其他批准者或审阅者。
 
+<div class="preview">
 
+## 在旧文档区域的预览环境中，从“摘要”面板创建审批工作流
+
+如果您的组织位于Workfront存储中，则当您访问Workfront中的文档时，将会看到旧版文档区域。 有关Workfront存储的详细信息，请参阅[Workfront存储与Adobe企业存储](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage)。
+
+要创建审批工作流，请执行以下操作：
+
+1. 转到包含文档的项目、任务或问题，然后在左侧面板中选择&#x200B;**文档**。
+
+1. 单击所需的文档，该文档的“文档摘要”面板将打开。
+
+1. 在版本下拉列表中选择要创建批准的文档版本。 默认情况下会选择最新版本。
+
+1. 向下滚动到&#x200B;**审批**&#x200B;部分，然后单击&#x200B;**创建工作流**。
+
+
+1. 填写以下详细信息：
+
+   <table>
+   <tr>
+   <td><strong>阶段名称</strong></td>
+   <td>添加阶段名称。 您可以将名称更改为更具描述性的名称，如<em>初始审阅</em>或<em>最终批准</em>。</td>
+   </tr>
+   <tr>
+   <td><strong>添加姓名或电子邮件</strong></td>
+   <td>开始键入要作为审批者或审阅者添加的用户或团队名称。 如果您只有审阅人，则系统会通知他们并可以选择完成审阅，但无需或做出任何决定。</td>
+   </tr>
+   <tr>
+   <td><strong>需要一个决策（可选）</strong></td>
+   <td>第一个做出决策的人将完成阶段。</td>
+   </tr>
+   <tr>
+   <td><strong>截止日期（可选）</strong></td>
+   <td>设置审批的截止日期。 用户和团队将在指定到期日期之前的72小时（即24小时）通过电子邮件接收通知。</td>
+   </tr>
+   </table>
+
+1. （可选）根据需要重复上一步添加其他阶段。
+
+   >[!NOTE]
+   >
+   >如果添加多个阶段，则审批工作流会按阶段列出的顺序继续执行。 完成所有必需的决策后，将开始下一阶段，并锁定上一阶段。
+
+   ![文档详细信息](assets/new-stage.png)
+
+</div>
+
+## 从新文档区域的“摘要”面板创建审批工作流
+
+如果您的组织使用企业存储，则当您访问Workfront中的文档时，将会看到“新建文档”区域。 有关企业存储的详细信息，请参阅[企业存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+
+要创建审批工作流，请执行以下操作：
+
+1. 转到包含文档的项目、任务或问题，然后在左侧面板中选择&#x200B;**文档**。
+
+1. 单击文档，然后单击页面右侧的Approvals图标。
+
+   ![在文档摘要中添加批准者](assets/approvals-icon-new.png)
+
+1. 单击&#x200B;**创建工作流**，然后填写以下详细信息：
+
+   <table>
+   <tr>
+   <td><strong>阶段名称</strong></td>
+   <td>添加阶段名称。 您可以将名称更改为更具描述性的名称，如<em>初始审阅</em>或<em>最终批准</em>。</td>
+   </tr>
+   <tr>
+   <td><strong>添加姓名或电子邮件</strong></td>
+   <td>开始键入要作为审批者或审阅者添加的用户或团队名称。 如果您只有审阅人，则系统会通知他们并可以选择完成审阅，但无需或做出任何决定。</td>
+   </tr>
+   <tr>
+   <td><strong>需要一个决策（可选）</strong></td>
+   <td>第一个做出决策的人将完成阶段。</td>
+   </tr>
+   <tr>
+   <td><strong>截止日期（可选）</strong></td>
+   <td>设置审批的截止日期。 用户和团队将在指定到期日期之前的72小时（即24小时）通过电子邮件接收通知。</td>
+   </tr>
+   </table>
+
+1. （可选）根据需要重复上一步添加其他阶段。
+
+   >[!NOTE]
+   >
+   >如果添加多个阶段，则审批工作流会按阶段列出的顺序继续执行。 完成所有必需的决策后，将开始下一阶段，并锁定上一阶段。
+
+   ![文档详细信息](assets/new-stage.png)
 
 
 

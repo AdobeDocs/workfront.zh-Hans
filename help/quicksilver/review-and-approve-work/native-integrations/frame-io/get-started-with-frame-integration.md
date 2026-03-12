@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
-source-git-commit: 8233bcad8409b6f293d365fe871338e643a410dc
+source-git-commit: e93f8662acb95029e4997ec270b23511d3e880dd
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '960'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Workfront和Frame.io集成使创意人员、营销人员和利益相关者与无
 
 如果您的组织具有Frame.io Enterprise许可证，则在Workfront中创建的项目也可在Frame.io中看到，从而允许用户在任何一个产品中进行交互和上传资源。
 
-有关Adobe Enterprise Storage或Frame.io中的项目的信息，请参阅
+有关Adobe企业存储或Frame.io中的项目的信息，请参阅
 
 * [Workspace概述：项目](https://help.frame.io/en/articles/9101001-workspace-overview#h_d9f8654895)
 * [Adobe企业存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)
@@ -56,7 +56,7 @@ Workfront和Frame.io集成使创意人员、营销人员和利益相关者与无
 
 ### 在Workfront中启动正式审查和批准
 
-项目协调员可以创建一次性审阅和审批或可恢复审批模板。 他们可以分配审阅人、批准人或两者的组合：
+项目协调员可以创建一次性审阅和批准或可重复使用的批准模板。 他们可以分配审阅人、批准人或两者的组合：
 
 * **审阅人**&#x200B;可以添加评论和标记资源。 完成后，他们可以将其审阅标记为完成。 资产无需在审批流程中继续前进，即可将审核标记为完成。
 * **审批者**&#x200B;可以添加评论和标记资源。 他们必须决定推进审批流程。
@@ -67,13 +67,13 @@ Workfront和Frame.io集成使创意人员、营销人员和利益相关者与无
 
 * **一次性审批**：在资产所在的项目或任务中，项目协调器可以分配审阅人和审批人并设置完成截止日期。 查看者和审批者将在截止日期前72小时、截止日期前24小时以及截止日期本身收到电子邮件提醒。
 
-  有关详细信息，请参阅[创建文档审阅或审批请求](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
+  有关详细信息，请参阅[创建文档审批工作流](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
 
-* **审批模板**：在Workfront设置区域，项目协调员可以创建可恢复的审批模板。 在模板中，用户可以添加审阅人和批准者，并指定完成时间范围。 将审批模板应用于资产时，截止日期从指定的时间范围中计算。
+* **审批模板**：在Workfront设置区域，项目协调员可以创建可重复使用的审批模板。 在模板中，用户可以添加审阅人和批准者，并指定完成时间范围。 将审批模板应用于资产时，截止日期从指定的时间范围中计算。
 
   创建模板后，可将其应用于资源以在Workfront中开始正式审查和批准流程。
 
-  有关详细信息，请参阅[创建批准模板](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)。
+  有关详细信息，请参阅[为文档创建审批工作流模板](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)。
 
 
   ![分配模板](assets/assign-template.png)
@@ -106,6 +106,7 @@ Workfront和Frame.io集成使创意人员、营销人员和利益相关者与无
 完成所有审阅活动后，审批者必须作出以下决策之一：
 
 * **批准**：该资产不需要更改，可以随时使用。
+* **已批准，但有更改**：资产已基本完成，但在使用它之前需要进行细微更改。 完成指定的更改后，资产即准备就绪，无需再进行一轮批准。
 * **需要工作**：该资产需要更改，并且未准备就绪。 完成指定的更改后，必须将资源上传为新版本，并经过另一轮批准。<!--is the same approval workflow automatically applied? Does the coordinator have to do anything to get the approval going? -->
 
 审阅人可以在Workfront中将他们的审阅标记为完成，但资产在审批过程中无需进行此标记。

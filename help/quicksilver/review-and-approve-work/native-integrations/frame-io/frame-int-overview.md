@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
-source-git-commit: 07fa7207960f424cc8580eb46fe13bd5af4e56a8
+source-git-commit: e93f8662acb95029e4997ec270b23511d3e880dd
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Workfront和Frame.io集成允许项目协调员在Workfront中管理项目和计
 
 ## 构建于Adobe企业级存储之上
 
-此集成的核心是Adobe企业存储，它是一种基于云的存储解决方案，可作为Adobe企业产品(包括Workfront和Frame.io)中资产的中央存储库。<!--, and Creative Cloud.-->
+此集成的核心是Adobe企业存储，它是一种基于云的存储解决方案，可作为Adobe企业产品（包括Workfront和Frame.io）中资产的中央存储库。<!--, and Creative Cloud.-->
 
 Adobe企业存储的主要优势包括：
 
@@ -95,12 +95,12 @@ Workfront校对功能在此集成中不可用。
 
 ### 强制的结构和命名约定
 
-由于此集成是使用Adobe Enterprise Storage构建的，因此在管理项目和文档时，应注意一些强制性的结构和命名约定。
+由于此集成是使用Adobe企业存储构建的，因此在管理项目和文档时，应注意一些强制性的结构和命名约定。
 
 * 对象名称必须是唯一的，并且不能重复
 * Adobe企业存储要求层次结构树中具有相同父级的对等对象具有唯一的名称
 * 如果文档属于同一项目，则不能具有相同的名称
-* 文档名称不能包含以下任何特殊字符：\ / ： * ？ &quot; | &lt; >
+* 文档名称不能包含以下任何特殊字符：\ / ： * ？ “ | &lt; >
 * 文档名称限制为最多255个字符
 
 考虑到这些限制，Workfront会根据需要自动重命名对象或文档，以防止冲突。
@@ -134,9 +134,7 @@ Workfront校对功能在此集成中不可用。
 
 ### Workfront中的文档管理
 
-文档通过此集成在项目级别进行管理，目前无法上传到任务或问题。
-
-文档访问也可在项目级别进行管理。 如果用户有权访问项目，则可以访问与该项目关联的所有文档。
+上传到Workfront的文档存储在Adobe企业存储中，可在Workfront和Frame.io中访问。 在Workfront中将文档上传到任务或问题时，系统会在Adobe企业存储中创建一个系统生成的文件夹，该文件夹继承任务或问题的权限。 上传到该任务或问题的所有文档都存储在该文件夹中，并从该文件夹继承权限。 有关Workfront中文档的更多信息，请参阅[新文档区域概述](/help/quicksilver/documents/managing-documents/documents-area.md)和[Adobe企业存储模型的对象权限和访问级别概述](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)。
 
 ### 文档体验限制
 
@@ -151,13 +149,3 @@ Workfront校对功能在此集成中不可用。
 * Workfront中的文档查看器
 * 收藏的文档
 * 请求文档
-
-
-<!--#### Temporary limitations
-
-For now, the following capabilities are not available:
-
-* Send documents to Adobe Experience Manager Assets
-* Multi-stage approvals
-* Upload documents to comments or updates in Workfront
-* Upload documents to tasks or issues in Workfront-->

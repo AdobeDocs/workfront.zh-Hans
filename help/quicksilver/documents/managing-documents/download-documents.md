@@ -6,10 +6,10 @@ description: 您可以单独或批量从Adobe Workfront下载文档。 可从Wor
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 083c604a-b2ca-4279-a90d-b103e3575dad
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 0%
+source-wordcount: '356'
+ht-degree: 5%
 
 ---
 
@@ -17,17 +17,17 @@ ht-degree: 0%
 
 您可以单独或批量从Adobe Workfront下载文档。 可从Workfront中包含文档的任何区域下载文档。 
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -50,16 +50,22 @@ ht-degree: 0%
 
 +++
 
-## 下载单个文档
+## 在旧版文档区域下载文档
+
+如果您的组织位于旧版Workfront存储中，则当您访问Workfront中的文档时，将会看到旧版文档区域。 有关旧版Workfront存储的详细信息，请参阅[旧版Workfront存储与Adobe企业级存储之间的差异](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+
+### 在旧文档区域下载单个文档
 
 1. 转到包含文档的项目、任务或问题，然后选择&#x200B;**文档**。
 1. 查找所需的文档。
 
 1. 单击&#x200B;**下载选定项**&#x200B;图标![下载选定项](assets/download-icon.png)。
 
-## 同时下载多个文档
+![下载单个文档](assets/legacy-doc-download.png)
 
-您可以同时下载多个文档。 
+### 在旧文档区域同时下载多个文档
+
+您可以同时下载多个文档。
 
 1. 转到包含要下载的文档的“文档”区域。
 1. （可选）从文档列表中选择要下载的单个文档。
@@ -72,3 +78,12 @@ ht-degree: 0%
 1. 单击“下载选定项”图标![“下载选定项”图标](assets/download-icon.png)。
 
    文件夹将下载为.zip文件，并且限制为4GB。
+
+## 下载新文档区域中的文档
+
+如果您的组织使用企业存储，则当您访问Workfront中的文档时，将会看到“新建文档”区域。 有关企业存储的更多信息，请参阅[Adobe企业存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+
+1. 转到包含文档的项目、任务或问题，然后在左侧面板中选择&#x200B;**文档**。
+1. 找到所需的文档，然后单击&#x200B;**下载**。
+
+![下载文档](assets/download-new-doc.png)

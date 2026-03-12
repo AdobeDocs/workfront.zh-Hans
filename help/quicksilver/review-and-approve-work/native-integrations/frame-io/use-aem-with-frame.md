@@ -6,13 +6,13 @@ description: 将Adobe Experience Manager与Frame.io集成一起使用
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: 8c5202bcdb367266d31a2e056eed9a286f286518
+exl-id: 04d0f295-5206-4c5d-8003-bdf333150903
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '1615'
+source-wordcount: '1431'
 ht-degree: 1%
 
 ---
-
 
 # 将Adobe Experience Manager与Frame.io集成一起使用
 
@@ -121,7 +121,7 @@ ht-degree: 1%
 
 要配置元数据字段，请执行以下操作：
 
-1. 在[!DNL Experience Manager Assets]中配置元数据架构，如[配置Adobe [!DNL Workfront] 和 [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)之间的资源元数据映射中所述。
+1. 在[!DNL Experience Manager Assets]中配置元数据架构，如[配置Adobe [!DNL Workfront] 和 [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)之间的资源元数据映射中所述。
 
 
 1. 在Workfront中配置自定义表单字段。 [!DNL Workfront]有许多您可以使用的内置自定义字段。 但是，您也可以创建自己的自定义字段，如[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)中所述。
@@ -151,7 +151,7 @@ ht-degree: 1%
 
 在Experience Manager Assets中创建标记后，这些标记将显示在元数据部分的标记下拉列表下。 要将字段链接到标记，请在元数据映射区域的Experience Manager Assets字段下拉列表中选择`xcm:keywords`。
 
-有关Experience Manager Assets中的标记（包括如何创建和管理标记）的更多信息，请参阅[管理标记](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-64/administering/contentmanagement/tags)。
+有关Experience Manager Assets中的标记（包括如何创建和管理标记）的更多信息，请参阅[管理标记](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags)。
 
 **Experience Manager Assets自定义元数据架构字段**
 
@@ -240,34 +240,39 @@ link to documentation about creating schema - waiting on response from Anuj abou
 要发送文档，请执行以下操作：
 
 1. 转到Workfront中的&#x200B;**文档**&#x200B;区域，然后选择要发送的文档。
-1. 单击&#x200B;**发送至**，然后选择管理员设置的Experience Manager集成。
+1. 在屏幕底部的栏中，单击&#x200B;**发送至**。
+
+1. 选择您的管理员设置的Experience Manager集成，然后单击&#x200B;**发送**。
 
    >[!NOTE]
    >
    >Workfront管理员可以选择此集成的任何名称，因此可能没有特别提及Assets或Assets Essentials。
 
-   ![发送至](assets/send-to-aem.png)
 
 1. 选择要将资源放置到的位置，然后单击&#x200B;**选择文件夹**。
-1. 找到所需目标后，单击&#x200B;**保存**。
 
-### 发送新版本
 
-您可以向先前上载到Workfront的文档中添加新版本。 有关详细信息，请参阅[上载文档的新版本](/help/quicksilver/documents/managing-documents/upload-new-document-version.md)。 上传最新版本后，可将其发送到Assets Essentials。 如果Workfront中的映射字段已更改，则新版本会在发送时更新Assets Essentials中的元数据。
+<!-- not sure if this is in yet
+
+### Send a new version
+
+You can add a new version to a document you have previously uploaded to Workfront. For more information, see [Upload a new version of a document](/help/quicksilver/documents/managing-documents/upload-new-document-version.md). After the latest version is uploaded, you can send it to Assets Essentials. If a mapped field in Workfront has changed, the new version updates the metadata in Assets Essentials when it sends.
 
 >[!IMPORTANT]
 >
->在将新版本上传到Workfront之前，我们建议重命名文件。 如果上传的文件名与以前版本完全相同，则只能从Workfront下载最新版本。 无论文件名如何，均可从Experience Manager Assets或Assets Essentials下载所有版本。<!--Is this still a thing with ESM?-->
+>Before you upload a new version to Workfront, we recommend renaming the file. If you upload a new version with the exact same file name as a previous version, only the most recent version can be downloaded from Workfront. All versions can be downloaded from Experience Manager Assets or Assets Essentials regardless of the file name. - is this accuate for ESM?
 
-发送最新版本：
+To send the most recent version:
 
-1. 转到Workfront中的&#x200B;**文档**&#x200B;区域，然后找到该文档。
-1. 选择&#x200B;**发送至**，然后选择管理员设置的Experience Manager集成。
+1. Go to the **Documents** area in Workfront, and locate the document.
+1. In the bar at the bottom of the screen, click **Send to**. 
+
+1. Choose the Experience Manager integration your administrator set up, then click **Send**.
 
    >[!NOTE]
    >
-   >Workfront管理员可以选择此集成的任何名称，因此可能没有特别提及Assets或Assets Essentials。
+   >The Workfront administrator can choose any name for this integration, so it might not specifically mention Assets or Assets Essentials.
 
-   ![发送至](assets/send-to-aem.png)
-
-1. 单击 **Save**。新版本将保存在与先前版本相同的位置。
+1. Click **Save**. The new version saves in the same location as the previous version.
+ 
+ -->

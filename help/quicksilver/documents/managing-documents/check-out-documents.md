@@ -2,32 +2,37 @@
 product-area: documents
 navigation-topic: manage-documents
 title: 签出文档
-description: 您可以签出文档以防止其他用户删除它或上载它的新版本。 一次只能有一个用户签出文档。 您可以签出上传到Adobe Workfront的任何文档以及链接到第三方文档提供商(Box、Dropbox、Google Drive、Webdam、Workfront DAM、SharePoint或任何其他自定义提供商)的文档。
+description: 您可以签出文档以防止其他用户删除它或上载它的新版本。 一次只能有一个用户签出文档。 您可以签出上传到Adobe Workfront的任何文档以及链接到第三方文档提供商（Box、Dropbox、Google Drive、Webdam、Workfront DAM、SharePoint或任何其他自定义提供商）的文档。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 15d9ea43-1cee-4cb1-9365-4374a291c090
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 0%
+source-wordcount: '674'
+ht-degree: 2%
 
 ---
 
 # 签出文档
 
-您可以签出文档以防止其他用户删除它或上载它的新版本。 一次只能有一个用户签出文档。 您可以签出上传到Adobe Workfront的任何文档以及链接到第三方文档提供商(Box、Dropbox、Google Drive、Webdam、Workfront DAM、SharePoint或任何其他自定义提供商)的文档。 
+您可以签出文档以防止其他用户删除它或上载它的新版本。 一次只能有一个用户签出文档。 您可以签出上传到Adobe Workfront的任何文档以及链接到第三方文档提供商（Box、Dropbox、Google Drive、Webdam、Workfront DAM、SharePoint或任何其他自定义提供商）的文档。 
 
-## 访问要求
+>[!NOTE]
+>
+>此功能在新文档区域不可用。<br>
+>如果您的组织使用企业存储，则当您访问Workfront中的文档时，将会看到“新建文档”区域。 有关企业存储的更多信息，请参阅[Adobe企业存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
-+++ 展开以查看本文中各项功能的访问要求。
+## 访问权限要求
+
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

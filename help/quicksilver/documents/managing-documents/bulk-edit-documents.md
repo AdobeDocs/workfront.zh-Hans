@@ -8,10 +8,10 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: e8badce6-86f5-416c-a238-f9b7f19cdd2d
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 0%
+source-wordcount: '905'
+ht-degree: 2%
 
 ---
 
@@ -36,15 +36,15 @@ ht-degree: 0%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p> 任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p> “任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
@@ -66,7 +66,9 @@ ht-degree: 0%
 
 +++
 
-## 批量编辑文档
+## 在旧文档区域批量编辑文档
+
+如果您的组织位于旧版Workfront存储中，则当您访问Workfront中的文档时，将会看到旧版文档区域。 有关Workfront存储的详细信息，请参阅[Adobe企业存储与旧版Workfront存储之间的差异](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage)。
 
 要批量编辑文档，请执行以下操作：
 
@@ -93,6 +95,31 @@ ht-degree: 0%
     </table>
 1. 单击&#x200B;**保存**。
 
+## 在新文档区域批量编辑文档
+
+
+如果您的组织使用企业存储，则当您访问Workfront中的文档时，将会看到“新建文档”区域。 有关企业存储的更多信息，请参阅[Adobe企业存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+
+要批量编辑文档，请执行以下操作：
+
+1. 转到包含文档的项目、任务或问题，然后选择&#x200B;**文档**。
+1. 按键盘上的ctrl或cmd，然后选择要编辑的文档。
+1. 单击页面底部的“编辑”。
+   ![编辑多个文档](assets/bulk-edit-documents.png)
+1. （可选）添加或编辑&#x200B;**描述**。 如果每个文档上的描述不同，您将在描述框中看到&#x200B;_多个值_。 您可以为所有文档添加相同的描述，但在批量编辑时无法编辑单个文档描述。
+1. 对自定义表单进行以下更改：
+
+   <table>
+    <tr>
+    <td><strong>添加表单</strong></td>
+    <td>在<strong>自定义表单</strong>分区中，可以将新的自定义表单添加到所选文档。 附加到所有选定文档的自定义表单显示在公共<strong>分区中的</strong>自定义表单中。  </td>
+    </tr>
+    <tr>
+    <td><strong>编辑表单</strong></td>
+    <td>编辑任何附加的自定义表单。 您更改的信息将覆盖单个文档上的现有信息。 文档中具有不同值的字段显示为“多个值”。 </td>
+    </tr>
+    </table>
+1. 单击&#x200B;**保存**。
 
 ## 在文档报告中批量编辑文档
 
@@ -101,7 +128,6 @@ ht-degree: 0%
 按照[创建自定义报告](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)中的说明创建文档报告。
 1. 选择要编辑的文档。
 1. 单击编辑图标![编辑图标](assets/edit-icon.png)。
-   ![编辑图标在页面上的位置](assets/edit-multiple-documents.png)
 1. （可选）添加或编辑&#x200B;**描述**。 如果每个文档上的描述不同，您将在描述框中看到&#x200B;_多个值_。 您可以为所有文档添加相同的描述，但在批量编辑时无法编辑单个文档描述。
 1. 对自定义表单进行以下更改：
 

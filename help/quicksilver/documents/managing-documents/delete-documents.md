@@ -6,10 +6,10 @@ description: 您可以删除上传的文档。 如果您被授予特定文档的
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1a4c4849-bca1-4ae3-9111-d0ed4dacca14
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 1%
+source-wordcount: '334'
+ht-degree: 7%
 
 ---
 
@@ -17,23 +17,23 @@ ht-degree: 1%
 
 您可以删除上传的文档。 如果您被授予特定文档的管理访问权限，则也可以删除这些文档。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p> 任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p> “任一”</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td role="rowheader">Adobe Workfront 许可证</td> 
    <td> 
    <p>标准</p>
-   <p>工作或更高</p> </td> 
+   <p>工作版或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -50,13 +50,36 @@ ht-degree: 1%
 
 +++
 
+## 删除旧文档区域中的文档
+
+如果您的组织位于旧版Workfront存储中，则当您访问Workfront中的文档时，将会看到旧版文档区域。 有关旧版Workfront存储的详细信息，请参阅[旧版Workfront存储与Adobe企业级存储之间的差异](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+
 要删除文档，请执行以下操作：
 
-1. 转到包含文档的项目、任务或问题，然后选择&#x200B;**文档**。
+1. 转到包含文档的项目、任务或问题，然后在左侧面板中选择&#x200B;**文档**。
 1. 查找所需的文档。
 
 1. 单击文档区域上方的&#x200B;**删除**&#x200B;图标![删除图标](assets/delete.png)。
 
 1. 在出现的框中，单击&#x200B;**是，删除**&#x200B;以进行确认。
 
-系统或组管理员可以在文档被删除后的30天内恢复文档，如[恢复已删除的项目](../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)中所述。
+   系统或组管理员可以在文档被删除后的30天内恢复文档，如[恢复已删除的项目](../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)中所述。
+
+   ![删除文档](assets/delete-documents-legacy.png)
+
+
+## 在新文档区域删除文档
+
+如果您的组织使用企业存储，则当您访问Workfront中的文档时，将会看到“新建文档”区域。 有关企业存储的更多信息，请参阅[Adobe企业存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+
+要删除文档，请执行以下操作：
+
+1. 转到包含文档的项目、任务或问题，然后在左侧面板中选择&#x200B;**文档**。
+
+1. 找到所需的文档，然后单击&#x200B;**删除**。
+
+1. 在出现的框中，单击&#x200B;**删除**&#x200B;以确认。
+
+   系统或组管理员可以在文档被删除后的30天内恢复文档，如[恢复已删除的项目](../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)中所述。
+
+   ![删除文档](assets/delete-documents-new.png)

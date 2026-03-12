@@ -6,9 +6,9 @@ description: 在Workfront中可供审阅和批准的系统概述。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: aa3645e2ed8c36a3b07caad72083a43467889fce
+source-git-commit: e93f8662acb95029e4997ec270b23511d3e880dd
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -58,9 +58,11 @@ Workfront中目前有3种不同的系统可用于文档审批：
 * 使用当前处于测试状态的画布功能板查看有关统一审批的报告详细信息
 有关报告的详细信息，请参阅[创建报告仪表板以供审阅和批准](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)。
 
-* 创建多个阶段审批[!BADGE 即将推出]{type=Informative}
+* 创建多个阶段审批
 
 * 访问主页区域中的我的审批小组件中的查看和审批请求
+
+* 使用Frame.io集成来审阅和批准文档。 有关详细信息，请参阅[Frame.io集成入门](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)。
 
 * 使用AI审阅者可自动进行品牌合规性审阅。 有关详细信息，请参阅[Workfront AI查看器入门](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)。
 
@@ -88,7 +90,3 @@ Workfront中目前有3种不同的系统可用于文档审批：
 * 使用基本或自动化工作流
 
 * 访问主页区域我的审批构件中的审批请求
-
-<!--
-## Upcoming deprecations
--->
