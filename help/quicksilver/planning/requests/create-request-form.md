@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
+source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
 workflow-type: tm+mt
-source-wordcount: '3550'
+source-wordcount: '3552'
 ht-degree: 1%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 1%
 
       * 创建者、上次修改者、批准者
       * 创建日期、上次修改日期、批准日期
-        <!--* <span class="preview">Record ID</span>-->
+      * <span class="preview">记录ID</span>
       * Workfront对象的查找字段
       * Workfront Planning已连接记录的查找字段
 

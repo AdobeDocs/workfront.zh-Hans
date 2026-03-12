@@ -6,16 +6,16 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
+source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
 workflow-type: tm+mt
-source-wordcount: '5510'
+source-wordcount: '5686'
 ht-degree: 1%
 
 ---
 
 
 <!--
-Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=zh-Hans ??
+Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??
 -->
 
 <!--
@@ -249,8 +249,8 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
    * [上次修改者](#last-modified-by)
    * [上次修改日期](#last-modified-date)
    * [批准日期](#approved-date)
-   * [审批者](#approved-by)
-     <!--* <span class="preview">[Record ID](#record-id)</span>-->
+   * [批准者](#approved-by)
+   * <span class="preview">[记录ID](#record-id)</span>
      <!--* [Object](#object-field-type)-->
 
    >[!IMPORTANT]
@@ -810,33 +810,32 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 
    新的Approved by-type字段作为列添加到记录类型，其值预填充有上次修改每个记录的用户的名称。
 
-<!--
 <span class="preview">
 
-## Record ID
+## 记录 ID
 
-You can use the Record ID field type to reveal a system-generated, read-only identifier for each record. 
+您可以使用记录ID字段类型显示每个记录的系统生成的只读标识符。
 
-When created, the Record ID field auto-populates with an alpha-numeric value. You can use it in formula fields and in API integrations to uniquely identify each record. 
+创建后，记录ID字段会自动填充字母数字值。 您可以在公式字段和API集成中使用它以唯一标识每个记录。
 
-You cannot manually modify the value of a Record ID field. 
- 
-1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Record ID** field type.
- 
-   ![Record ID field type](assets/record-id-field-type.png)
+您无法手动修改记录ID字段的值。
 
-1. Add the following information in the **New field** tab:
+1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**记录ID**&#x200B;字段类型。
 
-     * **Name**: The name of the field, as it will appear in a table or the record page. 
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
-    
-1. Click **Create**.
+   ![记录ID字段类型](assets/record-id-field-type.png)
 
-    The new Record ID-type field is added as a column to the record type and its values are prefilled with an alpha-numeric value.  
+1. 在&#x200B;**新建字段**&#x200B;选项卡中添加以下信息：
+
+   * **名称**：字段的名称，它将显示在表或记录页中。
+   * **描述**：有关该字段的其他信息。 当您将鼠标悬停在表中的字段列上时，或者在记录的详细信息页面中单击字段名称旁边的信息图标时，将显示字段的描述。
+
+1. 单击&#x200B;**创建**。
+
+   新的记录ID类型字段作为列添加到记录类型，其值预先填充有字母数字值。
 
 </span>
 
--->
+
 <!--
 
 ## Object field type

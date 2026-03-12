@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
+source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1289'
 ht-degree: 1%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 1%
 
 ## 有关将审批添加到请求表单的注意事项
 
-* 您可以向请求表单添加一个或多个批准者。 您只能添加用户作为批准者。
+* 您可以向请求表单添加一个或多个批准者。 您可以将用户和团队添加为批准者。
 * 对于通过提交请求表单而创建的记录，您可以在“批准者”和“批准日期”字段中显示批准信息。 有关信息，请参阅[创建字段](/help/quicksilver/planning/fields/create-fields.md)。
 * 向请求表单添加多个批准者时，所有批准者都必须接受请求，然后才能在Workfront Planning中创建记录。
 * 如果所有批准者都批准了该请求，则将为与请求表单关联的记录类型创建记录。
@@ -116,7 +116,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >   贵组织的Workfront实例必须载入到Adobe Unified Experience，用户才能接收电子邮件和应用程序内通知。
+   >贵组织的Workfront实例必须载入到Adobe Unified Experience，用户才能接收电子邮件和应用程序内通知。
 
 
    有关批准请求的信息，请参阅[批准请求](/help/quicksilver/planning/requests/approve-request.md)。

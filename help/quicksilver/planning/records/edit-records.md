@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
+source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
 workflow-type: tm+mt
-source-wordcount: '2899'
+source-wordcount: '2961'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 编辑记录
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 
 {{planning-important-intro}}
@@ -139,10 +139,10 @@ ht-degree: 0%
 * 以下类型的字段会自动更新，您无法手动编辑其值：
    * 来自其他记录的链接字段
    * 公式类型字段
-   * 系统字段（“创建者”、“创建日期”、“上次修改者”、“上次修改日期”、“批准日期”、“批准者<!--, <span class="preview">Record ID</span>-->”）
+   * 系统字段（“创建者”、“创建日期”、“上次修改者”、“上次修改日期”、“批准日期”、“批准者”、<span class="preview">记录ID</span>）
 * 如果显示的记录链接到其他记录，则您正在编辑的记录的新信息将反映在链接该记录的所有工作区中的链接记录上。
 * 不能批量编辑记录。<!--this will probably change-->
-* 只有当URL以以下内容开头时，才会被识别为单行文本字段类型中的链接： http://、https://、ftp://或www。.
+* 只有当URL以以下内容开头时，才会被识别为单行文本字段类型中的链接： http://、https://、ftp://或www. 。
 * 您可以向每张记录添加封面图像。 每个记录的图像都是唯一的，并且不适用于同一时间的所有记录。 有关信息，请参阅[将封面图像添加到记录](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)。
 * 您可以在记录的详细信息页面中编辑字段的顺序。 有关详细信息，请参阅[管理记录页布局](/help/quicksilver/planning/records/manage-the-record-page.md)。
 * 通过调整时间轴和日历视图中的记录大小或重新定位这些记录，可以编辑记录的开始日期和结束日期。
@@ -236,7 +236,7 @@ ht-degree: 0%
    >请考虑以下事项：
    >
    >* 使用以下键盘快捷键来复制和粘贴信息：
-   >   * 复制：CTRL + C (对于Mac，为⌘ + C)
+   >   * 复制：CTRL + C （对于Mac，为⌘ + C）
    >   * 粘贴：CTRL + V (⌘ + V for Mac)
    >
    >* 您不能在记录页面中复制和粘贴字段值。 仅记录类型的表视图支持此功能。
@@ -247,8 +247,8 @@ ht-degree: 0%
 
 1. （可选）使用以下键盘快捷键可撤消或重做编辑或复制和粘贴记录信息：
 
-   * 按CTRL + Z (⌘ + Z表示Mac)可撤消更改
-   * 按CTRL + Shift + Z (⌘ + Shift + Z用于Mac)以重做更改
+   * 按CTRL + Z （⌘ + Z表示Mac）可撤消更改
+   * 按CTRL + Shift + Z （⌘ + Shift + Z用于Mac）以重做更改
 
    >[!TIP]
    >

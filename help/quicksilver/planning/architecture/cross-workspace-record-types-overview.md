@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
+source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
 workflow-type: tm+mt
-source-wordcount: '1709'
+source-wordcount: '1802'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 跨工作区记录类型概述
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span> -->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -230,11 +230,11 @@ These two capabilities will come later - and edit some of the bullets below afte
 
    原始记录类型将存在于其原始工作区中，并且可从其他工作区访问它以连接到。
 
-   <!--
-    <span class="preview">Only System Administrators can designate a record type to be connectable from all workspaces in the system. All other workspace managers can designate specific workspaces to connect to the record type from. </span>
-    -->
-
-   有关信息，请参阅[为记录类型配置跨工作区功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。
+   >[!TIP]
+   >
+   ><span class="preview">只有系统管理员才能将记录类型指定为可从系统中的所有工作区连接。 所有其他工作区管理员都可以指定要从中连接到记录类型的特定工作区。</span>
+   >
+   >有关信息，请参阅[为记录类型配置跨工作区功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。
 1. 从您管理的另一个工作区连接到指定为可连接的记录类型。
 
    有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
