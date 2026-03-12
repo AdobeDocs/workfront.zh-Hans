@@ -4,12 +4,12 @@ product-area: reports and dashboards
 navigation-topic: data connect
 title: 为Snowflake创建读取器帐户
 description: 要访问Data Connect数据，您必须首先创建一个Snowflake读取器帐户。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: 9cf221bda04614856a6a3670100742340fb73aee
+source-git-commit: b6267718fd76a643395c850b97352095a0fe12fc
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '906'
 ht-degree: 1%
 
 ---
@@ -75,17 +75,31 @@ ht-degree: 1%
 
 ## 创建连接
 
+>[!IMPORTANT]
+>
+>2026年6月，使用多重身份验证(MFA)将需要用户名/密码凭据。 我们建议转换到基于RSA或PAT的身份验证模式，服务用户帐户用于将数据从Data Connect加载到第三方可视化工具、数据处理者和脚本中，这些工具在身份验证过程中不适用于MFA。
+
+
 1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**设置**。
 
 1. 在左侧面板中，单击&#x200B;**系统** > **数据连接**。
 
-1. 单击&#x200B;**新建连接**
+1. 单击&#x200B;**新建连接**。
 
 1. 在出现的窗口中，在&#x200B;**连接引用描述**&#x200B;中输入连接名称，在&#x200B;**连接用户**&#x200B;中输入用户名，然后单击&#x200B;**生成连接**。
 
    ![创建新连接](/help/quicksilver/reports-and-dashboards/data-lake/assets/new-reader-connection.png) {width="500"}
 
-1. 将生成&#x200B;**默认密码**&#x200B;以及可通过Snowflake查看您的数据的URL。 您需要将密码与您选择用于首次登录Snowflake的用户名结合使用，因此请确保同时记录该密码和URL。 选中声明已完成此操作的框，然后单击&#x200B;**关闭**。
+1. 为您的连接选择身份验证方法：
+   * [密码身份验证](#password-authentication)
+   * [程序化访问令牌身份验证](#programmatic-access-token-authentication)
+   * [RSA密钥身份验证](#rsa-key-authentication)
+
+### 密码身份验证
+
+1. 单击&#x200B;**密码**，然后单击&#x200B;**生成连接**。
+
+1. 生成&#x200B;**默认密码**&#x200B;以及可通过Snowflake查看您的数据的URL。 您需要将密码与您选择首次登录到Snowflake的用户名结合使用，因此请确保同时记录该密码和URL。 选中声明已完成此操作的框，然后单击&#x200B;**关闭**。
 
    ![默认帐户密码](/help/quicksilver/reports-and-dashboards/data-lake/assets/default-password-reader-account.png) {width="500"}
 
@@ -96,6 +110,35 @@ ht-degree: 1%
    ![重置Snowflake密码](/help/quicksilver/reports-and-dashboards/data-lake/assets/reset-snowflake-password.png) {width="300"}
 
 1. 您现在可以使用用户名和新密码访问Snowflake中的Data Connect数据湖或您选择的业务可视化工具。
+
+### 程序化访问令牌身份验证
+
+1. 单击&#x200B;**编程访问令牌**。
+
+1. 在&#x200B;**到期日期**&#x200B;字段中输入令牌的到期日期。 您可以选择未来最多365天的到期日期。
+
+1. 单击&#x200B;**生成连接**。
+
+1. 将生成可用于身份验证的PAT令牌，并会提供您的Snowflake环境URL。 您可以使用提供的PAT和用户名从第三方可视化工具或数据处理者连接到Snowflake。 请确保您保留了该文件的记录以及URL。 选中声明已完成此操作的框，然后单击&#x200B;**关闭**。
+
+   ![编程访问令牌对话框](/help/quicksilver/reports-and-dashboards/data-lake/assets/pat-test.png)
+
+
+### RSA密钥身份验证
+
+1. 单击&#x200B;**RSA密钥**。
+
+1. 在&#x200B;**RSA公钥**&#x200B;字段中输入RSA公钥。
+
+1. 单击&#x200B;**生成连接**。
+
+1. 将生成连接，并提供您的Snowflake环境URL。 您可以使用提供的RSA密钥和用户名从第三方可视化工具或数据处理者连接到Snowflake。
+
+
+
+您需要将RSA密钥与您选择登录到Snowflake的用户名结合使用，因此请确保同时记录此密钥和URL。 选中声明已完成此操作的框，然后单击&#x200B;**关闭**。
+
+    ！[RSA密钥对话框](Assets/rsa-test.png)
 
 ## 撤销读取者帐户
 
