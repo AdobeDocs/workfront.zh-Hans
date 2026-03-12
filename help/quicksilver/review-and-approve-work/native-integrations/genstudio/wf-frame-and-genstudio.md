@@ -7,9 +7,10 @@ description: GenStudio for Performance Marketing与Frame.io集成快速入门
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: 439ad6f43e1714d0f2580a5097ba92834fb15d60
+exl-id: 4d0c0542-3383-4907-b573-e2ef56117681
+source-git-commit: 8b8f638f089ff967fe7d4fb641b23f5836ac86b5
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '457'
 ht-degree: 4%
 
 ---
@@ -70,17 +71,8 @@ ht-degree: 4%
 
 * 必须在Adobe Unified Experience上启用Workfront实例。
 
-<!--* The integration must be enabled in the Workfront Setup area.
+* Workfront实例必须启用Adobe企业存储。 有关详细信息，请参阅[启用Adobe企业存储](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
 
-
-## Enable the integration in Workfront
-
-You must be a system administrator to enable this integration. 
-
-1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
-1. In the left panel, click **Review and Approval** > **Adobe GenStudio**.
-1. Enable **Use proof approvals**. 
--->
 
 ## 使用Workfront统一审批模板定义审批工作流
 
@@ -96,7 +88,7 @@ You must be a system administrator to enable this integration.
 
 当用户在GenStudio for Performance Marketing中启动审核时，他们只需选择所需的模板即可。 用户可以随时轻松更改任何统一的审批审批工作流模板，添加或删除审阅人和阶段。
 
-有关详细信息，请参阅[请求审阅和批准](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/approve/request-review)。
+有关详细信息，请参阅[请求审阅和批准](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review)。
 
 ## 在Frame.io查看器中审阅和批准GenStudio for Performance Marketing草稿内容
 
@@ -115,4 +107,4 @@ You must be a system administrator to enable this integration.
 
 资产完成审阅和批准流程后，您可以直接从GenStudio for Performance Marketing查看审阅决策并发布内容。
 
-有关详细信息，请参阅[发布批准的内容](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content)。
+有关详细信息，请参阅[发布批准的内容](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content)。
