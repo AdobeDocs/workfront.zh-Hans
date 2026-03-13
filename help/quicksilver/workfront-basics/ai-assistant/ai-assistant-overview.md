@@ -5,9 +5,9 @@ description: 了解 Adobe Workfront 中的 AI 助手
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 2619aa432a8c0b12d0d910df8eb05447fa50f387
+source-git-commit: 418ea6e9728cb0e8d178fa201ece35328547eedb
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '856'
 ht-degree: 4%
 
 ---
@@ -140,7 +140,8 @@ AI助手当前提供以下功能：
 
    >[!NOTE]
    >
-   >请在签署并返回协议后留出1-3个工作日以便Adobe审查和启用AI助手。
+   >* 请在签署并返回协议后留出1-3个工作日以便Adobe审查和启用AI助手。
+   >* 如果在启用人工智能助手后，您组织的实例中没有看到可用人工智能助手选项，请联系Workfront客户支持。
 
 ## 在AI助手中创建提示的提示
 
