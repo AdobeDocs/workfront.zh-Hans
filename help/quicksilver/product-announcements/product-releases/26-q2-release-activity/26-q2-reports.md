@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
-source-git-commit: aceb9f7bd6c62036838b15d74ee2a9b7843e5c11
+source-git-commit: ed4b03429a479797854a0cae08f9191a25eebc13
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,22 @@ ht-degree: 0%
 本页介绍了在2026年第二季度版本中对“预览”环境所做的报表增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2026年第二季度发布周期中此时可用的所有更改列表，请参阅[2026年第二季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+
+## 数据连接连接的新身份验证选项
+
+>[!NOTE]
+>
+>预览：2026年3月12日
+>生产快速发布： 2026年3月12日
+>适用于所有人的生产： 2026年4月16日
+
+您现在可以使用RSA密钥或程序化访问令牌(PAT)连接验证数据连接，为传统的用户名/密码凭据添加更安全、更灵活的替代方案。
+
+这些新选项允许组织维护与Power BI、Tableau和其他第三方BI工具的稳定连接，而不依赖于基于用户的登录方法。
+
+>[!IMPORTANT]
+>
+>2026年6月，使用多重身份验证(MFA)将需要用户名/密码凭据。 我们建议转换到基于RSA或PAT的身份验证模式，服务用户帐户用于将数据从Data Connect加载到第三方可视化工具、数据处理者和脚本中，这些工具在身份验证过程中不适用于MFA。
 
 ## 构建报告时显示的自定义字段标签
 
