@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ed40984f-602a-46e9-a72b-141936de8fcb
-source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
+source-git-commit: bbd00374a6b291582cd03b9d0471d8547eb6ab7f
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 使用我们的合作伙伴之一
 
-[!DNL AtAppStore] ([www.atappstore.com](https://www.atappstore.com))有一个易于使用的应用程序(其[Workfront快照](https://store.atappstore.com/product/workfront-snapshot/)解决方案)，允许您自行下载数据。 可选查看器(其[Workfront Snapshot Viewer](https://store.atappstore.com/product/workfront-snapshot-viewer/)解决方案)允许您轻松地脱机查看数据。
+[!DNL AtAppStore] ([www.atappstore.com](https://www.atappstore.com))有一个易于使用的应用程序（其[Workfront快照](https://store.atappstore.com/product/workfront-snapshot/)解决方案），允许您自行下载数据。 可选查看器（其[Workfront Snapshot Viewer](https://store.atappstore.com/product/workfront-snapshot-viewer/)解决方案）允许您轻松地脱机查看数据。
 
 * **优点：**&#x200B;所有核心[!DNL Workfront]对象均已导出，包括自定义字段和注释，并存储在易于访问的[!DNL MS Access]数据库中。 查看器的界面易于使用和读取。 “提取文档”也作为服务单独提供，输出组织为逻辑文件夹结构，该结构映射到每个文档及其以前版本。
 
@@ -32,15 +32,7 @@ ht-degree: 0%
 
 * **费用：**&#x200B;有关详细信息，请转到[https://store.atappstore.com/product/workfront-snapshot/](https://store.atappstore.com/product/workfront-snapshot/)。
 
-## 从我们的数据库团队请求[!DNL Postgres]数据转储文件
 
-您必须向我们的客户支持团队提交请求，然后他们将向我们的数据库团队提交请求，以导出包含您的数据的数据库转储文件（.dmp [!DNL Postgres]文件）。 另外，还会向我们的NOC团队提出检索所有存储文档的请求。
-
-* **优点**：获取整个数据加载，包括自定义字段以及存储在系统中的文档。
-
-* **缺点**：无法读取此文件，除非将其上载到[!DNL Postgres]数据库并重新建立表之间的关系。 文档存储在单独的文件服务器上，必须由NOC团队使用单独的进程单独提取。 这样做时，文档没有组织，并且它们都由其GUID引用。
-
-* **成本**：此下载的相关成本取决于团队创建文件所需的时间。 请与您的AE/CAE联系，以了解详细信息或开始此流程。
 
 ## 通过[!UICONTROL Kick-Start]导出
 
@@ -52,7 +44,7 @@ ht-degree: 0%
 
 * **费用**：如果您可以自行运行报告（只需系统管理员登录即可），或者可以使用剩余的远程咨询时间，则免费。 如果您有兴趣为此购买远程咨询，请与您的AE/CAE联系。
 
-  有关使用Kick-Starts导出数据的详细信息，请参阅[通过[!UICONTROL Kick-Starts]](../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)从 [!DNL Adobe Workfront] 导出数据。
+  有关使用Kick-Starts导出数据的详细信息，请参阅[通过 [!DNL Adobe Workfront] Kick-Starts[!UICONTROL 从]](../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)导出数据。
 
 ## 使用我们的开放API
 
