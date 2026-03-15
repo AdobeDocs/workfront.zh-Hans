@@ -3,9 +3,9 @@ content-type: overview
 title: 摘要概述
 description: 可以使用“摘要”面板直接从任务问题、文档列表或显示任务和问题的 [!DNL Adobe Workfront] 的其他区域查看和更新工作项信息。
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '908'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 您可以使用[!UICONTROL 摘要]面板直接从任务、问题、文档的列表或显示任务和问题的[!DNL Adobe Workfront]的其他区域查看和更新工作项信息。
 
-您的Workfront或组管理员可以修改“摘要”面板中显示的区域和字段。 他们最多可以向“摘要”面板添加16个字段。
+您的Workfront或组管理员可以修改在“摘要”面板中显示的区域和字段。 他们最多可以向“摘要”面板添加16个字段。
 
 >[!IMPORTANT]
 >
@@ -54,10 +54,10 @@ ht-degree: 2%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 工作负载均衡器]的[!UICONTROL 未分配]和[!UICONTROL 已分配]工作区域中的任务</td> 
+   <td>[！UICONTROL工作量平衡器]的[！UICONTROL Unassigned]和[！UICONTROL Assigned]工作区域中的任务</td> 
   </tr> 
    <tr> 
-   <td>[!UICONTROL 时间表]中的任务</td> 
+   <td>[！UICONTROL时间表]中的任务</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><b>问题</b></td> 
@@ -71,24 +71,24 @@ ht-degree: 2%
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 工作负载均衡器]的[!UICONTROL 已分配工作]区域出现问题</td> 
+   <td>[！UICONTROL Workload Balancer]的[！UICONTROL Assigned Work]区域中的问题</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 请求]区域的[!UICONTROL 已提交]部分中的问题</td> 
+   <td>[！UICONTROL Requests]区域的[！UICONTROL Submitted]部分的问题</td> 
   </tr> 
 </tr> 
    <tr> 
-   <td>[!UICONTROL 时间表]中的问题</td> 
+   <td>[！UICONTROL时间表]中的问题</td> 
   </tr>
 
 <tr data-mc-conditions=""> 
    <td><b>文档</b></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 文档]区域</td> 
+   <td>[！UICONTROL文档]区域</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>任何对象（项目、任务、问题、项目、项目组合、模板、模板任务、用户）的[!UICONTROL 文档]部分</td> 
+   <td>任何对象（项目、任务、问题、项目、项目组合、模板、模板任务、用户）的[！UICONTROL文档]部分</td> 
   </tr> 
  </tbody> 
 </table>
@@ -111,17 +111,17 @@ ht-degree: 2%
 
    或
 
-   单击&#x200B;**[!UICONTROL 请求]**&#x200B;区域的![已提交](assets/open-summary-with-text-nwe.png)部分中的[!UICONTROL 打开摘要]图标[!UICONTROL 打开摘要并包含文本]。
+   单击&#x200B;**[!UICONTROL 请求]**&#x200B;区域的![已提交](assets/open-summary-with-text-nwe.png)部分中的[!UICONTROL 打开摘要]图标[!UICONTROL 打开包含文本的摘要]。
 
-   打开“摘要”后，在单击或选择其他任务或问题时，它保持打开状态，直到手动关闭它为止。
+   打开“摘要”后，在单击或选择其他任务或问题时它会保持打开状态，直到您手动关闭它为止。
 
    >[!TIP]
    >
-   >一次只能选择一个任务或一个问题，以便在[!UICONTROL 摘要]面板中查看其详细信息。
+   >在[!UICONTROL 摘要]面板中查看任务详细信息时，您一次只能选择一个任务或一个问题。
 
    ![摘要面板](assets/summary-panel-for-task-new-comments.png)
 
-1. （可选）要关闭[!UICONTROL 摘要]面板，请执行下列操作之一：
+1. （可选）要关闭[!UICONTROL 摘要]面板，请执行以下操作之一：
 
    * 在任务或问题列表中，单击&#x200B;**[!UICONTROL 打开摘要]**&#x200B;图标![摘要面板图标](assets/summary-panel-icon.png)
 
@@ -129,11 +129,11 @@ ht-degree: 2%
 
      单击&#x200B;**摘要**&#x200B;面板右上角的[!UICONTROL X]图标。
 
-   * 在[!UICONTROL 请求]区域的[!UICONTROL 已提交]部分中，单击&#x200B;**[!UICONTROL 关闭摘要]**&#x200B;图标![包含文本的关闭摘要](assets/close-summary-with-text-nwe.png)
+   * 在[!UICONTROL 请求]区域的[!UICONTROL 已提交]部分中，单击&#x200B;**[!UICONTROL 关闭摘要]**&#x200B;图标![关闭包含文本的摘要](assets/close-summary-with-text-nwe.png)
 
      或
 
-     单击摘要面板右上角的&#x200B;**X**&#x200B;图标。
+     单击“摘要”面板右上角的&#x200B;**X**&#x200B;图标。
 
 ## 已完成[!UICONTROL 百分比]
 
@@ -145,13 +145,13 @@ ht-degree: 2%
 
 ## [!UICONTROL 更新]
 
-使用[!UICONTROL 摘要]的[!UICONTROL 更新]部分查看最近的更新并对您选择的任务或问题进行更新。 单击&#x200B;**[!UICONTROL 查看全部]**&#x200B;直接转到任务的[!UICONTROL 更新]选项卡。
+使用“[!UICONTROL 摘要]”的“[!UICONTROL 更新]”部分查看最近的更新，并对所选任务或问题作出更新。 单击&#x200B;**[!UICONTROL 查看全部]**&#x200B;以直接转到任务的[!UICONTROL 更新]选项卡。
 
-摘要面板中的![更新部分](assets/summary-updates-section.png)
+![“摘要”面板中的“更新”部分](assets/summary-updates-section.png)
 
 ## [!UICONTROL 文档]
 
-使用[!UICONTROL 摘要]的[!UICONTROL 文档]部分查看附加到所选任务或问题的文档。 单击缩略图以打开文档预览。 要直接转到任务或问题上的[!UICONTROL 文档]选项卡，请单击&#x200B;**[!UICONTROL 文档]**&#x200B;标题。
+使用“[!UICONTROL 摘要]”的“[!UICONTROL 文档]”部分查看附加到所选任务或问题的文档。 单击缩览图以打开文档预览。 要直接转到任务或问题上的[!UICONTROL 文档]选项卡，请单击&#x200B;**[!UICONTROL 文档]**&#x200B;标题。
 
 摘要面板中的![文档部分](assets/summary-documents-section.png)
 
@@ -183,8 +183,8 @@ ht-degree: 2%
 
 ## 审批
 
-使用[!UICONTROL 摘要]的[!UICONTROL 审批]部分查看附加到所选任务或问题的审批。 如果您尚未添加任何审批，请从下拉菜单中选择现有审批，或单击&#x200B;**[!UICONTROL 创建一次性审批流程]**&#x200B;直接转到任务或问题上的[!UICONTROL 审批]选项卡。
+使用“[!UICONTROL 摘要]”的“[!UICONTROL 审批]”部分查看附加到所选任务或问题的审批。 如果尚未添加任何审批，请从下拉菜单中选择现有的审批，或单击&#x200B;**[!UICONTROL 创建一次性审批流程]**，以直接转到任务或问题上的[!UICONTROL 审批]选项卡。
 
-要直接转到任务或问题上的[!UICONTROL 审批]选项卡，请单击&#x200B;**[!UICONTROL 审批]**&#x200B;标题。
+要直接转到任务或问题上的[!UICONTROL “审批”]选项卡，请单击&#x200B;**[!UICONTROL “审批”]**&#x200B;标题。
 
-摘要面板中的![审批分区](assets/summary-approvals-section.png)
+![“摘要”面板中的“审批”部分](assets/summary-approvals-section.png)

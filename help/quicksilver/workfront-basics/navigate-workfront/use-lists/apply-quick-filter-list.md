@@ -3,12 +3,12 @@ navigation-topic: use-lists
 title: 将快速筛选器应用到列表
 description: 您可以在对象列表中使用快速过滤器，以帮助您仅查找对您很重要的项目，以便快速查看、更新或与他人共享这些项目。
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: 363f7ad1-f4f8-4cb1-a631-ee4e5ea28e5a
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '843'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -49,9 +49,9 @@ ht-degree: 0%
 * 如果列表中有多个分组，并且快速筛选器仅在一个分组中查找项目，则只有该分组会与找到的项目一起显示。 所有其他分组都已隐藏。
 * 在任务或子任务列表中，当显示快速筛选器的结果时，将删除任务层次结构。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。 
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -61,12 +61,12 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
    <td> 
-    <p>新增：</p>
+    <p>新：</p>
    <ul><li><p>参与者或更高版本 </p></li>
    </ul>
 
@@ -80,7 +80,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>列表所在对象的[!UICONTROL View]权限</p>  </td> 
+   <td> <p>列表所在对象的[！UICONTROL View]权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -129,6 +129,6 @@ ht-degree: 0%
    >仅在快速过滤器搜索中找到的项目导出到所选文件。 如果在导出列表之前未选择任何项目，则会导出完整的未筛选列表。\
    >有关详细信息，请参阅[导出列表](../../../workfront-basics/navigate-workfront/use-lists/export-lists.md)。
 
-1. （可选）要清除筛选的结果，请单击窗口右上角的&#x200B;**[!UICONTROL 快速筛选器]**&#x200B;图标。
+1. （可选）要清除筛选的结果，请单击窗口右上角的&#x200B;**[!UICONTROL 快速筛选器]**图标。
 或
 刷新页面。

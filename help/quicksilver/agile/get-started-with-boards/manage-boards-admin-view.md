@@ -3,19 +3,19 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 管理讨论区管理员视图
 description: 讨论区管理员视图包含您的帐户中每个讨论区的列表，系统管理员可以使用它们快速了解讨论区的总体详细信息。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 4a7f2f68-14d2-4532-8c76-2ba78b45deac
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '618'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 # 管理讨论区管理员视图
 
-“展示板管理视图”包含您的帐户中每个展示板的列表，系统管理员可以使用它们快速获取整个展示板详细信息的快照，包括上次更新时间、每个展示板有多少张展示板等等。
+“展示板管理员视图”包含您的帐户中每个展示板的列表，系统管理员可以使用这些列表快速获取展示板总体详细信息的快照，包括上次更新它们的时间、每个展示板有多少卡等。
 
 在此区域中，您可以执行以下操作：
 
@@ -23,7 +23,7 @@ ht-degree: 1%
 * 配置展示板列表列
 * 将讨论区列表分组
 
-## 访问要求
+## 访问权限要求
 
 +++ 展开以查看访问要求。
 
@@ -34,8 +34,8 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -50,13 +50,13 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的详细信息，请参阅[Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
 ## 先决条件
 
-您必须先创建一个展示板，然后才能从“管理员视图”中查看该展示板。
+您必须先创建展示板，然后才能从“管理视图”中查看它。
 
 有关详细信息，请参阅[创建或编辑展示板](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md)。
 
@@ -70,9 +70,9 @@ ht-degree: 1%
 
 1. 请按照以下步骤配置过滤器：
 
-   1. （可选）单击&#x200B;**日历**&#x200B;图标![日历图标](assets/calendar-icon.png)，然后选择一个日期范围，以按该时间范围内最后修改的展示板进行筛选。
+   1. （可选）单击&#x200B;**日历**&#x200B;图标![日历图标](assets/calendar-icon.png)，然后选择一个日期范围，以按在该时间范围内最后修改的主板进行筛选。
 
-   1. （可选）在&#x200B;**模板**&#x200B;部分中，选择列表将按其筛选的展示板模板类型。 您可以选择多个模板类型。
+   1. （可选）在&#x200B;**模板**部分中，选择列表将按其筛选的展示板模板类型。 您可以选择多个模板类型。
 有关展示板模板类型的详细信息，请参阅[创建或编辑展示板](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md)。
 
    1. （可选）在&#x200B;**Is Archived**&#x200B;部分中，选择是显示已存档还是未存档展示板。 您可以选择多个选项。
@@ -83,9 +83,9 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >要删除筛选器，请打开&#x200B;**筛选器**&#x200B;面板，然后单击右上角的&#x200B;**返回默认值**。
+   >若要删除筛选器，请打开&#x200B;**筛选器**&#x200B;面板，然后单击右上角的&#x200B;**返回到默认值**。
 
-## 配置展示板列表列
+## 配置“展示板”列表列
 
 {{step1-to-boards}}
 
@@ -97,26 +97,26 @@ ht-degree: 1%
 
    * **所有者**
    * **上次更新时间**
-   * **成员**
+   * **个成员**
    * **已存档**
    * **模板**
    * **卡计数**
 
-1. （可选）要调整字段的显示顺序，请单击并按住字段左侧的&#x200B;**拖动**&#x200B;图标，然后将其拖动到新位置。
+1. （可选）要调整字段的显示顺序，请单击并按住&#x200B;**将**&#x200B;图标拖动到字段的左侧，然后将其拖动到新位置。
 
    ![单击并拖动](assets/click-and-drag.png)
 
-1. 单击&#x200B;**字段可见性和顺序**&#x200B;面板外部以将其关闭。 您的列配置将保留应用于展示板列表，直到对其进行修改为止。
+1. 单击&#x200B;**字段可见性和顺序**&#x200B;面板外部以将其关闭。 列配置在修改之前将一直应用到“展示板”列表。
 
    >[!NOTE]
    >
-   > 修改展示板列表列显示时，**列**&#x200B;图标上方会显示一个蓝色圆点，表示当前视图已从默认视图修改过。
+   > 修改显示的“展示板”列表列时，**列**&#x200B;图标上方出现一个蓝色圆点，表示当前视图已从默认视图被修改。
 
 ## 按特定字段对讨论区列表进行分组
 
 {{step1-to-boards}}
 
-1. 在&#x200B;**讨论区**&#x200B;页面上，选择&#x200B;**管理员视图**&#x200B;选项卡。
+1. 在&#x200B;**展示板**&#x200B;页面上，选择&#x200B;**管理员视图**&#x200B;选项卡。
 
 1. 选择&#x200B;**组**。 **Group by**&#x200B;面板打开。
 
@@ -126,11 +126,11 @@ ht-degree: 1%
    * **所有者**
    * **模板**
 
-1. （可选）要展开或折叠&#x200B;**分组依据**&#x200B;面板中的分组，请单击&#x200B;**全部折叠**&#x200B;或&#x200B;**全部展开**。
+1. （可选）若要从&#x200B;**分组依据**&#x200B;面板展开或折叠分组，请单击&#x200B;**全部折叠**&#x200B;或&#x200B;**全部展开**。
 
    ![全部折叠](assets/collapse-all.png)
 
-1. （可选）要将分组的显示顺序从A-Z更改为Z-A，请选择列表当前分组依据的字段，然后从下拉列表中选择&#x200B;**Z-A**。
+1. （可选）要将分组的显示顺序从A-Z更改为Z-A，请选择列表当前按哪个字段分组，然后从下拉菜单中选择&#x200B;**Z-A**。
 
    ![按顺序显示](assets/display-by-order.png)
 

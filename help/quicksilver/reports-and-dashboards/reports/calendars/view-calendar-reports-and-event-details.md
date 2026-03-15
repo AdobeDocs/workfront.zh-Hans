@@ -3,13 +3,13 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: 查看日历报告和事件详细信息
 description: 您可以在Adobe Workfront中查看您创建或与您共享的日历报告和事件详细信息。
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 您可以在Adobe Workfront中查看您创建或与您共享的日历报告和事件详细信息。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,8 +28,8 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
      要了解如何共享日历，请参阅[[!UICONTROL 共享日历]报告](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)。
 
-1. （视情况而定）单击&#x200B;**[!UICONTROL 查看]**&#x200B;下拉列表，然后选择要查看的日历持续时间。
+1. （视情况而定）单击&#x200B;**[!UICONTROL 查看]**下拉列表，然后选择要查看的日历持续时间。
    ![日历持续时间](assets/view-menu-calendar-report-350x189.png)
 您可以从以下日历报表视图中进行选择：
 

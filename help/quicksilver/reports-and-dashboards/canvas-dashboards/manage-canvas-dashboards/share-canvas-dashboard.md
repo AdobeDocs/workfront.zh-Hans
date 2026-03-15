@@ -3,13 +3,13 @@ product-area: Canvas Dashboards
 navigation-topic: manage-canvas-dashboards
 title: 共享画布功能板
 description: 您可以与其他Adobe Workfront用户共享画布功能板，以便他们能够查看或编辑该功能板。
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
-source-git-commit: ed5a8725442a0b3de993a4e8f47280bfc7d88160
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '547'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -37,9 +37,9 @@ ht-degree: 0%
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront包</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
-<p>任何 </p> 
+<p>“任一” </p> 
    </td> 
 <tr> 
  <tr> 

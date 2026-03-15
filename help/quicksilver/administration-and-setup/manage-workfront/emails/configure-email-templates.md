@@ -4,14 +4,14 @@ product-area: system-administration;templates;setup
 navigation-topic: emails-administration
 title: 配置电子邮件模板
 description: 作为Adobe Workfront管理员，您可以配置电子邮件模板以支持提醒通知。
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '808'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -28,17 +28,17 @@ ht-degree: 3%
 
 电子邮件模板可与问题、任务、项目和时间表的提醒通知关联。 创建电子邮件模板时，Workfront管理员可以为电子邮件和主题行提供内容。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td>任何</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td>“任一”</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

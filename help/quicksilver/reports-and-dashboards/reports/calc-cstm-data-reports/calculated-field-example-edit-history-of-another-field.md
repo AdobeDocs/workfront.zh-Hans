@@ -5,13 +5,13 @@ keywords: 审核，跟踪，自定义，字段
 navigation-topic: calculate-custom-data-reports
 title: 计算自定义字段示例：显示字段的编辑历史记录
 description: 如果用户定期更新自定义字段，并且您希望捕获对字段所做的所有更改的日志以及发生更改的日期，则可以在计算的自定义字段中捕获此信息。
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e233ef28-c95a-42a1-b2eb-448dad5feddb
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -33,19 +33,19 @@ ht-degree: 0%
    * 如果二者匹配，则将“指令编辑历史记录”保留不变；
    * 如果它们不匹配，它将用指令字段中的最新值替换指令编辑历史记录，后跟括号中的当前日期、垂直栏和先前的指令编辑历史记录，从而保留先前的值和输入时的日期。
 
-## 访问要求
+## 访问权限要求
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront包</p> </td> 
-   <td><p>任何</p></td> 
+   <td> <p>Adobe Workfront 包</p> </td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td> <p>Adobe Workfront许可证</p> </td> 

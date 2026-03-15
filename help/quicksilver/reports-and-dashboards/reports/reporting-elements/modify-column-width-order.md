@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: 修改列宽和顺序
 description: 阅读本文，了解列宽指南以及如何在Workfront中更改列宽和顺序。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1004'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -36,17 +36,17 @@ ht-degree: 0%
 
   有关在文本模式下修改列的信息，请参阅[视图：永久编辑列的宽度](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</strong></td> 

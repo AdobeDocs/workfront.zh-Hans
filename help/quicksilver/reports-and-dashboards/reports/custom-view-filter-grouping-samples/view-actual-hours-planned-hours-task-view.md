@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 视图：任务视图的同一列中计划小时数内的实际小时数
 description: 在此任务视图中，在任务上记录的实际小时数显示为针对每个任务计划的小时数。 计划小时数和实际小时数之间的小时数差异也显示在单独的列中。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: c1179283-dc2e-40d3-b8e0-4b1b79f83ad3
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -20,19 +20,19 @@ ht-degree: 0%
 
 ![actual_vs_planned_in_task_report.png](assets/actual-vs-planned-in-task-report-350x58.png)
 
-## 访问要求
+## 访问权限要求
 
 <!--Audited: 10/2024-->
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

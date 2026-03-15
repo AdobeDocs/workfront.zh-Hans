@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 视图：合并一个共享列中多个列的信息
 description: 您可以合并显示在多个单独列中的信息，并将其显示在一个共享列中。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1070'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -20,17 +20,17 @@ ht-degree: 0%
 
 您可以合并显示在多个单独列中的信息，并将其显示在一个共享列中。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -40,11 +40,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>编辑对报告、功能板和日历的访问权限以修改报告</p> <p>编辑对筛选器、视图和分组的访问权限以修改视图</p> </td> 
+   <td> <p>编辑报表、仪表板、日历的访问权限以修改报表</p> <p>编辑对筛选器、视图、组的访问权限以修改视图</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理报表的权限</p>  </td> 
+   <td> <p>管理对报告的权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -73,15 +73,15 @@ ht-degree: 0%
 
 * 当其中一列或两列都显示`tile`类型字段时，合并的列中会自动引入强制换行符。 例如，带格式的文本字段是`tile`类型字段。 在这种情况下，在文本模式下查看列时存在`type=tile`的行代码。
 
-## 合并两列的数据，不带换行符
+## 从两列合并数据，但不使用换行符
 
-您可以合并来自多个单独列的数据，以在一列中显示该数据，每列的值之间不出现断点或空格。
+您可以合并多个单独列中的数据，以在一列中显示该数据，每个列的值之间没有分隔符或空格。
 
 >[!TIP]
 >
->如果合并的两列不能同时显示同一记录的值，则建议使用此方法。 例如，在工作项报告中，可以合并“问题名称”和“任务名称”列，而无需在它们之间插入换行符，因为工作项不能同时具有“问题名称”和“任务名称”。 工作项可以是Workfront中的问题或任务。
+>如果合并两列时不能同时为同一记录显示值，建议使用此方法。 例如，在“工作项”报表中，“问题名称”和“任务名称”列之间可以不换行进行合并，因为工作项不能同时具有“问题名称”和“任务名称”。 在Workfront中，工作项可以是问题或任务。
 
-要合并两列不带换行符的数据，请执行以下操作：
+要合并两列数据而不使用换行符，请执行以下操作：
 
 1. 转到对象列表。
 1. 从&#x200B;**视图**&#x200B;下拉列表中选择一个视图，然后单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)以编辑该视图。

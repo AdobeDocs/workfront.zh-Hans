@@ -3,14 +3,14 @@ product-area: Canvas Dashboards
 navigation-topic: canvas-dashboards-beta
 title: Canvas功能板测试版信息
 description: 有关Canvas功能板测试版的一般信息
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >画布功能板目前仅适用于参与Beta测试阶段的用户。 在此阶段，部分功能可能无法完成或无法按预期工作。 请按照以下[提供反馈](#provide-feedback)部分中的说明提交任何有关您体验的反馈。<br>
->&#x200B;>如果您对可能的错误或技术问题有反馈，请向Workfront支持提交票证。 有关详细信息，请参阅[联系客户支持](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
->&#x200B;>请注意，以下云提供商未提供此测试版：
+>如果您对可能的错误或技术问题有反馈，请向Workfront支持提交票证。 有关详细信息，请参阅[联系客户支持](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
+>请注意，以下云提供商未提供此测试版：
 >
 >* 自带Amazon Web Services密钥
 >* Azure
@@ -30,9 +30,9 @@ ht-degree: 1%
 
 有关详细信息，请参阅[画布功能板概述](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -41,9 +41,9 @@ ht-degree: 1%
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront包</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
-<p>任何 </p> 
+<p>“任一” </p> 
    </td> 
 <tr> 
  <tr> 

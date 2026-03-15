@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 视图：使用自定义数据字段的外部URL
 description: 您可以使用任务视图中名为“自定义URL”的计算自定义字段来显示指向内部自定义URL的链接。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5e402fed-71ce-438a-8da9-8f8d37550ea8
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -22,23 +22,23 @@ ht-degree: 0%
 
 这有助于您直接从报表快速将某个视图中的某些对象链接到应用程序的某些区域。
 
-创建计算自定义字段时，必须首先创建该字段，然后创建视图。
+创建计算的自定义字段时，必须首先创建该字段，然后创建视图。
 
-以下部分为任务的已计算自定义字段示例。 该自定义字段称为自定义URL。 自定义视图显示字段的值以及任务的&#x200B;**URL**&#x200B;字段。
+以下部分是任务的计算自定义字段的示例。 自定义字段称为自定义URL。 自定义视图显示字段的值以及任务的&#x200B;**URL**&#x200B;字段。
 
-使用相同的步骤，您可以为系统中所有具有自定义表单的对象创建相似的计算自定义字段和自定义视图。
+使用相同的步骤，可以为系统中所有具有“自定义表单”的对象创建类似的计算自定义字段和自定义视图。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -48,16 +48,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>编辑对报告、功能板和日历的访问权限以修改报告</p> <p>编辑对筛选器、视图和分组的访问权限以修改视图</p> </td> 
+   <td> <p>编辑对报表、功能板、日历的访问权限以修改报表</p> <p>编辑对筛选器、视图、分组的访问权限以修改视图</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理报表的权限</p>  </td> 
+   <td> <p>管理对报告的权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的详细信息，请参阅[Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 
 +++
@@ -69,17 +69,17 @@ ht-degree: 0%
 如果您有创建自定义表单的权限，则可以为名为“自定义URL”的任务创建计算自定义字段。 此字段直接链接到&#x200B;**任务详细信息**&#x200B;选项卡中的&#x200B;**概述**&#x200B;子选项卡。
 
 1. 创建计算自定义字段。
-1. 在计算字段中，输入以下代码：
+1. 在“计算”字段中，输入以下代码：
 
-   CONCAT(&quot;https://`<domain>`.my.workfront.com&quot;，&quot;/&quot;，&quot;task/&quot;，ID，&quot;/overview&quot;)
+   CONCAT(&quot;https://`<domain>`.my.workfront.com&quot;,&quot;/&quot;,&quot;task/&quot;,ID，&quot;/overview&quot;)
 
-1. 将“`<domain>`”替换为您的实际域名，不带方括号。 此URL的`/overview`部分将链接指向任务左侧面板中的&#x200B;**概述**&#x200B;部分。
+1. 将“`<domain>`”替换为您的实际域名，不带括号。 此URL的`/overview`部分将链接指向任务左侧面板中的&#x200B;**概述**&#x200B;部分。
 
-1. 创建&#x200B;**计算自定义字段**&#x200B;后，将带有此字段的&#x200B;**自定义表单**&#x200B;附加到Adobe Workfront中要在新视图中显示的多个任务。
+1. 创建&#x200B;**计算自定义字段**&#x200B;后，将包含此字段的&#x200B;**自定义表单**&#x200B;附加到Adobe Workfront中要在新视图中显示的多个任务。
 
 ## 创建显示任务的“自定义URL”和“URL”字段的视图
 
-以下示例中的任务&#x200B;**视图**&#x200B;显示名为“自定义URL”的&#x200B;**计算自定义字段**&#x200B;作为直接链接，指向任务&#x200B;**详细信息**&#x200B;选项卡中的&#x200B;**概述**&#x200B;子选项卡以及任务的&#x200B;**URL**&#x200B;字段。
+以下示例中的任务&#x200B;**查看**&#x200B;显示名为“自定义URL”的&#x200B;**计算自定义字段**，作为指向任务&#x200B;**详细信息**&#x200B;选项卡中的&#x200B;**概述**&#x200B;子选项卡以及该任务的&#x200B;**URL**&#x200B;字段的直接链接。
 
 (assets/task-view-with-custom-url-field-quicksilver-350x70.png)
 
@@ -88,10 +88,10 @@ ht-degree: 0%
 1. 转到任务列表。
 1. 展开任务列表顶部的&#x200B;**视图**&#x200B;下拉列表。
 1. 单击&#x200B;**自定义视图**。
-1. 移除视图中的所有列（第一列除外）。
+1. 删除视图中的所有列（第一列除外）。
 1. 单击第一列的标题。
 1. 单击&#x200B;**切换到文本模式** > **编辑文本模式**。
-1. 删除&#x200B;**编辑文本模式**&#x200B;框中的文本并将其替换为以下代码：
+1. 删除&#x200B;**编辑文本模式**&#x200B;框中的文本，并将其替换为以下代码：
 
 
    ```
@@ -135,6 +135,6 @@ ht-degree: 0%
    column.2.width=150
    ```
 
-   在此示例中，“column.1.” 行将“自定义URL”字段中的值显示为任务&#x200B;**概述**&#x200B;部分的链接；“列。2”。 显示存储在任务的&#x200B;**URL字段**&#x200B;中的值。
+   在本例中，“column.1.” 行显示“自定义URL”字段中的值，作为指向任务的&#x200B;**概述**&#x200B;部分的链接；“column.2”。 显示任务的&#x200B;**URL字段**&#x200B;中存储的值。
 
 1. 单击&#x200B;**完成** > **保存视图**。

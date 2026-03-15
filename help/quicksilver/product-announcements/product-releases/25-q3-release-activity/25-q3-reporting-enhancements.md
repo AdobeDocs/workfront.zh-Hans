@@ -1,11 +1,11 @@
 ---
 title: 2025年第三季度报告增强功能
 description: 2025年第三季度项目增强功能
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6e53dca8-285a-471b-a646-1773722554f3
-source-git-commit: a0a7ad2770b99ee1d45169372e64e460701ccc10
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 我们增强了计划报告交付，以确保仅将Workfront通知发送到在允许列表中批准的电子邮件域。
 
-以前，如果贵组织对哪些电子邮件域Workfront列入允许列表通知定义了限制，我们会在添加电子邮件时对执行检查。
+以前，如果贵组织对哪些电子邮件域Workfront通知定义了限制，我们会在添加电子邮件时对执行检查。
 
 现在，我们还在发送电子邮件时执行检查，以确保输入的电子邮件地址符合电子邮件允许列表。 此改进检查适用于与用户关联的电子邮件地址和添加到报表收件人列表的临时电子邮件。
 

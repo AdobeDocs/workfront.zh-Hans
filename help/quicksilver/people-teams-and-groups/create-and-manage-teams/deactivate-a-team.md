@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: 停用或删除团队
 description: 您可以停用不再使用的团队，同时保留关联的历史数据。 Adobe Workfront管理员可以随时从“设置”的团队区域重新激活团队。
-author: Jenny
+author: Courtney
 feature: People Teams and Groups
 exl-id: 634e4c0f-aa1d-4197-92e3-54f414344ac0
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -28,13 +28,13 @@ ht-degree: 0%
     </ul> 
     <ul> 
      <li> <p>对象的“共享”对话框</p> </li> 
-     <li> <p>[!UICONTROL 用户配置文件]*</p> </li> 
+     <li> <p>[！UICONTROL用户配置文件]*</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL 团队]区域中的主选择下拉菜单</p> </li> 
-     <li> <p>[!UICONTROL Assignments]预输入</p> </li> 
-     <li> <p>项目中的[!UICONTROL 添加到Kanban]展示板对话框</p> </li> 
+     <li> <p>[！UICONTROL团队]区域中的主选择下拉菜单</p> </li> 
+     <li> <p>[！UICONTROL Assignments]预输入</p> </li> 
+     <li> <p>项目中的[！UICONTROL添加到Kanban]展示板对话框</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -42,17 +42,17 @@ ht-degree: 0%
 
 当您搜索团队时，已停用的团队不会显示，但如果用户在停用之前被分配到团队，则仍将显示在[!UICONTROL 主团队]和其他团队中。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront包</p> </td> 
-   <td>任何</td> 
+   <td role="rowheader"> <p>Adobe Workfront 包</p> </td> 
+   <td>“任一”</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

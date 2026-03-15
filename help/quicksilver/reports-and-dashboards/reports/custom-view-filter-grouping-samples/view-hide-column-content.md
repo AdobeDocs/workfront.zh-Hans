@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 视图：隐藏列的内容
 description: 您可能希望隐藏视图列中的信息。 可以通过修改列的文本模式来实现此目的。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f4c3e1ca-d750-4f8b-835c-254c20ad72b3
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -26,17 +26,17 @@ ht-degree: 0%
 >  例如，您可以按任务视图中的任务编号进行排序，然后在视图中隐藏任务编号信息。 在这种情况下，列中引用的对象有助于对视图进行排序，但该对象的信息不会显示在视图中。
 >* 隐藏列时，请注意，该列中的信息是隐藏的，但该列仍然存在于视图中。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

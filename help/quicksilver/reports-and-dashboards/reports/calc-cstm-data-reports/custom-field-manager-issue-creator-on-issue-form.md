@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: 计算自定义字段示例：在问题自定义表单上显示问题创建者的经理
 description: 使用计算自定义字段，您可以在附加到问题的自定义表单上显示问题创建者的经理姓名。 使用相同的语句，您可以为项目、问题和其他对象构建类似的计算字段。
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f501ce1a-7a80-458b-9b30-2292426c9262
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -24,17 +24,17 @@ ht-degree: 0%
 >For information about additional custom text mode examples from other customers, follow the [Text Mode Reporting](https://one.workfront.com/s/topic/0TO0z000000cdHmGAI/text-mode-reporting?tabset-21363=3) topic on our Community site.
 -->
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront包</p> </td> 
-   <td><p>任何</p></td> 
+   <td> <p>Adobe Workfront 包</p> </td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td> <p>Adobe Workfront许可证</p> </td> 

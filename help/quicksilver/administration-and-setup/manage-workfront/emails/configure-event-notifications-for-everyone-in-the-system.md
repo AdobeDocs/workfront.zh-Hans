@@ -1,14 +1,14 @@
 ---
 title: 为系统中的每个人配置事件通知
 description: 当发生特定事件时，事件通知会触发向用户发送电子邮件。 作为Adobe Workfront管理员或具有Planner访问级别的用户，您可以为系统中的所有用户配置事件通知。 事件通知的配置包括激活或停用该通知。
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '548'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -32,17 +32,17 @@ ht-degree: 1%
 
 有关解锁事件通知以便组管理员可以为其组配置该通知的信息，请参阅[解锁或锁定所有组的事件通知配置](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)和[查看和配置组的事件通知](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td>任何</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td>“任一”</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

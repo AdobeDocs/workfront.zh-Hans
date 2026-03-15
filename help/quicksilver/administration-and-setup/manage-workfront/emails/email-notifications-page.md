@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
-title: “电子邮件通知：文章索引”
+title: 电子邮件通知：文章索引
 description: 作为Adobe Workfront管理员，您可以为用户配置事件通知、提醒通知和电子邮件模板。
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 94b07085-8e3d-4137-9820-38aaa257a3ed
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%

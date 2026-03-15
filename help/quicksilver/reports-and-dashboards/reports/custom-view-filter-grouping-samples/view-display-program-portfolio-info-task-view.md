@@ -4,13 +4,13 @@ product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 视图：在任务视图中显示项目群和Portfolio信息
 description: 此任务视图显示与任务项目关联的项目群和Portfolio。 在构建任务视图时，此信息在Report Builder中不可用。 此信息仅在文本模式下可用。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: cdd5a1e9-3cbf-4951-b803-fca544b2519a
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '270'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 0%
 
 ![查看项目和项目组合](assets/view--program-and-portfolio-350x116.png)
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

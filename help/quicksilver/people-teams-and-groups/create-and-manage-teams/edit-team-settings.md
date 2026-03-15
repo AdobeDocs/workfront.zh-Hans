@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: 编辑团队设置
 description: Workfront管理员和具有计划或工作许可证的用户可以编辑团队设置。
-author: Jenny
+author: Courtney
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 4%
@@ -29,7 +29,7 @@ ht-degree: 4%
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Adobe Workfront 包</p> </td> 
-   <td>任何</td> 
+   <td>“任一”</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

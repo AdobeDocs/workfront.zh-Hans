@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: 比较条件格式中的字段
 description: 您可以使用条件格式来比较视图中的2个不同字段，并在这些字段之间满足特定条件时突出显示它们。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: da4447ba-6e76-4701-88ee-87a30393bed9
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -19,17 +19,17 @@ ht-degree: 1%
 
 您可以使用条件格式来比较视图中的2个不同字段，并在这些字段之间满足特定条件时突出显示它们。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

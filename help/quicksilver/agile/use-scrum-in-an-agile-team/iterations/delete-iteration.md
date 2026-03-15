@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: iterations
 title: 删除迭代
 description: 如果您不再需要某个Agile团队，可将其删除。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 11%
  <tbody> 
    <tr> 
    <td role="rowheader">Adobe Workfront 包</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

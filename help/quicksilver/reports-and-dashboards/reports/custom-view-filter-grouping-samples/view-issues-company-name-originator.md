@@ -4,13 +4,13 @@ product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 视图：发起方的公司名称问题
 description: 此问题视图显示与提交问题的用户相关联的公司名称。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e628f7cf-4a7b-4125-bea6-348c72477bd7
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 0%
 
 ![custom_view_for_issues_with_originator_company_name.png](assets/custom-view-for-issues-350x33.png)
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

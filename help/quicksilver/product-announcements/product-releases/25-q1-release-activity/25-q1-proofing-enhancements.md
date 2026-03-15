@@ -1,11 +1,11 @@
 ---
 title: 2025年第一季度校对增强
 description: 2025年第一季度校对增强
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 41eff095-ff9b-4791-81c3-758e101b3e88
-source-git-commit: f5eb5165183986f55919bdf2c59a31c12a1c64fe
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 本页介绍了2025年第一季度版本对“预览”环境所做的所有验证增强。 这些增强功能将在2025年第一季度发行版的“生产”环境中提供。
 
-有关2025年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2025年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
+有关2025年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2025年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
 
 ## 桌面校对查看器升级
 
@@ -37,4 +37,4 @@ ht-degree: 0%
 
 新的Adobe Workfront审核工具支持跨所有常见浏览器审核ZIP内容。 除了ZIP内容之外，新的扩展还将支持查看URL内容，目前处于测试阶段。
 
-要安装新的扩展，请参阅[使用Adobe Workfront审阅工具审阅交互式内容](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md)中的[安装扩展](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md#install-the-extension)部分。
+要安装新的扩展，请参阅[使用Adobe Workfront审阅工具审阅交互式内容](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md#install-the-extension)中的[安装扩展](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md)部分。

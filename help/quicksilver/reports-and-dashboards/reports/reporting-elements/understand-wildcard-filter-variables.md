@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: 通配符筛选器变量
 description: 通过在过滤器中使用通配符，您可以引用通用用户或日期，而不是特定用户或日期。 通过这种方式，您构建的元素是动态的，并且结果会根据使用它们的上下文而变化。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1439'
 ht-degree: 1%
@@ -39,7 +39,7 @@ AssignedToID Equals $$USER.roleIDs.)-->
     </tr>
     <tr>
         <td>高级搜索</td>
-        <td>有关高级搜索的信息，请参阅<a href="../../../workfront-basics/navigate-workfront/search/search-workfront.md">搜索Adobe Workfront</a>一文中的<a href="../../../workfront-basics/navigate-workfront/search/search-workfront.md#using-advanced-search">使用高级搜索</a>部分。
+        <td>有关高级搜索的信息，请参阅<a href="../../../workfront-basics/navigate-workfront/search/search-workfront.md#using-advanced-search">搜索Adobe Workfront</a>一文中的<a href="../../../workfront-basics/navigate-workfront/search/search-workfront.md">使用高级搜索</a>部分。
     </tr>
     <tr>
         <td>视图中的计算列</td>

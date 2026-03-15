@@ -4,14 +4,14 @@ product-area: reporting
 navigation-topic: reports
 title: 报表元素概述
 description: 所有Adobe Workfront报告和列表都是三个基本元素的组合 — 视图、过滤器和分组。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5b5385ac-3b75-4500-bf4d-ec6ad4bf727a
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 2%
 
 <!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program)-->
 * [报表元素：筛选器、视图和分组](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
-* [筛选器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [过滤器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [在Adobe Workfront中创建或编辑筛选器](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
 * [筛选器和条件修饰符](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)
 * [通配符筛选器变量概述](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)

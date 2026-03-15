@@ -3,11 +3,11 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: 从功能板中删除报表
 description: 添加报告后，您可以从功能板中删除报告。
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 hidefromtoc: true
 hide: true
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 从功能板中删除报告是永久性的。 如果在删除报告后需要重新添加报告，则需要重新创建报告。
 
-+++ 展开以查看访问要求。
++++ 展开以查看访问要求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -35,7 +35,7 @@ ht-degree: 0%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront计划</p></td> 
    <td> 
-<p>任何 </p> 
+<p>“任一” </p> 
    </td> 
 <tr> 
  <tr> 

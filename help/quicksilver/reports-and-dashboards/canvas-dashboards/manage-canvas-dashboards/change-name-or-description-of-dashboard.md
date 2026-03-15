@@ -3,13 +3,13 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: 更改画布功能板的名称或描述
 description: 您可以在画布功能板创建后编辑其名称或描述。
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e768de3d-ec07-40bd-a7d8-39252e6583c0
-source-git-commit: ed5a8725442a0b3de993a4e8f47280bfc7d88160
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 2%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
 <col> 
@@ -41,9 +41,9 @@ ht-degree: 2%
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront包</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
-<p>任何 </p> 
+<p>“任一” </p> 
    </td> 
 <tr> 
  <tr> 

@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: reporting-navigation-topic
 title: 报告快速入门
 description: 通过报告，可查看用户和工作的最新动态。 使用报表，您可以显示有关Adobe Workfront中对象的信息。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '3292'
 ht-degree: 1%
@@ -98,24 +98,24 @@ Workfront提供了多个默认加载到系统中的系统报告。\
 
 * 您的Workfront管理员必须为您授予在访问级别编辑筛选器、视图和组的权限。
 
-  有关授予对编辑筛选器、视图和分组的访问权限的信息，请参阅[授予对筛选器、视图和分组的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)。
+  有关授予对“编辑筛选器”、“视图”和“分组”的访问权限的信息，请参阅[授予对筛选器、视图和分组的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)。
 
-* 您必须定义一个要报告的对象。 报告是Workfront中的特定对象，您必须先选择对象类型，然后才能开始构建报告。 您只能报告Workfront界面中可用的对象。
+* 必须定义一个要报告的对象。 在Workfront中，报表是特定于对象的，您必须先选择对象类型，然后才能开始构建报表。 您只能报告Workfront界面中可用的对象。
 
-### 报告所有权 {#report-ownership}
+### 报表所有权 {#report-ownership}
 
-在Workfront中创建报告时，您成为该报告的默认所有者，并显示在您的“我的报告”部分中。 您无法更改报告的所有者。
+在Workfront中创建报表时，您成为该报表的默认所有者，该报表显示在“我的报表”部分中。 您无法更改报表的所有者。
 
-当您复制报告时，您会自动成为所复制报告的所有者。
-有关复制报告的信息，请参阅[创建报告副本](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)。
+当您复制报表时，您会自动成为所复制报表的所有者。
+有关复制报表的信息，请参阅[创建报表副本](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)。
 
-您可以通过查看&#x200B;**输入者**&#x200B;字段来查看报表的所有者。
+您可以通过查看&#x200B;**输入者**&#x200B;字段来查看谁拥有报表。
 
-![输入者字段](assets/unshimmed-entered-by.png)
+![按字段输入](assets/unshimmed-entered-by.png)
 
 ### 在生成器界面中创建报表 {#create-reports-in-the-builder-interface}
 
-我们建议您首先使用报表生成界面来生成新报表。 该界面提供了一组简化的工具，可指导您逐步将元素集中在一起，以创建所需的报表。 您有可从列表中选择并添加到所有报表元素的对象和字段。\
+我们建议您先使用报表生成界面来生成新报表。 该界面提供了一组简化的工具，可指导您逐步将元素集中在一起，以创建所需的报表。 您有可从列表中选择并添加到所有报表元素的对象和字段。\
 有关在报告生成界面中创建报告的详细信息，请参阅[创建自定义报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
 有关可以报告的对象列表，请参阅文章[Adobe Workfront对象概述](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#report-on-objects)中的[对象报告](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)部分。
@@ -191,11 +191,11 @@ Workfront提供了多个默认加载到系统中的系统报告。\
 
 包含Matrix Grouping的报告具有Matrix选项卡。
 
-“详细信息”选项卡上以列表格式显示的相同信息以表格格式显示，在“矩阵”选项卡上的报告中按分组分组。
+“详细信息”(Details)选项卡上以列表格式显示的相同信息以表格格式显示，按“矩阵”(Matrix)选项卡上报告中的分组进行分组。
 
-将Matrix分组添加到报表时， Summary选项卡将替换为Matrix选项卡。
+将矩阵分组添加到报表时，“摘要”选项卡将替换为“矩阵”选项卡。
 
-有关构建矩阵分组的信息，请参阅文章[创建矩阵报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)。
+有关构建矩阵分组的详细信息，请参阅文章[创建矩阵报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)。
 
 ### “图表”选项卡 {#chart-tab}
 
@@ -206,15 +206,15 @@ Workfront提供了多个默认加载到系统中的系统报告。\
 >[!IMPORTANT]
 >
 >单击某个图表元素时，展开的信息可能会根据您的时区显示与图表不同的内容。\
->例如，加利福尼亚的一位用户在2月12日晚上9:30 PST完成了一项任务。 当纽约用户查看包含此任务完成的报告时，实际完成日期在2月13日细节选项卡和图表细节中显示为2月13日，因为它在2月13日东部标准时间凌晨12:30完成。 但是，在图表中，它包含在2月12日分组中，直到您展开图表元素为止。
+>例如，加利福尼亚的一名用户在2月12日晚上9:30 PST完成了一项任务。 当纽约的用户查看包含此任务完成的报表时，“详细信息”选项卡和“图表”详细信息中的“实际完成日期”均显示为2月13日，因为该任务已于2月13日美国东部时间上午12:30完成。 但是，在图表中，它包含在2月12日分组中，直到您展开图表元素为止。
 
-有关使用图表构建报告的信息，请参阅文章[将图表添加到报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)。
+有关使用图表构建报表的信息，请参阅文章[将图表添加到报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)。
 
 ### “提示”选项卡 {#prompts-tab}
 
-包含提示的报告具有提示选项卡。
+包含提示的报表有一个“提示”选项卡。
 
-每次运行报表时，系统都会提示您向报表中添加过滤器。 向报告添加提示时，“提示”选项卡将自动成为报告的默认选项卡。 无法更改到其他选项卡。
+每次运行报表时，系统都会提示您将过滤器添加到报表中。 向报告添加提示时，“提示”(Prompts)选项卡会自动成为报告的默认选项卡。 无法更改为其他选项卡。
 
 有关为报表生成提示的信息，请参阅文章[向报表添加提示](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)。
 
@@ -222,7 +222,7 @@ Workfront提供了多个默认加载到系统中的系统报告。\
 
 创建报表后，您可以与其他用户共享该报表。
 
-### 向报告授予共享权限 {#give-sharing-permissions-to-a-report}
+### 授予对报表的共享权限 {#give-sharing-permissions-to-a-report}
 
 您可以将共享权限授予其他用户查看或管理您创建的报表。 您可以为其他用户授予与您的权限相同或更低的权限级别。 您还可以使用共享权限公开报表。 有关共享报告的信息，请参阅[在Adobe Workfront中共享报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)。
 
@@ -280,9 +280,9 @@ Workfront提供了多个默认加载到系统中的系统报告。\
  <tbody> 
   <tr> 
    <td>高级选项</td> 
-   <td> <p>引用Report Builder的列（视图）选项卡上的链接，该链接提供了执行以下操作的功能：</p> 
+   <td> <p>引用报表生成器的“列”（视图）选项卡上的链接，该链接提供了执行以下操作的功能：</p> 
     <ul> 
-     <li>根据您选择的条件设置文本和图像的列条件样式格式。</li> 
+     <li>根据所选条件设置文本和图像的列条件样式格式。</li> 
      <li>为列重新添加标签。</li> 
      <li>设置列中值的格式。</li> 
     </ul> <p>例如，您可能希望以粗体显示所有父级任务，或者，如果任务延迟，您可能希望以红色显示“规划完成日期”。</p> </td> 
@@ -293,11 +293,11 @@ Workfront提供了多个默认加载到系统中的系统报告。\
   </tr> 
   <tr> 
    <td>Bean或JavaBean</td> 
-   <td>Bean表示可重用的编程元素。 术语Bean标识Workfront应用程序中不同对象之间的关系。 在尝试显示有关基本报告工具中不可用的对象的其他属性时，务必熟悉这些关系。</td> 
+   <td>Bean表示可重用的编程元素。 术语Bean用于标识Workfront应用程序中不同对象之间的关系。 当您尝试显示有关基本报表工具中不可用的对象的其他属性时，熟悉这些关系非常重要。</td> 
   </tr> 
   <tr> 
    <td>生成器界面或Report Builder</td> 
-   <td>生成器界面是一系列下拉菜单，其中包含显示在列（视图）、筛选器和分组选项卡中的字段。 它提供了Bean关系的直观映射，以帮助确定视图中的列、过滤器的标准和分组的公共属性。</td> 
+   <td>生成器界面是一系列下拉菜单，其中包含在“列”（视图）、“筛选器”和“分组”选项卡中显示的字段。 它提供了Bean关系的直观映射，有助于识别视图中的列、过滤器的条件以及分组的公共属性。</td> 
   </tr> 
   <tr> 
    <td>驼峰式大小写</td> 
@@ -305,7 +305,7 @@ Workfront提供了多个默认加载到系统中的系统报告。\
   </tr> 
   <tr> 
    <td>图表</td> 
-   <td> <p>Report Builder中的选项卡，保存报告后的报告选项卡，以及可用于向任何报告添加图表的可选报告元素。 在创建图表之前，必须在报告中定义分组。</p> <p>以下是可添加到任何报表中的图表类型：<br></p> 
+   <td> <p>Report Builder中的选项卡，保存报告后的报告选项卡，以及可用于向任何报告添加图表的可选报告元素。 创建图表之前，必须在报表中定义分组。</p> <p>以下是可添加到任何报表的图表类型：<br></p> 
     <ul> 
      <li>列</li> 
      <li>条形图</li> 
@@ -317,7 +317,7 @@ Workfront提供了多个默认加载到系统中的系统报告。\
   </tr> 
   <tr> 
    <td>详细信息</td> 
-   <td>这是保存报告后报告的选项卡之一。 它显示报告的调查结果，显示在您选择的视图和分组中。</td> 
+   <td>这是保存报告后报告的一个选项卡。 它显示您选择的视图和分组中显示的报表查找结果。</td> 
   </tr> 
   <tr> 
    <td>表达式</td> 
@@ -349,28 +349,28 @@ Workfront提供了多个默认加载到系统中的系统报告。\
   </tr> 
   <tr> 
    <td>对象或对象类型</td> 
-   <td> 对象是一个Workfront应用程序元素（例如，项目、任务、组、公司、筛选器）。 创建新报告、视图、过滤器或分组时，会使用对象类型来标识哪个对象是报告的焦点。 报告只能有一个对象类型，它是报告的主对象。<br>可以在同一报表中引用父对象。<br>有关对象层次结构的详细信息，请参阅<a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Adobe Workfront对象概述</a>一文中的“了解对象的相互依赖性和层次结构”一节。</td> 
+   <td> 对象是一个Workfront应用程序元素（例如，项目、任务、组、公司、筛选器）。 创建新报告、视图、过滤器或分组时，会使用对象类型来标识哪个对象是报告的焦点。 报告只能有一个对象类型，它是报告的主对象。<br>可以在同一报表中引用父对象。<br>有关对象层次结构的详细信息，请参阅文章<a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Adobe Workfront对象概述</a>中的“了解对象的相互依存关系和层次结构”一节。</td> 
   </tr> 
   <tr> 
    <td>提示</td> 
-   <td> <p>可在每次运行报表需要使用其他过滤器时添加到报表的可选报表元素。</p> <p>有关提示的信息，请参阅<a href="/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">向报表添加提示</a>。</p> </td> 
+   <td> <p>可选的报表元素，可在每次运行报表时需要使用其他过滤器时添加到报表。</p> <p>有关提示的信息，请参阅<a href="/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">向报表添加提示</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>限定词或条件修饰符</td> 
-   <td> <p>此字段显示在报告的以下区域中：</p> 
+   <td> <p>此字段出现在报告的以下区域中：</p> 
     <ul> 
-     <li>在“筛选器”选项卡上</li> 
-     <li>列（视图）选项卡中列的“高级选项”屏幕。 通过定义限定词，您可以将“字段名”与另一个字段或值进行比较。</li> 
+     <li>在筛选器选项卡上</li> 
+     <li>“列”（视图）选项卡中该列的“高级选项”屏幕。 通过定义限定符，您可以将“字段名称”与另一个字段或值进行比较。</li> 
      <li> 在自定义提示中<br><p>有关提示的信息，请参阅<a href="/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">向报表添加提示</a>。</p>。</li> 
     </ul> <p>例如，在为计划完成日期为今天的任务构建过滤器时，您可以在“限定符”字段中选择<strong>等于</strong>，在“日期”字段中选择今天的日期：</p> <p><em>任务&gt;计划完成日期&gt;等于&gt;（今天的日期）</em> </p> <p>在此方案中，限定符为<strong>等于</strong>。<br>有关限定符的详细信息，请参阅文章<a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">筛选器和条件修饰符</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>报表 </td> 
+   <td>报告 </td> 
    <td>视图、筛选器和（有时）分组的组合。 报告的目的是跨界面显示一致的数据，分发信息，并消除定期运行相同搜索或查询的需要。</td> 
   </tr> 
   <tr> 
    <td>语句</td> 
-   <td>由多个表达式组成，这些表达式组合在一起，用于定义在使用文本模式时报表中显示的信息。 可以为报表中的视图、筛选器、分组或自定义提示创建语句。</td> 
+   <td>由若干表达式组成，这些表达式可一起定义在使用文本模式时在报表中显示的信息。 可以为报表中的视图、筛选器、分组或自定义提示创建语句。</td> 
   </tr> 
   <tr> 
    <td>摘要</td> 
@@ -382,11 +382,11 @@ Workfront提供了多个默认加载到系统中的系统报告。\
   </tr> 
   <tr> 
    <td>用户界面(UI)</td> 
-   <td>是指在任何给定时间显示在用户屏幕上的内容的组件或构建块。</td> 
+   <td>指在任何给定时间显示在用户屏幕上的组件或构建基块。</td> 
   </tr> 
   <tr> 
    <td>视图（或列）</td> 
-   <td>报告的主要内容之一。 它标识将在报告列表中显示的列标题。</td> 
+   <td>报表的主要元素之一。 它标识将在报表列表中显示的列标题。</td> 
   </tr> 
  </tbody> 
 </table>

@@ -4,13 +4,13 @@ content-type: reference
 navigation-topic: boards
 title: 在展示板上使用组
 description: 您可以在展示板上按被分派人或按标记对信息卡进行分组。 选择作为分组依据的选项时，卡片会以泳道格式显示。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 6f57a20e-0e47-4457-8605-9bce55c013ec
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 0%
 >
 >摄取列中的任何卡都不包含在组中，并且在应用组时摄取列是隐藏的。 有关引入列的信息，请参阅[将引入列添加到展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

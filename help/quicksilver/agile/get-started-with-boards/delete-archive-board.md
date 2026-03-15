@@ -4,13 +4,13 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 删除或存档展示板
 description: 您可以在Workfront中删除或存档展示板。 删除展示板会将其从Workfront中永久删除，而归档展示板会保留所有信息卡，并允许在以后恢复。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -20,17 +20,17 @@ ht-degree: 0%
 
 只有展示板所有者才能删除展示板。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

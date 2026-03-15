@@ -1,11 +1,11 @@
 ---
 title: 在2025年第二季度发布时间范围内的外观更新
 description: 在2025年第二季度发布时间范围内的外观更新
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 35cfdba7c206e8acb76648737588aa07120d2bbe
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 0%
@@ -52,7 +52,7 @@ ht-degree: 0%
  <thead>
     <tr>
         <th>前一个</th>
-        <th>新建</th>
+        <th>新</th>
     </tr>
   </thead>
  <tr>

@@ -1,23 +1,23 @@
 ---
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
-title: 在功能板中嵌入外部网页
-description: 您可以将外部网页嵌入到功能板中，以提供对Adobe Workfront内其他系统或其他Workfront页面相关信息的访问。
-author: Nolan
+title: 在仪表板中嵌入外部网页
+description: 您可以在仪表板中嵌入外部网页，以便从Adobe Workfront中的其他系统或其他Workfront页面访问相关信息。
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1017'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# 在功能板中嵌入外部网页
+# 在仪表板中嵌入外部网页
 
 <!--Audited: 01/2025-->
 
-您可以将外部网页嵌入到功能板中，以提供对其他系统或Adobe Workfront中相关信息的访问。
+可以将外部网页嵌入到仪表板中，以便从其他系统或Adobe Workfront内部访问相关信息。
 
 例如，如果贵组织有一个基于Web的文档存储库、Wiki或其他内容管理系统，其中包含通过URL定期访问的项目信息，则可以通过在功能板上创建外部页面将该信息显示到Workfront中。
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 >
 >
 >* 仪表板中不再支持将仪表板页面嵌入外部页面。 虽然不会自动修改现有功能板以删除这些外部页面，但在删除或更改引用之前，无法保存对包含此类引用的功能板所做的任何修改。
->  &#x200B;> 具体而言，不再支持以下Workfront.com子域：
+> 具体而言，不再支持以下Workfront.com子域：
 >
 >     * /&#x200B;功能板
 >     * /dashboard/:ID&#x200B;
@@ -49,17 +49,17 @@ ht-degree: 0%
 >
 >作为替代解决方案，请考虑在您的信息板中包含列表报告，如[将报告添加到信息板](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)中所述
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -88,15 +88,15 @@ ht-degree: 0%
 
 必须先创建功能板，然后才能在其中嵌入外部页面。
 
-有关创建功能板的信息，请参阅[创建功能板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)。
+有关创建仪表板的信息，请参阅[创建仪表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)。
 
-## 在功能板中嵌入外部页面
+## 在仪表板中嵌入外部页面
 
 >[!IMPORTANT]
 >
->如果不再需要某个外部页面，您可以从功能板中删除该页面。 但是，在Workfront中创建外部页面后，您无法删除该页面。 您只能使用API删除外部页面。 有关详细信息，请参阅[从功能板中删除外部页面](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)。
+>如果不再需要某个外部页面，则可以从仪表板将其删除。 但是，在Workfront中创建外部页面后，便无法删除该页面。 您只能使用API删除外部页面。 有关详细信息，请参阅[从仪表板中删除外部页面](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)。
 
-1. 找到要在Workfront中显示的页面的URL，并复制位于地址栏中的URL。
+1. 找到要在Workfront中显示的页面的URL，然后复制位于地址栏中的URL。
 
    >[!NOTE]
    >
@@ -124,7 +124,7 @@ ht-degree: 0%
      您可以指定以下类型的URL：
 
       * 指向网页的https（加密）URL。\
-        只有使用URL加载的https（加密）页面。\
+        仅使用URL加载https（加密）页面。\
         ![添加外部页面对话框](assets/add-external-page-dialog-qs-350x247.png)
 
       * 包含特定网站会话信息的模板URL。\
@@ -165,8 +165,8 @@ ht-degree: 0%
 1. 在&#x200B;**仪表板详细信息**&#x200B;框的&#x200B;**选择布局/添加报告**&#x200B;区域中，找到要更新的外部页面，将鼠标悬停在其上方，然后单击&#x200B;**编辑**&#x200B;图标。\
    ![内联编辑外部页面](assets/nwe-inline-edit-external-page-350x226.png)
 
-1. 在&#x200B;**编辑外部页面**&#x200B;框中，更新要更改的字段，然后单击&#x200B;**保存**。
-1. （可选）单击&#x200B;**删除**&#x200B;图标![删除图标](assets/delete.png)以从仪表板中删除外部页面。 有关详细信息，请参阅[从功能板中删除外部页面](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)。
+1. 在“**编辑外部页面**”框中，更新要更改的字段，然后单击“**保存**”。
+1. （可选）单击&#x200B;**“删除”**&#x200B;图标![“删除”图标](assets/delete.png)以从仪表板中删除外部页面。 有关详细信息，请参阅[从仪表板中删除外部页面](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)。
 1. 单击&#x200B;**保存+关闭**。
 
 ## 在报表中查看外部页面

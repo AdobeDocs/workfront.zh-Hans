@@ -3,13 +3,13 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: 报表类型概述
 description: 您可以将许多不同的报表添加到画布功能板，以不同的方式可视化您的Workfront数据。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
 exl-id: d593a9d5-6351-48ff-891d-cc1b727188bc
-source-git-commit: 718ed3efd56c532693d26cc067041bedbc71cca0
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%

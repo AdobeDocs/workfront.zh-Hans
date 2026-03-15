@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: 计算自定义字段示例：在自定义表单中显示状态时间戳
 description: 以下计算字段显示对象状态标记为进行中(INP)的日期。 您可以为问题、任务或项目的计算自定义字段使用相同的信息。
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 55817a68-3655-4288-8cc7-48547829c46e
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 0%
 >
 >如果对象的状态更改为INP，然后又更改为其他状态，然后再更改为INP，则Adobe Workfront将仅捕获首次更改为INP的时间戳。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront包</p> </td> 
-   <td><p>任何</p></td> 
+   <td> <p>Adobe Workfront 包</p> </td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td> <p>Adobe Workfront许可证</p> </td> 

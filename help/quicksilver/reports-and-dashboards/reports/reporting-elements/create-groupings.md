@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: 在Adobe Workfront中创建分组
 description: 您可以从头开始创建自定义分组，也可以自定义现有分组。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 64cc52b7-d97b-4b41-9101-530e7db2d26e
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '446'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -19,21 +19,21 @@ ht-degree: 1%
 
 <!--(NOTE: This is a third part of an article split in 3 about creating and customizing groupings (2 how-tos and one reference)-->
 
-报告或列表的结果可按分组组织。 分组根据特定信息对信息进行分类。
+报告或列表的结果可以通过分组进行组织。 分组根据特定信息对信息进行分类。
 
 您可以从头开始创建自定义分组，也可以自定义现有分组。 按照以下步骤从头开始创建分组。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</strong></td> 
@@ -44,7 +44,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报告、功能板、日历的访问权限以在报告中创建分组</p>
+   <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报表、功能板、日历的访问，以在报表中创建分组</p>
    </td> 
   </tr> 
   <tr> 
@@ -69,9 +69,9 @@ ht-degree: 1%
 1. 单击&#x200B;**+新建分组**。
 用于创建分组的界面生成器随即启动。
 
-1. 在&#x200B;**分组预览**&#x200B;区域中，单击&#x200B;**添加分组**&#x200B;以定义您希望如何整理报告中的信息。 下面显示了报告中的分组预览。
+1. 在&#x200B;**分组预览**&#x200B;区域中，单击&#x200B;**添加分组**&#x200B;以定义您希望如何组织报表中的信息。 下面显示了报表中分组的预览。
 
-1. 开始键入字段的名称，该名称表示要在报表中组织信息的方式，然后在信息出现在下拉列表中时单击它。
+1. 开始键入代表报告中信息组织方式的字段名称，然后在信息出现在下拉列表中时单击该名称。
 1. （可选且有条件）在更新的列表中构建分组时，如果希望分组的结果以折叠方式显示而不是展开，请选择&#x200B;**默认情况下折叠此分组**。 默认情况下，此设置处于禁用状态，分组的结果始终显示在展开列表中。
 
    有关更新的列表和旧版列表的信息，请参阅[Adobe Workfront中的列表入门](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated)一文中的[更新的列表和旧版列表之间的差异](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)部分。
@@ -86,7 +86,7 @@ ht-degree: 1%
    >* 从图表元素或旧版列表中访问分组结果后，这些结果始终以展开形式显示。 在这些情况下，此设置将被忽略。
 
 1. 重复步骤4、5和6以定义其他分组。\
-   您最多可以定义三个分组来组织信息。 通过创建矩阵报告，您最多可以将信息分为四组。 有关矩阵报表的详细信息，请参阅[创建矩阵报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)。
+   您最多可以定义三个分组来组织信息。 通过创建矩阵报告，您最多可以采用四个分组来进一步整理信息。 有关矩阵报表的详细信息，请参阅[创建矩阵报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)。
 
 1. 单击&#x200B;**保存分组**。
 

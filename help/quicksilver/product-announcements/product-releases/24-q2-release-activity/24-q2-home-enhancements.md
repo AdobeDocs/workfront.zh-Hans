@@ -1,11 +1,11 @@
 ---
 title: 2024年第二季度主页增强功能
 description: 2024年第二季度主页增强功能
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: df78f09c-7855-4538-abda-421a7a4bc225
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 本页介绍了在2024年第二季度版本中对“预览”环境进行的所有主页增强。 这些增强功能将在2024年第二季度版本的生产环境中提供。
 
-有关2024年第二季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2024年第二季度发布概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)。
+有关2024年第二季度发布周期中此时可用的所有更改列表，请参阅[ 2024年第二季度发布概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)。
 
 ## 使用布局模板添加到新主页管理员控件的列选项
 

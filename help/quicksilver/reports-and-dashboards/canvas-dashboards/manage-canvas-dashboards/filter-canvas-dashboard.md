@@ -2,11 +2,11 @@
 product-area: Canvas Dashboards
 navigation-topic: report-types
 title: 筛选画布功能板
-description: 您可以在创建筛选器后将筛选器应用到画布功能板。
-author: Courtney and Jenny
+description: 您可以在筛选器创建后将其应用于画布功能板。
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
-source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 2%
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->画布功能板目前仅适用于参与Beta测试阶段的用户。 在此阶段，部分功能可能无法完成或无法按预期工作。 请按照“画布功能板测试版”概述文章中[提供反馈](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)部分的说明提交任何有关您体验的反馈。<br>
+>画布功能板功能当前仅对参与测试版阶段的用户可用。 在此阶段中，特征的某些部分可能无法完成或按预期工作。 请按照“画布功能板”测试版概述文章[提供反馈](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)部分中的说明，提交有关您的体验的任何反馈。<br>
 >如果您对可能的错误或技术问题有反馈，请向Workfront支持提交票证。 有关详细信息，请参阅[联系客户支持](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
 >请注意，以下云提供商未提供此测试版：
 >
@@ -41,7 +41,7 @@ ht-degree: 2%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
-<p>任何 </p> 
+<p>“任一” </p> 
    </td> 
 <tr> 
  <tr> 
@@ -66,12 +66,12 @@ ht-degree: 2%
 </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的详细信息，请参阅[Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 +++
 
 ## 先决条件
 
-必须先创建功能板，然后才能对其进行筛选。
+必须先创建功能板，然后才能对其进行过滤。
 
 有关详细信息，请参阅[创建画布功能板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)。
 
@@ -101,7 +101,7 @@ ht-degree: 2%
 
 1. 在左侧面板中，单击&#x200B;**画布功能板**。
 
-1. 在&#x200B;**画布功能板**&#x200B;页面上，选择要将过滤器应用到的功能板。
+1. 在&#x200B;**画布功能板**&#x200B;页面上，选择要应用过滤器的功能板。
 
 1. 在仪表板详细信息页面的左上角，单击&#x200B;**筛选器**。 将打开过滤器侧面板。
 
@@ -114,8 +114,8 @@ ht-degree: 2%
       ![编辑图标](assets/edit-icon.png)
 
    1. 单击&#x200B;**添加条件**，然后添加以下信息：
-      * 选择一个要作为筛选依据的字段。
-      * 选择一个选项（或筛选器修饰符）以定义字段必须满足的条件类型。
+      * 选择要筛选依据的字段。
+      * 选择一个选项（或过滤器修饰符）以定义字段必须满足的条件的类型。
 
    1. （可选）单击&#x200B;**添加筛选器组**&#x200B;以添加另一组筛选条件。 集合之间的缺省运算符是AND。 单击运算符以将其更改为OR。
 
@@ -142,7 +142,7 @@ ht-degree: 2%
 
    1. 选择&#x200B;**添加自定义提示**。 新字段显示在屏幕的右侧。
 
-   1. （可选）在&#x200B;**自定义标签**&#x200B;字段中输入新标签。 默认情况下，已分配标签&#x200B;*新建自定义提示*。
+   1. （可选）在&#x200B;**自定义标签**&#x200B;字段中输入一个新标签。 默认情况下，将分配标签&#x200B;*新建自定义提示*。
 
    1. 单击&#x200B;**添加新选项**。
 
@@ -171,9 +171,9 @@ ht-degree: 2%
 
 1. 在&#x200B;**画布功能板**&#x200B;页面上，选择要将提示应用到的功能板。
 
-1. 在仪表板详细信息页面的左上角，单击&#x200B;**筛选器**。 将打开过滤器侧面板。
+1. 在仪表板详细信息页面的左上角，单击&#x200B;**筛选器**。 筛选器侧面板打开。
 
-1. 在&#x200B;**显示记录……**&#x200B;部分中，为显示的一个或多个提示选择条件。 应用了提示，并且在报告小部件的角落显示应用了&#x200B;**功能板筛选器**&#x200B;标记。
+1. 在&#x200B;**显示记录位置……**&#x200B;部分中，为显示的一个或所有提示选择条件。 将应用提示，并在报表小组件的角落显示&#x200B;**应用了功能板筛选器**标记。
    ![选择条件](assets/prompts-list.png)
 
 1. 单击右上角的&#x200B;**关闭**&#x200B;图标![关闭图标](assets/close-icon.png)以隐藏面板。

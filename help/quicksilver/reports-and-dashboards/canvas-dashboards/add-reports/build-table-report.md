@@ -3,13 +3,13 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: 在画布功能板中构建表报告
 description: 您可以将表格报表添加到画布功能板，以便以表格格式显示您的数据。
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: d7caaa0871263fb8ef4224a9c298778f3ee2454a
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1199'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 2%
 
 您可以将表格报表添加到画布功能板，以便以表格格式显示您的数据。
 
-![表报告示例](assets/table-example-main.png)
+![表报表示例](assets/table-example-main.png)
 
 ## 访问要求
 
@@ -42,7 +42,7 @@ ht-degree: 2%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
-<p>任何 </p> 
+<p>“任一” </p> 
    </td> 
 <tr> 
  <tr> 
@@ -55,7 +55,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader"><p>访问级别配置</p></td> 
-   <td><p>编辑对报告、功能板和日历的访问权限</p>
+   <td><p>编辑对报表、功能板和日历的访问权限</p>
   </td> 
   </tr>  
 </tbody> 
@@ -172,11 +172,11 @@ ht-degree: 2%
     </tr>
     <tr>
     <td><strong>截止日期</strong></td>
-    <td>文档审批&gt;审批阶段&gt;截止日期</td>
+    <td>单据审批&gt;审批阶段&gt;截止日期</td>
     </tr>
     <tr>
     <td><strong>请求者</strong></td>
-    <td>文档审批&gt;审批阶段&gt;审批阶段参与者* &gt;请求者&gt;在搜索框中键入<em>名称</em>。</td>
+    <td>文档审批&gt;审批阶段&gt;审批阶段参与者* &gt;申请人&gt;在搜索框中键入<em>名称</em>。</td>
     </tr>
     <tr>
     <td><strong>请求的日期</strong></td>
@@ -208,9 +208,9 @@ ht-degree: 2%
 
 在访问级别对财务数据具有“查看”或“编辑”权限的用户仍可在画布功能板可视化图表中查看财务数据，即使已在任务或项目级别删除了“查看财务”权限。
 
-* 在访问级别没有财务数据权限的用户在报表中看不到财务数据。
-* 查看财务数据的用户仅限于他们已具有查看权限（项目、任务、问题等）的记录。 他们不会看到他们无法访问记录的财务值。
-* 报表创建者应在功能板中包含财务数据时务必谨慎，并注意他们与谁共享功能板，以防止意外访问。
+* 在访问级别中不具备财务数据权限的用户，将无法在报告中看到财务数据。
+* 能够看到财务数据的用户，仅限于查看其本身已有权限访问的记录（如项目、任务、问题等）。对于无权访问的记录，用户将无法看到对应的财务数值。
+* 报告创建者在将财务数据包含到仪表板中时应谨慎，并注意仪表板的共享对象，以避免发生非预期的访问。
 
 这是一个已知的限制，我们计划尽快解决它。
 

@@ -3,13 +3,13 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: 在Kanban板上更新故事的状态
 description: 您可以直接从Kanban展示板更改故事的状态，以反映故事的进展情况。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: fd75ab8e-08c4-4643-bc67-aada5b5c005e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 0%
 >
 >只有在[!UICONTROL 团队设置]区域的[!UICONTROL 故事板]部分中选择的状态在[!UICONTROL Kanban]展示板和状态下拉菜单中可用。 有关详细信息，请参阅[配置Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,13 +32,13 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> <p>标准</p> 
-   <p>工作或更高</p> </td> 
+   <p>工作版或更高版本</p> </td> 
   </tr>
  </tbody> 
 </table>

@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 筛选器：当状态与不同组关联时，按同名状态显示项目
 description: 您可以将具有3个字母键NST的任务状态分配给名为“组A”的新状态。 您可能会有另一个任务状态分配给组B，该任务状态也命名为“新状态”，带有3个字母的键NES。 虽然2个状态的名称可以相同，但3个字母的代码始终是唯一的。 有关组状态的详细信息，请参阅创建或编辑组状态。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 8ddcd8b1-44a9-4341-80c7-76ba70d2953b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -24,17 +24,17 @@ ht-degree: 0%
 
 使用过滤器生成器，您无法识别具有相同名称的2种状态。 您必须在自定义筛选器中使用“文本模式”来区分2种状态。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

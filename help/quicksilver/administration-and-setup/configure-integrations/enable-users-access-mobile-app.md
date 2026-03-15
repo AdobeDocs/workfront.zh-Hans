@@ -5,14 +5,14 @@ user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: 您可以启用或禁用对 [!DNL Adobe Workfront] 移动设备应用程序的访问。
-author: Nolan
+author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: cd09e78c-bd2a-4712-9c35-8acbf1a3729d
-source-git-commit: 711812d9fd4bf48bb7612c0339cee2cdbe08ef10
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '161'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 1%
 
 您可以启用或禁用对[!DNL Adobe Workfront]移动应用的访问。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,7 +30,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

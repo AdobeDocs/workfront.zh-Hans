@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 分组：编辑分组中的显示名称
 description: 可将列表和报告中的分组重命名为用户更熟悉的类型。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 072d3c2b-9ede-4bb9-9a27-dc77ceb732c4
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 您可以将分组重命名为用户更熟悉的分组。
 
-例如，将标准Portfolio名称分组应用于项目列表时，分组的名称将显示为&#x200B;*Portfolio：名称：`<name of portfolio>`*。
+例如，将标准Portfolio名称分组应用于项目列表时，分组的名称显示为&#x200B;*Portfolio：名称：`<name of portfolio>`*。
 
 ![按未编辑的名称分组](assets/grouping-unedited-name-350x167.png)
 
@@ -28,23 +28,23 @@ ht-degree: 0%
 
 ![按编辑后的名称分组](assets/grouping-edited-name-350x160.png)
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
    <p>修改过滤器的参与者或请求 </p>
-   <p>用于修改报告的标准或计划</p>
+   <p>标准或计划修改报告</p>
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -68,7 +68,7 @@ ht-degree: 0%
 1. 转到项目列表。
 1. 从&#x200B;**分组**&#x200B;下拉菜单中，选择&#x200B;**新建分组**。
 
-1. 单击&#x200B;**添加分组**，然后在&#x200B;**分组依据：**&#x200B;字段中开始输入“Portfolio名称”，然后当它显示在列表中时将其选定。
+1. 单击&#x200B;**添加分组**，在&#x200B;**分组依据：**&#x200B;字段中开始键入“Portfolio名称”，然后在列表中显示时选择它。
 
 1. 单击&#x200B;**切换到文本模式**。
 1. 执行以下操作之一：
@@ -101,4 +101,4 @@ ht-degree: 0%
 1. 单击&#x200B;**完成**，然后单击&#x200B;**保存分组**。
 1. （可选）更新分组名称，然后单击&#x200B;**保存分组**。
 
-   根据您的文本模式信息修改分组的默认名称。
+   组的缺省名称会根据文本模式信息而修改。

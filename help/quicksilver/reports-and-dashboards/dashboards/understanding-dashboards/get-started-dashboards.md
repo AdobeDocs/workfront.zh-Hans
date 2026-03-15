@@ -4,13 +4,13 @@ product-area: dashboards
 navigation-topic: understand-dashboards
 title: 仪表板入门
 description: 功能板的用途是提供对信息的快速访问。 您可以在报表中收集信息，然后将它们放在功能板上，以便更轻松地访问信息。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '693'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 功能板的用途是提供对来自多个报表信息的快速访问。 首先，您可以收集报告中的信息，然后将多个报告放在功能板上，以便更轻松地访问信息。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 
 <table style="table-layout:auto"> 
@@ -30,8 +30,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

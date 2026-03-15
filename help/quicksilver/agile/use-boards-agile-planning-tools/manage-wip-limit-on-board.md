@@ -4,13 +4,13 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: 管理展示板上的正在进行的工作(WIP)限制
 description: 您可以为展示板上的每个列配置正在进行的工作(WIP)限制。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 7901c6e7-75a4-41e4-b288-d527c4a6d031
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -20,17 +20,17 @@ ht-degree: 0%
 
 WIP限制只是一个视觉上的警告，不会限制每列中显示的项目数量超过设置的限制。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

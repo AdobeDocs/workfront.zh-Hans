@@ -3,13 +3,13 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: scrum-board
 title: 在Scrum展示板上按用户筛选
 description: 您可以使用Scrum展示板上的过滤器来查看哪些工作项与其他用户相关联，以及哪些工作项未分配。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: ccb1dc6e-b6c0-4897-9278-7410f10d40ae
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '201'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 您可以使用Scrum展示板上的过滤器来查看哪些工作项与其他用户相关联，以及哪些工作项未分配。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -27,13 +27,13 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>新文档： [!UICONTROL Standard]</p> 
+   <td> <p>新文档： [！UICONTROL Standard]</p> 
    或
-   <p>当前： [!UICONTROL Work]或更高版本</p> </td> 
+   <p>当前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr>
  </tbody> 
 </table>

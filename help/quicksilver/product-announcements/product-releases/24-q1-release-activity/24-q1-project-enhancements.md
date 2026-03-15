@@ -1,11 +1,11 @@
 ---
 title: 2024年第一季度项目增强功能
 description: 2024年第一季度项目增强功能
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 260e629d-361b-4022-8be0-7d2e7d66770f
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 本页介绍了在2024年第一季度版本中对“预览”环境所做的所有项目增强。 这些增强功能将在2024年第一季度发行版的“生产”环境中提供。
 
-有关2024年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2024年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)。
+有关2024年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2024年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)。
 
 ## 更相关的智能分配
 

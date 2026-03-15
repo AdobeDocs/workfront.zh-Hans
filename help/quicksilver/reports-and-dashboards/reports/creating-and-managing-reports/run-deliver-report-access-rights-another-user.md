@@ -1,19 +1,19 @@
 ---
 product-area: reporting
 navigation-topic: create-and-manage-reports
-title: 运行并交付具有其他用户访问权限的报告
-description: 默认情况下，用户只能查看他们有权查看的报表中的对象。
-author: Nolan
+title: 运行和交付具有其他用户访问权限的报告
+description: 默认情况下，用户只能查看自己有权查看的报表中的对象。
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1185'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# 运行并交付具有其他用户访问权限的报告
+# 运行和交付具有其他用户访问权限的报告
 
 <!-- Audited: 11/2024 -->
 
@@ -21,24 +21,24 @@ ht-degree: 0%
 
 您可以允许所有用户以其他用户身份在报表中查看相同的结果，无论他们对报表中对象的访问级别或权限级别如何。
 
-如果您使用具有更高访问权限的其他用户的访问权限(例如，Adobe Workfront管理员的访问权限)来运行报表，则所有有权查看报表的用户都可以以Report Builder中指定的用户的身份查看报表中的信息。 您可以为用户在Workfront界面中找到的报表设置此项，也可以为作为电子邮件附件发送给用户的报表设置此项。
+如果使用具有更高访问权限的其他用户的访问权限(例如，Adobe Workfront管理员的访问权限)运行报告，则所有具有查看报告权限的用户都可以作为报告生成器中指定的用户查看报告中的信息。 您可以为用户在Workfront界面中找到的报告或作为电子邮件附件发送给用户的报告设置此设置。
 
 >[!TIP]
 >
->只有当您希望报表显示时显示该用户的访问权限，才应将&#x200B;**Run this report with Access Rights of：** field with an active user替换为active。 例如，工作许可证用户可能没有权限查看由计划许可证用户或系统管理员构建的报告中的所有项目，除非该报告显示时具有规划者或系统管理员的访问权限。\
->如果与具有与&#x200B;**在**&#x200B;字段的访问权限下运行此报告中指定的用户类似访问权限的用户共享报告，您可以将此字段留空。
+>仅当希望显示具有活动用户的&#x200B;**Run this report with Access Rights of：**&#x200B;字段时，才应将该字段替换为该用户的访问权限。 例如，工作许可证用户可能没有权限查看计划许可证用户或系统管理员构建的报告中的所有项目，除非该报告显示时具有计划员或系统管理员的访问权限。\
+>如果报告与具有类似访问权限的用户共享到&#x200B;**使用**&#x200B;的访问权限运行此报告字段中指定的用户，则您可以将此字段留空。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -54,12 +54,12 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">对象权限</td> 
      <td> <p>查看权限报表可以查看传送的报表</p>
-     <p>管理运行报告的报告权限</p></td> 
+     <p>管理对报告的权限以运行报告</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中的信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -71,12 +71,12 @@ ht-degree: 0%
 
 要运行具有其他用户访问权限的报告，请执行以下操作：
 
-1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 报表]**。
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL “主菜单”]**&#x200B;图标![“主菜单”](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL “主菜单”]**&#x200B;图标![“主菜单”](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL “报告”]**。
 
-1. 选择要显示的其他用户访问权限的报告。
+1. 选择要以其他用户的访问权限显示的报告。
 1. 单击&#x200B;**报告操作**，然后单击&#x200B;**编辑**。
 
-1. 单击&#x200B;**报表设置**。
+1. 单击&#x200B;**报告设置**。
 
 1. 在&#x200B;**使用**&#x200B;的访问权限运行此报告字段中，开始键入您希望报告显示的用户名称，然后在列表中看到时将其选定。\
    ![运行访问权限为](assets/unshimmed-access-rights-of.png)
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 ## 提交具有其他用户访问权限的报告
 
-您可以设置要作为电子邮件附件传送的报表。 您可以将这些已传送报表设置为在为具有较高访问级别的用户显示时显示，以便所有用户都可以在已传送报表中看到相同信息。 将看到电子邮件中传送的报告的用户必须添加到报告传送中的收件人列表中。 有关设置报表以进行传送的更多信息，请参阅文章[报表传送概述](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)。
+您可以设置要作为电子邮件附件传送的报表。 您可以将这些已传送报表设置为在为具有较高访问级别的用户显示时显示，以便所有用户都可以在已传送报表中看到相同信息。 将看到电子邮件中传送的报告的用户必须添加到报告传送中的收件人列表中。 有关设置报告以供传递的详细信息，请参阅文章[报告传递概述](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)。
 
 要交付具有其他用户访问权限的报告，请执行以下操作：
 
@@ -123,20 +123,20 @@ ht-degree: 0%
    * Excel (.xlsx)
    * TSV
 
-1. 单击&#x200B;**立即发送**&#x200B;立即发送。\
+1. 单击&#x200B;**立即发送**&#x200B;可立即发送。\
    或\
-   单击&#x200B;**重复传送**&#x200B;以计划报告的重复传送。\
-   有关报告交付的详细信息，请参阅文章[报告交付概述](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)。
+   单击&#x200B;**进行重复传递**&#x200B;以计划报告的重复传递。\
+   有关报表递送的详细信息，请参阅文章[报表递送概述](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)。
 
 ## 带有Source列的报表的限制
 
 以下报表显示Source列，您可以在其中查看有关父对象的信息：
 
 * 问题报告
-* 小时报告
-* 文档报表
+* 工时报告
+* 文档报告
 
-如果用户无权访问问题、小时或文档的父对象，则报告的Source列显示为空，即使报告配置为显示或使用其他用户的访问权限传递。
+如果用户无权访问问题、工时或文档的父对象，则报告的“源”列将显示为空，即使将报告配置为显示或使用其他用户的访问权限发送报告也是如此。
 
 为了在报告中显示有关父对象的信息，我们建议为父对象添加一列，您可以在其中显示父对象的名称。
 

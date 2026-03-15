@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 视图：任务和项目的原始问题详细信息
 description: 当问题转换为任务或项目时，在任务或项目与问题之间建立解析对象关系。 此视图显示任务或项目完成时自动完成的问题字段。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5fefb174-3a18-408f-aa12-3f4aff23acfa
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
@@ -32,17 +32,17 @@ ht-degree: 3%
 
 有关详细信息，另请参阅[查看：在任务或项目列表中显示原始问题信息](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

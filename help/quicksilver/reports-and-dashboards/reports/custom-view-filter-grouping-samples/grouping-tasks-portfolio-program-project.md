@@ -2,60 +2,60 @@
 content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 分组：按Portfolio、项目和项目列出的任务
-description: 使用此任务分组可以按项目组合、项目群以及与其关联的项目对任务进行分组。
-author: Nolan
+title: 分组：按Portfolio、方案和项目列出的任务
+description: 使用此任务分组可以按产品组合、方案，然后按与其关联的项目对任务进行分组。
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 8fdad6a1-54b3-4d3e-8f21-4f2efc2dc27a
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '200'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
-# 分组：按项目组合、项目和项目分类的任务
+# 分组：按产品组合、方案和项目列出的任务
 
 <!--Audited: 10/2024-->
 
-使用此任务分组可以按项目组合、项目群以及与其关联的项目对任务进行分组。
+使用此任务分组可以按产品组合、方案，然后按与其关联的项目对任务进行分组。
 
-![Portfolio计划项目分组](assets/portfolio-program-project-grouping-for-tasks-350x120.png)
+![Portfolio的程序项目分组](assets/portfolio-program-project-grouping-for-tasks-350x120.png)
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
-   <p>修改过滤器的参与者或请求 </p>
-   <p>用于修改报告的标准或计划</p>
+   <p>投稿人或请求修改筛选器 </p>
+   <p>标准或计划修改报告</p>
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>编辑对报告、功能板和日历的访问权限以修改报告</p> <p>编辑对筛选器、视图和分组的访问权限以修改筛选器</p> </td> 
+   <td> <p>编辑报表、仪表板、日历的访问权限以修改报表</p> <p>编辑筛选器、视图、组的访问权限以修改筛选器</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理报表的权限</p>  </td> 
+   <td> <p>管理对报告的权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中的信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
-## 按项目组合、项目和项目对任务进行分组
+## 按产品组合、计划和项目对任务进行分组
 
 要应用此分组，请执行以下操作：
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 1. 单击&#x200B;**添加分组**。
 
 1. 单击&#x200B;**切换到文本模式**。
-1. 删除&#x200B;**分组依据**&#x200B;区域中的文本。
+1. 删除&#x200B;**Group by**&#x200B;区域中的文本。
 1. 将文本替换为以下代码：
 
    ```

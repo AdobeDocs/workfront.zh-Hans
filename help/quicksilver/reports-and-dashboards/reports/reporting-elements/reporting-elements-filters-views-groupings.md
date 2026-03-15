@@ -1,12 +1,12 @@
 ---
 product-area: reporting
 navigation-topic: reporting-elements
-title: '报告元素：筛选器、视图和分组'
+title: 报表元素：筛选器、视图和分组
 description: Workfront中每个列表和报表都必须具有的主要元素包括过滤器、视图和分组。 每个元素可在任何报表中提供不同的信息。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5697905e-42c0-403b-85d4-798a1a3a2e7f
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 0%

@@ -4,13 +4,13 @@ product-area: reporting;dashboards
 navigation-topic: report-usage
 title: 了解如何在功能板上组织报表
 description: 您可以查看是否向Adobe Workfront中的功能板添加了报表。 在决定您可以保留哪些报告以及可以从系统中删除哪些报告时，这可能很有用。 如果报表位于功能板上，则用户可能仍依赖这些报表。 我们建议不要删除用户正在使用的功能板上列出的报表。 有关将报表添加到功能板的更多信息，请参阅将报表添加到功能板一文。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: ce00c307-9e64-49f5-997b-f7fc461c960c
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '601'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -31,17 +31,17 @@ ht-degree: 0%
 有关访问报告的详细信息，请参阅文章[授予对报告、功能板和日历的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)。\
 有关生成报告的详细信息，请参阅文章[创建自定义报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

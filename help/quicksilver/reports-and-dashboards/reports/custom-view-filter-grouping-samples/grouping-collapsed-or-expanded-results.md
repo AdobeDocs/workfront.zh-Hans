@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 分组：指示应使用文本模式折叠还是展开分组的结果
 description: 分组：指示应使用文本模式折叠或展开分组的结果
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 2880e06f-34f3-47b1-9462-5a15a20d6fee
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '329'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -36,17 +36,17 @@ ht-degree: 0%
 
 您还可以指定使用文本模式显示的分组是展开还是折叠。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

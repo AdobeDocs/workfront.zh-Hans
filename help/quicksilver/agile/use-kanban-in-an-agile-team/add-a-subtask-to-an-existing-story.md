@@ -3,13 +3,13 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: 将子任务添加到Kanban展示板上的现有故事
 description: 阅读本文，了解如何为Kanban展示板上的现有故事创建子任务。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: c6610616-80e5-4ded-9d23-63f15536e45c
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '312'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 0%
 * 无法跨版移动父故事。 要更新故事的[!UICONTROL 完成百分比]，您必须更新任何子任务的[!UICONTROL 完成百分比]。 故事的[!UICONTROL 完成百分比]是根据所有子任务的[!UICONTROL 完成百分比]计算的。
 * 将包含子任务的父故事移动到[!UICONTROL 完成]会将父故事更新为100%，将[!UICONTROL 状态]更新为[!UICONTROL 完成]。 子任务也更新为100%，[!UICONTROL 状态]更新为[!UICONTROL 完成]。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,13 +38,13 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> <p>标准</p> 
-   <p>工作或更高</p> </td> 
+   <p>工作版或更高版本</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">对象权限</td> 

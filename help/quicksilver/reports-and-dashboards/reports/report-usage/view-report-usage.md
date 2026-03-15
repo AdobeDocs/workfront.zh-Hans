@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: report-usage
 title: 查看报告使用情况
 description: 查看报告使用情况
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 51d9067c-8c55-433e-b560-7da241ef33ae
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '960'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 0%
   >
   >Adobe Workfront每天计算每个用户一次视图。 如果您每天多次访问同一报表，Workfront会将此报表计为一次该报表的查看。 如果同一报表被同一用户在同一天访问，Workfront会将此视为第二用户的新视图。
 
-* 上一个查看日期
+* 上次查看日期
 * 上次由用户查看
 * 包含该报告的功能板列表\
   有关显示可能在报告列表中添加报告的报告的控制板名称的更多信息，请参阅文章[了解如何在信息板上组织报告](../../../reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)。
@@ -37,17 +37,17 @@ ht-degree: 0%
 您可以按照其中的某些字段过滤报表列表。\
 有关可按哪些字段筛选报告的详细信息，请参阅文章[按使用情况信息筛选报告列表](#filter-a-report-list-by-usage-information)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -83,7 +83,7 @@ ht-degree: 0%
 1. 开始键入以下任何字段，并在这些字段出现在&#x200B;**Report**&#x200B;对象下的列表中时将其选中，以将其添加到新列：
 
    * **最近10个用户**：显示最近10个查看报告的用户的名称。
-   * **查看次数**：显示以下任一时间范围内的查看次数：
+   * **视图**：显示以下任一时间范围内的视图数：
 
       * **本月、季度、年**
       * **上个月、季度、年**
@@ -136,7 +136,7 @@ ht-degree: 0%
 * Workfront不会收集内置报表的使用信息。\
   有关Workfront内置报告的详细信息，请参阅文章[使用Adobe Workfront内置报告](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)。
 
-* Workfront不会收集有关已传送报表的使用信息。 已交付的报表不计为一个视图。\
+* Workfront不收集有关交付报告的使用信息。 交付的报告不计为一个视图。\
   有关已传送报表的更多信息，请参阅文章[报表传送概述](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)。
 
 * 当系统或组管理员以其他用户身份登录时，系统或组管理员将计算这些视图，并将其与系统或组管理员关联。

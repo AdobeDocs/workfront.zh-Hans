@@ -2,66 +2,66 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 视图：以小时列表显示组合任务和问题详细信息
-description: 该小时视图结合了“任务”和“问题名称”列，以及使用sharecol标记的“任务”和“问题已计划小时数”列。 由于小时条目只能属于任务或问题，因此两个对象不能同时出现在同一列中。 视图的每一行都会填充任务或问题中的信息。
-author: Nolan
+title: 查看：以小时为单位列出综合的任务和问题详细信息
+description: 此工时视图结合了“任务名称”和“问题名称”列，以及使用sharecol标记的“任务计划工时”和“问题计划工时”。 由于工时条目只能属于任务或问题，因此两个对象不能同时出现在同一列中。 视图的每一行都填充了来自Task或Issue的信息。
+author: Courtney
 feature: Reports and Dashboards
 exl-id: cf1137fd-c26a-4907-afe9-2373d3434631
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '326'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
-# 视图：以小时列表显示组合任务和问题详细信息
+# 查看：工时列表中合并的任务和问题详细信息
 
 <!--Audited:11/2024-->
 
-该小时视图结合了“任务”和“问题名称”列，以及使用`sharecol`标记的“任务”和“问题已计划小时数”。 由于小时条目只能属于任务或问题，因此两个对象不能同时出现在同一列中。 视图的每一行都会填充任务或问题中的信息。
+此工时视图将“任务名称”和“问题名称”列以及使用`sharecol`标记的“任务计划工时”和“问题计划工时”组合在一起。 由于工时条目只能属于任务或问题，因此两个对象不能同时出现在同一列中。 视图的每一行都填充了来自Task或Issue的信息。
 
-要了解有关`sharecol`标记的详细信息，请参阅[视图：合并一个共享列中多个列的信息](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md)。
+要了解有关`sharecol`标记的更多信息，请参阅[查看：合并一个共享列中多个列的信息](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md)。
 
 ![custom_view_hours_with_task_and_issue_information.png](assets/custom-view-hours-with-350x48.png)
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
-   <p>修改过滤器的参与者或请求 </p>
-   <p>用于修改报告的标准或计划</p>
+   <p>投稿人或请求修改筛选器 </p>
+   <p>标准或计划修改报告</p>
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>编辑对报告、功能板和日历的访问权限以修改报告</p> <p>编辑对筛选器、视图和分组的访问权限以修改筛选器</p> </td> 
+   <td> <p>编辑报表、仪表板、日历的访问权限以修改报表</p> <p>编辑筛选器、视图、组的访问权限以修改筛选器</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理报表的权限</p>  </td> 
+   <td> <p>管理对报告的权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中的信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
-## 在小时列表中查看组合的任务和问题详细信息
+## 在“工时”列表中查看合并的任务和问题详细信息
 
 1. 转到小时列表。
-1. 从&#x200B;**视图**&#x200B;下拉菜单中，单击&#x200B;**新建视图**。
-1. 在&#x200B;**列预览**&#x200B;区域，除一个列外，请删除所有列。
+1. 在&#x200B;**视图**&#x200B;下拉菜单中，单击&#x200B;**新建视图**。
+1. 在&#x200B;**列预览**&#x200B;区域中，删除除一列之外的所有列。
 1. 单击其余列的标题，然后单击&#x200B;**切换到文本模式** > **编辑文本模式**。
 1. 删除在&#x200B;**编辑文本模式**&#x200B;框中找到的文本，然后将其替换为以下代码：
 

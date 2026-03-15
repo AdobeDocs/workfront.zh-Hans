@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: 在文本模式过滤器中创建“OR”语句
 description: 在列表和报告中创建过滤器时，可以包含多个语句。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: be145e22-d66c-4a74-af0e-8bb0598b4d67
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 有关创建过滤器的信息，请参阅以下文章：
 
-* [筛选器概述](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [过滤器概述](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [使用文本模式编辑筛选器](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
 
 ## 文本模式筛选器运算符

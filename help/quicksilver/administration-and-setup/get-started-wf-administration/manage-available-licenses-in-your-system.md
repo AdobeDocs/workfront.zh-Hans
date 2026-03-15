@@ -4,14 +4,14 @@ product-area: system-administration;user-management
 navigation-topic: start-with-workfront-administration
 title: 管理系统中的可用许可证
 description: 作为Adobe Workfront管理员，您可以访问有关您的Workfront帐户的信息，包括为您的组织购买的许可证数量，以及当前正在使用的许可证数量。
-author: Lisa, Jenny
+author: Lisa, Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1180'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 作为Adobe Workfront管理员，您可以访问有关您的Workfront帐户的信息，包括为您的组织购买的许可证数量，以及当前正在使用的许可证数量。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,7 +31,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -57,9 +57,9 @@ ht-degree: 0%
 >2. 系统管理员只能看到所有主组使用的许可证总数。
 >3. 组管理员根本无法访问许可证页面。
 >
->对于Prime和Ultimate包：
+>For the Prime and Ultimate packages:
 >
->1. 系统管理员可以将主组添加到“许可证”页面以查看这些组中许可证的使用情况，还可以设置许可证限制。
+>1. System administrators can add Home Groups to the Licenses page to view the utilization of licenses in those groups, and they can also set license limits.
 >2. 组管理员可以访问“许可证”页面，并查看他们管理的组中系统管理员添加到“许可证”页面中的许可证的使用情况。
 >3. 组管理员无法查看其他主组的信息或添加最大值。
 
@@ -85,9 +85,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >对于新计划，Select计划不允许管理员按主组查看许可证。 您只能看到已使用的许可证的总数。 Prime和Ultimate计划提供设置每个主组的最大许可证数的功能。
+   >对于新计划，Select计划不允许管理员按主组查看许可证。 您只能看到已使用的许可证的总数。 The Prime and Ultimate plans provide the ability to set the maximum count of licenses per Home Group.
 
-## 查看有关Workfront加载项许可证的信息
+## View information about licenses for Workfront add-ons
 
 如果您的组织具有付费的Workfront Proof加载项，则会显示已使用的许可证数量和可用的许可证数量。 例如，10个验证许可证中的&#x200B;**5个许可证**&#x200B;指示组织当前正在使用他们购买的10个Workfront Proof许可证中的5个。
 
@@ -96,13 +96,13 @@ Workfront加载项的![许可证](assets/updated-licenses-page.png)
 如果您的组织已购买Workfront Goals，则此产品的许可证信息也会显示在此处。 在这种情况下，您可以查看以下信息：
 
 * 贵公司已购买的Workfront目标许可证总数
-* 与用户关联的Workfront目标许可证数量。 这是在其访问级别至少授予了目标查看访问权限的用户数量。
+* The number of Workfront Goals licenses associated with users. This is the number of users to whom to have granted at least View access to Goals in their access level.
 
-有关Workfront目标的信息，请参阅[Adobe Workfront目标概述](../../workfront-goals/goal-management/wf-goals-overview.md)。 有关访问Workfront目标的信息，请参阅[授予对Adobe Workfront目标的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)。
+For information about Workfront Goals, see [Adobe Workfront Goals overview](../../workfront-goals/goal-management/wf-goals-overview.md). For information about access to Workfront Goals, see [Grant access to Adobe Workfront Goals](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 >[!NOTE]
 >
->Workfront允许您分配更多已购买的Workfront Goals许可证。 但是，当您分配的许可证数超过Workfront目标合同允许的许可证数时，Workfront客户经理将会联系您，告知您超出合同数量限制。
+>Workfront allows you to assign more Workfront Goals licenses that you have purchased. However, when you assign more licenses than what your Workfront Goals contract allows, a Workfront account manager will contact you to let you know that you have exceeded your contractual number.
 >
 
 <!--
@@ -122,11 +122,11 @@ If an organization has other paid add-on products, their license information als
 
 >[!IMPORTANT]
 >
->验证和文档决策限制仅适用于新许可证的用户。 有关详细信息，请参阅[新许可证概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)。
+>Proof and document decision limits apply only to users on the new licenses. For more information, see [New licenses overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
-所有非付费Workfront许可证的验证和文档决策都受到限制。 每月按用户重置限制。
+Proof and document decisions are limited for all non-paid Workfront licenses. Limits reset on a per-user basis each month.
 
-每个许可证的决定限制因您采用的计划而异。 您可以在“设置”>“许可证”中查看每月分配。
+The decision limits for each license differ depending on the plan you&#39;re on. 您可以在“设置”>“许可证”中查看每月分配。
 
 有关验证和文档决策限制的更多信息，请参阅[非付费用户的有限文档和验证决策概述](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md)。
 
@@ -140,7 +140,7 @@ If an organization has other paid add-on products, their license information als
 
 >[!IMPORTANT]
 >
->* 为了有效地管理主组的许可证，我们建议在更新最大许可证计数之前，为业务部门设置特定的主组。 有关详细信息，请参阅[主组概述](../../administration-and-setup/manage-groups/groups-overview/home-groups.md)。
+>* To effectively manage licenses with home groups, we recommend setting up specific Home Groups for business units before updating the max license count. 有关详细信息，请参阅[主组概述](../../administration-and-setup/manage-groups/groups-overview/home-groups.md)。
 >* 您只能将顶级组添加为主组，而不能添加子组。 如果用户将子组指定为主组，则其许可证将添加到该子组上方的顶级组的许可证计数中。
 >
 
@@ -160,11 +160,11 @@ If an organization has other paid add-on products, their license information als
 
 1. 单击&#x200B;**保存**。
 
-作为Workfront管理员，您可以设置主组的最大许可证计数，以防止业务部门使用为其他业务部门购买的Workfront许可证。 有关说明，请参阅本文中的[设置主组](#set-the-maximum-license-count-for-a-home-group)的最大许可证计数。
+作为Workfront管理员，您可以设置主组的最大许可证计数，以防止业务部门使用为其他业务部门购买的Workfront许可证。 For instructions, see [Set the maximum license count for a Home Group](#set-the-maximum-license-count-for-a-home-group) in this article.
 
-## 设置主组的最大许可证计数 {#set-the-maximum-license-count-for-a-home-group}
+## Set the maximum license count for a Home Group {#set-the-maximum-license-count-for-a-home-group}
 
-作为Workfront管理员，您可以为系统中的顶级主组设置许可证最大计数。 这样，您就可以防止业务部门使用为您的组织内的其他业务部门购买的Workfront许可证。
+As a Workfront administrator, you can set maximum license counts for the top-level Home Groups in your system. This allows you to prevent a business unit from using Workfront licenses purchased for other business units within your organization.
 
 默认情况下，许可证最大数量设置为N/A，这意味着没有限制。
 
@@ -177,8 +177,8 @@ If an organization has other paid add-on products, their license information als
 1. 在左面板底部，单击&#x200B;**系统** > **许可证**。
 
 1. 在列表中找到主组。
-1. 在组的&#x200B;**Max**&#x200B;列中，单击要为其设置最大值的值。
-1. 键入最大数字，然后按Enter键。
+1. In the **Max** column of the group, click the value that you want to set a maximum for.
+1. Type the maximum number, then press Enter.
 
    ![组](assets/updated-max.png)的最大许可证
 

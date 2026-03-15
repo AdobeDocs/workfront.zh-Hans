@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: 使用文本模式编辑筛选器
 description: 您可以使用文本模式在列表或报告中编辑过滤器，以访问标准界面中不可用的字段，并创建更复杂的过滤器。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1044'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -21,17 +21,17 @@ ht-degree: 1%
 
 有关创建筛选器时的更多文本模式示例，另请参阅文章[自定义视图、筛选器和分组示例：文章索引](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md#samples-of-custom-filters)中的[自定义筛选器的示例](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)部分。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

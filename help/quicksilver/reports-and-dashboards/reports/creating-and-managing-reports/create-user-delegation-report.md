@@ -4,13 +4,13 @@ keywords: 用户，委派，报告，委派，批准
 navigation-topic: create-and-manage-reports
 title: 创建用户委派报告
 description: 创建用户委派报告
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 2%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider moving this to the Custom&nbsp;View, Filter, Grouping Samples section as an example of a report)</p>
 -->
 
-在Adobe Workfront中，用户可以将项目、任务和问题审批委派给其他用户，以确保在外出时管理其审批。 拥有计划许可证的用户可以创建用户委派报告，以查看：
+在Adobe Workfront中，用户可以委派项目、任务并向其他用户颁发批准，以确保在用户在办公室外时管理其批准。 拥有计划许可证的用户可以创建用户委派报告，以查看：
 
 * 已将其任务、问题和项目审批委托给其他用户的用户
 * 哪些用户已委派任务、问题和项目审批给他们
@@ -39,17 +39,17 @@ ht-degree: 2%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">DRAFTED: To learn how to manage delegated work in Home, see [future link here].</p>
 -->
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -87,8 +87,8 @@ ht-degree: 2%
    |---|---|
    | **来自用户** | 该用户正在将其任务、问题和项目审批委派给其他用户。 |
    | **至用户** | 这是具有委托给他们的任务、问题和项目审批的用户。 |
-   | **开始日期** | 对于进行委派的用户来说，这是外出时间的开始。 |
-   | **结束日期** | 对于进行委派的用户而言，这是外出时间的结束。 |
+   | **开始日期** | 这是作出委派的用户外出时间的开始。 |
+   | **结束日期** | 这是已进行委派的用户外出时间的结束。 |
 
    {style="table-layout:auto"}
 
@@ -103,4 +103,4 @@ ht-degree: 2%
 
 1. 完成报表生成后，单击&#x200B;**保存+关闭**。
 
-   此时将显示报表。
+   此时会显示报告。

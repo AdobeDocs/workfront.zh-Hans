@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: burndown
 title: 同步燃尽图中的数据
 description: 燃尽图将自动与项目或迭代中的数据同步。 如果燃尽图与项目或迭代中的数据不同步，您可以手动对其进行同步。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 39086d73-4835-4e15-8fa6-7a7efc48a38b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 燃尽图将自动与项目或迭代中的数据同步。 如果燃尽图与项目或迭代中的数据不同步，您可以手动对其进行同步。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,8 +28,8 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

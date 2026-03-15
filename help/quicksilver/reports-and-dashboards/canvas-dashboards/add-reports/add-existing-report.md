@@ -3,13 +3,13 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: 将现有报表添加到画布功能板
 description: 通过Adobe Workfront报表工具创建的报表可以添加到画布功能板。
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >画布功能板目前仅适用于参与Beta测试阶段的用户。 在此阶段，部分功能可能无法完成或无法按预期工作。 请按照“画布功能板测试版”概述文章中[提供反馈](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)部分的说明提交任何有关您体验的反馈。<br>
->&#x200B;>如果您对可能的错误或技术问题有反馈，请向Workfront支持提交票证。 有关详细信息，请参阅[联系客户支持](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
->&#x200B;>请注意，以下云提供商未提供此测试版：
+>如果您对可能的错误或技术问题有反馈，请向Workfront支持提交票证。 有关详细信息，请参阅[联系客户支持](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
+>请注意，以下云提供商未提供此测试版：
 >
 >* 自带Amazon Web Services密钥
 >* Azure
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
 <col> 
@@ -38,9 +38,9 @@ ht-degree: 1%
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront包</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
-<p>任何 </p> 
+<p>“任一” </p> 
    </td> 
 <tr> 
  <tr> 

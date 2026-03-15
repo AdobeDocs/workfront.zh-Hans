@@ -1,11 +1,11 @@
 ---
 title: 2025年第一季度发布时间范围内的其他增强功能
 description: 2025年第一季度发布时间框架内的其他增强功能
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 本页介绍了在2025年第一季度发布中对“预览”环境所做的增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2025年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2025年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
+有关2025年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2025年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
 
 ## 更新如何管理链接文件夹中移动或删除的资源
 
@@ -24,9 +24,9 @@ ht-degree: 0%
 >
 >预览版本： 2024年11月21日；适用于所有客户的生产版本： 2024年12月5日
 
-在将Adobe Workfront与Experience Manager Assets和Assets Essentials集成使用时，我们更改了处理移动和删除资源的方式：
+当使用与Experience Manager Assets和Assets Essentials的Adobe Workfront集成时，我们更改了移动和删除资源的处理方式：
 
-* 已删除的资源：当在Assets或Assets Essentials中的链接文件夹内删除某个资源时，已删除的资源将保留在项目文档区域中。
+* 已删除资源：当在Assets或Assets Essentials中的链接文件夹内删除资源时，已删除的资源将保留在项目文档区域中。
 * 移动资源：当资源移到Assets或Assets Essentials中的链接文件夹之外时，移动的资源将保留在项目文档区域中。
 
 ## 自定义表单中的部分现在可折叠和展开

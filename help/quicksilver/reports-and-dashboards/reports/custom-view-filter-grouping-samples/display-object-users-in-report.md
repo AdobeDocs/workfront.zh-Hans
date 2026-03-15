@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 报告或列表：显示与对象关联的用户
 description: 您可以在报告或列表中显示与对象关联的用户、工作角色和团队，并在筛选器中引用它们。 您无法按用户、工作角色或与对象关联的团队进行分组。
-author: Lisa and Jenny
+author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: 9abdaafb-da2c-4b5d-9117-59afa4a1e71f
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 2%

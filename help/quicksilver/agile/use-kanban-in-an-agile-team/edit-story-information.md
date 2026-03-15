@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: 编辑故事信息
 description: 在Kanban展示板上查看故事拼贴时，某些信息可用于直接从故事拼贴内联编辑。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: a22a7b61-b331-4c98-9421-e7fccedcd096
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 7%
@@ -47,7 +47,7 @@ ht-degree: 7%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>每个故事和问题的[!UICONTROL 完成百分比]。<br>[!UICONTROL 迭代的完成百分比]是根据每个故事的[!UICONTROL 完成百分比]计算的。<br></p> <p>更新故事或问题的[!UICONTROL 完成百分比]时，您可以选择介于0和100之间的任意数字。</p> </td> 
+   <td> <p>每个故事和问题的[！UICONTROL完成百分比]。<br>[！UICONTROL迭代的完成百分比]是根据每个故事的[！UICONTROL完成百分比]计算的。<br></p> <p>更新故事或问题的[！UICONTROL完成百分比]时，您可以选择介于0和100之间的任意数字。</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -81,7 +81,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 包</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

@@ -1,10 +1,11 @@
 ---
 title: 2025年第三季度更新和通知增强功能
 description: 2025年第三季度项目增强功能
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: da73dc4e060e018e7a9254319bbaab6d333ce056
+exl-id: 26ed0bee-2fd4-480d-b55c-3c5a289d25b0
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 0%
@@ -30,5 +31,3 @@ ht-degree: 0%
 为了改进性能，我们在向评论添加人员时引入了一种改进的体验。 现在，在将用户或团队添加到评论后，“为人员或团队加标签”链接在“评论”框中持续存在。 在此更改之前，在开始向评论添加人员或团队后，已删除“标记人员或团队”链接。 此更改已引入所有Workfront对象，您可以在其中添加注释。
 
 有关详细信息，请参阅[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
-
-

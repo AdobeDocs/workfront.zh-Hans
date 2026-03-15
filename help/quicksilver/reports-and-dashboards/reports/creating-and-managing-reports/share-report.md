@@ -2,14 +2,14 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: 在Adobe Workfront中共享报表
-description: 在分配访问级别时，您的Adobe Workfront管理员会授予用户查看或编辑报告的访问权限。 有关授予对问题的访问权限的更多信息，请参阅授予对报告、功能板和日历的访问权限。
-author: Nolan
+description: 您的Adobe Workfront管理员会在用户分配访问级别时授予他们查看或编辑报表的权限。 有关授予问题访问权限的更多信息，请参阅授予对报表、功能板和日历的访问权限。
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: c8a25bcc8c9b56a649ca7764918c86f9cdd5b3e2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '826'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -17,33 +17,33 @@ ht-degree: 0%
 
 <!-- Audited: 11/2024 -->
 
-在分配访问级别时，您的Adobe Workfront管理员会授予用户查看或编辑报告的访问权限。 有关授予对问题的访问权限的详细信息，请参阅[授予对报告、功能板和日历的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)。
+您的Adobe Workfront管理员会在用户分配访问级别时授予他们查看或编辑报表的权限。 有关授予对问题的访问权限的详细信息，请参阅[授予对报告、功能板和日历的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)。
 
-除了授予用户的访问级别之外，您还可以授予他们查看或管理您有权共享的特定报告的权限。 有关访问级别和权限的详细信息，请参阅[访问级别和权限如何协同工作](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)。
+除了授予用户的访问级别之外，您还可以授予他们查看或管理您有权访问共享的特定报表的权限。 有关访问级别和权限的详细信息，请参阅[访问级别和权限如何协同工作](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)。
 
-权限特定于Workfront中的一个项目，并定义您可以对该项目执行的操作。
+权限特定于Workfront中的一个项目，并定义可以对该项目执行的操作。
 
 >[!NOTE]
 >
->Workfront管理员可以为系统中的任何项目为所有用户添加或删除权限，而无需成为这些项目的所有者。
+>Workfront管理员可以为所有用户添加或删除系统中任何项目的权限，而无需是这些项目的所有者。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
       <p>轻量</p>
-      <p>评论</p>
+      <p>审阅</p>
    </td>
   </tr> 
   <tr> 
@@ -63,20 +63,20 @@ ht-degree: 0%
 
 ## 有关共享报表的注意事项
 
-除了下面的注意事项外，另请参阅[共享报告、功能板和日历](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)。
+除了以下注意事项之外，另请参阅[共享报表、功能板和日历](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)。
 
-* 您可以与其他个人、团队、组、职位角色或公司共享您创建的报告。 您还可以共享他人创建并与您共享的报告。
-* 您可以与整个组织共享报告或将其公开。 将报表设为公共会生成一个可与他人共享的URL。
+* 您可以与其他个人、团队、群组、职务角色或公司共享您创建的报表。 您还可以共享其他人创建并与您共享的报告。
+* 您可以与整个组织共享报表，也可以将报表设为公用。 将报表设为公开会生成一个可与其他人共享的URL。
 * 您可以共享单个报告，也可以从报告列表中共享多个报告。
 
 ## 共享报表的方法
 
 您可以通过以下方式在Workfront中共享报表：
 
-* 手动，如以下[共享报表](#share-a-report)部分中所述。
-* 通过从包含已共享报告的功能板继承查看权限，自动完成此操作。 有关查看对象的继承权限的信息，请参阅[查看对象的继承权限](../../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)。
+* 手动，如下面[共享报表](#share-a-report)部分中所述。
+* 通过从包含已共享报表的功能板继承视图权限来自动创建。 有关查看对象的继承权限的信息，请参阅[查看对象的继承权限](../../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)。
 
-## 共享报告 {#share-a-report}
+## 共享报表 {#share-a-report}
 
 从列表中共享一个报告或多个报告是相同的。
 
@@ -102,17 +102,17 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">管理</td> 
-      <td> <p>允许收件人拥有对报告的完全编辑权限。</p> <p>您可以单击右侧的<strong>高级设置</strong>图标以指定您是否希望用户能够从系统<strong>删除</strong>报告并与系统中的任何人共享<strong>该报告</strong>。</p> </td> 
+      <td> <p>允许您的收件人完全编辑该报表。</p> <p>您可以单击右侧的<strong>高级设置</strong>图标，以指定是否希望用户或用户能够<strong>从系统</strong>删除报表<strong>与系统中的任何人共享</strong>该报表。</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. （可选）重复前面的两个步骤向列表中添加其他名称并配置其选项。
-1. （可选）单击共享框中的&#x200B;**只有受邀的人才能访问**&#x200B;下拉菜单，然后选择以下选项：
+1. （可选）重复前面的2个步骤，将其他名称添加到列表中并配置其选项。
+1. （可选）单击共享框中的&#x200B;**只有被邀请的人才能访问**&#x200B;下拉菜单，然后选择以下选项之一：
 
    * **只有受邀人员才能访问**：选择此选项可仅获得对报告的访问权限的用户才能查看它。
 
-   * **系统中的每个人都可以查看**：选择此选项以便Workfront中有权访问报告的所有人都可以查看报告。
+   * **系统中的每个人都可以查看**：选择此选项以使Workfront中有权访问报表的所有人都可以查看报表。
 
 1. （可选）单击共享框右上角的&#x200B;**齿轮**&#x200B;图标![齿轮图标设置](assets/gear-icon-settings-with-dn-arrow.jpg)，然后选择以下选项：
 

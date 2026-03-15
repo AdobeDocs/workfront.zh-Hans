@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: 在Scrum展示板上按颜色分类故事
 description: Scrum展示板故事的默认颜色关联因故事板位于开发周期还是项目上而异。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 8e351505-73d1-4c8f-b369-53c965b88c95
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 3%
@@ -33,13 +33,13 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>新文档： [!UICONTROL Standard]</p> 
+   <td> <p>新文档： [！UICONTROL Standard]</p> 
    或
-   <p>当前： [!UICONTROL Work]或更高版本</p> </td> 
+   <p>当前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr>
  </tbody> 
 </table>

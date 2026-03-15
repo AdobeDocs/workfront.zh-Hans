@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 筛选器：显示计划提交的报表
 description: 此报表过滤器显示所有计划在Adobe Workfront中自动交付的报表。 最好将其用于标准视图。
-author: Lisa and Jenny
+author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: 7b937384-80c9-4bc7-94be-5573cf86b35b
-source-git-commit: be102fd5f490b12837a231774253c030973c1c4f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 包</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

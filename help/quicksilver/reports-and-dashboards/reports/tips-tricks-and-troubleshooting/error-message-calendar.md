@@ -4,35 +4,35 @@ product-area: reporting;calendars
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: 日历上的错误消息：“此日历具有已停用用户的查看权限。”
 description: 了解“此日历具有查看已停用用户的权限”错误消息。
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: ba1e25f2-4960-47f7-ac7d-6f6b0f59cfe2
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
 # 日历上的错误消息：“此日历具有已停用用户的查看权限。”
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
      <p>标准</p>
-     <p>工作或更高</p>
+     <p>工作版或更高版本</p>
    </td> 
   </tr> 
   <tr> 

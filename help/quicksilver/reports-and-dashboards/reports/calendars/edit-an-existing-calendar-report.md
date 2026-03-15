@@ -3,13 +3,13 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: 编辑现有日历报告
 description: 您可以通过添加或删除项目链接来修改现有日历。 您还可以修改与日历报告关联的日历分组。
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 1%
 >
 >在一个日历报表中您最多只能包含15个分组。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,8 +32,8 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -70,7 +70,7 @@ ht-degree: 1%
       ![将项目添加到日历](assets/add-a-calendar-project.png)
 
 
-1. （可选）要添加日历分组或修改现有日历分组，请执行以下操作：
+1. (Optional) To add a calendar grouping or to modify an existing calendar grouping:
    1. 单击项目名称旁边的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**编辑**。
       ![在日历中编辑项目](assets/edit-project-in-calendar.png)
 

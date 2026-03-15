@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: use-kanban-in-an-agile-team
 title: 重新排序Kanban板上的故事
 description: 您可能想要更改Kanban展示板状态栏中故事的显示顺序。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 7d6142d2-4e6e-4f9f-81a8-bcc666757bad
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '253'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 0%
 
 当您对[!DNL Kanban]展示板上的列重新排序时，将保存您所做的任何更改，因此当您或其他用户下次查看[!UICONTROL Kanban]展示板时，更改将保留。 （清除浏览器缓存时，您所做的更改不会还原。）
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,13 +38,13 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> <p>标准</p> 
-   <p>工作或更高</p> </td> 
+   <p>工作版或更高版本</p> </td> 
   </tr>
  </tbody> 
 </table>

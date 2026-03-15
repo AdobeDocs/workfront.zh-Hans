@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 分组：针对Portfolio所有者、项目群所有者、项目所有者和项目状态的4层任务分组
 description: 此任务分组提供4个级别的分组。 在这种情况下，任务按Portfolio所有者、项目群所有者、项目所有者和项目状态进行分组。 使用标准界面时，您最多只能有3个级别的分组。 要添加第四级，必须使用文本模式。 您不能同时按4个以上的标准对报表进行分组。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: a1780a57-b94c-4d3a-b526-9bf45dba21f1
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '365'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 0%
 
 ![four_tier_grouping_for_tasks.png](assets/four-tier-grouping-for-tasks-350x239.png)
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 查看：前置任务详细信息
 description: 此任务视图使用收藏集视图显示任务的前置任务的详细信息。 在收藏集视图中，您可以显示有关处于“一对多”关系中的对象的信息。 在这种情况下，每个任务（一个）可以有多个前置任务（多个）。 该视图显示任务名称，以及其前置任务名称、前置任务项目名称、前置任务计划完成日期和前置任务状态。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 0187da94-4895-47b1-914f-284fed9e0fd0
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '297'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -24,17 +24,17 @@ ht-degree: 0%
 
 ![前置任务详细信息_task_view.png](assets/predecessor-details-task-view-350x34.png)
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

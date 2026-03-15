@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 报告：合并的任务和问题视图和分组
-description: 此工作项报告同时显示用户已接受在一个报告中处理的任务和问题。 最好与自定义分组结合使用。
-author: Nolan
+title: 报告：合并的任务和问题查看和分组
+description: 此工作项报告在一个报告中显示用户已接受处理的任务和问题。 最好与自定义分组相结合。
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6eaae772-229d-44ea-b285-cbaf9e46eade
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '403'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -18,61 +18,61 @@ ht-degree: 0%
 
 <!--Audited: 10/2024-->
 
-此工作项报告同时显示用户已接受在一个报告中处理的任务和问题。 最好与自定义分组结合使用。
+此工作项报告在一个报告中显示用户已接受处理的任务和问题。 最好与自定义分组相结合。
 
-此报表在视图中使用`sharecol=true`组合同一列标题下的多个字段。 有关`sharecol`标记的详细信息，请参阅[视图：合并一个共享列中多个列的信息](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md)。
+此报表在视图中使用`sharecol=true`将多个字段合并到同一列标题下。 有关`sharecol`标记的详细信息，请参阅[查看：合并一个共享列中多个列的信息](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md)。
 
 >[!TIP]
 >
->  工作项视图仅显示分配给他们的用户已接受的任务和问题。 此报告不显示尚未从“工作请求”或“团队请求”列表移动到用户工作列表的工作项。
+>  “工作项”视图仅显示分配给他们的用户已接受的任务和问题。 此报告不显示尚未从“工作请求”或“团队请求”列表移入用户的“正在处理”列表的工作项目。
 
 ![work_item_report.png](assets/work-item-report-350x46.png)
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
-   <p>修改过滤器的参与者或请求 </p>
-   <p>用于修改报告的标准或计划</p>
+   <p>投稿人或请求修改筛选器 </p>
+   <p>标准或计划修改报告</p>
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>编辑对报告、功能板和日历的访问权限以修改报告</p> <p>编辑对筛选器、视图和分组的访问权限以修改筛选器</p> </td> 
+   <td> <p>编辑报表、仪表板、日历的访问权限以修改报表</p> <p>编辑筛选器、视图、组的访问权限以修改筛选器</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理报表的权限</p>  </td> 
+   <td> <p>管理对报告的权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中的信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
-## 构建具有组合任务和问题视图和分组的报告
+## 使用合并的任务和问题生成报告查看和分组
 
-要使用此视图生成报表，请执行以下操作：
+要使用此视图构建报告，请执行以下操作：
 
-1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)或左上角的&#x200B;**主菜单**&#x200B;图标![主菜单行](assets/lines-main-menu.png)（如果可用），然后单击&#x200B;**报表**。
+1. 单击右上角的&#x200B;**“主菜单”**&#x200B;图标![“主菜单”图标](assets/main-menu-icon.png)或&#x200B;**“主菜单”**&#x200B;图标![“主菜单行”](assets/lines-main-menu.png)（如果可用），然后单击&#x200B;**“报告”**。
 
 1. 从下拉菜单中单击&#x200B;**新建报告** > **更多** > **工作项**。
 
-1. 在&#x200B;**列预览**&#x200B;区域，单击唯一显示的列的标题。 这是&#x200B;**外部引用**&#x200B;列。
+1. 在&#x200B;**列预览**&#x200B;区域中，单击仅显示列的标题。 这是&#x200B;**外部引用**&#x200B;列。
 1. 单击&#x200B;**切换到文本模式**。
 1. 将鼠标悬停在文本模式区域上，然后单击&#x200B;**编辑文本模式**。
-1. 移除在文本模式框中找到的文本，然后将其替换为以下代码：
+1. 删除“文本模式”框中找到的文本，并将其替换为以下代码：
 
    ```
    column.0.description=Task or Issue 
@@ -264,9 +264,9 @@ ht-degree: 0%
    ```
 
 1. 单击&#x200B;**完成**。
-1. （可选）单击&#x200B;**分组**&#x200B;以向报表中添加分组。
-1. （可选且有条件）如果要添加分组，请单击&#x200B;**切换到文本模式**。
-1. （可选）将分组文本模式区域中的文本替换为以下代码：
+1. （可选）单击&#x200B;**分组**&#x200B;将分组添加到报表。
+1. （可选和条件）如果要添加分组，请单击&#x200B;**切换到文本模式**。
+1. （可选）将分组文本模式区域内的文本替换为以下代码：
 
    ```
    group.0.name=
@@ -275,7 +275,7 @@ ht-degree: 0%
    textmode=true
    ```
 
-   此分组将所有任务和问题分组在一起。
+   该分组将所有任务分组，并将所有问题分组。
 
 1. 单击&#x200B;**保存+关闭**。
 1. （可选）更新报表的名称，然后单击&#x200B;**应用**。

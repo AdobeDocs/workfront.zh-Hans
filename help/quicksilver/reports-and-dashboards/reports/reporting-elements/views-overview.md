@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Adobe Workfront中的视图概述
 description: 通过管理列表或报表的视图，可以自定义在列表或报表中显示的信息类型。 可以在视图中显示对象及其属性。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 0%

@@ -3,13 +3,13 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: 打印功能板
 description: 可以将功能板打印或导出到。PDF文件。 要打印仪表板，您必须具有查看仪表板的权限。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 30f3481b-23b6-4dc9-be0d-9cffd5d4dfed
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -23,23 +23,23 @@ ht-degree: 0%
 >
 >此功能仅用于标准“仪表板”视图。 它不适用于嵌入到项目区域或设置为自定义选项卡的仪表板。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
       <p>标准</p>
-      <p>工作或更高</p>
+      <p>工作版或更高版本</p>
    </td> 
   </tr> 
   <tr> 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 ## 了解打印仪表板时打印的信息
 
-打印仪表板或将其另存为。PDF文件时，仪表板的某些信息(如Adobe Workfront Web应用程序中显示的内容)可能不会显示在打印或导出的文件中。
+打印仪表板或将其另存为。PDF文件时，仪表板的某些信息（如Adobe Workfront Web应用程序中显示的内容）可能不会显示在打印或导出的文件中。
 
 * [显示什么？](#what-is-displayed)
 * [哪些内容未显示？](#what-is-not-displayed)
@@ -78,7 +78,7 @@ ht-degree: 0%
 * 报告标题
 * 上次生成报告的时间戳
 * 仪表板上的所有对象，包括列表视图、外部网页、报告和日历
-* 贵公司的徽标(如果Workfront管理员已在全局导航栏中对其进行自定义)。 有关将Workfront网站品牌化的详细信息，请参阅[将Adobe Workfront实例品牌化](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)。
+* 贵公司的徽标（如果Workfront管理员已在全局导航栏中对其进行自定义）。 有关将Workfront网站品牌化的详细信息，请参阅[将Adobe Workfront实例品牌化](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)。
 
 ### 哪些内容未显示？ {#what-is-not-displayed}
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 
    * 单击&#x200B;**仪表板操作** > **打印预览**
 
-   * 按&#x200B;**Ctrl+P**（在Windows上）或&#x200B;**Command+P**(在Mac上)
+   * 按&#x200B;**Ctrl+P**（在Windows上）或&#x200B;**Command+P**（在Mac上）
 
      >[!IMPORTANT]
      >

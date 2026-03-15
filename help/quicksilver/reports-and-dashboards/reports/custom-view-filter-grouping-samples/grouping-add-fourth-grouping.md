@@ -2,60 +2,60 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 分组：向列表添加第四个分组
-description: 在一个矩阵报表中可以有4个分组。 有关矩阵报表的更多信息，请参阅创建矩阵报表。
-author: Nolan
+title: 分组：向列表中添加第四个分组
+description: 矩阵报表中可包含4个分组。 有关矩阵报表的更多信息，请参阅创建矩阵报表。
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 1147a47b-c6e2-496e-b202-eefeb500054e
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# 分组：向列表添加第四个分组
+# 分组：向列表中添加第四个分组
 
 <!--Audited: 10/2024-->
 
-在一个矩阵报表中可以有4个分组。 有关矩阵报表的详细信息，请参阅[创建矩阵报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)。
+矩阵报表中可包含4个分组。 有关矩阵报表的详细信息，请参阅[创建矩阵报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)。
 
-通过标准界面，标准报表中只能包含3个分组。 要在标准报表中添加第4分组，必须使用文本模式。
+通过标准界面，标准报表中只能有3个分组。 要在标准报表中添加第4个分组，必须使用文本模式。
 
 ![Four_groupings_in_a_standard_report.png](assets/four-tier-grouping-for-tasks-350x239.png)
 
-例如，您可能有一个任务报告，该报告按项目名称、进度状态和计划完成日期分组，但您也想按任务负责人名称对报告分组。
+例如，您可能有一个按项目名称、进展状态和计划完成日期分组的任务报表，但您还需要按分配至名称对报表分组。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
-   <p>修改过滤器的参与者或请求 </p>
-   <p>用于修改报告的标准或计划</p>
+   <p>用于修改过滤器的参与者或请求 </p>
+   <p>用于修改报表的标准或计划</p>
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>编辑对报告、功能板和日历的访问权限以修改报告</p> <p>编辑对筛选器、视图和分组的访问权限以修改筛选器</p> </td> 
+   <td> <p>编辑对报表、功能板、日历的访问权限以修改报表</p> <p>编辑对筛选器、视图、分组的访问权限以修改筛选器</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理报表的权限</p>  </td> 
+   <td> <p>管理对报告的权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的详细信息，请参阅[Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 要添加第四个分组，请执行以下操作：
 
 1. 单击&#x200B;**切换到文本模式**。
-1. 删除&#x200B;**对您的报告分组**&#x200B;区域中的文本。
+1. 删除&#x200B;**分组报表**&#x200B;区域中的文本。
 1. 将显示的框中的文本替换为以下代码：
 
    ```

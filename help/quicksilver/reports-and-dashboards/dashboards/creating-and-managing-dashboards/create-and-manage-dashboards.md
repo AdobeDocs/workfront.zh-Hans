@@ -4,14 +4,14 @@ product-area: dashboards
 navigation-topic: dashboards-navigation-topic
 title: 创建和管理报告面板
 description: 阅读这些文章，了解如何在Adobe Workfront中创建功能板。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: a7f29a8e-1aa8-4c6c-adeb-e6177291999a
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '78'
-ht-degree: 10%
+ht-degree: 14%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 10%
 
 本节包含以下文章：
 
-* [创建仪表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)
+* [创建功能板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)
 * [向仪表板添加报告](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
 * [复制仪表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/copy-dashboard.md)
 * [编辑仪表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md)

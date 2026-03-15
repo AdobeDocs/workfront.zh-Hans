@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: 将积压添加到Kanban板
 description: 您可以直接在Kanban展示板上显示[!UICONTROL 积压]列。 [!UICONTROL 展示板上的]积压 [!DNL Kanban] 列包含 [!DNL Kanban] 展示板上的积压中的前20个项目。 任务和问题必须属于某个项目，其状态相当于当前才能显示在积压中。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 77c7f7c7-66d9-4aec-9a0c-bfdc470a58d7
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 8%
@@ -29,7 +29,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 包</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

@@ -4,13 +4,13 @@ product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 视图：已分配用户的公司和主组
 description: 此任务视图显示任务的主要所有者的公司和主组。 这些值在标准界面中不可用，但可通过文本模式访问。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 818c1f3a-4e82-4dc3-af86-4f9dcf5c11a4
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 0%
 
 ![查看已分配用户的公司和主组](assets/view--assigned-user-s-company-and-home-group-350x80.png)
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

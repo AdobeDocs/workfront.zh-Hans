@@ -3,13 +3,13 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: 在Scrum展示板上更新故事和子任务的状态
 description: 您可以直接从“敏捷”故事板更改故事的状态，以反映故事在迭代或项目中的进展情况。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 3f414901-883c-45ac-b30a-60841e883e35
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -31,13 +31,13 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>新文档： [!UICONTROL Standard]</p> 
+   <td> <p>新文档： [！UICONTROL Standard]</p> 
    或
-   <p>当前： [!UICONTROL Work]或更高版本</p> </td> 
+   <p>当前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr>
  </tbody> 
 </table>

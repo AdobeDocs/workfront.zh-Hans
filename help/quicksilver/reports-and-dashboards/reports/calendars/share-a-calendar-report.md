@@ -3,13 +3,13 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: 共享日历报告
 description: 您可以与其他用户共享日历，也可以公开显示该日历，从而允许没有 [!DNL Adobe Workfront] 许可证的用户查看该日历。
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '590'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 您可以与其他用户共享日历，也可以公开显示该日历，从而允许没有[!DNL Adobe Workfront]许可证的用户查看该日历。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,13 +29,13 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td><p>轻量</p>
-       <p>评论</p></td> 
+       <p>审阅</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -96,9 +96,9 @@ ht-degree: 1%
 
 1. 转到要共享的日历。
 1. 单击&#x200B;**[!UICONTROL 日历操作]**，然后单击&#x200B;**[!UICONTROL 共享]**。
-1. 单击日历名称旁边的&#x200B;**更多**&#x200B;菜单。
+1. 单击日历名称旁边的&#x200B;**更多**菜单。
    ![日历更多菜单](assets/more-menu-calendar.png)
-单击&#x200B;**复制公共链接**。
+单击**复制公共链接**。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 ## 使用专用链接共享日历

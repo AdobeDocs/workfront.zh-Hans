@@ -4,13 +4,13 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: 将引入列添加到展示板
 description: 您可以选择向展示板添加引入列，以根据您定义的过滤器在Workfront中添加任务和问题时，自动将任务和问题提取为已连接的卡片。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1033'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -48,17 +48,17 @@ ht-degree: 3%
 
 有关列的详细信息，请参阅[管理展示板列](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)。 有关连接的卡的信息，请参阅[在展示板上使用连接的卡](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

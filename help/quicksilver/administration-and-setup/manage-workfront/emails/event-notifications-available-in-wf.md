@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: 事件通知类型
 description: 事件通知是由对象（如项目、任务和问题）上的各种类型事件触发的电子邮件。 本文列出并描述了可用的事件通知类型。
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: f3016e77f086d221dc11398ec06cc7435ad82278
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '5237'
 ht-degree: 7%
@@ -153,14 +153,14 @@ ht-degree: 7%
    <td> <p>非活动</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>任务分配</p> </td> 
+   <td> <p>任务</p> </td> 
    <td> <p>工作项请求</p> </td> 
    <td> <p>项目所针对的团队成员</p> </td> 
    <td> <p>我的团队获得了新的工作请求。</p> <p>当团队收到新的工作请求时，团队成员会收到电子邮件通知。 （如果提交请求的用户是团队成员，则不会收到通知。）</p> <p>仅当发出工作请求时的项目状态为“当前”且工作请求状态为“新建”时，才会发送通知。</p> <p>拥有“Light”或“Review”许可证的用户不会收到通知。</p> </td> 
    <td> <p>活动</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>任务分配</p> </td> 
+   <td> <p>任务</p> </td> 
    <td> <p>工作项请求</p> </td> 
    <td> <p>请求工作项的用户</p> </td> 
    <td> <p>我收到新的工作请求。</p> <p>工作项的被分派人会收到电子邮件通知，除非提出请求的用户也是被分派人。 </p> <p>如果任务状态为“完成”或问题状态为“已关闭”，则不会发送通知。</p> <p>仅当请求时的项目状态为“当前”时，才会发送通知。</p> <p>拥有“Light”或“Review”许可证的用户不会收到通知。</p> </td> 

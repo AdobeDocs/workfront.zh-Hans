@@ -4,10 +4,10 @@ product-area: reports and dashboards
 navigation-topic: data connect
 title: Data Connect查询示例
 description: 您可以使用示例查询来熟悉特定类型查询的语法和结构。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f2da081c-bdce-4012-9797-75be317079ef
-source-git-commit: c8a25bcc8c9b56a649ca7764918c86f9cdd5b3e2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 0%
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 ## 自定义数据查询
 
-此示例演示如何在Workfront中构建查询以返回自定义数据，如自定义表单和自定义字段。
+此示例演示如何编写查询以返回Workfront中的自定义数据，如自定义表单和自定义字段。
 
-### 方案
+### 场景
 
-您的组织使用名为Finance Integration的自定义表单。 该表单附加到每个项目，并包含以下字段：
+贵组织利用名为Finance Integration的自定义表单。 该表单会附加到每个项目，并包含以下字段：
 
 * **业务单元**：包含字符串的自定义字段。
 * **ProjectID**：包含数字字符串的自定义字段。
@@ -55,11 +55,11 @@ WHERE ExpandedProjectName is not null
 * `name`：本机Workfront项目名称。
 * `Business Unit`： `parametervalues`对象中包含的自定义数据值。
 * `Project ID`： `parametervalues`对象中包含的自定义数据值。
-* `Expanded Project Name`： `parametervalues`对象中包含的自定义数据值。
+* `Expanded Project Name`: `parametervalues`对象中包含的自定义数据值。
 
 ### 解释
 
-查询`parametervalues` JSON对象时，可以使用以下内容将每个自定义数据字段作为列进行访问：
+查询`parametervalues` JSON对象时，可以使用以下方式作为列访问每个自定义数据字段：
 
 `<field_name>:"<parameter_name>"::<data_type> as <column_name>`
 
@@ -68,11 +68,11 @@ WHERE ExpandedProjectName is not null
 
 >[!NOTE]
 >
->如果在Workfront表单配置工具中更改了参数的名称，则该名称将在JSON对象中表示为新列。 因此，我们建议在表单配置工具中创建列后不要更改其名称。 但是，标签可以更改，而不会影响JSON对象。
+>如果在Workfront表单配置工具中更改了参数的名称，则该名称将在JSON对象中显示为新列。 因此，建议在表单配置工具中创建列后，不要更改该列的名称。 但是，可以在不影响JSON对象的情况下更改标签。
 >
->如果参数名称的文本字符串不正确，则该列将返回NULL值，而不是错误。
+>如果参数名称的文本字符串不正确，列将返回NULL值，而不是错误。
 
-* `<data_type>`将从JSON对象返回的值转换为适用于该字段的数据类型。 为返回的值选择不兼容的数据类型将导致数据类型不匹配错误。 可能的数据类型包括：
+* `<data_type>`会将从JSON对象返回的值转换为适用于该字段的数据类型。 为返回的值选择不兼容的数据类型将导致数据类型不匹配错误。 可能的数据类型包括：
 
    * `text`
    * `varchar`
@@ -92,7 +92,7 @@ WHERE ExpandedProjectName is not null
 
 此示例演示了如何测量项目在以前分配的状态下所花费的时间。 它可以很容易地适于测量处于状态的任务或发放时间，或者它可以适于测量对象应用了任何其他属性（包括自定义数据值）的时间长度。
 
-### 方案
+### 场景
 
 您的组织领导层认为您在工作生命周期的每个阶段都花费了太多的时间。 在提出改进过程的建议之前，您需要创建一个基线测量，用于测量项目状态随时间变化的频率以及项目处于任何给定状态的天数。
 
@@ -100,7 +100,7 @@ WHERE ExpandedProjectName is not null
 
 利用每个项目在每个状态中所花费时间的原始输出，您可以开始构建可视化图表或进一步聚合数据以构建按状态、项目类型或时间划分的状态持续时间平均值。 然后，此基线用于设置一个基准，您可以根据此基准进行衡量，以满足领导层的期望。
 
-以下查询使用Data Connect PROJECTS_EVENTS数据视图来比较每个项目状态更改事件并显示状态中的时间。
+以下查询使用Data Connect PROJECTS_EVENTS数据视图比较每个项目状态更改事件并显示处于状态的时间。
 
 ### 查询
 
@@ -152,7 +152,7 @@ FROM
 上述查询返回以下数据：
 
 * `PROJECTID`：与状态更改事件关联的Workfront项目ID。
-* `PROJECT_NAME`： Workfront项目名称。
+* `PROJECT_NAME`:Workfront项目名称。
 * `PREVIOUS_STATUS`：项目状态紧跟更改前。
 * `STATUS`：更改后的项目状态。
 * `STATUS_BEGIN_EFFECTIVE_TIMESTAMP`：更改事件时间戳，在此时间戳之前已设置状态。
@@ -170,22 +170,22 @@ FROM
 
 2. 仅筛选已更改的记录： 
 
-   * 从步骤1中的计算中选择记录，其中前一个状态！=当前状态。 
+   * 从步骤1中的计算中选择以前状态的记录！=当前状态。 
 
 3. 以天为单位计算开始/结束有效时间戳和持续时间： 
 
    * `<status_begin_effective_timestamp>`：在步骤2中计算。 
 
    * `<status_end_effective_timestamp>`：根据下一个(lead())进行计算。 `<status_begin_effective_timestamp>`：仅在`<status_begin_effective_timestamp>`不为NULL时显示状态。 
-   * `<status_duration_days>`： `<status_begin_effective_timestamp>`和`<status_end_effective_timestamp>`之间的数据差异。 
+   * `<status_duration_days>`: `<status_begin_effective_timestamp>`和`<status_end_effective_timestamp>`之间的数据差异。 
 
 >[!NOTE]
 >
->建议您将此查询用作其自身在PowerBI或Tableau中的“视图”。  如果要从`<object>_event view`引入其他字段，请将此查询的输出连接回`<object>_event view`。  连接字段应为： <br>
->&#x200B;>对于projects_event： 
->&#x200B;>`From projects_event p`
->&#x200B;>`Join <above query> c on c.projectid = p.projectid  `
->&#x200B;>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
+>建议您将此查询用作PowerBI或Tableau中自己的“视图”。  如果要从`<object>_event view`中引入其他字段，请将此查询的输出重新连接至`<object>_event view`。  联接字段应为以下字段： <br>
+>对于projects_event: 
+>`From projects_event p`
+>`Join <above query> c on c.projectid = p.projectid  `
+>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
 
 
 

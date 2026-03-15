@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 管理展示板上的子任务
 description: 利用信息卡上的子任务，您可以在任务之间建立父子关系，并创建工作的层次结构。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 166a84d3-18ea-4a58-b0e8-f09df2a63caa
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -19,17 +19,17 @@ ht-degree: 0%
 
 子任务仅在已连接的信息卡上可用，在问题中不可用。 有关连接的卡的信息，请参阅[在展示板上使用连接的卡](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

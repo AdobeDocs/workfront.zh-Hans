@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: 使用EXISTS语句创建复杂的文本模式筛选器
 description: 您可以使用EXISTS语句创建复杂的文本模式过滤器。 本文需要彻底了解Adobe Workfront API和文本模式报表界面。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '2668'
 ht-degree: 0%
@@ -88,17 +88,17 @@ ht-degree: 0%
 
 * EXISTS语句唯一支持的修饰符是NOTEXISTS。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

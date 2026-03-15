@@ -4,13 +4,13 @@ product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 视图：在任务列表中显示任务缩进
 description: 在此任务视图中，您可以将代码添加到“任务名称”列以显示根据项目的工作分解结构缩进的任务。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f7f43e1e-db32-48b8-9a23-ff9fa6195386
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '241'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 0%
 
 ![查看任务缩进](assets/view-text-mode-indentation-task-list-350x171.png)
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

@@ -2,25 +2,25 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 按多选自定义字段对报表分组
-description: 您只能使用文本模式，在Adobe Workfront报表的多选自定义字段中按值分组。
-author: Nolan
+title: 按多选自定义字段对报告进行分组
+description: 您只能使用文本模式按Adobe Workfront报告中多选自定义字段中的值进行分组。
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '504'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# 按多选自定义字段对报表分组
+# 按多选自定义字段对报告进行分组
 
 <!--Audited: 10/2024-->
 
-您只能使用文本模式，在Adobe Workfront报表的多选自定义字段中按值分组。
+您只能使用文本模式按Adobe Workfront报告中多选自定义字段中的值进行分组。
 
-多选自定义字段的示例包括：
+多选自定义字段的示例如下：
 
 * 复选框
 * 多选下拉菜单
@@ -29,75 +29,75 @@ ht-degree: 0%
 
 ## 按多选自定义字段分组时的注意事项
 
-* 不能绘制使用文本模式分组的报表图表。 您需要创建一个参考多选自定义字段的附加计算字段，以便按照多选自定义字段的值绘制报表的图表。
+* 不能将使用文本模式分组的报表制成图表。 您需要创建引用多选自定义字段的附加计算字段，以便按照多选自定义字段的值来绘制报表的图表。
 
   有关详细信息，请参阅[按多选自定义字段绘制报表图表](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md)。
-* 具有任何选定选项的项目仅被计数一次。
+* 仅对具有任何选定项的项目计数一次。
 
-  例如，如果您有一个复选框自定义字段，其中选项1和选项2为选项，并且您将表单附加到任务，则同时选择了选项1和选项2的任务与仅选择了选项1或选项2的任务分开分组。
+  例如，如果复选框自定义字段的选项为选择1和选择2，并将表单附加到任务，则同时选择了选择1和选择2的任务将与仅选择了选择1或选择2的任务分开分组。
 
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
-   <p>修改过滤器的参与者或请求 </p>
-   <p>用于修改报告的标准或计划</p>
+   <p>投稿人或请求修改筛选器 </p>
+   <p>标准或计划修改报告</p>
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>编辑对报告、功能板和日历的访问权限以修改报告</p> <p>编辑对筛选器、视图和分组的访问权限以修改筛选器</p> </td> 
+   <td> <p>编辑报表、仪表板、日历的访问权限以修改报表</p> <p>编辑筛选器、视图、组的访问权限以修改筛选器</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理报表的权限</p>  </td> 
+   <td> <p>管理对报告的权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中的信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
-## 按多选自定义字段对报表进行分组
+## 按多选自定义字段对报告进行分组
 
-要按多选自定义字段进行分组，您必须满足以下先决条件：
+要按多选自定义字段进行分组，必须满足以下先决条件：
 
 * 在自定义表单中构建多选自定义字段。\
-  有关生成自定义表单和向其中添加自定义字段的信息，请参阅文章[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+  有关生成自定义表单和向表单添加自定义字段的信息，请参阅文章[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 * 将自定义表单附加到对象。
-* 在每个对象上使用值填充多选自定义字段。
+* 使用每个对象上的值填充多选自定义字段。
 
-要在报表中按多选自定义字段分组，请执行以下操作：
+要按报告中的多选自定义字段分组，请执行以下操作：
 
-1. 创建一个报表或编辑一个现有的报表，您要在该报表中为多选自定义字段添加分组。\
+1. 创建一个报告，或者编辑一个您想在其中为多选自定义字段添加分组的现有报告。\
    有关创建报告的信息，请参阅文章[创建自定义报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 1. 单击&#x200B;**报告操作**，然后单击&#x200B;**编辑**。
-1. 选择&#x200B;**分组**&#x200B;选项卡。
+1. 选择“**分组**”选项卡。
 1. 单击&#x200B;**切换到文本模式**。
 
-1. 选择&#x200B;**分组依据**&#x200B;框中的文本并将其替换为以下代码：
+1. 选择&#x200B;**“分组依据”**&#x200B;框中的文本，并将其替换为以下代码：
 
    <pre>
    group.0.displayname=多选自定义字段名称
-   group.0.valueexpression={DE：多选自定义字段名称}
+   group.0.valueexpression={DE：Multi-select Custom Field Name}
    group.0.valueformat=HTML
    group.0.textmode=true
    </pre>
 
-1. 将“多选自定义字段名称”替换为您多选自定义字段的实际名称，如您的Workfront实例中所示。
+1. 将“多选自定义字段名称”替换为您在Workfront实例中显示的多选自定义字段的实际名称。
 1. 单击&#x200B;**保存并关闭**。
 
    报告中的对象按多选自定义字段的值分组。

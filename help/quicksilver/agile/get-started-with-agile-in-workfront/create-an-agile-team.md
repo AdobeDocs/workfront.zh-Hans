@@ -1,25 +1,25 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-agile-in-workfront
-title: 创建Agile团队
-description: Adobe Workfront使Agile团队能够以递增、有条理的方式完成工作。
-author: Jenny
+title: 创建灵活的团队
+description: Adobe Workfront使Agile团队能够以增量、有条不紊的方式完成工作。
+author: Courtney
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 2%
 
 ---
 
-# 创建Agile团队
+# 创建敏捷团队
 
 <!--Audited: 01/2024-->
 
-[!DNL Adobe Workfront]允许Agile团队以递增、有条理的方式完成工作。
+[!DNL Adobe Workfront]使Agile团队能够以增量、有条不紊的方式完成工作。
 
-组织中的任何用户都可以看到Agile团队并查看该团队的所有Agile组件，包括积压、迭代、故事板和单个故事。 但是，只有对工作具有[!UICONTROL 编辑]权限的团队成员才能更改分配给团队的工作。
+组织中的任何用户都可以查看Agile团队和团队的所有Agile组件，包括积压、迭代、故事板和单个故事。 但是，只有对工作具有[!UICONTROL 编辑]权限的团队成员才能更改分配给团队的工作。
 
 [!DNL Workfront]支持以下Agile方法：
 
@@ -39,12 +39,12 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 包</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> <p>标准</p>
-   <p>计划创建新的Agile团队</p>
+   <p>创建新Agile团队的计划</p>
   <p>将团队转化为Agile团队的工作方式或更高</p> </td> 
   </tr> 
  </tbody> 
@@ -58,13 +58,13 @@ ht-degree: 2%
 
 您可以为敏捷团队使用Scrum或Kanban敏捷方法。 每种方法都提供了多种好处。 Agile团队的工作方式决定了您选择使用的Agile方法。
 
-[!DNL Workfront]中的Scrum和Kanban Agile方法都允许您在故事板中移动故事以指示状态更改和故事的进度。
+[!DNL Workfront]中的Scrum和Kanban Agile方法都允许您在文章栏中移动文章，以指示文章的状态变化和进度。
 
 [!DNL Workfront]中的Scrum和Kanban Agile方法在以下方面有所不同：
 
-### 在[!DNL Workfront]中使用Kanban的好处
+### 在[!DNL Workfront]中使用看板的好处
 
-[!DNL Kanban]中的[!DNL Workfront] Agile方法使您能够更轻松地在Agile故事板中移动故事，同时限制正在进行的工作量。 使用[!DNL Kanban] Agile方法时没有开始和结束日期。
+[!DNL Kanban]中的[!DNL Workfront] Agile方法使您能够更轻松地在Agile故事板中移动故事，同时限制正在进行的工作量。 使用[!DNL Kanban] Agile方法时没有开始日期和结束日期。
 
 以下功能支持此方法：
 
@@ -79,13 +79,13 @@ ht-degree: 2%
 
 ### 在[!DNL Workfront]中使用Scrum的好处
 
-[!DNL Workfront]中的Scrum Agile方法允许您向敏捷迭代添加一组故事并为该迭代创建故事板。 迭代基于您定义的开始和结束日期。
+[!DNL Workfront]中的Scrum Agile方法允许您向敏捷迭代添加一组故事并为该迭代创建故事板。 迭代基于您定义的开始日期和结束日期。
 
 以下功能支持此方法：
 
 * 包含[!UICONTROL Scrum]故事板上的问题
-* 包括Agile团队积压的问题
-* 子任务可以显示在[!UICONTROL Scrum]故事板上
+* 包括有关Agile团队积压工作的问题
+* 子任务可以在[!UICONTROL Scrum]文章讨论区上显示
 * 查看燃尽图以查看迭代期间历程的进度
 有关详细信息，请参阅[敏捷燃尽图概述](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)。
 
@@ -106,32 +106,32 @@ ht-degree: 2%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 团队名称]</strong> </td> 
+      <td role="rowheader"><strong>[！UICONTROL团队名称]</strong> </td> 
       <td>键入新Agile团队的名称。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 这是Agile团队]</strong> </td> 
-      <td>选择此选项可将此新团队配置为Agile团队。</td> 
+      <td role="rowheader"><strong>[！UICONTROL这是一个Agile团队]</strong> </td> 
+      <td>选择此选项将此新团队配置为Agile团队。</td> 
      </tr>
 
    <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 处于活动状态]</strong> </td> 
+      <td role="rowheader"><strong>[！UICONTROL处于活动状态]</strong> </td> 
       <td>选择此选项以激活此团队。 其他用户对非活动的团队不可见以分配给工作。 </td> 
      </tr>
 
 
    <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-      <td role="rowheader"><strong>[!UICONTROL 组]</strong> </td> 
-      <td> <p>开始键入要添加到团队中的组的名称，然后在该名称出现在下拉列表中时选择该名称。</p> <p><b>注释</b></p> <p> 将团队分配给组或子组后，该组或子组的任何组管理员都可以管理团队，而无需成为团队成员。 组管理员可以从[!UICONTROL 主菜单]转到[!UICONTROL 团队]区域，然后单击[!UICONTROL 切换团队]箭头<img src="assets/switch-team-icon.png" alt="“切换团队”图标">列出分配给其管理的组的所有团队。</p> </td> 
+      <td role="rowheader"><strong>[！UICONTROL组]</strong> </td> 
+      <td> <p>开始键入要添加到团队的组的名称，然后在下拉列表中显示该名称时选择该名称。</p> <p><b>注释</b></p> <p> 将团队分配给某个组或子组后，该组或子组的任何组管理员都可以在不是该团队成员的情况下管理该团队。 组管理员可以从[！UICONTROL主菜单]转到[！UICONTROL团队]区域，然后单击[！UICONTROL切换团队]箭头<img src="assets/switch-team-icon.png" alt="“切换组”图标">列出分配给其管理的组的所有团队。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 团队成员]</strong> </td> 
+      <td role="rowheader"><strong>[！UICONTROL团队成员]</strong> </td> 
       <td>开始键入要加入团队的用户的名称，然后在名称出现在下拉列表中时选择该名称。<br>重复此过程以将多个用户添加到团队。<br>由于用户可隶属于多个团队，因此他们可同时隶属于敏捷团队和非敏捷团队。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 描述]</strong> </td> 
-      <td><p>键入团队描述。</p> <p>选择团队时，描述显示在[!UICONTROL 团队]区域的右上角。</p>
-      <p>如果描述较长，则可以单击该描述以在弹出窗口中显示完整描述。 如果您有权编辑[!UICONTROL 团队设置]，则还可以直接在弹出窗口中编辑描述。</p></td>
+      <td role="rowheader"><strong>[！UICONTROL描述]</strong> </td> 
+      <td><p>键入团队的说明。</p> <p>选择团队后，说明将显示在[！UICONTROL团队]区域的右上方。</p>
+      <p>如果说明很长，可以单击它以在弹出窗口中显示完整说明。 如果您有权编辑[！UICONTROL团队设置]，则还可以在弹出窗口中直接编辑说明。</p></td>
      </tr> 
     </tbody> 
    </table>
@@ -154,12 +154,12 @@ ht-degree: 2%
 1. 选择要转换为Agile团队的团队。
 1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 编辑]**。
 
-   只有具有[!UICONTROL Standard]、[!UICONTROL 计划]或[!UICONTROL 工作]许可证的团队成员才能看到此选项。
+   只有具有[!UICONTROL 标准]、[!UICONTROL 计划]或[!UICONTROL 工作]许可证的团队成员才能看到此选项。
    ![选择编辑](assets/edit-team-settings.png)
 
-1. 在&#x200B;**[!UICONTROL Agile]**&#x200B;部分中，选择&#x200B;**[!UICONTROL 这是Agile团队]**。
+1. 在&#x200B;**[!UICONTROL Agile]**&#x200B;部分，选择&#x200B;**[!UICONTROL 这是一个Agile团队]**。
 
-1. 在&#x200B;**[!UICONTROL 方法]**&#x200B;部分中，选择团队将使用&#x200B;**[!UICONTROL Scrum]**&#x200B;还是&#x200B;**[!UICONTROL Kanban]** Agile方法。
+1. 在&#x200B;**[!UICONTROL 方法]**&#x200B;部分中，选择团队将使用&#x200B;**[!UICONTROL Scrum]**&#x200B;还是&#x200B;**[!UICONTROL 看板]** Agile方法。
 
 1. 单击&#x200B;**保存更改**。
 

@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 筛选器：个人任务
 description: 此任务过滤器返回发送给用户的临时工作请求，或者返回用户在其“主页”区域添加的待办事项。 个人任务未连接到项目，但如果需要，可将其移动到项目。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 204cfae1-7c57-4223-9e00-ac94e1e2ba3a
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '291'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -26,17 +26,17 @@ ht-degree: 0%
 
 ![个人任务报告](assets/personal-tasks-report.png)
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

@@ -3,11 +3,11 @@ content-type: reference
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: 计算数据表达式概述
-description: 您可以使用数据表达式在Adobe Workfront中定义计算的自定义数据字段。 计算表达式将生成新字段的语句中的现有Workfront字段连接在一起。
-author: Jenny, Lisa
+description: 您可以使用数据表达式在Adobe Workfront中定义计算的自定义数据字段。 计算表达式连接生成新字段的语句中的现有Workfront字段。
+author: Courtney, Lisa
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '2551'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 <!--Audited: 12/2023-->
 
-您可以使用数据表达式在Adobe Workfront中定义计算的自定义字段。 计算表达式将生成新字段的语句中的现有Workfront字段连接在一起。
+您可以使用数据表达式在Adobe Workfront中定义计算的自定义字段。 计算表达式连接生成新字段的语句中的现有Workfront字段。
 
 您可以在以下位置使用计算数据表达式：
 
@@ -45,7 +45,7 @@ ht-degree: 2%
    <td><strong>计算的自定义报表元素</strong></td> 
   </tr> 
    <td>用大括号括住字段名称</td> 
-   <td>在中使用字段名称时，请勿将其括在方括号或圆括号中 <p><code>valuefield </code></p>行。 <p>在中使用字段名称时，用大括号括住字段名称 <p><code>valueexpression</code></p> 行。</p> </td> 
+   <td>在中使用字段名称时，不要将字段名称括在括号或括号中 <p><code>valuefield </code></p>行。 <p>在中使用字段名称时，请使用大括号将其括起来 <p><code>valueexpression</code></p> 行。</p> </td> 
   </tr> 
   <tr> 
    <td>按句点分隔字段</td> 
@@ -56,7 +56,7 @@ ht-degree: 2%
 
 例如：
 
-* 在自定义字段中，在任务的自定义表单上，使用以下内容生成附加自定义表单的任务的父级项目的名称：
+* 在任务的自定义表单上的自定义字段中，您可以使用以下内容生成附加了自定义表单的任务的父级项目的名称：
 
 
   `{project}.{name}`
@@ -81,9 +81,9 @@ ht-degree: 2%
 
 ## 您可以使用的数据表达式
 
-以下列表定义了在Workfront中构建3种不同类型的计算自定义字段之一时可以使用的可用表达式：
+以下列表定义了在在Workfront中构建3种不同类型的计算自定义字段之一时可以使用的可用表达式：
 
-* [已计算的日期和时间自定义字段](#date-time-calculated-custom-fields)
+* [日期和时间计算的自定义字段](#date-time-calculated-custom-fields)
 * [数学计算的自定义字段](#mathematical-calculated-custom-fields)
 * [文本计算的自定义字段](#text-calculated-custom-fields)
 
@@ -93,9 +93,9 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->如果创建的日期和时间计算不包括时间部分，或者使用日期通配符$$TODAY或$$NOW，则系统将根据协调世界时(UTC)区域使用日期，而不是根据您的本地时区。 这可能会导致意外的日期结果。
+>如果您创建的日期和时间计算不包括时间部分，或者使用的日期通配符$$TODAY或$$NOW，则系统根据协调世界时(UTC)区域使用日期，而不根据您的本地时区。 这可能会导致意外的日期结果。
 
-您可以使用以下表达式创建日期或时间计算自定义字段：
+您可以使用以下表达式创建日期或时间计算的自定义字段：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -146,13 +146,13 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td><strong>日期</strong> </td> 
-   <td> <p>将字符串转换为日期，格式如下：</p>
+   <td> <p>将字符串转换为日期，其格式如下：</p>
 
 <p><code>DATE(string)</code></p> </td> 
   </tr> 
   <tr> 
    <td><strong>DATEDIFF</strong> </td> 
-   <td> <p>返回两个日期之间的天数，并会考虑所选时段的开始和结束日期以及这些日期的时间戳。 例如，如果开始日期的开始时间为下午3点，则开始日期不会计为全天。</p> <p>表达式的格式如下所示：</p>
+   <td> <p>返回两个日期之间的天数差，其中会考虑所选时段的开始和结束天数以及这些天上的时间戳。 例如，如果开始日期的开始时间为3 PM，则开始日期不会计为整天。</p> <p>表达式的格式如下：</p>
 
 <p><code>DATEDIFF(date1, date2)</code></p> </td> 
   </tr> 
@@ -164,7 +164,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td><strong>DAYOFWEEK</strong> </td> 
-   <td> <p>按数值返回日期的周内日，在1 （星期日）和7 （星期六）之间。</p> <p>表达式的格式如下所示。 在本例中，日期是工作对象的“输入日期”。</p>
+   <td> <p>以数字返回日期的星期几，介于1（星期日）和7（星期六）之间。</p> <p>表达式的格式如下所示。 在本例中，日期是工作对象的“输入日期”。</p>
 
 <p><code>DAYOFWEEK({entryDate})</code></p> </td> 
   </tr> 
@@ -176,13 +176,13 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td><strong>DAYSINSPLITWEEK</strong> </td> 
-   <td> <p>返回日期与周末或月末（以先到者为准）之间的总工作日。 在本例中，日期是工作对象的“输入日期”。</p> <p>表达式的格式如下所示：</p>
+   <td> <p>返回从日期到星期几或到月底（以时间最先者为准）的总工作天数。 在本例中，日期是工作对象的“进入日期”。</p> <p>表达式的格式如下：</p>
 
 <p><code>DAYSINSPLITWEEK({entryDate})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>DAYSINYEAR</strong> </td> 
-   <td> <p>按数值返回日期年内的总天数，格式如下。 在本例中，日期是工作对象的“输入日期”。</p>
+   <td><strong>白天</strong> </td> 
+   <td> <p>将日期年份中的总天数作为数字返回，其格式如下。 在本例中，日期是工作对象的“进入日期”。</p>
 
 <p><code>DAYSINYEAR({entryDate})</code></p> </td> 
   </tr> 
@@ -200,7 +200,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td><strong>小时</strong> </td> 
-   <td> <p>以0到23之间的数字返回日期的小时数。</p> <p>表达式的格式如下所示。 在本例中，日期是工作对象的“输入日期”。</p>
+   <td> <p>以介于0和23之间的数字返回日期的小时数。</p> <p>表达式的格式如下所示。 在本例中，日期是工作对象的“输入日期”。</p>
 
 <p><code>HOUR({entryDate})</code></p> </td> 
   </tr> 
@@ -212,19 +212,19 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td><strong>个月</strong> </td> 
-   <td> <p>按1到12之间的数字返回日期的月份，格式如下。 在本例中，日期是工作对象的“输入日期”。</p>
+   <td> <p>按1到12之间的数字返回日期的月份，格式如下。 在本例中，日期是工作对象的“进入日期”。</p>
 
 <p><code>MONTH({entryDate})</code></p> </td> 
   </tr> 
   <tr> 
    <td><strong>秒</strong> </td> 
-   <td> <p>以0到60之间的数字返回日期的秒数，格式如下。 在本例中，日期是工作对象的“输入日期”。</p>
+   <td> <p>将日期中的第二个作为介于0和60之间的数字返回，格式如下。 在本例中，日期是工作对象的“输入日期”。</p>
 
 <p><code>SECOND({entryDate})</code></p> </td> 
   </tr> 
   <tr> 
    <td><strong>WEEKDAYDIFF</strong> </td> 
-   <td> <p>返回两个日期之间的工作日数，同时考虑到所选时段的开始和结束日期以及这些日期的时间戳。 例如，如果开始日期的开始时间为下午3点，则开始日期将不会计为全天。</p> <p>表达式的格式如下所示：</p>
+   <td> <p>返回两个日期之间的工作日数，同时考虑到所选时段的开始和结束日期以及这些日期的时间戳。 例如，如果开始日期的开始时间为下午3点，则开始日期将不会计为全天。</p> <p>表达式的格式如下：</p>
 
 <p><code>WEEKDAYDIFF(date2, date1)</code></p> </td> 
   </tr> 
@@ -288,14 +288,14 @@ ht-degree: 2%
 <p><code>FLOOR({numberOfChildren})</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>LN</strong> </td> 
-   <td>返回该数字的自然对数值，格式如下：
+   <td><strong>行</strong> </td> 
+   <td>返回数字的自然对数值，其格式如下：
 
 <p><code>LN({numberOfChildren})</code></p></td> 
   </tr> 
   <tr> 
    <td><strong>日志</strong> </td> 
-   <td>将数值2的对数值返回至基数1，格式如下：
+   <td>将number2的对数值，返回给基数1，其格式如下：
 
 <p><code>LOG(number1, number2)</code></p></td> 
   </tr> 
@@ -313,7 +313,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td><strong>数字</strong> </td> 
-   <td>将字符串转换为数字，格式如下：<p><code>NUMBER(string)</code></p></td> 
+   <td>将字符串转换为数字，其格式如下：<p><code>NUMBER(string)</code></p></td> 
   </tr> 
   <tr> 
    <td><strong>电源</strong> </td> 
@@ -333,7 +333,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td><strong>轮</strong> </td> 
-   <td>将数字四舍五入到指定的小数位精度，格式如下：
+   <td>将数字舍入为指定的精度小数，其格式如下：
 
 <p><code>ROUND(number, precision)</code></p></td> 
   </tr> 
@@ -356,8 +356,8 @@ ht-degree: 2%
 <p><code>SQRT({numberOfChildren})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>SUB</strong> </td> 
-   <td>按提供的顺序减去所有数字，格式如下：
+   <td><strong>订阅</strong> </td> 
+   <td>按提供的顺序减掉所有数字，其格式如下：
 
 <p><code>SUB(number1, number2, ...)</code></p></td> 
   </tr> 
@@ -441,13 +441,13 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td><strong>包含</strong> </td> 
-   <td>如果在withinText字符串中找到findText字符串并且其格式如下所示，则返回真：
+   <td>如果在withinText字符串中找到findText字符串，则返回true，其格式如下：
 
 <p><code>CONTAINS(findText, withinText)</code></p></td> 
   </tr> 
   <tr> 
    <td><strong>ENCODEURL</strong> </td> 
-   <td>去除字符串中的任何特殊字符，使其可被包含在URL参数中。<p>表达式的格式如下所示：</p>
+   <td>对字符串中的任何特殊字符进行转义，以便它们能够包含在URL参数中。<p>表达式的格式如下：</p>
 
 <p><code>ENCODEURL(string)</code></p></td> 
   </tr> 
@@ -455,7 +455,7 @@ ht-degree: 2%
    <td><strong>格式</strong> </td> 
    <td><p>返回带格式的文本。 FORMAT只允许使用此处列出的参数选项。</p>
    <p>颜色选项为$$POSITIVE、$$INFORMATIVE、$$NEGATIVE、$$NOTICE以及其他格式选项为$$BOLD、$$ITALIC、$$UNDERLINE。 只允许一个颜色选项，以及最多三个其他格式选项。 如果未指定颜色选项，则应用系统的默认颜色。</p>
-   <p>表达式的格式如下所示：</p>
+   <p>表达式的格式如下：</p>
    <p><code>FORMAT($$POSITIVE, $$BOLD, $$ITALIC)</code></p>
    <p>注意：Workfront Planning不支持此表达式。</p></td> 
   </tr>   
@@ -573,15 +573,15 @@ ht-degree: 2%
   <tr> 
    <td><strong>SORTASCARRAY</strong> </td> 
    <td> <p>对数组元素进行升序排序，并将其转换为第一个元素的类型。</p>
-   <p>表达式的格式如下所示：</p>
+   <p>表达式的格式如下：</p>
    <p><code>SORTASCARRAY(array)</code></p>
-   <p>例如，["-12.6"， -13.0]将变为["-12.6"， "-13"]。</p>
+   <p>例如，["-12.6", -13.0]将变为["-12.6", "-13"]。</p>
    <p>注意：Workfront Planning不支持此表达式。</p></td> 
   </tr>
   <tr> 
    <td><strong>SORTDESCARRAY</strong> </td> 
-   <td> <p>对数组元素进行降序排序，并将其转换为第一个元素的类型。</p>
-   <p>表达式的格式如下所示：</p>
+   <td> <p>按降序对数组元素进行排序，并将其转换为第一个元素的类型。</p>
+   <p>表达式的格式如下：</p>
    <p><code>SORTDESCARRAY(array)</code></p>
    <p>例如，["-12.6"， -13.0]将变为["-13"， "-12.6"]。</p>
    <p>注意：Workfront Planning不支持此表达式。</p></td> 
@@ -594,12 +594,12 @@ ht-degree: 2%
   </tr>
   <tr> 
    <td><strong>SORTASCSTRING</strong> </td> 
-   <td> <p>以升序排序一个字符串列表，格式如下：</p>
+   <td> <p>按升序排序字符串列表，其格式如下：</p>
    <p><code>SORTASCSTRING(string1, string2, ...)</code></p> </td> 
   </tr>
   <tr> 
    <td><strong>SORTDESCSTRING</strong> </td> 
-   <td> <p> 以降序排序一个字符串列表，格式如下：</p>
+   <td> <p> 按降序排序字符串列表，其格式如下：</p>
    <p><code>SORTDESCSTRING(string1, string2, ...)</code></p> </td> 
   </tr> 
   <tr> 
@@ -609,7 +609,7 @@ ht-degree: 2%
 <p><code>SUBSTR({string}, number of start position, number of end position)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>开关</strong> </td> 
+   <td><strong>切换</strong> </td> 
    <td> <p>根据值列表评估表达式，并返回与第一个匹配值相对应的结果。</p>
    <p>表达式格式如下：</p>
    <p><code>SWITCH(expression, value1, result1, [value2, result2], ...)</code></p>

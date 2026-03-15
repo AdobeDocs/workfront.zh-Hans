@@ -1,10 +1,11 @@
 ---
 title: 2024年第一季度主页增强功能
 description: 2024年第一季度主页增强功能
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
+exl-id: 30867b75-ec33-486e-acfa-b8bab6ccf23c
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 本页介绍了在2024年第一季度版本中对“预览”环境进行的所有主页增强。 这些增强功能将在2024年第一季度发行版的“生产”环境中提供。
 
-有关2024年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2024年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)。
+有关2024年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2024年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)。
 
 ## 新的待处理审批构件可用
 

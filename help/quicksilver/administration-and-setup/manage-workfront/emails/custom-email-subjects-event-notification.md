@@ -2,14 +2,14 @@
 navigation-topic: notifications
 title: 自定义事件通知的电子邮件主题
 description: 您可以自定义事件通知触发的电子邮件主题行。
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
-source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '575'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -31,9 +31,9 @@ ht-degree: 5%
 >* “工作项评论”到“工作项被分派人”
 >
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,8 +42,8 @@ ht-degree: 5%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td>任何</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td>“任一”</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

@@ -3,13 +3,13 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: 共享功能板
 description: 在分配访问级别时，您的Adobe Workfront管理员会授予用户查看或编辑功能板的权限。 除了授予用户的访问级别之外，您还可以授予他们查看或管理您有权共享的特定功能板的权限。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 21bd531f-8732-4d6c-b91f-990887285447
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '501'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -27,17 +27,17 @@ ht-degree: 0%
 >
 >Workfront管理员可以为系统中的任何项目为所有用户添加或删除权限，而无需成为这些项目的所有者。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

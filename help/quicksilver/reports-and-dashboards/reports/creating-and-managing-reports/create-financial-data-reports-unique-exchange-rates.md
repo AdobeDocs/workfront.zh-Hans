@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: 创建具有唯一汇率的财务数据报表
 description: 如果已在Adobe Workfront中配置了多个汇率，则可以在报表和列表中设置财务值，以默认货币以外的货币显示。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: a0837c70-8330-4c38-98dc-8cf2e7e2e4bd
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '976'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -27,17 +27,17 @@ ht-degree: 0%
 
 如果报表中存在具有单一货币的项目，则分组的总和也会以系统默认货币显示。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -48,7 +48,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>编辑对报告、功能板和日历的访问权限</p> <p>编辑对筛选器、视图、分组的访问权限</p> </td> 
+   <td> <p>编辑对报表、功能板、日历的访问</p> <p>编辑对筛选器、视图、分组的访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
@@ -99,11 +99,11 @@ ht-degree: 0%
 
 ## 使用不同币种显示多个项目中的默认币种
 
-在项目级别自定义货币，并且希望在同一报表中显示所有项目的信息时，存在以下情况：
+如果您在项目级别自定义货币，并且希望显示同一报表中所有项目的信息，则存在以下情形：
 
-* 如果创建的报表从应用了不同货币的两个或多个项目引入财务信息，则默认情况下，分组摘要将反映Workfront管理员选择的系统默认货币。
-* 如果为具有相同货币的两个或多个项目创建报告，但它们与系统的默认货币不同，则使用系统默认货币显示分组中的总和。
-* 如果您为两个或更多项目创建了一个报表，这些项目的工作角色分配与货币改写相关联，则Workfront会将财务信息从工作角色的已改写货币汇率折换为项目的货币（在视图中选择项目的原始货币时），或折换为查看报表时选择的任何其他货币。 有关覆盖工作角色的货币的信息，请参阅[创建和管理工作角色](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)。
+* 如果您创建一个报表，以便从应用了不同币种的两个或多个项目中引入财务信息，则默认情况下，分组汇总将反映Workfront管理员选择的系统默认货币。
+* 如果您为两个或多个具有相同货币的项目创建报表，但这些项目与系统的默认货币不同，则分组中的总和会使用系统默认货币显示。
+* 如果您为两个或多个项目创建报表，这些项目的职务角色分配与货币改写相关联，则Workfront会将财务信息从职务角色的改写货币汇率折换为项目的货币（在视图中选择项目的原始货币时），或者折换为查看报表时选择的任何其他货币。 有关覆盖作业角色的货币的信息，请参阅[创建和管理作业角色](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)。
 
 要在报表中显示两个使用自定义货币的项目，请执行以下操作：
 
@@ -131,9 +131,9 @@ ht-degree: 0%
 
 1. 单击&#x200B;**保存+关闭**。
 
-   **实际成本**&#x200B;的总数使用系统默认货币显示在分组中，而不管报告中的项目货币是什么。
+   无论报表中项目的货币是什么，**实际成本**&#x200B;的总数都会以系统默认货币显示在“分组”中。
 
-   如果两个项目使用不同的币种，则系统默认币种也会显示在报表的分组中。
+   如果两个项目的货币不同，系统默认货币也会显示在报表的“分组”中。
 
 ## 在项目层的报表中显示项目币种
 
@@ -168,9 +168,9 @@ ht-degree: 0%
    >[!NOTE]
    >
    >如果默认货币未在任何其他区域为列表显示，您可以编辑视图以显示默认货币。\
-   >有关如何更改视图中的货币的信息，请参阅本文[将财务值应用到报表](#apply-financial-values-to-a-report)一节。
+   >有关如何更改视图中的货币的信息，请参阅本文[将财务值应用于报表](#apply-financial-values-to-a-report)中的部分。
 
-1. 单击&#x200B;**报告操作**，然后选择&#x200B;**编辑**。
+1. 单击&#x200B;**报表操作**，然后选择&#x200B;**编辑**。
 1. 单击&#x200B;**报表设置**。
 1. 单击&#x200B;**默认货币**&#x200B;下拉列表，然后选择&#x200B;**项目的原始货币**。
 

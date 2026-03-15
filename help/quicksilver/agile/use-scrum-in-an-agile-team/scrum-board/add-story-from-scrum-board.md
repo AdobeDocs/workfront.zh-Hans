@@ -3,13 +3,13 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: 从Scrum展示板添加故事和问题
 description: 您可以直接从Scrum展示板快速创建新故事或问题，或从展示板添加现有故事或问题。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: d4eec3c5-8cea-467f-b1b4-3f9fab57b10f
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 0%
 >
 >工作项[!UICONTROL 计划开始日期]和[!UICONTROL 计划完成日期]受[!UICONTROL 编辑团队]页面上的设置影响。 有关信息，请参阅[[!UICONTROL 配置Scrum]一文中的](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)配置[将工作项添加到迭代时，日期的应用方式](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)部分。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -31,17 +31,17 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>新文档： [!UICONTROL Standard]</p> 
+   <td> <p>新文档： [！UICONTROL Standard]</p> 
    或
-   <p>当前： [!UICONTROL Work]或更高版本</p> </td> 
+   <p>当前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">对象权限</td> 
-   <td>[!UICONTROL Manage]对任务或问题所在项目的访问权限 </td> 
+   <td>[！UICONTROL Manage]对任务或问题所在项目的访问权限 </td> 
   </tr>
  </tbody> 
 </table>
@@ -69,11 +69,11 @@ ht-degree: 0%
         <td>物料的描述。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 估计]</strong></td>
+        <td><strong>[！UICONTROL估计]</strong></td>
         <td>估计的项目小时数或点数。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 父项目]</strong></td>
+        <td><strong>[！UICONTROL父项目]</strong></td>
         <td>（必需）存储新文章或问题的项目。 开始键入项目的名称，然后在该项目显示在列表时将其选定。</td>
     </tr>
    </table>

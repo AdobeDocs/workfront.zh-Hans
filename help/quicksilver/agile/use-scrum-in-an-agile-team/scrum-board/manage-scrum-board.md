@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: scrum-board
 title: 管理Scrum展示板上的故事和问题
 description: 您可以将故事或问题从Scrum展示板移动到另一个迭代或积压工作，或从Scrum展示板删除它。 删除文章或问题后，该文章或问题将被移动到回收站保留30天，只有系统管理员才能恢复。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 72990251-0264-4e68-83ef-1a9cde5b685c
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 3%
@@ -29,17 +29,17 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>新文档： [!UICONTROL Standard]</p> 
+   <td> <p>新文档： [！UICONTROL Standard]</p> 
    或
-   <p>当前： [!UICONTROL Work]或更高版本</p> </td> 
+   <p>当前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">对象权限</td> 
-   <td>[!UICONTROL Manage]对任务或问题的访问权限 </td> 
+   <td>[！UICONTROL Manage]对任务或问题的访问权限 </td> 
   </tr>
  </tbody> 
 </table>
@@ -62,11 +62,11 @@ ht-degree: 3%
 
    <table style="table-layout:auto">
     <tr>
-        <td><strong>[!UICONTROL 其他迭代]</strong></td>
+        <td><strong>[！UICONTROL其他迭代]</strong></td>
         <td>选择以将项目移动到另一个迭代，然后选择文章或问题将移动到哪个迭代。 如果未定义未来的小版本，则无法移动项目。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 积压]</strong></td>
+        <td><strong>[！UICONTROL积压]</strong></td>
         <td>选择以将故事或问题移动到团队的积压。</td>
     </tr>
    </table>

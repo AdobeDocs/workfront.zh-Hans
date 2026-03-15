@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: report-usage
 title: 访问和组织报告
 description: 您可以使用Adobe Workfront中的报表来查看或编辑有关系统中对象的信息。 您可以创建自己的报告、组织所创建的报告，以及查看已与您共享或公开共享的报告。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: a444d863-12a8-43d0-ae84-ee24863ad87b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '469'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -17,17 +17,17 @@ ht-degree: 1%
 
 您可以使用Adobe Workfront中的报表来查看或编辑有关系统中对象的信息。 您可以创建自己的报告、组织所创建的报告，以及查看已与您共享或公开共享的报告。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

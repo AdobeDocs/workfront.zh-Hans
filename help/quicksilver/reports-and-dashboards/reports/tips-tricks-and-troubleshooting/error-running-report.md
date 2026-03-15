@@ -4,35 +4,35 @@ product-area: reporting
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: 运行报告时的错误消息：“您当前未登录。”
 description: 了解“您当前未登录”错误消息。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: fda4630a-2590-46f4-94ff-499a485367ee
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '215'
-ht-degree: 4%
+ht-degree: 13%
 
 ---
 
 # 运行报告时的错误消息：“您当前未登录。”
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
      <p>标准</p>
-     <p>工作或更高</p>
+     <p>工作版或更高版本</p>
    </td> 
   </tr> 
   <tr> 

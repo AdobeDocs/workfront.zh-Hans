@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: 创建团队
 description: 默认情况下，创建团队后，您会成为团队所有者。
-author: Jenny
+author: Courtney
 feature: People Teams and Groups
 exl-id: 4bef734c-de86-4c58-a0e8-fbb3c5785f4c
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 5%
@@ -31,7 +31,7 @@ ht-degree: 5%
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Adobe Workfront 包</p> </td> 
-   <td>任何</td> 
+   <td>“任一”</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

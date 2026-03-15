@@ -3,13 +3,13 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: 从Kanban展示板中删除故事
 description: 您可以从Kanban展示板中删除故事或问题。 删除文章或问题后，该文章或问题将被移动到回收站保留30天，只有系统管理员才能恢复。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 5e838f0a-b26d-4bbe-b9e9-3161e3958b58
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '192'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 您可以从[!UICONTROL Kanban]展示板中删除故事或问题。 删除文章或问题后，该文章或问题将被移动到回收站保留30天，只有系统管理员才能恢复。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,13 +28,13 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> <p>标准</p> 
-   <p>工作或更高</p> </td> 
+   <p>工作版或更高版本</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">对象权限</td> 

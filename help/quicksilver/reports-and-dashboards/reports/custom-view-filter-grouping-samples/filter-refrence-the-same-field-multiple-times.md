@@ -4,46 +4,46 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 筛选器：创建引用同一字段（“AND”语句）的多个筛选器规则
 description: 在标准模式界面中，如果尝试创建多个引用同一字段的筛选器（使用AND限定符），则在保存报表并退出Report Builder时，会删除其中一个筛选器。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: fb167e9f-c8bd-43f6-84c9-9a87e80c3eb2
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# 过滤器：创建引用同一字段（“AND”语句）的多个过滤器规则
+# 筛选器：创建引用同一字段（“AND”语句）的多个筛选器规则
 
 <!--Audited: 10/2024-->
 
-在标准模式界面中，如果尝试创建多个引用同一字段的筛选器（使用AND限定符），则在保存报表并退出Report Builder时，会删除其中一个筛选器。
+在标准模式界面中，尝试创建引用同一字段的多个筛选器（使用AND限定符）时，在保存报表并退出报表生成器时将删除其中一个筛选器。
 
-**示例：**&#x200B;您可能只想查看包含“绿色”一词但不包含“红色”一词的任务。 Adobe Workfront不允许您使用标准模式界面保存以下过滤器规则，因为它引用了相同的字段（任务名称），但使用了不同的修饰符并引用了不同的值：
+**示例：**&#x200B;您可能只想查看包含单词“green”但不包含单词“red”的任务。 Adobe Workfront不允许您使用标准模式界面保存以下过滤器规则，因为它引用了相同的字段（任务名称），但使用了不同的修饰符并引用了不同的值：
 
 * 任务名称>包含>绿色
 * 任务名称>不包含>红色
 
 但是，您可以使用文本模式创建此过滤器。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
    <p>修改过滤器的参与者或请求 </p>
-   <p>用于修改报告的标准或计划</p>
+   <p>标准或计划修改报告</p>
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 

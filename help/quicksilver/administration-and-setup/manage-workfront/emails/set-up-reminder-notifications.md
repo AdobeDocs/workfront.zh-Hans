@@ -1,11 +1,11 @@
 ---
 title: 设置提醒通知
-description: 提醒通知会根据指定条件生成发送给用户的电子邮件。 提醒通知提醒用户需要对任务、问题、项目或时间表执行的操作。
-author: Alina, Nolan
+description: 提醒通知会根据指定条件生成发送给用户的电子邮件。 提醒通知可提醒用户注意需要对任务、问题、项目或时间表采取的操作。
+author: Alina, Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: bb9ccfa61fa1a8ef41b0e873d5aa6313803c636d
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1216'
 ht-degree: 3%
@@ -18,9 +18,9 @@ ht-degree: 3%
 
 作为Workfront管理员，您可以为用户创建提醒通知，并将这些通知与您希望用户特别注意的对象相关联。
 
-提醒通知会根据指定条件生成发送给用户的电子邮件。 提醒通知提醒用户需要对任务、问题、项目或时间表执行的操作。
+提醒通知会根据指定条件生成发送给用户的电子邮件。 提醒通知可提醒用户注意需要对任务、问题、项目或时间表采取的操作。
 
-创建提醒通知后，用户可以手动将其与工作项相关联，例如项目、任务、问题和时间表。 有关信息，请参阅[将提醒通知附加到对象](/help/quicksilver/workfront-basics/using-notifications/attach-reminder-notification-object.md)。
+创建提醒通知后，用户可以手动将其与工作项（如项目、任务、问题和时间表）相关联。 有关信息，请参阅[向对象附加提醒通知](/help/quicksilver/workfront-basics/using-notifications/attach-reminder-notification-object.md)。
 
 <!--
 DRAFTED IN FLARE:
@@ -66,7 +66,7 @@ An example of how this can be used would be helpful here and/or in the section <
 
 或者，您也可以使用提醒通知随附的默认电子邮件。 默认电子邮件使用提醒通知名称作为电子邮件主题，使用电子邮件正文中的对象名称，包括触发通知的事件。
 
-如果要自定义提醒电子邮件，则需要创建电子邮件模板并将其附加到提醒通知。
+如果要自定义提醒电子邮件，您需要创建电子邮件模板并将其附加到提醒通知中。
 
 有关如何创建电子邮件模板的信息，请参阅[配置电子邮件模板](../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md)。
 
@@ -84,7 +84,7 @@ An example of how this can be used would be helpful here and/or in the section <
 
    例如，如果要将提醒通知附加到时间表，请单击&#x200B;**时间表**。
 
-1. 在出现的&#x200B;**新建提醒通知**&#x200B;框中，指定以下信息。
+1. 在显示的&#x200B;**新建提醒通知**&#x200B;框中，指定以下信息。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -108,11 +108,11 @@ An example of how this can be used would be helpful here and/or in the section <
       <td role="rowheader">计时</td> 
       <td> <p>选择触发提醒通知进行安排的事件。</p> <p>如果提醒通知适用于项目、任务或问题，则可用选项与完成日期或开始日期相关。 提醒通知会考虑项目、任务和问题的完成日期和开始日期上的时间戳。</p>
 
-   <p>如果提醒通知适用于时间表，则可用选项与结束日期、开始日期或上次更新日期相关。 时间表的提醒通知会考虑时间表结束、开始和上次更新日期的时间戳。 时间表从开始日期的午夜开始(12:00 AM)，并在结束日期的午夜之前结束(11:59 PM)。</p>
+   <p>如果提醒通知适用于时间表，则可用选项与结束日期、开始日期或上次更新日期相关。 时间表的提醒通知考虑到了时间表的结束日期、开始日期和最后更新日期的时间戳。 时间表从开始日期的午夜开始(12:00 AM)，到结束日期的午夜之前(11:59 PM)结束。</p>
 
    <p><b>注释</b></p>
       <p>每24小时只分发一次时间表提醒通知。</p> <p>当您在24小时内设置多个提醒通知时，Workfront会发送一封通知电子邮件，其中包含该通知中包含的所有提醒。</p>
-      <p>例如，如果将三个提醒通知配置为在到期日期前10小时、前2小时和前1小时触发，则如果这三个提醒均在同一天发生，它们将会合并到同一通知中。</p> <p>但是，如果您设置的提醒通知在截止日期前26小时与另一个提醒通知在前1小时，则用户将收到两个单独的通知。 </p>
+      <p>例如，如果将三个提醒通知配置为在到期日期前10小时、前2小时和前1小时触发，则如果这三个提醒均在同一天发生，它们将会合并到同一通知中。</p> <p>但是，如果您在截止日期之前设置26小时的提醒通知，并在到期日期之前设置1小时的另一个提醒通知，则用户将收到两个单独的通知。 </p>
 
    </td> 
      </tr> 
@@ -127,7 +127,7 @@ An example of how this can be used would be helpful here and/or in the section <
         <li><strong>未结时间表：</strong> <i>（可用于时间表提醒）</i>已计划在时间表状态为“未结”时发送提醒通知。</li> 
         <li><strong>已提交的时间表：</strong> <i>（可用于时间表提醒）</i>已计划在已提交时间表状态时发送提醒通知。</li> 
         <li><strong>未结时间表或每周少于40小时：</strong> <i>（可用于时间表提醒）</i>已计划在时间表状态为“未结”或时间表记录少于40小时时发送提醒通知。</li> 
-        <li><strong>电子邮件模板：</strong>从下拉列表中，选择要附加到提醒的电子邮件模板。<br>有关如何构建电子邮件模板的信息，请参阅<a href="../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md" class="MCXref xref">配置电子邮件模板</a>。</li> 
+        <li><strong>电子邮件模板：</strong>从下拉列表中选择要附加到提醒的电子邮件模板。<br>有关如何构建电子邮件模板的信息，请参阅<a href="../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md" class="MCXref xref">配置电子邮件模板</a>。</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -137,9 +137,9 @@ An example of how this can be used would be helpful here and/or in the section <
       <li>任务负责人</li>
       <li>输入者</li>
       <li>项目团队（项目团队中的所有用户都会收到提醒）</li>
-      <li>依赖任务受分配人（分配给依赖任务的用户将收到提醒）</li>
+      <li>相关任务受分配人（分配给相关任务的用户将收到提醒）</li>
       <li>项目所有者</li>
-      <li>分配给（分配了任务或问题的用户将收到提醒）</li>
+      <li>分配对象（分配给任务或问题的用户会收到提醒）</li>
       <li>时间表所有者</li>
       <li>工时表批准者</li>
       <li>时间表所有者的经理</li></ul>
@@ -162,13 +162,13 @@ An example of how this can be used would be helpful here and/or in the section <
 提醒通知在山地时间每晚触发。 所有符合提醒通知条件的对象都会在收到提醒后不久触发通知给指定用户。
 
 要手动触发提醒通知，必须首先满足提醒条件。\
-例如，如果设置的提醒在项目的计划完成日期后一小时触发，则从设置提醒到现在，该时间必须已过。 任何在激活提醒前已超过计划完成日期的项目都不会触发通知。
+例如，如果设置的提醒在项目的计划完成日期后一小时触发，则从设置提醒到现在，该时间必须已过。 任何在激活提醒之前已超过计划完成日期的项目都不会触发通知。
 
-手动触发提醒通知：
+要手动触发提醒通知，请执行以下操作：
 
 {{step-1-to-setup}}
 
-1. 单击Workfront左下角的&#x200B;**系统** > **诊断**。
+1. 在Workfront的左下角单击&#x200B;**系统** > **诊断**。
 
 1. 单击&#x200B;**发送提醒通知**，然后在屏幕顶部等待已发送提醒通知的确认。
 

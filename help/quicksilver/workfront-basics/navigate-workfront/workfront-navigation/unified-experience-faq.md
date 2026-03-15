@@ -3,10 +3,10 @@ product-area: workfront-navigation
 navigation-topic: workfront-navigation
 title: Adobe Unified Experience常见问题
 description: ' [!DNL Workfront] 和Adobe Experience Cloud的一些功能不同，在将 [!DNL Workfront] 实例迁移到统一体验时，您可能会遇到一些问题。'
-author: Nolan
+author: Courtney
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: ff8866b2b48ead3b7b2e035a394fa038036fbfc0
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1397'
 ht-degree: 0%
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 ### 作为客户，我需要做什么来促进迁移？
 
-将与现有客户联系以安排迁移。 迁移团队支持同事将引导客户完成该过程，提出[!DNL Admin Console]设置的建议，并提供所需的文档链接以使迁移尽可能简单和轻松。 查看[[!DNL Adobe Business Platform] 和 [!DNL Admin Console] 常见问题解答](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/workfront/faq)以了解更多信息。
+将与现有客户联系以安排迁移。 迁移团队支持同事将引导客户完成该过程，提出[!DNL Admin Console]设置的建议，并提供所需的文档链接以使迁移尽可能简单和轻松。 查看[[!DNL Adobe Business Platform] 和 [!DNL Admin Console] 常见问题解答](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/workfront/faq)以了解更多信息。
 
 ### 对于已为Federated ID启用此选项与设置[!DNL Adobe Admin Console] SSO不同的公司，您如何处理[!DNL Workfront]？
 
@@ -93,7 +93,7 @@ IMS是SSO的替代品，其功能大致相同。 所有用户权限都在[!DNL A
 
 所有直接链接都应重定向到新的URL模式。 但是，如果您已将链接分发给人员，则应发送更新以利用直接链接，并防止在到达预期页面时出现延迟。
 
-### 我们会全局迁移到[!DNL Experience Cloud]吗？还是可以为某些用户(并非所有用户都使用其他Adobe产品)选择？
+### 我们会全局迁移到[!DNL Experience Cloud]吗？还是可以为某些用户（并非所有用户都使用其他Adobe产品）选择？
 
 将迁移整个[!DNL Workfront]客户帐户。 无法逐个用户执行此操作。
 

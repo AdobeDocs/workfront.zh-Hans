@@ -2,14 +2,14 @@
 product-area: reporting
 navigation-topic: using-built-in-reports
 title: 视图中的内置状态图标
-description: 可在视图中添加内置的状态图标字段作为列，以增强关于对象关键点的可见性。
-author: Nolan
+description: 您可以在视图中添加内置状态图标字段作为列，以增强对象关键点的可见性。
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1205'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 <!--(NOTE: ALina: ***Link this from the Understanding Fields in Lists and Reports.)-->
 
-可在视图中添加内置的状态图标字段作为列，以增强关于对象关键点的可见性。 通过使用状态图标，您可以一眼看出是否存在以下情况：
+您可以在视图中添加内置状态图标字段作为列，以增强对象关键点的可见性。 使用“状态图标”，您可以快速看到以下情况：
 
 * 对象已附加文档
 * 对象与审批流程相关联
@@ -30,30 +30,30 @@ ht-degree: 3%
 
 请考虑以下事项：
 
-* “状态图标”字段中的大多数指示器都是指向它们所表示的实际对象或对象区域的快速链接。
+* “状态图标”字段中的大多数指示器都是指向实际对象或所表示对象区域的快速链接。
 
-* 如果对象中缺少由图标表示的任何项目，则表示缺少项目的图标在“状态图标”列中将显示为灰色，而不是彩色图像。
+* 如果对象中缺少图标所表示的任何项目，则表示缺少项目的图标在“状态图标”列中将显示为灰色，而不是彩色图像。
 
   ![task_status_icons.png](assets/task-status-icons.png)
 
   有关详细信息，请参阅本文中的[状态图标和标志概述](#overview-of-status-icons-and-flags)部分。
 
-* 在某些视图中，**状态图标**&#x200B;字段名为&#x200B;**标志**&#x200B;或&#x200B;**视图图标**。\
-  您无法自定义“状态图标”字段中包含的图标的外观。
+* 在某些视图中，**状态图标**&#x200B;字段被命名为&#x200B;**标志**&#x200B;或&#x200B;**视图图标**。\
+  您无法自定义包含在“状态图标”字段中的图标的外观。
 
-* 您无法编辑状态图标字段中的图标数。
+* 不能编辑“状态图标”字段中的图标数量。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -95,8 +95,8 @@ ht-degree: 3%
    * 费用
    * 文档
    * 用户\
-     只有这些对象具有&#x200B;**状态图标**&#x200B;字段可用。\
-     有关对象列表的信息，请参阅[Adobe Workfront中的列表入门](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)。
+     只有这些对象有&#x200B;**状态图标**&#x200B;字段可用。\
+     有关对象列表的信息，请参阅[开始使用Adobe Workfront中的列表](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)。
 
 1. 从&#x200B;**视图**&#x200B;下拉菜单中，选择&#x200B;**新建视图**。
 
@@ -117,7 +117,7 @@ ht-degree: 3%
 1. （可选）将鼠标悬停在图标上以了解其代表的含义。
 1. （可选）单击图标以转到由其表示的对象的区域。\
    并非所有图标都是指向对象的链接。\
-   有关每个图标的完整属性列表，请参阅[状态图标和标志概述](#overview-of-status-icons-and-flags)部分。
+   有关每个图标的属性的完整列表，请参阅[状态图标和标志概述](#overview-of-status-icons-and-flags)部分。
 
 ## 状态图标和标志概览 {#overview-of-status-icons-and-flags}
 
@@ -143,7 +143,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td> <img src="assets/condition-update-icon-on-target-29x34.png" alt="condition_update_icon_on_target.png" style="width: 29;height: 34;">或<img src="assets/screen-shot-2018-08-17-at-9.49.36-am-29x37.png" alt="Screen_Shot_2018-08-17_at_9.49.36_AM.png" style="width: 29;height: 37;"><br><img src="assets/condition-update-icon--in-trouble-29x26.png" alt="condition_update_icon__in_trouble.png" style="width: 29;height: 26;">或<img src="assets/screen-shot-2018-08-17-at-9.49.23-am-29x26.png" style="width: 29;height: 26;"><br><img src="assets/condition-update-at-risk-27x28.png" alt="condition_update_at_risk.png" style="width: 27;height: 28;">或 <img src="assets/screen-shot-2018-08-17-at-9.49.23-am-33x34.png" alt="Screen_Shot_2018-08-17_at_9.49.23_AM.png" style="width: 33;height: 34;"></td> 
-   <td>指示项目的完成情况符合目标（绿色）、存在问题（红色）或处于风险中（黄色）。<br>有关项目完成情况的信息，请参阅<a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">项目完成情况和完成情况类型概述</a>。</td> 
+   <td>指示项目条件是“符合目标”（绿色）、“有故障”（红色）或“存在风险”（黄色）。<br>有关项目条件的信息，请参阅<a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">项目条件和条件类型概述</a>。</td> 
    <td>项目</td> 
    <td>单击以打开项目的任务列表。 </td> 
    <td> </td> 
@@ -214,12 +214,12 @@ ht-degree: 3%
    <td> <img src="assets/issue-source-link-icon-44x41.png" alt="issue_source_link_icon.png" style="width: 44;height: 41;"> </td> 
    <td>链接到问题的源对象。 问题的源对象是记录问题的对象。 任务或项目可以是问题的源对象。 </td> 
    <td>问题</td> 
-   <td>单击以打开问题的源对象（任务或项目）。 </td> 
+   <td>单击打开问题的源对象（任务或项目）。 </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/resolving-object-icon-43x45.png" alt="resolving_object_icon.png" style="width: 43;height: 45;"> </td> 
-   <td>表示存在最终解决该问题的解决对象。 在这种情况下，您无法完成问题。 解析对象完成时完成。 <br>有关解析对象的信息，请参阅<a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">解析和可解析对象概述</a>。</td> 
+   <td>表示存在可最终解决此问题的正在解析的对象。 在这种情况下，您无法完成此问题。 当解析对象完成时即完成。 <br>有关解析对象的信息，请参阅<a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">解析和可解析对象概述</a>。</td> 
    <td>问题</td> 
    <td>单击以打开问题的解决对象。 </td> 
    <td> </td> 
@@ -246,15 +246,15 @@ ht-degree: 3%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <img src="assets/user-belongs-to-company-icon-44x44.png" alt="user_belists_to_company_icon.png" style="width: 44;height: 44;"> </td> 
-   <td>指示用户与公司相关联。 </td> 
+   <td> <img src="assets/user-belongs-to-company-icon-44x44.png" alt="user_belins_to_company_icon.png" style="width: 44;height: 44;"> </td> 
+   <td>表示用户与公司相关联。 </td> 
    <td>用户</td> 
    <td>不可用</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/user-with-team-icon-40x48.png" alt="user_with_team_icon.png" style="width: 40;height: 48;"> </td> 
-   <td>指示用户与团队相关联。</td> 
+   <td>表示用户与某个团队相关联。</td> 
    <td>用户</td> 
    <td>单击以打开用户配置文件。</td> 
    <td> </td> 

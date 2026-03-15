@@ -3,11 +3,11 @@ content-type: reference
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: 计算自定义表达式中的条件运算符
-description: 在使用文本模式时，在Adobe Workfront中构建计算的自定义数据时，您可以使用条件运算符或修饰符。
-author: Jenny
+description: 在使用文本模式的情况下，在Adobe Workfront中构建计算自定义数据时，您可以使用条件运算符或修饰符。
+author: Courtney
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 2%
@@ -18,11 +18,11 @@ ht-degree: 2%
 
 <!-- Audited: 2/2024 -->
 
-在使用文本模式时，在Adobe Workfront中构建计算的自定义数据时，您可以使用条件运算符或修饰符。 有关在Workfront中使用文本模式的信息，请参阅[文本模式概述](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)。
+在使用文本模式的情况下，在Adobe Workfront中构建计算自定义数据时，您可以使用条件运算符或修饰符。 有关在Workfront中使用文本模式的信息，请参阅[文本模式概述](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)。
 
-条件运算符或修饰符可通过连接语句中的现有Workfront字段并生成新字段来帮助构建条件语句。 条件运算符最常见的用法是构建“IF”语句的条件。
+条件运算符或修饰符可通过连接语句中的现有Workfront字段并生成新字段来帮助构建条件语句。 条件运算符的最常见用法是构建“IF”语句的条件。
 
-您可以使用Workfront中的“IF”语句来比较、设置数据字段的格式并将其字符串在一起，以用于报表和自定义数据。
+您可以使用Workfront中的“IF”语句来比较、设置数据字段的格式并将它们一起字符串，以便报告和自定义数据。
 
 您可以为以下Workfront元素构建“IF”语句：
 
@@ -58,12 +58,12 @@ ht-degree: 2%
   <tr> 
    <td>等于</td> 
    <td>= </td> 
-   <td> <p>使用此运算符指示当对帐单的第一个字段等于第二个字段时，满足条件。</p> <p>例如，在计算自定义字段中使用以下语句来构建“IF”语句，该语句将任务的计划完成日期与预计完成日期进行比较： </p><p><code>IF({projectedCompletionDate}={plannedCompletionDate},"On Track","Off Track")</code></p> </td> 
+   <td> <p>使用此运算符指示当对帐单的第一个字段等于第二个字段时，条件是否满足。</p> <p>例如，在计算型自定义字段中使用以下语句构建一个“IF”语句，该语句将任务的计划完成日期与预计完成日期进行比较： </p><p><code>IF({projectedCompletionDate}={plannedCompletionDate},"On Track","Off Track")</code></p> </td> 
   </tr> 
   <tr> 
    <td>大于 </td> 
    <td>&gt; </td> 
-   <td>使用此运算符指示当对帐单的第一个字段大于第二个字段时，满足条件。 <p>例如，在计算自定义字段中使用以下语句来构建“IF”语句，该语句将任务的计划完成日期与预计完成日期进行比较： </p><p><code>IF({projectedCompletionDate}&gt;{plannedCompletionDate},"Late","")</code></p></td> 
+   <td>使用此运算符指示当对帐单的第一个字段大于第二个字段时，条件是否满足。 <p>例如，在计算型自定义字段中使用以下语句构建一个“IF”语句，该语句将任务的计划完成日期与预计完成日期进行比较： </p><p><code>IF({projectedCompletionDate}&gt;{plannedCompletionDate},"Late","")</code></p></td> 
   </tr> 
   <tr> 
    <td>大于或等于 </td> 
@@ -83,11 +83,11 @@ ht-degree: 2%
   <tr> 
    <td>不会 </td> 
    <td>！ </td> 
-   <td> <p>将此运算符添加到以上任何运算符的前面，使运算符无效。 </p> <p>例如： </p> 
+   <td> <p>在上述任一运算符前面添加此运算符以否定运算符。 </p> <p>例如： </p> 
     <ul> 
      <li>等于： = </li> 
      <li>不等于： ！= </li> 
-    </ul> <p>将此运算符添加到以下数据表达式之前，会向表达式添加负语句： </p> 
+    </ul> <p>在以下数据表达式前添加此运算符会向表达式添加负语句： </p> 
     <ul> 
      <li>CONTAINS </li> 
      <li>位于‍ </li> 
@@ -103,7 +103,7 @@ ht-degree: 2%
   <tr> 
    <td> 和 </td> 
    <td>&amp;&amp; </td> 
-   <td> <p>使用此运算符可指示当表达式满足条件时  查找同时满足两个条件的项目。 </p> <p>例如，在计算自定义字段中使用以下语句来构建“IF”语句，以查找处于当前状态且条件为“存在风险”的项目并将它们标记为“需要调解”。 </p><p><code>IF({status}="CUR"&&{condition}="AR","Mediation Needed","")</code></p> </td> 
+   <td> <p>使用此运算符指示在表达式时满足条件  查找同时满足两个条件的项。 </p> <p>例如，在计算型自定义字段中使用以下语句构建一个“IF”语句，该语句查找处于当前状态且具有“存在风险”条件的项目，并将它们标记为“需要调解”。 </p><p><code>IF({status}="CUR"&&{condition}="AR","Mediation Needed","")</code></p> </td> 
   </tr> 
  </tbody> 
 </table>

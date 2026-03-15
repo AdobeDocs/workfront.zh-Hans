@@ -4,13 +4,13 @@ product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 查看：包含证明链接的文档报告
 description: 查看：文档报告，带有指向验证的链接
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: a38c5e86-9789-41ca-a832-2ee5eb0a570b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 0%
 
 ![查看带校对链接的文档](assets/view-document-with-proof-link-350x92.png)
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

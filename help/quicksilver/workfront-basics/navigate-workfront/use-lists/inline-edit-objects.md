@@ -4,12 +4,12 @@ navigation-topic: use-lists
 title: 在 [!DNL Adobe Workfront]的列表中内联编辑项目
 description: 当对象显示在列表或报表中时，您可以内联编辑对象。 编辑列表或报告中显示的对象信息时，对象会立即更新。
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '696'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -35,17 +35,17 @@ ht-degree: 0%
 * 您无法编辑列表中显示的标志和图标。
 * 您无法内联编辑源自其他报表的报表字段。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -56,11 +56,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[!UICONTROL Edit]对列表所在区域的访问权限</p> <p>例如，要在项目中内联编辑任务，您需要[!UICONTROL Edit]项目访问权限。</p></td> 
+   <td> <p>[！UICONTROL Edit]对列表所在区域的访问权限</p> <p>例如，要在项目中内联编辑任务，您需要[！UICONTROL Edit]项目访问权限。</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>[!UICONTROL 管理]</p> <p>您还必须有权编辑某些字段，例如自定义字段、状态等。</p>  </td> 
+   <td> <p>[！UICONTROL管理]</p> <p>您还必须有权编辑某些字段，例如自定义字段、状态等。</p>  </td> 
   </tr> 
  </tbody> 
 </table>

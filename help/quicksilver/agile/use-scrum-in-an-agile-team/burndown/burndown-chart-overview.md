@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: burndown
 title: Agile燃尽图概述
 description: 燃尽图以可视化形式呈现故事在迭代或项目中的进度。 实际燃尽率是根据迭代或项目时间线的理想燃尽率测量的。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 0%
@@ -32,11 +32,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-dottedblue.png" alt="理想的燃尽率开始"> </td> 
-   <td> <p>基于迭代开始时间的理想燃尽率。</p> <p>如果迭代的范围从不更改（小时或点从不添加或删除），则不显示此行。</p> <p>此线条在休息日完成工作时显示为平坦。 有关详细信息，请参阅<a title="使用敏捷燃尽图" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">休息日如何影响燃尽图</a>。</p> </td> 
+   <td> <p>基于迭代开始时间的理想燃尽率。</p> <p>如果小版本的范围从未改变（从未添加或删除小时或点），则不会显示此行。</p> <p>在休息日完成工作时，此线条显示为平坦。 有关详细信息，请参阅<a title="使用敏捷燃尽图" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">休假天数如何影响燃尽图</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-solidblue.png" alt="故事或任务的理想燃尽率"> </td> 
-   <td> <p>基于当前情景或任务的理想燃尽率。</p> <p>在迭代开始后，向迭代添加小时或点或从迭代中删除点时，当前理想燃尽率（实心蓝线）不同于原始理想燃尽率（虚蓝线）。</p> <p>此线条在休息日完成工作时显示为平坦。</p> <p>有关详细信息，请参阅<a title="使用敏捷燃尽图" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">休息日如何影响燃尽图</a>。</p> </td> 
+   <td> <p>基于当前情景或任务的理想燃尽率。</p> <p>在迭代开始后，向迭代添加小时或点或从迭代中删除点时，当前理想燃尽率（实心蓝线）不同于原始理想燃尽率（虚蓝线）。</p> <p>此线条在休息日完成工作时显示为平坦。</p> <p>有关详细信息，请参阅<a title="使用敏捷燃尽图" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">休假天数如何影响燃尽图</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-red.png" alt="实际燃尽率（红色）"> </td> 
@@ -48,22 +48,22 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="范围更改"> </td> 
-   <td> <p>范围更改（在迭代中添加或删除小时或点）。</p> <p>范围更改始终在白天中间显示为垂直线。 此外，如果发生范围更改，则会在任何一天的中间显示一个蓝色圆点。</p> <p>燃尽图的垂直轴显示故事点或小时。</p> </td> 
+   <td> <p>范围更改（在迭代中添加或删除小时或点）。</p> <p>范围更改始终在白天中间显示为垂直线。 此外，如果发生范围更改，则会在任何一天的中间显示一个蓝色圆点。</p> <p>燃尽图的纵轴显示故事点或时数。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="日期范围中的更改"> </td> 
-   <td> <p>日期范围的更改（迭代持续时间增加或减少）。</p> <p>在迭代持续时间发生更改的任何一天的中间会显示一个蓝色圆点。</p> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="日期范围的更改"> </td> 
+   <td> <p>日期范围中的更改（迭代持续时间增加或减少）。</p> <p>在变更迭代持续时间的任意一天的中间会显示一个蓝点。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="工作用绿点烧毁"> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="工作圆点被烧毁"> </td> 
    <td> <p>每当工作燃尽时，实际燃尽率上都会显示一个绿色或红色圆点。 （当当当天的实际燃尽率为红色时，圆点为红色；当当当天的实际燃尽率为绿色时，圆点为绿色。）</p> <p>出现以下任何情况时，工作都会被烧毁：</p> 
     <ul> 
-     <li> [!UICONTROL 完成百分比]在文章中会增加。<br>[!UICONTROL 完成百分比]在以下情况下增加： 
+     <li> [！UICONTROL完成百分比]在文章中会增加。<br>[！UICONTROL完成百分比]在以下情况下增加： 
       <ul> 
        <li> <p>手动更改</p> </li> 
        <li> <p>在文章中更新了点数或小时数</p> </li> 
       </ul></li>  
-     <li>故事的状态已更改为[!UICONTROL 结束]</li> 
+     <li>故事的状态已更改为[！UICONTROL结束]</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -75,14 +75,14 @@ ht-degree: 0%
 
 Agile团队可以通过定义替代计划来合并团队特定的非工作日（如文章[使用燃尽图的替代团队计划](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)中所述）。 然后，此备用计划会反映在分配给团队的任何迭代的燃尽图中。 替代计划仅影响燃尽图。
 
-只有符合以下条件时，燃尽图才会反映休息日：
+仅在以下情况下，休息日才会反映在燃尽图中：
 
-* 工作以前是休息日登录的。 （显示记录工作的日期。）
+* 工作之前已登录一天。 （显示记录工作的日期。）
 
-  在休息日登录工作时：
+  当工作在一天休假中登录时：
 
-   * 在计算理想燃尽时，不会包括记录的任何工作，因为团队未计划进行任何工作。
-   * 理想的燃尽线（实心蓝线和虚线蓝线）在燃尽图中显示为平坦，即工作完成时或查看燃尽图时（如果您在休息日查看）的任何一天。
+   * 在计算理想燃尽时，不会包括记录的任何工作，因为团队没有计划进行任何工作。
+   * 理想的燃尽线（实线蓝线和虚线蓝线）在燃尽图中显示为平坦，适用于工作完成或查看燃尽图的当天（如果您在休息日查看）。
    * 在计算其他燃尽统计数据（如估计完成情况以及每天的平均点数或小时数）时，包括记录的工作。
 
 * 您正在休息日查看燃尽图。 （您查看的日期显示在燃尽图上。）

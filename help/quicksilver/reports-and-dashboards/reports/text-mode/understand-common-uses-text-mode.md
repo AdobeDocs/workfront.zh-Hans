@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: 文本模式的常见用途概述
 description: 文本模式的常见用途概述
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 * [自定义视图、筛选器和分组示例：文章索引](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 * [报表中计算的自定义数据](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
 
-有关使用文本模式创建报告（包括类、视频和教程）的更多信息，请参阅Adobe Experience League网站上的“学习”部分。
+有关使用文本模式创建报告（包括课程、视频和教程）的更多信息，请参阅Adobe Experience League网站上的“学习”部分。
 
 ## 可以在列表和报告中使用文本模式的实例
 
@@ -85,8 +85,8 @@ ht-degree: 0%
 * [筛选器：仅显示处于批准状态的项目](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-for-items-in-approval-status.md)
 * [筛选器：当状态与不同的组相关联时，按同名状态显示项目](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-same-name-statuses-from-different-groups.md)
 * [筛选器：通过比较两个字段](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-items-by-comparing-two-fields.md)来消除列表中的项
-* [使用EXISTS语句创建复杂文本模式筛选器](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)文章中的部分[跨对象层次结构中多个级别的文本模式筛选器示例](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md#examples)
-* [&#128279;](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md#missing-object-filters)部分[使用EXISTS语句创建复杂文本模式筛选器](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)中的缺失对象创建复杂文本模式筛选器
+* [使用EXISTS语句创建复杂文本模式筛选器](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md#examples)文章中的部分[跨对象层次结构中多个级别的文本模式筛选器示例](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
+* [部分](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md#missing-object-filters)使用EXISTS语句创建复杂文本模式筛选器[中的缺失对象创建复杂文本模式筛选器](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
 
 ## 在分组中使用文本模式 {#use-text-mode-in-groupings}
 

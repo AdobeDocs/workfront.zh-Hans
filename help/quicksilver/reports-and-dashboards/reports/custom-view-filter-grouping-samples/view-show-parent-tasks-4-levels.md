@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 视图：显示最深4级的父级任务
 description: 此任务视图在第一列中显示任务名称，如果存在，则在同一列表中的单独列中最多显示4个父任务。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 66b45d64-794d-4adc-b208-2ded0dc9c5dc
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 0%
 
 ![parent_tasks_4_levels_deep.png](assets/parent-tasks-4-levels-deep-350x29.png)
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

@@ -1,23 +1,23 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: 在画布功能板中构建KPI报告
-description: 可将显示单个汇总KPI的突出显示KPI报告添加到画布功能板。
-author: Courtney and Jenny
+title: 在画布仪表板中构建KPI报表
+description: 可将突出显示单个汇总KPI的KPI报告添加到“画布面板”。
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: d7caaa0871263fb8ef4224a9c298778f3ee2454a
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1260'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
-# 在画布功能板中构建KPI报告
+# 在画布仪表板中构建KPI报表
 
 >[!IMPORTANT]
 >
->画布功能板目前仅适用于参与Beta测试阶段的用户。 在此阶段，部分功能可能无法完成或无法按预期工作。 请按照“画布功能板测试版”概述文章中[提供反馈](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)部分的说明提交任何有关您体验的反馈。<br>
+>“画布面板”功能目前仅适用于参与Beta版阶段的用户。 在此阶段，该功能的某些部分可能无法完成或按预期工作。 请按照“画布仪表板Beta版概述”文章中[提供反馈](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)部分的说明提交有关您的体验的任何反馈。<br>
 >如果您对可能的错误或技术问题有反馈，请向Workfront支持提交票证。 有关详细信息，请参阅[联系客户支持](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
 >请注意，以下云提供商未提供此测试版：
 >
@@ -25,7 +25,7 @@ ht-degree: 1%
 >* Azure
 >* Google Cloud Platform
 
-您可以构建一个KPI报告并将其添加到画布功能板，该报表将关键绩效指标数据直观地表示为一个数字，然后您便可以使用该数字查看您的项目和团队的执行情况。
+您可以构建KPI报表并将其添加到“画布面板”中，该报表将主要绩效指标数据直观地表示为数字，然后您可以使用该报表查看项目和团队的执行情况。
 
 ![KPI报告示例](assets/kpi-example-main.png)
 
@@ -42,7 +42,7 @@ ht-degree: 1%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
-<p>任何 </p> 
+<p>“任一” </p> 
    </td> 
 <tr> 
  <tr> 
@@ -55,26 +55,26 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><p>访问级别配置</p></td> 
-   <td><p>编辑对报告、功能板和日历的访问权限</p>
+   <td><p>对报告、仪表板和日历的编辑访问权限</p>
   </td> 
   </tr>  
 </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中的信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 +++
 
 ## 先决条件
 
-在构建KPI报告之前，您必须创建一个功能板。
+您必须先创建控制面板，然后才能构建KPI报表。
 
-## 在画布功能板中构建KPI报告
+## 在画布仪表板中构建KPI报表
 
-有许多配置选项可用于构建KPI报表。 在本节中，我们将引导您完成创建规则库的常规过程。
+有许多配置选项可用于构建KPI报表。 在本节中，我们将向您介绍创建副本的一般过程。
 
 {{step1-to-dashboards}}
 
-1. 在左侧面板中，单击&#x200B;**画布功能板**。
+1. 在左侧面板中，单击&#x200B;**画布仪表板**。
 
 1. 单击右上角的&#x200B;**新建仪表板**。
 
@@ -107,13 +107,13 @@ ht-degree: 1%
 
 1. 按照以下步骤配置&#x200B;**筛选器**&#x200B;部分：
 
-   1. 在左侧面板中，单击&#x200B;**筛选器** ![筛选器图标](assets/filter-icon.png)图标。
+   1. 在左侧面板中，单击&#x200B;**滤镜** ![滤镜图标](assets/filter-icon.png)图标。
 
    1. 选择&#x200B;**编辑筛选器**。
 
-   1. 单击&#x200B;**添加条件**，然后指定要作为筛选依据的字段以及定义该字段必须符合何种条件的修饰符。
+   1. 单击&#x200B;**添加条件**，然后指定要作为筛选依据的字段以及定义该字段必须满足何种条件的修饰符。
 
-   1. （可选）单击&#x200B;**添加筛选器组**&#x200B;以添加另一组筛选条件。 集合之间的缺省运算符是AND。 单击运算符以将其更改为OR。
+   1. （可选）单击&#x200B;**添加筛选器组**&#x200B;以添加另一组筛选条件。 集合之间的缺省运算符是AND。 单击运算符将其更改为OR。
 
       有关筛选器的详细信息，请参阅[在画布仪表板中编辑报告筛选器](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)。
 
@@ -137,11 +137,11 @@ ht-degree: 1%
 
 在此部分中，我们将介绍创建显示待定文档审批的KPI报告的步骤。
 
-有关KPI报告示例的详细信息，请参阅[创建用于审阅和审批的报告仪表板](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)。
+有关KPI报表示例的详细信息，请参阅[创建报表仪表板以供审阅和审批](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)。
 
 {{step1-to-dashboards}}
 
-1. 在左侧面板中，单击&#x200B;**画布功能板**。
+1. 在左侧面板中，单击&#x200B;**画布仪表板**。
 
 1. 单击右上角的&#x200B;**新建仪表板**。
 
@@ -158,11 +158,11 @@ ht-degree: 1%
 1. 按照以下步骤配置&#x200B;**详细信息**&#x200B;部分：
 
    1. 在&#x200B;*名称*&#x200B;字段中键入&#x200B;**Pending**。
-   1. 在&#x200B;*描述*&#x200B;字段中键入&#x200B;**待处理审批**。 这会在KPI值下方显示为描述。
+   1. 在&#x200B;*描述*&#x200B;字段中键入&#x200B;**Pending approvals**。 这显示为KPI值下面的题注。
 
-1. 按照以下步骤配置&#x200B;**生成KPI**&#x200B;部分：
+1. 请按照以下步骤配置&#x200B;**构建KPI**&#x200B;部分：
 
-   1. 在左侧面板中，单击&#x200B;**生成KPI** ![生成KPI图标](assets/build-kpi-icon.png)。
+   1. 在左侧窗格中，单击&#x200B;**构建KPI** ![构建KPI图标](assets/build-kpi-icon.png)。
 
    1. 单击&#x200B;**选择字段**。
 
@@ -172,28 +172,28 @@ ht-degree: 1%
 
    1. 在&#x200B;**聚合类型**&#x200B;下拉列表中，选择&#x200B;**计数**。
 
-1. 按照以下步骤配置&#x200B;**筛选器**&#x200B;部分：
+1. 请按照以下步骤配置&#x200B;**筛选器**&#x200B;部分：
 
-   1. 在左侧面板中，单击&#x200B;**筛选器** ![筛选器图标](assets/filter-icon.png)图标。
+   1. 在左侧面板中，单击&#x200B;**滤镜** ![滤镜图标](assets/filter-icon.png)图标。
 
    1. 选择&#x200B;**编辑筛选器**。
 
    1. 单击&#x200B;**添加条件**。
 
-   1. 单击进入空条件筛选器，单击&#x200B;**选择字段**，然后选择&#x200B;**状态**。
-   1. 将运算符保留为&#x200B;**Equal**，然后在文本框中键入&#x200B;_等待审阅_。
-      ![待处理KPI过滤器示例](assets/pending-kpi-filter.png)
-1. 单击屏幕右上角的&#x200B;**保存**。
+   1. 单击空条件筛选器，单击&#x200B;**选择字段**，然后选择&#x200B;**状态**。
+   1. 将运算符保留为&#x200B;**等于**，然后在文本框中键入&#x200B;_等待审阅_。
+      ![挂起kpi筛选器示例](assets/pending-kpi-filter.png)
+1. 单击屏幕右上角的&#x200B;**“保存”**。
 
 ## 构建KPI报告时的注意事项
 
-### 带有财务数据的报表
+### 包含财务数据的报表
 
-在访问级别对财务数据具有“查看”或“编辑”权限的用户仍可在画布功能板可视化图表中查看财务数据，即使已在任务或项目级别删除了“查看财务”权限。
+在访问级别对财务数据具有“查看”或“编辑”访问权限的用户仍将在“画布面板”可视化中看到财务数据 — 即使在任务级别或项目级别移除了“查看财务”权限。
 
-* 在访问级别没有财务数据权限的用户在报表中看不到财务数据。
-* 查看财务数据的用户仅限于他们已具有查看权限（项目、任务、问题等）的记录。 他们不会看到他们无法访问记录的财务值。
-* 报表创建者应在功能板中包含财务数据时务必谨慎，并注意他们与谁共享功能板，以防止意外访问。
+* 在访问级别中不具备财务数据权限的用户，将无法在报告中看到财务数据。
+* 能够看到财务数据的用户，仅限于查看其本身已有权限访问的记录（如项目、任务、问题等）。对于无权访问的记录，用户将无法看到对应的财务数值。
+* 报告创建者在将财务数据包含到仪表板中时应谨慎，并注意仪表板的共享对象，以避免发生非预期的访问。
 
 这是一个已知的限制，我们计划尽快解决它。
 
@@ -205,21 +205,21 @@ ht-degree: 1%
 * **Workfront对象**：本机Workfront工作流对象。
 * **Planning记录类型**： Workfront Planning中定义的自定义记录类型。
 
-![分区下拉列表](assets/sections-dropdown.png)
+![节下拉列表](assets/sections-dropdown.png)
 
-选择基本实体对象后，**节**&#x200B;下拉列表会更新为可用的字段类型选项以供选择。
+选择基本实体对象后，**部分**&#x200B;下拉列表随后会更新适用的字段类型选项以供选择。
 
 * **所有节**：本机字段、自定义字段和相关对象。
 * **所有字段**：本机字段和自定义字段（不包括关系）。
-* **自定义字段**：自定义表单或Planning记录中的客户定义字段。
-* **Workfront字段**：仅本机字段。
-* **关系**：连接的记录。
+* **自定义字段**：自定义表单或Planning记录上的客户定义字段。
+* **Workfront字段**：仅限本机字段。
+* **关系**：已连接的记录。
 
 ![可报告对象选择](assets/reportable-objects-selection.png)
 
 ### 引用子对象
 
-其他列、筛选器选项和分组属性的可用关系通常仅限于Workfront对象层次结构中较高的对象，或者在报表的基本实体对象上具有单个选择。 这种情况有一些例外，其中包括：
+其他列、筛选器选项和分组属性的可用关系通常仅限于Workfront对象层次结构中更高的对象，或者对于报告的基本实体对象只有单个选项。 这种情况有一些例外，其中包括：
 
 * 项目>任务
 * 文档审批>文档审批阶段

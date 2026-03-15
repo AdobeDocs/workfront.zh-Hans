@@ -1,11 +1,11 @@
 ---
 title: 2024年第三季度发布时间框架内的其他增强功能
 description: 2024年第三季度发布时间框架内的其他增强功能
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
-source-git-commit: 0dd0230fd0a986276f775a00f1f23332373daf6f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -26,26 +26,26 @@ ht-degree: 0%
 
 我们将在未来几周内为产品内指南实施技术变更。 在我们尝试将此过渡的影响降至最低的同时，一些用户可能会遇到他们之前看到的指南。
 
-## Adobe统一体验现在可供更多Workfront组织使用
+## Adobe Unified Experience现在可供更多Workfront组织使用
 
 >[!NOTE]
 >
->* AdobeUnified Shell正在分阶段推出。 其他组织将登记到AdobeUnified Shell 24.10和25.1版本。
+>* Adobe Unified Shell正在分阶段推出。 其他组织将登记到Adobe Unified Shell 24.10和25.1版本。
 >* 预览版本： 2024年6月20日；面向指定客户的生产版本：随24.7版本（2024年7月18日）一起发布
 
-为了允许组织访问AdobeUnified Experience的优势，我们已经开始将其提供给现有的Workfront客户。
+为了让组织能够访问Adobe Unified Experience的好处，我们已经开始将其提供给现有的Workfront客户。
 
-AdobeUnified Experience包括：
+Adobe Unified Experience包括：
 
 * 通过Adobe Experience Cloud对所有Adobe应用程序进行单点登录
 * 用于在Workfront组织和环境之间切换的“组织切换器”
 * 包含Workfront页面、Adobe Experience Cloud首选项和Workfront配置文件的选项导航
 
-如果您的组织即将改用24.7版的Unified ExperienceAdobe，则Workfront管理员已收到一条关于更改的Announcement Center消息。
+如果贵组织即将改用24.7版本的Adobe Unified Experience，您的Workfront管理员已收到一条关于更改的Announcement Center消息。
 
-以前，Adobe统一体验仅适用于新的Workfront客户。
+以前，Adobe Unified Experience仅适用于新的Workfront客户。
 
-有关详细信息，请参阅[AdobeWorkfront的Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+有关详细信息，请参阅[适用于Workfront的Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 [观看此功能的视频演示。](https://video.tv.adobe.com/v/3412388/){target=_blank}
 
@@ -63,4 +63,4 @@ AdobeUnified Experience包括：
 
 团队和用户不包括在此更改中。 用户仍然可以查看团队和用户名。
 
-有关详细信息，请参阅[!DNL Adobe Workfront]对象概述文章中的[对对象的受限访问](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects)部分。
+有关详细信息，请参阅[对象概述文章中的](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects)对对象的受限访问[!DNL Adobe Workfront]部分。

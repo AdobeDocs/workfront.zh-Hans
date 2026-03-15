@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: burndown
 title: 调整燃尽图的大小并折叠燃尽图
 description: 您可以调整燃尽图表的大小或折叠该图表，以调整它在故事板上占用的空间。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: ad7ea883-987a-4278-8d24-7c1dd4e542a3
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 您对燃尽图表的大小或可见性所做的任何更改仅对您可见，并在清除浏览器缓存时重置。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,8 +30,8 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

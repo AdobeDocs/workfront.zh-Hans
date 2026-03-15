@@ -3,13 +3,13 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: 在Kanban展示板上的故事上使用标志
 description: 在 [!DNL Kanban] 展示板上，标记提供故事何时可以移动到下一个状态的可视指示。 这使得Kanban团队在跨状态移动故事时能够使用“拉取”方法而不是“推送”方法。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: e19a007d-737c-42d4-aa69-771d8a9e9fd8
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '476'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 0%
 
   有关故事状态的更多信息，请参阅[在Kanban展示板上的故事上使用标志](#updating-the-status-of-stories-and-subtasks)
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,13 +37,13 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> <p>标准</p> 
-   <p>工作或更高</p> </td> 
+   <p>工作版或更高版本</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 1. 转到[!UICONTROL Kanban]展示板，您要在该展示板上更改文章的标志。
 1. 展开故事拼贴以查看标志。
-默认情况下，每个文章的标志均设置为&#x200B;**[!UICONTROL 跟踪]**。
+默认情况下，每个文章的标志均设置为**[!UICONTROL 跟踪]**。
    ![看板卡](assets/agile-storycard-kanban-2021-350x308.png)
 
 1. 单击当前标志，然后从以下标志选项中选择：

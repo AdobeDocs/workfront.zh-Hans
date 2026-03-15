@@ -1,11 +1,11 @@
 ---
 title: 2024年第三季度发行版概述
 description: 本页介绍了2024年第三季度版本中包含的功能信息。 这些增强功能计划本季度在“生产”环境中提供。
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1831'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 * [财务管理增强功能](#financial-management-enhancements)
 * [集成增强功能](#integration-enhancements)
 * [项目增强功能](#project-enhancements)
-* [校对增强功能](#proofing-enhancements)
+* [校样增强功能](#proofing-enhancements)
 * [资源管理增强功能](#resource-management-enhancements)
 * [其他增强功能](#other-enhancements)
 
@@ -61,50 +61,50 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">业务规则现已可用</a></p>
-                        [!BADGE In Production &#x200B;]{type=Informational}
-                        <p>管理员现在可以在Workfront的“设置”区域中添加业务规则。</p>
-                        <p>业务规则允许您对Workfront对象应用验证，并阻止用户在满足某些条件时创建、编辑或删除对象。 规则是使用与自定义表单中的计算字段类似的公式构建的。</p>
+                        [！BADGE In production ]{type=Informative}
+                        <p>管理员现在可以在Workfront的设置区域中添加业务规则。</p>
+                        <p>业务规则允许您对Workfront对象应用验证，并防止用户在满足某些条件时创建、编辑或删除对象。 使用与自定义表单中的计算字段类似的公式来构建规则。</p>
                     </td>
-                    <td><p><b>在以下日期可用：</b></p>
+                    <td><p><b>在以下日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>预览版本： 2024年7月4日</p>
+                                <p>预览版本：2024年7月4日</p>
                             </li>
                             <li>
-                                <p>适用于所有客户的生产版本：使用24.7版本（2024年7月18日）</p>
+                                <p>适用于所有客户的生产版本：随24.7版本一起发布（2024年7月18日）</p>
                             </li>
                         </ul>
-                        <p><i>仅适用于具有新Ultimate计划的组织。</i></p>
+                        <p><i>仅适用于使用新终极计划的组织。</i></p>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">自定义表单设计器通常在Adobe Workfront中可用</a></p>
-                        [!BADGE In Production &#x200B;]{type=Informational}
-                        <p>在24.7版本中，表单设计器将正式可用，并且将成为在Adobe Workfront中创建和编辑自定义表单的默认体验。 创建新自定义表单或打开现有表单时，您将看到表单设计器的画布样式工作区。</p>
-                        <p>在此版本之后，您将无法再选择还原到旧版表单生成器。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">自定义表单设计器通常在Adobe Workfront中提供</a></p>
+                        [！BADGE In production ]{type=Informative}
+                        <p>在24.7版中，表单设计器将普遍可用，并将成为在Adobe Workfront中创建和编辑自定义表单的默认体验。 在创建新的自定义表单或打开现有表单时，您将看到表单设计器的“画布样式”工作区。</p>
+                        <p>此版本发布后，您将无法再选择恢复到旧版表单生成器。</p>
                     </td>
-                    <td><p><b>在以下日期可用：</b></p>
+                    <td><p><b>在以下日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>预览版本： 2024年6月19日</p>
+                                <p>预览版本：2024年6月19日</p>
                             </li>
                             <li>
-                                <p>适用于所有客户的生产版本：使用24.7版本（2024年7月18日）</p>
+                                <p>适用于所有客户的生产版本：随24.7版本一起发布（2024年7月18日）</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">在具有环境升级的Workfront环境之间移动对象</a></p>
-                        [!BADGE In Production &#x200B;]{type=Informational}
-                        <p>环境升级允许您将对象从一个Workfront环境移动到另一个环境，例如从沙盒环境移动到生产环境。 您可以配置和测试对象，而不会对组织的数据和记录造成任何风险。 然后，您可以将这些对象移动到生产环境，而无需重新配置它们，从而节省时间和精力。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">通过环境升级在Workfront环境之间移动对象</a></p>
+                        [！BADGE In production ]{type=Informative}
+                        <p>利用环境升级，您可以将对象从一个Workfront环境移动到另一个环境，例如从沙箱环境移动到生产环境。 您可以配置和测试对象，而不会对您组织的数据和记录造成任何风险。 然后，您可以将这些对象移至生产环境，而无需重新配置它们，从而节省时间和精力。</p>
                     </td>
-                    <td><p><b>在以下日期可用：</b></p>
+                    <td><p><b>在以下日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>适用于所有客户的生产版本：使用24.6版本（2024年6月13日）</p>
+                                <p>所有客户的生产版本：随24.6版本（2024年6月13日）一起发布</p>
                             </li>
                         </ul>
                     </td>
@@ -112,16 +112,16 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">在自定义表单设计器中共享自定义表单和自定义字段</a></p>
-                        [!BADGE In Production &#x200B;]{type=Informational}
-                        <p>现在，您可以在新的表单设计器中共享自定义表单和自定义字段。 这样可让用户在自定义表单上更好地协作。</p>
+                        [！BADGE In production ]{type=Informative}
+                        <p>现在，您可以在新的表单设计器中共享自定义表单和自定义字段。 这允许用户在自定义表单上更好地协作。</p>
                     </td>
-                    <td><p><b>在以下日期可用：</b></p>
+                    <td><p><b>在以下日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>预览版本： 2024年6月6日</p>
+                                <p>预览版本：2024年6月6日</p>
                             </li>
                             <li>
-                                <p><span class="preview">适用于所有客户的生产版本：6月13日</span></p>
+                                <p><span class="preview">所有客户的生产版本：6月13日</span></p>
                             </li>
                         </ul>
                     </td>
@@ -129,7 +129,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">从字段区域添加新的自定义字段</a></p>
-                        [!BADGE In Production &#x200B;]{type=Informational}
+                        [！BADGE In Production ]{type=Informational}
                         <p>您现在可以直接从Workfront中的字段区域添加新的自定义字段或构件，而无需打开自定义表单来创建字段。 这允许您快速创建可重用的自定义字段。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -138,7 +138,7 @@ ht-degree: 0%
                                 <p>预览版本： 2024年6月6日</p>
                             </li>
                             <li>
-                                <p>适用于所有客户的生产版本：使用24.7版本（2024年7月18日）</p>
+                                <p>适用于所有客户的生产版本：随24.7版本一起发布（2024年7月18日）</p>
                             </li>
                         </ul>
                     </td>
@@ -146,7 +146,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">表单设计器上可用的多选下拉字段类型</a></p>
-                        [!BADGE In Production &#x200B;]{type=Informational}
+                        [！BADGE In Production ]{type=Informational}
                         <p>为了帮助您更轻松地定义下拉字段，我们已将多选下拉字段添加到自定义表单设计器。 此字段类型允许用户从下拉列表中选择多个选项。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -182,7 +182,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">可用于项目和任务的可记帐和不可记帐费用字段</a></p>
-                        [!BADGE In Production &#x200B;]{type=Informational}
+                        [！BADGE In Production ]{type=Informational}
                         <p>为了帮助您更轻松地查看费用类型，在项目和任务中将费用分为可记帐和不可记帐费用。 以下字段可供您添加到视图和报告中：</p>
                         <ul>
                             <li><p>规划可记帐费用成本</p></li>
@@ -224,20 +224,20 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront for Experience Manager Assets和Assets Essentials改进</a></p>
-                        [!BADGE In Production &#x200B;]{type=Informational}
+                        [！BADGE In Production ]{type=Informational}
                         <p>我们对Workfront进行了以下改进，以便实现Experience Manager Assets和Assets Essentials集成：</p>
                         <ul>
-                            <li><p>该集成现在支持GCP作为云服务提供商。 以前支持AWS和Azure。</p></li>
+                            <li><p>集成现在支持GCP作为云服务提供商。 以前支持AWS和Azure。</p></li>
                             <li><p>通过集成发送到Experience Manager的文件的大小限制已增加到30 GB。 以前，限制为5 GB。</p></li>
                         </ul>
                     </td>
-                    <td><p><b>在以下日期可用：</b></p>
+                    <td><p><b>在以下日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>预览版本： 2024年6月27日</p>
+                                <p>预览版本：2024年6月27日</p>
                             </li>
                             <li>
-                                <p>面向所有客户的生产：使用24.7版本（2024年7月18日）</p>
+                                <p>所有客户的生产：使用24.7版（2024年7月18日）</p>
                             </li>
                         </ul>
                     </td>
@@ -264,8 +264,8 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">在标题或详细信息部分中编辑任务和问题的提交日期和条件</a></p>
-                        [!BADGE In Production &#x200B;]{type=Informational}
-                        <p>为了让您更轻松地更新任务和问题，我们现在添加了提交日期和条件字段作为选项，以添加到布局模板中的任务和问题标题和详细信息部分。 当这些字段被分配给修改后的布局模板时，用户现在可以从页面的标题或详细信息部分更新这些字段。</p>
+                        [！BADGE In Production ]{type=Informational}
+                        <p>为了便于您更新任务和问题，我们现已添加“提交日期”和“条件”字段，作为选项，可添加到布局模板中的任务和问题标题及“详细信息”部分。 当这些字段被分配给修改后的布局模板时，用户现在可以从页面的标题或详细信息部分更新这些字段。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -283,29 +283,29 @@ ht-degree: 0%
                  </tr>
                    <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">更多相关工作分配已添加到新任务工作流</a></p>
-                        [!BADGE In Production for Fast Release &#x200B;]{type=Positive}
-                        <p>在将任务添加到项目和项目任务列表时，我们已在“新建任务”框的“工作总揽”字段中添加了相同的功能，用于更相关的智能分配。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">已将更多相关任务添加到新任务工作流</a></p>
+                        [！BADGE for Fast Release ]{type=Positive}
+                        <p>在将任务添加到项目和项目任务列表时，我们已将更相关的智能工作分配的相同功能添加到“新建任务”框的“工作总揽”字段中。</p>
                     </td>
-                    <td><p><b>在以下日期可用：</b></p>
+                    <td><p><b>在以下日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>预览版本： 2024年2月13日</p>
+                                <p>预览版本：2024年2月13日</p>
                             </li>
                             <li>
-                                <p>用于快速发布的生产：使用24.5版本（2024年5月16日）</p>
+                                <p>针对快速版本的生产：24.5版（2024年5月16日）</p>
                             </li>
                         </ul>
-                    <p><i>此功能已从“预览”和“快速发布生产”中删除。</i></p>
+                    <p><i>此功能已从预览和快速发布作品中删除。</i></p>
                     </td>
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">更多相关的智能分配</a></p>
-                        [!BADGE In Production for Fast Release &#x200B;]{type=Positive}
-                        <p>我们更改了Workfront用于计算和建议智能任务分配的算法。 新算法适用于Workfront中分配任务的以下区域：任务列表、任务标题中的“任务”区域、“主页”和“摘要”面板。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">更相关的智能分配</a></p>
+                        [！BADGE for Fast Release ]{type=Positive}
+                        <p>我们更改了Workfront用于计算和建议智能任务分配的算法。 新算法适用于Workfront中分配任务的以下区域：任务列表、任务标题中的“工作总揽”区域、“主页”和“摘要”面板。</p>
                     </td>
-                    <td><p><b>在以下日期可用：</b></p>
+                    <td><p><b>在以下日期提供：</b></p>
                         <ul>
                             <li>
                                 <p>预览版本： 2023年12月21日</p>
@@ -339,7 +339,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         桌面校对查看器的<a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">安全更新</a></p>
-                        [!BADGE In Production &#x200B;]{type=Informational}
+                        [！BADGE In Production ]{type=Informational}
                         <p>Workfront Proof Desktop Proofing Viewer 2.1.35安全更新针对以前版本中发现的漏洞提供了安全错误修复。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -375,7 +375,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md">休息时间现已反映在工作负载均衡器中</a></p>
-                        [!BADGE In Production &#x200B;]{type=Informational}
+                        [！BADGE In Production ]{type=Informational}
                         <p>为了在任务的主要被分配人已计划休息时间时无缝地调整工作，工作负载均衡器现在在重新计算项目时间表时重新分配小时数给主要用户和次要用户。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -411,9 +411,9 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">对产品内指南的后端更改</a></p>
-                        <p>我们将在未来几周内为产品内指南实施技术变更。 在我们尝试将此过渡的影响降至最低的同时，一些用户可能会遇到他们之前看到的指南。</p>
+                        <p>我们将在接下来的几周内对产品内指南进行技术更改。 在我们尝试将此过渡的影响降至最低的同时，一些用户可能会遇到他们之前看到的指南。</p>
                     </td>
-                    <td><p><b>在以下日期可用：</b></p>
+                    <td><p><b>在以下日期提供：</b></p>
                         <ul>
                             <li>
                                 <p>面向所有客户的生产：逐步延长至2024年8月中旬</p>
@@ -424,26 +424,26 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe统一体验现在可供更多Workfront组织使用</a></p>
-                        [!BADGE In Production &#x200B;]{type=Informational}
-                        <p>为了让组织能够访问Adobe Unified Experience的好处，我们已经开始将其提供给现有的Workfront客户。 </p>
+                        [！BADGE In production ]{type=Informative}
+                        <p>为了让企业可以享用Adobe统一体验的好处，我们已经开始向现有Workfront客户提供。 </p>
                     </td>
-                    <td><p><b>在以下日期可用：</b></p>
+                    <td><p><b>在以下日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>预览版本： 2024年6月20日</p>
+                                <p>预览版本：2024年6月20日</p>
                             </li>
                             <li>
-                                <p>针对特定客户的生产：随24.7版一起提供（2024年7月18日）</p>
+                                <p>特定客户的生产：随24.7版（2024年7月18日）一起提供</p>
                             </li>
                          </ul>
-                         <span style="color: #ff0000;">Adobe Unified Shell正在分阶段推出。 其他组织将登记到Adobe Unified Shell 24.10和25.1版本。 </p>
+                         <span style="color: #ff0000;">AdobeUnified Shell正在分阶段推出。 其他组织将收录到24.10和25.1版本的AdobeUnified Shell。 </p>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">帮助按钮已从主导航栏中移除</a></p>
-                        [!BADGE In Production &#x200B;]{type=Informational}
-                        <p>为了统一不在Unified Shell上的用户的体验，已删除主导航栏上的“帮助”按钮。 此按钮未向Unified Shell上的用户提供，已链接到Workfront文档，并且与主菜单中所有用户都可用的类似“帮助”按钮一起冗余。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">帮助按钮已从主导航栏中删除</a></p>
+                        [！BADGE In production ]{type=Informative}
+                        <p>为统一未使用统一Shell的用户的体验，主导航栏上的“帮助”按钮已被删除。 此按钮未向Unified Shell上的用户提供，已链接到Workfront文档，并且与主菜单中所有用户都可用的类似“帮助”按钮一起冗余。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -458,8 +458,8 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">已改进具有有限对象访问权限的用户的UI体验</a></p>
-                        [!BADGE In Production &#x200B;]{type=Informational}
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">改进了对象访问受限的用户的UI体验</a></p>
+                        [！BADGE In Production ]{type=Informational}
                         <p>当用户无权访问对象时，该对象名称在Workfront中显示的任意位置用户都将看到“无权访问”。 这种改进的体验还适用于Workfront API。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -471,17 +471,17 @@ ht-degree: 0%
                                 <p>用于快速发布的生产：使用24.5版本（2024年5月16日）</p>
                             </li>
                             <li>
-                                <p>按季度发布的生产：24.7版（2024年7月18日）</p>
+                                <p>季度版本生产：随24.7版（2024年7月18日）一起发布</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">在2024年第三季度期间的外观更新</a></p>
-                        <p>在2024年第三季度内，我们将对Adobe Workfront应用程序各个区域的外观和工作方式进行细微的更新。 查看各个发行说明以了解具体发行日期。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">在2024年第三季度时间范围内的外观更新</a></p>
+                        <p>在2024年第三季度内，将对Adobe Workfront应用程序各个方面的外观和感觉进行小幅更新。 查看特定发行日期的个人发行说明。</p>
                     </td>
-                    <td><p><b>在以下日期可用：</b></p>
+                    <td><p><b>在以下日期提供：</b></p>
                         <ul>
                             <li>
                                 <p>预览版本：整个2024年第三季度发布时间范围</p>
@@ -499,9 +499,9 @@ ht-degree: 0%
 
 ### Workfront Fusion增强
 
-Workfront Fusion中的新增功能在2024年第三季度发布计划之外的“生产”环境中以一定节奏提供。 有关最新功能的详细信息，请参阅[Adobe Workfront Fusion发行活动](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
+Workfront Fusion的新增功能将在2024年第三季度发布计划之外陆续在生产中提供。 有关最新功能的更多信息，请参阅[Adobe Workfront Fusion发行活动](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
 
-### Workfront Scenario Planner增强
+### Workfront方案规划器增强功能
 
 此版本中目前没有Scenario Planner更新。 在有可用更新时，将更新此区域。
 

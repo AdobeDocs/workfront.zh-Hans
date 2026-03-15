@@ -4,13 +4,13 @@ content-type: reference
 navigation-topic: boards
 title: 讨论区电子邮件通知和首选项
 description: 当您添加到展示板并分配给您卡片时，Adobe Workfront展示板会向您发送电子邮件。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '207'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -20,17 +20,17 @@ ht-degree: 0%
 
 根据您的电子邮件通知设置，当您在已连接信息卡上的评论中被标记时，也会收到一封电子邮件。 有关详细信息，请参阅[修改您自己的电子邮件通知](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。 目前，在临时信息卡上标记为评论的用户不会收到电子邮件通知。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

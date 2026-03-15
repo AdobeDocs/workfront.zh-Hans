@@ -3,13 +3,13 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: 复制日历报告
 description: 如果您创建了日历，则可以复制该日历并将其用作新日历的起点。
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f72cf896-294f-4166-b731-eaec0c2156b1
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 此外，如果您对您不是所有者的日历具有[!UICONTROL 管理]访问权限，则可以复制该日历并成为复制的日历的所有者。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,8 +32,8 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -59,7 +59,7 @@ ht-degree: 0%
 ## 复制日历报告
 
 1. 转到要复制的日历。
-1. 单击“日历”下拉菜单旁边的&#x200B;**更多**&#x200B;菜单。
+1. 单击“日历”下拉菜单旁边的&#x200B;**更多**菜单。
    ![日历更多菜单](assets/more-menu-calendar.png)
 
 1. 从下拉列表中选择&#x200B;**[!UICONTROL 复制]**。 此时将复制日历，并将您带入新副本。

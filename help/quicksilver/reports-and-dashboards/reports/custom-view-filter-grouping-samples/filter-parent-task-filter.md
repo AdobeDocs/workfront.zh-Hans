@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 筛选器：显示父级任务
 description: 您可以应用下面的任务筛选器以显示工作任务。 工作任务是可以独立工作的任务，不是其他任务的父级任务。 在一个示例中，过滤器标识了可能是父任务的子任务。 在这种情况下，他们无法执行任务。
-author: Lisa and Jenny
+author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: 4c3956e1-59e0-4bf2-8739-8064271d6281
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '827'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -26,17 +26,17 @@ ht-degree: 0%
 >* 我们还建议您为项目名称添加分组，以使报告更易于阅读。 有关向报表中添加分组的更多信息，请参阅Adobe Workfront中的[分组概述](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)一文。
 >
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

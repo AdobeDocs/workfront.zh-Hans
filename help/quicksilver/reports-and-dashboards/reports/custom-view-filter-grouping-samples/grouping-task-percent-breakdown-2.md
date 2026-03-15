@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 分组：任务百分比细分2
 description: 在此自定义任务分组中，您可以显示按任务的完成百分比值范围分组的任务。 细分显示完成百分比值10%点增量：1-10%、11-20%等。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 7d5a40dd-d451-48c7-9323-af52aa387709
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!--Audited: 10/2024-->
 
-在此自定义任务分组中，您可以显示按任务的完成百分比值范围分组的任务。 细分显示完成百分比值10%点增量：1-10%、11-20%等。
+在此自定义任务分组中，您可以显示按完成百分比值范围分组的任务。 细目显示完成值的百分比为10%的增量：1-10%、11-20%等。
 
 以下分组按完成百分比值将项目组织为以下分组之一：
 
@@ -37,23 +37,23 @@ ht-degree: 0%
 
 ![task_10__breakdown_grouping.png](assets/task-10--breakdown-grouping-350x547.png)
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
-   <p>修改过滤器的参与者或请求 </p>
-   <p>用于修改报告的标准或计划</p>
+   <p>投稿人或请求修改筛选器 </p>
+   <p>标准或计划修改报告</p>
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 

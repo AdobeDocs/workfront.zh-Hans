@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 按多选自定义字段绘制报表图表
 description: 只有在您创建捕获多选自定义字段中选定选项的附加计算字段后，才能按多选自定义字段绘制报表的图表。
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: ce986a912c2ee231b9dc2e1c7a3e9587b20aa0ba
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '947'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -39,17 +39,17 @@ ht-degree: 0%
 >
 >已选择选项1的任务与已选择选项1和选项2的任务不会显示在相同的图表元素中。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -148,7 +148,7 @@ ht-degree: 0%
 1. 添加您创建的<strong>计算的多选字段</strong>作为您的分组。
 1. 选择<strong>图表</strong>选项卡，并将图表添加到您的报告中。
 
-   例如，选择一个&#x200B;**列**&#x200B;图表。
+   例如，选择一个&#x200B;**列**图表。
    <br>有关将图表添加到报表的信息，请参阅<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md#add-a-chart" class="MCXref xref">创建自定义报表</a>一文中的<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">将图表添加到报表</a>部分。
 1. 在&#x200B;**底部(X)轴**&#x200B;字段中，选择要显示在图表中的<strong>计算的多选字段</strong>。
 1. 单击<strong>保存+关闭</strong>。

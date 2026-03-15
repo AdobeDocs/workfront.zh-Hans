@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 筛选器：通过比较两个字段来消除列表中的项
 description: 您可以通过比较列表的两个字段来筛选列表中的项目。 例如，您可以仅显示任务的实际完成日期晚于计划完成日期的任务。
-author: Lisa and Jenny
+author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: 6a41db8e-1456-4031-bf2a-ca6d4111ad44
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '233'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -20,17 +20,17 @@ ht-degree: 0%
 
 您可以通过比较列表的两个字段来筛选列表中的项目。 例如，您可以仅显示任务的实际完成日期晚于计划完成日期的任务。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

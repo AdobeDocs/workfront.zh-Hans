@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: 设置文本模式报表中的日期格式
 description: 日期可以配置为在Adobe Workfront的报表和列表中以各种格式显示。 要建立日期格式，必须修改列中文本模式代码的valueformat行。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: ff0686aa-b306-4954-8f9b-3e98bf8cff22
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 0%
@@ -40,7 +40,7 @@ valuefield=plannedCompletionDate
 | **格式** | 示例  | ***valueformat=*** |
 |---|---|---|
 | MM/DD/YY | 10/11/18 | `atDate` |
-| MM/DD/YY时间 | 10/11/18中午12:00 | `longAtDate` |
+| MM/DD/YY时间 | 10/11/18 12:00pm | `longAtDate` |
 | MM/DD/YY | 10/11/18 | `shortAtDate` |
 | 月、日、年 | 2018年10月11日 | `mediumAtDate` |
 | DW、月、日、年 | 2018年10月11日星期一 | `partialAtDate` |

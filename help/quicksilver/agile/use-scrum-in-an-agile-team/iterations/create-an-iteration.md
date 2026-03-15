@@ -1,12 +1,12 @@
 ---
 product-area: agile-and-teams
 navigation-topic: iterations
-title: 创建迭代
-description: 迭代是Scrum敏捷团队规划工作容量的关键组件。 [!DNL Adobe Workfront] 允许Scrum Agile团队通过创建多个迭代以适应团队需求来管理其工作。
-author: Jenny
+title: 创建小版本
+description: 迭代是Scrum Agile团队规划工作能力的关键组成部分。 [!DNL Adobe Workfront] 允许Scrum Agile团队通过创建多个迭代来管理其工作，以满足团队需求。
+author: Courtney
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 2%
@@ -29,7 +29,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 包</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -62,12 +62,12 @@ ht-degree: 2%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 迭代名称]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL迭代名称]</strong></td> 
       <td>输入迭代的名称。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 目标]</strong></td> 
-      <td>添加任何迭代目标。</td> 
+      <td role="rowheader"><strong>[！UICONTROL Goal]</strong></td> 
+      <td>添加小版本的任何目标。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL 开始日期]</strong></td> 
@@ -75,14 +75,14 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL 结束日期]</strong></td> 
-      <td><p>输入迭代应结束的日期。 [!DNL Workfront]建议设置的结束日期从开始日期起不超过4周。</p><p>提示：请确保选择工作日作为结束日期。 燃尽图的计算只使用工作日。<br>默认情况下，燃尽图使用默认时间表来定义工作日（如<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">创建时间表</a>中所述）。 或者，要合并团队特定的非工作日，Agile团队可以选择使用替代计划（如<a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">创建Agile团队</a>中的“为燃尽图定义替代团队计划”中所述）。</p></td> 
+      <td><p>输入迭代应结束的日期。 [!DNL Workfront]建议将结束日期设置为自开始日期起不超过4周。</p><p>提示：请确保选择工作日作为结束日期。 燃尽图的计算中仅使用工作日。<br>默认情况下，燃尽图使用默认计划来定义工作日（如<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">创建计划</a>中所述）。 或者，为了纳入特定于团队的非工作日，Agile团队可以选择使用备用计划（如<a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">创建Agile团队</a>中的“定义燃尽图的备用团队计划”中所述）。</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 容量]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL Capacity]</strong></td> 
       <td> 指定迭代的容量。 这是您的团队在迭代中能够完成的点数或小时数。 您输入的数字必须等于或大于迭代中所有故事的总和中的点数或小时数。默认情况下，<br>[!DNL Workfront]使用50个容量预填充此字段。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 焦点]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL焦点]</strong></td> 
       <td>指定团队的焦点百分比。 如果团队的所有成员都将完全专注于此迭代，则焦点将为100%。默认情况下，<br>[!DNL Workfront]会使用100%预填充此字段。 </td> 
      </tr> 
     </tbody> 
@@ -104,7 +104,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
-> 在“积压”选项卡上规划迭代时，无法在“故事”或“问题”选项卡之间切换或添加其他任务。 创建开发周期后，您可以添加现有故事或问题。 有关详细信息，请参阅下面的“积压”选项卡[上的](#add-tasks-or-issues-to-an-existing-iteration-on-the-backlog-tab)将任务或问题添加到现有迭代。
+> 在“积压工作”选项卡上规划迭代时，无法在“文章”或“问题”选项卡之间切换或添加其他任务。 创建开发周期后，您可以添加现有故事或问题。 有关详细信息，请参阅下面的“积压”选项卡[上的](#add-tasks-or-issues-to-an-existing-iteration-on-the-backlog-tab)将任务或问题添加到现有迭代。
 
 
 1. 指定以下信息：
@@ -114,7 +114,7 @@ ht-degree: 2%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 迭代名称]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL迭代名称]</strong></td> 
       <td>指定迭代的名称。</td> 
      </tr> 
      <tr> 
@@ -122,19 +122,19 @@ ht-degree: 2%
       <td> 指定迭代应开始的日期。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 结束日期]</strong> </td> 
+      <td role="rowheader"><strong>[！UICONTROL结束日期]</strong> </td> 
       <td><p>指定迭代应结束的日期。 [!DNL Workfront]建议设置的结束日期从开始日期起不超过4周。</p><p>提示：请确保选择工作日作为结束日期。 燃尽图的计算只使用工作日。<br>默认情况下，燃尽图使用默认时间表来定义工作日（如<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">创建时间表</a>中所述）。 或者，要合并特定于团队的非工作日，Agile团队可以选择使用替代计划（如<a href="../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md" class="MCXref xref">为燃尽图使用替代团队计划</a>中所述）。</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 焦点]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL焦点]</strong></td> 
       <td>指定团队的焦点百分比。 如果团队的所有成员都将完全专注于此迭代，则焦点将为100%。<br>[!DNL Workfront]会使用您团队过去迭代的平均值预填充此字段。 如果这是您团队的第一个迭代，则默认情况下，此字段值为0。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><br><strong>[!UICONTROL 容量]</strong></td> 
-      <td> 指定迭代的容量。 这是您的团队在迭代中能够完成的点数或小时数。 您输入的数字必须等于或大于迭代中所有故事的总和中的点数或小时数。<br>[!DNL Workfront]会使用您团队过去迭代的平均值预填充此字段。 如果这是您团队的第一个迭代，则默认情况下，此字段值为0。</td> 
+      <td role="rowheader"><br><strong>[！UICONTROL容量]</strong></td> 
+      <td> 指定迭代的容量。 这是您的团队在迭代中能够完成的点数或小时数。 输入的数字必须等于或大于迭代中所有文章总数中的点数或小时数。<br>[!DNL Workfront]使用您的团队过去迭代的平均值预填充此字段。 如果这是您团队的第一个迭代，则默认情况下，此字段值为0。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><br><strong>[!UICONTROL 目标]</strong></td> 
+      <td role="rowheader"><br><strong>[！UICONTROL目标]</strong></td> 
       <td> 指定迭代的目标。 此字段不是必填字段。</td> 
      </tr> 
     </tbody> 
@@ -142,11 +142,11 @@ ht-degree: 2%
 
 1. 单击&#x200B;**[!UICONTROL 保存]。**&#x200B;已创建迭代。
 
-## 将任务或问题添加到积压工作选项卡上的现有迭代
+## 在“积压工作”选项卡上向现有迭代添加任务或问题
 
-1. 在&#x200B;**积压**&#x200B;选项卡中，单击&#x200B;**故事**&#x200B;或&#x200B;**问题**&#x200B;选项卡。
+1. 从&#x200B;**积压工作**&#x200B;选项卡中，单击&#x200B;**故事**&#x200B;或&#x200B;**问题**&#x200B;选项卡。
 
-1. 选择要添加到开发周期的故事或问题。 积压工作顶部的故事优先级别更高。
+1. 选择要添加到小版本的文章或问题。 积压工作最上面的故事被放在了更高的优先位置。
 
    ![移动工作项](assets/move-to-iteration.png)
 

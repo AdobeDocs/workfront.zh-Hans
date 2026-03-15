@@ -6,12 +6,12 @@ title: 隐藏内置报告
 description: Adobe Workfront提供了大量用户可以访问和查看的默认内置报告。 作为Workfront管理员，您可以修改用户的访问级别以隐藏内置报告，这样用户就无权访问它们。
 feature: System Setup and Administration
 role: Admin
-author: Nolan, Lisa
+author: Courtney, Lisa
 exl-id: d48b0dd7-933e-4e91-a2f1-8d64b1c6dbb3
-source-git-commit: ebdc4cef2d7054cd14002910872a1fc3deadad91
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 3%
+ht-degree: 12%
 
 ---
 
@@ -19,17 +19,17 @@ ht-degree: 3%
 
 Adobe Workfront提供了大量用户可以访问和查看的默认内置报告。 作为Workfront管理员，您可以修改用户的访问级别以隐藏内置报告，这样用户就无权访问它们。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td>任何</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td>“任一”</td> 
   </tr> 
   <tr> 
   <tr> 

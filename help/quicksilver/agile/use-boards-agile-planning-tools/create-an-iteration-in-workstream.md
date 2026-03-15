@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: boards
 title: 在工作流中创建迭代
 description: 迭代是为完成工作而保留的设定时间。 某些Agile团队可能会将开发周期称为冲刺。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 4%
@@ -32,7 +32,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 包</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -64,15 +64,15 @@ ht-degree: 4%
    <table style="table-layout:auto"> 
     <tbody> 
      <tr> 
-      <td><strong>[!UICONTROL 迭代名称]</strong></td> 
+      <td><strong>[！UICONTROL迭代名称]</strong></td> 
       <td>迭代的名称，如“Sprint 1”。</td> 
      </tr> 
      <tr> 
-      <td><strong>[!UICONTROL 迭代长度]</strong></td> 
+      <td><strong>[！UICONTROL迭代长度]</strong></td> 
       <td>迭代的长度，以天、周或月为单位。</td> 
      </tr>
      <tr> 
-      <td><strong>[!UICONTROL 开始日期]</strong></td> 
+      <td><strong>[！UICONTROL开始日期]</strong></td> 
       <td>迭代开始的日期。 根据迭代长度自动输入结束日期。</td> 
      </tr> 
     </tbody> 

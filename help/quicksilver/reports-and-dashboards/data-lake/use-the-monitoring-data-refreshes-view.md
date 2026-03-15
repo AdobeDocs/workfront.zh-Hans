@@ -3,9 +3,10 @@ product-area: reports and dashboards
 navigation-topic: data-connect
 title: 在Data Connect中使用监控数据刷新视图
 description: 借助Data Connect，Workfront管理员可以访问最近刷新期间对数据湖日期所做的最新更新的详细记录。
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 1bcb64fbcdf2cb8b40cb50e5a7d4f5768f3a712f
+exl-id: 230d1a30-2af9-4d2c-9ec1-34c3d4c080d4
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 2%
@@ -87,4 +88,3 @@ ht-degree: 2%
         <br><b>注意</b>：这与受CREATE、UPDATE或DELETE事件影响的记录总数不同，因为在两次刷新间隔内，同一记录可能会被多次创建和更新。  </td>
     </tr>
    </table>
-

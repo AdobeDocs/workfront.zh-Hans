@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 分组：按分组中所有对象通用的计算值组织列表结果
 description: 您可能希望在0-25、26-50、51-75、75-99和100的范围内查看按完成百分比分组的任务。 您可以使用文本模式创建分组以执行此操作。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 93b743ce-7e54-4a96-933b-912e2107a84f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 0%
 
 ![按计算值分组](assets/grouping-calculated-value-column-to-all-objects.png)
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

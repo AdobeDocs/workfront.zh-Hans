@@ -2,51 +2,51 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
-title: Agile规划工具概述：文章索引
-description: 当您使用临时信息卡和连接的信息卡创建展示板时，您可以利用展示板上的其他敏捷计划工具。
-author: Jenny
+title: 敏捷规划工具概述：文章索引
+description: 使用即席卡和连接的卡创建讨论区时，可以利用讨论区中的附加Agile规划工具。
+author: Courtney
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%
 
 ---
 
-# Agile规划工具概述：文章索引
+# 敏捷规划工具概述：文章索引
 
 <!-- Audited: 5/2025 -->
 
-当您使用临时信息卡和连接的信息卡创建展示板时，您可以利用其他敏捷规划工具。
+使用即席卡和连接的卡创建讨论区时，可以利用附加的Agile计划工具。
 
-适用于Kanban的工具包括：
+对看板有用的工具包括：
 
 * 列的WIP限制
-* 将卡片分组为泳道
-* 可用于积压工作的引入列
+* 将卡片分组到泳道中
+* 可用于积压工作的录入列
 
 对Scrum有用的工具包括：
 
-* 工作流和迭代展示板
-* 卡列表或积压
+* 工作流程和迭代讨论区
+* 卡列表或积压工作
 * 迭代量度
 
 >[!IMPORTANT]
 >
->工作流及其相关工具仅适用于特定客户组。
+>工作流及其相关工具仅适用于特定的客户组。
 
-您可以按照适合您和团队的方式使用任意或所有这些工具，而无需采用特定的Agile方法。
+您可以按照适合您和团队的方式使用其中任何或所有工具，而无需遵循特定的Agile方法。
 
 本节包含以下文章：
 
-* [管理展示板上的正在进行的工作(WIP)限制](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)
-* [将引入列添加到展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
-* [在展示板上使用组](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md)
-* [配置信息卡减少](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)
-* [将Agile团队Kanban卡迁移到Workfront展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
+* [管理讨论区上的在制品(WIP)限制](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)
+* [向讨论区添加引入列](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
+* [在讨论区中使用组](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md)
+* [配置卡衰减](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)
+* [将Agile团队看板卡迁移到Workfront讨论区](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
 * [管理工作流](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
-* [使用信息卡列表](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
+* [使用卡片列表](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
 * [在工作流中创建迭代](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
-* [在工作流展示板上配置积压](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md)
-* [查看迭代量度](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
+* [在工作流板上配置积压](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md)
+* [查看迭代度量](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
