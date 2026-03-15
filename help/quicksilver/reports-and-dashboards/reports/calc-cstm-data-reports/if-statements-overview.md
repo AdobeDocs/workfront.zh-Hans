@@ -57,7 +57,7 @@ ht-degree: 0%
 
 * **条件运算符** =此运算符可帮助您构建“IF”语句的条件。 例如，“等于”或“大于”是条件运算符。 有关可在语句中使用的条件运算符列表，请参阅计算自定义表达式中的[条件运算符](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md)。
 
-* **True****Expression** =这是“True”变量，它告知等式满足条件的条件（true指示器）后要显示的指示器。
+* **True**&#x200B;**Expression** =这是“True”变量，它告知等式满足条件的条件（true指示器）后要显示的指示器。
 
 * **False表达式** =这是“False”变量，它告知公式当不符合条件的条件（false指示符）时要显示的指示符。
 

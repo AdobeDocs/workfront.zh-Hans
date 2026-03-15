@@ -33,7 +33,7 @@ ht-degree: 0%
    <th><strong>状态</strong></th> 
   </tr>
   <tr>
-   <td>[！UICONTROL主菜单]中的[！UICONTROL展示板]区域</td>
+   <td>[!UICONTROL 主菜单]中的[!UICONTROL 展示板]区域</td>
    <td>已发布</td>
   </tr>
     <tr>
@@ -61,7 +61,7 @@ ht-degree: 0%
    <td>已发布</td>
   </tr>
   <tr>
-   <td>将[！UICONTROL正在工作]限制添加到列</td>
+   <td>将[!UICONTROL 正在工作]限制添加到列</td>
    <td>已发布</td>
   </tr>
   <tr>

@@ -25,7 +25,7 @@ ht-degree: 0%
 
 有关设置报告以进行传递的信息，请参阅文章[安排自动报告传递](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md)。
 
-您无法计划交付报告，也无法在“预览沙箱”环境中手动交付报告。 有关预览沙箱的详细信息，请参阅文章[ Adobe Workfront预览沙箱环境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)。\
+您无法计划交付报告，也无法在“预览沙箱”环境中手动交付报告。 有关预览沙箱的详细信息，请参阅文章[&#x200B; Adobe Workfront预览沙箱环境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)。\
 有关在预览沙箱环境中发送报告的详细信息，请参阅文章[在预览沙箱环境中发送报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/send-report-preview-sandbox-environment.md)。
 
 ## 报告投放限制

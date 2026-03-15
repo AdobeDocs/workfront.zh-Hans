@@ -54,10 +54,10 @@ ht-degree: 2%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL工作量平衡器]的[！UICONTROL Unassigned]和[！UICONTROL Assigned]工作区域中的任务</td> 
+   <td>[!UICONTROL 工作量平衡器]的[!UICONTROL Unassigned]和[!UICONTROL Assigned]工作区域中的任务</td> 
   </tr> 
    <tr> 
-   <td>[！UICONTROL时间表]中的任务</td> 
+   <td>[!UICONTROL 时间表]中的任务</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><b>问题</b></td> 
@@ -71,24 +71,24 @@ ht-degree: 2%
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[！UICONTROL Workload Balancer]的[！UICONTROL Assigned Work]区域中的问题</td> 
+   <td>[!UICONTROL Workload Balancer]的[!UICONTROL Assigned Work]区域中的问题</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[！UICONTROL Requests]区域的[！UICONTROL Submitted]部分的问题</td> 
+   <td>[!UICONTROL Requests]区域的[!UICONTROL Submitted]部分的问题</td> 
   </tr> 
 </tr> 
    <tr> 
-   <td>[！UICONTROL时间表]中的问题</td> 
+   <td>[!UICONTROL 时间表]中的问题</td> 
   </tr>
 
 <tr data-mc-conditions=""> 
    <td><b>文档</b></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[！UICONTROL文档]区域</td> 
+   <td>[!UICONTROL 文档]区域</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>任何对象（项目、任务、问题、项目、项目组合、模板、模板任务、用户）的[！UICONTROL文档]部分</td> 
+   <td>任何对象（项目、任务、问题、项目、项目组合、模板、模板任务、用户）的[!UICONTROL 文档]部分</td> 
   </tr> 
  </tbody> 
 </table>

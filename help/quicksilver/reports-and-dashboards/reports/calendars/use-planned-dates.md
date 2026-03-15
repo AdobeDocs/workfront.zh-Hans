@@ -82,16 +82,16 @@ ht-degree: 5%
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL Name this group of items]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Name this group of items]</strong></td>
       <td>键入项目组的名称。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL Color]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Color]</strong></td>
       <td>为项目组选择颜色。 所有项目都以选定的颜色显示在日历报告中。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL日期字段]</strong></td>
-      <td><p>选择<strong>[！UICONTROL计划日期]</strong>。 有关计划日期的详情，请参阅 </p>
+      <td role="rowheader"><strong>[!UICONTROL 日期字段]</strong></td>
+      <td><p>选择<strong>[!UICONTROL 计划日期]</strong>。 有关计划日期的详情，请参阅 </p>
        <ul>
         <li><a href="../../../manage-work/projects/planning-a-project/project-planned-start-date.md" class="MCXref xref">项目计划起始日期概览</a></li>
         <li><a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">任务计划起始日期概览</a></li>
@@ -103,14 +103,14 @@ ht-degree: 5%
       <td role="rowheader"><strong>在日历上，显示</strong></td>
       <td><p>选择日期的显示方式：</p>
        <ul>
-        <li><strong>[！仅限UICONTROL开始日期]</strong>：日历在单个日期显示对象。</li>
-        <li><strong>[！仅限UICONTROL结束日期]</strong>：日历在单个日期显示对象。</li>
-        <li><strong>[！UICONTROL Duration] （开始到结束）</strong>：日历显示对象的时间跨度（天）。</li>
+        <li><strong>[!UICONTROL 仅限开始日期]</strong>：日历在单个日期显示对象。</li>
+        <li><strong>[!UICONTROL 仅限结束日期]</strong>：日历在单个日期显示对象。</li>
+        <li><strong>[!UICONTROL Duration] （开始到结束）</strong>：日历显示对象的时间跨度（天）。</li>
        </ul></td>
      </tr>
      <tr data-mc-conditions="">
-      <td role="rowheader"><strong>[！UICONTROL切换到实际日期（如果可用）]</strong></td>
-      <td><p>当实际日期可用时，日历会自动切换为实际日期。 <br>选择“<strong>[！UICONTROL是]</strong>”或“<strong>[！UICONTROL否]</strong>”以切换为实际日期（如果可用）。 有关实际日期的详情，请参阅</p>
+      <td role="rowheader"><strong>[!UICONTROL 切换到实际日期（如果可用）]</strong></td>
+      <td><p>当实际日期可用时，日历会自动切换为实际日期。 <br>选择“<strong>[!UICONTROL 是]</strong>”或“<strong>[!UICONTROL 否]</strong>”以切换为实际日期（如果可用）。 有关实际日期的详情，请参阅</p>
        <ul>
         <li><a href="../../../manage-work/projects/planning-a-project/project-actual-start-date.md" class="MCXref xref">项目实际起始日期概览 </a></li>
         <li><a href="../../../manage-work/projects/planning-a-project/project-actual-completion-date.md" class="MCXref xref">项目实际完成日期概览 </a></li>

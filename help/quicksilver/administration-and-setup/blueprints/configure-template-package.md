@@ -89,15 +89,15 @@ ht-degree: 1%
 
    <table style="table-layout:auto">
     <tr>
-        <td><strong>[！UICONTROL模板所有者]<strong></td>
-        <td>此人将获得模板的[！UICONTROL管理]权限，并在使用模板创建项目时成为项目所有者。</td>
+        <td><strong>[!UICONTROL 模板所有者]<strong></td>
+        <td>此人将获得模板的[!UICONTROL 管理]权限，并在使用模板创建项目时成为项目所有者。</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL模板发起人]</strong></td>
+        <td><strong>[!UICONTROL 模板发起人]</strong></td>
         <td>此人通常是需要了解项目进展情况的经理、执行人员或利益相关者。 项目发起人不再获得对项目的任何其他访问权限，而是添加到项目的电子邮件通知中。</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL Portfolio]</strong></td>
+        <td><strong>[!UICONTROL Portfolio]</strong></td>
         <td>这是项目创建后所属的作品集。</td>
     </tr>
     <tr>
@@ -132,7 +132,7 @@ ht-degree: 1%
 
    >[!INFO]
    >
-   >**示例：**此蓝图中的新问题首选项提供了四个队列主题。 用户在创建问题时选择以下主题之一。 （由于仅存在一个主题组，因此会自动应用该主题组，而用户不必选择它。） 当用户完成并提交问题后，传送规则将确定分配给哪个任务职责或小组。
+   >**示例：**&#x200B;此蓝图中的新问题首选项提供了四个队列主题。 用户在创建问题时选择以下主题之一。 （由于仅存在一个主题组，因此会自动应用该主题组，而用户不必选择它。） 当用户完成并提交问题后，传送规则将确定分配给哪个任务职责或小组。
    >![新问题偏好设置示例](assets/Blueprints_IssuePrefsDetails.png)
    >![对新问题进行排队](assets/blueprints-newissueqtopicsexample-350x204.png)
    >![问题已路由到工作角色](assets/Blueprints_ProjectShowsIssueAssignment.png)
