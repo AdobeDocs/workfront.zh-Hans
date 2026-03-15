@@ -6,9 +6,9 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1502'
 ht-degree: 0%
 
 ---
@@ -161,7 +161,7 @@ ht-degree: 0%
 
   >[!IMPORTANT]
   >
-  >尽管我们支持.XLSX和.CSV文件类型，但它们不能用于通过Planning Designer进行大规模记录导入。
+  >虽然我们支持.XLSX文件类型，但它们不能用于通过Planning Designer进行大规模记录导入。
   >如果此时需要导入大量记录，我们建议您使用Planning中提供的手动功能进行导入。
   >
   >有关详细信息，请参阅[通过从CSV或Excel文件导入信息来创建记录](/help/quicksilver/planning/records/import-file-to-create-records.md)。
