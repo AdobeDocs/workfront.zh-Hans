@@ -8,9 +8,9 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: 78ad910e8d121dda38c9a7da27b0b338e0e1dcda
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1360'
 ht-degree: 2%
 
 ---
@@ -26,8 +26,8 @@ ht-degree: 2%
 
 请求区域根据您选择的查看方式显示以下请求：
 
-* 使用旧版Experience时的Workfront请求
-* 使用新Experience时Workfront以及Planning请求。
+* 使用旧版体验时Workfront请求
+* 使用新体验时，满足Workfront和Planning请求。
 
   >[!NOTE]
   >
@@ -45,7 +45,9 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 包</td> 
-   <td> <p>“任一” </p> </td> 
+   <td> <p>任何Adobe Workfront或Adobe Workflow包</p> 
+   <p>任何Adobe Workfront规划包</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -61,10 +63,12 @@ ht-degree: 2%
    <td role="rowheader">对象权限</td> 
    <td><p>查看请求中的权限或更高版本</p></td> 
   </tr> 
-  <tr> 
-   <td role="rowheader"> 产品</td> 
-   <td> <ul><li>Adobe Workfront</li><li>您必须拥有Adobe Workfront Planning才能查看Planning请求或请求表单</td> 
+  <!--
+  tr> 
+   <td role="rowheader"> Product</td> 
+   <td> <ul><li>Adobe Workfront</li><li>You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
   </tr> 
+  -->
  </tbody> 
 </table>
 
@@ -72,16 +76,16 @@ ht-degree: 2%
 
 +++
 
-## 在请求区域查看已提交的请求
+## 在“请求”区域中查看已提交的请求
 
-根据您使用的是新请求体验还是旧请求体验，查看已提交的请求会有所不同。
+根据您使用的是新请求体验还是旧版请求体验，查看提交的请求会有所不同。
 
 * [在新的请求体验中查看已提交的请求](#view-submitted-requests-in-the-new-requesting-experience)
-* [在旧版中查看已提交的请求请求体验](#view-submitted-requests-in-the-legacy-requesting-experience)
+* [在旧版请求体验中查看已提交的请求](#view-submitted-requests-in-the-legacy-requesting-experience)
 
 ### 在新的请求体验中查看已提交的请求
 
-您可以在“请求”区域中查看已提交的请求，其中包括到Planning请求创建的对象的链接。
+您可以在“请求”区域中查看已提交的请求，其中包含指向Adobe Workfront Planning请求创建的对象的链接。
 
 >[!NOTE]
 >
@@ -105,7 +109,7 @@ ht-degree: 2%
 1. （可选）单击&#x200B;**视图**&#x200B;下拉菜单以更新您的视图或将其与其他人共享。
 
    有关信息，请参阅[在请求区域](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)中创建或编辑视图。
-1. （可选）通过检查&#x200B;**状态**&#x200B;列来检查请求的状态。 新请求体验中提供了以下状态：
+1. （可选）通过检查&#x200B;**状态**&#x200B;列来检查请求的状态。 新的请求体验中提供了以下状态：
 
    * **草稿**：此请求尚未提交。
    * **等待审阅**： （仅限Planning）此请求具有批准者，并且没有批准者打开该请求。
@@ -151,7 +155,7 @@ ht-degree: 2%
          <td role="rowheader">名称</td> 
          <td> <p>请求的名称。</p> <p>单击请求的名称以将其打开。 </p> <p><b>提示</b>
 
-   如果问题在转换为任务或项目时未保留，则问题的名称会变暗且无法再单击。 有关转换问题的信息，请参阅<a href="../../../manage-work/issues/convert-issues/convert-issues.md" class="MCXref xref">在Adobe Workfront中转换问题的概述</a>。 </p> </td>
+   如果问题在转换为任务或项目时未保留，则问题的名称将灰显且无法再单击。 有关转换问题的信息，请参阅<a href="../../../manage-work/issues/convert-issues/convert-issues.md" class="MCXref xref">Adobe Workfront中的转换问题概述</a>。 </p> </td>
    </tr> 
       <tr> 
          <td role="rowheader">已转换为</td> 
@@ -186,17 +190,17 @@ ht-degree: 2%
 
    >[!TIP]
    >
-   >如果“摘要”面板已经打开，则“打开摘要”图标将变为“关闭摘要”。
+   >如果“摘要”面板已打开，则“打开摘要”图标将变为“关闭摘要”。
 
 1. （可选且有条件）单击右上角的&#x200B;**X**&#x200B;图标或&#x200B;**关闭摘要**&#x200B;图标![关闭包含文本的摘要](assets/close-summary-with-text-nwe.png)以关闭摘要面板。
 
-   如果问题被转换为任务或项目，并且该问题在转换过程中被删除，则“摘要”面板为空白。 有关转换问题的信息，请参阅[在Adobe Workfront中转换问题的概述](../../../manage-work/issues/convert-issues/convert-issues.md)。
+   如果问题已转换为任务或项目，且该问题已在转换过程中删除，则“摘要”面板为空。 有关转换问题的信息，请参阅[Adobe Workfront中的转换问题概述](../../../manage-work/issues/convert-issues/convert-issues.md)。
 
-1. 从列表右上角的&#x200B;**过滤器图标** ![过滤器图标](assets/filter-nwepng.png)中，选择下表中列出的任何过滤器。
+1. 从列表右上角的&#x200B;**筛选器图标** ![筛选器图标](assets/filter-nwepng.png)中，选择下表中列出的任一筛选器。
 
    >[!TIP]
    >
-   >您不能在请求区域的已提交分区中修改筛选器。
+   >您不能修改“请求”区域的“已提交”部分中的过滤器。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -218,14 +222,14 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader">我的未结请求</td> 
-      <td> <p>您提交的请求仍然处于打开状态。 </p> <p>不具有实际完成日期或其解析对象不具有实际完成日期的请求将列在我的打开请求子选项卡中。 </p> <p><b>提示</b>
+      <td> <p>您提交的请求仍然处于打开状态。 </p> <p>没有实际完成日期或其解决对象没有实际完成日期的请求列在“我的未结请求”子标签中。 </p> <p><b>笔尖</b>
 
-   未处于已关闭状态的请求会被视为未完成。</p> </td>
+   未处于“已关闭”状态的请求将被视为未完成。</p> </td>
    </tr> 
     </tbody> 
    </table>
 
-1. （可选）单击列表顶部的&#x200B;**筛选器页面**&#x200B;图标![搜索图标](assets/search-icon.png)以按名称搜索请求。 列表会更新为符合搜索条件的结果。
+1. （可选）单击列表顶部的&#x200B;**筛选页面**&#x200B;图标![搜索图标](assets/search-icon.png)，按名称搜索请求。 列表将更新符合搜索条件的结果。
 
    <!--
 
@@ -255,7 +259,7 @@ ht-degree: 2%
    </ul></li>
    -->
 
-1. 单击&#x200B;**草稿**&#x200B;查看所有草稿的请求。 Workfront会为此文件夹中的每个请求队列保存无限数量的草稿。 为已具有草稿的队列主题输入新请求时，系统将提示您使用现有的草稿。 有关详细信息，请参阅[从草稿创建请求](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)。
+1. 单击“**草稿**”以查看所有草稿请求。 Workfront会为此文件夹中的每个请求队列保存无限数量的草稿。 为已具有草稿的队列主题输入新请求时，系统将提示您使用现有的草稿。 有关详细信息，请参阅[从草稿创建请求](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)。
 
    <!--Planning tab has been removed and no longer visible in legacy Requests area: 
    (Optional and conditional) If your organization purchased a Workfront Planning package, click the **Planning** tab, then click **Submitted** in the left panel to view Workfront Planning requests. 

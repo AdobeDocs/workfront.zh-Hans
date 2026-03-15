@@ -2,11 +2,11 @@
 product-area: requests
 navigation-topic: create-requests
 title: 在请求区域创建和管理视图
-description: 如果您使用的是新的请求体验，则可以创建和保存请求区域的视图。
+description: 如果您正在使用新的请求体验，则可以为“请求”区域创建和保存视图。
 author: Alina
 feature: Work Management
 exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: 78ad910e8d121dda38c9a7da27b0b338e0e1dcda
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 2%
@@ -14,14 +14,11 @@ ht-degree: 2%
 ---
 
 
-# 在请求区域创建和管理视图
+# 在“请求”区域中创建和管理视图
 
-<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<span class="preview">此页面上的信息涉及尚未普遍提供的功能。 它仅在“预览”环境中对所有客户可用。 在按月发布到生产环境后，启用了快速发布的客户还可以在生产环境中使用相同的功能。</span>
 
 <span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
-
-
 
 
 如果您在Adobe Workfront中使用新的请求体验，则可以创建和保存请求区域的视图。 这些视图包括筛选器和列安排。
@@ -47,7 +44,10 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 包</td> 
-   <td> <p>“任一” </p> </td> 
+   <td> <p>任何Workfront或工作流包</p>
+
+<p>任何Worfront Planning许可证，以在请求列表中查看Workfront Planning请求</p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -59,10 +59,12 @@ ht-degree: 2%
    <td role="rowheader">访问级别配置</td> 
    <td> <p>编辑对问题的访问权限</p>  <p>您必须是Workfront管理员才能将视图添加到布局模板</td> 
   </tr> 
+  <!--
   <tr> 
-   <td role="rowheader"> 产品</td> 
-   <td> <ul><li>Adobe Workfront</li><li>您必须拥有Adobe Workfront Planning才能查看Planning请求或请求表单</td> 
-  </tr> 
+   <td role="rowheader"> Product</td> 
+   <td> <ul><li>Adobe Workfront</li><li>You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
+   </tr> 
+   -->
  </tbody> 
 </table>
 
@@ -72,9 +74,9 @@ ht-degree: 2%
 
 ## 创建请求视图
 
-使用新的请求体验时，您可以在Workfront的请求区域中创建视图。
+使用新的请求体验时，您可以在Workfront的请求区域创建一个视图。
 
-1. 要访问请求列表，请执行以下操作：
+1. 要访问“请求”列表，请执行以下操作：
 
    {{step1-to-requests}}
 
@@ -97,9 +99,9 @@ ht-degree: 2%
 * 过滤器
 * 列
 
-您对视图所做的更改对您共享该视图的所有用户都可见。
+您对视图所做的更改对与其共享该视图的所有对象可见。
 
-1. 要在请求中访问请求列表，请执行以下操作：
+1. 要访问“请求”中的请求列表，请执行以下操作：
 
    {{step1-to-requests}}
 
@@ -111,10 +113,10 @@ ht-degree: 2%
 1. 单击&#x200B;**视图**&#x200B;下拉列表![视图下拉列表](assets/view-icon-requests.png)，然后选择要编辑的视图。
 1. 要将字段添加为列，请单击列表右上角的&#x200B;**添加列**&#x200B;图标![添加列](assets/add-column.png)。
 
-   **列管理器**&#x200B;打开。
-1. 单击要作为列添加到视图的字段旁边的加号图标，然后单击&#x200B;**保存**。
+   将打开&#x200B;**列管理器**。
+1. 单击要作为列添加到视图中的字段旁边的加号图标，然后单击“**保存**”。
 
-   与列表中对象关联的字段可添加为列。<!--keeping this general, and not referring to custom fields because there are some native fields that are supported and there will be more in the future-->
+   与列表中对象关联的字段可以添加为列。<!--keeping this general, and not referring to custom fields because there are some native fields that are supported and there will be more in the future-->
 
    >[!TIP]
    >
@@ -137,8 +139,8 @@ ht-degree: 2%
 
    您还可以按已添加到视图的任何字段对该视图中可见的任何对象进行过滤。
 
-   您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;加入的筛选器。
-在添加筛选条件时，将自动筛选请求列表。
+   您可以有多个&#x200B;**And**&#x200B;或&#x200B;**Or**加入的筛选器。
+添加过滤条件时，将自动过滤请求列表。
 
 
 <!--
@@ -150,7 +152,7 @@ ht-degree: 2%
 >
 > * 对视图的更改会自动保存。
 > * 对视图的更改对使用该视图的任何人都可见。
-> * 在任何以用户作为值的字段中使用&#x200B;**Me（已登录的用户）**&#x200B;筛选器通配符。
+> * 在任何以用户作为值的字段中使用&#x200B;**Me（已登录用户）**&#x200B;筛选器通配符。
 
 ## 将请求视图添加到布局模板。
 
@@ -172,4 +174,4 @@ Workfront管理员可以将新视图添加到布局模板。
 1. 在&#x200B;**共享**&#x200B;框中，输入要与其共享视图的人员、团队、角色、组或公司，然后在它们出现时从列表中选择它们。
 1. 单击&#x200B;**保存**。
 
-   视图将与您指定的实体共享。 用户可以在共享视图之前查看您为该视图编辑的更新视图元素。 <span class="preview">如果他们更新视图，其他人将无法看到他们的更改，除非他们制作同一视图的副本并在共享副本之前保留其更改。 有关详细信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。</span>
+   该视图与所指示的实体共享。 他们可以在共享视图之前查看您为该视图编辑的已更新视图元素。 <span class="preview">如果他们更新视图，他们的更改将不会对其他人可见，除非他们制作同一视图的副本并在共享副本之前保留其更改。 有关详细信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。</span>
