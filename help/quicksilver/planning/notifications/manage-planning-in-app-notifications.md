@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
+source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '416'
 ht-degree: 1%
 
 ---
@@ -155,8 +155,16 @@ OLD:
 
 ## 在请求和授予权限时管理应用程序内通知
 
-当有人请求或授予您查看或工作区的权限时，您会收到应用程序内通知。<!--<span class="preview">or record</span>-->
+当有人请求或授予您查看、工作区或记录类型的权限时，您会收到应用程序内通知。<!--<span class="preview">or record</span>-->
 
 有关请求、授予或拒绝权限的信息，请参阅[请求视图或工作区的权限](/help/quicksilver/planning/access/request-permissions.md)。
 
 有关管理Workfront Planning通知的信息，请参阅[管理Adobe Workfront Planning通知首选项](/help/quicksilver/planning/notifications/manage-notification-preferences.md)。
+
+## 在批准或拒绝Planning请求时管理应用程序内通知
+
+在以下情况下，您会收到应用程序内通知：有人提交请求以供审批，或者有人批准您提交的请求。
+
+有关提交请求的信息，请参阅[提交Adobe Workfront计划请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。
+
+有关批准请求的信息，请参阅[在Adobe Workfront规划中批准请求](/help/quicksilver/planning/requests/approve-request.md)。

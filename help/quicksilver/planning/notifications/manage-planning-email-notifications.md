@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
+source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '657'
 ht-degree: 1%
 
 ---
@@ -156,7 +156,7 @@ OLD:
    记录详细信息页面将在Workfront中打开。 您可以更新记录或回复评论。
 
 1. （视情况而定）如果可用，请单击&#x200B;**查看所有通知**。 <!--check with Lilit - do non-IMS users have this button??-->
-将在Adobe Experience Cloud中打开&#x200B;**通知**&#x200B;页面。 将显示来自所有Adobe Experience Cloud应用程序的所有通知。
+将在Adobe Experience Cloud中打开**通知**&#x200B;页面。 将显示来自所有Adobe Experience Cloud应用程序的所有通知。
 
 ## 在请求和授予权限时管理电子邮件通知
 
@@ -167,7 +167,7 @@ OLD:
    您请求权限的对象将在Workfront中打开。
 
 1. （视情况而定）如果可用，请单击&#x200B;**查看所有通知**。
-将在Adobe Experience Cloud中打开&#x200B;**通知**&#x200B;页面。 将显示来自所有Adobe Experience Cloud应用程序的所有通知。
+将在Adobe Experience Cloud中打开**通知**&#x200B;页面。 将显示来自所有Adobe Experience Cloud应用程序的所有通知。
 
 
 有关请求、授予或拒绝权限的信息，请参阅[请求视图或工作区的权限](/help/quicksilver/planning/access/request-permissions.md)。
@@ -180,6 +180,13 @@ OLD:
 在您提交请求之后，或者在您提交的请求已被批准或拒绝之后。 电子邮件的发件人为Adobe Workfort。
 
 1. （可选）单击&#x200B;**打开请求**。 该操作将在Workfront Planning中打开请求。
+
+1. 在请求的右上角，单击&#x200B;**审核并批准**&#x200B;按钮，然后单击以下任一项：
+
+   * **批准**&#x200B;以批准请求。 批准Planning请求时将创建一个记录。
+   * **拒绝**&#x200B;以拒绝请求。 当您在Workfront Planning中拒绝请求时，不会创建任何记录。 请求保存在“请求”区域中，状态为&#x200B;**已拒绝**。
+
+   计划请求上的![审核和批准按钮](assets/review-approval-button-with-drop-down-expanded.png)
 
 1. 单击屏幕右上角的&#x200B;**通知**&#x200B;图标![通知区域图标Unified Shell](assets/notifications-area-icon-unified-shell.png)以访问&#x200B;**通知**&#x200B;页面。
 

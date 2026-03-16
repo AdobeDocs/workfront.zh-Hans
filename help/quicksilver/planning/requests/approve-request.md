@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '987'
 ht-degree: 1%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 1%
 
 +++
 
-## 批准创建记录的请求
+## 批准创建记录的Planning请求
 
 用户将请求添加到与批准关联的记录类型请求表单后，该请求将发送给批准者。
 
@@ -93,32 +93,34 @@ ht-degree: 1%
 * 应用程序内通知
 * 电子邮件通知
 
+有关批准通知中的请求的信息，请参阅以下文章：
+
+* [管理Adobe Workfront Planning电子邮件通知](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md)
+* [管理Adobe Workfront Planning应用程序内通知](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md)
+
 >[!NOTE]
 >
 >贵组织的Workfront实例必须载入到Adobe Unified Experience，用户才能接收电子邮件和应用程序内通知。
 
 您可以批准请求，以从请求本身创建记录，或从主页的“我的批准”小组件创建记录。
 
-* [在Workfront Planning中批准来自请求的请求](#approve-a-request-from-the-request-in-workfront-planning)
-* [在主页中批准我的审批小部件中的请求](#approve-a-request-from-the-my-approvals-widget-in-home)
+### 批准来自通知或请求区域的计划请求
 
-### 在Workfront Planning中批准来自请求的请求
+1. 通过执行以下操作之一打开请求：
 
-1. （视情况而定）如果您在Workfront中使用旧版请求体验，请通过执行以下操作之一打开该请求：
-
-   * 如果您有权访问Workfront Planning并且可以查看至少一个工作区，请单击屏幕右上角的&#x200B;**主菜单** ![圆点主菜单](assets/dots-menu.png)，或单击左上角的&#x200B;**主菜单** ![行主菜单](assets/lines-menu.png)（如果可用），然后单击&#x200B;**请求** > **已提交** > **Planning**，然后单击状态为&#x200B;**待审核**&#x200B;或&#x200B;**审核中**&#x200B;的请求。
+   * 单击左上角的&#x200B;**主菜单** ![行主菜单](assets/lines-menu.png)，然后单击&#x200B;**请求** > **使用新体验**，然后单击状态为&#x200B;**待审核**&#x200B;的请求。
 
      >[!TIP]
      >
-     >如果您无权访问Workfront Planning，或无权查看任何工作区，则只能使用电子邮件或应用程序内通知访问批准请求。
+     >* 如果您无权访问Workfront Planning，或无权查看任何工作区，则只能使用电子邮件或应用程序内通知访问批准请求。
+     >* 您无法从旧版请求体验访问Planning请求。
 
    * 单击屏幕右上角的Unified Shell中的&#x200B;**通知**&#x200B;区域图标![通知区域图标](assets/notifications-area-icon-unified-shell.png)，然后单击有关待您审批的请求的通知以打开请求。
-   * 转到电子邮件中的电子邮件通知，通知您某个请求等待您审批，然后单击&#x200B;**打开请求**&#x200B;以打开该请求。<!--add the name of the button here, from the email-->
+   * 转到电子邮件中的电子邮件通知，通知您某个请求等待您审批，然后单击&#x200B;**打开请求**&#x200B;以打开该请求。
 
    请求页面将以只读模式打开。
 
    ![处于审核状态的只读请求页面](assets/read-only-reqeust-page-in-review-status.png)
-1. 如果您在Workfront中使用新的请求体验，请单击屏幕右上角的&#x200B;**主菜单** ![圆点主菜单](assets/dots-menu.png)，或左上角的&#x200B;**主菜单** ![行主菜单](assets/lines-menu.png)（如果可用），然后单击&#x200B;**请求**，然后单击您要审批的请求并显示&#x200B;**待审核**&#x200B;状态。
 1. （可选）单击请求右上角的&#x200B;**批准**&#x200B;图标![批准图标](assets/approvals-icon.png)以查看批准者。
 1. 单击&#x200B;**审核并批准**，然后选择以下选项之一：
 
@@ -132,21 +134,20 @@ ht-degree: 1%
    * **已完成**：请求已被批准。
    * **已拒绝**：请求被拒绝。
 
-   该请求仍保留在Workfront的请求区域中。
+   该请求保留在Workfront的&#x200B;**请求**&#x200B;区域中。
 
 ### 在主页中批准我的审批小部件中的请求
 
 {{step1-to-home}}
 
-或
+1. 转到&#x200B;**主页**&#x200B;中的&#x200B;**我的审批**&#x200B;构件。
 
-单击Adobe Workfront左上角的[!UICONTROL 主页]图标![主页图标](/help/_includes/assets/home-icon-30x29.png)，然后找到我的审批小组件。
+   ![我的审批小组件位于主页](assets/my-approvals-widget-in-home.png)
+1. 找到要批准或拒绝的Planning请求。
 
-1. 找到要批准或拒绝的对象。
+1. （可选）通过单击&#x200B;**批准**&#x200B;或&#x200B;**拒绝**&#x200B;旁边的下拉箭头，键入注释并单击&#x200B;**添加**&#x200B;来添加评论。
 
-1. （可选）通过单击“批准”或“拒绝”旁边的下拉箭头，在注释中键入并单击“添加”来添加注释。
-
-1. 选择下列选项之一：
+1. 单击下列选项之一：
 
    * **批准**：这将批准请求。 在所有批准者批准请求后，将立即为与请求表单关联的记录类型创建记录。
    * **拒绝**：这将拒绝请求，即使您是唯一拒绝该请求的审批者。 没有为与请求表单关联的记录类型创建记录。

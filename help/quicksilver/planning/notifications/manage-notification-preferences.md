@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
+source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '541'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 2%
 
 {{planning-important-intro}}
 
+本文介绍如何管理Adobe Workfront Planning通知，而不是一般的Adobe Workfront通知。
+
 在Workfront Planning中发生以下操作时，您可能会收到应用程序内通知或电子邮件通知：
 
 * 有人将您或您的团队添加到记录页面上的评论中
@@ -30,6 +32,11 @@ ht-degree: 2%
 * 提交Workfront Planning请求。
 * 某人批准或拒绝了您提交的Workfront Planning请求。
 * 状态将更改为您提交的Workfront Planning请求。
+
+您可以从Workfront Planning活动中接收和管理以下类型的通知：
+
+* 应用程序内
+* 电子邮件
 
 ## 访问权限要求
 
@@ -143,11 +150,19 @@ ht-degree: 2%
 有关Workfront Planning通知的更多信息，另请参阅以下文章：
 
 * 有关记录的注释信息，请参阅[管理记录注释](/help/quicksilver/planning/records/manage-record-comments.md)。
+* 有关批准通知的信息，请参阅以下文章：
+
+   * [在Adobe Workfront Planning中批准请求](/help/quicksilver/planning/requests/approve-request.md)
+   * [提交Adobe Workfront Planning请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)
 * 有关Workfront Planning的应用程序内通知的信息，请参阅[管理Adobe Workfront Planning的应用程序内通知](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md)。
 * 有关Workfront Planning电子邮件通知的信息，请参阅[管理Adobe Workfront Planning的电子邮件通知](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md)。
 
 
 ## 管理通知偏好设置
+
+>[!NOTE]
+>
+>您可以使用Workfront首选项区域管理Adobe计划通知，而不是使用用户配置文件页面上的Workfront通知区域。
 
 1. 使用您的Adobe Experience Cloud凭据登录Workfront 。
 1. 单击屏幕右上角的Experience Cloud **上的**&#x200B;帐户菜单![图标](assets/account-menu-icon-on-experience-cloud.png)帐户菜单图标，然后单击&#x200B;**首选项**。
@@ -159,6 +174,7 @@ ht-degree: 2%
    适用于Workfront Planning的![Adobe Experience Cloud通知面板](assets/adobe-experience-cloud-notifications-panel-for-workfront-planning.png)
 1. Workfront提供以下通知：
 
+   * **审批**：当有人提交计划请求以供审批，或者希望从您请求访问Planning对象时，您将收到通知。
    * **提及**：当有人在Workfront Planning的评论中为您或您的团队加标签时，您会收到通知
    * **请求**：当有人执行以下操作之一时，您会收到通知：
 
@@ -177,7 +193,7 @@ The following scenarios exist:
 
 * Adobe Unified Experience customers receive both an in-app notification and an email notification. They can manage their in-app and email notification preferences in the Preferences area of their Adobe Experience Cloud profile for the Workfront product. 
 
-    For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/account-preferences).
+    For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 * Customers who are not on the Adobe Unified Experience receive only an email notification. They cannot manage their email notifications preferences and will always receive an email when someone adds them to a comment on a record in Workfront Planning.   
 
