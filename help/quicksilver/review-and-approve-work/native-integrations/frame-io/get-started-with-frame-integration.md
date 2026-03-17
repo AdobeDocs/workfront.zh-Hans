@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
-source-git-commit: e93f8662acb95029e4997ec270b23511d3e880dd
+source-git-commit: 990af6c3e0f026de495b666a108a8bbce5118c1b
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
@@ -67,16 +67,13 @@ Workfront和Frame.io集成使创意人员、营销人员和利益相关者与无
 
 * **一次性审批**：在资产所在的项目或任务中，项目协调器可以分配审阅人和审批人并设置完成截止日期。 查看者和审批者将在截止日期前72小时、截止日期前24小时以及截止日期本身收到电子邮件提醒。
 
-  有关详细信息，请参阅[创建文档审批工作流](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
+  有关详细信息，请参阅[创建文档审批工作流](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-from-the-summary-panel-in-the-new-document-area)。
 
 * **审批模板**：在Workfront设置区域，项目协调员可以创建可重复使用的审批模板。 在模板中，用户可以添加审阅人和批准者，并指定完成时间范围。 将审批模板应用于资产时，截止日期从指定的时间范围中计算。
 
   创建模板后，可将其应用于资源以在Workfront中开始正式审查和批准流程。
 
   有关详细信息，请参阅[为文档创建审批工作流模板](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)。
-
-
-  ![分配模板](assets/assign-template.png)
 
 ### 在Frame.io查看器中审阅和批准资源
 
