@@ -7,7 +7,7 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
-source-git-commit: 1e05945e24770848da9d2c77b81b9475e43797ea
+source-git-commit: 50ee9ac593e230e6f869f4158a67e4c3113aed45
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 0%
@@ -48,11 +48,11 @@ For information, see [Create fields](/help/quicksilver/planning/fields/create-fi
 
 现在，我们允许作为工作区管理者的非管理员使记录类型可从特定工作区中连接。
 
-Before this update, non-administrators could not enable record types to be connectable. Now, they can enable the record types to be connectable from specific workspaces. They cannot enable record types to be connectable from all workspaces in the system.
+在此更新之前，非管理员无法使记录类型可连接。 现在，它们可以使记录类型从特定工作区中连接。 它们不能使记录类型与系统中的所有工作区连接。
 
 有关信息，请参阅[为记录类型配置跨工作区功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。
 
-## Trigger-based automation
+## 基于触发器的自动化
 
 >[!NOTE]
 >
@@ -64,9 +64,9 @@ Before this update, non-administrators could not enable record types to be conne
 
 在此增强功能之前，您只能在单击预配置的按钮时自动创建Planning记录或Workfront对象。
 
-For information, see [Configure Adobe Workfront Planning automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
+有关信息，请参阅[配置Adobe Workfront计划自动化](/help/quicksilver/planning/records/configure-automations-to-create-records.md)。
 
-## Only system administrators can share workspaces system-wide
+## 只有系统管理员可以在系统范围内共享工作区
 
 >[!NOTE]
 >
@@ -81,7 +81,7 @@ For information, see [Configure Adobe Workfront Planning automations](/help/quic
 
 默认情况下，工作区设置为“只有受邀人员才能访问”权限。
 
-在此更改之前，选择这些工作区共享权限的功能未退出。
+在此更改之前，不存在选择这些工作区共享权限的功能。
 
 有关信息，请参阅共享工作区(help/quicksilver/planning/access/share-workspaces.md)。
 
@@ -161,13 +161,13 @@ For information, see [Configure Adobe Workfront Planning automations](/help/quic
 
 我们改进了从主工作区添加到辅助工作区的全局记录类型的可见性。 这些改进包括：
 
-* A slightly modified global icon that indicates that the record type was added from another workspace.
+* 稍作修改的全局图标，指示记录类型是从另一个工作区添加的。
 
-* An improved tooltip on the new icon that clearly identifies the workspace where the record type was created.
+* 改进了新图标上的工具提示，用于明确标识创建记录类型的工作区。
 
 有关信息，请参阅[从另一个工作区添加现有记录类型](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)。
 
-## Configure fields displayed in a record&#39;s Details preview box
+## 配置在记录的“详细信息”预览框中显示的字段
 
 >[!NOTE]
 >
@@ -179,9 +179,9 @@ For information, see [Configure Adobe Workfront Planning automations](/help/quic
 
 使用此新设置，您可以选择是包括还是排除记录的“详细信息”预览区域在表格视图中隐藏的字段。
 
-For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
+有关信息，请参阅[管理记录页布局](/help/quicksilver/planning/records/manage-the-record-page.md)。
 
-## New Planning connection field for Original request
+## 新建原始请求的Planning连接字段
 
 >[!NOTE]
 >
