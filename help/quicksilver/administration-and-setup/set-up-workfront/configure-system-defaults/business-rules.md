@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: b6731b9877237916259a862863b30c8ef65ad343
+source-git-commit: 061694c7db64d3f4957903ae21e436f52c77a07e
 workflow-type: tm+mt
-source-wordcount: '1318'
-ht-degree: 2%
+source-wordcount: '1326'
+ht-degree: 3%
 
 ---
 
@@ -31,16 +31,16 @@ ht-degree: 2%
 >
 >由于业务规则会阻止某些操作，因此您应始终首先在沙盒或预览环境中配置业务规则，并在在生产环境中启用它们之前对其进行彻底测试。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr>
-   <td>Adobe Workfront包
+   <td>Adobe Workfront 包
    </td>
    <td> <p>Ultimate</p>
     <p>工作流 Ultimate</p>
@@ -132,7 +132,7 @@ IF(
    * 项目
    * 任务
    * 问题/请求
-   * 组合
+   * 项目组合
    * 文档
    * 项目群
    * 费用
@@ -143,7 +143,13 @@ IF(
    * 非劳动力资源
    * 风险
    * 费率卡
-   * 任务分配
+   * 任务
+   * 用户
+   * 角色
+   * 小时
+   * 模板
+   * 休息时间
+   * 资源池
 
 1. 在规则生成器对话框中键入业务规则的&#x200B;**名称**。
 1. 在&#x200B;**处于活动状态**&#x200B;字段中，选择保存规则时该规则是否应处于活动状态。
