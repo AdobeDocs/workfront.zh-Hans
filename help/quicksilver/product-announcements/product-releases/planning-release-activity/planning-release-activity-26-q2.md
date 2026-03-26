@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
-source-git-commit: 50ee9ac593e230e6f869f4158a67e4c3113aed45
+source-git-commit: fa4d8132cecd51b93f26c28803535a84bebad137
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,18 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 痕迹导航重新设计
+
+>[!NOTE]
+>
+>预览：2026年3月26日
+>生产快速发布： 2026年4月15日
+>适用于所有人的生产： 2026年4月16日
+
+我们重新设计了跨记录类型和记录的痕迹导航显示方式。 现在，当您单击痕迹导航行中的更多时，记录和对象的名称会显示在多行上。 在此增强功能之前，单击“更多”会在下拉菜单中显示记录和对象的名称。
+
+有关详细信息，请参阅[层次结构和痕迹导航概述](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)。
 
 <!--
 
