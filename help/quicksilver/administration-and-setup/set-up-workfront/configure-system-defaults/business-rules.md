@@ -8,16 +8,32 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 061694c7db64d3f4957903ae21e436f52c77a07e
+source-git-commit: c16d107d8162f77436337d0b08ea5826d5c25d83
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1417'
 ht-degree: 3%
 
 ---
 
 # 创建和编辑业务规则
 
-业务规则允许您对Workfront对象应用验证，并阻止用户在满足某些条件时创建、编辑或删除对象。 业务规则通过防止可能会损害数据完整性的操作，帮助提高数据质量和运营效率。
+<!--
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+-->
+
+业务规则允许您对Workfront对象应用验证，并阻止用户在满足某些条件时创建、编辑或删除对象。 业务规则验证通过防止可能会损害数据完整性的操作，帮助提高数据质量和运营效率。
+
+<!--
+
+<div class="preview">
+
+Organizations that have the Workflow Ultimate package can also configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object, notifying a user, or attaching a custom form to the object.  
+
+</div>
+
+-->
 
 单个业务规则只能分配给一个对象。 例如，如果创建业务规则以在某些条件下不编辑项目，则无法将相同的规则应用于任务。 您必须为任务创建具有相同条件的单独业务规则。
 
@@ -42,8 +58,9 @@ ht-degree: 3%
   <tr>
    <td>Adobe Workfront 包
    </td>
-   <td> <p>Ultimate</p>
-    <p>工作流 Ultimate</p>
+   <td> <p>业务规则验证：<ul><li><p>Ultimate</p></li><li>
+    <p>工作流 Ultimate</p></li></ul></p><p>业务规则自动化：<ul><li>
+    <p>工作流 Ultimate</p></li><ul></p>
    </td>
   </tr> 
   <tr> 
@@ -63,7 +80,12 @@ ht-degree: 3%
 
 ## 业务规则方案
 
-业务规则的格式为“如果满足定义的条件，则禁止用户对该对象执行操作，并显示消息。”
+* [业务规则验证方案](#scenarios-for-business-rule-validation)
+* [业务规则自动化方案](#scenarios-for-business-rule-automation)
+
+### 业务规则验证方案
+
+业务规则验证的格式为“如果满足定义的条件，则禁止用户对该对象执行操作，并显示消息。”
 
 业务规则中属性和其他函数的语法与自定义表单中计算字段的语法相同。 有关语法的详细信息，请参阅[使用表单设计器添加计算字段](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)。
 
@@ -117,15 +139,53 @@ IF(
 )
 ```
 
+
+<!--
+
+## Scenarios for business rule automation
+
+>[!NOTE]
+>
+>Your organization must have a Workflow Ultimate package to use business rule automation.
+
+The format of a business rule automation is "IF the defined condition is met, then the selected automation is triggered."
+
+Business rule automation formulas do not require an error message
+
+To ensure that an automation runs whenever the selected object and action occurs, such as when a project is created, use the following formula:
+
+```
+IF(true, true)
+```
+
+To share a project only if that's project has been approved, use a formula like the following:
+
+```
+IF({status} = "APR", true)
+```
+
+You can use wildcards in business rule actions, as described in the section [Scenarios for business rule validation](#scenarios-for-business-rule-validation).
+
+-->
+
 ## 添加新业务规则
 
 {{step-1-to-setup}}
 
 1. 单击左侧面板中的&#x200B;**业务规则**。
 1. 单击&#x200B;**新建业务规则**。
-1. 选择要为其分配业务规则的对象类型，然后单击&#x200B;**继续**。
 
-   ![选择对象](assets/object-for-business-rule3.png)
+1. 在规则生成器对话框中键入业务规则的&#x200B;**名称**。
+1. 在&#x200B;**处于活动状态**&#x200B;字段中，选择保存规则时该规则是否应处于活动状态。
+
+   如果您选择&#x200B;**否**，则规则将保存为非活动，您可以稍后激活它。
+
+1. （可选）输入业务规则的&#x200B;**描述**&#x200B;以及应用时会发生什么情况。
+
+
+1. 选择要为其分配业务规则的对象类型。
+
+   ![选择对象](assets/object-for-business-rule4.png)
 
    您可以将业务规则应用于以下对象：
 
@@ -150,6 +210,17 @@ IF(
    * 模板
    * 休息时间
    * 资源池
+<!--
+   * <span class="preview">Job role</span>
+   * <span class="preview">Non-labor resource category</span>
+   * <span class="preview">Resource Pool</span>
+   * <span class="preview">Time Off</span>
+   * <span class="preview">Hour</span>
+   * <span class="preview">Staffing Plan</span>
+   * <span class="preview">Template</span>
+   * <span class="preview">Staffing Plan Resource</span>
+   * <span class="preview">Team</span>
+-->
 
 1. 在规则生成器对话框中键入业务规则的&#x200B;**名称**。
 1. 在&#x200B;**处于活动状态**&#x200B;字段中，选择保存规则时该规则是否应处于活动状态。
@@ -158,11 +229,10 @@ IF(
 
 1. 为业务规则选择&#x200B;**触发器**。 选项包括：
 
-   * **创建对象时：**&#x200B;用户尝试创建对象时应用该规则。
-   * **在对象编辑时：**&#x200B;当用户尝试编辑对象时，将应用规则。
-   * **对象删除时：**&#x200B;用户尝试删除对象时应用该规则。
+   * **已创建**&#x200B;用户尝试创建对象时应用该规则。
+   * **已编辑**&#x200B;用户尝试编辑对象时应用规则。
+   * **已删除**&#x200B;用户尝试删除对象时应用该规则。
 
-1. （可选）输入业务规则的&#x200B;**描述**&#x200B;以及应用时会发生什么情况。
 1. 在业务规则对话框中心的公式编辑器中构建公式。
 
    业务规则的格式为“如果满足定义的条件，则禁止用户对该对象执行操作，并显示消息。”
@@ -172,13 +242,13 @@ IF(
    * “对象”是您在创建业务规则时选择的对象类型。 它显示在对话框的标题中。
    * “action”是您为规则选择的触发器：创建、编辑或删除对象。
    * 由于对象和操作已定义，因此不要将它们包含在公式中。
-   * 当用户触发业务规则时，向用户显示自定义错误消息。 它应就出现什么问题以及如何纠正问题提供明确的说明。
+   * 当用户触发业务规则时，向用户显示自定义错误消息<!--<span class="preview">is included only if the rule is for validation, and </span>-->。 它应就出现什么问题以及如何纠正问题提供明确的说明。
 
      您可以在错误消息中包含静态URL，以链接到文档或其他有用页面，引导用户如何在规则的限制中修改其操作。
 
      在此示例中，“了解详情”将链接到URL。 `"You are not allowed to add a new project in November.[Learn more](http://url)"` URL必须位于括号中，但不需要使用括号中的链接文本。 您可以显示完整URL，它将是可单击的链接。
 
-   ![添加业务规则对话框](assets/add-business-rule-dialog-no-ai-button.png)
+   ![添加业务规则对话框](assets/add-business-rule-dialog-no-ai-button.png) <!--UPDATE ME-->
 
    此示例是项目的业务规则。 如果当前月份是11月，则不允许用户创建新项目，并且消息将对此进行说明。
 
@@ -190,11 +260,46 @@ IF(
 
    可用字段列表仅限于与业务规则对象类型相关的字段。
 
+1. （视情况而定）如果要验证操作，且您的组织位于Workfront Ultimate包上，请在“然后”区域中选择&#x200B;**验证对象**。
+
+   对于其他包，此选项是预先选定的。
+
+<!--
+
+1. (Conditional) To automate another action,, select the action. 
+
+   For details on these actions, see the section [Business rule automation options](#business-rule-automation-options) in this article.
+
+   >[!NOTE]
+   >
+   >Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.
+
+   -->
+
 1. 完成业务规则构建后，单击&#x200B;**保存**。
 
 >[!NOTE]
 >
 >添加业务规则后，应通过添加、编辑或删除关联对象对其进行测试，以确保正确应用该规则。
+
+<!--
+
+<div class="preview">
+
+### Business rule automation options
+
+   >[!NOTE]
+   >
+   >Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.
+
+You can set these actions to automate when the business rule is triggered. Available actions depend on the selected object type.
+
+|Automation|Further configuration|
+|---|---|
+|Attach a custom form|Select the custom form that you want to add|
+|Share the object|Select the people, roles, groups, companies, or access levels that you want to share the object with.|
+
+-->
 
 ## 激活业务规则
 
