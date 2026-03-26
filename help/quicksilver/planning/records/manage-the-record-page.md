@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
+source-git-commit: 2f1c3d4311f54f7f273b2304e39e6fbfc0f4b657
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1648'
 ht-degree: 0%
 
 ---
@@ -221,7 +221,7 @@ ht-degree: 0%
 
      或
 
-     单击&#x200B;**下移**&#x200B;以将节下移一个位置。
+     单击&#x200B;**下移**以将节下移一个位置。
 部分中的所有字段都会随部分一起移动。
 
    * 单击&#x200B;**删除**&#x200B;以删除该节。 该部分已被删除，无法恢复。 访问此类型记录的所有用户将不再查看已删除的分区。
@@ -282,19 +282,23 @@ ht-degree: 0%
    * 选择&#x200B;**显示所有字段**&#x200B;设置可查看记录表视图中的所有字段，包括隐藏的字段。
    * 取消选择&#x200B;**显示所有字段**&#x200B;设置可仅查看未在记录表视图中隐藏的字段。 这是默认设置
 
+     <!--
+      replace with this when they fix the UI text:
+      * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
+      * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
+      -->
+
    </div>
 
    >[!TIP]
    >
    ><span class="preview">**显示所有字段**&#x200B;设置仅在记录的“详细信息”预览框中可用。 在记录的“详细信息”页面中不可用。</span>
+1. （可选）如果要导航到连接的记录，请在详细信息页面顶部的痕迹导航中单击该记录的名称。 <span class="preview">如果在痕迹导航中看不到记录的名称，请单击&#x200B;**更多**。 这会在多行上显示痕迹导航。 单击&#x200B;**Less**&#x200B;可缩短痕迹导航并将其显示在一行中。</span>
 
+   >[!TIP]
+   >
+   >工作区中必须具有连接的记录类型、记录和层级，才能在记录的详细信息页面中查看痕迹导航。
 
-   <!--replace with this when they fix the UI text:
-   * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
-   * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
-   -->
-
-   </div>
 
 1. （可选）单击记录预览右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签图标中打开详细信息框](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->以在新标签中打开记录页面。
 

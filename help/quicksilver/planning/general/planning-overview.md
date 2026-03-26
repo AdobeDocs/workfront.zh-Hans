@@ -6,16 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
+source-git-commit: 6cc42c6f9e6a5088e94d26034f03a3fafce2d0c3
 workflow-type: tm+mt
-source-wordcount: '2360'
+source-wordcount: '2357'
 ht-degree: 2%
 
 ---
 
 # Adobe Workfront Planning入门
 
-<!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
+<!--
+this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page
+-->
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
 
@@ -106,7 +108,8 @@ The following features are currently available in Workfront Planning:
 
 -->
 
-<!--OLD: 
+<!--
+OLD: 
 
 |       Feature                                      |     Available now  |     Coming soon   |     In research  |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -287,7 +290,8 @@ Adobe Workfront Planning包含以下模板：
 * 批准者
 * 批准日期
 * <span class="preview">记录ID</span>
-  <!--update the screen shot above-->
+
+<!--update the screen shot above-->
 
 ### 连接的记录类型、记录和字段
 
@@ -336,11 +340,13 @@ Adobe Workfront Planning包含以下模板：
 * [连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)
 * [连接记录](/help/quicksilver/planning/records/connect-records.md)
 
-<!--not yet:* Fields are reusable across Record Types.  -->
+<!--
+not yet:* Fields are reusable across Record Types.
+-->
 
 ### 层级
 
-在工作区中连接记录类型后，您可以创建一个层次结构来组织这些连接。 层次结构将记录和对象类型组织为父子关系，最多可以包含四个级别的对象类型。
+在工作区中连接记录类型后，您可以创建层次结构来组织这些连接。 层次结构将记录和对象类型组织为父子关系，最多可包含四种对象类型。
 
 ![工作区设置区域中的层次结构](assets/hierarchies-in-workspace-settings-area.png)
 
@@ -371,7 +377,9 @@ Adobe Workfront Planning包含以下模板：
 * **日历视图**：以日历格式显示至少有两个日期类型字段的记录。
   ![日历视图示例](assets/calendar-view-example.png)
 
-<!-- add List view here when it's possible to display Planning RTs in it??-->
+<!--
+add List view here when it's possible to display Planning RTs in it??
+-->
 
 有关详细信息，请参阅[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)。
 
@@ -448,9 +456,10 @@ Adobe Workfront Planning包含以下模板：
   <!--
     >[!NOTE]
     >
-    >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
+    >The Workfront AI Assistant has been temporarily removed and it will be available at a later date.
+    -->
 
-* [适用于Workfront Fusion的Adobe Workfront规划模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：使用Adobe Workfront规划模块，可以在Workfront规划中发生事件时触发方案。 您还可以创建、读取、更新和删除记录，或对Adobe Workfront Planning帐户执行自定义API调用。
+* [适用于Workfront Fusion的Adobe Workfront规划模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：使用Adobe Workfront规划模块，可以在Workfront规划中发生事件时触发方案。 您还可以创建、读取、更新和删除记录，或对Adobe Workfront Planning帐户执行自定义API调用。
 
 * [Adobe Workfront Planning API基础知识](/help/quicksilver/planning/general/planning-api-basics.md)： Adobe Workfront Planning API的目标是通过引入通过HTTP运行的REST-ful架构，简化与Planning的生成集成。
 
