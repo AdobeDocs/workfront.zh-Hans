@@ -67,7 +67,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. 转到审阅电子邮件通知，然后单击&#x200B;**转到审阅**。
 或
-转到Workfront主页，找到我的审批小组件，然后单击**打开审核**。
+转到Workfront主页，找到我的审批小组件，然后单击&#x200B;**打开审核**。
 
    >[!NOTE]
    > 
@@ -89,7 +89,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. 转到审阅电子邮件通知，然后单击&#x200B;**转到审阅**。
 或
-转到Workfront主页，找到我的审批小组件，然后单击**打开审核**。
+转到Workfront主页，找到我的审批小组件，然后单击&#x200B;**打开审核**。
 
    >[!NOTE]
    > 
