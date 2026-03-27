@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: 7bf762870af2bbc4f4889d66cf713d4533a30ff5
+source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 #### 审阅并批准Frame.io中的内容
 
-直接在Frame.io查看器中审阅和批准内容，无需在平台之间切换。 此集成允许更快的反馈周期并将所有审核活动保存在一个位置。 有关详细信息，请参阅[Frame.io集成入门](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)。
+直接在Frame.io查看器中审阅和批准内容，无需在平台之间切换。 此集成允许更快的反馈周期并将所有审核活动保存在一个位置。 有关详细信息，请参阅[统一审查和批准入门](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)。
 
 #### 与Adobe Experience Manager的连接
 

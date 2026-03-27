@@ -1,22 +1,24 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Frame.io集成概述
-description: Frame.io集成概述
+title: 统一审查和批准概述
+description: 详细了解由Workfront和Frame.io提供支持的统一审阅和批准。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
+hide: true
+hidefromtoc: true
 exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
-source-git-commit: e93f8662acb95029e4997ec270b23511d3e880dd
+source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '838'
 ht-degree: 0%
 
 ---
 
-# Frame.io集成概述
+# 统一审查和批准概述
 
-Workfront和Frame.io集成允许项目协调员在Workfront中管理项目和计划工作，而创意人员、营销人员和利益相关者可以在Frame.io中查看和批准资源。
+由Workfront和Frame.io提供支持的统一审查和批准允许项目协调员在Workfront中管理项目和计划工作，而创意人员、营销人员和利益相关者可以在Frame.io中审查和批准资源。
 
 ## 集成要求
 
@@ -31,7 +33,7 @@ Workfront和Frame.io集成允许项目协调员在Workfront中管理项目和计
 
 ## 构建于Adobe企业级存储之上
 
-此集成的核心是Adobe企业存储，它是一种基于云的存储解决方案，可作为Adobe企业产品（包括Workfront和Frame.io）中资产的中央存储库。<!--, and Creative Cloud.-->
+统一审查和批准构建于Adobe企业存储之上，后者是一种基于云的存储解决方案，可作为Adobe企业产品（包括Workfront和Frame.io）中资产的中央存储库。<!--, and Creative Cloud.-->
 
 Adobe企业存储的主要优势包括：
 
@@ -44,7 +46,7 @@ Adobe企业存储的主要优势包括：
 
 ## 统一审查和批准
 
-Workfront和Frame.io集成使用Workfront的统一审批功能来管理审阅和审批。 通过统一批准，您可以：
+通过统一的审查和批准，您可以：
 
 * 直接从Workfront创建和管理审阅和批准
 * 实时跟踪审阅和批准状态
@@ -58,14 +60,14 @@ Workfront和Frame.io集成使用Workfront的统一审批功能来管理审阅和
 
 ### 使用Frame.io查看器
 
-该集成还会连接到Frame.io查看器。 Frame.io查看器提供
+使用Frame.io查看器审阅和批准资源。 Frame.io查看器提供
 
 * 标记和注释工具
 * 版本历史记录和比较
 * 带有时间戳的视频评论评论
 * 移动访问以进行移动审阅和批准
 
-有关详细信息，请参阅[Frame.io集成入门](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)。
+有关详细信息，请参阅[统一审查和批准入门](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)。
 
 #### 视频审查限制
 
@@ -89,13 +91,13 @@ Workfront校对功能在此集成中不可用。
 
 ## Workfront中强大的项目管理
 
-通过Workfront与Frame.io集成，项目协调员可以利用Workfront强大的项目管理功能来规划、跟踪和管理工作。
+项目协调员可以利用Workfront强大的项目管理功能来规划、跟踪和管理工作。
 
 有关在Workfront中管理项目的详细信息，请参阅[项目：文章索引](/help/quicksilver/manage-work/projects/create-projects/create-project.md)。
 
 ### 强制的结构和命名约定
 
-由于此集成是使用Adobe企业存储构建的，因此在管理项目和文档时，应注意一些强制性的结构和命名约定。
+由于统一审查和批准是使用Adobe企业存储构建的，因此在管理项目和文档时，需要了解一些强制性的结构和命名约定。
 
 * 对象名称必须是唯一的，并且不能重复
 * Adobe企业存储要求层次结构树中具有相同父级的对等对象具有唯一的名称
@@ -138,11 +140,7 @@ Workfront校对功能在此集成中不可用。
 
 ### 文档体验限制
 
-由于此集成是使用Adobe企业存储构建的，因此Workfront中的原始文档体验存在一些限制：
-
-#### 限制
-
-以下功能将不会包含在此集成中：
+以下文档功能不包括在内：
 
 <!--* External document providers-->
 * 在Workfront中访问校对
