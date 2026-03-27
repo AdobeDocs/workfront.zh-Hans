@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: f0cdbcb790af59245d550157e7d088503c60df24
+source-git-commit: e31242349496f61b4282dc6fd628ecf62676d370
 workflow-type: tm+mt
-source-wordcount: '3871'
+source-wordcount: '3892'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,6 @@ ht-degree: 0%
 项目协调员在Workfront中管理工作，而创意人员、营销人员和利益相关者在Frame.io专业级查看器中审阅和批准资源，所有这些操作都无需在断开连接的工具之间移动文件。
 
 ![显示统一审阅和批准工作流的图表，其中项目协调员管理Workfront中的工作，审阅者和批准者在Frame.io查看器中提供反馈并做出决策。](assets/Unified-Review-Approvals-Image.png)
-
-## 演示视频
-
->[!VIDEO](https://video.tv.adobe.com/v/3471078)
 
 
 ## 集成要求
@@ -155,8 +151,9 @@ Workfront校对功能在此集成中不可用。
 * 收藏的文档
 * 请求文档
 
+## 统一审查和批准入门
 
-
+要开始统一审阅和批准，请参阅[开始统一审阅和批准](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)。
 
 ## 常见问题
 
