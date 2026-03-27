@@ -6,9 +6,9 @@ description: 您可以要求用户批准您上传到Workfront的文档。 有关
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f8b25cfa-02d9-4c5a-88c1-924a283cdffb
-source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
+source-git-commit: 86d5ed6f91bca0b68748a43476710028d34d6ad2
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
@@ -24,4 +24,4 @@ ht-degree: 0%
 >如果您的组织位于企业存储中，则校对不可用。 相反，您可以将Workfront审核和批准与Frame.io集成结合使用。 有关企业存储或Frame.io集成的详细信息，请参见
 >
 >* [Adobe企业存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)
->* [Frame.io集成概述](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
+>* [统一审阅和批准概述](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)

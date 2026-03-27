@@ -6,9 +6,9 @@ description: 作为审阅人，您可以预览已提交您审阅的文档。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+source-git-commit: 86d5ed6f91bca0b68748a43476710028d34d6ad2
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '562'
 ht-degree: 3%
 
 ---
@@ -111,4 +111,4 @@ Add once functionality is added
 
 ## 从Frame.io查看器中查看文档
 
-要从Frame.io查看器中查看文档，您的Workfront实例必须与Frame.io集成。 有关详细信息，请参阅[Frame.io集成概述](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)。
+要从Frame.io查看器中查看文档，您的Workfront实例必须与Frame.io集成。 有关详细信息，请参阅[统一审阅和批准概述](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)。

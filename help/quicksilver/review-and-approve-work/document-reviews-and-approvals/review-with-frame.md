@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 3190ad18-180e-42e5-aa10-bdad74303d3d
-source-git-commit: a5041aecad22d3e576d7f0e9a4388a3e5bc69565
+source-git-commit: 86d5ed6f91bca0b68748a43476710028d34d6ad2
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 使用Frame.io查看器审阅Workfront文档时，您可以留下注释或标记文档、图像或视频的特定部分，以便与团队高效地协作，并确保反馈清晰且可操作。
 
-有关Frame.io与Workfront集成的详细信息，请参阅[Frame.io集成概述](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)。
+有关Frame.io与Workfront集成的详细信息，请参阅[统一审阅和批准概述](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)。
 
 
 <!--## Access requirements
@@ -59,7 +59,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## 先决条件
 
-* 您必须在Workfront实例中设置Workfront和Frame.io集成。 有关详细信息，请参阅[Frame.io集成概述](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md#integration-requirements)。
+* 您必须在Workfront实例中设置Workfront和Frame.io集成。 有关详细信息，请参阅[统一审阅和批准概述](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#integration-requirements)。
 
 ## 审阅文档
 
@@ -67,7 +67,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. 转到审阅电子邮件通知，然后单击&#x200B;**转到审阅**。
 或
-转到Workfront主页，找到我的审批小组件，然后单击&#x200B;**打开审核**。
+转到Workfront主页，找到我的审批小组件，然后单击**打开审核**。
 
    >[!NOTE]
    > 
@@ -89,7 +89,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. 转到审阅电子邮件通知，然后单击&#x200B;**转到审阅**。
 或
-转到Workfront主页，找到我的审批小组件，然后单击&#x200B;**打开审核**。
+转到Workfront主页，找到我的审批小组件，然后单击**打开审核**。
 
    >[!NOTE]
    > 
