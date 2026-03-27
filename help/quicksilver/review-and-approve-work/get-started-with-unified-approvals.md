@@ -5,17 +5,18 @@ title: 统一审查和批准入门
 description: 详细了解由Workfront和Frame.io提供支持的统一审阅和批准。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 18821ee34bb44b38fa3bb260434d7db986d2706e
+exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
+source-git-commit: f0cdbcb790af59245d550157e7d088503c60df24
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '992'
 ht-degree: 0%
 
 ---
 
-
 # 统一审查和批准入门
 
-由Workfront和Frame.io提供支持的统一审阅和批准可让创意人员、营销人员和利益相关者与无缝工作流程保持一致。 访问实时更新，避免重复工作，并确保资产在启动之前获得批准。
+
+统一的审核和批准将Adobe Workfront和Adobe Frame.io融于一个高度关联的体验中，从而弥合了营销管理、创意审核和内容交付之间的差距。 项目协调员在Workfront中管理工作，而创意人员、营销人员和利益相关者在Frame.io专业级查看器中审阅和批准资源，所有这些操作都无需在断开连接的工具之间移动文件。
 
 有关Frame.io的详细信息，请参阅[Frame.io快速入门](https://support.frame.io/en/collections/49298-getting-started)。
 
@@ -124,3 +125,4 @@ ht-degree: 0%
 您可以使用&#x200B;[!DNL Experience Manager Assets]&#x200B;管理和存储已过审阅和批准周期的数字资产。 此集成允许您利用Adobe Experience Manager、Frame.io和Workfront的功能来简化内容管理和协作流程。
 
 有关详细信息，请参阅[将Adobe Experience Manager与Frame.io集成一起使用](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)。
+
