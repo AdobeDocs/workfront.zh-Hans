@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
+source-git-commit: 34f367e1bd1aa0c75433f2f59baf4efc1284e61b
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 0%
@@ -22,9 +22,13 @@ ht-degree: 0%
 
 ## 由Workfront和Frame.io提供支持的统一审阅和批准
 
-我们很高兴地推出由Workfront和Frame.io提供支持的统一审阅和批准，这是一种简化的审阅和批准体验。
 
-此新功能在续订后可用于净新客户和现有客户。
+>[!IMPORTANT]
+>
+>此新功能在续订后可用于净新客户和现有客户。
+
+
+我们很高兴地推出由Workfront和Frame.io提供支持的统一审阅和批准，这是一种简化的审阅和批准体验。
 
 ### 新增功能
 
