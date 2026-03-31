@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
+source-git-commit: ddf10844646a79c43accaffa1789caf24290cc8a
 workflow-type: tm+mt
-source-wordcount: '3552'
+source-wordcount: '3568'
 ht-degree: 1%
 
 ---
@@ -120,6 +120,11 @@ ht-degree: 1%
    记录类型页面将在您上次访问的视图中打开。 默认情况下，将在表格视图中打开记录类型页面。
 
 1. 单击页眉中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**创建请求表单**&#x200B;或&#x200B;**管理请求表单**（如果已拥有表单且要创建其他表单）。
+
+   **请求表单**&#x200B;页面打开，请求显示在列表视图中。
+
+   ![请求表单页面](assets/request-forms-in-list-view.png)
+
 1. （视情况而定）如果要添加其他表单，请单击&#x200B;**新建请求表单**。
 
    将打开&#x200B;**创建请求表单**&#x200B;框。

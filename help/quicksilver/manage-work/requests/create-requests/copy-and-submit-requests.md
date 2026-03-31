@@ -6,9 +6,9 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
 workflow-type: tm+mt
-source-wordcount: '1520'
+source-wordcount: '1529'
 ht-degree: 3%
 
 ---
@@ -226,17 +226,21 @@ ht-degree: 3%
 
 您可以在Workfront的请求区域或主页的“我的请求”小组件中复制并提交请求。
 
-{{step1-to-requests}}
+1. 执行下列操作之一：
 
-1. 要在主页访问“我的请求”小组件，请执行以下操作：
+   {{step1-to-requests}}
+
+   1. 要在&#x200B;**主页**&#x200B;中访问&#x200B;**我的请求**&#x200B;小组件，请执行以下操作：
 
    {{step1-to-home}}
 
-   1. 找到“我的请求”构件。
+   1. 找到&#x200B;**我的请求**&#x200B;构件。
 
       有关“我的请求”小组件的详细信息，请参阅[使用我的请求](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)。
 
-1. 在&#x200B;**请求**&#x200B;列表或主页中的&#x200B;**我的请求**&#x200B;构件中，将鼠标悬停在要复制的请求上，然后单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)。
+1. 在&#x200B;**请求**&#x200B;列表或主页中的&#x200B;**我的请求**&#x200B;构件中，将鼠标悬停在要复制的请求上，然后单击其名称旁边的&#x200B;**更多**&#x200B;菜单。
+
+   ![更多菜单](assets/more-menu.png)
 
 1. 单击&#x200B;**复制**
 

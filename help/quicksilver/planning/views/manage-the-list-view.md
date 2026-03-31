@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+source-git-commit: ddf10844646a79c43accaffa1789caf24290cc8a
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1490'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,17 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-在Adobe Workfront Planning的记录的“连接的记录”页面中访问项目时，您可以在列表视图中显示项目及其字段。<!--change 'projects' to other objects when they become available and the location of the list view-->
+您可以在Workfront Planning的以下区域查看列表视图中的对象：
 
-本文介绍了如何创建或编辑在记录的“连接的记录”页面中显示项目的列表视图，以及如何在视图中编辑项目。<!--change 'projects' to other objects when they become available and the location of the list view-->
+* 记录的详细信息区域中项目的已连接记录页面
+
+  ![列表视图中已连接记录页上的项目](assets/projects-on-connected-records-page-list-view.png)
+
+* 记录类型级别的请求表单列表
+
+  ![在列表视图中请求表单](assets/request-forms-in-list-view.png)
+
+本文介绍了如何在Workfront Planning中导航、创建或编辑显示对象的列表视图。<!--change 'projects' to other objects when they become available and the location of the list view-->
 
 ## 访问权限要求
 
@@ -72,35 +80,62 @@ ht-degree: 0%
 
 ## 有关列表视图的注意事项
 
-* 您不能在列表视图中查看记录类型页面中的所有对象类型。
+* 对于连接的记录页面列表视图，请考虑以下事项：
 
-  在记录的“连接的记录”页中查看下列对象时，只能在列表视图中显示这些对象：
-
-   * Workfront项目
+   * 您只能在记录的已连接记录页面的列表视图中查看项目。 列表视图不适用于已连接记录页面中的任何其他对象或记录类型。
 
   有关创建连接的记录页面的信息，请参阅[将连接的记录页面添加到记录](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)。
-* 在记录的已连接记录页面中查看列表视图之前，您必须将Workfront项目与Planning记录类型连接。 有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
+   * 在记录的已连接记录页面中查看列表视图之前，您必须将Workfront项目与Planning记录类型连接。 有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
+   * 您可以为记录的“连接的记录”页面中的项目创建多个列表视图。
+
+* 对于请求表单列表视图，请考虑以下事项：
+
+   * 不能为Planning请求表单创建或编辑其他列表视图。 Workfront为请求表单创建一个列表视图。<!--this will change-->
+
+     有关申请表单的信息，请参阅[在Adobe Workfront计划中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
+* 根据显示的位置，并非每个列表视图都具有本文中介绍的所有相同元素。
 
 
 ## 管理列表视图 {#manage-a-list-view}
 
-列表视图与增强型列表类似。 有关详细信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
+列表视图与增强型列表类似。 在Workfront Planning中，增强型视图中的大多数元素也存在于列表视图中。
 
+有关详细信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
+
+<!--
 {{step1-to-planning}}
 
-1. 单击工作区信息卡，然后单击记录类型信息卡。
-1. 从任何视图中，单击记录的名称以打开记录的预览或详细信息页面。
-1. 为已连接项目添加&#x200B;**已连接记录页**，如文章[将已连接记录页添加到记录](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)中所述。
+1. (Conditional) To access a projects connected page, do the following: 
 
-   “连接的记录”页面在列表视图中显示与记录连接的项目。
+    1. Click a workspace card, then click a record type card. 
+    1. From any view, click the name of a record to open the record's preview or details page. 
+    1. Add a **Connected records page** for connected projects as described in the article [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 
-   <!--add new screen shot when they release Conditional formatting MVP -->
+    The Connected records page displays projects connected to the record in the list view. 
 
-   ![列表视图中已连接记录页上的项目](assets/projects-on-connected-records-page-list-view.png)
+    ![Projects on connected records page in list view](assets/projects-on-connected-records-page-list-view.png)
 
-1. （可选）执行以下操作之一以修改列表视图：
+1. (Conditional) To access a list of request forms, do the following: 
 
-   1. 展开列表右上角的下拉视图菜单以选择其他视图，或单击&#x200B;**新建视图**&#x200B;并创建另一个视图。
+    1. {{step1-to-planning}}
+
+    1. (Conditional) To access a projects connected page, do the following: 
+
+    1. Click a workspace card, then click a record type card.
+    1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record name in the header, then click **Manage request forms**.
+
+        A list of request forms displays.
+
+-->
+
+1. 转到以下区域之一的列表视图：
+
+   * 记录的详细信息区域中的“连接的记录”页面
+   * 记录的请求表单页面
+
+1. （视情况而定）如果可用，请执行以下操作之一来修改列表视图：
+
+   1. 展开列表左上角的下拉视图菜单以选择其他视图，或单击&#x200B;**新建视图**&#x200B;并创建另一个视图。
 
       视图在整个系统中共享。 如果您为一个记录类型创建项目视图，则可以在显示所连接项目的其他记录类型上查看该视图。
 
@@ -116,6 +151,17 @@ ht-degree: 0%
       >* 不能修改系统视图。
       >
       >* <span class="preview">您可以重置与您共享的视图，在您修改它以恢复其原始首选项后，您只能查看该视图，或者您可以将其与更改一起复制并共享副本。 有关详细信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。</span>
+
+      <!--
+        And hide everything else below for these elements, after moving it to the Use enhanced lists article: 
+        1. <span class="preview">To update one of the following view elements, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md):</span>
+            <div class="preview">
+            * Filter
+            * Columns
+            * Format cells
+            * Row height
+            </div>
+        -->
 
    1. 单击&#x200B;**筛选器**&#x200B;图标![筛选器图标](assets/filter-icon.png)将筛选器添加到视图。 结果会立即在列表中过滤。 您无法保存并命名筛选器。 在将来的访问页面时，将会记住过滤器，并且这些过滤器是共享视图的一部分。
    1. 单击&#x200B;**列**&#x200B;图标![列图标](assets/columns-icon.png)以选择要显示或隐藏的列。
@@ -133,7 +179,13 @@ ht-degree: 0%
       <span class="preview">执行以下操作：</span>
 
       1. 单击&#x200B;**添加条件**。
-      1. <span class="preview">在&#x200B;**If**&#x200B;行中，选择一个字段并选择一个字段值，然后单击&#x200B;**添加条件**。</span>
+      1. <span class="preview">在&#x200B;**If**&#x200B;行中，选择一个字段并选择字段值并添加修饰符。 修改量会根据您选择的字段类型而发生更改。</span>
+
+         >[!TIP]
+         >
+         ><span class="preview">只有列表视图中可见的字段可用于条件格式。</span>
+
+      1. <span class="preview">（可选）不要添加字段值，请单击&#x200B;**与另一个字段比较**&#x200B;图标![与另一个字段比较](assets/compare-to-another-field-icon.png)，然后选择要将其值与选定字段的值进行比较的字段。 例如，您可以筛选其项目所有者与项目发起人匹配的项目。</span>
 
          >[!TIP]
          >
@@ -149,7 +201,7 @@ ht-degree: 0%
 
       1. 单击条件之间的&#x200B;**Or**&#x200B;连接器以更改为&#x200B;**And**，并指示必须同时满足多个条件。 **或**&#x200B;是默认连接器。
       1. 在&#x200B;**格式**&#x200B;行中，选择一个字段以指示将设置哪一列的格式。<!--edit this area, if it changes names??-->
-      1. （可选）单击所选字段旁边的&#x200B;**颜色圆圈**&#x200B;图标![颜色圆圈图标](assets/color-circle.png)以展开该字段并选择其他颜色。
+      1. （可选）单击所选字段旁边的&#x200B;**颜色圆圈**&#x200B;图标![颜色圆圈图标](assets/color-circle.png)以展开该字段并选择其他颜色<!--for a cell or the text of the cell that matches your criteria-->。<!--is this where the bold, italic is? I had no UI for this when I wrote it-->
       1. 打开&#x200B;**应用到行**&#x200B;设置以将格式应用到满足条件的字段的整行。
       1. （可选）在&#x200B;**格式**&#x200B;框中单击&#x200B;**添加条件**&#x200B;为其他字段添加其他规则并重复上述步骤。
       1. （可选）单击&#x200B;**全部清除**&#x200B;以删除所有格式。
@@ -160,6 +212,8 @@ ht-degree: 0%
 **设置单元格格式**&#x200B;图标旁有一个蓝点，表示该视图应用了特殊格式。
 
       </div>
+
+   <!--leave these here-->
 
 1. （可选）在列表右上角的搜索框中添加关键字以搜索项目。
 
@@ -178,9 +232,9 @@ ht-degree: 0%
 
    或
 
-   选择一个或多个项目，并注意列表底部的操作栏，然后单击以下项之一：
+   选择一个或多个项目，并注意列表底部的操作栏，然后单击下列选项之一（如果可用）：
 
-   * **删除**&#x200B;以删除项目。 删除项目会断开它与记录的连接，并将其移到Workfront的回收站。 Workfront管理员最多可以在删除项目后30天内恢复这些已删除的项目。
+   * **删除**&#x200B;以删除该项。 删除项目会断开它与记录的连接，并将其移到Workfront的回收站。 Workfront管理员最多可以在删除项目后30天内恢复这些已删除的项目。 删除表单不会删除提交表单时创建的请求或记录。
    * **断开连接**&#x200B;以断开项目与记录的连接。 断开项目连接会将其及其查找字段的所有值从当前记录中删除。
 
    “连接的记录”页面列表视图中的![操作栏](assets/actions-bar-connected-records-page-list-view.png)
