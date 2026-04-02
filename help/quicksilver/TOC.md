@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 18821ee34bb44b38fa3bb260434d7db986d2706e
+source-git-commit: 64ee7798e79324af0ab48af91f49d04d94ece3a9
 workflow-type: tm+mt
-source-wordcount: '13813'
+source-wordcount: '13913'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 2%
          * [2026年第二季度发行版概述](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
          * [2026年第二季度管理员增强功能](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md)
          * [2026年第二季度文档增强](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md)
+         * [2026年第二季度企业运营增强功能](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-enterprise-operations-enhancements.md)
          * [2026年第二季度项目增强功能](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md)
          * [2026年第二季度报表增强功能](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md)
          * [2026年第二季度要求增强功能](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md)
@@ -463,9 +464,8 @@ ht-degree: 2%
          * [为您的组织启用或禁用快速发布](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
          * [为您的组织启用Adobe企业存储](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
          * [创建和编辑业务规则](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
-         * [配置位置](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
-         * [管理费率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)
-         * [从模板导入费率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/import-rate-cards.md)
+         * [配置自定义本地化](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)
+         * [配置AI协作者](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)
       * 配置时间表和工时表首选项 {#configure-timesheets-schedules}
          * [配置时间表和工时表首选项](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
          * [时间表概述](administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)
@@ -561,7 +561,9 @@ ht-degree: 2%
          * [授予对筛选器、视图、分组的访问权限](administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)
          * [授予对Scenario Planner的访问权限](administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
          * [授予对资源管理的访问权限](administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
+         * [授予对费率卡的访问权限](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-rate-cards.md)
          * [授予对Workfront目标的访问权限](administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
+         * [授予对品牌权限的访问权限](administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md)
       * Workfront中的单点登录 {#sso}
          * [单点登录：文章索引](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
          * [单点登录概述](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
@@ -588,6 +590,7 @@ ht-degree: 2%
          * [自定义主菜单](administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
          * [使用布局模板自定义对象标题](administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)
          * [自定义左侧面板](administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
+         * [使用布局模板自定义更多菜单](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-more-menu.md)
          * [自定义“详细信息”视图](administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
          * [使用布局模板自定义摘要面板](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
          * [自定义新主页](administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
@@ -611,6 +614,7 @@ ht-degree: 2%
             * [将计算字段添加到表单](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
             * [向自定义表单和字段添加逻辑规则](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
             * [自定义表单中的高级逻辑示例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/advanced-logic-examples.md)
+            * [限制对自定义字段中财务数据的访问](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md)
             * [自定义表单中的外部查找字段示例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
             * [组织和预览表单](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
          * 管理自定义表单 {#manage-custom-forms}
@@ -783,6 +787,15 @@ ht-degree: 2%
          * [管理组项目模板](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)
          * [管理组的已删除项目](administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-deleted-objects.md)
          * [管理组的已恢复项目](administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md)
+   * 管理企业运营 {#manage-enterprise-operations}
+      * [管理企业操作：文章索引](/help/quicksilver/administration-and-setup/manage-enterprise-operations/enterprise-operations-index.md)
+      * [企业运营功能概述](/help/quicksilver/administration-and-setup/manage-enterprise-operations/enterprise-operations-capabilities-overview.md)
+      * [配置位置](/help/quicksilver/administration-and-setup/manage-enterprise-operations/configure-locations.md)
+      * [定义费率属性](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)
+      * [管理费率卡](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)
+      * [从模板导入费率卡](/help/quicksilver/administration-and-setup/manage-enterprise-operations/import-rate-cards.md)
+      * [将费率更改推送到项目](/help/quicksilver/administration-and-setup/manage-enterprise-operations/push-rates-to-projects.md)
+      * [共享费率卡](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md)
    * 配置集成 {#configure-integrations}
       * [配置集成](administration-and-setup/configure-integrations/workfront-integrations.md)
       * [Adobe Workfront集成](administration-and-setup/configure-integrations/workfront-integrations-1.md)
@@ -879,7 +892,7 @@ ht-degree: 2%
       * [优先级：文章索引](workfront-basics/priorities/priorities-toc.md)
       * [优先级入门](workfront-basics/priorities/get-started-with-priorities.md)
       * [在优先级中查看项目和工作项详细信息](workfront-basics/priorities/view-task-project-details.md)
-      * [在“优先级”中过滤和分组您的工作](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
+      * [使用优先级过滤、分组和排序您的工作](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
       * [自定义工作列表列](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
       * [优先处理重要工作项目](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)
       * [在优先级中创建任务和问题](/help/quicksilver/workfront-basics/priorities/create-task-issue-priorities.md)
@@ -1224,6 +1237,7 @@ ht-degree: 2%
          * [使用模板创建项目](manage-work/projects/create-projects/create-project-from-template.md)
          * [从Microsoft项目导入项目](manage-work/projects/create-projects/import-project-from-ms-project.md)
          * [创建项目基线](manage-work/projects/create-projects/create-baselines.md)
+         * [创建和查看项目快照](manage-work/projects/create-projects/create-snapshots.md)
       * 更新项目工作 {#update-work-on-a-project}
          * [更新项目工作：文章索引](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
          * [将状态应用于与组关联的工作](manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
@@ -1298,13 +1312,18 @@ ht-degree: 2%
          * [管理项目财务方面的信息](manage-work/projects/project-finances/manage-project-finance-area.md)
          * [更改项目货币](manage-work/projects/project-finances/change-project-currency.md)
          * [跟踪成本](manage-work/projects/project-finances/track-costs.md)
+         * [覆盖项目级别的用户成本率](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md)
          * [管理项目支出](manage-work/projects/project-finances/manage-project-expenses.md)
+         * [收入和成本层次结构概览](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)
          * [开单和收入概览](manage-work/projects/project-finances/billing-and-revenue-overview.md)
          * [创建开票记录](manage-work/projects/project-finances/create-billing-records.md)
          * [用公司级别的记帐费率覆盖项目级别的记帐费率](manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md)
-         * [改写工作角色开单费率和计算项目收入概览](manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
+         * [覆盖开单费率和计算项目收入概览](manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
          * [覆盖项目级别的工作角色记帐费率](manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)
+         * [覆盖项目级别的用户记帐费率](/help/quicksilver/manage-work/projects/project-finances/override-user-billing-rates-project-level.md)
          * [将费率卡附加到项目](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)
+         * [设置工作角色以进行计费](/help/quicksilver/manage-work/projects/project-finances/set-up-job-role-for-billing.md)
+         * [定义加班率](/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md)
          * [项目计划收益概述](manage-work/projects/project-finances/project-planned-benefit.md)
          * [设置绩效指数方法(PIM)](manage-work/projects/project-finances/set-pim.md)
          * [计算投资回报率(ROI)](manage-work/projects/project-finances/calculate-roi.md)
@@ -1860,23 +1879,22 @@ ht-degree: 2%
       * [统一文档审批：文章索引](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [用于文档审批的可用功能](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
       * [文档决策状态概述](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-      * [Workfront AI Reviewer入门](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
+      * [Workfront内容审查者入门](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
       * [Adobe企业存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)
       * [Adobe企业存储模型的对象权限和访问级别概述](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)
       * 设置和管理资产和文档审批 {#manage-asset-review-and-approval}
          * [设置和管理统一审批：文章索引](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
-         * [创建AI审阅者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
-         * [为AI审阅者设置品牌](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
-         * [创建文档审批工作流](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
-         * [向文档审批工作流中添加其他审批人或审阅人](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
-         * [从文档审批工作流中删除审批人或审阅人](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
-         * [为文档创建审批工作流模板](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+         * [为内容查看者创建和管理品牌](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
+         * [创建文档审阅或审批请求](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+         * [向资产或文档添加其他审阅人或审批人](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
+         * [从资产或文档中删除审批者或审阅者](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
+         * [创建资产和文档的审批模板](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
          * [将统一审批和验证结合使用](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
          * [上传新文档版本并请求审批](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
          * [创建用于审阅和审批的报告仪表板](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
       * 审阅和批准资源和文档 {#review-and-approve-documents}
          * [审阅和批准文档：文章索引](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
-         * [查看AI审核者得分和反馈](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)
+         * [查看内容查看者得分和反馈](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)
          * [审阅文档](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [批准文档](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
          * [在Frame.io查看器中审阅和批准文档](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md)
@@ -2557,8 +2575,8 @@ ht-degree: 2%
       * [使用PKCE流程配置和使用您组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-pkce-flow.md)
       * [弃用API — 内部](wf-api/api/deprecation-api-internal.md)
       * [API版本21中的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-      * [API版本20中的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [API版本19中的新增功能](wf-api/api/new-api-version-19.md)
+      * [API版本20](/help/quicksilver/wf-api/api/new-api-version-20.md)中的新增功能
+      * [API版本19](wf-api/api/new-api-version-19.md)中的新增功能
       * [API版本18中的新增功能](wf-api/api/new-api-version-18.md)
       * [API版本17中的新增功能](wf-api/api/new-api-version-17.md)
       * [API版本16中的新增功能](wf-api/api/new-api-version-16.md)

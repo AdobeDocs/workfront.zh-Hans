@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 64ee7798e79324af0ab48af91f49d04d94ece3a9
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1882'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,138 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+
+## 新增增加列表视图的行高度的功能
+
+>[!NOTE]
+>
+>预览： 2026年4月2日
+>生产快速发布： 2026年4月15日
+>适用于所有人的生产： 2026年4月16日
+
+我们添加了一个新设置，用于调整列表视图中的行高。
+
+有关更多信息，请参阅管理列表视图(help/quicksilver/planning/views/manage-the-list-view.md)。
+
+有关信息，请参阅[管理列表视图](/help/quicksilver/planning/views/manage-the-list-view.md)。
+
+## 将记录类型名称和视图图标添加到公开共享视图
+
+>[!NOTE]
+>
+>预览： 2026年4月2日
+>生产快速发布： 2026年4月15日
+>适用于所有人的生产： 2026年4月16日
+
+为确保收件人始终了解在打开记录类型的公共共享链接时他们收到的查看内容，我们已将记录类型的名称添加到共享视图页面，以及视图图标和视图名称。
+
+有关信息，请参阅[共享视图](/help/quicksilver/planning/access/share-views.md)
+
+## 请求表单列表中新增了分组功能
+
+>[!NOTE]
+>
+>预览： 2026年4月2日
+>生产快速发布： 2026年4月15日
+>适用于所有人的生产： 2026年4月16日
+
+为了帮助您更好地组织信息，我们增加了在记录类型的请求表单页面中对项目进行分组的功能。
+
+在此增强功能之前，此区域中不存在此功能。
+
+有关信息，请参阅[管理列表视图](/help/quicksilver/planning/views/manage-the-list-view.md)。
+
+## 展开共享实体列表以显示用户
+
+>[!NOTE]
+>
+>预览： 2026年4月2日
+>生产快速发布： 2026年4月15日
+>适用于所有人的生产： 2026年4月16日
+
+现在，您可以展开组、团队、公司和角色，以便在与他们共享工作区或视图时查看其成员。 在此增强功能之前，仅在共享记录类型时，这些对象的成员资格列表才可用。
+
+有关信息，请参阅[共享工作区](/help/quicksilver/planning/access/share-workspaces.md)。
+
+## 适用于Workfront Planning实施的多工作区最佳实践模板
+
+>[!NOTE]
+>
+>预览： 2026年4月2日
+>生产快速发布： 2026年4月15日
+>适用于所有人的生产： 2026年4月16日
+
+我们将推出一个模板包，帮助您简化组织中Workfront Planning的实施。 通过安装最佳实践框架模板，您最多可以创建六个工作区，其中包含开始在Workfront中移动战略规划所需的所有信息。
+
+多工作区模板包含一个全局模板，该模板可建立核心记录类型，您可以在构建的任何自定义工作区中使用这些类型。 此外，该模板还包括了5个可用作示例的工作区，这些工作区相互关联并与Workfront中的其他对象相关联。
+
+有关信息，请参阅[创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md)。
+
+>[!NOTE]
+>
+> 此增强功能仅适用于具有Prime或更高配置包的客户。
+
+## 从任何Workfront Planning页面全局搜索Workfront Planning对象
+
+>[!NOTE]
+>
+>预览： 2026年4月2日
+>生产快速发布： 2026年4月15日
+>适用于所有人的生产： 2026年4月16日
+
+现在，您可以使用任何Planning页面中的以下键组合，从Workfront Planning中的任意页面搜索工作区、记录类型或视图：
+
+* Ctrl+K for Windows
+* 适用于Mac的⌘+K
+
+您还可以从添加到Planning登陆页面的新搜索框中搜索工作区、记录类型或视图。
+
+有关信息，请参阅[编辑工作区](/help/quicksilver/planning/architecture/edit-workspaces.md)。
+
+## 对记录所连接页面中的项目列表应用其他条件格式
+
+>[!NOTE]
+>
+>预览： 2026年4月2日
+>生产快速发布： 2026年4月15日
+>适用于所有人的生产： 2026年4月16日
+
+您现在可以将其他条件格式应用于记录所连接页面中的项目列表。
+
+新的条件格式功能包括：
+
+* 为文本添加颜色
+
+* 在单元格中将文本变为粗体或斜体
+
+* 能够将条件格式应用到整行
+
+在此增强功能之前，仅存在向单元格背景添加颜色的功能。
+
+有关信息，请参阅[管理列表视图](/help/quicksilver/planning/views/manage-the-list-view.md)。
+
+## 在列表视图中添加了筛选器的个性化名称
+
+>[!NOTE]
+>
+>预览： 2026年4月2日
+>生产快速发布： 2026年4月15日
+>适用于所有人的生产： 2026年4月16日
+
+我们在列表视图中为团队、组、公司和角色过滤器添加了以下个性化名称：
+
+* 我的主团队，我的团队
+
+* 我的主组，我的组
+
+* 我的主要角色，我的角色
+
+* 我的公司
+
+字段必须存在于视图中显示的对象上，过滤器选项才可见。
+
+有关详细信息，请参阅[管理列表视图](/help/quicksilver/planning/views/manage-the-list-view.md)。
 
 ## 痕迹导航重新设计
 

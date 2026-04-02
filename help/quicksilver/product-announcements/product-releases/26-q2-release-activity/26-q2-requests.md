@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 3ffdd2e9-4c9f-412e-8d7c-3a58a832a973
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 64ee7798e79324af0ab48af91f49d04d94ece3a9
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,20 @@ ht-degree: 0%
 本页介绍了如何请求在2026年第二季度版本中对“预览”环境进行功能增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2026年第二季度发布周期中此时可用的所有更改列表，请参阅[2026年第二季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+
+## 改进了请求列表中创建的对象的可见性
+
+>[!NOTE]
+>
+>预览： 2026年4月2日
+>生产快速发布： 2026年4月15日
+>适用于所有人的生产： 2026年4月16日
+
+您现在可以在新请求体验中，通过已创建的对象字段，查看和打开从Workfront问题转换而来的任务和项目。
+
+此外，我们还添加了“已创建对象状态”字段，以指示已转换对象的状态。
+
+有关信息，请参阅[查看提交的请求](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md)。
 
 ## 更新了共享体验以获得增强的视图
 

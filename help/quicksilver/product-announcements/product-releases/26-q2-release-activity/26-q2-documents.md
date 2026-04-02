@@ -5,11 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-last-update: 2026-04-01T18:03:50Z
-git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: b334e8b234c9c87dd1b1ecd26df6645b3381ffb0
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -22,12 +20,44 @@ ht-degree: 0%
 
 有关2026年第二季度发布周期中此时可用的所有更改列表，请参阅[2026年第二季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
 
-## 由Workfront和Frame.io提供支持的统一审阅和批准
+## 已启用GenStudio基础配置以支持AI协作者
 
+>[!NOTE]
+>
+>预览：2026年3月31日
+>生产快速发布： 2026年3月31日
+>适用于所有人的生产： 2026年3月31日
+
+在2026年3月31日，所有Workfront客户都已配置GenStudio Foundation，并且Admin Console系统管理员将收到一封通知他们此添加的电子邮件。 此产品仅是为了让Workfront客户在发布AI协作者时能够根据需要向品牌提供Workfront客户的访问权限。 产品本身只是Brands的访问机制，在GenStudio Foundation产品中没有可用的附加功能。
+
+客户无需为此新产品付费。
+
+## 我的审批构件更新
+
+>[!NOTE]
+>
+>预览： 2026年4月2日
+>生产快速发布： 2026年4月15日
+>适用于所有人的生产： 2026年4月16日
+
+我们已在主页的“我的审批”小组件中添加了以下增强功能：
+
+* 按“最旧优先”或“最新优先”对批准列表进行排序
+* 展开小组件以全屏显示
+
+有关详细信息，请参阅[使用我的审批小组件](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-approvals-widget.md)管理您的审批。
+
+## 由Workfront和Frame.io提供支持的统一审阅和批准
 
 >[!IMPORTANT]
 >
 >此新功能在续订后可用于净新客户和现有客户。
+
+>[!NOTE]
+>
+>预览：2026年3月12日
+>生产快速发布： 2026年4月15日
+>适用于所有人的生产： 2026年4月16日
 
 
 我们很高兴地推出由Workfront和Frame.io提供支持的统一审阅和批准，这是一种简化的审阅和批准体验。
