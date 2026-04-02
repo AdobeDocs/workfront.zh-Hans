@@ -5,14 +5,17 @@ title: 使用我的审批构件管理您的审批
 description: “我的审批”小组件在一个位置显示所有待处理、已分配、已委托和已提交的审批。 在这里，您可以根据需要筛选和组织审批、做出决策并委派审批。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 4981d9adb2cae53e30f13aa2a7aa6857befbf3ca
+exl-id: 276a33f5-92de-440c-ae3a-8cd01731434f
+source-git-commit: 30e27ba5a12733660a88cd7e9643bea868503774
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 5%
+source-wordcount: '431'
+ht-degree: 8%
 
 ---
 
 # 使用我的审批构件管理您的审批
+
+{{highlighted-preview}}
 
 “我的审批”小组件在一个位置显示所有待处理、已分配、已委托和已提交的审批。 在这里，您可以根据需要筛选和组织审批、做出决策并委派审批。
 
@@ -26,17 +29,17 @@ ht-degree: 5%
 * 计划记录请求
 * 时间表
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -70,9 +73,16 @@ ht-degree: 5%
    >分配给工作角色或组的审批不显示在主页中。 分配给团队的审批将显示在每个团队成员的“我的审批”小部件中。
 
 
+1. <span class="preview">（视情况而定）单击&#x200B;**排序**&#x200B;下拉菜单，然后选择&#x200B;**最新最先**&#x200B;以查看最近添加的审批。</span>
+
+
+1. <span class="preview">（可选）单击“全屏”图标![全屏图标](assets/full-screen.png)以全屏打开“我的审批”小组件。</span>
+
 1. 选择要在其中作出批准决策的项目。
 
    ![我的审批小组件](assets/my-approvals-widget.png)
+
+   <!--update screenshot after production release-->
 
 1. 在右侧面板中作出批准决策时，单击其中一个可用选项。 根据要批准的项目类型，以下选项将显示在页面的右上角：
 
