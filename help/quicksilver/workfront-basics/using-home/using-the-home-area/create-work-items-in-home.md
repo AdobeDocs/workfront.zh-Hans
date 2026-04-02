@@ -53,7 +53,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>[！UICONTROL Edit]或更高版本对任务的访问权限</p> </td> 
+   <td> <p>[!UICONTROL Edit]或更高版本对任务的访问权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
