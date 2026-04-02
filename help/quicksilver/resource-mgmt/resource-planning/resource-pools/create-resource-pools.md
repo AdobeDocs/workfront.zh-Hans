@@ -9,7 +9,7 @@ exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
 source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
 source-wordcount: '546'
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 9%
 
 资源池是用户集合，可帮助您更轻松地在Adobe Workfront中管理资源。 有关资源池的详细信息，请参阅[资源池概述](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td>Adobe Workfront 包</td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 

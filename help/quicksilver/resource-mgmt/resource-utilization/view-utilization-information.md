@@ -6,7 +6,9 @@ description: 您可以在“利用率”报表中查看资源的利用率。
 author: Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '7099'
 ht-degree: 1%
@@ -42,9 +44,9 @@ ht-degree: 1%
 <p style="color: #dc143c;" data-mc-conditions="QuicksilverOrClassic.Draft mode">This report displays information about the assignments on work items for projects in your environment, like Planned, Actual, and Budgeted Hours, FTE, or Cost.&nbsp;These are hours,&nbsp;FTE, or costs associated with the assignments and not with the tasks and issues themselves.(PRIVATE NOTE:&nbsp;Vazgen's response about these hours: It queries Assignments first to get the tasks, issues, projects to display in the view. And then from those gets the hours. In some cases, like for Planned Hours, it takes them from Assignments; But Budgeted Hours come from projects. And Actual Hours are their own object - Hour.)</p>
 -->
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,8 +54,8 @@ ht-degree: 1%
  <tbody> 
   <tr> 
   <tr> 
-   <td>Adobe Workfront包</td> 
-   <td><p>任何</p></td>
+   <td>Adobe Workfront 包</td> 
+   <td><p>“任一”</p></td>
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
@@ -314,13 +316,13 @@ ht-degree: 1%
   <tr> 
    <td scope="col"><strong>计划收入</strong> </td> 
    <td scope="col"> <p>利用率报表中的计划收入是与分配给项目任务的资源的计划小时数关联的收入。</p> <p>Workfront使用以下公式计算利用率报表的项目计划收入：</p> <p><code>Project Planned Revenue = SUM (All Tasks Planned Revenue)</code> </p> 
-   <p><b>注释</b>
+   <p><b>注意</b>
    <p>利用率报表中显示的项目计划收入与项目详细信息区域和项目报表中显示的计划收入不同。 </p> <p>项目详细信息区域中的计划收入反映任务收入和项目的固定收入。 利用率报表中的计划收入仅显示与项目中的任务关联的计划收入。 </p> 
      <div class="example" data-mc-autonum="<b>Example: </b>">  
       <p>如果项目有1个时数为10的任务，分配给顾问时费率为$20，并且项目有$100的固定收入，则利用率报表显示计划收入$200（与任务小时数关联的计划收入）。 项目详细信息部分显示$300（任务的计划收入和项目的固定收入）。 </p> 
      </div> <p>有关利用率报告之外的任务和项目计划收入的更多信息，请参阅<a href="../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">账单和收入概览</a>。</p> </p> <p>利用率报表计算和显示所包含项目的计划收入的方式考虑到了在任务上设置的收入类型。 </p> <p>根据项目中每个任务的收入类型，存在以下方案： </p> <p><strong>固定收入：</strong>无论任务分配如何，任务的收入始终使用在任务上指定的固定金额进行计算。</p> <p><b>重要</b>
 
-与Workfront的其他区域不同，利用率报表通过将固定收入平均除以任务的计划小时数，来计算固定收入任务的计划收入。 </p> <p>例如，一项任务的收入为$200。 如果任务中有4个计划小时数，则每小时费用为50美元。 该权限在用户和角色级别上分发。 此分布对于利用率报表是唯一的。</p> <p><b>注释</b>
+与Workfront的其他区域不同，利用率报表通过将固定收入平均除以任务的计划小时数，来计算固定收入任务的计划收入。 </p> <p>例如，一项任务的收入为$200。 如果任务中有4个计划小时数，则每小时费用为50美元。 该权限在用户和角色级别上分发。 此分布对于利用率报表是唯一的。</p> <p><b>注意</b>
 
 如果您有“固定收入”任务并且该任务没有计划小时数，则收入不会显示在利用率报表中，因为无法将其分配给小时数。 如果您的任务具有固定收入且没有分配的计划小时数，则收入显示为未分配收入。 </p> <p><strong>每小时角色数：</strong>任务收入的计算方法是使用为特定角色设置的记帐费率乘以与该角色关联的已计划小时数。 Workfront使用以下公式：</p> <p><code>角色每小时计划收入= SUM（所有任务上角色的计划小时数） *角色记帐费率</code></p><p><b>注意：</b>公式中的记帐小时费率会考虑该费率的任何日期有效更改。</p>   <p><strong>每小时用户数：</strong>任务收入的计算方法是使用为特定用户设置的记帐费率乘以与该用户关联的已计划小时数。 Workfront使用以下公式：</p> <p><code>用户小时计划收入= SUM（所有任务上用户的计划小时数） *用户记帐费率</code> </p> <p><b>注意：</b>公式中的记帐小时费率会考虑该费率的任何日期有效更改。</p> <p><b>角色小时或用户小时加固定</b> </p> <p><b>重要信息</b>
 
@@ -367,11 +369,13 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-<!--Note from the table about Actual revenue: 
+<!--
+Note from the table about Actual revenue: 
      <p>Actual Revenue is displayed in the Utilization report only after the task is marked as Complete or Done (or a status that equates with Complete).</p>
     -->
 
-<!--More notes from the table: 
+<!--
+More notes from the table: 
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;the note below is duplicated in this article: /Content/Manage work/Projects/Project Finances/billing-and-revenue-overview.html and in the glossary)</p>
    -->
 
@@ -426,7 +430,8 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-<!--Note from the table from above "Function" header in the middle of the table; right after the "Planned Revenue"/"Margin" definition: 
+<!--
+Note from the table from above "Function" header in the middle of the table; right after the "Planned Revenue"/"Margin" definition: 
      <p scope="col" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This needs to be either split in two tables of formatted differently)</p>
     -->
 
@@ -519,12 +524,12 @@ ht-degree: 1%
    * **程序：**&#x200B;开始键入包含要包括在利用率报告中的信息的程序名称，然后在下拉列表中出现该名称时单击该名称。\
      重复此过程以在利用率报告中包含多个任务的信息。\
      如果您已在筛选器中指定了任何项目组合，则您指定的项目组合必须来自已包含在筛选器中的项目组合。 如果不包含，则程序中的数据不会包含在利用率报表中。\
-     若要将系统中的所有程序包含在筛选器中，请单击“全部添加”**&#x200B;**。 （仅当系统中程序少于20个时，此选项才可用。）
+     若要将系统中的所有程序包含在筛选器中，请单击“全部添加”****。 （仅当系统中程序少于20个时，此选项才可用。）
 
    * **项目：**&#x200B;开始键入包含要包含在利用率报告中的信息的项目名称，然后在名称出现在下拉列表中时单击该名称。\
      重复此过程以在利用率报告中包含来自多个项目的信息。\
      如果您已在筛选器中指定了任何项目组合或程序，则指定的项目必须来自已包含在筛选中的项目组合或程序之一。 如果不包含，则项目中的数据不会包含在利用率报表中。\
-     若要在筛选器中包含系统中的所有项目，请单击“全部添加”**&#x200B;**。 （仅当系统中拥有的项目少于250个时，此选项才可用。）
+     若要在筛选器中包含系统中的所有项目，请单击“全部添加”****。 （仅当系统中拥有的项目少于250个时，此选项才可用。）
 
    * **任务：**&#x200B;开始键入包含要包含在利用率报告中的信息的任务名称，然后在名称出现在下拉列表中时单击该名称。\
      重复此过程以在利用率报告中包含多个任务的信息。\
@@ -535,7 +540,7 @@ ht-degree: 1%
      如果您已在筛选器中指定了任何项目组合、项目群或项目，则指定的问题必须来自已包含在筛选中的项目组合、项目群或项目群之一。 如果不包含，则问题中的数据不会包含在利用率报表中。\
      问题的成本信息并不总是包含在利用率报告中。 有关问题的成本信息何时包含在利用率报告中的详细信息，请参阅本文中的[使用利用率报告跟踪进度、成本和收入](#track-progress-cost-and-revenue-with-the-utilization-report)。
 
-   * **角色：**&#x200B;开始键入要在利用率报表中显示的角色的名称，然后在该名称出现在下拉列表中时单击该名称。 重复此过程以包含其他角色。
+   * **角色：**开始键入要在利用率报表中显示的角色的名称，然后在该名称出现在下拉列表中时单击该名称。 重复此过程以包含其他角色。
 利用率报告仅包含指定角色的信息。 例如，一项任务包含10个实际小时数。 其中6个小时来自Designer角色，4个小时来自开发人员角色。 如果您按角色过滤Designer的利用率报表，则报表中将排除来自开发人员角色的四个小时。
 
    * **添加筛选器规则：**&#x200B;单击&#x200B;**添加筛选器规则**，在文本字段中单击，然后开始键入要筛选的字段名称。 如果该字段可用，则会填充每个可关联该字段的对象。 单击字段名称以将其添加到过滤器。
@@ -550,7 +555,7 @@ ht-degree: 1%
 1. 要创建新筛选器，请单击&#x200B;**保存筛选器**。\
    或\
    要修改现有筛选器，请单击&#x200B;**保存筛选器**&#x200B;按钮旁边的箭头，然后单击&#x200B;**保存新筛选器**。
-在&#x200B;**筛选器名称**&#x200B;字段中，键入筛选器的名称，然后单击&#x200B;**保存**。
+在**筛选器名称**&#x200B;字段中，键入筛选器的名称，然后单击&#x200B;**保存**。
 “利用率”区域使用您在过滤器中包括的信息进行过滤。
 
 ### 应用已保存的过滤器 {#apply-a-saved-filter}
@@ -643,10 +648,10 @@ ht-degree: 1%
      选择&#x200B;**Letter - Portrait**、**Letter - Landscape**&#x200B;或&#x200B;**Other Sizes**(提供用于导出到法律行业(8.5&quot; x 14&quot;)、分类帐(11&quot; x 17&quot;)和A4的选项)。
 根据您使用的操作系统，您可以选择打开或保存文件。 使用关联的应用程序打开文件或将其保存到计算机。
 
-   * **Excel：**&#x200B;以XLSX格式导出报告。 如果您打算在Excel中进一步分析数据，则建议使用此格式。
+   * **Excel：**以XLSX格式导出报告。 如果您打算在Excel中进一步分析数据，则建议使用此格式。
 根据您使用的操作系统，您可以选择打开或保存文件。 使用关联的应用程序打开文件或将其保存到计算机。
 
-   * **制表符分隔：**&#x200B;以TSV格式导出报告。 如果您计划将数据导入第三方软件以进行进一步分析，则建议使用此格式。
+   * **制表符分隔：**以TSV格式导出报告。 如果您计划将数据导入第三方软件以进行进一步分析，则建议使用此格式。
 根据您使用的操作系统，您可以选择打开或保存文件。 使用关联的应用程序打开文件或将其保存到计算机。
 
 1. 阅读[导出数据](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md)一文中的信息以了解如何使用导出的文件。
