@@ -3,11 +3,13 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 筛选器：显示您当前的待审批项目
-description: The following project filter displays projects in the Current - Pending Approval status, where the logged-in user is either the Project Sponsor or the Portfolio Manager.
+description: 以下项目筛选器显示处于当前 — 未决批准状态的项目，其中登录用户是项目发起人或Portfolio经理。
 author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: 32045aec-acc5-44d2-bad5-7759dc797414
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 8%
@@ -18,7 +20,7 @@ ht-degree: 8%
 
 <!--Audited: 10/2024-->
 
-The following project filter displays projects in the Current - Pending Approval status, where the logged-in user is either the Project Sponsor or the Portfolio Manager.
+以下项目筛选器显示处于当前 — 未决批准状态的项目，其中登录用户是项目发起人或Portfolio经理。
 
 ## 访问权限要求
 
@@ -53,7 +55,7 @@ The following project filter displays projects in the Current - Pending Approval
 
 +++
 
-## Filter current projects pending approval
+## 筛选当前未决批准项目
 
 要应用此过滤器，请执行以下操作：
 
@@ -61,7 +63,7 @@ The following project filter displays projects in the Current - Pending Approval
 1. 从&#x200B;**筛选器**&#x200B;下拉菜单中，选择&#x200B;**新建筛选器**。
 
 1. 单击&#x200B;**文本模式**。
-1. In the area displayed, copy and paste the following code:
-   <pre>status=CUR:A<br>sponsorID=$$USER.ID<br>OR:a:status=CUR:A<br>OR:a:portfolio:ownerID=$$USER.ID</pre>
+1. 在显示的区域中，复制并粘贴以下代码：
+   <pre>状态=CUR：A<br>sponnerID=$$USER.ID<br>或:a:状态=CUR：A<br>或:a:项目组合：ownerID=$$USER.ID</pre>
 
 1. 单击&#x200B;**应用** > **另存为新项**。

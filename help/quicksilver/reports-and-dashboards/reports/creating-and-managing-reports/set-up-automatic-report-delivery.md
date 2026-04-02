@@ -6,10 +6,12 @@ description: 计划自动报表提交
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1293'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -25,17 +27,17 @@ ht-degree: 2%
 
 有关详细信息（包括可能影响报表交付的大小限制），请参阅[报表交付概述](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -93,7 +95,7 @@ ht-degree: 2%
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>发送至</p> </td> 
-      <td> <p>开始键入要向其发送报告的用户、组、团队或角色的名称，然后在名称出现在下拉列表中时单击该名称。</p> <p>或</p> <p>输入您希望有权访问报告的Workfront系统外部人员的电子邮件地址。</p> <p>重复此过程可将报告发送给多个用户、组、团队或角色。</p> <p>注释：  <p>添加报告投放收件人时，请考虑以下事项：</p> 
+      <td> <p>开始键入要向其发送报告的用户、组、团队或角色的名称，然后在名称出现在下拉列表中时单击该名称。</p> <p>或</p> <p>输入您希望有权访问报告的Workfront系统外部人员的电子邮件地址。</p> <p>重复此过程可将报告发送给多个用户、组、团队或角色。</p> <p>注意：  <p>添加报告投放收件人时，请考虑以下事项：</p> 
         <ul> 
          <li><p>如果贵组织将Workfront通知限制在特定电子邮件域，则您只能向电子邮件允许列表中列出的电子邮件地址发送报告。</p> <p>例如，当用户被设置为报告收件人并且拥有之前允许的电子邮件地址时，并且更新允许列表以不再向该域投放电子邮件时，用户将不再接收投放的报告。</p><p>有关Workfront管理员如何更新电子邮件允许列表的信息，请参阅<a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref">配置电子邮件允许列表</a>部分。</p></li> 
          <li> <p>添加大量用户作为收件人可能会导致投放失败。 如果您遇到交付失败的情况，则可以使用较小的用户组安排多个报表交付。</p> </li> 
@@ -190,7 +192,8 @@ ht-degree: 2%
 
 1. 单击&#x200B;**删除**&#x200B;以确认。
 
-<!--## Video walk-through
+<!--
+## Video walk-through
 
 View the following video to learn how to schedule a report delivery. This video was recorded in Workfront Classic. However, the content also applies to the new Workfront experience.
 

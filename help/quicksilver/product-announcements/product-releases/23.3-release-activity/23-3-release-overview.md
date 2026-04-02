@@ -5,7 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2799'
 ht-degree: 0%
@@ -435,7 +437,8 @@ ht-degree: 0%
                         </ul>
                     </td>
                 </tr>                
- <!--               <tr>
+ <!--
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Improved experience when moving a document to a linked folder with drag and drop</a></p> 
                         <p>We've added some transparency to the process of dragging and dropping a document into a linked folder. Now, the document that you moved to a linked folder remains in the document list until it has fully moved. The document options are disabled, but you can still open the document for view while it is moving. When the document has completed the transfer, it disappears from the document list, because it is now fully located in the linked folder. </p>
@@ -450,7 +453,8 @@ ht-degree: 0%
                             </li>
                         </ul>
                     </td>
-                </tr>-->
+                </tr>
+                -->
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">创建项目时自动创建链接到Adobe Experience Manager Assets的文件夹</a></p>
@@ -780,12 +784,13 @@ Workfront Goals将在23.3版本发布时间范围内发布的新功能。 有关
 
 #### 在23.10版本中弃用验证移动应用程序（2023年10月）
 
-我们将在23.10版本（2023年10月）中正式弃用Proof移动应用程序。 常规的Workfront移动设备应用程序已增强新的验证功能(有关更多信息，请参阅Workfront Mobile增强功能下的发行说明)，建议用户尽快开始将其用于验证工作。
+我们将在23.10版本（2023年10月）中正式弃用Proof移动应用程序。 常规的Workfront移动设备应用程序已增强新的验证功能（有关更多信息，请参阅Workfront Mobile增强功能下的发行说明），建议用户尽快开始将其用于验证工作。
 
 请注意，Workfront移动设备应用程序要求先登录Workfront。 外部用户和访客可以继续使用验证应用程序进行验证工作；但是，23.10版本（2023年10月）不再支持该应用程序，并且将无法使用该应用程序。
 
 
-<!-- HTML you might need
+<!--
+ HTML you might need
 
 New table
 

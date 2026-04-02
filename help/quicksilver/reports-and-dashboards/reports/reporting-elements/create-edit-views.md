@@ -6,7 +6,9 @@ description: 您可以使用视图自定义在屏幕上显示的信息类型。 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 4%
@@ -38,24 +40,24 @@ ht-degree: 4%
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</strong></td> 
    <td> 
-    <p>投稿人或更高版本</p>
+    <p>参与者或更高版本</p>
     <p>请求或更高版本</p>
    </td>
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>对筛选器、视图、组的编辑访问权限</p> <p>编辑对报告、功能板、日历的访问权限以在报告中创建视图</p>
+   <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报告、功能板、日历的访问权限以在报告中创建视图</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理对报告的权限以创建或编辑报告中的视图</p> <p>管理对视图的权限以对其进行编辑</p>
+   <td> <p>管理对报告的权限以创建或编辑报告中的视图</p> <p>管理视图的权限以编辑它</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中的信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 +++
 
 ## 创建或自定义视图
@@ -68,10 +70,10 @@ ht-degree: 4%
 
 1. 在要创建或自定义视图的任何列表中单击&#x200B;**视图**&#x200B;下拉菜单。
 
-1. 单击&#x200B;**+新建视图**&#x200B;按钮以创建新视图。
+1. 单击&#x200B;**+新建视图**按钮以创建新视图。
 或
-单击鼠标上要编辑的现有视图右侧出现的&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
-将显示&#x200B;**自定义视图**&#x200B;对话框。
+单击鼠标上要编辑的现有视图右侧出现的**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
+将显示**自定义视图**&#x200B;对话框。
 
 1. 在&#x200B;**列预览**&#x200B;部分中，执行以下任一操作：
 
@@ -117,7 +119,7 @@ ht-degree: 4%
      > * 实际小时数汇总了主父任务和独立任务的值；它们不会汇总父任务或子任务的父任务的数字。
      > * 数字和货币值的自定义数据字段汇总了所有任务：父代、子代、父代的父代和独立任务。
      >
-     >有关在报表中使用分组的详细信息，请参阅Adobe Workfront中的分组概述[一文。](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
+     >有关在报表中使用分组的更多信息，请参阅Adobe Workfront中的[分组概述](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)一文。
 
       * （可选）单击&#x200B;**高级选项**&#x200B;为列指定以下信息：
 
@@ -127,15 +129,15 @@ ht-degree: 4%
          <tbody> 
           <tr> 
            <td role="rowheader"><strong>自定义列标签</strong></td> 
-           <td><p>为列指定自定义标签。 此标签替换默认标签。 我们建议仅使用UTF-8字符以避免兼容性问题。</p></td> 
+           <td><p>指定列的自定义标签。 此标签将替换默认标签。 我们建议仅使用UTF-8字符以避免兼容性问题。</p></td> 
           </tr> 
           <tr> 
            <td role="rowheader"><strong>字段格式</strong></td> 
-           <td>选择您希望列中字段的值显示的格式。</td> 
+           <td>选择您希望为列中的字段显示值的格式。</td> 
           </tr> 
           <tr> 
            <td role="rowheader"><strong>在仪表板上显示此列</strong></td> 
-           <td><p>选中此选项后，当报表与其他报表并排显示时，会在仪表板中显示此列。 如果取消选中此选项，则在报表并排显示的信息板中查看报表时不会显示此列。</p></td> 
+           <td><p>当报告与其他报告并排显示时，选择此选项可在功能板上显示此列。 如果未选择此选项，则在报告并排显示的功能板上查看报告时，不会显示此列。</p></td> 
           </tr> 
           <tr> 
            <td role="rowheader"><strong>列规则</strong></td> 
@@ -160,15 +162,16 @@ ht-degree: 4%
 
 ### 创建或自定义展示板视图 {#create-or-customize-an-agile-view}
 
-您可以使用讨论区视图按照Agile方法管理项目。
+您可以使用展示板视图，按照敏捷方法管理项目。
 
-讨论区视图仅可用于列出项目的任务和问题。
+讨论区视图仅适用于项目的任务和问题列表。
 
-它们已预配置，但您可以修改其特定设置。
+它们已预配置，但您可以为其修改某些设置。
 
-有关Agile视图或讨论区视图的详细信息，请参阅[在讨论区视图中管理Agile项目](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)一文。
+有关Agile视图或展示板视图的详细信息，请参阅文章[在展示板视图下管理Agile项目](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)。
 
-<!-- Legacy Agile views were deprecated with 25.3. This is old: 
+<!--
+ Legacy Agile views were deprecated with 25.3. This is old: 
 
 >[!NOTE]
 >

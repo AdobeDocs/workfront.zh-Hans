@@ -9,18 +9,22 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2166'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 # 配置组的任务和问题首选项
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 如果贵组织中的组需要独立于系统级别配置任务或问题首选项的方式对其进行配置，Adobe Workfront管理员可以解锁首选项。 然后，作为组管理员，您可以为组配置首选项，这将影响与组关联的所有任务或问题。
 
@@ -41,17 +45,17 @@ ht-degree: 2%
 >* Workfront管理员在系统级别解锁首选项后，您可以对其进行配置，然后将其锁定，以确保您的组及其子组中的每个人都使用相同的配置。 此功能与Workfront管理员为系统中的每个人配置和锁定首选项的功能相同。 有关详细信息，请参阅[锁定或解锁子组的项目、任务或问题偏好设置](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md)。
 >
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td>Adobe Workfront 包</td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
@@ -81,7 +85,7 @@ ht-degree: 2%
 
 1. 单击要为其配置解锁任务和问题首选项的组的名称。
 1. 在显示的组页面上，在左侧面板中，单击&#x200B;**任务和问题偏好设置**。
-1. 在显示的页面上，继续执行以下步骤所列5个部分之一，配置“新任务默认值”、“问题”、“删除”、“实际日期”和“访问”区域的设置，然后单击“保存”**&#x200B;**。
+1. 在显示的页面上，继续执行以下步骤所列5个部分之一，配置“新任务默认值”、“问题”、“删除”、“实际日期”和“访问”区域的设置，然后单击“保存”****。
 
    如果您将鼠标悬停在锁定图标![锁定图标](assets/lock-toggle-button-dimmed.png)上需要配置的首选项，并显示工具提示以告知您已锁定，则可以要求Workfront管理员为组织中的所有组解锁该首选项。
 
@@ -140,9 +144,11 @@ ht-degree: 2%
        <ul> 
         <li><strong>保留原始问题并将其解决方案与任务绑定</strong>：在转换问题时，在任务完成之前，它始终被视为问题。 任务完成后，问题的状态自动变为“已关闭”。</li> 
         <li><strong>允许主要联系人访问任务</strong>：授予主要联系人（问题创建者）访问任务的权限，以审阅任务、进行更新并随时了解其进度</li> 
-        <li> <p><strong>允许在转换期间更改这些设置</strong>：允许正在转换问题的用户在将问题转换为任务期间更改这些选项。</p> <!--
+        <li> <p><strong>允许在转换期间更改这些设置</strong>：允许正在转换问题的用户在将问题转换为任务期间更改这些选项。</p>
+        <!--
           Screenshot when possible</p>
-         --> </li> 
+         -->
+         </li>
        </ul> </td> 
      </tr> 
      <tr> 

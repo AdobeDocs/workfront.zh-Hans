@@ -9,10 +9,12 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2828'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -30,17 +32,17 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
 
 本文按照适当的顺序概述了其中的每个过程。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td>Adobe Workfront 包</td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
@@ -75,7 +77,8 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
 {{step-1-to-setup}}
 
 <!--
-1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).  -->
+1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).
+-->
 
 1. 单击&#x200B;**系统** > **导入数据(Kick-Start)**。
 
@@ -100,14 +103,14 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
     </thead> 
     <tbody> 
      <tr> 
-      <td scope="col"> <p>功能板</p> <p>系统中所有公开共享的报告面板都可以导出。 无法在系统范围内导出非共享功能板。 在一次导出中，最多可以选择100个特定仪表板。</p> </td> 
+      <td scope="col"> <p>仪表板</p> <p>系统中所有公开共享的报告面板都可以导出。 无法在系统范围内导出非共享功能板。 在一次导出中，最多可以选择100个特定仪表板。</p> </td> 
       <td scope="col">导出为ZIP文件</td> 
-      <td scope="col"> <p>参数</p> <p>说明文本</p><p>参数选项</p> <p>参数组</p> <p>类别参数</p> <p>类别</p> <p>报表</p> <p>门户选项卡部分</p> <p>功能板</p> <p>首选项</p> </td> 
+      <td scope="col"> <p>参数</p> <p>说明文本</p><p>参数选项</p> <p>参数组</p> <p>类别参数</p> <p>类别</p> <p>报告</p> <p>门户选项卡部分</p> <p>仪表板</p> <p>首选项</p> </td> 
      </tr> 
      <tr> 
-      <td scope="col"> <p>报表</p> <p>系统中的所有报告都可导出。 在单个导出中，最多可以选择100个特定报告。</p> <p>Kick-Starts不支持文本模式过滤器或分组。 为了成功导出，必须将报表过滤器和分组切换到“标准模式”。</p> </td> 
+      <td scope="col"> <p>报告</p> <p>系统中的所有报告都可导出。 在单个导出中，最多可以选择100个特定报告。</p> <p>Kick-Starts不支持文本模式过滤器或分组。 为了成功导出，必须将报表过滤器和分组切换到“标准模式”。</p> </td> 
       <td scope="col">导出为ZIP文件 </td> 
-      <td scope="col"> <p scope="col">参数</p> <p scope="col">说明文本</p> <p scope="col">参数选项</p> <p scope="col">参数组</p> <p scope="col">类别参数</p> <p scope="col">类别</p> <p scope="col">报表</p> <p scope="col">首选项</p> </td> 
+      <td scope="col"> <p scope="col">参数</p> <p scope="col">说明文本</p> <p scope="col">参数选项</p> <p scope="col">参数组</p> <p scope="col">类别参数</p> <p scope="col">类别</p> <p scope="col">报告</p> <p scope="col">首选项</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>审批</p> </td> 
@@ -145,9 +148,9 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
       <td> <p>访问级别</p> <p>首选项</p> </td> 
      </tr> 
      <tr> 
-      <td>任务分配</td> 
+      <td>任务</td> 
       <td>导出为Excel文件</td> 
-      <td> <p>任务分配</p> <p>首选项</p> </td> 
+      <td> <p>任务</p> <p>首选项</p> </td> 
      </tr> 
      <tr> 
       <td>公司</td> 
@@ -185,9 +188,9 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
       <td> <p> 分组</p> <p>首选项 </p> </td> 
      </tr> 
      <tr> 
-      <td>Hour</td> 
+      <td>小时</td> 
       <td>导出为Excel文件</td> 
-      <td> <p> Hour</p> <p>首选项 </p> </td> 
+      <td> <p> 小时</p> <p>首选项 </p> </td> 
      </tr> 
      <tr> 
       <td>问题</td> 
@@ -212,9 +215,9 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
       <td> <p> 注释</p> <p>首选项 </p> </td> 
      </tr> 
      <tr> 
-      <td>组合</td> 
+      <td>项目组合</td> 
       <td>导出为Excel文件</td> 
-      <td> <p> 组合</p> <p>首选项 </p> </td> 
+      <td> <p> 项目组合</p> <p>首选项 </p> </td> 
      </tr> 
      <tr> 
       <td>项目</td> 
@@ -274,7 +277,7 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
     </tbody> 
    </table>
 
-1. 单击&#x200B;**下载**。
+1. 单击&#x200B;**“下载”。**
 1. 继续[用您的数据填充电子表格模板](#populate-the-spreadsheet-template-with-your-data)，用您的信息填充空白模板电子表格。
 
 ## 使用您的数据填充电子表格模板 {#populate-the-spreadsheet-template-with-your-data}

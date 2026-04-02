@@ -6,10 +6,12 @@ description: 项目是Adobe Workfront中的一个大型工作单位。 您可以
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1295'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -19,23 +21,25 @@ ht-degree: 1%
 
 <!-- Audited: 110/2025 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 项目代表在Adobe Workfront中需要完成的大量工作。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -57,7 +61,8 @@ ht-degree: 1%
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -81,7 +86,8 @@ ht-degree: 1%
    <td> <p>When you create a project, you automatically receive Manage permissions to the project.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 
 ## 创建项目的方法
@@ -117,7 +123,7 @@ ht-degree: 1%
 
   有关访问Workfront Planning的信息，请参阅[访问概述](/help/quicksilver/planning/access/access-overview.md)。
 
-  有关通过将项目添加到记录来创建项目的信息，请参阅将项目与记录连接时[从Workfront Planning创建WorkfrontWorkfront对象一节](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+  有关通过将项目添加到记录来创建项目的信息，请参阅将项目与记录连接时[从Workfront Planning创建Workfront对象一节](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 
 ## 先决条件
 
@@ -135,7 +141,7 @@ ht-degree: 1%
 
 * 作为Workfront管理员或组管理员，您可以在配置整个Workfront实例或组的项目首选项时为新项目配置默认设置。
 * Workfront会先应用组的设置（如果有），然后再应用Workfront管理员设置的设置。
-* 新项目的默认状态与您的Workfront管理员在主“项目首选项”区域中定义的状态相对应，或与组管理员(或Workfront管理员)在组的“项目首选项”区域中定义的状态相对应。
+* 新项目的默认状态与您的Workfront管理员在主“项目首选项”区域中定义的状态相对应，或与组管理员（或Workfront管理员）在组的“项目首选项”区域中定义的状态相对应。
 
   >[!NOTE]
   >
@@ -153,7 +159,7 @@ ht-degree: 1%
 
      新项目的组是模板的组。 如果模板未与组关联，则项目组是创建项目的用户的主组。
 
-     通过模板创建的新项目的默认状态与您的Workfront管理员在主“项目首选项”区域中定义的状态相对应，或与组管理员(或Workfront管理员)在组的“项目首选项”区域中定义的状态相对应。 从模板创建项目时，可以将默认状态更改为项目组的任何状态，即模板的组或创建项目的用户的主组。
+     通过模板创建的新项目的默认状态与您的Workfront管理员在主“项目首选项”区域中定义的状态相对应，或与组管理员（或Workfront管理员）在组的“项目首选项”区域中定义的状态相对应。 从模板创建项目时，可以将默认状态更改为项目组的任何状态，即模板的组或创建项目的用户的主组。
 
    * 如果通过转化问题创建项目，则新项目的组是问题现有项目的组。 如果转化问题的用户无权访问问题的项目或问题的项目没有组，则新项目的组是转化问题的用户的主组。
 

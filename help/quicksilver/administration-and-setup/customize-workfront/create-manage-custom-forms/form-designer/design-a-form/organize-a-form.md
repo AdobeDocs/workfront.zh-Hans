@@ -8,7 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 796c7e0a15a7a26c5cd3f0115d72946f0f28bcf2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1353'
 ht-degree: 2%
@@ -83,7 +85,7 @@ ht-degree: 2%
       <td role="rowheader">描述</td> 
       <td>如果要向用户说明此部分的用途，请键入文本。 这会显示在自定义表单上部分的标签下方。</td> 
      </tr> 
-      <td><span class="preview">默认折叠</span></td>
+      <td><span class="preview">默认情况下已折叠</span></td>
       <td><span class="preview">默认情况下，当窗体本身展开时，自定义窗体上的所有部分都会展开。 选择此选项可在用户打开表单时默认折叠部分。</span></td>
      <tr>
      </tr>
@@ -135,7 +137,7 @@ ht-degree: 2%
 
 自定义表单分区界限的“有限编辑”权限仅适用于“项目”、“任务”、“问题”和“用户”对象类型。
 
-在配置了“有限编辑”权限的分区界限的自定义表单中，如果您将其他对象类型(Portfolio、Program、Document、Company、Billing Record、Iteration、Expense或Group)之一添加到表单，系统将提示您切换到“编辑”权限，该权限与该对象类型和表单上的现有对象类型都兼容。
+在配置了“有限编辑”权限的分区界限的自定义表单中，如果您将其他对象类型（Portfolio、Program、Document、Company、Billing Record、Iteration、Expense或Group）之一添加到表单，系统将提示您切换到“编辑”权限，该权限与该对象类型和表单上的现有对象类型都兼容。
 
 >[!INFO]
 >

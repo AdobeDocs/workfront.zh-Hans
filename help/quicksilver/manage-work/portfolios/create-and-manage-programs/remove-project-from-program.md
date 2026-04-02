@@ -6,7 +6,9 @@ description: 当不再需要时，您可以从项目群中删除项目。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 3dfd10e6-bcd0-48fb-b6aa-6e08cc52b230
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 6%
@@ -33,20 +35,20 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 包</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p> 
-   <p>[!UICONTROL 计划]</p> </td> 
+   <td><p>[！UICONTROL标准版]</p> 
+   <p>[！UICONTROL计划]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[!UICONTROL Edit]对项目组合、项目和项目的访问权限</p> <p>您必须具有[!UICONTROL Delete]项目访问权限才能删除项目。</p> </td>
+   <td> <p>[！UICONTROL Edit]对项目组合、项目和项目的访问权限</p> <p>您必须具有[！UICONTROL Delete]项目访问权限才能删除项目。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>[!UICONTROL 管理]对项目组合、项目和项目的权限</p> <p>您必须具有项目的[!UICONTROL Delete]权限才能删除项目。 </p> <p>创建项目后，默认情况下，您拥有[!UICONTROL Manage]权限。</p> </td> 
+   <td> <p>[！UICONTROL管理]对项目组合、项目和项目的权限</p> <p>您必须具有项目的[！UICONTROL Delete]权限才能删除项目。 </p> <p>创建项目后，默认情况下，您拥有[！UICONTROL Manage]权限。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,7 +57,8 @@ ht-degree: 6%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -81,7 +84,8 @@ ht-degree: 6%
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)-->
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
+-->
 
 ## 从项目群中删除项目
 
@@ -93,6 +97,6 @@ ht-degree: 6%
 
    或
 
-   单击&#x200B;**[!UICONTROL 从程序]**&#x200B;中删除&#x200B;**&#x200B;**&#x200B;以将其从所选程序中删除。
+   单击&#x200B;**[!UICONTROL 从程序]**&#x200B;中删除&#x200B;****&#x200B;以将其从所选程序中删除。
 
    如果您单击[!UICONTROL 从项目群]中删除，该项目将不再与所选项目群关联。

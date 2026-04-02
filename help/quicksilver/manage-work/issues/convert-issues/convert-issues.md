@@ -8,10 +8,12 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1497'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -56,7 +58,7 @@ ht-degree: 2%
 * 转化问题时存在5分钟的处理限制。 如果问题附加了大量文档且无法转换，您可能需要删除一些文档并重试。
 * 如果您决定在转化中保留问题并且附加了文档，则文档及其版本将会复制到项目或任务中。 验证和文档审批将不会复制到项目或任务。
 * 如果您决定不将问题保留在转化中，并且它有附加文档，文档、其版本和校样会传输到项目或任务。 文档审批将不会传输到项目或任务。
-* 如果您的文档和文件夹链接至来自第三方服务(如Google Drive)的原始问题，则无论您在转换期间是否保留该问题，这些链接都将复制到新对象中。
+* 如果您的文档和文件夹链接至来自第三方服务（如Google Drive）的原始问题，则无论您在转换期间是否保留该问题，这些链接都将复制到新对象中。
 * 问题注释也会复制到从问题转换的任务或项目，但标记的用户不会转移。
 * 如果要将自定义表单信息从问题传输至要将其转换到的项目或任务，请确保您有项目或任务自定义表单，其中包含要从问题传输来的相同字段。 有关详细信息，请参阅转换对象时[传输自定义表单数据](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)。
 
@@ -113,7 +115,7 @@ ht-degree: 2%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>组合</td> 
+   <td>项目组合</td> 
    <td>从模板进行传输。 否则，此字段为空。</td> 
   </tr> 
   <tr> 
@@ -164,7 +166,8 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-<!--WRITER
+<!--
+WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Convert an issue to a project</h2> 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: moved to its own article)</p>

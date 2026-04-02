@@ -8,7 +8,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '5237'
 ht-degree: 7%
@@ -272,7 +274,8 @@ ht-degree: 7%
 <!--
       DRAFTED IN FLARE:
        For more information on publishing a project as a Help Request Queue, see 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.-->
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.
+       -->
 
 ## 通信
 
@@ -297,7 +300,7 @@ ht-degree: 7%
    <td> <p>文档</p> </td> 
    <td> <p>文档评论</p> </td> 
    <td> <p>文档所有者</p> </td> 
-   <td> <p>在我的文档中添加了一个评论。</p> <p>Workfront中文档的所有者会在文档上发布评论时收到电子邮件通知，除非发布评论的用户同时也是文档所有者。</p> <p>任何直接包含在评论中的用户都会收到电子邮件通知。</p> <p>仅当项目状态为“当前”时，才会发送通知。 </p> <p>即时通知电子邮件的主题是： &lt;项目名称&gt;上&lt;请求名称&gt;的<em>评论（ref# &lt;请求参考编号&gt;）</em></p> <p> 每日摘要通知的主题是：<em>通信的摘要&lt;每日摘要的日期&gt;</em></p> </td> 
+   <td> <p>在我的文档中添加了一个评论。</p> <p>Workfront中文档的所有者会在文档上发布评论时收到电子邮件通知，除非发布评论的用户同时也是文档所有者。</p> <p>任何直接包含在评论中的用户都会收到电子邮件通知。</p> <p>仅当项目状态为“当前”时，才会发送通知。 </p> <p>即时通知电子邮件的主题是： &lt;Project Name&gt; (ref# &lt;Request Reference Number&gt;)<em>的&lt;Request Name&gt;上的</em>评论</p> <p> 每日摘要通知的主题是：<em>沟通摘要&lt;每日摘要的日期&gt;</em></p> </td> 
    <td> <p>活动</p> </td> 
   </tr> 
   <tr> 
@@ -356,7 +359,8 @@ ht-degree: 7%
 
 <!--
       DRAFTED IN FLARE: for the directed update above, it also mentions:
-        ... and is not the same user that enters the update-->
+        ... and is not the same user that enters the update
+        -->
 
 ## 审批信息
 
@@ -531,7 +535,8 @@ ht-degree: 7%
 <!--
       DRAFTED IN FLARE: from the Request document add to issue assigned to: 
         For more information on publishing a project as a Help Request Queue, see 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>. -->
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.
+       -->
 
 ## 有关我参与的项目的信息
 

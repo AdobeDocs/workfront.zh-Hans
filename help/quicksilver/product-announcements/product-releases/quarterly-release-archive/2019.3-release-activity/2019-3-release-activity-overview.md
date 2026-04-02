@@ -7,9 +7,11 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b2bee19f-32eb-49b9-9497-dea290ce64b2
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1295'
+source-wordcount: '1296'
 ht-degree: 1%
 
 ---
@@ -152,20 +154,22 @@ ht-degree: 1%
 
   为了让您和您的公司更安全Workfront移动应用程序，用户将在处于不活动状态8分钟后自动注销。
 
-* [在移动应用程序中按无效项目筛选](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#filter) [在移动应用程序中按无效项目筛选](https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880)
+* [在移动应用程序中按无效项目筛选](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#filter)[在移动应用程序中按无效项目筛选](https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880)
 
   我们在移动应用程序的“项目”选项卡上添加了“停止的项目”作为过滤器选项。
 
 * [在iOS上使用移动设备应用程序删除对象](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#delete)
 
-  <!-- <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete objects using the Mobile app on iOS</a> </MadCap:conditionalText>
+  <!--
+    <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete objects using the Mobile app on iOS</a> </MadCap:conditionalText>
    -->
 
   您现在可以在移动设备应用程序中删除任务、问题和时间表等对象。 您必须对对象具有正确的权限才能将其删除。
 
 * [使用移动应用程序重置密码](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#reset)
 
-  <!--<MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Reset your password using the Mobile app</a> </MadCap:conditionalText>
+  <!--
+  <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Reset your password using the Mobile app</a> </MadCap:conditionalText>
   -->
 
   如果您忘记了密码，则可以使用Workfront Mobile应用程序重置密码。
@@ -361,7 +365,7 @@ ht-degree: 1%
 * [Workfront库现已可用](#workfront-library-now-available)
 * 不再支持[API版本3](#api-version-3-no-longer-supported)
 * [TLS 1.0和1.1支持即将结束](#tls-1-0-and-1-1-support-is-ending)
-* [Flash应用程序移除](#flash-application-removal)
+* 删除[Flash应用程序](#flash-application-removal)
 * [要删除的各种单点登录选项](#various-single-sign-on-options-to-be-removed)
 * [第3季度产品路线图网络研讨会](#q3-product-roadmap-webinar)
 
@@ -399,11 +403,11 @@ TLS 1.2 to be required in Workfront
 ](https://experience.workfront.com/s/article/TLS-1-2-to-be-required-in-Workfront-1474533813).
 -->
 
-### Flash应用程序移除 {#flash-application-removal}
+### Flash应用程序删除 {#flash-application-removal}
 
-自2018.3版发布以来，Workfront中删除了所有依赖于Flash技术的功能，并用新解决方案替换了这些功能。
+自2018.3版发布以来，Workfront中删除了所有依赖于Flash技术的功能，并替换为新的解决方案。
 
-有关旧版Flash工具及其替代的详细信息，请参阅[在Adobe Workfront中替换基于Flash的工具](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)
+有关旧版Flash工具及其替代的详细信息，请参阅[在Adobe Workfront中替代基于Flash的工具](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -467,4 +471,4 @@ Replacement of Flash-based tools in Workfront
 
 ### 第3季度产品路线图网络研讨会 {#q3-product-roadmap-webinar}
 
-了解有关将于8月1日上午9:00举行的[第3季度路线图网络研讨会](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=Product&eventid=2040896&sessionid=1&key=EFBB434E2FDF446E010DA62D1C27E9E5&regTag=&sourcepage=register)的更多内容。 山地标准时间
+了解有关将于8月1日上午9[举行的](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=Product&eventid=2040896&sessionid=1&key=EFBB434E2FDF446E010DA62D1C27E9E5&regTag=&sourcepage=register)第3季度路线图网络研讨会:00的更多内容。 山地标准时间

@@ -2,25 +2,27 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 分组：表示小时的项目发起人
-description: 此小时分组由项目的发起人组织小时数，并在其中记录小时数。 工时分组的标准Report Builder界面不提供到“项目发起人”字段的映射。 必须使用“文本模式”界面来访问此字段。
+title: 分组：项目发起人的小时数
+description: 此小时分组按记录小时数的项目发起人组织小时数。 用于小时分组的标准Report Builder界面不提供到项目发起人字段的映射。 必须使用文本模式界面来访问此字段。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 6b35b0ef-18b7-4121-ae39-d7957d76c04b
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 8%
 
 ---
 
-# 分组：表示小时的项目发起人
+# 分组：项目发起人的小时数
 
 <!--Audited: 10/2024-->
 
-此小时分组由项目的发起人组织小时数，并在其中记录小时数。 工时分组的标准Report Builder界面不提供到“项目发起人”字段的映射。 必须使用“文本模式”界面来访问此字段。
+此小时分组按记录小时数的项目发起人组织小时数。 用于小时分组的标准Report Builder界面不提供到项目发起人字段的映射。 必须使用文本模式界面来访问此字段。
 
-![hour_report_grouped_by_proposer.png](assets/hour-report-grouped-by-sponsor-350x39.png)
+![hour_report_grouped_by_sponner.png](assets/hour-report-grouped-by-sponsor-350x39.png)
 
 ## 访问权限要求
 
@@ -37,33 +39,33 @@ ht-degree: 8%
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
-   <p>用于修改过滤器的参与者或请求 </p>
-   <p>用于修改报表的标准或计划</p>
+   <p>修改过滤器的参与者或请求 </p>
+   <p>用于修改报告的标准或计划</p>
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>编辑对报表、功能板、日历的访问权限以修改报表</p> <p>编辑对筛选器、视图、分组的访问权限以修改筛选器</p> </td> 
+   <td> <p>编辑对报告、功能板和日历的访问权限以修改报告</p> <p>编辑对筛选器、视图和分组的访问权限以修改筛选器</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理对报告的权限</p>  </td> 
+   <td> <p>管理报表的权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的详细信息，请参阅[Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
-## 按项目发起人分组显示小时数
+## 按项目发起人分组小时数
 
 要应用此分组，请执行以下操作：
 
 1. 转到小时列表。
-1. 从&#x200B;**分组**&#x200B;下拉菜单中选择&#x200B;**新建分组**。
+1. 从&#x200B;**分组**&#x200B;下拉菜单中，选择&#x200B;**新建分组**。
 
 1. 单击&#x200B;**切换到文本模式**。
-1. 删除显示区域中的文本，并将其替换为以下代码：
+1. 移除所显示区域中的文本，然后使用以下代码替换该文本：
 
 ```
    group.0.linkedname=project:sponsor:name

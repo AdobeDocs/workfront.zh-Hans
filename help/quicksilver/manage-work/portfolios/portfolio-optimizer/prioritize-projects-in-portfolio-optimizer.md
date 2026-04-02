@@ -6,7 +6,9 @@ description: 您可以在Portfolio Optimizer中安排项目的优先顺序，以
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 54e33746-5995-49de-8e21-bf973f0694a6
-source-git-commit: 714e6e09f1429f0382c36d17d3f2aca95edcfbc6
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 2%
@@ -46,16 +48,16 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>[!UICONTROL 标准版]</p>
-   <p>[!UICONTROL 计划]</p> </td> 
+   <td> <p>[！UICONTROL标准版]</p>
+   <p>[！UICONTROL计划]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[!UICONTROL Edit]对[!UICONTROL 项目组合]和[!UICONTROL 项目]的访问权限</p>  </td>
+   <td> <p>[！UICONTROL Edit]对[！UICONTROL项目组合]和[！UICONTROL项目]的访问权限</p>  </td>
 </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>项目组合的[!UICONTROL Manage]权限</p>  </td> 
+   <td> <p>项目组合的[！UICONTROL Manage]权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,7 +66,8 @@ ht-degree: 2%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -90,7 +93,8 @@ ht-degree: 2%
     </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 更改[!UICONTROL Portfolio优化器]中项目的优先级
 

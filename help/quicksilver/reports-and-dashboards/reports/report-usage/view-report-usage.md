@@ -6,7 +6,9 @@ description: 查看报告使用情况
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 51d9067c-8c55-433e-b560-7da241ef33ae
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '960'
 ht-degree: 2%
@@ -83,7 +85,7 @@ ht-degree: 2%
 1. 开始键入以下任何字段，并在这些字段出现在&#x200B;**Report**&#x200B;对象下的列表中时将其选中，以将其添加到新列：
 
    * **最近10个用户**：显示最近10个查看报告的用户的名称。
-   * **视图**：显示以下任一时间范围内的视图数：
+   * **查看次数**：显示以下任一时间范围内的查看次数：
 
       * **本月、季度、年**
       * **上个月、季度、年**
@@ -136,7 +138,7 @@ ht-degree: 2%
 * Workfront不会收集内置报表的使用信息。\
   有关Workfront内置报告的详细信息，请参阅文章[使用Adobe Workfront内置报告](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)。
 
-* Workfront不收集有关交付报告的使用信息。 交付的报告不计为一个视图。\
+* Workfront不会收集有关已传送报表的使用信息。 已交付的报表不计为一个视图。\
   有关已传送报表的更多信息，请参阅文章[报表传送概述](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)。
 
 * 当系统或组管理员以其他用户身份登录时，系统或组管理员将计算这些视图，并将其与系统或组管理员关联。

@@ -7,7 +7,9 @@ description: 创建用户委派报告
 author: Courtney
 feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 8%
@@ -22,7 +24,7 @@ ht-degree: 8%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider moving this to the Custom&nbsp;View, Filter, Grouping Samples section as an example of a report)</p>
 -->
 
-在Adobe Workfront中，用户可以委派项目、任务并向其他用户颁发批准，以确保在用户在办公室外时管理其批准。 拥有计划许可证的用户可以创建用户委派报告，以查看：
+在Adobe Workfront中，用户可以将项目、任务和问题审批委派给其他用户，以确保在外出时管理其审批。 拥有计划许可证的用户可以创建用户委派报告，以查看：
 
 * 已将其任务、问题和项目审批委托给其他用户的用户
 * 哪些用户已委派任务、问题和项目审批给他们
@@ -87,8 +89,8 @@ ht-degree: 8%
    |---|---|
    | **来自用户** | 该用户正在将其任务、问题和项目审批委派给其他用户。 |
    | **至用户** | 这是具有委托给他们的任务、问题和项目审批的用户。 |
-   | **开始日期** | 这是作出委派的用户外出时间的开始。 |
-   | **结束日期** | 这是已进行委派的用户外出时间的结束。 |
+   | **开始日期** | 对于进行委派的用户来说，这是外出时间的开始。 |
+   | **结束日期** | 对于进行委派的用户而言，这是外出时间的结束。 |
 
    {style="table-layout:auto"}
 
@@ -103,4 +105,4 @@ ht-degree: 8%
 
 1. 完成报表生成后，单击&#x200B;**保存+关闭**。
 
-   此时会显示报告。
+   此时将显示报表。

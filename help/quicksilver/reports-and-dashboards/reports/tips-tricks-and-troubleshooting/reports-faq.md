@@ -7,7 +7,9 @@ description: 报表常见问题解答
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1500'
 ht-degree: 1%
@@ -45,11 +47,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>编辑对报表、功能板、日历的访问</p>  </td> 
+   <td> <p>编辑对报告、功能板和日历的访问权限</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理对报告的权限</p>  </td> 
+   <td> <p>管理报表的权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,13 +60,13 @@ ht-degree: 1%
 
 +++
 
-## 为什么我的小时差异自定义计算在列中未显示正确结果？
+## 为什么我的小时差自定义计算没有在列中显示正确结果？
 
 <!--this section is linked from the Actual Hours article for Tasks in the Task Information folder; edit the links or do not delete or change this section-->
 
-在项目报表中，我进行了计算，从计划小时数中减去实际小时数。
+在项目报告中，我有一个计算从计划小时数中减去实际小时数。
 
-我得到的结果是不正确的。
+我得到的结果不正确。
 
 <!--this changed with this issue in May 2025; Actual Hours changed from actualWorkRequired to actualWorkRequiredDouble: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/68108e860000120e90a79cb82e5811c2/updates : On a project report I have a calculation that subtracts Actual Hours (2) from Planned Hours (4). The result I am getting is 120 when it should be 2.  -->
 
@@ -117,13 +119,13 @@ ht-degree: 1%
 
 有关基于用户的通配符筛选器变量概述的完整列表，请参阅[通配符筛选器变量概述](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)。
 
-## 为什么我的报表中的数据似乎不完整？
+## 为什么我的报告中的数据不完整？
 
 ### 答案
 
-大多数情况下，如果您具有阻止查看系统中的项目的有限访问权限，则会发生这种情况。 此外，不会与您共享您要查看的项目。
+大多数情况下，如果您的访问权限有限，导致无法查看系统中的项目，就会发生这种情况。 此外，您想要查看的项目不会与您共享。
 
-报告的创建者可以编辑报告，使其以系统管理员或有权查看数据的任何“计划”用户的访问权限运行。
+报告的创建者可以编辑报告，以使用系统管理员或有权查看数据的任何“计划”用户的访问权限运行报告。
 
 有关详细信息，请参阅[以其他用户的访问权限运行并交付报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md)。
 
@@ -149,11 +151,11 @@ ht-degree: 1%
 
 1. 单击&#x200B;**保存+关闭**。
 
-## 为什么在项目中，添加问题/添加任务链接没有出现在我的问题和任务列表的底部？
+## 为什么添加问题/添加任务链接未出现在项目中的问题和任务列表的底部？
 
 ### 答案
 
-首先，确保您具有向项目添加问题和任务的正确访问和权限。 在这种情况下，您应该会在&#x200B;**问题**&#x200B;和&#x200B;**任务**&#x200B;列表的底部看到&#x200B;**添加问题**&#x200B;和&#x200B;**添加任务**&#x200B;链接。
+首先，确保您拥有将问题和任务添加到项目的正确访问和权限。 在这种情况下，您应该会在&#x200B;**问题**&#x200B;和&#x200B;**任务**&#x200B;列表的底部看到&#x200B;**添加问题**&#x200B;和&#x200B;**添加任务**&#x200B;链接。
 
 但是，有些内容可能会阻止显示这些链接：
 
@@ -163,8 +165,8 @@ ht-degree: 1%
 * 如果对这些列表应用了&#x200B;**分组**，则不会显示链接。 移除&#x200B;**分组**，并且应该显示链接，以便您可以将问题和任务添加到项目中。\
   有关创建分组的信息，请参阅Adobe Workfront中的[分组概述](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)。
 
-* 如果您将&#x200B;**查看**&#x200B;应用于这些列表，并且选择了项目默认货币以外的货币，则不会显示链接。 将&#x200B;**查看**&#x200B;更改为&#x200B;**项目的原始货币**，此时应会显示链接，以便您可以向项目添加问题和任务。\
-  有关更改视图中的货币的更多信息，请参阅[创建具有唯一汇率的财务数据报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)。
+* 如果将&#x200B;**视图**&#x200B;应用于这些列表，并且该列表选择了项目默认货币以外的货币，则不会显示链接。 将&#x200B;**视图**&#x200B;更改为&#x200B;**项目的原始货币**，将显示链接，以便您可以将问题和任务添加到项目中。\
+  有关更改视图中的货币的详细信息，请参阅[创建具有唯一汇率的财务数据报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)。
 
 ![项目货币](assets/nwe-project-original-currency-350x229.png)
 
@@ -174,10 +176,10 @@ ht-degree: 1%
 
 报表或功能板中的信息不会自动刷新。
 
-可以在缓存的报表中手动刷新信息。\
+可在缓存的报表中手动刷新信息。\
 有关刷新缓存报表的详细信息，请参阅[运行报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-report.md)。
 
-可以在缓存的仪表板中手动刷新信息。\
+信息可在缓存的仪表板中手动刷新。\
 有关刷新缓存仪表板的更多信息，请参阅文章[仪表板入门](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md#running-dashboards)中的[显示仪表板](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)部分。
 
 ## 我可以更改报告的所有者吗？

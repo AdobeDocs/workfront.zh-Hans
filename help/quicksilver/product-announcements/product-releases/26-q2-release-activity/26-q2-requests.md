@@ -4,7 +4,10 @@ description: 2026年第二季度要求增强功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 630a543c89a00188ae0b038177d3f6bc80c48b50
+exl-id: 3ffdd2e9-4c9f-412e-8d7c-3a58a832a973
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%
@@ -30,7 +33,3 @@ ht-degree: 0%
 此更新仅对新请求区域增强视图可用。
 
 有关详细信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
-
-
-
-

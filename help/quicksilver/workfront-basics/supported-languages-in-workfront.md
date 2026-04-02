@@ -6,7 +6,9 @@ description: 您可以通过调整浏览器上的语言首选项以及Adobe Work
 feature: Get Started with Workfront
 author: Becky
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 976cfce04c2dd4526265f9427007b97a768c8d6a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1137'
 ht-degree: 0%
@@ -15,7 +17,7 @@ ht-degree: 0%
 
 # Adobe Workfront支持的语言
 
-您可以更改显示来自Workfront的Adobe Workfront和电子邮件的语言，方法是调整浏览器上的语言首选项(如果贵组织尚未迁移到Adobe Admin Console)、Adobe Experience Cloud配置文件语言首选项(如果位于Adobe Admin Console)以及Workfront中的默认电子邮件区域设置。
+您可以更改显示来自Workfront的Adobe Workfront和电子邮件的语言，方法是调整浏览器上的语言首选项（如果贵组织尚未迁移到Adobe Admin Console）、Adobe Experience Cloud配置文件语言首选项（如果位于Adobe Admin Console）以及Workfront中的默认电子邮件区域设置。
 
 要更改您显示Workfront的语言，请参阅本文中的[更改语言](#change-the-language)。
 
@@ -92,14 +94,14 @@ Workfront中的Web验证查看器支持Workfront支持的大多数语言。
 * Workfront Fusion不支持在用户输入的字段中使用非英语文本字符。
 
 贵公司必须购买Workfront Fusion许可证才能访问Workfront Fusion。\
-有关Workfront Fusion的详细信息，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+有关Workfront Fusion的详细信息，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 ## 更改语言
 
 您可以通过修改以下设置来更改查看Workfront的语言和传出电子邮件的语言：
 
-* 浏览器上的语言(适用于不在Adobe Admin Console上的用户)
-* AEM配置文件的主要和次要语言(适用于Adobe Admin Console上的用户)
+* 浏览器上的语言（适用于不在Adobe Admin Console上的用户）
+* AEM配置文件的主要和次要语言（适用于Adobe Admin Console上的用户）
 * Workfront帐户中的客户信息和用户电子邮件区域设置。
 
 要查看所选语言的所有可用翻译，应将Workfront区域设置和浏览器区域设置设置为相同的语言。

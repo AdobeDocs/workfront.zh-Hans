@@ -6,7 +6,9 @@ description: 您无法从项目中删除模板。 您只能手动移除将模板
 author: Alina
 feature: Work Management
 exl-id: a8b6055a-7fac-4f9b-a880-10b2b85299b7
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 6%
@@ -27,7 +29,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 包</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -49,7 +51,8 @@ ht-degree: 6%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -73,7 +76,8 @@ ht-degree: 6%
    <td> <p>Manage access to tasks </p> <p>Contribute or higher access to the project </p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 用于从项目中删除模板信息的选项
 
@@ -112,4 +116,4 @@ ht-degree: 6%
 
      有关创建视图的信息，请参阅Adobe Workfront中的[视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)。
 
-1. 选择步骤2中标识为从模板创建的所有任务，然后单击&#x200B;**删除图标**&#x200B;**>是，删除**。 有关详细信息，请参阅[删除任务](../../../manage-work/tasks/manage-tasks/delete-tasks.md)。
+1. 选择步骤2中标识为从模板创建的所有任务，然后单击&#x200B;**删除图标****>是，删除**。 有关详细信息，请参阅[删除任务](../../../manage-work/tasks/manage-tasks/delete-tasks.md)。

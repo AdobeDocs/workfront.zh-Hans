@@ -4,7 +4,9 @@ title: 痕迹导航概述
 description: 痕迹导航显示所有对象类型的完整导航层次结构。
 feature: Get Started with Workfront
 exl-id: c4103f8e-4c3f-4d4d-a0eb-628c60735ab7
-source-git-commit: d7b8d7285d23d14f5390c9de1001de553c2b796f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -44,7 +46,8 @@ ht-degree: 0%
 
 
 
-<!--drafted: this is no longer possible, since we removed Campaigns, but it might come back as part of Maestro: 
+<!--
+drafted: this is no longer possible, since we removed Campaigns, but it might come back as part of Maestro: 
 
 ## Multi-object breadcrumbs
 

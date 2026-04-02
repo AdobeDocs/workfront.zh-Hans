@@ -6,7 +6,9 @@ description: 您可以通过添加或删除项目链接来修改现有日历。 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 7%
@@ -70,7 +72,7 @@ ht-degree: 7%
       ![将项目添加到日历](assets/add-a-calendar-project.png)
 
 
-1. (Optional) To add a calendar grouping or to modify an existing calendar grouping:
+1. （可选）要添加日历分组或修改现有日历分组，请执行以下操作：
    1. 单击项目名称旁边的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**编辑**。
       ![在日历中编辑项目](assets/edit-project-in-calendar.png)
 

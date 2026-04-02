@@ -6,10 +6,12 @@ description: 您可以在项目和任务之间移动问题。
 author: Alina
 feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '873'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -17,9 +19,11 @@ ht-degree: 1%
 
 <!--Audited: 12/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 您可以在以下对象之间移动问题：
 
@@ -28,17 +32,17 @@ ht-degree: 1%
 * 从任务到项目或到另一个项目
 * 从项目到同一项目中的任务或其他项目中的任务
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -65,7 +69,8 @@ ht-degree: 1%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -95,7 +100,8 @@ ht-degree: 1%
    <td> <p>Manage permissions to the issue</p> <p>Contribute permissions to the item where you are moving the issue with the ability to Add Issues.</td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 有关移动问题的注意事项
 
@@ -168,7 +174,7 @@ ht-degree: 1%
       <td>取消选择此选项可在将问题移动到新位置时，从问题中删除所有信息。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">任务</td> 
+      <td role="rowheader">分配</td> 
       <td>删除分配给问题的用户、工作角色或团队。</td> 
      </tr> 
      <tr> 
@@ -179,7 +185,7 @@ ht-degree: 1%
       <td role="rowheader"><p>文档</p></td> 
       <td> <p>删除文档选项卡中的所有内容，包括文档版本、链接的文档和文件夹。
 
-   <b>注释</b>
+   <b>注意</b>
 
    如果您选择不移动存在此问题的文档，这些文档将被删除并放入回收站30天。 管理员可以恢复它们，它们将在移动的问题上恢复。
 

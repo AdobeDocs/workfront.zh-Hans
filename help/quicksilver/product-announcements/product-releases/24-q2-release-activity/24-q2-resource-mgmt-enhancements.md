@@ -5,7 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 12b3c586-5f44-48cf-9451-1ef32118676f
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -14,16 +16,16 @@ ht-degree: 0%
 
 # 2024年第二季度资源管理增强功能
 
-本页介绍了在预览环境2024年第二季度版中所做的所有资源管理增强功能。 这些增强功能将在2024年第二季度发布的产品环境中提供。
+本页介绍了在2024年第二季度版本中对“预览”环境所做的所有资源管理增强。 这些增强功能将在2024年第二季度版本的生产环境中提供。
 
-有关2024年第二季度发布周期中此时可用的所有更改的列表，请参阅[2024年第二季度发布概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)。
+有关2024年第二季度发布周期中此时可用的所有更改列表，请参阅[ 2024年第二季度发布概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)。
 
-## 工作量平衡器中手动调整分配的指示器
+## 工作负载均衡器中手动调整分配的指示器
 
 >[!NOTE]
 >
->预览版本：2023年10月12日；面向快速版本的生产：随24.2版本一起提供（2024年2月15日）；面向季度版本的生产：随24.4版本一起提供（2024年4月11日）
+>预览版本： 2023年10月12日；用于快速发布的生产：用于24.2版（2024年2月15日）；用于季度发布的生产：用于24.4版（2024年4月11日）
 
-为了在工作负载平衡器中更清楚地说明手动调整或轮廓，手动调整的小时分配现在显示一个铅笔图标。
+为了在工作负载均衡器中更清楚地说明手动调整或分布，手动调整的小时分配现在显示一个铅笔图标。
 
-有关详细信息，请参阅[管理工作负载平衡器中的管理用户分配](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)。
+有关详细信息，请参阅[在工作负载均衡器](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)中管理用户分配。

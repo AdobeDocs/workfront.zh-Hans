@@ -7,7 +7,9 @@ description: 可以在通用编程语言中使用“IF”语句。 在Adobe Work
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 090a85fd-fdbe-4507-8bad-ce8c29bf8fc9
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 0%
@@ -57,7 +59,7 @@ ht-degree: 0%
 
 * **条件运算符** =此运算符可帮助您构建“IF”语句的条件。 例如，“等于”或“大于”是条件运算符。 有关可在语句中使用的条件运算符列表，请参阅计算自定义表达式中的[条件运算符](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md)。
 
-* **True**&#x200B;**Expression** =这是“True”变量，它告知等式满足条件的条件（true指示器）后要显示的指示器。
+* **True****Expression** =这是“True”变量，它告知等式满足条件的条件（true指示器）后要显示的指示器。
 
 * **False表达式** =这是“False”变量，它告知公式当不符合条件的条件（false指示符）时要显示的指示符。
 

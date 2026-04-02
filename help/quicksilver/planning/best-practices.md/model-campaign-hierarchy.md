@@ -6,7 +6,9 @@ role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 02e3b55f-9188-42bf-8d0b-c9fed86c63c4
-source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 0%
@@ -51,7 +53,7 @@ ht-degree: 0%
 
 下面是成功的Planning实施的级别，以及您可能考虑创建以在流程中为您提供支持的对象：
 
-* **第1级：营销活动(Workfront规划)**
+* **第1级：营销活动（Workfront规划）**
 
    * **焦点：**&#x200B;定义长期战略支柱和年度计划。 例如，为您的组织定义一个称为“2026财年全球品牌意识”的计划。 这是给定时间范围内的焦点。 创建营销活动以支持此计划。
 
@@ -59,13 +61,13 @@ ht-degree: 0%
 
   有关信息，请参阅[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)。
 
-* **第2级：渠道战术(Workfront规划)**
+* **第2级：渠道战术（Workfront规划）**
 
    * **焦点：**&#x200B;定义概述特定渠道的“内容”的操作摘要。 这是工作开始前战略意图的最后一层。 例如，创建“第1季度社交媒体闪烁”策略。 然后，您可以将其与营销策划配对。
 
    * **角色：**&#x200B;主要利益相关者是营销运营负责人、渠道负责人或营销活动经理。
 
-* **级别3：项目(规划和Workfront)**
+* **级别3：项目（规划和Workfront）**
 
    * **焦点：**&#x200B;根据最终完成计划的确切体验或活动执行。 某些交付项是具体的，例如社交帖子、电子邮件和网页。
 
@@ -131,7 +133,7 @@ ht-degree: 0%
 
 ### 将功能轮辐定义为团队的工作区
 
-功能单元(社交、Creative、电子邮件)拥有自己的工作区来管理其策略。
+功能单元（社交、Creative、电子邮件）拥有自己的工作区来管理其策略。
 
 * **主要位置：**&#x200B;这些工作区是本地团队执行的各个重心。
 
@@ -208,7 +210,8 @@ ht-degree: 0%
 * **不创建思洛存储器：**&#x200B;确保记录类型在工作区之间共享，这样团队就不会重新键入相同的数据。
 
 
-<!--original content:
+<!--
+original content:
 
 
 ## Goal 

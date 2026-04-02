@@ -9,10 +9,12 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2088'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -26,13 +28,13 @@ ht-degree: 2%
 * [安装环境升级包](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
 
-## 访问要求
+## 访问权限要求
 
 您必须具备以下条件：
 
 <table>
   <tr>
-   <td>Adobe Workfront包
+   <td>Adobe Workfront 包
    </td>
    <td> <p>Prime或Ultimate</p>
    </td>
@@ -273,7 +275,7 @@ _空_
 }
 ```
 
-&lt;！ — 检查上面的“状态” — 它是否已添加？—>
+&lt;! — 检查上面的“状态” — 它是否已添加？—>
 
 ### 按ID获取包
 
@@ -1117,7 +1119,8 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 示例：`b6aa0af8-3520-4b25-aca3-86793dff44a6`
 
-<!--table templates
+<!--
+table templates
 
 <table style="table-layout:auto"> 
  <col> 

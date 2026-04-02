@@ -2,22 +2,24 @@
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
-title: 配置对蓝图的访问
-description: 作为系统管理员，您可以通过设置请求队列来存储请求，从而为用户启用请求安装蓝图的访问权限。 您可以在该位置跟踪和更新请求。
+title: 配置对Blueprint的访问权限
+description: 作为系统管理员，您可以通过设置请求队列来存储请求，从而为用户启用请求安装Blueprint的访问权限。 在那里，您只有一个位置可以跟踪和更新请求。
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d85f363f-2ab4-45cb-b851-a7f33e1ca905
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 3%
 
 ---
 
-# 配置对蓝图的访问
+# 配置对Blueprint的访问权限
 
-所有[!DNL Adobe Workfront]用户都可以浏览蓝图目录。
+所有[!DNL Adobe Workfront]用户都可以浏览Blueprint的目录。
 
 作为系统管理员，您可以：
 
@@ -30,7 +32,7 @@ ht-degree: 3%
 
 
 * 通过设置用于存储请求的请求队列，为用户启用访问，以请求安装Blueprint。 在那里，您只有一个位置可以跟踪和更新请求。 有关更多信息，请按照以下步骤操作。
-* 安装蓝图。 有关信息，请参阅[安装Blueprint](../../administration-and-setup/blueprints/blueprints-install.md)。
+* 安装Blueprint。 有关信息，请参阅[安装Blueprint](../../administration-and-setup/blueprints/blueprints-install.md)。
 
 ## 访问权限要求
 
@@ -63,8 +65,8 @@ ht-degree: 3%
 
 ## 先决条件 {#prerequisites}
 
-* 必须使用现有请求队列来存储Blueprint请求。 项目必须保存为请求队列，并且必须处于[!UICONTROL 当前]状态。
-* 请求队列必须是公共的。 在请求队列详细信息中，“[!UICONTROL 谁可以向此队列添加请求？“]”必须设置为&#x200B;**[!UICONTROL 任何人]**。
+* 您必须使用现有请求队列来存储Blueprint请求。 项目必须另存为请求队列，并且必须处于[!UICONTROL 当前]状态。
+* 请求队列必须是公共的。 在请求队列详细信息中，&#39;&#39;[!UICONTROL 谁可以将请求添加到此队列？“]”必须设置为&#x200B;**[!UICONTROL 任何人]**。
 
 >[!TIP]
 >
@@ -86,9 +88,9 @@ ht-degree: 3%
 
    >[!IMPORTANT]
    >
-   >此列表中只显示公共请求队列。 要公开您的请求队列，请参阅上面的[先决条件](#prerequisites)部分。
+   >此列表中只显示公共请求队列。 要使您的请求队列公开，请参阅上面的[先决条件](#prerequisites)部分。
 
-   设置了请求队列首选项，用户现在可以请求蓝图安装。
+   已设置请求队列首选项，用户现在可以请求Blueprint安装。
 
    ![配置请求队列](assets/Blueprints_access_setup_request_queue.png)
 

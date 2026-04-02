@@ -7,7 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: af1a54ea-1717-45fa-bb94-55774eb28f28
-source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2017'
 ht-degree: 0%
@@ -192,7 +194,7 @@ ht-degree: 0%
 >适用于所有人的生产： 2025年12月11日
 >[!BADGE 超出计划]{type=Neutral}
 
-我们添加了护栏，用于防止从Workfront Planning对象中删除GenStudio for Performance Marketing用户的权限。 经过这项改进后，您无法再从Planning的GenStudio工作区中移除GenStudio用户，也无法在GenStudio工作区中禁用记录类型的继承权限(如果这些权限包括GenStudio用户)。 在此改进之前，当您从Planning的GenStudio工作区中删除这些用户时，他们也将失去在GenStudio中记录类型的权限。
+我们添加了护栏，用于防止从Workfront Planning对象中删除GenStudio for Performance Marketing用户的权限。 经过这项改进后，您无法再从Planning的GenStudio工作区中移除GenStudio用户，也无法在GenStudio工作区中禁用记录类型的继承权限（如果这些权限包括GenStudio用户）。 在此改进之前，当您从Planning的GenStudio工作区中删除这些用户时，他们也将失去在GenStudio中记录类型的权限。
 
 您的组织必须同时具有Workfront Planning和Adobe GenStudio for Performance Marketing。
 

@@ -6,10 +6,12 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1767'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -18,9 +20,11 @@ ht-degree: 0%
 
 # 管理来自Workfront对象的记录连接
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 {{planning-important-intro}}
 
@@ -29,7 +33,7 @@ ht-degree: 0%
 * Workfront对象的Planning部分：显示连接到对象的所有记录类型及其各自的连接记录。
 * Planning连接自定义字段：显示一个记录类型、其各自的连接记录以及连接记录的最多7个查找字段。
 
-## 访问要求
+## 访问权限要求
 
 +++ 展开以查看本文中各项功能的访问要求。 
 
@@ -43,7 +47,7 @@ ht-degree: 0%
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront包</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
 <p>任何Workfront和任何Planning包</p>
 <p>任何工作流和任何计划包</p>
@@ -79,7 +83,8 @@ ht-degree: 0%
 +++   
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
  <col>
  </col>
@@ -145,7 +150,8 @@ ht-degree: 0%
   </td>
   </tr>
  </tbody>
-</table>-->
+</table>
+-->
 
 
 ## 管理“计划”部分中的记录
@@ -154,10 +160,12 @@ ht-degree: 0%
 “规划”部分适用于以下Workfront对象：
 
 * 项目
-* 组合
+* 项目组合
 * 项目群
-<!--* Group
-* Company-->
+<!--
+* Group
+* Company
+-->
 
 ### 关于Workfront对象Planning部分的注意事项
 
@@ -207,7 +215,7 @@ ht-degree: 0%
 
    项目![的](assets/planning-section-on-project.png)计划部分
 
-1. （可选）单击“显示所有连接”**&#x200B;**&#x200B;可显示所有连接的记录类型，包括未连接记录的记录类型。 默认情况下，不显示没有连接记录的记录类型。
+1. （可选）单击“显示所有连接”****&#x200B;可显示所有连接的记录类型，包括未连接记录的记录类型。 默认情况下，不显示没有连接记录的记录类型。
 1. 单击记录卡以显示有关记录的更多信息。 此时将显示记录预览框。
 1. （可选）开始修改记录预览框中的字段。 您的更改会自动保存。
 1. （可选）单击预览框右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开详细信息](assets/open-details-in-a-new-tab-icon.png)以打开记录的详细信息页面。 此时将在Workfront Planning中打开记录的详细信息页面。
@@ -236,7 +244,7 @@ ht-degree: 0%
 * Planning连接字段会在建立连接后以及将该字段附加到以下Workfront对象的表单时显示Planning记录：
 
    * 项目
-   * 组合
+   * 项目组合
    * 项目群
    * 组
    * 公司
@@ -269,7 +277,7 @@ ht-degree: 0%
 1. 转到以下已与Workfront Planning记录类型连接的对象类型之一：
 
    * 项目
-   * 组合
+   * 项目组合
    * 项目群
    * 公司
    * 组

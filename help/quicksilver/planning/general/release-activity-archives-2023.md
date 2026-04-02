@@ -6,10 +6,12 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
-source-git-commit: 46faf723ea7a8e9dfa02c0f2bed1f5f450976fc8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2900'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -76,7 +78,7 @@ ht-degree: 0%
 >
 >贵组织必须购买Adobe Workfront Fusion才能与Adobe Workfront Planning功能建立连接。
 >
->有关信息，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>有关信息，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 现在，您可以使用Adobe Workfront Fusion连接到规划功能。 通过新的Fusion连接，您可以：
 
@@ -92,7 +94,7 @@ ht-degree: 0%
 
 * 在规划功能中进行更改时触发方案
 
-有关详细信息，请参阅[Adobe Workfront规划模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)。
+有关详细信息，请参阅[Adobe Workfront规划模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)。
 
 ## 2023年12月11日起一周
 
@@ -112,7 +114,7 @@ ht-degree: 0%
 
    * 单行文本
 
-   * 数字
+   * 数值
 
    * 公式
 
@@ -144,7 +146,8 @@ ht-degree: 0%
 
 * Planning功能用户可以查看连接的资源的名称，以及规划功能中连接字段的值。
 
-<!--removed per PM, for now: 
+<!--
+removed per PM, for now: 
 * An Experience Manager Assets record type is automatically created in Planning after you establish the connection. Connected assets are visible in the table and timeline views of this new record type.  
 -->
 

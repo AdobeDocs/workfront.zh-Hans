@@ -7,7 +7,9 @@ description: 使用利用率报告计算预算成本跟踪项目进度
 author: Lisa
 feature: Work Management
 exl-id: e96fe38f-58c2-4938-9d2d-81d1109123fa
-source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 2%
@@ -75,9 +77,11 @@ ht-degree: 2%
     </tr> 
     <tr> 
      <td>项目预算成本</td> 
-     <td> <!--
+     <td>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Estimates report (NOTE: this was removed with flash)</p>
-      --> <p>项目报告</p> <p>项目（财务数据）报表</p> <p>任务报告</p> <p>问题报告</p> <p>预算小时数报告</p> <p>有关创建报告的详细信息，请参阅文章<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">创建自定义报告</a>。</p> </td> 
+      -->
+      <p>项目报告</p> <p>项目（财务数据）报表</p> <p>任务报告</p> <p>问题报告</p> <p>预算小时数报告</p> <p>有关创建报告的详细信息，请参阅文章<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">创建自定义报告</a>。</p> </td>
     </tr> 
    </tbody> 
   </table>

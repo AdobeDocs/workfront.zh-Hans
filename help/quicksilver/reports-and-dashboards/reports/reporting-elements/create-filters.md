@@ -1,31 +1,33 @@
 ---
 product-area: reporting
 navigation-topic: reporting-elements
-title: 在Adobe Workfront中创建或编辑滤镜
-description: 您可以使用过滤器限制显示在屏幕上的项目列表中的信息量。 您可以根据有关对象的特定信息定义某些标准，并且只显示符合这些标准的对象。
+title: 在Adobe Workfront中创建或编辑筛选器
+description: 您可以通过过滤器限制在项目列表中屏幕上显示的信息量。 您可以根据对象的特定信息定义特定标准，并仅显示符合这些标准的对象。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2375'
 ht-degree: 2%
 
 ---
 
-# 在Adobe Workfront中创建或编辑过滤器
+# 在Adobe Workfront中创建或编辑筛选器
 
 <!-- Audited: 11/2024 -->
 
-您可以使用过滤器限制显示在屏幕上的项目列表中的信息量。 您可以根据有关对象的特定信息来定义某些标准，并且只显示满足这些标准的对象。
+您可以通过过滤器限制在项目列表中屏幕上显示的信息量。 您可以根据对象的特定信息定义特定标准，并仅显示符合这些标准的对象。
 
 您可以在Adobe Workfront中应用以下类型的过滤器：
 
 * 对象列表中的快速过滤器，使用关键字查找项目。 这些是临时过滤器，您无法保存以供将来使用。
 
-  有关快速滤镜的信息，请参阅[将快速滤镜应用于列表](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md)。
+  有关快速筛选器的信息，请参阅[将快速筛选器应用到列表](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md)。
 
-* 永久过滤器，您可以在多个列表和报告中多次保存和使用。 本文介绍如何创建永久筛选器或编辑列表或报告中现有的筛选器。
+* 永久过滤器，您可以将其保存并在多个列表和报告上多次使用。 本文介绍了如何创建永久过滤器或编辑列表或报告中的现有过滤器。
 
 * Workfront其他区域中的筛选器，列表和报告除外。
 
@@ -46,13 +48,13 @@ ht-degree: 2%
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</strong></td> 
    <td> 
-    <p>用于修改过滤器的参与者或请求</p>
-    <p>用于修改报表中过滤器的标准或计划</p>
+    <p>修改过滤器的参与者或请求</p>
+    <p>在报告中修改过滤器的标准或计划</p>
    </td>
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>对筛选器、视图、组的编辑访问权限</p> <p>对报告、仪表板、日历的编辑访问权限</p>
+   <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报告、功能板和日历的访问权限</p>
    </td> 
   </tr> 
   <tr> 
@@ -79,10 +81,10 @@ ht-degree: 2%
 <tr>
 <td><strong>生成器类型</strong></td>
 <td><strong>筛选对象</strong></td>
-<td><strong>可用位置</strong></td>
+<td><strong>可用时</strong></td>
 </tr>
 <tr>
-<td>Standard Builder</td>
+<td>标准生成器</td>
 <td>
 <ul>
 <li> <p>项目</p> </li>
@@ -102,13 +104,13 @@ ht-degree: 2%
 <ul>
 <li> <p>方案规划器中的项目列表</p> <p>Scenario Planner需要额外的许可证。 有关Workfront Scenario Planner的信息，请参阅<a href="../../../scenario-planner/scenario-planner-overview.md">Scenario Planner概述</a>。 </p> </li>
 </ul>
-<p><b>注意：</b></p> <p>筛选器的标准生成器不适用于报告。
+<p><b>注意：</b></p> <p>过滤器的标准生成器不可在报表中使用。
 </td>
 </tr>
 <tr>
 <td>旧版生成器</td>
 <td>所有对象 </td>
-<td>列表和报表</td>
+<td>列表和报告</td>
 </tr>
 </tbody>
 </table>
@@ -138,16 +140,16 @@ ht-degree: 2%
   >
   >      `(A OR B) AND C`
   >
-  >1. 切换到旧版生成器，并使用旧版生成器的语法编辑筛选器，如本文的“在旧版生成器中创建或编辑筛选器”[节中所述。 &#x200B;](#create-filter-in-legacy-builder)旧版生成器的语法显示过滤器语句如下：
+  >1. 切换到旧版生成器，并使用旧版生成器的语法编辑筛选器，如本文中[在旧版生成器中创建或编辑筛选器](#create-filter-in-legacy-builder)部分所述。 旧版生成器的语法按以下方式显示filter语句：
   >
   >      `A AND C`
   >      `OR`
   >      `B AND C`
   >
-  >1. 对旧版界面中的过滤器进行更改。
-  >1. 切换回标准生成器。 filter语句将根据旧版生成器中支持的逻辑显示，如上所述。
+  >1. 更改旧版界面中的筛选器。
+  >1. 切换回标准生成器。 过滤器语句根据旧版生成器中支持的逻辑显示，如上所述。
   >
-  >      标准生成器界面中会显示该过滤器，如下所示：
+  >      过滤器在标准生成器界面中显示如下：
   >  
   >      `A AND C`
   >      `OR`
@@ -160,8 +162,8 @@ ht-degree: 2%
 您可以使用标准生成器界面通过以下方式创建过滤器：
 
 * 从头开始
-* 编辑现有过滤器
-* 复制现有过滤器
+* 编辑现有筛选器
+* 复制现有筛选器
 * 复制现有筛选器，编辑现有筛选器并将其另存为新筛选器
 
 使用标准生成器界面创建过滤器：
@@ -171,7 +173,7 @@ ht-degree: 2%
 
    ![标准筛选器生成器](assets/new-filters-all-filter-types.png)
 
-1. 查看以下过滤器列表：
+1. 查看以下筛选器列表：
 
    <table style="table-layout:auto">
    <col>
@@ -187,7 +189,7 @@ ht-degree: 2%
    </tr>
    <tr>
    <td role="rowheader"><strong>系统默认值</strong></td>
-   <td>Workfront系统默认滤镜和Workfront管理员在系统级别或在版面模板中添加到滤镜列表的滤镜。</td>
+   <td>Workfront系统默认筛选器以及Workfront管理员添加到您的筛选器列表中的筛选器，这些筛选器位于系统级别或布局模板中。</td>
    </tr>
    <tr>
    <td role="rowheader"><strong>已与我共享</strong></td>
@@ -198,16 +200,16 @@ ht-degree: 2%
 
 1. 执行下列操作之一：
 
-   * 单击&#x200B;**新建筛选器**&#x200B;以从头开始创建筛选器。
-   * 将光标悬停在您有权管理的现有筛选器上，单击&#x200B;**编辑**&#x200B;图标![编辑](assets/edit-icon.png)以对其进行编辑。
+   * 单击&#x200B;**新建筛选器**&#x200B;从头开始创建筛选器。
+   * 将鼠标悬停在您有权管理的现有筛选器上，然后单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)以进行编辑。
 
      或
 
-     将光标悬停在您有权查看的现有筛选器上，单击&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-icon-spectrum.png)，然后单击&#x200B;**复制**&#x200B;以复制现有筛选器并编辑副本。
+     将鼠标悬停在您有权查看的现有筛选器上，单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-icon-spectrum.png)，然后单击&#x200B;**复制**&#x200B;以复制现有筛选器并编辑副本。
 
    ![更多菜单选项](assets/new-filters-more-menu-options-with-delete.png)
 
-1. （条件）根据要查找与过滤器组中的所有语句匹配还是与其中任何语句匹配的对象，从下列选项中进行选择：
+1. （视情况而定）根据您是要查找与筛选器组中的所有语句或任意语句匹配的对象，从以下选项中选择：
 
    <table style="table-layout:auto">
    <col>
@@ -240,7 +242,7 @@ ht-degree: 2%
 
    >[!TIP]
    >
-   >构建筛选条件时，结果会立即显示在列表中。 如果过滤器面板覆盖列表，则可以关闭它以查看显示内容。 再次打开面板时，输入的信息将保留在生成器中。
+   >构建过滤器时，结果会立即显示在列表中。 如果过滤器面板覆盖列表，则可以将其关闭以查看显示内容。 再次打开面板时，输入的信息仍会保留在生成器中。
 
 1. 开始键入要作为筛选依据的字段值。 例如，如果要按`Issue:Name`筛选，则开始键入问题的名称。 选择显示在列表中的值。
 
@@ -267,19 +269,19 @@ ht-degree: 2%
    >`(Project: Name Contains Marketing AND Project: Percent Complete Does not equal 100)`
    >`OR`
    >`(Project: Name Contains Marketing AND Project: Status Does not equal On Hold)`
-   >在这种情况下，每个过滤器语句都由AND连接，过滤器组由OR连接。
+   >在这种情况下，每个过滤器语句通过AND相连，过滤器组通过OR相连。
 
-1. （可选）单击&#x200B;**文本模式**&#x200B;以继续使用文本模式生成筛选器。
+1. （可选）单击&#x200B;**文本模式**&#x200B;以继续使用文本模式构建筛选器。
 
    ![选择文本模式](assets/new-filter-select-text-mode.png)
 
-   此时将打开文本模式界面。
+   此时会打开文本模式界面。
 
    ![文本模式界面](assets/text-mode-interface-for-beta-filters-nwe.png)
 
    >[!TIP]
    >
-   >如果您必须修改仅在文本模式下支持的筛选器，我们建议使用标准生成器界面并仅使用文本模式构建尽可能多的筛选器。
+   >我们建议使用标准生成器界面并仅在必须修改仅支持文本模式的筛选器时，使用文本模式来生成尽可能多的筛选器。
 
    有关使用文本模式界面创建过滤器的详细信息，请参阅[使用文本模式编辑过滤器](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)。
 
@@ -287,9 +289,9 @@ ht-degree: 2%
 
    >[!WARNING]
    >
-   >标准生成器或旧版界面不支持某些文本模式语句。 创建这些类型的语句后，退出文本模式可能会生成警告消息。
+   >标准生成器或旧版界面不支持某些文本模式语句。 创建这些类型的语句后退出文本模式可能会生成警告消息。
 
-1. （可选）单击&#x200B;**应用**&#x200B;将筛选器应用于列表并查看结果。
+1. （可选）单击&#x200B;**应用**&#x200B;以将筛选器应用到列表并查看结果。
 
    如果过滤器未生成任何结果，则列表为空。
 
@@ -301,20 +303,20 @@ ht-degree: 2%
 
    >[!TIP]
    >
-   >确保命名该过滤器，以便稍后可以找到。 如果不命名滤镜，则它在系统中称为“无标题滤镜”。
+   >请确保命名该过滤器，以便稍后查找。 如果不命名过滤器，则系统中会将其称为“无标题过滤器”。
 
 1. 从&#x200B;**图标**&#x200B;下拉菜单中选择新筛选器的图标。
 
-   ![为筛选器选择图标](assets/new-filter-select-icon.png)
+   ![为筛选器选择一个图标](assets/new-filter-select-icon.png)
 
-1. （可选）为过滤器添加说明，以指明过滤器的独特之处。 描述显示在筛选器列表中的筛选器名称下。
+1. （可选）添加过滤器描述以指示其独特之处。 描述显示在筛选器列表中的筛选器名称下。
 
    >[!TIP]
    >
    >随时单击&#x200B;**取消**&#x200B;将返回过滤器构建区域。
 
 1. 单击&#x200B;**保存**。 该过滤器将保存在“已保存”列表中，并应用于项目列表。
-1. （可选）要将滤镜移至“已收藏”列表，请将鼠标悬停在滤镜抽屉中的任意滤镜上，然后单击&#x200B;**收藏夹**&#x200B;图标![收藏夹图标](assets/favorites-icon-small.png)。
+1. （可选）要将筛选器移至“收藏”列表，请将光标悬停在筛选器抽屉中的任意筛选器上，然后单击&#x200B;**收藏**&#x200B;图标![收藏](assets/favorites-icon-small.png)。
 
    或
 
@@ -332,13 +334,13 @@ ht-degree: 2%
 
    您选择的过滤器数显示在项目列表顶部的过滤器图标旁边。
 
-   已选择![个筛选器](assets/number-of-filters-selected.png)
+   ![选择的筛选器数](assets/number-of-filters-selected.png)
 
 1. （可选）执行以下操作之一：
 
-   * 与他人共享滤镜，或使其在系统范围内可用。 有关详细信息，请参阅[共享筛选器、视图或分组](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)。
+   * 与其他人共享该过滤器，或使其在系统范围内可用。 有关详细信息，请参阅[共享筛选器、视图或分组](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)。
 
-   * 如果过滤器不再有效或重复，请将其删除。 您只能删除自己拥有的过滤器。 您可以删除与您共享的过滤器。 有关信息，请参阅[删除筛选器、视图和分组](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)。
+   * 如果该过滤器不再有效或重复，请将其删除。 您只能删除自己拥有的过滤器。 您可以删除与您共享的过滤器。 有关信息，请参阅[删除筛选器、视图和分组](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)。
 
 ## 在旧版生成器中创建或编辑筛选器 {#create-filter-in-legacy-builder}
 
@@ -354,15 +356,15 @@ ht-degree: 2%
 
    >[!TIP]
    >
-   >报表创建者必须允许编辑过滤器，才能查看报表上的过滤器下拉列表。 默认情况下，报告默认过滤器会应用于报告。 只有在编辑报告时才能自定义“报告默认”过滤器。
+   >报告创建者必须允许编辑过滤器，才能在报告中查看过滤器下拉列表。 默认情况下，“报表默认”筛选器应用于报表。 仅当您编辑报告时，才能自定义报告默认筛选条件。
 
-1. 单击筛选器列表顶部的&#x200B;**+“新建筛选器”**。
+1. 单击筛选器列表顶部的&#x200B;**+新建筛选器**。
 
    或
 
    将鼠标悬停在要修改的筛选器上，然后单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
 
-   将启动用于自定义筛选器的生成器。
+   用于自定义筛选器的生成器启动项。
 
 1. 执行以下任一操作：
 
@@ -392,23 +394,23 @@ ht-degree: 2%
      >
      >虽然任务：名称包含“营销”在两个AND过滤器组之间不会发生更改，但在第二个过滤器中必须重复该名称。
 
-   * 单击“X”图标删除现有筛选规则。
+   * 单击“X”图标可删除现有筛选规则。
 
 1. （可选）单击&#x200B;**切换到文本模式**&#x200B;以使用文本模式界面添加筛选器。
 
-   有关使用文本模式界面创建筛选器的详细信息，请参阅[使用文本模式编辑筛选器](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)。
+   有关使用文本模式界面创建过滤器的详细信息，请参阅[使用文本模式编辑过滤器](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)。
 
-1. 单击&#x200B;**保存筛选器**&#x200B;可创建筛选器，或将所选筛选器替换为您的更改。
+1. 单击&#x200B;**保存筛选器**&#x200B;以创建筛选器或使用您的更改替换选定的筛选器。
 
    或
 
-   单击&#x200B;**另存为新过滤器**，以根据选定的过滤器创建新过滤器。
+   单击&#x200B;**另存为新筛选器**&#x200B;以从选定筛选器创建新筛选器。
 
    新筛选器将显示在筛选器列表中，并且会自动应用于您选择的列表或报表。
 
 1. （可选）执行以下操作之一：
 
-   * 与其他用户共享您创建的滤镜，或使其在系统范围内可用。 有关信息，请参阅[共享筛选器、视图或分组](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)。
-   * 删除不再希望在列表中显示的筛选器。 有关信息，请参阅[删除筛选器、视图和分组](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)。
+   * 将您创建的过滤器与其他用户共享，或使其在系统范围内可用。 有关信息，请参阅[共享筛选器、视图或分组](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)。
+   * 删除您不再希望在列表中显示的过滤器。 有关信息，请参阅[删除筛选器、视图和分组](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)。
 
 

@@ -8,10 +8,12 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '628'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -19,15 +21,16 @@ ht-degree: 0%
 
 <!-- Audited: 5/2025 -->
 
-<!--Linked to lots of articles for resource planning and LINKED TO CONTEXT SENSITIVE HELP - DO NOT CHANGE OR REMOVE!</p>
+<!--
+Linked to lots of articles for resource planning and LINKED TO CONTEXT SENSITIVE HELP - DO NOT CHANGE OR REMOVE!</p>
 Edit the first part, once they add more settings in the Res Management Preferences - right now, only the FTE calculation is the
 -->
 
 作为[!DNL Adobe Workfront]管理员，您可以为系统配置[!UICONTROL 资源管理]首选项。 这些首选项确定[!DNL Workfront]资源计划和计划工具的用户小时或FTE可用性或容量的计算方式。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,16 +38,16 @@ Edit the first part, once they add more settings in the Res Management Preferenc
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] 包</td> 
-   <td><p>任何</p></td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p>
-       <p>[!UICONTROL 计划]</p></td>
+   <td><p>[！UICONTROL标准版]</p>
+       <p>[！UICONTROL计划]</p></td>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,7 +61,7 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 在计算用户的容量时，Workfront会考虑以下信息：
 
 * 计划的小时数，如用户的计划或Workfront系统的默认计划中定义。
-* 计划例外(根据使用的计划，它可以是用户计划的例外，也可以是与Workfront默认计划关联的例外)。
+* 计划例外（根据使用的计划，它可以是用户计划的例外，也可以是与Workfront默认计划关联的例外）。
 * 用户的休息时间。
 * 用户或[!UICONTROL 系统的等效全职(]FTE[!DNL Workfront])值。 按照计划中的定义，当用户全职工作时，[!UICONTROL FTE]等于1。
 * 用户的[!UICONTROL 工作时间]值，该值表示用户用于项目相关工作的时间。 这不包括额外的时间，如会议和培训。 当用户按照[!UICONTROL FTE]或计划指示的整个时间可用于工作时，[!UICONTROL 工作时间]等于1，这意味着他们不会花费任何时间在会议或培训等与项目无关的工作上。
@@ -158,7 +161,8 @@ Edit the first part, once they add more settings in the Res Management Preferenc
      >`User Weekly Available [!UICONTROL FTE] = [(30-2) * 0.5] / 40 = 0.35`
      >
 
-     <!--This used to be the calculation before we implemented the Work Time field: 
+     <!--
+      This used to be the calculation before we implemented the Work Time field: 
       
 
       The Available hours for the user are calculated by the following formula:

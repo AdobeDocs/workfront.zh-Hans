@@ -6,7 +6,9 @@ description: 您可以在“我的请求”小组件中提交请求。 您还可
 author: Alina, Courtney
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 2%
@@ -57,7 +59,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>[!UICONTROL 查看]对项目、任务、问题和文档的权限或更高，在这些项目、任务、问题和文档中，您被标记在对话中或需要解决审批问题</p> </td> 
+   <td> <p>[！UICONTROL查看]对项目、任务、问题和文档的权限或更高，在这些项目、任务、问题和文档中，您被标记在对话中或需要解决审批问题</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,7 +72,7 @@ ht-degree: 2%
 
 您可以直接从“我的请求”小组件创建请求。
 
-有关说明，请参阅文章[从主页区域创建工作项和项目](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md/#create-a-request)中的[创建请求](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)部分。
+有关说明，请参阅文章[从主页区域创建工作项和项目](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request)中的[创建请求](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)部分。
 
 ## 复制请求
 
@@ -105,7 +107,8 @@ To configure the filter in the My Requests widget:
    有关管理请求列表中的信息的详细信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
 
 
-<!-- Removed all these sections because this is common to ALL the Glists/ enhanced lists. So, we will update that article with all the specific steps: 
+<!--
+ Removed all these sections because this is common to ALL the Glists/ enhanced lists. So, we will update that article with all the specific steps: 
 1. Select the field that you want to filter by. Available options are:
 
    * Workspace

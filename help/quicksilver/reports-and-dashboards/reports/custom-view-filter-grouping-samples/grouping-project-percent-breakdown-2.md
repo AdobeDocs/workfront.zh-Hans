@@ -3,11 +3,13 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 分组：项目百分比细分2
-description: 在此自定义项目分组中，您可以显示按完成百分比值范围分组的项目。 细目显示完成值的百分比为10%的增量：0-10%、11-20%、21-30%等。
+description: 在此自定义项目分组中，您可以显示按项目完成百分比值范围分组的项目。 细分显示完成百分比值10%点增量：0-10%、11-20%、21-30%等。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 7845fd66-8304-4154-8630-e72482cd753f
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 7%
@@ -18,9 +20,9 @@ ht-degree: 7%
 
 <!--Audited: 10/2024-->
 
-在此自定义项目分组中，您可以显示按完成百分比值范围分组的项目。 细分显示完成百分比值10%点增量：0-10%、11-20%、21-30%等。
+在此自定义项目分组中，您可以显示按项目完成百分比值范围分组的项目。 细分显示完成百分比值10%点增量：0-10%、11-20%、21-30%等。
 
-以下分组按完成百分比值将项目组织到这些分组之一：
+以下分组按完成百分比值将项目组织为以下分组之一：
 
 * 0%
 * 1-10%
@@ -57,16 +59,16 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>编辑报表、仪表板、日历的访问权限以修改报表</p> <p>编辑筛选器、视图、组的访问权限以修改筛选器</p> </td> 
+   <td> <p>编辑对报告、功能板和日历的访问权限以修改报告</p> <p>编辑对筛选器、视图和分组的访问权限以修改筛选器</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理对报告的权限</p>  </td> 
+   <td> <p>管理报表的权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中的信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -89,4 +91,4 @@ ht-degree: 7%
    ```
 
 1. 单击&#x200B;**完成** > **保存分组**。
-1. （可选）更新组的名称，然后单击&#x200B;**保存组**。
+1. （可选）更新分组的名称，然后单击&#x200B;**保存分组**。

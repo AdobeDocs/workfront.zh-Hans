@@ -3,11 +3,13 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 视图：显示未包含在标准界面中的对象
-description: 可在视图中显示未包含在标准模式界面中的对象。 这只能通过文本模式引用它们。
+description: 可在视图中显示未包含在标准模式界面中的对象。 您只能通过文本模式引用它们。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: c0138730-494b-4443-865a-44f8f00d5342
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 4%
@@ -22,11 +24,11 @@ ht-degree: 4%
 * 使用[API资源管理器](../../../wf-api/general/api-explorer.md)发现可以通过文本模式引用的其他对象。\
   并非所有在API资源管理器中记录的字段对于文本模式都是有效字段。 某些字段只能通过API报告。
 
-* 在列中查找对象的ID字段。 大多数具有字段ID的对象还具有相应的列或字段名称，可能无法通过标准模式界面访问这些名称。
+* 在列中查找对象的ID字段。 大多数具有字段ID的对象也具有相应的列或字段名称，可能无法通过标准模式界面访问。
 
-  您可以使用文本模式，通过将`fieldnameID`替换为`fieldname:name`来在视图中包含列或字段名称而非ID。
+  您可以使用文本模式将`fieldnameID`替换为`fieldname:name`，以在视图中包含列名或字段名而不是ID。
 
-  例如，在标准模式界面中，**Portfolio所有者ID**&#x200B;字段可用于项目视图，但&#x200B;**Portfolio所有者名称**&#x200B;字段不可用。 您可以使用文本模式在视图列中显示&#x200B;**Portfolio所有者名称**。
+  例如，在标准模式界面中，**Portfolio所有者ID**&#x200B;字段可用于项目视图，但&#x200B;**Portfolio所有者名称**&#x200B;字段不可用。 您可以使用文本模式在视图的列中显示&#x200B;**Portfolio所有者名称**。
 
 ## 访问权限要求
 
@@ -43,12 +45,12 @@ ht-degree: 4%
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
-   <p>投稿人或请求修改筛选器 </p>
-   <p>标准或计划修改报告</p>
+   <p>修改过滤器的参与者或请求 </p>
+   <p>用于修改报告的标准或计划</p>
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>编辑报表、仪表板、日历的访问权限以修改报表</p> <p>编辑筛选器、视图、组的访问权限以修改筛选器</p> </td> 
+   <td> <p>编辑对报告、功能板和日历的访问权限以修改报告</p> <p>编辑对筛选器、视图和分组的访问权限以修改筛选器</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
@@ -64,18 +66,18 @@ ht-degree: 4%
 ## 示例：将“Portfolio所有者名称”列添加到项目视图
 
 1. 转到项目列表。
-1. 在&#x200B;**视图**&#x200B;下拉菜单中，单击&#x200B;**新建视图**。
+1. 从&#x200B;**视图**&#x200B;下拉菜单中，单击&#x200B;**新建视图**。
 
-1. 单击&#x200B;**添加列**，在&#x200B;**显示在此列**&#x200B;字段中键入“Portfolio所有者ID”，然后在列表中显示时选择它。
+1. 单击&#x200B;**添加列**，然后在&#x200B;**显示在此列**&#x200B;字段中开始键入“Portfolio所有者ID”，然后当它显示在列表中时将其选中。
 
-1. 单击&#x200B;**切换到文本模式**，然后&#x200B;**编辑文本模式**。
+1. 单击&#x200B;**切换到文本模式**，然后单击&#x200B;**编辑文本模式**。
 1. 将`valuefield`行(`valuefield=portfolio:ownerID`)替换为以下行：
 
    `valuefield=portfolio:owner:name`
 
    或
 
-   删除在&#x200B;**编辑文本模式**&#x200B;框中找到的文本，并将其替换为以下代码：
+   删除在&#x200B;**编辑文本模式**&#x200B;框中找到的文本，然后将其替换为以下代码：
 
    ```
    valuefield=portfolio:owner:name

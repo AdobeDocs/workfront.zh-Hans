@@ -6,7 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '3265'
 ht-degree: 0%
@@ -84,7 +86,8 @@ ht-degree: 0%
 
 +++   
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -144,7 +147,8 @@ ht-degree: 0%
   </tr> 
 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## 创建记录时的注意事项
 
@@ -219,7 +223,8 @@ ht-degree: 0%
    * 如果您使用CSV或Excel电子表格添加记录，则向记录类型添加多个记录。
    * 如果您通过提交请求表单来添加请求，则新请求会添加到Workfront的请求区域。
 
-<!-- this is not possible anymore: 
+<!--
+ this is not possible anymore: 
 
 ## Create records by connecting them from another application
 
@@ -309,8 +314,8 @@ You can import records from other applications by linking them to existing recor
 
 1. （可选）在表视图中添加新记录或其信息时，请使用以下键盘快捷键撤消或重做添加新记录或其信息：
 
-   * 按CTRL + Z (⌘ + Z表示Mac)可撤消更改
-   * 按CTRL + Shift + Z (⌘ + Shift + Z用于Mac)以重做更改
+   * 按CTRL + Z （⌘ + Z表示Mac）可撤消更改
+   * 按CTRL + Shift + Z （⌘ + Shift + Z用于Mac）以重做更改
 
 
 ## 通过在记录类型时间线视图中添加记录来创建记录
@@ -518,7 +523,7 @@ You can import records from other applications by linking them to existing recor
 1. （视情况而定）如果在尝试连接时找不到记录，请单击&#x200B;**+添加**
 
    或
-开始键入名称，然后单击&#x200B;**+添加**。 **+ Add**&#x200B;按钮后跟您连接到的记录类型的名称。 例如，将品牌添加到现有营销活动时，“添加品牌”。 您键入的名称还遵循“添加”按钮。
+开始键入名称，然后单击**+添加**。 **+ Add**&#x200B;按钮后跟您连接到的记录类型的名称。 例如，将品牌添加到现有营销活动时，“添加品牌”。 您键入的名称还遵循“添加”按钮。
 
    ![添加按钮以在突出显示的上下文中创建记录](assets/add-button-to-create-records-in-context-highlighted.png)
 

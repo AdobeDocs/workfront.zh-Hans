@@ -2,21 +2,23 @@
 content-type: tips-tricks-troubleshooting
 product-area: agile-and-teams
 navigation-topic: agile
-title: 敏捷的提示、技巧和故障排除
-description: 有关Agile的疑难解答提示，请参阅本文。
+title: 敏捷提示、技巧和疑难解答
+description: 阅读本文章，获得关于Agile的故障诊断提示。
 author: Courtney
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 2e03b6ef-3218-4f3a-a768-3c4c20c7d48c
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '36'
 ht-degree: 0%
 
 ---
 
-# 敏捷的提示、技巧和故障排除
+# 敏捷提示、技巧和疑难解答
 
 本节包含以下文章：
 
-* [自定义状态未显示在Agile故事板上](../../agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
+* [自定义状态未显示在敏捷故事板上](../../agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)

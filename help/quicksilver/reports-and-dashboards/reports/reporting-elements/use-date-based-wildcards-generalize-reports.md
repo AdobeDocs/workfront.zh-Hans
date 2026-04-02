@@ -2,24 +2,26 @@
 product-area: reporting
 navigation-topic: reporting-elements
 title: 使用基于日期的通配符对报表进行泛化
-description: 在构建某些报告元素时，您可以使用通配符而不是特定信息来泛化报告。
+description: 在构建某些报表元素时，您可以使用通配符而不是特定信息来对报表进行泛化。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 759b0bea-729e-4206-808c-0a7216ded4ff
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 4%
 
 ---
 
-# 使用基于日期的通配符来泛化报告
+# 使用基于日期的通配符对报表进行泛化
 
 <!-- Audited: 11/2024 -->
 
-在构建某些报告元素时，您可以使用通配符而不是特定信息来泛化报告。
+在构建某些报表元素时，您可以使用通配符而不是特定信息来对报表进行泛化。
 
-例如，如果要创建显示具有特定计划起始日期的任务的报告，则可以使用筛选器中的日历日期选取器选择特定日期。 但是，如果要创建一个报告来显示其规划开始日期在从访问报告日期起的某个时间范围内具有的任务，则可以使用通配符指示当有人查看报告时，它显示与他们查看报告的时刻相关的时间范围信息。
+例如，如果要创建一个显示具有特定计划开始日期的任务的报告，则可以在过滤器中使用日历日期选择器来选择特定日期。 但是，如果要创建一个报告来显示其规划开始日期在从访问报告日期起的某个时间范围内具有的任务，则可以使用通配符指示当有人查看报告时，它显示与他们查看报告的时刻相关的时间范围信息。
 
 例如，在过去的一周内、在过去的一年中、接下来的两周内，等等。 这样的话，您只需构建一次报表，但由于您在筛选器中使用通配符，因此每当有人读取它时，它都会生成不同的结果，因为它会根据用户运行报表的日期而有所不同。
 
@@ -55,13 +57,13 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-    <td> <p>管理对报告的权限以编辑报告中的报告元素</p> <p>管理对视图或过滤器的权限以进行编辑</p></td> 
+    <td> <p>管理对报告的权限以编辑报告中的报告元素</p> <p>管理视图或筛选器的权限以编辑它们</p></td> 
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中的信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -80,8 +82,8 @@ ht-degree: 4%
 1. 单击&#x200B;**筛选器**&#x200B;选项卡。
 1. 单击&#x200B;**添加筛选器规则**。
 1. 开始键入要作为筛选依据的字段的名称。\
-   必须键入引用日期的字段。
-1. 在筛选器变量的下拉菜单中选择&#x200B;**Equal**。
+   您必须键入引用日期的字段。
+1. 在筛选器变量的下拉菜单中选择&#x200B;**等于**。
 
    >[!TIP]
    >
@@ -96,7 +98,7 @@ ht-degree: 4%
    此日期始终不同，因为它会随着用户实际查看报告的日期而更改。 所以报告中的信息每天都是不同的。
 
 1. （可选）如果要显示运行报告日期之后某个时间范围内发生的信息，请键入`$$TODAY+1w`以显示下一周的信息，或键入`$$TODAY+2m`以显示未来两个月的信息。 您还可以指定季度、小时、天或年的时间范围。
-1. （可选）如果要显示有关在报告运行日期之前某个时间段内发生的事项的信息，请键入`$$TODAY-1w`以显示前一周的信息，或者键入`$$TODAY-2m`以显示前两个月的信息。 还可以指示季度、小时、天或年的时间范围。
+1. （可选）如果要显示运行报告日期之前某个时间范围内发生的事件的相关信息，请键入`$$TODAY-1w`以显示前一周的信息，或键入`$$TODAY-2m`以显示前两个月的信息。 您还可以指定季度、小时、天或年的时间范围。
 
    有关可在基于日期的通配符中使用的属性、限定符和运算符的完整列表，请参阅文章[通配符筛选器变量概述](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)。
 
@@ -109,5 +111,5 @@ ht-degree: 4%
 <!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program) -->
 * [通配符筛选器变量概述](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
 * [在Adobe Workfront中创建或编辑筛选器](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
-* [向报表添加提示](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
+* [向报告添加提示](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 * [在视图中使用条件格式](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)

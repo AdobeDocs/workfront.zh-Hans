@@ -8,10 +8,12 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '930'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -27,7 +29,8 @@ The highlighted information on this page refers to functionality not yet general
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
-</div> -->
+</div>
+-->
 
 [!DNL Adobe Workfront]在对象的[!UICONTROL 更新]区域生成自动系统更新以记录以下事件：
 
@@ -46,9 +49,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 例如，您可以让[!DNL Workfront]跟踪用户对整个系统内的问题名称所做的所有更改。 然后，任何问题名称更改将作为系统更新显示在问题的[!UICONTROL 更新]区域。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,17 +59,17 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 包</td> 
-   <td><p>任何</p></td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p>
-   <p>[!UICONTROL 计划]</p>
+   <td><p>[！UICONTROL标准版]</p>
+   <p>[！UICONTROL计划]</p>
    </td> 
   </tr>  
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td><p>[!UICONTROL 系统管理员]</p></td>
+   <td><p>[！UICONTROL系统管理员]</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -75,7 +78,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -96,7 +100,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    <td>[!UICONTROL System Administrator]</td>
   </tr> 
  </tbody> 
-</table> -->
+</table>
+-->
 
 ## 确定对象类型的[!DNL Workfront]跟踪哪些字段
 
@@ -135,7 +140,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    * 项目
    * 任务
    * 问题
-   * 组合
+   * 项目组合
    * 项目群
    * 用户
 
@@ -147,7 +152,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    >如果[!DNL Workfront]已在跟踪该字段，则不能从列表中再次添加该字段。
 
 1. 添加所有您希望[!DNL Workfront]跟踪的字段后，单击&#x200B;**[!UICONTROL 添加]**。
-您添加的内置字段显示在&#x200B;**[!UICONTROL 内置字段]**&#x200B;子选项卡下，自定义字段显示在&#x200B;**[!UICONTROL 自定义字段]**&#x200B;子选项卡下。
+您添加的内置字段显示在**[!UICONTROL 内置字段]**&#x200B;子选项卡下，自定义字段显示在&#x200B;**[!UICONTROL 自定义字段]**子选项卡下。
 **[!UICONTROL 所有字段]**&#x200B;子选项卡同时显示[!DNL Workfront]跟踪的内置和自定义字段。
 
 ### 删除您不希望跟踪的字段 {#remove-fields-you-don-t-want-tracked}

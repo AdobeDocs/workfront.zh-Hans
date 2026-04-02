@@ -6,10 +6,12 @@ description: 在不离开Adobe Creative Cloud应用程序的情况下在Adobe Wo
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4abb3257-5f6a-45f6-933b-f3bfb3728f1c
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -19,15 +21,16 @@ ht-degree: 0%
 
 {{cc-app-list}}
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
- <!-- <tr> 
+ <!--
+  <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> Any</td> 
   </tr> 
@@ -36,7 +39,8 @@ ht-degree: 0%
    <td> 
    <p>Standard</p>
    <p>Work or higher</p> </td> 
-  </tr> -->
+  </tr>
+  -->
   <tr> 
    <td role="rowheader">其他产品</td> 
    <td>除了[!DNL Adobe Creative Cloud]许可证，您还必须具有[!DNL Workfront]许可证。</td> 
@@ -67,10 +71,10 @@ ht-degree: 0%
   <tr> 
    <td> 
     <ul> 
-     <li>[!UICONTROL 到期日期]</li> 
+     <li>[！UICONTROL到期日期]</li> 
      <li>[!UICONTROL 名称]</li> 
-     <li>[!UICONTROL 项目名称]</li> 
-     <li>[!UICONTROL 我的优先级]</li> 
+     <li>[！UICONTROL项目名称]</li> 
+     <li>[！UICONTROL我的优先级]</li> 
     </ul> </td> 
    <td> <img src="assets/copy-of-sort-by-350x606.png" style="width: 350;height: 606;"> </td> 
   </tr> 
@@ -91,8 +95,8 @@ ht-degree: 0%
    <td> <p>第一个是仅基于工作项目类型或属性进行筛选：</p> 
     <ul> 
      <li><strong>工作项</strong>：任务、子任务、问题或个人任务</li> 
-     <li><strong>工作项状态</strong>：[!UICONTROL 正在处理]、[!UICONTROL 准备开始]或[!UICONTROL 未就绪]</li> 
-    </ul> <p>二是同时使用工作项和工作项状态进行筛选。 例如，您可以选择Tasks和[!UICONTROL Ready to Start] ，以在工作列表中查找所有准备工作的任务。</p> <p>您还可以使用[!UICONTROL 字段匹配]在筛选器集中搜索特定项目。 </p> </td> 
+     <li><strong>工作项状态</strong>：[！UICONTROL正在处理]、[！UICONTROL准备开始]或[！UICONTROL未就绪]</li> 
+    </ul> <p>二是同时使用工作项和工作项状态进行筛选。 例如，您可以选择Tasks和[！UICONTROL Ready to Start] ，以在工作列表中查找所有准备工作的任务。</p> <p>您还可以使用[！UICONTROL字段匹配]在筛选器集中搜索特定项目。 </p> </td> 
    <td> <img src="assets/copy-of-filter-p-350x603.png" style="width: 350;height: 603;"> </td> 
   </tr> 
  </tbody> 

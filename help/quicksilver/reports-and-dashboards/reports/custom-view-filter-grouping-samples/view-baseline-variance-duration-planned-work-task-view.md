@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 视图：任务视图中持续时间和计划工作的基准差异
-description: 查看“工期”和“计划工时”的基准差异。
+title: 视图：任务视图中工期和计划工作的基线差异
+description: 查看持续时间和计划工作的基线差异。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 2a1eef9c-016c-4a04-acda-6070fcb0e23d
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 6%
 
 ---
 
-# 视图：任务视图中工期和计划工作的基线差异
+# 视图：任务视图中工期和计划工时的基线差异
 
 <!--Audited: 11/2024-->
 
@@ -22,11 +24,11 @@ ht-degree: 6%
 
 * 包含基线任务信息的任务信息。
 * 持续时间与默认基线持续时间之间的差异。
-* 计划工作与默认基准计划工作之间的差异。
+* 计划工作量和默认基线计划工作量之间的差异。
 
 >[!NOTE]
 >
->以下视图中显示的数据将实际任务值与与默认基线任务关联的值进行比较。
+>以下视图中显示的数据将实际任务值与与“默认基线”任务关联的值进行比较。
 
 ![baseline_variance_in_a_task_view.png](assets/baseline-variance-in-a-task-view-350x38.png)
 
@@ -45,31 +47,31 @@ ht-degree: 6%
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
-   <p>用于修改过滤器的参与者或请求 </p>
-   <p>用于修改报表的标准或计划</p>
+   <p>修改过滤器的参与者或请求 </p>
+   <p>用于修改报告的标准或计划</p>
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>编辑对报表、功能板、日历的访问权限以修改报表</p> <p>编辑对筛选器、视图、分组的访问权限以修改筛选器</p> </td> 
+   <td> <p>编辑对报告、功能板和日历的访问权限以修改报告</p> <p>编辑对筛选器、视图和分组的访问权限以修改筛选器</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理对报告的权限</p>  </td> 
+   <td> <p>管理报表的权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的详细信息，请参阅[Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
-## 在任务视图中查看“工期”和“计划工时”的基准差异
+## 在任务视图中查看工期和计划工作的基线差异
 
 1. 转到任务列表。
 1. 在&#x200B;**视图**&#x200B;下拉菜单中，选择&#x200B;**新建视图**&#x200B;或编辑现有视图。
-1. 删除视图中的所有列，但第一列除外。
+1. 移除视图中的所有列（第一个列除外）。
 1. 选择第一列后，单击&#x200B;**切换到文本模式**，然后单击&#x200B;**编辑文本视图**。
-1. 复制下面的文本并将其粘贴到视图的第一列中：
+1. 复制下面的文本并将其粘贴到视图的第一列：
 
    ```
    column.0.descriptionkey=name

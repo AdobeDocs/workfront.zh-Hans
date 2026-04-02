@@ -3,12 +3,14 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: start-with-workfront-administration
 title: 发送公告
-description: 作为Adobe Workfront管理员，您可以使用“公告”页面将公告发送给用户。
+description: 作为Adobe Workfront管理员，您可以使用公告页面向用户发送公告。
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 413e3051-fcb5-44d7-b6bd-6b05d39935e8
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 3%
@@ -17,9 +19,9 @@ ht-degree: 3%
 
 # 发送公告
 
-作为Adobe Workfront管理员，您可以使用“公告”页面将公告发送给用户。
+作为Adobe Workfront管理员，您可以使用公告页面向用户发送公告。
 
-来自Workfront的公告消息通常包括有关新功能和版本、流程更改等的信息。
+来自Workfront的公告消息通常包括关于新增功能和版本、流程更改等方面的信息。
 
 有关查看公告的信息，请参阅[查看和管理应用程序内通知](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)。
 
@@ -61,17 +63,17 @@ ht-degree: 3%
 
 您可以轻松地将从Workfront收到的消息转发给系统中的用户。
 
-1. 单击Workfront界面右上角的&#x200B;**通知**&#x200B;图标，然后单击&#x200B;**所有通知**，即可转到“通知”页面。
+1. 单击Workfront界面右上角的&#x200B;**通知**&#x200B;图标，然后单击&#x200B;**所有公告**，以转到“公告”页面。
 
    ![所有公告](assets/announcement-access-350x212.png)
 
 1. 在&#x200B;**公告**&#x200B;页面上，选择要转发的消息。
 1. 单击&#x200B;**转发**。
-1. 在&#x200B;**发送至**&#x200B;框中，开始键入要接收通知消息的用户、组、团队或公司的名称，然后在下拉列表中显示该名称时单击该名称。 重复此过程可添加多个用户、组、团队或公司。
+1. 在“**发送至**”框中，开始键入您希望接收公告消息的用户、组、团队或公司的名称，然后在该名称出现在下拉列表中时单击该名称。 重复此过程以添加多个用户、组、团队或公司。
 
    或
 
-   若要将公告转发给系统中的所有用户，请开始键入&#x200B;**Everyone**，然后在它出现在下拉列表中时单击它。
+   要将公告转发给系统中的所有用户，请开始键入&#x200B;**所有人**，然后当公告出现在下拉列表中时单击它。
 
 1. 继续执行[撰写新公告](#compose-new-announcements)中的步骤3。
 
@@ -92,17 +94,17 @@ ht-degree: 3%
    | 主题 | 指定公告的主题。 |
    |---|---|
    | 在此处键入消息 | 指定消息的内容。 消息编辑器允许您包含常用标记，包括粗体、斜体、下划线、项目符号和编号列表以及超链接。 |
-   | 附件 | 单击&#x200B;**添加附件**，然后浏览到并选择要附加到邮件的文件。 |
+   | 附件 | 单击&#x200B;**添加附件，**，然后浏览并选择要附加到邮件的文件。 |
 
    {style="table-layout:auto"}
 
 1. （可选）单击&#x200B;**另存为草稿**&#x200B;以将邮件（包括收件人列表、主题和附件）另存为草稿。
 
-1. （可选）若要查看草稿，请在&#x200B;**公告**&#x200B;区域中单击&#x200B;**草稿**。
+1. （可选）要查看草稿，请在&#x200B;**公告**&#x200B;区域中单击&#x200B;**草稿**。
 
 1. 单击&#x200B;**发送。**
 
-   如[查看和管理应用程序内通知](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)中所述，用户现在可以查看通知消息。
+   用户现在可以查看公告消息，如[查看和管理应用程序内通知](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)中所述。
 
 ## 限制您收到的Workfront公告类型
 

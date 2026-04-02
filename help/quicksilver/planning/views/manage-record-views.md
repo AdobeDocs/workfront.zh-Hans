@@ -6,7 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1343'
 ht-degree: 2%
@@ -115,7 +117,8 @@ ht-degree: 2%
 +++
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -177,7 +180,8 @@ ht-degree: 2%
 </td>
   </tr>
 </tbody> 
-</table>-->
+</table>
+-->
 
 ## 使用记录视图时的注意事项
 
@@ -301,7 +305,7 @@ ht-degree: 2%
    >
    >    您可以从记录日期字段中选择，或从连接的记录或对象类型中选择查找日期字段。
    >
-   >在连接记录类型时选择查找字段时，必须为日期字段使用聚合(MAX或MIN)。 仅添加聚合器允许您使用连接的日期作为时间轴和日历视图的开始和结束日期。
+   >在连接记录类型时选择查找字段时，必须为日期字段使用聚合（MAX或MIN）。 仅添加聚合器允许您使用连接的日期作为时间轴和日历视图的开始和结束日期。
    >
    >有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
 

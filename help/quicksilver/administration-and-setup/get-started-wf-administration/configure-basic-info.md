@@ -8,10 +8,12 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '805'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -23,9 +25,9 @@ ht-degree: 2%
 
 在配置Adobe Workfront系统时，您可以在“客户信息”页面的“基本信息”部分管理有关贵组织的详细信息。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,7 +35,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -78,12 +80,13 @@ ht-degree: 2%
 
    * **电子邮件允许列表**
 
-     有关向允许列表列入允许列表添加电子邮件的信息，请参阅[配置电子邮件](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)。
+     有关向允许列表添加电子邮件的信息，请参阅[配置电子邮件](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)。
 
    <!--
    * **License**
 
-     For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).-->
+     For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+     -->
 
 ## 配置基本信息 {#configure-basic-info}
 
@@ -133,7 +136,7 @@ ht-degree: 2%
       <td role="rowheader">存储配额</td> 
       <td> <p>这是Workfront实例中可用的文档存储空间量。<br>配额包含您直接上传到Workfront的文档。<br>它不包括：</p> 
        <ul> 
-        <li>您从任何其他第三方服务提供商(SharePoint、Google Drive、Webdam、Box、Dropbox和任何其他文档资产管理提供商)链接到Workfront的文档。</li> 
+        <li>您从任何其他第三方服务提供商（SharePoint、Google Drive、Webdam、Box、Dropbox和任何其他文档资产管理提供商）链接到Workfront的文档。</li> 
         <li>您的Workfront数据（项目、任务、问题、用户等）。</li> 
        </ul> </td> 
      </tr>

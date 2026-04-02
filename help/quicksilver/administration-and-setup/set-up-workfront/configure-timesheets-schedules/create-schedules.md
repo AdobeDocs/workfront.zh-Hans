@@ -8,10 +8,12 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f7347ba6-68bf-45d8-b5d2-6136f3e696c9
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '794'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -19,7 +21,8 @@ ht-degree: 0%
 
 <!--Audited: 01/2024-->
 
-<!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
+<!--
+DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
 Linked to Editing Users, Editing Projects, Creating and managing groups
 -->
 
@@ -35,9 +38,9 @@ Linked to Editing Users, Editing Projects, Creating and managing groups
 
 有关如何在资源计划中使用计划的信息，请参阅[计划概述](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)和[资源规划者概述](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,16 +48,16 @@ Linked to Editing Users, Editing Projects, Creating and managing groups
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] 包</td> 
-   <td><p>任何</p></td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p>
-       <p>[!UICONTROL 计划]</p></td>
+   <td><p>[！UICONTROL标准版]</p>
+       <p>[！UICONTROL计划]</p></td>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -92,7 +95,7 @@ Linked to Editing Users, Editing Projects, Creating and managing groups
 
    <table style="table-layout:auto">
     <tr>
-     <td>具有管理访问权限的[!UICONTROL 组]</td>
+     <td>具有管理访问权限的[！UICONTROL组]</td>
      <td><p>选择其管理员有权编辑此计划的组。</p>
      <p><b>重要信息</b>：</p>
       <ul>
@@ -109,11 +112,11 @@ Linked to Editing Users, Editing Projects, Creating and managing groups
      </td>
     </tr>
     <tr>
-     <td>[!UICONTROL 组具有视图访问权限]</td>
-     <td><p>选择具有[!UICONTROL 视图]访问权限的组，这些组可以查看此计划。</p>
+     <td>[！UICONTROL组具有视图访问权限]</td>
+     <td><p>选择具有[！UICONTROL视图]访问权限的组，这些组可以查看此计划。</p>
      <p>只有此处指定的组中的用户在将其分配给用户或项目时，才能在下拉菜单中找到计划。</p></tr>
     <tr>
-     <td>[!UICONTROL 时区]</td>
+     <td>[！UICONTROL时区]</td>
      <td><p>选择计划的时区。</p>
      <p>如果将时间表与用户关联，我们建议时间表的时区与用户的时区匹配。 有关用户时区的信息，请参阅<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">编辑用户配置文件。
      </td>

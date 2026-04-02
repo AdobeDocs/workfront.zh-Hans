@@ -10,7 +10,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 0%
@@ -21,9 +23,11 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 您可以使用计划定义工作周，并将计划与用户或项目关联。 这允许[!DNL Adobe Workfront]计算时间表和用户可用性。 有关说明，请参阅[创建计划](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
 
@@ -61,7 +65,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->仅当[!UICONTROL 安装程序]的[!UICONTROL 资源管理]区域中的[!UICONTROL 使用计算资源可用性]设置设置为[!UICONTROL 用户计划]时，[!DNL Workfront]才使用用户的计划。 有关[!UICONTROL 使用]计算资源可用性设置如何影响用于资源管理的计划的信息，请参阅[配置资源管理首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)。
+>仅当[!DNL Workfront]安装程序[!UICONTROL 的]资源管理[!UICONTROL 区域中的]使用计算资源可用性[!UICONTROL 设置设置为]用户计划[!UICONTROL 时，]才使用用户的计划。 有关[!UICONTROL 使用]计算资源可用性设置如何影响用于资源管理的计划的信息，请参阅[配置资源管理首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)。
 
 存在多个计划时，系统使用计划的顺序为：
 

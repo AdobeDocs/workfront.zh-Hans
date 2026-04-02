@@ -9,10 +9,12 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1071'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -61,7 +63,8 @@ ht-degree: 1%
 * 编辑用户配置文件框时的“显示更新状态的完成百分比”设置将被删除。 已删除更新任务或问题的完成百分比的功能。
 
 
-<!--removed this note on November 28, 2023, when this limitation was removed: 
+<!--
+removed this note on November 28, 2023, when this limitation was removed: 
 
 >[!NOTE]
 >
@@ -94,9 +97,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>创建/读取/回复/删除评论 
    </td>
-   <td>✓ {\f13 } 
+   <td>✓ 
   </td>
-   <td>✓ {\f13 } 
+   <td>✓ 
    </td>
 
 <td> 
@@ -106,9 +109,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>富文本（不包括引号和表情符号）
    </td>
-   <td>✓ {\f13 } 
+   <td>✓ 
    </td>
-   <td>✓ {\f13 }
+   <td>✓
    </td>
 
 <td> 
@@ -118,9 +121,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>富文本（表情符号）
    </td>
-   <td>✓ {\f13 } 
+   <td>✓ 
    </td>
-   <td>✓ {\f13 }
+   <td>✓
    </td>
    <td> 
    </td>
@@ -130,9 +133,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>富文本（块引号）
    </td>
-   <td>✓ {\f13 } 
+   <td>✓ 
    </td>
-   <td> ✓ {\f13 }
+   <td> ✓
    </td>
     <td> 2023年第二季度
    </td>
@@ -142,9 +145,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td> 报价注释
    </td>
-   <td>✓ {\f13 } 
+   <td>✓ 
    </td>
-   <td> ✓ {\f13 }
+   <td> ✓
    </td>
    <td> 2023年第二季度
    </td>
@@ -153,9 +156,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>对评论做出反应（类似） 
    </td>
-   <td>✓ {\f13 } 
+   <td>✓ 
    </td>
-   <td>✓ {\f13 } 
+   <td>✓ 
    </td>
    <td> 
    </td>
@@ -164,9 +167,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>将图像附加到注释 
    </td>
-   <td>✓ {\f13 } 
+   <td>✓ 
    </td>
-   <td>✓ {\f13 } 
+   <td>✓ 
    </td>
       <td> 
    </td>
@@ -175,9 +178,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>在评论中标记人员 
    </td>
-   <td>✓ {\f13 } 
+   <td>✓ 
    </td>
-   <td>✓ {\f13 } 
+   <td>✓ 
    </td>
    <td> 
    </td>
@@ -188,7 +191,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td>✓ {\f13 }
+   <td>✓
    </td>
    <td> 
    </td>
@@ -198,7 +201,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td>✓ {\f13 }
+   <td>✓
    </td>
    <td> 
    </td>
@@ -207,9 +210,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>公司私有的评论 
    </td>
-   <td>✓ {\f13 } 
+   <td>✓ 
    </td>
-   <td>✓ {\f13 } 
+   <td>✓ 
    </td>
    <td> 
    </td>
@@ -217,7 +220,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>撤消评论的过帐 
    </td>
-   <td>✓ {\f13 } 
+   <td>✓ 
    </td>
    <td>替换为编辑注释 
    </td>
@@ -227,7 +230,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>关闭系统更新 
    </td>
-   <td>✓ {\f13 } 
+   <td>✓ 
    </td>
    <td>已替换为活动选项卡 
    </td>
@@ -239,7 +242,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> ✓ {\f13 }
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -247,9 +250,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>在离开页面时保存评论草稿 
    </td>
-   <td>✓ {\f13 } 
+   <td>✓ 
    </td>
-   <td>✓ {\f13 } 
+   <td>✓ 
    </td>
    <td> 
    </td>
@@ -259,7 +262,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td>✓ {\f13 }
+   <td>✓
    </td>
    <td> 
    </td>
@@ -267,9 +270,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>记录时间 
    </td>
-   <td>✓ {\f13 } 
+   <td>✓ 
    </td>
-   <td>✓ {\f13 }
+   <td>✓
    </td>
    <td> 
    </td>
@@ -277,7 +280,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
     <tr>
    <td>复制跟帖链接 
    </td>
-   <td>✓ {\f13 } 
+   <td>✓ 
    </td>
    <td> 替换为复制链接
    </td>
@@ -287,7 +290,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>复制评论链接 
    </td>
-   <td>✓ {\f13 } 
+   <td>✓ 
    </td>
    <td> 替换为复制链接
    </td>
@@ -297,9 +300,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>引用注释文本 
    </td>
-   <td>✓ {\f13 } 
+   <td>✓ 
    </td>
-   <td>✓ {\f13 }
+   <td>✓
    </td>
   <td>2023年第二季度 
    </td>
@@ -307,9 +310,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>复制正文文本 
    </td>
-   <td>✓ {\f13 } 
+   <td>✓ 
    </td>
-   <td> ✓ {\f13 }
+   <td> ✓
    </td>
    <td>
    </td>
@@ -319,7 +322,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> ✓ {\f13 }
+   <td> ✓
    </td>
    <td>2024年第一季度 
    </td>
@@ -331,7 +334,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> ✓ {\f13 }
+   <td> ✓
    </td>
    <td>2024年第一季度 
    </td>
@@ -340,9 +343,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>在评论中拖放图像
    </td>
-   <td> ✓ {\f13 }
+   <td> ✓
    </td>
-   <td> ✓ {\f13 }
+   <td> ✓
    </td>
    <td>2024年第一季度 
    </td>
@@ -351,7 +354,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>编辑自定义表单 
    </td>
-   <td>✓ {\f13 } 
+   <td>✓ 
    </td>
    <td> 
    </td>
@@ -361,7 +364,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>能够在注释时编辑状态、条件和提交日期 
    </td>
-   <td>✓ {\f13 } 
+   <td>✓ 
    </td>
    <td> 
    </td>
@@ -371,7 +374,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>回复系统更新 
    </td>
-   <td> ✓ {\f13 }
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -381,9 +384,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>添加以其他用户身份登录的评论时显示“代表”
    </td>
-   <td> ✓ {\f13 }
+   <td> ✓
    </td>
-   <td> ✓ {\f13 }
+   <td> ✓
    </td>
    <td>
    </td>
@@ -392,7 +395,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>当提交日期从更新部分更改时，项目所有者能够更改任务的规划完成日期
    </td>
-   <td> ✓ {\f13 }
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -501,7 +504,8 @@ Depending on what objects you access the commenting experience for, you might se
 -->
 
 
-<!--before August 17: 
+<!--
+before August 17: 
 
 The new commenting experience is currently supported for the following objects:
 
@@ -522,7 +526,8 @@ The new commenting experience is currently supported for the following objects:
 
 -->
 
-<!--Depending on the environment you access the commenting experience you can do one of the following: 
+<!--
+Depending on the environment you access the commenting experience you can do one of the following: 
 
 * Enable the commenting experience Beta in the Production environment
 * <span class="preview">Enable the legacy commenting experience in the Preview  environment </span>

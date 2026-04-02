@@ -8,7 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 3%
@@ -19,29 +21,31 @@ ht-degree: 3%
 
 <!--Audited: 10/2025-->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>-->
+</div>
+-->
 
 您可以编辑有关您创建的问题或其他用户创建的问题（如果他们与您共享问题）的信息。
 
 您可以编辑单个问题，也可以在列表中编辑问题。 有关编辑列表中的问题的信息，请参阅[编辑列表中的问题](../../../manage-work/issues/manage-issues/edit-issues-in-a-list.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -72,7 +76,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 +++
 
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -105,7 +110,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    <p>Manage permissions to an issue to edit all the fields in the Details area or in the Edit Issue box</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 编辑问题时的限制
 
@@ -168,7 +174,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    * [问题名称](#issue-name)
    * [概述](#overview)
-   * [任务](#assignments)
+   * [分配](#assignments)
    * [自定义表单](#Custom%C2%A0F)
    * [设置](#settings)
 
@@ -321,7 +327,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. 单击&#x200B;**保存**&#x200B;或继续编辑以下部分。
 
-#### 任务 {#assignments}
+#### 分配 {#assignments}
 
 1. 按如上所述开始编辑问题。
 1. 单击左侧面板中的&#x200B;**工作**。
@@ -348,7 +354,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    >* 将工作项重新分配给活动资源。
    >* 将已停用团队中的用户与活动团队关联，并将工作项重新分配给活动团队。
 
-   <!--1. In the Production environment:
+   <!--
+   1. In the Production environment:
          1. Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue.
          1. Update the following fields: 
          <table style="table-layout:auto"> 
@@ -368,7 +375,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
             Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
          </tr> 
          </tbody> 
-         </table>-->
+         </table>
+         -->
 
 
 1. （可选）单击&#x200B;**分配给我**&#x200B;以将问题分配给您自己。
@@ -458,7 +466,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 * 完成百分比
 
   有关信息，请参阅[查看和更新任务的完成百分比](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md)。
-* 任务
+* 分配
 * 计划完成日期和时间
 * 状态
 * 如果在当前审批流程中将您设置为审批者，则做出审批决策

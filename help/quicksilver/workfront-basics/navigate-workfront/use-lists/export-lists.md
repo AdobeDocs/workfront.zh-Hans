@@ -5,7 +5,9 @@ description: 您可以从Adobe Workfront导出对象列表。 当Workfront中的
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 31159d6d-f03a-4f84-a454-25a232971441
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 5%
@@ -16,7 +18,7 @@ ht-degree: 5%
 
 <!--Audited: 11/2024-->
 
-您可以从[!DNL Adobe Workfront]导出对象列表。 当[!DNL Workfront]中的对象列表包含2000多个项目时，导出列表是在一页上查看列表中的所有项目的唯一方法。
+您可以从[!DNL Adobe Workfront]导出对象列表。 当[!DNL Workfront]中的对象列表包含2000个以上的项目时，导出列表是查看一个页面上列表中的所有项目的唯一方法。
 
 有关导出格式和限制的信息，请参阅[导出数据](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md)。
 
@@ -41,11 +43,11 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>查看对列表所在区域的访问权限</p></td> 
+   <td> <p>查看列表所在区域的访问权限</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>列表所在对象的[!UICONTROL View]权限</p>  </td> 
+   <td> <p>列表所在对象的[！UICONTROL View]权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,8 +72,8 @@ ht-degree: 5%
    >   
    >   * **选择显示列表中的所有项目或2000个项目**：有关详细信息，请参阅[修改列表的显示方式](../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md)。
    >   
-   >   * **使用快速筛选器**：有关详细信息，请参阅[将快速筛选器应用于列表](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md)。\
-   >     快速筛选条件仅适用于列表的当前页面。
+   >   * **使用快速筛选器**：有关详细信息，请参阅[将快速筛选器应用到列表](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md)。\
+   >     快速筛选器仅适用于列表的当前页面。
 
 
    ![select_all_projects_with_highlight__1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
@@ -88,4 +90,4 @@ ht-degree: 5%
      这会将列表副本导出为上述格式之一，并将其保存在计算机上。
 
 1. （可选）使用相应的应用程序打开导出的列表。
-列表中的所有项目都显示在导出的文件中，无论这些项目是否显示在Web应用程序的屏幕上。
+列表中的所有项目都会显示在导出的文件中，无论它们是否显示在Web应用程序的屏幕上。

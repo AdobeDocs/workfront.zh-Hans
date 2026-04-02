@@ -6,7 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 567ab223-b282-4b98-9655-7b9766fba869
-source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1156'
 ht-degree: 0%
@@ -103,7 +105,7 @@ ht-degree: 0%
 
 此方法需要Adobe Workfront Fusion的许可证。
 
-有关详细信息，请参阅[设置和管理Workfront Fusion：文章索引](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc)。
+有关详细信息，请参阅[设置和管理Workfront Fusion：文章索引](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc)。
 
 * **使用提交触发器：**&#x200B;由于表单提供单个干净的提交事件，因此它们可以用作Fusion自动化的触发器。 Fusion场景可以检测表单提交并立即在Workfront中生成链接项目。
 
@@ -113,7 +115,7 @@ ht-degree: 0%
 
 链接项目后，您可以通过添加该项目的查找字段，直接在Planning记录中显示Workfront的实时数据。
 
-作为工作区经理，您可以设置查找字段以将链接项目中的任何系统或自定义字段(例如实际完成日期或Creative潜在客户)提取到Planning记录类型中。 捕获这些数据后，该数据可以累计到您的战略层次结构的多个级别，一直到营销活动级别。 这在整个营销生命周期中为利益相关者提供了强大的汇总报告，无需离开规划环境即可随时了解情况。
+作为工作区经理，您可以设置查找字段以将链接项目中的任何系统或自定义字段（例如实际完成日期或Creative潜在客户）提取到Planning记录类型中。 捕获这些数据后，该数据可以累计到您的战略层次结构的多个级别，一直到营销活动级别。 这在整个营销生命周期中为利益相关者提供了强大的汇总报告，无需离开规划环境即可随时了解情况。
 
 ## 通过将战略与行动联系起来，实现可视性
 
@@ -145,7 +147,8 @@ ht-degree: 0%
 
 * **不要绕过桥接器：**&#x200B;如果工作开始于“工作流”模块且没有指向Planning的链接，则您已创建领导不可见的“影子计划”。
 
-<!--original content:
+<!--
+original content:
 
 # The Bridge: Connecting Strategic Intent to Projects 
 

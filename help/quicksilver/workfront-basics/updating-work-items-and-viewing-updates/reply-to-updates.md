@@ -2,13 +2,15 @@
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: 回复更新
-description: 当有人添加或回复工作对象的更新时，他们的回复会显示在对象更新部分的通信线程中。 如果您具有对象的查看访问权限，则您可以向更新或类似内容添加回复。
+description: 当有人添加或回复工作对象上的更新时，他们的回复会出现在对象更新部分的通信线程中。 您可以向更新添加回复，或者如果您对对象具有“查看”权限，则可以向更新添加“赞”回复。
 author: Courtney and Alina
 feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 2%
@@ -43,13 +45,13 @@ ht-degree: 2%
 ><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span> 
 -->
 
-当有人对某个工作对象的注释或系统更新作出回复时，他们的回复会显示在对象“更新”部分的“注释”和“全部”选项卡的通信线索中。
+当有人回复工作对象的注释或系统更新时，他们的回复会出现在通信线程中，该线程位于对象的“更新”部分的“注释”和“全部”选项卡中。
 
 >[!IMPORTANT]
 >
->无法在“系统活动”选项卡中回复系统更新。 在2024年4月11日之前在旧版评论体验中作出的任何系统更新回复均显示为只读。
+>无法在“System Activity（系统活动）”选项卡中回复系统更新。 在2024年4月11日之前的旧版评论体验中，对系统更新的任何回复均显示为只读。
 
-本文介绍了如何在Workfront中回复来自大多数对象的注释。 有关各种对象的更新部分之间的差异，请参阅[更新部分概述](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)。
+本文介绍了如何回复Workfront中大多数对象的注释。 有关各种对象的“更新”部分之间的差异，请参阅[更新部分概述](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 
 ## 访问权限要求
 
@@ -82,16 +84,17 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>查看对对象的权限</p> </td> 
+   <td> <p>查看对象的权限</p> </td> 
   </tr> 
  </tbody> 
    </table>
 
-有关详细信息，请参阅[Workfront文档的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关详细信息，请参阅Workfront文档的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -116,22 +119,23 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
+*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
-## 回复Workfront中的更新或回复
+## 在Workfront中回复更新或回复
 
-您可以回复所查看对象会话中的注释，或者以Workfront或组管理员的身份登录并代表其他用户回复注释。 有关详细信息，请参阅[以其他用户身份登录](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)。
+您可以回复可查看的对象线程中的注释，也可以以Workfront或组管理员身份登录并代表其他用户回复注释。 有关详细信息，请参阅[以其他用户身份登录](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)。
 
 ### 回复评论
 
-对于大多数Workfront中的对象，在对象的更新部分中回复注释的方式是类似的。
+对于Workfront中的大多数对象，在对象的“更新”部分中回复注释的方式都类似。
 
-1. 转到要添加回复的对象。
-1. 单击&#x200B;**更新**，然后单击对象的&#x200B;**注释**&#x200B;选项卡，并查找您要回复的注释或回复
+1. 转到要向其添加回复的对象。
+1. 单击&#x200B;**更新**，然后单击对象的&#x200B;**注释**&#x200B;选项卡并查找要回复的注释或回复
 
    或
 
-   单击“**全部**”选项卡，然后单击“**在注释中回复**”，以在“注释”选项卡中打开注释并回复。 您不能在“全部”选项卡中回复。
+   单击“**全部**”选项卡，然后单击“**在评论中回复**”以在“评论”选项卡中打开评论并回复。 您不能在“全部”选项卡中回复。
 
 1. （可选）若要在回复中包含来自上次更新的文本，请单击要回复的评论右上角的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**引用回复**。 上次更新的文本会显示在输入区域中，以垂直灰色线标记。
 1. 单击&#x200B;**回复**。
@@ -173,14 +177,14 @@ ht-degree: 2%
 
 -->
 
-## 从电子邮件通知中回复更新
+## 回复电子邮件通知的更新
 
-根据您的电子邮件通知的配置方式，当对您有权访问的特定对象进行更新时，您可能会收到电子邮件通知。
+根据电子邮件通知的配置方式，当对您有权访问的特定对象进行更新时，您可能会收到电子邮件通知。
 
-您可以通过以下方式回复电子邮件通知中的更新：
+您可以通过以下方式回复电子邮件通知的更新：
 
 * 回复您收到的电子邮件。 您的回复电子邮件将添加为Workfront对原始评论的回复。
-* 使用电子邮件中的“注释”按钮导航回Workfront并在“更新”区域中回复更新。
+* 使用电子邮件中的“评论”按钮可导航回Workfront并回复更新区域的更新。
 
 以下是在任务的更新选项卡上更新后触发的电子邮件通知示例：
 

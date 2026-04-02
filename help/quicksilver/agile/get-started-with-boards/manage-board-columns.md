@@ -2,11 +2,13 @@
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 管理展示板列
-description: 默认情况下，新主板包含三列。 您可以添加更多列、更改列的顺序、重命名列以及删除任何不需要的列。 您还可以定义列策略。
+description: 默认情况下，新展示板包含三列。 您可以添加更多列、更改列的顺序、重命名列以及删除任何不需要的列。 您还可以定义列策略。
 author: Courtney
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1081'
 ht-degree: 1%
@@ -17,7 +19,7 @@ ht-degree: 1%
 
 <!-- Audited: 05/2024 -->
 
-默认情况下，新主板包含三列。 您可以添加更多列、更改列的顺序、重命名列以及删除任何不需要的列。
+默认情况下，新展示板包含三列。 您可以添加更多列、更改列的顺序、重命名列以及删除任何不需要的列。
 
 列设置包括策略，这些策略允许您定义卡片被移动到该列时卡片所发生的变化。
 
@@ -51,7 +53,7 @@ ht-degree: 1%
 
 +++
 
-## 向讨论区添加列
+## 向展示板添加列
 
 {{step1-to-boards}}
 
@@ -67,8 +69,8 @@ ht-degree: 1%
 
 ## 对展示板上的列重新排序
 
-1. 访问讨论区。
-1. 将列拖放到正确的顺序。 在将其拖动到其他位置之前，请确保选择栏的顶部。
+1. 访问展示板。
+1. 按正确的顺序拖放各列。 在将该列拖到其他位置之前，请务必选择列的顶部。
 
    ![拖放列](assets/boards-dragdropcolumn.png)
 
@@ -92,7 +94,7 @@ ht-degree: 1%
    >
    >无法删除包含信息卡的列，包括已存档的信息卡。 如果尝试删除包含信息卡的列，则必须为这些信息卡选择另一列。
 
-## 显示卡数量
+## 显示卡计数
 
 您可以使用配置设置显示每列中的卡片数量。
 
@@ -101,11 +103,11 @@ ht-degree: 1%
 1. 访问展示板。
 1. 单击展示板右侧的&#x200B;**[!UICONTROL 配置]**&#x200B;以打开“配置”面板。
 1. 展开&#x200B;**[!UICONTROL 列]**。
-1. 启用&#x200B;**[!UICONTROL 显示列卡数]**。
+1. 打开&#x200B;**[!UICONTROL 显示列卡片计数]**。
 
-   ![打开卡计数器](assets/display-card-count.png)
+   ![打开卡片计数器](assets/display-card-count.png)
 
-   卡计数器显示在每列的顶部。
+   卡片计数器显示在每列的顶部。
 
 1. 单击&#x200B;**[!UICONTROL 隐藏配置]**&#x200B;以关闭[!UICONTROL 配置]面板。
 
@@ -129,15 +131,15 @@ ht-degree: 1%
 
    ![列设置和策略](assets/boards-column-policies-enabled.png)
 
-1. （可选）设置卡状态的值：
+1. （可选）设置信息卡状态的值：
 
    1. 选中&#x200B;**[!UICONTROL 状态]**&#x200B;复选框。
 
-   1. 选择卡移至此列时应用于它的状态。
+   1. 选择卡片移动到此列时应用到该卡片的状态。
 
-      ![列的状态](assets/boards-column-status.png)
+      ![列状态](assets/boards-column-status.png)
 
-      还显示已连接卡的状态转换选项。 （状态翻译不适用于临时信息卡。） 这些选项确定将连接的卡片移动到此列时在[!DNL Workfront]中应用于任务或问题的自定义状态。
+      还会显示已连接信息卡的状态转换选项。 （状态翻译不适用于临时信息卡。） 这些选项确定将连接的卡片移动到此列时在[!DNL Workfront]中应用于任务或问题的自定义状态。
 
    1. 选择一个&#x200B;[!UICONTROL **自定义**]&#x200B;状态以应用于任务和问题的卡。
 
@@ -165,11 +167,11 @@ ht-degree: 1%
       * **[!UICONTROL 添加标签]：**&#x200B;将信息卡移动到此列时，您选择的标签会添加到信息卡上的现有标签列表中。
       * **[!UICONTROL 覆盖标记]：**&#x200B;您选择的标记将覆盖所有其他标记，并在卡片移至此列时成为卡片上的唯一标记。
 
-   1. 从下拉列表中选择标记。 只有已在[!UICONTROL 标签管理器]中创建的标签才可供选择。 有关添加新标签的信息，请参阅[添加标签](/help/quicksilver/agile/get-started-with-boards/add-tags.md)。
+   1. 从下拉列表中选择标记。 只有已在[!UICONTROL 标记管理器]中创建的标记才可供选择。 有关添加新标记的信息，请参阅[添加标记](/help/quicksilver/agile/get-started-with-boards/add-tags.md)。
 
       列![的](assets/boards-column-tags.png)标记
 
-1. 启用&#x200B;**[!UICONTROL 在制品限制]**&#x200B;策略以限制可以添加到列的卡数。 然后，在&#x200B;**[!UICONTROL 设置限制]**&#x200B;字段中键入限制数。
+1. 启用&#x200B;**[!UICONTROL 工作进行中限制]**&#x200B;策略以限制可以添加到列中的卡片数量。 然后，在&#x200B;**[!UICONTROL 设置限制]**&#x200B;字段中键入限制数。
 
    列![的](assets/boards-wip-limit-in-column.png)WIP限制
 

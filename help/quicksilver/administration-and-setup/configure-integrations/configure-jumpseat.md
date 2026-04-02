@@ -3,12 +3,14 @@ user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
 title: 配置 JumpSeat 集成
-description: You can integrate [!DNL JumpSeat] with [!DNL Workfront] to create custom, in-product guidance.
+description: 您可以将 [!DNL JumpSeat] 与 [!DNL Workfront] 集成以创建自定义产品内指南。
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Courtney, Becky
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 14%
@@ -17,7 +19,7 @@ ht-degree: 14%
 
 # 配置 JumpSeat 集成
 
-You can integrate [!DNL JumpSeat] with [!DNL Workfront] to create custom, in-product guidance.
+您可以将[!DNL JumpSeat]与[!DNL Workfront]集成以创建自定义产品内指南。
 
 ## 访问权限要求
 
@@ -28,7 +30,7 @@ You can integrate [!DNL JumpSeat] with [!DNL Workfront] to create custom, in-pro
    <td>Adobe Workfront 包
    </td>
     <p>工作流 Ultimate</p>
-   <td> <p>Prime or Ultimate</p>
+   <td> <p>Prime或Ultimate</p>
    </td>
   </tr>
     <tr>
@@ -42,47 +44,47 @@ You can integrate [!DNL JumpSeat] with [!DNL Workfront] to create custom, in-pro
   <tr>
    <td>产品
    </td>
-   <td>You must have an active [!DNL JumpSeat] plan.
+   <td>您必须拥有有效的[!DNL JumpSeat]计划。
    </td>
   </tr>
    <tr>
    <td>访问级别配置
    </td>
-   <td>You must be a [!DNL Workfront] administrator.
+   <td>您必须是[!DNL Workfront]管理员。
    </td>
   </tr>
 </table>
 
-有关此表中信息的详细信息，请参阅[Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
 ## 先决条件
 
-Before you begin, you must
+在开始之前，您必须
 
-* Add and activate [!DNL Workfront] as an application in [!DNL JumpSeat]. For more information, see [How To Add Or Delete An Application](https://support.jumpseat.io/article/how-to-add-an-application/).
+* 在[!DNL Workfront]中添加并激活[!DNL JumpSeat]作为应用程序。 有关详细信息，请参阅[如何添加或删除应用程序](https://support.jumpseat.io/article/how-to-add-an-application/)。
 
 >[!IMPORTANT]
 >
->If you are on the Adobe Unified Experience, you must use the following Application URL: `.workfront.adobe.com`.
+>如果您在Adobe Unified Experience上，则必须使用以下应用程序URL： `.workfront.adobe.com`。
 
 
 
-## Configure the [!DNL JumpSeat] integration
+## 配置[!DNL JumpSeat]集成
 
 我们建议在您的预览环境和生产环境中设置[!DNL JumpSeat]集成。
 
 >[!TIP]
 >
->You need to add and activate two separate [!DNL Workfront] applications in [!DNL JumpSeat]—one for Preview and one for Production. See [How To Add Or Delete An Application](https://support.jumpseat.io/article/how-to-add-an-application/) for more information.
+>您需要在[!DNL Workfront]中添加和激活两个单独的[!DNL JumpSeat]应用程序 — 一个用于预览，一个用于生产。 有关详细信息，请参阅[如何添加或删除应用程序](https://support.jumpseat.io/article/how-to-add-an-application/)。
 
-To configure the [!DNL JumpSeat] integration:
+要配置[!DNL JumpSeat]集成，请执行以下操作：
 
 {{step-1-to-setup}}
 
-1. In the left panel, click **[!UICONTROL System]** > **[!UICONTROL [!DNL JumpSeat]Integration]**.
-1. Enter your **[!UICONTROL [!DNL JumpSeat]URL]**, which can be found on your extension icon in [!DNL JumpSeat].
+1. 在左侧面板中，单击&#x200B;**[!UICONTROL 系统]** > **[!UICONTROL [!DNL JumpSeat]集成]**。
+1. 输入您的&#x200B;**[!UICONTROL [!DNL JumpSeat]URL]**，您可以在位于[!DNL JumpSeat]的扩展图标上找到该URL。
 
 >[!BEGINSHADEBOX]
 
@@ -90,25 +92,25 @@ To configure the [!DNL JumpSeat] integration:
 
 https://{mycompanyname}.jumpseat.io
 
-&#x200B;>>
+>>
 
 >[!ENDSHADEBOX]
 
-1. Enter the **[!UICONTROL [!DNL JumpSeat]integration token]**. You can find this on the **[!UICONTROL Configuration]** page in [!DNL JumpSeat].
+1. 输入&#x200B;**[!UICONTROL [!DNL JumpSeat]集成令牌]**。 您可以在&#x200B;**[!UICONTROL 中的]**&#x200B;配置[!DNL JumpSeat]页面上找到此项。
 
-   **Example:** $2y$10$BevsKeQ8....OYR.LurSg2U64O
+   **示例：** $2y$10$BevsKeQ8....OYR.LurSg2U64O
 
-1. Click **[!UICONTROL Test configuration]**.
+1. 单击&#x200B;**[!UICONTROL 测试配置]**。
 1. 选择您希望该集成是&#x200B;**[!UICONTROL 活动]**&#x200B;还是&#x200B;**[!UICONTROL 非活动]**。
 
    >[!IMPORTANT]
    >
-   >The configuration test performed in step 5 must pass in order to activate the integration.
+   >在步骤5中执行的配置测试必须通过，才能激活集成。
 
-   ![JumpSeat Integration page](assets/jumpseat-integration-page.png)
+   ![JumpSeat集成页面](assets/jumpseat-integration-page.png)
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 >[!TIP]
 >
->For more information about configuring your [!DNL JumpSeat] integration, see the [!DNL JumpSeat] documentation for [JumpSeat+Workfront](https://jumpseat.io/landing-page/jumpseat-workfront/).
+>有关配置[!DNL JumpSeat]集成的更多信息，请参阅有关[!DNL JumpSeat]JumpSeat+Workfront[的](https://jumpseat.io/landing-page/jumpseat-workfront/)文档。

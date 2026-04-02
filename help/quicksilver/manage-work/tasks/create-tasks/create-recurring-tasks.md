@@ -7,10 +7,12 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '890'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -32,7 +34,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 包</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -56,7 +58,8 @@ ht-degree: 2%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -84,7 +87,8 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator. For more information about access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator. For more information about access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## 创建周期性任务
 
@@ -124,7 +128,7 @@ ht-degree: 2%
     </thead> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>天</strong> </td> 
+      <td role="rowheader"><strong>Day</strong> </td> 
       <td> <p>任务会每天、每2天、每3天等重复一次，具体取决于您选择的节奏。 您可以将任务配置为最多每隔6天重复执行一次。 默认设置为1天。 </p> </td> 
      </tr> 
      <tr> 
@@ -136,10 +140,10 @@ ht-degree: 2%
       <td> <p> 任务每周、每两周、每三周等重复一次，具体取决于您选择的节奏。</p> <p>在<strong>重复</strong>字段中，选择要在一周中执行每项任务的日期。 您可以选择多天。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>个月</strong> </td> 
+      <td role="rowheader"><strong>Month</strong> </td> 
       <td> <p>任务会每月、每2个月、每3个月等重复一次，具体取决于您选择的节奏。 您可以选择1到12个月。 </p> <p>在<strong>重复</strong>字段中，选择您希望任务发生的以下选项：</p> 
        <ul> 
-        <li> <p><strong>每月&lt;月份日期&gt;</strong>日 </p> <p>您可以选择1到30之间的天数，也可以选择<strong>last</strong>。 例如，您可以选择“每月30日”。 </p> </li> 
+        <li> <p><strong>每月&lt;month date&gt;</strong>日 </p> <p>您可以选择1到30之间的天数，也可以选择<strong>last</strong>。 例如，您可以选择“每月30日”。 </p> </li> 
         <li> <p><strong>每月&lt;数字&gt; &lt;星期&gt;</strong> </p> <p>在第一个下拉菜单中，可以为月中的周数选择一个介于1和4之间的数字，也可以选择“最后一个”。 </p> <p>在第二个下拉菜单中，您可以选择一周中的任意一天。 </p> <p>例如，您可以选择“每个月在第2个星期二”。 </p> </li> 
        </ul> </td> 
      </tr> 

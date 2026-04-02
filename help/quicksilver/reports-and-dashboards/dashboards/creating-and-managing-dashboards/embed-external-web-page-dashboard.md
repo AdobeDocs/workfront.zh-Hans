@@ -1,23 +1,25 @@
 ---
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
-title: 在仪表板中嵌入外部网页
-description: 您可以在仪表板中嵌入外部网页，以便从Adobe Workfront中的其他系统或其他Workfront页面访问相关信息。
+title: 在功能板中嵌入外部网页
+description: 您可以将外部网页嵌入到功能板中，以提供对Adobe Workfront内其他系统或其他Workfront页面相关信息的访问。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 2%
 
 ---
 
-# 在仪表板中嵌入外部网页
+# 在功能板中嵌入外部网页
 
 <!--Audited: 01/2025-->
 
-可以将外部网页嵌入到仪表板中，以便从其他系统或Adobe Workfront内部访问相关信息。
+您可以将外部网页嵌入到功能板中，以提供对其他系统或Adobe Workfront中相关信息的访问。
 
 例如，如果贵组织有一个基于Web的文档存储库、Wiki或其他内容管理系统，其中包含通过URL定期访问的项目信息，则可以通过在功能板上创建外部页面将该信息显示到Workfront中。
 
@@ -88,15 +90,15 @@ ht-degree: 2%
 
 必须先创建功能板，然后才能在其中嵌入外部页面。
 
-有关创建仪表板的信息，请参阅[创建仪表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)。
+有关创建功能板的信息，请参阅[创建功能板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)。
 
-## 在仪表板中嵌入外部页面
+## 在功能板中嵌入外部页面
 
 >[!IMPORTANT]
 >
->如果不再需要某个外部页面，则可以从仪表板将其删除。 但是，在Workfront中创建外部页面后，便无法删除该页面。 您只能使用API删除外部页面。 有关详细信息，请参阅[从仪表板中删除外部页面](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)。
+>如果不再需要某个外部页面，您可以从功能板中删除该页面。 但是，在Workfront中创建外部页面后，您无法删除该页面。 您只能使用API删除外部页面。 有关详细信息，请参阅[从功能板中删除外部页面](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)。
 
-1. 找到要在Workfront中显示的页面的URL，然后复制位于地址栏中的URL。
+1. 找到要在Workfront中显示的页面的URL，并复制位于地址栏中的URL。
 
    >[!NOTE]
    >
@@ -124,7 +126,7 @@ ht-degree: 2%
      您可以指定以下类型的URL：
 
       * 指向网页的https（加密）URL。\
-        仅使用URL加载https（加密）页面。\
+        只有使用URL加载的https（加密）页面。\
         ![添加外部页面对话框](assets/add-external-page-dialog-qs-350x247.png)
 
       * 包含特定网站会话信息的模板URL。\
@@ -165,8 +167,8 @@ ht-degree: 2%
 1. 在&#x200B;**仪表板详细信息**&#x200B;框的&#x200B;**选择布局/添加报告**&#x200B;区域中，找到要更新的外部页面，将鼠标悬停在其上方，然后单击&#x200B;**编辑**&#x200B;图标。\
    ![内联编辑外部页面](assets/nwe-inline-edit-external-page-350x226.png)
 
-1. 在“**编辑外部页面**”框中，更新要更改的字段，然后单击“**保存**”。
-1. （可选）单击&#x200B;**“删除”**&#x200B;图标![“删除”图标](assets/delete.png)以从仪表板中删除外部页面。 有关详细信息，请参阅[从仪表板中删除外部页面](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)。
+1. 在&#x200B;**编辑外部页面**&#x200B;框中，更新要更改的字段，然后单击&#x200B;**保存**。
+1. （可选）单击&#x200B;**删除**&#x200B;图标![删除图标](assets/delete.png)以从仪表板中删除外部页面。 有关详细信息，请参阅[从功能板中删除外部页面](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)。
 1. 单击&#x200B;**保存+关闭**。
 
 ## 在报表中查看外部页面

@@ -3,31 +3,33 @@ content-type: reference;overview
 product-area: reporting
 navigation-topic: reports-and-dashboards
 title: 报告
-description: 请查阅这些领域以了解Adobe Workfront中的报表。
+description: 请查看这些区域以了解Adobe Workfront中的报表。
 author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: b7117ff8-5353-4766-b982-ba624a484ad1
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 1%
 
 ---
 
-# 报表：文章索引
+# 报告：文章索引
 
 <!-- Audited: 1/2024 -->
 
-本节包含以下小节：
+本节包含以下子部分：
 
-* [报表基础知识：文章索引](../../reports-and-dashboards/reports/reporting/reporting-basics.md)
-* [报表元素概述](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
+* [报告基本信息：文章索引](../../reports-and-dashboards/reports/reporting/reporting-basics.md)
+* [报告元素概述](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
 * [使用内置报告](../../reports-and-dashboards/reports/using-built-in-reports/use-built-in-reports.md)
-* [创建和管理报表](../../reports-and-dashboards/reports/creating-and-managing-reports/create-manage-reports.md)
+* [创建和管理报告](../../reports-and-dashboards/reports/creating-and-managing-reports/create-manage-reports.md)
 * [报表中计算的自定义数据](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
 * [自定义视图、筛选器和分组示例：文章索引](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 * [文本模式资源：文章索引](../../reports-and-dashboards/reports/text-mode/text-mode-resources.md)
-* [报表使用概述](../../reports-and-dashboards/reports/report-usage/report-usage-overview.md)
+* [报告使用情况概述](../../reports-and-dashboards/reports/report-usage/report-usage-overview.md)
 * [日历：文章索引](../../reports-and-dashboards/reports/calendars/calendars.md)
-* [报表的提示、技巧和疑难解答](../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/tips-troubleshooting-reports.md)
+* [报告的提示、技巧和疑难解答](../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/tips-troubleshooting-reports.md)

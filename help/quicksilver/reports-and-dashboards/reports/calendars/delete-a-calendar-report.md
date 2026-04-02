@@ -1,23 +1,25 @@
 ---
 product-area: calendars
 navigation-topic: calendars-navigation-topic
-title: 删除日历报表
-description: 您可以删除您拥有的日历或其他与您共享的日历。 一旦删除，您与其共享日历的用户将无法访问该日历。
+title: 删除日历报告
+description: 您可以删除自己拥有的日历或其他人与您共享的日历。 删除后，与您共享日历的用户将无法访问该日历。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 6208442e-21af-4cd1-ad55-52215bd4d959
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 11%
 
 ---
 
-# 删除日历报表
+# 删除日历报告
 
-您可以删除您拥有的日历或其他与您共享的日历。 一旦删除，您与其共享日历的用户将无法访问该日历。
+您可以删除自己拥有的日历或其他人与您共享的日历。 删除后，与您共享日历的用户将无法访问该日历。
 
-您不能删除默认日历，除非您有现有的替代日历。 如果您尝试删除所有日历，系统会自动为您创建默认日历。
+除非现有替代日历，否则无法删除默认日历。 如果您尝试删除所有日历，系统会自动为您创建默认日历。
 
 ## 访问权限要求
 
@@ -40,24 +42,24 @@ ht-degree: 11%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p> 编辑对报表、功能板和日历的访问权限</p></td> 
+   <td> <p> 编辑对报告、功能板和日历的访问权限</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td>管理对日历报告的访问权限，有权将其删除</td> 
+   <td>管理对日历报告的访问权限，并有权删除它</td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的详细信息，请参阅[Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
 
-## 删除日历报表
+## 删除日历报告
 
 1. 转到要删除的日历。
-1. 单击“日历”下拉菜单旁边的&#x200B;**更多**&#x200B;菜单。
+1. 单击“日历”下拉菜单旁边的&#x200B;**更多**菜单。
    ![日历更多菜单](assets/more-menu-calendar.png)
 
 1. 从下拉列表中选择&#x200B;**[!UICONTROL 删除]**。

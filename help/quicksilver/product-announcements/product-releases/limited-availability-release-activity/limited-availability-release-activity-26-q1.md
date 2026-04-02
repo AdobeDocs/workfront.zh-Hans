@@ -8,13 +8,15 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 387a84c4bf511424a0c15bd65748987c1611cee5
+exl-id: 850576d3-4edb-4942-9f21-065bf941b01c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '473'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
-
 
 # Adobe Workfront有限可用功能的2026年第一季度发布活动
 
@@ -51,7 +53,7 @@ ht-degree: 0%
 
 此部分介绍每周Workfront更新中修复的有限可用性功能问题。
 
-### 2025年11月23日至29日为期一周的维护更新
+### 维护更新：2025 年 11 月 23-29 日当周
 
 从高级工作分配的高级搜索中删除的&#x200B;**小时/约当全职数/百分比**
 
@@ -61,19 +63,20 @@ ht-degree: 0%
 
 当任务持续时间为0时，“高级工作”屏幕上的“已计划小时数”KPI不再可编辑。 以前，您可以编辑计划小时数，但不会保存更改。
 
-### 2025年11月30日至12月6日为期一周的维护更新
+### 维护更新：2025 年 11 月 30 日–12 月 6 日当周
 
 **未使用日期有效汇率时隐藏的“汇率日期”字段**
 
 现在，如果未选中&#x200B;**使用系统中的日期有效汇率**&#x200B;复选框，项目详细信息>财务区域中的&#x200B;**汇率日期**&#x200B;字段会隐藏。 以前，在编辑项目时，即使未启用生效日期的汇率，日期字段也会显示在项目详细信息中。
 
-### 2026年1月4日至10日开始的维护更新周
+### 维护更新：2026 年 1 月 4–10 日当周
 
 **工作角色费率现在允许有效日期存在差距**
 
 工作角色费率的生效日期现在允许存在差异，但不允许日期重叠。 在间隔期间，开单费率层次结构的其他区域用于根据任务的收入类型确定开单费率。
 
-<!--### Maintenance Updates week of January 11-17, 2026
+<!--
+### Maintenance Updates week of January 11-17, 2026
 
 **Title**
 

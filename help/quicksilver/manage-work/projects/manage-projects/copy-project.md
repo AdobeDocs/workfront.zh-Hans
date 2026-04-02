@@ -7,7 +7,9 @@ author: Alina
 feature: Projects, Work Management
 role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 93db334537b5ec12dc0c77d51f8b2d83d8348f3d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 7%
@@ -46,7 +48,7 @@ ht-degree: 7%
 >* 队列设置信息
 >* Portfolio和程序
 >* 记分卡
->* 任务默认信息(任务默认审批流程、任务默认自定义Forms)
+>* 任务默认信息（任务默认审批流程、任务默认自定义Forms）
 >
 > 原始项目的任务日期将复制到新项目中。 您必须更改项目的开始日期或完成日期（取决于其计划模式）以更新任务日期。 任务限制可能会阻止您更改项目的日期。
 
@@ -83,7 +85,8 @@ ht-degree: 7%
 
 +++
 
-<!--Old:
+<!--
+ Old:
  
  <table style="table-layout:auto"> 
  <col> 
@@ -110,7 +113,8 @@ ht-degree: 7%
    <td> <p>View permissions or higher to the project</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 注意事项
 

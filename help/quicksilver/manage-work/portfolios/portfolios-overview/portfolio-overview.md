@@ -7,10 +7,12 @@ description: Portfolio是具有统一特性的项目集合。 这些项目通常
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: b340501e-1190-415e-aa96-5aad177c4b7b
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '587'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -34,7 +36,7 @@ Portfolio或项目Portfolio管理(PPM)是对项目列表进行优先级划分和
 
 <!--leave the table uncollapsed as this article is about access-->
 
-+++ 展开以查看本文中各项功能的访问要求。 
++++ 展开可查看本文所述功能的访问权限要求。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,12 +50,12 @@ Portfolio或项目Portfolio管理(PPM)是对项目列表进行优先级划分和
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>[!UICONTROL 标准版]</p>
-   <p>[!UICONTROL 计划]</p> </td> 
+   <td> <p>[！UICONTROL标准版]</p>
+   <p>[！UICONTROL计划]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[!UICONTROL Edit]对项目组合的访问权限</p>  </td> 
+   <td> <p>[！UICONTROL Edit]对项目组合的访问权限</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
@@ -69,7 +71,8 @@ Portfolio或项目Portfolio管理(PPM)是对项目列表进行优先级划分和
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -97,7 +100,8 @@ Portfolio或项目Portfolio管理(PPM)是对项目列表进行优先级划分和
     </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 了解[!DNL Adobe Workfront]项目组合方法
 
@@ -111,7 +115,7 @@ Portfolio或项目Portfolio管理(PPM)是对项目列表进行优先级划分和
 
    [!UICONTROL 商业案例]包含以下信息：
 
-   * 有关项目的一般信息(描述、Portfolio和项目群分配、项目所有者和发起人)
+   * 有关项目的一般信息（描述、Portfolio和项目群分配、项目所有者和发起人）
    * 项目的目的或目标
    * 估计费用成本
    * 劳力成本的资源预算

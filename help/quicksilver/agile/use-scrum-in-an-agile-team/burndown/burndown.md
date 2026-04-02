@@ -8,7 +8,9 @@ author: Courtney
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 0c3621e2-26e5-4b9f-84cc-967761a3f050
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '47'
 ht-degree: 4%
@@ -19,8 +21,8 @@ ht-degree: 4%
 
 本节包含以下文章：
 
-* [敏捷燃尽图概述](../../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)
+* [Agile燃尽图概述](../../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)
 * [迭代完成状态概述](../../../agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md)
-* [调整燃尽图的大小并折叠](../../../agile/use-scrum-in-an-agile-team/burndown/resize-collapse-burndown-chart.md)
+* [调整燃尽图表的大小并折叠该图表](../../../agile/use-scrum-in-an-agile-team/burndown/resize-collapse-burndown-chart.md)
 * [同步燃尽图中的数据](../../../agile/use-scrum-in-an-agile-team/burndown/sync-the-burndown-chart.md)
-* [对燃尽图使用备用团队计划](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)
+* [将备用组计划用于燃尽图](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)

@@ -8,10 +8,12 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2213'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -40,9 +42,9 @@ ht-degree: 2%
 >
 >有关一次性审批流程的信息，请参阅[审批流程概述](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md)和[将新的或现有的审批流程与工作关联](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -75,7 +77,8 @@ ht-degree: 2%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -101,7 +104,8 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 
 ## 为工作项创建系统级或组级全局审批流程
@@ -114,7 +118,8 @@ For more detail about the information in this table, see [Access requirements in
 
    如果要创建组级审批流程，请单击&#x200B;**组** ![组图标](assets/groups-icon.png)，单击组的名称，然后单击&#x200B;**审批**。
 
-   <!--hidden for the new tab redesign - August 2023: 
+   <!--
+   hidden for the new tab redesign - August 2023: 
    ![Approvals area in setup](assets/approvals-area-in-setup-processes.png)
    -->
 
@@ -214,7 +219,7 @@ For more detail about the information in this table, see [Access requirements in
       <td role="rowheader">选择批准被拒绝时发生的情况</p> </td> 
       <td> <p>选择当工作项在路径的任何阶段被拒绝时要执行的操作：</p> 
        <ul> 
-       <li><b>创建问题</b>：（仅适用于项目和任务审批流程）在运行审批流程的项目或任务中创建问题。 任务的默认已分配资源，或项目的所有者已分配给问题。 默认情况下，所创建问题的名称为<b>已拒绝审批（&lt;项目或任务名称&gt;）</b>。 这是一个拒绝问题，在任务或项目下输入，具体取决于发生拒绝的审批流程。</li> 
+       <li><b>创建问题</b>：（仅适用于项目和任务审批流程）在运行审批流程的项目或任务中创建问题。 任务的默认已分配资源，或项目的所有者已分配给问题。 默认情况下，创建的问题名称为<b>已拒绝审批（&lt;项目或任务名称&gt;）</b>。 这是一个拒绝问题，在任务或项目下输入，具体取决于发生拒绝的审批流程。</li> 
        <li> <p><b>将状态设置为</b>：选择下列选项之一：</p> 
        <ul> 
        <li><b>以前的状态</b>：被拒绝的项目、任务或问题恢复到激活审批流程状态之前的状态。</li> 

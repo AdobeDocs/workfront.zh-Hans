@@ -6,20 +6,22 @@ description: 您可以从列表或报告视图将任何任务或问题添加到A
 author: Courtney
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 4%
 
 ---
 
-# 将现有任务或问题添加到[!DNL Workfront]展示板
+# 将现有任务或问题添加到[!DNL Workfront]讨论区
 
 >[!IMPORTANT]
 >
 >工作流仅适用于特定的客户组。
 
-您可以从列表、报表视图或对象详细信息将任何任务或问题添加到[!DNL Adobe Workfront]中的展示板或工作流中。
+您可以从列表或报告视图或对象详细信息将任何任务或问题添加到[!DNL Adobe Workfront]中的展示板或工作流。
 
 ## 访问权限要求
 
@@ -42,16 +44,16 @@ ht-degree: 4%
   </tr>
   <tr>
    <td role="rowheader">对象权限</td>
-   <td>查看任务或问题的更高权限 </td>
+   <td>查看任务或问题的权限或更高 </td>
   </tr>
  </tbody>
 </table>
 
-有关此表中信息的详细信息，请参阅[Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
-## 从列表向展示板或工作流添加现有任务或问题
+## 将现有任务或问题从列表添加到展示板或工作流
 
 {{step1-click-main-menu}}
 
@@ -68,7 +70,7 @@ ht-degree: 4%
 
 1. 单击&#x200B;[!UICONTROL **添加**]。
 
-   对于展示板：任务或问题将作为信息卡添加到展示板。 如果主板应用了列策略来获取状态，则卡会添加到与其状态对应的列中。 否则，它将出现在左边的第一列中，但不包括进气列。
+   对于展示板：任务或问题将作为信息卡添加到展示板。 如果展示板应用了状态的列策略，则会将该卡添加到与其状态对应的列中。 否则，它将显示在左侧的第一列中，不包括引入列。
 
    有关列策略的信息，请参阅[管理展示板列](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)。
 
@@ -84,11 +86,11 @@ ht-degree: 4%
 1. 单击对象名称旁边的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单，然后选择&#x200B;[!UICONTROL **添加到展示板**]&#x200B;或&#x200B;[!UICONTROL **添加到工作流**]。
 1. 在[!UICONTROL 添加到]对话框中，选择要将项目添加到的展示板或工作流。
 
-   对于展示板，只能使用独立展示板，不能使用属于工作流的主板。
+   对于展示板，仅提供独立展示板，而不能提供属于工作流的展示板。
 
 1. 单击&#x200B;[!UICONTROL **添加**]。
 
-   对于展示板：任务或问题将作为信息卡添加到展示板。 如果主板应用了列策略来获取状态，则卡会添加到与其状态对应的列中。 否则，它将出现在左边的第一列中，但不包括进气列。
+   对于展示板：任务或问题将作为信息卡添加到展示板。 如果展示板应用了状态的列策略，则会将该卡添加到与其状态对应的列中。 否则，它将显示在左侧的第一列中，不包括引入列。
 
    有关列策略的信息，请参阅[管理展示板列](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)。
 
@@ -101,8 +103,8 @@ ht-degree: 4%
 有关视图的信息，请参阅[在Adobe Workfront中创建或编辑视图](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md)。
 1. 单击列中的&#x200B;[!UICONTROL **显示**]&#x200B;以显示任务或问题所在讨论区列表。
 
-   ![在列中显示展示板](assets/show-boards-in-column.png)
+   ![在列](assets/show-boards-in-column.png)中显示讨论区
 
-1. 单击展示板名称以打开展示板上的已连接任务或问题。
+1. 单击展示板名称以打开展示板上连接的任务或问题。
 
-   ![选择展示板](assets/select-board-in-column.png)
+   ![选择讨论区](assets/select-board-in-column.png)

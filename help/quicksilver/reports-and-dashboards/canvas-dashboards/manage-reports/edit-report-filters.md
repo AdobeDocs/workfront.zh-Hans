@@ -1,31 +1,33 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: 在画布仪表板中编辑报告过滤器
-description: 在将报告过滤器应用于画布仪表板后，您可以编辑这些过滤器。
+title: 在画布功能板中编辑报告过滤器
+description: 将报告过滤器应用于画布功能板后，即可编辑这些过滤器。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5205c342-7f63-438e-97c8-e74f7dfecfd0
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 10%
 
 ---
 
-# 在画布仪表板中编辑报告过滤器
+# 在画布功能板中编辑报告过滤器
 
 >[!IMPORTANT]
 >
->“画布面板”功能目前仅适用于参与Beta版阶段的用户。 在此阶段，该功能的某些部分可能无法完成或按预期工作。 请按照“画布仪表板Beta版概述”文章中[提供反馈](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)部分的说明提交有关您的体验的任何反馈。<br>
+>画布功能板目前仅适用于参与Beta测试阶段的用户。 在此阶段，部分功能可能无法完成或无法按预期工作。 请按照“画布功能板测试版”概述文章中[提供反馈](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)部分的说明提交任何有关您体验的反馈。<br>
 >如果您对可能的错误或技术问题有反馈，请向Workfront支持提交票证。 有关详细信息，请参阅[联系客户支持](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
->请注意，以下Cloud提供商无此Beta版可用：
+>请注意，以下云提供商未提供此测试版：
 >
->* 为Amazon Web Services自带密钥
->* 蔚蓝色
+>* 自带Amazon Web Services密钥
+>* Azure
 >* Google Cloud Platform
 
-将报告过滤器应用于画布面板后，您可以编辑这些过滤器，以更新随项目进展显示的数据。
+将报表过滤器应用于画布功能板后，即可编辑这些报表过滤器，以更新随着项目进展而显示的数据。
 
 ## 访问要求
 
@@ -53,7 +55,7 @@ ht-degree: 10%
   </tr> 
   <tr> 
    <td role="rowheader"><p>访问级别配置</p></td> 
-   <td><p>对报告、仪表板和日历的编辑访问权限</p>
+   <td><p>编辑对报告、功能板和日历的访问权限</p>
   </td> 
   </tr>  
         <tr> 
@@ -116,7 +118,7 @@ ht-degree: 10%
  <tbody> 
   <tr valign="top"> 
    <td width="100" role="rowheader"> <p><strong>$$今天</strong> </p> </td> 
-   <td> <p>我们建议您使用此通配符构建区分日期的滤镜，以避免在明天、下周或下个月再次构建滤镜。</p> <p>例如，如果要显示今天之前到期的所有任务，可以在任务筛选器中使用以下规则： <em>计划开始日期小于$$TODAY</em>。</p> <p>$$TODAY始终等于当天的午夜。</p> </td> 
+   <td> <p>我们建议您使用此通配符构建日期敏感型过滤器，以避免在明天、下周或下个月再次构建过滤器。</p> <p>例如，如果要显示今天之前到期的所有任务，可以在任务筛选器中使用以下规则： <em>计划开始日期小于$$TODAY</em>。</p> <p>$$TODAY始终等于当天的午夜。</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td width="100" role="rowheader"> <p><strong>$$NOW</strong> </p> </td> 
@@ -132,31 +134,31 @@ ht-degree: 10%
 | **q** | 日历季度 |
 | **小时** | 小时 |
 | **天** | 天 |
-| **宽** | 周 |
-| **米** | 月 |
+| **w** | 周 |
+| **分钟** | 月 |
 | **y** | 年 |
 
 {style="table-layout:auto"}
 
 | **限定符** | |
 |---|---|
-| **b** | 时段开始（没有指定属性，默认为周初：星期日） |
-| **e** | 期间的结束时间（没有指定属性，默认为星期六：星期六） |
+| **b** | 期间开始（没有指定属性，默认为一周的开始：星期日） |
+| **e** | 期间结束（没有指定属性，默认为一周的结束：星期六） |
 
 {style="table-layout:auto"}
 
-| **运算符** | |
+| **操作员** | |
 |---|---|
-| **+** | 将值添加到通配符值 |
+| **+** | 向通配符值添加值 |
 | **-** | 从通配符值中减去值 |
 
 {style="table-layout:auto"}
 
-例如，通配符`$$TODAYb+2w`引用“从本周初开始2周”。 通配符*`$$NOW+2h`引用“2小时以后”。
+例如，通配符`$$TODAYb+2w`引用“从本周开始的2周”。 通配符*`$$NOW+2h`表示“从现在起的2小时”。
 
-### 登录的用户通配符筛选器变量
+### 登录用户通配符筛选器变量
 
-* 筛选用户`name`属性时，您将查看&#x200B;**Me（已登录用户）**&#x200B;选项。
+* 筛选用户`name`属性时，您将查看&#x200B;**我（已登录的用户）**&#x200B;选项。
 
   ![用户名属性](assets/user-name-attribute.png)
 
@@ -231,8 +233,8 @@ ht-degree: 10%
         <td></td>
     </tr>
     <tr>
-        <td>整数/双</td>
-             <td>项目：计划工时
+        <td>整数/双精度</td>
+             <td>项目：计划小时数
         <br>任务：完成百分比</td>
               <td><ul>
         <li>等于</li>
@@ -247,14 +249,14 @@ ht-degree: 10%
         <td></td>
     </tr>
        <tr>
-        <td> 日期/日期和时间 </td>
-                    <td>项目：计划起始日期
+        <td> 日期/日期时间 </td>
+                    <td>项目：计划开始日期
         <br>小时：输入日期</td>
               <td><ul>
         <li>等于</li>
         <li>不等于</li>
         </ul></td>
-        <td>通过切换<b>设置相对日期</b>选项，可以应用相对日期通配符，使报表更动态，并根据常用日期期间进行自我调整。 
+        <td>通过切换<b>设置相对日期</b>选项，您可以应用相对日期通配符，使报表更动态，并根据常见的日期时段进行自我调整。 
          <ul><li>$$今天</li>
          <li>$$NOW</li>
          </ul>
@@ -262,7 +264,7 @@ ht-degree: 10%
     </tr>
        <tr>
         <td>布尔值 </td>
-                  <td>项目：包含文档
+                  <td>项目：具有文档
         <br>任务：关键
         <br>用户：处于活动状态</td>
         <td><ul>

@@ -6,7 +6,9 @@ description: 在文本模式下使用条件格式
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1734'
 ht-degree: 2%
@@ -17,10 +19,10 @@ ht-degree: 2%
 
 <!--Audited: 01/2025-->
 
-在创建报告元素时，标准界面生成器提供了广泛的灵活性以满足您组织的需求。
+在创建报表元素时，标准界面生成器提供了大量灵活性以满足贵组织的需求。
 
-通过使用标准界面，可以在视图中应用条件格式。\
-有关对视图应用条件格式设置的详细信息，请参阅[在视图中使用条件格式](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)。
+您可以使用标准界面在视图中应用条件格式。\
+有关将条件格式应用于视图的详细信息，请参阅[在视图中使用条件格式](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)。
 
 ## 访问权限要求
 
@@ -43,20 +45,20 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>对筛选器、视图、组的编辑访问权限</p> <p>编辑对报告、功能板和日历的访问权限以编辑报告中的视图</p> </td> 
+   <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报告、功能板和日历的访问权限以编辑报告中的视图</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理报表的权限以编辑报表中的视图</p> <p>管理对视图的权限以对其进行编辑</p> </td> 
+   <td> <p>管理对报告的权限以编辑报告中的视图</p> <p>管理视图的权限以编辑它</p> </td> 
   </tr>
  </tbody> 
 </table>
 
-有关此表中的信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
-## 文本模式下的条件格式
+## 文本模式中的条件格式
 
 文本模式允许您使用标准界面中不可用的字段，从而创建更复杂的视图、筛选器、分组和提示。
 
@@ -64,11 +66,11 @@ ht-degree: 2%
 
 有关使用文本模式语法的详细信息，请参阅[文本模式语法概述](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)。
 
-您还可以使用文本模式来设置报表和列表中视图的格式。 使用条件格式设置，可以通过更改报表中结果的字体类型和背景以及图标和标志来更改报表的视图。 我们建议您始终先使用标准界面构建视图，并在绝对必要时才切换到文本模式界面。
+也可以使用文本模式设置报告和列表中的视图格式。 使用条件格式，您可以通过更改报表中结果的字体类型和背景以及图标和标志来更改报表的视图。 我们建议您始终首先使用标准界面构建视图，并且仅在绝对必要时才切换到文本模式界面。
 
 >[!NOTE]
 >
-> 不支持使用CSS样式自定义条件格式。 相反，您必须使用Adobe Workfront中提供的预先设计的格式选项。
+> 不支持使用CSS样式来自定义条件格式。 相反，您必须使用Adobe Workfront中提供的预先设计的格式选项。
 
 ## 向视图添加条件格式
 
@@ -81,8 +83,8 @@ ht-degree: 2%
 1. 单击&#x200B;**自定义视图**。
 1. 单击要应用条件格式化的视图中的列。
 1. 单击&#x200B;**切换到文本模式**。
-1. 在&#x200B;**显示在此列**&#x200B;区域中，单击&#x200B;**单击以编辑文本**。
-1. 在所选列的文本底部，添加在[使用文本模式设置视图格式](#format-views-using-text-mode)中提供的代码示例。
+1. 在&#x200B;**显示在此列：**&#x200B;区域中，单击&#x200B;**单击以编辑文本**。
+1. 在所选列的文本底部添加在[使用文本模式](#format-views-using-text-mode)设置视图格式中提供的代码示例。
 1. 单击&#x200B;**保存**，然后单击&#x200B;**保存视图**。
 
 ## 使用文本模式设置视图格式 {#format-views-using-text-mode}
@@ -95,9 +97,9 @@ ht-degree: 2%
 
 ### 列设置 {#column-settings}
 
-您必须先熟悉文本模式界面，然后才能向视图添加条件格式。
+您必须熟悉文本模式界面，然后才能向视图添加条件格式。
 
-在视图中使用条件格式时，可以自定义列的以下元素：
+在视图中使用条件格式时，您可以自定义列的以下元素：
 
 * [列标题](#column-headers)
 * [设置日期格式](#format-dates)
@@ -105,15 +107,15 @@ ht-degree: 2%
 
 #### 列标题 {#column-headers}
 
-若要更改显示的列标题，请将以下代码添加到列： `displayname= [Name of column]`。 例如，要将列命名为“项目所有者”，文本代码如下所示：
+要更改显示的列标题，请将以下代码添加到列： `displayname= [Name of column]`。 例如，要将列命名为“项目所有者”，文本代码如下所示：
 
 `displayname=Project Owner`
 
 #### 设置日期格式 {#format-dates}
 
-可以将日期配置为以各种格式显示。
+日期可以配置为以各种格式显示。
 
-有关详细信息，请参阅[设置文本模式报表中的日期格式](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md)。
+有关详细信息，请参阅[文本模式报表中的日期格式](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md)。
 
 #### 设置数字格式 {#format-numbers}
 
@@ -133,11 +135,11 @@ ht-degree: 2%
 
 #### 条件格式化 {#conditional-formatting}
 
-在合并颜色或格式文本时，必须应用特定的文本模式语句。
+在合并颜色或设置文本格式时，必须应用特定的文本模式语句。
 
 >[!NOTE]
 >
->合并列可能不支持条件格式。\
+>合并的列可能不支持条件格式。\
 >有关使用文本模式合并列的详细信息，请参阅[视图：合并一个共享列中多个列的信息](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md)。
 
 在要添加条件格式的任何列中插入以下代码：
@@ -156,13 +158,13 @@ styledef.case.0.comparison.trueproperty.0.value= [format style]
 
 >[!NOTE]
 >
->`styledef.case.0.comparison.icon`行始终为False，除非使用图标。
+>除非使用图标，否则`styledef.case.0.comparison.icon`行始终为false。
 >
 >在处理覆盖文本之前，`styledef.case.0.comparison.truetext`行始终留空。
 >
 >当限定符不为空时，`styledef.case.0.comparison.righttext`行为空。
 
-例如，如果要在项目报告中以绿色文本显示公司名称，您可以使用以下代码：
+例如，如果我们想在项目报告中以绿色文本显示公司名称，您可以使用以下代码：
 
 ```
 styledef.case.0.comparison.leftmethod=company:name
@@ -179,14 +181,14 @@ styledef.case.0.comparison.trueproperty.0.value=03a219
 >[!NOTE]
 >
 >* 虽然此语句可以应用于“公司名称”列，但它也可以应用于报表上的任何其他列。 仅当项目具有关联的公司时，才会显示绿色文本。 请记住`[field name]`、`[value]`和`[qualifier]`驱动器，无论条件是否最终显示在列上。
->* 在使用限定符时，我们建议使用`cicontains`而不是`equal`。 默认情况下，`equal`查找ID号。 使用`cicontains`限定符，您可以按项目的名称访问这些项目。
+>* 在使用限定符时，我们建议使用`cicontains`而不是`equal`。 默认情况下，`equal`会查找ID号。 使用`cicontains`限定符，您可以按其名称访问项目。
 
 ![文本模式示例](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png){width="500"}
 
 
 ![文本模式示例结果](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png){width="400"}
 
-无论文本颜色、对齐方式、字体样式或背景颜色应用于文本模式，均使用相同的语句（如上所示）。
+无论文本颜色、对齐方式、字体样式还是背景颜色应用于文本模式，都会使用相同的语句（如上所示）。
 
 必须修改以下行以反映列所需的相应格式：
 
@@ -238,11 +240,11 @@ styledef.case.0.comparison.trueproperty.0.value= [format style]
 
 {style="table-layout:auto"}
 
-#### 多种条件格式 {#multiple-conditional-formats}
+#### 多个条件格式 {#multiple-conditional-formats}
 
-可以对语句应用多个格式样式。 核心语句将保持不变，并且将在语句中添加任何其他格式表达式。
+您可以对语句应用多个格式样式。 核心语句将保持不变，并将任何其他格式表达式添加到该语句中。
 
-例如，使用较早的语句在绿色粗体文本中包含公司名称。 该语句将使用以下代码编写：
+例如，使用以前的语句以绿色粗体文本包括公司名称。 语句将使用以下代码编写：
 
 ```
 styledef.case.0.comparison.leftmethod=company:name
@@ -295,7 +297,7 @@ styledef.case.0.comparison.truetext=not today
 
 #### 应用行格式 {#apply-row-formats}
 
-如果要将条件应用于整行，请将以下代码与列代码结合使用：
+如果要将条件应用于整行，请使用以下代码和列代码：
 
 ```
 styledef.case.0.comparison.icon=false
@@ -349,7 +351,7 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 
 >[!NOTE]
 >
->请注意，该语句使用`icon=true`表达式。 此语句与其他条件格式语句的不同之处在于，它不使用`style.def`格式，而是使用唯一的图像格式。
+>请注意，语句使用`icon=true`表达式。 此语句与其他条件格式语句的不同之处在于，它不使用`style.def`格式，而是使用唯一的图像格式。
 
 ![图标文本模式](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png){width="500"}
 
@@ -359,18 +361,18 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 
 | **图标** | **行： image.case.0.comparison.truetext=** |
 |---|---|
-| 皱眉的脸![皱眉的脸](assets/face-sad.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif` |
-| 快乐的面孔![快乐的面孔](assets/face-happy.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif` |
+| 皱眉脸![皱眉脸](assets/face-sad.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif` |
+| 快乐的脸![快乐的脸](assets/face-happy.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif` |
 | 蓝色标志![蓝色标志](assets/flag-blue-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_blue.gif` |
 | 绿色标志![绿色标志](assets/flag-green-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_green.gif` |
 | 红色标志![红色标志](assets/flag-red-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_red.gif` |
 | 黄色标志![黄色标志](assets/flag-yellow-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif` |
-| 黑圈![黑圈](assets/dot-black.png) | =`/interface/images/v4_redux/icons/casebuilder/light_black.gif` |
+| 黑色圆圈![黑色圆圈](assets/dot-black.png) | =`/interface/images/v4_redux/icons/casebuilder/light_black.gif` |
 | 蓝色圆圈![蓝色圆圈](assets/dot-blue.png) | =`/interface/images/v4_redux/icons/casebuilder/light_blue.gif` |
 | 灰色圆圈![灰色圆圈](assets/dot-gray.png) | =`/interface/images/v4_redux/icons/casebuilder/light_grey.gif` |
 | 绿色圆圈![绿色圆圈](assets/dot-green.png) | =`/interface/images/v4_redux/icons/casebuilder/light_green.gif` |
 | 橙色圆圈![橙色圆圈](assets/dot-orange.png) | =`/interface/images/v4_redux/icons/casebuilder/light_orange.gif` |
-| 粉色圆圈![粉色圆圈](assets/dot-pink.png) | =`/interface/images/v4_redux/icons/casebuilder/light_pink.gif` |
+| 粉红色圆圈![粉红色圆圈](assets/dot-pink.png) | =`/interface/images/v4_redux/icons/casebuilder/light_pink.gif` |
 | 紫色圆圈![紫色圆圈](assets/dot-purple.png) | =`/interface/images/v4_redux/icons/casebuilder/light_purple.gif` |
 | 红色圆圈![红色圆圈](assets/dot-red.png) | =`/interface/images/v4_redux/icons/casebuilder/light_red.gif` |
 | 白色圆圈![白色圆圈](assets/dot-white.png) | =`/interface/images/v4_redux/icons/casebuilder/light_white.gif` |
@@ -380,11 +382,11 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 
 ### 有条件地设置`valueexpression`的格式 {#conditionally-format-a-valueexpression}
 
-若要在列中显示计算值，可以将列中的`valuefield`行代码替换为`valueexpression`。 计算值允许您根据同一对象上两个现有字段之间的计算来显示对象的新值。
+要在列中显示计算值，可将列中的`valuefield`行代码替换为`valueexpression`。 计算值允许您根据同一对象上两个现有字段之间的计算来显示对象的新值。
 
 有关如何设置`valueexpression line`格式的更多信息，请参阅[文本模式语法概述](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)。
 
-不能有条件地设置包含`valueexpression`行代码的列的格式。 相反，您可以将计算自定义字段添加到自定义表单，并将其与报表中显示的对象相关联。 然后，您可以有条件地设置显示此字段的列的格式。
+不能有条件地格式化包含`valueexpression`行代码的列。 而是可以将计算自定义字段添加到自定义表单，并将其与报表中显示的对象相关联。 然后，您可以有条件地格式化显示此字段的列。
 
 有关计算自定义字段的详细信息，请参阅[将计算字段添加到表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)。
 
@@ -400,8 +402,8 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
    * 日期
    * 货币
 
-* 您可以将聚合器添加到显示计算的列。 聚合值将显示在视图或报表的分组中。 有关详细信息，请参阅[分组：显示分组中多个计算值的聚合结果](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md)。
-* 列定义的代码行必须与引入聚合器的代码行相同，并且前面必须有“聚合器”。 例如，如果有一个列，其中显示项目的“计划小时数”，则该列的主行的文本模式为：
+* 您可以将聚合器添加到显示计算的列中。 聚合的值显示在视图或报表的分组中。 有关详细信息，请参阅[分组：显示分组](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md)中多个计算值的聚合结果。
+* 用于定义列的代码行必须与引入聚合器的代码行相同，并且前面必须加上“聚合”。 例如，如果您有一列在项目中显示计划小时数，则该列主行的文本模式为：
 
 ```
   valuefield=workRequired
@@ -416,4 +418,4 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 
 `aggregator.function=SUM` （这是指示您希望如何聚合列的强制行，在这种情况下，您希望将所有单独的计划小时数添加到分组行中的一个数字）
 
-`aggregator.displayformat=minutesAsHoursString` (因为小时存储在Workfront中以分钟为单位，因此我们希望在小时以分钟为单位存储时指示`displayformat`)
+`aggregator.displayformat=minutesAsHoursString` （因为小时数在Workfront中以分钟为单位存储，所以我们希望在`displayformat`以分钟为单位存储时表示该小时数）
