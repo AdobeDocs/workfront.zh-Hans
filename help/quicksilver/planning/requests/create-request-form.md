@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '3568'
+source-wordcount: '3602'
 ht-degree: 1%
 
 ---
@@ -107,7 +107,7 @@ ht-degree: 1%
 
 ### 开始创建请求表单
 
-您可以从与表单<!--span class="preview">, or from the Requests area of Workfront.</span>-->关联的记录类型创建请求表单。
+您可以从与表单<!--<span class="preview"> or from the Requests area of Workfront</span>-->关联的记录类型创建请求表单。
 
 #### 根据记录类型创建请求表单
 
@@ -162,8 +162,6 @@ ht-degree: 1%
 
    The request form for the selected record type opens in the Form tab.
 1. Continue to [Set up details for the request form](#set-up-details-for-the-request-form).
-
-
 
 </div>
 
@@ -416,7 +414,19 @@ For information on creating automations in other areas of Workfront Planning, se
 
 1. 单击页眉中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**管理请求表单**。
 
-   与记录类型关联的所有请求表单都会显示在表格视图中。
+   **请求表单**&#x200B;页面打开，所有与记录类型关联的请求表单都显示在表视图中。
+1. （可选）更新&#x200B;**请求表单**&#x200B;页面中的以下视图元素，以更改信息在表中的显示方式：
+
+   * 列
+
+   <!--
+   <div class="preview">
+   * Grouping <!-ensure they will change the label by Prod->
+   * Row height
+   </div>
+   -->
+
+   有关详细信息，请参阅[管理列表视图](/help/quicksilver/planning/views/manage-the-list-view.md)。
 
 1. （可选）将鼠标悬停在表视图中请求表单的名称上，然后单击表单名称右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击以下任一项：
 
@@ -425,6 +435,8 @@ For information on creating automations in other areas of Workfront Planning, se
    * **共享**：单击此项可修改谁有权访问该表单。
    * **复制链接**：单击此项可快速复制请求表单的链接，而无需打开表单。
    * **删除**：单击此项可删除表单。 使用该表单添加的所有请求和记录都不会被删除。 无法恢复表单。
+
+   <!--update screen shot at preview:-->
 
    来自请求表单列表的请求表单上的![更多菜单](assets/more-menu-on-request-form-from-request-forms-list.png)
 

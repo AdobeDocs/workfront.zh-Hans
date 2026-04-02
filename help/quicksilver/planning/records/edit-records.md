@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '2961'
+source-wordcount: '2978'
 ht-degree: 0%
 
 ---
@@ -191,6 +191,8 @@ Old:
 1. （视情况而定）单击表视图的选项卡或单击&#x200B;**+视图**&#x200B;以创建表视图。 表格视图应为默认视图，除非您在上次访问记录类型时已在其他类型的视图中查看了该记录类型。
 
    与所选记录类型关联的记录将显示在表格视图中。
+1. （可选）单击搜索框并添加关键字以查找要编辑的记录。
+
 1. 单击记录行内部以开始编辑有关内联记录的信息。
 
    ![使用格式化表格视图编辑记录段落字段](assets/edit-record-paragraph-field-with-formatting-table-view.png)

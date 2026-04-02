@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1018'
 ht-degree: 3%
 
 ---
@@ -105,7 +105,7 @@ ht-degree: 3%
 * 状态
 * 项目
 
-有关详细信息，请参阅[在优先级](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)中筛选您的工作并将其分组。
+有关详细信息，请参阅[按优先级筛选、分组和排序您的工作](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)。
 
 ### 使用“我的焦点”安排重要工作项的优先级
 

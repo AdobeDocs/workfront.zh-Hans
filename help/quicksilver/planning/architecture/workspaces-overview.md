@@ -6,14 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
 
 # 工作区概述
+
+<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -30,8 +34,11 @@ ht-degree: 0%
 
    * 从头开始
    * 使用模板。 模板包含预配置的记录类型及其字段。
+   * 使用AI支持的规划Designer。 此功能当前位于Beta中。
+   * <span class="preview">使用多工作区模板包。</span>
 
   有关信息，请参阅[创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md)。
+
 * 工作区是组织单位（团队、组、部门或分部）工作所在的框架。 它们不能与字段相关联。 只有工作区中的记录类型可以与字段相关联。
 
   有关信息，请参阅[记录类型概述](/help/quicksilver/planning/architecture/overview-of-record-types.md)。

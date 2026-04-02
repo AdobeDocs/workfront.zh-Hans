@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '803'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 本页介绍了在2025年第一季度版本中对“预览”环境所做的所有“优先级”增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2025年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2025年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
+有关2025年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2025年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
 
 ## 优先级增强概述
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 仅适用于启用IMS的实例。
 
-有关详细信息，请参阅[筛选并按优先级对您的工作进行分组](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)。
+有关详细信息，请参阅[按优先级筛选、分组和排序您的工作](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)。
 
 ## 在优先级中赶超工作
 
@@ -120,7 +120,7 @@ ht-degree: 0%
 * 对分组中的项目排序
 * 按“我的优先级”或“状态”分组时拖放项目
 
-有关详细信息，请参阅[筛选并按优先级对您的工作进行分组](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)。
+有关详细信息，请参阅[按优先级筛选、分组和排序您的工作](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)。
 
 ### 已移除
 

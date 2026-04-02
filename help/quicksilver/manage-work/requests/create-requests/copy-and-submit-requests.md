@@ -8,9 +8,9 @@ topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '1529'
+source-wordcount: '1615'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,9 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 包</td> 
-   <td> <p>“任一” </p> </td> 
+   <td> <p>任何Workfront或工作流包</p>
+
+<p>用于复制和提交Planning请求的任何Workfront Planning包 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -46,10 +48,12 @@ ht-degree: 3%
    <td role="rowheader">对象权限</td> 
    <td><p>将请求添加到请求队列的权限</p> <p>查看现有请求或更高权限</p> <p>有关设置请求队列的信息，请参阅<a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">创建请求队列</a>。 </p> </td> 
   </tr>
+  <!--
   <tr> 
-   <td role="rowheader"> 产品</td> 
-   <td> <ul><li>Adobe Workfront</li><li>您必须拥有Adobe Workfront Planning才能查看Planning请求或请求表单</td> 
+   <td role="rowheader"> Product</td> 
+   <td> <ul><li>Adobe Workfront</li><li>You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
   </tr> 
+  -->
  </tbody> 
 </table>
 
@@ -60,6 +64,11 @@ ht-degree: 3%
 ## 先决条件
 
 您必须有一个请求，您或您组织中的某人之前已提交该请求，然后才能复制并重新提交。 如果请求属于其他人，则您必须至少具有查看该请求的权限，才能将其复制并作为新请求提交。
+
+您可以复制并重新提交以下请求类型之一：
+
+* Workfront请求，已提交到请求队列
+* 如果您的公司购买了Workfront计划包，则向计划请求表单提交计划请求。
 
 ## 关于复制请求并将其提交为新请求的注意事项
 
@@ -94,7 +103,51 @@ ht-degree: 3%
   >
   >复制的请求未链接到解析对象。
 
+## 在新的请求体验中复制并提交请求
+
+您可以在Workfront的请求区域或主页的“我的请求”小组件中复制并提交请求。
+
+1. 执行下列操作之一：
+
+   {{step1-to-requests}}
+
+   1. 要在&#x200B;**主页**&#x200B;中访问&#x200B;**我的请求**&#x200B;小组件，请执行以下操作：
+
+   {{step1-to-home}}
+
+   1. 找到&#x200B;**我的请求**&#x200B;构件。
+
+      有关“我的请求”小组件的详细信息，请参阅[使用我的请求](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)。
+
+1. 在&#x200B;**请求**&#x200B;列表或主页中的&#x200B;**我的请求**&#x200B;构件中，将鼠标悬停在要复制的请求上，然后单击其名称旁边的&#x200B;**更多**&#x200B;菜单。
+
+   ![更多菜单](assets/more-menu.png)
+
+1. 单击&#x200B;**复制**
+
+   或
+
+   右键单击所选请求，然后单击&#x200B;**复制**。
+
+   >[!TIP]
+   >
+   >当您无权创建问题时，您会收到一则警告，指出管理员限制您创建请求。
+
+1. （可选）更新复制请求中的任何信息。 可用字段取决于用于请求的请求队列或请求表单。
+
+   在复制的请求中输入或更改任何字段值时，该请求将另存为草稿。
+
+1. 单击&#x200B;**提交**。
+
+   复制的请求将作为新请求提交。
+
+   不会复制来自原始请求的解析对象。
+
+   当您复制并重新提交Planning请求时，它会为与原始请求表单关联的记录类型创建另一条记录。
+
 ## 在旧版请求体验中复制并提交请求
+
+如果贵公司购买了Workfront Planning包，则无法在旧版请求体验中复制和提交Planning请求。
 
 {{step1-to-requests}}
 
@@ -224,42 +277,6 @@ ht-degree: 3%
 
    复制的请求将作为新请求提交到您指定的请求队列中。
 
-## 在新的请求体验中复制并提交请求
 
-您可以在Workfront的请求区域或主页的“我的请求”小组件中复制并提交请求。
-
-1. 执行下列操作之一：
-
-   {{step1-to-requests}}
-
-   1. 要在&#x200B;**主页**&#x200B;中访问&#x200B;**我的请求**&#x200B;小组件，请执行以下操作：
-
-   {{step1-to-home}}
-
-   1. 找到&#x200B;**我的请求**&#x200B;构件。
-
-      有关“我的请求”小组件的详细信息，请参阅[使用我的请求](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)。
-
-1. 在&#x200B;**请求**&#x200B;列表或主页中的&#x200B;**我的请求**&#x200B;构件中，将鼠标悬停在要复制的请求上，然后单击其名称旁边的&#x200B;**更多**&#x200B;菜单。
-
-   ![更多菜单](assets/more-menu.png)
-
-1. 单击&#x200B;**复制**
-
-   或
-
-   右键单击所选请求，然后单击&#x200B;**复制**。
-
-   >[!TIP]
-   >
-   >当您无权创建问题时，您会收到一则警告，指出管理员限制您创建请求。
-
-1. （可选）更新复制请求中的任何信息。 可用字段取决于用于请求的请求队列或请求表单。
-
-   在复制的请求中输入或更改任何字段值时，该请求将另存为草稿。
-
-1. 单击&#x200B;**提交**。
-
-   复制的请求将作为新请求提交。
 
 

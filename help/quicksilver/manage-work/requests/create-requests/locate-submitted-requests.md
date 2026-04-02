@@ -10,10 +10,10 @@ role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 2%
+source-wordcount: '1441'
+ht-degree: 3%
 
 ---
 
@@ -23,13 +23,9 @@ ht-degree: 2%
 Remove production and preview references at release
 -->
 
-<!--
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
--->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 您可以查看自己或其他人提交的请求，或者查看您已开始但从未完成提交的请求。 未完成的请求将另存为草稿。
 
@@ -47,7 +43,7 @@ Remove production and preview references at release
   >
   >* 您只能查看自己的草稿请求。
   >* 在新的请求体验中，提交的请求和草稿可在同一列表中找到。
-  >* 在旧版Experience中创建的草稿不会出现在新的“请求体验”中。
+  >* 在旧版Experience中创建的草稿不会显示在新的“请求体验”中。
 
 ## 访问权限要求
 
@@ -92,6 +88,10 @@ Remove production and preview references at release
 
 ## 在请求区域查看已提交的请求
 
+您可以在请求区域或主页的“我的请求”小组件中查看已提交的请求。
+
+有关我的请求的信息，请参阅[使用我的请求小组件](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)。
+
 根据您使用的是新请求体验还是旧请求体验，查看已提交的请求会有所不同。
 
 * [在新的请求体验中查看已提交的请求](#view-submitted-requests-in-the-new-requesting-experience)
@@ -104,23 +104,15 @@ Remove production and preview references at release
 >* 如果您有Workfront Planning，则Workfront和Planning请求将显示在同一列表中。 Workfront请求在`Issue`对象类型&#x200B;**列中显示**&#x200B;值。
 >* 默认情况下，请求区域的列表中最多显示50个请求。 要查看更多请求，请滚动到列表底部。
 
-您可以在“请求”区域查看已提交的请求，其中包括指向生产环境<!--, or links to records created by Planning requests or <span objects converted from Workfront issues in the Preview environment-->中Adobe Workfront Planning请求所创建记录的链接。
+您可以在请求区域以及主页的“我的请求”小组件中查看已提交的请求。
 
 >[!NOTE]
 >
->只有在请求本身创建了记录的情况下，新请求体验中才提供指向已创建对象的链接，以供Planning请求使用。
+>当您启用新的请求体验时，以下对象具有来自请求区域和我的请求小组件中的请求列表的链接：
 >
->如果Workfront请求转换为项目或其他对象，则指向该转换对象的链接在新请求体验的请求列表中不可用。
-
-<!--
-replace the note above with this at release: 
->[!NOTE]
->
->Links to created objects are available in the new requesting experience only for Planning requests in the Production environment, in cases where the request itself created a record. 
->
->If a Workfront request is converted to a project or other object, a link to that converted object is not available in the request list in the new requesting experience in the Production environment.
-><span class="preview">In the Preview environment, you can access both Workfront objects converted from Workfront requests and Planning records created from Planning requests from the Requests area list.</span>
--->
+>* “主题”字段中的Planning和Workfront请求。
+>* 从“创建的对象”字段中的Planning请求创建的Planning记录。
+>* 在预览环境的对象创建字段中，从Workfront请求转换的<span class="preview">Workfront任务和问题。</span>
 
 要查看您或其他用户在新的请求体验中提交的请求，请执行以下操作：
 
@@ -137,13 +129,13 @@ replace the note above with this at release:
    * 筛选条件
    * 列
 
-   <!--
    <div class="preview">
-      * Group
-   * Format cells
-   * Row height
-      </div>
-   -->
+
+   * 组
+   * 设置单元格的格式
+   * 行高
+
+   </div>
 
    有关管理请求列表中的信息的详细信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
 

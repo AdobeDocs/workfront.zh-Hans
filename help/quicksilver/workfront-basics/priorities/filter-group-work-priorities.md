@@ -1,27 +1,27 @@
 ---
 navigation-topic: get-started-with-workfront
-title: 使用优先级筛选和分组您的工作
+title: 按优先级过滤、分组和排序您的工作
 description: 您可以使用筛选器查找并查找工作，然后应用分组以使其保持井然有序。
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
+source-git-commit: a56441276fbc508a81d5331874580385ceb8812f
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 4%
+source-wordcount: '653'
+ht-degree: 7%
 
 ---
 
-# 使用优先级筛选和分组您的工作
+# 使用优先级过滤、分组和排序您的工作
 
 您可以使用筛选器查找要查找的工作，然后应用分组以使其保持井井有条。
 
 优先级显示分配给您的工作项。 您无法在优先级工作列表中看到分配给您团队的工作项。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -32,8 +32,8 @@ ht-degree: 4%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront包</strong></td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront 包</strong></td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront许可证</strong></td> 
@@ -64,7 +64,7 @@ ht-degree: 4%
 {{step1-to-priorities}}
 
 1. 单击工作列表左上角的&#x200B;**筛选器**。
-1. 在&#x200B;**标准筛选器**&#x200B;部分中，选择一个或多个筛选器以缩小工作项的范围。
+1. 在&#x200B;**标准筛选器**部分中，选择一个或多个筛选器以缩小工作项的范围。
    ![过滤器](assets/filter-new.png)
 
 +++展开以查看有关可用筛选器的详细信息
@@ -173,7 +173,7 @@ ht-degree: 4%
 按“我的优先级”或“状态”分组时，您可以在类别之间拖放单个工作项。
 
 1. 按&#x200B;**状态**&#x200B;或&#x200B;**我的优先级**&#x200B;对您的工作分组。
-2. 将鼠标悬停在工作项上以单击&#x200B;**拖动**&#x200B;图标并将其移动到所需类别。
+2. 将鼠标悬停在工作项上以单击&#x200B;**拖动**图标并将其移动到所需类别。
    ![拖动图标](assets/drag-and-drop.png)
 
 ## 对您的工作排序

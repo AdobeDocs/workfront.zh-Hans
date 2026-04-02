@@ -8,15 +8,19 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '1490'
+source-wordcount: '1857'
 ht-degree: 0%
 
 ---
 
 
 # 在Adobe Workfront Planning中管理列表视图
+
+<!--
+although list views in Planning are very similar to Workfront enhanced lists, keep this one separate with all the information, because of Planning standalone; some information here is also duplicated in this main Glist article: help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md
+-->
 
 <span class="preview">此页面上突出显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
@@ -34,7 +38,7 @@ ht-degree: 0%
 
   ![在列表视图中请求表单](assets/request-forms-in-list-view.png)
 
-本文介绍了如何在Workfront Planning中导航、创建或编辑显示对象的列表视图。<!--change 'projects' to other objects when they become available and the location of the list view-->
+本文介绍了如何在Workfront Planning中导航、创建或编辑列表视图。
 
 ## 访问权限要求
 
@@ -95,16 +99,16 @@ ht-degree: 0%
    * 不能为Planning请求表单创建或编辑其他列表视图。 Workfront为请求表单创建一个列表视图。<!--this will change-->
 
      有关申请表单的信息，请参阅[在Adobe Workfront计划中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
-* 根据显示的位置，并非每个列表视图都具有本文中介绍的所有相同元素。
-
+* 根据显示的位置，并非每个列表视图都具有本文中描述的所有元素。
 
 ## 管理列表视图 {#manage-a-list-view}
 
-列表视图与增强型列表类似。 在Workfront Planning中，增强型视图中的大多数元素也存在于列表视图中。
+Workfront Planning列表视图类似于Workfront的增强列表。 在Workfront Planning中，增强型视图中的大多数元素也存在于列表视图中。
 
 有关详细信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
 
 <!--
+Removed - more direct steps below: 
 {{step1-to-planning}}
 
 1. (Conditional) To access a projects connected page, do the following: 
@@ -132,14 +136,16 @@ ht-degree: 0%
 
 1. 转到以下区域之一的列表视图：
 
-   * 记录的详细信息区域中的“连接的记录”页面
-   * 记录的请求表单页面
+   * 记录的详细信息区域中项目的已连接记录页面
+   * 记录类型的请求表单页面
 
 1. （视情况而定）如果可用，请执行以下操作之一来修改列表视图：
 
    1. 展开列表左上角的下拉视图菜单以选择其他视图，或单击&#x200B;**新建视图**&#x200B;并创建另一个视图。
 
-      视图在整个系统中共享。 如果您为一个记录类型创建项目视图，则可以在显示所连接项目的其他记录类型上查看该视图。
+      >[!TIP]
+      >
+      >视图在整个系统中共享。 如果您为一个记录类型创建项目视图，则可以在显示所连接项目的其他记录类型上查看该视图。
 
    1. 将鼠标悬停在现有视图的名称上，然后单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后单击下列选项之一：
       * **重命名**，为视图提供一个新名称
@@ -154,18 +160,26 @@ ht-degree: 0%
       >
       >* <span class="preview">您可以重置与您共享的视图，在您修改它以恢复其原始首选项后，您只能查看该视图，或者您可以将其与更改一起复制并共享副本。 有关详细信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。</span>
 
-      <!--
-        And hide everything else below for these elements, after moving it to the Use enhanced lists article: 
-        1. <span class="preview">To update one of the following view elements, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md):</span>
-            <div class="preview">
-            * Filter
-            * Columns
-            * Format cells
-            * Row height
-            </div>
-        -->
-
    1. 单击&#x200B;**筛选器**&#x200B;图标![筛选器图标](assets/filter-icon.png)将筛选器添加到视图。 结果会立即在列表中过滤。 您无法保存并命名筛选器。 在将来的访问页面时，将会记住过滤器，并且这些过滤器是共享视图的一部分。
+
+      >[!TIP]
+      >
+      ><span class="preview">要应用个性化筛选器，请为字段值选择以下选项之一：
+      >
+      ><div class="preview">
+      >
+      >* **我（已登录的用户）**&#x200B;在引用用户的字段中引用已登录的用户。
+      >
+      >* **我的团队**&#x200B;或&#x200B;**我的主团队**&#x200B;在引用团队的字段中引用您的团队。
+      >
+      >* **我的群组**&#x200B;或&#x200B;**我的主群组**&#x200B;在引用群组的字段中引用您的群组。
+      >
+      >* **我的公司**&#x200B;在引用公司的字段中引用您的公司。
+      > 
+      >* **我的角色**&#x200B;或&#x200B;**我的主要角色**&#x200B;在引用角色的字段中引用您的工作角色。
+      >
+      ></div>
+
    1. 单击&#x200B;**列**&#x200B;图标![列图标](assets/columns-icon.png)以选择要显示或隐藏的列。
    1. 将鼠标悬停在列名上，单击该列名左侧的向下箭头，然后单击下列选项之一：
       * **重命名**，为列添加&#x200B;**自定义标签**。 Workfront中原始字段的名称不会更改。
@@ -180,18 +194,18 @@ ht-degree: 0%
    1. <span class="preview">单击&#x200B;**格式化单元格**&#x200B;图标![格式化单元格图标](assets/format-cells-icon.png)。 **格式**&#x200B;框打开。</span> <!--change the name of the box when they update it-->
       <span class="preview">执行以下操作：</span>
 
-      1. 单击&#x200B;**添加条件**。
+      1. <span class="preview">单击&#x200B;**添加条件**。</span>
       1. <span class="preview">在&#x200B;**If**&#x200B;行中，选择一个字段并选择字段值并添加修饰符。 修改量会根据您选择的字段类型而发生更改。</span>
 
          >[!TIP]
          >
          ><span class="preview">只有列表视图中可见的字段可用于条件格式。</span>
 
-      1. <span class="preview">（可选）不要添加字段值，请单击&#x200B;**与另一个字段比较**&#x200B;图标![与另一个字段比较](assets/compare-to-another-field-icon.png)，然后选择要将其值与选定字段的值进行比较的字段。 例如，您可以筛选其项目所有者与项目发起人匹配的项目。</span>
+      1. <span class="preview">（可选）不要添加字段值，请单击&#x200B;**与另一个字段比较**&#x200B;图标![与另一个字段比较](assets/compare-to-another-field-icon.png)，然后选择要将其值与选定字段的值进行比较的字段。 例如，您可以比较项目所有者和项目发起人字段。</span>
 
          >[!TIP]
          >
-         ><span class="preview">只有列表视图中可见的字段可用于条件格式。</span>
+         ><span class="preview">只有列表视图中可见的字段可用于条件格式。 您比较的字段必须属于相同类型。</span>
 
       1. <span class="preview">（可选）单击&#x200B;**If**&#x200B;行中的&#x200B;**添加条件**&#x200B;以向同一规则添加更多条件。</span>
 
@@ -199,29 +213,44 @@ ht-degree: 0%
          >
          ><span class="preview">在一个条件规则中最多可以添加10个条件，一个字段最多可以有20个规则。</span>
 
+      1. <span class="preview">单击条件之间的&#x200B;**Or**&#x200B;连接器以更改为&#x200B;**And**，并指示必须同时满足多个条件。 **或**&#x200B;是默认连接器。</span>
+      1. <span class="preview">在&#x200B;**Format**&#x200B;行中，选择一个字段以指示将设置哪一列的格式。</span> <!--edit this area, if it changes names??-->
+      1. <span class="preview">（可选）单击所选字段旁边的&#x200B;**颜色圆圈**&#x200B;图标![颜色圆圈图标](assets/color-circle.png)，展开该字段并在&#x200B;**单元格填充**&#x200B;区域中选择其他颜色以更改单元格中背景的颜色，或者从&#x200B;**文本颜色**&#x200B;区域中选择颜色以更改单元格中文本的颜色。</span>
+      1. <span class="preview">单击&#x200B;**文本格式**&#x200B;图标![文本格式图标](assets/text-format-icon.png)并从以下选项中选择以设置单元格中文本的格式：</span>
+         * <span class="preview">粗体</span>
+         * <span class="preview">斜体</span>
+
+      1. <span class="preview">打开&#x200B;**应用到行**&#x200B;设置以将格式应用到满足条件的字段的整行。</span>
+      1. <span class="preview">（可选）在&#x200B;**格式**&#x200B;框中单击&#x200B;**添加条件**&#x200B;为其他字段添加其他规则并重复上述步骤。</span>
+      1. <span class="preview">（可选）单击&#x200B;**全部清除**&#x200B;以删除所有格式。</span>
+      1. <span class="preview">单击&#x200B;**Format**&#x200B;框外部以将其关闭。</span>
+
+         <span class="preview">这会将您返回到列表视图。</span>
+         <span class="preview">格式将立即应用于列表视图。</span>
+         <span class="preview">在&#x200B;**设置单元格格式**&#x200B;图标旁有一个蓝点，表示该视图应用了特殊格式。</span>
+
+   1. <span class="preview">（可选）单击&#x200B;**分组**&#x200B;图标![分组图标](assets/grouping-icon.png) &lt;！ — 他们是否已将此项更新为“分组”??->，以便按公用字段对列表中的项目进行分组。 选择一个选项，或使用搜索栏查找字段。</span>
+
+      <span class="preview">该字段必须是列表中的列，然后才能按它进行分组。 并非所有字段类型都可用于分组。</span>
+
+   1. <span class="preview">单击&#x200B;**行高**&#x200B;图标![行高图标](assets/row-height-icon.png)可更新行的垂直长度。 从以下选项中选择： </span>
+
       <div class="preview">
 
-      1. 单击条件之间的&#x200B;**Or**&#x200B;连接器以更改为&#x200B;**And**，并指示必须同时满足多个条件。 **或**&#x200B;是默认连接器。
-      1. 在&#x200B;**格式**&#x200B;行中，选择一个字段以指示将设置哪一列的格式。<!--edit this area, if it changes names??-->
-      1. （可选）单击所选字段旁边的&#x200B;**颜色圆圈**&#x200B;图标![颜色圆圈图标](assets/color-circle.png)以展开该字段并选择其他颜色<!--for a cell or the text of the cell that matches your criteria. is this where the bold, italic is? I had no UI for this when I wrote it-->
-      1. 打开&#x200B;**应用到行**&#x200B;设置以将格式应用到满足条件的字段的整行。
-      1. （可选）在&#x200B;**格式**&#x200B;框中单击&#x200B;**添加条件**&#x200B;为其他字段添加其他规则并重复上述步骤。
-      1. （可选）单击&#x200B;**全部清除**&#x200B;以删除所有格式。
-      1. 单击&#x200B;**格式**&#x200B;框外部以将其关闭。
-
-         这会将您返回到列表视图。
-格式设置将立即应用于列表视图。
-**设置单元格格式**&#x200B;图标旁有一个蓝点，表示该视图应用了特殊格式。
+      * 短
+      * 标准。 这是默认选项。
+      * 媒介
+      * 高
 
       </div>
 
-   <!--leave these here-->
+   <!--leave these here, although they duplicate for Enhanced lists in Workfront-->
 
 1. （可选）在列表右上角的搜索框中添加关键字以搜索项目。
 
    与搜索词匹配的项目会在列表中突出显示。
 
-1. （可选）要将更多项添加到列表并自动将它们连接到所选记录，请执行下列操作之一：
+1. （可选且有条件）在连接的项目<!--change projects to items here when more items will display in the Glist-->页面中，要向列表添加更多项并自动将其连接到所选记录，请执行下列操作之一：
 
    * 单击列表右上角的&#x200B;**连接记录**&#x200B;以添加现有项。
    * 单击列表底部的&#x200B;**新行**&#x200B;以添加新项。
@@ -234,10 +263,21 @@ ht-degree: 0%
 
    或
 
-   选择一个或多个项目，并注意列表底部的操作栏，然后单击下列选项之一（如果可用）：
+   选择一个或多个项目，并注意列表底部的操作栏，然后单击下列选项之一（如果可用）。 根据您从哪个区域访问列表视图，单击以下选项之一：
 
    * **删除**&#x200B;以删除该项。 删除项目会断开它与记录的连接，并将其移到Workfront的回收站。 Workfront管理员最多可以在删除项目后30天内恢复这些已删除的项目。 删除表单不会删除提交表单时创建的请求或记录。
    * **断开连接**&#x200B;以断开项目与记录的连接。 断开项目连接会将其及其查找字段的所有值从当前记录中删除。
 
-   “连接的记录”页面列表视图中的![操作栏](assets/actions-bar-connected-records-page-list-view.png)
+     <!--update screen shot at preview release-->
+
+     “连接的记录”页面列表视图中的![操作栏](assets/actions-bar-connected-records-page-list-view.png)
+
+   * **编辑表单**：打开Planning请求表单并允许您编辑它。
+   * **取消发布**：取消发布请求表单。 这会从请求区域删除表单，并且用户无法再将请求添加到此记录类型。
+   * **共享**：打开请求表单的“共享”框，您可以在其中与他人共享。
+   * **复制链接**：复制指向Planning请求表单的链接，以便与其他用户共享。 如果表单已公开共享，则您可以与Workfront Planning以外的人员共享该链接。
+
+     Planning请求列表中的![操作栏](assets/actions-bar-in-inake-forms-list.png)
+
+
 

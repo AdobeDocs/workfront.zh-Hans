@@ -10,9 +10,9 @@ role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '1497'
+source-wordcount: '1541'
 ht-degree: 3%
 
 ---
@@ -259,3 +259,12 @@ WRITER
 >[!CAUTION]
 >
 >如果问题的主要联系人发生更改，或者在问题转换之后问题从项目或任务中取消链接，则转换的问题发起人姓名不会更新，并且会在问题转换时显示问题的原始主要联系人。
+
+## 从请求列表中查看原始问题和已转换的对象
+
+您可以在请求区域查看原始问题和已转换的对象，并在主页中查看我的请求小组件。
+
+有关更多信息，请参阅以下文章：
+
+* [查看提交的请求](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md)
+* [使用我的请求小组件](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)

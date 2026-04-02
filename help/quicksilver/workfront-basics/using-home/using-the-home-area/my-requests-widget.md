@@ -8,14 +8,20 @@ feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 2%
+source-wordcount: '777'
+ht-degree: 3%
 
 ---
 
 # 使用我的请求小组件
+
+<!--remove Preview and Production references at Production release April 15, 2026-->
+
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 >[!IMPORTANT]
 >
@@ -59,7 +65,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>[!UICONTROL 查看]对项目、任务、问题和文档的权限或更高，在这些项目、任务、问题和文档中，您被标记在对话中或需要解决审批问题</p> </td> 
+   <td> <p>[！UICONTROL查看]对项目、任务、问题和文档的权限或更高，在这些项目、任务、问题和文档中，您被标记在对话中或需要解决审批问题</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -83,6 +89,7 @@ ht-degree: 2%
 ## 在“我的请求”小组件中管理请求列表中的信息
 
 <!--
+This is similar to what we document in Enhanced lists, so we will link to that to avoid documentation duplication:
 The My Requests widget features a customizable filter that allows you to control which requests appear in the widget. You can configure this filter for different fields and values, and can stack conditions using AND and OR operators.
 
 To configure the filter in the My Requests widget:
@@ -90,21 +97,21 @@ To configure the filter in the My Requests widget:
 
 1. 单击左上角的&#x200B;**[!UICONTROL 主菜单]** ![主菜单图标](assets/lines-main-menu.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
 1. （视情况而定）将&#x200B;**我的请求**&#x200B;构件添加到您的主屏幕。 单击&#x200B;**自定义**，找到&#x200B;**我的请求**，然后单击它以将其添加到&#x200B;**主页**。
-1. （可选）要管理信息在请求列表中的显示方式，请更新列表的以下视图元素：
+1. （可选）要管理信息在请求列表中的显示方式，请为列表创建或更新以下视图元素：
 
    * 视图
    * 筛选条件
    * 列
 
-   <!--
    <div class="preview">
-      * Group
-   * Format cells
-   * Row height
-      </div>
-   -->
 
-   有关管理请求列表中的信息的详细信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
+   * 组
+   * 设置单元格的格式
+   * 行高
+
+   </div>
+
+   有关更新请求列表中的视图元素的更多信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
 
 
 <!--
@@ -123,10 +130,7 @@ To configure the filter in the My Requests widget:
 1. (Conditional) If a field appears to the right of the operator, select the value that you want to filter by.
 1. (Optional) To add another filter condition, click **Add condition** and repeat steps 4-6.
 1. (Optional and conditional) If you have multiple conditions, switch the And or Or value by clicking **And** or **Or** to the left of the condition.
-
-
 The filter is saved automatically.
-
 -->
 
 >[!TIP]
@@ -137,6 +141,8 @@ The filter is saved automatically.
 >* 要仅筛选Workfront Planning请求，请将筛选器设置为&#x200B;**对象类型** > **不包含** > **问题**。
 
 <!--
+
+Use enhanced lists and other requests articles describe all of these:
 
 ## Adjust or add columns
 
@@ -188,7 +194,7 @@ Consider the following when working with views in the My Requests widget:
 
 要在“我的请求”小组件中搜索特定请求，请执行以下操作：
 
-1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
+1. 单击左上角的&#x200B;**[!UICONTROL 主菜单]** ![主菜单图标](assets/lines-main-menu.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
 1. （视情况而定）将&#x200B;**我的请求**&#x200B;构件添加到您的主屏幕。 单击&#x200B;**自定义**，找到&#x200B;**我的请求**，然后单击它以将其添加到&#x200B;**主页**。
 1. 在我的请求小部件的右上角附近的搜索栏中，输入要搜索的术语。
 
@@ -202,12 +208,25 @@ Consider the following when working with views in the My Requests widget:
 
 >[!NOTE]
 >
->只有在请求本身创建了对象的情况下，新请求体验中才提供指向已创建对象的链接，以供Planning请求使用。 如果Workfront请求转换为项目或其他对象，则指向该转换对象的链接在新请求体验的请求列表中不可用。
+>当您在请求区域中启用新请求体验时，以下对象具有来自我的请求小组件中的请求列表的链接：
+>
+>* “主题”字段中的Planning和Workfront请求。
+>* 从“创建的对象”字段中的Planning请求创建的Planning记录。
+>* 在预览环境的对象创建字段中，从Workfront请求转换的<span class="preview">Workfront任务和问题。</span>
 
-1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
+1. 单击左上角的&#x200B;**[!UICONTROL 主菜单]** ![主菜单图标](assets/lines-main-menu.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
 1. （视情况而定）将&#x200B;**我的请求**&#x200B;构件添加到您的主屏幕。 单击&#x200B;**自定义**，找到&#x200B;**我的请求**，然后单击它以将其添加到&#x200B;**主页**。
 1. 找到创建对象的请求。
 1. 单击该请求的&#x200B;**创建对象**&#x200B;列中的对象名称。
 
    将打开对象的页面。
+
+   >[!TIP]
+   >
+   >在生产环境中，只有Planning记录在&#x200B;**创建的对象**&#x200B;字段中具有链接。
+   >   
+   ><span class="preview">在“预览”环境中，从Issues转换而来的Workfront任务和项目以及从Planning请求创建的Planning记录在&#x200B;**创建的对象**&#x200B;字段中具有链接。</span>
+   >
+
+
 

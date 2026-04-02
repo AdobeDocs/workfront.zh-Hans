@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '855'
 ht-degree: 2%
 
 ---
@@ -60,7 +60,9 @@ ht-degree: 2%
 
 ## 从草稿创建请求
 
-从草稿创建请求的过程因新请求体验和旧请求体验而异。
+您可以从草稿为Workfront和Planning请求创建请求。
+
+从草稿创建的请求在新请求体验和旧版体验之间有所不同。
 
 * [从新请求体验中的草稿创建请求](#create-requests-from-drafts-in-the-new-requesting-experience)
 * [从旧版请求体验中的草稿创建请求](#create-requests-from-drafts-in-the-legacy-requesting-experience)
@@ -90,9 +92,14 @@ ht-degree: 2%
 
 1. 完成请求信息后，单击&#x200B;**提交**。
 
-   提交请求时，草稿将被删除并且无法恢复。
+   提交请求时，草稿会被新请求替换，并且无法恢复为草稿。
 
 ### 从旧版请求体验中的草稿创建请求
+
+>[!NOTE]
+>
+>您不能使用旧版体验从Planning请求草稿创建请求。
+
 
 {{step1-to-requests}}
 

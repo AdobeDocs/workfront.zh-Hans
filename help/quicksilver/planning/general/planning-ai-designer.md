@@ -8,9 +8,9 @@ role: User, Admin
 exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1524'
 ht-degree: 0%
 
 ---
@@ -182,7 +182,7 @@ ht-degree: 0%
 
    ![“工作区”页面上的“使用AI设计”按钮](assets/design-with-ai-button-on-workspaces-page.png)
 
-1. 单击&#x200B;**使用AI创建**。<!--update this when they change it to Generate with AI-->
+1. 单击&#x200B;**使用AI创建**，或单击&#x200B;**创建工作区**，然后使用顶部的提示窗口指示您要创建的工作区类型。<!--update this when they change it to Generate with AI-->
 
    将打开&#x200B;**计划Designer**&#x200B;窗口。<!--remove the Beta tag here when this removes from Beta-->
 
