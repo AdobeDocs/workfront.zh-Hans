@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '1946'
+source-wordcount: '2016'
 ht-degree: 1%
 
 ---
@@ -219,12 +219,15 @@ Old:
    >
    >* 与用户共享视图时，其主要工作角色<span class="preview">和他们的电子邮件</span>也会显示在字段中。 您必须为访问级别中的“用户”对象启用“查看联系信息”设置，才能查看用户的电子邮件。
 
-
    * **工作区中的每个人都可以查看**：所有对工作区具有“查看”或更高权限的用户都可以访问该视图。
 
 1. 在&#x200B;**授予此视图的访问权限**&#x200B;字段中，开始键入用户、组、团队、公司或工作角色的名称，然后在列表显示该名称时单击该名称。
 
    ![与组共享视图](assets/sharing-a-view-ui-with-groups.png)
+
+1. <span class="preview">（可选）与组、团队、角色或公司共享时，将鼠标悬停在实体的名称上，然后单击向右箭头以展开正在接收权限的用户列表。</span>
+
+   ![与团队共享视图](assets/share-view-with-team-expanding-arrow-highlighted.png)
 
 1. 从下拉菜单中选择以下权限级别之一：
    * 视图
@@ -299,8 +302,16 @@ Old:
    >
    >没有人员或全局图标的视图是您创建的视图，不会与他人共享。 非共享视图仅对您可见。
 
-
 1. （可选）将您复制的链接粘贴到电子邮件、聊天消息、文档或Workfront注释中，以便与其他人共享。
+
+   <div class="preview">
+
+   当其他人打开公共视图时，他们会在标题中看到有关该视图的以下信息：
+
+   * 视图名称和图标
+   * 视图显示的记录类型的名称
+
+   </div>
 
 ## 将链接复制到视图
 
@@ -342,7 +353,7 @@ Old:
      ![视图访问请求的应用程序内通知](assets/in-app-notification-for-access-request-for-view.png)
 1. （视情况而定）在Workfront的通知区域中，单击应用程序内通知
 或
-在电子邮件通知中，单击&#x200B;**查看所有通知**，然后单击列表中的通知。
+在电子邮件通知中，单击**查看所有通知**，然后单击列表中的通知。
 
    显示&#x200B;**待处理访问请求**&#x200B;框。
 

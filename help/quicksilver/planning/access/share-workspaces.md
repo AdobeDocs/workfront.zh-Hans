@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1064'
 ht-degree: 2%
 
 ---
@@ -180,6 +180,10 @@ Old:
    >
    >* 与用户共享工作区时，其主要工作角色<span class="preview">及其电子邮件</span>也会显示在字段中。 您必须为访问级别中的“用户”对象启用“查看联系信息”设置，才能查看用户的电子邮件。
 
+1. <span class="preview">（可选）与组、团队、角色或公司共享时，将鼠标悬停在实体的名称上，然后单击向右箭头以展开正在接收权限的用户列表。</span>
+
+   ![与组共享工作区](assets/share-workspace-role-expanding-arrow-highlighted.png)
+
 1. 从下拉菜单中选择以下权限级别之一：
    * 视图
    * 贡献
@@ -204,7 +208,7 @@ Old:
      ![访问请求的电子邮件通知](assets/email-notification-for-access-request.png)
 1. （视情况而定）在Workfront的通知区域中，单击应用程序内通知
 或
-在电子邮件通知中，单击&#x200B;**查看所有通知**，然后单击列表中的通知。
+在电子邮件通知中，单击**查看所有通知**，然后单击列表中的通知。
 
    显示&#x200B;**待处理访问请求**&#x200B;框。
 

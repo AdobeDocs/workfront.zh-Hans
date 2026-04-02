@@ -8,22 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 1%
+source-wordcount: '1188'
+ht-degree: 0%
 
 ---
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # 创建工作区
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 {{planning-important-intro}}
 
@@ -49,12 +47,15 @@ ht-degree: 1%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
-<p>任何Workfront和任何Planning包</p> <p>任何工作流和任何计划包</p>
+<p>任何Workfront或工作流包</p> 
+<p>任何Workfront规划包</p>
+<p>Workfront Planning Prime或更高版本包<span class="preview">一次创建多个工作区</span></p>
 <p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
    <td><p>标准</p>
+   <p><span class="preview">系统管理员使用最佳实践模板包同时创建多个工作区</p>
    </td> 
   </tr> 
   <tr> 
@@ -130,7 +131,28 @@ Old:
 
 ## 创建工作区
 
-您可以创建一个工作区并向其中添加记录类型，以便在Workfront Planning中组织对象。 有关编辑工作区的详细信息，请参阅[编辑工作区](/help/quicksilver/planning/architecture/edit-workspaces.md)。
+您可以创建一个工作区并向其中添加记录类型，以便在Workfront Planning中组织对象。
+
+有关编辑工作区的详细信息，请参阅[编辑工作区](/help/quicksilver/planning/architecture/edit-workspaces.md)。
+
+您可以通过以下方式创建工作区：
+
+* 从头开始或从模板创建一个工作区
+
+  有关信息，请参阅本文中的[从头开始或从模板创建工作区](#create-a-workspace-from-scratch-or-from-a-template)部分。
+* 使用AI支持的Planning Designer创建一个工作区。 此功能目前仅在Beta项目中有限数量的客户可用。
+
+  有关信息，请参阅[Adobe Workfront规划Designer入门](/help/quicksilver/planning/general/planning-ai-designer.md)。
+
+<div class="preview">
+
+* 使用最佳实践多工作区模板包创建多个工作区
+
+  有关信息，请参阅本文中的[使用最佳实践多工作区模板包创建多个工作区](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle)部分
+
+</div>
+
+### 从头开始或从模板创建工作区
 
 {{step1-to-planning}}
 
@@ -198,5 +220,59 @@ Old:
    >对于当前正在过渡到Adobe Identity Management System (IMS)的用户，非IMS用户的仅Workfront用户创建的工作区将显示为&#x200B;**系统**&#x200B;所创建。
    >
    >有关IMS的信息，请参阅[适用于Workfront的Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+
+<div class="preview">
+
+### 使用最佳实践多工作区模板包创建多个工作区
+
+>[!IMPORTANT]
+>
+>只有在满足以下先决条件时，才能使用最佳实践模板捆绑包一次创建多个工作区：
+>
+>* 贵组织购买了Workfront Planning Prime或Ultimate包。
+>* 您是系统管理员
+
+只需单击一下，即可使用多工作区模板包创建6个工作区。
+
+捆绑包中包含的模板包含工作区、记录类型、记录、视图和字段，以帮助您开始实施Planning。
+
+>[!IMPORTANT]
+>
+>捆绑包中包含的所有工作区、记录类型、字段和记录名称都是示例，并非您自己环境的反映。
+>
+>我们建议您使用此模板捆绑包作为Planning结构的示例，并继续创建反映组织工作流的对象。
+
+{{step1-to-planning}}
+
+1. 单击&#x200B;**创建工作区**
+
+   此时会显示“创建工作区”框。 您可以从头开始创建工作区，也可以使用某个可用模板创建工作区。
+
+1. 在&#x200B;**从此处开始（推荐）**&#x200B;区域单击&#x200B;**查看工作区设置**。
+1. （可选）单击以下任何预定义Workspace模板中的&#x200B;**预览**&#x200B;以打开每个模板的“预览”框：
+
+   * 1.全局分类和分类
+
+     全局分类和分类模板包含我们建议您为您的环境中创建的所有记录类型和字段，以便成功实施Workfront Planning。
+
+     您以后可以在您创建的其他工作区中链接或导入此模板中的记录类型。
+   * 2.Fréscopa全球营销
+   * 3.Fréscopa社交营销
+   * 4.弗雷斯科帕媒体与公关
+   * 5.弗雷斯科帕全球活动
+   * 6.Fréscopa执行公司领导层
+
+1. 打开每个工作区模板的&#x200B;**预览**&#x200B;框后，单击“返回”以返回&#x200B;**创建工作区**&#x200B;框，或单击“使用模板”以使用捆绑包中包含的模板和创建工作区。
+
+   工作区是在系统管理员的&#x200B;**工作区**&#x200B;和&#x200B;**所有工作区**&#x200B;选项卡中创建和显示的。 系统管理员创建所有Standard-license用户并与他们共享新工作区后，这些用户都将在其“工作区”区域中看到工作区。
+
+1. 开始编辑您创建的工作区，并添加与组织相关的记录类型、记录、视图和字段。
+
+   有关实施Workfront的最佳实践的更多信息，请参阅[Adobe Workfront规划最佳实践：文章索引](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md)部分中的文章。
+
+   有关编辑工作区的信息，请参阅[编辑工作区](/help/quicksilver/planning/architecture/edit-workspaces.md)。
+
+</div>
+
 
 

@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1375'
 ht-degree: 2%
 
 ---
@@ -285,6 +285,16 @@ Old:
    ![创建视图框](assets/create-view-box.png)
 
 1. （可选）要编辑现有视图，请单击当前视图名称右侧的下拉菜单，然后在&#x200B;**搜索**&#x200B;字段中键入视图名称，然后按键盘上的Enter键。
+
+   >[!TIP]
+   >
+   ><span class="preview">您可以使用以下键盘组合从任何Workfront Planning页面打开全局搜索框并搜索视图：</span>
+   >
+   >* <span class="preview">CTRL+K for Windows</span>
+   >* 适用于Mac<span class="preview">⌘的</span>+K
+   >
+   >![全局搜索框](assets/global-search-box.png)
+
 1. （可选）从视图下拉菜单中，按首选项的顺序拖放视图。
 
    ![记录类型列表中的查看类型下拉列表](assets/view-types-drop-down-from-record-type-list.png)

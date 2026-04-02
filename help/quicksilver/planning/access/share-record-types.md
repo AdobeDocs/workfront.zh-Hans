@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1586'
 ht-degree: 1%
 
 ---
@@ -219,11 +219,15 @@ Old:
 
    1. 从&#x200B;**继承权限**&#x200B;下拉菜单中选择&#x200B;**禁用**。
 
-   >[!TIP]
-   >
-   >Workspace管理员继续拥有记录类型的管理权限。
+      >[!TIP]
+      >
+      >Workspace管理员继续拥有记录类型的管理权限。
 
    1. 在&#x200B;**授予对此记录类型的访问权限**&#x200B;字段中，添加要授予不同于工作区权限级别的用户、团队、组、公司或工作角色。
+   1. <span class="preview">（可选）与组、团队、角色或公司共享时，将鼠标悬停在实体的名称上，然后单击向右箭头以展开正在接收权限的用户列表。</span>
+
+      ![与组](assets/share-record-type-with-group-expanding-arrow-highlighted.png)共享记录类型
+
    1. 选择权限级别。
 
    >[!IMPORTANT]

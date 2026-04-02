@@ -6,14 +6,19 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 0%
+source-wordcount: '301'
+ht-degree: 8%
 
 ---
 
 # 自定义优先级工作列表列
+
+<span class="preview">此页面上突出显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 您可以在优先级中自定义工作列表上的列，以支持您的工作方式。
 
@@ -23,9 +28,9 @@ ht-degree: 0%
 >
 >此时无法将自定义数据添加到列。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,8 +39,8 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront包</strong></td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront 包</strong></td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront许可证</strong></td> 
@@ -74,9 +79,28 @@ ht-degree: 0%
 {{step1-to-priorities}}
 
 1. 单击屏幕左侧的&#x200B;**列**。
-1. 单击&#x200B;**拖动**&#x200B;图标并将列移动到所需的位置。 自动移动列会更新工作列表。
+1. 单击&#x200B;**拖动**图标并将列移动到所需的位置。 自动移动列会更新工作列表。
    ![对列重新排序](assets/reorder-columns-new.png)
 
 >[!NOTE]
 >
 >“名称”列是固定的，无法移动。
+
+<div class="preview">
+
+### 更改优先级列表中的行高
+
+{{step1-to-priorities}}
+
+1. 单击&#x200B;**行高**&#x200B;图标。
+
+   这会更新行的垂直长度。 从以下选项中进行选择：
+
+   * 短
+   * 标准。 这是默认选项。
+   * 媒介
+   * 高
+
+   列表会立即更新。
+
+</div>
