@@ -8,7 +8,9 @@ author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: beac1ea6-a983-4d12-8972-91150914f731
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 0%
@@ -23,7 +25,7 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this used to be the content of this article but when I did the reorg of text mode for Kyna, Luke asked me to make this article a "TOC-proper article". I did not see much value in organizing this by objects.) </p>
 -->
 
-本节提供了可以在Adobe Workfront帐户中使用的自定义视图、过滤器和分组的示例。 除非另外指定，否则无法仅使用标准模式界面构建这些示例，并且只能使用文本模式界面构建这些示例。 有关文本模式的详细信息，请参阅[文本模式概述](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)。
+本节提供可在Adobe Workfront帐户中使用的自定义视图、筛选器和分组的示例。 除非另有指定，否则不能仅使用标准模式界面构建这些示例，而只能使用文本模式界面构建这些示例。 有关文本模式的详细信息，请参阅[文本模式概述](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;below, drafted because not sure if the links are currently working - April 2022)</p>
@@ -45,17 +47,17 @@ ht-degree: 0%
 * [视图：在列](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-list-successors.md)中添加任务后置任务列表
 * [查看和分组：显示按分组中的平均值聚合的项目实际持续时间](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-project-average-actual-duration-aggregated-grouping.md)
 * [查看：在小时列表中合并任务和问题的详细信息](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md)
-* [视图：在列中显示图像而不是字符串](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
-* [视图：显示标准接口中未包含的对象](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
-* [查看：显示有关任务或项目列表的原始问题信息](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
+* [视图：在列](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)中显示图像而不是字符串
+* [视图：显示未包含在标准界面中的对象](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
+* [查看：在任务或项目列表中显示原始问题信息](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
 * [视图：在任务视图中显示程序和Portfolio信息](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
 * [视图：在任务列表中显示任务缩进](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
 * [查看：文档报告，带有指向校对的链接](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-document-report-with-proof-link.md)
 * [视图：永久编辑列的宽度](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md)
 * [视图：展开的用户详细信息](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-expanded-user-details.md)
-* [查看：隐藏列的内容](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hide-column-content.md)
+* [视图：隐藏列](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hide-column-content.md)的内容
 * [查看：包含父任务信息的小时数](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hours-parent-task-information.md)
-* [查看：批准信息有问题](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-approval-information.md)
+* [查看：审批信息有问题](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-approval-information.md)
 * [视图：发起者的公司名称有问题](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-company-name-originator.md)
 * [查看：解析对象详细信息时出现问题](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-resolving-object-details.md)
 * [视图：合并来自一个共享列中多个列的信息](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md)
@@ -72,7 +74,7 @@ ht-degree: 0%
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-report-delivery-details.md" class="MCXref xref" xrefformat="{para}">View: report delivery details</a> </p> </li>
   -->
 
-* [查看：报表中使用的报表元素](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-reporting-elements-used-reports.md)
+* [视图：报告中使用的报告元素](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-reporting-elements-used-reports.md)
 * [视图：任务或项目报告中的可解析对象](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md)
 
   <!--
@@ -83,15 +85,15 @@ ht-degree: 0%
 * [视图：问题的提交路径](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-submission-path-issues.md)
 * [查看：任务所有日期均存在差异](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-task-all-dates-variance.md)
 * [查看：受计划例外影响的任务](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-tasks-impacted-schedule-exceptions.md)
-* [查看：使用自定义数据字段的外部URL](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-url-using-custom-data-field.md)
-* [查看： FTE可用性的用户作业角色百分比](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-job-role-percentage-fte-availability.md)
+* [视图：使用自定义数据字段的外部URL](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-url-using-custom-data-field.md)
+* [视图：用户工作角色占FTE可用性的百分比](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-job-role-percentage-fte-availability.md)
 * [查看：用户个人休息时间](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-personal-time-off.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-username.md" class="MCXref xref" xrefformat="{para}">View: username</a> </p> </li>
   -->
 
-## 自定义过滤器示例
+## 自定义筛选器的示例
 
 * [筛选器：显示不完整的跨项目前置任务](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
 * [筛选器：显示不完整的跨项目后置任务](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)
@@ -99,10 +101,10 @@ ht-degree: 0%
 * [筛选器：显示您当前的待审批项目](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-current-projects-pending-approval.md)
 * [筛选器：仅显示处于批准状态的项目](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-for-items-in-approval-status.md)
 * [筛选器：通过比较两个字段](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-items-by-comparing-two-fields.md)来消除列表中的项
-* [筛选器：显示父任务](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-parent-task-filter.md)
-* [筛选器：校样批准报告可忽略以前的校样版本](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-proof-approval-report.md)
-* [筛选器：创建多个引用相同字段（“AND”语句）的筛选器规则](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-refrence-the-same-field-multiple-times.md)
-* [筛选器：显示已为提交计划的报告](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-report-delivery-filter.md)
+* [筛选器：显示父级任务](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-parent-task-filter.md)
+* [筛选器：校对审批报告，忽略以前的校对版本](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-proof-approval-report.md)
+* [筛选器：创建引用同一字段（“AND”语句）的多个筛选器规则](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-refrence-the-same-field-multiple-times.md)
+* [筛选器：显示计划要交付的报告](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-report-delivery-filter.md)
 * [筛选器：当状态与不同组关联时，按同名状态显示项目](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-same-name-statuses-from-different-groups.md)
 
 ## 自定义分组示例
@@ -123,11 +125,11 @@ ht-degree: 0%
 * [分组：小时列表中的项目所有者主组](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-home-group-project-owner-list-hours.md)
 * [分组：任务百分比细分1](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-task-percent-breakdown-1.md)
 * [分组：任务百分比细分2](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-task-percent-breakdown-2.md)
-* [分组：按组合、方案和项目列出的任务](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-tasks-portfolio-program-project.md)
+* [分组：按项目组合、项目和项目分类的任务](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-tasks-portfolio-program-project.md)
 
-## 其他自定义报表元素和报表
+## 其他自定义报告元素和报表
 
-* [报表或列表：显示与对象关联的用户](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
+* [报告或列表：显示与对象关联的用户](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
 * [报告：预算小时数](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md)
 * [报告：任务和问题组合视图和分组](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-combined-task-issue-view-grouping.md)
 * [按多选自定义字段绘制报表图表](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md)
@@ -263,7 +265,7 @@ ht-degree: 0%
 <p><li>Click the <strong>Filter</strong>, <strong>View</strong>, or <strong>Grouping</strong> drop-down menu again, then click <strong>Share Filter</strong>, <strong>Share View</strong>, or <strong>Share Grouping</strong>.<br />The Filter Access, View Access, or Grouping Access dialog box is displayed.<br /><img src="/hc/en-us/article_attachments/209683908/share_filterviewgrouping.png" alt="" /></li></p>
 <p><li>Complete either of the following, depending on who you want to share with:</li></p>
 <p><ul></p>
-<p><li><strong>To share with individual users, teams, roles, groups, or companies:</strong> In the provided field, begin typing the name of the user, team, role, group, or company you want to share with, then click the name when it appears in the drop-down list.<br />Repeat this process to share access with multiple users, teams, roles, groups, or companies.</li></p>
+<p><li><strong>To share with individual users, teams, roles, groups, or companies:</strong> In the provided field, begin typing the name of the user, team, role, group, company, <span class="preview">or business profile</span> you want to share with, then click the name when it appears in the drop-down list.<br />Repeat this process to share access with multiple users, teams, roles, groups, or companies.</li></p>
 <p><li><strong>To share with all users in the system:</strong> Click the <strong>Settings</strong> icon, then click <strong>Make this visible system-wide</strong>.<br />Your administrator must select the Share System-wide option for this option to be available.&nbsp;For more information,&nbsp;see <a href="/hc/en-us/articles/217179297" target="_blank" rel="noopener">"Creating or Modifying Access Levels"</a> and&nbsp;<a href="/hc/en-us/articles/217179407" target="_blank" rel="noopener">"Reporting Permissions."</a></li></p>
 <p></ul></p>
 <p><li>(Conditional) If you are sharing with individual users, teams, roles, groups, or companies, click the drop-down menu to define the level of access you want to grant. <br /><img src="/hc/en-us/article_attachments/209684008/share_filterviewgrouping_dropdown.png" alt="" /><br />You can select from the following options:<br /><strong>View it:</strong> Select this option to allow the share recipients only to use the shared Filter, View, or Grouping. When this option is selected, recipients cannot make any modifications to the shared item.<br /><strong>Manage it:</strong> Select this option to allow the share recipients to use and modify the shared Filter, View, or Grouping.<br /><strong>Share:</strong> Click <strong>Advanced Settings</strong>, then select or deselect the <strong>Share</strong> option, depending on whether you want the share recipients to be able to share with others.</li></p>

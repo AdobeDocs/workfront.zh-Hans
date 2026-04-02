@@ -8,10 +8,12 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 9fcfea189bfc8827e41098823402f5e392b36d1b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '7040'
-ht-degree: 5%
+source-wordcount: '7439'
+ht-degree: 6%
 
 ---
 
@@ -33,8 +35,9 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 包</td> 
-   <td><p>任何</p></td> 
-  </tr> 
+   <td> <p>要创建工作角色、费率卡和分配的自定义表单，请执行以下操作：工作流Ultimate</p>
+      <p>为所有其他受支持对象创建自定义表单：任何Workfront或Workflow包</p> </td> 
+  </tr>  
   <tr> 
    <td>Adobe Workfront许可证</td> 
    <td><p>标准</p>
@@ -42,7 +45,7 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td> <p>对自定义表单的管理访问权限</p> </td> 
+   <td>对自定义表单的管理访问权限</td> 
   </tr>  
  </tbody> 
 </table>
@@ -60,9 +63,48 @@ ht-degree: 5%
 1. 单击&#x200B;**新建自定义表单。**
 1. 选择要将自定义表单附加到的对象类型，然后单击&#x200B;**继续**。
 
-   ![选择对象类型](assets/new-custom-form-select-objects.png)
+<div class="preview">
+
+“预览”环境中的示例图像：
+
+![选择对象类型](assets/new-custom-form-select-objects-032526.png)
+
+</div>
+
+生产环境中的示例图像：
+
+![选择对象类型](assets/new-custom-form-select-objects.png)
+
++++ 展开以查看支持自定义表单的对象列表。
+
+* 项目
+* 任务
+* 问题/请求
+* 项目组合
+* 文档
+* 项目群
+* 费用
+* 用户
+* 公司
+* 开发周期
+* 账单记录
+* 组
+* <span class="preview">团队</span>
+
+<div class="preview">
+
+如果您在Workflow Ultimate包中，则还可以为这些对象创建自定义表单：
+
+* 工作角色
+* 费率卡
+* 任务
+
+</div>
+
++++
 
 1. 在&#x200B;**添加表单名称**&#x200B;区域，键入自定义表单标题。
+1. <span class="preview">（可选）如果要向表单添加更多对象类型，以便可以将其附加到更多对象，请单击表单设计器标题中的&#x200B;**对象类型**。 选择要添加的对象类型，并取消选择要从表单中删除的任何对象类型。</span>
 1. （可选）如果要向表单中添加更多对象类型，以便可以将其附加到更多对象，请单击&#x200B;**对象类型**&#x200B;旁边的![添加](assets/add-objects-icon.png)图标&#x200B;**添加对象图标**，然后在显示的菜单中选择所需的类型。 您可以重复此操作，以添加所需数量的对象类型。
 
    将多个对象添加到表单后，可以单击对象类型上的X将其从表单中删除。
@@ -259,6 +301,22 @@ ht-degree: 5%
     </ul></td>
     </tr>
     <tr>
+      <td><span class="preview">财务权限类型</span></td>
+      <td><p><span class="preview">选择用户查看或编辑此自定义字段之前必须具有的财务权限类型。 计算字段允许使用任何格式。</span></p>
+      <ul span class="preview">
+      <li><p><strong>不需要权限：</strong>所有用户都可以看到此字段</p></li>
+      <li><p><strong>常规：</strong>用户必须具有编辑或查看常规财务的权限</p></li>
+      <li><p><strong>帐单：</strong>用户必须具有编辑或查看记帐费率的权限</p></li>
+      <li><p><strong>成本：</strong>用户必须具有编辑或查看成本费率的权限</p></li>
+      </ul>
+      <p><span class="preview">有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">限制对自定义字段中的财务数据的访问</a>。</span></p>
+      </td>
+      <td><ul span class="preview">
+       <li>单行文本</li>
+       <li>段落</li>
+       </ul></td>
+    </tr>
+    <tr>
     <td>显示类型</td>
     <td>在单行文本字段和段落文本字段之间切换。</td>
     <td><ul>
@@ -398,6 +456,24 @@ ht-degree: 5%
     <li>多选下拉框</li>
     </ul></td>
     </tr> 
+    <tr>
+      <td><span class="preview">财务权限类型</span></td>
+      <td><p><span class="preview">选择用户查看或编辑此自定义字段之前必须具有的财务权限类型。 计算字段允许使用任何格式。</span></p>
+      <ul span class="preview">
+      <li><p><strong>不需要权限：</strong>所有用户都可以看到此字段</p></li>
+      <li><p><strong>常规：</strong>用户必须具有编辑或查看常规财务的权限</p></li>
+      <li><p><strong>帐单：</strong>用户必须具有编辑或查看记帐费率的权限</p></li>
+      <li><p><strong>成本：</strong>用户必须具有编辑或查看成本费率的权限</p></li>
+      </ul>
+      <p><span class="preview">有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">限制对自定义字段中的财务数据的访问</a>。</span></p>
+      </td>
+      <td><ul span class="preview">
+       <li>单选按钮</li>
+       <li>复选框组</li>
+       <li>单选下拉菜单</li>
+       <li>多选下拉框</li>
+       </ul></td>
+    </tr>
     <tr> 
      <td role="rowheader">显示类型</td> 
     <td>在字段的单选按钮、复选框组、单选下拉列表或多选下拉列表之间切换。</td> 
@@ -645,6 +721,18 @@ ht-degree: 5%
       <li>数字字段的字符限制为16。 您还可以使用文本字段输入数字并避免限制。</li>
       </ul></td>
      </tr> 
+     <tr>
+      <td><span class="preview">财务权限类型</span></td>
+      <td><p><span class="preview">选择用户查看或编辑此自定义字段之前必须具有的财务权限类型。 计算字段允许使用任何格式。</span></p>
+      <ul span class="preview">
+      <li><p><strong>不需要权限：</strong>所有用户都可以看到此字段</p></li>
+      <li><p><strong>常规：</strong>用户必须具有编辑或查看常规财务的权限</p></li>
+      <li><p><strong>帐单：</strong>用户必须具有编辑或查看记帐费率的权限</p></li>
+      <li><p><strong>成本：</strong>用户必须具有编辑或查看成本费率的权限</p></li>
+      </ul>
+      <p><span class="preview">有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">限制对自定义字段中的财务数据的访问</a>。</span></p>
+      </td>
+     </tr>
      <tr> 
       <td role="rowheader">基本 API URL</td> 
       <td><p>键入或粘贴API的URL。</p><p>API URL必须返回要在下拉列表中显示的选项的JSON内容。 您可以使用JSON路径字段从返回的JSON中选择特定值作为下拉选项。</p><p>输入API URL时，您可以选择在URL中传递以下值：</p>
@@ -666,12 +754,12 @@ ht-degree: 5%
       <td role="rowheader">JSON 路径</td>
       <td><p>键入或粘贴API的JSON路径。</p> <p>此选项允许从API URL返回的JSON中提取数据。 它提供了一种方法，用于选择在JSON内的哪些值将显示在下拉选项中。</p><p>例如，如果API URL按以下格式返回JSON，则可以使用“$.data[*].name”选择“美国”和“加拿大”作为下拉选项：</br>
       <pre>
-      &lbrace;
-       数据： &lbrace;
+      {
+       数据： {
          { name： "USA"}，
          { name： "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>有关JSON路径并确保编写正确JSON路径的更多信息，请参阅<a href="https://jsonpath.com/">https://jsonpath.com/</a>。</p></td>
@@ -716,14 +804,16 @@ ht-degree: 5%
 您可以将图像、PDF和视频添加到自定义表单。 使用附加到自定义表单的对象的用户只能在以下区域查看图像、PDF或视频：
 
 * 对象的“详细信息”区域（例如，对于项目，“项目详细信息”区域）。
-* 对象的“编辑”框(如果它具有新的Adobe Workfront Experience外观)（例如，“编辑项目”和“编辑任务”框）。
+* 对象的“编辑”框（如果它具有新的Adobe Workfront Experience外观）（例如，“编辑项目”和“编辑任务”框）。
 
-<!-- Do we need to tell them where they can't see it if we tell them where they can see it?
+<!--
+ Do we need to tell them where they can't see it if we tell them where they can see it?
 Currently, users cannot see the widget in the following areas:​
 Lists and reports
 Home and Summary
 The Edit box for the object, if it doesn't have the new Adobe Workfront experience look and feel (for example, the Edit Expense box)
-The Workfront Mobile app -->
+The Workfront Mobile app
+-->
 
 +++ 展开以查看可用字段的描述。
 
@@ -908,7 +998,7 @@ The Workfront Mobile app -->
        <p>必须使用文本模式语法为所选的引用字段定义过滤器。 有关信息，请参阅<a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">使用文本模式编辑筛选器</a>。</p>
        <p><b>注释</b>：
        <ul> 
-        <li>仅当您引用本机预输入字段(如“Portfolio”、“公司”或“所有者”)时，过滤器选项才可用。</li>
+        <li>仅当您引用本机预输入字段（如“Portfolio”、“公司”或“所有者”）时，过滤器选项才可用。</li>
         <li>如果您正在编辑现有的自定义表单，将过滤器添加到本机字段不会移除用户已使用该字段添加的任何对象（在过滤器的范围外）。</li> 
         <li>此筛选器在移动设备上不可用。 如果您将过滤器用于本机字段，则该字段将显示在不受过滤器影响的用户移动设备上。</li> 
         </ul></p></td> 
@@ -936,7 +1026,7 @@ The Workfront Mobile app -->
 您可以将Adobe XD原型直接添加到自定义表单。 使用附加到自定义表单的对象的用户只能在以下区域查看Adobe XD文件：
 
 * 对象的“详细信息”区域（例如，对于项目，“项目详细信息”区域）
-* 对象的“编辑”框(如果它具有新的Adobe Workfront Experience外观)（例如，“编辑项目”和“编辑任务”框）
+* 对象的“编辑”框（如果它具有新的Adobe Workfront Experience外观）（例如，“编辑项目”和“编辑任务”框）
 
 添加Adobe XD文件：
 
@@ -1006,7 +1096,7 @@ The Workfront Mobile app -->
 
 通过将Workfront连接自定义字段添加到对象的自定义表单，您可以在Workfront对象的自定义字段中查看从Planning连接的记录。
 
-可将Planning连接字段添加到所有对象的自定义表单中。 但是，您只能在与Workfront对象(可从Workfront Planning连接)关联的自定义表单上显示连接的记录。
+可将Planning连接字段添加到所有对象的自定义表单中。 但是，您只能在与Workfront对象（可从Workfront Planning连接）关联的自定义表单上显示连接的记录。
 
 >[!NOTE]
 >

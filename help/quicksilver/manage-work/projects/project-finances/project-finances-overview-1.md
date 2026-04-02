@@ -7,9 +7,9 @@ description: 跟踪项目财务对于管理项目至关重要。
 author: Lisa
 feature: Work Management
 exl-id: a5e69dea-d0aa-47cd-9b59-6199cec56fe4
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '592'
 ht-degree: 7%
 
 ---
@@ -95,7 +95,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td>记帐费率</td> 
-   <td> <p>您可以为用户或工作角色建立记帐费率。</p> <p>有关将用户与记帐费率关联的信息，请参阅<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">编辑用户配置文件</a>。</p> <p>有关将工作角色与记帐费率关联的信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">创建和管理工作角色</a>。</p> <p>记帐费率计算您的项目和任务的收入。 您可以覆盖项目或公司的角色记帐费率。 </p> <p>有关覆盖项目记帐费率的信息，请参阅<a href="../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md" class="MCXref xref">覆盖工作角色记帐费率并计算项目收入的概述</a>。</p> <p>有关覆盖公司记帐费率的详细信息，请参阅<a href="../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md" class="MCXref xref">使用公司级别记帐费率覆盖项目级别记帐费率</a>。</p> </td> 
+   <td> <p>您可以为用户或工作角色建立记帐费率。</p> <p>有关将用户与记帐费率关联的信息，请参阅<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">编辑用户配置文件</a>。</p> <p>有关将工作角色与记帐费率关联的信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">创建和管理工作角色</a>。</p> <p>记帐费率计算您的项目和任务的收入。 您可以覆盖项目或公司的角色记帐费率。 </p> <p>有关覆盖项目记帐费率的信息，请参阅<a href="../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md" class="MCXref xref">覆盖记帐费率并计算项目收入的概述</a>。</p> <p>有关覆盖公司记帐费率的详细信息，请参阅<a href="../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md" class="MCXref xref">使用公司级别记帐费率覆盖项目级别记帐费率</a>。</p> </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 
@@ -115,7 +115,7 @@ ht-degree: 7%
    <td> </td> 
   </tr> 
   <tr> 
-   <td>绩效指标</td> 
+   <td>绩效量度</td> 
    <td> <p>绩效指标显示您的项目或任务在给定时间的执行情况。 绩效指标是Workfront为任务和项目执行的自动计算。 以下行列出了可以在Workfront中计算的性能指标。 绩效指标的计算因您使用的绩效指标方法类型而异。 </p> <p>有关选择哪个PIM用于系统的详细信息，请参阅<a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">设置绩效指数方法(PIM)</a>。</p> </td> 
    <td>✔</td> 
    <td>✔</td> 

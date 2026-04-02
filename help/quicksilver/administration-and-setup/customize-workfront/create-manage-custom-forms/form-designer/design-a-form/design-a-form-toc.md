@@ -10,9 +10,9 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 091edfd8-8b69-4a56-9dae-ec73828a3f64
-source-git-commit: 01eeed1f73c47b79344ca60f3f6d866452cad140
+source-git-commit: 2084f3c924dde609ac14ff4270e0f61d0b5d5d25
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
@@ -26,5 +26,6 @@ ht-degree: 0%
 * [将计算字段添加到表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
 * [向自定义表单和字段添加逻辑规则](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
 * [自定义表单中的高级逻辑示例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/advanced-logic-examples.md)
+* [限制对自定义字段中财务数据的访问](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md)
 * [自定义表单中的外部查找字段示例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
 * [组织和预览表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)

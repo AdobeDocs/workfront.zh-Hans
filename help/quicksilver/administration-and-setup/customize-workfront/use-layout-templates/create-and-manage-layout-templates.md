@@ -9,10 +9,12 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 2%
+source-wordcount: '507'
+ht-degree: 5%
 
 ---
 
@@ -24,6 +26,8 @@ ht-degree: 2%
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
+{{highlighted-preview}}
+
 作为Adobe Workfront管理员或组管理员，您可以创建和修改布局模板，以在Workfront中为您的用户自定义以下布局元素：
 
 * 主菜单
@@ -32,23 +36,24 @@ ht-degree: 2%
 * 摘要面板
 * 人们用于列表和报告的视图、筛选器和分组。
 * 屏幕术语
-* 项目、任务和问题标题
+* <span class="preview">对象标头</span>
+* 对象的<span class="preview">更多菜单（三点菜单）</span>
 
 创建或修改布局模板后，可将其分配给单个用户、团队、组或工作角色。
 
 每个用户的默认Workfront布局取决于其访问级别和许可证类型。 例如，某些用户可能不会在主菜单中看到某些区域。 有关详细信息，请参阅[关于默认Adobe Workfront布局](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td>Adobe Workfront 包</td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
@@ -76,10 +81,6 @@ ht-degree: 2%
 
 有关布局模板的详细信息，请参阅[布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)。
 
-<!--removed this from above, but keeping it for a bit, in case it will be needed - known issue around old templates still visible at time:
-* Your older layout templates created in Adobe Workfront Classic have been automatically available in your instance of the new Adobe Workfront experience since they were migrated in early Fall 2019. Layout templates created in Adobe Workfront Classic after that time were migrated in April 2020. We recommend that you update these layout templates in the new Adobe Workfront experience to take advantage of new functionality and to make them even more useful in that environment.
--->
-
 ## 创建或修改布局模板
 
 {{step-1-to-setup}}
@@ -98,6 +99,7 @@ ht-degree: 2%
 
    * [使用布局模板自定义主菜单](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
    * [使用布局模板自定义左侧面板](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
+   * [使用布局模板自定义更多菜单](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-more-menu.md)
    * [使用布局模板自定义固定页面](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
    * [使用布局模板自定义详细信息视图](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
    * [使用布局模板自定义摘要面板](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
@@ -114,5 +116,5 @@ ht-degree: 2%
 
 >[!TIP]
 >
->您还可以通过复制和更改副本来创建布局模板。 有关详细信息，请参阅[复制布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)。
+>您还可以通过复制布局模板并更改复制的版本来创建该布局模板。 有关详细信息，请参阅[复制布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)。
 

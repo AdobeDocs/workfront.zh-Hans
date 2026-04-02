@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: a30e505aa2061240f92642fda274be66e4947bce
+source-git-commit: 3fe3313bd545d51be7aa0fb021dd0bb0f91b4321
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 0%
+source-wordcount: '1699'
+ht-degree: 1%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 0%
 <!-- Audited: 1/2024 -->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
+
+{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -31,9 +33,9 @@ ht-degree: 0%
 >
 >工作角色是管理资源的组成部分。 要使用资源计划工具，工作角色需要与其关联的成本和记帐费率。 有关信息，请参阅[资源管理入门](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,12 +43,13 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] 包</td> 
-   <td><p>任何</p></td> 
+   <td><p>创建或编辑工作角色：任何Workfront或工作流包</p>
+   <p>要应用费率属性并将自定义表单添加到工作角色，请执行以下操作：工作流Ultimate</p></td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p>
-       <p>[!UICONTROL 计划]</p></td>
+   <td><p>[！UICONTROL标准版]</p>
+       <p>[！UICONTROL计划]</p></td>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
@@ -65,9 +68,10 @@ ht-degree: 0%
 
 {{step-1-to-setup}}
 
-1. 在左侧面板中，单击&#x200B;**[!UICONTROL 工作角色]。**
-1. 单击&#x200B;**[!UICONTROL 新建工作角色].**
-1. 配置以下字段：
+1. 在左侧面板中，单击&#x200B;**[!UICONTROL 工作角色]**。
+1. 单击&#x200B;**[!UICONTROL 新建工作角色]**。
+<!-- 1. Click **New Job Role > Create new job role**.  -->
+1. 在以下字段中输入信息：
 
    * **名称**：指示工作角色的名称。 该名称会显示Workfront中工作角色字段显示的所有位置。
 
@@ -114,7 +118,92 @@ ht-degree: 0%
      >
      >编辑现有工作角色时，您可以对列表进行排序，以在费率列表顶部查看最近的开始日期。
 
+<!-- Remove or hide the billing rate and cost rate bullets on April 16 for GA -->
+
 1. 单击&#x200B;**[!UICONTROL 创建工作角色]**。 工作角色现在可以分配给任务、问题、批准，或者您可以与其共享布局模板或其他对象。 有关[!DNL Workfront]中所有工作角色用途的信息，请参阅[工作角色概述](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md)。 有关删除工作角色的信息，请参阅[删除工作角色](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md)。
+
+<div class="preview">
+
+## 将费率和属性添加到工作角色
+
+工作角色的计费和成本费率用于财务计算。
+
+存在费率的Workfront区域（如工作角色和用户）支持费率属性。 对工作角色应用属性后，其分配会自动解析为正确的费率。
+
+有关详细信息，请参阅[定义费率属性](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)。
+
+{{step-1-to-setup}}
+
+1. 在左侧面板中，单击&#x200B;**[!UICONTROL 工作角色]**。
+1. 单击现有工作角色的名称以对其进行编辑。
+1. 要更新工作角色详细信息，请单击左侧面板中的&#x200B;**详细信息**。
+1. （可选）要将自定义表单附加到工作角色，请单击“详细信息”页面右上角的&#x200B;**添加自定义表单**&#x200B;字段，然后从显示的列表中选择自定义表单。
+
+   有关附加自定义表单的详细信息，请参阅[将自定义表单添加到对象](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)。
+
+1. 单击左侧面板中的&#x200B;[!UICONTROL **费率**]。
+1. 单击&#x200B;[!UICONTROL **计费**]&#x200B;或&#x200B;[!UICONTROL **成本**]&#x200B;以选择费率类型。
+1. 单击&#x200B;[!UICONTROL **添加费率**]&#x200B;以添加新费率。
+
+   或
+
+   选择现有费率，然后单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)进行更新。
+
+   >[!NOTE]
+   >
+   >由于每个费率都与角色和属性的组合相关联以创建唯一费率，因此在编辑费率时无法更改属性。
+
+1. 在&#x200B;**新费率**&#x200B;框中，选择费率属性，例如“代理”、“地点”或“成本中心”。
+
+   >[!NOTE]
+   >
+   >这些属性是单独定义的，可能会影响收入和成本的计算。 有关详细信息，请参阅[定义费率属性](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)。
+
+1. 为汇率选择&#x200B;**货币**。 Workfront管理员在“设置”区域添加基本货币。 您可以将所选内容更改为其他可用货币，也可以更改有效日期时间范围内的货币。
+
+   >[!TIP]
+   >
+   >此字段仅提供系统中汇率区域中可用的货币。 如果只设置一种货币，则只有该货币可用。
+
+   有关在Workfront中设置基础货币的信息，请参阅[设置汇率](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)。
+
+   有关更改项目货币的信息，请参阅[更改项目货币](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md)。
+
+1. （视情况而定）对于记帐费率，输入此工作角色的&#x200B;**记帐费率**。
+
+   这是工作角色的每小时记帐费率。 此值计算与角色相关的任务和问题的计划收入和实际收入，最终计算项目的计划收入和实际收入。 使用选定币种输入汇率。
+
+   如果使用属性，则属性和工作角色将组合起来定义唯一费率。 例如，A代理人在纽约的Designer角色可以与B代理人在巴黎的Designer角色具有不同的费率。
+
+   对于日期有效记帐费率，请单击&#x200B;**添加费率**。 输入时间期的记帐/小时值，并根据需要分配起始日期和终止日期。 第一个记帐费率没有开始日期，最后一个记帐费率没有结束日期。
+
+   某些日期会自动添加。 例如，如果第一个记帐费率没有结束日期，而您添加第二个记帐费率的开始日期为5月1日，则结束日期为4月30日将添加到第一个记帐费率，因此不存在间隔。
+
+   有关Workfront如何计算收入的信息，请参阅[账单和收入概述](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md)。
+
+   >[!TIP]
+   >
+   >编辑现有工作角色时，您可以对列表进行排序，以在费率列表顶部查看最近的开始日期。
+
+1. （视情况而定）对于成本费率，输入此工作角色的&#x200B;**成本费率**。
+
+   这是工作角色的每小时成本率。 此值计算与角色相关的任务和问题的计划成本和实际成本，并最终计算项目的计划和实际成本。 使用选定币种输入汇率。
+
+   如果使用属性，则属性和工作角色将组合起来定义唯一费率。 例如，A代理人在纽约的Designer角色可以与B代理人在巴黎的Designer角色具有不同的费率。
+
+   对于日期有效成本费率，请单击&#x200B;**添加费率**。 输入时间期的成本/小时值，并根据需要分配起始日期和终止日期。 第一个成本费率没有起始日期，最后一个成本费率没有终止日期。
+
+   某些日期会自动添加。 例如，如果第一个成本费率没有终止日期，并且您添加了一个起始日期为5月1日的第二个成本费率，则终止日期为4月30日将添加至第一个成本费率，因此不存在任何间隔。
+
+   有关Workfront如何计算成本的信息，请参阅[跟踪成本](/help/quicksilver/manage-work/projects/project-finances/track-costs.md)。
+
+   >[!TIP]
+   >
+   >编辑现有工作角色时，您可以对列表进行排序，以在费率列表顶部查看最近的开始日期。
+
+1. 单击&#x200B;[!UICONTROL **保存**]。
+
+</div>
 
 <!--
    * **Override Currency Cost Rate**: This is the cost per hour rate of the job role using the selected Override Currency. Workfront uses this value to calculate the planned and the actual costs of tasks and issues associated with the job role.
@@ -137,67 +226,6 @@ ht-degree: 0%
      >
      >When updating an existing job role that already has a billing rate associated with it, Workfront calculates the Override Currency rate based on the conversion rate in your system. If you update the Override Currency Billing Rate, the billing rate of the job role also updates automatically.
 
-
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Name]</td> 
-      <td> <p>Indicate a name for the job role. This is the name that displays everywhere in [!DNL Workfront] where the [!UICONTROL Job Role] field displays. </p> <p>Tip: The name of a job role may contain up to 255 characters. However, longer names might be truncated in certain areas of [!DNL Workfront]. </p> </td> 
-     </tr>
-     <tr> 
-      <td role="rowheader">[!UICONTROL Description]</td> 
-      <td>Enter a description for the role that indicates what is unique about it. </td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL Is Active]</span> </td> 
-      <td> 
-       <ul> 
-        <li> <p>Select <b>[!UICONTROL Yes]</b> if you want the role to be active and available everywhere in [!DNL Workfront] to be associated with users, work items, etc. </p> </li> 
-        <li> <p>Select <b>[!UICONTROL No]</b>, if you want the role to be deactivated and not available to assign to users, work items, etc. </p> </li> 
-       </ul> <p><span>For information about deactivating job roles, see</span> <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md" class="MCXref xref">Deactivate job roles</a>. </p> </td> 
-     </tr>
-     <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL Base Currency]</span> </td> 
-      <td> <p><span>This is the [!UICONTROL Base Currency], as set in the [!UICONTROL Setup] area by your Workfront administrator. For information, see</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a> .</p> <p>Tip: <span>You cannot edit the [!UICONTROL Base Currency] at the job role level. This field is dimmed and serves as a reminder for what the base currency is for your system.</span> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Cost Rate]</td> 
-      <td><p>This is the cost per hour rate of the job role. This value calculates the planned and the actual costs of tasks and issues associated with the role, and ultimately the planned and actual costs of the projects. Enter the rate using the [!UICONTROL Base Currency].</p> 
-      <p>For date effective cost rates, click <strong>[!UICONTROL Add Rate]</strong>. Enter the value of the cost/hour for the time period, and assign a [!UICONTROL Start Date] and [!UICONTROL End Date] as needed. The first cost rate will not have a start date and the last cost rate will not have an end date.</p> <p>Some dates are added automatically. For example, if the first cost rate does not have an end date, and you add a second cost rate with a start date of May 1, 2023, an end date of April 30, 2023 is added to the first cost rate so that no gaps exist.</p> <p>Tip: When editing an existing job role, you can select <strong>Sort by start date</strong> to see the most recent start date at the top of the rate list.</p></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Billing Rate] </td> 
-      <td><p>This is the billing per hour rate of the job role. This value calculates the planned and actual revenues of tasks and issues associated with the role, and ultimately the planned and actual revenues of the projects. Enter the rate using the [!UICONTROL Base Currency].</p> <p>For date effective billing rates, click <strong>[!UICONTROL Add Rate]</strong>. Enter the value of the billing/hour for the time period, and assign a [!UICONTROL Start Date] and [!UICONTROL End Date] as needed. The first billing rate will not have a start date and the last billing rate will not have an end date.</p> <p>Some dates are added automatically. For example, if the first billing rate does not have an end date, and you add a second with a start date of May 1, 2023, an end date of April 30, 2023 is added to the first billing rate so that no gaps exist.</p> <p>Tip: When editing an existing job role, you can select <strong>Sort by start date</strong> to see the most recent start date at the top of the rate list.</p> </td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL Override Currency]</span> </td> 
-      <td>
-        <p>Select a currency associated with this job role. This is the currency that [!DNL Workfront] uses for calculating costs and revenue associated with this job role. </p> 
-        <p><span>This is different than the [!UICONTROL Base Currency] set up by your [!DNL Workfront] administrator in the [!UICONTROL Setup] area, and can be different than the currency associated with a project.</span> </p> 
-        <p>Tip: Only currencies available in the [!UICONTROL Exchange Rates] area in your system are available in this field. If you only have one currency set up, this field is does not appear.</p> 
-       <p><span>For information about setting up the [!UICONTROL Base Currency] in [!DNL Workfront], see</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a>.</p> <p><span>For information about changing the currency of a project, see</span> <a href="../../../manage-work/projects/project-finances/change-project-currency.md" class="MCXref xref">Change the project currency</a>.</p> </td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL Override Currency Cost Rate]</span> </td> 
-      <td>
-        <p>This is the cost per hour rate of the job role using the selected [!UICONTROL Override Currency]. [!DNL Workfront] uses this value to calculate the planned and the actual costs of tasks and issues associated with the job role. </p> 
-        <p><span>Enter the rate in the [!UICONTROL Override Currency] specified above. This also updates the Cost Rate for this job role when using the [!UICONTROL Base Currency].</span> </p> 
-        <p>For information about how [!DNL Workfront] calculates cost, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> 
-       <p>Tip: When updating an existing job role that already has a Cost Rate associated with it, [!DNL Workfront] calculates the [!UICONTROL Override Currency] rate based on the conversion rate in your system. If you update the [!UICONTROL Override Currency Cost Rate], the Cost Rate of the job role also updates automatically.</p> </td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL Override Currency Billing Rate]</span> </td> 
-      <td>
-        <p>This is the billing per hour rate of the job role using the selected [!UICONTROL Override Currency]. [!DNL Workfront] uses this value to calculate the planned and the actual revenue of tasks and issues associated with the job role. </p>
-        <p><span>Enter the rate in the [!UICONTROL Override Currency] specified above. This also updates the Billing Rateate for this job role when using the [!UICONTROL Base Currency].</span> </p>
-        <p>For information about how [!DNL Workfront] calculates revenue, see <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a>.</p>
-        <p>Tip: When updating an existing job role that already has a Billing Rate associated with it, [!DNL Workfront] calculates the Override Currency rate based on the conversion rate in your system. If you update the Override Currency Billing Rate, the Billing Rate of the job role also updates automatically. </p>
-       </td>
-     </tr> 
-    </tbody> 
-   </table>
 -->
 
 

@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dead6081-dfd2-4b1a-8be2-32a0ba813bc3
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 1dd0faae822310616e2ca3d067169d5620846736
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 3%
@@ -61,6 +61,6 @@ ht-degree: 3%
   >如果用户为其用户配置文件分配了布局模板，则该模板优先于分配给其主要工作角色的模板。 有关详细信息，请参阅[将用户分配给布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)。
 
 * 使用[!DNL Adobe Workfront Scenario Planner]时，您可以将工作角色分配给计划和计划以管理资源的可用性。 这需要[!DNL Scenario Planner]的额外许可证。 有关详细信息，请参阅[开始使用 [!DNL Scenario Planner]](../../../scenario-planner/get-started-with-scenario-planning.md)。
-* 在处理来自不同国家/地区的资源时，您可以根据不同货币覆盖工作角色费率。 这可让您为工作项获取更准确的成本和收入金额。
+* 使用不同国家/地区的资源时，您可以更改有效日期工作角色费率的币种。 这可让您为工作项获取更准确的成本和收入金额。
 
   有关详细信息，请参阅[创建和管理工作角色](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)。

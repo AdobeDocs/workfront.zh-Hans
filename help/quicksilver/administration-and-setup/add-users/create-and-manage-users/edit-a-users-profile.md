@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: e5ac8fde409b960aacd3cf7daa0532e9bc3e8121
 workflow-type: tm+mt
-source-wordcount: '3403'
+source-wordcount: '3478'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/cn/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -34,17 +34,18 @@ ht-degree: 0%
 
 有关用户更新其个人资料的信息，请参阅[配置我的设置](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td>Adobe Workfront 包</td> 
+   <td><p>编辑用户配置文件：任何Workfront或Workflow包</p>
+       <p>要设置费率属性和成本费率改写，请执行以下操作：工作流Ultimate</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
@@ -88,7 +89,7 @@ ht-degree: 0%
 
   选择&#x200B;**我不是自动机**&#x200B;设置，然后才能继续。
 
-  如果您使用电子邮件允许列表并输入不在列表中的电子邮件域，则用户不会收到电子邮件通知。 有关允许列表列入允许列表的详细信息，请参阅[配置电子邮件](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)。
+  如果您使用电子邮件允许列表并输入不在列表中的电子邮件域，则用户不会收到电子邮件通知。 有关允许列表的详细信息，请参阅[配置电子邮件](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)。
 
   如果贵组织已迁移到Adobe Admin Console，则无法在Workfront中编辑用户的电子邮件地址。 用户的电子邮件地址是在Adobe Admin Console中设置的。
 
@@ -105,7 +106,7 @@ ht-degree: 0%
   您无法重置Workfront管理员的密码。
 
 * **&lt;SSO配置>用户名**：如果您的Workfront管理员启用了与Workfront的SSO集成，则SSO用户名将显示在此字段中。 此字段将显示为您的Workfront实例启用的SSO配置类型。
-* **OnlyAllow &lt;SSO Configuration>身份验证**：如果您的Workfront管理员启用了与Workfront的SSO集成，并更新了SSO的所有用户，则默认情况下会选择此字段。 此字段将显示为您的Workfront实例启用的SSO配置类型。
+* **OnlyAllow &lt;SSO配置>身份验证**：如果您的Workfront管理员启用了与Workfront的SSO集成，并更新了SSO的所有用户，则默认情况下会选择此字段。 此字段将显示为您的Workfront实例启用的SSO配置类型。
 
   如果选择此字段，用户需要使用其SSO凭据登录Workfront。 取消选中此项将允许他们使用其Workfront凭据登录Workfront。
 
@@ -264,9 +265,11 @@ ht-degree: 0%
 
   有关配置资源管理首选项的信息，请参阅[配置资源管理首选项](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)。
 
-  <span class="preview">（可选）如果用户在项目期间的工作角色发生更改，则在财务计算中使用生效日期的工作角色分配。</span>
+<!--
+<span class="preview">(Optional) Date effective job role assignments are used in financial calculations if the user's job role changes during a project.</span>
 
-  <span class="preview">单击&#x200B;**按日期定义角色**，选择&#x200B;**主要角色**&#x200B;和&#x200B;**其他角色**，然后输入每个角色的分配百分比。 这些角色可以与现有角色（使用不同的百分比）相同，也可以是新角色。 选择这些角色生效时的“开始”日期。 这可以是未来的日期。 当最新的角色变为活动角色时，您可以单击&#x200B;**显示以前的角色**&#x200B;以查看以前的非活动角色。</span>
+  <span class="preview">Click **Define roles by date**, select the **Primary Role** and **Other Roles**, and enter the allocation percentage for each role. The roles could be the same as the existing roles (using different percentages), or new roles. Select the Start date when these roles become active. This can be a future date. When the newest roles become active, you can click **Show previous roles** to see the previous, inactive roles.</span>
+-->
 
 * **计划**：将计划与用户关联。 用户调度计算用户所分配任务的时间线。
 
@@ -316,6 +319,8 @@ ht-degree: 0%
 
   某些日期会自动添加。 例如，如果成本费率1没有终止日期，并且您添加了“成本费率2”起始日期为2023年5月1日，则终止日期为2023年4月30日，这样成本费率1就不会出现任何差距。
 
+* <span class="preview">**允许成本费率覆盖**：启用此选项以允许项目上此用户的成本费率覆盖。 有关详细信息，请参阅[覆盖项目级别](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md)的用户成本费率。</span>
+
 * **记帐费率**：用户每小时的记帐金额。
 
   对于日期有效记帐费率，请单击&#x200B;**添加费率**。 输入时间期的开单费率值，并根据需要分配起始日期和终止日期。 记帐费率1没有开始日期，最后一个记帐费率没有结束日期。
@@ -330,11 +335,33 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->高级自定义表单功能(如外部查找字段和Workfront本地字段)仅在您于详细信息页面（而非“编辑用户”对话框）中打开用户记录时可用。 （在用户列表中，单击用户名以打开详细信息。）
+>高级自定义表单功能（如外部查找字段和Workfront本地字段）仅在您于详细信息页面（而非“编辑用户”对话框）中打开用户记录时可用。 （在用户列表中，单击用户名以打开详细信息。）
 
 有关创建自定义表单的信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
-### 评论
+<div class="preview">
+
+### 属性
+
+存在费率的Workfront区域（如工作角色和用户）支持费率属性。 将属性应用于用户配置文件后，其分配会自动解析为正确的费率。
+
+1. 单击&#x200B;**添加新集**。
+1. 选择属性值。
+
+   Workfront管理员可设置可用属性。 这些可能包括代理、地点、成本中心、客户或您的组织所需的其他属性。
+
+1. （可选）要添加另一组具有有效日期的属性，请执行以下操作：
+
+   1. 单击&#x200B;**添加新集**。
+   1. 为当前属性集选择&#x200B;**结束日期**。
+
+      将自动添加下一组的&#x200B;**开始日期**。
+
+   1. 为下一个属性集添加属性值。 这些值在开始日期生效。
+
+</div>
+
+### 注释
 
 键入要发送给用户的评论，并转到其用户配置文件的“更新”区域。
 

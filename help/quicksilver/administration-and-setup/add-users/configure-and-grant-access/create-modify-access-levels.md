@@ -8,9 +8,11 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 0f2923851230e830eb647d422f2862a0c5d5472b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1612'
 ht-degree: 7%
 
 ---
@@ -20,6 +22,8 @@ ht-degree: 7%
 <!--Audited: 12/2023-->
 
 <!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help. -->
+
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 作为Adobe Workfront管理员，您可以创建自定义访问级别并将其应用于用户。 当您使用访问级别时，了解它们如何与用户在彼此共享对象时授予的对象权限一起工作很重要。 有关访问级别的详细信息，请参阅：
 
@@ -191,8 +195,21 @@ ht-degree: 7%
       <td role="rowheader">不允许用户删除公告</td> 
       <td>防止用户删除公告中心中的公告。 有关详细信息，请参阅<a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref">发送公告</a>。</td> 
      </tr> 
+     <tr>
+      <td role="rowheader">允许用户访问品牌</td> 
+      <td>允许用户在Workfront中访问和管理GenStudio品牌。 有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md" class="MCXref xref">授予对品牌权限的访问权限</a>。</td> 
+     </tr>
     </tbody> 
    </table>
+
+
+1. <span class="preview">（可选）要限制具有此访问级别的用户查看特定字段，请在“添加受限字段”部分中添加这些字段。</span>
+
+   <span class="preview">您可以在此分区中搜索本机字段和自定义字段。 限制为20个受限字段。</span>
+
+   <span class="preview">当访问级别作为用户的主要访问级别或通过业务配置文件分配给用户时，将限制这些字段。 有关企业档案的详细信息，请参阅[企业档案概述](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)。</span>
+
+   <span class="preview">受限字段对系统中的用户仍可见，但显示为空白或显示N/A而非实际数据。</span>
 
 1. （有条件，可选）如果您的Workfront系统设置为属于多个公司的用户，请根据其他用户在部分&#x200B;**中所属的公司来限制其他用户的可见性。其他公司的人员应仅查看来自**&#x200B;的用户。
 

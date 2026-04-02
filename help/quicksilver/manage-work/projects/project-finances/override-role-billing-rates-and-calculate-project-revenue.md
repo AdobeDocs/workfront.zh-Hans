@@ -1,28 +1,58 @@
 ---
 product-area: projects
 navigation-topic: financials
-title: 改写工作角色开单费率和计算项目收入概览
-description: 当记帐费率乘以项目所花费的小时数时，可以使用记帐费率计算项目收入。 有关记帐费率和收入的更多信息，请参阅记帐和收入概述一文。
+title: 改写开单费率和计算项目收入概览
+description: 当记帐费率乘以项目所花费的小时数时，可以使用记帐费率计算项目收入。
 author: Lisa
 feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
-source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
+source-git-commit: fda01f74912b5b9f28085e6dbc79ca3ba69e38fc
 workflow-type: tm+mt
-source-wordcount: '3859'
+source-wordcount: '4653'
 ht-degree: 0%
 
 ---
 
-# 改写工作角色开单费率和计算项目收入概览
+# 覆盖开单费率和计算项目收入概览
 
 {{highlighted-preview}}
 
 当记帐费率乘以项目所花费的小时数时，可以使用记帐费率计算项目收入。 有关记帐费率和收入的更多信息，请参阅文章[记帐和收入概览](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)。
 
-## 工作角色开单费率和角色每小时收入类型概览
+## 开单费率和任务收入类型概览
 
 作为Adobe Workfront管理员，您可以将记帐费率与用户和职位角色关联。\
 有关创建用户并将其与记帐费率关联的更多信息，请参阅文章[添加用户](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)。 有关创建工作角色并将其与记帐费率关联的更多信息，请参阅文章[创建和管理工作角色](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)。
+
+<div class="preview">
+
+### 概述 — 工作流Ultimate包
+
+可以在项目级别覆盖与用户和工作角色关联的记帐费率。
+
+要根据工作角色的记帐费率计算项目收入，项目任务的&#x200B;**收入类型**&#x200B;必须是以下之一：
+
+* 角色每小时
+* 受限角色小时
+* 角色小时加固定
+* 用户和角色按小时计
+* 受限用户每小时和角色
+* 用户和角色按小时计加固定费用
+
+要根据用户的记帐费率计算项目收入，项目上任务的收入类型必须是以下之一：
+
+* 用户每小时
+* 受限用户小时
+* 用户小时加固定
+* 用户和角色按小时计
+* 受限用户每小时和角色
+* 用户和角色按小时计加固定费用
+
+有关&#x200B;**收入类型**&#x200B;和记帐费率的详细信息，请参阅[记帐和收入概览](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)。
+
+</div>
+
+### 概述 — 所有其他Workfront和Workflow包
 
 无法覆盖与用户关联的记帐费率。
 
@@ -36,7 +66,31 @@ ht-degree: 0%
 
 有关&#x200B;**收入类型**&#x200B;和记帐费率的详细信息，请参阅[记帐和收入概览](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)。
 
-## 计算收入时记帐费率覆盖的层次结构
+<div class="preview">
+
+## 计算收入时记帐费率覆盖的层次结构 — 工作流Ultimate包
+
+>[!NOTE]
+>
+>在查找用于收入计算的记帐费率时，“用户”和“角色每小时”收入类型遵循详细的层次结构。 有关信息，请参阅[收入和成本层次结构概览](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)。
+
+工作角色可以通过以下方式与其关联记帐费率：
+
+* 作为Workfront管理员，您可以在创建工作角色时定义与工作角色关联的系统级别记帐费率。\
+  有关创建工作角色的更多信息，请参阅[创建和管理工作角色](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)。
+
+* 作为Workfront管理员，您可以根据属性和有效日期定义每个角色具有多个记帐费率的费率卡。 将费率卡附加到项目后，所有角色、其属性及其关联的记帐费率都将添加到项目的记帐费率部分。 附加费率卡会覆盖项目上的任何现有记帐费率。
+
+  有关详细信息，请参阅[管理费率卡](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)和[将费率卡附加到项目](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)。
+
+* 作为项目经理，您可以在项目层为相同工作角色定义开单费率。\
+  项目上工作角色费率的更改将仅影响该项目。
+
+  有关覆盖项目角色费率的信息，请参阅[覆盖项目级别的工作角色记帐费率](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)。
+
+</div>
+
+## 计算收入时记帐费率覆盖的层次结构 — 所有其他Workfront和Workflow包
 
 工作角色可以通过以下方式与其关联记帐费率：
 
@@ -56,14 +110,6 @@ ht-degree: 0%
 * 作为Workfront管理员，您可以在编辑项目时启用一个选项，以便在用户手动重新计算项目财务时将更改应用到项目中的公司级别记帐费率。\
   有关详细信息，请参阅[用公司级别的记帐费率覆盖项目级别的记帐费率](../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md)。
 
-<div class="preview">
-
-* 作为Workfront管理员，您可以根据位置和日期定义每个角色具有多个计费费率的费率卡。 将费率卡附加到项目后，所有角色（如果使用位置，则按位置）及其关联的记帐费率将添加到项目的记帐费率部分。 附加费率卡会覆盖项目上的任何现有记帐费率。
-
-  有关详细信息，请参阅[管理费率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)和[将费率卡附加到项目](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)。
-
-</div>
-
 * 作为项目经理，您可以在项目层为相同工作角色定义开单费率。\
   项目上工作角色费率的更改将仅影响该项目。
 
@@ -81,13 +127,41 @@ ht-degree: 0%
 
 有关如何覆盖项目级别的工作角色记帐费率的信息，请参阅[覆盖项目级别的工作角色记帐费率](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)。
 
-有关使用哪个工作角色计算项目收入的更多信息，请参阅[账单和收入概览](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)中的“基于用户和角色分配的任务收入计算”部分。 <span class="preview">有关将费率卡附加到项目的信息，请参阅[将费率卡附加到项目](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)。</span>
+有关使用哪个工作角色计算项目收入的更多信息，请参阅[账单和收入概览](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments)中的[根据用户和角色分配的任务收入计算](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)部分。
+
+<span class="preview">有关将费率卡附加到项目的信息，请参阅[将费率卡附加到项目](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)。</span>
 
 >[!NOTE]
 >
 >在实际收入中，应用到标记为已记帐的记帐记录的小时数的记帐费率，不应受记帐记录记帐后发生的记帐费率覆盖的影响。
 
-## 项目的“记帐费率”部分概述
+<div class="preview">
+
+## 项目的“记帐费率”部分概述 — 工作流Ultimate包
+
+为与项目关联的工作角色指定覆盖记帐费率后，您可以在项目的&#x200B;**费率>记帐费率**&#x200B;选项卡中看到所有工作角色及其覆盖。
+
+### 费率分组
+
+在&#x200B;**记帐费率**&#x200B;区域中，记帐费率首先按其来源（费率卡或覆盖）分组，然后按资源类型分组：工作角色或用户。
+
+在与工作角色对应的分组行中，注意&#x200B;**值**&#x200B;列中项目级别该工作角色的记帐费率。 如果工作职责具有日期有效改写率，则系统将按日期顺序显示改写率。
+
+当工作角色存在覆盖费率或费率卡费率时，在为项目计算收入时不会自动应用工作角色的系统默认费率。 根据收入类型确定记帐费率需遵循相应的层次结构。 有关详细信息，请参阅[收入和成本层次结构概览](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)。
+
+### 工作角色的多个记帐费率值
+
+如果特定工作角色具有多个覆盖记帐费率，则这些费率会在工作角色分组下列出。 使用内联编辑，您可以更改覆盖费率以及此选项卡上覆盖计费率的&#x200B;**开始日期**&#x200B;和&#x200B;**结束日期**。 或者，选择一个费率并单击&#x200B;**编辑**&#x200B;图标以设置生效日期的覆盖率。
+
+>[!NOTE]
+>
+>当生效日期的&#x200B;**开始日期**&#x200B;或&#x200B;**结束日期**&#x200B;为空时，Workfront假设第一个覆盖率适用于日期早于第一次覆盖的&#x200B;**结束日期**&#x200B;的所有小时，最后一个覆盖率适用于日期早于上次覆盖的&#x200B;**开始日期**的所有小时。
+>如果在项目的计划开始日期之前记录了一个小时，则使用第一个记帐费率。\
+>如果在项目的计划完成日期后记录了一个小时，则使用最后一个记帐费率。
+
+</div>
+
+## 项目的“记帐费率”部分概述 — 所有其他Workfront和Workflow包
 
 在为与项目关联的工作角色指定覆盖记帐费率后，您可以在项目的&#x200B;**记帐费率**&#x200B;选项卡中看到所有工作角色及其覆盖。
 
@@ -101,7 +175,7 @@ ht-degree: 0%
 
 ### 工作角色分组 {#job-role-grouping}
 
-记帐费率在&#x200B;**记帐费率**&#x200B;区域按其各自的工作角色分组。 <span class="preview">如果为项目附加了费率卡，则工作角色也将按费率卡分组。 如果将位置应用于工作角色，则位置名称会作为工作角色名称的一部分包括在内。 您可以为多个位置列出相同的工作角色。</span>
+记帐费率在&#x200B;**记帐费率**&#x200B;区域按其各自的工作角色分组。
 
 ### 项目记帐费率值 {#project-billing-rate-value}
 
@@ -121,13 +195,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-><span class="preview">将费率卡附加到项目时，**公司记帐费率**&#x200B;未在记帐费率中导入。 计算基于工作角色的费率卡费率或公司费率。</span>
->
 >如果工作角色存在项目记帐费率，则绝不会将&#x200B;**公司记帐费率**&#x200B;应用于计算项目的收入。 仅应用&#x200B;**项目记帐费率**&#x200B;来计算收入。
 
 ### 多个记帐费率值和时间范围 {#multiple-billing-rate-values-and-timeframes}
 
-如果某个特定工作角色具有多个覆盖记帐费率，则会在该工作角色的分组下列出这些费率。 使用内联编辑，您可以在此选项卡上更改覆盖费率以及覆盖计费费率的&#x200B;**开始** **日期**&#x200B;和&#x200B;**结束日期**。
+如果某个特定工作角色具有多个覆盖记帐费率，则会在该工作角色的分组下列出这些费率。 使用内联编辑，您可以在此选项卡上更改覆盖费率以及覆盖计费费率的&#x200B;**开始** **日期**&#x200B;和&#x200B;**结束日期**。 或者，选择一个费率并单击&#x200B;**编辑**&#x200B;图标以设置生效日期的覆盖率。
 
 >[!NOTE]
 >
@@ -147,6 +219,8 @@ ht-degree: 0%
 
 * 当任务的&#x200B;**收入类型**&#x200B;为&#x200B;**角色每小时**&#x200B;时，Workfront将任务的计划小时数乘以与任务关联的工作角色的记帐费率来计算任务的计划收入。
 
+* <span class="preview">当任务的&#x200B;**收入类型**&#x200B;为&#x200B;**每小时用户和角色**&#x200B;时，Workfront使用层次结构来确定每个任务的记帐费率。 有关详细信息，请参阅[收入和成本层次结构概览](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)。</span>
+
 * 在项目级别覆盖工作角色的记帐费率后，Workfront使用项目的覆盖费率计算计划收入。
 * 当任务有多个分配时，计划收入的计算方法是将每个分配的工作角色的记帐费率乘以它们各自的计划小时数分配。
 
@@ -158,11 +232,22 @@ ht-degree: 0%
 
 ### 根据多个记帐费率覆盖计算计划收入 {#calculate-planned-revenue-based-on-multiple-billing-rate-overrides}
 
-在基于多个开单费率改写计算计划收入时，请考虑以下事项：
+在基于多个开单费率覆盖计算计划收入时，请考虑以下事项：
 
 * 当任务的&#x200B;**收入类型**&#x200B;为&#x200B;**角色每小时**&#x200B;时，Workfront将任务的计划小时数乘以与任务关联的工作角色的记帐费率来计算任务的计划收入。
 
   有关使用哪个工作角色计算计划收入的更多信息，请参阅[账单和收入概览](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)一文中的“了解基于用户和角色分配的任务收入计算”部分。
+
+<div class="preview">
+
+* 当任务的&#x200B;**收入类型**&#x200B;为&#x200B;**每小时“用户”和“角色”**，并且未分配用户时，Workfront将任务的计划小时数乘以以下任一项，以计算任务的计划收入：
+
+   * 任务上工作角色的手动覆盖率
+   * 项目工作角色费率，可以来自费率卡或系统级别。
+
+  有关使用哪个工作角色计算计划收入的更多信息，请参阅[收入和成本层次结构概览](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)以及文章[账单和收入概览](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments)中的[根据用户和角色分配的任务收入计算](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md)部分。
+
+</div>
 
 * 如果覆盖了多个记帐费率，则在任务持续时间内，计划小时数乘以更改的比率。 默认情况下，Workfront在任务持续时间中平均分配已计划小时数，每天为任务分配相同小时数。 在计算&#x200B;**计划收入**&#x200B;时，Workfront将每天计划小时数乘以当天的记帐费率。 如果计费率有多个，则该费率每天可能都不相同。
 
@@ -197,6 +282,8 @@ ht-degree: 0%
 
 ## 计算实际收入
 
+实际收入的记帐费率基于任务中记录的小时数的所有者。 “所有者”是记录其时间的任务相关人员，即使他们未分配到任务。
+
 * [根据一次性记帐费率覆盖计算实际收入](#calculate-actual-revenue-based-on-a-one-time-billing-rate-override)
 * [根据多个记帐费率覆盖计算实际收入](#calculate-actual-revenue-based-on-multiple-billing-rate-overrides)
 
@@ -207,6 +294,8 @@ ht-degree: 0%
 * 当任务的&#x200B;**收入类型**&#x200B;为&#x200B;**每小时Role**&#x200B;时，Workfront将任务的&#x200B;**实际小时数**&#x200B;乘以与该任务关联的工作角色的记帐费率以计算该任务的&#x200B;**实际收入**。 实际小时数是直接记录到任务的小时数。
 
   有关使用哪个工作角色来计算&#x200B;**实际收入**&#x200B;的更多信息，请参阅[账单和收入概览](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)一文中的“了解基于用户和角色分配的任务收入计算”部分。
+
+* <span class="preview">当任务的&#x200B;**收入类型**&#x200B;为&#x200B;**每小时用户和角色**&#x200B;时，Workfront使用层次结构来确定每个任务的记帐费率。 有关详细信息，请参阅[收入和成本层次结构概览](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)。</span>
 
 * 如果在项目层覆盖了工作角色的记帐费率，Workfront将使用项目中的覆盖费率来计算实际收入。 当您覆盖项目上工作角色的记帐费率时，项目的&#x200B;**实际收入**&#x200B;将使用新调整的费率自动重新计算。
 
@@ -222,6 +311,8 @@ ht-degree: 0%
 在基于多个开单费率改写计算实际收入时，请考虑以下事项：
 
 * 当任务的&#x200B;**收入类型**&#x200B;为&#x200B;**角色每小时**&#x200B;时，Workfront将任务的&#x200B;**实际小时数**&#x200B;乘以分配给该任务的工作角色的记帐费率来计算该任务的&#x200B;**实际收入**。 实际小时数是直接记录到任务的小时数。
+
+* <span class="preview">当任务的&#x200B;**收入类型**&#x200B;为&#x200B;**每小时用户和角色**&#x200B;时，Workfront使用层次结构来确定每个任务的记帐费率。 有关详细信息，请参阅[收入和成本层次结构概览](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)。</span>
 
 * 如果覆盖了多个记帐费率，则在任务持续时间期间&#x200B;**实际小时数**&#x200B;乘以计算&#x200B;**实际收入**&#x200B;的费率可能会发生变化。 Workfront使用时间范围与任务记录的&#x200B;**输入日期**&#x200B;小时小时数匹配的工作角色的计费率来计算&#x200B;**实际收入。**
 
@@ -257,7 +348,7 @@ ht-degree: 0%
 
 计算不同时区用户的计划收入时，请考虑以下事项：
 
-* 对于具有&#x200B;**收入类型**/**角色每小时**&#x200B;并分配给工作角色的任务，**计划收入**&#x200B;的计算方法是任务的&#x200B;**计划小时数**&#x200B;乘以工作角色的记帐费率。
+* 对于具有&#x200B;**收入类型**/**每小时角色**&#x200B;或&#x200B;<span class="preview">**每小时用户和角色**</span>&#x200B;并分配给工作角色的任务，**计划收入**&#x200B;的计算方法是将任务的&#x200B;**计划小时数**&#x200B;乘以工作角色的记帐费率。
 
 * **计划小时数**&#x200B;平均分布在任务的&#x200B;**持续时间**&#x200B;中。
 
@@ -274,7 +365,7 @@ ht-degree: 0%
 
 计算不同时区用户的实际收入时，请考虑以下事项：
 
-* 当任务的&#x200B;**收入类型**&#x200B;为&#x200B;**角色每小时**&#x200B;时，Workfront将任务的&#x200B;**实际小时数**&#x200B;乘以分配给任务的工作角色的记帐费率以计算&#x200B;**实际收入**。 实际小时数是直接记录到任务的小时数。
+* 当任务的&#x200B;**收入类型**&#x200B;为&#x200B;**角色每小时**&#x200B;或&#x200B;<span class="preview">**用户和角色每小时**</span>&#x200B;时，Workfront将任务的&#x200B;**实际小时数**&#x200B;乘以分配给任务的工作角色的记帐费率以计算&#x200B;**实际收入**。 实际小时数是直接记录到任务的小时数。
 
 * 如果覆盖了多个记帐费率，Workfront将使用其时间范围与任务记录的&#x200B;**输入日期**&#x200B;小时的工作角色的记帐费率来计算&#x200B;**实际收入**。
 
@@ -293,7 +384,7 @@ ht-degree: 0%
 ## 使用API添加新记帐费率
 
 要使用API为工作角色添加新的记帐费率，请使用&#x200B;*PUT方法*&#x200B;为&#x200B;**Rate**&#x200B;对象执行&#x200B;*setRatesForRole*操作。
-**Rate**&#x200B;对象上的操作和日期字段在API版本8.0中可用。
+**Rate**对象上的操作和日期字段在API版本8.0中可用。
 如果您已经为项目中的工作角色定义了多个记帐费率，并且想要为它添加新日期范围的记帐费率，则必须在同一API调用中同时包含现有费率和要添加的费率。 这类似于更新对象集合的方式。
 
 以下API调用是一个示例，其中&#x200B;**attachableID**&#x200B;是您添加费率的项目的&#x200B;**项目ID**，**RoleID**&#x200B;是您为其添加新计费率的&#x200B;**工作角色ID**。<pre>{</pre><pre>&quot;attachableID&quot;：&quot;593f01500000557d75fdd4fdfcc624f2&quot;，</pre><pre>&quot;attachableObjCode&quot;：&quot;PROJ&quot;，</pre><pre>&quot;roleID&quot;：&quot;544820df000014148cda5136d4b79d09&quot;， </pre><pre>&quot;rates&quot;：[</pre><pre>         {&quot;rateValue&quot;：&quot;0.00&quot;，&quot;startDate&quot;:null，&quot;endDate&quot;：&quot;2017-06-11&quot;}，</pre><pre>         {&quot;rateValue&quot;：&quot;45.00&quot;，&quot;startDate&quot;：&quot;2017-06-12&quot;，&quot;endDate&quot;：&quot;2017-06-17&quot;}，</pre><pre>         {&quot;rateValue&quot;：&quot;95.00&quot;，&quot;startDate&quot;：&quot;2017-06-21&quot;，&quot;endDate&quot;:null}</pre><pre>]</pre><pre>}</pre>有关使用Workfront API的更多信息，请参阅文章[API基础知识](https://experience.workfront.com/s/article/API-Basics-638808549)。

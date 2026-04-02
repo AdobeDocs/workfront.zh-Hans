@@ -9,16 +9,18 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+source-git-commit: 09bbb257a80c3f85abea9d238900d63c493fea2e
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 20%
+source-wordcount: '488'
+ht-degree: 22%
 
 ---
 
 # 按许可证访问对象和区域
 
 <!-- Audited: 2/2024 -->
+
+{{highlighted-preview}}
 
 >[!NOTE]
 >
@@ -105,6 +107,13 @@ ht-degree: 20%
         <td>视图</td>
     </tr>
     <tr>
+        <td><span class="preview">职位角色</span></td>
+        <td>Edit</td>
+        <td>视图</td>
+        <td>视图</td>
+        <td>无访问权限</td>
+    </tr>
+    <tr>
         <td>团队</td>
         <td>Edit</td>
         <td>视图</td>
@@ -134,6 +143,13 @@ ht-degree: 20%
     </tr>
     <tr>
         <td>场景计划器</td>
+        <td>Edit</td>
+        <td>视图</td>
+        <td>无访问权限</td>
+        <td>无访问权限</td>
+    </tr>
+    <tr>
+        <td><span class="preview">费率卡</span></td>
         <td>Edit</td>
         <td>视图</td>
         <td>无访问权限</td>
@@ -176,4 +192,5 @@ ht-degree: 20%
 * [授予对财务数据的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)
 * [授予对资源管理的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
 * [授予对Scenario Planner的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
+* [授予对费率卡的访问权限](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-rate-cards.md)
 * [授予对Adobe Workfront目标的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)

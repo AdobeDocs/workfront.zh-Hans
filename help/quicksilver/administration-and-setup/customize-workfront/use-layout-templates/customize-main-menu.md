@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 0f96a4d941eb4595ac60302b579cff31461272a7
+source-git-commit: 4ce13e7d46efb026c1d42a61f4fce4bf1a37bb5f
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 6%
+source-wordcount: '777'
+ht-degree: 5%
 
 ---
 
 # 使用布局模板自定义主菜单
+
+{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -43,7 +45,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 包</td> 
-   <td><p>任何</p>
+   <td><p>“任一”</p>
        <p>将自定义应用程序添加到主菜单仅适用于获得Adobe App Builder许可的组织。</p></td> 
   </tr> 
   <tr> 
@@ -122,7 +124,28 @@ ht-degree: 6%
      >
      > 自定义应用程序必须单独创建，然后才能作为主菜单选项使用。 有关详细信息，请参阅[使用Adobe App Builder为Workfront创建自定义应用程序](/help/quicksilver/app-builder/app-builder.md)。
 
-1. 执行以下任一操作：
+<div class="preview">
+
+在“预览”环境中：
+
+1. 对&#x200B;**Native**&#x200B;项目执行以下任一操作：
+
+   * 隐藏![隐藏图标](assets/remove-icon---x-in-circle.png)不想在主菜单上显示的项目。
+   * 在主菜单上显示![显示图标](assets/add-icon-plus-in-circle.png)项。
+   * 拖动![拖动图标](assets/move-icon---dots.png)以更改它们在主菜单上的显示顺序。
+
+1. 对&#x200B;**系统**&#x200B;项目执行以下任一操作：
+
+   * 隐藏![隐藏图标](assets/remove-icon---x-in-circle.png)不想在主菜单上显示的项目。
+   * 在主菜单上显示![显示图标](assets/add-icon-plus-in-circle.png)项。
+
+</div>
+
+>[!NOTE]
+>
+><span class="preview">您不能更改系统项的顺序。 当这些项目处于活动状态时，它们始终显示在主菜单的底部。</span>
+
+1. 在生产环境中，执行以下任一操作：
 
    * 隐藏![隐藏图标](assets/remove-icon---x-in-circle.png) **不想显示的活动项**
    * 显示![显示图标](assets/add-icon-plus-in-circle.png) **可用项**，您想在主菜单上显示这些项。

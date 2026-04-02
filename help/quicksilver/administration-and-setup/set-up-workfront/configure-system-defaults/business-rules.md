@@ -8,10 +8,12 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: c16d107d8162f77436337d0b08ea5826d5c25d83
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '1417'
-ht-degree: 3%
+source-wordcount: '1823'
+ht-degree: 4%
 
 ---
 
@@ -29,7 +31,7 @@ ht-degree: 3%
 
 <div class="preview">
 
-Organizations that have the Workflow Ultimate package can also configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object, notifying a user, or attaching a custom form to the object.  
+Organizations that have the Workflow Ultimate package can also configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object or attaching a custom form to the object.  
 
 </div>
 
@@ -139,34 +141,51 @@ IF(
 )
 ```
 
+### 在业务规则中启用本地化
 
-<!--
+如果您的组织使用自定义本地化，则必须启用业务规则中业务规则消息的翻译。 如果未启用翻译，则即使消息文本位于本地化列表中并且用户的浏览器设置为相应的语言，该消息仍会以英语向读者显示。
 
-## Scenarios for business rule automation
+配置规则时，在消息之前插入TRANSLATE一词，并将消息括在括号中。
+
+>[!BEGINSHADEBOX]
+
+示例：
+
+此示例假定消息“您无法编辑已完成的项目”包含在“设置”的本地化区域中，并且用户的浏览器设置为本地化语言。
+
+* `IF({status} = "CPL", "You cannot edit completed projects.") `
+该消息以英语显示。
+* `IF({status} = "CPL", TRANSLATE("You cannot edit completed projects."))`
+消息以本地化语言显示。
+
+>[!ENDSHADEBOX]
+
+有关自定义本地化的信息，请参阅[配置自定义本地化](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)。
+
+## 业务规则自动化方案
 
 >[!NOTE]
 >
->Your organization must have a Workflow Ultimate package to use business rule automation.
+>贵组织必须具有Workflow Ultimate包才能使用业务规则自动化。
 
-The format of a business rule automation is "IF the defined condition is met, then the selected automation is triggered."
+业务规则自动化的格式为“如果满足定义的条件，则触发所选的自动化。”
 
-Business rule automation formulas do not require an error message
+业务规则自动化公式不需要错误消息
 
-To ensure that an automation runs whenever the selected object and action occurs, such as when a project is created, use the following formula:
+要确保每当发生所选对象和操作（如创建项目时）时自动运行，请使用以下公式：
 
 ```
 IF(true, true)
 ```
 
-To share a project only if that's project has been approved, use a formula like the following:
+要仅在该项目已获批准的情况下共享该项目，请使用如下公式：
 
 ```
 IF({status} = "APR", true)
 ```
 
-You can use wildcards in business rule actions, as described in the section [Scenarios for business rule validation](#scenarios-for-business-rule-validation).
+您可以在业务规则操作中使用通配符，如[业务规则验证方案](#scenarios-for-business-rule-validation)部分中所述。
 
--->
 
 ## 添加新业务规则
 
@@ -210,15 +229,15 @@ You can use wildcards in business rule actions, as described in the section [Sce
    * 模板
    * 休息时间
    * 资源池
+   * 工作角色
+   * 非劳动力资源类别
+   * 资源池
+   * 休息时间
+   * 小时
+   * 人员配置计划
+   * 模板
+   * 人员配置计划资源
 <!--
-   * <span class="preview">Job role</span>
-   * <span class="preview">Non-labor resource category</span>
-   * <span class="preview">Resource Pool</span>
-   * <span class="preview">Time Off</span>
-   * <span class="preview">Hour</span>
-   * <span class="preview">Staffing Plan</span>
-   * <span class="preview">Template</span>
-   * <span class="preview">Staffing Plan Resource</span>
    * <span class="preview">Team</span>
 -->
 
@@ -242,13 +261,13 @@ You can use wildcards in business rule actions, as described in the section [Sce
    * “对象”是您在创建业务规则时选择的对象类型。 它显示在对话框的标题中。
    * “action”是您为规则选择的触发器：创建、编辑或删除对象。
    * 由于对象和操作已定义，因此不要将它们包含在公式中。
-   * 当用户触发业务规则时，向用户显示自定义错误消息<!--<span class="preview">is included only if the rule is for validation, and </span>-->。 它应就出现什么问题以及如何纠正问题提供明确的说明。
+   * 仅当规则用于验证时才会包含自定义错误消息<span class="preview">，并且在用户触发业务规则时向用户显示</span>。 它应就出现什么问题以及如何纠正问题提供明确的说明。
 
      您可以在错误消息中包含静态URL，以链接到文档或其他有用页面，引导用户如何在规则的限制中修改其操作。
 
      在此示例中，“了解详情”将链接到URL。 `"You are not allowed to add a new project in November.[Learn more](http://url)"` URL必须位于括号中，但不需要使用括号中的链接文本。 您可以显示完整URL，它将是可单击的链接。
 
-   ![添加业务规则对话框](assets/add-business-rule-dialog-no-ai-button.png) <!--UPDATE ME-->
+   ![添加业务规则对话框](assets/add-business-rule-new.png)
 
    此示例是项目的业务规则。 如果当前月份是11月，则不允许用户创建新项目，并且消息将对此进行说明。
 
@@ -264,17 +283,13 @@ You can use wildcards in business rule actions, as described in the section [Sce
 
    对于其他包，此选项是预先选定的。
 
-<!--
+1. <span class="preview">（视情况而定）要自动执行其他操作，请选择操作。</span>
 
-1. (Conditional) To automate another action,, select the action. 
-
-   For details on these actions, see the section [Business rule automation options](#business-rule-automation-options) in this article.
+   <span class="preview">有关这些操作的详细信息，请参阅本文中的[业务规则自动化选项](#business-rule-automation-options)部分。</span>
 
    >[!NOTE]
    >
-   >Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.
-
-   -->
+   ><span class="preview">贵组织必须在Workflow Ultimate程序包中，才能使用验证以外的操作。 如果您没有看到这些其他选项，则表明贵组织不在工作流Ultimate包中。</span>
 
 1. 完成业务规则构建后，单击&#x200B;**保存**。
 
@@ -282,24 +297,22 @@ You can use wildcards in business rule actions, as described in the section [Sce
 >
 >添加业务规则后，应通过添加、编辑或删除关联对象对其进行测试，以确保正确应用该规则。
 
-<!--
-
 <div class="preview">
 
-### Business rule automation options
+### 业务规则自动化选项
 
-   >[!NOTE]
-   >
-   >Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.
+>[!NOTE]
+>
+>贵组织必须在工作流Ultimate程序包上，才能使用验证以外的操作。 如果您没有看到其他这些选项，则表明贵组织不在工作流Ultimate包中。
 
-You can set these actions to automate when the business rule is triggered. Available actions depend on the selected object type.
+您可以设置这些操作以在触发业务规则时自动执行。 可用操作取决于所选对象类型。
 
-|Automation|Further configuration|
+| 自动化 | 其他配置 |
 |---|---|
-|Attach a custom form|Select the custom form that you want to add|
-|Share the object|Select the people, roles, groups, companies, or access levels that you want to share the object with.|
+| 附加一个自定义表单 | 选择要添加的自定义表单 |
+| 分享对象 | 选择要与其共享对象的人员、角色、组、公司或访问级别。 |
 
--->
+</div>
 
 ## 激活业务规则
 
@@ -310,3 +323,4 @@ You can set these actions to automate when the business rule is triggered. Avail
 1. 在规则列表中选择业务规则并单击编辑图标。
 1. 在业务规则对话框中，为&#x200B;**处于活动状态**&#x200B;选择&#x200B;**是**。
 1. 单击&#x200B;**保存**。
+

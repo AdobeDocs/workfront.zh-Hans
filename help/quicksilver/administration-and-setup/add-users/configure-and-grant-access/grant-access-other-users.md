@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: d45c34b1f48a7ffcae29556d34558bb4d1d8a016
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 2%
+source-wordcount: '738'
+ht-degree: 4%
 
 ---
 
@@ -17,17 +17,17 @@ ht-degree: 2%
 
 作为Adobe Workfront管理员，您可以使用访问级别来定义用户对Workfront中其他用户的访问权限，如[访问级别概述](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)中所述。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td>任何</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td>“任一”</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -47,21 +47,21 @@ ht-degree: 2%
 
 ## 配置对用户的访问权限
 
-您可以使用默认访问级别或您创建的自定义访问级别，管理用户可为其他用户查看和编辑的信息。 具有默认“计划”和“工作”许可证的用户可以查看其他用户的联系信息。 以下任何用户可以创建和编辑其他用户：
+您可以使用默认访问级别或您创建的自定义访问级别，管理用户可为其他用户查看和编辑的信息。 具有默认“标准”、“计划”和“工作”许可证的用户可以查看其他用户的联系信息。 以下任何用户可以创建和编辑其他用户：
 
 * Workfront管理员。
 
   有关详细信息，请参阅[授予用户完全管理访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)。
 
-* 具有默认计划许可证的用户，也可以访问用户，如本文所述。
+* 具有默认Standard或Plan许可证的用户，也可以访问用户，如本文所述。
 
   仅限于查看其公司或主要公司用户的用户有权仅编辑其能够查看的用户。 有关详细信息，请参阅[创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
-* 具有默认“计划”许可证的用户，该用户也被指定为另一个用户的经理。
+* 具有默认Standard或Plan许可证的用户，同时也被指定为另一个用户的经理。
 
   如果用户被授予其访问级别的用户的“编辑”访问权限，则可以管理向其报告的用户。 有关管理用户的信息，请参阅[查看组织结构图](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md)。
 
-* 具有默认计划许可证的用户创建用户后，可以停用、删除或编辑他们创建的用户。 有关创建新用户的信息，请参阅[添加用户](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)。
+* 具有默认Standard或Plan许可证的用户创建用户后，可以停用、删除或编辑他们创建的用户。 有关创建新用户的信息，请参阅[添加用户](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)。
 
 ## 配置用户的访问权限以使用自定义访问级别编辑用户
 

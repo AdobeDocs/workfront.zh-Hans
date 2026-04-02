@@ -8,14 +8,18 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 2%
+source-wordcount: '960'
+ht-degree: 1%
 
 ---
 
 # 将用户分配给布局模板
+
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 您可以将已创建的布局模板分配给需要使用该模板的任何用户、工作角色、团队或组。
 
@@ -29,6 +33,8 @@ ht-degree: 2%
 
 有关组的布局模板的信息，请参阅[创建和修改组的布局模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)。
 
+<span class="preview">有关布局模板和业务配置文件的信息，请参阅[业务配置文件概述](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)。</span>
+
 ## 访问权限要求
 
 +++ 展开可查看本文所述功能的访问权限要求。
@@ -39,7 +45,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 包</td> 
-   <td><p>任何</p></td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
@@ -68,13 +74,13 @@ ht-degree: 2%
    >当您对布局模板感到满意时，我们建议您对其进行测试，如[测试新布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)中所述。
 
 1. 单击页面顶部的&#x200B;**将此项分配给**。
-1. 在出现的框中，单击&#x200B;**添加用户、工作角色、团队或组**，开始键入用户、工作角色、团队或组的名称，然后在此名称出现在下拉列表中时单击它。
+1. 在出现的框中，单击&#x200B;**添加用户、工作角色、团队、组、<span class="preview">或访问级别</span>**，开始键入用户、工作角色、团队、组、<span class="preview">或访问级别</span>的名称，然后在下拉列表中出现该名称时单击该名称。
 
    最近添加的名称以蓝色背景显示。 在编辑现有布局模板时，这很有用，因为您可以区分刚刚添加和列表中已存在的名称。
 
-   已分配给其他布局模板的任何用户、工作角色、团队或组的名称右侧将显示一个信息图标![信息图标](assets/info-icon.png)。 您可以将鼠标悬停在图标上以查看该布局模板的名称，并决定是否要覆盖现有分配。
+   信息图标![信息图标](assets/info-icon.png)显示在已分配给其他布局模板的任何用户、工作角色、团队、组、<span class="preview">或访问级别</span>的名称的右侧。 您可以将鼠标悬停在图标上以查看该布局模板的名称，并决定是否要覆盖现有分配。
 
-1. 根据需要重复前两个步骤，将布局模板分配给其他用户、工作角色、团队或组。
+1. 根据需要重复前两个步骤，将布局模板分配给其他用户、工作角色、团队、组、<span class="preview">或访问级别</span>。
 
    一次最多可以分配100个用户。
 
@@ -90,6 +96,7 @@ ht-degree: 2%
 * 对于用户拥有的特定工作角色
 * 对于用户所在的某个团队
 * 对于用户所在的某个组
+* <span class="preview">将用户分配给某个访问级别</span>
 
 但是，在任意给定时间，用户只能看到一个布局模板。 可见的模板由以下优先级层次结构决定：
 
@@ -106,9 +113,12 @@ ht-degree: 2%
 
   只有分配给用户“主页”组的模板对用户可见。 分配给其任何其他组的模板不可见。
 
+* <span class="preview">访问级别：如果未将布局模板分配给人员作为单个用户，或者作为具有主要工作角色的用户，或者作为主页团队的成员，或者作为主页组的成员，则他们将看到分配给其访问级别的模板。</span>
+
 ## 分配给布局模板的大量用户
 
-<!--If you edit a layout template which is assigned to more than 2000 users and make changes to it, only the first 2000 users will be retained on the layout template and will see the changes you made. The layout template is removed from all others.
+<!--
+If you edit a layout template which is assigned to more than 2000 users and make changes to it, only the first 2000 users will be retained on the layout template and will see the changes you made. The layout template is removed from all others.
 -->
 如果要为布局模板分配超过2000个用户，我们建议您执行以下操作之一：
 

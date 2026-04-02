@@ -3,19 +3,21 @@ title: 将逻辑规则添加到自定义Forms和字段
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: 您可以根据用户在填写自定义表单时所做的选择，决定应显示或跳过自定义表单的哪些部分。
+description: 利用逻辑规则，可进一步自定义表单上的字段。
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: a060b0023d6ea04f0eb1210c61b7add37a943842
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 0%
+source-wordcount: '3485'
+ht-degree: 1%
 
 ---
 
 # 向自定义表单和字段添加逻辑规则
+
+{{highlighted-preview}}
 
 利用逻辑规则，可进一步自定义表单上的字段。
 
@@ -25,17 +27,18 @@ ht-degree: 0%
 >
 >逻辑仅适用于一个表单，且不能基于从其他表单中选择的内容。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td>Adobe Workfront 包</td> 
+   <td> <p>要应用高级显示、默认值、条件格式或可编辑性逻辑，请执行以下操作：工作流Prime或更高版本</p>
+         <p>要应用所有其他逻辑类型：任何Workfront或工作流包</p> </td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
@@ -53,20 +56,30 @@ ht-degree: 0%
 
 +++
 
-## 显示和跳过逻辑图标
+## 逻辑指示器图标
 
-自定义表单显示图标以指示何时将显示或跳过逻辑应用于某些字段。 表单设计器中字段上的图标指示逻辑应用于该字段。
+自定义表单显示图标以指示何时将逻辑应用于字段。
 
-| 图标 | 表单设计器中的字段上的位置 | 定义 |
-|--- |--- |--- |
-| ![目标字段的显示逻辑](assets/display-logic-bottom-left.png) | 左下 | 该字段是用于显示逻辑的目标字段。 如果对表单进行了特定选择，则会显示此字段。 |
-| ![定义显示逻辑图标](assets/display-logic-bottom-right.png) | 右下 | 字段定义显示逻辑。 此字段上的特定选择或值将显示目标字段。 |
-| ![跳过目标字段的逻辑](assets/skip-logic-bottom-left.png) | 左下 | 该字段是跳过逻辑的目标字段。 如果对表单进行了特定选择，则表单会跳过此字段并隐藏其中的字段。 |
-| ![定义跳过逻辑图标](assets/skip-logic-bottom-right.png) | 右下 | 字段定义跳过逻辑。 此字段上的特定选择或值会跳过其他字段并直接转到目标字段。 |
+<span class="preview">单击表单设计器标题中的&#x200B;**显示逻辑**&#x200B;可显示或隐藏不同字段逻辑类型的图标。</span>
 
-![逻辑图标](assets/logic-icons-3.png)
+| 图标 | 定义 |
+| --- | --- |
+| ![目标字段的显示逻辑](assets/display-logic-bottom-right.png) | 字段是应用显示逻辑的目标字段。 如果对表单进行了特定选择，则会显示此字段。 |
+| ![显示引用字段的逻辑图标](assets/display-logic-bottom-left.png) | 该字段是显示逻辑的参考字段。 此字段上的特定选择或值将显示目标字段。 |
+| ![跳过目标字段的逻辑](assets/skip-logic-bottom-right.png) | 该字段是应用跳过逻辑的目标字段。 此字段上的特定选择或值会跳过其他字段，并直接转到参考字段。 |
+| 引用字段的![跳过逻辑图标](assets/skip-logic-bottom-left.png) | 该字段是跳过逻辑的参考字段。 如果为目标字段进行了特定选择，则表单会跳过此字段并隐藏其中的字段。 |
+| ![目标字段的验证逻辑](assets/validation-logic-icon.png) | 字段是应用验证逻辑的目标字段。 参考字段上的特定选择或值确定验证是否失败。 对于验证逻辑，目标字段和参考字段可以相同。 |
+| 引用字段的![验证逻辑](assets/validation-logic-reference-field.png) | 该字段是验证逻辑的参考字段。 此字段上的特定选择或值确定验证是否在目标字段上失败。 对于验证逻辑，目标字段和参考字段可以相同。 |
+| ![目标字段的默认值逻辑](assets/default-value-logic-icon.png) | <span class="preview">该字段是应用默认值逻辑的目标字段。 引用字段上的特定选择或值决定了默认值。 默认值逻辑的目标字段和引用字段可以相同。</span> |
+| ![引用字段的默认值逻辑](assets/default-value-logic-reference-field.png) | <span class="preview">该字段是默认值逻辑的引用字段。 此字段上的特定选择或值决定了目标字段上的默认值。 默认值逻辑的目标字段和引用字段可以相同。</span> |
+| ![正在格式化目标字段的逻辑](assets/formatting-logic-icon.png) | <span class="preview">该字段是应用格式逻辑的目标字段。 引用字段上的特定选择或值决定了格式。 目标字段和引用字段对于格式化逻辑可以相同。</span> |
+| ![正在格式化引用字段的逻辑](assets/formatting-logic-reference-field.png) | <span class="preview">该字段是用于设置逻辑格式的参考字段。 此字段上的特定选择或值决定了目标字段的格式。 目标字段和引用字段对于格式化逻辑可以相同。</span> |
+| 目标字段的![可编辑性逻辑](assets/editability-logic-icon.png) | <span class="preview">该字段是应用可编辑性逻辑的目标字段。 当满足定义的条件时，该字段可以是可编辑的或只读的。 可编辑性逻辑的目标字段和引用字段可以相同。</span> |
+| 引用字段的![可编辑性逻辑](assets/editability-logic-reference-field.png) | <span class="preview">该字段是可编辑性逻辑的参考字段。 当此字段满足定义的条件时，逻辑将应用于目标字段。 可编辑性逻辑的目标字段和引用字段可以相同。</span> |
 
-选择一个应用了逻辑的字段，以在字段设置中显示现有逻辑规则。
+<!-- ![Logic icons](assets/logic-icons-3.png) -->
+
+对于仅显示和跳过逻辑，请选择一个字段以在字段设置中显示现有逻辑规则。
 
 ![逻辑规则](assets/form-designer-view-only-logic.png)
 
@@ -94,11 +107,9 @@ ht-degree: 0%
 
 显示逻辑定义当用户在多选字段中选择特定值时，要在表单上显示的自定义字段。 该逻辑将添加到目标字段，该字段仅在选择值时显示。
 
-<!--
 >[!NOTE]
 >
-><span class="preview">This procedure describes the basic mode for display logic. Advanced display logic is also available. For more information, see [Add advanced display logic to a custom form](#add-advanced-display-logic-to-a-custom-form), in this article.</span>
--->
+><span class="preview">此过程描述显示逻辑的基本模式。 高级显示逻辑也可用。 有关详细信息，请参阅本文中的[将高级显示逻辑添加到自定义表单](#add-advanced-display-logic-to-a-custom-form)。</span>
 
 {{step-1-to-setup}}
 
@@ -126,60 +137,66 @@ ht-degree: 0%
 
    显示逻辑图标将添加到表单设计器的目标字段和定义字段中。
 
-<!--
 <div class="preview">
 
-## Add advanced display logic to a custom form
+## 向自定义表单添加高级显示逻辑
 
-The advanced display logic for custom form fields allows you to build complex logic using formulas. You can apply this logic to the following field types: drop-down, radio button, checkbox, typeahead, single line text, paragraph text, date field, text with formatting, and calculated fields.
+自定义表单字段的高级显示逻辑允许您使用公式构建复杂的逻辑。 您可以将此逻辑应用于以下字段类型：单行文本、段落、带格式的文本、单选下拉列表、多选下拉列表、外部查找、多选外部查找、本机字段引用、预输入、计算、日期、复选框组和单选按钮。
 
-### Examples
+>[!NOTE]
+>
+>此过程描述显示逻辑的高级模式。 还提供基本显示逻辑。 有关详细信息，请参阅本文中的[将显示逻辑添加到自定义表单](#add-display-logic-to-a-custom-form)。
 
-You can use advanced display logic to control the visibility of custom form sections based on user roles and the visibility of a field based on another field's status.
+### 示例
 
-No logic is applied to the default section on the form, so it is always visible to all users.
+您可以使用高级显示逻辑根据用户角色控制自定义表单部分的可见性，并根据其他字段的状态控制字段的可见性。
 
-Using the following condition, the Resources Required section is only displayed when a user with the job role of Resource Manager views the form.
+表单上的默认部分不应用任何逻辑，因此所有用户始终可见。
+
+如果满足以下条件，则仅当具有资源管理器工作角色的用户查看表单时，才会显示“需要资源”部分。
 
 ```IF($$USER.{roleID}="123abc", true)```
 
-Note that ```123abc``` represents the role ID of the Resource Manager.
+请注意，```123abc```表示资源管理器的角色ID。
 
-![Form section displayed for role](assets/advanced-display-on-form1.png)
+为角色![显示的](assets/advanced-display-on-form1.png)表单节
 
-The same condition with a different role ID is applied to the Project Financial KPIs section to define that  only the Financial Advisor role can view the section.
+具有不同角色ID的相同条件将应用于“项目财务KPI”部分，以定义只有财务顾问角色可以查看该部分。
 
-Using the following condition, the Sold KPI field only becomes visible when the project is complete. This logic is applied directly to the field instead of to a form section. There is no need to specify which role can view the field, because that is already defined in the section that the field is in.
+如果使用以下条件，只有在项目完成后，“销售的KPI”字段才可见。 此逻辑将直接应用于字段，而不是表单分区。 无需指定哪个角色可以查看该字段，因为该角色已在字段所在的部分中定义。
 
 ```IF({status}="CPL", true)```
 
-![Field is visible on complete project](assets/advanced-display-on-form2.png)
+![字段在完整项目中可见](assets/advanced-display-on-form2.png)
 
-### Define advanced display logic
+### 定义高级显示逻辑
 
 {{step-1-to-setup}}
 
-1. Click **Custom Forms**.
-1. Create a new custom form or open an existing form. See [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) for details.
-1. Add fields to the form as needed.
-1. Select the field to apply logic to, and click **Add Logic**.
-1. Select the **Display** tab on the logic builder.
-1. Turn on **Advanced mode**.
-   
-   This option might be turned on automatically, for fields that do not support the simple mode of display logic.
+1. 单击&#x200B;**自定义Forms**。
+1. 创建新的自定义表单或打开现有表单。 有关详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+1. 根据需要向表单添加字段。
+1. 选择要应用逻辑的字段，然后单击&#x200B;**添加逻辑**。
+1. 选择逻辑生成器上的&#x200B;**显示**&#x200B;选项卡。
+1. 打开&#x200B;**高级模式**。
 
-   ![Advanced mode for display logic](assets/advanced-display-logic-blank-editor.png)
+   对于不支持显示逻辑的简单模式的字段，此选项可能会自动启用。
 
-1. Build the display condition in the editor.
+   显示逻辑的![高级模式](assets/advanced-display-logic-blank-editor.png)
 
-   For more information about calculations and expressions, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) and [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+1. 在编辑器中构建显示条件。
 
-1. Click **Apply**.
-   
-   The logic is applied to the field and the display logic icon is added in the form designer.
+   有关计算和表达式的详细信息，请参阅[将计算字段添加到表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)和[计算数据表达式的概述](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)。
+
+1. 单击&#x200B;**应用**。
+
+   该逻辑将应用于字段，并且显示逻辑图标会添加到表单设计器中。
+
+   >[!NOTE]
+   >
+   >表单设计器预览模式不支持高级显示逻辑。
 
 </div>
--->
 
 ## 将跳过逻辑添加到自定义表单
 
@@ -211,13 +228,63 @@ Using the following condition, the Sold KPI field only becomes visible when the 
 
    跳过逻辑图标会添加到表单设计器的目标字段和定义字段中。
 
+<div class="preview">
+
+## 向自定义表单添加默认值逻辑
+
+默认值逻辑允许您使用公式为自定义表单字段配置默认值。 当满足定义的条件时，将显示默认值。 默认值可以是引用对象内其他字段的静态值或动态值。 尽管默认值可以引用其他字段，但它不会随着表单上的其他字段更改而更改。
+
+您可以将高级默认值逻辑应用于以下字段类型：单行文本、段落、单选下拉列表、多选下拉列表、外部查找、多选外部查找。 本机字段引用、预输入、复选框组和单选按钮。
+
+>[!TIP]
+>
+>当自定义表单附加到对象时，默认值仅应用于自定义字段一次。 如果默认值公式依赖于另一个字段的值，则在附加自定义表单时，另一个字段中的值必须已存在。
+
+>[!NOTE]
+>
+>表单设计器中的标准默认值逻辑仍然存在。 如果这两种类型应用于同一字段，则高级逻辑优先。 有关标准默认值逻辑的信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkbox-groups-and-drop-downs)中的[添加单选按钮、复选框组和下拉列表](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+
+### 示例
+
+使用下面的公式，当项目状态为“计划”时，应用逻辑的多选下拉字段将从项目说明中提取其默认值。
+
+```
+IF({status} = 'PLN', ARRAY({description}, ','))
+```
+
+当自定义表单附加到项目并且项目状态为“计划”时，项目描述字段值将用作多选字段中的默认值。 由于它是一个多选字段，因此当值与描述匹配时，可以提取多个值。 如果描述值与任何多选值选项都不匹配，则多选字段将不具有默认值，用户可以从下拉列表中选择一个值。
+
+### 定义默认值逻辑
+
+1. 单击&#x200B;**自定义Forms**。
+1. 创建新的自定义表单或打开现有表单。 有关详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+1. 根据需要向表单添加字段。
+1. 选择要应用逻辑的字段，然后单击&#x200B;**添加逻辑**。
+1. 选择逻辑生成器上的&#x200B;**默认值**&#x200B;选项卡。
+
+   ![默认值逻辑生成器](assets/default-value-blank-editor.png)
+
+1. 在编辑器中构建默认值条件。
+
+   有关计算和表达式的详细信息，请参阅[将计算字段添加到表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)和[计算数据表达式的概述](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)。
+
+1. 单击&#x200B;**应用**。
+
+   该逻辑将应用于表单设计器中的字段。
+
+   >[!NOTE]
+   >
+   >表单设计器预览模式不支持默认值逻辑。
+
+</div>
+
 ## 向自定义表单添加验证逻辑
 
 验证逻辑是使用公式构建的，您可以根据需要使逻辑简单或复杂。 验证可以基于其他字段的值或对象的状态，并且您可以在验证失败时提供错误消息。
 
 如果用户填写自定义表单时，如果应用了逻辑的字段满足定义的验证条件，则该字段会高亮显示并显示错误消息。
 
-您可以将验证逻辑应用于以下字段类型：单行文本、段落、单选下拉列表、多选下拉列表、外部查找、预输入、日期、复选框组和单选按钮。
+您可以将验证逻辑应用于以下字段类型：单行文本、段落、单选下拉列表、多选下拉列表、外部查找、多选外部查找、预输入、日期、复选框组和单选按钮。
 
 ### 示例
 
@@ -260,22 +327,21 @@ IF({DE:Budget Field} < 0,
    >
    >表单设计器预览模式不支持验证逻辑。
 
-<!--
 <div class="preview">
 
-## Add formatting logic to a custom form
+## 向自定义表单添加格式逻辑
 
-Formatting logic highlights a field value when it meets the defined conditions. The applied formatting will work on multiple fields at once.
+格式逻辑在满足定义的条件时突出显示字段值。 应用的格式将同时适用于多个字段。
 
-You can apply formatting logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, typeahead, calculated, date, checkbox group, and radio buttons.
+可以将格式逻辑应用于以下字段类型：单行文本、段落、单选下拉列表、多选下拉列表、外部查找、多选外部查找、预输入、计算、日期、复选框组和单选按钮。
 
-Formatting applied to custom forms is separate from formatting applied to lists and reports. For information on report formatting, see [Use conditional formatting in views](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+应用于自定义表单的格式与应用于列表和报表的格式不同。 有关报表格式的信息，请参阅[在视图中使用条件格式](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)。
 
-### Example
+### 示例
 
-Using the following condition, the Budget field appears red when the user enters a value of 1000 or more. The field appears yellow when the user enters a value of 500 or more.
+如果使用以下条件，当用户输入值1000或更多时，“预算”字段显示为红色。 当用户输入500或更多值时，该字段显示为黄色。
 
-To add a hover-over definition of the formatting, use the Instructions field in the custom form. For example, a message on the Budget field could say "Please enter a budget within a reasonable range. Values over 500 are a warning notice, and above 1000 is considered too high."
+要添加格式的悬停定义，请使用自定义表单中的说明字段。 例如，“预算”字段上的消息可能显示“请输入合理范围内的预算。 值超过500是警告通知，而超过1000则被视为过高。”
 
 ```
 IF(
@@ -285,42 +351,99 @@ IF(
 )
 ```
 
-### Define formatting logic
+### 定义格式逻辑
 
 {{step-1-to-setup}}
 
-1. Click **Custom Forms**.
-1. Create a new custom form or open an existing form. See [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) for details.
-1. Add fields to the form as needed.
-1. Select the field to apply logic to, and click **Add Logic**.
-1. Select the **Formatting** tab on the logic builder.
+1. 单击&#x200B;**自定义Forms**。
+1. 创建新的自定义表单或打开现有表单。 有关详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+1. 根据需要向表单添加字段。
+1. 选择要应用逻辑的字段，然后单击&#x200B;**添加逻辑**。
+1. 选择逻辑生成器上的&#x200B;**格式化**&#x200B;选项卡。
 
-   ![Formatting logic builder](assets/formatting-logic-blank-editor.png)
+   ![正在格式化逻辑生成器](assets/formatting-logic-blank-editor.png)
 
-1. Build the formatting condition in the editor.
+1. 在编辑器中构建格式条件。
 
-   You can add up to five formatting rules per field.
+   每个字段最多可以添加5个格式规则。
 
-   The field highlighting color options are:
+   突出显示颜色选项的字段包括：
 
    * `$$POSITIVE (green)`
    * `$$INFORMATIVE (blue)`
    * `$$NEGATIVE (red)`
    * `$$NOTICE (orange)`
-   
-   The text formatting options are:
-   
+
+   文本格式选项包括：
+
    * `$$BOLD`
    * `$$ITALIC`
    * `$$UNDERLINE`
 
-   Only one color option may be used per function, along with up to three additional text formatting options. If no color option is specified, the system's default color is applied.
+   每个函数只能使用一个颜色选项，并且最多只能使用三个其他文本格式选项。 如果未指定颜色选项，则应用系统的默认颜色。
 
-   For more information about calculations and expressions, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) and [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   有关计算和表达式的详细信息，请参阅[将计算字段添加到表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)和[计算数据表达式的概述](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)。
 
-1. Click **Apply**.
-   
-   The logic is applied to the field in the form designer.
+1. 单击&#x200B;**应用**。
+
+   该逻辑将应用于表单设计器中的字段。
+
+   >[!NOTE]
+   >
+   >表单设计器预览模式不支持格式逻辑。
 
 </div>
--->
+
+<div class="preview">
+
+## 向自定义表单添加可编辑性逻辑
+
+可编辑性逻辑确定自定义表单字段是否可以编辑或是否为只读。 此逻辑是使用公式构建的，当字段满足定义的条件时，可以将其设置为可编辑或只读。
+
+您可以将可编辑性逻辑应用于以下字段类型：单行文本、段落、带格式的文本、单选下拉列表、多选下拉列表、外部查找、多选外部查找、预输入、日期、复选框组和单选按钮。
+
+### 示例
+
+使用以下公式，仅当另一个名为Radio的字段选择了Enabled选项时，应用了逻辑的字段才可编辑。
+
+```
+IF({DE:Radio} = "Enabled", true)
+```
+
+使用以下公式，“说明”字段仅在为空时可编辑。 输入值后，该值将变为只读。
+
+```
+IF(ISBLANK({DE:Description}), true)
+```
+
+使用以下公式，仅当具有资源管理器工作角色的用户查看表单时，才可编辑应用了逻辑的字段。
+
+```
+IF($$USER.{role}.{name}="Resource Manager", true)
+```
+
+### 定义可编辑性逻辑
+
+{{step-1-to-setup}}
+
+1. 单击&#x200B;**自定义Forms**。
+1. 创建新的自定义表单或打开现有表单。 有关详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+1. 根据需要向表单添加字段。
+1. 选择要应用逻辑的字段，然后单击&#x200B;**添加逻辑**。
+1. 选择逻辑生成器上的&#x200B;**可编辑性**&#x200B;选项卡。
+
+   ![可编辑性逻辑生成器](assets/editability-blank-editor.png)
+
+1. 在编辑器中构建可编辑性条件。
+
+   有关计算和表达式的详细信息，请参阅[将计算字段添加到表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)和[计算数据表达式的概述](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)。
+
+1. 单击&#x200B;**应用**。
+
+   该逻辑将应用于表单设计器中的字段。
+
+   >[!NOTE]
+   >
+   >表单设计器预览模式不支持可编辑性逻辑。
+
+</div>

@@ -7,14 +7,18 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '3928'
+source-wordcount: '4076'
 ht-degree: 4%
 
 ---
 
 # 编辑任务
+
+{{highlighted-preview}}
 
 <!--Audited: 10/2025-->
 
@@ -28,13 +32,16 @@ ht-degree: 4%
 </div>
 -->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
 
-</div> -->
+</div>
+-->
+
 
 您可以编辑有关已创建、具有Contribute或Manage权限的任务的信息。
 
@@ -48,7 +55,8 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 包</td> 
-   <td> <p>“任一”</p> </td> 
+   <td>  <p>要使用用户和角色每小时收入和成本类型并添加超时比率，请执行以下操作：工作流Ultimate</p>
+      <p>要编辑所有其他设置并使用所有其他收入和成本类型，请执行以下操作：任何Workfront或工作流包</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -82,7 +90,8 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -118,7 +127,8 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
     </ul> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 编辑任务的限制
 
@@ -572,6 +582,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
         <li> <p>固定每小时 </p> </li> 
         <li> <p> 用户每小时 </p> </li> 
         <li> <p> 角色每小时</p> </li> 
+        <li> <p> <span class="preview">用户和角色每小时</span></p> </li> 
        </ul> <p>有关跟踪成本的更多信息，请参阅<a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">跟踪成本</a> 。 您的Workfront管理员或组管理员为您的系统或组中的任务选择默认成本类型设置。 有关设置项目默认设置的信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">配置系统范围的项目首选项</a> 。</p> </td> 
      </tr> 
      <tr> 
@@ -581,14 +592,26 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
       <li> <p> 不可计费 </p> </li> 
       <li> <p>用户每小时 </p> </li> 
       <li> <p>角色每小时 </p> </li> 
+      <li> <p> <span class="preview">用户和角色每小时</span></p> </li> 
       <li> <p>固定每小时 </p> </li> 
       <li> <p>受限用户小时 </p> </li> 
       <li> <p>受限角色小时 </p> </li> 
+      <li> <p> <span class="preview">用户和角色小时，受限时间</span></p> </li> 
       <li> <p>用户小时加固定 </p> </li> 
       <li> <p>角色小时加固定 </p> </li> 
+      <li> <p> <span class="preview">用户和角色小时加固定</span></p> </li> 
       <li> <p>固定收入 </p> </li> 
-       </ul> <p>有关跟踪收入的更多信息，请参阅<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">账单和收入概述</a> 。 </p> <p>您的Workfront管理员或组管理员为您的系统或组中的任务选择默认收入类型设置。 有关设置项目默认设置的信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">配置系统范围的项目首选项</a>。</p> </td> 
+       </ul> <p>有关跟踪收入的更多信息，请参阅<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">账单和收入概览</a>和<a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">收入和成本层次结构概览</a>。 </p> <p>您的Workfront管理员或组管理员为您的系统或组中的任务选择默认收入类型设置。 有关设置项目默认设置的信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">配置系统范围的项目首选项</a>。</p> </td> 
      </tr> 
+     <tr>
+      <td><span class="preview">加班比率</span></td> 
+      <td><span class="preview"><p>输入任务的超时乘数，例如1.5或2.0。默认值为1.0（无乘数）。 有关详细信息，请参阅<a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md">定义加班率</a>。</p><p>要查看“超时比率”字段，请执行以下操作：</p>
+       <ul>
+       <li>任务的收入类型必须是每小时用户和角色。 有关详细信息，请参阅<a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">收入和成本层次结构概览</a>。</li>
+       <li>对于任务详细信息视图中的财务区域，必须在布局模板中启用该字段。 有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md">使用布局模板自定义详细信息视图</a>。</li>
+       </ul>
+      </span></td>
+     </tr>
     </tbody> 
    </table>
 
@@ -710,7 +733,8 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 
 有关批量保存任务的信息，请参阅文章[在列表中编辑任务](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)中的“批量编辑任务”部分。
 
-<!--Temporary content while changing Assignments area: 
+<!--
+Temporary content while changing Assignments area: 
 
 Editing assignments is different in the Edit Task box depending on which environment you choose.
 
@@ -848,7 +872,8 @@ Editing assignments is different in the Edit Task box depending on which environ
          </table>
       
    
-      <!--<tr> 
+      <!--
+      <tr> 
       <td role="rowheader">Allocation</td> 
       <td> <p>If your Task Constraint is Calculated Work or Effort Driven, specify the <strong>Allocation %</strong> (allocation percentage) for each assignee. This is the amount of time from the schedule of the assignee that they can spend on this task. Changing the allocation percentage for an assignee will change the Planned Hours of a task. </p> <p>When the Task Constraint is Simple, you can specify the following:</p> 
          <ul> 
@@ -1019,4 +1044,5 @@ Editing assignments is different in the Edit Task box depending on which environ
 
 <div class="preview">
 
-#### Edit the Assignments area in the Preview environment-->
+#### Edit the Assignments area in the Preview environment
+-->

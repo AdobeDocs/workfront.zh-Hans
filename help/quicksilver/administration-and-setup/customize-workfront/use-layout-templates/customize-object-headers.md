@@ -8,20 +8,22 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
+source-git-commit: 106ff601a4a19dbbf50cb3329675928ad7087b21
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '548'
 ht-degree: 3%
 
 ---
 
 # 使用布局模板自定义对象标题
 
+{{highlighted-preview}}
+
 作为Adobe Workfront管理员或组管理员，您可以使用布局模板配置用户在打开对象页面时显示在对象标题中的字段。
 
 >[!IMPORTANT]
 >
->当前可用于项目、任务和问题的自定义对象标题。
+>当前自定义对象标题可用于项目、任务、问题、<span class="preview">项目组合、程序、模板、账单记录、团队、组、用户、公司、组和费率卡。</span>
 
 ![对象标题字段](assets/object-header-fields.png)
 
@@ -41,7 +43,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 包</td> 
-   <td><p>任何</p></td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
@@ -64,10 +66,7 @@ ht-degree: 3%
 ## 自定义对象标题
 
 1. 开始处理布局模板，如[创建和管理布局模板](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
-1. 在&#x200B;**自定义用户看到的内容**&#x200B;下拉菜单中，选择&#x200B;**项目**、**任务**&#x200B;或&#x200B;**问题**。
-
-   <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
-
+1. 在&#x200B;**自定义用户看到的内容**&#x200B;下拉菜单中，选择要自定义其标题的对象。
 1. 在[!UICONTROL 标题字段]部分中，将鼠标悬停在当前字段上并执行以下操作之一：
    * 单击&#x200B;**x**&#x200B;图标可删除字段
 
@@ -75,12 +74,12 @@ ht-degree: 3%
 
    * 单击并按住&#x200B;**抓取**&#x200B;图标以将字段拖放到新位置。
 
-   <!--(NOTE: make sure the default names of these fields have not changed; otherwise, update screen shot)-->
-
    ![对象标题字段隐藏和移动图标](assets/object-header-field-x-and-grab-icons-in-lt.png)
 
 1. 一个对象的标题中最多可以有五个字段。
-如果已选择五个字段，则必须先移除一个字段，然后才能添加新字段。
+
+   如果已选择五个字段，则必须先移除一个字段，然后才能添加新字段。
+
 1. 在&#x200B;**添加字段**&#x200B;框中，开始键入要添加的自定义字段或本机Workfront字段的名称，然后当该字段显示在列表中时将其选定。 该字段即被添加到“添加字段”框的右上角，并将作为第一个字段显示在对象标题的右上角。
 
    >[!TIP]

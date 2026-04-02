@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 34c63e1b7d6323a4cf25514aaff9f923010d8958
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 12%
+source-wordcount: '397'
+ht-degree: 11%
 
 ---
 
 # 自定义表单概述
+
+{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -30,6 +32,16 @@ ht-degree: 12%
 表单设计器具有画布样式的工作区，允许您同时查看字段、画布和字段设置。 它还允许您在设计表单时拖放部分中的字段。 您可以调整屏幕右侧的大小，为字段选项提供更多空间。
 
 有关详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+
+<div class="preview">
+
+“预览”环境中的示例图像：
+
+![示例表单设计器](assets/form-designer-example-032526.png)
+
+</div>
+
+生产环境中的示例图像：
 
 ![示例表单设计器](assets/form-designer-example.png)
 

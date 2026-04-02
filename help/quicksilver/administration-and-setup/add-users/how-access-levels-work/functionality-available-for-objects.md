@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+source-git-commit: 1721d6d4c2059fa32d0fd2ae80af4bd26a8f06a7
 workflow-type: tm+mt
-source-wordcount: '1326'
-ht-degree: 14%
+source-wordcount: '1555'
+ht-degree: 16%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 14%
 >[!NOTE]
 >
 >* 本文介绍了可用于访问新Workfront包模型中的级别的功能。 要查看当前包模型中可用的功能，请参阅[各种访问级别中每种对象类型可用的功能](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)。
->* 有关最新模型中其他包可用的功能列表，请参阅[Adobe Workfront定价和打包](https://business.adobe.com/cn/products/workfront/pricing.html)。
+>* 有关最新模型中其他包可用的功能列表，请参阅[Adobe Workfront定价和打包](https://business.adobe.com/products/workfront/pricing.html)。
 
 ## 项目
 
@@ -59,6 +59,7 @@ ht-degree: 14%
 | 管理风险 | ✓ |   |   |   |
 | 管理财务状况 | ✓ |   |   |   |
 | 添加/编辑费用 | ✓ |   |   |   |
+| <span class="preview">附加费率卡</span> | ✓ |   |   |   |
 | 附加模板 | ✓ |   |   |   |
 | 另存为模板 | ✓ |   |   |   |
 | 添加/编辑业务案例 | ✓ |   |   |   |
@@ -256,6 +257,36 @@ ht-degree: 14%
 
 ## 用户
 
+<div class="preview">
+
+这些选项在“预览”环境中可用：
+
+| 操作 | 标准 | 轻量 | 投稿人 | 外部用户** |
+|----------------------------------------------------------------------------------------------------|----------|--------|-------------|-----------------|
+| 创建 | ✓* |   |   |   |
+| 删除 | ✓* |   |   |   |
+| 编辑计费费率 | ✓* |   |   |   |
+| 编辑联系信息 | ✓* |   |   |   |
+| 编辑成本费率 | ✓* |   |   |   |
+| 编辑一般财务 | ✓* |   |   |   |
+| 编辑、删除、取消激活、以用户身份登录或重置任何用户的密码 | ✓* |   |   |   |
+| 编辑、删除、取消激活、以用户身份登录或重置他们管理的组中的任何用户的密码 | ✓* |   |   |   |
+| 查看用户 | ✓ | ✓ | ✓ |   |
+| 查看联系信息 | ✓ | ✓ | ✓ |   |
+| 查看计费费率 | ✓* |   |   |   |
+| 查看成本费率 | ✓* |   |   |   |
+| 查看一般财务 | ✓* |   |   |   |
+
+{style="table-layout:auto"}
+
+&#42;使用访问级别，Workfront管理员可以禁用或启用此功能。
+
+&#42;&#42;外部用户只能搜索其他用户。
+
+</div>
+
+生产环境中提供了以下选项：
+
 | 操作 | 标准 | 轻量 | 投稿人 | 外部用户** |
 |----------------------------------------------------------------------------------------------------|----------|--------|-------------|-----------------|
 | 创建 | ✓* |   |   |   |
@@ -270,6 +301,63 @@ ht-degree: 14%
 &#42;使用访问级别，Workfront管理员可以禁用或启用此功能。
 
 &#42;&#42;外部用户只能搜索其他用户。
+
+<!--
+
+<div class="preview">
+
+## Job Roles
+
+|  Action           |  Standard  |  Light  |  Contributor  | External user |
+|-------------------|------------|---------|---------------|---------------|
+| View              | ✓          | ✓       | ✓             | &nbsp;        |
+| Edit              | ✓          | &nbsp;  | &nbsp;        | &nbsp;        |
+| Create            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Delete            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit Billing Rates | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit Cost Rates   | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit General Finance | ✓*      | &nbsp;  | &nbsp;        | &nbsp;        |
+| View Billing Rates | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
+| View Cost Rates    | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
+| View General Finance | ✓       | &nbsp;  | &nbsp;        | &nbsp;        |
+
+{style="table-layout:auto"}
+
+&#42; Using an access level, Workfront administrators can disable or enable this functionality.
+
+</div>
+
+## Companies
+
+|  Action           |  Standard  |  Light  |  Contributor  | External user |
+|-------------------|------------|---------|---------------|---------------|
+| View              | ✓          | ✓       | ✓             | &nbsp;        |
+| Edit              | ✓          | &nbsp;  | &nbsp;        | &nbsp;        |
+| Create            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Delete            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit Billing Rates | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit Cost Rates   | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit General Finance | ✓*      | &nbsp;  | &nbsp;        | &nbsp;        |
+| View Billing Rates | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
+| View Cost Rates    | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
+| View General Finance | ✓       | &nbsp;  | &nbsp;        | &nbsp;        |
+
+{style="table-layout:auto"}
+
+&#42; Using an access level, Workfront administrators can disable or enable this functionality.
+
+## Groups
+
+|  Action           |  Standard  |  Light  |  Contributor  | External user |
+|-------------------|------------|---------|---------------|---------------|
+| Share             | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| View              | ✓          | ✓       | ✓             | &nbsp;        |
+
+{style="table-layout:auto"}
+
+&#42; Using an access level, Workfront administrators can disable or enable this functionality.
+
+-->
 
 ## 团队
 
@@ -306,6 +394,34 @@ ht-degree: 14%
 
 只有拥有Standard许可证的用户才能完全访问财务数据。
 
+<div class="preview">
+
+这些选项在“预览”环境中可用：
+
+| 操作 | 标准 | 轻量 | 投稿人 | 外部用户 |
+|--------------------------------------------------------------|----------|--------|-------------|---------------|
+| 编辑计费费率 | ✓&#42; |   |   |   |
+| 编辑成本费率 | ✓&#42; |   |   |   |
+| 编辑一般财务 | ✓&#42; |   |   |   |
+| 查看计费费率 | ✓&#42; | ✓&#42; |   |   |
+| 查看成本费率 | ✓&#42; | ✓&#42; |   |   |
+| 查看一般财务 | ✓&#42; | ✓&#42; |   |   |
+| 管理账单记录 | ✓ |   |   |   |
+| 管理费用 | ✓ |   |   |   |
+| 在资源计划工具中按成本查看信息 | ✓ |   |   |   |
+| 资源规划工具中的预算资源&#42;&#42; | ✓ |   |   |   |
+| 在资源计划工具&#42;中查看资源分配 | ✓ | ✓ |   |   |
+| 在项目中创建风险 | ✓ |   |   |   |
+| 查看项目风险 | ✓ | ✓ |   |   |
+
+{style="table-layout:auto"}
+
+&#42;使用访问级别，Workfront管理员可以禁用或启用此功能。
+
+</div>
+
+生产环境中提供了以下选项：
+
 | 操作 | 标准 | 轻量 | 投稿人 | 外部用户 |
 |--------------------------------------------------------------|----------|--------|-------------|---------------|
 | 编辑角色计费和成本率 | ✓&#42; |   |   |   |
@@ -315,7 +431,6 @@ ht-degree: 14%
 | 管理账单记录 | ✓ |   |   |   |
 | 管理费用 | ✓ |   |   |   |
 | 查看财务数据 | ✓&#42; | ✓&#42; |   |   |
-| <span class="preview">管理费率卡</span> | ✓ |   |   |   |
 | 在资源计划工具中按成本查看信息 | ✓ |   |   |   |
 | 资源规划工具中的预算资源&#42;&#42; | ✓ |   |   |   |
 | 在资源计划工具&#42;中查看资源分配 | ✓ | ✓ |   |   |
@@ -367,6 +482,26 @@ ht-degree: 14%
 >仅当与另一个用户共享指向该计划的链接时，用户才能查看另一个用户创建的计划。
 
 &#42;为了使用户能够查看计划或计划中的财务数据，他们需要访问财务数据。 有关详细信息，请参阅[授予对财务数据的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)。
+
+<div class="preview">
+
+## 费率卡
+
+只有拥有标准许可证的用户才能完全访问评级卡。
+
+| 操作 | 标准 | 轻量 | 投稿人 | 外部用户 |
+|-------------------|------------|---------|---------------|---------------|
+| 视图 | ✓ | ✓ |   |   |
+| Edit | ✓ |   |   |   |
+| 创建 | ✓* |   |   |   |
+| 删除 | ✓* |   |   |   |
+| 共享 | ✓* | ✓* |   |   |
+
+{style="table-layout:auto"}
+
+&#42;使用访问级别，Workfront管理员可以禁用或启用此功能。
+
+</div>
 
 ## Workfront目标区域
 

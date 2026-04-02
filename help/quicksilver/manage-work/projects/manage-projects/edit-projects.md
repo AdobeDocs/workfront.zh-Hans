@@ -7,9 +7,11 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '7726'
+source-wordcount: '7855'
 ht-degree: 1%
 
 ---
@@ -18,9 +20,11 @@ ht-degree: 1%
 
 <!--Audited: 07/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 <!--
 <p>***Linked to many articles,</p>
@@ -48,7 +52,8 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 包</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>要为项目设置系统级别的汇率并保留项目记帐汇率，请执行以下操作：工作流Ultimate</p>
+      <p>编辑所有其他设置：任何Workfront或工作流包</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -72,7 +77,8 @@ ht-degree: 1%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -101,7 +107,8 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## 编辑项目的限制
 
@@ -399,11 +406,12 @@ ht-degree: 1%
 
 要编辑“财务”区域中的字段，请执行以下操作：
 
-
 1. 按如上所述开始编辑项目。
 1. 单击左侧面板中的&#x200B;**财务**。
 
    项目编辑框中的![财务区域](assets/nwe-finance-in-edit-project-box-350x183.png)
+
+   <!--![Finance area in the project edit box](assets/edit-project-finance-section.png)-->
 
 1. 更新项目的以下财务信息：
 
@@ -411,9 +419,17 @@ ht-degree: 1%
     <col> 
     <col> 
     <tbody> 
+     <tr>
+      <td><strong><span class="preview">使用系统中的生效日期汇率</span></strong></td>
+      <td><p><span class="preview">选择此选项时，将始终使用系统级别的有效日期汇率，并且不允许对项目进行汇率覆盖。</span></p> <p><span class="preview">如果选择该选项，您还必须选择要开始的<strong>汇率日期</strong>。</span></p></td> 
+     </tr>
+     <tr>
+      <td><strong><span class="preview">保留项目计费率信息</span></strong></td>
+      <td><p><span class="preview">启用此选项后，所有分配开单费率将永久冻结为开单层次结构中的最高适用费率。 这是一次性选择，一旦项目具有工作分配或小时，您就无法禁用此选项。 保留后，无法在项目上的任何位置更改、编辑或覆盖分配记帐费率。</span></p></td>
+     </tr>
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>货币</strong> </td> 
-      <td> <p> <p>如果项目货币与系统的默认货币不同，请指定该项目的货币。 如果项目中已存在财务信息，则无法更改项目的货币。 如果系统中只有默认货币，则此字段不可见。 </p> <p>有关货币的详细信息，请参阅<a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">设置汇率</a>。<br></p> </p> </td> 
+      <td> <p>如果项目货币与系统的默认货币不同，请指定该项目的货币。 如果项目中已存在财务信息，则无法更改项目的货币。 如果系统中只有默认货币，则此字段不可见。 </p> <p>有关货币的详细信息，请参阅<a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">设置汇率</a>。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>预算</strong> </td> 
@@ -788,7 +804,7 @@ ht-degree: 1%
 
 1. 在列表中选择多个项目。
 1. 单击列表顶部的&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
-将打开&#x200B;**编辑项目**&#x200B;对话框。
+将打开**编辑项目**&#x200B;对话框。
 
    ![以批量模式编辑项目](assets/edit-projects-in-bulk-modal-unshimmed.png)
 
@@ -831,15 +847,15 @@ ht-degree: 1%
 
    有关编辑自定义表单的更多信息，请参阅本文中的[自定义Forms](#custom-forms)部分。
 
-1. 单击&#x200B;**财务**&#x200B;编辑所有选定项目的财务信息。
+1. 单击&#x200B;**财务**编辑所有选定项目的财务信息。
 有关编辑“财务”区域的详细信息，请参阅本文中的[财务](#finance)部分。
-1. 单击&#x200B;**项目设置**&#x200B;可编辑所有选定项目的设置。
+1. 单击&#x200B;**项目设置**可编辑所有选定项目的设置。
 有关编辑“项目设置”区域的详细信息，请参阅本文中的[项目设置](#project-settings)部分。
-1. 单击&#x200B;**任务设置**&#x200B;可编辑所有选定项目的任务设置。
+1. 单击&#x200B;**任务设置**可编辑所有选定项目的任务设置。
 有关编辑“任务设置”区域的详细信息，请参阅本文中的[任务设置](#task-settings)部分。
-1. 单击&#x200B;**问题设置**&#x200B;可编辑所有选定项目的问题设置。
+1. 单击&#x200B;**问题设置**可编辑所有选定项目的问题设置。
 有关编辑“问题设置”区域的详细信息，请参阅本文中的[问题设置](#issue-settings)部分。
-1. 单击&#x200B;**访问**&#x200B;可编辑所有选定项目的访问设置。
+1. 单击&#x200B;**访问**可编辑所有选定项目的访问设置。
 有关编辑“访问”区域的详细信息，请参阅本文中的[访问](#access)部分。
 1. 单击&#x200B;**评论**，然后在提供的空间中添加评论。 Workfront在每个项目的&#x200B;**更新**&#x200B;区域中添加注释。 有关更新工作的信息，请参阅[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 1. （可选）要删除您在“编辑项目”框中添加的任何信息，请将鼠标悬停在已编辑的字段上，然后单击该字段右上角的&#x200B;**x**&#x200B;放弃图标。
@@ -850,7 +866,8 @@ ht-degree: 1%
 1. 单击&#x200B;**保存**。
 
 
-<!-- Old information for how to bulk edit in classic/ before project bulk edit redesign: 
+<!--
+ Old information for how to bulk edit in classic/ before project bulk edit redesign: 
 
 ### Edit projects in bulk in the Production environment
 

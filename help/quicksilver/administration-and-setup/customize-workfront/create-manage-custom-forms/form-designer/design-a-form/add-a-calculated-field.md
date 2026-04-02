@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 6dce5e15a41587cd9febf82ffc0a62d3b7e121d1
+source-git-commit: 5cdaccd9381b02f183b837208eaac4389b0b7a24
 workflow-type: tm+mt
-source-wordcount: '2506'
+source-wordcount: '2714'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 # 将计算字段添加到表单
 
 <!-- Audited: 5/2025 -->
+
+{{highlighted-preview}}
 
 您可以添加计算自定义字段，在自定义表单附加到对象时，该字段使用现有数据生成新数据。
 
@@ -41,7 +43,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->对直接字段的更改会自动触发计算字段值的更新。 (直接字段是Workfront API Explorer中可用的字段，或者是附加到对象的自定义表单中的自定义字段。) 对引用或公式的更改需要手动重新计算字段值。
+>对直接字段的更改会自动触发计算字段值的更新。 （直接字段是Workfront API Explorer中可用的字段，或者是附加到对象的自定义表单中的自定义字段。） 对引用或公式的更改需要手动重新计算字段值。
 
 ## 访问权限要求
 
@@ -53,7 +55,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 包</td> 
-   <td><p>任何</p></td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
@@ -168,6 +170,22 @@ ht-degree: 1%
      <tr>
       <td>活动</td>
       <td><p>此选项默认处于打开状态。<p><p>将字段设置为“不活动”时，该字段将从报表、筛选器和视图中排除，并且在自定义表单字段库中不再可用。</p></td>
+     </tr>
+     <tr>
+      <td><span class="preview">自动权限</span></td>
+      <td><span class="preview"><p>启用此选项可允许财务权限自动来自公式中使用的字段。 权限定义显示在下面的“财务权限类型”字段中。</p><p>需要访问公式中的所有字段。 例如，如果在计算字段中使用了两个字段，其中一个字段应用了计费权限，而另一个字段应用了成本权限，则用户必须具有查看计费和成本费率的权限才能查看计算值。</p></span></td>
+     </tr>
+     <tr>
+      <td><span class="preview">财务权限类型</span></td>
+      <td><p><span class="preview">当自动权限字段关闭时，您可以选择用户查看或编辑此自定义字段之前必须具有的财务权限类型。 计算字段允许使用任何格式。 公式中使用的字段决定了此字段是否有效。 如果权限字段为空，则公式中的字段不支持财务权限。</span></p>
+      <ul span class="preview">
+      <li><p><strong>不需要权限：</strong>所有用户都可以看到此字段</p></li>
+      <li><p><strong>常规：</strong>用户必须具有编辑或查看常规财务的权限</p></li>
+      <li><p><strong>帐单：</strong>用户必须具有编辑或查看记帐费率的权限</p></li>
+      <li><p><strong>成本：</strong>用户必须具有编辑或查看成本费率的权限</p></li>
+      </ul>
+      <p><span class="preview">有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">限制对自定义字段中的财务数据的访问</a>。</span></p>
+      </td>
      </tr>
     </tbody> 
    </table>

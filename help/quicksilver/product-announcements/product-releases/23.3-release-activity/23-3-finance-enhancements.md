@@ -5,9 +5,9 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: dc8ea58d-ad8a-45c8-bd02-552ab6127c38
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 3fe3313bd545d51be7aa0fb021dd0bb0f91b4321
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
@@ -40,4 +40,4 @@ ht-degree: 0%
 
 通过新功能“费率卡”，您可以根据位置为每个工作角色定义多个计费费率。 工作角色和地点的开单费率还可以包括有效日期。 可以将费率卡附加到项目，以便一次性应用特定工作角色和位置的所有费率信息。 基于位置的角色也可以分配给任务，并且可以在分配层覆盖其费率。
 
-有关详细信息，请参阅[编辑用户配置文件](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)、[创建和管理工作角色](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)、[管理费率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)和[账单和收入概览](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md)。
+有关详细信息，请参阅[编辑用户配置文件](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)、[创建和管理工作角色](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)和[账单和收入概述](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md)。
