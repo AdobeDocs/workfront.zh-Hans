@@ -716,7 +716,7 @@ The following functionality is soon to be removed from Workfront:
 
 >[!IMPORTANT]
 >
->Workfront Fusion文档已移至新位置。 有关Fusion的信息、说明和发行版，请访问[Workfront Fusion文档](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home)。
+>Workfront Fusion文档已移至新位置。 有关Fusion的信息、说明和发行版，请访问[Workfront Fusion文档](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/home)。
 >
 >当前每篇Fusion文档文章都包含一个指向新位置中相应文章的链接。 请更新您的书签。
 >

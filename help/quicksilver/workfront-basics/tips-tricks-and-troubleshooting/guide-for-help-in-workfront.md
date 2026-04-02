@@ -43,12 +43,12 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td><strong>在[!DNL Workfront]上签出[!DNL Adobe Experience League]</strong> </td> 
-   <td> <p>您可以使用<a href="https://experienceleague.adobe.com/en/docs/workfront">https://experienceleague.adobe.com/en/docs/workfront</a>顶部的搜索栏来帮助查找特定文章、讨论或培训。 将其视为所有[!DNL Workfront]项的搜索引擎。</p> <p>您还可以在此处找到以下资源</p> 
+   <td> <p>您可以使用<a href="https://experienceleague.adobe.com/zh-hans/docs/workfront">https://experienceleague.adobe.com/zh-hans/docs/workfront</a>顶部的搜索栏来帮助查找特定文章、讨论或培训。 将其视为所有[!DNL Workfront]项的搜索引擎。</p> <p>您还可以在此处找到以下资源</p> 
     <ul> 
      <li> <p><a href="https://experienceleague.adobe.com/zh-hans/docs/workfront/using/home">文档</a> </p> </li> 
      <li> <p><a href="https://experienceleague.adobe.com/zh-hans/docs/workfront-learn/tutorials-workfront/home">教程</a> </p> </li> 
      <li> <p><a href="https://experienceleague.adobe.com/zh-hans/docs/workfront/using/product-announcements/product-releases/product-releases">版本</a> </p></li> 
-     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-general-information/api-basics">API文档</a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/zh-hans/docs/workfront/using/adobe-workfront-api/api-general-information/api-basics">API文档</a> </p> </li> 
      <li> <p>等等！</p> </li> 
     </ul> </td> 
   </tr> 
@@ -70,7 +70,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td><strong>通过[!DNL Workfront]培训按需学习并深入研究</strong> </td> 
-   <td><a href="https://experienceleague.adobe.com">Experience League</a>提供基于角色的学习路径，让规划人员、工作人员、协作者和系统管理员在[!DNL Workfront]中启动并运行关键功能。<br>通过探索学习路径、视频教程和可下载的指南来扩展您的[!DNL Workfront]知识</a>。<br></td> 
+   <td><a href="https://experienceleague.adobe.com/zh-hans">Experience League</a>提供基于角色的学习路径，让规划人员、工作人员、协作者和系统管理员在[!DNL Workfront]中启动并运行关键功能。<br>通过探索学习路径、视频教程和可下载的指南来扩展您的[!DNL Workfront]知识</a>。<br></td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,15 +84,15 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td>突出显示客户的<a href="https://business.adobe.com/resources/main.html?Products=Workfront">[!DNL Workfront]资源</a> </td> 
+   <td>突出显示客户的<a href="https://business.adobe.com/cn/resources/main.html?Products=Workfront">[!DNL Workfront]资源</a> </td> 
    <td>这是您网络研讨会、电子书、白皮书、视频和报告的起始来源。</td> 
   </tr> 
   <tr> 
-   <td><a href="https://business.adobe.com/customer-success-stories.html?Products=Adobe%2520Workfront%22%3E">案例研究 </a></td> 
+   <td><a href="https://business.adobe.com/cn/customer-success-stories.html?Products=Adobe%2520Workfront%22%3E">案例研究 </a></td> 
    <td>阅读不断增加的60多个案例研究，其中重点介绍客户面临的挑战以及[!DNL Workfront]个解决方案和优势。</td> 
   </tr> 
   <tr> 
-   <td><a href="https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront">[!DNL Workfront]社区</a> </td> 
+   <td><a href="https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=zh-Hans">[!DNL Workfront]社区</a> </td> 
    <td>[!DNL Workfront]社区允许您与世界各地的[!DNL Workfront]用户和专家进行对话。 他们总是帮助回答您的问题，或为您指明正确的方向。</td> 
   </tr> 
  </tbody> 
@@ -145,14 +145,14 @@ ht-degree: 1%
 
 | [[!DNL Adobe Workfront] 集成](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) | 您可以将[!DNL Workfront]与第三方应用程序集成。 集成可以扩展[!DNL Workfront]的实用工具，并根据贵组织的需求对其进行定制。 这篇知识库文章介绍了您的集成选项，并指出了下一步的方向。 |
 |---|---|
-| [[!DNL Workfront] 内置集成](https://business.adobe.com/products/workfront/integrations.html) | Workfront免费的内置集成让您和您的团队能够顺利过渡到Workfront平台，同时保持相同的工作流程和流程。 |
-| [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home) | 将[!DNL Workfront]连接到100多个应用程序，使您的业务关键流程无需代码即可轻松实现自动化。 |
+| [[!DNL Workfront] 内置集成](https://business.adobe.com/cn/products/workfront/integrations.html) | Workfront免费的内置集成让您和您的团队能够顺利过渡到Workfront平台，同时保持相同的工作流程和流程。 |
+| [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/home) | 将[!DNL Workfront]连接到100多个应用程序，使您的业务关键流程无需代码即可轻松实现自动化。 |
 
 {style="table-layout:auto"}
 
 ## [!DNL Workfront]何时进行维护？ 如何确定[!DNL Workfront]是否关闭？
 
-订阅[status.adobe.com](https://status.adobe.com/)以随时了解维护时间表和中断问题。
+订阅[status.adobe.com](https://status.adobe.com/zh-cn/)以随时了解维护时间表和中断问题。
 
 若要了解有关[!DNL Workfront]状态站点的详细信息，请参阅[状态站点 [!DNL Adobe Workfront] &#x200B;](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)。
 
@@ -165,8 +165,8 @@ ht-degree: 1%
 
 The following dashboards can help you as a [!DNL Workfront] administrator maintain Workfront:
 
-| [[!DNL Workfront] Usage Dashboard](https://experienceleaguecommunities.adobe.com/t5/workfront-archived-groups/workfront-usage-dashboard/m-p/461045#M2624) | Understanding how your users are leveraging [!DNL Workfront] can help you gauge the overall adoption of your system as well as dive into any problem areas that may need some attention. |
+| [[!DNL Workfront] Usage Dashboard](https://experienceleaguecommunities.adobe.com/t5/workfront-archived-groups/workfront-usage-dashboard/m-p/461045?profile.language=zh-Hans#M2624) | Understanding how your users are leveraging [!DNL Workfront] can help you gauge the overall adoption of your system as well as dive into any problem areas that may need some attention. |
 |---|---|
-| [[!DNL Workfront] Cleanup Dashboard: Deactivate Unused Objects](https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-workfront-cleaned-up-its-own-unbridled-instance-of-workfront/ba-p/518299) | Keeping [!DNL Workfront] clean from unused objects is a long-standing best practice but one that can seem daunting without the right tools. This dashboard is designed for System Administrators or Process Owners to easily find [!DNL Workfront] data that may need to be cleaned up to help improve the user experience. We recommend reviewing this dashboard every quarter to help keep [!DNL Workfront] clean. |
+| [[!DNL Workfront] Cleanup Dashboard: Deactivate Unused Objects](https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-workfront-cleaned-up-its-own-unbridled-instance-of-workfront/ba-p/518299?profile.language=zh-Hans) | Keeping [!DNL Workfront] clean from unused objects is a long-standing best practice but one that can seem daunting without the right tools. This dashboard is designed for System Administrators or Process Owners to easily find [!DNL Workfront] data that may need to be cleaned up to help improve the user experience. We recommend reviewing this dashboard every quarter to help keep [!DNL Workfront] clean. |
 
 -->
