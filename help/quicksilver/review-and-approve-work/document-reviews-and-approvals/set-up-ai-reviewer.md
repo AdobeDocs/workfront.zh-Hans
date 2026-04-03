@@ -1,26 +1,30 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 创建AI审阅者
-description: 在Workfront中至少设置了一个品牌后，即可创建多个AI审阅人，并将其分配给审批模板和各个审阅和审批请求。
+title: 创建内容审阅者
+description: 在Workfront中至少设置了一个品牌后，即可创建多个内容审阅人，并将其分配给审批模板和各个审阅和审批请求。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
+hide: true
+hidefromtoc: true
 exl-id: 4673049e-119e-4315-95f0-f10d8b286856
-source-git-commit: c5f726ec70b2caa7366ba5af7dac446554d2fa6b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 2b3e2ac00126facab9cc45ba8fb193d8951a37ec
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 10%
+source-wordcount: '288'
+ht-degree: 8%
 
 ---
 
-# 创建AI审阅者
+# 创建内容审阅者
 
 >[!NOTE]
 >
 >此功能当前处于测试阶段。
 
-在Workfront中至少设置了一个品牌后，即可创建多个AI审阅人，并将其分配给审批模板和各个审阅和审批请求。
+在Workfront中至少设置了一个品牌后，即可创建多个内容审阅人，并将其分配给审批模板和各个审阅和审批请求。
 
 
 ## 访问权限要求
@@ -52,26 +56,28 @@ ht-degree: 10%
 
 ## 先决条件
 
-在开始之前，您必须在Workfront中设置图像品牌指南。 有关详细信息，请参阅[为AI审阅者设置品牌](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)。
+在开始之前，您必须在Workfront中设置图像品牌指南。 有关详细信息，请参阅[为内容查看者创建和管理品牌](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)。
 
-## 添加AI审阅者
+## 添加内容查看者
 
 >[!NOTE]
 >
->AI审阅者并非旨在成为审阅和批准工作流中的决策者。 它仅提供分数和建议，以将资产与指定的品牌要求保持一致。
+>内容审阅人并非设计作为审阅和批准工作流程中的决策者。 它仅提供分数和建议，以将资产与指定的品牌要求保持一致。
 
-添加AI审阅者：
+要添加内容查看者，请执行以下操作：
 
 {{step-1-to-setup}}
 
-1. 在左侧面板中，转到&#x200B;**审阅和批准** > **AI审阅者**。
+1. 在左侧面板中，转到&#x200B;**审阅和批准** > **内容审阅者**。
 1. 单击&#x200B;**新增**。
 1. 为审阅者命名。
 1. 选择&#x200B;**品牌**。
-1. 选择&#x200B;**类别**。
+1. 在&#x200B;**指导类型**&#x200B;下拉菜单中选择以下选项之一：
+   * **图像**：内容查看者将按照您在Workfront中设置的图像品牌指南查看资产。
+   * **品牌声音**：内容审阅人将依据您在Workfront中设置的品牌声音准则审阅资产。
 1. 单击&#x200B;**创建**。
 
-   创建AI审阅人后，用户可以将AI审阅人添加到审批模板或个人审批。
+   创建内容审阅人后，用户可以将内容审阅人添加到审批模板或个人审批。
 
    有关更多信息，请参阅
 

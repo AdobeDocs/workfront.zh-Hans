@@ -9,7 +9,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
-source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 2b3e2ac00126facab9cc45ba8fb193d8951a37ec
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 0%
@@ -52,7 +54,7 @@ Adobe企业存储的主要优势包括：
 * 实时跟踪审阅和批准状态
 * 将反馈和批准集中到一个地方
 * 确保所有利益相关者均有权访问最新版本的资产
-* 利用AI评审员自动进行品牌合规性审查
+* 利用内容审查者自动进行品牌合规性审查
 * 等等
 
 有关详细信息，请参阅[统一文档审批：文章索引](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)。

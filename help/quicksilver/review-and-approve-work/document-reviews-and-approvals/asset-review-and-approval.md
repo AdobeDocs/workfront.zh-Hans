@@ -6,7 +6,9 @@ description: 在Workfront中可供审阅和批准的系统概述。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 2b3e2ac00126facab9cc45ba8fb193d8951a37ec
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 0%
@@ -62,10 +64,9 @@ Workfront中目前有3种不同的系统可用于文档审批：
 
 * 访问主页区域中的我的审批小组件中的查看和审批请求
 
+* 使用内容审查器可自动进行品牌合规性审查。 有关详细信息，请参阅[开始使用Workfront内容审阅者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)。
+
 * 使用Frame.io查看器审阅和批准文档。 有关详细信息，请参阅[统一审查和批准入门](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)。
-
-* 使用AI审阅者可自动进行品牌合规性审阅。 有关详细信息，请参阅[Workfront AI查看器入门](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)。
-
 
 ## 验证审批
 
