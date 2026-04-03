@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 5e0be9d9-efa5-4b16-bd56-f9c85bc57ced
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: c4716157a6fdf667f7e608d0c37399f57ec1bbfe
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1569'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 0%
    <ul><li><p>Adobe Experience Manager Assets许可证以及AEM Assets与Workfront之间的集成，用于连接AEM资源与Planning记录类型。</p>
    <p>有关信息，请参阅适用于Experience Manager Assets和Assets Essentials的<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 用于连接记录类型与GenStudio Brands的Adobe GenStudio for Performance Marketing许可证</p>
-   <p>有关信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing入门</a>。</p></li></ul>
+   <p>有关信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing入门</a>。</p></li></ul>
    </td> 
   </tr>
 
@@ -303,38 +303,47 @@ When you create a connected records page for connected Planning records in the P
 
 1. 转到记录类型页面并单击记录名称。 这将打开记录的预览页面。
 1. 单击显示Workfront项目的已连接记录页面的选项卡。
-与所选记录连接的项目将显示在列表视图中。
-1. 单击已连接记录页面右上角的&#x200B;**连接记录**&#x200B;以连接现有项目。
 
-   有关信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。
-1. 在列表视图的单元格内双击以编辑项目的字段。 某些字段为只读。
-1. 执行以下操作之一以编辑列表视图：
+   ![项目连接的记录页](assets/projects-connected-records-page-table.png)
 
-   * 单击&#x200B;**新建行**&#x200B;以创建没有模板的项目。 新项目将自动连接到当前记录。
+   与所选记录连接的项目将显示在列表视图中。
 
-     有关详细信息，请参阅将Workfront对象连接到记录时[从Workfront Planning创建对象](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)。
-   * 单击视图右上角的&#x200B;**创建记录**&#x200B;以添加现有项目。 项目将立即连接到所选记录。
+   有关在列表视图中管理或编辑对象的信息，请参阅[管理列表视图](/help/quicksilver/planning/views/manage-the-list-view.md)。
 
-   * 将鼠标悬停在列表中的项目名称上，然后单击&#x200B;**更多**&#x200B;菜单[更多菜单](assets/more-menu.png)，然后单击&#x200B;**查看**&#x200B;以在其他选项卡中打开该项目
+<!-- 
+removed this part, so we won't have to have duplicate information to keep up with for the list view in Planning: 
+1. Click **Connect records** in the upper-right corner of the connected record page to connect existing projects.
 
-     或
+   For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+1. Double-click inside a cell in the list view to edit a project's fields. Some fields are read-only. 
+1. Do one of the following to edit the list view: 
 
-     选择一个或多个项目，然后在列表底部的操作栏中单击&#x200B;**删除**&#x200B;或&#x200B;**断开连接**，以从列表中移除该项。
+   * Click **New row** to create a project without a template. The new project is automatically connected to the current record.
 
+      For more information, see [Create Workfront objects from Workfront Planning as you connect them to records](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
+   * Click **Create records **in the upper-right corner of the view to add existing projects. Projects are immediately connected to the selected record. 
 
-   * 单击“视图”下拉菜单，然后单击“**新建视图**”为页面添加新视图，然后执行以下操作，或者单击新名称右侧的“**更多**”菜单“![更多”菜单](assets/more-menu.png)”，然后单击“**重命名**”、“**共享**”或“**删除**”视图。
+   * Hover over a project name in the list and click the **More** menu [More menu](assets/more-menu.png) and click **View** to open the project in another tab
+     
+      Or
 
-     您无法重命名、共享或删除系统视图或您没有“管理”权限的视图。
+      Select one or more projects, and from the actions bar at the bottom of the list, click **Delete** or **Disconnect** to remove the item from the list.
+      
 
-     ![在“连接的项目”记录页面上查看更多菜单](assets/view-more-menu-projects-connected-records-page.png)
+   * Click the views dropdown menu, and click **New view** to add a new view for the page, then do the following, or click the **More** menu ![More menu](assets/more-menu.png) to the right of a new name, then **Rename**, **Share**, or **Delete** the view. 
 
-   * 单击下列选项之一以更新视图元素：
+      You cannot rename, share or delete System Views or views you do not have Manage permissions to.
 
-      * **筛选**&#x200B;以限制列表中的信息量
-      * **列**&#x200B;以隐藏列或更改其顺序
-      * 表格视图右上角的&#x200B;**+**&#x200B;图标可将现有字段添加到列表。 字段必须先存在，然后才能添加它们。
+      ![View more menu on Projects Connected records page](assets/view-more-menu-projects-connected-records-page.png)
 
-   有关管理列表视图中的对象的详细信息，请参阅[管理列表视图](/help/quicksilver/planning/views/manage-the-list-view.md)。
+   * Click one of the following to update the view's elements: 
+
+      * **Filter** to limit the amount of information in the list
+      * **Columns** to hide columns or change their order
+      * The **+** icon in the upper-right corner of the table view to add existing fields to the list. Fields must exist before you can add them. 
+
+   For more information about managing objects in a list view, see [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md).
+-->
 
 <!--
  this is repetitive from an earlier section above: 

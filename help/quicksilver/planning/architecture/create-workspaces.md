@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: c4716157a6fdf667f7e608d0c37399f57ec1bbfe
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1199'
 ht-degree: 0%
 
 ---
@@ -150,6 +150,11 @@ Old:
 
   有关信息，请参阅本文中的[使用最佳实践多工作区模板包创建多个工作区](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle)部分
 
+  >[!TIP]
+  >
+  >除非使用最佳实践模板捆绑包，否则不能一次创建多个工作区。
+
+
 </div>
 
 ### 从头开始或从模板创建工作区
@@ -238,9 +243,10 @@ Old:
 
 >[!IMPORTANT]
 >
->捆绑包中包含的所有工作区、记录类型、字段和记录名称都是示例，并非您自己环境的反映。
+>捆绑中包含的工作区和记录的名称只是示例，并非您自己环境的反映。
 >
->我们建议您使用此模板捆绑包作为Planning结构的示例，并继续创建反映组织工作流的对象。
+>根据我们的建议，记录类型和字段的名称可在任何组织用作任何行业中实施的标准。
+>
 
 {{step1-to-planning}}
 
