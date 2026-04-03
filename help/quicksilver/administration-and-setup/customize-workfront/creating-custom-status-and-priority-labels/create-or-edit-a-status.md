@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 48745335495433e25ad0a27a6726dda7fe8a97d8
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 3%
+source-wordcount: '942'
+ht-degree: 4%
 
 ---
 
@@ -27,17 +27,17 @@ ht-degree: 3%
 >
 >组管理员还可以创建自己的组状态，仅供其组使用。 有关详细信息，请参阅[创建或编辑组状态](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td>Adobe Workfront 包</td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
@@ -67,13 +67,13 @@ ht-degree: 3%
 
 1. （视情况而定）如果要创建或编辑用于系统范围的状态，请确保在右上角的框中选择&#x200B;**系统状态**。
 
-   ![系统状态](assets/system-statuses-in-upper-rt-corner-new.jpg)
+   ![系统状态](assets/system-statuses-in-upper-rt-corner-new-png.png)
 
    或
 
    如果状态为组或子组，请在右上角开始键入组的名称，然后在该组出现时将其选定。
 
-   组![的](assets/system-statuses-in-upper-rt-corner-group.jpg)系统状态
+   组![的](assets/system-statuses-in-upper-rt-corner-group-new-png.png)系统状态
 
 1. 选择要与状态关联的对象类型（**项目**、**任务**&#x200B;或&#x200B;**问题**）的选项卡。
 
@@ -81,9 +81,9 @@ ht-degree: 3%
 
    或
 
-   如果您正在编辑现有状态，请将鼠标悬停在该状态上，然后单击最右侧显示的&#x200B;**编辑**&#x200B;图标。
+   如果您正在编辑现有状态，请单击该状态的复选框，然后单击屏幕底部横幅中的&#x200B;**编辑**。
 
-   ![编辑自定义状态](assets/custom-status-edit.png)
+   ![编辑自定义状态](assets/edit-in-banner.png)
 
 1. 使用以下选项配置状态：
 

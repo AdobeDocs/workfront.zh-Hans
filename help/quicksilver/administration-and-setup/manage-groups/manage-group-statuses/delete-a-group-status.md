@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 6c7dd2504ce20274f8b80a306fc1075ec5761da6
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 0%
+source-wordcount: '544'
+ht-degree: 4%
 
 ---
 
@@ -28,17 +28,17 @@ ht-degree: 0%
 >* 内置状态为“计划”、“当前”和“完成”。 您可以更新他们的姓名、编辑他们的颜色、锁定或解锁他们，但无法删除他们。
 >* 与组或其子组相关联的至少一个对象处于待审批状态。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td>Adobe Workfront 包</td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
@@ -63,9 +63,9 @@ ht-degree: 0%
 1. 在左侧面板中，单击&#x200B;**组**。
 1. 单击顶级组的名称。
 1. 在左侧面板中，单击&#x200B;**状态**。
-1. 在显示的状态列表中，将鼠标悬停在要删除的状态上，然后在最右边显示&#x200B;**删除**&#x200B;时单击该状态。
+1. 在显示的状态列表中，单击要删除的状态对应的复选框，然后单击屏幕底部横幅中的&#x200B;**删除**。
 
-   ![删除](assets/hover-click-delete.jpg)
+   ![删除](assets/delete-status.png)
 
 1. 在显示的框中，选择一个状态，为正在使用要删除状态的对象（项目、任务、问题和审批流程）指定替换状态。
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
         有关默认Workfront状态的信息，请参阅[访问系统项目状态列表](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)，[访问系统任务状态列表](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)，以及[中有关4个必需问题状态的信息。访问系统问题状态列表](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)。
 
-1. 单击&#x200B;**删除状态**。
+1. 单击&#x200B;**删除**。
 
    如果删除的状态是组中该类型的默认状态，则替换状态将取代该状态。
 

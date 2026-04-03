@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: d7e85faa0e6da2218d7e983d00fd992dc858a1d9
 workflow-type: tm+mt
-source-wordcount: '1321'
-ht-degree: 2%
+source-wordcount: '1327'
+ht-degree: 3%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 包</td> 
-   <td><p>任何</p></td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
@@ -90,11 +90,12 @@ ht-degree: 2%
 
    或
 
-   要编辑现有状态，请将鼠标悬停在要编辑的状态上，然后单击最右侧显示的&#x200B;**编辑**&#x200B;选项。
+   如果您正在编辑现有状态，请单击该状态的复选框，然后单击屏幕底部横幅中的&#x200B;**编辑**。
 
-   ![组状态](assets/group-statuses-edit.jpg)
+   ![组状态](assets/group-statuses-edit-new.png)
 
    >[!NOTE]
+   >
    >仅当满足以下条件时，才能编辑组的状态：
    >      
    >* 您管理为其创建状态的组
@@ -162,19 +163,20 @@ ht-degree: 2%
 
 如果您是Workfront管理员，则可以通过创建系统范围状态，然后对任何不需要该状态的组隐藏该状态，来为多个组创建自定义状态。
 
-如果您是组管理员(或Workfront管理员)，则可以为您管理的组层次结构中的多个子组创建自定义状态，方法是为更高级别的组创建状态，然后对任何不需要该状态的较低级别子组隐藏该状态。
+如果您是组管理员（或Workfront管理员），则可以为您管理的组层次结构中的多个子组创建自定义状态，方法是为更高级别的组创建状态，然后对任何不需要该状态的较低级别子组隐藏该状态。
 
 1. 如果您是Workfront管理员，请按照[创建或编辑状态](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)中的说明创建系统范围的解锁状态。
 1. 在右上角的框中，删除&#x200B;**系统状态**，开始键入要隐藏状态的组名称，然后在名称出现时单击该名称。
-1. 将鼠标悬停在要从组隐藏的状态上，然后在组出现时单击&#x200B;**编辑**。
+1. 单击要编辑的状态对应的复选框，然后单击屏幕底部横幅中的&#x200B;**编辑**。
 
-   ![编辑状态](assets/hover-click-edit.jpg)
+
+   ![编辑状态](assets/group-statuses-edit-new.png)
 
 1. 启用显示的&#x200B;**隐藏状态**&#x200B;选项。
 
    ![隐藏状态](assets/hide-group-status.png)
 
-1. 单击&#x200B;**保存**。
+1. 单击&#x200B;**更新**。
 
    该状态呈灰显状态，不再对该组中的所有用户可见。
 
