@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 1a37ff7e4e4b60ac23b0edde6b60258ed508e90b
+source-git-commit: 1ef6ead705231a41cbf62b8a8b35f480da004970
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '872'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,29 @@ ht-degree: 0%
 
 有关2026年第二季度发布周期中此时可用的所有更改列表，请参阅[2026年第二季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
 
+## 文档版本的“当前版本”字段
+
+>[!NOTE]
+>
+>预览： 2026年4月2日
+>生产快速发布： 2026年4月15日
+>适用于所有人的生产： 2026年4月16日
+
+我们已在Document Version对象中添加了`currentVersion`布尔字段，以便更轻松地识别和报告文档的最新版本。
+通过此更新：
+
+* 您可以在筛选器、视图、分组和图表中使用`currentVersion`。
+* 该字段在文档版本报表的画布字段选择器中可用。
+
+* 上传新版本时：
+
+   * 新版本已标记为`TRUE`
+   * 以前的版本标记为`FALSE`
+
+* 报表可以一致地识别画布功能板和旧版报表的当前版本
+
+使用`isCurrentVersion`或`isDocumentCurrentVersion`的经典报表的现有筛选器将继续按文档说明工作。
+
 ## 计划报表交付现在支持基于链接的电子邮件
 
 >[!NOTE]
@@ -28,7 +51,7 @@ ht-degree: 0%
 >生产快速发布： 2026年4月15日
 >适用于所有人的生产： 2026年4月16日
 
-Workfront现在为计划报表提供了新的链接投放类型。 此选项不会生成和附加文件，而是会发送一封电子邮件，其中包含到Workfront中报表的直接链接，从而允许收件人查看应用程序中的最新数据。
+Workfront现在为计划报表提供了新的链接投放类型。 此选项不会生成和附加文件，而是会发送一封电子邮件，其中包含到Workfront中报告的直接链接，从而允许收件人查看{{$include }}应用程序中的最新数据。
 
 链接选项现在是新创建的计划报表投放规则的默认投放类型，而现有的基于文件的格式（HTML、PDF、Excel和TSV）仍可用。
 
