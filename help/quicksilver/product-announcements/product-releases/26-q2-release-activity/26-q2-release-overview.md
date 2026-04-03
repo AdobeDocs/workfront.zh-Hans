@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b334e8b234c9c87dd1b1ecd26df6645b3381ffb0
+source-git-commit: 1a37ff7e4e4b60ac23b0edde6b60258ed508e90b
 workflow-type: tm+mt
 source-wordcount: '2228'
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 此页面上的增强功能在“预览”环境中可用。 随着2026年第二季度版本接近其计划发布的生产版本，此页面将进行额外的增强。
 
-每个季度版本均会召开实时网络研讨会，这些研讨会会重点介绍新增功能并提供详细信息。 若要注册，请访问[事件页面](https://experienceleague.adobe.com/zh-hans/events?filters=Workfront)并筛选Workfront。
+每个季度版本均会召开实时网络研讨会，这些研讨会会重点介绍新增功能并提供详细信息。 若要注册，请访问[事件页面](https://experienceleague.adobe.com/en/events?filters=Workfront)并筛选Workfront。
 
 >[!IMPORTANT]
 >
@@ -220,7 +220,7 @@ ht-degree: 2%
         <td><strong>每季度</strong></td>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}">更新了单次或批量分配模板任务时的体验</a><p>[!BADGE Off Schedule]{type=Neutral}</p><p> 在编辑单个模板任务或批量编辑这些任务时，我们更新了“编辑模板任务”框中的“工作总揽”部分。  </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}">更新了单次或批量分配模板任务时的体验</a><p>[！BADGE Off Schedule]{type=Neutral}</p><p> 在编辑单个模板任务或批量编辑这些任务时，我们更新了“编辑模板任务”框中的“工作总揽”部分。  </p>
         </td>
         <td><p>2026年2月5日</p></td>
         <td><p>自2026年2月5日起</p></td>
@@ -228,7 +228,7 @@ ht-degree: 2%
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">在单次或批量分配任务时更新体验</a><p>[!BADGE Off Schedule]{type=Neutral}</p><p> 在编辑单个任务或批量编辑这些任务时，我们更新了“编辑任务”框中的“工作总揽”部分。 </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">在单次或批量分配任务时更新体验</a><p>[！BADGE Off Schedule]{type=Neutral}</p><p> 在编辑单个任务或批量编辑这些任务时，我们更新了“编辑任务”框中的“工作总揽”部分。 </p>
         </td>
         <td><p>2026年1月26日</p></td>
         <td><p>自2026年2月5日起</p></td>
@@ -252,6 +252,15 @@ ht-degree: 2%
         </tr>
     <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">计划报表交付现在支持基于链接的电子邮件</a><p></p>
+            <p>Workfront现在为计划报表提供了新的链接投放类型。 此选项不会生成和附加文件，而是会发送一封电子邮件，其中包含到Workfront中报表的直接链接，从而允许收件人查看应用程序中的最新数据。</p>
+        </td>
+        <td><p>2026年4月3日</p></td>
+        <td><p>2026年4月15日</p></td>
+        <td><p>2026年4月16日</p></td>
+    </tr>
+     <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">在Canvas功能板中以特定用户身份运行报告</a><p></p>
             <p>您现在可以在画布功能板上将报表配置为以特定用户身份运行。 启用后，报表会根据选定用户的访问权限显示数据，而不是查看者的权限。</p>
         </td>
@@ -259,16 +268,7 @@ ht-degree: 2%
         <td><p>2026年4月15日</p></td>
         <td><p>2026年4月16日</p></td>
     </tr>
-    <tr>
-        <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">计划报表交付现在支持基于链接的电子邮件</a><p></p>
-            <p>Workfront现在为计划报表提供了新的链接投放类型。 此选项不会生成和附加文件，而是会发送一封电子邮件，其中包含到Workfront中报表的直接链接，从而允许收件人查看应用程序中的最新数据。</p>
-        </td>
-        <td><p>2026年4月2日</p></td>
-        <td><p>2026年4月15日</p></td>
-        <td><p>2026年4月16日</p></td>
-    </tr>
-    <tr>
+   <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">数据连接连接的新身份验证选项</a><p></p>
             <p>您现在可以使用RSA密钥或程序化访问令牌(PAT)连接验证数据连接，为传统的用户名/密码凭据添加更安全、更灵活的替代方案。 </p>
@@ -477,13 +477,13 @@ Workfront API版本21于2025年10月23日发布。 对于API版本21，我们修
 * 适用于Salesforce的Workfront。
 
 为了满足贵组织与Google Workspace的集成需求，我们建议使用Workfront自动化和集成。
-有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 
 ### Workfront 维护更新
 
-有关2026年第二季度版本中进行的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hans)。
+有关2026年第二季度版本中进行的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
 
 ### 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hans)的“新增功能”部分。
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的“新增功能”部分。
