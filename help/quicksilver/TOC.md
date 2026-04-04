@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 64ee7798e79324af0ab48af91f49d04d94ece3a9
+source-git-commit: 551f316bcfd5e0a1390e7be4679e06cd6808e969
 workflow-type: tm+mt
-source-wordcount: '13913'
+source-wordcount: '13917'
 ht-degree: 2%
 
 ---
@@ -1863,6 +1863,7 @@ ht-degree: 2%
    * [统一审查和批准概述](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
    * [统一审查和批准入门](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
    * [非付费用户的有限文档和验证决策概述](review-and-approve-work/proof-doc-decision-limits.md)
+   * [设置AI审阅者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
    * 工作审批 {#work-approvals}
       * [工作审批](review-and-approve-work/manage-approvals/manage-approvals.md)
       * [审批流程概述](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
@@ -2575,8 +2576,8 @@ ht-degree: 2%
       * [使用PKCE流程配置和使用您组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-pkce-flow.md)
       * [弃用API — 内部](wf-api/api/deprecation-api-internal.md)
       * [API版本21中的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-      * [API版本20中的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [API版本19中的新增功能](wf-api/api/new-api-version-19.md)
+      * [API版本20](/help/quicksilver/wf-api/api/new-api-version-20.md)中的新增功能
+      * [API版本19](wf-api/api/new-api-version-19.md)中的新增功能
       * [API版本18中的新增功能](wf-api/api/new-api-version-18.md)
       * [API版本17中的新增功能](wf-api/api/new-api-version-17.md)
       * [API版本16中的新增功能](wf-api/api/new-api-version-16.md)
