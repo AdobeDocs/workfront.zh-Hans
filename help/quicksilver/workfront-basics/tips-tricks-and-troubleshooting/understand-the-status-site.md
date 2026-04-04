@@ -31,7 +31,7 @@ ht-degree: 0%
 
 您可以在[!DNL Adobe]状态网站上查看状态更新。
 
-1. 在浏览器中键入[status.adobe.com](https://status.adobe.com/)以访问Status网站。
+1. 在浏览器中键入[status.adobe.com](https://status.adobe.com/zh-cn/)以访问Status网站。
 
 1. 选择&#x200B;**[!UICONTROL Experience Cloud]**。
 1. 向下滚动并从解决方案列表中选择&#x200B;**[!UICONTROL Adobe Workfront]**。
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 要订阅Status网站或在订阅后管理您的订阅，请执行以下操作：
 
-1. 转到[status.adobe.com](https://status.adobe.com/)。
+1. 转到[status.adobe.com](https://status.adobe.com/zh-cn/)。
 1. 在状态栏中选择&#x200B;**[!UICONTROL 管理订阅]**。
    ![](assets/manage-subs.png)
 1. 如果您现有帐户，请登录到该帐户；否则，请创建一个新帐户。
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 ### 如何查看[!DNL Workfront?]标识的命名漏洞 {#how-do-i-view-named-vulnerabilities-identified-by-workfront}
 
-1. 转到[status.adobe.com](https://status.adobe.com/)，然后单击&#x200B;**[!UICONTROL 安全性]**。
+1. 转到[status.adobe.com](https://status.adobe.com/zh-cn/)，然后单击&#x200B;**[!UICONTROL 安全性]**。
 
 ## 为什么这很重要？ {#why-is-this-important}
 
