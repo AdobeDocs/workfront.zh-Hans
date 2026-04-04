@@ -8,14 +8,16 @@ feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '607'
 ht-degree: 3%
 
 ---
 
 # 共享画布功能板
+
+{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -83,6 +85,8 @@ ht-degree: 3%
 * 共享功能板时，共享该功能板的资源将继承对该功能板中显示的报告的权限。
 
 * 当通过布局模板分发功能板时，该功能板（及其报表）的自动查看权限被授予分配给布局模板的所有资源。
+
+* <span class="preview">当仪表板上的报告配置为以用户身份运行选项时，所有查看者都会根据选定用户的权限而不是他们自己的权限查看数据。 这意味着查看者可能会看到他们通常无权访问的数据。 如果仪表板上的某些报表使用以用户身份运行，而其他报表未使用以用户身份运行，则查看者可能会看到报表间的数据不一致。</span>
 
 
 ## 共享画布功能板

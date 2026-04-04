@@ -8,14 +8,17 @@ feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
 workflow-type: tm+mt
-source-wordcount: '1199'
-ht-degree: 8%
+source-wordcount: '1302'
+ht-degree: 7%
 
 ---
 
 # 在画布功能板中构建表报告
+
+{{highlighted-preview}}
+
 
 >[!IMPORTANT]
 >
@@ -96,6 +99,14 @@ ht-degree: 8%
    1. 输入报告&#x200B;**名称**。
 
    1. 输入报告&#x200B;**描述**。
+
+   1. <span class="preview">（可选）在&#x200B;**使用**&#x200B;的访问权限运行此报告字段中，开始键入您希望报告使用的权限的用户名称，然后在用户出现在列表时选择用户。 当您将报表配置为以其他用户身份运行时，仪表板的所有查看者都会看到相同的数据，无论他们自己的访问级别如何。 如果不选择用户，则每个查看者将根据自己的权限查看数据。
+
+      >[!IMPORTANT]
+      >
+      >如果所选用户被停用或无法访问相关工作区或记录类型，则报告可能会显示不完整的数据或无法呈现。
+
+   </span>
 
 1. 按照以下步骤配置&#x200B;**生成表**&#x200B;部分：
 

@@ -8,14 +8,16 @@ feature: Reports and Dashboards
 exl-id: fd659f56-d67f-4a0f-8735-b214934903ac
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 5%
+source-wordcount: '586'
+ht-degree: 4%
 
 ---
 
 # 在画布功能板中编辑报告
+
+{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -86,7 +88,13 @@ ht-degree: 5%
 
    ![编辑报告](assets/edit-report-box.png)
 
-1. 在&#x200B;**配置**&#x200B;对话框中，编辑左侧列出的部分中的信息。 这些部分将因您编辑的报表类型而异。
+1. <span class="preview">在&#x200B;**配置**&#x200B;对话框中，编辑左侧列出的部分中的信息。 这些部分将因您编辑的报表类型而异。
+
+   >[!TIP]
+   >
+   >所有报告类型的“详细信息”部分都包含一个&#x200B;**使用**&#x200B;的访问权限运行此报告选项。 使用此选项可指定其权限用于呈现报表数据的用户，确保所有功能板查看器都会看到相同的数据。 有关详细信息，请参阅[生成KPI报告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)、[生成图表报告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)或[生成表报告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)。
+
+   </span>
 
 1. （可选）如果编辑KPI报告，请根据需要编辑以下部分中的信息：
 

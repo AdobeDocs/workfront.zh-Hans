@@ -8,14 +8,17 @@ feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
 workflow-type: tm+mt
-source-wordcount: '1814'
+source-wordcount: '1917'
 ht-degree: 5%
 
 ---
 
 # 在画布功能板中构建图表报告
+
+{{highlighted-preview}}
+
 
 >[!IMPORTANT]
 >
@@ -101,6 +104,15 @@ ht-degree: 5%
       >[!NOTE]
       >
       >图表最多可显示60个系列。 选中此框后，任何超出限制的系列都将合并到图表中的&#x200B;**其他**&#x200B;分组中。
+
+   1. <span class="preview">（可选）在&#x200B;**使用**&#x200B;的访问权限运行此报告字段中，开始键入您希望报告使用的权限的用户名称，然后在用户出现在列表时选择用户。 当您将报表配置为以其他用户身份运行时，仪表板的所有查看者都会看到相同的数据，无论他们自己的访问级别如何。 如果不选择用户，则每个查看者将根据自己的权限查看数据。
+
+      >[!IMPORTANT]
+      >
+      >如果所选用户被停用或无法访问相关工作区或记录类型，则报告可能会显示不完整的数据或无法呈现。
+
+   </span>
+
 1. 选择要创建的图表类型：
    * [条形图、柱状图或折线图](#bar-column-or-line-chart)
    * [饼图](#pie-chart)

@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: d82bb8a2-a2a6-43d6-a62e-e90f69229533
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '534'
 ht-degree: 2%
 
 ---
@@ -99,6 +99,7 @@ ht-degree: 2%
 * KPI和图表报表的深入配置
 * 分组表结果
 * 功能板级别的筛选器和用户应用的叠加筛选器
+* 以报告用户配置身份运行
 
 
 ### 开发中的功能
