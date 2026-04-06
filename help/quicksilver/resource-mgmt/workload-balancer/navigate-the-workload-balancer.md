@@ -8,9 +8,9 @@ feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 900e29200bef2d4f70b17cd810ea0e2b936c8aad
 workflow-type: tm+mt
-source-wordcount: '4334'
+source-wordcount: '4400'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 工作负载均衡器在Adobe Workfront的多个区域中可用。 在所有区域导航都类似。
 
-有关工作负载均衡器位置的更多信息，请参阅[找到工作负载均衡器](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer)。
+有关工作负载均衡器位置的更多信息，请参阅[找到工作负载均衡器](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer)。
 
 ## 访问权限要求
 
@@ -105,8 +105,8 @@ ht-degree: 0%
 
 有关使用工作负载均衡器管理资源的信息，另请参阅以下文章：
 
-* [在工作负载均衡器中分配工作的概述](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [在工作负载均衡器中管理用户分配](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
+* [在工作负载均衡器中分配工作的概述](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [在工作负载均衡器中管理用户分配](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 ## 在资源区域为多个项目导航工作负载均衡器
 
@@ -259,6 +259,11 @@ ht-degree: 0%
    * **显示已完成的工作**：启用此项后，已完成的任务和问题将显示在“已分配的工作”区域中。 默认情况下启用此功能。
 
      任务或问题栏完成时，其右上角会显示一个绿色复选标记图标。 在项目的选定时间范围内的任务或问题完成时，为项目显示相同的图标。
+
+     >[!NOTE]
+     >
+     >工作负载均衡器中的任务可见性由任务级完成驱动，而不是由任务级完成驱动。 如果一个任务有多个任务接受者，并且一个或多个任务接受者选择“已完成我的部分”，但总体任务状态不是“完成”，则该任务将被视为未完成工作。 当&#x200B;**显示已完成工作选项**&#x200B;关闭时，任务仍会显示，因为它未完全完成。
+
    * **显示剩余时间**：启用此功能后，Workfront会根据用户计划显示其每天可以工作的时间与在分配给用户的“已分配的工作”区域中为其分配的小时数之间的差值。 默认情况下禁用此项，默认情况下显示分配时间。
    * **显示角色分配**：启用此项后，角色分配会显示在“未分配工作”区域中，位于其分配的工作项下。 默认情况下启用此功能。
 
@@ -475,7 +480,7 @@ ht-degree: 0%
 
 1. 继续导航项目的工作负载均衡器，如本文的[导航多个项目的工作负载均衡器](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area)部分中所述。
 
-### 导航用户的工作负载均衡器
+## 导航用户的工作负载均衡器
 
 您可以在自己的用户配置文件上访问工作负载均衡器。
 
