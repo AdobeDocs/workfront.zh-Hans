@@ -6,9 +6,10 @@ title: 收入和成本层次结构概览
 description: 本文概述了确定工作角色和用户的适当计费和成本费率的分步流程，适用于用户和角色每小时收入类型和成本类型。
 author: Lisa
 feature: Work Management
-source-git-commit: dfc6344303f33a9c3c89837b759235612e54904e
+exl-id: 623828fb-e1ac-4cae-8b9f-567a6f8cb7ae
+source-git-commit: 3a194bc2b2707c7b7e1cd5edffc3dd5ab43e91b3
 workflow-type: tm+mt
-source-wordcount: '3519'
+source-wordcount: '3604'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,17 @@ ht-degree: 0%
 
 本文中的各节概述了确定工作角色和用户的相应计费和成本费率的分步流程，这些角色和用户对应于“用户”和“角色每小时”收入类型和成本类型。
 
+>[!NOTE]
+>
+>仅当将用户和角色每小时收入或成本类型应用于任务时，才使用本文中显示的费率层次结构。
+
 有关记帐费率、收入类型以及如何计算收入的更多信息，请参阅[记帐和收入概览](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md)。
+
+## 层次结构和用户和角色每小时收入类型的例外
+
+* 层级中不支持公司费率。
+* 层次结构计算仅使用“主要”角色。 未使用其他角色。
+* 当任务的收入类型为“每小时用户和角色”时，无法从任务中取消分配已记录任务小时数的用户。
 
 ## 有效日期概览
 
@@ -232,4 +243,3 @@ Workfront将根据以下层次结构搜索所有者的用户属性：
    * 接下来，系统会查找系统级别的工作角色比率，并将有效日期考虑在内。
 
 1. 如果未找到这些费率，则记帐费率为0。
-

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 106ff601a4a19dbbf50cb3329675928ad7087b21
+source-git-commit: 3a194bc2b2707c7b7e1cd5edffc3dd5ab43e91b3
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '547'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->当前自定义对象标题可用于项目、任务、问题、<span class="preview">项目组合、程序、模板、账单记录、团队、组、用户、公司、组和费率卡。</span>
+>自定义对象标题当前可用于项目、任务、问题、<span class="preview">项目组合、程序、模板、账单记录、团队、用户、公司、组和费率卡。</span>
 
 ![对象标题字段](assets/object-header-fields.png)
 
