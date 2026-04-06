@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1008'
 ht-degree: 2%
 
 ---
@@ -93,7 +93,7 @@ Workfront Planning支持以下搜索修饰符：
     <tr>
         <td>$isEmpty </td>
         <td><ul><li><code>"fieldId": "$isEmpty" </code></li><li><code>"fieldId": { "$isEmpty": null } </code></li><ul> </td>
-        <td>返回字段值不为空的记录  </td>
+        <td>返回字段值为空的记录  </td>
         <td><ul><li>"" </li><li>null </li><ul>  </td>
     </tr>
     <tr>

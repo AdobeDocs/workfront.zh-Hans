@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 2%
@@ -160,15 +160,23 @@ Old:
 
    * 如果您是系统管理员，请从以下选项中选择：</span>
 
-      * <span class="preview">**只有受邀人员才能访问**：您必须选择共享框中的实体并选择他们对工作区的访问权限。 这是默认选项。</span>
-      * <span class="preview">**系统中的每个人都可以查看**：系统中有权访问Planning的所有人都可以在Planning的&#x200B;**工作区**&#x200B;区域查看工作区。</span>
+     <div class="preview">
+
+      * **只有受邀人员才能访问**：您必须选择共享框中的实体并选择他们对工作区的访问权限。 这是默认选项。
+      * **系统中的每个人都可以查看**：系统中有权访问Planning的所有人都可以在Planning的&#x200B;**工作区**&#x200B;区域查看工作区。
+
+     </div>
 
    * <span class="preview">（视情况而定）如果您是具有Standard许可证的工作区经理，则可以看到以下选择之一，但无法更改它们：</span>
 
-      * <span class="preview">**只有受邀人员才能访问**。 这是默认设置。</span>
-      * <span class="preview">**系统中的每个人都可以查看**</span>
+     <div class="preview">
 
-     <span class="preview">必须要求系统管理员更改工作区的全局权限。</span>
+      * **只有受邀人员才能访问**。 这是默认设置。
+      * **系统中的每个人都可以查看**
+
+     必须要求系统管理员更改工作区的全局权限。
+
+     </div>
 
 1. 在&#x200B;**授予此工作区的访问权限**&#x200B;字段中，开始键入用户、组、团队、公司或工作角色的名称，然后在列表显示该名称时单击该名称。
 
@@ -208,7 +216,7 @@ Old:
      ![访问请求的电子邮件通知](assets/email-notification-for-access-request.png)
 1. （视情况而定）在Workfront的通知区域中，单击应用程序内通知
 或
-在电子邮件通知中，单击&#x200B;**查看所有通知**，然后单击列表中的通知。
+在电子邮件通知中，单击**查看所有通知**，然后单击列表中的通知。
 
    显示&#x200B;**待处理访问请求**&#x200B;框。
 

@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: a56441276fbc508a81d5331874580385ceb8812f
+source-git-commit: 02a4269777e18a8c66a245d374565eb61efd39ef
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '663'
 ht-degree: 7%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 7%
 {{step1-to-priorities}}
 
 1. 单击工作列表左上角的&#x200B;**筛选器**。
-1. 在&#x200B;**标准筛选器**&#x200B;部分中，选择一个或多个筛选器以缩小工作项的范围。
+1. 在&#x200B;**标准筛选器**部分中，选择一个或多个筛选器以缩小工作项的范围。
    ![过滤器](assets/filter-new.png)
 
 +++展开以查看有关可用筛选器的详细信息
@@ -155,7 +155,8 @@ ht-degree: 7%
 
 1. 单击工作列表左上角的&#x200B;**组**。
 1. 选择一个组以组织您的工作列表。
-   ![组](assets/groups-new.png)
+
+![组](assets/groups-new.png)
 
 +++展开以查看有关可用组的详细信息
 
@@ -172,8 +173,8 @@ ht-degree: 7%
 
 按“我的优先级”或“状态”分组时，您可以在类别之间拖放单个工作项。
 
-1. 按&#x200B;**状态**&#x200B;或&#x200B;**我的优先级**&#x200B;对您的工作分组。
-2. 将鼠标悬停在工作项上以单击&#x200B;**拖动**&#x200B;图标并将其移动到所需类别。
+1. 按&#x200B;**状态**&#x200B;或&#x200B;**我的焦点**&#x200B;对您的工作分组。
+2. 将鼠标悬停在工作项上以单击&#x200B;**拖动**图标并将其移动到所需类别。
    ![拖动图标](assets/drag-and-drop.png)
 
 ## 对您的工作排序
@@ -192,6 +193,6 @@ ht-degree: 7%
 
 ### 展开或折叠所有组节
 
-若要展开或折叠所有组节，请打开&#x200B;**组**，然后单击&#x200B;**全部展开**&#x200B;或&#x200B;**全部折叠**。
+若要展开或折叠所有组节，请打开&#x200B;**组**，如果分组已折叠，请单击&#x200B;**全部展开**；如果分组已展开，请单击&#x200B;**全部折叠**。
 
 ![展开或折叠组](assets/expand-collapse-groups.png)

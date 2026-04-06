@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1228'
 ht-degree: 2%
 
 ---
@@ -22,11 +22,9 @@ ht-degree: 2%
 
 # 创建记录类型
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -197,6 +195,16 @@ Old:
    或
 
    从工作区中，展开现有工作区名称右侧的向下箭头，搜索工作区，然后在工作区显示在列表中时将其选定。
+
+   >[!TIP]
+   >
+   ><span class="preview">您可以使用以下键盘组合从任何Workfront Planning页面打开全局搜索框并搜索工作区：</span>
+   >
+   >* <span class="preview">CTRL+K for Windows</span>
+   >* 适用于Mac<span class="preview">⌘的</span>+K
+   >
+   >![全局搜索框](assets/global-search-box.png)
+
 1. （可选）单击&#x200B;**添加节**&#x200B;以向工作区添加新节。
 1. 单击&#x200B;**添加记录类型**，然后单击&#x200B;**手动添加**。
 

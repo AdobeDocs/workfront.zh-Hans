@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ff87e425389f30dfaa1a178ea2b548d1c41179bb
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '723'
 ht-degree: 3%
 
 ---
@@ -105,7 +105,12 @@ ht-degree: 3%
 
 1. 在请求列表中，单击&#x200B;**视图**&#x200B;下拉菜单![视图下拉菜单](assets/view-icon-requests.png)，然后单击&#x200B;**新视图**。
 
-   ![新视图](assets/create-new-view.png)
+   <!-- 
+   
+   replace the screen shot with release
+   ![New view](assets/create-new-view.png)
+
+   -->
 
 1. 输入新视图的名称，然后单击&#x200B;**创建**。
 1. 继续[编辑请求](#edit-a-view-for-requests)的视图。

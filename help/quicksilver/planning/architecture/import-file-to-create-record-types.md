@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '891'
 ht-degree: 1%
 
 ---
@@ -156,6 +156,14 @@ Old:
    或
 
    从工作区中，展开现有工作区名称右侧的向下箭头，搜索工作区，然后在工作区显示在列表中时将其选定。
+
+   >[!TIP]
+   >
+   ><span class="preview">您可以使用以下键盘组合从任何Workfront Planning页面打开全局搜索框并搜索工作区：</span>
+   >
+   >* <span class="preview">CTRL+K for Windows</span>
+   >* 适用于Mac<span class="preview">⌘的</span>+K
+
 1. 单击&#x200B;**添加记录类型**。
 1. 单击&#x200B;**从文件**&#x200B;上载。
 1. 拖放以前保存在您计算机上的Excel或CSV文件，或单击&#x200B;**选择CSV或Excel文件**&#x200B;以浏览该文件，然后选择该文件。
