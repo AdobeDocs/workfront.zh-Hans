@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+source-git-commit: 21c396fc5b52463477d6fedfae8dcd27de989817
 workflow-type: tm+mt
-source-wordcount: '1747'
-ht-degree: 6%
+source-wordcount: '1765'
+ht-degree: 5%
 
 ---
 
@@ -126,6 +126,7 @@ Workfront具有5个新的内置访问级别：
 * 可以通过主菜单访问请求和文档。
 * 创建对象的能力有限 — 无法创建项目、项目组合、项目群或报告。
 * 启用“编辑”权限后，只能在项目级别记录时间。 他们无法创建、编辑、删除或共享项目。
+* 只能更新有关问题和文档的自定义表单。
 
 >[!NOTE]
 >
@@ -262,6 +263,7 @@ Workfront具有5个新的内置访问级别：
   >参与者可以参与审批，但无法访问“审批”选项卡以查看或管理审批流程。
 
 * 可以检查他们已提交问题的状态
+* 只能更新有关问题和文档的自定义表单。
 * 可以分配给工作项，但无法完成它们
 * 只能从主菜单访问请求。 有关请求队列的详细信息，请参阅[创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
