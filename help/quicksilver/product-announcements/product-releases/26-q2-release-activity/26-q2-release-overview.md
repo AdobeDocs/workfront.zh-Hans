@@ -20,7 +20,7 @@ ht-degree: 2%
 
 此页面上的增强功能在“预览”环境中可用。 随着2026年第二季度版本接近其计划发布的生产版本，此页面将进行额外的增强。
 
-每个季度版本均会召开实时网络研讨会，这些研讨会会重点介绍新增功能并提供详细信息。 若要注册，请访问[事件页面](https://experienceleague.adobe.com/en/events?filters=Workfront)并筛选Workfront。
+每个季度版本均会召开实时网络研讨会，这些研讨会会重点介绍新增功能并提供详细信息。 若要注册，请访问[事件页面](https://experienceleague.adobe.com/zh-hans/events?filters=Workfront)并筛选Workfront。
 
 >[!IMPORTANT]
 >
@@ -486,13 +486,13 @@ Workfront API版本21于2025年10月23日发布。 对于API版本21，我们修
 * 适用于Salesforce的Workfront。
 
 为了满足贵组织与Google Workspace的集成需求，我们建议使用Workfront自动化和集成。
-有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 
 ### Workfront 维护更新
 
-有关2026年第二季度版本中进行的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
+有关2026年第二季度版本中进行的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hans)。
 
 ### 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的“新增功能”部分。
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hans)的“新增功能”部分。
