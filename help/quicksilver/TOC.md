@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 551f316bcfd5e0a1390e7be4679e06cd6808e969
+source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
 workflow-type: tm+mt
-source-wordcount: '13917'
+source-wordcount: '13922'
 ht-degree: 2%
 
 ---
@@ -552,6 +552,7 @@ ht-degree: 2%
          * [授予对问题的访问权限](administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
          * [授予对文档的访问权限](administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)
          * [授予用户访问权限](administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
+         * [授予对工作角色的访问权限](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-job-roles.md)
          * [授予团队访问权限](administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md)
          * [授予对模板的访问权限](administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md)
          * [授予对报告、功能板和日历的访问权限](administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)
@@ -2576,8 +2577,8 @@ ht-degree: 2%
       * [使用PKCE流程配置和使用您组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-pkce-flow.md)
       * [弃用API — 内部](wf-api/api/deprecation-api-internal.md)
       * [API版本21中的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-      * [API版本20中的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [API版本19中的新增功能](wf-api/api/new-api-version-19.md)
+      * [API版本20](/help/quicksilver/wf-api/api/new-api-version-20.md)中的新增功能
+      * [API版本19](wf-api/api/new-api-version-19.md)中的新增功能
       * [API版本18中的新增功能](wf-api/api/new-api-version-18.md)
       * [API版本17中的新增功能](wf-api/api/new-api-version-17.md)
       * [API版本16中的新增功能](wf-api/api/new-api-version-16.md)

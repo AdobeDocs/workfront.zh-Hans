@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 2%
+source-wordcount: '840'
+ht-degree: 4%
 
 ---
 
@@ -16,23 +16,23 @@ ht-degree: 2%
 
 <!--Linked in several places, do not rename or change URL.-->
 
-作为Adobe Workfront管理员，您可以使用访问级别授予拥有计划许可证的用户对系统的某些区域的管理访问权限。
+作为Adobe Workfront管理员，您可以使用访问级别授予具有“标准”或“计划”许可证的用户对系统的某些区域的管理访问权限。
 
 >[!NOTE]
 >
 >这与授予用户对Workfront的完全管理访问权限不同，在[授予用户完全管理访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)中对此进行了说明&#x200B;。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td>任何</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td>“任一”</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -50,7 +50,7 @@ ht-degree: 2%
 
 +++
 
-## 授予计划用户对Workfront某些区域的管理访问权限
+## 向Standard或Plan用户授予对Workfront特定区域的管理访问权限
 
 >[!IMPORTANT]
 >
@@ -96,12 +96,13 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader">工作角色</td> 
-      <td> <p>凭借此访问权限，用户可以执行以下操作：</p> 
+      <td> <p><span class="preview"><b>注意</b>：在“预览”环境中，对工作角色的访问作为访问级别中的对象类型进行控制。 请参阅<a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-job-roles.md">向工作角色授予访问权限</a>。</span></p>
+      <p>凭借此访问权限，用户可以执行以下操作：</p> 
        <ul> 
         <li>查看和编辑现有工作角色</li> 
         <li>添加新工作角色</li> 
         <li>编辑角色计费和成本率</li> 
-       </ul> <p><b>重要信息</b>：如果您授予Planner用户工作角色的管理访问权限，则将自动为用户启用财务数据访问权限设置“编辑角色帐单和成本费率”。 之后，如果您禁用Planner用户对工作角色的管理访问权限，则工作角色仍对用户可见，因为编辑角色计费和成本费率设置仍处于启用状态。 如果发生这种情况，并且您需要删除用户查看工作角色的访问权限，则需要禁用用户的“编辑角色计费和成本费率”权限设置。 有关说明，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">授予对财务数据的访问权限</a>。</p> </td> 
+       </ul> <p><b>重要信息</b>：如果您向“标准”或“计划”用户授予对工作角色的管理访问权限，则将自动为用户启用“编辑角色帐单和成本费率”财务数据访问设置。 稍后，如果您禁用标准或计划用户对工作角色的管理访问权限，则用户仍可看到工作角色，因为编辑角色计费和成本费率设置仍处于启用状态。 如果发生这种情况，并且您需要删除用户查看工作角色的访问权限，则需要禁用用户的“编辑角色计费和成本费率”权限设置。 有关说明，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">授予对财务数据的访问权限</a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">我的组中的里程碑</td> 

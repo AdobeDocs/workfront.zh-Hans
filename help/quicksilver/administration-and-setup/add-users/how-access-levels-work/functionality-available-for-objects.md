@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 1721d6d4c2059fa32d0fd2ae80af4bd26a8f06a7
+source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
 workflow-type: tm+mt
-source-wordcount: '1555'
-ht-degree: 16%
+source-wordcount: '1597'
+ht-degree: 17%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 16%
 >[!NOTE]
 >
 >* 本文介绍了可用于访问新Workfront包模型中的级别的功能。 要查看当前包模型中可用的功能，请参阅[各种访问级别中每种对象类型可用的功能](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)。
->* 有关最新模型中其他包可用的功能列表，请参阅[Adobe Workfront定价和打包](https://business.adobe.com/cn/products/workfront/pricing.html)。
+>* 有关最新模型中其他包可用的功能列表，请参阅[Adobe Workfront定价和打包](https://business.adobe.com/products/workfront/pricing.html)。
 
 ## 项目
 
@@ -302,30 +302,30 @@ ht-degree: 16%
 
 &#42;&#42;外部用户只能搜索其他用户。
 
-<!--
-
 <div class="preview">
 
-## Job Roles
+## 职位角色
 
-|  Action           |  Standard  |  Light  |  Contributor  | External user |
+| 操作 | 标准 | 轻量 | 投稿人 | 外部用户 |
 |-------------------|------------|---------|---------------|---------------|
-| View              | ✓          | ✓       | ✓             | &nbsp;        |
-| Edit              | ✓          | &nbsp;  | &nbsp;        | &nbsp;        |
-| Create            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Delete            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Edit Billing Rates | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Edit Cost Rates   | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Edit General Finance | ✓*      | &nbsp;  | &nbsp;        | &nbsp;        |
-| View Billing Rates | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
-| View Cost Rates    | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
-| View General Finance | ✓       | &nbsp;  | &nbsp;        | &nbsp;        |
+| 视图 | ✓ | ✓ | ✓ |   |
+| Edit | ✓ |   |   |   |
+| 创建 | ✓* |   |   |   |
+| 删除 | ✓* |   |   |   |
+| 编辑计费费率 | ✓* |   |   |   |
+| 编辑成本费率 | ✓* |   |   |   |
+| 编辑一般财务 | ✓* |   |   |   |
+| 查看计费费率 | ✓* |   |   |   |
+| 查看成本费率 | ✓* |   |   |   |
+| 查看一般财务 | ✓* |   |   |   |
 
 {style="table-layout:auto"}
 
-&#42; Using an access level, Workfront administrators can disable or enable this functionality.
+&#42;使用访问级别，Workfront管理员可以禁用或启用此功能。
 
 </div>
+
+<!--
 
 ## Companies
 
