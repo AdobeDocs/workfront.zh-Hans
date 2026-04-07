@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: 59a9725e7697a81be2a827a902ee3d23085a2ecd
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '744'
 ht-degree: 3%
 
 ---
@@ -74,6 +74,10 @@ ht-degree: 3%
 <div class="preview">
 
 ## 请求的系统视图
+
+>[!NOTE]
+>
+>系统视图可能在“预览”环境中不可用。 它们将于2026年4月16日在生产环境中向所有客户提供。
 
 除了您可以自己创建的视图之外，Workfront还在主页为请求区域以及我的请求小组件提供以下系统视图：
 
