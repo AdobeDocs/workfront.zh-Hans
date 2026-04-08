@@ -5,7 +5,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
-source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
+source-git-commit: cada5387ddfb710029d06cd38841ecb9c8a6484b
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 4%
@@ -15,6 +15,8 @@ ht-degree: 4%
 # 授予用户对特定区域的管理访问权限
 
 <!--Linked in several places, do not rename or change URL.-->
+
+{{highlighted-preview}}
 
 作为Adobe Workfront管理员，您可以使用访问级别授予具有“标准”或“计划”许可证的用户对系统的某些区域的管理访问权限。
 

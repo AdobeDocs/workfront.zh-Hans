@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: 3fe3313bd545d51be7aa0fb021dd0bb0f91b4321
+source-git-commit: cada5387ddfb710029d06cd38841ecb9c8a6484b
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1703'
 ht-degree: 1%
 
 ---
@@ -48,8 +48,8 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p>
-       <p>[!UICONTROL 计划]</p></td>
+   <td><p>[！UICONTROL标准版]</p>
+       <p>[！UICONTROL计划]</p></td>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
@@ -69,8 +69,7 @@ ht-degree: 1%
 {{step-1-to-setup}}
 
 1. 在左侧面板中，单击&#x200B;**[!UICONTROL 工作角色]**。
-1. 单击&#x200B;**[!UICONTROL 新建工作角色]**。
-<!-- 1. Click **New Job Role > Create new job role**.  -->
+1. 单击&#x200B;**[!UICONTROL 新建工作角色] <span class="preview">>创建新工作角色**。</span>
 1. 在以下字段中输入信息：
 
    * **名称**：指示工作角色的名称。 该名称会显示Workfront中工作角色字段显示的所有位置。
