@@ -9,7 +9,7 @@ feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 82152918c528a5f5ed91081dfcb2b6fdc6dc8e09
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
 -->
 
-如果没有正确的访问权限或权限，您可能无法查看[!UICONTROL 的]方案[!DNL &#x200B; Adobe Workfront]区域，也无法管理组织的计划或计划。 管理计划和计划包括创建、编辑和删除它们。
+如果没有正确的访问权限或权限，您可能无法查看[!UICONTROL 的]方案[!DNL  Adobe Workfront]区域，也无法管理组织的计划或计划。 管理计划和计划包括创建、编辑和删除它们。
 
 ## 查看和使用[!DNL Adobe Workfront Scenario Planner]所需的访问权限
 
@@ -55,22 +55,22 @@ might need to add information about the permissions to plans/ initiatives if tho
    * [!UICONTROL 轻]或更高
    * [!UICONTROL 审阅者]或更高版本
 
-  <!--
+<!--
     Old: 
       * For the current licenses: 
         * [!UICONTROL Plan]
         * [!UICONTROL Work]
         * [!UICONTROL Review]
-        -->
+-->
 
-  <!--
+<!--
     Old: 
       >[!NOTE]
       > 
       >* When using the new licenses, users with a [!UICONTROL Contributor] or [!UICONTROL External] license type cannot access the [!DNL Scenario Planner].
       >
       >* When using the current licenses, users with a Request or External license type cannot access the Scenario Planner.
-      -->
+-->
 
 * 您的[!DNL Workfront]管理员必须为您授予访问级别为[!UICONTROL 的]查看[!UICONTROL 或]编辑[!DNL Scenario Planner]访问权限。
 
