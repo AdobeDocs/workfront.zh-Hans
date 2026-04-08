@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 71b3af519d0fac1d15164e5d9f40bda5d76d0f5c
+source-git-commit: 16ca615d8a0432f371debb832236e788ee5beb88
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 有关2026年第二季度发布周期中此时可用的所有更改列表，请参阅[2026年第二季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
 
-## AI协作者现已可用
+## 内容审查AI协作者现已可用
 
 >[!NOTE]
 >
@@ -28,13 +28,11 @@ ht-degree: 0%
 >生产快速发布： 2026年4月15日
 >适用于所有人的生产： 2026年4月16日
 
-为了让您更轻松地在日常工作中从AI中获益，我们创建了AI协作者。 AI协作者是一种将AI代理加入您的项目和任务的方法。 您可以使用品牌指南配置AI协作器，然后像向用户一样将其分配给任务。
+为了让您更轻松地在日常工作中从AI中获益，我们创建了内容审阅AI协作器。 通过协作器，可将AI代理载入您的项目和任务。 您可以使用品牌指南配置AI协作器，然后像向用户一样将其分配给任务。
 
-目前，AI协作者可用于审查内容。 未来将提供更多的AI协作器功能。
+目前，内容审查是唯一可用的AI协作者。 未来将提供更多的AI协作器功能。
 
-<!--
-For more information, see [Configure AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators).
--->
+有关详细信息，请参阅[配置AI协作者](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)。
 
 ## 现在，自定义季度在设置中作为单独页面提供
 
