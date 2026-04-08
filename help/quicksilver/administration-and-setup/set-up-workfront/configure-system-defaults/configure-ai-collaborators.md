@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: 25c4d4435cc3507ab2d163600a8c42be66efd4c2
+source-git-commit: 25d5fef46bc8f02e92d778685c2ad6e93439f9ff
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '407'
 ht-degree: 3%
 
 ---
@@ -25,7 +25,7 @@ AI协作者是一种将AI代理加入您的项目和任务的方法。 您可以
 
 可用的AI Collaborator类型包括：
 
-* 审阅者：使用品牌或品牌脑创建协作者，然后将协作者指定为资产的审阅者。
+* 审阅人：使用品牌<!-- or Adobe Brand Intelligence-->创建协作者，然后将该协作者指定为资产审阅人。
 
   有关详细信息，请参阅[开始使用Workfront内容审阅者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)。
 
@@ -48,11 +48,11 @@ AI协作者是一种将AI代理加入您的项目和任务的方法。 您可以
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p>
+   <td><p>[！UICONTROL标准版]</p>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
   </tbody> 
 </table>
@@ -85,9 +85,9 @@ AI协作者是一种将AI代理加入您的项目和任务的方法。 您可以
    >目前，仅审阅者类型可用。 未来将提供更多的人工智能协作器类型。
 
 1. 在“协作者名称”字段中，输入协作者的名称。 这是出现在任务可用被分配人列表中的名称。
-1. 选择协作者将使用品牌还是品牌大脑进行审阅。
-1. （视情况而定）如果AI协作者将使用Brand Brain，请选择它将使用的租户。
-1. （视情况而定）如果AI协作者将使用品牌，请选择它将使用的品牌和品牌指南。
+   <!--1. Select whether the collaborator will use a brand or Adobe Brand Intelligence for its reviews.-->
+   <!--1. (Conditional) If the AI Collaborator will use Adobe Brand Intelligence, select the tenant that it will use.-->
+1. <!--(Conditional) If the AI Collaborator will use a Brand,-->选择它将使用的品牌和品牌指南。
 1. 单击&#x200B;**保存**。
 
 ## 管理AI协作者
