@@ -1,16 +1,16 @@
 ---
 title: 授予对工作角色的访问权限
-description: xxxxxxxxxxxxxxxx
+description: 作为Adobe Workfront管理员，您可以定义用户对Workfront中工作角色的访问权限，方法是通过其访问级别。
 author: Becky and Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
+exl-id: a5ba79da-37f3-43f8-a7e2-4ccd75b56fef
+source-git-commit: c0cb423c73a6b0e982081ae67ffef6316b03db7f
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '343'
 ht-degree: 5%
 
 ---
-
 
 # 授予对工作角色的访问权限
 
