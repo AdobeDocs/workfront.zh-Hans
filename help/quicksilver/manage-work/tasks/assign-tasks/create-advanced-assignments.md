@@ -9,9 +9,9 @@ role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 196e7963d04ac5927b222e843eb42d4f300a397a
+source-git-commit: 676cd1697ae2f379a699075f4e1ab06886c6837a
 workflow-type: tm+mt
-source-wordcount: '3416'
+source-wordcount: '3415'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 * 确定应指定为任务或问题的所有者或主要受分配人的用户。
 * 指定每个用户在处理任务或问题时执行的角色。
 * <span class="preview">在分配级别添加计费和成本费率信息。</span>
-* <span class="preview">查看每个分配的以下详细信息：基于时间的计划小时数、总成本和总收入。</span>
+* <span class="preview">查看每个分配的以下详细信息：计划小时数、总成本和总收入。</span>
 
 >[!NOTE]
 >
@@ -105,7 +105,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    >[!TIP]
    >
-   >您可以直接在任务列表中进行高级分配。 单击任务所在行上的&#x200B;**工作**&#x200B;字段，然后单击列表底部的&#x200B;**高级**&#x200B;或工作框右上角的&#x200B;**人员图标**&#x200B;以打开“高级工作”窗口。 跳至步骤5以继续创建高级工作。
+   >您可以直接在任务列表中进行高级分配。 单击任务所在行上的&#x200B;**工作**&#x200B;字段，然后单击列表底部的&#x200B;**高级**&#x200B;或工作框右上角的&#x200B;**人员图标**以打开“高级工作”窗口。 跳至步骤5以继续创建高级工作。
    >![单击“高级”或“人员”图标](assets/access-aa-from-lists.png)
 
 1. 在任务标题的&#x200B;**工作**&#x200B;字段中单击&#x200B;**分配给**
@@ -325,7 +325,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    >[!TIP]
    >
-   >您可以直接在任务或问题列表中进行高级分配。 单击任务或问题所在行上的&#x200B;**工作**&#x200B;字段，然后单击列表底部的&#x200B;**高级**&#x200B;或工作框右上角的&#x200B;**人员图标**&#x200B;以打开“高级工作”窗口。 跳至步骤5以继续创建高级工作。
+   >您可以直接在任务或问题列表中进行高级分配。 单击任务或问题所在行上的&#x200B;**工作**&#x200B;字段，然后单击列表底部的&#x200B;**高级**&#x200B;或工作框右上角的&#x200B;**人员图标**以打开“高级工作”窗口。 跳至步骤5以继续创建高级工作。
    >![单击“高级”或“人员”图标](assets/access-aa-from-lists.png)
 
 1. 单击任务或问题标题中&#x200B;**工作**&#x200B;字段中的&#x200B;**分配给**
