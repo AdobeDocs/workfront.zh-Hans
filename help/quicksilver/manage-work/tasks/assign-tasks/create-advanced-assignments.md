@@ -9,9 +9,9 @@ role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 196e7963d04ac5927b222e843eb42d4f300a397a
 workflow-type: tm+mt
-source-wordcount: '3390'
+source-wordcount: '3416'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    >[!TIP]
    >
-   >您可以直接在任务列表中进行高级分配。 单击任务所在行上的&#x200B;**工作**&#x200B;字段，然后单击列表底部的&#x200B;**高级**&#x200B;或工作框右上角的&#x200B;**人员图标**&#x200B;以打开“高级工作”窗口。 跳至步骤5以继续创建高级工作。
+   >您可以直接在任务列表中进行高级分配。 单击任务所在行上的&#x200B;**工作**&#x200B;字段，然后单击列表底部的&#x200B;**高级**&#x200B;或工作框右上角的&#x200B;**人员图标**以打开“高级工作”窗口。 跳至步骤5以继续创建高级工作。
    >![单击“高级”或“人员”图标](assets/access-aa-from-lists.png)
 
 1. 在任务标题的&#x200B;**工作**&#x200B;字段中单击&#x200B;**分配给**
@@ -125,6 +125,10 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 根据需要查看任务持续时间信息。 这些字段都是仅供查看的高级工作分配，您可以在任务中更新它们。
 
    有关任务持续时间、持续时间类型、时间单位和已计划小时数的信息，请参阅[任务持续时间和持续时间类型概览](/help/quicksilver/manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)。
+
+   >[!NOTE]
+   >
+   >如果要查看的数据列未显示，您可以添加它。 请参阅下面的“高级工作分配”列表[中的](#add-and-remove-columns-on-the-advanced-assignments-list)添加和删除列。
 
 1. （可选）选择&#x200B;**小时**、**FTE**&#x200B;或&#x200B;**百分比**&#x200B;以查看分配。
 
@@ -321,7 +325,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    >[!TIP]
    >
-   >您可以直接在任务或问题列表中进行高级分配。 单击任务或问题所在行上的&#x200B;**工作**&#x200B;字段，然后单击列表底部的&#x200B;**高级**&#x200B;或工作框右上角的&#x200B;**人员图标**&#x200B;以打开“高级工作”窗口。 跳至步骤5以继续创建高级工作。
+   >您可以直接在任务或问题列表中进行高级分配。 单击任务或问题所在行上的&#x200B;**工作**&#x200B;字段，然后单击列表底部的&#x200B;**高级**&#x200B;或工作框右上角的&#x200B;**人员图标**以打开“高级工作”窗口。 跳至步骤5以继续创建高级工作。
    >![单击“高级”或“人员”图标](assets/access-aa-from-lists.png)
 
 1. 单击任务或问题标题中&#x200B;**工作**&#x200B;字段中的&#x200B;**分配给**
