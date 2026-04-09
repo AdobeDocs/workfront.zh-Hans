@@ -10,9 +10,9 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 0db6cd1091052af7a71ad3e4fce6a9e3fcbb9f67
 workflow-type: tm+mt
-source-wordcount: '7439'
+source-wordcount: '7436'
 ht-degree: 6%
 
 ---
@@ -302,16 +302,16 @@ ht-degree: 6%
     </tr>
     <tr>
       <td><span class="preview">财务权限类型</span></td>
-      <td><p><span class="preview">选择用户查看或编辑此自定义字段之前必须具有的财务权限类型。 计算字段允许使用任何格式。</span></p>
-      <ul span class="preview">
+      <td><p><span class="preview">选择用户查看或编辑此自定义字段之前必须具有的财务权限类型。 必须选择货币格式。</span></p>
+      <ul>
       <li><p><strong>不需要权限：</strong>所有用户都可以看到此字段</p></li>
       <li><p><strong>常规：</strong>用户必须具有编辑或查看常规财务的权限</p></li>
       <li><p><strong>帐单：</strong>用户必须具有编辑或查看记帐费率的权限</p></li>
       <li><p><strong>成本：</strong>用户必须具有编辑或查看成本费率的权限</p></li>
       </ul>
-      <p><span class="preview">有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">限制对自定义字段中的财务数据的访问</a>。</span></p>
+      <p>有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">限制对自定义字段中的财务数据的访问</a>。</p>
       </td>
-      <td><ul span class="preview">
+      <td><ul>
        <li>单行文本</li>
        <li>段落</li>
        </ul></td>
@@ -458,16 +458,16 @@ ht-degree: 6%
     </tr> 
     <tr>
       <td><span class="preview">财务权限类型</span></td>
-      <td><p><span class="preview">选择用户查看或编辑此自定义字段之前必须具有的财务权限类型。 计算字段允许使用任何格式。</span></p>
-      <ul span class="preview">
+      <td><p><span class="preview">选择用户查看或编辑此自定义字段之前必须具有的财务权限类型。 必须选择货币格式。</span></p>
+      <ul>
       <li><p><strong>不需要权限：</strong>所有用户都可以看到此字段</p></li>
       <li><p><strong>常规：</strong>用户必须具有编辑或查看常规财务的权限</p></li>
       <li><p><strong>帐单：</strong>用户必须具有编辑或查看记帐费率的权限</p></li>
       <li><p><strong>成本：</strong>用户必须具有编辑或查看成本费率的权限</p></li>
       </ul>
-      <p><span class="preview">有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">限制对自定义字段中的财务数据的访问</a>。</span></p>
+      <p>有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">限制对自定义字段中的财务数据的访问</a>。</p>
       </td>
-      <td><ul span class="preview">
+      <td><ul>
        <li>单选按钮</li>
        <li>复选框组</li>
        <li>单选下拉菜单</li>
@@ -723,14 +723,14 @@ ht-degree: 6%
      </tr> 
      <tr>
       <td><span class="preview">财务权限类型</span></td>
-      <td><p><span class="preview">选择用户查看或编辑此自定义字段之前必须具有的财务权限类型。 计算字段允许使用任何格式。</span></p>
-      <ul span class="preview">
+      <td><p><span class="preview">选择用户查看或编辑此自定义字段之前必须具有的财务权限类型。 必须选择货币格式。</span></p>
+      <ul>
       <li><p><strong>不需要权限：</strong>所有用户都可以看到此字段</p></li>
       <li><p><strong>常规：</strong>用户必须具有编辑或查看常规财务的权限</p></li>
       <li><p><strong>帐单：</strong>用户必须具有编辑或查看记帐费率的权限</p></li>
       <li><p><strong>成本：</strong>用户必须具有编辑或查看成本费率的权限</p></li>
       </ul>
-      <p><span class="preview">有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">限制对自定义字段中的财务数据的访问</a>。</span></p>
+      <p>有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">限制对自定义字段中的财务数据的访问</a>。</p>
       </td>
      </tr>
      <tr> 
@@ -754,12 +754,12 @@ ht-degree: 6%
       <td role="rowheader">JSON 路径</td>
       <td><p>键入或粘贴API的JSON路径。</p> <p>此选项允许从API URL返回的JSON中提取数据。 它提供了一种方法，用于选择在JSON内的哪些值将显示在下拉选项中。</p><p>例如，如果API URL按以下格式返回JSON，则可以使用“$.data[*].name”选择“美国”和“加拿大”作为下拉选项：</br>
       <pre>
-      &lbrace;
-       数据： &lbrace;
+      {
+       数据： {
          { name： "USA"}，
          { name： "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>有关JSON路径并确保编写正确JSON路径的更多信息，请参阅<a href="https://jsonpath.com/">https://jsonpath.com/</a>。</p></td>
