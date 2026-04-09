@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2a147980da25d981c7a494e76fb771eac83cd59a
+source-git-commit: 56849377a2c31c9232e0ecd8517046f76c7963df
 workflow-type: tm+mt
-source-wordcount: '2289'
+source-wordcount: '2288'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 此页面上的增强功能在“预览”环境中可用。 随着2026年第二季度版本接近其计划发布的生产版本，此页面将进行额外的增强。
 
-每个季度版本均会召开实时网络研讨会，这些研讨会会重点介绍新增功能并提供详细信息。 若要注册，请访问[事件页面](https://experienceleague.adobe.com/zh-hans/events?filters=Workfront)并筛选Workfront。
+每个季度版本均会召开实时网络研讨会，这些研讨会会重点介绍新增功能并提供详细信息。 若要注册，请访问[事件页面](https://experienceleague.adobe.com/en/events?filters=Workfront)并筛选Workfront。
 
 >[!IMPORTANT]
 >
@@ -84,7 +84,7 @@ ht-degree: 2%
     </tr>
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">富文本字段类型现在可用于自定义表单</a><p>自定义表单中的新<b>富文本</b>字段类型是一个强大的文本编辑器，除了粗体、斜体、下划线、项目符号、编号、超链接和块引号等传统选项外，还具有格式选项，如上标和下标、标题和表格。 字符限制仍为15,000。</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">富文本字段将文本替换为格式字段类型</a><p>自定义表单中的新<b>富文本</b>字段类型是一个强大的文本编辑器，除了粗体、斜体、下划线、项目符号、编号、超链接和块引号等传统选项外，还具有格式选项，如上标和下标、标题和表格。 字符限制仍为15,000。</p>
         </td>
         <td><p>2026年1月29日</p></td>
         <td><p>2026年2月12日</p>
@@ -220,7 +220,7 @@ ht-degree: 2%
         <td><strong>每季度</strong></td>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}">更新了单次或批量分配模板任务时的体验</a><p>[!BADGE Off Schedule]{type=Neutral}</p><p> 在编辑单个模板任务或批量编辑这些任务时，我们更新了“编辑模板任务”框中的“工作总揽”部分。  </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}">更新了单次或批量分配模板任务时的体验</a><p>[！BADGE Off Schedule]{type=Neutral}</p><p> 在编辑单个模板任务或批量编辑这些任务时，我们更新了“编辑模板任务”框中的“工作总揽”部分。  </p>
         </td>
         <td><p>2026年2月5日</p></td>
         <td><p>自2026年2月5日起</p></td>
@@ -228,7 +228,7 @@ ht-degree: 2%
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">在单次或批量分配任务时更新体验</a><p>[!BADGE Off Schedule]{type=Neutral}</p><p> 在编辑单个任务或批量编辑这些任务时，我们更新了“编辑任务”框中的“工作总揽”部分。 </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">在单次或批量分配任务时更新体验</a><p>[！BADGE Off Schedule]{type=Neutral}</p><p> 在编辑单个任务或批量编辑这些任务时，我们更新了“编辑任务”框中的“工作总揽”部分。 </p>
         </td>
         <td><p>2026年1月26日</p></td>
         <td><p>自2026年2月5日起</p></td>
@@ -486,13 +486,13 @@ Workfront API版本21于2025年10月23日发布。 对于API版本21，我们修
 * 适用于Salesforce的Workfront。
 
 为了满足贵组织与Google Workspace的集成需求，我们建议使用Workfront自动化和集成。
-有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+有关Workfront自动化和集成的概述，请参阅[Adobe Workfront Fusion概述](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 
 ### Workfront 维护更新
 
-有关2026年第二季度版本中进行的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hans)。
+有关2026年第二季度版本中进行的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
 
 ### 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hans)的“新增功能”部分。
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的“新增功能”部分。
