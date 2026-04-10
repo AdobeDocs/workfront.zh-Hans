@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 735fc46cb982ebd7e28bed486589efe415741683
+source-git-commit: 93eab1106953bfc7324f4b7cc99d3442364a56cd
 workflow-type: tm+mt
-source-wordcount: '3874'
+source-wordcount: '3865'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,6 @@ Workfront校对功能在此集成中不可用。
 
 由于统一审查和批准是使用Adobe企业存储构建的，因此在管理项目和文档时，需要了解一些强制性的结构和命名约定。
 
-* 对象名称必须是唯一的，并且不能重复。
 * Adobe企业存储要求层次结构树中具有相同父级的对等对象具有唯一的名称。
 * 如果文档属于同一项目，则不能具有相同的名称。
 * 对象名称不能包含以下任何特殊字符： \ / ： * ？ “ | &lt; >
