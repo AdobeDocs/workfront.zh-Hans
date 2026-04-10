@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 838e8f3d-0ea6-4844-a261-ef7b0e78a755
-source-git-commit: 20cbe6b280d2d06543b52e1e50d0b2c5edda6418
+source-git-commit: f89b6edead9dce1b0b4baa5ac792cf5e56fd46c0
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,15 @@ ht-degree: 0%
 内容审阅人并非设计作为审阅和批准工作流程中的决策者。 它仅提供分数和建议，以将资产与指定的品牌要求保持一致。
 
 ![内容审核者反馈](assets/ai-reviewer-output.png)
+
+## 了解如何计算得分
+
+内容审阅者根据审阅类型计算得分的方式有所不同：
+
+* 图像审查：此分数反映通过的指南与失败的指南之间的比率。
+* 复制审核：此得分使用主观和客观结果的平衡权重。 客观准则（显示在“修复”下）的权重是主观准则（显示在“考虑”下）的三倍。
+
+由于客观准则在文案审查中占有更大的份量，我们建议在您的品牌中编写具体且可衡量的准则。 有关详细信息，请参阅内容查看者的“创建和管理品牌”文章中的[编写品牌指南的最佳实践](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md#best-practices-for-writing-brand-guidelines)部分。
 
 ## 查看得分和反馈
 

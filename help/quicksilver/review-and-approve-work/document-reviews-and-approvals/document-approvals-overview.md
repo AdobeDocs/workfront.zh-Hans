@@ -9,7 +9,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: c989b5d6a91a4b1f19b044916b4f68a1738f9b16
+source-git-commit: 735fc46cb982ebd7e28bed486589efe415741683
 workflow-type: tm+mt
 source-wordcount: '3874'
 ht-degree: 0%
@@ -404,7 +404,7 @@ Adobe企业存储的主要优势包括：
 
 * 同一项目中的文档不能共享名称。
 
-* 程序、项目组合、项目、模板、任务、问题、文档、文档文件夹名称不能包含以下特殊字符：`\\ / : \* ? \" \| \< \>`并且限制为255个字符。
+* 程序、项目组合、项目、模板、任务、问题、文档、文档文件夹名称不能包含以下特殊字符：`\ / : * ? " | < >`并且限制为255个字符。
 
 Workfront会根据需要自动重命名对象或文档，以防止冲突。
 

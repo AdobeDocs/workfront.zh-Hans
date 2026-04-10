@@ -9,10 +9,10 @@ recommendations: noDisplay, noCatalog
 exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b3e2ac00126facab9cc45ba8fb193d8951a37ec
+source-git-commit: f89b6edead9dce1b0b4baa5ac792cf5e56fd46c0
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 4%
+source-wordcount: '581'
+ht-degree: 3%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 4%
 1. 在左侧面板中，转到&#x200B;**审核和批准** > **品牌**。
 1. 单击屏幕右上角的&#x200B;**添加品牌**。
 1. 为品牌命名。
-1. 单击&#x200B;**上传PDF**&#x200B;以上传品牌文件。
+1. 单击&#x200B;**上传PDF**以上传品牌文件。
    ![上载品牌PDF](assets/upload-PDF.png)
 1. 单击&#x200B;**继续**。
 1. 上载一个或多个包含品牌指南的PDF文件，然后单击&#x200B;**添加品牌**。
@@ -129,3 +129,12 @@ ht-degree: 4%
 
 
 1. 完成后，单击&#x200B;**发布**&#x200B;以使该品牌可供内容查看者使用。
+
+
+## 编写品牌指南的最佳实践
+
+*  编写描述可衡量标准的品牌指南。 内容审核者按字面意思对内容进行评估，因此客观规则会生成比主观规则更一致的分数。
+
+* 在您的指南中查找“避免”、“保留”或“确保”等单词。 这些通常表示您可以收紧的规则。 将vague指令替换为单词、格式或限制的特定列表。 例如，将“避免常见的滑雪陈词滥调”替换为“不要使用‘gnar’、‘pow’或‘shred’”。
+
+* 如果不能消除主观性，请缩小其范围。 将宽泛的形容词替换为特定的约束。 例如，“直接和行动导向”变为“直接和行动导向；省略空话和套期保值语言”。
