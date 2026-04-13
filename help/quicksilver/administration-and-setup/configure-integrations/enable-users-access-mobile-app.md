@@ -11,10 +11,10 @@ role: Admin
 exl-id: cd09e78c-bd2a-4712-9c35-8acbf1a3729d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 77970e17611a61308018db82d4b72fb7fe988ac1
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 9%
+source-wordcount: '117'
+ht-degree: 13%
 
 ---
 
@@ -56,12 +56,6 @@ ht-degree: 9%
 1. 单击位于页面右上角的&#x200B;**[!UICONTROL 设置]，**。
 
 1. 展开&#x200B;**[!UICONTROL 系统]，**，然后单击&#x200B;**[!UICONTROL 首选项]。**
-
-1. 选择&#x200B;**[!UICONTROL 允许人员使用Workfront的移动应用程序和[!DNL Workfront Outlook]加载项]**&#x200B;设置，以允许用户将[!DNL Workfront]与[!DNL Workfront]移动应用程序一起使用，或安装和使用[!DNL Workfront] for Outlook。\
-   此选项默认处于启用状态。
-
 1. 单击&#x200B;**[!UICONTROL 保存]。**
 
 有关在网站启用[!DNL Workfront]移动应用后如何使用该应用的信息，请参阅[使用 [!DNL Adobe Workfront] 移动应用](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)。
-
-有关如何使用[!DNL Workfront for Outlook]的信息，请参阅[使用 [!DNL Workfront with Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)部分。

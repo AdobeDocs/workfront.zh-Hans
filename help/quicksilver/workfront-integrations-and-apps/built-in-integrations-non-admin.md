@@ -9,7 +9,7 @@ author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: d11066d9aa76077bfaaa2d44f2e29c983dafa96f
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 3%
@@ -45,8 +45,8 @@ Workfront中目前提供以下内置集成。
      <li>Premiere Pro </li>
      <li>After Effects </li>
      </ul>
-     <li><p>从<a href="https://exchange.adobe.com/apps/browse/cc?page=1&product=All&q=workfront&sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>下载/安装。</p></li></ul>
-     <p>有关信息和说明，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">为[!DNL Adobe Workfront]应用程序安装[!DNL Creative Cloud]插件</a>。</p> </td> 
+     <li><p>从<a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>下载/安装。</p></li></ul>
+     <p>有关信息和说明，请参阅<a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">为[!DNL Adobe Workfront]应用程序安装[!DNL Creative Cloud]插件</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Adobe Experience Manager Assets和Assets Essentials </p>  </p> </td> 
@@ -80,15 +80,6 @@ Workfront中目前提供以下内置集成。
      <li>将文档和文件夹链接到 [!DNL Workfront]</li> 
     </ul> </td> 
   </tr> 
-  <!--
-  <tr> 
-   <td role="rowheader">Microsoft Calendars (Office 365 / Outlook Live)</td> 
-   <td> 
-    <ul> 
-     <li> <p>Integrate with a web-based version of Outlook in cloud-hosted Office 365 or Outlook Live. </p>
-    </ul> </td> 
-  </tr>
-  -->
   <tr> 
    <td role="rowheader"> <p>Microsoft OneDrive</p> <p> <img src="assets/microsoft-onedrive.png"> </p> </td> 
    <td> 
@@ -96,18 +87,6 @@ Workfront中目前提供以下内置集成。
      <li>将文档和文件夹链接到 [!DNL Workfront]</li> 
     </ul> </td> 
   </tr> 
-  <!--
-  <tr> 
-   <td role="rowheader"> <p>Microsoft Outlook</p> <p> <img src="assets/outlook.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>Update an existing project/task/issue with info from an email </li> 
-     <li>Convert emails into [!DNL Workfront] items right from your inbox </li> 
-     <li>Create new tasks from an email </li> 
-     <li>Comment on [!DNL Workfront] items </li> 
-    </ul> </td> 
-  </tr>
-  -->
   <tr> 
    <td role="rowheader"> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p><b>注意</b>：从2025年7月1日起，Microsoft将移除对Classic Teams桌面应用程序的支持。 因此，一旦Classic Teams桌面应用程序不再可用，则将不支持与Microsoft Teams的Workfront集成。 </p> </td> 
    <td> 

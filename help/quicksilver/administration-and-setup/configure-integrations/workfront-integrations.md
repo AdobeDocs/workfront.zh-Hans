@@ -9,9 +9,9 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 50088ae0-8460-4163-acab-ebb711acda5a
-source-git-commit: 321ffac87bd694325dfb05e4019b25479f58684a
+source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '72'
 ht-degree: 5%
 
 ---
@@ -24,13 +24,12 @@ ht-degree: 5%
 * [配置 [!DNL Experience Manager Assets as a Cloud Service] 集成](../../administration-and-setup/configure-integrations/configure-aacs-integration.md)
 * [配置 [!DNL Experience Manager Assets Essentials] 集成](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
 * [[!DNL Workfront] 和 [!DNL Experience Manager Assets] 集成](../../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
-* [使用 [!DNL Adobe Experience Manager] 旧连接器](../../administration-and-setup/configure-integrations/configure-workfront-aem.md)配置 [!DNL Workfront] 
-* [启用[!UICONTROL Adobe Workfront for Outlook]](../../administration-and-setup/configure-integrations/enable-workfront-for-outlook.md)
+* [使用 [!DNL Workfront] 旧连接器 [!DNL Adobe Experience Manager] 配置](../../administration-and-setup/configure-integrations/configure-workfront-aem.md)
 * [配置文档集成](../../administration-and-setup/configure-integrations/configure-document-integrations.md)
 * [禁用文档集成](../../administration-and-setup/configure-integrations/disable-document-integrations.md)
 * [配置 [!DNL SharePoint] 集成](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
 * [设置元数据映射](../../administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
-* [在 [!DNL Adobe Admin Console]中为您的用户创建 [!DNL Creative Cloud]] 程序包的[[!UICONTROL [!DNL Adobe Workfront] &#x200B;]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
+* [在 [!DNL Adobe Workfront] 中为您的用户创建 [!DNL Creative Cloud]] 程序包的[！UICONTROL [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../administration-and-setup/configure-integrations/create-oauth-application.md" class="MCXref xref" xrefformat="{para}">Create OAuth2 applications for Workfront integrations</a> </li>

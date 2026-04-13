@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
+source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '628'
 ht-degree: 5%
 
 ---
@@ -33,7 +33,6 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->* Outlook加载项区域不显示自定义标签。
 >* 在自定义标签时，您可能会遇到语法和其他问题。 例如，如果将“问题”更改为“请求”，则在UI中可能会有这样一些地方，您会看到短语“请求”。 有关详细信息，请参阅[了解Adobe Workfront中的对象](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#implications-of-customizing-object-names)一文中的[自定义对象名称的含义](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
 >
 
@@ -53,7 +52,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 包</td> 
-   <td><p>任何</p></td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 

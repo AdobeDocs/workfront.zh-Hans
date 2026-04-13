@@ -6,10 +6,10 @@ description: 在 [!DNL Adobe Workfront] 中显示的信息由存储在 [!DNL Wor
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: d11066d9aa76077bfaaa2d44f2e29c983dafa96f
 workflow-type: tm+mt
-source-wordcount: '2508'
-ht-degree: 1%
+source-wordcount: '2456'
+ht-degree: 2%
 
 ---
 
@@ -56,14 +56,14 @@ ht-degree: 1%
 
 有关[!DNL Workfront]中对象的完整列表，请参阅[API资源管理器](../../../wf-api/general/api-explorer.md)。
 
-*计划是[!DNL Adobe Workfront Scenario Planner]的对象。 有关[!DNL Scenario Planner]的信息，请参阅[方案规划器]概述(../../../scenario-planner/scenario-planner-overview.md)。
+*计划是[!DNL Adobe Workfront Scenario Planner]的对象。 有关[!DNL Scenario Planner]的信息，请参阅[方案规划器[!UICONTROL 概述]。](../../../scenario-planner/scenario-planner-overview.md)
 
 *[!UICONTROL 目标]是[!DNL Adobe Workfront Goals]的对象。 有关[!DNL Workfront Goals]的信息，请参阅[[!DNL Adobe Workfront Goals] 概述](../../../workfront-goals/goal-management/wf-goals-overview.md)。
 
 
 ## 自定义对象名称
 
-作为[!DNL Workfront]管理员，您可以使用[!UICONTROL 布局模板]自定义[!DNL Workfront]中的对象名称。
+作为[!DNL Workfront]管理员，您可以使用[!DNL Workfront]布局模板[!UICONTROL 自定义]中的对象名称。
 
 有关如何使用[!UICONTROL 布局模板]自定义对象名称的详细信息，请参阅[创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。
 
@@ -73,14 +73,14 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->要使用户能够看到对象的新名称，用户必须在保存[!UICONTROL 布局模板]后注销并重新登录到[!DNL Workfront]。
+>要使用户能够看到对象的新名称，用户必须在保存[!DNL Workfront]布局模板[!UICONTROL 后注销并重新登录到]。
 
 >[!IMPORTANT]
 >
 >[!DNL Workfront]文档始终引用对象的默认名称。 作为[!DNL Workfront]管理员，请确保将对象名称的更改通知用户，以便他们了解如何使用[!DNL Workfront]文档，以及应用程序中没有反映对象名称更改的区域。
 
 * [可以使用[!UICONTROL 布局模板]自定义的对象名称](#object-names-that-can-be-customized-using-a-layout-template)
-* [&#x200B; [!DNL Workfront] 中反映自定义对象名称的区域](#areas-of-workfront-that-reflect-the-customized-object-names)
+* [ [!DNL Workfront] 中反映自定义对象名称的区域](#areas-of-workfront-that-reflect-the-customized-object-names)
 * [未反映自定义对象名称的 [!DNL Workfront] 区域](#areas-of-workfront-that-do-not-reflect-the-customized-object-names)
 
 ### 可以使用[!UICONTROL 布局模板]自定义的对象名称
@@ -126,22 +126,12 @@ ht-degree: 1%
 * 电子邮件
 * 移动应用程序
 
-### 未反映自定义对象名称的[!DNL Workfront]区域
-
-以下区域不显示对象的更新名称：
-
-<!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Referenced Object Type selection for a Typeahead field in a Custom Form </p> <p>(NOTE: drafting this because I don't think this is true)</p> </li>
-  -->
-
-* [!DNL Outlook]加载项
-
 ### 自定义对象名称的含义
 
 在[!DNL Workfront]中自定义对象名称时，您应了解以下事项：
 
 * 在系统显示中可能会遇到文体或语法错误。 例如，如果将“[!UICONTROL Issue]”重命名为“Request”，并且在系统中的任何位置都看到短语“An request”，则表示这是正常的，不应视为错误。
-* 对象的自定义名称不可翻译。 只能将[!DNL Workfront]默认名称翻译为支持的语言。 有关[!DNL Workfront]支持的语言的详细信息，请参阅 [!DNL Adobe Workfront][&#128279;](../../../workfront-basics/supported-languages-in-workfront.md)支持的语言。 自定义对象名称字段支持外字符，因此您可以用任何语言输入术语。
+* 对象的自定义名称不可翻译。 只能将[!DNL Workfront]默认名称翻译为支持的语言。 有关[!DNL Workfront]支持的语言的详细信息，请参阅[支持的 [!DNL Adobe Workfront]](../../../workfront-basics/supported-languages-in-workfront.md)语言。 自定义对象名称字段支持外字符，因此您可以用任何语言输入术语。
 * 当您使用[!UICONTROL 布局模板]自定义对象名称时，我们建议您根据业务部门（团队或组）分配[!UICONTROL 布局模板]。\
    我们建议您使用这些业务部门用户能够清晰理解的名称以避免混淆。
 * 电子邮件通知和传送的报告始终包含由生成电子邮件的用户的[!UICONTROL 布局模板]定义的对象名称。 如果您的用户从其他团队和组中的用户收到电子邮件通知，则您应当准备好在其电子邮件中看到与组或团队无关的对象名称。\
@@ -171,7 +161,7 @@ ht-degree: 1%
 | [!UICONTROL Portfolio] | ![Portfolio](assets/portfolio-icon-nwe.png) ，![Portfolio图标（蓝色）](assets/nwe-portfolios-icon.png) | ✔ |
 | [!UICONTROL 计划] | ![计划图标](assets/program-icon-nwe.png) ，![计划图标](assets/nwe-programs-icon.png) | ✔ |
 | [!UICONTROL 项目] | ![项目图标](assets/project-icon-nwe.png) ，![紫色项目图标](assets/nwe-projects-icon.png) | ✔ |
-| [!UICONTROL 报告] | ![报告图标](assets/report-icon-nwe.png)，![报告图标绿色](assets/nwe-reports-icon.png) |  |
+| [!UICONTROL 报表] | ![报告图标](assets/report-icon-nwe.png)，![报告图标绿色](assets/nwe-reports-icon.png) |  |
 | [!UICONTROL 任务] | ![任务图标](assets/task-icon-new.png) ，![任务图标绿色](assets/nwe-tasks-icon.png) | ✔ |
 | [!UICONTROL 团队] | ![团队图标](assets/team-icon-nwe.png)，![团队图标循环](assets/team-icon-nwe-color.png)，![团队图标](assets/nwe-teams-icon.png) |  |
 | [!UICONTROL 模板] | ![模板图标](assets/template-icon-nwe.png) ，![模板图标绿色](assets/nwe-templates-icon.png) |  |
@@ -239,7 +229,7 @@ ht-degree: 1%
 
 * [!UICONTROL 项目]
 * [!UICONTROL 任务]
-* [!UICONTROL 小时]
+* [!UICONTROL Hour]
 * [!UICONTROL 问题]
 * [!UICONTROL 用户]
 * [!UICONTROL 访问]级别
@@ -266,7 +256,7 @@ ht-degree: 1%
 * [!UICONTROL 费用类型]
 * [!UICONTROL 外部页面]
 * [!UICONTROL 收藏]
-* [!UICONTROL 筛选器]
+* [!UICONTROL 过滤器]
 * [!UICONTROL 目标]
    * 您可以为战略目标构建报告，或者在项目与目标关联作为目标活动时，在项目报告中显示与目标相关的信息。 只有贵组织购买了[!DNL Workfront Goals]许可证，您才能创建战略目标并将项目连接起来。 有关[!DNL Workfront Goals]的信息，请参阅[[!DNL Workfront Goals] 概述](../../../workfront-goals/goal-management/wf-goals-overview.md)。 有关将项目连接到战略目标的信息，请参阅[在Adobe Workfront目标中添加项目](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)。
 *您无法报告与[!UICONTROL 业务案例]关联的项目目标。 有关项目目标与战略目标的信息，请参阅[术语表 [!DNL Adobe Workfront] 术语](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
@@ -275,7 +265,7 @@ ht-degree: 1%
 * [!UICONTROL 分组]
 * [!UICONTROL 小时类型]
 * [!UICONTROL 计划]
-   * 仅当您的公司购买了[!DNL Workfront Scenario Planner]许可证时，您才能为作为计划子对象的计划生成报告。 有关计划的信息，请参阅 [!DNL Workfront Scenario Planner][&#128279;](../../../scenario-planner/initiatives-overview.md)中的计划概述。
+   * 仅当您的公司购买了[!DNL Workfront Scenario Planner]许可证时，您才能为作为计划子对象的计划生成报告。 有关计划的信息，请参阅[中的 [!DNL Workfront Scenario Planner]](../../../scenario-planner/initiatives-overview.md)计划概述。
 
 * 计划工作角色
    * 仅当您的公司购买了[!DNL Workfront Scenario Planner]许可证时，您才能为计划中与计划关联的工作角色生成报告。 有关创建计划并将其与工作角色关联的信息，请参阅[在 [!DNL Workfront Scenario Planner]](../../../scenario-planner/create-and-edit-initiatives.md)中创建和编辑计划。
@@ -283,7 +273,7 @@ ht-degree: 1%
 * [!UICONTROL 迭代]
 * [!UICONTROL 工作角色]
 * [!UICONTROL 日志条目]
-   * 您可以在[!UICONTROL 更新]对象区域（如任务、项目、问题等）中报告跟踪的系统更新。 有关详细信息，请参阅日志条目报告[&#128279;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)的更新区域报告。
+   * 您可以在[!UICONTROL 更新]对象区域（如任务、项目、问题等）中报告跟踪的系统更新。 有关详细信息，请参阅日志条目报告[的](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)更新区域报告。
 
 * [!UICONTROL 布局模板]
 * [!UICONTROL 里程碑]
@@ -305,18 +295,18 @@ ht-degree: 1%
 * [!UICONTROL 校对审批]
    * 允许您查看有关验证审批的各种信息，包括：提交以供审批的验证、有关[!UICONTROL 审批者]的信息、有关请求者的信息（如果请求者是已授予许可的[!DNL Workfront]用户）、版本信息、验证ID和验证创建日期。\
       [!UICONTROL 验证审批]报告仅包含在尚未做出决策的用户的“我的工作”区域中可用的验证。\
-   * 验证审批在[!DNL Workfront]中分配，如[在 [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)内共享验证[将用户添加到验证](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add)中所述。
+   * 验证审批在[!DNL Workfront]中分配，如[在](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add)内共享验证[将用户添加到验证 [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)中所述。
 
 * [!UICONTROL 队列]
 * [!UICONTROL 队列主题]
 * [!UICONTROL 费率] （这显示工作角色[!UICONTROL 记帐费率]信息）
 * [!UICONTROL 提醒通知]
-* [!UICONTROL 报告]
+* [!UICONTROL 报表]
 * [!UICONTROL 资源池]
 * [!UICONTROL 风险]
 * [!UICONTROL 风险类型]
 * [!UICONTROL 计划]
-* [!UICONTROL 记分卡]
+* [!UICONTROL 评分卡]
 * [!UICONTROL 团队]
 * [!UICONTROL 模板]
 * [!UICONTROL 模板任务]
@@ -335,5 +325,5 @@ ht-degree: 1%
 
    * 您可以报告用户在当月对验证和文档做出了多少决策。
 
-* [!UICONTROL 视图]
+* [!UICONTROL 查看]
 * [!UICONTROL 工作项] （这将生成任务和问题报告）

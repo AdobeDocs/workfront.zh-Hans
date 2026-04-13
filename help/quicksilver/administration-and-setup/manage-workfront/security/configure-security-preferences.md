@@ -10,9 +10,9 @@ role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '725'
 ht-degree: 8%
 
 ---
@@ -92,8 +92,8 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
       <td> <p>允许用户在将外部页面添加到功能板时使用站点的会话ID信息。</p> <p>此选项不安全，默认情况下处于关闭状态。 建议改用OAuth进行集成。</p> <p>有关将外部页面添加到仪表板的详细信息，请参阅<a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">在仪表板中嵌入外部网页</a>。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">允许人员使用Workfront的移动应用程序和Workfront Outlook加载项</td> 
-      <td> <p>允许用户访问移动设备应用程序（适用于iPad和移动设备应用程序的Workfront View）和Workfront Outlook应用程序。</p> <p>此选项默认处于启用状态。 </p> <p>有关Workfront视图的信息，请参阅<a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">使用Adobe Workfront视图</a>。 有关移动设备应用程序的详细信息，请参阅<a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">使用Adobe Workfront移动设备应用程序：文章索引</a>。</p> </td> 
+      <td role="rowheader">允许人员使用Workfront的移动应用程序</td> 
+      <td> <p>允许用户访问移动设备应用程序（适用于iPad和移动设备应用程序的Workfront View）</p> <p>此选项默认处于启用状态。 </p> <p>有关Workfront视图的信息，请参阅<a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">使用Adobe Workfront视图</a>。 有关移动设备应用程序的详细信息，请参阅<a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">使用Adobe Workfront移动设备应用程序：文章索引</a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>使用电子邮件地址与没有Workfront帐户的人员协作</p> </td> 

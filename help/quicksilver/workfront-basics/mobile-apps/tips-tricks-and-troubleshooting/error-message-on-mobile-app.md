@@ -2,21 +2,21 @@
 content-type: tips-tricks-troubleshooting
 product-previous: mobile
 navigation-topic: tips-tricks-and-troubleshooting-mobile-apps
-title: “ [!DNL Adobe Workfront] 移动应用程序上的错误消息：‘您的帐户未启用API。'”
-description: “ [!DNL Adobe Workfront] 移动应用程序上的错误消息：‘您的帐户未启用API。'”
+title: ' [!DNL Adobe Workfront] 移动应用程序上的错误消息：“您的帐户未启用API。”'
+description: ' [!DNL Adobe Workfront] 移动应用程序上的错误消息：“您的帐户未启用API。”'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 120e56f4-9fd5-4c41-890e-981937714db0
-source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
+source-git-commit: d11066d9aa76077bfaaa2d44f2e29c983dafa96f
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 2%
+source-wordcount: '163'
+ht-degree: 5%
 
 ---
 
 # [!DNL Adobe Workfront]移动应用程序上的错误消息：“[!UICONTROL 您的帐户未启用API。]”
 
-## 访问要求
+## 访问权限要求
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -26,15 +26,15 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划</strong></td> 
-   <td> <p> 任何</p> </td> 
+   <td> <p> “任一”</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe[!DNL Workfront]许可证</strong></td> 
-   <td> <p>计划</p> </td> 
+   <td role="rowheader"><strong>Adobe [!DNL Workfront]许可证</strong></td> 
+   <td> <p>规划</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置</strong></td> 
-   <td> <p>[!UICONTROL 系统管理员] </p> </td> 
+   <td> <p>[！UICONTROL系统管理员] </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +53,7 @@ ht-degree: 2%
 1. 转到&#x200B;**[!UICONTROL 设置]**&#x200B;区域。
 1. 展开&#x200B;**[!UICONTROL 系统]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 首选项]**。
 
-1. 在&#x200B;**[!UICONTROL 安全性]**&#x200B;部分下，选择&#x200B;**[!UICONTROL 允许人员使用[!DNL Workfront]的移动应用程序和[!DNL Workfront Outlook]外接程序]**&#x200B;选项以启用它。
+1. 在&#x200B;**[!UICONTROL 安全性]**&#x200B;部分下，选择&#x200B;**[!UICONTROL 允许人员使用[!DNL Workfront]的移动应用程序]**&#x200B;选项来启用它。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。\
-   系统中的所有用户现在都可以从其移动应用和[!DNL Outlook]访问[!DNL Workfront]。
+   系统中的所有用户现在都可以从其移动应用访问[!DNL Workfront]。
