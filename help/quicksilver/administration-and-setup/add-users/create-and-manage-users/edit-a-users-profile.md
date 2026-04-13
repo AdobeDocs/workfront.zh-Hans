@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: e5ac8fde409b960aacd3cf7daa0532e9bc3e8121
+source-git-commit: dbe12b780491212105ee62058aec7e708d207e1f
 workflow-type: tm+mt
-source-wordcount: '3478'
+source-wordcount: '3466'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/cn/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -149,7 +149,9 @@ ht-degree: 0%
 
 * **当任务自行分配时，自动将任务状态设置为“进行中”**：选择此选项时，用户自行分配的工作将自动设置为“进行中”状态而不是“新建”。
 
-* **上载文档时自动生成验证**：如果希望用户上载的文档立即生成验证，请选中此选项。
+>[!NOTE]
+>
+>删除了“上传文档时自动生成验证”选项。
 
 ### 通知
 
