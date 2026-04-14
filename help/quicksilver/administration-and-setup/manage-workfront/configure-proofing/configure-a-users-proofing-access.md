@@ -8,10 +8,10 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 98c90139-f31a-41bc-af0b-577dd8b254e3
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 322a24fabd22ca2b54c020aded33b736a98f4bf5
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 0%
+source-wordcount: '1102'
+ht-degree: 1%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 有关可用于基本和集成校对的校对功能的信息，请参阅[访问Workfront中的校对功能](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -33,11 +33,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划*</td> 
-   <td>任何</td> 
+   <td>“任一”</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td>计划</td> 
+   <td>规划</td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
@@ -49,19 +49,6 @@ ht-degree: 0%
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
 +++
-
-## 为用户启用和禁用验证（仅限旧版计划） {#enable-and-disable-proofing-for-a-user-legacy-plans-only}
-
-如果您的组织使用的是旧版Select或Premium Workfront计划，则作为Workfront管理员，您可以为用户启用和禁用验证功能。
-
-为用户启用验证时，Workfront为用户启用选项以自动生成验证。
-
-尽管您可以将用户启用为验证用户，但是该用户必须具有管理员权限，才能直接从Workfront主菜单导航到Workfront Proof界面。 有关如何为Workfront系统中的所有验证用户启用此选项的信息，请参阅[通过Workfront主菜单为所有用户配置Workfront Proof访问权限](#configure-workfront-proof-access-via-workfront-main-menu-for-all-users)。
-
-1. 在&#x200B;**主菜单**&#x200B;中，选择&#x200B;**用户**。
-
-1. 选择一个用户，然后单击&#x200B;**编辑**&#x200B;图标。
-1. 在&#x200B;**访问**&#x200B;部分中，选择或取消选择&#x200B;**用户可以生成验证**。
 
 ## 配置用户的校对权限配置文件
 
@@ -112,7 +99,7 @@ ht-degree: 0%
 
 设置权限时，请考虑以下信息：
 
-* 如果将用户的权限配置文件更改为权限较少的配置文件，则该用户可能会失去对Workfront中现有验证的可见性。 当有人在Workfront中与用户共享任务，但未共享附加到任务的验证时，可能会发生这种情况(请参阅[在Adobe Workfront中共享验证](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)，在Adobe Workfront中共享验证[)。](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
+* 如果将用户的权限配置文件更改为权限较少的配置文件，则该用户可能会失去对Workfront中现有验证的可见性。 当有人在Workfront中与用户共享任务，但未共享附加到任务的验证时，可能会发生这种情况（请参阅[在Adobe Workfront中共享验证](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)，在Adobe Workfront中共享验证[）。](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
 * 仅当您的Workfront Proof环境与Workfront Premium帐户集成时，才能从Workfront Proof设置Workfront权限。 如果您无法使用本节中讨论的验证，请与Workfront管理员联系。
 * Workfront环境中必须至少有一位用户具有验证的“管理员”权限。 如果您尝试从所有用户中删除校对的管理员权限，则会显示一条错误消息。
 * 当您将用户的Workfront访问级别更改为系统管理员以外的任何级别时，用户的Workfront Proof权限配置文件默认为经理。
@@ -141,7 +128,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**验证默认值**&#x200B;下，在&#x200B;**交互式验证的桌面验证查看器**&#x200B;行的末尾，单击&#x200B;**设置**。
 
-1. 按照[为组织配置校对设置](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)一文中[桌面校对查看器](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#desktop-proofing-viewer)的说明，修改桌面校对查看器设置。
+1. 按照[为组织配置校对设置](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#desktop-proofing-viewer)一文中[桌面校对查看器](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)的说明，修改桌面校对查看器设置。
 
 1. 单击&#x200B;**保存**。
 
@@ -152,4 +139,4 @@ ht-degree: 0%
 有关详细信息，请参阅[在验证查看器中更改交互式验证分辨率](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)。
 
 1. 从Workfront访问Workfront Proof界面，如[从Adobe Workfront访问Workfront Proof](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)中所述。
-1. 修改桌面验证查看器设置，如[为组织配置验证设置](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)中的[为验证配置自定义设备](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#custom-devices-for-proofs)中所述。
+1. 修改桌面验证查看器设置，如[为组织配置验证设置](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#custom-devices-for-proofs)中的[为验证配置自定义设备](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)中所述。
