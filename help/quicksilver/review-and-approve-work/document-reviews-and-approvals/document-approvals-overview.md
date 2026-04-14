@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 93eab1106953bfc7324f4b7cc99d3442364a56cd
+source-git-commit: ca06f89747110f1abc4cc6ff46490ac6f7a54e96
 workflow-type: tm+mt
-source-wordcount: '3865'
+source-wordcount: '3876'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ Workfront校对功能在此集成中不可用。
 
 由于统一审查和批准是使用Adobe企业存储构建的，因此在管理项目和文档时，需要了解一些强制性的结构和命名约定。
 
-* Adobe企业存储要求层次结构树中具有相同父级的对等对象具有唯一的名称。
+* 如果项目和项目属于同一项目组合，则它们不能具有相同的名称。
 * 如果文档属于同一项目，则不能具有相同的名称。
 * 对象名称不能包含以下任何特殊字符： \ / ： * ？ “ | &lt; >
 * 对象名称限制为最多255个字符。
@@ -399,7 +399,9 @@ Adobe企业存储的主要优势包括：
 
 可以。由于该集成使用Adobe企业存储，因此适用以下约定：
 
-* 对象和文档名称在文件夹层次结构的相同父级中必须是唯一的。
+* 如果项目和项目属于同一项目组合，则它们不能具有相同的名称。
+
+* 文档名称在文件夹层次结构的相同父级中必须是唯一的。
 
 * 同一项目中的文档不能共享名称。
 
