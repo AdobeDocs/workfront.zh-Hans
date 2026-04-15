@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: c989b5d6a91a4b1f19b044916b4f68a1738f9b16
+source-git-commit: 453d4862883e299fea46b3dfe94548375bfc4209
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,6 @@ ht-degree: 0%
 
 有关Frame.io的详细信息，请参阅[Frame.io快速入门](https://support.frame.io/en/collections/49298-getting-started)。
 
-您必须在Workfront实例中设置Workfront和Frame.io集成。 有关详细信息，请参阅[统一审阅和批准概述](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#integration-requirements)。
 
 ## 概述视频
 
@@ -30,11 +29,7 @@ ht-degree: 0%
 
 ## 集成要求
 
-* Workfront和Frame.io必须部署到同一Identity Management system (IMS)组织。
-
-* 用户只能属于IMS组织内的一个Workfront实例。
-
-* 必须在Adobe Unified Experience和Adobe企业存储上启用Workfront实例。
+* 必须在Adobe Unified Experience上启用Workfront实例。
 
 ## Workfront中的工作启动和规划
 
