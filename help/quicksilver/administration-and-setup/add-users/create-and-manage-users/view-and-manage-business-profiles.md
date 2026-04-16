@@ -11,16 +11,14 @@ role: Admin
 exl-id: 2227cdb7-909c-429d-a078-4f508157a679
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 2b190de6b6ef9ce53e96475d426a4d39cfbd4df4
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 10%
+source-wordcount: '200'
+ht-degree: 11%
 
 ---
 
 # 查看和管理企业档案
-
-<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对特定客户可用。</span>
 
 要将业务配置文件分配给用户，您必须分配组和关联的访问级别。
 

@@ -10,32 +10,19 @@ role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 2b190de6b6ef9ce53e96475d426a4d39cfbd4df4
 workflow-type: tm+mt
-source-wordcount: '1823'
+source-wordcount: '1864'
 ht-degree: 4%
 
 ---
 
 # 创建和编辑业务规则
 
-<!--
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
--->
-
 业务规则允许您对Workfront对象应用验证，并阻止用户在满足某些条件时创建、编辑或删除对象。 业务规则验证通过防止可能会损害数据完整性的操作，帮助提高数据质量和运营效率。
 
-<!--
+拥有Workflow Ultimate包的组织还可以配置业务规则，以在满足某些条件时，自动执行针对已创建、编辑或修改的对象执行的操作。 可用操作包括共享对象或将自定义表单附加到对象。
 
-<div class="preview">
-
-Organizations that have the Workflow Ultimate package can also configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object or attaching a custom form to the object.  
-
-</div>
-
--->
 
 单个业务规则只能分配给一个对象。 例如，如果创建业务规则以在某些条件下不编辑项目，则无法将相同的规则应用于任务。 您必须为任务创建具有相同条件的单独业务规则。
 
@@ -261,7 +248,7 @@ IF({status} = "APR", true)
    * “对象”是您在创建业务规则时选择的对象类型。 它显示在对话框的标题中。
    * “action”是您为规则选择的触发器：创建、编辑或删除对象。
    * 由于对象和操作已定义，因此不要将它们包含在公式中。
-   * 仅当规则用于验证时才会包含自定义错误消息<span class="preview">，并且在用户触发业务规则时向用户显示</span>。 它应就出现什么问题以及如何纠正问题提供明确的说明。
+   * 仅当规则用于验证时才会包含自定义错误消息，并在用户触发业务规则时向用户显示。 它应就出现什么问题以及如何纠正问题提供明确的说明。
 
      您可以在错误消息中包含静态URL，以链接到文档或其他有用页面，引导用户如何在规则的限制中修改其操作。
 
@@ -283,21 +270,19 @@ IF({status} = "APR", true)
 
    对于其他包，此选项是预先选定的。
 
-1. <span class="preview">（视情况而定）要自动执行其他操作，请选择操作。</span>
+1. （视情况而定）要自动执行其他操作，请选择操作。
 
-   <span class="preview">有关这些操作的详细信息，请参阅本文中的[业务规则自动化选项](#business-rule-automation-options)部分。</span>
+   有关这些操作的详细信息，请参阅本文中的[业务规则自动化选项](#business-rule-automation-options)部分。
 
    >[!NOTE]
    >
-   ><span class="preview">贵组织必须在Workflow Ultimate程序包中，才能使用验证以外的操作。 如果您没有看到这些其他选项，则表明贵组织不在工作流Ultimate包中。</span>
+   >贵组织必须在工作流Ultimate程序包上，才能使用验证以外的操作。 如果您没有看到其他这些选项，则表明贵组织不在工作流Ultimate包中。
 
 1. 完成业务规则构建后，单击&#x200B;**保存**。
 
 >[!NOTE]
 >
 >添加业务规则后，应通过添加、编辑或删除关联对象对其进行测试，以确保正确应用该规则。
-
-<div class="preview">
 
 ### 业务规则自动化选项
 
@@ -311,8 +296,6 @@ IF({status} = "APR", true)
 |---|---|
 | 附加一个自定义表单 | 选择要添加的自定义表单 |
 | 分享对象 | 选择要与其共享对象的人员、角色、组、公司或访问级别。 |
-
-</div>
 
 ## 激活业务规则
 

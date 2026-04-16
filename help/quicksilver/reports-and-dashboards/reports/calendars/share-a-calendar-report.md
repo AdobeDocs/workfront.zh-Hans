@@ -8,17 +8,14 @@ feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '592'
 ht-degree: 3%
 
 ---
 
 # 共享日历报告
-
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
-
 
 您可以与其他用户共享日历，也可以公开显示该日历，从而允许没有[!DNL Adobe Workfront]许可证的用户查看该日历。
 
@@ -67,7 +64,7 @@ ht-degree: 3%
 1. 转到要共享的日历。
 1. 单击日历名称旁边的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**共享**。
    ![日历更多菜单](assets/more-menu-calendar.png)
-1. 在&#x200B;**[!UICONTROL 将日历访问权限授予]**&#x200B;字段中，开始键入要共享日历的用户、团队、角色、组、公司、<span class="preview">或业务配置文件</span>的名称，然后在日历显示在下拉列表中时单击该名称。\
+1. 在&#x200B;**[!UICONTROL 将日历访问权限授予]**&#x200B;字段中，开始键入要共享日历的用户、团队、角色、组、公司或业务配置文件的名称，然后在名称显示在下拉列表中时单击该名称。\
    要了解有关设置权限的信息，请参阅[对象权限共享概述](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
 
 1. （可选）对要授予日历访问权限的每个用户、团队、角色或组重复步骤3。
@@ -100,9 +97,9 @@ ht-degree: 3%
 
 1. 转到要共享的日历。
 1. 单击&#x200B;**[!UICONTROL 日历操作]**，然后单击&#x200B;**[!UICONTROL 共享]**。
-1. 单击日历名称旁边的&#x200B;**更多**&#x200B;菜单。
+1. 单击日历名称旁边的&#x200B;**更多**菜单。
    ![日历更多菜单](assets/more-menu-calendar.png)
-单击&#x200B;**复制公共链接**。
+单击**复制公共链接**。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 ## 使用专用链接共享日历

@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 5f5a32b9a569221acc3d5f38568bb6a1e609070f
+source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: '1556'
 ht-degree: 3%
 
 ---
@@ -18,8 +18,6 @@ ht-degree: 3%
 # 审核日志概述
 
 <!--Audited: 08/2025-->
-
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 作为Adobe Workfront管理员，您可以使用下述审核日志跟踪过去90天内系统中触发的用户更改。
 
@@ -68,7 +66,7 @@ ht-degree: 3%
 
 * [访问级别](#access-level)
 * [企业配置文件](#business-profiles)
-* <span class="preview">[业务规则](#business-rules)</span>
+* [业务规则](#business-rules)
 * [公司](#company)
 * [条件](#condition)
 * [自定义字段](#custom-field)
@@ -102,8 +100,6 @@ ht-degree: 3%
      >
      >例如，如果用户将Planner访问类型从查看更改为编辑，系统不会显示微调设置下拉菜单中包含的信息。
 
-<div class="preview">
-
 ### 企业配置文件
 
 当用户执行以下操作之一时，系统会生成业务配置文件审核日志条目：
@@ -111,8 +107,6 @@ ht-degree: 3%
 * 创建业务配置文件
 * 编辑业务配置文件：
 * 删除业务配置文件
-
-</div>
 
 ### 业务规则
 

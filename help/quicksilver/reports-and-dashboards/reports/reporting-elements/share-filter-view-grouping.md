@@ -8,9 +8,9 @@ feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
 workflow-type: tm+mt
-source-wordcount: '1194'
+source-wordcount: '1172'
 ht-degree: 3%
 
 ---
@@ -23,8 +23,6 @@ ht-degree: 3%
 (NOTE: CONSIDER SPLITTING THIS in three articles for each reporting element?)
 (NOTE: This is linked from the TOC article in WF Basics > permissions section)
 -->
-
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 在分配访问级别时，您的Adobe Workfront管理员会授予用户查看或编辑对象的权限。 有关授予对象访问权限的详细信息，请参阅[创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
@@ -173,14 +171,14 @@ ht-degree: 3%
 
 1. 根据要与谁共享，完成以下任一操作：
 
-   **要与个人用户、团队、角色、组或公司共享：**&#x200B;在提供的字段中，开始键入要共享的用户名、团队名、角色名、组名、公司名、<span class="preview">或业务配置文件名</span>，然后在名称出现在下拉列表中时单击该名称。\
+   **要与个人用户、团队、角色、组或公司共享：**&#x200B;在提供的字段中，开始键入要与其共享的用户、团队、角色、组、公司或业务配置文件的名称，然后在名称出现在下拉列表中时单击该名称。\
    重复此过程可与多个用户、团队、角色、组或公司共享访问权限。
 
    >[!TIP]
    >
    >与组共享会将筛选器、视图或分组的权限授予该组的成员和所有子组的成员。
 
-   **要与系统中的所有用户共享：**&#x200B;请单击“设置”图标&#x200B;**&#x200B;**，然后单击“在系统范围内可见”图标&#x200B;**&#x200B;**。\
+   **要与系统中的所有用户共享：**&#x200B;请单击“设置”图标&#x200B;****，然后单击“在系统范围内可见”图标&#x200B;****。\
    管理员必须选择“共享系统范围”选项才能使用此选项。 有关详细信息，请参阅文章[创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)和[共享报告、功能板和日历](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)。
 
 1. （视情况而定）如果要与个人用户、团队、角色、组或公司共享，请单击下拉菜单以定义要授予的访问权限级别。
