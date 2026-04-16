@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 5cdaccd9381b02f183b837208eaac4389b0b7a24
+source-git-commit: e6aa40917f2e4421c84d2cc36e86187328c6f775
 workflow-type: tm+mt
 source-wordcount: '2714'
 ht-degree: 1%
@@ -18,8 +18,6 @@ ht-degree: 1%
 # 将计算字段添加到表单
 
 <!-- Audited: 5/2025 -->
-
-{{highlighted-preview}}
 
 您可以添加计算自定义字段，在自定义表单附加到对象时，该字段使用现有数据生成新数据。
 
@@ -172,26 +170,26 @@ ht-degree: 1%
       <td><p>此选项默认处于打开状态。<p><p>将字段设置为“不活动”时，该字段将从报表、筛选器和视图中排除，并且在自定义表单字段库中不再可用。</p></td>
      </tr>
      <tr>
-      <td><span class="preview">自动权限</span></td>
-      <td><span class="preview"><p>启用此选项可允许财务权限自动来自公式中使用的字段。 权限定义显示在下面的“财务权限类型”字段中。</p><p>需要访问公式中的所有字段。 例如，如果在计算字段中使用了两个字段，其中一个字段应用了计费权限，而另一个字段应用了成本权限，则用户必须具有查看计费和成本费率的权限才能查看计算值。</p></span></td>
+      <td>自动权限</td>
+      <td><p>启用此选项可允许财务权限自动来自公式中使用的字段。 权限定义显示在下面的“财务权限类型”字段中。</p><p>需要访问公式中的所有字段。 例如，如果在计算字段中使用了两个字段，其中一个字段应用了计费权限，而另一个字段应用了成本权限，则用户必须具有查看计费和成本费率的权限才能查看计算值。</p></td>
      </tr>
      <tr>
-      <td><span class="preview">财务权限类型</span></td>
-      <td><p><span class="preview">当自动权限字段关闭时，您可以选择用户查看或编辑此自定义字段之前必须具有的财务权限类型。 计算字段允许使用任何格式。 公式中使用的字段决定了此字段是否有效。 如果权限字段为空，则公式中的字段不支持财务权限。</span></p>
-      <ul span class="preview">
+      <td>财务权限类型</td>
+      <td><p>当自动权限字段关闭时，您可以选择用户查看或编辑此自定义字段之前必须具有的财务权限类型。 计算字段允许使用任何格式。 公式中使用的字段决定了此字段是否有效。 如果权限字段为空，则公式中的字段不支持财务权限。</p>
+      <ul>
       <li><p><strong>不需要权限：</strong>所有用户都可以看到此字段</p></li>
       <li><p><strong>常规：</strong>用户必须具有编辑或查看常规财务的权限</p></li>
       <li><p><strong>帐单：</strong>用户必须具有编辑或查看记帐费率的权限</p></li>
       <li><p><strong>成本：</strong>用户必须具有编辑或查看成本费率的权限</p></li>
       </ul>
-      <p><span class="preview">有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">限制对自定义字段中的财务数据的访问</a>。</span></p>
+      <p>有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">限制对自定义字段中的财务数据的访问</a>。</p>
       </td>
      </tr>
     </tbody> 
    </table>
 
 1. 在&#x200B;**计算**&#x200B;框中，开始生成计算：
-   1. 单击&#x200B;**最大化**&#x200B;以打开计算编辑器并构建计算。</p>
+   1. 单击&#x200B;**最大化**以打开计算编辑器并构建计算。
 计算通常以表达式开头，后跟括号，其中包含将自定义表单附加到对象时要引用的字段。
 
       每个字段都必须用大括号括起来。 当您开始键入字段名称时，系统会提供建议，您可以选择一个来将其插入到计算中。

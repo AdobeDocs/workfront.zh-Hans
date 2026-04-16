@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
-source-wordcount: '4971'
-ht-degree: 2%
+source-wordcount: '5076'
+ht-degree: 3%
 
 ---
 
@@ -268,7 +268,7 @@ Old:
 1. 如上所述，开始编辑模板。
 1. 在&#x200B;**编辑模板**&#x200B;框中，单击&#x200B;**财务**。
 
-   ![编辑模板框财务部分](assets/edit-template-box-finance-section.png)
+   ![编辑模板框财务部分](assets/edit-template-finance-section-040626.png)
 
 1. 更新以下字段：
 
@@ -276,6 +276,14 @@ Old:
     <col> 
     <col> 
     <tbody> 
+     <tr>
+      <td><strong>保留项目计费率信息</strong></td>
+      <td><p>启用此选项后，所有分配开单费率将永久冻结为开单层次结构中的最高适用费率。 这是一次性选择，一旦项目具有工作分配或小时，您就无法禁用此选项。 保留后，无法在项目上的任何位置更改、编辑或覆盖分配记帐费率。</p></td>
+     </tr>
+     <tr>
+      <td><strong>使用系统中的生效日期汇率</strong></td>
+      <td><p>选择此选项时，将始终使用系统级别的有效日期汇率，并且不允许对项目进行汇率覆盖。</p> <p>如果选择该选项，您还必须选择要开始的<strong>汇率日期</strong>。</p></td> 
+     </tr>
       <tr> 
       <td role="rowheader"><strong>货币</strong></td> 
       <td><p>如果将来项目的货币与系统的默认货币不同，请指定此货币。 如果系统中只有默认货币，则此字段不可见。<br>有关货币的详细信息，请参阅<a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">设置汇率</a>。</p></td> 

@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: a060b0023d6ea04f0eb1210c61b7add37a943842
+source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
 workflow-type: tm+mt
-source-wordcount: '3485'
-ht-degree: 1%
+source-wordcount: '3544'
+ht-degree: 0%
 
 ---
 
 # 向自定义表单和字段添加逻辑规则
-
-{{highlighted-preview}}
 
 利用逻辑规则，可进一步自定义表单上的字段。
 
@@ -60,7 +58,7 @@ ht-degree: 1%
 
 自定义表单显示图标以指示何时将逻辑应用于字段。
 
-<span class="preview">单击表单设计器标题中的&#x200B;**显示逻辑**&#x200B;可显示或隐藏不同字段逻辑类型的图标。</span>
+在表单设计器标题中单击&#x200B;**显示逻辑**&#x200B;可显示或隐藏不同字段逻辑类型的图标。
 
 | 图标 | 定义 |
 | --- | --- |
@@ -70,14 +68,14 @@ ht-degree: 1%
 | 引用字段的![跳过逻辑图标](assets/skip-logic-bottom-left.png) | 该字段是跳过逻辑的参考字段。 如果为目标字段进行了特定选择，则表单会跳过此字段并隐藏其中的字段。 |
 | ![目标字段的验证逻辑](assets/validation-logic-icon.png) | 字段是应用验证逻辑的目标字段。 参考字段上的特定选择或值确定验证是否失败。 对于验证逻辑，目标字段和参考字段可以相同。 |
 | 引用字段的![验证逻辑](assets/validation-logic-reference-field.png) | 该字段是验证逻辑的参考字段。 此字段上的特定选择或值确定验证是否在目标字段上失败。 对于验证逻辑，目标字段和参考字段可以相同。 |
-| ![目标字段的默认值逻辑](assets/default-value-logic-icon.png) | <span class="preview">该字段是应用默认值逻辑的目标字段。 引用字段上的特定选择或值决定了默认值。 默认值逻辑的目标字段和引用字段可以相同。</span> |
-| ![引用字段的默认值逻辑](assets/default-value-logic-reference-field.png) | <span class="preview">该字段是默认值逻辑的引用字段。 此字段上的特定选择或值决定了目标字段上的默认值。 默认值逻辑的目标字段和引用字段可以相同。</span> |
-| ![正在格式化目标字段的逻辑](assets/formatting-logic-icon.png) | <span class="preview">该字段是应用格式逻辑的目标字段。 引用字段上的特定选择或值决定了格式。 目标字段和引用字段对于格式化逻辑可以相同。</span> |
-| ![正在格式化引用字段的逻辑](assets/formatting-logic-reference-field.png) | <span class="preview">该字段是用于设置逻辑格式的参考字段。 此字段上的特定选择或值决定了目标字段的格式。 目标字段和引用字段对于格式化逻辑可以相同。</span> |
-| 目标字段的![可编辑性逻辑](assets/editability-logic-icon.png) | <span class="preview">该字段是应用可编辑性逻辑的目标字段。 当满足定义的条件时，该字段可以是可编辑的或只读的。 可编辑性逻辑的目标字段和引用字段可以相同。</span> |
-| 引用字段的![可编辑性逻辑](assets/editability-logic-reference-field.png) | <span class="preview">该字段是可编辑性逻辑的参考字段。 当此字段满足定义的条件时，逻辑将应用于目标字段。 可编辑性逻辑的目标字段和引用字段可以相同。</span> |
+| ![目标字段的默认值逻辑](assets/default-value-logic-icon.png) | 字段是应用默认值逻辑的目标字段。 引用字段上的特定选择或值决定了默认值。 对于默认值逻辑，目标字段和引用字段可以相同。 |
+| ![引用字段的默认值逻辑](assets/default-value-logic-reference-field.png) | 该字段是默认值逻辑的参考字段。 此字段上的特定选择或值决定了目标字段上的默认值。 对于默认值逻辑，目标字段和引用字段可以相同。 |
+| ![正在格式化目标字段的逻辑](assets/formatting-logic-icon.png) | 字段是应用格式逻辑的目标字段。 引用字段上的特定选择或值决定了格式。 目标字段和引用字段对于格式逻辑可以相同。 |
+| ![正在格式化引用字段的逻辑](assets/formatting-logic-reference-field.png) | 字段是格式逻辑的参考字段。 此字段上的特定选择或值决定了目标字段的格式。 目标字段和引用字段对于格式逻辑可以相同。 |
+| 目标字段的![可编辑性逻辑](assets/editability-logic-icon.png) | 字段是应用可编辑性逻辑的目标字段。 当满足定义的条件时，该字段可以是可编辑的或只读的。 对于可编辑性逻辑，目标字段和参考字段可以相同。 |
+| 引用字段的![可编辑性逻辑](assets/editability-logic-reference-field.png) | 该字段是可编辑性逻辑的参考字段。 当此字段满足定义的条件时，逻辑将应用于目标字段。 对于可编辑性逻辑，目标字段和参考字段可以相同。 |
 
-<!-- ![Logic icons](assets/logic-icons-3.png) -->
+[逻辑图标](assets/custom-form-logic-icon-samples.png)
 
 对于仅显示和跳过逻辑，请选择一个字段以在字段设置中显示现有逻辑规则。
 
@@ -109,7 +107,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-><span class="preview">此过程描述显示逻辑的基本模式。 高级显示逻辑也可用。 有关详细信息，请参阅本文中的[将高级显示逻辑添加到自定义表单](#add-advanced-display-logic-to-a-custom-form)。</span>
+>此过程描述显示逻辑的基本模式。 高级显示逻辑也可用。 有关详细信息，请参阅本文中的[将高级显示逻辑添加到自定义表单](#add-advanced-display-logic-to-a-custom-form)。
 
 {{step-1-to-setup}}
 
@@ -120,7 +118,7 @@ ht-degree: 1%
 1. 选择逻辑生成器上的&#x200B;**显示**&#x200B;选项卡。
 1. 单击&#x200B;**添加显示规则**。
 
-   ![显示逻辑生成器](assets/simple-display-logic1-val-only-in-menu.png)
+   ![显示逻辑生成器](assets/simple-display-logic1.png)
 
 1. 执行以下步骤，在生成器中创建逻辑语句。
 
@@ -135,9 +133,7 @@ ht-degree: 1%
 
 1. 完成生成逻辑语句后，单击&#x200B;**应用**。
 
-   显示逻辑图标将添加到表单设计器的目标字段和定义字段中。
-
-<div class="preview">
+   应用逻辑，并将逻辑图标添加到表单设计器的目标字段和引用字段中。
 
 ## 向自定义表单添加高级显示逻辑
 
@@ -180,7 +176,7 @@ ht-degree: 1%
 1. 选择逻辑生成器上的&#x200B;**显示**&#x200B;选项卡。
 1. 打开&#x200B;**高级模式**。
 
-   对于不支持显示逻辑的简单模式的字段，此选项可能会自动启用。
+   对于不支持显示逻辑的简单模式的字段类型，此选项可能会自动启用。
 
    显示逻辑的![高级模式](assets/advanced-display-logic-blank-editor.png)
 
@@ -190,13 +186,11 @@ ht-degree: 1%
 
 1. 单击&#x200B;**应用**。
 
-   该逻辑将应用于字段，并且显示逻辑图标会添加到表单设计器中。
+   应用逻辑，并将逻辑图标添加到表单设计器的目标字段和引用字段中。
 
    >[!NOTE]
    >
    >表单设计器预览模式不支持高级显示逻辑。
-
-</div>
 
 ## 将跳过逻辑添加到自定义表单
 
@@ -211,7 +205,7 @@ ht-degree: 1%
 1. 选择逻辑生成器上的&#x200B;**跳过**&#x200B;选项卡。
 1. 单击&#x200B;**添加跳过规则**。
 
-   ![跳过逻辑生成器](assets/skip-logic1-val-only-in-menu.png)
+   ![跳过逻辑生成器](assets/skip-logic1.png)
 
 1. 执行以下步骤，在生成器中创建逻辑语句。
 
@@ -226,9 +220,7 @@ ht-degree: 1%
 
 1. 完成生成逻辑语句后，单击&#x200B;**应用**。
 
-   跳过逻辑图标会添加到表单设计器的目标字段和定义字段中。
-
-<div class="preview">
+   应用逻辑，并将逻辑图标添加到表单设计器的目标字段和引用字段中。
 
 ## 向自定义表单添加默认值逻辑
 
@@ -270,13 +262,11 @@ IF({status} = 'PLN', ARRAY({description}, ','))
 
 1. 单击&#x200B;**应用**。
 
-   该逻辑将应用于表单设计器中的字段。
+   应用逻辑，并将逻辑图标添加到表单设计器的目标字段和引用字段中。
 
    >[!NOTE]
    >
    >表单设计器预览模式不支持默认值逻辑。
-
-</div>
 
 ## 向自定义表单添加验证逻辑
 
@@ -313,7 +303,7 @@ IF({DE:Budget Field} < 0,
 1. 选择要应用逻辑的字段，然后单击&#x200B;**添加逻辑**。
 1. 选择逻辑生成器上的&#x200B;**验证**&#x200B;选项卡。
 
-   ![验证逻辑生成器](assets/validation-logic-blank-editor-val-only-in-menu.png)
+   ![验证逻辑生成器](assets/validation-logic-blank-editor.png)
 
 1. 在编辑器中构建验证条件，包括不符合验证条件时显示的错误消息。
 
@@ -321,13 +311,11 @@ IF({DE:Budget Field} < 0,
 
 1. 单击&#x200B;**应用**。
 
-   该逻辑将应用于表单设计器中的字段。
+   应用逻辑，并将逻辑图标添加到表单设计器的目标字段和引用字段中。
 
    >[!NOTE]
    >
    >表单设计器预览模式不支持验证逻辑。
-
-<div class="preview">
 
 ## 向自定义表单添加格式逻辑
 
@@ -386,15 +374,11 @@ IF(
 
 1. 单击&#x200B;**应用**。
 
-   该逻辑将应用于表单设计器中的字段。
+   应用逻辑，并将逻辑图标添加到表单设计器的目标字段和引用字段中。
 
    >[!NOTE]
    >
    >表单设计器预览模式不支持格式逻辑。
-
-</div>
-
-<div class="preview">
 
 ## 向自定义表单添加可编辑性逻辑
 
@@ -440,10 +424,8 @@ IF($$USER.{role}.{name}="Resource Manager", true)
 
 1. 单击&#x200B;**应用**。
 
-   该逻辑将应用于表单设计器中的字段。
+   应用逻辑，并将逻辑图标添加到表单设计器的目标字段和引用字段中。
 
    >[!NOTE]
    >
    >表单设计器预览模式不支持可编辑性逻辑。
-
-</div>

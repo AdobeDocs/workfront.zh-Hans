@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: cada5387ddfb710029d06cd38841ecb9c8a6484b
+source-git-commit: df1d844346d7ed26dcb004ba1a10ec9e8d07422a
 workflow-type: tm+mt
-source-wordcount: '1703'
+source-wordcount: '1219'
 ht-degree: 1%
 
 ---
@@ -21,13 +21,11 @@ ht-degree: 1%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-{{highlighted-preview}}
-
 >[!IMPORTANT]
 >
 >在25.11版本中，工作角色的覆盖货币已在“生产”中被弃用。 （10月30日，在“预览”环境中弃用。） 工作角色现在可以使用一种货币，而不是使用基本货币和覆盖货币，并且成本和记帐费率使用该货币来定义。
 
-作为[!DNL Adobe Workfront]管理员或对工作角色具有管理访问权限的用户，您可以创建可分配给用户的工作角色，并删除与您的组织无关的默认工作角色。 有关[!DNL Workfront]中管理访问权限的信息，请参阅[授予用户对特定区域的管理访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
+作为[!DNL Adobe Workfront]管理员或具有工作角色编辑权限的标准用户，您可以创建可分配给用户的工作角色，并删除与您的组织无关的默认工作角色。 有关[!DNL Workfront]中管理访问权限的信息，请参阅[授予用户对特定区域的管理访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
 
 >[!TIP]
 >
@@ -48,8 +46,8 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p>
-       <p>[!UICONTROL 计划]</p></td>
+   <td><p>[！UICONTROL标准版]</p>
+       <p>[！UICONTROL计划]</p></td>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
@@ -69,7 +67,7 @@ ht-degree: 1%
 {{step-1-to-setup}}
 
 1. 在左侧面板中，单击&#x200B;**[!UICONTROL 工作角色]**。
-1. 单击&#x200B;**[!UICONTROL 新建工作角色] <span class="preview">>创建新工作角色**。</span>
+1. 单击&#x200B;**[!UICONTROL 新建工作角色] >新建工作角色**。
 1. 在以下字段中输入信息：
 
    * **名称**：指示工作角色的名称。 该名称会显示Workfront中工作角色字段显示的所有位置。
@@ -83,45 +81,7 @@ ht-degree: 1%
 
      有关停用工作角色的信息，请参阅[停用工作角色](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)。
 
-   * **Currency**：默认显示基本货币。 Workfront管理员在“设置”区域添加基本货币。 您可以将所选内容更改为其他可用货币，也可以更改有效日期时间范围内的货币。
-
-     >[!TIP]
-     >
-     >此字段仅提供系统中汇率区域中可用的货币。 如果只设置一种货币，则只有该货币可用。
-
-     有关在Workfront中设置基础货币的信息，请参阅[设置汇率](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)。
-
-     有关更改项目货币的信息，请参阅[更改项目货币](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md)。
-
-   * **成本费率**：这是工作角色的每小时成本费率。 此值计算与角色相关的任务和问题的计划成本和实际成本，并最终计算项目的计划和实际成本。 使用选定币种输入汇率。
-
-     对于日期有效成本费率，请单击&#x200B;**添加费率**。 输入时间期的成本/小时值，并根据需要分配起始日期和终止日期。 第一个成本费率没有起始日期，最后一个成本费率没有终止日期。
-
-     某些日期会自动添加。 例如，如果第一个成本费率没有结束日期，并且您添加了一个起始日期为2025年5月1日的第二个成本费率，则结束日期为2025年4月30日的成本费率将添加到第一个成本费率中，这样就不会存在任何差距。
-
-     有关Workfront如何计算成本的信息，请参阅[跟踪成本](/help/quicksilver/manage-work/projects/project-finances/track-costs.md)。
-
-     >[!TIP]
-     >
-     >编辑现有工作角色时，您可以对列表进行排序，以在费率列表顶部查看最近的开始日期。
-
-   * **记帐费率**：这是工作角色的每小时记帐费率。 此值计算与角色相关的任务和问题的计划收入和实际收入，最终计算项目的计划收入和实际收入。 使用选定币种输入汇率。
-
-     对于日期有效记帐费率，请单击&#x200B;**添加费率**。 输入时间期的记帐/小时值，并根据需要分配起始日期和终止日期。 第一个记帐费率没有开始日期，最后一个记帐费率没有结束日期。
-
-     某些日期会自动添加。 例如，如果第一个记帐费率没有结束日期，而您添加第二个记帐费率的开始日期为2025年5月1日，则结束日期为2025年4月30日将添加到第一个记帐费率，这样就不会存在任何间隔。
-
-     有关Workfront如何计算收入的信息，请参阅[账单和收入概述](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md)。
-
-     >[!TIP]
-     >
-     >编辑现有工作角色时，您可以对列表进行排序，以在费率列表顶部查看最近的开始日期。
-
-<!-- Remove or hide the billing rate and cost rate bullets on April 16 for GA -->
-
 1. 单击&#x200B;**[!UICONTROL 创建工作角色]**。 工作角色现在可以分配给任务、问题、批准，或者您可以与其共享布局模板或其他对象。 有关[!DNL Workfront]中所有工作角色用途的信息，请参阅[工作角色概述](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md)。 有关删除工作角色的信息，请参阅[删除工作角色](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md)。
-
-<div class="preview">
 
 ## 将费率和属性添加到工作角色
 
@@ -176,7 +136,9 @@ ht-degree: 1%
 
    对于日期有效记帐费率，请单击&#x200B;**添加费率**。 输入时间期的记帐/小时值，并根据需要分配起始日期和终止日期。 第一个记帐费率没有开始日期，最后一个记帐费率没有结束日期。
 
-   某些日期会自动添加。 例如，如果第一个记帐费率没有结束日期，而您添加第二个记帐费率的开始日期为5月1日，则结束日期为4月30日将添加到第一个记帐费率，因此不存在间隔。
+   <!-- Some dates are added automatically. For example, if the first billing rate does not have an end date, and you add a second with a start date of May 1, an end date of April 30 is added to the first billing rate so that no gaps exist.-->
+
+   Workfront允许您在日期范围之间留下空白，但您将收到一则警告，确认这是有意为之。
 
    有关Workfront如何计算收入的信息，请参阅[账单和收入概述](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md)。
 
@@ -202,8 +164,6 @@ ht-degree: 1%
 
 1. 单击&#x200B;[!UICONTROL **保存**]。
 
-</div>
-
 <!--
    * **Override Currency Cost Rate**: This is the cost per hour rate of the job role using the selected Override Currency. Workfront uses this value to calculate the planned and the actual costs of tasks and issues associated with the job role.
 
@@ -224,6 +184,45 @@ ht-degree: 1%
      >[!TIP]
      >
      >When updating an existing job role that already has a billing rate associated with it, Workfront calculates the Override Currency rate based on the conversion rate in your system. If you update the Override Currency Billing Rate, the billing rate of the job role also updates automatically.
+
+-->
+
+
+<!--
+
+   * **Currency**: The Base Currency is shown by default. The Workfront administrator adds the Base Currency in the Setup area. You can change the selection to another available currency, and you can change the currency on effective dated time ranges.
+
+      >[!TIP]
+      >
+      >Only currencies available in the Exchange Rates area in your system are available in this field. If you only have one currency set up, only that currency is available.
+
+      For information about setting up the Base Currency in Workfront, see [Set up exchange rates](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+
+      For information about changing the currency of a project, see [Change the project currency](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md).
+   
+   * **Cost Rate**: This is the cost per hour rate of the job role. This value calculates the planned and the actual costs of tasks and issues associated with the role, and ultimately the planned and actual costs of the projects. Enter the rate using the selected currency.
+
+      For date effective cost rates, click **Add Rate**. Enter the value of the cost/hour for the time period, and assign a Start Date and End Date as needed. The first cost rate will not have a start date and the last cost rate will not have an end date.
+
+      Some dates are added automatically. For example, if the first cost rate does not have an end date, and you add a second cost rate with a start date of May 1, 2025, an end date of April 30, 2025 is added to the first cost rate so that no gaps exist.
+
+      For information about how Workfront calculates cost, see [Track costs](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
+
+      >[!TIP]
+      >
+      >When editing an existing job role, you can sort the list to see the most recent start date at the top of the rate list.
+
+   * **Billing Rate**: This is the billing per hour rate of the job role. This value calculates the planned and actual revenues of tasks and issues associated with the role, and ultimately the planned and actual revenues of the projects. Enter the rate using the selected currency.
+
+      For date effective billing rates, click **Add Rate**. Enter the value of the billing/hour for the time period, and assign a Start Date and End Date as needed. The first billing rate will not have a start date and the last billing rate will not have an end date.
+
+      Some dates are added automatically. For example, if the first billing rate does not have an end date, and you add a second with a start date of May 1, 2025, an end date of April 30, 2025 is added to the first billing rate so that no gaps exist.
+
+      For information about how Workfront calculates revenue, see [Overview of Billing and Revenue](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+      >[!TIP]
+      >
+      >When editing an existing job role, you can sort the list to see the most recent start date at the top of the rate list.
 
 -->
 

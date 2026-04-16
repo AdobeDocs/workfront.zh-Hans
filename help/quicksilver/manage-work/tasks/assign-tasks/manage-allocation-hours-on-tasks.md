@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '591'
 ht-degree: 4%
 
 ---
@@ -109,6 +109,10 @@ Take this piece out of the table above when we remove the new experience/ after 
 1. 确保任务的&#x200B;**持续时间类型**&#x200B;是&#x200B;**简单**。
 1. 修改每个任务被分派人的&#x200B;**分派工作**&#x200B;字段。 这些是整个任务持续时间内此任务的每个分配的总体分配。 这也可能更新任务的整体&#x200B;**计划小时数**。
 
+   您可能会看到这些屏幕之一，具体取决于您组织的Workfront或Workflow包。
+
    ![修改分配](assets/advanced-assignments-duration-type-allocations.png)
+
+   ![修改分配](assets/new-aa-allocation-by-hour.png)
 
 1. 单击&#x200B;**保存**。

@@ -6,7 +6,8 @@ title: 设置工作角色以进行计费
 description: 通过Workfront，您可以按不同于主要工作角色的工作角色对用户计费。 当某人临时执行应按不同费率计费的工作时，这将很有用。
 author: Lisa
 feature: Work Management
-source-git-commit: d92908d358ca53ae9d443fd76556e3e8b273e3cb
+exl-id: d6e2947d-2f40-4591-b048-9a769caadf43
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 3%
@@ -14,8 +15,6 @@ ht-degree: 3%
 ---
 
 # 设置工作角色以进行计费
-
-{{highlighted-preview-article-level}}
 
 通过Workfront，您可以按不同于主要工作角色的工作角色对用户计费。 当某人临时执行应按不同费率计费的工作时，这将很有用。
 
@@ -116,7 +115,7 @@ John的主要工作角色是Designer 1。 这个项目需要一位资深Designer
 
    >[!NOTE]
    >
-   >如果在项目层分配了开单的工作角色，它将显示在分配中。 您可以单击&#x200B;**工作角色以计费**&#x200B;字段并选择另一个工作角色用于分配。
+   >如果在项目层分配了开单的工作角色，它将显示在分配中。 您可以单击&#x200B;**工作角色以计费**字段并选择另一个工作角色用于分配。
    >信息图标将通知您在项目层还是分配层定义了开单的工作角色。
 
    ![工作角色以针对分配计费](assets/jrfb-assignment-level.png)

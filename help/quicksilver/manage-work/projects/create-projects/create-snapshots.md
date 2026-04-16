@@ -5,9 +5,8 @@ title: 创建和查看项目快照
 description: Adobe Workfront中的快照让您能够查看快照（在特定日期和时间拍摄的）与项目的当前数据之间的差异。
 author: Lisa
 feature: Work Management
-hidefromtoc: true
-hide: true
-source-git-commit: 6ccb4669a973a8f855120e83de7c0d437c9495a4
+exl-id: 9ff84f9a-46bd-46e8-a58d-7dafbc333507
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '1278'
 ht-degree: 2%
@@ -15,8 +14,6 @@ ht-degree: 2%
 ---
 
 # 创建和查看项目快照
-
-{{highlighted-preview-article-level}}
 
 项目经理通常需要将项目的过去数据与当前状态进行比较，以做出明智的决策，并查看其项目随时间的变化。
 
@@ -212,4 +209,3 @@ ht-degree: 2%
 1. （可选）筛选列表。 有关详细信息，请参阅列表[中的](#filter-items-in-a-list)筛选项。
 
 对视图的更改会自动保存。 下次应用此视图时，列和筛选器设置将保持其设置方式。 有关视图的详细信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
-

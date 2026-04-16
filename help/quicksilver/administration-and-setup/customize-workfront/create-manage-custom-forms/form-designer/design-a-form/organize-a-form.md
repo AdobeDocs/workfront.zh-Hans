@@ -10,16 +10,14 @@ role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1351'
 ht-degree: 2%
 
 ---
 
 # 组织和预览表单
-
-{{preview-fast-release-general}}
 
 您可以使用表单设计器组织自定义表单，并预览该表单以验证设置是否正确。
 
@@ -85,8 +83,8 @@ ht-degree: 2%
       <td role="rowheader">描述</td> 
       <td>如果要向用户说明此部分的用途，请键入文本。 这会显示在自定义表单上部分的标签下方。</td> 
      </tr> 
-      <td><span class="preview">默认情况下已折叠</span></td>
-      <td><span class="preview">默认情况下，当窗体本身展开时，自定义窗体上的所有部分都会展开。 选择此选项可在用户打开表单时默认折叠部分。</span></td>
+      <td>默认情况下已折叠</td>
+      <td>默认情况下，当窗体本身展开时，自定义窗体上的所有部分都会展开。 选择此选项可在用户打开表单时默认折叠部分。</td>
      <tr>
      </tr>
      <tr> 
@@ -120,7 +118,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader"><p>添加逻辑</p></td> 
-      <td><p>根据用户在填写表单时在多选自定义字段中做出的选择，使用显示逻辑指定是否在表单上显示部分。</p><p><strong>注意：</strong>如果分区界限下的所有单个字段都应用了显示逻辑，并且它们都因该逻辑而隐藏，则整个分区将在自定义表单上隐藏。 即使未将显示逻辑应用于分区界限，也会发生这种情况。</p><p>有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">使用表单设计器添加显示逻辑和跳过逻辑</a>。</p></td> 
+      <td><p>根据用户在填写表单时在多选自定义字段中做出的选择，使用显示逻辑指定是否在表单上显示部分。</p><p><strong>注意：</strong>如果分区界限下的所有单个字段都应用了显示逻辑，并且它们都因该逻辑而隐藏，则整个分区将在自定义表单上隐藏。 即使未将显示逻辑应用于分区界限，也会发生这种情况。</p><p>有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">将逻辑规则添加到自定义表单和字段</a>。</p></td> 
      </tr> 
     </tbody> 
    </table>

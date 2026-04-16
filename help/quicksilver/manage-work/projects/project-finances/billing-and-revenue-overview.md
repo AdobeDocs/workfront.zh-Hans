@@ -9,9 +9,9 @@ feature: Work Management
 exl-id: 400abcde-e368-4a70-89a9-05027900ab81
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
-source-wordcount: '4542'
+source-wordcount: '4540'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,6 @@ ht-degree: 0%
 # 开单和收入概览
 
 <!-- Audited: 1/2024 -->
-
-{{highlighted-preview}}
 
 作为项目经理，您可以使用记帐费率来获取项目收入。
 
@@ -83,7 +81,7 @@ ht-degree: 0%
 
 有关创建工作角色的更多信息，请参阅文章[创建和管理工作角色](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)。
 
-![编辑工作角色成本和记帐费率](assets/edit-job-role-multiple-billing-rates-new.png)
+![编辑工作角色记帐费率](assets/edit-job-role-multiple-billing-rates-040826.png)
 
 ### 项目或任务的固定记帐费率 {#fixed-billing-rates-for-projects-or-tasks}
 
@@ -93,8 +91,6 @@ ht-degree: 0%
 * 固定收入收入类型的固定金额
 
 有关如何使用固定记帐费率计算收入的更多信息，请参阅[任务收入类型概览](#overview-of-task-revenue-types)。
-
-<div class="preview">
 
 ### 覆盖记帐费率 — 工作流Ultimate包
 
@@ -108,8 +104,6 @@ ht-degree: 0%
 * 覆盖该项目上特定用户的记帐费率。
 
 记帐费率覆盖不是通用的。 例如，您不会将“Designer”作为角色覆盖。 相反，您会在相关生效日期期间覆盖“Designer — 纽约 — 代理商X”。 改写遵循开单费率层次结构，因此系统始终按优先顺序应用它们。
-
-</div>
 
 ### 覆盖记帐费率 — 所有其他包
 
@@ -192,7 +186,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-><span class="preview">您必须具有工作流Ultimate程序包才能使用用户和角色每小时收入类型。</span>
+>您必须具有工作流Ultimate包，才能使用用户和角色每小时收入类型
 
 您可以将以下收入类型应用于您的任务或项目：
 
@@ -223,8 +217,8 @@ ht-degree: 0%
    <td> <p>此类型只能用于任务。</p> <p>此类型类似于每小时用户数，但使用工作角色费率而不是用户费率。</p> <p><strong>注意</strong><br>工作角色也可以有多个具有有效日期的记帐费率。</p></td> 
   </tr> 
   <tr> 
-   <td> <p><span class="preview">用户和角色按小时计</span></p> </td> 
-   <td> <p><span class="preview">此类型只能用于任务。</span></p> <p><span class="preview">此类型会检查用户和角色信息，以确定适当的比率。</span></p></td> 
+   <td> <p>用户和角色按小时计</p> </td> 
+   <td> <p>此类型只能用于任务。</p> <p>此类型会检查用户和角色信息，以确定适当的比率。</p></td> 
   </tr>
   <tr> 
    <td> <p>受限用户小时</p> </td> 
@@ -235,8 +229,8 @@ ht-degree: 0%
    <td> <p>此类型只能用于任务。</p> <p>此类型类似于具有Cap的“每小时用户”，但使用工作角色费率而不是用户费率。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="preview">受限用户每小时和角色</span></p> </td> 
-   <td> <p><span class="preview">此类型只能用于任务。</span></p> <p><span class="preview">任务按照用户和角色每小时计费，但它们具有您可以指定的上限金额。</span></p></td> 
+   <td> <p>受限用户每小时和角色</p> </td> 
+   <td> <p>此类型只能用于任务。</p> <p>任务按照用户和角色每小时计费，但它们具有您可以指定的上限金额。</p></td> 
   </tr>
   <tr> 
    <td> <p>用户小时加固定</p> </td> 
@@ -247,8 +241,8 @@ ht-degree: 0%
    <td> <p>此类型只能用于任务。 </p> <p>任务按照角色每小时计费一次，但有一个附加的固定金额，您可以将其添加至角色费率。 在任务上指定的固定金额可以包含在项目的记帐记录中。 固定数量不会乘以任务的小时数。 只有工作角色记帐费率有效。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="preview">用户和角色按小时计加固定费用</span></p> </td> 
-   <td> <p><span class="preview">此类型只能用于任务。</span></p> <p><span class="preview">任务按照用户和角色每小时计费，但具有额外的固定金额，您可以将其添加至费率。 在任务上指定的固定金额可以包含在项目的记帐记录中。 固定数量不会乘以任务的小时数。</span></p></td> 
+   <td> <p>用户和角色按小时计加固定费用</p> </td> 
+   <td> <p>此类型只能用于任务。</p> <p>任务按照用户和角色每小时计费，但具有额外的固定金额，您可以将其添加至费率。 在任务上指定的固定金额可以包含在项目的记帐记录中。 固定数量不会乘以任务的小时数。</p></td> 
   </tr>
   <tr> 
    <td> <p>固定每小时</p> </td> 
@@ -295,13 +289,9 @@ ht-degree: 0%
 
 如果您的Workfront管理员在时间表和小时首选项区域中启用了&#x200B;**手动将工作角色分配给小时条目**&#x200B;设置，并且项目的用户日志记录时间选择了其他要与此时间关联的角色，则任务或项目的实际收入始终根据与小时条目关联的角色进行计算。 有关为特定工作角色启用日志记录时间的信息，请参阅文章[配置时间表和小时首选项](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。
 
-<div class="preview">
-
 对于“用户”和“角色每小时”收入类型，可以在项目层和分配层定义开单的工作角色。 如果在项目级别为特定用户定义了该角色，则该角色会在您应用该角色的日期有效期间自动传播到该用户的所有分配。 如果需要，您仍然可以在分配层改写此费率。 例如，用户的主要工作角色是Designer，但您将其在项目上的工作角色设置为八月份的高级Designer 。 在8月分配的所有任务都将自动使用高级Designer计费率。
 
 但是，对于特定任务，您可以仅覆盖该分配的角色，以反映正在计费的工作。 这样，系统既支持项目范围的一致性，又支持任务级灵活性。 有关详细信息，请参阅[收入和成本层次结构概览](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)和[创建高级分配](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md)。
-
-</div>
 
 根据收入类型和任务分配的性质计算任务收入时，存在以下方案：
 
@@ -372,16 +362,12 @@ ht-degree: 0%
    </tbody> 
   </table>
 
-<div class="preview">
-
 * **任务的收入类型为每小时用户和角色**
 
 | 记帐/小时费率 | 无分配 | 用户分配 | 工作角色分配 |
 | --- | --- | --- | --- |
 | 计划收入的每小时记帐费率 | 0.00美元 | 分配用户后，系统会按指定顺序查找费率，从保留的计费费率开始。 接下来是锁定费率卡费率、人工输入的分配费率、工作角色计费分配、项目层用户计费费率覆盖、工作角色计费项目、用户系统费率和用户的主要工作角色费率。 <p> 有关详细信息，请参阅[收入和成本层次结构概览](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)。 | 在分配工作角色时，系统首先查找保留的计费费率，然后查找分配上工作角色的锁定费率卡费率。 接下来，它会查找在分配中手动添加的工作角色费率。 如果未找到该费率，则会在项目级别查找工作角色费率，首先从费率卡中查找，然后从系统费率中查找。 <p> 有关详细信息，请参阅[收入和成本层次结构概览](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)。 |
 | 实际收入的每小时记帐费率 | 计算时只考虑与记录时间的用户关联的费率，即使将另一个用户分配给任务也是如此。 <p> 系统按指定顺序查找费率，从保留的计费费率开始。 接下来是锁定费率卡费率、项目的记帐费率覆盖、记帐的工作角色、所有者用户配置文件上的系统级别费率，以及所有者主要工作角色的记帐费率。 <p> 有关详细信息，请参阅[收入和成本层次结构概览](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)。 | 分配用户后，系统会按指定顺序查找费率，从保留的计费费率开始。 接下来是锁定费率卡费率、人工输入的分配费率、工作角色计费分配、项目层用户计费费率覆盖、工作角色计费项目、用户系统费率和用户的主要工作角色费率。 <p> 有关详细信息，请参阅[收入和成本层次结构概览](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)。 | 在分配工作角色时，系统首先查找保留的计费费率，然后查找分配上工作角色的锁定费率卡费率。 接下来，它会查找在分配中手动添加的工作角色费率。 如果未找到该费率，则会在项目级别查找工作角色费率，首先从费率卡中查找，然后从系统费率中查找。 有关详细信息，请参阅[收入和成本层次结构概览](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)。 |
-
-</div>
 
 ### 项目的收入计算
 

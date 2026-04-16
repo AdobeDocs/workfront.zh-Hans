@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 0%
+source-wordcount: '446'
+ht-degree: 4%
 
 ---
 
@@ -19,17 +19,17 @@ ht-degree: 0%
 
 您可以使用表单设计器从现有自定义表单中添加或删除对象类型。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td>Adobe Workfront 包</td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
@@ -57,7 +57,6 @@ ht-degree: 0%
 >
 >有关详细信息，请参阅[多个对象类型如何影响分区符权限](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md#how-multiple-object-types-can-affect-section-break-permissions)。
 
-
 {{step-1-to-setup}}
 
 1. 单击左侧面板中的&#x200B;**自定义Forms**。
@@ -66,9 +65,9 @@ ht-degree: 0%
 
 1. 选择要向其添加其他对象类型的自定义表单，然后单击![编辑图标](assets/edit-icon2.png)。
 
-1. 在表单顶部，单击&#x200B;**对象类型**&#x200B;后面的加号+，然后在显示的菜单中选择所需的类型。 您可以重复此操作，以添加所需数量的对象类型。
+1. 单击表单顶部的&#x200B;**对象类型**，然后在显示的菜单中选择要添加的类型。 您可以重复此操作，以添加所需数量的对象类型。
 
-   ![添加新对象](assets/add-new-object.png)
+   ![添加新对象](assets/add-new-object-to-custom-form-041026.png)
 
 1. 单击&#x200B;**保存并关闭**。
 
@@ -92,9 +91,5 @@ ht-degree: 0%
 
 1. 单击左侧面板中的&#x200B;**自定义Forms**。
 1. 选择要编辑的自定义表单，然后单击![编辑图标](assets/edit-icon2.png)。
-1. 单击要从表单中删除的任何&#x200B;**对象类型**&#x200B;上的X。
-
-   ![删除对象类型](assets/delete-object-types.png)
-
-1. （可选）对要从表单中删除的任何其他对象类型重复上一步骤。
+1. 单击表单顶部的&#x200B;**对象类型**，然后清除要从表单中删除的对象复选框。
 1. 单击&#x200B;**应用**，然后单击&#x200B;**保存并关闭**。

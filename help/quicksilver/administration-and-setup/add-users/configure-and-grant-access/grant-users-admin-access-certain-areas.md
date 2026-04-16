@@ -5,18 +5,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
-source-git-commit: cada5387ddfb710029d06cd38841ecb9c8a6484b
+source-git-commit: 85399542ce8e92de6da5a1de0960194e72958987
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 4%
+source-wordcount: '686'
+ht-degree: 5%
 
 ---
 
 # 授予用户对特定区域的管理访问权限
 
 <!--Linked in several places, do not rename or change URL.-->
-
-{{highlighted-preview}}
 
 作为Adobe Workfront管理员，您可以使用访问级别授予具有“标准”或“计划”许可证的用户对系统的某些区域的管理访问权限。
 
@@ -95,17 +93,7 @@ ht-degree: 4%
         <li>他们自己的费用</li>
         <li>他们下属的开支</li>
        </ul></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">工作角色</td> 
-      <td> <p><span class="preview"><b>注意</b>：在“预览”环境中，对工作角色的访问作为访问级别中的对象类型进行控制。 请参阅<a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-job-roles.md">向工作角色授予访问权限</a>。</span></p>
-      <p>凭借此访问权限，用户可以执行以下操作：</p> 
-       <ul> 
-        <li>查看和编辑现有工作角色</li> 
-        <li>添加新工作角色</li> 
-        <li>编辑角色计费和成本率</li> 
-       </ul> <p><b>重要信息</b>：如果您向“标准”或“计划”用户授予对工作角色的管理访问权限，则将自动为用户启用“编辑角色帐单和成本费率”财务数据访问设置。 稍后，如果您禁用标准或计划用户对工作角色的管理访问权限，则用户仍可看到工作角色，因为编辑角色计费和成本费率设置仍处于启用状态。 如果发生这种情况，并且您需要删除用户查看工作角色的访问权限，则需要禁用用户的“编辑角色计费和成本费率”权限设置。 有关说明，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">授予对财务数据的访问权限</a>。</p> </td> 
-     </tr> 
+     </tr>
      <tr> 
       <td role="rowheader">我的组中的里程碑</td> 
       <td>在“设置”中的“里程碑路径”菜单下查看系统中的所有里程碑路径。 用户还可以编辑或删除属于其任何组的任何里程碑路径。 用户无法管理（编辑或删除）未分配给其任何组的里程碑路径。<br><p>如果没有此访问权限，用户只能查看现有的里程碑路径，并将它们应用于他们有权管理的项目。</p></td> 
@@ -133,3 +121,17 @@ ht-degree: 4%
    >[!NOTE]
    >
    >您可以允许用户具有管理访问权限。 有关授予用户管理权限以便他们能够管理用户帐户的更多信息，请参阅[授予用户访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)。
+
+
+<!--     
+     <tr> 
+      <td role="rowheader">Job roles</td> 
+      <td> <p><b>NOTE</b>: In the Preview environment, access to job roles is controlled as an object type in the access level. See <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-job-roles.md">Grant access to job roles</a>.</p>
+      <p>With this access, the user is allowed to do the following:</p> 
+       <ul> 
+        <li>View and edit existing job roles</li> 
+        <li>Add new job roles</li> 
+        <li>Edit role billing and cost rates</li> 
+       </ul> <p><b>IMPORTANT</b>: If you grant a Standard or Plan user administrative access to job roles, the Financial Data access setting Edit Role Billing &amp; Cost Rates is enabled for the user automatically. Later, if you disable administrative access to job roles for the Standard or Plan user, job roles are still visible to the user because the Edit Role Billing &amp; Cost Rates setting is still enabled. If this happens and you need to remove the user's access to view job roles, you need to disable the user's Edit Role Billing &amp; Cost Rates permission setting. For instructions, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Grant access to financial data</a>.</p> </td> 
+     </tr>
+-->

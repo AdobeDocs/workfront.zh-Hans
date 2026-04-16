@@ -9,7 +9,7 @@ role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '4076'
 ht-degree: 4%
@@ -17,8 +17,6 @@ ht-degree: 4%
 ---
 
 # 编辑任务
-
-{{highlighted-preview}}
 
 <!--Audited: 10/2025-->
 
@@ -582,7 +580,7 @@ Old:
         <li> <p>固定每小时 </p> </li> 
         <li> <p> 用户每小时 </p> </li> 
         <li> <p> 角色每小时</p> </li> 
-        <li> <p> <span class="preview">用户和角色每小时</span></p> </li> 
+        <li> <p> 用户和角色按小时计</p> </li> 
        </ul> <p>有关跟踪成本的更多信息，请参阅<a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">跟踪成本</a> 。 您的Workfront管理员或组管理员为您的系统或组中的任务选择默认成本类型设置。 有关设置项目默认设置的信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">配置系统范围的项目首选项</a> 。</p> </td> 
      </tr> 
      <tr> 
@@ -592,25 +590,25 @@ Old:
       <li> <p> 不可计费 </p> </li> 
       <li> <p>用户每小时 </p> </li> 
       <li> <p>角色每小时 </p> </li> 
-      <li> <p> <span class="preview">用户和角色每小时</span></p> </li> 
+      <li> <p>用户和角色按小时计</p> </li> 
       <li> <p>固定每小时 </p> </li> 
       <li> <p>受限用户小时 </p> </li> 
       <li> <p>受限角色小时 </p> </li> 
-      <li> <p> <span class="preview">用户和角色小时，受限时间</span></p> </li> 
+      <li> <p>受限的用户和角色小时</p> </li> 
       <li> <p>用户小时加固定 </p> </li> 
       <li> <p>角色小时加固定 </p> </li> 
-      <li> <p> <span class="preview">用户和角色小时加固定</span></p> </li> 
+      <li> <p>用户和角色按小时计加固定费用</p> </li> 
       <li> <p>固定收入 </p> </li> 
        </ul> <p>有关跟踪收入的更多信息，请参阅<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">账单和收入概览</a>和<a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">收入和成本层次结构概览</a>。 </p> <p>您的Workfront管理员或组管理员为您的系统或组中的任务选择默认收入类型设置。 有关设置项目默认设置的信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">配置系统范围的项目首选项</a>。</p> </td> 
      </tr> 
      <tr>
-      <td><span class="preview">加班比率</span></td> 
-      <td><span class="preview"><p>输入任务的超时乘数，例如1.5或2.0。默认值为1.0（无乘数）。 有关详细信息，请参阅<a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md">定义加班率</a>。</p><p>要查看“超时比率”字段，请执行以下操作：</p>
+      <td>加班比率</td> 
+      <td><p>输入任务的超时乘数，例如1.5或2.0。默认值为1.0（无乘数）。 有关详细信息，请参阅<a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md">定义加班率</a>。</p><p>要查看“超时比率”字段，请执行以下操作：</p>
        <ul>
        <li>任务的收入类型必须是每小时用户和角色。 有关详细信息，请参阅<a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">收入和成本层次结构概览</a>。</li>
        <li>对于任务详细信息视图中的财务区域，必须在布局模板中启用该字段。 有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md">使用布局模板自定义详细信息视图</a>。</li>
        </ul>
-      </span></td>
+      </td>
      </tr>
     </tbody> 
    </table>

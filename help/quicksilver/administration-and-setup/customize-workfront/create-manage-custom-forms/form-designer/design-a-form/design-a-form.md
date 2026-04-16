@@ -10,9 +10,9 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
+source-git-commit: 15592c8dee4bae503382205b38b5daaef5cc74dd
 workflow-type: tm+mt
-source-wordcount: '7426'
+source-wordcount: '7329'
 ht-degree: 6%
 
 ---
@@ -63,17 +63,7 @@ ht-degree: 6%
 1. 单击&#x200B;**新建自定义表单。**
 1. 选择要将自定义表单附加到的对象类型，然后单击&#x200B;**继续**。
 
-<div class="preview">
-
-“预览”环境中的示例图像：
-
-![选择对象类型](assets/new-custom-form-select-objects-032526.png)
-
-</div>
-
-生产环境中的示例图像：
-
-![选择对象类型](assets/new-custom-form-select-objects.png)
+   ![选择对象类型](assets/new-custom-form-select-objects-032526.png)
 
 +++ 展开以查看支持自定义表单的对象列表。
 
@@ -89,9 +79,7 @@ ht-degree: 6%
 * 开发周期
 * 账单记录
 * 组
-* <span class="preview">团队</span>
-
-<div class="preview">
+* 团队
 
 如果您在Workflow Ultimate包中，则还可以为这些对象创建自定义表单：
 
@@ -99,15 +87,10 @@ ht-degree: 6%
 * 费率卡
 * 任务
 
-</div>
-
 +++
 
 1. 在&#x200B;**添加表单名称**&#x200B;区域，键入自定义表单标题。
-1. <span class="preview">（可选）如果要向表单添加更多对象类型，以便可以将其附加到更多对象，请单击表单设计器标题中的&#x200B;**对象类型**。 选择要添加的对象类型，并取消选择要从表单中删除的任何对象类型。</span>
-1. （可选）如果要向表单中添加更多对象类型，以便可以将其附加到更多对象，请单击&#x200B;**对象类型**&#x200B;旁边的![添加](assets/add-objects-icon.png)图标&#x200B;**添加对象图标**，然后在显示的菜单中选择所需的类型。 您可以重复此操作，以添加所需数量的对象类型。
-
-   将多个对象添加到表单后，可以单击对象类型上的X将其从表单中删除。
+1. （可选）如果要向表单添加更多对象类型，以便将其附加到更多对象，请单击表单设计器标题中的&#x200B;**对象类型**。 选择要添加的对象类型，然后取消选择要从表单中删除的任何对象类型。
 
    >[!CAUTION]
    >
@@ -301,8 +284,8 @@ ht-degree: 6%
     </ul></td>
     </tr>
     <tr>
-      <td><span class="preview">财务权限类型</span></td>
-      <td><p><span class="preview">选择用户查看或编辑此自定义字段之前必须具有的财务权限类型。 必须选择货币格式。</span></p>
+      <td>财务权限类型</td>
+      <td><p>选择用户查看或编辑此自定义字段之前必须具有的财务权限类型。 必须选择货币格式。</p>
       <ul>
       <li><p><strong>不需要权限：</strong>所有用户都可以看到此字段</p></li>
       <li><p><strong>常规：</strong>用户必须具有编辑或查看常规财务的权限</p></li>
@@ -457,8 +440,8 @@ ht-degree: 6%
     </ul></td>
     </tr> 
     <tr>
-      <td><span class="preview">财务权限类型</span></td>
-      <td><p><span class="preview">选择用户查看或编辑此自定义字段之前必须具有的财务权限类型。 必须选择货币格式。</span></p>
+      <td>财务权限类型</td>
+      <td><p>选择用户查看或编辑此自定义字段之前必须具有的财务权限类型。 必须选择货币格式。</p>
       <ul>
       <li><p><strong>不需要权限：</strong>所有用户都可以看到此字段</p></li>
       <li><p><strong>常规：</strong>用户必须具有编辑或查看常规财务的权限</p></li>
@@ -721,8 +704,8 @@ ht-degree: 6%
       </ul></td>
      </tr> 
      <tr>
-      <td><span class="preview">财务权限类型</span></td>
-      <td><p><span class="preview">选择用户查看或编辑此自定义字段之前必须具有的财务权限类型。 必须选择货币格式。</span></p>
+      <td>财务权限类型</td>
+      <td><p>选择用户查看或编辑此自定义字段之前必须具有的财务权限类型。 必须选择货币格式。</p>
       <ul>
       <li><p><strong>不需要权限：</strong>所有用户都可以看到此字段</p></li>
       <li><p><strong>常规：</strong>用户必须具有编辑或查看常规财务的权限</p></li>
@@ -753,12 +736,12 @@ ht-degree: 6%
       <td role="rowheader">JSON 路径</td>
       <td><p>键入或粘贴API的JSON路径。</p> <p>此选项允许从API URL返回的JSON中提取数据。 它提供了一种方法，用于选择在JSON内的哪些值将显示在下拉选项中。</p><p>例如，如果API URL按以下格式返回JSON，则可以使用“$.data[*].name”选择“美国”和“加拿大”作为下拉选项：</br>
       <pre>
-      &lbrace;
-       数据： &lbrace;
+      {
+       数据： {
          { name： "USA"}，
          { name： "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>有关JSON路径并确保编写正确JSON路径的更多信息，请参阅<a href="https://jsonpath.com/">https://jsonpath.com/</a>。</p></td>

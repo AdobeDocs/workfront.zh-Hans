@@ -8,7 +8,7 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: b16523bf6c37747702efe3b5ecfcc33801526af1
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 4%
@@ -20,8 +20,6 @@ ht-degree: 4%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">*** DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
-
-{{highlighted-preview}}
 
 作为Adobe Workfront管理员，您可以在Workfront中设置货币汇率。 这包括以下内容：
 
@@ -93,8 +91,6 @@ ht-degree: 4%
 
 1. （可选）要删除货币，请选中货币名称旁边的复选框，然后在屏幕底部的操作栏中选择&#x200B;**删除**。 不能删除默认货币。
 
-<div class="preview">
-
 ## 设置货币汇率的有效日期
 
 配置货币汇率的有效日期，以便汇率值在特定日期结束，而另一个汇率开始。 然后，在财务计算中使用正确日期的汇率。
@@ -116,8 +112,6 @@ ht-degree: 4%
 1. 键入新的&#x200B;**汇率**&#x200B;值。
 1. （可选）单击&#x200B;**添加日期有效汇率**&#x200B;以添加更多包含此货币有效日期的汇率。
 1. 单击&#x200B;**保存**。
-
-</div>
 
 ## 允许用户修改项目的默认货币
 

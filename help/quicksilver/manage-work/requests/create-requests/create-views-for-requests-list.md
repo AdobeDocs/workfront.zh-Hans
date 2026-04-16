@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 59a9725e7697a81be2a827a902ee3d23085a2ecd
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '663'
 ht-degree: 3%
 
 ---
@@ -18,13 +18,15 @@ ht-degree: 3%
 
 # 在请求区域创建和管理视图
 
-<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-如果您在Adobe Workfront中使用新的请求体验，则可以创建和保存请求区域的视图。 这些视图包括筛选器、列安排<span class="preview">和分组。</span>
+-->
 
+如果您在Adobe Workfront中使用新的请求体验，则可以创建和保存请求区域的视图。 这些视图包括筛选器、列排列和分组。
 
 >[!IMPORTANT]
 >
@@ -71,13 +73,7 @@ ht-degree: 3%
 
 +++
 
-<div class="preview">
-
 ## 请求的系统视图
-
->[!NOTE]
->
->系统视图可能在“预览”环境中不可用。 它们将于2026年4月16日在生产环境中向所有客户提供。
 
 除了您可以自己创建的视图之外，Workfront还在主页为请求区域以及我的请求小组件提供以下系统视图：
 
@@ -88,8 +84,6 @@ ht-degree: 3%
 * **打开请求**：您或其他人在队列中提交的请求，或者您有权查看的工作区仍在打开的请求。 这对“我的请求”小组件不可用。
 
 不能编辑系统视图。 您可以修改其元素，然后复制视图并编辑或共享副本。
-
-</div>
 
 ## 创建请求视图
 
@@ -128,14 +122,9 @@ ht-degree: 3%
 * 名称
 * 过滤器
 * 列
-
-<div class="preview">
-
 * 分组
 * 设置单元格的格式
 * 行高
-
-</div>
 
 有关详细信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
 
@@ -191,7 +180,7 @@ hide these details - all the information is in "Use enhanced lists" - we need on
 >[!IMPORTANT]
 >
 > * 对视图的更改会自动保存。
-> * 只有当您在对视图<span class="preview">进行更改后共享该视图的新副本时，使用该视图的任何人都可以看到对视图的更改。</span>
+> * 只有在对视图进行更改后共享该视图的新副本时，使用该视图的任何人都可以看到对视图的更改。
 > * 在任何以用户作为值的字段中使用&#x200B;**Me（已登录的用户）**&#x200B;筛选器通配符。
 
 ## 将请求视图添加到布局模板
@@ -206,9 +195,9 @@ Workfront管理员可以为请求区域的布局模板添加新视图。
 
 共享视图后，其他用户可以在共享视图之前查看您为该视图编辑的更新视图元素。
 
-<span class="preview">如果他们更新视图，其他人将无法看到他们的更改，除非他们制作同一视图的副本并在共享副本之前保留其更改。
+如果他们更新视图，则其他人将无法看到他们的更改，除非他们制作同一视图的副本并在共享副本之前保留其更改。
 
-有关详细信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。</span>
+有关详细信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
 
 <!--
 Let's just redirect to Use enhanced lists so we avoid duplicating information. 

@@ -8,16 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: dbe12b780491212105ee62058aec7e708d207e1f
+source-git-commit: df1d844346d7ed26dcb004ba1a10ec9e8d07422a
 workflow-type: tm+mt
-source-wordcount: '3466'
+source-wordcount: '3417'
 ht-degree: 0%
 
 ---
 
 # 编辑用户配置文件
-
-{{highlighted-preview}}
 
 <!--
 
@@ -25,7 +23,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/cn/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -319,15 +317,19 @@ ht-degree: 0%
 
   对于日期有效成本费率，请单击&#x200B;**添加费率**。 输入时间期的成本费率值，并根据需要分配起始日期和终止日期。 成本费率1没有起始日期，最后一个成本费率没有终止日期。
 
-  某些日期会自动添加。 例如，如果成本费率1没有终止日期，并且您添加了“成本费率2”起始日期为2023年5月1日，则终止日期为2023年4月30日，这样成本费率1就不会出现任何差距。
+  <!--Some dates are added automatically. For example, if Cost Rate 1 does not have an end date, and you add Cost Rate 2 with a start date of May 1, 2023, an end date of April 30, 2023 is added to Cost Rate 1 so that no gaps exist.-->
 
-* <span class="preview">**允许成本费率覆盖**：启用此选项以允许项目上此用户的成本费率覆盖。 有关详细信息，请参阅[覆盖项目级别](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md)的用户成本费率。</span>
+  Workfront允许您在日期范围之间留下空白，但您将收到一则警告，确认这是有意为之。
+
+* **允许成本费率覆盖**：启用此选项以允许项目上此用户的成本费率覆盖。 有关详细信息，请参阅[覆盖项目级别](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md)的用户成本费率。
 
 * **记帐费率**：用户每小时的记帐金额。
 
   对于日期有效记帐费率，请单击&#x200B;**添加费率**。 输入时间期的开单费率值，并根据需要分配起始日期和终止日期。 记帐费率1没有开始日期，最后一个记帐费率没有结束日期。
 
-  某些日期会自动添加。 例如，如果记帐费率1没有结束日期，而您添加了一个开始日期为2023年5月1日的秒数，则结束日期为2023年4月30日的秒数将添加到记帐费率1，因此不存在间隔。
+  <!--Some dates are added automatically. For example, if Billing Rate 1 does not have an end date, and you add a second with a start date of May 1, 2023, an end date of April 30, 2023 is added to Billing Rate 1 so that no gaps exist.-->
+
+  Workfront允许您在日期范围之间留下空白，但您将收到一则警告，确认这是有意为之。
 
   ![用户成本和记帐费率](assets/user-cost-billing-rates-2025.png)
 
@@ -340,8 +342,6 @@ ht-degree: 0%
 >高级自定义表单功能（如外部查找字段和Workfront本地字段）仅在您于详细信息页面（而非“编辑用户”对话框）中打开用户记录时可用。 （在用户列表中，单击用户名以打开详细信息。）
 
 有关创建自定义表单的信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
-
-<div class="preview">
 
 ### 属性
 
@@ -360,8 +360,6 @@ ht-degree: 0%
       将自动添加下一组的&#x200B;**开始日期**。
 
    1. 为下一个属性集添加属性值。 这些值在开始日期生效。
-
-</div>
 
 ### 注释
 

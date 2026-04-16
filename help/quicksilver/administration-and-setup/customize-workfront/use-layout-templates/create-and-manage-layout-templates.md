@@ -11,7 +11,7 @@ role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 5%
@@ -26,8 +26,6 @@ ht-degree: 5%
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-{{highlighted-preview}}
-
 作为Adobe Workfront管理员或组管理员，您可以创建和修改布局模板，以在Workfront中为您的用户自定义以下布局元素：
 
 * 主菜单
@@ -36,8 +34,8 @@ ht-degree: 5%
 * 摘要面板
 * 人们用于列表和报告的视图、筛选器和分组。
 * 屏幕术语
-* <span class="preview">对象标头</span>
-* 对象的<span class="preview">更多菜单（三点菜单）</span>
+* 对象标题
+* 对象的“更多”菜单（三点菜单）
 
 创建或修改布局模板后，可将其分配给单个用户、团队、组或工作角色。
 

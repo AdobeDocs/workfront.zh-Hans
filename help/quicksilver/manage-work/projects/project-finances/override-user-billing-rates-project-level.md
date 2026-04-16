@@ -6,7 +6,8 @@ title: 覆盖项目级别的用户记帐费率
 description: 本文介绍了如何覆盖项目的系统用户计费率。
 author: Lisa
 feature: Work Management
-source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
+exl-id: eb7dbb6f-a31c-4569-be54-9a151dcf4135
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 2%
@@ -14,8 +15,6 @@ ht-degree: 2%
 ---
 
 # 覆盖项目级别的用户记帐费率
-
-{{highlighted-preview-article-level}}
 
 作为项目经理，您可以指定特定项目上用户的记帐费率。 此项目级别的记帐费率将覆盖此用户在系统级别的记帐费率。 Workfront使用用户的项目级记帐费率来计算收入，而不是使用系统级记帐费率。
 

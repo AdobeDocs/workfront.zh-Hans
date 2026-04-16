@@ -9,10 +9,10 @@ feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
-source-wordcount: '2958'
-ht-degree: 5%
+source-wordcount: '3008'
+ht-degree: 6%
 
 ---
 
@@ -52,8 +52,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 包</td> 
-   <td> <p>“任一”</p> </td> 
-  </tr> 
+   <td>  <p>要使用用户和角色每小时收入和成本类型，请执行以下操作：工作流Ultimate</p>
+      <p>要编辑所有其他设置并使用所有其他收入和成本类型，请执行以下操作：任何Workfront或工作流包</p>  </td> 
+  </tr>
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> <p>标准</p>
@@ -439,6 +440,7 @@ Old:
         <li> <p style="font-weight: normal;"><span>固定小时</span> </p> </li> 
         <li> <p style="font-weight: normal;"><span>用户小时</span> </p> </li> 
         <li> <p style="font-weight: normal;"><span>角色小时</span> </p> </li> 
+        <li> <p style="font-weight: normal;">用户和角色按小时计</p> </li>
        </ul> <p>有关跟踪成本的更多信息，请参阅<a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">跟踪成本</a>。</p> </td> 
      </tr> 
      <tr> 
@@ -448,11 +450,14 @@ Old:
         <li> <p style="font-weight: normal;">不可计费</p> </li> 
         <li> <p style="font-weight: normal;">用户每小时</p> </li> 
         <li> <p style="font-weight: normal;">角色每小时</p> </li> 
+        <li> <p style="font-weight: normal;">用户和角色按小时计</p> </li>
         <li> <p style="font-weight: normal;">固定每小时</p> </li> 
         <li> <p style="font-weight: normal;">受限用户小时</p> </li> 
         <li> <p style="font-weight: normal;">受限角色小时</p> </li> 
+        <li> <p style="font-weight: normal;">用户和角色按小时计（含上限）</p> </li>
         <li> <p style="font-weight: normal;">用户小时加固定</p> </li> 
         <li> <p style="font-weight: normal;">角色小时加固定</p> </li> 
+        <li> <p style="font-weight: normal;">用户和角色按小时计加固定费用</p> </li>
         <li> <p style="font-weight: normal;">固定收入</p> </li> 
        </ul> <p>有关跟踪收入的更多信息，请参阅<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">账单和收入概述</a>。</p> </td> 
      </tr> 

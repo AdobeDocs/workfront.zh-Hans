@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 34c63e1b7d6323a4cf25514aaff9f923010d8958
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 11%
+source-wordcount: '390'
+ht-degree: 13%
 
 ---
 
 # 自定义表单概述
-
-{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -33,17 +31,7 @@ ht-degree: 11%
 
 有关详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
-<div class="preview">
-
-“预览”环境中的示例图像：
-
 ![示例表单设计器](assets/form-designer-example-032526.png)
-
-</div>
-
-生产环境中的示例图像：
-
-![示例表单设计器](assets/form-designer-example.png)
 
 ## 自定义字段和小部件
 
@@ -61,6 +49,7 @@ Workfront为每种对象类型提供了许多内置字段。
 * 外部查找
 * 本机字段引用
 * 键盘缓冲
+* Planning字段连接
 * 已计算
 * 日期
 * 复选框组
@@ -92,8 +81,11 @@ Workfront为每种对象类型提供了许多内置字段。
 * 项目组合
 * 费用
 * 组
+* 工作角色
+* 团队
 * 开发周期
 * 账单记录
+* 费率卡
 
 有关将自定义表单附加到对象的详细信息，请参阅[将自定义表单添加到对象](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)。
 

@@ -6,7 +6,8 @@ title: 定义加班率
 description: 您可以定义任务的超时比率，以调整任务分配的计划收入计算。
 author: Lisa
 feature: Work Management
-source-git-commit: bf8dcc9dfa9697c8d212072bb511c57aa01e7529
+exl-id: 832d3aab-3e09-4d83-91a6-be0145ce3554
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 5%
@@ -14,8 +15,6 @@ ht-degree: 5%
 ---
 
 # 定义加班率
-
-{{highlighted-preview-article-level}}
 
 将加班比率添加到任务时，加班比率将应用于任务的所有分配。 它会将该任务的所有计划小时数相乘，并且影响计划收入计算。
 
@@ -87,4 +86,3 @@ ht-degree: 5%
 1. 单击左侧面板中的&#x200B;**任务详细信息**。
 1. 在&#x200B;**财务**&#x200B;区域中，在&#x200B;**加班比率**&#x200B;字段中输入加班乘数。
 1. 单击&#x200B;**保存更改**。
-

@@ -5,7 +5,7 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: 97c33c5a-e42d-4015-841f-69dc44a0599d
-source-git-commit: 58d3f084c343bcc404f30edd270017fa5f86eb58
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 3%
@@ -13,8 +13,6 @@ ht-degree: 3%
 ---
 
 # 将费率卡附加到项目
-
-{{highlighted-preview-article-level}}
 
 费率卡根据属性存储每个工作角色的多个记帐费率。 例如，代理机构A的工作角色是驻巴黎的Designer，代理机构B的工作角色是驻巴黎的其他Designer，而驻纽约的第三个Designer的工作角色不是分派给代理机构，每个代理机构的计费率各不相同。 但是，费率卡上的工作角色不需要属性。 属性用作建立更精细速率的工具。 费率卡上的记帐费率也可以是生效日期，以便费率在指定日期开始和结束。
 
