@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 64ee7798e79324af0ab48af91f49d04d94ece3a9
+source-git-commit: 62e23ddf3fc90c1e1e993ad4155564964be07b93
 workflow-type: tm+mt
-source-wordcount: '1882'
+source-wordcount: '1984'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,25 @@ ht-degree: 0%
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
+
+## 内容审查程序现在可用于连接到Adobe Experience Manager的记录
+
+>[!NOTE]
+>
+>预览： 2026年4月16日
+>生产快速发布： 2026年4月16日
+>适用于所有人的生产： 2026年4月16日
+
+您现在可以在Workfront Planning中访问Experience Manager的内容顾问。 内容审查程序允许您：
+
+* 使用智能建议或营销活动简短详细信息发现内容
+* 在重用之前通过查看关键详细信息快速评估内容适用性
+* 发现并重用内容片段
+* 浏览收藏集以标识相关的品牌内内容
+
+您可以从内容顾问中选择要用于Planning中已连接字段的资源或内容片段。
+
+有关如何从Workfront Planning访问内容顾问的详细信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。
 
 ## 新增增加列表视图的行高度的功能
 

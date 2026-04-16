@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: b334e8b234c9c87dd1b1ecd26df6645b3381ffb0
+source-git-commit: 8d7cffd5b629b62ae3fbaf3bfddb86a05875acd9
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,27 @@ ht-degree: 0%
 本页介绍了在2026年第二季度版本中对“预览”环境所做的文档增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2026年第二季度发布周期中此时可用的所有更改列表，请参阅[2026年第二季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+
+## 使用Workfront中的AEM Assets内容审查工具，更快地发现并重用内容
+
+>[!NOTE]
+>
+>预览： 2026年4月16日
+>生产快速发布： 2026年4月16日
+>适用于所有人的生产： 2026年4月16日
+
+现在，Workfront中提供了Content Advisor与Adobe Experience Manager Assets的集成，这使团队更容易发现并重用现有的高价值内容。
+
+使用内容审查程序，您可以：
+
+* 使用智能建议或营销活动简短详细信息发现内容
+* 在重用之前通过查看关键详细信息快速评估内容适用性
+* 发现并重用内容片段
+* 浏览收藏集以标识相关的品牌内内容
+
+此集成可帮助团队直接在Workfront中减少重复内容创建、加快执行并最大化现有AEM资源的价值。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3483142/)
 
 ## 已启用GenStudio基础配置以支持AI协作者
 
