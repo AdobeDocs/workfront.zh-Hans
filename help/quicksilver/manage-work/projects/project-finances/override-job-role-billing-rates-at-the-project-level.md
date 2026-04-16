@@ -2,22 +2,20 @@
 product-area: projects
 navigation-topic: financials
 title: 覆盖项目级别的工作角色记帐费率
-description: 作为项目经理，您可以指定特定项目上工作角色的记帐费率。 此项目级别的记帐费率将覆盖此工作角色的系统级别的记帐费率。 Workfront使用工作角色的项目级别记帐费率来计算收入，而不是使用系统级别的记帐费率。
+description: 本文介绍了如何覆盖项目的系统工作角色记帐费率。
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: e3d4ffe2d42f9de3000df0ba1a924ca36fea9248
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '808'
 ht-degree: 2%
 
 ---
 
 # 覆盖项目级别的工作角色记帐费率
-
-{{highlighted-preview}}
 
 作为项目经理，您可以指定特定项目上工作角色的记帐费率。 此项目级别的记帐费率将覆盖此工作角色的系统级别的记帐费率。 Workfront使用工作角色的项目级别记帐费率来计算收入，而不是使用系统级别的记帐费率。
 
@@ -56,7 +54,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>对象权限</td> 
-   <td>管理对包含编辑财务数据的项目的权限 </td> 
+   <td>管理对项目的权限，包括编辑记帐费率 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,21 +80,17 @@ ht-degree: 2%
 
    或
 
-   <span class="preview">单击左侧面板中的&#x200B;**费率**，然后单击&#x200B;**帐单**&#x200B;选项卡（如果尚未选择）。</span>
+   单击左侧面板中的&#x200B;**费率**，然后单击&#x200B;**帐单**&#x200B;选项卡（如果尚未选择）。
 
-1. 单击&#x200B;**添加记帐费率** > **新记帐费率**。
-
-   或
-
-   <span class="preview">单击&#x200B;**添加记帐费率>新建工作角色记帐费率**。</span>
+1. 单击&#x200B;**添加记帐费率>新建工作角色记帐费率**。
 
    将打开“新建记帐费率”框。
 
 1. 在&#x200B;**工作角色**&#x200B;字段中，选择要更改其计费率的工作角色。
 
-1. <span class="preview">（可选）选择记帐费率的任意属性，如代理或地点。</span>
+1. （可选）选择开单费率的任意属性，如代理或地点。
 
-   <span class="preview">系统管理员在“设置”区域中定义费率属性。</span>
+   系统管理员在“设置”区域中定义费率属性。
 
 1. 为记帐费率覆盖选择&#x200B;**货币**。
 1. 在&#x200B;**记帐费率**&#x200B;字段中输入记帐费率覆盖，然后单击&#x200B;**保存**&#x200B;以一次性覆盖记帐费率

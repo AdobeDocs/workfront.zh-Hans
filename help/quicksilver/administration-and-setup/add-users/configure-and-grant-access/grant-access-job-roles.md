@@ -1,20 +1,18 @@
 ---
 title: 授予对工作角色的访问权限
 description: 作为Adobe Workfront管理员，您可以定义用户对Workfront中工作角色的访问权限，方法是通过其访问级别。
-author: Becky and Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a5ba79da-37f3-43f8-a7e2-4ccd75b56fef
-source-git-commit: c0cb423c73a6b0e982081ae67ffef6316b03db7f
+source-git-commit: e3d4ffe2d42f9de3000df0ba1a924ca36fea9248
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '379'
 ht-degree: 5%
 
 ---
 
 # 授予对工作角色的访问权限
-
-{{highlighted-preview-article-level}}
 
 作为Adobe Workfront管理员，您可以通过用户的访问级别定义用户对工作角色的访问权限，如[访问级别概述](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)中所述。
 
@@ -59,14 +57,20 @@ ht-degree: 5%
 
    ![微调工作角色访问权限](assets/job-role-access-view-fine-tune.png)
 
-   具有&#x200B;**查看**&#x200B;权限的用户可以查看现有工作角色，还可以选择查看工作角色记帐费率、成本费率和一般财务。
+   具有&#x200B;**查看**&#x200B;权限的用户可以查看现有工作角色，并可以选择执行以下操作：
+
+   * 查看工作角色的记帐费率
+   * 查看工作角色的成本率
+   * 查看工作角色的一般财务字段（与计费或成本费率无关）
 
    具有&#x200B;**编辑**&#x200B;权限的用户可以查看和编辑现有工作角色，并可以选择执行以下操作：
 
    * 创建新职位角色
    * 删除职位角色
-   * 查看工作角色记帐费率、成本费率和一般财务
-   * 编辑工作角色记帐费率、成本费率和一般财务
+   * 编辑工作角色的记帐费率
+   * 编辑工作角色的成本率
+   * 编辑工作角色中的常规财务字段（与计费或成本费率无关）
+   * 查看工作角色记帐费率、成本费率和一般财务字段
 
 1. （可选）要为您正在处理的访问级别中的其他对象和区域配置访问设置，请继续[配置对Adobe Workfront的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)中列出的文章之一，例如[授予对任务的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)。
 1. 完成后，单击&#x200B;**保存**。

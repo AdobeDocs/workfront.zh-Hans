@@ -6,16 +6,15 @@ title: 覆盖项目层的用户成本费率
 description: 本文介绍了如何覆盖项目的系统用户成本费率。
 author: Lisa
 feature: Work Management
-source-git-commit: cb21414992587c62c37580f156100f2b5b755e9b
+exl-id: ff1110fd-2d24-48a7-8000-712e551ca61a
+source-git-commit: e3d4ffe2d42f9de3000df0ba1a924ca36fea9248
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '651'
 ht-degree: 3%
 
 ---
 
 # 覆盖项目级别的用户成本率
-
-{{highlighted-preview-article-level}}
 
 您可以指定特定项目中的用户的成本费率。 此项目层成本费率将覆盖此用户系统层的成本费率。 Workfront使用工作角色的项目层成本费率来计算成本，而不使用系统层成本费率。
 
@@ -50,7 +49,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td>对象权限</td> 
-   <td>管理对包含编辑财务数据的项目的权限 </td> 
+   <td>管理包含编辑成本费率的项目权限 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,7 +93,7 @@ ht-degree: 3%
 
    在计算项目成本时，Workfront会将覆盖工作角色费率应用于这些时间范围内发生的小时数。
 
-   两个覆盖率的时间范围之间不应存在间隔。 覆盖率的&#x200B;**开始日期**&#x200B;应紧跟上一个覆盖日期的&#x200B;**结束日期**&#x200B;的日期。
+   Workfront允许您在覆盖时间范围之间保留间隔，但您将收到一则警告消息，确认这是有意为之。
 
    您无需为第一个覆盖率指定开始日期，也不需要为最后一个覆盖率指定结束日期。
 
@@ -107,5 +106,3 @@ ht-degree: 3%
    如果在项目的计划完成日期后记录了一个小时，则使用最后的成本率。
 
 1. 单击&#x200B;**保存**。
-
-

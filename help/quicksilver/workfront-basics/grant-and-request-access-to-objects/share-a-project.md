@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '1600'
+source-wordcount: '1622'
 ht-degree: 7%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 7%
 
 * 共享项目时，除非另有指定，否则所有任务、问题和文档都将继承相同的权限。
 
-  有关基于用户对项目的权限管理项目上任务和问题的访问权限的信息，请参阅[&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access)编辑项目[一文中的](../../manage-work/projects/manage-projects/edit-projects.md)部分。
+  有关基于用户对项目的权限管理项目上任务和问题的访问权限的信息，请参阅[](../../manage-work/projects/manage-projects/edit-projects.md#access)编辑项目[一文中的](../../manage-work/projects/manage-projects/edit-projects.md)部分。
 
   Workfront管理员可以指定文档是否应从用户访问级别更高的对象继承权限。 有关限制文档继承权限的详细信息，请参阅[创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
@@ -388,11 +388,23 @@ The
    <td> <p>  </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>管理财务*</p> </td> 
+   <td> <p>编辑记帐费率*</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>  </p> </td> 
    <td> <p>  </p> </td> 
   </tr> 
+  <tr> 
+   <td> <p>编辑成本率*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
+  </tr>
+  <tr> 
+   <td> <p>编辑一般财务*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
+  </tr>
   <tr> 
    <td> <p>添加/编辑费用*</p> </td> 
    <td> <p>✓</p> </td> 
@@ -400,7 +412,19 @@ The
    <td> <p>  </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>查看财务*</p> </td> 
+   <td> <p>查看记帐费率*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+  </tr>
+  <tr> 
+   <td> <p>查看成本率*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+  </tr>
+  <tr> 
+   <td> <p>查看一般财务*</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 

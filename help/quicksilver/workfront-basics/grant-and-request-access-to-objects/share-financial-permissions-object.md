@@ -8,16 +8,14 @@ feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '560'
 ht-degree: 11%
 
 ---
 
 # 共享对象的财务权限
-
-{{highlighted-preview}}
 
 在分配访问级别时，Adobe Workfront管理员可以向您授予查看或编辑财务数据的权限。 有关详细信息，请参阅[授予对财务数据的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)。
 
@@ -80,8 +78,7 @@ drafted for P&P:
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看至少包含查看财务权限的项目、任务和问题的权限或更高</p>
-   <p><span class="preview">查看至少包含查看记帐费率、查看成本费率或查看一般财务权限的项目、任务和问题的权限或更高</span></p></td> 
+   <td> 查看项目、任务和问题的权限或更高，其中至少包括查看记帐费率、查看成本费率和查看常规财务权限</td> 
   </tr> 
  </tbody> 
 </table>
@@ -96,6 +93,7 @@ drafted for P&P:
 
 * 您可以向项目、任务和问题授予财务权限。
 * 权限可以继承：如果您拥有项目的“查看常规财务”权限，则您将自动对该项目的任务和问题继承“查看常规财务”权限。
+* 授予对计费和成本费率的权限将允许用户查看或编辑该对象的费率。 一般财务的权限允许用户查看或编辑对象的一般财务字段（与计费或成本费率无关）。
 
 要授予对象的财务权限，请执行以下操作：
 
@@ -116,10 +114,8 @@ drafted for P&P:
 
 1. 在同一下拉菜单中，单击权限级别旁边的高级选项图标，然后执行以下操作之一：
 
-   * 如果您在上一步中选择了三个选项之一，请确保已选择&#x200B;**查看财务**。
-   * 如果您在上一步中选择了&#x200B;**管理财务**，请确保已选择&#x200B;**管理财务**。
-   * <span class="preview">对于任何权限级别，请选择&#x200B;**查看记帐费率**、**查看成本费率**&#x200B;和&#x200B;**根据需要查看常规财务**。</span>
-   * <span class="preview">仅针对&#x200B;**管理**&#x200B;权限，根据需要选择&#x200B;**编辑记帐费率**、**编辑成本费率**&#x200B;和&#x200B;**编辑常规财务**。</span>
+   * 对于任何权限级别，请选择&#x200B;**查看记帐费率**、**查看成本费率**&#x200B;和&#x200B;**根据需要查看常规财务**。
+   * 仅对于&#x200B;**管理**&#x200B;权限，根据需要选择&#x200B;**编辑记帐费率**、**编辑成本费率**&#x200B;和&#x200B;**编辑常规财务**。
 
 1. 单击&#x200B;**保存**。
 
@@ -148,55 +144,37 @@ drafted for P&P:
    <td>  </td> 
   </tr> 
   <tr> 
-   <td>管理/查看角色计费和成本率</td> 
-   <td>✓</td> 
-   <td>  </td> 
-   <td>  </td> 
-  </tr> 
-  <tr> 
-   <td>管理/查看用户计费和成本率</td> 
-   <td>✓</td> 
-   <td>  </td> 
-   <td>  </td> 
-  </tr> 
-  <tr> 
-   <td>查看财务状况</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>  ✓</td> 
-  </tr>
-  <tr> 
-   <td><span class="preview">编辑计费费率</span></td> 
+   <td>编辑计费费率</td> 
    <td>✓</td> 
    <td></td> 
    <td>  </td> 
   </tr> 
   <tr> 
-   <td><span class="preview">编辑成本费率</span></td> 
+   <td>编辑成本费率</td> 
    <td>✓</td> 
    <td></td> 
    <td>  </td> 
   </tr>  
   <tr> 
-   <td><span class="preview">编辑一般财务</span></td> 
+   <td>编辑一般财务</td> 
    <td>✓</td> 
    <td></td> 
    <td>  </td> 
   </tr>
   <tr> 
-   <td><span class="preview">查看计费费率</span></td> 
+   <td>查看计费费率</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 
   </tr> 
   <tr> 
-   <td><span class="preview">查看成本费率</span></td> 
+   <td>查看成本费率</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 
   </tr>  
   <tr> 
-   <td><span class="preview">查看一般财务</span></td> 
+   <td>查看一般财务</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 
@@ -225,3 +203,21 @@ drafted for P&P:
 &#42;需要额外的资源管理权限。
 
 有关资源管理访问权限的信息，请参阅[授予对资源管理的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)。
+
+<!--
+These rows removed from last table.
+
+  <tr> 
+   <td>Manage/ View Role Billing and Cost Rates</td> 
+   <td>✓</td> 
+   <td>  </td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td>Manage/ View User Billing and Cost Rates</td> 
+   <td>✓</td> 
+   <td>  </td> 
+   <td>  </td> 
+  </tr> 
+
+-->

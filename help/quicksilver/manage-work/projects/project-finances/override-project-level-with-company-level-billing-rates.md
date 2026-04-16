@@ -6,10 +6,10 @@ description: 用公司级别的记帐费率覆盖项目级别的记帐费率
 author: Lisa
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: f8e869f1ce8127d6ee095a58c84a94915df3acab
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 0%
+source-wordcount: '457'
+ht-degree: 4%
 
 ---
 
@@ -21,17 +21,17 @@ ht-degree: 0%
 
 您可以将项目配置为使用公司级别的记帐费率，而不是项目级别的记帐费率。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
-   <td>任何</td> 
+   <td>Adobe Workfront 包</td> 
+   <td>“任一”</td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
@@ -45,7 +45,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>对象权限</td> 
-   <td>管理具有管理财务权限的项目权限</td> 
+   <td>管理具有编辑记帐费率和一般财务权限的项目权限</td> 
   </tr> 
  </tbody> 
 </table>

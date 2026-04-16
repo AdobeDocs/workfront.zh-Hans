@@ -10,16 +10,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
+source-git-commit: fbc8024269aa91370f2a93ace6b7f07679c7f37d
 workflow-type: tm+mt
-source-wordcount: '1597'
-ht-degree: 17%
+source-wordcount: '1427'
+ht-degree: 18%
 
 ---
 
 # 可用于每种对象类型的功能
-
-{{highlighted-preview}}
 
 >[!NOTE]
 >
@@ -32,7 +30,7 @@ ht-degree: 17%
 >[!NOTE]
 >
 >* 本文介绍了可用于访问新Workfront包模型中的级别的功能。 要查看当前包模型中可用的功能，请参阅[各种访问级别中每种对象类型可用的功能](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)。
->* 有关最新模型中其他包可用的功能列表，请参阅[Adobe Workfront定价和打包](https://business.adobe.com/cn/products/workfront/pricing.html)。
+>* 有关最新模型中其他包可用的功能列表，请参阅[Adobe Workfront定价和打包](https://business.adobe.com/products/workfront/pricing.html)。
 
 ## 项目
 
@@ -59,7 +57,7 @@ ht-degree: 17%
 | 管理风险 | ✓ |   |   |   |
 | 管理财务状况 | ✓ |   |   |   |
 | 添加/编辑费用 | ✓ |   |   |   |
-| <span class="preview">附加费率卡</span> | ✓ |   |   |   |
+| 附加费率卡 | ✓ |   |   |   |
 | 附加模板 | ✓ |   |   |   |
 | 另存为模板 | ✓ |   |   |   |
 | 添加/编辑业务案例 | ✓ |   |   |   |
@@ -257,8 +255,6 @@ ht-degree: 17%
 
 ## 用户
 
-<div class="preview">
-
 这些选项在“预览”环境中可用：
 
 | 操作 | 标准 | 轻量 | 投稿人 | 外部用户** |
@@ -283,27 +279,6 @@ ht-degree: 17%
 
 &#42;&#42;外部用户只能搜索其他用户。
 
-</div>
-
-生产环境中提供了以下选项：
-
-| 操作 | 标准 | 轻量 | 投稿人 | 外部用户** |
-|----------------------------------------------------------------------------------------------------|----------|--------|-------------|-----------------|
-| 创建 | ✓* |   |   |   |
-| 删除 | ✓* |   |   |   |
-| 编辑、删除、取消激活、以用户身份登录或重置任何用户的密码 | ✓* |   |   |   |
-| 编辑、删除、取消激活、以用户身份登录或重置他们管理的组中的任何用户的密码 | ✓* |   |   |   |
-| 查看用户 | ✓ | ✓ | ✓ |   |
-| 查看联系信息 | ✓ | ✓ | ✓ |   |
-
-{style="table-layout:auto"}
-
-&#42;使用访问级别，Workfront管理员可以禁用或启用此功能。
-
-&#42;&#42;外部用户只能搜索其他用户。
-
-<div class="preview">
-
 ## 职位角色
 
 | 操作 | 标准 | 轻量 | 投稿人 | 外部用户 |
@@ -322,8 +297,6 @@ ht-degree: 17%
 {style="table-layout:auto"}
 
 &#42;使用访问级别，Workfront管理员可以禁用或启用此功能。
-
-</div>
 
 <!--
 
@@ -394,10 +367,6 @@ ht-degree: 17%
 
 只有拥有Standard许可证的用户才能完全访问财务数据。
 
-<div class="preview">
-
-这些选项在“预览”环境中可用：
-
 | 操作 | 标准 | 轻量 | 投稿人 | 外部用户 |
 |--------------------------------------------------------------|----------|--------|-------------|---------------|
 | 编辑计费费率 | ✓&#42; |   |   |   |
@@ -408,29 +377,6 @@ ht-degree: 17%
 | 查看一般财务 | ✓&#42; | ✓&#42; |   |   |
 | 管理账单记录 | ✓ |   |   |   |
 | 管理费用 | ✓ |   |   |   |
-| 在资源计划工具中按成本查看信息 | ✓ |   |   |   |
-| 资源规划工具中的预算资源&#42;&#42; | ✓ |   |   |   |
-| 在资源计划工具&#42;中查看资源分配 | ✓ | ✓ |   |   |
-| 在项目中创建风险 | ✓ |   |   |   |
-| 查看项目风险 | ✓ | ✓ |   |   |
-
-{style="table-layout:auto"}
-
-&#42;使用访问级别，Workfront管理员可以禁用或启用此功能。
-
-</div>
-
-生产环境中提供了以下选项：
-
-| 操作 | 标准 | 轻量 | 投稿人 | 外部用户 |
-|--------------------------------------------------------------|----------|--------|-------------|---------------|
-| 编辑角色计费和成本率 | ✓&#42; |   |   |   |
-| 编辑用户计费和成本率 | ✓&#42; |   |   |   |
-| 查看角色计费和成本率 | ✓&#42; |   |   |   |
-| 查看用户计费和成本率 | ✓&#42; |   |   |   |
-| 管理账单记录 | ✓ |   |   |   |
-| 管理费用 | ✓ |   |   |   |
-| 查看财务数据 | ✓&#42; | ✓&#42; |   |   |
 | 在资源计划工具中按成本查看信息 | ✓ |   |   |   |
 | 资源规划工具中的预算资源&#42;&#42; | ✓ |   |   |   |
 | 在资源计划工具&#42;中查看资源分配 | ✓ | ✓ |   |   |
@@ -460,7 +406,7 @@ ht-degree: 17%
 
 &#42;使用访问级别，Workfront管理员可以禁用或启用此功能。
 
-&#42;&#42;需要其他财务数据访问权限和项目财务权限。 如果您向无权访问财务数据的规划者用户授予资源管理访问权限，则该用户仍可以在资源规划者中查看小时分配，但无法切换到成本视图或查看业务案例。 有关详细信息，请参阅[授予对财务数据的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)和[共享对象的财务权限](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md)。
+&#42;&#42;需要其他财务数据访问权限和项目财务权限。 如果您向无权访问财务数据的标准用户授予资源管理访问权限，则该用户仍可以在资源规划程序中查看小时分配，但无法切换到成本视图或查看业务案例。 有关详细信息，请参阅[授予对财务数据的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)和[共享对象的财务权限](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md)。
 
 &#42;&#42;&#42;需要权限才能向对象贡献内容，并在“高级设置”下启用“生成工作总揽”。 有关信息，请参阅[对象权限共享概述](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object)一文中的[了解继承的权限和对象的层次结构](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)部分。
 
@@ -483,8 +429,6 @@ ht-degree: 17%
 
 &#42;为了使用户能够查看计划或计划中的财务数据，他们需要访问财务数据。 有关详细信息，请参阅[授予对财务数据的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)。
 
-<div class="preview">
-
 ## 费率卡
 
 只有拥有标准许可证的用户才能完全访问评级卡。
@@ -500,8 +444,6 @@ ht-degree: 17%
 {style="table-layout:auto"}
 
 &#42;使用访问级别，Workfront管理员可以禁用或启用此功能。
-
-</div>
 
 ## Workfront目标区域
 
