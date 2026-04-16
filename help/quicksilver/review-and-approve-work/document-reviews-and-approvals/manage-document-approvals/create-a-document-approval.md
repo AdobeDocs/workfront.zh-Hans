@@ -8,16 +8,14 @@ feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
 workflow-type: tm+mt
-source-wordcount: '1002'
-ht-degree: 2%
+source-wordcount: '686'
+ht-degree: 3%
 
 ---
 
 # 创建文档审批工作流
-
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 您可以在Adobe Workfront中请求其他用户或团队批准文档，或请求他们审核文档而无需批准。
 
@@ -60,51 +58,7 @@ ht-degree: 2%
 
 +++
 
-
-## 从生产环境的文档页面创建文档审阅或审批请求
-
-1. 将鼠标悬停在文档上，然后单击“文档详细信息”。
-   ![文档详细信息](assets/doc-details.png)
-
-1. 在文档名称附近，在版本下拉菜单中选择要创建批准的文档版本。 默认情况下会选择最新版本。
-
-1. 单击左侧面板中的&#x200B;**审批**。
-
-1. （可选）设置审批的截止日期。 用户和团队将在指定截止日期前72小时（即24小时）通过电子邮件接收通知。
-
-1. 要添加审批者，请单击&#x200B;**审批者**&#x200B;并开始键入用户或团队名称。
-
-1. 要添加审阅者，请单击&#x200B;**审阅者**&#x200B;复选框，然后开始键入用户或团队名称。
-
-   ![添加审批者和截止日期](assets/add-approver-and-deadline.png)
-
-1. 重复上一步骤以添加其他批准者或审阅者。
-
-## 从生产环境中的“文档摘要”面板创建文档审阅或审批请求
-
-1. 转到包含文档的项目、任务或问题，然后选择&#x200B;**文档**。
-
-1. 单击所需的文档，该文档的“文档摘要”左侧面板将打开。
-
-1. 在版本下拉列表中选择要创建批准的文档版本。 默认情况下会选择最新版本。
-
-1. 向下滚动到“文档摘要”窗格中的&#x200B;**审批**&#x200B;部分，然后单击&#x200B;**添加**。
-
-![在文档摘要中添加批准者](assets/doc-summary-add-approvers.png)
-
-1. （可选）设置审批的截止日期。 用户和团队将在指定截止日期前72小时（即24小时）通过电子邮件接收通知。
-
-1. 要添加审批者，请单击&#x200B;**审批者**&#x200B;并开始键入用户或团队名称。
-
-1. 要添加审阅者，请单击&#x200B;**审阅者**&#x200B;复选框，然后开始键入用户或团队名称。
-
-   ![添加审批者和截止日期](assets/add-approver-and-deadline.png)
-
-1. 重复上一步骤以添加其他批准者或审阅者。
-
-<div class="preview">
-
-## 在旧文档区域的预览环境中，从“摘要”面板创建审批工作流
+## 从旧文档区域的“摘要”面板创建审批工作流
 
 如果您的组织位于Workfront存储中，则当您访问Workfront中的文档时，将会看到旧版文档区域。 有关Workfront存储的详细信息，请参阅[Workfront存储与Adobe企业存储](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage)。
 
@@ -148,7 +102,6 @@ ht-degree: 2%
 
    ![文档详细信息](assets/new-stage.png)
 
-</div>
 
 ## 从新文档区域的“摘要”面板创建审批工作流
 

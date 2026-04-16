@@ -9,7 +9,7 @@ recommendations: noDisplay, noCatalog
 exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f89b6edead9dce1b0b4baa5ac792cf5e56fd46c0
+source-git-commit: 243aa2b0893e3034d37b959384a50b8a5e4a4bf0
 workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 3%
@@ -17,8 +17,6 @@ ht-degree: 3%
 ---
 
 # 为内容查看者创建和管理品牌
-
-{{highlighted-preview-article-level}}
 
 内容审核者在审核过程中使用品牌指南评估内容。 您可以通过上传包含品牌指南的PDF文件或手动输入品牌元素，在Workfront中创建品牌。
 
@@ -76,7 +74,7 @@ ht-degree: 3%
 1. 在左侧面板中，转到&#x200B;**审核和批准** > **品牌**。
 1. 单击屏幕右上角的&#x200B;**添加品牌**。
 1. 为品牌命名。
-1. 单击&#x200B;**上传PDF**&#x200B;以上传品牌文件。
+1. 单击&#x200B;**上传PDF**以上传品牌文件。
    ![上载品牌PDF](assets/upload-PDF.png)
 1. 单击&#x200B;**继续**。
 1. 上载一个或多个包含品牌指南的PDF文件，然后单击&#x200B;**添加品牌**。

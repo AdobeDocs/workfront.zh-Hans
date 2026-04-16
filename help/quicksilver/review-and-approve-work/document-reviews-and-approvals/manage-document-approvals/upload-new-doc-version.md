@@ -8,16 +8,14 @@ feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 2%
+source-wordcount: '650'
+ht-degree: 3%
 
 ---
 
 # 上传新文档版本并请求审批
-
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 如果文档在以前的审阅中被标记为“需要工作”，则您可以将新版本上传到原始文档并开始另一轮审批。 上传文档的新版本后，先前版本将被锁定。
 
@@ -64,51 +62,8 @@ ht-degree: 2%
 +++
 
 
-## 使用拖放操作在生产环境中添加新版本
 
->[!NOTE]
->
->Internet Explorer无法执行拖放操作。
-
-
-如果您需要对文档进行另一轮审核和批准，则可以在Workfront中创建新文档版本。
-
-可添加先前的参与者、新参与者或两者的组合。 您可以在“文档详细信息”页面上查看有关先前版本和参与者的信息。
-
-要添加新版本：
-
-1. 导航到Workfront中的文档。
-1. 将新文件拖放到上一个文档上。 这会自动创建新版本。
-
-1. 文档上传完成后，选择文档，然后单击&#x200B;**文档详细信息**。
-   ![打开文档详细信息页面](assets/open-doc-details.png)
-
-
-1. 在左侧面板中，单击&#x200B;**审批**，然后单击&#x200B;**添加**。
-
-1. 若要添加所有以前的参与者，请单击&#x200B;**添加所有**。 您也可以根据需要添加新参与者或删除以前的参与者。
-
-
-1. 要添加现有的审批模板，请单击“模板”按钮并开始键入模板名称。
-
-   >[!TIP]
-   >
-   >   拥有Standard许可证的用户可以从设置区域创建可重复使用的审批模板。 有关详细信息，请参阅[为文档创建审批工作流模板](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)。
-
-
-1. （可选）设置审批的截止日期。 用户和团队将在指定截止日期前72小时（即24小时）通过电子邮件接收通知。
-
-1. 添加所有审阅人和批准者后，单击&#x200B;**提交请求**。 将通过电子邮件通知参与者。
-
-   ![提交新版本以供审批](assets/add-previous-participants.png)
-
-
-
-
-
-<div class="preview">
-
-## 使用拖放操作在旧文档区域的预览环境中添加新版本
+## 使用拖放操作在旧文档区域中添加新版本
 
 如果您的组织位于Workfront存储中，则当您访问Workfront中的文档时，将会看到旧版文档区域。 有关Workfront存储的详细信息，请参阅[Workfront存储与Adobe企业存储](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage)。
 
@@ -175,8 +130,3 @@ ht-degree: 2%
 
    ![请求审批](assets/request-approval.png)
    <!--1. To add all previous participants, click **Add all**. You can also add new participants or remove previous participants as needed.-->
-
-
-
-</div>
-

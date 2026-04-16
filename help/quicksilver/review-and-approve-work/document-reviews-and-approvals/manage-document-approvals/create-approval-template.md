@@ -8,16 +8,14 @@ feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 7%
+source-wordcount: '337'
+ht-degree: 9%
 
 ---
 
 # 为文档创建审批工作流模板
-
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 在Workfront设置区域中，具有Standard许可证的用户可以创建可重复使用的审批模板。 创建后，审批模板可应用于项目、任务或问题的文档区域中的资产。
 
@@ -49,30 +47,9 @@ ht-degree: 7%
 有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+ß
 
-
-
-
-## 在生产环境中创建批准模板
-
-{{step-1-to-setup}}
-
-1. 在左侧面板中，单击&#x200B;**审阅和批准** > **批准模板**。
-1. 单击页面右侧的&#x200B;**新建模板**。
-1. 指定以下信息：
-
-   | 模板名称 | 开始键入此模板的名称。 |
-   |----------------------------|---|
-   | **（可选）时间范围** | 以天为单位输入时间范围。 将模板应用于资产后，将根据此字段计算审批截止日期。 |
-   | **添加批准者或审阅者** | 开始键入用户或团队的名称，然后将其指定为审阅者或审批者。 |
-
-1. 单击&#x200B;**保存**。
-
-
-
-<div class="preview">
-
-## 在预览环境中创建批准模板
+## 创建审批模板
 
 {{step-1-to-setup}}
 
@@ -116,7 +93,6 @@ ht-degree: 7%
 
 创建模板后，可将其应用于项目、任务或问题的文档区域中的文档，以在Workfront中开始正式的审阅和批准流程。
 
-</div>
 
 
 <!--
