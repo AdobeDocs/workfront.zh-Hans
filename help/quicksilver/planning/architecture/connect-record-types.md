@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: 539f87ddeab85eb6e8a028bcb6e394c3cd179c4d
 workflow-type: tm+mt
-source-wordcount: '3077'
+source-wordcount: '3071'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    <ul><li><p>Adobe Experience Manager Assets许可证以及AEM Assets与Workfront之间的集成，用于连接AEM资源与Planning记录类型。</p>
    <p>有关信息，请参阅适用于Experience Manager Assets和Assets Essentials的<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 用于连接记录类型与GenStudio Brands的Adobe GenStudio for Performance Marketing许可证</p>
-   <p>有关信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing入门</a>。</p></li></ul>
+   <p>有关信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing入门</a>。</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -258,9 +258,9 @@ Old:
    </div>
 
 
-   * 来自&#x200B;**Experience Manager Assets应用程序**&#x200B;部分的&#x200B;**Adobe**。
+   * 来自&#x200B;**Experience Manager应用程序**&#x200B;部分的&#x200B;**Adobe**。
 
-     ![AEM Assets连接选择](assets/aem-assets-connection-selection.png)
+     ![AEM Assets连接选择](assets/aem-assets-connection-selection-041326.png)
 
      将为您选择的记录或对象类型打开“新建连接”选项卡。
 
@@ -315,14 +315,14 @@ Old:
    >
    > 您必须先在Workfront中为选定对象创建自定义表单，然后它们才会显示在此列表中。
 
-1. （视情况而定）当您选择连接到Experience Manager Assets时，请从&#x200B;**链接以下存储库中的资源**&#x200B;部分的&#x200B;**Experience Manager存储库**&#x200B;下拉菜单中选择一个存储库。 这是必填字段。 只有您在Experience Manager Assets中有权访问的存储库才会显示在此字段中。
+1. （视情况而定）当您选择连接到Experience Manager时，请从&#x200B;**链接以下存储库中的资源**&#x200B;部分的&#x200B;**Experience Manager存储库**&#x200B;下拉菜单中选择一个存储库。 这是必填字段。 只有您在Experience Manager中有权访问的存储库才会显示在此字段中。
 
    >[!NOTE]
    >
-   >Workfront管理员可以通过Workfront中的元数据映射，将Workfront Planning字段映射到Experience Manager Assets字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+   >Workfront管理员可以通过Workfront中的元数据映射，将Workfront Planning字段映射到Experience Manager字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
 
-1. （视情况而定）当您选择连接到Experience Manager Assets、Workfront Planning记录类型或GenStudio Brand时，请在&#x200B;**记录外观**&#x200B;区域中选择以下选项之一：
+1. （视情况而定）当您选择连接到Experience Manager、Workfront Planning记录类型或GenStudio Brand时，请在&#x200B;**记录外观**&#x200B;区域中选择以下选项之一：
 
    * **名称和图像**：连接的记录的名称和缩略图或图标都会显示在连接的记录字段中。 这是默认选项。
    * **名称**：只有已连接记录的名称将显示在已连接记录字段中。
@@ -406,9 +406,8 @@ Old:
    >[!NOTE]
    >
    > 将记录类型连接到以下内容时，聚合器不可用：
-   >* Experience Manager Assets
+   >* Experience Manager
    >* GenStudio品牌。
-   >
 
    从以下项中选择：
 
