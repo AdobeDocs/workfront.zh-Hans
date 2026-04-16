@@ -87,7 +87,7 @@ ht-degree: 1%
    <ul><li><p>Adobe Experience Manager Assets许可证以及AEM Assets与Workfront之间的集成，用于连接AEM资源与Planning类型。</p>
    <p>有关信息，请参阅适用于Experience Manager Assets和Assets Essentials的<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 用于连接记录类型与GenStudio Brands的Adobe GenStudio for Performance Marketing许可证</p>
-   <p>有关信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing入门</a>。</p></li></ul>
+   <p>有关信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing入门</a>。</p></li></ul>
    </td> 
   </tr>   
 <tr> 
@@ -393,7 +393,7 @@ Old:
 
 >[!NOTE]
 >
->当Workfront管理员通过Experience Manager Assets与Workfront之间的集成配置元数据映射时，可从Adobe Experience Manager Assets访问Planning记录及其字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+>当Workfront管理员通过Experience Manager Assets与Workfront之间的集成配置元数据映射时，可从Adobe Experience Manager Assets访问Planning记录及其字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
 要将记录与Experience Manager资源连接，请执行以下操作：
 
@@ -430,11 +430,11 @@ Old:
    >[!IMPORTANT]
    >
    > 您只能连接有权在Experience Manager中查看的资源。 连接后，所有Workfront Planning用户都可以在Workfront Planning中查看资源，无论他们在Experience Manager Assets中是否具有访问权限。
-   > 有关内容顾问的详细信息，请参阅[使用内容顾问访问Adobe应用程序中的AEM内容](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}。
+   > 有关内容顾问的详细信息，请参阅[使用内容顾问访问Adobe应用程序中的AEM内容](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}。
 
 1. 单击&#x200B;**内容片段**&#x200B;以选择要添加到链接记录字段的内容片段。
 
-   有关内容片段的详细信息，请参阅[使用内容审查程序访问Adobe应用程序中的AEM内容](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}。
+   有关内容片段的详细信息，请参阅[使用内容审查程序访问Adobe应用程序中的AEM内容](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}。
 
 1. 选择完资源或内容片段后，单击&#x200B;**选择**。<!-- we might change this to Connect-->
 
