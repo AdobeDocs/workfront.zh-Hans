@@ -8,16 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: bf4a37ee-9435-4c1c-b18c-a7338a548ab7
-source-git-commit: d45c34b1f48a7ffcae29556d34558bb4d1d8a016
+source-git-commit: 82f2fbb55dd46b9bfc55e9864c38f600041de968
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 2%
+source-wordcount: '787'
+ht-degree: 3%
 
 ---
 
 # 授予对财务数据的访问权限
-
-{{highlighted-preview}}
 
 作为Adobe Workfront管理员，您可以通过用户的访问级别定义用户对以下内容的访问权限，如[访问级别概述](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)中所述：
 
@@ -61,18 +59,14 @@ ht-degree: 2%
 * 访问级别不允许访问财务数据的用户无法授予允许其他人查看财务数据的访问权限。 这包括授予显示财务数据的项目的访问权限，或修改访问级别以允许查看财务数据。
 * 访问级别不允许访问财务数据的用户无法为项目创建风险。 有关详细信息，请参阅[创建和编辑项目中的风险](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)。
 * 您还可以使用访问级别来确定用户可以采用哪些Resource Management活动来预算或查看资源分配。 有关信息，请参阅[授予对资源管理的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)。
-* <span class="preview">对记帐费率、成本费率和一般财务的访问是分开的，允许对处理复杂财务细节的不同用户角色进行更精确的控制。 一般财务是不包括计费和成本费率的其他财务数据。</span>
+* 对记帐费率、成本费率和一般财务的访问是分开的，允许对处理复杂财务细节的不同用户角色进行更精确的控制。 一般财务是不包括计费和成本费率的附加财务数据。
 
 ## 使用自定义访问级别配置用户对财务数据的访问
 
 1. 开始创建或编辑访问级别，如[创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)中所述。
 1. 单击财务数据右侧![](assets/gear-icon-settings.png)查看&#x200B;**或**&#x200B;编辑&#x200B;**按钮上的齿轮图标**，然后在&#x200B;**微调设置**&#x200B;下选择要授予的功能。
 
-   <span class="preview">预览环境中的示例图像：</span>
    ![微调财务数据访问](assets/financial-data-access-fine-tune.png)
-
-   生产环境中的示例图像：
-   ![微调财务数据访问](assets/financial-data-fine-tune-nwe.png)
 
 1. （可选）在&#x200B;**允许**&#x200B;的管理访问权限区域，选择以下选项：
 
@@ -131,36 +125,66 @@ If you make changes here, make them also in the "Grant access to" articles where
 
 * 项目和任务对象下的财务部分
 * 商业论证
-* 项目的记帐费率和记帐记录
-* 用户档案上的每小时成本和每小时计费
-* 工作角色的每小时成本和每小时账单
+* 项目的开票记录
+* 项目的计费率和成本率
+
+<!--  
+
+* Cost per hour and billing per hour on user profiles
+* Cost per hour and billing per hour on Job Roles
+
+-->
 
 ### 查看访问权限
 
 对财务数据具有“查看”权限的用户可以查看（而非编辑）以下内容：
 
 * 项目和任务对象下的财务部分
+
+  您可以使用上面步骤4中“查看”按钮上的齿轮图标![](assets/gear-icon-settings.png)来配置此项。
+
 * 商业论证
-* 项目的记帐费率和记帐记录
-* 用户档案上的每小时成本和每小时计费
+* 项目的开票记录
+* 项目的计费率和成本率
 
   您可以使用上面步骤4中“查看”按钮上的齿轮图标![](assets/gear-icon-settings.png)来配置此项。
 
-* 工作角色的每小时成本和每小时账单
+<!--  
 
-  您可以使用上面步骤4中“查看”按钮上的齿轮图标![](assets/gear-icon-settings.png)来配置此项。
+* Cost per hour and billing per hour on user profiles
+
+  You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the View button in step 4 above.
+
+* Cost per hour and billing per hour on Job Roles
+
+  You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the View button in step 4 above.
+
+-->
 
 ### 编辑访问权限
 
 对财务数据具有“编辑”权限的用户可以查看和编辑以下内容：
 
 * 项目和任务对象下的财务部分
+
+  您可以使用上面步骤4中“编辑”按钮上的齿轮图标![](assets/gear-icon-settings.png)来配置此设置。
+
 * 商业论证
-* 项目的记帐费率、记帐记录和成本费率
-* 用户档案上的每小时成本和每小时计费
+* 项目的开票记录
+* 项目的计费率和成本率
 
   您可以使用上面步骤4中“编辑”按钮上的齿轮图标![](assets/gear-icon-settings.png)来配置此设置。
 
-* 工作角色的每小时成本和每小时账单
+<!--  
 
-  您可以使用上面步骤4中“编辑”按钮上的齿轮图标![](assets/gear-icon-settings.png)来配置此设置。
+* Cost per hour and billing per hour on user profiles
+
+  You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the Edit button in step 4 above.
+
+* Cost per hour and billing per hour on Job Roles
+
+  You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the Edit button in step 4 above.
+
+-->
+
+
