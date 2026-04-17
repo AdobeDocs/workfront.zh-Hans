@@ -8,20 +8,22 @@ feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '694'
 ht-degree: 3%
 
 ---
 
 # 使用我的请求小组件
 
-<!--remove Preview and Production references at Production release April 15, 2026-->
+<!--
+remove Preview and Production references at Production release April 15, 2026
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 >[!IMPORTANT]
 >
@@ -65,7 +67,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>[!UICONTROL 查看]对项目、任务、问题和文档的权限或更高，在这些项目、任务、问题和文档中，您被标记在对话中或需要解决审批问题</p> </td> 
+   <td> <p>[！UICONTROL查看]对项目、任务、问题和文档的权限或更高，在这些项目、任务、问题和文档中，您被标记在对话中或需要解决审批问题</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,14 +104,9 @@ To configure the filter in the My Requests widget:
    * 视图
    * 筛选条件
    * 列
-
-   <div class="preview">
-
    * 分组
    * 设置单元格的格式
    * 行高
-
-   </div>
 
    有关更新请求列表中的视图元素的更多信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
 
@@ -212,7 +209,7 @@ Consider the following when working with views in the My Requests widget:
 >
 >* “主题”字段中的Planning和Workfront请求。
 >* 从“创建的对象”字段中的Planning请求创建的Planning记录。
->* 在预览环境的对象创建字段中，从Workfront请求转换的<span class="preview">Workfront任务和问题。</span>
+>* 在创建对象字段中从Workfront请求转换而来的Workfront任务和问题。
 
 1. 单击左上角的&#x200B;**[!UICONTROL 主菜单]** ![主菜单图标](assets/lines-main-menu.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
 1. （视情况而定）将&#x200B;**我的请求**&#x200B;构件添加到您的主屏幕。 单击&#x200B;**自定义**，找到&#x200B;**我的请求**，然后单击它以将其添加到&#x200B;**主页**。
@@ -223,10 +220,7 @@ Consider the following when working with views in the My Requests widget:
 
    >[!TIP]
    >
-   >在生产环境中，只有Planning记录在&#x200B;**创建的对象**&#x200B;字段中具有链接。
-   >   
-   ><span class="preview">在“预览”环境中，从Issues转换而来的Workfront任务和项目以及从Planning请求创建的Planning记录在&#x200B;**创建的对象**&#x200B;字段中具有链接。</span>
-   >
+   >从问题转换而来的Workfront任务和项目以及从Planning请求创建的Planning记录在&#x200B;**创建的对象**&#x200B;字段中有一个链接。
 
 
 

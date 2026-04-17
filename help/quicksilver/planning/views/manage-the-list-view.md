@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
+source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
 workflow-type: tm+mt
-source-wordcount: '1857'
-ht-degree: 0%
+source-wordcount: '1791'
+ht-degree: 1%
 
 ---
 
@@ -22,9 +22,11 @@ ht-degree: 0%
 although list views in Planning are very similar to Workfront enhanced lists, keep this one separate with all the information, because of Planning standalone; some information here is also duplicated in this main Glist article: help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md
 -->
 
-<span class="preview">此页面上突出显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -158,15 +160,13 @@ Removed - more direct steps below:
       >
       >* 不能修改系统视图。
       >
-      >* <span class="preview">您可以重置与您共享的视图，在您修改它以恢复其原始首选项后，您只能查看该视图，或者您可以将其与更改一起复制并共享副本。 有关详细信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。</span>
+      >* 在修改视图以恢复其原始首选项后，您可以重置与您共享的仅具有查看权限的视图，也可以复制该视图并共享副本。 有关详细信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
 
    1. 单击&#x200B;**筛选器**&#x200B;图标![筛选器图标](assets/filter-icon.png)将筛选器添加到视图。 结果会立即在列表中过滤。 您无法保存并命名筛选器。 在将来的访问页面时，将会记住过滤器，并且这些过滤器是共享视图的一部分。
 
       >[!TIP]
       >
-      ><span class="preview">要应用个性化筛选器，请为字段值选择以下选项之一：
-      >
-      ><div class="preview">
+      >要应用个性化过滤器，请为字段值选择以下选项之一：
       >
       >* **我（已登录的用户）**&#x200B;在引用用户的字段中引用已登录的用户。
       >
@@ -177,8 +177,6 @@ Removed - more direct steps below:
       >* **我的公司**&#x200B;在引用公司的字段中引用您的公司。
       > 
       >* **我的角色**&#x200B;或&#x200B;**我的主要角色**&#x200B;在引用角色的字段中引用您的工作角色。
-      >
-      ></div>
 
    1. 单击&#x200B;**列**&#x200B;图标![列图标](assets/columns-icon.png)以选择要显示或隐藏的列。
    1. 将鼠标悬停在列名上，单击该列名左侧的向下箭头，然后单击下列选项之一：
@@ -191,58 +189,54 @@ Removed - more direct steps below:
       您只能将现有字段添加到列表视图。
 不能删除第一列中显示的列表视图中的主字段。
 
-   1. <span class="preview">单击&#x200B;**格式化单元格**&#x200B;图标![格式化单元格图标](assets/format-cells-icon.png)。 **格式**&#x200B;框打开。</span> <!--change the name of the box when they update it-->
-      <span class="preview">执行以下操作：</span>
+   1. 单击&#x200B;**格式化单元格**&#x200B;图标![格式化单元格图标](assets/format-cells-icon.png)。 将打开&#x200B;**格式**&#x200B;框。 <!--change the name of the box when they update it-->
+执行以下操作：
 
-      1. <span class="preview">单击&#x200B;**添加条件**。</span>
-      1. <span class="preview">在&#x200B;**If**&#x200B;行中，选择一个字段并选择字段值并添加修饰符。 修改量会根据您选择的字段类型而发生更改。</span>
-
-         >[!TIP]
-         >
-         ><span class="preview">只有列表视图中可见的字段可用于条件格式。</span>
-
-      1. <span class="preview">（可选）不要添加字段值，请单击&#x200B;**与另一个字段比较**&#x200B;图标![与另一个字段比较](assets/compare-to-another-field-icon.png)，然后选择要将其值与选定字段的值进行比较的字段。 例如，您可以比较项目所有者和项目发起人字段。</span>
+      1. 单击&#x200B;**添加条件**。
+      1. 在&#x200B;**If**&#x200B;行中，选择一个字段并选择字段值并添加修饰符。 修改量会根据您选择的字段类型而发生更改。
 
          >[!TIP]
          >
-         ><span class="preview">只有列表视图中可见的字段可用于条件格式。 您比较的字段必须属于相同类型。</span>
+         >只有列表视图中可见的字段可用于条件格式。
 
-      1. <span class="preview">（可选）单击&#x200B;**If**&#x200B;行中的&#x200B;**添加条件**&#x200B;以向同一规则添加更多条件。</span>
+      1. （可选）单击&#x200B;**与另一个字段比较**&#x200B;图标![与另一个字段比较](assets/compare-to-another-field-icon.png)，而不是添加字段值，然后选择要将其值与选定字段的值进行比较的字段。 例如，您可以比较项目所有者和项目发起人字段。
 
          >[!TIP]
          >
-         ><span class="preview">在一个条件规则中最多可以添加10个条件，一个字段最多可以有20个规则。</span>
+         >只有列表视图中可见的字段可用于条件格式。 您比较的字段必须属于相同类型。
 
-      1. <span class="preview">单击条件之间的&#x200B;**Or**&#x200B;连接器以更改为&#x200B;**And**，并指示必须同时满足多个条件。 **或**&#x200B;是默认连接器。</span>
-      1. <span class="preview">在&#x200B;**Format**&#x200B;行中，选择一个字段以指示将设置哪一列的格式。</span> <!--edit this area, if it changes names??-->
-      1. <span class="preview">（可选）单击所选字段旁边的&#x200B;**颜色圆圈**&#x200B;图标![颜色圆圈图标](assets/color-circle.png)，展开该字段并在&#x200B;**单元格填充**&#x200B;区域中选择其他颜色以更改单元格中背景的颜色，或者从&#x200B;**文本颜色**&#x200B;区域中选择颜色以更改单元格中文本的颜色。</span>
-      1. <span class="preview">单击&#x200B;**文本格式**&#x200B;图标![文本格式图标](assets/text-format-icon.png)并从以下选项中选择以设置单元格中文本的格式：</span>
-         * <span class="preview">粗体</span>
-         * <span class="preview">斜体</span>
+      1. （可选）单击&#x200B;**If**&#x200B;行中的&#x200B;**添加条件**&#x200B;以将更多条件添加到同一规则。
 
-      1. <span class="preview">打开&#x200B;**应用到行**&#x200B;设置以将格式应用到满足条件的字段的整行。</span>
-      1. <span class="preview">（可选）在&#x200B;**格式**&#x200B;框中单击&#x200B;**添加条件**&#x200B;为其他字段添加其他规则并重复上述步骤。</span>
-      1. <span class="preview">（可选）单击&#x200B;**全部清除**&#x200B;以删除所有格式。</span>
-      1. <span class="preview">单击&#x200B;**Format**&#x200B;框外部以将其关闭。</span>
+         >[!TIP]
+         >
+         >在一个条件规则中最多可添加10个条件，一个字段最多可有20个规则。
 
-         <span class="preview">这会将您返回到列表视图。</span>
-         <span class="preview">格式将立即应用于列表视图。</span>
-         <span class="preview">在&#x200B;**设置单元格格式**&#x200B;图标旁有一个蓝点，表示该视图应用了特殊格式。</span>
+      1. 单击条件之间的&#x200B;**Or**&#x200B;连接器以更改为&#x200B;**And**，并指示必须同时满足多个条件。 **或**&#x200B;是默认连接器。
+      1. 在&#x200B;**格式**&#x200B;行中，选择一个字段以指示将设置哪一列的格式。<!--edit this area, if it changes names??-->
+      1. （可选）单击所选字段旁边的&#x200B;**颜色圆圈**&#x200B;图标![颜色圆圈图标](assets/color-circle.png)，展开该字段并在&#x200B;**单元格填充**&#x200B;区域中选择其他颜色以更改单元格中背景的颜色，或者从&#x200B;**文本颜色**&#x200B;区域中选择颜色以更改单元格中文本的颜色。
+      1. 单击&#x200B;**文本格式**&#x200B;图标![文本格式图标](assets/text-format-icon.png)并从以下选项中选择以设置单元格中文本的格式：
+         * 粗体
+         * 斜体
 
-   1. <span class="preview">（可选）单击&#x200B;**分组**&#x200B;图标![分组图标](assets/grouping-icon.png) &lt;！ — 他们是否已将此项更新为“分组”??->，以便按公用字段对列表中的项目进行分组。 选择一个选项，或使用搜索栏查找字段。</span>
+      1. 打开&#x200B;**应用到行**&#x200B;设置以将格式应用到满足条件的字段的整行。
+      1. （可选）在&#x200B;**格式**&#x200B;框中单击&#x200B;**添加条件**&#x200B;为其他字段添加其他规则并重复上述步骤。
+      1. （可选）单击&#x200B;**全部清除**&#x200B;以删除所有格式。
+      1. 单击&#x200B;**格式**&#x200B;框外部以将其关闭。
 
-      <span class="preview">该字段必须是列表中的列，然后才能按它进行分组。 并非所有字段类型都可用于分组。</span>
+         这会将您返回到列表视图。
+格式设置将立即应用于列表视图。
+**设置单元格格式**&#x200B;图标旁有一个蓝点，表示该视图应用了特殊格式。
 
-   1. <span class="preview">单击&#x200B;**行高**&#x200B;图标![行高图标](assets/row-height-icon.png)可更新行的垂直长度。 从以下选项中选择： </span>
+   1. （可选）单击&#x200B;**分组**&#x200B;图标![分组图标](assets/grouping-icon.png) <!--have they updated this to "Grouping"??-->以按公用字段对列表中的项进行分组。 选择一个选项，或使用搜索栏查找字段。
 
-      <div class="preview">
+      该字段必须是列表中的列，然后才能按其分组。 并非所有字段类型都可用于分组。
+
+   1. 单击&#x200B;**行高**&#x200B;图标![行高图标](assets/row-height-icon.png)可更新行的垂直长度。 从以下选项中进行选择：
 
       * 短
       * 标准。 这是默认选项。
       * 媒介
       * 高
-
-      </div>
 
    <!--leave these here, although they duplicate for Enhanced lists in Workfront-->
 

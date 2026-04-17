@@ -10,10 +10,10 @@ role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 2%
+source-wordcount: '1377'
+ht-degree: 3%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 2%
 
 <!--
 Remove production and preview references at release
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
-
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
-
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 您可以查看自己或其他人提交的请求，或者查看您已开始但从未完成提交的请求。 未完成的请求将另存为草稿。
 
@@ -112,7 +112,7 @@ Remove production and preview references at release
 >
 >* “主题”字段中的Planning和Workfront请求。
 >* 从“创建的对象”字段中的Planning请求创建的Planning记录。
->* 在预览环境的对象创建字段中，从Workfront请求转换的<span class="preview">Workfront任务和问题。</span>
+>* 在创建对象字段中从Workfront请求转换而来的Workfront任务和问题。
 
 要查看您或其他用户在新的请求体验中提交的请求，请执行以下操作：
 
@@ -128,14 +128,9 @@ Remove production and preview references at release
    * 视图
    * 筛选条件
    * 列
-
-   <div class="preview">
-
-   * **分组**
+   * 分组
    * 设置单元格的格式
    * 行高
-
-   </div>
 
    有关管理请求列表中的信息的详细信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
 

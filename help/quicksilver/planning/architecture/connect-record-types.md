@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 539f87ddeab85eb6e8a028bcb6e394c3cd179c4d
+source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
 workflow-type: tm+mt
-source-wordcount: '3071'
+source-wordcount: '2954'
 ht-degree: 0%
 
 ---
@@ -22,10 +22,11 @@ ht-degree: 0%
 
 # 连接记录类型
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -94,7 +95,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    <ul><li><p>Adobe Experience Manager Assets许可证以及AEM Assets与Workfront之间的集成，用于连接AEM资源与Planning记录类型。</p>
    <p>有关信息，请参阅适用于Experience Manager Assets和Assets Essentials的<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 用于连接记录类型与GenStudio Brands的Adobe GenStudio for Performance Marketing许可证</p>
-   <p>有关信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing入门</a>。</p></li></ul>
+   <p>有关信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing入门</a>。</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -228,18 +229,16 @@ Old:
 
      >[!TIP]
      >
-     ><span class="preview">您可以使用以下键盘组合从任何Workfront Planning页面打开全局搜索框并搜索记录类型：</span>
+     >您可以使用以下键盘组合从任何Workfront Planning页面打开全局搜索框并搜索记录类型：
      >
-     >* <span class="preview">CTRL+K for Windows</span>
-     >* 适用于Mac<span class="preview">⌘的</span>+K
+     >* Ctrl+K for Windows
+     >* 适用于Mac的⌘+K
      >
      >![全局搜索框](assets/global-search-box.png)
 
    * 来自&#x200B;**Workfront对象类型**&#x200B;部分的&#x200B;**项目、Portfolio、项目群、公司**&#x200B;或&#x200B;**组**。
 
      ![Workfront项目连接选择](assets/multi-select-connection-picker-project.png)
-
-   <div class="preview">
 
    * 来自&#x200B;**Workfront对象类型**&#x200B;节的&#x200B;**原始请求**&#x200B;对象类型。
 
@@ -254,8 +253,6 @@ Old:
      >* [提交Adobe Workfront计划请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。
 
      ![原始请求连接选择](assets/original-request-connection-selection.png)
-
-   </div>
 
 
    * 来自&#x200B;**Experience Manager应用程序**&#x200B;部分的&#x200B;**Adobe**。
@@ -319,7 +316,7 @@ Old:
 
    >[!NOTE]
    >
-   >Workfront管理员可以通过Workfront中的元数据映射，将Workfront Planning字段映射到Experience Manager字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+   >Workfront管理员可以通过Workfront中的元数据映射，将Workfront Planning字段映射到Experience Manager字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
 
 1. （视情况而定）当您选择连接到Experience Manager、Workfront Planning记录类型或GenStudio Brand时，请在&#x200B;**记录外观**&#x200B;区域中选择以下选项之一：
@@ -349,14 +346,15 @@ Old:
 
    >[!TIP]
    >
-   >* 不能将来自其他应用程序的引用字段添加为查找字段。 例如，连接到Workfront项目时，您无法在Planning中添加项目组或公司作为查找字段。
+   >* 不能将来自其他应用程序的引用字段添加为查找字段。 例如，当您连接到Workfront项目时，不能在Planning中将项目、组或公司添加为查找字段。
    >
-   >* 在生产环境中，您无法添加Workfront用户字段（包括项目所有者或项目发起人等字段）作为查找字段。 <span class="preview">您可以在预览环境中添加用户字段作为查找字段。</span>
+   ><!--* In the Production environment, you cannot add Workfront user fields (including fields like Project Owner, or Project Sponsor) as lookup fields. <span class="preview">You can add user fields as lookup fields in the Preview environment.</span>-->
    >
    >* Workfront对象的日期字段信息在Workfront Planning中以24小时制显示，无论它在Workfront中如何显示。
    >
    >   例如，如果项目的计划开始日期在Workfront中显示为3:00 PM，它在Workfront Planning的导入查找字段中将显示为15:00。
-   >* 在生产环境中，您无法添加人员字段作为查找字段。 <span class="preview">您可以在预览环境中添加人员字段作为查找字段。</span>
+   >
+   ><!--* In the Production environment, you cannot add People fields as lookup fields. <span class="preview">You can add People fields as lookup fields in the Preview environment.</span>-->
 
 1. 单击&#x200B;**创建**。
 
