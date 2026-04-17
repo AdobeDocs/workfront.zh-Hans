@@ -10,10 +10,10 @@ role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
+source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '1590'
-ht-degree: 7%
+source-wordcount: '1423'
+ht-degree: 8%
 
 ---
 
@@ -124,17 +124,6 @@ ht-degree: 7%
        </ul><p><b>注意</b>：不允许用户创建新的费用类型。</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">工作角色</td> 
-      <td> 凭借此访问权限，用户可以执行以下操作： 
-       <ul> 
-        <li>查看和编辑现有工作角色</li> 
-        <li>添加新工作角色</li> 
-        <li>编辑角色计费和成本率</li> 
-       </ul> 
-       <p>有关对工作角色具有管理访问权限的Standard或Planner用户可用以访问财务数据的重要信息，请参阅<a href="#standard-or-planner-users-with-administrative-access-to-job-roles">对工作角色具有管理访问权限的Standard或Planner用户</a>。</p>
-      </td> 
-     </tr> 
-     <tr> 
       <td role="rowheader">我的组中的里程碑</td> 
       <td>在“设置”中的“里程碑路径”菜单下查看系统中的所有里程碑路径。 用户还可以编辑或删除属于其任何组的任何里程碑路径。 用户无法管理（编辑或删除）未分配给其组的里程碑路径。<p>如果没有此访问权限，用户只能查看现有的里程碑路径，并将它们应用于他们有权管理的项目。</p></td> 
      </tr> 
@@ -226,13 +215,29 @@ ht-degree: 7%
 
    有关Adobe管理员如何为用户分配系统管理员访问权限级别的信息，请参阅[授予用户完全管理访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)。
 
-## 对工作角色具有管理访问权限的标准或Planner用户 {#planner-users}
+<!--
 
-如果您向“标准”或“规划者”用户授予工作角色的管理访问权限，则将自动为用户启用“编辑角色计费和成本费率”设置。
+## Standard or Planner users with administrative access to job roles {#planner-users}
 
-之后，如果您为用户禁用工作角色的管理访问权限，则用户仍可看到工作角色，因为编辑角色计费和成本费率设置仍处于启用状态。
+If you grant a Standard or Planner user administrative access to job roles, the Edit Role Billing &amp; Cost Rates setting is automatically enabled for the user automatically.
 
-如果发生这种情况，并且您需要删除用户查看工作角色的访问权限，则需要禁用用户的“编辑角色计费和成本费率”权限设置。 有关说明，请参阅[授予对财务数据的访问权限](grant-access-financial.md)。
+Later, if you disable administrative access to job roles for the user, job roles are still visible to the user because the Edit Role Billing &amp; Cost Rates setting is still enabled.
 
+If this happens and you need to remove the user's access to view job roles, you need to disable the user's Edit Role Billing &amp; Cost Rates permission setting. For instructions, see [Grant access to financial data](grant-access-financial.md).
+
+
+     <tr> 
+      <td role="rowheader">Job roles</td> 
+      <td> With this access, the user is allowed to do the following: 
+       <ul> 
+        <li>View and edit existing job roles</li> 
+        <li>Add new job roles</li> 
+        <li>Edit role billing and cost rates</li> 
+       </ul> 
+       <p>For important information about access to financial data that is available to a Standard or Planner user with administrative access to job roles, see <a href="#standard-or-planner-users-with-administrative-access-to-job-roles">Standard or Planner users with administrative access to job roles</a>.</p>
+      </td> 
+     </tr> 
+
+-->
 
 
