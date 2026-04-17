@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: df1d844346d7ed26dcb004ba1a10ec9e8d07422a
+source-git-commit: d8a01839b8f1332741f87be766f3ccb7d08cef96
 workflow-type: tm+mt
 source-wordcount: '1219'
 ht-degree: 1%
@@ -46,12 +46,12 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p>
-       <p>[!UICONTROL 计划]</p></td>
+   <td><p>[！UICONTROL标准版]</p>
+       <p>[！UICONTROL计划]</p></td>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>对工作角色的管理访问权限</td>
+   <td>编辑对工作角色的访问权限</td>
   </tr> 
  </tbody> 
 </table>
