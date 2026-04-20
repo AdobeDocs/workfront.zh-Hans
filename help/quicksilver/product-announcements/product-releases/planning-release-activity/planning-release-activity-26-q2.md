@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 540d56017dccf238d301e81085b62b5163b71103
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '1984'
+source-wordcount: '2042'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,7 @@ ht-degree: 0%
 >预览： 2026年4月16日
 >生产快速发布： 2026年4月16日
 >适用于所有人的生产： 2026年4月16日
+>[!BADGE 超出计划]{type=Neutral}
 
 您现在可以在Workfront Planning中访问Experience Manager的内容顾问。 内容审查程序允许您：
 
@@ -187,21 +188,18 @@ ht-degree: 0%
 
 有关详细信息，请参阅[层次结构和痕迹导航概述](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)。
 
-<!--
-
-## New field type for Record ID  
+## 记录ID的新字段类型
 
 >[!NOTE]
 >
->Preview: March 12, 2026
->Production fast release: April 15, 2026
->Production for everyone: April 16, 2026
+>预览：2026年3月12日
+>生产快速发布： 2026年4月15日
+>适用于所有人的生产： 2026年4月16日
 
-We have added a new field type for Record ID. This is a system-generated alpha-numeric indicator which uniquely identifies each record. The field displays in any record view as well as the record details area.  
+我们为记录ID添加了新的字段类型。 这是系统生成的字母数字指示器，用于唯一标识每个记录。 该字段显示在任何记录视图以及记录详细信息区域中。
 
-For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
+有关信息，请参阅[创建字段](/help/quicksilver/planning/fields/create-fields.md)。
 
--->
 
 ## 允许非管理员用户将记录类型设为可连接
 

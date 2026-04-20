@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: de066d44-d214-47cc-8483-37c2623585ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1099'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
 * 您不能在层次结构中添加以下对象类型：
    * 来自其他工作区的记录类型，即使它们设置为可连接或全局记录类型也是如此。 仅当全局记录类型已添加到构建层次的工作区时，您才可以将全局记录类型添加到层次。
    * 所有其他Workfront对象。
-   * AEM Assets。
+   * AEM Assets或内容片段。
 * 层次结构可以同时包括Planning记录类型和Workfront项目。
 
   例如，您可以将Campaign记录类型与Planning Tactics和Workfront Projects作为同一工作区层次结构中的子项。

@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '894'
 ht-degree: 1%
 
 ---
@@ -138,8 +138,8 @@ Old:
 * 不支持空工作表。
 * 以下类型的字段不受支持，无法映射到导入工作表中的字段：
 
-   * 将字段连接到Workfront、AEM Assets对象类型或GenStudio Brands。
-   * 从连接的Planning记录、Workfront、AEM Assets对象或GenStudio Brands查找字段。
+   * 将字段连接到Workfront、Adobe Experience Manager对象类型或GenStudio Brands。
+   * 从连接的Planning记录、Workfront、Adobe Experience Manager对象或GenStudio Brands查找字段。
    * 公式字段
    * 创建日期，创建者
    * 上次修改日期，上次修改人
@@ -203,7 +203,7 @@ Old:
 
    >[!TIP]
    >
-   >您只能映射到Workfront Planning连接记录中的字段。 您无法从Workfront、AEM Assets或GenStudio Brands连接映射到字段。 有关详细信息，请参阅本文中关于使用Excel或CSV文件导入记录类型的注意事项[部分。](#considerations-about-importing-record-types-using-an-excel-or-csv-file)
+   >您只能映射到Workfront Planning连接记录中的字段。 您无法从Workfront、Adobe Experience Manager或GenStudio Brands连接映射到字段。 有关详细信息，请参阅本文中关于使用Excel或CSV文件导入记录类型的注意事项[部分。](#considerations-about-importing-record-types-using-an-excel-or-csv-file)
 
 1. （视情况而定）更新字段相关信息后，单击&#x200B;**保存**。
 

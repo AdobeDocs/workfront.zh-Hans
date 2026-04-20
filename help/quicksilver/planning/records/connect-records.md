@@ -8,9 +8,9 @@ author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 539f87ddeab85eb6e8a028bcb6e394c3cd179c4d
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '3558'
+source-wordcount: '3536'
 ht-degree: 1%
 
 ---
@@ -18,10 +18,11 @@ ht-degree: 1%
 
 # 连接记录
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -54,8 +55,17 @@ ht-degree: 1%
 
    * Adobe Experience Manager
 
-      * 图像文件
-      * 文件夹
+      * 资源
+
+        您可以从Workfront Planning中连接以下类型的资源：
+
+         * 图像文件
+         * 文件夹
+      * 内容片段
+
+* Adobe GenStudio for Performance Marketing
+
+   * 品牌
 
   <!--when you add more objects, fix the Access Requirements below which right now refer only to projects-->
 
@@ -75,8 +85,8 @@ ht-degree: 1%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 包</p></td> 
    <td> 
-<p>任何Workfront和任何Planning包</p>
-<p>任何工作流和任何计划包</p>
+<p>任何Workfront或工作流包</p>
+<p>任何规划包</p>
 <p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
    </td> 
 <tr> 
@@ -84,10 +94,10 @@ ht-degree: 1%
    <p> 其他产品</p> </td> 
    <td> 
    <p> 除了Adobe Workfront之外，如果要将记录与以下应用程序中的对象连接，还必须具有下列功能：</p>
-   <ul><li><p>Adobe Experience Manager Assets许可证以及AEM Assets与Workfront之间的集成，用于连接AEM资源与Planning类型。</p>
+   <ul><li><p>Adobe Experience Manager许可证以及Adobe Experience Manager与Workfront之间的集成，用于将AEM资源或内容片段与Planning记录类型连接。</p>
    <p>有关信息，请参阅适用于Experience Manager Assets和Assets Essentials的<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 用于连接记录类型与GenStudio Brands的Adobe GenStudio for Performance Marketing许可证</p>
-   <p>有关信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing入门</a>。</p></li></ul>
+   <p>有关信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing入门</a>。</p></li></ul>
    </td> 
   </tr>   
 <tr> 
@@ -385,17 +395,21 @@ Old:
 
 >[!IMPORTANT]
 >
->您必须拥有Adobe Experience Manager Assets许可证，并且贵组织的Workfront实例必须载入Adobe业务平台或Adobe Admin Console，才能将Workfront Planning记录连接到Adobe Experience Manager Assets。
+>您必须拥有Adobe Experience Manager许可证，并且贵组织的Workfront实例必须载入Adobe业务平台或Adobe Admin Console，才能将Workfront Planning记录连接到Adobe Experience Manager。
 >
 >如果您对加入Adobe Admin Console有任何疑问，请参阅[Adobe Unified Experience常见问题解答](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)。
 
-在记录类型与Adobe Experience Manager Assets之间创建连接后，可以将单个记录连接到Experience Manager资源。 创建连接后，您从Experience Manager连接的资源字段会自动填充在您链接的记录类型中。
+在记录类型与Adobe Experience Manager对象之间创建连接后，可以将单个记录连接到Experience Manager对象。 创建连接后，您从Experience Manager连接的资源字段会自动填充在您链接的记录类型中。
 
 >[!NOTE]
 >
->当Workfront管理员通过Experience Manager Assets与Workfront之间的集成配置元数据映射时，可从Adobe Experience Manager Assets访问Planning记录及其字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+>当Workfront管理员通过Experience Manager Assets与Workfront之间的集成配置元数据映射时，可从Adobe Experience Manager Assets访问Planning记录及其字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
-要将记录与Experience Manager资源连接，请执行以下操作：
+<!--
+not sure if the above 2 paragraphs also apply to fragments; checking with Court and the Andy
+-->
+
+要将记录与Experience Manager对象连接，请执行以下操作：
 
 {{step1-to-planning}}
 
@@ -403,24 +417,27 @@ Old:
 
    此时会打开工作区，并显示记录类型。
 1. 单击记录类型的卡以打开记录类型页面。
-1. 从记录类型页面右上角的&#x200B;**视图**&#x200B;下拉菜单中选择&#x200B;**表**&#x200B;视图。
+1. 从记录类型页面左上角的&#x200B;**视图**&#x200B;下拉菜单中选择&#x200B;**表**&#x200B;视图。
 
 1. （可选）单击&#x200B;**新记录**&#x200B;以将新记录添加到您选择的记录类型。 有关信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
-1. （视情况而定）将所选的记录类型与Experience Manager连接后，转到记录中连接的字段并单击该字段，或单击&#x200B;**连接**&#x200B;将Experience Manager资源添加到记录中，然后单击&#x200B;**+**&#x200B;图标。
+1. （视情况而定）将选定的记录类型与Experience Manager对象连接后，转到记录中连接的字段并单击该字段，或单击&#x200B;**连接**&#x200B;以将Experience Manager对象添加到记录中，然后单击&#x200B;**+**&#x200B;图标。
 
    >[!TIP]
    >
-   >  您可以在记录页面中的链接对象字段中添加&#x200B;**+**&#x200B;图标，以将资产连接到记录。
+   >  您可以在记录的详细信息页面中单击链接对象字段中的&#x200B;**+**&#x200B;图标以将资产连接到记录。
 
    此时将显示“内容审查程序”框。
 
    用于AEM记录连接的![内容顾问框](assets/content-advisor-assets-nothing-selected.png)
 
-   <!-- The **Select Assets** box displays. we might change this to Connect assets.-->
+   <!--
+    The **Select Assets** box displays. we might change this to Connect assets.
+    -->
 
-   <!-- ![Select assets box for AEM record connections](assets/select-assets-box-for-aem-record-connections.png)-->
+   <!--
+    ![Select assets box for AEM record connections](assets/select-assets-box-for-aem-record-connections.png)-->
 
-1. 单击以从&#x200B;**Assets**&#x200B;区域选择以下某些类型的资源：
+1. 在&#x200B;**Assets**&#x200B;选项卡中，单击以选择以下某些类型的资源：
 
    * 图像
    * 文件夹
@@ -430,20 +447,20 @@ Old:
    >[!IMPORTANT]
    >
    > 您只能连接有权在Experience Manager中查看的资源。 连接后，所有Workfront Planning用户都可以在Workfront Planning中查看资源，无论他们在Experience Manager Assets中是否具有访问权限。
-   > 有关内容顾问的详细信息，请参阅[使用内容顾问访问Adobe应用程序中的AEM内容](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}。
+   > 有关内容顾问的详细信息，请参阅[使用内容顾问访问Adobe应用程序中的AEM内容](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}。
 
-1. 单击&#x200B;**内容片段**&#x200B;以选择要添加到链接记录字段的内容片段。
+1. 从&#x200B;**内容片段**&#x200B;选项卡中，选择要添加到链接记录字段的内容片段。
 
-   有关内容片段的详细信息，请参阅[使用内容审查程序访问Adobe应用程序中的AEM内容](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}。
+   有关内容片段的详细信息，请参阅[使用内容审查程序访问Adobe应用程序中的AEM内容](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}。
 
 1. 选择完资源或内容片段后，单击&#x200B;**选择**。<!-- we might change this to Connect-->
 
    添加了以下内容：
 
-   * 选定的Experience Manager资源将添加到链接的记录字段。
-   * 链接的字段（或查找字段）会填充来自Experience Manager连接的资源的信息。
+   * 选定的Experience Manager资源或内容片段将添加到链接的记录字段。
+   * 链接的字段（或查找字段）会填充来自Experience Manager连接对象的信息。
 
-     Experience Manager资源字段中的任何现有信息都会自动显示在链接或查找字段中。
+     Experience Manager资源或内容片段的字段中的任何现有信息都会自动显示在链接或查找字段中。<!--verifying of fragments also share lookup fields - not sure from the UI available-->
 
      >[!TIP]
      >
@@ -451,7 +468,7 @@ Old:
      >
      >* 没有在Experience Manager Assets应用程序中为链接的Workfront Planning资源创建指向Experience Manager Planning链接记录的链接记录字段。
 
-1. （可选）转到您链接到Experience Manager的记录类型，然后单击链接记录字段中的资源名称。 资源的Experience Manager详细信息会显示在弹出窗口中。
+1. （可选且视情况而定）对于资源，请转到链接到Experience Manager的记录类型，然后在链接的记录字段中单击资源的名称。 资源的Experience Manager详细信息会显示在弹出窗口中。<!--not sure if this is also possible for fragments??-->
 
    ![包含AEM详细信息和缩略图的资源弹出窗口](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
 
@@ -467,13 +484,13 @@ Old:
    * 创建日期
    * 修改日期
 
-1. （可选）要在Experience Manager中打开Experience Manager资源记录页面，请转到要链接到的记录的记录类型页面，在链接的记录字段中单击资源的名称以打开弹出窗口，然后单击&#x200B;**在AEM中打开**&#x200B;图标![在AEM中打开资源图标](assets/open-asset-icon.png)以打开该资源。
+1. （可选且有条件）对于资源，要在Experience Manager中打开Experience Manager资源记录页面，请转到要链接到的记录的记录类型页面，在链接的记录字段中单击资源的名称以打开弹出窗口，然后单击&#x200B;**在AEM中打开**&#x200B;图标![在AEM中打开资源图标](assets/open-asset-icon.png)以打开该资源。<!--not sure if this is also possible for fragments??-->
 
    此操作将在Adobe Experience Manager Assets中打开Experience Manager资源。
 
-1. （可选）在记录类型的表视图中，将鼠标悬停在链接的Experience Manager资源的列标题上，单击下拉菜单，然后单击&#x200B;**编辑查找字段**。
+1. （可选且有条件）对于资源，在记录类型的表视图中，将鼠标悬停在链接的Experience Manager资源的列标题上，单击下拉菜单，然后单击&#x200B;**编辑查找字段**。<!--not sure if this is also possible for fragments??-->
 
-1. 从&#x200B;**未选择的字段**&#x200B;区域添加Experience Manager Assets对象字段
+1. 从&#x200B;**未选择的字段**&#x200B;区域<!--not sure if this is also possible for fragments??-->添加Experience Manager Assets对象字段
 
    或
 
@@ -500,7 +517,7 @@ Old:
    >
    >    默认情况下，仅显示已连接单个记录的已连接记录。
 
-1. （可选）单击“显示所有连接”**&#x200B;**&#x200B;可显示所有连接的记录类型，包括未连接记录的记录类型。
+1. （可选）单击“显示所有连接”****&#x200B;可显示所有连接的记录类型，包括未连接记录的记录类型。
 
 1. （可选）单击截面左侧的向下箭头以将其折叠。
 

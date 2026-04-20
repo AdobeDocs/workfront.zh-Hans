@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
@@ -142,8 +142,8 @@ Old:
 * 不支持空工作表。
 * 以下类型的字段不受支持，无法映射到导入工作表中的字段：
 
-   * 将字段连接到Workfront和AEM Assets对象类型。 您只能将连接字段映射到Planning记录类型。
-   * 从连接的Planning记录或Workfront和AEM Assets对象查找字段
+   * 将字段连接到Workfront和Adobe Experience Manager对象类型。 您只能将连接字段映射到Planning记录类型。
+   * 从连接的Planning记录或Workfront和Adobe Experience Manager对象查找字段
    * 公式字段
    * 创建日期，创建者
    * 上次修改日期，上次修改人

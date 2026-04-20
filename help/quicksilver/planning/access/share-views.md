@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '2016'
+source-wordcount: '2005'
 ht-degree: 1%
 
 ---
@@ -18,12 +18,15 @@ ht-degree: 1%
 
 # 共享视图
 
-<!--there are several mentions on how to share public links for global record types in secondary workspaces in this articel; you have to update all of these mentions when something changes-->
+<!--
+there are several mentions on how to share public links for global record types in secondary workspaces in this articel; you have to update all of these mentions when something changes
+-->
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -217,7 +220,7 @@ Old:
    >
    >* 除了团队、组、公司和职位角色之外，您只能与已添加到Adobe Admin Console的用户共享。 您无法添加仅限Workfront的用户。 有关信息，请参阅[在Adobe Admin Console中管理用户](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)。
    >
-   >* 与用户共享视图时，其主要工作角色<span class="preview">和他们的电子邮件</span>也会显示在字段中。 您必须为访问级别中的“用户”对象启用“查看联系信息”设置，才能查看用户的电子邮件。
+   >* 与用户共享视图时，其主要工作角色及其电子邮件也会显示在字段中。 您必须为访问级别中的“用户”对象启用“查看联系信息”设置，才能查看用户的电子邮件。
 
    * **工作区中的每个人都可以查看**：所有对工作区具有“查看”或更高权限的用户都可以访问该视图。
 
@@ -225,7 +228,7 @@ Old:
 
    ![与组共享视图](assets/sharing-a-view-ui-with-groups.png)
 
-1. <span class="preview">（可选）与组、团队、角色或公司共享时，将鼠标悬停在实体的名称上，然后单击向右箭头以展开正在接收权限的用户列表。</span>
+1. （可选）与组、团队、角色或公司共享时，将鼠标悬停在实体名称上，然后单击向右箭头以展开正在接收权限的用户列表。
 
    ![与团队共享视图](assets/share-view-with-team-expanding-arrow-highlighted.png)
 
@@ -239,15 +242,20 @@ Old:
 
 1. 单击&#x200B;**保存**。
 
-   视图以人员图标![与他人共享的视图图标](assets/view-shared-with-others-people-icon.png)更新，表示该视图现在与其他用户共享。
-
    您共享该视图的用户会收到有关拥有其权限的应用程序内通知和电子邮件通知。
 
-   >[!TIP]
-   >
-   >没有人员或全局图标的视图是您创建的视图，不会与他人共享。 非共享视图仅对您可见。
-
 1. 与他人共享复制的链接。 接收链接的用户必须是活动用户并登录到Workfront才能访问记录类型页面并在选定视图中显示该页面。
+
+1. （可选）将鼠标悬停在视图名称上可了解视图所有者的名称，以及视图是私人共享还是公开共享。
+
+   存在以下标签：
+
+   * **公共**：视图已公开共享。 有关信息，请参阅本文中的[公开共享视图的权限](#share-permissions-to-a-view-publicly)部分。
+   * **由您拥有**：视图由您创建。
+   * **与您共享**：该视图由其他人创建并与您共享。 此外，还会显示拥有者的名称。
+   * **私有**：您已创建该视图，或他人已创建该视图，但并未公开共享它。
+
+   ![私有共享视图悬停在标签](assets/privately-shared-view-hover-over-label.png)上
 
 ## 公开共享视图的权限
 
@@ -296,22 +304,16 @@ Old:
 
 1. 单击&#x200B;**保存**。
 
-   视图将更新为全局图标![高亮显示的公共共享视图图标](assets/public-shared-view-icon-highlighted.png)，以指示该视图是公共共享的。
+1. （可选）将鼠标悬停在视图列表中的视图名称上，并注意该视图表示它现在已公开共享。
 
-   >[!TIP]
-   >
-   >没有人员或全局图标的视图是您创建的视图，不会与他人共享。 非共享视图仅对您可见。
+   ![公共共享视图悬停在标签上](assets/publicly-shared-view-hover-over-label.png)
 
 1. （可选）将您复制的链接粘贴到电子邮件、聊天消息、文档或Workfront注释中，以便与其他人共享。
 
-   <div class="preview">
-
    当其他人打开公共视图时，他们会在标题中看到有关该视图的以下信息：
 
-   * 视图名称和图标
+   * 视图名称和图标。 图标指示视图的类型：表格、时间轴或日历。
    * 视图显示的记录类型的名称
-
-   </div>
 
 ## 将链接复制到视图
 
@@ -353,7 +355,7 @@ Old:
      ![视图访问请求的应用程序内通知](assets/in-app-notification-for-access-request-for-view.png)
 1. （视情况而定）在Workfront的通知区域中，单击应用程序内通知
 或
-在电子邮件通知中，单击&#x200B;**查看所有通知**，然后单击列表中的通知。
+在电子邮件通知中，单击**查看所有通知**，然后单击列表中的通知。
 
    显示&#x200B;**待处理访问请求**&#x200B;框。
 
