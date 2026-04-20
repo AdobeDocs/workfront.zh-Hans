@@ -7,7 +7,7 @@ feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 4%
@@ -48,6 +48,8 @@ Workfront的AI助手通过提供应用程序内信息和自然语言对话建议
 ## AI助理的先决条件
 
 要为您的组织启用AI助手，必须应用以下所有的&#x200B;**所有**：
+
+<!--Remove me October 2026-->
 
 * 您的组织必须已迁移到Adobe IMS (Identity Management System)
 * 必须启用Adobe Unified Experience

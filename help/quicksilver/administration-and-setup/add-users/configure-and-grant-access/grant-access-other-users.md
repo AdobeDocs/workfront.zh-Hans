@@ -5,7 +5,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: f895803007a8f606169589bc4b17c19711c9e3f8
+source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 3%
@@ -102,12 +102,12 @@ ht-degree: 3%
      <tr> 
       <td role="rowheader"><strong>创建</strong> </td> 
       <td> <p>允许用户创建用户。<br>默认启用此选项。</p> 
-     <p><b>注意</b>：如果您的组织已登记到Adobe Admin Console，则此项不可用。 如果需要更多信息，请咨询您的网络或IT管理员。</p>
+     <p><b>注意</b>：如果您的组织已登记到Adobe Admin Console，则此项不可用。 如果需要更多信息，请咨询您的网络或IT管理员。<!--Check this October 2026--></p>
         </td>  
      </tr> 
      <tr> 
       <td role="rowheader"><strong>删除</strong> </td> 
-      <td> <p> 允许用户删除他们自己创建的用户。<br>默认启用此选项。</p> <p><b>注意</b>：如果您的组织已登记到Adobe Admin Console，则此项不可用。 如果需要更多信息，请咨询您的网络或IT管理员。</p> </td> 
+      <td> <p> 允许用户删除他们自己创建的用户。<br>默认启用此选项。</p> <p><b>注意</b>：如果您的组织已登记到Adobe Admin Console，则此项不可用。 如果需要更多信息，请咨询您的网络或IT管理员。<!--Check this October 2026--></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>编辑记帐费率</strong> </td> 

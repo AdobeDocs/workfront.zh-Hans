@@ -11,10 +11,10 @@ role: Admin
 exl-id: 4b481215-36a1-4945-828a-1598502529d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 3%
+source-wordcount: '133'
+ht-degree: 0%
 
 ---
 
@@ -22,91 +22,91 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->本页中介绍的过程仅适用于尚未载入Admin Console的组织。 如果您的组织已载入到Adobe Admin Console，则无需执行任何操作。
+>此页面上描述的过程仅适用于尚未载入Admin Console的组织。 如果您的组织已载入到Adobe Admin Console，则无需执行任何操作。
 >
->有关因贵组织是否已登记到Adobe Admin Console而不同的过程列表，请参阅[基于平台的管理差异（Adobe Workfront/Adobe业务平台）](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
-
-Adobe Workfront服务器利用SAML 2.0协议进行身份验证和授权。 更新后，新证书的有效期为一年。 轮到您在身份提供程序上续订证书时，Workfront中会显示一则警告，提醒您必须进行此更改。 作为Workfront管理员，您可以在系统级别管理此更改。
+>由于所有组织现在都已载入到Adobe Admin Console，因此此功能已被弃用。
 
 <!--
-Use this Important note box in the last few weeks before each update.
 
-You must take action to update the metadata in your identity provider with the information from the renewed certificate before the specified date. Mismatched certificates can keep your users from logging in to Workfront after November 22, 2022.
- 
--->
+Remove me October 2026
+
+The Adobe Workfront servers utilize the SAML 2.0 protocol for authentication and authorization. Once updated, the new certificate remains valid for one year. When it is time for you to renew the certificate on your identity provider, you receive a warning in Workfront alerting you that this change must occur. As a Workfront administrator, you can manage this change at the system level.
+
 
 >[!NOTE]
 >
->如果您组织的Workfront实例已启用Adobe IMS，则此项不可用。 如果需要更多信息，请咨询您的网络或IT管理员。
+>This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
-## 访问权限要求
+## Access requirements
 
-+++ 展开可查看本文所述功能的访问权限要求。
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 包</td> 
-   <td><p>“任一”</p></td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td><p>标准</p><p>规划</p></td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Standard</p><p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
-   <td> <p>您必须是Workfront管理员。</p> </p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## 在Workfront中配置SAML 2.0
+## Configure SAML 2.0 within Workfront
 
-查看警告消息并确认您的身份提供程序中的SAML 2.0元数据的更新：
+To review the warning message and acknowledge the update of the SAML 2.0 metadata in your identity provider:
 
 {{step-1-to-setup}}
 
-1. 单击&#x200B;**系统** > **单点登录**。
+1. Click **System** > **Single Sign-On**.
 
-1. 在&#x200B;**类型**&#x200B;下拉菜单中，选择&#x200B;**SAML 2.0**。
+1. In the **Type** drop-down menu, select **SAML 2.0**.
 
-1. 单击&#x200B;**下载SAML 2.0元数据**。
+1. Click **Download SAML 2.0 Metadata**.
 
-   这将下载续订的Workfront SAML 2.0证书，其中包含您服务器的正确元数据。
+   This downloads the renewed Workfront certificate for SAML 2.0, which contains the correct metadata for your server.
 
-1. 在您的身份提供商中，将您当前的断言消费者服务(ACS) URL（也称为回复URL）复制到安全位置。
+1. In your identity provider, copy your current Assertion Consumer Service (ACS) URL (also known as the Reply URL) to a safe place. 
 
    >[!CAUTION]
    >
-   >在步骤6中将Workfront元数据上传到单点登录(SSO)提供商之前，请将当前断言客户服务(ACS) URL复制到安全位置。 此URL（也称为回复URL）可在您的SSO提供商的Workfront配置页面上找到。
+   >Before you upload the Workfront metadata to your Single Sign-On (SSO) provider in Step 6, copy your current Assertion Consumer Service (ACS) URL to a safe place. This URL, also known as the Reply URL, is found on your SSO provider's Workfront configuration page. 
    >
    >
-   >如果您在上传Workfront元数据后ACS URL发生更改，这意味着元数据可能包含不正确的ACS URL。 您必须将其更改回复制的值，以避免破坏单点登录连接。 执行此操作后，您更新的证书仍将是正确的。
+   >If the ACS URL changes after you upload the Workfront metadata, this means that the metadata might contain an incorrect ACS URL. You must change it back to the one you copied in order to avoid breaking your Single Sign-On connection. Your updated certificate will still be correct after you do this.
 
-1. 在身份提供程序服务器中，更新下载的新证书。
-1. （视情况而定）如果您的身份提供方中的断言客户服务(ACS) URL或回复URL已更改，请将其更改回您在步骤5中复制的URL。
-1. 在Workfront的&#x200B;**单点登录(SSO)页面**&#x200B;上，确保选中此选项： **新的Workfront证书已上载到身份提供程序**。
+1. In your identity provider server, update the new certificate you downloaded.
+1. (Conditional) If the Assertion Consumer Service (ACS) URL or Reply URL has changed in your identity provider, change it back to the URL you copied in Step 5.
+1. In Workfront, on the **Single Sign-on (SSO) page**, make sure that this option is selected: **The new Workfront certificate has already been uploaded to the Identity Provider**.
 
    >[!NOTE]
    >
-   >* 仅当满足以下所有条件时，此选项才可见：
-   >   * 您的组织已为SAML 2.0进行了设置
-   >   * 当前证书已准备好过期
-   >   * 新证书可用
-   >* 如果选择此字段，Workfront管理员可以使用其SSO凭据或Workfront凭据登录Workfront。
+   >* This option is visible only if all of the following apply:
+   >   * Your organization is already set up for SAML 2.0
+   >   * The current certificate is ready to expire
+   >   * The new certificate is available
+   >* When this field is selected, Workfront administrators can log in to Workfront with their SSO credentials or their Workfront credentials.
 
-1. 单击&#x200B;**保存**。
+1. Click **Save**.
 
-   警告消息不再显示，因为您确认了在您的身份提供程序的服务器上续订了SAML 2.0证书。
+   The warning message no longer displays because you acknowledged the renewal of the SAML 2.0 certificate on the server of your identity provider.
 
-1. 单击&#x200B;**测试连接**&#x200B;以测试您的配置。
+1. Click **Test Connection** to test your configuration.
 
-   您应该会看到一条消息，确认连接成功。
+   You should see a message confirming that the connection was successful.
 
-有关详细信息或手动配置元数据的帮助，请联系我们的支持团队，如[联系客户支持](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)中所述。
+For more information, or for assistance with the manual configuration of metadata, please contact our Support Team, as explained in [Contact Customer Support](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+
+-->

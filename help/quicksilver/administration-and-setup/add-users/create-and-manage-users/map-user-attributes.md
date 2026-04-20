@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d523584-dcb8-4aa6-8217-611f22dc1450
-source-git-commit: 9e7d20fe165e08997c14e207406fb8bed7597a56
+source-git-commit: d8ccdeac9a658ca7a2862781e98c2c3c6fa0e8a0
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 1%
+source-wordcount: '586'
+ht-degree: 3%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 1%
 
 使用单点登录(SSO)，您可以将身份提供程序的Active Directory中的属性传递给Adobe Workfront用户。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -45,7 +45,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -60,75 +60,6 @@ ht-degree: 1%
   示例：如果您在Workfront中映射“姓氏”并更新其名称，而不更新其身份提供程序中的值，则下次用户登录时，姓氏将被覆盖，以匹配身份提供程序中任何位置的值。
 
 ## 为您的组织映射用户属性
-
-根据您的组织是否使用Adobe统一体验，映射属性的过程会有所不同。
-
-要确定您的组织是否位于Adobe统一体验中，请检查用于访问Workfront的URL。
-
-| URL | Adobe体验 |
-|---|---|
-| （公司名称）.my.workfront.com | 经典体验 |
-| experience.adobe.com | Adobe unified experience |
-
-* [在经典体验中映射用户属性](#map-user-attributes-in-the-classic-experience)
-* [在Adobe统一体验中映射用户属性](#map-user-attributes-in-the-adobe-unified-experience)
-
-### 在经典体验中映射用户属性
-
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**设置**![齿轮设置图标](assets/gear-icon-settings.png)。
-
-1. 单击&#x200B;**系统** > **单点登录(SSO)**。
-
-1. 在&#x200B;**类型**&#x200B;下拉列表中，单击&#x200B;**SAML 2.0**。
-
-1. 单击&#x200B;**映射用户属性**。
-
-   ![映射用户属性](assets/map-user-attributes.png)
-
-1. 在显示的选项行中，映射Workfront用户所需的属性。
-
-   您可以映射地址、经理、工作角色、主组等属性。
-
-   属性映射以1:1的比率工作。 例如，您不能设置用户所属的每个组；您只能为每个用户设置一个。
-
-   >[!IMPORTANT]
-   >
-   >我们不建议在属性映射中映射访问级别。 如果这样做，则在设置默认值时要小心，以确保不会无意中移除管理员访问权限。
-
-   下表说明了可用于映射属性的字段：
-
-   <table style="table-layout:auto"> 
-    <col data-mc-conditions=""> 
-    <col data-mc-conditions=""> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Workfront 用户属性</td> 
-      <td>选择要映射的属性的名称</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">目录属性</td> 
-      <td>键入要使用的SSO属性标签。</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">默认值</td> 
-      <td> <p>选择Workfront用户属性后，如果在连接期间该值为空，则此字段将用系统中相应的默认值填充。 仅当计划应用属性映射规则时，才在此处键入值（请参阅步骤7）。 默认值作为这些规则的例外。</td> 
-     </tr> 
-    </tbody> 
-   </table>
-
-1. （可选）单击&#x200B;**规则**&#x200B;将规则添加到该属性。
-
-   1. 在下拉列表中，选择要使用的属性修饰符。
-   1. 在右侧的2个字段中，键入目录属性值以及要替换它的值。
-
-      ![规则字段](assets/rule-fields.png)
-
-   您可以单击&#x200B;**添加规则**&#x200B;以向属性添加更多规则。
-
-1. （可选）要映射更多用户属性，请单击&#x200B;**添加映射**&#x200B;并重复步骤6-7。
-1. 单击&#x200B;**保存**。
-
-### 在Adobe统一体验中映射用户属性
 
 1. 单击Adobe Workfront左上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-left.png)，然后单击&#x200B;**设置**![齿轮设置图标](assets/gear-icon-settings.png)。
 

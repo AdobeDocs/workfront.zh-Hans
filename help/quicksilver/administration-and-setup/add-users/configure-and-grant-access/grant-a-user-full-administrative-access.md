@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
 workflow-type: tm+mt
-source-wordcount: '1542'
-ht-degree: 4%
+source-wordcount: '1571'
+ht-degree: 5%
 
 ---
 
@@ -16,13 +16,17 @@ ht-degree: 4%
 
 <!--Audited: 12/2024-->
 
+<!--Remove me October 2026-->
+
 >[!IMPORTANT]
 >
->本页中介绍的过程仅适用于尚未载入Admin Console的组织。 如果贵组织已载入到Adobe Admin Console，则必须通过Adobe Admin Console执行此操作。
+>本页中介绍的过程仅适用于尚未载入Admin Console的组织。 将您的组织载入Adobe Admin Console后，必须通过Adobe Admin Console执行此操作。
+>
+>**由于所有组织现在都已迁移到Adobe Admin Console，因此本文中的信息不再相关，不久将会被删除。**
 >
 >有关在Adobe Admin Console中授予完全管理员访问权限的说明，请参阅[在Adobe Admin Console中管理用户](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)。
 >
->有关因贵组织是否已登记到Adobe Admin Console而不同的过程列表，请参阅[基于平台的管理差异(Adobe Workfront/Adobe业务平台)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
+>有关因贵组织是否已登记到Adobe Admin Console而不同的过程列表，请参阅[基于平台的管理差异（Adobe Workfront/Adobe业务平台）](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
 作为Adobe Workfront管理员，您可以通过分配系统管理员访问级别来创建另一个Workfront管理员。 具有此访问级别的用户对Workfront中的所有内容（包括他们自己未创建的项目）具有完全管理访问权限。
 
@@ -34,17 +38,17 @@ ht-degree: 4%
 >* [Workfront管理员的访问权限与具有管理权限的计划用户的访问权限](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights)（本文中）
 >
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td>任何</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td>“任一”</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

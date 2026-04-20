@@ -7,34 +7,34 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 8f5b78c9-b84f-4f56-b7cc-ba686fac2da1
-source-git-commit: b9547764abd4f1f61d93da6bc66d9e6776954f4d
+source-git-commit: 480f40d77cfc494ac28a2332c0e15bd1f0f00a6b
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 1%
+source-wordcount: '163'
+ht-degree: 12%
 
 ---
 
 # Adobe Workfront API调用的域格式
 
-当您对Workfront API进行API调用时，您在调用中使用组织的域。 此域URL的格式因您的组织是否已载入Adobe Unified Shell而异。
+当您对Workfront API进行API调用时，您在调用中使用组织的域。
 
-要了解您的组织是否位于Adobe Unified Shell上，请检查查看Workfront页面时显示的URL。
+您为API调用创建的URL取决于您用于连接到Workfront的URL。
 
 | Workfront URL开头为： | API调用的URL： |
 |---|---|
 | `experience.adobe.com` | `<yourdomain>.my.workfront.adobe.com` |
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何 </p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一” </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

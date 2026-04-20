@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d817bd2b-1aaa-4dde-8e75-392c1da2943a
-source-git-commit: 6b2d93d2573d72e4390761038d8078f47d96d55e
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 0%
+source-wordcount: '231'
+ht-degree: 8%
 
 ---
 
@@ -21,21 +21,21 @@ ht-degree: 0%
 >
 >本页中介绍的过程仅适用于尚未载入Admin Console的组织。 如果贵组织已载入Adobe Admin Console，则无法更改您的Workfront域。
 >
->有关因贵组织是否已登记到Adobe Admin Console而不同的过程列表，请参阅[基于平台的管理差异(Adobe Workfront/Adobe业务平台)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
+>有关因贵组织是否已登记到Adobe Admin Console而不同的过程列表，请参阅[基于平台的管理差异（Adobe Workfront/Adobe业务平台）](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
 作为Adobe Workfront管理员和经授权的Workfront支持联系人，您可以向Workfront支持团队请求帮助，以更改贵组织的Workfront域。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -60,25 +60,30 @@ ht-degree: 0%
 
 您还可以致电Workfront支持，获取有关更改域的帮助。
 
-## 如果您是SSO客户，请更新新域
+<!--
 
-如果您的公司使用SSO，则在更改Workfront域后需要执行以下步骤。
+## Update the new domain if you are an SSO customer
+
+If your company utilizes SSO, the following steps are required after you have your Workfront domain changed.
 
 >[!NOTE]
 >
->如果您组织的Workfront实例已启用Adobe IMS，则此项不可用。 如果需要更多信息，请咨询您的网络或IT管理员。
+>This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
 {{step-1-to-setup}}
 
-1. 在左侧边栏中，单击&#x200B;**系统** > **客户信息**，并确保您的域在“客户信息”页面上已更新。
+1. In the left sidebar, click **System** > **Customer Info** and make sure that your domain is updated on the Customer Info page.
 
-1. 在左侧边栏中，单击&#x200B;**系统** > **单点登录(SSO)**。
+1. In the left sidebar, click **System** > **Single Sign-On (SSO)**.
 
-1. 单击&#x200B;**下载SAML 2.0元数据**。
-1. 下载文件后，打开它并确保以下各项：
+1. Click **Download SAML 2.0 Metadata**.
+1. After the file is downloaded, open it and make sure of the following:
 
-   1. **entityID**&#x200B;正在指向新域。
-   1. **`<md:AssertionConsumerService>`**&#x200B;中的所有位置都指向新域。
+   1. **entityID** is pointing to the new domain.
+   1. All locations within **`<md:AssertionConsumerService>`** point to the new domain.
 
-1. 将下载的元数据文件提供给您的身份提供程序，以便他们能够在其终端进行更新。
-1. 确保为您的组织使用的所有Workfront集成更新域。
+1. Provide the downloaded metadata file to your Identity Provider so that they can update it on their end.
+1. Make sure the domain is updated for all Workfront integrations used by your organization.
+
+
+-->

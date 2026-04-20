@@ -7,16 +7,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: bdc6d5ee-2037-4d0b-bf18-3e6cc9cb078e
-source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '370'
 ht-degree: 7%
 
 ---
 
 # 配置自定义本地化
 
-通过自定义本地化，您可以使用不同的语言定义自定义术语和短语。 然后，Workfront会以用户的Adobe Identity Management (IMS)设置中设置的语言显示这些术语。 如果用户不在Adobe IMS上，则术语将以用户的浏览器设置中设置的语言显示。
+通过自定义本地化，您可以使用不同的语言定义自定义术语和短语。 然后，Workfront会以用户的Adobe Identity Management (IMS)设置中设置的语言显示这些术语。
 
 例如，您可以设置标签“Target Audience”以翻译为德语单词“Zielgruppe”。 任何选择德语作为浏览器主要语言的用户都会看到“Zielgruppe”一词作为任何英语中标记为“目标受众”的字段的标签。
 

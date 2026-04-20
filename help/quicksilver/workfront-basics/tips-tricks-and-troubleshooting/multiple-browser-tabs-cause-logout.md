@@ -6,18 +6,14 @@ description: 当用户打开多个浏览器标签时，Workfront 可能会自动
 feature: Get Started with Workfront
 author: Becky
 exl-id: 1cc8bf6c-0eda-41ef-8efd-bba3a5f33b08
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 440640f5b916b76096c99eed8253236de477a02a
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 29%
+source-wordcount: '164'
+ht-degree: 32%
 
 ---
 
 # 多个浏览器选项卡会导致Workfront注销
-
->[!IMPORTANT]
->
->此问题仅出现在已载入Adobe IMS的组织中。
 
 ## 问题
 

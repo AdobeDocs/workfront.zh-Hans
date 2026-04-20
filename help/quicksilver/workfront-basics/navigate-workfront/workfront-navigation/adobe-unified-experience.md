@@ -6,9 +6,9 @@ description: 通过Adobe Experience Cloud访问 [!DNL Workfront] 可为您提供
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 5304f25ecb198f45c024b71185747f47fa8307d4
+source-git-commit: d9d6d572840f5691888d0db3242f3908978079b3
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '688'
 ht-degree: 3%
 
 ---
@@ -18,13 +18,6 @@ ht-degree: 3%
 <!--Audited: 10/2024-->
 
 通过[!DNL Workfront]访问[!DNL Adobe Experience Cloud]可为您提供管理所有[!DNL Adobe]应用程序的无缝、统一的体验。 单一身份管理为您提供了一个登录位置，无需使用多个URL或登录ID。
-
-如果您的组织位于Adobe Unified Experience上，则用于访问Workfront的URL将以`experience.adobe.com`开头。
-
-| URL | Adobe体验 |
-|------------|------------|
-| （公司名称）.my.workfront.com | Workfront体验 |
-| experience.adobe.com | Adobe Unified Experience |
 
 ## 访问权限要求
 
@@ -36,7 +29,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront 包</strong></td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront许可证</strong></td> 
@@ -94,7 +87,7 @@ ht-degree: 3%
 使用[!UICONTROL 导航栏左侧的]主菜单![图标](assets/main-menu-icon-left-nav.png)主菜单图标[!DNL Workfront]导航到您有权访问的任何页面。 [!UICONTROL 主菜单]中可用的选项依赖于：
 
 * **布局模板配置**：要了解[!DNL Workfront]管理员如何从布局模板修改[!UICONTROL 主菜单]，请参阅[使用布局模板自定义[!UICONTROL 主菜单]](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)。
-* **许可证类型**：要了解不同许可证类型的默认配置，请参阅[了解[!UICONTROL 审阅]许可证用户的导航](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)或[了解[!UICONTROL 工作]许可证用户的导航](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)。
+* **许可证类型**：要了解不同许可证类型的默认配置，请参阅[了解[!UICONTROL 轻量级]许可证用户的导航](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)或[了解[!UICONTROL 工作]许可证用户的导航](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)。
 
 ![主菜单](assets/main-menu-options-left-nav.png)
 

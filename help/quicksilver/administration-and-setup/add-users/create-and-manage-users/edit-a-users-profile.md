@@ -8,25 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: d8a01839b8f1332741f87be766f3ccb7d08cef96
+source-git-commit: 579b550fef222922de1ed5fe2c9928a92b3fb7f2
 workflow-type: tm+mt
-source-wordcount: '3441'
+source-wordcount: '3425'
 ht-degree: 0%
 
 ---
 
 # 编辑用户配置文件
-
-<!--
-
->[!IMPORTANT]
->
->The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
->
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/cn/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
->
->For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
--->
 
 作为Adobe Workfront管理员，您可以创建用户并管理现有用户的配置文件。 有关创建用户的信息，请参阅[添加用户](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)。
 
@@ -90,7 +79,7 @@ ht-degree: 0%
 
   如果您使用电子邮件允许列表并输入不在列表中的电子邮件域，则用户不会收到电子邮件通知。 有关允许列表的详细信息，请参阅[配置电子邮件](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)。
 
-  如果贵组织已迁移到Adobe Admin Console，则无法在Workfront中编辑用户的电子邮件地址。 用户的电子邮件地址是在Adobe Admin Console中设置的。
+  由于您的组织已迁移到Adobe Admin Console，因此您无法在Workfront中编辑用户的电子邮件地址。 用户的电子邮件地址是在Adobe Admin Console中设置的。
 
 * **更改密码**：单击此按钮可重置用户的密码。 在重置其他用户的密码之前，必须输入自己的密码。
 
@@ -126,7 +115,7 @@ ht-degree: 0%
 * **工作信息**：有关该工作的信息，如职称（在&#x200B;**职称**&#x200B;字段中）以及用户负责哪方面的专业知识（在&#x200B;**与我谈关于**&#x200B;字段中）。
 * **联系信息**：用户的电话号码(**电话号码**，**分机。**&#x200B;和&#x200B;**手机号码**&#x200B;字段)和地址（在&#x200B;**地址**、**城市**、**州**、**邮政编码**&#x200B;和&#x200B;**国家/地区**&#x200B;字段中）。
 
-  如果用户启用了统一用户管理(UUM)或Adobe Identity Management System (IMS)，则联系人信息部分中的&#x200B;**国家/地区**&#x200B;字段仅接受国家/地区代码值（例如，US、GB、IN）。
+  联系人信息部分中的&#x200B;**国家/地区**&#x200B;字段仅接受国家/地区代码值（例如，US、GB、IN）。
 
 ### 首选项
 
@@ -399,8 +388,8 @@ ht-degree: 0%
        <ul> 
       <li> <p><b>Time Zone:</b> The user's time zone.</p> <p>For information about helping users collaborate in Workfront across time zones, see <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Working across time zones</a>.</p> </li>
 
-      <li><p><b>Email Locale</b>: The user's preferred email locale. This affects the format of numbers and dates in the emails that come from Workfront to this user.</p>
-      <p><b>NOTE:</b> When your organization is on the Adobe Unified Experience, the user's language preferences are stored in their Adobe profile and the email locale is not used. For information about accessing these preferences, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p></li> 
+      <li><p><b>Email Locale</b>: The user's preferred email locale. </p>
+      <p><b>NOTE:</b> The user's language preferences are stored in their Adobe profile and the email locale is not used. For information about accessing these preferences, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p></li> 
       
       <li><b>Receive emails from this test environment</b>: Check this option if you want to receive email notifications from the environment that you are currently logged in.
       <p><b>NOTE</b></p>

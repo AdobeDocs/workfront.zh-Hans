@@ -4,16 +4,16 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
-description: 作为Workfront管理员，您可以在Workfront实例中自定义品牌策略并创建自定义帮助URL。
+description: 作为Workfront管理员，您可以创建自定义帮助URL。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8a733194-f99b-4066-949f-755046b8d515
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: 081eff3b840004f1c3b421032f3593cb6c175690
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 11%
+source-wordcount: '37'
+ht-degree: 13%
 
 ---
 

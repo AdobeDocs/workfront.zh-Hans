@@ -6,10 +6,10 @@ description: 作为具有Plan许可证的用户，您可以配置是将时间记
 author: Lisa
 feature: Timesheets
 exl-id: 4f801a13-182d-4e06-98ea-f6863f6a8edf
-source-git-commit: b0a3a11a3c04a0969bee99f8e1cea231911f0e6a
+source-git-commit: 58a6b489ca5f1683a5c40c63bb4528b1f49e9324
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 0%
+source-wordcount: '431'
+ht-degree: 4%
 
 ---
 
@@ -21,17 +21,17 @@ ht-degree: 0%
 >
 >我们建议在整个组织内以相同的方式记录时间（小时或天），以确保报告准确性。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto">
  <col> 
  <col>
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td>Adobe Workfront 包</td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
@@ -52,11 +52,11 @@ ht-degree: 0%
 
 1. 根据您的目标和系统中的访问级别，执行以下任一操作：
 
-   * **Standard或Plan用户为自己配置时间日志记录：**&#x200B;单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](assets/main-menu-icon.png)，然后单击配置文件图片旁边的用户名。 或者（如果可用），单击顶部导航区域中的配置文件图片，然后单击&#x200B;**[!UICONTROL Workfront配置文件]**。 然后，单击您姓名旁边的&#x200B;**更多**&#x200B;图标并选择&#x200B;**编辑**。
+   * **Standard或Plan用户为自己配置时间日志记录：**&#x200B;单击顶部导航区域中的配置文件图片，然后单击&#x200B;**[!UICONTROL Workfront配置文件]**。 然后，单击您姓名旁边的&#x200B;**更多**&#x200B;图标并选择&#x200B;**编辑**。
 
    * **系统管理员为其他人配置时间日志记录：**&#x200B;如[编辑用户配置文件](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)中所述，开始编辑一个或多个用户帐户。
 
-1. 在生成的对话框中，在&#x200B;**资源规划**&#x200B;部分中，找到&#x200B;**在**&#x200B;中记录时间选项。
+1. 在“用户配置文件”对话框的&#x200B;**资源计划**&#x200B;部分中，找到&#x200B;**在**&#x200B;中记录时间选项。
 
    ![在选项中记录时间](assets/user-profile-log-time-options.png)
 

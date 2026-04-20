@@ -3,12 +3,12 @@ product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: 注销 [!DNL Adobe Workfront]
 description: 出于安全原因，请务必定期注销 [!DNL Adobe Workfront] 。 默认情况下， [!DNL Workfront] 会在用户处于非活动状态8小时后自动将其注销。
-author: Courtney
+author: Becky
 feature: Get Started with Workfront
 exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: d9d6d572840f5691888d0db3242f3908978079b3
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '223'
 ht-degree: 7%
 
 ---
@@ -17,21 +17,17 @@ ht-degree: 7%
 
 出于安全原因，请务必定期注销[!DNL Adobe Workfront]。 默认情况下，[!DNL Workfront]会在用户处于非活动状态8小时后自动将其注销。
 
+<!--Remove this October 2026-->
+
 >[!NOTE]
 >
 >通常，[!DNL Workfront]管理员可以将此时间更改为15分钟到7天不活动之间的任何时间，如[配置系统安全首选项](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)中所述，但此功能当前不可用。 我们正在研究身份验证增强功能，这些功能将允许在指定的非活动状态时间段后自动注销。
-
-<!--
-><MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
->TEMPORARY note! Remove and update how this works after IMS takes over. There's another note like this in Manage Workfront/Security/configure-security-preferences.html>
-></MadCap:conditionalText>
--->
-
->[!IMPORTANT]
 >
->此页面上描述的过程仅适用于尚未载入[!DNL Adobe Experience Cloud]的组织。
+>此页面上描述的过程仅适用于尚未载入Adobe Admin Console的组织。
 >
-> 如果贵组织已登记到[!DNL Adobe Experience Cloud]，您将通过单击顶部导航中的配置文件图片并从菜单中选择“[!UICONTROL **注销**]”来注销。 有关详细信息，请参阅[[!DNL Adobe Unified Experience] 的 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+>现在，所有Workfront组织都已登记到Adobe Admin Console。
+>
+> 由于您的组织已登记到[!DNL Adobe Experience Cloud]，因此您将通过单击顶部导航中的配置文件图片并从菜单中选择“[!UICONTROL **注销**]”来注销。 有关详细信息，请参阅[[!DNL Adobe Unified Experience] 的 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 ## 访问权限要求
 
@@ -43,13 +39,14 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 包</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
    <td> 
    <p>参与者或更高版本</p>
-   <p>请求或更高版本</p> </td> 
+   <p>请求或更高版本</p> 
+   </td> 
   </tr> 
  </tbody> 
 </table>

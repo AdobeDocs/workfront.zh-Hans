@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: eb5296348c27f806dd50b997970166ebae4c97f4
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 2%
+source-wordcount: '54'
+ht-degree: 5%
 
 ---
 
@@ -19,100 +19,110 @@ ht-degree: 2%
 
 <!--Audited: 2024-->
 
+>[!IMPORTANT]
+>
+>此页面上描述的过程已被删除，因为它仅适用于尚未载入Adobe Admin Console的组织。
+>
+>现在，所有Workfront组织都已登记到Adobe Admin Console。
+
+<!--DELETE ME MARCH 2026-->
+
+<!--
+
 {{important-not-on-aec}}
 
-您需要以下信息才能登录到[!DNL Adobe Workfront]：
+You need the following information to log in to [!DNL Adobe Workfront]:
 
-* **登录URL：**&#x200B;这是您公司的唯一URL，其格式应为： **`yourCompanyDomain.my.workfront.com`**。\
-   如果您设置为单点登录(SSO)，则您的URL可能已被您的[!DNL Workfront]管理员更改。 有关使用SSO登录[!DNL Workfront]的详细信息，请参阅本文中的[使用SSO登录 [!DNL Workfront] &#x200B;](#log-in-to-workfront-with-sso)。
+* **A login URL:** This is your company's unique URL, which should have this format: **`yourCompanyDomain.my.workfront.com`**.\
+   If you are set up for single sign-on (SSO), your URL might have been changed by your [!DNL Workfront] administrator. For more information about logging in to [!DNL Workfront] with SSO, see [Log in to [!DNL Workfront] with SSO](#log-in-to-workfront-with-sso) in this article.
 
-  您公司的域名由[!DNL Workfront]建立。 要更改您的域名，请联系我们的客户支持团队。 有关如何联系我们的客户支持团队的信息，请参阅[联系客户支持](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。
+   The domain name for your company is established by [!DNL Workfront]. To change your domain name, contact our Customer Support team. For information about how to contact our Customer Support team, see [Contact Customer Support](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
-* **用户名：**&#x200B;您的[!DNL Workfront]管理员设置您的用户名。
-* **密码：**&#x200B;如果系统未设置SSO，请在收到[!DNL Workfront]管理员的电子邮件邀请后设置[!DNL Workfront]密码。
+* **A username:** Your [!DNL Workfront] administrator sets up your user name.
+* **A password:** If your system is not set up for SSO, you set up your [!DNL Workfront] password after receiving an email invitation from the [!DNL Workfront] administrator.
 
-  有关使用SSO登录[!DNL Workfront]的详细信息，请参阅本文中的[使用SSO登录 [!DNL Workfront] &#x200B;](#log-in-to-workfront-with-sso)。
+   For more information about logging in to [!DNL Workfront] with SSO, see [Log in to [!DNL Workfront] with SSO](#log-in-to-workfront-with-sso) in this article.
 
-  有关接收电子邮件邀请和创建[!DNL Workfront]密码的详细信息，请参阅[接收电子邮件邀请并创建 [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)的密码。
+   For more information about receiving email invitations and creating a [!DNL Workfront] password, see [Receive email invitations and create a password for [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md).
 
-## 访问权限要求
+## Access requirements
 
-+++ 展开可查看本文所述功能的访问权限要求。
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  </col>
  <tbody> 
   <tr> 
-   <td>Adobe Workfront 包</td> 
-   <td> <p>“任一”</p> </td> 
+   <td>Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td>Adobe Workfront许可证</td> 
+   <td>Adobe Workfront license</td> 
    <td> 
-   <p>参与者或更高版本</p>
-   <p>请求或更高版本</p> </td> 
+   <p>Contributor or higher</p>
+   <p>Request or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## 不使用SSO登录到[!DNL Workfront]
+## Log in to [!DNL Workfront] without SSO
 
-如果[!DNL Workfront]管理员未设置[!DNL Workfront]以与SSO解决方案集成，则您需要一个新的Workfront用户名和密码。 有关配置Workfront以与SSO解决方案集成的信息，请参阅[Adobe Workfront中的单点登录概述](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)。
+If your [!DNL Workfront] administrator did not set up [!DNL Workfront] to integrate with your SSO solution, you will need a new username and password for Workfront. For information about configuring Workfront to integrate with an SSO solution, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
-要使用您的[!DNL Workfront]用户名和密码登录[!DNL Workfront]，请执行以下操作：
+To log into [!DNL Workfront] using your [!DNL Workfront] username and password:
 
-1. 打开浏览器窗口，然后键入公司的唯一URL，其格式应为： **`yourCompanyDomain.my.workfront.com`**。
+1. Open a browser window, then type in the unique URL of your company, which should have the following format: **`yourCompanyDomain.my.workfront.com`**.
 
-   有关[!DNL Workfront]支持哪些浏览器的更多信息，请参阅[[!DNL Adobe Workfront] 浏览器要求](../../../workfront-basics/workfront-browser-requirements.md)。
+   For more information about what browsers are supported for [!DNL Workfront], see [[!DNL Adobe Workfront] browser requirements](../../../workfront-basics/workfront-browser-requirements.md).
 
-1. 在登录屏幕中，输入您的用户名和密码。
+1. In the login screen, enter your username and password.
 
-   您的用户名通常是与您的[!DNL Workfront]帐户关联的电子邮件地址。 如果忘记密码，请参阅[重置密码](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md)。
+   Your username is typically the email address associated with your [!DNL Workfront] account. If you forgot your password, see [Reset your password](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md).
 
-1. （视情况而定）如果贵组织的[!DNL Workfront]登录URL不包含域，则必须在[!UICONTROL 域]字段中指定您的域。
-1. 单击&#x200B;**[!UICONTROL 登录]**。
+1. (Conditional) If your organization's [!DNL Workfront] login URL doesn't contain a domain, you must specify your domain in the [!UICONTROL Domain] field.
+1. Click **[!UICONTROL Login]**.
 
-## 使用SSO登录到[!DNL Workfront]
+## Log in to [!DNL Workfront] with SSO
 
-如果[!DNL Workfront]管理员将[!DNL Workfront]与单点登录解决方案集成，您应联系他们以获取登录[!DNL Workfront]所需的信息。 有关将Workfront与SSO解决方案集成的详细信息，请参阅[单点登录概述 [!DNL Adobe Workfront]](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)。
+If your [!DNL Workfront] administrator integrated [!DNL Workfront] with a single sign-on solution, you should contact them for the information needed for your logging in to [!DNL Workfront]. For more information about integrating Workfront with an SSO solution, see [Overview of single sign-on in [!DNL Adobe Workfront]](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
-要使用您的SSO用户名和密码登录[!DNL Workfront]，请执行以下操作：
+To log in to [!DNL Workfront] using your SSO username and password:
 
-1. 打开浏览器窗口。
+1. Open a browser window.
 
-   有关[!DNL Workfront]支持哪些浏览器的更多信息，请参阅[[!DNL Adobe Workfront] 浏览器要求](../../../workfront-basics/workfront-browser-requirements.md)。
+   For more information about what browsers are supported for [!DNL Workfront], see [[!DNL Adobe Workfront] browser requirements](../../../workfront-basics/workfront-browser-requirements.md).
 
-1. 键入公司的唯一URL。
+1. Type the unique URL of your company.
 
-   如果[!DNL Workfront]管理员未更改默认[!DNL Workfront] URL，则其格式应如下所示：
+   If your [!DNL Workfront] administrator did not change the default [!DNL Workfront] URL, it should have the following format:
 
    **`yourCompanyDomain.my.workfront.com`**
 
-1. 您的[!DNL Workfront]管理员可以确保您拥有正确的URL。
-1. 在登录屏幕上，输入您的用户名和密码。
+1. Your [!DNL Workfront] administrator can ensure that you have the correct URL.
+1. On the login screen, enter your username and password.
 
-   您的用户名和密码通常是您的网络用户名和密码，用于您的所有应用程序。 如果您忘记了密码或用户名，请使用环境中提供的工具重置密码，或联系[!DNL Workfront]管理员。
+   Your username and password are typically your network user name and password, which you use for all your applications. If you forgot your password or your user name, use the tools provided in your environment for resetting them, or contact your [!DNL Workfront] administrator.
 
-   登录屏幕的外观会随着您使用的SSO解决方案以及[!DNL Workfront]管理员配置该解决方案的方式而改变。
+   The look and feel of your login screen changes depending on what SSO solution you use and the way it was configured by your [!DNL Workfront] administrator.
 
-1. 完成您的登录。
+1. Complete your login.
 
-## 使用公司域登录到[!DNL Workfront]移动应用
+## Log in to the [!DNL Workfront] mobile app using company domain
 
-1. 启动[!DNL Workfront]移动应用，然后单击&#x200B;**使用公司域**&#x200B;登录。
+1. Launch the [!DNL Workfront] mobile app, then click **Sign in with company domain**.
 
-1. 键入您组织的域。
+1. Type your organization's domain.
 
-   如果您的组织使用SSO，则这是SAML域。
+   This is the SAML domain if your organization is using SSO.
 
    >[!TIP]
    >
-   >这通常是您的公司名称。 如果您不确定，请联系您的[!DNL Workfront]管理员。
+   >This is typically your company name. If you are unsure, contact your [!DNL Workfront] administrator.-->
 
 <!--
 1. Specify the [!DNL Workfront] URL for your company or the link to your SAML authentication portal.
@@ -133,30 +143,30 @@ ht-degree: 2%
 1. Specify the **[!UICONTROL Password]** for your [!DNL Workfront] account or SAML user.
 -->
 
-1. （视情况而定）如果您是首次登录，将显示一个页面，请求[!DNL Workfront]移动应用访问您的帐户的权限。 单击&#x200B;**允许访问**&#x200B;以继续。
+<!--1. (Conditional) If you are logging in for the first time, a page requesting permission for the [!DNL Workfront] mobile app to access your account will display. Click **Allow access** to continue.
 
-1. 系统会将您重定向到一个允许您以相同方式登录到桌面网站的网页。 此过程因您组织的Workfront配置而异，有关详细信息，请参阅[不使用SSO登录到 [!DNL Workfront] &#x200B;](#log-in-to-workfront-without-sso)或上面[使用SSO登录到 [!DNL Workfront] &#x200B;](#log-in-to-workfront-with-sso)。
+1. You are redirected to a webpage that allows you to log in identically to the desktop site. This process varies depending on your organization's Workfront configuration, see [Log in to [!DNL Workfront] without SSO](#log-in-to-workfront-without-sso) or [Log in to [!DNL Workfront] with SSO](#log-in-to-workfront-with-sso) above for more information. 
 
-   完成后，您会被重定向到移动设备应用程序并登录。
+   Once complete, you are redirected by to the mobile app and signed in.
 
-1. 点按&#x200B;**[!UICONTROL 确定，已获取]**&#x200B;或&#x200B;**[!UICONTROL 快速入门]**&#x200B;以浏览显示的教程。
+1. Tap **[!UICONTROL Okay, got it]** or **[!UICONTROL GETTING STARTED]** to navigate through the tutorials displayed.
 
-   这些教程仅在您首次访问应用程序时显示。 只有在卸载并重新安装[!DNL Workfront]移动应用时，或者以其他用户身份登录时，它们才会再次显示。 关闭教程后，显示的区域就是您选择显示的区域
+   These tutorials display only the first time you access the app. They display again only when you uninstall and reinstall the [!DNL Workfront] mobile app, or if you log in as another user. After closing out the tutorials, the area that displays is the one that you selected to show
 
-## 使用[!DNL Workfront] ID登录到[!DNL Adobe]移动应用
+## Log in to the [!DNL Workfront] mobile app using [!DNL Adobe] ID
 
-1. 启动[!DNL Workfront]移动应用，然后单击&#x200B;**使用[!DNL Adobe] ID**&#x200B;登录。
+1. Launch the [!DNL Workfront] mobile app, then click **Sign in with [!DNL Adobe] ID**.
 
 >[!NOTE]
 >
->对于IMS上的iOS用户，您可以选择&#x200B;**使用公司域**&#x200B;登录，并使用[!DNL Workfront]管理员提供的域使用您的[!DNL Adobe] ID登录。
+>For iOS users on IMS, you can select **Sign in with company domain** and use the domain provided by your [!DNL Workfront] administrator to log in using your [!DNL Adobe] ID.
 
-1. 键入电子邮件，然后单击&#x200B;**继续**。
+1. Type in your email, then click **Continue**.
 
-1. （视情况而定）选择要用于登录的帐户。 一般情况下，如果您的&#x200B;**ID与组织关联，则这将是**&#x200B;公司或学校帐户[!DNL Adobe]。
+1. (Conditional) Select the account you would like to use to log in. Typically, this will be **Company or School Account** if your [!DNL Adobe] ID is associated with an organization. 
 
-1. （视情况而定）选择您的帐户与多个组织关联时要使用的配置文件。
+1. (Conditional) Select a profile to use if your account is associated with more than one organization.
 
-1. 您现在已登录。 点按&#x200B;**[!UICONTROL 确定，已获取]**&#x200B;或&#x200B;**[!UICONTROL 快速入门]**&#x200B;以浏览显示的教程。
+1. You are now signed in. Tap **[!UICONTROL Okay, got it]** or **[!UICONTROL GETTING STARTED]** to navigate through the tutorials displayed.
 
-   这些教程仅在您首次访问应用程序时显示。 只有在卸载并重新安装[!DNL Workfront]移动应用时，或者以其他用户身份登录时，它们才会再次显示。 关闭教程后，显示的区域就是您选择显示的区域
+   These tutorials display only the first time you access the app. They display again only when you uninstall and reinstall the [!DNL Workfront] mobile app, or if you log in as another user. After closing out the tutorials, the area that displays is the one that you selected to show-->

@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: f1fe1a2fe6e123d8a039e8d7e3547c0b0a8141df
+source-git-commit: 480f40d77cfc494ac28a2332c0e15bd1f0f00a6b
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 3%
+source-wordcount: '305'
+ht-degree: 9%
 
 ---
 
@@ -23,17 +23,17 @@ ht-degree: 3%
 
 个人用户也可以重置自己的用户首选项设置。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td>Adobe Workfront 包</td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
@@ -120,25 +120,13 @@ ht-degree: 3%
 1. 选择&#x200B;**登录身份**。
 1. 开始键入要重置其首选项的用户名，然后在名称出现在下拉列表中时单击该名称。
 1. 选择&#x200B;**登录**。
-1. 如果贵组织尚未载入Adobe Unified Experience，请按照以下步骤操作：
+1. 在Web浏览器顶部的URL字段中，在`/resetUser`之后添加`workfront`。
 
-   * 在Web浏览器顶部的URL字段中，在`/resetUser`之后添加`workfront.com`。
-
-     >[!NOTE]
-     >
-     >这区分大小写。 U必须大写，其余字符必须为小写。 例如：
-     >
-     >`https://company_domain.my.workfront.com/resetUser`
-
-1. 如果您的组织已载入到Adobe Unified Experience，请按照以下步骤操作：
-
-   * 在Web浏览器顶部的URL字段中，在`/resetUser`之后添加`workfront`。
-
-     >[!NOTE]
-     >
-     >这区分大小写。 U必须大写，其余字符必须为小写。 例如：
-     >
-     >`https://experience.adobe.com/#/@company/so:(domain)-(environment)/workfront/resetUser`
+   >[!NOTE]
+   >
+   >这区分大小写。 U必须大写，其余字符必须为小写。 例如：
+   >
+   >`https://experience.adobe.com/#/@company/so:(domain)-(environment)/workfront/resetUser`
 
 1. 按&#x200B;**Enter**。
 

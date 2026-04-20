@@ -8,14 +8,20 @@ feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: d9d6d572840f5691888d0db3242f3908978079b3
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1409'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Unified Experience] 常见问题解答
+
+<!--Remove me October 2026-->
+
+>[!NOTE]
+>
+>现在，所有Workfront组织都使用Adobe Unified Experience来访问Workfront。
 
 [!DNL Adobe Unified Experience]的[!DNL Workfront]允许您在单一登录位置管理所有[!DNL Adobe]应用程序。 [!DNL Adobe]导航区域与[!DNL Workfront]无缝集成。 一些功能不同，在将[!DNL Workfront]实例迁移到统一体验时，您可能会有一些问题。
 
@@ -61,7 +67,7 @@ ht-degree: 0%
 
 ### 作为客户，我需要做什么来促进迁移？
 
-将与现有客户联系以安排迁移。 迁移团队支持同事将引导客户完成该过程，提出[!DNL Admin Console]设置的建议，并提供所需的文档链接以使迁移尽可能简单和轻松。 查看[[!DNL Adobe Business Platform] 和 [!DNL Admin Console] 常见问题解答](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/workfront/faq)以了解更多信息。
+将与现有客户联系以安排迁移。 迁移团队支持同事将引导客户完成该过程，提出[!DNL Admin Console]设置的建议，并提供所需的文档链接以使迁移尽可能简单和轻松。 查看[[!DNL Adobe Business Platform] 和 [!DNL Admin Console] 常见问题解答](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/workfront/faq)以了解更多信息。
 
 ### 对于已为Federated ID启用此选项与设置[!DNL Adobe Admin Console] SSO不同的公司，您如何处理[!DNL Workfront]？
 

@@ -3,15 +3,15 @@ title: 品牌化Adobe Workfront实例
 user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
-description: 作为Workfront管理员，您可以在Workfront的登录屏幕、顶部导航区域和主菜单中使用徽标进行标记。 您还可以更改登录屏幕的背景图像和颜色。
+description: 品牌推广不再适用于Adobe Workfront。 在Adobe Experience Cloud中载入Workfront时，此功能已被弃用。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 081eff3b840004f1c3b421032f3593cb6c175690
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 2%
+source-wordcount: '56'
+ht-degree: 8%
 
 ---
 
@@ -23,118 +23,125 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->此页面上描述的过程仅适用于尚未载入[!DNL Adobe Experience Cloud]的组织。
+>品牌推广不再适用于Adobe Workfront。 在Adobe Experience Cloud中载入Workfront时，此功能已被弃用。
+
+<!-- 
+
+
+>[!IMPORTANT]
 >
-> 如果您的组织已登记到[!DNL Adobe Experience Cloud]，则品牌推广不可用。
+>The procedure described on this page applies only to organizations that are not yet onboarded to [!DNL Adobe Experience Cloud].
+>
+> If your organization has been onboarded to [!DNL Adobe Experience Cloud], branding is not available.
 
-作为Workfront管理员，您可以将Workfront与以下位置的徽标标标记为相同：
+As a Workfront administrator, you can brand Workfront with logos in the following places:
 
-* “登录”屏幕
+* Login screen
 
-  登录屏幕中的![品牌](assets/brand-login-screen-nwe-adobe.jpg)
+  ![Brand in login screen](assets/brand-login-screen-nwe-adobe.jpg)
 
-* 顶部导航区域
+* Top navigation area
 
-  顶部导航中的![品牌](assets/brand-top-nav-area-nwe-adobe.jpg)
+  ![Brand in top navigation](assets/brand-top-nav-area-nwe-adobe.jpg)
 
-* 主菜单
+* Main Menu
 
-  主菜单中的![品牌](assets/brand-main-menu-adobe.jpg)
+  ![Brand in main menu](assets/brand-main-menu-adobe.jpg)
 
-您还可以更改登录屏幕的背景图像和颜色：
+You can also change the background image and color of the login screen:
 
-登录屏幕上的![横幅](assets/wf_banner_on_login_screen-adobe.png)
+![Banner on login screen](assets/wf_banner_on_login_screen-adobe.png)
 
 >[!NOTE]
 >
->* 如果您组织的Workfront实例使用自定义SSO门户，则更改登录背景图像和颜色将不可用。 如果需要更多信息，请咨询您的网络或IT管理员。
+>* Changing the login background image and color is not available if your organization's Workfront instance uses a custom SSO portal. See your network or IT administrator if you need more information.
 >
-><!-- or is enabled with Adobe IMS -->
 >
->* Workfront管理员或组管理员还可以使用布局模板为某些组和用户设置Workfront品牌。 布局模板中的品牌策略会覆盖本文中介绍的系统级品牌策略。 有关在布局模板中进行品牌化的说明，请参阅[使用布局模板创建Adobe Workfront](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)。
+>* A Workfront administrator or group administrator can also brand Workfront for certain groups and users using a layout template. Branding in a layout template overrides the system-level branding explained in this article. For instructions on branding in a layout template, see [Brand Adobe Workfront using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md).
 
-## 访问要求
+## Access requirements
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td>Adobe Workfront许可证</td> 
-   <td><p>标准</p>
-       <p>规划</p></td>
+   <td>Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td>访问级别配置</td> 
-   <td>系统管理员</td> 
+   <td>Access level configurations</td> 
+   <td>System Administrator</td> 
   </tr> 
  </tbody> 
 </table>
 
-有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## 标记登录屏幕
+## Brand the login screen
 
 {{step-1-to-setup}}
 
-1. 单击&#x200B;**系统** > **品牌**。
+1. Click **System** > **Branding**.
 
-1. 进行以下任何更改，以使用您的品牌图像自定义Workfront。
+1. Make any of the following changes to customize Workfront with your branding images.
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>标记主页图标<span style="font-weight: normal;">（显示在顶部导航区域的最左侧）</span></p> </td> 
-      <td> <p>在<strong>顶部导航区域</strong>部分的<strong>主页图标</strong>下，单击框中的任意位置，然后查找并选择您的徽标图像。 或将图像拖到框中。</p> <p>要裁切图像，请使用滚动控件并将图像拖动到指定空间内所需的位置。</p> <p>我们建议使用120 x 120图像。 它可以采用以下任何格式：GIF、JPG、PNG、SVG。</p> <p>此图标还会显示在用户导出为PDF文件的报表、列表、功能板和已传送报表中。</p> </td> 
+      <td role="rowheader"> <p>Brand the Home icon <span style="font-weight: normal;">(displays at the far left of the top navigation area)</span></p> </td> 
+      <td> <p>In the <strong>Top navigation area</strong> section, under <strong>Home icon</strong>, click anywhere in the box, then find and select your logo image. Or drag an image to the box.</p> <p>To crop the image, use the scrolling controls and drag the image to the position you want inside the prescribed space.</p> <p>We recommend a 120 x 120 image. It can be in any of the following formats: GIF, JPG, PNG, SVG.</p> <p>This icon also appears in reports, lists, dashboards, and delivered reports that users export as PDF files.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>标记主菜单<img src="assets/main-menu-icon.png">徽标<span style="font-weight: normal;">（显示在主菜单的右上角）</span></p> </td> 
-      <td> <p>在<strong>顶部导航区域</strong>部分的<strong>主菜单徽标</strong>下，单击框中的任意位置，然后查找并选择您的徽标图像。 或将图像拖到框中。</p> <p>要裁切图像，请使用滚动控件并将图像拖动到指定空间内所需的位置。</p> <p>我们建议使用300 x 120像素的图像。 它可以采用以下任何格式：GIF、JPG、PNG、SVG。</p> </td> 
+      <td role="rowheader"> <p>Brand the Main Menu <img src="assets/main-menu-icon.png"> logo <span style="font-weight: normal;">(displays in the upper-right corner of the Main Menu)</span></p> </td> 
+      <td> <p>In the <strong>Top navigation area</strong> section, under <strong>Main Menu logo</strong>, click anywhere in the box, then find and select your logo image. Or drag an image to the box.</p> <p>To crop the image, use the scrolling controls and drag the image to the position you want inside the prescribed space.</p> <p>We recommend a 300 x 120 pixel image. It can be in any of the following formats: GIF, JPG, PNG, SVG.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">将登录屏幕徽标<span style="font-weight: normal;">品牌化（显示在用户键入登录凭据的框的左上方）</span></td> 
-      <td> <p>在<strong>登录屏幕</strong>下，单击框中的任意位置，然后查找并选择您的徽标图像。 要裁切图像，请使用滚动控件并将图像拖动到指定空间内所需的位置。</p> <p>我们建议使用300 x 120像素的图像。 它可以采用以下任何格式：GIF、JPG、PNG、SVG。</p> </td> 
+      <td role="rowheader">Brand the login screen logo <span style="font-weight: normal;">(displays in the top-left of the box where users type login credentials)</span></td> 
+      <td> <p>Under <strong>Login Screen</strong>, click anywhere in the box, then find and select your logo image. To crop the image, use the scrolling controls and drag the image to the position you want inside the prescribed space.</p> <p>We recommend a 300 x 120 pixel image. It can be in any of the following formats: GIF, JPG, PNG, SVG.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">将登录屏幕背景颜色标记为<span style="font-weight: normal;">（显示在用户键入登录凭据的框后）</span></td> 
-      <td> <p>在<strong>登录屏幕</strong>下，设置<strong>背景颜色</strong>。 </p> <p>您可以使用RGB或HEX颜色代码。</p> <p>仅当登录屏幕背景大于登录屏幕背景图像（请参阅此表中的下一行）或图像中存在任何透明度时，背景颜色才可见。</p> </td> 
+      <td role="rowheader">Brand the login screen background color <span style="font-weight: normal;">(displays behind the box where users type login credentials)</span></td> 
+      <td> <p>Under <strong>Login Screen</strong>, set a <strong>Background Color</strong>. </p> <p>You can use RGB or HEX color codes.</p> <p>The background color is visible only if the login screen background is larger than the login screen background image (see the next row in this table) or if there is any transparency in the image.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">标记登录屏幕背景图像<span style="font-weight: normal;">（显示在用户键入其登录凭据的框后）</span></td> 
+      <td role="rowheader">Brand the login screen background image <span style="font-weight: normal;">(displays behind the box where users type their login credentials)</span></td> 
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
-        <li value="1"> <p> 在<strong>登录屏幕</strong>区域的<strong>背景图像</strong>下，单击该框，然后查找并选择您的JPG或PNG图像或图像（最多20张）。 </p> <p>多个背景图像以随机顺序显示，每次用户刷新其登录页面时都会发生更改。 我们建议图像不要大于2 MB。</p> </li> 
-        <li value="2"> <p>将鼠标悬停在上传的每个背景图像上，单击“设置”（齿轮）图标，然后使用以下任一选项来指定希望图像在登录屏幕背景中的显示位置和方式：</p> 
+        <li value="1"> <p> In the <strong>Login Screen</strong> area, under <strong>Background Image</strong>, click the box, then find and select your JPG or PNG image or images (up to 20 ). </p> <p>Multiple background images display in random order, changing each time users refresh their login page. We recommend images no larger than 2 MB.</p> </li> 
+        <li value="2"> <p>Hover over each background image you have uploaded, click the Settings (gear) icon, and use any of the following options to specify where and how you want the image to appear in the login screen background:</p> 
          <ul> 
-          <li> <p><strong>填充屏幕</strong>：使图像适合登录屏幕背景，这样可能会放大图像。 使用高分辨率图像（最大2 MB）以获得最佳结果。</p> <p>使用此选项时，无法自定义的Workfront横幅会遮蔽部分图像。</p> </li> 
-          <li> <p><strong>平铺</strong>：将图像平铺到登录屏幕背景区域，以原始大小显示。 这对于创建阵列非常有用。 选择一个蓝色对齐选项，从背景区域的左上角、中上角或右上角开始平铺。</p> </li> 
-          <li> <p><strong>位置</strong>：使用其中一个蓝色对齐选项（登录屏幕背景区域的左上角、中上角或右上角），将图像按原始大小放置到您选择的位置。</p> <p>背景颜色填充登录屏幕背景区域的其余部分。 有关背景颜色的详细信息，请参阅此表的前一行。</p> </li> 
+          <li> <p><strong>Fill Screen</strong>: Fits the image to the login screen background, which may enlarge the image. Use a high-resolution image (up to 2 MB) for the best results.</p> <p>When you use this option, the Workfront banner, which is not customizable, obscures part your image.</p> </li> 
+          <li> <p><strong>Tile</strong>: Tiles your image across the login screen background area, in its original size. This is useful for creating a pattern. Select a blue alignment option to start the tiling from the top-left corner, top-center, or top-right of the background area.</p> </li> 
+          <li> <p><strong>Position</strong>: Places your image in its original size in the position you choose using one of the blue alignment options: the top-left, top-center, or top-right of the login screen background area.</p> <p>The background color fills the rest of the login screen background area. For more about the background color, see the preceding row in this table.</p> </li> 
          </ul> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">重置为默认品牌</td> 
-      <td> <p>重置为默认品牌会删除您上传的所有照片和图像。</p> <p>单击屏幕右下角的<strong>将所有品牌设置重置为Workfront默认值</strong>，然后单击<strong>是</strong>。</p> </td> 
+      <td role="rowheader">Reset to the default branding</td> 
+      <td> <p>Resetting to the default branding deletes all photos and images that you have uploaded.</p> <p>Click <strong>Reset all branding to Workfront defaults</strong> in the lower-right corner of the screen, then click <strong>Yes</strong>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
    >[!NOTE]
    >
-   >如果您组织的Workfront实例使用自定义SSO门户，则此项不可用。
+   >This is not available if your organization's Workfront instance uses a custom SSO portal.
    >
-   ><!--  or is enabled with Adobe IMS -->
    >
-   >如果需要更多信息，请咨询您的网络或IT管理员。
+   >See your network or IT administrator if you need more information.
 
-1. 单击&#x200B;**保存**。
+1. Click **Save**.
+
+-->

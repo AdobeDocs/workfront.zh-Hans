@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 3%
+source-wordcount: '270'
+ht-degree: 2%
 
 ---
 
@@ -25,12 +25,6 @@ ht-degree: 3%
 ### 答案
 
 当前不支持跨域环境升级。 您必须在同一域中的环境之间升级。
-
-## Adobe业务平台/IMS是提升环境的先决条件吗？
-
-### 答案
-
-不可以。环境升级适用于启用了IMS和非IMS的Workfront实例。
 
 ## 如何确定我们的Workfront实例是否位于Prime或Ultimate许可证上？
 

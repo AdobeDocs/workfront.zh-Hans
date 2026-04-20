@@ -8,16 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
+source-git-commit: 58a6b489ca5f1683a5c40c63bb4528b1f49e9324
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '526'
 ht-degree: 7%
 
 ---
 
 # 使用布局模板自定义固定页面
 
-在布局模板中，您可以将希望用户始终可用的页面固定在Adobe Workfront顶部。 这些页面可以通过主菜单![主菜单图标](assets/main-menu-icon.png)或主菜单![主菜单图标](assets/main-menu-icon-left-nav.png)（可用时）访问或功能板访问。
+在布局模板中，您可以将希望用户始终可用的页面固定在Adobe Workfront顶部。 这些页面可以通过主菜单![主菜单图标](assets/main-menu-icon-left-nav.png)访问，也可以是功能板。
 
 用户自行添加的任何大头针都会显示在您在布局模板中添加的大头针的右侧。
 
@@ -39,7 +39,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 包</td> 
-   <td><p>任何</p></td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 

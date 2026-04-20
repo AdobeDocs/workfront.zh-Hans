@@ -8,10 +8,10 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 9905a522-9913-49c0-8c80-a8b46221fcbb
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+source-git-commit: d9d6d572840f5691888d0db3242f3908978079b3
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 0%
+source-wordcount: '535'
+ht-degree: 3%
 
 ---
 
@@ -25,21 +25,21 @@ ht-degree: 0%
 
 * 在GenStudio for Performance Marketing中查看审核决策以进行最终批准和发布
 
-有关GenStudio for Performance Marketing中的审阅和批准的详细信息，请参阅[Workfront Proof与GenStudio for Performance Marketing的集成](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration)。
+有关GenStudio for Performance Marketing中的审阅和批准的详细信息，请参阅[Workfront Proof与GenStudio for Performance Marketing的集成](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration)。
 
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
  <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td> 
-   <p>任何</p> 
+   <p>“任一”</p> 
    </td> 
   </tr> 
   <tr> 
@@ -71,8 +71,6 @@ ht-degree: 0%
 
 * 用户只能属于IMS组织内的一个Workfront实例。
 
-* 必须在Adobe Unified Experience上启用Workfront实例。
-
 * 必须在Workfront设置区域中启用集成。
 
 
@@ -102,7 +100,7 @@ ht-degree: 0%
 
 当用户在GenStudio for Performance Marketing中启动审核时，他们只需选择所需的模板即可。 用户可以随时轻松更改任何验证工作流模板，添加或删除审阅人和阶段。
 
-有关详细信息，请参阅[请求审阅和批准](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/approve/request-review)。
+有关详细信息，请参阅[请求审阅和批准](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review)。
 
 ## 在GenStudio for Performance Marketing验证查看器中审阅和批准Workfront草稿内容
 
@@ -114,7 +112,7 @@ ht-degree: 0%
 * 标记草稿，显示需要更改的内容
 * 做出决定
 
-有关详细信息，请参阅[审阅和编辑内容](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit)。
+有关详细信息，请参阅[审阅和编辑内容](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit)。
 
 
 >[!IMPORTANT]
@@ -126,4 +124,4 @@ ht-degree: 0%
 
 资产完成审阅和批准流程后，您可以直接从GenStudio for Performance Marketing查看审阅决策并发布内容。
 
-有关详细信息，请参阅[发布批准的内容](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content)。
+有关详细信息，请参阅[发布批准的内容](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content)。
