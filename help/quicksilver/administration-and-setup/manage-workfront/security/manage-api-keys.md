@@ -179,7 +179,7 @@ You can generate and manage API Keys for users in roles other than Workfront adm
 
 1. 展开&#x200B;**系统**，然后单击&#x200B;**客户信息**。
 
-1. 在&#x200B;**API密钥设置**&#x200B;区域中，单击&#x200B;**删除所有API密钥**，然后单击&#x200B;**删除****全部**。
+1. 在&#x200B;**API密钥设置**&#x200B;区域中，单击&#x200B;**删除所有API密钥**，然后单击&#x200B;**删除**&#x200B;**全部**。
 
 <!--
 
