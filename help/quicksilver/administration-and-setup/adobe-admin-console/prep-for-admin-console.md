@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d9b5e4a1-069e-48be-80d0-84f4bf8aea8b
-source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
+source-git-commit: 0a41ed50f649dd2da52a5fc47675116261ecfc12
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '668'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,15 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
+<!--Remove me October 2026-->
+
+>[!IMPORTANT]
+>
+>由于所有组织现在都已移至Adobe Admin Console，因此本文不久将会被删除。
+
 由于Adobe Workfront是一款Adobe产品，因此您可以通过Adobe Admin Console访问它。 这使您能够在一个中心位置为用户管理Workfront以及其他Adobe帐户和产品。
 
-所有Workfront客户最终都将移至Adobe Admin Console。 贵组织迁移到Adobe Admin Console后，Workfront身份验证由控制台管理。 为这一转变做好准备并提早行动，为提高工作管理效率奠定基础，并使您的组织能够在未来更快创新
+所有Workfront客户不久将被迁移到Adobe Admin Console。 贵组织迁移到Adobe Admin Console后，Workfront身份验证由控制台管理。 为这一转变做好准备并提早行动，为提高工作管理效率奠定基础，并使您的组织能够在未来更快创新
 
 有关Adobe Admin Console的概述，请参阅[Admin Console概述](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)。
 
@@ -45,7 +51,7 @@ ht-degree: 0%
    >
    >请准备好与Workfront支持人员和您的IT团队就身份验证首选项(例如单点登录(SSO)或非SSO)进行交谈。
 
-   有关说明，请参阅[Adobe Admin Console部署指南](https://helpx.adobe.com/cn/enterprise/using/deployment-planning.html)的Identity Management部分。
+   有关说明，请参阅[Adobe Admin Console部署指南](https://helpx.adobe.com/enterprise/using/deployment-planning.html)的Identity Management部分。
 
 1. （视情况而定）如果使用单点登录，请将新的Adobe Admin Console连接到您现有的SSO提供商。
 
