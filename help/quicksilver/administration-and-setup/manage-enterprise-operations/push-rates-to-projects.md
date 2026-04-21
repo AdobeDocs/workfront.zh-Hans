@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c38e60dd-7fb2-4afc-976a-b0966398c162
-source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
+source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 6%
@@ -17,7 +17,9 @@ ht-degree: 6%
 
 # 将费率更改推送到项目
 
-将费率卡附加到项目<!--or a staffing plan-->时，费率卡上的费率仍可调整。 然后，您可以选择将这些费率推送到费率卡附加到的项目<!--and staffing plans -->。 如果不推送新费率，则原始费率将保留在项目<!-- or staffing plan-->上。
+将费率卡附加到项目<!--or a staffing plan-->时，费率卡上的费率仍可调整。 然后，您可以选择将这些费率推送到费率卡附加到的项目。 如果您不推送新费率，则原始费率将保留在项目中。
+<!-- and staffing plans -->
+<!-- or staffing plan -->
 
 有关将费率卡附加到项目的信息，请参阅[将费率卡附加到项目](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)。
 
@@ -35,11 +37,11 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td>[!UICONTROL 标准版]</td>
+   <td>[！UICONTROL标准版]</td>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>编辑对[!UICONTROL 费率卡]的访问权限</td> 
+   <td>编辑对[！UICONTROL费率卡]的访问权限</td> 
   </tr> 
   <tr> 
    <td>对象权限</td> 
@@ -60,7 +62,12 @@ ht-degree: 6%
 1. 在“费率卡”列表中单击费率卡的名称。
 1. 在费率卡>工作角色和费率屏幕上，验证费率是否正确，并根据需要编辑任何费率。
 1. 单击&#x200B;[!UICONTROL **推送更改**]。
-1. 在&#x200B;[!UICONTROL **应用于所有项目**]<!--/staffing plans-->&#x200B;对话框中，默认情况下选择使用此费率卡的所有项目<!--and staffing plans -->。 如果不希望项目<!--or staffing plan -->应用费率更改，则必须取消选择该项目。
+1. 在&#x200B;[!UICONTROL **应用于所有项目**]&#x200B;对话框中，默认情况下选择使用此费率卡的所有项目。 如果您不希望项目应用费率更改，则必须取消选择它。
+
+   <!--/staffing plans-->
+   <!--and staffing plans -->
+   <!--or staffing plan -->
+
 1. 单击&#x200B;[!UICONTROL **保存**]。
 
    新费率现在反映在使用费率卡的项目<!--and staffing plans -->上。

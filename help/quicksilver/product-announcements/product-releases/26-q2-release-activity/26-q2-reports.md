@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 1ef6ead705231a41cbf62b8a8b35f480da004970
+source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 0%
@@ -51,7 +51,7 @@ ht-degree: 0%
 >生产快速发布： 2026年4月15日
 >适用于所有人的生产： 2026年4月16日
 
-Workfront现在为计划报表提供了新的链接投放类型。 此选项不会生成和附加文件，而是会发送一封电子邮件，其中包含到Workfront中报告的直接链接，从而允许收件人查看{{$include }}应用程序中的最新数据。
+Workfront现在为计划报表提供了新的链接投放类型。 此选项不会生成和附加文件，而是会发送一封电子邮件，其中包含到Workfront中报告的直接链接，从而允许收件人查看`{{$include }}`应用程序中的最新数据。
 
 链接选项现在是新创建的计划报表投放规则的默认投放类型，而现有的基于文件的格式（HTML、PDF、Excel和TSV）仍可用。
 

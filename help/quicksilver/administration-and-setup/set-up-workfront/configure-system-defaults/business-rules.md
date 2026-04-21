@@ -10,9 +10,9 @@ role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b190de6b6ef9ce53e96475d426a4d39cfbd4df4
+source-git-commit: f9c2c7192254a0d0c04056bc4c193eb35d4116b5
 workflow-type: tm+mt
-source-wordcount: '1864'
+source-wordcount: '1820'
 ht-degree: 4%
 
 ---
@@ -224,14 +224,9 @@ IF({status} = "APR", true)
    * 人员配置计划
    * 模板
    * 人员配置计划资源
-<!--
+   <!--
    * <span class="preview">Team</span>
--->
-
-1. 在规则生成器对话框中键入业务规则的&#x200B;**名称**。
-1. 在&#x200B;**处于活动状态**&#x200B;字段中，选择保存规则时该规则是否应处于活动状态。
-
-   如果您选择&#x200B;**否**，则规则将保存为非活动，您可以稍后激活它。
+   -->
 
 1. 为业务规则选择&#x200B;**触发器**。 选项包括：
 
@@ -306,4 +301,3 @@ IF({status} = "APR", true)
 1. 在规则列表中选择业务规则并单击编辑图标。
 1. 在业务规则对话框中，为&#x200B;**处于活动状态**&#x200B;选择&#x200B;**是**。
 1. 单击&#x200B;**保存**。
-

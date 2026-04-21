@@ -8,10 +8,10 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: f9c2c7192254a0d0c04056bc4c193eb35d4116b5
 workflow-type: tm+mt
 source-wordcount: '1114'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -27,22 +27,22 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->列入允许列表若要允许[!DNL Workfront Proof]与[!DNL Workfront]服务器之间的开放通信，您可能需要将某些IP地址添加到您的。 有关详细信息，请参阅[配置防火墙的允许列表](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
+>若要允许[!DNL Workfront Proof]与[!DNL Workfront]服务器之间的开放通信，您可能需要将某些IP地址添加到您的。 有关详细信息，请参阅[配置防火墙的允许列表](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table>
   <tr>
-   <td>Adobe Workfront包
+   <td>Adobe Workfront 包
    </td>
    <td> <p>Prime或Ultimate</p>
     <p>工作流 Ultimate</p>
    </td>
   </tr>
     <tr>
-   <td>Adobe Workfront许可证
+   <td>Adobe Workfront 许可证
    </td>
    <td>标准
    <p>规划</p>
@@ -69,8 +69,8 @@ ht-degree: 2%
 您可以配置以下集成来管理文档：
 
 <!--
-  Experience Manager Assets Essentials </p>
-  -->
+   Experience Manager Assets Essentials </p>
+   -->
 
 * [!DNL Workfront DAM]
 
@@ -142,15 +142,15 @@ ht-degree: 2%
       <td>自定义集成的名称。 这是用户在Workfront中使用集成时看到的名称。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 基本API URL] </td> 
+      <td role="rowheader">[！UICONTROL基本API URL] </td> 
       <td>API调用的基本HTTP或安全HTTP URL。 例如， <code>https://&lt;documentprovider&gt;.com/api/v2</code></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 身份验证类型]</td> 
+      <td role="rowheader">[！UICONTROL身份验证类型]</td> 
       <td> <p>对自定义集成进行授权的API调用时要使用的身份验证方法。</p> 
        <ul> 
-        <li>如果选择<strong>[!UICONTROL OAuth]</strong>，请继续执行步骤5。</li> 
-        <li>如果选择<strong>[!UICONTROL ApiKey]</strong>，请继续执行步骤6。</li> 
+        <li>如果选择<strong>[！UICONTROL OAuth]</strong>，请继续执行步骤5。</li> 
+        <li>如果选择<strong>[！UICONTROL ApiKey]</strong>，请继续执行步骤6。</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -163,15 +163,15 @@ ht-degree: 2%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 身份验证URL]</td> 
+      <td role="rowheader">[!UICONTROL 身份验证 URL]</td> 
       <td>用于用户身份验证的完整URL。 在OAuth配置过程中，[!DNL Workfront]将用户导航到此地址。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 令牌端点URL]</td> 
+      <td role="rowheader">[！UICONTROL令牌端点URL]</td> 
       <td>用于检索 OAuth 令牌的完整 API URL。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 客户端ID]</td> 
+      <td role="rowheader">[!UICONTROL 客户端 ID]</td> 
       <td>此集成的OAut客户端ID。</td> 
      </tr> 
      <tr> 
@@ -179,7 +179,7 @@ ht-degree: 2%
       <td>此集成的OAut客户端密钥</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 请求参数]</td> 
+      <td role="rowheader">[！UICONTROL请求参数]</td> 
       <td> <p>输入要附加到每个API调用的查询字符串的可选值。 例如，access_type=offline。</p> <p>要添加多个请求参数，请单击<strong>+添加请求参数</strong>。</p> </td> 
      </tr> 
     </tbody> 

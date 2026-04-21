@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d570ef6a-935f-4dd0-9c54-a480163ec9d8
-source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
+source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
 workflow-type: tm+mt
 source-wordcount: '1378'
 ht-degree: 1%
@@ -86,7 +86,8 @@ Workfront当前支持三个可用作费率属性的系统对象：
 
 <!--
 BULLET POINT Staffing plan resources
-BULLET POINT Non-labor resources: Attributes can also be defined on resources such as equipment or services.-->
+BULLET POINT Non-labor resources: Attributes can also be defined on resources such as equipment or services.
+-->
 
 <!--Non-labor resource categories and -->工作角色不支持直接在对象级别使用费率属性。 它们通过在其上定义的费率与费率属性相连。
 
@@ -110,11 +111,11 @@ BULLET POINT Non-labor resources: Attributes can also be defined on resources su
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p></td>
+   <td><p>[！UICONTROL标准版]</p></td>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
  </tbody> 
 </table>
