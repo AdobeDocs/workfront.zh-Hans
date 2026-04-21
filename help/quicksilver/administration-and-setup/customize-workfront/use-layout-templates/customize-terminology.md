@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
+source-git-commit: 3080fc1ebf33186f3bdf64a960fd1b5572dbfb2f
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '641'
 ht-degree: 5%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 5%
 >[!NOTE]
 >
 >* 在自定义标签时，您可能会遇到语法和其他问题。 例如，如果将“问题”更改为“请求”，则在UI中可能会有这样一些地方，您会看到短语“请求”。 有关详细信息，请参阅[了解Adobe Workfront中的对象](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#implications-of-customizing-object-names)一文中的[自定义对象名称的含义](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
->
+>* 若要将术语翻译自定义为英语以外的语言，请参阅[配置自定义本地化](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)。
 
 有关布局模板的更多信息，请参阅[创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。
 
