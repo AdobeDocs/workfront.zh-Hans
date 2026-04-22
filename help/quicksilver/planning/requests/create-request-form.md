@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '3603'
+source-wordcount: '3185'
 ht-degree: 1%
 
 ---
@@ -21,10 +21,11 @@ ht-degree: 1%
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -83,7 +84,7 @@ ht-degree: 1%
 
       * 创建者、上次修改者、批准者
       * 创建日期、上次修改日期、批准日期
-      * <span class="preview">记录ID</span>
+      * 记录 ID
       * Workfront对象的查找字段
       * Workfront Planning已连接记录的查找字段
 
@@ -172,12 +173,7 @@ ht-degree: 1%
 表单详细信息分为选项卡。
 
 * **表单**&#x200B;选项卡允许您向表单添加字段和内容元素
-* **配置**&#x200B;选项卡允许您设置表单的批准流程并设置请求完成选项。
-
-  >[!NOTE]
-  >
-  ><span class="preview">在“预览”环境中，“设置”选项卡取代了“配置”选项卡。</span>
-  <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
+* **设置**&#x200B;选项卡允许您设置表单的批准流程并设置请求完成选项。
 
 #### 设置表单详细信息
 
@@ -203,7 +199,7 @@ ht-degree: 1%
      >* **Subject**&#x200B;字段在请求表单上可见时需要值。 但是，如果需要，您可以删除&#x200B;**主题**&#x200B;字段，而请求者在提交请求时将不会在表单上看到该字段。
      >* 当请求表单中缺少&#x200B;**主题**&#x200B;字段，但未来记录的名称具有“名称”字段时，将自动为请求名称分配与所创建记录相同的名称。
      >* 当请求表单中缺少&#x200B;**主题**&#x200B;和&#x200B;**名称**&#x200B;字段时，请求使用以下模式命名： `< Request form name > < Entry date of the request >`；记录名为&#x200B;**无标题**。
-     >* <span class="preview">要在Workfront Planning中查看&#x200B;**主题**&#x200B;字段的信息，可以将&#x200B;**原始请求**&#x200B;连接字段添加到与请求表单关联的记录类型。 有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。</span>
+     >* 要在Workfront Planning中查看&#x200B;**主题**&#x200B;字段的信息，可以将&#x200B;**原始请求**&#x200B;连接字段添加到与请求表单关联的记录类型。 有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
    * 与记录类型关联的所有字段。
 
@@ -239,49 +235,48 @@ ht-degree: 1%
 1. （可选）单击&#x200B;**预览**&#x200B;以查看当其他用户使用表单提交新记录时，该表单将如何显示给其他用户。
 1. 继续执行以下操作之一：
 
-   * [设置配置详细信息](#set-up-configuration-details)（如果要在生产环境中为表单配置更多详细信息）
-   * <span class="preview">[如果要为生产环境中的表单配置更多详细信息，请配置设置](#configure-settings)</span>
+   <!--
+   * [Set up Configuration details](#set-up-configuration-details) if you want to configure more details for the form in the Production environment
+   -->
+   * 如果要为生产环境中的表单配置更多详细信息，请[配置设置](#configure-settings)
    * 如果您不想配置进一步的设置，请[完成请求表单创建](#complete-request-form-creation)。
 
-#### 设置配置详细信息
+<!--
+#### Set up Configuration details
 
 >[!NOTE]
 >
->此选项卡仅在生产环境中可用。
+>This tab is available only in the Production environment.
 
-在配置选项卡上，您可以设置批准流程，并配置何时将从此表单创建的请求标记为“已完成”。
+On the Configuration tab, you can set the approval process and configure when a request created from this form will be marked as Completed.
 
-1. 开始创建或编辑请求表单，如[开始创建请求表单](#begin-creating-a-request-form)部分中所述。
+1. Begin creating or editing a request form, as described in the section [Begin creating a request form](#begin-creating-a-request-form).
+   
+    The request form for the selected record type opens in the Form tab. 
+1. (Optional) Set up any form details, as described in [Set up Form details](#set-up-form-details).    
 
-   此时将在“表单”选项卡中打开选定记录类型的请求表单。
-1. （可选）设置任何表单详细信息，如[设置表单详细信息](#set-up-form-details)中所述。
+1. (Optional) If you want to add approvers, click the **Configuration** tab, then add at least one user or team to the **Approvers** field to approve new requests for this record form. 
 
-1. （可选）如果要添加批准者，请单击&#x200B;**配置**&#x200B;选项卡，然后将至少一个用户或团队添加到&#x200B;**批准者**&#x200B;字段，以批准此记录表单的新请求。
+   ![Configuration tab](assets/configuration-tab.png)
 
-   ![配置选项卡](assets/configuration-tab.png)
+   (******)-below bullet list is duplicated in the Add approval to a request form article(****)
 
-   <!--below bullet list is duplicated in the Add approval to a request form article-->
+   * You can add one or several approvers to a request form.
+   * If at least one approver rejects the request, the request is rejected and the record is not created. The request remains in the Requests area of Workfront.
+   * If you add more than one approver, and the Only one decision is required option is not enabled, all approvers must make a decision before a request is either approved or rejected.
+   * If a team is set as an approver, only one decision is required from the team.
 
-   * 您可以将一个或多个批准者添加到请求表单。
-   * 如果至少有一位审批者拒绝了请求，则该请求会被拒绝，并且不会创建记录。 该请求仍保留在Workfront的请求区域中。
-   * 如果您添加多个审批者，但未启用“只需一个决策”选项，则所有审批者必须在请求被批准或拒绝之前做出决策。
-   * 如果将团队设置为批准者，则只需从团队中做出一个决策。
+   For more information about adding approvals to request forms, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
 
-   有关将审批添加到请求表单的详细信息，请参阅[将审批添加到请求表单](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
+1. (Conditional) If you want the record to be created after any one of the approvers has approved it, check the **Only one decision is required** checkbox.
 
-1. （视情况而定）如果希望在任何一位批准者批准记录后创建记录，请选中&#x200B;**仅需要一个决策**&#x200B;复选框。
+1. Select whether you want a request created from this form to be marked complete when the requested object is created, or when the requested object is completed.
+1. (Conditional) If you have selected for the request to be marked complete when the requested object is completed, select the field and value that indicate when the object is complete. For example, you could select the field Status and the value Complete to complete the request when the created object's status is set to Complete.
+1. Continue to [Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to [Complete request form creation](#complete-request-form-creation).
 
-1. 选择在创建请求的对象时还是完成请求的对象时，是否希望将从此表单创建的请求标记为完成。
-1. （视情况而定）如果已选择在请求对象完成时将请求标记为完成，请选择指示对象完成时间的字段和值。 例如，当创建的对象的状态设置为Complete时，您可以选择字段Status和值Complete以完成请求。
-1. 继续<!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[完成请求表单创建](#complete-request-form-creation)。
-
-<div class="preview">
+-->
 
 ### 配置设置
-
->[!NOTE]
->
->此选项卡仅在“预览”环境中可用。
 
 在设置选项卡上，您可以设置批准规则并配置何时将从此表单创建的请求标记为已完成。
 
@@ -349,8 +344,6 @@ ht-degree: 1%
 1. （视情况而定）如果已选择在请求对象完成时将请求标记为完成，请选择指示对象完成时间的字段和值。 例如，当创建的对象的状态设置为Complete时，您可以选择字段Status和值Complete以完成请求。
 1. 继续<!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[完成请求表单创建](#complete-request-form-creation)。
 
-</div>
-
 <!--
  
 <div class="preview">
@@ -383,23 +376,24 @@ For information on creating automations in other areas of Workfront Planning, se
 ### 完成请求表单创建
 
 1. 按照[开始创建请求表单](#begin-creating-a-request-form)和[设置请求表单的详细信息](#set-up-details-for-the-request-form)中的说明创建并设置表单。
-1. （可选）单击标题中表单名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**编辑**&#x200B;以更新表单名称。
+1. （可选）单击标题中表单名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**编辑**&#x200B;以更新表单名称及其&#x200B;**描述**，然后单击&#x200B;**保存**。
 
 1. 单击&#x200B;**发布**&#x200B;发布表单并获取其唯一链接。
 
    出现以下情况：
 
    * **发布**&#x200B;按钮已删除。
+
+     该表单将在Workfront主菜单的请求区域中可用。
    * **取消发布**&#x200B;按钮已添加到表单中。 单击此按钮将阻止访问表单。
    * **共享**&#x200B;按钮已添加到表单。
-   * 该表单将在Workfront主菜单的请求区域中可用。
 
 1. 单击&#x200B;**共享**&#x200B;以与他人共享表单。
 
    有关共享请求表单的信息，请参阅本文中的[共享请求表单](#share-a-request-form)部分
 1. 单击标题中表单名称左侧的向左箭头以关闭表单。
 
-   将打开&#x200B;**请求表单**&#x200B;表格视图，并将表单添加到其中。
+   将打开&#x200B;**请求表单**&#x200B;列表视图，该表单已添加到其中。
 
 ## 管理现有请求表单
 
@@ -418,13 +412,8 @@ For information on creating automations in other areas of Workfront Planning, se
 1. （可选）更新&#x200B;**请求表单**&#x200B;页面中的以下视图元素，以更改信息在表中的显示方式：
 
    * 列
-
-   <!--
-   <div class="preview">
-   * Grouping <!-ensure they will change the label by Prod->
-   * Row height
-   </div>
-   -->
+   * 分组
+   * 行高
 
    有关详细信息，请参阅[管理列表视图](/help/quicksilver/planning/views/manage-the-list-view.md)。
 
@@ -435,8 +424,6 @@ For information on creating automations in other areas of Workfront Planning, se
    * **共享**：单击此项可修改谁有权访问该表单。
    * **复制链接**：单击此项可快速复制请求表单的链接，而无需打开表单。
    * **删除**：单击此项可删除表单。 使用该表单添加的所有请求和记录都不会被删除。 无法恢复表单。
-
-   <!--update screen shot at preview:-->
 
    来自请求表单列表的请求表单上的![更多菜单](assets/more-menu-on-request-form-from-request-forms-list.png)
 

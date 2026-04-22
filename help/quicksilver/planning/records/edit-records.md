@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '2978'
+source-wordcount: '2918'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,11 @@ ht-degree: 0%
 
 # 编辑记录
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -143,7 +144,7 @@ Old:
 * 以下类型的字段会自动更新，您无法手动编辑其值：
    * 来自其他记录的链接字段
    * 公式类型字段
-   * 系统字段（“创建者”、“创建日期”、“上次修改者”、“上次修改日期”、“批准日期”、“批准者”、<span class="preview">记录ID</span>）
+   * 系统字段（“创建者”、“创建日期”、“上次修改者”、“上次修改日期”、“批准日期”、“批准者”、“记录ID”）
 * 如果显示的记录链接到其他记录，则您正在编辑的记录的新信息将反映在链接该记录的所有工作区中的链接记录上。
 * 不能批量编辑记录。<!--this will probably change-->
 * 只有当URL以以下内容开头时，才会被识别为单行文本字段类型中的链接： http://、https://、ftp://或www. 。

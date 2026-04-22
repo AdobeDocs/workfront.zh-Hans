@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1141'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,11 @@ ht-degree: 0%
 
 # 创建工作区
 
-<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
@@ -49,13 +51,13 @@ ht-degree: 0%
    <td> 
 <p>任何Workfront或工作流包</p> 
 <p>任何Workfront规划包</p>
-<p>Workfront Planning Prime或更高版本包<span class="preview">一次创建多个工作区</span></p>
+<p>用于一次创建多个工作区的Workfront Planning Prime或更高版本包</p>
 <p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。 </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
    <td><p>标准</p>
-   <p><span class="preview">系统管理员使用最佳实践模板包同时创建多个工作区</p>
+   <p>系统管理员使用最佳实践模板包同时创建多个工作区</p>
    </td> 
   </tr> 
   <tr> 
@@ -144,8 +146,6 @@ Old:
 
   有关信息，请参阅[Adobe Workfront规划Designer入门](/help/quicksilver/planning/general/planning-ai-designer.md)。
 
-<div class="preview">
-
 * 使用最佳实践多工作区模板包创建多个工作区
 
   有关信息，请参阅本文中的[使用最佳实践多工作区模板包创建多个工作区](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle)部分
@@ -153,9 +153,6 @@ Old:
   >[!TIP]
   >
   >仅当使用最佳实践模板包时，才能一次创建多个工作区。
-
-
-</div>
 
 ### 从头开始或从模板创建工作区
 
@@ -226,8 +223,6 @@ Old:
    >
    >有关IMS的信息，请参阅[适用于Workfront的Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
-<div class="preview">
-
 ### 使用最佳实践多工作区模板包创建多个工作区
 
 >[!IMPORTANT]
@@ -277,8 +272,6 @@ Old:
    有关实施Workfront的最佳实践的更多信息，请参阅[Adobe Workfront规划最佳实践：文章索引](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md)部分中的文章。
 
    有关编辑工作区的信息，请参阅[编辑工作区](/help/quicksilver/planning/architecture/edit-workspaces.md)。
-
-</div>
 
 
 

@@ -6,18 +6,22 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 8%
+source-wordcount: '241'
+ht-degree: 10%
 
 ---
 
 # 自定义优先级工作列表列
 
-<span class="preview">此页面上突出显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--I think this article can point to the Enhanced lists article for managing the view-->
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 您可以在优先级中自定义工作列表上的列，以支持您的工作方式。
@@ -79,14 +83,12 @@ ht-degree: 8%
 {{step1-to-priorities}}
 
 1. 单击屏幕左侧的&#x200B;**列**。
-1. 单击&#x200B;**拖动**&#x200B;图标并将列移动到所需的位置。 自动移动列会更新工作列表。
+1. 单击&#x200B;**拖动**图标并将列移动到所需的位置。 自动移动列会更新工作列表。
    ![对列重新排序](assets/reorder-columns-new.png)
 
 >[!NOTE]
 >
 >“名称”列是固定的，无法移动。
-
-<div class="preview">
 
 ### 更改优先级列表中的行高
 
@@ -102,5 +104,3 @@ ht-degree: 8%
    * 高
 
    列表会立即更新。
-
-</div>

@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1421'
 ht-degree: 1%
 
 ---
@@ -28,9 +28,11 @@ this article is linked to the UI in the Advanced settings/ Cross-workspace setti
 
 {{planning-important-intro}}
 
-<span class="preview">此页面上突出显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 您可以在Adobe Workfront Planning中将记录类型配置为可在多个工作区中使用。
 
@@ -83,22 +85,20 @@ this article is linked to the UI in the Advanced settings/ Cross-workspace setti
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
    <td>
-   <p>在生产环境中： </p>
-   <p>若要使记录成为全局记录，请执行以下操作：</p>
-   <ul><li>标准或更高版本</li></ul>
-   <p>使记录可连接：</p>
-   <ul><li>系统管理员</li></ul>
+   <!--
+   <p>In the Production environment: </p>
+   <p>To make a record global:</p>
+   <ul><li>Standard or higher</li></ul>
+   <p>To make a record connectable:</p>
+   <ul><li>System Administrator</li></ul>
+   -->
 
-<div class="preview">
-
-<p>在“预览”环境中：</p>
-   <p>若要使记录成为全局记录，请执行以下操作：</p>
+<p>若要使记录成为全局记录，请执行以下操作：</p>
    <ul><li>标准或更高版本</li></ul>
    <p>使记录可连接：</p>
 
 <ul><li>使记录可从特定工作区连接的标准</li>
    <li>系统管理员，使记录可从所有工作区连接</li></ul>
-   </div>
 
 
 </td> 
@@ -240,7 +240,7 @@ this is a UI term; don't change the title of this section
 
    有关信息，请参阅[从另一个工作区添加现有记录类型](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)。
 
-   从辅助工作区中的全局记录类型添加的记录类型在辅助工作区<span class="preview">上显示&#x200B;**类似的**&#x200B;全局记录类型![图标](assets/global-icon-secondary-workspace.png)全局记录类型图标，该图标包含箭头，指示该记录类型是从其他工作区导入的。 当您将鼠标悬停在辅助工作区全局图标上时，您可以了解原始工作区的名称。</span>
+   从辅助工作区中的全局记录类型添加的记录类型在辅助工作区上显示类似的&#x200B;**全局记录类型**&#x200B;图标![全局记录类型图标](assets/global-icon-secondary-workspace.png)，其中包含箭头，表示该记录类型是从其他工作区导入的。 将鼠标悬停在辅助工作区全局图标上时，您可以了解原始工作区的名称。
 1. （可选）返回创建全局记录类型的原始工作区，并按照以上<!--ensure this stays accurate-->的步骤1-4编辑该记录类型
 1. （可选）查看已添加全局记录的工作区列表，该全局记录已添加到使用此记录类型的&#x200B;**工作区中**。 工作区所有者的名称也会列在工作区名称旁边。
 
@@ -276,9 +276,9 @@ this is a UI term; don't change the title of this section
 
    启用后，记录类型可访问，并可从其他工作区连接到。
 
-1. <span class="preview">（视情况而定）根据您拥有的许可证，</span>从哪些工作区中选择可以访问记录类型的工作区。 从以下选项中进行选择：
+1. （视情况而定）根据您拥有的许可证，从哪些工作区中选择可以访问记录类型的工作区。 从以下选项中进行选择：
 
-   * **所有工作区**：用户可以从其拥有管理权限的所有工作区连接到此记录类型。 <span class="preview">对于具有Standard许可证的工作区管理器，此选项将灰显。 只有系统管理员才能打开连接所有工作区的记录类型。</span>
+   * **所有工作区**：用户可以从其拥有管理权限的所有工作区连接到此记录类型。 对于具有Standard许可证的工作区管理器，此选项将灰显。 只有系统管理员可以打开连接所有工作区的记录类型。
    * **特定工作区**：从下拉菜单中，添加工作区管理员可以连接到此记录类型的工作区的名称。
 
 1. （视情况而定）在&#x200B;**编辑记录类型**&#x200B;框中单击&#x200B;**保存**，或者单击页眉中&#x200B;**设置**&#x200B;左侧的返回箭头以保存更改。

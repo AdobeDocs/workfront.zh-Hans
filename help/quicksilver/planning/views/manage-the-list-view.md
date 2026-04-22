@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
 source-wordcount: '1791'
 ht-degree: 1%
@@ -261,8 +261,6 @@ Removed - more direct steps below:
 
    * **删除**&#x200B;以删除该项。 删除项目会断开它与记录的连接，并将其移到Workfront的回收站。 Workfront管理员最多可以在删除项目后30天内恢复这些已删除的项目。 删除表单不会删除提交表单时创建的请求或记录。
    * **断开连接**&#x200B;以断开项目与记录的连接。 断开项目连接会将其及其查找字段的所有值从当前记录中删除。
-
-     <!--update screen shot at preview release-->
 
      “连接的记录”页面列表视图中的![操作栏](assets/actions-bar-connected-records-page-list-view.png)
 

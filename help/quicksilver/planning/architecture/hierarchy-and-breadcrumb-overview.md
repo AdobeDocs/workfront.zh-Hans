@@ -8,18 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: de066d44-d214-47cc-8483-37c2623585ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1040'
 ht-degree: 0%
 
 ---
 
 # 层次结构和痕迹导航概述
 
-<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 作为工作区管理员，您可以在Adobe Workfront Planning中的连接的记录类型和其他对象类型之间定义灵活但结构化的层次结构。
 
@@ -80,13 +82,13 @@ ht-degree: 0%
 
 在记录类型之间创建层级时，这些记录类型会为属于这些记录类型的记录生成痕迹导航。
 
-例如，如果您创建一个层次结构并将促销活动与战术连接，然后与活动连接，则当您导航到层次结构中连接的任何类型的记录时，可以查看该记录在该层次结构中的位置。 如果记录显示在多个工作区中，则可以查看每个工作区<span class="preview">中以痕迹导航中的工作区名称开头的路径。</span>
+例如，如果您创建一个层次结构并将促销活动与战术连接，然后与活动连接，则当您导航到层次结构中连接的任何类型的记录时，可以查看该记录在该层次结构中的位置。 如果记录显示在多个工作区中，则您可以查看每个工作区中的路径，在痕迹导航中以工作区名称开头。
 
 ![痕迹导航](assets/breadcrumbs-on-activities-planning-only.png)
 
 请考虑以下事项：
 
-* 痕迹导航显示在记录的预览区域中，以及记录详细信息页面中。
+* 痕迹导航显示在记录的预览区域中，以及记录的详细信息页面中。
 * 如果记录类型属于多个层次结构，则可以从记录页面上的记录痕迹导航在层次结构之间切换。
 * 如果层次结构中的记录类型具有多个记录，则可以从痕迹导航中选择记录。
 * 痕迹导航可以在Workfront和Planning中使用。

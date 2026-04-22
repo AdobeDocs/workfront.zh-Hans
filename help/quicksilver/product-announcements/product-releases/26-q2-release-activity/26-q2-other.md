@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be95161b-2443-464a-b91c-82a96d5354a2
-source-git-commit: b934764d12aa81f836b5d71b624ce9d83aab63b1
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '609'
 ht-degree: 1%
 
 ---
@@ -68,7 +68,10 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->预定义视图没有预览版，并将于4月16日直接发布到生产环境。
+>预定义视图没有预览版本，将直接发布到生产环境。
+>预览：待定
+>生产快速发布：待定
+>为所有人生产：待定
 
 为了帮助您更好地组织请求列表，我们已将以下预定义视图添加到请求区域的请求列表和主页中的我的请求构件：
 

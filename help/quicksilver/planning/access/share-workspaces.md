@@ -8,18 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1004'
 ht-degree: 2%
 
 ---
 
 # 共享工作区
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -156,39 +158,31 @@ Old:
 
    工作区右上方的![共享按钮](assets/share-button-on-workspace-top-right.png)
 
-1. <span class="preview">（视情况而定）根据您拥有的访问级别，执行以下操作之一：
+1. （视情况而定）根据您拥有的访问级别，执行以下操作之一：
 
-   * 如果您是系统管理员，请从以下选项中选择：</span>
-
-     <div class="preview">
+   * 如果您是系统管理员，请从以下选项中选择：
 
       * **只有受邀人员才能访问**：您必须选择共享框中的实体并选择他们对工作区的访问权限。 这是默认选项。
       * **系统中的每个人都可以查看**：系统中有权访问Planning的所有人都可以在Planning的&#x200B;**工作区**&#x200B;区域查看工作区。
 
-     </div>
-
-   * <span class="preview">（视情况而定）如果您是具有Standard许可证的工作区经理，则可以看到以下选择之一，但无法更改它们：</span>
-
-     <div class="preview">
+   * （视情况而定）如果您是具有Standard许可证的工作区管理员，则可以看到以下选项之一，但无法更改它们：
 
       * **只有受邀人员才能访问**。 这是默认设置。
       * **系统中的每个人都可以查看**
 
      必须要求系统管理员更改工作区的全局权限。
 
-     </div>
-
 1. 在&#x200B;**授予此工作区的访问权限**&#x200B;字段中，开始键入用户、组、团队、公司或工作角色的名称，然后在列表显示该名称时单击该名称。
 
-   <span class="preview">![与组共享UI](assets/sharing-ui-with-groups.png)</span>
+   ![与组共享UI](assets/sharing-ui-with-groups.png)
 
    >[!NOTE]
    >
    >* 除了团队、组、公司和职位角色之外，您只能与已添加到Adobe Admin Console的用户共享。 您无法添加仅限Workfront的用户。 有关信息，请参阅[在Adobe Admin Console中管理用户](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)。
    >
-   >* 与用户共享工作区时，其主要工作角色<span class="preview">及其电子邮件</span>也会显示在字段中。 您必须为访问级别中的“用户”对象启用“查看联系信息”设置，才能查看用户的电子邮件。
+   >* 与用户共享工作区时，其主要工作角色及其电子邮件也会显示在字段中。 您必须为访问级别中的“用户”对象启用“查看联系信息”设置，才能查看用户的电子邮件。
 
-1. <span class="preview">（可选）与组、团队、角色或公司共享时，将鼠标悬停在实体的名称上，然后单击向右箭头以展开正在接收权限的用户列表。</span>
+1. （可选）与组、团队、角色或公司共享时，将鼠标悬停在实体名称上，然后单击向右箭头以展开正在接收权限的用户列表。
 
    ![与组共享工作区](assets/share-workspace-role-expanding-arrow-highlighted.png)
 
@@ -216,7 +210,7 @@ Old:
      ![访问请求的电子邮件通知](assets/email-notification-for-access-request.png)
 1. （视情况而定）在Workfront的通知区域中，单击应用程序内通知
 或
-在电子邮件通知中，单击&#x200B;**查看所有通知**，然后单击列表中的通知。
+在电子邮件通知中，单击**查看所有通知**，然后单击列表中的通知。
 
    显示&#x200B;**待处理访问请求**&#x200B;框。
 

@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 10bdce8dd7656d4313296ce830abe9c7baca1acb
 workflow-type: tm+mt
-source-wordcount: '1648'
+source-wordcount: '1641'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,11 @@ ht-degree: 0%
 
 # 管理记录页面布局
 
-<span class="preview">此页面上突出显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -173,6 +175,7 @@ Old:
 
 向记录页添加节时，请考虑以下事项：
 
+* 只有在显示记录的所有字段时才能添加节。 隐藏表格视图中隐藏的字段时，无法添加节。
 * 一个页面上可以具有的节数没有限制。
 * 分区不能为空。 在一个部分中，必须至少有一个字段。
 * 可以将字段从一个区域拖放到另一个区域。 有关详细信息，请参阅本文中记录预览或详细信息页面中的[管理字段](#manage-fields-in-the-records-details-tab)部分。
@@ -196,7 +199,7 @@ Old:
 
    从表格视图中，单击第一列中的&#x200B;**打开详细信息**&#x200B;图标![在表格名称字段](assets/open-details-icon-in-table-name-field.png)中打开详细信息图标。
 
-   <span class="preview">记录的预览在视图中打开。</span>
+   记录的预览将在视图中打开。
 
    ![详细信息框](assets/details-box.png)
 
@@ -225,7 +228,7 @@ Old:
 
      或
 
-     单击&#x200B;**下移**&#x200B;以将节下移一个位置。
+     单击&#x200B;**下移**以将节下移一个位置。
 部分中的所有字段都会随部分一起移动。
 
    * 单击&#x200B;**删除**&#x200B;以删除该节。 该部分已被删除，无法恢复。 访问此类型记录的所有用户将不再查看已删除的分区。
@@ -275,32 +278,24 @@ Old:
 
    从表格视图中，单击第一列中的&#x200B;**打开详细信息**&#x200B;图标![在表格名称字段](assets/open-details-icon-in-table-name-field.png)中打开详细信息图标。
 
-   <span class="preview">记录的预览在视图中打开。</span>
+   记录的预览将在视图中打开。
 
    ![详细信息框](assets/details-box.png)
 
-1. <span class="preview">（可选且有条件）根据要在“详细信息”页面中显示的字段，执行以下操作之一：</span>
+1. （可选和条件）根据要在“详细信息”页面中显示的字段，执行以下操作之一：
 
-   <div class="preview">
 
-   * 选择&#x200B;**显示所有字段**&#x200B;设置可查看记录表视图中的所有字段，包括隐藏的字段。
-   * 取消选择&#x200B;**显示所有字段**&#x200B;设置可仅查看未在记录表视图中隐藏的字段。 这是默认设置
+   * 选择&#x200B;**显示所有字段**&#x200B;设置以在&#x200B;**详细信息**&#x200B;页面中包含记录的所有字段。 这是默认设置。
+   * 取消选择&#x200B;**显示所有字段**&#x200B;设置，以从&#x200B;**详细信息**&#x200B;页面中排除隐藏在记录表视图中的记录字段。
 
-   </div>
+     >[!TIP]
+     >
+     >* **显示所有字段**&#x200B;设置仅在记录的“详细信息”预览框中可用。 当记录的“详细信息”页面在浏览器窗口中打开时，此选项不可用。
+     >* 在“详细信息”预览框中排除隐藏字段时，无法向记录页面添加部分。
 
-   <!--
-      replace with this when they fix the UI text:
-      * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
-      * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
-      -->
+1. （可选）如果要导航到连接的记录，请在详细信息页面顶部的痕迹导航中单击该记录的名称。
 
-   >[!TIP]
-   >
-   ><span class="preview">**显示所有字段**&#x200B;设置仅在记录的“详细信息”预览框中可用。 在记录的“详细信息”页面中不可用。</span>
-
-1. （可选）如果要导航到连接的记录，请在详细信息页面顶部的痕迹导航中单击该记录的名称。<span class="preview">
-
-   如果在痕迹导航中看不到记录的名称，请单击&#x200B;**更多**。 这会在多行上显示痕迹导航。 单击&#x200B;**Less**&#x200B;可缩短痕迹导航并将其显示在一行中。</span>
+   如果在痕迹导航中看不到记录的名称，请单击&#x200B;**更多**。 这会在多行上显示痕迹导航。 单击&#x200B;**Less**&#x200B;可缩短痕迹导航并将其显示在一行中。
 
    >[!TIP]
    >

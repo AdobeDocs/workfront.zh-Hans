@@ -7,9 +7,9 @@ role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ff87e425389f30dfaa1a178ea2b548d1c41179bb
+source-git-commit: 10bdce8dd7656d4313296ce830abe9c7baca1acb
 workflow-type: tm+mt
-source-wordcount: '2184'
+source-wordcount: '2224'
 ht-degree: 0%
 
 ---
@@ -217,10 +217,14 @@ this information will be live on March 2 - the How to sign up below will be a ##
 1. （有条件，必需）作为Workfront管理员，签署免费试用协议。
 
    有关信息，请参阅本文中的[注册Adobe Workfront Planning免费试用](#enroll-in-the-adobe-workfront-planning-free-trial)部分。
-1. 单击&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-shell.png)，然后单击&#x200B;**计划**。 图标旁边显示&#x200B;**试用版**&#x200B;标签。
+1. （视情况而定）在Workfront管理员签署试用协议后，单击&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-shell.png)，然后单击以下图标之一以访问&#x200B;**Planning**&#x200B;区域：
+
+   * **计划**。 图标旁边显示&#x200B;**试用版**&#x200B;标签。
+   * **项目**，**请求**，**日历**，然后单击&#x200B;**浏览营销活动日历**
+   * **项目组合**、**程序**，或者来自项目组合或程序    然后单击&#x200B;**浏览自定义层次结构**。
 
    将在&#x200B;**示例工作区**&#x200B;选项卡中打开&#x200B;**计划**&#x200B;区域。
-1. 查看&#x200B;**示例工作区**&#x200B;选项卡中可用的以下工作区：
+1. 查看&#x200B;**示例工作区**&#x200B;选项卡中的以下工作区：
 
    * **全局分类和分类**：包含作为营销记录系统基础的示例Planning对象类型。
 

@@ -8,16 +8,16 @@ recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 795d115e7a745de052b462ba444425136a3d4953
 workflow-type: tm+mt
-source-wordcount: '5686'
+source-wordcount: '5655'
 ht-degree: 1%
 
 ---
 
 
 <!--
-Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=zh-Hans ??
+Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??
 -->
 
 <!--
@@ -32,10 +32,11 @@ Do we need this for FORMULAS: when we release permissions to RECORDS and we rele
 
 <!--information about choice values must stay in yellow till Jan 2026-->
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -252,7 +253,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
    * [上次修改日期](#last-modified-date)
    * [批准日期](#approved-date)
    * [批准者](#approved-by)
-   * <span class="preview">[记录ID](#record-id)</span>
+   * [记录ID](#record-id)
      <!--* [Object](#object-field-type)-->
 
    >[!IMPORTANT]
@@ -630,7 +631,9 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 
 >[!TIP]
 >
->* 在“人员”字段中添加用户的名称时，该字段中还会显示其主要工作角色<span class="preview">及其电子邮件</span>。 您必须为访问级别中的“用户”对象启用“查看联系信息”设置，才能查看用户的电子邮件。
+>* 在“人员”字段中添加用户的名称时，该字段中还会显示其主要工作角色及其电子邮件。 您必须为访问级别中的“用户”对象启用“查看联系信息”设置，才能查看用户的电子邮件。
+>
+>* 只有已添加到Adobe Admin Console的用户才会显示在“人员”字段中。 尝试在“人员”字段中添加Workfront用户时，不会显示这些用户。
 >
 >* 人员字段在请求表单生成器中显示为引用（或连接）字段类型。
 >
@@ -812,8 +815,6 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 
    新的Approved by-type字段作为列添加到记录类型，其值预填充有上次修改每个记录的用户的名称。
 
-<span class="preview">
-
 ## 记录 ID
 
 您可以使用记录ID字段类型显示每个记录的系统生成的只读标识符。
@@ -834,8 +835,6 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 1. 单击&#x200B;**创建**。
 
    新的记录ID类型字段作为列添加到记录类型，其值预先填充有字母数字值。
-
-</span>
 
 
 <!--

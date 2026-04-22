@@ -6,18 +6,20 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
-source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
 
 # 工作区概述
 
-<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -35,7 +37,7 @@ ht-degree: 0%
    * 从头开始
    * 使用模板。 模板包含预配置的记录类型及其字段。
    * 使用AI支持的规划Designer。 此功能当前位于Beta中。
-   * <span class="preview">使用多工作区模板包。</span>
+   * 使用多工作区模板捆绑包。
 
   有关信息，请参阅[创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md)。
 

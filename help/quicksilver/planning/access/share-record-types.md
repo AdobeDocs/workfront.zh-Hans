@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1526'
 ht-degree: 1%
 
 ---
@@ -20,9 +20,11 @@ ht-degree: 1%
 
 # 共享记录类型
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -224,7 +226,7 @@ Old:
       >Workspace管理员继续拥有记录类型的管理权限。
 
    1. 在&#x200B;**授予对此记录类型的访问权限**&#x200B;字段中，添加要授予不同于工作区权限级别的用户、团队、组、公司或工作角色。
-   1. <span class="preview">（可选）与组、团队、角色或公司共享时，将鼠标悬停在实体的名称上，然后单击向右箭头以展开正在接收权限的用户列表。</span>
+   1. （可选）与组、团队、角色或公司共享时，将鼠标悬停在实体名称上，然后单击向右箭头以展开正在接收权限的用户列表。
 
       ![与组](assets/share-record-type-with-group-expanding-arrow-highlighted.png)共享记录类型
 
@@ -237,7 +239,7 @@ Old:
    >* 您不能授予比“管理”更小的用户记录类型权限（如果他们具有工作区的管理权限）。
    >* 如果用户具有工作区的“贡献”权限，则可以授予他们较少的记录类型权限。
    > 有关详细信息，请参阅[在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
-   >* 与用户共享记录类型时，其主要工作角色<span class="preview">及其电子邮件</span>也会显示在字段中。 您必须为访问级别中的“用户”对象启用“查看联系信息”设置，才能查看用户的电子邮件。
+   >* 与用户共享记录类型时，字段还会显示用户的主要工作角色和电子邮件。 您必须为访问级别中的“用户”对象启用“查看联系信息”设置，才能查看用户的电子邮件。
 
 1. 要向没有工作区访问权限的用户授予查看记录类型的权限，请在&#x200B;**授予此视图的访问权限**&#x200B;字段中，开始键入用户、组、团队、公司或工作角色的名称，然后当该名称显示在列表中时单击它。
 

@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
 source-wordcount: '1375'
 ht-degree: 2%
@@ -288,10 +288,10 @@ Old:
 
    >[!TIP]
    >
-   ><span class="preview">您可以使用以下键盘组合从任何Workfront Planning页面打开全局搜索框并搜索视图：</span>
+   >您可以使用以下键盘组合从任何Workfront Planning页面打开全局搜索框并搜索视图：
    >
-   >* <span class="preview">CTRL+K for Windows</span>
-   >* 适用于Mac<span class="preview">⌘的</span>+K
+   >* Ctrl+K for Windows
+   >* 适用于Mac的⌘+K
    >
    >![全局搜索框](assets/global-search-box.png)
 
