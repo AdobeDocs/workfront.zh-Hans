@@ -1,16 +1,16 @@
 ---
 product-area: projects
 navigation-topic: create-projects
-title: 请求项目
+title: Request a project
 description: 您可以在开始处理项目之前请求批准该项目。 我们建议为新项目构建业务案例，以便您概述希望通过完成项目而实现的一些要点，并向您的管理团队展示您的人工和费用预算。 填写业务案例并提交项目审批完成项目的正式请求。 提交业务案例以供审批后，项目的状态变为“已请求”。
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '545'
 ht-degree: 5%
 
 ---
@@ -19,18 +19,18 @@ ht-degree: 5%
 
 <!--Audited: 10/2025-->
 
-您可以在开始处理项目之前请求批准该项目。
+You can request for a project to be approved before you start working on it.
 
-创建空白项目时，项目的状态为“想法”。
+When you create a blank project, the status of the project is Idea.
 
-如果您需要正式请求批准该项目，我们建议您为新项目构建业务案例，这样您就能够概述希望通过完成它来实现的一些要点，并向您的管理层展示您的人工和费用预算。
+If you need a formal request for the project to be approved, we recommend building a Business Case for a new project so that you can outline some of the key points you want to achieve by completing it, as well as to present to your management your labor and expense budget.
 
-填写业务案例并提交项目审批完成项目的正式请求。 提交业务案例以供审批后，项目的状态变为“已请求”。
+Filling out the Business Case and submitting the project for approval completes the formal request for the project. After submitting the business case for approval the status of the project becomes Requested.
 
-在Adobe Workfront的以下区域添加新项目时，您可以请求一个项目：
+You can request a project when you add a new project in the following areas of Adobe Workfront:
 
-* 在“项目”区域中
-* 在Portfolio的“项目”区域中
+* In the Projects area
+* In the Projects area of a Portfolio
 * 在项目群的项目区域中
 * 在项目组的组区域中，当您是组管理员时。
 
@@ -54,7 +54,7 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>编辑对项目的访问权限</p>
+   <td> <p>Edit access to Projects</p>
    <p>如果您从项目组合或项目群请求项目，则必须拥有对项目组合和项目群的“编辑”访问权限</p>
     </td> 
   </tr> 
@@ -101,14 +101,14 @@ Old:
 </table>
 -->
 
-## 请求项目
+## Request a project
 
 1. 执行下列操作之一：
 
-   * 单击左上角的&#x200B;**主菜单**&#x200B;图标![主菜单行](assets/lines-main-menu.png)或右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，单击&#x200B;**项目**，然后展开&#x200B;**新建项目**。
-   * 转到项目组合，然后展开&#x200B;**新建项目**。
-   * 转到项目群，然后展开&#x200B;**新建项目**。
-   * 如果您是组管理员，则还可以在所管理组的项目部分中创建项目。 有关详细信息，请参阅[创建和修改组的项目](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)。
+   * Click the **Main Menu** icon![Main Menu lines](assets/lines-main-menu.png) in the upper-left corner, click **Projects**, then expand **New Project**.
+   * Go to a portfolio, then expand **New Project**.
+   * Go to a program, then expand **New Project**.
+   * If you are a group administrator, you can also create a project in the Projects section of a group you manage. For more information, see [Create and modify a group&#39;s projects](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
 1. 单击&#x200B;**请求项目**。
 
@@ -116,14 +116,14 @@ Old:
 
 1. 执行下列操作之一：
 
-   * 遵循与定义业务案例时创建项目相同的步骤。 （推荐）
+   * Follow the same steps as for creating a project while defining a Business Case. （推荐）
 
-     有关信息，请参阅[为项目创建业务案例](../../../manage-work/projects/define-a-business-case/create-business-case.md)。
+     For information, see [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-   * 从头开始或使用模板创建项目，并将状态更改为&#x200B;**已请求**。
+   * Create a project from scratch or using a template and change the status to **Requested**.
 
-     有关信息，请参阅[创建项目](../../../manage-work/projects/create-projects/create-project.md)或[使用模板创建项目](../../../manage-work/projects/create-projects/create-project-from-template.md)。
+     For information, see [Create a project](../../../manage-work/projects/create-projects/create-project.md) or [Create a project using a template](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
-   您请求的项目具有&#x200B;**已请求**&#x200B;状态，如果您将其与Portfolio关联，它将显示在Portfolio的&#x200B;**已请求项目**&#x200B;选项卡上。
+   The project you request has a status of **Requested** and it displays on the **Requested Projects** tab of a Portfolio, if you associated it with a Portfolio.
 
-   项目组合经理现在可以审阅它并批准或拒绝它，在这种情况下，项目的状态将更改为&#x200B;**已批准**&#x200B;或&#x200B;**已拒绝**。
+   A portfolio manager can now review it and either approve it or reject it, in which case the status of the project changes to either **Approved** or **Rejected**.

@@ -8,9 +8,9 @@ author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '3536'
+source-wordcount: '3445'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 1%
 
 有关将记录类型相互连接或从其他应用程序连接到对象类型的信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
-有关连接记录类型的示例，请参阅[连接记录类型和记录的示例](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md)。
+For an example of connecting record types, see [Example of connecting record types and records](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md).
 
 您可以连接以下各项：
 
@@ -97,7 +97,7 @@ ht-degree: 1%
    <ul><li><p>Adobe Experience Manager许可证以及Adobe Experience Manager与Workfront之间的集成，用于将AEM资源或内容片段与Planning记录类型连接。</p>
    <p>有关信息，请参阅适用于Experience Manager Assets和Assets Essentials的<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 用于连接记录类型与GenStudio Brands的Adobe GenStudio for Performance Marketing许可证</p>
-   <p>有关信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing入门</a>。</p></li></ul>
+   <p>有关信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing入门</a>。</p></li></ul>
    </td> 
   </tr>   
 <tr> 
@@ -286,7 +286,6 @@ Old:
    >* 我们交替使用“链接字段”和“查找字段”。
    >
    >* 当您选择在连接记录类型时连接多个记录时，来自多个对象的字段值或者以逗号分隔，或者根据您在连接记录类型时选择的聚合器聚合。
-   >* 您无法添加Workfront预输入字段作为查找字段。 在生产环境中，这包括“项目所有者”或“项目发起人”等人员类型字段。 <span class="preview">您可以在预览环境中添加人员类型字段作为查找字段。</span>
    >
    >* Workfront对象的日期字段信息在Workfront Planning中以24小时制显示，无论它在Workfront中如何显示。
    >
@@ -329,7 +328,7 @@ Old:
 1. 执行下列操作之一：
 
    * 单击列表中的对象以将其添加到所选记录。 对象按字母顺序列出。 对象将自动添加。
-   * 开始键入对象的名称，并在该对象显示在列表中时单击它。 对象将自动添加。
+   * Start typing the name of an object and click it when it displays in the list. 对象将自动添加。
 
    >[!TIP]
    >
@@ -364,17 +363,17 @@ Old:
    添加了以下内容：
 
    * 选定的Workfront对象将添加到链接的记录字段。
-   * 如果您在通过Workfront连接记录类型时添加了它们，则Workfront对象的链接字段（或查找字段）会自动填充Workfront中的信息。
+   * If you added them when you connected the record type with Workfront, the linked fields (or the lookup fields) of the Workfront objects are automatically populated with information from Workfront.
 
-   有关将记录类型与来自其他应用程序的对象连接的详细信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
+   For more information about connecting record types with objects from another application, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-1. （可选）单击表视图的链接字段或记录页面中链接字段内连接到Workfront Planning记录的Workfront对象的名称。
+1. (Optional) Click the name of a Workfront object connected to a Workfront Planning record either in the linked field of a table view or from the linked field in the record page.
 
-   如果您至少具有对象的“查看”权限，此操作将在Workfront中打开Workfront对象。
+   This opens the Workfront object in Workfront, if you have at least View permissions to the object.
 
    >[!TIP]
    >
-   >* 当您选择在连接记录类型时连接多个记录时，查找字段的值显示时用逗号分隔，或者根据您选择的聚合器聚合。
+   >* When you choose to connect multiple records when connecting the record types, the values of the lookup fields are either displayed separated by commas or are aggregated according to the aggregator you chose.
    >
    >* 在Workfront中，不会为链接的Workfront对象创建链接记录字段。
 
@@ -391,22 +390,27 @@ Old:
 
 ### 将Workfront Planning记录从记录的表视图或详细信息区域连接到Adobe Experience Manager对象
 
-<!--when we will have more applications to link to from Planning, change the title to something like: Connect Workfront Planning records to objects from other applications-->
+<!--
+when we will have more applications to link to from Planning, change the title to something like: Connect Workfront Planning records to objects from other applications
+-->
 
+<!--
+No longer needed to specify: 
 >[!IMPORTANT]
 >
->您必须拥有Adobe Experience Manager许可证，并且贵组织的Workfront实例必须载入Adobe业务平台或Adobe Admin Console，才能将Workfront Planning记录连接到Adobe Experience Manager。
+>You must have an Adobe Experience Manager license, and your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console to be able to connect Workfront Planning records to Adobe Experience Manager.
 >
->如果您对加入Adobe Admin Console有任何疑问，请参阅[Adobe Unified Experience常见问题解答](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)。
+>If you have questions about onboarding to the Adobe Admin Console, see the [Adobe Unified Experience FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+-->
 
 在记录类型与Adobe Experience Manager对象之间创建连接后，可以将单个记录连接到Experience Manager对象。 创建连接后，您从Experience Manager连接的资源字段会自动填充在您链接的记录类型中。
 
 >[!NOTE]
 >
->当Workfront管理员通过Experience Manager Assets与Workfront之间的集成配置元数据映射时，可从Adobe Experience Manager Assets访问Planning记录及其字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+>当Workfront管理员通过Experience Manager Assets与Workfront之间的集成配置元数据映射时，可从Adobe Experience Manager Assets访问Planning记录及其字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
 <!--
-not sure if the above 2 paragraphs also apply to fragments; checking with Court and the Andy
+metadata mapping is not available yet for content fragments - as of April 22, 2026. Syuzanna said the mapping is available just for GenS workspace, but checking again with her and Isk.
 -->
 
 要将记录与Experience Manager对象连接，请执行以下操作：
@@ -448,11 +452,11 @@ not sure if the above 2 paragraphs also apply to fragments; checking with Court 
    >[!IMPORTANT]
    >
    > 您只能连接有权在Experience Manager中查看的资源。 连接后，所有Workfront Planning用户都可以在Workfront Planning中查看资源，无论他们在Experience Manager Assets中是否具有访问权限。
-   > 有关内容顾问的详细信息，请参阅[使用内容顾问访问Adobe应用程序中的AEM内容](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}。
+   > 有关内容顾问的详细信息，请参阅[使用内容顾问访问Adobe应用程序中的AEM内容](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}。
 
 1. 从&#x200B;**内容片段**&#x200B;选项卡中，选择要添加到链接记录字段的内容片段。
 
-   有关内容片段的详细信息，请参阅[使用内容审查程序访问Adobe应用程序中的AEM内容](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}。
+   有关内容片段的详细信息，请参阅[使用内容审查程序访问Adobe应用程序中的AEM内容](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}。
 
 1. 选择完资源或内容片段后，单击&#x200B;**选择**。<!-- we might change this to Connect-->
 
@@ -473,7 +477,7 @@ not sure if the above 2 paragraphs also apply to fragments; checking with Court 
 
    ![包含AEM详细信息和缩略图的资源弹出窗口](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
 
-   为图像文件显示以下字段：
+   The following fields display for an image file:
 
    * 图像的缩略图
    * 图像文件名
@@ -497,9 +501,9 @@ not sure if the above 2 paragraphs also apply to fragments; checking with Court 
 
    从&#x200B;**选定字段**&#x200B;区域删除Workfront对象字段。
 
-   这会在记录中添加或删除链接字段。 与已删除字段关联的信息仍保留在Adobe Experience Assets中。
+   这会在记录中添加或删除链接字段。 The information associated with the removed fields remains in Adobe Experience Assets.
 
-### 从记录页面的“连接”选项卡将Workfront Planning记录与其他记录或对象连接
+### Connect Workfront Planning records with other records or objects from the Connections tab of the record page
 
 1. 转到已连接到其他Planning记录类型或来自其他应用程序的对象类型的任何记录类型视图。
 1. 按照前面各小节中描述的步骤，在视图中查找要与其他记录或对象连接的记录。
@@ -518,7 +522,7 @@ not sure if the above 2 paragraphs also apply to fragments; checking with Court 
    >
    >    默认情况下，仅显示已连接单个记录的已连接记录。
 
-1. （可选）单击“显示所有连接”**&#x200B;**&#x200B;可显示所有连接的记录类型，包括未连接记录的记录类型。
+1. （可选）单击“显示所有连接”****&#x200B;可显示所有连接的记录类型，包括未连接记录的记录类型。
 
 1. （可选）单击截面左侧的向下箭头以将其折叠。
 

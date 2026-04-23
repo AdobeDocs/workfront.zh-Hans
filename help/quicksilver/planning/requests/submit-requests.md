@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '2400'
+source-wordcount: '2342'
 ht-degree: 1%
 
 ---
@@ -132,12 +132,11 @@ Not sure how to change the request status, but dev also said: Changing the names
 
 {{step1-to-requests}}
 
-1. 打开屏幕右上角的&#x200B;**使用新体验**&#x200B;设置。
-启用此设置后，Workfront计划请求表单将在Workfront的&#x200B;**请求**&#x200B;区域中可用。
+1. 打开屏幕右上角的&#x200B;**使用新体验**设置。
+启用此设置后，Workfront计划请求表单将在Workfront的**请求**&#x200B;区域中可用。
 
    >[!TIP]
    >
-   >仅当您的Workfront实例登记到Adobe Unified Experience时，此设置才可用。
    >
    >要在此区域提交Workfront Planning请求，您必须满足以下条件：
    >
@@ -192,11 +191,7 @@ Not sure how to change the request status, but dev also said: Changing the names
    * 您会收到应用程序内和电子邮件通知，告知您请求已成功提交或已发送以供审阅。
    * 如果请求表单与批准关联，则批准者会收到应用程序内和电子邮件通知，以供审阅和批准请求。
 
-     >[!NOTE]
-     >
-     >仅当贵组织的Workfront实例载入到Adobe Unified Experience时，电子邮件和应用程序内通知才可见。
-     >
-     >电子邮件确认或审批通知中有一个指向请求的链接。
+     电子邮件确认或审批通知中有一个指向请求的链接。
 
 1. （可选）在确认消息中单击&#x200B;**查看您的请求**&#x200B;以打开该请求，或单击&#x200B;**X**&#x200B;图标以关闭确认。
 1. （可选）要管理信息在请求列表中的显示方式，请更新列表的以下视图元素：
@@ -289,10 +284,6 @@ Not sure how to change the request status, but dev also said: Changing the names
 
    * 您会收到应用程序内和电子邮件通知，告知您请求已成功提交或已发送以供审阅。
    * 如果请求表单与批准关联，则批准者会收到应用程序内和电子邮件通知，以供审阅和批准请求。
-
-     >[!NOTE]
-     >
-     >仅当贵组织的Workfront实例载入到Adobe Unified Experience时，电子邮件和应用程序内通知才可见。
 
      批准请求并创建记录后，“批准者”和“批准日期”字段显示有关记录上批准的信息。
 

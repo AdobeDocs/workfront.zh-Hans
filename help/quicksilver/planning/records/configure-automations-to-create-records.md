@@ -8,18 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '1790'
+source-wordcount: '1763'
 ht-degree: 3%
 
 ---
 
 # 配置Adobe Workfront Planning自动化
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 <!--add screen shots when UI is finalized AND redo all the steps - some things got changed and moved around-->
 
@@ -164,37 +166,33 @@ Old:
    * **触发器**：选择将触发自动化的操作：
 
       * 按钮点击
-      * <span class="preview">字段值更改</span>
+      * 字段值变化
 
-   1. （视情况而定）如果您选择&#x200B;**按钮，请单击**，请转到下面描述&#x200B;**操作**&#x200B;区域的步骤9。<!--ensure this number stays accurate-->
+1. （视情况而定）如果您选择&#x200B;**按钮，请单击**，请转到下面描述&#x200B;**操作**&#x200B;区域的步骤9。<!--ensure this number stays accurate-->
 
-   1. <span class="preview">（视情况而定）如果您选择了&#x200B;**字段值更改**，请在&#x200B;**设置**&#x200B;分区中执行以下操作：</span>
+1. （视情况而定）如果您选择了&#x200B;**字段值更改**，请在&#x200B;**设置**&#x200B;部分中进行以下操作：
 
-      1. <span class="preview">从下拉菜单中选择一个字段。 这些是与您选择的记录类型关联的字段。</span>
-      1. <span class="preview">继续为所选字段定义条件。</span>
-      1. <span class="preview">单击&#x200B;**添加条件**&#x200B;可添加最多5个字段并定义其条件。</span>
+   1. 从下拉菜单中选择一个字段。 这些是与您选择的记录类型关联的字段。
+   1. 继续定义所选字段的条件。
+   1. 单击&#x200B;**添加条件**&#x200B;可添加最多5个字段并定义其条件。
 
-         <span class="preview">您可以添加以下任何类型的字段：</span>
+      您可以添加以下任意类型的字段：
 
-         <div class="preview">
+      * 单选
+      * 多选
+      * 单行文本
+      * 段落
+      * 数值
+      * 复选框
+      * 日期
 
-         * 单选
-         * 多选
-         * 单行文本
-         * 段落
-         * 数值
-         * 复选框
-         * 日期
+      Workfront Planning将在满足条件时自动创建对象。
 
-         </div>
+      已选择![字段值更改触发器](assets/field-value-change-trigger-selected.png)
 
-         <span class="preview">Workfront Planning将在满足条件时自动创建对象。</span>
-
-         已选择![字段值更改触发器](assets/field-value-change-trigger-selected.png)
-
-         >[!TIP]
-         >
-         ><span class="preview">每个条件中的修饰符会随您选择的字段类型而更改。</span>
+      >[!TIP]
+      >
+      >每个条件中的修饰符均会随您选择的字段类型而更改。
 
 1. 更新&#x200B;**操作**&#x200B;部分中的以下字段： <!--submitted bugs for these fields - see if they need changing here-->
    * **操作**：选择在触发自动操作时希望Workfront执行的操作。 这是必填字段。
@@ -218,7 +216,7 @@ Old:
       * **创建项目的已连接字段**：这是将显示新项目的已连接字段。 这是必填字段。
       * **项目模板**：选择Workfront将用于创建项目的项目模板。
 
-   * 创建多个项目：
+   * **创建多个项目**：
       * **创建项目的已连接字段**：这是将显示新项目的已连接字段。 这是必填字段。
       * **其选择将创建记录的字段**：从所选记录类型中选择多选或单选字段。 Workfront会为当前在记录中选定的每个字段选项创建一个项目，您将从该记录中触发自动化。
 
@@ -252,7 +250,7 @@ Old:
         这是必填字段。
 
         <!--submitted a change in functionality and UI text for this - revise??-->
-在&#x200B;**映射字段**&#x200B;区域中，更新以下信息：
+在**映射字段**&#x200B;区域中，更新以下信息：
 
          * **传输自**：从创建自动化的记录类型中选择字段，以将其映射到连接的记录类型的字段。
          * **传输到**：从新创建的记录中选择将使用您运行自动化的记录中的信息填充的字段。
@@ -301,25 +299,28 @@ Old:
 
    将打开所选记录类型的可用自动化列表。
 
-1. （可选）要编辑、禁用或删除自动化，请执行下列操作之一：
+1. （可选）要从自动化列表中查看、禁用或删除自动化，请单击自动化名称右侧的&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)，然后执行下列操作之一：
 
-   1. 在自动化列表中，将鼠标悬停在已保存自动化的名称上，然后单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)。
+   * 若要自动更改字段值，请单击&#x200B;**查看**&#x200B;以查看自动设置的设置。
 
-   1. 单击&#x200B;**编辑**&#x200B;可更新以下信息：
+     >[!TIP]
+     >
+     >如果自动化是由字段值更改触发的，则在保存自动化设置后无法编辑这些设置。
 
-      * 单击自动化名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**编辑**&#x200B;以更改自动化名称。
+   * 对于按钮点击式自动化，请单击&#x200B;**编辑**&#x200B;以更新以下信息：
+
+      * 通过单击自动化名称右侧的&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**编辑**，显示自动化名称。
       * 自动化中的任何字段，**操作**&#x200B;字段除外。
 
-        >[!TIP]
-        >
-        >您无法更改最初为自动化选择的操作。
+     >[!TIP]
+     >
+     >您无法更改最初为自动化选择的操作。
 
+   * 单击“**禁用**”可从记录的表视图中删除自动化并阻止用户使用它来创建记录或对象。
 
-   1. 单击“**禁用**”可从记录的表视图中删除自动化并阻止用户使用它来创建记录或对象。
+     已使用禁用的自动化创建的记录仍与最初选择的记录保持连接。
 
-      已使用禁用的自动化创建的记录仍与最初选择的记录保持连接。
+     若要使其再次可用，请再次单击&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**激活**。
+   * 单击&#x200B;**删除**&#x200B;以删除自动化。 无法恢复已删除的自动化。
 
-      若要使其再次可用，请再次单击&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-menu.png)，然后单击&#x200B;**激活**。
-   1. 单击&#x200B;**删除**&#x200B;以删除自动化。 无法恢复已删除的自动化。
-
-      使用已删除的自动化创建的记录仍与最初选择的记录保持连接。
+     使用已删除的自动化创建的记录仍与最初选择的记录保持连接。

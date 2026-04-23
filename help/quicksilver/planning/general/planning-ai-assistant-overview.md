@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '781'
 ht-degree: 1%
 
 ---
@@ -115,9 +115,9 @@ ht-degree: 1%
 
 ## 访问规划区的人工智能助理
 
-1. 登录到Workfront，然后单击屏幕右上角的&#x200B;**主菜单**&#x200B;图标![圆点主菜单](assets/dots-main-menu.png)或左上角的&#x200B;**主菜单**&#x200B;图标![行主菜单](assets/lines-main-menu.png)（如果可用）。
+1. 登录到Workfront，然后单击左上角的&#x200B;**主菜单**&#x200B;图标![行主菜单](assets/lines-main-menu.png)，然后单击&#x200B;**计划**。
 
-。单击&#x200B;**计划**。 此时将打开“规划”区域。
+   此时将打开“规划”区域。
 
 1. 单击&#x200B;**工作区信息卡**。
 

@@ -10,9 +10,9 @@ role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '2839'
+source-wordcount: '2688'
 ht-degree: 2%
 
 ---
@@ -20,13 +20,15 @@ ht-degree: 2%
 # 配置组的项目首选项
 
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 如果您是组管理员并且Adobe Workfront管理员为系统中的所有组解锁了项目首选项，则可以为组配置该首选项，以影响您的组创建的所有后续项目。
 
-如果您管理的组之上有任何组，则其管理员也可以为您的组执行此操作。 Workfront管理员也是如此（适用于任何组）。
+If there are any groups above the group you manage, their administrators can also do this for your group. Workfront管理员也是如此（适用于任何组）。
 
 >[!NOTE]
 >
@@ -114,13 +116,13 @@ ht-degree: 2%
 <p>当用户属于具有不同首选项的多个组时，如果用户至少有一个组启用了此首选项，则允许用户创建没有模板的项目。</p>
 </td></tr>
   <tr> 
-   <td role="rowheader">将新项目的状态设置为</td> 
+   <td role="rowheader">Set new project's status to</td> 
    <td> <p>确定新项目的状态。</p> <p><b>注意</b>   
      <ul> 
-      <li>如果您或其他Workfront管理员隐藏此处选择的状态，则默认状态将更改为状态列表中的第一个状态。</li> 
+      <li>If you or another Workfront administrator hides the status selected here, the default status changes to the first status in the status list.</li> 
      </ul> 
      <ul> 
-      <li data-mc-conditions="SnippetConditions-wf-groups.groups">对于组项目首选项，您只能选择锁定状态或所需状态作为默认状态。</li> 
+      <li data-mc-conditions="SnippetConditions-wf-groups.groups">For group project preferences, you can select only a locked status or a required status as the default status.</li> 
       <li> <p>如果将锁定的系统或组状态设置为默认状态，稍后有人将其解锁，则系统会尝试将其替换为相同状态类型的锁定状态。</p> <p>如果找不到，则会查找所需的状态：</p> 
        <ul> 
         <li>如果具有相当于已解锁默认状态的必需状态，则该必需状态将成为默认状态，即使已解锁也是如此。</li> 
@@ -138,7 +140,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>自动创建基准</p> </td> 
-   <td> <p>当项目状态更改为当前时，此首选项会自动创建任务和项目详细信息的基线（快照）。 有关创建基线的信息，请参阅<a href="../../../manage-work/projects/create-projects/create-baselines.md" class="MCXref xref" data-mc-variable-override="">创建项目基线</a>。</p> </td> 
+   <td> <p>当项目状态更改为当前时，此首选项会自动创建任务和项目详细信息的基线（快照）。 For information about creating baselines, see <a href="../../../manage-work/projects/create-projects/create-baselines.md" class="MCXref xref" data-mc-variable-override="">Create project baselines</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>绩效指数方法 </p> </td> 
@@ -152,7 +154,7 @@ ht-degree: 2%
    <td role="rowheader"> <p>完工估算 </p> </td> 
    <td> <p>确定Workfront用于计算代表项目预计总成本的完工估算(EAC)的数据。</p> 
     <ul> 
-     <li><strong>在项目级别计算</strong>：父任务和项目的EAC是通过在EAC公式中输入实际小时数或实际人工成本确定的。 此计算包括直接添加到父级任务或项目的实际小时数或成本和费用。</li> 
+     <li><strong>Calculate at project level</strong>:EAC for the parent task and project are determined by entering Actual Hours or Actual Labor Cost in the EAC Formulas. This calculation includes Actual Hours or Costs and Expenses added directly to the parent task or project.</li> 
      <li> <p><strong>从任务/子任务汇总</strong>：父任务和项目的EAC通过汇总每个子任务的EAC来确定。 此计算不包括直接添加到父任务或项目的实际小时数或实际成本和费用。</p> <p>项目经理可以使用项目详细信息中的财务区域在项目级别修改此设置。有关详细信息，请参阅<a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">管理项目财务区域的信息</a>。</p> </li> 
     </ul> <p>有关EAC如何计算的详细信息，请参阅<a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">计算完工估算(EAC)</a>。</p> </td> 
   </tr> 
@@ -188,7 +190,7 @@ ht-degree: 2%
       <ul> 
        <li>计划开始日期</li> 
        <li>计划完成日期</li> 
-       <li>两个日期</li> 
+       <li>Both dates</li> 
        <li>两者都不是。 </li> 
       </ul> <p>例如，如果任务的限制为固定日期，则当主要被分配者具有空闲时间时，日期不会调整，即使选择了考虑任务持续时间中的用户空闲时间选项也是如此。 有关任务限制的信息，请参阅<a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref" data-mc-variable-override="">任务限制概述</a>。</p> </li> 
     </ul> </td> 
@@ -217,10 +219,10 @@ ht-degree: 2%
    <td role="rowheader"> <p><strong>当一个用户被分派到一个任务时，使用……</strong>的计划 </p> </td> 
    <td> <p>如果项目未分配计划，或分配给其任务的用户未分配计划，则[!DNL Workfront]使用系统默认计划计算任务的时间表。</p>
 
-<p>如果您为项目中的任务分配了一个用户，并且项目和用户都有一个与之关联的计划，则[!UICONTROL Workfront]将使用以下计划：</p> 
+<p>如果您为项目中的任务分配了一个用户，并且项目和用户都有一个与之关联的计划，则[！UICONTROL Workfront]将使用以下计划：</p> 
     <ul> 
-     <li><strong>[!UICONTROL 用户]</strong>：任务上已分配用户的计划以计算时间线。</li> 
-     <li><strong>[!UICONTROL 项目]</strong>：用于计算任务时间线的项目计划。</li> 
+     <li><strong>[！UICONTROL用户]</strong>：任务上已分配用户的计划以计算时间线。</li> 
+     <li><strong>[！UICONTROL项目]</strong>：用于计算任务时间线的项目计划。</li> 
     </ul> <p>有关计划的详细信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">创建计划</a>。</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -230,24 +232,26 @@ ht-degree: 2%
      <li><strong>每个工作日的典型小时数</strong>：为将处理项目的用户设置典型工作日的小时数。 默认值为8小时。</li> 
     </ul> 
     <ul> 
-     <li><strong>每周的典型工作日</strong>：为将处理项目的用户设置标准工作周。 默认值为5天。</li> 
+     <li><strong>Typical work days per week</strong>: Set the standard workweek for the users who will be working on projects. 默认值为5天。</li> 
     </ul> <p>这2个选项会将天转换为小时，或将周转换为天。</p> <p>例如，如果您有一个具有8个计划小时数的任务并且持续时间是根据计划小时数计算的，则Workfront会将这些小时数转换为天数，以便将持续时间显示为天。</p> <p>Workfront会从“每周典型工作日”字段计算系统的相当于全职(FTE)值。 这是Workfront在计算用户分配时使用的内容。</p> <p>当您计划项目时间线、资源预算或针对项目记录时间时，可以使用这些值。 </p> <p>在系统中为用户建立时间表时，不使用这些时间表，如<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">配置时间表和小时首选项</a>中所述。</p> <p><b>注意</b>： Workfront管理员无法解锁时间表计算首选项。</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p><strong>自定义季度</strong> </p> </td> 
+  <!--
+  <tr> 
+   <td role="rowheader"> <p><strong>Custom Quarters</strong> </p> </td> 
    <td> 
-   <span class="preview">自定义季度区域已从预览环境中的组的项目偏好设置分区中删除。</span>
-   <p>自定义季度通常是不匹配日历年内传统季度划分的季度。 Workfront管理员可以在<b>设置</b>区域中添加多个自定义季度。 有关详细信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">启用自定义季度</a>。</p>  
-   <p><b>重要<b></p>
-   <p>您无法作为组管理员更改“自定义季度”配置。 <p>Workfront管理员无法解锁“自定义季度”首选项，因此组管理员可以对其进行管理。</p> <p>对组管理员而言，“自定义季度”区域是只读的。</p>
+   <span class="preview">The Custom Quarters area has been removed from the Group's Project Preferences section in the Preview environment.</span>
+   <p>Custom quarters are usually quarters that do not match the traditional breakdown of quarters during a calendar year. A Workfront administrator can add multiple custom quarters in the <b>Setup</b> area. For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Enable custom quarters</a>.</p>  
+   <p><b>IMPORTANT<b></p>
+   <p>You cannot change the Custom Quarter configuration as a group administrator. <p>Workfront administrators cannot unlock Custom Quarters preferences so that group administrators can manage it.</p> <p>The Custom Quarters area is read-only for group administrators.</p>
    </td> 
   </tr> 
+  -->
  </tbody> 
 </table>
 
 ### 业务案例 {#business-cases}
 
-您可以为与组关联的新创建项目创建业务案例，以提交项目请求。 您可以定义首选项以确定&#x200B;**业务案例**&#x200B;表单上可见的区域。 我们建议您启用这些选项，以便其他工具（如Portfolio Optimizer）正确更新。 有关每个字段显示内容的详细信息，请参阅[定义业务案例：文章索引](../../../manage-work/projects/define-a-business-case/define-business-case.md)。
+You can create a Business Case for newly created projects associated with the group to submit project requests. 您可以定义首选项以确定&#x200B;**业务案例**&#x200B;表单上可见的区域。 We recommend that you enable these options so that other tools, such as the Portfolio Optimizer, update properly. 有关每个字段显示内容的详细信息，请参阅[定义业务案例：文章索引](../../../manage-work/projects/define-a-business-case/define-business-case.md)。
 
 在Workfront管理员启用业务案例的部分后，项目所有者可以在项目级别创建业务案例。 有关创建业务案例的信息，请参阅[为项目创建业务案例](../../../manage-work/projects/define-a-business-case/create-business-case.md)。
 
@@ -281,7 +285,7 @@ ht-degree: 2%
        <li>在项目被标记为“完成”、“停止”或“未决批准”后，编辑项目中的问题。</li> 
        <li>在项目被标记为完成或废弃后将问题添加到项目。 （您无法将问题添加到未决批准的项目。）</li> 
       </ul></li> 
-     <li> <p><strong>将文档添加到项目及其任务和问题</strong>：允许用户在项目标记为“完成”或“废弃”后，将文档添加到项目（或将文档添加到项目中的任务和问题）。</p> <p>此选项不适用于未决批准的项目。</p> </li> 
+     <li> <p><strong>Add documents to the project and to its tasks and issues</strong>: Allows users to add documents to a project (or to add documents to tasks and issues within the project) after the project has been marked Complete or Dead.</p> <p>此选项不适用于未决批准的项目。</p> </li> 
      <li> <p><strong>附加模板</strong>：允许用户在项目被标记为“完成”或“废弃”后，将模板附加到项目。</p> <p>此选项不适用于未决批准的项目。</p> </li> 
     </ul> </td> 
   </tr> 

@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '929'
 ht-degree: 1%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 1%
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-<!--take Preview and Production references at Production time-->
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
-
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -50,7 +50,7 @@ ht-degree: 1%
    <td> 
 <p>任何Workfront包和任何Planning包</p>
 或
-<p>任何工作流包和任何计划包</p>
+<p>Any Workflow package and any Planning package</p>
 
 <p>有关每个Workfront Planning包中所包含内容的更多信息，请联系您的Workfront客户代表。</p>
    </td> </tr>
@@ -82,50 +82,47 @@ ht-degree: 1%
 * 如果至少有一个批准者拒绝了请求，并且所有其他批准者都批准了该请求，则会在Workfront中为请求区域创建一个请求，但不会为与请求表单关联的记录类型创建记录。
 * 向请求表单添加审批是可选的。 如果申请表单与批准无关，Workfront Planning会在提交申请后立即创建记录。
 
-## 在生产环境中向请求表单添加批准
+<!--
 
-1. 开始为记录类型创建请求表单，如[在Adobe Workfront Planning中创建和管理请求表单](/help/quicksilver/planning/requests/create-request-form.md)中所述。
-1. 单击&#x200B;**配置**。
+## Add an approval to a request form in the Production environment
 
-   显示&#x200B;**配置**&#x200B;区域。
+1. Start creating a request form for a record type, as described in [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+1. Click **Configuration**.
 
-   ![配置选项卡](assets/configuration-tab.png)
-1. 在&#x200B;**审批者**&#x200B;字段中，开始键入要设置为审批者的用户或团队的名称，然后当该名称或团队显示在列表中时将其选定。
-1. （可选且有条件）如果您设置了多个审批者，并且只需要一个审批者即可做出决策，请启用&#x200B;**仅需要一个决策**&#x200B;选项。
+    The **Configuration** area displays.
 
-   <!--most of the Note below is duplicated in the Create a request form article-->
+    ![Configuration tab](assets/configuration-tab.png)
+1. In the **Approvers** field, start typing the name of a user or team that you want to set as an approver, then select it when it displays in the list. 
+1. (Optional and conditional) If you have set more than one approver, and only need one approver to make a decision, enable the **Only one decision is required** option.
 
-   >[!NOTE]
-   >
-   >
-   >* 您可以将一个或多个批准者添加到请求表单。
-   >
-   >* 如果添加多个审批人，但未启用“仅需要一个决策”选项，则所有审批人必须在Workfront Planning创建记录之前审批该请求。
-   >
-   >* 如果至少有一位审批者拒绝了请求，则该请求会被拒绝，并且不会创建记录。 该请求仍保留在Workfront的请求区域中。
-   >
-   >* 如果您添加多个审批者，但未启用“只需一个决策”选项，则所有审批者必须在请求被批准或拒绝之前做出决策。
-   >
-   >* 如果将团队设置为批准者，则只需从团队中做出一个决策。
+    (****most of the Note below is duplicated in the Create a request form article***)
 
-
-1. （可选）如果您以前从未共享过该请求表单，请单击&#x200B;**发布**。
-
-   或
-
-   单击&#x200B;**共享**&#x200B;以共享表单，然后单击&#x200B;**复制链接**。
-1. （可选）用户使用您共享的链接并提交请求后，Workfront Planning会向审批者发送审批应用程序内通知和电子邮件。
-
-   >[!NOTE]
-   >
-   >贵组织的Workfront实例必须载入到Adobe Unified Experience，用户才能接收电子邮件和应用程序内通知。
+      >[!NOTE]
+      >
+      >
+      >* You can add one or several approvers to a request form.
+      >
+      >* If you add more than one approver, and the Only one decision is required option is not enabled, all approvers must approve the request before Workfront Planning creates a record.
+      >
+      >* If at least one approver rejects the request, the request is rejected and the record is not created. The request remains in the Requests area of Workfront.
+      >
+      >* If you add more than one approver, and the Only one decision is required option is not enabled, all approvers must make a decision before a request is either approved or rejected.
+      >
+      >* If a team is set as an approver, only one decision is required from the team.
 
 
-   有关批准请求的信息，请参阅[批准请求](/help/quicksilver/planning/requests/approve-request.md)。
+1. (Optional) Click **Publish** if you have never shared the request form before.
 
-<div class="preview">
+    Or
 
-## 在预览环境中将审批规则添加到请求表单
+    Click **Share** to share the form, then **Copy link**. 
+1. (Optional) After a user uses the link you share and submits a request, Workfront Planning sends an approval in-app notification and an email to the approvers.
+
+   For information about approving requests, see [Approve a request](/help/quicksilver/planning/requests/approve-request.md).
+
+-->
+
+## 将审批规则添加到请求表单
 
 审批规则根据已提交请求中的字段值定义审批流程。
 
@@ -133,14 +130,12 @@ ht-degree: 1%
 
 添加审批规则时，请考虑以下事项：
 
-<!--below bullet list is duplicated in the Add approval to a request form in the Production environment section above-->
-
 * 您可以将一个或多个批准者添加到批准规则。
-* 如果至少有一位审批者拒绝了请求，则该请求会被拒绝，并且不会创建记录。 该请求仍保留在Workfront的请求区域中。
-* 如果您添加多个审批者，但未启用“只需一个决策”选项，则所有审批者必须在请求被批准或拒绝之前做出决策。
-* 如果将团队设置为批准者，则只需团队的一名成员做出一个决策。
+* 如果至少有一位审批者拒绝了请求，则该请求会被拒绝，并且不会创建记录。 The request remains in the Requests area of Workfront.
+* If you add more than one approver, and the Only one decision is required option is not enabled, all approvers must make a decision before a request is either approved or rejected.
+* If a team is set as an approver, only one decision is required from one member of the team.
 
-要为请求表单设置批准规则，请执行以下操作：
+To set approval rules for a request form:
 
 1. 开始为记录类型创建请求表单，如[在Adobe Workfront Planning中创建和管理请求表单](/help/quicksilver/planning/requests/create-request-form.md)一文中所述。
 1. 打开请求表单时，单击&#x200B;**设置**。
@@ -159,10 +154,10 @@ ht-degree: 1%
    1. 单击占位符标题&#x200B;**无标题的批准规则**，然后输入批准规则的名称。
    1. 单击&#x200B;**选择字段**&#x200B;并选择激活规则的字段。
    1. 选择规则的运算符。 运算符因字段类型而异。
-   1. 如果选定的运算符需要一个值，请单击加号图标并添加一个或多个值。
-   1. （可选）单击&#x200B;**添加条件**&#x200B;以添加更多条件，并通过配置步骤C-E中的其他条件通过&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;语句连接这些条件。
-   1. 在审批规则的&#x200B;**操作**&#x200B;区域的&#x200B;**审批者**&#x200B;字段中，添加满足条件时要在审批者处设置的至少一个用户或团队。
-   1. （有条件，可选）如果希望在任何一位批准者批准记录后创建记录，请选中&#x200B;**仅需要一个决策**&#x200B;复选框。 否则，所有批准者必须在接受或拒绝请求之前决定批准。
+   1. If the selected operator requires a value, click the plus icon and add one or more values.
+   1. (Optional) Click **Add condition** to add more conditions and connect them by **And** or **Or** statements by configuring the additional conditions as in steps C-E.
+   1. In the **Actions** area of the approval rule, in the **Approvers** field, add at least one user or team to be set at the approver when the condition is met.
+   1. (Conditional and optional) If you want the record to be created after any one of the approvers has approved it, check the **Only one decision is required** checkbox. Otherwise, all approvers must decide on the approval before the request is accepted or rejected.
 
    >[!NOTE]
    >
@@ -174,5 +169,3 @@ ht-degree: 1%
 
 1. 单击&#x200B;**保存**&#x200B;以保存审批规则。
 1. （可选）如果您以前从未共享过该请求表单，请单击&#x200B;**发布**。
-
-</div>

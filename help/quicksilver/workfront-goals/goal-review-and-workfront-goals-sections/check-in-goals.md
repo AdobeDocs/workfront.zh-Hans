@@ -8,7 +8,7 @@ feature: Workfront Goals
 exl-id: 5092f508-e52c-4934-a8c1-d0be04ecce13
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 3%
@@ -150,22 +150,22 @@ Old:
 
   另请参阅以下文章：
 
-   * 有关将活动添加到目标的信息，请参阅[在Adobe Workfront目标中添加活动](../../workfront-goals/results-and-activities/add-activities-to-goals.md)。
-   * 有关将结果添加到目标的信息，请参阅[在Adobe Workfront目标中添加结果](../../workfront-goals/results-and-activities/add-results-to-goals.md)。
-   * 有关Workfront目标如何计算目标进度的信息，请参阅[Adobe Workfront目标中的目标进度和条件概述](../../workfront-goals/goal-management/calculate-goal-progress.md)。
+   * For information about adding activities to goals, see [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+   * For information about adding results to goals, see [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+   * For information about how Workfront Goals calculates the progress on a goal, see [Overview of goal progress and condition in Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md).
 
 * 您必须先创建并激活目标，然后才能更新其进度。
 
   另请参阅以下文章：
 
    * 有关创建目标的信息，请参阅[在Adobe Workfront目标中创建目标](../../workfront-goals/goal-management/create-goals.md)。
-   * 有关激活目标的信息，请参阅[在Adobe Workfront目标中激活目标](../../workfront-goals/goal-management/activate-goals.md)。
+   * For information about activating goals, see the [Activate goals in Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md).
 
   >[!IMPORTANT]
   >
-  >您无法更新草稿、已关闭或不活动的目标的进度。
+  >You cannot update the progress of goals that are drafted, closed, or inactive.
 
-* 当您或其他人首次更新目标上的结果或活动进度时，目标进度从新目标更改和Workfront目标开始记录进度和进度状态更新。
+* The first time you or someone else updates the progress of a result or activity on a goal, the goal Progress changes from New and Workfront Goals starts recording progress and progress status updates on the goal.
 
 <!--
 
@@ -294,9 +294,9 @@ When you check in on a goal in the Check-in section, you can update the progress
 
 -->
 
-要更新目标的进度，请执行以下操作：
+To update progress on goals:
 
-1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png) > **目标**。
+1. Click the **Main Menu** icon ![Main Menu icon](assets/lines-main-menu.png) > **Goals** in the upper-right corner.
 
    <!--
     Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
@@ -313,16 +313,16 @@ When you check in on a goal in the Check-in section, you can update the progress
 
    >[!NOTE]
    >
-   >  * 您只能更新结果和活动。
-   >  * 您必须更新子目标的进度指示器，以显示子目标的进度。
-   >  * 您必须更新所连接项目上的任务以显示项目进度。
+   >  * You can only update results and activities.
+   >  * You must update the progress indicators of children goals to show progress on the children goals.
+   >  * You must update the tasks on the connected projects to show progress on the projects.
    >   
-   >    反过来，子目标的进度和项目的进度会驱动所选目标的进度。
+   >    In turn, the children goals&#39; progress and projects&#39; progress drive the progress of the selected goal.
 
 
-1. 要更新结果或活动的进度，请单击结果或活动的&#x200B;**实际进度**&#x200B;列中的值，并键入一个数字以更新其值，然后按Enter。
+1. To update the progress of a result or activity, click the value inside the **Actual Progress** column of the result or activity and type a number to update its value, then press Enter.
 
-   ![实际进度](assets/actual-progress-result-updating-highlighted-unshimmed.png)
+   ![Actual progress](assets/actual-progress-result-updating-highlighted-unshimmed.png)
 
-   进度列中的进度指示器的进度条以及目标标题中的目标的进度会立即更新。
+   The progress bar for the progress indicator in the Progress column and the progress of the goal in the goal header update immediately.
 

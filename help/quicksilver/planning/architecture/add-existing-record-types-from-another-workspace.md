@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '725'
 ht-degree: 1%
 
 ---
@@ -20,9 +20,11 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 作为工作区管理员，您可以将存在于另一个工作区中的记录类型添加到您在Adobe Workfront Planning中管理的工作区。
 
@@ -134,8 +136,8 @@ And
 1. 单击&#x200B;**继续**。
 1. 在&#x200B;**选择记录类型**&#x200B;框中，单击要从现有工作区添加的记录类型的卡片，然后单击&#x200B;**添加**。
 
-   <span class="preview">记录类型已添加到您选择的辅助工作区，并且辅助工作区上的&#x200B;**全局记录类型**&#x200B;图标![全局记录图标](assets/global-icon-secondary-workspace.png)将显示在记录类型的卡片上。</span>
-   <span class="preview">全局记录类型图标在辅助工作区中的记录类型上显示时包含一个箭头，以指示该记录类型是从现有记录类型添加的。</span>
+   记录类型已添加到您选择的辅助工作区，并且辅助工作区上的&#x200B;**全局记录类型**&#x200B;图标![全局记录图标](assets/global-icon-secondary-workspace.png)将显示在记录类型的卡片上。
+全局记录类型图标在辅助工作区中的记录类型上显示时包括一个箭头，以指示该记录类型是从现有记录类型添加的。
 
    出现以下情况：
 
@@ -152,7 +154,7 @@ And
      >您无法编辑新记录类型的外观、其他设置或原始字段。 只能从原始工作区编辑记录类型及其所有原始字段和设置。
      >
 
-1. <span class="preview">（可选）将鼠标悬停在辅助工作区![上的全局记录类型图标](assets/global-icon-secondary-workspace.png)全局记录图标上，以查看从中添加记录类型的原始工作区的名称。</span>
+1. （可选）将鼠标悬停在辅助工作区![上的全局记录类型图标](assets/global-icon-secondary-workspace.png)全局记录图标上，以查看从中添加记录类型的原始工作区的名称。
 1. （可选）单击，然后将新添加的记录类型拖放到工作区中的任何部分。
 1. （可选）单击新记录类型卡片上的&#x200B;**更多**&#x200B;菜单或其页面上的记录类型名称右侧，然后单击以下任一项：
 

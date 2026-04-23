@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '2969'
+source-wordcount: '2977'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    <ul><li><p>Adobe Experience Manager Assets许可证以及AEM Assets与Workfront之间的集成，用于连接AEM资源与Planning记录类型。</p>
    <p>有关信息，请参阅适用于Experience Manager Assets和Assets Essentials的<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 用于连接记录类型与GenStudio Brands的Adobe GenStudio for Performance Marketing许可证</p>
-   <p>有关信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing入门</a>。</p></li></ul>
+   <p>有关信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing入门</a>。</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -199,7 +199,7 @@ Old:
 
    * 当前工作区的记录类型
 
-     ![相同工作区记录类型的多选连接选取器](assets/multi-select-connection-picker-record-type.png)
+     ![Multi-select connection picker for same-workspace record type](assets/multi-select-connection-picker-record-type.png)
 
      >[!TIP]
      >
@@ -253,13 +253,13 @@ Old:
      ![原始请求连接选择](assets/original-request-connection-selection.png)
 
 
-   * 来自&#x200B;**Experience Manager应用程序**&#x200B;部分的&#x200B;**Adobe**。
+   * 从&#x200B;**Experience Manager应用程序**&#x200B;部分中的&#x200B;**Adobe**&#x200B;连接到AEM Assets或内容片段。
 
      ![AEM Assets连接选择](assets/aem-assets-connection-selection-041326.png)
 
      将为您选择的记录或对象类型打开“新建连接”选项卡。
 
-   * 来自Adobe GenStudio for Performance Marketing的&#x200B;**Adobe GenStudio**&#x200B;部分的&#x200B;**Brand**
+   * 来自Adobe GenStudio for Performance Marketing的&#x200B;**Adobe GenStudio**&#x200B;部分的&#x200B;**Brands**
 
      ![GenStudio Brand Connection选择](assets/brand-genstudio-connection-selection.png)
 
@@ -302,28 +302,28 @@ Old:
 
    >[!NOTE]
    >
-   >如果为“连接”类型选择“一对多”或“一对一”，并且以后要连接某个记录或已在其他地方连接的对象，您将收到一则警告，指出再次连接该记录或对象会将其从原始连接中删除。 您可以允许删除或选择其他记录。
+   >如果为“连接”类型选择“一对多”或“一对一”，并且以后要连接某个记录或已在其他地方连接的对象，您将收到一则警告，指出再次连接该记录或对象会将其从原始连接中删除。 You can allow the removal or select another record.
 
-1. （有条件，可选）当您选择连接Workfront对象时，请从&#x200B;**仅链接符合这些条件的对象**&#x200B;部分中选择&#x200B;**自定义表单**。 只有附加了所选自定义表单的对象才能链接到所选记录类型。 您可以选择多个表单。
-
-   >[!NOTE]
-   >
-   > 您必须先在Workfront中为选定对象创建自定义表单，然后它们才会显示在此列表中。
-
-1. （视情况而定）当您选择连接到Experience Manager时，请从&#x200B;**链接以下存储库中的资源**&#x200B;部分的&#x200B;**Experience Manager存储库**&#x200B;下拉菜单中选择一个存储库。 这是必填字段。 只有您在Experience Manager中有权访问的存储库才会显示在此字段中。
+1. (Conditional and optional) When you select to connect a Workfront object, choose a **Custom form** from the **Link only objects that match these criteria** section. Only objects that have the selected custom forms attached can be linked to the selected record type. You can select more than one form.
 
    >[!NOTE]
    >
-   >Workfront管理员可以通过Workfront中的元数据映射，将Workfront Planning字段映射到Experience Manager字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+   > You must create custom forms in Workfront for the selected objects before they display in this list.
+
+1. (Conditional) When you select to connect to Experience Manager, choose a repository from the **Experience Manager repository** drop-down menu in the **Link assets from the following repository** section. 这是必填字段。 只有您在Experience Manager中有权访问的存储库才会显示在此字段中。
+
+   >[!NOTE]
+   >
+   >Workfront管理员可以通过Workfront中的元数据映射，将Workfront Planning字段映射到Experience Manager Assets字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
 
 1. （视情况而定）当您选择连接到Experience Manager、Workfront Planning记录类型或GenStudio Brand时，请在&#x200B;**记录外观**&#x200B;区域中选择以下选项之一：
 
    * **名称和图像**：连接的记录的名称和缩略图或图标都会显示在连接的记录字段中。 这是默认选项。
-   * **名称**：只有已连接记录的名称将显示在已连接记录字段中。
-   * **图像**：连接的记录字段中只会显示连接的记录的缩略图或图标。
+   * **Name**: Only the name of the connected records will display in the connected record field.
+   * **Image**: Only the thumbnail or icon of the connected records will display in the connected record field.
 
-   没有缩略图图像的记录改为显示记录类型图标。 在&#x200B;**记录外观**&#x200B;区域中显示已连接记录的显示方式示例。
+   没有缩略图图像的记录改为显示记录类型图标。 An example of how the connected records will display shows in the **Record appearance** area.
 
    >[!NOTE]
    >
@@ -339,7 +339,7 @@ Old:
 
    >[!TIP]
    >
-   >* 除了“名称”和“说明”等系统字段外，您还可以添加以下类型的字段作为来自其他应用程序的对象类型的查找字段：
+   >* In addition to system fields like Name and Description, you can add the following types of fields as lookup fields from object types from another application:
    >   * Workfront项目中的用户字段，如项目所有者或发起人。
    >   * 引用字段，如Workfront项目中的项目组或项目公司。
    >* Workfront对象的日期字段信息在Workfront Planning中以24小时制显示，无论它在Workfront中如何显示。
@@ -411,10 +411,10 @@ Old:
 
    >[!NOTE]
    >
-   >例如，您可以从Campaign记录（原始记录）中链接产品记录（链接记录），并将其命名为“产品字段”。 您还可以选择从营销活动记录中链接产品记录的Budget字段，并将其称为“Product Budget”。 如果您允许在“产品字段”中选择多个记录，则可以选择预算为$100,000的产品1和预算为$110,000的产品2，以及预算为$100,000的产品3。 您可以在链接字段中查看原始记录的以下预算信息，具体取决于您选择的汇总：
+   >For example, you can link the Product record (linked record) from the Campaign record (original record) and name it &quot;Product field.&quot; You can also choose to link the Budget field of the Product record from the Campaign record and call it &quot;Product Budget.&quot; If you allowed to select multiple records in the &quot;Product field,&quot; you can select Product 1 with a Budget of $100,000 and Product 2 with a Budget of $110,000, and Product 3 with a Budget of $100,000. You can view the following Budget information in the linked field from the original record, depending on which aggregator you choose:
    >
-   >* **无**：$100,000，$110,000，$100,000
-   >* **MAX**： $110,000
+   >* **None**: $100,000, $110,000, $100,000
+   >* **MAX**: $110,000
    >* **分钟**： $100,000
    >* **总和**：$310,000
    >* **平均**： $103,000.33
@@ -423,11 +423,11 @@ Old:
 
 1. （可选）使用&#x200B;**搜索**&#x200B;图标![搜索图标](assets/search-icon.png)搜索字段。
 
-1. 单击&#x200B;**添加字段**&#x200B;以保存更改。
+1. Click **Add fields** to save your changes.
 
-   添加了以下项目：
+   The following items are added:
 
-   * 要链接的记录类型上的链接记录字段。 手动添加链接记录后，链接记录字段将显示来自链接记录类型的单个记录。 有关添加记录的信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。 链接记录字段的名称是您在步骤6中选择的名称。<!--accurate-->
+   * A linked record field on the record type you are linking from. 手动添加链接记录后，链接记录字段将显示来自链接记录类型的单个记录。 有关添加记录的信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。 链接记录字段的名称是您在步骤6中选择的名称。<!--accurate-->
 
    * 链接（或查找）字段（或字段），在您手动添加链接记录字段中的记录或对象后，显示有关链接记录或对象类型的信息。 仅在创建连接时选择了&#x200B;**Select lookup fields**&#x200B;设置时才创建查找字段。 查找字段会根据以下模式自动命名：
 
@@ -442,7 +442,7 @@ Old:
      >[!TIP]
      >
      > 不会为来自各自应用程序中的其他应用程序的对象创建链接记录字段。
-     > 我们建议不要创建指向分类记录类型的链接，因为除了每个记录类型有30个连接字段的限制外，还限制了500个字段。
+     > We recommend not creating links to taxonomical record types, as there is a limit of 500 fields, in addition to the limit of 30 connected fields for every record type.
 
 
 1. （可选，视情况而定）在原始记录类型或链接记录类型表格视图中，单击链接记录字段标题中的向下箭头，然后单击以下任一项：

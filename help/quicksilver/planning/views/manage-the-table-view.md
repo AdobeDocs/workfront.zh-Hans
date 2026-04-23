@@ -8,19 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '3563'
+source-wordcount: '3503'
 ht-degree: 2%
 
 ---
 
 # 管理表视图
 
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>
 
-<span class="preview">此页面上突出显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
-
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -144,7 +145,7 @@ Old:
 </table>
 -->
 
-## 使用表视图编辑记录
+## Edit records using the table view
 
 只能在表格视图中编辑记录信息。
 
@@ -241,7 +242,7 @@ Old:
    >
    >隐藏字段的数量显示在工具栏中的字段图标的左侧。
    >
-   ><span class="preview">默认情况下，隐藏字段不显示在记录的&#x200B;**详细信息**&#x200B;预览框中。 所有字段都显示在记录的“详细信息”页面中。 有关信息，请参阅[管理记录页布局](/help/quicksilver/planning/records/manage-the-record-page.md)</span>
+   >默认情况下，隐藏字段不显示在记录的&#x200B;**详细信息**&#x200B;预览框中。 所有字段都显示在记录的“详细信息”页面中。 有关信息，请参阅[管理记录页布局](/help/quicksilver/planning/records/manage-the-record-page.md)。
 
 
 1. 单击&#x200B;**字段**&#x200B;图标，然后启用与要显示在表格列中的字段关联的切换。 默认显示所有字段。
@@ -250,7 +251,7 @@ Old:
 
    1. 在&#x200B;**搜索**&#x200B;框![搜索图标](assets/search-icon.png)中，开始键入与屏幕上显示的记录的任何字段相关联的关键字。 正确匹配的数量显示在搜索项目旁边，具有正确匹配的字段会高亮显示。
 
-      ![在表视图中具有结果蓝色轮廓的搜索框](assets/search-box-with-results-blue-outline-table-view.png)
+      ![Search box with results blue outline in table view](assets/search-box-with-results-blue-outline-table-view.png)
 
       您可以使用屏幕上可见的任何单词或特殊字符。
 
@@ -601,11 +602,11 @@ To sort grouped records:
 
    <!--maybe include a screen shot after release if they update the UI text in this list of users-->
 
-1. <span class="preview">（可选）单击包含其他人编辑的字段的单元格右上角的三角形。 将显示当前正在编辑该字段的用户列表。</span>
+1. （可选）单击包含其他人编辑的字段的单元格右上角的三角形。 此时将显示当前编辑该字段的用户列表。
 
 >[!TIP]
 >
-><span class="preview">实时在线状态指示器显示当前在Workfront Planning的任何位置编辑字段的用户。 这包括记录的表视图或详细信息区域。</span>
+>实时在线状态指示器会显示当前在Workfront Planning的任何位置编辑字段的用户。 这包括记录的表视图或详细信息区域。
 
 
 

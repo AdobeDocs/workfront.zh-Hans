@@ -9,7 +9,7 @@ feature: Workfront Goals
 exl-id: 922a05f9-2995-4401-a6d2-e5a331270fd3
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 3%
@@ -191,7 +191,7 @@ Editing results differs depending on which environment you use.
 -->
 
 
-1. 单击&#x200B;**主菜单** ![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**目标**。
+1. 单击&#x200B;**主菜单** ![主菜单图标](assets/lines-main-menu.png)，然后单击&#x200B;**目标**。
 1. 从目标列表中，单击目标的名称以打开目标页面。
 1. 单击左侧面板中的&#x200B;**进度指示器**。
 1. 在进度指示器列表中选择一个结果，然后单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
@@ -236,7 +236,7 @@ Editing activities differs depending on which environment you use.
 1. Click **Save**.
 -->
 
-1. 单击&#x200B;**主菜单** ![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**目标**。
+1. 单击&#x200B;**主菜单** ![主菜单图标](assets/lines-main-menu.png)，然后单击&#x200B;**目标**。
 1. 从目标列表中，单击目标的名称以打开目标页面。
 1. 单击左侧面板中的&#x200B;**进度指示器**。
 1. 在“进度指示器”列表中选择活动，然后单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。

@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1122'
 ht-degree: 0%
 
 ---
@@ -217,11 +217,10 @@ Old:
 
    创建工作区的用户的名称将作为所有者保存在工作区信息卡上。
 
-   >[!NOTE]
+   >[!TIP]
    >
-   >对于当前正在过渡到Adobe Identity Management System (IMS)的用户，非IMS用户的仅Workfront用户创建的工作区将显示为&#x200B;**系统**&#x200B;所创建。
+   >仅由Workfront用户创建、尚未添加到Adobe Admin Console的工作区显示为&#x200B;**系统**&#x200B;创建的。
    >
-   >有关IMS的信息，请参阅[适用于Workfront的Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 ### 使用最佳实践多工作区模板包创建多个工作区
 

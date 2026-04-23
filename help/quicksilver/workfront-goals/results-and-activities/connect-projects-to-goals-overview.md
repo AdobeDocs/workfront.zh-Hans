@@ -10,9 +10,9 @@ feature: Workfront Goals
 exl-id: 683c9cd9-6c7b-4d50-b326-b4000c9863e8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '859'
 ht-degree: 3%
 
 ---
@@ -175,7 +175,7 @@ There is an indication on the goal list that the project no longer updates progr
 
 ## 将项目添加到目标
 
-1. 单击&#x200B;**主菜单** ![主菜单图标](assets/main-menu-icon.png)(为Shell绘制此菜单：或单击左上角的&#x200B;**主菜单** ![主菜单行](assets/three-line-main-menu-icon.png)（如果可用）。)，然后&#x200B;**目标**。
+1. 单击&#x200B;**主菜单** ![主菜单图标](assets/lines-main-menu.png)，然后单击&#x200B;**目标**。
 1. 从目标列表中，单击目标的名称以打开目标页面。
 1. 单击左侧面板中的&#x200B;**进度指示器**。
 1. 从&#x200B;**新建进度指示器**&#x200B;下拉菜单中，单击&#x200B;**添加现有项目**。

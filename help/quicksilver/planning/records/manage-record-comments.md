@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '822'
 ht-degree: 0%
 
 ---
@@ -141,8 +141,6 @@ Old:
 </table>
 -->
 
-
-
 ## 有关对记录进行注释的注意事项
 
 * 您可以在Workfront Planning的“注释”部分中为记录添加注释和回复。
@@ -158,10 +156,6 @@ Old:
   例如，添加到Workfront中的项目的注释不会显示在链接到Workfront Planning中的营销活动的同一项目中，并且添加到Workfront Planning项目记录的注释不会显示在Workfront中。
 
 * 您可以标记用户或团队，以引起他们对更新的注意。 已单独标记的用户和已标记团队的用户都会收到有关您更新的应用程序内通知和电子邮件。
-
-  >[!NOTE]
-  >
-  >   只有已登记使用Adobe Unified Experience的客户的用户才会同时收到应用程序内通知和电子邮件通知。 要确定您的公司是否正在使用Adobe Unified Experience，请参阅[适用于Workfront的Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 * 您可以向记录添加更新，并复查Workfront Planning以下区域的更改历史记录：
 
@@ -197,7 +191,7 @@ Old:
 1. （可选）要撤消或重做更改，请使用以下快捷键：
    * 按CTRL + Z（对于Mac，按⌘ + z）可撤消更改
    * 按CTRL + Y组合键（Mac为⌘+y）以重做更改
-1. （可选且有条件）如果您的Workfront实例是Adobe Unified Experience的一部分，请添加&#x200B;**@**，后跟用户名或团队名称，以便在更新中标记它们。 有关详细信息，请参阅本文中关于评论记录[的](#considerations-about-commenting-on-a-record)注意事项部分。
+1. 添加&#x200B;**@**，后跟用户名或团队名称，以便在更新中标记这些用户。 有关详细信息，请参阅本文中关于评论记录[的](#considerations-about-commenting-on-a-record)注意事项部分。
 
 1. （可选）使用富文本工具栏中的选项设置文本格式、添加表情符号或链接到更新，以增强内容。
 
