@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 1de9b04cd6813c42dac3b773c80e6aabb82eb8fe
+source-git-commit: d32fd0ffe1750cb08ec90d0b766034de5ffe6eaf
 workflow-type: tm+mt
-source-wordcount: '13932'
+source-wordcount: '13945'
 ht-degree: 2%
 
 ---
@@ -19,6 +19,9 @@ ht-degree: 2%
       * [产品版本概述](product-announcements/product-releases/product-releases.md)
       * [Adobe Workfront发布计划和流程](product-announcements/product-releases/workfront-release-schedule.md)
       * [为Adobe Workfront季度版本做准备](product-announcements/product-releases/release-readiness.md)
+      * 2026年第三季度发行 {#release-26-q3}
+         * [2026年第三季度发行版概述](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)
+         * [2026年第三季度请求增强功能](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md)
       * 2026年第二季度发布 {#release-26-q2}
          * [2026年第二季度发行版概述](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
          * [2026年第二季度管理员增强功能](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md)
@@ -2578,8 +2581,8 @@ ht-degree: 2%
       * [使用PKCE流程配置和使用您组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-pkce-flow.md)
       * [弃用API — 内部](wf-api/api/deprecation-api-internal.md)
       * [API版本21中的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-      * [API版本20中的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [API版本19中的新增功能](wf-api/api/new-api-version-19.md)
+      * [API版本20](/help/quicksilver/wf-api/api/new-api-version-20.md)中的新增功能
+      * [API版本19](wf-api/api/new-api-version-19.md)中的新增功能
       * [API版本18中的新增功能](wf-api/api/new-api-version-18.md)
       * [API版本17中的新增功能](wf-api/api/new-api-version-17.md)
       * [API版本16中的新增功能](wf-api/api/new-api-version-16.md)
