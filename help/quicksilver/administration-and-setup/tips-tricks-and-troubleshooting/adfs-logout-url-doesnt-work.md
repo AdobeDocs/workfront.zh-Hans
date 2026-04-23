@@ -9,10 +9,10 @@ author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4d868625-e976-47b4-9e80-f1eca84a2768
-source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 1%
+source-wordcount: '238'
+ht-degree: 7%
 
 ---
 
@@ -20,9 +20,13 @@ ht-degree: 1%
 
 <!-- Audited: 1/2024 -->
 
+<!--Remove me October 2026-->
+
 >[!IMPORTANT]
 >
->本页中介绍的过程仅适用于尚未加入[!UICONTROL Adobe Admin Console]的组织。
+>此页面上描述的过程仅适用于尚未载入[!UICONTROL Adobe Admin Console]的组织。
+>
+>由于所有组织现在都已登记到Adobe Admin Console，因此本文将在不久的将来删除。
 >
 >如果您的组织已加入[!UICONTROL Adobe Admin Console]，请参阅[基于平台的管理差异([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
@@ -32,9 +36,9 @@ ht-degree: 1%
 
 如果问题仍然存在，请与此站点的管理员联系，并提供以下参考号以识别问题： **57092dfc-751a-4915-8e6a-b4c5d413f8c6**
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,7 +46,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe [!DNL Workfront]包</td> 
-   <td>任何</td> 
+   <td>“任一”</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe [!DNL Workfront]许可证</td> 
@@ -52,7 +56,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td>  
+   <td>[！UICONTROL系统管理员]</td>  
   </tr> 
  </tbody> 
 </table>

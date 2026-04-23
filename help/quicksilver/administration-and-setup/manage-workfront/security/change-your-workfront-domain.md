@@ -8,20 +8,24 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d817bd2b-1aaa-4dde-8e75-392c1da2943a
-source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 8%
+source-wordcount: '241'
+ht-degree: 11%
 
 ---
 
 # 更改Adobe Workfront域
 
+<!--Remove me October 2026-->
+
 >[!IMPORTANT]
 >
->本页中介绍的过程仅适用于尚未载入Admin Console的组织。 如果贵组织已载入Adobe Admin Console，则无法更改您的Workfront域。
+>此页面上描述的过程仅适用于尚未载入Admin Console的组织。 由于所有组织现在都已登记到Adobe Admin Console，**无法更改您的Workfront域**。
 >
 >有关因贵组织是否已登记到Adobe Admin Console而不同的过程列表，请参阅[基于平台的管理差异（Adobe Workfront/Adobe业务平台）](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
+>
+>本文将于近期移除。
 
 作为Adobe Workfront管理员和经授权的Workfront支持联系人，您可以向Workfront支持团队请求帮助，以更改贵组织的Workfront域。
 

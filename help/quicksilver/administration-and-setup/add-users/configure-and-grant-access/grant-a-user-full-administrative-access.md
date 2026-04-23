@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '1571'
+source-wordcount: '1542'
 ht-degree: 5%
 
 ---
@@ -25,8 +25,6 @@ ht-degree: 5%
 >**由于所有组织现在都已迁移到Adobe Admin Console，因此本文中的信息不再相关，不久将会被删除。**
 >
 >有关在Adobe Admin Console中授予完全管理员访问权限的说明，请参阅[在Adobe Admin Console中管理用户](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)。
->
->有关因贵组织是否已登记到Adobe Admin Console而不同的过程列表，请参阅[基于平台的管理差异（Adobe Workfront/Adobe业务平台）](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
 作为Adobe Workfront管理员，您可以通过分配系统管理员访问级别来创建另一个Workfront管理员。 具有此访问级别的用户对Workfront中的所有内容（包括他们自己未创建的项目）具有完全管理访问权限。
 

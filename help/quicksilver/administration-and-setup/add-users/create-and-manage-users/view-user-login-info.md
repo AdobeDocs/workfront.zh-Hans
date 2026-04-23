@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b37c34a-d628-4d9b-9688-e4b9f89c666b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 0%
+source-wordcount: '529'
+ht-degree: 3%
 
 ---
 
@@ -19,17 +19,17 @@ ht-degree: 0%
 
 通过指示您希望在用户列表视图或用户报表中包含此信息，您可以查看用户登录Adobe Workfront的频率以及上次登录的时间。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td>Adobe Workfront 包</td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
@@ -60,14 +60,9 @@ Workfront记录以下有关登录系统的用户的信息：
 以下列任一方式登录Workfront均会计为Workfront的登录：
 
 * Workfront Web应用程序
-* Workfront移动设备应用程序(iOS或Android设备)
-* 任何受支持的Workfront与其他第三方应用程序(如Slack)的集成
+* Workfront移动设备应用程序（iOS或Android设备）
+* 任何受支持的Workfront与其他第三方应用程序（如Slack）的集成
 * Workfront与其他第三方应用程序之间的任何自定义集成。
-* WORKFRONT API
-
-  >[!NOTE]
-  >
-  >通过Workfront API登录到Workfront仅适用于尚未登记到Adobe Business Platform的组织。
 
 ## 在用户列表或报告中显示使用情况信息
 
