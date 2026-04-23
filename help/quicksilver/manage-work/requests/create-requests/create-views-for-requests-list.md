@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '689'
 ht-degree: 3%
 
 ---
@@ -189,7 +189,7 @@ hide these details - all the information is in "Use enhanced lists" - we need on
 
 ## 将请求视图添加到布局模板
 
-Workfront管理员可以为请求区域的布局模板添加新视图。
+Workfront管理员可以在请求区域的布局模板中添加或删除新视图或系统视图。
 
 有关说明，请参阅[使用布局模板自定义筛选器、视图和分组](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)。
 

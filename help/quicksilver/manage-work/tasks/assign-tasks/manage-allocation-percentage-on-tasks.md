@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
+source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 5%
+source-wordcount: '444'
+ht-degree: 6%
 
 ---
 
@@ -63,9 +63,13 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   <tr> 
    <td>对象权限</td>
    <td><p>为任务分配或更高权限</p>
-   <p>编辑权限可在使用旧体验编辑任务时，在编辑任务框中更新分配百分比。</p>
-   <p><b>注释</b></p>
-   <p> 在新版Experience中编辑任务时，您无法再在“编辑”任务框中管理分配百分比。</p> <p>有关信息，请参阅<a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">编辑任务</a>。</p></td>
+   <p>在“编辑任务”框中编辑权限以更新分配百分比。</p>
+   <!--
+   Not true anymore: 
+   <p><b>NOTE</b></p>
+   <p> You can no longer manage allocation percentage in the Edit task box when editing tasks in the new experience.</p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a>.</p>
+   -->
+   </td>
   </tr>
  </tbody>
 </table>
@@ -73,12 +77,6 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
-
-<!--
-Take this piece out of the table above when we remove the new experience/ after production release in the task box: 
-
-<p>Edit permissions to update allocation percentage in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation percentage in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.
--->
 
 ## 有关修改任务的百分比分配的注意事项
 

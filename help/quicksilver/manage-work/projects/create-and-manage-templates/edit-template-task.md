@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
 workflow-type: tm+mt
 source-wordcount: '3008'
 ht-degree: 6%
@@ -154,13 +154,13 @@ Old:
 
 1. 请考虑在以下任意部分中指定信息：
 
-* [模板任务名称](#template-task-name)
-* [概述](#overview)
-* [分配](#assignments)
-* [财务](#finance)
-* [自定义表单](#custom-forms)
-* [设置](#settings)
-* [注释](#comment)
+   * [模板任务名称](#template-task-name)
+   * [概述](#overview)
+   * [分配](#assignments)
+   * [财务](#finance)
+   * [自定义表单](#custom-forms)
+   * [设置](#settings)
+   * [注释](#comment)
 
 1. 按照以下部分所述，继续编辑模板任务。
 

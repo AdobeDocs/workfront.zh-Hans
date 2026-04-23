@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
 workflow-type: tm+mt
 source-wordcount: '1474'
 ht-degree: 1%
@@ -88,7 +88,7 @@ recommendations: noDisplay, noCatalog
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing用户角色</p></td> 
    <td><p><ul><li>用于访问营销活动、产品和角色的任何GenStudio用户角色</li>
    <li>GenSudio System Manager访问激活 <!--and Events--></li></ul>
-   有关信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">用户角色和权限</a>。 
+   有关信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">用户角色和权限</a>。 
    </p>
   </td> 
   </tr>   
@@ -147,7 +147,7 @@ Old:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****** and Events*********</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -259,7 +259,7 @@ Workfront Planning主页将打开。
 
 1. 单击右上角的&#x200B;**共享**&#x200B;以与他人共享工作区。
 
-   有关信息，请参阅[共享工作区](/help/quicksilver/planning/access/share-workspaces.md)
+   有关信息，请参阅[共享工作区](/help/quicksilver/planning/access/share-workspaces.md)。
 
    >[!NOTE]
    >
@@ -363,17 +363,17 @@ Workfront Planning主页将打开。
    >
    >已删除的记录可以从Workfront Planning的表视图“最近删除的框”中恢复。 从GenStudio中删除的记录也可以从Workfront Planning中最近删除的回收站恢复。
 
-   有关信息，请参阅[恢复已删除的记录](/help/quicksilver/planning/records/restore-deleted-records.md)
+   有关信息，请参阅[恢复已删除的记录](/help/quicksilver/planning/records/restore-deleted-records.md)。
 
 1. 单击表格视图右上角的+图标以创建以下内容：
 
    * 字段
 
-     有关信息，请参阅[创建字段](/help/quicksilver/planning/fields/create-fields.md)
+     有关信息，请参阅[创建字段](/help/quicksilver/planning/fields/create-fields.md)。
 
    * 连接
 
-     有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)
+     有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
      从GenStudio工作区创建的字段在以下区域可见：
 
