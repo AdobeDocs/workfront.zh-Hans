@@ -132,8 +132,8 @@ Not sure how to change the request status, but dev also said: Changing the names
 
 {{step1-to-requests}}
 
-1. 打开屏幕右上角的&#x200B;**使用新体验**设置。
-启用此设置后，Workfront计划请求表单将在Workfront的**请求**&#x200B;区域中可用。
+1. 打开屏幕右上角的&#x200B;**使用新体验**&#x200B;设置。
+启用此设置后，Workfront计划请求表单将在Workfront的&#x200B;**请求**&#x200B;区域中可用。
 
    >[!TIP]
    >
