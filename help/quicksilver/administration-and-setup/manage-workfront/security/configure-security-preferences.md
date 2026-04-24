@@ -10,10 +10,10 @@ role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
+source-git-commit: 77b78c5905736092c972e08283fdabf321bfa580
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 8%
+source-wordcount: '773'
+ht-degree: 7%
 
 ---
 
@@ -126,6 +126,10 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
      <tr> 
       <td role="rowheader">启用优先级工作列表 </td> 
       <td>允许您选择为用户启用或禁用“优先级”工作列表体验。 用户仍然可以在Workfront中看到优先级图标，但是他们无权访问该功能。 有关优先级的详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">开始使用优先级</a>。</td> 
+     </tr>
+      <tr> 
+      <td role="rowheader">启用Adobe企业存储 </td> 
+      <td>允许您选择为整个组织或特定组启用或禁用Adobe企业存储。 有关Adobe企业存储的详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">为您的组织启用Adobe企业存储</a>。</td> 
      </tr>
      <tr> 
       <td role="rowheader">启用 AI </td> 
