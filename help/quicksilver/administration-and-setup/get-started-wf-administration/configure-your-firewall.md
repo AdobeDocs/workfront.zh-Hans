@@ -25,7 +25,7 @@ ht-degree: 10%
 >
 >此页面上描述的过程仅适用于尚未载入Admin Console的组织。 由于所有组织现在都已载入到Adobe Admin Console，因此您必须通过Adobe Admin Console执行此操作。
 >
->要在您的组织登记到Adobe Admin Console后配置您的允许列表，请参阅[允许Adobe应用程序和服务使用的域](https://helpx.adobe.com/enterprise/kb/network-endpoints.html)。
+>要在您的组织登记到Adobe Admin Console后配置您的允许列表，请参阅[允许Adobe应用程序和服务使用的域](https://helpx.adobe.com/cn/enterprise/kb/network-endpoints.html)。
 >
 >有关因贵组织是否已登记到Adobe Admin Console而不同的过程列表，请参阅[Adobe Workfront与Adobe业务平台之间的管理差异](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
