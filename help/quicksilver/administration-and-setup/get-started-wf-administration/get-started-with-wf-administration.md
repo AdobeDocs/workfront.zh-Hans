@@ -3,16 +3,16 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: set-up-workfront
-title: “Adobe Workfront管理快速入门：文章索引”
+title: Adobe Workfront管理快速入门：文章索引
 description: 在此部分中，您可以找到有关Adobe Workfront首次设置的信息和说明，以及作为Workfront管理员需要的信息。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8d5497fa-3432-4188-ad71-92ab91cd19fa
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
@@ -33,4 +33,4 @@ ht-degree: 0%
 * [配置电子邮件允许列表](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)
 * [发送公告](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md)
 * Workfront的[浏览器要求](../../administration-and-setup/get-started-wf-administration/workfront-browser-requirements.md)
-* [基于平台的管理差异(Adobe Workfront/Adobe业务平台)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
+* [Adobe Workfront与Adobe Business Platform之间的管理差异](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)

@@ -1,7 +1,7 @@
 ---
-source-git-commit: 8e8eec4977614529a1bab78dda003cdcdf32dba0
+source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
 workflow-type: tm+mt
-source-wordcount: '2274'
+source-wordcount: '2317'
 ht-degree: 1%
 
 ---
@@ -120,7 +120,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 >
 >本页中介绍的过程仅适用于尚未载入Adobe Admin Console的组织。
 >
->如果贵组织已登记到Adobe Admin Console，请参阅[基于平台的管理差异(Adobe Workfront/Adobe Business Platform)](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
+>如果贵组织已登记到Adobe Admin Console，请查看[Adobe Workfront与Adobe Business Platform之间的管理差异](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
 ## 第1步 — 转至用户 {#step-1-to-users}
 

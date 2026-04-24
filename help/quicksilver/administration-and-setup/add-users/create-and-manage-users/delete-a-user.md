@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
+source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '835'
 ht-degree: 3%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 3%
 >
 >**由于所有组织现在都已载入Adobe Admin Console，因此不久将会删除此页上的信息。**
 >
->有关因贵组织是否已登记到Adobe业务平台而不同的过程列表，请参阅[基于平台的管理差异（Adobe Workfront/Adobe业务平台）](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
+>有关因贵组织是否已载入Adobe业务平台而不同的过程列表，请参阅[Adobe Workfront与Adobe业务平台之间的管理差异](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
 当用户离开您的组织时，您可以从Adobe Workfront中删除该用户。
 
@@ -37,9 +37,9 @@ ht-degree: 3%
 >
 >Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].
 >
->  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/cn/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
->  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Administration differences between Adobe Workfront and Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
 -->
 
@@ -64,7 +64,7 @@ ht-degree: 3%
    <td> <p>您必须具备以下任一项：</p> 
     <ul> 
      <li> <p>系统管理员访问级别。 </li> 
-     <li> <p>访问级别中的<b>用户</b>设置配置为<b>编辑</b>访问，其中<b>创建</b>以及<b>微调设置</b> <b>下至少启用</b>用户管理员<img src="assets/gear-icon-in-access-levels.png">选项之一。 </p> <p>在这两个选项中，如果启用了<b>用户管理员（组用户）</b>，您必须是该用户所属组的组管理员。</p> </li> 
+     <li> <p>访问级别中的<b>用户</b>设置配置为<b>编辑</b>访问，其中<b>创建</b>以及<b>微调设置</b> <img src="assets/gear-icon-in-access-levels.png">下至少启用<b>用户管理员</b>选项之一。 </p> <p>在这两个选项中，如果启用了<b>用户管理员（组用户）</b>，您必须是该用户所属组的组管理员。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -91,7 +91,7 @@ ht-degree: 3%
      >[!NOTE]
      >
      >如果您停用用户并且无法再查看与用户相关的报告或仪表板，则可能需要更新&#x200B;**使用**&#x200B;的访问权限运行此报告。\
-     >要了解更多信息，请参阅[为什么无法访问已停用用户所拥有的报告？](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why)报告常见问题解答[文章的](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)部分。
+     >要了解更多信息，请参阅[为什么无法访问已停用用户拥有的报告？](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) [报告常见问题解答](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)文章的部分。
 
    * 文档
    * 更新

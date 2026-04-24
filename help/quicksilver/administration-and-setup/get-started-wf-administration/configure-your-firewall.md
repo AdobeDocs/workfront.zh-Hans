@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
+source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
 workflow-type: tm+mt
-source-wordcount: '1539'
-ht-degree: 0%
+source-wordcount: '1576'
+ht-degree: 10%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 0%
 >
 >此页面上描述的过程仅适用于尚未载入Admin Console的组织。 由于所有组织现在都已载入到Adobe Admin Console，因此您必须通过Adobe Admin Console执行此操作。
 >
->要在您的组织登记到Adobe Admin Console后配置您的允许列表，请参阅[允许Adobe应用程序和服务使用的域](https://helpx.adobe.com/cn/enterprise/kb/network-endpoints.html)。
+>要在您的组织登记到Adobe Admin Console后配置您的允许列表，请参阅[允许Adobe应用程序和服务使用的域](https://helpx.adobe.com/enterprise/kb/network-endpoints.html)。
 >
->有关因贵组织是否已登记到Adobe Admin Console而不同的过程列表，请参阅[基于平台的管理差异（Adobe Workfront/Adobe业务平台）](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
+>有关因贵组织是否已登记到Adobe Admin Console而不同的过程列表，请参阅[Adobe Workfront与Adobe业务平台之间的管理差异](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
 >[!NOTE]
 >
@@ -62,13 +62,13 @@ ht-degree: 0%
 
    CL01指的是Cluster 1，CL02指的是Cluster 2，依此类推。
 
-有关详细信息，请参阅[防火墙概述](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan)一文中的[查看组织的群集和Workfront计划](../../administration-and-setup/get-started-wf-administration/firewall-overview.md)部分。
+有关详细信息，请参阅[防火墙概述](../../administration-and-setup/get-started-wf-administration/firewall-overview.md)一文中的[查看组织的群集和Workfront计划](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan)部分。
 
 ## 要添加到允许列表的IP地址
 
-* 允许群集1、2、3、5、7、8和9[的](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)IP地址
-* 允许群集4[的](#ip-addresses-to-allow-for-cluster-4)IP地址
-* 允许群集6[的](#ip-addresses-to-allow-for-cluster-6)IP地址
+* 允许群集1、2、3、5、7、8和9](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)的[IP地址
+* 允许群集4](#ip-addresses-to-allow-for-cluster-4)的[IP地址
+* 允许群集6](#ip-addresses-to-allow-for-cluster-6)的[IP地址
 * [允许群集10的IP地址](#ip-addresses-to-allow-for-cluster-10)
 * [允许使用测试驱动器的IP地址](#IP%20Addre2)
 * 实施事件订阅时允许的[IP地址](#ip-addresses-to-allow-when-implementing-event-subscriptions)
@@ -244,7 +244,7 @@ ht-degree: 0%
    <td role="rowheader">对于使用测试驱动时的SSO和文档webhook集成</td> 
    <td> 
     <ul> 
-     <li> <p>69.42.126.188：</p> <p>还必须将此地址添加到您的允许列表，以便您的用户接收来自Workfront的电子邮件。</p> </li> 
+     <li> <p>69.42.126.188:</p> <p>还必须将此地址添加到您的允许列表，以便您的用户接收来自Workfront的电子邮件。</p> </li> 
      <li>66.119.37.186</li> 
      <li>66.119.37.167</li> 
      <li>54.244.142.219</li> 
