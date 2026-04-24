@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
+source-git-commit: 6caee75959eccc6f04a99065af9cc8a7e8803017
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1276'
 ht-degree: 5%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 5%
 >
 >   已载入Adobe Admin Console的组织中的组管理员可以使用此过程创建用户并提交用户以供管理员审批。
 >
->   有关因贵组织是否已登记到Adobe Admin Console而不同的过程列表，请参阅[基于平台的管理差异（Adobe Workfront/Adobe业务平台）](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
+>   有关因贵组织是否已登记到Adobe Admin Console而不同的过程列表，请参阅[Adobe Workfront与Adobe业务平台之间的管理差异](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 >
 >* **如果您的组织使用单点登录(SSO)**，我们建议您在Adobe Admin Console中创建用户并将他们分配到Workfront。 可以在Workfront中创建这些用户，但根据贵组织的Admin Console的配置方式，将该信息传输到Adobe Admin Console时可能会出现问题。
 >   在Adobe Admin Console中创建用户后，您可以在Workfront中配置用户信息，例如分配角色、组、团队和访问级别。
@@ -66,7 +66,7 @@ For information about how to import multiple users simultaneously, see [Import u
    <td> <p>您必须具备以下任一项：</p> 
     <ul> 
      <li> <p>系统管理员访问级别。 </li> 
-     <li> <p>访问级别中的<b>用户</b>设置配置为<b>编辑</b>访问，其中<b>创建</b>以及<b>微调设置</b> <b>下至少启用</b>用户管理员<img src="assets/gear-icon-in-access-levels.png">选项之一。 </p> <p>在这两个选项中，如果启用了<b>用户管理员（组用户）</b>，您必须是该用户所属组的组管理员。</p> </li> 
+     <li> <p>访问级别中的<b>用户</b>设置配置为<b>编辑</b>访问，其中<b>创建</b>以及<b>微调设置</b> <img src="assets/gear-icon-in-access-levels.png">下至少启用<b>用户管理员</b>选项之一。 </p> <p>在这两个选项中，如果启用了<b>用户管理员（组用户）</b>，您必须是该用户所属组的组管理员。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
