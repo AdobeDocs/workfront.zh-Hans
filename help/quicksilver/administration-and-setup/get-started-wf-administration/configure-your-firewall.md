@@ -66,9 +66,9 @@ ht-degree: 10%
 
 ## 要添加到允许列表的IP地址
 
-* 允许群集1、2、3、5、7、8和9](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)的[IP地址
-* 允许群集4](#ip-addresses-to-allow-for-cluster-4)的[IP地址
-* 允许群集6](#ip-addresses-to-allow-for-cluster-6)的[IP地址
+* 允许群集1、2、3、5、7、8和9[&#128279;](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)的IP地址
+* 允许群集4[&#128279;](#ip-addresses-to-allow-for-cluster-4)的IP地址
+* 允许群集6[&#128279;](#ip-addresses-to-allow-for-cluster-6)的IP地址
 * [允许群集10的IP地址](#ip-addresses-to-allow-for-cluster-10)
 * [允许使用测试驱动器的IP地址](#IP%20Addre2)
 * 实施事件订阅时允许的[IP地址](#ip-addresses-to-allow-when-implementing-event-subscriptions)
