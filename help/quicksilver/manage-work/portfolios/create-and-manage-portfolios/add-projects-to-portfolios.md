@@ -8,10 +8,10 @@ feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: fee6b71eeb0ca79703a2a9e29a14040b91cb7387
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 3%
+source-wordcount: '514'
+ht-degree: 2%
 
 ---
 
@@ -29,8 +29,22 @@ ht-degree: 3%
 
 将项目添加到项目组合时，请考虑以下事项：
 
-* 虽然项目组合可能包含无限数量的项目，但您只能将一个项目组合与项目关联。
+* 您只能将一个项目组合与项目关联。
 * 项目将保留在项目组合中，直到将其删除或与另一个项目组合关联。
+* 项目组合可包含无限数量的项目。
+
+>[!CAUTION]
+>
+>   在大量子对象中使用继承的权限时，可能无法正确应用。
+>   
+>   要帮助避免继承权限问题，我们建议执行以下操作：
+>
+>   * 限制单个父项（项目组合或项目群）下的子对象（项目）的数量。 我们建议每个项目组合或项目群不超过10,000个项目。
+>   * 通过在较低级别对象中应用权限来减少继承深度。
+>
+>     例如，直接在项目级别应用权限，而不是依赖从项目组合继承到项目群，然后继承到项目的权限。
+>   * 拆分项目以包含较少的项目，从而降低权限复杂性。
+
 
 ## 访问权限要求
 
@@ -48,15 +62,15 @@ ht-degree: 3%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
    <td><p>标准</p> 
-   <p>[!UICONTROL 计划] </p> </td> 
+   <p>[！UICONTROL计划] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[!UICONTROL Edit]访问项目组合</p> <p>[!UICONTROL Edit]对项目的访问权限</p> </td> 
+   <td> <p>[！UICONTROL Edit]访问项目组合</p> <p>[！UICONTROL Edit]对项目的访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>项目组合的[!UICONTROL Manage]权限</p> <p>[!UICONTROL Manage]项目权限</p>  </td> 
+   <td> <p>项目组合的[！UICONTROL Manage]权限</p> <p>[！UICONTROL Manage]项目权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -113,23 +127,23 @@ Old:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 现有项目]</td> 
+      <td role="rowheader">[！UICONTROL现有项目]</td> 
       <td> <p>添加已创建的项目。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 新建项目]</td> 
+      <td role="rowheader">[！UICONTROL新建项目]</td> 
       <td> <p>添加新项目。 </p> <p>有关创建新项目的详细信息，请参阅<a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">创建项目</a>。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">&lbrack;！UICONTROL从[!DNL MS Project]导入项目 </td> 
+      <td role="rowheader">[！UICONTROL从[!DNL MS Project]导入项目 </td> 
       <td> <p>添加您之前从[!DNL MS Project]导出并在计算机上保存的项目。 </p> <p>有关通过从[!DNL Microsoft Project]导入项目来创建新项目的详细信息，请参阅<a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">从[!DNL Microsoft Project]</a>导入项目。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 请求项目]</td> 
+      <td role="rowheader">[！UICONTROL请求项目]</td> 
       <td> <p>请求批准项目。</p> <p>有关请求项目的信息，请参阅<a href="../../../manage-work/projects/create-projects/request-project.md">请求项目</a>。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL New from Template]</td> 
+      <td role="rowheader">[！UICONTROL New from Template]</td> 
       <td> <p>使用现有模板添加新项目。 </p> <p>有关从模板创建项目的详细信息，请参阅<a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">使用模板创建项目</a>。</p> </td> 
      </tr> 
     </tbody> 
