@@ -2,28 +2,28 @@
 product-area: documents
 navigation-topic: approvals
 title: 上传新文档版本并请求审批
-description: 您可以在Adobe Workfront中上传新文档版本并请求其他用户审批。
+description: You can upload a new document version and request approval from other users in Adobe Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '673'
 ht-degree: 3%
 
 ---
 
 # 上传新文档版本并请求审批
 
-如果文档在以前的审阅中被标记为“需要工作”，则您可以将新版本上传到原始文档并开始另一轮审批。 上传文档的新版本后，先前版本将被锁定。
+If a document is marked &quot;Needs work&quot; in a previous review, you can upload a new version to the original document and start another round of approvals. Once you upload a new version of the document, the previous versions are locked.
 
 如果新版本的文件名与先前版本的文件名不同，则Workfront显示具有新文件名的文档。
 
-当向具有未完成审批的文档中添加新版本时，对先前版本的审批显示为“已撤回”。 先前的批准流程将关闭，即使一些参与者尚未做出决定。
+When a new version is added to a document with outstanding approvals, the approval on the previous version displays as &quot;Withdrawn&quot;. The previous approval process closes, even if some participants have not yet made a decision.
 
-如果删除了最新的文档版本，则以前的版本仍保持锁定状态。 如果需要编辑以前的版本，则必须手动解锁该版本。
+If the newest document version is deleted, the previous versions remain locked. If you need to edit a previous version, you must manually unlock it.
 
 ## 访问权限要求
 
@@ -37,7 +37,8 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 包</td> 
-   <td> <p>“任一”</p> </td> 
+   <td> <p>使用旧版Workfront存储管理审批的任何Workfront软件包</p>
+<p>使用Adobe企业存储管理审批的任意工作流包</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 许可证</td> 
@@ -63,7 +64,7 @@ ht-degree: 3%
 
 
 
-## 使用拖放操作在旧文档区域中添加新版本
+## Use drag-and-drop to add a new version in the legacy documents area
 
 如果您的组织位于Workfront存储中，则当您访问Workfront中的文档时，将会看到旧版文档区域。 有关Workfront存储的详细信息，请参阅[Workfront存储与Adobe企业存储](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage)。
 
@@ -72,7 +73,7 @@ ht-degree: 3%
 >Internet Explorer无法执行拖放操作。
 
 
-如果您需要对文档进行另一轮审核和批准，则可以在Workfront中创建新文档版本。
+If you need another round of review and approval on a document, you can create a new document version in Workfront.
 
 可添加先前的参与者、新参与者或两者的组合。 您可以在“文档详细信息”页面上查看有关先前版本和参与者的信息。
 

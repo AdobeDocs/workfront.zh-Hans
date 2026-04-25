@@ -9,10 +9,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 3190ad18-180e-42e5-aa10-bdad74303d3d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 0%
+source-wordcount: '600'
+ht-degree: 3%
 
 ---
 
@@ -25,10 +25,10 @@ ht-degree: 0%
 有关Frame.io与Workfront集成的详细信息，请参阅[统一审阅和批准概述](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)。
 
 
-<!--
-## Access requirements
 
-+++ Expand to view access requirements for the functionality in this article.
+## 访问权限要求
+
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,29 +37,30 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p> Any</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>使用旧版Workfront存储管理审批的任何Workfront软件包</p>
+<p>使用Adobe企业存储管理审批的任意工作流包</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront licenses</td> 
-   <td> <p>Request or higher</p>
-   <p>Contributor or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront 许可证</td> 
+   <td> <p>请求或更高版本</p>
+   <p>参与者或更高版本</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>Edit access to Documents</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑对文档的访问权限</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Edit access to the object associated with the document</p> </td> 
+   <td role="rowheader">对象权限</td> 
+   <td> <p>编辑对与文档关联的对象的访问权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
--->
+
 
 ## 先决条件
 
@@ -71,7 +72,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. 转到审阅电子邮件通知，然后单击&#x200B;**转到审阅**。
 或
-转到Workfront主页，找到我的审批小组件，然后单击&#x200B;**打开审核**。
+转到Workfront主页，找到我的审批小组件，然后单击**打开审核**。
 
    >[!NOTE]
    > 
@@ -93,7 +94,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. 转到审阅电子邮件通知，然后单击&#x200B;**转到审阅**。
 或
-转到Workfront主页，找到我的审批小组件，然后单击&#x200B;**打开审核**。
+转到Workfront主页，找到我的审批小组件，然后单击**打开审核**。
 
    >[!NOTE]
    > 

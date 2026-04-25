@@ -8,9 +8,9 @@ feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '2585'
+source-wordcount: '2592'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
     <ul> 
      <li>盒子</li> 
      <li>Dropbox</li> 
-     <li>Dropbox业务</li> 
+     <li>Dropbox Business</li> 
      <li>WebDAM</li> 
      <li>Microsoft OneDrive</li> 
      <li>Microsoft SharePoint</li> 
@@ -61,7 +61,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->此功能在新文档区域不可用。<br>
+>新文档区域不提供此功能。<br>
 >如果您的组织使用企业存储，则当您访问Workfront中的文档时，将会看到“新建文档”区域。 有关企业存储的更多信息，请参阅[Adobe企业存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 ## 访问权限要求
@@ -74,7 +74,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 包</td>
-   <td> <p> “任一”</p> </td>
+   <td> <p>“任一”</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td>
@@ -96,53 +96,53 @@ ht-degree: 1%
 
 从外部应用程序链接到Workfront的文档会与外部云提供商存储，而不是存储在Workfront中。
 
-以下情况例外：
+The following exceptions apply:
 
-* 如果由文档服务提供，则缩略图和预览图像可能会存储在Workfront服务器上。
-* 在Workfront中使用验证时，文档将被复制并添加到验证服务器。
+* When provided by the document service, thumbnails and preview images might be stored on Workfront servers.
+* When you use proofing in Workfront, the document is copied and added to the proofing servers.
 
-## 文件大小限制
+## File size limits
 
-第三方云提供商：
+Third-party cloud providers:
 
-* 单个文件：5 GB或更少
-* 多个文件：1 GB或更小（所有文件总数）
+* Single file: 5 GB or less
+* Multiple file: 1 GB or less (total of all files)
 
-## 将文档从外部应用程序链接到Workfront
+## Link a document from an external application to Workfront
 
-您可以将现有文档与外部云提供商链接。 这包括任何共享文档。
+You can link existing documents with an external cloud provider. This includes any shared documents.
 
 ### 先决条件 {#prerequisites}
 
 在链接文档或文件夹之前，Workfront管理员必须为每个文档提供商或自定义文档集成启用此功能，如[配置文档集成](../../administration-and-setup/configure-integrations/configure-document-integrations.md)中所述。
 
-### 将外部文档链接到Workfront {#link-an-external-document-to-workfront}
+### Link an external document to Workfront {#link-an-external-document-to-workfront}
 
-您可以从外部应用程序（如Workfront和Google OneDrive）将文档链接到Microsoft。
+You can link documents to Workfront from an external application such as Google and Microsoft OneDrive.
 
 >[!IMPORTANT]
 >
->Dropbox根据文件路径存储文档。 因此，如果移动、重命名或删除了从Dropbox链接的文件，则该文件将在Workfront中变得不可访问。
+>Dropbox stores documents based on the file path. Because of this, if a file linked from Dropbox is moved, renamed, or deleted, it becomes inaccessible in Workfront.
 
-1. 转到Workfront中您想要获取文档的&#x200B;**文档**&#x200B;区域。
-1. 单击“新建”**&#x200B;**，然后单击要将文档链接到Workfront的外部文档提供商。
+1. Go to the **Documents** area in Workfront where you want the document.
+1. Click **Add New**, then click the external document provider where you want to link documents to Workfront.
 
-   例如，要链接来自Dropbox的文档，请单击&#x200B;**来自Dropbox**。
+   For example, to link documents from Dropbox, click **From Dropbox**.
 
-   您已经授权的外部提供程序将显示在列表顶部。
+   External providers that you have already authorized appear at the top of the list.
 
-1. （视情况而定）如果系统提示您登录外部服务，请在显示的框中键入该服务的登录凭据，然后单击&#x200B;**登录**。
-1. （视情况而定）如果系统提示您授权外部应用程序，请单击&#x200B;**授权**&#x200B;按钮。
+1. (Conditional) If you are prompted to log into the external service, type your login credentials for the service in the box that appears, then click **Sign in**.
+1. (Conditional) If you are prompted to authorize the external application, click the **Authorize** button.
 
-   您只需执行此操作一次。
+   You need to do this only once.
 
-1. 在出现的&#x200B;**链接外部文件和文件夹**&#x200B;框的搜索框中，键入要搜索的项目名称，然后按&#x200B;**Enter**&#x200B;查看来自外部应用程序的所有结果，而不管这些结果存储在哪个文件夹中。
+1. In the search box of the **Link External Files and Folders** box that appears, type the name of the item you want to search for, then press **Enter** to see all results from the external application, regardless of which folder they are storied in.
 
    或
 
-   浏览并选择要链接的文档。
+   Browse to and select the documents you want to link.
 
-   虽然您可以选择多个文档，但仅链接在当前视图中选择的文档。 例如，如果您选择文档，然后进入文件夹，则最初选择的文档不会链接。
+   Though you can select multiple documents, only documents that are selected in the current view are linked. 例如，如果您选择文档，然后进入文件夹，则最初选择的文档不会链接。
 
 1. （视情况而定）如果您是Workfront DAM客户，请单击&#x200B;**缩略图**&#x200B;图标以将文件显示为缩略图。
 
@@ -196,45 +196,45 @@ ht-degree: 1%
 
 1. 单击&#x200B;**链接**。
 
-   在Workfront中，云提供商的图标显示在文档旁边，指示它们已链接到外部云提供商。
+   In Workfront, the cloud provider&#39;s icon appears next to the documents, indicating that they are linked to the external cloud provider.
 
    >[!NOTE]
    >
    >对于链接到Box的文档，在刷新页面之前，不会显示Box中文档的链接。
 
-有关将您从文件系统上传到Workfront的文档的新版本添加的信息，请参阅[将文档从文件系统添加到Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#add-documents-to-workfront)中的[将文档添加到Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)。
+For information about adding new version of a document you have uploaded to Workfront from your file system, see [Add documents to Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#add-documents-to-workfront) in [Add documents to Adobe Workfront from your file system](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
-### 链接Workfront Proof文档 {#link-workfront-proof-documents}
+### Link Workfront Proof documents {#link-workfront-proof-documents}
 
-您可以将验证链接到最初存在于Workfront Proof中的Workfront。 从Workfront Proof链接验证时，与验证关联的所有评论和其他元数据在Workfront中可用。
+You can link proofs to Workfront that originally existed in Workfront Proof. When you link a proof from Workfront Proof, all comments and other metadata associated with the proof are available in Workfront.
 
-您只能链接那些您在Workfront Proof中拥有查看权限的校样。
+You can link only those proofs for which you have View access in Workfront Proof.
 
-1. 转到Workfront中您想要获取文档的&#x200B;**文档**&#x200B;区域。
-1. 单击&#x200B;**新增**，然后单击Workfront Proof中的&#x200B;**&#x200B;**。
+1. Go to the **Documents** area in Workfront where you want the document.
+1. Click **Add New**, then click **From Workfront Proof**.
 
    >[!NOTE]
    >
-   >根据环境中配置的第三方提供商，此菜单中的选项可能有所不同。
+   >The options in this menu may vary depending on what third party providers are configured in your environment.
 
-1. 在出现的&#x200B;**从Workfront Proof链接校样**&#x200B;框中，开始键入要在Workfront中提供的校样名称。
+1. In the **Link proofs from Workfront Proof** box that appears, begin typing the name of the proof you want to make available in Workfront.
 
-   列表会在您键入内容时进行筛选。
+   The list is filtered as you type.
 
-1. 选择最多10个要链接的验证。
+1. Select up to 10 proofs to link.
 
-   任何灰显的验证名称均不可链接，因为验证已与Workfront中的文档相关联。
+   Any proof name that is dimmed is not available to link, because the proof is already associated with a document in Workfront.
 
 1. 单击&#x200B;**链接**。
 
-   该验证的最新版本已链接到Workfront。 打开验证时，验证查看器中所有版本都可用。
+   The most current version of the proof is linked to Workfront. When you open the proof, all versions are available in the proofing viewer.
 
-### 在Workfront中创建Google文档 {#create-a-google-document-from-within-workfront}
+### Create a Google document from within Workfront {#create-a-google-document-from-within-workfront}
 
-您可以在Workfront中创建新的Google文档。 您不能在Workfront中为其他云提供商创建新文档。
+You can create a new Google document from within Workfront. You cannot create new documents from within Workfront for other cloud providers.
 
-1. 转到Workfront中您想要获取文档的&#x200B;**文档**&#x200B;区域。
-1. 单击&#x200B;**新增** > **Google文件**，然后选择要创建的Google文档类型。
+1. Go to the **Documents** area in Workfront where you want the document.
+1. Click **Add New** > **Google File**, then select the type of Google document you want to create.
 1. 如果出现&#x200B;**添加Google驱动器帐户**&#x200B;框，请单击&#x200B;**授权Google驱动器**。
 
    Google文档已添加到&#x200B;**文档**&#x200B;选项卡。
@@ -288,7 +288,7 @@ ht-degree: 1%
 
 1. 转到Workfront中您希望文件夹所在的区域，然后单击左侧面板中的&#x200B;**文档** ![文档图标](assets/document-icon.png)。
 
-1. 单击“新建”**&#x200B;**，然后单击要将文件夹链接到Workfront的外部文档提供商。
+1. 单击“新建”****，然后单击要将文件夹链接到Workfront的外部文档提供商。
 1. （视情况而定）如果尚未授权外部服务，请为外部提供程序指定登录凭据，然后单击&#x200B;**登录**。
 
    您已经授权的外部提供程序将显示在列表顶部。

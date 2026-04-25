@@ -7,10 +7,10 @@ description: 在Workfront中，您可以创建与Experience Manager Assets或Ass
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 0%
+source-wordcount: '488'
+ht-degree: 3%
 
 ---
 
@@ -20,15 +20,20 @@ ht-degree: 0%
 
 如果从Experience Manager Assets或Assets Essentials内的链接文件夹中删除或移动资源，Workfront会在项目>文档区域中保留该资源的副本。
 
-## 访问要求
+>[!NOTE]
+>
+>新文档区域不提供此功能。<br>
+>如果您的组织使用企业存储，则当您访问Workfront中的文档时，将会看到“新建文档”区域。 从该位置，您可以从Experience Manager Assets或Assets Essentials添加资源，但无法创建链接文件夹。
 
-+++ 展开以查看本文中各项功能的访问要求。
+## 访问权限要求
+
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table>
   <tr>
    <td><strong>Adobe Workfront包</strong>
    </td>
-   <td>任何
+   <td>“任一”
    </td>
   </tr>
   <tr>

@@ -10,9 +10,9 @@ recommendations: noDisplay, noCatalog
 exl-id: e8badce6-86f5-416c-a238-f9b7f19cdd2d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '925'
 ht-degree: 2%
 
 ---
@@ -46,7 +46,8 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 包</td> 
-   <td> <p> “任一”</p> </td> 
+   <td> <p>使用旧版Workfront存储管理文档的任何Workfront软件包</p>
+<p>用于使用Adobe企业存储管理文档的任意工作流包</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
@@ -68,36 +69,36 @@ ht-degree: 2%
 
 +++
 
-## 在旧文档区域批量编辑文档
+## Edit documents in bulk in the legacy documents area
 
 如果您的组织位于旧版Workfront存储中，则当您访问Workfront中的文档时，将会看到旧版文档区域。 有关Workfront存储的详细信息，请参阅[Adobe企业存储与旧版Workfront存储之间的差异](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage)。
 
-要批量编辑文档，请执行以下操作：
+To edit documents in bulk:
 
-1. 从主菜单导航到项目的文档选项卡或文档区域。
-1. 按键盘上的ctrl或cmd，然后选择要编辑的文档。
-1. 单击编辑图标![编辑图标](assets/edit-icon.png)。
-   ![编辑图标在页面上的位置](assets/edit-multiple-documents.png)
-1. （可选）添加或编辑&#x200B;**描述**。 如果每个文档上的描述不同，您将在描述框中看到&#x200B;_多个值_。 您可以为所有文档添加相同的描述，但在批量编辑时无法编辑单个文档描述。
-1. 对自定义表单进行以下更改：
+1. Navigate to the Documents tab of a project or the Documents area from the main menu.
+1. Press ctrl or cmd on your keyboard, and select the documents you want to edit.
+1. Click the Edit icon ![edit icon](assets/edit-icon.png).
+   ![edit icon location on page](assets/edit-multiple-documents.png)
+1. (Optional) Add or edit the **Description**. If the description on each document is different, you will see _Multiple values_ in the description box. You can add the same description for all documents, but you cannot edit individual document descriptions when editing in bulk.
+1. Make the following changes with custom forms:
 
    <table>
     <tr>
-    <td><strong>添加表单</strong></td>
-    <td>在<strong>添加自定义表单框</strong>中，您可以从附加的表单中选择要添加的表单。 附加的表单位于某些选定文档上，但不是全部文档上。 附加到所有选定文档的表单会自动显示在编辑窗口中。  </td>
+    <td><strong>Add forms</strong></td>
+    <td>In the <strong>Add custom form box</strong>, you can choose from Attached forms and forms to add. Attached forms are on some of the selected documents, but not all. A form attached to all selected document displays in the edit window automatically.  </td>
     </tr>
     <tr>
-    <td><strong>编辑表单</strong></td>
-    <td>编辑任何附加的自定义表单。 您更改的信息将覆盖单个文档上的现有信息。 文档中具有不同值的字段显示为“多个值”。 </td>
+    <td><strong>Edit forms</strong></td>
+    <td>Edit any attached custom forms. The information you change overwrites the existing information on individual documents. Fields with different values across documents display as "Multiple values". </td>
     </tr>
     <tr>
-    <td><strong>重新排列表单</strong></td>
-    <td>单击并拖动自定义表单以重新排列。</td>
+    <td><strong>Rearrange forms</strong></td>
+    <td>Click and drag the custom form to rearrange.</td>
     </tr>
     </table>
 1. 单击&#x200B;**保存**。
 
-## 在新文档区域批量编辑文档
+## Edit documents in bulk in the new documents area
 
 
 如果您的组织使用企业存储，则当您访问Workfront中的文档时，将会看到“新建文档”区域。 有关企业存储的更多信息，请参阅[Adobe企业存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
@@ -114,7 +115,7 @@ ht-degree: 2%
    <table>
     <tr>
     <td><strong>添加表单</strong></td>
-    <td>在<strong>自定义表单</strong>分区中，可以将新的自定义表单添加到所选文档。 附加到所有选定文档的自定义表单显示在公共<strong>分区中的</strong>自定义表单中。  </td>
+    <td>在<strong>自定义表单</strong>分区中，可以将新的自定义表单添加到所选文档。 附加到所有选定文档的自定义表单显示在公共</strong>分区中的<strong>自定义表单中。  </td>
     </tr>
     <tr>
     <td><strong>编辑表单</strong></td>

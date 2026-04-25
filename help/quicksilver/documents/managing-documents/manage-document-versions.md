@@ -6,10 +6,10 @@ description: 您可以在Workfront中管理文档的多个版本。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 477153e4-847b-46ec-8107-72a7399c3767
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 0%
+source-wordcount: '634'
+ht-degree: 3%
 
 ---
 
@@ -19,20 +19,21 @@ ht-degree: 0%
 
 您可以在Workfront中管理文档的多个版本。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p> 任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>使用旧版Workfront存储管理文档的任何Workfront软件包</p>
+<p>用于使用Adobe企业存储管理文档的任意工作流包</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td role="rowheader">Adobe Workfront 许可证</td> 
    <td> 
    <p>参与者或更高版本</p>
    <p>请求或更高版本 </p>

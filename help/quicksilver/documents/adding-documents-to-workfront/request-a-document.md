@@ -8,10 +8,10 @@ feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 5%
+source-wordcount: '405'
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->此功能在新文档区域不可用。<br>
+>新文档区域不提供此功能。<br>
 >如果您的组织使用企业存储，则当您访问Workfront中的文档时，将会看到“新建文档”区域。 有关企业存储的更多信息，请参阅[Adobe企业存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 ## 访问权限要求
@@ -34,7 +34,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 包</td> 
-   <td> <p> “任一”</p> </td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
@@ -74,12 +74,12 @@ ht-degree: 5%
 1. 描述请求文档的原因。
 1. 单击&#x200B;**发送请求**。
 
-   当用户发出请求时，文档区域会添加一个占位符。 您可以提醒用户，或从此占位符取消请求。 用户将收到Workfront通知以及与该请求相关的电子邮件。
+   When you make a request to a user, a placeholder is added in the documents area. You can remind the user or cancel the request from this placeholder. The user receives a Workfront notification and an email about the request.
 
-   如果启用此首选项，用户将收到电子邮件通知以及应用程序内通知。 有关电子邮件通知的详细信息，请参阅[修改您自己的电子邮件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
+   The user receives an email notification if this preference is enabled, as well as an in-app notification. For more information on email notifications, see [Modify your own email notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-   您可以单击在电子邮件通知中找到的链接，然后上传文档。 或者，您也可以单击应用程序内通知。 每个选项都会将您引至用户配置文件页面，您可以在其中上传请求的文档。
+   You can click the link found in the email notification, and then upload the document. Or you can click the in-app notification. Each option routes you to the user profile page where you can upload the requested document.
 
-1. 上传文档后，请求该文档的人可以在他们的个人&#x200B;**文档**&#x200B;区域访问该文档。
+1. After you upload the document, the person who requested it can access the document in their personal **Documents** area.
 
-   您可以通过单击任意Workfront页面右上角的用户配置文件图片，单击您的姓名，然后单击“**文档**”选项卡，来访问您的个人&#x200B;**文档**&#x200B;区域。
+   You can access your personal **Documents** area by clicking your user profile picture in the upper-right corner of any Workfront page, clicking your name, then clicking the **Documents** tab.

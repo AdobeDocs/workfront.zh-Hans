@@ -1,25 +1,31 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 请求文件审批
+title: 请求旧文档审批
 description: 您可以在Adobe Workfront中请求经理或其他用户批准文档。 如果您的Workfront管理员启用了此功能，您还可以向没有Workfront帐户的人员请求文档审批，如配置系统安全首选项中所述。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f54a221b-4bf0-414e-b2f3-ace861d85496
-source-git-commit: 2503b6e628e4860a5652c620d8e4d0eea2414443
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 1%
+source-wordcount: '544'
+ht-degree: 3%
 
 ---
 
-# 请求文件审批
+# 请求旧文档审批
 
 您可以在Adobe Workfront中请求经理或其他用户批准文档。 如果您的Workfront管理员启用了此功能，您还可以向没有Workfront帐户的人员请求文档审批，如[配置系统安全首选项](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)中所述。
 
-## 访问要求
+>[!NOTE]
+>
+>本文中的信息是指旧版文档审批。 <br>
+>有关新的统一审查和批准的信息，请参阅[统一审查和批准概述](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)。
 
-+++ 展开以查看本文中各项功能的访问要求。
+
+## 访问权限要求
+
++++ 展开可查看本文所述功能的访问权限要求。
 
 
 <table style="table-layout:auto"> 
@@ -27,8 +33,8 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 

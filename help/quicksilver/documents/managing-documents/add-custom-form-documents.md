@@ -8,9 +8,9 @@ feature: Digital Content and Documents
 exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '513'
 ht-degree: 4%
 
 ---
@@ -29,7 +29,8 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 包</td> 
-   <td> <p> “任一”</p> </td> 
+   <td> <p>使用旧版Workfront存储管理文档的任何Workfront软件包</p>
+<p>用于使用Adobe企业存储管理文档的任意工作流包</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 许可证</td> 
@@ -94,7 +95,7 @@ ht-degree: 4%
 1. 在右侧的&#x200B;**详细信息**&#x200B;部分中，单击&#x200B;**编辑**。
    详细信息部分中的![编辑按钮](assets/edit-custom-form.png)
 1. 在&#x200B;**自定义Forms**&#x200B;字段中，开始键入并选择自定义表单。
-1. 单击 **Save**。自定义表单显示在详细信息部分中。
+1. 单击&#x200B;**保存**。 自定义表单显示在详细信息部分中。
 
 
 ## 在新建文档区域中编辑自定义表单

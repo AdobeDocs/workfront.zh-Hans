@@ -1,23 +1,23 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 为文档创建审批工作流模板
-description: 您可以创建批准模板以简化批准流程。
+title: Create an approval workflow template for documents
+description: You can create Approval Templates to streamline your approval process.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 9%
+source-wordcount: '356'
+ht-degree: 8%
 
 ---
 
-# 为文档创建审批工作流模板
+# Create an approval workflow template for documents
 
-在Workfront设置区域中，具有Standard许可证的用户可以创建可重复使用的审批模板。 创建后，审批模板可应用于项目、任务或问题的文档区域中的资产。
+In the Workfront Setup area, users with a Standard license can create reusable Approval Templates. Once created, Approval Templates can be applied to assets in the Documents area of a project, task, or issue.
 
 >[!IMPORTANT]
 >
@@ -33,7 +33,8 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 包</td> 
-   <td> <p>“任一”</p> </td> 
+   <td><p>使用旧版Workfront存储管理审批的任何Workfront软件包</p>
+<p>使用Adobe企业存储管理审批的任意工作流包</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -49,19 +50,19 @@ ht-degree: 9%
 +++
 ß
 
-## 创建审批模板
+## Create an Approval Template
 
 {{step-1-to-setup}}
 
-1. 在左侧面板中，单击&#x200B;**审阅和批准** > **批准模板**。
-1. 单击页面右侧的&#x200B;**新建模板**。
+1. In the left panel, click **Review and Approval** > **Approval Templates**.
+1. Click **New Template** on the right side of the page.
 
 1. 填写以下详细信息：
 
    <table>
      <tr>
    <td><strong>模板名称</strong></td>
-   <td>添加模板名称。 </td>
+   <td>Add a template name. </td>
    </tr>
    <tr>
    <td><strong>阶段名称</strong></td>
@@ -77,7 +78,7 @@ ht-degree: 9%
    </tr>
    <tr>
    <td><strong>到期日期前的工作日</strong></td>
-   <td>选择在激活阶段后批准到期之前的工作日数。</td>
+   <td>Choose how many workdays until the approval is due after a stage is activated.</td>
    </tr>
    </table>
 
@@ -91,7 +92,7 @@ ht-degree: 9%
 
 1. 单击&#x200B;**保存**。
 
-创建模板后，可将其应用于项目、任务或问题的文档区域中的文档，以在Workfront中开始正式的审阅和批准流程。
+Once the template is created, it can be applied to documents in the Documents area of a project, task, or issue to begin the formal review and approval process in Workfront.
 
 
 

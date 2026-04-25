@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '583'
 ht-degree: 3%
 
 ---
@@ -33,7 +33,8 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 包</td> 
-   <td> <p>“任一”</p> </td> 
+   <td><p>使用旧版Workfront存储管理审批的任何Workfront软件包</p>
+<p>使用Adobe企业存储管理审批的任意工作流包</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -73,35 +74,35 @@ Add once functionality is added
 
    或者
 
-   单击&#x200B;**下载**&#x200B;以将文档的本地副本下载到您的设备。
+   Click **Download** to download a local copy of the document onto your device.
 
-1. （可选）查看文档后，您可以在文档的&#x200B;**更新**&#x200B;部分中为请求者留下评论。 有关评论的更多信息，请参阅[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
-1. 若要记录您已完成审阅，请单击&#x200B;**完成审阅**。
+1. (Optional) Once you have reviewed the document, you can leave a comment for the requester in the document&#39;s **Updates** section. For more information on commenting, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. To record that you have completed your review, click **Complete review**.
 
-## 从文档摘要面板中审阅文档
+## Review a document from the Document Summary panel
 
 1. 转到包含文档的项目、任务或问题，然后选择&#x200B;**文档**。
 
-1. 单击所需的文档，此时将打开“文档摘要”面板。
+1. Click on the document you need and the Document Summary panel will open.
 
 1. 在版本下拉列表中选择要查看的文档版本。 默认情况下将选择最新版本。
 
-1. 将鼠标悬停在“文档摘要”面板顶部&#x200B;**详细信息**&#x200B;部分中文档的预览上。 然后，执行以下任一操作：
+1. Hover over the preview of the document in the **Details** section at the top of the Document Summary panel. 然后，执行以下任一操作：
 
    单击&#x200B;**预览**&#x200B;可在新窗口中打开文档的只读版本。
 
    或者
 
-   单击&#x200B;**下载**&#x200B;以将文档的本地副本下载到您的设备。
+   Click **Download** to download a local copy of the document onto your device.
 
-1. （可选）查看文档后，您可以在文档的&#x200B;**更新**&#x200B;部分中为请求者留下评论。 有关评论的更多信息，请参阅[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
+1. (Optional) Once you have reviewed the document, you can leave a comment for the requester in the document&#39;s **Updates** section. For more information on commenting, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. （可选）您还可以预览或下载文档的特定版本，方法是向下滚动到“文档摘要”面板的&#x200B;**版本**&#x200B;部分，然后单击要审阅的版本旁边的“更多”图标![更多图标](../assets/more-icon.png)，然后选择&#x200B;**下载**&#x200B;或&#x200B;**预览**。
-1. 若要记录您已完成审阅，请单击&#x200B;**完成审阅**。
+1. (Optional) You can also preview or download a specific version of the document by scrolling down to the **Versions** section of the Document Summary panel, then clicking on the More icon ![More icon](../assets/more-icon.png) next to the version you would like to review and selecting **Download** or **Preview**.
+1. To record that you have completed your review, click **Complete review**.
 
-## 从校样查看器中查看文档
+## Review a document from the proof viewer
 
-要复查文档，请执行以下操作：
+To review a document:
 
 1. 转到审阅电子邮件通知，然后单击&#x200B;**转到审阅**。
 
@@ -109,8 +110,8 @@ Add once functionality is added
 
 1. 查看内容，并添加任何注释或标记。 有关如何使用验证查看器的更多信息，请参阅[在Adobe Workfront中查看验证：文章索引](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)。
 
-1. 若要记录您已完成审阅，请单击&#x200B;**完成审阅**。
+1. To record that you have completed your review, click **Complete review**.
 
-## 从Frame.io查看器中查看文档
+## Review a document from the Frame.io viewer
 
 要从Frame.io查看器中查看文档，您的Workfront实例必须与Frame.io集成。 有关详细信息，请参阅[统一审阅和批准概述](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)。

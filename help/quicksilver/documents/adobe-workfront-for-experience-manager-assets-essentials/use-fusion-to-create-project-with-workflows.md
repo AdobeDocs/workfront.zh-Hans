@@ -6,10 +6,10 @@ description: 如果您通过Workfront Fusion创建项目并希望在项目上包
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: 6a21465ab8c92888c83344f33574302c5cc446e8
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 0%
+source-wordcount: '925'
+ht-degree: 8%
 
 ---
 
@@ -19,20 +19,21 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->工作流仅在Adobe Experience Manager as a Cloud Service集成中可用。 它们不可用于与Adobe Experience Manager Assets Essentials的集成。
+>工作流仅在Adobe Experience Manager as a Cloud Service集成中可用。 它们不可用于与Adobe Experience Manager Assets Essentials的集成。<br>
+>新文档区域不提供此功能。
 
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table>
   <tr>
-    <td><strong>Adobe Workfront包</strong></td>
-   <td> <p>任何Adobe Workfront Workflow包和任何Adobe Workfront自动化和集成包</p><p>Workfront Ultimate</p><p>Workfront Prime和Select包，以及额外购买的Workfront Fusion。</p> </td> 
+    <td><strong>Adobe Workfront 包</strong></td>
+   <td> <p>任意 Adobe Workfront Workflow 包以及任意 Adobe Workfront 自动化和集成包</p><p>Workfront Ultimate</p><p>Workfront Prime 和 Select 包，且需额外购买 Workfront Fusion。</p> </td> 
   </tr>
   <tr>
-   <td><strong>Adobe Workfront许可证</strong></td>
+   <td><strong>Adobe Workfront 许可证</strong></td>
    <td><p>参与者或更高版本</p><p>请求或更高版本</p></td>
   </tr>
   <tr>
@@ -50,7 +51,7 @@ ht-degree: 0%
      <p><b>Workfront Fusion：</b></p>
      <ul>
        <li>
-        <p>如果贵组织具有不包含Workfront Automation and Integration的Select或Prime Workfront包，则贵组织必须购买Adobe Workfront Fusion。</li></ul>
+        <p>如果您的组织使用的 Workfront Select 或 Prime 包不包含 Workfront 自动化和集成，则必须单独购买 Adobe Workfront Fusion。</li></ul>
        </li>
      </ul>
    </td>
@@ -82,7 +83,7 @@ ht-degree: 0%
 1. 将&#x200B;**Workfront** > **杂项操作**&#x200B;模块添加到您的方案。
 1. 在&#x200B;**连接**&#x200B;字段中，选择连接到此模块将使用的帐户的Workfront连接。
 
-   有关创建连接的说明，请参阅Workfront模块一文中的[连接 [!DNL Workfront] 到 [!DNL Workfront Fusion]](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)。
+   有关创建连接的说明，请参阅Workfront模块一文中的[连接 [!DNL Workfront] 到 [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)。
 
    有关创建客户端ID和客户端密钥的说明，您将需要创建连接，请参阅本文中的[创建OAuth应用程序](#create-an-oauth-application)。
 
@@ -112,7 +113,7 @@ ht-degree: 0%
 1. 将`New project name here`替换为新项目将具有的名称。
 1. 将`Template ID here`替换为您用于新项目的模板的ID。
 
-   您可以映射上一个模块(如Workfront >搜索模块)中的模板ID，或在Workfront中模板页面的URL中找到它。
+   您可以映射上一个模块（如Workfront >搜索模块）中的模板ID，或在Workfront中模板页面的URL中找到它。
 
 1. 单击&#x200B;**确定**&#x200B;以保存模块配置。
 
@@ -146,13 +147,13 @@ ht-degree: 0%
 
    ![查找文件夹ID 2](assets/finding-folder-id-2.png)
 
-   在`aemNativeFolderTreeIDs`Workfront **>**&#x200B;其他操作&#x200B;**Fusion模块的**&#x200B;项目（高级收藏集）**字段中，您将输入这些**&#x200B;值。
+   在&#x200B;**Workfront** > **其他操作** Fusion模块的&#x200B;**项目（高级收藏集）**&#x200B;字段中，您将输入这些`aemNativeFolderTreeIDs`值。
 
 ## 创建OAuth应用程序
 
 您必须在Workfront中为此模块的连接设置OAuth应用程序。 您只需对Fusion中的给定Workfront连接执行一次此操作。
 
-1. 在Workfront中，开始创建OAuth应用程序，如文章为[集成创建OAuth2应用程序中的](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-application-using-user-credentials-authorization-code-flow)使用用户凭据（授权代码流）[!DNL Workfront]创建OAuth2应用程序中所述。
+1. 在Workfront中，开始创建OAuth应用程序，如文章为[!DNL Workfront]集成创建OAuth2应用程序中的[使用用户凭据（授权代码流）](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-application-using-user-credentials-authorization-code-flow)创建OAuth2应用程序中所述。
 1. 将客户端ID和客户端密钥复制到安全位置。
 1. 在&#x200B;**重定向URI**&#x200B;字段中，输入以下内容：
 
@@ -164,4 +165,4 @@ ht-degree: 0%
 
 在Fusion中配置模块的连接时，您将使用此客户端ID和客户端密钥。
 
-有关创建连接的说明，请参阅Workfront模块一文中的[连接 [!DNL Workfront] 到 [!DNL Workfront Fusion]](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)。
+有关创建连接的说明，请参阅Workfront模块一文中的[连接 [!DNL Workfront] 到 [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)。

@@ -6,10 +6,10 @@ description: 您可以将文档从Workfront发送到Experience Manager Assets或
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 0%
+source-wordcount: '923'
+ht-degree: 2%
 
 ---
 
@@ -21,26 +21,33 @@ ht-degree: 0%
 
 在“预览”环境中，通过此集成发送到Experience Manager的Assets具有&#x200B;**30 GB**&#x200B;的大小限制。
 
+>[!NOTE]
+>
+>新文档区域不提供此功能。<br>
+>如果您的组织使用企业存储，则当您访问Workfront中的文档时，将会看到“新建文档”区域。 从该位置，您可以将资源发送到Experience Manager Assets。 有关详细信息，请参阅[将Adobe Experience Manager与Frame.io集成一起使用](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)。
+
+## 元数据
+
 在将资源从Workfront发送到Experience Manager Assets或Assets Essentials时，首先映射元数据字段。 配置为映射父对象的任何元数据也会发送。 有关配置元数据映射的详细信息，请参阅[配置Experience Manager Assets as a Cloud Service集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)或[配置Experience Manager Assets Essentials集成](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)。
 
 >[!INFO]
 >
 >**示例**&#x200B;首次发送附加到任务的资源时，任务元数据将映射到Experience Manager Assets或Assets Essentials，以及父对象（如项目、项目组合和项目群）中的任何映射元数据。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p> 任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p> “任一”</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td role="rowheader">Adobe Workfront 许可证</td> 
    <td> 
    <p>参与者或更高版本</p> 
    <p>请求或更高版本</p> </td> 
@@ -70,36 +77,36 @@ ht-degree: 0%
 
 ## 先决条件
 
-开始之前，
+Before you begin,
 
 * 您的Workfront管理员必须配置Experience Manager集成。 有关详细信息，请参阅[配置Experience Manager Assets as a Cloud Service集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)或[配置Experience Manager Assets Essentials集成](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)。
 
 
-## 从Workfront发送文档
+## Send a Document from Workfront
 
-当用户将文档从Workfront发送到Experience Manager Assets或Assets Essentials时，映射的元数据将沿文档传输。 发送文档后，在Workfront中对文档元数据所做的更改不会反映在Assets或Assets Essentials中。 如果Workfront中的映射字段发生更改，您必须将包含更新后元数据的文档的新版本发送到Assets或Assets Essentials。 要设置或编辑元数据，请参阅[配置Experience Manager Assets as a Cloud Service集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)或[配置Experience Manager Assets Essentials集成](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)。
+When a user sends a document from Workfront to Experience Manager Assets or Assets Essentials, mapped metadata transfers along the document. After the document is sent, changes made to the document&#39;s metadata in Workfront are not reflected in Assets or Assets Essentials. If a mapped field in Workfront is changed, you must send a new version of the document with the updated metadata to Assets or Assets Essentials. To set up or edit metadata, see [Configure the Experience Manager Assets as a Cloud Service integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) or [Configure the Experience Manager Assets Essentials integration](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
-要发送文档，请执行以下操作：
+To send a document:
 
-1. 转到Workfront中的&#x200B;**文档**&#x200B;区域，然后选择要发送的文档。
-1. 单击&#x200B;**发送至**，然后选择管理员设置的Experience Manager集成。
+1. Go to the **Documents** area in Workfront, and select the document you want to send.
+1. Click **Send to**, then choose the Experience Manager integration your administrator set up.
 
    >[!NOTE]
    >
-   >Workfront管理员可以选择此集成的任何名称，因此可能没有特别提及Assets或Assets Essentials。
+   >The Workfront administrator can choose any name for this integration, so it may not specifically mention Assets or Assets Essentials.
 
-   ![发送至](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![Send to](assets/copy-of-send-to-in-toolbar-350x149.png)
 
-1. 选择要将资源放置到的位置，然后单击&#x200B;**选择文件夹**。
-1. 找到所需目标后，单击&#x200B;**保存**。
+1. Choose where you want the asset to go, then click **Select Folder**.
+1. When you find your desired destination, click **Save**.
 
-## 发送新版本
+## Send a new version
 
-您可以向先前上载到Workfront的文档中添加新版本。 有关详细信息，请参阅[上载文档的新版本](../../documents/managing-documents/upload-new-document-version.md)。 上传最新版本后，可将其发送到Assets Essentials。 如果Workfront中的映射字段已更改，则新版本会在发送时更新Assets Essentials中的元数据。
+You can add a new version to a document you have previously uploaded to Workfront. For more information, see [Upload a new version of a document](../../documents/managing-documents/upload-new-document-version.md). After the latest version is uploaded, you can send it to Assets Essentials. If a mapped field in Workfront has changed, the new version updates the metadata in Assets Essentials when it sends.
 
 >[!IMPORTANT]
 >
->在将新版本上传到Workfront之前，我们建议重命名文件。 如果上传的文件名与以前版本完全相同，则只能从Workfront下载最新版本。 无论文件名如何，均可从Experience Manager Assets或Assets Essentials下载所有版本。
+>Before you upload a new version to Workfront, we recommend renaming the file. 如果上传的文件名与以前版本完全相同，则只能从Workfront下载最新版本。 无论文件名如何，均可从Experience Manager Assets或Assets Essentials下载所有版本。
 
 发送最新版本：
 
@@ -112,7 +119,7 @@ ht-degree: 0%
 
    ![发送至](assets/copy-of-send-to-in-toolbar-350x149.png)
 
-1. 单击 **Save**。新版本将保存在与先前版本相同的位置。
+1. 单击 **Save**。 新版本将保存在与先前版本相同的位置。
 
 ## 在Experience Manager Assets中将文档移动到链接的文件夹
 

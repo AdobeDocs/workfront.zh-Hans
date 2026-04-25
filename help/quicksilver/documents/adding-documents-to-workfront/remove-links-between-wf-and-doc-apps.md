@@ -2,31 +2,31 @@
 product-area: documents
 navigation-topic: add-documents-to-workfront
 title: 删除Adobe Workfront和外部文档存储提供商之间的链接
-description: 首次从任何服务上传文档时，Adobe Workfront会请求用户授予访问其文档服务的权限。 当用户提供用于登录的文档服务凭据时，文档服务将其自身链接到Workfront。
+description: When uploading a document from any service for the first time, Adobe Workfront requests permission from the user to access their document service. When the user provides their document service credentials to log in, the document service links itself to Workfront.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fce8e8aa-fc48-49e1-a71d-c3933a179cf5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '414'
 ht-degree: 4%
 
 ---
 
 # 删除Adobe Workfront和外部文档存储提供商之间的链接
 
-首次从任何服务上传文档时，Adobe Workfront会请求用户授予访问其文档服务的权限。 当用户提供用于登录的文档服务凭据时，文档服务将其自身链接到Workfront。
+When uploading a document from any service for the first time, Adobe Workfront requests permission from the user to access their document service. When the user provides their document service credentials to log in, the document service links itself to Workfront.
 
-有关将外部文档服务链接到Workfront的信息，请参阅[链接来自外部应用程序的文档](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)。
+For information about linking external document services to Workfront, see [Linking Documents from External Applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
-由于文档服务是允许链接到Workfront的权限服务，因此Workfront无法删除文档服务授予的权限。 您必须从文档服务应用程序中删除权限，或者必须致电我们的支持团队以从我们的服务器中删除此链接。
+Since the document service is the one allowing permission to link to Workfront, it is not possible for Workfront to remove the permission granted by the document service. You must remove the permission from within the document service application or you must call our Support Team to remove this link from our servers.
 
 >[!NOTE]
 >
->此功能在新文档区域不可用。<br>
->如果您的组织使用企业存储，则当您访问Workfront中的文档时，将会看到“新建文档”区域。 有关企业存储的更多信息，请参阅[Adobe企业存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+>This functionality is not available in the new documents area.<br>
+>If your organization uses enterprise storage, you will see the new documents area when you access documents in Workfront. For more information about enterprise storage, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## 访问权限要求
 
@@ -38,7 +38,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 包</td> 
-   <td> <p> “任一”</p> </td> 
+   <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
@@ -48,7 +48,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>编辑对文档的访问权限</p>  </td> 
+   <td> <p>Edit access to Documents</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,17 +57,17 @@ ht-degree: 4%
 
 +++
 
-## 删除Workfront和Dropbox之间的链接
+## Remove the link between Workfront and Dropbox
 
-1. 登录到Dropbox。
-1. 单击右上角的个人资料图片，然后单击&#x200B;**设置**。
-1. 单击&#x200B;**连接的应用程序**&#x200B;选项卡，然后向下滚动到&#x200B;**链接的应用程序**。
+1. Log in to Dropbox.
+1. Click your profile picture in the upper right corner, then click **Settings**.
+1. Click the **Connected apps** tab, then scroll down to **Linked apps**.
 
-1. 单击Workfront旁边的&#x200B;**X**。
+1. Click the **X** next to Workfront.
 
-## 删除Workfront与Box之间的链接
+## Remove the link between Workfront and Box
 
-1. 登录到您的Box帐户。
+1. Log in to your Box account.
 1. 单击右上角的配置文件图片。
 1. 单击&#x200B;**帐户设置**，然后单击&#x200B;**安全性**&#x200B;选项卡。
 

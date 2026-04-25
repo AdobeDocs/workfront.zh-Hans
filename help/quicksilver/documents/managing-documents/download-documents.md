@@ -8,10 +8,10 @@ feature: Digital Content and Documents
 exl-id: 083c604a-b2ca-4279-a90d-b103e3575dad
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 5%
+source-wordcount: '375'
+ht-degree: 4%
 
 ---
 
@@ -29,7 +29,8 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 包</td> 
-   <td> <p>“任一”</p> </td> 
+   <td> <p>使用旧版Workfront存储管理文档的任何Workfront软件包</p>
+<p>用于使用Adobe企业存储管理文档的任意工作流包</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -69,23 +70,23 @@ ht-degree: 5%
 
 您可以同时下载多个文档。
 
-1. 转到包含要下载的文档的“文档”区域。
-1. （可选）从文档列表中选择要下载的单个文档。
+1. Go to the Documents area containing the documents you want to download.
+1. (Optional) Select the individual documents that you want to download from the list of documents.
 
    >[!NOTE]
    >
-   >无法批量下载从Box、Dropbox、Google Drive等链接到Workfront的文档。
+   >Documents linked to Workfront from Box, Dropbox, Google Drive, and so forth cannot be downloaded in bulk.
 
-1. （可选）从文件夹列表中选择包含要下载的文档的文件夹。
-1. 单击“下载选定项”图标![“下载选定项”图标](assets/download-icon.png)。
+1. (Optional) Select the folders that contain the documents you want to download from the list of folders.
+1. Click the Download Selected icon ![Download Selected icon](assets/download-icon.png).
 
-   文件夹将下载为.zip文件，并且限制为4GB。
+   Folders are downloaded as .zip files and are limited to 4GB.
 
-## 下载新文档区域中的文档
+## Download documents in the new documents area
 
 如果您的组织使用企业存储，则当您访问Workfront中的文档时，将会看到“新建文档”区域。 有关企业存储的更多信息，请参阅[Adobe企业存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 1. 转到包含文档的项目、任务或问题，然后在左侧面板中选择&#x200B;**文档**。
-1. 找到所需的文档，然后单击&#x200B;**下载**。
+1. Find the documents you need, then click **Download**.
 
-![下载文档](assets/download-new-doc.png)
+![Download document](assets/download-new-doc.png)

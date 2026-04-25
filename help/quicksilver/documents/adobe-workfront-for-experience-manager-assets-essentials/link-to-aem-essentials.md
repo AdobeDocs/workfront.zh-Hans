@@ -5,9 +5,10 @@ title: 从Experience Manager Assets Essentials链接资源和文件夹
 description: 您可以从Experience Manager Assets Essentials将资源或文件夹链接到任何支持文档的Adobe Workfront对象。 从Assets Essentials发送的Assets不计入Workfront中的整体文档存储。 从Workfront上传并发送到Assets Essentials的文档确实会计入总体存储中。
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
-source-git-commit: a9dfc5c7838668bd3007c157a4e1a53ab4bd86f5
+exl-id: 0b93f6f6-cf4b-4077-a464-be7f19f7cd25
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '628'
 ht-degree: 4%
 
 ---
@@ -17,6 +18,8 @@ ht-degree: 4%
 您可以从Experience Manager Assets Essentials将资源或文件夹链接到任何支持文档的Adobe Workfront对象。
 
 要使用Content Advisor从Experience Manager Assets链接资源和文件夹，请参阅[使用由Experience Manager Assets提供支持的Content Advisor链接资源和文件夹](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)。
+
+如果您位于企业存储中，请参阅[将Adobe Experience Manager与Frame.io集成一起使用](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)。
 
 
 ## 访问权限要求
