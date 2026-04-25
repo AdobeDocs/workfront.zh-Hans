@@ -288,7 +288,7 @@ You can create a new Google document from within Workfront. You cannot create ne
 
 1. 转到Workfront中您希望文件夹所在的区域，然后单击左侧面板中的&#x200B;**文档** ![文档图标](assets/document-icon.png)。
 
-1. 单击“新建”****，然后单击要将文件夹链接到Workfront的外部文档提供商。
+1. 单击“新建”**&#x200B;**，然后单击要将文件夹链接到Workfront的外部文档提供商。
 1. （视情况而定）如果尚未授权外部服务，请为外部提供程序指定登录凭据，然后单击&#x200B;**登录**。
 
    您已经授权的外部提供程序将显示在列表顶部。

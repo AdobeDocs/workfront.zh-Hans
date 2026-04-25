@@ -228,7 +228,7 @@ To add and remove columns:
 1. （视情况而定）若要添加新视图，请输入视图的名称，然后单击&#x200B;**创建**。
 1. （可选）隐藏、显示或重新排列列。 有关详细信息，请参阅[自定义增强列表](#customize-columns-in-an-enhanced-list)中的列。
 1. （可选）筛选列表。 有关详细信息，请参阅[增强列表](#filter-items-in-an-enhanced-list)中的筛选项。
-1. （可选）对列表中的项目进行分组。 有关详细信息，请参阅增强列表](#group-items-in-an-enhanced-list)中的[分组项。
+1. （可选）对列表中的项目进行分组。 有关详细信息，请参阅增强列表[&#128279;](#group-items-in-an-enhanced-list)中的分组项。
 
    对视图的更改会自动保存。 下次应用此视图时，列和筛选器设置将保持其设置方式。
 
