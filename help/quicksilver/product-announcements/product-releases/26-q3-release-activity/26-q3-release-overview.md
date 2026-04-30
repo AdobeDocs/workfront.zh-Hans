@@ -4,10 +4,11 @@ description: 本页介绍了2026年第三季度版本中包含的功能信息。
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7c0226697436bfdaaa1bde1e12fb68c167a48d7a
+exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
+source-git-commit: 1a498abcf4a9ef8940eb2da09da42636253e557a
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 2%
+source-wordcount: '637'
+ht-degree: 5%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 此页面上的增强功能在“预览”环境中可用。 随着2026年第三季度版本接近其计划发布的生产版本，此页面将进行额外的增强。
 
-每个季度版本均会召开实时网络研讨会，这些研讨会会重点介绍新增功能并提供详细信息。 若要注册，请访问[事件页面](https://experienceleague.adobe.com/zh-hans/events?filters=Workfront)并筛选Workfront。
+每个季度版本均会召开实时网络研讨会，这些研讨会会重点介绍新增功能并提供详细信息。 若要注册，请访问[事件页面](https://experienceleague.adobe.com/en/events?filters=Workfront)并筛选Workfront。
 
 >[!IMPORTANT]
 >
@@ -34,7 +35,32 @@ ht-degree: 2%
 
 ## Adobe Workfront增强功能
 
+* [文档增强功能](#documents-enhancements)
 * [请求增强功能](#requesting-enhancements)
+
+### 文档增强功能
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>功能</strong>
+            </td>
+            <td><strong>预览</strong></td>
+            <td><strong>快速发布</strong></td>
+            <td><strong>每季度</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">查看Adobe企业存储使用情况</a>
+                <p>“设置”中的“客户信息”页面现在包含新的“存储概述”部分，其中包含Adobe企业存储的使用量度。</p>
+            </td>
+            <td><p>2026年4月30日</p></td>
+            <td><p>2026年5月14日</p></td>
+            <td><p>2026年7月16日</p></td>
+        </tr>
+    </tbody>
+</table>
 
 ### 请求增强功能
 
@@ -50,7 +76,7 @@ ht-degree: 2%
             <td><strong>每季度</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md" class="MCXref xref" xrefformat="{para}">预定义视图已添加到“请求”区域和“我的请求”小组件中的请求列表中</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md" class="MCXref xref" xrefformat="{para}">预定义视图已添加到“请求”区域和“我的请求”小组件中的请求列表中</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
                 <p>为了帮助您更好地组织请求列表，我们已将预定义视图添加到请求区域的请求列表中，并将我的请求构件添加到主页。</p>
             </td>
             <td><p>2026年4月23日</p></td>
@@ -87,11 +113,11 @@ New features in Workfront Planning are available in Production. For more informa
 
 ## 桌面校对查看器更新
 
-### 版本 2.1.55
+### 版本2.1.55
 
 适用于所有客户的生产版本： 2025年3月19日
 
-桌面校对查看器已从2.1.54更新到2.1.55。此更新包括内部工具更新，不会影响最终用户功能。
+桌面校对查看器已从2.1.54更新到2.1.55。 此更新包括内部工具更新，不会影响最终用户功能。
 
 此更新适用于Mac和Windows。
 
@@ -115,12 +141,10 @@ Workfront API版本21于2025年10月23日发布。 对于API版本21，我们修
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hans).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
 ### 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hans)的“新增功能”部分。
-
-
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的“新增功能”部分。

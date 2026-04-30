@@ -8,16 +8,18 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-29T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: c298b21e74abc6ac7bed2c8fa4c5a0dc0f6c6237
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '763'
 ht-degree: 4%
 
 ---
 
 # 配置系统的基本信息
+
+{{highlighted-preview}}
 
 <!-- Audited: 2/2024 -->
 
@@ -66,23 +68,30 @@ ht-degree: 4%
 
    “客户信息”区域中提供的部分包括：
 
-   * **基本信息**
+* **基本信息**
 
-     有关在Workfront中配置基本信息的信息，请参阅[配置基本信息](#configure-basic-info)。
+  有关在Workfront中配置基本信息的信息，请参阅[配置基本信息](#configure-basic-info)。
 
-   * **API密钥设置**
 
-     有关API密钥设置的信息，请参阅[管理API密钥](../../administration-and-setup/manage-workfront/security/manage-api-keys.md)。
 
-   * **IP 允许列表**
+* <span class="preview">**存储概述**
 
-     有关将IP地址添加到用户可访问Workfront的允许列表的信息，请参阅[配置防火墙的允许列表](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
+  有关检查文档存储使用量和配额的信息，请参阅[检查文档存储限制](../../documents/managing-documents/check-document-storage.md)。</span>
 
-   * **电子邮件允许列表**
 
-     有关向允许列表添加电子邮件的信息，请参阅[配置电子邮件](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)。
+* **API密钥设置**
 
-   <!--
+  有关API密钥设置的信息，请参阅[管理API密钥](../../administration-and-setup/manage-workfront/security/manage-api-keys.md)。
+
+* **IP 允许列表**
+
+  有关将IP地址添加到用户可访问Workfront的允许列表的信息，请参阅[配置防火墙的允许列表](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
+
+* **电子邮件允许列表**
+
+  有关向允许列表添加电子邮件的信息，请参阅[配置电子邮件](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)。
+
+<!--
    * **License**
 
      For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
@@ -132,14 +141,6 @@ ht-degree: 4%
       <td role="rowheader">默认电子邮件区域设置</td> 
       <td>控制传出电子邮件中使用的语言、日期和数字格式。 创建新用户时，此处选择的区域设置是默认的。 用户可以在用户配置文件中修改其区域设置。 当用户修改其区域设置时，其来自Workfront的电子邮件中的语言、日期和数字格式与他们的配置文件首选项匹配。 有关修改配置文件首选项的详细信息，请参阅<a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">配置我的设置</a>。</td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">存储配额</td> 
-      <td> <p>这是Workfront实例中可用的文档存储空间量。<br>配额包含您直接上传到Workfront的文档。<br>它不包括：</p> 
-       <ul> 
-        <li>您从任何其他第三方服务提供商（SharePoint、Google Drive、Webdam、Box、Dropbox和任何其他文档资产管理提供商）链接到Workfront的文档。</li> 
-        <li>您的Workfront数据（项目、任务、问题、用户等）。</li> 
-       </ul> </td> 
-     </tr>
     </tbody> 
    </table>
 
