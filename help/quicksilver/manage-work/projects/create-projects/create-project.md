@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '1295'
-ht-degree: 3%
+source-wordcount: '1614'
+ht-degree: 2%
 
 ---
 
@@ -167,6 +167,17 @@ Old:
 
      如果通过转化问题创建项目时使用模板，请参阅上面第二个场景，了解哪个组和哪个状态Workfront适用于新项目。
 
+* 文档在项目及其子对象中的存储位置（任务和问题）取决于Workfront管理员在“设置”的“系统首选项”区域中选择的“存储首选项”默认设置。 根据您在Workfront实例中存储文档的位置，可以创建以下类型的项目：
+
+   * 旧版Workfront存储项目
+   * Adobe企业存储项目。
+
+  有关详细信息，请参阅[为您的组织启用Adobe企业存储](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
+
+* 创建企业存储项目时，会在项目的&#x200B;**文档**&#x200B;部分中创建一个与项目同名的文档文件夹。 将任务添加到项目后，具有任务名称的文件夹将添加到每个任务的&#x200B;**文档**&#x200B;部分。
+
+有关详细信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
+
 ## 从头开始创建项目
 
 >[!NOTE]
@@ -175,15 +186,40 @@ Old:
 
 1. 执行下列操作之一：
 
-   * 单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，或Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)（如果可用），然后单击&#x200B;**项目**&#x200B;并展开&#x200B;**新建项目**。
+   * 单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**项目**&#x200B;并展开&#x200B;**新建项目**。
    * 转到项目组合，然后展开&#x200B;**新建项目**。
    * 转到项目群，然后展开&#x200B;**新建项目**。
    * 如果您是组管理员，则还可以在所管理组的项目部分中创建项目。 有关详细信息，请参阅[创建和修改组的项目](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)。
 
-   ![新建项目菜单](assets/new-project-dropdown-nwe-350x358.png)
+   ![新建项目菜单](assets/new-project-drop-down-with-legacy-storage-option.png)
 
-1. 单击菜单中的&#x200B;**新建项目**&#x200B;以从头开始创建项目。
-1. 键入项目的名称。 按Enter键保存名称。
+1. （视情况而定）根据您的组织使用的文档存储，单击下列选项之一：
+
+   * **新项目**，当Workfront管理员选择&#x200B;**Adobe Enterprise**&#x200B;或&#x200B;**旧版Workfront**，并且他们选择或未选择&#x200B;**允许用户选择存储提供程序**&#x200B;设置时。
+   * **新项目（旧版存储）**，当Workfront管理员选择&#x200B;**Adobe Enterprise**&#x200B;或&#x200B;**旧版Workfront**，并且他们还选择了&#x200B;**允许用户选择存储提供程序**&#x200B;设置时。
+
+     仅当在“设置”区域中选择了&#x200B;**允许用户选择存储提供程序**&#x200B;设置时，才会显示此选项。
+
+     有关详细信息，请参阅[为您的组织启用Adobe企业存储](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
+
+     >[!NOTE]
+     >
+     >从Workfront存储产品组合或项目群创建企业存储项目时，该产品组合或项目群也会转换为企业存储对象。 在同一项目组合或项目群下的所有其他Workfront存储项目保持不变。
+
+     项目随即会创建，其默认名称会遵循以下模式，具体取决于Workfront用于文档的存储空间：
+
+      * Workfront存储项目的&#x200B;**无标题项目**。
+
+        Workfront存储项目在其名称旁显示&#x200B;**旧版Workfront存储**&#x200B;图标![旧版存储项目图标](assets/legacy-storage-project-icon.png)。
+
+      * **无标题项目 — Adobe存储项目的&lt;月日，年小时。分钟。秒>**
+
+        >[!IMPORTANT]
+        >
+        >使用Adobe企业存储的项目必须具有唯一的名称。
+
+
+1. 在项目的标题中，更新项目的名称。 按Enter键保存名称。
 
    ![输入项目的名称](assets/rename-untitled-project.png)
 

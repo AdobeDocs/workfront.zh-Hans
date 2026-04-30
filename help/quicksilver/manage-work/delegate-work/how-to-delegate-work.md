@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1556'
 ht-degree: 1%
 
 ---
@@ -95,7 +95,7 @@ note from the table for Object permissions:
 
 在执行本文中所述的活动之前，必须确保以下各项：
 
-* 您的[!DNL Workfront]或组管理员在&#x200B;[!UICONTROL **实例的**]&#x200B;设置[!UICONTROL 区域的]任务和问题偏好设置[!UICONTROL 部分启用了]允许用户委派其任务和问题[!DNL Workfront]设置。
+* 您的[!DNL Workfront]或组管理员在[!DNL Workfront]实例的[!UICONTROL 设置]区域的[!UICONTROL 任务和问题偏好设置]部分启用了&#x200B;[!UICONTROL **允许用户委派其任务和问题**]&#x200B;设置。
 
   有关详细信息，请参阅[配置系统范围的任务和问题首选项](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
 
@@ -156,9 +156,9 @@ note from the table for Object permissions:
 
    * [!UICONTROL **主页**]&#x200B;区域中的&#x200B;[!UICONTROL **委派**]&#x200B;按钮更改为&#x200B;[!UICONTROL **编辑委派**]&#x200B;以指示存在委派。
      <!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+       
       (NOTE: is this shot correct? See UI - this is a mock)
-      </MadCap:conditionalText>
+       
       -->
 
      ![编辑委派按钮](assets/edit-delegation-button-on-my-work-widget.png)

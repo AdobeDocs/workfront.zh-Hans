@@ -8,9 +8,9 @@ feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '697'
 ht-degree: 2%
 
 ---
@@ -42,16 +42,16 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>[!UICONTROL 标准版] </p>
-   <p>[!UICONTROL 计划] </p> </td> 
+   <td> <p>[！UICONTROL标准版] </p>
+   <p>[！UICONTROL计划] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[!UICONTROL Edit]对[!UICONTROL 项目]和[!UICONTROL 项目组合]的访问权限</p>  </td> 
+   <td> <p>[！UICONTROL Edit]对[！UICONTROL项目]和[！UICONTROL项目组合]的访问权限</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>项目组合的[!UICONTROL Manage]权限</p> <p>查看项目或更高权限</p>  </td> 
+   <td> <p>项目组合的[！UICONTROL Manage]权限</p> <p>查看项目或更高权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -113,7 +113,7 @@ Old:
    * 项目组合[!UICONTROL 对齐方式]
    * 项目组合[!UICONTROL 净值]
 
-1. （可选）   单击左侧面板中的&#x200B;**[!UICONTROL 项目]**&#x200B;以查看与所选项目组合关联的项目，然后从&#x200B;**[!UICONTROL 筛选器]**&#x200B;下拉菜单中选择以下任何筛选器：
+1. （可选）单击左侧面板中的&#x200B;**[!UICONTROL 项目]**&#x200B;以查看与所选项目组合关联的项目，然后从&#x200B;**[!UICONTROL 筛选器]**&#x200B;下拉菜单中选择以下任意筛选器：
 
    * **[!UICONTROL 活动]**：包括与处于以下状态的选定项目组合关联的所有项目：
 
@@ -133,7 +133,7 @@ Old:
      有关创建筛选器的更多信息，请参阅[筛选器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
 
-1. 单击左侧面板中的&#x200B;**[!UICONTROL 程序]**&#x200B;可在项目组合中创建程序或管理现有程序。
+1. 单击左侧面板中的&#x200B;**[!UICONTROL 程序]**可在项目组合中创建程序或管理现有程序。
 有关程序的信息，请参阅[创建和管理程序](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)部分。
 
 1. （可选）展开左侧面板中的&#x200B;**[!UICONTROL Portfolio详细信息]**&#x200B;区域，然后单击&#x200B;**[!UICONTROL 概述]**&#x200B;或&#x200B;**[!UICONTROL 自定义Forms]**&#x200B;以编辑有关项目组合的信息。
@@ -150,6 +150,22 @@ Old:
    有关使用Portfolio Optimizer的信息，请参阅[在Portfolio Optimizer中管理项目：文章索引](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)部分。
 
 1. （可选）单击左侧面板中的&#x200B;**文档**&#x200B;以将文档附加到项目组合。
+
+   >[!NOTE]
+   >
+   >将文档添加到项目组合会因您的组织用于Workfront的存储类型而异。
+   >有些客户可能同时访问以下两个文档存储环境：
+   >
+   >  * **旧版Workfront存储**：使用此存储的产品组合在名称旁有旧版存储图标![旧版存储图标](assets/legacy-storage-project-icon.png)。
+   >  * **Adobe企业存储**
+   >
+   >您的Workfront管理员可决定贵公司使用哪些存储，或允许您选择与每个产品组合关联的存储。
+   >有关详细信息，请参阅[为您的组织启用Adobe企业存储](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
+   >
+   >将文档添加到项目组合会因您使用的存储类型而异。
+   >
+   >有关信息，请参阅[将文档从您的文件系统](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md)添加到Adobe Workfront。
+
 1. （可选）单击左侧面板中的&#x200B;**[!UICONTROL 更新]**&#x200B;以向项目组合的更新流添加注释。 有关信息，请参阅[更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 1. （可选）单击&#x200B;**[!UICONTROL 更多]菜单** ![更多菜单](assets/qs-more-icon-on-an-object.png)以执行以下操作之一：
 

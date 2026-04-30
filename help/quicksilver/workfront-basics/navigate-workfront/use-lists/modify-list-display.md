@@ -7,9 +7,9 @@ author: Courtney
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '711'
 ht-degree: 2%
 
 ---
@@ -55,11 +55,11 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[!UICONTROL 视图]对列表所在区域的访问权限</p> <p>例如，要修改项目的视图，您需要具有[!UICONTROL 视图]的项目访问权限。</p></td> 
+   <td> <p>[！UICONTROL视图]对列表所在区域的访问权限</p> <p>例如，要修改项目的视图，您需要具有[！UICONTROL视图]的项目访问权限。</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>[!UICONTROL 视图]或应用于列表的视图的更高权限</p>  </td> 
+   <td> <p>[！UICONTROL视图]或应用于列表的视图的更高权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -74,9 +74,9 @@ ht-degree: 2%
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+    
    By default, groupings are collapsed.
-   </MadCap:conditionalText>
+    
    <br> </p>
    -->
 
@@ -100,7 +100,7 @@ ht-degree: 2%
    >为了在对象包含格式化文本字段的大型列表中获得最佳性能，我们建议将此数字限制为250。
    >
    >
-   >有关2种列表类型的详细信息，请参阅[在](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated)中开始使用列表[更新列表与旧列表之间的差异 [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)一节。
+   >有关2种列表类型的详细信息，请参阅[在 [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)中开始使用列表[更新列表与旧列表之间的差异](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated)一节。
 
    列表的结果按页面分页，以显示每页选定的项目数。 通过单击向后和向前箭头或选择特定页面，您可以访问其他页面上的结果。
 

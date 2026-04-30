@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 2%
+source-wordcount: '1388'
+ht-degree: 1%
 
 ---
 
@@ -124,7 +124,7 @@ Old:
 
 1. 执行下列操作之一：
 
-   * 单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，或Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)（如果可用），然后单击&#x200B;**项目**&#x200B;并展开&#x200B;**新建项目**。
+   * 单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**项目**&#x200B;并展开&#x200B;**新建项目**。
    * 转到项目组合，然后展开&#x200B;**新建项目**。
 
      >[!TIP]
@@ -153,15 +153,34 @@ Old:
 
    ![选择收藏模板](assets/new-project-from-template-dropdown-with-template-favorites.png)
 
-   或
-
-   执行以下操作：
+   或者，执行以下操作：
 
    1. 单击&#x200B;**从模板新建项目**。
-   1. 在&#x200B;**搜索模板**&#x200B;字段中，开始键入模板的名称，并在模板显示在列表中时单击该名称。
-   1. 查看右侧的模板详细信息。
+   1. （可选）在&#x200B;**搜索模板**&#x200B;字段中，开始键入模板的名称，然后在模板显示在列表中时单击该名称。
+   1. 单击以下模板类型之一的名称，以选择它们：
 
-      模板详细信息包括：
+      * Workfront-storage模板
+
+        Workfront存储模板在其名称旁显示旧版存储图标![旧版存储图标](assets/legacy-storage-project-icon.png)。
+
+        关于模板和未来项目的文档将存储在Workfront存储中。
+      * Adobe-storage模板
+
+        有关模板和未来项目的文档将存储在Adobe企业存储中。
+
+      >[!NOTE]
+      >
+      >* 使用Adobe企业级存储模板可创建一个Adobe企业级存储项目。
+      >
+      >* 使用Workfront-storage模板可创建Workfront-storage项目。
+      >
+      >* 当您使用Workfront存储产品组合或程序中的Adobe企业存储模板时，该项目是一个Adobe企业存储项目，并且该项目组合或程序也转换为Adobe企业存储对象。 在同一项目组合或项目群下的所有其他Workfront存储项目保持不变。
+      >
+      > 并非所有客户都有这两种类型的文档存储。
+      >
+      >有关详细信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
+
+   1. 查看右侧的以下模板详细信息：
 
       * 模板持续时间
       * 模板所有者
@@ -207,9 +226,17 @@ Old:
 
    如果您在上一步中没有更改模板中定义的所有详细信息，则它们会自动与新创建的项目关联。
 
+   系统会自动在项目的“文档”部分中为Adobe存储项目创建与该项目同名的文档文件夹。
+
 ## 从模板区域中的模板创建项目
 
 您可以从模板开始创建项目，而不是从项目区域开始。
+
+>[!NOTE]
+>
+>与Workfront文档存储关联的模板可创建旧版Workfront存储项目。 与Adobe企业文档存储关联的模板可创建Adobe存储项目。 并非所有客户都有这两种类型的存储。
+>
+>有关详细信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
 {{step1-to-templates}}
 
@@ -233,3 +260,5 @@ Old:
 1. 单击&#x200B;**创建项目**。
 
    如果您在上一步中没有更改模板中定义的所有详细信息，则它们会自动与新创建的项目关联。
+
+   系统会自动在项目的“文档”部分中为Adobe存储项目创建与该项目同名的文档文件夹。

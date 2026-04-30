@@ -9,9 +9,9 @@ feature: Work Management
 exl-id: 70f51e4b-43cc-427a-99e4-ebb056bb1070
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1532'
 ht-degree: 1%
 
 ---
@@ -41,17 +41,17 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">工作投入 </td> 
    <td> <p>手动标签，定义用户完成一项任务需要花费少量、中量还是大量日常工作。
-   <!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-       The level of effort is estimated to be a percentage of the daily amount of working time. (NOTE: keep this drafted. Vazgen said it's not needed, but waiting for feedback from users)
-      </MadCap:conditionalText>
-     -->
-     </p> <p>关于工作投入，请考虑以下事项：</p>
-    <ul> 
-     <li>此字段仅适用于具有简单持续时间类型的任务。 </li> 
-     <li>您可以启用此标签的使用，并在项目级别定义与其关联的工作时间百分比。 </li> 
-    </ul> </td> 
-  </tr> 
+   &lt;!--
+
+    工作量预计为每日工作时间的百分比。 (注意：请保持草稿。 Vazgen说它不是必需的，但正在等待用户的反馈)
+    
+    —>
+    &lt;/p> &lt;p>考虑关于工作投入的以下情况：&lt;/p>
+    &lt;ul>
+    &lt;li>此字段仅适用于具有简单持续时间类型的任务。 &lt;/li>
+    &lt;li>您可以启用此标签的使用，并在项目级别定义与其关联的工作时间百分比。 &lt;/li>
+    &lt;/ul> &lt;/td>
+</tr> 
  </tbody> 
 </table>
 
