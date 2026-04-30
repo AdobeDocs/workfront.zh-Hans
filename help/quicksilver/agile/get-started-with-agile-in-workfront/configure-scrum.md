@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: b271eca3ab0ab09d96f65d2c3c8c400313e57d3d
 workflow-type: tm+mt
-source-wordcount: '1725'
+source-wordcount: '1736'
 ht-degree: 1%
 
 ---
@@ -82,7 +82,8 @@ ht-degree: 1%
 1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 编辑]**。
 
    只有具有[!UICONTROL Standard]、[!UICONTROL 计划]或[!UICONTROL 工作]许可证的团队成员才能看到此选项。
-   ![编辑团队](assets/edit-team-settings-350x205.png)
+
+   ![编辑团队](assets/edit-team-settings-scrum.png)
 
 1. 在&#x200B;**[!UICONTROL Agile]**&#x200B;部分的&#x200B;**[!UICONTROL 估算]**&#x200B;中的故事区域，选择您是要使用点还是小时来估算故事的大小（工作负载）。 如果选择“点”，请指定多少小时等于1点。 （默认值为1点= 8小时。） 这是添加到故事的计划小时数。
 
@@ -106,16 +107,12 @@ ht-degree: 1%
 {{step1-to-team}}
 
 1. 单击&#x200B;**[!UICONTROL 切换团队]**&#x200B;图标![切换团队图标](assets/switch-team-icon.png)，然后从下拉菜单中选择新团队或在搜索栏中搜索团队。
-
 1. 选择要管理的Agile团队。
 1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 编辑]**。
 
    只有拥有[!UICONTROL 计划]或[!UICONTROL 工作]许可证的团队成员才能看到此选项。
 
-   ![编辑团队](assets/edit-team-settings-350x205.png)
-
 1. 在&#x200B;**[!UICONTROL Agile]**&#x200B;部分中，找到&#x200B;**[!UICONTROL 故事板]**&#x200B;区域。
-
 1. （可选）单击&#x200B;**[!UICONTROL 添加列]**&#x200B;以向故事板添加其他状态列。
 1. （可选）使用拖放指示器拖动任意状态列，以重新排列故事板上的状态列。 无法移动第一列，也不能将另一列拖到第一列的前面。
 
@@ -137,7 +134,7 @@ ht-degree: 1%
 
 ### 配置项目的状态列 {#configure-status-columns-for-projects}
 
-有关如何配置项目状态列的信息，请参阅[在[!UICONTROL 中创建或编辑视图一文中的]创建或自定义](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view)Agile[视图 [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)部分。
+有关如何配置项目状态列的信息，请参阅[在 [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)中创建或编辑视图一文中的[创建或自定义[!UICONTROL Agile]视图](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view)部分。
 
 ## 配置要在敏捷故事板上的故事卡上显示的其他字段
 
@@ -164,12 +161,10 @@ ht-degree: 1%
 {{step1-to-team}}
 
 1. 单击&#x200B;**[!UICONTROL 切换团队]**&#x200B;图标![切换团队图标](assets/switch-team-icon.png)，然后从下拉菜单中选择新团队或在搜索栏中搜索团队。
-
 1. 选择要管理的Agile团队。
 1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 编辑]**。
-只有拥有[!UICONTROL 计划]或[!UICONTROL 工作]许可证的团队成员才能看到此选项。
 
-   ![编辑团队](assets/edit-team-settings-350x205.png)
+   只有具有[!UICONTROL Standard]、[!UICONTROL 计划]或[!UICONTROL 工作]许可证的团队成员才能看到此选项。
 
 1. 在&#x200B;**[!UICONTROL Agile]**&#x200B;部分中，键入字段名称以找到它。
 
@@ -188,13 +183,10 @@ ht-degree: 1%
 {{step1-to-team}}
 
 1. 单击&#x200B;**[!UICONTROL 切换团队]**&#x200B;图标![切换团队图标](assets/switch-team-icon.png)，然后从下拉菜单中选择新团队或在搜索栏中搜索团队。
-
 1. 选择要管理的Agile团队。
 1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 编辑]**。
 
-   只有拥有[!UICONTROL 计划]或[!UICONTROL 工作]许可证的团队成员才能看到此选项。
-
-   ![编辑团队](assets/edit-team-settings-350x205.png)
+   只有具有[!UICONTROL Standard]、[!UICONTROL 计划]或[!UICONTROL 工作]许可证的团队成员才能看到此选项。
 
 1. 在[!UICONTROL Agile]部分的[!UICONTROL 将卡片颜色关联到]区域，从以下选项中选择：
 
@@ -209,7 +201,6 @@ ht-degree: 1%
         如果系统管理员为[!DNL Workfront]系统配置了自定义优先级，则最高优先级为红色，第二高为黄色，第三高为绿色。
    * **[!UICONTROL 任务所有者]**：具有相同主要被分配人的所有故事都是相同的颜色。 主要被分配者是首次分配至任务的用户。
 
-
 1. 单击&#x200B;**[!UICONTROL 保存更改]**。
 
 ## 配置将工作项添加到开发周期时应用日期的方式
@@ -220,12 +211,15 @@ ht-degree: 1%
 
 1. （可选）单击&#x200B;**[!UICONTROL 切换团队]**&#x200B;图标![切换团队图标](assets/switch-team-icon.png)，然后从下拉菜单中选择新的Scrum团队或在搜索栏中搜索团队。
 1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 编辑]**。
-只有拥有[!UICONTROL 计划]或[!UICONTROL 工作]许可证的团队成员才能看到此选项。
-1. 在[!UICONTROL Agile]部分的[!UICONTROL 将工作项添加到开发周期]区域时，从以下选项中选择：
+
+   只有具有[!UICONTROL Standard]、[!UICONTROL 计划]或[!UICONTROL 工作]许可证的团队成员才能看到此选项。
+
+1. 在[!UICONTROL Agile]部分的&#x200B;[!UICONTROL **将工作项添加到开发周期**]&#x200B;区域时，从以下选项中选择：
 
    * **[!UICONTROL 修改规划开始日期和规划完成日期以匹配迭代开始日期和结束日期]**：将工作项添加到迭代时，工作项日期将更改为迭代日期。
 
-     有关如何修改日期的更多信息，请参阅[将故事添加到现有迭代](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understand-how-adding-stories-affects-task-dates)一文中的[了解添加故事如何影响任务日期](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)部分。
+     有关如何修改日期的更多信息，请参阅[将故事添加到现有迭代](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)一文中的[了解添加故事如何影响任务日期](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understand-how-adding-stories-affects-task-dates)部分。
+
    * **[!UICONTROL 不修改规划开始日期和规划完成日期以匹配迭代开始日期和结束日期]**：将工作项添加到迭代时，工作项保留其原始日期。
 
    如果更改日期选项，则不会调整迭代中已存在的工作项的日期。
