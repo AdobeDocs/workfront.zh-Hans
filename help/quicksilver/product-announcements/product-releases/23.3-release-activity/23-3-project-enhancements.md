@@ -34,4 +34,4 @@ ht-degree: 0%
 
 已从项目、任务和问题的更多菜单中提取共享选项，以使共享更直观。 现在，新的共享按钮显示在对象名称旁边，紧靠更多菜单之前。 共享文档、项目组合和项目群保持不变。
 
-有关共享对象的详细信息，请参阅[共享对象](https://experienceleague.adobe.com/en/docs/workfront/using/basics/grant-request-object-permissions/share-an-object)。
+有关共享对象的详细信息，请参阅[共享对象](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/basics/grant-request-object-permissions/share-an-object)。
