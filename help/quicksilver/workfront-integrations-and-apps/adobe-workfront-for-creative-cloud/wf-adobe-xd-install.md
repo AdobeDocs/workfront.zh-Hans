@@ -8,9 +8,9 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '502'
 ht-degree: 5%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 5%
   -->
   <tr> 
    <td role="rowheader">其他产品</td> 
-   <td><p>除了[!DNL Adobe Creative Cloud]许可证，您还必须具有[!DNL Workfront]许可证。</p></td> 
+   <td><p>除了[!DNL Workfront]许可证，您还必须具有[!DNL Adobe Creative Cloud]许可证。</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -73,11 +73,11 @@ ht-degree: 5%
 
 [在此观看视频教程](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}。
 
-[!DNL Adobe Admin Console]管理员还可以创建仅用于分发给用户的插件包。 有关详细信息，请参阅[中的 [!DNL Adobe Workfront] 为您的用户创建[!UICONTROL [!DNL Creative Cloud]]  for [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)包
+[!DNL Adobe Admin Console]管理员还可以创建仅用于分发给用户的插件包。 有关详细信息，请参阅 [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)中的[为您的用户创建[！UICONTROL [!DNL Adobe Workfront]  for [!DNL Creative Cloud]] 包
 
 ## 单独安装[!DNL Adobe Workfront for XD]插件
 
-您可以从[!DNL Adobe Workfront for XD]中自行安装[!DNL Adobe Exchange]插件。
+您可以从[!DNL Adobe Exchange]中自行安装[!DNL Adobe Workfront for XD]插件。
 
 1. 转到Adobe Exchange上的[Adobe Workfront for XD安装页面](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&workflow=share)。
 1. 在出现的对话框中，单击&#x200B;**打开[!DNL Adobe Creative Cloud]桌面应用程序**。
@@ -141,4 +141,3 @@ ht-degree: 5%
 
 1. 输入您的Workfront域。 域必须是`company-name.my.workfront.com`而不是`experience.adobe.com`。
 
-如果您在Adobe Unified Experience上，要查找您的Workfront域，请转到

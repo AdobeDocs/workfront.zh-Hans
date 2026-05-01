@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453d4862883e299fea46b3dfe94548375bfc4209
+source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
 workflow-type: tm+mt
-source-wordcount: '3846'
+source-wordcount: '3890'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,12 @@ ht-degree: 0%
 
 ![显示统一审阅和批准工作流的图表，其中项目协调员管理Workfront中的工作，审阅者和批准者在Frame.io查看器中提供反馈并做出决策。](assets/Unified-Review-Approvals-Image.png)
 
+<!--
+## Integration requirements
 
-## 集成要求
+* The Workfront instance must be enabled on the Adobe Unified Experience.
 
-* 必须在Adobe Unified Experience上启用Workfront实例。
-
+-->
 
 ## 构建于Adobe企业级存储之上
 
@@ -78,7 +79,7 @@ Adobe企业存储的主要优势包括：
 
 #### Frame.io查看器支持的文件类型
 
-Frame.io查看器支持所有常见视频、图像、音频、PDF和MS® Office类型。 有关支持的文件的详细列表，请参阅Frame.io[上的](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)支持的文件类型。
+Frame.io查看器支持所有常见视频、图像、音频、PDF和MS® Office类型。 有关支持的文件的详细列表，请参阅Frame.io](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)上的[支持的文件类型。
 
 #### Frame.io查看器的访问和许可
 
@@ -100,7 +101,7 @@ Workfront校对功能在此集成中不可用。
 
 * 如果项目和项目属于同一项目组合，则它们不能具有相同的名称。
 * 如果文档属于同一项目，则不能具有相同的名称。
-* 对象名称不能包含以下任何特殊字符： \ / ： * ？ “ | &lt; >
+* 对象名称不能包含以下任何特殊字符： \ / ： * ？ &quot; | &lt; >
 * 对象名称限制为最多255个字符。
 
 考虑到这些限制，Workfront会根据需要自动重命名对象或文档，以防止冲突。
@@ -134,7 +135,7 @@ Workfront校对功能在此集成中不可用。
 
 ### Workfront中的文档管理
 
-上传到Workfront的文档存储在Adobe企业存储中，可在Workfront和Frame.io中访问。 在Workfront中将文档上传到任务或问题时，系统会在Adobe企业存储中创建一个系统生成的文件夹，该文件夹继承任务或问题的权限。 上传到该任务或问题的所有文档都存储在该文件夹中，并从该文件夹继承权限。 有关Workfront中文档的更多信息，请参阅[新文档区域概述](/help/quicksilver/documents/managing-documents/documents-area.md)和[Adobe企业存储模型的对象权限和访问级别概述](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)。
+上传到Workfront的文档存储在Adobe企业存储中，可在Workfront和Frame.io中访问。 在Workfront中将文档上传到任务或问题时，系统会在Adobe企业存储中创建一个系统生成的文件夹，该文件夹继承任务或问题的权限。 上传到该任务或问题的所有文档都存储在该文件夹中，并从该文件夹继承权限。 有关Workfront中文档的更多信息，请参阅[新的文档区域概述](/help/quicksilver/documents/managing-documents/documents-area.md)和[Adobe企业存储模型的对象权限和访问级别概述](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)。
 
 ### 文档体验限制
 
@@ -178,13 +179,13 @@ Workfront校对功能在此集成中不可用。
 
 **我是否需要Frame.io许可证才能使用此集成？**
 
-不可以。对于拥有付费许可证的所有Workfront用户，Frame.io查看器会自动包含在内，无需额外付费。 您不需要单独的Frame.io许可证即可通过Workfront审查和批准资源。
+不可以。 对于拥有付费许可证的所有Workfront用户，Frame.io查看器会自动包含在内，无需额外付费。 您不需要单独的Frame.io许可证即可通过Workfront审查和批准资源。
 
 如果您的组织希望访问其他Frame.io功能（如将资产直接上传到Frame.io中的项目），则可以购买Frame.io Enterprise许可证。 请联系您的Adobe客户代表以了解更多信息。
 
 **它是否取代Workfront Proof？**
 
-可以。启用统一审阅和批准后，Frame.io查看器将成为Workfront中的主要审阅界面，取代Workfront Proof。
+可以。 启用统一审阅和批准后，Frame.io查看器将成为Workfront中的主要审阅界面，取代Workfront Proof。
 
 对于在启用集成之前创建的任何项目，现有客户将保留对Workfront验证功能的访问权限。
 
@@ -261,7 +262,7 @@ Workfront校对功能在此集成中不可用。
 
 **对视频审阅是否有任何限制？**
 
-可以。视频验证请求的年度上限设置为贵组织总付费Workfront用户许可证（标准和轻量级）的10%。 此上限适用于组织级别。
+可以。 视频验证请求的年度上限设置为贵组织总付费Workfront用户许可证（标准和轻量级）的10%。 此上限适用于组织级别。
 
 当使用率达到上限的80%和100%时，Workfront管理员将收到应用程序内通知。
 
@@ -269,11 +270,11 @@ Workfront校对功能在此集成中不可用。
 
 **同一用户能否出现在审批工作流的多个阶段？**
 
-可以。一个用户可以分配到同一审批工作流中的多个阶段。
+可以。 一个用户可以分配到同一审批工作流中的多个阶段。
 
 **我可以添加阶段以创建多阶段审批工作流吗？**
 
-可以。支持多阶段审批工作流，允许您在每个阶段通过由不同参与者进行的连续轮次审阅和审批来路由资产。
+可以。 支持多阶段审批工作流，允许您在每个阶段通过由不同参与者进行的连续轮次审阅和审批来路由资产。
 
 <!--
 **Can I modify the trigger for a later stage---for example, based on all approved versus the due date ending?**
@@ -299,7 +300,7 @@ For both single-stage and multi-stage reviews, automated reminder emails are sen
 
 **当审批者有需要审核的内容时，是否会通过电子邮件通知他们？**
 
-可以。批准者和审阅者会在被分配到审阅或批准任务时收到电子邮件通知。 自动提醒电子邮件也会在截止日期前72小时、前24小时以及截止日期本身发送。
+可以。 批准者和审阅者会在被分配到审阅或批准任务时收到电子邮件通知。 自动提醒电子邮件也会在截止日期前72小时、前24小时以及截止日期本身发送。
 
 自定义电子邮件通知消息的功能目前不可用，但位于产品路线图中。
 
@@ -317,7 +318,7 @@ No. Notification frequency settings such as receiving all comments, only replies
 
 **评论是否可以标记为已解决？**
 
-可以。可在Frame.io查看器中将注释标记为已解决。
+可以。 可在Frame.io查看器中将注释标记为已解决。
 
 **Frame.io查看器中提供了哪些标记和注释工具？**
 
@@ -343,7 +344,7 @@ Frame.io查看器包括一组完整的可视标记工具，其中包括手绘绘
 
 **我是否可以在外部与无权访问Workfront的利益相关者共享资源？**
 
-可以。Assets可以在外部共享。 系统会通过电子邮件通知外部用户，并提示外部用户创建Frame.io登录以访问查看器并参与审核。
+可以。 Assets可以在外部共享。 系统会通过电子邮件通知外部用户，并提示外部用户创建Frame.io登录以访问查看器并参与审核。
 
 <!--
 **Before unified review and approval, is a reviewer just directed to a proof?**
@@ -393,7 +394,7 @@ Adobe企业存储的主要优势包括：
 
 **文件和项目是否有命名或结构要求？**
 
-可以。由于该集成使用Adobe企业存储，因此适用以下约定：
+可以。 由于该集成使用Adobe企业存储，因此适用以下约定：
 
 * 如果项目和项目属于同一项目组合，则它们不能具有相同的名称。
 
@@ -463,7 +464,7 @@ Frame.io专为创意评论而构建，这意味着它可处理营销和创意团
 
 **我能否将批准的资源发送到Adobe Experience Manager (AEM)？**
 
-可以。资产完成审阅和批准周期后，您可以将其转移到Adobe Experience Manager Assets进行最终存储和分发。 这会将Workfront工作管理、Frame.io审查和AEM数字资产管理连接到一个统一的内容supply chain。
+可以。 资产完成审阅和批准周期后，您可以将其转移到Adobe Experience Manager Assets进行最终存储和分发。 这会将Workfront工作管理、Frame.io审查和AEM数字资产管理连接到一个统一的内容supply chain。
 
 有关详细信息，请参阅。有关详细信息，请参阅[将Adobe Experience Manager与Frame.io集成一起使用](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)。
 
@@ -503,7 +504,7 @@ Before signing the V2 SKU contract, your Workfront instance will continue to ope
 
 **升级到V2 SKU是否为我提供了更多存储空间？**
 
-可以。使用V2 SKU，每个获得许可的用户可接收60 GB的存储，而上一版本中为30 GB。
+可以。 使用V2 SKU，每个获得许可的用户可接收60 GB的存储，而上一版本中为30 GB。
 
 **如何在Adobe企业级存储与旧版Workfront存储之间进行选择？**
 
@@ -566,15 +567,15 @@ Because the Frame.io viewer experience is not available in the Workfront sandbox
 
 **我是否需要Workfront Fusion才能使用统一的审阅和批准？**
 
-不可以。统一审查和批准是本机产品集成，不需要Fusion。 工作流直接内置到Workfront中。
+不可以。 统一审查和批准是本机产品集成，不需要Fusion。 工作流直接内置到Workfront中。
 
 **Fusion Connectors是否可以进行统一审核和批准？**
 
-可以。用于统一审阅和批准的融合操作目前正在开发中，预计将在第三季度提供。 查看Experience League上的Workfront发行说明，了解更新何时可用。
+可以。 用于统一审阅和批准的融合操作目前正在开发中，预计将在第三季度提供。 查看Experience League上的Workfront发行说明，了解更新何时可用。
 
 **Fusion能否在上传文档时自动触发审阅？**
 
-可以。通过将Workfront Webhook与Fusion结合使用，可以实现这种类型的自动化。
+可以。 通过将Workfront Webhook与Fusion结合使用，可以实现这种类型的自动化。
 
 **在Workfront Proof上构建的现有Fusion工作流将受到什么影响？**
 

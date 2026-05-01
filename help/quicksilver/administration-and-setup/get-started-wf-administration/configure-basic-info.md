@@ -10,9 +10,9 @@ role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
 last-update: 2026-04-29T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: c298b21e74abc6ac7bed2c8fa4c5a0dc0f6c6237
+source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '766'
 ht-degree: 4%
 
 ---
@@ -68,30 +68,15 @@ ht-degree: 4%
 
    “客户信息”区域中提供的部分包括：
 
-* **基本信息**
+   | 部分 | 更多信息 |
+   |---------|-----------------|
+   | **基本信息** | 有关在Workfront中配置基本信息的信息，请参阅[配置基本信息](#configure-basic-info)。 |
+   | <span class="preview">**存储概述**</span> | <span class="preview">有关检查文档存储使用量和配额的信息，请参阅[检查文档存储限制](../../documents/managing-documents/check-document-storage.md)。</span> |
+   | **API密钥设置** | 有关API密钥设置的信息，请参阅[管理API密钥](../../administration-and-setup/manage-workfront/security/manage-api-keys.md)。 |
+   | **IP 允许列表** | 有关将IP地址添加到用户可访问Workfront的允许列表的信息，请参阅[配置防火墙的允许列表](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。 |
+   | **电子邮件允许列表** | 有关向允许列表添加电子邮件的信息，请参阅[配置电子邮件](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)。 |
 
-  有关在Workfront中配置基本信息的信息，请参阅[配置基本信息](#configure-basic-info)。
-
-
-
-* <span class="preview">**存储概述**
-
-  有关检查文档存储使用量和配额的信息，请参阅[检查文档存储限制](../../documents/managing-documents/check-document-storage.md)。</span>
-
-
-* **API密钥设置**
-
-  有关API密钥设置的信息，请参阅[管理API密钥](../../administration-and-setup/manage-workfront/security/manage-api-keys.md)。
-
-* **IP 允许列表**
-
-  有关将IP地址添加到用户可访问Workfront的允许列表的信息，请参阅[配置防火墙的允许列表](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
-
-* **电子邮件允许列表**
-
-  有关向允许列表添加电子邮件的信息，请参阅[配置电子邮件](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)。
-
-<!--
+   <!--
    * **License**
 
      For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).

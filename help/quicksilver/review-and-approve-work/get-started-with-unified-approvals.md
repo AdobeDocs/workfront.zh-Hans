@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453d4862883e299fea46b3dfe94548375bfc4209
+source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,11 @@ ht-degree: 0%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3471078)
 
-## 集成要求
+<!--
+## Integration requirements
 
-* 必须在Adobe Unified Experience上启用Workfront实例。
+* The Workfront instance must be enabled on the Adobe Unified Experience.
+-->
 
 ## Workfront中的工作启动和规划
 

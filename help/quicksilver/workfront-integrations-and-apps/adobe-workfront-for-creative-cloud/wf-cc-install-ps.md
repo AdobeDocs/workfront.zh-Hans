@@ -6,16 +6,16 @@ description: 您可以从Adobe Workfront Marketplace安装适用于Photoshop的A
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 61e5b763ec527aeb846e975e06842dc2c4c69918
+source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 2%
+source-wordcount: '592'
+ht-degree: 4%
 
 ---
 
 # 安装并打开[!DNL Adobe Workfront for Photoshop]
 
-您可以从[!DNL Adobe Workfront for Photoshop]安装[!DNL Adobe Marketplace]插件。 插件支持以下语言：
+您可以从[!DNL Adobe Marketplace]安装[!DNL Adobe Workfront for Photoshop]插件。 插件支持以下语言：
 
 * 英语
 * 法语
@@ -28,9 +28,9 @@ ht-degree: 2%
 * 繁体中文
 * 韩语
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +38,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader">其他产品</td> 
-   <td><p>除了[!DNL Adobe Creative Cloud]许可证，您还必须具有[!DNL Workfront]许可证。</p></td> 
+   <td><p>除了[!DNL Workfront]许可证，您还必须具有[!DNL Adobe Creative Cloud]许可证。</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,11 +57,11 @@ ht-degree: 2%
 
 [在此观看视频教程](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}。
 
-[!DNL Adobe Admin Console]管理员还可以创建仅用于分发给用户的插件包。 有关详细信息，请参阅[中的 [!DNL Adobe Workfront] 为您的用户创建[!UICONTROL [!DNL Creative Cloud]]  for [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)包
+[!DNL Adobe Admin Console]管理员还可以创建仅用于分发给用户的插件包。 有关详细信息，请参阅 [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)中的[为您的用户创建[！UICONTROL [!DNL Adobe Workfront]  for [!DNL Creative Cloud]] 包
 
 ## 单独安装[!DNL Adobe Workfront for Photoshop]插件
 
-您可以从[!DNL Adobe Workfront for Photoshop]中自行安装[!DNL Adobe Exchange]插件。
+您可以从[!DNL Adobe Exchange]中自行安装[!DNL Adobe Workfront for Photoshop]插件。
 
 1. 转到Adobe Exchange上的[Adobe Workfront for Photoshop安装页面](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&workflow=share)。
 1. 在出现的对话框中，单击&#x200B;**打开[!DNL Adobe Creative Cloud]桌面应用程序**。
@@ -133,9 +133,9 @@ ht-degree: 2%
 
    >[!TIP]
    >
-   >在Mac上，转到Finder，按&#x200B;**Command+Shift+。**&#x200B;要显示隐藏文件夹，请导航到&#x200B;**/Users//Library/Application Support**，然后删除&#x200B;**Workfront**&#x200B;文件夹。
+   >在Mac上，转到Finder，按&#x200B;**Command+Shift+.** 要显示隐藏文件夹，请导航到&#x200B;**/Users//Library/Application Support**，然后删除&#x200B;**Workfront**&#x200B;文件夹。
 
 
 1. 导航回插件，然后输入您的Workfront域。 域必须是`company-name.my.workfront.com`而不是`experience.adobe.com`。
 
-   如果您在Adobe Unified Experience，要[查找您的Workfront域](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md)，请转到“设置”，“客户信息”。
+   要[查找您的Workfront域](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md)，请转到“设置”，“客户信息”。
