@@ -79,7 +79,7 @@ Adobe企业存储的主要优势包括：
 
 #### Frame.io查看器支持的文件类型
 
-Frame.io查看器支持所有常见视频、图像、音频、PDF和MS® Office类型。 有关支持的文件的详细列表，请参阅Frame.io](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)上的[支持的文件类型。
+Frame.io查看器支持所有常见视频、图像、音频、PDF和MS® Office类型。 有关支持的文件的详细列表，请参阅Frame.io[&#128279;](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)上的支持的文件类型。
 
 #### Frame.io查看器的访问和许可
 
