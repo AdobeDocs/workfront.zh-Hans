@@ -2,22 +2,22 @@
 product-area: workfront-navigation
 navigation-topic: workfront-navigation
 title: 适用于 [!DNL Workfront]的Adobe Unified Experience
-description: 通过Adobe Experience Cloud访问 [!DNL Workfront] 可为您提供管理所有Adobe应用程序的无缝、统一的体验。
+description: 通过Adobe CX Enterprise访问 [!DNL Workfront] 可为您提供管理所有Adobe应用程序的无缝、统一的体验。
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: d9d6d572840f5691888d0db3242f3908978079b3
+source-git-commit: 4dd591c034e1c84ef3bda64d12b6920fbdd33c26
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '697'
 ht-degree: 3%
 
 ---
 
-# [!DNL Adobe Unified Experience]的[!DNL Workfront]
+# [!DNL Workfront]的[!DNL Adobe Unified Experience]
 
 <!--Audited: 10/2024-->
 
-通过[!DNL Workfront]访问[!DNL Adobe Experience Cloud]可为您提供管理所有[!DNL Adobe]应用程序的无缝、统一的体验。 单一身份管理为您提供了一个登录位置，无需使用多个URL或登录ID。
+通过[!DNL Adobe CX Enterprise]访问[!DNL Workfront]可为您提供管理所有[!DNL Adobe]应用程序的无缝、统一的体验。 单一身份管理为您提供了一个登录位置，无需使用多个URL或登录ID。
 
 ## 访问权限要求
 
@@ -53,16 +53,16 @@ ht-degree: 3%
 
 作为迁移到Adobe Unified Experience的一部分，您的组织现在使用Adobe的Identity Management System来验证用户。 这意味着您是通过Adobe登录Workfront，而不是直接登录Workfront。 Adobe IMS还要求Workfront管理员在Adobe Admin Console中而不是在Workfront中处理用户管理。
 
-有关在Adobe Unified Experience中登录Workfront的信息，请参阅本文中的[登录Adobe Experience Cloud](#log-in-to-adobe-experience-cloud)。
+有关在Adobe Unified Experience中登录Workfront的信息，请参阅本文中的[登录Adobe CX Enterprise](#log-in-to-adobe-cx-enterprise)。
 
 有关Adobe Admin Console中的用户管理的信息，请参阅文章[在Adobe Admin Console中管理用户](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)。
 
-## 登录 [!DNL Adobe Experience Cloud]
+## 登录 [!DNL Adobe CX Enterprise]
 
 1. 打开浏览器窗口并转到<https://experience.adobe.com>。
 1. 在&#x200B;[!UICONTROL **登录**]&#x200B;屏幕上，键入您的电子邮件地址，然后单击&#x200B;**[!UICONTROL 继续]**。
 
-   ![登录到[!DNL Adobe Experience Cloud]](assets/aec-login-page.png)
+   ![登录到[!DNL Adobe CX Enterprise]](assets/aec-login-page.png)
 
 >[!NOTE]
 >
@@ -70,21 +70,21 @@ ht-degree: 3%
 
 ## 访问[!DNL Workfront]
 
-登录到[!DNL Adobe Experience Cloud]后，您可以通过单击顶部导航区域中的组织切换器，查看您有权访问的所有[!DNL Workfront]组织和环境。 选择要使用的[!DNL Workfront]组织或环境。 如果您的组织使用[!UICONTROL 预览]和[!UICONTROL 沙盒]环境。
+登录到[!DNL Adobe CX Enterprise]后，您可以通过单击顶部导航区域中的组织切换器，查看您有权访问的所有[!DNL Workfront]组织和环境。 选择要使用的[!DNL Workfront]组织或环境。 如果您的组织使用[!UICONTROL 预览]和[!UICONTROL 沙盒]环境。
 
-![查看[!DNL Workfront]组织和环境](assets/aec-view-all-orgs.png)
+![查看[!DNL Workfront]组织和环境](assets/wf-org-instance-switcher-2026.png)
 
 >[!NOTE]
 >
->首次登录到[!DNL Adobe Experience Cloud]时，组织将默认为按字母顺序排列的第一个组织。 下次登录时，组织将默认为您访问的最后一个组织。
+>首次登录到[!DNL Adobe CX Enterprise]时，组织将默认为按字母顺序排列的第一个组织。 下次登录时，组织将默认为您访问的最后一个组织。
 
-[!DNL Workfront]出现在您有权访问的[!DNL Adobe Experience Cloud]产品的列表中。 您可以在[!DNL Workfront]主页上的快速访问菜单中选择[!DNL Experience Cloud]，或者使用产品切换器![产品切换器](assets/main-menu-icon.png)随时更改应用程序。
+[!DNL Workfront]出现在您有权访问的[!DNL Adobe CX Enterprise]产品的列表中。 您可以在[!DNL CX Enterprise]主页上的快速访问菜单中选择[!DNL Workfront]，或者使用产品切换器![产品切换器](assets/main-menu-icon.png)随时更改应用程序。
 
-![选择[!DNL Workfront]以访问应用程序](assets/aec-product-switcher.png)
+![选择[!DNL Workfront]以访问应用程序](assets/cx-enterprise-home-2026.png)
 
 ## 导航[!DNL Workfront]
 
-使用[!UICONTROL 导航栏左侧的]主菜单![图标](assets/main-menu-icon-left-nav.png)主菜单图标[!DNL Workfront]导航到您有权访问的任何页面。 [!UICONTROL 主菜单]中可用的选项依赖于：
+使用[!DNL Workfront]导航栏左侧的[!UICONTROL 主菜单]图标![主菜单图标](assets/main-menu-icon-left-nav.png)导航到您有权访问的任何页面。 [!UICONTROL 主菜单]中可用的选项依赖于：
 
 * **布局模板配置**：要了解[!DNL Workfront]管理员如何从布局模板修改[!UICONTROL 主菜单]，请参阅[使用布局模板自定义[!UICONTROL 主菜单]](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)。
 * **许可证类型**：要了解不同许可证类型的默认配置，请参阅[了解[!UICONTROL 轻量级]许可证用户的导航](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)或[了解[!UICONTROL 工作]许可证用户的导航](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)。
@@ -95,23 +95,25 @@ ht-degree: 3%
 
 您可以通过单击顶部导航区域中的Adobe帐户菜单（您的配置文件图片），访问您的配置文件和首选项选项。
 
-![配置文件菜单](assets/aec-profile-picture-menu.png)
+![配置文件菜单](assets/unified-shell-profile-menu-2026.png)
 
 此菜单允许您：
 
-* 为&#x200B;**[!UICONTROL 选择]**&#x200B;深色主题[!DNL Adobe Experience Cloud]格式。
-* 为&#x200B;**[!UICONTROL 设置]**&#x200B;首选项[!DNL Adobe Experience Cloud]，包括主要语言首选项和次要语言首选项。
+* 为[!DNL Adobe CX Enterprise]选择&#x200B;**[!UICONTROL 深色主题]**&#x200B;格式。
+* 为[!DNL Adobe CX Enterprise]设置&#x200B;**[!UICONTROL 首选项]**，包括主要语言首选项和次要语言首选项。
+
   >[!NOTE]
   >
   >您的日期设置基于您的主要语言设置。 例如，选择&#x200B;**英语（美国）**&#x200B;会以MM/DD/YYYY格式显示日期，而选择&#x200B;**英语（英国）**&#x200B;则会以DD/MM/YYYY格式显示日期。
+
 * 访问您的&#x200B;**[!UICONTROL [!DNL Workfront]配置文件]**。 进入配置文件后，单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单![更多](assets/more-icon.png)，然后选择&#x200B;**[!UICONTROL 编辑]**。 有关配置文件的详细信息，请参阅[配置我的设置](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)。
-* **[!UICONTROL 注销]** Adobe Experience Cloud。
+* **[!UICONTROL 注销]**/[!DNL Adobe CX Enterprise]。
 
 ## 管理您的密码
 
 >[!NOTE]
 >
->更改密码会更改所有[!DNL Adobe Experience Cloud]应用程序的密码。
+>更改密码会更改所有[!DNL Adobe CX Enterprise]应用程序的密码。
 
 您的密码未在[!DNL Workfront]中进行管理。
 
@@ -119,7 +121,7 @@ ht-degree: 3%
 
 如果您的密码由[!DNL Adobe]管理，则可以在Adobe帐户中更改密码。
 
-[请参阅这篇文章以更改您的Adobe密码。](https://helpx.adobe.com/cn/manage-account/using/change-or-reset-password.html){target="_blank"}
+[请参阅本文，了解如何更改您的Adobe密码。](https://helpx.adobe.com/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
 
 有关更改密码的详细信息，请与管理员联系。
 

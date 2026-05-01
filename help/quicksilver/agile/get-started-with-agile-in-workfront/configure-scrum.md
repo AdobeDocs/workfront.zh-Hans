@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b271eca3ab0ab09d96f65d2c3c8c400313e57d3d
+source-git-commit: 4dd591c034e1c84ef3bda64d12b6920fbdd33c26
 workflow-type: tm+mt
-source-wordcount: '1736'
+source-wordcount: '1733'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 * 故事的估计单位是点还是小时
 * 敏捷故事板上的迭代和项目状态列
-* 要在敏捷故事板上的故事卡上显示的其他字段
+* 要在敏捷故事板卡上显示的附加字段
 * 颜色指示器如何用于敏捷故事板上的故事
 * 将工作项添加到开发周期时如何应用日期
 
