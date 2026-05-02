@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: a63ec4e0-ba39-42c1-8061-c29350ef4bbb
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 5f254f051704e3b986daa5748f2fb198de472059
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '139'
 ht-degree: 1%
 
 ---
@@ -40,3 +40,4 @@ ht-degree: 1%
 * [项目限制概述](../../../manage-work/projects/manage-projects/project-maximums.md)
 * [了解项目量度](../../../manage-work/projects/manage-projects/project-metrics.md)
 * [使用AI助手汇总更新](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
+* [项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)
