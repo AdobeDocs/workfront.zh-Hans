@@ -1,13 +1,12 @@
 ---
 title: 画布功能板概述
 description: 您可以创建画布功能板，它将报告画布可视化与传统报告集成在一起，并配有新的布局选项。
-hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---

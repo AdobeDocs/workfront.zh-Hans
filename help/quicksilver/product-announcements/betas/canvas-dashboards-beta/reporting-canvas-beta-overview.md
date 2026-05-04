@@ -5,14 +5,13 @@ title: 报告画布测试版：概述
 description: 有关即将推出的Adobe Workfront报表画布工具的Beta版计划的信息
 author: Courtney
 feature: Product Announcements
-hidefromtoc: true
 hide: true
 exl-id: 5767ef7d-1bc3-40d8-abeb-02b15166a0a3
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1068'
 ht-degree: 1%
 
 ---
@@ -118,7 +117,7 @@ ht-degree: 1%
 
 +++在Beta测试期间，如果Reporting Canvas中出现问题，我组织的数据是否会受到影响？
 
-不可以。测试版使用填充到报告画布中的贵组织数据副本。 虽然这意味着您可以在测试期间安全地试验而不会影响重要数据，但这也意味着在正式发布之前，在报告画布中在线编辑数据将不可用。
+不可以。 测试版使用填充到报告画布中的贵组织数据副本。 虽然这意味着您可以在测试期间安全地试验而不会影响重要数据，但这也意味着在正式发布之前，在报告画布中在线编辑数据将不可用。
 +++
 
 +++加入Beta后，我可以选择退出Beta吗？

@@ -8,9 +8,8 @@ feature: Product Announcements
 role: User, Admin
 recommendations: noDisplay, noCatalog
 hide: true
-hidefromtoc: true
 exl-id: 08aea7a6-1ce2-46d9-9807-c94526851655
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%

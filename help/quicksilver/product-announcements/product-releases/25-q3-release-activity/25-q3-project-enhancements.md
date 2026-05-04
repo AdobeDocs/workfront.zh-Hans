@@ -5,11 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 hide: true
-hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '913'
 ht-degree: 0%
 
 ---
@@ -31,7 +30,7 @@ ht-degree: 0%
 我们更新了在新请求体验中提出请求时的体验。
 
 * 可用的请求表单和路径显示在列表中，而不是卡片中。 最近一次出现在顶部附近的部分中。
-* 所有请求表单(包括Workfront和Workfront Planning请求表单)都会显示在列表中。 以前，只有前50个报表点出现。
+* 所有请求表单（包括Workfront和Workfront Planning请求表单）都会显示在列表中。 以前，只有前50个报表点出现。
 * 请求路径和请求表单分别在“最近”区域以及下面较大的列表中列出。
 * 搜索请求队列时，列表会过滤以仅显示包含搜索词的表单和路径。 每个显示的请求表单或路径中都会突出显示搜索词。
 
@@ -54,12 +53,12 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >根据记录小时数的时间，项目、任务或问题的实际小时数和旧版实际小时数之间可能存在差异。<br>
->&#x200B;>存在以下情况：
+>存在以下情况：
 >
 >* 实际小时数表示自2021年5月以来为项目、任务和问题记录的小时数。
 >* 旧版实际小时数表示在项目、任务或问题的生命周期内为项目、任务和问题记录的小时数。 这包括2021年5月之前记录到当前时间的小时数。
->  &#x200B;><br>您可能需要更新报表以反映新字段及其值。
->  &#x200B;><br>Workfront使用旧版实际小时数计算实际劳力成本。
+><br>您可能需要更新报表以反映新字段及其值。
+><br>Workfront使用旧版实际小时数计算实际劳力成本。
 
 有关信息，请参阅[查看实际小时数](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md)。
 

@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: de64f43d115c3f1c563fde761e5776b7213ae55f
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
 source-wordcount: '14083'
 ht-degree: 2%
@@ -56,7 +56,7 @@ ht-degree: 2%
       * 2025年第三季度发行 {#release-25-q3}
          * [2025年第三季度发行概述](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
          * [校对和文档管理增强功能](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md)
-         * [项目增强功能](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md)
+         * {hide-from-toc}[项目增强功能](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md)
          * [主页增强功能](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-home-enhancements.md)
          * [报表增强功能](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md)
          * [更新和通知增强功能](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-update-and-notification-enhancements.md)
@@ -246,9 +246,9 @@ ht-degree: 2%
          * [Adobe Workfront Planning 2025年第一季度发布活动](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
          * [Adobe Workfront Planning 2024年第四季度发布活动](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
       * Adobe Workfront有限可用性发布活动{#limited-availability-release-activity}
-         * [Adobe Workfront有限可用性功能发布活动](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md)
-         * [Adobe Workfront有限可用功能的2026年第一季度发布活动](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
-         * [Adobe Workfront有限可用功能的2026年第二季度发布活动](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q2.md)
+         * {hide-from-toc}[Adobe Workfront有限可用性功能发布活动](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md)
+         * {hide-from-toc}[Adobe Workfront有限可用性功能的2026年第一季度发布活动](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
+         * {hide-from-toc}[Adobe Workfront有限可用性功能的2026年第二季度发布活动](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q2.md)
       * Adobe Workfront Scenario Planner发布活动 {#scenario-planner-release}
          * [Adobe Workfront Scenario Planner发布活动](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
          * [带有21.3版本的Adobe Workfront Scenario Planner](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
@@ -429,13 +429,13 @@ ht-degree: 2%
       * [Beta项目](product-announcements/betas/betas.md)
       * Canvas Dashboards测试版 {#canvas-dashboards-beta}
          * [Canvas功能板测试版信息](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
-         * [报告画布测试版概述](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
-         * [Canvas Dashboards测试版：发布活动](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
+         * {hide-from-toc}[报告画布测试版概述](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
+         * {hide-from-toc}[Canvas功能板测试版：发布活动](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
       * 新的评论体验测试版 {#new-commenting-experience-beta}
-         * [新增评论测试版体验信息](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
-         * [新的评论体验](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
-         * [新的评论体验发布活动](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
-         * [新的评论体验常见问题解答](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
+         * {hide-from-toc}[新评论测试版体验信息](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
+         * {hide-from-toc}[新评论体验](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
+         * {hide-from-toc}[新评论体验发布活动](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
+         * {hide-from-toc}[新评论体验常见问题解答](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
 * 管理和设置 {#administration-and-setup}
    * [管理和设置：文章索引](administration-and-setup/administration-and-setup.md)
    * 管理入门 {#get-started-administration}
@@ -710,8 +710,8 @@ ht-degree: 2%
          * [更改Workfront域](administration-and-setup/manage-workfront/security/change-your-workfront-domain.md)
          * [管理 API 密钥](administration-and-setup/manage-workfront/security/manage-api-keys.md)
          * [隐私政策](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
-         * [增强型身份验证概述](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
-         * [使用增强型身份验证时更新IDP中的SAML 2.0元数据](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
+         * {hide-from-toc}[增强型身份验证概述](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
+         * 使用增强型身份验证时{hide-from-toc}[更新IDP中的SAML 2.0元数据](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
       * 汇率 {#exchange-rates}
          * [汇率](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
          * [设置汇率](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
@@ -854,7 +854,7 @@ ht-degree: 2%
       * [未接受未经身份验证的电子邮件](administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
       * [Workfront：ZScaler 设置可能会导致性能下降](administration-and-setup/tips-tricks-and-troubleshooting/zscaler-affects-performance.md)
       * [用户凭据与SAML凭据](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
-      * [更新访问级别中的自动升级选项](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
+      * {hide-from-toc}[更新访问级别中的自动升级选项](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
 * Adobe Workfront基础知识 {#basics}
    * [Adobe Workfront基础知识：文章索引](workfront-basics/workfront-basics.md)
    * [Adobe Workfront术语表](workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
@@ -910,7 +910,7 @@ ht-degree: 2%
       * [在“优先级”日历中管理您的工作](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md)
    * 主页 {#home}
       * [主页](workfront-basics/using-home/home.md)
-      * [从旧主页移至新主页](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
+      * {hide-from-toc}[从旧主页移动到新主页](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
       * 使用“主页”区域 {#use-home-area}
          * [使用主页区域：文章索引](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
          * [主页入门](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
@@ -958,7 +958,7 @@ ht-degree: 2%
       * [管理附加到对象的自定义表单](workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
    * 使用通知 {#use-notifications}
       * [使用通知：文章索引](workfront-basics/using-notifications/use-notifications.md)
-      * [Experience Cloud通知概述](/help/quicksilver/workfront-basics/using-notifications/exp-cloud-notifications-overview.md)
+      * {hide-from-toc}[Experience Cloud通知概述](/help/quicksilver/workfront-basics/using-notifications/exp-cloud-notifications-overview.md)
       * [通知概述](workfront-basics/using-notifications/wf-notifications.md)
       * [修改您自己的电子邮件通知](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
       * [订阅Adobe Workfront中的项目](workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
@@ -1007,7 +1007,7 @@ ht-degree: 2%
          * [管理您的Adobe Workfront帐户](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
          * [登录到Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)
          * [注销Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-out-of-workfront.md)
-         * [使用增强型身份验证重置用户密码](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md)
+         * {hide-from-toc}[使用增强型身份验证重置用户密码](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md)
          * [接收电子邮件邀请并创建Adobe Workfront密码](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
          * [在 [!DNL Adobe Workfront] 中创建帐户作为外部用户](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
          * [重置密码](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md)
@@ -1175,7 +1175,7 @@ ht-degree: 2%
       * [删除文档](documents/managing-documents/delete-documents.md)
       * [粘贴剪贴板中的图像](documents/managing-documents/paste-image-clipboard.md)
       * [批量编辑文档](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)
-      * [Workfront中的AddBuilder文档详细信息](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
+      * 在Workfront中{hide-from-toc}[AddBuilder文档详细信息](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
    * 组织文档 {#organize-documents}
       * [组织文档](documents/organizing-documents/organize-documents.md)
       * [创建文档文件夹](documents/organizing-documents/create-documents-folder.md)
@@ -1572,7 +1572,7 @@ ht-degree: 2%
 * 报告 {#reporting}
    * [报告和仪表板：文章索引](reports-and-dashboards/reports-and-dashboards-overview.md)
    * 画布仪表板 {#canvas-dashboards}
-      * [画布功能板概述](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
+      * {hide-from-toc}[画布功能板概述](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
       * [使用画布功能板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md)
       * 创建仪表板 {#create-dashboards}
          * [创建画布功能板：文章索引](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards-article-index.md)
@@ -1793,13 +1793,13 @@ ht-degree: 2%
          * [打印功能板](reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md)
          * [共享功能板](reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
          * [从功能板中删除外部页面](reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
-         * [画布功能板概述](reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
+         * {hide-from-toc}[画布功能板概述](reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
    * Workfront数据连接 {#data-lake}
       * [Workfront Data Connect概述](reports-and-dashboards/data-lake/data-lake-overview.md)
       * [为Snowflake创建Reader帐户或连接](reports-and-dashboards/data-lake/create-a-reader-account.md)
       * [建立与Workfront数据连接的连接](reports-and-dashboards/data-lake/share-data-externally.md)
       * [Workfront Data Connect数据字典](reports-and-dashboards/data-lake/data-dictionary.md)
-      * [数据字典测试](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
+      * {hide-from-toc}[数据字典测试](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
       * [Workfront Data Connect查询示例](reports-and-dashboards/data-lake/basic-query-examples.md)
       * [查看Workfront Data Connect使用情况量度](reports-and-dashboards/data-lake/view-usage-metrics.md)
       * [在Data Connect中使用“作业历史记录数据”视图](/help/quicksilver/reports-and-dashboards/data-lake/use-the-job-history-data.md)
@@ -1870,7 +1870,7 @@ ht-degree: 2%
    * [统一审查和批准概述](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
    * [统一审查和批准入门](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
    * [非付费用户的有限文档和验证决策概述](review-and-approve-work/proof-doc-decision-limits.md)
-   * [设置AI审阅者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
+   * {hide-from-toc}[设置AI审阅者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
    * 工作审批 {#work-approvals}
       * [工作审批](review-and-approve-work/manage-approvals/manage-approvals.md)
       * [审批流程概述](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
@@ -2023,7 +2023,7 @@ ht-degree: 2%
          * [将交互式验证添加为新版本时，无法下载或预览验证版本](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
    * 本机集成 {#native-integrations}
       * [审核和批准本机集成：文章索引](/help/quicksilver/review-and-approve-work/native-integrations/review-approva-native-integrations-toc.md)
-      * [GenStudio for Performance Marketing与Frame.io集成快速入门](/help/quicksilver/review-and-approve-work/native-integrations/genstudio/wf-frame-and-genstudio.md)
+      * {hide-from-toc}[GenStudio for Performance Marketing与Frame.io集成入门](/help/quicksilver/review-and-approve-work/native-integrations/genstudio/wf-frame-and-genstudio.md)
       * [校对和Creative Cloud Express入门](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
       * [校对与GenStudio for Performance Marketing集成快速入门](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
       * [将Adobe Experience Manager与Frame.io集成一起使用](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
@@ -2186,7 +2186,7 @@ ht-degree: 2%
       * [共享工作区](planning/access/share-workspaces.md)
       * [共享记录类型](planning/access/share-record-types.md)
       * [共享视图](planning/access/share-views.md)
-      * [共享记录](planning/access/share-records.md)
+      * {hide-from-toc}[共享记录](planning/access/share-records.md)
       * [请求对视图或工作区的权限](planning/access/request-permissions.md)
    * Adobe Workfront Planning记录 {#adobe-workfront-planning-records}
       * [记录：文章索引](planning/records/records-information.md)
@@ -2236,10 +2236,10 @@ ht-degree: 2%
       * [Adobe Workfront Planning与Adobe GenStudio for Performance Marketing集成：文章索引](planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md)
       * [Adobe Workfront Planning与Adobe GenStudio for Performance Marketing集成入门](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
       * [在Adobe Workfront Planning中管理GenStudio工作区](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
-      * [将Workfront规划工作区提升到GenStudio](planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)
+      * {hide-from-toc}[将Workfront规划工作区提升到GenStudio](planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)
    * Adobe Workfront独立规划 {#planning-standalone}
-      * [Adobe Workfront Planning独立：文章索引](planning/planning-sta/planning-sta-article-index.md)
-      * [Adobe Workfront Planning Standlone入门](planning/planning-sta/get-started-with-planning-sta.md)
+      * {hide-from-toc}[Adobe Workfront Planning Standalone：文章索引](planning/planning-sta/planning-sta-article-index.md)
+      * {hide-from-toc}[开始使用Adobe Workfront Planning Standlone](planning/planning-sta/get-started-with-planning-sta.md)
 * Adobe Workfront集成 {#adobe-workfront-integrations}
    * [Adobe Workfront集成](workfront-integrations-and-apps/workfront-integrations.md)
    * [Adobe Workfront内置集成概述](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
@@ -2260,7 +2260,7 @@ ht-degree: 2%
          * [使用Adobe Workfront插件记录时间](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
          * [管理来自Adobe Creative Cloud的 [!DNL Adobe Workfront] 通知](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * 使用适用于Creative Cloud应用程序的Adobe Workfront插件上传文档和验证 {#upload-docs-proofs-wf-cc}
-         * [将文档和验证从 [!DNL Adobe Workfront plugin] 上载到 [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
+         * {hide-from-toc}[将文档和验证从 [!DNL Adobe Workfront plugin] 上载到 [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [使用适用于Creative Cloud应用程序的Adobe Workfront插件上传文档和验证](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
          * [从Photoshop上传校样](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
          * [从Photoshop上传文档](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)
@@ -2523,14 +2523,14 @@ ht-degree: 2%
          * [面向Workfront Proof用户和联系人的提示、技巧和疑难解答](workfront-proof/wp-mnguserscontacts/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wfproof.md)
          * [批量编辑用户的其他组](workfront-proof/wp-mnguserscontacts/tips-tricks-and-troubleshooting/bulk-edit-users-other-groups.md)
    * Workfront Proof mobile {#wf-proof-mobile}
-      * [Workfront Proof mobile](workfront-proof/wp-mobile/wp-mobile.md)
+      * {hide-from-toc}[Workfront Proof mobile](workfront-proof/wp-mobile/wp-mobile.md)
       * Workfront Proof移动应用程序 {#wf-proof-mobile-apps}
-         * [Workfront Proof移动应用程序](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
-         * [Workfront Proof移动应用程序](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
-         * [适用于平板电脑的Workfront Proof移动设备应用程序](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md)
+         * {hide-from-toc}[Workfront Proof移动应用](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
+         * {hide-from-toc}[Workfront Proof移动应用](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
+         * {hide-from-toc}[适用于平板电脑的Workfront Proof移动应用](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md)
       * Workfront Proof移动应用程序的提示、技巧和疑难解答 {#ttt-wf-proof-mobile-apps}
-         * [Workfront Proof移动应用程序的提示、技巧和疑难解答](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wp-mobile.md)
-         * [无法登录Workfront Proof移动应用程序](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/unable-to-log-in.md)
+         * {hide-from-toc}[Workfront Proof移动应用的提示、技巧和疑难解答](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wp-mobile.md)
+         * {hide-from-toc}[无法登录Workfront Proof移动应用](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/unable-to-log-in.md)
    * Workfront Proof技术园地 {#wf-proof-tech-corner}
       * [Workfront Proof技术园地](workfront-proof/wp-tech-corner/tech-corner.md)
       * 校对类型 {#proof-types}
@@ -2583,8 +2583,8 @@ ht-degree: 2%
       * [使用PKCE流程配置和使用您组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-pkce-flow.md)
       * [弃用API — 内部](wf-api/api/deprecation-api-internal.md)
       * [API版本21中的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-      * [API版本20中的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [API版本19中的新增功能](wf-api/api/new-api-version-19.md)
+      * [API版本20](/help/quicksilver/wf-api/api/new-api-version-20.md)中的新增功能
+      * [API版本19](wf-api/api/new-api-version-19.md)中的新增功能
       * [API版本18中的新增功能](wf-api/api/new-api-version-18.md)
       * [API版本17中的新增功能](wf-api/api/new-api-version-17.md)
       * [API版本16中的新增功能](wf-api/api/new-api-version-16.md)
@@ -2659,9 +2659,9 @@ ht-degree: 2%
    * 常规 {#general}
       * [常规](proofhq-api/general/general.md)
       * [概述](proofhq-api/general/overview.md)
-      * [代码示例](proofhq-api/general/code-samples.md)
+      * {hide-from-toc}[代码示例](proofhq-api/general/code-samples.md)
       * [SOAP API常见问题解答](proofhq-api/general/soap-api-faqs.md)
-* [隐藏的测试文档](hidden-test.md)
+* {hide-from-toc}[隐藏的测试文档](hidden-test.md)
 * App Builder {#app-builder}
    * [App Builder：文章索引](/help/quicksilver/app-builder/app-builder-toc.md)
    * [从Adobe Exchange获取并安装应用程序](/help/quicksilver/app-builder/install-apps-on-exchange.md)
