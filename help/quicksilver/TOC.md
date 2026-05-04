@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+source-git-commit: 1f657dc9041fcfbc8ea5b8ffcbcad0db96860dd2
 workflow-type: tm+mt
 source-wordcount: '14083'
 ht-degree: 2%
@@ -2661,11 +2661,11 @@ ht-degree: 2%
       * [概述](proofhq-api/general/overview.md)
       * {hide-from-toc}[代码示例](proofhq-api/general/code-samples.md)
       * [SOAP API常见问题解答](proofhq-api/general/soap-api-faqs.md)
-* {hide-from-toc}[隐藏的测试文档](hidden-test.md)
 * App Builder {#app-builder}
    * [App Builder：文章索引](/help/quicksilver/app-builder/app-builder-toc.md)
    * [从Adobe Exchange获取并安装应用程序](/help/quicksilver/app-builder/install-apps-on-exchange.md)
    * [使用Adobe App Builder为Workfront创建自定义应用程序](/help/quicksilver/app-builder/app-builder.md)
+* {hide-from-toc}[隐藏的测试文档](hidden-test.md)
 
 
 
