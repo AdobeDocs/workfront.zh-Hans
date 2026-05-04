@@ -9,9 +9,9 @@ feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
+source-git-commit: 62d7144f808e7937f11c11ccff64e409c76f2197
 workflow-type: tm+mt
-source-wordcount: '3008'
+source-wordcount: '3062'
 ht-degree: 6%
 
 ---
@@ -123,13 +123,19 @@ Old:
 1. 要编辑有关模板任务的有限信息，请执行以下操作：
    1. （可选）单击左侧面板中的&#x200B;**更新**&#x200B;以将更新添加到模板任务。 使用模板创建项目时，模板任务更新未传输到项目任务。
    1. （可选）单击左侧面板中的&#x200B;**文档**&#x200B;以将文档添加到模板任务。 当您使用模板创建项目时，文档将传输到项目任务。
+
+      >[!TIP]
+      >
+      >根据您的组织是使用Workfront还是Adobe存储来存储文档，向模板任务添加文档的方式有所不同。 有关信息，请参阅[将文档从您的文件系统](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md)添加到Adobe Workfront。
+
    1. （视情况而定）要编辑有关模板任务的有限信息，请单击左侧面板中的&#x200B;**模板任务详细信息**，然后转到“详细信息”部分的各个区域以编辑每个区域的信息。
    1. （可选）执行以下任一操作：
       * 单击&#x200B;**全部折叠**&#x200B;图标![全部折叠图标](assets/collapse-all-icon.png)以折叠所有区域。
       * 单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)，然后从下面的任何区域进行选择，或单击&#x200B;**编辑全部**&#x200B;以编辑所有区域的信息：
 
+
          * 概述
-         * 自定义Forms
+         * 自定义表单
 只有当模板任务附加了自定义表单时，才会显示自定义表单的名称。
          * 财务
 
@@ -543,7 +549,7 @@ Old:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>审批流程</strong> </td> 
-      <td> <p>选择要与模板任务关联的审批流程。 您的Workfront管理员必须定义系统级任务批准流程，然后才能将其与模板任务关联。 <span>对审批流程具有管理权限的用户也可以创建特定于组的审批流程。</span>有关创建审批流程的详细信息，请参阅<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">为工作项创建审批流程</a>。</p> <p>添加审批流程时，请考虑以下事项： </p> 
+      <td> <p>选择要与模板任务关联的审批流程。 您的Workfront管理员必须定义系统级任务批准流程，然后才能将其与模板任务关联。 <span>对审批流程具有管理权限的用户也可以创建特定于组的审批流程。</span> 有关创建审批流程的详细信息，请参阅<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">为工作项创建审批流程</a>。</p> <p>添加审批流程时，请考虑以下事项： </p> 
        <ul> 
        <li>列表中仅显示有效的审批流程。 </li> 
        <li> <p>系统范围及组特定的批准流程会显示在列表中。 与模板组以外的组关联的审批流程不会显示在列表中。</p> <p>重要提示：如果与模板关联的组发生更改，则组特定的审批流程将变成一次性的审批流程。 有关对项目组的更改或审批流程中的更改如何影响审批设置的详细信息，请参阅<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">组和审批流程更改如何影响分配的审批流程</a>。 </p> </li> 
@@ -603,6 +609,11 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 1. To edit limited information about the template task, do the following: 
    1. (Optional) Click **Updates** in the left panel to add updates to the template task. Template task updates do not transfer to project tasks when the template is used to create a project.
    1. (Optional) Click **Documents** in the left panel to add documents to the template task. The documents will transfer to the project tasks when you use the template to create the project. 
+
+      >[!TIP]
+      >
+      >Adding documents to a template task differs depending on whether your organization uses Workfront or Adobe storage to store documents. For information, see [Add documents to Adobe Workfront from your file system](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md). 
+      
    1. (Conditional) To edit limited information about a template task, click **Template Task Details** in the left panel, then go to the areas of the Details section to edit information for each area.
    1. (Optional) Do any of the following: 
       * Click the **Collapse all** icon ![Collapse all icon](assets/collapse-all-icon.png) to collapse all areas. 
