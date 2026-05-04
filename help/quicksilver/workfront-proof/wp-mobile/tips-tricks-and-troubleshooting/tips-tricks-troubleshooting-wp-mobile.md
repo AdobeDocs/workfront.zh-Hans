@@ -2,11 +2,10 @@
 title: 针对 [!DNL Workfront Proof] 移动应用程序的提示、技巧和疑难解答
 description: 了解Workfront Proof Mobile疑难解答。
 hide: true
-hidefromtoc: true
 exl-id: b8384c56-345d-428a-bb86-05fa4001d3ea
-source-git-commit: 6c7d22bea669586c56acfc23d328d7cc815b04be
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '50'
 ht-degree: 0%
 
 ---

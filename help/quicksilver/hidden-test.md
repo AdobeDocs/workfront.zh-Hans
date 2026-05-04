@@ -2,12 +2,11 @@
 title: 隐藏测试
 description: 隐藏测试
 hide: true
-hidefromtoc: true
 exl-id: b6b0f429-b619-4b8e-ab81-ad190dae5a0b
-source-git-commit: 5ab33ae7ee37f4afa2546af32af205ef546bae22
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 2%
+ht-degree: 19%
 
 ---
 
@@ -31,21 +30,21 @@ ht-degree: 2%
 
 ## 访问要求（例如，包保持不变，并且我们更新了许可证行）
 
-展开以查看本文中各项功能的访问要求。
+展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何 </p> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一” </p> 
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
    <td> <p>浅色或更高</p>
-   <p>工作或更高</p></td> 
+   <p>工作版或更高版本</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -60,22 +59,22 @@ ht-degree: 2%
 
 *有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-## 访问要求
+## 访问权限要求
 
-展开以查看本文中各项功能的访问要求。
+展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何 </p> </td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td> <p>“任一” </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td><p>标准</p>
-   <p>工作或更高</p></td> 
+   <p>工作版或更高版本</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -90,9 +89,9 @@ ht-degree: 2%
 
 有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-## 访问要求
+## 访问权限要求
 
-展开以查看本文中各项功能的访问要求。
+展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -100,7 +99,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront包</td> 
-   <td> <p>任何 </p> </td> 
+   <td> <p>“任一” </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -123,18 +122,18 @@ ht-degree: 2%
 
 ## 访问要求（例如，新功能仅存在于2023/2025资源包中）
 
-展开以查看本文中各项功能的访问要求。
+展开可查看本文所述功能的访问权限要求。
 
 <table>
   <tr>
-   <td>Adobe Workfront包
+   <td>Adobe Workfront 包
    </td>
    <td> <p>Prime或Ultimate</p>
     <p>工作流 Ultimate</p>
    </td>
   </tr>
   <tr>
-   <td>Adobe Workfront许可证
+   <td>Adobe Workfront 许可证
    </td>
    <td>标准
    </td>
@@ -151,11 +150,11 @@ ht-degree: 2%
 
 ## 访问要求（例如，您需要使用其他产品）
 
-展开以查看本文中各项功能的访问要求。
+展开可查看本文所述功能的访问权限要求。
 
 <table>
   <tr>
-   <td>Adobe Workfront包
+   <td>Adobe Workfront 包
    </td>
    <td> <p>Prime或Ultimate</p>
     <p>工作流 Ultimate</p>
@@ -202,7 +201,7 @@ ht-degree: 2%
 
 ## 大多数Workfront Planning的访问要求
 
-展开以查看本文中各项功能的访问要求。
+展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
 <col> 
@@ -223,7 +222,7 @@ ht-degree: 2%
    <td> 
 <p>任何Adobe Workfront工作流包和任何Adobe Workfront计划包</p> 
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront平台(**&#x200B;**&#x200B;是希望指出这一点，还是只需将其添加到底部链接的文章中???**&#x200B;***)</p></td> 
+<td role="rowheader"><p>Adobe Workfront平台（**&#x200B;**&#x200B;是希望指出这一点，还是只需将其添加到底部链接的文章中???**&#x200B;***）</p></td> 
    <td> 
 <p>贵组织的Workfront实例必须载入Adobe Unified Experience才能访问Workfront Planning。</p> 
 <p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的Adobe Unified Experience</a>。 </p> 
@@ -260,7 +259,7 @@ ht-degree: 2%
 >如果您的公司以前购买过Adobe Scenario Planner，则它已被保留。 Scenario Planner不再可供购买。
 
 
-展开以查看本文中各项功能的访问要求。
+展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 

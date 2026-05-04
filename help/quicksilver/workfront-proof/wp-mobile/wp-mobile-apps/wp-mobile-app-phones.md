@@ -2,11 +2,10 @@
 title: Workfront Proof移动应用程序
 description: 了解Workfront Proof移动应用程序。
 hide: true
-hidefromtoc: true
 exl-id: 865019d7-55b4-4d53-93aa-1370d153916e
-source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1352'
 ht-degree: 0%
 
 ---
@@ -35,7 +34,7 @@ ht-degree: 0%
 >
 >Workfront Proof移动设备应用程序不再受支持，现在即可使用。  将不会修复应用程序中的任何问题。
 
-对于iOSiOS设备，请确保先卸载以前的[!DNL Workfront Proof]应用，然后再安装新应用。
+对于iOS设备，请确保先卸载以前的[!DNL Workfront Proof]应用，然后再安装新应用。
 
 [!DNL Workfront Proof]应用会自动检测您正在使用的设备类型。 如果您想在平板电脑上使用应用，请参阅[[!DNL Workfront Proof] 适用于平板电脑的移动应用](../../../workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md)。
 

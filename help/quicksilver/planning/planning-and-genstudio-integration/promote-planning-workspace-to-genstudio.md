@@ -2,11 +2,10 @@
 title: 将Workfront规划工作区提升到GenStudio
 description: 当您的公司同时购买了两款产品，并且您的GenStudio for Performance Marketing实例与公司的GenStudio实例集成时，Adobe Workfront Planning中会提供Workfront工作区。 您可以将Workfront Planning工作区提升到GenStudio，并使其信息在两个系统中都可见和更新。
 hide: true
-hidefromtoc: true
 exl-id: 0747fb80-496f-41c0-b469-1203e1605f05
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 0%

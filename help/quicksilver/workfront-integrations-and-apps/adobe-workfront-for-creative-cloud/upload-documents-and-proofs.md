@@ -7,11 +7,10 @@ description: 将文档和验证从 [!DNL Adobe Workfront plugin] 上载到 [!DNL
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 hide: true
-hidefromtoc: true
 exl-id: 88870441-8895-477c-9409-f2c33654545a
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -49,7 +48,7 @@ ht-degree: 0%
 
    <table>
     <tr>
-    <td><strong>PDF和PDF打印</strong>
+    <td><strong>PDF和PDF-PRINT</strong>
     </td>
     <td>取消选择<strong>创建单独的PDF文件</strong>。
     </td>
@@ -63,7 +62,7 @@ ht-degree: 0%
     </td>
     </tr>
     <tr>
-    <td><strong>EPUB和EPUB已修复</strong>
+    <td><strong>EPUB和EPUB-FIXED</strong>
     </td>
     <td>无需调整。
     </td>

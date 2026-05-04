@@ -6,12 +6,11 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 55d7d8a8-0dfe-45bc-a23a-47111347e9ca
 hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 75fea812b4574191522af4721a013b57aa5d609f
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 0%
+source-wordcount: '903'
+ht-degree: 2%
 
 ---
 
@@ -28,17 +27,17 @@ ht-degree: 0%
 有关在迁移到Enhanced Authentication Experience之前配置SAML的信息，请参阅[在身份提供程序中更新SAML 2.0元数据](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)。
 
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -57,7 +56,7 @@ ht-degree: 0%
 
 ## 使用Okta作为您的身份提供程序
 
-Okta是支持SAML 2.0的标识提供程序的示例。本节介绍如何使用Okta作为您的身份提供程序。 在配置另一个支持SAML 2.0的标识提供程序时，需要执行类似的步骤。
+Okta是支持SAML 2.0的标识提供程序的示例。 本节介绍如何使用Okta作为您的身份提供程序。 在配置另一个支持SAML 2.0的标识提供程序时，需要执行类似的步骤。
 
 >[!NOTE]
 >
@@ -145,7 +144,7 @@ Okta是支持SAML 2.0的标识提供程序的示例。本节介绍如何使用Ok
 1. 在&#x200B;**填充来自身份提供程序元数据**&#x200B;的字段中，将您在步骤1中复制的URL粘贴到&#x200B;**元数据URL**&#x200B;字段中。\
    或者，您可以单击&#x200B;**选择文件**&#x200B;以上传.xml文件，但我们建议您粘贴该URL。
 
-1. 在&#x200B;**映射用户属性**&#x200B;部分的&#x200B;**目录属性**&#x200B;字段中，键入&#x200B;**电子邮件**。 (**Workfront用户属性**&#x200B;字段中已填充&#x200B;**电子邮件地址**。)
+1. 在&#x200B;**映射用户属性**&#x200B;部分的&#x200B;**目录属性**&#x200B;字段中，键入&#x200B;**电子邮件**。 （**Workfront用户属性**&#x200B;字段中已填充&#x200B;**电子邮件地址**。）
 
 1. （可选）启用&#x200B;**设为默认SSO提供程序**&#x200B;以将未经身份验证的用户发送到身份提供程序登录屏幕而不是Workfront登录屏幕以进行身份验证。 我们建议您仅在系统中的所有用户都通过身份提供程序访问Workfront时才启用此选项。
 1. 选中&#x200B;**启用**&#x200B;复选框。 在执行此操作之前，请确保系统中的用户知道新的登录体验，以确保他们不会失去对Workfront系统的访问权限。

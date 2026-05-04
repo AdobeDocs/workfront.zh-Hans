@@ -6,11 +6,10 @@ description: 为您的 [!DNL Workfront] 环境启用增强身份验证(eAuth)后
 author: Courtney
 feature: Get Started with Workfront
 hide: true
-hidefromtoc: true
 exl-id: 72f955e9-75ff-4ff7-b434-7a2b2d5ee0e8
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '197'
 ht-degree: 1%
 
 ---
@@ -31,7 +30,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划*</strong></td> 
-   <td> <p> 任何</p> </td> 
+   <td> <p> “任一”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
@@ -53,7 +52,7 @@ ht-degree: 1%
 1. 选择需要重置密码的&#x200B;**[!UICONTROL 用户]**。
    ![选择用户](assets/100520classicnweselectuser-350x105.png)
 
-1. 单击选择所需的&#x200B;**[!UICONTROL 用户]后显示的**&#x200B;更多&#x200B;**[!UICONTROL 按钮]**，然后从下拉菜单中选择&#x200B;**[!UICONTROL 发送忘记密码电子邮件]**&#x200B;选项。
+1. 单击选择所需的&#x200B;**[!UICONTROL 用户]**&#x200B;后显示的&#x200B;**[!UICONTROL 更多]按钮**，然后从下拉菜单中选择&#x200B;**[!UICONTROL 发送忘记密码电子邮件]**&#x200B;选项。
 
    ![发送忘记密码电子邮件](assets/100520classicnwesendemail-350x134.png)
 

@@ -6,12 +6,11 @@ description: 您可以在文档详细信息中安装AppBuilder
 author: Courtney
 feature: Work Management, Digital Content and Documents
 hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '1357'
+source-wordcount: '1477'
 ht-degree: 0%
 
 ---
@@ -143,7 +142,7 @@ Adobe提供了一个开源CLI，可用于帮助创建App Builder应用程序。 
 1. 编辑扩展注册组件
 
    1. 打开`src/workfront-doc-details-1/web-src/src/components/ExtensionRegistration.js`。
-   1. 在方法部分中，添加包含异步函数`secondaryNav`的函数`getButtons`。
+   1. 在方法部分中，添加包含异步函数`getButtons`的函数`secondaryNav`。
    1. `getButtons`应接收具有以下结构的对象：
 
       ```
@@ -187,7 +186,7 @@ Adobe提供了一个开源CLI，可用于帮助创建App Builder应用程序。 
       ```
 
 1. 访问文档详细信息
-   1. 在应用程序中实施提供的函数`document.getDocumentDetails`以提取基本文档详细信息。 此函数检索包含`docId`和`docvId`的对象，以及包含`sharedContext`、`hostname`和身份验证详细信息的`protocol`对象。 确保您的应用程序可正确处理此数据。
+   1. 在应用程序中实施提供的函数`document.getDocumentDetails`以提取基本文档详细信息。 此函数检索包含`docId`和`docvId`的对象，以及包含`hostname`、`protocol`和身份验证详细信息的`sharedContext`对象。 确保您的应用程序可正确处理此数据。
 
 1. 在组件中集成数据提取
    1. 将新组件添加到应用程序的components文件夹中。 在此组件中，建立与Workfront的连接，以使用与主机应用程序建立的连接检索文档信息和身份验证数据。 以下是如何构建组件以处理此问题的示例：
@@ -237,7 +236,7 @@ Adobe提供了一个开源CLI，可用于帮助创建App Builder应用程序。 
 
 1. 修订扩展注册组件
    1. 找到并打开名为`ExtensionRegistration.js`的文件。
-   1. 在方法部分中，添加包含异步函数`secondaryNav`的函数`getButtons`。
+   1. 在方法部分中，添加包含异步函数`getButtons`的函数`secondaryNav`。
    1. `getButtons`应接收具有以下结构的对象：
 
       ```
@@ -281,7 +280,7 @@ Adobe提供了一个开源CLI，可用于帮助创建App Builder应用程序。 
       ```
 
 1. 访问文档详细信息
-   1. 在应用程序中实施提供的函数`document.getDocumentDetails`以提取基本文档详细信息。 此函数检索包含`docId`和`docvId`的对象，以及包含`sharedContext`、`hostname`和身份验证详细信息的`protocol`对象。 确保您的应用程序可正确处理此数据。
+   1. 在应用程序中实施提供的函数`document.getDocumentDetails`以提取基本文档详细信息。 此函数检索包含`docId`和`docvId`的对象，以及包含`hostname`、`protocol`和身份验证详细信息的`sharedContext`对象。 确保您的应用程序可正确处理此数据。
 
 1. 在组件中集成数据提取
    1. 将新组件添加到应用程序的components文件夹中。 在此组件中，建立与Workfront的连接，以使用与主机应用程序建立的连接检索文档信息和身份验证数据。 以下是如何构建组件以处理此问题的示例：

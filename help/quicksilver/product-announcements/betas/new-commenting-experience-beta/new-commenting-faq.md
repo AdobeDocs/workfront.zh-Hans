@@ -7,11 +7,10 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 hide: true
-hidefromtoc: true
 exl-id: 5ce15530-0858-44a4-b928-779654310dee
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -48,7 +47,7 @@ ht-degree: 0%
 
 ## 是否可以搜索或过滤评论？
 
-可以。我们计划在未来引入搜索注释的功能。
+可以。 我们计划在未来引入搜索注释的功能。
 
 ## 是否可以排序评论？
 

@@ -2,11 +2,10 @@
 title: 适用于平板电脑的Workfront Proof移动设备应用程序
 description: 使用 [!DNL Workfront Proof] Tablet应用程序，您可以在旅途中方便地查看和批准验证。 该应用可供所有人下载，您不必是 [!DNL Workfront Proof] 用户，就可以在平板电脑或手机上查看校样。
 hide: true
-hidefromtoc: true
 exl-id: 7a3f1d96-103d-41cf-8470-3fc69e4bd507
-source-git-commit: 6c7d22bea669586c56acfc23d328d7cc815b04be
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '1982'
+source-wordcount: '1995'
 ht-degree: 0%
 
 ---
@@ -143,7 +142,7 @@ ht-degree: 0%
 
    | **[!UICONTROL 突出显示]** | 突出显示文本并将其复制到注释框中。 |
    |---|---|
-   | **[!UICONTROL 替换]** | 将[[!UICONTROL REPLACE]]和[[!UICONTROL WITH]]与文本一起添加到评论框中，使您更易于推荐替换文本。 |
+   | **[!UICONTROL Replace]** | 将[[!UICONTROL REPLACE]]和[[!UICONTROL WITH]]与文本一起添加到评论框中，使您更易于推荐替换文本。 |
    | **[!UICONTROL 删除]** | 删除文本并将[DELETE]添加到评论框。 |
    | **[!UICONTROL 插入到]**&#x200B;之后 | 将[INSERT AFTER]添加到评论框中。 |
 

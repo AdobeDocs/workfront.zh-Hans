@@ -5,14 +5,13 @@ description: Adobe Workfront将所有数字体验(DX)产品统一到一个名为
 author: Courtney
 feature: Get Started with Workfront
 hide: true
-hidefromtoc: true
-source-git-commit: 0c21f5a1df8bf1bc54d4ca73ba8d02808432e321
+exl-id: 5efa1912-e827-42ef-8001-4de63a63a6c4
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
-
 
 # Experience Cloud通知概述
 
@@ -72,7 +71,7 @@ Workfront是Adobe的digital experience产品套件的一部分。 迁移到Exper
 
 1. 在&#x200B;**Experience Cloud**&#x200B;面板的右上角，单击&#x200B;**设置**&#x200B;图标![设置图标](assets/settings-icon.png)。
 
-1. 在&#x200B;**通知**&#x200B;部分中，单击![Workfront](assets/arrow-icon.png)拼贴上的箭头图标&#x200B;**Workfront拼贴箭头**。
+1. 在&#x200B;**通知**&#x200B;部分中，单击&#x200B;**Workfront**&#x200B;拼贴上的箭头图标![Workfront拼贴箭头](assets/arrow-icon.png)。
 
 1. 在&#x200B;**通知我以下类别**&#x200B;部分中，选择您要接收的&#x200B;**提及**&#x200B;和&#x200B;**请求**&#x200B;的通知类型：
    * **提及**：当有人在评论中标记您时收到通知。
@@ -84,7 +83,7 @@ Workfront是Adobe的digital experience产品套件的一部分。 迁移到Exper
 
 +++我的现有通知是否会丢失？
 
-不可以。您在Workfront中仍可访问历史通知，但过渡完成后，将通过Experience Cloud发送新通知。
+不可以。 您在Workfront中仍可访问历史通知，但过渡完成后，将通过Experience Cloud发送新通知。
 +++
 
 +++ 我的用户是否需要执行任何操作？
@@ -99,6 +98,5 @@ Workfront是Adobe的digital experience产品套件的一部分。 迁移到Exper
 
 +++这会影响Workfront集成或自动化吗？
 
-不可以。所有现有的集成和自动化都将继续正常运行。
+不可以。 所有现有的集成和自动化都将继续正常运行。
 +++
-
