@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
+source-git-commit: ccdace08434cd2abc1290a1ae038ba20f0adbdf6
 workflow-type: tm+mt
-source-wordcount: '3544'
+source-wordcount: '3571'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 0%
 | 目标字段的![可编辑性逻辑](assets/editability-logic-icon.png) | 字段是应用可编辑性逻辑的目标字段。 当满足定义的条件时，该字段可以是可编辑的或只读的。 对于可编辑性逻辑，目标字段和参考字段可以相同。 |
 | 引用字段的![可编辑性逻辑](assets/editability-logic-reference-field.png) | 该字段是可编辑性逻辑的参考字段。 当此字段满足定义的条件时，逻辑将应用于目标字段。 对于可编辑性逻辑，目标字段和参考字段可以相同。 |
 
-[逻辑图标](assets/custom-form-logic-icon-samples.png)
+![逻辑图标](assets/custom-form-logic-icon-samples.png)
 
 对于仅显示和跳过逻辑，请选择一个字段以在字段设置中显示现有逻辑规则。
 
@@ -155,7 +155,7 @@ ht-degree: 0%
 
 请注意，```123abc```表示资源管理器的角色ID。
 
-为角色![显示的](assets/advanced-display-on-form1.png)表单节
+为角色](assets/advanced-display-on-form1.png)显示的![表单节
 
 具有不同角色ID的相同条件将应用于“项目财务KPI”部分，以定义只有财务顾问角色可以查看该部分。
 
@@ -234,7 +234,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->表单设计器中的标准默认值逻辑仍然存在。 如果这两种类型应用于同一字段，则高级逻辑优先。 有关标准默认值逻辑的信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkbox-groups-and-drop-downs)中的[添加单选按钮、复选框组和下拉列表](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+>表单设计器中的标准默认值逻辑仍然存在。 如果这两种类型应用于同一字段，则高级逻辑优先。 有关标准默认值逻辑的信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)中的[添加单选按钮、复选框组和下拉列表](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkbox-groups-and-drop-downs)。
 
 ### 示例
 
