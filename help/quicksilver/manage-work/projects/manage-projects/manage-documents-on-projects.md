@@ -6,9 +6,9 @@ description: 根据您的Workfront管理员是否选择将文档存储在旧版W
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1470'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Workfront管理员可以选择以下选项之一：
 
 >[!IMPORTANT]
 >
->并非所有客户都可以同时访问Workfront和Adobe存储。 某些客户只能访问Workfront，而其他客户在默认情况下只能访问Adobe企业存储。 如果客户没有权限访问Workfront存储，则无需进行配置。
+>您的Workfront实例可能无法同时访问Workfront和Adobe存储。 某些Workfront实例仅有权访问Workfront，而其他实例默认仅有权访问Adobe企业存储。 仅访问一种存储类型的客户不需要任何配置。
 
 Workfront管理员可以执行以下操作之一：
 
@@ -120,7 +120,7 @@ Not sure we need these since this became an overview article:
   >* 项目从产品组合中继承存储类型。
 
 
-存储在Workfront存储中的对象上的文档的管理方式与Adobe企业级存储中的文档的管理方式不同。
+存储在Workfront存储中的对象上的文档的管理方式与存储在Adobe企业存储中的文档的管理方式不同。
 
 有关详细信息，请参阅[Adobe企业存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
@@ -179,7 +179,7 @@ Not sure we need these since this became an overview article:
 * 创建Adobe企业存储模板时，Workfront会在模板的“文档”部分中创建一个用于保存文档的文件夹。 文件夹名称与程序同名。 无法删除或手动重命名文件夹。 如果更改了模板的名称，将重命名文件夹，以匹配模板的新名称。
 * 可以使用Workfront-storage模板创建Workfront-storage项目；可以使用Adobe-storage模板创建Adobe-storage项目。
 * 您可以将Workfront-storage模板附加到Adobe-storage项目，这不会更改该项目的存储位置。
-* 您可以将Adobe-storage模板附加到Workfront-storage项目，这不会更改该项目的存储位置。
+* 您可以将Adobe-storage模板附加到Workfront-storage项目，这不会更改该项目的存储位置。 模板的Adobe-storage文件夹中的文档直接添加到项目中，而不是文件夹，而模板任务文件夹中的文档添加到附加到任务的“文档”部分中的项目任务的文件夹中。
 
 ### 模板任务的文档管理
 

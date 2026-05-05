@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1614'
+source-wordcount: '1629'
 ht-degree: 2%
 
 ---
@@ -167,12 +167,17 @@ Old:
 
      如果通过转化问题创建项目时使用模板，请参阅上面第二个场景，了解哪个组和哪个状态Workfront适用于新项目。
 
-* 文档在项目及其子对象中的存储位置（任务和问题）取决于Workfront管理员在“设置”的“系统首选项”区域中选择的“存储首选项”默认设置。 根据您在Workfront实例中存储文档的位置，可以创建以下类型的项目：
+* 为项目及其子对象（任务和问题）存储文档的位置，取决于Workfront管理员在“设置”的“系统首选项”区域中选择的“存储首选项”默认设置。 根据您在Workfront实例中存储文档的位置，可以创建以下类型的项目：
 
    * 旧版Workfront存储项目
    * Adobe企业存储项目。
 
   有关详细信息，请参阅[为您的组织启用Adobe企业存储](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
+
+  >[!TIP]
+  >
+  > 您的Workfront实例可能没有这两种类型的文档存储。
+
 
 * 创建企业存储项目时，会在项目的&#x200B;**文档**&#x200B;部分中创建一个与项目同名的文档文件夹。 将任务添加到项目后，具有任务名称的文件夹将添加到每个任务的&#x200B;**文档**&#x200B;部分。
 
@@ -204,15 +209,16 @@ Old:
 
      >[!NOTE]
      >
-     >从Workfront存储产品组合或项目群创建企业存储项目时，该产品组合或项目群也会转换为企业存储对象。 在同一项目组合或项目群下的所有其他Workfront存储项目保持不变。
+     >* 从Workfront存储产品组合或项目群创建企业存储项目时，该产品组合或项目群也会转换为企业存储对象。 在同一项目组合或项目群下的所有其他Workfront存储项目保持不变。
+     >* 您的Workfront实例可能没有这两种类型的文档存储。
 
      项目随即会创建，其默认名称会遵循以下模式，具体取决于Workfront用于文档的存储空间：
 
-      * Workfront存储项目的&#x200B;**无标题项目**。
+      * Workfront存储项目的`Untitled Project`。
 
         Workfront存储项目在其名称旁显示&#x200B;**旧版Workfront存储**&#x200B;图标![旧版存储项目图标](assets/legacy-storage-project-icon.png)。
 
-      * **无标题项目 — Adobe存储项目的&lt;月日，年小时。分钟。秒>**
+      * 用于Adobe存储项目的`Untitled Project - < Month day, year hour.minute.second >`
 
         >[!IMPORTANT]
         >
