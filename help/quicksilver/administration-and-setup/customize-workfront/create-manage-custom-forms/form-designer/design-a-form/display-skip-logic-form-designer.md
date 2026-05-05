@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: e5fb42aa8d9eae17e1bddbd9832bdf064bc4605e
+source-git-commit: f177f0b678c8ac31241cb103d13ecd0f11cabd1e
 workflow-type: tm+mt
 source-wordcount: '3571'
 ht-degree: 0%
@@ -151,17 +151,17 @@ ht-degree: 0%
 
 如果满足以下条件，则仅当具有资源管理器工作角色的用户查看表单时，才会显示“需要资源”部分。
 
-```IF($$USER.{roleID}="123abc", true)```
+`IF($$USER.{roleID}="123abc", true)`
 
-请注意，```123abc```表示资源管理器的角色ID。
+请注意，`123abc`表示资源管理器的角色ID。
 
-为角色![&#128279;](assets/advanced-display-on-form1.png)显示的表单节
+为角色](assets/advanced-display-on-form1.png)显示的![表单节
 
 具有不同角色ID的相同条件将应用于“项目财务KPI”部分，以定义只有财务顾问角色可以查看该部分。
 
 如果使用以下条件，只有在项目完成后，“销售的KPI”字段才可见。 此逻辑将直接应用于字段，而不是表单分区。 无需指定哪个角色可以查看该字段，因为该角色已在字段所在的部分中定义。
 
-```IF({status}="CPL", true)```
+`IF({status}="CPL", true)`
 
 ![字段在完整项目中可见](assets/advanced-display-on-form2.png)
 
