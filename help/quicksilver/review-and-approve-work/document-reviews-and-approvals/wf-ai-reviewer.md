@@ -11,8 +11,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 72fa86e6dc653905181603e0111f65eb0ca5965b
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 1%
+source-wordcount: '789'
+ht-degree: 4%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="wf_document_approvals_ai_supported_files"
 >title="不支持的文件类型"
->abstract="此内容查看者不支持所选的文件类型。 上载支持的文件类型，或移除内容审阅者以提交请求。"
+>abstract="此内容审阅者不支持所选的文件类型。 上传受支持的文件类型，或移除内容审阅者，以提交请求。"
 
 内容查看者可以查看以下文件类型：
 
