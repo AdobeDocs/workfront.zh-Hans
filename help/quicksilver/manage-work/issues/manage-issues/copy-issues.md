@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: a28adc22-825f-401e-9ed2-efddaa297b8d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1059'
 ht-degree: 3%
 
 ---
@@ -119,7 +119,7 @@ Old:
 * **当问题与请求队列关联时：**&#x200B;当您将问题复制到另一个对象并且该问题与请求队列关联时，复制的问题不再与第一个问题源自的原始队列关联。
 * **当文档附加到问题时：**&#x200B;当您将问题复制到另一个对象并且该问题具有附加的文档时，该文档及其版本也将移动到新问题。 与文档关联的任何验证或审批都不会移动。
 * **当问题链接到文档或文件夹时：**&#x200B;当您复制问题时，如果问题具有链接到Google Drive等第三方服务的文档或文件夹，则指向文档的链接将传输到复制的问题。
-* **当您在具有不同存储类型的项目之间复制问题时**：您无法将问题从Workfront存储项目复制到Adobe存储项目。 反之亦然。 并非所有客户都有这两种类型的存储。
+* **当您在具有不同存储类型的项目之间复制问题时**：您无法将问题从Workfront存储项目复制到Adobe存储项目。 反之亦然。 您的Workfront实例可能没有这两种类型的文档存储。
 
   有关信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 

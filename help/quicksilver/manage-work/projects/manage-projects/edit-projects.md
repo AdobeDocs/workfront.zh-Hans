@@ -9,9 +9,9 @@ role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: d8a01839b8f1332741f87be766f3ccb7d08cef96
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '7859'
+source-wordcount: '8113'
 ht-degree: 1%
 
 ---
@@ -282,18 +282,26 @@ Old:
          <td> <p>指定选择<strong>从完成日期</strong>开始计划的日期。 </p> <p>当您选择<strong>从开始日期</strong>开始计划，这是只读字段。<br></p> </td> 
       </tr> 
       <tr> 
-         <td role="rowheader"><strong>项目组合</strong></td> 
-         <td>指示项目所属的Portfolio。 必须先创建Portfolio，然后它才会显示在下拉列表中。 只有活动项目组合可以与项目关联。 有关创建项目组合的详细信息，请参阅<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">创建项目组合</a>。
-         <p><b>注释</b></p>
-         <p>您必须具有项目组合的管理权限才能将其添加到项目中或从中删除。</p>
+      <td role="rowheader"><strong>项目组合</strong></td> 
+      <td>指示项目所属的Portfolio。 必须先创建Portfolio，然后它才会显示在下拉列表中。 只有活动项目组合可以与项目关联。 有关创建项目组合的详细信息，请参阅<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">创建项目组合</a>。
+      <p><b>注释</b></p>
+      <ul>
+      <li>您必须具有项目组合的管理权限才能将其添加到项目中或从中删除。</li>
+      <li>如果贵组织同时使用Workfront和Adobe文档存储类型，则无法将Workfront存储项目与Adobe存储产品组合关联。 反之亦然。 您的Workfront实例可能没有这两种类型的文档存储。</li></ul> 
+      有关详细信息，请参阅<a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">项目和相关对象的文档管理概述</a>。 
       </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>项目群</strong></td> 
          <td> <p>如果您为项目选择了Portfolio，请为项目指定项目群。 某些项目组合可能没有程序。 必须先创建项目，然后它才会显示在此下拉列表中。 只有活动的项目群才能与项目关联。 </p> <p>有关创建程序的详细信息，请参阅<a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">创建程序</a>。</p> 
       <p><b>注释</b></p>
-         <p>您必须具有项目的管理权限才能在项目中添加或删除项目。</p>   
-      </td> 
+      <ul>
+      <li>您必须具有项目的管理权限才能在项目中添加或删除项目。</li>
+      <li>如果贵组织同时使用Workfront和Adobe文档存储类型，则无法将Workfront存储项目与Adobe存储项目关联。 反之亦然。 您的Workfront实例可能没有这两种类型的文档存储。 项目从所属的项目组合中继承存储类型。 </li></ul>
+
+   有关详细信息，请参阅<a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">项目和相关对象的文档管理概述</a>。
+
+   </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>组</strong></td> 
@@ -532,7 +540,7 @@ Old:
       </tr> 
       <tr> 
        <td role="rowheader"><strong>资源均衡模式</strong> </td> 
-       <td> <p> <p>从以下选项中选择：</p> <p>- <strong>手动</strong>：您必须手动调配资源（这是默认设置）</p> <p>- <strong>自动</strong>： Workfront可分级您的资源。</p> <p>有关资源均衡的更多信息，请参阅甘特图<a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">中的</a>均衡资源。</p> </p> </td> 
+       <td> <p> <p>从以下选项中选择：</p> <p>- <strong>手动</strong>：您必须手动调配资源（这是默认设置）</p> <p>- <strong>自动</strong>： Workfront可分级您的资源。</p> <p>有关资源均衡的更多信息，请参阅甘特图</a>中的<a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">均衡资源。</p> </p> </td> 
       </tr> 
       <tr> 
        <td role="rowheader"><strong>风险</strong> </td> 
@@ -568,7 +576,7 @@ Old:
       </tr> 
       <tr data-mc-conditions=""> 
        <td role="rowheader"><strong>审批流程</strong></td> 
-       <td> <p>选择要与项目关联的审批流程。 您的Workfront管理员必须定义系统级别的审批流程，然后才能将其与项目关联。 <span>对审批流程具有管理权限的用户也可以创建特定于组的审批流程。</span>有关创建审批流程的详细信息，请参阅<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">为工作项创建审批流程</a>。</p> <p>添加审批流程时，请考虑以下事项： </p> 
+       <td> <p>选择要与项目关联的审批流程。 您的Workfront管理员必须定义系统级别的审批流程，然后才能将其与项目关联。 <span>对审批流程具有管理权限的用户也可以创建特定于组的审批流程。</span> 有关创建审批流程的详细信息，请参阅<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">为工作项创建审批流程</a>。</p> <p>添加审批流程时，请考虑以下事项： </p> 
        <ul> 
        <li>列表中仅显示有效的审批流程。 </li> 
        <li> <p>系统范围及组特定的批准流程会显示在列表中。 与项目组以外的组关联的审批流程不会显示在列表中。</p> <p>如果与项目关联的组发生更改，则组特定的审批流程会变成单次使用的审批流程。 有关对项目组的更改或审批流程中的更改如何影响审批设置的详细信息，请参阅<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">组和审批流程更改如何影响分配的审批流程</a>。 </p> </li> <!--(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)-->
@@ -594,7 +602,7 @@ Old:
 
 您可以定义在将所有新任务添加到项目时将与它们关联的默认值。
 
-有关这些设置如何影响创建新任务的信息，请参阅[创建任务概述](../../../manage-work/tasks/create-tasks/create-tasks-overview.md#understa)一文中的[将任务添加到项目时的任务默认值](../../../manage-work/tasks/create-tasks/create-tasks-overview.md)部分。
+有关这些设置如何影响创建新任务的信息，请参阅[创建任务概述](../../../manage-work/tasks/create-tasks/create-tasks-overview.md)一文中的[将任务添加到项目时的任务默认值](../../../manage-work/tasks/create-tasks/create-tasks-overview.md#understa)部分。
 
 1. 按如上所述开始编辑项目。
 1. 单击左侧面板中的&#x200B;**任务设置**。
@@ -795,6 +803,10 @@ Old:
   >例如，您可能会有一个包含三个复选框（选项1、选项2和选项3）的复选框字段，对于所有项目，选项1处于未选中状态，对于某些项目，选项2和3处于选中状态，对于其他选定项目，选项3处于未选中状态。 如果要为所有项目选中选项1，则还必须使选项2和3与所有选定项目匹配，然后才能保存更改，因此您必须选择这些项目或取消选择它们，以便它们在所有选定项目上匹配。 如果不更改任何选项，则可以按原样保存该字段，并且项目将保持其当前对所有选项的选择。
 
 * 当您选择属于不同组的多个项目时，“状态”字段中显示的状态是系统级别状态，而不是组级别状态。
+
+* 当您选择具有不同类型文档存储的多个项目并且希望为所选项目更新Portfolio或项目群时，无法将Workfront存储项目与Adobe存储项目组合关联。 反之亦然。 在这种情况下，请确保只选择一次具有相似存储类型的项目。
+
+  您的Workfront实例可能没有这两种类型的文档存储。
 
 要批量编辑项目，请执行以下操作：
 

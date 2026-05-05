@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1393'
 ht-degree: 1%
 
 ---
@@ -176,7 +176,7 @@ Old:
       >
       >* 当您使用Workfront存储产品组合或程序中的Adobe企业存储模板时，该项目是一个Adobe企业存储项目，并且该项目组合或程序也转换为Adobe企业存储对象。 在同一项目组合或项目群下的所有其他Workfront存储项目保持不变。
       >
-      > 并非所有客户都有这两种类型的文档存储。
+      > 您的Workfront实例可能没有这两种类型的文档存储。
       >
       >有关详细信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
@@ -234,7 +234,7 @@ Old:
 
 >[!NOTE]
 >
->与Workfront文档存储关联的模板可创建旧版Workfront存储项目。 与Adobe企业文档存储关联的模板可创建Adobe存储项目。 并非所有客户都有这两种类型的存储。
+>与Workfront文档存储关联的模板可创建旧版Workfront存储项目。 与Adobe企业文档存储关联的模板可创建Adobe存储项目。 您的Workfront实例可能没有这两种类型的文档存储。
 >
 >有关详细信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 

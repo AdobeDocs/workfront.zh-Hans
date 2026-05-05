@@ -8,17 +8,17 @@ topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 3%
+source-wordcount: '1734'
+ht-degree: 2%
 
 ---
 
 # 复制并提交请求
 
 
-当您频繁提交类似请求时，可以复制已提交的现有请求。 在这种情况下，您可以复制现有请求，对请求进行最小更改，然后将其作为新请求重新提交。
+频繁提交类似请求时，可以复制已提交的现有请求。 在这种情况下，您可以复制现有请求，对请求进行最小更改，然后将其作为新请求重新提交。 该请求将提交到与原始请求相同的请求队列。
 
 ## 访问权限要求
 
@@ -232,16 +232,16 @@ ht-degree: 3%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span><strong>分配</strong></span> </td> 
-      <td> <p>指示请求应分配到的活动用户、工作角色或团队的名称。 </p> <p> 您可以指定多个用户、工作角色或团队。 </p> <p>根据请求队列的设置方式，您可能只能将请求分配给一种或两种类型的资源，而不是全部分配给三种资源。 </p> <p>我们建议对请求队列使用路由规则，以便它们可以自动路由到适当的资源。 </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader" colspan="2"> <p><p style="font-weight: normal;">根据请求队列的设置方式，您可能只能为请求分配一种类型的资源（例如，用户）。 如果路由规则也关联到请求队列，并且它自动将请求路由到不同类型的资源（例如，小组），则您的请求将分配给在提交请求时手动指定的实体（用户）以及在路由规则中指定的资源（小组）。</p> <p style="font-weight: normal;">有关更多信息，请参阅以下文章：</p> 
-        <ul> 
-         <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">创建请求队列</a> </p> </li> 
-         <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">创建路由规则</a> <br> </p> </li> 
-        </ul> </p> </td> 
-     </tr> 
-     <tr> 
+      <td> <p>指示请求应分配到的活动用户、工作角色或团队的名称。 </p> <p> 您可以指定多个用户、工作角色或团队。 </p> <p>根据请求队列的设置方式，您可能只能将请求分配给一种或两种类型的资源，而不是全部分配给三种资源。 </p> <p>我们建议对请求队列使用路由规则，以便它们可以自动路由到适当的资源。 </p>
+      <p><p style="font-weight: normal;">根据请求队列的设置方式，您可能只能为请求分配一种类型的资源（例如，用户）。 如果路由规则也关联到请求队列，并且它自动将请求路由到不同类型的资源（例如，小组），则您的请求将分配给在提交请求时手动指定的实体（用户）以及在路由规则中指定的资源（小组）。</p> <p style="font-weight: normal;">有关更多信息，请参阅以下文章：</p> 
+      <ul> 
+      <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">创建请求队列</a> </p> </li> 
+      <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">创建路由规则</a> <br> </p> </li> 
+      </ul> </p>
+       </td> 
+     </tr>
+
+   <tr> 
       <td role="rowheader"><strong>计划小时数</strong> </td> 
       <td> <p>估计完成此请求需要多少小时。</p> </td> 
      </tr> 
@@ -261,8 +261,16 @@ ht-degree: 3%
       <td role="rowheader"><strong>文档</strong> </td> 
       <td> <p>将文档添加到请求。 附加到原始请求的文档不会转移到复制的请求。</p> <p><b>提示</b>
 
-   根据请求队列的设置方式，文档部分可能会在自定义字段之前或之后显示。</p> <p> </p> </td>
-   </tr> 
+   根据请求队列的设置方式，文档部分可能会在自定义字段之前或之后显示。</p> <p> </p>
+   <p>根据您的Workfront管理员为您的环境选择的文档存储类型，会将附加到请求的文档添加到以下内容：</p>
+      <ul><li>对于使用Workfront存储的请求，文档会添加到新创建请求的Documents部分。</li>
+      <li>对于使用Adobe企业存储的请求，文档将添加到新创建的文件夹，其名称与请求相同，并在提交过程中自动添加到请求中。 </li></ul>
+      <p>您的Workfront实例可能没有这两种类型的文档存储。</p>
+      <p>问题和请求存储类型继承自项目。 </p>
+      <p>有关详细信息，请参阅<a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">项目和相关对象的文档管理概述</a>。</p>
+
+   </td> 
+     </tr> 
     </tbody> 
    </table>
 

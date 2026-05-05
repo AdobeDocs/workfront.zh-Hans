@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '830'
 ht-degree: 5%
 
 ---
@@ -109,6 +109,8 @@ Old:
    * 文档
 
   您不能删除附加了已签出文档的任务。 有关签出文档的更多信息，请参阅[签出文档](../../../documents/managing-documents/check-out-documents.md)。
+
+  您无法恢复从回收站的“文档”选项卡中删除任务时删除的单个文档。 您只能在恢复任务时恢复删除任务时删除的文档。
 
    * 问题
    * 子任务

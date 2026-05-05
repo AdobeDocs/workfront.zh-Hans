@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '5076'
+source-wordcount: '5112'
 ht-degree: 3%
 
 ---
@@ -391,7 +391,7 @@ Old:
        </ul> 
        </div> <p>从以下选项中选择：<br></p> 
        <ul> 
-       <li> <p><strong>更改时自动更新</strong>（默认设置）：每次在项目或时间线所依赖的其他项目中发生更改时，将来的项目时间线都会更新（根据更改）。 项目时间表也会每晚更新（自动）。<br>此字段是推荐的设置，因为它可确保项目时间线始终保持最新。<br>当您对触发时间表重新计算的任务或项目执行操作时，所有可用日期都会立即显示，允许您继续工作。 在具有100个以上任务的项目中，需要更长时间重新计算的日期会短暂显示为问号（介于1和5秒之间，对于大型项目，最多会显示一分钟）。 这表示重新计算尚未完成，并且日期可能会发生更改。<br></p> </li> 
+       <li> <p><strong>更改时自动更新</strong>（默认设置）：每次在项目或时间线所依赖的其他项目中发生更改时，将来的项目时间线都会更新（根据更改）。 项目时间线也会每晚更新（自动）。<br>这是此字段的推荐设置，因为它可确保项目时间线始终保持最新。<br>当您对触发时间表重新计算的任务或项目执行操作时，所有可用日期都会立即显示，允许您继续工作。 在具有100个以上任务的项目中，需要更长时间重新计算的日期会短暂显示为问号（介于1和5秒之间，对于大型项目，最多会显示一分钟）。 这表示重新计算尚未完成，并且日期可能会发生更改。<br></p> </li> 
        </ul> 
        <ul> 
        <li> <p><strong>仅更改</strong>：每次在项目或时间线所依赖的其他项目中发生更改时，项目时间线都会更新。 如果项目或时间线所依赖的其他项目中很少发生更改，您可能需要选择此选项。<br></p> </li> 
@@ -420,7 +420,7 @@ Old:
        <td> <p>从以下选项中选择：<br></p> 
        <ul> 
        <li> <p><strong>手动</strong>：您必须手动调配从此模板创建的项目上的资源（这是默认设置）</p> </li> 
-       <li> <p><strong>自动：</strong> Workfront为将来的项目调配资源。 <br>有关资源均衡的更多信息，请参阅甘特图<a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">中的</a>均衡资源。 </p> </li> 
+       <li> <p><strong>自动：</strong> Workfront为将来的项目调配资源。 <br>有关资源均衡的更多信息，请参阅甘特图</a>中的<a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">均衡资源。 </p> </li> 
        </ul> </td> 
        </tr> 
        <tr> 
@@ -439,7 +439,7 @@ Old:
        <td> <p>指定与模板关联的资源池。 资源池是完成项目时同时需要的用户集合。 有关资源池的详细信息，请参阅<a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref">资源池概述</a>。</p> <p> <p><b>注释</b>
 
        当您批量编辑模板时，此字段只会显示所有选定模板通用的资源池。 如果所选模板没有共享资源池，则此字段将为空。 您在此处指定的资源池将覆盖模板的单个资源池。&lt;/p> &lt;/p> &lt;/td>
-       &lt;/tr>
+     &lt;/tr>
    
    <tr> 
       <td role="rowheader"><strong>该项目需要批准时间</strong></td>
@@ -451,7 +451,7 @@ Old:
       </tr> 
       <tr> 
       <td role="rowheader"><strong>筛选小时类型</strong> </td> 
-      <td> <p>请考虑以下事项：</p> <p>选择<strong>否</strong>以使所有项目特定的小时类型在将来项目中可用。 （这是默认选项）</p> <p>或</p> <p>选择<strong>是</strong>以仅使特定项目小时类型的子集可用于将来项目，然后选择要使其可用的小时类型。 （按住Shift键可选择多个小时类型。）</p> <p>如果选择此选项，则在记录项目（或项目中的任务和问题）的小时数时，只有您选择的小时类型才可供选择。 您必须至少选择一个小时类型；如果选择此选项，但未选择任何小时类型，则所有小时类型都将在项目上可用。</p> <p>必须在单个用户级别做出相同的小时类型选择，以便用户查看项目中的这些小时类型选项。 </p> <p>有关在用户级别定义小时类型的详细信息，请参阅<a href="../../../timesheets/create-and-manage-timesheets/log-time.md#understa" class="MCXref xref">记录时间</a>中的<a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">记录时间</a>部分。</p> </td> 
+      <td> <p>请考虑以下事项：</p> <p>选择<strong>否</strong>以使所有项目特定的小时类型在将来项目中可用。 （这是默认选项）</p> <p>或</p> <p>选择<strong>是</strong>以仅使特定项目小时类型的子集可用于将来项目，然后选择要使其可用的小时类型。 （按住Shift键可选择多个小时类型。）</p> <p>如果选择此选项，则在记录项目（或项目中的任务和问题）的小时数时，只有您选择的小时类型才可供选择。 您必须至少选择一个小时类型；如果选择此选项，但未选择任何小时类型，则所有小时类型都将在项目上可用。</p> <p>必须在单个用户级别做出相同的小时类型选择，以便用户查看项目中的这些小时类型选项。 </p> <p>有关在用户级别定义小时类型的详细信息，请参阅<a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">记录时间</a>中的<a href="../../../timesheets/create-and-manage-timesheets/log-time.md#understa" class="MCXref xref">记录时间</a>部分。</p> </td> 
       </tr> 
       <tr> 
       <td role="rowheader"><strong>提醒通知</strong> </td> 
@@ -531,7 +531,7 @@ Old:
 
    在禁用此选项时，具有将问题添加到从模板创建的项目的权限的用户可以使用“新建问题”按钮或与项目关联的请求队列来执行此操作。
 
-   有关配置项目中的问题设置的更多信息，请参阅[编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md#issue)一文中的[问题设置](../../../manage-work/projects/manage-projects/edit-projects.md)部分。
+   有关配置项目中的问题设置的更多信息，请参阅[编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md)一文中的[问题设置](../../../manage-work/projects/manage-projects/edit-projects.md#issue)部分。
 
    有关在项目中创建问题的信息，请参阅[创建问题](../../../manage-work/issues/manage-issues/create-issues.md)。
 
@@ -761,6 +761,8 @@ To edit templates in bulk:
 您可以将以下项目添加到模板中的任务：
 
 * 文档
+
+  有关详细信息，请参阅[编辑模板任务](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md)。
 * 费用
 
   有关添加费用的详细信息，请参阅[管理项目费用](../../../manage-work/projects/project-finances/manage-project-expenses.md)。
@@ -772,7 +774,7 @@ To edit templates in bulk:
 
 ## 激活或停用模板
 
-如果您希望用户无法找到模板并从中创建项目，可以取消激活模板。 您无法将已停用的模板附加到项目，也无法使用它来创建项目。
+如果您希望用户无法找到模板并从中创建项目，您可以停用模板。 您无法将已停用的模板附加到项目，也无法使用它来创建项目。
 
 已停用的模板不会影响使用它们创建的现有项目。
 

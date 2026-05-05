@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '2234'
+source-wordcount: '2239'
 ht-degree: 4%
 
 ---
@@ -108,7 +108,7 @@ Old:
 
    * 里程碑。
 
-* 您不能将模板任务从Workfront-storage模板复制或移动到Adobe-storage模板。 反之亦然。 并非所有客户都有这两种类型的存储。
+* 您不能将模板任务从Workfront-storage模板复制或移动到Adobe-storage模板。 反之亦然。 您的Workfront实例可能没有这两种类型的文档存储。
 
   有关信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
@@ -140,7 +140,7 @@ Old:
 
    >[!TIP]
    >
-   >您必须选取具有相似文档存储类型的模板。 不能将模板任务复制到存储类型与原始模板不同的模板。 并非所有客户都可以访问多种文档存储类型。
+   >您必须选取具有相似文档存储类型的模板。 不能将模板任务复制到存储类型与原始模板不同的模板。 您的Workfront实例可能没有这两种类型的文档存储。
    >
    >有关信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
@@ -267,7 +267,7 @@ Old:
    >
    >* 也可以开始键入参照编号或输入模板的ID。 这可帮助您区分具有相同名称的模板。
    >
-   >* 您必须选取具有相似文档存储类型的模板。 不能将模板任务复制到存储类型与原始模板不同的模板。 并非所有客户都可以访问多种文档存储类型。
+   >* 您必须选取具有相似文档存储类型的模板。 不能将模板任务复制到存储类型与原始模板不同的模板。 您的Workfront实例可能没有这两种类型的文档存储。
    >
    >有关信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
