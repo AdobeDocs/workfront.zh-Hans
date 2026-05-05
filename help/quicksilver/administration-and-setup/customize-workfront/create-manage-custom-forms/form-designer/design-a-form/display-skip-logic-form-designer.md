@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: ccdace08434cd2abc1290a1ae038ba20f0adbdf6
+source-git-commit: e5fb42aa8d9eae17e1bddbd9832bdf064bc4605e
 workflow-type: tm+mt
 source-wordcount: '3571'
 ht-degree: 0%
@@ -155,7 +155,7 @@ ht-degree: 0%
 
 请注意，```123abc```表示资源管理器的角色ID。
 
-为角色![&#128279;](assets/advanced-display-on-form1.png)显示的表单节
+为角色](assets/advanced-display-on-form1.png)显示的![表单节
 
 具有不同角色ID的相同条件将应用于“项目财务KPI”部分，以定义只有财务顾问角色可以查看该部分。
 
