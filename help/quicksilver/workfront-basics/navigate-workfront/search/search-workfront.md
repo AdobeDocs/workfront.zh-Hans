@@ -44,7 +44,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>[！UICONTROL View]对对象类型/td&gt;的访问权限 
+   <td>[!UICONTROL View]对对象类型/td&gt;的访问权限 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
@@ -138,7 +138,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>包括或</td> 
-   <td> <p>通过“OR”连接单词（不带引号）可让您仅查找与[！UICONTROL搜索]框中至少一个单词匹配的对象。 这些词可以按任意顺序输入。<br>例如，搜索“Marketing OR Demo”（不带引号）将查找具有以下名称的对象：</p> 
+   <td> <p>通过“OR”连接单词（不带引号）可让您仅查找与[!UICONTROL 搜索]框中至少一个单词匹配的对象。 这些词可以按任意顺序输入。<br>例如，搜索“Marketing OR Demo”（不带引号）将查找具有以下名称的对象：</p> 
     <ul> 
      <li> 市场分析演示</li> 
      <li>1月市场分析演示</li> 
@@ -148,7 +148,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>包含和</td> 
-   <td> <p>通过“AND”连接单词（不带引号）可让您仅查找与[！UICONTROL搜索]框中的所有单词匹配的对象。 这些词可以按任意顺序输入。<br>例如，搜索“Marketing AND Demo”（不带引号）将查找具有以下名称的对象：</p> 
+   <td> <p>通过“AND”连接单词（不带引号）可让您仅查找与[!UICONTROL 搜索]框中的所有单词匹配的对象。 这些词可以按任意顺序输入。<br>例如，搜索“Marketing AND Demo”（不带引号）将查找具有以下名称的对象：</p> 
     <ul> 
      <li>营销演示</li> 
      <li>演示营销</li> 
@@ -193,7 +193,7 @@ ht-degree: 2%
 
    ![按对象类型搜索](assets/search-by-object-type-2026.png)
 
-1. 在&#x200B;**[!UICONTROL 搜索]**框中，开始键入要搜索的信息。
+1. 在&#x200B;**[!UICONTROL 搜索]**&#x200B;框中，开始键入要搜索的信息。
 有关[!DNL Workfront]中搜索哪些字段的信息，请参阅本文中的以下部分：[了解搜索](#understand-search)。
    ![搜索下拉列表](assets/search-dropdown-suggestions-2026.png)
 
