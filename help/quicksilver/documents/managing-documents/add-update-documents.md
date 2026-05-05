@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 3%
@@ -86,7 +86,7 @@ ht-degree: 3%
 
 ## 在新建文档区域为文档添加更新
 
-如果您的组织使用企业存储，则当您访问Workfront中的文档时，将会看到“新建文档”区域。 有关企业存储的更多信息，请参阅[Adobe企业存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+如果您的组织使用企业存储，则当您访问Workfront中的文档时，将会看到新的“文档”区域。 有关企业存储的更多信息，请参阅[Adobe企业存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 1. 转到包含该文档的对象，然后在左侧面板中选择&#x200B;**文档**。
 1. 查找所需的文档，然后单击注释图标![注释图标](assets/new-doc-comment-icon.png)以打开“注释”面板。

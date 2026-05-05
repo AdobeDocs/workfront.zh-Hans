@@ -8,7 +8,7 @@ feature: Work Management, Digital Content and Documents
 exl-id: 6877ee90-9a70-4616-98f4-4b0ff932d79a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 3%
@@ -88,9 +88,9 @@ ht-degree: 3%
 </div>
 
 
-## 将审批人或审阅人移至“新建文档”区域中的审批工作流
+## 在新建文档区域将审批人或审阅人移入审批工作流
 
-如果您的组织使用企业存储，则当您访问Workfront中的文档时，将会看到“新建文档”区域。 有关企业存储的详细信息，请参阅[企业存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+如果您的组织使用企业存储，则当您访问Workfront中的文档时，将会看到新的“文档”区域。 有关企业存储的详细信息，请参阅[企业存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 要创建审批工作流，请执行以下操作：
 

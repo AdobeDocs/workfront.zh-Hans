@@ -6,7 +6,7 @@ description: 如果您通过Workfront Fusion创建项目并希望在项目上包
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 8%
@@ -20,7 +20,7 @@ ht-degree: 8%
 >[!NOTE]
 >
 >工作流仅在Adobe Experience Manager as a Cloud Service集成中可用。 它们不可用于与Adobe Experience Manager Assets Essentials的集成。<br>
->新文档区域不提供此功能。
+>此功能在新的“文档”区域中不可用。
 
 
 ## 访问权限要求

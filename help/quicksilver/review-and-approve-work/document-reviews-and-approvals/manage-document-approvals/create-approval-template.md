@@ -1,24 +1,23 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Create an approval workflow template for documents
-description: You can create Approval Templates to streamline your approval process.
+title: 为文档创建审批工作流模板
+description: 您可以创建批准模板以简化批准流程。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
+source-git-commit: 02d2b8fce60b469b8ea16c4302035371bed04175
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '350'
 ht-degree: 8%
 
 ---
 
-# Create an approval workflow template for documents
+# 为文档创建审批工作流模板
 
-In the Workfront Setup area, users with a Standard license can create reusable Approval Templates. Once created, Approval Templates can be applied to assets in the Documents area of a project, task, or issue.
-
+在Workfront设置区域中，具有Standard许可证的用户可以创建可重复使用的审批模板。 创建后，审批模板可应用于对象文档区域中的资产。
 >[!IMPORTANT]
 >
 >本文内容介绍更新的文档审批功能，该功能仅适用于特定帐户。 有关标准审批流程的信息，请参阅[工作审批](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md)中列出的文章。
@@ -50,19 +49,19 @@ In the Workfront Setup area, users with a Standard license can create reusable A
 +++
 ß
 
-## Create an Approval Template
+## 创建审批模板
 
 {{step-1-to-setup}}
 
-1. In the left panel, click **Review and Approval** > **Approval Templates**.
-1. Click **New Template** on the right side of the page.
+1. 在左侧面板中，单击&#x200B;**审阅和批准** > **批准模板**。
+1. 单击页面右侧的&#x200B;**新建模板**。
 
 1. 填写以下详细信息：
 
    <table>
      <tr>
    <td><strong>模板名称</strong></td>
-   <td>Add a template name. </td>
+   <td>添加模板名称。 </td>
    </tr>
    <tr>
    <td><strong>阶段名称</strong></td>
@@ -78,7 +77,7 @@ In the Workfront Setup area, users with a Standard license can create reusable A
    </tr>
    <tr>
    <td><strong>到期日期前的工作日</strong></td>
-   <td>Choose how many workdays until the approval is due after a stage is activated.</td>
+   <td>选择在激活阶段后批准到期之前的工作日数。</td>
    </tr>
    </table>
 
@@ -92,7 +91,7 @@ In the Workfront Setup area, users with a Standard license can create reusable A
 
 1. 单击&#x200B;**保存**。
 
-Once the template is created, it can be applied to documents in the Documents area of a project, task, or issue to begin the formal review and approval process in Workfront.
+创建模板后，可将其应用于对象的“文档”区域中的文档，以在Workfront中开始正式的审阅和批准流程。
 
 
 

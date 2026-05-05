@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: d475e0f0-112e-4d4e-b666-6e0af3ea7702
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 3%
@@ -75,24 +75,24 @@ ht-degree: 3%
 
    ![拖放文档版本](assets/drag-drop-doc-qs-350x145.png)
 
-   拖动新版本时，您可以将鼠标悬停在Workfront文档文件夹上以将其打开。 You can then scroll up and down by dragging the files to the top or bottom of the screen.
+   拖动新版本时，您可以将鼠标悬停在Workfront文档文件夹上以将其打开。 然后，可以通过将文件拖动到屏幕的顶部或底部来上下滚动。
 
-1. Drop the new version on top of the existing file on the **Documents** tab.
+1. 将新版本拖放到&#x200B;**文档**&#x200B;选项卡上的现有文件上。
 
-   For information about managing document versions, see [Manage document versions](../../documents/managing-documents/manage-document-versions.md).
+   有关管理文档版本的信息，请参阅[管理文档版本](../../documents/managing-documents/manage-document-versions.md)。
 
-### Use the More menu to add a new version
+### 使用“更多”菜单添加新版本
 
-1. Select the document where you want to add a new version.
-1. Click **Add New** > **Version**.
+1. 选择要添加新版本的文档。
+1. 单击&#x200B;**新增** > **版本**。
 
-   ![Add new version](assets/add-new-version-350x185.png)
+   ![添加新版本](assets/add-new-version-350x185.png)
 
-1. Select the type of document you want to upload, then follow the prompts.
+1. 选择要上载的文档类型，然后按照提示操作。
 
-## Upload a new document version in the new documents area
+## 在新文档区域上传新文档版本
 
-如果您的组织使用企业存储，则当您访问Workfront中的文档时，将会看到“新建文档”区域。 有关企业存储的更多信息，请参阅[Adobe企业存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+如果您的组织使用企业存储，则当您访问Workfront中的文档时，将会看到新的“文档”区域。 有关企业存储的更多信息，请参阅[Adobe企业存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 ### 使用拖放操作添加新版本
 
@@ -101,23 +101,23 @@ ht-degree: 3%
 >Internet Explorer无法执行拖放操作。
 
 1. 转到文档上传所在的文档区域。
-1. Drag the new version of the document on top of the existing version in Workfront.
+1. 将文档的新版本拖动到Workfront中现有版本的上方。
 
    ![拖放文档版本](assets/drag-drop-new-doc.png)
 
-1. Drop the new version on top of the existing file on the **Documents** tab.
+1. 将新版本拖放到&#x200B;**文档**&#x200B;选项卡上的现有文件上。
 
-   For information about managing document versions, see [Manage document versions](../../documents/managing-documents/manage-document-versions.md).
+   有关管理文档版本的信息，请参阅[管理文档版本](../../documents/managing-documents/manage-document-versions.md)。
 
-### Use the More menu to add a new version
+### 使用“更多”菜单添加新版本
 
-1. Select the document where you want to add a new version.
-1. Open the Show versions icon ![show versions icon](assets/show-versions.png) on the right.
-1. Click **Add New Version**.
+1. 选择要添加新版本的文档。
+1. 打开右侧的“显示版本”图标![显示版本图标](assets/show-versions.png)。
+1. 单击&#x200B;**添加新版本**。
 
-   ![Add new version](assets/new-version-new-doc.png)
+   ![添加新版本](assets/new-version-new-doc.png)
 
-1. Find your document, then click **Open**.
+1. 找到您的文档，然后单击&#x200B;**打开**。
 
 
 
