@@ -189,7 +189,7 @@ ht-degree: 1%
    </table>
 
 1. 在&#x200B;**计算**&#x200B;框中，开始生成计算：
-   1. 单击&#x200B;**最大化**以打开计算编辑器并构建计算。
+   1. 单击&#x200B;**最大化**&#x200B;以打开计算编辑器并构建计算。
 计算通常以表达式开头，后跟括号，其中包含将自定义表单附加到对象时要引用的字段。
 
       每个字段都必须用大括号括起来。 当您开始键入字段名称时，系统会提供建议，您可以选择一个来将其插入到计算中。
@@ -310,7 +310,7 @@ ht-degree: 1%
       >
       >您可以执行以下任一操作以获得有关计算的帮助：
       > 
-      >* 将鼠标悬停在计算中的表达式上可查看说明、如何使用该表达式的示例，以及文章[计算数据表达式概述](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)中有关更多信息&#x200B;**了解更多**链接。
+      >* 将鼠标悬停在计算中的表达式上可查看说明、如何使用该表达式的示例，以及文章[计算数据表达式概述](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)中有关更多信息&#x200B;**了解更多**&#x200B;链接。
       >  ![表达式帮助文本](assets/hover-expression-help-text.jpg)
       >* 使用颜色编码标识已添加的组件。 表达式以蓝色显示，字段以绿色显示。
       >  字段表达式的![颜色](assets/colors-fields-expressions.jpg)
