@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 97905e1606eb526b2b277b2c78076434741471da
+source-git-commit: abca776dd79dcb1b5ef7c59745719a0faee5c845
 workflow-type: tm+mt
-source-wordcount: '3930'
+source-wordcount: '3977'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Adobe企业存储的主要优势包括：
 
 #### Frame.io查看器支持的文件类型
 
-Frame.io查看器支持所有常见视频、图像、音频、PDF和MS® Office类型。 有关支持的文件的详细列表，请参阅Frame.io[&#128279;](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)上的支持的文件类型。
+Frame.io查看器支持所有常见视频、图像、音频、PDF和MS® Office类型。 有关支持的文件的详细列表，请参阅Frame.io](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)上的[支持的文件类型。
 
 #### Frame.io查看器的访问和许可
 
@@ -176,7 +176,7 @@ Workfront校对功能在此集成中不可用。
 
 * 必须在Adobe Unified Experience和Adobe企业存储上启用Workfront实例。
 
-* Workfront客户必须使用V2 SKU（这可能需要签订合同 — 请联系您的Adobe客户代表）。
+* Workfront客户必须使用V2 Workfront SKU。 如果贵组织尚未使用V2 Workfront SKU，则需要与Adobe签订合同事件以将V2 Workfront SKU添加到您的合同中。 请联系您的Adobe客户代表。
 
 **我是否需要Frame.io许可证才能使用此集成？**
 
@@ -194,13 +194,13 @@ Workfront校对功能在此集成中不可用。
 
 **我需要做什么才能获得访问权限？**
 
-要访问统一的审核和批准，您的组织必须位于Workfront V2 SKU上。 如果您当前不在V2 SKU上，则需要与Adobe签订合同事件。 若要开始，请执行以下操作：
+要访问统一的审核和批准，您的组织必须位于V2 Workfront SKU上。 任何尚未使用V2 Workfront SKU的组织必须与Adobe签订合同来添加V2 Workfront SKU。 若要开始，请执行以下操作：
 
-* 请联系您的Adobe客户代表，以确认您当前的Workfront计划是否支持统一审查和批准。
+* 请联系您的Adobe客户代表，以确认您当前的Workfront合同是否位于V2 Workfront SKU上。
 
-* 如果需要升级SKU，您的客户代表将指导您完成合同过程。
+* 如果贵组织不在V2 Workfront SKU上，您的客户代表将指导您完成添加它所需的合同事件。
 
-* 一旦您的帐户使用正确的SKU后，Adobe Professional Services将为您的组织配置集成。
+* 合同中包含V2 Workfront SKU后，Adobe Professional Services将为您的组织配置集成。
 
    * 如果您不确定您的Adobe客户代表是谁，可以通过Adobe支持门户联系或访问Experience League以了解联系人选项。
 
@@ -491,23 +491,23 @@ Frame.io专为创意评论而构建，这意味着它可处理营销和创意团
 
 **我何时可以使用统一审阅和批准？**
 
-统一审查和批准功能现已可用。 访问需要升级到Workfront V2 SKU。 如果您的合同是在V2 SKU可用之前签署的，则可以通过以下两种方式之一获得访问权限：
+统一审查和批准功能现已可用。 访问需要V2 Workfront SKU。 如果您的合同是在V2 Workfront SKU可用之前签署的，则添加V2 Workfront SKU需要与Adobe签订合同事件。 有两种路径：
 
-* 续订后：将在您下次合同续订日期启用访问。
+* 续订后：V2 Workfront SKU将在您下次合同续订日期添加。
 
-* 提前重新合同：您的Adobe客户团队可以提前重新合同，在保留现有合同结束日期的同时添加新的SKU权利。 转向同等套餐时，价格不会上涨。
+* 提前重新合同：您的Adobe客户团队可以提前重新合同，在保留现有合同结束日期的同时添加V2 Workfront SKU权利。 转向同等套餐时，价格不会上涨。
 
 请联系您的Adobe客户代表以确定适合您组织的最佳路径。
 
 <!--
 **Before we sign the contract, what changes will we see in Workfront?**
 
-Before signing the V2 SKU contract, your Workfront instance will continue to operate using the existing document and proofing experience. No unified review and approval features---such as the Frame.io viewer, Adobe enterprise storage, or multi-stage approval templates---will be available until the V2 SKU is contracted and Adobe Professional Services configures the integration for your organization.
+Before signing the V2 Workfront SKU contract, your Workfront instance will continue to operate using the existing document and proofing experience. No unified review and approval features---such as the Frame.io viewer, Adobe enterprise storage, or multi-stage approval templates---will be available until the V2 Workfront SKU is contracted and Adobe Professional Services configures the integration for your organization.
 -->
 
-**升级到V2 SKU是否为我提供了更多存储空间？**
+**升级到V2 Workfront SKU是否为我提供了更多存储空间？**
 
-可以。 使用V2 SKU，每个获得许可的用户可接收60 GB的存储，而上一版本中为30 GB。
+可以。 使用V2 Workfront SKU，每个获得许可的用户可接收60 GB的存储，而之前版本中为30 GB。
 
 **如何在Adobe企业级存储与旧版Workfront存储之间进行选择？**
 
@@ -519,7 +519,7 @@ Before signing the V2 SKU contract, your Workfront instance will continue to ope
 
 **如何管理Frame.io许可证？**
 
-签署V2 SKU后，所有Workfront用户都将有权访问Frame.io查看器以查看和批准工作流 — 此操作不需要单独的Frame.io Enterprise许可证。
+签署V2 Workfront SKU后，所有Workfront用户都将有权访问Frame.io查看器以查看和批准工作流 — 此操作不需要单独的Frame.io Enterprise许可证。
 
 如果您的组织需要其他Frame.io Enterprise功能，例如
 
