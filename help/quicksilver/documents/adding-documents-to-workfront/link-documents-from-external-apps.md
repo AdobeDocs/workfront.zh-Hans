@@ -8,9 +8,9 @@ feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 500bf31ff0cff309cb0cdda063503abb297f858c
 workflow-type: tm+mt
-source-wordcount: '2592'
+source-wordcount: '2636'
 ht-degree: 1%
 
 ---
@@ -122,7 +122,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Dropbox根据文件路径存储文档。 因此，如果移动、重命名或删除了从Dropbox链接的文件，则该文件将在Workfront中变得不可访问。
+>* Dropbox根据文件路径存储文档。 因此，如果移动、重命名或删除了从Dropbox链接的文件，则该文件将在Workfront中变得不可访问。
+>* 不支持在文件选取器中浏览共享的OneDrive文件夹。 要链接已与您共享的文件，请使用OneDrive文件选取器中的搜索栏，按名称查找该文件，然后选择该文件以将其添加到Workfront。
+
 
 1. 转到Workfront中您想要获取文档的&#x200B;**文档**&#x200B;区域。
 1. 单击“新建”**&#x200B;**，然后单击要将文档链接到Workfront的外部文档提供商。
