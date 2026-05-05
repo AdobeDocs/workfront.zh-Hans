@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: e6aa40917f2e4421c84d2cc36e86187328c6f775
+source-git-commit: 2a08a1139664517b9ccf41121e8bb0dc686028ab
 workflow-type: tm+mt
-source-wordcount: '2714'
+source-wordcount: '2720'
 ht-degree: 1%
 
 ---
@@ -171,7 +171,7 @@ ht-degree: 1%
      </tr>
      <tr>
       <td>自动权限</td>
-      <td><p>启用此选项可允许财务权限自动来自公式中使用的字段。 权限定义显示在下面的“财务权限类型”字段中。</p><p>需要访问公式中的所有字段。 例如，如果在计算字段中使用了两个字段，其中一个字段应用了计费权限，而另一个字段应用了成本权限，则用户必须具有查看计费和成本费率的权限才能查看计算值。</p></td>
+      <td><p>启用此选项可允许财务权限自动来自公式中使用的字段。 权限定义显示在下面的“财务权限类型”字段中。</p><p>需要访问公式中的所有字段。 例如，如果计算字段使用两个字段，一个具有计费权限，另一个具有成本权限，则用户必须具有查看这两个字段的权限才能查看计算值。</p></td>
      </tr>
      <tr>
       <td>财务权限类型</td>
@@ -189,7 +189,7 @@ ht-degree: 1%
    </table>
 
 1. 在&#x200B;**计算**&#x200B;框中，开始生成计算：
-   1. 单击&#x200B;**最大化**&#x200B;以打开计算编辑器并构建计算。
+   1. 单击&#x200B;**最大化**以打开计算编辑器并构建计算。
 计算通常以表达式开头，后跟括号，其中包含将自定义表单附加到对象时要引用的字段。
 
       每个字段都必须用大括号括起来。 当您开始键入字段名称时，系统会提供建议，您可以选择一个来将其插入到计算中。
@@ -310,7 +310,7 @@ ht-degree: 1%
       >
       >您可以执行以下任一操作以获得有关计算的帮助：
       > 
-      >* 将鼠标悬停在计算中的表达式上可查看说明、如何使用该表达式的示例，以及文章&#x200B;**计算数据表达式概述**&#x200B;中有关更多信息[了解更多](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)链接。
+      >* 将鼠标悬停在计算中的表达式上可查看说明、如何使用该表达式的示例，以及文章[计算数据表达式概述](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)中有关更多信息&#x200B;**了解更多**链接。
       >  ![表达式帮助文本](assets/hover-expression-help-text.jpg)
       >* 使用颜色编码标识已添加的组件。 表达式以蓝色显示，字段以绿色显示。
       >  字段表达式的![颜色](assets/colors-fields-expressions.jpg)
