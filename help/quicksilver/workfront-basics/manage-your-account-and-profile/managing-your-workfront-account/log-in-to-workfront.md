@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
+source-git-commit: d6890caed6fea2ed696c0b07674f4014f0e293a4
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '222'
 ht-degree: 5%
 
 ---
@@ -19,11 +19,35 @@ ht-degree: 5%
 
 <!--Audited: 2024-->
 
+一个登录用于Workfront和所有Adobe CX Enterprise应用程序。
+
+有关信息，请参阅[CX Enterprise界面和管理](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/experience-cloud)。
+
+## 访问[!DNL Workfront]
+
+登录到CX Enterprise后，您可以通过单击顶部导航区域中的组织切换器，查看您有权访问的所有[!DNL Workfront]组织和环境。 选择要使用的[!DNL Workfront]组织或环境。 如果您的组织使用[!UICONTROL 预览]和[!UICONTROL 沙盒]环境。
+
+![查看[!DNL Workfront]组织和环境](assets/wf-org-instance-switcher-2026.png)
+
+>[!NOTE]
+>
+>第一次登录到CX Enterprise时，组织将默认使用按字母顺序排列的第一个组织。 下次登录时，组织将默认为您访问的最后一个组织。
+
+[!DNL Workfront]出现在您有权访问的CX Enterprise产品列表中。 您可以在CX Enterprise主页上的“快速访问”菜单中选择[!DNL Workfront]，或者使用产品切换器![产品切换器](assets/main-menu-icon.png)随时更改应用程序。
+
+![选择[!DNL Workfront]以访问应用程序](assets/cx-enterprise-home-2026.png)
+
+>[!NOTE]
+>
+>如果浏览器选项卡会话在您已打开Workfront的页面中过期，并且在另一个浏览器选项卡中处于活动状态Workfront会话，则您可以重新加载已过期的选项卡以重新打开Workfront页面。
+
+<!--
 >[!IMPORTANT]
 >
->此页面上描述的过程已被删除，因为它仅适用于尚未载入Adobe Admin Console的组织。
+>The procedure described on this page has been removed because it applied only to organizations that were not yet onboarded to the Adobe Admin Console. 
 >
->现在，所有Workfront组织都已登记到Adobe Admin Console。
+>All Workfront organizations have now been onboarded to the Adobe Admin Console.
+-->
 
 <!--DELETE ME MARCH 2026-->
 
