@@ -6,7 +6,7 @@ description: 在Experience Manager Assets Essentials集成中使用工作流
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '1023'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 >[!NOTE]
 >
 >工作流仅在Adobe Experience Manager as a Cloud Service集成中可用。 它们不可用于与Adobe Experience Manager Assets Essentials的集成。<br>
->新文档区域不提供此功能。
+>此功能在新的“文档”区域中不可用。
 
 
 ## 访问权限要求
@@ -74,52 +74,52 @@ ht-degree: 2%
 
 ## 将工作流添加到模板
 
-您可以将工作流添加到项目模板。 The workflow will be applied to any projects created from the template.
+您可以将工作流添加到项目模板。 该工作流将应用于从该模板创建的任何项目。
 
-1. Open a template by clicking **Templates** in the Main Menu, then selecting the template from the list.
-1. Click **Experience Manager Assets** in the left navigation panel.
+1. 在主菜单中单击&#x200B;**模板**，然后从列表中选择模板以打开模板。
+1. 在左侧导航面板中单击&#x200B;**Experience Manager Assets**。
 
    >[!NOTE]
    >
-   >If the Experience Manager Assets section is not visible in the left navigation, your Workfront administrator has not enabled workflows for your organization. <!--Is this right?-->
+   >如果Experience Manager Assets部分在左侧导航中不可见，则表示Workfront管理员尚未为贵组织启用工作流。<!--Is this right?-->
 
-1. In the **Select an integration for automated workflows field**, select the integration with the workflows you want to use for projects created from this template.
-1. (Optional) Edit any workflow values that you want to apply to projects created from this template.
+1. 在&#x200B;**为自动化工作流选择集成**&#x200B;字段中，选择要用于从此模板创建的项目的工作流的集成。
+1. （可选）编辑要应用于从此模板创建的项目的任何工作流值。
 
-   For instructions on specific workflows, see [Edit workflow values in a project](#edit-workflow-values-in-a-project) in this article.
+   有关特定工作流的说明，请参阅本文中的[编辑项目中的工作流值](#edit-workflow-values-in-a-project)。
 
-   Only workflows that have been activated in the Experience Manager area of Setup are available in templates or projects.
+   只有已在“设置”的“Experience Manager”区域中激活的工作流才能用于模板或项目。
 
-1. Your changes save automatically. <!-- do they though??-->
+1. 您的更改会自动保存。<!-- do they though??-->
 
-## Add a workflow to a project
+## 将工作流添加到项目
 
-You can add a workflow when creating a project, or add a workflow to an existing project. In both cases, you will use a project template to add the workflow.
+您可以在创建项目时添加工作流，或将工作流添加到现有项目。 在这两种情况下，您都将使用项目模板来添加工作流。
 
-### Add a workflow when creating a project
+### 创建项目时添加工作流
 
-1. Begin creating a project.
+1. 开始创建项目。
 
-   For instructions, see [Create a project using a template](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
+   有关说明，请参阅[使用模板创建项目](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md)。
 
-1. When selecting a template for the project, select the template that contains the workflows you want to use for this project.
-1. (Optional) Edit any workflow values for the project, as described in [Edit workflow values in a project](#edit-workflow-values-in-a-project).
+1. 为项目选择模板时，请选择包含要用于此项目的工作流的模板。
+1. （可选）编辑项目的任何工作流值，如[编辑项目中的工作流值](#edit-workflow-values-in-a-project)中所述。
 
-   Only workflows that have been activated in the Experience Manager area of Setup are available in templates or projects.
+   只有已在“设置”的“Experience Manager”区域中激活的工作流才能用于模板或项目。
 
 
-### Add a workflow to an existing project
+### 将工作流添加到现有项目
 
 >[!NOTE]
 >
->Workflows that run when a project is created (such as linked folder creation) do not run when the template is attached to an existing project. They only run when a project is created from a template.
+>创建项目时运行的工作流（例如链接文件夹创建）不会在模板附加到现有项目时运行。 它们仅在从模板创建项目时运行。
 
-1. Begin adding a template to the project.
+1. 开始向项目中添加模板。
 
-   For instructions, see [Attach a template to a project](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+   有关说明，请参阅[将模板附加到项目](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md)。
 
-1. When selecting a template for the project, select the template that contains the workflows you want to use for this project.
-1. (Optional) Edit any workflow values for the project, as described in [Edit workflow values in a project](#edit-workflow-values-in-a-project).
+1. 为项目选择模板时，请选择包含要用于此项目的工作流的模板。
+1. （可选）编辑项目的任何工作流值，如[编辑项目中的工作流值](#edit-workflow-values-in-a-project)中所述。
 
    只有已在“设置”的“Experience Manager”区域中激活的工作流才能用于模板或项目。
 

@@ -6,7 +6,7 @@ description: 您可以从Adobe Experience Manager Assets中取消链接或删除
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: f082be12-2adc-4234-a01a-7543c032a35a
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->新文档区域不提供此功能。
+>此功能在新的“文档”区域中不可用。
 
 ## 删除Workfront中的链接文档或文件夹
 
@@ -34,8 +34,8 @@ ht-degree: 0%
 
 从外部应用程序中删除链接的文档或文件夹时，该文档或文件夹将保留在Workfront系统中，直到您也从Workfront中删除它为止。
 
-* 要从Adobe Experience Manager as a Cloud Service中删除资源，请参阅Adobe Experience Manager as a Cloud Service文档中的[删除资源](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#delete-assets)。
-* 要从Adobe Experience Manager Assets Essentials中删除资源，请参阅Adobe Experience Manager Assets Essentials文档中的[删除资源或文件夹](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-assets-essentials/help/add-delete#delete-assets)。
+* 要从Adobe Experience Manager as a Cloud Service中删除资源，请参阅Adobe Experience Manager as a Cloud Service文档中的[删除资源](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#delete-assets)。
+* 要从Adobe Experience Manager Assets Essentials中删除资源，请参阅Adobe Experience Manager Assets Essentials文档中的[删除资源或文件夹](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/add-delete#delete-assets)。
 
 
 

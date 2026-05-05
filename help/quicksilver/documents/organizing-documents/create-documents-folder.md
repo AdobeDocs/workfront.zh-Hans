@@ -2,13 +2,13 @@
 product-area: documents
 navigation-topic: organize-documents
 title: 创建文档文件夹
-description: Documents can be organized into folders. You can create personal folders in your personal Documents area.
+description: 可以将文档组织到文件夹中。 您可以在个人文档区域中创建个人文件夹。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 2%
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # 创建文档文件夹
 
-Documents can be organized into folders. Workfront当前具有两个版本的文档区域：旧版文档区域和新版文档区域。 您的企业使用的版本取决于您的企业使用的是旧版Workfront存储还是企业级存储。 有关这些存储类型的详细信息，请参阅[Adobe企业存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+可以将文档组织到文件夹中。 Workfront目前有两个版本的“文档”区域：旧版文档区域和新版文档区域。 您的企业使用的版本取决于您的企业使用的是旧版Workfront存储还是企业级存储。 有关这些存储类型的详细信息，请参阅[Adobe企业存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 ## 访问权限要求
 
@@ -36,10 +36,10 @@ Documents can be organized into folders. Workfront当前具有两个版本的文
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td> 
    <p>参与者或更高版本</p>
-   <p>Review or higher</p> </td> 
+   <p>审核或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader">访问级别配置*</td> 
    <td> <p>编辑对文档的访问权限</p> </td> 
   </tr> 
  </tbody> 
@@ -49,23 +49,23 @@ Documents can be organized into folders. Workfront当前具有两个版本的文
 
 +++
 
-## Create document folders in the legacy documents area
+## 在旧文档区域创建文档文件夹
 
-If your organization is on legacy Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about legacy Workfront storage, see [Differences between Adobe enterprise storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
+如果您的组织位于旧版Workfront存储中，则当您访问Workfront中的文档时，将会看到旧版文档区域。 有关旧版Workfront存储的详细信息，请参阅[Adobe企业存储与旧版Workfront存储之间的差异](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage)。
 
 >[!NOTE]
 >
->Organizing documents simply creates links between the documents and the objects you associate them with. It does not relocate them in the system.
+>组织文档只是创建文档与关联它们的对象之间的链接。 它不会在系统中重新定位它们。
 
-### Display folders
+### 显示文件夹
 
-You can display folders in thumbnail, standard, or list view. To change the view, use the view options in the upper-right corner.
+您可以在缩略图、标准或列表视图中显示文件夹。 要更改视图，请使用右上角的视图选项。
 
 {{step1-to-documents}}
 
 或
 
-With a Workfront object open, click **Documents** in the left panel.
+打开Workfront对象后，单击左侧面板中的&#x200B;**文档**。
 
 1. 单击右侧面板上方的查看选项可更改文档的显示方式。
 
@@ -91,9 +91,9 @@ With a Workfront object open, click **Documents** in the left panel.
 
 有关共享文件夹的信息，请参阅[共享文档文件夹](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)。
 
-## 在新文档区域创建文档文件夹
+## 在新建文档区域创建文档文件夹
 
-如果您的组织使用企业存储，则当您访问Workfront中的文档时，将会看到“新建文档”区域。 有关企业存储的更多信息，请参阅[Adobe企业存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+如果您的组织使用企业存储，则当您访问Workfront中的文档时，将会看到新的“文档”区域。 有关企业存储的更多信息，请参阅[Adobe企业存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 ### 系统生成的文件夹
 
@@ -142,7 +142,7 @@ With a Workfront object open, click **Documents** in the left panel.
 
    ![移动文件夹](assets/rename-folder.png)
 
-<!-- STEPS PLACEHOLDER: Add steps for moving a folder in the new documents area -->
+<!-- STEPS PLACEHOLDER: Add steps for moving a folder in the new Documents area -->
 
 ### 删除文件夹
 
