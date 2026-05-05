@@ -155,7 +155,7 @@ ht-degree: 0%
 
 请注意，```123abc```表示资源管理器的角色ID。
 
-为角色](assets/advanced-display-on-form1.png)显示的![表单节
+为角色![&#128279;](assets/advanced-display-on-form1.png)显示的表单节
 
 具有不同角色ID的相同条件将应用于“项目财务KPI”部分，以定义只有财务顾问角色可以查看该部分。
 
