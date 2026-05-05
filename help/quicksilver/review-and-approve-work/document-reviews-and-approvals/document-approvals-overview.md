@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
+source-git-commit: 97905e1606eb526b2b277b2c78076434741471da
 workflow-type: tm+mt
-source-wordcount: '3890'
+source-wordcount: '3930'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Adobe企业存储的主要优势包括：
 
 #### Frame.io查看器支持的文件类型
 
-Frame.io查看器支持所有常见视频、图像、音频、PDF和MS® Office类型。 有关支持的文件的详细列表，请参阅Frame.io[&#128279;](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)上的支持的文件类型。
+Frame.io查看器支持所有常见视频、图像、音频、PDF和MS® Office类型。 有关支持的文件的详细列表，请参阅Frame.io](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)上的[支持的文件类型。
 
 #### Frame.io查看器的访问和许可
 
@@ -102,6 +102,7 @@ Workfront校对功能在此集成中不可用。
 * 如果项目和项目属于同一项目组合，则它们不能具有相同的名称。
 * 如果文档属于同一项目，则不能具有相同的名称。
 * 对象名称不能包含以下任何特殊字符： \ / ： * ？ &quot; | &lt; >
+* 项目、项目组合、模板、任务、问题和文档文件夹不能包含以句点或空格结尾的名称。
 * 对象名称限制为最多255个字符。
 
 考虑到这些限制，Workfront会根据需要自动重命名对象或文档，以防止冲突。
@@ -403,6 +404,8 @@ Adobe企业存储的主要优势包括：
 * 同一项目中的文档不能共享名称。
 
 * 程序、项目组合、项目、模板、任务、问题、文档、文档文件夹名称不能包含以下特殊字符：`\ / : * ? " | < >`并且限制为255个字符。
+
+* 项目群、项目组合、项目、模板、任务、问题和文档文件夹的名称不能以句点或空格结尾。
 
 Workfront会根据需要自动重命名对象或文档，以防止冲突。
 
