@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: da46d6784350c8394330799fe2177e82d3519041
+source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 4%
+source-wordcount: '601'
+ht-degree: 3%
 
 ---
 
@@ -120,11 +120,18 @@ old permissions model:
 1. 单击&#x200B;**选择“文件”**，然后浏览计算机上从Microsoft项目导出的.xml文件。
 1. 导入选定的文件。 Workfront将开始导入过程，并根据从Microsoft项目导出的文件创建新项目。
 
-   导入过程完成后，您将被定向到新的项目页面，该页面会显示已成功完成导入的确认信息。
-
    >[!NOTE]
    >
    >Workfront的文件上传时间限制为15分钟。 如果文件上传时间超过此时间，我们建议您将项目拆分为多个较小的项目并单独导入它们。 在将任务导入Workfront后，请将任务从一个项目移动到另一个项目以将它们组合到一个项目中。 有关移动任务的信息，请参阅[移动任务](../../../manage-work/tasks/manage-tasks/move-tasks.md)。
+
+   导入过程完成后，您将被定向到新的项目页面，该页面会显示已成功完成导入的确认信息。
+
+   >[!CAUTION]
+   >
+   >如果您的Workfront实例同时具有Workfront和Adobe文档存储的访问权限，则从MS Project导入项目会创建一个Workfront存储项目，即使Workfront管理员将Adobe企业存储设置为系统的默认存储也是如此。
+   >
+   >有关详细信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
+
 
 1. （可选）继续在Workfront中编辑项目。 有关编辑项目的信息，请参阅[编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md)。
 
