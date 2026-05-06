@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 1a498abcf4a9ef8940eb2da09da42636253e557a
+source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 5%
+source-wordcount: '635'
+ht-degree: 4%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 5%
 
 此页面上的增强功能在“预览”环境中可用。 随着2026年第三季度版本接近其计划发布的生产版本，此页面将进行额外的增强。
 
-每个季度版本均会召开实时网络研讨会，这些研讨会会重点介绍新增功能并提供详细信息。 若要注册，请访问[事件页面](https://experienceleague.adobe.com/zh-hans/events?filters=Workfront)并筛选Workfront。
+每个季度版本均会召开实时网络研讨会，这些研讨会会重点介绍新增功能并提供详细信息。 若要注册，请访问[事件页面](https://experienceleague.adobe.com/en/events?filters=Workfront)并筛选Workfront。
 
 >[!IMPORTANT]
 >
@@ -76,7 +76,7 @@ ht-degree: 5%
             <td><strong>每季度</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md" class="MCXref xref" xrefformat="{para}">预定义视图已添加到“请求”区域和“我的请求”小组件中的请求列表中</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md" class="MCXref xref" xrefformat="{para}">预定义视图已添加到“请求”区域和“我的请求”小组件中的请求列表中</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
                 <p>为了帮助您更好地组织请求列表，我们已将预定义视图添加到请求区域的请求列表中，并将我的请求构件添加到主页。</p>
             </td>
             <td><p>2026年4月23日</p></td>
@@ -106,7 +106,6 @@ New features in Workfront Planning are available in Production. For more informa
 
 在这个版本中，以下内容暂无更新：
 
-* Workfront Planning
 * 场景计划器
 * 校样
 * 目标
@@ -141,10 +140,10 @@ Workfront API版本21于2025年10月23日发布。 对于API版本21，我们修
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hans).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
 ### 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hans)的“新增功能”部分。
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的“新增功能”部分。

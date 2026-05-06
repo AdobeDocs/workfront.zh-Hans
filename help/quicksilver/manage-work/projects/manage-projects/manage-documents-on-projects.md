@@ -6,9 +6,9 @@ description: 根据您的Workfront管理员是否选择将文档存储在旧版W
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1631'
 ht-degree: 0%
 
 ---
@@ -124,7 +124,7 @@ Not sure we need these since this became an overview article:
 
 有关详细信息，请参阅[Adobe企业存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
-以下部分介绍了当Workfront和Workfront企业级存储选项都就绪后，文档存储如何用于Adobe对象。
+以下部分介绍了在同一环境中同时存在Workfront和Workfront企业级存储选项时，文档存储如何用于Adobe对象。
 
 ### 项目的文档管理
 
@@ -133,6 +133,8 @@ Not sure we need these since this became an overview article:
 * 创建Adobe企业存储项目时，Workfront会在项目的“文档”部分中创建一个用于保存文档的文件夹。 文件夹名称与项目同名。 无法删除或手动重命名文件夹。 如果更改项目名称以匹配项目的新名称，则将重命名文件夹。
 * 在创建Adobe企业存储项目或将项目移动到旧版Workfront存储产品组合或项目群时，该项目组合或项目群会自动转换为Adobe企业存储对象。
 * 您无法为Workfront企业存储产品组合或项目群创建Adobe存储项目。
+* 从MS Project导入项目时，Workfront会创建一个Workfront存储项目，即使Workfront管理员将Adobe企业存储设置为系统的默认存储空间也是如此。
+* 当您使用Workfront Planning自动化功能创建项目时，Workfront会使用您系统的默认项目存储首选项。 您必须购买Planning包才能访问Workfront Planning。
 
 ### 项目组合的文档管理
 
@@ -142,15 +144,17 @@ Not sure we need these since this became an overview article:
 * 在创建Adobe企业级存储项目或将项目移动到旧版Workfront存储产品组合时，该项目组合会自动转换为Adobe企业级存储对象。
 * 如果转换后的产品组合以前附加过文档，则这些文档将继续存储在Workfront存储中。 新文档还存储在Workfront存储中。
 * 如果转换后的产品组合没有在Workfront存储中附加文档，则新文档将存储在Adobe企业存储中。
+* 当您使用Workfront Planning自动化创建项目组合时，Workfront会使用您系统的项目组合默认存储偏好设置。 您必须购买Planning包才能访问Workfront Planning。
 
 ### 方案的文档管理
 
 使用程序时，请考虑以下事项：
 
-* 创建Adobe企业存储程序时，Workfront会在程序的“文档”部分创建一个文件夹，用于保存文档。 文件夹名称与程序同名。 无法删除或手动重命名文件夹。 如果更改项目名称，将重命名文件夹，以匹配项目的新名称。
+* 创建Adobe企业存储程序时，Workfront会在程序的“文档”部分创建一个文件夹，用于保存文档。 文件夹名称与项目的名称相同。 无法删除或手动重命名文件夹。 如果更改项目名称，将重命名文件夹，以匹配项目的新名称。
 * 在创建Adobe企业级存储项目或将项目移动到旧版Workfront存储产品组合时，该项目组合会自动转换为Adobe企业级存储对象。
 * 如果转换后的程序以前附加过文档，则这些文档将继续存储在Workfront存储中。 新文档还存储在Workfront存储中。
 * 如果转换后的程序未在Workfront存储中附加任何文档，则新文档将存储在Adobe企业存储中。
+* 当您使用Workfront Planning自动化创建程序时，Workfront会使用您系统的默认程序存储首选项。 您必须购买Planning包才能访问Workfront Planning。
 
 ### 任务的文档管理
 
@@ -171,6 +175,7 @@ Not sure we need these since this became an overview article:
 * 您可以重命名文档文件夹，并将其从Adobe企业存储问题中删除，这也会删除文件夹中的文档。 在将新文档添加到问题中后，会自动重新创建文件夹。 已删除的文档不会放回文件夹中。
 * 对于Adobe企业存储项目，问题中的文档文件夹显示为自动为项目创建的documents文件夹中的子文件夹。
 * 您无法将问题从Workfront存储项目复制或移动到Adobe存储项目。 反之亦然。
+* 当您提交带有附加到Workfront存储项目的文档的请求时，该请求的“文档”区域将使用项目的存储类型显示文档，即使系统存储默认首选项为Adobe企业也是如此。
 
 ### 项目模板的文档管理
 

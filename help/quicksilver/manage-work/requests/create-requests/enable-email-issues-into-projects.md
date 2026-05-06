@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '840'
 ht-degree: 2%
 
 ---
@@ -103,7 +103,7 @@ ht-degree: 2%
 
    此电子邮件地址会接收有关未能提交到项目的电子邮件的信息。
 
-1. 单击 **Save**。现在，当具有活动Workfront帐户的用户向此电子邮件地址发送电子邮件时，会在Workfront项目中创建问题。
+1. 单击 **Save**。 现在，当具有活动Workfront帐户的用户向此电子邮件地址发送电子邮件时，会在Workfront项目中创建问题。
 
    >[!NOTE]
    >
@@ -121,7 +121,9 @@ ht-degree: 2%
 
   >[!NOTE]
   >
-  > MSG文件不受支持，并且不会附加到Workfront中的问题。
+  >* MSG文件不受支持，并且不会附加到Workfront中的问题。
+  >
+  >* 如果您的环境同时具有旧版Workfront和Adobe企业文档存储的访问权限，则无论管理员在“设置”区域为您的默认存储首选项选择了什么，请求都将从项目继承其文档存储类型。 有关信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
 * 在Workfront中，发送电子邮件的用户会成为新问题的主要联系人。
 * 电子邮件的正文不能超过4,000个字符。

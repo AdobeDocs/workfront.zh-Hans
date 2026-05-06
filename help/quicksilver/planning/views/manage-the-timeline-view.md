@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
 workflow-type: tm+mt
-source-wordcount: '4007'
+source-wordcount: '4035'
 ht-degree: 2%
 
 ---
@@ -183,7 +183,7 @@ Old:
      >
      >此消息应在您的组织购买后立即显示。在购买前已启用了计划和自定义季度。 为您的组织启用Workfront规划后，不允许季度之间出现重叠和间隔。
 
-   * 如果季度已部分设置，并且同一年中的某些月份缺失，您可能会在滚动显示本年度其余时间需要使用缺失的季度来设置缺失的季度时收到通知。
+   * 如果季度已部分设置，并且同一年中的某些月份缺失，您可能会在滚动显示本年度剩余时间需要使用缺失的季度来设置缺失的季度时收到通知。
 
    ![时间线视图上缺少自定义季度原始消息](assets/missing-custom-quarters-original-message-on-timeline-view.png)
 
@@ -195,7 +195,7 @@ Old:
    >在“设置”区域中设置自定义季度后，时间线视图显示自定义季度，而不是传统季度。
    >有关信息，请参阅[启用自定义季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
-1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”**&#x200B;**，然后要求您的Workfront管理员设置自定义季度。
+1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”****，然后要求您的Workfront管理员设置自定义季度。
 
    >[!TIP]
    >
@@ -287,7 +287,7 @@ Old:
 1. 选择一个时间线视图，然后单击表右上角的&#x200B;**筛选器**。
 1. 单击&#x200B;**添加条件**&#x200B;并添加以下信息：
 
-   * **选择一个字段**&#x200B;以搜索某个字段，或从列表中选择该字段。
+   * **选择一个字段**&#x200B;以搜索某个字段并从列表中选择该字段。
 
    * **选择选项**（或筛选器修饰符）以定义字段必须满足的条件类型。
 
@@ -372,7 +372,7 @@ Old:
 
       ![视图中的多层筛选器](assets/multi-tiered-filters-in-views.png)
 
-   系统会根据您的筛选条件自动筛选记录列表。 <!--at this time, you can't name and save the filter - but will this change?!-->
+   系统会根据您的筛选条件自动筛选记录列表。  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. （可选）单击&#x200B;**x**&#x200B;图标可删除筛选条件。
@@ -389,7 +389,7 @@ Old:
 
 * 可以在表格视图和时间线视图中应用分组。 表格视图的分组独立于相同记录类型的时间线视图中的分组。
 * 您可以在视图中应用3个级别的分组。 这些记录按您选择的分组顺序分组。
-&lt;!—*在使用API时，您最多可以应用4个级别的分组。  — 现在查看此项 — >
+&lt;！—！—*使用API时，您最多可以应用4个级别的分组。  — 现在查看此项 — >
 * 这些分组对于您选择的视图是唯一的。 同一记录类型的两个表视图可以应用不同的分组。 查看同一表格视图的两个用户会看到当前应用的相同分组。
 * 不能为表视图命名您构建的分组。
 * 删除分组会将其从与您访问相同记录类型以及显示与您相同视图的任何人中删除。
@@ -567,8 +567,8 @@ this is not possible right now; if this is the same functionality as the table v
 * 仅当在“标准”模式下查看记录时，才可以在时间轴视图中显示连接的记录。 在时间轴视图的紧凑模式下，不能使用划分选项。
 * 使用“划分”功能，可在时间轴视图中显示以下内容：
    * 连接到所选记录类型的Workfront Planning记录。
-   * 连接到所选记录类型的Workfront对象类型或Experience Manager资源。
-   * Workfront Planning记录或其他应用程序中连接到连接到选定记录类型的记录的对象。
+   * 连接到选定记录类型的Workfront或Experience Manager对象类型。
+   * Workfront Planning记录或其他应用程序中的对象，这些记录或对象连接到连接到连接到选定记录类型的记录。
 
      例如，您可以将营销活动连接到项目组合。 此外，您还可以将另一个记录类型“产品”与项目以及营销活动相关联。 构建营销活动时间线视图时，您可以按项目组合、产品和项目细分营销活动。
 
@@ -619,7 +619,7 @@ this is not possible right now; if this is the same functionality as the table v
 
    >[!TIP]
    >
-   >选择&#x200B;**不要在**&#x200B;切换到标准视图中再次显示此信息&#x200B;**？**&#x200B;框，然后切换视图。
+   >在&#x200B;**切换到标准视图？**&#x200B;中选择&#x200B;**不再显示此信息** 框，然后切换视图。
    >
    >只有当前浏览器才会记住此首选项。 如果您更改浏览器或计算机，则必须再次选择此首选项。
    >
