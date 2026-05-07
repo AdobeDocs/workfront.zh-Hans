@@ -9,9 +9,9 @@ role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1116'
 ht-degree: 2%
 
 ---
@@ -120,7 +120,7 @@ Old:
 1. 转到要创建任务的项目。
 1. 单击左侧面板中的&#x200B;**任务**。
 1. （视情况而定）如果您当前在Agile视图中查看任务列表，请单击右上角的Agile视图中的&#x200B;**列表视图**&#x200B;图标![列表视图](assets/list-view-in-agile-view-for-tasks.png)以显示任务列表。
-1. （可选）单击任务列表&#x200B;**的**&#x200B;计划模式![图标](assets/nwe-plan-mode-icon-task-list.png)计划模式图标&#x200B;**手动保存**，然后选择&#x200B;**标准**&#x200B;或&#x200B;**时间表计划**。 这将禁用默认启用的&#x200B;**自动保存**&#x200B;选项。
+1. （可选）单击任务列表](assets/nwe-plan-mode-icon-task-list.png)的&#x200B;**计划模式**&#x200B;图标![计划模式图标&#x200B;**手动保存**，然后选择&#x200B;**标准**&#x200B;或&#x200B;**时间表计划**。 这将禁用默认启用的&#x200B;**自动保存**&#x200B;选项。
 
    ![选择手动保存](assets/manual-save-option.png)
 
@@ -167,6 +167,12 @@ Old:
 
    1. （有条件，可选）如果希望任务为周期性任务，请更新&#x200B;**周期性频率**&#x200B;字段。 有关创建周期性任务的详细信息，请参阅[创建周期性任务](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md)。
    1. （可选）单击左侧面板中的&#x200B;**文档**&#x200B;以将文档附加到新任务，然后单击&#x200B;**添加或链接文件**&#x200B;以将文档从您的计算机或其他服务添加到任务，或者从您的计算机或其他服务链接文档和文件夹。
+
+      >[!TIP]
+      >
+      >如果贵组织同时具有旧版Workfront和Adobe企业文档存储的访问权限，则根据任务使用的存储类型，任务的“文档”区域可能会以不同的方式显示。 任务从项目继承存储类型。
+      >
+      >有关信息，请参阅[将文档从您的文件系统](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md)添加到Adobe Workfront。
 
 1. （视情况而定）如果您在步骤5中单击了&#x200B;**添加更多任务**，请开始使用内联编辑输入任务信息，然后按Enter。
 

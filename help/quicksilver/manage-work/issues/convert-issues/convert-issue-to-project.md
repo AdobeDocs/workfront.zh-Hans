@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
 workflow-type: tm+mt
-source-wordcount: '2009'
+source-wordcount: '2151'
 ht-degree: 2%
 
 ---
@@ -94,6 +94,13 @@ Old:
 ## 注意事项
 
 * 将问题转化为项目时存在5分钟的处理限制。 如果问题附加了大量文档且无法转换，您可能需要删除一些文档并重试。
+* 如果您的组织同时使用旧版Workfront和Adobe企业文档存储，则在将问题转化为项目时，存在以下情况：<!--this info also duplicated in Document management overview for projects and related objects and Convert a task to a project-->
+   * 出现Workfront存储问题，会创建一个Workfront存储项目。
+   * Adobe企业存储问题会创建一个Adobe存储项目。
+   * 使用Workfront-storage模板转换Adobe-storage问题会创建一个Adobe-storage项目。
+   * 使用Adobe-storage模板转换Workfront-storage问题会创建一个Workfront-storage项目。
+
+     有关详细信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
 ## 将问题转化为项目
 
@@ -190,7 +197,7 @@ Old:
 
    >[!TIP]
    >
-   >如果将模板添加到“收藏夹”列表，您可以将鼠标悬停在&#x200B;[!UICONTROL **收藏的模板**]&#x200B;菜单上，然后单击要使用的模板。
+   >如果将模板添加到“收藏夹”列表，您可以将鼠标悬停在&#x200B;[!UICONTROL **收藏夹模板**]&#x200B;菜单上，然后单击要使用的模板。
 
    此时将显示从模板新建项目框。
 
@@ -213,7 +220,7 @@ Old:
    * 模板中所有任务的数量
    * 模板自定义表单的名称
 
-1. （可选）将鼠标悬停在模板名称上并单击&#x200B;**收藏夹**&#x200B;图标![收藏夹](assets/favorites-icon-small.png)以将其标记为收藏以供将来使用。
+1. （可选）将鼠标悬停在模板名称上，然后单击&#x200B;**收藏夹**&#x200B;图标![收藏夹](assets/favorites-icon-small.png)以将其标记为收藏以供将来使用。
 
    >[!TIP]
    >
@@ -224,6 +231,14 @@ Old:
    将打开[!UICONTROL 转换为项目]框。
 
    ![转换为项目](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
+
+   >[!TIP]
+   >
+   >* 使用Workfront-storage模板转换Adobe-storage问题会创建一个Adobe-storage项目。
+   >* 使用Adobe-storage模板转换Workfront-storage问题会创建一个Workfront-storage项目。
+   >
+   >有关详细信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
+
 
 1. 如果模板中已填充某个字段，则该字段会在[!UICONTROL 转换为项目]框中预填充。 您可以编辑预填充的值以更好地匹配您的项目。 有关详细信息，请参阅[编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md)。
 
@@ -258,20 +273,20 @@ Old:
      >
      >或者，如果贵组织中的顶级组单独配置了它们，则此处的可用选项取决于您在步骤6为新项目选择的组。 有关详细信息，请参阅[为组配置任务和问题偏好设置](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)。
 
-   1. 单击&#x200B;[!UICONTROL **自定义Forms**]&#x200B;并执行以下任一操作：
+1. 单击&#x200B;[!UICONTROL **自定义Forms**]&#x200B;并执行以下任一操作：
 
-      * 查看附加到模板的自定义表单。 他们将转移到新项目。
-      * 查看附加到问题的自定义表单。 如果他们也是项目表单，则将转移到项目。
-      * 确保所有必填字段都包含有效信息。
-      * 通过将自定义表单拖动到所需位置![拖动图标](assets/drag-object-icon.png)来重新排列它们。
-      * 单击任何您不想转移到项目中的表单右侧的&#x200B;**x**&#x200B;图标。
-      * 如有必要，请将自定义表单信息从问题传输到项目。
+   * 查看附加到模板的自定义表单。 他们将转移到新项目。
+   * 查看附加到问题的自定义表单。 如果他们也是项目表单，则将转移到项目。
+   * 确保所有必填字段都包含有效信息。
+   * 通过将自定义表单拖动到所需位置![拖动图标](assets/drag-object-icon.png)来重新排列它们。
+   * 单击任何您不想转移到项目中的表单右侧的&#x200B;**x**&#x200B;图标。
+   * 如有必要，请将自定义表单信息从问题传输到项目。
 
-        >[!TIP]
-        >
-        >* 如果附加到问题的多对象自定义表单配置为同时用于问题和项目，那么当您进行转换时，如果问题中以及项目的自定义表单上存在字段，则该表单中保存的所有信息都会保留。
-        >* 如果将具有计算字段的多对象自定义表单附加到问题以及项目，则问题和项目必须与表单的计算自定义字段中引用的所有字段兼容。 如果存在不兼容的情况，则会显示一条消息，提醒您进行调整。 有关详细信息，请参阅[将计算字段添加到表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)。
-        >* 如果附加到模板的自定义表单中包含的自定义字段也在附加到问题的自定义表单中找到，则问题中的字段值将用于新项目。 但是，如果问题的自定义字段为空，则使用模板中的值。
+     >[!TIP]
+     >
+     >* 如果附加到问题的多对象自定义表单配置为同时用于问题和项目，那么当您进行转换时，如果问题中以及项目的自定义表单上存在字段，则该表单中保存的所有信息都会保留。
+     >* 如果将具有计算字段的多对象自定义表单附加到问题以及项目，则问题和项目必须与表单的计算自定义字段中引用的所有字段兼容。 如果存在不兼容的情况，则会显示一条消息，提醒您进行调整。 有关详细信息，请参阅[将计算字段添加到表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)。
+     >* 如果附加到模板的自定义表单中包含的自定义字段也在附加到问题的自定义表单中找到，则问题中的字段值将用于新项目。 但是，如果问题的自定义字段为空，则使用模板中的值。
 
 1. （可选）根据需要设置任何其他项目详细信息&#x200B;（项目所有者、项目日期）和任务。
 
