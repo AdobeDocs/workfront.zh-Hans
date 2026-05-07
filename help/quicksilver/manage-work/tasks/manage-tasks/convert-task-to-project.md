@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
 workflow-type: tm+mt
-source-wordcount: '1152'
-ht-degree: 4%
+source-wordcount: '1259'
+ht-degree: 3%
 
 ---
 
@@ -95,10 +95,23 @@ Old:
 * 所有子任务、问题和注释将汇总到新项目中。
 * 文档、文档版本和校样将移至新项目。
 * 将任务转化为项目时存在5分钟的处理限制。 如果任务附加了大量文档且无法转换，您可能需要删除某些文档并重试。
+* 如果您的组织同时使用旧版Workfront和Adobe企业文档存储，则在将任务转化为项目时，存在以下情况：<!--this info also duplicated in Document management overview for projects and related objects and Convert an issue to a project-->
+   * Workfront存储任务创建Workfront存储项目。
+   * Adobe企业存储任务将创建一个Adobe存储项目。
+   * 使用Workfront-storage模板转换Adobe-storage任务会创建一个Adobe-storage项目。
+   * 使用Adobe-storage模板转换Workfront-storage任务会创建一个Workfront-storage项目。
+
+     有关详细信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
+
+     >[!TIP]
+     >
+     >您的Workfront实例可能无权访问这两种类型的文档存储。
+
 * 所有子任务和问题的状态和完成百分比将保留。
 * 任务被分派人和将任务转化为项目的用户成为项目中的共享用户。
 * 项目开始日期设置为任务的开始日期。
 * 下表列出了项目信息以及项目信息是从模板还是从任务转移：
+
 
   <table style="table-layout:auto"> 
   <col> 

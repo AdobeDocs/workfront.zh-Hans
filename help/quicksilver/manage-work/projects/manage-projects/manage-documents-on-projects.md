@@ -6,9 +6,9 @@ description: 根据您的Workfront管理员是否选择将文档存储在旧版W
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
+source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
 workflow-type: tm+mt
-source-wordcount: '1631'
+source-wordcount: '1755'
 ht-degree: 0%
 
 ---
@@ -165,6 +165,11 @@ Not sure we need these since this became an overview article:
 * 您可以从Adobe企业存储任务中重命名和删除文档文件夹，这也会删除文件夹中的文档。 将新文档添加到任务后，会自动重新创建文件夹。 已删除的文档不会放回文件夹中。
 * 对于Adobe企业存储项目，任务中的文档文件夹显示为自动为项目创建的文档文件夹中的子文件夹。
 * 您无法将任务从Workfront存储项目复制或移动到Adobe存储项目。 反之亦然。
+* 将任务转化为项目时，存在以下情况： <!--this info also duplicated in Convert tasks to projects-->
+   * Workfront存储任务创建Workfront存储项目。
+   * Adobe企业存储任务将创建一个Adobe存储项目。
+   * 使用Workfront-storage模板转换Adobe-storage任务会创建一个Adobe-storage项目。
+   * 使用Adobe-storage模板转换Workfront-storage任务会创建一个Workfront-storage项目。
 
 ### 问题的文档管理
 
@@ -176,6 +181,11 @@ Not sure we need these since this became an overview article:
 * 对于Adobe企业存储项目，问题中的文档文件夹显示为自动为项目创建的documents文件夹中的子文件夹。
 * 您无法将问题从Workfront存储项目复制或移动到Adobe存储项目。 反之亦然。
 * 当您提交带有附加到Workfront存储项目的文档的请求时，该请求的“文档”区域将使用项目的存储类型显示文档，即使系统存储默认首选项为Adobe企业也是如此。
+* 将问题转化为项目时，存在以下情况：<!--this info also duplicated in Convert an issue to a project-->
+   * 出现Workfront存储问题，会创建一个Workfront存储项目。
+   * Adobe企业存储问题会创建一个Adobe存储项目。
+   * 使用Workfront-storage模板转换Adobe-storage问题会创建一个Adobe-storage项目。
+   * 使用Adobe-storage模板转换Workfront-storage问题会创建一个Workfront-storage项目。
 
 ### 项目模板的文档管理
 

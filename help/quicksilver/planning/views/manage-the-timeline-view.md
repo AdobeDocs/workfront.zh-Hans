@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
+source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
 workflow-type: tm+mt
-source-wordcount: '4035'
+source-wordcount: '4068'
 ht-degree: 2%
 
 ---
@@ -212,8 +212,14 @@ Old:
       * **年**：显示有年指示的季度和月。
       * **季度**：显示有季度指示的月和周。
       * **月**：显示周和日。
+
+     >[!TIP]
+     >
+     >时间线视图仅根据传统季度显示会计周。 如果Workfront管理员在“设置”区域中打开自定义季度，则时间轴视图中不会显示周信息。
+
 1. （可选）单击&#x200B;**切换到紧凑视图**&#x200B;可显示日期在同一行上不相交的记录。<!--check to see if they updated the name of the setting here-->
 1. （视情况而定）如果将模式更改为&#x200B;**紧凑**，请单击&#x200B;**切换到标准**&#x200B;视图以单独行显示记录。 **Standard**&#x200B;选项是默认选项。 <!--check to see if they updated the name of the setting here-->
+
 
 1. 执行以下操作可快速查找与关键字匹配的记录：
 
