@@ -9,9 +9,9 @@ role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '8113'
+source-wordcount: '8107'
 ht-degree: 1%
 
 ---
@@ -287,7 +287,7 @@ Old:
       <p><b>注释</b></p>
       <ul>
       <li>您必须具有项目组合的管理权限才能将其添加到项目中或从中删除。</li>
-      <li>如果贵组织同时使用Workfront和Adobe文档存储类型，则无法将Workfront存储项目与Adobe存储产品组合关联。 反之亦然。 您的Workfront实例可能没有这两种类型的文档存储。</li></ul> 
+      <li>如果您的组织同时使用旧版Workfront和Adobe企业存储，则无法在使用不同存储类型的项目之间复制任务。 您的Workfront实例可能没有这两种类型的文档存储。</li></ul> 
       有关详细信息，请参阅<a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">项目和相关对象的文档管理概述</a>。 
       </td> 
       </tr> 

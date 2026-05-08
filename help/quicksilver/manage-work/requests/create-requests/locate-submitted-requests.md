@@ -10,9 +10,9 @@ role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1411'
 ht-degree: 3%
 
 ---
@@ -101,7 +101,7 @@ Remove production and preview references at release
 
 >[!NOTE]
 >
->* 如果您有Workfront Planning，则Workfront和Planning请求将显示在同一列表中。 Workfront请求在`Issue`对象类型&#x200B;**列中显示**&#x200B;值。
+>* 如果您有Workfront Planning，则Workfront和Planning请求将显示在同一列表中。 Workfront请求在&#x200B;**对象类型**&#x200B;列中显示`Issue`值。
 >* 默认情况下，请求区域的列表中最多显示50个请求。 要查看更多请求，请滚动到列表底部。
 
 您可以在请求区域以及主页的“我的请求”小组件中查看已提交的请求。
@@ -210,7 +210,11 @@ Remove production and preview references at release
 
    >[!TIP]
    >
-   >如果“摘要”面板已经打开，则“打开摘要”图标将变为“关闭摘要”。
+   >* 如果“摘要”面板已经打开，则“打开摘要”图标将变为“关闭摘要”。
+   >
+   >* 如果您的组织使用Adobe企业文档存储，则无法在“摘要”面板中将文档添加到Adobe存储请求。
+   >
+   >有关信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
 1. （可选且有条件）单击右上角的&#x200B;**X**&#x200B;图标或&#x200B;**关闭摘要**&#x200B;图标![关闭包含文本的摘要](assets/close-summary-with-text-nwe.png)以关闭摘要面板。
 

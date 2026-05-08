@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '908'
 ht-degree: 3%
 
 ---
@@ -152,10 +152,15 @@ Old:
 
    | 图标 | 操作 |
    |---|---|
-   | 文档![文档图标](assets/documents-icon-in-summary.png) | 单击&#x200B;**单击此处添加**&#x200B;将文档添加到问题。 |
+   | 文档* ![文档图标](assets/documents-icon-in-summary.png) | 单击&#x200B;**单击此处添加**&#x200B;将文档添加到问题。 |
    | 详细信息![详细信息图标](assets/details-icon-in-summary.png) | 单击以更新有关问题的信息。 |
    | 小时![记录时间](assets/log-time-icon-in-summary.png) | 单击以记录小时数。 |
    | 审批![审批图标](assets/approvals-icon-in-summary.png) | 单击以添加问题批准。 |
+
+   *如果贵组织使用Adobe企业文档存储，则无法在“摘要”面板中将文档添加到Adobe存储问题。
+
+   有关信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
+
 
 1. （可选）再次单击&#x200B;**打开摘要**&#x200B;图标，或单击摘要右上角的&#x200B;**X图标**&#x200B;以关闭面板并编辑内联问题。
 

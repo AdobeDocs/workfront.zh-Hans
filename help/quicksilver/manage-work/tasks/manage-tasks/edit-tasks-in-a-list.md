@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '2764'
+source-wordcount: '2825'
 ht-degree: 4%
 
 ---
@@ -131,7 +131,7 @@ Old:
    * 每次更改后自动更新
    * 手动，仅在单击“保存”之后。
 
-  有关在Workfront保存您对列表中的任务所做的更改时进行配置的信息，请参阅本文中的列表[部分中的](#modify-plan-mode-before-editing-tasks-in-a-list)在编辑任务之前修改计划模式。
+  有关在Workfront保存您对列表中的任务所做的更改时进行配置的信息，请参阅本文中的列表[&#128279;](#modify-plan-mode-before-editing-tasks-in-a-list)部分中的在编辑任务之前修改计划模式。
 
 * 其他用户必须先刷新其页面，然后才能查看您对任务所做的更新。
 
@@ -186,7 +186,7 @@ Old:
 
    或
 
-   单击任务名称右侧的任务列表&#x200B;**上的**&#x200B;更多![菜单](assets/more-icon-task-list.png)更多图标。
+   单击任务名称右侧的任务列表![&#128279;](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;菜单更多图标。
 
 1. （可选）从以下选项中选择：
 
@@ -306,7 +306,7 @@ Old:
 
    或
 
-   单击任务列表&#x200B;**上的**&#x200B;更多![菜单](assets/more-icon-task-list.png)模式图标。
+   单击任务列表![&#128279;](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;菜单模式图标。
 
 1. （可选）从以下选项中选择：
 
@@ -414,7 +414,7 @@ Old:
 
    或
 
-   单击任务列表&#x200B;**上的**&#x200B;更多![菜单](assets/more-icon-task-list.png)更多图标。
+   单击任务列表![&#128279;](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;菜单更多图标。
 
 1. 从以下选项中选择：
 
@@ -469,29 +469,33 @@ Old:
 1. （可选）在&#x200B;**更新**&#x200B;区域为任务键入更新。
 1. 单击以下图标或区域之一，转到任务并在任务级别编辑信息：
 
-<table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">文档</td> 
-      <td>将文档添加到任务。 </td> 
-     </tr> 
-          <tr> 
-      <td role="rowheader">自定义表单</td> 
-      <td>添加或删除自定义表单或更新表单信息。</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">小时</td> 
-      <td>记录小时数。</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">审批</td> 
-      <td>添加任务审批。</td> 
-     </tr> 
-     <tr> 
-    </tbody> 
-   </table>
+   <table style="table-layout:auto"> 
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
+         <td role="rowheader">文档</td> 
+         <td><p>将文档添加到任务。</p>
+         <p><b>注释</b></p>
+         <p>如果贵组织使用Adobe企业文档存储，则无法针对Adobe存储任务，在“摘要”面板中将文档添加到任务中。</p>
+         <p>有关信息，请参阅<a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">项目和相关对象的文档管理概述</a>。</p>
+      </td> 
+      </tr> 
+            <tr> 
+         <td role="rowheader">自定义表单</td> 
+         <td>添加或删除自定义表单或更新表单信息。</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">小时</td> 
+         <td>记录小时数。</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">审批</td> 
+         <td>添加任务审批。</td> 
+      </tr> 
+      <tr> 
+      </tbody> 
+      </table>
 
 1. 单击面板右上角的&#x200B;**X**&#x200B;将其关闭。
 
