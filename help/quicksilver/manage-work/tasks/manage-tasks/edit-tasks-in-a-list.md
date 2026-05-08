@@ -131,7 +131,7 @@ Old:
    * 每次更改后自动更新
    * 手动，仅在单击“保存”之后。
 
-  有关在Workfront保存您对列表中的任务所做的更改时进行配置的信息，请参阅本文中的列表](#modify-plan-mode-before-editing-tasks-in-a-list)部分中的[在编辑任务之前修改计划模式。
+  有关在Workfront保存您对列表中的任务所做的更改时进行配置的信息，请参阅本文中的列表[&#128279;](#modify-plan-mode-before-editing-tasks-in-a-list)部分中的在编辑任务之前修改计划模式。
 
 * 其他用户必须先刷新其页面，然后才能查看您对任务所做的更新。
 
@@ -186,7 +186,7 @@ Old:
 
    或
 
-   单击任务名称右侧的任务列表](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;菜单![更多图标。
+   单击任务名称右侧的任务列表![&#128279;](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;菜单更多图标。
 
 1. （可选）从以下选项中选择：
 
@@ -306,7 +306,7 @@ Old:
 
    或
 
-   单击任务列表](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;菜单![模式图标。
+   单击任务列表![&#128279;](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;菜单模式图标。
 
 1. （可选）从以下选项中选择：
 
@@ -414,7 +414,7 @@ Old:
 
    或
 
-   单击任务列表](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;菜单![更多图标。
+   单击任务列表![&#128279;](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;菜单更多图标。
 
 1. 从以下选项中选择：
 
