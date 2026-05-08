@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: b2bee19f-32eb-49b9-9497-dea290ce64b2
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1334'
 ht-degree: 1%
 
 ---
@@ -299,7 +299,7 @@ ht-degree: 1%
 当您将用户分配给任务或问题时，如果所选用户在任务或问题的计划日期之间计划了任意时间的休息时间，您现在可以看到内联警告。
 
 <!--
-* <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.OnlineOnly">  <a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-project-enhancements.md#add" class="MCXref xref" xrefformat="{para}">Add Fields That Represent Objects in Custom Forms</a> </MadCap:conditionalText> [ 
+  * <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.OnlineOnly">  <a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-project-enhancements.md#add" class="MCXref xref" xrefformat="{para}">Add Fields That Represent Objects in Custom Forms</a> </MadCap:conditionalText> [ 
 
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
   Add fields that represent objects in Custom Forms
@@ -391,7 +391,7 @@ API&nbsp;Version Release and Support Schedule
 
 ### TLS 1.0和1.1支持即将终止 {#tls-1-0-and-1-1-support-is-ending}
 
-为了提供最佳安全性，Workfront要求所有使用TLS 1.1或更早版本的集成和Web流量都升级到使用TLS 1.2。在“预览”环境中，TLS 1.0已禁用。
+为了提供最佳安全性，Workfront要求所有使用TLS 1.1或更早版本的集成和Web流量都升级到使用TLS 1.2。 在“预览”环境中，TLS 1.0已禁用。
 
 <!--
 For more information, see <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.OnlineOnly">  <a href="../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md" class="MCXref xref" xrefformat="{para}">TLS 1.2 to be required in Adobe Workfront</a> </MadCap:conditionalText> [ 
@@ -471,4 +471,4 @@ Replacement of Flash-based tools in Workfront
 
 ### 第3季度产品路线图网络研讨会 {#q3-product-roadmap-webinar}
 
-了解有关将于8月1日上午9[举行的](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=Product&eventid=2040896&sessionid=1&key=EFBB434E2FDF446E010DA62D1C27E9E5&regTag=&sourcepage=register)第3季度路线图网络研讨会:00的更多内容。 山地标准时间
+了解有关将于8月1日上午9:00举行的[第3季度路线图网络研讨会](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=Product&eventid=2040896&sessionid=1&key=EFBB434E2FDF446E010DA62D1C27E9E5&regTag=&sourcepage=register)的更多内容。 山地标准时间

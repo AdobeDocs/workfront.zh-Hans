@@ -7,10 +7,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '2245'
-ht-degree: 2%
+source-wordcount: '2457'
+ht-degree: 4%
 
 ---
 
@@ -231,15 +231,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>快速发布</strong></td>
         <td><strong>每季度</strong></td>
     </tr>
-      <!--
-      <tr>
-        <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">Create project intake forms in Workfront</a>
-            <p>To make it easier to create requested projects without converting from issues, we've created Project intake forms. You can configure these intake forms with specific fields, templates, and custom forms, and set approvers for project creation. Then, when a user uses this form, the project is configured to your specifications and sent for approval.</p>
-        </td>
-        <td>August 21, 2025</td>
-        <td>September 11, 2025</td>
-        <td>October 16, 2025</td>
+    <!--
+    <tr>
+    <td>
+        <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">Create project intake forms in Workfront</a>
+        <p>To make it easier to create requested projects without converting from issues, we've created Project intake forms. You can configure these intake forms with specific fields, templates, and custom forms, and set approvers for project creation. Then, when a user uses this form, the project is configured to your specifications and sent for approval.</p>
+    </td>
+    <td>August 21, 2025</td>
+    <td>September 11, 2025</td>
+    <td>October 16, 2025</td>
     </tr>
     -->
     <tr>

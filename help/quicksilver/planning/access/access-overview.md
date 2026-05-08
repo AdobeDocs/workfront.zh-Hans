@@ -8,7 +8,7 @@ role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 2%
@@ -54,24 +54,21 @@ ht-degree: 2%
  <col>
  </col>
  <tbody>
-    <tr>
- <tr>
+   <tr>
+   <tr>
    <td role="rowheader"><p>Adobe Workfront 包</p></td>
    <td>
    <p>任何Workfront和Planning包</p>
    <p>任何工作流和计划包</p>
-
-<p><b>注释</b></p>
-
-<p>要访问可连接的记录类型，请执行以下操作：</p>
+   <p><b>注释</b></p>
+   <p>要访问可连接的记录类型，请执行以下操作：</p>
    <ul><li><p>任何Workfront包和规划包</p></li>
    <li><p>任何工作流和计划Prime和Ultimate包</p></li></ul>
 
 <p>要访问全局记录类型，请执行以下操作：</p>
    <ul><li><p>任何Workfront包和Planning Plus包</p></li>
    <li><p>任何工作流包以及计划Prime和Ultimate包</p></li></ul> </td></tr>
-
-<!--
+   <!--
    <tr>
    <td role="rowheader"><p>Adobe Workfront platform</p></td>
    <td>
@@ -80,22 +77,21 @@ ht-degree: 2%
    <p>Only users added to the Adobe Identity Management System (IMS) can be granted permissions and added to Planning fields.</p>
    <p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
    </td>
-  </tr>
-  -->
-
-<tr>
+   </tr>
+   -->
+   <tr>
    <td role="rowheader"><p>Adobe Workfront许可证</p></td>
    <td>
    <ul><li><p>任意，用于查看Workfront规划信息</p></li>
    <li><p>标准，用于创建工作区和视图</p></li></ul>
     </td>
-  </tr>
-  <tr>
+   </tr>
+   <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
    <td> <p>Adobe Workfront Planning没有访问级别控制</p>  
-</td>
-  </tr>
-<tr>
+   </td>
+   </tr>
+   <tr>
    <td role="rowheader"><p>对象权限</p></td>
    <td>
    <ul>
@@ -107,17 +103,17 @@ ht-degree: 2%
     <li><p>系统管理员无法访问他们未创建的视图。 </p></li></ul>
    <p>有关共享Workfront Planning对象权限的信息，请参阅  
    <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">在Adobe Workfront Planning中共享权限概述</a> 
-  </td>
-  </tr>
-<tr>
+   </td>
+   </tr>
+   <tr>
    <td role="rowheader"><p>版面模板</p></td>
    <td> 
-<p>默认情况下，标准用户和系统管理员已启用Planning区域。</p>
-<p> 必须为具有轻度或参与者许可证的用户分配一个布局模板，该模板包括以下区域的Planning选项：</p>
+   <p>默认情况下，标准用户和系统管理员已启用Planning区域。</p>
+   <p> 必须为具有轻度或参与者许可证的用户分配一个布局模板，该模板包括以下区域的Planning选项：</p>
    <ul><li>主菜单</li>
    <li>项目、项目组合和程序的左侧面板</li>
    </ul>   
-</td>
+   </td>
   </tr>
  </tbody>
 </table>

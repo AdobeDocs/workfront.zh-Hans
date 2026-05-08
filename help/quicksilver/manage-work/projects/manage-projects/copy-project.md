@@ -9,9 +9,9 @@ role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '755'
 ht-degree: 7%
 
 ---
@@ -134,7 +134,7 @@ ht-degree: 7%
 
    转到项目列表或报告并选择项目，然后单击列表顶部的&#x200B;**更多**&#x200B;图标![更多菜单](assets/more-icon.png)。
 
-1. 在&#x200B;**更多**&#x200B;下拉菜单中，单击&#x200B;**复制**。 出现&#x200B;**项目名称[的]**&#x200B;副本对话框。
+1. 在&#x200B;**更多**&#x200B;下拉菜单中，单击&#x200B;**复制**。 出现[项目名称&#x200B;]&#x200B;**的**&#x200B;副本对话框。
 
 1. （可选）更新&#x200B;**项目名称**。 默认情况下，新名称为&#x200B;**副本[原始项目名称]**。
 
@@ -188,7 +188,7 @@ ht-degree: 7%
       <td role="rowheader">预算小时</td> 
       <td> <p>从复制的项目中删除项目业务案例的资源计划区域中预算的小时数。</p> 
     <p>
-   绝不会将使用方案规划器的预算小时数复制到新项目，因为新项目未链接到方案规划器中的方案。 有关详细信息，请参阅使用场景规划器<a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">的业务案例中的</a>预算资源</p>
+   绝不会将使用方案规划器的预算小时数复制到新项目，因为新项目未链接到方案规划器中的方案。 有关详细信息，请参阅使用场景规划器</a>的业务案例中的<a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">预算资源</p>
    </tr></td>
     <tr> 
       <td role="rowheader">财务信息</td> 

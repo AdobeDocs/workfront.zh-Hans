@@ -7,10 +7,10 @@ recommendations: noDisplay, noCatalog
 exl-id: ed348f44-eae1-4478-8425-6114f2b310ad
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '2885'
-ht-degree: 3%
+source-wordcount: '3176'
+ht-degree: 2%
 
 ---
 
@@ -115,23 +115,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 <table style="table-layout:auto">
   <tbody>
-   <tr>
+    <tr>
         <td><strong>功能</strong>
         </td>
         <td><strong>预览</strong></td>
         <td><strong>快速发布</strong></td>
         <td><strong>每季度</strong></td>
-        </tr>
-       <!--
-       <tr>
-        <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Set up brands for the AI reviewer in Workfront<p>[!BADGE Off schedule]{type=Neutral}</p> </a>
-            <p>You can now set up brands for the AI reviewer in the Workfront Setup area. This allows you to customize the AI review process based on your organization's branding guidelines.</p>
-            <p>The AI reviewer is currently in beta.</p>
-        </td>
-        <td>January 8, 2026</td>
-        <td>January 8, 2026</td>
-        <td>January 8, 2026</td>
+    </tr>
+    <!--
+    <tr>
+    <td>
+        <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Set up brands for the AI reviewer in Workfront<p>[!BADGE Off schedule]{type=Neutral}</p> </a>
+        <p>You can now set up brands for the AI reviewer in the Workfront Setup area. This allows you to customize the AI review process based on your organization's branding guidelines.</p>
+        <p>The AI reviewer is currently in beta.</p>
+    </td>
+    <td>January 8, 2026</td>
+    <td>January 8, 2026</td>
+    <td>January 8, 2026</td>
     </tr>
     -->
     </tr>
@@ -553,7 +553,7 @@ Workfront Planning中的新增功能已在生产环境中可用。 有关最新�
 
 **适用于所有客户的生产版本： 2025年12月11日**
 
-桌面校对查看器已从2.1.52更新到2.1.54。此更新包括内部工具更新，不会影响最终用户功能。
+桌面校对查看器已从2.1.52更新到2.1.54。 此更新包括内部工具更新，不会影响最终用户功能。
 
 2.1.53版本还包括内部工具更改。
 
