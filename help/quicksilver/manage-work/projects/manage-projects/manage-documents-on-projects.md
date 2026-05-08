@@ -6,9 +6,9 @@ description: 根据您的Workfront管理员是否选择将文档存储在旧版W
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '1755'
+source-wordcount: '1779'
 ht-degree: 0%
 
 ---
@@ -170,6 +170,7 @@ Not sure we need these since this became an overview article:
    * Adobe企业存储任务将创建一个Adobe存储项目。
    * 使用Workfront-storage模板转换Adobe-storage任务会创建一个Adobe-storage项目。
    * 使用Adobe-storage模板转换Workfront-storage任务会创建一个Workfront-storage项目。
+* 无法在“摘要”面板中将文档添加到Adobe存储任务。
 
 ### 问题的文档管理
 
@@ -186,6 +187,7 @@ Not sure we need these since this became an overview article:
    * Adobe企业存储问题会创建一个Adobe存储项目。
    * 使用Workfront-storage模板转换Adobe-storage问题会创建一个Adobe-storage项目。
    * 使用Adobe-storage模板转换Workfront-storage问题会创建一个Workfront-storage项目。
+* 无法在“摘要”面板中将文档添加到Adobe存储问题。
 
 ### 项目模板的文档管理
 

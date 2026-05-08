@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '1744'
+source-wordcount: '1781'
 ht-degree: 2%
 
 ---
@@ -103,6 +103,10 @@ Old:
 
 * 您可以一次复制一个任务，也可以在编辑列表中的任务时一次复制多个任务。
 
+* 如果您的组织同时使用旧版Workfront和Adobe企业存储，则无法在使用不同存储类型的项目之间复制任务。
+
+  有关信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
+
 ## 复制列表中的任务 {#copy-tasks-in-a-list}
 
 1. 转到包含要复制的一个或多个任务的项目。
@@ -124,7 +128,7 @@ Old:
 
    * 单击任务列表顶部的&#x200B;**更多菜单**，然后单击&#x200B;**复制到**。
    * 右键单击选定的任务，然后单击&#x200B;**复制到**。
-   * 选择一个任务时，单击该列表中任务名称旁边的任务列表&#x200B;**上的**&#x200B;更多![菜单](assets/more-icon-task-list.png)更多图标，然后单击&#x200B;**复制到**。
+   * 选择一个任务时，单击该列表中任务名称旁边的任务列表](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;菜单![更多图标，然后单击&#x200B;**复制到**。
 
    ![复制列表中的任务](assets/copy-task-in-list-nwe-350x131.png)
 
@@ -187,7 +191,7 @@ Old:
     <tbody> 
      <tr> 
       <td role="rowheader">约束</td> 
-      <td> <p>任务限制被设置为“尽可能早”或“尽可能晚”，基于项目计划模式设置。</p> <p> 选中后，任务的当前限制将转移到复制的任务。 </p> <p>注：在将具有日期特定约束的任务移动或复制到另一个项目时，如果任务的约束日期在新项目的日期之外，则任务约束会更改为尽可能早或尽可能晚或者调整项目的计划起始日期或计划完成日期。 日期特定约束的一些示例必须开始于、必须结束于、开始时间不早于、开始时间不晚于等。 有关任务限制以及任务限制或项目日期如何受到影响的信息，请参阅<a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">任务限制概述</a>并查找特定限制。</p> </td> 
+      <td> <p>任务限制被设置为“尽可能早”或“尽可能晚”，基于项目计划模式设置。</p> <p> 选中后，任务的当前限制将转移到复制的任务。 </p> <p>注：在将具有日期特定约束的任务移动或复制到另一个项目时，如果任务的约束日期在新项目的日期之外，则任务约束会更改为尽可能早或尽可能晚或者调整项目的计划起始日期或计划完成日期。 日期特定约束的一些示例必须开始于、必须结束于、开始时间不早于、开始时间不晚于等。有关任务限制以及任务限制或项目日期如何受到影响的信息，请参阅<a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">任务限制概述</a>并查找特定限制。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">分配</td> 
