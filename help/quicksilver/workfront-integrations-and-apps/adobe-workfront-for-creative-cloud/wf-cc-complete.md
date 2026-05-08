@@ -8,10 +8,10 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 5%
+source-wordcount: '275'
+ht-degree: 6%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 5%
  <col> 
  <tbody> 
   <tr> 
-   <!--
+  <!--
     <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
@@ -43,15 +43,15 @@ ht-degree: 5%
   <tr>
   -->
    <td role="rowheader">其他产品</td> 
-   <td>除了[!DNL Adobe Creative Cloud]许可证，您还必须具有[!DNL Workfront]许可证。</td> 
+   <td>除了[!DNL Workfront]许可证，您还必须具有[!DNL Adobe Creative Cloud]许可证。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>编辑对[!UICONTROL 文档]的访问权限</p> </td> 
+   <td> <p>编辑对[！UICONTROL文档]的访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>[!UICONTROL 视图]对要上载文档的对象的访问权限或更高版本。</p> </td> 
+   <td> <p>[！UICONTROL视图]对要上载文档的对象的访问权限或更高版本。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,14 +72,14 @@ ht-degree: 5%
    ![返回工作列表](assets/go-back-to-work-list-350x314.png)
 
 1. 从&#x200B;**[!UICONTROL 工作列表]**&#x200B;中，选择要标记为完成的任务或问题。
-1. 单击&#x200B;**[!UICONTROL 完成]**。  如果您是分配给此任务或问题的唯一用户，这将在[!UICONTROL 中标记项目]完成[!UICONTROL 或]已解决[!DNL Workfront]。
+1. 单击&#x200B;**[!UICONTROL 完成]**。  如果您是分配给此任务或问题的唯一用户，这将在[!DNL Workfront]中标记项目[!UICONTROL 完成]或[!UICONTROL 已解决]。
 1. （视情况而定）如果为该任务或问题分配了多个用户，则单击[!UICONTROL 完成]将打开一个下拉菜单。 然后，您可以：
 
    如果其他用户也必须完成工作才能完成任务或问题，请单击&#x200B;**[!UICONTROL 完成我的部件]**。
 
    或
 
-   单击&#x200B;**[!UICONTROL 完成]**（对于任务），或者单击&#x200B;**[!UICONTROL 已解决]**（对于问题）（如果不需要对该任务或问题执行进一步的工作）。 这在[!UICONTROL 中将项]Complete[!UICONTROL 或]Resolved[!DNL Workfront]标记。
+   单击&#x200B;**[!UICONTROL 完成]**（对于任务），或者单击&#x200B;**[!UICONTROL 已解决]**（对于问题）（如果不需要对该任务或问题执行进一步的工作）。 这在[!DNL Workfront]中将项[!UICONTROL Complete]或[!UICONTROL Resolved]标记。
 
    >[!NOTE]
    >

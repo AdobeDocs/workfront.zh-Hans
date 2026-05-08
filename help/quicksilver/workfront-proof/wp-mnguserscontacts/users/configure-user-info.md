@@ -7,7 +7,7 @@ description: 使用 [!DNL Workfront Proof]配置用户信息
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ae8d3a96-ebf1-48ee-a7b7-50d69bffbd36
-source-git-commit: f776fb88000ea6044b88cba88d0cb7198c205d05
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 0%
@@ -56,8 +56,8 @@ ht-degree: 0%
 
       * **订阅。 人们可以通过公共URL或嵌入代码注册验证：**&#x200B;允许组织外部的审阅者通过公共URL或嵌入代码注册验证。
 
-        选择此选项时，**订阅者必须单击电子邮件中的链接才能访问校对**&#x200B;也可用。 选择此选项可要求外部查看者单击电子邮件中的链接以访问验证。
-如果选择&#x200B;**公共共享**&#x200B;选项，则默认启用此选项。
+        选择此选项时，**订阅者必须单击电子邮件中的链接才能访问校对**也可用。 选择此选项可要求外部查看者单击电子邮件中的链接以访问验证。
+如果选择**公共共享**&#x200B;选项，则默认启用此选项。
 
       * **新来宾审阅人的默认角色：**&#x200B;为来宾审阅人选择默认验证角色。 选项与&#x200B;**默认验证角色**&#x200B;中的选项相同，但审查方和作者除外。
 

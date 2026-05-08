@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
 source-wordcount: '1092'
 ht-degree: 11%
@@ -108,7 +108,7 @@ ht-degree: 11%
 </ul>
 </td>
   </tr>
-   <!--
+  <!--
     <tr>
     <td>All Unassigned Tasks</td>
     <td></td>
@@ -267,7 +267,7 @@ ht-degree: 11%
       <li>当前未完成的项，无论其提交者是谁。 只有您至少拥有查看权限的请求才会显示在此处（如果您没有自己提交这些请求）。</li>
       <li>没有实际完成日期或其解析对象没有实际完成日期将在“打开”子选项卡中列出。</li> 
       </ul>
-      <p><b>注释</b> 
+      <p><b>注意</b> 
       处于任何不等于“已关闭”状态的请求均被视为未完成。</p> 
       </td> 
      </tr> 
@@ -282,7 +282,7 @@ ht-degree: 11%
       <li>您已提交但仍未完成的事项。 </li> 
       <li>没有实际完成日期或其解析对象没有实际完成日期在“我的未结请求”子选项卡中列出。  </li> 
       </ul>
-      <p><b>注释</b> 
+      <p><b>注意</b> 
       未处于已关闭状态的请求会被视为未完成。</p> </td> 
      </tr> 
     </tbody> 

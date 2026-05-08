@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '1126'
-ht-degree: 2%
+source-wordcount: '1130'
+ht-degree: 5%
 
 ---
 
@@ -169,11 +169,11 @@ ht-degree: 2%
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">选择要作为此模板中任务的前置任务的项目任务。</td> 
+      <td role="rowheader">选择要作为此模板中任务前置的项目任务。</td> 
       <td> <p>单击字段框以显示项目任务列表，然后选择在模板任务开始之前必须完成的任务。 或者，您可以跳过此步骤，并在附加模板后在项目中设置关系。 </p> <p> 选择<strong>依赖项类型</strong>、<strong>滞后时间</strong>信息，如果您希望通过选中<strong>强制执行前置任务</strong>复选框来强制执行前置任务，请选中该复选框。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">选择要作为此模板中任务的父级的项目任务。</td> 
+      <td role="rowheader">选择要作为此模板中任务父项的项目任务。</td> 
       <td> <p>选择要指定为所有模板任务的父级任务的项目任务。 如果不进行选择，则所有模板任务都会显示在当前项目任务的末尾。 您可以跳过此步骤，并在附加模板后在项目中移动任务。</p>
       <p><b>注释</b></p>
       <p>如果您选择了具有其他子项的父模板任务，则只有父项会在将项目任务添加到项目后将其显示为前置任务。 子模板任务不会显示前置任务。</p>
