@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
+source-git-commit: 8c5290f5c9724fa1b382b0acf2a541fe7d3d44fa
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 4%
@@ -76,8 +76,8 @@ ht-degree: 4%
             <td><strong>每季度</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md" class="MCXref xref" xrefformat="{para}">预定义视图已添加到“请求”区域和“我的请求”小组件中的请求列表中</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
-                <p>为了帮助您更好地组织请求列表，我们已将预定义视图添加到请求区域的请求列表中，并将我的请求构件添加到主页。</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">预定义视图已添加到“请求”区域和“我的请求”小组件中的请求列表中</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <p>为了帮助您更好地组织请求列表，我们已将预定义视图添加到请求区域的请求列表中，并在主页添加了我的请求构件。</p>
             </td>
             <td><p>2026年4月23日</p></td>
             <td><p>2026年4月23日</p></td>
@@ -85,6 +85,7 @@ ht-degree: 4%
         </tr>
     </tbody>
 </table>
+
 
 ## 其他区域的发行说明
 
