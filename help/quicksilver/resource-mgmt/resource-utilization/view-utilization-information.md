@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '7110'
+source-wordcount: '7120'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="wf-resourcing-utilization"
 >title="利用率报告"
->abstract="利用率报告允许您在单个报告中查看项目、程序或项目组合的进度、成本或收入。您还可以比较收入与成本。"
+>abstract="利用率报告允许您在单个报告中查看项目、程序或项目组合的进度、成本或收入。 您还可以比较收入与成本。"
 
 <!-- Audited: 01/2024 -->
 
@@ -111,7 +111,7 @@ ht-degree: 1%
 
 ## 利用率报表概览 {#overview-of-the-utilization-report}
 
-利用率报告允许您在单个报告中查看项目、程序或项目组合的进度、成本或收入。您还可以比较收入与成本。
+利用率报告允许您在单个报告中查看项目、程序或项目组合的进度、成本或收入。 您还可以比较收入与成本。
 
 您可以在“资源”区域中查看“利用率”报告，以显示多个项目之间的利用率；或者在一个项目级别查看报告，以显示与该项目关联的单个资源（工作角色和用户）的利用率。
 
@@ -139,7 +139,7 @@ ht-degree: 1%
    <td scope="col"><strong>预算小时数</strong> </td> 
    <td scope="col"> <p>包含的项目上的总预算小时数。 您可以查看所包含项目的整体生命周期的预算小时总数，也可以仅查看指定日期范围内的预算小时总数（您可以指定单独的周或月）。 </p> <p>预算小时数由业务案例或资源规划者<em>.</em>的资源预算区域中的可用信息填充</p> <p>预算小时数显示在利用率报表的以下任意行中：</p> 
     <ul> 
-     <li> 预算小时数在利用率报告中按工作角色和单个用户汇总，如下所示：<br><strong>单个用户：</strong>预算小时数在利用率报告中按每个用户汇总。 这些预算小时数与用户在所包含项目上分配到的任务和问题相关联。 （您可以展开相应工作角色的行，以查看具有该工作角色的用户列表。）<br><strong>工作角色：</strong>预算小时数按工作角色汇总在利用率报告中。由于以下任意方案，<br>预算小时数显示在特定工作角色中：
+     <li> 预算小时数在利用率报告中按工作角色和单个用户汇总，如下所示：<br><strong>单个用户：</strong>预算小时数在利用率报告中按每个用户汇总。 这些预算小时数与用户在所包含项目上分配到的任务和问题相关联。 （您可以展开相应工作角色的行以查看具有该工作角色的用户列表。）<br><strong>工作角色：</strong>预算小时数在利用率报告中按工作角色汇总。由于以下任意方案，<br>预算小时数显示在特定工作角色中：
      <ul>
      <li>工作角色被定义为分配给与预算小时数关联的任务或问题的用户的主要工作角色。 </li> 
        <li>在查看单个项目的利用率信息时，将使用分配了小时数的用户的工作角色，无论任务或问题中是否分配了工作角色，是否分配了未分配工作角色的另一个用户，是否分配了另一个具有不同工作角色的另一个用户，或是否分配了另一个团队。</li> 
@@ -149,7 +149,7 @@ ht-degree: 1%
     </ul> 
     <ul> 
      <li> <p><strong>未分配小时数</strong>：当预算小时数与任务或问题关联，并且没有分配给任务或问题的用户或角色时，预算小时数显示在未分配小时数的利用率报告中。<br>仅当项目上的小时数与此描述匹配时，以及当项目查看利用率报告时，或项目查看利用率报告时，才会显示此部分。 </p> <p>仅当项目中的小时数与此描述匹配时，仅当按项目查看利用率报告时，或从项目查看利用率报告时，才会显示此部分。 </p> </li> 
-    </ul> <p>有关预算小时数的详细信息，请参阅<a href="/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md#locate-the-budgeted-hours-of-a-project">在</a>了解项目的预算劳力成本和预算小时数<a href="/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md">中查找项目的预算小时数</a>。</p> </td> 
+    </ul> <p>有关预算小时数的详细信息，请参阅<a href="/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md#locate-the-budgeted-hours-of-a-project">在<a href="/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md">了解项目的预算劳力成本和预算小时数</a>中查找项目的预算小时数</a>。</p> </td> 
   </tr> 
   <tr> 
    <td scope="col"><strong>计划小时数</strong> </td> 
@@ -218,7 +218,7 @@ ht-degree: 1%
    <td><strong>实际小时数</strong> </td> 
    <td> <p> 在任务、问题<span>和项目</span>上为包含的项目记录的总小时数。 您可以查看包含的项目在整个生命周期中的总实际小时数，也可以仅查看指定日期范围内的总实际小时数（您可以指定单独的周或月）。 </p> <p><strong>警告：</strong>利用率报告包括登录到项目的小时数、子任务、问题和至少具有一个分配的父任务。 它不包括已记录到无分配的父任务的小时数。 我们建议您不要将父任务用作工作任务，而只将子任务分配给资源。 </p> <p>实际小时数显示在利用率报表的以下任意行中：</p> 
     <ul> 
-     <li> 实际小时数在项目的利用率报告中按工作角色和单个用户汇总，如下所示：<br><strong>单个用户：</strong>实际小时数显示在利用率报告中记录小时数的用户的行中。 （您可以展开相应工作角色的行，以查看具有该工作角色且已记录小时数的用户的列表。）<br><strong>工作角色：</strong>与这些角色关联的用户记录的实际小时数汇总在相应工作角色行的利用率报告中。<br>实际小时数由于以下任意情况出现在特定工作角色中： 
+     <li> 实际小时数在项目的利用率报告中按工作角色和单个用户汇总，如下所示：<br><strong>单个用户：</strong>实际小时数显示在利用率报告中记录小时数的用户的行中。 （您可以展开相应工作角色的行，以查看具有该工作角色且已记录小时数的用户的列表。）<br><strong>工作角色：</strong>与这些角色关联的用户记录的实际小时数在相应工作角色行的利用率报告中进行了汇总。<br>实际小时数由于以下任意情况出现在特定工作角色中： 
       <ul> 
        <li>工作角色被定义为记录小时数的用户的主要工作角色</li> 
        <li>任务或问题无分派</li> 
@@ -245,7 +245,7 @@ ht-degree: 1%
 
 您可以通过查看预算成本和计划成本与实际成本的比较来跟踪成本。
 
-在跟踪项目、项目群或项目组合的成本时，“利用率”报告中的信息来自任务。 任务中的成本信息始终在利用率报表中可用。 根据任务的成本类型计算任务的成本。 有关任务的成本类型的信息，请参阅[跟踪成本](/help/quicksilver/manage-work/projects/project-finances/track-costs.md#how-workfront-calculates-cost-types-for-tasks)中的[Workfront如何计算任务的成本类型](/help/quicksilver/manage-work/projects/project-finances/track-costs.md)。
+在跟踪项目、项目群或项目组合的成本时，“利用率”报告中的信息来自任务。 任务中的成本信息始终在利用率报表中可用。 根据任务的成本类型计算任务的成本。 有关任务的成本类型的信息，请参阅[跟踪成本](/help/quicksilver/manage-work/projects/project-finances/track-costs.md)中的[Workfront如何计算任务的成本类型](/help/quicksilver/manage-work/projects/project-finances/track-costs.md#how-workfront-calculates-cost-types-for-tasks)。
 
 您可以通过以下方式在“利用率”报表中显示成本信息：
 
@@ -272,11 +272,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td scope="col"><strong>计划成本</strong> </td> 
-   <td scope="col"> <p>包含的项目上的总计划成本。 您可以查看所包含项目整个使用期的计划成本合计，也可以仅查看指定日期范围内的计划成本合计（您可以指定单个周或月）。</p> <p>请注意，对于周、月和季度视图，当工作角色或用户的成本率生效时，计划成本计算为所选期间的平均值。</p><p>有关如何计算项目计划成本的信息，请参阅<a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md#how-workfront-calculates-planned-budgeted-and-actual-costs">跟踪成本</a>中的<a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md">Workfront如何计算计划、预算和实际成本</a>。</p> </td>
+   <td scope="col"> <p>包含的项目上的总计划成本。 您可以查看所包含项目整个使用期的计划成本合计，也可以仅查看指定日期范围内的计划成本合计（您可以指定单个周或月）。</p> <p>请注意，对于周、月和季度视图，当工作角色或用户的成本率生效时，计划成本计算为所选期间的平均值。</p><p>有关如何计算项目计划成本的信息，请参阅<a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md">跟踪成本</a>中的<a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md#how-workfront-calculates-planned-budgeted-and-actual-costs">Workfront如何计算计划、预算和实际成本</a>。</p> </td>
   </tr> 
   <tr> 
    <td scope="col"><strong>实际成本</strong> </td> 
-   <td scope="col"> <p>所包含项目的总实际成本。 您可以查看所包含项目整个使用期的实际成本合计，也可以仅查看指定日期范围内的实际成本合计（您可以指定单个周或月）。</p> <p>有关如何计算项目实际成本的信息，请参阅<a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md#how-workfront-calculates-planned-budgeted-and-actual-costs">跟踪成本</a>中的<a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md">Workfront如何计算计划、预算和实际成本</a>。</p> </td>
+   <td scope="col"> <p>所包含项目的总实际成本。 您可以查看所包含项目整个使用期的实际成本合计，也可以仅查看指定日期范围内的实际成本合计（您可以指定单个周或月）。</p> <p>有关如何计算项目实际成本的信息，请参阅<a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md">跟踪成本</a>中的<a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md#how-workfront-calculates-planned-budgeted-and-actual-costs">Workfront如何计算计划、预算和实际成本</a>。</p> </td>
   </tr> 
   <tr> 
    <td><strong>预算差异（成本）</strong> </td> 
@@ -340,7 +340,7 @@ ht-degree: 1%
 </tr> 
   <tr> 
    <td><strong>实际收入</strong> </td>
-   <td> <p>实际收入是与任务和项目的实际小时数关联的收入。 有关实际收入的更多信息，请参阅<a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md#track-revenue-amounts">帐单和收入概览</a>中的<a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md">跟踪收入金额</a>。</p>
+   <td> <p>实际收入是与任务和项目的实际小时数关联的收入。 有关实际收入的更多信息，请参阅<a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md">帐单和收入概览</a>中的<a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md#track-revenue-amounts">跟踪收入金额</a>。</p>
    <p>根据任务上设置的收入类型，“利用率”报表计算所包含项目的实际收入的方式有所不同，如下所示：</p> <p><strong>固定收入：</strong>无论任务分配如何，任务的收入始终使用在任务上指定的固定金额进行计算。</p> <p><b>重要</b></p>
    <p>与Workfront的其他区域不同，“利用率”报表通过将固定收入平均除以任务记录的小时数来计算实际收入。 </p> <p> </p> <p>例如，一项任务的实际收入为$200。 如果任务有4个实际小时数，则每个小时为$50。 该权限在用户和角色级别上分发。 此分布对于利用率报表是唯一的。</p> <p><b>注释</b></p></p>
    <p>如果您有“固定收入”任务，并且该任务中没有“实际小时数”，则“实际收入”不会显示在“利用率报表”中，因为无法分配小时数。 </p> <p><strong>角色小时：</strong>任务收入的计算方法是使用为特定角色设置的记帐费率乘以实际小时数。</p> <p>Workfront使用以下公式：</p> <p><code>Role Hourly Actual Revenue = SUM(Actual Hours from role on all tasks) * Role Billing Rate</code> </p> <p><b>注意：</b>公式中的记帐小时费率会考虑该费率的任何日期有效更改。</p> <p><strong>每小时用户数：</strong>任务收入的计算方法是使用为特定用户设置的记帐费率乘以该用户对该任务记录的小时数。 Workfront使用以下公式：</p> <p><code>User Hourly Actual Revenue = SUM(Actual Hours from user on all tasks) * User Billing Rate</code></p> <p><b>注意：</b>公式中的记帐小时费率会考虑该费率的任何日期有效更改。</p> <p><b>角色或用户小时加固定</b> </p> <p><b>重要信息</b>

@@ -8,7 +8,7 @@ feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
 source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '545'
 ht-degree: 12%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="wf_resource_pools"
 >title="资源池"
->abstract="资源池是为了完成项目而同时需要的用户的集合。创建资源池后，可以将其与项目和模板关联。"
+>abstract="资源池是为了完成项目而同时需要的用户的集合。 创建资源池后，可以将其与项目和模板关联。"
 
 资源池是用户集合，可帮助您更轻松地在Adobe Workfront中管理资源。 有关资源池的详细信息，请参阅[资源池概述](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)。
 
@@ -86,7 +86,7 @@ ht-degree: 12%
          <li><strong>角色</strong>：与该角色关联的所有用户都已添加到资源池中。</li>
          <li><strong>公司</strong>：公司中的所有用户都已添加到资源池中。</li>
         </ul><p>提示：您只能添加活动用户、团队、<span>角色、</span>或公司。</p><br>您可能需要在对话框中向下滚动才能查看资源池中的所有用户。
-        <p>注：如果将组、团队、公司或工作角色添加到资源池后，用户成为组、团队、公司的成员，或与工作角色相关联，则新成员不会自动添加到资源池中。 <br>如果用户属于您添加的团队、组、公司和工作角色，则用户只会被添加到资源池一次。<br>添加到资源池后已停用的用户在用户列表中显示为灰色，并标记为已停用。</p></p></td>
+        <p>注：如果将组、团队、公司或工作角色添加到资源池后，用户成为组、团队、公司的成员，或与工作角色相关联，则新成员不会自动添加到资源池中。 <br>如果用户属于您添加的团队、组、公司和工作角色，则该用户只会被添加到资源池一次。<br>在添加到资源池后已停用的用户在用户列表中显示为灰色，并标记为已停用。</p></p></td>
      </tr>
     </tbody>
    </table>
