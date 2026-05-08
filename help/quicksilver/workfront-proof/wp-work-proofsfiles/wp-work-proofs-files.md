@@ -24,8 +24,8 @@ ht-degree: 0%
 
 本节包含以下子部分：
 
-* [ [!DNL Workfront Proof]中的自动化工作流](../../workfront-proof/wp-work-proofsfiles/automated-workflow/automated-workflow.md)
-* [ [!DNL Workfront Proof]中的基本功能](../../workfront-proof/wp-work-proofsfiles/basic-features/basic-features.md)
+* [&#x200B; [!DNL Workfront Proof]中的自动化工作流](../../workfront-proof/wp-work-proofsfiles/automated-workflow/automated-workflow.md)
+* [&#x200B; [!DNL Workfront Proof]中的基本功能](../../workfront-proof/wp-work-proofsfiles/basic-features/basic-features.md)
 * [创建验证和文件](../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/create-proofs-and-files.md)
 * [管理您的工作](../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-your-work.md)
 * [组织您的工作](../../workfront-proof/wp-work-proofsfiles/organize-your-work/organize-your-work.md)
