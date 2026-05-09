@@ -7,7 +7,7 @@ description: 项目经理通过创建任务来计划项目工作之后，以及�
 author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 9e217d36d5aeb36761a9a433b84e73ac2b7a114b
 workflow-type: tm+mt
 source-wordcount: '1202'
 ht-degree: 2%
