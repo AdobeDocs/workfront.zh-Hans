@@ -6,7 +6,7 @@ description: 规划在Adobe企业存储上推出Workfront的计划。 了解Adob
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 722ba7f6617e3ccc1a1dcbf51f5d539c550617ab
+source-git-commit: 8daaeacae50e0f0245c2783fd6c827da192ae706
 workflow-type: tm+mt
 source-wordcount: '2360'
 ht-degree: 0%
@@ -219,3 +219,4 @@ Adobe企业存储对象中不包含以下功能：
 * [统一审查和批准入门](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
 * [“文档”区域](/help/quicksilver/documents/managing-documents/documents-area.md)
 * [Adobe企业存储模型的对象权限和访问级别概述](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)
+
