@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 8c5290f5c9724fa1b382b0acf2a541fe7d3d44fa
+source-git-commit: efcb35e0d46670f581bda2943fbf74ab428f98d7
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 4%
+source-wordcount: '571'
+ht-degree: 5%
 
 ---
 
@@ -123,17 +123,11 @@ New features in Workfront Planning are available in Production. For more informa
 
 ## 公告
 
-### API版本21
+API版本22
 
-Workfront API版本21于2025年10月23日发布。 对于API版本21，我们修改了一些资源和端点。 一些更改支持新功能，而其他更改使您能够更轻松地使用通过API获得的信息。
+Workfront API版本22于2026年5月8日发布。 对于API版本22，我们修改了一些资源和端点。 一些更改支持新功能，而其他更改使您能够更轻松地使用通过API获得的信息。
 
->[!IMPORTANT]
->
->此API版本更改具有可能影响现有API调用的重大更改。 这是由于API版本21使用事件订阅版本2。
->
-> 对于多选字段，事件订阅版本2始终以数组形式发送。 如果选择了多个值，则版本1会发送一个数组。 如果只选择一个值，则会发送一个字符串。
-
-有关新增功能和更新的信息，请参阅[API版本21](/help/quicksilver/wf-api/api/new-api-version-21.md)中的新增功能。
+有关新增功能和更新的信息，请参阅[API版本22](/help/quicksilver/wf-api/api/new-api-version-22.md)中的新增功能。
 
 有关API版本的信息，请参阅[API版本控制和支持计划](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
 
