@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 143cb1477bb6e404907e680dfcee98a89177de60
+source-git-commit: 7c4a22a4ecf0b5919e3a4d578c93262a672197a6
 workflow-type: tm+mt
-source-wordcount: '14089'
+source-wordcount: '14106'
 ht-degree: 2%
 
 ---
@@ -1869,6 +1869,7 @@ ht-degree: 2%
    * [审阅和批准工作](review-and-approve-work/review-and-approve-work.md)
    * [统一审查和批准概述](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
    * [统一审查和批准入门](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
+   * [在Adobe企业存储上迁移到Workfront](/help/quicksilver/review-and-approve-work/workfront-storage.md)
    * [非付费用户的有限文档和验证决策概述](review-and-approve-work/proof-doc-decision-limits.md)
    * {hide-from-toc}[设置AI审阅者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
    * 工作审批 {#work-approvals}
@@ -2029,6 +2030,7 @@ ht-degree: 2%
       * [将Adobe Experience Manager与Frame.io集成一起使用](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
    * 审批的提示、技巧和疑难解答 {#ttt-approvals}
       * [审批的提示、技巧和疑难解答：文章索引](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
+      * [更新Workfront Fusion方案以进行统一审查和批准](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md)
       * [查看所有用户的验证和文档决策数](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * 时间表 {#timesheets}
    * [时间表：文章索引](timesheets/timesheets-all.md)
