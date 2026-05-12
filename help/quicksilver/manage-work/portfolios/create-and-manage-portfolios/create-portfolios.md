@@ -8,10 +8,10 @@ feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 3%
+source-wordcount: '884'
+ht-degree: 2%
 
 ---
 
@@ -97,13 +97,18 @@ Old:
 
   有关在Workfront中使用Kick-Start导入数据的信息，请参阅[使用Kick-Start模板将数据导入Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)。
 
-* 在从Workfront Planning中的记录类型连接项目组合时添加项目组合。
+* 通过以下方式从Workfront Planning添加项目组合：
 
-  您必须拥有新的Workfront许可证和附加的Workfront Planning许可证，才能使用Workfront Planning。
-
-  有关访问Workfront Planning的信息，请参阅[访问概述](/help/quicksilver/planning/access/access-overview.md)。
+   * 当您从Workfront Planning中的记录类型连接它们时。
 
   有关通过将项目组合添加到记录来创建项目组合的信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)一文中的“连接时创建记录”一节。
+   * 使用Workfront Planning自动化。
+
+  有关信息，请参阅[使用Adobe Workfront Planning记录自动化创建对象](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)。
+
+  您必须拥有新的Workfront许可证和附加的Workfront Planning包，以便进行Workfront Planning。
+
+  有关访问Workfront Planning的信息，请参阅[访问概述](/help/quicksilver/planning/access/access-overview.md)。
 
 
 ## 创建项目组合
@@ -111,8 +116,35 @@ Old:
 {{step1-click-main-menu}}
 
 1. 单击&#x200B;**[!UICONTROL 项目组合]**。
-1. 单击&#x200B;**[!UICONTROL 新建Portfolio]**。
-1. 将&#x200B;**[!UICONTROL 无标题的Portfolio]**&#x200B;替换为您要为项目组合使用的名称。
+
+1. （视情况而定）根据您的组织使用的文档存储，单击下列选项之一：
+
+   * **新项目组合**，当Workfront管理员选择&#x200B;**Adobe Enterprise**&#x200B;或&#x200B;**旧版Workfront**，并且他们选择或未选择&#x200B;**允许用户选择存储提供程序**&#x200B;设置时。
+   * **新项目组合（旧版存储）**，当Workfront管理员选择&#x200B;**Adobe Enterprise**&#x200B;或&#x200B;**旧版Workfront**，并且他们还选择了&#x200B;**允许用户选择存储提供程序**&#x200B;设置时。
+
+     仅当在“设置”区域中选择了&#x200B;**允许用户选择存储提供程序**&#x200B;设置时，才会显示此选项。
+
+     有关详细信息，请参阅[为您的组织启用Adobe企业存储](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
+
+     >[!NOTE]
+     >
+     >您的Workfront实例可能没有这两种类型的文档存储。
+
+     项目组合已创建，其默认名称遵循以下模式，具体取决于Workfront对文档使用的存储空间：
+
+      * Workfront存储产品组合的`Untitled Portfolio`。
+
+        Workfront存储产品组合在其名称旁显示&#x200B;**旧版Workfront存储**&#x200B;图标![旧版存储产品组合图标](assets/legacy-storage-project-icon.png)。
+
+      * Adobe存储产品组合的`Untitled Portfolio - < Month day, year hour.minute.second >`
+
+        >[!IMPORTANT]
+        >
+        >使用Adobe企业存储的产品组合必须具有唯一的名称。
+
+     对于Adobe存储项目组合，会在“文档”区域中自动创建一个与项目组合同名的新文档文件夹。
+
+1. 将项目组合名称替换为项目组合标题中的新名称。
 
    名称最多可包含255个字符。
 
@@ -144,7 +176,7 @@ Old:
     </tbody> 
    </table>
 
-1. （可选）在&#x200B;**[!UICONTROL Portfolio详细信息]**&#x200B;页面右上角的[!UICONTROL 添加自定义表单]框中单击，为项目组合选择自定义表单并更新自定义字段。
+1. （可选）在[!UICONTROL Portfolio详细信息]页面右上角的&#x200B;**[!UICONTROL 添加自定义表单]**&#x200B;框中单击，为项目组合选择自定义表单并更新自定义字段。
 
    >[!TIP]
    >
