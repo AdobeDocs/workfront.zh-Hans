@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: cbee9aabad7300c2a7ff7aa92bc68a6368a1efcd
 workflow-type: tm+mt
 source-wordcount: '2368'
 ht-degree: 0%
@@ -21,6 +21,13 @@ ht-degree: 0%
 
 <!--add screen shots-->
 <!--check the names of areas, buttons, and links: Learn more, Open Planning, Review trial agreement, etc-->
+
+<!--
+and remove the IMPORTANT below - it conflicts with this one: 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Planning trial period concludes on May 15, 2026. This article will remain active for a period of time but will be retired soon. We recommend that you update your bookmarks for the future.
+-->
 
 Adobe Workfront Planning可集中查看您的营销生命周期，从而改善跨团队协作、实时跟踪营销活动和自动化工作流。 您可以创建自定义工作区，并使用交互式时间表和日历将工作可视化。
 
