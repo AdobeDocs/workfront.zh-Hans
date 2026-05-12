@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
 workflow-type: tm+mt
 source-wordcount: '1629'
 ht-degree: 2%
@@ -177,7 +177,6 @@ Old:
   >[!TIP]
   >
   > 您的Workfront实例可能没有这两种类型的文档存储。
-
 
 * 创建企业存储项目时，会在项目的&#x200B;**文档**&#x200B;部分中创建一个与项目同名的文档文件夹。 将任务添加到项目后，具有任务名称的文件夹将添加到每个任务的&#x200B;**文档**&#x200B;部分。
 

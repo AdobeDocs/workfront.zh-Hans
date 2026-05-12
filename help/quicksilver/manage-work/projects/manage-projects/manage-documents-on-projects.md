@@ -6,9 +6,9 @@ description: 根据您的Workfront管理员是否选择将文档存储在旧版W
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
 workflow-type: tm+mt
-source-wordcount: '1779'
+source-wordcount: '1830'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,7 @@ Not sure we need these since this became an overview article:
 处理项目时，请考虑以下事项：
 
 * 创建Adobe企业存储项目时，Workfront会在项目的“文档”部分中创建一个用于保存文档的文件夹。 文件夹名称与项目同名。 无法删除或手动重命名文件夹。 如果更改项目名称以匹配项目的新名称，则将重命名文件夹。
-* 在创建Adobe企业存储项目或将项目移动到旧版Workfront存储产品组合或项目群时，该项目组合或项目群会自动转换为Adobe企业存储对象。
+* 在创建Adobe企业存储项目或将项目移动到旧版Workfront存储项目组合或项目群时，如果该项目组合或项目群在添加项目之前没有附加文档，则该项目组合或项目群会自动转换为Adobe企业存储对象。
 * 您无法为Workfront企业存储产品组合或项目群创建Adobe存储项目。
 * 从MS Project导入项目时，Workfront会创建一个Workfront存储项目，即使Workfront管理员将Adobe企业存储设置为系统的默认存储空间也是如此。
 * 当您使用Workfront Planning自动化功能创建项目时，Workfront会使用您系统的默认项目存储首选项。 您必须购买Planning包才能访问Workfront Planning。
@@ -141,9 +141,11 @@ Not sure we need these since this became an overview article:
 使用项目组合时，请考虑以下事项：
 
 * 创建Adobe企业存储产品组合时，Workfront会在产品组合的“文档”部分创建一个文件夹来保存文档。 文件夹名称与项目组合同名。 无法删除或手动重命名文件夹。 如果更改项目组合名称以匹配项目组合的新名称，则将重命名文件夹。
-* 在创建Adobe企业级存储项目或将项目移动到旧版Workfront存储产品组合时，该项目组合会自动转换为Adobe企业级存储对象。
-* 如果转换后的产品组合以前附加过文档，则这些文档将继续存储在Workfront存储中。 新文档还存储在Workfront存储中。
-* 如果转换后的产品组合没有在Workfront存储中附加文档，则新文档将存储在Adobe企业存储中。
+
+* 当您将Adobe存储项目添加到Workfront存储产品组合，并且该产品组合没有附加文档时，该产品组合将转换为Adobe存储产品组合。
+* 当您将一个Adobe存储项目添加到Workfront存储产品组合，并且该产品组合具有附加文档时，该产品组合文档存储仍保留在Workfront存储上。 但是，已从产品组合中删除![旧产品组合存储图标](assets/legacy-storage-project-icon.png)的旧版Workfront存储图标。
+* 您无法将Workfront-storage项目添加到Adobe-storage产品组合。
+
 * 当您使用Workfront Planning自动化创建项目组合时，Workfront会使用您系统的项目组合默认存储偏好设置。 您必须购买Planning包才能访问Workfront Planning。
 
 ### 方案的文档管理
@@ -151,9 +153,11 @@ Not sure we need these since this became an overview article:
 使用程序时，请考虑以下事项：
 
 * 创建Adobe企业存储程序时，Workfront会在程序的“文档”部分创建一个文件夹，用于保存文档。 文件夹名称与项目的名称相同。 无法删除或手动重命名文件夹。 如果更改项目名称，将重命名文件夹，以匹配项目的新名称。
-* 在创建Adobe企业级存储项目或将项目移动到旧版Workfront存储产品组合时，该项目组合会自动转换为Adobe企业级存储对象。
-* 如果转换后的程序以前附加过文档，则这些文档将继续存储在Workfront存储中。 新文档还存储在Workfront存储中。
-* 如果转换后的程序未在Workfront存储中附加任何文档，则新文档将存储在Adobe企业存储中。
+
+* 将Adobe存储项目添加到Workfront存储项目时，如果该项目没有附加任何文档，则该项目会转换为Adobe存储项目。
+* 当您将一个Adobe存储项目添加到Workfront存储项目群时，而该项目群具有附加的文档，则该项目群文档存储仍保留在Workfront存储中。 但是，程序![旧版项目组合存储图标](assets/legacy-storage-project-icon.png)的旧版Workfront存储图标已从程序中删除。
+* 您无法将Workfront-storage项目添加到Adobe-storage程序。
+
 * 当您使用Workfront Planning自动化创建程序时，Workfront会使用您系统的默认程序存储首选项。 您必须购买Planning包才能访问Workfront Planning。
 
 ### 任务的文档管理

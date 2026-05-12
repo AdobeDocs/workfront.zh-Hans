@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: b3f1002b-e3b4-48e5-9a64-467d4f7a15b2
-source-git-commit: 1c9a13aa927b6c21d27d860d228be98d44a80987
+source-git-commit: cc5bdfed0b5bdc56d0042436c19abde65eb5f3bc
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '161'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 有关当前Workfront Planning发布活动的信息，请参阅以下文章：
 
-* [Adobe Workfront Planning 2026年第二季度发布活动](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)
+* [Adobe Workfront Planning 2026年第三季度发布活动](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md)
 
 
 
@@ -33,6 +33,7 @@ ht-degree: 2%
 有关在2026年1月16日生产版本之前发布的功能的信息，请参阅以下文章：
 
 * 2026
+   * [Adobe Workfront Planning 2026年第二季度发布活动](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)
    * [Adobe Workfront Planning 2026年第一季度发布活动](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md)
 
 * 2025
