@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: cbee9aabad7300c2a7ff7aa92bc68a6368a1efcd
 workflow-type: tm+mt
-source-wordcount: '1791'
+source-wordcount: '1799'
 ht-degree: 1%
 
 ---
@@ -188,6 +188,11 @@ Removed - more direct steps below:
 
       您只能将现有字段添加到列表视图。
 不能删除第一列中显示的列表视图中的主字段。
+
+      <!-- 
+        update indent here: 
+        1. <span class="preview">Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png) to choose fields to group items by, then sort them in an ascending or descending order. </span>
+        -->
 
    1. 单击&#x200B;**格式化单元格**&#x200B;图标![格式化单元格图标](assets/format-cells-icon.png)。 将打开&#x200B;**格式**&#x200B;框。 <!--change the name of the box when they update it-->
 执行以下操作：
