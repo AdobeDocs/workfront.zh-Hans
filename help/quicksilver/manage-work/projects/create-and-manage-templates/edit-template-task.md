@@ -9,10 +9,10 @@ feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 62d7144f808e7937f11c11ccff64e409c76f2197
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '3062'
-ht-degree: 6%
+source-wordcount: '3123'
+ht-degree: 5%
 
 ---
 
@@ -583,6 +583,23 @@ Old:
 1. 单击&#x200B;**保存**。
 
    当您或其他用户从此模板创建项目时，应用到模板任务的所有设置都将成为项目任务的设置。
+
+
+## 编辑列表中的模板任务
+
+您可以在以下区域的列表中编辑模板任务：
+
+* 模板的“模板任务”部分
+* 模板任务报告
+
+编辑列表中的模板任务与编辑列表中的项目任务类似。
+
+>[!TIP]
+>
+>没有可用于模板任务的计划模式。
+
+
+有关信息，请参阅[编辑列表中的任务](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)。
 
 
 <!--

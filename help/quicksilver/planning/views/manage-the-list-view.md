@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: cbee9aabad7300c2a7ff7aa92bc68a6368a1efcd
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '1799'
-ht-degree: 1%
+source-wordcount: '1803'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 您可以在Workfront Planning的以下区域查看列表视图中的对象：
 
-* 记录的详细信息区域中项目的已连接记录页面
+* 记录的详细信息区域<!--update screen shot for preview May 14 with Grouping icon and add the note at the top in yellow about preview-->中项目的已连接记录页面
 
   ![列表视图中已连接记录页上的项目](assets/projects-on-connected-records-page-list-view.png)
 
@@ -189,11 +189,6 @@ Removed - more direct steps below:
       您只能将现有字段添加到列表视图。
 不能删除第一列中显示的列表视图中的主字段。
 
-      <!-- 
-        update indent here: 
-        1. <span class="preview">Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png) to choose fields to group items by, then sort them in an ascending or descending order. </span>
-        -->
-
    1. 单击&#x200B;**格式化单元格**&#x200B;图标![格式化单元格图标](assets/format-cells-icon.png)。 将打开&#x200B;**格式**&#x200B;框。 <!--change the name of the box when they update it-->
 执行以下操作：
 
@@ -232,7 +227,7 @@ Removed - more direct steps below:
 格式设置将立即应用于列表视图。
 **设置单元格格式**&#x200B;图标旁有一个蓝点，表示该视图应用了特殊格式。
 
-   1. （可选）单击&#x200B;**分组**&#x200B;图标![分组图标](assets/grouping-icon.png) <!--have they updated this to "Grouping"??-->以按公用字段对列表中的项进行分组。 选择一个选项，或使用搜索栏查找字段。
+   1. （可选）单击&#x200B;**分组**&#x200B;图标![分组图标](assets/grouping-icon.png)以按公用字段对列表中的项进行分组。 选择一个选项，或使用搜索栏查找字段。
 
       该字段必须是列表中的列，然后才能按其分组。 并非所有字段类型都可用于分组。
 
@@ -243,7 +238,7 @@ Removed - more direct steps below:
       * 媒介
       * 高
 
-   <!--leave these here, although they duplicate for Enhanced lists in Workfront-->
+      <!--leave these here, although they duplicate for Enhanced lists in Workfront-->
 
 1. （可选）在列表右上角的搜索框中添加关键字以搜索项目。
 
@@ -253,19 +248,21 @@ Removed - more direct steps below:
 
    * 单击列表右上角的&#x200B;**连接记录**&#x200B;以添加现有项。
    * 单击列表底部的&#x200B;**新行**&#x200B;以添加新项。
-1. 单击列表中已连接项目的名称，以在其他浏览器选项卡中将其打开。
+1. 单击列表中项目的名称，以在其他浏览器选项卡中打开该项目。
 1. 双击列表中的单元格以编辑字段信息，然后按Enter保存更改。
 
    某些字段为只读。 例如，项目的完成百分比是由系统计算的字段，您无法手动进行编辑。
 
-1. 将鼠标悬停在列表中项目的名称上，然后单击&#x200B;**更多**&#x200B;菜单[更多菜单](assets/more-menu.png)，然后单击&#x200B;**查看**&#x200B;以在其他选项卡中打开项目
+1. 将鼠标悬停在列表中某个项目的名称上，然后单击&#x200B;**更多**&#x200B;菜单[更多菜单](assets/more-menu.png)，然后单击&#x200B;**查看**&#x200B;在另一个选项卡中打开该项目
 
    或
 
-   选择一个或多个项目，并注意列表底部的操作栏，然后单击下列选项之一（如果可用）。 根据您从哪个区域访问列表视图，单击以下选项之一：
+   选择一个或多个项目，并注意列表底部的操作栏，然后单击下列选项之一（如果可用）。
+
+   根据您从哪个区域访问列表视图，单击以下选项之一：
 
    * **删除**&#x200B;以删除该项。 删除项目会断开它与记录的连接，并将其移到Workfront的回收站。 Workfront管理员最多可以在删除项目后30天内恢复这些已删除的项目。 删除表单不会删除提交表单时创建的请求或记录。
-   * **断开连接**&#x200B;以断开项目与记录的连接。 断开项目连接会将其及其查找字段的所有值从当前记录中删除。
+   * 在连接的项目页面中&#x200B;**断开**，以断开项目与记录的连接。 断开项目连接会将其及其查找字段的所有值从当前记录中删除。
 
      “连接的记录”页面列表视图中的![操作栏](assets/actions-bar-connected-records-page-list-view.png)
 

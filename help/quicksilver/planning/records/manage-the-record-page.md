@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: cbee9aabad7300c2a7ff7aa92bc68a6368a1efcd
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
 source-wordcount: '1646'
 ht-degree: 0%
@@ -201,21 +201,25 @@ Old:
 
    记录的预览将在视图中打开。
 
+   <!--update screen shot for details views preview-->
+
    ![详细信息框](assets/details-box.png)
 
 1. （可选）单击记录预览右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开详细信息](assets/open-details-in-a-new-tab-icon.png)以在新标签中打开记录页面。
 
    此时将打开记录页面。 默认情况下，将打开“详细信息”选项卡。
 
+   <!--update screen shot for details views preview-->
+
    ![详细信息页面](assets/details-page.png)
 
 1. 在记录预览或页面的&#x200B;**详细信息**&#x200B;选项卡中，将鼠标悬停在字段左侧的空格上，然后单击&#x200B;**添加节**&#x200B;图标![添加节图标](assets/add-section-icon.png)以添加节。
 1. 单击该节的名称并用名称替换&#x200B;**无标题节**，然后单击Enter。 在部分下显示的字段自动成为新部分的一部分。
-1. 开始将字段拖放到新部分，如本文中记录预览或详细信息页面[&#128279;](#manage-fields-in-the-records-details-tab)中的管理字段部分所述。
+1. 开始将字段拖放到新部分，如本文中记录预览或详细信息页面](#manage-fields-in-the-records-details-tab)中的[管理字段部分所述。
 
 1. （可选）将鼠标悬停在节名称上，然后单击&#x200B;**更多**&#x200B;菜单![更多](assets/more-menu.png)。
 
-   记录页面![&#128279;](assets/more-menu-options-for-section-on-record-page.png)上节的更多菜单选项
+   记录页面](assets/more-menu-options-for-section-on-record-page.png)上节的![更多菜单选项
 1. （可选）执行以下操作之一以编辑部分：
 
    * 单击&#x200B;**重命名**&#x200B;以重命名该节
@@ -228,7 +232,7 @@ Old:
 
      或
 
-     单击&#x200B;**下移**&#x200B;以将节下移一个位置。
+     单击&#x200B;**下移**以将节下移一个位置。
 部分中的所有字段都会随部分一起移动。
 
    * 单击&#x200B;**删除**&#x200B;以删除该节。 该部分已被删除，无法恢复。 访问此类型记录的所有用户将不再查看已删除的分区。
@@ -242,7 +246,7 @@ Old:
 
    对部分和字段顺序的所有更改都将自动保存。
 
-1. （可选）单击记录详细信息页面![&#128279;](assets/export-icon-in-record-details-page.png)中的&#x200B;**导出**&#x200B;菜单导出图标，以将“详细信息”选项卡导出到Word或PDF文件。 有关详细信息，请参阅[导出记录的详细信息](/help/quicksilver/planning/records/export-the-record-page.md)。
+1. （可选）单击记录详细信息页面](assets/export-icon-in-record-details-page.png)中的&#x200B;**导出**&#x200B;菜单![导出图标，以将“详细信息”选项卡导出到Word或PDF文件。 有关详细信息，请参阅[导出记录的详细信息](/help/quicksilver/planning/records/export-the-record-page.md)。
 
 1. （可选）单击&#x200B;**详细信息**&#x200B;选项卡旁边的&#x200B;**连接**&#x200B;选项卡。 在单击“**连接**”选项卡之前，您可能必须单击“**更多**”。
 
@@ -280,6 +284,8 @@ Old:
 
    记录的预览将在视图中打开。
 
+   <!--update screen shot for details views preview-->
+
    ![详细信息框](assets/details-box.png)
 
 1. （可选且有条件） <!--If you are using the Production environment,-->根据要在“详细信息”页面中显示的字段，执行以下操作之一：
@@ -302,16 +308,21 @@ Old:
    -->
    <!--
    <div class="preview">
+
    In the Preview environment, continue with the following: 
+   
    1. To display all the fields, expand the page view dropdown menu, then select **All fields**.
    1. (Optional) ClicK **New Details** to add a new page and customize it, then do the following:
       1. In the **Create view** box, add a name for the new details page view, then click **Create**. 
-      1. Hover over the fields on the view and click the **Hide and drag field** icon ![Hide and drag field icon](assets/hide-field-in-details-page-icon.png) to the left of the fields, to hide the field or place it in another spot on the page. 
+      1. Hover over the fields on the view and click the **Hide field** icon ![Hide field icon](assets/hide-field-in-details-page-icon.png) to the left of the fields, to hide the field. 
+     
          >[!TIP]
          >
          >* Custom pages are visible by everyone who accesses the record. 
          >* The last page view you choose will be the one that opens by default when you open another record of the same type.
+     
       1. (Optional) Click the **Fields icon** ![Fields icon](assets/fields-icon.png) at the top of the details page, then hide or show fields on the Details page. 
+     
          >[!TIP]
          >
          >The **Fields** icon is not available when you display the details page in the **Selected table view** or the **All fields** views. 
@@ -331,6 +342,8 @@ Old:
 1. （可选）单击记录预览右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签图标中打开详细信息框](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->以在新标签中打开记录页面。
 
    记录&#x200B;**详细信息**&#x200B;页面将在新选项卡中打开。
+
+   <!--update screen shot for details views preview-->
 
    ![详细信息页面](assets/details-page.png)
 

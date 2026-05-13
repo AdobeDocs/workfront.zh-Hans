@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '2825'
+source-wordcount: '2859'
 ht-degree: 4%
 
 ---
@@ -131,7 +131,7 @@ Old:
    * 每次更改后自动更新
    * 手动，仅在单击“保存”之后。
 
-  有关在Workfront保存您对列表中的任务所做的更改时进行配置的信息，请参阅本文中的列表[&#128279;](#modify-plan-mode-before-editing-tasks-in-a-list)部分中的在编辑任务之前修改计划模式。
+  有关在Workfront保存您对列表中的任务所做的更改时进行配置的信息，请参阅本文中的列表](#modify-plan-mode-before-editing-tasks-in-a-list)部分中的[在编辑任务之前修改计划模式。
 
 * 其他用户必须先刷新其页面，然后才能查看您对任务所做的更新。
 
@@ -186,7 +186,7 @@ Old:
 
    或
 
-   单击任务名称右侧的任务列表![&#128279;](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;菜单更多图标。
+   单击任务名称右侧的任务列表](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;菜单![更多图标。
 
 1. （可选）从以下选项中选择：
 
@@ -306,7 +306,7 @@ Old:
 
    或
 
-   单击任务列表![&#128279;](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;菜单模式图标。
+   单击任务列表](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;菜单![模式图标。
 
 1. （可选）从以下选项中选择：
 
@@ -345,7 +345,11 @@ Old:
     </tbody> 
    </table>
 
-1. 当您更改任务的时间表时，Workfront会更新所有项目内依赖项和跨项目依赖项。
+1. 单击列表中的任务，然后将其拖放到时间轴中的其他位置。
+
+   单击父任务以更改其位置时，也会移动所有子任务。
+
+   当您更改任务的时间表时，Workfront会更新所有项目内依赖项和跨项目依赖项。
 1. 如果要永久保留任务更改并保存项目的时间表，请单击&#x200B;**保存**。
 
 #### 选择“手动保存时间线计划”选项时，在任务列表中手动保存更改 {#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-timeline-planning-option}
@@ -414,7 +418,7 @@ Old:
 
    或
 
-   单击任务列表![&#128279;](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;菜单更多图标。
+   单击任务列表](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;菜单![更多图标。
 
 1. 从以下选项中选择：
 

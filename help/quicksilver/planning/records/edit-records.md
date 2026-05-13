@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '2918'
+source-wordcount: '2954'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 有关创建记录的信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
 
-&lt;! — 在此提及，详细信息视图中的字段与表格视图中的字段相同 — 本文从“管理记录”视图链接，其中一个引用此信息 — >
+&lt;！ — 在此提及详细信息视图中的字段与表格视图中的字段相同 — 本文从“管理记录”视图链接，其中一个引用此信息 — >
 
 ## 访问权限要求
 
@@ -147,7 +147,7 @@ Old:
    * 系统字段（“创建者”、“创建日期”、“上次修改者”、“上次修改日期”、“批准日期”、“批准者”、“记录ID”）
 * 如果显示的记录链接到其他记录，则您正在编辑的记录的新信息将反映在链接该记录的所有工作区中的链接记录上。
 * 不能批量编辑记录。<!--this will probably change-->
-* 只有当URL以以下内容开头时，才会被识别为单行文本字段类型中的链接： http://、https://、ftp://或www. 。
+* 只有当URL以以下内容开头时，才会被识别为单行文本字段类型中的链接： http://、https://、ftp://或www。 .
 * 您可以向每张记录添加封面图像。 每个记录的图像都是唯一的，并且不适用于同一时间的所有记录。 有关信息，请参阅[将封面图像添加到记录](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)。
 * 您可以在记录的详细信息页面中编辑字段的顺序。 有关详细信息，请参阅[管理记录页布局](/help/quicksilver/planning/records/manage-the-record-page.md)。
 * 通过调整时间轴和日历视图中的记录大小或重新定位这些记录，可以编辑记录的开始日期和结束日期。
@@ -319,6 +319,8 @@ Old:
 
    从表格视图中，单击第一列中的&#x200B;**打开详细信息**&#x200B;图标![在表格名称字段](assets/open-details-icon-in-table-name-field.png)中打开详细信息图标。 记录的预览将在视图中打开。
 
+   <!--update screenshot for new details views preview-->
+
    ![详细信息框](assets/details-box.png)
 
 1. （可选）单击记录标题右侧的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**重命名**。 这将更新显示为记录标题的字段。
@@ -348,7 +350,7 @@ Old:
 
    ![实时指示器扩展记录预览框](assets/real-time-indicator-expanded-record-preview-box.png)
 
-1. （可选）单击记录详细信息页面&#x200B;**中的**&#x200B;导出![菜单](assets/export-icon-in-record-details-page.png)导出图标以导出记录详细信息。 有关信息，请参阅[导出记录的详细信息](/help/quicksilver/planning/records/export-the-record-page.md)。
+1. （可选）单击记录详细信息页面](assets/export-icon-in-record-details-page.png)中的&#x200B;**导出**&#x200B;菜单![导出图标以导出记录详细信息。 有关信息，请参阅[导出记录的详细信息](/help/quicksilver/planning/records/export-the-record-page.md)。
 
 1. （可选）单击记录预览右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开详细信息](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->以在新标签中打开记录页面。 继续编辑记录，如本文中[从记录的页面](#edit-a-record-from-the-records-page)部分编辑记录中所述。
 
@@ -373,6 +375,8 @@ Old:
      ![记录行的上下文菜单](assets/contextual-menu-for-record-row.png)
 
      此时将打开记录页面。
+
+     <!--update screenshot for new details views preview-->
 
      ![详细信息页面](assets/details-page.png)
 
@@ -412,7 +416,7 @@ Old:
 
    ![实时指示器扩展记录预览框](assets/real-time-indicator-expanded-record-preview-box.png)
 
-1. （可选）单击记录详细信息页面&#x200B;**中的**&#x200B;导出![菜单](assets/export-icon-in-record-details-page.png)导出图标以导出记录详细信息。 有关信息，请参阅[导出记录的详细信息](/help/quicksilver/planning/records/export-the-record-page.md)。
+1. （可选）单击记录详细信息页面](assets/export-icon-in-record-details-page.png)中的&#x200B;**导出**&#x200B;菜单![导出图标以导出记录详细信息。 有关信息，请参阅[导出记录的详细信息](/help/quicksilver/planning/records/export-the-record-page.md)。
 
 
 ## 在Planning部分中编辑来自Workfront对象的记录

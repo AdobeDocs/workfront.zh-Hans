@@ -9,9 +9,9 @@ feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '635'
 ht-degree: 2%
 
 ---
@@ -65,9 +65,9 @@ ht-degree: 2%
 
 {{step1-click-profile-pic}}
 
-1. 单击您姓名旁边的&#x200B;**[!UICONTROL 更多]**&#x200B;图标![更多图标](assets/more-icon.png)，然后单击&#x200B;**[!UICONTROL 编辑]**。
+1. 单击您姓名旁边的&#x200B;**[!UICONTROL 更多]**&#x200B;图标![更多图标](assets/more-icon.png)，然后单击&#x200B;**[!UICONTROL 编辑用户]**。
 
-1. 在显示的&#x200B;**[!UICONTROL 编辑人员]**&#x200B;框中，转到&#x200B;**[!UICONTROL 通知]**&#x200B;部分。
+1. 在显示的&#x200B;**[!UICONTROL 编辑用户]**&#x200B;框中，转到&#x200B;**[!UICONTROL 通知]**&#x200B;部分。
 
 1. 单击某个类别可查看与该类别相关的通知设置。
 
@@ -83,7 +83,8 @@ ht-degree: 2%
 
    对于&#x200B;**[!UICONTROL 通信]**&#x200B;类别，您只能选择即时传递的单个通知。 要在每日摘要中发送通知，您必须选择所有通知。
 
-   如果激活了给定类别的所有电子邮件通知，则类别标题中的框显示为选中状态。 如果给定类别中的所有电子邮件通知都已停用，则该框处于未选中状态。 如果激活了某些通知，而取消激活了其他通知，则类别复选框将以直线显示。\
+   如果激活了给定类别的所有电子邮件通知，则类别标题中的框显示为选中状态。 如果给定类别中的所有电子邮件通知都已停用，则该框处于未选中状态。 如果激活了某些通知，而取消激活了其他通知，则类别复选框将以直线显示。
+
    修改通知设置时，将显示该通知设置的标签&#x200B;**[!UICONTROL Edited]**，以告知您该通知设置已被修改。
 
 1. 如果您选择了任何要作为每日摘要发送的通知，请在&#x200B;**[!UICONTROL 电子邮件每日摘要]**&#x200B;之后的&#x200B;**[!UICONTROL 通知]**&#x200B;分区的顶部选择一天中您希望接收该通知的时间。
@@ -97,4 +98,4 @@ ht-degree: 2%
 
    ![接收来自sndbox的电子邮件](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
-1. 单击&#x200B;**[!UICONTROL 保存更改]**。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
