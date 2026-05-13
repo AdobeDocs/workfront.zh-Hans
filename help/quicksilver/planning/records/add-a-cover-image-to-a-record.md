@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '679'
 ht-degree: 1%
 
 ---
@@ -178,12 +178,16 @@ Old:
 
    记录的预览将在视图中打开。
 
+   <!--update screen shot for new details views preview-->
+
    ![详细信息预览框](assets/details-box.png)
 
 
 1. （可选）单击记录预览右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->以在新标签中打开记录页面。
 
    此时将打开记录页面。
+
+   <!--update screen shot for new details views preview-->
 
    ![详细信息页面](assets/details-page.png)
 
@@ -207,6 +211,8 @@ Old:
 1. 单击&#x200B;**使用图像**。
 
    图像会上载到记录预览或详细信息页面的顶部，并且更改会自动保存。
+
+   <!--update screen shot for new details views preview-->
 
    ![录制包含封面图像的页面](assets/record-page-with-cover-image.png)
 

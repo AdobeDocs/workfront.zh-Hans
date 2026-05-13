@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '2825'
+source-wordcount: '2859'
 ht-degree: 4%
 
 ---
@@ -345,7 +345,11 @@ Old:
     </tbody> 
    </table>
 
-1. 当您更改任务的时间表时，Workfront会更新所有项目内依赖项和跨项目依赖项。
+1. 单击列表中的任务，然后将其拖放到时间轴中的其他位置。
+
+   单击父任务以更改其位置时，也会移动所有子任务。
+
+   当您更改任务的时间表时，Workfront会更新所有项目内依赖项和跨项目依赖项。
 1. 如果要永久保留任务更改并保存项目的时间表，请单击&#x200B;**保存**。
 
 #### 选择“手动保存时间线计划”选项时，在任务列表中手动保存更改 {#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-timeline-planning-option}

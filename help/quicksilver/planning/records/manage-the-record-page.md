@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: cbee9aabad7300c2a7ff7aa92bc68a6368a1efcd
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
 source-wordcount: '1646'
 ht-degree: 0%
@@ -201,11 +201,15 @@ Old:
 
    记录的预览将在视图中打开。
 
+   <!--update screen shot for details views preview-->
+
    ![详细信息框](assets/details-box.png)
 
 1. （可选）单击记录预览右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开详细信息](assets/open-details-in-a-new-tab-icon.png)以在新标签中打开记录页面。
 
    此时将打开记录页面。 默认情况下，将打开“详细信息”选项卡。
+
+   <!--update screen shot for details views preview-->
 
    ![详细信息页面](assets/details-page.png)
 
@@ -280,6 +284,8 @@ Old:
 
    记录的预览将在视图中打开。
 
+   <!--update screen shot for details views preview-->
+
    ![详细信息框](assets/details-box.png)
 
 1. （可选且有条件） <!--If you are using the Production environment,-->根据要在“详细信息”页面中显示的字段，执行以下操作之一：
@@ -302,16 +308,21 @@ Old:
    -->
    <!--
    <div class="preview">
+
    In the Preview environment, continue with the following: 
+   
    1. To display all the fields, expand the page view dropdown menu, then select **All fields**.
    1. (Optional) ClicK **New Details** to add a new page and customize it, then do the following:
       1. In the **Create view** box, add a name for the new details page view, then click **Create**. 
-      1. Hover over the fields on the view and click the **Hide and drag field** icon ![Hide and drag field icon](assets/hide-field-in-details-page-icon.png) to the left of the fields, to hide the field or place it in another spot on the page. 
+      1. Hover over the fields on the view and click the **Hide field** icon ![Hide field icon](assets/hide-field-in-details-page-icon.png) to the left of the fields, to hide the field. 
+     
          >[!TIP]
          >
          >* Custom pages are visible by everyone who accesses the record. 
          >* The last page view you choose will be the one that opens by default when you open another record of the same type.
+     
       1. (Optional) Click the **Fields icon** ![Fields icon](assets/fields-icon.png) at the top of the details page, then hide or show fields on the Details page. 
+     
          >[!TIP]
          >
          >The **Fields** icon is not available when you display the details page in the **Selected table view** or the **All fields** views. 
@@ -331,6 +342,8 @@ Old:
 1. （可选）单击记录预览右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签图标中打开详细信息框](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->以在新标签中打开记录页面。
 
    记录&#x200B;**详细信息**&#x200B;页面将在新选项卡中打开。
+
+   <!--update screen shot for details views preview-->
 
    ![详细信息页面](assets/details-page.png)
 
