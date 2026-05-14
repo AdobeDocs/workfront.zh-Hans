@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 5416c2d847e9b1023068719602c4d1d4e6219801
+source-git-commit: e40d28599148e22a8553d1ef1e669811e80a59df
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -55,35 +55,32 @@ We recommend to use the Sample workspaces as examples only, and rather use the m
 
 For information, see Workspaces overview (/help/quicksilver/planning/architecture/workspaces-overview.md). 
 
-## Custom views for a record's Details page 
-
->[!NOTE]
->
->Preview: May 14, 2026 
->Production fast release: June 11, 2026 
->Production for everyone: July 16, 2026 
-
-To allow for better flexibility of visualizing your information in a record's details page, we have introduced the ability to create custom views for this page.  
-
-In addition to adding two already-built details page views that contain either all the records fields or just the fields visible in the table view, you can now create custom views for a record's details pages. The views you create are visible to everyone that can access the record.  
-
-This update removes the **Show all fields** setting and replaces it with custom details views.  
-
-For information, see [Manage the record page](/help/quicksilver/planning/records/manage-the-record-page.md).  
-
-## Add groupings to a Projects connected record page
-
->[!NOTE]
->
->Preview: May 14, 2026     
->Production fast: June 11, 2026 
->Production for everyone: July 16, 2026 
-
-You can now group your information in the projects connected records page of a record in Workfront Planning. This capability did not exist in this area prior to this enhancement.  
-
-For information, see [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md).
-
 -->
+
+## 记录详细信息页面的自定义视图
+
+>[!NOTE]
+>
+>预览： 2026年5月14日>生产快速发布： 2026年6月11日>适用于所有人的生产： 2026年7月16日
+
+为了在记录的详细信息页面中更加灵活地可视化您的信息，我们引入了为此页面创建自定义视图的功能。
+
+除了添加两个已构建的详细信息页面视图（包含所有记录字段或仅包含表格视图中可见的字段）之外，您现在还可以为记录的详细信息页面创建自定义视图。 您创建的视图对可以访问该记录的每个人都可见。
+
+此更新将删除&#x200B;**显示所有字段**&#x200B;设置，并将其替换为自定义详细信息视图。
+
+有关信息，请参阅[管理记录页](/help/quicksilver/planning/records/manage-the-record-page.md)。
+
+## 向“连接的项目”记录页面添加分组
+
+>[!NOTE]
+>
+>预览： 2026年5月14日\
+>快速生产：2026年6月11日>适用于所有人的生产： 2026年7月16日
+
+您现在可以在Workfront Planning中记录的“连接的项目”记录页面中对您的信息进行分组。 在此增强功能之前，此区域中不存在此功能。
+
+有关信息，请参阅[管理列表视图](/help/quicksilver/planning/views/manage-the-list-view.md)。
 
 
 <!--
