@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 5416c2d847e9b1023068719602c4d1d4e6219801
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,7 @@ ht-degree: 0%
 
 工作区是组织单位使用的记录类型的集合，它表示该单位的工作生命周期和流程。 您可以在Adobe Workfront Planning中完全自定义工作区。
 
+<!--update screenshot with preview-->
 
 ![工作区登陆页面管理员帐户](assets/workspaces-landing-page-admin-account.png)
 
@@ -51,7 +52,18 @@ ht-degree: 0%
       * **我所在的工作区**：显示您创建的工作区或与您共享的工作区。
       * **其他工作区**：显示系统中的所有其他工作区。
 
+     <!--
+      * <span class="preview">**Sample workspaces**: Displays built-in examples of best-practice workspaces. You cannot edit the workspaces or the record types, but you can add records and edit them. You can share the workspaces with Standard-license users.</span>
+      -->
+
+     <!--      
+        >[!NOTE]
+        >
+        ><span class="preview">We recommend not editing the sample workspaces, but instead using them as a reference to create your own.</span> 
+        -->
+
    * 对于所有其他用户，他们创建的工作区以及与他们共享的工作区将显示在“工作区”区域中。
+  <!--* <span class="preview">**Sample workspaces**: Displays for Standard-license users when a Workfront administrator shared the workspaces on the tab with them. The tab displays built-in examples of best-practice workspaces. You cannot edit the workspaces or the record types, but you can add records and edit them. You can share the workspaces with Standard-license users.</span> -->
 
 * 工作区包含的记录类型应反映工作生命周期和组织单位的概念。
 
