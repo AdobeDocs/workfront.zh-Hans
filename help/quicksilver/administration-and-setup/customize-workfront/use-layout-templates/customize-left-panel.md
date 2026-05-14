@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
+source-git-commit: a7f7099f3de147ed166ab19ac44608ba01eb6d31
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1230'
 ht-degree: 2%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 2%
 ## 自定义[!DNL Workfront]中某个区域的左侧面板：
 
 1. 开始处理布局模板，如[创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
-1. 单击![自定义用户看到的内容](assets/dropdown-arrow.png)下的向下箭头&#x200B;**[!UICONTROL 向下箭头]**，然后单击要自定义其左侧面板的对象类型或[!DNL Workfront]区域的名称。
+1. 单击&#x200B;**[!UICONTROL 自定义用户看到的内容]**&#x200B;下的向下箭头![向下箭头](assets/dropdown-arrow.png)，然后单击要自定义其左侧面板的对象类型或[!DNL Workfront]区域的名称。
 
    下表列出了可自定义其左侧面板的对象类型和[!DNL Workfront]区域：
 
@@ -88,7 +88,7 @@ ht-degree: 2%
      <tr> 
       <td>[!UICONTROL 项目]</td> 
       <td>项目的名称</td> 
-      <td>[!UICONTROL 任务]、[!UICONTROL 项目详细信息]、[!UICONTROL 业务案例]、[!UICONTROL 更新]、[!UICONTROL 文档]、[!UICONTROL 问题]、[!UICONTROL 风险]、[!UICONTROL 批准]、[!UICONTROL 基线]、[!UICONTROL 记帐费率]、[!UICONTROL 记帐记录]、[!UICONTROL uicontrol支出]、[!UICONTROL 小时数]、[!UICONTROL 工作负载均衡器]、[!UICONTROL 人员]、[!UICONTROL 利用率]、[!UICONTROL 队列详细信息]、[!UICONTROL 路由规则]、[!UICONTROL 队列主题]、[!UICONTROL 主题组]、[!UICONTROL 量度]、[!UICONTROL 规划]*、[!UICONTROL 自定义应用程序]**</td> 
+      <td>[!UICONTROL 任务]、[!UICONTROL 项目详细信息]、[!UICONTROL 业务案例]、[!UICONTROL 更新]、[!UICONTROL 文档]、[!UICONTROL 问题]、[!UICONTROL 风险]、[!UICONTROL 批准]、[!UICONTROL 基线]、[!UICONTROL 计费率]、[!UICONTROL 计费资源]、[!UICONTROL uicontrol计费记录]、[!UICONTROL 费用]、[!UICONTROL 小时数]、[!UICONTROL 工作负载均衡器]、[!UICONTROL 人员]、[!UICONTROL 利用率]、[!UICONTROL 队列详细信息]、[!UICONTROL 路由规则]、[!UICONTROL 队列主题]、[!UICONTROL 主题组]、[!UICONTROL 量度]、[!UICONTROL Planning]*、[!UICONTROL 自定义应用程序]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL 任务]</td> 
@@ -204,7 +204,7 @@ ht-degree: 2%
     </tbody> 
    </table>
 
-   *贵公司必须额外购买Workfront Planning的许可证，以便能够将此区域添加到项目、项目组合和程序的左侧面板。 有关详细信息，请参阅[Adobe Workfront规划入门](/help/quicksilver/planning/general/planning-overview.md)
+   *贵公司必须额外购买Workfront Planning的许可证，以便能够将此区域添加到项目、项目组合和程序的左侧面板。 有关详细信息，请参阅[Adobe Workfront规划入门](/help/quicksilver/planning/general/planning-overview.md)。
 
    **自定义应用程序必须单独创建，然后才能作为左侧面板选项使用。 有关详细信息，请参阅[使用Adobe App Builder为Workfront创建自定义应用程序](/help/quicksilver/app-builder/app-builder.md)。
 
