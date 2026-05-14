@@ -8,9 +8,9 @@ author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: 69414cbbee8899bdbf241d57e50e3ef1c10cc162
 workflow-type: tm+mt
-source-wordcount: '3445'
+source-wordcount: '3546'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 1%
 
 有关将记录类型相互连接或从其他应用程序连接到对象类型的信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
-For an example of connecting record types, see [Example of connecting record types and records](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md).
+有关连接记录类型的示例，请参阅[连接记录类型和记录的示例](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md)。
 
 您可以连接以下各项：
 
@@ -328,7 +328,7 @@ Old:
 1. 执行下列操作之一：
 
    * 单击列表中的对象以将其添加到所选记录。 对象按字母顺序列出。 对象将自动添加。
-   * Start typing the name of an object and click it when it displays in the list. 对象将自动添加。
+   * 开始键入对象的名称，并在该对象显示在列表中时单击它。 对象将自动添加。
 
    >[!TIP]
    >
@@ -363,17 +363,17 @@ Old:
    添加了以下内容：
 
    * 选定的Workfront对象将添加到链接的记录字段。
-   * If you added them when you connected the record type with Workfront, the linked fields (or the lookup fields) of the Workfront objects are automatically populated with information from Workfront.
+   * 如果您在通过Workfront连接记录类型时添加了它们，则Workfront对象的链接字段（或查找字段）会自动填充Workfront中的信息。
 
-   For more information about connecting record types with objects from another application, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
+   有关将记录类型与来自其他应用程序的对象连接的详细信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
-1. (Optional) Click the name of a Workfront object connected to a Workfront Planning record either in the linked field of a table view or from the linked field in the record page.
+1. （可选）单击表视图的链接字段或记录页面中链接字段内连接到Workfront Planning记录的Workfront对象的名称。
 
-   This opens the Workfront object in Workfront, if you have at least View permissions to the object.
+   如果您至少具有对象的“查看”权限，此操作将在Workfront中打开Workfront对象。
 
    >[!TIP]
    >
-   >* When you choose to connect multiple records when connecting the record types, the values of the lookup fields are either displayed separated by commas or are aggregated according to the aggregator you chose.
+   >* 当您选择在连接记录类型时连接多个记录时，查找字段的值显示时用逗号分隔，或者根据您选择的聚合器聚合。
    >
    >* 在Workfront中，不会为链接的Workfront对象创建链接记录字段。
 
@@ -473,11 +473,11 @@ metadata mapping is not available yet for content fragments - as of April 22, 20
      >
      >* 没有在Experience Manager Assets应用程序中为链接的Workfront Planning资源创建指向Experience Manager Planning链接记录的链接记录字段。
 
-1. （可选且视情况而定）对于资源，请转到链接到Experience Manager的记录类型，然后在链接的记录字段中单击资源的名称。 资源的Experience Manager详细信息会显示在弹出窗口中。<!--not sure if this is also possible for fragments??-->
+1. （可选且视情况而定）转到链接到Experience Manager的记录类型，然后单击链接记录字段中的资源名称。 资源的Experience Manager详细信息会显示在弹出窗口中。<!--not sure if this is also possible for fragments??-->
 
    ![包含AEM详细信息和缩略图的资源弹出窗口](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
 
-   The following fields display for an image file:
+   为图像文件显示以下字段：
 
    * 图像的缩略图
    * 图像文件名
@@ -489,11 +489,15 @@ metadata mapping is not available yet for content fragments - as of April 22, 20
    * 创建日期
    * 修改日期
 
-1. （可选且有条件）对于资源，要在Experience Manager中打开Experience Manager资源记录页面，请转到要链接到的记录的记录类型页面，在链接的记录字段中单击资源的名称以打开弹出窗口，然后单击&#x200B;**在AEM中打开**&#x200B;图标![在AEM中打开资源图标](assets/open-asset-icon.png)以打开该资源。<!--not sure if this is also possible for fragments??-->
+     >[!TIP]
+     >
+     >Experience Manager对象详细信息窗口会从Planning中任何显示所连接对象的位置显示。 例如，您可以从表格窗口或记录的详细信息区域打开AEM对象的详细信息窗口。
+
+1. （可选且有条件）要在Experience Manager中打开Experience Manager资源或片段记录页面，请转到要链接到的记录的记录类型页面，在链接的记录字段中单击资源的名称以打开弹出窗口，然后单击&#x200B;**在AEM中打开**&#x200B;图标![在AEM中打开资源图标](assets/open-asset-icon.png)以打开该资源。<!--not sure if this is also possible for fragments??-->
 
    此操作将在Adobe Experience Manager Assets中打开Experience Manager资源。
 
-1. （可选且有条件）对于资源，在记录类型的表视图中，将鼠标悬停在链接的Experience Manager资源的列标题上，单击下拉菜单，然后单击&#x200B;**编辑查找字段**。<!--not sure if this is also possible for fragments??-->
+1. （可选且有条件）在记录类型的表视图中，将鼠标悬停在链接的Experience Manager资源或片段的列标题上，单击下拉菜单，然后单击&#x200B;**编辑查找字段**。<!--not sure if this is also possible for fragments??-->
 
 1. 从&#x200B;**未选择的字段**&#x200B;区域<!--not sure if this is also possible for fragments??-->添加Experience Manager Assets对象字段
 
@@ -501,9 +505,9 @@ metadata mapping is not available yet for content fragments - as of April 22, 20
 
    从&#x200B;**选定字段**&#x200B;区域删除Workfront对象字段。
 
-   这会在记录中添加或删除链接字段。 The information associated with the removed fields remains in Adobe Experience Assets.
+   这会在记录中添加或删除链接字段。 与已删除字段关联的信息仍保留在Adobe Experience Assets中。
 
-### Connect Workfront Planning records with other records or objects from the Connections tab of the record page
+### 从记录页面的“连接”选项卡将Workfront Planning记录与其他记录或对象连接
 
 1. 转到已连接到其他Planning记录类型或来自其他应用程序的对象类型的任何记录类型视图。
 1. 按照前面各小节中描述的步骤，在视图中查找要与其他记录或对象连接的记录。

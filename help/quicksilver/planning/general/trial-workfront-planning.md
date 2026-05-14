@@ -7,9 +7,9 @@ role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
+source-git-commit: 69414cbbee8899bdbf241d57e50e3ef1c10cc162
 workflow-type: tm+mt
-source-wordcount: '2368'
+source-wordcount: '2329'
 ht-degree: 0%
 
 ---
@@ -20,25 +20,26 @@ ht-degree: 0%
 <!--add screen shots-->
 <!--check the names of areas, buttons, and links: Learn more, Open Planning, Review trial agreement, etc-->
 
-<!--
-and this important, and remove the IMPORTANT below - it conflicts with this one: 
 >[!IMPORTANT]
 >
->The Adobe Workfront Planning trial period concludes on May 15, 2026. This article will remain active for a period of time but will be retired soon. We recommend that you update your bookmarks for the future.
--->
+>Adobe Workfront规划试验期于2026年5月15日结束。 本文在一段时间内保持活动状态，但很快就会停用。 我们建议您以后更新书签。
+
+本文中的信息介绍了Workfront Planning试验期间提供的功能。
 
 Adobe Workfront Planning可集中查看您的营销生命周期，从而改善跨团队协作、实时跟踪营销活动和自动化工作流。 您可以创建自定义工作区，并使用交互式时间表和日历将工作可视化。
 
+<!--
 >[!IMPORTANT]
 >
->* Adobe Workfront向所有不是Adobe Workfront Planning客户的Adobe Workfront客户提供Workfront Planning 60天免费试用。
+>* Adobe Workfront is offering a 60-day free trial of Adobe Workfront Planning to all Adobe Workfront customers who are not also Workfront Planning customers. 
 >
->* 注册期已于2026年4月1日结束，现已结束。
+>* The sign-up period ended on April 1, 2026 and it is now closed. 
 >
->* 如果您已接受试用协议并注册参加试用，则它将在以下日期之间提供：2026年3月2日至5月1日。 访问将保持活动状态直至2026年5月15日。
+>* If you accepted the trial agreement and are enrolled in the trial, it is available between the following dates: March 2 - May 1, 2026. Access will remain active until May 15, 2026.
 >
->* 请注意，试用版自发布之日起有60天可用，自您加入试用版之日起有60天可用。
+>* Note that the trial is available for 60 days from its launch, and not for 60 days from when you joined it.
 >
+-->
 
 通过此次试用，您将亲眼看到Planning如何帮助日常工作与战略目标保持一致、简化执行并为您的组织带来可衡量的结果。
 
