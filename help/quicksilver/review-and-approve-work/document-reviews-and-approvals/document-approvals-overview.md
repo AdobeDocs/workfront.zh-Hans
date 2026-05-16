@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: abca776dd79dcb1b5ef7c59745719a0faee5c845
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '3977'
+source-wordcount: '3914'
 ht-degree: 0%
 
 ---
@@ -31,18 +31,18 @@ ht-degree: 0%
 
 -->
 
-## 构建于Adobe企业级存储之上
+## 构建于Adobe云存储之上
 
-统一审查和批准构建于Adobe企业存储之上，后者是一种基于云的存储解决方案，可作为Adobe企业产品（包括Workfront和Frame.io）中资产的中央存储库。<!--, and Creative Cloud.-->
+统一审查和批准是基于Adobe云存储构建的，后者是一种基于云的存储解决方案，可作为Adobe企业产品（包括Workfront和Frame.io）中资产的中央存储库。<!--, and Creative Cloud.-->
 
-Adobe企业存储的主要优势包括：
+Adobe云存储的主要优势包括：
 
 * 用于创意和工作管理资产的统一存储层
 * 使用Adobe Identity Management system (IMS)集中管理权限以实现安全访问控制
 * Workfront和Frame.io <!--, and Creative Cloud apps -->中的端到端资源可见性
 * 满足企业需求的可扩展存储和配额管理
 
-有关详细信息，请参阅[Adobe企业存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+有关详细信息，请参阅[Adobe云存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 ## 统一审查和批准
 
@@ -97,7 +97,7 @@ Workfront校对功能在此集成中不可用。
 
 ### 强制的结构和命名约定
 
-由于统一审查和批准是使用Adobe企业存储构建的，因此在管理项目和文档时，需要了解一些强制性的结构和命名约定。
+由于统一审查和批准是使用Adobe云存储构建的，因此在管理项目和文档时，需要了解一些强制性的结构和命名约定。
 
 * 如果项目和项目属于同一项目组合，则它们不能具有相同的名称。
 * 如果文档属于同一项目，则不能具有相同的名称。
@@ -136,7 +136,7 @@ Workfront校对功能在此集成中不可用。
 
 ### Workfront中的文档管理
 
-上传到Workfront的文档存储在Adobe企业存储中，可在Workfront和Frame.io中访问。 在Workfront中将文档上传到任务或问题时，系统会在Adobe企业存储中创建一个系统生成的文件夹，该文件夹继承任务或问题的权限。 上传到该任务或问题的所有文档都存储在该文件夹中，并从该文件夹继承权限。 有关Workfront中文档的更多信息，请参阅[新的文档区域概述](/help/quicksilver/documents/managing-documents/documents-area.md)和[Adobe企业存储模型的对象权限和访问级别概述](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)。
+上传到Workfront的文档存储在Adobe云存储中，可在Workfront和Frame.io中访问。 当您在Workfront中将文档上传到任务或问题时，系统会在Adobe云存储中创建一个系统生成的文件夹，该文件夹继承任务或问题的权限。 上传到该任务或问题的所有文档都存储在该文件夹中，并从该文件夹继承权限。 有关Workfront中文档的更多信息，请参阅[新的文档区域概述](/help/quicksilver/documents/managing-documents/documents-area.md)和[Adobe云存储模型的对象权限和访问级别概述](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)。
 
 ### 文档体验限制
 
@@ -174,9 +174,9 @@ Workfront校对功能在此集成中不可用。
 
 * 用户只能属于IMS组织内的一个Workfront实例。
 
-* 必须在Adobe Unified Experience和Adobe企业存储上启用Workfront实例。
+* 必须在Adobe Unified Experience和Adobe云存储上启用Workfront实例。
 
-* Workfront客户必须使用V2 Workfront SKU。 如果贵组织尚未使用V2 Workfront SKU，则需要与Adobe签订合同事件以将V2 Workfront SKU添加到您的合同中。 请联系您的Adobe客户代表。
+* 您必须使用支持Adobe云存储的Workfront版本。 如果贵组织尚未使用支持的版本，请联系您的Adobe客户代表。
 
 **我是否需要Frame.io许可证才能使用此集成？**
 
@@ -194,13 +194,13 @@ Workfront校对功能在此集成中不可用。
 
 **我需要做什么才能获得访问权限？**
 
-要访问统一的审核和批准，您的组织必须位于V2 Workfront SKU上。 任何尚未使用V2 Workfront SKU的组织必须与Adobe签订合同来添加V2 Workfront SKU。 若要开始，请执行以下操作：
+要访问统一的审核和批准，您必须使用支持Adobe云存储的Workfront版本。 任何尚未使用受支持版本的组织都必须联系其Adobe客户代表。 若要开始，请执行以下操作：
 
-* 请联系您的Adobe客户代表，以确认您当前的Workfront合同是否位于V2 Workfront SKU上。
+* 请联系您的Adobe客户代表，确认您当前的Workfront合同是否支持统一审查和批准。
 
-* 如果贵组织不在V2 Workfront SKU上，您的客户代表将指导您完成添加它所需的合同事件。
+* 如果您的组织不是采用受支持的版本，则您的客户代表将指导您完成添加该版本所需的更新。
 
-* 合同中包含V2 Workfront SKU后，Adobe Professional Services将为您的组织配置集成。
+* 在启动支持Adobe云存储的Workfront版本后，Adobe Professional Services将为您的组织配置集成。
 
    * 如果您不确定您的Adobe客户代表是谁，可以通过Adobe支持门户联系或访问Experience League以了解联系人选项。
 
@@ -354,11 +354,11 @@ Yes. In the legacy proofing workflow (prior to unified review and approval), whe
 
 **When I upload a document and not a proof, a proof gets generated. Will a proof always be generated?**
 
-No. With unified review and approval enabled and Adobe enterprise storage active, uploading a document does not automatically generate a proof. Documents are stored in Adobe enterprise storage and are reviewed using the Frame.io viewer. A proof is only generated if you explicitly create one using the legacy proofing workflow. The Frame.io viewer serves as the primary review surface, so a separate proof is not needed for standard review and approval workflows.
+No. With unified review and approval enabled and Adobe cloud storage active, uploading a document does not automatically generate a proof. Documents are stored in Adobe cloud storage and are reviewed using the Frame.io viewer. A proof is only generated if you explicitly create one using the legacy proofing workflow. The Frame.io viewer serves as the primary review surface, so a separate proof is not needed for standard review and approval workflows.
 
 **What is the difference between uploading a document and a proof after the 26.2 release?**
 
-With unified review and approval enabled, uploading a document stores it in Adobe enterprise storage and makes it available for review in the Frame.io viewer. A unified approval workflow can be created directly on the document. Uploading a proof, by contrast, uses the legacy Workfront Proof viewer (ProofHQ) and its own proofing workflow. Both options are available for projects created before the integration was enabled, but the Frame.io viewer is the primary review surface going forward. The key difference is that a document uses the unified approval workflow and Frame.io viewer, while a proof uses the legacy proofing workflow and viewer.
+With unified review and approval enabled, uploading a document stores it in Adobe cloud storage and makes it available for review in the Frame.io viewer. A unified approval workflow can be created directly on the document. Uploading a proof, by contrast, uses the legacy Workfront Proof viewer (ProofHQ) and its own proofing workflow. Both options are available for projects created before the integration was enabled, but the Frame.io viewer is the primary review surface going forward. The key difference is that a document uses the unified approval workflow and Frame.io viewer, while a proof uses the legacy proofing workflow and viewer.
 
 **Reviews under My Approvals only show a "Complete my review" button and no link to the proofing viewer or the document. Is this intended?**
 
@@ -379,11 +379,11 @@ Yes. When a new version is uploaded, previous approval participants are not auto
 
 +++ 展开以查看有关存储和文件管理的常见问题。
 
-**什么是Adobe企业存储以及它与此集成有何关系？**
+**什么是Adobe云存储以及它与此集成有何关系？**
 
-Adobe企业存储是连接Workfront、Frame.io和Adobe Creative Cloud的通用存储层。 Assets位于一个位置，无需手动文件传输即可跨工具访问。 创意人员可以就地工作，审阅人始终会看到最新版本。
+Adobe云存储是连接Workfront、Frame.io和Adobe Creative Cloud的通用存储层。 Assets位于一个位置，无需手动文件传输即可跨工具访问。 创意人员可以就地工作，审阅人始终会看到最新版本。
 
-Adobe企业存储的主要优势包括：
+Adobe云存储的主要优势包括：
 
 * 一个存储层，用于跨Workfront和Frame.io的所有进程中的资源
 
@@ -395,7 +395,7 @@ Adobe企业存储的主要优势包括：
 
 **文件和项目是否有命名或结构要求？**
 
-可以。 由于该集成使用Adobe企业存储，因此适用以下约定：
+可以。 由于该集成使用Adobe云存储，因此适用以下约定：
 
 * 如果项目和项目属于同一项目组合，则它们不能具有相同的名称。
 
@@ -485,41 +485,35 @@ Frame.io专为创意评论而构建，这意味着它可处理营销和创意团
 
 +++
 
-### 合同、 SKU和存储
+### 可用性和存储
 
-+++ 展开以查看有关合同、SKU和存储方面的常见问题。
++++ 展开以查看有关可用性和存储的常见问题。
 
 **我何时可以使用统一审阅和批准？**
 
-统一审查和批准功能现已可用。 访问需要V2 Workfront SKU。 如果您的合同是在V2 Workfront SKU可用之前签署的，则添加V2 Workfront SKU需要与Adobe签订合同事件。 有两种路径：
-
-* 续订后：V2 Workfront SKU将在您下次合同续订日期添加。
-
-* 提前重新合同：您的Adobe客户团队可以提前重新合同，在保留现有合同结束日期的同时添加V2 Workfront SKU权利。 转向同等套餐时，价格不会上涨。
-
-请联系您的Adobe客户代表以确定适合您组织的最佳路径。
+统一审查和批准功能现已可用。 访问需要支持Adobe云存储的Workfront版本。 如果您尚未使用支持的版本，请联系您的Adobe客户代表，以获取有关迁移到支持的版本的指导。
 
 <!--
 **Before we sign the contract, what changes will we see in Workfront?**
 
-Before signing the V2 Workfront SKU contract, your Workfront instance will continue to operate using the existing document and proofing experience. No unified review and approval features---such as the Frame.io viewer, Adobe enterprise storage, or multi-stage approval templates---will be available until the V2 Workfront SKU is contracted and Adobe Professional Services configures the integration for your organization.
+Until you move to a version of Workfront that supports Adobe cloud storage, your Workfront instance will continue to operate using the existing document and proofing experience. No unified review and approval features---such as the Frame.io viewer, Adobe cloud storage, or multi-stage approval templates---will be available until you are on a supported version and Adobe Professional Services configures the integration for your organization.
 -->
 
-**升级到V2 Workfront SKU是否为我提供了更多存储空间？**
+**升级到支持Adobe云存储的Workfront版本能否为我提供更多存储空间？**
 
-可以。 使用V2 Workfront SKU，每个获得许可的用户可接收60 GB的存储，而之前版本中为30 GB。
+可以。 在支持Adobe Cloud Storage的Workfront版本上，每个获得许可的用户会收到60 GB的存储，而上一版本中的存储空间为30 GB。
 
-**如何在Adobe企业级存储与旧版Workfront存储之间进行选择？**
+**如何在Adobe云存储与旧版Workfront存储之间进行选择？**
 
-企业存储启用Frame.io查看器体验，需要统一审查和批准。 旧版存储仍会使用Workfront Proof查看器(ProofHQ)作为默认值。
+Adobe云存储可启用Frame.io查看器体验，这是进行统一审查和批准所必需的。 旧版存储仍会使用Workfront Proof查看器(ProofHQ)作为默认值。
 
 如果您的组织包含简单的工作流和更加复杂的验证工作流，则可以优先迁移哪些工作流。
 
-企业存储让您能够灵活地以增量方式推出新体验，从最有益的工作流开始。
+Adobe cloud storage让您能够灵活地以递增方式推出新体验，从最有益的工作流开始。
 
 **如何管理Frame.io许可证？**
 
-签署V2 Workfront SKU后，所有Workfront用户都将有权访问Frame.io查看器以查看和批准工作流 — 此操作不需要单独的Frame.io Enterprise许可证。
+一旦您使用支持Adobe云存储的Workfront版本，所有Workfront用户都将有权访问Frame.io查看器以查看和批准工作流 — 此操作不需要单独的Frame.io企业许可证。
 
 如果您的组织需要其他Frame.io Enterprise功能，例如
 

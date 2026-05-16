@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1269'
 ht-degree: 3%
 
 ---
@@ -95,11 +95,11 @@ Old:
 * 所有子任务、问题和注释将汇总到新项目中。
 * 文档、文档版本和校样将移至新项目。
 * 将任务转化为项目时存在5分钟的处理限制。 如果任务附加了大量文档且无法转换，您可能需要删除某些文档并重试。
-* 如果您的组织同时使用旧版Workfront和Adobe企业文档存储，则在将任务转化为项目时，存在以下情况：<!--this info also duplicated in Document management overview for projects and related objects and Convert an issue to a project-->
-   * Workfront存储任务创建Workfront存储项目。
-   * Adobe企业存储任务将创建一个Adobe存储项目。
-   * 使用Workfront-storage模板转换Adobe-storage任务会创建一个Adobe-storage项目。
-   * 使用Adobe-storage模板转换Workfront-storage任务会创建一个Workfront-storage项目。
+* 如果您的组织同时使用旧版Workfront和Adobe云存储来存储文档，则在将任务转化为项目时，可能会出现以下情况：<!--this info also duplicated in Document management overview for projects and related objects and Convert an issue to a project-->
+   * 旧版Workfront存储任务可创建一个旧版Workfront存储项目。
+   * Adobe云存储任务创建一个Adobe云存储项目。
+   * 使用旧版Workfront存储模板转换Adobe云存储任务会创建一个Adobe云存储项目。
+   * 使用Adobe云存储模板转换旧版Workfront存储任务会创建一个旧版Workfront存储项目。
 
      有关详细信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 

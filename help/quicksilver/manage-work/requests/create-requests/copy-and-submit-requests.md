@@ -8,7 +8,7 @@ topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '1734'
 ht-degree: 2%
@@ -264,7 +264,7 @@ ht-degree: 2%
    根据请求队列的设置方式，文档部分可能会在自定义字段之前或之后显示。</p> <p> </p>
    <p>根据您的Workfront管理员为您的环境选择的文档存储类型，会将附加到请求的文档添加到以下内容：</p>
       <ul><li>对于使用Workfront存储的请求，文档会添加到新创建请求的Documents部分。</li>
-      <li>对于使用Adobe企业存储的请求，文档将添加到新创建的文件夹，其名称与请求相同，并在提交过程中自动添加到请求中。 </li></ul>
+      <li>对于使用Adobe Cloud Storage的请求，文档会添加到新创建的文件夹（与请求同名），并在提交过程中自动添加到请求中。 </li></ul>
       <p>您的Workfront实例可能没有这两种类型的文档存储。</p>
       <p>问题和请求存储类型继承自项目。 </p>
       <p>有关详细信息，请参阅<a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">项目和相关对象的文档管理概述</a>。</p>

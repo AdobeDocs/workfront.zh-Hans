@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1404'
 ht-degree: 1%
 
 ---
@@ -159,22 +159,22 @@ Old:
    1. （可选）在&#x200B;**搜索模板**&#x200B;字段中，开始键入模板的名称，然后在模板显示在列表中时单击该名称。
    1. 单击以下模板类型之一的名称，以选择它们：
 
-      * Workfront-storage模板
+      * 旧版Workfront存储模板
 
-        Workfront存储模板在其名称旁显示旧版存储图标![旧版存储图标](assets/legacy-storage-project-icon.png)。
+        旧版Workfront存储模板在其名称旁显示一个旧版存储图标![旧版存储图标](assets/legacy-storage-project-icon.png)。
 
         关于模板和未来项目的文档将存储在Workfront存储中。
-      * Adobe-storage模板
+      * Adobe云存储模板
 
-        有关模板和未来项目的文档将存储在Adobe企业存储中。
+        关于模板和未来项目的文档将存储在Adobe云存储中。
 
       >[!NOTE]
       >
-      >* 使用Adobe企业级存储模板可创建一个Adobe企业级存储项目。
+      >* 使用Adobe云存储模板可创建一个Adobe云存储项目。
       >
-      >* 使用Workfront-storage模板可创建Workfront-storage项目。
+      >* 使用旧版Workfront存储模板可创建一个旧版Workfront存储项目。
       >
-      >* 当您使用Workfront存储产品组合或程序中的Adobe企业存储模板时，该项目是一个Adobe企业存储项目，并且该项目组合或程序也转换为Adobe企业存储对象。 在同一项目组合或项目群下的所有其他Workfront存储项目保持不变。
+      >* 当您使用旧版Adobe存储项目组合或程序中的Workfront云存储模板时，该项目是一个Adobe云存储项目，并且该项目组合或程序也转换为Adobe云存储对象。 同一项目组合或项目群下的所有其他旧版Workfront存储项目保持不变。
       >
       > 您的Workfront实例可能没有这两种类型的文档存储。
       >
@@ -226,7 +226,7 @@ Old:
 
    如果您在上一步中没有更改模板中定义的所有详细信息，则它们会自动与新创建的项目关联。
 
-   系统会自动在项目的“文档”部分中为Adobe存储项目创建与该项目同名的文档文件夹。
+   系统会自动在项目的文档部分中为Adobe云存储项目创建与该项目同名的文档文件夹。
 
 ## 从模板区域中的模板创建项目
 
@@ -234,7 +234,7 @@ Old:
 
 >[!NOTE]
 >
->与Workfront文档存储关联的模板可创建旧版Workfront存储项目。 与Adobe企业文档存储关联的模板可创建Adobe存储项目。 您的Workfront实例可能没有这两种类型的文档存储。
+>与Workfront文档存储关联的模板可创建旧版Workfront存储项目。 与用于文档的Adobe云存储关联的模板可创建Adobe云存储项目。 您的Workfront实例可能没有这两种类型的文档存储。
 >
 >有关详细信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
@@ -261,4 +261,4 @@ Old:
 
    如果您在上一步中没有更改模板中定义的所有详细信息，则它们会自动与新创建的项目关联。
 
-   系统会自动在项目的“文档”部分中为Adobe存储项目创建与该项目同名的文档文件夹。
+   系统会自动在项目的文档部分中为Adobe云存储项目创建与该项目同名的文档文件夹。

@@ -8,9 +8,9 @@ feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '890'
 ht-degree: 2%
 
 ---
@@ -119,12 +119,12 @@ Old:
 
 1. （视情况而定）根据您的组织使用的文档存储，单击下列选项之一：
 
-   * **新项目组合**，当Workfront管理员选择&#x200B;**Adobe Enterprise**&#x200B;或&#x200B;**旧版Workfront**，并且他们选择或未选择&#x200B;**允许用户选择存储提供程序**&#x200B;设置时。
-   * **新项目组合（旧版存储）**，当Workfront管理员选择&#x200B;**Adobe Enterprise**&#x200B;或&#x200B;**旧版Workfront**，并且他们还选择了&#x200B;**允许用户选择存储提供程序**&#x200B;设置时。
+   * **新项目组合**，当Workfront管理员选择&#x200B;**Adobe云存储**&#x200B;或&#x200B;**旧版Workfront**，并且他们选择或未选择&#x200B;**允许用户选择存储提供程序**&#x200B;设置时。
+   * **新项目组合（旧版存储）**，当Workfront管理员选择&#x200B;**Adobe云存储**&#x200B;或&#x200B;**旧版Workfront**，并且他们还选择了&#x200B;**允许用户选择存储提供程序**&#x200B;设置时。
 
      仅当在“设置”区域中选择了&#x200B;**允许用户选择存储提供程序**&#x200B;设置时，才会显示此选项。
 
-     有关详细信息，请参阅[为您的组织启用Adobe企业存储](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
+     有关详细信息，请参阅[为您的组织启用Adobe云存储](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
 
      >[!NOTE]
      >
@@ -132,17 +132,17 @@ Old:
 
      项目组合已创建，其默认名称遵循以下模式，具体取决于Workfront对文档使用的存储空间：
 
-      * Workfront存储产品组合的`Untitled Portfolio`。
+      * 旧版Workfront存储产品组合的`Untitled Portfolio`。
 
-        Workfront存储产品组合在其名称旁显示&#x200B;**旧版Workfront存储**&#x200B;图标![旧版存储产品组合图标](assets/legacy-storage-project-icon.png)。
+        旧版Workfront存储产品组合在其名称旁显示&#x200B;**旧版Workfront存储**&#x200B;图标![旧版存储产品组合图标](assets/legacy-storage-project-icon.png)。
 
-      * Adobe存储产品组合的`Untitled Portfolio - < Month day, year hour.minute.second >`
+      * Adobe云存储产品组合的`Untitled Portfolio - < Month day, year hour.minute.second >`
 
         >[!IMPORTANT]
         >
-        >使用Adobe企业存储的产品组合必须具有唯一的名称。
+        >使用Adobe云存储的产品组合必须具有唯一的名称。
 
-     对于Adobe存储项目组合，会在“文档”区域中自动创建一个与项目组合同名的新文档文件夹。
+     对于Adobe云存储项目组合，会自动在文档区域创建一个与项目组合同名的新文档文件夹。
 
 1. 将项目组合名称替换为项目组合标题中的新名称。
 

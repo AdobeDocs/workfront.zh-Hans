@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '2859'
+source-wordcount: '2861'
 ht-degree: 4%
 
 ---
@@ -481,7 +481,7 @@ Old:
          <td role="rowheader">文档</td> 
          <td><p>将文档添加到任务。</p>
          <p><b>注释</b></p>
-         <p>如果贵组织使用Adobe企业文档存储，则无法针对Adobe存储任务，在“摘要”面板中将文档添加到任务中。</p>
+         <p>如果您的组织使用Adobe云存储进行文档，则无法为Adobe云存储任务的“摘要”面板中的任务添加文档。</p>
          <p>有关信息，请参阅<a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">项目和相关对象的文档管理概述</a>。</p>
       </td> 
       </tr> 

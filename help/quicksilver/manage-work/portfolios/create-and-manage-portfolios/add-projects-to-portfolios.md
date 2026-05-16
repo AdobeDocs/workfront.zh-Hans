@@ -8,9 +8,9 @@ feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 02b3d67ad0f4faf9fda1729f5f826dbb657e7a81
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '645'
 ht-degree: 2%
 
 ---
@@ -166,12 +166,12 @@ Old:
 
    >[!NOTE]
    >
-   >如果您的组织同时使用旧版Workfront和Adobe企业文档存储，则存在以下情况：
+   >如果您的组织同时使用旧版Workfront和Adobe云存储来存储文档，则存在以下情况：
    >
    >
-   >* 当您将Adobe存储项目添加到Workfront存储产品组合，并且该产品组合没有附加文档时，该产品组合将转换为Adobe存储产品组合。
-   >* 当您将一个Adobe存储项目添加到Workfront存储产品组合，并且该产品组合具有附加文档时，该产品组合文档存储仍保留在Workfront存储上。 但是，从产品组合中删除了旧版Workfront存储图标![旧版Workfront存储图标](assets/legacy-storage-project-icon.png)。
-   >* 您无法将Workfront-storage项目添加到Adobe-storage产品组合。
+   >* 当您将Adobe云存储项目添加到旧版Workfront存储产品组合，并且该产品组合没有附加任何文档时，该项目组合将转换为Adobe云存储产品组合。
+   >* 当您将Adobe云存储项目添加到旧版Workfront存储产品组合，并且该产品组合具有附加文档时，该产品组合文档存储仍保留在Workfront存储上。 但是，从产品组合中删除了旧版Workfront存储图标![旧版Workfront存储图标](assets/legacy-storage-project-icon.png)。
+   >* 您不能将旧版Workfront存储项目添加到Adobe云存储产品组合。
    >
    >有关详细信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
    >

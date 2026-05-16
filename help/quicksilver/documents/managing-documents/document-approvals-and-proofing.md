@@ -8,9 +8,9 @@ feature: Digital Content and Documents
 exl-id: f8b25cfa-02d9-4c5a-88c1-924a283cdffb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您的组织位于企业存储中，则校对不可用。 相反，您可以将Workfront审核和批准与Frame.io集成结合使用。 有关企业存储或Frame.io集成的详细信息，请参见
+>如果您的组织位于Adobe云存储中，则验证不可用。 相反，您可以将Workfront审核和批准与Frame.io集成结合使用。 有关Adobe云存储或Frame.io集成的更多信息，请参阅
 >
->* [Adobe企业存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)
+>* [Adobe云存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)
 >* [统一审阅和批准概述](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)

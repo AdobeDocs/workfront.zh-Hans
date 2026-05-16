@@ -9,9 +9,9 @@ role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1117'
 ht-degree: 2%
 
 ---
@@ -170,7 +170,7 @@ Old:
 
       >[!TIP]
       >
-      >如果贵组织同时具有旧版Workfront和Adobe企业文档存储的访问权限，则根据任务使用的存储类型，任务的“文档”区域可能会以不同的方式显示。 任务从项目继承存储类型。
+      >如果贵组织同时具有旧版Workfront和Adobe云存储文档访问权限，则根据任务使用的存储类型，任务的“文档”区域可能会以不同的方式显示。 任务从项目继承存储类型。
       >
       >有关信息，请参阅[将文档从您的文件系统](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md)添加到Adobe Workfront。
 

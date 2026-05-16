@@ -9,9 +9,9 @@ role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '8107'
+source-wordcount: '8112'
 ht-degree: 1%
 
 ---
@@ -287,7 +287,7 @@ Old:
       <p><b>注释</b></p>
       <ul>
       <li>您必须具有项目组合的管理权限才能将其添加到项目中或从中删除。</li>
-      <li>如果您的组织同时使用旧版Workfront和Adobe企业存储，则无法在使用不同存储类型的项目之间复制任务。 您的Workfront实例可能没有这两种类型的文档存储。</li></ul> 
+      <li>如果您的组织同时使用旧版Workfront和Adobe云存储，则无法在使用不同存储类型的项目之间复制任务。 您的Workfront实例可能没有这两种类型的文档存储。</li></ul> 
       有关详细信息，请参阅<a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">项目和相关对象的文档管理概述</a>。 
       </td> 
       </tr> 
@@ -297,7 +297,7 @@ Old:
       <p><b>注释</b></p>
       <ul>
       <li>您必须具有项目的管理权限才能在项目中添加或删除项目。</li>
-      <li>如果贵组织同时使用Workfront和Adobe文档存储类型，则无法将Workfront存储项目与Adobe存储项目关联。 反之亦然。 您的Workfront实例可能没有这两种类型的文档存储。 项目从所属的项目组合中继承存储类型。 </li></ul>
+      <li>如果贵组织同时使用Workfront和Adobe云存储来存储文档，则无法将旧版Workfront存储项目与Adobe云存储项目关联。 反之亦然。 您的Workfront实例可能没有这两种类型的文档存储。 项目从所属的项目组合中继承存储类型。 </li></ul>
 
    有关详细信息，请参阅<a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">项目和相关对象的文档管理概述</a>。
 
@@ -804,7 +804,7 @@ Old:
 
 * 当您选择属于不同组的多个项目时，“状态”字段中显示的状态是系统级别状态，而不是组级别状态。
 
-* 当您选择具有不同类型文档存储的多个项目并且希望为所选项目更新Portfolio或项目群时，无法将Workfront存储项目与Adobe存储项目组合关联。 反之亦然。 在这种情况下，请确保只选择一次具有相似存储类型的项目。
+* 当您选择具有不同类型文档存储的多个项目并且希望为所选项目更新Portfolio或项目群时，不能将旧版Workfront存储项目与Adobe云存储产品组合关联。 反之亦然。 在这种情况下，请确保只选择一次具有相似存储类型的项目。
 
   您的Workfront实例可能没有这两种类型的文档存储。
 

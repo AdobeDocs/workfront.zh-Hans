@@ -9,7 +9,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 3190ad18-180e-42e5-aa10-bdad74303d3d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 3%
@@ -39,7 +39,7 @@ ht-degree: 3%
   <tr> 
    <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>使用旧版Workfront存储管理审批的任何Workfront软件包</p>
-<p>使用Adobe企业存储管理审批的任意工作流包</p> </td> 
+<p>任何使用Adobe云存储管理审批的工作流包</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 许可证</td> 

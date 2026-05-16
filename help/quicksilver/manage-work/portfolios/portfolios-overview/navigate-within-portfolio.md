@@ -8,7 +8,7 @@ feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 2%
@@ -157,10 +157,10 @@ Old:
    >有些客户可能同时访问以下两个文档存储环境：
    >
    >  * **旧版Workfront存储**：使用此存储的产品组合在名称旁有旧版存储图标![旧版存储图标](assets/legacy-storage-project-icon.png)。
-   >  * **Adobe企业存储**
+   >  * **Adobe云存储**
    >
    >您的Workfront管理员可决定贵公司使用哪些存储，或允许您选择与每个产品组合关联的存储。
-   >有关详细信息，请参阅[为您的组织启用Adobe企业存储](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
+   >有关详细信息，请参阅[为您的组织启用Adobe云存储](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
    >
    >将文档添加到项目组合会因您使用的存储类型而异。
    >
