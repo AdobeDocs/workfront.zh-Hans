@@ -10,9 +10,9 @@ role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1413'
 ht-degree: 3%
 
 ---
@@ -212,7 +212,7 @@ Remove production and preview references at release
    >
    >* 如果“摘要”面板已经打开，则“打开摘要”图标将变为“关闭摘要”。
    >
-   >* 如果您的组织使用Adobe企业文档存储，则无法在“摘要”面板中将文档添加到Adobe存储请求。
+   >* 如果您的组织使用Adobe云存储来存储文档，则无法在“摘要”面板中将文档添加到Adobe云存储请求。
    >
    >有关信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 

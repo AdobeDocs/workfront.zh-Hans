@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '2795'
 ht-degree: 1%
@@ -312,7 +312,7 @@ Workfront管理员必须创建请求队列的以下组件：
       <td> <p>将文档添加到请求。 </p> <p> 根据请求队列的设置方式，文档部分可能会在自定义字段之前或之后显示。 </p> <p>您上传到Workfront的文档会在草稿的请求中存储24小时。 之后，当您返回编辑并提交草稿时，必须重新附加它们。 从其他驱动器链接的文档将永久保存在草稿上。 </p> 
       <p>根据您的Workfront管理员为您的环境选择的文档存储类型，会将附加到请求的文档添加到以下内容：</p>
       <ul><li>对于使用Workfront存储的请求，文档会添加到新创建请求的Documents部分。</li>
-      <li>对于使用Adobe企业存储的请求，文档将添加到新创建的文件夹，其名称与请求相同，并在提交过程中自动添加到请求中。 </li></ul>
+      <li>对于使用Adobe Cloud Storage的请求，文档会添加到新创建的文件夹（与请求同名），并在提交过程中自动添加到请求中。 </li></ul>
       <p>您的Workfront实例可能没有这两种类型的文档存储。</p>
       <p>问题和请求存储类型继承自项目。 </p>
       <p>有关详细信息，请参阅<a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">项目和相关对象的文档管理概述</a>。</p> 

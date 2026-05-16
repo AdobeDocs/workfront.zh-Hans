@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: d1173e35a2455610474664f93159b97a54957488
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '905'
 ht-degree: 7%
 
 ---
@@ -116,20 +116,20 @@ Old:
 
 1. （视情况而定）根据您的组织使用的文档存储，单击下列选项之一：
 
-   * **新建模板**，当Workfront管理员选择&#x200B;**Adobe Enterprise**&#x200B;或&#x200B;**旧版Workfront**，并且他们选择或未选择&#x200B;**允许用户选择存储提供程序**&#x200B;设置时。
-   * **新模板（旧版存储）**，当Workfront管理员选择&#x200B;**Adobe Enterprise**&#x200B;或&#x200B;**旧版Workfront**，并且他们还选择了&#x200B;**允许用户选择存储提供程序**&#x200B;设置时。
+   * **新建模板**，当Workfront管理员选择&#x200B;**Adobe云存储**&#x200B;或&#x200B;**旧版Workfront**，并且他们选择或未选择&#x200B;**允许用户选择存储提供程序**&#x200B;设置时。
+   * **新模板（旧版存储）**，当Workfront管理员选择&#x200B;**Adobe云存储**&#x200B;或&#x200B;**旧版Workfront**，并且他们还选择了&#x200B;**允许用户选择存储提供程序**&#x200B;设置时。
 
      仅当在“设置”区域中选择了&#x200B;**允许用户选择存储提供程序**&#x200B;设置时，才会显示此选项。
 
-     有关详细信息，请参阅[为您的组织启用Adobe企业存储](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
+     有关详细信息，请参阅[为您的组织启用Adobe云存储](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
 
      模板随即创建，其默认名称将遵循以下模式，具体取决于Workfront用于文档的存储空间：
 
       * Worfront-storage模板的&#x200B;**无标题模板**。
 
-        Workfront存储模板在其名称旁显示&#x200B;**旧版Workfront存储**&#x200B;图标![旧版存储项目图标](assets/legacy-storage-project-icon.png)。
+        旧版Workfront存储模板在其名称旁显示&#x200B;**旧版Workfront存储**&#x200B;图标![旧版存储项目图标](assets/legacy-storage-project-icon.png)。
 
-      * **无标题模板 — 对于Adobe存储模板，&lt;月日，年小时。分钟。秒>**
+      * **无标题模板 — Adobe云存储模板的&lt;月日，年小时。分钟。秒>**
 
         >[!IMPORTANT]
         >

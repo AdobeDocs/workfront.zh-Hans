@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '1781'
 ht-degree: 2%
@@ -103,7 +103,7 @@ Old:
 
 * 您可以一次复制一个任务，也可以在编辑列表中的任务时一次复制多个任务。
 
-* 如果您的组织同时使用旧版Workfront和Adobe企业存储，则无法在使用不同存储类型的项目之间复制任务。
+* 如果您的组织同时使用旧版Workfront和Adobe云存储，则无法在使用不同存储类型的项目之间复制任务。
 
   有关信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
@@ -128,7 +128,7 @@ Old:
 
    * 单击任务列表顶部的&#x200B;**更多菜单**，然后单击&#x200B;**复制到**。
    * 右键单击选定的任务，然后单击&#x200B;**复制到**。
-   * 选择一个任务时，单击该列表中任务名称旁边的任务列表![&#128279;](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;菜单更多图标，然后单击&#x200B;**复制到**。
+   * 选择一个任务时，单击该列表中任务名称旁边的任务列表](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;菜单![更多图标，然后单击&#x200B;**复制到**。
 
    ![复制列表中的任务](assets/copy-task-in-list-nwe-350x131.png)
 

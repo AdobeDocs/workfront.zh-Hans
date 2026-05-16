@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1683'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
 >
 >  此外，获取预览Sandbox不需要的自定义刷新Sandbox会额外产生成本。
 >
->  有关预览沙盒的更多信息，请参阅[预览Sandbox环境 [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)。
+>  有关预览沙盒的更多信息，请参阅[预览Sandbox环境 [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)。
 
 ## 访问权限要求
 
@@ -82,6 +82,12 @@ If you are a Workfront Goals customer, Workfront Goals data does not transfer to
 </note>
 -->
 
+## 自定义刷新沙盒中的Adobe云存储
+
+Adobe云存储在“自定义刷新沙盒”中提供，因此您可以在生产环境中启用它之前对其进行测试。 但是，Frame.io查看器在沙盒环境中不可用，因此必须在生产环境中验证完整的统一审阅和批准体验。
+
+升级到支持Adobe云存储的Workfront版本后，必须刷新自定义刷新沙盒才能在沙盒中访问Adobe云存储功能。 刷新完成后，您可以开始测试Adobe云存储。 有关详细信息，请参阅[为您的组织启用Adobe云存储](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
+
 ## 从生产环境访问自定义刷新沙盒 {#access-the-custom-refresh-sandbox-from-your-production-environment}
 
 作为[!DNL Workfront]管理员，您可以从生产环境访问“自定义刷新沙盒”。
@@ -92,7 +98,7 @@ If you are a Workfront Goals customer, Workfront Goals data does not transfer to
 
 要访问您的自定义刷新沙盒，请执行以下操作：
 
-1. 单击&#x200B;**[!UICONTROL 右上角的]**&#x200B;主菜单![图标](assets/main-menu-icon.png)主菜单图标[!DNL Adobe Workfront]，然后单击&#x200B;**[!UICONTROL 设置]**![齿轮设置图标](assets/gear-icon-settings.png)。
+1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 设置]**![齿轮设置图标](assets/gear-icon-settings.png)。
 
 1. 单击&#x200B;**[!UICONTROL 系统]** >**[!UICONTROL 首选项]**。
 

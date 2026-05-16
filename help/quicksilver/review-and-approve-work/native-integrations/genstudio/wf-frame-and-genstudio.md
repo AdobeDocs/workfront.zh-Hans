@@ -11,7 +11,7 @@ hide: true
 exl-id: 4d0c0542-3383-4907-b573-e2ef56117681
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 4%
@@ -70,7 +70,7 @@ ht-degree: 4%
 
 * Workfront和GenStudio for Performance Marketing必须部署到同一个Identity Management system (IMS)组织。
 
-* Workfront实例必须启用Adobe企业存储。 有关详细信息，请参阅[启用Adobe企业存储](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
+* Workfront实例必须启用Adobe云存储。 有关详细信息，请参阅[启用Adobe云存储](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
 
 
 ## 使用Workfront统一审批模板定义审批工作流
@@ -87,7 +87,7 @@ ht-degree: 4%
 
 当用户在GenStudio for Performance Marketing中启动审核时，他们只需选择所需的模板即可。 用户可以随时轻松更改任何统一的审批审批工作流模板，添加或删除审阅人和阶段。
 
-有关详细信息，请参阅[请求审阅和批准](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/approve/request-review)。
+有关详细信息，请参阅[请求审阅和批准](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review)。
 
 ## 在Frame.io查看器中审阅和批准GenStudio for Performance Marketing草稿内容
 
@@ -106,4 +106,4 @@ ht-degree: 4%
 
 资产完成审阅和批准流程后，您可以直接从GenStudio for Performance Marketing查看审阅决策并发布内容。
 
-有关详细信息，请参阅[发布批准的内容](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content)。
+有关详细信息，请参阅[发布批准的内容](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content)。

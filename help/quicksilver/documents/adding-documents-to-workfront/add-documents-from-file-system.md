@@ -8,9 +8,9 @@ feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1317'
 ht-degree: 2%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 2%
 Adobe Workfront当前具有以下两种类型的文档存储：
 
 * 旧版Workfront存储
-* Adobe企业存储
+* Adobe云存储
 
-有关这些存储类型的详细信息，请参阅[Adobe企业存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+有关这些存储类型的更多信息，请参阅[Adobe云存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Adobe Workfront当前具有以下两种类型的文档存储：
   <tr> 
    <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>使用旧版Workfront存储管理文档的任何Workfront软件包</p>
-<p>用于使用Adobe企业存储管理文档的任意工作流包</p></td> 
+<p>用于使用Adobe云存储管理文档的任意工作流包</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 许可证</td> 
@@ -55,7 +55,7 @@ Adobe Workfront当前具有以下两种类型的文档存储：
   <tr> 
    <td role="rowheader">访问级别配置</td> 
    <td> <p>旧版Workfront Storage：编辑对文档的访问权限</p> 
-   <p>企业存储：默认情况下启用对文档的编辑访问，无法更改</p>
+   <p>Adobe云存储：默认情况下会启用对文档的编辑访问权限，无法对其进行更改</p>
    </td> 
   </tr> 
  </tbody> 
@@ -69,7 +69,7 @@ Adobe Workfront当前具有以下两种类型的文档存储：
 
 如果您的组织使用的是旧版Workfront存储，则在访问Workfront中的文档时，您将看到旧版文档区域。
 
-有关Workfront存储的更多信息，请参阅[Adobe企业存储与旧版Workfront存储之间的区别](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage)。
+有关Workfront存储的更多信息，请参阅[Adobe云存储与旧版Workfront存储之间的区别](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage)。
 
 您可以在Workfront中将文档添加到以下区域：
 
@@ -146,7 +146,7 @@ Adobe Workfront当前具有以下两种类型的文档存储：
 
 ## 在新的“文档”区域将文档添加到Workfront
 
-您可以使用Adobe企业存储模型将文档添加到对象。 有关企业存储的更多信息，请参阅[Adobe企业存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+您可以使用Adobe云存储模型将文档添加到对象。 有关Adobe云存储的更多信息，请参阅[Adobe云存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 新文档区域当前不支持的功能：
 
@@ -160,7 +160,7 @@ Adobe Workfront当前具有以下两种类型的文档存储：
 
 ### 在新的“文档”区域将文档添加到Workfront
 
-如果您的组织使用企业存储，则当您访问Workfront中的文档时，将会看到新的“文档”区域。 有关企业存储的更多信息，请参阅[Adobe企业存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+如果您的组织使用Adobe云存储，则在访问Workfront中的文档时，您将看到新的文档区域。 有关Adobe云存储的更多信息，请参阅[Adobe云存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 要添加文档，请执行以下操作：
 
@@ -174,22 +174,22 @@ Adobe Workfront当前具有以下两种类型的文档存储：
 
 系统会自动在“文档”部分中创建与上载文档的目标对象同名的文件夹，并将文档添加到该文件夹。
 
-## 企业存储的文档安全性
+## Adobe云存储的文档安全
 
 Workfront通过以下方式防止病毒和其他恶意内容通过文档进入站点：
 
 **Workfront如何检测损坏的文件**
 
-使用Adobe企业存储模型会自动为对象启用文档扫描。
+使用Adobe云存储模型会自动为对象启用文档扫描。
 
 上传时，将扫描500 MB以下的所有文件。 不会扫描超过500 MB的文件。 如果Workfront检测到损坏的文档，则会自动将其删除。
 
 **文件名限制**
 
-由于此集成是使用Adobe企业存储构建的，因此在管理项目和文档时，应注意一些强制性的结构和命名约定。
+由于此集成是使用Adobe云存储构建的，因此在管理项目和文档时，应注意一些强制性的结构和命名约定。
 
 * 对象名称必须是唯一的，并且不能重复
-* Adobe企业存储要求层次结构树中具有相同父级的对等对象具有唯一的名称
+* Adobe云存储要求层次结构树中具有相同父级的对等对象具有唯一名称
 * 如果文档属于同一项目，则不能具有相同的名称
 * 文档名称不能包含以下任何特殊字符： `\ / : * ? " | < >`
 * 文档名称限制为最多255个字符

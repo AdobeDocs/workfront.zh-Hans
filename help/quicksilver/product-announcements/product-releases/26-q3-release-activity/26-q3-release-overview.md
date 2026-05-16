@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: a7ab8d786ba9a9163e091b9fc31dafe293d56acd
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 4%
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 此页面上的增强功能在“预览”环境中可用。 随着2026年第三季度版本接近其计划发布的生产版本，此页面将进行额外的增强。
 
-每个季度版本均会召开实时网络研讨会，这些研讨会会重点介绍新增功能并提供详细信息。 若要注册，请访问[事件页面](https://experienceleague.adobe.com/zh-hans/events?filters=Workfront)并筛选Workfront。
+每个季度版本均会召开实时网络研讨会，这些研讨会会重点介绍新增功能并提供详细信息。 若要注册，请访问[事件页面](https://experienceleague.adobe.com/en/events?filters=Workfront)并筛选Workfront。
 
 >[!IMPORTANT]
 >
@@ -62,8 +62,8 @@ ht-degree: 4%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">查看Adobe企业存储使用情况</a>
-                <p>“设置”中的“客户信息”页面现在包含新的“存储概述”部分，其中包含Adobe企业存储的使用量度。</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">查看Adobe云存储使用情况</a>
+                <p>“设置”中的“客户信息”页面现在包含新的“存储概述”部分，其中包含Adobe云存储的使用量度。</p>
             </td>
             <td><p>2026年4月30日</p></td>
             <td><p>2026年5月14日</p></td>
@@ -110,7 +110,7 @@ ht-degree: 4%
             <td><strong>每季度</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">预定义视图已添加到“请求”区域和“我的请求”小组件中的请求列表中</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">预定义视图已添加到“请求”区域和“我的请求”小组件中的请求列表中</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
                 <p>为了帮助您更好地组织请求列表，我们已将预定义视图添加到请求区域的请求列表中，并在主页添加了我的请求构件。</p>
             </td>
             <td><p>2026年4月23日</p></td>
@@ -193,12 +193,12 @@ Workfront计划案的审判将于2026年5月15日结束。
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hans).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
 
 ### 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hans)的“新增功能”部分。
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[Workfront教程页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的“新增功能”部分。
 

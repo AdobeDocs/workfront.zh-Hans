@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: a7a0dc6ae01b3f1e9f295781805ed3e58f8acf1f
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 0%
@@ -33,13 +33,13 @@ ht-degree: 0%
 
 有关审批状态的详细信息，请参阅[统一审查和审批入门](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)。
 
-## 查看Adobe企业存储使用情况
+## 查看Adobe云存储使用情况
 
 >[!NOTE]
 >
 >预览： 2026年4月30日>生产快速发布： 2026年5月14日>适用于所有人的生产： 2026年7月16日
 
-“设置”中的“客户信息”页面现在包含新的“存储概述”部分，其中包含Adobe企业存储的使用量度。
+“设置”中的“客户信息”页面现在包含新的“存储概述”部分，其中包含Adobe云存储的使用量度。
 
 当存储使用量达到配额的75% 、 85%和100%时， Workfront管理员会自动收到电子邮件通知。
 

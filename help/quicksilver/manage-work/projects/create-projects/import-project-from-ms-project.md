@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '604'
 ht-degree: 3%
 
 ---
@@ -128,7 +128,7 @@ old permissions model:
 
    >[!CAUTION]
    >
-   >如果您的Workfront实例同时具有Workfront和Adobe文档存储的访问权限，则从MS Project导入项目会创建一个Workfront存储项目，即使Workfront管理员将Adobe企业存储设置为系统的默认存储也是如此。
+   >如果您的Workfront实例同时具有访问Workfront和Adobe云存储的文档权限，则从MS Project导入项目会创建一个旧版Workfront存储项目，即使Workfront管理员将Adobe云存储设置为您系统的默认项目也是如此。
    >
    >有关详细信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 

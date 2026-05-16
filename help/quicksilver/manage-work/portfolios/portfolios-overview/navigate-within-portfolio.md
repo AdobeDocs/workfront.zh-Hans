@@ -8,7 +8,7 @@ feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 2%
@@ -42,16 +42,16 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>[!UICONTROL 标准版] </p>
-   <p>[!UICONTROL 计划] </p> </td> 
+   <td> <p>[！UICONTROL标准版] </p>
+   <p>[！UICONTROL计划] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[!UICONTROL Edit]对[!UICONTROL 项目]和[!UICONTROL 项目组合]的访问权限</p>  </td> 
+   <td> <p>[！UICONTROL Edit]对[！UICONTROL项目]和[！UICONTROL项目组合]的访问权限</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>项目组合的[!UICONTROL Manage]权限</p> <p>查看项目或更高权限</p>  </td> 
+   <td> <p>项目组合的[！UICONTROL Manage]权限</p> <p>查看项目或更高权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -133,7 +133,7 @@ Old:
      有关创建筛选器的更多信息，请参阅[筛选器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
 
-1. 单击左侧面板中的&#x200B;**[!UICONTROL 程序]**&#x200B;可在项目组合中创建程序或管理现有程序。
+1. 单击左侧面板中的&#x200B;**[!UICONTROL 程序]**可在项目组合中创建程序或管理现有程序。
 有关程序的信息，请参阅[创建和管理程序](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)部分。
 
 1. （可选）展开左侧面板中的&#x200B;**[!UICONTROL Portfolio详细信息]**&#x200B;区域，然后单击&#x200B;**[!UICONTROL 概述]**&#x200B;或&#x200B;**[!UICONTROL 自定义Forms]**&#x200B;以编辑有关项目组合的信息。
@@ -157,10 +157,10 @@ Old:
    >有些客户可能同时访问以下两个文档存储环境：
    >
    >  * **旧版Workfront存储**：使用此存储的产品组合在名称旁有旧版存储图标![旧版存储图标](assets/legacy-storage-project-icon.png)。
-   >  * **Adobe企业存储**
+   >  * **Adobe云存储**
    >
    >您的Workfront管理员可决定贵公司使用哪些存储，或允许您选择与每个产品组合关联的存储。
-   >有关详细信息，请参阅[为您的组织启用Adobe企业存储](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
+   >有关详细信息，请参阅[为您的组织启用Adobe云存储](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
    >
    >将文档添加到项目组合会因您使用的存储类型而异。
    >

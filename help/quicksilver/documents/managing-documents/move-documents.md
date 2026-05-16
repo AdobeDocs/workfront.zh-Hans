@@ -8,9 +8,9 @@ feature: Digital Content and Documents
 exl-id: 46039017-58b3-4e9d-8dcd-6e1f52d98d27
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '434'
 ht-degree: 5%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 5%
   <tr> 
    <td role="rowheader">Adobe Workfront 包</td> 
    <td><p>使用旧版Workfront存储管理文档的任何Workfront软件包</p>
-<p>用于使用Adobe企业存储管理文档的任意工作流包</p></td> 
+<p>用于使用Adobe云存储管理文档的任意工作流包</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 许可证</td> 
@@ -63,7 +63,7 @@ ht-degree: 5%
 
 ## 在旧文档区域移动文档
 
-如果您的组织位于旧版Workfront存储中，则当您访问Workfront中的文档时，将会看到旧版文档区域。 有关Workfront存储的详细信息，请参阅[Adobe企业存储与旧版Workfront存储之间的差异](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage)。
+如果您的组织位于旧版Workfront存储中，则当您访问Workfront中的文档时，将会看到旧版文档区域。 有关Workfront存储的详细信息，请参阅[Adobe云存储与旧版Workfront存储之间的差异](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage)。
 
 要移动文档，请执行以下操作：
 
@@ -87,7 +87,7 @@ ht-degree: 5%
 
 ## 在新建文档区域移动文档
 
-如果您的组织使用企业存储，则当您访问Workfront中的文档时，将会看到新的“文档”区域。 有关企业存储的更多信息，请参阅[Adobe企业存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+如果您的组织使用Adobe云存储，则在访问Workfront中的文档时，您将看到新的文档区域。 有关Adobe云存储的更多信息，请参阅[Adobe云存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 要移动文档，请执行以下操作：
 
@@ -103,6 +103,6 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >您只能使用企业存储移动到另一个项目、任务或问题。
+   >您只能使用Adobe云存储移至其他项目、任务或问题。
 
 1. 单击&#x200B;**移动**。

@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '2859'
+source-wordcount: '2861'
 ht-degree: 4%
 
 ---
@@ -131,7 +131,7 @@ Old:
    * 每次更改后自动更新
    * 手动，仅在单击“保存”之后。
 
-  有关在Workfront保存您对列表中的任务所做的更改时进行配置的信息，请参阅本文中的列表[&#128279;](#modify-plan-mode-before-editing-tasks-in-a-list)部分中的在编辑任务之前修改计划模式。
+  有关在Workfront保存您对列表中的任务所做的更改时进行配置的信息，请参阅本文中的列表](#modify-plan-mode-before-editing-tasks-in-a-list)部分中的[在编辑任务之前修改计划模式。
 
 * 其他用户必须先刷新其页面，然后才能查看您对任务所做的更新。
 
@@ -186,7 +186,7 @@ Old:
 
    或
 
-   单击任务名称右侧的任务列表![&#128279;](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;菜单更多图标。
+   单击任务名称右侧的任务列表](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;菜单![更多图标。
 
 1. （可选）从以下选项中选择：
 
@@ -306,7 +306,7 @@ Old:
 
    或
 
-   单击任务列表![&#128279;](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;菜单模式图标。
+   单击任务列表](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;菜单![模式图标。
 
 1. （可选）从以下选项中选择：
 
@@ -418,7 +418,7 @@ Old:
 
    或
 
-   单击任务列表![&#128279;](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;菜单更多图标。
+   单击任务列表](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;菜单![更多图标。
 
 1. 从以下选项中选择：
 
@@ -481,7 +481,7 @@ Old:
          <td role="rowheader">文档</td> 
          <td><p>将文档添加到任务。</p>
          <p><b>注释</b></p>
-         <p>如果贵组织使用Adobe企业文档存储，则无法针对Adobe存储任务，在“摘要”面板中将文档添加到任务中。</p>
+         <p>如果您的组织使用Adobe云存储进行文档，则无法为Adobe云存储任务的“摘要”面板中的任务添加文档。</p>
          <p>有关信息，请参阅<a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">项目和相关对象的文档管理概述</a>。</p>
       </td> 
       </tr> 

@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '2239'
+source-wordcount: '2241'
 ht-degree: 4%
 
 ---
@@ -108,7 +108,7 @@ Old:
 
    * 里程碑。
 
-* 您不能将模板任务从Workfront-storage模板复制或移动到Adobe-storage模板。 反之亦然。 您的Workfront实例可能没有这两种类型的文档存储。
+* 您无法将模板任务从旧版Workfront存储模板复制或移动到Adobe云存储模板。 反之亦然。 您的Workfront实例可能没有这两种类型的文档存储。
 
   有关信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 

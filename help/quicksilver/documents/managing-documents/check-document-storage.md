@@ -2,15 +2,15 @@
 product-area: documents
 navigation-topic: manage-documents
 title: 检查文档存储限制
-description: 作为Adobe Workfront管理员，您可以在“客户信息”页面上查看文档存储使用情况和配额。 存储的显示方式取决于您的组织使用的是旧版Workfront存储还是Adobe企业级存储。
+description: 作为Adobe Workfront管理员，您可以在“客户信息”页面上查看文档存储使用情况和配额。 存储的显示方式取决于您的组织是使用旧版Workfront存储还是Adobe云存储。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
 last-update: 2026-04-29T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7b6d24d6a5b7fd052a3e7c97034e920e771022a6
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '491'
 ht-degree: 2%
 
 ---
@@ -21,12 +21,12 @@ ht-degree: 2%
 
 尽管用户可以上传到Workfront实例的单个文件的类型和大小没有限制，但您的Workfront计划包含总存储配额。 作为Workfront管理员，您可以从“客户信息”页面上的“设置”区域监控使用情况和配额。
 
-存储的显示方式取决于您的组织使用的是旧版Workfront存储还是Adobe企业级存储：
+存储的显示方式取决于您的组织是使用旧版Workfront存储还是Adobe云存储：
 
 * 如果您使用旧版Workfront存储，请参阅本文中的[旧版Workfront存储](#legacy-workfront-storage)。
-* 如果您使用Adobe企业存储，请参阅本文中的[Adobe企业存储](#adobe-enterprise-storage)。
+* 如果您使用Adobe云存储，请参阅本文中的[Adobe云存储](#adobe-cloud-storage)。
 
-  有关企业存储的更多信息，请参阅[Adobe企业存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+  有关Adobe云存储的更多信息，请参阅[Adobe云存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 ## 访问权限要求
 
@@ -40,7 +40,7 @@ ht-degree: 2%
   <tr data-mc-conditions=""> 
    <td role="rowheader">Workfront计划</td> 
    <td> <p>使用旧版存储管理文档的任意Workfront软件包</p>
-      <p>用于使用Adobe企业存储管理文档的任意工作流包</p> </td> 
+      <p>用于使用Adobe云存储管理文档的任意工作流包</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -72,18 +72,14 @@ ht-degree: 2%
 
 <div class="preview">
 
-## Adobe企业存储
+## Adobe云存储
 
-<!--
-If your organization uses Adobe enterprise storage, your storage quota is reported as a single pooled allocation that combines storage provisioned through your V2 Workfront SKU and any storage provisioned through a Frame.io Enterprise SKU or add-on. There's no hard cap on storage usage; users can continue uploading documents even when usage exceeds your quota.
 
-Beginning with the May 2026 release, you can view your pooled storage quota and a usage breakdown on the Customer Info page.
-
--->
+如果您的组织使用Adobe云存储，您的存储配额将报告为单个池分配，该分配将通过Workfront许可证预配的存储与通过Frame.io Enterprise加载项预配的任何存储组合在一起。 存储使用量没有硬性限制；即使使用量超过您的配额，用户也可以继续上传文档。
 
 ### 在客户信息中查看存储使用情况
 
-要检查Adobe企业文档存储，请执行以下操作：
+要检查Adobe云存储中的文档，请执行以下操作：
 
 {{step-1-to-setup}}
 
@@ -91,11 +87,11 @@ Beginning with the May 2026 release, you can view your pooled storage quota and 
 1. 转到&#x200B;**存储概述**&#x200B;部分。
 1. 检查您的使用情况。 “存储概述”显示您的池存储配额，并将使用情况分为：
 
-   * Workfront旧版项目和Adobe企业存储项目会显示在蓝色栏中。
+   * Workfront旧版项目和Adobe cloud storage项目会显示在蓝色栏中。
    * 框架独立项目显示在绿色栏中。 这些项目独立于Workfront，并且仅在您拥有Frame.io Enterprise许可证时才可用。
 
 
-客户信息中的![Adobe企业存储使用情况](assets/storage-usage.png)
+客户信息中的![Adobe云存储使用情况](assets/storage-usage.png)
 
 使用情况数字会定期刷新，以便您查看最新计数。
 

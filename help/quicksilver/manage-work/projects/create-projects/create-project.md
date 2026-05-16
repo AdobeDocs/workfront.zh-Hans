@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1629'
+source-wordcount: '1639'
 ht-degree: 2%
 
 ---
@@ -170,15 +170,15 @@ Old:
 * 为项目及其子对象（任务和问题）存储文档的位置，取决于Workfront管理员在“设置”的“系统首选项”区域中选择的“存储首选项”默认设置。 根据您在Workfront实例中存储文档的位置，可以创建以下类型的项目：
 
    * 旧版Workfront存储项目
-   * Adobe企业存储项目。
+   * Adobe云存储项目。
 
-  有关详细信息，请参阅[为您的组织启用Adobe企业存储](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
+  有关详细信息，请参阅[为您的组织启用Adobe云存储](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
 
   >[!TIP]
   >
   > 您的Workfront实例可能没有这两种类型的文档存储。
 
-* 创建企业存储项目时，会在项目的&#x200B;**文档**&#x200B;部分中创建一个与项目同名的文档文件夹。 将任务添加到项目后，具有任务名称的文件夹将添加到每个任务的&#x200B;**文档**&#x200B;部分。
+* 创建Adobe云存储项目时，会在项目的&#x200B;**Documents**&#x200B;部分中创建一个与项目同名的文档文件夹。 将任务添加到项目后，具有任务名称的文件夹将添加到每个任务的&#x200B;**文档**&#x200B;部分。
 
 有关详细信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
@@ -199,29 +199,29 @@ Old:
 
 1. （视情况而定）根据您的组织使用的文档存储，单击下列选项之一：
 
-   * **新项目**，当Workfront管理员选择&#x200B;**Adobe Enterprise**&#x200B;或&#x200B;**旧版Workfront**，并且他们选择或未选择&#x200B;**允许用户选择存储提供程序**&#x200B;设置时。
-   * **新项目（旧版存储）**，当Workfront管理员选择&#x200B;**Adobe Enterprise**&#x200B;或&#x200B;**旧版Workfront**，并且他们还选择了&#x200B;**允许用户选择存储提供程序**&#x200B;设置时。
+   * **新项目**，当Workfront管理员选择&#x200B;**Adobe云存储**&#x200B;或&#x200B;**旧版Workfront**，并且他们选择或未选择&#x200B;**允许用户选择存储提供程序**&#x200B;设置时。
+   * **新项目（旧版存储）**，当Workfront管理员选择&#x200B;**Adobe云存储**&#x200B;或&#x200B;**旧版Workfront**，并且他们还选择了&#x200B;**允许用户选择存储提供程序**&#x200B;设置时。
 
      仅当在“设置”区域中选择了&#x200B;**允许用户选择存储提供程序**&#x200B;设置时，才会显示此选项。
 
-     有关详细信息，请参阅[为您的组织启用Adobe企业存储](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
+     有关详细信息，请参阅[为您的组织启用Adobe云存储](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
 
      >[!NOTE]
      >
-     >* 从Workfront存储产品组合或项目群创建企业存储项目时，该产品组合或项目群也会转换为企业存储对象。 在同一项目组合或项目群下的所有其他Workfront存储项目保持不变。
+     >* 从旧版Adobe存储产品组合或程序创建Workfront云存储项目时，该项目组合或程序也将转换为Adobe云存储对象。 同一项目组合或项目群下的所有其他旧版Workfront存储项目保持不变。
      >* 您的Workfront实例可能没有这两种类型的文档存储。
 
      项目随即会创建，其默认名称会遵循以下模式，具体取决于Workfront用于文档的存储空间：
 
-      * Workfront存储项目的`Untitled Project`。
+      * 旧版Workfront存储项目的`Untitled Project`。
 
-        Workfront存储项目在其名称旁显示&#x200B;**旧版Workfront存储**&#x200B;图标![旧版存储项目图标](assets/legacy-storage-project-icon.png)。
+        旧版Workfront存储项目在其名称旁显示&#x200B;**旧版Workfront存储**&#x200B;图标![旧版存储项目图标](assets/legacy-storage-project-icon.png)。
 
-      * 用于Adobe存储项目的`Untitled Project - < Month day, year hour.minute.second >`
+      * 用于Adobe云存储项目的`Untitled Project - < Month day, year hour.minute.second >`
 
         >[!IMPORTANT]
         >
-        >使用Adobe企业存储的项目必须具有唯一的名称。
+        >使用Adobe云存储的项目必须具有唯一的名称。
 
 
 1. 在项目的标题中，更新项目的名称。 按Enter键保存名称。

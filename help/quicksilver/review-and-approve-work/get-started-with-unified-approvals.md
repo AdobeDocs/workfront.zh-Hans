@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 94236f836be2d1b8638cf11ddd303641e8c0ef7c
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '975'
 ht-degree: 0%
 
 ---
@@ -29,18 +29,18 @@ ht-degree: 0%
 
 ## 访问权限要求
 
-* 您的Workfront合同必须包含一个V2 Workfront SKU才能使用Frame.io查看器和Adobe企业存储。 有关详细信息，请参阅[统一审阅和批准概述](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#getting-started-with-unified-review-and-approval)中的常见问题解答。
+* 您必须使用支持Adobe云存储的Workfront版本。 如果贵组织尚未使用支持的版本，请联系您的Adobe客户代表。
 
 ## Workfront中的工作启动和规划
 
-项目协调员可以在Workfront中创建项目和计划工作。 在启用了Frame.io集成的实例中创建的项目，将利用Adobe企业存储，从而允许在Adobe生态系统中存储和管理资产。
+项目协调员可以在Workfront中创建项目和计划工作。 在启用了Frame.io集成的实例中创建的项目，将利用Adobe云存储，从而允许在Adobe生态系统中存储和管理资产。
 
 如果您的组织具有Frame.io Enterprise许可证，则在Workfront中创建的项目也可在Frame.io中看到，从而允许用户在任何一个产品中进行交互和上传资源。
 
-有关Adobe企业存储或Frame.io中的项目的信息，请参阅
+有关Adobe云存储或Frame.io中的项目的信息，请参阅
 
 * [Workspace概述：项目](https://help.frame.io/en/articles/9101001-workspace-overview#h_d9f8654895)
-* [Adobe企业存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)
+* [Adobe cloud storage概述](/help/quicksilver/review-and-approve-work/esm-overview.md)
 
 ## 审阅和批准资源
 

@@ -9,9 +9,9 @@ feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '721'
 ht-degree: 5%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 5%
   <tr> 
    <td role="rowheader">Adobe Workfront 包</td> 
    <td> <p>使用旧版Workfront存储管理文档的任何Workfront软件包</p>
-<p>用于使用Adobe企业存储管理文档的任意工作流包</p></td> 
+<p>用于使用Adobe云存储管理文档的任意工作流包</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 许可证</td> 
@@ -64,7 +64,7 @@ ht-degree: 5%
 
 ## 旧版文档体验中的文档摘要
 
-如果您的组织位于旧版Workfront存储中，则当您访问Workfront中的文档时，将会看到旧版文档区域。 有关旧版Workfront存储的详细信息，请参阅[旧版Workfront存储与Adobe企业级存储之间的差异](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+如果您的组织位于旧版Workfront存储中，则当您访问Workfront中的文档时，将会看到旧版文档区域。 有关旧版Workfront存储的详细信息，请参阅[旧版Workfront存储与Adobe云存储之间的差异](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 ### 在旧版文档体验中打开“摘要”视图
 
@@ -129,7 +129,7 @@ ht-degree: 5%
 
 ## 新文档体验中的文档摘要
 
-如果您的组织使用企业存储，则当您访问Workfront中的文档时，将会看到新的“文档”区域。 有关企业存储的更多信息，请参阅[Adobe企业存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+如果您的组织使用Adobe云存储，则在访问Workfront中的文档时，您将看到新的文档区域。 有关Adobe云存储的更多信息，请参阅[Adobe云存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 ### 详细信息
 
