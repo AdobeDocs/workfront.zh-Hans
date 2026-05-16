@@ -84,4 +84,4 @@ Adobe云存储是一个适用于所有Adobe产品的统一存储解决方案。 
 
 Adobe云存储在[!DNL Workfront]沙盒环境中可用，允许您先测试本文中描述的功能，然后再在生产环境中推出。 但是，Frame.io查看器在沙盒中不可用，因此必须在生产环境中验证完整的统一审阅和批准体验。
 
-如果您有自定义刷新沙盒，则在升级到支持Adobe云存储的Workfront版本后必须刷新它。 通过刷新，沙盒可以访问Adobe云存储功能，以便您可以开始对其进行测试。 有关详细信息，请参阅[自定义刷新沙盒环境 [!DNL Adobe Workfront] ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)。
+如果您有自定义刷新沙盒，则在升级到支持Adobe云存储的Workfront版本后必须刷新它。 通过刷新，沙盒可以访问Adobe云存储功能，以便您可以开始对其进行测试。 有关详细信息，请参阅[自定义刷新沙盒环境 [!DNL Adobe Workfront] &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)。
