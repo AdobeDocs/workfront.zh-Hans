@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: get-started-with-workfront
 title: Adobe Workfront基础知识：文章索引
-description: 查看这些区域以了解 Adobe Workfront 的基础知识，并学习如何执行基本功能，例如使用主页或优先级区域、管理您的帐户轮廓、使用 AI 助手，或了解浏览器要求和支持的语言。请参阅 Workfront 词汇表来了解 Workfront 中的常用术语。
+description: 查看这些区域以了解 Adobe Workfront 的基础知识，并学习如何执行基本功能，例如使用主页或优先级区域、管理您的帐户轮廓、使用 AI 助手，或了解浏览器要求和支持的语言。 请参阅 Workfront 词汇表来了解 Workfront 中的常用术语。
 short-description: 了解 Adobe Workfront 的基础知识，了解如何执行基本功能。
 author: Courtney
 feature: Get Started with Workfront
@@ -10,10 +10,10 @@ recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 434962cc354e545296610a73902d94fa1b6811f5
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 60%
+source-wordcount: '212'
+ht-degree: 59%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 60%
 
 <!--Audited: 01/2025-->
 
-查看这些区域以了解 Adobe Workfront 的基础知识，并学习如何执行基本功能，例如使用主页或优先级区域、管理您的帐户轮廓、使用 AI 助手，或了解浏览器要求和支持的语言。请参阅 Workfront 词汇表来了解 Workfront 中的常用术语。
+查看这些区域以了解 Adobe Workfront 的基础知识，并学习如何执行基本功能，例如使用主页或优先级区域、管理您的帐户轮廓、使用 AI 助手，或了解浏览器要求和支持的语言。 请参阅 Workfront 词汇表来了解 Workfront 中的常用术语。
 
 本节包含以下子部分：
 
@@ -39,4 +39,5 @@ ht-degree: 60%
 * [管理您的帐户和配置文件](../workfront-basics/manage-your-account-and-profile/manage-your-account-and-profile.md)
 * [移动应用](../workfront-basics/mobile-apps/mobile-apps.md)
 * [Workfront的人工智能助手](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
+* [Workfront MCP服务器](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server.md)
 * [Adobe Workfront基础知识的提示、技巧和疑难解答](../workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
