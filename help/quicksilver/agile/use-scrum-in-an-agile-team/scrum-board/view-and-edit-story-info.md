@@ -8,10 +8,10 @@ feature: Agile
 exl-id: 88d156ea-0913-425e-b3eb-6ae81d2d2336
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 5%
+source-wordcount: '446'
+ht-degree: 3%
 
 ---
 
@@ -44,12 +44,12 @@ ht-degree: 5%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>文章的完成点数或小时数以及分配给文章的点数或小时数<br>这些数字用于计算并显示每个文章的[!UICONTROL 完成百分比]。</p> </td> 
+   <td> <p>文章的完成点数或小时数以及分配给文章的点数或小时数<br>这些数字用于计算并显示每个文章的[！UICONTROL完成百分比]。</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>每个故事和问题的[!UICONTROL 完成百分比]。<br>迭代的[!UICONTROL 完成百分比]是根据每个故事的[!UICONTROL 完成百分比]计算的。</p> <p>更新故事或问题的[!UICONTROL 完成百分比]时，您可以选择介于0和100之间的任意数字。</p> </td> 
+   <td> <p>每个故事和问题的[！UICONTROL完成百分比]。<br>迭代的[！UICONTROL完成百分比]是根据每个故事的[！UICONTROL完成百分比]计算的。</p> <p>更新故事或问题的[！UICONTROL完成百分比]时，您可以选择介于0和100之间的任意数字。</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -64,7 +64,7 @@ ht-degree: 5%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>通过修改Agile视图可能已添加到Agile视图的任何其他字段（包括自定义字段），如[!UICONTROL Adobe Workfront]<a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">中的</a>视图概述中的“创建和自定义[!UICONTROL Agile]视图”中所述。</p> </td> 
+   <td> <p>通过修改Agile视图可能已添加到Agile视图的任何其他字段（包括自定义字段），如[！UICONTROL Adobe Workfront]</a>中的<a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">视图概述中的“创建和自定义[！UICONTROL Agile]视图”中所述。</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -85,18 +85,18 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>新文档： [!UICONTROL Standard]</p> 
+   <td> <p>新文档： [！UICONTROL Standard]</p> 
    或
-   <p>当前： [!UICONTROL Work]或更高版本</p> </td> 
+   <p>当前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">对象权限</td> 
-   <td>[!UICONTROL Contribute]或[!UICONTROL Manage]对任务或问题的访问权限</td> 
+   <td>[！UICONTROL Contribute]或[！UICONTROL Manage]对任务或问题的访问权限</td> 
   </tr>
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

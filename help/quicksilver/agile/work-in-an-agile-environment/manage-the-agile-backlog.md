@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1337'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -103,7 +103,7 @@ ht-degree: 1%
 
 ### 编辑故事 {#edit-stories}
 
-可以直接从积压中的[!UICONTROL 故事]或[!UICONTROL 问题]选项卡编辑故事，就像要批量编辑项目中的任何任务或问题一样，如[编辑任务](../../manage-work/tasks/manage-tasks/edit-tasks.md#edit-tasks-in-bulk)中的[批量编辑任务](../../manage-work/tasks/manage-tasks/edit-tasks.md)和[编辑问题](../../manage-work/issues/manage-issues/edit-issues.md)中所述。
+可以直接从积压中的[!UICONTROL 故事]或[!UICONTROL 问题]选项卡编辑故事，就像要批量编辑项目中的任何任务或问题一样，如[编辑任务](../../manage-work/tasks/manage-tasks/edit-tasks.md)中的[批量编辑任务](../../manage-work/tasks/manage-tasks/edit-tasks.md#edit-tasks-in-bulk)和[编辑问题](../../manage-work/issues/manage-issues/edit-issues.md)中所述。
 
 ## 在积压工作中创建新故事 {#create-new-stories-on-the-backlog}
 
@@ -138,7 +138,7 @@ ht-degree: 1%
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 文章名称]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL文章名称]</strong></td>
       <td> 键入故事的名称。</td>
      </tr>
      <tr>
@@ -146,23 +146,23 @@ ht-degree: 1%
       <td>（可选）键入文章的描述。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 就绪]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL就绪]</strong></td>
       <td> 选择文章是否准备好添加到开发周期。 此设置仅供参考。 可以将故事添加到开发周期，而不管此设置的状态如何。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 估计]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL估计]</strong></td>
       <td>指定文章的分值或每小时估计值。 估计值会影响燃尽图。 仅当每个故事都包含准确的估计值时，迭代的燃尽图才准确。 （如果提供点估计值，则必须在团队设置中指定每个点表示的小时数。）</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 父项目]</strong></td>
-      <td>开始键入将在其中创建此文章的项目名称，然后在名称出现在下拉列表中时单击该名称。<br>项目的状态必须设置为[!UICONTROL 当前]。 如果项目的状态不是[!UICONTROL 当前]，则它不会显示在下拉菜单中。</td>
+      <td role="rowheader"><strong>[！UICONTROL父项目]</strong></td>
+      <td>开始键入将在其中创建此文章的项目名称，然后在名称出现在下拉列表中时单击该名称。<br>项目的状态必须设置为[！UICONTROL当前]。 如果项目的状态不是[！UICONTROL当前]，则它不会显示在下拉菜单中。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 父任务]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL父任务]</strong></td>
       <td>（可选）开始键入此文章从属的父任务的名称，然后在名称出现在下拉列表中时单击该名称。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 自定义Forms]</strong></td>
+      <td role="rowheader"><strong>[！UICONTROL自定义Forms]</strong></td>
       <td> （可选）选择要添加到此文章的任何自定义表单。</td>
      </tr>
     </tbody>

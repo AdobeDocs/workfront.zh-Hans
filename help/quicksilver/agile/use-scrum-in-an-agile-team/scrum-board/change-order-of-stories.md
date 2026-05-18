@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 326d78e0-06de-4b98-8fa6-102e0fd89d76
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '402'
 ht-degree: 3%
 
 ---
@@ -37,14 +37,14 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>新文档： [!UICONTROL Standard]</p> 
+   <td> <p>新文档： [！UICONTROL Standard]</p> 
    或
-   <p>当前： [!UICONTROL Work]或更高版本</p> </td> 
+   <p>当前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr>
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -61,4 +61,4 @@ ht-degree: 3%
 
 与Agile迭代不同，在Agile视图中查看项目时无法更改故事顺序。 要修改项目的文章顺序，必须在标准视图中查看项目。
 
-有关如何更改项目视图的信息，请参阅[[!UICONTROL Agile]视图[!UICONTROL 中的]管理项目](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)。 选择标准视图，而不是选择Agile视图。
+有关如何更改项目视图的信息，请参阅[!UICONTROL Agile]视图](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)中的[[!UICONTROL 管理项目]。 选择标准视图，而不是选择Agile视图。

@@ -8,7 +8,7 @@ feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 2%
@@ -52,7 +52,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -66,7 +66,7 @@ ht-degree: 2%
 
 ### 在[!DNL Workfront]中使用Kanban的好处
 
-[!DNL Kanban]中的[!DNL Workfront] Agile方法使您能够更轻松地在Agile故事板中移动故事，同时限制正在进行的工作量。 使用[!DNL Kanban] Agile方法时没有开始和结束日期。
+[!DNL Workfront]中的[!DNL Kanban] Agile方法使您能够更轻松地在Agile故事板中移动故事，同时限制正在进行的工作量。 使用[!DNL Kanban] Agile方法时没有开始和结束日期。
 
 以下功能支持此方法：
 
@@ -74,7 +74,7 @@ ht-degree: 2%
 有关详细信息，请参阅[将积压工作添加到[!UICONTROL Kanban]展示板](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)。
 
 * 配置当其他项目移至等同于“完成”的状态时，将积压中的项目自动添加到[!UICONTROL Kanban] Agile故事板中。
-有关详细信息，请参阅文章[配置Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5)中的[配置要自动从积压工作中添加的故事](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)部分。
+有关详细信息，请参阅文章[配置Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)中的[配置要自动从积压工作中添加的故事](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5)部分。
 
 * 配置要在[!UICONTROL Kanban]敏捷故事板上显示的进行中的工作(WIP)限制。
 有关详细信息，请参阅[在Kanban展示板上管理正在进行的工作(WIP)限制](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)。
@@ -108,32 +108,32 @@ ht-degree: 2%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 团队名称]</strong> </td> 
+      <td role="rowheader"><strong>[！UICONTROL团队名称]</strong> </td> 
       <td>键入新Agile团队的名称。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 这是Agile团队]</strong> </td> 
+      <td role="rowheader"><strong>[！UICONTROL这是Agile团队]</strong> </td> 
       <td>选择此选项可将此新团队配置为Agile团队。</td> 
      </tr>
 
    <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 处于活动状态]</strong> </td> 
+      <td role="rowheader"><strong>[！UICONTROL处于活动状态]</strong> </td> 
       <td>选择此选项以激活此团队。 其他用户对非活动的团队不可见以分配给工作。 </td> 
      </tr>
 
 
    <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-      <td role="rowheader"><strong>[!UICONTROL 组]</strong> </td> 
-      <td> <p>开始键入要添加到团队中的组的名称，然后在该名称出现在下拉列表中时选择该名称。</p> <p><b>注释</b></p> <p> 将团队分配给组或子组后，该组或子组的任何组管理员都可以管理团队，而无需成为团队成员。 组管理员可以从[!UICONTROL 主菜单]转到[!UICONTROL 团队]区域，然后单击[!UICONTROL 切换团队]箭头<img src="assets/switch-team-icon.png" alt="“切换团队”图标">列出分配给其管理的组的所有团队。</p> </td> 
+      <td role="rowheader"><strong>[！UICONTROL组]</strong> </td> 
+      <td> <p>开始键入要添加到团队中的组的名称，然后在该名称出现在下拉列表中时选择该名称。</p> <p><b>注释</b></p> <p> 将团队分配给组或子组后，该组或子组的任何组管理员都可以管理团队，而无需成为团队成员。 组管理员可以从[！UICONTROL主菜单]转到[！UICONTROL团队]区域，然后单击[！UICONTROL切换团队]箭头<img src="assets/switch-team-icon.png" alt="“切换团队”图标">列出分配给其管理的组的所有团队。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 团队成员]</strong> </td> 
+      <td role="rowheader"><strong>[！UICONTROL团队成员]</strong> </td> 
       <td>开始键入要加入团队的用户的名称，然后在名称出现在下拉列表中时选择该名称。<br>重复此过程以将多个用户添加到团队。<br>由于用户可隶属于多个团队，因此他们可同时隶属于敏捷团队和非敏捷团队。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 描述]</strong> </td> 
-      <td><p>键入团队描述。</p> <p>选择团队时，描述显示在[!UICONTROL 团队]区域的右上角。</p>
-      <p>如果描述较长，则可以单击该描述以在弹出窗口中显示完整描述。 如果您有权编辑[!UICONTROL 团队设置]，则还可以直接在弹出窗口中编辑描述。</p></td>
+      <td role="rowheader"><strong>[！UICONTROL描述]</strong> </td> 
+      <td><p>键入团队描述。</p> <p>选择团队时，描述显示在[！UICONTROL团队]区域的右上角。</p>
+      <p>如果描述较长，则可以单击该描述以在弹出窗口中显示完整描述。 如果您有权编辑[！UICONTROL团队设置]，则还可以直接在弹出窗口中编辑描述。</p></td>
      </tr> 
     </tbody> 
    </table>

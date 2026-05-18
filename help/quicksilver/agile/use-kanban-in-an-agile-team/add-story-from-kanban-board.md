@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 8f12b05c-d132-42ca-b617-bdd14e57acf2
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '215'
 ht-degree: 11%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 11%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -67,11 +67,11 @@ ht-degree: 11%
         <td>物料的描述。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 估计]</strong></td>
+        <td><strong>[！UICONTROL估计]</strong></td>
         <td>估计的项目小时数或点数。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 父项目]</strong></td>
+        <td><strong>[！UICONTROL父项目]</strong></td>
         <td>（必需）存储新文章或问题的项目。 开始键入项目的名称，然后在该项目显示在列表时将其选定。</td>
     </tr>
    </table>

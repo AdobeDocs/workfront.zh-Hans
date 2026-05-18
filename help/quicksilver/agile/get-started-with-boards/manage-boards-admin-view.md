@@ -8,10 +8,10 @@ feature: Agile
 exl-id: 4a7f2f68-14d2-4532-8c76-2ba78b45deac
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 2%
+source-wordcount: '625'
+ht-degree: 3%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 2%
 
 ## 访问权限要求
 
-+++ 展开以查看访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,7 +52,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -74,7 +74,7 @@ ht-degree: 2%
 
    1. （可选）单击&#x200B;**日历**&#x200B;图标![日历图标](assets/calendar-icon.png)，然后选择一个日期范围，以按该时间范围内最后修改的展示板进行筛选。
 
-   1. （可选）在&#x200B;**模板**&#x200B;部分中，选择列表将按其筛选的展示板模板类型。 您可以选择多个模板类型。
+   1. （可选）在&#x200B;**模板**部分中，选择列表将按其筛选的展示板模板类型。 您可以选择多个模板类型。
 有关展示板模板类型的详细信息，请参阅[创建或编辑展示板](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md)。
 
    1. （可选）在&#x200B;**Is Archived**&#x200B;部分中，选择是显示已存档还是未存档展示板。 您可以选择多个选项。
@@ -142,5 +142,5 @@ ht-degree: 2%
 
    >[!NOTE]
    >   
-   >修改展示板列表分组显示时，**组**&#x200B;图标上方会显示一个蓝色圆点，表示当前视图不同于默认视图。<br>
+   >修改展示板列表分组显示时，**组**&#x200B;图标上方会显示一个蓝色圆点，表示当前视图不同于默认视图。 <br>
    >如果要删除分组，请打开&#x200B;**分组依据**&#x200B;面板，然后选择右上角的&#x200B;**全部清除**。

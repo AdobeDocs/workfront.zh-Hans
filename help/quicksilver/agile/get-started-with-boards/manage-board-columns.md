@@ -8,9 +8,9 @@ feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1075'
 ht-degree: 1%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -169,11 +169,11 @@ ht-degree: 1%
 
    1. 从下拉列表中选择标记。 只有已在[!UICONTROL 标记管理器]中创建的标记才可供选择。 有关添加新标记的信息，请参阅[添加标记](/help/quicksilver/agile/get-started-with-boards/add-tags.md)。
 
-      列![的](assets/boards-column-tags.png)标记
+      列](assets/boards-column-tags.png)的![标记
 
 1. 启用&#x200B;**[!UICONTROL 工作进行中限制]**&#x200B;策略以限制可以添加到列中的卡片数量。 然后，在&#x200B;**[!UICONTROL 设置限制]**&#x200B;字段中键入限制数。
 
-   列![的](assets/boards-wip-limit-in-column.png)WIP限制
+   列](assets/boards-wip-limit-in-column.png)的![WIP限制
 
    有关详细信息，请参阅[在展示板上管理正在进行的工作(WIP)限制](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)。
 
