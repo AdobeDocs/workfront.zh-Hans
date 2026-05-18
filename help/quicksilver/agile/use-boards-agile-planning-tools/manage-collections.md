@@ -9,9 +9,9 @@ feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '929'
 ht-degree: 2%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -58,7 +58,7 @@ ht-degree: 2%
 
 {{step1-to-boards}}
 
-1. 在仪表板的&#x200B;**[!UICONTROL 工作流]**&#x200B;区域单击[!UICONTROL 添加工作流]。
+1. 在仪表板的[!UICONTROL 工作流]区域单击&#x200B;**[!UICONTROL 添加工作流]**。
 1. 键入名称以替换&#x200B;**[!UICONTROL 无标题工作流]**，然后按Enter。
 
    您可以将展示板添加到工作流，或单击&#x200B;[!UICONTROL **所有展示板**]&#x200B;返回到仪表板。
@@ -66,7 +66,7 @@ ht-degree: 2%
 ## 在工作流中创建新讨论区
 
 1. 如果您尚未在工作流中，请单击仪表板上的&#x200B;[!UICONTROL **查看工作流**]&#x200B;以打开现有的工作流。
-1. 在工作流的&#x200B;**[!UICONTROL 讨论区]**&#x200B;选项卡上单击[!UICONTROL 添加讨论区]。
+1. 在工作流的[!UICONTROL 讨论区]选项卡上单击&#x200B;**[!UICONTROL 添加讨论区]**。
 1. 为展示板选择模板。
 
 | 模板 | 描述 |

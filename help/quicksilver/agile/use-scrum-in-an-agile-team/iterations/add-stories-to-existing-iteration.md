@@ -8,9 +8,9 @@ feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '608'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 您可以通过以下任意方式将故事添加到开发周期：
 
-* 创建迭代后的积压工作，如[管理Agile积压工作[!UICONTROL 中的]将故事从积压工作移动到迭代](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board)Kanban[展示板](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)部分所述
+* 创建迭代后的积压工作，如[管理Agile积压工作](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)中的[将故事从积压工作移动到迭代[!UICONTROL Kanban]展示板](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board)部分所述
 
 * 从单个任务或问题的[!UICONTROL 详细信息]页面
 * 从任务或问题列表
@@ -48,7 +48,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -76,9 +76,9 @@ ht-degree: 3%
 
 * 任务在以下情况下使用项目的[!UICONTROL 计划完成日期]：
 
-   * 项目的[!UICONTROL 计划开始日期]晚于&#x200B;*迭代的开始日期，项目的*&#x200B;计划完成日期[!UICONTROL 晚于]迭代的结束日期。**
+   * 项目的[!UICONTROL 计划开始日期]晚于&#x200B;*迭代的开始日期，项目的[!UICONTROL 计划完成日期]晚于*&#x200B;迭代的结束日期。**
 
-您可以将单个Scrum团队配置为默认使用项目日期，而不是迭代日期。 有关信息，请参阅[配置Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration)一文中的[配置将工作项添加到迭代时应用日期的方式](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)部分。
+您可以将单个Scrum团队配置为默认使用项目日期，而不是迭代日期。 有关信息，请参阅[配置Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)一文中的[配置将工作项添加到迭代时应用日期的方式](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration)部分。
 
 ## 将故事添加到现有迭代
 

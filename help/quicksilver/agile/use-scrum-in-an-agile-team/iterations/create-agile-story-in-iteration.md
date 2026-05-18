@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 9712e065-5fbf-4deb-a39f-36e0e918ed12
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '503'
 ht-degree: 4%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -74,7 +74,7 @@ ht-degree: 4%
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL 就绪]</strong></td>
-      <td>如果文章已准备好添加到开发周期，请选择此选项。 选择此选项时，它会向用户指示哪些积压中的文章已准备好添加到开发周期。<br>可以将故事添加到迭代，无论它是否标记为<strong>[!UICONTROL 就绪]。</strong></td>
+      <td>如果文章已准备好添加到开发周期，请选择此选项。 选择此选项时，它会向用户指示哪些积压中的文章已准备好添加到迭代。<br>可以将文章添加到迭代，无论是否将其标记为<strong>[!UICONTROL 就绪]。</strong></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL 估计]（点数）</strong></td>
@@ -86,7 +86,7 @@ ht-degree: 4%
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL 父任务]</strong></td>
-      <td>选择父项目后，您可以选择父任务。 选择父任务后，故事将作为选定项目上父任务的子任务创建。<br>开始键入文章父级任务的名称，然后当该任务出现在下拉列表中时，单击它。</td>
+      <td>选择父项目后，您可以选择父任务。 选择父任务时，文章会创建为所选项目上父任务的子任务。<br>开始键入文章的父任务的名称，然后在文章出现在下拉列表中时单击它。</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL 自定义Forms]</strong></td>

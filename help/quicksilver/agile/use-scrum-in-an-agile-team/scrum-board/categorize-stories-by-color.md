@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 8e351505-73d1-4c8f-b369-53c965b88c95
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '422'
 ht-degree: 3%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 3%
 
 根据故事板位于开发周期还是项目上，故事的默认颜色关联会有所不同：
 
-* **[!UICONTROL 迭代]**：在迭代中，故事板图块会根据与故事关联的项目进行颜色编码。 （每个项目都会在故事板上任意指定一种颜色。） 您可以更改每个Agile团队的默认行为。 开发周期上的Agile故事的颜色可以与项目（默认）、故事优先级、所有者或自由格式绑定。 有关详细信息，请参阅[配置Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur4)一文中的[配置Agile故事板上的故事如何使用颜色指示器](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)。
+* **[!UICONTROL 迭代]**：在迭代中，故事板图块会根据与故事关联的项目进行颜色编码。 （每个项目都会在故事板上任意指定一种颜色。） 您可以更改每个Agile团队的默认行为。 开发周期上的Agile故事的颜色可以与项目（默认）、故事优先级、所有者或自由格式绑定。 有关详细信息，请参阅[配置Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)一文中的[配置Agile故事板上的故事如何使用颜色指示器](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur4)。
 
-* **[!UICONTROL 项目]**：在项目中，任何子任务均与父任务的颜色匹配，因此任何给定泳道中所有故事的颜色均相同。 如果任务没有任何子任务或没有父任务，则颜色在创建时随机分配给任务。 您可以通过修改Agile视图来更改此默认行为。 项目上的Agile文章的颜色可以与父文章（默认）、文章优先级、所有者或自由格式绑定。 有关详细信息，请参阅[中的[!UICONTROL 视图概述中的]创建或自定义](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view)Agile[视图 [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)。
+* **[!UICONTROL 项目]**：在项目中，任何子任务均与父任务的颜色匹配，因此任何给定泳道中所有故事的颜色均相同。 如果任务没有任何子任务或没有父任务，则颜色在创建时随机分配给任务。 您可以通过修改Agile视图来更改此默认行为。 项目上的Agile文章的颜色可以与父文章（默认）、文章优先级、所有者或自由格式绑定。 有关详细信息，请参阅 [!DNL Adobe Workfront][&#128279;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)中的视图概述中的[创建或自定义[!UICONTROL Agile]视图](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view)。
 
 ## 访问权限要求
 
@@ -46,7 +46,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

@@ -8,7 +8,7 @@ feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 2%
@@ -52,7 +52,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -66,7 +66,7 @@ ht-degree: 2%
 
 ### 在[!DNL Workfront]中使用Kanban的好处
 
-[!DNL Kanban]中的[!DNL Workfront] Agile方法使您能够更轻松地在Agile故事板中移动故事，同时限制正在进行的工作量。 使用[!DNL Kanban] Agile方法时没有开始和结束日期。
+[!DNL Workfront]中的[!DNL Kanban] Agile方法使您能够更轻松地在Agile故事板中移动故事，同时限制正在进行的工作量。 使用[!DNL Kanban] Agile方法时没有开始和结束日期。
 
 以下功能支持此方法：
 
@@ -74,7 +74,7 @@ ht-degree: 2%
 有关详细信息，请参阅[将积压工作添加到[!UICONTROL Kanban]展示板](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)。
 
 * 配置当其他项目移至等同于“完成”的状态时，将积压中的项目自动添加到[!UICONTROL Kanban] Agile故事板中。
-有关详细信息，请参阅文章[配置Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5)中的[配置要自动从积压工作中添加的故事](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)部分。
+有关详细信息，请参阅文章[配置Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)中的[配置要自动从积压工作中添加的故事](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5)部分。
 
 * 配置要在[!UICONTROL Kanban]敏捷故事板上显示的进行中的工作(WIP)限制。
 有关详细信息，请参阅[在Kanban展示板上管理正在进行的工作(WIP)限制](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)。

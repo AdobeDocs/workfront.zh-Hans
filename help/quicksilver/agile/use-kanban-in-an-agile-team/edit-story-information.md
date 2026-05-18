@@ -8,10 +8,10 @@ feature: Agile
 exl-id: a22a7b61-b331-4c98-9421-e7fccedcd096
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 7%
+source-wordcount: '378'
+ht-degree: 5%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 7%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>每个故事和问题的[!UICONTROL 完成百分比]。<br>[!UICONTROL 迭代的完成百分比]是根据每个故事的[!UICONTROL 完成百分比]计算的。<br></p> <p>更新故事或问题的[!UICONTROL 完成百分比]时，您可以选择介于0和100之间的任意数字。</p> </td> 
+   <td> <p>每个文章和问题的[!UICONTROL 完成百分比]。<br>[!UICONTROL 迭代的完成百分比]是根据每个文章的[!UICONTROL 完成百分比]计算的。<br></p> <p>更新故事或问题的[!UICONTROL 完成百分比]时，您可以选择介于0和100之间的任意数字。</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -64,7 +64,7 @@ ht-degree: 7%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>通过修改Agile视图可能已添加到Agile视图的任何其他字段（包括自定义字段），如<a href="../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">中的[!DNL Adobe Workfront]</a>视图概述中的“创建和自定义Agile视图”中所述</p> </td> 
+   <td> <p>通过修改Agile视图可能已添加到Agile视图的任何其他字段（包括自定义字段），如[!DNL Adobe Workfront]</a>中的<a href="../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">视图概述中的“创建和自定义Agile视图”中所述</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -93,7 +93,7 @@ ht-degree: 7%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

@@ -8,9 +8,9 @@ feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1532'
 ht-degree: 2%
 
 ---
@@ -62,12 +62,12 @@ ht-degree: 2%
   <tr>
    <td role="rowheader">对象权限</td>
    <td><p>查看或更高权限的Workfront任务或问题</p>
-</td>
+   </td>
   </tr>
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -222,7 +222,7 @@ ht-degree: 2%
    >[!NOTE]
    >
    >* 搜索结果中只有您拥有权限的对象可用。
-   >* 当您按&#x200B;**[!UICONTROL 我拥有的项目]**&#x200B;或我参与的项目&#x200B;**[!UICONTROL 进行筛选时，不包括相当于]**&#x200B;完成[!UICONTROL 、]终止[!UICONTROL 或]已拒绝[!UICONTROL 状态的项目。 &#x200B;]您仍然可以使用&#x200B;**[!UICONTROL 所有]**&#x200B;筛选器搜索这些项目。
+   >* 当您按&#x200B;**[!UICONTROL 我拥有的项目]**&#x200B;或我参与的项目&#x200B;**进行筛选时，不包括相当于[!UICONTROL 完成]、[!UICONTROL 终止]或[!UICONTROL 已拒绝]状态的项目。**&#x200B;您仍然可以使用&#x200B;**[!UICONTROL 所有]**&#x200B;筛选器搜索这些项目。
 
 1. 单击&#x200B;**[!UICONTROL 连接]**。
 
@@ -236,7 +236,7 @@ ht-degree: 2%
 
 您必须具有正确的权限，才能在连接的任务或问题上记录小时数。
 
-默认情况下，已连接的信息卡上不显示时间日志记录字段。 必须在&#x200B;[!UICONTROL **卡片**]&#x200B;下的[!UICONTROL 配置]区域中启用[!UICONTROL 小时]。 有关详细信息，请参阅[自定义卡片上显示的字段](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)。
+默认情况下，已连接的信息卡上不显示时间日志记录字段。 必须在[!UICONTROL 卡片]下的[!UICONTROL 配置]区域中启用&#x200B;[!UICONTROL **小时**]。 有关详细信息，请参阅[自定义卡片上显示的字段](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)。
 
 1. 输入任务或问题的小时数。
 1. 从下拉菜单中选择[!UICONTROL 小时类型]（如果它与默认值不同）。
