@@ -157,7 +157,7 @@ ht-degree: 1%
 
 定义Kanban团队的WIP限制时，可以通过限制可在[!UICONTROL Kanban]展示板上的[!UICONTROL New]或[!UICONTROL In Progress]列中出现的任务数来控制团队当前正在处理的项目数。
 
-配置Kanban团队的WIP限制后，您可以查看WIP限制并从[!UICONTROL Kanban] Agile故事板更新它，如[!UICONTROL Kanban]展示板](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)上的[管理正在进行的工作(WIP)限制中所述。
+配置Kanban团队的WIP限制后，您可以查看WIP限制并从[!UICONTROL Kanban] Agile故事板更新它，如[!UICONTROL Kanban]展示板[&#128279;](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)上的管理正在进行的工作(WIP)限制中所述。
 
 要限制Kanban团队的WIP，请执行以下操作：
 
