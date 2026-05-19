@@ -1,18 +1,25 @@
 ---
 title: Adobe Workfront Planning的一般信息和文章索引
-description: 作为营销运营负责人，您可以使用 Adobe Workfront 规划来统筹整个营销生命周期内的团队工作。本部分文章介绍如何配置规划功能，以及如何将其应用于您的营销活动管理流程。
+description: 作为营销运营负责人，您可以使用 Adobe Workfront 规划来统筹整个营销生命周期内的团队工作。 本部分文章介绍如何配置规划功能，以及如何将其应用于您的营销活动管理流程。
 short-description: 通过相关文档和补充资源，了解如何在您的组织中实施并高效使用 Adobe Workfront 规划。
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-last-update: 2026-04-01T18:03:50Z
+last-update: '2026-04-01T18:03:50.000Z'
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+autotag-review: '2026-05-19T20:02:13.086Z'
+TQID: 'https://experienceleague.adobe.com/Xf-V7M0-NaX-fw6yR-tjw3HnTRmNVIkYF7QcBPkjR7U'
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2: id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 63cb8d98d210207c3f6f435f98b7204a5dce0df8
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 12%
+source-wordcount: 632
+ht-degree: 11%
 
 ---
 
@@ -92,7 +99,7 @@ ht-degree: 12%
 
 * [Adobe Workfront Planning API基础知识](/help/quicksilver/planning/general/planning-api-basics.md)： Adobe Workfront Planning API的目标是通过引入通过HTTP运行的REST-ful架构，简化与Planning的生成集成。
 
-* [适用于Workfront Fusion的Adobe Workfront规划模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：使用Adobe Workfront规划模块，可以在Workfront规划中发生事件时触发方案。 您还可以创建、读取、更新和删除记录，或对Adobe Workfront Planning帐户执行自定义API调用。
+* [适用于Workfront Fusion的Adobe Workfront规划模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：使用Adobe Workfront规划模块，可以在Workfront规划中发生事件时触发方案。 您还可以创建、读取、更新和删除记录，或对Adobe Workfront Planning帐户执行自定义API调用。
 
 * [Adobe Workfront Planning AI助手概述](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)：使用Workfront AI Assistant for Planning，您可以使用命令搜索记录，或者创建、更新和删除记录，并让助手为您完成工作。
 
