@@ -12,7 +12,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 8ee1cda376b51a5f5b7b4af44e6d34bf70ee9600
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1808'
 ht-degree: 3%
 
 ---
@@ -242,7 +242,7 @@ IF({status} = "APR", true)
 
      您可以在错误消息中包含静态URL，以链接到文档或其他有用页面，引导用户如何在规则的限制中修改其操作。
 
-     在此示例中，“了解详情”将链接到URL。 `"You are not allowed to add a new project in November.[Learn more](http://url)"` URL必须位于括号中，但不需要使用括号中的链接文本。 您可以显示完整URL，它将是可单击的链接。
+     在此示例中，“了解详情”将链接至该URL。`"You are not allowed to add a new project in November.[Learn more](http://url)"` URL必须位于括号中，但不要求链接文本位于括号中。 您可以显示完整URL，它将是可单击的链接。
 
    ![添加业务规则对话框](assets/add-business-rule-new.png)
 
