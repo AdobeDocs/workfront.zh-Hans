@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
 source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '707'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->业务规则仅适用于具有新Ultimate计划的组织。
+>业务规则仅适用于新Ultimate计划上的组织。
 
 ## Adobe Workfront中通常提供自定义表单设计器
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->环境升级仅适用于拥有新Prime或Ultimate计划的组织。
+>环境提升仅适用于新Prime或Ultimate计划中的组织。
 >
 
 ## 在自定义表单设计器中共享自定义表单和自定义字段

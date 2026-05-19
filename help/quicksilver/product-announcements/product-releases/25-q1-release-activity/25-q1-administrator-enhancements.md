@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 exl-id: fa24040d-0403-4799-b690-c3d172797115
 source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '874'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 本页介绍了在2025年第一季度版本中对“预览”环境所做的所有管理员增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2025年第一季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2025年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
+有关2025年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2025年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
 
 ## 更多对象现在支持业务规则
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 您现在可以创建业务规则并将验证应用于以下附加对象：公司、开发周期、非人工资源类别、工作角色、用户、分配、资源库、空闲时间、文档和小时。
 
-业务规则已支持以下对象：项目、任务、请求、Portfolio、程序、费用、记帐记录、组、风险和费率卡。
+业务规则已支持以下对象：项目、任务、请求、Portfolio、项目、费用、账单记录、组、风险和费率卡。
 
 有关详细信息，请参阅[创建和编辑业务规则](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)。
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 * 位置
 * 费率卡
-* 任务
+* 分配
 
 以前，这些对象不可用于环境升级。
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 >
 >预览版本： 2024年11月21日；用于快速发布的生产：用于24.12版（2024年12月12日）；用于季度发布的生产：用于25.1版（2025年1月16日）
 
-当您将本地字段引用添加到自定义表单并且它引用预输入字段(例如Portfolio、公司或所有者)时，筛选器选项现在可用。 该过滤器允许您限制用户在使用该字段时可以选择的对象。 此自定义筛选器的工作方式与自定义预输入字段上的筛选器的工作方式相同，使用文本模式定义筛选器。
+当您将本地字段引用添加到自定义表单并且它引用预输入字段时（例如Portfolio、公司或所有者），筛选器选项现在可用。 该过滤器允许您限制用户在使用该字段时可以选择的对象。 此自定义筛选器的工作方式与自定义预输入字段上的筛选器的工作方式相同，使用文本模式定义筛选器。
 
 有关信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
