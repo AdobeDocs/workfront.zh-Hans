@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: e40d28599148e22a8553d1ef1e669811e80a59df
+source-git-commit: b014a06cd4c3305967fcd2edfe893a024051fa9c
 workflow-type: tm+mt
-source-wordcount: '1989'
+source-wordcount: '2022'
 ht-degree: 0%
 
 ---
@@ -197,17 +197,13 @@ Old:
 
    从表格视图中，单击第一列中的&#x200B;**打开详细信息**&#x200B;图标![在表格名称字段](assets/open-details-icon-in-table-name-field.png)中打开详细信息图标。
 
-   记录的预览将在视图中打开。
-
-   <!--update screen shot for details views preview-->
+   <span class="preview">记录的预览在视图中打开。</span>
 
    ![详细信息框](assets/details-box.png)
 
 1. （可选）单击记录预览右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签中打开详细信息](assets/open-details-in-a-new-tab-icon.png)以在新标签中打开记录页面。
 
-   此时将打开记录页面。 默认情况下，将打开“详细信息”选项卡。
-
-   <!--update screen shot for details views preview-->
+   <span class="preview">记录页面打开。 默认情况下，“详细信息”选项卡打开。</span>
 
    ![详细信息页面](assets/details-page.png)
 
@@ -280,9 +276,7 @@ Old:
 
    从表格视图中，单击第一列中的&#x200B;**打开详细信息**&#x200B;图标![在表格名称字段](assets/open-details-icon-in-table-name-field.png)中打开详细信息图标。
 
-   记录的预览将在视图中打开。
-
-   <!--update screen shot for details views preview-->
+   <span class="preview">记录的预览在视图中打开。</span>
 
    ![详细信息框](assets/details-box.png)
 
@@ -302,33 +296,34 @@ Old:
 
    >[!TIP]
    >
-   > <span class="preview">只有当您在表视图中查看记录时，**选定的表视图字段**&#x200B;视图才可用。</span>
+   > <span class="preview">只有在记录的详细信息预览页面中查看表视图中的记录时，**选定的表视图字段**&#x200B;视图才可用。
+   >**选定的表视图字段**&#x200B;不可用于任何其他记录类型视图，也不可用于浏览器窗口中打开的记录详细信息页面。</span>
 
-<div class="preview">
+1. <span class="preview">（有条件）在“预览”环境中，继续执行以下操作：</span>
 
-在“预览”环境中，继续执行以下操作：
+   <div class="preview">
 
-1. 要显示所有字段，请展开页面查看下拉菜单，然后选择&#x200B;**所有字段**。
-1. （可选）单击K **新详细信息**&#x200B;以添加新页面并对其进行自定义，然后执行以下操作：
+   1. 要显示所有字段，请展开页面查看下拉菜单，然后选择&#x200B;**所有字段**。
+   1. （可选）单击K **新详细信息**&#x200B;以添加新页面并对其进行自定义，然后执行以下操作：
 
-   1. 在&#x200B;**创建视图**&#x200B;框中，为新详细信息页面视图添加名称，然后单击&#x200B;**创建**。
-   1. 将鼠标悬停在视图中的字段上，然后单击字段左侧的&#x200B;**隐藏字段**&#x200B;图标![隐藏字段图标](assets/hide-field-in-details-page-icon.png)以隐藏该字段。
+      1. 在&#x200B;**创建视图**&#x200B;框中，为新详细信息页面视图添加名称，然后单击&#x200B;**创建**。
+      1. 将鼠标悬停在视图中的字段上，然后单击字段左侧的&#x200B;**隐藏字段**&#x200B;图标![隐藏字段图标](assets/hide-field-in-details-page-icon.png)以隐藏该字段。
 
-      >[!TIP]
-      >
-      >* 访问记录的每个人均可看到自定义页面。
-      >* 您选择的最后一个页面视图将是您在打开同一类型的另一个记录时默认打开的最后一个页面视图。
+         >[!TIP]
+         >
+         >* 访问记录的每个人均可看到自定义页面。
+         >* 您选择的最后一个页面视图将是您在打开同一类型的另一个记录时默认打开的最后一个页面视图。
 
-   1. （可选）单击详细信息页面顶部的&#x200B;**字段图标** ![字段图标](assets/fields-icon.png)，然后在详细信息页面上隐藏或显示字段。
+      1. （可选）单击详细信息页面顶部的&#x200B;**字段图标** ![字段图标](assets/fields-icon.png)，然后在详细信息页面上隐藏或显示字段。
 
-      >[!TIP]
-      >
-      >在&#x200B;**选定的表视图**&#x200B;或&#x200B;**所有字段**&#x200B;视图中显示详细信息页面时，**字段**&#x200B;图标不可用。
+         >[!TIP]
+         >
+         >在&#x200B;**选定的表视图**&#x200B;或&#x200B;**所有字段**&#x200B;视图中显示详细信息页面时，**字段**&#x200B;图标不可用。
 
-   1. （可选）要编辑自定义详细信息页面视图的名称，请将鼠标悬停在该视图的名称上，然后单击&#x200B;**更多**&#x200B;图标![更多图标](assets/more-menu.png)，然后单击&#x200B;**编辑**。
-   1. （可选）要删除自定义详细信息页面视图，请将鼠标悬停在该视图的名称上，单击&#x200B;**更多**&#x200B;图标![更多图标](assets/more-menu.png)，然后单击&#x200B;**删除**，然后单击&#x200B;**删除**&#x200B;以确认。 无法恢复已删除的详细信息页面视图。
+      1. （可选）要编辑自定义详细信息页面视图的名称，请将鼠标悬停在该视图的名称上，然后单击&#x200B;**更多**&#x200B;图标![更多图标](assets/more-menu.png)，然后单击&#x200B;**编辑**。
+      1. （可选）要删除自定义详细信息页面视图，请将鼠标悬停在该视图的名称上，单击&#x200B;**更多**&#x200B;图标![更多图标](assets/more-menu.png)，然后单击&#x200B;**删除**，然后单击&#x200B;**删除**&#x200B;以确认。 无法恢复已删除的详细信息页面视图。
 
-</div>
+   </div>
 
 1. （可选）如果要导航到连接的记录，请在详细信息页面顶部的痕迹导航中单击该记录的名称。
 
@@ -340,9 +335,7 @@ Old:
 
 1. （可选）单击记录预览右上角的&#x200B;**在新标签中打开**&#x200B;图标![在新标签图标中打开详细信息框](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->以在新标签中打开记录页面。
 
-   记录&#x200B;**详细信息**&#x200B;页面将在新选项卡中打开。
-
-   <!--update screen shot for details views preview-->
+   <span class="preview">记录&#x200B;**详细信息**&#x200B;页面将在新选项卡中打开。</span>
 
    ![详细信息页面](assets/details-page.png)
 

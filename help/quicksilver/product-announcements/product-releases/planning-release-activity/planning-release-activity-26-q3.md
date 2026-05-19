@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: e40d28599148e22a8553d1ef1e669811e80a59df
+source-git-commit: b014a06cd4c3305967fcd2edfe893a024051fa9c
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ There are no features released during the Third Quarter Release for 2026. When f
 
 有关为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
-## 在表视图中新增内容片段的预览窗口
+## AEM内容片段的新预览窗口
 
 >[!NOTE]
 >
@@ -38,6 +38,23 @@ There are no features released during the Third Quarter Release for 2026. When f
 此功能以前可用于AEM资源，现在我们将其添加到内容片段。
 
 有关信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。
+
+## Workfront Planning中现在提供AEM内容片段的查找字段
+
+>[!NOTE]
+>
+>预览： 2026年5月14日>生产快速发布： 2026年5月14日>适用于所有人的生产： 2026年5月14日>[!BADGE 超出计划]{type=Neutral}
+
+现在，在将Planning记录类型连接到AEM内容片段时，可以添加以下查找字段：
+
+* 创建者
+* 创建于
+* 修改者
+* 修改时间
+
+在此增强功能之前，查找字段仅可用于AEM资源和文件夹。
+
+有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
 <!--
 
