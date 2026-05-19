@@ -393,7 +393,7 @@ Old:
    >
    > 如果希望字段可用作时间轴和日历视图的开始日期和结束日期，则在添加查找日期字段时必须选择一个聚合器值。 例如，您可以为查找日期字段选择MAX或MIN汇总。
 
-   链接的数字字段](assets/aggregator-drop-down-for-number-linked-field.png)的![聚合器下拉列表
+   链接的数字字段![&#128279;](assets/aggregator-drop-down-for-number-linked-field.png)的聚合器下拉列表
 
    >[!NOTE]
    >
