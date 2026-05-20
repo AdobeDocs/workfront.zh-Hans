@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
 source-wordcount: '2294'
 ht-degree: 2%
@@ -113,7 +113,7 @@ The following features are currently available in Workfront Planning:
 -->
 
 <!--
-OLD: 
+<table style="table-layout:auto"> 
 
 |       Feature                                      |     Available now  |     Coming soon   |     In research  |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -160,6 +160,8 @@ OLD:
 |     Workfront Planning public API                                 |      ✓                         |                                  |                 |
 |     Workfront Planning AI Assistant*                                 |      ✓                         |                                  |                 |
 |     Reporting on Workfront Planning information (Canvas Dashboard)                              |                               |       ✓                           |                 |
+</table>
+
 -->
 
 ## 为Workfront实例中的用户启用Workfront Planning
@@ -460,7 +462,7 @@ add List view here when it's possible to display Planning RTs in it??
     >The Workfront AI Assistant has been temporarily removed and it will be available at a later date.
     -->
 
-* [适用于Workfront Fusion的Adobe Workfront规划模块](https://experienceleague.adobe.com/zh-hans/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：使用Adobe Workfront规划模块，可以在Workfront规划中发生事件时触发方案。 您还可以创建、读取、更新和删除记录，或对Adobe Workfront Planning帐户执行自定义API调用。
+* [适用于Workfront Fusion的Adobe Workfront规划模块](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：使用Adobe Workfront规划模块，可以在Workfront规划中发生事件时触发方案。 您还可以创建、读取、更新和删除记录，或对Adobe Workfront Planning帐户执行自定义API调用。
 
 * [Adobe Workfront Planning API基础知识](/help/quicksilver/planning/general/planning-api-basics.md)： Adobe Workfront Planning API的目标是通过引入通过HTTP运行的REST-ful架构，简化与Planning的生成集成。
 

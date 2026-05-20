@@ -8,10 +8,10 @@ feature: Work Management, Strategic Planning
 exl-id: 3dfd10e6-bcd0-48fb-b6aa-6e08cc52b230
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 6%
+source-wordcount: '255'
+ht-degree: 5%
 
 ---
 
@@ -39,16 +39,16 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p> 
-   <p>[!UICONTROL 计划]</p> </td> 
+   <td><p>[！UICONTROL标准版]</p> 
+   <p>[！UICONTROL计划]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[!UICONTROL Edit]对项目组合、项目和项目的访问权限</p> <p>您必须具有[!UICONTROL Delete]项目访问权限才能删除项目。</p> </td>
+   <td> <p>[！UICONTROL Edit]对项目组合、项目和项目的访问权限</p> <p>您必须具有[！UICONTROL Delete]项目访问权限才能删除项目。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>[!UICONTROL 管理]对项目组合、项目和项目的权限</p> <p>您必须具有项目的[!UICONTROL Delete]权限才能删除项目。 </p> <p>创建项目后，默认情况下，您拥有[!UICONTROL Manage]权限。</p> </td> 
+   <td> <p>[！UICONTROL管理]对项目组合、项目和项目的权限</p> <p>您必须具有项目的[！UICONTROL Delete]权限才能删除项目。 </p> <p>创建项目后，默认情况下，您拥有[！UICONTROL Manage]权限。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -97,6 +97,8 @@ Old:
 
    或
 
-   单击&#x200B;**[!UICONTROL 从程序]**&#x200B;中删除&#x200B;**&#x200B;**&#x200B;以将其从所选程序中删除。
+   单击&#x200B;**[!UICONTROL 从程序]**&#x200B;中删除&#x200B;]****[!UICONTROL &#x200B;以将其从所选程序中删除。
 
-   如果您单击[!UICONTROL 从项目群]中删除，该项目将不再与所选项目群关联。
+   如果您单击&#x200B;[!UICONTROL **从项目群**]&#x200B;中删除，该项目将不再与所选项目群关联。
+
+   如果您单击&#x200B;[!UICONTROL **删除**]，该项目将从Workfront中删除，并且Workfront管理员可以从回收站恢复该项目长达30天。

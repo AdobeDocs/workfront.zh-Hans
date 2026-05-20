@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 5%
+source-wordcount: '1179'
+ht-degree: 4%
 
 ---
 
@@ -114,6 +114,12 @@ ht-degree: 5%
 ## 将模板附加到现有项目 {#attach-a-template-to-an-existing-project}
 
 您可以从项目页面、项目列表或报表将模板附加到项目。
+
+>[!NOTE]
+>
+>当您的组织同时使用旧版Workfront和Adobe云文档存储时，您可以使用与项目不同的存储类型附加模板。 这不会更改项目的文档存储。
+>
+>有关详细信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
 {{step1-to-projects}}
 

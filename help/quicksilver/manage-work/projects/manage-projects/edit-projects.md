@@ -9,7 +9,7 @@ role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
 source-wordcount: '8112'
 ht-degree: 1%
@@ -287,7 +287,7 @@ Old:
       <p><b>注释</b></p>
       <ul>
       <li>您必须具有项目组合的管理权限才能将其添加到项目中或从中删除。</li>
-      <li>如果您的组织同时使用旧版Workfront和Adobe云存储，则无法在使用不同存储类型的项目之间复制任务。 您的Workfront实例可能没有这两种类型的文档存储。</li></ul> 
+      <li>如果贵组织同时使用旧版Workfront和Adobe云存储，则无法在使用不同存储类型的项目之间复制任务。 您的Workfront实例可能没有这两种类型的文档存储。</li></ul> 
       有关详细信息，请参阅<a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">项目和相关对象的文档管理概述</a>。 
       </td> 
       </tr> 
@@ -814,7 +814,7 @@ Old:
 
 1. 在列表中选择多个项目。
 1. 单击列表顶部的&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
-将打开&#x200B;**编辑项目**&#x200B;对话框。
+将打开**编辑项目**&#x200B;对话框。
 
    ![以批量模式编辑项目](assets/edit-projects-in-bulk-modal-unshimmed.png)
 
@@ -857,15 +857,15 @@ Old:
 
    有关编辑自定义表单的更多信息，请参阅本文中的[自定义Forms](#custom-forms)部分。
 
-1. 单击&#x200B;**财务**&#x200B;编辑所有选定项目的财务信息。
+1. 单击&#x200B;**财务**编辑所有选定项目的财务信息。
 有关编辑“财务”区域的详细信息，请参阅本文中的[财务](#finance)部分。
-1. 单击&#x200B;**项目设置**&#x200B;可编辑所有选定项目的设置。
+1. 单击&#x200B;**项目设置**可编辑所有选定项目的设置。
 有关编辑“项目设置”区域的详细信息，请参阅本文中的[项目设置](#project-settings)部分。
-1. 单击&#x200B;**任务设置**&#x200B;可编辑所有选定项目的任务设置。
+1. 单击&#x200B;**任务设置**可编辑所有选定项目的任务设置。
 有关编辑“任务设置”区域的详细信息，请参阅本文中的[任务设置](#task-settings)部分。
-1. 单击&#x200B;**问题设置**&#x200B;可编辑所有选定项目的问题设置。
+1. 单击&#x200B;**问题设置**可编辑所有选定项目的问题设置。
 有关编辑“问题设置”区域的详细信息，请参阅本文中的[问题设置](#issue-settings)部分。
-1. 单击&#x200B;**访问**&#x200B;可编辑所有选定项目的访问设置。
+1. 单击&#x200B;**访问**可编辑所有选定项目的访问设置。
 有关编辑“访问”区域的详细信息，请参阅本文中的[访问](#access)部分。
 1. 单击&#x200B;**评论**，然后在提供的空间中添加评论。 Workfront在每个项目的&#x200B;**更新**&#x200B;区域中添加注释。 有关更新工作的信息，请参阅[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 1. （可选）要删除您在“编辑项目”框中添加的任何信息，请将鼠标悬停在已编辑的字段上，然后单击该字段右上角的&#x200B;**x**&#x200B;放弃图标。

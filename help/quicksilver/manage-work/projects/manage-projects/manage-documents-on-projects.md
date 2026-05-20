@@ -6,9 +6,9 @@ description: 根据您的Workfront管理员是否选择将文档存储在旧版W
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '1886'
+source-wordcount: '1920'
 ht-degree: 0%
 
 ---
@@ -154,8 +154,10 @@ Not sure we need these since this became an overview article:
 
 * 创建Adobe云存储程序时，Workfront会在程序的“文档”部分创建一个用于存储文档的文件夹。 文件夹名称与项目的名称相同。 无法删除或手动重命名文件夹。 如果更改项目名称，将重命名文件夹，以匹配项目的新名称。
 
-* 将Adobe云存储项目添加到旧版Workfront存储程序，并且该程序没有附加任何文档时，该项目将转换为Adobe云存储程序。
-* 当您将Adobe云存储项目添加到旧版Workfront存储项目，并且该项目具有附加文档时，该项目文档存储仍保留在Workfront存储中。 但是，程序![旧版项目组合存储图标](assets/legacy-storage-project-icon.png)的旧版Workfront存储图标已从程序中删除。
+* 将Adobe云存储项目添加到旧版Workfront存储程序，并且该程序没有附加任何文档时，该项目将转换为Adobe云存储程序。 项目的组合也将转换。
+* 当您将Adobe云存储项目添加到旧版Workfront存储项目，并且该项目具有附加文档时，该项目文档存储仍保留在Workfront存储中。 如果产品组合还具有文档，则其文档存储也保留在Workfront存储中；否则，产品组合将转换为Adobe云存储。
+
+  程序![旧产品组合存储图标](assets/legacy-storage-project-icon.png)的旧版Workfront存储图标已从程序中删除。
 * 您无法将旧版Workfront存储项目添加到Adobe云存储项目。
 
 * 当您使用Workfront Planning自动化创建程序时，Workfront会使用您系统的默认程序存储首选项。 您必须购买Planning包才能访问Workfront Planning。
@@ -199,8 +201,8 @@ Not sure we need these since this became an overview article:
 
 * 创建Adobe云存储模板时，Workfront会在模板的“文档”部分中创建一个用于存储文档的文件夹。 文件夹名称与程序同名。 无法删除或手动重命名文件夹。 如果更改了模板的名称，将重命名文件夹，以匹配模板的新名称。
 * 您可以使用旧版Workfront存储模板来创建旧版Workfront存储项目；也可以使用Adobe云存储模板来创建Adobe云存储项目。
-* 您可以将旧版Workfront存储模板附加到Adobe云存储项目，这不会更改该项目的存储位置。
-* 您可以将Adobe云存储模板附加到旧版Workfront存储项目，这不会更改该项目的存储位置。 模板的Adobe cloud storage文件夹中的文档直接添加到项目中，而不是添加到文件夹，而模板任务文件夹中的文档则添加到任务的“文档”部分中附加到项目任务的文件夹中。
+* 您可以将旧版Workfront存储模板附加到Adobe云存储项目，这不会更改该项目上文档的存储位置。
+* 您可以将Adobe云存储模板附加到旧版Workfront存储项目，这不会更改该项目上文档的存储位置。 模板的Adobe cloud storage文件夹中的文档直接添加到项目中，而不是添加到文件夹，而模板任务文件夹中的文档则添加到任务的“文档”部分中附加到项目任务的文件夹中。
 
 ### 模板任务的文档管理
 
