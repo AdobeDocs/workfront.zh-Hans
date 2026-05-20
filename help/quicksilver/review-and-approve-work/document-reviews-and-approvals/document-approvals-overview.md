@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 12242501adb13cd349a2282996c7186e90d6c94d
 workflow-type: tm+mt
-source-wordcount: '3914'
+source-wordcount: '3928'
 ht-degree: 0%
 
 ---
@@ -79,11 +79,11 @@ Adobe云存储的主要优势包括：
 
 #### Frame.io查看器支持的文件类型
 
-Frame.io查看器支持所有常见视频、图像、音频、PDF和MS® Office类型。 有关支持的文件的详细列表，请参阅Frame.io[&#128279;](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)上的支持的文件类型。
+Frame.io查看器支持所有常见视频、图像、音频、PDF和MS® Office类型。 有关支持的文件的详细列表，请参阅Frame.io](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)上的[支持的文件类型。
 
 #### Frame.io查看器的访问和许可
 
-Frame.io查看器是所有Workfront审阅和批准工作流的默认查看器。 它自动包含在具有付费许可证的所有Workfront用户中。 使用Frame.io查看器进行审阅和批准不需要其他Frame.io许可证。
+Frame.io查看器是所有Workfront审阅和批准工作流的默认查看器。 它自动包含在所有Workfront用户中，包括分配给审阅或审批的外部用户，无需额外付费。 使用Frame.io查看器进行审阅和批准不需要其他Frame.io许可证。
 
 如果您的组织希望利用此集成中提供的其他Frame.io功能（如将资产直接上传到Frame.io中的项目），则可以购买Frame.io Enterprise许可证。 请联系您的Adobe客户代表以安排演示，并探索完整Frame.io解决方案的优势。
 
@@ -180,7 +180,7 @@ Workfront校对功能在此集成中不可用。
 
 **我是否需要Frame.io许可证才能使用此集成？**
 
-不可以。 对于拥有付费许可证的所有Workfront用户，Frame.io查看器会自动包含在内，无需额外付费。 您不需要单独的Frame.io许可证即可通过Workfront审查和批准资源。
+不可以。 所有Workfront用户均可自动包含Frame.io查看器，而无需支付额外费用，包括受邀查看或批准资源的外部用户。 您不需要单独的Frame.io许可证即可通过Workfront审查和批准资源。
 
 如果您的组织希望访问其他Frame.io功能（如将资产直接上传到Frame.io中的项目），则可以购买Frame.io Enterprise许可证。 请联系您的Adobe客户代表以了解更多信息。
 

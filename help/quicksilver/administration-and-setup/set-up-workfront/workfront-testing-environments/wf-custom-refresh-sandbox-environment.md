@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: ca9663abd511508a327d074c54bde53450af08d5
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1792'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
 >
 >  此外，获取预览Sandbox不需要的自定义刷新Sandbox会额外产生成本。
 >
->  有关预览沙盒的更多信息，请参阅[预览Sandbox环境 [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)。
+>  有关预览沙盒的更多信息，请参阅[预览Sandbox环境 [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)。
 
 ## 访问权限要求
 
@@ -236,7 +236,16 @@ For more information about configuring [!DNL Workfront] with SSO, see [Overview 
 
 * 验证在自定义刷新沙盒环境中不可用。
 
-* 以下通知不可在自定义刷新沙盒环境中使用：
+* 以下通知在“自定义刷新沙盒”环境中不可用：
 
    * 提醒通知
    * 自动延迟或提前提醒通知
+
+### 关于业务规则的说明
+
+Business Rules会刻意从Workfront预览和沙盒环境刷新中排除。 与大多数数据不同， Business Rules被视为特定于环境的配置，与Users类似。 每个环境都可以维护一组针对其目的（例如，测试、开发或生产）而定制的不同规则。
+
+在刷新中包含Business Rules将会覆盖这些配置，可能会中断管理员特意在非生产环境中设置的规则。
+
+如果您需要在环境之间移动Business Rules，请使用“环境升级”，它允许您通过控制时间和范围有选择地传输配置对象。 有关详细信息，请参阅[在Workfront环境之间移动对象的概述](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)。
+
