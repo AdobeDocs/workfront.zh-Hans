@@ -8,9 +8,9 @@ feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '689'
 ht-degree: 2%
 
 ---
@@ -128,27 +128,34 @@ Old:
    <table style="table-layout:auto"> 
     <col> 
     <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL 现有项目]</td> 
-      <td> <p>添加已创建的项目。</p> </td> 
-     </tr> 
-     <tr> 
+    <tbody>
+
+   <tr> 
       <td role="rowheader">[!UICONTROL 新建项目]</td> 
-      <td> <p>添加新项目。 </p> <p>有关创建新项目的详细信息，请参阅<a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">创建项目</a>。 </p> </td> 
+      <td> <p>添加新项目。 </p> <p>有关创建项目的详细信息，请参阅<a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">创建项目</a>。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">&lbrack;！UICONTROL从[!DNL MS Project]导入项目 </td> 
+      <td role="rowheader">[!UICONTROL 新项目（旧版存储）]</td> 
+      <td> <p>添加新的Workfront存储项目。 </p>
+      <p>仅当您的组织同时使用Workfront和Adobe云文档存储时，才会显示选项。 您的Workfront实例可能没有这两种类型的存储。</p>
+       <p>有关创建项目的详细信息，请参阅<a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">创建项目</a>。 </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL New Project from Template]</td> 
+      <td> <p>使用现有模板添加新项目。 </p> <p>有关从模板创建项目的详细信息，请参阅<a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">使用模板创建项目</a>。</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL 导入[!DNL MS Project]] </td> 
       <td> <p>添加您之前从[!DNL MS Project]导出并在计算机上保存的项目。 </p> <p>有关通过从[!DNL Microsoft Project]导入项目来创建新项目的详细信息，请参阅<a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">从[!DNL Microsoft Project]</a>导入项目。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 请求项目]</td> 
       <td> <p>请求批准项目。</p> <p>有关请求项目的信息，请参阅<a href="../../../manage-work/projects/create-projects/request-project.md">请求项目</a>。 </p> </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL New from Template]</td> 
-      <td> <p>使用现有模板添加新项目。 </p> <p>有关从模板创建项目的详细信息，请参阅<a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">使用模板创建项目</a>。</p> </td> 
-     </tr> 
+          <tr> 
+      <td role="rowheader">[!UICONTROL 现有项目]</td> 
+      <td> <p>添加已创建的项目。</p> </td> 
+     </tr>
     </tbody> 
    </table>
 
@@ -160,13 +167,13 @@ Old:
 
    ![添加现有项目](assets/add-existing-projects-to-portfolios-box.png) <!--check this after UI changes-->
 
-1. 在&#x200B;**[!UICONTROL 将项目添加到此Portfolio]**&#x200B;字段中开始键入项目名称，然后在项目出现在列表中时单击它们。 <!--check this after UI changes-->
+1. 在&#x200B;**[!UICONTROL 将项目添加到此项目组合]**&#x200B;字段中开始键入项目名称，然后在项目名称出现在列表中时单击它们。 <!--check this after UI changes-->
 
    您可以添加多个项目。
 
    >[!NOTE]
    >
-   >如果您的组织同时使用旧版Workfront和Adobe云存储来存储文档，则存在以下情况：
+   >当您的组织同时使用旧版Workfront和Adobe云存储来存储文档时，将会出现以下情况：
    >
    >
    >* 当您将Adobe云存储项目添加到旧版Workfront存储产品组合，并且该产品组合没有附加任何文档时，该项目组合将转换为Adobe云存储产品组合。

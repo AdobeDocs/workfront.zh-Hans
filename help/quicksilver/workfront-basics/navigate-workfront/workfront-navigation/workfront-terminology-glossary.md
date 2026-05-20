@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18e899b87eb950222b0d22f41a998a458baa6f49
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '21714'
+source-wordcount: '21829'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 <!--Audited: 04/2026-->
 
-Bob： 4-30
+<!--Bob: 4-30-->
 
 >[!IMPORTANT]
 >
@@ -1436,6 +1436,27 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[!UICONTROL On Change Only]</td> 
    <td> <p>[!UICONTROL 项目更新]类型之一。 选择此选项时，[!UICONTROL 项目预计]和[!UICONTROL 计划]时间表仅在项目或项目中的任务进行了更新或更改时更新。 它不会每晚更新项目。</p> <p>有关详细信息，请参阅<a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">选择项目更新类型</a>。</p> </td> 
+  </tr>
+
+</tr>
+  <tr> 
+   <td>[!UICONTROL 旧版Workfront Storage]</td> 
+   <td>  <p>旧版Workfront存储图标<img src="assets/legacy-storage-project-icon.png">表示某个对象与Workfront文档存储相关联。 </p> 
+   <p>图标显示在对象名称附近、对象标题中或某些列表中。 </p>
+   <p>一些客户同时拥有旧版Workfront和Adobe Cloud文档存储。 对于同时拥有这两种存储类型的客户，文档可以存储在这两种环境中的任一种中。</p>
+   <p>以下对象可以具有Workfront或Adobe cloud文档存储：</p>
+   <ul><li>项目</li>
+   <li>项目组合</li>
+   <li>项目群</li>
+   <li>模板</li>
+   <li>任务</li>
+   <li>问题</li>
+   <li>模板任务</li></ul>
+   <p>只有项目、项目组合、项目和模板可以显示“在旧版Workfront上”存储图标。 </p>
+   <p>您的Workfront实例可能没有这两种类型的文档存储。 
+  <p>有关详细信息，请参阅<a href="/help/quicksilver/review-and-approve-work/esm-overview.md">Adobe云存储概述</a>。 </p>
+
+</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 操作任务]</td> 

@@ -8,10 +8,10 @@ feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '1109'
-ht-degree: 3%
+source-wordcount: '1160'
+ht-degree: 2%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >根据[!DNL Workfront]管理员或组管理员如何修改布局模板，[!UICONTROL 程序详细信息]区域中的字段可能会重新排列或不显示。 有关信息，请参阅[使用布局模板[!UICONTROL 自定义]详细信息](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)视图。
+   >根据[!DNL Workfront]管理员或组管理员如何修改布局模板，[!UICONTROL 程序详细信息]区域中的字段可能会重新排列或不显示。 有关信息，请参阅[使用布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)自定义[!UICONTROL 详细信息]视图。
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the above note will also come to the Edit Program box)</p>
@@ -154,8 +154,17 @@ ht-degree: 3%
      <tr> 
       <td role="rowheader">[!UICONTROL 组]</td> 
       <td> <p>添加单个组的名称（如果该组与项目群相关联或负责完成项目）。 </p> <p><b>提示</b></p>  <p>从[!UICONTROL 程序详细信息]页面访问[!UICONTROL 组]字段时，请执行以下操作以确保选择正确的组： </p> <p>将鼠标悬停在组名称上，然后单击它旁边的[!UICONTROL 信息]图标<img src="assets/info-icon.png">。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>此选项在[!UICONTROL 编辑程序]框中不可用。 </p> </p> </td> 
-     </tr> 
-    </tbody> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">[!UICONTROL 处于活动状态]</td> 
+      <td> <p>如果您希望此项目群处于活动状态，并且用户希望找到它以将其与项目相关联，请选中此设置。</p>
+   <p>取消选中时，项目群不会显示在项目或模板的项目群字段中。 </p>
+   <p>默认情况下，此设置处于选中状态。 </p>
+   </td> 
+     </tr>
+
+   </tbody> 
    </table>
 
    <!--

@@ -8,16 +8,16 @@ feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1449'
 ht-degree: 1%
 
 ---
 
 # 创建项目
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 05/2026-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
@@ -127,17 +127,27 @@ Old:
 
    * 从[!UICONTROL 程序]区域创建程序：
 
-      1. 在主菜单中单击&#x200B;**[!UICONTROL 程序]**。
+      1. 在&#x200B;[!DNL **主菜单**]![主菜单](assets/lines-main-menu.png)中单击&#x200B;**[!UICONTROL 程序]**。
       1. 单击&#x200B;**[!UICONTROL 新建项目]**。
       1. 在显示的框中，在&#x200B;**[!UICONTROL 选择Portfolio]**&#x200B;字段中键入现有Portfolio的名称。
       1. 在&#x200B;**[!UICONTROL 名称]**&#x200B;字段中键入新项目的名称。
       1. 单击&#x200B;**[!UICONTROL 保存]**。
    * 从[!UICONTROL 项目组合]区域创建项目：
 
-      1. 在[!UICONTROL 主菜单]中单击&#x200B;**[!UICONTROL 项目组合]**，然后打开一个项目组合。
+      1. 在&#x200B;[!DNL **主菜单**]![主菜单](assets/lines-main-menu.png)中单击&#x200B;**[!UICONTROL 项目组合]**，然后打开一个项目组合。
       1. 在左侧面板中，单击&#x200B;**[!UICONTROL 程序]**。
       1. 单击&#x200B;**[!UICONTROL 新建项目]**&#x200B;下拉菜单，然后单击&#x200B;**[!UICONTROL 新建项目]**。
+   * 添加现有程序：
+      1. 在&#x200B;[!DNL **主菜单**]![主菜单](assets/lines-main-menu.png)中单击&#x200B;**[!UICONTROL 项目组合]**，然后打开一个项目组合。
+      1. 在左侧面板中，单击&#x200B;**[!UICONTROL 程序]**。
+      1. 单击&#x200B;**[!UICONTROL 新建程序]**&#x200B;下拉菜单，然后单击&#x200B;**[!UICONTROL 现有程序]**。
+      1. 开始键入现有项目的名称，或单击下拉菜单并从列表中选择现有项目。
 
+     >[!NOTE]
+     >
+     >如果贵组织同时使用Workfront旧版和Adobe Cloud文档存储，则无法将存储类型与项目不同的项目添加到项目中。
+     >您的Workfront实例可能没有这两种类型的文档存储。
+     >有关信息，请参阅[项目和相关对象的文档管理概述](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
 1. （视情况而定）如果您是从项目组合创建项目群，请在&#x200B;**[!UICONTROL 无标题项目群]**&#x200B;字段中指定项目群的名称。
 
@@ -172,13 +182,20 @@ Old:
       <td role="rowheader">[!UICONTROL 项目管理器]</td> 
       <td> <p>开始键入要充当项目管理员的用户名，然后在用户名出现在下拉列表中时单击该用户名。 这与[!UICONTROL 项目所有者]相同。 </p> <p>提示：您也可以在项目标题中更新项目管理器。 </p> </td> 
      </tr> 
-     <tr data-mc-conditions=""> 
+     <tr> 
       <td role="rowheader">[!UICONTROL 组] </td> 
       <td> <p>添加单个组的名称（如果该组拥有项目或负责完成项目）。 </p> <p>您可以通过将鼠标悬停在该组上并单击其旁边显示的[!UICONTROL 信息]图标<img src="assets/info-icon.png">来确保选择正确的组。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。</p> 
-       <div data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-        <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> 
-       </div> </td> 
-     </tr> 
+       <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> 
+        </td> 
+     </tr>
+
+</tr> 
+   <tr> 
+   <td role="rowheader">[!UICONTROL 处于活动状态] </td> 
+   <td> <p>如果您希望此项目群处于活动状态，并且用户希望找到它以将其与项目相关联，请选中此设置。</p>
+   <p>取消选中时，项目群不会显示在项目或模板的项目群字段中。 </p> 
+ </td> 
+   </tr> 
     </tbody> 
    </table>
 
@@ -210,7 +227,7 @@ Old:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">标题信息</td> 
+   <td role="rowheader"><strong>标题信息</strong></td> 
    <td> <strong>注释</strong> </td> 
   </tr> 
   <tr> 
@@ -223,19 +240,20 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader">对象类型和激活状态的名称</td> 
-   <td>当您查看项目时，“项目”一词会显示一个橙色图标。 单词“[!UICONTROL 已停用]”显示在旁边，如果程序未标记为[!UICONTROL 活动]，则大纲为灰色。 </td> 
+   <td>当您查看项目时，“项目”一词会显示一个橙色图标。 如果程序未在[!UICONTROL **程序详细信息**]区域标记为[!UICONTROL 处于活动状态]，则单词“[!UICONTROL 已停用]”会显示在该程序旁边。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">计划的操作区域 </td> 
    <td> <p>单击以下任一选项以访问程序的更多信息或编辑选项：</p> 
     <ul> 
      <li>星形图标，用于将程序添加到收藏夹列表</li> 
+     <li>用于与其他人共享的[!UICONTROL **Share**]按钮</li> 
      <li> <p>[!UICONTROL More]菜单<img src="assets/qs-more-menu.png">用于执行以下操作之一： </p> 
       <ul> 
        <li>编辑项目</li> 
        <li>取消激活它。 停用项目群时，您无法再将其与项目级别的项目关联。 </li> 
        <li> <p>删除它。 删除项目群不会删除项目群中的项目。 它删除项目与项目的关联。 </p> </li> 
-       <li>与其他人共享</li> 
+       <li>重新计算程序的表达式。 这会重新计算程序自定义表单上的所有已计算自定义字段。 </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
