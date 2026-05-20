@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 34861693e7671c3e485668ab7887a4cd05ae6e99
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '1020'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 项目协调员可以在Workfront中创建项目和计划工作。 在启用了Frame.io集成的实例中创建的项目，将利用Adobe云存储，从而允许在Adobe生态系统中存储和管理资产。
 
-如果您的组织具有Frame.io Enterprise许可证，则在Workfront中创建的项目也可在Frame.io中看到，从而允许用户在任何一个产品中进行交互和上传资源。
+如果您的组织具有Frame.io Enterprise许可证，则在Workfront中创建的项目也可在Frame.io中看到，从而允许用户在任何一个产品中进行交互和上传资源。 在Frame.io中，所有Workfront链接的项目都分组到名为&#x200B;**Workfront链接项目**&#x200B;的单个Workspace中。 有关链接的项目在Frame.io中的显示方式和行为的详细信息，请参阅Frame.io文档中的[Adobe Workfront集成概述](https://help.frame.io/en/articles/12242607-adobe-workfront-integration-overview)。
 
 有关Adobe云存储或Frame.io中的项目的信息，请参阅
 
