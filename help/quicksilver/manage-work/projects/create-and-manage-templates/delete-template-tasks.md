@@ -9,9 +9,9 @@ feature: Work Management
 exl-id: dd733e9f-8045-4b65-828b-fe6aa40d973f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 35cf3692f0fd93b8835755c316e14efc99af3fb8
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '285'
 ht-degree: 8%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->无法恢复已删除的模板任务。 您可以恢复模板，该模板也会恢复模板上的所有任务。 如果删除模板任务（而非模板），则永远无法恢复它们。
+>无法恢复已删除的模板任务及其附加信息（分配、文档、批准）。 您可以恢复模板，该模板也会恢复模板上的所有任务。 如果删除模板任务（而非模板），则永远无法恢复它们。
 
 
 ## 访问权限要求

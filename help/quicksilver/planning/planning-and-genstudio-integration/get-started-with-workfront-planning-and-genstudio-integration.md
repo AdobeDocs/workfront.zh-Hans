@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
+source-git-commit: 35cf3692f0fd93b8835755c316e14efc99af3fb8
 workflow-type: tm+mt
-source-wordcount: '2194'
+source-wordcount: '2222'
 ht-degree: 1%
 
 ---
@@ -115,7 +115,7 @@ No longer needed to specify:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing用户角色</p></td> 
    <td><p><ul><li>用于访问营销活动、产品和角色的任何GenStudio用户角色</li>
    <li>GenSudio System Manager访问激活 <!--and Events--></li></ul>
-   有关信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">用户角色和权限</a>。 
+   有关信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">用户角色和权限</a>。 
    </p>
   </td> 
   </tr>   
@@ -171,7 +171,7 @@ Old:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****and Events****</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -376,13 +376,15 @@ Old for the second row in the table:
 
 您可以在具有“管理”权限的GenStudio工作区中的记录类型之间创建连接。
 
+<!--When AEM object types are connected to GenStudio record types, AEM object metadata reflects on Planning records-->
+
 您可以在GenStudio记录类型与Workfront Planning中的其他记录或对象类型之间建立以下连接：
 
 * 两种GenStudio记录类型
 * 来自同一工作区的GenStudio记录类型和Planning记录类型
 * 如果记录类型配置为从另一个工作区连接，则为来自另一个工作区的GenStudio记录类型和Planning记录类型。
 * GenStudio记录类型和Workfront对象类型（项目、项目组合、项目、公司、组）
-* GenStudio记录类型和AEM对象类型。
+* GenStudio记录类型和AEM对象类型。 除了Workfont Planning和Adobe GenStudio for Performance Marketing的许可证外，您必须拥有Adobe Experience Manager的许可证才能访问AEM对象。
 * GenStudio记录类型和GenStudio Brands。 默认情况下，Brands连接会添加到Products和Personas记录类型中。
 
 ### GenStudio记录类型的请求表单和自动化
