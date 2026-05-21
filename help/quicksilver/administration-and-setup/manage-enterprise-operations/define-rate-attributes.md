@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d570ef6a-935f-4dd0-9c54-a480163ec9d8
-source-git-commit: d5346953162f82f0c1b35d623a0b47104127918d
+source-git-commit: 606ed09cef82c5cef853fea990b0d3a235534b84
 workflow-type: tm+mt
 source-wordcount: '1390'
 ht-degree: 1%
@@ -111,11 +111,11 @@ BULLET POINT Non-labor resources: Attributes can also be defined on resources su
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p></td>
+   <td><p>[！UICONTROL标准版]</p></td>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -202,3 +202,4 @@ BULLET POINT Non-labor resources: Attributes can also be defined on resources su
    * （仅限属性筛选器类型） **引用字段**：引用的属性上必须匹配的字段，如机构ID。
 
 1. 单击每个属性上的&#x200B;**保存**&#x200B;以保存属性和筛选器。
+
