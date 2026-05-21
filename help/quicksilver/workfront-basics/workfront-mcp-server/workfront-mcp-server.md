@@ -5,9 +5,9 @@ description: 请参阅有关Adobe Workfront MCP服务器的可用文章列表。
 author: Courtney
 feature: Get Started with Workfront
 hide: true
-source-git-commit: 4517d45ecc653d27d435a8192a612241120dd33f
+source-git-commit: 152486b7850e01f3de23f22bbe3729c5cd3d3aa2
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '50'
 ht-degree: 0%
 
 ---
@@ -19,3 +19,4 @@ ht-degree: 0%
 * [Adobe Workfront MCP服务器概述](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-overview.md)
 * [配置Adobe Workfront MCP服务器](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)
 * [使用Adobe Workfront MCP服务器](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)
+* [Adobe Workfront MCP服务器工具](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md)
