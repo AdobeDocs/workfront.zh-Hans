@@ -87,7 +87,7 @@ ht-degree: 4%
             <td><strong>每季度</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">费率属性一旦用于费率就无法编辑</a><p>[！BADGE Off Schedule]{type=Neutral}</p><p>[！BADGE Workflow Ultimate]{type=Informational}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">费率属性一旦用于费率就无法编辑</a><p>[!BADGE Off Schedule]{type=Neutral}</p><p>[!BADGE Workflow Ultimate]{type=Informational}</p>
                 <p>将属性添加到Workfront中的费率后，您将无法在“设置”区域中编辑该属性及其过滤器。 这样可保持数据完整性，并防止在属性更新时意外更改速率。</p>
             </td>
             <td><p>2026年5月21日</p></td>
@@ -135,7 +135,7 @@ ht-degree: 4%
             <td><strong>每季度</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">预定义视图已添加到“请求”区域和“我的请求”小组件中的请求列表中</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">预定义视图已添加到“请求”区域和“我的请求”小组件中的请求列表中</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>为了帮助您更好地组织请求列表，我们已将预定义视图添加到请求区域的请求列表中，并在主页添加了我的请求构件。</p>
             </td>
             <td><p>2026年4月23日</p></td>
