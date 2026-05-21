@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d570ef6a-935f-4dd0-9c54-a480163ec9d8
-source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
+source-git-commit: d5346953162f82f0c1b35d623a0b47104127918d
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1390'
 ht-degree: 1%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 1%
 费率属性允许您在工作角色之外向费率添加其他维度，从而扩展Adobe Workfront的费率卡和费率功能。 这对于机构和企业而言至关重要，因为它们的费率不仅因工作角色而异，还因代理、地点、品牌、成本中心等因素而异。
 通过组合这些属性，Workfront可以自动选择正确的分配率，确保财务准确性和项目间的一致性。
 
+费率属性旨在作为一次性基础设置。
+
 >[!IMPORTANT]
 >
->费率属性是一次性基本设置。
-
-一旦启用属性并将其应用于费率卡和费率，以后更改它们可能会危害整个财务设置中的数据完整性。
+>一旦启用了费率属性并将其应用于费率卡和费率，您就无法编辑它们。 这可以保持财务设置的数据完整性。
 
 ## 费率属性概览
 
@@ -111,11 +111,11 @@ BULLET POINT Non-labor resources: Attributes can also be defined on resources su
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p></td>
+   <td><p>[！UICONTROL标准版]</p></td>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
  </tbody> 
 </table>
