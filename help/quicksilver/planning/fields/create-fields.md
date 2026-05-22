@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 795d115e7a745de052b462ba444425136a3d4953
+source-git-commit: 0fc7a16640d134b6f524a30929ed6f3041f12e31
 workflow-type: tm+mt
-source-wordcount: '5655'
+source-wordcount: '5192'
 ht-degree: 1%
 
 ---
@@ -251,10 +251,14 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
    * [创建日期](#created-date)
    * [上次修改者](#last-modified-by)
    * [上次修改日期](#last-modified-date)
-   * [批准日期](#approved-date)
-   * [批准者](#approved-by)
-   * [记录ID](#record-id)
-     <!--* [Object](#object-field-type)-->
+   * [记录 ID](#record-id)
+   <!--
+    * [Approved date](#approved-date)
+    * [Approved by](#approved-by)
+    -->
+   <!--
+    * [Object](#object-field-type)
+    -->
 
    >[!IMPORTANT]
    >
@@ -754,66 +758,69 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 1. 单击&#x200B;**创建**。
 
    新的“上次修改日期 — 类型”字段作为列添加到记录类型中，其值预填充有上次修改记录的日期（或日期和时间）。
+<!--
 
-### 批准日期
+### Approved date
 
-您可以使用批准日期字段类型添加请求获得批准并导致创建记录的日期。 此字段为只读字段，会自动使用上次批准者批准请求的日期(以及（可选）时间填充。 在这种情况下，审批日期应与创建记录的日期一致。
-
->[!TIP]
->
->“批准日期”字段将仅针对通过提交与批准者关联的请求表单而创建的记录填充信息。
->
->如果表单与多个审批者关联，则在“审批日期”字段中仅记录上次审批决策的日期。
-
-1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**创建日期**&#x200B;字段类型。
-
-   ![批准的日期字段类型](assets/approved-date-field-type.png)
-
-   1. 在&#x200B;**新建字段**&#x200B;选项卡中添加以下信息：
-
-   * **名称**：字段的名称，它将显示在表或记录页中。
-   * **描述**：有关该字段的其他信息。 当您将鼠标悬停在表中的字段列上时，或者在记录的详细信息页面中单击字段名称旁边的信息图标时，将显示字段的描述。
-   * **日期格式**：从以下格式中选择：
-
-      * **区域设置**：与浏览器的区域设置匹配。
-      * **标准**： 05/16/2023
-      * **长**：2023年5月16日
-      * **欧洲**： 16/05/2023
-      * **ISO**： 2023-05-16
-
-   * **包含时间**：如果要包含时间戳，请选择此选项。 默认情况下，该选项处于未选中状态。 保存字段后不能包含时间。
-
-     从以下选项中选择：
-
-      * **24hr**：例如： 18:00
-      * **12hr**：例如：下午6:00
-
-1. 单击&#x200B;**创建**。
-
-   新的“已批准”日期类型字段将作为列添加到记录类型中，如果记录是通过提交与批准者关联的请求创建的，则其值将预先填充有批准记录请求的日期（或日期和时间）。
-
-### 批准者
-
-您可以使用“批准者”字段类型添加上次批准请求的用户以创建记录。 此字段为只读字段，并且会自动使用批准创建记录的请求的用户的名称填充。
+You can use the Approved date field type to add the date when a request was approved and it resulted in the creation of the record. This is a read-only field, and it automatically populates with the date (and optionally with the time) when the request was approved by the last approver. In this case, the approval date should coincide with the date the record was created. 
 
 >[!TIP]
 >
->“批准者”字段将仅针对通过提交与批准者关联的请求表单创建的记录填充信息。
+>The Approved date field populates with information only for records that were created by submitting a request form associated with approvers. 
 >
->如果该表单与多个批准者关联，则所有批准者的名称都将记录在批准日期字段中，并用逗号分隔。
+>If the form is associated with more than one approver, only the date of the last approval decision is recorded in the Approved date field.
 
-1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**由**&#x200B;批准字段类型。
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Created date** field type.
+ 
+   ![Approved date field type](assets/approved-date-field-type.png)
 
-   ![由字段类型批准](assets/approved-by-field-type.png)
+   1. Add the following information in the **New field** tab:
 
-1. 在&#x200B;**新建字段**&#x200B;选项卡中添加以下信息：
+     * **Name**: The name of the field, as it will appear in a table or the record page. 
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
+     * **Date Format**: Select from the following formats:
 
-   * **名称**：字段的名称，它将显示在表或记录页中。
-   * **描述**：有关该字段的其他信息。 当您将鼠标悬停在表中的字段列上时，或者在记录的详细信息页面中单击字段名称旁边的信息图标时，将显示字段的描述。
+        * **Locale**: Matches the locale of your browser.
+        * **Standard**: 05/16/2023
+        * **Long**: May 16, 2023
+        * **European**: 16/05/2023
+        * **ISO**: 2023-05-16
+     
+     * **Include time**: Select this option if you want to include a time stamp. This is unselected by default. You cannot include a time after you save the field.  
+    
+        Select from the following options:
+        
+        * **24hr**: For example: 18:00
+        * **12hr**: For example: 6:00 PM 
+    
+1. Click **Create**.
 
-1. 单击&#x200B;**创建**。
+    The new Approved date-type field is added as a column to the record type and its values are prefilled with the date (or date and time) when the record request was approved, if the record was created by submitting a request associated with approvers. 
 
-   新的Approved by-type字段作为列添加到记录类型，其值预填充有上次修改每个记录的用户的名称。
+### Approved by
+
+You can use the Approved by field type to add the user who last approved the request to create a record. This is a read-only field, and it automatically populates with the name of the user who approved the request to create the record.
+
+>[!TIP]
+>
+>The Approved by field populates with information only for records that were created by submitting a request form associated with approvers.
+>
+>If the form is associated with more than one approver, the name of all approvers are recorded in the Approved date field, separated by commas.
+ 
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Approved by** field type.
+ 
+   ![Approved by field type](assets/approved-by-field-type.png)
+
+1. Add the following information in the **New field** tab:
+
+     * **Name**: The name of the field, as it will appear in a table or the record page. 
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
+    
+1. Click **Create**.
+
+    The new Approved by-type field is added as a column to the record type and its values are prefilled with the name of the user who last modified each record.  
+
+-->
 
 ## 记录 ID
 

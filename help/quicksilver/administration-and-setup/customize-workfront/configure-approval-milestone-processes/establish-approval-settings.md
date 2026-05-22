@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: 作为Adobe Workfront管理员，您可以在Workfront中确定批准流程的全局设置。 这些设置影响系统中的所有工作项批准流程。
-author: Alina
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
-source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
+source-git-commit: 0fc7a16640d134b6f524a30929ed6f3041f12e31
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 2%
+source-wordcount: '835'
+ht-degree: 4%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 2%
 
 作为Adobe Workfront管理员，您可以在Workfront中确定批准流程的全局设置。 这些设置影响系统中的所有工作项批准流程。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -30,21 +30,23 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
-   <td>任何</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td>“任一”</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td>规划</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td><p>规划</p>
+   <p>标准<p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>您必须是系统管理员或拥有对审批流程具有管理访问权限的计划许可证</p> <p><b>注意</b>：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>您必须是系统管理员或拥有对审批流程具有管理访问权限的计划许可证</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -54,7 +56,7 @@ ht-degree: 2%
 
 1. 单击&#x200B;**进程** > **审批**。
 
-1. 单击&#x200B;**审批**&#x200B;区域名称旁边的![设置](assets/gear-icon-settings.png)图标&#x200B;**齿轮设置图标**。
+1. 单击&#x200B;**审批**&#x200B;区域名称旁边的&#x200B;**设置**&#x200B;图标![齿轮设置图标](assets/gear-icon-settings.png)。
 
 1. 在出现的&#x200B;**审批设置**&#x200B;框中，指定以下信息：
 
