@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ee971729c414018a04b1d1fc2a59760e9ea0a59a
+source-git-commit: dbed69be1a57571e6c0701b7370e20be323037fe
 workflow-type: tm+mt
-source-wordcount: '21832'
+source-wordcount: '21952'
 ht-degree: 0%
 
 ---
@@ -686,6 +686,10 @@ ht-degree: 0%
    <td>位于屏幕左侧的菜单，在该菜单上，项目会更改为与活动内容相关联。 例如，当用户查看项目时，[!UICONTROL 上下文菜单]将显示指向与项目相关的信息和工具的链接。</td> 
   </tr> 
   <tr> 
+   <td>[!UICONTROL 参与者]</td> 
+   <td><p>通常为许可证类型。 具有[!UICONTROL Contributor]许可证的用户可以提交请求，以便在系统中进行新工作。</p> <p>有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">访问级别概述</a>。</p></td> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL 转换的问题发起人]</td> 
    <td>项目或任务报告中的字段，用于显示问题转化为项目或任务时作为问题的[!UICONTROL 主要联系人]的用户的相关信息。 该字段还显示在[!UICONTROL 项目详细信息]部分中，其中显示已转换问题的[!UICONTROL 主要联系人]的名称。 另请参阅本文中的“[!UICONTROL 主要联系人]”。</td> 
   </tr> 
@@ -1276,6 +1280,10 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[!UICONTROL 许可证限制工作]</td> 
    <td> <p>在[!UICONTROL 组]视图或报表中，此字段显示可分配给将相应组指定为[!UICONTROL 主组]的用户的[!UICONTROL 工作]许可证的最大数量。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Light]</td> 
+   <td><p>通常为许可证类型。 具有[!UICONTROL Light]许可证的用户能够审查和批准系统中的工作项。</p> <p>有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">访问级别概述</a>。</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 受限用户]</td> 
@@ -2147,7 +2155,11 @@ The designated full time equivalency for users. A full-time user should have 100
     <li>问题报告的“项目名称”或“任务名称”列。 </li> </ul>
     有关详细信息，请参阅<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md">以其他用户的访问权限运行并交付报告</a> 
    </td> 
-  </tr> 
+  </tr>
+  <tr>
+   <td>[!UICONTROL 标准版]</td> 
+   <td> <p>这是[!DNL Workfront]系统中的完整许可证类型。 用户必须具有此项才能访问[!DNL Workfront]中的所有功能。</p><p>对于此模型中的许可证，没有等效的“工作”。 以前拥有工作许可证的用户将成为拥有该许可证所有功能的标准用户。</p> <p>有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">访问级别概述</a>。</p> </td> 
+  </tr>  
   <tr> 
    <td>[!UICONTROL 开始日期]</td> 
    <td> <p>项目工作的开始日期。 [!DNL Workfront]中有几个开始日期： </p> 
@@ -2584,3 +2596,4 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
  </tbody> 
 </table>
+
