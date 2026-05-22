@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: 0fc7a16640d134b6f524a30929ed6f3041f12e31
 workflow-type: tm+mt
-source-wordcount: '3503'
+source-wordcount: '3551'
 ht-degree: 2%
 
 ---
@@ -145,7 +145,7 @@ Old:
 </table>
 -->
 
-## Edit records using the table view
+## 使用表视图编辑记录
 
 只能在表格视图中编辑记录信息。
 
@@ -251,7 +251,7 @@ Old:
 
    1. 在&#x200B;**搜索**&#x200B;框![搜索图标](assets/search-icon.png)中，开始键入与屏幕上显示的记录的任何字段相关联的关键字。 正确匹配的数量显示在搜索项目旁边，具有正确匹配的字段会高亮显示。
 
-      ![Search box with results blue outline in table view](assets/search-box-with-results-blue-outline-table-view.png)
+      ![在表视图中具有结果蓝色轮廓的搜索框](assets/search-box-with-results-blue-outline-table-view.png)
 
       您可以使用屏幕上可见的任何单词或特殊字符。
 
@@ -402,7 +402,7 @@ Old:
 
       ![视图中的多层筛选器](assets/multi-tiered-filters-in-views.png)
 
-   系统会自动过滤记录列表。 <!--at this time, you can't name and save the filter - but will this change?!-->
+   系统会自动过滤记录列表。  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. （可选）单击&#x200B;**x**&#x200B;图标可删除筛选条件。
@@ -414,7 +414,7 @@ Old:
 
 您可以对以下信息进行排序：
 
-* 表格视图中的所有记录。<!--or timeline view. ***********verify this is the case for the timeline view*********************-->
+* 表格视图中的所有记录。 <!--or timeline view. ***********verify this is the case for the timeline view*********************-->
   <!--* All groupings. - this is not available yet-->
 
 在表视图中排序记录时，请考虑以下事项：
@@ -480,7 +480,7 @@ Old:
 
 * 可以在表格视图和时间线视图中应用分组。 表格视图的分组独立于相同记录类型的时间线视图中的分组。
 * 您可以在视图中应用3个级别的分组。 这些记录按您选择的分组顺序分组。
-&lt;!—*在使用API时，您最多可以应用4个级别的分组。  — 现在查看此项 — >
+&lt;！—！—*使用API时，您最多可以应用4个级别的分组。  — 现在查看此项 — >
 * 这些分组对于您选择的视图是唯一的。 同一记录类型的两个表视图可以应用不同的分组。 查看同一表格视图的两个用户会看到当前应用的相同分组。
 * 不能为表视图命名您构建的分组。
 * 删除分组会将其从与您访问相同记录类型以及显示与您相同视图的任何人中删除。
@@ -574,7 +574,7 @@ To sort grouped records:
    >
    >* 如果“应用到整行”设置处于关闭状态，则只有“主”字段的左侧显示具有选定颜色的窄颜色指示器。 默认情况下，该设置处于关闭状态。
    >
-   >* 在表格视图中选择了至少一个分组时，不能将行颜色应用到整行。
+   >* 在表格视图中选择了至少一个分组时，不能将行颜色应用到整行。 将分组应用于表时，角色颜色仅应用于主字段单元格的左侧。
 
 1. 单击&#x200B;**行颜色**&#x200B;框外部以将其关闭。 颜色会自动应用。
 
