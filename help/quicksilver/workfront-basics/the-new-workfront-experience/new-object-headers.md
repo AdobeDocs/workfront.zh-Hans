@@ -8,9 +8,9 @@ author: Courtney
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '3697'
+source-wordcount: '3702'
 ht-degree: 0%
 
 ---
@@ -700,7 +700,7 @@ The following headers are available in Home:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 许可证正在使用中] </td> 
-   <td> <p>[!UICONTROL 正在使用的许可证]框显示组及其子组中[!UICONTROL 计划]和[!UICONTROL 工作]许可证用户的数量。 您可以单击编号查看所有5种许可证类型的此信息。</p> <p>有关详细信息，请参阅<a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md" class="MCXref xref">查看新[!DNL Adobe Workfront]体验</a>中组内分配和使用许可证的数量。</p> </td> 
+   <td> <p>[!UICONTROL 正在使用的许可证]框显示组及其子组中[!UICONTROL 标准]或[!UICONTROL 计划]和[!UICONTROL 工作]许可证用户的数量。 您可以单击编号查看所有许可证类型的相关信息。</p> <p>有关详细信息，请参阅<a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md" class="MCXref xref">查看群组中已分配和使用许可证的数量</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 组管理员]</td> 
@@ -747,7 +747,7 @@ The following headers are available in Home:
   </tr> 
   <tr> 
    <td role="rowheader">审批[!UICONTROL 决策]区域</td> 
-   <td> [!UICONTROL Decisions]区域显示在文档标题的右上角。此区域因审批阶段以及您是审批者、审阅者还是既非审批者而有所不同。 <ul><li> <p>如果您是批准者，则可以使用以下图标管理文档的批准：</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL 批准]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL 召回]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL 拒绝]</p> <p>有关批准决定的详细信息，请参阅<a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">批准工作</a>。</li><li><p>如果您是审阅人，则可以单击“完成我的审阅”按钮以指示您已审阅文档。</p><p>有关审阅文档的更多信息，请参阅<a href="../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md" class="MCXref xref">审阅文档</a>。</p></li><li>否则，此区域显示文档的当前审阅和审批状态。</li><ul></p> </td> 
+   <td> [!UICONTROL Decisions]区域显示在文档标题的右上角。根据批准阶段以及您是批准者、审阅者还是既非批准者，此区域会有所不同。 <ul><li> <p>如果您是批准者，则可以使用以下图标管理文档的批准：</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL 批准]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL 召回]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL 拒绝]</p> <p>有关批准决定的详细信息，请参阅<a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">批准工作</a>。</li><li><p>如果您是审阅人，则可以单击“完成我的审阅”按钮以指示您已审阅文档。</p><p>有关审阅文档的更多信息，请参阅<a href="../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md" class="MCXref xref">审阅文档</a>。</p></li><li>否则，此区域显示文档的当前审阅和审批状态。</li><ul></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -922,7 +922,7 @@ The following headers are available in Home:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 状态]</td> 
-   <td>指示目标处于活动状态、新建状态还是关闭状态。 您无法手动更新目标状态。 有关详细信息，请参阅<a href="../../workfront-goals/goal-management/goal-status-overview.md" class="MCXref xref">中的[!DNL Adobe Workfront Goals]</a>目标状态概述</td> 
+   <td>指示目标处于活动状态、新建状态还是关闭状态。 您无法手动更新目标状态。 有关详细信息，请参阅[!DNL Adobe Workfront Goals]</a>中的<a href="../../workfront-goals/goal-management/goal-status-overview.md" class="MCXref xref">目标状态概述</td> 
   </tr> 
  </tbody> 
 </table>

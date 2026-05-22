@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51967cd7-962e-4354-a04b-6df4e31e70c6
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '992'
 ht-degree: 5%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 5%
 
 如果您的组之上存在任何组，则其管理员还可以为您的组执行这些操作。 Workfront管理员也是如此（适用于任何组）。
 
-有关拥有Plan许可证的用户如何创建团队的信息，请参阅[创建团队](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md)。
+有关具有Standard或Plan许可证的用户如何创建团队的信息，请参阅[创建团队](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md)。
 
 有关Workfront管理员如何创建团队的信息，请参阅[从设置区域创建团队](../../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)。
 
@@ -35,7 +35,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 包</td> 
-   <td><p>任何</p></td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 

@@ -10,9 +10,9 @@ role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '2213'
+source-wordcount: '2231'
 ht-degree: 3%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 3%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包*</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td><p>对于系统级或一次性审批流程：</p><ul><li><p>任何包</p></li></ul>
    <p>对于组级审批流程：</p>
    <ul><li><p>工作流Prime或Ultimate</p></li>
@@ -73,7 +73,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-*有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -176,7 +176,7 @@ For more detail about the information in this table, see [Access requirements in
        <ul> 
        <li> 如果选择<b>所有组</b>，则只有系统范围状态可用
        <li> <p>如果选择了特定组，则仅对该组可用的状态可用</p> </li> 
-       </ul> <p>有关审批流程如何处理状态的信息，请参阅文章<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">审批流程概述</a>中的<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">审批流程如何依赖状态</a>部分。</p> </td> 
+       </ul> <p>有关审批流程如何处理状态的信息，请参阅文章<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">审批流程概述</a>中的<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">审批流程如何依赖状态</a>部分。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">阶段名称</td> 
@@ -219,7 +219,7 @@ For more detail about the information in this table, see [Access requirements in
       <td role="rowheader">选择批准被拒绝时发生的情况</p> </td> 
       <td> <p>选择当工作项在路径的任何阶段被拒绝时要执行的操作：</p> 
        <ul> 
-       <li><b>创建问题</b>：（仅适用于项目和任务审批流程）在运行审批流程的项目或任务中创建问题。 任务的默认已分配资源，或项目的所有者已分配给问题。 默认情况下，创建的问题名称为<b>已拒绝审批（&lt;项目或任务名称&gt;）</b>。 这是一个拒绝问题，在任务或项目下输入，具体取决于发生拒绝的审批流程。</li> 
+       <li><b>创建问题</b>：（仅适用于项目和任务审批流程）在运行审批流程的项目或任务中创建问题。 任务的默认已分配资源，或项目的所有者已分配给问题。 默认情况下，所创建问题的名称为<b>已拒绝审批（&lt;项目或任务名称&gt;）</b>。 这是一个拒绝问题，在任务或项目下输入，具体取决于发生拒绝的审批流程。</li> 
        <li> <p><b>将状态设置为</b>：选择下列选项之一：</p> 
        <ul> 
        <li><b>以前的状态</b>：被拒绝的项目、任务或问题恢复到激活审批流程状态之前的状态。</li> 
@@ -260,6 +260,6 @@ For more detail about the information in this table, see [Access requirements in
 
 ## 允许用户修改单个工作项的全局审批流程
 
-默认情况下，拥有项目、任务和问题管理权限的用户可以为其创建一次性审批流程。 有关将一次性审批流程添加到项目、任务和问题的信息，请参阅[将新的或现有的审批流程与工作关联](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md#creating-a-single-use-approval-process)一文中的[将一次性审批流程与项目、任务、问题、模板或模板任务关联](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)部分。
+默认情况下，拥有项目、任务和问题管理权限的用户可以为其创建一次性审批流程。 有关将一次性审批流程添加到项目、任务和问题的信息，请参阅[将新的或现有的审批流程与工作关联](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)一文中的[将一次性审批流程与项目、任务、问题、模板或模板任务关联](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md#creating-a-single-use-approval-process)部分。
 
 用户还可以更改与工作项关联的全局审批流程的设置。 这些更改仅影响与系统级审批流程关联的项目、任务或问题。 有关详细信息，请参阅文章[将新的或现有的审批流程与工作关联](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)中的“修改用于特定对象的全局审批流程”一节。

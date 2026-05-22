@@ -9,9 +9,9 @@ feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: '1508'
 ht-degree: 1%
 
 ---
@@ -125,7 +125,7 @@ ht-degree: 1%
 
 大多数情况下，如果您的访问权限有限，导致无法查看系统中的项目，就会发生这种情况。 此外，您想要查看的项目不会与您共享。
 
-报告的创建者可以编辑报告，以使用系统管理员或有权查看数据的任何“计划”用户的访问权限运行报告。
+报告的创建者可以编辑报告，以使用系统管理员或任何有权查看数据的标准或计划用户的访问权限运行报告。
 
 有关详细信息，请参阅[以其他用户的访问权限运行并交付报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md)。
 
@@ -180,7 +180,7 @@ ht-degree: 1%
 有关刷新缓存报表的详细信息，请参阅[运行报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-report.md)。
 
 信息可在缓存的仪表板中手动刷新。\
-有关刷新缓存仪表板的更多信息，请参阅文章[仪表板入门](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md#running-dashboards)中的[显示仪表板](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)部分。
+有关刷新缓存仪表板的更多信息，请参阅文章[仪表板入门](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)中的[显示仪表板](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md#running-dashboards)部分。
 
 ## 我可以更改报告的所有者吗？
 
@@ -188,7 +188,7 @@ ht-degree: 1%
 
 您无法更改报告的所有者。 但是，创建报告的用户可以允许其他用户编辑报告。 允许用户编辑报告的方式取决于您所在的用户类型。
 
-* 系统管理员可以通过将“报告”行中的“编辑”选项配置为包含创建报告的访问权限，来允许具有“计划”许可证的用户编辑报告。\
+* 系统管理员可以通过配置“报告”行中的“编辑”选项来允许具有“标准”或“计划”许可证的用户编辑报告，该选项包括创建报告的权限。\
   有关详细信息，请参阅[授予对报告、功能板和日历的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)。
 
 * 任何有权创建和共享报告的最终用户都可以通过共享报告并授予其他用户管理权限，允许其他人编辑个别报告。\

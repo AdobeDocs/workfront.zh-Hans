@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '1726'
+source-wordcount: '1727'
 ht-degree: 1%
 
 ---
@@ -110,7 +110,7 @@ ht-degree: 1%
 1. 选择要管理的Agile团队。
 1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 编辑]**。
 
-   只有拥有[!UICONTROL 计划]或[!UICONTROL 工作]许可证的团队成员才能看到此选项。
+   只有具有[!UICONTROL Standard]、[!UICONTROL 计划]或[!UICONTROL 工作]许可证的团队成员才能看到此选项。
 
 1. 在&#x200B;**[!UICONTROL Agile]**&#x200B;部分中，找到&#x200B;**[!UICONTROL 故事板]**&#x200B;区域。
 1. （可选）单击&#x200B;**[!UICONTROL 添加列]**&#x200B;以向故事板添加其他状态列。

@@ -10,9 +10,9 @@ role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '1994'
+source-wordcount: '2004'
 ht-degree: 3%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 3%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包*</td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
    <td><p>对于系统级或一次性审批流程：</p><ul><li><p>任何包</p></li></ul>
    <p>对于组级审批流程：</p>
    <ul><li><p>工作流Prime或Ultimate</p></li>
@@ -68,7 +68,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-*有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -164,10 +164,10 @@ For this article, the old access was:
       <p>这是必填字段。</p>
       <p>无法为多个审批流程路径选择相同状态。</p> <p>可用状态基于选项<b>下选择的内容。此批准可由</b>使用（在上表中说明）：</p> 
       <ul> 
-      <li> 如果选择<b>所有组</b>，则只有系统范围的锁定状态可用。<!--Remove "locked" when story about using an unlocked status in approval processes goes to preview-->
+      <li> 如果选择<b>所有组</b>，则只有系统范围的锁定状态可用。 <!--Remove "locked" when story about using an unlocked status in approval processes goes to preview-->
       </li> 
       <li> <p>如果选择了特定组，则仅对该组可用的状态可用</p> </li> 
-      </ul> <p>有关审批流程如何处理状态的信息，请参阅文章<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">审批流程概述</a>中的<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">审批流程如何依赖状态</a>部分。</p> </td> 
+      </ul> <p>有关审批流程如何处理状态的信息，请参阅文章<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">审批流程概述</a>中的<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">审批流程如何依赖状态</a>部分。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">阶段名称</td> 
@@ -220,7 +220,7 @@ For this article, the old access was:
       <li> <p><strong>将状态设置为</strong>：选择下列选项之一：</p> 
       <ul> <li><strong>以前的状态</strong>：被拒绝的项目、任务或问题恢复到激活审批流程状态之前的状态。</li> 
       <li> <p><strong>列表中的任何其他状态</strong>：被拒绝的对象将移动到您选择的状态，如“已搁置”。 您可以选择默认状态之一，也可以选择添加到Workfront系统中的自定义状态。</p> <p>如果您选择与审批流程关联的状态作为审批路径的拒绝状态，则被拒绝的对象将移动到选定状态，并将标记为“待审批”。</p>
-      <p>例如，如果您选择已搁置作为拒绝状态，并且该已搁置状态与审批流程相关联，被拒绝的对象置于“已搁置 — 待审批”状态，需要审批。</p>    <p>对于系统范围审批流程，仅提供系统范围状态。</p> <p>对于组特定的批准流程，所有组状态均可用。 这包括组管理员专门为组创建的任何自定义状态，以及任何系统范围的状态。 </p> <p>有关审批流程如何处理状态的信息，请参阅文章<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">审批流程概述</a>中的<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">审批流程如何依赖状态</a>部分。</p> </li>
+      <p>例如，如果您选择已搁置作为拒绝状态，并且该已搁置状态与审批流程相关联，被拒绝的对象置于“已搁置 — 待审批”状态，需要审批。</p>    <p>对于系统范围审批流程，仅提供系统范围状态。</p> <p>对于组特定的批准流程，所有组状态均可用。 这包括组管理员专门为组创建的任何自定义状态，以及任何系统范围的状态。 </p> <p>有关审批流程如何处理状态的信息，请参阅文章<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">审批流程概述</a>中的<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">审批流程如何依赖状态</a>部分。</p> </li>
       </ul> 
      </tr> 
     </tbody> 
