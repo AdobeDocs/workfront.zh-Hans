@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 26c6fa2c-5c3a-4f53-bd7e-e49a623ff60d
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 以下特征特定于提醒通知：
 
-* 可以由管理员创建，也可以由任何拥有提醒通知的计划许可证和管理访问权限的用户创建
+* 可以由管理员创建，也可以由任何具有“计划标准”许可证和管理权限的用户创建“提醒通知”
 * 只能手动关联到对象
 * 只能通知有关附加对象的信息
 * 可以发送给各种对象利益相关者，如所有者、创建者、批准者或任务接受者

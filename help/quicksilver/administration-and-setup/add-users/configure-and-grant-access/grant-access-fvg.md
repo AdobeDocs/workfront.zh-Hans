@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4fb6eefd-74dd-4941-91d4-0e5f637febf3
-source-git-commit: c13d893ba3f8748666c8c2d36d66367a6ec4e855
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 12%
+source-wordcount: '339'
+ht-degree: 5%
 
 ---
 
@@ -52,11 +52,11 @@ ht-degree: 12%
 ## 使用自定义访问级别配置用户对筛选器、视图和分组的访问权限
 
 1. 开始创建或编辑访问级别，如[创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)中所述。
-1. 单击筛选器右侧![](assets/gear-icon-settings.png)查看&#x200B;**或**&#x200B;编辑&#x200B;**按钮上的齿轮图标**，然后在&#x200B;**微调设置**&#x200B;下选择要授予的功能。
+1. 单击筛选器右侧&#x200B;**查看**&#x200B;或&#x200B;**编辑**&#x200B;按钮上的齿轮图标![](assets/gear-icon-settings.png)，然后在&#x200B;**微调设置**&#x200B;下选择要授予的功能。
 
    ![](assets/gear-icon-filters-dashboards-groupings.png)
 
-   默认情况下，拥有“计划”、“工作”、“审阅者”或“请求”许可证的用户具有完整的“查看”和“编辑”功能。 拥有外部用户许可证的用户无法访问筛选器、视图和分组。
+   默认情况下，具有“标准”、“计划”、“工作”、“轻量级”、“查看者”、“参与者”或“请求”许可证的用户将具有“完全查看”和“编辑”功能。 拥有外部用户许可证的用户无权访问筛选器、视图和分组。
 
    <!--
    If this changes, undraft section with table below
@@ -67,13 +67,16 @@ ht-degree: 12%
 
    创建访问级别后，可将其分配给用户。 有关详细信息，请参阅[编辑用户配置文件](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
+## 按许可证类型访问筛选器、视图和分组
+
+有关每个访问级别的用户可以对筛选器、视图和分组执行哪些操作的信息，请参阅文章[可用于每个对象类型](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)的功能中的[筛选器、视图和分组](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md#filters-views-and-groupings)部分。
+
 <!--
-## Access to filters, views, and groupings by license type
 
-Drafting out this section for now because the table is redundant since all four license types can do everything.</span>
--->
+Drafting out this section for now because the table is redundant since all four license types can do everything.
 
-此表列出了Workfront管理员可以允许每种许可证类型的用户使用过滤器、视图和分组执行的操作。 有关Workfront许可证类型的信息，请参阅[Adobe Workfront许可证概述](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)。
+
+This table lists what a Workfront administrator can allow users with each license type to do with filter, views, and groupings. For information about the Workfront license types, see [Adobe Workfront licenses overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
 <table style="table-layout:auto">
 <col>
@@ -83,51 +86,51 @@ Drafting out this section for now because the table is redundant since all four 
 <col>
 <thead>
 <tr>
-<th> 操作 </th>
-<th> 规划者 </th>
-<th> 员工 </th>
-<th> 审阅者 </th>
-<th> 请求者 </th>
+<th> Action </th>
+<th> Planner </th>
+<th> Worker </th>
+<th> Reviewer </th>
+<th> Requester </th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>编辑筛选器、视图和分组</td>
+<td>Edit filters, views, and groupings</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 </tr>
 <tr>
-<td>创建过滤器、视图和分组</td>
+<td>Create filters, views, and groupings</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 </tr>
 <tr>
-<td>查看筛选器、视图和分组</td>
+<td>View filters, views, and groupings</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 </tr>
 <tr>
-<td>删除筛选器、视图和分组</td>
+<td>Delete filters, views, and groupings</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 </tr>
 <tr>
-<td>共享筛选器、视图和分组</td>
+<td>Share filters, views, and groupings</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 </tr>
 <tr>
-<td>在系统范围内共享筛选器、视图和分组</td>
+<td>Share filters, views, and groupings system-wide</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
@@ -135,3 +138,5 @@ Drafting out this section for now because the table is redundant since all four 
 </tr>
 </tbody>
 </table>
+
+-->

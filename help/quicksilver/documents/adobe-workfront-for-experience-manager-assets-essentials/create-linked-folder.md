@@ -7,9 +7,9 @@ description: 在Workfront中，您可以创建与Experience Manager Assets或Ass
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '491'
 ht-degree: 3%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 3%
   <tr>
    <td><strong>访问级别配置</strong>
    </td>
-   <td>您必须是Workfront管理员才能配置Experience Manager集成。 配置该计划后，拥有计划许可证的用户可以在单个项目上设置链接文件夹。
+   <td>您必须是Workfront管理员才能配置Experience Manager集成。 配置后，具有Standard或Plan许可证的用户可以在单个项目上设置链接文件夹。
    </td>
   </tr>
 </table>

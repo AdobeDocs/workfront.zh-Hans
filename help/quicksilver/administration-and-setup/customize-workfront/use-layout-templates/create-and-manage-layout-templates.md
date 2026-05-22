@@ -11,9 +11,9 @@ role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '513'
 ht-degree: 5%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 5%
 ## 创建和管理布局模板的注意事项
 
 * 用户可以自定义其自身布局的几个区域。 在更改布局模板时，所做的更改会与所做的任何自定义设置合并，而不会覆盖或重置这些自定义设置。 如果将用户分配到新布局模板，也是如此。
-* 组管理员和具有计划许可证的用户（可以编辑其他用户）可以将系统级和组级布局模板添加到他们在编辑其配置文件时可以管理的用户。
+* 组管理员和具有标准或计划许可证的用户（可以编辑其他用户）可以将系统级和组级布局模板添加到他们在编辑其配置文件时可以管理的用户。
 * 组管理员无法将布局模板分配给工作角色或团队。
 
 有关布局模板的详细信息，请参阅[布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)。

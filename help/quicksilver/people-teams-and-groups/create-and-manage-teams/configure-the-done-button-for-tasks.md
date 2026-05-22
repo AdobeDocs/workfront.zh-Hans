@@ -8,10 +8,10 @@ feature: People Teams and Groups
 exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 3%
+source-wordcount: '767'
+ht-degree: 2%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 3%
 
 具有特定权限的用户可以配置[!UICONTROL Done]按钮以将其与系统中的特定状态相关联。 [!UICONTROL Done]按钮有两种方式适用于[!UICONTROL Workfront]中的任务：
 
-* 如果用户已分配主团队，[!DNL Workfront]管理员或具有[!UICONTROL 计划]许可证的用户可以配置[!UICONTROL 完成]按钮以反映团队成员的特定状态。 请参阅本文中的[为团队[!UICONTROL 配置]完成](#configure-the-uicontrol-done-button-for-a-team)按钮。
+* 如果用户已分配主团队、[!DNL Workfront]管理员或具有[!UICONTROL Standard]或[!UICONTROL Plan]许可证的用户，则可以配置[!UICONTROL Done]按钮以反映团队成员的特定状态。 请参阅本文中的[为团队](#configure-the-uicontrol-done-button-for-a-team)配置[!UICONTROL 完成]按钮。
 * 如果用户没有[!UICONTROL 主团队]，但其配置文件中具有[!UICONTROL 其他团队]，则Workfront将搜索与该用户关联的任何团队上的[!UICONTROL 完成]按钮的设置。 选择是随机的，与任何团队关联的状态用于任务。
 * 如果用户没有分配主团队，则任务的[!UICONTROL 完成]按钮与完成状态相关联。 此方案中没有可用的配置选项。 [!UICONTROL Done]按钮自动默认为此状态。
 
@@ -98,7 +98,7 @@ ht-degree: 3%
 
 要将用户与主团队关联，请执行以下操作：
 
-1. 单击&#x200B;**[!UICONTROL 右上角的]**&#x200B;主菜单![](assets/main-menu-icon.png)图标[!DNL Adobe Workfront]。
+1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)。
 
 1. 单击&#x200B;**[!UICONTROL 用户]**，然后选择要与主团队关联的一个或多个用户。
 1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 编辑]**。\

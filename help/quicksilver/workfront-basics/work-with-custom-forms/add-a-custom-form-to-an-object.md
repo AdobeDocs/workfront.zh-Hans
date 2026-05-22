@@ -9,9 +9,9 @@ feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '747'
 ht-degree: 4%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理要为其附加自定义表单的对象的权限。</p> <p>查看自定义表单或更高权限，具有附加到自定义数据<b>对象（项目、任务和问题）的</b>权限。</td> 
+   <td> <p>管理要为其附加自定义表单的对象的权限。</p> <p>查看自定义表单或更高权限，具有附加到自定义数据</b>对象（项目、任务和问题）的<b>权限。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -106,7 +106,7 @@ Old:
 
 ## 先决条件
 
-您的Workfront管理员或具有自定义表单的计划许可证和管理访问权限的用户必须在您的环境中创建自定义表单，然后才能将它们添加到对象中。 有关详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+您的Workfront管理员或具有自定义表单的标准或计划许可证和管理访问权限的用户必须在您的环境中创建自定义表单，然后才能将其添加到对象中。 有关详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ## 向对象添加自定义表单
 

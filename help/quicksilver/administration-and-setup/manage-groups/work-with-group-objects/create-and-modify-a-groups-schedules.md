@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a2a39746-331b-41d6-8c3c-e6a1eb68b43a
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 0%
+source-wordcount: '314'
+ht-degree: 6%
 
 ---
 
@@ -25,21 +25,21 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->组管理员和拥有计划许可证的用户（可以编辑其他用户）在编辑其他用户配置文件时，可以向该用户添加系统级别或组级别计划。
+>组管理员和具有Standard或Plan许可证且可以编辑其他用户的用户，可以在编辑其他用户配置文件时将系统级别或组级别计划添加到该用户。
 
 有关如何在资源计划中使用计划的信息，请参阅[计划概述](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)和[资源规划者概述](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td>Adobe Workfront 包</td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 

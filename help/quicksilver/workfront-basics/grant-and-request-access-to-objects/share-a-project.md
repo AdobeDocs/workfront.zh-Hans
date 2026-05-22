@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 3bc953ebb6f16d3d4a71fe9764551a8a4cf1087a
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '1600'
-ht-degree: 7%
+source-wordcount: '1545'
+ht-degree: 3%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 7%
 
 * 默认情况下，项目的创建者具有管理项目的权限，并被指定为项目所有者。 如果项目分配给其他所有者，则该用户也具有管理项目的权限。 当项目创建者（或所有者）与其他用户共享项目时，他们将特定权限授予这些用户，以控制他们在项目上工作时可以执行的操作。
 
-  但是，如果项目所有者没有“计划”或“标准”许可证，则他们不具有管理项目的完全访问权限。 只有拥有Plan或Standard许可证的用户才有权管理项目。 有关详细信息，请参阅[访问级别和权限如何协同工作](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)。
+  但是，如果项目所有者没有“标准”或“计划”许可证，则他们不具有管理项目的完全访问权限。 只有具有Standard或Plan许可证的用户才有权管理项目。 有关详细信息，请参阅[访问级别和权限如何协同工作](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)。
 
 * 您可以单独共享项目，也可以一次共享多个项目。 共享项目与共享其他对象相同。 有关在Workfront中共享项目的详细信息，请参阅[共享对象](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
 * 您可以向项目授予以下权限：
@@ -76,7 +76,7 @@ ht-degree: 7%
 
 * 共享项目时，除非另有指定，否则所有任务、问题和文档都将继承相同的权限。
 
-  有关基于用户对项目的权限管理项目上任务和问题的访问权限的信息，请参阅[&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access)编辑项目[一文中的](../../manage-work/projects/manage-projects/edit-projects.md)部分。
+  有关基于用户对项目的权限管理项目上任务和问题的访问权限的信息，请参阅[编辑项目](../../manage-work/projects/manage-projects/edit-projects.md)一文中的[](../../manage-work/projects/manage-projects/edit-projects.md#access)部分。
 
   Workfront管理员可以指定文档是否应从用户访问级别更高的对象继承权限。 有关限制文档继承权限的详细信息，请参阅[创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
@@ -85,7 +85,7 @@ ht-degree: 7%
 ## 不同许可证类型的限制
 
 * 拥有工作人员许可证的用户无权管理项目。 对于工作人员，最高共享权限为Contribute。
-* 拥有请求许可证的用户可以查看项目信息，但他们具有有限的项目访问权限。
+* 具有“参与者”或“请求”许可证的用户可以查看项目信息，但他们具有有限的项目访问权限。
 * 当具有“查看”或“贡献”权限的用户也包含在审批流程中时，项目状态的更改会发生异常。 他们可以审批项目，这更改了项目的状态，但状态为要审批或拒绝的预定义状态。
 * 为了能够复制项目，用户还必须具有在其访问级别创建项目的权限。
 

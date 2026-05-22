@@ -8,10 +8,10 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 0c0fc9df-23eb-4a2b-a5b0-6dbd742e8238
-source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 3%
+source-wordcount: '184'
+ht-degree: 13%
 
 ---
 
@@ -21,21 +21,21 @@ ht-degree: 3%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
-作为Adobe Workfront管理员或具有Plan许可证的用户，您可以查看在过去7天内已恢复的项目、任务、问题和文档。
+作为Adobe Workfront管理员或具有Standard或Plan许可证的用户，您可以查看在过去7天内已恢复的项目、任务、问题和文档。
 
 有关在删除项目、任务、问题或文档后如何恢复项目的信息，请参阅[恢复已删除的项](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td>Adobe Workfront 包</td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 

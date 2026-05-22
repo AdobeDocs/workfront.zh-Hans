@@ -9,10 +9,10 @@ feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 8%
+source-wordcount: '332'
+ht-degree: 7%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 8%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider moving this to the Custom&nbsp;View, Filter, Grouping Samples section as an example of a report)</p>
 -->
 
-在Adobe Workfront中，用户可以将项目、任务和问题审批委派给其他用户，以确保在外出时管理其审批。 拥有计划许可证的用户可以创建用户委派报告，以查看：
+在Adobe Workfront中，用户可以将项目、任务和问题审批委派给其他用户，以确保在外出时管理其审批。 具有Standard或Plan许可证的用户可以创建用户委派报告，以查看：
 
 * 已将其任务、问题和项目审批委托给其他用户的用户
 * 哪些用户已委派任务、问题和项目审批给他们

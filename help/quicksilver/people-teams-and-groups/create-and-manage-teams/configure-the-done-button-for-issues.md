@@ -8,16 +8,16 @@ feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1181'
 ht-degree: 2%
 
 ---
 
 # 为问题配置[!UICONTROL 完成]按钮
 
-[!UICONTROL 完成]按钮可自动设置任务或问题的状态。 默认情况下，当被分派人在其工作项上单击[!DNL Adobe Workfront]完成[!UICONTROL 时，]将问题标记为[!UICONTROL 已解决]。
+[!UICONTROL 完成]按钮可自动设置任务或问题的状态。 默认情况下，当被分派人在其工作项上单击[!UICONTROL 完成]时，[!DNL Adobe Workfront]将问题标记为[!UICONTROL 已解决]。
 
 >[!NOTE]
 >
@@ -27,10 +27,10 @@ ht-degree: 2%
 
 具有特定权限的用户可以配置[!UICONTROL Done]按钮以反映系统中的特定状态。 [!UICONTROL Done]按钮处理[!DNL Workfront]中的问题有3种不同的方式：
 
-* 如果用户已分配[!UICONTROL 主团队]、[!DNL Workfront]管理员或具有[!UICONTROL 计划]许可证的用户可以配置[!UICONTROL 完成]按钮以反映团队成员的特定状态。 请参阅本文中的[为团队[!UICONTROL 配置]完成](#configure-the-uicontrol-done-button-for-a-team)按钮。
+* 如果用户已分配[!UICONTROL 主团队]、[!DNL Workfront]管理员或具有[!UICONTROL Standard]或[!UICONTROL Plan]许可证的用户，则可以配置[!UICONTROL Done]按钮以反映团队成员的特定状态。 请参阅本文中的[为团队](#configure-the-uicontrol-done-button-for-a-team)配置[!UICONTROL 完成]按钮。
 * 如果用户没有[!UICONTROL 主团队]，但其配置文件中具有[!UICONTROL 其他团队]，则Workfront将搜索与该用户关联的任何团队上的[!UICONTROL 完成]按钮的设置。 选择是随机的，与任何团队关联的状态用于问题。
 * 如果用户没有分配的[!UICONTROL 主团队]，则问题的[!UICONTROL 完成]按钮将绑定到系统生成的[!UICONTROL 已解决]状态，该状态具有三个字母的代码[!UICONTROL RLV]。 此方案中没有可用的配置选项。 [!UICONTROL Done]按钮自动默认为此状态。
-* 如果删除了[!UICONTROL 已解决] ([!UICONTROL RLV])状态，并且将问题标记为[!UICONTROL 完成]的用户没有[!UICONTROL 主团队]，则默认问题状态将关联到为分配给问题所属项目的组设置的[!UICONTROL 已关闭]默认值的任何项目。 Workfront管理员可以为组配置系统范围的默认设置。 请参阅本文中的[已解决[!UICONTROL 状态被删除时]配置[!UICONTROL 完成]按钮](#configure-the-uicontrol-done-button-when-the-uicontrol-resolved-status-has-been-deleted)。
+* 如果删除了[!UICONTROL 已解决] ([!UICONTROL RLV])状态，并且将问题标记为[!UICONTROL 完成]的用户没有[!UICONTROL 主团队]，则默认问题状态将关联到为分配给问题所属项目的组设置的[!UICONTROL 已关闭]默认值的任何项目。 Workfront管理员可以为组配置系统范围的默认设置。 请参阅本文中的[!UICONTROL 已解决]状态被删除时[配置[!UICONTROL 完成]按钮](#configure-the-uicontrol-done-button-when-the-uicontrol-resolved-status-has-been-deleted)。
 
 ## 访问权限要求
 
@@ -103,7 +103,7 @@ ht-degree: 2%
 
 要将用户与主团队关联，请执行以下操作：
 
-1. 单击&#x200B;**[!UICONTROL 右上角的]**&#x200B;主菜单![](assets/main-menu-icon.png)图标[!DNL Adobe Workfront]。
+1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)。
 
 1. 单击&#x200B;**[!UICONTROL 用户]**，然后选择要与主团队关联的一个或多个用户。
 1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 编辑]**。\
@@ -117,7 +117,7 @@ ht-degree: 2%
 
 ## 在删除[!UICONTROL 已解决]状态时配置[!UICONTROL 完成]按钮
 
-如果用户没有主团队，并且系统范围的[!UICONTROL 已解决] ([!UICONTROL RLV])默认值已被删除，则[!DNL Workfront]管理员可以为项目上的组配置[!UICONTROL 已关闭]状态。 当用户单击[!DNL Workfront]按钮时，[!DNL Done]为已关闭的问题选择此状态。
+如果用户没有主团队，并且系统范围的[!UICONTROL 已解决] ([!UICONTROL RLV])默认值已被删除，则[!DNL Workfront]管理员可以为项目上的组配置[!UICONTROL 已关闭]状态。 当用户单击[!DNL Done]按钮时，[!DNL Workfront]为已关闭的问题选择此状态。
 
 ### 查找与项目关联的组
 
@@ -140,7 +140,7 @@ ht-degree: 2%
 1. 单击&#x200B;**[!UICONTROL 问题]**，然后在右侧的&#x200B;**[!UICONTROL 系统状态]**&#x200B;搜索框中键入组的名称。
 
 1. 选择组。
-1. 单击&#x200B;**[!UICONTROL 设置默认状态]**&#x200B;下拉菜单，然后选择[!UICONTROL 已关闭]的默认状态。 当用户单击[!DNL Workfront]完成[!UICONTROL 按钮时，]对已关闭的问题使用此状态。
+1. 单击&#x200B;**[!UICONTROL 设置默认状态]**&#x200B;下拉菜单，然后选择[!UICONTROL 已关闭]的默认状态。 当用户单击[!UICONTROL 完成]按钮时，[!DNL Workfront]对已关闭的问题使用此状态。
 
    >[!IMPORTANT]
    >

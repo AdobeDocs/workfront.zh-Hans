@@ -10,9 +10,9 @@ role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '774'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 处理此项和完成按钮对具有以下功能的用户可见：
 
-* 标准许可证（新）或计划或工作许可证（当前）
+* 标准许可证，或者计划或工作许可证
 * 任务或问题的编辑访问权限有限或更高
 
 >[!NOTE]

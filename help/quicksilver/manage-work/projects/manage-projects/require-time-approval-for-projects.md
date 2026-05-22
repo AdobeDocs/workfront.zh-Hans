@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '792'
 ht-degree: 2%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 2%
        <li>如果您拥有项目的管理权限，则可以批准或拒绝任何其他用户登录项目的小时数。</li>
        <li> 如果您对项目具有“参与”或“查看”权限，则只能批准或拒绝由您或任何其他报告您的用户记录的小时数。<br></li>
       </ul></li> 
-     <li>您拥有对时间表和小时数的管理访问权限的计划许可证。 在本例中：
+     <li>您拥有对时间表和小时数的管理访问权限的标准或计划许可证。 在本例中：
       <ul>
        <li>您可以批准或拒绝您至少具有查看权限的项目上的任何小时数。 </li>
       </ul></li> 

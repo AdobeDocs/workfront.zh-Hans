@@ -9,9 +9,9 @@ feature: People Teams and Groups
 exl-id: 28eb1967-390b-4500-abfc-8ed68ff14a16
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '381'
 ht-degree: 1%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 | **功能** | **组** | **团队** |
 |---|---|---|
-| 规划者可以创建 |  | ✓ |
+| Standard或Plan许可证用户可以创建 |  | ✓ |
 | 只有Workfront管理员才能创建 | ✓ |  |
 | 共享对象 | ✓ | ✓ |
 | 分配任务 |  | ✓ |
@@ -67,7 +67,7 @@ ht-degree: 1%
 | 时间表的可见性 | ✓ |  |
 | 分配周期性工时表 | ✓ | ✓ |
 | 分配布局模板 | ✓ | ✓ |
-| 任何拥有计划许可证的用户都可以将其分配给另一个用户 |  | ✓ |
+| 任何具有Standard或Plan许可证的用户都可以将其分配给另一个用户 |  | ✓ |
 | 自定义状态 | ✓ |  |
 | 自定义[!UICONTROL 完成]按钮 |  | ✓ |
 | 跟踪许可证 | ✓ |  |

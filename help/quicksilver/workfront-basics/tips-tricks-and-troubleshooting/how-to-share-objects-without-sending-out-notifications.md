@@ -5,13 +5,13 @@ title: 如何共享对象而不生成通知
 description: 了解如何共享对象并阻止发送有关此更改的通知。 当您批量共享对象时，这尤其有用。
 author: Alina
 feature: Get Started with Workfront
-source-git-commit: b14dd633edec3e9746f7f1412445b74bcd37a676
+exl-id: 02106282-addb-4bdd-82d2-9da5a5f6a687
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 3%
+source-wordcount: '577'
+ht-degree: 5%
 
 ---
-
 
 # 如何共享对象而不生成通知
 
@@ -34,11 +34,9 @@ ht-degree: 3%
 
 如果需要与多个人员（批量）共享多个对象，但不希望他们收到有关此更改的电子邮件通知，请执行以下操作：
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
-
-要共享对象，必须具备以下条件：
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,13 +44,12 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划</td> 
-   <td> <p>任何 </p> </td> 
+   <td> <p>“任一” </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>新许可证： Standard</p> 
-   或
-   <p>当前许可证：计划</p>
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p>标准</p>
+   <p>规划</p>
    </td> 
   </tr> 
   <tr> 
@@ -70,7 +67,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -110,9 +107,3 @@ ht-degree: 3%
 1. 单击&#x200B;**保存更改**。
 
    这些对象已共享给选定的用户，但没有一个用户收到有关此更改的任何电子邮件通知。
-
-
-
-
-
-

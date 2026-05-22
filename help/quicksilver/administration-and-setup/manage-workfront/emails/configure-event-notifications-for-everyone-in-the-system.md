@@ -7,7 +7,7 @@ role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 4%
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS-->
 
-当发生特定事件时，事件通知会触发向用户发送电子邮件。 作为Adobe Workfront管理员或具有Planner访问级别的用户，您可以为系统中的所有用户配置事件通知。 事件通知的配置包括激活或停用该通知。
+当发生特定事件时，事件通知会触发向用户发送电子邮件。 作为Adobe Workfront管理员或具有“标准”或“计划”访问级别的用户，您可以为系统中的所有用户配置事件通知。 事件通知的配置包括激活或停用该通知。
 
 <!--Alina annotation on the word "all" in 2nd sentence: abive, drafted and remains QS only-->
 
@@ -28,7 +28,7 @@ ht-degree: 4%
 
 您首先必须在Workfront实例的“设置”区域中指定希望所有用户接收的通知。 在“设置”区域中激活通知后，通知在其配置文件页面中将显示为每个用户都显示为已激活。
 
-在“设置”区域中激活通知并显示在用户的配置文件页面后，个人用户或具有“计划”许可证的其他用户还可以在用户配置文件中配置激活的通知，以控制特定用户接收哪些通知以及通知的频率。 有关详细信息，请参阅[修改您自己的电子邮件通知](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
+在“设置”区域中激活通知并显示在用户的配置文件页面中后，个人用户或具有Standard或Plan许可证的其他用户还可以在用户配置文件中配置激活的通知，以控制特定用户接收哪些通知以及通知的频率。 有关详细信息，请参阅[修改您自己的电子邮件通知](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
 
 有关可以激活和取消激活的所有事件通知的列表，请参阅[事件通知类型](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)。
 
@@ -54,7 +54,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>对提醒通知具有管理访问权限的Planner或更高版本</p> </td> 
+   <td> <p>提醒通知的管理访问权限</p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 915d1520-f5c4-4e33-b645-cb219289383c
-source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 8%
+source-wordcount: '677'
+ht-degree: 7%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 8%
 ## 配置用户的访问权限以使用自定义访问级别编辑团队
 
 1. 开始创建或编辑访问级别，如[创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)中所述。
-1. 单击Teams右侧![](assets/gear-icon-settings.png)查看&#x200B;**或**&#x200B;编辑&#x200B;**按钮上的齿轮图标**，然后在&#x200B;**微调设置**&#x200B;下选择要授予的功能。
+1. 单击Teams右侧&#x200B;**查看**&#x200B;或&#x200B;**编辑**&#x200B;按钮上的齿轮图标![](assets/gear-icon-settings.png)，然后在&#x200B;**微调设置**&#x200B;下选择要授予的功能。
 
    ![微调团队](assets/fine-tune-teams.png)
 
@@ -71,7 +71,7 @@ ht-degree: 8%
        </tbody>
       </table>
 
-   * **编辑**：如果您正在配置拥有计划许可证和工作许可证的用户如何管理团队，请更改以下任一选项：
+   * **编辑**：如果您正在配置拥有标准、计划或工作许可证的用户如何管理团队，请更改以下任意选项：
 
      <table style="table-layout:auto">
        <col>
@@ -79,19 +79,19 @@ ht-degree: 8%
        <tbody>
         <tr>
          <td role="rowheader">创建</td>
-         <td><p>允许拥有计划许可证或工作许可证的用户创建团队。</p><p>此选项默认处于启用状态。</p></td>
+         <td><p>允许具有标准、计划或工作许可证的用户创建团队。</p><p>此选项默认处于启用状态。</p></td>
         </tr>
         <tr>
          <td role="rowheader">删除</td>
-         <td><p> 允许拥有计划许可证的用户删除他们有权编辑的团队（对拥有工作许可证的用户不可用）。</p><p>此选项默认处于启用状态。</p></td>
+         <td><p> 允许拥有标准或计划许可证的用户删除他们有权编辑的团队（对拥有工作许可证的用户不可用）。</p><p>此选项默认处于启用状态。</p></td>
         </tr>
         <tr>
          <td role="rowheader">编辑我管理的组中的团队（仅组管理员）</td>
-         <td><p>允许被指定为组管理员的计划许可用户编辑与其管理的组相关联的团队。</p><p>此选项默认处于启用状态。</p></td>
+         <td><p>允许指定为组管理员的Standard或Plan许可用户编辑与其管理的组相关联的团队。</p><p>此选项默认处于启用状态。</p></td>
         </tr>
         <tr>
          <td role="rowheader">编辑我所在的团队</td>
-         <td><p>允许用户计划许可证或工作许可证编辑他们所属的团队。</p><p>默认禁用此选项。</p></td>
+         <td><p>允许具有标准、计划或工作许可证的用户编辑其所属的团队。</p><p>默认禁用此选项。</p></td>
         </tr>
         <tr>
          <td role="rowheader">查看与我的组关联的团队</td>
@@ -125,4 +125,4 @@ ht-degree: 8%
 
 ## 按许可证类型访问团队
 
-有关每个访问级别的用户可以对团队执行哪些操作的信息，请参阅[可用于每个对象类型的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#teams)一文中的[团队](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)部分。
+有关每个访问级别的用户可以对团队执行哪些操作的信息，请参阅[可用于每个对象类型的功能](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)一文中的[团队](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md#teams)部分。
