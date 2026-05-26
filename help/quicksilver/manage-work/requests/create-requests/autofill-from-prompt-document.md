@@ -7,7 +7,7 @@ feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0b856507a26de5812e2335a4a7c0c6622c678d09
+source-git-commit: 83adea16ed7d66cec9ec2ce5b385b5ac4a7fdbac
 workflow-type: tm+mt
 source-wordcount: '1499'
 ht-degree: 3%
@@ -331,3 +331,5 @@ Workfront字段类型会影响给定字段是否可以自动填写。
 * 您必须在系统中拥有至少一个月的请求数据，然后才能建议来自先前请求的字段值。
 * 在上传文档以从中提取建议时，您可能没有遵循文档上传护栏。 有关详细信息，请参阅本文中的[文档上传护栏](#document-upload-guardrails)。
 * AI表单填写可以填写外部查找字段值。 但是，如果外部查找字段依赖于公式字段，则人工智能无法准确检索字段选项，并且不会填充该字段值。
+
+
