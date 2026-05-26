@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 947a12504623e31a28d660675b12fb90522a56f4
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '730'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ https://<URL of your organization's domain>/integrations/oauth2/authorize?client
 
    **示例：**&#x200B;对令牌端点的CURL调用示例：
 
-   示例1
+   示例 1
 
    ```
       curl --location --request POST '**<workfront host>**/integrations/oauth2/api/v1/token' \
@@ -128,7 +128,7 @@ https://<URL of your organization's domain>/integrations/oauth2/authorize?client
       }'
    ```
 
-   示例2
+   示例 2
 
    ```
       curl --location --request POST '**<workfront host>**/integrations/oauth2/api/v1/token' \
@@ -157,7 +157,7 @@ https://<URL of your organization's domain>/integrations/oauth2/authorize?client
    }
    ```
 
-   访问令牌与```sessionID```相同，过期方式与常规```sessionID```相同
+   访问令牌与`sessionID`相同，过期方式与常规`sessionID`相同
 
    >[!IMPORTANT]
    >
@@ -174,7 +174,7 @@ https://<URL of your organization's domain>/integrations/oauth2/authorize?client
 
 ![刷新访问令牌流](assets/refresh-access-token-flow-350x142.png)
 
-要刷新access_token，我们再次需要对令牌端点进行“POST”调用。 这次我们发送了不同的表单数据，如下所示：
+要刷新access_token，我们再次需要对令牌端点执行“POST”调用。 这次我们发送了不同的表单数据，如下所示：
 
 ```
 curl --location --request POST '<workfront host>/integrations/oauth2/api/v1/token' \
