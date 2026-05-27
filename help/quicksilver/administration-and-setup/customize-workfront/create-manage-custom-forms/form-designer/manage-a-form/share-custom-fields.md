@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 4f591fa3-2cb9-4a22-bfb1-1b50cedfcf3d
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: 264419f747b1e975cda8843b37558e78501d93de
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 1%
+source-wordcount: '744'
+ht-degree: 2%
 
 ---
 
@@ -21,17 +21,17 @@ ht-degree: 1%
 
 有关自定义表单中的自定义字段和小部件的信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td>Adobe Workfront 包</td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
@@ -49,79 +49,78 @@ ht-degree: 1%
 
 +++
 
-## 从表单列表配置共享自定义字段或构件
+<!--
+
+## Configure sharing a custom field or widget from the list of forms
 
 {{step-1-to-setup}}
 
-1. 在左侧面板中，单击&#x200B;**自定义Forms**。
-1. 单击&#x200B;**字段**&#x200B;以打开“字段”区域。
-1. 选择要为其配置共享的项目，然后单击![共享图标](assets/share-icon.png)。
-1. 在显示的自定义字段访问框中，指定要与谁共享项目以及共享项目的方式：
+1. In the left panel, click **Custom Forms**.
+1. Click **Fields** to open the Fields area.
+1. Select the item you want to configure sharing for, then click ![Share icon](assets/share-icon.png).
+1. In the Custom Field Access box that displays, specify who you want to share the item with and how you want to share it:
 
-   1. 在&#x200B;**自定义字段访问权限**&#x200B;框的左下角附近，在&#x200B;**将自定义字段访问权限授予**&#x200B;下，开始键入要与其共享项目的用户、团队、工作角色、组或公司的名称，然后单击显示的名称。
+   1. Near the lower-left corner of the **Custom Field Access** box, under **Give custom field access to**, start typing the name of a user, team, job role, group, or company you want to share the item with, then click the name when it appears.
 
-      ![自定义字段访问框](assets/share-field-give-access-to.jpg)
+      ![Custom Field Access box](assets/share-field-give-access-to.jpg)
 
-   1. 如果要更详细地了解要如何共享该项目，请单击名称右侧的下拉列表，然后使用以下任一选项：
+   1. If you want to be more specific about how you want to share the item, click the drop-down list to the right of the name, then use any of the following options:
 
-      ![共享选项](assets/share-field-view-mng-options.jpg)
+      ![Sharing options](assets/share-field-view-mng-options.jpg)
 
       <table style="table-layout:auto"> 
        <col> 
        <col> 
        <tbody> 
         <tr> 
-         <td role="rowheader">查看它</td> 
-         <td> <p>您可以单击<strong>高级设置</strong>，以指定您是否希望一个或多个用户能够使用其访问权限将项目添加到自定义表单或与其他用户共享。</p> </td> 
+         <td role="rowheader">View it</td> 
+         <td> <p>You can click <strong>Advanced Settings</strong> to specify whether you want the user or users to be able to use their access to add the item to a custom form or share it with other users.</p> </td> 
         </tr> 
         <tr> 
-         <td role="rowheader">管理它</td> 
-         <td> <p>允许访问以编辑自定义字段，并在字段库和构建自定义表单的页面上查看它。</p> <p>您可以单击<strong>高级设置</strong>，以指定您是否希望一个或多个用户能够使用其权限从系统中删除项目或与其他用户共享该项目。</p> </td> 
+         <td role="rowheader">Manage it</td> 
+         <td> <p>Allows access to edit the custom field and to see it in the Field Library and on the page where you build custom forms.</p> <p>You can click <strong>Advanced Settings</strong> to specify whether you want the user or users to be able to use their access to delete the item from the system or share it with other users.</p> </td> 
         </tr> 
        </tbody> 
-      </table>
+      </table>   
 
-1. （可选）重复上一步骤向列表中添加其他名称并配置其选项。
-1. （可选）如果要为字段选择系统范围的共享选项，请单击右上角的齿轮图标![设置图标](assets/gear-icon-settings.png)。
+1. (Optional) Repeat the previous step to add other names to the list and configure their options.
+1. (Optional) Click the gear icon ![Settings icon](assets/gear-icon-settings.png) in the top-right corner if you want to choose a system-wide sharing option for the field.
 
-   以下选项并非全部同时显示在此下拉菜单中。 例如，仅当选择其他两个变量之一时，才会显示第二个变量。
+   Not all of the following options display in this drop-down menu at the same time. For example, the second one displays only when one of the other two are selected.
 
-   * **使其在系统范围内可编辑，以便Workfront中的每个人都可以编辑它**（默认选项）
+   * **Make this editable system-wide so that everyone in Workfront can edit it** (the default option)
 
-     当您添加自定义字段或构件并且不限制其共享时，系统中有权访问自定义表单的每个人都可以查看并编辑其属性。
+     When you add a custom field or widget and you don't limit sharing for it, everyone in the system who has access to custom forms can view it and edit its properties.
+   
+   * **Remove system-wide edit access**
 
-   * **删除系统范围编辑权限**
+     Limits access to only those whom you added to the list. 
+   
+   * **Make this visible system-wide so that everyone in Workfront can see it**
 
-     仅限您添加到列表中的用户访问。
+1. Click **Save**.
 
-   * **使其在系统范围内可见，以便Workfront中的每个人都可以看到它**
+-->
 
-1. 单击&#x200B;**保存**。
-
-## 从表单设计器配置共享自定义字段或构件
+## 配置共享自定义字段或构件
 
 {{step-1-to-setup}}
 
 1. 在左侧面板中，单击&#x200B;**自定义Forms**。
-1. 打开自定义表单或创建新的自定义表单。
-1. 在表单设计器中，选择要为其配置共享的项，然后单击右侧字段编辑区域中的&#x200B;**共享**。
-1. 在显示的框中，在&#x200B;**将自定义表单访问权限授予**&#x200B;下，开始键入要与其共享项目的用户、团队、工作角色、组或公司的名称，然后在名称显示时按&#x200B;**Enter**。
+1. 要从表单和字段列表中共享，请执行以下操作：
+
+   1. 单击&#x200B;**字段**&#x200B;以打开“字段”区域。
+   1. 选择要共享的字段，然后单击![共享图标](assets/share-icon.png)。
+
+1. 要从表单设计器共享，请执行以下操作：
+   1. 打开自定义表单或创建新的自定义表单。
+   1. 在表单设计器中，选择要共享的字段，然后单击右侧字段编辑区域中的&#x200B;**共享**。
+
+1. 在共享框中，在&#x200B;**向**&#x200B;授予字段访问权限下，开始键入要与其共享项目的用户、团队、工作角色、组、公司或业务配置文件的名称，然后在名称显示时按&#x200B;**Enter**。
 1. 如果您想更详细地了解如何共享项目，请单击名称右侧的下拉菜单，然后使用以下任一选项：
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-      <tbody> 
-       <tr> 
-        <td role="rowheader">查看它</td> 
-        <td> <p>单击<strong>高级设置</strong>可指定您希望用户能够将该项目添加到自定义表单还是与其他用户共享。</p> </td> 
-       </tr> 
-       <tr> 
-        <td role="rowheader">管理它</td> 
-        <td> <p>允许访问以编辑自定义字段，并在字段库和表单设计器中查看它。</p> <p>单击<strong>高级设置</strong>可指定您希望用户能够删除系统中的项目还是与其他用户共享该项目。</p> </td> 
-       </tr> 
-     </tbody> 
-    </table>
+   * **查看**：单击&#x200B;**高级设置**&#x200B;图标![高级设置图标](assets/configure-options-icon.png)以指定您希望用户能够将该项目添加到自定义表单还是与其他用户共享。
+   * **管理**：允许访问编辑自定义字段并在字段库和表单设计器中查看它。 单击&#x200B;**高级设置**&#x200B;图标![高级设置图标](assets/configure-options-icon.png)以指定您希望用户能够从系统中删除项目还是与其他用户共享该项目。
 
 1. （可选）重复步骤5-6以向列表中添加其他名称并配置其选项。
 1. （可选）为字段选择系统范围的共享选项：
@@ -131,6 +130,9 @@ ht-degree: 1%
      当您添加自定义字段或构件并且不限制其共享时，系统中有权访问自定义表单的每个人都可以查看并编辑其属性。
 
    * **系统中的每个人都可以查看**
+
+     系统中有权访问自定义表单的每个人均可查看该字段，但不能对其进行编辑。
+
    * **只有受邀人员才能访问**
 
      限制仅访问您添加到列表中的用户。
@@ -141,7 +143,7 @@ ht-degree: 1%
 
 ## 共享自定义表单时继承对自定义字段和小部件的访问权限
 
-当有人与组、工作角色、团队或公司共享自定义表单时，收件人将继承对表单上任何自定义字段和小部件的查看访问权限。 对表单上这些项目的这种访问级别始终会保留，以便表单能够按创建者的预期用于收件人。 即使对于拥有表单编辑访问权限的收件人也是如此。
+当有人与组、工作角色、团队、公司或业务配置文件共享自定义表单时，收件人将继承对表单上任何自定义字段和小部件的查看访问权限。 对表单上这些项目的这种访问级别始终会保留，以便表单能够按创建者的预期用于收件人。 即使对于拥有表单编辑访问权限的收件人也是如此。
 
 您可以查明继承了自定义字段或构件访问权限的用户，并且可以移除对它的访问权限。
 
@@ -160,4 +162,4 @@ ht-degree: 1%
 
 ### 删除对已共享自定义表单中的自定义字段或小部件的访问权限 {#remove-access-to-a-custom-field-or-widget-in-a-custom-form-that-was-shared}
 
-如果您需要删除对已共享自定义表单中的自定义字段或小部件的访问权限，则需要取消共享该表单。 有关说明，请参阅[共享自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md#remove-access-to-a-custom-form-from-the-list-of-forms)一文中的[删除对自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)的访问权限。
+如果您需要删除对已共享自定义表单中的自定义字段或小部件的访问权限，则需要取消共享该表单。 有关说明，请参阅[共享自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)一文中的[删除对自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md#remove-access-to-a-custom-form)的访问权限。
