@@ -9,7 +9,7 @@ hide: true
 exl-id: 9ffad1aa-3c96-40fa-9c62-7a3e00699f18
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+source-git-commit: f11daa69f72c32418298ac75f81b0fb64835d99b
 workflow-type: tm+mt
 source-wordcount: '1892'
 ht-degree: 2%
@@ -224,9 +224,9 @@ Lilit is checking on this, it is not working correctly
 
    1. 从&#x200B;**继承权限**&#x200B;下拉菜单中选择&#x200B;**禁用**。
 
-   >[!TIP]
-   >
-   >Workspace管理员继续对记录类型和记录具有管理权限。
+      >[!TIP]
+      >
+      >Workspace管理员继续对记录类型和记录具有管理权限。
 
    1. （可选）选择&#x200B;**只有受邀人员才能从**&#x200B;谁有访问权限&#x200B;**区域访问**。 您必须指明要与之共享记录的个别用户、组、团队或公司。
 
