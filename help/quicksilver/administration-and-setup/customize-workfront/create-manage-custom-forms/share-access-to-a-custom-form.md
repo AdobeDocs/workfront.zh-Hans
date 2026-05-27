@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: bb5e1d1df73ecb4ae9749c5e0960b824bf2e6eda
+source-git-commit: 3e6ae76eea2e12fc7fc3a45dad753261a7bad628
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 2%
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # 共享自定义表单
 
-{#preview-fast-release-general}
+{{preview-fast-release-general}}
 
 您可以配置自定义表单的访问权限，以控制哪些人员（人员、角色、组、团队、公司、业务配置文件）可以查看、共享和编辑它。
 
