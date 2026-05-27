@@ -10,9 +10,9 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 15592c8dee4bae503382205b38b5daaef5cc74dd
+source-git-commit: b4a3a64abb1c5e6395ff91dc8c145135926a5cf6
 workflow-type: tm+mt
-source-wordcount: '7329'
+source-wordcount: '7447'
 ht-degree: 6%
 
 ---
@@ -724,8 +724,8 @@ ht-degree: 6%
       <p>如果所引用的API允许这样做，则还可以在搜索查询中包含修饰符以标识搜索应如何工作。 例如，您可以使用以下内容作为基本API URL，以允许人员搜索包含特定文本的任何Workfront项目： <code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code>。</p><p>在<a href="/help/quicksilver/wf-api/general/api-basics.md">API基础知识</a>中了解有关Workfront搜索修饰符的更多信息。</p>
       <p><strong>注意：</strong>如果您未使用$$QUERY，并且搜索框中的用户类型文本会缩小您现有的选择范围。 但是，如果您使用$$QUERY并且用户键入了任何内容，则会对您的API执行新的网络调用。 因此，如果您的API中有超过2000个值，并且该API支持查询，则您可以利用$$QUERY不仅从现有2000个值中进行搜索，还可以从具有缩小选项的原始API中进行搜索。</p></li>
       <li><p>{fieldName} — 其中fieldName是Workfront中的任何自定义或本机字段。 这样，在将已选字段的值传递到外部查找字段以筛选下拉选项时，您可以实施级联下拉选项过滤器。 （例如，表单上已存在区域字段，并且您正在将国家/地区列表从API缩小到特定区域的国家/地区。）</p>
-      <p>对于依赖其他字段的外部查找字段（使用{fieldName}语法），从API返回的选项仅限于匹配在其他字段中输入的任何字符串或值的选项。 （列表和报告不支持此功能。）</p></li>
-      <li>{referenceObject}。{fieldName} — 其中字段是对象的一部分。 此语法类似于自定义表达式。 (例如，portfolioID={project}。{portfolioID})</li></ul>
+      <p>对于依赖其他字段的外部查找字段（使用{fieldName}语法），从API返回的选项仅限于与其他字段输入的任何字符串或值匹配的选项。 （列表和报告不支持此功能。）</p></li>
+      <li>{referenceObject}.{fieldName} — 其中字段是对象的一部分。 此语法类似于自定义表达式。 （例如，portfolioID={project}.{portfolioID}）</li></ul>
       <p><strong>提示：</strong>查看文档以了解您正在使用的API，以便获取您可以定义的特定查询。</p></td>
      </tr>
      <tr> 
@@ -734,7 +734,7 @@ ht-degree: 6%
      </tr>
      <tr> 
       <td role="rowheader">JSON 路径</td>
-      <td><p>键入或粘贴API的JSON路径。</p> <p>此选项允许从API URL返回的JSON中提取数据。 它提供了一种方法，用于选择在JSON内的哪些值将显示在下拉选项中。</p><p>例如，如果API URL按以下格式返回JSON，则可以使用“$.data[*].name”选择“美国”和“加拿大”作为下拉选项：</br>
+      <td><p>键入或粘贴API的JSON路径。</p> <p>此选项允许从API URL返回的JSON中提取数据。 它提供了一种方法，用于选择在JSON内的哪些值将显示在下拉选项中。</p><p>例如，如果API URL按以下格式返回JSON，则可以使用“$.data[*].name”选择美国和加拿大作为下拉选项：</br>
       <pre>
       &lbrace;
        数据： &lbrace;
@@ -841,7 +841,7 @@ The Workfront Mobile app
       <li> <p>YouTube或Vimeo链接</p> </li> 
       <li> <p>Google Drive视频链接</p> </li> 
       <li> <p>视频链接，带有MP4和MOV扩展</p> </li> 
-      <li> <p>视频链接已上传到Workfront实例中的文档区域。 有关说明，请参阅本文中的“文档”区域<a href="#add-a-video-widget-to-a-custom-form-from-the-documents-area" class="MCXref xref">中的</a>将视频小组件添加到自定义表单。</p> </li> 
+      <li> <p>视频链接已上传到Workfront实例中的文档区域。 有关说明，请参阅本文中的“文档”区域</a>中的<a href="#add-a-video-widget-to-a-custom-form-from-the-documents-area" class="MCXref xref">将视频小组件添加到自定义表单。</p> </li> 
       </ul> 
        </td> 
      </tr> 
@@ -900,24 +900,32 @@ The Workfront Mobile app
 
 | 字段名称 | 项目 | 任务 | 问题 | 模板 | 模板任务 | 项目组合 | 项目群 | 组 |
 |--------------------------- |-------- |------- |------- |--------- |-------------- | --------- |-------- |------ |
+| <span class="preview">实际收益</span> | <span class="preview">✓ </span> |   |   |   |   |   |   |   |
 | 实际完成日期 | ✓ | ✓ | ✓ |   |   |   |   |   |
 | 实际持续时间 | ✓ |   |   |   |   |   |   |   |
 | 实际小时数 | ✓ |   | ✓ |   |   |   |   |   |
 | 实际开始日期 | ✓ | ✓ | ✓ |   |   |   |   |   |
+| <span class="preview">预算</span> | <span class="preview">✓ </span> |   |   | <span class="preview"> ✓ </span> |   | <span class="preview"> ✓ </span> |   |   |
 | 公司 | ✓ |   |   | ✓ |   |   |   |   |
 | 条件 | ✓ | ✓ | ✓ |   |   |   |   |   |
 | 完成情况类型 | ✓ |   |   | ✓ |   |   |   |   |
+| <span class="preview">货币</span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
 | 描述 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | 持续时间 |   | ✓ |   |   | ✓ |   |   |   |
 | 持续时间类型 |   | ✓ |   |   | ✓ |   |   |   |
 | 持续时间单位 |   | ✓ |   |   | ✓ |   |   |   |
 | 输入者 | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
 | 输入日期 | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
+| <span class="preview">汇率日期</span> | <span class="preview"> ✓ </span> |   |   |   |   |   |   |   |
+| <span class="preview">固定成本</span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
+| <span class="preview">固定收入</span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
 | 组 | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
 | 上次更新者 | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | 上次更新日期 | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | 名称 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | 所有者 | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
+| <span class="preview">绩效指数方法</span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
+| <span class="preview">计划收益</span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
 | 规划完成日期 | ✓ | ✓ | ✓ |   |   |   |   |   |
 | 计划持续时间 | ✓ |   |   | ✓ |   |   |   |   |
 | 规划小时数 | ✓ | ✓ | ✓ |   | ✓ |   |   |   |
@@ -935,9 +943,29 @@ The Workfront Mobile app
 | 状态 | ✓ | ✓ |   |   |   |   |   |   |
 | 故事点数 |   | ✓ |   |   |   |   |   |   |
 | 模板 | ✓ |   |   |   |   |   |   |   |
+| <span class="preview">总估计成本</span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
+| 总估计收入<span class="preview"></span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
 | URL | ✓ | ✓ |   | ✓ | ✓ |   |   |   |
 
 {style="table-layout:auto"}
+
+<div class="preview">
+
+这些额外的自定义表单对象类型还支持本机字段引用。
+
+* 开票记录：“固定收入”字段
+* 文档：“名称”、“描述”字段
+* 公司：名称、组字段
+* 费率卡：“名称”、“描述”、“公司”、“组”字段
+* 工作角色：“名称”、“描述”字段
+
+</div>
+
+<!--
+Non-Labor Resource: Name, Description, Home Group, Non-labor Category, Non-labor Group, Unique Identifier fields
+Staffing Plan: Name, Description, Owner, Group, Company, Currency, Schedule, Start Date, End Date, Available Estimated Hours, Total Estimated Hours, Reference Number, Entered By, Entry Date, Last Updated By, Last Updated Date, Total Estimated Cost, Total Estimated Revenue fields
+Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
+-->
 
 +++
 
@@ -1169,11 +1197,9 @@ The Workfront Mobile app
 
 ### 添加UI扩展
 
-可以使用UI扩展字段类型将应用程序嵌入到Workfront自定义表单中。 要创建UI扩展，您必须有权访问Adobe Developer Console中的Adobe App Builder 。 有关信息，请参阅[使用Workfront App Builder为Workfront创建自定义应用程序](/help/quicksilver/app-builder/app-builder.md#embed-an-app-using-a-workfront-custom-form)一文中的[使用Adobe自定义表单嵌入应用程序](/help/quicksilver/app-builder/app-builder.md)。
+可以使用UI扩展字段类型将应用程序嵌入到Workfront自定义表单中。 要创建UI扩展，您必须有权访问Adobe Developer Console中的Adobe App Builder 。 有关信息，请参阅[使用Workfront App Builder为Workfront创建自定义应用程序](/help/quicksilver/app-builder/app-builder.md)一文中的[使用Adobe自定义表单嵌入应用程序](/help/quicksilver/app-builder/app-builder.md#embed-an-app-using-a-workfront-custom-form)。
 
 ## 使用表单设计器组织和预览表单
 
 有关如何组织带有分区界限的自定义表单并查看表单预览的信息，请参阅[使用表单设计器组织和预览表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)。
-
-
 
