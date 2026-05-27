@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 264419f747b1e975cda8843b37558e78501d93de
+source-git-commit: bb5e1d1df73ecb4ae9749c5e0960b824bf2e6eda
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 2%
@@ -190,3 +190,4 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
 1. 在共享框中，单击您不再希望对该表单具有特殊访问权限的用户、团队、角色、组、公司或业务配置文件名称右侧的下拉菜单，然后选择&#x200B;**删除**。
 1. （可选）对要删除的其他名称重复上一步骤。
 1. 单击&#x200B;**保存**。
+
