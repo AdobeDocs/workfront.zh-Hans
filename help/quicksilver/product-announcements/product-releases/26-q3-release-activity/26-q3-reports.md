@@ -4,7 +4,7 @@ description: 2026年第三季度报告增强功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a177e2887c2b8b281b19cda45ce59c6f8149cefb
+source-git-commit: a88a468901cc7a28139315ab820fc612f1c31736
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 0%
@@ -42,3 +42,4 @@ ht-degree: 0%
 以前，相关记录之间的连接可以为每个相关记录重复一次父记录。 例如，在筛选为分配给特定用户的任务的项目报告中，每个项目都会为每个匹配任务重复一次。 汇总项目预算的KPI可以显示6,000美元，而不是正确的1,250美元。
 
 对画布功能板界面没有更改。 在此版本之后，现有报表会自动返回准确的数据。
+

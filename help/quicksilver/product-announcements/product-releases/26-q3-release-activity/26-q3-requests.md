@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d5fe72c-7af5-4699-8344-36cfdd3810d0
-source-git-commit: 169feed0dd802fb7c51521044a10fd0ce875cb4f
+source-git-commit: a88a468901cc7a28139315ab820fc612f1c31736
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 3%
@@ -50,3 +50,4 @@ ht-degree: 3%
 Workfront管理员可以在布局模板中添加或删除视图。 您无法编辑、删除或共享这些视图。 您可以复制它们并更新或共享副本。
 
 有关信息，请参阅[在请求区域](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)中创建和管理视图。
+
