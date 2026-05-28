@@ -8,9 +8,9 @@ role: User, Admin
 exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
+source-git-commit: 4eeb229206421d737b9543613608935eacb058f9
 workflow-type: tm+mt
-source-wordcount: '1524'
+source-wordcount: '1469'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Planning Designer目前仅适用于参与“已关闭的Beta”计划的用户。
+>Planning Designer当前适用于处于Beta状态的所有客户。
 >
 >本文中的信息介绍了Adobe Workfront Planning，它是Adobe Workfront的一项附加功能。
 >
@@ -61,12 +61,14 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证</p></td> 
    <td><p>标准</p> 
+   <p><span class="preview">系统管理员为您的组织启用Planning Designer</span></p>
   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
    <td>   <p>管理工作区</a>的权限 </p>  
-   <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>  </td> 
+   <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>  
+   </td> 
   </tr>  
 </tbody> 
 </table>
@@ -75,15 +77,53 @@ ht-degree: 0%
 
 +++
 
-## 注册已关闭的Beta项目以规划Designer
+## 为您的组织启用Planning Designer
 
-目前，您可以通过向我们发送电子邮件(sargism@adobe.com)来请求参加计划Designer的已关闭Beta计划。
+作为系统管理员，您可以为组织启用Planning Beta 。 打开此设置后，Workfront实例中的每个人可以在其“规划”区域中查看Planning Designer的功能。
 
-收到电子邮件后，我们的工程团队将在您的Workfront实例中打开规划Designer 。
+1. 以Workfront管理员身份登录Workfront。
+1. 单击&#x200B;**主菜单** ![主菜单图标](assets/main-menu-shell.png)，然后单击&#x200B;**设置**。
+1. 转到&#x200B;**系统** > **首选项** > **AI首选项**。
+1. 打开&#x200B;**启用AI**，并确保已与Adobe签署了Gen AI协议。
+1. 打开&#x200B;**计划Designer**&#x200B;设置。
+
+   系统首选项中的![规划Designer设置](assets/planning-designer-toggle-in-system-preferences.png)
+
+1. 单击&#x200B;**保存**。
+
+   Planning Designer创建或编辑工作区的功能现在可供贵组织中有权访问Planning的所有用户使用。
+
+<!--
+
+## Turn off the Planing Designer for your organization
+
+After your Workfront administrator accepts the AI Assistant agreement, the Planning Designer is turned on for everyone in your organization, by default. 
+
+To turn it off: 
+
+1. Log in to Workfront as a System Administrator. 
+1. Click **Main Menu** ![Main menu icon](assets/main-menu-shell.png) in the upper-left corner of the screen, then click **Setup**.
+1. Click **System** >  in the left panel, then go to the **AI preferences** area.
+1. Turn off the **Planning Onboarding** setting.
+1. Click **Save**.
+
+    This removes the Planning Designer for all users in the system.
+
+-->
+
+<!--
+
+## Enroll in the Closed Beta program for the Planning Designer
+
+Currently, you can request to participate in the Closed Beta program for the Planning Designer by sending us an email to sargism@adobe.com.
+
+After we receive the email, our Engineering team will turn on the Planning Designer in your Workfront instance. 
 
 >[!IMPORTANT]
 >
->您的公司必须首先接受AI助手协议，然后才能在系统中使用规划Designer。
+>Your company must first accept the AI Assistant agreement before the Planning Designer is available in your system. 
+
+-->
 
 ## 提交关于Planning Designer的反馈
 
@@ -103,18 +143,18 @@ ht-degree: 0%
 
 ## 关于Planning Designer的注意事项
 
-* 要使用Planning Designer，您首先需要为组织启用AI助手。 要使AI助手对贵组织中的每个人都可用，必须满足以下条件：
+* 要使用Planning Designer，您首先需要为组织启用AI。 要使AI功能对贵组织中的每个人都可用，必须满足以下条件：
 
-   * Workfront必须将AI助手设置为可用于您的组织。
+   * Workfront必须使AI功能对您的组织可用。
 
      有关详细信息，请参阅[AI助手先决条件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
-   * 在Workfront为贵组织提供AI助手后，Workfront的主要管理员可以访问该助手。
+   * 在Workfront为贵组织提供AI功能后，Workfront的主要管理员可以访问该功能。
 
      有关信息，请参阅[配置系统的基本信息](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md)。
-   * Workfront管理员必须接受AI Assistant协议，然后为所有其他用户打开AI Assistant。
+   * Workfront管理员必须接受Gen AI协议，然后为您的组织启用AI和规划Designer。
 
      有关详细信息，请参阅[启用或禁用AI助手](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)。
-* 系统管理员为您的组织启用AI助手后，如果已经为您的组织提供了Planning Designer，则默认情况下它可供所有用户使用。
+* 系统管理员为您的组织打开AI和Planning Designer后，默认情况下，Planning Designer可供所有用户使用。
 * 在Planning区域使用Planning Designer时，AI助手也可以执行由Planning Assistant执行的操作。
 * AI助手在“规划”区域中执行的操作或由Planning Designer执行的操作与您的Workfront Planning权限和Workfront访问级别相关。
 
@@ -233,18 +273,4 @@ ht-degree: 0%
    * 打开工作区并手动对其进行更改。 有关信息，请参阅[编辑工作区](/help/quicksilver/planning/architecture/edit-workspaces.md)。
    * 单击&#x200B;**使用AI编辑**。 这将打开Planning Designer。 重复上述步骤以使用AI，并对工作区进行进一步更改。
 
-## 为您的组织关闭Planing Designer
 
-在Workfront管理员接受AI助手协议后，默认情况下将为组织中的每个人打开规划Designer 。
-
-要将其关闭，请执行以下操作：
-
-1. 以系统管理员身份登录到Workfront。
-1. 单击屏幕左上角的&#x200B;**主菜单** ![主菜单图标](assets/main-menu-shell.png)，然后单击&#x200B;**设置**。
-1. 单击左侧面板中的&#x200B;**系统** >，然后转到&#x200B;**AI首选项**&#x200B;区域。
-1. 关闭&#x200B;**Planning Onboarding**&#x200B;设置。<!--add new screen shot with info icon and new name of the toggle; ensure you don't show the AI Reviewer if it is not in Prod yet-->
-
-   系统首选项中的![规划Designer设置](assets/planning-designer-toggle-in-system-preferences.png)
-1. 单击&#x200B;**保存**。
-
-   这将删除系统中所有用户的Planning Designer。
