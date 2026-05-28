@@ -9,15 +9,17 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 12242501adb13cd349a2282996c7186e90d6c94d
+source-git-commit: 90a15077a38f4740bc52835f2aab361535832df0
 workflow-type: tm+mt
-source-wordcount: '3928'
+source-wordcount: '4002'
 ht-degree: 0%
 
 ---
 
 
 # 统一审查和批准概述
+
+{{highlighted-preview}}
 
 统一的审核和批准将Adobe Workfront和Adobe Frame.io融于一个相互深入关联的体验中，从而弥合了营销管理、创意审核和内容交付之间的差距。
 项目协调员在Workfront中管理工作，而创意人员、营销人员和利益相关者在Frame.io专业级查看器中审阅和批准资源，所有这些操作都无需在断开连接的工具之间移动文件。
@@ -303,7 +305,9 @@ For both single-stage and multi-stage reviews, automated reminder emails are sen
 
 可以。 批准者和审阅者会在被分配到审阅或批准任务时收到电子邮件通知。 自动提醒电子邮件也会在截止日期前72小时、前24小时以及截止日期本身发送。
 
-自定义电子邮件通知消息的功能目前不可用，但位于产品路线图中。
+在生产环境中，自定义电子邮件通知消息的功能目前不可用，但位于产品路线图中。
+
+<span class="preview">在“预览”中，您可以向审批工作流的每个阶段添加自定义消息。 该消息会显示在批准电子邮件通知和Workfront的“批准”选项卡中。 您可以对每个阶段使用相同的消息，或者对每个阶段使用不同的消息，并且该消息最多可包含500个字符。 如果在创建审批工作流后编辑自定义消息，则会向所有现有参与者发送更新的电子邮件通知。 如果稍后添加参与者，则自定义消息将包含在其电子邮件通知中。 有关详细信息，请参阅[创建文档审批工作流](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。</span>
 
 <!--
 **Can I change the notification frequency for a unified approver or reviewer (for example, all comments, replies to my comments, or daily summaries)?**

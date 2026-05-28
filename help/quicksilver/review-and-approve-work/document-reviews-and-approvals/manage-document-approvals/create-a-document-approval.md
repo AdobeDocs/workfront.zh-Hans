@@ -8,14 +8,16 @@ feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 315ec33fdcb79c6ba739a40de92be92e829a96d5
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 3%
+source-wordcount: '1473'
+ht-degree: 2%
 
 ---
 
 # 创建文档审批工作流
+
+{{highlighted-preview}}
 
 您可以在Adobe Workfront中请求其他用户或团队批准文档，或请求他们审核文档而无需批准。
 
@@ -59,7 +61,7 @@ ht-degree: 3%
 
 +++
 
-## 从旧文档区域的“摘要”面板创建审批工作流
+## 从生产的旧文档区域中的“摘要”面板创建审批工作流
 
 如果您的组织位于Workfront存储中，则当您访问Workfront中的文档时，将会看到旧版文档区域。 有关Workfront存储的更多信息，请参阅[Adobe云存储与旧版Workfront存储之间的区别](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage)。
 
@@ -104,7 +106,61 @@ ht-degree: 3%
    ![文档详细信息](assets/new-stage.png)
 
 
-## 从新建文档区域的摘要面板创建审批工作流
+<div class="preview">
+
+## 在预览的旧文档区域的“摘要”面板中创建审批工作流
+
+如果您的组织位于Workfront存储中，则当您访问Workfront中的文档时，将会看到旧版文档区域。 有关Workfront存储的更多信息，请参阅[Adobe云存储与旧版Workfront存储之间的区别](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage)。
+
+要创建审批工作流，请执行以下操作：
+
+1. 转到包含文档的项目、任务或问题，然后在左侧面板中选择&#x200B;**文档**。
+
+1. 单击所需的文档，该文档的“文档摘要”面板将打开。
+
+1. 在版本下拉菜单中选择要为其创建审批的文档版本。 默认情况下会选择最新版本。
+
+1. 向下滚动到&#x200B;**审批**&#x200B;部分，然后单击&#x200B;**创建工作流**。
+
+1. 填写以下详细信息：
+
+   <table>
+   <tr>
+   <td><strong>阶段名称</strong></td>
+   <td>添加阶段名称。 您可以将名称更改为更具描述性的名称，如<em>初始审阅</em>或<em>最终批准</em>。</td>
+   </tr>
+   <tr>
+   <td><strong>添加姓名或电子邮件</strong></td>
+   <td>开始键入要作为审批者或审阅者添加的用户或团队名称。 如果您只有审阅人，则系统会通知他们并可以选择完成审阅，但无需或做出任何决定。</td>
+   </tr>
+   <tr>
+   <td><strong>只需一个决策（可选）</strong></td>
+   <td>第一个做出决策的人将完成阶段。</td>
+   </tr>
+   <tr>
+   <td><strong>到期日期（可选）</strong></td>
+   <td>设置审批的截止日期。 用户和团队将在指定到期日期之前的72小时（即24小时）通过电子邮件接收通知。</td>
+   </tr>
+   <tr>
+   <td><strong>添加自定义消息（可选）</strong></td>
+   <td>在<strong>添加自定义消息</strong>文本框中键入消息。该消息会显示在批准电子邮件通知和Workfront的“批准”选项卡中。
+   <p>添加第二个阶段时，默认情况下会选中<strong>在所有阶段上显示此消息</strong>。 将其保留为选中状态，以便在每个阶段中使用相同的消息。 若要对每个阶段使用不同的消息，请清除<strong>在所有阶段上显示此消息</strong>，然后根据需要在每个阶段的<strong>添加自定义消息</strong>文本框中键入特定于阶段的消息。</p></td>
+   </tr>
+   </table>
+
+1. （可选）根据需要重复上一步添加其他阶段。
+
+   >[!NOTE]
+   >
+   >* 如果添加多个阶段，则审批工作流会按阶段列出的顺序继续执行。 完成所有必需的决策后，将开始下一阶段，并锁定上一阶段。
+   >* 如果在创建审批工作流后编辑自定义消息，则会向所有现有参与者发送更新的电子邮件通知。 如果稍后添加参与者，则自定义消息将包含在其电子邮件通知中。
+
+   ![将自定义消息添加到阶段](assets/add-custom-message.jpeg)
+
+</div>
+
+
+## 从生产中新建文档区域的摘要面板创建审批工作流
 
 如果您的组织使用Adobe云存储，则在访问Workfront中的文档时，您将看到新的文档区域。 有关Adobe云存储的更多信息，请参阅[Adobe云存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
@@ -112,7 +168,7 @@ ht-degree: 3%
 
 1. 转到包含文档的项目、任务或问题，然后在左侧面板中选择&#x200B;**文档**。
 
-1. 单击文档，然后单击页面右侧的Approvals图标。
+1. 单击文档，然后单击页面右侧的&#x200B;**审批**&#x200B;图标。
 
    ![在文档摘要中添加批准者](assets/approvals-icon-new.png)
 
@@ -144,6 +200,58 @@ ht-degree: 3%
    >如果添加多个阶段，则审批工作流会按阶段列出的顺序继续执行。 完成所有必需的决策后，将开始下一阶段，并锁定上一阶段。
 
    ![文档详细信息](assets/new-stage.png)
+
+
+<div class="preview">
+
+## 在预览中新建文档区域的“摘要”面板中创建审批工作流
+
+如果您的组织使用Adobe云存储，则在访问Workfront中的文档时，您将看到新的文档区域。 有关Adobe云存储的更多信息，请参阅[Adobe云存储概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+
+要创建审批工作流，请执行以下操作：
+
+1. 转到包含文档的项目、任务或问题，然后在左侧面板中选择&#x200B;**文档**。
+
+1. 单击文档，然后单击页面右侧的&#x200B;**审批**&#x200B;图标。
+
+   ![在文档摘要中添加批准者](assets/approvals-icon-new.png)
+
+1. 单击&#x200B;**创建工作流**，然后填写以下详细信息：
+
+   <table>
+   <tr>
+   <td><strong>阶段名称</strong></td>
+   <td>添加阶段名称。 您可以将名称更改为更具描述性的名称，如<em>初始审阅</em>或<em>最终批准</em>。</td>
+   </tr>
+   <tr>
+   <td><strong>添加姓名或电子邮件</strong></td>
+   <td>开始键入要作为审批者或审阅者添加的用户或团队名称。 如果您只有审阅人，则系统会通知他们并可以选择完成审阅，但无需或做出任何决定。</td>
+   </tr>
+   <tr>
+   <td><strong>只需一个决策（可选）</strong></td>
+   <td>第一个做出决策的人将完成阶段。</td>
+   </tr>
+   <tr>
+   <td><strong>到期日期（可选）</strong></td>
+   <td>设置审批的截止日期。 用户和团队将在指定到期日期之前的72小时（即24小时）通过电子邮件接收通知。</td>
+   </tr>
+   <tr>
+   <td><strong>添加自定义消息（可选）</strong></td>
+   <td>在<strong>添加自定义消息</strong>文本框中键入消息。该消息会显示在批准电子邮件通知和Workfront的“批准”选项卡中。
+   <p>添加第二个阶段时，默认情况下会选中<strong>在所有阶段上显示此消息</strong>。 将其保留为选中状态，以便在每个阶段中使用相同的消息。 若要对每个阶段使用不同的消息，请清除<strong>在所有阶段上显示此消息</strong>，然后在每个阶段的<strong>添加自定义消息</strong>文本框中键入特定于阶段的消息。</p></td>
+   </tr>
+   </table>
+
+1. （可选）根据需要重复上一步添加其他阶段。
+
+   >[!NOTE]
+   >
+   >* 如果添加多个阶段，则审批工作流会按阶段列出的顺序继续执行。 完成所有必需的决策后，将开始下一阶段，并锁定上一阶段。
+   >* 如果在创建审批工作流后编辑自定义消息，则会向所有现有参与者发送更新的电子邮件通知。 如果稍后添加参与者，则自定义消息将包含在其电子邮件通知中。
+
+   ![将自定义消息添加到阶段](assets/add-custom-message.jpeg)
+
+</div>
 
 
 
