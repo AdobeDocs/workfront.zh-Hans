@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
+source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1372'
 ht-degree: 5%
 
 ---
@@ -22,13 +22,9 @@ ht-degree: 5%
 
 # 在Adobe Workfront Planning中共享权限概述
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
-
-
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -60,20 +56,17 @@ ht-degree: 5%
 
   有关详细信息，请参阅[共享记录类型](/help/quicksilver/planning/access/share-record-types.md)。
 
-<!--
 <div class="preview">
 
-* Records
-    
-    * You can share records with people inside your organization.
-    * Users inherit permissions from the workspace and the record type by default. 
-    * You cannot share a record with a higher or lower permission level than the user has on the record type. 
+* 记录
 
-    For more information, see [Share records](/help/quicksilver/planning/access/share-records.md).
+   * 您可以与组织内部人员共享记录。
+   * 默认情况下，用户从工作区和记录类型继承权限。
+   * 您无法共享权限级别高于或低于用户在记录类型上权限级别的记录。
+
+  有关详细信息，请参阅[共享记录](/help/quicksilver/planning/access/share-records.md)。
 
 </div>
-
--->
 
 * 视图
 
@@ -190,55 +183,48 @@ The following are the levels of permissions for record types:
 
 ### 记录的权限
 
-向工作区和记录类型授予权限时，记录权限继承自记录类型。
+默认情况下，当您向工作区和记录类型授予权限时，记录权限继承自记录类型。
 
-<!--In the Production environment, -->
-
-以下是记录的权限级别：
+在生产环境中，记录的权限级别如下：
 
 
 |        | 管理 | 贡献 | 视图 |
 |--------|--------|------------|-------|
 | 创建 | ✓ | ✓ |       |
 | 删除 | ✓ | ✓ |       |
-| 编辑 | ✓ | ✓ |       |
+| Edit | ✓ | ✓ |       |
 | 视图 | ✓ | ✓ | ✓ |
-
-<!--
 
 <div class="preview">
 
-In the Preview environment, the following are the levels of permissions for records: 
+在“预览”环境中，记录的权限级别如下：
 
-|        | Manage |  View  |
+|        | 管理 | 视图 |
 |--------|--------|-------|
-| Create | ✓      |       |
-| Delete | ✓      |       |
-| Edit   | ✓      |       |
-| View   | ✓      | ✓     |
+| 创建 | ✓ |       |
+| 删除 | ✓ |       |
+| Edit | ✓ |       |
+| 视图 | ✓ | ✓ |
 
+向工作区和记录类型授予权限时，将始终继承记录权限。
 
+您可以移除从记录类型接收的记录的继承权限。 Workspace管理人员和记录创建者保留对记录的管理权限。
 
-Record permissions are always inherited when you grant permissions to the workspace and the record type.
+您不能授予用户在记录类型上的权限低于或高于他们在记录类型上的权限。
 
-You can remove the record's inherited permissions received from the record type. Workspace managers and record creators retain Manage permissions to the record. 
+存在以下情况：
 
-You cannot give users lower or higher permissions on the record than they have on the record type. 
-
-The following scenarios exist: 
-
-|   Workspace and record type permissions     | Automatic inherited permissions for a Record |Possible Record permissions when Inherited permissions are turned off (granted manually)|
+| Workspace和记录类型权限 | 记录的自动继承权限 | 关闭继承权限时可能的记录权限（手动授予） |
 |--------|--------|-------------|
-| Manage |   Manage    |   Manage, Remove permissions*           |
-| Contribute |     Manage |  Manage, Remove permissions*        |
-| View   |  View     |      View, Remove permissions*        |
+| 管理 | 管理 | 管理，删除权限* |
+| 贡献 | 管理 | 管理，删除权限* |
+| 视图 | 视图 | 查看，删除权限* |
 
 >[!NOTE]
 >
->*When you remove permissions from a record, users still retain View permissions to the workspace and the record type, unless you remove their permissions from the workspace. 
+>*当您从记录中删除权限时，用户仍保留对工作区和记录类型的查看权限，除非您从工作区中删除其权限。
 
 </div>
--->
 
 ### 记录字段的权限
 
@@ -250,7 +236,7 @@ The following scenarios exist:
 |--------|--------|------------|-------|
 | 创建 | ✓ |            |       |
 | 删除 | ✓ |            |       |
-| 编辑 | ✓ |            |       |
+| Edit | ✓ |            |       |
 | 视图 | ✓ | ✓ | ✓ |
 
 
@@ -284,7 +270,10 @@ The following scenarios exist:
 | 视图 | ✓ |
 | 应用 | ✓ |
 
-*用户必须具有工作区的“查看”或更高权限才能获得此查看访问权限。
+>[!NOTE]
+>
+>*用户必须具有工作区的“查看”或更高权限才能获得此查看访问权限。
+
 
 <!--
 old view permissions, before sharing View permissions to a view through a workspace:

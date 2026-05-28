@@ -5,10 +5,9 @@ title: 配置Adobe Workfront MCP服务器
 description: 配置Workfront实例和AI代理平台，以便通过自然语言对话使用Workfront。
 author: Courtney
 feature: Get Started with Workfront
-hide: true
-source-git-commit: 98d5b93bcb99c468de2ad107a2aca3a9a1995429
+source-git-commit: f4f73cf44107850573e1a6966568645b9537b757
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -16,70 +15,89 @@ ht-degree: 0%
 
 # 配置Adobe Workfront MCP服务器
 
-[!DNL Adobe Workfront] MCP服务器允许您在受支持的AI代理平台（如Claude或ChatGPT）中通过自然语言对话处理Workfront数据。
+{{highlighted-preview-article-level}}
+
+
+[!DNL Adobe Workfront] MCP服务器允许您在受支持的AI代理平台上通过自然语言对话处理Workfront数据。
 
 在将AI代理平台连接到Workfront之前，Workfront管理员必须在Workfront实例中启用MCP服务器访问。 对于每个受支持的AI代理平台，连接AI代理平台的确切步骤有所不同。
 
-有关Workfront MCP服务器的详细信息，请参阅[Adobe Workfront MCP服务器概述](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-overview.md)。
+>[!IMPORTANT]
+>
+>目前，Workfront MCP服务器仅适用于美国地区的客户以及使用AWS的客户。
 
 ## 支持的AI代理平台
 
-Workfront MCP服务器当前支持以下AI代理平台：
+Workfront MCP服务器可与支持模型上下文协议(MCP)的任何AI代理平台配合使用。
+
+本文逐步介绍的连接步骤：
 
 * [!DNL Claude]
 * [!DNL ChatGPT]
+
+如果您使用其他MCP兼容的AI代理平台（例如，[!DNL Gemini]或[!DNL Microsoft Copilot]），请按照该平台文档中的步骤添加自定义MCP服务器。 当提示输入MCP服务器URL时，输入： `https://mcp.workfront.adobe.com/mcp/v1/workfront`
+
 
 ## 先决条件
 
 在将Workfront连接到AI代理平台之前，您必须：
 
-* 拥有活动[!DNL Adobe Workfront]帐户，该帐户具有访问要处理的数据的权限。
-* 有权访问AI代理平台，如[!DNL Claude]。
+* 拥有活动[!DNL Adobe Workfront]帐户，该帐户具有访问要使用的数据的权限
+* 有权访问AI代理平台，如[!DNL Claude]
 
 ### 管理员先决条件
 
 MCP服务器访问由两个不同的管理员控制。
 
-* **您的Workfront管理员**&#x200B;控制您的Workfront实例的MCP服务器访问权限。 默认情况下，系统首选项中会启用访问，因此除非管理员已选择禁用访问，否则无需执行任何操作。<!-- TODO: link to the System Preferences AI preferences article once the Enable MCP toggle is documented there. -->
+* 您的Workfront管理员通过系统首选项中的两个切换控制Workfront实例的MCP服务器访问：**只读MCP工具**（默认启用）和&#x200B;**写入MCP工具**（默认禁用）。 如果您可以通过AI代理平台找到Workfront项目，但无法创建、更新或删除它们，请让Workfront管理员启用写入操作。
 
-* 如果您使用企业版AI代理平台，则该平台的管理员必须为您的组织启用[!DNL Adobe Workfront]连接器。
+  有关详细信息，请参阅[配置系统首选项](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
+
+* 如果您使用企业版AI代理平台，则该平台的管理员必须为您的组织启用[!DNL Adobe Workfront]连接器，或为您提供自定义URL访问权限以连接到Workfront MCP服务器。
 
 
 ## 将Workfront连接到克劳德
 
 您为每个[!DNL Claude]帐户连接到Workfront一次。 该连接会向您验证特定Workfront实例，在您选择断开连接之前，您会一直保持连接。
 
-### 从连接器目录连接
 
-+++ 展开以查看有关将Workfront连接到[!DNL Claude]的分步说明。
 
-要将Workfront连接到[!DNL Claude]，请执行以下操作：
+### 从连接器目录连接到Claude desktop
 
-1. 打开[!DNL Claude]。
+即将推出。
 
-1. 导航到连接器区域。
+<!--
 
-   <!-- NEEDS DETAIL: Exact menu path (for example, "Click Settings, then click Connectors"). -->
++++ Expand to view step-by-step instructions for connecting Workfront to [!DNL Claude].
 
-1. 在连接器列表中查找&#x200B;**[!DNL Adobe Workfront]**。
+To connect Workfront to [!DNL Claude]:
 
-   如果您没有看到此项，请参阅本文中的[管理员先决条件](#admin-prerequisites)。
+1. Open [!DNL Claude].
 
-1. 单击&#x200B;**连接**。
+1. Navigate to the connectors area.
 
-   <!-- NEEDS DETAIL: Confirm the exact button label. -->
 
-1. 出现提示时，登录到您的Workfront实例。
 
-   <!-- NEEDS DETAIL: Describe the auth flow — does it open a new browser tab, an in-app window, prompt for a Workfront domain? -->
+1. Find **[!DNL Adobe Workfront]** in the connector list.
 
-1. 身份验证完成后，你已连接。
+   If you don't see it, see [Admin prerequisites](#admin-prerequisites) in this article.
 
-   <!-- NEEDS DETAIL: Add a screenshot of the connected state in Claude. -->
+1. Click **Connect**.
+
+
+
+1. When prompted, log in to your Workfront instance.
+
+
+1. After authentication completes, you're connected.
+
+
 
 +++
 
-### 使用URL连接
+-->
+
+### 使用URL连接到Claude Desktop
 
 +++ 展开以查看使用URL将Workfront连接到[!DNL Claude]的分步说明。
 
@@ -198,8 +216,7 @@ What happens next
 | 身份验证失败，或连接停止工作。 | 您的身份验证会话已过期或存在连接错误。 | 断开并重新连接连接器。 |
 | 您希望切换到其他Workfront实例。 | 单个连接会将您绑定到一个实例。 | 断开新实例的连接、重新连接并进行身份验证。 |
 | 您无法连接到Workfront，或者您看到一条消息，表明MCP服务器访问被禁用。 | 您的Workfront管理员已关闭实例的MCP服务器访问。 | 请与Workfront管理员联系，要求他们在“系统首选项”中启用MCP服务器访问。 |
-
-<!-- NEEDS DETAIL: Add additional setup/authentication troubleshooting scenarios discovered during hands-on testing. -->
+| AI代理平台可以找到您的Workfront项目，但无法创建、更新或删除它们。 | 您的Workfront管理员已禁用Workfront MCP服务器的写入操作。 | 联系Workfront管理员，要求他们在“系统首选项”中启用写入操作。 |
 
 有关连接后的日常故障排除（例如，陈旧的结果或意外行为），请参阅[使用Adobe Workfront MCP服务器](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)。
 
