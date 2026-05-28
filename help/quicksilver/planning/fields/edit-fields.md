@@ -152,7 +152,7 @@ Old:
   >不会通知其他用户字段配置已更改。
 
 * 您可以从连接的记录中编辑现有查找字段。
-* 除了按照本文的[编辑字段设置](#edit-field-settings-1)部分中所述编辑字段外，在表视图中编辑记录时，在更新字段值时，还可以编辑单选或多选字段的选项。 有关信息，请参阅本文中在表视图](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view)中编辑记录时[将新选择添加到现有选择字段。
+* 除了按照本文的[编辑字段设置](#edit-field-settings-1)部分中所述编辑字段外，在表视图中编辑记录时，在更新字段值时，还可以编辑单选或多选字段的选项。 有关信息，请参阅本文中在表视图[&#128279;](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view)中编辑记录时将新选择添加到现有选择字段。
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 
