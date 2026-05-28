@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 38f3e460e2d3c4840c12dda82859d46828349a80
+source-git-commit: 4760a0daf0abd8afe90c7447a2075f8fb3f2f191
 workflow-type: tm+mt
 source-wordcount: '2582'
 ht-degree: 1%
@@ -23,7 +23,6 @@ ht-degree: 1%
 <span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
 <span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
 
 {{planning-important-intro}}
 
@@ -134,8 +133,8 @@ Not sure how to change the request status, but dev also said: Changing the names
 
 {{step1-to-requests}}
 
-1. 打开屏幕右上角的&#x200B;**使用新体验**&#x200B;设置。
-启用此设置后，Workfront计划请求表单将在Workfront的&#x200B;**请求**&#x200B;区域中可用。
+1. 打开屏幕右上角的&#x200B;**使用新体验**设置。
+启用此设置后，Workfront计划请求表单将在Workfront的**请求**&#x200B;区域中可用。
 
    >[!TIP]
    >
