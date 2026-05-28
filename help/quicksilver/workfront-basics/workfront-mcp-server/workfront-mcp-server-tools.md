@@ -5,9 +5,9 @@ title: Adobe Workfront MCP服务器工具
 description: 通过Adobe Workfront MCP服务器可用的工具参考列表，按Workfront区域分组。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: a88a468901cc7a28139315ab820fc612f1c31736
+source-git-commit: 4c98518dfc667ee288e520c2bbe6e550803d5be7
 workflow-type: tm+mt
-source-wordcount: '1615'
+source-wordcount: '1664'
 ht-degree: 5%
 
 ---
@@ -48,8 +48,13 @@ ht-degree: 5%
 | 按版本ID获取文档 | `approvals_get_document_by_version_id` | 获取已知文档版本ID的文档详细信息（名称、大小、上传日期、上传程序）。 | 读取 |
 | 按项目获取文档 | `approvals_get_documents_by_project` | 列出Workfront项目中的文档，以及每个文档的当前版本ID。 | 读取 |
 | 解析文档范围 | `approvals_resolve_document_scope` | 将项目或文件夹展开到其中包含的文档版本ID列表中。 支持项目、文件夹和按名称文件夹范围。 | 读取 |
-| 列出AEM链接的文件夹 | `approvals_list_aem_linked_folders` | 列出链接到Workfront的Adobe Experience Manager文档文件夹。 | 读取 |
-| 将文档发送到AEM文件夹 | `approvals_send_documents_to_aem_folder` | 将一个或多个Workfront文档移动到与AEM链接的文件夹。 | 写入 |
+| 列出AEM链接的文件夹* | `approvals_list_aem_linked_folders` | 列出链接到Workfront的Adobe Experience Manager文档文件夹。 | 读取 |
+| 将文档发送到AEM文件夹* | `approvals_send_documents_to_aem_folder` | 将一个或多个Workfront文档移动到与AEM链接的文件夹。 | 写入 |
+
+*您必须在Workfront实例中配置本机[!DNL Adobe Experience Manager]集成，才能使用这些工具。 有关详细信息，请参阅[Adobe Experience Manager Assets集成概述](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)。
+
+
+*Adobe云存储上的项目尚不支持将文档发送到AEM文件夹。 预计未来版本将会提供支持。
 
 ### 审批工作流
 
