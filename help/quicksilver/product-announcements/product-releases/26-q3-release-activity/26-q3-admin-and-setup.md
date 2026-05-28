@@ -4,7 +4,7 @@ description: 2026年第三季度管理员增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 169feed0dd802fb7c51521044a10fd0ce875cb4f
+source-git-commit: a88a468901cc7a28139315ab820fc612f1c31736
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%
@@ -66,3 +66,4 @@ ht-degree: 0%
 目前，批量编辑对象时，仅在用户修改必填字段时强制执行该字段。 如果未修改字段，则会将其视为可选字段，且不会验证该字段。
 
 新的系统首选项现在允许您强制批量编辑中的必填字段。 要不允许保存批量编辑的对象，除非所有必填字段都有值，请在“设置”>“系统”>“首选项”页面上选择选项&#x200B;**“始终强制批量编辑必填字段**”。
+

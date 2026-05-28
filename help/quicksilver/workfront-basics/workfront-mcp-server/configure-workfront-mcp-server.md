@@ -5,9 +5,9 @@ title: 配置Adobe Workfront MCP服务器
 description: 配置Workfront实例和AI代理平台，以便通过自然语言对话使用Workfront。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: f4f73cf44107850573e1a6966568645b9537b757
+source-git-commit: 46cc21fb1b7bb66b34dac5e7aa53c096c46e5b29
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1207'
 ht-degree: 0%
 
 ---
@@ -224,21 +224,19 @@ What happens next
 +++
 
 
-<!--
+
+
+## 有关设置的常见问题解答
+
++++ 展开以查看有关设置Workfront MCP服务器的常见问题解答。
+
+### 我是否可以同时连接到多个Workfront实例？
+
+不可以。 每个连接都将AI代理平台绑定到单个Workfront实例。 要切换，请断开并重新连接，对新实例进行身份验证。
+
+### 由哪个管理员启用此功能？
+
+Workfront管理员和AI代理平台管理员。 您的Workfront管理员可以在Workfront端启用MCP服务器访问。 AI代理平台的管理员可在该平台上启用Workfront访问权限。 对于[!DNL Claude]，[!DNL Claude]企业管理员启用[!DNL Adobe Workfront]连接器。
+
 +++
 
-## Frequently asked questions about setup
-
-+++ Expand to view frequently asked questions about setting up the Workfront MCP server.
-
-### Can I connect to multiple Workfront instances at once?
-
-No. Each connection ties an AI agentic platform to a single Workfront instance. To switch, disconnect and reconnect, authenticating to the new instance.
-
-### Which administrator enables this?
-
-Both your Workfront administrator and the administrator for your AI agentic platform. Your Workfront administrator enables MCP server access on the Workfront side. The administrator for your AI agentic platform enables Workfront access on that platform's side. For [!DNL Claude], the [!DNL Claude] Enterprise administrator enables the [!DNL Adobe Workfront] connector.
-
-+++
-
--->

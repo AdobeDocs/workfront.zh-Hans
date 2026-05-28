@@ -5,7 +5,7 @@ title: 使用Adobe Workfront MCP服务器
 description: 使用Adobe Workfront MCP服务器可通过人工智能代理平台中的自然语言对话，搜索、创建、更新和管理Workfront项目。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: e7dadae62ea2f5e9772705cafdc5e067cec1ae08
+source-git-commit: a88a468901cc7a28139315ab820fc612f1c31736
 workflow-type: tm+mt
 source-wordcount: '1642'
 ht-degree: 0%
@@ -254,3 +254,4 @@ Workfront的正确操作并为您选择正确的工具。 如果您是
 MCP服务器通常会自动更新，但有时您可能需要刷新与MCP服务器的连接才能查看最新的工具和功能。
 
 +++
+
