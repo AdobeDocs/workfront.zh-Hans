@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: c729a68bbbfbe4f284f4304f6f779154dc4cbd10
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,38 @@ ht-degree: 0%
 本页介绍了在2026年第三季度版本中对“预览”环境所做的文档增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2026年第三季度发布周期中此时可用的所有更改列表，请参阅[2026年第三季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)。
+
+<!--
+## Print summary for documents in the new Documents area
+
+>[!NOTE]
+>
+>Preview: May 28, 2026
+>Production fast release: June 11, 2026
+>Production for everyone: July 16, 2026
+
+You can now open a printable summary of a document's approval directly from the new Documents area. This feature is available to organizations using Adobe cloud storage. 
+
+After a document has an approval, a **Print summary** option appears in the Document Details panel's Overview section. Clicking **Open Print Summary** opens the Frame.io Print Comments page, which shows the asset preview, comments, and approval decisions in a printable format.
+
+For more information, see [Document Details overview](/help/quicksilver/documents/managing-documents/document-details-overview.md) and [Summary for documents overview](/help/quicksilver/documents/managing-documents/summary-for-documents.md).
+-->
+
+## 向文档审批工作流阶段添加自定义消息
+
+>[!NOTE]
+>
+>预览： 2026年5月28日>生产快速发布： 2026年6月11日>适用于所有人的生产： 2026年7月16日
+
+您现在可以向文档审批工作流的每个阶段添加自定义消息。 该消息会显示在批准电子邮件通知和Workfront的“批准”选项卡中。
+
+* 对每个阶段使用相同的消息，或者对每个阶段使用不同的消息。
+* 消息最多可包含500个字符。
+* 如果在创建审批工作流后编辑自定义消息，则会向所有现有参与者发送更新的电子邮件通知。 如果稍后添加参与者，则自定义消息将包含在其电子邮件通知中。
+
+这既适用于旧版文档区域（Workfront存储），也适用于新版文档区域（Adobe云存储）。
+
+有关详细信息，请参阅[创建文档审批工作流](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
 
 ## 在文档区域查看Experience Manager Assets和审批状态徽章
 

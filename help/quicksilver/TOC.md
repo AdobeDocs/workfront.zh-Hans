@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: e9e00f99ec75156b20407cba7914e746123ec010
+source-git-commit: e94f01963995e80853fa1492cf2d23d811fc9373
 workflow-type: tm+mt
-source-wordcount: '14155'
+source-wordcount: '14165'
 ht-degree: 2%
 
 ---
@@ -21,10 +21,12 @@ ht-degree: 2%
       * [为Adobe Workfront季度版本做准备](product-announcements/product-releases/release-readiness.md)
       * 2026年第三季度发行 {#release-26-q3}
          * [2026年第三季度发行版概述](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)
+         * [2026年第三季度管理员增强功能](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md)
          * [2026年第三季度文档增强](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md)
          * [2026年第三季度财务管理增强功能](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md)
          * [2026年第三季度报告增强功能](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md)
          * [2026年第三季度请求增强功能](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md)
+         * [2026年第三季度其他增强功能](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md)
       * 2026年第二季度发布 {#release-26-q2}
          * [2026年第二季度发行版概述](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
          * [2026年第二季度管理员增强功能](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md)
@@ -941,12 +943,12 @@ ht-degree: 2%
       * [启用或禁用AI助手](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
       * [使用AI自动填写请求](/help/quicksilver/workfront-basics/ai-assistant/autofill-request-with-ai.md)
       * [项目运行状况概述](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md)
-   * {hide-from-toc} Workfront MCP服务器 {#workfront-mcp-server}
-      * {hide-from-toc}[Workfront MCP服务器：文章索引](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server.md)
-      * {hide-from-toc}[Adobe Workfront MCP服务器概述](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-overview.md)
-      * {hide-from-toc}[配置Adobe Workfront MCP服务器](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)
-      * {hide-from-toc}[使用Adobe Workfront MCP服务器](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)
-      * {hide-from-toc}[Adobe Workfront MCP服务器工具](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md)
+   * Workfront MCP服务器 {#workfront-mcp-server}
+      * [Workfront MCP服务器：文章索引](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server.md)
+      * [Adobe Workfront MCP服务器概述](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-overview.md)
+      * [配置Adobe Workfront MCP服务器](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)
+      * [使用Adobe Workfront MCP服务器](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)
+      * [Adobe Workfront MCP服务器工具](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md)
    * 更新工作项并查看更新 {#update-work-items-view-updates}
       * [更新工作项并查看更新：文章索引](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
       * [更新部分概述](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -2197,7 +2199,7 @@ ht-degree: 2%
       * [共享工作区](planning/access/share-workspaces.md)
       * [共享记录类型](planning/access/share-record-types.md)
       * [共享视图](planning/access/share-views.md)
-      * {hide-from-toc}[共享记录](planning/access/share-records.md)
+      * [共享记录](planning/access/share-records.md)
       * [请求对视图或工作区的权限](planning/access/request-permissions.md)
    * Adobe Workfront Planning记录 {#adobe-workfront-planning-records}
       * [记录：文章索引](planning/records/records-information.md)
