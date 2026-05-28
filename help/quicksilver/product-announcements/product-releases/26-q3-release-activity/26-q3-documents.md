@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: a88a468901cc7a28139315ab820fc612f1c31736
+source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 0%
@@ -76,4 +76,3 @@ For more information, see [Document Details overview](/help/quicksilver/document
 当存储使用量达到配额的75% 、 85%和100%时， Workfront管理员会自动收到电子邮件通知。
 
 有关详细信息，请参阅[检查文档存储限制](/help/quicksilver/documents/managing-documents/check-document-storage.md)。
-
