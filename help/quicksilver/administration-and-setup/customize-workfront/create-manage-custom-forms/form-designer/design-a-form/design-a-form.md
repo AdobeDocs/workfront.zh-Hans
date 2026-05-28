@@ -10,9 +10,9 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b4a3a64abb1c5e6395ff91dc8c145135926a5cf6
+source-git-commit: 7457f6888a0e79d499c4cca47bd4b4b5ac55a52b
 workflow-type: tm+mt
-source-wordcount: '7447'
+source-wordcount: '7342'
 ht-degree: 6%
 
 ---
@@ -65,29 +65,29 @@ ht-degree: 6%
 
    ![选择对象类型](assets/new-custom-form-select-objects-032526.png)
 
-+++ 展开以查看支持自定义表单的对象列表。
+   +++ 展开以查看支持自定义表单的对象列表。
 
-* 项目
-* 任务
-* 问题/请求
-* 项目组合
-* 文档
-* 项目群
-* 费用
-* 用户
-* 公司
-* 开发周期
-* 账单记录
-* 组
-* 团队
+   * 项目
+   * 任务
+   * 问题/请求
+   * 项目组合
+   * 文档
+   * 项目群
+   * 费用
+   * 用户
+   * 公司
+   * 开发周期
+   * 账单记录
+   * 组
+   * 团队
 
-如果您在Workflow Ultimate包中，则还可以为这些对象创建自定义表单：
+   如果您在Workflow Ultimate包中，则还可以为这些对象创建自定义表单：
 
-* 工作角色
-* 费率卡
-* 任务
+   * 工作角色
+   * 费率卡
+   * 任务
 
-+++
+   +++
 
 1. 在&#x200B;**添加表单名称**&#x200B;区域，键入自定义表单标题。
 1. （可选）如果要向表单添加更多对象类型，以便将其附加到更多对象，请单击表单设计器标题中的&#x200B;**对象类型**。 选择要添加的对象类型，然后取消选择要从表单中删除的任何对象类型。
@@ -155,8 +155,8 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->虽然可以这样做，但我们建议，在您或其他用户开始使用Workfront中的自定义表单后，不要更改此名称。 如果这样做，系统将不再能够识别Workfront其他区域中现在可能引用该字段的自定义字段。
->例如，如果您将自定义字段添加到报表后更改其名称，Workfront将无法识别该字段在报表中的名称，并且除非您使用新名称将其重新添加到报表，否则该字段将在报表中停止正常工作。
+>虽然可以这样做，但我们建议，在您或其他用户开始使用Workfront中的自定义表单后，不要更改此名称。如果这样做，系统将不再能够识别Workfront其他区域中现在可能引用该字段的自定义字段。
+>例如，如果将该自定义字段添加到报表中后更改其名称，Workfront将无法识别该自定义字段，并且除非您使用新名称将该自定义字段重新添加到报表中，否则它将在报表中停止正常工作。
 >
 >我们建议您不要键入已用于内置Workfront字段的名称。
 >
@@ -260,7 +260,7 @@ ht-degree: 6%
     </tr>
     <tr>
     <td>说明</td>
-    <td>键入有关该字段的任何其他信息。 当用户填写自定义表单时，可以将光标悬停在问号图标上，以查看包含您在此处键入的信息的工具提示。
+    <td>键入有关该字段的任何其他信息。当用户填写自定义表单时，可以将光标悬停在问号图标上，以查看包含您在此处键入的信息的工具提示。
     <img src="assets/instructions-form-designer.png">
     </td>
     <td><ul>
@@ -734,14 +734,14 @@ ht-degree: 6%
      </tr>
      <tr> 
       <td role="rowheader">JSON 路径</td>
-      <td><p>键入或粘贴API的JSON路径。</p> <p>此选项允许从API URL返回的JSON中提取数据。 它提供了一种方法，用于选择在JSON内的哪些值将显示在下拉选项中。</p><p>例如，如果API URL按以下格式返回JSON，则可以使用“$.data[*].name”选择美国和加拿大作为下拉选项：</br>
+      <td><p>键入或粘贴API的JSON路径。</p> <p>此选项允许从API URL返回的JSON中提取数据。 它提供了一种方法，用于选择在JSON内的哪些值将显示在下拉选项中。</p><p>例如，如果API URL按以下格式返回JSON，则可以使用“$.data[*].name”选择“美国”和“加拿大”作为下拉选项：</br>
       <pre>
-      &lbrace;
-       数据： &lbrace;
+      {
+       数据： {
          { name： "USA"}，
          { name： "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>有关JSON路径并确保编写正确JSON路径的更多信息，请参阅<a href="https://jsonpath.com/">https://jsonpath.com/</a>。</p></td>
@@ -1063,7 +1063,7 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>（必需）键入或粘贴有效的XD原型链接。</p> 
-      <p><b>注意</b>： Adobe XD中“共享”选项卡上的“链接访问”设置必须设置为具有链接的任何人。 否则，用户将无法查看原型。 
+      <p><b>注意</b>： Adobe XD中“共享”选项卡上的“链接访问”设置必须设置为具有链接的任何人。否则，用户将无法查看原型。 
    </td> 
      </tr> 
      <tr> 
