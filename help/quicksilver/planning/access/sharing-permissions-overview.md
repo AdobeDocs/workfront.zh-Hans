@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1114'
 ht-degree: 5%
 
 ---
@@ -60,15 +60,30 @@ ht-degree: 5%
 
   有关详细信息，请参阅[共享记录类型](/help/quicksilver/planning/access/share-record-types.md)。
 
+<!--
+<div class="preview">
+
+* Records
+    
+    * You can share records with people inside your organization.
+    * Users inherit permissions from the workspace and the record type by default. 
+    * You cannot share a record with a higher or lower permission level than the user has on the record type. 
+
+    For more information, see [Share records](/help/quicksilver/planning/access/share-records.md).
+
+</div>
+
+-->
 
 * 视图
 
    * 您必须向用户（包括系统管理员）授予单独访问视图的权限和访问工作区的权限。
    * 共享视图时，将共享所有视图元素，包括筛选器、分组、排序或设置。
    * 共享视图时，不会共享该视图中可见的记录。 必须通过共享工作区来共享记录。
-   * 在为视图生成公共链接时，您可以与组织外部的人员公开共享视图。通过公共链接访问记录页面的人员可以查看所有记录及其字段，包括连接的记录和字段。
+   * 在为视图生成公共链接时，您可以与组织外部的人员公开共享视图。从公共链接访问记录页面的人员可以查看所有记录及其字段，包括连接的记录和字段。
 
   有关详细信息，请参阅[共享视图](/help/quicksilver/planning/access/share-views.md)。
+
 
 ## 关于在Adobe Workfront Planning中共享对象的注意事项
 
@@ -78,15 +93,11 @@ ht-degree: 5%
 * 系统管理员可以管理系统中的所有工作区，包括他们未创建的工作区。
 * 其他用户（包括系统管理员）只能访问他们自己创建的或与他们共享的视图。 只能向系统管理员授予管理视图的权限。
 
-* 当您与他人共享工作区和记录类型时，记录类型中的权限级别会自动继承到与其关联的记录和字段。
-
-  >[!IMPORTANT]
-  >
-  >必须将要与其共享Planning对象的用户添加到Adobe Admin Console中。 您无法与尚未添加到Adobe Admin Console的Workfront用户共享Planning对象。
+* 当与他人共享工作区和记录类型时，记录类型中的权限级别默认自动继承到与其关联的记录和字段。
 
 * 您可以通过以下方式共享Planning对象：
 
-   * 在内部，您可以与以下Workfront实体共享工作区、视图或记录类型：
+   * 在内部，您可以与以下Workfront实体共享Workfront Planning对象：
 
       * 用户
       * 组
@@ -181,6 +192,8 @@ The following are the levels of permissions for record types:
 
 向工作区和记录类型授予权限时，记录权限继承自记录类型。
 
+<!--In the Production environment, -->
+
 以下是记录的权限级别：
 
 
@@ -188,8 +201,44 @@ The following are the levels of permissions for record types:
 |--------|--------|------------|-------|
 | 创建 | ✓ | ✓ |       |
 | 删除 | ✓ | ✓ |       |
-| Edit | ✓ | ✓ |       |
+| 编辑 | ✓ | ✓ |       |
 | 视图 | ✓ | ✓ | ✓ |
+
+<!--
+
+<div class="preview">
+
+In the Preview environment, the following are the levels of permissions for records: 
+
+|        | Manage |  View  |
+|--------|--------|-------|
+| Create | ✓      |       |
+| Delete | ✓      |       |
+| Edit   | ✓      |       |
+| View   | ✓      | ✓     |
+
+
+
+Record permissions are always inherited when you grant permissions to the workspace and the record type.
+
+You can remove the record's inherited permissions received from the record type. Workspace managers and record creators retain Manage permissions to the record. 
+
+You cannot give users lower or higher permissions on the record than they have on the record type. 
+
+The following scenarios exist: 
+
+|   Workspace and record type permissions     | Automatic inherited permissions for a Record |Possible Record permissions when Inherited permissions are turned off (granted manually)|
+|--------|--------|-------------|
+| Manage |   Manage    |   Manage, Remove permissions*           |
+| Contribute |     Manage |  Manage, Remove permissions*        |
+| View   |  View     |      View, Remove permissions*        |
+
+>[!NOTE]
+>
+>*When you remove permissions from a record, users still retain View permissions to the workspace and the record type, unless you remove their permissions from the workspace. 
+
+</div>
+-->
 
 ### 记录字段的权限
 
@@ -201,7 +250,7 @@ The following are the levels of permissions for record types:
 |--------|--------|------------|-------|
 | 创建 | ✓ |            |       |
 | 删除 | ✓ |            |       |
-| Edit | ✓ |            |       |
+| 编辑 | ✓ |            |       |
 | 视图 | ✓ | ✓ | ✓ |
 
 
