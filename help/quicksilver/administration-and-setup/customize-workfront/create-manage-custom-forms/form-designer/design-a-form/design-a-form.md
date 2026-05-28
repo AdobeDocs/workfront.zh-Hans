@@ -10,7 +10,7 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7457f6888a0e79d499c4cca47bd4b4b5ac55a52b
+source-git-commit: 63fc3b2c3ce58501333cad6155243a9fbed1f00b
 workflow-type: tm+mt
 source-wordcount: '7342'
 ht-degree: 6%
@@ -736,12 +736,12 @@ ht-degree: 6%
       <td role="rowheader">JSON 路径</td>
       <td><p>键入或粘贴API的JSON路径。</p> <p>此选项允许从API URL返回的JSON中提取数据。 它提供了一种方法，用于选择在JSON内的哪些值将显示在下拉选项中。</p><p>例如，如果API URL按以下格式返回JSON，则可以使用“$.data[*].name”选择“美国”和“加拿大”作为下拉选项：</br>
       <pre>
-      &lbrace;
-       数据： &lbrace;
+      {
+       数据： {
          { name： "USA"}，
          { name： "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>有关JSON路径并确保编写正确JSON路径的更多信息，请参阅<a href="https://jsonpath.com/">https://jsonpath.com/</a>。</p></td>
@@ -1202,4 +1202,6 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
 ## 使用表单设计器组织和预览表单
 
 有关如何组织带有分区界限的自定义表单并查看表单预览的信息，请参阅[使用表单设计器组织和预览表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)。
+
+
 
