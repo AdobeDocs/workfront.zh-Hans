@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
+source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1948'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 0%
 although list views in Planning are very similar to Workfront enhanced lists, keep this one separate with all the information, because of Planning standalone; some information here is also duplicated in this main Glist article: help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md
 -->
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">此页面上突出显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 {{planning-important-intro}}
 
@@ -182,6 +182,9 @@ Removed - more direct steps below:
    1. 将鼠标悬停在列名上，单击该列名左侧的向下箭头，然后单击下列选项之一：
       * **重命名**，为列添加&#x200B;**自定义标签**。 Workfront中原始字段的名称不会更改。
       * **排序**，按所选字段对列表进行排序。 在列标题中添加了表示排序方向的排序图标。
+   1. 单击列的标题，然后将其拖放到列表中的其他位置。
+
+      不能移动第一列。
    1. 单击列表右上角的&#x200B;**+**&#x200B;图标在列表中添加或删除列，然后单击&#x200B;**保存**。
 
       **列管理器**&#x200B;打开。
@@ -252,6 +255,12 @@ Removed - more direct steps below:
 1. 双击列表中的单元格以编辑字段信息，然后按Enter保存更改。
 
    某些字段为只读。 例如，项目的完成百分比是由系统计算的字段，您无法手动进行编辑。
+
+1. （视情况而定）对于选择类型字段，请使用键盘箭头导航选项列表，然后按空格键选择正确的选项。
+
+   <span class="preview">使用所选字段类型中的&#x200B;**搜索**&#x200B;行查找正确的选项。</span>
+
+   <span class="preview">当未找到结果时，可以直接从字段单元格添加新选项。 此功能可能并非在所有列表中都可用。</span>
 
 1. 将鼠标悬停在列表中某个项目的名称上，然后单击&#x200B;**更多**&#x200B;菜单[更多菜单](assets/more-menu.png)，然后单击&#x200B;**查看**&#x200B;在另一个选项卡中打开该项目
 

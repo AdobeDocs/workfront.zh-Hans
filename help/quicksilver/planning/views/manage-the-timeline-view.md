@@ -8,20 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
+source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
 workflow-type: tm+mt
-source-wordcount: '4068'
+source-wordcount: '4251'
 ht-degree: 2%
 
 ---
 
 # 管理时间线视图
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 {{planning-important-intro}}
 
@@ -195,7 +195,7 @@ Old:
    >在“设置”区域中设置自定义季度后，时间线视图显示自定义季度，而不是传统季度。
    >有关信息，请参阅[启用自定义季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
-1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”**&#x200B;**，然后要求您的Workfront管理员设置自定义季度。
+1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**转到设置**&#x200B;以设置您的季度。 如果没有，请单击“确定”****，然后要求您的Workfront管理员设置自定义季度。
 
    >[!TIP]
    >
@@ -286,11 +286,13 @@ Old:
 
 * 您可以按连接的记录字段或查找字段进行筛选。
 * 您可以按显示多个值的查找字段进行筛选。
+* <span class>您可以筛选时间轴视图中的记录类型，或筛选作为视图划分结构一部分的任何连接的记录类型。</span>
 
 要将过滤器添加到时间线视图，请执行以下操作：
 
 1. 为记录类型页面创建时间线视图，如文章[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)中所述。
-1. 选择一个时间线视图，然后单击表右上角的&#x200B;**筛选器**。
+1. 选择一个时间轴视图，然后单击表左上角的&#x200B;**筛选器**。
+1. <span class>（视情况而定）如果您向时间轴视图添加了划分结构，请在筛选器框的第一个下拉菜单中展开记录类型。 这是您正在显示其时间轴视图的记录类型。</span>
 1. 单击&#x200B;**添加条件**&#x200B;并添加以下信息：
 
    * **选择一个字段**&#x200B;以搜索某个字段并从列表中选择该字段。
@@ -374,14 +376,19 @@ Old:
    * **OR**：必须满足任何指定的条件。
 这是默认选项。
 
-   1. （可选）添加其他筛选器分组并由&#x200B;**AND**&#x200B;或&#x200B;**OR**&#x200B;运算符加入它们。
-
-      ![视图中的多层筛选器](assets/multi-tiered-filters-in-views.png)
+1. （可选）添加其他筛选器分组并由&#x200B;**AND**&#x200B;或&#x200B;**OR**&#x200B;运算符加入它们。
 
    系统会根据您的筛选条件自动筛选记录列表。  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. （可选）单击&#x200B;**x**&#x200B;图标可删除筛选条件。
+1. <span class="preview">（可选且视情况而定）如果您向时间轴视图添加了划分结构，请展开以下下拉列表中的记录类型，并重复上述相同步骤以为划分中包含的记录类型添加过滤器。</span>
+
+   对划分中的每个记录类型重复<span class="preview">。</span>
+
+   ![带有时间线视图划分的多层筛选器](assets/multi-tiered-filters-with-breakdown-for-timeline-view.png)
+
+   <span class="preview">您只能从时间线视图筛选划分记录类型。</span>
 1. （可选）单击&#x200B;**筛选器**&#x200B;或页面上的任何其他位置以关闭筛选器框。<!--right now you cannot "clear all" for filters, but this might come later-->
 
 
