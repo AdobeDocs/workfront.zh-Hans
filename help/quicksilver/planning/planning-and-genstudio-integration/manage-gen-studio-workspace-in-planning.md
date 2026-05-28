@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
+source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
 workflow-type: tm+mt
-source-wordcount: '1474'
-ht-degree: 1%
+source-wordcount: '1769'
+ht-degree: 2%
 
 ---
 
@@ -49,7 +49,7 @@ recommendations: noDisplay, noCatalog
 >[!IMPORTANT]
 >
 >本文中描述的步骤说明了当您具有GenStudio工作区的“管理”权限时，如何从Workfront Planning中更新该工作区。
-> 当您对GenStudio工作区具有“贡献”权限时，并非所有功能都可用。
+> 当您拥有GenStudio工作区的“贡献者”权限时，并非所有功能都可用。
 >
 >如果贵公司拥有多个Workfront实例，则所有用户都将在Workfront Planning中获得GenStudio工作区的Contribute权限。
 
@@ -88,7 +88,7 @@ recommendations: noDisplay, noCatalog
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing用户角色</p></td> 
    <td><p><ul><li>用于访问营销活动、产品和角色的任何GenStudio用户角色</li>
    <li>GenSudio System Manager访问激活 <!--and Events--></li></ul>
-   有关信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">用户角色和权限</a>。 
+   有关信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">用户角色和权限</a>。 
    </p>
   </td> 
   </tr>   
@@ -147,7 +147,7 @@ Old:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****** and Events*********</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -377,17 +377,34 @@ Workfront Planning主页将打开。
 
      从GenStudio工作区创建的字段在以下区域可见：
 
-      * Workfront Planning视图
-      * Workfront Planning记录详细信息
-      * GenStudio记录详细信息
+      * Workfront Planning中的Workfront Planning视图
+      * Workfront Planning中的Workfront Planning记录详细信息
+      * GenStudio for Performance Marketing中的GenStudio记录详细信息
 
      >[!NOTE]
      >
-     >* 只有在GenStudio中具有“管理”权限时，才能添加更多字段。
+     >* 只有当您在GenStudio中拥有管理权限时，才能添加字段。
      >* 在Workfront Planning中创建的字段在GenStudio的列表视图中不可见。
      >
      >* 您可以将任何GenStudio记录类型连接到Brands GenStudio记录类型。
      >  默认情况下，产品和角色会连接到品牌。
+     >
+     >* 您可以在Planning中使用AEM Assets连接GenStudio记录类型或在Adobe Experience Manager中连接内容片段。 您必须拥有AEM许可证才能连接到AEM对象。
+     >
+
+1. （视情况而定）如果您在使用GenStudio资源或内容片段的Planning中从GenStudio工作区连接了AEM记录类型，请执行以下操作，以导航到AEM并查看GenStudio记录信息：
+
+   1. （视情况而定）在GenStudio工作区中连接的AEM资源中，单击资源的名称，然后单击&#x200B;**在AEM中打开**&#x200B;图标![在AEM中打开图标](assets/open-in-aem-icon.png)以在AEM中打开该资源。
+   1. 单击以选择右侧面板中的&#x200B;**Campaign**&#x200B;选项卡。
+
+      连接到资产的营销活动的名称显示在&#x200B;**营销活动**字段中。这是只读字段。
+如果资源还连接到Planning中GenStudio工作区的**区域**、**角色**、**产品**&#x200B;或&#x200B;**渠道**，则这些记录类型的相应字段将以只读模式在资源的&#x200B;**营销活动**&#x200B;选项卡中显示其名称。
+   1. （视情况而定）在Planning的GenStudio工作区中，从连接的AEM内容片段中单击内容片段的名称，然后单击&#x200B;**在AEM中打开**&#x200B;图标![在AEM中打开图标](assets/open-in-aem-icon.png)以在AEM中打开内容片段。
+   1. 单击AEM中的&#x200B;**主页**&#x200B;图标![主页图标](assets/home-icon-in-aem.png)以转到内容片段列表，然后单击AEM中内容片段名称右侧的&#x200B;**信息**&#x200B;图标![信息图标](assets/info-icon-in-aem.png)。
+   1. 单击右侧面板中的&#x200B;**元数据**&#x200B;选项卡。
+
+      在&#x200B;**xdm： campaignName**&#x200B;字段中显示的连接到内容片段的营销活动的名称。 这是只读字段。 <!--tried to log a bug to rename this field-->
+如果资源还连接到Planning中GenStudio工作区的**区域**、**角色**、**产品**&#x200B;或&#x200B;**渠道**，则这些记录类型的相应字段将以只读模式在内容片段的&#x200B;**元数据**&#x200B;选项卡中显示其名称。
 
 1. 将鼠标悬停在表视图中的字段上，然后单击下拉菜单以执行以下操作之一：
 

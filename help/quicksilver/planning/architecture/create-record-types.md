@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1179'
 ht-degree: 2%
 
 ---
@@ -155,7 +155,7 @@ Old:
 
       * 当您使用CSV或Excel文件导入这些文件时。
 
-        有关详细信息，请参阅[通过从CSV或Excel文件导入信息来创建记录类型](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md)。
+        有关详细信息，请参阅本文中的[通过从CSV或Excel文件导入信息来创建记录类型](#create-record-types-by-importing-information-from-a-csv-or-excel-file)部分。
 
      >[!TIP]
      >
@@ -168,7 +168,7 @@ Old:
         本文介绍了如何从头开始创建记录类型。
 
       * 通过从另一个工作区添加它们
-有关信息，请参阅[从另一个工作区添加现有记录类型](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)。
+有关信息，请参阅本文中的[通过从其他工作区](#create-record-types-by-adding-existing-ones-from-another-workspace)添加现有记录类型来创建记录类型部分。
 
 
 * 您可以在分区内移动记录类型，也可以在工作区的一个分区之间移动记录类型。 不能将记录类型从一个工作区移动到另一个工作区。

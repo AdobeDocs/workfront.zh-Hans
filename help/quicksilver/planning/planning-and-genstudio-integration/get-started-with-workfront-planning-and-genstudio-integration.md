@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 35cf3692f0fd93b8835755c316e14efc99af3fb8
+source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
 workflow-type: tm+mt
-source-wordcount: '2222'
+source-wordcount: '2351'
 ht-degree: 1%
 
 ---
@@ -52,11 +52,12 @@ GenStudio for Performance Marketing与Workfront Planning之间存在本机集成
 <!--check this list and ensure it's accurate and add/ remove some of the benefits-->
 
 * 在Workfront Planning中查看GenStudio工作区。
-* 在GenStudio for Performance Marketing中修改促销活动、产品、角色和激活，并在Workfront Planning中实时更新相同信息。
+* 在GenStudio for Performance Marketing中修改促销活动、产品、角色、地区和激活，并在Workfront Planning中实时更新相同信息。
 * 在Workfront Planning中修改促销活动、产品、角色和激活，并在GenStudio for Performance Marketing中实时更新相同信息。
 * 避免输入重复的数据。
 * 保持规划和激活工作的一致性。
 * 将GenStudio Brands及其信息连接到Workfront Planning记录。
+* 当营销活动、产品、角色、地区和渠道在Planning中的GenStudio工作区中连接到AEM Assets和内容片段这些记录类型时，将这些记录信息同步到GenStudio。
 
 ## 集成要求
 
@@ -115,7 +116,7 @@ No longer needed to specify:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing用户角色</p></td> 
    <td><p><ul><li>用于访问营销活动、产品和角色的任何GenStudio用户角色</li>
    <li>GenSudio System Manager访问激活 <!--and Events--></li></ul>
-   有关信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">用户角色和权限</a>。 
+   有关信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">用户角色和权限</a>。 
    </p>
   </td> 
   </tr>   
@@ -171,7 +172,7 @@ Old:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****and Events****</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -376,16 +377,23 @@ Old for the second row in the table:
 
 您可以在具有“管理”权限的GenStudio工作区中的记录类型之间创建连接。
 
-<!--When AEM object types are connected to GenStudio record types, AEM object metadata reflects on Planning records-->
-
 您可以在GenStudio记录类型与Workfront Planning中的其他记录或对象类型之间建立以下连接：
 
 * 两种GenStudio记录类型
 * 来自同一工作区的GenStudio记录类型和Planning记录类型
 * 如果记录类型配置为从另一个工作区连接，则为来自另一个工作区的GenStudio记录类型和Planning记录类型。
 * GenStudio记录类型和Workfront对象类型（项目、项目组合、项目、公司、组）
-* GenStudio记录类型和AEM对象类型。 除了Workfont Planning和Adobe GenStudio for Performance Marketing的许可证外，您必须拥有Adobe Experience Manager的许可证才能访问AEM对象。
+* GenStudio记录类型和AEM对象类型（Assets或内容片段）。 除了Adobe Experience Manager的许可证和AEM的许可证之外，您还必须拥有Workfront的许可证才能访问Adobe GenStudio for Performance Marketing对象。
 * GenStudio记录类型和GenStudio Brands。 默认情况下，Brands连接会添加到Products和Personas记录类型中。
+
+### GenStudio工作区记录与AEM对象之间的元数据同步
+
+当AEM对象类型（资源和内容片段）从GenStudio工作区连接到GenStudio记录类型时，以下信息将在GenStudio记录和AEM对象之间同步：
+
+* AEM资源和内容片段信息显示在GenStudio工作区中连接记录类型时添加的查找字段内。
+* GenStudio记录信息显示在AEM资源的“营销活动”选项卡中，或显示在AEM的“元数据”选项卡中的内容片段上。
+
+  有关信息，请参阅[在Adobe Workfront规划中管理GenStudio工作区](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)。
 
 ### GenStudio记录类型的请求表单和自动化
 
