@@ -5,7 +5,7 @@ title: Adobe Workfront MCP服务器概述
 description: 了解Adobe Workfront MCP服务器的功能以及它如何让您通过AI代理平台中的自然语言对话来使用Workfront。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: a88a468901cc7a28139315ab820fc612f1c31736
+source-git-commit: f96afd17e9f4e726ac545a9cb0c54ace5a4fcffe
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 0%
@@ -16,7 +16,6 @@ ht-degree: 0%
 # Adobe Workfront MCP服务器概述
 
 {{highlighted-preview-article-level}}
-
 
 [!DNL Adobe Workfront] MCP服务器将您的Workfront实例连接到AI代理平台，如[!DNL Claude]或[!DNL ChatGPT]。 在AI代理平台中，您可以通过发出自然语言请求来查找、创建、更新和管理Workfront项目。
 
@@ -52,4 +51,3 @@ Workfront MCP服务器可与任何与MCP兼容的AI代理平台（如[!DNL Claud
 设置后，您可以要求AI代理平台查找、创建、更新和管理自然语言的Workfront项目。
 
 有关详细信息，包括示例请求、要牢记的事项以及有关数据和安全性的信息，请参阅[使用Adobe Workfront MCP服务器](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)。
-
