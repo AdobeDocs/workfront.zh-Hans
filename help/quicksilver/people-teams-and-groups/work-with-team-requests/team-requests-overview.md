@@ -9,9 +9,9 @@ feature: People Teams and Groups
 exl-id: c131c021-8bc0-4a48-a873-9ee0e189bcab
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ab336c13968f1420ec08eb7ae965b697a862bfb4
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 >
 >Agile团队没有团队请求。
 
-[!UICONTROL 团队请求]选项卡显示当前在下拉列表中选择的团队等待分配的请求。 括号中的数字表示准备处理的项目数。
+[!UICONTROL 团队请求]选项卡显示当前在下拉列表中选择的团队等待分配的请求。 括号中的数字表示准备处理的项目数。 [!UICONTROL 团队请求]选项卡最多可以为团队显示2,000个请求。
 
 团队请求表示未分配给特定用户的待处理工作项。 相反，它会被分配给一个团队，该团队的任何成员都可以自愿承担该项目的责任。 如果用户志愿为团队请求工作，则用户将接受作为自己的工作任务。 除了团队外，任务还会分配给个人用户。
 
