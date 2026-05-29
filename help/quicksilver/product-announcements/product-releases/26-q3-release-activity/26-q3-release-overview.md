@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
+source-git-commit: c90d91ab7b901d20d639d2507297f147821db8b2
 workflow-type: tm+mt
-source-wordcount: '1374'
+source-wordcount: '1443'
 ht-degree: 2%
 
 ---
@@ -248,6 +248,15 @@ ht-degree: 2%
             <td><strong>预览</strong></td>
             <td><strong>快速发布</strong></td>
             <td><strong>每季度</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">已更新评论通知电子邮件的外观</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <p>更新区域评论的电子邮件通知具有新外观，与更广泛的Adobe电子邮件设计保持一致。 之前注释的线程不再包含在电子邮件正文中。</p>
+            </td>
+            <td><p>分阶段推出，开始日期尚未公布</p></td>
+            <td><p>分阶段推出，开始日期尚未公布</p></td>
+            <td><p>分阶段推出，开始日期尚未公布</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">使用Workfront MCP服务器将您的AI代理平台连接到Workfront</a>

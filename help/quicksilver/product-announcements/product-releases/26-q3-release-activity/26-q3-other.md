@@ -4,9 +4,9 @@ description: 2026年第三季度发布时间框架内的其他增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
+source-git-commit: c90d91ab7b901d20d639d2507297f147821db8b2
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,26 @@ ht-degree: 0%
 
 有关2026年第三季度发布周期中此时可用的所有更改列表，请参阅[2026年第三季度发布概述](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)。
 
+
+## 更新了评论通知电子邮件的外观
+
+>[!NOTE]
+>
+>客户的生产版本：分阶段推出，开始日期尚未公布
+
+更新区域评论的电子邮件通知具有新外观，与更广泛的Adobe电子邮件设计保持一致。
+
+更新的电子邮件格式包括：
+
+* 新的Adobe Workfront标题取代了以前的Workfront品牌。
+* 着重于最新评论的简化版面。
+* 主&#x200B;**在Workfront**&#x200B;按钮中查看以直接打开该项。
+
+之前注释的线程不再包含在电子邮件正文中。 若要查看以前对该项目的评论，请使用&#x200B;**在Workfront中查看该项目**，以便在Workfront中打开对话。
+
+此更改将分阶段向客户推出。 确认转出计划后，将更新此页面。
+
+![已更新评论通知email.png](assets/email-look-and-feel-update.png)
 
 ## 使用Workfront MCP服务器将Workfront连接到您的AI工具
 
