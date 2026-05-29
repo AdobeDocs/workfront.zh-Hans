@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: fdbe3945f59306fc26424d7e88b799d9dcaea4da
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '2206'
+source-wordcount: '2232'
 ht-degree: 2%
 
 ---
@@ -61,17 +61,20 @@ Planning API通过URL路径进行版本控制。
 
 以下是当前支持的版本：
 
-| 版本 | 发行日期 |
-|-----------|----------------|
-| 版本1 | 2024 年 7 月 |
-| 版本2 | 2026年5月 |
-
 <!--
 
 (*****************add deprecation date column above, when we have one*****************)
 
 -->
 
+| 版本 | 发行日期 |
+|-----------|----------------|
+| 版本1 | 2024 年 7 月 |
+| 版本2 | 2026年5月 |
+
+>[!NOTE]
+>
+>适用于Workfront Fusion的Workfront规划连接器尚未更新到API版本2，在进一步通知之前，它将继续使用版本1。
 
 有关当前支持的版本的详细信息，请参阅文章[Workfront Planning API开发人员文档](https://developer.adobe.com/wf-planning)。
 

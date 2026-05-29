@@ -8,9 +8,9 @@ author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '3585'
+source-wordcount: '3665'
 ht-degree: 1%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 1%
 
 # 连接记录
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 {{planning-important-intro}}
 
@@ -97,7 +97,7 @@ ht-degree: 1%
    <ul><li><p>Adobe Experience Manager许可证以及Adobe Experience Manager与Workfront之间的集成，用于将AEM资源或内容片段与Planning记录类型连接。</p>
    <p>有关信息，请参阅适用于Experience Manager Assets和Assets Essentials的<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> Adobe GenStudio for Performance Marketing许可证，用于将记录类型与GenStudio Brands连接或访问GenStudio工作区</p>
-   <p>有关信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing入门</a>。</p></li></ul>
+   <p>有关信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing入门</a>。</p></li></ul>
    </td> 
   </tr>   
 <tr> 
@@ -114,7 +114,9 @@ ht-degree: 1%
   </tr>
   <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
-   <td>   <p>向工作区提供或更高权限以及连接记录的记录类型。 </p>  
+   <td>   <p>向工作区提供或更高权限以及连接记录的记录类型。</p>
+   <p><span class="preview">管理您正在连接的记录的权限</span></p>
+   <p><span class="preview">查看您连接到的记录的权限或更高的权限</span></p>
    <p>查看或更高的工作区权限并记录类型，以查看与其他应用程序中的对象和字段的所有连接，无论您对其他应用程序的访问权限如何。 </p>
    <p>查看要从Workfront或Experience Manager Assets链接的对象或授予对这些对象的更高权限。 </p>
    <p>系统管理员有权访问所有工作区，包括他们未创建的工作区。</p> </td> 
@@ -407,7 +409,7 @@ No longer needed to specify:
 
 >[!NOTE]
 >
->当Workfront管理员通过Experience Manager Assets与Workfront之间的集成配置元数据映射时，可从Adobe Experience Manager Assets访问Planning记录及其字段。有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+>当Workfront管理员通过Experience Manager Assets与Workfront之间的集成配置元数据映射时，可从Adobe Experience Manager Assets访问Planning记录及其字段。有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 >将记录从Planning中的GenStudio工作区连接到AEM对象（资源和内容片段）时，GenStudio信息会自动显示在AEM的AEM对象中。在AEM Planning中建立连接后，添加的查找字段中会显示Workfront记录的GenStudio信息。有关信息，请参阅[在Adobe Workfront规划中管理GenStudio工作区](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)。
 
 <!--
@@ -453,11 +455,11 @@ metadata mapping is not available yet for content fragments - as of April 22, 20
    >[!IMPORTANT]
    >
    > 您只能连接有权在Experience Manager中查看的资源。连接后，所有Workfront Planning用户都可以在Workfront Planning中查看资源，无论他们在Experience Manager Assets中是否具有访问权限。
-   > 有关内容顾问的详细信息，请参阅[使用内容顾问访问Adobe应用程序中的AEM内容](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}。
+   > 有关内容顾问的详细信息，请参阅[使用内容顾问访问Adobe应用程序中的AEM内容](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}。
 
 1. 从&#x200B;**内容片段**&#x200B;选项卡中，选择要添加到链接记录字段的内容片段。
 
-   有关内容片段的详细信息，请参阅[使用内容审查程序访问Adobe应用程序中的AEM内容](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}。
+   有关内容片段的详细信息，请参阅[使用内容审查程序访问Adobe应用程序中的AEM内容](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}。
 
 1. 选择完资源或内容片段后，单击&#x200B;**选择**。<!-- we might change this to Connect-->
 
@@ -533,7 +535,7 @@ metadata mapping is not available yet for content fragments - as of April 22, 20
    >
    >    默认情况下，仅显示已连接单个记录的已连接记录。
 
-1. （可选）单击“显示所有连接”**&#x200B;**&#x200B;可显示所有连接的记录类型，包括未连接记录的记录类型。
+1. （可选）单击“显示所有连接”****&#x200B;可显示所有连接的记录类型，包括未连接记录的记录类型。
 
 1. （可选）单击截面左侧的向下箭头以将其折叠。
 

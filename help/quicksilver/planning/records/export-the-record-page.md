@@ -8,21 +8,19 @@ recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '471'
 ht-degree: 1%
 
 ---
 
 # 导出记录的详细信息
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
 
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 要更有效地与可能没有Workfront帐户的其他人协作，您可以将记录的详细信息页面导出到Microsoft Word文件并与他们共享。
 
@@ -52,7 +50,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
-   <td>   <p>查看或更高权限的工作区和记录类型</a> </p>  
+   <td>   <p>查看工作区、记录类型和<span class="preview">记录</span>或更高权限 </p>  
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p> </td> 
   </tr> 
   </tr> 
