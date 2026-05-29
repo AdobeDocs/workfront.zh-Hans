@@ -40,7 +40,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置</strong></td> 
-   <td> <p>[！UICONTROL Edit]对任务和问题的访问权限</p> </td> 
+   <td> <p>[!UICONTROL Edit]对任务和问题的访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
@@ -59,7 +59,7 @@ ht-degree: 2%
 
 您可以选择显示准备好处理的项目或您当前处理的项目的筛选器。
 
-本文介绍如何使用[!UICONTROL 主页]区域中的筛选器查看您当前正在处理或可能考虑开始处理的项目。 有关如何在[!UICONTROL 主页]区域中使用筛选器的信息，请参阅[!UICONTROL 主页]区域](/help/quicksilver/workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)的[!UICONTROL 工作列表]中的[显示项。
+本文介绍如何使用[!UICONTROL 主页]区域中的筛选器查看您当前正在处理或可能考虑开始处理的项目。 有关如何在[!UICONTROL 主页]区域中使用筛选器的信息，请参阅[!UICONTROL 主页]区域[&#128279;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)的[!UICONTROL 工作列表]中的显示项。
 
 要查看我的工作小部件中的工作项，请执行以下操作：
 
@@ -122,9 +122,9 @@ ht-degree: 2%
 1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![主菜单图标](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
 1. （视情况而定）单击&#x200B;**自定义**&#x200B;以添加&#x200B;**我的工作**&#x200B;小组件。
 
-1. 在小部件工作列表中，将鼠标悬停在工作项上，然后单击&#x200B;**摘要**图标以查看有关该工作项的信息。
+1. 在小部件工作列表中，将鼠标悬停在工作项上，然后单击&#x200B;**摘要**&#x200B;图标以查看有关该工作项的信息。
    ![打开摘要](assets/open-summary-new-home.png)
-1. 在&#x200B;**工作**分区中，删除您的姓名。
+1. 在&#x200B;**工作**&#x200B;分区中，删除您的姓名。
    ![删除分配](assets/remove-assignment.png)
 
 
