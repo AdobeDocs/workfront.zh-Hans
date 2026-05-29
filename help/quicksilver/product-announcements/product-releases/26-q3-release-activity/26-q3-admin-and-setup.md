@@ -4,9 +4,9 @@ description: 2026年第三季度管理员增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
+source-git-commit: 3d8439efd8a92042098fbf995aacf2fe3add43f2
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -66,3 +66,5 @@ ht-degree: 0%
 目前，批量编辑对象时，仅在用户修改必填字段时强制执行该字段。 如果未修改字段，则会将其视为可选字段，且不会验证该字段。
 
 新的系统首选项现在允许您强制批量编辑中的必填字段。 要不允许保存批量编辑的对象，除非所有必填字段都有值，请在“设置”>“系统”>“首选项”页面上选择选项&#x200B;**“始终强制批量编辑必填字段**”。
+
+有关详细信息，请参阅[配置系统首选项](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
