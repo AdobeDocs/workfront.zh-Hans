@@ -5,9 +5,9 @@ title: 配置Adobe Workfront MCP服务器
 description: 配置Workfront实例和AI代理平台，以便通过自然语言对话使用Workfront。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: f96afd17e9f4e726ac545a9cb0c54ace5a4fcffe
+source-git-commit: 7d961bca74884baa869f92a24a3f586500b824a5
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1272'
 ht-degree: 0%
 
 ---
@@ -43,6 +43,7 @@ Workfront MCP服务器可与支持模型上下文协议(MCP)的任何AI代理平
 
 * 拥有活动[!DNL Adobe Workfront]帐户，该帐户具有访问要使用的数据的权限
 * 有权访问AI代理平台，如[!DNL Claude]
+* 必须在Adobe Identity Management System (IMS)上启用您的Workfront实例。
 
 ### 管理员先决条件
 
@@ -233,5 +234,9 @@ What happens next
 ### 由哪个管理员启用此功能？
 
 Workfront管理员和AI代理平台管理员。 您的Workfront管理员可以在Workfront端启用MCP服务器访问。 AI代理平台的管理员可在该平台上启用Workfront访问权限。 对于[!DNL Claude]，[!DNL Claude]企业管理员启用[!DNL Adobe Workfront]连接器。
+
+### 如果未在Workfront Identity Management System (IMS)上启用我的Workfront实例，我能否使用Adobe MCP服务器？
+
+不可以。 必须在Adobe Identity Management System (IMS)上启用Workfront实例，才能使用Workfront MCP服务器。 如果您不确定实例是否已在IMS中启用，请与Workfront管理员联系。
 
 +++
