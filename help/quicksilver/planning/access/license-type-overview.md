@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 ### 许可证类型以及工作区和记录类型的权限
 
-只有具有Standard许可证的用户才能对工作区和记录类型具有Contribute或Manage权限。 工作区和记录类型的Contribute和Manage权限也会传输到记录和字段。
+只有具有Standard许可证的用户才能对工作区和记录类型具有Contribute或Manage权限。 默认情况下，对工作区和记录类型的Contribute和Manage权限也会传输到记录和字段。
 
 系统管理员可以查看系统中的所有工作区，包括他们未创建的工作区。
 

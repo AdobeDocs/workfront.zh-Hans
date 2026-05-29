@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: b014a06cd4c3305967fcd2edfe893a024051fa9c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '2022'
+source-wordcount: '2013'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
   <tr>
    <td role="rowheader"><p>对象权限</p></td>
    <td>
-   <p>向工作区和记录类型提供或更高权限 </p>  
+   <p>向工作区和记录类型贡献或更高权限以及<span class="preview">管理记录权限</span> </p>  
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p> 
   </td>
   </tr>   

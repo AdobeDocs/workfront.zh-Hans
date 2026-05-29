@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: fdbe3945f59306fc26424d7e88b799d9dcaea4da
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '2582'
+source-wordcount: '2592'
 ht-degree: 1%
 
 ---
@@ -179,7 +179,7 @@ Not sure how to change the request status, but dev also said: Changing the names
       * **主题**：在“请求”区域中添加的原始请求的名称。 您无法从请求列表中隐藏或删除&#x200B;**主题**&#x200B;字段。 该名称中有一个链接，用于在Planning中打开请求页面。
       * **创建的对象**：从请求创建的记录在Planning中的名称。 “已创建”对象名称有一个链接，用于打开从请求创建的记录。
       * **对象类型**：在Planning中，根据请求创建记录的工作区和记录类型的名称。
-      * **状态**：请求对象的状态。
+      * **状态**：请求对象的状态。 有关请求状态的详细信息，请参阅[查看已提交的请求](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md)。
       * **请求表单**：与Planning中的记录类型关联的请求表单的名称。
       * **已创建对象状态**：已创建记录的状态。
 

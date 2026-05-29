@@ -8,9 +8,9 @@ role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '759'
 ht-degree: 2%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 2%
 
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 >[!IMPORTANT]
 >
@@ -96,7 +96,8 @@ ht-degree: 2%
    <td>
    <ul>
    <li><p>查看您未创建的工作区、记录类型和视图的更高权限，以访问它们及其对象。</p></li>
-   <li><p>为工作区和记录类型提供或更高权限，而您未创建这些工作区和记录类型以编辑它们，并创建、编辑或删除记录类型和记录。</p></li>
+   <li><p>向工作区和记录类型分配或更高权限，而您未创建这些工作区和记录类型以编辑它们，以及创建、编辑或删除记录类型。</p></li>
+   <li><p><span class="preview">管理编辑、共享或删除记录的权限。</p>
    <li><p>为您未创建的视图贡献或更高权限，以便编辑、删除和共享这些视图</p>
    </li>
     <li><p>系统管理员可以管理他们未创建的工作区。 </p></li>

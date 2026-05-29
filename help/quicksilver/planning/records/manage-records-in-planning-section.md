@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '1767'
+source-wordcount: '1789'
 ht-degree: 1%
 
 ---
@@ -20,11 +20,10 @@ ht-degree: 1%
 
 # 管理来自Workfront对象的记录连接
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 {{planning-important-intro}}
 
@@ -71,7 +70,7 @@ ht-degree: 1%
    <p>在Workfront规划中：</p>
    <ul><li>查看对工作区和记录类型的权限以查看任何连接的记录 </li>
    或
-   <li> 为工作区分配或更高权限以及记录类型以连接或断开记录</a></li></ul> 
+   <li> 为工作区和记录类型贡献或更高权限以及<span class="preview">管理记录权限</span>以连接或断开记录连接</a></li></ul> 
    <p>系统管理员有权访问所有Workfront Planning工作区，包括他们未创建的工作区</p> 
   </td>
   </tr>   
@@ -213,7 +212,7 @@ Old:
       * 在Workfront Planning中显示的已连接记录字段的名称。
    * 记录显示在各自的工作区和记录类型下。
 
-   项目![的](assets/planning-section-on-project.png)计划部分
+   项目![&#128279;](assets/planning-section-on-project.png)的计划部分
 
 1. （可选）单击“显示所有连接”**&#x200B;**&#x200B;可显示所有连接的记录类型，包括未连接记录的记录类型。 默认情况下，不显示没有连接记录的记录类型。
 1. 单击记录卡以显示有关记录的更多信息。 此时将显示记录预览框。
@@ -263,7 +262,7 @@ Old:
 * 您只能将一个记录类型与一个Planning连接字段相关联。 表单中的Planning连接字段数量没有限制。
 * 您必须对对象、记录和Workfront Planning具有正确的访问和权限，才能将带有Planning连接自定义字段的自定义表单附加到Workfront对象。
 * 您必须拥有Workfront中工作区的Contribute权限，才能从Workfront对象的Planning连接字段中连接或断开记录。
-* Workfront Planning记录类型必须首先连接到Workfront对象类型。 有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。这将使Workfront Planning记录可从Workfront访问。
+* Workfront Planning记录类型必须首先连接到Workfront对象类型。 有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。这可使Workfront Planning记录可从Workfront访问。
 * 只有可以具有Workfront Planning连接的对象，才能从Workfront对象的Planning连接字段中连接或断开记录。
 
   例如，您可能可以将带有Planning连接字段的自定义表单附加到任务，但无法将Workfront Planning对象连接到任务。

@@ -8,20 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: 5e0be9d9-efa5-4b16-bd56-f9c85bc57ced
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '1569'
-ht-degree: 0%
+source-wordcount: '1626'
+ht-degree: 1%
 
 ---
 
 # 将“连接的记录”页面添加到记录
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 通过在Adobe Workfront Planning中将已连接记录页面的选项卡添加到记录，可以查看已连接记录或对象中的信息。 这会将表视图中的连接记录添加到选项卡。
 
@@ -92,7 +92,7 @@ ht-degree: 0%
   <tr>
    <td role="rowheader"><p>对象权限</p></td>
    <td>
-   <p>向工作区和记录类型提供或更高权限 </p>  
+   <p>向工作区、记录类型分配或更高权限，以及<span class="preview">管理记录权限</span> </p>  
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p> 
   </td>
   </tr>   
@@ -272,7 +272,7 @@ When you create a connected records page for connected Planning records in the P
 有关信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)
       * 时间线
 有关信息，请参阅[管理时间线视图](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
-      * 日历
+      * 日程表
 有关信息，请参阅[管理日历视图](/help/quicksilver/planning/views/manage-the-calendar-view.md)。
 
         有关详细信息，请参阅本文中[从连接的记录页面](#manage-multiple-views-from-the-connected-records-page)管理多个视图。

@@ -10,10 +10,10 @@ role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '1413'
-ht-degree: 3%
+source-wordcount: '1561'
+ht-degree: 2%
 
 ---
 
@@ -21,11 +21,13 @@ ht-degree: 3%
 
 <!--
 Remove production and preview references at release
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
+
+
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 您可以查看自己或其他人提交的请求，或者查看您已开始但从未完成提交的请求。 未完成的请求将另存为草稿。
 
@@ -101,7 +103,9 @@ Remove production and preview references at release
 
 >[!NOTE]
 >
->* 如果您有Workfront Planning，则Workfront和Planning请求将显示在同一列表中。 Workfront请求在&#x200B;**对象类型**&#x200B;列中显示`Issue`值。
+>* 如果您有Workfront Planning，则Workfront和Planning请求将显示在同一列表中。
+>     Planning请求的&#x200B;**对象类型**&#x200B;的命名方式如下： `< Name of workspace > > < Name of record type >`。例如，Planning请求的Object类型可能名为`Marketing workspace > Campaigns`。\
+>     Workfront请求的&#x200B;**对象类型**&#x200B;是`Issue`。
 >* 默认情况下，请求区域的列表中最多显示50个请求。 要查看更多请求，请滚动到列表底部。
 
 您可以在请求区域以及主页的“我的请求”小组件中查看已提交的请求。
@@ -134,18 +138,27 @@ Remove production and preview references at release
 
    有关管理请求列表中的信息的详细信息，请参阅[使用增强列表](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
 
-1. （可选）通过检查&#x200B;**状态**&#x200B;列来检查请求的状态。 新请求体验中提供了以下状态：
+1. （可选）通过检查&#x200B;**状态**&#x200B;列来检查请求的状态。
 
-   * **草稿**：此请求尚未提交。
-   * **等待审阅**： （仅限Planning）此请求具有批准者，并且没有批准者打开该请求。
-   * **审核中**：（仅限Planning）此请求有批准者，且至少有一个批准者已打开该请求，但尚未做出任何决定。
-   * **已拒绝**： （仅限Planning）此请求具有审批者且已被拒绝。 此请求将不会创建记录。
+   >[!IMPORTANT]
+   >
+   >您的Workfront管理员可以在&#x200B;**设置**&#x200B;区域中配置一些Workfront请求状态。 有关信息，请参阅[创建或编辑状态](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)。
+   >
+   >某些Workfront请求状态和所有Planning请求状态均由Workfront进行硬编码。 您无法对其进行自定义、重命名或添加更多同类内容。
+
+   新请求体验中提供了以下状态：
+
+   * <span class="preview">**新**：请求是新的，尚未有人开始处理。</span>
+   * **草稿**：此请求尚未提交。 此状态为硬编码。
+   * **等待审阅**： （仅限Planning）此请求具有批准者，并且没有批准者打开该请求。 此状态为硬编码。
+   * **审核中**：（仅限Planning）此请求有批准者，且至少有一个批准者已打开该请求，但尚未做出任何决定。 此状态为硬编码。
+   * **已拒绝**： （仅限Planning）此请求具有审批者且已被拒绝。 此请求将不会创建记录。 此状态为硬编码。
    * **正在进行**：
       * Workfront请求：请求已转换，工作正在进行。
       * Workfront Planning请求：请求完成映射至特定的Planning字段，并且该字段值与完成值不匹配。
-
-        有关详细信息，请参阅在Adobe Workfront Planning中创建和管理请求表单一文中的[设置配置详细信息](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details)。
-   * **完成**：请求已完成。
+   * **搁置**：这适用于Workfront请求，并由用户手动设置。
+   * <span class="preview">**已取消**：这适用于Workfront请求。</span> <!--checking with Khach)-->
+   * <span class="preview">**完成**：已创建完成请求的Planning记录。 （仅限Planning）</span>
 
 ### 在旧版中查看已提交的请求请求体验
 

@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '641'
 ht-degree: 1%
 
 ---
@@ -164,14 +164,14 @@ OLD:
 
 ## 在请求和授予权限时管理电子邮件通知
 
-1. （有条件，可选）在有人请求或授予您访问Planning对象类型的权限后，转到通知您权限请求的电子邮件。 电子邮件的发件人为Adobe Experience Cloud。
+1. （有条件，可选）在有人请求或授予您访问Planning对象的权限后，转到通知您权限请求的电子邮件。 电子邮件的发件人为Adobe Experience Cloud。
 
 1. （可选）单击电子邮件内&#x200B;**Workfront**&#x200B;框中的消息。
 
    您请求权限的对象将在Workfront中打开。
 
 1. （视情况而定）如果可用，请单击&#x200B;**查看所有通知**。
-将在Adobe Experience Cloud中打开&#x200B;**通知**&#x200B;页面。 将显示来自所有Adobe Experience Cloud应用程序的所有通知。
+将在Adobe Experience Cloud中打开&#x200B;**通知**&#x200B;页面。将显示来自所有Adobe Experience Cloud应用程序的所有通知。
 
 
 有关请求、授予或拒绝权限的信息，请参阅[请求视图或工作区的权限](/help/quicksilver/planning/access/request-permissions.md)。
@@ -180,8 +180,7 @@ OLD:
 
 ## 管理有关提交、批准或拒绝Workfront Planning请求的电子邮件通知
 
-1. （可选）转到Workfront发送给您的电子邮件
-在您提交请求之后，或者在您提交的请求已被批准或拒绝之后。 电子邮件的发件人为Adobe Workfort。
+1. （可选）转到Workfront在您提交请求后或您提交的请求被批准或拒绝后发送给您的电子邮件。 电子邮件的发件人为Adobe Workfort。
 
 1. （可选）单击&#x200B;**打开请求**。 该操作将在Workfront Planning中打开请求。
 
