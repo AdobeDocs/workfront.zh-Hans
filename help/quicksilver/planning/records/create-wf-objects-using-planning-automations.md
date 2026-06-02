@@ -6,11 +6,16 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
+TQID: https://experienceleague.adobe.com/c5iVodFoP9cUAVN63iu8B5-XoVihpNF3KbLdpMk7N9Q
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: 847
 ht-degree: 0%
 
 ---
@@ -167,7 +172,9 @@ Old:
 
 * 新对象或记录不会覆盖同一字段中的现有对象或记录。 为同一记录多次触发同一自动化会在原始记录的同一已连接字段中添加新对象或记录，以及之前创建的对象或记录。
 
+* 当您的组织同时使用旧版Workfront和Adobe云存储时，将自动从Planning创建的项目使用Workfront管理员在设置区域中选择的默认存储进行创建。
 
+  有关在环境中启用Adobe云存储的信息，请参阅[为您的组织启用Adobe云存储](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
 
 <!--hide this for now; they are trying to remove this limitation: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered.-->
 

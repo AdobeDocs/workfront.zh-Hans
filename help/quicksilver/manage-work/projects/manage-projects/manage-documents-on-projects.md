@@ -6,9 +6,9 @@ description: 根据您的Workfront管理员是否选择将文档存储在旧版W
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '1920'
+source-wordcount: '1961'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 Workfront管理员可以选择以下选项之一：
 
 * Workfront存储
-* Adobe云存储
+* Adobe 云存储
 
 此首选项允许您自动将附加到Workfront对象的文档存储在某个可用的存储位置。
 
@@ -187,13 +187,17 @@ Not sure we need these since this became an overview article:
 * 您可以重命名文档文件夹，并将其从Adobe云存储问题中删除，这也会删除文件夹中的文档。 在将新文档添加到问题中后，会自动重新创建文件夹。 已删除的文档不会放回文件夹中。
 * 对于Adobe云存储项目，问题中的文档文件夹显示为自动为项目创建的文档文件夹中的子文件夹。
 * 您无法将问题从旧版Workfront存储项目复制或移动到Adobe云存储项目。 反之亦然。
-* 当您提交带有附加到旧版Workfront存储项目的文档的请求时，请求的“文档”区域将使用项目的存储类型显示文档，即使系统存储默认首选项为Adobe云存储也是如此。
 * 将问题转化为项目时，存在以下情况：<!--this info also duplicated in Convert an issue to a project-->
    * 旧版Workfront存储问题会创建一个旧版Workfront存储项目。
    * Adobe云存储问题会创建一个Adobe云存储项目。
    * 使用旧版Workfront存储模板转换Adobe云存储问题会创建一个Adobe云存储项目。
    * 使用Adobe云存储模板转化旧版Workfront存储问题会创建一个旧版Workfront存储项目。
 * 无法在“摘要”面板中将文档添加到Adobe云存储问题。
+
+### 请求的文档管理
+
+* 当您提交Workfront请求时，该请求会将附加的文档用作请求队列，即使系统存储默认首选项为Workfront云存储，该请求的文档区域也会使用该项目的存储类型显示文档。
+* 当您向与Adobe存储相关联的“请求队列”中提交的问题附加文档时，将为每个提交的问题创建一个文件夹以存储文档。 该文件夹还将作为子文件夹添加到请求队列项目上自动创建的项目文件夹中。
 
 ### 项目模板的文档管理
 
@@ -203,6 +207,8 @@ Not sure we need these since this became an overview article:
 * 您可以使用旧版Workfront存储模板来创建旧版Workfront存储项目；也可以使用Adobe云存储模板来创建Adobe云存储项目。
 * 您可以将旧版Workfront存储模板附加到Adobe云存储项目，这不会更改该项目上文档的存储位置。
 * 您可以将Adobe云存储模板附加到旧版Workfront存储项目，这不会更改该项目上文档的存储位置。 模板的Adobe cloud storage文件夹中的文档直接添加到项目中，而不是添加到文件夹，而模板任务文件夹中的文档则添加到任务的“文档”部分中附加到项目任务的文件夹中。
+* 将项目另存为模板时，项目的存储类型将转移到模板中，而不管Workfront管理员为您的系统存储首选项设置了什么。
+
 
 ### 模板任务的文档管理
 
@@ -213,4 +219,4 @@ Not sure we need these since this became an overview article:
 * 您可以从Adobe云存储模板任务中重命名和删除文档文件夹，这也会删除文件夹中的文档。 将新文档添加到模板任务后，会自动重新创建文件夹。 已删除的文档不会放回文件夹中。
 * 对于Adobe云存储模板，模板任务中的文档文件夹显示为自动为模板创建的文档文件夹中的子文件夹。
 * 您无法将模板任务从旧版Workfront存储模板复制或移动到Adobe云存储模板。 反之亦然。
-* 当您向与Adobe存储相关联的“请求队列”中提交的问题附加文档时，将为每个提交的问题创建一个文件夹以存储文档。 该文件夹还将作为子文件夹添加到请求队列中自动创建的项目文件夹中。
+

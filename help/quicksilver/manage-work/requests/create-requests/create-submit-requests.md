@@ -6,11 +6,17 @@ description: 在Adobe Workfront中，计划工作由项目和任务表示。 但
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+TQID: https://experienceleague.adobe.com/6meiGiiAKIASHWC5a8p7WnQ9W1JY0xL71LsUqbAAukY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: c10f2e93-7a58-4212-aa24-684c265ebe76id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '2795'
+source-wordcount: 2795
 ht-degree: 1%
 
 ---
@@ -309,7 +315,7 @@ Workfront管理员必须创建请求队列的以下组件：
      </tr> 
      <tr> 
       <td role="rowheader"><strong>文档</strong> </td> 
-      <td> <p>将文档添加到请求。 </p> <p> 根据请求队列的设置方式，文档部分可能会在自定义字段之前或之后显示。 </p> <p>您上传到Workfront的文档会在草稿的请求中存储24小时。 之后，当您返回编辑并提交草稿时，必须重新附加它们。 从其他驱动器链接的文档将永久保存在草稿上。 </p> 
+      <td> <p>将文档添加到请求。 </p> <p> 根据请求队列的设置方式，文档部分可能会在自定义字段之前或之后显示。 </p> <p>您上传到Workfront的文档会在草稿的请求中存储24小时。 之后，当您返回编辑并提交草稿时，必须重新附加它们。 从外部驱动器链接的文档将永久保存在草稿上。 </p> 
       <p>根据您的Workfront管理员为您的环境选择的文档存储类型，会将附加到请求的文档添加到以下内容：</p>
       <ul><li>对于使用Workfront存储的请求，文档会添加到新创建请求的Documents部分。</li>
       <li>对于使用Adobe Cloud Storage的请求，文档会添加到新创建的文件夹（与请求同名），并在提交过程中自动添加到请求中。 </li></ul>

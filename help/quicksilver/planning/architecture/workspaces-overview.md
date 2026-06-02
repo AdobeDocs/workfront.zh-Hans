@@ -7,12 +7,9 @@ author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
 TQID: https://experienceleague.adobe.com/Hh1Gh4ex1dLrPhsmqiLv3x5NAU0yKzIwcsV4hEogXTo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: bd1c8dfc4b03b4b8d9948da278406addf801d226
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
 source-wordcount: 516
 ht-degree: 0%
@@ -53,12 +50,7 @@ ht-degree: 0%
 
    * **我所在的工作区**：显示您创建的工作区或与您共享的工作区。
    * **其他工作区**：显示系统中的所有其他工作区。 这仅适用于系统管理员。
-
-  <div class="preview">
-
-   * **示例工作区**：显示最佳实践工作区的内置示例。 您无法编辑工作区、记录类型或添加记录或字段，但可以添加、编辑视图并与他人共享视图。
-
-  </div>
+   * <span class="preview">**示例工作区**：显示最佳实践工作区的内置示例。 您无法编辑工作区、记录类型或添加记录或字段，但可以添加、编辑视图并与他人共享视图。</span>
 
   >[!NOTE]
   >
