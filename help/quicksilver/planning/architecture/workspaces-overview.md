@@ -6,26 +6,27 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
-source-git-commit: 5416c2d847e9b1023068719602c4d1d4e6219801
+TQID: https://experienceleague.adobe.com/Hh1Gh4ex1dLrPhsmqiLv3x5NAU0yKzIwcsV4hEogXTo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: bd1c8dfc4b03b4b8d9948da278406addf801d226
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: 516
 ht-degree: 0%
 
 ---
 
 # 工作区概述
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
 工作区是组织单位使用的记录类型的集合，它表示该单位的工作生命周期和流程。 您可以在Adobe Workfront Planning中完全自定义工作区。
 
-<!--update screenshot with preview-->
+<!--update screenshot with production, it was broken at Preview-->
 
 ![工作区登陆页面管理员帐户](assets/workspaces-landing-page-admin-account.png)
 
@@ -45,25 +46,36 @@ ht-degree: 0%
 * 工作区是组织单位（团队、组、部门或分部）工作所在的框架。 它们不能与字段相关联。 只有工作区中的记录类型可以与字段相关联。
 
   有关信息，请参阅[记录类型概述](/help/quicksilver/planning/architecture/overview-of-record-types.md)。
-* 根据您的Workfront许可证，工作区显示在Planning区域的以下选项卡中：
+* 工作区显示在Planning区域的以下选项卡中：
 
-   * 对于系统管理员，工作区显示在以下选项卡中：
+   * **我所在的工作区**：显示您创建的工作区或与您共享的工作区。
+   * **其他工作区**：显示系统中的所有其他工作区。 这仅适用于系统管理员。
 
-      * **我所在的工作区**：显示您创建的工作区或与您共享的工作区。
-      * **其他工作区**：显示系统中的所有其他工作区。
+  <div class="preview">
 
-     <!--
-      * <span class="preview">**Sample workspaces**: Displays built-in examples of best-practice workspaces. You cannot edit the workspaces or the record types, but you can add records and edit them. You can share the workspaces with Standard-license users.</span>
-      -->
+   * **示例工作区**：显示最佳实践工作区的内置示例。 您无法编辑工作区、记录类型或添加记录或字段，但可以添加、编辑视图并与他人共享视图。
 
-     <!--      
-        >[!NOTE]
-        >
-        ><span class="preview">We recommend not editing the sample workspaces, but instead using them as a reference to create your own.</span> 
-        -->
+  </div>
 
-   * 对于所有其他用户，他们创建的工作区以及与他们共享的工作区将显示在“工作区”区域中。
-  <!--* <span class="preview">**Sample workspaces**: Displays for Standard-license users when a Workfront administrator shared the workspaces on the tab with them. The tab displays built-in examples of best-practice workspaces. You cannot edit the workspaces or the record types, but you can add records and edit them. You can share the workspaces with Standard-license users.</span> -->
+  >[!NOTE]
+  >
+  ><span class="preview">我们建议不要编辑示例工作区，而是将其用作创建您自己的工作区的引用。 使用多工作区模板包创建与“示例工作区”选项卡中列出的工作区相同的工作区。 有关信息，请参阅[创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md)一文中的“使用最佳实践多工作区模板包创建多个工作区”部分。</span>
+
+<!--
+No longer the case - they match now: 
+
+* For all other users:
+
+* **Workspaces I'm on**: Workspaces they created (for Standard-license users) and workspaces others shared with them display in the Workspaces area.
+
+<div class="preview"> 
+
+* **Sample workspaces**: Displays built-in examples of best-practice workspaces. You cannot edit the workspaces, record types, or add records, but you can add, edit, and share views with others.
+
+</div>
+-->
+
+
 
 * 工作区包含的记录类型应反映工作生命周期和组织单位的概念。
 
