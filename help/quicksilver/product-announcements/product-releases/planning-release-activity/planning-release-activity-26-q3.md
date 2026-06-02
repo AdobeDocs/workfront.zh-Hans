@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 4eeb229206421d737b9543613608935eacb058f9
+source-git-commit: bd1c8dfc4b03b4b8d9948da278406addf801d226
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1652'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,18 @@ Workspace managers can modify views in sample workspaces.
 For information, see Workspaces overview (/help/quicksilver/planning/architecture/workspaces-overview.md). 
 
 -->
+
+## Planning登陆页面中新增了示例工作区选项卡
+
+>[!NOTE]
+>
+>预览： 2026年6月1日>生产快速发布： 2026年6月11日>适用于所有人的生产： 2026年7月16日
+
+我们在Planning登录区域中添加了Sample workspaces选项卡，您可以在其中查看最佳实践工作区示例。 工作区不可编辑。 Workspace管理员可以修改示例工作区中的视图。 该选项卡对标准和系统管理员用户可见。
+
+我们建议您查看示例工作区作为示例，并使用多工作区模板包来创建、编辑和共享因使用该模板而产生的工作区。  模板捆绑包含的工作区与“示例工作区”选项卡相同。
+
+有关信息，请参阅[工作区概述](/help/quicksilver/planning/architecture/workspaces-overview.md)。
 
 ## Workfront计划API版本2
 
