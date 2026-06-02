@@ -6,13 +6,25 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: b014a06cd4c3305967fcd2edfe893a024051fa9c
+TQID: https://experienceleague.adobe.com/yX-p5GzLd4EMOdWDrw3gAHqZfRvPCUaYXCjEnGxcwc4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '2261'
+source-wordcount: 2304
 ht-degree: 1%
 
 ---
-
 
 <!--keep the 30 limit verbiage in yellow til Jan 2026-->
 
@@ -43,39 +55,12 @@ ht-degree: 1%
   >
   >在Workfront Planning中，一个记录类型最多可以有30个连接的字段。
 
+* 您可以在Workfront Planning中手动添加记录类型的新连接字段，以连接以下实体：
 
-* 有关连接记录和对象类型，请考虑以下事项：
+   * 两种记录类型
 
-   * 您可以在Workfront Planning中手动添加记录类型的新连接字段，以连接以下实体：
-
-      * 两种记录类型
-
-        默认情况下，您可以从同一工作区连接两种记录类型。 如果您的组织购买了更高的Workfront或Planning包，您还可以设置记录类型以与其他工作区的记录类型连接。 有关详细信息，请参阅[编辑记录类型](/help/quicksilver/planning/architecture/edit-record-types.md)。
-      * 来自另一个应用程序的记录类型和对象类型。
-
-     有关如何连接记录和对象类型的信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
-
-     手动将记录类型与其他记录或对象类型连接后，可以连接个别记录和对象。
-
-     有关信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。
-
-   * 在以下情况下，实体之间会自动建立连接：
-
-      * 当您使用自动化从记录类型的页面创建记录时。
-
-        当自动化创建连接的记录或对象时，记录类型或记录类型与来自另一个应用程序的对象类型之间的连接会自动创建。
-
-        有关信息，请参阅[配置Adobe Workfront计划自动化](/help/quicksilver/planning/records/configure-automations-to-create-records.md)。
-
-      * 在为记录类型配置请求表单以创建记录或对象时。
-
-        当您提交和批准创建记录的Planning请求时，记录类型和请求对象类型之间的连接会自动创建。
-
-        有关信息，请参阅[提交Adobe Workfront计划请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。
-
-        您可以在Workfront的“请求”区域的&#x200B;**主题**&#x200B;字段中或Workfront Planning的“原始请求连接”字段中查看原始请求。
-
-   * 您可以将Workfront Planning记录类型与以下应用程序中的以下对象类型连接起来：
+     默认情况下，您可以从同一工作区连接两种记录类型。 如果您的组织购买了更高的Workfront或Planning包，您还可以设置记录类型以与其他工作区的记录类型连接。 有关详细信息，请参阅[编辑记录类型](/help/quicksilver/planning/architecture/edit-record-types.md)。
+   * 这些应用程序中的记录类型和以下对象类型：
 
       * Adobe Workfront：
 
@@ -107,9 +92,45 @@ ht-degree: 1%
         >
         >要连接到Adobe Experience Manager对象和GenStudio Brands，您必须具备以下条件：
         >* Adobe Experience Manager许可证
-        >* Adobe GenStudio for Performance Marketing许可证
+        >* Adobe GenStudio for Performance Marketing许可证。
 
-* 当连接两个记录类型或一个记录类型与另一个应用程序的对象类型时，存在以下情况：
+   * GenStudio工作区中的GenStudio for Performance Marketing记录类型以及以下实体：
+
+      * Workfront Planning记录类型
+      * Workfront对象
+      * AEM对象（资源或内容片段）
+      * GenStudio for Performance Marketing品牌
+
+        >[!NOTE]
+        >
+        >* 您无法将Adobe GenStudio工作区记录类型连接到Planning中的其他GenStudio记录类型。
+        >* 无法从GenStudio工作区将Planning记录类型连接到记录类型。
+
+
+     手动将记录类型与其他记录或对象类型连接后，可以连接个别记录和对象。
+
+     有关如何连接记录和对象类型的信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
+
+     有关信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。
+
+* 在以下情况下，实体之间会自动建立连接：
+
+   * 当您使用自动化从记录类型的页面创建记录时。
+
+     当自动化创建连接的记录或对象时，记录类型或记录类型与来自另一个应用程序的对象类型之间的连接会自动创建。
+
+     有关信息，请参阅[配置Adobe Workfront计划自动化](/help/quicksilver/planning/records/configure-automations-to-create-records.md)。
+
+   * 在为记录类型配置请求表单以创建记录或对象时。
+
+     当您提交和批准创建记录的Planning请求时，记录类型和请求对象类型之间的连接会自动创建。
+
+     有关信息，请参阅[提交Adobe Workfront计划请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。
+
+     您可以在Workfront的“请求”区域的&#x200B;**主题**&#x200B;字段中或Workfront Planning的“原始请求连接”字段中查看原始请求。
+
+
+* 当连接两个记录类型或一个记录类型以及另一个应用程序的对象类型时，存在以下情况：
 
    * **当您连接两个Planning记录类型时**：在您要连接的记录类型上创建一个链接记录字段。 只有在启用“新建连接”选项卡上的“在链接的记录类型上创建相应的字段”设置时，才会在您连接的记录类型上创建类似的链接记录字段。
 

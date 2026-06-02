@@ -6,24 +6,33 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+TQID: https://experienceleague.adobe.com/LtHxTws4o0FI964-qOtFE-sbKaLGRQroBQvMD5fOUvY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '1122'
-ht-degree: 0%
+source-wordcount: 1311
+ht-degree: 1%
 
 ---
 
-
 # 创建工作区
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
-
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -164,6 +173,8 @@ Old:
 
 1. （可选且有条件）单击以下任何预定义Workspace模板中的&#x200B;**预览**：
 
+   * Operations Initiative Studio
+   * Communications Planning工作室
    * 基本：营销管理
    * 高级：营销管理
    * 企业：营销管理
@@ -172,7 +183,7 @@ Old:
 
    模板预览框打开。
 
-   指示与每个模板关联的操作记录类型、分类以及字段数。
+   指示了哪些记录类型、节以及与每个模板关联的字段数。
 
    ![预览工作区模板](assets/previewing-a-workspace-template.png)
 
@@ -228,12 +239,12 @@ Old:
 >
 >只有在满足以下先决条件时，才能使用最佳实践模板捆绑包一次创建多个工作区：
 >
->* 贵组织购买了Workfront Planning Prime或Ultimate包。
+>* 您的组织购买了Workfront或工作流计划Prime或Ultimate包
 >* 您是系统管理员
 
 只需单击一下，即可使用多工作区模板包创建6个工作区。
 
-捆绑包中包含的模板包含工作区、记录类型、记录、视图和字段，以帮助您开始实施Planning。
+捆绑包中包含的模板包含工作区、记录类型、记录、视图和字段，以帮助您开始实施Planning。 有关信息，请参阅[工作区模板列表](/help/quicksilver/planning/architecture/workspace-templates.md)。
 
 >[!IMPORTANT]
 >
@@ -244,27 +255,44 @@ Old:
 
 {{step1-to-planning}}
 
-1. 单击&#x200B;**创建工作区**
+1. 执行下列操作之一：
 
-   此时会显示“创建工作区”框。 您可以从头开始创建工作区，也可以使用某个可用模板创建工作区。
+   * 单击&#x200B;**创建工作区**，然后按照以下步骤操作：
 
-1. 在&#x200B;**从此处开始（推荐）**&#x200B;区域单击&#x200B;**查看工作区设置**。
-1. （可选）单击以下任何预定义Workspace模板中的&#x200B;**预览**&#x200B;以打开每个模板的“预览”框：
+      1. 此时会显示“创建工作区”框。 您可以从头开始创建工作区，也可以使用某个可用模板创建工作区。
 
-   * 1.全局分类和分类
+      1. 在&#x200B;**从此处开始（推荐）**&#x200B;区域单击&#x200B;**查看工作区设置**。
+      1. （可选）单击以下任何预定义Workspace模板中的&#x200B;**预览**&#x200B;以打开每个模板的“预览”框：
 
-     全局分类和分类模板包含我们建议您为您的环境中创建的所有记录类型和字段，以便成功实施Workfront Planning。
+         * 1.全局分类和分类
 
-     您以后可以在您创建的其他工作区中链接或导入此模板中的记录类型。
-   * 2.Fréscopa全球营销
-   * 3.Fréscopa社交营销
-   * 4.弗雷斯科帕媒体与公关
-   * 5.弗雷斯科帕全球活动
-   * 6.Fréscopa执行公司领导层
+           全局分类和分类模板包含我们建议您为您的环境中创建的所有记录类型和字段，以便成功实施Workfront Planning。
 
-1. 打开每个工作区模板的&#x200B;**预览**&#x200B;框后，单击“返回”以返回&#x200B;**创建工作区**&#x200B;框，或单击“使用模板”以使用捆绑包中包含的模板和创建工作区。
+           您以后可以在您创建的其他工作区中链接或导入此模板中的记录类型。
+         * 2.Fréscopa全球营销
+         * 3.Fréscopa社交营销
+         * 4.弗雷斯科帕媒体与公关
+         * 5.弗雷斯科帕全球活动
+         * 6.Fréscopa执行公司领导层
 
-   工作区是在系统管理员的&#x200B;**工作区**&#x200B;和&#x200B;**所有工作区**&#x200B;选项卡中创建和显示的。 系统管理员创建所有Standard-license用户并与他们共享新工作区后，这些用户都将在其“工作区”区域中看到工作区。
+      1. 打开每个工作区模板的&#x200B;**预览**&#x200B;框后，单击&#x200B;**返回**&#x200B;以返回&#x200B;**创建工作区**&#x200B;框，或单击&#x200B;**使用模板**&#x200B;以使用捆绑包中包含的模板和创建工作区。
+
+   <div class="preview">
+
+   * 单击&#x200B;**示例工作区**&#x200B;选项卡，然后执行以下步骤：
+
+      1. 单击选项卡上的某个工作区模板，以查看每个模板中的记录类型和字段。 **示例工作区**&#x200B;选项卡中的模板是只读的。
+      1. 单击模板右上角的&#x200B;**从模板创建**。
+      1. （可选）单击任意模板上的&#x200B;**预览**&#x200B;以查看记录类型及其字段。
+
+         >[!TIP]
+         >
+         >单击模板中的记录类型卡片，会在右侧面板中显示记录类型的字段。
+      1. 单击&#x200B;**使用模板**。
+
+   </div>
+
+   这6个工作区已创建并显示在系统管理员的&#x200B;**工作区**&#x200B;和&#x200B;**所有工作区**&#x200B;选项卡中。 系统管理员创建所有Standard-license用户并与他们共享新工作区后，这些用户都将在其“工作区”区域中看到工作区。
 
 1. 开始编辑您创建的工作区，并添加与组织相关的记录类型、记录、视图和字段。
 

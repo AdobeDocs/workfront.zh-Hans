@@ -12,7 +12,7 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: bd1c8dfc4b03b4b8d9948da278406addf801d226
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
 source-wordcount: 516
 ht-degree: 0%
@@ -53,12 +53,7 @@ ht-degree: 0%
 
    * **我所在的工作区**：显示您创建的工作区或与您共享的工作区。
    * **其他工作区**：显示系统中的所有其他工作区。 这仅适用于系统管理员。
-
-  <div class="preview">
-
-   * **示例工作区**：显示最佳实践工作区的内置示例。 您无法编辑工作区、记录类型或添加记录或字段，但可以添加、编辑视图并与他人共享视图。
-
-  </div>
+   * <span class="preview">**示例工作区**：显示最佳实践工作区的内置示例。 您无法编辑工作区、记录类型或添加记录或字段，但可以添加、编辑视图并与他人共享视图。</span>
 
   >[!NOTE]
   >
