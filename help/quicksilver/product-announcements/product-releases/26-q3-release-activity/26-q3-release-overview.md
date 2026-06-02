@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: c90d91ab7b901d20d639d2507297f147821db8b2
+source-git-commit: 3bd72ca7e9a55dded97fa65d403d661f3ca95d3e
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1493'
 ht-degree: 2%
 
 ---
@@ -105,17 +105,15 @@ ht-degree: 2%
             <td><strong>预览</strong></td>
             <td><strong>快速发布</strong></td>
             <td><strong>每季度</strong></td>
-        <!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Print summary for documents in the new Documents area</a>
-                <p>You can now open a printable summary of a document's approval directly from the new Documents area. This feature is available to organizations using Adobe cloud storage.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">打印新文档区域中的文档摘要</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <p>您现在可以直接从新的文档区域打开文档审批的可打印摘要。 此功能适用于使用Adobe云存储的组织。</p>
             </td>
-            <td><p>TBD</p></td>
-            <td><p>TBD</p></td>
-            <td><p>TBD</p></td>
+            <td><p>2026年6月2日</p></td>
+            <td><p>2026年6月11日</p></td>
+            <td><p>2026年7月16日</p></td>
         </tr>
-        -->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">将自定义消息添加到文档审批工作流阶段</a>
