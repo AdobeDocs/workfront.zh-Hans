@@ -9,11 +9,17 @@ exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/qSEkxIz67R1PRsCZCNu0oDYS6pLSJi3OaAULifx9xbo
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 1160
@@ -41,16 +47,16 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>[！UICONTROL标准版]</p>
-   <p>[！UICONTROL计划]</p> </td> 
+   <td> <p>[!UICONTROL 标准版]</p>
+   <p>[!UICONTROL 计划]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[！UICONTROL Edit]对程序的访问权限</p>  </td> 
+   <td> <p>[!UICONTROL Edit]对程序的访问权限</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>[！UICONTROL Manage]程序权限</p>  </td> 
+   <td> <p>[!UICONTROL Manage]程序权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -154,16 +160,16 @@ ht-degree: 2%
       <td> <p>键入项目组合的描述以指示其独特之处。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL项目管理器]</td> 
-      <td> <p>开始键入要指定为项目经理的用户名，然后当名称出现在列表中时将其选定。 此人负责监督项目群项目中定义的工作。 </p> <p><b><p>重要</b></p> <p>指定某个人作为项目群经理时，该人员会自动获得对项目和项目群中的[！UICONTROL管理]权限。 </p> <p><b>提示</b></p> <p>您可以在项目标题中快速更新项目管理器。 </p> </td> 
+      <td role="rowheader">[!UICONTROL 项目管理器]</td> 
+      <td> <p>开始键入要指定为项目经理的用户名，然后当名称出现在列表中时将其选定。 此人负责监督项目群项目中定义的工作。 </p> <p><b><p>重要</b></p> <p>指定某个人作为项目群经理时，该人员会自动获得对项目和项目群中的[!UICONTROL 管理]权限。 </p> <p><b>提示</b></p> <p>您可以在项目标题中快速更新项目管理器。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL组]</td> 
-      <td> <p>添加单个组的名称（如果该组与项目群相关联或负责完成项目）。 </p> <p><b>提示</b></p>  <p>从[！UICONTROL程序详细信息]页面访问[！UICONTROL组]字段时，请执行以下操作以确保选择正确的组： </p> <p>将鼠标悬停在组名称上，然后单击它旁边的[！UICONTROL信息]图标<img src="assets/info-icon.png">。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>此选项在[！UICONTROL编辑程序]框中不可用。 </p> </p> </td> 
+      <td role="rowheader">[!UICONTROL 组]</td> 
+      <td> <p>添加单个组的名称（如果该组与项目群相关联或负责完成项目）。 </p> <p><b>提示</b></p>  <p>从[!UICONTROL 程序详细信息]页面访问[!UICONTROL 组]字段时，请执行以下操作以确保选择正确的组： </p> <p>将鼠标悬停在组名称上，然后单击它旁边的[!UICONTROL 信息]图标<img src="assets/info-icon.png">。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>此选项在[!UICONTROL 编辑程序]框中不可用。 </p> </p> </td> 
      </tr>
 
    <tr> 
-      <td role="rowheader">[！UICONTROL处于活动状态]</td> 
+      <td role="rowheader">[!UICONTROL 处于活动状态]</td> 
       <td> <p>如果您希望此项目群处于活动状态，并且用户希望找到它以将其与项目相关联，请选中此设置。</p>
    <p>取消选中时，项目群不会显示在项目或模板的项目群字段中。 </p>
    <p>默认情况下，此设置处于选中状态。 </p>

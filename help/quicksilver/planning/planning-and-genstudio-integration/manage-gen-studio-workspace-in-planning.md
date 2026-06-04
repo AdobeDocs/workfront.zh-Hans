@@ -9,9 +9,13 @@ exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/K9tDDGCuZRkOa3FjqgdojUv6njW4-AzVRsh4a0mG6ww
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 1769
@@ -402,14 +406,14 @@ Workfront Planning主页将打开。
    1. （视情况而定）在GenStudio工作区中连接的AEM资源中，单击资源的名称，然后单击&#x200B;**在AEM中打开**&#x200B;图标![在AEM中打开图标](assets/open-in-aem-icon.png)以在AEM中打开该资源。
    1. 单击以选择右侧面板中的&#x200B;**Campaign**&#x200B;选项卡。
 
-      连接到资产的营销活动的名称显示在&#x200B;**营销活动**字段中。这是只读字段。
-如果资源还连接到Planning中GenStudio工作区的**区域**、**角色**、**产品**&#x200B;或&#x200B;**渠道**，则这些记录类型的相应字段将以只读模式在资源的&#x200B;**营销活动**&#x200B;选项卡中显示其名称。
+      连接到资产的营销活动的名称显示在&#x200B;**营销活动**&#x200B;字段中。这是只读字段。
+如果资源还连接到Planning中GenStudio工作区的&#x200B;**区域**、**角色**、**产品**&#x200B;或&#x200B;**渠道**，则这些记录类型的相应字段将以只读模式在资源的&#x200B;**营销活动**&#x200B;选项卡中显示其名称。
    1. （视情况而定）在Planning的GenStudio工作区中，从连接的AEM内容片段中单击内容片段的名称，然后单击&#x200B;**在AEM中打开**&#x200B;图标![在AEM中打开图标](assets/open-in-aem-icon.png)以在AEM中打开内容片段。
    1. 单击AEM中的&#x200B;**主页**&#x200B;图标![主页图标](assets/home-icon-in-aem.png)以转到内容片段列表，然后单击AEM中内容片段名称右侧的&#x200B;**信息**&#x200B;图标![信息图标](assets/info-icon-in-aem.png)。
    1. 单击右侧面板中的&#x200B;**元数据**&#x200B;选项卡。
 
       在&#x200B;**xdm： campaignName**&#x200B;字段中显示的连接到内容片段的营销活动的名称。 这是只读字段。 <!--tried to log a bug to rename this field-->
-如果资源还连接到Planning中GenStudio工作区的**区域**、**角色**、**产品**&#x200B;或&#x200B;**渠道**，则这些记录类型的相应字段将以只读模式在内容片段的&#x200B;**元数据**&#x200B;选项卡中显示其名称。
+如果资源还连接到Planning中GenStudio工作区的&#x200B;**区域**、**角色**、**产品**&#x200B;或&#x200B;**渠道**，则这些记录类型的相应字段将以只读模式在内容片段的&#x200B;**元数据**&#x200B;选项卡中显示其名称。
 
 1. 将鼠标悬停在表视图中的字段上，然后单击下拉菜单以执行以下操作之一：
 

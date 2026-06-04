@@ -9,11 +9,19 @@ exl-id: ae2a89e7-8049-4ee6-9b28-ce247d3f2a6f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/56MMpWiXGkKxBYKIiQ2-bOXm-1-WjpS3L-z-Zh2-nWI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 732
@@ -183,7 +191,7 @@ Old:
 
      不会从正在编辑的模板中删除现有资源管理器；通过这种方式添加的任何用户都将作为现有资源管理器之外的模板上的资源管理器。
 
-   * 要将资源管理器添加到新模板，请单击“新建模板”****，再单击模板名称旁边的&#x200B;**“更多”菜单**，然后单击&#x200B;**“编辑”**。
+   * 要将资源管理器添加到新模板，请单击“新建模板”**&#x200B;**，再单击模板名称旁边的&#x200B;**“更多”菜单**，然后单击&#x200B;**“编辑”**。
 
 1. 在&#x200B;**概述**&#x200B;部分中，单击&#x200B;**资源管理器**&#x200B;字段。
 1. 开始键入要作为模板的资源管理器添加的用户名，然后在名称出现在列表中时单击该名称。

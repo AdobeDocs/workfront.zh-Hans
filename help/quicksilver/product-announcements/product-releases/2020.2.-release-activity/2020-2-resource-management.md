@@ -8,11 +8,18 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 00cc1205-5d58-485b-8076-e177f1d931f9
 TQID: https://experienceleague.adobe.com/QAgsK1-saTn4aaPn81bazNS4J2eyvAGP8C6ndMGLY7A
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: c33d85a1-be85-4290-854c-87408c10aa80
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1814
@@ -51,7 +58,7 @@ ht-degree: 4%
 
 要使工作负载均衡器中的信息与您相关，您现在可以为工作负载均衡器的未分配工作和已分配工作区域创建过滤器，并保存它们以供将来使用。 然后，您可以编辑保存的版本以进行细微更改，而不是从头开始使用新筛选器。
 
-有关在工作负载均衡器中过滤的信息，请参阅在工作负载均衡器中管理过滤器[](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)
+有关在工作负载均衡器中过滤的信息，请参阅在工作负载均衡器中管理过滤器[&#128279;](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">

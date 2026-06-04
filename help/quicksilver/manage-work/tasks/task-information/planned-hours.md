@@ -8,11 +8,20 @@ author: Alina
 feature: Work Management
 exl-id: 0b86c760-691a-436e-9beb-31e9ac36440a
 TQID: https://experienceleague.adobe.com/L8Z7JFYj68n3f5ErCcj43KszgDbB3bKAsVCutD-oMow
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: c33d85a1-be85-4290-854c-87408c10aa80id: d1573eb8-a2e8-4a06-9526-9c3410bf4914id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 2815
@@ -50,7 +59,7 @@ ht-degree: 0%
 
 任务的计划小时数表示估计任务的实际工时可能花费的时间。 默认情况下，Workfront会平均分配每个任务持续时间内每天的计划小时总数。 每日已计划小时数将成为任务的每日分配数。 如果将任务分配给多个资源，则默认情况下，每个资源分配的每日小时数相等。
 
-使用工作负载均衡器，您可以修改分配给任务的用户的每日分配。 当任务持续时间类型为简单时，这还可以更新任务的已计划小时数。 有关详细信息，请参阅在工作负载均衡器](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)中的管理用户分派一文[中的“管理用户分派时更新任务已计划小时数”部分。
+使用工作负载均衡器，您可以修改分配给任务的用户的每日分配。 当任务持续时间类型为简单时，这还可以更新任务的已计划小时数。 有关详细信息，请参阅在工作负载均衡器[&#128279;](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)中的管理用户分派一文中的“管理用户分派时更新任务已计划小时数”部分。
 
 当任务包含子任务时，父任务的计划小时数是任何子任务上所有计划小时数的总和。 您无法更新父任务的已计划小时数。
 
@@ -184,7 +193,7 @@ The daily hour amount represents one of the following:
 >
 >工作负载均衡器中的每日分配调整影响资源规划者中任务和问题的每周分配。
 
-每个对象的计划小时数因应用于资源规划者的视图而异。 有关详细信息，请参阅资源规划者](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)的项目和角色视图中的[小时概述、FTE和成本信息。
+每个对象的计划小时数因应用于资源规划者的视图而异。 有关详细信息，请参阅资源规划者[&#128279;](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)的项目和角色视图中的小时概述、FTE和成本信息。
 
 任务和问题的每周计划小时数表示以下值之一：
 

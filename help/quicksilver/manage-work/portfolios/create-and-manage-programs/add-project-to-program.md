@@ -9,11 +9,18 @@ exl-id: 1fecc4d1-4c24-495c-98f5-824e13967369
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/EyxmgHO7j8VmDleBabPYGXsZmjNr-3h8r9-ujvK4DcE
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 676
@@ -55,16 +62,16 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[！UICONTROL标准版]</p> 
-   <p>[！UICONTROL计划] </p> </td> 
+   <td><p>[!UICONTROL 标准版]</p> 
+   <p>[!UICONTROL 计划] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别</td> 
-   <td> <p>[！UICONTROL Edit]对程序或更高版本的访问权限</p> <p>[！UICONTROL Edit]对项目的访问权限</p> </td> 
+   <td> <p>[!UICONTROL Edit]对程序或更高版本的访问权限</p> <p>[!UICONTROL Edit]对项目的访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>[！UICONTROL Manage]程序权限</p> <p>[！UICONTROL Manage]项目权限</p> </td> 
+   <td> <p>[!UICONTROL Manage]程序权限</p> <p>[!UICONTROL Manage]项目权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -123,30 +130,30 @@ old:
     <tbody>
 
    <tr> 
-      <td role="rowheader">[！UICONTROL新建项目]</td> 
+      <td role="rowheader">[!UICONTROL 新建项目]</td> 
       <td> <p>从头开始添加新项目。 </p> <p>有关从头开始创建项目的详细信息，请参阅<a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">创建项目</a>。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL新项目（旧版存储）]</td> 
+      <td role="rowheader">[!UICONTROL 新项目（旧版存储）]</td> 
       <td> <p>添加新的Workfront存储项目。 </p>
       <p>仅当您的组织同时使用Workfront和Adobe云文档存储时，才会显示选项。 您的Workfront实例可能没有这两种类型的存储。</p>
       <p>有关创建项目的详细信息，请参阅<a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">创建项目</a>。 </p> </td> 
       </tr> 
       <tr> 
-      <td role="rowheader">[！UICONTROL New Project from Template]</td> 
+      <td role="rowheader">[!UICONTROL New Project from Template]</td> 
       <td> <p>使用现有模板添加新项目。 </p> <p>有关从模板创建项目的详细信息，请参阅<a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">使用模板创建项目</a>。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL导入[!DNL MS Project]] </td> 
+      <td role="rowheader">[!UICONTROL 导入[!DNL MS Project]] </td> 
       <td> <p>添加您之前从[!DNL MS Project]导出并在计算机上保存的项目。 </p> <p>有关通过从[!DNL Microsoft Project]导入项目来创建新项目的详细信息，请参阅<a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">从[!DNL Microsoft Project]</a>导入项目。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL请求项目]</td> 
+      <td role="rowheader">[!UICONTROL 请求项目]</td> 
       <td> <p>请求批准新项目，然后才能开始处理。</p> <p>有关请求项目的信息，请参阅<a href="../../../manage-work/projects/create-projects/request-project.md">请求项目</a>。 </p> </td> 
      </tr>
 
    <tr> 
-      <td role="rowheader">[！UICONTROL现有项目]</td> 
+      <td role="rowheader">[!UICONTROL 现有项目]</td> 
       <td> <p>添加已创建的项目。</p> </td> 
      </tr> 
     </tbody> 

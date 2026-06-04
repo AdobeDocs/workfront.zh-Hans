@@ -9,10 +9,14 @@ feature: Work Management, Strategic Planning
 recommendations: noDisplay, noCatalog
 exl-id: 3c796bab-b468-451a-adf8-8180f67546ee
 TQID: https://experienceleague.adobe.com/dx62x2kT8-w-H6CbpPV936jG7MKEP0P6Kj1JaBhRoj8
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 107
@@ -30,7 +34,7 @@ ht-degree: 0%
 
 本节包含以下文章：
 
-* [ [!DNL Adobe Workfront]中的项目概述](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/programs-overview.md)
+* [&#x200B; [!DNL Adobe Workfront]中的项目概述](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/programs-overview.md)
 * [创建程序](../../../manage-work/portfolios/create-and-manage-programs/create-program.md)
 * [编辑程序](../../../manage-work/portfolios/create-and-manage-programs/edit-programs.md)
 * [将现有项目添加到项目组合](../../../manage-work/portfolios/create-and-manage-programs/move-program.md)

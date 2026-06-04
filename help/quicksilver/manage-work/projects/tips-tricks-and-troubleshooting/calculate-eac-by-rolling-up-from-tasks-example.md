@@ -8,11 +8,17 @@ author: Lisa
 feature: Work Management
 exl-id: 68b582c9-f72a-4000-9d28-f7dafa23541f
 TQID: https://experienceleague.adobe.com/O-A-9mMVMuqsnHXpph-J5Qwh6Qj5r46zxj7VG85rX04
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1155
@@ -438,64 +444,64 @@ EAC方法=从任务/子任务汇总
    </table>
 
 1. 在项目操作中，运行重新计算财务
-1. 任务1 **的** CPI**** = .14计算如下：\
-   任务1 **的** CPI **** = *IF*实际劳力成本+ GeneratedActualExpenseCost &lt;> 0 *THEN*
+1. 任务1 **的** CPI&#x200B;**&#x200B;** = .14计算如下：\
+   任务1 **的** CPI **&#x200B;**&#x200B;= *IF*实际劳力成本+ GeneratedActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost) / (ActualLaborCost + IncurredActualExpenseCost)
    ```
 
    * ELSE* CPI = CPI_Labor\
-     任务1 **** 1}的**CPI= (100+300) / (2500+400)**\
-     任务1 **** 1}的**CPI= 400 / 2900**\
-     任务1 **** 1}的**CPI = .14**
+     任务1 **&#x200B;**&#x200B;1&rbrace;的&#x200B;**CPI= (100+300) / (2500+400)**\
+     任务1 **&#x200B;**&#x200B;1&rbrace;的&#x200B;**CPI= 400 / 2900**\
+     任务1 **&#x200B;**&#x200B;1&rbrace;的&#x200B;**CPI = .14**
 
-1. 任务1 **的** EAC**** = $13,400.00\
-   任务1 **的** CPI人工****=如果实际人工成本&lt;> 0，则
+1. 任务1 **的** EAC&#x200B;**&#x200B;** = $13,400.00\
+   任务1 **的** CPI人工&#x200B;**&#x200B;**=如果实际人工成本&lt;> 0，则
 
    ```
    CPI_Labor = TotalBudgetedCostWorkPerformed / Actual Labor Cost
    ```
 
    否则CPI_Labor = 1\
-   任务1 **** 1}的**CPI人工= 100/2500**\
-   任务1 **** 1}的**CPI人工= .04**
+   任务1 **&#x200B;**&#x200B;1&rbrace;的&#x200B;**CPI人工= 100/2500**\
+   任务1 **&#x200B;**&#x200B;1&rbrace;的&#x200B;**CPI人工= .04**
 
-   任务1 ****1}的&#x200B;**EAC人工= *IF* CPI_Labor &lt;> 0 *THEN***
+   任务1 **&#x200B;**&#x200B;1&rbrace;的&#x200B;**EAC人工= *IF* CPI_Labor &lt;> 0 *THEN***
 
    ```
    EAC Labor = Planned Labor Cost / CPI_Labor
    ```
 
    * ELSE* EAC人力=计划人工成本+实际人工成本\
-     **任务1****EAC人工= 500.00/.04**\
-     **任务1**&#x200B;的EAC人工**** = $12,500.00
+     **任务1**&#x200B;**EAC人工= 500.00/.04**\
+     **任务1**&#x200B;的EAC人工&#x200B;**&#x200B;** = $12,500.00
 
-   任务1 **的** EAC费用**** = GeneratedActualExpenseCost + NotGeneratedPlannedExpense\
-   **任务1**&#x200B;的EAC费用**** = $400.00 + $500.00\
-   任务1 **的** EAC费用**** = $900.00
+   任务1 **的** EAC费用&#x200B;**&#x200B;** = GeneratedActualExpenseCost + NotGeneratedPlannedExpense\
+   **任务1**&#x200B;的EAC费用&#x200B;**&#x200B;** = $400.00 + $500.00\
+   任务1 **的** EAC费用&#x200B;**&#x200B;** = $900.00
 
-   任务1 **的** EAC**** = EAC人工+ EAC费用\
-   任务1 **的** EAC**** = $12,500.00 + $900.00\
-   任务1 **的** EAC**** = $13,400.00
+   任务1 **的** EAC&#x200B;**&#x200B;** = EAC人工+ EAC费用\
+   任务1 **的** EAC&#x200B;**&#x200B;** = $12,500.00 + $900.00\
+   任务1 **的** EAC&#x200B;**&#x200B;** = $13,400.00
 
 1. 以下是任务2和任务3的CPI / EAC值：\
    任务2 = .19 / $8,433.33\
-   任务3 = .44 / $6,950.00****
+   任务3 = .44 / $6,950.00&#x200B;**&#x200B;**
 
 1. 项目的CPI = .32\
-   项目&#x200B;**CPI ****1} = *IF*实际劳力成本+ GeneratedActualExpenseCost &lt;> 0 *THEN***
+   项目&#x200B;**CPI &#x200B;**&#x200B;**1&rbrace; = *IF*实际劳力成本+ GeneratedActualExpenseCost &lt;> 0 *THEN***
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/(ActualLaborCost + IncurredActualExpenseCost)
    ```
 
    * ELSE* CPI = CPI_Labor\
-     项目&#x200B;**** 0}CPI** = (1000 + 2300) / (7500 + 2700)**\
-     项目&#x200B;**** 1}的**CPI= 3300 / 10200**\
-     项目&#x200B;********CPI = .32
+     项目&#x200B;**&#x200B;** 0&rbrace;CPI **&#x200B; = (1000 + 2300) / (7500 + 2700)**\
+     项目&#x200B;**&#x200B;** 1&rbrace;的&#x200B;**CPI= 3300 / 10200**\
+     项目&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;CPI = .32
 
 1. 该项目的EAC为28,783.33美元\
-   **项目EAC****** = EAC任务1 + EAC任务2 + EAC任务3\
-   **项目****EAC** = $13,400.00 + $8,433.33 + $6,950.00\
-   **项目****EAC** = $28,783.33
+   **项目EAC**&#x200B;**&#x200B;** = EAC任务1 + EAC任务2 + EAC任务3\
+   **项目**&#x200B;**EAC** = $13,400.00 + $8,433.33 + $6,950.00\
+   **项目**&#x200B;**EAC** = $28,783.33

@@ -7,9 +7,12 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 41372dd8-5002-4f8b-a5ac-a577c8b05d11
 TQID: https://experienceleague.adobe.com/h42aq8ShyeC-mZrt8JlpHYFGfgml9HQ2vWHI0-Op-io
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 965
@@ -116,7 +119,7 @@ ht-degree: 2%
 
 ### 我们需要您的反馈！
 
-借助此公共Beta，用户可以通过单击反馈按钮，直接向处理过滤器体验的团队提交反馈。 我们期待您和您的用户在公共测试版中了解新的过滤器体验。 如果您的团队希望直接与产品会面以提供其他反馈，请随时在此处安排会议： https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&amp;date=2022-08-25
+借助此公共Beta，用户可以通过单击反馈按钮，直接向处理过滤器体验的团队提交反馈。 我们期待您和您的用户在公共测试版中了解新的过滤器体验。 如果您的团队希望直接与产品会面以提供其他反馈，请随时在此处安排会议： https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&date=2022-08-25
 
 ### 接下来呢？
 
