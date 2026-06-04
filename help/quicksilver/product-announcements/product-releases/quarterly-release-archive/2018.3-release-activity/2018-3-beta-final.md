@@ -7,9 +7,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d4411916-7f58-4174-b9a5-f19cde181d8b
-source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
+TQID: https://experienceleague.adobe.com/F5gvecGlTsPmXloxVvvSufwrwaz7Vj5Pd2WUCKha7To
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: a7ef0b24-c866-4849-a368-53678af2dfe5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: 862
 ht-degree: 0%
 
 ---
@@ -22,7 +28,7 @@ ht-degree: 0%
 >
 > 此页面上描述的功能在生产环境中可用之前可能会发生更改。
 
-有关2018.3版中所做所有更改的列表，请参阅  [2018.3发布活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md)。
+有关2018.3中所做所有更改的列表，请参阅[2018.3版本活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md)。
 
 2018.3 Beta最终版本包含以下增强功能：
 
@@ -45,7 +51,7 @@ ht-degree: 0%
 * 您现在可以更新个人任务的规划完成日期。
 * 您现在可以将团队和角色分配给在主页中创建的请求和项目任务。
 
-有关上述更新的更多信息，请参阅  [从主页区域创建工作项](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)。
+有关上述更新的详细信息，请参阅[从主页区域创建工作项](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)。
 
 ## 默认情况下，验证标记工具现在处于扩展状态 {#proofing-markup-tools-now-expanded-by-default}
 
@@ -53,7 +59,7 @@ ht-degree: 0%
 
 以前，必须单击才能在垂直菜单中展开这些工具。
 
-有关更多信息，请参阅  [配置校对查看器设置](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)。
+有关详细信息，请参阅[配置校对查看器设置](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)。
 
 ## Microsoft OneDrive文档集成 {#microsoft-onedrive-document-integration}
 
@@ -62,13 +68,13 @@ ht-degree: 0%
 在此增强功能之前，您可以将以下第三方文档存储提供商链接到Workfront：
 
 * Google Drive
-* Box
+* 盒子
 * Dropbox
 * WebDAM
 
 有关文档集成的信息，请参阅[配置文档集成](../../../../administration-and-setup/configure-integrations/configure-document-integrations.md)。
 
-## 用于Microsoft Teams集成的Workfront {#workfront-for-microsoft-teams-integration}
+## 适用于Microsoft Teams的Workfront集成 {#workfront-for-microsoft-teams-integration}
 
 您现在可以将Microsoft Teams和Workfront与新的开箱即用集成集成。
 
@@ -93,7 +99,7 @@ ht-degree: 0%
 * 使用您的Workfront或SAML凭据登录
 * 将资源上传到Workfront
 * 向上载的文档添加注释和版本
-* 直接从Adobe应用产品导航到工作项和文档
+* 直接从Adobe应用程序导航到工作项和文档
 * 访问您的工作列表
 * 请求文档审批
 * 对您有权访问的任何项目、任务或问题执行常规搜索

@@ -5,11 +5,17 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 56849377a2c31c9232e0ecd8517046f76c7963df
+TQID: https://experienceleague.adobe.com/EqRUPqeqy6fSLryuWDtQGaypBlXmSJiaErDZymB95is
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: 512
 ht-degree: 0%
 
 ---
@@ -24,9 +30,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览： 2026年4月2日
->生产快速发布： 2026年4月15日
->适用于所有人的生产： 2026年4月16日
+>预览： 2026年4月2日>生产快速发布： 2026年4月15日>适用于所有人的生产： 2026年4月16日
 
 为了让您更轻松地在日常工作中从AI中获益，我们创建了内容审阅AI协作器。 通过协作器，可将AI代理载入您的项目和任务。 您可以使用品牌指南配置AI协作器，然后像向用户一样将其分配给任务。
 
@@ -38,16 +42,14 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览：2026年3月5日
->生产快速发布： 2026年4月15日
->适用于所有人的生产： 2026年4月16日
+>预览： 2026年3月5日>生产快速发布： 2026年4月15日>适用于所有人的生产： 2026年4月16日
 
-我们已从“项目首选项”部分移动了“自定义季度”区域。 它现在是“设置”中的独立部分。 
+我们已从“项目首选项”部分移动了“自定义季度”区域。它现在是“设置”中的独立部分。 
 此更新包括以下内容：
 
 * 自定义季度区域将从设置中的项目偏好设置部分中移除
-* 自定义季度部分已添加到设置左侧面板。 功能保持不变。 
-* “自定义季度”部分已从组的项目偏好设置部分中移除。 组管理员无法再查看自定义季度设置。 
+* 自定义季度部分已添加到设置左侧面板。功能保持不变。 
+* “自定义季度”部分已从组的项目偏好设置部分中移除。组管理员无法再查看自定义季度设置。 
 
 有关信息，请参阅[启用自定义季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
@@ -55,9 +57,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览：2026年2月26日
->生产快速发布： 2026年3月12日
->适用于所有人的生产： 2026年4月16日
+>预览： 2026年2月26日>生产快速发布： 2026年3月12日>适用于所有人的生产： 2026年4月16日
 
 默认情况下，当窗体本身展开时，自定义窗体上的所有部分都会展开。 自定义表单设计器上的新选项允许您在用户打开表单时将节标记为默认折叠。 此选项在部分级别应用，而不是在字段应用。
 
@@ -67,9 +67,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览： 2026年1月29日
->生产快速发布： 2026年2月12日
->为所有人生产：待定
+>预览： 2026年1月29日>生产快速发布： 2026年2月12日>所有人的生产：待定
 >
 >此功能已于2026年2月13日从生产环境中暂时删除。
 

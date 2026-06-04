@@ -7,9 +7,15 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+TQID: https://experienceleague.adobe.com/q4CqQk3-DtWDhTSkfMdu4Ut3wmX5s787Fib8BFslHDQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2112'
+source-wordcount: 2204
 ht-degree: 0%
 
 ---
@@ -28,7 +34,7 @@ ht-degree: 0%
 >
 >预览版本： 2024年12月20日；适用于所有客户的生产版本： 2025年1月16日
 
-您现在可以将带AEM Assets的连接字段添加到Workfront Planning的记录类型请求表单中。
+您现在可以在Workfront Planning中将带AEM资源的连接字段添加到记录类型请求表单中。
 
 在此增强功能之前，无法将这些类型的字段添加到请求表单。
 
@@ -61,7 +67,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->贵组织的Workfront实例必须载入到AdobeUnified Experience，用户才能接收电子邮件和应用程序内通知。
+>贵组织的Workfront实例必须载入到Adobe Unified Experience，用户才能接收电子邮件和应用程序内通知。
 
 有关提交或批准请求的信息，请参阅以下文章：
 
@@ -215,13 +221,13 @@ Workspace管理员可以在删除记录后，从垃圾桶中恢复长达30天的
 
 有关详细信息，请参阅[恢复已删除的记录](/help/quicksilver/planning/records/records-information.md)。
 
-## 可在记录详细信息区域找到的Adobe人工智能助手
+## 可在记录详细信息区域找到Adobe AI助手
 
 >[!NOTE]
 >
 >预览版本： 2024年11月21日；用于快速发布的生产：用于24.12版（2024年12月12日）；用于季度发布的生产：用于25.1版（2025年1月）
 
-为了让您更轻松地完成工作，我们将Adobe人工智能助手添加到记录的详细信息预览或记录页面。 您可以在记录页面内部使用AI助手来更新有关记录的信息。
+为了让您更轻松地完成工作，我们已将Adobe AI助手添加到记录的详细信息预览或记录页面。 您可以在记录页面内部使用AI助手来更新有关记录的信息。
 
 有关信息，请参阅[Adobe Workfront Planning AI助手概述](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)。
 
@@ -246,7 +252,7 @@ Workspace管理员可以在删除记录后，从垃圾桶中恢复长达30天的
 
 为了使数字在表格视图中更容易阅读，您现在可以从以下选项中进行选择，以更改百分比类型字段在表格视图中的显示方式：
 
-* 数字
+* 数值
 * 条形图
 * 圆形
 
@@ -302,7 +308,7 @@ Workspace管理员可以在删除记录后，从垃圾桶中恢复长达30天的
 
 * 从Workfront对象连接和断开Workfront Planning记录。
 
-您可以将新字段添加到所有对象类型的表单中。 但是，您只能从附加到以下Workfront对象的表单编辑字段中的信息，这些对象可以从Workfront Planning记录类型连接：Portfolio、项目、公司、组。
+您可以将新字段添加到所有对象类型的表单中。 但是，您只能从附加到以下Workfront对象（可从Workfront Planning记录类型连接）的表单编辑字段中的信息：Portfolio、Program、Project、Company、Group。
 
 现在尚无法为Workfront对象批量编辑Planning连接字段。
 

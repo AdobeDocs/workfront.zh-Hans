@@ -7,9 +7,13 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f208b566-2529-4c4d-aa66-0c8756e55a5a
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/cRgFYpirYkFSGNPJT0CFwtIB4Pul0-Mml9i892nV1aE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2147'
+source-wordcount: 2151
 ht-degree: 0%
 
 ---
@@ -18,7 +22,7 @@ ht-degree: 0%
 
 本页介绍了2018.3 Beta 5版本在“预览”环境中最近提供的所有更改。 该功能将于2018年9月21日在预览环境中可用。 该版本将于2018年11月在生产环境中提供。
 
-有关2018.3版中所做所有更改的列表，请参阅  [2018.3发布活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md)。
+有关2018.3中所做所有更改的列表，请参阅[2018.3版本活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md)。
 
 2018.3 Beta 5版本包含面向所有用户的增强功能：
 
@@ -63,9 +67,9 @@ ht-degree: 0%
 
 ## Workfront中基于Flash的工具的替换 {#replacement-of-flash-based-tools-in-workfront}
 
-计划在2018.3版本中从Workfront删除所有依赖于Flash技术的功能，这些功能将被新的解决方案取代。
+所有依赖于Flash技术的功能计划在2018.3版本中从Workfront删除，并将替换为新解决方案。
 
-有关受移除这些功能影响的所有区域的详细信息以及要了解哪些工具将替换它们，请参阅[在Adobe Workfront中替换基于Flash的工具](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)。
+有关受移除这些功能影响的所有区域的详细信息，以及要了解哪些工具将替换它们，请参阅[在Adobe Workfront中替换基于Flash的工具](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)。
 
 ## 允许工作许可证用户访问项目的“计划”子选项卡 {#allowing-work-license-users-to-access-the-scheduling-subtab-of-a-project}
 
@@ -125,29 +129,29 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 此功能首次引入到2018.2版本的预览环境中。 它将在2018.3版本中发布到生产环境。 
+> 此功能首次引入到2018.2版本的预览环境中。它将在2018.3版本中发布到生产环境。 
 
 利用率报表中的预算小时数现在由业务案例的新资源预算编制区域中的可用信息填充。
 
 在此更改之前，使用旧版资源估算区域中的信息。
 
-有关更多信息，请参阅  [文章中的资源利用率报告概述](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)  [资源利用率报告概述](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)。
+有关详细信息，请参阅[资源利用率报告概述](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)一文中的[资源利用率报告概述](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)。
 
 ## 利用率报表：按用户在项目上查看预算小时数 {#utilization-report-view-budgeted-hours-by-user-on-a-project}
 
 >[!NOTE]
 >
->此功能首次引入到2018.2版本的预览环境中。 它将在2018.3版本中发布到生产环境。 
+>此功能首次引入到2018.2版本的预览环境中。它将在2018.3版本中发布到生产环境。 
 
 项目的利用率报告现在按用户显示预算小时数。
 
 在此更改之前，“利用率”报告仅按工作角色显示预算小时数。 
 
-有关更多信息，请参阅  [文章中的资源利用率报告概述](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)  [资源利用率报告概述](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)。
+有关详细信息，请参阅[资源利用率报告概述](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)一文中的[资源利用率报告概述](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)。
 
 ## 验证查看器中不再支持SWF文件 {#swf-files-no-longer-supported-in-the-proofing-viewer}
 
-由于与AdobeFlash相关的安全问题，验证查看器不再支持从SWF文件创建的验证。 如果您打开之前为SWF文件创建的校样，则会显示一条消息，其中校样内容先前显示在校样查看器中。 您可以看到对验证的任何评论。 您还可以下载注释和下载原始SWF文件。
+由于与Adobe Flash相关的安全问题，验证查看器不再支持从SWF文件创建的验证。 如果您打开之前为SWF文件创建的校样，则会显示一条消息，其中校样查看器中先前显示的校样内容。 您可以看到对验证的任何评论。 您还可以下载注释和下载原始SWF文件。
 
 有关详细信息，请参阅文章[支持的校对文件类型和大小限制概述](../../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md)中的[支持的校对文件类型和大小限制概述](../../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md)。 
 
@@ -165,7 +169,7 @@ ht-degree: 0%
 
 以前，这些选项提供的功能与现在相同，但其组织方式与“文档”列表中的相应选项不一致。
 
-有关更多信息，请参阅部分  在文章中[共享URL](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-the-url)  [从验证查看者共享验证](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)。
+有关详细信息，请参阅文章[从验证查看者共享校对](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)中的[共享URL](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-the-url)部分。
 
 ## 验证查看者中的注释列表增强功能 {#comments-list-enhancements-in-the-proofing-viewer}
 
@@ -254,4 +258,4 @@ ht-degree: 0%
 
 移动应用程序上“更新”选项卡的外观现已更新。 目前，这项改进仅在Android的Workfront Beta版应用程序中可用。
 
-有关在Workfront移动设备应用程序中管理更新和评论的信息，请参阅部分  中的。
+有关在Workfront移动设备应用程序中管理更新和评论的信息，请参阅中的部分。

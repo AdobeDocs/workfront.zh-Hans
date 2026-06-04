@@ -7,9 +7,14 @@ description: 需要Select或Premium [!DNL Workfront] 计划才能使用此功能
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 87c8aff7-b638-4d14-9c5a-7e316f1ec608
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+TQID: https://experienceleague.adobe.com/3yKlFPGeKsvd4IMn-Vop6dg8MUaiVBTaVSilbyp8B-I
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: 1054
 ht-degree: 0%
 
 ---
@@ -22,7 +27,7 @@ ht-degree: 0%
 >
 >本文提及独立产品[!DNL Workfront Proof]中的功能。 有关[!DNL Adobe Workfront]内部校对的信息，请参阅[校对](../../../review-and-approve-work/proofing/proofing.md)。
 
-需要Select或Premium [!DNL Workfront]计划才能使用此功能。 有关各种可用计划的详细信息，请参阅[Workfront计划](https://business.adobe.com/cn/products/workfront/pricing.html)。
+需要Select或Premium [!DNL Workfront]计划才能使用此功能。 有关各种可用计划的详细信息，请参阅[Workfront计划](https://business.adobe.com/products/workfront/pricing.html)。
 
 自定义字段允许您在创建新验证、用户或访客时捕获其他数据。 例如，创建新验证的用户可能希望包含附加部分，以便他们能够捕获工作编号、部门代码或供应商参考。
 

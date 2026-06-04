@@ -7,9 +7,14 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ed7488f1-2076-4160-97f3-a3da25cccd0f
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+TQID: https://experienceleague.adobe.com/YIrC0bPIlY8yLTVQ5VlsYctwXFu-fV5syuqmmh7i5ek
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3did: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: 566
 ht-degree: 0%
 
 ---
@@ -24,7 +29,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td> <strong>从AdobeCC文档启动自动验证工作流</strong> <p>无需离开Adobe抄送，即可为已创建的Adobe抄送文档启动自动验证工作流。 有关详细信息，请参阅<a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md" class="MCXref xref" xrefformat="{para}">使用Illustrator和InDesign的Illustrator扩展</a>中的章节<a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md#generate" class="MCXref xref" xrefformat="{para}">从Workfront或InDesign生成校对</a>。</p> </td> 
+   <td> <strong>从Adobe CC文档启动自动验证工作流</strong> <p>您无需离开Adobe CC，即可为您创建的Adobe CC文档启动自动验证工作流。 有关详细信息，请参阅<a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md" class="MCXref xref" xrefformat="{para}">使用Illustrator和InDesign的Workfront扩展</a>一文中的<a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md#generate" class="MCXref xref" xrefformat="{para}">从Illustrator或InDesign生成校对</a>部分。</p> </td> 
   </tr> 
   <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
@@ -56,7 +61,7 @@ ht-degree: 0%
    <td> 
     <div> 
      <strong>自定义表单中预输入字段可用的其他对象类型</strong> 
-     <p>现在，当您创建“预输入”自定义字段时，可以将以下对象类型与该字段相关联：用户、公司、组、工作角色、Portfolio、项目群和模板。</p> 
+     <p>现在，当您创建“预输入”自定义字段时，可以将以下对象类型与该字段相关联：用户、公司、组、工作角色、Portfolio、项目、项目和模板。</p> 
      <p>以前，您只能将用户对象类型与预输入自定义字段相关联。</p> 
     </div> </td> 
   </tr> 

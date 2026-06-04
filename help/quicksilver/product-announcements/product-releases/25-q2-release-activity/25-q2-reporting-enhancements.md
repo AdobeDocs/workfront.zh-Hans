@@ -5,11 +5,15 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 50639b81-d4d0-4702-98ba-2d5ec29575dc
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/0AqOVdHoTy1ylNXu9qHALHp2vqoJp03CXTaY87XqOOk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: 257
 ht-degree: 0%
 
 ---
@@ -18,7 +22,7 @@ ht-degree: 0%
 
 本页介绍了在2025年第二季度版本中对“预览”环境所做的所有报表和控制面板增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2025年第二季度发布周期中此时可用的所有更改列表，请参阅[&#x200B; 2025年第二季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)。
+有关2025年第二季度发布周期中此时可用的所有更改列表，请参阅[ 2025年第二季度发布概述](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)。
 
 ## Data Connect中现在提供文档审批和决策数据
 

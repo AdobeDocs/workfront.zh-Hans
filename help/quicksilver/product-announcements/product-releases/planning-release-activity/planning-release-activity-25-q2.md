@@ -7,9 +7,15 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: 4b5248f667648543263073022ae10336fb022f97
+TQID: https://experienceleague.adobe.com/YlgDVj9oKA6fWw0MM3SCBrEffWaIpASAfqIheZDjHKE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2208'
+source-wordcount: 2218
 ht-degree: 0%
 
 ---
@@ -108,7 +114,7 @@ ht-degree: 0%
 >预览版本： 2025年3月6日；面向所有客户的生产： 2025年4月10日
 
 您现在可以从记录类型的页面中使用CSV或Excel电子表格导入记录。
-在此增强功能之前，您只能在创建记录类型时导入记录。 通过此更新，您可以将记录导入现有记录类型。
+在此增强功能之前，您只能在创建记录类型时导入记录。通过此更新，您可以将记录导入现有记录类型。
 
 有关信息，请参阅[通过从CSV或Excel文件导入信息创建记录](/help/quicksilver/planning/records/import-file-to-create-records.md)。
 
