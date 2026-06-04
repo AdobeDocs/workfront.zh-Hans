@@ -9,10 +9,19 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
 TQID: https://experienceleague.adobe.com/8Q6Zl8hZ-1xapGhFs9niCKnpeq-o4kgIta4tu8ObBYs
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d8302c96-f652-4d09-896b-19a70bab02a5id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: da3860b0-d637-47df-bef0-273751180266id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d8302c96-f652-4d09-896b-19a70bab02a5
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: da3860b0-d637-47df-bef0-273751180266
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1869
@@ -130,7 +139,7 @@ ht-degree: 1%
 1. 在AEM中，转到&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 安全性]** > **[!UICONTROL 权限]**。
 1. 在左上角，从下拉菜单中选择&#x200B;**[!UICONTROL 用户]**&#x200B;，然后在&#x200B;**[!UICONTROL 搜索]**&#x200B;字段中输入&#x200B;*[!UICONTROL workfront-service{3&#x200B;}。]*&#x200B;选择[!UICONTROL workfront-service]用户。
 1. 在屏幕右侧，选择&#x200B;**[!UICONTROL 添加ACE]**&#x200B;以创建新条目。
-1. 在{&#x200B;0}添加新条目&#x200B;]**窗口&#x200B;中，选中**[!UICONTROL &#x200B;路径&#x200B;]**字段中的复选框图标，&#x200B;然后选择文件夹： */conf***[!UICONTROL 
+1. 在{&#x200B;0}添加新条目&#x200B;**窗口&#x200B;中，选中**&#x200B;[!UICONTROL &#x200B;路径&#x200B;]&#x200B;**字段中的复选框图标，&#x200B;然后选择文件夹： */conf***
 1. 在&#x200B;**权限**&#x200B;字段中，输入： *jcr:read*
 1. 选择右上角的&#x200B;**添加**。
 1. （可选）重复上述步骤以创建更多条目。
@@ -147,7 +156,7 @@ ht-degree: 1%
 
       例如，[!DNL https]：//`<account>`.my.workfront.com，其中`<account>`是您用于与AEM集成的帐户。
 
-   1. 在{&#x200B;0}基本文件夹&#x200B;]**字段中，选中复选框图标。**[!UICONTROL 
+   1. 在{&#x200B;0}基本文件夹&#x200B;**字段中，选中复选框图标。**
    1. 在下拉菜单中，选择链接到[!DNL Workfront]对象的文档的存储路径。
    1. 在显示的AEM模式窗口中，将包含连接到[!DNL Workfront]对象的文档的文件夹路径置于之后。 选择文件夹，然后按右上角的&#x200B;**[!UICONTROL &#x200B;选择]**。
 
@@ -273,7 +282,7 @@ ht-degree: 1%
 
 1. 在&#x200B;**[!UICONTROL 身份验证类型]**&#x200B;下拉菜单中，选择&#x200B;**[!UICONTROL ApiKey].**
 
-1. 在{&#x200B;0}API密钥&#x200B;]**框中，粘贴您配置[!UICONTROL AEM Assets]时复制的AEM API密钥。**[!UICONTROL 
+1. 在{&#x200B;0}API密钥&#x200B;**框中，粘贴您配置[!UICONTROL AEM Assets]时复制的AEM API密钥。**
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 1. （可选）确保集成标记为[!UICONTROL 活动]。\
    ![aem_custom_integration_active.png](assets/aem-custom-integration-active-350x81.png)
@@ -293,7 +302,7 @@ ht-degree: 1%
 ### 在[!DNL AEM assets]中设置用户 {#set-up-users-in-aem-assets}
 
 1. 以Workfront管理员身份登录到[!DNL AEM Assets]。
-1. 单击&#x200B;**[!UICONTROL 工具]** > **{3&#x200B;}{&#x200B;4}安全性]** > **[!UICONTROL 用户]**。****[!UICONTROL 
+1. 单击&#x200B;**[!UICONTROL 工具]** > **{3&#x200B;}{&#x200B;4}安全性** > **[!UICONTROL 用户]**。**&#x200B;**
 
 1. （视情况而定）如果用户在AEM中没有用户配置文件，请创建AEM用户配置文件。
 

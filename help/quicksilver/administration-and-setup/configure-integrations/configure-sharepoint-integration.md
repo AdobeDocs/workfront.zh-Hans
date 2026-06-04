@@ -11,10 +11,18 @@ exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/wQAqAplnYGWGCSSb1oVg2wIUK7Pn-Q0k4YIJIPJlqaQ
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1744
@@ -177,7 +185,7 @@ ht-degree: 1%
 
 1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![设置图标](/help/_includes/assets/gear-icon-setup.png)。
 1. 在左侧导航中选择&#x200B;**[!UICONTROL 文档]**，然后选择&#x200B;**[!UICONTROL 云提供商]**。
-1. 确保同时启用了&#x200B;**[!DNL SharePoint]**&#x200B;选项和&#x200B;**[!UICONTROL [!DNL SharePoint](Graph API)]**&#x200B;选项。
+1. 确保同时启用了&#x200B;**[!DNL SharePoint]**&#x200B;选项和&#x200B;**[!UICONTROL [!DNL SharePoint] (Graph API)]**&#x200B;选项。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 1. 在左侧导航中选择&#x200B;**[!UICONTROL 文档]**，然后选择&#x200B;**[!UICONTROL [!DNL SharePoint]集成]**。
 1. 选择列表左侧的复选标记以查看所有现有集成，然后选择&#x200B;**[!UICONTROL 禁用]**。
@@ -437,19 +445,19 @@ For instructions, see [Link an external document to [!DNL Workfront]](../../docu
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL设计]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 设计]</p> </td> 
    <td> <p>可以查看、添加、更新、删除、批准和自定义</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL编辑]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 编辑]</p> </td> 
    <td> <p>可以添加、编辑和删除列表；可以查看、添加、更新和删除列表项和文档</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Contribute]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Contribute]</p> </td> 
    <td> <p>可以查看、添加、更新和删除列表项和文档</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL仅视图]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 仅视图]</p> </td> 
    <td> <p>可以查看页面、列表项和文档（具有服务器端文件处理程序的文档类型可以在浏览器中查看，但不能下载）</p> </td> 
   </tr> 
  </tbody> 

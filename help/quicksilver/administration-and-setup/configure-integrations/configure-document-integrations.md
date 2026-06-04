@@ -9,11 +9,18 @@ feature: System Setup and Administration, Workfront Integrations and Apps, Digit
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
 TQID: https://experienceleague.adobe.com/RUHFPYpCgZq0qAMGB8-Na2olK7uHVtViIcygLUiTkSo
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: c4a58f26-aa43-4761-aafe-56f1e034d7d5
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: c4a58f26-aa43-4761-aafe-56f1e034d7d5
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1111
@@ -148,15 +155,15 @@ ht-degree: 4%
       <td>自定义集成的名称。 这是用户在Workfront中使用集成时看到的名称。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL基本API URL] </td> 
+      <td role="rowheader">[!UICONTROL 基本API URL] </td> 
       <td>API调用的基本HTTP或安全HTTP URL。 例如， <code>https://&lt;documentprovider&gt;.com/api/v2</code></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL身份验证类型]</td> 
+      <td role="rowheader">[!UICONTROL 身份验证类型]</td> 
       <td> <p>对自定义集成进行授权的API调用时要使用的身份验证方法。</p> 
        <ul> 
-        <li>如果选择<strong>[！UICONTROL OAuth]</strong>，请继续执行步骤5。</li> 
-        <li>如果选择<strong>[！UICONTROL ApiKey]</strong>，请继续执行步骤6。</li> 
+        <li>如果选择<strong>[!UICONTROL OAuth]</strong>，请继续执行步骤5。</li> 
+        <li>如果选择<strong>[!UICONTROL ApiKey]</strong>，请继续执行步骤6。</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -173,7 +180,7 @@ ht-degree: 4%
       <td>用于用户身份验证的完整URL。 在OAuth配置过程中，[!DNL Workfront]将用户导航到此地址。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL令牌端点URL]</td> 
+      <td role="rowheader">[!UICONTROL 令牌端点URL]</td> 
       <td>用于检索 OAuth 令牌的完整 API URL。</td> 
      </tr> 
      <tr> 
@@ -185,7 +192,7 @@ ht-degree: 4%
       <td>此集成的OAut客户端密钥</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL请求参数]</td> 
+      <td role="rowheader">[!UICONTROL 请求参数]</td> 
       <td> <p>输入要附加到每个API调用的查询字符串的可选值。 例如，access_type=offline。</p> <p>要添加多个请求参数，请单击<strong>+添加请求参数</strong>。</p> </td> 
      </tr> 
     </tbody> 

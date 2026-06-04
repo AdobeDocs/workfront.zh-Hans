@@ -9,11 +9,18 @@ role: Admin
 author: Becky
 exl-id: 99c40201-815e-447d-b791-dd026af55ec1
 TQID: https://experienceleague.adobe.com/x7ogKm-2LK11UurtYiRVN0OSaMBfR9EZrSKaFabBdlk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: d1807669-3cb9-4c7d-8433-600aa390c92f
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: d1807669-3cb9-4c7d-8433-600aa390c92f
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 215
@@ -21,11 +28,11 @@ ht-degree: 4%
 
 ---
 
-# 在[!DNL Adobe Admin Console]中为您的用户创建[!DNL Creative Cloud]]程序包的[!UICONTROL [!DNL Adobe Workfront]
+# 在[!DNL Adobe Admin Console]中为您的用户创建[!DNL Creative Cloud]程序包的[!DNL Adobe Workfront]
 
-[!DNL Adobe Admin Console]管理员可以创建仅用于插件的轻量级包。 通过分发这些预配置的包，管理员可以确保用户拥有这些插件，而无需依赖用户自行查找插件。 我们建议使用这些轻量级插件将[!DNL Creative Cloud]]插件的[!UICONTROL [!DNL Adobe Workfront]分发给贵组织中的用户。
+[!DNL Adobe Admin Console]管理员可以创建仅用于插件的轻量级包。 通过分发这些预配置的包，管理员可以确保用户拥有这些插件，而无需依赖用户自行查找插件。 我们建议使用这些轻量级插件将[!DNL Creative Cloud]插件的[!DNL Adobe Workfront]分发给贵组织中的用户。
 
-[!DNL Creative Cloud]]插件的以下[!UICONTROL [!DNL Adobe Workfront]可用：
+[!DNL Creative Cloud]插件的以下[!DNL Adobe Workfront]可用：
 
 * Photoshop的[!DNL Adobe Workfront]
 * XD的[!DNL Adobe Workfront]
@@ -36,7 +43,7 @@ ht-degree: 4%
    * Premiere Pro
    * After Effects
 
-您的用户可以将[!DNL Creative Cloud]]插件的[!UICONTROL [!DNL Adobe Workfront]用于
+您的用户可以将[!DNL Creative Cloud]插件的[!DNL Adobe Workfront]用于
 
 * 记录时间
 * 启动审阅和批准流程
@@ -44,9 +51,9 @@ ht-degree: 4%
 * 查看项目和任务
 * 等等
 
-有关[!DNL Creative Cloud]]插件的[!UICONTROL [!DNL Adobe Workfront]的详细信息，请参阅 [!DNL Creative Cloud] 应用程序](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)的[[!DNL Adobe Workfront] 插件。
+有关[!DNL Creative Cloud]&rbrack;插件的[[!UICONTROL [!DNL Adobe Workfront]的详细信息，请参阅 [!DNL Creative Cloud] 应用程序]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)的&lbrack;[!DNL Adobe Workfront] 插件。
 
-## 为[!DNL Creative Cloud]]插件的[!UICONTROL [!DNL Adobe Workfront]创建包
+## 为[!DNL Creative Cloud]插件的[!DNL Adobe Workfront]创建包
 
 通过[!DNL Adobe Admin Console]创建包。
 

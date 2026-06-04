@@ -9,10 +9,15 @@ role: Admin
 author: Becky
 exl-id: 158430e5-8857-4bd8-86a6-2ba106b1638c
 TQID: https://experienceleague.adobe.com/nN-7cw-IwnuQ-7wjyjyp3wUifEvk2eNmo9zqyHDjfV0
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 644
@@ -103,7 +108,7 @@ ht-degree: 3%
 >您无法查看客户端密钥本身。 如果您丢失了客户端密钥，则必须将其删除并创建一个新密钥。
 >
 >* 要删除客户端密钥，请参阅本文中的[删除客户端密钥](#delete-client-secret)。
->* 若要创建新的客户端密钥，请参阅[为 [!DNL Workfront] 集成](../../administration-and-setup/configure-integrations/create-oauth-application.md)创建OAuth2应用程序](../../administration-and-setup/configure-integrations/create-oauth-application.md#create)中的[创建OAuth2应用程序。
+>* 若要创建新的客户端密钥，请参阅[为 [!DNL Workfront] 集成](../../administration-and-setup/configure-integrations/create-oauth-application.md)创建OAuth2应用程序[&#128279;](../../administration-and-setup/configure-integrations/create-oauth-application.md#create)中的创建OAuth2应用程序。
 >
 
 {{step-1-to-setup}}

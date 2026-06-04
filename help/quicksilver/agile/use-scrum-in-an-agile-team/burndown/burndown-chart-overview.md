@@ -10,11 +10,17 @@ exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/8OZS7tJxkbVtVbH41oKsUmL2dwJdkOCTJFXcuxXtWFQ
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 976
@@ -66,12 +72,12 @@ ht-degree: 0%
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="工作用绿点烧毁"> </td> 
    <td> <p>每当工作燃尽时，实际燃尽率上都会显示一个绿色或红色圆点。 （当当当天的实际燃尽率为红色时，圆点为红色；当当当天的实际燃尽率为绿色时，圆点为绿色。）</p> <p>出现以下任何情况时，工作都会被烧毁：</p> 
     <ul> 
-     <li> [！UICONTROL完成百分比]在文章中增加。<br>[！UICONTROL完成百分比]在下列情况下增加： 
+     <li> [!UICONTROL 完成百分比]在文章中增加。<br>[!UICONTROL 完成百分比]在下列情况下增加： 
       <ul> 
        <li> <p>手动更改</p> </li> 
        <li> <p>在文章中更新了点数或小时数</p> </li> 
       </ul></li>  
-     <li>故事的状态已更改为[！UICONTROL结束]</li> 
+     <li>故事的状态已更改为[!UICONTROL 结束]</li> 
     </ul> </td> 
   </tr> 
  </tbody> 

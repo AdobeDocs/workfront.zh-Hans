@@ -8,11 +8,19 @@ author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: b0c6df90-3ea8-4c81-abe2-48c2748a4d2b
 TQID: https://experienceleague.adobe.com/Rleqw7v8hVl-ABo5aDKwh5-g4XxTPUYl9WZ-FD2f-MU
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: da3860b0-d637-47df-bef0-273751180266
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: da3860b0-d637-47df-bef0-273751180266
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 563
@@ -55,7 +63,7 @@ Workfront for Experience Manager增强型连接器现在使您能够：
 
 ## 快速入门
 
-1. **安装并配置连接器**。 使用认证合作伙伴或Adobe Professional Services ，安装和配置Workfront for Experience Manager增强型连接器，以整理、标准化流程、建立治理并简化从创建到交付的资源生命周期。 在Adobe Experience Manager 6.5](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/integrations/workfront-integrations)中安装[或在Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install)中安装[。
+1. **安装并配置连接器**。 使用认证合作伙伴或Adobe Professional Services ，安装和配置Workfront for Experience Manager增强型连接器，以整理、标准化流程、建立治理并简化从创建到交付的资源生命周期。 在Adobe Experience Manager 6.5[&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/integrations/workfront-integrations)中安装[或在Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install)中安装。
 1. **使用连接器**。 查看增强型连接器在Experience Manager Assets中自动生成项目链接文件夹、映射到Experience Manager Assets和文件夹的Workfront元数据、双向元数据同步等实际操作的功能。 有关详细信息，请参阅[Workfront for Experience Manager增强型连接器](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md)。
 
 ## 更多此类内容

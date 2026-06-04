@@ -9,11 +9,17 @@ exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/JjHAd2LRZNEfB-tWKHrMvT5DOroHf1jDJmLPPj-4-6M
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 1285
@@ -144,7 +150,7 @@ ht-degree: 1%
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL文章名称]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 文章名称]</strong></td>
       <td> 键入故事的名称。</td>
      </tr>
      <tr>
@@ -152,23 +158,23 @@ ht-degree: 1%
       <td>（可选）键入文章的描述。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL就绪]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 就绪]</strong></td>
       <td> 选择文章是否准备好添加到开发周期。 此设置仅供参考。 可以将故事添加到开发周期，而不管此设置的状态如何。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL估计]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 估计]</strong></td>
       <td>指定文章的分值或每小时估计值。 估计值会影响燃尽图。 仅当每个故事都包含准确的估计值时，迭代的燃尽图才准确。 （如果提供点估计值，则必须在团队设置中指定每个点表示的小时数。）</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL父项目]</strong></td>
-      <td>开始键入将在其中创建此文章的项目名称，然后在名称出现在下拉列表中时单击该名称。<br>项目的状态必须设置为[！UICONTROL当前]。 如果项目的状态不是[！UICONTROL当前]，则它不会显示在下拉菜单中。</td>
+      <td role="rowheader"><strong>[!UICONTROL 父项目]</strong></td>
+      <td>开始键入将在其中创建此文章的项目名称，然后在名称出现在下拉列表中时单击该名称。<br>项目的状态必须设置为[!UICONTROL 当前]。 如果项目的状态不是[!UICONTROL 当前]，则它不会显示在下拉菜单中。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL父任务]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 父任务]</strong></td>
       <td>（可选）开始键入此文章从属的父任务的名称，然后在名称出现在下拉列表中时单击该名称。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL自定义Forms]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 自定义Forms]</strong></td>
       <td> （可选）选择要添加到此文章的任何自定义表单。</td>
      </tr>
     </tbody>

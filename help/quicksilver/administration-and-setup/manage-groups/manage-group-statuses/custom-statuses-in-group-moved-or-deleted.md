@@ -9,10 +9,15 @@ feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 83885d86-eb00-46cc-93e9-e3364b6125e8
 TQID: https://experienceleague.adobe.com/-gESpxjxTZClvXbF-PPD4Ch6K3Bt97oeOSTdUaaasu8
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 853
@@ -85,6 +90,6 @@ ht-degree: 0%
 >* 组B版本状态的名称将覆盖组A版本的名称。
 >* 如果在删除某个组A中的某个人将该状态应用于该组，则该对象的状态名称将更新为组B使用的状态名称。
 >
->有关状态键的信息，请参阅本文中[创建或编辑自定义状态](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md#create)[创建或编辑组的状态](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md#create)下的表。
+>有关状态键的信息，请参阅本文中[创建或编辑自定义状态](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md#create) [创建或编辑组的状态](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md#create)下的表。
 >
 >有关删除组的信息，请参阅[删除组](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)。

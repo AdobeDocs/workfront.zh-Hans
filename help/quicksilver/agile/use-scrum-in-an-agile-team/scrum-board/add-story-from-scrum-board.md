@@ -9,10 +9,14 @@ exl-id: d4eec3c5-8cea-467f-b1b4-3f9fab57b10f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/CapWxR-tjybMrL03dQVmq4La0hsYrEMncixYSLGnxr0
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 415
@@ -42,13 +46,13 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>新文档： [！UICONTROL Standard]</p> 
+   <td> <p>新文档： [!UICONTROL Standard]</p> 
    或
-   <p>当前： [！UICONTROL Work]或更高版本</p> </td> 
+   <p>当前： [!UICONTROL Work]或更高版本</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">对象权限</td> 
-   <td>[！UICONTROL Manage]对任务或问题所在项目的访问权限 </td> 
+   <td>[!UICONTROL Manage]对任务或问题所在项目的访问权限 </td> 
   </tr>
  </tbody> 
 </table>
@@ -76,11 +80,11 @@ ht-degree: 4%
         <td>物料的描述。</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL估计]</strong></td>
+        <td><strong>[!UICONTROL 估计]</strong></td>
         <td>估计的项目小时数或点数。</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL父项目]</strong></td>
+        <td><strong>[!UICONTROL 父项目]</strong></td>
         <td>（必需）存储新文章或问题的项目。 开始键入项目的名称，然后在该项目显示在列表时将其选定。</td>
     </tr>
    </table>

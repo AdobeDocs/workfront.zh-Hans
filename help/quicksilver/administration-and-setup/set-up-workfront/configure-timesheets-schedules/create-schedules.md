@@ -11,11 +11,17 @@ exl-id: f7347ba6-68bf-45d8-b5d2-6136f3e696c9
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/oAJzByrdYR9Ok-KXarAB5q2nv39g2ytNUrFqZTruLSU
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 752
@@ -58,12 +64,12 @@ Linked to Editing Users, Editing Projects, Creating and managing groups
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[！UICONTROL标准版]</p>
-       <p>[！UICONTROL计划]</p></td>
+   <td><p>[!UICONTROL 标准版]</p>
+       <p>[!UICONTROL 计划]</p></td>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[！UICONTROL系统管理员]</td> 
+   <td>[!UICONTROL 系统管理员]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -101,7 +107,7 @@ Linked to Editing Users, Editing Projects, Creating and managing groups
 
    <table style="table-layout:auto">
     <tr>
-     <td>具有管理访问权限的[！UICONTROL组]</td>
+     <td>具有管理访问权限的[!UICONTROL 组]</td>
      <td><p>选择其管理员有权编辑此计划的组。</p>
      <p><b>重要信息</b>：</p>
       <ul>
@@ -118,11 +124,11 @@ Linked to Editing Users, Editing Projects, Creating and managing groups
      </td>
     </tr>
     <tr>
-     <td>[！UICONTROL组具有视图访问权限]</td>
-     <td><p>选择具有[！UICONTROL视图]访问权限的组，这些组可以查看此计划。</p>
+     <td>[!UICONTROL 组具有视图访问权限]</td>
+     <td><p>选择具有[!UICONTROL 视图]访问权限的组，这些组可以查看此计划。</p>
      <p>只有此处指定的组中的用户在将其分配给用户或项目时，才能在下拉菜单中找到计划。</p></tr>
     <tr>
-     <td>[！UICONTROL时区]</td>
+     <td>[!UICONTROL 时区]</td>
      <td><p>选择计划的时区。</p>
      <p>如果将时间表与用户关联，我们建议时间表的时区与用户的时区匹配。有关用户时区的信息，请参阅<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">编辑用户配置文件。
      </td>

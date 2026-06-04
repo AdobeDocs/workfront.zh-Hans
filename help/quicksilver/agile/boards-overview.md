@@ -10,8 +10,10 @@ exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/OP2xElD-kYsKzRb4IdjM6TNH-JfE0KoUwlhw9zm14c4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 224
@@ -37,7 +39,7 @@ ht-degree: 0%
 
 有关在项目中使用讨论区的信息，请参阅[在讨论区视图中管理Agile项目](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md)。
 
-您还可以在移动应用程序中访问展示板。 有关信息，请参阅移动设备](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)的[[!DNL Adobe Workfront] [!UICONTROL 讨论区]。
+您还可以在移动应用程序中访问展示板。 有关信息，请参阅移动设备[&#128279;](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)的[!DNL Adobe Workfront] [!UICONTROL 讨论区]。
 
 有关展示板功能的视频演练，请参阅[[!DNL Adobe Workfront] [!UICONTROL 展示板]视频演示](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)。
 
