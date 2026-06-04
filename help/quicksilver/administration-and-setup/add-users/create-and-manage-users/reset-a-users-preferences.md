@@ -8,9 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: 480f40d77cfc494ac28a2332c0e15bd1f0f00a6b
+TQID: https://experienceleague.adobe.com/rcmVwp5wZgG0cmtmUclkBUnTcOT9OaW7LDHIt373AjM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: 306
 ht-degree: 9%
 
 ---
@@ -111,7 +116,7 @@ ht-degree: 9%
 | 分组 | 已还原为系统默认值 <p>现有分组不会被删除。 您可以再次选择它们。</p> |
 | 最新项目列表 | 已清除 |
 | 收藏夹列表 | 未受影响 |
-| 用户首选项 | 已还原为系统默认值 <p>电子邮件通知将还原为系统默认值。 默认通知列在Adobe Workfront[中可用的](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)事件通知中。</p> |
+| 用户首选项 | 已还原为系统默认值 <p>电子邮件通知将还原为系统默认值。 默认通知列在Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)中可用的[事件通知中。</p> |
 
 ## 重置用户首选项
 
@@ -120,7 +125,7 @@ ht-degree: 9%
 1. 选择&#x200B;**登录身份**。
 1. 开始键入要重置其首选项的用户名，然后在名称出现在下拉列表中时单击该名称。
 1. 选择&#x200B;**登录**。
-1. 在Web浏览器顶部的URL字段中，在`/resetUser`之后添加`workfront`。
+1. 在Web浏览器顶部的URL字段中，在`workfront`之后添加`/resetUser`。
 
    >[!NOTE]
    >

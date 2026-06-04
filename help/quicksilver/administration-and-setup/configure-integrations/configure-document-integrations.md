@@ -8,9 +8,15 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: f9c2c7192254a0d0c04056bc4c193eb35d4116b5
+TQID: https://experienceleague.adobe.com/RUHFPYpCgZq0qAMGB8-Na2olK7uHVtViIcygLUiTkSo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: c4a58f26-aa43-4761-aafe-56f1e034d7d5
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: 1111
 ht-degree: 4%
 
 ---
@@ -23,7 +29,7 @@ ht-degree: 4%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
-作为[!DNL Adobe Workfront]管理员，您可以配置文档集成以管理[!UICONTROL Workfront]中的文档。 您还可以配置[!UICONTROL Workfront]，使文档仅存储在文档服务应用程序中，而不存储在[!UICONTROL Workfront]本身中。 有关详细信息，请参阅[从外部应用程序链接文档[!UICONTROL 中的]更新文档，并将文档从](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#update-and-link-a-document-from-workfront-to-an-external-cloud-provider)Workfront[链接到外部云提供商](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)。
+作为[!DNL Adobe Workfront]管理员，您可以配置文档集成以管理[!UICONTROL Workfront]中的文档。 您还可以配置[!UICONTROL Workfront]，使文档仅存储在文档服务应用程序中，而不存储在[!UICONTROL Workfront]本身中。 有关详细信息，请参阅[从外部应用程序链接文档](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)中的[更新文档，并将文档从[!UICONTROL Workfront]链接到外部云提供商](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#update-and-link-a-document-from-workfront-to-an-external-cloud-provider)。
 
 >[!NOTE]
 >
@@ -76,7 +82,7 @@ ht-degree: 4%
 
 * [!DNL Workfront Proof]
 
-  从[!DNL Workfront Proof]链接校对允许您在[!DNL Workfront Proof]内提供原本在[!DNL Workfront]内创建的校对。
+  从[!DNL Workfront Proof]链接校对允许您在[!DNL Workfront]内提供原本在[!DNL Workfront Proof]内创建的校对。
 
 * [!DNL Microsoft SharePoint]
 
@@ -142,15 +148,15 @@ ht-degree: 4%
       <td>自定义集成的名称。 这是用户在Workfront中使用集成时看到的名称。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 基本API URL] </td> 
+      <td role="rowheader">[！UICONTROL基本API URL] </td> 
       <td>API调用的基本HTTP或安全HTTP URL。 例如， <code>https://&lt;documentprovider&gt;.com/api/v2</code></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 身份验证类型]</td> 
+      <td role="rowheader">[！UICONTROL身份验证类型]</td> 
       <td> <p>对自定义集成进行授权的API调用时要使用的身份验证方法。</p> 
        <ul> 
-        <li>如果选择<strong>[!UICONTROL OAuth]</strong>，请继续执行步骤5。</li> 
-        <li>如果选择<strong>[!UICONTROL ApiKey]</strong>，请继续执行步骤6。</li> 
+        <li>如果选择<strong>[！UICONTROL OAuth]</strong>，请继续执行步骤5。</li> 
+        <li>如果选择<strong>[！UICONTROL ApiKey]</strong>，请继续执行步骤6。</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -167,7 +173,7 @@ ht-degree: 4%
       <td>用于用户身份验证的完整URL。 在OAuth配置过程中，[!DNL Workfront]将用户导航到此地址。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 令牌端点URL]</td> 
+      <td role="rowheader">[！UICONTROL令牌端点URL]</td> 
       <td>用于检索 OAuth 令牌的完整 API URL。</td> 
      </tr> 
      <tr> 
@@ -179,7 +185,7 @@ ht-degree: 4%
       <td>此集成的OAut客户端密钥</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 请求参数]</td> 
+      <td role="rowheader">[！UICONTROL请求参数]</td> 
       <td> <p>输入要附加到每个API调用的查询字符串的可选值。 例如，access_type=offline。</p> <p>要添加多个请求参数，请单击<strong>+添加请求参数</strong>。</p> </td> 
      </tr> 
     </tbody> 
@@ -187,7 +193,7 @@ ht-degree: 4%
 
    >[!TIP]
    >
-   >显示在[!DNL Workfront]自定义集成[!UICONTROL 页底部的]重定向URI列出了用于向外部文档提供程序注册此集成的URI。
+   >显示在[!UICONTROL 自定义集成]页底部的[!DNL Workfront]重定向URI列出了用于向外部文档提供程序注册此集成的URI。
 
 1. （视情况而定）如果您为&#x200B;**[!UICONTROL 身份验证类型]**&#x200B;选择了&#x200B;**[!UICONTROL ApiKey]**&#x200B;身份验证，请输入由自定义文档提供程序颁发的API密钥。
 
@@ -210,7 +216,7 @@ ht-degree: 4%
 将文档从[!DNL Workfront]发送到[!DNL Workfront DAM]时，您还可以发送与该文档关联的信息。 有关文档的信息作为元数据映射到[!DNL Workfront DAM]。
 
 信息仅单向映射，从[!DNL Workfront]到[!DNL Workfront DAM]，并且仅在文档上载到[!DNL Workfront DAM]时传输。 将来对Workfront字段所做的任何更改都不会在上传文档后更新[!DNL Workfront DAM]中的元数据字段。\
-您可以将同一[!DNL Workfront]字段映射到各种[!DNL Workfront DAM]字段，但不能对多个[!DNL Workfront DAM]字段使用同一[!DNL Workfront]字段。
+您可以将同一[!DNL Workfront]字段映射到各种[!DNL Workfront DAM]字段，但不能对多个[!DNL Workfront]字段使用同一[!DNL Workfront DAM]字段。
 
 如果您必须配置多个[!DNL Workfront]字段以导出到一个[!DNL Workfront DAM]字段，请先在[!DNL Workfront]中创建计算自定义字段以显示对象的所有单个自定义字段。 然后，将计算的[!DNL Workfront]字段映射到一个[!DNL Workfront DAM]字段。\
 有关计算自定义字段的详细信息，请参阅[将计算字段添加到表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)。
@@ -226,11 +232,11 @@ ht-degree: 4%
 1. 单击&#x200B;**[!UICONTROL 文档]** > **[!UICONTROL 元数据映射]**。
 
 1. 在&#x200B;**[!UICONTROL 选择要映射的Source字段]**&#x200B;字段中，开始输入要映射到[!DNL Workfront DAM]的Workfront字段的名称，然后在列表中看到该字段时将其选定。
-1. 在&#x200B;**[!UICONTROL 选择要映射的目标字段]**&#x200B;中，选择要使用选定[!DNL Workfront DAM]字段中的信息填充的[!DNL Workfront]字段。
+1. 在&#x200B;**[!UICONTROL 选择要映射的目标字段]**&#x200B;中，选择要使用选定[!DNL Workfront]字段中的信息填充的[!DNL Workfront DAM]字段。
 
    >[!NOTE]
    >
-   > 有权发送给[!DNL Workfront DAM]的用户在将其元数据上传到[!DNL Workfront]时，会使用映射到此处的[!DNL Workfront DAM]字段更新其元数据。
+   > 有权发送给[!DNL Workfront DAM]的用户在将其元数据上传到[!DNL Workfront DAM]时，会使用映射到此处的[!DNL Workfront]字段更新其元数据。
 
 1. 单击&#x200B;**[!UICONTROL 添加映射]**。
 
@@ -253,7 +259,7 @@ ht-degree: 4%
 ### Google Drive集成
 
 * 将链接的文件夹添加到Workfront时，不再自动添加该文件夹中的文件。
-   * 您可以将Google文件夹添加到Workfront而不包含这些文件，然后将单个文件添加到Workfront。 这些文件将自动添加到Workfront的Google文件夹中。
+   * 您可以将Google文件夹添加到Workfront而不包含这些文件，然后将单个文件添加到Workfront。这些文件将自动添加到Workfront的Google文件夹中。
 或
    * 您可以在Workfront中创建“文档”文件夹，然后选择Google文件夹中的所有文件并将其添加到Workfront文件夹。
 

@@ -8,9 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d2b63508-1943-4f9e-888e-8f1bfb54c33e
-source-git-commit: 5fac387d598e2959566547df5d2d11078ec25154
+TQID: https://experienceleague.adobe.com/sQ0-5jDNs4Pr8icC-mYCp0QFec5g1i-e0XkTz78WEWQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: 256
 ht-degree: 12%
 
 ---
@@ -35,7 +40,7 @@ ht-degree: 12%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 包</td> 
-   <td><p>任何</p></td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
@@ -64,4 +69,4 @@ ht-degree: 12%
 
 1. 单击&#x200B;**保存**。
 
-   保存自定义帮助URL后，您可以通过删除自定义URL并单击“保存”**&#x200B;**&#x200B;来返回使用默认Workfront帮助站点。
+   保存自定义帮助URL后，您可以通过删除自定义URL并单击“保存”****&#x200B;来返回使用默认Workfront帮助站点。

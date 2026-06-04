@@ -5,10 +5,15 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8d1870ea-3f9e-4358-8e14-3dcfc3805637
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/z7vh7rdkB40A2gzfSYddUAHF-nOGqVCgpVyu729gYgE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 0%
+source-wordcount: 469
+ht-degree: 4%
 
 ---
 
@@ -22,17 +27,17 @@ ht-degree: 0%
 >
 >仅当用户的主组是特定组时，该组的许可证才被计入该组。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td>Adobe Workfront 包</td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
@@ -63,7 +68,7 @@ ht-degree: 0%
 
    ![已分配的许可证](assets/licenses-used-allocated.png)
 
-   有关Workfront管理员如何为组定义分配许可证的最大数量的信息，请参阅[管理系统中的可用许可证](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md#set)一文中的[设置主组许可证的最大数量](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)部分。
+   有关Workfront管理员如何为组定义分配许可证的最大数量的信息，请参阅[管理系统中的可用许可证](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)一文中的[设置主组许可证的最大数量](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md#set)部分。
 
    >[!NOTE]
    >

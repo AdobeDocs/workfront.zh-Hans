@@ -8,10 +8,15 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Becky
 exl-id: 158430e5-8857-4bd8-86a6-2ba106b1638c
-source-git-commit: 31e5f5e039e25fa25f3038c23ee579ba1f830bb7
+TQID: https://experienceleague.adobe.com/nN-7cw-IwnuQ-7wjyjyp3wUifEvk2eNmo9zqyHDjfV0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 2%
+source-wordcount: 644
+ht-degree: 3%
 
 ---
 
@@ -39,7 +44,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -98,7 +103,7 @@ ht-degree: 2%
 >您无法查看客户端密钥本身。 如果您丢失了客户端密钥，则必须将其删除并创建一个新密钥。
 >
 >* 要删除客户端密钥，请参阅本文中的[删除客户端密钥](#delete-client-secret)。
->* 若要创建新的客户端密钥，请参阅[为](../../administration-and-setup/configure-integrations/create-oauth-application.md#create)集成[创建OAuth2应用程序 [!DNL Workfront] 中的](../../administration-and-setup/configure-integrations/create-oauth-application.md)创建OAuth2应用程序。
+>* 若要创建新的客户端密钥，请参阅[为 [!DNL Workfront] 集成](../../administration-and-setup/configure-integrations/create-oauth-application.md)创建OAuth2应用程序](../../administration-and-setup/configure-integrations/create-oauth-application.md#create)中的[创建OAuth2应用程序。
 >
 
 {{step-1-to-setup}}

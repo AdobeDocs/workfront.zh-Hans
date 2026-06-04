@@ -5,11 +5,17 @@ description: 您可以将甘特图导出到PDF。 之后，您可以将其打印
 author: Alina
 feature: Work Management
 exl-id: 91aad9e0-25c9-4eae-aa66-8aab763d3b76
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/VVD0wi1yc1tJLyu92tvJhfuT4UqcMVHS7T9OUMRJOmU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: 968
 ht-degree: 3%
 
 ---
@@ -29,21 +35,21 @@ ht-degree: 3%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront]包</td> 
+   <td role="rowheader">[！UICONTROL Adobe Workfront]包</td> 
    <td> <p>“任一”</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront]许可证</td> 
-   <td> <p>[!UICONTROL Light]或更高版本</p>
-   <p>[!UICONTROL Review]或更高版本</p> </td> 
+   <td role="rowheader">[！UICONTROL Adobe Workfront]许可证</td> 
+   <td> <p>[！UICONTROL Light]或更高版本</p>
+   <p>[！UICONTROL Review]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>[!UICONTROL 视图]或更高权限访问项目和任务</p> </td> 
+   <td> <p>[！UICONTROL视图]或更高权限访问项目和任务</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>[!UICONTROL 视图]或更高权限访问项目和任务</p> </td> 
+   <td> <p>[！UICONTROL视图]或更高权限访问项目和任务</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -92,7 +98,7 @@ Old:
 
    配置以下任意信息：
 
-   * 单击&#x200B;**甘特图**&#x200B;上方的&#x200B;**筛选器**、**视图**&#x200B;和[!UICONTROL 分组]图标，并添加或编辑应用于[!UICONTROL 甘特图]中项目列表的现有筛选器、视图或分组。
+   * 单击[!UICONTROL 甘特图]上方的&#x200B;**筛选器**、**视图**&#x200B;和&#x200B;**分组**&#x200B;图标，并添加或编辑应用于[!UICONTROL 甘特图]中项目列表的现有筛选器、视图或分组。
 
      在查看[!UICONTROL 甘特图]时，将保留在列表视图中选择的任何筛选器和分组。 视图仅在第一页的[!UICONTROL 甘特图]旁边显示的列表中反映在导出的[!UICONTROL 甘特图]上。 视图未显示在[!UICONTROL 甘特图]本身。
 
@@ -119,7 +125,7 @@ Old:
       * （视情况而定）计划日期
       * （视情况而定）预计日期
 
-     有关更多信息，请参阅   [配置信息在[!UICONTROL 甘特图]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md)上的显示方式。
+     有关详细信息，请参阅[配置信息在[!UICONTROL 甘特图]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md)上的显示方式。
 
      >[!NOTE]
      >
@@ -136,7 +142,7 @@ Old:
    例如，如果您正在查看包含50个任务的项目的[!UICONTROL 甘特图]，但希望在导出的[!UICONTROL 甘特图]上仅显示10个任务，请选择要显示的10个任务。
 
 1. 单击甘特图右上角的打印机图标![打印机图标](assets/printer-icon.png)。
-此时会显示&#x200B;**[!UICONTROL 导出到PDF]**&#x200B;对话框。
+此时会显示**[!UICONTROL 导出到PDF]**&#x200B;对话框。
 
    ![导出到PDF对话框](assets/exported-gantt-ui-350x225.png)
 
@@ -164,8 +170,8 @@ Old:
      >   * 当它包含500个以上的项目时。
 
 
-1. 如果PDF在导出到PDF后要打印，请在&#x200B;**[!UICONTROL 页大小]**&#x200B;下拉菜单中选择要打印的纸张大小。
-您可以从下列选项中进行选择：
+1. 如果PDF在导出到PDF后要打印，请在&#x200B;**[!UICONTROL 页大小]**下拉菜单中选择要打印的纸张大小。
+您可以从以下选项中进行选择：
 
    * **[!UICONTROL 书信]**
    * **[!UICONTROL 法律]**

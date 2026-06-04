@@ -8,11 +8,17 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+TQID: https://experienceleague.adobe.com/M1sUtzh8L67WsLeWBQxSZxbEF2pJ6152-WWyc8jNnsA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2688'
+source-wordcount: 2696
 ht-degree: 2%
 
 ---
@@ -28,13 +34,13 @@ ht-degree: 2%
 
 如果您是组管理员并且Adobe Workfront管理员为系统中的所有组解锁了项目首选项，则可以为组配置该首选项，以影响您的组创建的所有后续项目。
 
-If there are any groups above the group you manage, their administrators can also do this for your group. Workfront管理员也是如此（适用于任何组）。
+如果您管理的组之上有任何组，则其管理员也可以为您的组执行此操作。 Workfront管理员也是如此（适用于任何组）。
 
 >[!NOTE]
 >
 >* 通常，已解锁的首选项会无限期地保持解锁状态。 如果Workfront管理员将其重新锁定，则系统设置将再次生效，并且组管理员所做的首选项设置将丢失。
 >* 为与项目关联的组设置的首选项优先于为创建项目的用户的主组设置的首选项。
->* 某些组级首选项会影响您为组创建的项目模板。 有关详细信息，请参阅文章[创建和修改组的项目模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view)中的“组”区域[中的](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)查看、使用和创建组的模板。
+>* 某些组级首选项会影响您为组创建的项目模板。 有关详细信息，请参阅文章[创建和修改组的项目模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)中的“组”区域](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view)中的[查看、使用和创建组的模板。
 >
 >* Workfront管理员在系统级别解锁首选项后，您可以对其进行配置，然后将其锁定，以确保您的组及其子组中的每个人都使用相同的配置。 此功能与Workfront管理员为系统中的每个人配置和锁定首选项的功能相同。 有关详细信息，请参阅[锁定或解锁子组的项目、任务或问题偏好设置](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md)。
 >
@@ -116,13 +122,13 @@ If there are any groups above the group you manage, their administrators can als
 <p>当用户属于具有不同首选项的多个组时，如果用户至少有一个组启用了此首选项，则允许用户创建没有模板的项目。</p>
 </td></tr>
   <tr> 
-   <td role="rowheader">Set new project's status to</td> 
+   <td role="rowheader">将新项目的状态设置为</td> 
    <td> <p>确定新项目的状态。</p> <p><b>注意</b>   
      <ul> 
-      <li>If you or another Workfront administrator hides the status selected here, the default status changes to the first status in the status list.</li> 
+      <li>如果您或其他Workfront管理员隐藏此处选择的状态，则默认状态将更改为状态列表中的第一个状态。</li> 
      </ul> 
      <ul> 
-      <li data-mc-conditions="SnippetConditions-wf-groups.groups">For group project preferences, you can select only a locked status or a required status as the default status.</li> 
+      <li data-mc-conditions="SnippetConditions-wf-groups.groups">对于组项目首选项，您只能选择锁定状态或所需状态作为默认状态。</li> 
       <li> <p>如果将锁定的系统或组状态设置为默认状态，稍后有人将其解锁，则系统会尝试将其替换为相同状态类型的锁定状态。</p> <p>如果找不到，则会查找所需的状态：</p> 
        <ul> 
         <li>如果具有相当于已解锁默认状态的必需状态，则该必需状态将成为默认状态，即使已解锁也是如此。</li> 
@@ -140,7 +146,7 @@ If there are any groups above the group you manage, their administrators can als
   </tr> 
   <tr> 
    <td role="rowheader"> <p>自动创建基准</p> </td> 
-   <td> <p>当项目状态更改为当前时，此首选项会自动创建任务和项目详细信息的基线（快照）。 For information about creating baselines, see <a href="../../../manage-work/projects/create-projects/create-baselines.md" class="MCXref xref" data-mc-variable-override="">Create project baselines</a>.</p> </td> 
+   <td> <p>当项目状态更改为当前时，此首选项会自动创建任务和项目详细信息的基线（快照）。 有关创建基线的信息，请参阅<a href="../../../manage-work/projects/create-projects/create-baselines.md" class="MCXref xref" data-mc-variable-override="">创建项目基线</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>绩效指数方法 </p> </td> 
@@ -154,7 +160,7 @@ If there are any groups above the group you manage, their administrators can als
    <td role="rowheader"> <p>完工估算 </p> </td> 
    <td> <p>确定Workfront用于计算代表项目预计总成本的完工估算(EAC)的数据。</p> 
     <ul> 
-     <li><strong>Calculate at project level</strong>:EAC for the parent task and project are determined by entering Actual Hours or Actual Labor Cost in the EAC Formulas. This calculation includes Actual Hours or Costs and Expenses added directly to the parent task or project.</li> 
+     <li><strong>在项目级别计算</strong>：父任务和项目的EAC是通过在EAC公式中输入实际小时数或实际人工成本确定的。 此计算包括直接添加到父级任务或项目的实际小时数或成本和费用。</li> 
      <li> <p><strong>从任务/子任务汇总</strong>：父任务和项目的EAC通过汇总每个子任务的EAC来确定。 此计算不包括直接添加到父任务或项目的实际小时数或实际成本和费用。</p> <p>项目经理可以使用项目详细信息中的财务区域在项目级别修改此设置。有关详细信息，请参阅<a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">管理项目财务区域的信息</a>。</p> </li> 
     </ul> <p>有关EAC如何计算的详细信息，请参阅<a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">计算完工估算(EAC)</a>。</p> </td> 
   </tr> 
@@ -190,7 +196,7 @@ If there are any groups above the group you manage, their administrators can als
       <ul> 
        <li>计划开始日期</li> 
        <li>计划完成日期</li> 
-       <li>Both dates</li> 
+       <li>两个日期</li> 
        <li>两者都不是。 </li> 
       </ul> <p>例如，如果任务的限制为固定日期，则当主要被分配者具有空闲时间时，日期不会调整，即使选择了考虑任务持续时间中的用户空闲时间选项也是如此。 有关任务限制的信息，请参阅<a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref" data-mc-variable-override="">任务限制概述</a>。</p> </li> 
     </ul> </td> 
@@ -219,10 +225,10 @@ If there are any groups above the group you manage, their administrators can als
    <td role="rowheader"> <p><strong>当一个用户被分派到一个任务时，使用……</strong>的计划 </p> </td> 
    <td> <p>如果项目未分配计划，或分配给其任务的用户未分配计划，则[!DNL Workfront]使用系统默认计划计算任务的时间表。</p>
 
-<p>如果您为项目中的任务分配了一个用户，并且项目和用户都有一个与之关联的计划，则[!UICONTROL Workfront]将使用以下计划：</p> 
+<p>如果您为项目中的任务分配了一个用户，并且项目和用户都有一个与之关联的计划，则[！UICONTROL Workfront]将使用以下计划：</p> 
     <ul> 
-     <li><strong>[!UICONTROL 用户]</strong>：任务上已分配用户的计划以计算时间线。</li> 
-     <li><strong>[!UICONTROL 项目]</strong>：用于计算任务时间线的项目计划。</li> 
+     <li><strong>[！UICONTROL用户]</strong>：任务上已分配用户的计划以计算时间线。</li> 
+     <li><strong>[！UICONTROL项目]</strong>：用于计算任务时间线的项目计划。</li> 
     </ul> <p>有关计划的详细信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">创建计划</a>。</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -232,7 +238,7 @@ If there are any groups above the group you manage, their administrators can als
      <li><strong>每个工作日的典型小时数</strong>：为将处理项目的用户设置典型工作日的小时数。 默认值为8小时。</li> 
     </ul> 
     <ul> 
-     <li><strong>Typical work days per week</strong>: Set the standard workweek for the users who will be working on projects. 默认值为5天。</li> 
+     <li><strong>每周的典型工作日</strong>：为将处理项目的用户设置标准工作周。 默认值为5天。</li> 
     </ul> <p>这2个选项会将天转换为小时，或将周转换为天。</p> <p>例如，如果您有一个具有8个计划小时数的任务并且持续时间是根据计划小时数计算的，则Workfront会将这些小时数转换为天数，以便将持续时间显示为天。</p> <p>Workfront会从“每周典型工作日”字段计算系统的相当于全职(FTE)值。 这是Workfront在计算用户分配时使用的内容。</p> <p>当您计划项目时间线、资源预算或针对项目记录时间时，可以使用这些值。 </p> <p>在系统中为用户建立时间表时，不使用这些时间表，如<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">配置时间表和小时首选项</a>中所述。</p> <p><b>注意</b>： Workfront管理员无法解锁时间表计算首选项。</p> </td> 
   </tr> 
   <!--
@@ -251,7 +257,7 @@ If there are any groups above the group you manage, their administrators can als
 
 ### 业务案例 {#business-cases}
 
-You can create a Business Case for newly created projects associated with the group to submit project requests. 您可以定义首选项以确定&#x200B;**业务案例**&#x200B;表单上可见的区域。 We recommend that you enable these options so that other tools, such as the Portfolio Optimizer, update properly. 有关每个字段显示内容的详细信息，请参阅[定义业务案例：文章索引](../../../manage-work/projects/define-a-business-case/define-business-case.md)。
+您可以为与组关联的新创建项目创建业务案例，以提交项目请求。 您可以定义首选项以确定&#x200B;**业务案例**&#x200B;表单上可见的区域。 我们建议您启用这些选项，以便其他工具（如Portfolio Optimizer）正确更新。 有关每个字段显示内容的详细信息，请参阅[定义业务案例：文章索引](../../../manage-work/projects/define-a-business-case/define-business-case.md)。
 
 在Workfront管理员启用业务案例的部分后，项目所有者可以在项目级别创建业务案例。 有关创建业务案例的信息，请参阅[为项目创建业务案例](../../../manage-work/projects/define-a-business-case/create-business-case.md)。
 
@@ -285,7 +291,7 @@ You can create a Business Case for newly created projects associated with the gr
        <li>在项目被标记为“完成”、“停止”或“未决批准”后，编辑项目中的问题。</li> 
        <li>在项目被标记为完成或废弃后将问题添加到项目。 （您无法将问题添加到未决批准的项目。）</li> 
       </ul></li> 
-     <li> <p><strong>Add documents to the project and to its tasks and issues</strong>: Allows users to add documents to a project (or to add documents to tasks and issues within the project) after the project has been marked Complete or Dead.</p> <p>此选项不适用于未决批准的项目。</p> </li> 
+     <li> <p><strong>将文档添加到项目及其任务和问题</strong>：允许用户在项目标记为“完成”或“废弃”后，将文档添加到项目（或将文档添加到项目中的任务和问题）。</p> <p>此选项不适用于未决批准的项目。</p> </li> 
      <li> <p><strong>附加模板</strong>：允许用户在项目被标记为“完成”或“废弃”后，将模板附加到项目。</p> <p>此选项不适用于未决批准的项目。</p> </li> 
     </ul> </td> 
   </tr> 

@@ -8,16 +8,21 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 3463e4cb-7336-49b7-b81a-c2acef72f61d
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/WmHq8Aycq-cMfOt6ZnLF0MpNbtLPM5NhVylrsw9hHKE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: 286
 ht-degree: 0%
 
 ---
 
 # 锁定和未锁定的组状态
 
-锁定组的自定义状态是一种方法，可确保组及其子组中的人员在其工作流程中使用相同的流程。 当组状态被锁定时，该组和较低组中的所有用户都可以使用该状态。 虽然您(或Workfront管理员)可以编辑或删除您锁定的状态，但以下子组的管理员无法对这些组执行此操作；他们只能更改其在状态列表中的显示顺序。
+锁定组的自定义状态是一种方法，可确保组及其子组中的人员在其工作流程中使用相同的流程。 当组状态被锁定时，该组和较低组中的所有用户都可以使用该状态。 虽然您（或Workfront管理员）可以编辑或删除您锁定的状态，但以下子组的管理员无法对这些组执行此操作；他们只能更改其在状态列表中的显示顺序。
 
 相反，解锁组的自定义状态使较低子组的管理员可以更灵活地管理其组中使用的独特工作流。 解锁组状态时，较低子组的管理员可以更改其属性，或删除这些子组的属性。
 

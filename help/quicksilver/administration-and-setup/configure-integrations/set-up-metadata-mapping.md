@@ -8,9 +8,14 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+TQID: https://experienceleague.adobe.com/vo2d0t7tVnUsQT6pX0fBdX5JDqkYXtnWpCoAWlUeD1U
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: 556
 ht-degree: 5%
 
 ---
@@ -62,7 +67,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->只能在一个方向上映射元数据：从[!DNL Workfront]到[!DNL Workfront DAM]。 无法将从[!DNL Workfront]链接到[!DNL Workfront DAM]的文档的元数据传输到Workfront。
+>只能在一个方向上映射元数据：从[!DNL Workfront]到[!DNL Workfront DAM]。 无法将从[!DNL Workfront DAM]链接到[!DNL Workfront]的文档的元数据传输到Workfront。
 
 您可以将同一[!DNL Workfront]字段映射到[!DNL Workfront DAM]中的各种元数据字段，但是不能在其中任一应用程序中对多个[!DNL Workfront]元数据字段使用元数据字段。
 

@@ -7,11 +7,16 @@ description: 阅读本文以了解有关 [!DNL Workfront Boards] 早期功能选
 author: Courtney
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/pCREvnE9aPz71lqJY6sw-Jf657tGfNPH-Hzaiha9K-s
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: 638
 ht-degree: 0%
 
 ---
@@ -35,7 +40,7 @@ ht-degree: 0%
    <th><strong>状态</strong></th> 
   </tr>
   <tr>
-   <td>[!UICONTROL 主菜单]中的[!UICONTROL 展示板]区域</td>
+   <td>[！UICONTROL主菜单]中的[！UICONTROL展示板]区域</td>
    <td>已发布</td>
   </tr>
     <tr>
@@ -63,7 +68,7 @@ ht-degree: 0%
    <td>已发布</td>
   </tr>
   <tr>
-   <td>将[!UICONTROL 正在工作]限制添加到列</td>
+   <td>将[！UICONTROL正在工作]限制添加到列</td>
    <td>已发布</td>
   </tr>
   <tr>
@@ -220,7 +225,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->这不会阻止用户使用URL访问展示板。 它只会阻止他们在[!DNL Boards]主菜单[!UICONTROL 中看到]选项。
+>这不会阻止用户使用URL访问展示板。 它只会阻止他们在[!UICONTROL 主菜单]中看到[!DNL Boards]选项。
 
 ### 我加入后是否可以退出早期功能？
 

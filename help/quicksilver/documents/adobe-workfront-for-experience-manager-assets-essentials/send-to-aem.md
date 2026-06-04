@@ -6,9 +6,14 @@ description: 您可以将文档从Workfront发送到Experience Manager Assets或
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+TQID: https://experienceleague.adobe.com/PWMvkf9X10rwGjTtiUPxlPir--rKK-hO8Wgli9oAAAA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: 881
 ht-degree: 2%
 
 ---
@@ -23,8 +28,8 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->此功能在新的“文档”区域中不可用。<br>
->如果您的组织使用Adobe云存储，则在访问Workfront中的文档时，您将看到新的文档区域。 从该位置，您可以将资源发送到Experience Manager Assets。 有关详细信息，请参阅[将Adobe Experience Manager与Frame.io集成一起使用](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)。
+>此功能在新建文档区域不可用。<br>
+>如果您的组织使用Adobe云存储，则当您访问Workfront中的文档时，将会看到新的“文档”区域。从该位置，您可以将资源发送到Experience Manager Assets。有关详细信息，请参阅[将Adobe Experience Manager与Frame.io集成一起使用](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)。
 
 ## 元数据
 

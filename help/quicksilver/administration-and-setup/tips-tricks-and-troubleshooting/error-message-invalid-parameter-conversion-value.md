@@ -4,15 +4,21 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: 错误消息：无效参数：转换值
-description: 尝试更改现有自定义表单中自定义字段的格式时，收到以下错误消息：“无效参数：转化值'&amp；lt；..&amp；gt；”
+description: 尝试更改现有自定义表单中自定义字段的格式时，收到以下错误消息：“无效参数：转换值'&lt；..&gt；”
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4f7aac95-4afb-422d-877b-0fa49ef43883
-source-git-commit: 929502c256011b464d938ad1095c127407e4a795
+TQID: https://experienceleague.adobe.com/XZOxVeArTT248-ea64wqsu4BxKmFYz-HBTSAaN0v4H0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 2%
+source-wordcount: 309
+ht-degree: 7%
 
 ---
 
@@ -29,9 +35,9 @@ ht-degree: 2%
 
 例如，您有一个“自定义字段”，格式为“文本”。  现在，您需要将自定义字段的格式更改为货币。 在Adobe Workfront实例中的某个位置，此字段已附加到对象，并且其中包含已指定的信息。 至少一个此类字段中的现有信息已设置为文本格式。 因此，无法将字段的格式更改为货币。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,7 +45,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] 包</td> 
-   <td><p>任何</p></td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 

@@ -8,10 +8,15 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: cfccb120-8759-49f2-8b7b-dabcd57d4fda
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+TQID: https://experienceleague.adobe.com/S7EfI5qY6OdXY1XTEgFtODWIBqS6UzMKVp0GUL1geyg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 7%
+source-wordcount: 565
+ht-degree: 9%
 
 ---
 
@@ -19,9 +24,9 @@ ht-degree: 7%
 
 这些设置允许您设置适用于用户创建的所有新验证的默认值。 但是，用户在创建验证时可以覆盖这些设置中的大多数。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -31,7 +36,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划*</td> 
-   <td>任何</td> 
+   <td>“任一”</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 

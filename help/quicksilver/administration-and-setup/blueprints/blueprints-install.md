@@ -9,11 +9,16 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 546e19ab-dc50-4d23-b5f6-31bde1c82b6a
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/PJ7DN2mrsCeXeimGmBQL17ye0EaQIK2uDed1YHvuXw8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: 478
 ht-degree: 4%
 
 ---
@@ -89,7 +94,7 @@ ht-degree: 4%
 1. （可选）单击&#x200B;**[!UICONTROL 详细信息]**&#x200B;以了解Blueprint的工作方式。
 1. 单击&#x200B;**[!UICONTROL 安装]**。
 1. 选择安装在生产环境或沙盒环境中。\
-   有关详细信息，请参阅[我应该从何处安装Blueprint？本文中的](#where-should-i-install-a-blueprint)节。
+   有关详细信息，请参阅[我应该从何处安装Blueprint？](#where-should-i-install-a-blueprint) 部分。
 1. 在&#x200B;**配置**&#x200B;页面上，您可以选择执行以下操作之一：
 
    * 按原样安装Blueprint。 对于不需要任何配置的Blueprint类型，这是唯一选项。 对于需要配置的Blueprint类型，您可以选择立即安装Blueprint并稍后进行配置。 单击&#x200B;**[!UICONTROL 按原样安装]**。

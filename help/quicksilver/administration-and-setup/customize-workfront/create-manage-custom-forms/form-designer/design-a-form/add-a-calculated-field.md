@@ -8,9 +8,15 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 2a08a1139664517b9ccf41121e8bb0dc686028ab
+TQID: https://experienceleague.adobe.com/MkpKnVckztNvRWKb2rSDUzt8fnJMWIGKG4sYUmuefig
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2720'
+source-wordcount: 2647
 ht-degree: 1%
 
 ---
@@ -153,7 +159,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader" id="instructions">说明</td> 
-      <td> 默认情况下，您为该字段创建的公式存储在此处。 您可以添加文本以提供有关字段及其公式的附加信息。 这可以通过两种方式派上用场： 
+      <td> 默认情况下，您为该字段创建的公式存储在此处。您可以添加文本以提供有关字段及其公式的附加信息。这可以通过两种方式派上用场： 
        <ul> 
       <li><p>提醒我们这个公式是什么以及它如何运作的。 如果您打算在多个表单上使用此计算自定义字段，这会特别有用。</p> </li> 
       <li> <p>用户将鼠标悬停在该字段上时可以看到工具提示。 您可以在此处添加任何您希望他们在工具提示中看到的文本。</p> <p>如果您不希望他们在工具提示中查看公式（这可能会让他们感到困惑），您可以隐藏该公式。</li> 
@@ -189,7 +195,7 @@ ht-degree: 1%
    </table>
 
 1. 在&#x200B;**计算**&#x200B;框中，开始生成计算：
-   1. 单击&#x200B;**最大化**&#x200B;以打开计算编辑器并构建计算。
+   1. 单击&#x200B;**最大化**以打开计算编辑器并构建计算。
 计算通常以表达式开头，后跟括号，其中包含将自定义表单附加到对象时要引用的字段。
 
       每个字段都必须用大括号括起来。 当您开始键入字段名称时，系统会提供建议，您可以选择一个来将其插入到计算中。
@@ -310,11 +316,11 @@ ht-degree: 1%
       >
       >您可以执行以下任一操作以获得有关计算的帮助：
       > 
-      >* 将鼠标悬停在计算中的表达式上可查看说明、如何使用该表达式的示例，以及文章[计算数据表达式概述](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)中有关更多信息&#x200B;**了解更多**&#x200B;链接。
+      >* 将鼠标悬停在计算中的表达式上可查看说明、如何使用该表达式的示例，以及文章[计算数据表达式概述](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)中有关更多信息&#x200B;**了解更多**链接。
       >  ![表达式帮助文本](assets/hover-expression-help-text.jpg)
-      >* 使用颜色编码标识已添加的组件。 表达式以蓝色显示，字段以绿色显示。
+      >* 使用颜色编码标识已添加的组件。表达式以蓝色显示，字段以绿色显示。
       >  字段表达式的![颜色](assets/colors-fields-expressions.jpg)
-      >* 查找以粉红色突出显示的计算错误。 您可以将鼠标悬停在突出显示的错误上以显示其原因的简短描述。
+      >* 查找以粉红色突出显示的计算错误。您可以将鼠标悬停在突出显示的错误上以显示其原因的简短描述。
       >  ![错误帮助](assets/error-help.png)
       >* 在计算下面的区域中，预览现有Workfront对象的结果。
       ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->

@@ -6,11 +6,16 @@ description: 故事在故事板上出现的顺序不指示优先级。 但是，
 author: Courtney
 feature: Agile
 exl-id: 326d78e0-06de-4b98-8fa6-102e0fd89d76
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
+TQID: https://experienceleague.adobe.com/Vy3r2L1yuMPvMesRxEohYAgA6geAlKYIRsstLp1kpt8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: 401
 ht-degree: 3%
 
 ---
@@ -37,9 +42,9 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td> <p>新文档： [!UICONTROL Standard]</p> 
+   <td> <p>新文档： [！UICONTROL Standard]</p> 
    或
-   <p>当前： [!UICONTROL Work]或更高版本</p> </td> 
+   <p>当前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -61,4 +66,4 @@ ht-degree: 3%
 
 与Agile迭代不同，在Agile视图中查看项目时无法更改故事顺序。 要修改项目的文章顺序，必须在标准视图中查看项目。
 
-有关如何更改项目视图的信息，请参阅[!UICONTROL Agile]视图[&#128279;](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)中的[!UICONTROL 管理项目]。 选择标准视图，而不是选择Agile视图。
+有关如何更改项目视图的信息，请参阅[!UICONTROL Agile]视图](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)中的[[!UICONTROL 管理项目]。 选择标准视图，而不是选择Agile视图。

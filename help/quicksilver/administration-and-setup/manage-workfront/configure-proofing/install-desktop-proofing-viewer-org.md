@@ -8,10 +8,15 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: c89b21c6-fe70-4f46-aebd-5b82a667db72
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+TQID: https://experienceleague.adobe.com/fFf7rX8YWJzj8VTTnvN305UjDo5UV-LjZezuCa-LLAk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 0%
+source-wordcount: 605
+ht-degree: 2%
 
 ---
 
@@ -21,9 +26,9 @@ ht-degree: 0%
 
 桌面校对查看器是必须安装在每个用户的本地计算机上的应用程序，主要用于校对交互式内容。 作为Adobe Workfront管理员或Workfront Proof管理员，您可以执行此安装。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -73,7 +78,7 @@ ht-degree: 0%
 
    ![校对默认值](assets/proof-defaults.png)
 
-1. 单击“已启用”和“默认”**，然后单击“保存”**&#x200B;**。**
+1. 单击“已启用”和“默认”**，然后单击“保存”****。**
 
 ## 为用户安装桌面验证查看器
 

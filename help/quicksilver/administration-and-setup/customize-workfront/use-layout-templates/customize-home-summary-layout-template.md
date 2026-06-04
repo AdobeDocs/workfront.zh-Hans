@@ -8,11 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/NieBFLmqeOBfaG26ZX6mfBzqJvnB9-x6mYDhX5zCIK8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: 768
 ht-degree: 4%
 
 ---
@@ -72,7 +77,7 @@ ht-degree: 4%
 
 1. 开始处理布局模板，如[创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
 
-1. 单击![自定义用户看到的内容](assets/dropdown-arrow.png)下的向下箭头&#x200B;**向下箭头**，然后单击&#x200B;**摘要面板**。
+1. 单击&#x200B;**自定义用户看到的内容**&#x200B;下的向下箭头![向下箭头](assets/dropdown-arrow.png)，然后单击&#x200B;**摘要面板**。
 
 1. 在下面显示的列表中，单击要为其定制“摘要”面板的对象类型。
 
@@ -148,7 +153,7 @@ These were removed with the new Home:
     <tbody> 
      <tr> 
       <td role="rowheader">显示工作更新</td> 
-      <td>在摘要面板中显示对选定任务或问题所做的任何更新。 这包括系统更新和用户进行的更新。 用户仍然可以过滤掉系统更新，如<a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref">更新工作</a>中的<a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">启用或禁用系统更新</a>中所述。</td> 
+      <td>在摘要面板中显示对选定任务或问题所做的任何更新。 这包括系统更新和用户进行的更新。 用户仍然可以过滤掉系统更新，如<a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">更新工作</a>中的<a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref">启用或禁用系统更新</a>中所述。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">工作时的记录时间</td> 

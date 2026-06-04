@@ -8,11 +8,17 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/iWtyeGsk7xGf1Z9KE7Q2GrAbyCREAJYHZVT8GUboMW0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '5237'
+source-wordcount: 5242
 ht-degree: 7%
 
 ---
@@ -300,7 +306,7 @@ ht-degree: 7%
    <td> <p>文档</p> </td> 
    <td> <p>文档评论</p> </td> 
    <td> <p>文档所有者</p> </td> 
-   <td> <p>在我的文档中添加了一个评论。</p> <p>Workfront中文档的所有者会在文档上发布评论时收到电子邮件通知，除非发布评论的用户同时也是文档所有者。</p> <p>任何直接包含在评论中的用户都会收到电子邮件通知。</p> <p>仅当项目状态为“当前”时，才会发送通知。 </p> <p>即时通知电子邮件的主题是： &lt;Project Name&gt; (ref# &lt;Request Reference Number&gt;)<em>的&lt;Request Name&gt;上的</em>评论</p> <p> 每日摘要通知的主题是：<em>沟通摘要&lt;每日摘要的日期&gt;</em></p> </td> 
+   <td> <p>在我的文档中添加了一个评论。</p> <p>Workfront中文档的所有者会在文档上发布评论时收到电子邮件通知，除非发布评论的用户同时也是文档所有者。</p> <p>任何直接包含在评论中的用户都会收到电子邮件通知。</p> <p>仅当项目状态为“当前”时，才会发送通知。 </p> <p>即时通知电子邮件的主题是： &lt;项目名称&gt;上&lt;请求名称&gt;的<em>评论（ref# &lt;请求参考编号&gt;）</em></p> <p> 每日摘要通知的主题是：<em>通信的摘要&lt;每日摘要的日期&gt;</em></p> </td> 
    <td> <p>活动</p> </td> 
   </tr> 
   <tr> 
@@ -913,7 +919,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td> 项目<br>任务<br>问题</td> 
-   <td>新建更新</td> 
+   <td>新的更新</td> 
    <td>订阅者 </td> 
    <td> <p class="p1"><span class="s1 wysiwyg-font-size-medium">向我订阅的任务、问题或项目进行更新时发送电子邮件。</span> </p> </td> 
    <td>活动（仅限即时）</td> 

@@ -9,10 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
+TQID: https://experienceleague.adobe.com/n-fUDmSaLJtcjRr-VGoHW1w5c1Yd60iD-1Eb-Nle7-A
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: a91f865d-c69e-423f-aeff-28a3d6e8554d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 8%
+source-wordcount: 980
+ht-degree: 11%
 
 ---
 
@@ -28,17 +34,17 @@ ht-degree: 8%
 
 通过Kick-Starts导出数据还有助于了解与每个对象关联的字段、这些字段的编码方式以及这些字段的值在数据库中的格式设置。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td>Adobe Workfront 包</td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
@@ -121,12 +127,12 @@ ht-degree: 8%
     </thead> 
     <tbody> 
      <tr> 
-      <td scope="col" valign="top"> <p>功能板</p> <p> </p> <p> </p> </td> 
+      <td scope="col" valign="top"> <p>仪表板</p> <p> </p> <p> </p> </td> 
       <td scope="col" valign="top"> <p>参数<br>参数选项<br>参数组<br>类别参数<br>类别<br>报表<br>门户选项卡节<br>仪表板<br>首选项</p> </td> 
       <td scope="col" valign="top"> ZIP</td> 
      </tr> 
      <tr> 
-      <td scope="col" valign="top"> <p>报表</p> <p> </p> <p> </p> </td> 
+      <td scope="col" valign="top"> <p>报告</p> <p> </p> <p> </p> </td> 
       <td scope="col" valign="top">参数<br>参数选项<br>参数组<br>类别参数<br>类别<br>报表<br>首选项</td> 
       <td scope="col" valign="top"> ZIP </td> 
      </tr> 
@@ -193,7 +199,7 @@ ht-degree: 8%
       <td scope="col" valign="top">Excel</td> 
      </tr> 
      <tr> 
-      <td scope="col" valign="top">任务分配</td> 
+      <td scope="col" valign="top">任务</td> 
       <td scope="col" valign="top">工作<br>首选项</td> 
       <td scope="col" valign="top">Excel</td> 
      </tr> 
@@ -233,7 +239,7 @@ ht-degree: 8%
       <td valign="top">ZIP</td> 
      </tr> 
      <tr> 
-      <td valign="top">Hour</td> 
+      <td valign="top">小时</td> 
       <td valign="top"> 小时<br>首选项 </td> 
       <td valign="top">Excel</td> 
      </tr> 
@@ -258,7 +264,7 @@ ht-degree: 8%
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
-      <td valign="top">组合</td> 
+      <td valign="top">项目组合</td> 
       <td valign="top"> Portfolio<br>首选项  </td> 
       <td valign="top">Excel</td> 
      </tr> 

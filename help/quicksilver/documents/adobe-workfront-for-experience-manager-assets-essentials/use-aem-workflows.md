@@ -6,9 +6,14 @@ description: 在Experience Manager Assets Essentials集成中使用工作流
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+TQID: https://experienceleague.adobe.com/HycBMAmW3Pp4OccBVbGmeuvMm9Y6am-wwBRXaCP0ENs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: 1001
 ht-degree: 2%
 
 ---
@@ -21,8 +26,8 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->工作流仅在Adobe Experience Manager as a Cloud Service集成中可用。 它们不可用于与Adobe Experience Manager Assets Essentials的集成。<br>
->此功能在新的“文档”区域中不可用。
+>工作流仅在Adobe Experience Manager as a Cloud Service集成中可用。它们在与Adobe Experience Manager Assets Essentials的集成中不可用。<br>
+>此功能在新建文档区域不可用。
 
 
 ## 访问权限要求

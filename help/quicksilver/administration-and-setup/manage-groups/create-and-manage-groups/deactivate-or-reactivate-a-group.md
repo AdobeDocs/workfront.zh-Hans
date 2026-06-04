@@ -8,10 +8,15 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 99b81090-8d09-4130-a746-44ed1d76f971
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/DSD8TkghWUd2ZDf8-kQYwnhDlpfCOrbOS83VZdzhJD0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 0%
+source-wordcount: 753
+ht-degree: 2%
 
 ---
 
@@ -19,17 +24,17 @@ ht-degree: 0%
 
 您可以停用您管理的不再使用的组。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td>Adobe Workfront 包</td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront许可证</td> 
@@ -55,9 +60,9 @@ ht-degree: 0%
 >
 >如果您需要重新激活其中一个，可以在执行以下操作之一之后重新激活：
 >
->* 将其从父组中移除。 有关详细信息，请参阅[管理子组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make)一文中的[从父组中删除子组并使其成为顶级组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)部分。
+>* 将其从父组中移除。 有关详细信息，请参阅[管理子组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)一文中的[从父组中删除子组并使其成为顶级组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make)部分。
 >
->* 将其移动到活动组下。 有关详细信息，请参阅文章[管理子组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#create)中的[创建、移动、查看、编辑、复制、重命名、导出或删除子组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)部分。
+>* 将其移动到活动组下。 有关详细信息，请参阅文章[管理子组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)中的[创建、移动、查看、编辑、复制、重命名、导出或删除子组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#create)部分。
 
 {{step-1-to-setup}}
 
@@ -110,4 +115,4 @@ ht-degree: 0%
 
 * 从父组中移除子组（使子组成为顶级组）。 然后为移动的组启用“活动”选项，如本文中的[停用或重新激活组](#View)部分所述。
 
-  有关从父组中删除子组的说明，请参阅[管理子组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make)一文中的[从父组中删除子组并使其成为顶级组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)部分。
+  有关从父组中删除子组的说明，请参阅[管理子组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)一文中的[从父组中删除子组并使其成为顶级组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make)部分。

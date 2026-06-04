@@ -9,10 +9,15 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e93e3334-d72a-4f7b-9379-358f498c873b
-source-git-commit: 929502c256011b464d938ad1095c127407e4a795
+TQID: https://experienceleague.adobe.com/6VnF205aiahPEWdP2kPk-YXF8UfPwSJ0-yJ6nGq3-FM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 1%
+source-wordcount: 292
+ht-degree: 5%
 
 ---
 
@@ -22,9 +27,9 @@ ht-degree: 1%
 
 如果用户没有收到[!DNL Adobe Workfront]电子邮件通知，则需要将[!DNL Workfront]个SPF记录添加到防火墙。 您必须与IT团队合作以添加SPF记录。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +37,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] 包</td> 
-   <td><p>任何</p></td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
@@ -41,7 +46,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,13 +57,13 @@ ht-degree: 1%
 
 ## 解决方案
 
-如果您已按照[配置防火墙的允许列表 列入允许列表](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)中的说明将IP地址添加到生产环境的，用户仍不会收到电子邮件：
+如果您已按照[配置防火墙的允许列表](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)中的说明将IP地址添加到生产环境的，用户仍不会收到电子邮件：
 
 1. 将以下SPF记录添加到防火墙：
 
    *spf.workfront.com*
 
-   列入允许列表这会自动将所有[!DNL Workfront]个IP地址添加到防火墙上的中，并允许所有垃圾邮件过滤器（使用SPF记录）将[!DNL Workfront]服务器验证为您的域的有效发件人。
+   这会自动将所有[!DNL Workfront]个IP地址添加到防火墙上的中，并允许所有垃圾邮件过滤器（使用SPF记录）将[!DNL Workfront]服务器验证为您的域的有效发件人。
 
    >[!NOTE]
    >

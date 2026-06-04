@@ -3,15 +3,21 @@ user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: 允许组管理员执行的操作
-description: 此表比较了Adobe Workfront管理员(管理Workfront系统)、组管理员（管理顶级组）和组管理员（管理子组）可以使用的管理活动。
+description: 此表比较了Adobe Workfront管理员（管理Workfront系统）、组管理员（管理顶级组）和组管理员（管理子组）可以使用的管理活动。
 author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/BRL1-glICVWSXkdA8HYkbXVfCfEKafHjLBOSrfiVRXM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: c549503a-6440-4802-9525-ceb73a00feffid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 3%
+source-wordcount: 450
+ht-degree: 4%
 
 ---
 
@@ -226,7 +232,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-&#42;在组管理员的访问级别中，必须为&#x200B;**用户**&#x200B;设置选择&#x200B;**编辑**，并在&#x200B;**微调设置** **微调设置图标**&#x200B;下选择![用户管理员（组用户）](assets/gear-icon-in-access-levels.png)。 有关详细信息，请参阅[向用户授予访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit)文章中的[配置用户的访问权限，以使用自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)编辑用户部分。
+&#42;在组管理员的访问级别中，必须为&#x200B;**用户**&#x200B;设置选择&#x200B;**编辑**，并在&#x200B;**微调设置** ![微调设置图标](assets/gear-icon-in-access-levels.png)下选择&#x200B;**用户管理员（组用户）**。 有关详细信息，请参阅[向用户授予访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)文章中的[配置用户的访问权限，以使用自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit)编辑用户部分。
 
 &#42;&#42;在组管理员的访问级别中，必须启用对此操作的访问权限。 有关详细信息，请参阅[授予用户对特定区域的管理访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
 
@@ -235,7 +241,7 @@ ht-degree: 3%
 * 工作流Prime和更高版本
 * Workfront Prime和更高版本
 
-有关包的详细信息，请参阅[Adobe Workfront定价和打包页面](https://business.adobe.com/cn/products/workfront/pricing.html)。
+有关包的详细信息，请参阅[Adobe Workfront定价和打包页面](https://business.adobe.com/products/workfront/pricing.html)。
 
 高级企业控制：
 

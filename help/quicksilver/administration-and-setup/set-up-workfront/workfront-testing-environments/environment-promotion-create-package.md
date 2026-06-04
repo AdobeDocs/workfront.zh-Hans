@@ -9,10 +9,15 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
+TQID: https://experienceleague.adobe.com/wEVyLIZPMoEV-I4LDF6eqHbiFC-dr7bZouMPN4j-Jgw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 0%
+source-wordcount: 775
+ht-degree: 1%
 
 ---
 
@@ -24,13 +29,13 @@ ht-degree: 0%
 >
 >如果在为环境升级配置对象时刷新了自定义刷新沙盒，则该配置将在刷新中丢失。 我们建议您不要刷新“自定义刷新沙盒”，除非所有未完成的环境升级对象和包都已成功升级。
 
-## 访问要求
+## 访问权限要求
 
 您必须具备以下条件：
 
 <table>
   <tr>
-   <td>Adobe Workfront包
+   <td>Adobe Workfront 包
    </td>
    <td> <p>Prime或Ultimate</p>
    </td>
@@ -101,7 +106,7 @@ ht-degree: 0%
 1. （可选）要查看内容（包括所有对象及其子对象），请单击&#x200B;**内容**&#x200B;部分中对象类型旁边的下拉箭头。
 1. （可选）要查看此包的先前安装和安装尝试，请单击&#x200B;**部署**。
 1. （可选）要编辑包，请单击屏幕右上角的&#x200B;**编辑包**。
-包必须处于`DRAFT`状态才能编辑。 要将包移动到`DRAFT`状态，请在&#x200B;**状态**&#x200B;字段中，选择`Draft`。 然后，您可以继续编辑包。
+包必须处于`DRAFT`状态才能编辑。要将包移动到`DRAFT`状态，请在&#x200B;**状态**&#x200B;字段中，选择`Draft`。然后，您可以继续编辑包。
 1. 若要安装包，请单击屏幕右上角的&#x200B;**安装**。
 
    有关安装包的说明，请参阅[安装环境升级包](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)。

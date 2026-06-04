@@ -8,18 +8,23 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/wMgemSCv9tLMKy9AdIW5HDpGFbYKNmrnV07PsjwA6-4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1960'
-ht-degree: 8%
+source-wordcount: 1959
+ht-degree: 5%
 
 ---
 
 # 为[!DNL Workfront]集成创建OAuth2应用程序
 
-作为[!DNL Adobe Workfront]管理员，您可以为您的[!DNL Workfront]实例创建OAuth2应用程序，这将允许其他应用程序访问[!DNL Workfront]。 然后，您的用户可以授予这些其他应用程序访问其[!DNL Workfront]数据的权限。 通过这种方法，您可以集成   包括您自己的内部应用程序在内。
+作为[!DNL Adobe Workfront]管理员，您可以为您的[!DNL Workfront]实例创建OAuth2应用程序，这将允许其他应用程序访问[!DNL Workfront]。 然后，您的用户可以授予这些其他应用程序访问其[!DNL Workfront]数据的权限。 这样，您就可以与您选择的应用程序（包括您自己的内部应用程序）集成。
 
 创建[!UICONTROL OAuth2]应用程序时，将生成客户端ID和客户端密钥。 然后，您的用户便可以在API调用中使用客户端ID，将与您创建的应用程序集成。
 
@@ -129,7 +134,7 @@ ht-degree: 8%
 
 1. 在左侧导航面板中，单击&#x200B;**[!UICONTROL 系统]**，然后选择&#x200B;**[!UICONTROL OAuth2应用程序]**。
 1. 单击&#x200B;**[!UICONTROL 创建应用集成]**。
-将显示&#x200B;**新OAuth2应用程序**&#x200B;框。
+此时会显示**新OAuth2应用程序**&#x200B;框。
 1. 在&#x200B;**新OAuth2应用程序**&#x200B;框中，选择&#x200B;**[!UICONTROL 计算机到计算机应用程序]**。
 1. 输入新应用程序的名称，如“[!DNL Workfront] for ClientApp”。
 1. 单击&#x200B;**[!UICONTROL 创建]**。
@@ -144,19 +149,19 @@ ht-degree: 8%
       <td> <p>此字段是自动生成的。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 客户端密码]</td> 
+      <td role="rowheader">[！UICONTROL客户端密码]</td> 
       <td> <p>此字段是自动生成的</p> <p><b>重要信息</b>：  <p>在关闭此页之前，将此字段的内容复制到另一个安全文件。 您将无法再次看到此密钥。</p> <p>如果丢失此密钥，请删除它并创建客户端密钥。</p> 
         <ol> 
-         <li value="1"> <p>单击<b>[!UICONTROL Delete]</b>图标<img src="assets/delete.png">可删除当前客户端密钥。</p> </li> 
-         <li value="2"> <p>单击<b>[!UICONTROL 添加客户端密钥]</b>以生成新的客户端密钥。</p> </li> 
+         <li value="1"> <p>单击<b>[！UICONTROL Delete]</b>图标<img src="assets/delete.png">可删除当前客户端密钥。</p> </li> 
+         <li value="2"> <p>单击<b>[！UICONTROL添加客户端密钥]</b>以生成新的客户端密钥。</p> </li> 
         </ol> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 公钥]</td> 
+      <td role="rowheader">[！UICONTROL公钥]</td> 
       <td> <p>服务器到服务器应用程序使用公钥和私钥进行身份验证。 执行下列操作之一：</p> 
        <ul> 
-        <li> <p>单击<b>[!UICONTROL Add a public key]</b>，然后输入另一个应用程序的公共密钥。</p> </li> 
-        <li> <p>单击<b>[!UICONTROL 生成公钥/私钥对]</b>，然后与其他应用程序共享公钥。</p> </li> 
+        <li> <p>单击<b>[！UICONTROL Add a public key]</b>，然后输入另一个应用程序的公共密钥。</p> </li> 
+        <li> <p>单击<b>[！UICONTROL生成公钥/私钥对]</b>，然后与其他应用程序共享公钥。</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -204,31 +209,31 @@ ht-degree: 8%
       <td> <p>此字段是自动生成的。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 客户端密码]</td> 
+      <td role="rowheader">[！UICONTROL客户端密码]</td> 
       <td> <p>此字段是自动生成的</p> <p><b>重要信息</b>：  <p>在关闭此页之前，将此字段的内容复制到另一个安全文件。 您将无法再次看到此密钥。</p> <p>如果丢失此密钥，请删除它并创建客户端密钥。</p> 
         <ol> 
-         <li value="1"> <p>单击<b>[!UICONTROL Delete]</b>图标<img src="assets/delete.png">可删除当前客户端密钥。</p> </li> 
-         <li value="2"> <p>单击<b>[!UICONTROL 添加客户端密钥]</b>以生成新的客户端密钥。</p> </li> 
+         <li value="1"> <p>单击<b>[！UICONTROL Delete]</b>图标<img src="assets/delete.png">可删除当前客户端密钥。</p> </li> 
+         <li value="2"> <p>单击<b>[！UICONTROL添加客户端密钥]</b>以生成新的客户端密钥。</p> </li> 
         </ol> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 重定向URL]</td> 
+      <td role="rowheader">[！UICONTROL重定向URL]</td> 
       <td>用户使用[!DNL Workfront]进行身份验证后，会被重定向到此路径。</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL 刷新令牌轮换]</td> 
-      <td>启用此选项可在使用刷新令牌时发出新的刷新令牌。您的应用程序必须在每次刷新后存储新的刷新令牌。</td> 
+      <td role="rowheader">[！UICONTROL刷新令牌轮换]</td> 
+      <td>启用此选项可在使用刷新令牌时发出新的刷新令牌。 您的应用程序必须在每次刷新后存储新的刷新令牌。</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL 绝对刷新令牌过期]</td> 
-      <td> <p>选择刷新令牌过期前希望存在的时间。 过期后，您的用户必须再次登录该集成。 如果不希望刷新令牌过期，请选择“[!UICONTROL 无过期]”。</p> </td> 
+      <td role="rowheader">[！UICONTROL绝对刷新令牌过期]</td> 
+      <td> <p>选择刷新令牌过期前希望存在的时间。 过期后，您的用户必须再次登录该集成。 如果不希望刷新令牌过期，请选择“[！UICONTROL无过期]”。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">不活动刷新令牌期限</td> 
       <td> <p>选择多长时间，如果用户在您的系统中未处于活动状态，则其刷新令牌将过期。 </p> <p>例如，如果非活动刷新令牌过期时间为6个月，而用户在6个月内未登录，则刷新令牌将过期，即使绝对刷新令牌过期时间可能设置为更长。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 徽标]</td> 
+      <td role="rowheader">[！UICONTROL徽标]</td> 
       <td>您可以添加徽标，使此应用程序更易于识别。 </td> 
      </tr> 
      <tr> 
@@ -240,7 +245,7 @@ ht-degree: 8%
       <td>输入集成的说明。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 应用程序描述URL]</td> 
+      <td role="rowheader">[！UICONTROL应用程序描述URL]</td> 
       <td>这可以是指向“关于我们”页面的链接，也可以是包含有关集成的更多信息的页面。</td> 
      </tr> 
     </tbody> 
@@ -272,23 +277,23 @@ ht-degree: 8%
       <td> <p>此字段是自动生成的。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 重定向URL]</td> 
+      <td role="rowheader">[！UICONTROL重定向URL]</td> 
       <td>用户通过Workfront身份验证后，会被重定向到此路径。</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL 每次使用令牌时都会轮换刷新令牌]</td> 
-      <td>启用此选项可在使用刷新令牌时发出新的刷新令牌。您的应用程序必须在每次刷新后存储新的刷新令牌。</td> 
+      <td role="rowheader">[！UICONTROL每次使用令牌时都会轮换刷新令牌]</td> 
+      <td>启用此选项可在使用刷新令牌时发出新的刷新令牌。 您的应用程序必须在每次刷新后存储新的刷新令牌。</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL 绝对过期]</td> 
-      <td> <p>选择刷新令牌过期前希望存在的时间。 过期后，您的用户必须再次登录该集成。 如果不希望刷新令牌过期，请选择“[!UICONTROL 无过期]”。</p> </td> 
+      <td role="rowheader">[！UICONTROL绝对过期]</td> 
+      <td> <p>选择刷新令牌过期前希望存在的时间。 过期后，您的用户必须再次登录该集成。 如果不希望刷新令牌过期，请选择“[！UICONTROL无过期]”。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL 非活动状态过期]</td> 
+      <td role="rowheader">[！UICONTROL非活动状态过期]</td> 
       <td> <p>选择多长时间，如果用户在您的系统中未处于活动状态，则其刷新令牌将过期。 </p> <p>例如，如果非活动刷新令牌过期时间为6个月，而用户在6个月内未登录，则刷新令牌将过期，即使绝对刷新令牌过期时间可能设置为更长。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 徽标]</td> 
+      <td role="rowheader">[！UICONTROL徽标]</td> 
       <td>您可以添加徽标，使此应用程序更易于识别。 </td> 
      </tr> 
      <tr> 
@@ -300,15 +305,15 @@ ht-degree: 8%
       <td>输入集成的说明。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 开发人员姓名]</td> 
+      <td role="rowheader">[！UICONTROL开发人员姓名]</td> 
       <td>这是正在设置OAuth2应用程序的开发人员的姓名。</td> 
      </tr> 
    <tr> 
-      <td role="rowheader">[!UICONTROL 开发人员电子邮件地址]</td> 
+      <td role="rowheader">[！UICONTROL开发人员电子邮件地址]</td> 
       <td>这是设置OAuth2应用程序的开发人员的电子邮件地址。</td> 
      </tr> 
    <tr> 
-      <td role="rowheader">[!UICONTROL 隐私策略URL]</td> 
+      <td role="rowheader">[！UICONTROL隐私策略URL]</td> 
       <td>这是指向您的组织存储隐私策略的位置的链接。</td> 
      </tr>
 
@@ -345,7 +350,7 @@ ht-degree: 8%
 1. ClientApp需要来自[!DNL Workfront]的一些信息，因此它向[!DNL Workfront] API `/authorize`终结点发送请求。 该请求包括[!UICONTROL response_type] `code`，这表示该请求应返回授权代码。
 1. 这会触发[!DNL Workfront]向用户发送身份验证提示。 用户可以在提示中输入其凭据，这将授予[!DNL Workfront]与ClientApp通信的权限。 如果用户已登录[!DNL Workfront]，则可以跳过此步骤。
 1. [!DNL Workfront] API向ClientApp发送授权代码。
-1. ClientApp在请求中将以下信息发送到[!DNL Workfront] API `/token`   端点：
+1. ClientApp在请求中将以下信息发送到[!DNL Workfront] API `/token`终结点：
 
    * 在步骤3中发送到ClientApp的授权代码。 这会标识用户权限的特定实例。
    * 在[!DNL Workfront]中设置ClientApp OAuth2应用程序时生成的客户端密钥。 这允许[!DNL Workfront]知道请求来自ClientApp。

@@ -2,20 +2,24 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: 卸载Workfront for Adobe Experience Manager增强型连接器
-description: 您必须将Workfront with Adobe Experience Manager增强型连接器卸载到连接Workfront和Adobe Experience Manager Assetsas a Cloud Service的最新本机集成。
+description: 您必须将Workfront with Adobe Experience Manager增强型连接器卸载到连接Workfront和Adobe Experience Manager Assets as a Cloud Service的最新本机集成。
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: c6203c71-a4c4-41ee-ac4e-57137661e5b3
-source-git-commit: 9673009f12509b5e7051ee91e142d311f333f215
+TQID: https://experienceleague.adobe.com/CeCyF8zbwp4tVcxQebq0EdaJqagDyppVuCL6ilqEvJA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: 260
 ht-degree: 0%
 
 ---
 
 # 使用Adobe Experience Manager增强型连接器卸载Workfront
 
-您必须将Workfront with Adobe Experience Manager增强型连接器卸载到连接Workfront和Adobe Experience Manager Assetsas a Cloud Service的最新本机集成。
+您必须将Workfront with Adobe Experience Manager增强型连接器卸载到连接Workfront和Adobe Experience Manager Assets as a Cloud Service的最新本机集成。
 
 ## 先决条件
 
@@ -86,7 +90,7 @@ ht-degree: 0%
    </repository>
    ```
 
-1. （有条件）从settings.xml中删除服务器配置，该配置位于以下路径中。项目根目录中的/cloudmanager/maven/settings.xml。&#39;
+1. （有条件）从settings.xml（位于项目根目录的以下路径./cloudmanager/maven/settings.xml中）中删除服务器配置。
 
    ```
            <server>
@@ -104,4 +108,4 @@ ht-degree: 0%
 
 1. 提交更改，并将代码推送到Cloud Manager存储库
 
-1. 运行Cloud Manager管道以在Cloud Service实例上部署更改
+1. 运行Cloud Manager管道以在您的云服务实例上部署更改

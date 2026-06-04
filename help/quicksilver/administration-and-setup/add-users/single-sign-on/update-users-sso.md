@@ -8,10 +8,15 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f9c543a-2ae2-4c2c-9c4d-647079263a7e
-source-git-commit: 75fea812b4574191522af4721a013b57aa5d609f
+TQID: https://experienceleague.adobe.com/2mU1xA5BWwaVNDZeLNbJPMgB6l3l6BSkmGjscht-G9Y
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 2%
+source-wordcount: 800
+ht-degree: 4%
 
 ---
 
@@ -28,17 +33,17 @@ ht-degree: 2%
 有关将Workfront与SSO系统集成的更多信息，请参阅[Adobe Workfront中的单点登录概述](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)。
 
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront包</td> 
-   <td><p>任何</p></td> 
+   <td role="rowheader">Adobe Workfront 包</td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -106,7 +111,7 @@ ht-degree: 2%
 
    用于更新SSO用户名为&#x200B;**的Workfront用户的文件必须**&#x200B;只包含2列，顺序如下：
 
-   * 第一列必须显示Workfront用户ID(即在Workfront中找到的用户GUID)。
+   * 第一列必须显示Workfront用户ID（即在Workfront中找到的用户GUID）。
    * 第二列必须包含SSO用户名，它显示在您的SSO系统中。
    * 列不得有标题，名称列表顶部不得有任何空行。
 

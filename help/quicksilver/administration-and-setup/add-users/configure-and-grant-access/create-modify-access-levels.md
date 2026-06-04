@@ -8,11 +8,17 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
+TQID: https://experienceleague.adobe.com/C-en7a6FEP75vl3HwJC-uDI4tEKVCcEgMzhClAK5C8k
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: 1424
 ht-degree: 8%
 
 ---
@@ -156,7 +162,7 @@ ht-degree: 8%
     <tbody> 
      <tr> 
       <td role="rowheader">不要给分派任务或问题的整个项目授予访问权限</td> 
-      <td> 阻止分配给任务或问题的用户也获得父项目的权限，即使项目权限允许这样做。<p>有关配置项目权限的详细信息，请参阅文章<a href="../../../manage-work/projects/manage-projects/edit-projects.md#access" class="MCXref xref"></a>编辑项目<a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">中的部分</a>。</p></td> 
+      <td> 阻止分配给任务或问题的用户也获得父项目的权限，即使项目权限允许这样做。<p>有关配置项目权限的详细信息，请参阅文章<a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">编辑项目</a>中的部分<a href="../../../manage-work/projects/manage-projects/edit-projects.md#access" class="MCXref xref"></a>。</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">不要从项目、任务、问题等...继承文档访问权限</td> 

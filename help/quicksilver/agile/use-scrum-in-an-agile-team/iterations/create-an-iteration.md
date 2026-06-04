@@ -6,11 +6,17 @@ description: 迭代是Scrum Agile团队规划工作容量的关键组件。 [!DN
 author: Courtney
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
+TQID: https://experienceleague.adobe.com/bKWJIRgfmrBnM-6RUyfuTCa7OtALNNYhMmLAlRPGSTg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: 1025
 ht-degree: 2%
 
 ---
@@ -64,11 +70,11 @@ ht-degree: 2%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 迭代名称]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL迭代名称]</strong></td> 
       <td>输入迭代的名称。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 目标]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL目标]</strong></td> 
       <td>添加任何迭代目标。</td> 
      </tr> 
      <tr> 
@@ -80,11 +86,11 @@ ht-degree: 2%
       <td><p>输入迭代应结束的日期。 [!DNL Workfront]建议设置的结束日期从开始日期起不超过4周。</p><p>提示：请确保选择工作日作为结束日期。 燃尽图的计算只使用工作日。<br>默认情况下，燃尽图使用默认时间表来定义工作日（如<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">创建时间表</a>中所述）。 或者，要合并团队特定的非工作日，Agile团队可以选择使用替代计划（如<a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">创建Agile团队</a>中的“为燃尽图定义替代团队计划”中所述）。</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 容量]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL容量]</strong></td> 
       <td> 指定迭代的容量。 这是您的团队在迭代中能够完成的点数或小时数。 您输入的数字必须等于或大于迭代中所有故事的总和中的点数或小时数。<br>[!DNL Workfront] 默认情况下，使用50个容量预填充此字段。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 焦点]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL焦点]</strong></td> 
       <td>指定团队的焦点百分比。 如果团队的所有成员都将完全专注于此迭代，则焦点将为100%。<br>[!DNL Workfront] 默认情况下，会使用100%预填充此字段。 </td> 
      </tr> 
     </tbody> 
@@ -106,7 +112,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
-> 在“积压”选项卡上规划迭代时，无法在“故事”或“问题”选项卡之间切换或添加其他任务。 创建开发周期后，您可以添加现有故事或问题。 有关详细信息，请参阅下面的“积压”选项卡[&#128279;](#add-tasks-or-issues-to-an-existing-iteration-on-the-backlog-tab)上的将任务或问题添加到现有迭代。
+> 在“积压”选项卡上规划迭代时，无法在“故事”或“问题”选项卡之间切换或添加其他任务。 创建开发周期后，您可以添加现有故事或问题。 有关详细信息，请参阅下面的“积压”选项卡](#add-tasks-or-issues-to-an-existing-iteration-on-the-backlog-tab)上的[将任务或问题添加到现有迭代。
 
 
 1. 指定以下信息：
@@ -116,7 +122,7 @@ ht-degree: 2%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 迭代名称]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL迭代名称]</strong></td> 
       <td>指定迭代的名称。</td> 
      </tr> 
      <tr> 
@@ -124,19 +130,19 @@ ht-degree: 2%
       <td> 指定迭代应开始的日期。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 结束日期]</strong> </td> 
+      <td role="rowheader"><strong>[！UICONTROL结束日期]</strong> </td> 
       <td><p>指定迭代应结束的日期。 [!DNL Workfront]建议设置的结束日期从开始日期起不超过4周。</p><p>提示：请确保选择工作日作为结束日期。 燃尽图的计算只使用工作日。<br>默认情况下，燃尽图使用默认时间表来定义工作日（如<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">创建时间表</a>中所述）。 或者，要合并特定于团队的非工作日，Agile团队可以选择使用替代计划（如<a href="../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md" class="MCXref xref">为燃尽图使用替代团队计划</a>中所述）。</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 焦点]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL焦点]</strong></td> 
       <td>指定团队的焦点百分比。 如果团队的所有成员都将完全专注于此迭代，则焦点将为100%。<br>[!DNL Workfront] 会使用您团队过去迭代的平均值预填充此字段。 如果这是您团队的第一个迭代，则默认情况下，此字段值为0。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><br><strong>[!UICONTROL 容量]</strong></td> 
+      <td role="rowheader"><br><strong>[！UICONTROL容量]</strong></td> 
       <td> 指定迭代的容量。 这是您的团队在迭代中能够完成的点数或小时数。 您输入的数字必须等于或大于迭代中所有故事的总和中的点数或小时数。<br>[!DNL Workfront] 会使用您团队过去迭代的平均值预填充此字段。 如果这是您团队的第一个迭代，则默认情况下，此字段值为0。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><br><strong>[!UICONTROL 目标]</strong></td> 
+      <td role="rowheader"><br><strong>[！UICONTROL目标]</strong></td> 
       <td> 指定迭代的目标。 此字段不是必填字段。</td> 
      </tr> 
     </tbody> 

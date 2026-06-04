@@ -10,12 +10,18 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/Q4zl3y3gXnQ-9-oO-JzaHFyN2NR0s8pdU0ND08f1oIM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914id: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1585'
-ht-degree: 14%
+source-wordcount: 1553
+ht-degree: 13%
 
 ---
 
@@ -539,7 +545,7 @@ ht-degree: 14%
 
 &#42;&#42;需要其他财务数据访问权限和项目财务权限。 如果您向无权访问财务数据的规划者用户授予资源管理访问权限，则该用户仍可以在资源规划者中查看小时分配，但无法切换到成本视图或查看业务案例。 有关详细信息，请参阅[授予对财务数据的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)和[共享对象的财务权限](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md)。
 
-&#42;&#42;&#42;需要权限才能向对象贡献内容，并在“高级设置”下启用“生成工作总揽”。 有关信息，请参阅[对象权限共享概述](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object)一文中的[了解继承的权限和对象的层次结构](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)部分。
+&#42;&#42;&#42;需要权限才能向对象贡献内容，并在“高级设置”下启用“生成工作总揽”。 有关信息，请参阅[对象权限共享概述](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)一文中的[了解继承的权限和对象的层次结构](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object)部分。
 
 ## 场景规划器区域
 

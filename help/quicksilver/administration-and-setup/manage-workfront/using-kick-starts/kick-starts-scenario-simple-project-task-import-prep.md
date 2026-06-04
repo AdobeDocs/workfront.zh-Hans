@@ -9,10 +9,15 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+TQID: https://experienceleague.adobe.com/--8-vO2RCBBbSZ2gfFl5RurpGviyK7sW6NauyoHKFhE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1493'
-ht-degree: 8%
+source-wordcount: 1402
+ht-degree: 10%
 
 ---
 
@@ -20,7 +25,7 @@ ht-degree: 8%
 
 详细描述了使用Kick-Start方法导入基本项目和任务时可用的设置和控件。
 
-## 方案
+## 场景
 
 实施团队宁愿导入活动项目的项目和任务信息，而不是手动将此数据输入到系统中。
 
@@ -174,7 +179,7 @@ ht-degree: 8%
      </tr> 
      <tr> 
       <td role="rowheader">工作</td> 
-      <td>4小时</td> 
+      <td>4 小时</td> 
      </tr> 
      <tr> 
       <td role="rowheader">完成百分比</td> 
@@ -199,7 +204,7 @@ ht-degree: 8%
      </tr> 
      <tr> 
       <td role="rowheader">工作</td> 
-      <td>4小时</td> 
+      <td>4 小时</td> 
      </tr> 
      <tr> 
       <td role="rowheader">完成百分比</td> 
@@ -224,7 +229,7 @@ ht-degree: 8%
      </tr> 
      <tr> 
       <td role="rowheader">工作</td> 
-      <td>4小时</td> 
+      <td>4 小时</td> 
      </tr> 
      <tr> 
       <td role="rowheader">完成百分比</td> 
@@ -235,7 +240,7 @@ ht-degree: 8%
 
 1. 转出。
 
-   | 前置任务 | 1， 6， 7 |
+   | 前置任务 | 1, 6, 7 |
    |---|---|
 
    {style="table-layout:auto"}
@@ -303,7 +308,7 @@ ht-degree: 8%
 * **提供项目日期。**
 在setPlannedStartDate列中为每个项目输入计划开始日期。
 * **设置其他所需的详细信息。**
-根据需要填写其他详细信息，例如描述或当前状态。 在“组ID”工作表中查找每个项目的组ID，并将其输入各个项目的setGroupID列。 在CMPY公司页上查找项目的公司ID，并将其输入到setCompanyID列中。 在“用户用户”工作表中查找每个项目所有者的用户ID，并将其输入到setOwnerID列中。 在用户用户工作表中查找每个项目发起人的用户ID，并将其输入到setSponsiderID列中。
+根据需要填写其他详细信息，例如描述或当前状态。在“组ID”工作表中查找每个项目的组ID，并将其输入各个项目的setGroupID列。在CMPY公司页上查找项目的公司ID，并将其输入到setCompanyID列中。在“用户用户”工作表中查找每个项目所有者的用户ID，并将其输入到setOwnerID列中。在用户用户工作表中查找每个项目发起人的用户ID，并将其输入到setSponsiderID列中。
 
 ![设置值](assets/im9.png)
 
@@ -333,7 +338,7 @@ ht-degree: 8%
 在ID列的每一行中输入一个唯一的ID。
 * **设置名称**
 将任务名称输入到setName列中。
-* **确认项目ID**
+* **确认项目标识**
 输入您为实施Workfront项目设置的ID；查看PROJ项目表以确保该ID正确无误。
 * **设置用户**
 转到“用户”工作表查找分配给每个任务的用户的ID，并在setAssignedToID列的相应单元格中输入这些值。
@@ -344,11 +349,11 @@ ht-degree: 8%
 
   |   | 可接受值 |
   |---|---|
-  | 分钟 | 一 |
+  | Minutes | 一 |
   | 小时 | H |
-  | 天数 | D |
-  | 周 | 星期- |
-  | 月 | T |
+  | Days | D |
+  | Weeks | 星期- |
+  | Months | T |
 
   分钟数也可以表示为一小时的小数（例如，分钟数= 5小时）
 

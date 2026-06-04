@@ -4,16 +4,22 @@ description: Workfront UI Extensions 由 Adobe App Builder 提供支持，允许
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+TQID: https://experienceleague.adobe.com/k2cF0H-CM1DhlRvIl7zPyz-G30wi-Q4c16ClcB-vpCs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2269'
-ht-degree: 0%
+source-wordcount: 2329
+ht-degree: 1%
 
 ---
 
 # 使用Adobe App Builder为Workfront创建自定义应用程序
 
-由Adobe App Builder提供支持的Workfront UI扩展允许客户和合作伙伴创建自定义的用户体验。 这些工具提高了效率，提供了无缝的、互联的体验，并显着提高了用户满意度，并帮助企业实现他们独特的愿景。
+Workfront UI Extensions 由 Adobe App Builder 提供支持，允许客户和合作伙伴创建自定义的用户体验。 这些工具提高了效率，提供了无缝的、互联的体验，并显着提高了用户满意度，并帮助企业实现他们独特的愿景。
 
 例如，如果没有Workfront UI扩展，项目经理可能需要在Workfront和单独的时间跟踪系统之间切换以记录小时数。 通过UI扩展，可以将时间跟踪直接集成到Workfront体验中，从而简化工作流并节省时间。 此外，您还可以添加自定义组件以提高可用性，自动执行重复任务，并通过元数据标记和内容预览等功能增强内容管理。 Adobe App Builder还提供了可扩展性和强大的身份管理(IMS)，确保在任何规模下均能安全高效地自定义。
 
@@ -229,7 +235,7 @@ GitHub和Adobe Developer网站上提供了其他说明：
 
 #### 配置构件扩展
 
-与主菜单和辅助导航的UI扩展点类似，“小组件”扩展点通常在`ExtensionRegistration`字段中配置于`ExtensionRegistration.js`组件的methods对象中。 这意味着使用表单构件只需要在app.js中的`extesionregistration`中添加一个具有有效路由的“构件”项目：
+与主菜单和辅助导航的UI扩展点类似，“小组件”扩展点通常在`ExtensionRegistration.js`字段中配置于`ExtensionRegistration`组件的methods对象中。 这意味着使用表单构件只需要在app.js中的`extesionregistration`中添加一个具有有效路由的“构件”项目：
 
 ```
 javascript 

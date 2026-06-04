@@ -8,10 +8,15 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
-source-git-commit: 31e5f5e039e25fa25f3038c23ee579ba1f830bb7
+TQID: https://experienceleague.adobe.com/4H5MhQIywl31xNFiBlCsDkFKKTmy-8dk2bIJtedfGo8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 2%
+source-wordcount: 443
+ht-degree: 3%
 
 ---
 
@@ -31,16 +36,16 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] 包</td> 
-   <td><p>任何</p></td> 
+   <td><p>“任一”</p></td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>[!UICONTROL 标准版]</p>
-       <p>[!UICONTROL 计划]</p></td>
+   <td><p>[！UICONTROL标准版]</p>
+       <p>[！UICONTROL计划]</p></td>
   </tr> 
   <tr> 
    <td>访问级别配置</td> 
-   <td>[!UICONTROL 系统管理员]</td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,7 +76,7 @@ You must have at least one request type selected. You can select multiple reques
 作为[!DNL Workfront]管理员，您可以在系统中配置请求类型的名称。 新名称显示在[!DNL Workfront]中显示&#x200B;**[!UICONTROL 问题类型]**&#x200B;或&#x200B;**[!UICONTROL 请求类型]**&#x200B;字段的任何区域：
 
 * 在接收问题或请求的项目的&#x200B;**[!UICONTROL 队列详细信息]**&#x200B;区域中。
-* 如果您为请求队列选择了多个请求类型，则在创建新问题或提交新请求时，请在&#x200B;**[!UICONTROL 问题类型]字段的**&#x200B;新建问题&#x200B;**[!UICONTROL 表单]**&#x200B;中进行。
+* 如果您为请求队列选择了多个请求类型，则在创建新问题或提交新请求时，请在&#x200B;**[!UICONTROL 问题类型]**&#x200B;字段的&#x200B;**[!UICONTROL 新建问题]表单**&#x200B;中进行。
 
   有关在[!DNL Workfront]中创建问题的详细信息，请参阅[创建问题](../../../manage-work/issues/manage-issues/create-issues.md)
 

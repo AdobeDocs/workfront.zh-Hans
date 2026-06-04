@@ -5,10 +5,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4343f0ff-2f78-4556-801f-db9d94f80c95
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+TQID: https://experienceleague.adobe.com/oIZ0F7oKuK-UsGCnjgXQphxTLqBcYCxHuGEHKBN328Y
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 0%
+source-wordcount: 610
+ht-degree: 3%
 
 ---
 
@@ -18,16 +24,16 @@ ht-degree: 0%
 
 除了访问Scenario Planner之外，具有非系统管理员访问级别的用户还必须具有财务数据的访问权限，才能查看计划中包含的任何财务信息，如预算、成本和工作角色费率。 有关详细信息，请参阅[授予对财务数据的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)。
 
-## 访问要求
+## 访问权限要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开可查看本文所述功能的访问权限要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Workfront包</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront 包</p> </td> 
    <td>业务或更高</td> 
   </tr> 
   <tr> 
@@ -69,7 +75,7 @@ ht-degree: 0%
 
 ## 按许可证类型访问Scenario Planner
 
-有关每个访问级别中的用户可以对Scenario Planner执行哪些操作的信息，请参阅[可用于每个对象类型的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#scenario)一文中的[Scenario Planner区域](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)部分。
+有关每个访问级别中的用户可以对Scenario Planner执行哪些操作的信息，请参阅[可用于每个对象类型的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)一文中的[Scenario Planner区域](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#scenario)部分。
 
 ## 按访问级别设置显示的Scenario Planner访问权限
 
